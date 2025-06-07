@@ -10,31 +10,31 @@ public class Program
     private static dynamic[] _languages = new[] {
 	    // Asia
 	    new { lang = "zh-CN", name = "Simplified Chinese", native = "简体中文" },
-        // new { lang = "zh-TW", name = "Traditional Chinese", native = "繁體中文" },
-        // new { lang = "ja", name = "Japanese", native = "日本語" },
-        // new { lang = "ko", name = "Korean", native = "한국어" },
-        // new { lang = "hi", name = "Hindi", native = "हिन्दी" },
-        // new { lang = "th", name = "Thai", native = "ไทย" },
+         new { lang = "zh-TW", name = "Traditional Chinese", native = "繁體中文" },
+         new { lang = "ja", name = "Japanese", native = "日本語" },
+         new { lang = "ko", name = "Korean", native = "한국어" },
+         new { lang = "hi", name = "Hindi", native = "हिन्दी" },
+         new { lang = "th", name = "Thai", native = "ไทย" },
 	    
-	    // // EU
-	    // new { lang = "en", name = "English", native = "English" },
-        // new { lang = "fr", name = "French", native = "Français" },
-        // new { lang = "de", name = "German", native = "Deutsch" },
-        // new { lang = "es", name = "Spanish", native = "Español" },
-        // new { lang = "it", name = "Italian", native = "Italiano" },
-        // new { lang = "ru", name = "Russian", native = "Русский" },
-        // new { lang = "pt", name = "Portuguese", native = "Português" },
-        // new { lang = "nl", name = "Dutch", native = "Nederlands" },
-        // new { lang = "pl", name = "Polish", native = "Polski" },
+	     // EU
+	     new { lang = "en", name = "English", native = "English" },
+         new { lang = "fr", name = "French", native = "Français" },
+         new { lang = "de", name = "German", native = "Deutsch" },
+         new { lang = "es", name = "Spanish", native = "Español" },
+         new { lang = "it", name = "Italian", native = "Italiano" },
+         new { lang = "ru", name = "Russian", native = "Русский" },
+         new { lang = "pt", name = "Portuguese", native = "Português" },
+         new { lang = "nl", name = "Dutch", native = "Nederlands" },
+         new { lang = "pl", name = "Polish", native = "Polski" },
 	    
-	    // // Middle Eastern
-	    // new { lang = "ar", name = "Arabic", native = "العربية" },
-        // new { lang = "fa", name = "Persian", native = "فارسی" },
-        // new { lang = "tr", name = "Turkish", native = "Türkçe" },
+	     // Middle Eastern
+	     new { lang = "ar", name = "Arabic", native = "العربية" },
+         new { lang = "fa", name = "Persian", native = "فارسی" },
+         new { lang = "tr", name = "Turkish", native = "Türkçe" },
 	    
-	    // // Other
-	    // new { lang = "vi", name = "Vietnamese", native = "Tiếng Việt" },
-        // new { lang = "id", name = "Indonesian", native = "Bahasa Indonesia" }
+	     // Other
+	     new { lang = "vi", name = "Vietnamese", native = "Tiếng Việt" },
+         new { lang = "id", name = "Indonesian", native = "Bahasa Indonesia" }
     };
     private static string _gitRootPath = @"../../../../../projects";
     private static string _githubToken;
@@ -59,10 +59,14 @@ public class Program
             var sDate = DateTime.UtcNow.AddDays(-daysAgo);
             var eDdate = sDate.AddDays(2);
             // page 1-20 random
-            var page = random.Next(1,20);
-            var queryQ = $"q=created:{sDate.ToString("yyyy-MM-dd")}..{eDdate.ToString("yyyy-MM-dd")}%20stars:>=20%20fork:false&sort=updated&order=desc&page={page}&per_page=1";
+            var page = random.Next(1, 20);
+            var queryQ = $"q=created:{sDate.ToString("yyyy-MM-dd")}..{eDdate.ToString("yyyy-MM-dd")}%20stars:>=20%20fork:false&sort=updated&order=desc&page={page}&per_page=3";
             Console.WriteLine($"----start----");
             Console.WriteLine($"QueryQ : {queryQ}");
+
+            var projectsDataFile = $"../../../../../projects-data.json";
+            var json = await File.ReadAllTextAsync(projectsDataFile);
+            var projectsData = JsonConvert.DeserializeObject<List<GitHubProject>>(json);
 
             var response = await _client.GetAsync($"https://api.github.com/search/repositories?{queryQ}");
             if (response.StatusCode == System.Net.HttpStatusCode.Forbidden)
@@ -86,6 +90,26 @@ public class Program
                         var stargazers_count = item.GetProperty("stargazers_count").GetInt32();
 
                         var readmeData = await GetReadmeUrl(fullName);
+
+                        var existProject = projectsData.FirstOrDefault(p => p.fullName == fullName );
+                        if (existProject != null) {
+                            if (existProject.sha == readmeData.Item2)
+                            {
+                                Console.WriteLine($"Project {fullName} already indexed with same sha, skipping.");
+                                continue;
+                            }
+                            else
+                            {
+                                Console.WriteLine($"Project {fullName} updated with new sha, updating...");
+                            }
+                        }
+                        else if (readmeData.Item1 == "" || readmeData.Item2 == "" || readmeData.Item3 == 0)
+                        {
+                            Console.WriteLine($"Project {fullName} has no README.md, skipping.");
+                            continue;
+                        }
+
+
                         var project = new GitHubProject
                         {
                             fullName = fullName,
@@ -93,7 +117,8 @@ public class Program
                             readmeUrl = readmeData.Item1,
                             sha = readmeData.Item2,
                             siz = readmeData.Item3,
-                            stargazers_count = stargazers_count
+                            stargazers_count = stargazers_count,
+                            indexTime = DateTime.UtcNow
                         };
 
                         string user = (fullName).Split("/")[0];
@@ -106,33 +131,28 @@ public class Program
                         foreach (var lan in _languages)
                         {
                             var filePath = $"{_gitRootPath}/{user}/{projectName}/README-{lan.lang}.md";
-                            if (File.Exists(filePath))
-                            {
-                                Console.WriteLine($"{filePath} exist");
-                                continue;
-                            }
+                            
                             await File.WriteAllTextAsync(filePath, "");
                             Console.WriteLine($"project: {project.fullName}, stars: {project.stargazers_count}");
 
                             var lastIndex = project.readmeUrl.LastIndexOf('/');
                             var blobUrl = project.readmeUrl.Substring(0, lastIndex + 1); // 包含最后的 /
-                            string txt = await TranslateTextAsync(originalContent
+                            var (txt, usage) = await TranslateTextAsync(originalContent
                                 , $"Translate the following technical document into {lan.name}, preserving the original Markdown format, Relative paths in markdown, please complete with {blobUrl}:");
 
+                            Console.WriteLine($"Token usage for {lan.name} translation:");
+                            Console.WriteLine($"Prompt tokens: {usage.PromptTokens}");
+                            Console.WriteLine($"Completion tokens: {usage.CompletionTokens}");
+                            Console.WriteLine($"Total tokens: {usage.TotalTokens}");
+
                             await File.WriteAllTextAsync(filePath, txt);
-                            await File.AppendAllTextAsync(filePath, $"\n\r\n\r---\n\r\n\rPowered By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: {DateTime.UtcNow.ToString("yyyy-MM-dd")}\n\r\n\r---");
+                            await File.AppendAllTextAsync(filePath, $"\n\r\n\r---\n\r\n\rTranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: {DateTime.UtcNow.ToString("yyyy-MM-dd")}\n\r\n\r---");
                             Console.WriteLine($"{filePath} OK");
 
-                            // projects-data.json add project
-                            var projectsDataFile = $"../../../../../projects-data.json";
-                            if (File.Exists(projectsDataFile))
-                            {
-                                var json = await File.ReadAllTextAsync(projectsDataFile);
-                                var projectsData = JsonConvert.DeserializeObject<List<GitHubProject>>(json);
-                                projectsData.Add(project);
-                                await File.WriteAllTextAsync(projectsDataFile, JsonConvert.SerializeObject(projectsData, Formatting.Indented));
-                            }
                         }
+ 
+                        projectsData.Add(project);
+                        await File.WriteAllTextAsync(projectsDataFile, JsonConvert.SerializeObject(projectsData, Formatting.Indented));
                     }
                 }
             }
@@ -153,9 +173,17 @@ public class Program
         public string sha { get; set; }
         public int siz { get; set; }
         public int stargazers_count { get; set; }
+        public DateTime indexTime { get; set; }
     }
 
-    private static async Task<string> TranslateTextAsync(string text, string instruction)
+    public class TokenUsage
+    {
+        public int PromptTokens { get; set; }
+        public int CompletionTokens { get; set; }
+        public int TotalTokens { get; set; }
+    }
+
+    private static async Task<(string translatedText, TokenUsage usage)> TranslateTextAsync(string text, string instruction)
     {
         var requestBody = new
         {
@@ -188,8 +216,14 @@ public class Program
         dynamic responseData = JsonConvert.DeserializeObject(responseJson);
         string translatedText = responseData.choices[0].message.content;
 
-        return translatedText;
+        var usage = new TokenUsage
+        {
+            PromptTokens = responseData.usage.prompt_tokens,
+            CompletionTokens = responseData.usage.completion_tokens,
+            TotalTokens = responseData.usage.total_tokens
+        };
 
+        return (translatedText, usage);
     }
 
     private static void CreateDirectoryFolder(string directoryPath)
