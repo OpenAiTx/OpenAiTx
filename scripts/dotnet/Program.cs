@@ -150,7 +150,8 @@ public class Program
                             Console.WriteLine($"{filePath} OK");
 
                         }
- 
+
+                        projectsData.RemoveAll(p => p.fullName == project.fullName);
                         projectsData.Add(project);
                         await File.WriteAllTextAsync(projectsDataFile, JsonConvert.SerializeObject(projectsData, Formatting.Indented));
                     }
