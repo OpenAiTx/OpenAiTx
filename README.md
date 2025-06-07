@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ---
 
 ## Example
@@ -20,13 +24,7 @@
 
 [English](https://github.com/OpenAiTx/OpenAiTx/blob/main/projects/OpenAiTx/OpenAiTx/README-en.md) | [简体中文](https://github.com/OpenAiTx/OpenAiTx/blob/main/projects/OpenAiTx/OpenAiTx/README-zh-CN.md) | [繁體中文](https://github.com/OpenAiTx/OpenAiTx/blob/main/projects/OpenAiTx/OpenAiTx/README-zh-TW.md) | [日本語](https://github.com/OpenAiTx/OpenAiTx/blob/main/projects/OpenAiTx/OpenAiTx/README-ja.md) | [한국어](https://github.com/OpenAiTx/OpenAiTx/blob/main/projects/OpenAiTx/OpenAiTx/README-ko.md) | [हिन्दी](https://github.com/OpenAiTx/OpenAiTx/blob/main/projects/OpenAiTx/OpenAiTx/README-hi.md) | [ไทย](https://github.com/OpenAiTx/OpenAiTx/blob/main/projects/OpenAiTx/OpenAiTx/README-th.md) | [Français](https://github.com/OpenAiTx/OpenAiTx/blob/main/projects/OpenAiTx/OpenAiTx/README-fr.md) | [Deutsch](https://github.com/OpenAiTx/OpenAiTx/blob/main/projects/OpenAiTx/OpenAiTx/README-de.md) | [Español](https://github.com/OpenAiTx/OpenAiTx/blob/main/projects/OpenAiTx/OpenAiTx/README-es.md) | [Italiano](https://github.com/OpenAiTx/OpenAiTx/blob/main/projects/OpenAiTx/OpenAiTx/README-it.md) | [Русский](https://github.com/OpenAiTx/OpenAiTx/blob/main/projects/OpenAiTx/OpenAiTx/README-ru.md) | [Português](https://github.com/OpenAiTx/OpenAiTx/blob/main/projects/OpenAiTx/OpenAiTx/README-pt.md) | [Nederlands](https://github.com/OpenAiTx/OpenAiTx/blob/main/projects/OpenAiTx/OpenAiTx/README-nl.md) | [Polski](https://github.com/OpenAiTx/OpenAiTx/blob/main/projects/OpenAiTx/OpenAiTx/README-pl.md) | [العربية](https://github.com/OpenAiTx/OpenAiTx/blob/main/projects/OpenAiTx/OpenAiTx/README-ar.md) | [فارسی](https://github.com/OpenAiTx/OpenAiTx/blob/main/projects/OpenAiTx/OpenAiTx/README-fa.md) | [Türkçe](https://github.com/OpenAiTx/OpenAiTx/blob/main/projects/OpenAiTx/OpenAiTx/README-tr.md) | [Tiếng Việt](https://github.com/OpenAiTx/OpenAiTx/blob/main/projects/OpenAiTx/OpenAiTx/README-vi.md) | [Bahasa Indonesia](https://github.com/OpenAiTx/OpenAiTx/blob/main/projects/OpenAiTx/OpenAiTx/README-id.md)
 
----
-
-
-
-## Video Demo
-
-<video src="OpenAiTx Demo.mp4"></video>
+### [Video Demo](https://youtu.be/d2VDtoutYg4)
 
 
 
