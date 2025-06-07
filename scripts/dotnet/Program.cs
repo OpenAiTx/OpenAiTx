@@ -55,11 +55,10 @@ public class Program
         while (true)
         {
             var random = new Random();
-            var daysAgo = random.Next(365, 365 * 3);
+            var daysAgo = random.Next(0, 365 * 3);
             var sDate = DateTime.UtcNow.AddDays(-daysAgo);
             var eDdate = sDate.AddDays(2);
-            // page 1-20 random
-            var page = random.Next(1, 20);
+            var page = random.Next(1, 5);
             var queryQ = $"q=created:{sDate.ToString("yyyy-MM-dd")}..{eDdate.ToString("yyyy-MM-dd")}%20stars:>=20%20fork:false&sort=updated&order=desc&page={page}&per_page=3";
             Console.WriteLine($"----start----");
             Console.WriteLine($"QueryQ : {queryQ}");
