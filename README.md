@@ -1,14 +1,10 @@
 # Open Ai Tx
 
+![](https://openaitx.github.io/logo_crop.png)
+
 **OpenAiTx** automatically creates 20 languages translate readme for your GitHub project, you just need to replace project URL `GitHub` by `OpenAiTx` . e.g. https://github.com/OpenAiTx/OpenAiTx : to https://openaitx.com/OpenAiTx/OpenAiTx
 
 
-
-
-
-
-
----
 
 ## Example
 
