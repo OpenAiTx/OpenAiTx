@@ -1,4 +1,4 @@
-# OpenAiTx
+# Open Ai Tx
 
 **OpenAiTx** automatically creates 20 languages translate readme for your GitHub project, you just need to replace project URL `GitHub` by `OpenAiTx` . e.g. https://github.com/OpenAiTx/OpenAiTx : to https://openaitx.com/OpenAiTx/OpenAiTx
 
@@ -37,7 +37,11 @@ Note: **Please do not upload or leak your tokens!**
 
 ## Other
 
-If you would like get high sync priority, please create a PR and add your project github link in `priority-list.json`.
+- If you would like get high priority and continues update, please create a PR and add your project github link in `priority-list.json`.
+- You can get index projects in `projects-data.json`.
 
 
 
+### Thanks
+
+- Microsoft MVP team provides open source community azure platform free budget.

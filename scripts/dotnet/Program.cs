@@ -55,7 +55,7 @@ public class Program
         {
             var random = new Random();
             var daysAgo = random.Next(365, 365 * 3);
-            var sDate = DateTime.Now.AddDays(-daysAgo);
+            var sDate = DateTime.UtcNow.AddDays(-daysAgo);
             var eDdate = sDate.AddDays(2);
             // page 1-20 random
             var page = random.Next(1,20);
@@ -111,11 +111,12 @@ public class Program
                                 continue;
                             }
                             await File.WriteAllTextAsync(filePath, "");
+                            Console.WriteLine($"project: {project.fullName}, stars: {project.stargazers_count}");
                             string txt = await TranslateTextAsync(originalContent
                                 , $"Translate the following technical document into {lan.name}, preserving the original Markdown format:");
 
                             await File.WriteAllTextAsync(filePath, txt);
-                            await File.AppendAllTextAsync(filePath, $"\n\r\n\r---\n\r\n\r[Powered By OpenAiTx](https://github.com/OpenAiTx/OpenAiTx) - {DateTime.Now.ToString("yyyy-MM-dd")}\n\r\n\r---");
+                            await File.AppendAllTextAsync(filePath, $"\n\r\n\r---\n\r\n\r[Powered By OpenAiTx](https://github.com/OpenAiTx/OpenAiTx) - {DateTime.UtcNow.ToString("yyyy-MM-dd")}\n\r\n\r---");
                             Console.WriteLine($"{filePath} OK");
                         }
                     }
