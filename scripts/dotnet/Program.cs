@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using System;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
@@ -9,31 +10,31 @@ public class Program
     private static dynamic[] _languages = new[] {
 	    // Asia
 	    new { lang = "zh-CN", name = "Simplified Chinese", native = "简体中文" },
-        new { lang = "zh-TW", name = "Traditional Chinese", native = "繁體中文" },
-        new { lang = "ja", name = "Japanese", native = "日本語" },
-        new { lang = "ko", name = "Korean", native = "한국어" },
-        new { lang = "hi", name = "Hindi", native = "हिन्दी" },
-        new { lang = "th", name = "Thai", native = "ไทย" },
+        // new { lang = "zh-TW", name = "Traditional Chinese", native = "繁體中文" },
+        // new { lang = "ja", name = "Japanese", native = "日本語" },
+        // new { lang = "ko", name = "Korean", native = "한국어" },
+        // new { lang = "hi", name = "Hindi", native = "हिन्दी" },
+        // new { lang = "th", name = "Thai", native = "ไทย" },
 	    
-	    // EU
-	    new { lang = "en", name = "English", native = "English" },
-        new { lang = "fr", name = "French", native = "Français" },
-        new { lang = "de", name = "German", native = "Deutsch" },
-        new { lang = "es", name = "Spanish", native = "Español" },
-        new { lang = "it", name = "Italian", native = "Italiano" },
-        new { lang = "ru", name = "Russian", native = "Русский" },
-        new { lang = "pt", name = "Portuguese", native = "Português" },
-        new { lang = "nl", name = "Dutch", native = "Nederlands" },
-        new { lang = "pl", name = "Polish", native = "Polski" },
+	    // // EU
+	    // new { lang = "en", name = "English", native = "English" },
+        // new { lang = "fr", name = "French", native = "Français" },
+        // new { lang = "de", name = "German", native = "Deutsch" },
+        // new { lang = "es", name = "Spanish", native = "Español" },
+        // new { lang = "it", name = "Italian", native = "Italiano" },
+        // new { lang = "ru", name = "Russian", native = "Русский" },
+        // new { lang = "pt", name = "Portuguese", native = "Português" },
+        // new { lang = "nl", name = "Dutch", native = "Nederlands" },
+        // new { lang = "pl", name = "Polish", native = "Polski" },
 	    
-	    // Middle Eastern
-	    new { lang = "ar", name = "Arabic", native = "العربية" },
-        new { lang = "fa", name = "Persian", native = "فارسی" },
-        new { lang = "tr", name = "Turkish", native = "Türkçe" },
+	    // // Middle Eastern
+	    // new { lang = "ar", name = "Arabic", native = "العربية" },
+        // new { lang = "fa", name = "Persian", native = "فارسی" },
+        // new { lang = "tr", name = "Turkish", native = "Türkçe" },
 	    
-	    // Other
-	    new { lang = "vi", name = "Vietnamese", native = "Tiếng Việt" },
-        new { lang = "id", name = "Indonesian", native = "Bahasa Indonesia" }
+	    // // Other
+	    // new { lang = "vi", name = "Vietnamese", native = "Tiếng Việt" },
+        // new { lang = "id", name = "Indonesian", native = "Bahasa Indonesia" }
     };
     private static string _gitRootPath = @"../../../../../projects";
     private static string _githubToken;
@@ -85,14 +86,14 @@ public class Program
                         var stargazers_count = item.GetProperty("stargazers_count").GetInt32();
 
                         var readmeData = await GetReadmeUrl(fullName);
-                        var project = new
+                        var project = new GitHubProject
                         {
-                            fullName,
-                            htmlUrl,
+                            fullName = fullName,
+                            htmlUrl = htmlUrl,
                             readmeUrl = readmeData.Item1,
                             sha = readmeData.Item2,
                             siz = readmeData.Item3,
-                            stargazers_count
+                            stargazers_count = stargazers_count
                         };
 
                         string user = (fullName).Split("/")[0];
@@ -112,12 +113,25 @@ public class Program
                             }
                             await File.WriteAllTextAsync(filePath, "");
                             Console.WriteLine($"project: {project.fullName}, stars: {project.stargazers_count}");
+
+                            var lastIndex = project.readmeUrl.LastIndexOf('/');
+                            var blobUrl = project.readmeUrl.Substring(0, lastIndex + 1); // 包含最后的 /
                             string txt = await TranslateTextAsync(originalContent
-                                , $"Translate the following technical document into {lan.name}, preserving the original Markdown format:");
+                                , $"Translate the following technical document into {lan.name}, preserving the original Markdown format, Relative paths in markdown, please complete with {blobUrl}:");
 
                             await File.WriteAllTextAsync(filePath, txt);
-                            await File.AppendAllTextAsync(filePath, $"\n\r\n\r---\n\r\n\r[Powered By OpenAiTx](https://github.com/OpenAiTx/OpenAiTx) - {DateTime.UtcNow.ToString("yyyy-MM-dd")}\n\r\n\r---");
+                            await File.AppendAllTextAsync(filePath, $"\n\r\n\r---\n\r\n\rPowered By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: {DateTime.UtcNow.ToString("yyyy-MM-dd")}\n\r\n\r---");
                             Console.WriteLine($"{filePath} OK");
+
+                            // projects-data.json add project
+                            var projectsDataFile = $"../../../../../projects-data.json";
+                            if (File.Exists(projectsDataFile))
+                            {
+                                var json = await File.ReadAllTextAsync(projectsDataFile);
+                                var projectsData = JsonConvert.DeserializeObject<List<GitHubProject>>(json);
+                                projectsData.Add(project);
+                                await File.WriteAllTextAsync(projectsDataFile, JsonConvert.SerializeObject(projectsData, Formatting.Indented));
+                            }
                         }
                     }
                 }
@@ -129,6 +143,16 @@ public class Program
 
             Thread.Sleep(15 * 1000);
         }
+    }
+
+    public class GitHubProject
+    {
+        public string fullName { get; set; }
+        public string htmlUrl { get; set; }
+        public string readmeUrl { get; set; }
+        public string sha { get; set; }
+        public int siz { get; set; }
+        public int stargazers_count { get; set; }
     }
 
     private static async Task<string> TranslateTextAsync(string text, string instruction)
