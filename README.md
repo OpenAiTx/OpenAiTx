@@ -24,6 +24,12 @@
 
 
 
+## Video Demo
+
+<video src="OpenAiTx Demo.mp4"></video>
+
+
+
 ## Support/Contribution 
 
 **This project does not need your money, but it does need your computer's computing power, PR contributions, and Tokens.**
