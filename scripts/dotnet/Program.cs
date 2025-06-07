@@ -137,18 +137,24 @@ public class Program
 
                             var lastIndex = project.readmeUrl.LastIndexOf('/');
                             var blobUrl = project.readmeUrl.Substring(0, lastIndex + 1); // 包含最后的 /
-                            var (txt, usage) = await TranslateTextAsync(originalContent
-                                , $"Translate the following technical document into {lan.name}, preserving the original Markdown format, Relative paths in markdown, please complete with {blobUrl}:");
+                            try
+                            {
+                                var (txt, usage) = await TranslateTextAsync(originalContent
+                                    , $"Translate the following technical document into {lan.name}, preserving the original Markdown format, Relative paths in markdown, please complete with {blobUrl}:");
+                                Console.WriteLine($"Token usage for {lan.name} translation:");
+                                Console.WriteLine($"Prompt tokens: {usage.PromptTokens}");
+                                Console.WriteLine($"Completion tokens: {usage.CompletionTokens}");
+                                Console.WriteLine($"Total tokens: {usage.TotalTokens}");
 
-                            Console.WriteLine($"Token usage for {lan.name} translation:");
-                            Console.WriteLine($"Prompt tokens: {usage.PromptTokens}");
-                            Console.WriteLine($"Completion tokens: {usage.CompletionTokens}");
-                            Console.WriteLine($"Total tokens: {usage.TotalTokens}");
-
-                            await File.WriteAllTextAsync(filePath, txt);
-                            await File.AppendAllTextAsync(filePath, $"\n\r\n\r---\n\r\n\rTranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: {DateTime.UtcNow.ToString("yyyy-MM-dd")}\n\r\n\r---");
-                            Console.WriteLine($"{filePath} OK");
-
+                                await File.WriteAllTextAsync(filePath, txt);
+                                await File.AppendAllTextAsync(filePath, $"\n\r\n\r---\n\r\n\rTranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: {DateTime.UtcNow.ToString("yyyy-MM-dd")}\n\r\n\r---");
+                                Console.WriteLine($"{filePath} OK");
+                            }
+                            catch (Exception ex)
+                            {
+                                Console.WriteLine(ex.Message);
+                                continue;
+                            }
                         }
 
                         projectsData.RemoveAll(p => p.fullName == project.fullName);
