@@ -266,8 +266,8 @@ freeCodeCamp.org มีใบรับรองนักพัฒนาให้
 - ซอฟต์แวร์คอมพิวเตอร์ได้รับอนุญาตภายใต้สัญญาอนุญาต [BSD-3-Clause](LICENSE.md)
 - แหล่งเรียนรู้ในไดเรกทอรี [`/curriculum`](/curriculum) รวมถึงไดเรกทอรีย่อยทั้งหมดนั้น สงวนลิขสิทธิ์ © 2025 freeCodeCamp.org
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

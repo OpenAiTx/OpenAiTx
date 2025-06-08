@@ -121,8 +121,8 @@ Vue में योगदान देने वाले सभी लोग�
 
 कॉपीराइट (c) 2013-वर्तमान, युशी (इवान) यू
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

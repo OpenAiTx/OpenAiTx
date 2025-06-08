@@ -77,8 +77,8 @@ Facebook 採用了行為準則，我們期望專案參與者能遵守。請閱�
 
 React 採用 [MIT 授權](./LICENSE)。
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

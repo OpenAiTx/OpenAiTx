@@ -266,8 +266,8 @@ De inhoud van deze repository valt onder de volgende licenties:
 - De computersoftware is gelicentieerd onder de [BSD-3-Clause](LICENSE.md) licentie.
 - De leermaterialen in de [`/curriculum`](/curriculum) map inclusief de submappen daarvan zijn copyright © 2025 freeCodeCamp.org
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

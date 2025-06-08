@@ -229,8 +229,8 @@
 
 इस रिपोजिटरी में शामिल प्रत्येक फ़ाइल [CC BY License](LICENSE) के अंतर्गत लाइसेंस प्राप्त है।
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

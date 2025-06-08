@@ -77,8 +77,8 @@ Facebookは、プロジェクト参加者が遵守すべき行動規範を採用
 
 Reactは[MITライセンス](./LICENSE)です。
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

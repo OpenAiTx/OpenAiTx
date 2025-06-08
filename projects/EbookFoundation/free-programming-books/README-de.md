@@ -228,8 +228,8 @@ Dir fällt auf, dass es [hier einige fehlende Übersetzungen gibt](docs/README.m
 
 Jede Datei in diesem Repository ist unter der [CC BY-Lizenz](LICENSE) lizenziert.
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

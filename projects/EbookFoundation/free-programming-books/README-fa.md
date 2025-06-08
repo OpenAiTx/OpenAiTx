@@ -228,8 +228,8 @@
 
 هر فایل موجود در این مخزن تحت [مجوز CC BY](LICENSE) قرار دارد.
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

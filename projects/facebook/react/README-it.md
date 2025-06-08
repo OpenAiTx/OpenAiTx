@@ -77,8 +77,8 @@ Per aiutarti a prendere confidenza e familiarizzare con il nostro processo di co
 
 React è distribuito sotto [licenza MIT](./LICENSE).
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

@@ -125,8 +125,8 @@
 
 如有需要，可通过[E-mail](mailto:996icu.repo@gmail.com)与我联系。
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

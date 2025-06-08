@@ -121,8 +121,8 @@ Vue.js 支持所有 [ES5 兼容的浏览器](https://compat-table.github.io/comp
 
 版权所有 (c) 2013 至今，尤雨溪（Evan You）
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

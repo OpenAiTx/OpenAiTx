@@ -228,8 +228,8 @@
 
 本仓库中包含的每个文件均采用 [CC BY License](LICENSE) 授权。
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

@@ -266,8 +266,8 @@ freeCodeCamp.org چندین گواهینامه رایگان توسعه‌دهن�
 - نرم‌افزار رایانه‌ای تحت مجوز [BSD-3-Clause](LICENSE.md) منتشر شده است.
 - منابع آموزشی موجود در شاخه [`/curriculum`](/curriculum) و زیرشاخه‌های آن کپی‌رایت © ۲۰۲۵ freeCodeCamp.org هستند.
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

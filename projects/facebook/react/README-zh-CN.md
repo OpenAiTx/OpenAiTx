@@ -77,8 +77,8 @@ Facebook 制定了项目参与者需遵守的行为准则。请阅读[完整内�
 
 React 采用 [MIT 许可证](./LICENSE)。
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

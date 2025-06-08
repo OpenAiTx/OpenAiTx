@@ -121,8 +121,8 @@ Vue.js поддерживает все браузеры, совместимые 
 
 Copyright (c) 2013-настоящее время, Юси (Эван) Ю
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

@@ -121,8 +121,8 @@ Dank aan iedereen die al aan Vue heeft bijgedragen!
 
 Copyright (c) 2013-heden, Yuxi (Evan) You
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

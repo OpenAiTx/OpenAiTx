@@ -77,8 +77,8 @@ Aby pomóc Ci rozpocząć i zapoznać się z naszym procesem współtworzenia, m
 
 React jest objęty licencją [MIT](./LICENSE).
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

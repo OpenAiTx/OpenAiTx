@@ -77,8 +77,8 @@ To help you get your feet wet and get you familiar with our contribution process
 
 React is [MIT licensed](./LICENSE).
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

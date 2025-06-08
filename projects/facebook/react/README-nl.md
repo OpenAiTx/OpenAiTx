@@ -77,8 +77,8 @@ Om je te helpen snel te starten en vertrouwd te raken met ons bijdrageproces, he
 
 React is [MIT gelicentieerd](./LICENSE).
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

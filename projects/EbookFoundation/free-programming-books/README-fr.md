@@ -235,8 +235,8 @@ Vous remarquerez peut-être qu'il y a [certaines traductions manquantes ici](doc
 Chaque fichier inclus dans ce dépôt est sous licence [CC BY License](LICENSE).
 
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

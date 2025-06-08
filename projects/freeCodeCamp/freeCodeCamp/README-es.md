@@ -266,8 +266,8 @@ El contenido de este repositorio se rige por las siguientes licencias:
 - El software informático está licenciado bajo la licencia [BSD-3-Clause](LICENSE.md).
 - Los recursos de aprendizaje en el directorio [`/curriculum`](/curriculum), incluyendo sus subdirectorios, son copyright © 2025 freeCodeCamp.org
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

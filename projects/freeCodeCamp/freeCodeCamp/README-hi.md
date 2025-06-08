@@ -266,8 +266,8 @@ Copyright © 2025 freeCodeCamp.org
 - कंप्यूटर सॉफ़्टवेयर [BSD-3-Clause](LICENSE.md) लाइसेंस के तहत लाइसेंस प्राप्त है।
 - [`/curriculum`](/curriculum) डायरेक्टरी में मौजूद लर्निंग संसाधन और उनके सबडायरेक्टरीज़ सहित, Copyright © 2025 freeCodeCamp.org
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

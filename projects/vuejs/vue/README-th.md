@@ -121,8 +121,8 @@ Vue.js รองรับเบราว์เซอร์ทั้งหมด�
 
 สงวนลิขสิทธิ์ (c) 2013-ปัจจุบัน, Yuxi (Evan) You
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

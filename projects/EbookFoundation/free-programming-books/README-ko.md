@@ -228,8 +228,8 @@
 
 이 저장소에 포함된 각 파일은 [CC BY 라이선스](LICENSE)에 따라 라이선스가 부여됩니다.
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

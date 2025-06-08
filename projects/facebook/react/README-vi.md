@@ -77,8 +77,8 @@ Facebook đã áp dụng một Quy tắc Ứng xử mà chúng tôi mong muốn 
 
 React được [cấp phép theo MIT](./LICENSE).
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

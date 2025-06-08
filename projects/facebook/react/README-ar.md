@@ -78,8 +78,8 @@ root.render(<HelloMessage name="Taylor" />);
 ريأكت مرخصة بموجب [رخصة MIT](./LICENSE).
 
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

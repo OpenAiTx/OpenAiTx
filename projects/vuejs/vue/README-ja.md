@@ -121,8 +121,8 @@ Vue.jsは[ES5に準拠した](https://compat-table.github.io/compat-table/es5/)�
 
 Copyright (c) 2013-present, Yuxi (Evan) You
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

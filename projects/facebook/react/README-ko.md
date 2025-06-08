@@ -77,8 +77,8 @@ Facebook은 프로젝트 참여자가 따라야 하는 행동 강령을 채택�
 
 React는 [MIT 라이선스](./LICENSE)로 제공됩니다.
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

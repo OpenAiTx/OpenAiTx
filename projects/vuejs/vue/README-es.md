@@ -121,8 +121,8 @@ Por favor asegúrate de leer la [Guía de Contribución](https://github.com/vuej
 
 Copyright (c) 2013-presente, Yuxi (Evan) You
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

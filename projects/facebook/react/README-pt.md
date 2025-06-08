@@ -77,8 +77,8 @@ Para ajudar você a começar e se familiarizar com nosso processo de contribuiç
 
 React é licenciado sob a [licença MIT](./LICENSE).
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

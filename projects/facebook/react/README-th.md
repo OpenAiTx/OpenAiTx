@@ -77,8 +77,8 @@ Facebook ได้นำจรรยาบรรณในการร่วม�
 
 React อยู่ภายใต้ [ใบอนุญาต MIT](./LICENSE)
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

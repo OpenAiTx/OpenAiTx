@@ -1,7 +1,5 @@
 ﻿using Newtonsoft.Json;
-using System;
 using System.Net.Http.Headers;
-using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Text.Json;
 
@@ -63,7 +61,7 @@ public class Program
             var queryQ = $"q=created:{sDate.ToString("yyyy-MM-dd")}..{eDdate.ToString("yyyy-MM-dd")}%20stars:>=20%20fork:false&sort=updated&order=desc&page={page}&per_page=3";
             Console.WriteLine($"----start----");
             Console.WriteLine($"QueryQ : {queryQ}");
-            
+
             var response = await _client.GetAsync($"https://api.github.com/search/repositories?{queryQ}");
             if (response.StatusCode == System.Net.HttpStatusCode.Forbidden)
             {
@@ -100,7 +98,8 @@ public class Program
                         {
                             existProject = null;
                         }
-                        if (existProject != null) {
+                        if (existProject != null)
+                        {
                             if (existProject.sha == readmeData.Item2)
                             {
                                 Console.WriteLine($"Project {fullName} already indexed with same sha, skipping.");
@@ -138,7 +137,7 @@ public class Program
                         foreach (var lan in _languages)
                         {
                             var filePath = $"{_gitRootPath}/{user}/{projectName}/README-{lan.lang}.md";
-                            
+
                             await File.WriteAllTextAsync(filePath, "");
                             Console.WriteLine($"project: {project.fullName}, stars: {project.stargazers_count}");
 

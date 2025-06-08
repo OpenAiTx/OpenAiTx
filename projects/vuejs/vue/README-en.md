@@ -121,8 +121,8 @@ Vue.js 支持所有[符合 ES5 标准](https://compat-table.github.io/compat-tab
 
 Copyright (c) 2013-present, Yuxi (Evan) You
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

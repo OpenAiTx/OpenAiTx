@@ -234,8 +234,8 @@ Gönüllüler, birçok Katkı, Nasıl Yapılır ve Davranış Kuralları belgele
 
 Bu depoda bulunan her dosya [CC BY Lisansı](LICENSE) ile lisanslanmıştır.
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

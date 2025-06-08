@@ -77,8 +77,8 @@ Um Ihnen den Einstieg zu erleichtern und Sie mit unserem Beitragenden-Prozess ve
 
 React ist [MIT-lizenziert](./LICENSE).
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

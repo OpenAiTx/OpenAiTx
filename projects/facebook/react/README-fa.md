@@ -77,8 +77,8 @@ root.render(<HelloMessage name="Taylor" />);
 
 ری‌اکت تحت [مجوز MIT](./LICENSE) منتشر شده است.
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

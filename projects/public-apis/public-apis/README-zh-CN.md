@@ -248,8 +248,8 @@ API | 描述 | 认证 | HTTPS | CORS |
 ## 许可证
 [MIT](LICENSE) (c) 2022 public-apis
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

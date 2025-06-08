@@ -228,8 +228,8 @@
 
 كل ملف مضمن في هذا المستودع مرخص بموجب [ترخيص CC BY](LICENSE).
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

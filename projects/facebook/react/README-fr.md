@@ -77,8 +77,8 @@ Pour vous aider à débuter et à vous familiariser avec notre processus de cont
 
 React est sous licence [MIT](./LICENSE).
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

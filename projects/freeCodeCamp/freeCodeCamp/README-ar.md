@@ -266,8 +266,8 @@
 - برمجيات الحاسوب مرخصة بموجب رخصة [BSD-3-Clause](LICENSE.md).
 - مصادر التعلم في دليل [`/curriculum`](/curriculum) بما في ذلك مجلداته الفرعية محمية بحقوق النشر © 2025 freeCodeCamp.org
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

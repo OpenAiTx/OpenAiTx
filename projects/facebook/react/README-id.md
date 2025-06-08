@@ -77,8 +77,8 @@ Untuk membantu Anda memulai dan membiasakan diri dengan proses kontribusi kami, 
 
 React dilisensikan di bawah [MIT](./LICENSE).
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

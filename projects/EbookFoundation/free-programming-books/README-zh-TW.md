@@ -228,8 +228,8 @@
 
 本倉庫內所有檔案皆採用 [CC BY 授權條款](LICENSE)。
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---

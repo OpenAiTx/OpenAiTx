@@ -234,8 +234,8 @@ You might notice that there are [some missing translations here](docs/README.md#
 
 Each file included in this repository is licensed under the [CC BY License](LICENSE).
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---
