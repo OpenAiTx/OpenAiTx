@@ -266,8 +266,8 @@ Copyright © 2025 freeCodeCamp.org
 - Программное обеспечение лицензируется по лицензии [BSD-3-Clause](LICENSE.md).
 - Учебные материалы из директории [`/curriculum`](/curriculum), включая все поддиректории, защищены авторским правом © 2025 freeCodeCamp.org
 
----
+---
 
-[Powered By DeepAiTx](https://github.com/DeepAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
 
----
+---
