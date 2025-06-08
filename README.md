@@ -1,10 +1,17 @@
-# Open Ai Tx
 
 ![](https://openaitx.github.io/logo_crop.png)
 
+---
+
+<div style="text-align: center">
+ Your <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a> and <a href="https://miniexcel.github.io">Donate</a> can make Open Ai Tx better
+</div>
+
+---
+
+## Introduction
+
 **OpenAiTx** automatically creates 20 languages translate readmes for your GitHub project, you just need to replace project URL `GitHub` by `OpenAiTx`, e.g. https://github.com/OpenAiTx/OpenAiTx => https://openaitx.com/OpenAiTx/OpenAiTx .
-
-
 
 ## Example
 
