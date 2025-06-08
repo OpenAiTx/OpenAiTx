@@ -1,10 +1,16 @@
-# Open Ai Tx
-
 ![](https://openaitx.github.io/logo_crop.png)
 
-**OpenAiTx** cria automaticamente readmes traduzidos para 20 idiomas para o seu projeto no GitHub. Você só precisa substituir a URL do projeto `GitHub` por `OpenAiTx`, por exemplo: https://github.com/OpenAiTx/OpenAiTx => https://openaitx.com/OpenAiTx/OpenAiTx .
+---
 
+<div style="text-align: center">
+ Seu <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a> e <a href="https://miniexcel.github.io">Doação</a> podem tornar o Open Ai Tx melhor
+</div>
 
+---
+
+## Introdução
+
+**OpenAiTx** cria automaticamente readmes traduzidos em 20 idiomas para o seu projeto no GitHub. Você só precisa substituir a URL do projeto `GitHub` por `OpenAiTx`, por exemplo: https://github.com/OpenAiTx/OpenAiTx => https://openaitx.com/OpenAiTx/OpenAiTx .
 
 ## Exemplo
 
@@ -14,29 +20,31 @@
 
 ### Opção de Estilo 2:
 
-[English](https://openaitx.github.io/view.html?user=mini-software&project=MiniExcel&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mini-software&project=MiniExcel&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mini-software&project=MiniExcel&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mini-software&project=MiniExcel&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mini-software&project=MiniExcel&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mini-software&project=MiniExcel&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mini-software&project=MiniExcel&lang=th) | [Français](https://openaitx.github.io/view.html?user=mini-software&project=MiniExcel&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mini-software&project=MiniExcel&lang=de) | [Español](https://openaitx.github.io/view.html?user=mini-software&project=MiniExcel&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mini-software&project=MiniExcel&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mini-software&project=MiniExcel&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mini-software&project=MiniExcel&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mini-software&project=MiniExcel&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mini-software&project=MiniExcel&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mini-software&project=MiniExcel&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mini-software&project=MiniExcel&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mini-software&project=MiniExcel&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mini-software&project=MiniExcel&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mini-software&project=MiniExcel&lang=id)
+[English](https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th) | [Français](https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de) | [Español](https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it) | [Русский](https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru) | [Português](https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id)
 
 ### 
 
 ## Suporte/Contribuição 
 
-Se você deseja contribuir com o projeto, tudo o que precisa fazer é:
-Fork no projeto => Clonar o projeto => Escolher um script no seu idioma => Preencher seu token de IA => Executar => Commit & push & criar um PR
+Se você deseja contribuir para o projeto, tudo o que precisa fazer é:
+Fork do projeto => Clonar o projeto => Escolher um script no seu idioma => Preencher seu token de IA => Executar => Commit & push & criar um PR
 
-Nota: **Por favor, não faça upload ou vaze seus tokens!**
+Nota: **Por favor, não faça upload nem vaze seus tokens!**
 
 
 
 ## Outros
 
-- Um readme de 50 KB precisa de `2 minutos/por idioma` usando o GPT4.1. 
+- Um readme de 50 KB precisa de `2 minutos/por idioma` pelo GPT4.1.
 - 200-400 projetos/um console por dia.
+- A cada 3-N dias serão atualizados projetos existentes (dependendo dos recursos de computação futuros😎)
 
 
 
 ### Agradecimentos
 
-- A equipe Microsoft MVP fornece um orçamento de 150USD/mês na plataforma Azure para a comunidade de código aberto.
+- A equipe Microsoft MVP fornece um orçamento de 150USD/mês para a plataforma Azure para a comunidade open source.
+
 
 ---
 
