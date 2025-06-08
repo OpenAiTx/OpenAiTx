@@ -31,6 +31,7 @@ Note: **Please do not upload or leak your tokens!**
 
 - 50 KB readme needs `2 mins/per language` by GPT4.1. 
 - 200-400 projects/one console per day.
+- Every 3-N days will update exist projects (depending future computing resources😎)
 
 
 

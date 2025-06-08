@@ -147,6 +147,7 @@ public class Program
                             {
                                 var (txt, usage) = await TranslateTextAsync(originalContent
                                     , $"Translate the following technical document into {lan.name}, preserving the original Markdown format, Relative paths in markdown, please complete with {blobUrl}:");
+
                                 Console.WriteLine($"Token usage for {lan.name} translation:");
                                 Console.WriteLine($"Prompt tokens: {usage.PromptTokens}");
                                 Console.WriteLine($"Completion tokens: {usage.CompletionTokens}");
@@ -155,6 +156,8 @@ public class Program
                                 usage.Language = lan.lang;
 
                                 project.TokenUsage.Add(usage);
+                                if (string.IsNullOrEmpty(txt))
+                                    continue;
 
                                 await File.WriteAllTextAsync(filePath, txt);
                                 await File.AppendAllTextAsync(filePath, $"\n\r\n\r---\n\r\n\rTranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: {DateTime.UtcNow.ToString("yyyy-MM-dd")}\n\r\n\r---");
@@ -204,6 +207,17 @@ public class Program
     {
         var lines = text.Split(new[] { "\r\n", "\n" }, StringSplitOptions.None);
         Console.WriteLine($"Total lines in original content: {lines.Length}");
+
+        if (lines.Length <= 15)
+        {
+            Console.WriteLine("Content is too small to split, translating directly.");
+            return (text, new TokenUsage { PromptTokens = 0, CompletionTokens = 0, TotalTokens = 0 }); // No token usage for direct translation
+        }
+        if (lines.Length >= 5000)
+        {
+            Console.WriteLine("Content is too large to split, translating directly.");
+            return (text, new TokenUsage { PromptTokens = 0, CompletionTokens = 0, TotalTokens = 0 }); // No token usage for direct translation
+        }
 
         var chunks = new List<string>();
         var currentChunk = new List<string>();
