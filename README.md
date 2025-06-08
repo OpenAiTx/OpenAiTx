@@ -29,9 +29,8 @@ Note: **Please do not upload or leak your tokens!**
 
 ## Other
 
-- If you would like get high priority and continues update, please create a PR and add your project github link in `priority-list.json`.
-- You can get index projects in `projects-data.json`.
-- 50 KB readme needs `2 mins/per language` by GPT4.1.
+- 50 KB readme needs `2 mins/per language` by GPT4.1. 
+- 200-400 projects/one console per day.
 
 
 
