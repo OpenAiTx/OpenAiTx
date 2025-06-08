@@ -202,45 +202,91 @@ public class Program
 
     private static async Task<(string translatedText, TokenUsage usage)> TranslateTextAsync(string text, string instruction)
     {
-        var requestBody = new
+        var lines = text.Split(new[] { "\r\n", "\n" }, StringSplitOptions.None);
+        Console.WriteLine($"Total lines in original content: {lines.Length}");
+
+        var chunks = new List<string>();
+        var currentChunk = new List<string>();
+
+        foreach (var line in lines)
         {
-            messages = new[]
+            currentChunk.Add(line);
+            if (currentChunk.Count >= 200)
             {
+                chunks.Add(string.Join("\n", currentChunk));
+                currentChunk.Clear();
+            }
+        }
+
+        // Add remaining lines if any
+        if (currentChunk.Any())
+        {
+            chunks.Add(string.Join("\n", currentChunk));
+        }
+
+        Console.WriteLine($"Content split into {chunks.Count} chunks of 200 lines each");
+        for (int i = 0; i < chunks.Count; i++)
+        {
+            Console.WriteLine($"Chunk {i + 1}: {chunks[i].Split('\n').Length} lines");
+        }
+
+        var translatedChunks = new List<string>();
+        var totalUsage = new TokenUsage
+        {
+            PromptTokens = 0,
+            CompletionTokens = 0,
+            TotalTokens = 0
+        };
+
+        // Translate each chunk
+        for (int i = 0; i < chunks.Count; i++)
+        {
+            Console.WriteLine($"Translating chunk {i + 1} of {chunks.Count}...");
+            var chunk = chunks[i];
+            var chunkInstruction = $"{instruction} (Part {i + 1} of {chunks.Count})";
+
+            var requestBody = new
+            {
+                messages = new[]
+                {
                     new
                     {
                         role = "system",
-                        content = "You are a professional translation assistant, specializing in the translation of technical documents.please don't add your remark or thinking content."
+                        content = "You are a professional translation assistant, specializing in the translation of technical documents. Please don't add your remark or thinking content. Maintain the exact same line breaks and formatting as the original text."
                     },
                     new
                     {
                         role = "user",
-                        content = $"{instruction}\n\n{text}"
+                        content = $"{chunkInstruction}\n\n{chunk}"
                     }
                 },
-            temperature = 0.7,
-            top_p = 0.95,
-            frequency_penalty = 0,
-            presence_penalty = 0,
-            max_tokens = MaxTokens
-        };
+                temperature = 0.7,
+                top_p = 0.95,
+                frequency_penalty = 0,
+                presence_penalty = 0,
+                max_tokens = MaxTokens
+            };
 
-        string requestBodyJson = JsonConvert.SerializeObject(requestBody);
-        var content = new StringContent(requestBodyJson, Encoding.UTF8, "application/json");
+            string requestBodyJson = JsonConvert.SerializeObject(requestBody);
+            var content = new StringContent(requestBodyJson, Encoding.UTF8, "application/json");
 
-        HttpResponseMessage response = await _client.PostAsync(_openAiApiEndpoint, content);
-        response.EnsureSuccessStatusCode();
-        string responseJson = await response.Content.ReadAsStringAsync();
-        dynamic responseData = JsonConvert.DeserializeObject(responseJson);
-        string translatedText = responseData.choices[0].message.content;
+            HttpResponseMessage response = await _client.PostAsync(_openAiApiEndpoint, content);
+            response.EnsureSuccessStatusCode();
+            string responseJson = await response.Content.ReadAsStringAsync();
+            dynamic responseData = JsonConvert.DeserializeObject(responseJson);
+            string translatedChunk = responseData.choices[0].message.content;
 
-        var usage = new TokenUsage
-        {
-            PromptTokens = responseData.usage.prompt_tokens,
-            CompletionTokens = responseData.usage.completion_tokens,
-            TotalTokens = responseData.usage.total_tokens
-        };
+            totalUsage.PromptTokens += (int)responseData.usage.prompt_tokens;
+            totalUsage.CompletionTokens += (int)responseData.usage.completion_tokens;
+            totalUsage.TotalTokens += (int)responseData.usage.total_tokens;
 
-        return (translatedText, usage);
+            translatedChunks.Add(translatedChunk);
+        }
+
+        // Combine all translated chunks
+        string finalTranslatedText = string.Join("\n", translatedChunks);
+
+        return (finalTranslatedText, totalUsage);
     }
 
     private static void CreateDirectoryFolder(string directoryPath)
