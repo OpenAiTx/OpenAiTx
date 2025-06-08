@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Net.Http.Headers;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Text.Json;
 
@@ -62,11 +63,7 @@ public class Program
             var queryQ = $"q=created:{sDate.ToString("yyyy-MM-dd")}..{eDdate.ToString("yyyy-MM-dd")}%20stars:>=20%20fork:false&sort=updated&order=desc&page={page}&per_page=3";
             Console.WriteLine($"----start----");
             Console.WriteLine($"QueryQ : {queryQ}");
-
-            var projectsDataFile = $"../../../../../projects-data.json";
-            var json = await File.ReadAllTextAsync(projectsDataFile);
-            var projectsData = JsonConvert.DeserializeObject<List<GitHubProject>>(json);
-
+            
             var response = await _client.GetAsync($"https://api.github.com/search/repositories?{queryQ}");
             if (response.StatusCode == System.Net.HttpStatusCode.Forbidden)
             {
@@ -88,9 +85,21 @@ public class Program
                         string htmlUrl = item.GetProperty("html_url").GetString();
                         var stargazers_count = item.GetProperty("stargazers_count").GetInt32();
 
+                        string user = (fullName).Split("/")[0];
+                        string projectName = (fullName).Split("/")[1];
+
                         var readmeData = await GetReadmeUrl(fullName);
 
-                        var existProject = projectsData.FirstOrDefault(p => p.fullName == fullName );
+                        var projectJsonPath = $"{_gitRootPath}/{user}/{projectName}/project.json";
+                        GitHubProject existProject;
+                        if (File.Exists(projectJsonPath))
+                        {
+                            existProject = JsonConvert.DeserializeObject<GitHubProject>(await File.ReadAllTextAsync(projectJsonPath));
+                        }
+                        else
+                        {
+                            existProject = null;
+                        }
                         if (existProject != null) {
                             if (existProject.sha == readmeData.Item2)
                             {
@@ -120,8 +129,7 @@ public class Program
                             indexTime = DateTime.UtcNow
                         };
 
-                        string user = (fullName).Split("/")[0];
-                        string projectName = (fullName).Split("/")[1];
+
 
 
                         string originalContent = await GetReadmeContentAsync(project.readmeUrl);
@@ -145,6 +153,10 @@ public class Program
                                 Console.WriteLine($"Completion tokens: {usage.CompletionTokens}");
                                 Console.WriteLine($"Total tokens: {usage.TotalTokens}");
 
+                                usage.Language = lan.lang;
+
+                                project.TokenUsage.Add(usage);
+
                                 await File.WriteAllTextAsync(filePath, txt);
                                 await File.AppendAllTextAsync(filePath, $"\n\r\n\r---\n\r\n\rTranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: {DateTime.UtcNow.ToString("yyyy-MM-dd")}\n\r\n\r---");
                                 Console.WriteLine($"{filePath} OK");
@@ -156,9 +168,7 @@ public class Program
                             }
                         }
 
-                        projectsData.RemoveAll(p => p.fullName == project.fullName);
-                        projectsData.Add(project);
-                        await File.WriteAllTextAsync(projectsDataFile, JsonConvert.SerializeObject(projectsData, Formatting.Indented));
+                        await File.WriteAllTextAsync(projectJsonPath, JsonConvert.SerializeObject(project, Formatting.Indented));
                     }
                 }
             }
@@ -180,10 +190,12 @@ public class Program
         public int siz { get; set; }
         public int stargazers_count { get; set; }
         public DateTime indexTime { get; set; }
+        public List<TokenUsage> TokenUsage { get; set; } = new List<TokenUsage>();
     }
 
     public class TokenUsage
     {
+        public string Language { get; set; }
         public int PromptTokens { get; set; }
         public int CompletionTokens { get; set; }
         public int TotalTokens { get; set; }
