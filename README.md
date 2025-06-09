@@ -34,6 +34,12 @@ Note: **Please do not upload or leak your tokens!**
 
 
 
+### Demo Video
+
+<a href="https://github.com/user-attachments/assets/a1370023-8924-4d40-9f18-979a334e934d"> 
+<img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
+</a>
+
 ### Notes
 
 - Only support markdown readme now.
