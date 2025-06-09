@@ -91,13 +91,9 @@ public class Program
                         var projectJsonPath = $"{_gitRootPath}/{user}/{projectName}/project.json";
                         GitHubProject existProject;
                         if (File.Exists(projectJsonPath))
-                        {
                             existProject = JsonConvert.DeserializeObject<GitHubProject>(await File.ReadAllTextAsync(projectJsonPath));
-                        }
                         else
-                        {
                             existProject = null;
-                        }
                         if (existProject != null)
                         {
                             if (existProject.sha == readmeData.Item2)
@@ -109,11 +105,6 @@ public class Program
                             {
                                 Console.WriteLine($"Project {fullName} updated with new sha, updating...");
                             }
-                        }
-                        else if (readmeData.Item1 == "" || readmeData.Item2 == "" || readmeData.Item3 == 0)
-                        {
-                            Console.WriteLine($"Project {fullName} has no README.md, skipping.");
-                            continue;
                         }
 
 
