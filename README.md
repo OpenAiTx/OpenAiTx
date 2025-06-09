@@ -34,6 +34,11 @@ Note: **Please do not upload or leak your tokens!**
 
 
 
+### Notes
+
+- Only support markdown readme now.
+- Recommend image link uses full URL path.
+
 ## Other
 
 - 50 KB readme needs `2 mins/per language` by GPT4.1. 
