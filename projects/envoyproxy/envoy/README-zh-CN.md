@@ -2,8 +2,7 @@
 
 [云原生高性能边缘/中间/服务代理](https://www.envoyproxy.io/)
 
-Envoy 由 [云原生计算基金会](https://cncf.io)（CNCF）托管。如果您的公司希望参与塑造容器化、动态调度和面向微服务的技术的发展，欢迎加入 CNCF。关于参与者以及 Envoy 所扮演的角色的详细信息，请阅读 CNCF 的
-[公告](https://www.cncf.io/blog/2017/09/13/cncf-hosts-envoy/)。
+Envoy 由 [云原生计算基金会](https://cncf.io)（CNCF）托管。如果您的公司希望参与塑造以容器打包、动态调度和微服务为导向的技术发展，请考虑加入 CNCF。有关参与者及 Envoy 扮演的角色的详细信息，请阅读 CNCF 的[公告](https://www.cncf.io/blog/2017/09/13/cncf-hosts-envoy/)。
 
 [![CII 最佳实践](https://bestpractices.coreinfrastructure.org/projects/1266/badge)](https://bestpractices.coreinfrastructure.org/projects/1266)
 [![OpenSSF 评分卡](https://api.securityscorecards.dev/projects/github.com/envoyproxy/envoy/badge)](https://securityscorecards.dev/viewer/?uri=github.com/envoyproxy/envoy)
@@ -32,49 +31,49 @@ Envoy 由 [云原生计算基金会](https://cncf.io)（CNCF）托管。如果�
 
 ## 联系方式
 
-* [envoy-announce](https://groups.google.com/forum/#!forum/envoy-announce)：低频邮件列表，仅用于发布公告。
-* [envoy-security-announce](https://groups.google.com/forum/#!forum/envoy-security-announce)：低频邮件列表，仅用于发布安全相关公告。
-* [envoy-users](https://groups.google.com/forum/#!forum/envoy-users)：一般用户讨论。
-* [envoy-dev](https://groups.google.com/forum/#!forum/envoy-dev)：Envoy 开发者讨论（API、功能设计等）。
-* [envoy-maintainers](https://groups.google.com/forum/#!forum/envoy-maintainers)：用于联系所有核心 Envoy 维护者。
+* [envoy-announce](https://groups.google.com/forum/#!forum/envoy-announce)：低频邮件列表，仅用于公告通知。
+* [envoy-security-announce](https://groups.google.com/forum/#!forum/envoy-security-announce)：低频邮件列表，仅用于安全相关公告。
+* [envoy-users](https://groups.google.com/forum/#!forum/envoy-users)：用户常规讨论组。
+* [envoy-dev](https://groups.google.com/forum/#!forum/envoy-dev)：Envoy 开发者讨论组（API、功能设计等）。
+* [envoy-maintainers](https://groups.google.com/forum/#!forum/envoy-maintainers)：用于联系所有 Envoy 核心维护者。
 * [Twitter](https://twitter.com/EnvoyProxy/)：在 Twitter 上关注我们！
 * [Slack](https://envoyproxy.slack.com/)：Slack，获取邀请请点击[这里](https://communityinviter.com/apps/envoyproxy/envoy)。
-  * 注意：Slack 上对用户问题的响应为尽力而为。如需“保证”获得回复，请根据下述链接邮件主题中的指导发送邮件至 envoy-users@。
+  * 注意：Slack 上回复用户问题为尽力而为。如需“保证”回复，请根据以下链接讨论的建议发送邮件至 envoy-users@。
 
-有关邮件列表使用的更多信息，请参见[此](https://groups.google.com/forum/#!topic/envoy-announce/l9zjYsnS3TY)邮件主题。
+有关邮件列表使用的详细信息，请参见[此](https://groups.google.com/forum/#!topic/envoy-announce/l9zjYsnS3TY)邮件讨论串。
 
-## 参与贡献
+## 贡献
 
-参与 Envoy 开发是有趣的，且现代 C++ 并没有你想象的那么可怕，即使你没有相关经验。开始参与：
+为 Envoy 贡献代码很有趣，而且现代 C++ 远比你想象的容易，即使你没有经验。开始方法：
 
 * [贡献指南](https://raw.githubusercontent.com/envoyproxy/envoy/main/CONTRIBUTING.md)
-* [新手问题](https://github.com/envoyproxy/envoy/issues?q=is%3Aopen+is%3Aissue+label%3Abeginner)
-* [使用 Docker 快速构建/测试](https://raw.githubusercontent.com/envoyproxy/envoy/main/ci#building-and-running-tests-as-a-developer)
+* [初学者问题](https://github.com/envoyproxy/envoy/issues?q=is%3Aopen+is%3Aissue+label%3Abeginner)
+* [使用 Docker 快速开始构建/测试](https://raw.githubusercontent.com/envoyproxy/envoy/main/ci#building-and-running-tests-as-a-developer)
 * [开发者指南](https://raw.githubusercontent.com/envoyproxy/envoy/main/DEVELOPER.md)
-* 建议安装 Envoy [开发支持工具链](https://github.com/envoyproxy/envoy/blob/main/support/README.md)，该工具链可自动化部分开发流程，尤其是涉及代码审查的环节。
-* 如果你正在处理某个 issue，请务必告知我们，以避免重复劳动！
+* 建议安装 Envoy [开发支持工具链](https://github.com/envoyproxy/envoy/blob/main/support/README.md)，可自动化部分开发流程，尤其是涉及代码审查的环节。
+* 请确保在处理问题时告知我们，以避免重复劳动！
 
 ## 社区会议
 
-Envoy 团队每月定期在周二上午 9 点（太平洋时间）召开两次会议。公开的 Google 日历在[这里](https://goo.gl/PkDijT)。只有在[会议纪要](https://goo.gl/5Cergb)中列出议题时才会召开会议。社区成员均可通过在会议纪要中添加议题来提出议题。维护者会确认议题的添加，或者如无已确认议题，会在预定会议时间前 24 小时内取消会议。
+Envoy 团队每月定期在周二上午 9 点（太平洋时间）召开两次会议。公开的 Google 日历在[这里](https://goo.gl/PkDijT)。只有在[会议记录](https://goo.gl/5Cergb)中列有议程时才会召开会议。社区任何成员都可以通过添加到会议记录中来提出议题。维护者会确认议程的新增内容，或在预定日期前 24 小时内取消会议（若无已确认议程）。
 
 ## 安全
 
 ### 安全审计
 
-已经有多家第三方机构针对 Envoy 安全性进行了评估：
-* 2018 年 Cure53 进行了安全审计，[完整报告](https://raw.githubusercontent.com/envoyproxy/envoy/main/docs/security/audit_cure53_2018.pdf)。
-* 2021 年 Ada Logics 对我们的模糊测试基础设施进行了审计，并提出改进建议，[完整报告](https://raw.githubusercontent.com/envoyproxy/envoy/main/docs/security/audit_fuzzer_adalogics_2021.pdf)。
+曾有多次第三方针对 Envoy 安全的评估：
+* 2018 年，Cure53 进行了一次安全审计，[完整报告](https://raw.githubusercontent.com/envoyproxy/envoy/main/docs/security/audit_cure53_2018.pdf)。
+* 2021 年，Ada Logics 针对我们的模糊测试基础设施进行了审计并提出改进建议，[完整报告](https://raw.githubusercontent.com/envoyproxy/envoy/main/docs/security/audit_fuzzer_adalogics_2021.pdf)。
 
-### 漏洞报告
+### 报告安全漏洞
 
-如果你在 Envoy 中发现了漏洞或潜在漏洞，请通过 [envoy-security](mailto:envoy-security@googlegroups.com) 告知我们。我们会发送确认邮件以确认收到你的报告，并在识别问题后（无论是否为漏洞）再发送一封邮件。
+如果你发现了 Envoy 的漏洞或潜在漏洞，请告知我们：[envoy-security](mailto:envoy-security@googlegroups.com)。我们会发送确认邮件以告知收到，并在识别问题后发送额外邮件（无论结果如何）。
 
-详细流程请参见我们的[完整安全发布流程](https://raw.githubusercontent.com/envoyproxy/envoy/main/SECURITY.md)。
+更多详情请参见我们完整的[安全发布流程](https://raw.githubusercontent.com/envoyproxy/envoy/main/SECURITY.md)。
 
 ### ppc64le 构建
 
-ppc64le 架构或使用 aws-lc 的构建不在 envoy 安全政策的覆盖范围内。ppc64le 架构目前为“尽力支持”，并未由 Envoy 维护者专门维护。
+ppc64le 架构或使用 aws-lc 的构建不在 envoy 安全策略覆盖范围内。ppc64le 架构目前为尽力支持，Envoy 维护者不对其进行维护。
 
 ## 发布
 
@@ -82,6 +81,6 @@ ppc64le 架构或使用 aws-lc 的构建不在 envoy 安全政策的覆盖范围
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-12
 
 ---
