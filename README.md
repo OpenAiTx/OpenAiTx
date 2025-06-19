@@ -32,7 +32,7 @@ Fork project => Clone project => Choose a script in your language => Fill in you
 
 Note: **Please do not upload or leak your tokens!**
 
-
+  
 
 ### Demo Video
 
