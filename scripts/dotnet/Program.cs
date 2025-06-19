@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using System.Diagnostics;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
@@ -35,18 +36,80 @@ public class Program
 	     new { lang = "vi", name = "Vietnamese", native = "Tiếng Việt" },
          new { lang = "id", name = "Indonesian", native = "Bahasa Indonesia" }
     };
+    // @ Use C disk file to avoid people leak token/key in current project folder and upload to github
     private static string _gitRootPath = @"../../../../../projects";
-    private static string _githubToken;
-    private static string _openAiKey;
-    private static string _openAiApiEndpoint;
+    private static string _ProjectFullPath = "D:/git/OpenAiTx/projects"; // !please change to your own path, this is the path where the projects will be saved and indexed.
+    private static string _githubToken = File.ReadAllText(@"C:\gitHubPersonalAccessToken.txt"); // e.g. ghp_xxxxxxxxxxxxxxxxxxxxxxxBk8
+    private static string _openAiKey = File.ReadAllText(@"C:\openAiKey.txt"); //e.g. 92973yO74hVyVmdby4Xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    private static string _openAiApiEndpoint = File.ReadAllText(@"C:\openAiApiEndpoint.txt"); // e.g. https://xxxxxx.openai.azure.com/openai/deployments/gpt-4.1/chat/completions?api-version=2025-01-01-preview
     private const int MaxTokens = 32768;
+    private static void GitCommitAndPush()
+    {
+
+        // Check for git changes and commit/push if needed
+        string gitProjectPath = _ProjectFullPath;
+        var gitStatus = new ProcessStartInfo
+        {
+            FileName = "git",
+            Arguments = "status --porcelain",
+            WorkingDirectory = gitProjectPath,
+            RedirectStandardOutput = true,
+            UseShellExecute = false,
+            CreateNoWindow = true
+        };
+
+        using (var process = Process.Start(gitStatus))
+        {
+            string output = process.StandardOutput.ReadToEnd();
+            process.WaitForExit();
+
+            if (!string.IsNullOrWhiteSpace(output))
+            {
+                // There are changes to commit
+                var gitAdd = new ProcessStartInfo
+                {
+                    FileName = "git",
+                    Arguments = "add .",
+                    WorkingDirectory = gitProjectPath,
+                    RedirectStandardOutput = true,
+                    UseShellExecute = false,
+                    CreateNoWindow = true
+                };
+                Process.Start(gitAdd).WaitForExit();
+
+                var commitMsg = $"Index projects {DateTime.Now:yyyyMMddHHmm}";
+                var gitCommit = new ProcessStartInfo
+                {
+                    FileName = "git",
+                    Arguments = $"commit -m \"{commitMsg}\"",
+                    WorkingDirectory = gitProjectPath,
+                    RedirectStandardOutput = true,
+                    UseShellExecute = false,
+                    CreateNoWindow = true
+                };
+                Process.Start(gitCommit).WaitForExit();
+
+                var gitPush = new ProcessStartInfo
+                {
+                    FileName = "git",
+                    Arguments = "push",
+                    WorkingDirectory = gitProjectPath,
+                    RedirectStandardOutput = true,
+                    UseShellExecute = false,
+                    CreateNoWindow = true
+                };
+                Process.Start(gitPush).WaitForExit();
+
+                Console.WriteLine("Git changes committed and pushed.");
+            }
+            else
+            {
+                Console.WriteLine("No git changes to commit.");
+            }
+        }
+    }
     public static async Task Main(string[] args)
     {
-        // @ Use C disk file to avoid people leak token/key in current project folder and upload to github
-        _githubToken = File.ReadAllText(@"C:\gitHubPersonalAccessToken.txt"); // e.g. ghp_xxxxxxxxxxxxxxxxxxxxxxxBk8
-        _openAiKey = File.ReadAllText(@"C:\openAiKey.txt"); //e.g. 92973yO74hVyVmdby4Xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-        _openAiApiEndpoint = File.ReadAllText(@"C:\openAiApiEndpoint.txt"); // e.g. https://xxxxxx.openai.azure.com/openai/deployments/gpt-4.1/chat/completions?api-version=2025-01-01-preview
-
         _client.DefaultRequestHeaders.UserAgent.ParseAdd("OpenAiTx App");
         _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _githubToken);
         _client.DefaultRequestHeaders.Add("api-key", _openAiKey);
@@ -58,10 +121,11 @@ public class Program
             var sDate = DateTime.UtcNow.AddDays(-daysAgo);
             var eDdate = sDate.AddDays(2);
             var page = random.Next(1, 5);
-            var queryQ = $"q=created:{sDate.ToString("yyyy-MM-dd")}..{eDdate.ToString("yyyy-MM-dd")}%20stars:>=20%20fork:false&sort=updated&order=desc&page={page}&per_page=3";
+            var queryQ = $"q=created:{sDate.ToString("yyyy-MM-dd")}..{eDdate.ToString("yyyy-MM-dd")}%20stars:>=200%20fork:false&sort=updated&order=desc&page={page}&per_page=3";
             Console.WriteLine($"----start----");
             Console.WriteLine($"QueryQ : {queryQ}");
 
+            var isNeedGitPush = false;
             var response = await _client.GetAsync($"https://api.github.com/search/repositories?{queryQ}");
             if (response.StatusCode == System.Net.HttpStatusCode.Forbidden)
             {
@@ -115,6 +179,10 @@ public class Program
                             Console.WriteLine($"Project {fullName} has no README.md, skipping.");
                             continue;
                         }
+                        else
+                        {
+                            Console.WriteLine($"Project {fullName} has README.md, creating...");
+                        }
 
 
                         var project = new GitHubProject
@@ -131,7 +199,17 @@ public class Program
 
 
 
-                        string originalContent = await GetReadmeContentAsync(project.readmeUrl);
+                        string originalContent = "";
+                        try
+                        {
+                            originalContent = await GetReadmeContentAsync(project.readmeUrl);
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine($"Readme Content Error: {e.Message}");
+                            continue;
+                        }
+                        
                         CreateDirectoryFolder($"{_gitRootPath}/{user}");
                         CreateDirectoryFolder($"{_gitRootPath}/{user}/{projectName}");
                         foreach (var lan in _languages)
@@ -169,17 +247,23 @@ public class Program
                                 continue;
                             }
                         }
-
+                        isNeedGitPush = true;
                         await File.WriteAllTextAsync(projectJsonPath, JsonConvert.SerializeObject(project, Formatting.Indented));
                     }
                 }
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
                 throw;
             }
 
-            Thread.Sleep(15 * 1000);
+            if (isNeedGitPush)
+                GitCommitAndPush();
+            else
+                Console.WriteLine($"{DateTime.Now} No update projects");
+
+            Thread.Sleep(15 * 60 * 1000);
         }
     }
 
