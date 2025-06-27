@@ -33,25 +33,25 @@
 
 
 <div align="center">
- Votre <a href="https://github.com/OpenAiTx/OpenAiTx">Étoile</a>  peut rendre Open Ai Tx meilleur
+ Votre <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a>  peut améliorer Open Ai Tx
 </div>
 
 
 ## Introduction
 
-**OpenAiTx** est un outil de traduction automatique en 20 langues pour le readme de vos projets GitHub.
+**OpenAiTx** est un outil de traduction automatique en 20 langues pour le README de vos projets GitHub.
 
 
 
 ### Fonctionnalités
 
-- Prend en charge la recherche multilingue Google/Bing.
-- Gratuit et open source pour toujours 
-- Soumettez une fois et mettez à jour automatiquement à l'avenir.   
+- Prend en charge la recherche SEO multilingue Google/Bing.
+- Gratuit & Open Source pour toujours
+- Soumettez une fois et mise à jour automatique à l’avenir.   
 
 
 
-## Démarrage
+## Démarrer
 
 Remplacez l’URL `GitHub` par `OpenAiTx`, par exemple : https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx .
 
@@ -119,33 +119,55 @@ Remplacez l’URL `GitHub` par `OpenAiTx`, par exemple : https://github.com/Open
 </div>
 
 
-### Vidéo Démo
+### Vidéo de démonstration
 
 <a href="https://github.com/user-attachments/assets/a1370023-8924-4d40-9f18-979a334e934d"> 
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
-## Support/Contributions 
+
+
+## Contribution Partage
+
+Si vous pouviez aider en soumettant une PR à votre projet préféré, cela contribuerait grandement à promouvoir notre projet.
+
+Exemple :
+
+```
+Titre :
+docs : ajout des liens vers 20 langues du README
+
+Contenu :
+La PR ajoute 20 liens de langues au README et les utilisateurs peuvent facilement accéder au README traduit, prend en charge la recherche SEO multilingue google/bing.
+
+Démo de la page https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
+
+> OpenAiTx est gratuit et open-source : https://github.com/OpenAiTx/OpenAiTx
+```
+
+
+
+## Contribution Informatique
 
 Si vous souhaitez contribuer au projet, il vous suffit de :
-Forker le projet → Cloner le projet → Choisir un script dans votre langue → Renseigner votre jeton AI  → Lancer le script → Commit & push & créer une PR
+Forker le projet → Cloner le projet → Choisir un script dans votre langue → Renseigner votre token AI → L’exécuter → Commit & push & créer une PR
 
-> Remarque : **Merci de ne pas télécharger vos jetons !**
+> Remarque : **Merci de ne pas télécharger vos tokens !**
 
-### Remarques
+### Notes
 
-- Ne prend en charge que le readme markdown github.
+- Prend uniquement en charge le readme markdown de github.
 
 ## Autre
 
-- 10~30 min/par projet
-- 200~400 projets/une console par jour.
-- Tous les 3~7 jours, mise à jour des projets existants (en fonction des ressources de calcul à venir)
+- 10~30 min / par projet
+- 200~400 projets / une console par jour.
+- Mise à jour de projets existants tous les 3~7 jours (selon les ressources informatiques futures)
 
 
 ### Remerciements
 
-- L’équipe Microsoft MVP offre un budget de 150USD/mois pour la plateforme Azure communautaire open source.
+- L’équipe Microsoft MVP fournit un budget de plateforme Azure open source de 150 USD/mois.
 
 ---
 

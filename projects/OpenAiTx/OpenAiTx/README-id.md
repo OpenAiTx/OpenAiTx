@@ -33,7 +33,7 @@
 
 
 <div align="center">
- Bintang <a href="https://github.com/OpenAiTx/OpenAiTx">Anda</a> dapat membuat Open Ai Tx menjadi lebih baik
+ Bintang <a href="https://github.com/OpenAiTx/OpenAiTx">Anda</a>  dapat membuat Open Ai Tx menjadi lebih baik
 </div>
 
 
@@ -45,23 +45,23 @@
 
 ### Fitur
 
-- Mendukung pencarian multi-bahasa Google/Bing.
-- Gratis & Sumber Terbuka selamanya 
-- Kirim satu kali dan pembaruan otomatis ke depannya.   
+- Mendukung pencarian SEO multibahasa Google/Bing.
+- Gratis & Sumber Terbuka selamanya
+- Submit satu kali dan update otomatis di masa depan.   
 
 
 
 ## Mulai
 
-Ganti URL `GitHub` dengan `OpenAiTx`, misalnya https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx .
+Ganti URL `GitHub` dengan `OpenAiTx`, contohnya https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx .
 
 ## Contoh
 
-### Pilihan Gaya 1:
+### Opsi Gaya 1:
 
 <div style="text-align: center"><p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi"><img src="https://img.shields.io/badge/हिन्दी-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa"><img src="https://img.shields.io/badge/فارسی-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id"><img src="https://img.shields.io/badge/Bahasa Indonesia-white" alt="version"></a> </p></div>
 
-### Pilihan Gaya 2:
+### Opsi Gaya 2:
 
 <p align="center">
   <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">English</a> |
@@ -86,7 +86,7 @@ Ganti URL `GitHub` dengan `OpenAiTx`, misalnya https://github.com/OpenAiTx/OpenA
   <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Bahasa Indonesia</a>
 </p>
 
-### Pilihan Gaya 3:
+### Opsi Gaya 3:
 
 <div align="right" >
   <details>
@@ -125,10 +125,32 @@ Ganti URL `GitHub` dengan `OpenAiTx`, misalnya https://github.com/OpenAiTx/OpenA
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
-## Dukungan/Kontribusi 
 
-Jika Anda ingin berkontribusi dalam proyek ini, yang perlu Anda lakukan hanyalah:
-Fork proyek → Clone proyek → Pilih skrip dalam bahasa Anda → Masukkan token AI Anda  → Jalankan → Commit & push & buat PR
+
+## Kontribusi Berbagi
+
+Jika Anda dapat membantu dengan mengirimkan PR ke proyek favorit Anda, itu akan sangat membantu mempromosikan proyek kami.
+
+Contoh:
+
+```
+Judul:
+docs: tambah 20 tautan bahasa pada README
+
+Isi:
+PR menambah 20 tautan bahasa ke README dan pengguna dapat dengan mudah mengakses README terjemahan, mendukung pencarian SEO multibahasa google/bing.
+
+Demo halaman https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
+
+> OpenAiTx gratis dan open-source : https://github.com/OpenAiTx/OpenAiTx
+```
+
+
+
+## Kontribusi Komputasi
+
+Jika Anda ingin berkontribusi pada proyek ini, yang perlu Anda lakukan adalah:
+Fork proyek → Clone proyek → Pilih skrip dalam bahasa Anda → Isi token AI Anda → Jalankan → Commit & push & buat PR
 
 > Catatan: **Jangan mengunggah token Anda!**
 
@@ -136,7 +158,7 @@ Fork proyek → Clone proyek → Pilih skrip dalam bahasa Anda → Masukkan toke
 
 - Hanya mendukung readme markdown github.
 
-## Lain-lain
+## Lainnya
 
 - 10~30 menit/proyek
 - 200~400 proyek/satu konsol per hari.
@@ -145,7 +167,7 @@ Fork proyek → Clone proyek → Pilih skrip dalam bahasa Anda → Masukkan toke
 
 ### Terima kasih
 
-- Tim Microsoft MVP memberikan anggaran platform komunitas azure open source sebesar 150USD/Bulan.
+- Tim Microsoft MVP menyediakan anggaran platform azure komunitas open source sebesar 150USD/Bulan.
 
 ---
 

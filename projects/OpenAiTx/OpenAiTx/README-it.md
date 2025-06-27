@@ -13,7 +13,7 @@
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a></p>
@@ -39,21 +39,21 @@
 
 ## Introduzione
 
-**OpenAiTx** è uno strumento di traduzione automatica in 20 lingue per il readme dei tuoi progetti GitHub.
+**OpenAiTx** strumento di traduzione automatica in 20 lingue per il readme del tuo progetto GitHub.
 
 
 
 ### Caratteristiche
 
-- Supporta la ricerca multilingue Google/Bing.
+- Supporta ricerca SEO multilingue su Google/Bing.
 - Gratuito & Open Source per sempre 
 - Invia una sola volta e aggiorna automaticamente in futuro.   
 
 
 
-## Come iniziare
+## Per iniziare
 
-Sostituisci l’URL `GitHub` con `OpenAiTx`, es. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx .
+Sostituisci l'URL `GitHub` con `OpenAiTx`, ad esempio https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx .
 
 ## Esempio
 
@@ -103,7 +103,7 @@ Sostituisci l’URL `GitHub` con `OpenAiTx`, es. https://github.com/OpenAiTx/Ope
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a></p>
@@ -119,33 +119,55 @@ Sostituisci l’URL `GitHub` con `OpenAiTx`, es. https://github.com/OpenAiTx/Ope
 </div>
 
 
-### Video Demo
+### Video dimostrativo
 
 <a href="https://github.com/user-attachments/assets/a1370023-8924-4d40-9f18-979a334e934d"> 
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
-## Supporto/Contributi
 
-Se desideri contribuire al progetto, tutto ciò che devi fare è:
-Fork del progetto → Clona il progetto → Scegli uno script nella tua lingua → Inserisci il tuo token AI  → Esegui → Commit & push & crea una PR
 
-> Nota: **Per favore non caricare i tuoi token!**
+## Condivisione e contributo
+
+Se potessi aiutare inviando una PR al tuo progetto preferito, sarebbe di grande aiuto per promuovere il nostro progetto.
+
+Esempio:
+
+```
+Titolo:
+docs: aggiungi 20 link di lingua al README
+
+Contenuto:
+La PR aggiunge 20 link di lingua al README e l'utente può accedere facilmente al READEME tradotto, supporta la ricerca SEO multilingue di google/bing.
+
+Demo pagina https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
+
+> OpenAiTx è gratuito e open-source : https://github.com/OpenAiTx/OpenAiTx
+```
+
+
+
+## Contributo computazionale 
+
+Se vuoi contribuire al progetto, tutto ciò che devi fare è:
+Fork del progetto → Clona il progetto → Scegli uno script nella tua lingua → Inserisci il tuo token AI  → Eseguilo → Commit & push & crea una PR
+
+> Nota: **Si prega di non caricare i propri token!**
 
 ### Note
 
-- Supporta solo markdown readme di github.
+- Supporta solo readme markdown di github.
 
 ## Altro
 
-- 10~30 minuti/progetto
-- 200~400 progetti per console al giorno.
-- Ogni 3~7 giorni verranno aggiornati i progetti esistenti (a seconda delle future risorse di calcolo)
+- 10~30 min/progetto
+- 200~400 progetti/una console al giorno.
+- Ogni 3~7 giorni aggiornerà i progetti esistenti (a seconda delle risorse di calcolo future)
 
 
 ### Ringraziamenti
 
-- Il team Microsoft MVP fornisce 150USD/mese di budget Azure per la piattaforma open source community.
+- Il team Microsoft MVP fornisce un budget di 150USD/mese per la piattaforma azure della comunità open source.
 
 ---
 

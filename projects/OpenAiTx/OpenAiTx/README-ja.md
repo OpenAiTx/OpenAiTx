@@ -33,27 +33,27 @@
 
 
 <div align="center">
- あなたの<a href="https://github.com/OpenAiTx/OpenAiTx">Star</a> がOpen Ai Txをより良くします
+ あなたの<a href="https://github.com/OpenAiTx/OpenAiTx">スター</a>が Open Ai Tx をより良くします
 </div>
 
 
 ## はじめに
 
-**OpenAiTx** は、あなたのGitHubプロジェクトのREADMEを20言語に自動翻訳するツールです。
+**OpenAiTx** は、あなたの GitHub プロジェクトの README を20言語に自動翻訳するツールです。
 
 
 
-### 機能
+### 特徴
 
-- Google/Bingの複数言語検索に対応。
+- Google/Bing 複数言語のSEO検索をサポート
 - 永久に無料＆オープンソース
-- 一度提出すれば、今後は自動で更新。
+- 一度提出すれば、今後自動で更新されます   
 
 
 
 ## はじめ方
 
-URLの `GitHub` を `OpenAiTx` に置き換えてください。例： https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx 。
+URL の `GitHub` を `OpenAiTx` に置き換えてください。例： https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx 。
 
 ## 例
 
@@ -125,28 +125,49 @@ URLの `GitHub` を `OpenAiTx` に置き換えてください。例： https://g
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
-## サポート・貢献 
 
-このプロジェクトに貢献したい場合は、以下の手順を行ってください：
-プロジェクトをFork → プロジェクトをClone → あなたの言語のスクリプトを選択 → AIトークンを入力 → 実行 → コミット＆プッシュ＆PRを作成
+
+## シェアによる貢献
+
+もしお気に入りのプロジェクトに PR を提出していただければ、私たちのプロジェクトの普及に大きく貢献できます。
+
+例：
+
+```
+タイトル:
+docs: README の20言語リンクを追加
+
+内容:
+PRはREADMEに20言語のリンクを追加し、ユーザーが翻訳済みREADMEに簡単にアクセスできるようになります。また、Google/Bingの多言語SEO検索もサポートしています。
+
+ページデモ https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
+
+> OpenAiTxは無料かつオープンソースです : https://github.com/OpenAiTx/OpenAiTx
+```
+
+
+
+## 計算による貢献 
+
+プロジェクトに貢献したい場合は、以下の手順で参加できます：
+プロジェクトをFork → プロジェクトをClone → 自分の言語のスクリプトを選択 → AIトークンを入力 → 実行 → Commit & push & PR作成
 
 > 注意: **トークンは絶対にアップロードしないでください！**
 
-### 注意事項
+### 注意
 
-- GitHubのMarkdown READMEのみ対応。
+- GitHubのMarkdown READMEのみサポートしています。
 
 ## その他
 
 - 1プロジェクトあたり10～30分
-- 1コンソールあたり1日200～400プロジェクト
-- 既存プロジェクトは3～7日ごとに更新されます（今後の計算リソースによる）
-
+- 1コンソールで1日に200～400プロジェクト
+- 既存プロジェクトは3～7日ごとに更新（今後の計算リソースによる）
 
 
 ### 謝辞
 
-- Microsoft MVPチームが、オープンソースコミュニティ向けに月額150USDのAzureプラットフォーム予算を提供しています。
+- Microsoft MVPチームより、オープンソースコミュニティAzureプラットフォームの予算として月額150USDをご提供いただいています。
 
 ---
 

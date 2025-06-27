@@ -39,21 +39,21 @@
 
 ## Introduction
 
-**OpenAiTx** 20 languages auto-translate tool for your GitHub project readme.
+**OpenAiTx** is a 20-language auto-translation tool for your GitHub project readme.
 
 
 
 ### Features
 
-- Support Google/Bing multiple languages search.
-- Free & Open Source forever 
-- Submit one time and auto update future.   
+- Supports Google/Bing multi-language SEO search.
+- Free & Open Source forever.
+- Submit once and future updates are automatic.   
 
 
 
 ## Get Started
 
-Replace URL `GitHub` by `OpenAiTx`, e.g. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx .
+Replace the URL `GitHub` with `OpenAiTx`, e.g. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx .
 
 ## Example
 
@@ -125,7 +125,29 @@ Replace URL `GitHub` by `OpenAiTx`, e.g. https://github.com/OpenAiTx/OpenAiTx �
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
-## Support/Contribution 
+
+
+## Sharing Contribution
+
+If you could help by submitting a PR to your favorite project, it would greatly help promote our project.
+
+Example:
+
+```
+Title:
+docs: add 20 language links of README
+
+Content:
+PR adds 20 languages link to the README and user can easily to access translated READEME, supports google/bing multiple languages SEO search.
+
+Page demo https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
+
+> OpenAiTx is free and open-source : https://github.com/OpenAiTx/OpenAiTx
+```
+
+
+
+## Computing Contribution 
 
 If you would like to have a contribution in the project, all you need to do is:
 Fork project → Clone project → Choose a script in your language → Fill in your AI token  → Run it → Commit & push & create a PR

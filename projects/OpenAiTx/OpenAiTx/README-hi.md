@@ -33,35 +33,35 @@
 
 
 <div align="center">
- आपका <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a>  Open Ai Tx को बेहतर बना सकता है
+ आपका <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a>  Open Ai Tx को और बेहतर बना सकता है
 </div>
 
 
 ## परिचय
 
-**OpenAiTx** आपकी GitHub परियोजना की रीडमी के लिए 20 भाषाओं में स्वतः अनुवाद उपकरण।
+**OpenAiTx** आपके GitHub प्रोजेक्ट रीडमी के लिए 20 भाषाओं में ऑटो-ट्रांसलेट टूल है।
 
 
 
-### विशेषताएं
+### विशेषताएँ
 
-- Google/Bing की कई भाषाओं में खोज समर्थन।
-- हमेशा के लिए फ्री और ओपन सोर्स
-- एक बार सबमिट करें और भविष्य में स्वतः अपडेट हो।   
+- Google/Bing की मल्टीपल लैंग्वेज SEO सर्च का समर्थन करता है।
+- हमेशा के लिए फ्री एवं ओपन सोर्स 
+- एक बार सबमिट करें और भविष्य में ऑटो अपडेट हो जाए।   
 
 
 
-## प्रारंभ करें
+## शुरुआत करें
 
-URL `GitHub` को `OpenAiTx` से बदलें, जैसे कि https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx ।
+URL में `GitHub` को `OpenAiTx` से बदलें, उदाहरण: https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx .
 
 ## उदाहरण
 
-### स्टाइल विकल्प1:
+### स्टाइल विकल्प 1:
 
 <div style="text-align: center"><p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi"><img src="https://img.shields.io/badge/हिन्दी-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa"><img src="https://img.shields.io/badge/فارسی-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id"><img src="https://img.shields.io/badge/Bahasa Indonesia-white" alt="version"></a> </p></div>
 
-### स्टाइल विकल्प2:
+### स्टाइल विकल्प 2:
 
 <p align="center">
   <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">English</a> |
@@ -86,7 +86,7 @@ URL `GitHub` को `OpenAiTx` से बदलें, जैसे कि https
   <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Bahasa Indonesia</a>
 </p>
 
-### स्टाइल विकल्प3:
+### स्टाइल विकल्प 3:
 
 <div align="right" >
   <details>
@@ -125,10 +125,32 @@ URL `GitHub` को `OpenAiTx` से बदलें, जैसे कि https
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
-## समर्थन/योगदान 
 
-यदि आप इस परियोजना में योगदान करना चाहते हैं, तो आपको बस यह करना है:
-प्रोजेक्ट को फोर्क करें → प्रोजेक्ट को क्लोन करें → अपनी भाषा में एक स्क्रिप्ट चुनें → अपना AI टोकन डालें → रन करें → कमिट & पुश करें और PR बनाएं
+
+## योगदान साझा करना
+
+यदि आप किसी पसंदीदा प्रोजेक्ट में PR सबमिट करके मदद कर सकते हैं, तो यह हमारे प्रोजेक्ट को बढ़ावा देने में काफी मदद करेगा।
+
+उदाहरण:
+
+```
+शीर्षक:
+docs: README की 20 भाषाओं के लिंक जोड़ें
+
+सामग्री:
+PR README में 20 भाषाओं के लिंक जोड़ता है और यूज़र अनुवादित README को आसानी से एक्सेस कर सकते हैं, गूगल/बिंग की मल्टीपल लैंग्वेज SEO सर्च को सपोर्ट करता है।
+
+पेज डेमो https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
+
+> OpenAiTx फ्री और ओपन-सोर्स है: https://github.com/OpenAiTx/OpenAiTx
+```
+
+
+
+## कंप्यूटिंग योगदान 
+
+यदि आप प्रोजेक्ट में योगदान देना चाहते हैं, तो आपको केवल यह करना है:
+प्रोजेक्ट को Fork करें → प्रोजेक्ट को Clone करें → अपनी भाषा में स्क्रिप्ट चुनें → अपना AI टोकन भरें → रन करें → Commit करें & push करें & PR बनाएं
 
 > नोट: **कृपया अपने टोकन अपलोड न करें!**
 
@@ -138,14 +160,15 @@ URL `GitHub` को `OpenAiTx` से बदलें, जैसे कि https
 
 ## अन्य
 
-- 10~30 मिनट/ प्रति प्रोजेक्ट
-- 200~400 प्रोजेक्ट्स/एक कंसोल प्रतिदिन।
-- हर 3~7 दिनों में मौजूदा परियोजनाओं को अपडेट किया जाएगा (आगामी कंप्यूटिंग संसाधनों पर निर्भर करता है)
+- 10~30 मिनट/प्रति प्रोजेक्ट
+- 200~400 प्रोजेक्ट्स/एक कंसोल प्रति दिन।
+- हर 3~7 दिन में मौजूदा प्रोजेक्ट्स अपडेट होंगे (आगे की कंप्यूटिंग संसाधनों पर निर्भर करता है)
 
 
 ### धन्यवाद
 
-- Microsoft MVP टीम 150USD/माह ओपन सोर्स कम्युनिटी अज्योर प्लेटफॉर्म बजट प्रदान करती है।
+- माइक्रोसॉफ्ट MVP टीम 150USD/महीना ओपन सोर्स कम्युनिटी अजूर प्लेटफॉर्म बजट प्रदान करती है।
+
 
 ---
 

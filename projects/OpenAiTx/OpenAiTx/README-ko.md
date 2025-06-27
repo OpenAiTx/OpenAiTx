@@ -33,27 +33,27 @@
 
 
 <div align="center">
- 당신의 <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a> 가 Open Ai Tx를 더 발전시킬 수 있습니다
+ 당신의 <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a> 가 Open Ai Tx를 더욱 발전시킬 수 있습니다
 </div>
 
 
 ## 소개
 
-**OpenAiTx**는 GitHub 프로젝트의 readme를 20개 언어로 자동 번역해주는 도구입니다.
+**OpenAiTx**는 GitHub 프로젝트의 README를 위한 20개 언어 자동 번역 도구입니다.
 
 
 
-### 특징
+### 주요 기능
 
-- Google/Bing 다국어 검색 지원
-- 영원히 무료 & 오픈 소스
-- 한 번 제출하면 앞으로 자동으로 업데이트
+- Google/Bing 다국어 SEO 검색 지원
+- 영구적 무료 & 오픈소스
+- 한 번 제출하면 이후 자동 업데이트   
 
 
 
 ## 시작하기
 
-URL의 `GitHub`을 `OpenAiTx`로 교체하세요. 예: https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx .
+URL의 `GitHub`를 `OpenAiTx`로 교체하세요. 예: https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx .
 
 ## 예시
 
@@ -125,27 +125,49 @@ URL의 `GitHub`을 `OpenAiTx`로 교체하세요. 예: https://github.com/OpenAi
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
-## 지원/기여 
 
-프로젝트에 기여하고 싶으시다면, 다음과 같이 하시면 됩니다:
-프로젝트 포크 → 프로젝트 클론 → 원하는 언어의 스크립트 선택 → AI 토큰 입력 → 실행 → 커밋 & 푸시 & PR 생성
 
-> 참고: **절대 토큰을 업로드하지 마세요!**
+## 공유 기여
 
-### 참고 사항
+좋아하는 프로젝트에 PR을 제출해주시면 저희 프로젝트를 알리는 데 큰 도움이 됩니다.
 
-- github 마크다운 readme만 지원합니다.
+예시:
+
+```
+제목:
+docs: README에 20개 언어 링크 추가
+
+내용:
+이 PR은 README에 20개 언어 링크를 추가하여 사용자가 번역된 README에 쉽게 접근할 수 있게 하고, 구글/빙 다국어 SEO 검색을 지원합니다.
+
+페이지 데모 https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
+
+> OpenAiTx는 무료 오픈소스 프로젝트입니다 : https://github.com/OpenAiTx/OpenAiTx
+```
+
+
+
+## 컴퓨팅 기여 
+
+본 프로젝트에 기여하시려면 다음 단계만 진행하시면 됩니다:
+프로젝트 Fork → 프로젝트 Clone → 원하는 언어의 스크립트 선택 → AI 토큰 입력 → 실행 → 커밋 & 푸시 & PR 생성
+
+> 참고: **토큰은 업로드하지 마세요!**
+
+### 참고사항
+
+- 깃허브 마크다운 README만 지원합니다.
 
 ## 기타
 
-- 프로젝트당 10~30분 소요
-- 콘솔 1개당 하루 200~400개 프로젝트 처리
-- 3~7일마다 기존 프로젝트 업데이트(향후 컴퓨팅 리소스에 따라 다름)
+- 프로젝트당 10~30분
+- 콘솔 1대당 하루 200~400개 프로젝트
+- 기존 프로젝트는 3~7일마다 업데이트됨 (향후 컴퓨팅 자원에 따라 다름)
 
 
-### 감사
+### 감사 인사
 
-- Microsoft MVP 팀에서 매월 150USD 오픈소스 커뮤니티 Azure 플랫폼 예산을 지원합니다.
+- Microsoft MVP팀에서 오픈소스 커뮤니티 Azure 플랫폼 예산 150USD/월을 지원해 주셨습니다.
 
 ---
 

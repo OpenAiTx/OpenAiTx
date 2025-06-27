@@ -33,25 +33,25 @@
 
 
 <div align="center">
- Tu <a href="https://github.com/OpenAiTx/OpenAiTx">estrella</a>  puede hacer Open Ai Tx mejor
+ Tu <a href="https://github.com/OpenAiTx/OpenAiTx">estrella</a> puede hacer Open Ai Tx mejor
 </div>
 
 
 ## Introducción
 
-**OpenAiTx** es una herramienta de traducción automática a 20 idiomas para el readme de tu proyecto en GitHub.
+**OpenAiTx** es una herramienta de traducción automática en 20 idiomas para el readme de tu proyecto en GitHub.
 
 
 
 ### Características
 
-- Soporta búsqueda en múltiples idiomas mediante Google/Bing.
-- Gratis y de código abierto para siempre.
-- Envía una vez y se actualiza automáticamente en el futuro.
+- Soporta búsqueda SEO multilingüe en Google/Bing.
+- Gratis y de código abierto para siempre 
+- Envíalo una vez y se actualizará automáticamente en el futuro.   
 
 
 
-## Primeros pasos
+## Comenzar
 
 Reemplaza la URL `GitHub` por `OpenAiTx`, por ejemplo: https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx .
 
@@ -119,33 +119,55 @@ Reemplaza la URL `GitHub` por `OpenAiTx`, por ejemplo: https://github.com/OpenAi
 </div>
 
 
-### Video de demostración
+### Video de Demostración
 
 <a href="https://github.com/user-attachments/assets/a1370023-8924-4d40-9f18-979a334e934d"> 
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
-## Soporte/Contribución
 
-Si deseas contribuir al proyecto, lo único que necesitas hacer es:
-Forkear el proyecto → Clonar el proyecto → Elegir un script en tu idioma → Rellenar tu token de AI → Ejecutarlo → Commit & push & crear un PR
 
-> Nota: **¡Por favor, no subas tus tokens!**
+## Compartir Contribución
+
+Si puedes ayudar enviando un PR a tu proyecto favorito, ayudaría enormemente a promocionar nuestro proyecto.
+
+Ejemplo:
+
+```
+Título:
+docs: agregar enlaces a README en 20 idiomas
+
+Contenido:
+El PR agrega enlaces a 20 idiomas en el README y el usuario puede acceder fácilmente al READEME traducido, soporta búsqueda SEO multilingüe en google/bing.
+
+Demo de página https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
+
+> OpenAiTx es gratuito y de código abierto: https://github.com/OpenAiTx/OpenAiTx
+```
+
+
+
+## Contribución de Computación 
+
+Si te gustaría contribuir al proyecto, todo lo que necesitas hacer es:
+Forkear el proyecto → Clonar el proyecto → Elegir un script en tu idioma → Completar tu token de IA → Ejecutarlo → Commit & push & crear un PR
+
+> Nota: **¡Por favor no subas tus tokens!**
 
 ### Notas
 
-- Solo soporta readme markdown de github.
+- Solo se soporta el readme markdown de github.
 
 ## Otros
 
-- 10~30 minutos/proyecto
+- 10~30 minutos/ por proyecto
 - 200~400 proyectos/una consola por día.
 - Cada 3~7 días se actualizarán los proyectos existentes (dependiendo de los recursos de computación futuros)
 
 
 ### Agradecimientos
 
-- El equipo de Microsoft MVP proporciona 150USD/mes de presupuesto en Azure para la comunidad de código abierto.
+- El equipo Microsoft MVP proporciona un presupuesto de 150USD/mes en la plataforma Azure para la comunidad de código abierto.
 
 ---
 

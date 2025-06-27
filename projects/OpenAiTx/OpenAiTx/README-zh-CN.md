@@ -33,19 +33,19 @@
 
 
 <div align="center">
- 您的 <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a> 可以让 Open Ai Tx 变得更好
+ 你的 <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a> 能让 Open Ai Tx 变得更好
 </div>
 
 
 ## 简介
 
-**OpenAiTx** 是一款为您的 GitHub 项目 README 提供 20 种语言自动翻译的工具。
+**OpenAiTx** 是一款用于你的 GitHub 项目 README 的 20 种语言自动翻译工具。
 
 
 
 ### 功能
 
-- 支持 Google/Bing 多语言搜索。
+- 支持 Google/Bing 多语言 SEO 搜索。
 - 永久免费 & 开源
 - 一次提交，未来自动更新。
 
@@ -125,27 +125,49 @@
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
-## 支持与贡献
 
-如果您想为该项目做出贡献，您需要做的仅是：
-Fork 项目 → Clone 项目 → 选择一种您的语言脚本 → 填写您的 AI token → 运行脚本 → Commit & push & 创建 PR
 
-> 注意：**请勿上传您的 token！**
+## 分享贡献
 
-### 注意事项
+如果你能通过向你喜欢的项目提交 PR 来帮助我们，将极大地推动本项目的推广。
 
-- 仅支持 github markdown 格式的 readme。
+示例：
+
+```
+标题：
+docs: 新增 README 20 种语言链接
+
+内容：
+PR 为 README 添加了 20 种语言链接，用户可以轻松访问翻译后的 READEME，支持 google/bing 多语言 SEO 搜索。
+
+页面演示 https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
+
+> OpenAiTx 是免费的开源项目 : https://github.com/OpenAiTx/OpenAiTx
+```
+
+
+
+## 算力贡献
+
+如果你想为本项目做出贡献，只需：
+Fork 项目 → 克隆项目 → 选择你的语言脚本 → 填写你的 AI token → 运行 → 提交 & 推送 & 创建 PR
+
+> 注意：**请不要上传你的 token！**
+
+### 说明
+
+- 仅支持 github markdown readme。
 
 ## 其他
 
 - 10~30 分钟/每个项目
 - 200~400 个项目/每台控制台每天
-- 每 3~7 天会更新已存在的项目（视未来计算资源而定）
+- 每 3~7 天会更新一次现有项目（取决于未来算力资源）
 
 
-### 致谢
+### 鸣谢
 
-- 感谢 Microsoft MVP 团队为开源社区提供每月 150 美元 Azure 平台预算。
+- 感谢 Microsoft MVP 团队每月提供 150 美元的开源社区 Azure 平台预算。
 
 ---
 

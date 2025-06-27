@@ -39,21 +39,21 @@
 
 ## Giriş
 
-**OpenAiTx** GitHub projenizin readme dosyası için 20 dilde otomatik çeviri aracı.
+**OpenAiTx** GitHub projenizin readme dosyası için 20 dili otomatik olarak çevirebilen bir araçtır.
 
 
 
 ### Özellikler
 
-- Google/Bing çoklu dil arama desteği.
-- Sonsuza dek ücretsiz & açık kaynak 
-- Bir kez gönderin ve gelecekte otomatik güncelleyin.   
+- Google/Bing çoklu dil SEO aramasını destekler.
+- Sonsuza kadar Ücretsiz & Açık Kaynak 
+- Tek sefer gönderin ve gelecekte otomatik güncellensin.   
 
 
 
-## Başlarken
+## Başlangıç
 
-URL'de `GitHub` yerine `OpenAiTx` kullanın, ör. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx .
+URL'de `GitHub` yerine `OpenAiTx` kullanın, örneğin https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx .
 
 ## Örnek
 
@@ -125,27 +125,49 @@ URL'de `GitHub` yerine `OpenAiTx` kullanın, ör. https://github.com/OpenAiTx/Op
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
-## Destek/Katkı 
 
-Projeye katkıda bulunmak isterseniz yapmanız gerekenler:
-Projeyi çatalla → Projeyi klonla → Kendi dilinde bir betik seç → AI tokenını doldur → Çalıştır → Commit & push & PR oluştur
+
+## Paylaşım Katkısı
+
+Favori projenize bir PR (pull request) göndererek yardımcı olursanız, projemizin tanıtımına büyük katkı sağlarsınız.
+
+Örnek:
+
+```
+Başlık:
+docs: README'nin 20 dilde bağlantısını ekle
+
+İçerik:
+PR, README'ye 20 dil bağlantısı ekler ve kullanıcıların çevrilmiş READEME'ye kolayca ulaşmasını sağlar, google/bing çoklu dil SEO aramasını destekler.
+
+Sayfa demosu https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
+
+> OpenAiTx ücretsiz ve açık kaynaktır : https://github.com/OpenAiTx/OpenAiTx
+```
+
+
+
+## Hesaplama Katkısı 
+
+Projede katkıda bulunmak isterseniz, yapmanız gerekenler:
+Projeyi çatallayın (fork) → Projeyi klonlayın → Kendi dilinizde bir script seçin → AI tokenınızı girin → Çalıştırın → Commit & push & PR oluşturun
 
 > Not: **Lütfen tokenlarınızı yüklemeyin!**
 
 ### Notlar
 
-- Sadece github markdown readme dosyası desteklenmektedir.
+- Sadece github markdown readme'yi destekler.
 
 ## Diğer
 
-- 10~30 dk/proje başına
-- 200~400 proje/bir konsol günde.
-- Her 3~7 günde mevcut projeler güncellenir (gelecekteki bilgisayar kaynaklarına bağlı olarak)
+- 10~30 dakika/proje başına
+- 200~400 proje/gün başına bir konsolda.
+- Var olan projeler her 3~7 günde bir güncellenir (gelecekteki hesaplama kaynaklarına bağlı olarak)
 
 
 ### Teşekkürler
 
-- Microsoft MVP ekibi açık kaynak topluluğu için aylık 150 USD Azure platformu bütçesi sağlamaktadır.
+- Microsoft MVP ekibi, açık kaynak topluluğu azure platformu için aylık 150USD bütçe sağlamaktadır.
 
 ---
 

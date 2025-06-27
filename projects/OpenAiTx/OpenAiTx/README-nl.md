@@ -39,29 +39,29 @@
 
 ## Introductie
 
-**OpenAiTx** 20-talen auto-vertaaltool voor de readme van je GitHub-project.
+**OpenAiTx** 20-talen automatische vertaalsysteem voor de readme van je GitHub-project.
 
 
 
 ### Functies
 
-- Ondersteuning voor Google/Bing meertalige zoekopdrachten.
-- Altijd gratis & open source
-- Eenmalig indienen en automatisch bijwerken in de toekomst.   
+- Ondersteunt Google/Bing meertalige SEO-zoekopdrachten.
+- Gratis & Open Source voor altijd
+- Eén keer indienen en automatische toekomstige updates.   
 
 
 
 ## Aan de slag
 
-Vervang de URL `GitHub` door `OpenAiTx`, bijv. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx .
+Vervang URL `GitHub` door `OpenAiTx`, bijvoorbeeld https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx .
 
 ## Voorbeeld
 
-### Stijl Optie 1:
+### Stijl Optie1:
 
 <div style="text-align: center"><p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi"><img src="https://img.shields.io/badge/हिन्दी-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa"><img src="https://img.shields.io/badge/فارسی-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id"><img src="https://img.shields.io/badge/Bahasa Indonesia-white" alt="version"></a> </p></div>
 
-### Stijl Optie 2:
+### Stijl Optie2:
 
 <p align="center">
   <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">English</a> |
@@ -86,7 +86,7 @@ Vervang de URL `GitHub` door `OpenAiTx`, bijv. https://github.com/OpenAiTx/OpenA
   <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Bahasa Indonesia</a>
 </p>
 
-### Stijl Optie 3:
+### Stijl Optie3:
 
 <div align="right" >
   <details>
@@ -125,27 +125,49 @@ Vervang de URL `GitHub` door `OpenAiTx`, bijv. https://github.com/OpenAiTx/OpenA
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
-## Ondersteuning/Bijdrage 
 
-Als je wilt bijdragen aan het project, hoef je alleen maar het volgende te doen:
-Fork project → Clone project → Kies een script in jouw taal → Vul je AI-token in → Voer het uit → Commit & push & maak een PR aan
+
+## Delen van Bijdragen
+
+Als je zou kunnen helpen door een PR in te dienen bij je favoriete project, zou dat enorm helpen om ons project te promoten.
+
+Voorbeeld:
+
+```
+Titel:
+docs: voeg 20 taal-links van README toe
+
+Inhoud:
+PR voegt 20 taal-links toe aan de README en gebruikers kunnen eenvoudig toegang krijgen tot het vertaalde README, ondersteunt google/bing meertalige SEO-zoekopdrachten.
+
+Paginademo https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
+
+> OpenAiTx is gratis en open-source : https://github.com/OpenAiTx/OpenAiTx
+```
+
+
+
+## Computing Bijdrage
+
+Als je wilt bijdragen aan het project, hoef je alleen maar:
+Fork het project → Clone het project → Kies een script in jouw taal → Vul je AI-token in  → Voer het uit → Commit & push & maak een PR aan
 
 > Opmerking: **Upload je tokens niet!**
 
 ### Opmerkingen
 
-- Alleen ondersteuning voor GitHub markdown readme.
+- Alleen ondersteuning voor github markdown readme.
 
 ## Overig
 
 - 10~30 min/ per project
 - 200~400 projecten/één console per dag.
-- Elke 3~7 dagen worden bestaande projecten bijgewerkt (afhankelijk van toekomstige computerbronnen)
+- Elke 3~7 dagen worden bestaande projecten geüpdatet (afhankelijk van toekomstige computerbronnen)
 
 
-### Dankwoord
+### Dank
 
-- Microsoft MVP-team biedt een open source community Azure-platformbudget van 150USD/maand.
+- Microsoft MVP-team biedt $150/maand open source community azure platform budget.
 
 ---
 
