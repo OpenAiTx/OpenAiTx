@@ -27,6 +27,7 @@
     </div>
   </details>
 </div>
+
 ![](https://openaitx.github.io/logo_crop.png)
 
 
