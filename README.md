@@ -36,11 +36,18 @@
  Your <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a>  can make Open Ai Tx better
 </div>
 
----
 
 ## Introduction
 
-**OpenAiTx** 20-languages auto-translate tool for your GitHub project readme.
+**OpenAiTx** 20 languages auto-translate tool for your GitHub project readme.
+
+
+
+### Features
+
+- Support Google/Bing multiple languages search.
+- Free & Open Source forever 
+- Submit one time and auto update future.   
 
 
 
