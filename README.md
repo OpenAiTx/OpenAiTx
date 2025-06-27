@@ -45,7 +45,7 @@
 
 ### Features
 
-- Support Google/Bing multiple languages search.
+- Support Google/Bing multiple languages SEO search.
 - Free & Open Source forever 
 - Submit one time and auto update future.   
 
@@ -125,7 +125,29 @@ Replace URL `GitHub` by `OpenAiTx`, e.g. https://github.com/OpenAiTx/OpenAiTx �
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
-## Support/Contribution 
+
+
+## Sharing Contribution
+
+If you could help by submitting a PR to your favorite project, it would greatly help promote our project.
+
+Example:
+
+```
+Title:
+docs: add 20 language links of README
+
+Content:
+PR adds 20 languages link to the README and user can easily to access translated READEME, supports google/bing multiple languages SEO search.
+
+Page demo https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
+
+> OpenAiTx is free and open-source : https://github.com/OpenAiTx/OpenAiTx
+```
+
+
+
+## Computing Contribution 
 
 If you would like to have a contribution in the project, all you need to do is:
 Fork project → Clone project → Choose a script in your language → Fill in your AI token  → Run it → Commit & push & create a PR
