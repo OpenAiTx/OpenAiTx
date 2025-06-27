@@ -1,0 +1,367 @@
+
+#### Dir
+
+The `dir` (aliases include `files`, `directory`) command lets you scan directories and files. Example: `gitleaks dir -v path_to_directory_or_file`.
+If there is no target specified as a positional argument, then gitleaks will scan the current working directory.
+
+#### Stdin
+
+You can also stream data to gitleaks with the `stdin` command. Example: `cat some_file | gitleaks -v stdin`
+
+### Creating a baseline
+
+When scanning large repositories or repositories with a long history, it can be convenient to use a baseline. When using a baseline,
+gitleaks will ignore any old findings that are present in the baseline. A baseline can be any gitleaks report. To create a gitleaks report, run gitleaks with the `--report-path` parameter.
+
+```
+gitleaks git --report-path gitleaks-report.json # This will save the report in a file called gitleaks-report.json
+```
+
+Once as baseline is created it can be applied when running the detect command again:
+
+```
+gitleaks git --baseline-path gitleaks-report.json --report-path findings.json
+```
+
+After running the detect command with the --baseline-path parameter, report output (findings.json) will only contain new issues.
+
+## Pre-Commit hook
+
+You can run Gitleaks as a pre-commit hook by copying the example `pre-commit.py` script into
+your `.git/hooks/` directory.
+
+## Load Configuration
+
+The order of precedence is:
+
+1. `--config/-c` option:
+      ```bash
+      gitleaks git --config /home/dev/customgitleaks.toml .
+      ```
+2. Environment variable `GITLEAKS_CONFIG` with the file path:
+      ```bash
+      export GITLEAKS_CONFIG="/home/dev/customgitleaks.toml"
+      gitleaks git .
+      ```
+3. Environment variable `GITLEAKS_CONFIG_TOML` with the file content:
+      ```bash
+      export GITLEAKS_CONFIG_TOML=`cat customgitleaks.toml`
+      gitleaks git .
+      ```
+4. A `.gitleaks.toml` file within the target path:
+      ```bash
+      gitleaks git .
+      ```
+
+If none of the four options are used, then gitleaks will use the default config.
+
+## Configuration
+
+Gitleaks offers a configuration format you can follow to write your own secret detection rules:
+
+```toml
+# Title for the gitleaks configuration file.
+title = "Custom Gitleaks configuration"
+
+# You have basically two options for your custom configuration:
+#
+# 1. define your own configuration, default rules do not apply
+#
+#    use e.g., the default configuration as starting point:
+#    https://github.com/gitleaks/gitleaks/blob/master/config/gitleaks.toml
+#
+# 2. extend a configuration, the rules are overwritten or extended
+#
+#    When you extend a configuration the extended rules take precedence over the
+#    default rules. I.e., if there are duplicate rules in both the extended
+#    configuration and the default configuration the extended rules or
+#    attributes of them will override the default rules.
+#    Another thing to know with extending configurations is you can chain
+#    together multiple configuration files to a depth of 2. Allowlist arrays are
+#    appended and can contain duplicates.
+
+# useDefault and path can NOT be used at the same time. Choose one.
+[extend]
+# useDefault will extend the default gitleaks config built in to the binary
+# the latest version is located at:
+# https://github.com/gitleaks/gitleaks/blob/master/config/gitleaks.toml
+useDefault = true
+# or you can provide a path to a configuration to extend from.
+# The path is relative to where gitleaks was invoked,
+# not the location of the base config.
+# path = "common_config.toml"
+# If there are any rules you don't want to inherit, they can be specified here.
+disabledRules = [ "generic-api-key"]
+
+# An array of tables that contain information that define instructions
+# on how to detect secrets
+[[rules]]
+# Unique identifier for this rule
+id = "awesome-rule-1"
+
+# Short human-readable description of the rule.
+description = "awesome rule 1"
+
+# Golang regular expression used to detect secrets. Note Golang's regex engine
+# does not support lookaheads.
+regex = '''one-go-style-regex-for-this-rule'''
+
+# Int used to extract secret from regex match and used as the group that will have
+# its entropy checked if `entropy` is set.
+secretGroup = 3
+
+# Float representing the minimum shannon entropy a regex group must have to be considered a secret.
+entropy = 3.5
+
+# Golang regular expression used to match paths. This can be used as a standalone rule or it can be used
+# in conjunction with a valid `regex` entry.
+path = '''a-file-path-regex'''
+
+# Keywords are used for pre-regex check filtering. Rules that contain
+# keywords will perform a quick string compare check to make sure the
+# keyword(s) are in the content being scanned. Ideally these values should
+# either be part of the identiifer or unique strings specific to the rule's regex
+# (introduced in v8.6.0)
+keywords = [
+  "auth",
+  "password",
+  "token",
+]
+
+# Array of strings used for metadata and reporting purposes.
+tags = ["tag","another tag"]
+
+    # ⚠️ In v8.21.0 `[rules.allowlist]` was replaced with `[[rules.allowlists]]`.
+    # This change was backwards-compatible: instances of `[rules.allowlist]` still  work.
+    #
+    # You can define multiple allowlists for a rule to reduce false positives.
+    # A finding will be ignored if _ANY_ `[[rules.allowlists]]` matches.
+    [[rules.allowlists]]
+    description = "ignore commit A"
+    # When multiple criteria are defined the default condition is "OR".
+    # e.g., this can match on |commits| OR |paths| OR |stopwords|.
+    condition = "OR"
+    commits = [ "commit-A", "commit-B"]
+    paths = [
+      '''go\.mod''',
+      '''go\.sum'''
+    ]
+    # note: stopwords targets the extracted secret, not the entire regex match
+    # like 'regexes' does. (stopwords introduced in 8.8.0)
+    stopwords = [
+      '''client''',
+      '''endpoint''',
+    ]
+
+    [[rules.allowlists]]
+    # The "AND" condition can be used to make sure all criteria match.
+    # e.g., this matches if |regexes| AND |paths| are satisfied.
+    condition = "AND"
+    # note: |regexes| defaults to check the _Secret_ in the finding.
+    # Acceptable values for |regexTarget| are "secret" (default), "match", and "line".
+    regexTarget = "match"
+    regexes = [ '''(?i)parseur[il]''' ]
+    paths = [ '''package-lock\.json''' ]
+
+# You can extend a particular rule from the default config. e.g., gitlab-pat
+# if you have defined a custom token prefix on your GitLab instance
+[[rules]]
+id = "gitlab-pat"
+# all the other attributes from the default rule are inherited
+
+    [[rules.allowlists]]
+    regexTarget = "line"
+    regexes = [ '''MY-glpat-''' ]
+
+
+# ⚠️ In v8.25.0 `[allowlist]` was replaced with `[[allowlists]]`.
+#
+# Global allowlists have a higher order of precedence than rule-specific allowlists.
+# If a commit listed in the `commits` field below is encountered then that commit will be skipped and no
+# secrets will be detected for said commit. The same logic applies for regexes and paths.
+[[allowlists]]
+description = "global allow list"
+commits = [ "commit-A", "commit-B", "commit-C"]
+paths = [
+  '''gitleaks\.toml''',
+  '''(.*?)(jpg|gif|doc)'''
+]
+# note: (global) regexTarget defaults to check the _Secret_ in the finding.
+# Acceptable values for regexTarget are "match" and "line"
+regexTarget = "match"
+regexes = [
+  '''219-09-9999''',
+  '''078-05-1120''',
+  '''(9[0-9]{2}|666)-\d{2}-\d{4}''',
+]
+# note: stopwords targets the extracted secret, not the entire regex match
+# like 'regexes' does. (stopwords introduced in 8.8.0)
+stopwords = [
+  '''client''',
+'''endpoint''',
+]
+
+# ⚠️ In v8.25.0, `[[allowlists]]` have a new field called |targetRules|.
+#
+# Common allowlists can be defined once and assigned to multiple rules using |targetRules|.
+# This will only run on the specified rules, not globally.
+[[allowlists]]
+targetRules = ["awesome-rule-1", "awesome-rule-2"]
+description = "Our test assets trigger false-positives in a couple rules."
+paths = ['''tests/expected/._\.json$''']
+```
+
+Refer to the default [gitleaks config](https://raw.githubusercontent.com/gitleaks/gitleaks/master/config/gitleaks.toml) for examples or follow the [contributing guidelines](https://raw.githubusercontent.com/gitleaks/gitleaks/master/CONTRIBUTING.md) if you would like to contribute to the default configuration. Additionally, you can check out [this gitleaks blog post](https://blog.gitleaks.io/stop-leaking-secrets-configuration-2-3-aeed293b1fbf) which covers advanced configuration setups.
+
+### Additional Configuration
+
+#### gitleaks:allow
+
+If you are knowingly committing a test secret that gitleaks will catch you can add a `gitleaks:allow` comment to that line which will instruct gitleaks
+to ignore that secret. Ex:
+
+```
+class CustomClass:
+    discord_client_secret = '8dyfuiRyq=vVc3RRr_edRk-fK__JItpZ'  #gitleaks:allow
+
+```
+
+#### .gitleaksignore
+
+You can ignore specific findings by creating a `.gitleaksignore` file at the root of your repo. In release v8.10.0 Gitleaks added a `Fingerprint` value to the Gitleaks report. Each leak, or finding, has a Fingerprint that uniquely identifies a secret. Add this fingerprint to the `.gitleaksignore` file to ignore that specific secret. See Gitleaks' [.gitleaksignore](https://raw.githubusercontent.com/gitleaks/gitleaks/master/.gitleaksignore) for an example. Note: this feature is experimental and is subject to change in the future.
+
+#### Decoding
+
+Sometimes secrets are encoded in a way that can make them difficult to find
+with just regex. Now you can tell gitleaks to automatically find and decode
+encoded text. The flag `--max-decode-depth` enables this feature (the default
+value "0" means the feature is disabled by default).
+
+Recursive decoding is supported since decoded text can also contain encoded
+text.  The flag `--max-decode-depth` sets the recursion limit. Recursion stops
+when there are no new segments of encoded text to decode, so setting a really
+high max depth doesn't mean it will make that many passes. It will only make as
+many as it needs to decode the text. Overall, decoding only minimally increases
+scan times.
+
+The findings for encoded text differ from normal findings in the following
+ways:
+
+- The location points the bounds of the encoded text
+  - If the rule matches outside the encoded text, the bounds are adjusted to
+    include that as well
+- The match and secret contain the decoded value
+- Two tags are added `decoded:<encoding>` and `decode-depth:<depth>`
+
+Currently supported encodings:
+
+- **percent** - Any printable ASCII percent encoded values
+- **hex** - Any printable ASCII hex encoded values >= 32 characters
+- **base64** - Any printable ASCII base64 encoded values >= 16 characters
+
+#### Archive Scanning
+
+Sometimes secrets are packaged within archive files like zip files or tarballs,
+making them difficult to discover. Now you can tell gitleaks to automatically
+extract and scan the contents of archives. The flag `--max-archive-depth`
+enables this feature for both `dir` and `git` scan types. The default value of
+"0" means this feature is disabled by default.
+
+Recursive scanning is supported since archives can also contain other archives.
+The `--max-archive-depth` flag sets the recursion limit. Recursion stops when
+there are no new archives to extract, so setting a very high max depth just
+sets the potential to go that deep. It will only go as deep as it needs to.
+
+The findings for secrets located within an archive will include the path to the
+file inside the archive. Inner paths are separated with `!`.
+
+Example finding (shortened for brevity):
+
+```
+Finding:     DB_PASSWORD=8ae31cacf141669ddfb5da
+...
+File:        testdata/archives/nested.tar.gz!archives/files.tar!files/.env.prod
+Line:        4
+Commit:      6e6ee6596d337bb656496425fb98644eb62b4a82
+...
+Fingerprint: 6e6ee6596d337bb656496425fb98644eb62b4a82:testdata/archives/nested.tar.gz!archives/files.tar!files/.env.prod:generic-api-key:4
+Link:        https://github.com/leaktk/gitleaks/blob/6e6ee6596d337bb656496425fb98644eb62b4a82/testdata/archives/nested.tar.gz
+```
+
+This means a secret was detected on line 4 of `files/.env.prod.` which is in
+`archives/files.tar` which is in `testdata/archives/nested.tar.gz`.
+
+Currently supported formats:
+
+The [compression](https://github.com/mholt/archives?tab=readme-ov-file#supported-compression-formats)
+and [archive](https://github.com/mholt/archives?tab=readme-ov-file#supported-archive-formats)
+formats supported by mholt's [archives package](https://github.com/mholt/archives)
+are supported.
+
+#### Reporting
+
+Gitleaks has built-in support for several report formats: [`json`](https://raw.githubusercontent.com/gitleaks/gitleaks/master/testdata/expected/report/json_simple.json), [`csv`](https://raw.githubusercontent.com/gitleaks/gitleaks/master/testdata/expected/report/csv_simple.csv?plain=1), [`junit`](https://raw.githubusercontent.com/gitleaks/gitleaks/master/testdata/expected/report/junit_simple.xml), and [`sarif`](https://raw.githubusercontent.com/gitleaks/gitleaks/master/testdata/expected/report/sarif_simple.sarif).
+
+If none of these formats fit your need, you can create your own report format with a [Go `text/template` .tmpl file](https://www.digitalocean.com/community/tutorials/how-to-use-templates-in-go#step-4-writing-a-template) and the `--report-template` flag. The template can use [extended functionality from the `Masterminds/sprig` template library](https://masterminds.github.io/sprig/).
+
+For example, the following template provides a custom JSON output:
+```gotemplate
+# jsonextra.tmpl
+[{{ $lastFinding := (sub (len . ) 1) }}
+{{- range $i, $finding := . }}{{with $finding}}
+    {
+        "Description": {{ quote .Description }},
+        "StartLine": {{ .StartLine }},
+        "EndLine": {{ .EndLine }},
+        "StartColumn": {{ .StartColumn }},
+        "EndColumn": {{ .EndColumn }},
+        "Line": {{ quote .Line }},
+        "Match": {{ quote .Match }},
+        "Secret": {{ quote .Secret }},
+        "File": "{{ .File }}",
+        "SymlinkFile": {{ quote .SymlinkFile }},
+        "Commit": {{ quote .Commit }},
+        "Entropy": {{ .Entropy }},
+        "Author": {{ quote .Author }},
+        "Email": {{ quote .Email }},
+        "Date": {{ quote .Date }},
+        "Message": {{ quote .Message }},
+        "Tags": [{{ $lastTag := (sub (len .Tags ) 1) }}{{ range $j, $tag := .Tags }}{{ quote . }}{{ if ne $j $lastTag }},{{ end }}{{ end }}],
+        "RuleID": {{ quote .RuleID }},
+        "Fingerprint": {{ quote .Fingerprint }}
+    }{{ if ne $i $lastFinding }},{{ end }}
+{{- end}}{{ end }}
+]
+```
+
+Usage:
+```sh
+$ gitleaks dir ~/leaky-repo/ --report-path "report.json" --report-format template --report-template testdata/report/jsonextra.tmpl
+```
+
+## Sponsorships
+
+<p align="left">
+	<h3><a href="https://coderabbit.ai/?utm_source=oss&utm_medium=sponsorship&utm_campaign=gitleaks">coderabbit.ai</h3>
+	  <a href="https://coderabbit.ai/?utm_source=oss&utm_medium=sponsorship&utm_campaign=gitleaks">
+		  <img alt="CodeRabbit.ai Sponsorship" src="https://github.com/gitleaks/gitleaks/assets/15034943/76c30a85-887b-47ca-9956-17a8e55c6c41" width=200>
+	  </a>
+</p>
+
+
+## Exit Codes
+
+You can always set the exit code when leaks are encountered with the --exit-code flag. Default exit codes below:
+
+```
+0 - no leaks present
+1 - leaks or error encountered
+126 - unknown flag
+```
+
+
+---
+
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-27
+
+---
