@@ -144,7 +144,7 @@ PR adds 20 languages link to the README and user can easily to access translated
 
 Page demo https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
 
-> OpenAiTx is free and open-source : https://github.com/OpenAiTx/OpenAiTx
+> OpenAiTx is free and open-source : https://github.com/OpenAiTx/OpenAiTx , Objective: One-time translation using premium-grade LLM and make the result freely accessible to the open-source community.
 ```
 
 
