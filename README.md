@@ -170,3 +170,10 @@ Fork project → Clone project → Choose a script in your language → Fill in 
 ### Thanks
 
 - Microsoft MVP team provides 150USD/Month open source community azure platform budget.
+
+
+
+### Future plan
+
+- Support GitHub wiki auto translation 
+
