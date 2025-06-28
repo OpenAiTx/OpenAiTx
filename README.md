@@ -41,9 +41,11 @@
 
 **OpenAiTx** 20 languages auto-translate tool for your GitHub project readme.
 
+## Objective
 
+One-time translation using premium-grade LLM and make the result freely accessible to the open-source community.
 
-### Features
+## Features
 
 - Support Google/Bing multiple languages SEO search.
 - Free & Open Source forever 
