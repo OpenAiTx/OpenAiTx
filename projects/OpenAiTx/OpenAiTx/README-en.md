@@ -39,21 +39,23 @@
 
 ## Introduction
 
-**OpenAiTx** is a 20-language auto-translation tool for your GitHub project readme.
+**OpenAiTx** 20 languages auto-translate tool for your GitHub project readme.
 
+## Objective
 
+One-time translation using premium-grade LLM and make the result freely accessible to the open-source community.
 
-### Features
+## Features
 
-- Supports Google/Bing multi-language SEO search.
-- Free & Open Source forever.
-- Submit once and future updates are automatic.   
+- Support Google/Bing multiple languages SEO search.
+- Free & Open Source forever 
+- Submit one time and auto update future.   
 
 
 
 ## Get Started
 
-Replace the URL `GitHub` with `OpenAiTx`, e.g. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx .
+Replace URL `GitHub` by `OpenAiTx`, e.g. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx .
 
 ## Example
 
@@ -96,28 +98,28 @@ Replace the URL `GitHub` with `OpenAiTx`, e.g. https://github.com/OpenAiTx/OpenA
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">English</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN">简体中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">繁體中文</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">ไทย</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl">Polski</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar">العربية</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa">فارسی</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">Türkçe</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">Tiếng Việt</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Bahasa Indonesia</a></p>
-      </div>
-    </div>
-  </details>
+```markdown
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">Japanese</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">Korean</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">Hindi</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">Thai</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">French</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">German</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Spanish</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italian</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Russian</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Portuguese</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Dutch</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl">Polish</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar">Arabic</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa">Persian</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">Turkish</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">Vietnamese</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Indonesian</a></p>
 </div>
-
+</div>
+</details>
+</div>
 
 ### Demo Video
 
@@ -125,11 +127,9 @@ Replace the URL `GitHub` with `OpenAiTx`, e.g. https://github.com/OpenAiTx/OpenA
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
-
-
 ## Sharing Contribution
 
-If you could help by submitting a PR to your favorite project, it would greatly help promote our project.
+If you can help by submitting a PR to your favorite project, it will greatly help promote our project.
 
 Example:
 
@@ -138,39 +138,37 @@ Title:
 docs: add 20 language links of README
 
 Content:
-PR adds 20 languages link to the README and user can easily to access translated READEME, supports google/bing multiple languages SEO search.
+PR adds 20 language links to the README, allowing users to easily access the translated README and supports google/bing multi-language SEO search.
 
 Page demo https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
 
-> OpenAiTx is free and open-source : https://github.com/OpenAiTx/OpenAiTx
+> OpenAiTx is free and open-source: https://github.com/OpenAiTx/OpenAiTx , Objective: One-time translation using premium-grade LLM and making the result freely accessible to the open-source community.
 ```
 
+## Computing Contribution
 
-
-## Computing Contribution 
-
-If you would like to have a contribution in the project, all you need to do is:
-Fork project → Clone project → Choose a script in your language → Fill in your AI token  → Run it → Commit & push & create a PR
+If you would like to contribute to the project, all you need to do is:
+Fork the project → Clone the project → Choose a script in your language → Fill in your AI token → Run it → Commit & push & create a PR
 
 > Note: **Please do not upload your tokens!**
 
 ### Notes
 
-- Only support github markdown readme.
+- Only supports GitHub markdown README.
 
 ## Other
 
-- 10~30 mins/ per project
+- 10~30 mins/per project
 - 200~400 projects/one console per day.
-- Every 3~7 days will update exist projects (depending future computing resources)
-
+- Every 3~7 days will update existing projects (depending on future computing resources)
 
 ### Thanks
 
-- Microsoft MVP team provides 150USD/Month open source community azure platform budget.
+- The Microsoft MVP team provides a $150 USD/month Azure platform budget for the open-source community.
+```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-28
 
 ---

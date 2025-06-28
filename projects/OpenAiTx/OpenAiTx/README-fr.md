@@ -33,27 +33,29 @@
 
 
 <div align="center">
- Votre <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a>  peut améliorer Open Ai Tx
+ Votre <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a>  peut rendre Open Ai Tx meilleur
 </div>
 
 
 ## Introduction
 
-**OpenAiTx** est un outil de traduction automatique en 20 langues pour le README de vos projets GitHub.
+**OpenAiTx** est un outil de traduction automatique en 20 langues pour le readme de votre projet GitHub.
+
+## Objectif
+
+Traduction en une seule fois à l'aide d'un LLM de qualité premium et mise à disposition gratuite du résultat à la communauté open source.
+
+## Fonctionnalités
+
+- Prise en charge de la recherche SEO multilingue Google/Bing.
+- Gratuit et Open Source pour toujours 
+- Soumission unique et mise à jour automatique à l'avenir.   
 
 
 
-### Fonctionnalités
+## Démarrage
 
-- Prend en charge la recherche SEO multilingue Google/Bing.
-- Gratuit & Open Source pour toujours
-- Soumettez une fois et mise à jour automatique à l’avenir.   
-
-
-
-## Démarrer
-
-Remplacez l’URL `GitHub` par `OpenAiTx`, par exemple : https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx .
+Remplacez l'URL `GitHub` par `OpenAiTx`, ex. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx .
 
 ## Exemple
 
@@ -96,6 +98,7 @@ Remplacez l’URL `GitHub` par `OpenAiTx`, par exemple : https://github.com/Open
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">English</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN">简体中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">繁體中文</a></p>
+```markdown
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
@@ -119,7 +122,7 @@ Remplacez l’URL `GitHub` par `OpenAiTx`, par exemple : https://github.com/Open
 </div>
 
 
-### Vidéo de démonstration
+### Vidéo Démonstration
 
 <a href="https://github.com/user-attachments/assets/a1370023-8924-4d40-9f18-979a334e934d"> 
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
@@ -127,50 +130,51 @@ Remplacez l’URL `GitHub` par `OpenAiTx`, par exemple : https://github.com/Open
 
 
 
-## Contribution Partage
+## Partage de Contribution
 
-Si vous pouviez aider en soumettant une PR à votre projet préféré, cela contribuerait grandement à promouvoir notre projet.
+Si vous pouvez aider en soumettant une PR à votre projet favori, cela aiderait grandement à promouvoir notre projet.
 
 Exemple :
 
 ```
 Titre :
-docs : ajout des liens vers 20 langues du README
+docs: ajout de 20 liens linguistiques du README
 
 Contenu :
-La PR ajoute 20 liens de langues au README et les utilisateurs peuvent facilement accéder au README traduit, prend en charge la recherche SEO multilingue google/bing.
+La PR ajoute 20 liens de langues au README et l'utilisateur peut facilement accéder au README traduit, prend en charge la recherche multilingue Google/Bing SEO.
 
 Démo de la page https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
 
-> OpenAiTx est gratuit et open-source : https://github.com/OpenAiTx/OpenAiTx
+> OpenAiTx est gratuit et open-source : https://github.com/OpenAiTx/OpenAiTx , Objectif : Traduction unique utilisant LLM de qualité premium et rendre le résultat librement accessible à la communauté open-source.
 ```
 
 
 
-## Contribution Informatique
+## Contribution au Calcul
 
 Si vous souhaitez contribuer au projet, il vous suffit de :
-Forker le projet → Cloner le projet → Choisir un script dans votre langue → Renseigner votre token AI → L’exécuter → Commit & push & créer une PR
+Forker le projet → Cloner le projet → Choisir un script dans votre langue → Renseigner votre jeton AI → Lancer le script → Commit & push & créer une PR
 
-> Remarque : **Merci de ne pas télécharger vos tokens !**
+> Remarque : **Merci de ne pas télécharger vos jetons !**
 
-### Notes
+### Remarques
 
-- Prend uniquement en charge le readme markdown de github.
+- Prise en charge uniquement du markdown README de github.
 
 ## Autre
 
-- 10~30 min / par projet
-- 200~400 projets / une console par jour.
-- Mise à jour de projets existants tous les 3~7 jours (selon les ressources informatiques futures)
+- 10~30 min/projet
+- 200~400 projets/une console par jour.
+- Tous les 3~7 jours, mise à jour des projets existants (selon les ressources informatiques futures)
 
 
 ### Remerciements
 
-- L’équipe Microsoft MVP fournit un budget de plateforme Azure open source de 150 USD/mois.
+- L’équipe Microsoft MVP fournit un budget de 150 USD/mois sur la plateforme Azure pour la communauté open source.
+```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-28
 
 ---
