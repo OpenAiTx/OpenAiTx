@@ -3,15 +3,19 @@
 
 ---
 
-PocoClassGeneratorは、`Necroskillz`のPOCO Generator [Generate C# POCOs from SQL statement in LINQPad ](http://www.necronet.org/archive/2012/10/09/generate-c-pocos-from-sql-statement-in-linqpad.aspx) から始まりました。
+<div style="text-align: center"><p><a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> </p></div>
+
+---
+
+PocoClassGeneratorは、`Necroskillz`のPOCO Generator [Generate C# POCOs from SQL statement in LINQPad ](http://www.necronet.org/archive/2012/10/09/generate-c-pocos-from-sql-statement-in-linqpad.aspx) を基に作成されています。
 
 ### 特徴
 
-- 現在のデータベース内のすべてのテーブルおよびビューからPOCOクラスコードを生成可能
-- [Dapper.Contrib](https://github.com/StackExchange/Dapper/tree/master/Dapper.Contrib)をサポート
-- 複数のRDBMSをサポート : `sqlserver,oracle,mysql,postgresql`
-- 軽量かつ高速（わずか5秒で100テーブル分のコード生成）
-- 各データベースに適したダイアレクトのスキーマテーブルSQLでクエリ
+- 現在のデータベース内のすべてのテーブルおよびビューに対応したPOCOクラスコードを生成
+- [Dapper.Contrib](https://github.com/StackExchange/Dapper/tree/master/Dapper.Contrib) 対応
+- 複数のRDBMSに対応：`sqlserver,oracle,mysql,postgresql`
+- 小型かつ高速（100テーブルのコードを5秒で生成）
+- 各データベースクエリに適した方言スキーマテーブルSQLを使用
 
 ### デモ
 - [POCOGenerator Generate Class By Dynamic SQL | .NET Fiddle](https://dotnetfiddle.net/bDdSCA)
@@ -23,15 +27,15 @@ PocoClassGeneratorは、`Necroskillz`のPOCO Generator [Generate C# POCOs from S
 ![image](https://github.com/user-attachments/assets/235c4952-259b-4ecc-90b2-d0138c17316c)
 
 
-### はじめ方
+### はじめに
 
-👇最初に : [PocoClassGenerator.cs](https://raw.githubusercontent.com/mini-software/PocoClassGenerator/master/PocoClassGenerator/PocoClassGenerator/PocoClassGenerator.cs) のコードをプロジェクトまたはLINQPadにコピー＆ペーストしてください。  
-または [NuGet](https://www.nuget.org/packages/PocoClassGenerator/) からインストールしてください。
+👇まずは :  [PocoClassGenerator.cs](https://raw.githubusercontent.com/mini-software/PocoClassGenerator/master/PocoClassGenerator/PocoClassGenerator/PocoClassGenerator.cs) のコードをあなたのプロジェクトやLINQPadにコピー＆ペーストしてください。  
+または [NuGet](https://www.nuget.org/packages/PocoClassGenerator/) からインストール
 ```cmd
 PM> install-package PocoClassGenerator
 ```
 
-👇次に : コネクションを使用して `GenerateAllTables` を呼び出し、出力を表示します。
+👇次に :  接続を使用して `GenerateAllTables` を呼び出し、出力します。
 ```C#
 using (var connection = Connection)
 {
@@ -40,8 +44,8 @@ using (var connection = Connection)
 ```
 
 
-#### Dapper Contrib対応POCOクラス生成
-- `GeneratorBehavior.DapperContrib` でメソッドを呼び出すだけです
+#### Dapper Contrib POCOクラス対応
+- `GeneratorBehavior.DapperContrib` を指定してメソッドを呼び出します
 
 ```C#
 using (var conn = GetConnection())
@@ -55,7 +59,7 @@ using (var conn = GetConnection())
 ![image](https://github.com/user-attachments/assets/2989c2dc-8c06-4732-9069-a09605e1b18f)
 
 
-#### コメント生成
+#### コメントの生成
 
 ```C#
 using (var conn = GetConnection())
@@ -65,7 +69,7 @@ using (var conn = GetConnection())
 }
 ```
 
-#### ビュー生成
+#### ビューの生成
 
 ```C#
 using (var conn = GetConnection())
@@ -75,7 +79,7 @@ using (var conn = GetConnection())
 }
 ```
 
-#### ビュー＋コメント＋Dapper.Contribの生成
+#### ビュー・コメント・Dapper.Contribを同時に生成
 
 ```C#
 using (var conn = GetConnection())
@@ -85,9 +89,9 @@ using (var conn = GetConnection())
 }
 ```
 
-#### SQLで1つのクラスを生成
+#### SQLで単一クラスを生成
 
-1. 1つのクラスを生成
+1. 単一クラスを生成
 ```C#
 using (var connection = Connection)
 {
@@ -96,7 +100,7 @@ using (var connection = Connection)
 }
 ```
 
-2. クラス名を指定
+2. クラス名の指定
 ```C#
 using (var connection = Connection)
 {
@@ -107,7 +111,7 @@ using (var connection = Connection)
 
 
 #### DataTablePocoClass
-コードは [DataTablePocoClassGenerator.cs](https://raw.githubusercontent.com/mini-software/PocoClassGenerator/master/PocoClassGenerator/PocoClassGenerator/DataTablePocoClassGenerator.cs) にあります
+コードは [DataTablePocoClassGenerator.cs](https://github.com/shps951023/PocoClassGenerator/blob/master/PocoClassGenerator/PocoClassGenerator/DataTablePocoClassGenerator.cs) にあります。
 
 ```C#
 var dt = new DataTable();
@@ -123,8 +127,9 @@ public string ID { get; set; }
 Assert.Equal(expect, result);
 ```
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-29
 
 ---

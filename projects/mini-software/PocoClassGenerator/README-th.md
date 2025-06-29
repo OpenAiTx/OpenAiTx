@@ -3,17 +3,21 @@
 
 ---
 
-PocoClassGenerator เริ่มต้นจาก POCO Generator ของ `Necroskillz` [Generate C# POCOs from SQL statement in LINQPad ](http://www.necronet.org/archive/2012/10/09/generate-c-pocos-from-sql-statement-in-linqpad.aspx)
+<div style="text-align: center"><p><a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=PocoClassGenerator&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> </p></div>
+
+---
+
+PocoClassGenerator เริ่มต้นมาจาก POCO Generator ของ `Necroskillz` [Generate C# POCOs from SQL statement in LINQPad ](http://www.necronet.org/archive/2012/10/09/generate-c-pocos-from-sql-statement-in-linqpad.aspx)
 
 ### คุณสมบัติ
 
 - รองรับการสร้างโค้ดคลาส POCO จากทุกตารางและวิวในฐานข้อมูลปัจจุบัน
 - รองรับ [Dapper.Contrib](https://github.com/StackExchange/Dapper/tree/master/Dapper.Contrib)
 - รองรับหลาย RDBMS: `sqlserver,oracle,mysql,postgresql`
-- ขนาดเล็กและรวดเร็ว (ใช้เวลาเพียง 5 วินาทีในการสร้างโค้ด 100 ตาราง)
-- ใช้ SQL schema ตารางที่เหมาะสมกับแต่ละฐานข้อมูลในการ query
+- ขนาดเล็กและรวดเร็ว (สร้างโค้ด 100 ตารางได้ใน 5 วินาที)
+- ใช้ SQL schema table ที่เหมาะสมกับแต่ละฐานข้อมูลสำหรับการ query
 
-### ตัวอย่างสาธิต
+### ตัวอย่างสาธิต (DEMO)
 - [POCOGenerator Generate Class By Dynamic SQL | .NET Fiddle](https://dotnetfiddle.net/bDdSCA)
 ![20191009102303.png](https://i.loli.net/2019/10/09/4AOsU2X8PWBcbGS.png)
 - [POCO Class Generator GenerateAllTables  | .NET Fiddle](https://dotnetfiddle.net/GkdqsU)
@@ -23,15 +27,15 @@ PocoClassGenerator เริ่มต้นจาก POCO Generator ของ `N
 ![image](https://github.com/user-attachments/assets/235c4952-259b-4ecc-90b2-d0138c17316c)
 
 
-### เริ่มต้นใช้งาน
+### เริ่มต้นใช้งาน (GetStart)
 
-👇ขั้นแรก :  คัดลอกและวางโค้ด [PocoClassGenerator.cs](https://raw.githubusercontent.com/mini-software/PocoClassGenerator/master/PocoClassGenerator/PocoClassGenerator/PocoClassGenerator.cs) ลงในโปรเจกต์ของคุณหรือ LINQPad  
+👇ขั้นแรก :  คัดลอกและวางโค้ด [PocoClassGenerator.cs](https://raw.githubusercontent.com/mini-software/PocoClassGenerator/master/PocoClassGenerator/PocoClassGenerator/PocoClassGenerator.cs) ไปที่โปรเจ็กต์ของคุณหรือ LINQPad  
 หรือ ติดตั้งจาก [NuGet](https://www.nuget.org/packages/PocoClassGenerator/)
 ```cmd
 PM> install-package PocoClassGenerator
 ```
 
-👇ขั้นที่สอง : ใช้ Connection เพื่อเรียก `GenerateAllTables` แล้วพิมพ์ผลลัพธ์
+👇ขั้นที่สอง :  ใช้ Connection เพื่อเรียก `GenerateAllTables` แล้วพิมพ์ผลลัพธ์ออกมา
 ```C#
 using (var connection = Connection)
 {
@@ -41,7 +45,7 @@ using (var connection = Connection)
 
 
 #### รองรับ Dapper Contrib POCO Class
-- เพียงเรียกเมธอดพร้อมกับ `GeneratorBehavior.DapperContrib`
+- เรียกเมธอดพร้อม `GeneratorBehavior.DapperContrib`
 
 ```C#
 using (var conn = GetConnection())
@@ -50,12 +54,12 @@ using (var conn = GetConnection())
     Console.WriteLine(result);
 }
 ```
-**สาธิตออนไลน์ : [POCO Dapper Contrib Class Generator GenerateAllTables | .NET Fiddle](https://dotnetfiddle.net/yeuK1E)**
+**เดโมออนไลน์ : [POCO Dapper Contrib Class Generator GenerateAllTables | .NET Fiddle](https://dotnetfiddle.net/yeuK1E)**
 
 ![image](https://github.com/user-attachments/assets/2989c2dc-8c06-4732-9069-a09605e1b18f)
 
 
-#### สร้างคอมเมนต์
+#### สร้าง Comment
 
 ```C#
 using (var conn = GetConnection())
@@ -75,7 +79,7 @@ using (var conn = GetConnection())
 }
 ```
 
-#### สร้าง View และ Comment และ Dapper.Contrib
+#### สร้าง View พร้อม Comment และ Dapper.Contrib
 
 ```C#
 using (var conn = GetConnection())
@@ -123,8 +127,9 @@ public string ID { get; set; }
 Assert.Equal(expect, result);
 ```
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-29
 
 ---
