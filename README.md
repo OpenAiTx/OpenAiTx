@@ -52,7 +52,8 @@
 ## Get Started
 
 1. Replace URL `GitHub` by `OpenAiTx`, e.g. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
-2. Click and copy the style badges or text you like, system will auto create PR for the project after indexed.
+
+2. Click and copy the style badges or text you like.
 
 ## Example
 
@@ -125,7 +126,6 @@
 </a>
 
 
-
 ## Computing Contribution 
 
 If you would like to have a contribution in the project, all you need to do is:
@@ -136,6 +136,7 @@ Fork project → Clone project → Choose a script in your language → Fill in 
 ## Notes
 
 - Only support github markdown readme.
+- If you are project owner or core developer, you can auth github account to auto-create PR after indexed.
 
 ## Other
 
