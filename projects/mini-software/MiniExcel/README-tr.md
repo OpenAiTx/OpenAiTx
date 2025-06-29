@@ -12,47 +12,47 @@
 [<img align="right" src="https://github.com/dotnet-foundation/swag/blob/main/logo/dotnetfoundation_v4.png?raw=true" width="100" />](https://www.dotnetfoundation.org/)
 
 <div style="text-align: center">
-<p>Bu proje <a href="https://www.dotnetfoundation.org/">.NET Foundation</a>'ın bir parçasıdır ve onların <a href="https://www.dotnetfoundation.org/code-of-conduct">davranış kurallarına</a> tabidir.</p>
+<p>Bu proje <a href="https://www.dotnetfoundation.org/">.NET Foundation</a>'ın bir parçasıdır ve onların <a href="https://www.dotnetfoundation.org/code-of-conduct">davranış kurallarına</a> tabidir. </p>
 </div>
 
 ---
 
 <div style="text-align: center">
-<p><strong><a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a> | <a href="README.zh-Hant.md">繁體中文</a></strong></p>
+<p><strong><a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a> | <a href="README.zh-Hant.md">繁體中文</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ja">日本語</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ko">한국어</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=hi">हिन्दी</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=th">ไทย</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fr">Français</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=de">Deutsch</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=es">Español</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=it">Italiano</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ru">Русский</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pt">Português</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=nl">Nederlands</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pl">Polski</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ar">العربية</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fa">فارسی</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=tr">Türkçe</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=vi">Tiếng Việt</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=id">Bahasa Indonesia</a><p></p>
+</strong></p>
 </div>
+
 
 ---
 
 <div style="text-align: center">
- Sizin <a href="https://github.com/mini-software/MiniExcel">Yıldızınız</a> ve <a href="https://miniexcel.github.io">Bağışınız</a> MiniExcel'i daha iyi yapabilir
+ Sizin <a href="https://github.com/mini-software/MiniExcel">Yıldızlarınız</a> veya <a href="https://miniexcel.github.io">Bağışlarınız</a> MiniExcel'i daha iyi yapabilir
 </div>
 
 ---
 
 ### Giriş
 
-MiniExcel, OOM'dan (bellek taşması) kaçınmak için basit ve verimli bir .NET Excel işleme aracıdır.
+MiniExcel, .NET için basit ve verimli bir Excel işleme aracıdır ve özellikle bellek kullanımını en aza indirmek için tasarlanmıştır.
 
-Şu anda en popüler frameworkler, işlemleri kolaylaştırmak için tüm verileri belleğe yüklemeye ihtiyaç duyar, fakat bu durum bellek tüketimi sorunlarına yol açar. MiniExcel, algoritmayı bir akış (stream) üzerinden kullanarak orijinalde 1000 MB olan bellek kullanımını birkaç MB'a düşürmeye ve OOM'dan (bellek taşması) kaçınmaya çalışır.
+Şu anda, popüler frameworklerin çoğu, bir Excel belgesindeki tüm verileri belleğe yükleyerek işlem yapmaktadır, ancak bu durum bellek tüketimi sorunlarına yol açabilir. MiniExcel'in yaklaşımı farklıdır: Veriler satır satır akış (streaming) şeklinde işlenir ve orijinal tüketim potansiyel olarak yüzlerce megabayttan sadece birkaç megabayta düşer, bu da bellek taşması (OOM) sorunlarını etkin bir şekilde önler.
 
-![image](https://user-images.githubusercontent.com/12729184/113086657-ab8bd000-9214-11eb-9563-c970ac1ee35e.png)
-
-
+![Screenshot 2025-06-22 123525](https://github.com/user-attachments/assets/0b99a61e-8061-4604-8957-0b1f3ec74544)
 
 
 ### Özellikler
 
-- Düşük bellek tüketimi, OOM'dan (bellek taşması) ve tam GC'den kaçınır
-- Her veri satırı üzerinde gerçek zamanlı işlem desteği
-- LINQ ertelenmiş yürütme desteği, düşük tüketimli, hızlı sayfalama ve diğer karmaşık sorgulamaları yapabilir
-- Hafif, Microsoft Office kurulumu gerektirmez, COM+ yok, DLL boyutu 400KB'den küçük
-- Excel okuma/yazma/doldurma için kolay API stili
+- Bellek tüketimini en aza indirir, bellek taşması (OOM) hatalarını önler ve tam çöp toplama işlemlerinden kaçınır
+- Gerçek zamanlı, satır düzeyinde veri işlemleri ile büyük veri setlerinde daha iyi performans sağlar
+- Ertelenmiş yürütme ile LINQ desteği, hızlı ve bellek dostu sayfalama ve karmaşık sorgulara imkan tanır
+- Microsoft Office veya COM+ bileşenlerine ihtiyaç duymadan hafif, 500KB altında DLL boyutu
+- Excel dosyalarını okuma/yazma/doldurma için basit ve sezgisel API stili
 
-### Hızlı Başlangıç
+### Başlarken
 
-- [Excel İçe Aktar/Sorgu](#getstart1)
+- [Excel Aktarma/Sorgulama](#getstart1)
 
-- [Excel Dışa Aktar/Oluştur](#getstart2)
+- [Excel Dışa Aktarma/Oluşturma](#getstart2)
 
 - [Excel Şablonu](#getstart3)
 
@@ -64,46 +64,47 @@ MiniExcel, OOM'dan (bellek taşması) kaçınmak için basit ve verimli bir .NET
 
 ### Kurulum
 
-Paketi [NuGet üzerinden](https://www.nuget.org/packages/MiniExcel) yükleyebilirsiniz
+Paketi [NuGet üzerinden](https://www.nuget.org/packages/MiniExcel) yükleyebilirsiniz.
 
 ### Sürüm Notları
 
-Lütfen [Sürüm Notları](docs) bölümüne bakın
+Lütfen [Sürüm Notlarını](docs) kontrol edin.
 
 ### YAPILACAKLAR
 
-Lütfen [TODO](https://github.com/mini-software/MiniExcel/projects/1?fullscreen=true) bölümüne bakın
+Lütfen [TODO](https://github.com/mini-software/MiniExcel/projects/1?fullscreen=true) listesini kontrol edin.
 
 ### Performans
 
-Kıyaslama kodlarına [MiniExcel.Benchmarks](benchmarks/MiniExcel.Benchmarks/Program.cs) üzerinden ulaşabilirsiniz.
+Benchmark kodlarını [MiniExcel.Benchmarks](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Program.cs) bölümünde bulabilirsiniz.
 
-Performans testlerinde kullanılan dosya [**Test1,000,000x10.xlsx**](benchmarks/MiniExcel.Benchmarks/Test1%2C000%2C000x10.xlsx), her bir hücresinde "HelloWorld" yazan, 1.000.000 satır * 10 sütundan oluşan 32MB'lık bir belgedir.
+Performans testinde kullanılan dosya [**Test1,000,000x10.xlsx**](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Test1%2C000%2C000x10.xlsx), her hücresinde "HelloWorld" yazan 1.000.000 satır * 10 sütundan oluşan 32MB'lık bir belgedir.
 
-Tüm kıyaslamaları çalıştırmak için:
+Tüm benchmarkları çalıştırmak için:
 
 ```bash
 dotnet run -project .\benchmarks\MiniExcel.Benchmarks -c Release -f net9.0 -filter * --join
 ```
 
-Son sürüme ait kıyaslama sonuçlarını [burada](benchmarks/results) bulabilirsiniz.
+En son sürüm için benchmark sonuçlarını [burada](benchmarks/results) bulabilirsiniz.
 
 
-### Excel Sorgu/İçe Aktar  <a name="getstart1"></a>
+### Excel Sorgulama/Aktarma  <a name="getstart1"></a>
 
-#### 1. Sorgu çalıştır ve sonuçları güçlü türde bir IEnumerable'a eşle [[Deneyin]](https://dotnetfiddle.net/w5WD1J)
+#### 1. Bir sorgu çalıştırın ve sonuçları güçlü tipte bir IEnumerable'a eşleyin [[Deneyin]](https://dotnetfiddle.net/w5WD1J)
 
-Daha iyi verimlilik için Stream.Query kullanılması önerilir.
+Daha yüksek verimlilik için Stream.Query kullanılması tavsiye edilir.
 
 ```csharp
 public class UserAccount
 {
-    public Guid ID { get; set; }
-    public string Name { get; set; }
-    public DateTime BoD { get; set; }
-    public int Age { get; set; }
-    public bool VIP { get; set; }
-    public decimal Points { get; set; }
+```csharp
+public Guid ID { get; set; }
+public string Name { get; set; }
+public DateTime BoD { get; set; }
+public int Age { get; set; }
+public bool VIP { get; set; }
+public decimal Points { get; set; }
 }
 
 var rows = MiniExcel.Query<UserAccount>(path);
@@ -116,7 +117,7 @@ using (var stream = File.OpenRead(path))
 
 ![image](https://user-images.githubusercontent.com/12729184/111107423-c8c46b80-8591-11eb-982f-c97a2dafb379.png)
 
-#### 2. Başlık kullanmadan sorgu çalıştır ve sonucu dinamik nesne listesine eşle [[Deneyin]](https://dotnetfiddle.net/w5WD1J)
+#### 2. Başlık kullanmadan sorgu çalıştır ve dinamik nesne listesine eşle [[Dene]](https://dotnetfiddle.net/w5WD1J)
 
 * dinamik anahtar `A.B.C.D..`
 
@@ -140,11 +141,11 @@ using (var stream = File.OpenRead(path))
 }
 ```
 
-#### 3. İlk başlık satırıyla sorgu çalıştır [[Deneyin]](https://dotnetfiddle.net/w5WD1J)
+#### 3. İlk başlık satırı ile sorgu çalıştır [[Dene]](https://dotnetfiddle.net/w5WD1J)
 
-not : aynı sütun adı için en sağdaki kullanılır
+not : aynı sütun adı kullanılırsa en sağdaki kullanılır
 
-Excel Girişi :
+Girdi Excel :
 
 | Column1   | Column2 |
 |-----------|---------|
@@ -169,9 +170,9 @@ using (var stream = File.OpenRead(path))
 }
 ```
 
-#### 4. Sorguda LINQ Uzantı First/Take/Skip ...vs destekler
+#### 4. LINQ Extension First/Take/Skip ...vb sorgu desteği
 
-İlk Değeri Sorgula
+İlk Sorguyu Getir
 ```csharp
 var row = MiniExcel.Query(path).First();
 Assert.Equal("HelloWorld", row.A);
@@ -185,7 +186,7 @@ using (var stream = File.OpenRead(path))
 }
 ```
 
-MiniExcel/ExcelDataReader/ClosedXML/EPPlus performans karşılaştırması
+MiniExcel/ExcelDataReader/ClosedXML/EPPlus arasında performans karşılaştırması
 ![queryfirst](https://user-images.githubusercontent.com/12729184/111072392-6037a900-8515-11eb-9693-5ce2dad1e460.gif)
 
 #### 5. Sayfa adına göre sorgu
@@ -197,6 +198,7 @@ stream.Query(sheetName: "SheetName");
 ```
 
 #### 6. Tüm sayfa adlarını ve satırları sorgula
+```
 ```csharp
 var sheetNames = MiniExcel.GetSheetNames(path);
 foreach (var sheetName in sheetNames)
@@ -205,15 +207,15 @@ foreach (var sheetName in sheetNames)
 }
 ```
 
-#### 7. Sütunları Al
+#### 7. Sütunları Getir
 
 ```csharp
-var columns = MiniExcel.GetColumns(path); // örn. sonuç : ["A","B"...]
+var columns = MiniExcel.GetColumns(path); // ör. sonuç : ["A","B"...]
 
 var cnt = columns.Count;  // sütun sayısını al
 ```
 
-#### 8. Dinamik Sorgu satırı `IDictionary<string,object>`'e dönüştürme
+#### 8. Dinamik Sorgu satırı `IDictionary<string,object>` olarak dönüştür
 
 ```csharp
 foreach(IDictionary<string,object> row in MiniExcel.Query(path))
@@ -224,16 +226,16 @@ foreach(IDictionary<string,object> row in MiniExcel.Query(path))
 // veya
 var rows = MiniExcel.Query(path).Cast<IDictionary<string,object>>();
 // veya Belirtilen aralıkları sorgula (büyük harfli)
-// A2, A sütununun ikinci satırını, C3 ise C sütununun üçüncü satırını temsil eder
-// Sadece satırları kısıtlamak istemiyorsanız, sayıları dahil etmeyin
+// A2, A sütununun ikinci satırını temsil eder, C3 ise C sütununun üçüncü satırını temsil eder
+// Satırları sınırlamak istemiyorsanız, sadece sayı eklemeyin
 var rows = MiniExcel.QueryRange(path, startCell: "A2", endCell: "C3").Cast<IDictionary<string, object>>();
 ```
 
 
 
-#### 9. Excel Sorgulama ile DataTable Döndürme
+#### 9. Excel'i Sorgula ve DataTable Döndür
 
-Tavsiye edilmez, çünkü DataTable tüm veriyi belleğe yükler ve MiniExcel'in düşük bellek tüketimi özelliğini kaybettirir.
+Önerilmez, çünkü DataTable tüm verileri belleğe yükler ve MiniExcel'in düşük bellek tüketimi özelliğini kaybettirir.
 
 ```C#
 var table = MiniExcel.QueryAsDataTable(path, useHeaderRow: true);
@@ -243,7 +245,7 @@ var table = MiniExcel.QueryAsDataTable(path, useHeaderRow: true);
 
 
 
-#### 10. Veriyi Okumaya Başlanacak Hücreyi Belirtme
+#### 10. Verileri okumaya başlanacak hücreyi belirt
 
 ```csharp
 MiniExcel.Query(path,useHeaderRow:true,startCell:"B3")
@@ -255,9 +257,9 @@ MiniExcel.Query(path,useHeaderRow:true,startCell:"B3")
 
 #### 11. Birleştirilmiş Hücreleri Doldur
 
-Not: Verimlilik, `birleştirme doldurma kullanılmadığında` göre daha yavaştır.
+Not: `birleştirme doldurma kullanılmadığında` kıyasla verimlilik daha düşüktür
 
-Sebep: OpenXml standardı mergeCells'i dosyanın en altına koyar, bu da sheetxml'in iki kez foreach ile gezilmesi gerektiği anlamına gelir.
+Sebep: OpenXml standardı mergeCells'i dosyanın altına yerleştirir, bu da sheetxml'in iki kez döngüye alınmasını gerektirir
 
 ```csharp
     var config = new OpenXmlConfiguration()
@@ -269,20 +271,20 @@ Sebep: OpenXml standardı mergeCells'i dosyanın en altına koyar, bu da sheetxm
 
 ![image](https://user-images.githubusercontent.com/12729184/117973630-3527d500-b35f-11eb-95c3-bde255f8114e.png)
 
-değişken uzunluk ve genişlikte çoklu satır ve sütun doldurma desteklenir
+değişken uzunluk ve genişlikte çoklu satır ve sütun doldurmayı destekler
 
 ![image](https://user-images.githubusercontent.com/12729184/117973820-6d2f1800-b35f-11eb-88d8-555063938108.png)
 
-#### 12. Disk tabanlı önbellek ile büyük dosya okuma (Disk-Tabanlı Önbellek - SharedString)
+#### 12. Disk tabanlı önbellekle büyük dosya okuma (Disk-Base Cache - SharedString)
 
-SharedStrings boyutu 5 MB'ı aşarsa, MiniExcel varsayılan olarak yerel disk önbelleği kullanır, örn, [10x100000.xlsx](https://github.com/MiniExcel/MiniExcel/files/8403819/NotDuplicateSharedStrings_10x100000.xlsx) (bir milyon satır veri), disk önbelleği devre dışı bırakıldığında maksimum bellek kullanımı 195MB'dır, ancak disk önbelleği etkinleştirildiğinde sadece 65MB gerekir. Dikkat, bu optimizasyonun bir miktar verimlilik maliyeti vardır, bu nedenle bu durumda okuma süresi 7.4 saniyeden 27.2 saniyeye çıkar. Eğer buna ihtiyacınız yoksa disk önbelleğini aşağıdaki kod ile devre dışı bırakabilirsiniz:
+SharedStrings boyutu 5 MB'ı aşarsa, MiniExcel varsayılan olarak yerel disk önbelleğini kullanır, örn, [10x100000.xlsx](https://github.com/MiniExcel/MiniExcel/files/8403819/NotDuplicateSharedStrings_10x100000.xlsx) (bir milyon satır veri), disk önbelleği devre dışı bırakıldığında maksimum bellek kullanımı 195MB'dir, ancak disk önbelleği etkinleştirildiğinde yalnızca 65MB gerekir. Not: Bu optimizasyonun bazı verimlilik maliyetleri vardır, bu nedenle bu durumda okuma süresi 7.4 saniyeden 27.2 saniyeye çıkar. Eğer buna ihtiyacınız yoksa aşağıdaki kod ile disk önbelleğini devre dışı bırakabilirsiniz:
 
 ```csharp
 var config = new OpenXmlConfiguration { EnableSharedStringCache = false };
 MiniExcel.Query(path,configuration: config)
 ```
 
-`SharedStringCacheSize ` ile sharedString dosya boyutunu, disk önbellekleme için aşılması gereken boyutu değiştirebilirsiniz.
+Disk önbellekleme için sharedString dosya boyutunun belirtilen boyutu aşmasını `SharedStringCacheSize` ile değiştirebilirsiniz
 ```csharp
 var config = new OpenXmlConfiguration { SharedStringCacheSize=500*1024*1024 };
 MiniExcel.Query(path, configuration: config);
@@ -293,21 +295,13 @@ MiniExcel.Query(path, configuration: config);
 
 ![image](https://user-images.githubusercontent.com/12729184/161411825-17f53ec7-bef4-4b16-b234-e24799ea41b0.png)
 
+### Excel Oluştur/İhraç Et  <a name="getstart2"></a>
 
+1. Genel parametresiz kurucuya sahip soyut olmayan bir tip olmalıdır.
 
+2. MiniExcel, IEnumerable Parametreli Ertelenmiş Yürütmeyi destekler. En az belleği kullanmak istiyorsanız, lütfen ToList gibi metotları çağırmayın.
 
-
-
-
-
-
-### Excel Oluştur/İhracat Et  <a name="getstart2"></a>
-
-1. Ortak parametresiz kurucuya sahip soyut olmayan bir tip olmalı.
-
-2. MiniExcel, parametre olarak IEnumerable Ertelenmiş Yürütme'yi destekler. En az bellek kullanmak istiyorsanız, ToList gibi metodları çağırmayınız.
-
-örn : ToList ile veya olmadan bellek kullanımı
+ör: ToList veya bellek kullanımı değil
 ![image](https://user-images.githubusercontent.com/12729184/112587389-752b0b00-8e38-11eb-8a52-cfb76c57e5eb.png)
 
 
@@ -342,7 +336,7 @@ Oluşturulan Dosya Sonucu :
 
 
 #### 3.  IDataReader
-- `Tavsiye edilir`, tüm veriyi belleğe yüklemekten kaçınır
+- `Önerilir`, tüm verilerin belleğe yüklenmesini engeller
 ```csharp
 MiniExcel.SaveAs(path, reader);
 ```
@@ -366,9 +360,9 @@ using (var cnn = Connection)
 
 #### 4. Datatable
 
-- `Tavsiye edilmez`, tüm veriyi belleğe yükler
+- `Önerilmez`, tüm veriler belleğe yüklenir
 
-- DataTable önce sütun adı için Caption'ı, sonra columname'i kullanır
+- DataTable önce sütun adı için Caption, sonra columname kullanır
 
 ```csharp
 var path = Path.Combine(Path.GetTempPath(), $"{Guid.NewGuid()}.xlsx");
@@ -383,7 +377,7 @@ var table = new DataTable();
 MiniExcel.SaveAs(path, table);
 ```
 
-####  5. Dapper Sorgusu
+####  5. Dapper Query
 
 Teşekkürler @shaofing #552 , lütfen `CommandDefinition + CommandFlags.NoCache` kullanın
 
@@ -395,12 +389,9 @@ using (var connection = GetConnection(connectionString))
             @"select 'MiniExcel' as Column1,1 as Column2 union all select 'Github',2"
             , flags: CommandFlags.NoCache)
         );
-    // Not: QueryAsync kapalı bağlantı hatası fırlatır
+    // Not: QueryAsync bağlantı kapalı istisnası fırlatır
     MiniExcel.SaveAs(path, rows);
-```
-```
 }
-
 ```
 
 Aşağıdaki kod tüm verileri belleğe yükleyecektir
@@ -414,16 +405,16 @@ using (var connection = GetConnection(connectionString))
 ```
 
 
-#### 6. Bellek Akışına (MemoryStream) Kaydetme  [[Deneyin]](https://dotnetfiddle.net/JOen0e)
+#### 6. Bellek Akışına (MemoryStream) Kaydet  [[Deneyin]](https://dotnetfiddle.net/JOen0e)
 
 ```csharp
-using (var stream = new MemoryStream()) // FileStream, MemoryStream vb. desteklenir.
+using (var stream = new MemoryStream()) //FileStream, MemoryStream vb. destekler.
 {
     stream.SaveAs(values);
 }
 ```
 
-Örneğin : excel dışa aktarma api'si
+örnek: excel dışa aktarma api'si
 
 ```csharp
 public IActionResult DownloadExcel()
@@ -468,7 +459,7 @@ MiniExcel.SaveAs(path, sheets);
 ![image](https://user-images.githubusercontent.com/12729184/118130875-6e7c4580-b430-11eb-9b82-22f02716bd63.png)
 
 
-#### 8. Tablo Stilleri Seçenekleri
+#### 8. TabloStilleri (TableStyles) Seçenekleri
 
 Varsayılan stil
 
@@ -489,7 +480,7 @@ MiniExcel.SaveAs(path, value,configuration:config);
 
 #### 9. Otomatik Filtre (AutoFilter)
 
-v0.19.0'dan itibaren `OpenXmlConfiguration.AutoFilter` ile Otomatik Filtre etkinleştirilebilir/devre dışı bırakılabilir, varsayılan değeri `true`'dur. Otomatik Filtre ayarlama şekli:
+v0.19.0'dan itibaren  `OpenXmlConfiguration.AutoFilter` ile Otomatik Filtre açılıp kapatılabilir, varsayılan değeri `true`'dur ve Otomatik Filtre ayarlama şekli:
 
 ```csharp
 MiniExcel.SaveAs(path, value, configuration: new OpenXmlConfiguration() { AutoFilter = false });
@@ -497,8 +488,9 @@ MiniExcel.SaveAs(path, value, configuration: new OpenXmlConfiguration() { AutoFi
 
 
 
-#### 10. Resim Oluşturma
+#### 10. Görsel Oluşturma
 
+```csharp
 ```csharp
 var value = new[] {
     new { Name="github",Image=File.ReadAllBytes(PathHelper.GetFile("images/github_logo.png"))},
@@ -514,20 +506,20 @@ MiniExcel.SaveAs(path, value);
 
 
 
-#### 11. Bayt Dizisi Dosya Aktarımı
+#### 11. Byte Dizisi Dosya Dışa Aktarımı
 
-1.22.0'dan itibaren, değer tipi `byte[]` olduğunda sistem varsayılan olarak dosya yolunu hücrede kaydeder ve içe aktarımda sistem `byte[]`'ye dönüştürebilir. Bunu kullanmak istemiyorsanız, `OpenXmlConfiguration.EnableConvertByteArray`'i `false` olarak ayarlayabilirsiniz, bu sistem verimliliğini artırabilir.
+1.22.0 sürümünden itibaren, değer tipi `byte[]` olduğunda sistem varsayılan olarak dosya yolunu hücrede saklar ve içe aktarım sırasında sistem bunu `byte[]` tipine dönüştürebilir. Eğer bu özelliği kullanmak istemiyorsanız, `OpenXmlConfiguration.EnableConvertByteArray` değerini `false` olarak ayarlayabilirsiniz, bu sistem verimliliğini artırabilir.
 
 ![image](https://user-images.githubusercontent.com/12729184/153702334-c3b834f4-6ae4-4ddf-bd4e-e5005d5d8c6a.png)
 
-1.22.0'dan itibaren, değer tipi `byte[]` olduğunda sistem varsayılan olarak dosya yolunu hücrede kaydeder ve içe aktarımda sistem `byte[]`'ye dönüştürebilir. Bunu kullanmak istemiyorsanız, `OpenXmlConfiguration.EnableConvertByteArray`'i `false` olarak ayarlayabilirsiniz, bu sistem verimliliğini artırabilir.
+1.22.0 sürümünden itibaren, değer tipi `byte[]` olduğunda sistem varsayılan olarak dosya yolunu hücrede saklar ve içe aktarım sırasında sistem bunu `byte[]` tipine dönüştürebilir. Eğer bu özelliği kullanmak istemiyorsanız, `OpenXmlConfiguration.EnableConvertByteArray` değerini `false` olarak ayarlayabilirsiniz, bu sistem verimliliğini artırabilir.
 
 ![image](https://user-images.githubusercontent.com/12729184/153702334-c3b834f4-6ae4-4ddf-bd4e-e5005d5d8c6a.png)
 
 #### 12. Aynı Hücreleri Dikey Olarak Birleştirme
 
-Bu işlev yalnızca `xlsx` formatında desteklenir ve @merge ile @endmerge etiketleri arasındaki hücreleri dikey olarak birleştirir.
-@mergelimit kullanarak dikey birleştirme sınırlarını belirleyebilirsiniz.
+Bu özellik yalnızca `xlsx` formatında desteklenmektedir ve @merge ile @endmerge etiketleri arasındaki hücreleri dikey olarak birleştirir.
+Dikey olarak birleştirilecek hücrelerin sınırlarını belirlemek için @mergelimit kullanabilirsiniz.
 
 ```csharp
 var mergedFilePath = Path.Combine(Path.GetTempPath(), $"{Guid.NewGuid().ToString()}.xlsx");
@@ -547,21 +539,21 @@ memoryStream.MergeSameCells(path);
 
 Birleştirme öncesi ve sonrası dosya içeriği:
 
-Birleştirme sınırı olmadan:
+Birleştirme limiti olmadan:
 
 <img width="318" alt="Screenshot 2023-08-07 at 11 59 24" src="https://github.com/mini-software/MiniExcel/assets/38832863/49cc96b9-6c35-4bf3-8d43-a9752a15b22e">
 
 <img width="318" alt="Screenshot 2023-08-07 at 11 59 57" src="https://github.com/mini-software/MiniExcel/assets/38832863/3fbd529b-3ae6-4bbe-b4d8-2793a5a58010">
 
-Birleştirme sınırı ile:
+Birleştirme limitiyle:
 
 <img width="346" alt="Screenshot 2023-08-08 at 18 21 00" src="https://github.com/mini-software/MiniExcel/assets/38832863/04049d28-84d5-4c2a-bcff-5847547df5e1">
 
 <img width="346" alt="Screenshot 2023-08-08 at 18 21 40" src="https://github.com/mini-software/MiniExcel/assets/38832863/f5cf8957-b0b0-4831-b8fc-8556299235c2">
 
-#### 13. Boş Değerleri Atla
+#### 13. Null Değerleri Atla
 
-Boş değerler için boş hücre yazma konusunda yeni bir açık seçenek:
+Null değerler için boş hücreler yazmak adına yeni açık seçenek:
 
 ```csharp
 DataTable dt = new DataTable();
@@ -627,16 +619,16 @@ MiniExcel.SaveAs(@"C:\temp\Book1.xlsx", dt, configuration: configuration);
 </x:row>
 ```
 
-Null ve DBNull değerler için çalışır.
+Hem null hem de DBNull değerleri için çalışır.
 
-#### 14. Pencere Dondurma (Freeze Panes)
+#### 14. Panoları Dondurma
 ```csharp
 /* ... */
 
 OpenXmlConfiguration configuration = new OpenXmlConfiguration()
 {
-    FreezeRowCount = 1,     // varsayılan değer 1
-    FreezeColumnCount = 2   // varsayılan değer 0
+    FreezeRowCount = 1,     // varsayılan 1'dir
+    FreezeColumnCount = 2   // varsayılan 0'dır
 };
 
 MiniExcel.SaveAs(@"C:\temp\Book1.xlsx", dt, configuration: configuration);
@@ -647,8 +639,8 @@ MiniExcel.SaveAs(@"C:\temp\Book1.xlsx", dt, configuration: configuration);
 
 ### Excel Şablonuna Veri Doldurma <a name="getstart3"></a>
 
-- Bildirim, Vue şablonundaki `{{değişken adı}}` veya koleksiyon işleme `{{koleksiyon adı.alan adı}}` ile benzerdir
-- Koleksiyon işleme IEnumerable/DataTable/DapperRow destekler
+- Tanımlama, Vue şablonundaki `{{değişken adı}}` veya koleksiyon render'ındaki `{{koleksiyon adı.alan adı}}` ile benzerdir
+- Koleksiyon render'ı IEnumerable/DataTable/DapperRow desteği sağlar
 
 #### 1. Temel Doldurma
 
@@ -686,7 +678,7 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 
 #### 2. IEnumerable Veri Doldurma
 
-> Not1: Listenin doldurulmasında aynı sütundan ilk IEnumerable temel alınır
+> Not1: Listeyi doldurmak için aynı sütuna sahip ilk IEnumerable temel alınır
 
 Şablon:
 ![image](https://user-images.githubusercontent.com/12729184/114564652-14f2f080-9ca3-11eb-831f-09e3fedbc5fc.png)
@@ -700,17 +692,18 @@ Kod:
 var value = new
 {
     employees = new[] {
-        new {name="Jack",department="HR"},
-        new {name="Lisa",department="HR"},
-        new {name="John",department="HR"},
-        new {name="Mike",department="IT"},
-        new {name="Neo",department="IT"},
-        new {name="Loan",department="IT"}
-    }
+```csharp
+    new {name="Jack",department="HR"},
+    new {name="Lisa",department="HR"},
+    new {name="John",department="HR"},
+    new {name="Mike",department="IT"},
+    new {name="Neo",department="IT"},
+    new {name="Loan",department="IT"}
+}
 };
 MiniExcel.SaveAsByTemplate(path, templatePath, value);
 
-//2. Dictionary ile
+//2. Sözlük ile
 var value = new Dictionary<string, object>()
 {
     ["employees"] = new[] {
@@ -729,7 +722,7 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 
 #### 3. Karmaşık Veri Doldurma
 
-> Not: Çoklu sayfa ve aynı değişkeni kullanma desteği vardır
+> Not: Çoklu sayfa ve aynı değişkeni kullanmayı destekler
 
 Şablon:
 
@@ -757,7 +750,7 @@ var value = new
 };
 MiniExcel.SaveAsByTemplate(path, templatePath, value);
 
-// 2. Dictionary ile
+// 2. Sözlük ile
 var value = new Dictionary<string, object>()
 {
     ["title"] = "FooCompany",
@@ -775,15 +768,15 @@ var value = new Dictionary<string, object>()
 MiniExcel.SaveAsByTemplate(path, templatePath, value);
 ```
 
-#### 4. Büyük Veri Doldurma Performansı
+#### 4. Büyük Veri Performansı Doldurma
 
-> NOT: MiniExcel'de maksimum bellek kullanımını azaltmak için IEnumerable ertelenmiş yürütme kullanın, ToList kullanmayın
+> NOT: MiniExcel’de maksimum bellek kullanımını azaltmak için ToList yerine IEnumerable ertelenmiş yürütme kullanılabilir
 
 ![image](https://user-images.githubusercontent.com/12729184/114577091-5046ec80-9cae-11eb-924b-087c7becf8da.png)
 
 
 
-#### 5. Hücre değeri otomatik tip eşleme
+#### 5. Hücre değeri otomatik tür eşlemesi
 
 Şablon
 
@@ -828,7 +821,7 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 
 
 
-#### 6. Örnek: Github Projeleri Listesi
+#### 6. Örnek :  Github Projelerini Listele
 
 Şablon
 
@@ -875,41 +868,41 @@ await MiniExcel.SaveAsByTemplateAsync(path, templatePath, value);
 ```
 ##### 1. `@group` etiketiyle ve `@header` etiketiyle
 
-Önce
+Öncesi
 
 ![before_with_header](https://user-images.githubusercontent.com/38832863/218646717-21b9d57a-2be2-4e9a-801b-ae212231d2b4.PNG)
 
-Sonra
+Sonrası
 
 ![after_with_header](https://user-images.githubusercontent.com/38832863/218646721-58a7a340-7004-4bc2-af24-cffcb2c20737.PNG)
 
 ##### 2. @group etiketiyle ve @header etiketi olmadan
 
-Önce
+Öncesi
 
 ![before_without_header](https://user-images.githubusercontent.com/38832863/218646873-b12417fa-801b-4890-8e96-669ed3b43902.PNG)
 
-Sonra
+Sonrası
 
 ![after_without_header](https://user-images.githubusercontent.com/38832863/218646872-622461ba-342e-49ee-834f-b91ad9c2dac3.PNG)
 
 ##### 3. @group etiketi olmadan
 
-Önce
+Öncesi
 
 ![without_group](https://user-images.githubusercontent.com/38832863/218646975-f52a68eb-e031-43b5-abaa-03b67c052d1a.PNG)
 
-Sonra
+Sonrası
 
 ![without_group_after](https://user-images.githubusercontent.com/38832863/218646974-4a3c0e07-7c66-4088-ad07-b4ad3695b7e1.PNG)
 
 #### 8. Hücre İçinde If/ElseIf/Else İfadeleri
 
 Kurallar:
-1. DateTime, Double, Int tiplerinde ==, !=, >, >=, <, <= operatörlerini destekler.
-2. String tipinde ==, != operatörlerini destekler.
-3. Her ifade yeni satırda olmalıdır.
-4. Operatörlerin öncesinde ve sonrasında birer boşluk olmalıdır.
+1. DateTime, Double, Int türlerinde ==, !=, >, >=, <, <= operatörlerini destekler.
+2. String türünde ==, != operatörlerini destekler.
+3. Her ifade yeni bir satırda olmalıdır.
+4. Operatörlerin öncesinde ve sonrasında bir boşluk olmalıdır.
 5. İfadelerin içinde yeni satır olmamalıdır.
 6. Hücre aşağıdaki formatta olmalıdır.
 
@@ -951,13 +944,13 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 #### 10. Formüller
 
 ##### 1. Örnek
-Formülünüzün başına `$` ekleyin ve sayılabilir veri başlangıç ve bitiş satır referansları için `$enumrowstart` ve `$enumrowend` kullanın:
+Formülünüzün başına `$` ekleyin ve tekrarlanabilir veri aralığının başlangıç ve bitiş satırını belirtmek için `$enumrowstart` ve `$enumrowend` kullanın:
 
-![image](docs/images/template-formulas-1.png)
+![image](https://raw.githubusercontent.com/mini-software/MiniExcel/master/docs/images/template-formulas-1.png)
 
-Şablon işlendiğinde, `$` ön eki kaldırılır ve `$enumrowstart` ile `$enumrowend` ilgili veri aralığı satır numaraları ile değiştirilir:
+Şablon işlendiğinde, `$` öneki kaldırılır ve `$enumrowstart` ile `$enumrowend` sırasıyla tekrarlanabilir aralığın başlangıç ve bitiş satır numaraları ile değiştirilir:
 
-![image](docs/images/template-formulas-2.png)
+![image](https://raw.githubusercontent.com/mini-software/MiniExcel/master/docs/images/template-formulas-2.png)
 
 ##### 2. Diğer Örnek Formüller:
 
@@ -970,9 +963,9 @@ Formülünüzün başına `$` ekleyin ve sayılabilir veri başlangıç ve biti�
 
 #### 11. Diğer
 
-##### 1. Şablon parametre anahtarını kontrol etme
+##### 1. Şablon Parametre Anahtarını Kontrol Etme
 
-V1.24.0 sürümünden itibaren, varsayılan olarak eksik şablon parametre anahtarları yok sayılır ve boş string ile değiştirilir. `IgnoreTemplateParameterMissing` ayarı ile istisna fırlatılıp fırlatılmayacağını kontrol edebilirsiniz.
+V1.24.0 sürümünden itibaren, varsayılan olarak eksik şablon parametre anahtarı yoksayılır ve boş string ile değiştirilir, `IgnoreTemplateParameterMissing` özelliği ise hata fırlatılıp fırlatılmayacağını kontrol eder.
 
 ```csharp
 var config = new OpenXmlConfiguration()
@@ -986,11 +979,11 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value, config)
 
 
 
-### Excel Sütun Adı/İndeksi/Yok Sayma Özelliği <a name="getstart4"></a>
+### Excel Sütun Adı/İndeksi/Yoksayma Özelliği <a name="getstart4"></a>
 
 
 
-#### 1. Sütun adını, sütun indeksini, sütunu yok sayma
+#### 1. Sütun adını, sütun indeksini, sütun yoksaymayı belirtme
 
 Excel Örneği
 
@@ -1002,17 +995,16 @@ Kod
 public class ExcelAttributeDemo
 {
     [ExcelColumnName("Column1")]
-```
 ```csharp
 public string Test1 { get; set; }
 [ExcelColumnName("Column2")]
 public string Test2 { get; set; }
 [ExcelIgnore]
 public string Test3 { get; set; }
-[ExcelColumnIndex("I")] // sistem "I" harfini 8. indekse dönüştürecek
+[ExcelColumnIndex("I")] // sistem "I" harfini 8. indexe dönüştürecek
 public string Test4 { get; set; }
-public string Test5 { get; } // set olmadan ignore edilir
-public string Test6 { get; private set; } // public olmayan set ignore edilir
+public string Test5 { get; } //set olmadan yok sayılacak
+public string Test6 { get; private set; } //public olmayan set yok sayılacak
 [ExcelColumnIndex(3)] // 0'dan başlar
 public string Test7 { get; set; }
 }
@@ -1033,7 +1025,7 @@ Assert.Equal("Test4", rows[0].Test7);
 
 #### 2. Özel Format (ExcelFormatAttribute)
 
-V0.21.0'dan itibaren, `ToString(string content)` metodunu içeren sınıflar için format desteği sağlanır
+V0.21.0'dan itibaren, `ToString(string content)` metodunu içeren sınıf formatı desteklenmektedir
 
 Sınıf
 
@@ -1061,11 +1053,11 @@ Sonuç
 
 ![image](https://user-images.githubusercontent.com/12729184/118910788-ab2bcd80-b957-11eb-8d42-bfce36621b1b.png)
 
-Sorgu işlemi özel format dönüşümünü destekler
+Sorgu, özel format dönüşümünü destekler
 
 ![image](https://user-images.githubusercontent.com/12729184/118911286-87b55280-b958-11eb-9a88-c8ff403d240a.png)
 
-#### 3. Sütun Genişliğini Ayarlama (ExcelColumnWidthAttribute)
+#### 3. Sütun Genişliği Ayarlama (ExcelColumnWidthAttribute)
 
 ```csharp
 public class Dto
@@ -1077,7 +1069,7 @@ public class Dto
 }
 ```
 
-#### 4. Aynı özelliğe birden fazla sütun adı eşleştirme.
+#### 4. Birden fazla sütun adının aynı özelliğe eşlenmesi.
 
 ```csharp
 public class Dto
@@ -1092,7 +1084,7 @@ public class Dto
 
 #### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
-1.24.0'dan itibaren, sistem System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute desteği sağlar
+1.24.0'dan itibaren, sistem System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute desteği vermektedir
 
 ```C#
 public class TestIssueI4TXGTDto
@@ -1105,12 +1097,12 @@ public class TestIssueI4TXGTDto
     public decimal Up { get; set; }
 }
 ```
-
+```
 
 
 #### 6. ExcelColumnAttribute
 
-V1.26.0'dan itibaren, birden fazla özellik aşağıdaki gibi sadeleştirilebilir:
+V1.26.0'dan itibaren, birden fazla öznitelik şu şekilde sadeleştirilebilir:
 ```csharp
         public class TestIssueI4ZYUUDto
         {
@@ -1125,7 +1117,7 @@ V1.26.0'dan itibaren, birden fazla özellik aşağıdaki gibi sadeleştirilebili
 
 #### 7. DynamicColumnAttribute
 
-V1.26.0'dan itibaren, Sütun özellikleri dinamik olarak ayarlanabilir
+V1.26.0'dan itibaren, Sütun'un özniteliklerini dinamik olarak ayarlayabiliriz
 ```csharp
             var config = new OpenXmlConfiguration
             {
@@ -1144,7 +1136,7 @@ V1.26.0'dan itibaren, Sütun özellikleri dinamik olarak ayarlanabilir
 
 #### 8. DynamicSheetAttribute
 
-V1.31.4'ten itibaren Sheet (Sayfa) özellikleri dinamik olarak ayarlanabilir. Sayfa adı ve durumu (görünürlük) ayarlanabilir.
+V1.31.4'ten itibaren, Sheet'in özniteliklerini dinamik olarak ayarlayabiliriz. Sheet adını ve durumunu (görünürlük) ayarlayabiliriz.
 ```csharp
             var configuration = new OpenXmlConfiguration
             {
@@ -1166,7 +1158,7 @@ V1.31.4'ten itibaren Sheet (Sayfa) özellikleri dinamik olarak ayarlanabilir. Sa
             MiniExcel.SaveAs(path, sheets, configuration: configuration);
 ```
 
-Ayrıca yeni ExcelSheetAttribute özniteliği de kullanılabilir:
+Ayrıca yeni ExcelSheetAttribute özniteliğini de kullanabiliriz:
 
 ```C#
    [ExcelSheet(Name = "Departments", State = SheetState.Hidden)]
@@ -1181,9 +1173,9 @@ Ayrıca yeni ExcelSheetAttribute özniteliği de kullanılabilir:
 
 ### Ekleme, Silme, Güncelleme
 
-#### Ekleme
+#### Ekle
 
-v1.28.0 ile birlikte CSV dosyasına son satırdan sonra N satır veri ekleme desteği
+v1.28.0 CSV'de son satırdan sonra N satır veri eklemeyi destekler
 
 ```csharp
 // Orijinal
@@ -1233,16 +1225,16 @@ v1.37.0 mevcut bir çalışma kitabına yeni bir sayfa eklemeyi destekler
 
 
 
-#### Sil (bekleniyor)
+#### Sil (bekliyor)
 
-#### Güncelle (bekleniyor)
+#### Güncelle (bekliyor)
 
 
 
-### Excel Tipi Otomatik Kontrol <a name="getstart5"></a>
+### Excel Türü Otomatik Kontrol <a name="getstart5"></a>
 
-- MiniExcel varsayılan olarak `dosya uzantısına` göre xlsx veya csv olup olmadığını kontrol eder, ancak bu durumda yanlışlık olabilir, lütfen manuel olarak belirtin.
-- Akıştan (Stream) hangi excel türü olduğu anlaşılamaz, lütfen manuel olarak belirtin.
+- MiniExcel, varsayılan olarak `dosya uzantısına` göre xlsx veya csv olup olmadığını kontrol eder, fakat bu her zaman doğru olmayabilir, lütfen manuel olarak belirtin.
+- Stream'in hangi excel türünde olduğu bilinemez, lütfen manuel olarak belirtin.
 
 ```csharp
 stream.SaveAs(excelType:ExcelType.CSV);
@@ -1262,13 +1254,13 @@ stream.Query(excelType:ExcelType.XLSX);
 
 #### Not
 
-- Varsayılan olarak `string` tipinde döner ve değerler sayıya veya datetime'a dönüştürülmez, tip güçlü tip generic ile tanımlanmadıkça.
+- Varsayılan olarak `string` tipinde döner ve değerler sayıya veya datetime'a dönüştürülmez, ancak tip güçlü tipli generic ile tanımlanırsa dönüşüm yapılır.
 
 
 
 #### Özel ayraç
 
-Varsayılan olarak `,` ayraçtır, özelleştirmek için `Seperator` özelliğini değiştirebilirsiniz
+Varsayılan olarak ayraç `,` şeklindedir, özelleştirmek için `Seperator` özelliğini değiştirebilirsiniz
 
 ```csharp
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
@@ -1278,7 +1270,7 @@ var config = new MiniExcelLibs.Csv.CsvConfiguration()
 MiniExcel.SaveAs(path, values,configuration: config);
 ```
 
-V1.30.1'den itibaren özel ayraç fonksiyonu destekleniyor (teşekkürler @hyzx86)
+V1.30.1'den itibaren ayraç fonksiyonunu özelleştirme desteği eklenmiştir (teşekkürler @hyzx86)
 
 ```csharp
 var config = new CsvConfiguration()
@@ -1293,7 +1285,7 @@ var rows = MiniExcel.Query(path, configuration: config).ToList();
 
 #### Özel satır sonu
 
-Varsayılan olarak `\r\n` yeni satır karakteridir, özelleştirmek için `NewLine` özelliğini değiştirebilirsiniz
+Varsayılan olarak satır sonu karakteri `\r\n`'dır, özelleştirmek için `NewLine` özelliğini değiştirebilirsiniz
 
 ```csharp
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
@@ -1306,19 +1298,19 @@ MiniExcel.SaveAs(path, values,configuration: config);
 
 
 #### Özel kodlama
-
-- Varsayılan kodlama "Detect Encoding From Byte Order Marks"  (detectEncodingFromByteOrderMarks: true)
-- Özel kodlama gereksiniminiz varsa, lütfen StreamReaderFunc / StreamWriterFunc  özelliğini değiştirin
+```
+- Varsayılan kodlama "Byte Order Marks'tan Kodlamayı Algıla"dır (detectEncodingFromByteOrderMarks: true)
+- Özel kodlama gereksinimleriniz varsa, lütfen StreamReaderFunc / StreamWriterFunc özelliğini değiştirin
 
 ```csharp
-// Oku
+// Okuma
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
 {
     StreamReaderFunc = (stream) => new StreamReader(stream,Encoding.GetEncoding("gb2312"))
 };
 var rows = MiniExcel.Query(path, true,excelType:ExcelType.CSV,configuration: config);
 
-// Yaz
+// Yazma
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
 {
     StreamWriterFunc = (stream) => new StreamWriter(stream, Encoding.GetEncoding("gb2312"))
@@ -1326,9 +1318,9 @@ var config = new MiniExcelLibs.Csv.CsvConfiguration()
 MiniExcel.SaveAs(path, value,excelType:ExcelType.CSV, configuration: config);
 ```
 
-#### Boş string'i null olarak oku
+#### Boş dizeyi null olarak oku
 
-Varsayılan olarak, boş değerler string.Empty ile eşlenir. Bu davranışı değiştirebilirsiniz
+Varsayılan olarak, boş değerler string.Empty'ye eşlenir. Bu davranışı değiştirebilirsiniz
 
 ```csharp
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
@@ -1341,7 +1333,7 @@ var config = new MiniExcelLibs.Csv.CsvConfiguration()
 ### DataReader
 
 #### 1. GetReader
-1.23.0'dan itibaren GetDataReader kullanabilirsiniz
+1.23.0'dan itibaren, GetDataReader kullanabilirsiniz
 
 ```csharp
     using (var reader = MiniExcel.GetReader(path,true))
@@ -1360,7 +1352,7 @@ var config = new MiniExcelLibs.Csv.CsvConfiguration()
 
 ###  Async
 
-- v0.17.0 Async desteği (teşekkürler isdaniel ( SHIH,BING-SIOU)](https://github.com/isdaniel))
+- v0.17.0 ile Async desteği (teşekkürler isdaniel ( SHIH,BING-SIOU)](https://github.com/isdaniel))
 
 ```csharp
 public static Task SaveAsAsync(string path, object value, bool printHeader = true, string sheetName = "Sheet1", ExcelType excelType = ExcelType.UNKNOWN, IConfiguration configuration = null)
@@ -1376,7 +1368,7 @@ public static Task SaveAsByTemplateAsync(string path, byte[] templateBytes, obje
 public static Task<DataTable> QueryAsDataTableAsync(string path, bool useHeaderRow = true, string sheetName = null, ExcelType excelType = ExcelType.UNKNOWN, string startCell = "A1", IConfiguration configuration = null)
 ```
 
--  v1.25.0 `cancellationToken` desteği.
+-  v1.25.0 ile `cancellationToken` desteği eklendi.
 
 
 
@@ -1384,7 +1376,7 @@ public static Task<DataTable> QueryAsDataTableAsync(string path, bool useHeaderR
 
 #### 1. Enum
 
-Excel ve özellik adının aynı olmasına dikkat edin, sistem otomatik olarak eşleyecektir (büyük/küçük harfe duyarsız)
+Excel ve özellik adlarının aynı olduğundan emin olun, sistem otomatik olarak eşleyecektir (büyük/küçük harf duyarsız)
 
 ![image](https://user-images.githubusercontent.com/12729184/116210595-9784b100-a775-11eb-936f-8e7a8b435961.png)
 
@@ -1407,13 +1399,12 @@ public enum Type
     V3
 }
 ```
-```
 
 ![image](https://user-images.githubusercontent.com/12729184/133116630-27cc7161-099a-48b8-9784-cd1e443af3d1.png)
 
-1.30.0 sürümünden itibaren excel Description'dan Enum'a destek eklendi, teşekkürler @KaneLeung
+1.30.0 sürümünden itibaren excel Description'dan Enum desteği eklenmiştir, teşekkürler @KaneLeung
 
-#### 2. CSV'den XLSX'e veya XLSX'ten CSV'ye Dönüştürme
+#### 2. CSV'den XLSX'e veya XLSX'den CSV'ye Dönüştürme
 
 ```csharp
 MiniExcel.ConvertXlsxToCsv(xlsxPath, csvPath);
@@ -1455,7 +1446,7 @@ MiniExcel.Query(path, configuration: config);
 
 #### 5. FastMode
 
-Sistem belleği kontrol etmez, fakat daha hızlı kayıt hızı elde edebilirsiniz.
+Sistem belleği kontrol etmez, ancak daha hızlı kayıt hızı elde edebilirsiniz.
 
 ```csharp
 var config = new OpenXmlConfiguration() { FastMode = true };
@@ -1463,6 +1454,8 @@ MiniExcel.SaveAs(path, reader,configuration:config);
 ```
 
 #### 6. Toplu Resim Ekleme (MiniExcel.AddPicture)
+
+Lütfen resimleri, toplu satır verisi oluşturmadan önce ekleyin, aksi halde AddPicture çağrıldığında sistem yüksek bellek kullanımı yapar.
 
 ```csharp
 var images = new[]
@@ -1487,7 +1480,7 @@ MiniExcel.AddPicture(path, images);
 ```
 ![Image](https://github.com/user-attachments/assets/19c4d241-9753-4ede-96c8-f810c1a22247)
 
-#### 7. Sayfa Boyutlarını Al
+#### 7. Sayfa Boyutlarını Almak
 
 ```csharp
 var dim = MiniExcel.GetSheetDimensions(path);
@@ -1495,9 +1488,9 @@ var dim = MiniExcel.GetSheetDimensions(path);
 
 ### Örnekler:
 
-#### 1. SQLite & Dapper `Büyük Boyutlu Dosya` SQL Ekleme OOM'dan Kaçınma
+#### 1. SQLite & Dapper `Büyük Boyutlu Dosya` SQL Insert OOM'dan Kaçınma
 
-not: Lütfen Query'den sonra ToList/ToArray metodlarını çağırmayın, tüm veriyi belleğe yükler
+not: Lütfen Query'den sonra ToList/ToArray metodlarını çağırmayın, bu tüm veriyi belleğe yükler
 
 ```csharp
 using (var connection = new SQLiteConnection(connectionString))
@@ -1505,12 +1498,13 @@ using (var connection = new SQLiteConnection(connectionString))
     connection.Open();
     using (var transaction = connection.BeginTransaction())
     using (var stream = File.OpenRead(path))
-    {
-       var rows = stream.Query();
-       foreach (var row in rows)
-             connection.Execute("insert into T (A,B) values (@A,@B)", new { row.A, row.B }, transaction: transaction);
-       transaction.Commit();
-    }
+```csharp
+{
+   var rows = stream.Query();
+   foreach (var row in rows)
+         connection.Execute("insert into T (A,B) values (@A,@B)", new { row.A, row.B }, transaction: transaction);
+   transaction.Commit();
+}
 }
 ```
 
@@ -1521,7 +1515,7 @@ performans:
 
 
 
-#### 2. ASP.NET Core 3.1 veya MVC 5 Excel Xlsx API İndir/Yükle Demo [Deneyin](tests/MiniExcel.Tests.AspNetCore)
+#### 2. ASP.NET Core 3.1 veya MVC 5 Excel Xlsx API İndirme/Yükleme Demo [Dene](https://raw.githubusercontent.com/mini-software/MiniExcel/master/tests/MiniExcel.Tests.AspNetCore)
 
 ```csharp
 public class ApiController : Controller
@@ -1605,16 +1599,15 @@ public class ApiController : Controller
         {
             ["title"] = "FooCompany",
             ["managers"] = new[] {
-                new {name="Jack",department="HR"},
-                new {name="Loan",department="IT"}
 ```
-```csharp
+                new {name="Jack",department="İK"},
+                new {name="Loan",department="BT"}
             },
             ["employees"] = new[] {
-                new {name="Wade",department="HR"},
-                new {name="Felix",department="HR"},
-                new {name="Eric",department="IT"},
-                new {name="Keaton",department="IT"}
+                new {name="Wade",department="İK"},
+                new {name="Felix",department="İK"},
+                new {name="Eric",department="BT"},
+                new {name="Keaton",department="BT"}
             }
         };
 
@@ -1634,7 +1627,7 @@ public class ApiController : Controller
 
         foreach (var item in stream.Query(true))
         {
-            // kendi mantığınızı burada gerçekleştirin vb.
+            // kendi mantığınızı burada uygulayabilirsiniz.
         }
 
         return Ok("Dosya başarıyla yüklendi");
@@ -1667,7 +1660,7 @@ public static IEnumerable<T> Page<T>(IEnumerable<T> en, int pageSize, int page)
 
 
 
-#### 4. WebForm ile hafızadan Excel dışa aktarma
+#### 4. WebForm ile Excel'i MemoryStream üzerinden dışa aktarma
 
 ```csharp
 var fileName = "Demo.xlsx";
@@ -1691,7 +1684,7 @@ response.End();
 
 #### 5. Dinamik i18n çoklu dil ve rol yetki yönetimi
 
-Örnekteki gibi, i18n ve izin yönetimini işlemek için bir metot oluşturun ve dinamik ve düşük bellekli işleme etkisini elde etmek için `yield return` ile `IEnumerable<Dictionary<string, object>>` döndürün.
+Örnekte olduğu gibi, i18n ve yetki yönetimini ele alan bir yöntem oluşturun ve dinamik ve düşük bellekli işleme etkisi elde etmek için `yield return` kullanarak IEnumerable<Dictionary<string, object>> döndürün
 
 ```csharp
 void Main()
@@ -1707,6 +1700,7 @@ void Main()
         var lang = "en-US";
         var role = "Sales";
         MiniExcel.SaveAs(path, GetOrders(lang, role, value));
+```
         MiniExcel.Query(path, true).Dump();
     }
 
@@ -1769,15 +1763,15 @@ public class Order
 
 ### SSS
 
-#### S: Excel başlık adı, sınıf özelliği adı ile eşleşmiyorsa nasıl eşleştirme yapılır?
+#### S: Excel başlık adı sınıf özelliği adıyla aynı değilse, nasıl eşlenir?
 
-C: Lütfen ExcelColumnName özniteliğini kullanın.
+C. Lütfen ExcelColumnName özniteliğini kullanın
 
 ![image](https://user-images.githubusercontent.com/12729184/116020475-eac50980-a678-11eb-8804-129e87200e5e.png)
 
-#### S: Çoklu sayfa (multi-sheet) sorgulama veya dışa aktarma nasıl yapılır?
+#### S. Birden fazla sayfa sorgulamak veya dışa aktarmak için nasıl işlem yapılır?
 
-C: `GetSheetNames` yöntemi ile ve Query metodunun sheetName parametresi ile yapılabilir.
+C. `GetSheetNames` metodu ile ve  Query  sheetName parametresi kullanılır.
 
 
 
@@ -1793,9 +1787,9 @@ foreach (var sheet in sheets)
 
 ![image](https://user-images.githubusercontent.com/12729184/116199841-2a1f5300-a76a-11eb-90a3-6710561cf6db.png)
 
-#### S: Sayfa görünürlüğü hakkında nasıl sorgulama veya dışa aktarma yapılır?
+#### S. Sayfa görünürlüğü hakkında nasıl sorgulama veya dışa aktarma yapılır?
 
-C: `GetSheetInformations` yöntemi ile yapılır.
+C. `GetSheetInformations` metodu kullanılır.
 
 
 
@@ -1803,20 +1797,23 @@ C: `GetSheetInformations` yöntemi ile yapılır.
 var sheets = MiniExcel.GetSheetInformations(path);
 foreach (var sheetInfo in sheets)
 {
-    Console.WriteLine($"sheet index : {sheetInfo.Index} "); // sonraki sayfanın index'i - 0'dan başlar
+    Console.WriteLine($"sheet index : {sheetInfo.Index} "); // sonraki sayfa indeksi - 0'dan başlar
     Console.WriteLine($"sheet name : {sheetInfo.Name} ");   // sayfa adı
-    Console.WriteLine($"sheet state : {sheetInfo.State} "); // sayfa görünürlük durumu - visible / hidden
+    Console.WriteLine($"sheet state : {sheetInfo.State} "); // sayfa görünürlük durumu - görünür / gizli
 }
 ```
-#### S. Count kullanmak tüm veriyi belleğe yükler mi?
+```
 
-Hayır, görseldeki testte 1 milyon satır*10 sütun veri var, maksimum bellek kullanımı <60MB ve 13.65 saniye sürüyor.
+
+#### S. Count kullanmak tüm verileri belleğe yükler mi?
+
+Hayır, görsel testte 1 milyon satır*10 sütun veri var, maksimum bellek kullanımı <60MB ve 13,65 saniye sürüyor.
 
 ![image](https://user-images.githubusercontent.com/12729184/117118518-70586000-adc3-11eb-9ce3-2ba76cf8b5e5.png)
 
 #### S. Query tamsayı indekslerini nasıl kullanır?
 
-Query'nin varsayılan indeksi string Anahtar: A,B,C... şeklindedir. Sayısal indeks kullanmak istiyorsanız, dönüştürmek için aşağıdaki metodu oluşturun.
+Query'nin varsayılan indeksi string Key: A,B,C.... Eğer sayısal indeks kullanmak istiyorsanız, aşağıdaki yöntemi oluşturarak dönüştürebilirsiniz.
 
 ```csharp
 void Main()
@@ -1851,23 +1848,24 @@ private IEnumerable<Dictionary<int, object>> ConvertToIntIndexRows(IEnumerable<o
 }
 ```
 
-#### S. Excel dışa aktarılırken değer boşsa başlıksız boş excel oluşuyor
+#### S. Excel dışa aktarılırken değer boş olduğunda başlıksız boş excel oluşturuluyor
 
-MiniExcel, API işlemlerini basitleştirmek için JSON.NET'e benzer bir mantıkla tipini dinamik olarak veriden alır; veri olmadan tip bilinemez. Anlamak için [issue #133](https://github.com/mini-software/MiniExcel/issues/133)'e göz atabilirsiniz.
+MiniExcel, API işlemlerini basitleştirmek için JSON.NET'e benzer şekilde değerlerden dinamik olarak tip alır, veri olmadan tip bilinemez. Anlamak için [issue #133](https://github.com/mini-software/MiniExcel/issues/133) bağlantısına bakabilirsiniz.
 
 ![image](https://user-images.githubusercontent.com/12729184/122639771-546c0c00-d12e-11eb-800c-498db27889ca.png)
 
-> Strong type & DataTable başlık oluşturur, fakat Dictionary yine de boş Excel üretir.
+> Strong type & DataTable başlık oluşturur, ancak Dictionary ile hala boş Excel oluşur.
 
-#### S. Boş satırda foreach nasıl durdurulur?
+#### S. Boş satıra gelince foreach nasıl durdurulur?
 
-MiniExcel, foreach iteratorünü durdurmak için `LINQ TakeWhile` ile birlikte kullanılabilir.
+MiniExcel, foreach döngüsünü durdurmak için `LINQ TakeWhile` ile birlikte kullanılabilir.
 
 ![Image](https://user-images.githubusercontent.com/12729184/130209137-162621c2-f337-4479-9996-beeac65bc4d4.png)
 
 #### S. Boş satırlar nasıl kaldırılır?
 
 ![image](https://user-images.githubusercontent.com/12729184/137873865-7107d8f5-eb59-42db-903a-44e80589f1b2.png)
+
 
 IEnumerable :
 
@@ -1882,6 +1880,8 @@ public static IEnumerable<dynamic> QueryWithoutEmptyRow(Stream stream, bool useH
     }
 }
 ```
+
+
 
 DataTable :
 
@@ -1902,6 +1902,8 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
             foreach (var key in row.Keys)
             {
                 var column = new DataColumn(key, typeof(object)) { Caption = key };
+```
+```csharp
                 dt.Columns.Add(column);
             }
 
@@ -1928,29 +1930,41 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
 }
 ```
 
-#### S. SaveAs(path,value) ile mevcut dosyanın üzerine yazıp "...xlsx already exists" hatası almamak için
 
-Dosya oluşturma mantığını özelleştirmek için Stream sınıfını kullanabilirsiniz, örneğin:
+
+#### S. SaveAs(path,value) ile mevcut dosyanın üzerine yazmak ve "...xlsx dosyası zaten mevcut" hatası almamak nasıl sağlanır?
+
+
+Lütfen özel dosya oluşturma mantığı için Stream sınıfını kullanın, örneğin:
 
 ```C#
     using (var stream = File.Create("Demo.xlsx"))
         MiniExcel.SaveAs(stream,value);
 ```
 
-veya, V1.25.0'dan itibaren, SaveAs fonksiyonunda overwriteFile parametresiyle mevcut dosyanın üzerine yazma desteği eklendi
+
+
+veya, V1.25.0'dan itibaren, SaveAs fonksiyonu mevcut dosyanın üzerine yazmayı etkinleştirmek/devre dışı bırakmak için overwriteFile parametresini destekler
 
 ```csharp
     MiniExcel.SaveAs(path, value, overwriteFile: true);
 ```
 
-### Sınırlamalar ve dikkat edilmesi gerekenler
 
-- Şu anda xls ve şifreli dosyalar desteklenmiyor
-- xlsm sadece Query'yi destekler
+
+
+### Sınırlamalar ve uyarılar
+
+- Şu anda xls ve şifreli dosyalar desteklenmemektedir
+- xlsm sadece Sorgu desteği sunar
+
+
 
 ### Referanslar
 
 [ExcelDataReader](https://github.com/ExcelDataReader/ExcelDataReader)  / [ClosedXML](https://github.com/ClosedXML/ClosedXML) / [Dapper](https://github.com/DapperLib/Dapper) / [ExcelNumberFormat](https://github.com/andersnm/ExcelNumberFormat)
+
+
 
 ### Teşekkürler
 
@@ -1958,17 +1972,20 @@ veya, V1.25.0'dan itibaren, SaveAs fonksiyonunda overwriteFile parametresiyle me
 
 ![jetbrains-variant-2](https://user-images.githubusercontent.com/12729184/123997015-8456c180-da02-11eb-829a-aec476fe8e94.png)
 
-Bu projeye ücretsiz All product IDE sağladığınız için teşekkürler ([Lisans](https://user-images.githubusercontent.com/12729184/123988233-6ab17c00-d9fa-11eb-8739-2a08c6a4a263.png))
+Bu proje için tüm ürün IDE'sini ücretsiz sağladığınız için teşekkürler ([Lisans](https://user-images.githubusercontent.com/12729184/123988233-6ab17c00-d9fa-11eb-8739-2a08c6a4a263.png))
 
-### Katkı paylaşımı bağışı
+
+
+### Katkı paylaşım bağışı
 Bağlantı https://github.com/orgs/mini-software/discussions/754
 
 ### Katkıda Bulunanlar
 
 ![](https://contrib.rocks/image?repo=mini-software/MiniExcel)
+```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-29
 
 ---

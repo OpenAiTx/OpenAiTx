@@ -12,98 +12,99 @@
 [<img align="right" src="https://github.com/dotnet-foundation/swag/blob/main/logo/dotnetfoundation_v4.png?raw=true" width="100" />](https://www.dotnetfoundation.org/)
 
 <div style="text-align: center">
-<p>این پروژه بخشی از <a href="https://www.dotnetfoundation.org/">.NET Foundation</a> است و تحت <a href="https://www.dotnetfoundation.org/code-of-conduct">کد رفتار</a> آن فعالیت می‌کند. </p>
+<p>این پروژه بخشی از <a href="https://www.dotnetfoundation.org/">بنیاد .NET</a> است و تحت <a href="https://www.dotnetfoundation.org/code-of-conduct">منشور رفتار</a> آنها عمل می‌کند. </p>
 </div>
 
 ---
 
 <div style="text-align: center">
-<p><strong><a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a> | <a href="README.zh-Hant.md">繁體中文</a></strong></p>
+<p><strong><a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a> | <a href="README.zh-Hant.md">繁體中文</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ja">日本語</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ko">한국어</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=hi">हिन्दी</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=th">ไทย</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fr">Français</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=de">Deutsch</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=es">Español</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=it">Italiano</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ru">Русский</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pt">Português</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=nl">Nederlands</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pl">Polski</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ar">العربية</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fa">فارسی</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=tr">Türkçe</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=vi">Tiếng Việt</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=id">Bahasa Indonesia</a><p></p>
+</strong></p>
 </div>
+
 
 ---
 
 <div style="text-align: center">
- ستاره <a href="https://github.com/mini-software/MiniExcel">شما</a> و <a href="https://miniexcel.github.io">حمایت مالی</a> شما می‌تواند MiniExcel را بهتر کند
+ ستاره‌های <a href="https://github.com/mini-software/MiniExcel">شما</a> یا <a href="https://miniexcel.github.io">حمایت‌های مالی شما</a> می‌تواند MiniExcel را بهتر کند
 </div>
 
 ---
 
 ### معرفی
 
-MiniExcel ابزاری ساده و کارآمد برای پردازش اکسل در .NET است که از بروز خطای OOM جلوگیری می‌کند.
+MiniExcel یک ابزار ساده و کارآمد برای پردازش اکسل در .NET است که به طور ویژه‌ای برای به حداقل رساندن مصرف حافظه طراحی شده است.
 
-در حال حاضر، اکثر فریم‌ورک‌های محبوب برای سهولت کار، تمام داده‌ها را در حافظه بارگذاری می‌کنند، اما این کار باعث مصرف بیش از حد حافظه می‌شود. MiniExcel تلاش می‌کند با استفاده از الگوریتم جریان (stream)، اشغال حافظه را از ۱۰۰۰ مگابایت به چند مگابایت کاهش دهد تا از بروز خطای OOM (تمام شدن حافظه) جلوگیری کند.
+در حال حاضر، بیشتر چارچوب‌های محبوب نیاز دارند تمام داده‌ها را از یک سند اکسل به حافظه بارگذاری کنند تا عملیات را تسهیل نمایند، اما این کار ممکن است باعث مشکلات مصرف حافظه شود. رویکرد MiniExcel متفاوت است: داده‌ها به صورت سطری و به شکل استریم پردازش می‌شوند، که مصرف اولیه را از صدها مگابایت به چند مگابایت کاهش می‌دهد و به طور مؤثری از بروز مشکلات اتمام حافظه (OOM) جلوگیری می‌کند.
 
-![image](https://user-images.githubusercontent.com/12729184/113086657-ab8bd000-9214-11eb-9563-c970ac1ee35e.png)
-
-
+![Screenshot 2025-06-22 123525](https://github.com/user-attachments/assets/0b99a61e-8061-4604-8957-0b1f3ec74544)
 
 
 ### ویژگی‌ها
 
-- مصرف پایین حافظه، جلوگیری از OOM (تمام شدن حافظه) و GC کامل
-- پشتیبانی از عملیات بلادرنگ بر روی هر ردیف داده
-- پشتیبانی از اجرای تنبل LINQ، امکان انجام پرس‌وجوهای پیچیده با مصرف پایین و صفحه‌بندی سریع
-- سبک، بدون نیاز به نصب Microsoft Office، بدون COM+، اندازه DLL کمتر از ۴۰۰ کیلوبایت
-- API ساده برای خواندن/نوشتن/پر کردن اکسل
+- مصرف حافظه را به حداقل می‌رساند، از بروز خطاهای اتمام حافظه (OOM) جلوگیری می‌کند و مانع از جمع‌آوری کامل زباله‌ها می‌شود
+- امکان عملیات داده‌ای در سطح ردیف و به صورت بلادرنگ برای عملکرد بهتر روی داده‌های بزرگ
+- پشتیبانی از LINQ با اجرای تعویقی، امکان صفحه‌بندی سریع و بهینه از نظر حافظه و جستجوهای پیچیده
+- سبک و کم‌حجم، بدون نیاز به Microsoft Office یا کامپوننت‌های COM+ و اندازه DLL کمتر از 500KB
+- API ساده و شهودی برای خواندن/نوشتن/تکمیل اکسل
 
 ### شروع سریع
 
-- [وارد کردن/پرس‌وجوی اکسل](#getstart1)
+- [وارد کردن/کوئری اکسل](#getstart1)
 
-- [خروجی/ایجاد اکسل](#getstart2)
+- [خروجی گرفتن/ایجاد اکسل](#getstart2)
 
 - [قالب اکسل](#getstart3)
 
-- [نام/ایندکس/ویژگی نادیده گرفتن ستون اکسل](#getstart4)
+- [نام/اندیس/ویژگی نادیده گرفتن ستون اکسل](#getstart4)
 
-- [مثال‌ها](#getstart5)
+- [نمونه‌ها](#getstart5)
 
 
 
 ### نصب
 
-می‌توانید این بسته را [از NuGet](https://www.nuget.org/packages/MiniExcel) نصب کنید.
+می‌توانید این بسته را [از NuGet نصب کنید](https://www.nuget.org/packages/MiniExcel)
 
 ### یادداشت‌های انتشار
 
-لطفاً [یادداشت‌های انتشار](docs) را بررسی کنید.
+لطفاً [یادداشت‌های انتشار](docs) را بررسی کنید
 
 ### TODO
 
-لطفاً [TODO](https://github.com/mini-software/MiniExcel/projects/1?fullscreen=true) را بررسی کنید.
+لطفاً [TODO](https://github.com/mini-software/MiniExcel/projects/1?fullscreen=true) را بررسی کنید
 
-### کارایی
+### عملکرد
 
-کد بنچمارک‌ها را می‌توانید در [MiniExcel.Benchmarks](benchmarks/MiniExcel.Benchmarks/Program.cs) پیدا کنید.
+کد بنچمارک‌ها را می‌توانید در [MiniExcel.Benchmarks](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Program.cs) بیابید.
 
-فایل مورد استفاده برای تست کارایی [**Test1,000,000x10.xlsx**](benchmarks/MiniExcel.Benchmarks/Test1%2C000%2C000x10.xlsx) است، یک سند ۳۲ مگابایتی که شامل ۱,۰۰۰,۰۰۰ ردیف * ۱۰ ستون است که سلول‌های آن با رشته "HelloWorld" پر شده‌اند.
+فایلی که برای تست عملکرد استفاده شده است [**Test1,000,000x10.xlsx**](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Test1%2C000%2C000x10.xlsx) می‌باشد؛ یک سند 32 مگابایتی که شامل 1,000,000 ردیف * 10 ستون است و سلول‌های آن با رشته "HelloWorld" پر شده‌اند.
 
-برای اجرای همه بنچمارک‌ها از دستور زیر استفاده کنید:
+برای اجرای تمام بنچمارک‌ها از دستور زیر استفاده کنید:
 
 ```bash
 dotnet run -project .\benchmarks\MiniExcel.Benchmarks -c Release -f net9.0 -filter * --join
 ```
 
-می‌توانید نتایج بنچمارک آخرین نسخه را [اینجا](benchmarks/results) مشاهده کنید.
+می‌توانید نتایج بنچمارک نسخه آخر را [اینجا](benchmarks/results) پیدا کنید.
 
 
-### وارد کردن/پرس‌وجوی اکسل  <a name="getstart1"></a>
+### کوئری/وارد کردن اکسل  <a name="getstart1"></a>
 
-#### ۱. اجرای پرس‌وجو و نگاشت نتایج به IEnumerable تایپ‌شده [[امتحان کنید]](https://dotnetfiddle.net/w5WD1J)
+#### 1. اجرای کوئری و نگاشت نتایج به یک IEnumerable قوی نوع [[امتحان کنید]](https://dotnetfiddle.net/w5WD1J)
 
-پیشنهاد می‌شود به دلیل کارایی بهتر از Stream.Query استفاده کنید.
+توصیه می‌شود از Stream.Query به دلیل کارایی بهتر استفاده شود.
 
 ```csharp
 public class UserAccount
 {
-    public Guid ID { get; set; }
-    public string Name { get; set; }
-    public DateTime BoD { get; set; }
-    public int Age { get; set; }
-    public bool VIP { get; set; }
-    public decimal Points { get; set; }
+```csharp
+public Guid ID { get; set; }
+public string Name { get; set; }
+public DateTime BoD { get; set; }
+public int Age { get; set; }
+public bool VIP { get; set; }
+public decimal Points { get; set; }
 }
 
 var rows = MiniExcel.Query<UserAccount>(path);
@@ -116,9 +117,9 @@ using (var stream = File.OpenRead(path))
 
 ![image](https://user-images.githubusercontent.com/12729184/111107423-c8c46b80-8591-11eb-982f-c97a2dafb379.png)
 
-#### ۲. اجرای پرس‌وجو و نگاشت آن به یک لیست از اشیای داینامیک بدون استفاده از هدر [[امتحان کنید]](https://dotnetfiddle.net/w5WD1J)
+#### ۲. اجرای یک کوئری و نگاشت آن به لیستی از اشیاء داینامیک بدون استفاده از سرستون [[امتحان کنید]](https://dotnetfiddle.net/w5WD1J)
 
-* کلید dynamic به صورت `A.B.C.D..` است
+* کلید داینامیک `A.B.C.D..` است.
 
 | MiniExcel | 1 |
 |-----------|---|
@@ -140,7 +141,7 @@ using (var stream = File.OpenRead(path))
 }
 ```
 
-#### ۳. اجرای پرس‌وجو با اولین ردیف هدر [[امتحان کنید]](https://dotnetfiddle.net/w5WD1J)
+#### ۳. اجرای کوئری با اولین ردیف به عنوان سرستون [[امتحان کنید]](https://dotnetfiddle.net/w5WD1J)
 
 توجه: در صورت تکرار نام ستون، آخرین مقدار سمت راست استفاده می‌شود.
 
@@ -169,9 +170,9 @@ using (var stream = File.OpenRead(path))
 }
 ```
 
-#### ۴. پشتیبانی پرس‌وجو از افزونه LINQ مانند First/Take/Skip و غیره
+#### ۴. پشتیبانی کوئری از LINQ Extension مانند First/Take/Skip و غیره
 
-پرس‌وجوی اولین مقدار
+کوئری First
 ```csharp
 var row = MiniExcel.Query(path).First();
 Assert.Equal("HelloWorld", row.A);
@@ -185,10 +186,10 @@ using (var stream = File.OpenRead(path))
 }
 ```
 
-مقایسه کارایی بین MiniExcel/ExcelDataReader/ClosedXML/EPPlus
+عملکرد بین MiniExcel/ExcelDataReader/ClosedXML/EPPlus
 ![queryfirst](https://user-images.githubusercontent.com/12729184/111072392-6037a900-8515-11eb-9693-5ce2dad1e460.gif)
 
-#### ۵. پرس‌وجو بر اساس نام شیت
+#### ۵. کوئری بر اساس نام شیت
 
 ```csharp
 MiniExcel.Query(path, sheetName: "SheetName");
@@ -196,7 +197,8 @@ MiniExcel.Query(path, sheetName: "SheetName");
 stream.Query(sheetName: "SheetName");
 ```
 
-#### ۶. پرس‌وجوی همه نام‌های شیت و ردیف‌ها
+#### ۶. کوئری همه نام شیت‌ها و ردیف‌ها
+```
 ```csharp
 var sheetNames = MiniExcel.GetSheetNames(path);
 foreach (var sheetName in sheetNames)
@@ -205,15 +207,15 @@ foreach (var sheetName in sheetNames)
 }
 ```
 
-#### 7. دریافت ستون‌ها
+#### ۷. دریافت ستون‌ها
 
 ```csharp
-var columns = MiniExcel.GetColumns(path); // به عنوان مثال خروجی : ["A","B"...]
+var columns = MiniExcel.GetColumns(path); // به عنوان مثال: ["A","B"...]
 
 var cnt = columns.Count;  // دریافت تعداد ستون‌ها
 ```
 
-#### 8. کوئری داینامیک: ردیف را به `IDictionary<string,object>` تبدیل کنید
+#### ۸. کوئری داینامیک تبدیل ردیف به `IDictionary<string,object>`
 
 ```csharp
 foreach(IDictionary<string,object> row in MiniExcel.Query(path))
@@ -223,17 +225,17 @@ foreach(IDictionary<string,object> row in MiniExcel.Query(path))
 
 // یا
 var rows = MiniExcel.Query(path).Cast<IDictionary<string,object>>();
-// یا کوئری رنج‌های مشخص شده (با حروف بزرگ)
-// A2 نماینده ردیف دوم ستون A است، C3 نماینده ردیف سوم ستون C است
-// اگر نمی‌خواهید ردیف‌ها را محدود کنید، عدد وارد نکنید
+// یا کوئری محدوده‌های مشخص شده (با حروف بزرگ)
+// A2 نمایانگر ردیف دوم ستون A، C3 نمایانگر ردیف سوم ستون C است
+// اگر نمی‌خواهید ردیف‌ها را محدود کنید، فقط عدد وارد نکنید
 var rows = MiniExcel.QueryRange(path, startCell: "A2", endCell: "C3").Cast<IDictionary<string, object>>();
 ```
 
 
 
-#### 9. کوئری اکسل و بازگشت DataTable
+#### ۹. کوئری اکسل با بازگشت DataTable
 
-توصیه نمی‌شود، زیرا DataTable تمام داده‌ها را در حافظه بارگذاری می‌کند و ویژگی مصرف حافظه پایین MiniExcel را از دست می‌دهد.
+توصیه نمی‌شود، زیرا DataTable تمام داده‌ها را به حافظه بارگذاری می‌کند و ویژگی مصرف پایین حافظه MiniExcel را از بین می‌برد.
 
 ```C#
 var table = MiniExcel.QueryAsDataTable(path, useHeaderRow: true);
@@ -243,7 +245,7 @@ var table = MiniExcel.QueryAsDataTable(path, useHeaderRow: true);
 
 
 
-#### 10. مشخص کردن سلول شروع خواندن داده
+#### ۱۰. مشخص کردن سلول شروع برای خواندن داده
 
 ```csharp
 MiniExcel.Query(path,useHeaderRow:true,startCell:"B3")
@@ -253,11 +255,11 @@ MiniExcel.Query(path,useHeaderRow:true,startCell:"B3")
 
 
 
-#### 11. پر کردن سلول‌های ادغام‌شده
+#### ۱۱. پر کردن سلول‌های ادغام شده
 
-نکته: کارایی نسبت به «عدم استفاده از پر کردن ادغام» کندتر است
+توجه: کارایی آن نسبت به `عدم استفاده از پر کردن ادغامی` کمتر است
 
-دلیل: استاندارد OpenXml ادغام سلول‌ها را در انتهای فایل قرار می‌دهد، که منجر به نیاز به دو بار پیمایش sheetxml می‌شود
+دلیل: طبق استاندارد OpenXml، mergeCells در انتهای فایل قرار دارد و این باعث می‌شود مجبور باشید دوبار روی sheetxml حلقه بزنید
 
 ```csharp
     var config = new OpenXmlConfiguration()
@@ -269,20 +271,20 @@ MiniExcel.Query(path,useHeaderRow:true,startCell:"B3")
 
 ![image](https://user-images.githubusercontent.com/12729184/117973630-3527d500-b35f-11eb-95c3-bde255f8114e.png)
 
-پشتیبانی از پر کردن چند ردیف و ستون با طول و عرض متغیر
+پشتیبانی از پرکردن چند ردیف و ستون با طول و عرض متغیر
 
 ![image](https://user-images.githubusercontent.com/12729184/117973820-6d2f1800-b35f-11eb-88d8-555063938108.png)
 
-#### 12. خواندن فایل بزرگ با کش مبتنی بر دیسک (کش مبتنی بر دیسک - SharedString)
+#### ۱۲. خواندن فایل بزرگ با کش مبتنی بر دیسک (Disk-Base Cache - SharedString)
 
-اگر اندازه SharedStrings بیش از ۵ مگابایت باشد، MiniExcel به طور پیش‌فرض از کش دیسک محلی استفاده می‌کند، مانند [10x100000.xlsx](https://github.com/MiniExcel/MiniExcel/files/8403819/NotDuplicateSharedStrings_10x100000.xlsx) (یک میلیون ردیف داده)، زمانی که کش دیسک غیرفعال باشد، حداکثر مصرف حافظه ۱۹۵ مگابایت است، اما با فعال بودن کش دیسک فقط ۶۵ مگابایت نیاز است. توجه کنید که این بهینه‌سازی هزینه‌ای در کارایی دارد و زمان خواندن را از ۷.۴ ثانیه به ۲۷.۲ ثانیه افزایش می‌دهد. اگر به این ویژگی نیاز ندارید، می‌توانید با کد زیر کش دیسک را غیرفعال کنید:
+اگر اندازه SharedStrings بیشتر از ۵ مگابایت شود، MiniExcel به طور پیش‌فرض از کش دیسک محلی استفاده می‌کند، به عنوان مثال، [10x100000.xlsx](https://github.com/MiniExcel/MiniExcel/files/8403819/NotDuplicateSharedStrings_10x100000.xlsx) (یک میلیون ردیف داده)، هنگام غیرفعال کردن کش دیسک، بیشترین مصرف حافظه ۱۹۵ مگابایت است، اما با فعال بودن کش دیسک فقط به ۶۵ مگابایت نیاز دارد. توجه داشته باشید، این بهینه‌سازی کمی هزینه کارایی دارد، بنابراین در این حالت زمان خواندن از ۷.۴ ثانیه به ۲۷.۲ ثانیه افزایش می‌یابد. اگر به آن نیاز ندارید می‌توانید کش دیسک را با کد زیر غیرفعال کنید:
 
 ```csharp
 var config = new OpenXmlConfiguration { EnableSharedStringCache = false };
 MiniExcel.Query(path,configuration: config)
 ```
 
-می‌توانید از `SharedStringCacheSize` استفاده کنید تا اندازه فایل sharedString برای کش دیسک را تغییر دهید
+می‌توانید از `SharedStringCacheSize` برای تغییر اندازه فایل sharedString جهت کش شدن روی دیسک فراتر از اندازه مشخص شده استفاده کنید.
 ```csharp
 var config = new OpenXmlConfiguration { SharedStringCacheSize=500*1024*1024 };
 MiniExcel.Query(path, configuration: config);
@@ -296,23 +298,19 @@ MiniExcel.Query(path, configuration: config);
 
 
 
+```
+### ایجاد/استخراج اکسل  <a name="getstart2"></a>
 
+1. باید یک نوع غیر انتزاعی با سازنده عمومی بدون پارامتر باشد.
 
+2. MiniExcel از اجرای تأخیری IEnumerable پشتیبانی می‌کند، اگر می‌خواهید کمترین میزان حافظه را مصرف کنید، لطفاً از فراخوانی متدهایی مانند ToList خودداری کنید.
 
-
-
-### ساخت/خروجی اکسل  <a name="getstart2"></a>
-
-1. باید یک نوع غیرانتزاعی با سازنده بدون پارامتر عمومی باشد.
-
-2. MiniExcel از IEnumerable با اجرای تعلیقی پشتیبانی می‌کند، اگر می‌خواهید کمترین میزان حافظه را مصرف کنید، لطفاً متدهایی مانند ToList را فراخوانی نکنید
-
-مثال: استفاده یا عدم استفاده از ToList و مصرف حافظه
+مثال: ToList یا عدم استفاده از حافظه  
 ![image](https://user-images.githubusercontent.com/12729184/112587389-752b0b00-8e38-11eb-8a52-cfb76c57e5eb.png)
 
 
 
-#### 1. تایپ ناشناس یا قوی [[امتحان کنید]](https://dotnetfiddle.net/w5WD1J)
+#### 1. ناشناس یا نوع قوی [[امتحان کنید]](https://dotnetfiddle.net/w5WD1J)
 
 ```csharp
 var path = Path.Combine(Path.GetTempPath(), $"{Guid.NewGuid()}.xlsx");
@@ -333,7 +331,7 @@ var values = new List<Dictionary<string, object>>()
 MiniExcel.SaveAs(path, values);
 ```
 
-نتیجه ایجاد فایل :
+نتیجه ایجاد فایل:
 
 | Column1   | Column2 |
 |-----------|---------|
@@ -342,14 +340,14 @@ MiniExcel.SaveAs(path, values);
 
 
 #### 3.  IDataReader
-- `توصیه‌شده`، زیرا می‌تواند از بارگذاری تمام داده‌ها در حافظه جلوگیری کند
+- `توصیه‌شده`، می‌تواند از بارگذاری تمام داده‌ها در حافظه جلوگیری کند
 ```csharp
 MiniExcel.SaveAs(path, reader);
 ```
 
 ![image](https://user-images.githubusercontent.com/12729184/121275378-149a5e80-c8bc-11eb-85fe-5453552134f0.png)
 
-خروجی چند شیتی با DataReader (توصیه شده توسط Dapper ExecuteReader)
+خروجی چندین شیت با DataReader (توصیه‌شده توسط Dapper ExecuteReader)
 
 ```csharp
 using (var cnn = Connection)
@@ -364,11 +362,11 @@ using (var cnn = Connection)
 
 
 
-#### 4. DataTable
+#### 4. دیتاتیبل
 
-- `توصیه نمی‌شود`، زیرا تمام داده‌ها را در حافظه بارگذاری می‌کند
+- `توصیه نمی‌شود`، همه داده‌ها را در حافظه بارگذاری می‌کند
 
-- DataTable ابتدا از Caption برای نام ستون استفاده می‌کند، سپس از نام ستون
+- DataTable ابتدا از Caption برای نام ستون استفاده می‌کند، سپس از columname
 
 ```csharp
 var path = Path.Combine(Path.GetTempPath(), $"{Guid.NewGuid()}.xlsx");
@@ -395,9 +393,8 @@ using (var connection = GetConnection(connectionString))
             @"select 'MiniExcel' as Column1,1 as Column2 union all select 'Github',2"
             , flags: CommandFlags.NoCache)
         );
-    // توجه: QueryAsync خطای بسته بودن اتصال را ایجاد می‌کند
+    // توجه: QueryAsync استثنای بسته بودن اتصال را پرتاب خواهد کرد
     MiniExcel.SaveAs(path, rows);
-```
 ```
 }
 ```
@@ -412,7 +409,8 @@ using (var connection = GetConnection(connectionString))
 }
 ```
 
-#### 6. ذخیره‌سازی به MemoryStream  [[امتحان کنید]](https://dotnetfiddle.net/JOen0e)
+
+#### 6. ذخیره در MemoryStream  [[امتحان کنید]](https://dotnetfiddle.net/JOen0e)
 
 ```csharp
 using (var stream = new MemoryStream()) //پشتیبانی از FileStream، MemoryStream و غیره
@@ -441,6 +439,7 @@ public IActionResult DownloadExcel()
 }
 ```
 
+
 #### 7. ایجاد چند شیت
 
 ```csharp
@@ -464,6 +463,7 @@ MiniExcel.SaveAs(path, sheets);
 
 ![image](https://user-images.githubusercontent.com/12729184/118130875-6e7c4580-b430-11eb-9b82-22f02716bd63.png)
 
+
 #### 8. گزینه‌های TableStyles
 
 استایل پیش‌فرض
@@ -482,16 +482,20 @@ MiniExcel.SaveAs(path, value,configuration:config);
 
 ![image](https://user-images.githubusercontent.com/12729184/118784917-f3e57700-b8c2-11eb-8718-8d955b1bc197.png)
 
+
 #### 9. AutoFilter
 
-از نسخه v0.19.0، `OpenXmlConfiguration.AutoFilter` می‌تواند AutoFilter را فعال یا غیرفعال کند، مقدار پیش‌فرض `true` است و نحوه تنظیم AutoFilter به شرح زیر است:
+از نسخه v0.19.0  `OpenXmlConfiguration.AutoFilter` می‌تواند AutoFilter را فعال/غیرفعال کند، مقدار پیش‌فرض `true` است و روش تنظیم AutoFilter به صورت زیر است:
 
 ```csharp
 MiniExcel.SaveAs(path, value, configuration: new OpenXmlConfiguration() { AutoFilter = false });
 ```
 
+
+
 #### 10. ایجاد تصویر
 
+```csharp
 ```csharp
 var value = new[] {
     new { Name="github",Image=File.ReadAllBytes(PathHelper.GetFile("images/github_logo.png"))},
@@ -505,20 +509,22 @@ MiniExcel.SaveAs(path, value);
 
 ![image](https://user-images.githubusercontent.com/12729184/150462383-ad9931b3-ed8d-4221-a1d6-66f799743433.png)
 
-#### 11. خروجی گرفتن فایل به صورت آرایه بایت
 
-از نسخه 1.22.0، زمانی که نوع مقدار `byte[]` باشد، سیستم به طور پیش‌فرض مسیر فایل را در سلول ذخیره می‌کند و هنگام ایمپورت، سیستم می‌تواند آن را به `byte[]` تبدیل کند. و اگر نمی‌خواهید از این ویژگی استفاده کنید، می‌توانید `OpenXmlConfiguration.EnableConvertByteArray` را به `false` تنظیم کنید تا کارایی سیستم افزایش یابد.
 
-![image](https://user-images.githubusercontent.com/12729184/153702334-c3b834f4-6ae4-4ddf-bd4e-e5005d5d8c6a.png)
+#### ۱۱. خروجی گرفتن فایل آرایه بایت
 
-از نسخه 1.22.0، زمانی که نوع مقدار `byte[]` باشد، سیستم به طور پیش‌فرض مسیر فایل را در سلول ذخیره می‌کند و هنگام ایمپورت، سیستم می‌تواند آن را به `byte[]` تبدیل کند. و اگر نمی‌خواهید از این ویژگی استفاده کنید، می‌توانید `OpenXmlConfiguration.EnableConvertByteArray` را به `false` تنظیم کنید تا کارایی سیستم افزایش یابد.
+از نسخه 1.22.0، زمانی که نوع مقدار `byte[]` باشد، سیستم به طور پیش‌فرض مسیر فایل را در سلول ذخیره می‌کند و هنگام وارد کردن، سیستم می‌تواند آن را به `byte[]` تبدیل کند. و اگر نمی‌خواهید از این ویژگی استفاده کنید، می‌توانید مقدار `OpenXmlConfiguration.EnableConvertByteArray` را روی `false` قرار دهید، که باعث افزایش کارایی سیستم می‌شود.
 
 ![image](https://user-images.githubusercontent.com/12729184/153702334-c3b834f4-6ae4-4ddf-bd4e-e5005d5d8c6a.png)
 
-#### 12. ادغام سلول‌های مشابه به صورت عمودی
+از نسخه 1.22.0، زمانی که نوع مقدار `byte[]` باشد، سیستم به طور پیش‌فرض مسیر فایل را در سلول ذخیره می‌کند و هنگام وارد کردن، سیستم می‌تواند آن را به `byte[]` تبدیل کند. و اگر نمی‌خواهید از این ویژگی استفاده کنید، می‌توانید مقدار `OpenXmlConfiguration.EnableConvertByteArray` را روی `false` قرار دهید، که باعث افزایش کارایی سیستم می‌شود.
+
+![image](https://user-images.githubusercontent.com/12729184/153702334-c3b834f4-6ae4-4ddf-bd4e-e5005d5d8c6a.png)
+
+#### ۱۲. ادغام سلول‌های مشابه به صورت عمودی
 
 این قابلیت فقط در فرمت `xlsx` پشتیبانی می‌شود و سلول‌ها را به صورت عمودی بین تگ‌های @merge و @endmerge ادغام می‌کند.
-می‌توانید از @mergelimit برای محدود کردن محدوده ادغام سلول‌ها به صورت عمودی استفاده کنید.
+شما می‌توانید با استفاده از @mergelimit، محدوده ادغام سلول‌ها به صورت عمودی را محدود کنید.
 
 ```csharp
 var mergedFilePath = Path.Combine(Path.GetTempPath(), $"{Guid.NewGuid().ToString()}.xlsx");
@@ -550,7 +556,7 @@ memoryStream.MergeSameCells(path);
 
 <img width="346" alt="Screenshot 2023-08-08 at 18 21 40" src="https://github.com/mini-software/MiniExcel/assets/38832863/f5cf8957-b0b0-4831-b8fc-8556299235c2">
 
-#### 13. رد کردن مقادیر تهی (null)
+#### ۱۳. صرف‌نظر از مقادیر null
 
 گزینه جدید و صریح برای نوشتن سلول‌های خالی برای مقادیر null:
 
@@ -590,7 +596,6 @@ MiniExcel.SaveAs(@"C:\temp\Book1.xlsx", dt, configuration: configuration);
 ```
 
 رفتار قبلی:
-
 ```csharp
 /* ... */
 
@@ -620,7 +625,7 @@ MiniExcel.SaveAs(@"C:\temp\Book1.xlsx", dt, configuration: configuration);
 
 برای مقادیر null و DBNull کار می‌کند.
 
-#### 14. فریز کردن پنجره‌ها (Freeze Panes)
+#### 14. قفل کردن سطرها و ستون‌ها (Freeze Panes)
 ```csharp
 /* ... */
 
@@ -636,12 +641,12 @@ MiniExcel.SaveAs(@"C:\temp\Book1.xlsx", dt, configuration: configuration);
 ![image](https://raw.githubusercontent.com/mini-software/MiniExcel/master/docs/images/freeze-pane-1.png)
 
 
-### پر کردن داده در قالب اکسل <a name="getstart3"></a>
+### وارد کردن داده به قالب اکسل <a name="getstart3"></a>
 
-- تعریف متغیر مشابه قالب‌های Vue با `{{نام متغیر}}` یا رندر مجموعه با `{{نام مجموعه.نام فیلد}}` است.
+- اعلان متغیر مشابه قالب Vue به صورت `{{variable name}}` یا رندر مجموعه به صورت `{{collection name.field name}}` است.
 - رندر مجموعه از IEnumerable/DataTable/DapperRow پشتیبانی می‌کند.
 
-#### 1. پر کردن پایه‌ای
+#### 1. پر کردن پایه‌ای (Basic Fill)
 
 قالب:
 ![image](https://user-images.githubusercontent.com/12729184/114537556-ed8d2b00-9c84-11eb-8303-a69f62c41e5b.png)
@@ -677,7 +682,7 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 
 #### 2. پر کردن داده‌های IEnumerable
 
-> نکته۱: از اولین IEnumerable با ستون‌های یکسان به عنوان مبنا برای پر کردن لیست استفاده کنید
+> نکته1: برای پر کردن لیست، از اولین IEnumerable با ستون‌های یکسان به عنوان مبنا استفاده کنید.
 
 قالب:
 ![image](https://user-images.githubusercontent.com/12729184/114564652-14f2f080-9ca3-11eb-831f-09e3fedbc5fc.png)
@@ -691,6 +696,7 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 var value = new
 {
     employees = new[] {
+```csharp
         new {name="Jack",department="HR"},
         new {name="Lisa",department="HR"},
         new {name="John",department="HR"},
@@ -720,7 +726,7 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 
 #### 3. پر کردن داده‌های پیچیده
 
-> نکته: پشتیبانی از چند شیت و استفاده از متغیر مشابه
+> توجه: پشتیبانی از چند شیت و استفاده از متغیر یکسان
 
 قالب:
 
@@ -768,7 +774,7 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 
 #### 4. عملکرد پر کردن داده‌های بزرگ
 
-> توجه: استفاده از IEnumerable با اجرای معوق (deferred execution) به جای ToList می‌تواند بیشترین صرفه‌جویی در حافظه را در MiniExcel داشته باشد
+> توجه: استفاده از IEnumerable با اجرا به تعویق‌افتاده و نه ToList می‌تواند حداکثر صرفه‌جویی در حافظه را در MiniExcel فراهم کند
 
 ![image](https://user-images.githubusercontent.com/12729184/114577091-5046ec80-9cae-11eb-924b-087c7becf8da.png)
 
@@ -819,7 +825,7 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 
 
 
-#### 6. مثال :  لیست پروژه‌های Github
+#### ۶. مثال: فهرست پروژه‌های گیت‌هاب
 
 قالب
 
@@ -848,7 +854,7 @@ var value = new
 MiniExcel.SaveAsByTemplate(path, templatePath, value);
 ```
 
-#### 7. پر کردن داده‌های گروه‌بندی شده
+#### ۷. پر کردن داده‌های گروه‌بندی شده
 
 ```csharp
 var value = new Dictionary<string, object>()
@@ -864,7 +870,7 @@ var value = new Dictionary<string, object>()
 };
 await MiniExcel.SaveAsByTemplateAsync(path, templatePath, value);
 ```
-##### 1. با تگ `@group` و تگ `@header`
+##### ۱. با تگ `@group` و با تگ `@header`
 
 قبل
 
@@ -874,7 +880,7 @@ await MiniExcel.SaveAsByTemplateAsync(path, templatePath, value);
 
 ![after_with_header](https://user-images.githubusercontent.com/38832863/218646721-58a7a340-7004-4bc2-af24-cffcb2c20737.PNG)
 
-##### 2. با تگ @group و بدون تگ @header
+##### ۲. با تگ @group و بدون تگ @header
 
 قبل
 
@@ -884,7 +890,7 @@ await MiniExcel.SaveAsByTemplateAsync(path, templatePath, value);
 
 ![after_without_header](https://user-images.githubusercontent.com/38832863/218646872-622461ba-342e-49ee-834f-b91ad9c2dac3.PNG)
 
-##### 3. بدون تگ @group
+##### ۳. بدون تگ @group
 
 قبل
 
@@ -897,12 +903,12 @@ await MiniExcel.SaveAsByTemplateAsync(path, templatePath, value);
 #### 8. دستورات If/ElseIf/Else داخل سلول
 
 قوانین:
-1. پشتیبانی از DateTime، Double، Int با عملگرهای ==، !=، >، >=، <، <= .
-2. پشتیبانی از String با عملگرهای ==، != .
-3. هر دستور باید در خط جدید باشد.
-4. یک فاصله قبل و بعد از عملگرها باید قرار گیرد.
-5. نباید خط جدید داخل دستورات باشد.
-6. سلول باید دقیقا به فرمت زیر باشد.
+1. از انواع DateTime، Double، Int با عملگرهای ==، !=، >، >=، <، <= پشتیبانی می‌کند.
+2. از نوع String با عملگرهای ==، != پشتیبانی می‌کند.
+3. هر دستور باید در یک خط جدید باشد.
+4. قبل و بعد از عملگرها باید یک فاصله اضافه شود.
+5. نباید خط جدیدی در داخل دستورات باشد.
+6. فرمت سلول باید دقیقاً به صورت زیر باشد.
 
 ```csharp
 @if(name == Jack)
@@ -942,19 +948,19 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 #### 10. فرمول‌ها
 
 ##### 1. مثال
-فرمول خود را با `$` شروع کنید و از `$enumrowstart` و `$enumrowend` برای مشخص کردن رفرنس شروع و پایان ردیف‌های شمارشی استفاده کنید:
+فرمول خود را با `$` شروع کنید و از `$enumrowstart` و `$enumrowend` برای علامت‌گذاری ردیف شروع و پایان داده‌های قابل شمارش استفاده کنید:
 
-![image](docs/images/template-formulas-1.png)
+![image](https://raw.githubusercontent.com/mini-software/MiniExcel/master/docs/images/template-formulas-1.png)
 
-زمانی که قالب رندر می‌شود، پیشوند `$` حذف شده و `$enumrowstart` و `$enumrowend` با شماره ردیف شروع و پایان شمارشی جایگزین می‌شوند:
+زمانی که قالب رندر می‌شود، پیشوند `$` حذف شده و `$enumrowstart` و `$enumrowend` با شماره ردیف شروع و پایان داده‌های قابل شمارش جایگزین می‌شوند:
 
-![image](docs/images/template-formulas-2.png)
+![image](https://raw.githubusercontent.com/mini-software/MiniExcel/master/docs/images/template-formulas-2.png)
 
-##### 2. مثال‌های دیگر فرمول:
+##### 2. سایر مثال‌های فرمول:
 
 |              |                                                                                           |
 |--------------|-------------------------------------------------------------------------------------------|
-| مجموع        | `$=SUM(C{{$enumrowstart}}:C{{$enumrowend}})`                                              |
+| جمع          | `$=SUM(C{{$enumrowstart}}:C{{$enumrowend}})`                                              |
 | میانگین جایگزین | `$=SUM(C{{$enumrowstart}}:C{{$enumrowend}}) / COUNT(C{{$enumrowstart}}:C{{$enumrowend}})` |
 | بازه         | `$=MAX(C{{$enumrowstart}}:C{{$enumrowend}}) - MIN(C{{$enumrowstart}}:C{{$enumrowend}})`   |
 
@@ -963,7 +969,7 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 
 ##### 1. بررسی کلید پارامتر قالب
 
-از نسخه V1.24.0 به بعد، به طور پیش‌فرض کلید پارامتر گمشده قالب را نادیده گرفته و با رشته خالی جایگزین می‌کند، `IgnoreTemplateParameterMissing` می‌تواند کنترل کند که استثنا پرتاب شود یا نه.
+از نسخه V1.24.0 ، به طور پیش‌فرض، نبود کلید پارامتر قالب نادیده گرفته می‌شود و با رشته خالی جایگزین می‌شود، گزینه `IgnoreTemplateParameterMissing` می‌تواند کنترل کند که استثنا پرتاب شود یا نه.
 
 ```csharp
 var config = new OpenXmlConfiguration()
@@ -977,13 +983,13 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value, config)
 
 
 
-### ویژگی‌های نام/اندیس/نادیده‌گیری ستون اکسل <a name="getstart4"></a>
+### ویژگی نام/اندیس/نادیده‌گیری ستون اکسل <a name="getstart4"></a>
 
 
 
-#### 1. تعیین نام ستون، شماره ستون، نادیده‌گیری ستون
+#### 1. تعیین نام ستون، اندیس ستون، نادیده‌گیری ستون
 
-نمونه اکسل
+مثال اکسل
 
 ![image](https://user-images.githubusercontent.com/12729184/114230869-3e163700-99ac-11eb-9a90-2039d4b4b313.png)
 
@@ -993,7 +999,6 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value, config)
 public class ExcelAttributeDemo
 {
     [ExcelColumnName("Column1")]
-```
 ```csharp
 public string Test1 { get; set; }
 [ExcelColumnName("Column2")]
@@ -1003,8 +1008,8 @@ public string Test3 { get; set; }
 [ExcelColumnIndex("I")] // سیستم "I" را به اندیس 8 تبدیل می‌کند
 public string Test4 { get; set; }
 public string Test5 { get; } //بدون set نادیده گرفته می‌شود
-public string Test6 { get; private set; } //set غیرعمومی نادیده گرفته می‌شود
-[ExcelColumnIndex(3)] // شروع از 0
+public string Test6 { get; private set; } //set غیر عمومی نادیده گرفته می‌شود
+[ExcelColumnIndex(3)] // از 0 شروع می‌شود
 public string Test7 { get; set; }
 }
 
@@ -1024,7 +1029,7 @@ Assert.Equal("Test4", rows[0].Test7);
 
 #### ۲. فرمت سفارشی (ExcelFormatAttribute)
 
-از نسخه V0.21.0 پشتیبانی از کلاس‌هایی که متد `ToString(string content)` دارند اضافه شده است
+از نسخه V0.21.0، پشتیبانی از کلاس‌هایی که متد `ToString(string content)` را دارند، اضافه شده است.
 
 کلاس
 
@@ -1052,7 +1057,7 @@ MiniExcel.SaveAs(path, value);
 
 ![image](https://user-images.githubusercontent.com/12729184/118910788-ab2bcd80-b957-11eb-8d42-bfce36621b1b.png)
 
-کوئری از تبدیل فرمت سفارشی نیز پشتیبانی می‌کند
+Query از تبدیل فرمت سفارشی پشتیبانی می‌کند
 
 ![image](https://user-images.githubusercontent.com/12729184/118911286-87b55280-b958-11eb-9a88-c8ff403d240a.png)
 
@@ -1068,7 +1073,7 @@ public class Dto
 }
 ```
 
-#### ۴. نگاشت چند نام ستون به یک ویژگی
+#### ۴. نگاشت چندین نام ستون به یک ویژگی
 
 ```csharp
 public class Dto
@@ -1083,7 +1088,7 @@ public class Dto
 
 #### ۵. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
-از نسخه 1.24.0، سیستم از نگاشت System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute پشتیبانی می‌کند
+از نسخه 1.24.0، سیستم از نگاشت System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute پشتیبانی می‌کند.
 
 ```C#
 public class TestIssueI4TXGTDto
@@ -1096,12 +1101,12 @@ public class TestIssueI4TXGTDto
     public decimal Up { get; set; }
 }
 ```
+```
 
 
+#### 6. ویژگی ExcelColumnAttribute
 
-#### ۶. ExcelColumnAttribute
-
-از نسخه V1.26.0، چندین ویژگی را می‌توان به صورت زیر ساده کرد:
+از نسخه V1.26.0، می‌توان چندین ویژگی را به شکل ساده‌شده استفاده کرد:
 ```csharp
         public class TestIssueI4ZYUUDto
         {
@@ -1114,9 +1119,9 @@ public class TestIssueI4TXGTDto
 
 
 
-#### ۷. DynamicColumnAttribute
+#### 7. ویژگی DynamicColumnAttribute
 
-از نسخه V1.26.0، می‌توان ویژگی‌های ستون را به صورت داینامیک تنظیم کرد
+از نسخه V1.26.0، می‌توان ویژگی‌های ستون را به صورت داینامیک تنظیم کرد.
 ```csharp
             var config = new OpenXmlConfiguration
             {
@@ -1133,9 +1138,9 @@ public class TestIssueI4TXGTDto
 ```
 ![image](https://user-images.githubusercontent.com/12729184/164510353-5aecbc4e-c3ce-41e8-b6cf-afd55eb23b68.png)
 
-#### ۸. DynamicSheetAttribute
+#### 8. ویژگی DynamicSheetAttribute
 
-از نسخه V1.31.4 می‌توان ویژگی‌های شیت را به صورت داینامیک تنظیم کرد. می‌توان نام و وضعیت (قابل مشاهده بودن) شیت را تعیین نمود.
+از نسخه V1.31.4 می‌توان ویژگی‌های شیت را به صورت داینامیک تنظیم کرد. می‌توان نام و وضعیت (قابل مشاهده بودن) شیت را تنظیم کرد.
 ```csharp
             var configuration = new OpenXmlConfiguration
             {
@@ -1174,10 +1179,10 @@ public class TestIssueI4TXGTDto
 
 #### افزودن
 
-از نسخه v1.28.0 درج N ردیف داده پس از آخرین ردیف در CSV پشتیبانی می‌شود
+از نسخه v1.28.0، درج N ردیف داده پس از آخرین ردیف در فایل CSV پشتیبانی می‌شود.
 
 ```csharp
-// اولیه
+// داده اولیه
 {
     var value = new[] {
           new { ID=1,Name ="Jack",InDate=new DateTime(2021,01,03)},
@@ -1185,12 +1190,12 @@ public class TestIssueI4TXGTDto
     };
     MiniExcel.SaveAs(path, value);
 }
-// درج ۱ ردیف پس از آخرین
+// درج ۱ ردیف پس از آخرین ردیف
 {
     var value = new { ID=3,Name = "Mike", InDate = new DateTime(2021, 04, 23) };
     MiniExcel.Insert(path, value);
 }
-// درج N ردیف پس از آخرین
+// درج N ردیف پس از آخرین ردیف
 {
     var value = new[] {
           new { ID=4,Name ="Frank",InDate=new DateTime(2021,06,07)},
@@ -1204,10 +1209,10 @@ MiniExcel.Insert(path, value);
 
 ![image](https://user-images.githubusercontent.com/12729184/191023733-1e2fa732-db5c-4a3a-9722-b891fe5aa069.png)
 
-نسخه v1.37.0 پشتیبانی از درج یک شیت جدید در فایل اکسل موجود را اضافه کرد
+نسخه v1.37.0 پشتیبانی از درج یک شیت جدید در یک ورک‌بوک اکسل موجود
 
 ```csharp
-// فایل اکسل اولیه
+// اکسل اولیه
 {
     var value = new[] {
           new { ID=1,Name ="Jack",InDate=new DateTime(2021,01,03)},
@@ -1226,22 +1231,22 @@ MiniExcel.Insert(path, value);
 
 #### حذف (در انتظار)
 
-#### ویرایش (در انتظار)
+#### به‌روزرسانی (در انتظار)
 
 
 
-### تشخیص خودکار نوع اکسل <a name="getstart5"></a>
+### بررسی خودکار نوع اکسل <a name="getstart5"></a>
 
-- MiniExcel به طور پیش‌فرض بر اساس `پسوند فایل` تشخیص می‌دهد که xlsx است یا csv، اما ممکن است این تشخیص دقیق نباشد، لطفاً به صورت دستی مشخص کنید.
-- نوع فایل استریم را نمی‌توان تشخیص داد، لطفاً به صورت دستی مشخص کنید.
+- MiniExcel به طور پیش‌فرض بر اساس `پسوند فایل` بررسی می‌کند که xlsx باشد یا csv، اما ممکن است نادقیق باشد، لطفاً به صورت دستی مشخص کنید.
+- از روی Stream نوع اکسل قابل تشخیص نیست، لطفاً به صورت دستی مشخص کنید.
 
 ```csharp
 stream.SaveAs(excelType:ExcelType.CSV);
-// یا
+//or
 stream.SaveAs(excelType:ExcelType.XLSX);
-// یا
+//or
 stream.Query(excelType:ExcelType.CSV);
-// یا
+//or
 stream.Query(excelType:ExcelType.XLSX);
 ```
 
@@ -1253,13 +1258,13 @@ stream.Query(excelType:ExcelType.XLSX);
 
 #### نکته
 
-- به طور پیش‌فرض مقدار بازگشتی از نوع `string` است و مقدارها به عدد یا تاریخ تبدیل نمی‌شوند، مگر اینکه نوع داده با جنریک strongly typed تعریف شده باشد.
+- به طور پیش‌فرض نوع بازگشتی `string` است و مقدار به عدد یا تاریخ تبدیل نخواهد شد، مگر اینکه نوع با استفاده از جنریک قوی تعریف شده باشد.
 
 
 
 #### جداکننده سفارشی
 
-به طور پیش‌فرض جداکننده `,` است، می‌توانید با property مربوطه `Seperator` آن را سفارشی کنید
+جداکننده پیش‌فرض `,` است، می‌توانید ویژگی `Seperator` را برای سفارشی‌سازی تغییر دهید
 
 ```csharp
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
@@ -1269,7 +1274,7 @@ var config = new MiniExcelLibs.Csv.CsvConfiguration()
 MiniExcel.SaveAs(path, values,configuration: config);
 ```
 
-از نسخه V1.30.1 امکان جداکننده سفارشی اضافه شد (با تشکر از @hyzx86)
+از نسخه V1.30.1 تابعی برای جداکننده سفارشی پشتیبانی می‌شود (با تشکر از @hyzx86)
 
 ```csharp
 var config = new CsvConfiguration()
@@ -1282,9 +1287,9 @@ var rows = MiniExcel.Query(path, configuration: config).ToList();
 
 
 
-#### خط جدید سفارشی
+#### سطرشکن سفارشی
 
-به طور پیش‌فرض کاراکتر خط جدید `\r\n` است، می‌توانید property مربوطه `NewLine` را تغییر دهید
+پیش‌فرض `\r\n` به عنوان کاراکتر انتهای خط است، می‌توانید ویژگی `NewLine` را برای سفارشی‌سازی تغییر دهید
 
 ```csharp
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
@@ -1297,9 +1302,8 @@ MiniExcel.SaveAs(path, values,configuration: config);
 
 
 #### کدگذاری سفارشی
-
-- کدگذاری پیش‌فرض "Detect Encoding From Byte Order Marks" است (detectEncodingFromByteOrderMarks: true)
-- اگر نیاز به کدگذاری خاصی دارید، لطفاً property مربوط به StreamReaderFunc / StreamWriterFunc را تغییر دهید
+- کدگذاری پیش‌فرض "تشخیص کدگذاری از نشانه‌های ترتیب بایت" است (detectEncodingFromByteOrderMarks: true)
+- اگر نیاز به کدگذاری سفارشی دارید، لطفاً ویژگی StreamReaderFunc / StreamWriterFunc را تغییر دهید
 
 ```csharp
 // خواندن
@@ -1319,7 +1323,7 @@ MiniExcel.SaveAs(path, value,excelType:ExcelType.CSV, configuration: config);
 
 #### خواندن رشته خالی به عنوان null
 
-به طور پیش‌فرض مقادیر خالی به string.Empty نگاشت می‌شوند. می‌توانید این رفتار را تغییر دهید
+به طور پیش‌فرض، مقادیر خالی به string.Empty نگاشت می‌شوند. شما می‌توانید این رفتار را تغییر دهید
 
 ```csharp
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
@@ -1332,7 +1336,7 @@ var config = new MiniExcelLibs.Csv.CsvConfiguration()
 ### DataReader
 
 #### 1. GetReader
-از نسخه 1.23.0 می‌توانید GetDataReader بگیرید
+از نسخه 1.23.0، می‌توانید GetDataReader را استفاده کنید
 
 ```csharp
     using (var reader = MiniExcel.GetReader(path,true))
@@ -1351,7 +1355,7 @@ var config = new MiniExcelLibs.Csv.CsvConfiguration()
 
 ###  Async
 
-- از نسخه v0.17.0 پشتیبانی Async اضافه شده است (با تشکر از isdaniel ( SHIH,BING-SIOU)](https://github.com/isdaniel))
+- نسخه v0.17.0 از Async پشتیبانی می‌کند (تشکر از isdaniel ( SHIH,BING-SIOU)](https://github.com/isdaniel))
 
 ```csharp
 public static Task SaveAsAsync(string path, object value, bool printHeader = true, string sheetName = "Sheet1", ExcelType excelType = ExcelType.UNKNOWN, IConfiguration configuration = null)
@@ -1367,19 +1371,19 @@ public static Task SaveAsByTemplateAsync(string path, byte[] templateBytes, obje
 public static Task<DataTable> QueryAsDataTableAsync(string path, bool useHeaderRow = true, string sheetName = null, ExcelType excelType = ExcelType.UNKNOWN, string startCell = "A1", IConfiguration configuration = null)
 ```
 
--  از نسخه v1.25.0 پشتیبانی از `cancellationToken` اضافه شد.
+- نسخه v1.25.0 از `cancellationToken` پشتیبانی می‌کند.
 
 
 
-### سایر
+### سایر موارد
 
 #### 1. Enum
 
-حتماً نام اکسل و پراپرتی یکسان باشد، سیستم به صورت خودکار نگاشت را انجام می‌دهد (به حروف بزرگ و کوچک حساس نیست)
+حتماً نام خصوصیت و نام ستون اکسل یکسان باشد، سیستم به صورت خودکار نگاشت انجام می‌دهد (به حروف حساس نیست)
 
 ![image](https://user-images.githubusercontent.com/12729184/116210595-9784b100-a775-11eb-936f-8e7a8b435961.png)
 
-از نسخه V0.18.0 پشتیبانی از Enum Description اضافه شد
+از نسخه V0.18.0 پشتیبانی از Description برای Enum اضافه شده است
 
 ```csharp
 public class Dto
@@ -1390,19 +1394,18 @@ public class Dto
 
 public enum Type
 {
-    [Description("General User")]
+    [Description("کاربر عادی")]
     V1,
-    [Description("General Administrator")]
+    [Description("مدیر عادی")]
     V2,
-    [Description("Super Administrator")]
+    [Description("مدیر ارشد")]
     V3
 }
-```
 ```
 
 ![image](https://user-images.githubusercontent.com/12729184/133116630-27cc7161-099a-48b8-9784-cd1e443af3d1.png)
 
-از نسخه 1.30.0 پشتیبانی از تبدیل Description اکسل به Enum اضافه شده است، با تشکر از @KaneLeung
+از نسخه 1.30.0 پشتیبانی از توضیحات اکسل به Enum اضافه شده است، با تشکر از @KaneLeung
 
 #### 2. تبدیل CSV به XLSX یا تبدیل XLSX به CSV
 
@@ -1420,9 +1423,9 @@ using (var csvStream = new MemoryStream())
 }
 ```
 
-#### 3. سفارشی‌سازی CultureInfo
+#### 3. فرهنگ سفارشی (Custom CultureInfo)
 
-از نسخه 1.22.0، می‌توانید CultureInfo را به صورت زیر سفارشی‌سازی کنید، مقدار پیش‌فرض سیستم `CultureInfo.InvariantCulture` است.
+از نسخه 1.22.0، می‌توانید CultureInfo را به شکل زیر سفارشی کنید. مقدار پیش‌فرض سیستم `CultureInfo.InvariantCulture` است.
 
 ```csharp
 var config = new CsvConfiguration()
@@ -1436,7 +1439,7 @@ MiniExcel.Query(path, configuration: config);
 ```
 
 
-#### 4. سفارشی‌سازی اندازه بافر
+#### 4. اندازه بافر سفارشی (Custom Buffer Size)
 ```csharp
     public abstract class Configuration : IConfiguration
     {
@@ -1446,7 +1449,7 @@ MiniExcel.Query(path, configuration: config);
 
 #### 5. FastMode
 
-سیستم مدیریت حافظه را انجام نمی‌دهد، اما می‌توانید سرعت ذخیره‌سازی بالاتری داشته باشید.
+سیستم کنترل حافظه را انجام نمی‌دهد، اما می‌توانید سرعت ذخیره‌سازی را افزایش دهید.
 
 ```csharp
 var config = new OpenXmlConfiguration() { FastMode = true };
@@ -1455,21 +1458,23 @@ MiniExcel.SaveAs(path, reader,configuration:config);
 
 #### 6. افزودن دسته‌ای تصویر (MiniExcel.AddPicture)
 
+لطفاً تصاویر را قبل از تولید دسته‌ای داده‌های ردیف اضافه کنید، در غیر این صورت سیستم هنگام فراخوانی AddPicture حافظه زیادی مصرف خواهد کرد.
+
 ```csharp
 var images = new[]
 {
     new MiniExcelPicture
     {
         ImageBytes = File.ReadAllBytes(PathHelper.GetFile("images/github_logo.png")),
-        SheetName = null, // پیش‌فرض null، اولین شیت
-        CellAddress = "C3", // الزامی
+        SheetName = null, // مقدار پیش‌فرض null یعنی اولین شیت
+        CellAddress = "C3", // اجباری
     },
     new MiniExcelPicture
     {
         ImageBytes = File.ReadAllBytes(PathHelper.GetFile("images/google_logo.png")),
-        PictureType = "image/png", // پیش‌فرض PictureType = image/png
+        PictureType = "image/png", // مقدار پیش‌فرض PictureType = image/png
         SheetName = "Demo",
-        CellAddress = "C9", // الزامی
+        CellAddress = "C9", // اجباری
         WidthPx = 100,
         HeightPx = 100,
     },
@@ -1486,9 +1491,9 @@ var dim = MiniExcel.GetSheetDimensions(path);
 
 ### مثال‌ها:
 
-#### 1. SQLite و Dapper `فایل با حجم زیاد` درج SQL و جلوگیری از OOM
+#### 1. SQLite و Dapper `درج فایل‌های حجیم` در SQL به منظور جلوگیری از OOM
 
-نکته: لطفاً بعد از Query متدهای ToList/ToArray را فراخوانی نکنید، چون تمام داده‌ها را در حافظه بارگذاری می‌کند
+نکته: لطفاً پس از Query متدهای ToList/ToArray را صدا نزنید، چون تمام داده‌ها را وارد حافظه می‌کند.
 
 ```csharp
 using (var connection = new SQLiteConnection(connectionString))
@@ -1496,12 +1501,14 @@ using (var connection = new SQLiteConnection(connectionString))
     connection.Open();
     using (var transaction = connection.BeginTransaction())
     using (var stream = File.OpenRead(path))
-    {
-       var rows = stream.Query();
-       foreach (var row in rows)
-             connection.Execute("insert into T (A,B) values (@A,@B)", new { row.A, row.B }, transaction: transaction);
-       transaction.Commit();
-    }
+```
+```csharp
+{
+   var rows = stream.Query();
+   foreach (var row in rows)
+         connection.Execute("insert into T (A,B) values (@A,@B)", new { row.A, row.B }, transaction: transaction);
+   transaction.Commit();
+}
 }
 ```
 
@@ -1512,7 +1519,7 @@ using (var connection = new SQLiteConnection(connectionString))
 
 
 
-#### 2. نمونه‌ای از دانلود/آپلود فایل اکسل Xlsx در ASP.NET Core 3.1 یا MVC 5 [امتحان کنید](tests/MiniExcel.Tests.AspNetCore)
+#### ۲. نمونه API دانلود/آپلود اکسل Xlsx در ASP.NET Core 3.1 یا MVC 5 [امتحان کنید](https://raw.githubusercontent.com/mini-software/MiniExcel/master/tests/MiniExcel.Tests.AspNetCore)
 
 ```csharp
 public class ApiController : Controller
@@ -1527,7 +1534,7 @@ public class ApiController : Controller
 <a href='api/DownloadExcel'>DownloadExcel</a><br>
 <a href='api/DownloadExcelFromTemplatePath'>DownloadExcelFromTemplatePath</a><br>
 <a href='api/DownloadExcelFromTemplateBytes'>DownloadExcelFromTemplateBytes</a><br>
-<p>Upload Excel</p>
+<p>آپلود اکسل</p>
 <form method='post' enctype='multipart/form-data' action='/api/uploadexcel'>
     <input type='file' name='excel'> <br>
     <input type='submit' >
@@ -1596,10 +1603,10 @@ public class ApiController : Controller
         {
             ["title"] = "FooCompany",
             ["managers"] = new[] {
-                new {name="Jack",department="HR"},
-                new {name="Loan",department="IT"}
 ```
 ```csharp
+                new {name="Jack",department="HR"},
+                new {name="Loan",department="IT"}
             },
             ["employees"] = new[] {
                 new {name="Wade",department="HR"},
@@ -1625,7 +1632,7 @@ public class ApiController : Controller
 
         foreach (var item in stream.Query(true))
         {
-            // منطق خود را اینجا قرار دهید و غیره.
+            // منطق خود را اینجا پیاده‌سازی کنید و غیره.
         }
 
         return Ok("فایل با موفقیت آپلود شد");
@@ -1633,7 +1640,7 @@ public class ApiController : Controller
 }
 ```
 
-####  ۳. کوئری صفحه‌بندی شده
+####  3. کوئری صفحه‌بندی شده
 
 ```csharp
 void Main()
@@ -1658,7 +1665,7 @@ public static IEnumerable<T> Page<T>(IEnumerable<T> en, int pageSize, int page)
 
 
 
-#### ۴. خروجی گرفتن اکسل در WebForm با استفاده از memorystream
+#### 4. خروجی اکسل WebForm با استفاده از MemoryStream
 
 ```csharp
 var fileName = "Demo.xlsx";
@@ -1680,9 +1687,9 @@ response.End();
 
 
 
-#### ۵. چندزبانه‌سازی پویا (i18n) و مدیریت سطح دسترسی نقش‌ها
+#### 5. چندزبانه پویا (i18n) و مدیریت مجوز نقش
 
-مانند مثال، یک متد ایجاد کنید تا i18n و مدیریت دسترسی را انجام دهد و از `yield return` برای بازگرداندن `IEnumerable<Dictionary<string, object>>` جهت پردازش پویا و کم‌مصرف حافظه استفاده نمایید.
+مانند مثال زیر، یک متد برای مدیریت i18n و مدیریت دسترسی ایجاد کنید و از `yield return` برای برگرداندن `IEnumerable<Dictionary<string, object>>` استفاده کنید تا پردازش پویا و با مصرف حافظه پایین حاصل شود.
 
 ```csharp
 void Main()
@@ -1698,10 +1705,12 @@ void Main()
         var lang = "en-US";
         var role = "Sales";
         MiniExcel.SaveAs(path, GetOrders(lang, role, value));
+```
+```csharp
         MiniExcel.Query(path, true).Dump();
     }
 
-    Console.WriteLine("zh-CN و نقش PMC");
+    Console.WriteLine("zh-CN and PMC role");
     {
         var path = Path.GetTempPath() + Guid.NewGuid() + ".xlsx";
         var lang = "zh-CN";
@@ -1760,7 +1769,7 @@ public class Order
 
 ### سوالات متداول
 
-#### سوال: عنوان ستون اکسل با نام ویژگی کلاس برابر نیست، چگونه نگاشت انجام دهم؟
+#### سوال: عنوان سرستون اکسل با نام ویژگی کلاس برابر نیست، چگونه نگاشت انجام دهم؟
 
 پاسخ: لطفاً از ویژگی ExcelColumnName استفاده کنید.
 
@@ -1768,7 +1777,7 @@ public class Order
 
 #### سوال: چگونه چند شیت را کوئری یا خروجی بگیرم؟
 
-پاسخ: از متد `GetSheetNames` همراه با پارامتر sheetName در Query استفاده کنید.
+پاسخ: از متد `GetSheetNames` به همراه پارامتر sheetName در Query استفاده کنید.
 
 
 
@@ -1776,7 +1785,7 @@ public class Order
 var sheets = MiniExcel.GetSheetNames(path);
 foreach (var sheet in sheets)
 {
-    Console.WriteLine($"نام شیت : {sheet} ");
+    Console.WriteLine($"sheet name : {sheet} ");
     var rows = MiniExcel.Query(path,useHeaderRow:true,sheetName:sheet);
     Console.WriteLine(rows);
 }
@@ -1794,21 +1803,22 @@ foreach (var sheet in sheets)
 var sheets = MiniExcel.GetSheetInformations(path);
 foreach (var sheetInfo in sheets)
 {
-    Console.WriteLine($"اندیس شیت : {sheetInfo.Index} "); // اندیس بعدی شیت - از 0 شماره گذاری می‌شود
-    Console.WriteLine($"نام شیت : {sheetInfo.Name} ");   // نام شیت
-    Console.WriteLine($"وضعیت شیت : {sheetInfo.State} "); // وضعیت قابل مشاهده بودن شیت - قابل مشاهده / مخفی
+    Console.WriteLine($"sheet index : {sheetInfo.Index} "); // شماره اندیس شیت - از 0 شماره‌گذاری می‌شود
+    Console.WriteLine($"sheet name : {sheetInfo.Name} ");   // نام شیت
+    Console.WriteLine($"sheet state : {sheetInfo.State} "); // وضعیت قابل نمایش بودن شیت - visible / hidden
 }
 ```
 ```
-#### سوال: آیا استفاده از Count باعث بارگذاری تمام داده‌ها در حافظه می‌شود؟
 
-خیر، تست تصویری دارای ۱ میلیون ردیف * ۱۰ ستون داده است، حداکثر استفاده از حافظه کمتر از ۶۰ مگابایت بوده و ۱۳.۶۵ ثانیه زمان می‌برد.
+#### سوال: آیا استفاده از Count تمام داده‌ها را در حافظه بارگذاری می‌کند؟
+
+خیر، تست تصویر شامل ۱ میلیون ردیف * ۱۰ ستون داده است، حداکثر استفاده از حافظه کمتر از ۶۰ مگابایت بوده و ۱۳.۶۵ ثانیه طول می‌کشد.
 
 ![image](https://user-images.githubusercontent.com/12729184/117118518-70586000-adc3-11eb-9ce3-2ba76cf8b5e5.png)
 
-#### سوال: کوئری چگونه از اندیس عددی استفاده می‌کند؟
+#### سوال: Query چگونه از اندیس عددی استفاده می‌کند؟
 
-اندیس پیش‌فرض Query کلید رشته‌ای است: A,B,C.... اگر می‌خواهید از اندیس عددی استفاده کنید، لطفاً متد زیر را برای تبدیل ایجاد کنید
+اندیس پیش‌فرض Query کلید رشته‌ای است: A,B,C.... اگر می‌خواهید به اندیس عددی تغییر دهید، لطفاً متد زیر را برای تبدیل ایجاد کنید.
 
 ```csharp
 void Main()
@@ -1843,17 +1853,17 @@ private IEnumerable<Dictionary<int, object>> ConvertToIntIndexRows(IEnumerable<o
 }
 ```
 
-#### سوال: چرا زمانی که مقدار خالی است، اکسل بدون عنوان تولید می‌شود؟
+#### سوال: زمانی که مقدار خالی باشد، اکسل بدون عنوان خالی تولید می‌شود
 
-زیرا MiniExcel از منطقی مشابه JSON.NET برای دریافت داینامیک نوع از مقادیر جهت ساده‌سازی عملیات API استفاده می‌کند، و بدون داده نمی‌توان نوع را تشخیص داد. برای درک بیشتر به [issue #133](https://github.com/mini-software/MiniExcel/issues/133) مراجعه کنید.
+زیرا MiniExcel از منطقی مشابه JSON.NET برای گرفتن نوع به صورت داینامیک از مقادیر جهت ساده‌سازی عملیات API استفاده می‌کند، بدون داده نمی‌توان نوع را تشخیص داد. برای اطلاعات بیشتر می‌توانید [issue #133](https://github.com/mini-software/MiniExcel/issues/133) را مشاهده کنید.
 
 ![image](https://user-images.githubusercontent.com/12729184/122639771-546c0c00-d12e-11eb-800c-498db27889ca.png)
 
-> نوع قوی و DataTable هدر تولید می‌کنند، اما Dictionary همچنان اکسل خالی خواهد بود.
+> نوع قوی و DataTable هدر تولید می‌کنند، اما Dictionary همچنان اکسل خالی خواهد بود
 
-#### سوال: چگونه foreach را هنگام رسیدن به ردیف خالی متوقف کنیم؟
+#### سوال: چگونه foreach را هنگام رسیدن به سطر خالی متوقف کنیم؟
 
-MiniExcel را می‌توان با `LINQ TakeWhile` برای توقف تکرارگر foreach استفاده کرد.
+می‌توانید از MiniExcel به همراه `LINQ TakeWhile` برای متوقف کردن تکرارگر foreach استفاده کنید.
 
 ![Image](https://user-images.githubusercontent.com/12729184/130209137-162621c2-f337-4479-9996-beeac65bc4d4.png)
 
@@ -1894,6 +1904,8 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
             foreach (var key in row.Keys)
             {
                 var column = new DataColumn(key, typeof(object)) { Caption = key };
+```
+```csharp
                 dt.Columns.Add(column);
             }
 
@@ -1920,29 +1932,41 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
 }
 ```
 
-#### سوال: چگونه SaveAs(path,value) را برای جایگزینی فایل موجود بدون نمایش خطای "The file ...xlsx already exists error" استفاده کنیم؟
 
-لطفاً از کلاس Stream برای پیاده‌سازی منطق ایجاد فایل سفارشی استفاده کنید، مانند:
+
+#### سوال. چگونه SaveAs(path,value) را طوری استفاده کنیم که فایل موجود را جایگزین کند و بدون پرتاب خطای "The file ...xlsx already exists error" باشد
+
+
+لطفاً برای پیاده‌سازی منطق سفارشی ایجاد فایل، از کلاس Stream استفاده کنید، به طور مثال:
 
 ```C#
     using (var stream = File.Create("Demo.xlsx"))
         MiniExcel.SaveAs(stream,value);
 ```
 
-یا، از نسخه V1.25.0، SaveAs از پارامتر overwriteFile برای فعال/غیرفعال کردن بازنویسی فایل پشتیبانی می‌کند:
+
+
+یا، از نسخه V1.25.0، پارامتر overwriteFile به متد SaveAs اضافه شده است تا امکان فعال/غیرفعال کردن بازنویسی فایل موجود را فراهم کند
 
 ```csharp
     MiniExcel.SaveAs(path, value, overwriteFile: true);
 ```
 
+
+
+
 ### محدودیت‌ها و نکات
 
-- فعلاً از xls و فایل‌های رمزنگاری‌شده پشتیبانی نمی‌شود
+- در حال حاضر از xls و فایل رمزگذاری شده پشتیبانی نمی‌شود
 - xlsm فقط از Query پشتیبانی می‌کند
+
+
 
 ### منابع
 
 [ExcelDataReader](https://github.com/ExcelDataReader/ExcelDataReader)  / [ClosedXML](https://github.com/ClosedXML/ClosedXML) / [Dapper](https://github.com/DapperLib/Dapper) / [ExcelNumberFormat](https://github.com/andersnm/ExcelNumberFormat)
+
+
 
 ### تشکر
 
@@ -1950,18 +1974,20 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
 
 ![jetbrains-variant-2](https://user-images.githubusercontent.com/12729184/123997015-8456c180-da02-11eb-829a-aec476fe8e94.png)
 
-تشکر بابت ارائه رایگان IDE تمام محصولات برای این پروژه ([License](https://user-images.githubusercontent.com/12729184/123988233-6ab17c00-d9fa-11eb-8739-2a08c6a4a263.png))
+تشکر بابت ارائه رایگان All product IDE برای این پروژه ([مجوز](https://user-images.githubusercontent.com/12729184/123988233-6ab17c00-d9fa-11eb-8739-2a08c6a4a263.png))
 
-### اشتراک‌گذاری مشارکت و حمایت مالی
+
+
+### اشتراک‌گذاری کمک‌های مالی
 لینک https://github.com/orgs/mini-software/discussions/754
 
 ### مشارکت‌کنندگان
 
 ![](https://contrib.rocks/image?repo=mini-software/MiniExcel)
-
+```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-29
 
 ---

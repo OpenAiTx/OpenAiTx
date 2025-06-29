@@ -12,92 +12,99 @@
 [<img align="right" src="https://github.com/dotnet-foundation/swag/blob/main/logo/dotnetfoundation_v4.png?raw=true" width="100" />](https://www.dotnetfoundation.org/)
 
 <div style="text-align: center">
-<p>Dự án này là một phần của <a href="https://www.dotnetfoundation.org/">.NET Foundation</a> và tuân theo <a href="https://www.dotnetfoundation.org/code-of-conduct">quy tắc ứng xử</a> của họ. </p>
+<p>Dự án này là một phần của <a href="https://www.dotnetfoundation.org/">.NET Foundation</a> và hoạt động theo <a href="https://www.dotnetfoundation.org/code-of-conduct">bộ quy tắc ứng xử</a> của họ.</p>
 </div>
 
 ---
 
 <div style="text-align: center">
-<p><strong><a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a> | <a href="README.zh-Hant.md">繁體中文</a></strong></p>
+<p><strong><a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a> | <a href="README.zh-Hant.md">繁體中文</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ja">日本語</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ko">한국어</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=hi">हिन्दी</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=th">ไทย</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fr">Français</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=de">Deutsch</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=es">Español</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=it">Italiano</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ru">Русский</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pt">Português</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=nl">Nederlands</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pl">Polski</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ar">العربية</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fa">فارسی</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=tr">Türkçe</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=vi">Tiếng Việt</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=id">Bahasa Indonesia</a><p></p>
+</strong></p>
 </div>
+
 
 ---
 
 <div style="text-align: center">
- Ngôi sao <a href="https://github.com/mini-software/MiniExcel">Star</a> và <a href="https://miniexcel.github.io">ủng hộ Donate</a> của bạn sẽ giúp MiniExcel phát triển tốt hơn
+ <a href="https://github.com/mini-software/MiniExcel">Sự ủng hộ</a> hoặc <a href="https://miniexcel.github.io">Đóng góp</a> của bạn có thể giúp MiniExcel phát triển tốt hơn
 </div>
 
 ---
 
 ### Giới thiệu
 
-MiniExcel là công cụ xử lý Excel trên .NET đơn giản và hiệu quả giúp tránh OOM.
+MiniExcel là một công cụ xử lý Excel đơn giản và hiệu quả cho .NET, được thiết kế đặc biệt để giảm thiểu việc sử dụng bộ nhớ.
 
-Hiện nay, hầu hết các framework phổ biến đều cần tải toàn bộ dữ liệu vào bộ nhớ để dễ thao tác, điều này dẫn đến vấn đề tiêu tốn bộ nhớ. MiniExcel cố gắng sử dụng thuật toán từ luồng (stream) để giảm mức chiếm dụng từ 1000 MB xuống chỉ còn vài MB, tránh hiện tượng OOM (hết bộ nhớ).
+Hiện tại, hầu hết các framework phổ biến đều cần tải toàn bộ dữ liệu từ tài liệu Excel vào bộ nhớ để thao tác, nhưng điều này có thể gây ra các vấn đề về tiêu thụ bộ nhớ. Cách tiếp cận của MiniExcel thì khác: dữ liệu được xử lý từng dòng một theo dạng streaming, giúp giảm lượng tiêu thụ từ hàng trăm megabyte xuống chỉ còn vài megabyte, hiệu quả trong việc ngăn ngừa lỗi tràn bộ nhớ (OOM).
 
-![image](https://user-images.githubusercontent.com/12729184/113086657-ab8bd000-9214-11eb-9563-c970ac1ee35e.png)
+![Screenshot 2025-06-22 123525](https://github.com/user-attachments/assets/0b99a61e-8061-4604-8957-0b1f3ec74544)
+
 
 ### Tính năng
 
-- Tiêu thụ bộ nhớ thấp, tránh OOM (hết bộ nhớ) và full GC
-- Hỗ trợ xử lý dữ liệu từng dòng theo thời gian thực
-- Hỗ trợ thực thi LINQ deferred, cho phép truy vấn phức tạp, phân trang nhanh với mức tiêu thụ thấp
-- Nhẹ, không cần cài đặt Microsoft Office, không COM+, DLL có kích thước nhỏ hơn 400KB
-- API dễ sử dụng để đọc/ghi/điền dữ liệu excel
+- Tối thiểu hóa việc tiêu thụ bộ nhớ, ngăn ngừa lỗi tràn bộ nhớ (OOM) và tránh việc thu gom rác toàn phần
+- Hỗ trợ thao tác dữ liệu theo từng dòng theo thời gian thực, nâng cao hiệu suất với tập dữ liệu lớn
+- Hỗ trợ LINQ với thực thi trì hoãn, cho phép phân trang nhanh chóng, tiết kiệm bộ nhớ và truy vấn phức tạp
+- Nhẹ, không cần Microsoft Office hoặc các thành phần COM+, và kích thước DLL dưới 500KB
+- API đơn giản, trực quan để đọc/ghi/điền dữ liệu excel
 
 ### Bắt đầu
 
-- [Nhập/Truy vấn Excel](#getstart1)
+- [Nhập/Lấy dữ liệu Excel](#getstart1)
 
 - [Xuất/Tạo Excel](#getstart2)
 
-- [Mẫu Excel Template](#getstart3)
+- [Mẫu Excel](#getstart3)
 
-- [Tên/Cột/Chỉ số/Cột bị bỏ qua](#getstart4)
+- [Thuộc tính Tên/Chỉ số/Cột bỏ qua của Excel](#getstart4)
 
 - [Ví dụ](#getstart5)
 
+
+
 ### Cài đặt
 
-Bạn có thể cài đặt package [từ NuGet](https://www.nuget.org/packages/MiniExcel)
+Bạn có thể cài đặt gói [từ NuGet](https://www.nuget.org/packages/MiniExcel)
 
 ### Ghi chú phát hành
 
 Vui lòng xem [Ghi chú phát hành](docs)
 
-### Công việc cần làm
+### TODO
 
 Vui lòng xem [TODO](https://github.com/mini-software/MiniExcel/projects/1?fullscreen=true)
 
 ### Hiệu năng
 
-Mã nguồn cho các benchmark có thể được tìm thấy tại [MiniExcel.Benchmarks](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Program.cs).
+Mã nguồn cho các benchmark có thể tìm thấy tại [MiniExcel.Benchmarks](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Program.cs).
 
-File dùng để kiểm tra hiệu năng là [**Test1,000,000x10.xlsx**](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Test1%2C000%2C000x10.xlsx), một tài liệu 32MB chứa 1.000.000 dòng * 10 cột, các ô đều có giá trị "HelloWorld".
+Tệp được sử dụng để kiểm tra hiệu năng là [**Test1,000,000x10.xlsx**](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Test1%2C000%2C000x10.xlsx), một tài liệu 32MB chứa 1.000.000 dòng * 10 cột, mỗi ô được điền chuỗi "HelloWorld".
 
-Để chạy tất cả các benchmark, sử dụng:
+Để chạy tất cả các bài kiểm tra benchmark, sử dụng:
 
 ```bash
 dotnet run -project .\benchmarks\MiniExcel.Benchmarks -c Release -f net9.0 -filter * --join
 ```
 
-Bạn có thể tìm kết quả benchmark cho bản phát hành mới nhất [tại đây](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/results).
+Bạn có thể tìm kết quả benchmark cho bản phát hành mới nhất [tại đây](benchmarks/results).
+
 
 ### Truy vấn/Nhập Excel  <a name="getstart1"></a>
 
-#### 1. Thực thi truy vấn và ánh xạ kết quả vào IEnumerable kiểu mạnh [[Thử ngay]](https://dotnetfiddle.net/w5WD1J)
+#### 1. Thực thi truy vấn và ánh xạ kết quả tới một IEnumerable kiểu mạnh [[Thử ngay]](https://dotnetfiddle.net/w5WD1J)
 
-Khuyến nghị sử dụng Stream.Query để đạt hiệu quả tốt hơn.
+Khuyến nghị sử dụng Stream.Query vì hiệu suất tốt hơn.
 
 ```csharp
 public class UserAccount
 {
-    public Guid ID { get; set; }
-    public string Name { get; set; }
-    public DateTime BoD { get; set; }
-    public int Age { get; set; }
-    public bool VIP { get; set; }
-    public decimal Points { get; set; }
+```csharp
+public Guid ID { get; set; }
+public string Name { get; set; }
+public DateTime BoD { get; set; }
+public int Age { get; set; }
+public bool VIP { get; set; }
+public decimal Points { get; set; }
 }
 
 var rows = MiniExcel.Query<UserAccount>(path);
@@ -110,9 +117,9 @@ using (var stream = File.OpenRead(path))
 
 ![image](https://user-images.githubusercontent.com/12729184/111107423-c8c46b80-8591-11eb-982f-c97a2dafb379.png)
 
-#### 2. Thực thi truy vấn và ánh xạ vào danh sách đối tượng động không cần dùng dòng đầu làm tiêu đề [[Thử ngay]](https://dotnetfiddle.net/w5WD1J)
+#### 2. Thực thi truy vấn và ánh xạ sang danh sách đối tượng động mà không sử dụng tiêu đề [[Thử ngay]](https://dotnetfiddle.net/w5WD1J)
 
-* Khóa dynamic là `A.B.C.D..`
+* Khóa động là `A.B.C.D..`
 
 | MiniExcel | 1 |
 |-----------|---|
@@ -134,9 +141,9 @@ using (var stream = File.OpenRead(path))
 }
 ```
 
-#### 3. Thực thi truy vấn với dòng đầu tiên là tiêu đề [[Thử ngay]](https://dotnetfiddle.net/w5WD1J)
+#### 3. Thực thi truy vấn với dòng tiêu đề đầu tiên [[Thử ngay]](https://dotnetfiddle.net/w5WD1J)
 
-Lưu ý: Nếu trùng tên cột sẽ dùng cột bên phải cuối cùng
+lưu ý: các cột trùng tên sẽ dùng cột bên phải cuối cùng
 
 Excel đầu vào:
 
@@ -191,6 +198,7 @@ stream.Query(sheetName: "SheetName");
 ```
 
 #### 6. Truy vấn tất cả tên sheet và dòng dữ liệu
+```
 ```csharp
 var sheetNames = MiniExcel.GetSheetNames(path);
 foreach (var sheetName in sheetNames)
@@ -199,7 +207,7 @@ foreach (var sheetName in sheetNames)
 }
 ```
 
-#### 7. Lấy Các Cột
+#### 7. Lấy Tên Cột
 
 ```csharp
 var columns = MiniExcel.GetColumns(path); // ví dụ kết quả: ["A","B"...]
@@ -217,7 +225,7 @@ foreach(IDictionary<string,object> row in MiniExcel.Query(path))
 
 // hoặc
 var rows = MiniExcel.Query(path).Cast<IDictionary<string,object>>();
-// hoặc truy vấn phạm vi chỉ định (viết hoa)
+// hoặc Truy vấn các vùng chỉ định (viết hoa)
 // A2 đại diện cho dòng thứ hai của cột A, C3 đại diện cho dòng thứ ba của cột C
 // Nếu bạn không muốn giới hạn dòng, chỉ cần không bao gồm số
 var rows = MiniExcel.QueryRange(path, startCell: "A2", endCell: "C3").Cast<IDictionary<string, object>>();
@@ -225,9 +233,9 @@ var rows = MiniExcel.QueryRange(path, startCell: "A2", endCell: "C3").Cast<IDict
 
 
 
-#### 9. Query Excel trả về DataTable
+#### 9. Truy vấn Excel trả về DataTable
 
-Không khuyến nghị, vì DataTable sẽ tải toàn bộ dữ liệu vào bộ nhớ và làm mất tính năng tiêu thụ bộ nhớ thấp của MiniExcel.
+Không khuyến nghị, vì DataTable sẽ tải tất cả dữ liệu vào bộ nhớ và mất đi tính năng tiêu thụ bộ nhớ thấp của MiniExcel.
 
 ```C#
 var table = MiniExcel.QueryAsDataTable(path, useHeaderRow: true);
@@ -237,7 +245,7 @@ var table = MiniExcel.QueryAsDataTable(path, useHeaderRow: true);
 
 
 
-#### 10. Chỉ định ô bắt đầu đọc dữ liệu
+#### 10. Chỉ định ô để bắt đầu đọc dữ liệu
 
 ```csharp
 MiniExcel.Query(path,useHeaderRow:true,startCell:"B3")
@@ -247,11 +255,11 @@ MiniExcel.Query(path,useHeaderRow:true,startCell:"B3")
 
 
 
-#### 11. Điền các ô gộp (Merged Cells)
+#### 11. Điền Các Ô Được Gộp
 
-Lưu ý: Hiệu suất sẽ chậm hơn so với `không sử dụng fill merge`
+Lưu ý: Hiệu suất chậm hơn so với `không sử dụng merge fill`
 
-Lý do: Chuẩn OpenXml đặt mergeCells ở cuối file, dẫn đến việc phải duyệt sheetxml hai lần
+Lý do: Tiêu chuẩn OpenXml đặt mergeCells ở cuối file, dẫn đến phải lặp qua sheetxml hai lần
 
 ```csharp
     var config = new OpenXmlConfiguration()
@@ -263,20 +271,20 @@ Lý do: Chuẩn OpenXml đặt mergeCells ở cuối file, dẫn đến việc p
 
 ![image](https://user-images.githubusercontent.com/12729184/117973630-3527d500-b35f-11eb-95c3-bde255f8114e.png)
 
-hỗ trợ điền đa hàng và đa cột với chiều dài và chiều rộng biến đổi
+hỗ trợ điền nhiều dòng và cột có độ dài, độ rộng thay đổi
 
 ![image](https://user-images.githubusercontent.com/12729184/117973820-6d2f1800-b35f-11eb-88d8-555063938108.png)
 
-#### 12. Đọc file lớn bằng bộ nhớ đệm trên đĩa (Disk-Base Cache - SharedString)
+#### 12. Đọc file lớn bằng cache dựa trên ổ đĩa (Disk-Base Cache - SharedString)
 
-Nếu kích thước SharedStrings vượt quá 5 MB, MiniExcel mặc định sẽ sử dụng bộ nhớ đệm trên ổ đĩa cục bộ, ví dụ, [10x100000.xlsx](https://github.com/MiniExcel/MiniExcel/files/8403819/NotDuplicateSharedStrings_10x100000.xlsx) (một triệu dòng dữ liệu), khi tắt cache ổ đĩa, bộ nhớ tối đa sử dụng là 195MB, nhưng bật cache ổ đĩa chỉ cần 65MB. Lưu ý, tối ưu hóa này sẽ mất một ít hiệu suất, nên trường hợp này thời gian đọc sẽ tăng từ 7.4 giây lên 27.2 giây. Nếu bạn không cần, có thể tắt cache ổ đĩa với đoạn code sau:
+Nếu kích thước SharedStrings vượt quá 5 MB, MiniExcel mặc định sẽ sử dụng cache ổ đĩa cục bộ, ví dụ, [10x100000.xlsx](https://github.com/MiniExcel/MiniExcel/files/8403819/NotDuplicateSharedStrings_10x100000.xlsx) (một triệu dòng dữ liệu), khi tắt cache ổ đĩa thì bộ nhớ tối đa sử dụng là 195MB, nhưng bật cache ổ đĩa chỉ cần 65MB. Lưu ý, tối ưu này sẽ tốn thêm chi phí hiệu suất, nên trường hợp này thời gian đọc tăng từ 7.4 giây lên 27.2 giây. Nếu bạn không cần tính năng này, có thể tắt cache ổ đĩa với đoạn mã sau:
 
 ```csharp
 var config = new OpenXmlConfiguration { EnableSharedStringCache = false };
 MiniExcel.Query(path,configuration: config)
 ```
 
-Bạn có thể dùng `SharedStringCacheSize` để thay đổi kích thước file sharedString vượt quá ngưỡng chỉ định cho việc cache trên đĩa.
+Bạn có thể dùng `SharedStringCacheSize` để thay đổi kích thước file sharedString vượt quá giới hạn sẽ sử dụng cache ổ đĩa
 ```csharp
 var config = new OpenXmlConfiguration { SharedStringCacheSize=500*1024*1024 };
 MiniExcel.Query(path, configuration: config);
@@ -286,18 +294,10 @@ MiniExcel.Query(path, configuration: config);
 ![image](https://user-images.githubusercontent.com/12729184/161411851-1c3f72a7-33b3-4944-84dc-ffc1d16747dd.png)
 
 ![image](https://user-images.githubusercontent.com/12729184/161411825-17f53ec7-bef4-4b16-b234-e24799ea41b0.png)
-
-
-
-
-
-
-
-
-
+```
 ### Tạo/Xuất Excel  <a name="getstart2"></a>
 
-1. Phải là kiểu không trừu tượng với constructor không tham số công khai.
+1. Phải là một kiểu không trừu tượng với constructor không tham số công khai.
 
 2. MiniExcel hỗ trợ tham số IEnumerable Deferred Execution, nếu bạn muốn sử dụng ít bộ nhớ nhất, vui lòng không gọi các phương thức như ToList
 
@@ -327,7 +327,7 @@ var values = new List<Dictionary<string, object>>()
 MiniExcel.SaveAs(path, values);
 ```
 
-Kết quả File Tạo:
+Kết quả tạo tệp:
 
 | Column1   | Column2 |
 |-----------|---------|
@@ -336,14 +336,14 @@ Kết quả File Tạo:
 
 
 #### 3.  IDataReader
-- `Khuyến nghị`, có thể tránh tải toàn bộ dữ liệu vào bộ nhớ
+- `Khuyến nghị`, có thể tránh việc tải toàn bộ dữ liệu vào bộ nhớ
 ```csharp
 MiniExcel.SaveAs(path, reader);
 ```
 
 ![image](https://user-images.githubusercontent.com/12729184/121275378-149a5e80-c8bc-11eb-85fe-5453552134f0.png)
 
-DataReader xuất nhiều sheet (được khuyên dùng bởi Dapper ExecuteReader)
+DataReader xuất nhiều sheet (khuyến nghị dùng Dapper ExecuteReader)
 
 ```csharp
 using (var cnn = Connection)
@@ -362,7 +362,7 @@ using (var cnn = Connection)
 
 - `Không khuyến nghị`, sẽ tải toàn bộ dữ liệu vào bộ nhớ
 
-- DataTable sử dụng Caption cho tên cột trước, sau đó mới dùng columname
+- DataTable sử dụng Caption cho tên cột trước, sau đó dùng columname
 
 ```csharp
 var path = Path.Combine(Path.GetTempPath(), $"{Guid.NewGuid()}.xlsx");
@@ -379,7 +379,7 @@ MiniExcel.SaveAs(path, table);
 
 ####  5. Dapper Query
 
-Cảm ơn @shaofing #552, vui lòng sử dụng `CommandDefinition + CommandFlags.NoCache`
+Cảm ơn @shaofing #552 , vui lòng sử dụng `CommandDefinition + CommandFlags.NoCache`
 
 ```csharp
 using (var connection = GetConnection(connectionString))
@@ -389,7 +389,7 @@ using (var connection = GetConnection(connectionString))
             @"select 'MiniExcel' as Column1,1 as Column2 union all select 'Github',2"
             , flags: CommandFlags.NoCache)
         );
-    // Lưu ý: QueryAsync sẽ throw exception đóng kết nối
+    // Lưu ý: QueryAsync sẽ gây ra lỗi đóng kết nối
     MiniExcel.SaveAs(path, rows);
 ```
 }
@@ -415,7 +415,7 @@ using (var stream = new MemoryStream()) //hỗ trợ FileStream, MemoryStream, v
 }
 ```
 
-ví dụ: API xuất excel
+ví dụ: api xuất excel
 
 ```csharp
 public IActionResult DownloadExcel()
@@ -466,7 +466,7 @@ Kiểu mặc định
 
 ![image](https://user-images.githubusercontent.com/12729184/138234373-cfa97109-b71f-4711-b7f5-0eaaa4a0a3a6.png)
 
-Không cấu hình kiểu dáng
+Không cấu hình kiểu
 
 ```csharp
 var config = new OpenXmlConfiguration()
@@ -481,7 +481,7 @@ MiniExcel.SaveAs(path, value,configuration:config);
 
 #### 9. AutoFilter
 
-Từ phiên bản v0.19.0  `OpenXmlConfiguration.AutoFilter` có thể bật/tắt AutoFilter, giá trị mặc định là `true`, và thiết lập AutoFilter như sau:
+Từ phiên bản v0.19.0  `OpenXmlConfiguration.AutoFilter` cho phép bật/tắt AutoFilter, giá trị mặc định là `true`, và cách thiết lập AutoFilter:
 
 ```csharp
 MiniExcel.SaveAs(path, value, configuration: new OpenXmlConfiguration() { AutoFilter = false });
@@ -489,8 +489,9 @@ MiniExcel.SaveAs(path, value, configuration: new OpenXmlConfiguration() { AutoFi
 
 
 
-#### 10. Tạo ảnh
+#### 10. Tạo hình ảnh
 
+```csharp
 ```csharp
 var value = new[] {
     new { Name="github",Image=File.ReadAllBytes(PathHelper.GetFile("images/github_logo.png"))},
@@ -506,20 +507,19 @@ MiniExcel.SaveAs(path, value);
 
 
 
-#### 11. Xuất file mảng Byte
+#### 11. Xuất file dưới dạng mảng Byte (Byte Array File Export)
 
-Từ phiên bản 1.22.0, khi kiểu dữ liệu là `byte[]` thì hệ thống sẽ lưu đường dẫn file tại ô theo mặc định, và khi import hệ thống có thể chuyển đổi về `byte[]`. Nếu bạn không muốn sử dụng tính năng này, bạn có thể thiết lập `OpenXmlConfiguration.EnableConvertByteArray` thành `false`, điều này giúp cải thiện hiệu suất hệ thống.
+Kể từ phiên bản 1.22.0, khi kiểu giá trị là `byte[]` thì hệ thống sẽ mặc định lưu đường dẫn file tại ô, và khi nhập vào hệ thống có thể chuyển đổi thành `byte[]`. Nếu bạn không muốn sử dụng tính năng này, bạn có thể thiết lập `OpenXmlConfiguration.EnableConvertByteArray` thành `false`, điều này giúp cải thiện hiệu suất của hệ thống.
 
 ![image](https://user-images.githubusercontent.com/12729184/153702334-c3b834f4-6ae4-4ddf-bd4e-e5005d5d8c6a.png)
 
-Từ phiên bản 1.22.0, khi kiểu dữ liệu là `byte[]` thì hệ thống sẽ lưu đường dẫn file tại ô theo mặc định, và khi import hệ thống có thể chuyển đổi về `byte[]`. Nếu bạn không muốn sử dụng tính năng này, bạn có thể thiết lập `OpenXmlConfiguration.EnableConvertByteArray` thành `false`, điều này giúp cải thiện hiệu suất hệ thống.
+Kể từ phiên bản 1.22.0, khi kiểu giá trị là `byte[]` thì hệ thống sẽ mặc định lưu đường dẫn file tại ô, và khi nhập vào hệ thống có thể chuyển đổi thành `byte[]`. Nếu bạn không muốn sử dụng tính năng này, bạn có thể thiết lập `OpenXmlConfiguration.EnableConvertByteArray` thành `false`, điều này giúp cải thiện hiệu suất của hệ thống.
 
 ![image](https://user-images.githubusercontent.com/12729184/153702334-c3b834f4-6ae4-4ddf-bd4e-e5005d5d8c6a.png)
 
 #### 12. Gộp các ô giống nhau theo chiều dọc
 
-Chức năng này chỉ hỗ trợ định dạng `xlsx` và sẽ gộp các ô theo chiều dọc giữa thẻ @merge và @endmerge.  
-Bạn có thể sử dụng @mergelimit để giới hạn phạm vi gộp các ô theo chiều dọc.
+Chức năng này chỉ hỗ trợ định dạng `xlsx` và sẽ gộp các ô theo chiều dọc nằm giữa các thẻ @merge và @endmerge. Bạn có thể sử dụng @mergelimit để giới hạn phạm vi gộp các ô theo chiều dọc.
 
 ```csharp
 var mergedFilePath = Path.Combine(Path.GetTempPath(), $"{Guid.NewGuid().ToString()}.xlsx");
@@ -539,13 +539,13 @@ memoryStream.MergeSameCells(path);
 
 Nội dung file trước và sau khi gộp:
 
-Không giới hạn gộp:
+Không giới hạn phạm vi gộp:
 
 <img width="318" alt="Screenshot 2023-08-07 at 11 59 24" src="https://github.com/mini-software/MiniExcel/assets/38832863/49cc96b9-6c35-4bf3-8d43-a9752a15b22e">
 
 <img width="318" alt="Screenshot 2023-08-07 at 11 59 57" src="https://github.com/mini-software/MiniExcel/assets/38832863/3fbd529b-3ae6-4bbe-b4d8-2793a5a58010">
 
-Có giới hạn gộp:
+Có giới hạn phạm vi gộp:
 
 <img width="346" alt="Screenshot 2023-08-08 at 18 21 00" src="https://github.com/mini-software/MiniExcel/assets/38832863/04049d28-84d5-4c2a-bcff-5847547df5e1">
 
@@ -553,7 +553,7 @@ Có giới hạn gộp:
 
 #### 13. Bỏ qua giá trị null
 
-Tùy chọn mới để ghi các ô trống cho giá trị null:
+Tùy chọn mới để ghi ô trống đối với giá trị null:
 
 ```csharp
 DataTable dt = new DataTable();
@@ -618,9 +618,9 @@ MiniExcel.SaveAs(@"C:\temp\Book1.xlsx", dt, configuration: configuration);
 </x:row>
 ```
 
-Hoạt động cho giá trị null và DBNull.
+Hoạt động với giá trị null và DBNull.
 
-#### 14. Cố định khung bảng (Freeze Panes)
+#### 14. Cố định dòng/cột (Freeze Panes)
 ```csharp
 /* ... */
 
@@ -636,12 +636,12 @@ MiniExcel.SaveAs(@"C:\temp\Book1.xlsx", dt, configuration: configuration);
 ![image](https://raw.githubusercontent.com/mini-software/MiniExcel/master/docs/images/freeze-pane-1.png)
 
 
-### Đổ Dữ Liệu Vào Mẫu Excel <a name="getstart3"></a>
+### Điền dữ liệu vào mẫu Excel <a name="getstart3"></a>
 
-- Cú pháp khai báo tương tự như template Vue `{{tên biến}}`, hoặc render tập hợp `{{tên tập hợp.tên trường}}`
-- Render tập hợp hỗ trợ IEnumerable/DataTable/DapperRow
+- Cách khai báo tương tự như template Vue `{{tên biến}}`, hoặc render danh sách `{{tên tập_hợp.tên_trường}}`
+- Render danh sách hỗ trợ IEnumerable/DataTable/DapperRow
 
-#### 1. Đổ Dữ Liệu Cơ Bản
+#### 1. Điền dữ liệu cơ bản
 
 Mẫu:
 ![image](https://user-images.githubusercontent.com/12729184/114537556-ed8d2b00-9c84-11eb-8303-a69f62c41e5b.png)
@@ -675,9 +675,9 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 
 
 
-#### 2. Đổ Dữ Liệu IEnumerable
+#### 2. Điền dữ liệu IEnumerable
 
-> Lưu ý1: Sử dụng IEnumerable đầu tiên cùng cột làm cơ sở để đổ danh sách
+> Lưu ý 1: Sử dụng IEnumerable đầu tiên của cùng cột làm cơ sở để điền danh sách
 
 Mẫu:
 ![image](https://user-images.githubusercontent.com/12729184/114564652-14f2f080-9ca3-11eb-831f-09e3fedbc5fc.png)
@@ -691,6 +691,7 @@ Mã nguồn:
 var value = new
 {
     employees = new[] {
+```csharp
         new {name="Jack",department="HR"},
         new {name="Lisa",department="HR"},
         new {name="John",department="HR"},
@@ -718,11 +719,11 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 
 
 
-#### 3. Đổ Dữ Liệu Phức Tạp
+#### 3. Điền dữ liệu phức tạp (Complex Data Fill)
 
 > Lưu ý: Hỗ trợ nhiều sheet và sử dụng cùng một biến
 
-Mẫu:
+Mẫu template:
 
 ![image](https://user-images.githubusercontent.com/12729184/114565255-acf0da00-9ca3-11eb-8a7f-8131b2265ae8.png)
 
@@ -766,17 +767,17 @@ var value = new Dictionary<string, object>()
 MiniExcel.SaveAsByTemplate(path, templatePath, value);
 ```
 
-#### 4. Hiệu Năng Đổ Dữ Liệu Lớn
+#### 4. Hiệu năng điền dữ liệu lớn (Fill Big Data Performance)
 
-> LƯU Ý: Sử dụng IEnumerable thực thi deferred thay vì ToList sẽ giúp tiết kiệm tối đa bộ nhớ khi dùng MiniExcel
+> LƯU Ý: Sử dụng IEnumerable deferred execution thay vì ToList giúp tiết kiệm tối đa bộ nhớ trong MiniExcel
 
 ![image](https://user-images.githubusercontent.com/12729184/114577091-5046ec80-9cae-11eb-924b-087c7becf8da.png)
 
 
 
-#### 5. Tự động ánh xạ kiểu dữ liệu cho giá trị ô
+#### 5. Tự động ánh xạ kiểu dữ liệu cho giá trị ô (Cell value auto mapping type)
 
-Mẫu
+Mẫu template
 
 ![image](https://user-images.githubusercontent.com/12729184/114802504-64830a80-9dd0-11eb-8d56-8e8c401b3ace.png)
 
@@ -784,7 +785,7 @@ Kết quả
 
 ![image](https://user-images.githubusercontent.com/12729184/114802419-43221e80-9dd0-11eb-9ffe-a2ce34fe7076.png)
 
-Class
+Lớp
 
 ```csharp
 public class Poco
@@ -819,7 +820,7 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 
 
 
-#### 6. Ví dụ: Liệt kê các dự án Github
+#### 6. Ví dụ :  Liệt kê các Dự án Github
 
 Mẫu
 
@@ -848,7 +849,7 @@ var value = new
 MiniExcel.SaveAsByTemplate(path, templatePath, value);
 ```
 
-#### 7. Điền dữ liệu theo nhóm
+#### 7. Điền Dữ Liệu Theo Nhóm
 
 ```csharp
 var value = new Dictionary<string, object>()
@@ -864,7 +865,7 @@ var value = new Dictionary<string, object>()
 };
 await MiniExcel.SaveAsByTemplateAsync(path, templatePath, value);
 ```
-##### 1. Với thẻ `@group` và thẻ `@header`
+##### 1. Với thẻ `@group` và với thẻ `@header`
 
 Trước
 
@@ -893,16 +894,16 @@ Trước
 Sau
 
 ![without_group_after](https://user-images.githubusercontent.com/38832863/218646974-4a3c0e07-7c66-4088-ad07-b4ad3695b7e1.PNG)
-
-#### 8. Câu lệnh If/ElseIf/Else trong ô
+```
+#### 8. Câu lệnh If/ElseIf/Else bên trong ô
 
 Quy tắc:
 1. Hỗ trợ DateTime, Double, Int với các toán tử ==, !=, >, >=, <, <=.
 2. Hỗ trợ String với các toán tử ==, !=.
-3. Mỗi câu lệnh phải trên một dòng mới.
-4. Thêm một khoảng trắng trước và sau toán tử.
-5. Không được có dòng mới bên trong câu lệnh.
-6. Ô phải có định dạng chính xác như bên dưới.
+3. Mỗi câu lệnh nên nằm trên một dòng mới.
+4. Thêm một dấu cách trước và sau các toán tử.
+5. Không được có dòng mới bên trong các câu lệnh.
+6. Ô phải đúng định dạng như bên dưới.
 
 ```csharp
 @if(name == Jack)
@@ -942,28 +943,28 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 #### 10. Công thức
 
 ##### 1. Ví dụ
-Thêm tiền tố `$` cho công thức của bạn và sử dụng `$enumrowstart` và `$enumrowend` để đánh dấu tham chiếu đến dòng bắt đầu và dòng kết thúc của tập hợp:
+Đặt tiền tố công thức của bạn bằng `$` và sử dụng `$enumrowstart` và `$enumrowend` để đánh dấu tham chiếu đến dòng bắt đầu và kết thúc của danh sách lặp:
 
-![image](docs/images/template-formulas-1.png)
+![image](https://raw.githubusercontent.com/mini-software/MiniExcel/master/docs/images/template-formulas-1.png)
 
-Khi mẫu được render, tiền tố `$` sẽ bị loại bỏ và `$enumrowstart`, `$enumrowend` sẽ được thay thế bằng số dòng bắt đầu và kết thúc của tập hợp:
+Khi template được render, tiền tố `$` sẽ bị loại bỏ và `$enumrowstart` cùng `$enumrowend` sẽ được thay thế bằng số dòng bắt đầu và kết thúc của danh sách lặp:
 
-![image](docs/images/template-formulas-2.png)
+![image](https://raw.githubusercontent.com/mini-software/MiniExcel/master/docs/images/template-formulas-2.png)
 
-##### 2. Một số công thức ví dụ khác:
+##### 2. Các công thức ví dụ khác:
 
 |              |                                                                                           |
 |--------------|-------------------------------------------------------------------------------------------|
-| Tổng         | `$=SUM(C{{$enumrowstart}}:C{{$enumrowend}})`                                              |
-| TB thay thế  | `$=SUM(C{{$enumrowstart}}:C{{$enumrowend}}) / COUNT(C{{$enumrowstart}}:C{{$enumrowend}})` |
-| Khoảng       | `$=MAX(C{{$enumrowstart}}:C{{$enumrowend}}) - MIN(C{{$enumrowstart}}:C{{$enumrowend}})`   |
+| Sum          | `$=SUM(C{{$enumrowstart}}:C{{$enumrowend}})`                                              |
+| Alt. Average | `$=SUM(C{{$enumrowstart}}:C{{$enumrowend}}) / COUNT(C{{$enumrowstart}}:C{{$enumrowend}})` |
+| Range        | `$=MAX(C{{$enumrowstart}}:C{{$enumrowend}}) - MIN(C{{$enumrowstart}}:C{{$enumrowend}})`   |
 
 
 #### 11. Khác
 
-##### 1. Kiểm tra key tham số mẫu
+##### 1. Kiểm tra khóa tham số trong template
 
-Từ phiên bản V1.24.0, mặc định sẽ bỏ qua key tham số mẫu bị thiếu và thay bằng chuỗi rỗng, `IgnoreTemplateParameterMissing` có thể kiểm soát việc ném ngoại lệ hay không.
+Từ phiên bản V1.24.0, mặc định sẽ bỏ qua khóa tham số bị thiếu trong template và thay thế bằng chuỗi rỗng, thuộc tính `IgnoreTemplateParameterMissing` có thể kiểm soát việc có ném ngoại lệ hay không.
 
 ```csharp
 var config = new OpenXmlConfiguration()
@@ -977,7 +978,7 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value, config)
 
 
 
-### Thuộc tính Tên/Chỉ số/Cột Bỏ qua của Excel <a name="getstart4"></a>
+### Thuộc tính Tên/Cột/Chỉ số/Bỏ qua trong Excel <a name="getstart4"></a>
 
 
 
@@ -993,17 +994,16 @@ Mã nguồn
 public class ExcelAttributeDemo
 {
     [ExcelColumnName("Column1")]
-```
 ```csharp
 public string Test1 { get; set; }
 [ExcelColumnName("Column2")]
 public string Test2 { get; set; }
 [ExcelIgnore]
 public string Test3 { get; set; }
-[ExcelColumnIndex("I")] // hệ thống sẽ chuyển "I" thành chỉ số 8
+[ExcelColumnIndex("I")] // hệ thống sẽ chuyển "I" thành chỉ mục 8
 public string Test4 { get; set; }
-public string Test5 { get; } //không có set sẽ bị bỏ qua
-public string Test6 { get; private set; } //set không public sẽ bị bỏ qua
+public string Test5 { get; } // không có set sẽ bị bỏ qua
+public string Test6 { get; private set; } // set không phải public sẽ bị bỏ qua
 [ExcelColumnIndex(3)] // bắt đầu từ 0
 public string Test7 { get; set; }
 }
@@ -1022,9 +1022,9 @@ Assert.Equal("Test4", rows[0].Test7);
 
 
 
-#### 2. Định Dạng Tùy Chỉnh (ExcelFormatAttribute)
+#### 2. Định dạng tuỳ chỉnh (ExcelFormatAttribute)
 
-Từ V0.21.0 hỗ trợ class chứa phương thức định dạng `ToString(string content)`
+Từ phiên bản V0.21.0 hỗ trợ class chứa phương thức `ToString(string content)` để định dạng
 
 Class
 
@@ -1052,11 +1052,11 @@ Kết quả
 
 ![image](https://user-images.githubusercontent.com/12729184/118910788-ab2bcd80-b957-11eb-8d42-bfce36621b1b.png)
 
-Query hỗ trợ chuyển đổi định dạng tùy chỉnh
+Truy vấn hỗ trợ chuyển đổi định dạng tuỳ chỉnh
 
 ![image](https://user-images.githubusercontent.com/12729184/118911286-87b55280-b958-11eb-9a88-c8ff403d240a.png)
 
-#### 3. Đặt Độ Rộng Cột (ExcelColumnWidthAttribute)
+#### 3. Thiết lập độ rộng cột (ExcelColumnWidthAttribute)
 
 ```csharp
 public class Dto
@@ -1096,6 +1096,7 @@ public class TestIssueI4TXGTDto
     public decimal Up { get; set; }
 }
 ```
+```
 
 
 
@@ -1116,7 +1117,7 @@ Từ phiên bản V1.26.0, nhiều thuộc tính có thể được đơn giản
 
 #### 7. DynamicColumnAttribute
 
-Từ phiên bản V1.26.0, chúng ta có thể thiết lập thuộc tính của Column một cách động
+Từ phiên bản V1.26.0, chúng ta có thể thiết lập thuộc tính của cột một cách động
 ```csharp
             var config = new OpenXmlConfiguration
             {
@@ -1135,7 +1136,7 @@ Từ phiên bản V1.26.0, chúng ta có thể thiết lập thuộc tính của
 
 #### 8. DynamicSheetAttribute
 
-Từ phiên bản V1.31.4 chúng ta có thể thiết lập thuộc tính của Sheet một cách động. Có thể đặt tên sheet và trạng thái (hiển thị/ẩn).
+Từ phiên bản V1.31.4, chúng ta có thể thiết lập thuộc tính của Sheet một cách động. Chúng ta có thể đặt tên sheet và trạng thái (hiển thị).
 ```csharp
             var configuration = new OpenXmlConfiguration
             {
@@ -1170,11 +1171,11 @@ Chúng ta cũng có thể sử dụng thuộc tính mới ExcelSheetAttribute:
    }
 ```
 
-### Thêm, Xóa, Cập Nhật
+### Thêm, Xóa, Cập nhật
 
 #### Thêm
 
-v1.28.0 hỗ trợ CSV chèn N dòng dữ liệu sau dòng cuối cùng
+Từ phiên bản v1.28.0 hỗ trợ chèn N dòng dữ liệu vào CSV sau dòng cuối cùng
 
 ```csharp
 // Gốc
@@ -1204,10 +1205,10 @@ MiniExcel.Insert(path, value);
 
 ![image](https://user-images.githubusercontent.com/12729184/191023733-1e2fa732-db5c-4a3a-9722-b891fe5aa069.png)
 
-v1.37.0 hỗ trợ chèn một sheet mới vào một workbook excel đã tồn tại
+v1.37.0 hỗ trợ chèn một sheet mới vào workbook excel đã tồn tại
 
 ```csharp
-// File excel gốc
+// Excel gốc
 {
     var value = new[] {
           new { ID=1,Name ="Jack",InDate=new DateTime(2021,01,03)},
@@ -1224,16 +1225,16 @@ v1.37.0 hỗ trợ chèn một sheet mới vào một workbook excel đã tồn 
 
 
 
-#### Xóa (chờ cập nhật)
+#### Xóa (đang chờ)
 
-#### Cập nhật (chờ cập nhật)
+#### Cập nhật (đang chờ)
 
 
 
 ### Tự động kiểm tra loại Excel <a name="getstart5"></a>
 
-- MiniExcel sẽ kiểm tra xem là xlsx hay csv dựa trên `phần mở rộng của file` theo mặc định, tuy nhiên có thể không chính xác, vui lòng chỉ định thủ công nếu cần.
-- Đối với Stream thì không thể biết từ loại excel nào, vui lòng chỉ định thủ công.
+- MiniExcel sẽ kiểm tra đó là xlsx hay csv dựa trên `đuôi file` theo mặc định, nhưng có thể không chính xác, vui lòng chỉ định thủ công.
+- Stream không thể xác định là excel loại nào, vui lòng chỉ định thủ công.
 
 ```csharp
 stream.SaveAs(excelType:ExcelType.CSV);
@@ -1253,7 +1254,7 @@ stream.Query(excelType:ExcelType.XLSX);
 
 #### Lưu ý
 
-- Mặc định trả về kiểu `string`, và giá trị sẽ không được chuyển đổi sang số hoặc datetime, trừ khi kiểu được định nghĩa bằng generic kiểu mạnh.
+- Giá trị trả về mặc định là kiểu `string`, và giá trị sẽ không được chuyển thành số hay datetime, trừ khi kiểu được định nghĩa bằng generic kiểu mạnh.
 
 
 
@@ -1282,7 +1283,7 @@ var rows = MiniExcel.Query(path, configuration: config).ToList();
 
 
 
-#### Tùy chỉnh ký tự xuống dòng
+#### Tùy chỉnh ký tự ngắt dòng
 
 Mặc định là `\r\n` làm ký tự xuống dòng, bạn có thể sửa thuộc tính `NewLine` để tùy chỉnh
 
@@ -1297,9 +1298,8 @@ MiniExcel.SaveAs(path, values,configuration: config);
 
 
 #### Tùy chỉnh mã hóa
-
-- Mặc định mã hóa là "Detect Encoding From Byte Order Marks"  (detectEncodingFromByteOrderMarks: true)
-- Nếu bạn có yêu cầu mã hóa riêng, vui lòng chỉnh sửa thuộc tính StreamReaderFunc / StreamWriterFunc
+- Mã hóa mặc định là "Phát hiện mã hóa từ Byte Order Marks"  (detectEncodingFromByteOrderMarks: true)
+- Nếu bạn có yêu cầu mã hóa tùy chỉnh, vui lòng chỉnh sửa thuộc tính StreamReaderFunc / StreamWriterFunc
 
 ```csharp
 // Đọc
@@ -1317,9 +1317,9 @@ var config = new MiniExcelLibs.Csv.CsvConfiguration()
 MiniExcel.SaveAs(path, value,excelType:ExcelType.CSV, configuration: config);
 ```
 
-#### Đọc chuỗi rỗng thành null
+#### Đọc chuỗi rỗng dưới dạng null
 
-Theo mặc định, giá trị rỗng sẽ được ánh xạ thành string.Empty. Bạn có thể thay đổi hành vi này
+Mặc định, giá trị rỗng sẽ được ánh xạ thành string.Empty. Bạn có thể thay đổi hành vi này
 
 ```csharp
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
@@ -1332,7 +1332,7 @@ var config = new MiniExcelLibs.Csv.CsvConfiguration()
 ### DataReader
 
 #### 1. GetReader
-Từ phiên bản 1.23.0, bạn có thể GetDataReader
+Kể từ phiên bản 1.23.0, bạn có thể sử dụng GetDataReader
 
 ```csharp
     using (var reader = MiniExcel.GetReader(path,true))
@@ -1351,7 +1351,7 @@ Từ phiên bản 1.23.0, bạn có thể GetDataReader
 
 ###  Async
 
-- v0.17.0 hỗ trợ Async (cảm ơn isdaniel ( SHIH,BING-SIOU)](https://github.com/isdaniel))
+- v0.17.0 hỗ trợ Async (cảm ơn isdaniel (SHIH,BING-SIOU)](https://github.com/isdaniel))
 
 ```csharp
 public static Task SaveAsAsync(string path, object value, bool printHeader = true, string sheetName = "Sheet1", ExcelType excelType = ExcelType.UNKNOWN, IConfiguration configuration = null)
@@ -1375,7 +1375,7 @@ public static Task<DataTable> QueryAsDataTableAsync(string path, bool useHeaderR
 
 #### 1. Enum
 
-Hãy chắc chắn tên cột trong excel và tên thuộc tính giống nhau, hệ thống sẽ tự động ánh xạ (không phân biệt hoa thường)
+Hãy đảm bảo tên trong excel và tên thuộc tính giống nhau, hệ thống sẽ tự động ánh xạ (không phân biệt hoa thường)
 
 ![image](https://user-images.githubusercontent.com/12729184/116210595-9784b100-a775-11eb-936f-8e7a8b435961.png)
 
@@ -1390,21 +1390,20 @@ public class Dto
 
 public enum Type
 {
-    [Description("General User")]
+    [Description("Người dùng thông thường")]
     V1,
-    [Description("General Administrator")]
+    [Description("Quản trị viên thông thường")]
     V2,
-    [Description("Super Administrator")]
+    [Description("Quản trị viên cấp cao")]
     V3
 }
-```
 ```
 
 ![image](https://user-images.githubusercontent.com/12729184/133116630-27cc7161-099a-48b8-9784-cd1e443af3d1.png)
 
-Từ phiên bản 1.30.0 đã hỗ trợ mô tả excel cho Enum, cảm ơn @KaneLeung
+Kể từ phiên bản 1.30.0 đã hỗ trợ mô tả excel Description cho Enum, cảm ơn @KaneLeung
 
-#### 2. Chuyển đổi CSV sang XLSX hoặc chuyển đổi XLSX sang CSV
+#### 2. Chuyển đổi CSV sang XLSX hoặc Chuyển đổi XLSX sang CSV
 
 ```csharp
 MiniExcel.ConvertXlsxToCsv(xlsxPath, csvPath);
@@ -1436,7 +1435,7 @@ MiniExcel.Query(path, configuration: config);
 ```
 
 
-#### 4. Tuỳ chỉnh Buffer Size
+#### 4. Tuỳ chỉnh Kích thước Bộ đệm (Buffer Size)
 ```csharp
     public abstract class Configuration : IConfiguration
     {
@@ -1446,14 +1445,16 @@ MiniExcel.Query(path, configuration: config);
 
 #### 5. FastMode
 
-Hệ thống sẽ không kiểm soát bộ nhớ, nhưng bạn có thể có tốc độ lưu nhanh hơn.
+Hệ thống sẽ không kiểm soát bộ nhớ, nhưng bạn có thể đạt tốc độ lưu nhanh hơn.
 
 ```csharp
 var config = new OpenXmlConfiguration() { FastMode = true };
 MiniExcel.SaveAs(path, reader,configuration:config);
 ```
 
-#### 6. Thêm nhiều ảnh một lúc (MiniExcel.AddPicture)
+#### 6. Thêm Hình ảnh Hàng loạt (MiniExcel.AddPicture)
+
+Vui lòng thêm hình ảnh trước khi sinh dữ liệu dòng hàng loạt, nếu không hệ thống sẽ sử dụng nhiều bộ nhớ khi gọi AddPicture.
 
 ```csharp
 var images = new[]
@@ -1478,7 +1479,7 @@ MiniExcel.AddPicture(path, images);
 ```
 ![Image](https://github.com/user-attachments/assets/19c4d241-9753-4ede-96c8-f810c1a22247)
 
-#### 7. Lấy kích thước Sheet
+#### 7. Lấy Kích thước Trang tính (Sheets Dimension)
 
 ```csharp
 var dim = MiniExcel.GetSheetDimensions(path);
@@ -1486,9 +1487,9 @@ var dim = MiniExcel.GetSheetDimensions(path);
 
 ### Ví dụ:
 
-#### 1. SQLite & Dapper `Large Size File` SQL Insert Tránh OOM
+#### 1. SQLite & Dapper `Tập tin kích thước lớn` SQL Insert Tránh OOM
 
-lưu ý : vui lòng không gọi các phương thức ToList/ToArray sau khi Query, vì nó sẽ tải toàn bộ dữ liệu vào bộ nhớ
+lưu ý : vui lòng không gọi các phương thức ToList/ToArray sau Query, vì sẽ tải toàn bộ dữ liệu vào bộ nhớ
 
 ```csharp
 using (var connection = new SQLiteConnection(connectionString))
@@ -1496,12 +1497,14 @@ using (var connection = new SQLiteConnection(connectionString))
     connection.Open();
     using (var transaction = connection.BeginTransaction())
     using (var stream = File.OpenRead(path))
-    {
-       var rows = stream.Query();
-       foreach (var row in rows)
-             connection.Execute("insert into T (A,B) values (@A,@B)", new { row.A, row.B }, transaction: transaction);
-       transaction.Commit();
-    }
+```
+```csharp
+{
+   var rows = stream.Query();
+   foreach (var row in rows)
+         connection.Execute("insert into T (A,B) values (@A,@B)", new { row.A, row.B }, transaction: transaction);
+   transaction.Commit();
+}
 }
 ```
 
@@ -1512,7 +1515,7 @@ hiệu năng:
 
 
 
-#### 2. ASP.NET Core 3.1 hoặc MVC 5 Download/Upload Excel Xlsx API Demo [Dùng thử](tests/MiniExcel.Tests.AspNetCore)
+#### 2. ASP.NET Core 3.1 hoặc MVC 5 Download/Upload Excel Xlsx API Demo [Thử tại đây](https://raw.githubusercontent.com/mini-software/MiniExcel/master/tests/MiniExcel.Tests.AspNetCore)
 
 ```csharp
 public class ApiController : Controller
@@ -1596,10 +1599,10 @@ public class ApiController : Controller
         {
             ["title"] = "FooCompany",
             ["managers"] = new[] {
-                new {name="Jack",department="HR"},
-                new {name="Loan",department="IT"}
 ```
 ```csharp
+                new {name="Jack",department="HR"},
+                new {name="Loan",department="IT"}
             },
             ["employees"] = new[] {
                 new {name="Wade",department="HR"},
@@ -1625,15 +1628,15 @@ public class ApiController : Controller
 
         foreach (var item in stream.Query(true))
         {
-            // xử lý logic của bạn ở đây, v.v.
+            // thực hiện logic của bạn, v.v.
         }
 
-        return Ok("Tải file lên thành công");
+        return Ok("Tải tệp lên thành công");
     }
 }
 ```
 
-####  3. Truy vấn phân trang
+####  3. Truy vấn Phân trang
 
 ```csharp
 void Main()
@@ -1680,9 +1683,9 @@ response.End();
 
 
 
-#### 5. Đa ngôn ngữ động (i18n) và quản lý quyền vai trò
+#### 5. Quản lý đa ngôn ngữ động (i18n) và phân quyền vai trò
 
-Như ví dụ, tạo một phương thức để xử lý i18n và quản lý phân quyền, và sử dụng `yield return` để trả về `IEnumerable<Dictionary<string, object>>` nhằm đạt được hiệu ứng xử lý động và tiết kiệm bộ nhớ.
+Như ví dụ, hãy tạo một phương thức để xử lý i18n và quản lý quyền hạn, và sử dụng `yield return để trả về IEnumerable<Dictionary<string, object>>` nhằm đạt được hiệu ứng xử lý động và tiết kiệm bộ nhớ.
 
 ```csharp
 void Main()
@@ -1698,10 +1701,12 @@ void Main()
         var lang = "en-US";
         var role = "Sales";
         MiniExcel.SaveAs(path, GetOrders(lang, role, value));
+```
+```csharp
         MiniExcel.Query(path, true).Dump();
     }
 
-    Console.WriteLine("zh-CN và vai trò PMC");
+    Console.WriteLine("zh-CN and PMC role");
     {
         var path = Path.GetTempPath() + Guid.NewGuid() + ".xlsx";
         var lang = "zh-CN";
@@ -1758,17 +1763,17 @@ public class Order
 
 
 
-### FAQ
+### Câu hỏi thường gặp (FAQ)
 
-#### Q: Tiêu đề cột trong Excel không giống tên thuộc tính của class, làm sao để ánh xạ?
+#### H: Tiêu đề cột Excel không trùng với tên thuộc tính trong lớp, làm sao để ánh xạ?
 
 A. Vui lòng sử dụng thuộc tính ExcelColumnName
 
 ![image](https://user-images.githubusercontent.com/12729184/116020475-eac50980-a678-11eb-8804-129e87200e5e.png)
 
-#### Q. Làm sao để truy vấn hoặc xuất nhiều sheet?
+#### H. Làm thế nào để truy vấn hoặc xuất nhiều sheet?
 
-A. Sử dụng phương thức `GetSheetNames` với tham số sheetName trong  Query .
+A. Sử dụng phương thức `GetSheetNames` với tham số sheetName trong Query.
 
 
 
@@ -1784,7 +1789,7 @@ foreach (var sheet in sheets)
 
 ![image](https://user-images.githubusercontent.com/12729184/116199841-2a1f5300-a76a-11eb-90a3-6710561cf6db.png)
 
-#### Q. Làm sao để truy vấn hoặc xuất thông tin về trạng thái hiển thị của sheet?
+#### H. Làm thế nào để truy vấn hoặc xuất thông tin về trạng thái hiển thị của sheet?
 
 A. Sử dụng phương thức `GetSheetInformations`.
 
@@ -1796,19 +1801,20 @@ foreach (var sheetInfo in sheets)
 {
     Console.WriteLine($"sheet index : {sheetInfo.Index} "); // chỉ số sheet tiếp theo - đánh số từ 0
     Console.WriteLine($"sheet name : {sheetInfo.Name} ");   // tên sheet
-    Console.WriteLine($"sheet state : {sheetInfo.State} "); // trạng thái hiển thị của sheet - visible / hidden
+    Console.WriteLine($"sheet state : {sheetInfo.State} "); // trạng thái hiển thị của sheet - hiển thị / ẩn
 }
 ```
+```
 
-#### Hỏi. Việc sử dụng Count có tải tất cả dữ liệu vào bộ nhớ không?
+#### Hỏi. Sử dụng Count có tải toàn bộ dữ liệu vào bộ nhớ không?
 
-Không, bài kiểm tra hình ảnh có 1 triệu dòng * 10 cột dữ liệu, mức sử dụng bộ nhớ tối đa là <60MB, và mất 13,65 giây
+Không, bài kiểm tra hình ảnh có 1 triệu hàng * 10 cột dữ liệu, mức sử dụng bộ nhớ tối đa là <60MB, và mất 13,65 giây
 
 ![image](https://user-images.githubusercontent.com/12729184/117118518-70586000-adc3-11eb-9ce3-2ba76cf8b5e5.png)
 
-#### Hỏi. Query sử dụng chỉ số số nguyên như thế nào?
+#### Hỏi. Query sử dụng chỉ mục số nguyên như thế nào?
 
-Chỉ số mặc định của Query là Key dạng chuỗi: A,B,C.... Nếu bạn muốn chuyển sang chỉ số số, hãy tạo phương thức sau để chuyển đổi
+Chỉ mục mặc định của Query là Key dạng chuỗi: A,B,C.... Nếu bạn muốn chuyển sang chỉ mục số, vui lòng tạo phương thức sau để chuyển đổi
 
 ```csharp
 void Main()
@@ -1843,21 +1849,21 @@ private IEnumerable<Dictionary<int, object>> ConvertToIntIndexRows(IEnumerable<o
 }
 ```
 
-#### Hỏi. Khi xuất Excel, nếu giá trị rỗng thì tạo file excel không có tiêu đề
+#### Hỏi. Tại sao xuất Excel với giá trị rỗng lại sinh ra file Excel không có tiêu đề?
 
-Vì MiniExcel sử dụng logic tương tự JSON.NET để lấy kiểu dữ liệu từ giá trị một cách động nhằm đơn giản hóa thao tác API, nên không thể biết được kiểu dữ liệu nếu không có dữ liệu. Bạn có thể xem thêm tại [issue #133](https://github.com/mini-software/MiniExcel/issues/133) để hiểu rõ hơn.
+Vì MiniExcel sử dụng logic tương tự như JSON.NET để tự động lấy kiểu dữ liệu từ giá trị nhằm đơn giản hóa thao tác API, kiểu dữ liệu không thể biết trước nếu không có dữ liệu. Bạn có thể xem [issue #133](https://github.com/mini-software/MiniExcel/issues/133) để hiểu thêm.
 
 ![image](https://user-images.githubusercontent.com/12729184/122639771-546c0c00-d12e-11eb-800c-498db27889ca.png)
 
-> Kiểu strong type & DataTable sẽ sinh tiêu đề, nhưng Dictionary vẫn tạo file Excel rỗng
+> Kiểu mạnh & DataTable sẽ sinh tiêu đề, nhưng Dictionary vẫn là file Excel rỗng
 
 #### Hỏi. Làm thế nào để dừng foreach khi gặp dòng trống?
 
-MiniExcel có thể kết hợp với `LINQ TakeWhile` để dừng vòng lặp foreach.
+MiniExcel có thể dùng cùng với `LINQ TakeWhile` để dừng vòng lặp foreach.
 
 ![Image](https://user-images.githubusercontent.com/12729184/130209137-162621c2-f337-4479-9996-beeac65bc4d4.png)
 
-#### Hỏi. Làm thế nào để loại bỏ các dòng trống?
+#### Hỏi. Làm sao để loại bỏ các dòng trống?
 
 ![image](https://user-images.githubusercontent.com/12729184/137873865-7107d8f5-eb59-42db-903a-44e80589f1b2.png)
 
@@ -1894,6 +1900,8 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
             foreach (var key in row.Keys)
             {
                 var column = new DataColumn(key, typeof(object)) { Caption = key };
+```
+```csharp
                 dt.Columns.Add(column);
             }
 
@@ -1920,47 +1928,62 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
 }
 ```
 
-#### Hỏi. Làm thế nào để SaveAs(path,value) ghi đè file đã tồn tại mà không báo lỗi "The file ...xlsx already exists error"
 
-Vui lòng sử dụng lớp Stream để tùy chỉnh logic tạo file, ví dụ:
+
+#### Q. Làm thế nào để SaveAs(path,value) ghi đè file đã tồn tại mà không ném lỗi "The file ...xlsx already exists error"
+
+
+Vui lòng sử dụng lớp Stream để tuỳ chỉnh logic tạo file, ví dụ:
 
 ```C#
     using (var stream = File.Create("Demo.xlsx"))
         MiniExcel.SaveAs(stream,value);
 ```
 
-hoặc, từ phiên bản V1.25.0, SaveAs hỗ trợ tham số overwriteFile để bật/tắt ghi đè file đã tồn tại
+
+
+Hoặc, từ phiên bản V1.25.0, SaveAs hỗ trợ tham số overwriteFile để bật/tắt việc ghi đè file đã tồn tại
 
 ```csharp
     MiniExcel.SaveAs(path, value, overwriteFile: true);
 ```
 
+
+
+
 ### Giới hạn và lưu ý
 
-- Hiện không hỗ trợ xls và file mã hóa
+- Hiện không hỗ trợ xls và file mã hoá
 - xlsm chỉ hỗ trợ Query
+
+
 
 ### Tham khảo
 
 [ExcelDataReader](https://github.com/ExcelDataReader/ExcelDataReader)  / [ClosedXML](https://github.com/ClosedXML/ClosedXML) / [Dapper](https://github.com/DapperLib/Dapper) / [ExcelNumberFormat](https://github.com/andersnm/ExcelNumberFormat)
 
-### Cảm ơn
 
-#### [Jetbrains](https://www.jetbrains.com/)
+
+### Lời cảm ơn
+
+####  [Jetbrains](https://www.jetbrains.com/)
 
 ![jetbrains-variant-2](https://user-images.githubusercontent.com/12729184/123997015-8456c180-da02-11eb-829a-aec476fe8e94.png)
 
-Cảm ơn đã cung cấp miễn phí All product IDE cho dự án này ([License](https://user-images.githubusercontent.com/12729184/123988233-6ab17c00-d9fa-11eb-8739-2a08c6a4a263.png))
+Cảm ơn đã cung cấp miễn phí All product IDE cho dự án này ([Giấy phép](https://user-images.githubusercontent.com/12729184/123988233-6ab17c00-d9fa-11eb-8739-2a08c6a4a263.png))
 
-### Chia sẻ đóng góp donate
+
+
+### Chia sẻ đóng góp quyên góp
 Liên kết https://github.com/orgs/mini-software/discussions/754
 
 ### Những người đóng góp
 
 ![](https://contrib.rocks/image?repo=mini-software/MiniExcel)
+```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-29
 
 ---
