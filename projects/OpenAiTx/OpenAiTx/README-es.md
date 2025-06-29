@@ -126,58 +126,59 @@
 
 
 
-## Compartir Contribución
+## Compartiendo Contribución
 
-Si puedes ayudar enviando un PR a tu proyecto favorito, sería de gran ayuda para promover nuestro proyecto.
+Si puedes ayudar enviando un PR a tu proyecto favorito, sería de gran ayuda para promocionar nuestro proyecto.
 
 Ejemplo:
 
 ```
 Título:
-docs: agregar 20 enlaces de idiomas al README
+docs: agregar enlaces a 20 idiomas en el README
 
 Contenido:
-El PR agrega 20 enlaces de idiomas al README y los usuarios pueden acceder fácilmente al README traducido, apoyando la búsqueda SEO multilingüe de google/bing.
+El PR agrega enlaces a 20 idiomas en el README y el usuario puede acceder fácilmente al README traducido, soporta la búsqueda SEO multilingüe de google/bing.
 
-Página de demostración https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
+Página demo https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
 
 > OpenAiTx https://github.com/OpenAiTx/OpenAiTx 
 > ¿Por qué?
-> 1. Traducción única usando LLM de calidad premium y hace el resultado accesible de forma gratuita para la comunidad open-source.
-> 2. Soporta búsqueda SEO multilingüe Google/Bing, la herramienta de traducción del cliente no lo puede hacer.
-> 3. Gratis y de código abierto para siempre 
-> 4. Envía una sola vez y actualización automática en el futuro, puede ahorrarte tiempo si eres mantenedor de un proyecto.
+> 1. Traducción de una sola vez usando LLM de calidad premium y hacer el resultado libremente accesible para la comunidad open-source.
+> 2. Soporta búsqueda SEO multilingüe en Google/Bing, las herramientas de traducción del cliente no pueden hacerlo.
+> 3. Gratis y de código abierto para siempre
+> 4. Enviar una sola vez y actualización automática en el futuro, puede ahorrar tiempo si eres mantenedor de un proyecto.
 ```
 
 
 
-## Contribución de Computación
+## Contribución de Cómputo
 
-Si deseas contribuir en el proyecto, todo lo que necesitas hacer es:
-Forkear el proyecto → Clonar el proyecto → Elegir un script en tu idioma → Colocar tu token de IA → Ejecutarlo → Commit & push & crear un PR
+Si deseas contribuir al proyecto, todo lo que necesitas hacer es:
+Forkear el proyecto → Clonar el proyecto → Elegir un script en tu idioma → Poner tu token de AI → Ejecutarlo → Commit & push & crear un PR
 
 > Nota: **¡Por favor, no subas tus tokens!**
 
 ### Notas
 
-- Solo se soporta README en markdown de github.
+- Solo se admite el README markdown de github.
 
 ## Otros
 
-- 10~30 min/proyecto
+- 10~30 minutos/por proyecto
 - 200~400 proyectos/una consola por día.
-- Cada 3~7 días se actualizarán los proyectos existentes (dependiendo de los recursos de computación futuros)
+- Cada 3~7 días se actualizarán los proyectos existentes (dependiendo de los recursos de cómputo futuros)
 
 
-### Gracias
+## Agradecimientos
 
-- El equipo Microsoft MVP proporciona un presupuesto de plataforma Azure para la comunidad open source de 150USD/mes.
+- El equipo Microsoft MVP proporciona un presupuesto de 150USD/mes para la plataforma azure de la comunidad open source.
 
 
 
-### Plan Futuro
+## Plan Futuro
 
-- Soporte para traducción automática de wiki de GitHub
+- Soporte para traducción automática de GitHub wiki
+- Soporte para la plataforma Gitee
 
 ---
 

@@ -103,7 +103,7 @@
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italien</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a></p>
@@ -113,13 +113,13 @@
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">Türkçe</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">Tiếng Việt</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Bahasa Indonesia</a></p>
-  </div>
+</div>
 </div>
 </details>
 </div>
 
 
-### Vidéo de démonstration
+### Démonstration vidéo
 
 <a href="https://github.com/user-attachments/assets/a1370023-8924-4d40-9f18-979a334e934d"> 
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
@@ -129,7 +129,7 @@
 
 ## Contribution au partage
 
-Si vous pouvez aider en soumettant une PR à votre projet favori, cela contribuerait grandement à promouvoir notre projet.
+Si vous pouvez aider en soumettant une PR à votre projet préféré, cela aiderait grandement à promouvoir notre projet.
 
 Exemple :
 
@@ -138,16 +138,16 @@ Titre :
 docs : ajout de 20 liens de langues au README
 
 Contenu :
-La PR ajoute 20 liens de langues au README et l'utilisateur peut facilement accéder au README traduit, prend en charge le référencement multilingue Google/Bing.
+La PR ajoute 20 liens de langues au README et permet à l'utilisateur d'accéder facilement au README traduit, prend en charge la recherche SEO multilingue google/bing.
 
-Démo de la page https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
+Page de démonstration https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
 
 > OpenAiTx https://github.com/OpenAiTx/OpenAiTx 
 > Pourquoi ?
-> 1. Traduction unique utilisant un LLM de qualité premium et rend le résultat librement accessible à la communauté open source.
-> 2. Prise en charge du référencement multilingue Google/Bing, l'outil de traduction client ne le permet pas.
+> 1. Traduction unique à l'aide d'un LLM premium et mise à disposition gratuite pour la communauté open source.
+> 2. Prise en charge de la recherche SEO multilingue Google/Bing, ce qu'un outil de traduction côté client ne peut pas faire.
 > 3. Gratuit & Open Source pour toujours
-> 4. Soumettez une fois et mise à jour automatique à l'avenir, cela peut vous faire gagner du temps si vous êtes mainteneur de projet.
+> 4. Soumettre une fois et mise à jour automatique à l'avenir, cela peut vous faire gagner du temps si vous êtes mainteneur de projet.
 ```
 
 
@@ -155,30 +155,32 @@ Démo de la page https://openaitx.github.io/view.html?user=CherryHQ&project=cher
 ## Contribution informatique
 
 Si vous souhaitez contribuer au projet, tout ce que vous avez à faire est :
-Fork du projet → Cloner le projet → Choisir un script dans votre langue → Renseigner votre jeton IA → Lancer le script → Commit & push & créer une PR
+Forker le projet → Cloner le projet → Choisir un script dans votre langue → Renseigner votre jeton AI → Lancer le script → Commit & push & créer une PR
 
 > Remarque : **Veuillez ne pas télécharger vos jetons !**
 
 ### Remarques
 
-- Prend en charge uniquement le readme markdown de github.
+- Prend uniquement en charge les readme markdown GitHub.
 
 ## Autre
 
-- 10~30 min / par projet
-- 200~400 projets / une console par jour
-- Tous les 3~7 jours, mise à jour des projets existants (en fonction des ressources informatiques futures)
+- 10~30 min/projet
+- 200~400 projets/par console et par jour.
+- Mise à jour des projets existants tous les 3~7 jours (en fonction des ressources de calcul futures)
 
 
-### Remerciements
+## Remerciements
 
-- L’équipe Microsoft MVP fournit un budget de plateforme Azure open source de 150 USD/mois à la communauté.
+- L'équipe Microsoft MVP fournit un budget plateforme Azure open source de 150 USD/mois.
 
 
 
-### Plan futur
+## Plan futur
 
-- Prendre en charge la traduction automatique du wiki GitHub 
+- Prendre en charge la traduction automatique des wikis GitHub 
+- Prendre en charge la plateforme Gitee
+
 ```
 
 ---

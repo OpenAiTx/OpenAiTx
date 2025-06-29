@@ -127,9 +127,9 @@
 
 
 
-## Chia sẻ đóng góp
+## Chia sẻ Đóng góp
 
-Nếu bạn có thể giúp bằng cách gửi một PR đến dự án yêu thích của mình, điều này sẽ giúp quảng bá dự án của chúng tôi rất nhiều.
+Nếu bạn có thể giúp bằng cách gửi PR đến dự án yêu thích của mình, điều này sẽ giúp quảng bá dự án của chúng tôi rất nhiều.
 
 Ví dụ:
 
@@ -138,47 +138,48 @@ Tiêu đề:
 docs: thêm 20 liên kết ngôn ngữ cho README
 
 Nội dung:
-PR thêm liên kết 20 ngôn ngữ vào README và người dùng có thể dễ dàng truy cập READEME đã dịch, hỗ trợ SEO tìm kiếm đa ngôn ngữ google/bing.
+PR thêm 20 liên kết ngôn ngữ vào README và người dùng có thể dễ dàng truy cập README đã dịch, hỗ trợ tìm kiếm SEO đa ngôn ngữ google/bing.
 
 Trang demo https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
 
 > OpenAiTx https://github.com/OpenAiTx/OpenAiTx 
 > Tại sao?
-> 1. Dịch một lần bằng LLM cao cấp và cho phép cộng đồng mã nguồn mở truy cập miễn phí.
-> 2. Hỗ trợ SEO tìm kiếm đa ngôn ngữ Google/Bing, công cụ dịch phía khách hàng không làm được.
+> 1. Dịch một lần duy nhất bằng LLM cao cấp và giúp cộng đồng mã nguồn mở truy cập miễn phí.
+> 2. Hỗ trợ SEO đa ngôn ngữ Google/Bing, công cụ dịch phía client không thể làm được.
 > 3. Miễn phí & Mã nguồn mở mãi mãi 
-> 4. Gửi một lần và tự động cập nhật về sau, tiết kiệm thời gian cho bạn nếu bạn là người duy trì dự án.
+> 4. Gửi một lần và tự động cập nhật về sau, tiết kiệm thời gian nếu bạn là maintainer dự án.
 ```
 
 
 
-## Đóng góp tính toán 
+## Đóng góp Tính toán 
 
-Nếu bạn muốn đóng góp cho dự án, tất cả những gì bạn cần làm là:
-Fork dự án → Clone dự án → Chọn script ngôn ngữ của bạn → Điền token AI của bạn  → Chạy script → Commit & push & tạo PR
+Nếu bạn muốn đóng góp vào dự án, bạn chỉ cần:
+Fork dự án → Clone dự án → Chọn script ngôn ngữ của bạn → Điền token AI của bạn  → Chạy → Commit & push & tạo PR
 
 > Lưu ý: **Vui lòng không tải lên token của bạn!**
 
 ### Ghi chú
 
-- Chỉ hỗ trợ readme markdown trên github.
+- Chỉ hỗ trợ github markdown readme.
 
 ## Khác
 
 - 10~30 phút/ mỗi dự án
-- 200~400 dự án/mỗi console mỗi ngày.
-- Cứ mỗi 3~7 ngày sẽ cập nhật các dự án đã tồn tại (tùy thuộc vào tài nguyên tính toán trong tương lai)
+- 200~400 dự án/một console mỗi ngày.
+- Mỗi 3~7 ngày sẽ cập nhật các dự án đã có (tùy thuộc tài nguyên tính toán trong tương lai)
 
 
-### Cảm ơn
+## Cảm ơn
 
-- Đội ngũ Microsoft MVP tài trợ 150USD/tháng ngân sách nền tảng azure cho cộng đồng mã nguồn mở.
+- Đội ngũ Microsoft MVP cung cấp 150USD/tháng ngân sách nền tảng Azure cho cộng đồng mã nguồn mở.
 
 
 
-### Kế hoạch tương lai
+## Kế hoạch Tương lai
 
-- Hỗ trợ dịch tự động GitHub wiki 
+- Hỗ trợ tự động dịch GitHub wiki 
+- Hỗ trợ nền tảng Gitee
 ```
 
 ---

@@ -98,7 +98,6 @@
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
-```
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">ไทย</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a></p>
@@ -113,7 +112,7 @@
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">Türkçe</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">Tiếng Việt</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Bahasa Indonesia</a></p>
-</div>
+  </div>
 </div>
 </details>
 </div>
@@ -127,7 +126,7 @@
 
 
 
-## Bijdrage Delen
+## Delen van Bijdragen
 
 Als je zou kunnen helpen door een PR in te dienen bij je favoriete project, zou dat enorm helpen om ons project te promoten.
 
@@ -138,48 +137,48 @@ Titel:
 docs: voeg 20 taal-links toe aan README
 
 Inhoud:
-PR voegt 20 taallinks toe aan de README zodat gebruikers eenvoudig toegang hebben tot de vertaalde README. Ondersteunt google/bing SEO voor meerdere talen.
+PR voegt 20 taal-links toe aan de README zodat gebruikers eenvoudig de vertaalde README kunnen openen. Ondersteunt google/bing meertalige SEO-zoekopdrachten.
 
 Pagina demo https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
 
 > OpenAiTx https://github.com/OpenAiTx/OpenAiTx 
 > Waarom?
-> 1. Eenmalige vertaling met premium-grade LLM en maak het resultaat gratis toegankelijk voor de open source gemeenschap.
-> 2. Ondersteunt Google/Bing SEO voor meerdere talen, cliëntvertaalhulpmiddelen kunnen dit niet.
-> 3. Altijd gratis & open source
-> 4. Eén keer indienen en automatische toekomstige updates, bespaart tijd voor projectbeheerders.
+> 1. Eenmalige vertaling met premium LLM en maak het resultaat vrij toegankelijk voor de open-source community.
+> 2. Ondersteunt Google/Bing meertalige SEO-zoekopdrachten, een cliënt-vertalingstool kan dit niet.
+> 3. Altijd gratis & open source 
+> 4. Eenmalig indienen en automatische toekomstige updates, dit bespaart tijd als je projectbeheerder bent.
 ```
 
 
 
-## Bijdragen aan Computing 
+## Computing Bijdrage
 
-Als je wilt bijdragen aan het project, hoef je alleen maar:
-Project forken → Project clonen → Kies een script in jouw taal → Vul je AI-token in → Runnen → Commit & push & PR aanmaken
+Als je een bijdrage wilt leveren aan het project, hoef je alleen maar:
+Project forken → Project clonen → Kies een script in jouw taal → Vul je AI-token in  → Runnen → Committen & pushen & PR aanmaken
 
 > Opmerking: **Upload je tokens niet!**
 
-### Notities
+### Opmerkingen
 
-- Alleen ondersteuning voor github markdown readme.
+- Ondersteunt alleen github markdown readme.
 
 ## Overig
 
 - 10~30 min/ per project
 - 200~400 projecten/één console per dag.
-- Elke 3~7 dagen worden bestaande projecten bijgewerkt (afhankelijk van toekomstige computerbronnen)
+- Elke 3~7 dagen worden bestaande projecten bijgewerkt (afhankelijk van toekomstige rekenkracht)
 
 
-### Dank
+## Dankwoord
 
-- Microsoft MVP-team levert $150/maand open source community Azure platform budget.
+- Microsoft MVP-team verstrekt een budget van 150USD/maand voor het open source community azure platform.
 
 
 
-### Toekomstplan
+## Toekomstplannen
 
-- Ondersteuning voor automatische vertaling van GitHub wiki 
-```
+- Ondersteuning voor automatische vertaling van GitHub wiki
+- Ondersteuning voor Gitee-platform
 
 ---
 

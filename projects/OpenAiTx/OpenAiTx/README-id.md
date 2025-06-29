@@ -128,57 +128,57 @@
 
 ## Berbagi Kontribusi
 
-Jika Anda dapat membantu dengan mengirimkan PR ke proyek favorit Anda, itu akan sangat membantu mempromosikan proyek kami.
+Jika Anda bisa membantu dengan mengirimkan PR ke proyek favorit Anda, itu akan sangat membantu mempromosikan proyek kami.
 
 Contoh:
 
 ```
 Judul:
-docs: tambahkan 20 tautan bahasa pada README
+docs: tambah 20 tautan bahasa di README
 
-Konten:
-PR menambahkan 20 tautan bahasa ke README dan pengguna dapat dengan mudah mengakses README yang sudah diterjemahkan, mendukung pencarian SEO multibahasa google/bing.
+Isi:
+PR menambahkan 20 tautan bahasa ke README dan pengguna dapat dengan mudah mengakses README yang telah diterjemahkan, mendukung pencarian SEO multibahasa google/bing.
 
 Demo halaman https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
 
 > OpenAiTx https://github.com/OpenAiTx/OpenAiTx 
 > Mengapa?
-> 1. Sekali terjemah menggunakan LLM premium dan membuat hasilnya dapat diakses bebas untuk komunitas open-source.
-> 2. Mendukung pencarian SEO multibahasa Google/Bing, alat terjemahan klien tidak dapat melakukannya.
-> 3. Gratis & Sumber Terbuka selamanya 
-> 4. Submit satu kali dan otomatis update di masa depan, dapat menghemat waktu Anda jika Anda seorang maintainer proyek.
+> 1. Sekali terjemahan menggunakan LLM kelas premium dan hasilnya dapat diakses gratis oleh komunitas open-source.
+> 2. Mendukung pencarian SEO multibahasa Google/Bing, alat terjemah klien tidak dapat melakukannya.
+> 3. Gratis & Open Source selamanya 
+> 4. Submit sekali dan pembaruan otomatis di masa depan, dapat menghemat waktu Anda jika Anda maintainer proyek.
 ```
 
 
 
 ## Kontribusi Komputasi 
 
-Jika Anda ingin berkontribusi pada proyek ini, yang perlu Anda lakukan hanyalah:
+Jika Anda ingin berkontribusi dalam proyek ini, yang perlu Anda lakukan adalah:
 Fork proyek → Clone proyek → Pilih skrip dalam bahasa Anda → Isi token AI Anda → Jalankan → Commit & push & buat PR
 
-> Catatan: **Mohon jangan mengunggah token Anda!**
+> Catatan: **Jangan mengunggah token Anda!**
 
 ### Catatan
 
 - Hanya mendukung github markdown readme.
 
-## Lainnya
+## Lain-lain
 
 - 10~30 menit/ per proyek
 - 200~400 proyek/satu konsol per hari.
-- Setiap 3~7 hari akan memperbarui proyek yang sudah ada (tergantung pada sumber daya komputasi di masa depan)
+- Setiap 3~7 hari akan memperbarui proyek yang sudah ada (tergantung sumber daya komputasi di masa depan)
 
 
-### Terima kasih
+## Terima Kasih
 
-- Tim Microsoft MVP memberikan dana platform azure komunitas open source sebesar 150USD/Bulan.
+- Tim Microsoft MVP menyediakan anggaran platform azure komunitas open source sebesar 150USD/Bulan.
 
 
 
-### Rencana ke depan
+## Rencana Masa Depan
 
 - Mendukung terjemahan otomatis wiki GitHub 
-
+- Mendukung platform Gitee
 
 ---
 

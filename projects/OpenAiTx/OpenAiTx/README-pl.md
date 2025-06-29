@@ -113,7 +113,7 @@
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">Türkçe</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">Tiếng Việt</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Bahasa Indonesia</a></p>
-  </div>
+</div>
 </div>
 </details>
 </div>
@@ -124,53 +124,54 @@
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
-## Udostępnianie wkładu
+## Współdzielenie wkładu
 
-Jeśli możesz pomóc, zgłaszając PR do swojego ulubionego projektu, znacznie przyczyni się to do promocji naszego projektu.
+Jeśli możesz pomóc, zgłaszając PR do swojego ulubionego projektu, bardzo pomoże to w promocji naszego projektu.
 
 Przykład:
 
 ```
 Tytuł:
-docs: dodano 20 linków językowych do README
+docs: dodano 20 linków językowych w README
 
 Treść:
-PR dodaje 20 linków językowych do README, dzięki czemu użytkownik może łatwo uzyskać dostęp do przetłumaczonego README, wspiera wyszukiwanie SEO wielu języków w google/bing.
+PR dodaje 20 linków językowych do README, dzięki czemu użytkownik może łatwo uzyskać dostęp do przetłumaczonego README, wspiera wielojęzyczne SEO Google/Bing.
 
 Demo strony https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
 
 > OpenAiTx https://github.com/OpenAiTx/OpenAiTx 
 > Dlaczego?
-> 1. Jednorazowe tłumaczenie za pomocą wysokiej jakości LLM i udostępnienie wyniku całej społeczności open-source.
-> 2. Wsparcie SEO dla wielu języków Google/Bing, narzędzie tłumaczenia po stronie klienta tego nie zapewni.
-> 3. Darmowe i otwarte źródło na zawsze
-> 4. Jednorazowe zgłoszenie i automatyczna aktualizacja w przyszłości, co pozwala oszczędzić czas, jeśli jesteś opiekunem projektu.
+> 1. Jednorazowe tłumaczenie za pomocą najwyższej klasy LLM i udostępnienie wyniku otwartej społeczności open source.
+> 2. Wsparcie dla wielojęzycznego SEO Google/Bing, narzędzia tłumaczące po stronie klienta tego nie zapewniają.
+> 3. Darmowy i otwarty na zawsze 
+> 4. Zgłaszasz tylko raz i automatycznie aktualizuje się w przyszłości, co pozwala zaoszczędzić czas, jeśli jesteś maintainerem projektu.
 ```
 
 ## Wkład obliczeniowy
 
-Jeśli chcesz mieć wkład w projekt, wszystko co musisz zrobić to:
-Forkuj projekt → Sklonuj projekt → Wybierz skrypt w swoim języku → Wstaw swój token AI → Uruchom → Zatwierdź & wypchnij & utwórz PR
+Jeśli chcesz wnieść wkład w projekt, wszystko co musisz zrobić to:
+Forkuj projekt → Sklonuj projekt → Wybierz skrypt w swoim języku → Wstaw swój token AI → Uruchom go → Commit & push & utwórz PR
 
-> Uwaga: **Proszę nie przesyłać swoich tokenów!**
+> Uwaga: **Nie przesyłaj swoich tokenów!**
 
 ### Uwagi
 
-- Wspierany jest tylko plik README w formacie markdown na githubie.
+- Obsługiwane są tylko pliki README w formacie markdown na githubie.
 
 ## Inne
 
 - 10~30 min/projekt
 - 200~400 projektów/jedna konsola dziennie.
-- Co 3~7 dni aktualizowane są istniejące projekty (w zależności od przyszłych zasobów obliczeniowych)
+- Co 3~7 dni aktualizujemy istniejące projekty (w zależności od przyszłych zasobów obliczeniowych)
 
-### Podziękowania
+## Podziękowania
 
-- Zespół Microsoft MVP zapewnia 150USD/miesiąc budżetu platformy Azure dla społeczności open source.
+- Zespół Microsoft MVP zapewnia budżet 150USD/miesiąc na platformę Azure dla społeczności open source.
 
-### Plany na przyszłość
+## Plany na przyszłość
 
 - Wsparcie automatycznego tłumaczenia wiki GitHub
+- Wsparcie platformy Gitee
 ```
 
 ---

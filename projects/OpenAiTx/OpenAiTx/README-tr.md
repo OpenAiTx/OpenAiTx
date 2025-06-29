@@ -134,29 +134,29 @@ Favori projenize bir PR göndererek yardımcı olursanız, projemizin tanıtım�
 
 ```
 Başlık:
-docs: README'nin 20 dil bağlantısı eklendi
+docs: README'nin 20 dil bağlantısını ekle
 
 İçerik:
-PR, README'ye 20 dil bağlantısı ekler ve kullanıcılar çevrilmiş READEME'ye kolayca erişebilir, google/bing çoklu dil SEO aramasını destekler.
+PR, README'ye 20 dil bağlantısı ekler ve kullanıcı çevrilmiş README'ye kolayca erişebilir, google/bing çoklu dil SEO aramasını destekler.
 
 Sayfa demosu https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
 
 > OpenAiTx https://github.com/OpenAiTx/OpenAiTx 
 > Neden?
-> 1. Premium düzeyde LLM kullanılarak tek seferlik çeviri ve sonuçların açık kaynak topluluğuna ücretsiz erişimi.
+> 1. Premium düzeyde LLM ile tek seferlik çeviri ve sonucu açık kaynak topluluğuna ücretsiz erişilebilir yapmak.
 > 2. Google/Bing çoklu dil SEO aramasını destekler, istemci çeviri aracı bunu yapamaz.
-> 3. Sonsuza kadar Ücretsiz & Açık Kaynak 
-> 4. Bir kez gönderin ve gelecekte otomatik güncellensin, eğer proje yöneticisiyseniz zaman kazandırır.
+> 3. Sonsuza dek Ücretsiz & Açık Kaynak 
+> 4. Bir kez gönder ve gelecekte otomatik güncelle, eğer bir proje sorumlusuysan zaman kazandırır.
 ```
 
 
 
-## Hesaplama Katkısı
+## Hesaplama Katkısı 
 
-Projede katkıda bulunmak isterseniz yapmanız gerekenler:
-Projeyi Fork’layın → Projeyi Klonlayın → Dilinizde bir script seçin → AI tokenınızı girin → Çalıştırın → Commit & push & PR oluşturun
+Projeye katkı yapmak isterseniz, yapmanız gerekenler şunlardır:
+Projeyi çatallayın → Projeyi klonlayın → Kendi dilinizde bir betik seçin → AI tokeninizi girin → Çalıştırın → Commit & push & PR oluşturun
 
-> Not: **Lütfen tokenlarınızı yüklemeyin!**
+> Not: **Lütfen tokenlerinizi yüklemeyin!**
 
 ### Notlar
 
@@ -164,20 +164,21 @@ Projeyi Fork’layın → Projeyi Klonlayın → Dilinizde bir script seçin →
 
 ## Diğer
 
-- 10~30 dakika/proje başına
-- 200~400 proje/günlük bir konsol üzerinden.
-- Mevcut projeler her 3~7 günde bir güncellenir (gelecekteki hesaplama kaynaklarına bağlı olarak)
+- 10~30 dk/proje başına
+- 200~400 proje/gün başına bir konsolda.
+- Her 3~7 günde bir mevcut projeler güncellenir (gelecekteki hesaplama kaynaklarına bağlı olarak)
 
 
-### Teşekkürler
+## Teşekkürler
 
-- Microsoft MVP ekibi, açık kaynak topluluğu için aylık 150USD Azure platform bütçesi sağlamaktadır.
+- Microsoft MVP ekibi, açık kaynak topluluğu Azure platformu için aylık 150USD bütçe sağlamaktadır.
 
 
 
-### Gelecek planı
+## Gelecek Planı
 
-- GitHub wiki otomatik çeviri desteği
+- GitHub wiki otomatik çeviri desteği 
+- Gitee platformu desteği
 
 ---
 

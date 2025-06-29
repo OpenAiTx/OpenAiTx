@@ -98,6 +98,7 @@
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
+```
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">ไทย</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a></p>
@@ -117,18 +118,15 @@
 </details>
 </div>
 
-
 ### Video dimostrativo
 
 <a href="https://github.com/user-attachments/assets/a1370023-8924-4d40-9f18-979a334e934d"> 
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
-
-
 ## Condivisione dei contributi
 
-Se puoi aiutare inviando una PR al tuo progetto preferito, sarebbe di grande aiuto per promuovere il nostro progetto.
+Se puoi aiutare inviando una PR al tuo progetto preferito, aiuterà notevolmente a promuovere il nostro progetto.
 
 Esempio:
 
@@ -137,47 +135,44 @@ Titolo:
 docs: aggiungi 20 link delle lingue al README
 
 Contenuto:
-La PR aggiunge 20 link delle lingue al README e l’utente può facilmente accedere al README tradotto, supportando la ricerca SEO multilingue su google/bing.
+La PR aggiunge 20 link di lingue al README e l'utente può facilmente accedere al README tradotto, supporta la ricerca SEO multilingue google/bing.
 
-Pagina demo https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
+Demo della pagina https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
 
 > OpenAiTx https://github.com/OpenAiTx/OpenAiTx 
 > Perché?
-> 1. Traduzione una tantum utilizzando LLM di livello premium e rendendo il risultato liberamente accessibile alla comunità open source.
-> 2. Supporta la ricerca SEO multilingue su Google/Bing, cosa che lo strumento di traduzione client non può fare.
-> 3. Gratuito e Open Source per sempre 
-> 4. Invia una sola volta e aggiornamento automatico in futuro, può farti risparmiare tempo se sei un maintainer di progetto.
+> 1. Traduzione una tantum utilizzando LLM di livello premium e rendere il risultato liberamente accessibile alla comunità open source.
+> 2. Supporto alla ricerca SEO multilingue Google/Bing, lo strumento di traduzione client non può farlo.
+> 3. Gratuito & Open Source per sempre
+> 4. Invia una volta e aggiorna automaticamente in futuro, può farti risparmiare tempo se sei un maintainer di progetto.
 ```
 
+## Contributo computazionale
 
-
-## Contributo di calcolo
-
-Se vuoi contribuire al progetto, tutto ciò che devi fare è:
+Se desideri contribuire al progetto, tutto ciò che devi fare è:
 Fork del progetto → Clona il progetto → Scegli uno script nella tua lingua → Inserisci il tuo token AI → Eseguilo → Commit & push & crea una PR
 
 > Nota: **Si prega di non caricare i propri token!**
 
 ### Note
 
-- Supporta solo il readme markdown di GitHub.
+- Supporta solo README markdown di GitHub.
 
 ## Altro
 
-- 10~30 minuti/progetto
-- 200~400 progetti/una console al giorno.
-- Ogni 3~7 giorni verranno aggiornati i progetti esistenti (a seconda delle risorse di calcolo future)
+- 10~30 minuti / per progetto
+- 200~400 progetti / una console al giorno.
+- Ogni 3~7 giorni verranno aggiornati i progetti esistenti (a seconda delle risorse computazionali future)
 
+## Ringraziamenti
 
-### Ringraziamenti
+- Il team Microsoft MVP fornisce un budget mensile di 150USD per la piattaforma azure della comunità open source.
 
-- Il team Microsoft MVP fornisce un budget di 150USD/mese per la piattaforma Azure della community open source.
+## Piani futuri
 
-
-
-### Piani futuri
-
-- Supporto traduzione automatica wiki di GitHub
+- Supporto per la traduzione automatica del wiki di GitHub
+- Supporto per la piattaforma Gitee
+```
 
 ---
 

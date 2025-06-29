@@ -128,56 +128,57 @@
 
 ## Beitrag teilen
 
-Wenn du helfen kannst, indem du einen PR zu deinem Lieblingsprojekt einreichst, würde das unser Projekt sehr fördern.
+Wenn Sie helfen könnten, indem Sie einen PR zu Ihrem Lieblingsprojekt einreichen, würde dies unser Projekt erheblich fördern.
 
 Beispiel:
 
 ```
 Titel:
-docs: füge 20 Sprachlinks zur README hinzu
+docs: füge 20 Sprachlinks zum README hinzu
 
 Inhalt:
-PR fügt 20 Sprachlinks zur README hinzu, sodass Benutzer einfach auf die übersetzten READEMEs zugreifen können. Unterstützt Google/Bing Mehrsprachen-SEO-Suche.
+PR fügt 20 Sprachlinks zum README hinzu, und der Nutzer kann leicht auf das übersetzte README zugreifen. Unterstützt Google/Bing Multi-Language SEO-Suche.
 
 Seiten-Demo https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
 
 > OpenAiTx https://github.com/OpenAiTx/OpenAiTx 
 > Warum?
-> 1. Einmalige Übersetzung mit Premium-LLM und das Ergebnis ist für die Open-Source-Community frei zugänglich.
-> 2. Unterstützung für Google/Bing Mehrsprachen-SEO-Suche, Client-Übersetzungstools können das nicht.
+> 1. Einmalige Übersetzung mit Premium-LLM und macht das Ergebnis für die Open-Source-Community frei zugänglich.
+> 2. Unterstützung von Google/Bing Multi-Language SEO-Suche, Client-Übersetzungstools können das nicht.
 > 3. Für immer kostenlos & Open Source 
-> 4. Einmal einreichen und automatische Updates in der Zukunft, das spart Zeit für Projektbetreuer.
+> 4. Einmal einreichen und zukünftige Updates laufen automatisch, spart Zeit für Maintainer.
 ```
 
 
 
-## Beitrag zum Computing
+## Rechnerischer Beitrag 
 
-Wenn du im Projekt beitragen möchtest, musst du nur Folgendes tun:
-Projekt forken → Projekt klonen → Wähle ein Skript in deiner Sprache → Trage deinen AI-Token ein → Führe es aus → Commit & Push & PR erstellen
+Wenn Sie zum Projekt beitragen möchten, müssen Sie nur Folgendes tun:
+Projekt forken → Projekt klonen → Ein Skript in Ihrer Sprache auswählen → Ihren AI-Token eintragen → Ausführen → Commit & Push & PR erstellen
 
-> Hinweis: **Bitte lade deine Tokens NICHT hoch!**
+> Hinweis: **Bitte laden Sie Ihre Tokens NICHT hoch!**
 
 ### Hinweise
 
-- Nur Unterstützung für Github Markdown-README.
+- Unterstützt nur GitHub Markdown README.
 
 ## Sonstiges
 
 - 10~30 Minuten/pro Projekt
-- 200~400 Projekte/pro Konsole pro Tag
-- Alle 3~7 Tage werden bestehende Projekte aktualisiert (abhängig von zukünftigen Computing-Ressourcen)
+- 200~400 Projekte/eine Konsole pro Tag.
+- Alle 3~7 Tage werden bestehende Projekte aktualisiert (abhängig von zukünftigen Rechenressourcen)
 
 
-### Dank
+## Dank
 
-- Das Microsoft MVP-Team stellt 150 USD/Monat für die Open-Source-Community auf der Azure-Plattform zur Verfügung.
+- Das Microsoft MVP-Team stellt 150 USD/Monat Azure-Budget für die Open-Source-Community bereit.
 
 
 
-### Zukunftsplan
+## Zukunftspläne
 
-- Unterstützung für automatische Übersetzung des GitHub-Wikis
+- Unterstützung für automatische Übersetzung von GitHub-Wikis
+- Unterstützung für die Gitee-Plattform
 
 ---
 

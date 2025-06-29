@@ -99,7 +99,7 @@
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">Korean</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">Hindi</a></p>
 ```markdown
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">Thai</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">ไทย</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a></p>
@@ -113,9 +113,9 @@
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">Türkçe</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">Tiếng Việt</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Bahasa Indonesia</a></p>
-      </div>
-    </div>
-  </details>
+  </div>
+</div>
+</details>
 </div>
 
 
@@ -129,7 +129,7 @@
 
 ## Sharing Contribution
 
-If you could help by submitting a PR to your favorite project, it would greatly help promote our project.
+If you can help by submitting a PR to your favorite project, it will greatly help promote our project.
 
 Example:
 
@@ -138,49 +138,50 @@ Title:
 docs: add 20 language links of README
 
 Content:
-PR adds 20 languages link to the README and user can easily to access translated READEME, supports google/bing multiple languages SEO search.
+PR adds 20 language links to the README, allowing users to easily access translated READMEs, supporting Google/Bing multi-language SEO search.
 
 Page demo https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
 
 > OpenAiTx https://github.com/OpenAiTx/OpenAiTx 
 > Why?
 > 1. One-time translation using premium-grade LLM and make the result freely accessible to the open-source community.
-> 2. Support Google/Bing multiple languages SEO search, client translate tool can't do it.
+> 2. Supports Google/Bing multi-language SEO search, which client-side translation tools cannot do.
 > 3. Free & Open Source forever 
-> 4. Submit one time and auto-update future, it can save your time if you're a project maintainer.
+> 4. Submit once and auto-update in the future, saving your time if you're a project maintainer.
 ```
 
 
 
 ## Computing Contribution 
 
-If you would like to have a contribution in the project, all you need to do is:
-Fork project → Clone project → Choose a script in your language → Fill in your AI token  → Run it → Commit & push & create a PR
+If you would like to contribute to the project, all you need to do is:
+Fork the project → Clone the project → Choose a script in your language → Fill in your AI token → Run it → Commit & push & create a PR
 
 > Note: **Please do not upload your tokens!**
 
 ### Notes
 
-- Only support github markdown readme.
+- Only GitHub markdown README is supported.
 
 ## Other
 
 - 10~30 mins/ per project
 - 200~400 projects/one console per day.
-- Every 3~7 days will update exist projects (depending future computing resources)
+- Every 3~7 days, existing projects will be updated (depending on future computing resources)
 
 
-### Thanks
+## Thanks
 
-- Microsoft MVP team provides 150USD/Month open source community azure platform budget.
+- The Microsoft MVP team provides a $150 USD/month Azure platform budget for the open source community.
 
 
 
-### Future plan
+## Future plan
 
-- Support GitHub wiki auto translation 
+- Support GitHub wiki auto-translation 
+- Support Gitee platform
+
 ```
-
 
 ---
 
