@@ -51,7 +51,8 @@
 
 ## Get Started
 
-Replace URL `GitHub` by `OpenAiTx`, e.g. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx .
+1. Replace URL `GitHub` by `OpenAiTx`, e.g. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+2. Click and copy the style badges or text you like, system will auto create PR for the project after indexed.
 
 ## Example
 
