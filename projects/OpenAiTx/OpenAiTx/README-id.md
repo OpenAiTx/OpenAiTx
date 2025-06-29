@@ -33,26 +33,27 @@
 
 
 <div align="center">
- Bintang <a href="https://github.com/OpenAiTx/OpenAiTx">Anda</a>  dapat membuat Open Ai Tx menjadi lebih baik
+ Bintang <a href="https://github.com/OpenAiTx/OpenAiTx">Anda</a> dapat membuat Open Ai Tx menjadi lebih baik
 </div>
 
 
 ## Pendahuluan
 
-**OpenAiTx** adalah alat terjemahan otomatis 20 bahasa untuk readme proyek GitHub Anda.
+**OpenAiTx** adalah alat terjemahan otomatis 20 bahasa untuk file readme proyek GitHub Anda.
 
 ## Mengapa?
 
-1. Terjemahan satu kali menggunakan LLM kelas premium dan membuat hasilnya dapat diakses bebas oleh komunitas open source.
-2. Mendukung pencarian SEO multi-bahasa Google/Bing, alat terjemahan klien tidak dapat melakukannya.
-3. Gratis & Sumber Terbuka selamanya 
-4. Submit satu kali dan auto-update ke depannya, bisa menghemat waktu Anda jika Anda adalah maintainer proyek.
+1. Terjemahan satu kali menggunakan LLM kelas premium dan membuat hasilnya dapat diakses secara gratis oleh komunitas open source.
+2. Mendukung pencarian SEO multibahasa Google/Bing, alat terjemahan klien tidak dapat melakukannya.
+3. Gratis & Sumber Terbuka selamanya
+4. Submit satu kali dan pembaruan otomatis di masa mendatang, ini dapat menghemat waktu Anda jika Anda seorang maintainer proyek.
 
 
 ## Mulai
 
-1. Ganti URL `GitHub` menjadi `OpenAiTx`, misal https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
-2. Klik dan salin gaya badge atau teks yang Anda suka, sistem akan otomatis membuat PR untuk proyek setelah terindeks.
+1. Ganti URL `GitHub` dengan `OpenAiTx`, misal https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+
+2. Klik dan salin gaya badge atau teks yang Anda sukai.
 
 ## Contoh
 
@@ -97,7 +98,7 @@
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">繁體中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">ไทย</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a></p>
@@ -118,55 +119,30 @@
 </div>
 
 
-### Demo Video
+## Video Demo
 
 <a href="https://github.com/user-attachments/assets/a1370023-8924-4d40-9f18-979a334e934d"> 
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
 
-
-## Berbagi Kontribusi
-
-Jika Anda bisa membantu dengan mengirimkan PR ke proyek favorit Anda, itu akan sangat membantu mempromosikan proyek kami.
-
-Contoh:
-
-```
-Judul:
-docs: tambah 20 tautan bahasa di README
-
-Isi:
-PR menambahkan 20 tautan bahasa ke README dan pengguna dapat dengan mudah mengakses README yang telah diterjemahkan, mendukung pencarian SEO multibahasa google/bing.
-
-Demo halaman https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
-
-> OpenAiTx https://github.com/OpenAiTx/OpenAiTx 
-> Mengapa?
-> 1. Sekali terjemahan menggunakan LLM kelas premium dan hasilnya dapat diakses gratis oleh komunitas open-source.
-> 2. Mendukung pencarian SEO multibahasa Google/Bing, alat terjemah klien tidak dapat melakukannya.
-> 3. Gratis & Open Source selamanya 
-> 4. Submit sekali dan pembaruan otomatis di masa depan, dapat menghemat waktu Anda jika Anda maintainer proyek.
-```
-
-
-
 ## Kontribusi Komputasi 
 
-Jika Anda ingin berkontribusi dalam proyek ini, yang perlu Anda lakukan adalah:
+Jika Anda ingin berkontribusi pada proyek ini, yang perlu Anda lakukan adalah:
 Fork proyek → Clone proyek → Pilih skrip dalam bahasa Anda → Isi token AI Anda → Jalankan → Commit & push & buat PR
 
 > Catatan: **Jangan mengunggah token Anda!**
 
-### Catatan
+## Catatan
 
-- Hanya mendukung github markdown readme.
+- Hanya mendukung readme markdown github.
+- Jika Anda pemilik proyek atau pengembang inti, Anda dapat mengautentikasi akun github untuk membuat PR otomatis setelah diindeks.
 
-## Lain-lain
+## Lainnya
 
 - 10~30 menit/ per proyek
 - 200~400 proyek/satu konsol per hari.
-- Setiap 3~7 hari akan memperbarui proyek yang sudah ada (tergantung sumber daya komputasi di masa depan)
+- Setiap 3~7 hari akan memperbarui proyek yang sudah ada (tergantung pada sumber daya komputasi di masa depan)
 
 
 ## Terima Kasih

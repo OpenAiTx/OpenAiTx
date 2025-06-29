@@ -39,28 +39,29 @@
 
 ## Introduction
 
-**OpenAiTx** is a 20-language automatic translation tool for your GitHub project readme.
+**OpenAiTx** is an auto-translation tool for your GitHub project readme supporting 20 languages.
 
 ## Why?
 
 1. One-time translation using premium-grade LLM and make the result freely accessible to the open-source community.
-2. Supports Google/Bing multi-language SEO search, which client translation tools cannot do.
+2. Supports SEO search in multiple languages (Google/Bing); client-side translation tools can't do this.
 3. Free & Open Source forever
-4. Submit once and auto-update in the future, saving you time if you are a project maintainer.
+4. Submit once and auto-update in the future, saving time for project maintainers.
 
 
 ## Get Started
 
 1. Replace the URL `GitHub` with `OpenAiTx`, e.g. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
-2. Click and copy the style badges or text you like, the system will automatically create a PR for the project after indexing.
+
+2. Click and copy the style badges or text you like.
 
 ## Example
 
-### Style Option1:
+### Style Option 1:
 
 <div style="text-align: center"><p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi"><img src="https://img.shields.io/badge/हिन्दी-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa"><img src="https://img.shields.io/badge/فارسی-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id"><img src="https://img.shields.io/badge/Bahasa Indonesia-white" alt="version"></a> </p></div>
 
-### Style Option2:
+### Style Option 2:
 
 <p align="center">
   <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">English</a> |
@@ -85,7 +86,7 @@
   <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Indonesian</a>
 </p>
 
-### Style Option3:
+### Style Option 3:
 
 <div align="right" >
   <details>
@@ -97,59 +98,33 @@
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">Traditional Chinese</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">Japanese</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">Korean</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">Hindi</a></p>
 ```markdown
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">ไทย</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl">Polski</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar">العربية</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa">فارسی</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">Türkçe</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">Tiếng Việt</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">Hindi</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">Thai</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">French</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">German</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Spanish</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italian</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Russian</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Portuguese</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Dutch</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl">Polish</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar">Arabic</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa">Persian</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">Turkish</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">Vietnamese</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Bahasa Indonesia</a></p>
-  </div>
-</div>
-</details>
+      </div>
+    </div>
+  </details>
 </div>
 
 
-### Demo Video
+## Demo Video
 
 <a href="https://github.com/user-attachments/assets/a1370023-8924-4d40-9f18-979a334e934d"> 
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
-
-
-
-## Sharing Contribution
-
-If you can help by submitting a PR to your favorite project, it will greatly help promote our project.
-
-Example:
-
-```
-Title:
-docs: add 20 language links of README
-
-Content:
-PR adds 20 language links to the README, allowing users to easily access translated READMEs, supporting Google/Bing multi-language SEO search.
-
-Page demo https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
-
-> OpenAiTx https://github.com/OpenAiTx/OpenAiTx 
-> Why?
-> 1. One-time translation using premium-grade LLM and make the result freely accessible to the open-source community.
-> 2. Supports Google/Bing multi-language SEO search, which client-side translation tools cannot do.
-> 3. Free & Open Source forever 
-> 4. Submit once and auto-update in the future, saving your time if you're a project maintainer.
-```
-
 
 
 ## Computing Contribution 
@@ -159,26 +134,27 @@ Fork the project → Clone the project → Choose a script in your language → 
 
 > Note: **Please do not upload your tokens!**
 
-### Notes
+## Notes
 
-- Only GitHub markdown README is supported.
+- Only supports GitHub markdown readme.
+- If you are a project owner or core developer, you can authenticate your GitHub account to auto-create PR after indexing.
 
 ## Other
 
 - 10~30 mins/ per project
 - 200~400 projects/one console per day.
-- Every 3~7 days, existing projects will be updated (depending on future computing resources)
+- Every 3~7 days will update existing projects (depending on future computing resources)
 
 
 ## Thanks
 
-- The Microsoft MVP team provides a $150 USD/month Azure platform budget for the open source community.
+- Microsoft MVP team provides $150 USD/month open source community Azure platform budget.
 
 
 
 ## Future plan
 
-- Support GitHub wiki auto-translation 
+- Support GitHub wiki auto translation 
 - Support Gitee platform
 
 ```

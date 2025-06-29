@@ -52,7 +52,8 @@
 ## Get Started
 
 1. Replace URL `GitHub` by `OpenAiTx`, e.g. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
-2. Click and copy the style badges or text you like, system will auto create PR for the project after indexed.
+
+2. Click and copy the style badges or text you like.
 
 ## Example
 
@@ -118,37 +119,11 @@
 </div>
 
 
-### Demo Video
+## Demo Video
 
 <a href="https://github.com/user-attachments/assets/a1370023-8924-4d40-9f18-979a334e934d"> 
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
-
-
-
-## Sharing Contribution
-
-If you could help by submitting a PR to your favorite project, it would greatly help promote our project.
-
-Example:
-
-```
-Title:
-docs: add 20 language links of README
-
-Content:
-PR adds 20 languages link to the README and user can easily to access translated READEME, supports google/bing multiple languages SEO search.
-
-Page demo https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
-
-> OpenAiTx https://github.com/OpenAiTx/OpenAiTx 
-> Why?
-> 1. One-time translation using premium-grade LLM and make the result freely accessible to the open-source community.
-> 2. Support Google/Bing multiple languages SEO search, client translate tool can't do it.
-> 3. Free & Open Source forever 
-> 4. Submit one time and auto-update future, it can save your time if you're a project maintainer.
-```
-
 
 
 ## Computing Contribution 
@@ -158,9 +133,10 @@ Fork project → Clone project → Choose a script in your language → Fill in 
 
 > Note: **Please do not upload your tokens!**
 
-### Notes
+## Notes
 
 - Only support github markdown readme.
+- If you are project owner or core developer, you can auth github account to auto-create PR after indexed.
 
 ## Other
 

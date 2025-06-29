@@ -33,26 +33,27 @@
 
 
 <div align="center">
- نجمك على <a href="https://github.com/OpenAiTx/OpenAiTx">GitHub</a>  يمكن أن يجعل Open Ai Tx أفضل
+ نجمتك على <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a>  يمكن أن تجعل Open Ai Tx أفضل
 </div>
 
 
 ## المقدمة
 
-**OpenAiTx** أداة ترجمة تلقائية لـ 20 لغة لملف README الخاص بمشروعك على GitHub.
+**OpenAiTx** أداة ترجمة تلقائية لملفات readme لمشاريع GitHub تدعم 20 لغة.
 
 ## لماذا؟
 
-1. ترجمة لمرة واحدة باستخدام نموذج لغوي كبير عالي الجودة وجعل النتيجة متاحة بحرية لمجتمع المصادر المفتوحة.
-2. دعم البحث في Google/Bing SEO متعدد اللغات، أداة الترجمة العميلة لا يمكنها ذلك.
-3. مجاني ومفتوح المصدر للأبد
-4. قدم مرة واحدة وسيتم التحديث تلقائيًا مستقبلاً، سيوفر وقتك إذا كنت مشرف مشروع.
+1. ترجمة لمرة واحدة باستخدام نماذج لغوية كبيرة عالية الجودة وجعل النتيجة متاحة مجانًا لمجتمع المصادر المفتوحة.
+2. دعم البحث عبر Google/Bing لعدة لغات وتهيئة SEO، وهو ما لا تستطيع أدوات الترجمة العميلية فعله.
+3. مجانية ومفتوحة المصدر دائمًا 
+4. إرسال لمرة واحدة وتحديث تلقائي مستقبليًا، مما يوفر وقتك إذا كنت مسؤولًا عن المشروع.
 
 
-## ابدأ الآن
+## البدء
 
-1. استبدل عنوان URL `GitHub` بـ `OpenAiTx`، مثال https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
-2. انقر ونسخ شارة النمط أو النص الذي تفضله، سيقوم النظام تلقائيًا بإنشاء PR للمشروع بعد الفهرسة.
+1. استبدل رابط `GitHub` بـ `OpenAiTx`، مثال: https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+
+2. انقر و انسخ شارات النمط أو النص الذي تفضله.
 
 ## مثال
 
@@ -97,7 +98,7 @@
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">繁體中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">ไทย</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a></p>
@@ -117,60 +118,45 @@
 </details>
 </div>
 
-### فيديو توضيحي
+
+## فيديو توضيحي
 
 <a href="https://github.com/user-attachments/assets/a1370023-8924-4d40-9f18-979a334e934d"> 
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
-## مشاركة المساهمة
 
-إذا استطعت المساعدة من خلال إرسال PR إلى مشروعك المفضل، سيساعد ذلك كثيرًا في الترويج لمشروعنا.
+## المساهمة بالحوسبة 
 
-مثال:
+إذا كنت ترغب في المساهمة في المشروع، كل ما عليك فعله هو:
+تفرع المشروع → استنساخ المشروع → اختر سكربت بلغتك → أدخل رمز AI الخاص بك → شغّل السكربت → قم بعمل commit وادفع التغييرات وأنشئ PR
 
-```
-العنوان:
-docs: إضافة روابط 20 لغة إلى ملف README
+> ملاحظة: **يرجى عدم رفع رموزك السرية!**
 
-المحتوى:
-يضيف PR روابط لـ20 لغة في ملف README ويمكن للمستخدم الوصول بسهولة إلى README المترجم، ويدعم البحث متعدد اللغات في Google/Bing SEO.
+## ملاحظات
 
-تجربة الصفحة https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
-
-> OpenAiTx https://github.com/OpenAiTx/OpenAiTx 
-> لماذا؟
-> 1. ترجمة لمرة واحدة باستخدام LLM عالي الجودة وإتاحة النتيجة مجانًا لمجتمع المصادر المفتوحة.
-> 2. دعم البحث متعدد اللغات في Google/Bing SEO، أداة الترجمة المحلية لا يمكنها ذلك.
-> 3. مجاني ومفتوح المصدر للأبد
-> 4. أرسل مرة واحدة وسيتم التحديث تلقائيًا مستقبلاً، سيوفر وقتك إذا كنت مسؤول مشروع.
-```
-
-## المساهمة بالحوسبة
-
-إذا رغبت في المساهمة بالمشروع، كل ما عليك فعله هو:
-تفرع المشروع → استنساخ المشروع → اختر سكريبت بلغتك → أدخل رمز AI الخاص بك → نفذ السكريبت → قم بعمل commit & push وأنشئ PR
-
-> ملاحظة: **يرجى عدم رفع رموزك الخاصة!**
-
-### ملاحظات
-
-- يدعم فقط ملفات README بنمط markdown على github.
+- يدعم فقط قراءة ملفات markdown على GitHub.
+- إذا كنت مالك المشروع أو مطورًا أساسيًا، يمكنك توثيق حساب GitHub لإنشاء PR تلقائيًا بعد الفهرسة.
 
 ## أخرى
 
-- 10~30 دقيقة/ لكل مشروع
-- 200~400 مشروع/ لكل وحدة تحكم يومياً
-- تحديث المشاريع الحالية كل 3~7 أيام (حسب موارد الحوسبة مستقبلاً)
+- 10~30 دقيقة لكل مشروع
+- 200~400 مشروع/لكل وحدة تحكم يوميًا.
+- سيتم تحديث المشاريع الحالية كل 3~7 أيام (اعتمادًا على موارد الحوسبة المستقبلية)
+
 
 ## الشكر
 
-- فريق Microsoft MVP يوفر ميزانية منصة Azure للمجتمع مفتوح المصدر بقيمة 150 دولار شهرياً.
+- فريق Microsoft MVP يوفر ميزانية منصة Azure لمجتمع المصادر المفتوحة بقيمة 150 دولارًا أمريكيًا شهريًا.
+
+
 
 ## خطة مستقبلية
 
-- دعم الترجمة التلقائية لـ GitHub wiki
+- دعم الترجمة التلقائية لـ GitHub Wiki
 - دعم منصة Gitee
+
+
 
 ---
 

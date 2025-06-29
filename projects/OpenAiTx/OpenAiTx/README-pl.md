@@ -33,26 +33,27 @@
 
 
 <div align="center">
- Twój <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a>  może sprawić, że Open Ai Tx będzie lepszy
+ Twój <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a>  może ulepszyć Open Ai Tx
 </div>
 
 
 ## Wprowadzenie
 
-**OpenAiTx** narzędzie do automatycznego tłumaczenia readme Twojego projektu na GitHub na 20 języków.
+**OpenAiTx** narzędzie do automatycznego tłumaczenia na 20 języków dla pliku readme Twojego projektu GitHub.
 
 ## Dlaczego?
 
-1. Jednorazowe tłumaczenie przy użyciu zaawansowanego modelu LLM i udostępnienie wyniku społeczności open-source za darmo.
-2. Wsparcie dla Google/Bing SEO w wielu językach, narzędzia klienckie do tłumaczenia tego nie potrafią.
-3. Zawsze Darmowy & Open Source 
-4. Wystarczy jedno zgłoszenie, aby automatycznie aktualizować w przyszłości — jeśli jesteś opiekunem projektu, oszczędzi Ci to czas.
+1. Jednorazowe tłumaczenie przy użyciu wysokiej klasy LLM i udostępnienie wyników społeczności open-source za darmo.
+2. Wsparcie dla wielojęzycznego SEO Google/Bing, czego nie potrafią narzędzia tłumaczące po stronie klienta.
+3. Zawsze darmowy i otwartoźródłowy
+4. Prześlij jeden raz i automatycznie aktualizuj w przyszłości — to oszczędza czas, jeśli jesteś opiekunem projektu.
 
 
-## Jak zacząć
+## Pierwsze kroki
 
 1. Zamień URL `GitHub` na `OpenAiTx`, np. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
-2. Kliknij i skopiuj wybrany styl odznaki lub tekstu, system automatycznie utworzy PR dla projektu po zindeksowaniu.
+
+2. Kliknij i skopiuj styl odznaki lub tekst, który Ci się podoba.
 
 ## Przykład
 
@@ -97,8 +98,7 @@
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">繁體中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
-```
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">ไทย</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a></p>
@@ -118,61 +118,45 @@
 </details>
 </div>
 
-### Wideo demonstracyjne
+
+## Wideo demonstracyjne
 
 <a href="https://github.com/user-attachments/assets/a1370023-8924-4d40-9f18-979a334e934d"> 
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
-## Współdzielenie wkładu
-
-Jeśli możesz pomóc, zgłaszając PR do swojego ulubionego projektu, bardzo pomoże to w promocji naszego projektu.
-
-Przykład:
-
-```
-Tytuł:
-docs: dodano 20 linków językowych w README
-
-Treść:
-PR dodaje 20 linków językowych do README, dzięki czemu użytkownik może łatwo uzyskać dostęp do przetłumaczonego README, wspiera wielojęzyczne SEO Google/Bing.
-
-Demo strony https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
-
-> OpenAiTx https://github.com/OpenAiTx/OpenAiTx 
-> Dlaczego?
-> 1. Jednorazowe tłumaczenie za pomocą najwyższej klasy LLM i udostępnienie wyniku otwartej społeczności open source.
-> 2. Wsparcie dla wielojęzycznego SEO Google/Bing, narzędzia tłumaczące po stronie klienta tego nie zapewniają.
-> 3. Darmowy i otwarty na zawsze 
-> 4. Zgłaszasz tylko raz i automatycznie aktualizuje się w przyszłości, co pozwala zaoszczędzić czas, jeśli jesteś maintainerem projektu.
-```
 
 ## Wkład obliczeniowy
 
-Jeśli chcesz wnieść wkład w projekt, wszystko co musisz zrobić to:
+Jeśli chcesz wnieść swój wkład w projekt, wystarczy:
 Forkuj projekt → Sklonuj projekt → Wybierz skrypt w swoim języku → Wstaw swój token AI → Uruchom go → Commit & push & utwórz PR
 
 > Uwaga: **Nie przesyłaj swoich tokenów!**
 
-### Uwagi
+## Uwagi
 
-- Obsługiwane są tylko pliki README w formacie markdown na githubie.
+- Obsługiwany jest tylko plik readme w formacie markdown na githubie.
+- Jeśli jesteś właścicielem projektu lub głównym deweloperem, możesz uwierzytelnić konto github, aby automatycznie tworzyć PR po zindeksowaniu.
 
 ## Inne
 
 - 10~30 min/projekt
 - 200~400 projektów/jedna konsola dziennie.
-- Co 3~7 dni aktualizujemy istniejące projekty (w zależności od przyszłych zasobów obliczeniowych)
+- Co 3~7 dni aktualizowane są istniejące projekty (w zależności od przyszłych zasobów obliczeniowych)
+
 
 ## Podziękowania
 
-- Zespół Microsoft MVP zapewnia budżet 150USD/miesiąc na platformę Azure dla społeczności open source.
+- Zespół Microsoft MVP zapewnia budżet na platformę Azure dla społeczności open source w wysokości 150 USD/miesiąc.
+
+
 
 ## Plany na przyszłość
 
 - Wsparcie automatycznego tłumaczenia wiki GitHub
-- Wsparcie platformy Gitee
-```
+- Wsparcie dla platformy Gitee
+
+
 
 ---
 

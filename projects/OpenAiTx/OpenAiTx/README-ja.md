@@ -39,20 +39,21 @@
 
 ## はじめに
 
-**OpenAiTx** は、GitHubプロジェクトのREADME向けに20言語を自動翻訳するツールです。
+**OpenAiTx** は、あなたのGitHubプロジェクトのREADME用、20言語自動翻訳ツールです。
 
 ## なぜ？
 
-1. 一度の翻訳でプレミアムグレードのLLMを使用し、その結果をオープンソースコミュニティに無料で提供します。
-2. Google/Bingの複数言語SEO検索に対応、クライアント翻訳ツールではできません。
-3. 永遠に無料＆オープンソース
-4. 一度提出すれば自動で将来も更新、プロジェクト管理者なら時間を節約できます。
+1. 高品質なLLMによる一度きりの翻訳で、結果をオープンソースコミュニティに無料で提供できます。
+2. Google/Bingなど複数言語のSEO検索をサポートします（クライアント翻訳ツールではできません）。
+3. 永久に無料＆オープンソース
+4. 一度提出すれば自動で将来も更新。プロジェクト管理者なら時間を節約できます。
 
 
 ## はじめ方
 
-1. URLの`GitHub`を`OpenAiTx`に置き換えてください。例：https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
-2. 好きなスタイルのバッジまたはテキストをクリックしてコピーし、システムがインデックス後に自動でプロジェクトにPRを作成します。
+1. URLの `GitHub` を `OpenAiTx` に置き換えます。例: https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+
+2. お好みのスタイルバッジやテキストをクリックしてコピーしてください。
 
 ## 例
 
@@ -97,90 +98,65 @@
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">繁體中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">ไทย</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl">Polski</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar">العربية</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa">فارسی</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">Türkçe</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">Tiếng Việt</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Bahasa Indonesia</a></p>
+```
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">ヒンディー語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">タイ語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">フランス語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">ドイツ語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">スペイン語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">イタリア語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">ロシア語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">ポルトガル語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">オランダ語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl">ポーランド語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar">アラビア語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa">ペルシャ語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">トルコ語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">ベトナム語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">インドネシア語</a></p>
       </div>
     </div>
   </details>
 </div>
 
 
-### デモ動画
+## デモ動画
 
 <a href="https://github.com/user-attachments/assets/a1370023-8924-4d40-9f18-979a334e934d"> 
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
 
+## コンピューティングでの貢献 
 
-## 貢献の共有
+プロジェクトに貢献したい場合、必要な手順は以下の通りです：
+プロジェクトをフォーク → プロジェクトをクローン → あなたの言語のスクリプトを選択 → AIトークンを入力 → 実行 → コミット＆プッシュ＆PR作成
 
-お気に入りのプロジェクトにPRを送っていただけると、当プロジェクトの普及に大きく貢献できます。
+> 注意: **トークンは絶対にアップロードしないでください！**
 
-例:
+## 注意事項
 
-```
-タイトル:
-docs: READMEに20言語リンクを追加
-
-内容:
-PRはREADMEに20言語のリンクを追加し、ユーザーが翻訳済みのREADMEに簡単にアクセスできるようになり、Google/Bingの多言語SEO検索に対応します。
-
-ページデモ https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
-
-> OpenAiTx https://github.com/OpenAiTx/OpenAiTx 
-> なぜ？
-> 1. プレミアムグレードLLMによる一度きりの翻訳結果をオープンソースコミュニティに無償公開。
-> 2. Google/Bingの多言語SEO検索に対応、クライアント側翻訳ツールでは実現不可。
-> 3. 永久に無料＆オープンソース
-> 4. 一度提出すれば自動で今後も更新。プロジェクト管理者の方は時間を節約できます。
-```
-
-
-
-## 計算リソースでの貢献 
-
-プロジェクトに貢献したい場合は、以下の手順で行えます。
-Fork → クローン → ご自身の言語のスクリプトを選択 → AIトークンを入力 → 実行 → コミット＆プッシュ＆PR作成
-
-> 注意: **トークンはアップロードしないでください！**
-
-### 注意事項
-
-- GitHubマークダウンREADMEのみ対応。
+- GitHubのMarkdown READMEのみサポートしています。
+- プロジェクトオーナーまたはコア開発者の場合、GitHubアカウントを認証することで、インデックス後に自動でPRを作成できます。
 
 ## その他
 
 - 1プロジェクトあたり10～30分
-- 1台のコンソールで1日あたり200～400プロジェクト
+- 1コンソールあたり1日200～400プロジェクト対応
 - 既存プロジェクトは3～7日ごとに更新（今後の計算リソースによる）
 
 
-## 感謝
+## 謝辞
 
-- Microsoft MVPチームより、オープンソースコミュニティ向けAzureプラットフォームの予算として150USD/月をご提供いただいています。
+- Microsoft MVPチームより、オープンソースコミュニティ向けAzureプラットフォーム予算として月額150USDを提供いただいています。
 
 
 
 ## 今後の計画
 
-- GitHub Wikiの自動翻訳対応
+- GitHub Wikiの自動翻訳をサポート
 - Giteeプラットフォーム対応
-
-
+```
 
 ---
 

@@ -13,7 +13,7 @@
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a></p>
@@ -43,16 +43,17 @@
 
 ## Perché?
 
-1. Traduzione una tantum utilizzando LLM di livello premium e rendendo il risultato liberamente accessibile alla comunità open-source.
-2. Supporto per la ricerca SEO multilingue su Google/Bing, cosa che gli strumenti di traduzione lato client non possono fare.
-3. Gratis e Open Source per sempre
-4. Un solo invio e aggiornamento automatico in futuro, ti permette di risparmiare tempo se sei un maintainer del progetto.
+1. Traduzione una tantum utilizzando LLM di livello premium e rendi il risultato liberamente accessibile alla comunità open-source.
+2. Supporta la ricerca SEO multilingue su Google/Bing, cosa che gli strumenti di traduzione lato client non possono fare.
+3. Gratuito & Open Source per sempre
+4. Invia una sola volta e auto-aggiorna in futuro, può farti risparmiare tempo se sei un manutentore di progetto.
 
 
 ## Come iniziare
 
-1. Sostituisci l’URL `GitHub` con `OpenAiTx`, es. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
-2. Clicca e copia il badge di stile o il testo che preferisci, il sistema creerà automaticamente una PR per il progetto dopo l'indicizzazione.
+1. Sostituisci l’URL `GitHub` con `OpenAiTx`, ad esempio https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+
+2. Clicca e copia i badge di stile o il testo che preferisci.
 
 ## Esempio
 
@@ -97,8 +98,7 @@
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">繁體中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
-```
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">ไทย</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a></p>
@@ -118,61 +118,43 @@
 </details>
 </div>
 
-### Video dimostrativo
+
+## Video dimostrativo
 
 <a href="https://github.com/user-attachments/assets/a1370023-8924-4d40-9f18-979a334e934d"> 
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
-## Condivisione dei contributi
 
-Se puoi aiutare inviando una PR al tuo progetto preferito, aiuterà notevolmente a promuovere il nostro progetto.
-
-Esempio:
-
-```
-Titolo:
-docs: aggiungi 20 link delle lingue al README
-
-Contenuto:
-La PR aggiunge 20 link di lingue al README e l'utente può facilmente accedere al README tradotto, supporta la ricerca SEO multilingue google/bing.
-
-Demo della pagina https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
-
-> OpenAiTx https://github.com/OpenAiTx/OpenAiTx 
-> Perché?
-> 1. Traduzione una tantum utilizzando LLM di livello premium e rendere il risultato liberamente accessibile alla comunità open source.
-> 2. Supporto alla ricerca SEO multilingue Google/Bing, lo strumento di traduzione client non può farlo.
-> 3. Gratuito & Open Source per sempre
-> 4. Invia una volta e aggiorna automaticamente in futuro, può farti risparmiare tempo se sei un maintainer di progetto.
-```
-
-## Contributo computazionale
+## Contributo di calcolo
 
 Se desideri contribuire al progetto, tutto ciò che devi fare è:
-Fork del progetto → Clona il progetto → Scegli uno script nella tua lingua → Inserisci il tuo token AI → Eseguilo → Commit & push & crea una PR
+Fork del progetto → Clona il progetto → Scegli uno script nella tua lingua → Inserisci il tuo token AI → Eseguilo → Fai commit & push & crea una PR
 
-> Nota: **Si prega di non caricare i propri token!**
+> Nota: **Per favore non caricare i tuoi token!**
 
-### Note
+## Note
 
-- Supporta solo README markdown di GitHub.
+- Supporta solo readme markdown di github.
+- Se sei il proprietario del progetto o uno sviluppatore principale, puoi autenticare l’account github per creare automaticamente una PR dopo l’indicizzazione.
 
 ## Altro
 
-- 10~30 minuti / per progetto
-- 200~400 progetti / una console al giorno.
-- Ogni 3~7 giorni verranno aggiornati i progetti esistenti (a seconda delle risorse computazionali future)
+- 10~30 min/progetto
+- 200~400 progetti/una console al giorno.
+- Ogni 3~7 giorni verranno aggiornati i progetti esistenti (in base alle future risorse di calcolo)
+
 
 ## Ringraziamenti
 
-- Il team Microsoft MVP fornisce un budget mensile di 150USD per la piattaforma azure della comunità open source.
+- Il team Microsoft MVP fornisce un budget di 150USD/mese per la piattaforma Azure open source della comunità.
+
+
 
 ## Piani futuri
 
-- Supporto per la traduzione automatica del wiki di GitHub
-- Supporto per la piattaforma Gitee
-```
+- Supporto traduzione automatica wiki GitHub
+- Supporto piattaforma Gitee
 
 ---
 
