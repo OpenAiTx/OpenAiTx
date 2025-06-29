@@ -33,7 +33,7 @@
 
 
 <div align="center">
- Il tuo <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a>  può rendere Open Ai Tx migliore
+ Il tuo <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a> può rendere Open Ai Tx migliore
 </div>
 
 
@@ -41,21 +41,18 @@
 
 **OpenAiTx** è uno strumento di traduzione automatica in 20 lingue per il readme del tuo progetto GitHub.
 
-## Obiettivo
+## Perché?
 
-Traduzione una tantum utilizzando LLM di livello premium e rendere il risultato liberamente accessibile alla comunità open-source.
-
-## Caratteristiche
-
-- Supporta la ricerca SEO multilingue Google/Bing.
-- Gratuito & Open Source per sempre
-- Invia una sola volta e aggiornamento automatico futuro.
+1. Traduzione una tantum utilizzando LLM di livello premium e rendendo il risultato liberamente accessibile alla comunità open-source.
+2. Supporto per la ricerca SEO multilingue su Google/Bing, cosa che gli strumenti di traduzione lato client non possono fare.
+3. Gratis e Open Source per sempre
+4. Un solo invio e aggiornamento automatico in futuro, ti permette di risparmiare tempo se sei un maintainer del progetto.
 
 
+## Come iniziare
 
-## Iniziare
-
-Sostituisci l'URL `GitHub` con `OpenAiTx`, ad esempio https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx .
+1. Sostituisci l’URL `GitHub` con `OpenAiTx`, es. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+2. Clicca e copia il badge di stile o il testo che preferisci, il sistema creerà automaticamente una PR per il progetto dopo l'indicizzazione.
 
 ## Esempio
 
@@ -98,10 +95,9 @@ Sostituisci l'URL `GitHub` con `OpenAiTx`, ad esempio https://github.com/OpenAiT
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">English</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN">简体中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">繁體中文</a></p>
-```
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">ไทย</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a></p>
@@ -121,54 +117,70 @@ Sostituisci l'URL `GitHub` con `OpenAiTx`, ad esempio https://github.com/OpenAiT
 </details>
 </div>
 
+
 ### Video dimostrativo
 
 <a href="https://github.com/user-attachments/assets/a1370023-8924-4d40-9f18-979a334e934d"> 
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
-## Condivisione dei Contributi
 
-Se potessi aiutare inviando una PR al tuo progetto preferito, sarebbe di grande aiuto per promuovere il nostro progetto.
+
+## Condivisione dei contributi
+
+Se puoi aiutare inviando una PR al tuo progetto preferito, sarebbe di grande aiuto per promuovere il nostro progetto.
 
 Esempio:
 
 ```
 Titolo:
-docs: aggiungi 20 collegamenti alle lingue nella README
+docs: aggiungi 20 link delle lingue al README
 
 Contenuto:
-La PR aggiunge 20 link delle lingue alla README e l'utente può facilmente accedere alla README tradotta, supporta la ricerca SEO multilingue google/bing.
+La PR aggiunge 20 link delle lingue al README e l’utente può facilmente accedere al README tradotto, supportando la ricerca SEO multilingue su google/bing.
 
-Demo pagina https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
+Pagina demo https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
 
-> OpenAiTx è gratuito e open-source : https://github.com/OpenAiTx/OpenAiTx , Obiettivo: Traduzione una tantum tramite LLM di livello premium e rendere il risultato liberamente accessibile alla comunità open-source.
+> OpenAiTx https://github.com/OpenAiTx/OpenAiTx 
+> Perché?
+> 1. Traduzione una tantum utilizzando LLM di livello premium e rendendo il risultato liberamente accessibile alla comunità open source.
+> 2. Supporta la ricerca SEO multilingue su Google/Bing, cosa che lo strumento di traduzione client non può fare.
+> 3. Gratuito e Open Source per sempre 
+> 4. Invia una sola volta e aggiornamento automatico in futuro, può farti risparmiare tempo se sei un maintainer di progetto.
 ```
 
-## Contributo di Calcolo
 
-Se desideri contribuire al progetto, tutto ciò che devi fare è:
+
+## Contributo di calcolo
+
+Se vuoi contribuire al progetto, tutto ciò che devi fare è:
 Fork del progetto → Clona il progetto → Scegli uno script nella tua lingua → Inserisci il tuo token AI → Eseguilo → Commit & push & crea una PR
 
-> Nota: **Per favore non caricare i tuoi token!**
+> Nota: **Si prega di non caricare i propri token!**
 
 ### Note
 
-- Supporta solo README markdown di github.
+- Supporta solo il readme markdown di GitHub.
 
 ## Altro
 
-- 10~30 min/progetto
+- 10~30 minuti/progetto
 - 200~400 progetti/una console al giorno.
-- Ogni 3~7 giorni verranno aggiornati i progetti esistenti (a seconda delle future risorse di calcolo)
+- Ogni 3~7 giorni verranno aggiornati i progetti esistenti (a seconda delle risorse di calcolo future)
+
 
 ### Ringraziamenti
 
-- Il team Microsoft MVP fornisce un budget mensile di 150USD sulla piattaforma azure per la comunità open source.
-```
+- Il team Microsoft MVP fornisce un budget di 150USD/mese per la piattaforma Azure della community open source.
+
+
+
+### Piani futuri
+
+- Supporto traduzione automatica wiki di GitHub
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-28
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-29
 
 ---

@@ -39,23 +39,20 @@
 
 ## Pendahuluan
 
-**OpenAiTx** adalah alat terjemahan otomatis 20 bahasa untuk file readme proyek GitHub Anda.
+**OpenAiTx** adalah alat terjemahan otomatis 20 bahasa untuk readme proyek GitHub Anda.
 
-## Tujuan
+## Mengapa?
 
-Terjemahan satu kali dengan menggunakan LLM kelas premium dan membuat hasilnya dapat diakses secara gratis oleh komunitas open source.
-
-## Fitur
-
-- Mendukung pencarian SEO multibahasa Google/Bing.
-- Gratis & Open Source selamanya 
-- Kirim satu kali dan otomatis update di masa depan.   
+1. Terjemahan satu kali menggunakan LLM kelas premium dan membuat hasilnya dapat diakses bebas oleh komunitas open source.
+2. Mendukung pencarian SEO multi-bahasa Google/Bing, alat terjemahan klien tidak dapat melakukannya.
+3. Gratis & Sumber Terbuka selamanya 
+4. Submit satu kali dan auto-update ke depannya, bisa menghemat waktu Anda jika Anda adalah maintainer proyek.
 
 
+## Mulai
 
-## Mulai Cepat
-
-Ganti URL `GitHub` dengan `OpenAiTx`, misal https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx .
+1. Ganti URL `GitHub` menjadi `OpenAiTx`, misal https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+2. Klik dan salin gaya badge atau teks yang Anda suka, sistem akan otomatis membuat PR untuk proyek setelah terindeks.
 
 ## Contoh
 
@@ -98,10 +95,9 @@ Ganti URL `GitHub` dengan `OpenAiTx`, misal https://github.com/OpenAiTx/OpenAiTx
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">English</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN">简体中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">繁體中文</a></p>
-```
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">ไทย</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a></p>
@@ -122,7 +118,7 @@ Ganti URL `GitHub` dengan `OpenAiTx`, misal https://github.com/OpenAiTx/OpenAiTx
 </div>
 
 
-### Video Demo
+### Demo Video
 
 <a href="https://github.com/user-attachments/assets/a1370023-8924-4d40-9f18-979a334e934d"> 
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
@@ -138,43 +134,54 @@ Contoh:
 
 ```
 Judul:
-docs: tambah 20 tautan bahasa pada README
+docs: tambahkan 20 tautan bahasa pada README
 
 Konten:
-PR menambahkan 20 tautan bahasa pada README dan pengguna dapat dengan mudah mengakses README yang telah diterjemahkan, mendukung pencarian SEO multibahasa google/bing.
+PR menambahkan 20 tautan bahasa ke README dan pengguna dapat dengan mudah mengakses README yang sudah diterjemahkan, mendukung pencarian SEO multibahasa google/bing.
 
 Demo halaman https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
 
-> OpenAiTx gratis dan open-source: https://github.com/OpenAiTx/OpenAiTx , Tujuan: Terjemahan sekali pakai menggunakan LLM premium dan membuat hasilnya dapat diakses secara gratis untuk komunitas open-source.
+> OpenAiTx https://github.com/OpenAiTx/OpenAiTx 
+> Mengapa?
+> 1. Sekali terjemah menggunakan LLM premium dan membuat hasilnya dapat diakses bebas untuk komunitas open-source.
+> 2. Mendukung pencarian SEO multibahasa Google/Bing, alat terjemahan klien tidak dapat melakukannya.
+> 3. Gratis & Sumber Terbuka selamanya 
+> 4. Submit satu kali dan otomatis update di masa depan, dapat menghemat waktu Anda jika Anda seorang maintainer proyek.
 ```
 
 
 
-## Kontribusi Komputasi
+## Kontribusi Komputasi 
 
-Jika Anda ingin berkontribusi pada proyek ini, yang perlu Anda lakukan adalah:
+Jika Anda ingin berkontribusi pada proyek ini, yang perlu Anda lakukan hanyalah:
 Fork proyek → Clone proyek → Pilih skrip dalam bahasa Anda → Isi token AI Anda → Jalankan → Commit & push & buat PR
 
-> Catatan: **Jangan mengunggah token Anda!**
+> Catatan: **Mohon jangan mengunggah token Anda!**
 
 ### Catatan
 
-- Hanya mendukung readme markdown github.
+- Hanya mendukung github markdown readme.
 
 ## Lainnya
 
-- 10~30 menit/proyek
+- 10~30 menit/ per proyek
 - 200~400 proyek/satu konsol per hari.
-- Setiap 3~7 hari akan memperbarui proyek yang ada (tergantung pada sumber daya komputasi di masa depan)
+- Setiap 3~7 hari akan memperbarui proyek yang sudah ada (tergantung pada sumber daya komputasi di masa depan)
 
 
-### Terima Kasih
+### Terima kasih
 
-- Tim Microsoft MVP menyediakan anggaran platform azure komunitas open source sebesar 150USD/Bulan.
-```
+- Tim Microsoft MVP memberikan dana platform azure komunitas open source sebesar 150USD/Bulan.
+
+
+
+### Rencana ke depan
+
+- Mendukung terjemahan otomatis wiki GitHub 
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-28
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-29
 
 ---

@@ -41,21 +41,18 @@
 
 **OpenAiTx** 20 languages auto-translate tool for your GitHub project readme.
 
-## Objective
+## Why?
 
-One-time translation using premium-grade LLM and make the result freely accessible to the open-source community.
-
-## Features
-
-- Support Google/Bing multiple languages SEO search.
-- Free & Open Source forever 
-- Submit one time and auto update future.   
-
+1. One-time translation using premium-grade LLM and make the result freely accessible to the open-source community.
+2. Support Google/Bing multiple languages SEO search, client translate tool can't do it.
+3. Free & Open Source forever 
+4. Submit one time and auto-update future, it can save your time if you're a project maintainer.
 
 
 ## Get Started
 
-Replace URL `GitHub` by `OpenAiTx`, e.g. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx .
+1. Replace URL `GitHub` by `OpenAiTx`, e.g. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+2. Click and copy the style badges or text you like, system will auto create PR for the project after indexed.
 
 ## Example
 
@@ -144,7 +141,12 @@ PR adds 20 languages link to the README and user can easily to access translated
 
 Page demo https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
 
-> OpenAiTx is free and open-source : https://github.com/OpenAiTx/OpenAiTx , Objective: One-time translation using premium-grade LLM and make the result freely accessible to the open-source community.
+> OpenAiTx https://github.com/OpenAiTx/OpenAiTx 
+> Why?
+> 1. One-time translation using premium-grade LLM and make the result freely accessible to the open-source community.
+> 2. Support Google/Bing multiple languages SEO search, client translate tool can't do it.
+> 3. Free & Open Source forever 
+> 4. Submit one time and auto-update future, it can save your time if you're a project maintainer.
 ```
 
 
@@ -170,3 +172,10 @@ Fork project → Clone project → Choose a script in your language → Fill in 
 ### Thanks
 
 - Microsoft MVP team provides 150USD/Month open source community azure platform budget.
+
+
+
+### Future plan
+
+- Support GitHub wiki auto translation 
+

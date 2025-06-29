@@ -33,37 +33,34 @@
 
 
 <div align="center">
- あなたの <a href="https://github.com/OpenAiTx/OpenAiTx">スター</a> が Open Ai Tx をより良くします
+ あなたの<a href="https://github.com/OpenAiTx/OpenAiTx">スター</a>がOpen Ai Txをより良くします
 </div>
 
 
 ## はじめに
 
-**OpenAiTx** は、あなたの GitHub プロジェクトの README を20言語に自動翻訳するツールです。
+**OpenAiTx** は、GitHubプロジェクトのREADME向けに20言語を自動翻訳するツールです。
 
-## 目的
+## なぜ？
 
-高品質な LLM を用いた一度きりの翻訳を提供し、その結果をオープンソースコミュニティに無料で公開します。
-
-## 特長
-
-- Google/Bing 複数言語のSEO検索に対応
-- 永久に無料かつオープンソース
-- 一度の提出で、今後自動的に更新されます
-
+1. 一度の翻訳でプレミアムグレードのLLMを使用し、その結果をオープンソースコミュニティに無料で提供します。
+2. Google/Bingの複数言語SEO検索に対応、クライアント翻訳ツールではできません。
+3. 永遠に無料＆オープンソース
+4. 一度提出すれば自動で将来も更新、プロジェクト管理者なら時間を節約できます。
 
 
 ## はじめ方
 
-URL の `GitHub` を `OpenAiTx` に置き換えてください。例: https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx
+1. URLの`GitHub`を`OpenAiTx`に置き換えてください。例：https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+2. 好きなスタイルのバッジまたはテキストをクリックしてコピーし、システムがインデックス後に自動でプロジェクトにPRを作成します。
 
 ## 例
 
-### スタイル オプション1:
+### スタイルオプション1:
 
 <div style="text-align: center"><p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi"><img src="https://img.shields.io/badge/हिन्दी-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa"><img src="https://img.shields.io/badge/فارسی-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id"><img src="https://img.shields.io/badge/Bahasa Indonesia-white" alt="version"></a> </p></div>
 
-### スタイル オプション2:
+### スタイルオプション2:
 
 <p align="center">
   <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">English</a> |
@@ -88,7 +85,7 @@ URL の `GitHub` を `OpenAiTx` に置き換えてください。例: https://gi
   <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Bahasa Indonesia</a>
 </p>
 
-### スタイル オプション3:
+### スタイルオプション3:
 
 <div align="right" >
   <details>
@@ -98,10 +95,10 @@ URL の `GitHub` を `OpenAiTx` に置き換えてください。例: https://gi
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">English</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN">简体中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">繁體中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
 ```
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">ไทย</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a></p>
@@ -130,51 +127,62 @@ URL の `GitHub` を `OpenAiTx` に置き換えてください。例: https://gi
 
 
 
-## 貢献の共有
+## 共有による貢献
 
-もしあなたが好きなプロジェクトにPRを提出していただけるなら、私たちのプロジェクトの普及に大いに役立ちます。
+お気に入りのプロジェクトにPRを送っていただくことで、私たちのプロジェクトの普及に大きく貢献できます。
 
 例：
 
 ```
 タイトル:
-docs: READMEの20言語リンクを追加
+docs: READMEに20言語のリンクを追加
 
 内容:
-PRはREADMEに20言語のリンクを追加し、ユーザーが翻訳済みREADMEに簡単にアクセスできるようにします。Google/Bingの多言語SEO検索をサポートします。
+PRはREADMEに20言語のリンクを追加し、ユーザーが翻訳されたREADEMEに簡単にアクセスできるようになり、Google/Bingの多言語SEO検索にも対応します。
 
 ページデモ https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja
 
-> OpenAiTxは無料かつオープンソースです: https://github.com/OpenAiTx/OpenAiTx , 目的：プレミアム品質のLLMを使った一度きりの翻訳を行い、その結果をオープンソースコミュニティが自由に利用できるようにすること。
+> OpenAiTx https://github.com/OpenAiTx/OpenAiTx 
+> なぜ？
+> 1. プレミアムグレードのLLMを用いた一度きりの翻訳で、オープンソースコミュニティに無料で公開します。
+> 2. Google/Bingの多言語SEO検索に対応、クライアント翻訳ツールではできません。
+> 3. 永久に無料＆オープンソース
+> 4. 一度提出すれば自動で将来も更新されるので、プロジェクト管理者の方の手間を削減できます。
 ```
 
 
 
-## コンピューティング貢献
+## 計算資源による貢献
 
-プロジェクトに貢献したい場合は、以下の手順だけで完了します：
-プロジェクトをフォーク → プロジェクトをクローン → あなたの言語のスクリプトを選択 → AIトークンを入力 → 実行 → コミット＆プッシュ＆PR作成
+プロジェクトに貢献したい場合は、以下の手順で行えます:
+プロジェクトをフォーク → クローン → お好きな言語のスクリプトを選択 → AIトークンを入力 → 実行 → コミット＆プッシュ＆PR作成
 
-> 注意：**トークンは絶対にアップロードしないでください！**
+> 注意: **トークンはアップロードしないでください！**
 
 ### 注意事項
 
-- GitHubのMarkdown READMEのみをサポートします。
+- GitHubのMarkdown READMEのみ対応しています。
 
 ## その他
 
 - 1プロジェクトあたり10～30分
-- 1コンソールあたり1日200～400プロジェクト
-- 既存プロジェクトは3～7日ごとに更新されます（今後のコンピューティングリソースに依存）
+- 1コンソールで1日あたり200～400プロジェクト
+- 既存プロジェクトは3～7日ごとに更新されます（今後の計算資源次第）
 
 
-### 謝辞
+### 感謝
 
-- Microsoft MVPチームより月額150USDのオープンソースコミュニティAzureプラットフォーム予算を提供いただいています。
+- Microsoft MVPチームより、オープンソースコミュニティ向けAzureプラットフォームの予算として月150USDをご提供いただいています。
+
+
+
+### 今後の計画
+
+- GitHub wikiの自動翻訳対応予定
 ```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-28
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-29
 
 ---
