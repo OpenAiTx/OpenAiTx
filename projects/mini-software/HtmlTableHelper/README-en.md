@@ -1,6 +1,12 @@
 [![NuGet](https://img.shields.io/nuget/v/HtmlTableHelper.svg)](https://www.nuget.org/packages/HtmlTableHelper)
 ![](https://img.shields.io/nuget/dt/HtmlTableHelper.svg)
 
+---
+
+<div style="text-align: center"><p><a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=zh-CN"><img src="https://img.shields.io/badge/Simplified Chinese-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=zh-TW"><img src="https://img.shields.io/badge/Traditional Chinese-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ja"><img src="https://img.shields.io/badge/Japanese-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ko"><img src="https://img.shields.io/badge/Korean-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=th"><img src="https://img.shields.io/badge/Thai-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=fr"><img src="https://img.shields.io/badge/French-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=de"><img src="https://img.shields.io/badge/German-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=es"><img src="https://img.shields.io/badge/Spanish-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=it"><img src="https://img.shields.io/badge/Italian-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ru"><img src="https://img.shields.io/badge/Russian-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=pt"><img src="https://img.shields.io/badge/Portuguese-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=nl"><img src="https://img.shields.io/badge/Dutch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=pl"><img src="https://img.shields.io/badge/Polish-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ar"><img src="https://img.shields.io/badge/Arabic-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=tr"><img src="https://img.shields.io/badge/Turkish-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=vi"><img src="https://img.shields.io/badge/Vietnamese-white" alt="version"></a> </p></div>
+
+---
+
 ### Features
 - Mini (DLL Size Only 20KB) and Easy to use.
 - Support .NET Standard 2.0/.NET 4.6/.NET 4.5/.NET 4.0
@@ -31,7 +37,7 @@ dotnet add package HtmlTableHelper
 ```C#
 using HtmlTableHelper;
 ..
-var sourceData = new[] { new { Name = "ITWeiHan", Age = "25", Gender = "M" } };
+var sourceData = new[] { new { Name = "ITWeiHan", Age = "25",Gender = "M" } };
 var tablehtml = sourceData.ToHtmlTable();
 /*
 Result:
@@ -91,7 +97,6 @@ Result:
 ##### Attribute Annotation
 
 ###### 1. Display : 
-
 ```C#
 public class ModelClassWithDisplayAttr
 {
@@ -192,17 +197,17 @@ public static class HtmlHelperExtension
         , object tableAttributes = null, object trAttributes = null, object tdAttributes = null
         , HtmlTableSetting HTMLTableSetting = null)
     {
-        var html = enums.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
-        return new HtmlString(html);
-    }
+```csharp
+var html = enums.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
+return new HtmlString(html);
+}
 
-    public static HtmlString ToHtmlTable<T>(this HtmlHelper htmlHelper, System.Data.DataTable datatable
-        , object tableAttributes = null, object trAttributes = null, object tdAttributes = null
-, HtmlTableSetting HTMLTableSetting = null)
+public static HtmlString ToHtmlTable<T>(this HtmlHelper htmlHelper, System.Data.DataTable datatable
+    , object tableAttributes = null, object trAttributes = null, object tdAttributes = null
+    , HtmlTableSetting HTMLTableSetting = null)
 {
     var html = datatable.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
     return new HtmlString(html);
-}
 }
 ```
 
@@ -272,14 +277,14 @@ public class Startup
 - [ ] Support EF Model
 - [ ] Support property use custom html attribute 
 
-Specify fields
+Specify columns
 ```C#
 using HtmlTableHelper;
 ..
 public class Person{
-	public string Name { get; set; }
-	public int Age { get; set; }
-	public string Gender { get; set; }
+    public string Name { get; set; }
+    public int Age { get; set; }
+    public string Gender { get; set; }
 }
 ..
 var sourceData = new[] { new Person{ Name = "ITWeiHan", Age = "25",Gender = "M" } };
@@ -291,7 +296,6 @@ Result:
 ```
 -->
 
-
 <!--
 Read This Page
 [security - Will HTML Encoding prevent all kinds of XSS attacks? - Stack Overflow]
@@ -302,16 +306,15 @@ Read This Page
 editable + ajax editable table
     - Route issues
     - CRUD functionality
-    - SID required
+    - Needs SID
 - [ ] Support Paging
     using linq skip and take
     but it'll get trouble in datatable
     it looks like i have to convert datatable as enumerable
 --->
 
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-30
 
 ---

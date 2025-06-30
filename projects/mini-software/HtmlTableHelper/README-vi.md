@@ -1,11 +1,17 @@
 [![NuGet](https://img.shields.io/nuget/v/HtmlTableHelper.svg)](https://www.nuget.org/packages/HtmlTableHelper)
 ![](https://img.shields.io/nuget/dt/HtmlTableHelper.svg)
 
+---
+
+<div style="text-align: center"><p><a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> </p></div>
+
+---
+
 ### Tính năng
-- Nhẹ (DLL chỉ 20KB) và dễ sử dụng.
+- Nhẹ (Kích thước DLL chỉ 20KB) và dễ sử dụng.
 - Hỗ trợ .NET Standard 2.0/.NET 4.6/.NET 4.5/.NET 4.0
-- Không cần bất kỳ thư viện bên thứ ba nào
-- Hỗ trợ các kiểu Anonymous Types, Dapper Dynamic Query, List/Array/Set/Enumrable, DataTable, Dictionary
+- Không sử dụng bất kỳ thư viện bên thứ ba nào
+- Hỗ trợ Kiểu ẩn danh, Dapper Dynamic Query, List/Array/Set/Enumerable, DataTable, Dictionary
 
 ### Cài đặt
 
@@ -27,7 +33,7 @@ dotnet add package HtmlTableHelper
 
 ### Bắt đầu
 
-##### Ví dụ với List/Array/Set/Enumrable không phải kiểu Key/Value
+##### Ví dụ List/Array/Set/Enumerable không phải kiểu Key/Value
 ```C#
 using HtmlTableHelper;
 ..
@@ -55,7 +61,7 @@ var tablehtml = sourceData.ToHtmlTable();
 ```
 
 <!--
-**Nhưng** đối với kiểu Key/Value khác vui lòng sử dụng `ToHtmlTableByDictionary`
+**Nhưng** với kiểu Key/Value khác vui lòng sử dụng `ToHtmlTableByDictionary`
 ```C#
 var sourceData = new[] {
     new Dictionary<SomeKeyType, SomeValueType> (){...}
@@ -68,7 +74,7 @@ var tablehtml = sourceData.ToHtmlTableByDictionary();
 
 ```C#
 var data = /*List/Array/Set/Enumrable..*/;
-var html = data.ToHtmlTable( tableAttributes: new { @class = "SomeClass"} //kiểu dynamic, hỗ trợ tất cả thuộc tính 
+var html = data.ToHtmlTable( tableAttributes: new { @class = "SomeClass"} //đây là kiểu động, hỗ trợ mọi thuộc tính 
     ,trAttributes: new { ID = "SomeID" },tdAttributes: new { width = "120 px" },thAttributes: new { @class = "dark-theme" }
 );
 /*
@@ -88,26 +94,26 @@ Kết quả:
 */
 ```
 
-##### Attribute Annotation
+##### Ghi chú thuộc tính (Attribute Annotation)
 
 ###### 1. Display : 
 
 ```C#
 public class ModelClassWithDisplayAttr
 {
-    [TableColumn(DisplayName = "Column1")] //Thuộc tính MyProperty1 sẽ render thead-td với innertext: "Column1"
+    [TableColumn(DisplayName = "Column1")] //Thuộc tính MyProperty1 sẽ hiển thị innertext của thead-td: "Column1"
     public string MyProperty1 { get; set; }
-    [TableColumn(DisplayName = "Column2")] //Thuộc tính MyProperty2 sẽ render thead-td với innertext: "Column2"
+    [TableColumn(DisplayName = "Column2")] //Thuộc tính MyProperty2 sẽ hiển thị innertext của thead-td: "Column2"
     public string MyProperty2 { get; set; }
 }
 ```
 
-###### 2. Skip : 
+###### 2. Bỏ qua : 
 ```C#
 public class ModelClassWithSkipAttr
 {
     [TableColumn( Skip = true)]
-    public string MyProperty1 { get; set; } //MyProperty1 sẽ không render ra html
+    public string MyProperty1 { get; set; } //MyProperty1 sẽ không render html
     public string MyProperty2 { get; set; }
 }
 ```
@@ -125,7 +131,7 @@ var html = soucreData.CreateBuilder()
 
 ##### HTMLTableSetting
 
-Có thể cấu hình mã hóa InnerHtml (Không khuyến nghị bỏ mã hóa nếu không có lý do cụ thể, để tránh tấn công XSS)
+Cấu hình mã hóa InnerHtml (Khuyến nghị không nên tắt nếu không có lý do cụ thể, vì có thể bị tấn công XSS)
 ```C#
 var sourceData = new[] { new { Name = "<b>ITWeiHan</b>" } };
 
@@ -141,9 +147,9 @@ var notEncodinghtml = sourceData.ToHtmlTable(HTMLTableSetting: htmltablesetting)
 //Kết quả: <table>..<b>ITWeiHan</b>..</table>
 ```
 
-### Mở rộng
+### Extension
 **ASP.NET Core MVC:**  
-Tạo file IHtmlHelperExtension.cs
+Tạo một file IHtmlHelperExtension.cs
 ```C#
 using System.Collections.Generic;
 using HtmlTableHelper;
@@ -179,7 +185,7 @@ Kết quả:<table><thead><tr><th>Name</th><th>Age</th><th>Gender</th></tr></the
 ```
 
 **ASP.NET MVC 5:**   
-Tạo file HtmlHelperExtension.cs
+Tạo một file HtmlHelperExtension.cs
 ```C#
 using System.Collections.Generic;
 using HtmlTableHelper;
@@ -192,14 +198,14 @@ public static class HtmlHelperExtension
         , object tableAttributes = null, object trAttributes = null, object tdAttributes = null
         , HtmlTableSetting HTMLTableSetting = null)
     {
-        var html = enums.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
-        return new HtmlString(html);
-    }
-
-    public static HtmlString ToHtmlTable<T>(this HtmlHelper htmlHelper, System.Data.DataTable datatable
-        , object tableAttributes = null, object trAttributes = null, object tdAttributes = null
 ```csharp
-, HtmlTableSetting HTMLTableSetting = null)
+var html = enums.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
+return new HtmlString(html);
+}
+
+public static HtmlString ToHtmlTable<T>(this HtmlHelper htmlHelper, System.Data.DataTable datatable
+    , object tableAttributes = null, object trAttributes = null, object tdAttributes = null
+    , HtmlTableSetting HTMLTableSetting = null)
 {
     var html = datatable.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
     return new HtmlString(html);
@@ -208,7 +214,7 @@ public static class HtmlHelperExtension
 ```
 
 ### Demo
-**Demo ASP.NET MVC 5 JQuery DataTable:**  
+**ASP.NET MVC 5 JQuery DataTable Demo:**  
 ```C#
 using HtmlTableHelper;
 //..
@@ -251,8 +257,7 @@ public class HomeController : Controller
 </html>
 ```
 
-
-**Demo ASP.NET Core:**
+**ASP.NET Core Demo:**
 ```C#
 public class Startup
 {
@@ -293,26 +298,25 @@ Kết quả:
 ```
 -->
 
-
 <!--
-Đọc trang này
-[security - Will HTML Encoding prevent all kinds of XSS attacks? - Stack Overflow]
+Đọc Trang Này
+[security - Việc mã hóa HTML có ngăn chặn được tất cả các loại tấn công XSS không? - Stack Overflow]
 (https://stackoverflow.com/questions/53728/will-html-encoding-prevent-all-kinds-of-xss-attacks)
 -->
 
 <!---
 editable + ajax Bảng có thể chỉnh sửa
     - Vấn đề Route
-    - Chức năng thêm/xóa/sửa/tìm kiếm
+    - Chức năng thêm, xóa, sửa, truy vấn
     - Cần SID
 - [ ] Hỗ trợ phân trang
     sử dụng linq skip và take
-    nhưng sẽ gặp vấn đề với datatable
-    có vẻ như phải chuyển datatable thành enumrable
+    nhưng sẽ gặp vấn đề trong datatable
+    có vẻ tôi phải chuyển đổi datatable sang enumrable
 --->
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-30
 
 ---

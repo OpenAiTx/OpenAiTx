@@ -1,11 +1,17 @@
 [![NuGet](https://img.shields.io/nuget/v/HtmlTableHelper.svg)](https://www.nuget.org/packages/HtmlTableHelper)
 ![](https://img.shields.io/nuget/dt/HtmlTableHelper.svg)
 
+---
+
+<div style="text-align: center"><p><a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> </p></div>
+
+---
+
 ### คุณสมบัติ
 - ขนาดเล็ก (ขนาด DLL เพียง 20KB) และใช้งานง่าย
 - รองรับ .NET Standard 2.0/.NET 4.6/.NET 4.5/.NET 4.0
 - ไม่ต้องใช้ไลบรารีของบุคคลที่สามใด ๆ
-- รองรับ Anonymous Types, Dapper Dynamic Query, List/Array/Set/Enumerable, DataTable, Dictionary
+- รองรับ Anonymous Types, Dapper Dynamic Query, List/Array/Set/Enumrable, DataTable, Dictionary
 
 ### การติดตั้ง
 
@@ -15,7 +21,7 @@
 PM> install-package HtmlTableHelper
 ```
 
-หรือใช้คำสั่ง `dotnet`:
+หรือใช้คำสั่ง `dotnet` บนบรรทัดคำสั่ง:
 
 ```cmd
 dotnet add package HtmlTableHelper
@@ -27,7 +33,7 @@ dotnet add package HtmlTableHelper
 
 ### เริ่มต้นใช้งาน
 
-##### ตัวอย่าง List/Array/Set/Enumerable ประเภทที่ไม่ใช่ Key/Value
+##### ตัวอย่าง List/Array/Set/Enumrable แบบไม่มี Key/Value
 ```C#
 using HtmlTableHelper;
 ..
@@ -55,7 +61,7 @@ var tablehtml = sourceData.ToHtmlTable();
 ```
 
 <!--
-**แต่** สำหรับประเภท Key/Value อื่น ๆ กรุณาใช้ `ToHtmlTableByDictionary`
+**แต่** หากเป็น Key/Value Type อื่น ๆ ให้ใช้ `ToHtmlTableByDictionary`
 ```C#
 var sourceData = new[] {
     new Dictionary<SomeKeyType, SomeValueType> (){...}
@@ -64,7 +70,7 @@ var tablehtml = sourceData.ToHtmlTableByDictionary();
 ```
 --->
 
-**ปรับแต่ง Table/TR/TD/TH Attributes (Dynamic Type)**
+**การกำหนด Attribute ให้ Table/TR/TD/TH เอง (Dynamic Type)**
 
 ```C#
 var data = /*List/Array/Set/Enumrable..*/;
@@ -95,19 +101,19 @@ var html = data.ToHtmlTable( tableAttributes: new { @class = "SomeClass"} //น�
 ```C#
 public class ModelClassWithDisplayAttr
 {
-    [TableColumn(DisplayName = "Column1")] //Property MyProperty1 จะแสดง thead-td's innertext : "Column1"
+    [TableColumn(DisplayName = "Column1")] //พร็อพเพอร์ตี้ MyProperty1 จะแสดง thead-td's innertext : "Column1"
     public string MyProperty1 { get; set; }
-    [TableColumn(DisplayName = "Column2")] //Property MyProperty2 จะแสดง thead-td's innertext : "Column2"
+    [TableColumn(DisplayName = "Column2")] //พร็อพเพอร์ตี้ MyProperty2 จะแสดง thead-td's innertext : "Column2"
     public string MyProperty2 { get; set; }
 }
 ```
 
-###### 2. Skip : 
+###### 2. ข้าม : 
 ```C#
 public class ModelClassWithSkipAttr
 {
     [TableColumn( Skip = true)]
-    public string MyProperty1 { get; set; } //MyProperty1 จะไม่ถูก render เป็น html
+    public string MyProperty1 { get; set; } //MyProperty1 จะไม่ถูกเรนเดอร์ html
     public string MyProperty2 { get; set; }
 }
 ```
@@ -125,11 +131,11 @@ var html = soucreData.CreateBuilder()
 
 ##### HTMLTableSetting
 
-กำหนดค่า InnerHtml Encoding ได้ (แนะนำไม่ควรปิดการ encode หากไม่มีเหตุผลเฉพาะ เนื่องจากเสี่ยง XSS Attack)
+การตั้งค่า InnerHtml Encoding (แนะนำว่าไม่ควรปิด เว้นแต่มีเหตุผลเฉพาะ เพราะเสี่ยงต่อ XSS Attack)
 ```C#
 var sourceData = new[] { new { Name = "<b>ITWeiHan</b>" } };
 
-//การ encode ค่าเริ่มต้น
+//Default Encoding
 var encodinghtml = sourceData.ToHtmlTable();
 //ผลลัพธ์: <table>..&lt;b&gt;ITWeiHan&lt;/b&gt;..</table>
 
@@ -141,7 +147,7 @@ var notEncodinghtml = sourceData.ToHtmlTable(HTMLTableSetting: htmltablesetting)
 //ผลลัพธ์: <table>..<b>ITWeiHan</b>..</table>
 ```
 
-### ส่วนขยาย
+### Extension
 **ASP.NET Core MVC:**  
 สร้างไฟล์ IHtmlHelperExtension.cs
 ```C#
@@ -192,24 +198,25 @@ public static class HtmlHelperExtension
         , object tableAttributes = null, object trAttributes = null, object tdAttributes = null
         , HtmlTableSetting HTMLTableSetting = null)
     {
+```
+```csharp
         var html = enums.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
         return new HtmlString(html);
     }
 
     public static HtmlString ToHtmlTable<T>(this HtmlHelper htmlHelper, System.Data.DataTable datatable
         , object tableAttributes = null, object trAttributes = null, object tdAttributes = null
-```csharp
-, HtmlTableSetting HTMLTableSetting = null)
-{
-    var html = datatable.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
-    return new HtmlString(html);
-}
+        , HtmlTableSetting HTMLTableSetting = null)
+    {
+        var html = datatable.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
+        return new HtmlString(html);
+    }
 }
 ```
 
-### สาธิตการใช้งาน
+### ตัวอย่างสาธิต
 **ASP.NET MVC 5 JQuery DataTable Demo:**  
-```csharp
+```C#
 using HtmlTableHelper;
 //..
 public class HomeController : Controller
@@ -223,7 +230,7 @@ public class HomeController : Controller
 }
 ```
 
-```csharp
+```C#
 @{
     Layout = null;
 }
@@ -251,8 +258,9 @@ public class HomeController : Controller
 </html>
 ```
 
-**ASP.NET Core Demo:**
-```csharp
+
+**ASP.NET Core ตัวอย่างสาธิต:**
+```C#
 public class Startup
 {
     public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -271,10 +279,10 @@ public class Startup
 #### TODO:
 - [ ] รองรับ .NET 4.0
 - [ ] รองรับ EF Model
-- [ ] รองรับ property ใช้ custom html attribute
+- [ ] รองรับ property ใช้งาน custom html attribute 
 
 ระบุคอลัมน์
-```csharp
+```C#
 using HtmlTableHelper;
 ..
 public class Person{
@@ -299,19 +307,18 @@ var tablehtml = sourceData.ToHtmlTable(new[]{name});
 -->
 
 <!---
-editable + ajax ตารางที่แก้ไขได้
+editable + ajax ตารางที่สามารถแก้ไขได้
     - ปัญหา Route
-    - ฟังก์ชันเพิ่มลบแก้ไขค้นหา
+    - ฟังก์ชันเพิ่ม ลบ แก้ไข ค้นหา
     - ต้องการ SID
 - [ ] รองรับการแบ่งหน้า (Paging)
     ใช้ linq skip และ take
     แต่จะมีปัญหาใน datatable
-    ดูเหมือนว่าต้องแปลง datatable เป็น enumerable
+    ดูเหมือนว่าต้องแปลง datatable เป็น enumrable
 --->
-
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-30
 
 ---

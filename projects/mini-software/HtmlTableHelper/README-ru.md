@@ -1,15 +1,21 @@
 [![NuGet](https://img.shields.io/nuget/v/HtmlTableHelper.svg)](https://www.nuget.org/packages/HtmlTableHelper)
 ![](https://img.shields.io/nuget/dt/HtmlTableHelper.svg)
 
-### Возможности
-- Миниатюрная (размер DLL всего 20KB) и простая в использовании.
+---
+
+<div style="text-align: center"><p><a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> </p></div>
+
+---
+
+### Особенности
+- Минималистичная (размер DLL всего 20KB) и простая в использовании.
 - Поддержка .NET Standard 2.0/.NET 4.6/.NET 4.5/.NET 4.0
-- Без сторонних библиотек
-- Поддержка анонимных типов, динамических запросов Dapper, List/Array/Set/Enumerable, DataTable, Dictionary
+- Без использования сторонних библиотек
+- Поддержка анонимных типов, Dapper Dynamic Query, List/Array/Set/Enumerable, DataTable, Dictionary
 
 ### Установка
 
-Вы можете установить пакет [с NuGet](https://www.nuget.org/packages/HtmlTableHelper) с помощью диспетчера пакетов Visual Studio или интерфейса NuGet:
+Вы можете установить пакет [через NuGet](https://www.nuget.org/packages/HtmlTableHelper) с помощью диспетчера пакетов Visual Studio или через NuGet UI:
 
 ```cmd
 PM> install-package HtmlTableHelper
@@ -25,7 +31,7 @@ dotnet add package HtmlTableHelper
 - [HtmlTableHelper ConsoleDemo](https://dotnetfiddle.net/DzddCl)
 - [HtmlTableHelper ASP.NET MVC Demo (JQuery DataTable)](https://dotnetfiddle.net/u9Ia6M)
 
-### Начало работы
+### Быстрый старт
 
 ##### Пример для List/Array/Set/Enumerable не Key/Value типа
 ```C#
@@ -39,16 +45,16 @@ var tablehtml = sourceData.ToHtmlTable();
 */
 ```
 
-##### Пример Dapper
+##### Пример с Dapper
 ```C#
-using (var cn = "Your Connection")
+using (var cn = "Ваше подключение")
 {
 	var sourceData = cn.Query(@"select 'ITWeiHan' Name,25 Age,'M' Gender");
 	var tablehtml = sourceData.ToHtmlTable();
 }
 ```
 
-##### Пример Dictionary
+##### Пример с Dictionary 
 ```C#
 var sourceData = new[] {new Dictionary<string, object> (){{"Name" , "ITWeiHan" },{"Age",25},{"Gender","M"}}};
 var tablehtml = sourceData.ToHtmlTable();
@@ -67,8 +73,8 @@ var tablehtml = sourceData.ToHtmlTableByDictionary();
 **Пользовательские атрибуты Table/TR/TD/TH (Dynamic Type)**
 
 ```C#
-var data = /*List/Array/Set/Enumrable..*/;
-var html = data.ToHtmlTable( tableAttributes: new { @class = "SomeClass"} //это dynamic type, поддерживает все атрибуты 
+var data = /*List/Array/Set/Enumerable..*/;
+var html = data.ToHtmlTable( tableAttributes: new { @class = "SomeClass"} //это dynamic type, поддерживаются любые атрибуты 
     ,trAttributes: new { ID = "SomeID" },tdAttributes: new { width = "120 px" },thAttributes: new { @class = "dark-theme" }
 );
 /*
@@ -91,18 +97,17 @@ var html = data.ToHtmlTable( tableAttributes: new { @class = "SomeClass"} //эт
 ##### Аннотация атрибутов
 
 ###### 1. Display : 
-
 ```C#
 public class ModelClassWithDisplayAttr
 {
-    [TableColumn(DisplayName = "Column1")] //Свойство MyProperty1 отобразится в thead-td с текстом: "Column1"
+    [TableColumn(DisplayName = "Column1")] //Свойство MyProperty1 отрисует innertext thead-td: "Column1"
     public string MyProperty1 { get; set; }
-    [TableColumn(DisplayName = "Column2")] //Свойство MyProperty2 отобразится в thead-td с текстом: "Column2"
+    [TableColumn(DisplayName = "Column2")] //Свойство MyProperty2 отрисует innertext thead-td: "Column2"
     public string MyProperty2 { get; set; }
 }
 ```
 
-###### 2. Skip : 
+###### 2. Пропуск : 
 ```C#
 public class ModelClassWithSkipAttr
 {
@@ -125,7 +130,7 @@ var html = soucreData.CreateBuilder()
 
 ##### HTMLTableSetting
 
-Настраиваемое кодирование InnerHtml (Не рекомендуется отключать без особой необходимости, из-за угрозы XSS)
+Настраиваемое кодирование InnerHtml (Не рекомендуется делать это без особой необходимости, из-за XSS атак)
 ```C#
 var sourceData = new[] { new { Name = "<b>ITWeiHan</b>" } };
 
@@ -192,14 +197,14 @@ public static class HtmlHelperExtension
         , object tableAttributes = null, object trAttributes = null, object tdAttributes = null
         , HtmlTableSetting HTMLTableSetting = null)
     {
-        var html = enums.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
-        return new HtmlString(html);
-    }
-
-    public static HtmlString ToHtmlTable<T>(this HtmlHelper htmlHelper, System.Data.DataTable datatable
-        , object tableAttributes = null, object trAttributes = null, object tdAttributes = null
 ```csharp
-, HtmlTableSetting HTMLTableSetting = null)
+var html = enums.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
+return new HtmlString(html);
+}
+
+public static HtmlString ToHtmlTable<T>(this HtmlHelper htmlHelper, System.Data.DataTable datatable
+    , object tableAttributes = null, object trAttributes = null, object tdAttributes = null
+    , HtmlTableSetting HTMLTableSetting = null)
 {
     var html = datatable.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
     return new HtmlString(html);
@@ -251,6 +256,7 @@ public class HomeController : Controller
 </html>
 ```
 
+
 **Демонстрация ASP.NET Core:**
 ```C#
 public class Startup
@@ -294,24 +300,23 @@ var tablehtml = sourceData.ToHtmlTable(new[]{name});
 
 <!--
 Прочитайте эту страницу
-[security - Will HTML Encoding prevent all kinds of XSS attacks? - Stack Overflow]
+[security - Предотвращает ли HTML-кодирование все виды XSS-атак? - Stack Overflow]
 (https://stackoverflow.com/questions/53728/will-html-encoding-prevent-all-kinds-of-xss-attacks)
 -->
 
 <!---
-editable + ajax Редактируемая таблица
-    - Проблема маршрутизации
-    - Функционал добавления, удаления, изменения, просмотра
-    - Необходим SID
+editable + ajax редактируемая таблица
+    - Проблема маршрутизации (Route)
+    - Функции добавления, удаления, изменения, просмотра (CRUD)
+    - Требуется SID
 - [ ] Поддержка пагинации
-    используя linq skip и take
-    но могут возникнуть проблемы с datatable
-    похоже, нужно конвертировать datatable в enumrable
+    использование linq skip и take
+    но это вызывает проблемы с datatable
+    похоже, мне нужно преобразовать datatable в enumerable
 --->
-```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-30
 
 ---

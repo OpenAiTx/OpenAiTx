@@ -1,15 +1,21 @@
 [![NuGet](https://img.shields.io/nuget/v/HtmlTableHelper.svg)](https://www.nuget.org/packages/HtmlTableHelper)
 ![](https://img.shields.io/nuget/dt/HtmlTableHelper.svg)
 
-### امکانات
-- بسیار کوچک (سایز DLL فقط 20KB) و آسان برای استفاده.
+---
+
+<div style="text-align: center"><p><a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> </p></div>
+
+---
+
+### ویژگی‌ها
+- بسیار کوچک (حجم DLL فقط ۲۰ کیلوبایت) و استفاده آسان.
 - پشتیبانی از .NET Standard 2.0/.NET 4.6/.NET 4.5/.NET 4.0
 - بدون نیاز به هیچ کتابخانه شخص ثالث
-- پشتیبانی از انواع ناشناس، Dapper Dynamic Query، لیست/آرایه/مجموعه/Enumerable، DataTable، دیکشنری
+- پشتیبانی از انواع ناشناس، Dapper Dynamic Query، لیست/آرایه/Set/Enumerable، DataTable، Dictionary
 
 ### نصب
 
-شما می‌توانید این پکیج را [از NuGet](https://www.nuget.org/packages/HtmlTableHelper) با استفاده از Visual Studio Package Manager یا رابط کاربری NuGet نصب کنید:
+شما می‌توانید این بسته را [از NuGet](https://www.nuget.org/packages/HtmlTableHelper) با استفاده از Visual Studio Package Manager یا رابط کاربری NuGet نصب کنید:
 
 ```cmd
 PM> install-package HtmlTableHelper
@@ -21,13 +27,13 @@ PM> install-package HtmlTableHelper
 dotnet add package HtmlTableHelper
 ```
 
-### دمو Fiddle:
+### دموی Fiddle:
 - [HtmlTableHelper ConsoleDemo](https://dotnetfiddle.net/DzddCl)
 - [HtmlTableHelper ASP.NET MVC Demo (JQuery DataTable)](https://dotnetfiddle.net/u9Ia6M)
 
 ### شروع کار
 
-##### مثال لیست/آرایه/مجموعه/Enumerable نوع غیر کلیدی/مقداری
+##### مثال لیست/آرایه/Set/Enumerable از نوع غیر کلید/مقدار
 ```C#
 using HtmlTableHelper;
 ..
@@ -55,7 +61,7 @@ var tablehtml = sourceData.ToHtmlTable();
 ```
 
 <!--
-**اما** برای انواع کلیدی/مقداری دیگر لطفاً از `ToHtmlTableByDictionary` استفاده کنید.
+**اما** برای دیگر انواع کلید/مقدار لطفاً از `ToHtmlTableByDictionary` استفاده کنید
 ```C#
 var sourceData = new[] {
     new Dictionary<SomeKeyType, SomeValueType> (){...}
@@ -64,7 +70,7 @@ var tablehtml = sourceData.ToHtmlTableByDictionary();
 ```
 --->
 
-**ویژگی‌های سفارشی Table/TR/TD/TH (نوع داینامیک)**
+**سفارشی‌سازی ویژگی‌های جدول/TR/TD/TH (نوع داینامیک)**
 
 ```C#
 var data = /*List/Array/Set/Enumrable..*/;
@@ -88,26 +94,25 @@ var html = data.ToHtmlTable( tableAttributes: new { @class = "SomeClass"} //ای
 */
 ```
 
-##### توضیح Annotation ویژگی‌ها
+##### توضیحات ویژگی‌ها
 
 ###### 1. Display : 
-
 ```C#
 public class ModelClassWithDisplayAttr
 {
-    [TableColumn(DisplayName = "Column1")] //ویژگی MyProperty1 مقدار "Column1" را در thead-td نمایش می‌دهد
+    [TableColumn(DisplayName = "ستون1")] //ویژگی MyProperty1 متن داخلی thead-td را به صورت "ستون1" نمایش می‌دهد
     public string MyProperty1 { get; set; }
-    [TableColumn(DisplayName = "Column2")] //ویژگی MyProperty2 مقدار "Column2" را در thead-td نمایش می‌دهد
+    [TableColumn(DisplayName = "ستون2")] //ویژگی MyProperty2 متن داخلی thead-td را به صورت "ستون2" نمایش می‌دهد
     public string MyProperty2 { get; set; }
 }
 ```
 
-###### 2. Skip : 
+###### ۲. Skip :
 ```C#
 public class ModelClassWithSkipAttr
 {
     [TableColumn( Skip = true)]
-    public string MyProperty1 { get; set; } //MyProperty1 در HTML رندر نخواهد شد
+    public string MyProperty1 { get; set; } //MyProperty1 در خروجی HTML نمایش داده نمی‌شود
     public string MyProperty2 { get; set; }
 }
 ```
@@ -118,18 +123,18 @@ public class ModelClassWithSkipAttr
 ```C#
 var soucreData = new []{ new {MyProperty1="test",MyProperty2=123} };
 var html = soucreData.CreateBuilder()
-    .SetCaption("This is Caption", new { id = "CaptionId" })
+    .SetCaption("این یک کپشن است", new { id = "CaptionId" })
     .ToHtmlTable();
-//نتیجه : <table><caption id=\"CaptionId\" >This is Caption</caption><thead><tr><th>MyProperty1</th><th>MyProperty2</th></tr></thead><tbody><tr><td>test</td><td>123</td></tr></tbody></table>
+//نتیجه : <table><caption id=\"CaptionId\" >این یک کپشن است</caption><thead><tr><th>MyProperty1</th><th>MyProperty2</th></tr></thead><tbody><tr><td>test</td><td>123</td></tr></tbody></table>
 ```
 
 ##### HTMLTableSetting
 
-تنظیم قابل پیکربندی برای رمزگذاری InnerHtml (توصیه می‌شود بدون دلیل خاص این کار را انجام ندهید، زیرا حمله XSS ممکن است اتفاق بیفتد)
+پیکربندی کدگذاری InnerHtml (توصیه می‌شود بدون دلیل خاصی این کار انجام نشود، به دلیل حملات XSS)
 ```C#
 var sourceData = new[] { new { Name = "<b>ITWeiHan</b>" } };
 
-//رمزگذاری پیش‌فرض
+//کدگذاری پیش‌فرض
 var encodinghtml = sourceData.ToHtmlTable();
 //نتیجه: <table>..&lt;b&gt;ITWeiHan&lt;/b&gt;..</table>
 
@@ -141,9 +146,9 @@ var notEncodinghtml = sourceData.ToHtmlTable(HTMLTableSetting: htmltablesetting)
 //نتیجه: <table>..<b>ITWeiHan</b>..</table>
 ```
 
-### توسعه
+### Extension
 **ASP.NET Core MVC:**  
-یک فایل IHtmlHelperExtension.cs ایجاد کنید
+یک فایل IHtmlHelperExtension.cs بسازید
 ```C#
 using System.Collections.Generic;
 using HtmlTableHelper;
@@ -179,7 +184,7 @@ razor.cshtml
 ```
 
 **ASP.NET MVC 5:**   
-یک فایل HtmlHelperExtension.cs ایجاد کنید
+یک فایل HtmlHelperExtension.cs بسازید
 ```C#
 using System.Collections.Generic;
 using HtmlTableHelper;
@@ -192,14 +197,15 @@ public static class HtmlHelperExtension
         , object tableAttributes = null, object trAttributes = null, object tdAttributes = null
         , HtmlTableSetting HTMLTableSetting = null)
     {
-        var html = enums.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
-        return new HtmlString(html);
-    }
-
-    public static HtmlString ToHtmlTable<T>(this HtmlHelper htmlHelper, System.Data.DataTable datatable
-        , object tableAttributes = null, object trAttributes = null, object tdAttributes = null
+```
 ```csharp
-, HtmlTableSetting HTMLTableSetting = null)
+var html = enums.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
+return new HtmlString(html);
+}
+
+public static HtmlString ToHtmlTable<T>(this HtmlHelper htmlHelper, System.Data.DataTable datatable
+    , object tableAttributes = null, object trAttributes = null, object tdAttributes = null
+    , HtmlTableSetting HTMLTableSetting = null)
 {
     var html = datatable.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
     return new HtmlString(html);
@@ -207,7 +213,7 @@ public static class HtmlHelperExtension
 }
 ```
 
-### دمـو
+### دموی نمونه
 **دموی ASP.NET MVC 5 JQuery DataTable:**  
 ```C#
 using HtmlTableHelper;
@@ -271,7 +277,7 @@ public class Startup
 #### TODO:
 - [ ] پشتیبانی از .NET 4.0
 - [ ] پشتیبانی از مدل EF
-- [ ] پشتیبانی از ویژگی استفاده از خصوصیت HTML سفارشی
+- [ ] پشتیبانی از ویژگی‌های سفارشی HTML برای پراپرتی‌ها
 
 تعیین ستون‌ها
 ```C#
@@ -294,24 +300,23 @@ var tablehtml = sourceData.ToHtmlTable(new[]{name});
 
 <!--
 این صفحه را بخوانید
-[security - Will HTML Encoding prevent all kinds of XSS attacks? - Stack Overflow]
+[امنیت - آیا رمزگذاری HTML از تمام انواع حملات XSS جلوگیری می‌کند؟ - Stack Overflow]
 (https://stackoverflow.com/questions/53728/will-html-encoding-prevent-all-kinds-of-xss-attacks)
 -->
 
 <!---
-editable + ajax جدول قابل ویرایش
+editable + ajax جدول قابل ویرایش با ایجکس
     - مشکل Route
-    - قابلیت‌های افزودن/حذف/ویرایش/جستجو
+    - قابلیت‌های افزودن، حذف، ویرایش، جستجو
     - نیاز به SID
 - [ ] پشتیبانی از صفحه‌بندی
     با استفاده از linq skip و take
-    اما در datatable مشکل خواهد داشت
-    به نظر می‌رسد باید datatable را به enumrable تبدیل کنم
+    اما در دیتاتیبل مشکل ایجاد می‌شود
+    به نظر می‌رسد باید دیتاتیبل را به enumrable تبدیل کنم
 --->
-
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-30
 
 ---

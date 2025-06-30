@@ -1,15 +1,21 @@
 [![NuGet](https://img.shields.io/nuget/v/HtmlTableHelper.svg)](https://www.nuget.org/packages/HtmlTableHelper)
 ![](https://img.shields.io/nuget/dt/HtmlTableHelper.svg)
 
+---
+
+<div style="text-align: center"><p><a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> </p></div>
+
+---
+
 ### Fonctionnalités
-- Mini (taille de la DLL seulement 20KB) et facile à utiliser.
-- Prend en charge .NET Standard 2.0/.NET 4.6/.NET 4.5/.NET 4.0
+- Mini (taille DLL seulement 20KB) et facile à utiliser.
+- Supporte .NET Standard 2.0/.NET 4.6/.NET 4.5/.NET 4.0
 - Sans aucune bibliothèque tierce
-- Prend en charge les types anonymes, requêtes dynamiques Dapper, List/Array/Set/Enumerable, DataTable, Dictionary
+- Prend en charge les types anonymes, requête dynamique Dapper, List/Array/Set/Enumerable, DataTable, Dictionary
 
 ### Installation
 
-Vous pouvez installer le package [depuis NuGet](https://www.nuget.org/packages/HtmlTableHelper) en utilisant le gestionnaire de packages Visual Studio ou l'interface NuGet :
+Vous pouvez installer le package [depuis NuGet](https://www.nuget.org/packages/HtmlTableHelper) en utilisant le Visual Studio Package Manager ou l’interface NuGet :
 
 ```cmd
 PM> install-package HtmlTableHelper
@@ -21,13 +27,13 @@ ou la ligne de commande `dotnet` :
 dotnet add package HtmlTableHelper
 ```
 
-### Démonstration Fiddle :
+### Démo Fiddle :
 - [HtmlTableHelper ConsoleDemo](https://dotnetfiddle.net/DzddCl)
 - [HtmlTableHelper ASP.NET MVC Demo (JQuery DataTable)](https://dotnetfiddle.net/u9Ia6M)
 
-### Commencer
+### Pour commencer
 
-##### Exemple de List/Array/Set/Enumerable de type non clé/valeur
+##### Exemple List/Array/Set/Enumerable de type non Clé/Valeur
 ```C#
 using HtmlTableHelper;
 ..
@@ -41,7 +47,7 @@ Résultat :
 
 ##### Exemple Dapper
 ```C#
-using (var cn = "Your Connection")
+using (var cn = "Votre Connexion")
 {
 	var sourceData = cn.Query(@"select 'ITWeiHan' Name,25 Age,'M' Gender");
 	var tablehtml = sourceData.ToHtmlTable();
@@ -55,7 +61,7 @@ var tablehtml = sourceData.ToHtmlTable();
 ```
 
 <!--
-**Mais** pour un autre type clé/valeur, veuillez utiliser `ToHtmlTableByDictionary`
+**Mais** pour un autre type Clé/Valeur, veuillez utiliser `ToHtmlTableByDictionary`
 ```C#
 var sourceData = new[] {
     new Dictionary<SomeKeyType, SomeValueType> (){...}
@@ -68,11 +74,11 @@ var tablehtml = sourceData.ToHtmlTableByDictionary();
 
 ```C#
 var data = /*List/Array/Set/Enumerable..*/;
-var html = data.ToHtmlTable( tableAttributes: new { @class = "SomeClass"} // ceci est un type dynamique, prend en charge tous les attributs 
+var html = data.ToHtmlTable( tableAttributes: new { @class = "SomeClass"} // ceci est un type dynamique, supporte tout attribut 
     ,trAttributes: new { ID = "SomeID" },tdAttributes: new { width = "120 px" },thAttributes: new { @class = "dark-theme" }
 );
 /*
-Résultat :
+Résultat :
 <table class="SomeClass">
 	<thead>
 		<tr ID="SomeID">
@@ -90,24 +96,23 @@ Résultat :
 
 ##### Annotation d'attribut
 
-###### 1. Display : 
-
+###### 1. Display : 
 ```C#
 public class ModelClassWithDisplayAttr
 {
-    [TableColumn(DisplayName = "Column1")] //La propriété MyProperty1 affichera dans le thead-td le texte : "Column1"
+    [TableColumn(DisplayName = "Colonne1")] //La propriété MyProperty1 affichera dans thead-td : "Colonne1"
     public string MyProperty1 { get; set; }
-    [TableColumn(DisplayName = "Column2")] //La propriété MyProperty2 affichera dans le thead-td le texte : "Column2"
+    [TableColumn(DisplayName = "Colonne2")] //La propriété MyProperty2 affichera dans thead-td : "Colonne2"
     public string MyProperty2 { get; set; }
 }
 ```
 
-###### 2. Skip : 
+###### 2. Sauter : 
 ```C#
 public class ModelClassWithSkipAttr
 {
     [TableColumn( Skip = true)]
-    public string MyProperty1 { get; set; } //MyProperty1 ne sera pas affichée dans le html
+    public string MyProperty1 { get; set; } //MyProperty1 ne sera pas rendu en html
     public string MyProperty2 { get; set; }
 }
 ```
@@ -118,32 +123,32 @@ public class ModelClassWithSkipAttr
 ```C#
 var soucreData = new []{ new {MyProperty1="test",MyProperty2=123} };
 var html = soucreData.CreateBuilder()
-    .SetCaption("This is Caption", new { id = "CaptionId" })
+    .SetCaption("Ceci est la légende", new { id = "CaptionId" })
     .ToHtmlTable();
-//Résultat : <table><caption id=\"CaptionId\" >This is Caption</caption><thead><tr><th>MyProperty1</th><th>MyProperty2</th></tr></thead><tbody><tr><td>test</td><td>123</td></tr></tbody></table>
+//Résultat : <table><caption id=\"CaptionId\" >Ceci est la légende</caption><thead><tr><th>MyProperty1</th><th>MyProperty2</th></tr></thead><tbody><tr><td>test</td><td>123</td></tr></tbody></table>
 ```
 
 ##### HTMLTableSetting
 
-Encodage configurable de InnerHtml (déconseillé sauf raison particulière, risque d’attaque XSS)
+Encodage InnerHtml configurable (Non recommandé sauf raison spécifique, risque d'attaque XSS)
 ```C#
 var sourceData = new[] { new { Name = "<b>ITWeiHan</b>" } };
 
 //Encodage par défaut
 var encodinghtml = sourceData.ToHtmlTable();
-//Résultat : <table>..&lt;b&gt;ITWeiHan&lt;/b&gt;..</table>
+//Résultat : <table>..&lt;b&gt;ITWeiHan&lt;/b&gt;..</table>
 
 var htmltablesetting = new HTMLTableSetting()
 {
     IsHtmlEncodeMode = false
 };
 var notEncodinghtml = sourceData.ToHtmlTable(HTMLTableSetting: htmltablesetting);
-//Résultat : <table>..<b>ITWeiHan</b>..</table>
+//Résultat : <table>..<b>ITWeiHan</b>..</table>
 ```
 
 ### Extension
-**ASP.NET Core MVC :**  
-Créez un fichier IHtmlHelperExtension.cs
+**ASP.NET Core MVC :**  
+Créer un fichier IHtmlHelperExtension.cs
 ```C#
 using System.Collections.Generic;
 using HtmlTableHelper;
@@ -178,8 +183,8 @@ Résultat :<table><thead><tr><th>Name</th><th>Age</th><th>Gender</th></tr></thea
 */
 ```
 
-**ASP.NET MVC 5 :**   
-Créez un fichier HtmlHelperExtension.cs
+**ASP.NET MVC 5 :**   
+Créer un fichier HtmlHelperExtension.cs
 ```C#
 using System.Collections.Generic;
 using HtmlTableHelper;
@@ -192,14 +197,14 @@ public static class HtmlHelperExtension
         , object tableAttributes = null, object trAttributes = null, object tdAttributes = null
         , HtmlTableSetting HTMLTableSetting = null)
     {
-        var html = enums.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
-        return new HtmlString(html);
-    }
-
-    public static HtmlString ToHtmlTable<T>(this HtmlHelper htmlHelper, System.Data.DataTable datatable
-        , object tableAttributes = null, object trAttributes = null, object tdAttributes = null
 ```csharp
-, HtmlTableSetting HTMLTableSetting = null)
+var html = enums.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
+return new HtmlString(html);
+}
+
+public static HtmlString ToHtmlTable<T>(this HtmlHelper htmlHelper, System.Data.DataTable datatable
+    , object tableAttributes = null, object trAttributes = null, object tdAttributes = null
+    , HtmlTableSetting HTMLTableSetting = null)
 {
     var html = datatable.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
     return new HtmlString(html);
@@ -207,7 +212,7 @@ public static class HtmlHelperExtension
 }
 ```
 
-### Démo
+### Démonstration
 **Démo ASP.NET MVC 5 JQuery DataTable :**  
 ```C#
 using HtmlTableHelper;
@@ -272,7 +277,7 @@ public class Startup
 #### À FAIRE :
 - [ ] Supporter .NET 4.0
 - [ ] Supporter le modèle EF
-- [ ] Supporter l'utilisation d'attributs html personnalisés sur les propriétés
+- [ ] Supporter l'utilisation d'attributs html personnalisés pour les propriétés
 
 Spécifier les colonnes
 ```C#
@@ -292,28 +297,25 @@ Résultat :
 */
 ```
 -->
-
-
 <!--
-Lire cette page
-[security - Le HTML Encoding prévient-il toutes les formes d'attaques XSS ? - Stack Overflow]
+Lisez cette page
+[sécurité - L'encodage HTML prévient-il tous les types d'attaques XSS ? - Stack Overflow]
 (https://stackoverflow.com/questions/53728/will-html-encoding-prevent-all-kinds-of-xss-attacks)
 -->
 
 <!---
-editable + ajax Table éditable
-    - Problème de routage
-    - Fonctionnalités CRUD
-    - Besoin de SID
-- [ ] Support de la pagination
-    utilisation de linq skip et take
-    mais cela posera des problèmes avec datatable
-    il semble que je doive convertir datatable en enumrable
+tableau éditable + ajax tableau éditable
+    - Problème de route
+    - Fonctionnalités CRUD (ajouter, supprimer, modifier, consulter)
+    - Nécessite un SID
+- [ ] Prendre en charge la pagination
+    en utilisant linq skip et take
+    mais cela posera problème avec datatable
+    il semble que je doive convertir datatable en enumerable
 --->
-```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-30
 
 ---

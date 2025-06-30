@@ -1,8 +1,14 @@
 [![NuGet](https://img.shields.io/nuget/v/HtmlTableHelper.svg)](https://www.nuget.org/packages/HtmlTableHelper)
 ![](https://img.shields.io/nuget/dt/HtmlTableHelper.svg)
 
+---
+
+<div style="text-align: center"><p><a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> </p></div>
+
+---
+
 ### Fitur
-- Mini (Ukuran DLL hanya 20KB) dan Mudah digunakan.
+- Mini (Ukuran DLL Hanya 20KB) dan Mudah digunakan.
 - Mendukung .NET Standard 2.0/.NET 4.6/.NET 4.5/.NET 4.0
 - Tanpa Library Pihak Ketiga
 - Mendukung Tipe Anonim, Dapper Dynamic Query, List/Array/Set/Enumerable, DataTable, Dictionary
@@ -15,17 +21,17 @@ Anda dapat menginstal paket [dari NuGet](https://www.nuget.org/packages/HtmlTabl
 PM> install-package HtmlTableHelper
 ```
 
-atau menggunakan command line `dotnet`:
+atau perintah `dotnet` di command line:
 
 ```cmd
 dotnet add package HtmlTableHelper
 ```
 
-### Fiddle Demo:
+### Demo Fiddle:
 - [HtmlTableHelper ConsoleDemo](https://dotnetfiddle.net/DzddCl)
 - [HtmlTableHelper ASP.NET MVC Demo (JQuery DataTable)](https://dotnetfiddle.net/u9Ia6M)
 
-### Memulai
+### Mulai
 
 ##### Contoh List/Array/Set/Enumerable non Key/Value Type
 ```C#
@@ -48,14 +54,14 @@ using (var cn = "Your Connection")
 }
 ```
 
-##### Contoh Dictionary 
+##### Contoh Dictionary
 ```C#
 var sourceData = new[] {new Dictionary<string, object> (){{"Name" , "ITWeiHan" },{"Age",25},{"Gender","M"}}};
 var tablehtml = sourceData.ToHtmlTable();
 ```
 
 <!--
-**Namun** untuk tipe Key/Value lainnya silakan gunakan `ToHtmlTableByDictionary`
+**Tetapi** untuk tipe Key/Value lain silakan gunakan `ToHtmlTableByDictionary`
 ```C#
 var sourceData = new[] {
     new Dictionary<SomeKeyType, SomeValueType> (){...}
@@ -64,11 +70,11 @@ var tablehtml = sourceData.ToHtmlTableByDictionary();
 ```
 --->
 
-**Custom Table/TR/TD/TH Attributes (Dynamic Type)**
+**Atribut Kustom pada Table/TR/TD/TH (Tipe Dinamis)**
 
 ```C#
-var data = /*List/Array/Set/Enumrable..*/;
-var html = data.ToHtmlTable( tableAttributes: new { @class = "SomeClass"} //ini adalah dynamic type, mendukung semua atribut 
+var data = /*List/Array/Set/Enumerable..*/;
+var html = data.ToHtmlTable( tableAttributes: new { @class = "SomeClass"} //ini adalah tipe dinamis, mendukung semua atribut 
     ,trAttributes: new { ID = "SomeID" },tdAttributes: new { width = "120 px" },thAttributes: new { @class = "dark-theme" }
 );
 /*
@@ -88,16 +94,15 @@ Hasil:
 */
 ```
 
-##### Attribute Annotation
+##### Anotasi Atribut
 
 ###### 1. Display : 
-
 ```C#
 public class ModelClassWithDisplayAttr
 {
-    [TableColumn(DisplayName = "Column1")] //Properti MyProperty1 akan merender innertext thead-td: "Column1"
+    [TableColumn(DisplayName = "Kolom1")] //Properti MyProperty1 akan merender innertext thead-td: "Kolom1"
     public string MyProperty1 { get; set; }
-    [TableColumn(DisplayName = "Column2")] //Properti MyProperty2 akan merender innertext thead-td: "Column2"
+    [TableColumn(DisplayName = "Kolom2")] //Properti MyProperty2 akan merender innertext thead-td: "Kolom2"
     public string MyProperty2 { get; set; }
 }
 ```
@@ -107,7 +112,7 @@ public class ModelClassWithDisplayAttr
 public class ModelClassWithSkipAttr
 {
     [TableColumn( Skip = true)]
-    public string MyProperty1 { get; set; } //MyProperty1 tidak akan dirender ke html
+    public string MyProperty1 { get; set; } //MyProperty1 tidak akan merender html
     public string MyProperty2 { get; set; }
 }
 ```
@@ -118,14 +123,14 @@ public class ModelClassWithSkipAttr
 ```C#
 var soucreData = new []{ new {MyProperty1="test",MyProperty2=123} };
 var html = soucreData.CreateBuilder()
-    .SetCaption("This is Caption", new { id = "CaptionId" })
+    .SetCaption("Ini adalah Caption", new { id = "CaptionId" })
     .ToHtmlTable();
-//Hasil : <table><caption id=\"CaptionId\" >This is Caption</caption><thead><tr><th>MyProperty1</th><th>MyProperty2</th></tr></thead><tbody><tr><td>test</td><td>123</td></tr></tbody></table>
+//Hasil : <table><caption id=\"CaptionId\" >Ini adalah Caption</caption><thead><tr><th>MyProperty1</th><th>MyProperty2</th></tr></thead><tbody><tr><td>test</td><td>123</td></tr></tbody></table>
 ```
 
 ##### HTMLTableSetting
 
-Konfigurasi InnerHtml Encoding (Disarankan untuk tidak dilakukan kecuali ada alasan khusus, karena serangan XSS)
+Pengaturan Encoding InnerHtml yang dapat dikonfigurasi (Disarankan untuk tidak dilakukan tanpa alasan khusus, karena serangan XSS)
 ```C#
 var sourceData = new[] { new { Name = "<b>ITWeiHan</b>" } };
 
@@ -143,7 +148,7 @@ var notEncodinghtml = sourceData.ToHtmlTable(HTMLTableSetting: htmltablesetting)
 
 ### Extension
 **ASP.NET Core MVC:**  
-Buat file IHtmlHelperExtension.cs
+Buat sebuah IHtmlHelperExtension.cs
 ```C#
 using System.Collections.Generic;
 using HtmlTableHelper;
@@ -179,7 +184,7 @@ Hasil:<table><thead><tr><th>Name</th><th>Age</th><th>Gender</th></tr></thead><tb
 ```
 
 **ASP.NET MVC 5:**   
-Buat file HtmlHelperExtension.cs
+Buat sebuah HtmlHelperExtension.cs
 ```C#
 using System.Collections.Generic;
 using HtmlTableHelper;
@@ -190,8 +195,17 @@ public static class HtmlHelperExtension
 {
     public static HtmlString ToHtmlTable<T>(this HtmlHelper htmlHelper, IEnumerable<T> enums
         , object tableAttributes = null, object trAttributes = null, object tdAttributes = null
-```csharp
-, HtmlTableSetting HTMLTableSetting = null)
+        , HtmlTableSetting HTMLTableSetting = null)
+    {
+```
+```
+var html = enums.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
+return new HtmlString(html);
+}
+
+public static HtmlString ToHtmlTable<T>(this HtmlHelper htmlHelper, System.Data.DataTable datatable
+    , object tableAttributes = null, object trAttributes = null, object tdAttributes = null
+    , HtmlTableSetting HTMLTableSetting = null)
 {
     var html = datatable.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
     return new HtmlString(html);
@@ -243,6 +257,7 @@ public class HomeController : Controller
 </html>
 ```
 
+
 **Demo ASP.NET Core:**
 ```C#
 public class Startup
@@ -261,9 +276,9 @@ public class Startup
 
 <!--
 #### TODO:
-- [ ] Dukungan .NET 4.0
-- [ ] Dukungan Model EF
-- [ ] Dukungan properti menggunakan atribut html kustom 
+- [ ] Mendukung .NET 4.0
+- [ ] Mendukung EF Model
+- [ ] Mendukung properti menggunakan atribut html kustom
 
 Menentukan kolom
 ```C#
@@ -286,24 +301,23 @@ Hasil:
 
 <!--
 Baca Halaman Ini
-[security - Apakah HTML Encoding akan mencegah semua jenis serangan XSS? - Stack Overflow]
+[security - Apakah HTML Encoding dapat mencegah semua jenis serangan XSS? - Stack Overflow]
 (https://stackoverflow.com/questions/53728/will-html-encoding-prevent-all-kinds-of-xss-attacks)
 -->
 
 <!---
 editable + ajax Tabel yang dapat diedit
     - Masalah Route
-    - Fitur CRUD (Create, Read, Update, Delete)
+    - Fungsi tambah, hapus, ubah, cari
     - Membutuhkan SID
-- [ ] Dukungan Paging
+- [ ] Mendukung Paging
     menggunakan linq skip dan take
-    tapi akan bermasalah di datatable
-    sepertinya saya harus mengkonversi datatable menjadi enumerable
+    tetapi akan bermasalah pada datatable
+    sepertinya saya harus mengonversi datatable menjadi enumerable
 --->
-```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-30
 
 ---

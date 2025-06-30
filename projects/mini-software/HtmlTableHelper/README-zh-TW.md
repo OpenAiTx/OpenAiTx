@@ -1,27 +1,33 @@
 [![NuGet](https://img.shields.io/nuget/v/HtmlTableHelper.svg)](https://www.nuget.org/packages/HtmlTableHelper)
 ![](https://img.shields.io/nuget/dt/HtmlTableHelper.svg)
 
+---
+
+<div style="text-align: center"><p><a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> </p></div>
+
+---
+
 ### 功能特色
-- 精巧（DLL 僅 20KB）且易於使用。
+- 精簡（DLL 僅 20KB）且易於使用。
 - 支援 .NET Standard 2.0/.NET 4.6/.NET 4.5/.NET 4.0
 - 無需任何第三方函式庫
 - 支援匿名型別、Dapper 動態查詢、List/Array/Set/Enumrable、DataTable、Dictionary
 
 ### 安裝方式
 
-你可以透過 [NuGet 下載套件](https://www.nuget.org/packages/HtmlTableHelper)，使用 Visual Studio 套件管理器或 NuGet UI 安裝：
+您可以使用 Visual Studio 套件管理器或 NuGet UI [從 NuGet 安裝套件](https://www.nuget.org/packages/HtmlTableHelper)：
 
 ```cmd
 PM> install-package HtmlTableHelper
 ```
 
-或使用 `dotnet` 命令列：
+或使用 `dotnet` 指令列：
 
 ```cmd
 dotnet add package HtmlTableHelper
 ```
 
-### 線上範例:
+### 線上 Fiddle 範例：
 - [HtmlTableHelper ConsoleDemo](https://dotnetfiddle.net/DzddCl)
 - [HtmlTableHelper ASP.NET MVC Demo (JQuery DataTable)](https://dotnetfiddle.net/u9Ia6M)
 
@@ -48,14 +54,14 @@ using (var cn = "Your Connection")
 }
 ```
 
-##### Dictionary 範例 
+##### Dictionary 範例
 ```C#
 var sourceData = new[] {new Dictionary<string, object> (){{"Name" , "ITWeiHan" },{"Age",25},{"Gender","M"}}};
 var tablehtml = sourceData.ToHtmlTable();
 ```
 
 <!--
-**但** 其他 Key/Value 型別請使用 `ToHtmlTableByDictionary`
+**但是** 其他 Key/Value 型別請使用 `ToHtmlTableByDictionary`
 ```C#
 var sourceData = new[] {
     new Dictionary<SomeKeyType, SomeValueType> (){...}
@@ -95,19 +101,19 @@ var html = data.ToHtmlTable( tableAttributes: new { @class = "SomeClass"} //這�
 ```C#
 public class ModelClassWithDisplayAttr
 {
-    [TableColumn(DisplayName = "Column1")] //MyProperty1 屬性會渲染 thead-td 的 innertext 為 "Column1"
+    [TableColumn(DisplayName = "Column1")] //MyProperty1 屬性會將 thead-td 的 innertext 呈現為："Column1"
     public string MyProperty1 { get; set; }
-    [TableColumn(DisplayName = "Column2")] //MyProperty2 屬性會渲染 thead-td 的 innertext 為 "Column2"
+    [TableColumn(DisplayName = "Column2")] //MyProperty2 屬性會將 thead-td 的 innertext 呈現為："Column2"
     public string MyProperty2 { get; set; }
 }
 ```
 
-###### 2. Skip : 
+###### 2. 跳過 : 
 ```C#
 public class ModelClassWithSkipAttr
 {
     [TableColumn( Skip = true)]
-    public string MyProperty1 { get; set; } //MyProperty1 不會渲染到 HTML
+    public string MyProperty1 { get; set; } //MyProperty1 不會產生 html
     public string MyProperty2 { get; set; }
 }
 ```
@@ -125,11 +131,11 @@ var html = soucreData.CreateBuilder()
 
 ##### HTMLTableSetting
 
-可設定內部 Html 編碼（不建議無特殊需求時關閉，避免 XSS 攻擊）
+可配置的 InnerHtml 編碼（除非有特殊原因，建議不要關閉，因為 XSS 攻擊風險）
 ```C#
 var sourceData = new[] { new { Name = "<b>ITWeiHan</b>" } };
 
-//預設啟用編碼
+//預設編碼
 var encodinghtml = sourceData.ToHtmlTable();
 //結果: <table>..&lt;b&gt;ITWeiHan&lt;/b&gt;..</table>
 
@@ -192,14 +198,15 @@ public static class HtmlHelperExtension
         , object tableAttributes = null, object trAttributes = null, object tdAttributes = null
         , HtmlTableSetting HTMLTableSetting = null)
     {
-        var html = enums.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
-        return new HtmlString(html);
-    }
-
-    public static HtmlString ToHtmlTable<T>(this HtmlHelper htmlHelper, System.Data.DataTable datatable
-        , object tableAttributes = null, object trAttributes = null, object tdAttributes = null
+```
 ```csharp
-, HtmlTableSetting HTMLTableSetting = null)
+var html = enums.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
+return new HtmlString(html);
+}
+
+public static HtmlString ToHtmlTable<T>(this HtmlHelper htmlHelper, System.Data.DataTable datatable
+    , object tableAttributes = null, object trAttributes = null, object tdAttributes = null
+    , HtmlTableSetting HTMLTableSetting = null)
 {
     var html = datatable.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
     return new HtmlString(html);
@@ -208,8 +215,8 @@ public static class HtmlHelperExtension
 ```
 
 ### 範例
-**ASP.NET MVC 5 JQuery DataTable 範例:**  
-```csharp
+**ASP.NET MVC 5 JQuery DataTable 範例：**  
+```C#
 using HtmlTableHelper;
 //..
 public class HomeController : Controller
@@ -223,7 +230,7 @@ public class HomeController : Controller
 }
 ```
 
-```csharp
+```C#
 @{
     Layout = null;
 }
@@ -251,8 +258,9 @@ public class HomeController : Controller
 </html>
 ```
 
-**ASP.NET Core 範例:**
-```csharp
+
+**ASP.NET Core 範例：**
+```C#
 public class Startup
 {
     public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -271,10 +279,10 @@ public class Startup
 #### TODO:
 - [ ] 支援 .NET 4.0
 - [ ] 支援 EF Model
-- [ ] 支援屬性自訂 html 屬性
+- [ ] 支援屬性使用自訂 html 屬性 
 
 指定欄位
-```csharp
+```C#
 using HtmlTableHelper;
 ..
 public class Person{
@@ -291,27 +299,25 @@ var tablehtml = sourceData.ToHtmlTable(new[]{name});
 */
 ```
 -->
-
 <!--
-閱讀本頁
-[security - Will HTML Encoding prevent all kinds of XSS attacks? - Stack Overflow]
+閱讀此頁
+[security - HTML 編碼是否能防止所有類型的 XSS 攻擊？ - Stack Overflow]
 (https://stackoverflow.com/questions/53728/will-html-encoding-prevent-all-kinds-of-xss-attacks)
 -->
 
 <!---
 editable + ajax 可編輯的表格
-    - Route問題
+    - Route 問題
     - 增刪改查功能
-    - 需要SID
+    - 需要 SID
 - [ ] 支援分頁
-    使用 linq skip 和 take
-    但這在 datatable 會有問題
-    看來我必須將 datatable 轉為 enumrable
+    使用 linq 的 skip 和 take
+    但在 datatable 會有問題
+    看起來我必須將 datatable 轉為 enumrable
 --->
-```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-30
 
 ---

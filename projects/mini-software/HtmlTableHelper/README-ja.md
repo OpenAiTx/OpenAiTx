@@ -1,15 +1,21 @@
 [![NuGet](https://img.shields.io/nuget/v/HtmlTableHelper.svg)](https://www.nuget.org/packages/HtmlTableHelper)
 ![](https://img.shields.io/nuget/dt/HtmlTableHelper.svg)
 
+---
+
+<div style="text-align: center"><p><a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=HtmlTableHelper&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> </p></div>
+
+---
+
 ### 特徴
-- ミニサイズ（DLLサイズはわずか20KB）で使いやすい
-- .NET Standard 2.0/.NET 4.6/.NET 4.5/.NET 4.0 をサポート
-- サードパーティライブラリ不要
-- 匿名型、Dapper動的クエリ、List/Array/Set/Enumerable、DataTable、Dictionary をサポート
+- ミニサイズ（DLLサイズはわずか20KB）で使いやすい。
+- .NET Standard 2.0/.NET 4.6/.NET 4.5/.NET 4.0をサポート
+- サードパーティ製ライブラリ不要
+- 匿名型、Dapper動的クエリ、List/Array/Set/Enumerable、DataTable、Dictionaryをサポート
 
 ### インストール
 
-パッケージは[NuGetから](https://www.nuget.org/packages/HtmlTableHelper) Visual Studio のパッケージマネージャまたは NuGet UI でインストールできます。
+パッケージは[NuGetから](https://www.nuget.org/packages/HtmlTableHelper)Visual StudioのパッケージマネージャまたはNuGet UIでインストールできます：
 
 ```cmd
 PM> install-package HtmlTableHelper
@@ -48,7 +54,7 @@ using (var cn = "Your Connection")
 }
 ```
 
-##### Dictionary の例 
+##### Dictionary の例
 ```C#
 var sourceData = new[] {new Dictionary<string, object> (){{"Name" , "ITWeiHan" },{"Age",25},{"Gender","M"}}};
 var tablehtml = sourceData.ToHtmlTable();
@@ -67,8 +73,8 @@ var tablehtml = sourceData.ToHtmlTableByDictionary();
 **カスタム Table/TR/TD/TH 属性（動的型）**
 
 ```C#
-var data = /*List/Array/Set/Enumrable..*/;
-var html = data.ToHtmlTable( tableAttributes: new { @class = "SomeClass"} //この引数は動的型、全ての属性をサポート
+var data = /*List/Array/Set/Enumerable..*/;
+var html = data.ToHtmlTable( tableAttributes: new { @class = "SomeClass"} //これは動的型で、すべての属性をサポート
     ,trAttributes: new { ID = "SomeID" },tdAttributes: new { width = "120 px" },thAttributes: new { @class = "dark-theme" }
 );
 /*
@@ -95,19 +101,19 @@ var html = data.ToHtmlTable( tableAttributes: new { @class = "SomeClass"} //こ�
 ```C#
 public class ModelClassWithDisplayAttr
 {
-    [TableColumn(DisplayName = "Column1")] //MyProperty1 プロパティは thead-td の innertext を "Column1" で表示
+    [TableColumn(DisplayName = "Column1")] //MyProperty1 プロパティは thead-td の innertext を "Column1" としてレンダリングします
     public string MyProperty1 { get; set; }
-    [TableColumn(DisplayName = "Column2")] //MyProperty2 プロパティは thead-td の innertext を "Column2" で表示
+    [TableColumn(DisplayName = "Column2")] //MyProperty2 プロパティは thead-td の innertext を "Column2" としてレンダリングします
     public string MyProperty2 { get; set; }
 }
 ```
 
-###### 2. Skip : 
+###### 2. スキップ :
 ```C#
 public class ModelClassWithSkipAttr
 {
     [TableColumn( Skip = true)]
-    public string MyProperty1 { get; set; } //MyProperty1 はHTMLに出力されません
+    public string MyProperty1 { get; set; } //MyProperty1 は HTML をレンダリングしません
     public string MyProperty2 { get; set; }
 }
 ```
@@ -125,11 +131,11 @@ var html = soucreData.CreateBuilder()
 
 ##### HTMLTableSetting
 
-内部HTMLエンコーディングの設定（特別な理由がない限り無効化は非推奨、XSS攻撃のリスクあり）
+設定可能な InnerHtml エンコーディング（特別な理由がない限り推奨しません。XSS攻撃の可能性があるため）
 ```C#
 var sourceData = new[] { new { Name = "<b>ITWeiHan</b>" } };
 
-//デフォルトはエンコードあり
+//デフォルトのエンコーディング
 var encodinghtml = sourceData.ToHtmlTable();
 //結果: <table>..&lt;b&gt;ITWeiHan&lt;/b&gt;..</table>
 
@@ -192,14 +198,15 @@ public static class HtmlHelperExtension
         , object tableAttributes = null, object trAttributes = null, object tdAttributes = null
         , HtmlTableSetting HTMLTableSetting = null)
     {
-        var html = enums.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
-        return new HtmlString(html);
-    }
+```
+```
+var html = enums.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
+return new HtmlString(html);
+}
 
-    public static HtmlString ToHtmlTable<T>(this HtmlHelper htmlHelper, System.Data.DataTable datatable
-        , object tableAttributes = null, object trAttributes = null, object tdAttributes = null
-```csharp
-, HtmlTableSetting HTMLTableSetting = null)
+public static HtmlString ToHtmlTable<T>(this HtmlHelper htmlHelper, System.Data.DataTable datatable
+    , object tableAttributes = null, object trAttributes = null, object tdAttributes = null
+    , HtmlTableSetting HTMLTableSetting = null)
 {
     var html = datatable.ToHtmlTable(tableAttributes, trAttributes, tdAttributes, HTMLTableSetting);
     return new HtmlString(html);
@@ -209,7 +216,7 @@ public static class HtmlHelperExtension
 
 ### デモ
 **ASP.NET MVC 5 JQuery DataTable デモ:**  
-```csharp
+```C#
 using HtmlTableHelper;
 //..
 public class HomeController : Controller
@@ -223,7 +230,7 @@ public class HomeController : Controller
 }
 ```
 
-```csharp
+```C#
 @{
     Layout = null;
 }
@@ -252,7 +259,7 @@ public class HomeController : Controller
 ```
 
 **ASP.NET Core デモ:**
-```csharp
+```C#
 public class Startup
 {
     public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -269,12 +276,12 @@ public class Startup
 
 <!--
 #### TODO:
-- [ ] .NET 4.0 サポート
-- [ ] EFモデルのサポート
-- [ ] プロパティでカスタムHTML属性の使用をサポート
+- [ ] .NET 4.0 対応
+- [ ] EF モデル対応
+- [ ] プロパティのカスタム html 属性対応
 
 指定カラム
-```csharp
+```C#
 using HtmlTableHelper;
 ..
 public class Person{
@@ -291,7 +298,6 @@ var tablehtml = sourceData.ToHtmlTable(new[]{name});
 */
 ```
 -->
-
 <!--
 このページを読む
 [security - Will HTML Encoding prevent all kinds of XSS attacks? - Stack Overflow]
@@ -299,19 +305,19 @@ var tablehtml = sourceData.ToHtmlTable(new[]{name});
 -->
 
 <!---
-editable + ajax 編集可能なテーブル
-    - ルーティングの問題
-    - CRUD機能
+editable + ajax 可編集な表
+    - ルートの問題
+    - 追加・削除・更新・検索機能
     - SIDが必要
-- [ ] ページング対応
+- [ ] ページングのサポート
     linqのskipとtakeを使用
-    しかしdatatableでは問題になる
-    datatableをenumrableに変換する必要がありそう
+    しかしdatatableでは問題が発生する
+    datatableをenumrableに変換する必要があるようだ
 --->
-```
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-30
 
 ---
