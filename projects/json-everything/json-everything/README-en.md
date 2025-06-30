@@ -1,3 +1,33 @@
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="right">
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=en">English</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=zh-CN">简体中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=zh-TW">繁體中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ja">日本語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ko">한국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=hi">हिन्दी</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=th">ไทย</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=fr">Français</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=de">Deutsch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=es">Español</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=it">Itapano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ru">Русский</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=pt">Português</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=nl">Nederlands</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=pl">Polski</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ar">العربية</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=fa">فارسی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=tr">Türkçe</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=vi">Tiếng Việt</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=id">Bahasa Indonesia</a></p>
+      </div>
+    </div>
+  </details>
+</div>
+
 [![Build & Test](https://github.com/json-everything/json-everything/actions/workflows/dotnet-core.yml/badge.svg?branch=master&event=push)](https://github.com/json-everything/json-everything/actions/workflows/dotnet-core.yml)
 [![Test results](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/gregsdennis/28607f2d276032f4d9a7f2c807e44df7/raw/test-results-badge.json)](https://github.com/json-everything/json-everything/actions?query=workflow%3A%22Build+%26+Test%22)
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/json-everything/json-everything.svg)](https://github.com/json-everything/json-everything/issues "Percentage of issues still open")
@@ -167,10 +197,9 @@ If you don't find what you're looking for here, please try one of these excellen
 If you use JSON to do something that is not covered by a library in this suite or one of the above projects, feel free to [create a feature issue](https://github.com/json-everything/json-everything/issues/new?assignees=&labels=feature&projects=&template=New_function.yml).
 
 If you maintain or know of another project that extends _System.Text.Json_ to do cool things, I'd like to list it here, so please [create a general issue](https://github.com/json-everything/json-everything/issues/new) to let me know about it.
-
 ## Contributing
 
-Please see the [Code of Conduct](https://raw.githubusercontent.com/json-everything/json-everything/master/CODE_OF_CONDUCT.md) and the [CONTRIBUTING](https://raw.githubusercontent.com/json-everything/json-everything/master/CONTRIBUTING.md) file for more information.
+Please see the [Code of Conduct](https://raw.githubusercontent.com/json-everything/json-everything/master/./CODE_OF_CONDUCT.md) and the [CONTRIBUTING](https://raw.githubusercontent.com/json-everything/json-everything/master/./CONTRIBUTING.md) file for more information.
 
 ## Sponsorship
 
@@ -182,6 +211,6 @@ This project is supported by the [.NET Foundation](https://dotnetfoundation.org)
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-28
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-30
 
 ---
