@@ -1,3 +1,33 @@
+<div align="right">
+  <details>
+    <summary >🌐 Язык</summary>
+    <div>
+      <div align="right">
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=en">English</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=zh-CN">简体中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=zh-TW">繁體中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=ja">日本語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=ko">한국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=hi">हिन्दी</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=th">ไทย</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=fr">Français</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=de">Deutsch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=es">Español</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=it">Itapano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=ru">Русский</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=pt">Português</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=nl">Nederlands</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=pl">Polski</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=ar">العربية</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=fa">فارسی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=tr">Türkçe</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=vi">Tiếng Việt</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=id">Bahasa Indonesia</a></p>
+      </div>
+    </div>
+  </details>
+</div>
+
 # Black-Hat-Zig
 
 <p align="center">
@@ -7,156 +37,84 @@
   <img alt="X (formerly Twitter) Follow" src="https://img.shields.io/twitter/follow/CX330Blake">
 </p>
 
+<p align="center">
+  <a href="#intro">Введение</a> •
+  <a href="#why-zig">Почему Zig?</a> •
+  <a href="#usage">Использование</a> •
+  <a href="#contributors">Участники</a> •
+  <a href="#credits--references">Благодарности и ссылки</a> •
+  <a href="#star-history">История звёзд</a> •
+  <a href="#disclaimer">Отказ от ответственности</a>
+</p>
+
 <p height="350px" align="center">
-  <img src="https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Black-Hat-Zig.png">
+  <img src="https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/./Black-Hat-Zig.png">
   <br/>
-  <b>Привет, хакеры. Привет, maldev’ы. Привет, реверсеры. Рад видеть вас здесь, чтобы исследовать темную силу Zig!</b><br/><br/>
-  <b>Поддерживается и управляется <a href="https://github.com/cx330blake">@CX330Blake</a></b>
+  <b>Привет, хакеры. Привет, maldev-разработчики. Привет, реверс-инженеры. Рад видеть вас здесь, чтобы исследовать тёмную силу Zig!</b><br/><br/>
+  <b>Поддерживается и администрируется <a href="https://github.com/cx330blake">@CX330Blake</a></b>
 </p>
 
 ---
 
-## ToC
+## Введение
 
-- [Введение](#intro)
-- [Почему Zig?](#why-zig)
-- [Компиляция кода](#compiling-the-codes)
-- [Размещение полезной нагрузки](#payload-placement)
-- [Обфускация полезной нагрузки](#payload-obfuscation)
-- [Шифрование полезной нагрузки](#payload-encryption)
-- [Выполнение полезной нагрузки](#payload-execution)
-- [Reverse Shell](#reverse-shell)
-- [Техники вредоносного ПО](#malware-techniques)
-- [Инструменты maldev](#maldev-tools)
-- [Участники](#contributors)
-- [Благодарности и источники](#credits--references)
-- [История звезд](#star-history)
-- [Отказ от ответственности](#disclaimer)
-
-## Intro
-
-> [!IMPORTANT]
+> [!ВАЖНО]
 > Этот проект постоянно обновляется!
 
-Этот проект предоставляет множество реализаций техник вредоносного ПО на Zig, поскольку я большой поклонник этого языка. Вы можете использовать этот репозиторий для превращения Zig в оружие. Black-Hat-Zig постоянно обновляется, чтобы содержать как можно больше контента. Было бы отлично, если бы вы создали PR для этого проекта.
+Этот проект предоставляет множество реализаций техник вредоносного ПО с использованием Zig, так как я большой поклонник этого языка. Вы можете использовать этот репозиторий для вооружения Zig. Black-Hat-Zig постоянно обновляется, чтобы содержать как можно больше контента. Было бы отлично, если вы захотите создать PR для этого проекта.
 
-Ну что ж, давайте взломаем планету!
+Итак, давайте взломаем планету!
 
-## Why Zig?
+## Почему Zig?
 
 - 🤝 Легко взаимодействует с исходниками C/C++
-- 🔎 Он новый, поэтому его сложнее обнаружить
-- 💪 Очень низкоуровневый контроль, даже ниже, чем в C
-- 😱 Сложнее для реверса из-за современного компилятора
-- 🛡️ Минимум зависимостей во время выполнения — нет тяжелой стандартной библиотеки
-- 🎯 Нет неопределенного поведения — явная обработка крайних случаев предотвращает сбои
+- 🔎 Новый язык, поэтому его труднее обнаружить
+- 💪 Очень низкоуровневый контроль, даже ниже чем в C
+- 😱 Сложнее для реверс-инжиниринга благодаря современному компилятору
+- 🛡️ Минимальные зависимости во время выполнения — нет массивного стандартного библиотечного следа
+- 🎯 Нет неопределённого поведения — явная обработка граничных случаев предотвращает сбои
 
-## Compiling the codes
+## Использование
 
-Вы можете просматривать коды в каждом каталоге. Также, если код использует Windows API, вы увидите подсказку в соответствующем проектном каталоге `README.md`, например, [здесь](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Encryption/AES/bcrypt_aes/).
+- [Быстрый старт](https://black-hat-zig.cx330.tw)
 
-Я уже установил соответствующую цель сборки по умолчанию на `windows-x86_64` для тех, кто требует Windows API, так что вы можете просто скопировать и вставить следующую команду для компиляции кода где угодно — на Linux, Windows, даже MacOS! (Но для запуска исполняемых файлов все же потребуется среда Windows)
+## Участники
 
-```bash
-zig build
-```
+Этот проект в основном поддерживается и администрируется [@CX330Blake](https://github.com/CX330Blake). PR приветствуются. Надеюсь, больше людей будут использовать Zig для разработки вредоносного ПО, и экосистема станет более зрелой.
 
-## Payload Placement
-
-Техники размещения вредоносных полезных нагрузок в различных секциях исполняемого файла.
-
-- [.data секция](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Placement/dot_data_section/)
-- [.rdata секция](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Placement/dot_rdata_section/)
-- [.text секция](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Placement/dot_text_section/)
-- [.rsrc секция](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Placement/dot_rsrc_section/)
-
-## Payload Obfuscation
-
-Методы обфускации для маскировки полезных нагрузок и предотвращения их обнаружения при статическом анализе или сопоставлении шаблонов.
-
-- [Обфускация IP-адреса](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Obfuscation/IP-Address-Obfuscation/)
-  - [Обфускация IPv4](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Obfuscation/IP-Address-Obfuscation/ipv4_obfuscation/)
-  - [Деобфускация IPv4](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Obfuscation/IP-Address-Obfuscation/ipv4_deobfuscation/)
-  - [Обфускация IPv6](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Obfuscation/IP-Address-Obfuscation/ipv6_obfuscation/)
-  - [Деобфускация IPv6](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Obfuscation/IP-Address-Obfuscation/ipv6_deobfuscation/)
-- [Обфускация MAC-адреса](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Obfuscation/MAC-Address-Obfuscation/)
-  - [Обфускация MAC-адреса](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Obfuscation/MAC-Address-Obfuscation/MACFuscation/)
-  - [Деобфускация MAC-адреса](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Obfuscation/MAC-Address-Obfuscation/MACDeobfuscation/)
-- [Обфускация UUID](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Obfuscation/UUID-Obfuscation/)
-  - [Обфускация UUID](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Obfuscation/UUID-Obfuscation/UUIDFuscation/)
-  - [Деобфускация UUID](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Obfuscation/UUID-Obfuscation/UUIDDeobfuscation/)
-
-## Payload Encryption
-
-Различные схемы шифрования, используемые для сокрытия истинного назначения полезной нагрузки при хранении или передаче.
-
-- [XOR-шифрование](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Encryption/XOR/)
-  - [XOR со стандартной библиотекой](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Encryption/XOR/std_lib_xor/)
-- [RC4-шифрование](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Encryption/RC4/)
-  - [RC4 с SystemFunction032](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Encryption/RC4/system_function_032_rc4/)
-- [AES-шифрование](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Encryption/AES/)
-  - [AES с Bcrypt.h](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Encryption/AES/bcrypt_aes/)
-  - [AES со стандартной библиотекой](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Encryption/AES/std_aes/)
-  - [AES с TinyAES](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Encryption/AES/tiny_aes/)
-
-## Payload Execution
-
-- [DLL](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Execution/dll/)
-- [Shellcode](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Execution/shellcode/)
-
-## Reverse Shell
-
-Примитивы для создания обратных оболочек для доступа C2 или контроля после эксплуатации.
-
-- [Обратная оболочка на стандартной библиотеке](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Reverse-Shell/std_reverse_shell/)
-
-## Malware Techniques
-
-Коллекция распространенных наступательных техник, адаптированных для Zig.
-
-- [Инъекция в процесс](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Malware-Techniques/Process-Injection/)
-  - [Инъекция DLL](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Malware-Techniques/Process-Injection/dll_injection/)
-  - [Инъекция shell-кода](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Malware-Techniques/Process-Injection/shellcode_injection/)
-- [Стадирование полезной нагрузки](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Malware-Techniques/Payload-Staging/)
-  - [С веб-сервера](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Malware-Techniques/Payload-Staging/web_server/)
-  - [Из реестра Windows](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Malware-Techniques/Payload-Staging/windows_registry/)
-- [Перечисление процессов](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Malware-Techniques/Process-Enumeration/)
-  - [С использованием CreateToolhelp32Snapshot](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Malware-Techniques/Process-Enumeration/create_tool_help_32_snapshot/)
-  - [С использованием EnumProcesses](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Malware-Techniques/Process-Enumeration/enum_processes/)
-  - [С использованием NtQuerySystemInformation](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Malware-Techniques/Process-Enumeration/nt_query_system_information/)
-
-## Maldev Tools
-
-- [ZYRA: Ваша защита во время выполнения](https://github.com/cx330blake/zyra)
-  - Пакер исполняемых файлов, написанный на Zig
-- [ZYPE: Ваш шифратор полезных нагрузок](https://github.com/cx330blake/zype)
-  - Генерирует шаблон кода на Zig с вашим зашифрованным/обфусцированным payload и соответствующей функцией дешифрования/деобфускации.
-
-## Contributors
-
-Этот проект в основном поддерживается и управляется [@CX330Blake](https://github.com/CX330Blake). PR приветствуются. Надеюсь, больше людей будут использовать Zig для разработки вредоносного ПО, чтобы экосистема стала более зрелой.
-
-Огромное спасибо этим участникам!
+Огромная благодарность этим участникам!
 
 <a href="https://github.com/CX330Blake/black-hat-zig/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=CX330Blake/black-hat-zig" />
+  <img src="https://contrib.rocks/image?repo=cx330blake/black-hat-zig" />
 </a>
 
-## Credits & References
+## Благодарности и ссылки
 
 - [Maldev Academy](https://maldevacademy.com/)
 - [OffensiveNim](https://github.com/byt3bl33d3r/OffensiveNim)
 
-## Star History
+## История звёзд
 
 [![Star History Chart](https://api.star-history.com/svg?repos=CX330blake/black-hat-zig&type=Date)](https://www.star-history.com/#CX330blake/black-hat-zig&Date)
 
-## Disclaimer
+## Отказ от ответственности
 
 Этот проект предназначен только для этических и образовательных целей. Не становитесь киберпреступником.
 
+<!-- GitAds-Verify: SYUFFUKR39H8T8MYYOIUKQ5AFB1O8AQ9 -->
+
+## Спонсорство GitAds
+
+<p align="center">
+  Этот проект <strong>спонсируется <a href="https://docs.gitads.dev/docs/getting-started/publishers">GitAds</a></strong>.<br>
+  Вы также можете получить спонсорство для своего репозитория на GitHub — <a href="https://docs.gitads.dev/docs/getting-started/publishers">создайте аккаунт сейчас</a>.
+</p>
+
+[![Спонсировано GitAds](https://gitads.dev/v1/ad-serve?source=cx330blake/black-hat-zig@github)](https://gitads.dev/v1/ad-track?source=cx330blake/black-hat-zig@github)
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
 
 ---

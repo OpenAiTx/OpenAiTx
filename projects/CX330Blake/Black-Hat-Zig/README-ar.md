@@ -1,145 +1,91 @@
-# Black-Hat-Zig
+<div align="right">
+  <details>
+    <summary >🌐 اللغة</summary>
+    <div>
+      <div align="right">
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=en">English</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=zh-CN">简体中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=zh-TW">繁體中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=ja">日本語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=ko">한국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=hi">हिन्दी</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=th">ไทย</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=fr">Français</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=de">Deutsch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=es">Español</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=it">Itapano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=ru">Русский</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=pt">Português</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=nl">Nederlands</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=pl">Polski</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=ar">العربية</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=fa">فارسی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=tr">Türkçe</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=vi">Tiếng Việt</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CX330Blake&project=Black-Hat-Zig&lang=id">Bahasa Indonesia</a></p>
+      </div>
+    </div>
+  </details>
+</div>
+
+# بلاك-هات-زيغ
 
 <p align="center">
-  <img alt="GitHub License" src="https://img.shields.io/github/license/CX330Blake/black-hat-zig">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/cx330blake/black-hat-zig">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/cx330blake/black-hat-zig">
-  <img alt="X (formerly Twitter) Follow" src="https://img.shields.io/twitter/follow/CX330Blake">
+  <img alt="ترخيص جيت هاب" src="https://img.shields.io/github/license/CX330Blake/black-hat-zig">
+  <img alt="أعلى لغة في جيت هاب" src="https://img.shields.io/github/languages/top/cx330blake/black-hat-zig">
+  <img alt="حجم مستودع جيت هاب" src="https://img.shields.io/github/repo-size/cx330blake/black-hat-zig">
+  <img alt="متابعة X (تويتر سابقاً)" src="https://img.shields.io/twitter/follow/CX330Blake">
+</p>
+
+<p align="center">
+  <a href="#intro">المقدمة</a> •
+  <a href="#why-zig">لماذا زيغ؟</a> •
+  <a href="#usage">الاستخدام</a> •
+  <a href="#contributors">المساهمون</a> •
+  <a href="#credits--references">الشكر والمراجع</a> •
+  <a href="#star-history">تاريخ النجوم</a> •
+  <a href="#disclaimer">إخلاء المسؤولية</a>
 </p>
 
 <p height="350px" align="center">
-  <img src="https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Black-Hat-Zig.png">
+  <img src="https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/./Black-Hat-Zig.png">
   <br/>
-  <b>مرحباً بالهاكرز. مرحباً بمطوري البرمجيات الخبيثة. مرحباً بمحللي الهندسة العكسية. سعيد برؤيتكم هنا لاستكشاف قوة Zig المظلمة!</b><br/><br/>
+  <b>مرحباً أيها الهاكرز. مرحباً مطوري البرمجيات الخبيثة. مرحباً محللي الهندسة العكسية. يسعدنا وجودكم هنا لاستكشاف القوة المظلمة للغة زيغ!</b><br/><br/>
   <b>يتم الصيانة والإدارة بواسطة <a href="https://github.com/cx330blake">@CX330Blake</a></b>
 </p>
 
 ---
-
-## الفهرس
-
-- [المقدمة](#intro)
-- [لماذا Zig؟](#why-zig)
-- [ترجمة الشيفرات](#compiling-the-codes)
-- [وضع الحمولة](#payload-placement)
-- [تمويه الحمولة](#payload-obfuscation)
-- [تشفير الحمولة](#payload-encryption)
-- [تنفيذ الحمولة](#payload-execution)
-- [شيل عكسي](#reverse-shell)
-- [تقنيات البرمجيات الخبيثة](#malware-techniques)
-- [أدوات تطوير البرمجيات الخبيثة](#maldev-tools)
-- [المساهمون](#contributors)
-- [الشكر والمراجع](#credits--references)
-- [تاريخ النجوم](#star-history)
-- [إخلاء المسؤولية](#disclaimer)
 
 ## المقدمة
 
 > [!IMPORTANT]
 > هذا المشروع يتم تحديثه باستمرار!
 
-يوفر هذا المشروع العديد من تطبيقات تقنيات البرمجيات الخبيثة باستخدام لغة Zig حيث أنني من عشاق هذه اللغة. يمكنك استخدام هذا المستودع لتسليح Zig. يتم تحديث Black-Hat-Zig باستمرار للتأكد من احتوائه على أكبر قدر ممكن من المحتوى. سيكون الأمر رائعًا إذا رغبت في إنشاء PR لهذا المشروع.
+يوفر هذا المشروع العديد من تقنيات البرمجيات الخبيثة باستخدام لغة زيغ، حيث أنني من كبار المعجبين بها. يمكنك استخدام هذا المستودع لتسليح زيغ. مشروع بلاك-هات-زيغ يتم تحديثه باستمرار لضمان احتوائه على أكبر قدر ممكن من المحتوى. سيكون من الرائع أن تقوم بإنشاء طلب دمج (PR) لهذا المشروع.
 
-حسنًا، لنخترق العالم!
+حسنًا، لنخترق الكوكب!
 
-## لماذا Zig؟
+## لماذا زيغ؟
 
-- 🤝 سهل التفاعل مع شيفرات C/C++
-- 🔎 جديد، لذا يصعب اكتشافه
-- 💪 تحكم منخفض المستوى قوي، حتى أقل من C
-- 😱 من الأصعب إجراء الهندسة العكسية عليه بسبب المترجم الحديث
-- 🛡️ تبعيات وقت تشغيل قليلة - لا وجود لمكتبة قياسية ضخمة
-- 🎯 لا يوجد سلوك غير معرف - معالجة صريحة للحالات الحديّة تمنع الأعطال
+- 🤝 سهل التفاعل مع كود C/C++
+- 🔎 جديد نسبياً، لذا يصعب اكتشافه
+- 💪 تحكم منخفض المستوى بقوة، حتى أقل من C
+- 😱 يصعب إجراء الهندسة العكسية عليه بسبب المترجم الحديث
+- 🛡️ تبعيات تشغيلية قليلة جداً - لا وجود لمكتبة قياسية ضخمة
+- 🎯 لا يوجد سلوك غير معرف - المعالجة الصريحة للحالات الحدية تمنع الانهيارات
 
-## ترجمة الشيفرات
+## الاستخدام
 
-يمكنك فحص الشيفرات داخل كل مجلد. أيضًا، إذا استخدم الكود واجهة برمجة تطبيقات ويندوز، سترى تلميحًا في ملف `README.md` الخاص بمجلد المشروع، على سبيل المثال، [هذا الملف](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Encryption/AES/bcrypt_aes/).
-
-لقد قمت بالفعل بتعيين هدف البناء الافتراضي المناسب إلى `windows-x86_64` لتلك التي تحتاج إلى واجهة برمجة تطبيقات ويندوز، لذلك يمكنك ببساطة نسخ ولصق الأمر التالي لترجمة الكود أينما كنت على لينكس أو ويندوز أو حتى ماك أو إس! (لكن ستظل بحاجة إلى بيئة ويندوز لتشغيل الملفات التنفيذية)
-
-```bash
-zig build
-```
-
-## وضع الحمولة
-
-تقنيات لوضع الحمولات الخبيثة في أقسام مختلفة من ملف تنفيذي.
-
-- [.data Section](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Placement/dot_data_section/)
-- [.rdata Section](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Placement/dot_rdata_section/)
-- [.text Section](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Placement/dot_text_section/)
-- [.rsrc Section](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Placement/dot_rsrc_section/)
-
-## تمويه الحمولة
-
-تقنيات التمويه لإخفاء الحمولات وتجنب الاكتشاف من خلال التحليل الساكن أو مطابقة الأنماط.
-
-- [تمويه عنوان IP](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Obfuscation/IP-Address-Obfuscation/)
-  - [تمويه IPv4](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Obfuscation/IP-Address-Obfuscation/ipv4_obfuscation/)
-  - [إزالة تمويه IPv4](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Obfuscation/IP-Address-Obfuscation/ipv4_deobfuscation/)
-  - [تمويه IPv6](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Obfuscation/IP-Address-Obfuscation/ipv6_obfuscation/)
-  - [إزالة تمويه IPv6](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Obfuscation/IP-Address-Obfuscation/ipv6_deobfuscation/)
-- [تمويه عنوان MAC](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Obfuscation/MAC-Address-Obfuscation/)
-  - [تمويه عنوان MAC](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Obfuscation/MAC-Address-Obfuscation/MACFuscation/)
-  - [إزالة تمويه عنوان MAC](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Obfuscation/MAC-Address-Obfuscation/MACDeobfuscation/)
-- [تمويه UUID](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Obfuscation/UUID-Obfuscation/)
-  - [تمويه UUID](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Obfuscation/UUID-Obfuscation/UUIDFuscation/)
-  - [إزالة تمويه UUID](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Obfuscation/UUID-Obfuscation/UUIDDeobfuscation/)
-
-## تشفير الحمولة
-
-مخططات تشفير متنوعة تُستخدم لإخفاء النوايا الحقيقية للحمولة أثناء التخزين أو النقل.
-
-- [تشفير XOR](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Encryption/XOR/)
-  - [XOR باستخدام المكتبة القياسية](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Encryption/XOR/std_lib_xor/)
-- [تشفير RC4](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Encryption/RC4/)
-  - [RC4 باستخدام SystemFunction032](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Encryption/RC4/system_function_032_rc4/)
-- [تشفير AES](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Encryption/AES/)
-  - [AES باستخدام Bcrypt.h](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Encryption/AES/bcrypt_aes/)
-  - [AES باستخدام المكتبة القياسية](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Encryption/AES/std_aes/)
-  - [AES باستخدام TinyAES](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Encryption/AES/tiny_aes/)
-
-## تنفيذ الحمولة
-
-- [DLL](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Execution/dll/)
-- [شيل كود](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Payload-Execution/shellcode/)
-
-## شيل عكسي
-
-بدائيات لإنشاء شيل عكسي للوصول عن بُعد أو التحكم بعد الاستغلال.
-
-- [شيل عكسي باستخدام المكتبة القياسية](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Reverse-Shell/std_reverse_shell/)
-
-## تقنيات البرمجيات الخبيثة
-
-مجموعة من تقنيات الهجوم الشائعة المعدلة للعمل مع Zig.
-
-- [حقن العمليات](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Malware-Techniques/Process-Injection/)
-  - [حقن DLL](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Malware-Techniques/Process-Injection/dll_injection/)
-  - [حقن شيل كود](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Malware-Techniques/Process-Injection/shellcode_injection/)
-- [تسلسل الحمولة](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Malware-Techniques/Payload-Staging/)
-  - [من خادم ويب](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Malware-Techniques/Payload-Staging/web_server/)
-  - [من سجل ويندوز](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Malware-Techniques/Payload-Staging/windows_registry/)
-- [تعداد العمليات](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Malware-Techniques/Process-Enumeration/)
-  - [باستخدام CreateToolhelp32Snapshot](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Malware-Techniques/Process-Enumeration/create_tool_help_32_snapshot/)
-  - [باستخدام EnumProcesses](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Malware-Techniques/Process-Enumeration/enum_processes/)
-  - [باستخدام NtQuerySystemInformation](https://raw.githubusercontent.com/CX330Blake/Black-Hat-Zig/main/Malware-Techniques/Process-Enumeration/nt_query_system_information/)
-
-## أدوات تطوير البرمجيات الخبيثة
-
-- [ZYRA: درعك أثناء التنفيذ](https://github.com/cx330blake/zyra)
-  - أداة ضغط تنفيذية مكتوبة بلغة Zig
-- [ZYPE: مشفر الحمولات الخاص بك](https://github.com/cx330blake/zype)
-  - أنشئ قالب كود بلغة Zig يحتوي على حمولتك المشفرة/المموهة ودالة فك التشفير/إزالة التمويه المقابلة.
+- [البدء السريع](https://black-hat-zig.cx330.tw)
 
 ## المساهمون
 
-يتم صيانة وإدارة هذا المشروع بشكل رئيسي بواسطة [@CX330Blake](https://github.com/CX330Blake). مرحباً بالمساهمات (PRs). نأمل أن يستخدم المزيد من الأشخاص Zig لتطوير البرمجيات الخبيثة حتى ينضج النظام البيئي.
+يتم صيانة وإدارة هذا المشروع بشكل أساسي بواسطة [@CX330Blake](https://github.com/CX330Blake). طلبات الدمج مرحب بها. نأمل أن يستخدم المزيد من الأشخاص زيغ في تطوير البرمجيات الخبيثة حتى يصبح النظام البيئي أكثر نضجًا.
 
 شكر كبير لهؤلاء المساهمين!
 
 <a href="https://github.com/CX330Blake/black-hat-zig/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=CX330Blake/black-hat-zig" />
+  <img src="https://contrib.rocks/image?repo=cx330blake/black-hat-zig" />
 </a>
 
 ## الشكر والمراجع
@@ -153,10 +99,22 @@ zig build
 
 ## إخلاء المسؤولية
 
-هذا المشروع للأغراض الأخلاقية والتعليمية فقط. لا تكن مجرمًا إلكترونيًا.
+هذا المشروع لأغراض أخلاقية وتعليمية فقط. لا تكن مجرماً إلكترونياً.
+
+<!-- GitAds-Verify: SYUFFUKR39H8T8MYYOIUKQ5AFB1O8AQ9 -->
+
+## برعاية GitAds
+
+<p align="center">
+  هذا المشروع <strong>برعاية <a href="https://docs.gitads.dev/docs/getting-started/publishers">GitAds</a></strong>.<br>
+  يمكنك أيضاً الحصول على رعاية لمستودع GitHub الخاص بك — <a href="https://docs.gitads.dev/docs/getting-started/publishers">أنشئ حسابك الآن</a>.
+</p>
+
+[![برعاية GitAds](https://gitads.dev/v1/ad-serve?source=cx330blake/black-hat-zig@github)](https://gitads.dev/v1/ad-track?source=cx330blake/black-hat-zig@github)
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
 
 ---
