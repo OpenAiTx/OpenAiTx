@@ -39,7 +39,7 @@
 
 ## Introduction
 
-**OpenAiTx** 20 languages auto-translate tool for your GitHub project readme.
+**OpenAiTx** 20 languages auto-translate tool for your GitHub project readme & wiki.
 
 ## Why?
 
@@ -135,7 +135,7 @@ Fork project → Clone project → Choose a script in your language → Fill in 
 
 ## Notes
 
-- Only support github markdown readme.
+- Only support github markdown.
 - If you are project owner or core developer, you can auth github account to auto-create PR after indexed.
 
 ## Other
@@ -153,6 +153,5 @@ Fork project → Clone project → Choose a script in your language → Fill in 
 
 ## Future plan
 
-- Support GitHub wiki auto translation 
 - Support Gitee platform
 
