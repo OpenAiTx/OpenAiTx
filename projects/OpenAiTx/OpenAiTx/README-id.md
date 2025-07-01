@@ -39,21 +39,21 @@
 
 ## Pendahuluan
 
-**OpenAiTx** adalah alat terjemahan otomatis 20 bahasa untuk file readme proyek GitHub Anda.
+**OpenAiTx** adalah alat terjemahan otomatis 20 bahasa untuk readme & wiki proyek GitHub Anda.
 
 ## Mengapa?
 
-1. Terjemahan satu kali menggunakan LLM kelas premium dan membuat hasilnya dapat diakses secara gratis oleh komunitas open source.
-2. Mendukung pencarian SEO multibahasa Google/Bing, alat terjemahan klien tidak dapat melakukannya.
-3. Gratis & Sumber Terbuka selamanya
-4. Submit satu kali dan pembaruan otomatis di masa mendatang, ini dapat menghemat waktu Anda jika Anda seorang maintainer proyek.
+1. Terjemahan satu kali menggunakan LLM kelas premium dan membuat hasilnya dapat diakses gratis oleh komunitas open-source.
+2. Mendukung Google/Bing SEO multibahasa, alat terjemahan klien tidak bisa melakukannya.
+3. Gratis & Sumber Terbuka selamanya 
+4. Cukup kirim satu kali dan akan diperbarui otomatis di masa depan, menghemat waktu Anda jika Anda adalah maintainer proyek.
 
 
 ## Mulai
 
-1. Ganti URL `GitHub` dengan `OpenAiTx`, misal https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+1. Ganti URL `GitHub` menjadi `OpenAiTx`, misal https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
 
-2. Klik dan salin gaya badge atau teks yang Anda sukai.
+2. Klik dan salin style badge atau teks yang Anda sukai.
 
 ## Contoh
 
@@ -126,7 +126,7 @@
 </a>
 
 
-## Kontribusi Komputasi 
+## Kontribusi Komputasi
 
 Jika Anda ingin berkontribusi pada proyek ini, yang perlu Anda lakukan adalah:
 Fork proyek → Clone proyek → Pilih skrip dalam bahasa Anda → Isi token AI Anda → Jalankan → Commit & push & buat PR
@@ -135,29 +135,28 @@ Fork proyek → Clone proyek → Pilih skrip dalam bahasa Anda → Isi token AI 
 
 ## Catatan
 
-- Hanya mendukung readme markdown github.
+- Hanya mendukung markdown github.
 - Jika Anda pemilik proyek atau pengembang inti, Anda dapat mengautentikasi akun github untuk membuat PR otomatis setelah diindeks.
 
 ## Lainnya
 
-- 10~30 menit/ per proyek
+- 10~30 menit/per proyek
 - 200~400 proyek/satu konsol per hari.
-- Setiap 3~7 hari akan memperbarui proyek yang sudah ada (tergantung pada sumber daya komputasi di masa depan)
+- Setiap 3~7 hari akan memperbarui proyek yang sudah ada (tergantung sumber daya komputasi di masa depan)
 
 
 ## Terima Kasih
 
-- Tim Microsoft MVP menyediakan anggaran platform azure komunitas open source sebesar 150USD/Bulan.
+- Tim Microsoft MVP menyediakan dana platform azure komunitas open source sebesar 150USD/Bulan.
 
 
 
 ## Rencana Masa Depan
 
-- Mendukung terjemahan otomatis wiki GitHub 
 - Mendukung platform Gitee
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
 
 ---

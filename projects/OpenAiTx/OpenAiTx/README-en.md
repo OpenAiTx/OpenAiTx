@@ -39,29 +39,29 @@
 
 ## Introduction
 
-**OpenAiTx** is an auto-translation tool for your GitHub project readme supporting 20 languages.
+**OpenAiTx** is a 20-language automatic translation tool for your GitHub project readme & wiki.
 
 ## Why?
 
 1. One-time translation using premium-grade LLM and make the result freely accessible to the open-source community.
-2. Supports SEO search in multiple languages (Google/Bing); client-side translation tools can't do this.
-3. Free & Open Source forever
-4. Submit once and auto-update in the future, saving time for project maintainers.
+2. Supports Google/Bing multi-language SEO search, which client-side translation tools cannot do.
+3. Free & Open Source forever 
+4. Submit once and auto-update in the future, saving you time if you're a project maintainer.
 
 
 ## Get Started
 
-1. Replace the URL `GitHub` with `OpenAiTx`, e.g. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+1. Replace `GitHub` in the URL with `OpenAiTx`, e.g. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
 
 2. Click and copy the style badges or text you like.
 
 ## Example
 
-### Style Option 1:
+### Style Option1:
 
 <div style="text-align: center"><p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi"><img src="https://img.shields.io/badge/हिन्दी-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa"><img src="https://img.shields.io/badge/فارسی-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id"><img src="https://img.shields.io/badge/Bahasa Indonesia-white" alt="version"></a> </p></div>
 
-### Style Option 2:
+### Style Option2:
 
 <p align="center">
   <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">English</a> |
@@ -86,7 +86,7 @@
   <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Indonesian</a>
 </p>
 
-### Style Option 3:
+### Style Option3:
 
 <div align="right" >
   <details>
@@ -113,12 +113,11 @@
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa">Persian</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">Turkish</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">Vietnamese</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Bahasa Indonesia</a></p>
-      </div>
-    </div>
-  </details>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Indonesian</a></p>
 </div>
-
+</div>
+</details>
+</div>
 
 ## Demo Video
 
@@ -126,8 +125,7 @@
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
-
-## Computing Contribution 
+## Computing Contribution
 
 If you would like to contribute to the project, all you need to do is:
 Fork the project → Clone the project → Choose a script in your language → Fill in your AI token → Run it → Commit & push & create a PR
@@ -136,31 +134,26 @@ Fork the project → Clone the project → Choose a script in your language → 
 
 ## Notes
 
-- Only supports GitHub markdown readme.
-- If you are a project owner or core developer, you can authenticate your GitHub account to auto-create PR after indexing.
+- Only supports GitHub markdown.
+- If you are the project owner or core developer, you can authenticate your GitHub account to auto-create PR after indexing.
 
 ## Other
 
-- 10~30 mins/ per project
+- 10~30 mins/per project
 - 200~400 projects/one console per day.
-- Every 3~7 days will update existing projects (depending on future computing resources)
-
+- Existing projects will be updated every 3~7 days (depending on future computing resources)
 
 ## Thanks
 
-- Microsoft MVP team provides $150 USD/month open source community Azure platform budget.
-
-
+- Microsoft MVP team provides a $150/month open source community Azure platform budget.
 
 ## Future plan
 
-- Support GitHub wiki auto translation 
 - Support Gitee platform
-
 ```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
 
 ---

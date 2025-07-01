@@ -33,27 +33,27 @@
 
 
 <div align="center">
- Sizin <a href="https://github.com/OpenAiTx/OpenAiTx">Yıldızınız</a>  Open Ai Tx'i daha iyi hale getirebilir
+ Sizin <a href="https://github.com/OpenAiTx/OpenAiTx">Yıldız</a>  Open Ai Tx'i daha iyi yapabilir
 </div>
 
 
 ## Giriş
 
-**OpenAiTx** GitHub projenizin readme dosyası için 20 dilde otomatik çeviri aracı.
+**OpenAiTx** GitHub projeniz için readme & wiki dosyalarınızı 20 dilde otomatik çeviren bir araçtır.
 
 ## Neden?
 
-1. Premium kalitede LLM ile tek seferlik çeviri ve sonucu açık kaynak topluluğuna ücretsiz olarak sunma.
+1. Premium seviyede LLM ile tek seferlik çeviri yaparak sonucu açık kaynak topluluğu için ücretsiz erişilebilir kılmak.
 2. Google/Bing çoklu dil SEO aramasını destekler, istemci çeviri aracı bunu yapamaz.
 3. Sonsuza kadar Ücretsiz & Açık Kaynak
-4. Tek seferlik gönderim ve gelecekte otomatik güncelleme, eğer bir proje yöneticisiyseniz zaman kazandırır.
+4. Bir kez gönderin ve otomatik olarak güncellensin, bir proje yöneticisiyseniz zaman kazandırır.
 
 
 ## Başlarken
 
-1. URL'deki `GitHub`'ı `OpenAiTx` ile değiştirin, örn. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+1. URL'de `GitHub` yerine `OpenAiTx` kullanın, ör: https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
 
-2. Stil rozetlerinden veya metinlerden beğendiğinizi tıklayın ve kopyalayın.
+2. Beğendiğiniz stil rozetini veya metni tıklayın ve kopyalayın.
 
 ## Örnek
 
@@ -104,7 +104,7 @@
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">İtalyanca</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a></p>
@@ -120,47 +120,45 @@
 </div>
 
 
-## Demo Video
+## Demo Videosu
 
 <a href="https://github.com/user-attachments/assets/a1370023-8924-4d40-9f18-979a334e934d"> 
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
 
-## Hesaplama Katkısı 
+## Hesaplama Katkısı
 
 Projeye katkıda bulunmak isterseniz, yapmanız gerekenler:
-Projeyi çatallayın → Projeyi klonlayın → Kendi dilinizde bir betik seçin → AI tokenınızı girin  → Çalıştırın → Commit & push & PR oluşturun
+Projeyi çatallayın (fork) → Projeyi klonlayın → Kendi dilinizde bir betik seçin → AI token’ınızı doldurun → Çalıştırın → Commit & push & PR oluşturun
 
-> Not: **Lütfen tokenlarınızı yüklemeyin!**
+> Not: **Lütfen token’larınızı yüklemeyin!**
 
 ## Notlar
 
-- Sadece github markdown readme desteklenmektedir.
-- Proje sahibi veya çekirdek geliştiriciyseniz, github hesabınızı yetkilendirerek indexlemeden sonra otomatik PR oluşturabilirsiniz.
+- Sadece github markdown desteklenir.
+- Proje sahibi veya çekirdek geliştiriciyseniz, github hesabınızı doğrulayarak indekslendikten sonra otomatik PR oluşturabilirsiniz.
 
 ## Diğer
 
-- Proje başına 10~30 dakika
+- Proje başına 10~30 dk
 - Konsol başına günde 200~400 proje.
-- Her 3~7 günde mevcut projeler güncellenir (gelecekteki hesaplama kaynaklarına bağlı olarak)
+- Her 3~7 günde bir mevcut projeler güncellenir (gelecekteki hesaplama kaynaklarına bağlı olarak)
 
 
 ## Teşekkürler
 
-- Microsoft MVP ekibi, açık kaynak topluluğu için aylık 150 USD Azure platform bütçesi sağlamaktadır.
+- Microsoft MVP ekibi, açık kaynak topluluğu Azure platformu için aylık 150USD bütçe sağlamaktadır.
 
 
 
 ## Gelecek Planı
 
-- GitHub wiki otomatik çeviri desteği 
-- Gitee platformu desteği
-
+- Gitee platformunu destekleyecek
 ```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
 
 ---

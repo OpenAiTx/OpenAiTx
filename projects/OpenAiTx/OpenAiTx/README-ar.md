@@ -33,35 +33,35 @@
 
 
 <div align="center">
- نجمتك على <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a>  يمكن أن تجعل Open Ai Tx أفضل
+ نجمك على <a href="https://github.com/OpenAiTx/OpenAiTx">GitHub</a>  يمكن أن يجعل Open Ai Tx أفضل
 </div>
 
 
 ## المقدمة
 
-**OpenAiTx** أداة ترجمة تلقائية لملفات readme لمشاريع GitHub تدعم 20 لغة.
+**OpenAiTx** أداة ترجمة تلقائية تدعم 20 لغة لملف README و Wiki الخاص بمشروع GitHub الخاص بك.
 
 ## لماذا؟
 
-1. ترجمة لمرة واحدة باستخدام نماذج لغوية كبيرة عالية الجودة وجعل النتيجة متاحة مجانًا لمجتمع المصادر المفتوحة.
-2. دعم البحث عبر Google/Bing لعدة لغات وتهيئة SEO، وهو ما لا تستطيع أدوات الترجمة العميلية فعله.
-3. مجانية ومفتوحة المصدر دائمًا 
-4. إرسال لمرة واحدة وتحديث تلقائي مستقبليًا، مما يوفر وقتك إذا كنت مسؤولًا عن المشروع.
+1. ترجمة لمرة واحدة باستخدام نموذج لغوي ضخم عالي الجودة وجعل النتيجة متاحة مجانًا لمجتمع المصادر المفتوحة.
+2. دعم تحسين محركات البحث (SEO) المتعدد للغات عبر Google/Bing، أداة الترجمة من جهة العميل لا يمكنها القيام بذلك.
+3. مجاني ومفتوح المصدر إلى الأبد.
+4. أرسل مرة واحدة وسيتم التحديث تلقائيًا مستقبلاً، مما يوفر وقتك إذا كنت مشرفًا على المشروع.
 
 
-## البدء
+## ابدأ الآن
 
-1. استبدل رابط `GitHub` بـ `OpenAiTx`، مثال: https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+1. استبدل رابط `GitHub` بـ `OpenAiTx`، مثال: https://github.com/OpenAiTx/OpenAiTx ← https://openaitx.com/OpenAiTx/OpenAiTx  
 
-2. انقر و انسخ شارات النمط أو النص الذي تفضله.
+2. انقر ونسخ الشارة أو النص بالأسلوب الذي تفضله.
 
 ## مثال
 
-### خيار النمط 1:
+### الخيار الأول (الأسلوب 1):
 
 <div style="text-align: center"><p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi"><img src="https://img.shields.io/badge/हिन्दी-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa"><img src="https://img.shields.io/badge/فارسی-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id"><img src="https://img.shields.io/badge/Bahasa Indonesia-white" alt="version"></a> </p></div>
 
-### خيار النمط 2:
+### الخيار الثاني (الأسلوب 2):
 
 <p align="center">
   <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">English</a> |
@@ -86,7 +86,7 @@
   <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Bahasa Indonesia</a>
 </p>
 
-### خيار النمط 3:
+### الخيار الثالث (الأسلوب 3):
 
 <div align="right" >
   <details>
@@ -113,9 +113,9 @@
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">Türkçe</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">Tiếng Việt</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Bahasa Indonesia</a></p>
-</div>
-</div>
-</details>
+      </div>
+    </div>
+  </details>
 </div>
 
 
@@ -126,40 +126,39 @@
 </a>
 
 
-## المساهمة بالحوسبة 
+## المساهمة بالحوسبة
 
 إذا كنت ترغب في المساهمة في المشروع، كل ما عليك فعله هو:
-تفرع المشروع → استنساخ المشروع → اختر سكربت بلغتك → أدخل رمز AI الخاص بك → شغّل السكربت → قم بعمل commit وادفع التغييرات وأنشئ PR
+فَرّع المشروع → استنسخ المشروع → اختر سكربت بلغتك → أدخل رمز الذكاء الاصطناعي الخاص بك → شغّله → التزم وادفع وقم بإنشاء طلب دمج (PR)
 
-> ملاحظة: **يرجى عدم رفع رموزك السرية!**
+> ملاحظة: **يرجى عدم رفع رموزك!**
 
 ## ملاحظات
 
-- يدعم فقط قراءة ملفات markdown على GitHub.
-- إذا كنت مالك المشروع أو مطورًا أساسيًا، يمكنك توثيق حساب GitHub لإنشاء PR تلقائيًا بعد الفهرسة.
+- يدعم فقط تنسيق ماركداون الخاص بـ github.
+- إذا كنت مالك المشروع أو مطورًا أساسيًا، يمكنك توثيق حساب github لإنشاء طلب دمج تلقائي بعد الفهرسة.
 
 ## أخرى
 
-- 10~30 دقيقة لكل مشروع
-- 200~400 مشروع/لكل وحدة تحكم يوميًا.
-- سيتم تحديث المشاريع الحالية كل 3~7 أيام (اعتمادًا على موارد الحوسبة المستقبلية)
+- 10~30 دقيقة/ لكل مشروع
+- 200~400 مشروع/ وحدة تحكم واحدة في اليوم.
+- كل 3~7 أيام سيتم تحديث المشاريع الموجودة (اعتمادًا على موارد الحوسبة المستقبلية)
 
 
 ## الشكر
 
-- فريق Microsoft MVP يوفر ميزانية منصة Azure لمجتمع المصادر المفتوحة بقيمة 150 دولارًا أمريكيًا شهريًا.
+- فريق Microsoft MVP يوفر ميزانية منصة Azure مفتوحة المصدر بقيمة 150 دولار أمريكي/شهريًا للمجتمع.
 
 
 
 ## خطة مستقبلية
 
-- دعم الترجمة التلقائية لـ GitHub Wiki
 - دعم منصة Gitee
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
 
 ---

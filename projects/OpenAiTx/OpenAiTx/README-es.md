@@ -33,27 +33,27 @@
 
 
 <div align="center">
- Tu <a href="https://github.com/OpenAiTx/OpenAiTx">estrella</a>  puede hacer que Open Ai Tx sea mejor
+ Tu <a href="https://github.com/OpenAiTx/OpenAiTx">Estrella</a>  puede hacer Open Ai Tx mejor
 </div>
 
 
 ## Introducción
 
-**OpenAiTx** es una herramienta de traducción automática a 20 idiomas para el archivo README de tu proyecto en GitHub.
+**OpenAiTx** es una herramienta de traducción automática a 20 idiomas para el readme y la wiki de tu proyecto de GitHub.
 
 ## ¿Por qué?
 
-1. Traducción de una sola vez utilizando un LLM de calidad premium y haciendo el resultado accesible de forma gratuita para la comunidad open source.
-2. Soporta búsqueda SEO multilingüe de Google/Bing, una herramienta de traducción del cliente no puede hacerlo.
-3. Gratis y de código abierto para siempre.
-4. Envía una vez y actualiza automáticamente en el futuro, puede ahorrarte tiempo si eres el mantenedor de un proyecto.
+1. Traducción de una sola vez utilizando LLM de calidad premium y haciendo el resultado accesible de forma gratuita para la comunidad de código abierto.
+2. Soporta SEO multilingüe en Google/Bing, cosa que las herramientas de traducción del cliente no pueden hacer.
+3. Gratis y de código abierto para siempre
+4. Envía una vez y actualiza automáticamente en el futuro, puede ahorrarte tiempo si eres mantenedor de un proyecto.
 
 
-## Comenzar
+## Primeros pasos
 
-1. Reemplaza la URL `GitHub` por `OpenAiTx`, por ejemplo: https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+1. Sustituye la URL `GitHub` por `OpenAiTx`, por ejemplo: https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
 
-2. Haz clic y copia las insignias de estilo o el texto que prefieras.
+2. Haz clic y copia el estilo de insignias o texto que prefieras.
 
 ## Ejemplo
 
@@ -126,38 +126,39 @@
 </a>
 
 
-## Contribución computacional
+## Contribución de computación
 
 Si deseas contribuir al proyecto, todo lo que necesitas hacer es:
-Fork del proyecto → Clona el proyecto → Elige un script en tu idioma → Rellena tu token de IA → Ejecútalo → Haz commit & push y crea un PR
+Bifurcar el proyecto → Clonar el proyecto → Elegir un script en tu idioma → Rellenar tu token de IA → Ejecutarlo → Realizar commit & push & crear un PR
 
-> Nota: **¡Por favor no subas tus tokens!**
+> Nota: **¡Por favor, no subas tus tokens!**
 
 ## Notas
 
-- Solo se admite el archivo readme en markdown de GitHub.
-- Si eres el propietario del proyecto o desarrollador principal, puedes autenticar tu cuenta de GitHub para crear PR automáticamente después de ser indexado.
+- Solo se admite markdown de Github.
+- Si eres el propietario del proyecto o desarrollador principal, puedes autenticar tu cuenta de Github para crear PR automáticamente después de ser indexado.
 
 ## Otros
 
-- 10~30 minutos/proyecto
+- 10~30 minutos/ por proyecto
 - 200~400 proyectos/una consola por día.
-- Cada 3~7 días se actualizarán los proyectos existentes (dependiendo de los recursos de cómputo futuros)
+- Cada 3~7 días se actualizarán los proyectos existentes (dependiendo de los recursos de computación futuros)
 
 
 ## Agradecimientos
 
-- El equipo Microsoft MVP proporciona 150USD/mes de presupuesto en la plataforma Azure para la comunidad de código abierto.
+- El equipo Microsoft MVP proporciona un presupuesto de 150 USD/mes para la plataforma Azure de la comunidad de código abierto.
 
 
 
 ## Plan futuro
 
-- Soporte para traducción automática de wikis de GitHub
 - Soporte para la plataforma Gitee
+
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
 
 ---

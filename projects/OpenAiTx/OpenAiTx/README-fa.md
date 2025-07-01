@@ -33,27 +33,27 @@
 
 
 <div align="center">
- ستاره دادن شما به <a href="https://github.com/OpenAiTx/OpenAiTx">Open Ai Tx</a>  می‌تواند این پروژه را بهتر کند
+ ستاره دادن شما به <a href="https://github.com/OpenAiTx/OpenAiTx">Open Ai Tx</a> می‌تواند این پروژه را بهتر کند
 </div>
 
 
-## مقدمه
+## معرفی
 
-**OpenAiTx** ابزاری برای ترجمه خودکار ۲۰ زبان برای فایل readme پروژه‌های GitHub شما است.
+**OpenAiTx** ابزاری برای ترجمه خودکار ۲۰ زبان برای راهنمای پروژه ویکی و README شما در گیت‌هاب.
 
 ## چرا؟
 
-1. ترجمه یک‌باره با مدل زبانی سطح بالا و ارائه رایگان نتیجه برای جامعه متن‌باز.
-2. پشتیبانی از جستجوی چندزبانه Google/Bing و سئو، ابزاری که ترجمه سمت کاربر انجام می‌دهد، قادر به این کار نیست.
-3. برای همیشه رایگان و متن‌باز
-4. یک بار ارسال و بروزرسانی خودکار در آینده، اگر نگهدارنده پروژه هستید، زمان شما را ذخیره می‌کند.
+1. ترجمه یک‌باره با استفاده از مدل‌های زبانی پیشرفته و ارائه نتیجه به صورت رایگان به جامعه متن‌باز.
+2. پشتیبانی از جستجوی سئو چندزبانه در گوگل/بینگ؛ ابزارهای ترجمه کلاینت این امکان را ندارند.
+3. همیشه رایگان و متن‌باز
+4. فقط یک بار ارسال کنید و به‌روزرسانی خودکار آینده؛ اگر نگهدارنده پروژه هستید، در وقت شما صرفه‌جویی می‌شود.
 
 
 ## شروع کنید
 
-1. جایگزین کردن URL `GitHub` با `OpenAiTx`، به عنوان مثال: https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+1. نشانی `GitHub` را با `OpenAiTx` جایگزین کنید، مثال: https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
 
-2. کلیک و کپی کردن استایل نشان‌ها یا متنی که دوست دارید.
+2. روی استایل یا متن نشان‌ها کلیک و کپی کنید.
 
 ## مثال
 
@@ -98,28 +98,28 @@
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">繁體中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">هندی</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">تایلندی</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">فرانسوی</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">آلمانی</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">اسپانیایی</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">ایتالیایی</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">روسی</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">پرتغالی</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">هلندی</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl">لهستانی</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar">عربی</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">ไทย</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl">Polski</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar">العربية</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa">فارسی</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">ترکی</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">ویتنامی</a></p>
-<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">اندونزیایی</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">Türkçe</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">Tiếng Việt</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Bahasa Indonesia</a></p>
       </div>
     </div>
   </details>
 </div>
 
 
-## ویدیوی دمو
+## ویدئو دمو
 
 <a href="https://github.com/user-attachments/assets/a1370023-8924-4d40-9f18-979a334e934d"> 
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
@@ -129,37 +129,34 @@
 ## مشارکت محاسباتی
 
 اگر مایل به مشارکت در پروژه هستید، کافیست مراحل زیر را انجام دهید:
-فورک پروژه → کلون پروژه → یک اسکریپت به زبان خودتان انتخاب کنید → توکن هوش مصنوعی خود را وارد کنید → اجرا کنید → کامیت و پوش و ایجاد PR
+فورک پروژه → کلون پروژه → انتخاب یک اسکریپت به زبان خود → وارد کردن توکن هوش مصنوعی خود → اجرا کردن آن → کامیت و پوش و ساخت PR
 
 > توجه: **لطفاً توکن‌های خود را آپلود نکنید!**
 
 ## نکات
 
-- فقط از مارک‌داون readme گیت‌هاب پشتیبانی می‌شود.
-- اگر مالک پروژه یا توسعه‌دهنده اصلی هستید، می‌توانید حساب گیت‌هاب خود را احراز هویت کنید تا پس از ایندکس به‌طور خودکار PR ایجاد شود.
+- فقط از مارک‌داون گیت‌هاب پشتیبانی می‌شود.
+- اگر مالک پروژه یا توسعه‌دهنده اصلی هستید، می‌توانید حساب گیت‌هاب خود را احراز هویت کنید تا بعد از ایندکس شدن به‌طور خودکار PR ایجاد شود.
 
 ## سایر موارد
 
 - ۱۰ تا ۳۰ دقیقه برای هر پروژه
-- ۲۰۰ تا ۴۰۰ پروژه در هر کنسول در روز
-- هر ۳ تا ۷ روز پروژه‌های موجود به‌روزرسانی خواهند شد (بسته به منابع محاسباتی آینده)
+- ۲۰۰ تا ۴۰۰ پروژه در هر کنسول در روز.
+- هر ۳ تا ۷ روز پروژه‌های موجود به‌روزرسانی می‌شوند (بسته به منابع محاسباتی آینده)
 
 
-## تشکر
+## با تشکر
 
-- تیم Microsoft MVP بودجه ۱۵۰ دلار در ماه برای پلتفرم اوپن سورس آژور فراهم کرده است.
+- تیم MVP مایکروسافت مبلغ ۱۵۰ دلار در ماه بودجه پلتفرم اوپن سورس Azure را فراهم می‌کند.
 
 
 
-## برنامه‌های آینده
+## برنامه آینده
 
-- پشتیبانی از ترجمه خودکار ویکی گیت‌هاب
 - پشتیبانی از پلتفرم Gitee
-
-
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
 
 ---

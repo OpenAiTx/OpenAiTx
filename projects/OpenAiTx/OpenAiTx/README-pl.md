@@ -33,23 +33,23 @@
 
 
 <div align="center">
- Twój <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a>  może ulepszyć Open Ai Tx
+ Twój <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a>  może sprawić, że Open Ai Tx będzie lepszy
 </div>
 
 
 ## Wprowadzenie
 
-**OpenAiTx** narzędzie do automatycznego tłumaczenia na 20 języków dla pliku readme Twojego projektu GitHub.
+**OpenAiTx** to narzędzie do automatycznego tłumaczenia na 20 języków dla plików readme i wiki Twojego projektu GitHub.
 
 ## Dlaczego?
 
-1. Jednorazowe tłumaczenie przy użyciu wysokiej klasy LLM i udostępnienie wyników społeczności open-source za darmo.
-2. Wsparcie dla wielojęzycznego SEO Google/Bing, czego nie potrafią narzędzia tłumaczące po stronie klienta.
-3. Zawsze darmowy i otwartoźródłowy
-4. Prześlij jeden raz i automatycznie aktualizuj w przyszłości — to oszczędza czas, jeśli jesteś opiekunem projektu.
+1. Jednorazowe tłumaczenie przy użyciu zaawansowanego LLM i udostępnienie wyniku społeczności open source za darmo.
+2. Wsparcie dla wielojęzycznego SEO Google/Bing – narzędzia klienckie nie oferują tej możliwości.
+3. Zawsze darmowe i otwarte oprogramowanie
+4. Jedno zgłoszenie i automatyczna aktualizacja w przyszłości – oszczędzasz czas jako maintainer projektu.
 
 
-## Pierwsze kroki
+## Jak zacząć
 
 1. Zamień URL `GitHub` na `OpenAiTx`, np. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
 
@@ -129,37 +129,34 @@
 ## Wkład obliczeniowy
 
 Jeśli chcesz wnieść swój wkład w projekt, wystarczy:
-Forkuj projekt → Sklonuj projekt → Wybierz skrypt w swoim języku → Wstaw swój token AI → Uruchom go → Commit & push & utwórz PR
+Fork projektu → Sklonuj projekt → Wybierz skrypt w swoim języku → Wpisz swój token AI  → Uruchom → Commituj & wypchnij & utwórz PR
 
 > Uwaga: **Nie przesyłaj swoich tokenów!**
 
 ## Uwagi
 
-- Obsługiwany jest tylko plik readme w formacie markdown na githubie.
-- Jeśli jesteś właścicielem projektu lub głównym deweloperem, możesz uwierzytelnić konto github, aby automatycznie tworzyć PR po zindeksowaniu.
+- Obsługuje tylko markdown githuba.
+- Jeśli jesteś właścicielem projektu lub głównym deweloperem, możesz uwierzytelnić konto github, aby automatycznie tworzyć PR po zaindeksowaniu.
 
 ## Inne
 
-- 10~30 min/projekt
-- 200~400 projektów/jedna konsola dziennie.
-- Co 3~7 dni aktualizowane są istniejące projekty (w zależności od przyszłych zasobów obliczeniowych)
+- 10~30 min/ na projekt
+- 200~400 projektów/na jedną konsolę dziennie.
+- Co 3~7 dni aktualizacja istniejących projektów (w zależności od przyszłych zasobów obliczeniowych)
 
 
 ## Podziękowania
 
-- Zespół Microsoft MVP zapewnia budżet na platformę Azure dla społeczności open source w wysokości 150 USD/miesiąc.
+- Zespół Microsoft MVP zapewnia budżet 150 USD/miesiąc na platformę open source Azure dla społeczności.
 
 
 
 ## Plany na przyszłość
 
-- Wsparcie automatycznego tłumaczenia wiki GitHub
 - Wsparcie dla platformy Gitee
-
-
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
 
 ---
