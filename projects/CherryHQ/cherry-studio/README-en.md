@@ -1,11 +1,41 @@
+<div align="right" >
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="right">
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=en">English</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=zh-CN">简体中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=zh-TW">繁體中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja">日本語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ko">한국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=hi">हिन्दी</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=th">ไทย</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=fr">Français</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=de">Deutsch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=es">Español</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=it">Itapano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ru">Русский</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=pt">Português</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=nl">Nederlands</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=pl">Polski</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ar">العربية</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=fa">فارسی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=tr">Türkçe</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=vi">Tiếng Việt</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=id">Bahasa Indonesia</a></p>
+      </div>
+    </div>
+  </details>
+</div>
+
 <h1 align="center">
   <a href="https://github.com/CherryHQ/cherry-studio/releases">
     <img src="https://github.com/CherryHQ/cherry-studio/blob/main/build/icon.png?raw=true" width="150" height="150" alt="banner" /><br>
   </a>
 </h1>
-  <p align="center">English | <a href="https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/README.zh.md">中文</a> | <a href="https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/README.ja.md">日本語</a> | <a href="https://cherry-ai.com">Official Site</a> | <a href="https://docs.cherry-ai.com/cherry-studio-wen-dang/en-us">Documents</a> | <a href="https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/dev.md">Development</a> | <a href="https://github.com/CherryHQ/cherry-studio/issues">Feedback</a><br></p>
+  <p align="center">English | <a href="./docs/README.zh.md">中文</a> | <a href="./docs/README.ja.md">日本語</a> | <a href="https://cherry-ai.com">Official Site</a> | <a href="https://docs.cherry-ai.com/cherry-studio-wen-dang/en-us">Documents</a> | <a href="./docs/dev.md">Development</a> | <a href="https://github.com/CherryHQ/cherry-studio/issues">Feedback</a><br></p>
 
-<!-- Header Badge Combination -->
+<!-- Top badge group -->
 
 <div align="center">
 
@@ -16,7 +46,7 @@
 
 </div>
 
-<!-- Project Statistics Badges -->
+<!-- Project stats badges -->
 
 <div align="center">
 
@@ -163,15 +193,14 @@ Refer to the [Branching Strategy](https://raw.githubusercontent.com/CherryHQ/che
 3. **Submit Changes**: Commit and push your changes.
 4. **Open a Pull Request**: Describe your changes and reasons.
 
-For more detailed guidelines, please refer to our [Contributing Guide](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/CONTRIBUTING.md).
+For more detailed guidelines, please refer to our [Contributing Guide](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/./CONTRIBUTING.md).
 
 Thank you for your support and contributions!
 
 # 🔗 Related Projects
+- [one-api](https://github.com/songquanpeng/one-api): LLM API management and distribution system, supporting mainstream models like OpenAI, Azure, and Anthropic. Features a unified API interface, suitable for key management and secondary distribution.
 
-- [one-api](https://github.com/songquanpeng/one-api):LLM API management and distribution system, supporting mainstream models like OpenAI, Azure, and Anthropic. Features unified API interface, suitable for key management and secondary distribution.
-
-- [ublacklist](https://github.com/iorate/ublacklist):Blocks specific sites from appearing in Google search results
+- [ublacklist](https://github.com/iorate/ublacklist): Blocks specific sites from appearing in Google search results
 
 # 🚀 Contributors
 
@@ -188,7 +217,7 @@ Thank you for your support and contributions!
 [deepwiki-shield]: https://img.shields.io/badge/Deepwiki-CherryHQ-0088CC?style=plastic
 [deepwiki-link]: https://deepwiki.com/CherryHQ/cherry-studio
 [twitter-shield]: https://img.shields.io/badge/Twitter-CherryStudioApp-0088CC?style=plastic&logo=x
-[twitter-link]: https://twitter.com/CherryStudioApp
+[twitter-link]: https://twitter.com/CherryStudioHQ
 [discord-shield]: https://img.shields.io/badge/Discord-@CherryStudio-0088CC?style=plastic&logo=discord
 [discord-link]: https://discord.gg/wez8HtpxqQ
 [telegram-shield]: https://img.shields.io/badge/Telegram-@CherryStudioAI-0088CC?style=plastic&logo=telegram
@@ -214,6 +243,6 @@ Thank you for your support and contributions!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
 
 ---

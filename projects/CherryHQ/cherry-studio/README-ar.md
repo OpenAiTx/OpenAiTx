@@ -1,3 +1,33 @@
+<div align="right" >
+  <details>
+    <summary >🌐 اللغة</summary>
+    <div>
+      <div align="right">
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=en">English</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=zh-CN">简体中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=zh-TW">繁體中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja">日本語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ko">한국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=hi">हिन्दी</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=th">ไทย</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=fr">Français</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=de">Deutsch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=es">Español</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=it">Itapano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ru">Русский</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=pt">Português</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=nl">Nederlands</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=pl">Polski</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ar">العربية</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=fa">فارسی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=tr">Türkçe</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=vi">Tiếng Việt</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=id">Bahasa Indonesia</a></p>
+      </div>
+    </div>
+  </details>
+</div>
+
 <h1 align="center">
   <a href="https://github.com/CherryHQ/cherry-studio/releases">
     <img src="https://github.com/CherryHQ/cherry-studio/blob/main/build/icon.png?raw=true" width="150" height="150" alt="banner" /><br>
@@ -43,13 +73,13 @@
 
 # 🍒 Cherry Studio
 
-Cherry Studio هو عميل سطح مكتب يدعم العديد من مزودي نماذج الذكاء الاصطناعي الكبيرة (LLM)، متوفر على أنظمة ويندوز وماك ولينكس.
+Cherry Studio هو عميل سطح مكتب يدعم العديد من مزودي النماذج اللغوية الكبيرة (LLM)، متوفر على أنظمة ويندوز وماك ولينكس.
 
 👏 انضم إلى [مجموعة تيليجرام](https://t.me/CherryStudioAI)｜[ديسكورد](https://discord.gg/wez8HtpxqQ) | [مجموعة QQ (575014769)](https://qm.qq.com/q/lo0D4qVZKi)
 
-❤️ هل أعجبك Cherry Studio؟ ضع نجمة 🌟 أو [ادعمنا](docs/sponsor.md) لدعم التطوير!
+❤️ أعجبك Cherry Studio؟ اعطه نجمة 🌟 أو [ادعمنا](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/sponsor.md) لدعم التطوير!
 
-# 🌠 صورة الشاشة
+# 🌠 لقطة شاشة
 
 ![](https://github.com/user-attachments/assets/36dddb2c-e0fb-4a5f-9411-91447bab6e18)
 
@@ -62,38 +92,38 @@ Cherry Studio هو عميل سطح مكتب يدعم العديد من مزود�
 1. **دعم متنوع لمزودي LLM**:
 
 - ☁️ خدمات LLM السحابية الرئيسية: OpenAI، Gemini، Anthropic والمزيد
-- 🔗 تكامل خدمات الويب الذكية: Claude، Peplexity، Poe وغيرها
-- 💻 دعم النماذج المحلية مع Ollama، LM Studio
+- 🔗 تكامل خدمات الويب للذكاء الاصطناعي: Claude، Peplexity، Poe وآخرون
+- 💻 دعم النماذج المحلية مع Ollama وLM Studio
 
 2. **مساعدو الذكاء الاصطناعي والمحادثات**:
 
-- 📚 أكثر من 300 مساعد ذكاء اصطناعي جاهز
+- 📚 أكثر من 300 مساعد ذكاء اصطناعي مُعد مسبقًا
 - 🤖 إنشاء مساعد مخصص
-- 💬 محادثات متعددة النماذج في آن واحد
+- 💬 محادثات متعددة النماذج في الوقت نفسه
 
 3. **معالجة المستندات والبيانات**:
 
-- 📄 دعم النصوص، الصور، ملفات Office، PDF والمزيد
-- ☁️ إدارة الملفات ونسخ احتياطي عبر WebDAV
-- 📊 تصور المخططات باستخدام Mermaid
-- 💻 تمييز بناء الجمل البرمجية
+- 📄 دعم النصوص، الصور، ملفات أوفيس، PDF والمزيد
+- ☁️ إدارة الملفات والنسخ الاحتياطي عبر WebDAV
+- 📊 تصور الرسوم البيانية باستخدام Mermaid
+- 💻 إبراز تعليمات البرمجة البرمجية
 
 4. **تكامل الأدوات العملية**:
 
-- 🔍 وظيفة البحث العالمي
-- 📝 نظام إدارة المواضيع
-- 🔤 ترجمة مدعومة بالذكاء الاصطناعي
-- 🎯 فرز بالسحب والإفلات
-- 🔌 دعم البرامج المصغرة
-- ⚙️ خادم MCP (بروتوكول سياق النموذج)
+- 🔍 وظيفة البحث الشامل
+- 📝 نظام إدارة الموضوعات
+- 🔤 الترجمة المدعومة بالذكاء الاصطناعي
+- 🎯 ترتيب عبر السحب والإفلات
+- 🔌 دعم التطبيقات المصغرة
+- ⚙️ خادم MCP (بروتوكول سياق النماذج)
 
 5. **تجربة مستخدم محسنة**:
 
-- 🖥️ دعم عبر الأنظمة: ويندوز، ماك، لينكس
-- 📦 جاهز للاستخدام دون الحاجة لإعداد بيئة تشغيل
-- 🎨 ثيمات فاتحة/داكنة ونافذة شفافة
-- 📝 دعم كامل لعرض Markdown
-- 🤲 سهولة مشاركة المحتوى
+- 🖥️ دعم عبر الأنظمة لـ Windows وMac وLinux
+- 📦 جاهز للاستخدام، دون الحاجة لإعداد بيئة تشغيل
+- 🎨 سمات فاتحة/داكنة ونافذة شفافة
+- 📝 عرض كامل للـ Markdown
+- 🤲 مشاركة المحتوى بسهولة
 
 # 📝 خارطة الطريق
 
@@ -101,75 +131,74 @@ Cherry Studio هو عميل سطح مكتب يدعم العديد من مزود�
 
 1. 🎯 **الميزات الأساسية**
 
-- مساعد التحديد - تعزيز ذكي لاختيار المحتوى
-- بحث معمق - إمكانيات بحث متقدمة
-- نظام الذاكرة - وعي سياق عالمي
-- معالجة مسبقة للمستندات - تحسين التعامل مع المستندات
-- سوق MCP - نظام بيئي لبروتوكول سياق النموذج
+- مساعد التحديد - تحسين ذكي لاختيار المحتوى
+- البحث المتعمق - قدرات بحث متقدمة
+- نظام الذاكرة - وعي سياقي عالمي
+- معالجة المستندات المسبقة - تحسين التعامل مع المستندات
+- سوق MCP - منظومة بروتوكول سياق النماذج
 
 2. 🗂 **إدارة المعرفة**
 
-- ملاحظات ومجموعات
-- تصور ديناميكي عبر اللوحة
+- الملاحظات والمجموعات
+- تصور لوحة ديناميكية
 - قدرات OCR
-- دعم تحويل النص إلى كلام (TTS)
+- دعم التحويل من نص إلى كلام (TTS)
 
 3. 📱 **دعم المنصات**
 
-- إصدار HarmonyOS (PC)
-- تطبيق أندرويد (المرحلة الأولى)
-- تطبيق iOS (المرحلة الأولى)
+- إصدار HarmonyOS (للحاسوب)
+- تطبيق Android (المرحلة 1)
+- تطبيق iOS (المرحلة 1)
 - دعم النوافذ المتعددة
 - وظيفة تثبيت النوافذ
 
 4. 🔌 **ميزات متقدمة**
 
 - نظام الإضافات
-- التعرف التلقائي على الكلام (ASR)
-- إعادة هيكلة تفاعل المساعد والمواضيع
+- ASR (التعرف التلقائي على الكلام)
+- إعادة هيكلة التفاعل بين المساعد والموضوع
 
-تابع تقدمنا وساهم على [لوحة المشروع](https://github.com/orgs/CherryHQ/projects/7).
+تابع تقدمنا وشارك في [لوحة المشروع](https://github.com/orgs/CherryHQ/projects/7).
 
-هل ترغب في التأثير على خارطة الطريق؟ انضم إلى [نقاشات GitHub](https://github.com/CherryHQ/cherry-studio/discussions) وشارك أفكارك وملاحظاتك!
+هل ترغب في التأثير على خارطة الطريق؟ انضم إلى [نقاشات GitHub](https://github.com/CherryHQ/cherry-studio/discussions) لمشاركة أفكارك وملاحظاتك!
 
-# 🌈 الثيم
+# 🌈 السمات
 
-- معرض الثيمات: <https://cherrycss.com>
-- ثيم Aero: <https://github.com/hakadao/CherryStudio-Aero>
-- ثيم PaperMaterial: <https://github.com/rainoffallingstar/CherryStudio-PaperMaterial>
-- ثيم Claude dynamic-style: <https://github.com/bjl101501/CherryStudio-Claudestyle-dynamic>
-- ثيم Maple Neon: <https://github.com/BoningtonChen/CherryStudio_themes>
+- معرض السمات: <https://cherrycss.com>
+- سمة Aero: <https://github.com/hakadao/CherryStudio-Aero>
+- سمة PaperMaterial: <https://github.com/rainoffallingstar/CherryStudio-PaperMaterial>
+- سمة Claude ذات النمط الديناميكي: <https://github.com/bjl101501/CherryStudio-Claudestyle-dynamic>
+- سمة Maple Neon: <https://github.com/BoningtonChen/CherryStudio_themes>
 
-نرحب بمساهماتكم لمزيد من الثيمات
+نرحب بـ PR لمزيد من السمات
 
 # 🤝 المساهمة
 
-نرحب بالمساهمات في Cherry Studio! إليك بعض الطرق للمساهمة:
+نرحب بمساهماتكم في Cherry Studio! إليك بعض الطرق التي يمكنك من خلالها المساهمة:
 
-1. **المساهمة بالبرمجة**: تطوير ميزات جديدة أو تحسين الشيفرة الحالية.
-2. **إصلاح الأخطاء**: إرسال حلول لأي أخطاء تجدها.
-3. **إدارة المشاكل**: المساعدة في إدارة مشاكل GitHub.
+1. **المساهمة بالكود**: تطوير ميزات جديدة أو تحسين الكود الحالي.
+2. **إصلاح الأخطاء**: إرسال إصلاحات لأي أخطاء تجدها.
+3. **إدارة القضايا**: المساعدة في إدارة قضايا GitHub.
 4. **تصميم المنتج**: المشاركة في مناقشات التصميم.
-5. **كتابة التوثيق**: تحسين الأدلة الإرشادية ودليل المستخدم.
-6. **المشاركة المجتمعية**: الانضمام إلى النقاشات ومساعدة المستخدمين.
-7. **تعزيز الاستخدام**: نشر Cherry Studio ودعوة الآخرين لاستخدامه.
+5. **كتابة الوثائق**: تحسين الأدلة وكتيبات المستخدم.
+6. **المشاركة المجتمعية**: الانضمام للنقاشات ومساعدة المستخدمين.
+7. **الترويج للاستخدام**: نشر الكلمة عن Cherry Studio.
 
-راجع [استراتيجية الفروع](docs/branching-strategy-en.md) للاطلاع على إرشادات المساهمة
+راجع [استراتيجية الفروع](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/branching-strategy-en.md) لإرشادات المساهمة
 
 ## البدء
 
-1. **تفرع المستودع**: قم بتفرعه واستنساخه إلى جهازك المحلي.
-2. **أنشئ فرعاً**: لإجراء التعديلات الخاصة بك.
-3. **أرسل التعديلات**: قم بعمل commit وادفع التعديلات.
-4. **افتح Pull Request**: اشرح التغييرات وأسبابها.
+1. **تفرع المستودع**: قم بتفريع المستودع ونسخه إلى جهازك المحلي.
+2. **أنشئ فرعًا**: لإجراء تغييراتك.
+3. **أرسل التغييرات**: قم بعمل commit وادفع تغييراتك.
+4. **افتح طلب دمج**: صف التغييرات وأسبابها.
 
-لمزيد من التفاصيل، يرجى مراجعة [دليل المساهمة](./CONTRIBUTING.md).
+لمزيد من الإرشادات التفصيلية، يرجى الرجوع إلى [دليل المساهمة](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/./CONTRIBUTING.md).
 
-شكراً لدعمكم ومساهماتكم!
+شكرًا لدعمكم ومساهماتكم!
 
 # 🔗 مشاريع ذات صلة
-
-- [one-api](https://github.com/songquanpeng/one-api): نظام إدارة وتوزيع واجهة برمجة تطبيقات LLM، يدعم النماذج الرئيسية مثل OpenAI وAzure وAnthropic. يوفر واجهة API موحدة، مناسب لإدارة المفاتيح والتوزيع الثانوي.
+- [one-api](https://github.com/songquanpeng/one-api): نظام إدارة وتوزيع واجهات برمجة التطبيقات لنماذج اللغة الكبيرة (LLM)، يدعم النماذج الرئيسية مثل OpenAI وAzure وAnthropic. يتميز بواجهة API موحدة، مناسب لإدارة المفاتيح والتوزيع الثانوي.
 
 - [ublacklist](https://github.com/iorate/ublacklist): يمنع ظهور مواقع محددة في نتائج بحث Google
 
@@ -188,7 +217,7 @@ Cherry Studio هو عميل سطح مكتب يدعم العديد من مزود�
 [deepwiki-shield]: https://img.shields.io/badge/Deepwiki-CherryHQ-0088CC?style=plastic
 [deepwiki-link]: https://deepwiki.com/CherryHQ/cherry-studio
 [twitter-shield]: https://img.shields.io/badge/Twitter-CherryStudioApp-0088CC?style=plastic&logo=x
-[twitter-link]: https://twitter.com/CherryStudioApp
+[twitter-link]: https://twitter.com/CherryStudioHQ
 [discord-shield]: https://img.shields.io/badge/Discord-@CherryStudio-0088CC?style=plastic&logo=discord
 [discord-link]: https://discord.gg/wez8HtpxqQ
 [telegram-shield]: https://img.shields.io/badge/Telegram-@CherryStudioAI-0088CC?style=plastic&logo=telegram
@@ -204,7 +233,7 @@ Cherry Studio هو عميل سطح مكتب يدعم العديد من مزود�
 [github-contributors-shield]: https://img.shields.io/github/contributors/CherryHQ/cherry-studio
 [github-contributors-link]: https://github.com/CherryHQ/cherry-studio/graphs/contributors
 
-<!-- روابط وصور -->
+<!-- Links & Images -->
 [license-shield]: https://img.shields.io/badge/License-AGPLv3-important.svg?style=plastic&logo=gnu
 [license-link]: https://www.gnu.org/licenses/agpl-3.0
 [commercial-shield]: https://img.shields.io/badge/License-Contact-white.svg?style=plastic&logoColor=white&logo=telegram&color=blue
@@ -212,8 +241,9 @@ Cherry Studio هو عميل سطح مكتب يدعم العديد من مزود�
 [sponsor-shield]: https://img.shields.io/badge/Sponsor-FF6699.svg?style=plastic&logo=githubsponsors&logoColor=white
 [sponsor-link]: https://github.com/CherryHQ/cherry-studio/blob/main/docs/sponsor.md
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
 
 ---

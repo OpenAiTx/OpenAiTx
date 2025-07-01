@@ -1,9 +1,39 @@
+<div align="right" >
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="right">
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=en">English</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=zh-CN">简体中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=zh-TW">繁體中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja">日本語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ko">한국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=hi">हिन्दी</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=th">ไทย</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=fr">Français</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=de">Deutsch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=es">Español</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=it">Itapano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ru">Русский</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=pt">Português</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=nl">Nederlands</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=pl">Polski</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ar">العربية</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=fa">فارسی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=tr">Türkçe</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=vi">Tiếng Việt</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=id">Bahasa Indonesia</a></p>
+      </div>
+    </div>
+  </details>
+</div>
+
 <h1 align="center">
   <a href="https://github.com/CherryHQ/cherry-studio/releases">
     <img src="https://github.com/CherryHQ/cherry-studio/blob/main/build/icon.png?raw=true" width="150" height="150" alt="banner" /><br>
   </a>
 </h1>
-  <p align="center">English | <a href="https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/README.zh.md">中文</a> | <a href="https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/README.ja.md">日本語</a> | <a href="https://cherry-ai.com">공식 사이트</a> | <a href="https://docs.cherry-ai.com/cherry-studio-wen-dang/en-us">문서</a> | <a href="https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/dev.md">개발</a> | <a href="https://github.com/CherryHQ/cherry-studio/issues">피드백</a><br></p>
+  <p align="center">English | <a href="./docs/README.zh.md">中文</a> | <a href="./docs/README.ja.md">日本語</a> | <a href="https://cherry-ai.com">공식 사이트</a> | <a href="https://docs.cherry-ai.com/cherry-studio-wen-dang/en-us">문서</a> | <a href="./docs/dev.md">개발</a> | <a href="https://github.com/CherryHQ/cherry-studio/issues">피드백</a><br></p>
 
 <!-- 题头徽章组合 -->
 
@@ -43,11 +73,11 @@
 
 # 🍒 Cherry Studio
 
-Cherry Studio는 다양한 LLM 공급자를 지원하는 데스크톱 클라이언트로, Windows, Mac, Linux에서 사용 가능합니다.
+Cherry Studio는 다양한 LLM 제공자를 지원하는 데스크탑 클라이언트로, Windows, Mac, Linux에서 사용할 수 있습니다.
 
-👏 [Telegram 그룹](https://t.me/CherryStudioAI)｜[Discord](https://discord.gg/wez8HtpxqQ) | [QQ 그룹(575014769)](https://qm.qq.com/q/lo0D4qVZKi)에 참여하세요.
+👏 [텔레그램 그룹](https://t.me/CherryStudioAI)｜[디스코드](https://discord.gg/wez8HtpxqQ) | [QQ 그룹(575014769)](https://qm.qq.com/q/lo0D4qVZKi)에 참여하세요
 
-❤️ Cherry Studio가 마음에 드시나요? 별표 🌟를 남기거나 [스폰서](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/sponsor.md)로 개발을 후원해 주세요!
+❤️ Cherry Studio가 마음에 드시나요? 개발 지원을 위해 🌟 별을 남기거나 [스폰서](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/sponsor.md)가 되어주세요!
 
 # 🌠 스크린샷
 
@@ -59,17 +89,17 @@ Cherry Studio는 다양한 LLM 공급자를 지원하는 데스크톱 클라이�
 
 # 🌟 주요 기능
 
-1. **다양한 LLM 공급자 지원**:
+1. **다양한 LLM 제공자 지원**:
 
 - ☁️ 주요 LLM 클라우드 서비스: OpenAI, Gemini, Anthropic 등
 - 🔗 AI 웹 서비스 통합: Claude, Peplexity, Poe 등
-- 💻 Ollama, LM Studio로 로컬 모델 지원
+- 💻 Ollama, LM Studio를 통한 로컬 모델 지원
 
 2. **AI 어시스턴트 & 대화**:
 
 - 📚 300개 이상의 사전 구성된 AI 어시스턴트
-- 🤖 맞춤형 어시스턴트 생성
-- 💬 다중 모델 동시 대화
+- 🤖 커스텀 어시스턴트 생성  
+- 💬 멀티 모델 동시 대화
 
 3. **문서 및 데이터 처리**:
 
@@ -78,18 +108,18 @@ Cherry Studio는 다양한 LLM 공급자를 지원하는 데스크톱 클라이�
 - 📊 Mermaid 차트 시각화
 - 💻 코드 구문 하이라이팅
 
-4. **실용적 도구 통합**:
+4. **실용 도구 통합**:
 
 - 🔍 글로벌 검색 기능
 - 📝 주제 관리 시스템
 - 🔤 AI 기반 번역
 - 🎯 드래그 앤 드롭 정렬
 - 🔌 미니 프로그램 지원
-- ⚙️ MCP(Model Context Protocol) 서버
+- ⚙️ MCP(모델 컨텍스트 프로토콜) 서버
 
 5. **향상된 사용자 경험**:
 
-- 🖥️ Windows, Mac, Linux 크로스 플랫폼 지원
+- 🖥️ Windows, Mac, Linux 크로스플랫폼 지원
 - 📦 즉시 사용 가능, 환경 설정 불필요
 - 🎨 라이트/다크 테마 및 투명 창
 - 📝 완벽한 마크다운 렌더링
@@ -97,30 +127,30 @@ Cherry Studio는 다양한 LLM 공급자를 지원하는 데스크톱 클라이�
 
 # 📝 로드맵
 
-다음 기능 및 개선사항을 적극적으로 개발 중입니다:
+다음 기능 및 개선 사항을 적극적으로 개발 중입니다:
 
 1. 🎯 **핵심 기능**
 
-- 선택 어시스턴트 - 스마트 콘텐츠 선택 향상
-- 딥 리서치 - 고급 연구 기능
+- 선택 어시스턴트 - 스마트 콘텐츠 선택 강화
+- 심층 연구 - 고급 연구 기능
 - 메모리 시스템 - 글로벌 컨텍스트 인식
-- 문서 전처리 - 문서 처리 개선
+- 문서 전처리 - 문서 처리 향상
 - MCP 마켓플레이스 - 모델 컨텍스트 프로토콜 생태계
 
 2. 🗂 **지식 관리**
 
 - 노트 및 컬렉션
-- 동적 캔버스 시각화
+- 다이나믹 캔버스 시각화
 - OCR 기능
 - TTS(텍스트 음성 변환) 지원
 
 3. 📱 **플랫폼 지원**
 
-- HarmonyOS 에디션(PC)
-- Android 앱(1단계)
-- iOS 앱(1단계)
-- 다중 창 지원
-- 창 고정 기능
+- HarmonyOS 에디션 (PC)
+- 안드로이드 앱 (1단계)
+- iOS 앱 (1단계)
+- 멀티 윈도우 지원
+- 윈도우 고정 기능
 
 4. 🔌 **고급 기능**
 
@@ -128,9 +158,9 @@ Cherry Studio는 다양한 LLM 공급자를 지원하는 데스크톱 클라이�
 - ASR(자동 음성 인식)
 - 어시스턴트 및 주제 상호작용 리팩토링
 
-[프로젝트 보드](https://github.com/orgs/CherryHQ/projects/7)에서 진행 상황을 확인하고 기여해 주세요.
+우리의 진행 상황은 [프로젝트 보드](https://github.com/orgs/CherryHQ/projects/7)에서 확인하고 기여하실 수 있습니다.
 
-로드맵에 영향을 미치고 싶으신가요? [GitHub Discussions](https://github.com/CherryHQ/cherry-studio/discussions)에 참여하여 아이디어와 피드백을 공유해 주세요!
+로드맵에 의견을 남기고 싶으신가요? [GitHub Discussions](https://github.com/CherryHQ/cherry-studio/discussions)에 참여하여 아이디어와 피드백을 공유해 주세요!
 
 # 🌈 테마
 
@@ -140,38 +170,37 @@ Cherry Studio는 다양한 LLM 공급자를 지원하는 데스크톱 클라이�
 - Claude dynamic-style: <https://github.com/bjl101501/CherryStudio-Claudestyle-dynamic>
 - Maple Neon 테마: <https://github.com/BoningtonChen/CherryStudio_themes>
 
-더 많은 테마 PR을 환영합니다
+더 많은 테마를 위한 PR을 환영합니다
 
 # 🤝 기여하기
 
-Cherry Studio에 대한 기여를 환영합니다! 다음과 같은 방법으로 참여하실 수 있습니다:
+Cherry Studio에 대한 다양한 기여를 환영합니다! 여러분이 기여할 수 있는 방법은 다음과 같습니다:
 
 1. **코드 기여**: 새로운 기능 개발 또는 기존 코드 최적화
-2. **버그 수정**: 발견한 버그에 대한 수정 제출
+2. **버그 수정**: 발견한 버그 수정 제출
 3. **이슈 관리**: GitHub 이슈 관리 지원
 4. **제품 디자인**: 디자인 논의에 참여
-5. **문서 작성**: 사용자 설명서 및 가이드 개선
-6. **커뮤니티 참여**: 토론 참여 및 사용자 지원
-7. **홍보**: Cherry Studio 알리기
+5. **문서 작성**: 사용자 매뉴얼 및 가이드 개선
+6. **커뮤니티 참여**: 토론에 참여하고 사용자 지원
+7. **사용 촉진**: Cherry Studio 홍보
 
-기여 가이드라인은 [브랜치 전략](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/branching-strategy-en.md)을 참고하세요
+기여 가이드는 [브랜치 전략](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/branching-strategy-en.md)을 참고하세요
 
 ## 시작하기
 
-1. **저장소 포크**: 저장소를 포크하고 로컬에 클론하세요.
-2. **브랜치 생성**: 변경 사항을 위한 브랜치를 생성하세요.
-3. **변경 사항 제출**: 변경 사항을 커밋 및 푸시하세요.
-4. **풀 리퀘스트 생성**: 변경 사항과 그 이유를 설명하세요.
+1. **저장소 포크**: 저장소를 포크하고 로컬로 클론하세요.
+2. **브랜치 생성**: 변경 사항을 위한 브랜치 생성
+3. **변경 사항 제출**: 변경 사항 커밋 및 푸시
+4. **풀 리퀘스트 생성**: 변경 사항과 이유 설명
 
-자세한 가이드는 [기여 가이드](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/CONTRIBUTING.md)를 참고하세요.
+더 자세한 가이드는 [기여 가이드](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/./CONTRIBUTING.md)를 참고해 주세요.
 
-여러분의 지원과 기여에 감사드립니다!
+여러분의 지원과 기여에 감사합니다!
 
 # 🔗 관련 프로젝트
+- [one-api](https://github.com/songquanpeng/one-api): LLM API 관리 및 분배 시스템으로, OpenAI, Azure, Anthropic 등 주요 모델을 지원합니다. 통합된 API 인터페이스를 제공하며, 키 관리 및 2차 분배에 적합합니다.
 
-- [one-api](https://github.com/songquanpeng/one-api): LLM API 관리 및 분배 시스템, OpenAI, Azure, Anthropic 등 주요 모델 지원. 통합 API 인터페이스 제공, 키 관리 및 2차 분배에 적합.
-
-- [ublacklist](https://github.com/iorate/ublacklist): Google 검색 결과에서 특정 사이트 차단
+- [ublacklist](https://github.com/iorate/ublacklist): Google 검색 결과에서 특정 사이트의 표시를 차단합니다.
 
 # 🚀 기여자
 
@@ -180,7 +209,7 @@ Cherry Studio에 대한 기여를 환영합니다! 다음과 같은 방법으로
 </a>
 <br /><br />
 
-# ⭐️ Star History
+# ⭐️ Star 히스토리
 
 [![Star History Chart](https://api.star-history.com/svg?repos=CherryHQ/cherry-studio&type=Timeline)](https://star-history.com/#CherryHQ/cherry-studio&Timeline)
 
@@ -188,7 +217,7 @@ Cherry Studio에 대한 기여를 환영합니다! 다음과 같은 방법으로
 [deepwiki-shield]: https://img.shields.io/badge/Deepwiki-CherryHQ-0088CC?style=plastic
 [deepwiki-link]: https://deepwiki.com/CherryHQ/cherry-studio
 [twitter-shield]: https://img.shields.io/badge/Twitter-CherryStudioApp-0088CC?style=plastic&logo=x
-[twitter-link]: https://twitter.com/CherryStudioApp
+[twitter-link]: https://twitter.com/CherryStudioHQ
 [discord-shield]: https://img.shields.io/badge/Discord-@CherryStudio-0088CC?style=plastic&logo=discord
 [discord-link]: https://discord.gg/wez8HtpxqQ
 [telegram-shield]: https://img.shields.io/badge/Telegram-@CherryStudioAI-0088CC?style=plastic&logo=telegram
@@ -204,7 +233,7 @@ Cherry Studio에 대한 기여를 환영합니다! 다음과 같은 방법으로
 [github-contributors-shield]: https://img.shields.io/github/contributors/CherryHQ/cherry-studio
 [github-contributors-link]: https://github.com/CherryHQ/cherry-studio/graphs/contributors
 
-<!-- 링크 및 이미지 -->
+<!-- Links & Images -->
 [license-shield]: https://img.shields.io/badge/License-AGPLv3-important.svg?style=plastic&logo=gnu
 [license-link]: https://www.gnu.org/licenses/agpl-3.0
 [commercial-shield]: https://img.shields.io/badge/License-Contact-white.svg?style=plastic&logoColor=white&logo=telegram&color=blue
@@ -212,8 +241,9 @@ Cherry Studio에 대한 기여를 환영합니다! 다음과 같은 방법으로
 [sponsor-shield]: https://img.shields.io/badge/Sponsor-FF6699.svg?style=plastic&logo=githubsponsors&logoColor=white
 [sponsor-link]: https://github.com/CherryHQ/cherry-studio/blob/main/docs/sponsor.md
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
 
 ---

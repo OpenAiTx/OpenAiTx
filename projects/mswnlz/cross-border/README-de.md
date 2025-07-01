@@ -1,5 +1,5 @@
 # cross-border
-Ressourcen im Zusammenhang mit grenzüberschreitendem E-Commerce, Anträge, Zahlungen, Außenhandel, TikTok, Amazon, Shoperöffnung, Neukundengewinnung und weitere Ressourcen, werden kontinuierlich aktualisiert
+Ressourcen im Zusammenhang mit grenzüberschreitendem E-Commerce, Anträgen, Zahlungen, Außenhandel, TikTok, Amazon, Shop-Eröffnung, Neukundengewinnung und weiteren Ressourcen, werden kontinuierlich aktualisiert
 
 [English](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=id)
 
@@ -10,39 +10,40 @@ Ressourcen im Zusammenhang mit grenzüberschreitendem E-Commerce, Anträge, Zahl
 
 
 ---------------
-# Weitere Projektressourcen
+# Weitere Ressourcen zum Projekt
 
-[🎁 Hochwertige Ressource! Ursprünglicher Preis 59.880 RMB, vollständige Sammlung seltener traditioneller chinesischer Medizin-Kurse [Sammleredition 1,18 TB], inklusive Grundlagen, Videos, äußerliche Anwendungen, Akupunktur, Bücher und vieles mehr](https://github.com/mswnlz/chinese-traditional)
+[🎁Wertvolle Ressource! Ursprünglicher Preis 59.880 Yuan, vollständige Sammlung von seltenen TCM-Kursunterlagen [Sammelversion 1,18TB], einschließlich Grundlagen, Videos, äußerliche Anwendungen, Akupunktur, Bücher usw., alles was das Herz begehrt](https://github.com/mswnlz/chinese-traditional)
 
-[Verschiedene nützliche Tools, inklusive Betriebssysteme, verschiedene Plugins, portable und gecrackte Tools usw., werden kontinuierlich aktualisiert](https://github.com/mswnlz/tools)
+[Vielfältige nützliche Tools, einschließlich Betriebssystemen, verschiedensten Plugins, portablen und gecrackten Tools usw., werden kontinuierlich aktualisiert](https://github.com/mswnlz/tools)
 
-[Ressourcen im Zusammenhang mit grenzüberschreitendem E-Commerce, Anträge, Zahlungen, Außenhandel, TikTok, Amazon, Shoperöffnung, Neukundengewinnung und weitere Ressourcen, werden kontinuierlich aktualisiert](https://github.com/mswnlz/cross-border)
 
-[Ressourcen zum Thema Social Media, einschließlich Neukundengewinnung, Traffic-Strategien, Kundenakquise, Konversion, Monetarisierung usw., werden kontinuierlich aktualisiert](https://github.com/mswnlz/self-media)
+[Ressourcen im Zusammenhang mit grenzüberschreitendem E-Commerce, Anträgen, Zahlungen, Außenhandel, TikTok, Amazon, Shop-Eröffnung, Neukundengewinnung und weiteren Ressourcen, werden kontinuierlich aktualisiert](https://github.com/mswnlz/cross-border)
 
-[Verschiedene Bildungsmaterialien, vom Kindergarten bis zur Grundschule und weiterführenden Schule, einschließlich Xueersi, Wanwei, Yuanfudao und weiterer Institute, werden stetig erweitert](https://github.com/mswnlz/edu-knowlege)
+[Selbstmedien-bezogene Ressourcen, einschließlich Neukundengewinnung, Traffic-Strategien, Kundengewinnung, Konvertierung, Monetarisierung usw., werden kontinuierlich aktualisiert](https://github.com/mswnlz/self-media)
 
-[AI-bezogene Kenntnisse, Prompts, Tutorials, Videoanleitungen, Monetarisierungskurse usw., werden kontinuierlich aktualisiert](https://github.com/mswnlz/AIknowledge)
+[ Bildungsbezogene Ressourcen von Kindergarten bis Grundschule, weiterführende Schulen, einschließlich Xueersi, Wanwei, Yuanfudao und weiterer Institute, werden fortlaufend ergänzt](https://github.com/mswnlz/edu-knowlege)
 
-[Verschiedene Kursmaterialien, einschließlich „Get“, beliebte Online-Materialien, sowie sonstige Materialien, die nicht in andere Projekte passen, und vieles mehr, werden kontinuierlich aktualisiert](https://github.com/mswnlz/curriculum)
+[KI-bezogenes Wissen, Prompts, Tutorials, Videoanleitungen, Monetarisierungskurse usw., werden kontinuierlich aktualisiert](https://github.com/mswnlz/AIknowledge)
 
-[Medienressourcen, Filme, Dokumentationen, Musik, Konzerte und mehr, werden kontinuierlich aktualisiert](https://github.com/mswnlz/movies)
+[Vielfältige Kursmaterialien, einschließlich Dedao, populäre Online-Materialien, sowie sonstige nicht zuordenbare Projektressourcen, alles hier, werden kontinuierlich aktualisiert](https://github.com/mswnlz/curriculum)
 
-[Bücher und Unterlagen, einschließlich verschiedener Tutorials, Romane und anderer Bücher](https://github.com/mswnlz/book)
+[Medienressourcen aus Film und Fernsehen, Filme, Dokumentationen, Musik, Konzerte usw., werden kontinuierlich aktualisiert](https://github.com/mswnlz/movies)
 
-[Fitness, Training, Ernährung, Gesundheit, Schlaf und mehr, werden kontinuierlich aktualisiert](https://github.com/mswnlz/healthy)
+[Buch- und Literaturressourcen, einschließlich verschiedenster Anleitungen, Romane und weiterer Bücher](https://github.com/mswnlz/book)
+
+[Fitness, Training, Ernährung, Gesundheit, Schlaf usw., werden kontinuierlich aktualisiert](https://github.com/mswnlz/healthy)
 
 
 
 ---------------
 
 # Ressourcen-Homepage
-[Sammlung verschiedener Materialien, Wissen, Filme, Dokumentationen, Musik, Bücher, Medien, wird kontinuierlich sortiert](https://github.com/mswnlz)
+[Vielfältige Materialien, Wissen, Filme, Dokumentationen, Musik, Bücher, Medien-Sammelstelle, fortlaufend gepflegt](https://github.com/mswnlz)
 
 ---------------
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
 
 ---

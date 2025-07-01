@@ -8,14 +8,12 @@
 
 ---
 
-<div align="center">
-<p><strong><a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a> | <a href="README.zh-Hant.md">繁體中文</a></strong></p>
-</div>
+<div style="text-align: center"><p><a href="https://openaitx.github.io/view.html?user=mini-software&project=MiniWord&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=MiniWord&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=MiniWord&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=MiniWord&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=MiniWord&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=MiniWord&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=MiniWord&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=MiniWord&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=MiniWord&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=MiniWord&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=MiniWord&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=MiniWord&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=MiniWord&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=MiniWord&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=MiniWord&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=MiniWord&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=mini-software&project=MiniWord&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> </p></div>
 
 ---
 
 <div align="center">
- Il tuo <a href="https://github.com/mini-software/MiniWord">Star</a> e la tua <a href="https://miniexcel.github.io">donazione</a> possono rendere MiniWord migliore
+ La tua <a href="https://github.com/mini-software/MiniWord">Stella</a> e la tua <a href="https://miniexcel.github.io">donazione</a> possono rendere MiniWord migliore
 </div>
 
 ---
@@ -28,15 +26,15 @@ MiniWord è una libreria .NET per template Word facile ed efficace.
 
 
 
-## Per iniziare
+## Per Iniziare
 
 ### Installazione
 
 - link nuget : https://www.nuget.org/packages/MiniWord
 
-### Avvio rapido
+### Avvio Rapido
 
-Il template segue il design "QUELLO che vedi è quello che ottieni", e gli stili dei tag del template sono completamente preservati.
+Il template segue il design "CIÒ che vedi è ciò che ottieni", e gli stili dei tag del template sono completamente preservati.
 
 ```csharp
 var value = new Dictionary<string, object>(){["title"] = "Hello MiniWord"};
@@ -75,8 +73,8 @@ Il formato stringa del template MiniWord è simile a Vue, React `{{tag}}`, gli u
 var value = new Dictionary<string, object>()
 {
     ["Name"] = "Jack",
-    ["Department"] = "IT Department",
-    ["Purpose"] = "Shanghai site needs a new system to control HR system.",
+    ["Department"] = "Dipartimento IT",
+    ["Purpose"] = "Il sito di Shanghai necessita di un nuovo sistema per controllare il sistema HR.",
     ["StartDate"] = DateTime.Parse("2022-09-07 08:30:00"),
     ["EndDate"] = DateTime.Parse("2022-09-15 15:30:00"),
     ["Approved"] = true,
@@ -95,10 +93,11 @@ MiniWord.SaveAsByTemplate(path, templatePath, value);
 
 ### Immagine
 
-Il tipo del valore è `MiniWordPicture`
+Il tipo di valore è `MiniWordPicture`
 
 ##### Esempio
 
+```csharp
 ```csharp
 var value = new Dictionary<string, object>()
 {
@@ -119,7 +118,7 @@ MiniWord.SaveAsByTemplate(path, templatePath, value);
 
 ### Lista
 
-Il valore del tag è di tipo `string[]` o `IList<string>`
+il valore del tag è di tipo `string[]` o `IList<string>`
 
 ##### Esempio
 
@@ -179,7 +178,7 @@ MiniWord.SaveAsByTemplate(path, templatePath, value);
 
 ![image](https://user-images.githubusercontent.com/12729184/190843663-c00baf16-21f2-4579-9d08-996a2c8c549b.png)
 
-### Lista dentro lista
+### Lista all'interno di una lista
 
 Il valore del tag è di tipo `IEnumerable<MiniWordForeach>`. È necessario aggiungere i tag `{{foreach` e `endforeach}}` al template.
 
@@ -198,9 +197,9 @@ var value = new Dictionary<string, object>()
             {
                 "Details", new List<MiniWordForeach>()
                 {
-```csharp
                     new MiniWordForeach()
                     {
+```csharp
                         Value = new Dictionary<string, object>()
                         {
                             {"Text", "Aria"},
@@ -227,20 +226,20 @@ MiniWord.SaveAsByTemplate(path, templatePath, value);
 
 ##### Template
 
-![before_foreach](https://raw.githubusercontent.com/mini-software/MiniWord/main/user-images.githubusercontent.com/38832863/220123955-063c9345-3998-4fd7-982c-8d1e3b48bbf8.PNG)
+![before_foreach](https://user-images.githubusercontent.com/38832863/220123955-063c9345-3998-4fd7-982c-8d1e3b48bbf8.PNG)
 
-<img width="755" alt="Screenshot 2023-08-08 at 17 59 37" src="https://raw.githubusercontent.com/mini-software/MiniWord/main/github.com/mini-software/MiniWord/assets/38832863/7811bf53-48cf-4fa4-85d7-d98663feb119">
+<img width="755" alt="Screenshot 2023-08-08 at 17 59 37" src="https://github.com/mini-software/MiniWord/assets/38832863/7811bf53-48cf-4fa4-85d7-d98663feb119">
 
 ##### Risultato
 
-![after_foreach](https://raw.githubusercontent.com/mini-software/MiniWord/main/user-images.githubusercontent.com/38832863/220123960-913a7140-2fa2-415e-bb3e-456e04167382.PNG)
+![after_foreach](https://user-images.githubusercontent.com/38832863/220123960-913a7140-2fa2-415e-bb3e-456e04167382.PNG)
 
-<img width="755" alt="Screenshot 2023-08-08 at 18 00 15" src="https://raw.githubusercontent.com/mini-software/MiniWord/main/github.com/mini-software/MiniWord/assets/38832863/9e1afcf7-64b1-441c-8488-9ea2bd3114a1">
+<img width="755" alt="Screenshot 2023-08-08 at 18 00 15" src="https://github.com/mini-software/MiniWord/assets/38832863/9e1afcf7-64b1-441c-8488-9ea2bd3114a1">
 
-### Istruzione If all'interno del template
+### Istruzione if all'interno del template
 
-Per più paragrafi, utilizzare i tag @if e @endif.
-Per un singolo paragrafo e all'interno di foreach, usare i tag `{{if` e `endif}}` come richiesto dal template.
+Per più paragrafi, utilizzare i tag @if e @endif.  
+Per singolo paragrafo e all'interno di foreach, utilizzare i tag `{{if` e `endif}}` per i template richiesti.
 
 ##### Esempio
 
@@ -250,11 +249,11 @@ var value = new Dictionary<string, object>()
     ["Name"] = new List<MiniWordHyperLink>(){
         new MiniWordHyperLink(){
             Url = "https://google.com",
-            Text = "Test link22!!"
+            Text = "測試連結22!!"
         },
         new MiniWordHyperLink(){
             Url = "https://google1.com",
-            Text = "Test link11!!"
+            Text = "測試連結11!!"
         }
     },
     ["Company_Name"] = "MiniSofteware",
@@ -268,19 +267,19 @@ MiniWord.SaveAsByTemplate(path, templatePath, value);
 
 ##### Template per più paragrafi
 
-![before_if](https://raw.githubusercontent.com/mini-software/MiniWord/main/user-images.githubusercontent.com/38832863/220125429-7dd6ce94-35c6-478e-8903-064f9cf9361a.PNG)
+![before_if](https://user-images.githubusercontent.com/38832863/220125429-7dd6ce94-35c6-478e-8903-064f9cf9361a.PNG)
 
 ##### Risultato per più paragrafi
 
-![after_if](https://raw.githubusercontent.com/mini-software/MiniWord/main/user-images.githubusercontent.com/38832863/220125435-72ea24b4-2412-45de-961a-ad4b2134417b.PNG)
+![after_if](https://user-images.githubusercontent.com/38832863/220125435-72ea24b4-2412-45de-961a-ad4b2134417b.PNG)
 
 ##### Template per singolo paragrafo
 
-<img width="931" alt="Screenshot 2023-08-08 at 17 55 46" src="https://raw.githubusercontent.com/mini-software/MiniWord/main/github.com/mini-software/MiniWord/assets/38832863/2adea468-a9c1-422f-a270-167086bc4ba3">
+<img width="931" alt="Screenshot 2023-08-08 at 17 55 46" src="https://github.com/mini-software/MiniWord/assets/38832863/2adea468-a9c1-422f-a270-167086bc4ba3">
 
 ##### Risultato per singolo paragrafo
 
-<img width="536" alt="Screenshot 2023-08-08 at 17 56 47" src="https://raw.githubusercontent.com/mini-software/MiniWord/main/github.com/mini-software/MiniWord/assets/38832863/01f71c0f-eee0-4189-8510-abe063126514">
+<img width="536" alt="Screenshot 2023-08-08 at 17 56 47" src="https://github.com/mini-software/MiniWord/assets/38832863/01f71c0f-eee0-4189-8510-abe063126514">
 
 ### ColorText
 
@@ -301,8 +300,10 @@ var value = new
         FontColor = "#ffffff",
     },
     VIP = true,
-    Points = 123,
-    APP = "Demo APP",
+```
+```csharp
+Punti = 123,
+APP = "Demo APP",
 };
 MiniWord.SaveAsByTemplate(path, templatePath, value);
 ```
@@ -310,9 +311,9 @@ MiniWord.SaveAsByTemplate(path, templatePath, value);
 
 ## Altro
 
-### Parametro POCO o dinamico
+### Parametro POCO o dynamic
 
-Dalla versione v0.5.0 è supportato il parametro POCO o dinamico
+Dalla versione v0.5.0 è supportato il parametro POCO o dynamic
 
 ```csharp
 var value = new { title = "Hello MiniWord" };
@@ -327,7 +328,7 @@ var value = new
     Name = new MiniWordColorText { Text = "Jack", HighlightColor = "#eb70AB" },
     CreateDate = new MiniWordColorText { Text = new DateTime(2021, 01, 01).ToString(), HighlightColor = "#eb70AB", FontColor = "#ffffff" },
     VIP = true,
-    Points = 123,
+    Punti = 123,
     APP = "Demo APP",
 };
 ```
@@ -336,8 +337,8 @@ var value = new
 
 Se il tipo di valore è `MiniWordHyperLink` il sistema sostituirà la stringa del template con un collegamento ipertestuale.
 
-* Url: percorso URI di destinazione dell'HyperLink
-* Text: Descrizione
+* Url： Percorso URI di destinazione dell'HyperLink
+* Text：Descrizione
 
 ```csharp
 var value = new
@@ -349,7 +350,7 @@ var value = new
     ["Company_Name"] = "MiniSofteware",
     ["CreateDate"] = new DateTime(2021, 01, 01),
     ["VIP"] = true,
-    ["Points"] = 123,
+    ["Punti"] = 123,
     ["APP"] = "Demo APP",
 };
 MiniWord.SaveAsByTemplate(path, templatePath, value);
@@ -399,87 +400,83 @@ public class Startup
 }
 
 public class ApiController : Controller
+{
+    public IActionResult Index()
 ```
 ```csharp
 {
-    public IActionResult Index()
+    return new ContentResult
     {
-        return new ContentResult
-        {
-            ContentType = "text/html",
-            StatusCode = (int)HttpStatusCode.OK,
-            Content = @"<html><body>
+        ContentType = "text/html",
+        StatusCode = (int)HttpStatusCode.OK,
+        Content = @"<html><body>
 <a href='api/DownloadWordFromTemplatePath'>DownloadWordFromTemplatePath</a><br>
 <a href='api/DownloadWordFromTemplateBytes'>DownloadWordFromTemplateBytes</a><br>
 </body></html>"
-        };
-    }
-
-    static Dictionary<string, object> defaultValue = new Dictionary<string, object>()
-    {
-        ["title"] = "FooCompany",
-        ["managers"] = new List<Dictionary<string, object>> {
-            new Dictionary<string, object>{{"name","Jack"},{ "department", "HR" } },
-            new Dictionary<string, object> {{ "name", "Loan"},{ "department", "IT" } }
-        },
-        ["employees"] = new List<Dictionary<string, object>> {
-            new Dictionary<string, object>{{ "name", "Wade" },{ "department", "HR" } },
-            new Dictionary<string, object> {{ "name", "Felix" },{ "department", "HR" } },
-            new Dictionary<string, object>{{ "name", "Eric" },{ "department", "IT" } },
-            new Dictionary<string, object> {{ "name", "Keaton" },{ "department", "IT" } }
-        }
     };
+}
 
-    public IActionResult DownloadWordFromTemplatePath()
-    {
-        string templatePath = "TestTemplateComplex.docx";
-
-        Dictionary<string, object> value = defaultValue;
-
-        MemoryStream memoryStream = new MemoryStream();
-        MiniWord.SaveAsByTemplate(memoryStream, templatePath, value);
-        memoryStream.Seek(0, SeekOrigin.Begin);
-        return new FileStreamResult(memoryStream, "application/vnd.openxmlformats-officedocument.wordprocessingml.document")
-        {
-            FileDownloadName = "demo.docx"
-        };
+static Dictionary<string, object> defaultValue = new Dictionary<string, object>()
+{
+    ["title"] = "FooCompany",
+    ["managers"] = new List<Dictionary<string, object>> {
+        new Dictionary<string, object>{{"name","Jack"},{ "department", "HR" } },
+        new Dictionary<string, object> {{ "name", "Loan"},{ "department", "IT" } }
+    },
+    ["employees"] = new List<Dictionary<string, object>> {
+        new Dictionary<string, object>{{ "name", "Wade" },{ "department", "HR" } },
+        new Dictionary<string, object> {{ "name", "Felix" },{ "department", "HR" } },
+        new Dictionary<string, object>{{ "name", "Eric" },{ "department", "IT" } },
+        new Dictionary<string, object> {{ "name", "Keaton" },{ "department", "IT" } }
     }
+};
 
-    private static Dictionary<string, Byte[]> TemplateBytesCache = new Dictionary<string, byte[]>();
+public IActionResult DownloadWordFromTemplatePath()
+{
+    string templatePath = "TestTemplateComplex.docx";
 
-    static ApiController()
+    Dictionary<string, object> value = defaultValue;
+
+    MemoryStream memoryStream = new MemoryStream();
+    MiniWord.SaveAsByTemplate(memoryStream, templatePath, value);
+    memoryStream.Seek(0, SeekOrigin.Begin);
+    return new FileStreamResult(memoryStream, "application/vnd.openxmlformats-officedocument.wordprocessingml.document")
     {
-        string templatePath = "TestTemplateComplex.docx";
-        byte[] bytes = System.IO.File.ReadAllBytes(templatePath);
-        TemplateBytesCache.Add(templatePath, bytes);
-    }
+        FileDownloadName = "demo.docx"
+    };
+}
 
-    public IActionResult DownloadWordFromTemplateBytes()
+private static Dictionary<string, Byte[]> TemplateBytesCache = new Dictionary<string, byte[]>();
+
+static ApiController()
+{
+    string templatePath = "TestTemplateComplex.docx";
+    byte[] bytes = System.IO.File.ReadAllBytes(templatePath);
+    TemplateBytesCache.Add(templatePath, bytes);
+}
+
+public IActionResult DownloadWordFromTemplateBytes()
+{
+    byte[] bytes = TemplateBytesCache["TestTemplateComplex.docx"];
+
+    Dictionary<string, object> value = defaultValue;
+
+    MemoryStream memoryStream = new MemoryStream();
+    MiniWord.SaveAsByTemplate(memoryStream, bytes, value);
+    memoryStream.Seek(0, SeekOrigin.Begin);
+    return new FileStreamResult(memoryStream, "application/vnd.openxmlformats-officedocument.wordprocessingml.document")
     {
-        byte[] bytes = TemplateBytesCache["TestTemplateComplex.docx"];
-
-        Dictionary<string, object> value = defaultValue;
-
-        MemoryStream memoryStream = new MemoryStream();
-        MiniWord.SaveAsByTemplate(memoryStream, bytes, value);
-        memoryStream.Seek(0, SeekOrigin.Begin);
-        return new FileStreamResult(memoryStream, "application/vnd.openxmlformats-officedocument.wordprocessingml.document")
-        {
-            FileDownloadName = "demo.docx"
-        };
-    }
+        FileDownloadName = "demo.docx"
+    };
+}
 }
 ```
 
-
-
-
-
-
 ## Supporto : [Link Donazione](https://miniexcel.github.io/)
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
 
 ---

@@ -1,9 +1,39 @@
+<div align="right" >
+  <details>
+    <summary >🌐 Ngôn ngữ</summary>
+    <div>
+      <div align="right">
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=en">English</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=zh-CN">简体中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=zh-TW">繁體中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja">日本語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ko">한국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=hi">हिन्दी</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=th">ไทย</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=fr">Français</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=de">Deutsch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=es">Español</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=it">Itapano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ru">Русский</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=pt">Português</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=nl">Nederlands</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=pl">Polski</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ar">العربية</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=fa">فارسی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=tr">Türkçe</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=vi">Tiếng Việt</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=id">Bahasa Indonesia</a></p>
+      </div>
+    </div>
+  </details>
+</div>
+
 <h1 align="center">
   <a href="https://github.com/CherryHQ/cherry-studio/releases">
     <img src="https://github.com/CherryHQ/cherry-studio/blob/main/build/icon.png?raw=true" width="150" height="150" alt="banner" /><br>
   </a>
 </h1>
-  <p align="center">Tiếng Anh | <a href="https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/README.zh.md">中文</a> | <a href="https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/README.ja.md">日本語</a> | <a href="https://cherry-ai.com">Trang chủ</a> | <a href="https://docs.cherry-ai.com/cherry-studio-wen-dang/en-us">Tài liệu</a> | <a href="https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/dev.md">Phát triển</a> | <a href="https://github.com/CherryHQ/cherry-studio/issues">Phản hồi</a><br></p>
+  <p align="center">English | <a href="./docs/README.zh.md">中文</a> | <a href="./docs/README.ja.md">日本語</a> | <a href="https://cherry-ai.com">Trang Chủ</a> | <a href="https://docs.cherry-ai.com/cherry-studio-wen-dang/en-us">Tài liệu</a> | <a href="./docs/dev.md">Phát triển</a> | <a href="https://github.com/CherryHQ/cherry-studio/issues">Phản hồi</a><br></p>
 
 <!-- 题头徽章组合 -->
 
@@ -43,11 +73,11 @@
 
 # 🍒 Cherry Studio
 
-Cherry Studio là ứng dụng máy tính để bàn hỗ trợ nhiều nhà cung cấp LLM, khả dụng trên Windows, Mac và Linux.
+Cherry Studio là ứng dụng khách trên máy tính hỗ trợ nhiều nhà cung cấp LLM, có sẵn trên Windows, Mac và Linux.
 
 👏 Tham gia [Nhóm Telegram](https://t.me/CherryStudioAI)｜[Discord](https://discord.gg/wez8HtpxqQ) | [Nhóm QQ(575014769)](https://qm.qq.com/q/lo0D4qVZKi)
 
-❤️ Thích Cherry Studio? Hãy cho một ngôi sao 🌟 hoặc [Tài trợ](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/sponsor.md) để ủng hộ phát triển!
+❤️ Thích Cherry Studio? Hãy tặng một sao 🌟 hoặc [Tài trợ](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/sponsor.md) để ủng hộ phát triển!
 
 # 🌠 Ảnh chụp màn hình
 
@@ -61,80 +91,80 @@ Cherry Studio là ứng dụng máy tính để bàn hỗ trợ nhiều nhà cun
 
 1. **Hỗ trợ đa dạng nhà cung cấp LLM**:
 
-- ☁️ Các dịch vụ đám mây LLM lớn: OpenAI, Gemini, Anthropic và nhiều hơn nữa
-- 🔗 Tích hợp dịch vụ AI Web: Claude, Peplexity, Poe, v.v.
+- ☁️ Dịch vụ LLM đám mây lớn: OpenAI, Gemini, Anthropic và nhiều hơn nữa
+- 🔗 Tích hợp dịch vụ AI Web: Claude, Peplexity, Poe, và các dịch vụ khác
 - 💻 Hỗ trợ mô hình cục bộ với Ollama, LM Studio
 
-2. **Trợ lý AI & Đàm thoại**:
+2. **Trợ lý AI & Hội thoại**:
 
-- 📚 Hơn 300 trợ lý AI được cấu hình sẵn
-- 🤖 Tạo trợ lý tùy chỉnh
-- 💬 Đàm thoại đa mô hình đồng thời
+- 📚 Hơn 300 Trợ lý AI được cấu hình sẵn
+- 🤖 Tạo Trợ Lý Tùy Chỉnh
+- 💬 Trò chuyện Đa Mô Hình Đồng Thời
 
-3. **Xử lý tài liệu & dữ liệu**:
+3. **Xử Lý Tài Liệu & Dữ Liệu**:
 
-- 📄 Hỗ trợ Văn bản, Hình ảnh, Office, PDF, v.v.
-- ☁️ Quản lý và sao lưu tệp WebDAV
-- 📊 Trực quan hóa biểu đồ Mermaid
-- 💻 Tô sáng cú pháp mã nguồn
+- 📄 Hỗ trợ Văn bản, Hình ảnh, Office, PDF và nhiều hơn nữa
+- ☁️ Quản lý và Sao lưu Tệp qua WebDAV
+- 📊 Trực quan hóa Biểu đồ Mermaid
+- 💻 Tô sáng Cú pháp Mã nguồn
 
-4. **Tích hợp công cụ thực tiễn**:
+4. **Tích hợp Công cụ Thực tiễn**:
 
-- 🔍 Chức năng tìm kiếm toàn cầu
-- 📝 Hệ thống quản lý chủ đề
-- 🔤 Dịch thuật hỗ trợ AI
-- 🎯 Kéo thả sắp xếp
+- 🔍 Chức năng Tìm kiếm Toàn cầu
+- 📝 Hệ thống Quản lý Chủ đề
+- 🔤 Dịch thuật bằng AI
+- 🎯 Kéo thả Sắp xếp
 - 🔌 Hỗ trợ Mini Program
-- ⚙️ Máy chủ MCP(Model Context Protocol)
+- ⚙️ Máy chủ MCP (Model Context Protocol)
 
-5. **Nâng cao trải nghiệm người dùng**:
+5. **Trải Nghiệm Người Dùng Nâng Cao**:
 
-- 🖥️ Hỗ trợ đa nền tảng cho Windows, Mac và Linux
-- 📦 Sẵn sàng sử dụng, không cần thiết lập môi trường
-- 🎨 Chủ đề Sáng/Tối và cửa sổ trong suốt
-- 📝 Kết xuất đầy đủ Markdown
-- 🤲 Dễ dàng chia sẻ nội dung
+- 🖥️ Hỗ trợ Đa nền tảng cho Windows, Mac và Linux
+- 📦 Sẵn sàng sử dụng, Không cần cài đặt môi trường
+- 🎨 Chủ đề Sáng/Tối và Cửa sổ Trong suốt
+- 📝 Kết xuất Markdown hoàn chỉnh
+- 🤲 Chia sẻ Nội dung Dễ dàng
 
-# 📝 Lộ trình phát triển
+# 📝 Lộ trình Phát triển
 
 Chúng tôi đang tích cực phát triển các tính năng và cải tiến sau:
 
-1. 🎯 **Tính năng lõi**
+1. 🎯 **Tính năng Cốt lõi**
 
-- Trợ lý lựa chọn - Cải thiện lựa chọn nội dung thông minh
-- Nghiên cứu chuyên sâu - Khả năng nghiên cứu nâng cao
-- Hệ thống ghi nhớ - Nhận thức ngữ cảnh toàn cục
-- Tiền xử lý tài liệu - Xử lý tài liệu tối ưu
+- Trợ lý Lựa chọn - Nâng cao lựa chọn nội dung thông minh
+- Nghiên cứu Sâu - Khả năng nghiên cứu nâng cao
+- Hệ thống Ghi nhớ - Nhận thức bối cảnh toàn cục
+- Tiền xử lý Tài liệu - Xử lý tài liệu được cải thiện
 - MCP Marketplace - Hệ sinh thái Model Context Protocol
 
-2. 🗂 **Quản lý tri thức**
+2. 🗂 **Quản lý Tri thức**
 
-- Ghi chú và bộ sưu tập
+- Ghi chú và Bộ sưu tập
 - Trực quan hóa Canvas động
 - Khả năng OCR
-- Hỗ trợ TTS (Text-to-Speech)
+- Hỗ trợ TTS (Chuyển văn bản thành giọng nói)
 
-3. 📱 **Hỗ trợ nền tảng**
+3. 📱 **Hỗ trợ Nền tảng**
 
 - Phiên bản HarmonyOS (PC)
 - Ứng dụng Android (Giai đoạn 1)
 - Ứng dụng iOS (Giai đoạn 1)
-- Hỗ trợ đa cửa sổ
-- Tính năng ghim cửa sổ
+- Hỗ trợ Đa cửa sổ
+- Chức năng Ghim cửa sổ
 
-4. 🔌 **Tính năng nâng cao**
+4. 🔌 **Tính năng Nâng cao**
 
-- Hệ thống plugin
-- ASR (Nhận diện giọng nói tự động)
-- Tái cấu trúc tương tác Trợ lý và Chủ đề
+- Hệ thống Plugin
+- ASR (Nhận diện Giọng nói Tự động)
+- Cải tổ Tương tác Trợ lý và Chủ đề
 
-Theo dõi tiến trình và đóng góp tại [bảng dự án](https://github.com/orgs/CherryHQ/projects/7).
+Theo dõi tiến trình của chúng tôi và đóng góp tại [bảng dự án](https://github.com/orgs/CherryHQ/projects/7).
 
-Muốn ảnh hưởng đến lộ trình phát triển? Tham gia [Thảo luận GitHub](https://github.com/CherryHQ/cherry-studio/discussions) để chia sẻ ý tưởng và phản hồi!
+Muốn góp ý cho lộ trình phát triển? Tham gia [Thảo luận trên GitHub](https://github.com/CherryHQ/cherry-studio/discussions) để chia sẻ ý tưởng và phản hồi!
 
 # 🌈 Chủ đề
 
-- Thư viện chủ đề: <https://cherrycss.com>
+- Thư viện Chủ đề: <https://cherrycss.com>
 - Chủ đề Aero: <https://github.com/hakadao/CherryStudio-Aero>
 - Chủ đề PaperMaterial: <https://github.com/rainoffallingstar/CherryStudio-PaperMaterial>
 - Claude dynamic-style: <https://github.com/bjl101501/CherryStudio-Claudestyle-dynamic>
@@ -144,34 +174,33 @@ Hoan nghênh PR cho nhiều chủ đề hơn
 
 # 🤝 Đóng góp
 
-Chúng tôi hoan nghênh mọi đóng góp cho Cherry Studio! Dưới đây là một số cách bạn có thể đóng góp:
+Chúng tôi hoan nghênh mọi đóng góp cho Cherry Studio! Bạn có thể đóng góp theo các cách sau:
 
-1. **Đóng góp mã nguồn**: Phát triển tính năng mới hoặc tối ưu mã nguồn hiện tại.
-2. **Sửa lỗi**: Gửi bản vá cho các lỗi bạn phát hiện.
-3. **Quản lý Issue**: Hỗ trợ quản lý các vấn đề trên GitHub.
-4. **Thiết kế sản phẩm**: Tham gia thảo luận về thiết kế.
-5. **Viết tài liệu**: Cải thiện hướng dẫn và tài liệu sử dụng.
-6. **Tham gia cộng đồng**: Tham gia thảo luận và hỗ trợ người dùng.
-7. **Quảng bá sử dụng**: Giới thiệu Cherry Studio tới nhiều người hơn.
+1. **Đóng góp Mã nguồn**: Phát triển tính năng mới hoặc tối ưu mã hiện tại.
+2. **Sửa lỗi**: Gửi bản sửa lỗi mà bạn phát hiện.
+3. **Quản lý Vấn đề**: Hỗ trợ quản lý các issue trên GitHub.
+4. **Thiết kế Sản phẩm**: Tham gia thảo luận thiết kế.
+5. **Viết Tài liệu**: Cải thiện hướng dẫn và tài liệu người dùng.
+6. **Tham gia Cộng đồng**: Tham gia thảo luận và hỗ trợ người dùng.
+7. **Quảng bá Sản phẩm**: Lan tỏa Cherry Studio đến nhiều người hơn.
 
-Tham khảo [Chiến lược nhánh](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/branching-strategy-en.md) để biết hướng dẫn đóng góp.
+Vui lòng tham khảo [Chiến lược Nhánh](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/branching-strategy-en.md) để biết hướng dẫn đóng góp
 
 ## Bắt đầu
 
-1. **Fork kho lưu trữ**: Fork và clone về máy tính của bạn.
-2. **Tạo nhánh mới**: Cho các thay đổi của bạn.
-3. **Gửi thay đổi**: Commit và push thay đổi.
-4. **Tạo Pull Request**: Mô tả các thay đổi và lý do thực hiện.
+1. **Fork Kho lưu trữ**: Fork và sao chép về máy của bạn.
+2. **Tạo Nhánh mới**: Cho các thay đổi của bạn.
+3. **Gửi Thay đổi**: Commit và push thay đổi của bạn.
+4. **Mở Pull Request**: Mô tả thay đổi và lý do thực hiện.
 
-Để biết hướng dẫn chi tiết hơn, vui lòng xem [Hướng dẫn đóng góp](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/CONTRIBUTING.md).
+Để biết hướng dẫn chi tiết hơn, vui lòng tham khảo [Hướng dẫn Đóng góp](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/./CONTRIBUTING.md).
 
-Cảm ơn sự ủng hộ và đóng góp của bạn!
+Cảm ơn bạn đã ủng hộ và đóng góp!
 
 # 🔗 Dự án liên quan
+- [one-api](https://github.com/songquanpeng/one-api): Hệ thống quản lý và phân phối API LLM, hỗ trợ các mô hình phổ biến như OpenAI, Azure và Anthropic. Cung cấp giao diện API thống nhất, phù hợp cho quản lý khóa và phân phối thứ cấp.
 
-- [one-api](https://github.com/songquanpeng/one-api): Hệ thống quản lý và phân phối API LLM, hỗ trợ các mô hình chính thống như OpenAI, Azure, Anthropic. Tính năng giao diện API thống nhất, phù hợp với quản lý khóa và phân phối cấp hai.
-
-- [ublacklist](https://github.com/iorate/ublacklist): Chặn các trang cụ thể khỏi kết quả tìm kiếm Google
+- [ublacklist](https://github.com/iorate/ublacklist): Chặn các trang web cụ thể khỏi kết quả tìm kiếm Google
 
 # 🚀 Người đóng góp
 
@@ -180,15 +209,15 @@ Cảm ơn sự ủng hộ và đóng góp của bạn!
 </a>
 <br /><br />
 
-# ⭐️ Lịch sử ngôi sao
+# ⭐️ Lịch sử gắn sao
 
-[![Biểu đồ lịch sử ngôi sao](https://api.star-history.com/svg?repos=CherryHQ/cherry-studio&type=Timeline)](https://star-history.com/#CherryHQ/cherry-studio&Timeline)
+[![Star History Chart](https://api.star-history.com/svg?repos=CherryHQ/cherry-studio&type=Timeline)](https://star-history.com/#CherryHQ/cherry-studio&Timeline)
 
 <!-- Links & Images -->
 [deepwiki-shield]: https://img.shields.io/badge/Deepwiki-CherryHQ-0088CC?style=plastic
 [deepwiki-link]: https://deepwiki.com/CherryHQ/cherry-studio
 [twitter-shield]: https://img.shields.io/badge/Twitter-CherryStudioApp-0088CC?style=plastic&logo=x
-[twitter-link]: https://twitter.com/CherryStudioApp
+[twitter-link]: https://twitter.com/CherryStudioHQ
 [discord-shield]: https://img.shields.io/badge/Discord-@CherryStudio-0088CC?style=plastic&logo=discord
 [discord-link]: https://discord.gg/wez8HtpxqQ
 [telegram-shield]: https://img.shields.io/badge/Telegram-@CherryStudioAI-0088CC?style=plastic&logo=telegram
@@ -204,7 +233,7 @@ Cảm ơn sự ủng hộ và đóng góp của bạn!
 [github-contributors-shield]: https://img.shields.io/github/contributors/CherryHQ/cherry-studio
 [github-contributors-link]: https://github.com/CherryHQ/cherry-studio/graphs/contributors
 
-<!-- Liên kết & Hình ảnh -->
+<!-- Links & Images -->
 [license-shield]: https://img.shields.io/badge/License-AGPLv3-important.svg?style=plastic&logo=gnu
 [license-link]: https://www.gnu.org/licenses/agpl-3.0
 [commercial-shield]: https://img.shields.io/badge/License-Contact-white.svg?style=plastic&logoColor=white&logo=telegram&color=blue
@@ -214,6 +243,6 @@ Cảm ơn sự ủng hộ và đóng góp của bạn!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
 
 ---

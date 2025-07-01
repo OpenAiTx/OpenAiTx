@@ -1,5 +1,5 @@
-# Gantt
-
+# ガント
+<div style="text-align: center"><p><a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> </p></div>
 ## インストール
 
 ```
@@ -15,41 +15,43 @@ yarn run serve
 ### 説明
 
 ```
-Vueをベースに開発されたガントチャート表示で、チーム協力やタスク分割などのアジャイルシナリオに利用できます。
+vue をベースに開発されたガントチャート表示であり、チーム協力やタスク分割などのアジャイルな場面で利用可能
 
 グループ化対応
 ドラッグ対応
-リサイズ対応
+伸縮対応
 パーセンテージ対応
 時間スパン対応：日、週、月
-現在は1階層のグループのみ実装されていますが、将来の2階層または多階層グループの要件に備え、前回のコミットで一部コードをリファクタリングし、多階層グループをサポートしました。ただし現バージョンでは開発されていません。
+現在は1階層のグループ化のみ実装済み。将来的な2階層以上のグループ化ニーズに備え、前回のコミットで一部コードをリファクタリングし多階層グループ化をサポート。ただし現バージョンでは未開発。
 
-メリット: ドラッグ、リサイズ、進捗変更などの操作時、データはリアルタイムで更新されず、操作後に更新されるため、パフォーマンス消費を低減します。
-         編集、削除、追加時、全体を再帰的に修正せず、変更部分のみの追加・削除・修正となります。
+利点: ドラッグ、伸縮、進捗変更などの操作時、データはリアルタイムで更新されず、操作後に更新されるためパフォーマンスの消耗を抑制
+      編集・削除・追加時もインスタンス全体を再帰的に変更せず、変更部分のみを増減修正
 
-再編成を進めており、コンポーネント化の準備中です。現時点でプロジェクトで利用する場合は、本プロジェクトの`gant.vue`をインポートするだけで利用可能です。
-バルクデータのインポート・エクスポート方法も既に作成済みで、直接コピーして利用できます！~
+現在コンポーネント化の準備のため、再編成を進行中。現時点でプロジェクトに導入するには本プロジェクト内の`gant.vue`をインポートするだけでOK
+バルクデータのインポート・エクスポート方法も実装済み、コピペで利用可能！~
+
 ```
 
 ### 更新履歴
 
 - 編集対応
 - 削除対応
-- 垂直スクロール不可のバグを修正（双方向同時スクロールも追加） [#4](https://github.com/GGBeng1/Gantt/issues/4)
-- elementUIによるバグ修正
-- 時間スパンに関する問題 [#5](https://github.com/GGBeng1/Gantt/issues/5)
-- 現時点ではスパン設定を変更して他のスパン（例：時間単位など）を実現できません。初期化時の設定が固定のため、今後APIとして公開予定です。
+- 垂直スクロール不可のバグ修正（双方向同時スクロールも追加） [#4](https://github.com/GGBeng1/Gantt/issues/4)
+- elementUIに起因するバグ修正
+- 時間スパンの問題について [#5](https://github.com/GGBeng1/Gantt/issues/5)
+- 現状、スパン設定を変更して他のスパン（例：時間単位など）を実現することはできません。初期化時に一部設定が固定されているためですが、今後はAPI化して対応予定です。
+
 
 ### サンプルを見る
 
 [デモを見る](https://ggbeng1.github.io/Gantt/#/)
 
-### サンプル画像
+### 表示例
 
 <img src="https://raw.githubusercontent.com/GGBeng1/Gantt/master/public/demo.png" alt="">
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-10
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
 
 ---

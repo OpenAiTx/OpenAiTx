@@ -1,5 +1,5 @@
-# Gantt
-
+# گانت
+<div style="text-align: center"><p><a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=GGBeng1&project=Gantt&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> </p></div>
 ## نصب
 
 ```
@@ -15,20 +15,21 @@ yarn run serve
 ### توضیحات
 
 ```
-نمودار گانت مبتنی بر vue، قابل استفاده برای همکاری تیمی، تقسیم وظایف و سایر سناریوهای چابک
+نمایش نمودار گانت توسعه یافته بر اساس Vue، قابل استفاده در سناریوهای چابک مانند همکاری تیمی و تقسیم وظایف
 
 پشتیبانی از گروه‌بندی
-پشتیبانی از کشیدن و رها کردن (درگ اند دراپ)
-پشتیبانی از کشیدن برای تغییر اندازه
+پشتیبانی از کشیدن و رها کردن (درگ و دراپ)
+پشتیبانی از کشش (ری‌سایز)
 پشتیبانی از درصد پیشرفت
 پشتیبانی از بازه‌های زمانی: روز، هفته، ماه
-در حال حاضر فقط گروه‌بندی یک سطحی نوشته شده است. برای جلوگیری از نیازهای احتمالی به گروه‌بندی دو یا چند سطحی در آینده، در آخرین ارسال بخشی از کد بازنویسی شده تا پشتیبانی از گروه‌بندی چند سطحی فراهم شود، اما نسخه فعلی هنوز توسعه نیافته است.
+در حال حاضر فقط گروه‌بندی یک‌سطحی نوشته شده است. به منظور جلوگیری از نیاز به گروه‌بندی دوم یا چندسطحی در آینده، در آخرین ارسال بخشی از کد بازنویسی شده تا پشتیبانی از گروه‌بندی چندسطحی فراهم شود، اما در نسخه فعلی توسعه داده نشده است.
 
-مزایا: هنگام کشیدن، تغییر اندازه، و ویرایش پیشرفت، داده‌ها به صورت آنی به‌روزرسانی نمی‌شوند، بلکه پس از اتمام عملیات به‌روزرسانی می‌شوند که باعث کاهش مصرف منابع می‌شود.
-      هنگام ویرایش، حذف یا افزودن، به صورت کلی و بازگشتی کل نمونه تغییر نمی‌کند، بلکه فقط قسمت تغییر یافته ویرایش، حذف یا اضافه می‌شود.
+مزایا: هنگام انجام عملیات‌هایی مانند کشیدن و رها کردن، کشش و تغییر پیشرفت، داده‌ها به صورت بلادرنگ به‌روزرسانی نمی‌شوند و پس از پایان عملیات به‌روزرسانی می‌شوند که باعث کاهش مصرف منابع می‌گردد.
+در هنگام ویرایش، حذف و اضافه کردن، اصلاح به صورت بازگشتی بر کل نمونه انجام نمی‌شود و فقط بخش تغییر یافته اصلاح می‌شود.
 
-در حال آماده‌سازی سازمان‌دهی مجدد برای کامپوننتی کردن پروژه هستم، در حال حاضر فقط کافی است فایل `gant.vue` را به پروژه خود اضافه کنید تا قابل استفاده باشد.
-روش‌های واردات و صادرات دسته‌ای داده‌ها نیز آماده شده و کافی است مستقیماً کپی کنید!~
+در حال آماده‌سازی ساختار مجدد برای آماده‌سازی جهت کامپوننت‌سازی هستیم. در حال حاضر برای استفاده در پروژه فقط کافی است فایل `gant.vue` این پروژه را وارد کنید.
+روش‌های واردات و صادرات داده به صورت دسته‌ای آماده شده و فقط کافی است کپی شوند!~
+
 ```
 
 ### توضیحات به‌روزرسانی
@@ -37,19 +38,19 @@ yarn run serve
 - پشتیبانی از حذف
 - رفع باگ عدم امکان اسکرول عمودی (افزودن اسکرول همزمان دوطرفه) [#4](https://github.com/GGBeng1/Gantt/issues/4)
 - رفع باگ ناشی از elementUI
-- مشکل بازه زمانی [#5](https://github.com/GGBeng1/Gantt/issues/5)
-- فعلاً امکان تغییر بازه‌های زمانی مثل افزودن ساعت وجود ندارد، زیرا برخی پیکربندی‌ها در زمان مقداردهی اولیه ثابت شده‌اند، در آینده به عنوان api قابل پیکربندی خواهد شد.
+- مورد مربوط به بازه زمانی [#5](https://github.com/GGBeng1/Gantt/issues/5)
+- در حال حاضر امکان افزودن بازه‌های دیگر مانند ساعت از طریق تغییر تنظیمات بازه وجود ندارد، زیرا برخی تنظیمات در هنگام مقداردهی اولیه ثابت شده‌اند و در آینده به صورت API ارائه خواهد شد.
 
 ### مشاهده نمونه
 
-مشاهده [دمو](https://ggbeng1.github.io/Gantt/#/)
+[دمو](https://ggbeng1.github.io/Gantt/#/) را ببینید
 
-### تصویر نمایش
+### تصویر نمونه
 
 <img src="https://raw.githubusercontent.com/GGBeng1/Gantt/master/public/demo.png" alt="">
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-10
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
 
 ---

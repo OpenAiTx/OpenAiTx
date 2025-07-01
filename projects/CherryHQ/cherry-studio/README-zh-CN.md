@@ -1,3 +1,33 @@
+<div align="right" >
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="right">
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=en">English</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=zh-CN">简体中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=zh-TW">繁體中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja">日本語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ko">한국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=hi">हिन्दी</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=th">ไทย</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=fr">Français</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=de">Deutsch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=es">Español</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=it">Itapano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ru">Русский</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=pt">Português</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=nl">Nederlands</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=pl">Polski</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ar">العربية</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=fa">فارسی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=tr">Türkçe</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=vi">Tiếng Việt</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=id">Bahasa Indonesia</a></p>
+      </div>
+    </div>
+  </details>
+</div>
+
 <h1 align="center">
   <a href="https://github.com/CherryHQ/cherry-studio/releases">
     <img src="https://github.com/CherryHQ/cherry-studio/blob/main/build/icon.png?raw=true" width="150" height="150" alt="banner" /><br>
@@ -43,11 +73,11 @@
 
 # 🍒 Cherry Studio
 
-Cherry Studio 是一款支持多种大模型（LLM）服务商的桌面客户端，适用于 Windows、Mac 和 Linux。
+Cherry Studio 是一款桌面客户端，支持多种大语言模型（LLM）服务商，可在 Windows、Mac 和 Linux 上使用。
 
 👏 加入 [Telegram 群组](https://t.me/CherryStudioAI)｜[Discord](https://discord.gg/wez8HtpxqQ) | [QQ群(575014769)](https://qm.qq.com/q/lo0D4qVZKi)
 
-❤️ 喜欢 Cherry Studio？给我们点个星 🌟 或 [赞助](docs/sponsor.md) 支持开发！
+❤️ 喜欢 Cherry Studio？欢迎点亮星标 🌟 或 [赞助](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/sponsor.md) 支持开发！
 
 # 🌠 截图
 
@@ -59,15 +89,15 @@ Cherry Studio 是一款支持多种大模型（LLM）服务商的桌面客户端
 
 # 🌟 主要特性
 
-1. **多样化的大模型服务商支持**：
+1. **多样化的 LLM 服务商支持**：
 
 - ☁️ 主流大模型云服务：OpenAI、Gemini、Anthropic 等
-- 🔗 AI Web 服务集成：Claude、Peplexity、Poe 等
+- 🔗 AI Web 服务接入：Claude、Peplexity、Poe 等
 - 💻 本地模型支持：Ollama、LM Studio
 
-2. **AI 助手与对话系统**：
+2. **AI 助手与对话**：
 
-- 📚 300+ 预设 AI 助手
+- 📚 300+ 预配置 AI 助手
 - 🤖 自定义助手创建
 - 💬 多模型同时对话
 
@@ -91,9 +121,9 @@ Cherry Studio 是一款支持多种大模型（LLM）服务商的桌面客户端
 
 - 🖥️ 跨平台支持 Windows、Mac 和 Linux
 - 📦 开箱即用，无需环境配置
-- 🎨 明暗主题与透明窗口
+- 🎨 明/暗主题与透明窗口
 - 📝 完整 Markdown 渲染
-- 🤲 便捷内容分享
+- 🤲 轻松内容分享
 
 # 📝 路线图
 
@@ -101,22 +131,22 @@ Cherry Studio 是一款支持多种大模型（LLM）服务商的桌面客户端
 
 1. 🎯 **核心功能**
 
-- 选区助手 - 智能内容选取增强
-- 深度研究 - 高级研究能力
-- 记忆系统 - 全局上下文感知
-- 文档预处理 - 文档处理能力升级
-- MCP 市场 - 模型上下文协议生态
+- 选择助手——智能内容选择增强
+- 深度研究——高级研究能力
+- 记忆系统——全局上下文感知
+- 文档预处理——文档处理能力提升
+- MCP 市场——模型上下文协议生态系统
 
 2. 🗂 **知识管理**
 
 - 笔记与收藏
 - 动态画布可视化
-- OCR 能力
+- OCR 光学字符识别
 - TTS（文本转语音）支持
 
 3. 📱 **平台支持**
 
-- 鸿蒙版（PC）
+- HarmonyOS 版（PC）
 - 安卓 App（第一阶段）
 - iOS App（第一阶段）
 - 多窗口支持
@@ -128,48 +158,47 @@ Cherry Studio 是一款支持多种大模型（LLM）服务商的桌面客户端
 - ASR（自动语音识别）
 - 助手与主题交互重构
 
-欢迎在我们的 [项目看板](https://github.com/orgs/CherryHQ/projects/7) 跟踪进展和贡献力量。
+关注我们的进展并在我们的 [项目看板](https://github.com/orgs/CherryHQ/projects/7) 参与贡献。
 
-想影响我们的路线图？欢迎加入 [GitHub Discussions](https://github.com/CherryHQ/cherry-studio/discussions) 分享你的想法和建议！
+想参与路线图制定？欢迎加入我们的 [GitHub Discussions](https://github.com/CherryHQ/cherry-studio/discussions) 分享你的想法与反馈！
 
 # 🌈 主题
 
-- 主题画廊: <https://cherrycss.com>
+- 主题库: <https://cherrycss.com>
 - Aero 主题: <https://github.com/hakadao/CherryStudio-Aero>
 - PaperMaterial 主题: <https://github.com/rainoffallingstar/CherryStudio-PaperMaterial>
 - Claude 动态风格: <https://github.com/bjl101501/CherryStudio-Claudestyle-dynamic>
-- 枫叶霓虹主题: <https://github.com/BoningtonChen/CherryStudio_themes>
+- Maple Neon 主题: <https://github.com/BoningtonChen/CherryStudio_themes>
 
 欢迎 PR 更多主题
 
 # 🤝 贡献指南
 
-我们欢迎你为 Cherry Studio 做出贡献！以下是一些参与方式：
+我们欢迎您为 Cherry Studio 做出贡献！以下是参与方式：
 
 1. **贡献代码**：开发新功能或优化现有代码。
 2. **修复 Bug**：提交你发现的问题修复。
-3. **维护 Issue**：协助管理 GitHub 问题。
+3. **维护问题**：帮助管理 GitHub 问题。
 4. **产品设计**：参与设计讨论。
-5. **编写文档**：完善用户手册和指南。
-6. **社区互动**：加入讨论并帮助用户。
-7. **推广应用**：宣传 Cherry Studio。
+5. **撰写文档**：改进用户手册和指南。
+6. **社区互动**：参与讨论并帮助用户。
+7. **推广应用**：传播 Cherry Studio。
 
-贡献详情请参见 [分支策略](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/branching-strategy-en.md)
+请参阅 [分支策略](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/branching-strategy-en.md) 了解贡献规范
 
 ## 快速开始
 
 1. **Fork 仓库**：Fork 并克隆到本地。
-2. **创建分支**：为你的更改创建新分支。
-3. **提交更改**：提交并推送你的代码。
-4. **发起 Pull Request**：描述你的更改及原因。
+2. **创建分支**：为你的修改创建分支。
+3. **提交更改**：提交并推送你的更改。
+4. **发起 Pull Request**：描述你的更改及理由。
 
-更多详细说明请参阅我们的 [贡献指南](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/CONTRIBUTING.md)。
+更多详细指导请参阅我们的 [贡献指南](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/./CONTRIBUTING.md)。
 
-感谢你的支持与贡献！
+感谢您的支持与贡献！
 
 # 🔗 相关项目
-
-- [one-api](https://github.com/songquanpeng/one-api)：LLM API 管理与分发系统，支持 OpenAI、Azure、Anthropic 等主流模型。特性包括统一 API 接口，适合密钥管理和二次分发。
+- [one-api](https://github.com/songquanpeng/one-api)：LLM API 管理与分发系统，支持 OpenAI、Azure、Anthropic 等主流模型。提供统一 API 接口，适用于密钥管理和二次分发。
 
 - [ublacklist](https://github.com/iorate/ublacklist)：阻止特定网站出现在 Google 搜索结果中
 
@@ -180,7 +209,7 @@ Cherry Studio 是一款支持多种大模型（LLM）服务商的桌面客户端
 </a>
 <br /><br />
 
-# ⭐️ Star 记录
+# ⭐️ Star 历史
 
 [![Star History Chart](https://api.star-history.com/svg?repos=CherryHQ/cherry-studio&type=Timeline)](https://star-history.com/#CherryHQ/cherry-studio&Timeline)
 
@@ -188,7 +217,7 @@ Cherry Studio 是一款支持多种大模型（LLM）服务商的桌面客户端
 [deepwiki-shield]: https://img.shields.io/badge/Deepwiki-CherryHQ-0088CC?style=plastic
 [deepwiki-link]: https://deepwiki.com/CherryHQ/cherry-studio
 [twitter-shield]: https://img.shields.io/badge/Twitter-CherryStudioApp-0088CC?style=plastic&logo=x
-[twitter-link]: https://twitter.com/CherryStudioApp
+[twitter-link]: https://twitter.com/CherryStudioHQ
 [discord-shield]: https://img.shields.io/badge/Discord-@CherryStudio-0088CC?style=plastic&logo=discord
 [discord-link]: https://discord.gg/wez8HtpxqQ
 [telegram-shield]: https://img.shields.io/badge/Telegram-@CherryStudioAI-0088CC?style=plastic&logo=telegram
@@ -204,7 +233,7 @@ Cherry Studio 是一款支持多种大模型（LLM）服务商的桌面客户端
 [github-contributors-shield]: https://img.shields.io/github/contributors/CherryHQ/cherry-studio
 [github-contributors-link]: https://github.com/CherryHQ/cherry-studio/graphs/contributors
 
-<!-- 链接与图片 -->
+<!-- Links & Images -->
 [license-shield]: https://img.shields.io/badge/License-AGPLv3-important.svg?style=plastic&logo=gnu
 [license-link]: https://www.gnu.org/licenses/agpl-3.0
 [commercial-shield]: https://img.shields.io/badge/License-Contact-white.svg?style=plastic&logoColor=white&logo=telegram&color=blue
@@ -214,6 +243,6 @@ Cherry Studio 是一款支持多种大模型（LLM）服务商的桌面客户端
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
 
 ---
