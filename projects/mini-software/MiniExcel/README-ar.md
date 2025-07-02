@@ -1,4 +1,4 @@
-<div style="text-align: center">
+<div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
 <a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Build status"></a>
 <a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
@@ -11,13 +11,13 @@
 
 [<img align="right" src="https://github.com/dotnet-foundation/swag/blob/main/logo/dotnetfoundation_v4.png?raw=true" width="100" />](https://www.dotnetfoundation.org/)
 
-<div style="text-align: center">
-<p>هذا المشروع جزء من <a href="https://www.dotnetfoundation.org/">مؤسسة .NET</a> ويعمل تحت <a href="https://www.dotnetfoundation.org/code-of-conduct">مدونة السلوك الخاصة بهم</a>. </p>
+<div align="center">
+<p>هذا المشروع هو جزء من <a href="https://www.dotnetfoundation.org/">مؤسسة .NET</a> ويعمل تحت <a href="https://www.dotnetfoundation.org/code-of-conduct">مدونة السلوك</a> الخاصة بهم.</p>
 </div>
 
 ---
 
-<div style="text-align: center">
+<div align="center">
 <p><strong><a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a> | <a href="README.zh-Hant.md">繁體中文</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ja">日本語</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ko">한국어</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=hi">हिन्दी</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=th">ไทย</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fr">Français</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=de">Deutsch</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=es">Español</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=it">Italiano</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ru">Русский</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pt">Português</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=nl">Nederlands</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pl">Polski</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ar">العربية</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fa">فارسی</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=tr">Türkçe</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=vi">Tiếng Việt</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=id">Bahasa Indonesia</a><p></p>
 </strong></p>
 </div>
@@ -25,30 +25,30 @@
 
 ---
 
-<div style="text-align: center">
- نجماتك على <a href="https://github.com/mini-software/MiniExcel">GitHub</a> أو <a href="https://miniexcel.github.io">تبرعاتك</a> يمكن أن تجعل MiniExcel أفضل
+<div align="center">
+نجومك على <a href="https://github.com/mini-software/MiniExcel">GitHub</a> أو <a href="https://miniexcel.github.io">تبرعاتك</a> يمكن أن تجعل MiniExcel أفضل
 </div>
 
 ---
 
 ### المقدمة
 
-MiniExcel هو أداة بسيطة وفعّالة لمعالجة ملفات إكسل لـ .NET، تم تصميمها خصيصاً لتقليل استهلاك الذاكرة.
+MiniExcel هي أداة بسيطة وفعّالة لمعالجة ملفات Excel على .NET، تم تصميمها خصيصًا لتقليل استهلاك الذاكرة إلى الحد الأدنى.
 
-حالياً، تحتاج معظم الأطر الشائعة إلى تحميل جميع البيانات من مستند Excel إلى الذاكرة لتسهيل العمليات، لكن هذا قد يؤدي إلى مشاكل في استهلاك الذاكرة. نهج MiniExcel مختلف: تتم معالجة البيانات صفاً صفاً بطريقة تدفقية، مما يقلل الاستهلاك الأصلي من مئات الميغابايتات إلى عدة ميغابايتات فقط، ويمنع بشكل فعّال مشاكل نفاد الذاكرة (OOM).
+حاليًا، معظم الأطر الشائعة تحتاج إلى تحميل جميع بيانات مستند Excel في الذاكرة لتسهيل العمليات، لكن هذا قد يسبب مشاكل في استهلاك الذاكرة. نهج MiniExcel مختلف: تتم معالجة البيانات صفًا بصف بطريقة البث، مما يقلل من الاستهلاك الأصلي من مئات الميجابايتات المحتملة إلى بضعة ميجابايتات فقط، مما يمنع بشكل فعّال مشاكل نفاد الذاكرة (OOM).
 
 ![Screenshot 2025-06-22 123525](https://github.com/user-attachments/assets/0b99a61e-8061-4604-8957-0b1f3ec74544)
 
 
 ### الميزات
 
-- يقلل استهلاك الذاكرة، ويمنع أخطاء نفاد الذاكرة (OOM) ويتجنب جمع القمامة الكامل
-- يمكّن من العمليات الفورية على مستوى الصف لتحقيق أداء أفضل مع مجموعات البيانات الكبيرة
-- يدعم LINQ بتنفيذ مؤجل، مما يسمح بتقسيم الصفحات السريع والاستعلامات المعقدة بكفاءة عالية في استخدام الذاكرة
+- يقلل استهلاك الذاكرة إلى الحد الأدنى، ويمنع أخطاء نفاد الذاكرة (OOM) ويتجنب جمع القمامة الكامل
+- يمكّن من تنفيذ العمليات على مستوى الصف في الوقت الفعلي لتحقيق أداء أفضل مع مجموعات البيانات الكبيرة
+- يدعم LINQ مع التنفيذ المؤجل، مما يسمح بالتقسيم السريع والفعال للذاكرة والاستعلامات المعقدة
 - خفيف الوزن، لا يحتاج إلى Microsoft Office أو مكونات COM+، وحجم ملف DLL أقل من 500 كيلوبايت
-- واجهة برمجة تطبيقات بسيطة وبديهية لقراءة/كتابة/تعبئة ملفات Excel
+- واجهة برمجة تطبيقات بسيطة وبديهية للقراءة/الكتابة/التعبئة إلى Excel
 
-### البدء السريع
+### البدء
 
 - [استيراد/استعلام Excel](#getstart1)
 
@@ -56,7 +56,7 @@ MiniExcel هو أداة بسيطة وفعّالة لمعالجة ملفات إك
 
 - [قالب Excel](#getstart3)
 
-- [اسم العمود/الفهرس/تجاهل السمة في Excel](#getstart4)
+- [اسم العمود/الفهرس/سمة التجاهل في Excel](#getstart4)
 
 - [أمثلة](#getstart5)
 
@@ -66,19 +66,19 @@ MiniExcel هو أداة بسيطة وفعّالة لمعالجة ملفات إك
 
 يمكنك تثبيت الحزمة [من NuGet](https://www.nuget.org/packages/MiniExcel)
 
-### ملاحظات الإصدارات
+### ملاحظات الإصدار
 
-يرجى مراجعة [ملاحظات الإصدارات](docs)
+يرجى مراجعة [ملاحظات الإصدار](docs)
 
 ### المهام القادمة
 
-يرجى مراجعة  [المهام القادمة](https://github.com/mini-software/MiniExcel/projects/1?fullscreen=true)
+يرجى مراجعة [TODO](https://github.com/mini-software/MiniExcel/projects/1?fullscreen=true)
 
 ### الأداء
 
 يمكنك العثور على كود اختبارات الأداء في [MiniExcel.Benchmarks](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Program.cs).
 
-الملف المستخدم لاختبار الأداء هو [**Test1,000,000x10.xlsx**](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Test1%2C000%2C000x10.xlsx)، وهو مستند بحجم 32 ميغابايت يحتوي على 1,000,000 صف × 10 أعمدة تم ملء خلاياه بسلسلة "HelloWorld".
+الملف المستخدم لاختبار الأداء هو [**Test1,000,000x10.xlsx**](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Test1%2C000%2C000x10.xlsx)، وهو مستند بحجم 32 ميجابايت يحتوي على 1,000,000 صف × 10 أعمدة، والخلايا مملوءة بسلسلة "HelloWorld".
 
 لتشغيل جميع اختبارات الأداء استخدم:
 
@@ -86,14 +86,14 @@ MiniExcel هو أداة بسيطة وفعّالة لمعالجة ملفات إك
 dotnet run -project .\benchmarks\MiniExcel.Benchmarks -c Release -f net9.0 -filter * --join
 ```
 
-يمكنك العثور على نتائج اختبارات الأداء للإصدار الأخير [هنا](benchmarks/results).
+يمكنك العثور على نتائج اختبارات الأداء لأحدث إصدار [هنا](benchmarks/results).
 
 
 ### استعلام/استيراد Excel  <a name="getstart1"></a>
 
-#### 1. تنفيذ استعلام وربط النتائج بنوع بيانات قوي باستخدام IEnumerable [[جرّب الآن]](https://dotnetfiddle.net/w5WD1J)
+#### 1. تنفيذ استعلام وربط النتائج بفئة قوية النوع IEnumerable [[جرّبها]](https://dotnetfiddle.net/w5WD1J)
 
-يُنصح باستخدام Stream.Query لأنه أكثر كفاءة.
+يوصى باستخدام Stream.Query بسبب الكفاءة الأفضل.
 
 ```csharp
 public class UserAccount
@@ -1983,6 +1983,6 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-02
 
 ---

@@ -1,4 +1,4 @@
-<div style="text-align: center">
+<div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
 <a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Build status"></a>
 <a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
@@ -11,13 +11,13 @@
 
 [<img align="right" src="https://github.com/dotnet-foundation/swag/blob/main/logo/dotnetfoundation_v4.png?raw=true" width="100" />](https://www.dotnetfoundation.org/)
 
-<div style="text-align: center">
-<p>本專案屬於 <a href="https://www.dotnetfoundation.org/">.NET 基金會</a>，並遵循其<a href="https://www.dotnetfoundation.org/code-of-conduct">行為準則</a>運作。</p>
+<div align="center">
+<p>本專案為 <a href="https://www.dotnetfoundation.org/">.NET Foundation</a> 的一部分，並遵循其 <a href="https://www.dotnetfoundation.org/code-of-conduct">行為準則</a> 運作。</p>
 </div>
 
 ---
 
-<div style="text-align: center">
+<div align="center">
 <p><strong><a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a> | <a href="README.zh-Hant.md">繁體中文</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ja">日本語</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ko">한국어</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=hi">हिन्दी</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=th">ไทย</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fr">Français</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=de">Deutsch</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=es">Español</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=it">Italiano</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ru">Русский</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pt">Português</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=nl">Nederlands</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pl">Polski</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ar">العربية</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fa">فارسی</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=tr">Türkçe</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=vi">Tiếng Việt</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=id">Bahasa Indonesia</a><p></p>
 </strong></p>
 </div>
@@ -25,30 +25,30 @@
 
 ---
 
-<div style="text-align: center">
- 您的<a href="https://github.com/mini-software/MiniExcel">星星</a>或<a href="https://miniexcel.github.io">贊助</a>可以讓 MiniExcel 變得更好
+<div align="center">
+ 您的 <a href="https://github.com/mini-software/MiniExcel">Star</a> 或 <a href="https://miniexcel.github.io">捐款</a> 可以讓 MiniExcel 變得更好
 </div>
 
 ---
 
 ### 簡介
 
-MiniExcel 是一個簡單且高效的 .NET Excel 處理工具，專為降低記憶體使用量而設計。
+MiniExcel 是一個簡單且高效的 .NET Excel 處理工具，專為減少記憶體用量而設計。
 
-目前，大多數流行的框架需要將 Excel 文件的所有資料載入記憶體中以便操作，但這可能會導致記憶體消耗問題。MiniExcel 採用不同的方法：資料以串流方式一行行處理，將原本可能高達數百 MB 的消耗降到僅幾 MB，能有效防止記憶體不足（OOM）問題。
+目前，大多數熱門框架在進行操作時需要將 Excel 文件的所有資料加載到記憶體中，但這可能導致記憶體消耗的問題。MiniExcel 採用不同的方式：以串流方式逐行處理資料，將原本可能高達數百 MB 的消耗降至數 MB，有效防止記憶體溢位（OOM）問題。
 
 ![Screenshot 2025-06-22 123525](https://github.com/user-attachments/assets/0b99a61e-8061-4604-8957-0b1f3ec74544)
 
 
 ### 功能特色
 
-- 最小化記憶體消耗，防止記憶體不足（OOM）錯誤，避免完整的垃圾回收
-- 支援即時、逐行資料操作，對大量資料集有更佳效能
-- 支援具延遲執行的 LINQ，可實現快速、節省記憶體的分頁與複雜查詢
-- 輕量級，無需安裝 Microsoft Office 或 COM+ 元件，DLL 檔案小於 500KB
-- 簡單直覺的 API 風格，方便讀取/寫入/填充 Excel
+- 最小化記憶體消耗，有效防止記憶體溢位（OOM）錯誤，並避免完整的垃圾回收
+- 支援即時逐列資料操作，處理大型資料集時效能更佳
+- 支援延遲執行的 LINQ，可高效分頁並進行複雜查詢
+- 輕量化設計，無須安裝 Microsoft Office 或 COM+ 元件，DLL 檔案小於 500KB
+- 簡單直覺的 API 風格，方便讀寫/填充 Excel
 
-### 快速上手
+### 快速開始
 
 - [匯入/查詢 Excel](#getstart1)
 
@@ -62,9 +62,9 @@ MiniExcel 是一個簡單且高效的 .NET Excel 處理工具，專為降低記�
 
 
 
-### 安裝方式
+### 安裝
 
-您可以從 [NuGet 下載套件](https://www.nuget.org/packages/MiniExcel)
+您可以從 [NuGet 安裝套件](https://www.nuget.org/packages/MiniExcel)
 
 ### 發行說明
 
@@ -74,11 +74,11 @@ MiniExcel 是一個簡單且高效的 .NET Excel 處理工具，專為降低記�
 
 請參閱 [TODO](https://github.com/mini-software/MiniExcel/projects/1?fullscreen=true)
 
-### 效能
+### 效能表現
 
-效能基準測試的程式碼可於 [MiniExcel.Benchmarks](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Program.cs) 查看。
+效能測試的程式碼可在 [MiniExcel.Benchmarks](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Program.cs) 找到。
 
-用於效能測試的檔案為 [**Test1,000,000x10.xlsx**](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Test1%2C000%2C000x10.xlsx)，這是一個 32MB 文件，包含 1,000,000 行 * 10 欄，每個儲存格填入字串 "HelloWorld"。
+效能測試使用的檔案為 [**Test1,000,000x10.xlsx**](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Test1%2C000%2C000x10.xlsx)，這是一個 32MB 的文件，內含 1,000,000 列 × 10 欄，每個儲存格填入 "HelloWorld" 字串。
 
 執行所有效能測試請使用：
 
@@ -86,14 +86,14 @@ MiniExcel 是一個簡單且高效的 .NET Excel 處理工具，專為降低記�
 dotnet run -project .\benchmarks\MiniExcel.Benchmarks -c Release -f net9.0 -filter * --join
 ```
 
-您可以在 [此處](benchmarks/results) 查看最新版效能測試結果。
+最新版本的效能測試結果可在[這裡](benchmarks/results)找到。
 
 
 ### Excel 查詢/匯入  <a name="getstart1"></a>
 
-#### 1. 執行查詢並將結果對應到強型別 IEnumerable [[試用看看]](https://dotnetfiddle.net/w5WD1J)
+#### 1. 執行查詢並將結果對映到強型別 IEnumerable [[線上試用]](https://dotnetfiddle.net/w5WD1J)
 
-建議使用 Stream.Query，效率更佳。
+建議使用 Stream.Query 以獲得更佳效能。
 
 ```csharp
 public class UserAccount
@@ -1974,6 +1974,6 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-02
 
 ---

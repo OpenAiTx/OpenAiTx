@@ -44,16 +44,20 @@
 ## Why?
 
 1. One-time translation using premium-grade LLM and make the result freely accessible to the open-source community.
-2. Supports Google/Bing multi-language SEO search, which client-side translation tools cannot do.
+2. Supports Google/Bing multi-language SEO search; client translation tools can't do this.
 3. Free & Open Source forever 
-4. Submit once and auto-update in the future, saving you time if you're a project maintainer.
+4. Submit once and auto-update in the future; it can save your time if you're a project maintainer.
 
 
 ## Get Started
 
-1. Replace `GitHub` in the URL with `OpenAiTx`, e.g. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
-
+1. Replace the URL `GitHub` with `OpenAiTx`, e.g. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
 2. Click and copy the style badges or text you like.
+
+or
+
+1. Visit https://openaitx.github.io/ 
+2. Submit your project link.
 
 ## Example
 
@@ -94,11 +98,11 @@
     <div>
       <div align="right">
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">English</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN">Simplified Chinese</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">Traditional Chinese</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">Japanese</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">Korean</a></p>
 ```markdown
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN">Simplified Chinese</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">Traditional Chinese</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">Japanese</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">Korean</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">Hindi</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">Thai</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">French</a></p>
@@ -114,10 +118,11 @@
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">Turkish</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">Vietnamese</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Indonesian</a></p>
+      </div>
+    </div>
+  </details>
 </div>
-</div>
-</details>
-</div>
+
 
 ## Demo Video
 
@@ -125,7 +130,8 @@
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
-## Computing Contribution
+
+## Computing Contribution 
 
 If you would like to contribute to the project, all you need to do is:
 Fork the project → Clone the project → Choose a script in your language → Fill in your AI token → Run it → Commit & push & create a PR
@@ -134,26 +140,24 @@ Fork the project → Clone the project → Choose a script in your language → 
 
 ## Notes
 
-- Only supports GitHub markdown.
-- If you are the project owner or core developer, you can authenticate your GitHub account to auto-create PR after indexing.
+- Only GitHub markdown is supported.
+- If you are a project owner or core developer, you can authenticate your GitHub account to automatically create a PR after indexing.
 
 ## Other
 
-- 10~30 mins/per project
+- 10~30 mins per project
 - 200~400 projects/one console per day.
-- Existing projects will be updated every 3~7 days (depending on future computing resources)
+- Every 3~7 days existing projects will be updated (depending on future computing resources)
+
+
 
 ## Thanks
 
-- Microsoft MVP team provides a $150/month open source community Azure platform budget.
-
-## Future plan
-
-- Support Gitee platform
+- Microsoft MVP team
 ```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-02
 
 ---

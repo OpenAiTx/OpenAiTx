@@ -39,21 +39,25 @@
 
 ## Введение
 
-**OpenAiTx** — инструмент автоматического перевода на 20 языков для вашего проекта на GitHub: readme и wiki.
+**OpenAiTx** — инструмент для автоматического перевода на 20 языков для вашего readme и wiki проекта на GitHub.
 
 ## Почему?
 
-1. Однократный перевод с использованием премиальных LLM и свободный доступ к результату для сообщества open-source.
-2. Поддержка SEO-поиска Google/Bing на нескольких языках — клиентские переводчики этого не обеспечивают.
+1. Одноразовый перевод с использованием премиальных LLM и бесплатный доступ к результату для сообщества open-source.
+2. Поддержка SEO-поиска Google/Bing на разных языках, чего не могут клиентские переводчики.
 3. Бесплатно и с открытым исходным кодом навсегда
-4. Достаточно отправить один раз и автосинхронизация в будущем, экономит время для мейнтейнеров проектов.
+4. Достаточно одной отправки, в дальнейшем автообновление — экономит время мейнтейнерам проектов.
 
 
 ## Начало работы
 
 1. Замените URL `GitHub` на `OpenAiTx`, например: https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+2. Кликните и скопируйте понравившийся вам стиль бейджей или текста.
 
-2. Кликните и скопируйте понравившийся стиль бейджа или текст.
+или
+
+1. Перейдите на https://openaitx.github.io/ 
+2. Отправьте ссылку на ваш проект.
 
 ## Пример
 
@@ -94,10 +98,10 @@
     <div>
       <div align="right">
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">English</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN">简体中文</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">繁體中文</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN">简体中文</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">繁體中文</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">ไทย</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a></p>
@@ -128,10 +132,10 @@
 
 ## Вклад в вычисления
 
-Если вы хотите внести вклад в проект, все, что вам нужно сделать:
-Сделайте форк проекта → Клонируйте проект → Выберите скрипт на вашем языке → Вставьте ваш AI-токен → Запустите его → Сделайте commit & push и создайте PR
+Если вы хотите принять участие в проекте, вам нужно сделать следующее:
+Fork проекта → Клонировать проект → Выбрать скрипт на вашем языке → Ввести ваш AI-токен → Запустить его → Commit & push & создать PR
 
-> Примечание: **Пожалуйста, не загружайте ваши токены!**
+> Примечание: **Пожалуйста, не загружайте свои токены!**
 
 ## Примечания
 
@@ -142,23 +146,16 @@
 
 - 10~30 минут/на проект
 - 200~400 проектов/одна консоль в день.
-- Каждые 3~7 дней обновляются существующие проекты (в зависимости от будущих вычислительных ресурсов)
+- Каждые 3~7 дней будет обновляться существующие проекты (в зависимости от будущих вычислительных ресурсов)
+
 
 
 ## Благодарности
 
-- Команда Microsoft MVP предоставляет бюджет на открытый исходный код на платформе Azure — 150 USD/в месяц.
-
-
-
-## План на будущее
-
-- Поддержка платформы Gitee
-
-
+- Команда Microsoft MVP
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-02
 
 ---

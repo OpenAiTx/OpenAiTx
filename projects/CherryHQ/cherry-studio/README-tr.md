@@ -103,26 +103,26 @@ Cherry Studio, Windows, Mac ve Linux üzerinde kullanılabilen, birden fazla LLM
 
 3. **Belge & Veri İşleme**:
 
-- 📄 Metin, Görüntü, Office, PDF ve daha fazlası için destek
+- 📄 Metin, Görsel, Office, PDF ve daha fazlası için destek
 - ☁️ WebDAV Dosya Yönetimi ve Yedekleme
 - 📊 Mermaid Grafik Görselleştirme
-- 💻 Kod Sözdizimi Vurgulama
+- 💻 Kod Söz Dizimi Vurgulama
 
 4. **Pratik Araç Entegrasyonu**:
 
-- 🔍 Global Arama Fonksiyonu
+- 🔍 Küresel Arama Fonksiyonu
 - 📝 Konu Yönetim Sistemi
 - 🔤 Yapay Zeka Destekli Çeviri
-- 🎯 Sürükle-Bırak ile Sıralama
+- 🎯 Sürükle-bırak Sıralama
 - 🔌 Mini Program Desteği
 - ⚙️ MCP (Model Context Protocol) Sunucusu
 
 5. **Gelişmiş Kullanıcı Deneyimi**:
 
-- 🖥️ Windows, Mac ve Linux için Çoklu Platform Desteği
-- 📦 Kullanıma Hazır, Ortam Kurulumu Gerektirmez
+- 🖥️ Windows, Mac ve Linux için Platformlar Arası Destek
+- 📦 Hazır Kullanım, Ortam Kurulumu Gerektirmez
 - 🎨 Açık/Koyu Temalar ve Şeffaf Pencere
-- 📝 Tam Markdown Renderlama
+- 📝 Tam Markdown İşleme
 - 🤲 Kolay İçerik Paylaşımı
 
 # 📝 Yol Haritası
@@ -133,7 +133,7 @@ Aşağıdaki özellikler ve iyileştirmeler üzerinde aktif olarak çalışıyor
 
 - Seçim Asistanı - Akıllı içerik seçimi geliştirmesi
 - Derin Araştırma - Gelişmiş araştırma yetenekleri
-- Hafıza Sistemi - Global bağlam farkındalığı
+- Hafıza Sistemi - Küresel bağlam farkındalığı
 - Belge Ön İşleme - Geliştirilmiş belge yönetimi
 - MCP Pazaryeri - Model Context Protocol ekosistemi
 
@@ -156,11 +156,11 @@ Aşağıdaki özellikler ve iyileştirmeler üzerinde aktif olarak çalışıyor
 
 - Eklenti Sistemi
 - ASR (Otomatik Konuşma Tanıma)
-- Asistan ve Konu Etkileşimi Yeniden Yapılandırması
+- Asistan ve Konu Etkileşimi Yeniden Düzenlemesi
 
-İlerlememizi takip edin ve [proje panomuzda](https://github.com/orgs/CherryHQ/projects/7) katkıda bulunun.
+İlerlememizi takip edin ve [proje panomuzdan](https://github.com/orgs/CherryHQ/projects/7) katkıda bulunun.
 
-Yol haritamıza etki etmek mi istiyorsunuz? Fikirlerinizi ve geri bildirimlerinizi paylaşmak için [GitHub Discussions](https://github.com/CherryHQ/cherry-studio/discussions) bölümüne katılın!
+Yol haritamızı etkilemek ister misiniz? Fikirlerinizi ve geri bildirimlerinizi paylaşmak için [GitHub Discussions](https://github.com/CherryHQ/cherry-studio/discussions) bölümüne katılın!
 
 # 🌈 Tema
 
@@ -170,37 +170,109 @@ Yol haritamıza etki etmek mi istiyorsunuz? Fikirlerinizi ve geri bildirimlerini
 - Claude dinamik-stil: <https://github.com/bjl101501/CherryStudio-Claudestyle-dynamic>
 - Maple Neon Teması: <https://github.com/BoningtonChen/CherryStudio_themes>
 
-Daha fazla tema için PR kabul edilir
+Daha fazla tema için PR'larınızı bekliyoruz
 
-# 🤝 Katkıda Bulunma
+# 🤝 Katkıda Bulunun
 
-Cherry Studio'ya katkıda bulunmak isteyen herkesi memnuniyetle karşılıyoruz! Katkıda bulunabileceğiniz bazı yollar şunlardır:
+Cherry Studio'ya katkılarınızı bekliyoruz! Katkı sağlayabileceğiniz bazı yollar:
 
 1. **Kod Katkısı**: Yeni özellikler geliştirin veya mevcut kodu optimize edin.
-2. **Hata Düzeltme**: Bulduğunuz hatalar için düzeltmeler gönderin.
-3. **Sorunları Yönetin**: GitHub sorunlarının yönetimine yardımcı olun.
+2. **Hata Düzeltme**: Bulduğunuz hataları düzeltin.
+3. **Sorunları Yönetin**: GitHub sorunlarını yönetmeye yardımcı olun.
 4. **Ürün Tasarımı**: Tasarım tartışmalarına katılın.
-5. **Dokümantasyon Yazın**: Kullanıcı kılavuzlarını ve rehberleri geliştirin.
+5. **Dokümantasyon Yazımı**: Kullanıcı kılavuzlarını ve rehberlerini geliştirin.
 6. **Topluluk Katılımı**: Tartışmalara katılın ve kullanıcılara yardımcı olun.
-7. **Kullanımı Teşvik Edin**: Cherry Studio’nun tanıtımını yapın.
+7. **Kullanımı Yaygınlaştırın**: Cherry Studio'yu tanıtın.
 
-Katkı kuralları için [Dallanma Stratejisi](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/branching-strategy-en.md) sayfasına göz atın.
+Katkı kuralları için [Dallanma Stratejisi](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/branching-strategy-en.md)'ne göz atın
 
 ## Başlarken
 
-1. **Depoyu Çatallayın**: Forklayın ve yerel makinenize klonlayın.
+1. **Depoyu Çatallayın**: Fork edin ve yerel makinenize klonlayın.
 2. **Bir Dal Oluşturun**: Değişiklikleriniz için.
-3. **Değişiklikleri Gönderin**: Değişikliklerinizi commit’leyin ve push edin.
-4. **Bir Pull Request Açın**: Değişikliklerinizi ve nedenlerini açıklayın.
+3. **Değişiklikleri Gönderin**: Değişikliklerinizi commit ve push edin.
+4. **Pull Request Açın**: Değişikliklerinizi ve nedenlerini açıklayın.
 
-Daha ayrıntılı yönergeler için [Katkı Rehberi](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/./CONTRIBUTING.md) sayfamıza bakabilirsiniz.
+Daha ayrıntılı yönergeler için [Katkı Rehberi](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/./CONTRIBUTING.md)'mize bakabilirsiniz.
 
 Desteğiniz ve katkılarınız için teşekkürler!
 
-# 🔗 İlgili Projeler
-- [one-api](https://github.com/songquanpeng/one-api): LLM API yönetim ve dağıtım sistemi, OpenAI, Azure ve Anthropic gibi ana akım modelleri destekler. Birleşik API arayüzü özelliklerine sahiptir, anahtar yönetimi ve ikincil dağıtım için uygundur.
+# 🔧 Geliştirici Ortak Yaratım Programı
+Cherry Studio Geliştirici Ortak-Yaratım Programı’nı, açık kaynak ekosistemi içinde sağlıklı ve pozitif bir geri-besleme döngüsü oluşturmak için başlatıyoruz. Büyük yazılımların iş birliğiyle geliştirildiğine inanıyoruz ve her birleştirilen pull request projeye yeni bir soluk kazandırır.
 
-- [ublacklist](https://github.com/iorate/ublacklist): Google arama sonuçlarında belirli sitelerin görünmesini engeller
+Sizi katkıcılarımız arasında yer almaya ve Cherry Studio’nun geleceğini birlikte şekillendirmeye içtenlikle davet ediyoruz.
+
+## Katılımcı Ödülleri Programı
+
+Çekirdek katkıcılarımıza teşekkür etmek ve erdemli bir döngü oluşturmak için aşağıdaki uzun vadeli teşvik planını oluşturduk.
+
+**Bu programın ilk takip dönemi 2025 3. Çeyrek olacaktır (Temmuz, Ağustos, Eylül). Bu döneme ait ödüller 1 Ekim’de dağıtılacaktır.**
+
+Herhangi bir takip döneminde (ör. ilk döngü için 1 Temmuz - 30 Eylül arası), Cherry Studio’nun GitHub’daki herhangi bir açık kaynak projesine **30 anlamlı commit**’ten fazla katkıda bulunan geliştiriciler aşağıdaki ayrıcalıklardan yararlanabilirler:
+
+- **Cursor Abonelik Sponsorluğu**: [Cursor](https://cursor.sh/) aboneliğiniz için **70 USD** kredi veya geri ödeme alın, AI’ı en verimli kodlama ortağınız yapın.
+- **Sınırsız Model Erişimi**: **DeepSeek** ve **Qwen** modelleri için **sınırsız** API çağrısı hakkı elde edin.
+- **En Yeni Teknolojiye Erişim**: **Claude**, **Gemini** ve **OpenAI** gibi modellere API erişimi dahil olmak üzere zaman zaman özel avantajlardan yararlanın, teknolojinin ön saflarında kalın.
+
+## Birlikte Büyümek & Gelecek Planları
+
+Canlı bir topluluk, sürdürülebilir herhangi bir açık kaynak projesinin itici gücüdür. Cherry Studio büyüdükçe ödül programımız da büyüyecek. Faydalarımızı sürekli olarak sektörün en iyi araç ve kaynaklarına göre uyarlamaya kararlıyız. Böylece, çekirdek katkıcılarımıza anlamlı destek sağlanır ve geliştiricilerin, topluluğun ve projenin birlikte büyüdüğü pozitif bir döngü oluşur.
+
+**İlerleyen süreçte, proje tüm açık kaynak topluluğuna daha fazla katkı sunmak için giderek daha fazla açık bir yaklaşım benimseyecektir.**
+
+## Nasıl Başlanır?
+
+İlk Pull Request’inizi dört gözle bekliyoruz!
+
+Depolarımızı inceleyerek, bir `good first issue` seçerek veya kendi geliştirmelerinizi önererek başlayabilirsiniz. Her commit, açık kaynak ruhunun bir kanıtıdır.
+
+İlginiz ve katkılarınız için teşekkür ederiz.
+
+Haydi birlikte geliştirelim.
+
+# 🏢 Kurumsal Sürüm
+
+Topluluk Sürümü üzerine inşa edilen **Cherry Studio Kurumsal Sürüm**’ü tanıtmaktan gurur duyuyoruz—modern ekipler ve işletmeler için özel olarak kurulabilen bir AI verimlilik ve yönetim platformu.
+
+Kurumsal Sürüm, ekip iş birliğindeki temel zorlukları, AI kaynaklarının, bilginin ve verinin merkezi olarak yönetilmesiyle çözüyor. Kuruluşların verimliliği artırmasına, yeniliği teşvik etmesine ve uyumluluğu sağlamasına olanak tanırken, verilerinin %100’ü üzerinde güvenli bir ortamda tam kontrol sağlar.
+
+## Temel Avantajlar
+
+- **Birleşik Model Yönetimi**: Çeşitli bulut tabanlı LLM’leri (ör. OpenAI, Anthropic, Google Gemini) ve yerel olarak kurulu özel modelleri merkezi şekilde entegre edin ve yönetin. Çalışanlar, bireysel yapılandırma gerekmeden anında kullanabilir.
+- **Kurumsal Düzeyde Bilgi Bankası**: Takım genelinde bilgi tabanları oluşturun, yönetin ve paylaşın. Bilginin kalıcı ve tutarlı olmasını sağlayarak ekip üyelerinin AI ile birleşik ve doğru bilgiler üzerinden etkileşim kurmasına olanak tanır.
+- **İnce Ayarlı Erişim Kontrolü**: Çalışan hesaplarını kolayca yönetin, farklı modeller, bilgi tabanları ve özellikler için rol tabanlı izinler atayın—tümünü birleşik bir yönetim paneli üzerinden yapın.
+- **Tamamen Özel Kurulum**: Tüm arka uç servisini kendi sunucularınızda veya özel bulutunuzda kurun, böylece verilerinizin %100’ü size ait ve kontrolünüz altında kalır; en katı güvenlik ve uyumluluk standartlarını karşılar.
+- **Güvenilir Arka Uç Servisleri**: Kararlı API hizmetleri, kurumsal düzeyde yedekleme ve veri kurtarma mekanizmaları sunar; iş sürekliliğini garanti altına alır.
+
+## ✨ Çevrimiçi Demo
+
+> 🚧 **Açık Beta Duyurusu**
+>
+> Kurumsal Sürüm şu anda erken açık beta aşamasındadır ve özelliklerini aktif olarak geliştirip optimize ediyoruz. Henüz tamamen stabil olmayabileceğinin farkındayız. Deneme sürecinizde herhangi bir sorunla karşılaşırsanız veya değerli önerileriniz olursa, geri bildiriminizi e-posta yoluyla bizimle paylaşırsanız çok memnun oluruz.
+
+**🔗 [Cherry Studio Enterprise](https://www.cherry-ai.com/enterprise)**
+
+## Sürüm Karşılaştırması
+
+| Özellik           | Topluluk Sürümü                           | Kurumsal Sürüm                                                                                                                         |
+| :---------------- | :---------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
+| **Açık Kaynak**   | ✅ Evet                                   | ⭕️ kısmen, müşterilere açık                                                                                                            |
+| **Maliyet**       | Kişisel Kullanım İçin Ücretsiz / Ticari Lisans | Satın Alma / Abonelik Ücreti                                                                                                           |
+| **Yönetim Paneli**| —                                         | ● Merkezi **Model** Erişimi<br>● **Çalışan** Yönetimi<br>● Paylaşımlı **Bilgi Bankası**<br>● **Erişim** Kontrolü<br>● **Veri** Yedekleme |
+| **Sunucu**        | —                                         | ✅ Özel Kurulum                                                                                                                        |
+
+## Kurumsal Sürümü Edinin
+
+Kurumsal Sürüm’ün ekibinizin AI verimlilik motoru olacağına inanıyoruz. Cherry Studio Kurumsal Sürüm ile ilgileniyorsanız, daha fazla bilgi almak, fiyat teklifi istemek veya bir demo planlamak için lütfen bizimle iletişime geçin.
+
+- **Ticari Talepler & Satın Alma İçin**:
+  **📧 [bd@cherry-ai.com](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/mailto:bd@cherry-ai.com)**
+
+# 🔗 İlgili Projeler
+
+- [one-api](https://github.com/songquanpeng/one-api):LLM API yönetimi ve dağıtım sistemi; OpenAI, Azure ve Anthropic gibi ana akım modelleri destekler. Birleşik API arayüzü sunar, anahtar yönetimi ve ikincil dağıtım için uygundur.
+
+- [ublacklist](https://github.com/iorate/ublacklist):Belirli sitelerin Google arama sonuçlarında çıkmasını engeller
 
 # 🚀 Katkıda Bulunanlar
 
@@ -213,7 +285,8 @@ Desteğiniz ve katkılarınız için teşekkürler!
 
 [![Star History Chart](https://api.star-history.com/svg?repos=CherryHQ/cherry-studio&type=Timeline)](https://star-history.com/#CherryHQ/cherry-studio&Timeline)
 
-<!-- Bağlantılar & Görseller -->
+<!-- Links & Images -->
+
 [deepwiki-shield]: https://img.shields.io/badge/Deepwiki-CherryHQ-0088CC?style=plastic
 [deepwiki-link]: https://deepwiki.com/CherryHQ/cherry-studio
 [twitter-shield]: https://img.shields.io/badge/Twitter-CherryStudioApp-0088CC?style=plastic&logo=x
@@ -223,7 +296,7 @@ Desteğiniz ve katkılarınız için teşekkürler!
 [telegram-shield]: https://img.shields.io/badge/Telegram-@CherryStudioAI-0088CC?style=plastic&logo=telegram
 [telegram-link]: https://t.me/CherryStudioAI
 
-<!-- Bağlantılar & Görseller -->
+<!-- Links & Images -->
 [github-stars-shield]: https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=social
 [github-stars-link]: https://github.com/CherryHQ/cherry-studio/stargazers
 [github-forks-shield]: https://img.shields.io/github/forks/CherryHQ/cherry-studio?style=social
@@ -234,6 +307,7 @@ Desteğiniz ve katkılarınız için teşekkürler!
 [github-contributors-link]: https://github.com/CherryHQ/cherry-studio/graphs/contributors
 
 <!-- Bağlantılar & Görseller -->
+
 [license-shield]: https://img.shields.io/badge/License-AGPLv3-important.svg?style=plastic&logo=gnu
 [license-link]: https://www.gnu.org/licenses/agpl-3.0
 [commercial-shield]: https://img.shields.io/badge/License-Contact-white.svg?style=plastic&logoColor=white&logo=telegram&color=blue
@@ -243,6 +317,6 @@ Desteğiniz ve katkılarınız için teşekkürler!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-02
 
 ---

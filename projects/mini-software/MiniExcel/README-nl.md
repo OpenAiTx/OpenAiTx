@@ -1,4 +1,4 @@
-<div style="text-align: center">
+<div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
 <a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Build status"></a>
 <a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
@@ -11,13 +11,13 @@
 
 [<img align="right" src="https://github.com/dotnet-foundation/swag/blob/main/logo/dotnetfoundation_v4.png?raw=true" width="100" />](https://www.dotnetfoundation.org/)
 
-<div style="text-align: center">
-<p>Dit project is onderdeel van de <a href="https://www.dotnetfoundation.org/">.NET Foundation</a> en opereert onder hun <a href="https://www.dotnetfoundation.org/code-of-conduct">gedragscode</a>. </p>
+<div align="center">
+<p>Dit project maakt deel uit van de <a href="https://www.dotnetfoundation.org/">.NET Foundation</a> en opereert onder hun <a href="https://www.dotnetfoundation.org/code-of-conduct">gedragscode</a>. </p>
 </div>
 
 ---
 
-<div style="text-align: center">
+<div align="center">
 <p><strong><a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a> | <a href="README.zh-Hant.md">繁體中文</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ja">日本語</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ko">한국어</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=hi">हिन्दी</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=th">ไทย</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fr">Français</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=de">Deutsch</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=es">Español</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=it">Italiano</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ru">Русский</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pt">Português</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=nl">Nederlands</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pl">Polski</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ar">العربية</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fa">فارسی</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=tr">Türkçe</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=vi">Tiếng Việt</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=id">Bahasa Indonesia</a><p></p>
 </strong></p>
 </div>
@@ -25,7 +25,7 @@
 
 ---
 
-<div style="text-align: center">
+<div align="center">
  Jouw <a href="https://github.com/mini-software/MiniExcel">Sterren</a> of <a href="https://miniexcel.github.io">Donaties</a> kunnen MiniExcel beter maken
 </div>
 
@@ -35,24 +35,24 @@
 
 MiniExcel is een eenvoudige en efficiënte Excel-verwerkingstool voor .NET, speciaal ontworpen om het geheugengebruik te minimaliseren.
 
-Op dit moment moeten de meeste populaire frameworks alle gegevens uit een Excel-document in het geheugen laden om bewerkingen uit te voeren, maar dit kan problemen met geheugengebruik veroorzaken. De aanpak van MiniExcel is anders: de gegevens worden rij voor rij verwerkt in een streaming-manier, waardoor het oorspronkelijke verbruik van mogelijk honderden megabytes wordt teruggebracht tot slechts enkele megabytes. Dit voorkomt effectief out-of-memory(OOM)-problemen.
+Op dit moment moeten de meeste populaire frameworks alle gegevens uit een Excel-document in het geheugen laden om bewerkingen mogelijk te maken, maar dit kan problemen met geheugenverbruik veroorzaken. De aanpak van MiniExcel is anders: de gegevens worden rij voor rij verwerkt in een streaming-manier, waardoor het oorspronkelijke verbruik van mogelijk honderden megabytes wordt teruggebracht tot slechts enkele megabytes, wat effectief OOM-problemen (out-of-memory) voorkomt.
 
 ![Screenshot 2025-06-22 123525](https://github.com/user-attachments/assets/0b99a61e-8061-4604-8957-0b1f3ec74544)
 
 
 ### Kenmerken
 
-- Minimaliseert geheugengebruik, voorkomt out-of-memory (OOM)-fouten en vermijdt volledige garbage collections
-- Maakt real-time, rij-niveau data-operaties mogelijk voor betere prestaties bij grote datasets
+- Minimaliseert geheugengebruik, voorkomt out-of-memory (OOM) fouten en vermijdt volledige garbage collections
+- Maakt real-time, rij-niveau data-operaties mogelijk voor betere prestaties met grote datasets
 - Ondersteunt LINQ met uitgestelde uitvoering, waardoor snelle, geheugen-efficiënte paging en complexe queries mogelijk zijn
-- Lichtgewicht, geen Microsoft Office of COM+ componenten vereist en een DLL-grootte onder de 500KB
+- Lichtgewicht, zonder dat Microsoft Office of COM+ componenten nodig zijn, en een DLL-grootte onder de 500KB
 - Eenvoudige en intuïtieve API-stijl om excel te lezen/schrijven/invullen
 
 ### Aan de slag
 
-- [Importeren/Opvragen van Excel](#getstart1)
+- [Importeer/Query Excel](#getstart1)
 
-- [Exporteren/Aanmaken van Excel](#getstart2)
+- [Exporteer/Creëer Excel](#getstart2)
 
 - [Excel Sjabloon](#getstart3)
 
@@ -64,21 +64,21 @@ Op dit moment moeten de meeste populaire frameworks alle gegevens uit een Excel-
 
 ### Installatie
 
-Je kunt het pakket installeren [vanuit NuGet](https://www.nuget.org/packages/MiniExcel)
+Je kunt het pakket [van NuGet installeren](https://www.nuget.org/packages/MiniExcel)
 
 ### Release-opmerkingen
 
-Zie [Release Notes](docs)
+Bekijk de [Release-opmerkingen](docs)
 
 ### TODO
 
-Zie  [TODO](https://github.com/mini-software/MiniExcel/projects/1?fullscreen=true)
+Bekijk [TODO](https://github.com/mini-software/MiniExcel/projects/1?fullscreen=true)
 
-### Prestatie
+### Prestaties
 
 De code voor de benchmarks is te vinden in [MiniExcel.Benchmarks](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Program.cs).
 
-Het bestand dat wordt gebruikt om de prestaties te testen is [**Test1,000,000x10.xlsx**](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Test1%2C000%2C000x10.xlsx), een document van 32MB met 1.000.000 rijen * 10 kolommen waarvan de cellen gevuld zijn met de string "HelloWorld".
+Het bestand dat wordt gebruikt om de prestaties te testen is [**Test1,000,000x10.xlsx**](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Test1%2C000%2C000x10.xlsx), een document van 32MB met 1.000.000 rijen * 10 kolommen waarvan de cellen zijn gevuld met de string "HelloWorld".
 
 Om alle benchmarks uit te voeren gebruik je:
 
@@ -86,14 +86,14 @@ Om alle benchmarks uit te voeren gebruik je:
 dotnet run -project .\benchmarks\MiniExcel.Benchmarks -c Release -f net9.0 -filter * --join
 ```
 
-Je kunt de benchmarkresultaten voor de laatste release [hier](benchmarks/results) vinden.
+Je kunt de benchmarkresultaten voor de laatste release [hier vinden](benchmarks/results).
 
 
-### Excel Opvragen/Importeren  <a name="getstart1"></a>
+### Excel Query/Importeren  <a name="getstart1"></a>
 
 #### 1. Voer een query uit en koppel de resultaten aan een sterk getypeerde IEnumerable [[Probeer het]](https://dotnetfiddle.net/w5WD1J)
 
-Aanbevolen om Stream.Query te gebruiken vanwege betere efficiëntie.
+Aanbevolen om Stream.Query te gebruiken vanwege de betere efficiëntie.
 
 ```csharp
 public class UserAccount
@@ -1983,6 +1983,6 @@ Link https://github.com/orgs/mini-software/discussions/754
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-02
 
 ---

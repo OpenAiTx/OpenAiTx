@@ -1,4 +1,4 @@
-<div style="text-align: center">
+<div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
 <a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Build status"></a>
 <a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
@@ -11,13 +11,13 @@
 
 [<img align="right" src="https://github.com/dotnet-foundation/swag/blob/main/logo/dotnetfoundation_v4.png?raw=true" width="100" />](https://www.dotnetfoundation.org/)
 
-<div style="text-align: center">
+<div align="center">
 <p>Dieses Projekt ist Teil der <a href="https://www.dotnetfoundation.org/">.NET Foundation</a> und unterliegt deren <a href="https://www.dotnetfoundation.org/code-of-conduct">Verhaltenskodex</a>. </p>
 </div>
 
 ---
 
-<div style="text-align: center">
+<div align="center">
 <p><strong><a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a> | <a href="README.zh-Hant.md">繁體中文</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ja">日本語</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ko">한국어</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=hi">हिन्दी</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=th">ไทย</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fr">Français</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=de">Deutsch</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=es">Español</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=it">Italiano</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ru">Русский</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pt">Português</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=nl">Nederlands</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pl">Polski</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ar">العربية</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fa">فارسی</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=tr">Türkçe</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=vi">Tiếng Việt</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=id">Bahasa Indonesia</a><p></p>
 </strong></p>
 </div>
@@ -25,28 +25,28 @@
 
 ---
 
-<div style="text-align: center">
- Ihre <a href="https://github.com/mini-software/MiniExcel">Sterne</a> oder <a href="https://miniexcel.github.io">Spenden</a> können MiniExcel besser machen
+<div align="center">
+ Ihre <a href="https://github.com/mini-software/MiniExcel">Stars</a> oder <a href="https://miniexcel.github.io">Spenden</a> können MiniExcel verbessern
 </div>
 
 ---
 
 ### Einführung
 
-MiniExcel ist ein einfaches und effizientes Excel-Verarbeitungstool für .NET, das speziell darauf ausgelegt ist, den Speicherverbrauch zu minimieren.
+MiniExcel ist ein einfaches und effizientes Tool zur Verarbeitung von Excel-Dateien für .NET, das speziell entwickelt wurde, um den Speicherverbrauch zu minimieren.
 
-Derzeit müssen die meisten gängigen Frameworks alle Daten aus einem Excel-Dokument in den Speicher laden, um Operationen zu ermöglichen, was zu Problemen mit dem Speicherverbrauch führen kann. MiniExcels Ansatz ist anders: Die Daten werden zeilenweise im Streaming-Verfahren verarbeitet, wodurch der ursprüngliche Verbrauch von potenziell mehreren hundert Megabyte auf nur wenige Megabyte reduziert wird. Dadurch werden Out-of-Memory(OOM)-Probleme effektiv verhindert.
+Derzeit müssen die meisten gängigen Frameworks alle Daten aus einem Excel-Dokument in den Arbeitsspeicher laden, um Operationen zu ermöglichen. Dies kann jedoch zu Problemen mit dem Speicherverbrauch führen. MiniExcel verfolgt einen anderen Ansatz: Die Daten werden zeilenweise im Streaming-Verfahren verarbeitet, wodurch der ursprüngliche Verbrauch von potenziell mehreren Hundert Megabyte auf nur wenige Megabyte reduziert wird und Speicherüberlaufprobleme (Out-of-Memory/OOM) effektiv verhindert werden.
 
 ![Screenshot 2025-06-22 123525](https://github.com/user-attachments/assets/0b99a61e-8061-4604-8957-0b1f3ec74544)
 
 
 ### Funktionen
 
-- Minimiert den Speicherverbrauch, verhindert Out-of-Memory-(OOM)-Fehler und vermeidet vollständige Garbage Collections
-- Ermöglicht Echtzeit-Datenoperationen auf Zeilenebene für bessere Leistung bei großen Datensätzen
-- Unterstützt LINQ mit verzögerter Ausführung und ermöglicht schnelles, speichereffizientes Paging und komplexe Abfragen
-- Leichtgewichtig, benötigt weder Microsoft Office noch COM+-Komponenten, und eine DLL-Größe unter 500KB
-- Einfacher und intuitiver API-Stil zum Lesen/Schreiben/Ausfüllen von Excel
+- Minimiert den Speicherverbrauch, verhindert Speicherüberläufe (OOM) und vermeidet vollständige Garbage Collections
+- Ermöglicht Echtzeit- und zeilenbasierte Datenoperationen für bessere Leistung bei großen Datenmengen
+- Unterstützt LINQ mit verzögerter Ausführung, was schnelles, speichereffizientes Paging und komplexe Abfragen ermöglicht
+- Leichtgewichtig, benötigt weder Microsoft Office noch COM+-Komponenten, und die DLL-Größe liegt unter 500KB
+- Einfache und intuitive API zum Lesen/Schreiben/Ausfüllen von Excel-Dateien
 
 ### Erste Schritte
 
@@ -56,7 +56,7 @@ Derzeit müssen die meisten gängigen Frameworks alle Daten aus einem Excel-Doku
 
 - [Excel-Vorlage](#getstart3)
 
-- [Excel Spaltenname/Index/Ignorieren-Attribut](#getstart4)
+- [Excel-Spaltenname/-Index/-Ignore-Attribut](#getstart4)
 
 - [Beispiele](#getstart5)
 
@@ -68,17 +68,17 @@ Sie können das Paket [über NuGet installieren](https://www.nuget.org/packages/
 
 ### Release Notes
 
-Bitte prüfen Sie die [Release Notes](docs)
+Bitte sehen Sie die [Release Notes](docs) ein
 
 ### TODO
 
-Bitte prüfen Sie [TODO](https://github.com/mini-software/MiniExcel/projects/1?fullscreen=true)
+Bitte beachten Sie [TODO](https://github.com/mini-software/MiniExcel/projects/1?fullscreen=true)
 
 ### Leistung
 
 Den Code für die Benchmarks finden Sie in [MiniExcel.Benchmarks](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Program.cs).
 
-Die Datei, die zum Testen der Leistung verwendet wird, ist [**Test1,000,000x10.xlsx**](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Test1%2C000%2C000x10.xlsx), ein 32MB-Dokument mit 1.000.000 Zeilen * 10 Spalten, deren Zellen mit dem String "HelloWorld" gefüllt sind.
+Die zur Performance-Messung verwendete Datei ist [**Test1,000,000x10.xlsx**](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Test1%2C000%2C000x10.xlsx), ein 32MB großes Dokument mit 1.000.000 Zeilen * 10 Spalten, deren Zellen mit dem String "HelloWorld" gefüllt sind.
 
 Um alle Benchmarks auszuführen, verwenden Sie:
 
@@ -86,14 +86,14 @@ Um alle Benchmarks auszuführen, verwenden Sie:
 dotnet run -project .\benchmarks\MiniExcel.Benchmarks -c Release -f net9.0 -filter * --join
 ```
 
-Die Ergebnisse der Benchmarks für das aktuelle Release finden Sie [hier](benchmarks/results).
+Die Ergebnisse der Benchmarks für das neueste Release finden Sie [hier](benchmarks/results).
 
 
 ### Excel Abfrage/Import  <a name="getstart1"></a>
 
-#### 1. Führen Sie eine Abfrage aus und ordnen Sie die Ergebnisse einem stark typisierten IEnumerable zu [[Ausprobieren]](https://dotnetfiddle.net/w5WD1J)
+#### 1. Eine Abfrage ausführen und die Ergebnisse auf ein stark typisiertes IEnumerable abbilden [[Ausprobieren]](https://dotnetfiddle.net/w5WD1J)
 
-Es wird empfohlen, Stream.Query wegen der höheren Effizienz zu verwenden.
+Es wird empfohlen, Stream.Query wegen besserer Effizienz zu verwenden.
 
 ```csharp
 public class UserAccount
@@ -1988,6 +1988,6 @@ Link https://github.com/orgs/mini-software/discussions/754
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-02
 
 ---

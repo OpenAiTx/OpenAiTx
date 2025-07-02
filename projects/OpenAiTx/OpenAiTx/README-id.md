@@ -33,7 +33,7 @@
 
 
 <div align="center">
- Bintang <a href="https://github.com/OpenAiTx/OpenAiTx">Anda</a> dapat membuat Open Ai Tx menjadi lebih baik
+ Bintang <a href="https://github.com/OpenAiTx/OpenAiTx">Anda</a>  dapat membuat Open Ai Tx menjadi lebih baik
 </div>
 
 
@@ -43,17 +43,21 @@
 
 ## Mengapa?
 
-1. Terjemahan satu kali menggunakan LLM kelas premium dan membuat hasilnya dapat diakses gratis oleh komunitas open-source.
-2. Mendukung Google/Bing SEO multibahasa, alat terjemahan klien tidak bisa melakukannya.
-3. Gratis & Sumber Terbuka selamanya 
-4. Cukup kirim satu kali dan akan diperbarui otomatis di masa depan, menghemat waktu Anda jika Anda adalah maintainer proyek.
+1. Terjemahan sekali saja menggunakan LLM berkualitas premium dan membuat hasilnya dapat diakses secara gratis oleh komunitas open-source.
+2. Mendukung pencarian SEO multibahasa Google/Bing, alat terjemahan klien tidak dapat melakukannya.
+3. Gratis & Open Source selamanya 
+4. Ajukan satu kali dan pembaruan otomatis di masa depan, ini dapat menghemat waktu Anda jika Anda adalah maintainer proyek.
 
 
 ## Mulai
 
-1. Ganti URL `GitHub` menjadi `OpenAiTx`, misal https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+1. Ganti URL `GitHub` dengan `OpenAiTx`, misal https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+2. Klik dan salin badge gaya atau teks yang Anda suka.
 
-2. Klik dan salin style badge atau teks yang Anda sukai.
+atau
+
+1. Akses https://openaitx.github.io/ 
+2. Ajukan tautan proyek Anda.
 
 ## Contoh
 
@@ -94,10 +98,10 @@
     <div>
       <div align="right">
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">English</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN">简体中文</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">繁體中文</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN">简体中文</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">繁體中文</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">ไทย</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a></p>
@@ -118,13 +122,11 @@
 </details>
 </div>
 
-
 ## Video Demo
 
 <a href="https://github.com/user-attachments/assets/a1370023-8924-4d40-9f18-979a334e934d"> 
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
-
 
 ## Kontribusi Komputasi
 
@@ -136,27 +138,20 @@ Fork proyek → Clone proyek → Pilih skrip dalam bahasa Anda → Isi token AI 
 ## Catatan
 
 - Hanya mendukung markdown github.
-- Jika Anda pemilik proyek atau pengembang inti, Anda dapat mengautentikasi akun github untuk membuat PR otomatis setelah diindeks.
+- Jika Anda adalah pemilik proyek atau pengembang inti, Anda dapat mengautentikasi akun github untuk otomatis membuat PR setelah diindeks.
 
 ## Lainnya
 
-- 10~30 menit/per proyek
+- 10~30 menit/proyek
 - 200~400 proyek/satu konsol per hari.
-- Setiap 3~7 hari akan memperbarui proyek yang sudah ada (tergantung sumber daya komputasi di masa depan)
-
+- Setiap 3~7 hari akan memperbarui proyek yang ada (tergantung pada sumber daya komputasi di masa depan)
 
 ## Terima Kasih
 
-- Tim Microsoft MVP menyediakan dana platform azure komunitas open source sebesar 150USD/Bulan.
-
-
-
-## Rencana Masa Depan
-
-- Mendukung platform Gitee
+- Tim Microsoft MVP
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-02
 
 ---

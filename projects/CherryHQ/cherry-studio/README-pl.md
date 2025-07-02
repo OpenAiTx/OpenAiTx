@@ -98,30 +98,30 @@ Cherry Studio to klient desktopowy obsługujący wielu dostawców LLM, dostępny
 2. **Asystenci AI i rozmowy**:
 
 - 📚 Ponad 300 wstępnie skonfigurowanych asystentów AI
-- 🤖 Tworzenie Własnych Asystentów
-- 💬 Równoczesne Rozmowy Wielomodelowe
+- 🤖 Tworzenie Asystenta Niestandardowego
+- 💬 Rozmowy Wielomodelowe Jednocześnie
 
 3. **Przetwarzanie Dokumentów i Danych**:
 
-- 📄 Obsługa tekstu, obrazów, plików Office, PDF i innych
-- ☁️ Zarządzanie plikami WebDAV oraz kopie zapasowe
+- 📄 Obsługa tekstu, obrazów, Office, PDF i innych
+- ☁️ Zarządzanie plikami WebDAV i kopie zapasowe
 - 📊 Wizualizacja wykresów Mermaid
-- 💻 Wyróżnianie składni kodu
+- 💻 Podświetlanie składni kodu
 
 4. **Integracja Narzędzi Praktycznych**:
 
-- 🔍 Funkcja globalnego wyszukiwania
+- 🔍 Globalna funkcja wyszukiwania
 - 📝 System zarządzania tematami
-- 🔤 Tłumaczenie zasilane przez AI
-- 🎯 Sortowanie metodą przeciągnij i upuść
-- 🔌 Obsługa mini programów
+- 🔤 Tłumaczenie wspierane przez AI
+- 🎯 Sortowanie metodą „przeciągnij i upuść”
+- 🔌 Wsparcie dla mini programów
 - ⚙️ Serwer MCP (Model Context Protocol)
 
-5. **Ulepszone Doświadczenie Użytkownika**:
+5. **Zwiększone Doświadczenie Użytkownika**:
 
-- 🖥️ Wsparcie wielu platform: Windows, Mac i Linux
-- 📦 Gotowy do użycia, bez potrzeby konfiguracji środowiska
-- 🎨 Motywy jasny/ciemny i przezroczyste okno
+- 🖥️ Wsparcie wieloplatformowe dla Windows, Mac i Linux
+- 📦 Gotowy do użycia, bez konieczności konfiguracji środowiska
+- 🎨 Motywy jasny/ciemny oraz przezroczyste okno
 - 📝 Pełne renderowanie Markdown
 - 🤲 Łatwe udostępnianie treści
 
@@ -129,40 +129,40 @@ Cherry Studio to klient desktopowy obsługujący wielu dostawców LLM, dostępny
 
 Aktywnie pracujemy nad następującymi funkcjami i ulepszeniami:
 
-1. 🎯 **Funkcje Kluczowe**
+1. 🎯 **Funkcje podstawowe**
 
-- Asystent wyboru – inteligentne rozszerzenie zaznaczania treści
-- Głębokie badania – zaawansowane możliwości researchu
+- Asystent wyboru – inteligentne ulepszanie zaznaczania treści
+- Deep Research – zaawansowane możliwości badawcze
 - System pamięci – globalna świadomość kontekstu
-- Wstępne przetwarzanie dokumentów – ulepszona obsługa dokumentów
+- Wstępne przetwarzanie dokumentów – ulepszone zarządzanie dokumentami
 - MCP Marketplace – ekosystem Model Context Protocol
 
-2. 🗂 **Zarządzanie Wiedzą**
+2. 🗂 **Zarządzanie wiedzą**
 
 - Notatki i kolekcje
-- Wizualizacja dynamicznego płótna (canvas)
-- Obsługa OCR
-- Wsparcie TTS (text-to-speech)
+- Dynamiczna wizualizacja Canvas
+- Funkcjonalność OCR
+- Wsparcie dla TTS (Text-to-Speech)
 
-3. 📱 **Wsparcie Platform**
+3. 📱 **Wsparcie platformowe**
 
 - Wersja HarmonyOS (PC)
 - Aplikacja Android (Faza 1)
 - Aplikacja iOS (Faza 1)
-- Obsługa wielu okien
+- Wsparcie wielu okien
 - Przypinanie okien
 
-4. 🔌 **Zaawansowane Funkcje**
+4. 🔌 **Funkcje zaawansowane**
 
 - System wtyczek
 - ASR (Automatyczne Rozpoznawanie Mowy)
 - Refaktoryzacja interakcji asystenta i tematów
 
-Śledź nasz postęp i wnieś swój wkład na naszej [tablicy projektowej](https://github.com/orgs/CherryHQ/projects/7).
+Śledź nasz postęp i wspieraj nas na naszej [tablicy projektu](https://github.com/orgs/CherryHQ/projects/7).
 
-Chcesz wpłynąć na nasz roadmap? Dołącz do naszych [dyskusji na GitHub](https://github.com/CherryHQ/cherry-studio/discussions), aby podzielić się swoimi pomysłami i opiniami!
+Chcesz mieć wpływ na naszą roadmapę? Dołącz do [dyskusji na GitHub](https://github.com/CherryHQ/cherry-studio/discussions), aby podzielić się swoimi pomysłami i opiniami!
 
-# 🌈 Motywy
+# 🌈 Motyw
 
 - Galeria motywów: <https://cherrycss.com>
 - Motyw Aero: <https://github.com/hakadao/CherryStudio-Aero>
@@ -170,37 +170,109 @@ Chcesz wpłynąć na nasz roadmap? Dołącz do naszych [dyskusji na GitHub](http
 - Claude dynamic-style: <https://github.com/bjl101501/CherryStudio-Claudestyle-dynamic>
 - Motyw Maple Neon: <https://github.com/BoningtonChen/CherryStudio_themes>
 
-Zachęcamy do PR z kolejnymi motywami
+Zapraszamy do PR z nowymi motywami
 
 # 🤝 Współtworzenie
 
-Zapraszamy do współtworzenia Cherry Studio! Oto jak możesz się zaangażować:
+Zapraszamy do współtworzenia Cherry Studio! Oto, jak możesz się zaangażować:
 
-1. **Wkład w kod**: Opracowywanie nowych funkcji lub optymalizacja istniejącego kodu.
-2. **Naprawa błędów**: Zgłaszanie i usuwanie błędów.
-3. **Zarządzanie zgłoszeniami**: Pomoc w obsłudze zgłoszeń na GitHub.
-4. **Projektowanie produktu**: Udział w dyskusjach projektowych.
-5. **Tworzenie dokumentacji**: Ulepszanie instrukcji i przewodników dla użytkowników.
-6. **Zaangażowanie społeczności**: Udział w dyskusjach i wsparcie użytkowników.
-7. **Promowanie projektu**: Rozpowszechnianie informacji o Cherry Studio.
+1. **Twórz kod**: Rozwijaj nowe funkcje lub optymalizuj istniejący kod.
+2. **Naprawiaj błędy**: Zgłaszaj i poprawiaj znalezione błędy.
+3. **Utrzymuj zgłoszenia**: Pomagaj zarządzać zgłoszeniami na GitHubie.
+4. **Projektowanie produktu**: Uczestnicz w dyskusjach projektowych.
+5. **Pisz dokumentację**: Ulepszaj instrukcje i przewodniki użytkownika.
+6. **Zaangażowanie w społeczność**: Dołącz do dyskusji i pomagaj innym użytkownikom.
+7. **Promuj korzystanie**: Rozpowszechniaj informacje o Cherry Studio.
 
-Zapoznaj się z [Strategią rozgałęzień](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/branching-strategy-en.md) jako wytycznymi do współpracy
+Zapoznaj się ze [Strategią rozgałęzień](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/branching-strategy-en.md), aby poznać zasady współpracy
 
-## Pierwsze Kroki
+## Pierwsze kroki
 
-1. **Fork repozytorium**: Rozgałęź repozytorium i sklonuj je na swój komputer.
+1. **Fork repozytorium**: Zrób forka i sklonuj repozytorium na swój komputer.
 2. **Utwórz gałąź**: Dla swoich zmian.
-3. **Wprowadź zmiany**: Zatwierdź i wypchnij zmiany.
-4. **Otwórz Pull Request**: Opisz swoje zmiany i powody.
+3. **Wyślij zmiany**: Zacommituj i wypchnij swoje zmiany.
+4. **Otwórz Pull Request**: Opisz swoje zmiany i ich powody.
 
-Bardziej szczegółowe wskazówki znajdziesz w naszym [Przewodniku dla Współtwórców](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/./CONTRIBUTING.md).
+Aby uzyskać szczegółowe wytyczne, zapoznaj się z naszym [Przewodnikiem współtworzenia](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/./CONTRIBUTING.md).
 
-Dziękujemy za wsparcie i wkład!
+Dziękujemy za wsparcie i współtworzenie!
+
+# 🔧 Program Współtworzenia dla Deweloperów
+Uruchamiamy Program Współtworzenia Cherry Studio Developer, aby wspierać zdrową i pozytywną pętlę sprzężenia zwrotnego w ekosystemie open source. Wierzymy, że doskonałe oprogramowanie powstaje we współpracy, a każdy scalony pull request tchnie nowe życie w projekt.
+
+Serdecznie zapraszamy do dołączenia do grona naszych współtwórców i kształtowania przyszłości Cherry Studio razem z nami.
+
+## Program Nagród dla Współtwórców
+
+Aby odwdzięczyć się naszym kluczowym współtwórcom i stworzyć cnotliwy cykl, ustanowiliśmy poniższy długoterminowy plan motywacyjny.
+
+**Pierwszy okres śledzenia dla tego programu to Q3 2025 (lipiec, sierpień, wrzesień). Nagrody za tę edycję zostaną przyznane 1 października.**
+
+W dowolnym okresie śledzenia (np. od 1 lipca do 30 września dla pierwszego cyklu), każdy deweloper, który wniesie ponad **30 znaczących commitów** do dowolnego projektu open source Cherry Studio na GitHubie, kwalifikuje się do następujących korzyści:
+
+- **Sponsoring subskrypcji Cursor**: Otrzymaj **70 USD** do wykorzystania lub zwrot kosztów swojej subskrypcji [Cursor](https://cursor.sh/), czyniąc AI Twoim najbardziej wydajnym partnerem do kodowania.
+- **Nielimitowany dostęp do modeli**: Uzyskaj **nielimitowane** wywołania API dla modeli **DeepSeek** oraz **Qwen**.
+- **Dostęp do najnowszych technologii**: Ciesz się okazjonalnymi bonusami, w tym dostępem do API modeli takich jak **Claude**, **Gemini** i **OpenAI**, pozostając w czołówce technologii.
+
+## Wspólny rozwój i plany na przyszłość
+
+Tętniąca życiem społeczność to siła napędowa każdego trwałego projektu open source. Wraz z rozwojem Cherry Studio, będzie się rozwijał także nasz program nagród. Zobowiązujemy się do stałego dostosowywania naszych benefitów do najlepszych narzędzi i zasobów w branży. Dzięki temu nasi kluczowi współtwórcy otrzymują realne wsparcie, tworząc pozytywny cykl, w którym deweloperzy, społeczność i projekt rosną razem.
+
+**W przyszłości projekt przyjmie także coraz bardziej otwartą postawę, aby odwdzięczyć się całej społeczności open source.**
+
+## Jak zacząć?
+
+Czekamy na Twój pierwszy Pull Request!
+
+Możesz zacząć od przejrzenia naszych repozytoriów, podjęcia się `good first issue` lub zaproponowania własnych ulepszeń. Każdy commit to dowód ducha open source.
+
+Dziękujemy za zainteresowanie i wkład.
+
+Budujmy razem.
+
+# 🏢 Wersja Enterprise
+
+Na bazie Community Edition z dumą przedstawiamy **Cherry Studio Enterprise Edition** — platformę AI do produktywności i zarządzania, przeznaczoną do prywatnego wdrożenia przez nowoczesne zespoły i przedsiębiorstwa.
+
+Wersja Enterprise rozwiązuje kluczowe wyzwania współpracy zespołowej dzięki centralizacji zarządzania zasobami AI, wiedzą i danymi. Umożliwia organizacjom zwiększenie efektywności, wspiera innowacje i zapewnia zgodność z wymaganiami, przy jednoczesnym zachowaniu pełnej kontroli nad danymi w bezpiecznym środowisku.
+
+## Główne zalety
+
+- **Zunifikowane zarządzanie modelami**: Centralnie integruj i zarządzaj różnymi modelami LLM w chmurze (np. OpenAI, Anthropic, Google Gemini) oraz lokalnie wdrożonymi modelami prywatnymi. Pracownicy mogą korzystać z nich od razu, bez indywidualnej konfiguracji.
+- **Baza wiedzy klasy enterprise**: Twórz, zarządzaj i udostępniaj zespołowe bazy wiedzy. Zapewnij utrzymanie i spójność wiedzy, umożliwiając członkom zespołu interakcję z AI na podstawie jednolitych, dokładnych informacji.
+- **Precyzyjna kontrola dostępu**: Łatwo zarządzaj kontami pracowników i przypisuj uprawnienia oparte na rolach do różnych modeli, baz wiedzy i funkcji przez zunifikowany panel administracyjny.
+- **W pełni prywatne wdrożenie**: Wdróż cały backend na swoich serwerach lokalnych lub w prywatnej chmurze, zapewniając, że Twoje dane pozostają w 100% prywatne i pod Twoją kontrolą, by sprostać najwyższym standardom bezpieczeństwa i zgodności.
+- **Niezawodne usługi backendowe**: Zapewnia stabilne API, mechanizmy backupu i odzyskiwania danych klasy enterprise, by zagwarantować ciągłość działania biznesu.
+
+## ✨ Demo online
+
+> 🚧 **Informacja o publicznej becie**
+>
+> Wersja Enterprise znajduje się obecnie we wczesnej fazie publicznej bety, a my aktywnie iterujemy i optymalizujemy jej funkcje. Wiemy, że może jeszcze nie być całkowicie stabilna. Jeśli napotkasz jakiekolwiek problemy lub masz cenne sugestie podczas testów, będziemy bardzo wdzięczni za kontakt mailowy i przekazanie opinii.
+
+**🔗 [Cherry Studio Enterprise](https://www.cherry-ai.com/enterprise)**
+
+## Porównanie wersji
+
+| Funkcja           | Community Edition                          | Enterprise Edition                                                                                                                      |
+| :---------------- | :----------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| **Open Source**   | ✅ Tak                                     | ⭕️ część udostępniona klientom                                                                                                          |
+| **Koszt**         | Bezpłatne do użytku osobistego / licencja komercyjna | Wykup / Opłata abonamentowa                                                                                                             |
+| **Panel admina**  | —                                          | ● Centralny dostęp do **modeli**<br>● Zarządzanie **pracownikami**<br>● Wspólna **baza wiedzy**<br>● **Kontrola dostępu**<br>● **Backup danych** |
+| **Serwer**        | —                                          | ✅ Dedykowane prywatne wdrożenie                                                                                                        |
+
+## Zamów wersję Enterprise
+
+Wierzymy, że Wersja Enterprise stanie się silnikiem produktywności AI w Twoim zespole. Jeśli jesteś zainteresowany Cherry Studio Enterprise Edition i chcesz dowiedzieć się więcej, uzyskać wycenę lub umówić się na demo, skontaktuj się z nami.
+
+- **Zapytania biznesowe i zakupowe**:
+  **📧 [bd@cherry-ai.com](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/mailto:bd@cherry-ai.com)**
 
 # 🔗 Powiązane projekty
-- [one-api](https://github.com/songquanpeng/one-api): System zarządzania i dystrybucji API LLM, obsługujący główne modele, takie jak OpenAI, Azure i Anthropic. Oferuje jednolity interfejs API, odpowiedni do zarządzania kluczami i wtórnej dystrybucji.
 
-- [ublacklist](https://github.com/iorate/ublacklist): Blokuje wybrane strony przed pojawianiem się w wynikach wyszukiwania Google
+- [one-api](https://github.com/songquanpeng/one-api): System zarządzania i dystrybucji API LLM, obsługujący główne modele, takie jak OpenAI, Azure i Anthropic. Umożliwia zunifikowany interfejs API, odpowiedni do zarządzania kluczami i dystrybucji wtórnej.
+
+- [ublacklist](https://github.com/iorate/ublacklist): Blokuje określone strony w wynikach wyszukiwania Google
 
 # 🚀 Współtwórcy
 
@@ -213,7 +285,8 @@ Dziękujemy za wsparcie i wkład!
 
 [![Star History Chart](https://api.star-history.com/svg?repos=CherryHQ/cherry-studio&type=Timeline)](https://star-history.com/#CherryHQ/cherry-studio&Timeline)
 
-<!-- Links & Images -->
+<!-- Linki i obrazy -->
+
 [deepwiki-shield]: https://img.shields.io/badge/Deepwiki-CherryHQ-0088CC?style=plastic
 [deepwiki-link]: https://deepwiki.com/CherryHQ/cherry-studio
 [twitter-shield]: https://img.shields.io/badge/Twitter-CherryStudioApp-0088CC?style=plastic&logo=x
@@ -223,7 +296,7 @@ Dziękujemy za wsparcie i wkład!
 [telegram-shield]: https://img.shields.io/badge/Telegram-@CherryStudioAI-0088CC?style=plastic&logo=telegram
 [telegram-link]: https://t.me/CherryStudioAI
 
-<!-- Links & Images -->
+<!-- Linki i obrazy -->
 [github-stars-shield]: https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=social
 [github-stars-link]: https://github.com/CherryHQ/cherry-studio/stargazers
 [github-forks-shield]: https://img.shields.io/github/forks/CherryHQ/cherry-studio?style=social
@@ -233,7 +306,8 @@ Dziękujemy za wsparcie i wkład!
 [github-contributors-shield]: https://img.shields.io/github/contributors/CherryHQ/cherry-studio
 [github-contributors-link]: https://github.com/CherryHQ/cherry-studio/graphs/contributors
 
-<!-- Links & Images -->
+<!-- Linki i Obrazy -->
+
 [license-shield]: https://img.shields.io/badge/License-AGPLv3-important.svg?style=plastic&logo=gnu
 [license-link]: https://www.gnu.org/licenses/agpl-3.0
 [commercial-shield]: https://img.shields.io/badge/License-Contact-white.svg?style=plastic&logoColor=white&logo=telegram&color=blue
@@ -243,6 +317,6 @@ Dziękujemy za wsparcie i wkład!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-02
 
 ---

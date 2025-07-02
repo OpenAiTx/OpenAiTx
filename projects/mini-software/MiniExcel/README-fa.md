@@ -1,4 +1,4 @@
-<div style="text-align: center">
+<div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
 <a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Build status"></a>
 <a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
@@ -11,13 +11,13 @@
 
 [<img align="right" src="https://github.com/dotnet-foundation/swag/blob/main/logo/dotnetfoundation_v4.png?raw=true" width="100" />](https://www.dotnetfoundation.org/)
 
-<div style="text-align: center">
-<p>این پروژه بخشی از <a href="https://www.dotnetfoundation.org/">بنیاد .NET</a> است و تحت <a href="https://www.dotnetfoundation.org/code-of-conduct">منشور رفتار</a> آنها عمل می‌کند. </p>
+<div align="center">
+<p>این پروژه بخشی از <a href="https://www.dotnetfoundation.org/">بنیاد دات‌نت</a> است و تحت <a href="https://www.dotnetfoundation.org/code-of-conduct">منشور رفتار</a> آن فعالیت می‌کند.</p>
 </div>
 
 ---
 
-<div style="text-align: center">
+<div align="center">
 <p><strong><a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a> | <a href="README.zh-Hant.md">繁體中文</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ja">日本語</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ko">한국어</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=hi">हिन्दी</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=th">ไทย</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fr">Français</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=de">Deutsch</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=es">Español</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=it">Italiano</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ru">Русский</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pt">Português</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=nl">Nederlands</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pl">Polski</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ar">العربية</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fa">فارسی</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=tr">Türkçe</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=vi">Tiếng Việt</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=id">Bahasa Indonesia</a><p></p>
 </strong></p>
 </div>
@@ -25,46 +25,46 @@
 
 ---
 
-<div style="text-align: center">
- ستاره‌های <a href="https://github.com/mini-software/MiniExcel">شما</a> یا <a href="https://miniexcel.github.io">حمایت‌های مالی شما</a> می‌تواند MiniExcel را بهتر کند
+<div align="center">
+<a href="https://github.com/mini-software/MiniExcel">ستاره‌ دادن</a> یا <a href="https://miniexcel.github.io">حمایت مالی</a> شما می‌تواند MiniExcel را بهتر کند
 </div>
 
 ---
 
 ### معرفی
 
-MiniExcel یک ابزار ساده و کارآمد برای پردازش اکسل در .NET است که به طور ویژه‌ای برای به حداقل رساندن مصرف حافظه طراحی شده است.
+MiniExcel یک ابزار ساده و کارآمد برای پردازش اکسل در .NET است که به طور خاص برای به حداقل رساندن استفاده از حافظه طراحی شده است.
 
-در حال حاضر، بیشتر چارچوب‌های محبوب نیاز دارند تمام داده‌ها را از یک سند اکسل به حافظه بارگذاری کنند تا عملیات را تسهیل نمایند، اما این کار ممکن است باعث مشکلات مصرف حافظه شود. رویکرد MiniExcel متفاوت است: داده‌ها به صورت سطری و به شکل استریم پردازش می‌شوند، که مصرف اولیه را از صدها مگابایت به چند مگابایت کاهش می‌دهد و به طور مؤثری از بروز مشکلات اتمام حافظه (OOM) جلوگیری می‌کند.
+در حال حاضر، بیشتر فریم‌ورک‌های محبوب نیاز دارند تمام داده‌های یک سند اکسل را برای انجام عملیات‌ها به حافظه بارگذاری کنند، اما این موضوع می‌تواند موجب مشکلات مصرف حافظه شود. رویکرد MiniExcel متفاوت است: داده‌ها به صورت ردیف به ردیف و به صورت جریانی (streaming) پردازش می‌شوند و مصرف اصلی را از صدها مگابایت بالقوه به فقط چند مگابایت کاهش می‌دهد و به طور مؤثری از بروز مشکلات کمبود حافظه (OOM) جلوگیری می‌کند.
 
 ![Screenshot 2025-06-22 123525](https://github.com/user-attachments/assets/0b99a61e-8061-4604-8957-0b1f3ec74544)
 
 
 ### ویژگی‌ها
 
-- مصرف حافظه را به حداقل می‌رساند، از بروز خطاهای اتمام حافظه (OOM) جلوگیری می‌کند و مانع از جمع‌آوری کامل زباله‌ها می‌شود
-- امکان عملیات داده‌ای در سطح ردیف و به صورت بلادرنگ برای عملکرد بهتر روی داده‌های بزرگ
-- پشتیبانی از LINQ با اجرای تعویقی، امکان صفحه‌بندی سریع و بهینه از نظر حافظه و جستجوهای پیچیده
-- سبک و کم‌حجم، بدون نیاز به Microsoft Office یا کامپوننت‌های COM+ و اندازه DLL کمتر از 500KB
-- API ساده و شهودی برای خواندن/نوشتن/تکمیل اکسل
+- به حداقل رساندن مصرف حافظه و جلوگیری از خطاهای کمبود حافظه (OOM) و جلوگیری از جمع‌آوری کامل زباله‌ها
+- امکان عملیات داده‌ای بلادرنگ و سطح ردیف برای عملکرد بهتر در مجموعه داده‌های بزرگ
+- پشتیبانی از LINQ با اجرای تعویقی، امکان صفحه‌بندی سریع و کارآمد حافظه و پرس‌وجوهای پیچیده
+- سبک، بدون نیاز به Microsoft Office یا اجزای COM+ و اندازه DLL کمتر از 500KB
+- رابط برنامه‌نویسی (API) ساده و شهودی برای خواندن/نوشتن/تکمیل اکسل
 
-### شروع سریع
+### شروع کار
 
-- [وارد کردن/کوئری اکسل](#getstart1)
+- [وارد کردن/پرس‌وجوی اکسل](#getstart1)
 
 - [خروجی گرفتن/ایجاد اکسل](#getstart2)
 
 - [قالب اکسل](#getstart3)
 
-- [نام/اندیس/ویژگی نادیده گرفتن ستون اکسل](#getstart4)
+- [نام ستون/اندیس/ویژگی نادیده گرفتن در اکسل](#getstart4)
 
-- [نمونه‌ها](#getstart5)
+- [مثال‌ها](#getstart5)
 
 
 
 ### نصب
 
-می‌توانید این بسته را [از NuGet نصب کنید](https://www.nuget.org/packages/MiniExcel)
+شما می‌توانید این بسته را [از NuGet](https://www.nuget.org/packages/MiniExcel) نصب کنید
 
 ### یادداشت‌های انتشار
 
@@ -76,24 +76,24 @@ MiniExcel یک ابزار ساده و کارآمد برای پردازش اکس�
 
 ### عملکرد
 
-کد بنچمارک‌ها را می‌توانید در [MiniExcel.Benchmarks](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Program.cs) بیابید.
+کد مربوط به بنچمارک‌ها را می‌توانید در [MiniExcel.Benchmarks](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Program.cs) پیدا کنید.
 
-فایلی که برای تست عملکرد استفاده شده است [**Test1,000,000x10.xlsx**](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Test1%2C000%2C000x10.xlsx) می‌باشد؛ یک سند 32 مگابایتی که شامل 1,000,000 ردیف * 10 ستون است و سلول‌های آن با رشته "HelloWorld" پر شده‌اند.
+فایلی که برای آزمون عملکرد استفاده شده است [**Test1,000,000x10.xlsx**](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Test1%2C000%2C000x10.xlsx) است؛ یک سند 32 مگابایتی شامل 1,000,000 ردیف * 10 ستون که سلول‌های آن با رشته "HelloWorld" پر شده‌اند.
 
-برای اجرای تمام بنچمارک‌ها از دستور زیر استفاده کنید:
+برای اجرای همه بنچمارک‌ها از دستور زیر استفاده کنید:
 
 ```bash
 dotnet run -project .\benchmarks\MiniExcel.Benchmarks -c Release -f net9.0 -filter * --join
 ```
 
-می‌توانید نتایج بنچمارک نسخه آخر را [اینجا](benchmarks/results) پیدا کنید.
+می‌توانید نتایج بنچمارک‌های نسخه اخیر را [اینجا](benchmarks/results) مشاهده کنید.
 
 
-### کوئری/وارد کردن اکسل  <a name="getstart1"></a>
+### پرس‌وجو/وارد کردن اکسل  <a name="getstart1"></a>
 
-#### 1. اجرای کوئری و نگاشت نتایج به یک IEnumerable قوی نوع [[امتحان کنید]](https://dotnetfiddle.net/w5WD1J)
+#### 1. اجرای یک پرس‌وجو و نگاشت نتایج به یک IEnumerable با نوع قوی [[امتحان کنید]](https://dotnetfiddle.net/w5WD1J)
 
-توصیه می‌شود از Stream.Query به دلیل کارایی بهتر استفاده شود.
+توصیه می‌شود از Stream.Query به دلیل کارایی بهتر استفاده کنید.
 
 ```csharp
 public class UserAccount
@@ -1988,6 +1988,6 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-02
 
 ---

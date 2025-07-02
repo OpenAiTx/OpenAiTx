@@ -52,8 +52,12 @@
 ## Get Started
 
 1. Replace URL `GitHub` by `OpenAiTx`, e.g. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
-
 2. Click and copy the style badges or text you like.
+
+or
+
+1. Access https://openaitx.github.io/ 
+2. Submit your project link.
 
 ## Example
 
@@ -145,13 +149,7 @@ Fork project → Clone project → Choose a script in your language → Fill in 
 - Every 3~7 days will update exist projects (depending future computing resources)
 
 
+
 ## Thanks
 
-- Microsoft MVP team provides 150USD/Month open source community azure platform budget.
-
-
-
-## Future plan
-
-- Support Gitee platform
-
+- Microsoft MVP team

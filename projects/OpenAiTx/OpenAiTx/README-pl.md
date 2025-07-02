@@ -33,27 +33,31 @@
 
 
 <div align="center">
- Twój <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a>  może sprawić, że Open Ai Tx będzie lepszy
+ Twoja <a href="https://github.com/OpenAiTx/OpenAiTx">Gwiazda</a>  może uczynić Open Ai Tx lepszym
 </div>
 
 
 ## Wprowadzenie
 
-**OpenAiTx** to narzędzie do automatycznego tłumaczenia na 20 języków dla plików readme i wiki Twojego projektu GitHub.
+**OpenAiTx** narzędzie do automatycznego tłumaczenia na 20 języków dla Twojego projektu GitHub (readme & wiki).
 
 ## Dlaczego?
 
-1. Jednorazowe tłumaczenie przy użyciu zaawansowanego LLM i udostępnienie wyniku społeczności open source za darmo.
-2. Wsparcie dla wielojęzycznego SEO Google/Bing – narzędzia klienckie nie oferują tej możliwości.
-3. Zawsze darmowe i otwarte oprogramowanie
-4. Jedno zgłoszenie i automatyczna aktualizacja w przyszłości – oszczędzasz czas jako maintainer projektu.
+1. Jednorazowe tłumaczenie z wykorzystaniem LLM klasy premium i udostępnienie wyników społeczności open-source za darmo.
+2. Wsparcie dla wielojęzycznego SEO w Google/Bing – narzędzia tłumaczeń po stronie klienta nie oferują tej funkcji.
+3. Darmowy i otwartoźródłowy na zawsze
+4. Jedno zgłoszenie i automatyczne aktualizacje w przyszłości – oszczędza czas, jeśli jesteś opiekunem projektu.
 
 
 ## Jak zacząć
 
 1. Zamień URL `GitHub` na `OpenAiTx`, np. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
-
 2. Kliknij i skopiuj styl odznaki lub tekst, który Ci się podoba.
+
+lub
+
+1. Wejdź na https://openaitx.github.io/ 
+2. Prześlij link do swojego projektu.
 
 ## Przykład
 
@@ -94,10 +98,10 @@
     <div>
       <div align="right">
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">English</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN">简体中文</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">繁體中文</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN">简体中文</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">繁體中文</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
+<p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">ไทย</a></p>
 <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a></p>
@@ -128,35 +132,30 @@
 
 ## Wkład obliczeniowy
 
-Jeśli chcesz wnieść swój wkład w projekt, wystarczy:
-Fork projektu → Sklonuj projekt → Wybierz skrypt w swoim języku → Wpisz swój token AI  → Uruchom → Commituj & wypchnij & utwórz PR
+Jeśli chcesz mieć swój wkład w projekt, wszystko co musisz zrobić to:
+Forkuj projekt → Sklonuj projekt → Wybierz skrypt w swoim języku → Wstaw swój token AI → Uruchom go → Commituj & wypchnij & utwórz PR
 
 > Uwaga: **Nie przesyłaj swoich tokenów!**
 
 ## Uwagi
 
-- Obsługuje tylko markdown githuba.
-- Jeśli jesteś właścicielem projektu lub głównym deweloperem, możesz uwierzytelnić konto github, aby automatycznie tworzyć PR po zaindeksowaniu.
+- Wspierany jest tylko markdown githuba.
+- Jeśli jesteś właścicielem projektu lub głównym deweloperem, możesz uwierzytelnić konto github, aby automatycznie tworzyć PR po zindeksowaniu.
 
 ## Inne
 
-- 10~30 min/ na projekt
-- 200~400 projektów/na jedną konsolę dziennie.
-- Co 3~7 dni aktualizacja istniejących projektów (w zależności od przyszłych zasobów obliczeniowych)
+- 10~30 min/projekt
+- 200~400 projektów/jedna konsola dziennie.
+- Co 3~7 dni aktualizujemy istniejące projekty (w zależności od dostępnych zasobów obliczeniowych w przyszłości)
+
 
 
 ## Podziękowania
 
-- Zespół Microsoft MVP zapewnia budżet 150 USD/miesiąc na platformę open source Azure dla społeczności.
-
-
-
-## Plany na przyszłość
-
-- Wsparcie dla platformy Gitee
+- Zespół Microsoft MVP
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-02
 
 ---
