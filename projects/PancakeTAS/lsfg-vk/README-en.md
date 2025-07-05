@@ -43,3 +43,9 @@ Make sure you adjust the paths. Let's examine each one:
 
 >[!WARNING]
 > Unlike on Windows, LSFG_MULTIPLIER is heavily limited here (at the moment!). If your hardware can create 8 swapchain images, then setting LSFG_MULTIPLIER to 4 occupies 4 of those, leaving only 4 to the game. If the game requested 5 or more, it will crash.
+
+---
+
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-05
+
+---
