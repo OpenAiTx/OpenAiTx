@@ -15,8 +15,8 @@ Thanks for the support!
 * [Ourdream](https://nsfwgen.xyz/ourdream) - High-quality NSFW AI image and video generator with character creation, chat, audio, voice calls, and more!
   
 ### Other Good NSFW AI Generators
-* [AIAllure](https://nsfwgen.xyz/aiallure) - AI Girlfriend generator with nsfw image and video generating.
-* [GirlFriendGPT](https://nsfwgen.xyz/girlfriendgpt) - AI Girlfriend generator with nsfw image and video generating
-* [MyBunny](https://nsfwgen.xyz/mybunny) - AI Girlfriend generator with nsfw image generating.
+* [AIAllure](https://nsfwgen.xyz/aiallure) - NSFW AI Image and Video Generator. 
+* [CandyAI](https://nsfwgen.xyz/candyai) - AI Girlfriend generator with nsfw ai image generating. 
+* [ThotChat](https://nsfwgen.xyz/thotchat) - AI Girlfriend generator with nsfw ai image generating. 
 
 Browse more NSFW AI Generators here: [NSFW AI Generators](https://linktr.ee/nsfwaigenerators)
