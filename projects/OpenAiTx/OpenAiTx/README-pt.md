@@ -33,9 +33,8 @@
 
 
 <div align="center">
- Seu <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a> pode tornar o Open Ai Tx melhor
+ Seu <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a>  pode tornar o Open Ai Tx melhor
 </div>
-
 
 ## Introdução
 
@@ -43,27 +42,25 @@
 
 ## Por quê?
 
-1. Tradução única usando LLM de nível premium e tornando o resultado livremente acessível para a comunidade open-source.
-2. Suporte para SEO multilingue no Google/Bing, ferramenta de tradução do cliente não consegue fazer isso.
-3. Gratuito & Código Aberto para sempre 
-4. Envie uma vez e atualize automaticamente no futuro, pode economizar seu tempo se você for mantenedor de projeto.
-
+1. Tradução única usando LLM de nível premium e disponibilize o resultado gratuitamente para a comunidade open-source.
+2. Suporte para SEO de múltiplos idiomas do Google/Bing, ferramenta de tradução do cliente não consegue fazer isso.
+3. Gratuito e Open Source para sempre
+4. Envie uma vez e atualize automaticamente no futuro, pode economizar seu tempo se você for um mantenedor de projeto.
 
 ## Como Começar
 
-1. Substitua a URL `GitHub` por `OpenAiTx`, por exemplo, https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+1. Substitua a URL `GitHub` por `OpenAiTx`, ex.: https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
 2. Clique e copie os badges de estilo ou texto que preferir.
 
 ou
 
 1. Acesse https://openaitx.github.io/ 
 2. Envie o link do seu projeto.
-
 ## Exemplo
 
 ### Opção de Estilo 1:
 
-<div style="text-align: center"><p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi"><img src="https://img.shields.io/badge/हिन्दी-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa"><img src="https://img.shields.io/badge/فارسی-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id"><img src="https://img.shields.io/badge/Bahasa Indonesia-white" alt="version"></a> </p></div>
+<div align="center"><p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi"><img src="https://img.shields.io/badge/हिन्दी-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa"><img src="https://img.shields.io/badge/فارسی-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id"><img src="https://img.shields.io/badge/Bahasa Indonesia-white" alt="version"></a> </p></div>
 
 ### Opção de Estilo 2:
 
@@ -98,7 +95,6 @@ ou
     <div>
       <div align="right">
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">English</a></p>
-```
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN">简体中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">繁體中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
@@ -123,7 +119,6 @@ ou
   </details>
 </div>
 
-
 ## Vídeo de Demonstração
 
 <a href="https://github.com/user-attachments/assets/a1370023-8924-4d40-9f18-979a334e934d"> 
@@ -131,33 +126,31 @@ ou
 </a>
 
 
-## Contribuição de Computação
+## Contribuindo com Computação
 
-Se você gostaria de contribuir para o projeto, tudo o que você precisa fazer é:
-Fork no projeto → Clonar o projeto → Escolher um script no seu idioma → Preencher seu token de IA → Executá-lo → Commit & push & criar um PR
+Se você deseja contribuir para o projeto, tudo o que precisa fazer é:
+Fazer um fork do projeto → Clonar o projeto → Escolher um script em seu idioma → Preencher seu token de IA → Executá-lo → Comitar & fazer push & criar um PR
 
 > Nota: **Por favor, não faça upload dos seus tokens!**
 
-## Observações
+## Notas
 
-- Suporta apenas markdown do Github.
-- Se você é o proprietário do projeto ou desenvolvedor principal, pode autenticar a conta do Github para criar PR automaticamente após indexação.
+- Suporta apenas markdown do GitHub.
+- Se você é proprietário do projeto ou desenvolvedor principal, pode autenticar a conta do GitHub para criar PR automaticamente após a indexação.
 
 ## Outros
-
 - 10~30 minutos/ por projeto
 - 200~400 projetos/um console por dia.
-- A cada 3~7 dias serão atualizados projetos existentes (dependendo dos recursos computacionais futuros)
+- A cada 3~7 dias serão atualizados os projetos existentes (dependendo dos recursos computacionais futuros)
 
 
 
 ## Agradecimentos
 
 - Equipe Microsoft MVP
-```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-02
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-09
 
 ---
