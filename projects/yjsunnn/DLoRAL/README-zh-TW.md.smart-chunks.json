@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## 🔧 依賴項與安裝\n\n1. 複製倉庫\n    ```bash\n    git clone https://github.com/yjsunnn/DLoRAL.git\n    cd DLoRAL\n    ```\n\n2. 安裝依賴套件\n    ```bash\n    conda create -n DLoRAL python=3.10 -y\n    conda activate DLoRAL\n    pip install -r requirements.txt\n    ```\n\n3. 下載模型  \n#### 依賴模型\n* [SD21 Base](https://huggingface.co/stabilityai/stable-diffusion-2-1-base) --> 放入 **/path/to/DLoRAL/preset_models/stable-diffusion-2-1-base**\n* [Bert-Base](https://huggingface.co/google-bert/bert-base-uncased) --> 放入 **/path/to/DLoRAL/preset_models/bert-base-uncased**\n* [RAM](https://huggingface.co/spaces/xinyu1205/recognize-anything/blob/main/ram_swin_large_14m.pth) --> 放入 **/path/to/DLoRAL/preset/models/ram_swin_large_14m.pth**\n* [DAPE](https://drive.google.com/file/d/1KIV6VewwO2eDC9g4Gcvgm-a0LDI7Lmwm/view?usp=drive_link) --> 放入 **/path/to/DLoRAL/preset/models/DAPE.pth**\n* [預訓練權重](https://drive.google.com/file/d/1vpcaySpRx_K-tXq2D2EBqFZ-03Foky8G/view?usp=sharing) --> 放入 **/path/to/DLoRAL/preset/models/checkpoints/model.pkl**\n\n每個路徑可依自身需求進行修改，並應於命令列及程式碼中做相應變更。",
+    "Status": "ok"
   },
   {
     "Id": 5,

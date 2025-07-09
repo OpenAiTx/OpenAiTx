@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## 🔧 Dipendenze e Installazione\n\n1. Clona il repository\n    ```bash\n    git clone https://github.com/yjsunnn/DLoRAL.git\n    cd DLoRAL\n    ```\n\n2. Installa i pacchetti dipendenti\n    ```bash\n    conda create -n DLoRAL python=3.10 -y\n    conda activate DLoRAL\n    pip install -r requirements.txt\n    ```\n\n3. Scarica i Modelli \n#### Modelli Dipendenti\n* [SD21 Base](https://huggingface.co/stabilityai/stable-diffusion-2-1-base) --> inserire in **/path/to/DLoRAL/preset_models/stable-diffusion-2-1-base**\n* [Bert-Base](https://huggingface.co/google-bert/bert-base-uncased) --> inserire in **/path/to/DLoRAL/preset_models/bert-base-uncased**\n* [RAM](https://huggingface.co/spaces/xinyu1205/recognize-anything/blob/main/ram_swin_large_14m.pth) --> inserire in **/path/to/DLoRAL/preset/models/ram_swin_large_14m.pth**\n* [DAPE](https://drive.google.com/file/d/1KIV6VewwO2eDC9g4Gcvgm-a0LDI7Lmwm/view?usp=drive_link) --> inserire in **/path/to/DLoRAL/preset/models/DAPE.pth**\n* [Pesi Preaddestrati](https://drive.google.com/file/d/1vpcaySpRx_K-tXq2D2EBqFZ-03Foky8G/view?usp=sharing) --> inserire in **/path/to/DLoRAL/preset/models/checkpoints/model.pkl**\n\nOgni percorso può essere modificato secondo le proprie esigenze, e le modifiche corrispondenti devono essere applicate anche alla riga di comando e al codice.",
+    "Status": "ok"
   },
   {
     "Id": 5,
@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## 🖼️ Inferenza Rapida\nPer la Super-Risoluzione Video nel Mondo Reale:\n\n```\npython src/test_DLoRAL.py     \\\n--pretrained_model_path /percorso/al/modello-stable-diffusion-2-1-base     \\\n--ram_ft_path /percorso/al/DAPE.pth     \\\n--ram_path '/percorso/al/ram_swin_large_14m.pth'     \\\n--merge_and_unload_lora False     \\\n--process_size 512     \\\n--pretrained_model_name_or_path '/percorso/al/modello-stable-diffusion-2-1-base'     \\\n--vae_encoder_tiled_size 4096     \\\n--load_cfr     \\\n--pretrained_path /percorso/al/model_checkpoint.pkl     \\\n--stages 1     \\\n-i /percorso/agli/input_videos/     \\\n-o /percorso/ai/risultati\n```",
+    "Status": "ok"
   },
   {
     "Id": 6,

@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## 🖼️ Inferencia Rápida\nPara Super-Resolución de Video en el Mundo Real:\n\n```\npython src/test_DLoRAL.py     \\\n--pretrained_model_path /ruta/al/stable-diffusion-2-1-base     \\\n--ram_ft_path /ruta/al/DAPE.pth     \\\n--ram_path '/ruta/al/ram_swin_large_14m.pth'     \\\n--merge_and_unload_lora False     \\\n--process_size 512     \\\n--pretrained_model_name_or_path '/ruta/al/stable-diffusion-2-1-base'     \\\n--vae_encoder_tiled_size 4096     \\\n--load_cfr     \\\n--pretrained_path /ruta/al/model_checkpoint.pkl     \\\n--stages 1     \\\n-i /ruta/al/input_videos/     \\\n-o /ruta/al/results\n```",
+    "Status": "ok"
   },
   {
     "Id": 6,
@@ -56,7 +56,7 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### Citaciones\nSi nuestro código ayuda en su investigación o trabajo, por favor considere citar nuestro artículo.\nLas siguientes son referencias BibTeX:\n\n```\n@misc{sun2025onestepdiffusiondetailrichtemporally,\n      title={One-Step Diffusion for Detail-Rich and Temporally Consistent Video Super-Resolution}, \n      author={Yujing Sun and Lingchen Sun y Shuaizheng Liu y Rongyuan Wu y Zhengqiang Zhang y Lei Zhang},\n      year={2025},\n      eprint={2506.15591},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2506.15591}, \n}\n```",
+    "Status": "ok"
   }
 ]

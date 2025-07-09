@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## ⏰ Mise à jour\n\n- **2025.07.08** : Le code d'inférence et les poids pré-entraînés sont disponibles.\n- **2025.06.24** : La page du projet est disponible, incluant une brève vidéo explicative de 2 minutes, plus de résultats visuels et des recherches pertinentes.\n- **2025.06.17** : Le dépôt est publié.\n\n:star: Si DLoRAL est utile pour vos vidéos ou projets, merci de donner une étoile à ce dépôt. Merci ! :hugs:\n\n😊 Vous pouvez également consulter nos travaux connexes :\n\n1. **OSEDiff (NIPS2024)** [Article](https://arxiv.org/abs/2406.08177) | [Code](https://github.com/cswry/OSEDiff/)  \n\n   Algorithme SR d'image en temps réel qui a été appliqué à la série OPPO Find X8.\n\n2. **PiSA-SR (CVPR2025)** [Article](https://arxiv.org/pdf/2412.03017) | [Code](https://github.com/csslc/PiSA-SR) \n\n   Exploration pionnière du paradigme Dual-LoRA en SR d'image.\n\n3. **Awesome Diffusion Models for Video Super-Resolution** [Dépôt](https://github.com/yjsunnn/Awesome-video-super-resolution-diffusion)\n\n   Une liste organisée de ressources pour la Super-Résolution Vidéo (VSR) utilisant les modèles de diffusion.",
+    "Status": "ok"
   },
   {
     "Id": 3,
@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## 👀 À FAIRE\n- [x] Publier le code d'inférence.\n- [ ] Interface Colab et Huggingface pour des tests pratiques (Bientôt !).\n- [ ] Publier le code d'entraînement.\n- [ ] Publier les données d'entraînement.\n\n\n## 🌟 Présentation du Cadre\n\n<p align=\"center\">\n\n<img src=\"https://raw.githubusercontent.com/yjsunnn/DLoRAL/main/assets/pipeline.svg\" alt=\"Cadre DLoRAL\">\n\n</p>\n\n**Entraînement** : Un schéma d'entraînement dynamique à deux étapes alterne entre l’optimisation de la cohérence temporelle (étape de cohérence) et l’amélioration des détails spatiaux à haute fréquence (étape d’amélioration), avec une interpolation douce de la perte pour assurer la stabilité.\n\n**Inférence** : Lors de l’inférence, C-LoRA et D-LoRA sont fusionnés dans le UNet de diffusion gelé, permettant une amélioration en une seule étape des entrées de faible qualité en sorties de haute qualité.",
+    "Status": "ok"
   },
   {
     "Id": 4,
@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## 🖼️ Inférence rapide\nPour la super-résolution vidéo en conditions réelles :\n\n```\npython src/test_DLoRAL.py     \\\n--pretrained_model_path /chemin/vers/stable-diffusion-2-1-base     \\\n--ram_ft_path /chemin/vers/DAPE.pth     \\\n--ram_path '/chemin/vers/ram_swin_large_14m.pth'     \\\n--merge_and_unload_lora False     \\\n--process_size 512     \\\n--pretrained_model_name_or_path '/chemin/vers/stable-diffusion-2-1-base'     \\\n--vae_encoder_tiled_size 4096     \\\n--load_cfr     \\\n--pretrained_path /chemin/vers/model_checkpoint.pkl     \\\n--stages 1     \\\n-i /chemin/vers/vidéos_d'entrée/     \\\n-o /chemin/vers/résultats\n```",
+    "Status": "ok"
   },
   {
     "Id": 6,

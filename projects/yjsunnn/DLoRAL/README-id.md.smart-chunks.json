@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## 👀 TODO\n- [x] Merilis kode inferensi.\n- [ ] Colab dan UI Huggingface untuk pengujian yang mudah (Segera!).\n- [ ] Merilis kode pelatihan.\n- [ ] Merilis data pelatihan.\n\n\n## 🌟 Gambaran Umum Framework\n\n<p align=\"center\">\n\n<img src=\"https://raw.githubusercontent.com/yjsunnn/DLoRAL/main/assets/pipeline.svg\" alt=\"DLoRAL Framework\">\n\n</p>\n\n**Pelatihan**: Skema pelatihan dua tahap dinamis secara bergantian mengoptimalkan koherensi temporal (tahap konsistensi) dan memperbaiki detail spasial frekuensi tinggi (tahap peningkatan) dengan interpolasi loss yang mulus untuk memastikan stabilitas.\n\n**Inferensi**: Selama inferensi, baik C-LoRA maupun D-LoRA digabungkan ke dalam diffusion UNet yang dibekukan, memungkinkan peningkatan satu langkah dari input berkualitas rendah menjadi output berkualitas tinggi.",
+    "Status": "ok"
   },
   {
     "Id": 4,

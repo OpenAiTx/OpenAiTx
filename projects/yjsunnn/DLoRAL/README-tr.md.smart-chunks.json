@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## 🔧 Bağımlılıklar ve Kurulum\n\n1. Depoyu klonlayın\n    ```bash\n    git clone https://github.com/yjsunnn/DLoRAL.git\n    cd DLoRAL\n    ```\n\n2. Bağımlı paketleri yükleyin\n    ```bash\n    conda create -n DLoRAL python=3.10 -y\n    conda activate DLoRAL\n    pip install -r requirements.txt\n    ```\n\n3. Modelleri İndirin\n#### Bağımlı Modeller\n* [SD21 Base](https://huggingface.co/stabilityai/stable-diffusion-2-1-base) --> **/path/to/DLoRAL/preset_models/stable-diffusion-2-1-base** dizinine koyun\n* [Bert-Base](https://huggingface.co/google-bert/bert-base-uncased) --> **/path/to/DLoRAL/preset_models/bert-base-uncased** dizinine koyun\n* [RAM](https://huggingface.co/spaces/xinyu1205/recognize-anything/blob/main/ram_swin_large_14m.pth) --> **/path/to/DLoRAL/preset/models/ram_swin_large_14m.pth** dizinine koyun\n* [DAPE](https://drive.google.com/file/d/1KIV6VewwO2eDC9g4Gcvgm-a0LDI7Lmwm/view?usp=drive_link) --> **/path/to/DLoRAL/preset/models/DAPE.pth** dizinine koyun\n* [Önceden Eğitilmiş Ağırlıklar](https://drive.google.com/file/d/1vpcaySpRx_K-tXq2D2EBqFZ-03Foky8G/view?usp=sharing) --> **/path/to/DLoRAL/preset/models/checkpoints/model.pkl** dizinine koyun\n\nHer yol kendi gereksinimlerinize göre değiştirilebilir ve ilgili değişiklikler komut satırına ve koda da uygulanmalıdır.",
+    "Status": "ok"
   },
   {
     "Id": 5,
@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## 🖼️ Hızlı Çıkarım\nGerçek Dünya Video Süper-Çözünürlüğü için:\n\n```\npython src/test_DLoRAL.py     \\\n--pretrained_model_path /path/to/stable-diffusion-2-1-base     \\\n--ram_ft_path /path/to/DAPE.pth     \\\n--ram_path '/path/to/ram_swin_large_14m.pth'     \\\n--merge_and_unload_lora False     \\\n--process_size 512     \\\n--pretrained_model_name_or_path '/path/to/stable-diffusion-2-1-base'     \\\n--vae_encoder_tiled_size 4096     \\\n--load_cfr     \\\n--pretrained_path /path/to/model_checkpoint.pkl     \\\n--stages 1     \\\n-i /path/to/input_videos/     \\\n-o /path/to/results\n```",
+    "Status": "ok"
   },
   {
     "Id": 6,

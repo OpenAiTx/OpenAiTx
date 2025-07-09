@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## 👀 TODO\n- [x] Inferenzcode veröffentlichen.\n- [ ] Colab- und Huggingface-Oberfläche für bequeme Tests (Demnächst!).\n- [ ] Trainingscode veröffentlichen.\n- [ ] Trainingsdaten veröffentlichen.\n\n\n## 🌟 Überblick Framework\n\n<p align=\"center\">\n\n<img src=\"https://raw.githubusercontent.com/yjsunnn/DLoRAL/main/assets/pipeline.svg\" alt=\"DLoRAL Framework\">\n\n</p>\n\n**Training**: Ein dynamisches zweistufiges Trainingsschema wechselt zwischen der Optimierung der zeitlichen Kohärenz (Konsistenzphase) und der Verfeinerung hochfrequenter räumlicher Details (Verbesserungsphase) mit sanfter Verlustinterpolation, um Stabilität zu gewährleisten.\n\n**Inferenz**: Während der Inferenz werden sowohl C-LoRA als auch D-LoRA in das eingefrorene Diffusion-UNet zusammengeführt, wodurch eine einstufige Verbesserung von minderwertigen Eingaben zu hochwertigen Ausgaben ermöglicht wird.",
+    "Status": "ok"
   },
   {
     "Id": 4,

@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## 🔧 Зависимости и установка\n\n1. Клонируйте репозиторий\n    ```bash\n    git clone https://github.com/yjsunnn/DLoRAL.git\n    cd DLoRAL\n    ```\n\n2. Установите необходимые пакеты\n    ```bash\n    conda create -n DLoRAL python=3.10 -y\n    conda activate DLoRAL\n    pip install -r requirements.txt\n    ```\n\n3. Загрузите модели \n#### Необходимые модели\n* [SD21 Base](https://huggingface.co/stabilityai/stable-diffusion-2-1-base) --> поместить в **/path/to/DLoRAL/preset_models/stable-diffusion-2-1-base**\n* [Bert-Base](https://huggingface.co/google-bert/bert-base-uncased) --> поместить в **/path/to/DLoRAL/preset_models/bert-base-uncased**\n* [RAM](https://huggingface.co/spaces/xinyu1205/recognize-anything/blob/main/ram_swin_large_14m.pth) --> поместить в **/path/to/DLoRAL/preset/models/ram_swin_large_14m.pth**\n* [DAPE](https://drive.google.com/file/d/1KIV6VewwO2eDC9g4Gcvgm-a0LDI7Lmwm/view?usp=drive_link) --> поместить в **/path/to/DLoRAL/preset/models/DAPE.pth**\n* [Pretrained Weights](https://drive.google.com/file/d/1vpcaySpRx_K-tXq2D2EBqFZ-03Foky8G/view?usp=sharing) --> поместить в **/path/to/DLoRAL/preset/models/checkpoints/model.pkl**\n\nКаждый путь можно изменить в соответствии со своими требованиями, и соответствующие изменения также должны быть внесены в командную строку и код.",
+    "Status": "ok"
   },
   {
     "Id": 5,
@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## 🖼️ Быстрое Выводное Инферирование\nДля сверхразрешения реальных видеороликов:\n\n```\npython src/test_DLoRAL.py     \\\n--pretrained_model_path /path/to/stable-diffusion-2-1-base     \\\n--ram_ft_path /path/to/DAPE.pth     \\\n--ram_path '/path/to/ram_swin_large_14m.pth'     \\\n--merge_and_unload_lora False     \\\n--process_size 512     \\\n--pretrained_model_name_or_path '/path/to/stable-diffusion-2-1-base'     \\\n--vae_encoder_tiled_size 4096     \\\n--load_cfr     \\\n--pretrained_path /path/to/model_checkpoint.pkl     \\\n--stages 1     \\\n-i /path/to/input_videos/     \\\n-o /path/to/results\n```\n",
+    "Status": "ok"
   },
   {
     "Id": 6,
