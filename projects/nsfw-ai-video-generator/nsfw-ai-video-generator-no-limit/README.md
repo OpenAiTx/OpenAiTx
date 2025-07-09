@@ -11,7 +11,7 @@ Thanks for the support!
 
 * [Promptchan](https://nsfwgen.xyz/promptchan) [🏆 Most popular choice] - High quality realistic NSFW AI video and image generator. 
 * [PWorks](https://nsfwgen.xyz/pornworks) [🏷️ Low price, free version included] - NSFW AI image and video generator, aswell as NSFW AI image to video generation. Includes free version.
-* [SpicyGen](https://nsfwgen.xyz/spicygen) - Allows you to turn any image into NSFW videos.
+* [SpicyGen](https://nsfwgen.xyz/spicygen) - AI image to video generator
 * [Ourdream](https://nsfwgen.xyz/ourdream) - High-quality NSFW AI image and video generator with character creation, chat, audio, voice calls, and more!
   
 ### Other Good NSFW AI Generators
