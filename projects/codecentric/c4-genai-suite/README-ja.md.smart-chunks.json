@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### モデルコンテキストプロトコル (MCP) [オプション]\n\n`sse` インターフェースを提供する任意の MCP サーバーを、`MCP Tools` 拡張機能とともに使用できます（または、`stdio` MCP サーバーの前にプロキシとして当社の `mcp-tool-as-server` を使用できます）。\n各 MCP サーバーは、拡張機能として詳細に設定可能です。\n\n### 検索拡張生成 (RAG) / ファイル検索 [オプション]\n\nユーザーが提供したファイルを検索するために、当社の RAG サーバー `REI-S` を使用します。アシスタント用に `Search Files` 拡張機能を設定するだけです。\nこのプロセスの詳細は [ `services/reis` サブディレクトリ](services/reis/#example-configuration-in-c4) で説明されています。\n\n## 貢献と開発\n\n* 貢献方法のガイドラインについては、[CONTRIBUTING.md](https://raw.githubusercontent.com/codecentric/c4-genai-suite/main/CONTRIBUTING.md) を参照してください。\n* 開発者向けのオンボーディングについては、[DEVELOPERS.md](https://raw.githubusercontent.com/codecentric/c4-genai-suite/main/DEVELOPERS.md) を確認してください。\n\n## 主な構成要素\n\n本アプリケーションは、**フロントエンド**、**バックエンド**、および **REI-S** サービスで構成されています。\n\n```",
+    "Status": "ok"
   },
   {
     "Id": 5,
