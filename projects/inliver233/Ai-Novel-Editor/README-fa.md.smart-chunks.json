@@ -1,0 +1,52 @@
+[
+  {
+    "Id": 1,
+    "Content": "# AI Novel Editor\n\n基于PyQt6的AI辅助小说编辑器，提供智能补全、项目管理、概念组织等专业写作工具。\n\n## 安装\n\n1. 克隆项目\n```bash\ngit clone https://github.com/inliver233/Ai-Novel-Editor.git\ncd ai-novel-editor\n```\n\n2. 创建虚拟环境\n```bash\npython -m venv venv\nvenv\\Scripts\\activate     # Windows\n```\n\n3. 安装依赖\n```bash\npip install -r requirements.txt\n```",
+    "ContentSha": "uA/glKv43lspyuWfdVQnMSnFLbgAqvIuNP99eGhAYlc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# ویرایشگر رمان هوشمند (AI Novel Editor)\n\nویرایشگر رمان با کمک هوش مصنوعی مبتنی بر PyQt6 که ابزارهای حرفه‌ای نویسندگی مانند تکمیل هوشمند، مدیریت پروژه و سازماندهی مفاهیم را ارائه می‌دهد.\n\n## نصب\n\n1. کلون کردن پروژه\n```bash\ngit clone https://github.com/inliver233/Ai-Novel-Editor.git\ncd ai-novel-editor\n```\n\n2. ایجاد محیط مجازی\n```bash\npython -m venv venv\nvenv\\Scripts\\activate     # ویندوز\n```\n\n3. نصب وابستگی‌ها\n```bash\npip install -r requirements.txt\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 2,
+    "Content": "\n4. 运行程序\n```bash\npython src/main.py\n```\n\n## 主要功能\n\n### 项目管理\n- 层次化文档结构（作品 > 章节 > 场景）\n- 项目导入导出（支持TEXT、MARKDOWN、DOCX、PDF、HTML格式）\n- 自动备份和版本控制\n- 多项目管理\n\n### AI补全功能\n- 三种补全模式：自动补全、手动补全(推荐 按一次tab触发一次 再按一次tab应用补全)、禁用补全\n- 三种上下文模式：\n  - 快速模式：轻量级上下文，快速响应\n  - 平衡模式：中等上下文，质量与速度平衡\n  - 全局模式：完整项目上下文，最佳效果\n- 支持多种AI服务：OpenAI、Claude、通义千问、智谱AI、DeepSeek、Groq等\n",
+    "ContentSha": "mAQQYghycaJZ9fBd+NlwPKcvejVDJ8wFxYXuKfxUV30=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "4. اجرای برنامه\n```bash\npython src/main.py\n```\n\n## قابلیت‌های اصلی\n\n### مدیریت پروژه\n- ساختار سلسله‌مراتبی اسناد (اثر > فصل > صحنه)\n- واردات و صادرات پروژه (پشتیبانی از فرمت‌های TEXT، MARKDOWN، DOCX، PDF، HTML)\n- پشتیبان‌گیری خودکار و کنترل نسخه\n- مدیریت چندین پروژه\n\n### قابلیت تکمیل AI\n- سه حالت تکمیل: تکمیل خودکار، تکمیل دستی (توصیه می‌شود با یک بار فشردن tab فعال شود و با بار دیگر اعمال شود)، غیرفعال‌سازی تکمیل\n- سه حالت زمینه:\n  - حالت سریع: زمینه سبک، پاسخگویی سریع\n  - حالت متعادل: زمینه متوسط، تعادل بین کیفیت و سرعت\n  - حالت کلی: زمینه کامل پروژه، بهترین نتیجه\n- پشتیبانی از سرویس‌های مختلف AI: OpenAI، Claude، Tongyi Qianwen، Zhipu AI، DeepSeek، Groq و غیره",
+    "Status": "ok"
+  },
+  {
+    "Id": 3,
+    "Content": "### 大纲管理\n- 可视化大纲树结构\n- 拖拽排序和层级调整\n- 文档快速导航\n- 大纲分析和优化建议\n\n### API配置\n- 统一的AI配置中心\n- 多服务商预设配置\n- 连接测试功能\n- 配置方案保存和导入导出\n\n### 智能补全设置\n- 可调节的触发延迟\n- 补全长度限制\n- 上下文长度配置\n- 流式响应支持\n\n### 提示词编辑\n- 内置多种写作模板\n- 自定义提示词模板\n- 模板分类管理\n- 模式特定模板配置\n",
+    "ContentSha": "10BFTnL69xEmplv6Wi7zFahtutC5i2LEWUpoSH3eWIM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### مدیریت ساختار کلی (Outline)\n- نمایش ساختار درختی به صورت بصری\n- مرتب‌سازی و تنظیم سطوح با کشیدن و رها کردن\n- ناوبری سریع در اسناد\n- تحلیل و ارائه پیشنهاد برای بهینه‌سازی ساختار\n\n### پیکربندی API\n- مرکز پیکربندی AI یکپارچه\n- پیکربندی‌های پیش‌فرض برای چندین ارائه‌دهنده خدمات\n- قابلیت تست اتصال\n- ذخیره‌سازی و وارد/خارج‌سازی پیکربندی‌ها\n\n### تنظیمات تکمیل هوشمند\n- قابلیت تنظیم تاخیر فعال‌سازی\n- محدودیت طول تکمیل\n- پیکربندی طول متن زمینه\n- پشتیبانی از پاسخ‌دهی جریانی (streaming)\n\n### ویرایش کلیدواژه‌های راهنما (Prompt)\n- قالب‌های نگارشی متنوع داخلی\n- قالب‌های قابل تنظیم کلیدواژه‌های راهنما\n- مدیریت دسته‌بندی قالب‌ها\n- پیکربندی قالب مخصوص هر حالت",
+    "Status": "ok"
+  },
+  {
+    "Id": 4,
+    "Content": "### 界面功能\n- 明暗双主题\n- 三栏式布局（项目树、编辑器、概念面板）\n- 可折叠侧边栏\n- 全屏写作模式\n- 专注模式（句子、段落、打字机、禅模式、沉浸模式）\n\n### 搜索和替换\n- 全项目文本搜索\n- 正则表达式支持\n- 批量替换功能\n- 高级搜索选项\n\n### 概念管理\n- 自动检测角色、地点、物品\n- 概念关系管理\n- 标签和分类系统\n- 概念快速插入\n\n## 快捷键",
+    "ContentSha": "q/ftcU+7YyKIoM/Rxgegz9wZc9eAU4ytZAVN0DzRp08=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### قابلیت‌های رابط کاربری\n- دو تم روشن و تیره\n- چینش سه ستونه (درخت پروژه، ویرایشگر، پنل مفاهیم)\n- نوار کناری قابل جمع شدن\n- حالت نوشتن تمام‌صفحه\n- حالت تمرکز (جمله، پاراگراف، ماشین تحریر، حالت ذن، حالت غرق‌شدن)\n\n### جستجو و جایگزینی\n- جستجوی متن در کل پروژه\n- پشتیبانی از عبارات با قاعده (Regex)\n- قابلیت جایگزینی گروهی\n- گزینه‌های جستجوی پیشرفته\n\n### مدیریت مفاهیم\n- شناسایی خودکار شخصیت‌ها، مکان‌ها و اشیاء\n- مدیریت روابط مفهومی\n- سیستم برچسب‌گذاری و دسته‌بندی\n- درج سریع مفهوم\n\n## کلیدهای میانبر",
+    "Status": "ok"
+  },
+  {
+    "Id": 5,
+    "Content": "\n- `Ctrl+N`: 新建项目\n- `Ctrl+O`: 打开项目\n- `Ctrl+S`: 保存文档\n- `F11`: 全屏模式\n- `Tab`: 手动触发AI补全（手动模式下）\n- `Ctrl+F`: 查找\n- `Ctrl+H`: 查找替换\n- `Ctrl+Shift+H`: 高级查找替换\n\n\n## 系统要求\n\n- Python 3.8+\n- PyQt6\n- 操作系统：Windows、macOS、Linux\n\n## 作者\n\n**inliver**\n- 邮箱：inliverapi@outlook.com  \n- GitHub：https://github.com/inliver233",
+    "ContentSha": "MYeoHEyaK27JsEph/UT2c2Bm44MOtr1PmEPQpXzFkjA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- `Ctrl+N`: ایجاد پروژه جدید\n- `Ctrl+O`: باز کردن پروژه\n- `Ctrl+S`: ذخیره سند\n- `F11`: حالت تمام‌صفحه\n- `Tab`: فعال‌سازی دستی تکمیل خودکار AI (در حالت دستی)\n- `Ctrl+F`: جستجو\n- `Ctrl+H`: جستجو و جایگزینی\n- `Ctrl+Shift+H`: جستجو و جایگزینی پیشرفته\n\n\n## الزامات سیستم\n\n- Python 3.8+\n- PyQt6\n- سیستم عامل: Windows، macOS، Linux\n\n## نویسنده\n\n**inliver**\n- ایمیل: inliverapi@outlook.com  \n- گیت‌هاب: https://github.com/inliver233",
+    "Status": "ok"
+  }
+]

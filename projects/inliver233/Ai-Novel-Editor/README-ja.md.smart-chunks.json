@@ -1,0 +1,52 @@
+[
+  {
+    "Id": 1,
+    "Content": "# AI Novel Editor\n\n基于PyQt6的AI辅助小说编辑器，提供智能补全、项目管理、概念组织等专业写作工具。\n\n## 安装\n\n1. 克隆项目\n```bash\ngit clone https://github.com/inliver233/Ai-Novel-Editor.git\ncd ai-novel-editor\n```\n\n2. 创建虚拟环境\n```bash\npython -m venv venv\nvenv\\Scripts\\activate     # Windows\n```\n\n3. 安装依赖\n```bash\npip install -r requirements.txt\n```",
+    "ContentSha": "uA/glKv43lspyuWfdVQnMSnFLbgAqvIuNP99eGhAYlc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# AI小説エディタ\n\nPyQt6をベースにしたAI支援小説エディタで、インテリジェントな補完、プロジェクト管理、コンセプト整理などのプロフェッショナルな執筆ツールを提供します。\n\n## インストール\n\n1. プロジェクトをクローン\n```bash\ngit clone https://github.com/inliver233/Ai-Novel-Editor.git\ncd ai-novel-editor\n```\n\n2. 仮想環境を作成\n```bash\npython -m venv venv\nvenv\\Scripts\\activate     # Windows\n```\n\n3. 依存関係をインストール\n```bash\npip install -r requirements.txt\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 2,
+    "Content": "\n4. 运行程序\n```bash\npython src/main.py\n```\n\n## 主要功能\n\n### 项目管理\n- 层次化文档结构（作品 > 章节 > 场景）\n- 项目导入导出（支持TEXT、MARKDOWN、DOCX、PDF、HTML格式）\n- 自动备份和版本控制\n- 多项目管理\n\n### AI补全功能\n- 三种补全模式：自动补全、手动补全(推荐 按一次tab触发一次 再按一次tab应用补全)、禁用补全\n- 三种上下文模式：\n  - 快速模式：轻量级上下文，快速响应\n  - 平衡模式：中等上下文，质量与速度平衡\n  - 全局模式：完整项目上下文，最佳效果\n- 支持多种AI服务：OpenAI、Claude、通义千问、智谱AI、DeepSeek、Groq等\n",
+    "ContentSha": "mAQQYghycaJZ9fBd+NlwPKcvejVDJ8wFxYXuKfxUV30=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "4. プログラムの実行\n```bash\npython src/main.py\n```\n\n## 主な機能\n\n### プロジェクト管理\n- 階層化ドキュメント構造（作品 > 章 > シーン）\n- プロジェクトのインポート・エクスポート（TEXT、MARKDOWN、DOCX、PDF、HTML形式対応）\n- 自動バックアップとバージョン管理\n- 複数プロジェクト管理\n\n### AI補完機能\n- 3つの補完モード：自動補完、手動補完（推奨 Tabを一度押してトリガーし、もう一度押して補完を適用）、補完無効\n- 3つのコンテキストモード：\n  - クイックモード：軽量コンテキスト、高速応答\n  - バランスモード：中程度のコンテキスト、品質と速度のバランス\n  - グローバルモード：プロジェクト全体のコンテキスト、最良の効果\n- 複数のAIサービスに対応：OpenAI、Claude、Tongyi Qianwen、Zhipu AI、DeepSeek、Groqなど",
+    "Status": "ok"
+  },
+  {
+    "Id": 3,
+    "Content": "### 大纲管理\n- 可视化大纲树结构\n- 拖拽排序和层级调整\n- 文档快速导航\n- 大纲分析和优化建议\n\n### API配置\n- 统一的AI配置中心\n- 多服务商预设配置\n- 连接测试功能\n- 配置方案保存和导入导出\n\n### 智能补全设置\n- 可调节的触发延迟\n- 补全长度限制\n- 上下文长度配置\n- 流式响应支持\n\n### 提示词编辑\n- 内置多种写作模板\n- 自定义提示词模板\n- 模板分类管理\n- 模式特定模板配置\n",
+    "ContentSha": "10BFTnL69xEmplv6Wi7zFahtutC5i2LEWUpoSH3eWIM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### アウトライン管理\n- ビジュアルアウトラインツリー構造\n- ドラッグ＆ドロップによる並び替えと階層調整\n- ドキュメントのクイックナビゲーション\n- アウトライン分析と最適化提案\n\n### API設定\n- 統一されたAI設定センター\n- 複数プロバイダーのプリセット設定\n- 接続テスト機能\n- 設定プランの保存およびインポート・エクスポート\n\n### インテリジェント補完設定\n- 調整可能なトリガー遅延\n- 補完長さ制限\n- コンテキスト長設定\n- ストリーミング応答サポート\n\n### プロンプト編集\n- 複数の組み込み執筆テンプレート\n- カスタムプロンプトテンプレート\n- テンプレートのカテゴリ管理\n- モード固有のテンプレート設定",
+    "Status": "ok"
+  },
+  {
+    "Id": 4,
+    "Content": "### 界面功能\n- 明暗双主题\n- 三栏式布局（项目树、编辑器、概念面板）\n- 可折叠侧边栏\n- 全屏写作模式\n- 专注模式（句子、段落、打字机、禅模式、沉浸模式）\n\n### 搜索和替换\n- 全项目文本搜索\n- 正则表达式支持\n- 批量替换功能\n- 高级搜索选项\n\n### 概念管理\n- 自动检测角色、地点、物品\n- 概念关系管理\n- 标签和分类系统\n- 概念快速插入\n\n## 快捷键",
+    "ContentSha": "q/ftcU+7YyKIoM/Rxgegz9wZc9eAU4ytZAVN0DzRp08=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### インターフェース機能\n- ライト／ダーク両テーマ対応\n- 3カラムレイアウト（プロジェクトツリー、エディタ、コンセプトパネル）\n- 折りたたみ可能なサイドバー\n- フルスクリーン執筆モード\n- フォーカスモード（文、段落、タイプライター、禅モード、没入モード）\n\n### 検索と置換\n- プロジェクト全体のテキスト検索\n- 正規表現サポート\n- 一括置換機能\n- 高度な検索オプション\n\n### コンセプト管理\n- キャラクター、場所、アイテムの自動検出\n- コンセプト関係管理\n- タグと分類システム\n- コンセプトのクイック挿入\n\n## ショートカットキー",
+    "Status": "ok"
+  },
+  {
+    "Id": 5,
+    "Content": "\n- `Ctrl+N`: 新建项目\n- `Ctrl+O`: 打开项目\n- `Ctrl+S`: 保存文档\n- `F11`: 全屏模式\n- `Tab`: 手动触发AI补全（手动模式下）\n- `Ctrl+F`: 查找\n- `Ctrl+H`: 查找替换\n- `Ctrl+Shift+H`: 高级查找替换\n\n\n## 系统要求\n\n- Python 3.8+\n- PyQt6\n- 操作系统：Windows、macOS、Linux\n\n## 作者\n\n**inliver**\n- 邮箱：inliverapi@outlook.com  \n- GitHub：https://github.com/inliver233",
+    "ContentSha": "MYeoHEyaK27JsEph/UT2c2Bm44MOtr1PmEPQpXzFkjA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- `Ctrl+N`: 新規プロジェクト\n- `Ctrl+O`: プロジェクトを開く\n- `Ctrl+S`: ドキュメントを保存\n- `F11`: フルスクリーンモード\n- `Tab`: AI補完を手動でトリガー（手動モード時）\n- `Ctrl+F`: 検索\n- `Ctrl+H`: 検索と置換\n- `Ctrl+Shift+H`: 高度な検索と置換\n\n\n## システム要件\n\n- Python 3.8以上\n- PyQt6\n- オペレーティングシステム：Windows、macOS、Linux\n\n## 作者\n\n**inliver**\n- メール：inliverapi@outlook.com  \n- GitHub：https://github.com/inliver233",
+    "Status": "ok"
+  }
+]
