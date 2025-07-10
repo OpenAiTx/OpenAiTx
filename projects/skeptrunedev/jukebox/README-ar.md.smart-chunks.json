@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## الميزات\n\n- قوائم تشغيل تعاونية: إضافة، ترتيب، وتشغيل الأغاني معًا\n- استخدام مجهول: لا حاجة لتسجيل الدخول أو إنشاء حساب\n- البحث والتشغيل من يوتيوب: الوصول إلى مكتبة موسيقية ضخمة\n- واجهة مستخدم متجاوبة تركز على الأجهزة المحمولة\n- مفتوح المصدر (رخصة MIT)\n- نشر سهل باستخدام Docker\n\n### عمليات النشر باستخدام Docker Compose\n\nتشغيل جميع الخدمات:\n\n```bash\ndocker-compose up -d\n```\n\nإعادة نشر الخدمات بدون توقف بعد تحديث الصور:\n\n```bash\nbash ./redeploy.sh\n```",
+    "Status": "ok"
   },
   {
     "Id": 4,
@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "---\n\n## البدء\n\n### المتطلبات الأساسية\n\n- Node.js 16 أو أحدث\n- npm أو yarn\n- مفتاح YouTube Data API v3 (مجاني من Google)\n\n### إعداد YouTube API\n\n1. انتقل إلى [وحدة تحكم Google Cloud](https://console.cloud.google.com/)\n2. أنشئ مشروعًا جديدًا أو اختر مشروعًا موجودًا\n3. فعّل **YouTube Data API v3**\n4. أنشئ بيانات الاعتماد (مفتاح API)\n5. انسخ مفتاح API الخاص بك\n\n### التثبيت",
+    "Status": "ok"
   },
   {
     "Id": 5,

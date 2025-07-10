@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## Funktionen\n\n- Kollaborative Playlists: Gemeinsam Songs hinzufügen, in die Warteschlange stellen und abspielen\n- Anonyme Nutzung: Kein Login oder Konto erforderlich\n- YouTube-Suche & Wiedergabe: Zugriff auf eine riesige Musikbibliothek\n- Mobile-First, responsives UI\n- Open Source (MIT-Lizenz)\n- Einfache Bereitstellung mit Docker\n\n### Docker-Compose-Bereitstellungen\n\nAlle Dienste starten:\n\n```bash\ndocker-compose up -d\n```\n\nDienste mit null Ausfallzeit nach dem Aktualisieren der Images neu bereitstellen:\n\n```bash\nbash ./redeploy.sh\n```",
+    "Status": "ok"
   },
   {
     "Id": 4,
@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "---\n\n## Erste Schritte\n\n### Voraussetzungen\n\n- Node.js 16+\n- npm oder yarn\n- YouTube Data API v3 Schlüssel (kostenlos von Google)\n\n### YouTube API Einrichtung\n\n1. Gehe zur [Google Cloud Console](https://console.cloud.google.com/)\n2. Erstelle ein neues Projekt oder wähle ein bestehendes aus\n3. Aktiviere die **YouTube Data API v3**\n4. Erstelle Zugangsdaten (API-Schlüssel)\n5. Kopiere deinen API-Schlüssel\n\n### Installation",
+    "Status": "ok"
   },
   {
     "Id": 5,
@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "```bash\n# Repository klonen\ngit clone <dein-repo-url>\ncd jukebox\n\n# Server-Abhängigkeiten installieren\ncd server\nyarn install\n\n# Frontend-Abhängigkeiten installieren\ncd ../frontend\nyarn install\n\n# Umgebungsvariablen konfigurieren\ncd ../server\ncp .env.example .env\n# Bearbeite .env und füge deinen YouTube API-Schlüssel hinzu\n\n# Datenbankmigrationen ausführen\n```",
+    "Status": "ok"
   },
   {
     "Id": 6,

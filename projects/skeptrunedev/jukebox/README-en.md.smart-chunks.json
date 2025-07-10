@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "```bash\n# Clone the repository\ngit clone <your-repo-url>\ncd jukebox\n\n# Install server dependencies\ncd server\nyarn install\n\n# Install frontend dependencies\ncd ../frontend\nyarn install\n\n# Configure environment variables\ncd ../server\ncp .env.example .env\n# Edit .env and add your YouTube API key\n\n# Run database migrations\n```",
+    "Status": "ok"
   },
   {
     "Id": 6,

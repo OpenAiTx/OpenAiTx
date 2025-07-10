@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## Fonctionnalités\n\n- Playlists collaboratives : Ajoutez, mettez en file d’attente et écoutez des chansons ensemble\n- Utilisation anonyme : Aucun identifiant ni compte requis\n- Recherche et lecture YouTube : Accès à une immense bibliothèque musicale\n- Interface mobile-first et responsive\n- Open source (Licence MIT)\n- Déploiement facile avec Docker\n\n### Déploiements avec Docker Compose\n\nDémarrez tous les services :\n\n```bash\ndocker-compose up -d\n```\n\nRedéployez les services sans interruption après la mise à jour des images :\n\n```bash\nbash ./redeploy.sh\n```",
+    "Status": "ok"
   },
   {
     "Id": 4,
@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "---\n\n## Démarrage\n\n### Prérequis\n\n- Node.js 16+\n- npm ou yarn\n- Clé API YouTube Data v3 (gratuite depuis Google)\n\n### Configuration de l'API YouTube\n\n1. Rendez-vous sur la [console Google Cloud](https://console.cloud.google.com/)\n2. Créez un nouveau projet ou sélectionnez-en un existant\n3. Activez l'**API YouTube Data v3**\n4. Créez des identifiants (clé API)\n5. Copiez votre clé API\n\n### Installation",
+    "Status": "ok"
   },
   {
     "Id": 5,

@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "---\n\n## เริ่มต้นใช้งาน\n\n### ข้อกำหนดเบื้องต้น\n\n- Node.js 16 ขึ้นไป\n- npm หรือ yarn\n- คีย์ YouTube Data API v3 (รับฟรีจาก Google)\n\n### การตั้งค่า YouTube API\n\n1. ไปที่ [Google Cloud Console](https://console.cloud.google.com/)\n2. สร้างโปรเจ็กต์ใหม่หรือเลือกโปรเจ็กต์ที่มีอยู่แล้ว\n3. เปิดใช้งาน **YouTube Data API v3**\n4. สร้างข้อมูลรับรอง (API Key)\n5. คัดลอก API Key ของคุณ\n\n### การติดตั้ง",
+    "Status": "ok"
   },
   {
     "Id": 5,
@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "```bash\n# โคลนรีโพซิทอรี\ngit clone <your-repo-url>\ncd jukebox\n\n# ติดตั้ง dependencies ของเซิร์ฟเวอร์\ncd server\nyarn install\n\n# ติดตั้ง dependencies ของ frontend\ncd ../frontend\nyarn install\n\n# กำหนดค่า environment variables\ncd ../server\ncp .env.example .env\n# แก้ไขไฟล์ .env และเพิ่ม YouTube API key ของคุณ\n\n# รัน database migrations\n```",
+    "Status": "ok"
   },
   {
     "Id": 6,

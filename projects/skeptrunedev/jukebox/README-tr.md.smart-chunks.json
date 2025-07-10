@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "---\n\n## Başlarken\n\n### Gereksinimler\n\n- Node.js 16+\n- npm veya yarn\n- YouTube Data API v3 anahtarı (Google'dan ücretsiz)\n\n### YouTube API Kurulumu\n\n1. [Google Cloud Console](https://console.cloud.google.com/) adresine gidin\n2. Yeni bir proje oluşturun veya mevcut bir projeyi seçin\n3. **YouTube Data API v3**'ü etkinleştirin\n4. Kimlik bilgileri oluşturun (API Anahtarı)\n5. API anahtarınızı kopyalayın\n\n### Kurulum",
+    "Status": "ok"
   },
   {
     "Id": 5,
@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "```bash\n# Depoyu klonlayın\ngit clone <your-repo-url>\ncd jukebox\n\n# Sunucu bağımlılıklarını yükleyin\ncd server\nyarn install\n\n# Ön yüz bağımlılıklarını yükleyin\ncd ../frontend\nyarn install\n\n# Ortam değişkenlerini yapılandırın\ncd ../server\ncp .env.example .env\n# .env dosyasını düzenleyin ve YouTube API anahtarınızı ekleyin\n\n# Veritabanı migrasyonlarını çalıştırın\n```",
+    "Status": "ok"
   },
   {
     "Id": 6,

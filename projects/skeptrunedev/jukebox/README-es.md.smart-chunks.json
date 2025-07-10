@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# Convierte Cualquier Dispositivo en un Jukebox Colaborativo\n\n**Jukebox** te permite crear al instante una lista de reproducción compartida con amigos—sin app, sin registro, sin anuncios. Solo crea una caja, comparte un enlace y comienza a agregar canciones juntos. ¡Perfecto para fiestas, viajes por carretera o cualquier reunión de grupo!\n\n- 🌐 **Alternativa de Código Abierto a las Listas Colaborativas de Spotify**\n- 🕵️ **No Requiere Cuenta**: Úsalo de forma anónima—sin registro ni correo electrónico\n- ✨ **Comparte un Enlace, Agrega Canciones Juntos**: Todos pueden contribuir en tiempo real\n- 🚀 **No Requiere Descarga de App**: Funciona en cualquier dispositivo, directamente en tu navegador\n- 🎵 **Integración con YouTube**: Busca y reproduce casi cualquier canción al instante\n- 📱 **Amigable con Móviles**: Diseñado para teléfonos, tablets y computadoras de escritorio\n- ⚖️ **Cola Justa**: Las canciones se ordenan automáticamente para que todos tengan un turno\n- 🆓 **100% Gratis, Sin Anuncios**\n\n---\n\n## Pruébalo Ahora\n\n1. **Crea un Jukebox**: Visita la página principal y crea una nueva caja\n2. **Comparte el Enlace**: Envía el enlace de invitación a tus amigos\n3. **Agrega Canciones**: Busca en YouTube o agrega canciones manualmente\n4. **Reproduce Música**: Usa el reproductor integrado para escuchar juntos\n\n---",
+    "Status": "ok"
   },
   {
     "Id": 3,
@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## Características\n\n- Listas de reproducción colaborativas: Añade, encola y reproduce canciones en grupo\n- Uso anónimo: No requiere inicio de sesión ni cuenta\n- Búsqueda y reproducción en YouTube: Accede a una enorme biblioteca musical\n- Interfaz móvil y adaptable\n- Código abierto (Licencia MIT)\n- Fácil despliegue con Docker\n\n### Despliegues con Docker Compose\n\nInicia todos los servicios:\n\n```bash\ndocker-compose up -d\n```\n\nVuelve a desplegar los servicios sin tiempo de inactividad después de actualizar las imágenes:\n\n```bash\nbash ./redeploy.sh\n```",
+    "Status": "ok"
   },
   {
     "Id": 4,
@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "---\n\n## Primeros Pasos\n\n### Requisitos Previos\n\n- Node.js 16+\n- npm o yarn\n- Clave de API de YouTube Data API v3 (gratuita de Google)\n\n### Configuración de la API de YouTube\n\n1. Ve a la [Google Cloud Console](https://console.cloud.google.com/)\n2. Crea un nuevo proyecto o selecciona uno existente\n3. Habilita la **YouTube Data API v3**\n4. Crea credenciales (Clave de API)\n5. Copia tu clave de API\n\n### Instalación",
+    "Status": "ok"
   },
   {
     "Id": 5,
