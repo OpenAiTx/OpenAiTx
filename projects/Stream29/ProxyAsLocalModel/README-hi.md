@@ -1,0 +1,124 @@
+# ProxyAsLocalModel
+
+रिमोट LLM API को लोकल मॉडल के रूप में प्रॉक्सी करें। विशेष रूप से JetBrains AI Assistant में कस्टम LLM का उपयोग करने के लिए काम करता है।
+
+Ktor और kotlinx.serialization द्वारा संचालित। उनके बिना-रिफ्लेक्स फीचर्स के लिए धन्यवाद।
+
+## इस प्रोजेक्ट की कहानी
+
+वर्तमान में, JetBrains AI Assistant एक फ्री प्लान प्रदान करता है जिसमें बहुत सीमित कोट्स हैं। मैंने इसे आज़माया और मेरी कोटा जल्दी ही समाप्त हो गई।
+
+मैंने पहले ही अन्य LLM API टोकन खरीद लिए थे, जैसे कि Gemini और Qwen। इसलिए मैंने सोचना शुरू किया कि इन्हें AI Assistant में कैसे उपयोग किया जाए। दुर्भाग्य से, केवल LM Studio और Ollama के लोकल मॉडल ही समर्थित हैं। इसलिए मैंने इस प्रॉक्सी एप्लिकेशन पर काम शुरू किया, जो थर्ड पार्टी LLM API को LM Studio और Ollama API के रूप में प्रॉक्सी करता है ताकि मैं इन्हें अपने JetBrains IDEs में उपयोग कर सकूं।
+
+यह एक सरल कार्य था, इसलिए मैंने आधिकारिक SDKs का क्लाइंट के रूप में उपयोग करना शुरू किया और एक सरल Ktor सर्वर लिखा जो LM Studio और Ollama के रूप में एंडपॉइंट्स प्रदान करता है। समस्या तब आई जब मैंने इसे GraalVM नेटिव इमेज के रूप में वितरित करने की कोशिश की। आधिकारिक Java SDKs बहुत अधिक डायनेमिक फीचर्स का उपयोग करते हैं, जिससे इसे नेटिव इमेज में कंपाइल करना मुश्किल हो जाता है, यहां तक कि ट्रेसिंग एजेंट के साथ भी। इसलिए मैंने Ktor और kotlinx.serialization के साथ खुद ही स्ट्रीमिंग चैट कंप्लीशन API का एक सरल क्लाइंट इम्प्लीमेंट करने का निर्णय लिया, जो दोनों ही बिना-रिफ्लेक्स, फंक्शनल और DSL स्टाइल्ड हैं।
+
+जैसा कि आप देख सकते हैं, यह एप्लिकेशन एक फैट रननेबल जार और एक GraalVM नेटिव इमेज के रूप में वितरित किया जाता है, जिससे यह क्रॉस-प्लेटफॉर्म और जल्दी स्टार्ट होने वाला बन जाता है।
+
+इस एप्लिकेशन के विकास ने मुझे Kotlin/Ktor/kotlinx.serialization में आत्मविश्वास दिया। Kotlin वर्ल्ड अधिक फंक्शनल प्रोग्रामिंग और कम रिफ्लेक्शन का उपयोग करती है, जिससे यह GraalVM नेटिव इमेज के लिए अधिक उपयुक्त बनती है, तेज़ स्टार्टअप और कम मेमोरी उपयोग के साथ।
+
+## वर्तमान में समर्थित
+
+प्रॉक्सी फ्रॉम: OpenAI, Claude, DashScope(Alibaba Qwen), Gemini, Deepseek, Mistral, SiliconFlow।
+
+प्रॉक्सी ऐज़: LM Studio, Ollama।
+
+सिर्फ स्ट्रीमिंग चैट कंप्लीशन API।
+## उपयोग कैसे करें
+
+यह एप्लिकेशन एक प्रॉक्सी सर्वर है, जो एक फैट रननेबल जार और GraalVM नेटिव इमेज (Windows x64) के रूप में वितरित किया गया है।
+
+एप्लिकेशन चलाएँ, और आपको एक सहायता संदेश दिखाई देगा:
+
+```
+2025-05-02 10:43:53 INFO  Help - ऐसा लगता है कि आप पहली बार यहाँ प्रोग्राम शुरू कर रहे हैं।
+2025-05-02 10:43:53 INFO  Help - एक डिफ़ॉल्ट कॉन्फ़िग फाइल आपके_path\config.yml पर स्कीमा एनोटेशन के साथ बनाई गई है।
+2025-05-02 10:43:53 INFO  Config - कॉन्फ़िग फाइल वॉचर आपके_path\config.yml पर शुरू हो गया है।
+2025-05-02 10:43:53 INFO  LM Studio Server - LM Studio सर्वर 1234 पर शुरू हो गया है।
+2025-05-02 10:43:53 INFO  Ollama Server - Ollama सर्वर 11434 पर शुरू हो गया है।
+2025-05-02 10:43:53 INFO  Model List - मॉडल सूची लोड की गई: []
+```
+
+इसके बाद आप अपने प्रॉक्सी सर्वर को सेटअप करने के लिए कॉन्फ़िग फाइल को एडिट कर सकते हैं।
+
+## कॉन्फ़िग फाइल
+
+यह कॉन्फ़िग फाइल स्वचालित रूप से हॉट-रिलोड होती है जब भी आप इसमें बदलाव करते हैं। सर्वर के केवल प्रभावित हिस्से ही अपडेट होंगे।
+
+जब पहली बार कॉन्फ़िग फाइल जेनरेट होती है, तो यह स्कीमा एनोटेशन के साथ बनाई जाएगी। यह आपके एडिटर में ऑटो-कम्प्लीशन और चेकिंग प्रदान करेगा।
+## उदाहरण कॉन्फ़िग फ़ाइल
+
+```yaml
+# $schema: https://github.com/Stream29/ProxyAsLocalModel/raw/master/config_v3.schema.json
+lmStudio:
+  port: 1234 # यह डिफ़ॉल्ट मान है
+  enabled: true # यह डिफ़ॉल्ट मान है
+  host: 0.0.0.0 # यह डिफ़ॉल्ट मान है
+  path: /your/path # मूल एंडपॉइंट्स से पहले जोड़ा जाएगा, डिफ़ॉल्ट मान खाली है
+ollama:
+  port: 11434 # यह डिफ़ॉल्ट मान है
+  enabled: true # यह डिफ़ॉल्ट मान है
+  host: 0.0.0.0 # यह डिफ़ॉल्ट मान है
+  path: /your/path # मूल एंडपॉइंट्स से पहले जोड़ा जाएगा, डिफ़ॉल्ट मान खाली है
+client:
+  socketTimeout: 1919810 # Long.MAX_VALUE डिफ़ॉल्ट मान है, मिलीसेकंड में
+  connectionTimeout: 1919810 # Long.MAX_VALUE डिफ़ॉल्ट मान है, मिलीसेकंड में
+  requestTimeout: 1919810 # Long.MAX_VALUE डिफ़ॉल्ट मान है, मिलीसेकंड में
+  retry: 3 # यह डिफ़ॉल्ट मान है
+  delayBeforeRetry: 1000 # यह डिफ़ॉल्ट मान है, मिलीसेकंड में
+
+apiProviders:
+  OpenAI:
+    type: OpenAi
+    baseUrl: https://api.openai.com/v1
+    apiKey: <your_api_key>
+    modelList:
+      - gpt-4o
+  Claude:
+    type: Claude
+    apiKey: <your_api_key>
+    modelList:
+      - claude-3-7-sonnet
+  Qwen:
+    type: DashScope
+    apiKey: <your_api_key>
+    modelList: # यह डिफ़ॉल्ट मान है
+      - qwen-max
+      - qwen-plus
+      - qwen-turbo
+      - qwen-long
+  DeepSeek:
+    type: DeepSeek
+    apiKey: <your_api_key>
+    modelList: # यह डिफ़ॉल्ट मान है
+      - deepseek-chat
+      - deepseek-reasoner
+  Mistral:
+    type: Mistral
+    apiKey: <your_api_key>
+    modelList: # यह डिफ़ॉल्ट मान है
+      - codestral-latest
+      - mistral-large
+  SiliconFlow:
+    type: SiliconFlow
+    apiKey: <your_api_key>
+    modelList:
+      - Qwen/Qwen3-235B-A22B
+      - Pro/deepseek-ai/DeepSeek-V3
+      - THUDM/GLM-4-32B-0414
+  OpenRouter:
+    type: OpenRouter
+    apiKey: <your_api_key>
+    modelList:
+      - openai/gpt-4o
+  Gemini:
+    type: Gemini
+    apiKey: <your_api_key>
+    modelList:
+      - gemini-2.5-flash-preview-04-17
+```
+
+---
+
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-10
+
+---
