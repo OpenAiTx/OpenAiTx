@@ -1,0 +1,72 @@
+[
+  {
+    "Id": 1,
+    "Content": "<p align=\"center\">\n  <a href=\"https://www.jukeboxhq.com\">\n    <img height=\"500\" src=\"https://raw.githubusercontent.com/skeptrunedev/jukebox/main/frontend/public/opengraph-image.jpg\" alt=\"Trieve Logo\">\n  </a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://hub.docker.com/r/skeptrune/jukebox-server\" style=\"text-decoration: none;\">\n    <img src=\"https://img.shields.io/docker/pulls/skeptrune/jukebox-server?style=flat-square\" alt=\"Docker Pulls\" />\n  </a>\n  <a href=\"https://github.com/skeptrunedev/jukebox/stargazers\" style=\"text-decoration: none;\">\n    <img src=\"https://img.shields.io/github/stars/skeptrunedev/jukebox?style=flat-square\" alt=\"GitHub stars\" />\n  </a>\n  <a href=\"https://x.com/skeptrune\" style=\"text-decoration: none;\">\n    <img src=\"https://img.shields.io/badge/follow%20on-x.com-1da1f2?logo=x&style=flat-square\" alt=\"Follow on X (Twitter)\" />\n  </a>\n</p>\n\n---\n",
+    "ContentSha": "q9/F4AC4hMoWGer16xkiS6KQsZycpK7tVYM0C0x9DvA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "error"
+  },
+  {
+    "Id": 2,
+    "Content": "# Turn Any Device Into a Collaborative Jukebox\n\n**Jukebox** lets you instantly create a shared music playlist with friends—no app, no login, no ads. Just create a box, share a link, and start adding songs together. Perfect for parties, road trips, or any group hangout!\n\n- 🌐 **Open Source Alternative to Spotify Collaborative Playlists**\n- 🕵️ **No Account Needed**: Use anonymously—no sign up or email required\n- ✨ **Share a Link, Add Songs Together**: Everyone can contribute in real time\n- 🚀 **No App Download Required**: Works on any device, right in your browser\n- 🎵 **YouTube Integration**: Search and play almost any song instantly\n- 📱 **Mobile Friendly**: Designed for phones, tablets, and desktops\n- ⚖️ **Fair Queueing**: Songs are auto-sorted so everyone gets a turn\n- 🆓 **100% Free, No Ads**\n\n---\n\n## Try It Now\n\n1. **Create a Jukebox**: Visit the homepage and create a new box\n2. **Share the Link**: Send the invite link to your friends\n3. **Add Songs**: Search YouTube or add songs manually\n4. **Play Music**: Use the built-in player to stream together\n\n---\n",
+    "ContentSha": "FaVrhgUC1Drcvof4h0zZMuGg7sjWPTM7qEDiCOvl3qw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Maak van elk apparaat een collaboratieve jukebox\n\n**Jukebox** laat je direct een gedeelde afspeellijst met vrienden maken—geen app, geen login, geen advertenties. Maak gewoon een box aan, deel een link en begin samen liedjes toe te voegen. Perfect voor feestjes, roadtrips of elke groepsbijeenkomst!\n\n- 🌐 **Open source alternatief voor Spotify Collaborative Playlists**\n- 🕵️ **Geen account nodig**: Gebruik anoniem—geen registratie of e-mail vereist\n- ✨ **Deel een link, voeg samen liedjes toe**: Iedereen kan in realtime bijdragen\n- 🚀 **Geen app-download vereist**: Werkt op elk apparaat, direct in je browser\n- 🎵 **YouTube-integratie**: Zoek en speel bijna elk nummer direct af\n- 📱 **Mobielvriendelijk**: Ontworpen voor telefoons, tablets en desktops\n- ⚖️ **Eerlijke wachtrij**: Liedjes worden automatisch gesorteerd zodat iedereen aan de beurt komt\n- 🆓 **100% gratis, geen advertenties**\n\n---\n\n## Probeer het nu\n\n1. **Maak een Jukebox aan**: Bezoek de homepage en maak een nieuwe box aan\n2. **Deel de link**: Stuur de uitnodigingslink naar je vrienden\n3. **Voeg liedjes toe**: Zoek op YouTube of voeg handmatig nummers toe\n4. **Speel muziek af**: Gebruik de ingebouwde speler om samen te streamen\n\n---",
+    "Status": "ok"
+  },
+  {
+    "Id": 3,
+    "Content": "## Features\n\n- Collaborative playlists: Add, queue, and play songs together\n- Anonymous usage: No login or account required\n- YouTube search & playback: Access a huge music library\n- Mobile-first, responsive UI\n- Open source (MIT License)\n- Easy deployment with Docker\n\n### Docker Compose Deployments\n\nSpin up all services:\n\n```bash\ndocker-compose up -d\n```\n\nRedeploy services with zero downtime after updating images:\n\n```bash\nbash ./redeploy.sh\n```",
+    "ContentSha": "xM3QyR8bbPjEkQA+OCB0dILYYDR1mAVjrdofaxTYfWI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Functies\n\n- Collaboratieve afspeellijsten: Voeg samen nummers toe, zet ze in de wachtrij en speel ze af\n- Anoniem gebruik: Geen login of account vereist\n- YouTube-zoekfunctie & -afspelen: Toegang tot een enorme muziekbibliotheek\n- Mobile-first, responsieve UI\n- Open source (MIT-licentie)\n- Eenvoudige implementatie met Docker\n\n### Docker Compose-implementaties\n\nStart alle services op:\n\n```bash\ndocker-compose up -d\n```\n\nHerdeploy services zonder downtime na het bijwerken van images:\n\n```bash\nbash ./redeploy.sh\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 4,
+    "Content": "\n---\n\n## Getting Started\n\n### Prerequisites\n\n- Node.js 16+\n- npm or yarn\n- YouTube Data API v3 key (free from Google)\n\n### YouTube API Setup\n\n1. Go to the [Google Cloud Console](https://console.cloud.google.com/)\n2. Create a new project or select an existing one\n3. Enable the **YouTube Data API v3**\n4. Create credentials (API Key)\n5. Copy your API key\n\n### Installation",
+    "ContentSha": "5Gm3xn/AAEsIfwJlWKMhjeLUV9EpbCmGIIGIH2DpFng=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "---\n\n## Aan de slag\n\n### Vereisten\n\n- Node.js 16+\n- npm of yarn\n- YouTube Data API v3 sleutel (gratis van Google)\n\n### YouTube API Instellen\n\n1. Ga naar de [Google Cloud Console](https://console.cloud.google.com/)\n2. Maak een nieuw project aan of selecteer een bestaand project\n3. Schakel de **YouTube Data API v3** in\n4. Maak referenties aan (API Sleutel)\n5. Kopieer je API sleutel\n\n### Installatie",
+    "Status": "ok"
+  },
+  {
+    "Id": 5,
+    "Content": "\n```bash\n# Clone the repository\ngit clone <your-repo-url>\ncd jukebox\n\n# Install server dependencies\ncd server\nyarn install\n\n# Install frontend dependencies\ncd ../frontend\nyarn install\n\n# Configure environment variables\ncd ../server\ncp .env.example .env\n# Edit .env and add your YouTube API key\n\n# Run database migrations",
+    "ContentSha": "EGUzXTgNYGc1lm77Cnfem+wRhnt6tTeKqN3wZ8h1Kxs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Clone de repository\ngit clone <your-repo-url>\ncd jukebox\n\n# Installeer serverafhankelijkheden\ncd server\nyarn install\n\n# Installeer frontendafhankelijkheden\ncd ../frontend\nyarn install\n\n# Configureer omgevingsvariabelen\ncd ../server\ncp .env.example .env\n# Bewerk .env en voeg je YouTube API-sleutel toe\n\n# Voer databasemigraties uit\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 6,
+    "Content": "yarn migrate\n\n# Start the development servers\n# Backend:\ncd server\nyarn dev\n# Worker:\ncd server\nyarn dev:worker\n# Frontend (in a new terminal):\ncd frontend\nyarn dev\n```\n\n---\n\n## License\n\nMIT\n\n---\n",
+    "ContentSha": "/zbZbhDUlQzDikcZn9uqcCPS6mh8U9nCnNgSDVSHvMo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "yarn migrate\n\n# Start de ontwikkelservers\n# Backend:\ncd server\nyarn dev\n# Worker:\ncd server\nyarn dev:worker\n# Frontend (in een nieuw terminalvenster):\ncd frontend\nyarn dev\n```\n\n---\n\n## Licentie\n\nMIT\n\n---\n",
+    "Status": "ok"
+  },
+  {
+    "Id": 7,
+    "Content": "## Contributing & Feedback\n\n- Open an issue or pull request on [GitHub](https://github.com/skeptrunedev/jukebox)\n- Feature requests? DM [@skeptrune on X (Twitter)](https://twitter.com/skeptrune)\n\n---\n\n## Changelog\n\nSee the [Changelog](https://jukebox.skeptrune.com#changelog) for the latest updates and features.\n",
+    "ContentSha": "MLOjcsYvip4+gHvjLlilbNMNgzS333KWuYO/Zo9xIm0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Bijdragen & Feedback\n\n- Open een issue of pull request op [GitHub](https://github.com/skeptrunedev/jukebox)\n- Functieaanvragen? Stuur een DM naar [@skeptrune op X (Twitter)](https://twitter.com/skeptrune)\n\n---\n\n## Wijzigingslog\n\nBekijk het [Wijzigingslog](https://jukebox.skeptrune.com#changelog) voor de laatste updates en functies.",
+    "Status": "ok"
+  }
+]
