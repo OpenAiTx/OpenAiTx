@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## 🚀 Estado Atual do Motor\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/basketoengine/Basketo/main/readmeimgs/image3.png\" alt=\"Estado Atual do Basketo Engine\" width=\"700\"/>\n</p>\n\n<p align=\"center\">\n  <em>Confira os desenvolvimentos mais recentes e os recursos em ação!</em> 🎮\n</p>\n\n## ✨ Principais Recursos\n\n### 🎮 **Interface do Editor Semelhante ao Unity**\n- **Configuração de janela dupla**: Editor de cena e visualização do jogo lado a lado\n- **Edição ao vivo**: Modifique cenas enquanto o jogo está rodando\n- **Painel do inspetor**: Edição visual de componentes com arrastar e soltar\n- **Visualização de hierarquia**: Organize e gerencie entidades\n- **Navegador de ativos**: Gerenciamento fácil de texturas e áudio\n\n### 🤖 **Desenvolvimento Nativo em IA**\n- **Integração com Gemini AI**: Comandos em linguagem natural para desenvolvimento de jogos\n- **Geração inteligente de scripts**: Criação de scripts Lua com IA\n- **Modificação de entidades**: Descreva alterações em inglês simples\n- **Configuração fácil de API**: Configuração integrada da chave de API Gemini",
+    "Status": "ok"
   },
   {
     "Id": 3,
@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## 🎬 Clique na imagem abaixo para ver uma demonstração em vídeo:\n<p align=\"center\">\n  <a href=\"https://x.com/BaslaelWorkneh/status/1922713614697288096\">\n    <img src=\"https://raw.githubusercontent.com/basketoengine/Basketo/main/readmeimgs/image2.png\" alt=\"Demonstração do Basketo Engine\" width=\"500\"/>\n  </a>\n</p>\n\n## � Guia de Início Rápido\n\n### 1. **Obtenha sua Chave de API Gemini** (Opcional, mas Recomendado)\n- Visite o [Google AI Studio](https://aistudio.google.com/app/apikey)\n- Faça login e crie uma chave de API gratuita\n- Isso habilita recursos com IA, como comandos em linguagem natural\n\n### 2. **Compile e Execute**\n```bash\ngit clone --recurse-submodules git@github.com:basketoengine/Basketo.git\ncd Basketo && mkdir build && cd build\ncmake .. && make -j$(nproc)\n./BasketoGameEngine\n```",
+    "Status": "ok"
   },
   {
     "Id": 5,
@@ -56,8 +56,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### Etapas de Compilação\n```bash\n# Clone o repositório\ngit clone --recurse-submodules git@github.com:basketoengine/Basketo.git\n\ncd Basketo\n\nmkdir build && cd build\n\ncmake ..\n\nmake -j$(nproc)\n\n```\n\n### Execução\n```bash\n./BasketoGameEngine\n\n```",
+    "Status": "ok"
   },
   {
     "Id": 7,
@@ -106,8 +106,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# Geração de Script\ngemini_script criar um controlador de plataforma com pulo duplo\n```\n\n#### Efeitos Sonoros Múltiplos\n```lua\n-- Nos seus scripts Lua\nPlaySound(entity, \"jump\")    -- Toca o som de pulo\nPlaySound(entity, \"walk\")    -- Toca o som de caminhada\nPlaySound(entity, \"attack\")  -- Toca o som de ataque\n\n-- Verifica se o som existe\nif HasSoundEffect(entity, \"jump\") then\n    PlaySound(entity, \"jump\")\nend\n```\n\n#### Sistema de Componentes\n- **Transform**: Posição, rotação, escala\n- **Sprite**: Renderização de textura\n- **Animation**: Animações baseadas em quadros\n- **Script**: Scripts de comportamento em Lua\n- **Collider**: Colisão física\n- **Rigidbody**: Simulação física\n- **Audio**: Música de fundo\n- **SoundEffects**: Múltiplos sons nomeados\n- **Camera**: Gerenciamento de visualização",
+    "Status": "ok"
   },
   {
     "Id": 12,

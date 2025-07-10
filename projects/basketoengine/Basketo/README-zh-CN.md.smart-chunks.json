@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## 🚀 引擎当前状态\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/basketoengine/Basketo/main/readmeimgs/image3.png\" alt=\"Current State of Basketo Engine\" width=\"700\"/>\n</p>\n\n<p align=\"center\">\n  <em>查看最新开发进展和功能演示！</em> 🎮\n</p>\n\n## ✨ 主要特性\n\n### 🎮 **类Unity编辑器界面**\n- **双窗口布局**：场景编辑器和游戏视图并排显示\n- **实时编辑**：游戏运行时可修改场景\n- **检查器面板**：可视化组件拖拽编辑\n- **层级视图**：组织和管理实体\n- **资源浏览器**：轻松管理纹理和音频\n\n### 🤖 **AI原生开发**\n- **集成Gemini AI**：使用自然语言指令进行游戏开发\n- **智能脚本生成**：AI驱动的Lua脚本创建\n- **实体修改**：用简单英文描述变更\n- **简易API配置**：内置Gemini API密钥设置",
+    "Status": "ok"
   },
   {
     "Id": 3,
@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### 3. **配置 AI 功能**\n- 在引擎中，进入 AI Prompt 面板（底部）\n- 查找“🤖 Gemini AI 配置”\n- 输入你的 API 密钥并点击“保存”\n\n### 4. **开始创作**\n- 尝试 AI 命令：`\"create a player at 100 200\"`\n- 在检查器中为实体添加音效\n- 编写 Lua 脚本或让 AI 生成脚本\n- 使用双窗口编辑器进行实时开发\n\n## 🛠️ 构建引擎（Linux）🐧\n\n### 先决条件\n- 需要 CMake 3.26.0 或更高版本。\n- SDL2、SDL2_image、SDL2_ttf、SDL2_mixer\n- Lua 5.4\n- g++（C++17）\n- libcurl（用于 AI 功能）\n- nlohmann/json（作为子模块包含）\n- ImGui（作为子模块包含）",
+    "Status": "ok"
   },
   {
     "Id": 6,
@@ -66,8 +66,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "如果你想运行物理测试：\n```bash\n./PhysicsTest\n\n```\n\n## 🛠️ 构建引擎（Windows）💻\n\n### 前置条件\n\n1. **Visual Studio 2022（社区版或更高版本）**  \n   安装以下工作负载：\n   - 使用 C++ 的桌面开发\n   - Windows 的 C++ CMake 工具\n   - Windows 10 或 11 SDK\n\n2. **CMake**（随 Visual Studio 附带或从 https://cmake.org/download/ 下载）\n\n3. **vcpkg**（用于安装依赖项）\n\n\n---",
+    "Status": "ok"
   },
   {
     "Id": 8,

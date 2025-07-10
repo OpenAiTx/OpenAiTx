@@ -76,8 +76,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### Abhängigkeiten installieren\n\n```bash\n# Öffnen Sie eine Entwickler-Eingabeaufforderung für VS 2022 oder PowerShell\n\n# vcpkg klonen\n\ngit clone https://github.com/microsoft/vcpkg.git\ncd vcpkg\n\n.\\bootstrap-vcpkg.bat\n\n# Erforderliche Bibliotheken installieren\n.\\vcpkg install sdl2 sdl2-image sdl2-ttf sdl2-mixer lua curl\n\n```\n\n---\n\n### Bauschritte",
+    "Status": "ok"
   },
   {
     "Id": 9,
@@ -86,8 +86,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "```bash\n# Klonen Sie das Basketo-Repository\ngit clone --recurse-submodules git@github.com:basketoengine/Basketo.git\ncd Basketo\nmkdir build && cd build\n\n# Konfigurieren mit CMake\ncmake .. -DCMAKE_TOOLCHAIN_FILE=C:/Pfad/zu/vcpkg/scripts/buildsystems/vcpkg.cmake -DCMAKE_BUILD_TYPE=Release\n\n# Ersetzen Sie \"C:/Pfad/zu/vcpkg\" durch den vollständigen Pfad zu Ihrem vcpkg-Verzeichnis\n\n# Bauen Sie die Engine\ncmake --build . --config Release\n```\n\n---\n\n### Ausführen\n\n```bash\n# Aus dem build/Release-Verzeichnis\n```",
+    "Status": "ok"
   },
   {
     "Id": 10,

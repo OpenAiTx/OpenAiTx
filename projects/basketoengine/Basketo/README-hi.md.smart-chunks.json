@@ -56,8 +56,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### बिल्ड स्टेप्स\n```bash\n# रिपॉजिटरी क्लोन करें\ngit clone --recurse-submodules git@github.com:basketoengine/Basketo.git\n\ncd Basketo\n\nmkdir build && cd build\n\ncmake ..\n\nmake -j$(nproc)\n\n```\n\n### चलाना\n```bash\n./BasketoGameEngine\n\n```",
+    "Status": "ok"
   },
   {
     "Id": 7,

@@ -86,8 +86,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "```bash\n# Cloner le dépôt Basketo\ngit clone --recurse-submodules git@github.com:basketoengine/Basketo.git\ncd Basketo\nmkdir build && cd build\n\n# Configurer avec CMake\ncmake .. -DCMAKE_TOOLCHAIN_FILE=C:/path/to/vcpkg/scripts/buildsystems/vcpkg.cmake -DCMAKE_BUILD_TYPE=Release\n\n# Remplacez \"C:/path/to/vcpkg\" par le chemin complet vers votre répertoire vcpkg\n\n# Compiler le moteur\ncmake --build . --config Release\n```\n\n---\n\n### Exécution\n\n```bash\n# Depuis le répertoire build/Release\n```",
+    "Status": "ok"
   },
   {
     "Id": 10,

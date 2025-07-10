@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### 🔊 **Advanced Audio System**\n- **Multi-sound effects**: Multiple named sounds per entity (walk, jump, attack, etc.)\n- **Traditional audio**: Background music and ambient sounds\n- **Lua integration**: Trigger sounds from scripts with `PlaySound(entity, \"action\")`\n- **Visual editor**: Manage sound effects through the inspector\n\n### 🎯 **Entity-Component-System (ECS)**\n- **High performance**: Optimized for large numbers of entities\n- **Modular design**: Mix and match components as needed\n- **Script integration**: Lua scripting with full ECS access\n- **Real-time updates**: Live component editing\n\n### 🎨 **Graphics & Animation**\n- **Sprite rendering**: Efficient 2D graphics pipeline\n- **Animation system**: Frame-based animations with looping\n- **Transform system**: Position, rotation, and scaling\n- **Camera system**: Multiple camera support\n\n### ⚡ **Physics & Collision**\n- **Collision detection**: AABB collision with spatial optimization\n- **Rigidbody physics**: Gravity, velocity, and forces\n- **Collision callbacks**: Script-accessible collision events\n- **Spatial partitioning**: Quadtree optimization for performance",
+    "Status": "ok"
   },
   {
     "Id": 4,
@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## 🎬 Click the image below to see a video demonstration:\n<p align=\"center\">\n  <a href=\"https://x.com/BaslaelWorkneh/status/1922713614697288096\">\n    <img src=\"https://raw.githubusercontent.com/basketoengine/Basketo/main/readmeimgs/image2.png\" alt=\"Basketo Engine Demo\" width=\"500\"/>\n  </a>\n</p>\n\n## 🏁 Quick Start Guide\n\n### 1. **Get Your Gemini API Key** (Optional but Recommended)\n- Visit [Google AI Studio](https://aistudio.google.com/app/apikey)\n- Sign in and create a free API key\n- This enables AI-powered features like natural language commands\n\n### 2. **Build and Run**\n```bash\ngit clone --recurse-submodules git@github.com:basketoengine/Basketo.git\ncd Basketo && mkdir build && cd build\ncmake .. && make -j$(nproc)\n./BasketoGameEngine\n```",
+    "Status": "ok"
   },
   {
     "Id": 5,

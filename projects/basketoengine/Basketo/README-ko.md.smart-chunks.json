@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## 🚀 엔진의 현재 상태\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/basketoengine/Basketo/main/readmeimgs/image3.png\" alt=\"Current State of Basketo Engine\" width=\"700\"/>\n</p>\n\n<p align=\"center\">\n  <em>최신 개발 상황과 기능을 직접 확인해 보세요!</em> 🎮\n</p>\n\n## ✨ 주요 기능\n\n### 🎮 **Unity와 유사한 에디터 인터페이스**\n- **이중 창 구성**: 씬 에디터와 게임 뷰를 나란히 배치\n- **실시간 편집**: 게임 실행 중에도 씬 수정 가능\n- **인스펙터 패널**: 드래그 앤 드롭으로 시각적 컴포넌트 편집\n- **계층 구조 보기**: 엔티티를 체계적으로 관리 및 구성\n- **에셋 브라우저**: 텍스처와 오디오를 쉽게 관리\n\n### 🤖 **AI-네이티브 개발**\n- **Gemini AI 통합**: 자연어 명령으로 게임 개발\n- **스마트 스크립트 생성**: AI 기반 Lua 스크립트 생성\n- **엔티티 수정**: 변경 사항을 영어로 설명\n- **간편한 API 설정**: 내장 Gemini API 키 구성",
+    "Status": "ok"
   },
   {
     "Id": 3,
@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### 3. **AI 기능 구성하기**\n- 엔진에서 AI 프롬프트 패널(하단)로 이동합니다\n- \"🤖 Gemini AI Configuration\"을 찾습니다\n- API 키를 입력하고 \"저장\"을 클릭합니다\n\n### 4. **창작 시작하기**\n- AI 명령어를 시도해보세요: `\"create a player at 100 200\"`\n- 인스펙터에서 엔티티에 사운드 효과를 추가하세요\n- Lua 스크립트를 직접 작성하거나 AI가 생성하도록 하세요\n- 듀얼 윈도우 에디터를 사용하여 실시간 개발을 하세요\n\n## �🛠️ 엔진 빌드하기 (Linux) 🐧\n\n### 필수 조건\n- CMake 3.26.0 이상이 필요합니다.\n- SDL2, SDL2_image, SDL2_ttf, SDL2_mixer\n- Lua 5.4\n- g++ (C++17)\n- libcurl (AI 기능용)\n- nlohmann/json (서브모듈로 포함됨)\n- ImGui (서브모듈로 포함됨)",
+    "Status": "ok"
   },
   {
     "Id": 6,

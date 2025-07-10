@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### 🔊 **Sistema de Audio Avanzado**\n- **Efectos de sonido múltiples**: Varios sonidos nombrados por entidad (caminar, saltar, atacar, etc.)\n- **Audio tradicional**: Música de fondo y sonidos ambientales\n- **Integración con Lua**: Dispara sonidos desde scripts con `PlaySound(entity, \"action\")`\n- **Editor visual**: Gestiona efectos de sonido a través del inspector\n\n### 🎯 **Entidad-Componente-Sistema (ECS)**\n- **Alto rendimiento**: Optimizado para grandes cantidades de entidades\n- **Diseño modular**: Combina y mezcla componentes según sea necesario\n- **Integración con scripts**: Scripting en Lua con acceso completo a ECS\n- **Actualizaciones en tiempo real**: Edición en vivo de componentes\n\n### 🎨 **Gráficos y Animación**\n- **Renderizado de sprites**: Canal de gráficos 2D eficiente\n- **Sistema de animación**: Animaciones basadas en cuadros con bucle\n- **Sistema de transformaciones**: Posición, rotación y escalado\n- **Sistema de cámaras**: Soporte para múltiples cámaras\n\n### ⚡ **Física y Colisiones**\n- **Detección de colisiones**: Colisiones AABB con optimización espacial\n- **Física de cuerpo rígido**: Gravedad, velocidad y fuerzas\n- **Callbacks de colisión**: Eventos de colisión accesibles desde scripts\n- **Particionamiento espacial**: Optimización con quadtree para rendimiento",
+    "Status": "ok"
   },
   {
     "Id": 4,
@@ -66,8 +66,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "Si desea ejecutar la prueba de física:\n```bash\n./PhysicsTest\n\n```\n\n## 🛠️ Compilando el Motor (Windows) 💻\n\n### Prerrequisitos\n\n1. **Visual Studio 2022 (Edición Community o superior)**  \n   Instale con las siguientes cargas de trabajo:\n   - Desarrollo de escritorio con C++\n   - Herramientas CMake para C++ en Windows\n   - SDK de Windows 10 o 11\n\n2. **CMake** (incluido con Visual Studio o descargue desde https://cmake.org/download/)\n\n3. **vcpkg** (usado para instalar dependencias)\n\n\n---",
+    "Status": "ok"
   },
   {
     "Id": 8,
@@ -76,8 +76,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### Instalar dependencias\n\n```bash\n# Abra un Símbolo del sistema para desarrolladores de VS 2022 o PowerShell\n\n# Clonar vcpkg\n\ngit clone https://github.com/microsoft/vcpkg.git\ncd vcpkg\n\n.\\bootstrap-vcpkg.bat\n\n# Instalar las bibliotecas requeridas\n.\\vcpkg install sdl2 sdl2-image sdl2-ttf sdl2-mixer lua curl\n\n```\n\n---\n\n### Pasos de compilación",
+    "Status": "ok"
   },
   {
     "Id": 9,
@@ -86,8 +86,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "```bash\n# Clonar el repositorio de Basketo\ngit clone --recurse-submodules git@github.com:basketoengine/Basketo.git\ncd Basketo\nmkdir build && cd build\n\n# Configurar con CMake\ncmake .. -DCMAKE_TOOLCHAIN_FILE=C:/ruta/a/vcpkg/scripts/buildsystems/vcpkg.cmake -DCMAKE_BUILD_TYPE=Release\n\n# Reemplaza \"C:/ruta/a/vcpkg\" con la ruta completa a tu directorio de vcpkg\n\n# Compilar el motor\ncmake --build . --config Release\n```\n\n---\n\n### Ejecución\n\n```bash\n# Desde el directorio build/Release\n```",
+    "Status": "ok"
   },
   {
     "Id": 10,

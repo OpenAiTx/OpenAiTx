@@ -66,8 +66,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "Nếu bạn muốn chạy bài kiểm tra vật lý:\n```bash\n./PhysicsTest\n\n```\n\n## 🛠️ Xây dựng Engine (Windows) 💻\n\n### Yêu cầu trước\n\n1. **Visual Studio 2022 (Phiên bản Community hoặc cao hơn)**  \n   Cài đặt với các workload sau:\n   - Desktop development with C++\n   - C++ CMake tools for Windows\n   - Windows 10 hoặc 11 SDK\n\n2. **CMake** (được tích hợp trong Visual Studio hoặc tải về từ https://cmake.org/download/)\n\n3. **vcpkg** (dùng để cài đặt các thư viện phụ thuộc)\n\n\n---",
+    "Status": "ok"
   },
   {
     "Id": 8,
@@ -76,8 +76,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### Cài đặt các Phụ thuộc\n\n```bash\n# Mở Developer Command Prompt cho VS 2022 hoặc PowerShell\n\n# Nhân bản vcpkg\n\ngit clone https://github.com/microsoft/vcpkg.git\ncd vcpkg\n\n.\\bootstrap-vcpkg.bat\n\n# Cài đặt các thư viện cần thiết\n.\\vcpkg install sdl2 sdl2-image sdl2-ttf sdl2-mixer lua curl\n\n```\n\n---\n\n### Các Bước Biên dịch",
+    "Status": "ok"
   },
   {
     "Id": 9,

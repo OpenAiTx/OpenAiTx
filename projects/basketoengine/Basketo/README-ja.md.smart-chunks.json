@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### 3. **AI機能の設定**\n- エンジン内で、AIプロンプトパネル（下部）に移動します\n- 「🤖 Gemini AI Configuration」を探します\n- APIキーを入力して「保存」をクリックします\n\n### 4. **作成を始める**\n- AIコマンドを試す: `\"create a player at 100 200\"`\n- インスペクターでエンティティに効果音を追加する\n- Luaスクリプトを書く、またはAIに生成させる\n- ライブ開発のためのデュアルウィンドウエディタを使用する\n\n## �🛠️ エンジンのビルド（Linux）🐧\n\n### 前提条件\n- CMake 3.26.0以上が必要です。\n- SDL2、SDL2_image、SDL2_ttf、SDL2_mixer\n- Lua 5.4\n- g++（C++17）\n- libcurl（AI機能用）\n- nlohmann/json（サブモジュールとして含まれています）\n- ImGui（サブモジュールとして含まれています）",
+    "Status": "ok"
   },
   {
     "Id": 6,
@@ -56,8 +56,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### ビルド手順\n```bash\n# リポジトリをクローン\ngit clone --recurse-submodules git@github.com:basketoengine/Basketo.git\n\ncd Basketo\n\nmkdir build && cd build\n\ncmake ..\n\nmake -j$(nproc)\n\n```\n\n### 実行方法\n```bash\n./BasketoGameEngine\n\n```",
+    "Status": "ok"
   },
   {
     "Id": 7,
@@ -86,8 +86,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "```bash\n# Basketo リポジトリをクローン\ngit clone --recurse-submodules git@github.com:basketoengine/Basketo.git\ncd Basketo\nmkdir build && cd build\n\n# CMake で構成\ncmake .. -DCMAKE_TOOLCHAIN_FILE=C:/path/to/vcpkg/scripts/buildsystems/vcpkg.cmake -DCMAKE_BUILD_TYPE=Release\n\n# \"C:/path/to/vcpkg\" を vcpkg ディレクトリへのフルパスに置き換えてください\n\n# エンジンをビルド\ncmake --build . --config Release\n```\n\n---\n\n### 実行\n\n```bash\n# build/Release ディレクトリから\n```",
+    "Status": "ok"
   },
   {
     "Id": 10,

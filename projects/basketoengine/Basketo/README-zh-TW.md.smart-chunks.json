@@ -86,8 +86,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "```bash\n# 複製 Basketo 儲存庫\ngit clone --recurse-submodules git@github.com:basketoengine/Basketo.git\ncd Basketo\nmkdir build && cd build\n\n# 使用 CMake 進行設定\ncmake .. -DCMAKE_TOOLCHAIN_FILE=C:/path/to/vcpkg/scripts/buildsystems/vcpkg.cmake -DCMAKE_BUILD_TYPE=Release\n\n# 將 \"C:/path/to/vcpkg\" 替換為你的 vcpkg 目錄的完整路徑\n\n# 建置引擎\ncmake --build . --config Release\n```\n\n---\n\n### 執行\n\n```bash\n# 從 build/Release 目錄\n```",
+    "Status": "ok"
   },
   {
     "Id": 10,

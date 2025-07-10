@@ -76,8 +76,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### Install Dependencies\n\n```bash\n# Buka Developer Command Prompt untuk VS 2022 atau PowerShell\n\n# Clone vcpkg\n\ngit clone https://github.com/microsoft/vcpkg.git\ncd vcpkg\n\n.\\bootstrap-vcpkg.bat\n\n# Instalasi pustaka yang diperlukan\n.\\vcpkg install sdl2 sdl2-image sdl2-ttf sdl2-mixer lua curl\n\n```\n\n---\n\n### Build Steps",
+    "Status": "ok"
   },
   {
     "Id": 9,
