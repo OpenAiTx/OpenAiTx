@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## نصب ساده (توصیه‌شده)\nاطمینان حاصل کنید که git و curl نصب شده‌اند\n```bash\ngit --version\ncurl --version\n```\n### نصب\n#### فعال‌سازی یکپارچه‌سازی با اسپاتیفای (توصیه‌شده)\n```bash\nEBAF_ENABLE_SPOTIFY=yes curl -sSL https://github.com/Kazedaa/eBAF/raw/main/install.sh | sudo -E bash\n```\n#### غیرفعال‌سازی به صورت صریح\n```bash\nEBAF_ENABLE_SPOTIFY=no curl -sSL https://github.com/Kazedaa/eBAF/raw/main/install.sh | sudo bash```\n```\n\n### حذف نصب\n```bash\ncurl -sSL https://raw.githubusercontent.com/Kazedaa/eBAF/main/uninstall.sh | sudo bash\n```",
+    "Status": "ok"
   },
   {
     "Id": 5,
@@ -56,8 +56,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "```bash\nsudo pacman -Syu\nsudo pacman -S --needed libbpf clang llvm libelf zlib gcc make python net-tools bc\n```\n\n### رفع خطای asm/types.h هنگام اجرای کد eBPF\nلینک فعلی را بررسی کنید\n`ls -l /usr/include/asm`\nلینک صحیح را پیدا کنید\n`find /usr/include -name \"types.h\" | grep asm`\nلینک نمادین را اصلاح کنید\n```bash\nsudo rm /usr/include/asm\nsudo ln -s <current_link> /usr/include/asm\n```\n\n### ساخت پروژه\n\nبرای ساخت Adblocker مبتنی بر eBPF، مراحل زیر را دنبال کنید:\n\n1. مخزن را کلون کنید:\n   ```bash\n   git clone <repository-url>\n   cd eBAF\n   ```",
+    "Status": "ok"
   },
   {
     "Id": 7,

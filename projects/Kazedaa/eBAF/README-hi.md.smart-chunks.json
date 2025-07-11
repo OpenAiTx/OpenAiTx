@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## सरल इंस्टॉल (सिफारिश की जाती है)\nसुनिश्चित करें कि आपके पास git और curl इंस्टॉल हैं\n```bash\ngit --version\ncurl --version\n```\n### इंस्टॉल करें\n#### Spotify एकीकरण सक्षम करें (सिफारिश की जाती है)\n```bash\nEBAF_ENABLE_SPOTIFY=yes curl -sSL https://github.com/Kazedaa/eBAF/raw/main/install.sh | sudo -E bash\n```\n#### स्पष्ट रूप से अक्षम करें\n```bash\nEBAF_ENABLE_SPOTIFY=no curl -sSL https://github.com/Kazedaa/eBAF/raw/main/install.sh | sudo bash```\n```\n\n### अनइंस्टॉल करें\n```bash\ncurl -sSL https://raw.githubusercontent.com/Kazedaa/eBAF/main/uninstall.sh | sudo bash\n```",
+    "Status": "ok"
   },
   {
     "Id": 5,
@@ -76,8 +76,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## उपयोग\n\n### एडब्लॉकर चलाना\n    डिफ़ॉल्ट ब्लैकलिस्ट के रूप में spotify-stable.txt का उपयोग करता है।\n    उपयोग: ebaf [विकल्प] [इंटरफ़ेस...]\n    विकल्प:\n    -a, --all               सभी सक्रिय इंटरफेस पर चलाएँ\n    -d, --default           केवल डिफ़ॉल्ट इंटरफेस पर चलाएँ (जिसमें इंटरनेट एक्सेस हो)\n    -i, --interface IFACE   उपयोग के लिए एक इंटरफेस निर्दिष्ट करें\n    -D, --dash              वेब डैशबोर्ड प्रारंभ करें (http://localhost:8080)\n    -q, --quiet             आउटपुट को दबाएँ (शांत मोड)\n    -h, --help              यह सहायता संदेश दिखाएँ\n\n\n### ब्लैकलिस्ट को कॉन्फ़िगर करना\nडोमेन जोड़ने या हटाने के लिए सूचियों को संपादित करें। प्रत्येक डोमेन एक अलग पंक्ति में होना चाहिए। टिप्पणियाँ `#` से शुरू होती हैं।\n\n## आभार\n\nविशेष धन्यवाद ❤️ <br>\n1. [Isaaker's Spotify-AdsList](https://github.com/Isaaker/Spotify-AdsList/tree/main) <br>\n2. [AnanthVivekanand's spotify-adblock](https://github.com/AnanthVivekanand/spotify-adblock)\n\nस्पॉटिफ़ाई ब्लॉक सूची प्रदान करने के लिए",
+    "Status": "ok"
   },
   {
     "Id": 9,

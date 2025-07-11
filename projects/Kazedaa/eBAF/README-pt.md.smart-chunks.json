@@ -6,8 +6,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# eBAF - Firewall de Anúncios Baseado em eBPF\n<p align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/Kazedaa/eBAF/main/assets/banner.png\" alt=\"eBAF - eBPF Ad Firewall Banner\" width=\"600\"/>\n</p>\n\n## \"Você Não Baixaria um Anúncio\"\n### Mas Você Bloquearia Um!\n \nO Spotify construiu um império baseado em uma fórmula simples: monetizar sua atenção, pagar mal os artistas e vender de volta o seu próprio tempo como um recurso premium.\nNo mundo deles, sua experiência de escuta não é sua. É um mercado cuidadosamente curado — seus ouvidos são o produto, sua paciência é a moeda.\n\nEles gostam de chamar isso de um nível \"gratuito\".\nMas sejamos honestos: não é gratuito se você está pagando com seu tempo.\n\nEnquanto isso, os artistas que você ama — as pessoas cujo trabalho mantém a plataforma viva — muitas vezes ganham apenas frações de centavos por reprodução. O Spotify lucra bastante, os anunciantes recebem sua exposição e os criadores? Eles ficam com as migalhas.\n\nIsso não é apenas sobre pular alguns anúncios irritantes.\nÉ sobre recusar-se a participar de um sistema que lucra com a exploração, distração e a mercantilização da sua atenção.\n\n#### O que é isso?",
+    "Status": "ok"
   },
   {
     "Id": 2,
@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## Como o eBAF funciona?\n\nO eBAF (eBPF Ad Firewall) aproveita o poder do eBPF (Extended Berkeley Packet Filter) para bloquear anúncios indesejados no nível do kernel. Aqui está uma visão geral de alto nível de sua funcionalidade:\n\n## Como o eBAF funciona?\n\nO eBAF (eBPF Ad Firewall) utiliza o eBPF (Extended Berkeley Packet Filter) para bloquear anúncios de forma eficiente no nível do kernel. Veja uma visão geral simplificada:\n\n1. **Filtragem de Pacotes**:\n   - Inspeciona os pacotes de rede recebidos e bloqueia aqueles que correspondem a uma lista negra de endereços IP usando o XDP (eXpress Data Path).\n\n2. **Atualizações Dinâmicas**:\n   - Resolve nomes de domínio em endereços IP e atualiza a lista negra dinamicamente para manter a eficácia contra servidores de anúncios em constante mudança.\n\n3. **Painel Web**:\n   - Fornece estatísticas em tempo real e monitoramento por meio de uma interface amigável ao usuário.\n\n4. **Alto Desempenho**:\n   - Opera diretamente no nível da interface de rede, ignorando a pilha de rede do kernel para processamento mais rápido e uso mínimo de recursos.\n\nO eBAF combina eficiência, transparência e facilidade de uso para oferecer uma solução poderosa de bloqueio de anúncios.",
+    "Status": "ok"
   },
   {
     "Id": 4,
@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## Instalação para Desenvolvimento\nExecute os seguintes comandos para instalar as dependências necessárias:\n### Ubuntu/Debian\n```bash\nsudo apt-get update\nsudo apt-get install libbpf-dev clang llvm libelf-dev zlib1g-dev gcc make python3\n\nsudo apt update\nsudo apt install net-tools\n```\n\n### Fedora/CentOS/RHEL 8+\n```bash\nsudo dnf update\nsudo dnf install -y libbpf-devel clang llvm elfutils-libelf-devel zlib-devel gcc make python3 net-tools bc\n```\n\n### Arch",
+    "Status": "ok"
   },
   {
     "Id": 6,

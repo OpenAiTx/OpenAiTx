@@ -56,8 +56,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "```bash\nsudo pacman -Syu\nsudo pacman -S --needed libbpf clang llvm libelf zlib gcc make python net-tools bc\n```\n\n### Corregir el error asm/types.h al ejecutar código eBPF\nVerifica el enlace actual  \n`ls -l /usr/include/asm`  \nEncuentra el enlace correcto  \n`find /usr/include -name \"types.h\" | grep asm`  \nCorrige el enlace simbólico  \n```bash\nsudo rm /usr/include/asm\nsudo ln -s <enlace_actual> /usr/include/asm\n```\n\n### Compilando el proyecto\n\nPara compilar el Adblocker eBPF, sigue estos pasos:\n\n1. Clona el repositorio:\n   ```bash\n   git clone <repository-url>\n   cd eBAF\n   ```",
+    "Status": "ok"
   },
   {
     "Id": 7,

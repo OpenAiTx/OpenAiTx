@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## Installation de développement\nExécutez les commandes suivantes pour installer les dépendances requises :\n### Ubuntu/Debian\n```bash\nsudo apt-get update\nsudo apt-get install libbpf-dev clang llvm libelf-dev zlib1g-dev gcc make python3\n\nsudo apt update\nsudo apt install net-tools\n```\n\n### Fedora/CentOS/RHEL 8+\n```bash\nsudo dnf update\nsudo dnf install -y libbpf-devel clang llvm elfutils-libelf-devel zlib-devel gcc make python3 net-tools bc\n```\n\n### Arch",
+    "Status": "ok"
   },
   {
     "Id": 6,
@@ -56,8 +56,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "```bash\nsudo pacman -Syu\nsudo pacman -S --needed libbpf clang llvm libelf zlib gcc make python net-tools bc\n```\n\n### Corriger l’erreur asm/types.h lors de l’exécution du code eBPF\nVérifiez le lien actuel\n`ls -l /usr/include/asm`\nTrouvez le lien correct\n`find /usr/include -name \"types.h\" | grep asm`\nCorrigez le lien symbolique\n```bash\nsudo rm /usr/include/asm\nsudo ln -s <lien_courant> /usr/include/asm\n```\n\n### Compilation du projet\n\nPour compiler l’Adblocker eBPF, suivez ces étapes :\n\n1. Clonez le dépôt :\n   ```bash\n   git clone <repository-url>\n   cd eBAF\n   ```",
+    "Status": "ok"
   },
   {
     "Id": 7,

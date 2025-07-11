@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## Prosta instalacja (Zalecane)\nUpewnij się, że masz zainstalowane git i curl\n```bash\ngit --version\ncurl --version\n```\n### Instalacja\n#### Włącz integrację ze Spotify (Zalecane)\n```bash\nEBAF_ENABLE_SPOTIFY=yes curl -sSL https://github.com/Kazedaa/eBAF/raw/main/install.sh | sudo -E bash\n```\n#### Wyłącz explicite\n```bash\nEBAF_ENABLE_SPOTIFY=no curl -sSL https://github.com/Kazedaa/eBAF/raw/main/install.sh | sudo bash```\n```\n\n### Odinstaluj\n```bash\ncurl -sSL https://raw.githubusercontent.com/Kazedaa/eBAF/main/uninstall.sh | sudo bash\n```",
+    "Status": "ok"
   },
   {
     "Id": 5,
@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## Instalacja dla deweloperów\nUruchom poniższe polecenia, aby zainstalować wymagane zależności:\n### Ubuntu/Debian\n```bash\nsudo apt-get update\nsudo apt-get install libbpf-dev clang llvm libelf-dev zlib1g-dev gcc make python3\n\nsudo apt update\nsudo apt install net-tools\n```\n\n### Fedora/CentOS/RHEL 8+\n```bash\nsudo dnf update\nsudo dnf install -y libbpf-devel clang llvm elfutils-libelf-devel zlib-devel gcc make python3 net-tools bc\n```\n\n### Arch",
+    "Status": "ok"
   },
   {
     "Id": 6,
@@ -56,8 +56,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "```bash\nsudo pacman -Syu\nsudo pacman -S --needed libbpf clang llvm libelf zlib gcc make python net-tools bc\n```\n\n### Naprawa błędu asm/types.h podczas uruchamiania kodu eBPF\nSprawdź aktualny link\n`ls -l /usr/include/asm`\nZnajdź poprawny link\n`find /usr/include -name \"types.h\" | grep asm`\nNapraw link symboliczny\n```bash\nsudo rm /usr/include/asm\nsudo ln -s <current_link> /usr/include/asm\n```\n\n### Budowanie projektu\n\nAby zbudować eBPF Adblocker, wykonaj następujące kroki:\n\n1. Sklonuj repozytorium:\n   ```bash\n   git clone <repository-url>\n   cd eBAF\n   ```",
+    "Status": "ok"
   },
   {
     "Id": 7,

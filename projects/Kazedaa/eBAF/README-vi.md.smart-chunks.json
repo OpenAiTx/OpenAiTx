@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## eBAF hoạt động như thế nào?\n\neBAF (eBPF Ad Firewall) tận dụng sức mạnh của eBPF (Extended Berkeley Packet Filter) để chặn các quảng cáo không mong muốn ngay ở cấp độ nhân hệ điều hành. Dưới đây là tổng quan ở mức cao về chức năng của nó:\n\n## eBAF hoạt động như thế nào?\n\neBAF (eBPF Ad Firewall) sử dụng eBPF (Extended Berkeley Packet Filter) để chặn quảng cáo ở cấp độ nhân hệ điều hành một cách hiệu quả. Dưới đây là tổng quan đơn giản:\n\n1. **Lọc gói tin**:\n   - Kiểm tra các gói tin mạng đến và chặn những gói phù hợp với danh sách đen các địa chỉ IP bằng XDP (eXpress Data Path).\n\n2. **Cập nhật động**:\n   - Giải quyết tên miền thành địa chỉ IP và cập nhật danh sách đen một cách linh hoạt để luôn hiệu quả trước các máy chủ quảng cáo thay đổi liên tục.\n\n3. **Bảng điều khiển web**:\n   - Cung cấp thống kê trực tiếp và giám sát thông qua giao diện thân thiện với người dùng.\n\n4. **Hiệu suất cao**:\n   - Hoạt động trực tiếp ở cấp độ giao diện mạng, bỏ qua ngăn xếp mạng của nhân hệ điều hành để xử lý nhanh hơn và sử dụng tài nguyên tối thiểu.\n\neBAF kết hợp hiệu quả, minh bạch và dễ sử dụng để mang lại một giải pháp chặn quảng cáo mạnh mẽ.",
+    "Status": "ok"
   },
   {
     "Id": 4,
@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## Cài đặt đơn giản (Khuyến nghị)\nĐảm bảo đã cài đặt git và curl\n```bash\ngit --version\ncurl --version\n```\n### Cài đặt\n#### Bật tích hợp Spotify (Khuyến nghị)\n```bash\nEBAF_ENABLE_SPOTIFY=yes curl -sSL https://github.com/Kazedaa/eBAF/raw/main/install.sh | sudo -E bash\n```\n#### Tắt rõ ràng\n```bash\nEBAF_ENABLE_SPOTIFY=no curl -sSL https://github.com/Kazedaa/eBAF/raw/main/install.sh | sudo bash```\n```\n\n### Gỡ cài đặt\n```bash\ncurl -sSL https://raw.githubusercontent.com/Kazedaa/eBAF/main/uninstall.sh | sudo bash\n```",
+    "Status": "ok"
   },
   {
     "Id": 5,
@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## Cài đặt Dev\nChạy các lệnh sau để cài đặt các phụ thuộc cần thiết:\n### Ubuntu/Debian\n```bash\nsudo apt-get update\nsudo apt-get install libbpf-dev clang llvm libelf-dev zlib1g-dev gcc make python3\n\nsudo apt update\nsudo apt install net-tools\n```\n\n### Fedora/CentOS/RHEL 8+\n```bash\nsudo dnf update\nsudo dnf install -y libbpf-devel clang llvm elfutils-libelf-devel zlib-devel gcc make python3 net-tools bc\n```\n\n### Arch",
+    "Status": "ok"
   },
   {
     "Id": 6,
