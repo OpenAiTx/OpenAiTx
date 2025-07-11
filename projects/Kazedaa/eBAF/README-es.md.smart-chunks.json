@@ -1,0 +1,92 @@
+[
+  {
+    "Id": 1,
+    "Content": "# eBAF - eBPF Based Ad Firewall\n<p align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/Kazedaa/eBAF/main/assets/banner.png\" alt=\"eBAF - eBPF Ad Firewall Banner\" width=\"600\"/>\n</p>\n\n## \"You Wouldn't Download an Ad\"\n### But You Would Block One!\n \nSpotify has built an empire on a simple formula: monetize your attention, underpay the artists, and sell you back your own time as a premium feature.\nIn their world, your listening experience is not yours. It’s a carefully curated marketplace — your ears are the product, your patience is the currency.\n\nThey like to call it a \"free\" tier.\nBut let’s be honest: it’s not free if you’re paying with your time.\n\nMeanwhile, the artists you love — the people whose work keeps the platform alive — often earn mere fractions of pennies per stream. Spotify profits handsomely, the advertisers get their exposure, and the creators? They get scraps.\n\nThis isn’t just about skipping a few annoying ads.\nIt’s about refusing to participate in a system that profits from exploitation, distraction, and the commodification of your attention.\n\n#### What is this?",
+    "ContentSha": "l2dCQSVrnX+FwkXyGFlvUQang11m7O6C7BEzuyQGOtY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# eBAF - Cortafuegos de Anuncios Basado en eBPF\n<p align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/Kazedaa/eBAF/main/assets/banner.png\" alt=\"eBAF - Banner del Cortafuegos de Anuncios eBPF\" width=\"600\"/>\n</p>\n\n## \"No Descargarías un Anuncio\"\n### ¡Pero Sí lo Bloquearías!\n \nSpotify ha construido un imperio con una fórmula sencilla: monetizar tu atención, pagar poco a los artistas y venderte tu propio tiempo como una función premium.\nEn su mundo, tu experiencia de escucha no es tuya. Es un mercado cuidadosamente curado: tus oídos son el producto, tu paciencia es la moneda.\n\nA esto les gusta llamarlo una capa \"gratuita\".\nPero seamos honestos: no es gratis si estás pagando con tu tiempo.\n\nMientras tanto, los artistas que amas —las personas cuyo trabajo mantiene viva la plataforma— a menudo ganan apenas fracciones de centavos por reproducción. Spotify obtiene grandes ganancias, los anunciantes obtienen su exposición, ¿y los creadores? Ellos reciben migajas.\n\nEsto no se trata solo de saltarse algunos anuncios molestos.\nSe trata de negarse a participar en un sistema que se beneficia de la explotación, la distracción y la mercantilización de tu atención.\n\n#### ¿Qué es esto?",
+    "Status": "ok"
+  },
+  {
+    "Id": 2,
+    "Content": "An elegant little act of digital resistance: a clean, open-source adblocker for Spotify that stops the noise — literally.\n\nNo sketchy mods, no cracked clients, no malware masquerading as freedom. Just one goal: let the music play without being held hostage by ads.\n\nSpotify isn’t free — you pay with your patience.\n\nThey bombard you with the same grating ads, over and over, until you give up and subscribe. Not because you love Premium. But because you’ve been worn down. That’s not freemium — that’s psychological warfare with a playlist.\n\nMeanwhile, the artists? Still underpaid.\nThe ads? Louder. More frequent. Sometimes literally louder.\nYou? Just trying to vibe.\n\nThey profit from your patience and their underpayment of creators, all while pretending it’s the only sustainable way. Spoiler: it isn’t. They had a choice — but they chose profit margins over people.\n\nSpotify wants you to believe this is the cost of access.\nWe believe that’s a lie.\n\nWe’re not pirates. We’re not criminals. We’re just people who think it's okay to draw a line.\n\nThis project isn’t about skipping a few ads. It’s about rejecting a system that says your silence can be sold, your experience can be interrupted, and your value begins only when you open your wallet.\n\nBlocking ads is not theft.<br>\nStealing your time is.<br>\nWe’re not here to pirate. We’re here to opt out.<br>\n<br>\n**You wouldnt Download an Ad. But you would block one.**\n",
+    "ContentSha": "B4J6+y7k9FAC6gY1AtYil0aOsn0kdwSSIhXom1UMQhw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Un pequeño y elegante acto de resistencia digital: un bloqueador de anuncios limpio y de código abierto para Spotify que detiene el ruido — literalmente.\n\nSin mods dudosos, sin clientes crackeados, sin malware disfrazado de libertad. Solo un objetivo: dejar que la música suene sin ser rehén de los anuncios.\n\nSpotify no es gratis — pagas con tu paciencia.\n\nTe bombardean con los mismos anuncios irritantes, una y otra vez, hasta que te rindes y te suscribes. No porque ames Premium. Sino porque te han desgastado. Eso no es freemium — es guerra psicológica con una playlist.\n\n¿Mientras tanto, los artistas? Siguen mal pagados.\n¿Los anuncios? Más ruidosos. Más frecuentes. A veces, literalmente más ruidosos.\n¿Tú? Solo intentando disfrutar.\n\nEllos se benefician de tu paciencia y del pago insuficiente a los creadores, mientras pretenden que es la única forma sostenible. Spoiler: no lo es. Tenían una opción — pero eligieron los márgenes de ganancia sobre las personas.\n\nSpotify quiere que creas que este es el costo de acceso.\nNosotros creemos que eso es una mentira.\n\nNo somos piratas. No somos criminales. Solo somos personas que piensan que está bien trazar un límite.\n\nEste proyecto no trata de saltarse unos cuantos anuncios. Se trata de rechazar un sistema que dice que tu silencio se puede vender, que tu experiencia se puede interrumpir y que tu valor comienza solo cuando abres la billetera.\n\nBloquear anuncios no es robar.<br>\nRobar tu tiempo sí lo es.<br>\nNo estamos aquí para piratear. Estamos aquí para salirnos.<br>\n<br>\n**No descargarías un anuncio. Pero sí lo bloquearías.**",
+    "Status": "ok"
+  },
+  {
+    "Id": 3,
+    "Content": "## How does eBAF work?\n\neBAF (eBPF Ad Firewall) leverages the power of eBPF (Extended Berkeley Packet Filter) to block unwanted advertisements at the kernel level. Here's a high-level overview of its functionality:\n\n## How does eBAF work?\n\neBAF (eBPF Ad Firewall) leverages eBPF (Extended Berkeley Packet Filter) to block ads at the kernel level efficiently. Here's a simplified overview:\n\n1. **Packet Filtering**:\n   - Inspects incoming network packets and blocks those matching a blacklist of IP addresses using XDP (eXpress Data Path).\n\n2. **Dynamic Updates**:\n   - Resolves domain names into IP addresses and updates the blacklist dynamically to stay effective against changing ad servers.\n\n3. **Web Dashboard**:\n   - Provides live statistics and monitoring through a user-friendly interface.\n\n4. **High Performance**:\n   - Operates directly at the network interface level, bypassing the kernel's networking stack for faster processing and minimal resource usage.\n\neBAF combines efficiency, transparency, and ease of use to deliver a powerful ad-blocking solution.\n",
+    "ContentSha": "TSByAv4eacHWEnJlq4Oo9aGrDwEtAilyoF41L5PDKqk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## ¿Cómo funciona eBAF?\n\neBAF (eBPF Ad Firewall) aprovecha el poder de eBPF (Extended Berkeley Packet Filter) para bloquear anuncios no deseados a nivel del kernel. Aquí tienes una visión general de su funcionamiento:\n\n## ¿Cómo funciona eBAF?\n\neBAF (eBPF Ad Firewall) utiliza eBPF (Extended Berkeley Packet Filter) para bloquear anuncios de manera eficiente a nivel del kernel. Aquí tienes una visión simplificada:\n\n1. **Filtrado de paquetes**:\n   - Inspecciona los paquetes de red entrantes y bloquea aquellos que coinciden con una lista negra de direcciones IP utilizando XDP (eXpress Data Path).\n\n2. **Actualizaciones dinámicas**:\n   - Resuelve nombres de dominio en direcciones IP y actualiza la lista negra dinámicamente para mantenerse efectivo ante los cambios en los servidores de anuncios.\n\n3. **Panel web**:\n   - Proporciona estadísticas en tiempo real y monitoreo a través de una interfaz fácil de usar.\n\n4. **Alto rendimiento**:\n   - Opera directamente a nivel de la interfaz de red, omitiendo la pila de red del kernel para un procesamiento más rápido y un uso mínimo de recursos.\n\neBAF combina eficiencia, transparencia y facilidad de uso para ofrecer una solución potente de bloqueo de anuncios.",
+    "Status": "ok"
+  },
+  {
+    "Id": 4,
+    "Content": "## Simple Install (Reccomended)\nMake sure to have git and curl installed\n```bash\ngit --version\ncurl --version\n```\n### Install\n#### Enable Spotify integration (Recommended)\n```bash\nEBAF_ENABLE_SPOTIFY=yes curl -sSL https://github.com/Kazedaa/eBAF/raw/main/install.sh | sudo -E bash\n```\n#### Disable explicitly\n```bash\nEBAF_ENABLE_SPOTIFY=no curl -sSL https://github.com/Kazedaa/eBAF/raw/main/install.sh | sudo bash```\n```\n\n### Uninstall\n```bash\ncurl -sSL https://raw.githubusercontent.com/Kazedaa/eBAF/main/uninstall.sh | sudo bash\n```",
+    "ContentSha": "EK5+tdv21n167oeac4Q3yRovHeBajhkCrMuJPX0JWJc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Instalación Simple (Recomendada)\nAsegúrate de tener git y curl instalados\n```bash\ngit --version\ncurl --version\n```\n### Instalación\n#### Habilitar integración con Spotify (Recomendado)\n```bash\nEBAF_ENABLE_SPOTIFY=yes curl -sSL https://github.com/Kazedaa/eBAF/raw/main/install.sh | sudo -E bash\n```\n#### Deshabilitar explícitamente\n```bash\nEBAF_ENABLE_SPOTIFY=no curl -sSL https://github.com/Kazedaa/eBAF/raw/main/install.sh | sudo bash```\n```\n\n### Desinstalar\n```bash\ncurl -sSL https://raw.githubusercontent.com/Kazedaa/eBAF/main/uninstall.sh | sudo bash\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 5,
+    "Content": "\n\n## Dev Install\nRun the following commands to install the required dependencies:\n### Ubuntu/Debian\n```bash\nsudo apt-get update\nsudo apt-get install libbpf-dev clang llvm libelf-dev zlib1g-dev gcc make python3\n\nsudo apt update\nsudo apt install net-tools\n```\n\n### Fedora/CentOS/RHEL 8+\n```bash\nsudo dnf update\nsudo dnf install -y libbpf-devel clang llvm elfutils-libelf-devel zlib-devel gcc make python3 net-tools bc\n```\n\n### Arch",
+    "ContentSha": "qsCooX2dA9jDKASLQinVjwia07mrpcs0McdgchSyVtQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Instalación para Desarrollo\nEjecute los siguientes comandos para instalar las dependencias requeridas:\n### Ubuntu/Debian\n```bash\nsudo apt-get update\nsudo apt-get install libbpf-dev clang llvm libelf-dev zlib1g-dev gcc make python3\n\nsudo apt update\nsudo apt install net-tools\n```\n\n### Fedora/CentOS/RHEL 8+\n```bash\nsudo dnf update\nsudo dnf install -y libbpf-devel clang llvm elfutils-libelf-devel zlib-devel gcc make python3 net-tools bc\n```\n\n### Arch",
+    "Status": "ok"
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\nsudo pacman -Syu\nsudo pacman -S --needed libbpf clang llvm libelf zlib gcc make python net-tools bc\n```\n\n### Fix asm/types.h Error whiel running eBPF code\nCheck the current link\n`ls -l /usr/include/asm`\nFind the currect link\n`find /usr/include -name \"types.h\" | grep asm`\nFix the symbolic link \n```bash\nsudo rm /usr/include/asm\nsudo ln -s <current_link> /usr/include/asm\n```\n\n### Building the Project\n\nTo build the eBPF Adblocker, follow these steps:\n\n1. Clone the repository:\n   ```bash\n   git clone <repository-url>\n   cd eBAF\n   ```",
+    "ContentSha": "5XVG0Mi9bWpQTRRsyLll9z7ckcIXkCCQ/uxDcH+RRMg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "error"
+  },
+  {
+    "Id": 7,
+    "Content": "\n2. Build the project:\n   ```bash\n   make\n   ```\n\n3. (Optional) Install system-wide:\n   ```bash\n   sudo make install\n   ```\n\n4. Other install options (help desk)\n    ```bash\n    make help\n    ````\n5. UnInstall\n    ```bash\n    make uninstall\n    ````\n",
+    "ContentSha": "F4cIU2+ys6ySfJDpUdpTKAjeeUrrcto+hYEFTyap+8E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. Construya el proyecto:\n   ```bash\n   make\n   ```\n\n3. (Opcional) Instale a nivel de sistema:\n   ```bash\n   sudo make install\n   ```\n\n4. Otras opciones de instalación (ayuda)\n    ```bash\n    make help\n    ````\n\n5. Desinstalar\n    ```bash\n    make uninstall\n    ````",
+    "Status": "ok"
+  },
+  {
+    "Id": 8,
+    "Content": "## Usage\n\n### Running the Adblocker\n    Uses spotify-stable.txt as default Blacklist.\n    Usage: ebaf [OPTIONS] [INTERFACE...]\n    OPTIONS:\n    -a, --all               Run on all active interfaces\n    -d, --default           Run only on the default interface (with internet access)\n    -i, --interface IFACE   Specify an interface to use\n    -D, --dash              Start the web dashboard (http://localhost:8080)\n    -q, --quiet             Suppress output (quiet mode)\n    -h, --help              Show this help message\n\n\n### Configuring Blacklist\nEdit the lists to add or remove domains. Each domain should be on a separate line. Comments start with `#`.\n\n## Acknowledgements\n\nA Special thanks to ❤️ <br>\n1. [Isaaker's Spotify-AdsList](https://github.com/Isaaker/Spotify-AdsList/tree/main) <br>\n2. [AnanthVivekanand's spotify-adblock](https://github.com/AnanthVivekanand/spotify-adblock)\n\nfor providing a spotify block list\n",
+    "ContentSha": "q4J9F3AL6x2cKYbRbwC/sfjM194tqBm8b6h7SRWOrpE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Uso\n\n### Ejecutando el Adblocker\n    Usa spotify-stable.txt como Lista Negra predeterminada.\n    Uso: ebaf [OPCIONES] [INTERFAZ...]\n    OPCIONES:\n    -a, --all               Ejecutar en todas las interfaces activas\n    -d, --default           Ejecutar solo en la interfaz predeterminada (con acceso a internet)\n    -i, --interface IFACE   Especificar una interfaz a usar\n    -D, --dash              Iniciar el panel web (http://localhost:8080)\n    -q, --quiet             Suprimir salida (modo silencioso)\n    -h, --help              Mostrar este mensaje de ayuda\n\n\n### Configuración de la Lista Negra\nEdita las listas para agregar o eliminar dominios. Cada dominio debe estar en una línea separada. Los comentarios comienzan con `#`.\n\n## Agradecimientos\n\nUn agradecimiento especial a ❤️ <br>\n1. [Isaaker's Spotify-AdsList](https://github.com/Isaaker/Spotify-AdsList/tree/main) <br>\n2. [AnanthVivekanand's spotify-adblock](https://github.com/AnanthVivekanand/spotify-adblock)\n\npor proporcionar una lista de bloqueo de Spotify",
+    "Status": "ok"
+  },
+  {
+    "Id": 9,
+    "Content": "## ⭐️ Support the Project\n\nIf you find eBAF useful, please consider starring the repository on GitHub! Your support helps increase visibility and encourages further development.",
+    "ContentSha": "NRtJ8u3jSeP8PdX2E94lh7Sbh8qhA6XGiX2nKzLJjJA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## ⭐️ Apoya el Proyecto\n\nSi encuentras útil eBAF, ¡por favor considera darle una estrella al repositorio en GitHub! Tu apoyo ayuda a aumentar la visibilidad y fomenta el desarrollo continuo.",
+    "Status": "ok"
+  }
+]
