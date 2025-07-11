@@ -1,0 +1,2265 @@
+<!--lint disable awesome-contributing awesome-license awesome-list-item match-punctuation no-repeat-punctuation no-undefined-references awesome-spell-check-->
+# Awesome Stars [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
+
+> 精選我的 GitHub 星標列表！由 [starred](https://github.com/maguowei/starred) 生成。
+
+## 目錄
+
+- [Adblock 過濾規則列表](#adblock-filter-list)
+- [AutoHotkey](#autohotkey)
+- [AutoIt](#autoit)
+- [Batchfile](#batchfile)
+- [Blade](#blade)
+- [C](#c)
+- [C#](#c#)
+- [C++](#c++)
+- [CSS](#css)
+- [Clojure](#clojure)
+- [CodeQL](#codeql)
+- [Common Lisp](#common-lisp)
+- [Crystal](#crystal)
+- [D](#d)
+- [Dart](#dart)
+- [Dockerfile](#dockerfile)
+- [EJS](#ejs)
+- [Elm](#elm)
+- [Erlang](#erlang)
+- [GDScript](#gdscript)
+- [Go](#go)
+- [HCL](#hcl)
+- [HTML](#html)
+- [Hack](#hack)
+- [Haskell](#haskell)
+- [Haxe](#haxe)
+- [Java](#java)
+- [JavaScript](#javascript)
+- [Jinja](#jinja)
+- [Julia](#julia)
+- [Jupyter Notebook](#jupyter-notebook)
+- [Kotlin](#kotlin)
+- [LLVM](#llvm)
+- [Lua](#lua)
+- [MATLAB](#matlab)
+- [MDX](#mdx)
+- [Makefile](#makefile)
+- [Markdown](#markdown)
+- [Mermaid](#mermaid)
+- [Meson](#meson)
+- [Objective-C](#objective-c)
+- [其他](#others)
+- [PHP](#php)
+- [PLpgSQL](#plpgsql)
+- [Pascal](#pascal)
+- [Perl](#perl)
+- [PostScript](#postscript)
+- [PowerShell](#powershell)
+- [Python](#python)
+- [QML](#qml)
+- [R](#r)
+- [Rich Text Format](#rich-text-format)
+- [Roff](#roff)
+- [Ruby](#ruby)
+- [Rust](#rust)
+- [SCSS](#scss)
+- [SVG](#svg)
+- [Shell](#shell)
+- [Stylus](#stylus)
+- [Svelte](#svelte)
+- [Swift](#swift)
+- [TeX](#tex)
+- [TypeScript](#typescript)
+- [VBA](#vba)
+- [VBScript](#vbscript)
+- [Vala](#vala)
+- [Vim Script](#vim-script)
+- [Visual Basic .NET](#visual-basic-.net)
+- [Vue](#vue)
+
+## Adblock 過濾器清單
+
+- [neodevpro/neodevhost](https://github.com/neodevpro/neodevhost) - 強大且友善且持續更新的去廣告 Hosts  最新強大而友善的去廣告
+- [uBlockOrigin/uAssets](https://github.com/uBlockOrigin/uAssets) - uBlock Origin 與 uBlock Origin Lite 的過濾規則清單
+
+## AutoHotkey
+
+- [raeleus/AHK-Macro-Recorder](https://github.com/raeleus/AHK-Macro-Recorder) - 一個允許你錄製巨集的 AutoHotkey 腳本
+- [marius-sucan/KeyPress-OSD](https://github.com/marius-sucan/KeyPress-OSD) - 這是一個螢幕顯示或鍵盤顯示程式。它以清晰可見的文字大小顯示每一次按鍵。開發目的是為了視力不佳的人士。旨在協助桌面使用者
+- [AutoHotkey/Ahk2Exe](https://github.com/AutoHotkey/Ahk2Exe) - 官方 AutoHotkey 腳本編譯器－由 AutoHotkey 自身編寫
+
+## AutoIt
+
+- [rcmaehl/MSEdgeRedirect](https://github.com/rcmaehl/MSEdgeRedirect) - 一款將新聞、搜尋、小工具、天氣等重定向到你預設瀏覽器的工具
+
+## Batchfile
+
+- [K3V1991/APK-Bundle-Installer](https://github.com/K3V1991/APK-Bundle-Installer) - 允許你安裝 APK Bundles/Split APKs 的批次腳本
+- [erbanku/cactusium-win](https://github.com/erbanku/cactusium-win) - 以放射性元素 No. 90 命名的 Windows 版 Chromium 分支；Windows 版本來自 https://github.com/Alex313031/Thorium
+- [Alex313031/Thorium-Win](https://github.com/Alex313031/Thorium-Win) - 以放射性元素 No. 90 命名的 Windows 版 Chromium 分支；Windows 版本來自 https://github.com/Alex313031/Thorium
+- [JimmyJLNU/SuperHosts](https://github.com/JimmyJLNU/SuperHosts) - 如何訪問維基媒體旗下專案 (虛擬 hosts)
+- [xinggsf/Adblock-Plus-Rule](https://github.com/xinggsf/Adblock-Plus-Rule) - uBlock Origin 乘風廣告過濾規則
+- [erbanku/custom-search-engines-backup](https://github.com/erbanku/custom-search-engines-backup) - 匯入/匯出 Google Chrome 或 Microsoft Edge 的自訂搜尋引擎，並在兩個瀏覽器間同步（覆蓋）
+## Blade 
+
+- [lsky-org/lsky-pro](https://github.com/lsky-org/lsky-pro) - ☁️蘭空圖床（Lsky Pro）- 您的雲端相簿。
+- [Qoraiche/laravel-mail-editor](https://github.com/Qoraiche/laravel-mail-editor) - MailEclipse :zap: Laravel 郵件編輯器
+
+## C 
+
+- [kingToolbox/WindTerm](https://github.com/kingToolbox/WindTerm) - 一個專業的跨平台 SSH/Sftp/Shell/Telnet/Tmux/Serial 終端模擬器。
+- [stefansundin/superf4](https://github.com/stefansundin/superf4) - :file_folder: 使用 Ctrl+Alt+F4 立即終止程式。（Windows）
+- [wherewhere/Windows-Loopback-Exemption-Manager](https://github.com/wherewhere/Windows-Loopback-Exemption-Manager) - 用於啟用通用 Windows 應用程式及 Windows 8、8.1、10 現代化 UI 應用程式回送豁免的圖形介面工具。
+- [Yutaka-Sawada/MultiPar](https://github.com/Yutaka-Sawada/MultiPar) - Parchive 工具
+- [aleksey-hoffman/sigma-file-manager](https://github.com/aleksey-hoffman/sigma-file-manager) - 「Sigma File Manager」是一款免費、開源、快速演進的現代檔案管理器（資源管理器 / 瀏覽器）應用，支援 Windows 和 Linux。
+- [Excitablecell/GEARdrones](https://github.com/Excitablecell/GEARdrones) - GEARdrones 是一套輕量級無人機控制與多代理本地化系統，結合飛控、UWB 相對定位演算法與軟體監控。
+- [openssl/openssl](https://github.com/openssl/openssl) - TLS/SSL 與加密函式庫
+- [curl/curl](https://github.com/curl/curl) - 支援 DICT、FILE、FTP、FTPS、GOPHER、GOPHERS、HTTP、HTTPS、IMAP、IMAPS、LDAP、LDAPS、MQTT、POP3、POP3S、RTMP、RTMPS、RTSP、S 等 URL 語法的命令列工具與函式庫，用於資料傳輸。
+- [flatpak/flatpak](https://github.com/flatpak/flatpak) - Linux 應用程式沙盒及發行框架
+- [ish-app/ish](https://github.com/ish-app/ish) - iOS 上的 Linux shell
+- [pbatard/rufus](https://github.com/pbatard/rufus) - 可靠的 USB 格式化工具
+- [seclab-ucr/INTANG](https://github.com/seclab-ucr/INTANG) - 
+- [git/git](https://github.com/git/git) - Git 原始碼鏡像 - 這是一個僅供發布的倉庫，但拉取請求可以通過 GitGitGadget（https://gitgitgadget.github.io/）轉換為郵件列表的補丁。請遵循文件說明。
+- [FreeRDP/FreeRDP](https://github.com/FreeRDP/FreeRDP) - FreeRDP 是免費的遠端桌面協定函式庫與客戶端
+- [ahrm/sioyek](https://github.com/ahrm/sioyek) - Sioyek 是一款專注於教科書與研究論文的 PDF 閱讀器
+- [erbanku/tpnm-thu](https://github.com/erbanku/tpnm-thu) - 2022 非傳統加工技術與實踐課程 Raspberry Pi 工作區檔案（Team Hello World）
+- [sumatrapdfreader/sumatrapdf](https://github.com/sumatrapdfreader/sumatrapdf) - SumatraPDF 閱讀器
+- [NVIDIA/open-gpu-kernel-modules](https://github.com/NVIDIA/open-gpu-kernel-modules) - NVIDIA Linux 開源 GPU 核心模組原始碼
+- [heiher/hev-socks5-tproxy](https://github.com/heiher/hev-socks5-tproxy) - 一款 socks5 透明代理（IPv4/IPv6/TCP/UDP）
+- [beordle/termtunnel](https://github.com/beordle/termtunnel) - 跨平台終端隧道工具
+- [rvaiya/warpd](https://github.com/rvaiya/warpd) - 一個鍵盤驅動的模態虛擬指標
+- [nginx/nginx](https://github.com/nginx/nginx) - 官方 NGINX 開源倉庫。
+- [torvalds/linux](https://github.com/torvalds/linux) - Linux 核心原始碼樹
+- [hashcat/hashcat](https://github.com/hashcat/hashcat) - 世界上最快且最先進的密碼恢復工具
+- [microsoft/SysmonForLinux](https://github.com/microsoft/SysmonForLinux) - Linux 版 Sysmon
+- [tats/w3m](https://github.com/tats/w3m) - Debian 的 w3m：可瀏覽 WWW 的分頁器
+- [git-for-windows/git](https://github.com/git-for-windows/git) - 包含 Windows 專屬修補程式的 Git 分支。
+- [zhaojh329/rtty](https://github.com/zhaojh329/rtty) - 🐛 通過網頁從任何地方存取您的終端機。
+- [vysheng/tg](https://github.com/vysheng/tg) - telegram-cli
+- [apache/httpd](https://github.com/apache/httpd) - Apache HTTP Server 鏡像。問題回報：http://issues.apache.org
+- [openwrt/openwrt](https://github.com/openwrt/openwrt) - 此倉庫為 https://git.openwrt.org/openwrt/openwrt.git 的鏡像，僅供參考，並不作為主要提交倉庫。我們會繼續在此接受 Pull Request，合併後會推送至主倉庫。
+- [pyrogram/tgcrypto](https://github.com/pyrogram/tgcrypto) - Pyrogram 的快速且可攜式加密擴充函式庫
+- [haiwen/seafile](https://github.com/haiwen/seafile) - 高效能檔案同步與分享，並支援 Markdown 所見即所得編輯、Wiki、檔案標籤等知識管理功能。
+- [FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg) - https://git.ffmpeg.org/ffmpeg.git 的鏡像
+- [expressvpn/lightway-core](https://github.com/expressvpn/lightway-core) - Lightway Core 是 ExpressVPN 推出的現代 VPN 協定，提供更快、更安全、更可靠的 VPN 體驗。
+- [rainmeter/rainmeter](https://github.com/rainmeter/rainmeter) - Windows 桌面自訂工具
+- [obsproject/obs-studio](https://github.com/obsproject/obs-studio) - OBS Studio - 免費開源的直播與螢幕錄製軟體
+## C# # 
+
+- [UnigramDev/Unigram](https://github.com/UnigramDev/Unigram) - Windows 版 Telegram
+- [IT-HaoGe/Windows-Update-Delayer](https://github.com/IT-HaoGe/Windows-Update-Delayer) - ITHaoGe Windows 更新暫停器，適用於 Win11/10，IT豪哥電腦更新暫停器，快速暫停 Windows11/10 系統更新
+- [hellzerg/optimizer](https://github.com/hellzerg/optimizer) - 最佳的 Windows 優化工具
+- [thebookisclosed/ViVe](https://github.com/thebookisclosed/ViVe) - 用於 Windows 10 2004 及以上新功能控制 API 的 C# 函式庫與命令列應用程式
+- [xhnbzdl/feishu-doc-export](https://github.com/xhnbzdl/feishu-doc-export) - 飛書文件導出服務
+- [abpframework/abp](https://github.com/abpframework/abp) - 開源 ASP.NET Core 網頁應用框架！提供一套有主見的架構，基於 .NET 構建企業級軟體解決方案，並落實最佳實踐。提供基礎設施。
+- [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) - 自由軟體媒體系統 - 伺服器後端與 API
+- [boy1dr/SpleeterGui](https://github.com/boy1dr/SpleeterGui) - Spleeter 的 Windows 桌面前端 - AI 音源分離
+- [Berrysoft/TsinghuaNet](https://github.com/Berrysoft/TsinghuaNet) - 已停止維護，請參見 tunet-rust 專案。清華大學校園網客戶端，適用於 UWP、iOS、Android。
+- [mili-tan/ArashiDNS.Dekunua](https://github.com/mili-tan/ArashiDNS.Dekunua) - 著名的 Windows 11 DoH 伺服器管理工具 / 適用於 Windows 11 的內建著名 DoH 伺服器管理工具
+- [2dust/clashN](https://github.com/2dust/clashN) - Windows 下的 clash 客戶端，支援 Mihomo
+- [zsh2401/AutumnBox](https://github.com/zsh2401/AutumnBox) - 圖形化 ADB 工具箱
+- [thufv/CMinor-Verifier](https://github.com/thufv/CMinor-Verifier) - 2022 年春季學期清華大學《軟體分析與驗證》課程實驗平台
+- [emrecancubukcu/Terrain-Decorator](https://github.com/emrecancubukcu/Terrain-Decorator) - 適用於 unity3d 的輕量級地形工具
+- [imbushuo/EnergyStar](https://github.com/imbushuo/EnergyStar) - 一個糟糕的應用，為未啟用的 Windows 應用和背景應用設置 SV2 效能模式
+- [0x5bfa/FluentHub](https://github.com/0x5bfa/FluentHub) - 優雅且強大的 Windows GitHub 客戶端
+- [FireCubeStudios/Protecc](https://github.com/FireCubeStudios/Protecc) - 它會保護你
+- [AxDSan/KeyPose](https://github.com/AxDSan/KeyPose) - Windows 版 Mouseposé 替代方案
+- [RaoHammas/Social-Space](https://github.com/RaoHammas/Social-Space) - Social Space 是一款可以讓你並排打開應用並儲存工作區的應用程式。
+- [ros/solidworks_urdf_exporter](https://github.com/ros/solidworks_urdf_exporter) - SolidWorks 到 URDF 匯出工具
+- [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) - 適用於所有系統的 PowerShell！
+- [Rise-Software/Rise-Media-Player](https://github.com/Rise-Software/Rise-Media-Player) - 一個全能媒體播放器，無論是音樂還是影片，線上或離線，Rise Media Player 都能勝任。美觀且原生支援最新 WinUI 版本。
+- [rocksdanister/lively](https://github.com/rocksdanister/lively) - 免費且開源的軟體，讓用戶能在 Windows 上設置動態桌布和螢幕保護程式，基於 WinUI 3。
+- [dremin/RetroBar](https://github.com/dremin/RetroBar) - 適用於現代 Windows 版本的經典 Windows 95、98、Me、2000、XP、Vista 工作列
+- [lalakii/MouseClickTool](https://github.com/lalakii/MouseClickTool) - 簡單好用的滑鼠連點器，體積小巧，效能優異~滑鼠連點器。當前版本僅 14KB，線上版（minimal）僅 5KB。https://mouseclicktool.sourceforge.io
+- [dotnet/yarp](https://github.com/dotnet/yarp) - 用於開發高效能 HTTP 反向代理應用的工具包。
+- [proxysu/ProxySU](https://github.com/proxysu/ProxySU) - Xray、V2ray、Trojan、NaiveProxy、Trojan-Go、ShadowsocksR(SSR)、Shadowsocks-libev 及相關插件、MTProto+TLS 一鍵安裝工具，適用於 Windows（一鍵科學上網）
+- [bitwarden/server](https://github.com/bitwarden/server) - Bitwarden 基礎設施/後端（API、資料庫、Docker 等）。
+- [QL-Win/QuickLook](https://github.com/QL-Win/QuickLook) - 將 macOS「Quick Look」功能帶到 Windows
+- [DinoChan/Loaf](https://github.com/DinoChan/Loaf) - 
+- [ShareX/ShareX](https://github.com/ShareX/ShareX) - ShareX 是一款免費且開源的應用，使用者可用單一按鍵截圖或錄製螢幕區域，並支援上傳圖片、文字及各類型檔案。
+- [shadowsocks/shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows) - shadowsocks 的 C# 移植版本
+- [gheyret/UyghurEditPP](https://github.com/gheyret/UyghurEditPP) - 支援拼寫檢查的維吾爾文文字編輯器
+- [marian42/wavefunctioncollapse](https://github.com/marian42/wavefunctioncollapse) - 在無限、程序生成的城市中漫步
+- [kenvix/USBCopyer](https://github.com/kenvix/USBCopyer) - 😉 插入 U 盤後自動按需複製該 U 盤檔案。「備份 & 偷 U 盤檔案神器」（寫作 USBCopyer，讀作 USBCopier）
+- [sttz/expresso](https://github.com/sttz/expresso) - expresso 是控制 ExpressVPN 應用的命令列介面
+- [Azure/azure-powershell](https://github.com/Azure/azure-powershell) - Microsoft Azure PowerShell
+- [LimerBoy/Adamantium-Thief](https://github.com/LimerBoy/Adamantium-Thief) - :key:（本程式碼不支援新版 Chrome）解密 Chromium 核心瀏覽器的密碼、Cookie、信用卡、歷史紀錄、書籤、自動填充。支援版本 &gt; 80。
+- [wakatime/notepadpp-wakatime](https://github.com/wakatime/notepadpp-wakatime) - Notepad++ 自動編程時間追蹤與統計外掛
+- [wakatime/office-wakatime](https://github.com/wakatime/office-wakatime) - Office 解決方案外掛，自動追蹤程式編寫時間與產生統計數據
+- [microsoft/PowerToys](https://github.com/microsoft/PowerToys) - Windows 系統工具，提升生產力
+- [0x7c13/Notepads](https://github.com/0x7c13/Notepads) - 現代、輕量的極簡主義文字編輯器
+- [srwi/EverythingToolbar](https://github.com/srwi/EverythingToolbar) - Everything 整合至 Windows 工作列
+- [mpvnet-player/mpv.net](https://github.com/mpvnet-player/mpv.net) - 🎞 mpv.net 是一款現代化介面的 Windows 媒體播放器。
+- [ModuleArt/quick-picture-viewer](https://github.com/ModuleArt/quick-picture-viewer) - 🖼️ 輕量多功能 Windows 桌面圖片檢視器。最佳 Windows 預設相片檢視器替代品。
+- [nilaoda/BBDown](https://github.com/nilaoda/BBDown) - Bilibili 下載器。命令列式嗶哩嗶哩下載工具。
+- [TGSAN/CMWTAT_Digital_Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition) - CloudMoe Windows 10/11 啟用工具，獲取數位授權，GitHub 上最棒的開源 Win10/Win11 數位權利（數位授權）啟用工具！
+- [AutoDarkMode/Windows-Auto-Night-Mode](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode) - 自動切換 Windows 10 和 Windows 11 的深色與淺色主題
+- [mili-tan/AuroraDNS.GUI](https://github.com/mili-tan/AuroraDNS.GUI) - 純淨抗污染，簡單輕量級
+- [Richasy/BiliBili-UWP](https://github.com/Richasy/BiliBili-UWP) - BiliBili 的 UWP 客戶端，當然，是第三方的
+- [BluePointLilac/ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager) - 🖱️ 純粹的 Windows 右鍵選單管理程式
+- [Tichau/FileConverter](https://github.com/Tichau/FileConverter) - File Converter 是一個非常簡單的工具，允許你在 Windows 檔案總管右鍵選單中轉換和壓縮檔案。
+- [Alkl58/NotEnoughAV1Encodes](https://github.com/Alkl58/NotEnoughAV1Encodes) - AV1（aomenc、rav1e & svt-av1）編碼器圖形界面
+- [t1m0thyj/WinDynamicDesktop](https://github.com/t1m0thyj/WinDynamicDesktop) - macOS Mojave 動態桌布功能的 Windows 移植版
+## C++ 
+
+- [zen-browser/desktop](https://github.com/zen-browser/desktop) - 歡迎來到更平靜的網際網路
+- [Lymphatus/caesium-image-compressor](https://github.com/Lymphatus/caesium-image-compressor) - Caesium 是一款影像壓縮軟體，幫助你儲存、傳送及分享數位圖片，支援 JPG、PNG、WebP 和 TIFF 格式。你可以快速減少檔案大小（以及解析度，如果你需要的話）。
+- [LANDrop/LANDrop](https://github.com/LANDrop/LANDrop) - 在區域網路內將任意檔案投送到任意裝置。
+- [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) - OpenAI Whisper 模型的 C/C++ 移植版本
+- [KTStephano/StratusGFX](https://github.com/KTStephano/StratusGFX) - 即時 3D 渲染引擎
+- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) - 在 C/C++ 中進行 LLM 推理
+- [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all) - GPT4All：在任意裝置上本地執行 LLM。開源並可商業使用。
+- [sainnhe/caj2pdf-qt](https://github.com/sainnhe/caj2pdf-qt) - CAJ 轉 PDF 轉換器（GUI 版）
+- [zhongyang219/TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor) - 這是一個用於顯示當前網速、CPU 及記憶體利用率的桌面浮動視窗軟體，並支援任務欄顯示，支援更換皮膚。
+- [klzgrad/naiveproxy](https://github.com/klzgrad/naiveproxy) - 安靜賺錢
+- [zhaochenyang20/IAI_2022](https://github.com/zhaochenyang20/IAI_2022) - 貴系 2022 年人智導全部資料，from homework to course review
+- [google-deepmind/code_contests](https://github.com/google-deepmind/code_contests) - 
+- [EdVince/Stable-Diffusion-NCNN](https://github.com/EdVince/Stable-Diffusion-NCNN) - 在 NCNN 上以 C++ 執行 Stable Diffusion，支援 txt2img 與 img2img
+- [ethereal-developers/OpenScan](https://github.com/ethereal-developers/OpenScan) - 保護隱私的文件掃描器
+- [aria2/aria2](https://github.com/aria2/aria2) - aria2 是一款輕量級多協議、多來源、跨平台的命令列下載工具。支援 HTTP/HTTPS、FTP、SFTP、BitTorrent 及 Metalink。
+- [s3fs-fuse/s3fs-fuse](https://github.com/s3fs-fuse/s3fs-fuse) - 基於 FUSE 的 Amazon S3 檔案系統
+- [carbon-language/carbon-lang](https://github.com/carbon-language/carbon-lang) - Carbon 語言主儲存庫：文件、設計、實作及相關工具。（注意：Carbon 語言為實驗性專案，詳見 README）
+- [diegomacario/Animation-Magic](https://github.com/diegomacario/Animation-Magic) - 3D 角色動畫數學可視化酷炫演示。
+- [ros-drivers/usb_cam](https://github.com/ros-drivers/usb_cam) - V4L2 USB 攝影機的 ROS 驅動程式
+- [0voice/cpp_new_features](https://github.com/0voice/cpp_new_features) - 2021年最新整理，C++ 學習資料，含 C++ 11/14/17/20/23 新特性、入門教程、推薦書籍、優質文章、學習筆記、教學視頻等
+- [lzh12139/cpp-big-homework](https://github.com/lzh12139/cpp-big-homework) - c++大作業
+- [polybar/polybar](https://github.com/polybar/polybar) - 一款快速且易用的狀態列
+- [cppla/ServerStatus](https://github.com/cppla/ServerStatus) - 雲探針、多伺服器探針、雲監控、多伺服器雲監控，演示：https://tz.cloudcpp.com/
+- [robopeak/rplidar_ros](https://github.com/robopeak/rplidar_ros) - 
+- [LiquidAmmonia/BigAssignment-AHotelSystem](https://github.com/LiquidAmmonia/BigAssignment-AHotelSystem) - 大一暑期 C++ 大作業 —— 飯店管理系統原始碼
+- [LoopholesInTheHeart/C-language-program-design-advanced-course-problem](https://github.com/LoopholesInTheHeart/C-language-program-design-advanced-course-problem) - 學堂在線 C++ 語言程式設計進階答案
+- [openmm/openmm](https://github.com/openmm/openmm) - OpenMM 是一個使用高效能 GPU 程式碼進行分子模擬的工具包。
+- [microsoft/wslg](https://github.com/microsoft/wslg) - 讓 Windows Subsystem for Linux 支援 Wayland 及 X server 相關場景
+- [octobanana/peaclock](https://github.com/octobanana/peaclock) - 終端機上響應式且可自訂的時鐘、計時器和碼錶。
+- [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) - FreeCAD 官方原始碼，自由且開源的多平台 3D 參數化建模軟體。
+- [tindy2013/subconverter](https://github.com/tindy2013/subconverter) - 訂閱格式轉換工具
+- [zufuliu/notepad4](https://github.com/zufuliu/notepad4) - Notepad4（Notepad2⨯2, Notepad2++）是一款基於 Scintilla 的輕量級 Windows 文字編輯器，支援多種程式語言的語法高亮、代碼折疊、自動補全和 API 列表。
+- [WhitewaterFoundry/Fedora-Remix-for-WSL](https://github.com/WhitewaterFoundry/Fedora-Remix-for-WSL) - Windows Subsystem for Linux 的 Fedora Remix。
+- [Mooophy/Cpp-Primer](https://github.com/Mooophy/Cpp-Primer) - C++ Primer 第五版答案
+- [huangmingchuan/Cpp_Primer_Answers](https://github.com/huangmingchuan/Cpp_Primer_Answers) - 《C++ Primer》第五版中文版習題答案
+- [xaxfan/Cpp_Primer_5th](https://github.com/xaxfan/Cpp_Primer_5th) - 📔  C++ Primer 第五版
+- [vooidzero/B23Downloader](https://github.com/vooidzero/B23Downloader) - （已長期停止更新）
+- [TCNOco/TcNo-WSA-SimpleSideload](https://github.com/TCNOco/TcNo-WSA-SimpleSideload) - 在 Windows 11 上一鍵開啟 .apk 檔案
+- [ksinkar/ticpp2](https://github.com/ksinkar/ticpp2) - Thinking in C++（第二卷）
+- [ksinkar/ticpp1](https://github.com/ksinkar/ticpp1) - Thinking in C++（第一卷）
+- [lammps/lammps](https://github.com/lammps/lammps) - LAMMPS 分子動力學軟體包的公開開發專案
+- [WerWolv/ImHex](https://github.com/WerWolv/ImHex) - 🔍 為逆向工程師、程式設計師及凌晨 3 點工作重視視力的人打造的十六進位編輯器。
+- [microsoft/WSL](https://github.com/microsoft/WSL) - Windows Subsystem for Linux
+- [AnkerLeng/Cpp-0-1-Resource](https://github.com/AnkerLeng/Cpp-0-1-Resource) - C++ 匠心之作 從 0 到 1 入門資料
+- [hkneptune/FreeFileSync](https://github.com/hkneptune/FreeFileSync) - FreeFileSync 原始碼鏡像。此儲存庫僅為 FreeFileSync 原始碼的鏡像，請勿提交 pull request。請到官方論壇（https://freefilesync.org/forum）回報問題。
+- [blender/blender](https://github.com/blender/blender) - Blender 官方鏡像
+- [cnr-isti-vclab/meshlab](https://github.com/cnr-isti-vclab/meshlab) - 開源網格處理系統
+- [rizinorg/cutter](https://github.com/rizinorg/cutter) - 由 rizin 驅動的免費開源逆向工程平台
+- [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) - 人人皆可用的開源機器學習框架
+- [M2Team/NanaZip](https://github.com/M2Team/NanaZip) - 為現代 Windows 體驗打造的 7-Zip 衍生版
+- [acaudwell/Gource](https://github.com/acaudwell/Gource) - 軟體版本控制視覺化工具
+- [TranslucentTB/TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) - 讓 Windows 工作列半透明／透明的輕量工具
+- [notepad-plus-plus/notepad-plus-plus](https://github.com/notepad-plus-plus/notepad-plus-plus) - Notepad++ 官方儲存庫
+- [Chaoses-Ib/IbEverythingExt](https://github.com/Chaoses-Ib/IbEverythingExt) - Everything 拼音搜尋、羅馬字搜尋、快速選擇擴充
+- [AutoHotkey/AutoHotkey](https://github.com/AutoHotkey/AutoHotkey) - AutoHotkey - Windows 上的巨集製作及自動化指令碼工具
+- [microsoft/terminal](https://github.com/microsoft/terminal) - 新版 Windows Terminal 與原始 Windows 主控台主機，集於同一處！
+- [microsoft/winget-cli](https://github.com/microsoft/winget-cli) - WinGet 是 Windows 套件管理員。此專案包含 CLI（命令列介面）、PowerShell 模組及 COM（元件物件模型）API（應用程式介面）。
+## CSS 
+
+- [BingyanStudio/LapisCV](https://github.com/BingyanStudio/LapisCV) - 📄 在 VSCode / Typora / Obsidian 上，輕鬆用 Markdown 創建你的履歷
+- [Akifyss/obsidian-border](https://github.com/Akifyss/obsidian-border) - 一款用於 obsidian.md 的主題
+- [wozulong/ChatGPTAuthHelper](https://github.com/wozulong/ChatGPTAuthHelper) - 一個簡單的 Chrome 插件，用來幫助你登入 ChatGPT。
+- [OrangeX4/cheatsheets](https://github.com/OrangeX4/cheatsheets) - OrangeX4 的 cheatsheets 網站。
+- [h16nning/typora-gitbook-theme](https://github.com/h16nning/typora-gitbook-theme) - 這是一個受 gitbook.com 啟發的 Typora 主題。大部分使用者界面已經重製。包含三個變體：兩個亮色和一個暗色主題。
+- [calcom/font](https://github.com/calcom/font) - 我們的 Cal Sans 字型之家。
+- [missing-semester-cn/missing-semester-cn.github.io](https://github.com/missing-semester-cn/missing-semester-cn.github.io) - CS Missing Semester 中文版
+- [hehonghui/awesome-english-ebooks](https://github.com/hehonghui/awesome-english-ebooks) - 經濟學人（含音頻）、紐約客、衛報、連線、大西洋月刊等英語雜誌免費下載，支持 epub、mobi、pdf 格式，每週更新
+- [Johnserf-Seed/TikTokWeb](https://github.com/Johnserf-Seed/TikTokWeb) - TikTokTool 網頁版
+- [hydescarf/Obsidian-Theme-Mado-Miniflow](https://github.com/hydescarf/Obsidian-Theme-Mado-Miniflow) - 一款美麗的極簡主義 Obsidian 主題。
+- [BobCoderS9/SSPanel-Metron](https://github.com/BobCoderS9/SSPanel-Metron) - SSPanel-Metron 主題，目前由 @Bobs9 維護開發中。
+- [nanxiaobei/hugo-paper](https://github.com/nanxiaobei/hugo-paper) - 🪺 一款簡單、乾淨、可自定義的 Hugo 主題
+- [ChenYFan-Tester/IPFS_PHOTO_SHARE](https://github.com/ChenYFan-Tester/IPFS_PHOTO_SHARE) - 💰用甚麼伺服器，ServerLess 搭建一個圖片分享站點！| 基於 CloudFlareWorker 無伺服器函數和 IPFS 去中心化儲存的圖片分享網站
+- [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts) - 圖標字型聚合、收集與修補工具。3,600+ 圖標，50+ 已修補字型：Hack、Source Code Pro 等。字型集：Font Awesome、Material Design Icons、Octicons 等
+- [HanryYu/typora-blubook-theme](https://github.com/HanryYu/typora-blubook-theme) - Blubook，一款平面化 typora 主題。
+- [nicejade/markdown-online-editor](https://github.com/nicejade/markdown-online-editor) - 📝 基於 Vue2、Vditor 所構建的線上 Markdown 編輯器，支持繪製流程圖、甘特圖、時序圖、任務列表、echarts 圖表、五線譜，以及 PPT 預覽、視頻音頻解析、HTML 自動轉換為 Markdown 等功能。https://www.niceshare.site/
+- [liangjingkanji/DrakeTyporaTheme](https://github.com/liangjingkanji/DrakeTyporaTheme) - 十二種主題風格 - Material Google JetBrains Vue 掘金 Purple Ayu Dark
+- [stilleshan/dockerfiles](https://github.com/stilleshan/dockerfiles) - 不定期收集、整理和編寫常用優秀軟體和服務的 Dockerfile 文件。 https://docker.ioiox.com
+- [daenuprobst/terminus-theme-hype](https://github.com/daenuprobst/terminus-theme-hype) - Terminus 的 Windows 10 主題
+- [hliu202/typora-purple-theme](https://github.com/hliu202/typora-purple-theme) - 一個紫色風格的 Typora 主題
+- [jtchen2k/typora-theme-next](https://github.com/jtchen2k/typora-theme-next) - 一款受 hexo 主題 NexT 啟發的 Typora 主題。
+- [houshanren/hangzhou_house_knowledge](https://github.com/houshanren/hangzhou_house_knowledge) - 2017 年買房經歷總結出來的買房購房知識分享給大家，希望對大家有所幫助。買房不易，且買且珍惜。Sharing the knowledge of buy an own house that according  to the experience at hangzhou in 2017 to all the people. It's not easy to buy a own house, so I
+- [atom/one-dark-ui](https://github.com/atom/one-dark-ui) - Atom One dark UI 主題
+- [Soanguy/typora-theme-autumnus](https://github.com/Soanguy/typora-theme-autumnus) - 適用於中文的 Typora 主題
+- [themepark-dev/theme.park](https://github.com/themepark-dev/theme.park) - 收錄 50 款自架應用主題/皮膚的集合！
+- [fslongjin/My-Easy-Pic-Bed](https://github.com/fslongjin/My-Easy-Pic-Bed) - 一個輕量級的圖床程式
+- [msys2/msys2.github.io](https://github.com/msys2/msys2.github.io) - MSYS2 官方首頁
+- [theme-nexmoe/hexo-theme-nexmoe](https://github.com/theme-nexmoe/hexo-theme-nexmoe) - 🔥 一款著重於圖片和影像的特別 Hexo 主題。圖片講故事，Nexmoe 讓它們更生動。
+- [sweatran/typora-onedark-theme](https://github.com/sweatran/typora-onedark-theme) - 一個受 VScode 的 One Dark Pro 主題啟發的 Typora 暗色主題。
+- [ljosberinn/github-one-dark-vivid](https://github.com/ljosberinn/github-one-dark-vivid) - [瀏覽器擴展] 將 GitHub 的程式碼外觀改為盡可能接近 VS Code 的 One Dark Vivid 與 Fira Code，基於 https://github.com/vovanmix/github-dark-theme
+- [blinkfox/typora-vue-theme](https://github.com/blinkfox/typora-vue-theme) - 這是一個受 Vue 文件風格啟發的 Typora 主題。 一個類似於 Vue 文件風格的 Typora Markdown 編輯器主題。
+- [kevinzhao2233/typora-theme-pie](https://github.com/kevinzhao2233/typora-theme-pie) - 這是一個受少數派和 Misty 風格啟發的 Typora 主題。
+- [airyv/typora-theme-redrail](https://github.com/airyv/typora-theme-redrail) - 這是一個受 pie 和 ursine 主題啟發的 Typora 主題。
+- [Theigrams/My-Typora-Themes](https://github.com/Theigrams/My-Typora-Themes) - Typora 的 CSS 樣式集
+- [itmeo/webgradients](https://github.com/itmeo/webgradients) - 精選的 CSS3 漸層集合，含 .sketch 和 .PSD 格式。
+- [spicetify/spicetify-themes](https://github.com/spicetify/spicetify-themes) - 社群驅動的 Spicetify Spotify 主題集合 - https://github.com/spicetify/cli
+- [adobe-fonts/source-code-pro](https://github.com/adobe-fonts/source-code-pro) - 用於使用者界面和程式設計環境的等寬字型系列
+- [vinceliuice/Fluent-gtk-theme](https://github.com/vinceliuice/Fluent-gtk-theme) - 適用於 Linux 桌面的 Fluent Design gtk 主題
+- [jesperkallunki/youtube](https://github.com/jesperkallunki/youtube) - 
+- [typora/theme.typora.io](https://github.com/typora/theme.typora.io) - Typora 主題網站
+- [mengkunsoft/lmbtfy](https://github.com/mengkunsoft/lmbtfy) - 🔍 讓我幫你百度一下？Let Me Baidu That For You
+- [treehollow/thuhole-index](https://github.com/treehollow/thuhole-index) - 
+## Clojure 
+
+- [tonsky/FiraCode](https://github.com/tonsky/FiraCode) - 免費的等寬字型，帶有程式設計連字
+- [logseq/logseq](https://github.com/logseq/logseq) - 一個以隱私為先、開源的知識管理與協作平台。下載連結：http://github.com/logseq/logseq/releases。路線圖：http://trello.com/b/8txSM12G/roadmap
+
+## CodeQL 
+
+- [github/codeql](https://github.com/github/codeql) - CodeQL：為全球安全研究人員以及 GitHub 進階安全中的程式碼掃描提供動力的函式庫與查詢
+
+## Common Lisp 
+
+- [susam/mathb](https://github.com/susam/mathb) - 提供 MathB.in 服務（2012-2025 年）的數學公式貼上分享軟體
+
+## Crystal 
+
+- [phil294/AHK_X11](https://github.com/phil294/AHK_X11) - Linux（基於 X11 系統）上的 AutoHotkey
+
+## D 
+
+- [abraunegg/onedrive](https://github.com/abraunegg/onedrive) - Linux 的 OneDrive 用戶端
+- [skilion/onedrive](https://github.com/skilion/onedrive) - Linux 上的免費 OneDrive 用戶端
+## Dart 
+
+- [honmaple/maple-file](https://github.com/honmaple/maple-file) - 多協議雲端檔案上傳與管理的無伺服器APP
+- [chen08209/FlClash](https://github.com/chen08209/FlClash) - 基於 ClashMeta 的多平台代理客戶端，簡單易用，開源且無廣告。
+- [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) - 一款支援全平台的現代化下載管理器。使用 Golang 和 Flutter 開發。
+- [Xiang-cd/THU-downloader](https://github.com/Xiang-cd/THU-downloader) - 一個支援UI介面的清華雲盤個人倉庫批量下載、連結批量下載、郵箱郵件批量下載工具，為畢業生批量遷移清華雲盤內容和備份郵箱提供便利。
+- [lijy91/biyi](https://github.com/lijy91/biyi) - Biyi (比譯) 是一款用 Flutter 編寫的便捷翻譯與詞典App。
+- [Kuingsmile/PicHoro](https://github.com/Kuingsmile/PicHoro) - 一款手機端雲端儲存平台/圖床管理和檔案上傳/下載工具，支援直接管理 Webdav、Alist、SSH/SFTP、雲伺服器，兼容 S3 API 平台，騰訊COS、阿里OSS、七牛雲、又拍雲、蘭空圖床、Imgur、SM.MS 和 github
+- [mulaRahul/keyviz](https://github.com/mulaRahul/keyviz) - Keyviz 是一款免費且開源的工具，可即時視覺化你的鍵盤 ⌨️ 與 🖱️ 滑鼠操作。
+- [pd4d10/git-touch](https://github.com/pd4d10/git-touch) - 一款支援 GitHub、GitLab、Bitbucket、Gitea 和 Gitee（碼雲）的開源App，使用 Flutter 開發
+- [nfcim/nfsee](https://github.com/nfcim/nfsee) - 使用 NFSee App 在 Android/iOS 手機上讀取你的交通/銀行/身份證卡
+- [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) - 讓專案、維基與團隊結合AI協作。AppFlowy 是一個AI協作工作空間，讓你在不失控資料的前提下做更多事。最受歡迎的開源 Notion 替代品。
+- [deckerst/aves](https://github.com/deckerst/aves) - Aves 是一款以 Flutter 為 Android 打造的相簿與中繼資料瀏覽App。
+- [harmonoid/harmonoid](https://github.com/harmonoid/harmonoid) - 🎵 播放並管理你的音樂庫。外觀精美、功能豐富。
+
+## Dockerfile 
+
+- [tao12345666333/radicale](https://github.com/tao12345666333/radicale) - 
+- [easychen/chatchan-dist](https://github.com/easychen/chatchan-dist) - Chat醬獨立部署版，docker方案自帶代理
+- [alexbelgium/hassio-addons](https://github.com/alexbelgium/hassio-addons) - 我的 homeassistant 插件
+- [albuild/snap](https://github.com/albuild/snap) - Amazon Linux 2 的 Snappy
+- [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) - 程式設計師在家做飯方法指南。（僅簡體中文）
+## EJS 
+
+- [Fechin/reference](https://github.com/Fechin/reference) - ⭕ 為開發者分享快速參考備忘表。
+
+## Elm 
+
+- [hilverd/glossary-page-template](https://github.com/hilverd/glossary-page-template) - 一個帶有內建編輯器的單一 HTML 頁面，用於建立可隨處部署的詞彙表。
+
+## Erlang 
+
+- [emqx/emqx](https://github.com/emqx/emqx) - 最具擴展性與可靠性的 AI、IoT、IIoT 和聯網車輛 MQTT Broker
+
+## GDScript 
+
+- [mbrlabs/Lorien](https://github.com/mbrlabs/Lorien) - 適用於 Windows、Linux 和 macOS 的無限畫布繪圖/白板應用程式。採用 Godot 製作。
+
+## Go 
+
+- [OpenListTeam/OpenList](https://github.com/OpenListTeam/OpenList) - 一個新的 AList 分支，應對反壟斷危機
+- [samzong/mdctl](https://github.com/samzong/mdctl) - 一款由 AI 驅動的 CLI 工具，強化你的 Markdown 工作流程，自動下載圖片、翻譯，更多功能即將推出！
+- [henrygd/beszel](https://github.com/henrygd/beszel) - 輕量級伺服器監控中心，提供歷史數據、Docker 統計與警報。
+- [jonssonyan/h-ui](https://github.com/jonssonyan/h-ui) - 僅僅是 Hysteria2 的面板
+- [bepass-org/warp-plus](https://github.com/bepass-org/warp-plus) - Warp+Psiphon，伊朗用於反審查的工具
+- [nezhahq/nezha](https://github.com/nezhahq/nezha) - :trollface: 自託管、輕量級伺服器與網站監控及運維工具
+- [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) - 更懶的方式來管理一切 Docker
+- [OwO-Network/DeepLX](https://github.com/OwO-Network/DeepLX) - 強大的免費 DeepL API，無需 Token
+- [juanfont/headscale](https://github.com/juanfont/headscale) - 一個開源、自託管的 Tailscale 控制伺服器實現
+- [tgdrive/teldrive](https://github.com/tgdrive/teldrive) - Teldrive
+- [apernet/OpenGFW](https://github.com/apernet/OpenGFW) - OpenGFW 是一個靈活、易用的開源中國防火長城（GFW）實現，運行於 Linux
+- [putyy/res-downloader](https://github.com/putyy/res-downloader) - 支持視頻號、小程序、抖音、快手、小紅書、直播流、m3u8、酷狗、QQ 音樂等常見網路資源下載！
+- [eyebluecn/tank](https://github.com/eyebluecn/tank) - 《藍眼雲盤》(Eyeblue Cloud Storage)
+- [Wsine/feishu2md](https://github.com/Wsine/feishu2md) - 一鍵命令下載飛書文件為 Markdown
+- [bitrise-io/envman](https://github.com/bitrise-io/envman) - 環境變數管理器
+- [ollama/ollama](https://github.com/ollama/ollama) - 快速啟動 Llama 3.3、DeepSeek-R1、Phi-4、Gemma 3、Mistral Small 3.1 及其他大型語言模型。
+- [stillOnTheWay/openbilibili-go-common](https://github.com/stillOnTheWay/openbilibili-go-common) - 哔哩哔哩 bilibili 網站後台工程原始碼，來源 https://github.com/openbilibili
+- [changwh/go-common](https://github.com/changwh/go-common) - 
+- [juzeon/poe-openai-proxy](https://github.com/juzeon/poe-openai-proxy) - 這是一個封裝器，讓你可以像使用 OpenAI API 一樣使用反向工程的 Python 庫 poe-api。你可以將你喜愛的基於 OpenAI API 的應用程式連接到這個代理，並享受
+- [faceair/clash-speedtest](https://github.com/faceair/clash-speedtest) - clash speedtest
+- [stulzq/azure-openai-proxy](https://github.com/stulzq/azure-openai-proxy) - Azure OpenAI Service 代理。將 OpenAI 官方 API 請求轉換為 Azure OpenAI API 請求。支援 GPT-4、Embeddings、Langchain。從 OpenAI 適配到 Azure OpenAI。
+- [mbrt/gmailctl](https://github.com/mbrt/gmailctl) - Gmail 過濾規則的宣告式配置
+- [xnth97/magic-conch](https://github.com/xnth97/magic-conch) - 基於 Azure 語音服務的 Telegram 機器人
+- [noobnooc/ebreader](https://github.com/noobnooc/ebreader) - 瀏覽器用 epub 閱讀器
+- [869413421/chatgpt-web](https://github.com/869413421/chatgpt-web) - 基於 ChatGPT3.5 API 實現的私有化 web 程式
+- [WireGuard/wireguard-windows](https://github.com/WireGuard/wireguard-windows) - 請於 https://www.wireguard.com/install 下載 WireGuard for Windows。此倉庫僅作鏡像，官方倉庫於 https://git.zx2c4.com/wireguard-windows
+- [j178/leetgo](https://github.com/j178/leetgo) - 極客最佳 LeetCode 夥伴 :snowboarder:
+- [erdos-one/r2](https://github.com/erdos-one/r2) - ☁️ Cloudflare R2 儲存的命令列介面工具
+- [containrrr/watchtower](https://github.com/containrrr/watchtower) - 自動化 Docker 容器基礎映像檔更新的流程
+- [authelia/authelia](https://github.com/authelia/authelia) - 適用於網頁應用的單點登入多因素入口，現已 OpenID 認證™
+- [m1guelpf/chatgpt-telegram](https://github.com/m1guelpf/chatgpt-telegram) - 只需一條命令即可運行你自己的 GPTChat Telegram 機器人！
+- [v2fly/v2ray-core](https://github.com/v2fly/v2ray-core) - 一個用於構建繞過網路限制代理的平台。
+- [usememos/memos](https://github.com/usememos/memos) - 一個現代化、開源、自託管的知識管理與筆記平台，專為注重隱私的用戶與組織設計。
+- [TimothyYe/bing-wallpaper](https://github.com/TimothyYe/bing-wallpaper) - 提供從 Bing.com 獲取每日壁紙的 RESTful API
+- [imgproxy/imgproxy](https://github.com/imgproxy/imgproxy) - 快速且安全的獨立伺服器，支援遠端圖片縮放與轉檔
+- [gaowanliang/DownloadBot](https://github.com/gaowanliang/DownloadBot) - (目前) 🤖 分布式跨平台 Telegram Bot，可控制你的 Aria2 伺服器、伺服器檔案並上傳至 OneDrive / Google Drive。
+- [huo-ju/dfserver](https://github.com/huo-ju/dfserver) - 分布式後端 AI 流水線伺服器
+- [charmbracelet/vhs](https://github.com/charmbracelet/vhs) - 你的 CLI 家用錄影機 📼
+- [TruthHun/DocHub](https://github.com/TruthHun/DocHub) - 參考百度文庫，使用 Beego（Golang）開發的開源文庫系統
+- [XTLS/Xray-core](https://github.com/XTLS/Xray-core) - Xray，萬物穿透。也是最好的 v2ray-core。魔法發生的地方。開放平台，多種用途。
+- [p4gefau1t/trojan-go](https://github.com/p4gefau1t/trojan-go) - Go 實現的 Trojan 代理，支援多路復用/路由功能/CDN 中轉/Shadowsocks 混淆插件，多平台、無依賴。A Trojan proxy written in Go. An unidentifiable mechanism that helps you bypass GFW. https://p4gefau1t.github.io/trojan-go/
+- [Jrohy/trojan](https://github.com/Jrohy/trojan) - trojan 多用戶管理部署程式，支援 web 頁面管理
+- [caddyserver/caddy](https://github.com/caddyserver/caddy) - 快速且可擴展的多平台 HTTP/1-2-3 網頁伺服器，自動 HTTPS
+- [Snawoot/opera-proxy](https://github.com/Snawoot/opera-proxy) - Opera VPN 代理的獨立客戶端
+- [gphper/grm](https://github.com/gphper/grm) - redis 可視化工具（gin+element-plus）【部署簡單便捷，SSH 連接，使用者驗證，操作日誌、命令行模式、LUA 腳本執行、Redis 監控等】
+- [maxmunzel/kvass](https://github.com/maxmunzel/kvass) - 個人用鍵值存儲
+- [caarlos0/starcharts](https://github.com/caarlos0/starcharts) - 繪製你的倉庫星標數變化圖表
+- [ViRb3/wgcf](https://github.com/ViRb3/wgcf) - 🚤 跨平台的非官方 Cloudflare Warp 命令列工具
+- [macronut/phantomsocks](https://github.com/macronut/phantomsocks) - 適用於 Linux/Windows/macOS 的跨平台代理客戶端/服務端
+- [macronut/ghostcp](https://github.com/macronut/ghostcp) - GhosTCP 是一款保護 Windows 下 TCP 連接免受干擾的程式。
+- [pretty66/iptables-web](https://github.com/pretty66/iptables-web) - golang 開發的 iptables web 管理程式
+- [navidrome/navidrome](https://github.com/navidrome/navidrome) - 🎧☁️ 你的個人串流音樂服務
+- [jwma/jump-jump](https://github.com/jwma/jump-jump) - 開箱即用，Golang 開發的功能完善短鏈接系統。URL shortener service developed with golang.
+- [akiyosi/goneovim](https://github.com/akiyosi/goneovim) - Neovim 的 GUI 前端
+- [pluveto/upgit](https://github.com/pluveto/upgit) - 支援剪貼簿的另一個上傳中心。可與 Typora、Snipaste、VSCode 良好配合。
+- [wabarc/wayback](https://github.com/wabarc/wayback) - 一個優先考慮隱私與可及性的 IM 風格介面歸檔工具，整合多種歸檔服務，包括 Internet Archive、archive.today、Ghostarchive、IPFS、Telegram
+- [muety/wakapi](https://github.com/muety/wakapi) - 📊 極簡、自託管、兼容 WakaTime 的程式碼統計後端
+- [disksing/sao-gen-gen](https://github.com/disksing/sao-gen-gen) - 騷話生成器生成器
+- [ArtalkJS/Artalk](https://github.com/ArtalkJS/Artalk) - 🌌  你的自託管評論系統 | 自託管評論系統
+- [sheepla/pingu](https://github.com/sheepla/pingu) - 🐧ping 指令，但是有 pingu
+- [noisetorch/NoiseTorch](https://github.com/noisetorch/NoiseTorch) - Linux 平台實時麥克風降噪工具
+- [utahta/pythonbrew](https://github.com/utahta/pythonbrew) - Python 環境管理器
+- [gogs/gogs](https://github.com/gogs/gogs) - Gogs 是一款輕鬆自託管的 Git 服務
+- [Licoy/fetch-github-hosts](https://github.com/Licoy/fetch-github-hosts) - 🌏 同步 github hosts 工具，支援多平台圖形化與命令行，內建客戶端和伺服器兩種模式
+- [Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip) - 🌚 🌍 🌝 GeoIP 規則檔增強版，支援自定 V2Ray dat 格式檔 geoip.dat、MaxMind mmdb 格式、sing-box SRS 格式、mihomo MRS 格式、Clash/Surge 規則集等。V2Ray、Xray-core、sing-box、Cl
+- [master-coder-ll/v2ray-web-manager](https://github.com/master-coder-ll/v2ray-web-manager) - v2ray-web-manager 是一個 v2ray 面板，也是一個集群解決方案；同時增加流量控制/帳號管理/限速等功能。key: admin , panel ,web,cluster,集群,proxy
+- [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core) - 一個用於構建繞過網路限制代理的平台。
+- [qax-os/excelize](https://github.com/qax-os/excelize) - 用於讀寫 Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) 試算表的 Go 語言函式庫
+- [go-olive/olive](https://github.com/go-olive/olive) - Live Stream Recorder        直播錄製/錄播
+- [ipfs/kubo](https://github.com/ipfs/kubo) - Go 語言實現的 IPFS
+- [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) - Cloudflare Tunnel 客戶端（原名 Argo Tunnel）
+- [junegunn/fzf](https://github.com/junegunn/fzf) - :cherry_blossom: 命令列模糊查找工具
+- [barthr/redo](https://github.com/barthr/redo) - Redo 是從歷史紀錄互動式建立可重複使用函式的終極工具
+- [safing/portmaster](https://github.com/safing/portmaster) - 🏔 熱愛自由 - ❌ 阻擋大規模監控
+- [yeasy/docker_practice](https://github.com/yeasy/docker_practice) - 學習並理解 Docker & 容器技術，配合實際 DevOps 操作！
+- [ipfs-cluster/ipfs-cluster](https://github.com/ipfs-cluster/ipfs-cluster) - IPFS 的 Pinset 管理協作工具
+- [anchore/syft](https://github.com/anchore/syft) - 從容器映像與檔案系統產生軟體物料清單（SBOM）的 CLI 工具與函式庫
+- [gabrie30/ghorg](https://github.com/gabrie30/ghorg) - 快速將整個組織/用戶倉庫複製或備份到單一目錄 - 支援 GitHub、GitLab、Bitbucket 等 🐇🥚
+- [rclone/rclone](https://github.com/rclone/rclone) - 「雲端儲存 rsync」- Google Drive、S3、Dropbox、Backblaze B2、One Drive、Swift、Hubic、Wasabi、Google Cloud Storage、Azure Blob、Azure Files、Yandex Files
+- [lifei6671/interview-go](https://github.com/lifei6671/interview-go) - golang 面試題集合
+- [prasmussen/gdrive](https://github.com/prasmussen/gdrive) - Google Drive 命令列客戶端
+- [cheat/cheat](https://github.com/cheat/cheat) - cheat 允許你在命令列建立和瀏覽互動式備忘表。設計來幫助 *nix 系統管理員記住常用但不常記得的指令選項。
+- [wtfutil/wtf](https://github.com/wtfutil/wtf) - 你的終端個人資訊儀表板
+- [Hackl0us/GeoIP2-CN](https://github.com/Hackl0us/GeoIP2-CN) - 小巧精悍、準確實用的 GeoIP2 數據庫
+- [HirbodBehnam/file2url-go](https://github.com/HirbodBehnam/file2url-go) - 將檔案轉換為直接下載連結 URL 的 Telegram 機器人
+- [pkuhollow/nameless](https://github.com/pkuhollow/nameless) - 未名樹洞的 Golang 後端
+- [AlistGo/alist](https://github.com/AlistGo/alist) - 🗂️ 支援多存儲的檔案列表/WebDAV 程式，基於 Gin 和 Solidjs。/ 一個支援多存儲的檔案列表/WebDAV 程式，使用 Gin 和 Solidjs。
+- [z4yx/GoAuthing](https://github.com/z4yx/GoAuthing) - srun4000（auth.tsinghua.edu.cn / net.tsinghua.edu.cn / Tsinghua-IPv4）認證工具
+- [drakkan/sftpgo](https://github.com/drakkan/sftpgo) - 功能齊全且高度可配置的 SFTP、HTTP/S、FTP/S 和 WebDAV 伺服器 - 支援 S3、Google Cloud Storage、Azure Blob
+- [frolic/redirect.name](https://github.com/frolic/redirect.name) - 簡單的基於 DNS 的重定向服務
+- [datastack-net/dockerized](https://github.com/datastack-net/dockerized) - 在 docker 內運行流行命令列工具
+- [yinchengtsinghua/IPFS-Golang-China](https://github.com/yinchengtsinghua/IPFS-Golang-China) - 清華尹成定制翻譯版 ipfs
+- [bonaysoft/notion-md-gen](https://github.com/bonaysoft/notion-md-gen) - 從 notion 生成適用於任意靜態網站生成器的 Markdown 文件
+- [minio/minio](https://github.com/minio/minio) - MinIO 是高效能、S3 相容的物件儲存，採用 GNU AGPLv3 授權開源。
+- [golang-china/go2-book](https://github.com/golang-china/go2-book) - :books: 《Go2編程指南》開源書籍，重點講解 Go2 新特性，以及 Go1 教程較少涉及的內容
+- [9seconds/mtg](https://github.com/9seconds/mtg) - 高度主觀的 Telegram MTPROTO 代理
+- [v2rayA/v2rayA](https://github.com/v2rayA/v2rayA) - 支援 VMess、VLESS、SS、SSR、Trojan、Tuic、Juicity 協議的 Project V 網頁 GUI 客戶端。🚀
+- [photoprism/photoprism](https://github.com/photoprism/photoprism) - 為去中心化網路設計的 AI 驅動照片應用 🌈💎✨
+- [lima-vm/lima](https://github.com/lima-vm/lima) - 專注於運行容器的 Linux 虛擬機
+- [Jrohy/cfw-updater](https://github.com/Jrohy/cfw-updater) - clash_for_windows 一鍵更新工具
+- [mozillazg/go-pinyin](https://github.com/mozillazg/go-pinyin) - 漢字轉拼音
+- [darjun/go-daily-lib](https://github.com/darjun/go-daily-lib) - Go 每日一庫
+- [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) - 🌩「自選優選 IP」測試 Cloudflare CDN 延遲和速度，獲取最快 IP！當然也支援其他 CDN / 多個解析 IP 的網站 ~
+- [ginuerzh/gost](https://github.com/ginuerzh/gost) - GO Simple Tunnel - 一個用 golang 編寫的簡單隧道
+- [snail007/goproxy](https://github.com/snail007/goproxy) - 🔥  Proxy 是一個高效能的 HTTP(S) 代理、SOCKS5 代理、WEBSOCKET、TCP、UDP 代理伺服器，以 golang 實現。現已支援鏈式代理、不同區域網的 nat 轉發、TCP/UDP 埠等
+- [ehang-io/nps](https://github.com/ehang-io/nps) - 一款輕量級、高效能、功能強大的內網穿透代理伺服器。支援 tcp、udp、socks5、http 等幾乎所有流量轉發，可用來訪問內網網站、本地支付介面調試、ssh 訪問、遠端桌面、內網 dns 解析、內網 socks5 代理等等……，並帶有功能強大的 web 管理端。a lightweight, high-performance, powerful intranet penetration proxy server,
+- [fatedier/frp](https://github.com/fatedier/frp) - 一款快速的反向代理，幫助你將位於 NAT 或防火牆後的本地伺服器暴露到互聯網上。
+- [gohugoio/hugo](https://github.com/gohugoio/hugo) - 世界上最快的建站框架。
+- [mholt/archiver](https://github.com/mholt/archiver) - 已棄用。請改用 mholt/archives。
+- [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) - 生產等級的容器調度與管理
+- [sjlleo/VerifyDisneyPlus](https://github.com/sjlleo/VerifyDisneyPlus) - 一個檢測出口 IP 是否解鎖 DisneyPlus 的腳本
+- [0xDkd/auxpi](https://github.com/0xDkd/auxpi) - 🍭 集合多家 API 的新一代圖床
+- [ahui2016/localtags](https://github.com/ahui2016/localtags) - localtags：一個本地文件備份系統 + 正確設計的標籤系統
+- [sourcegraph/sourcegraph-public-snapshot](https://github.com/sourcegraph/sourcegraph-public-snapshot) - 具備程式碼搜尋與 Cody 的 AI 程式碼平台
+- [indes/flowerss-bot](https://github.com/indes/flowerss-bot) - 一個支援應用內閱讀的 Telegram RSS Bot。
+- [go-gitea/gitea](https://github.com/go-gitea/gitea) - Git 與一杯茶！輕鬆自架的一站式軟體開發服務，包括 Git 託管、程式碼審查、團隊協作、套件註冊中心和 CI/CD
+- [zu1k/proxypool](https://github.com/zu1k/proxypool) - 自動爬取公網代理節點，去重並測試可用性，然後提供節點列表
+- [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) - 社群維護的域名清單。為 V2Ray 生成 geosite.dat。
+- [planetscale/cli](https://github.com/planetscale/cli) - PlanetScale Database 的命令列工具
+- [MacroPower/wakatime_exporter](https://github.com/MacroPower/wakatime_exporter) - 從 Wakatime 匯出 Prometheus 指標。
+- [long2ice/longurl](https://github.com/long2ice/longurl) - 一個自架的短網址服務
+- [nektos/act](https://github.com/nektos/act) - 在本地執行你的 GitHub Actions 🚀
+- [Tylous/ZipExec](https://github.com/Tylous/ZipExec) - 一種從受密碼保護的 zip 執行二進位檔的獨特技術
+- [cloudreve/cloudreve](https://github.com/cloudreve/cloudreve) - 🌩 自架的檔案管理與分享系統，支援多種儲存供應商
+- [cli/cli](https://github.com/cli/cli) - GitHub 官方命令列工具
+- [stashapp/stash](https://github.com/stashapp/stash) - 你的色情影片整理器，使用 Go 撰寫。文件：https://docs.stashapp.cc
+- [JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - 最可自訂且低延遲的跨平台／Shell 提示渲染器
+- [misitebao/yakia](https://github.com/misitebao/yakia) - Yakia 是開發者助手。
+- [eallion/uBlacklist-subscription-compilation](https://github.com/eallion/uBlacklist-subscription-compilation) - 🚫 uBlacklist 訂閱合集
+- [moonD4rk/HackBrowserData](https://github.com/moonD4rk/HackBrowserData) - 提取和解密瀏覽器資料，支援多種資料型態，適用於多種作業系統（macOS、Windows、Linux）。
+## HCL 
+
+- [rust-lang/simpleinfra](https://github.com/rust-lang/simpleinfra) - Rust 基礎設施自動化
+- [SadServers/sadservers](https://github.com/SadServers/sadservers) - SadServers：Linux 與 DevOps 疑難排解場景 SaaS
+
+## HTML 
+
+- [LesFerch/WinSetView](https://github.com/LesFerch/WinSetView) - 全域設定資源管理器資料夾檢視
+- [seven1m/justforfunnoreally.dev](https://github.com/seven1m/justforfunnoreally.dev) - 一個小網站，解釋有時我們只是想找樂子！
+- [summivox/thucal2](https://github.com/summivox/thucal2) - 清華大學課程 -&gt; iCalendar 格式 (.ics) -&gt; Google Calendar 等
+- [GitHubyangjunyi/XMind](https://github.com/GitHubyangjunyi/XMind) - 計算機科學與技術知識圖譜
+- [federico-busato/Modern-CPP-Programming](https://github.com/federico-busato/Modern-CPP-Programming) - 現代 C++ 程式設計課程 (C++03/11/14/17/20/23/26)
+- [QSCTech/zju-icicles](https://github.com/QSCTech/zju-icicles) - 浙江大學課程攻略共享計劃
+- [focustxt/focustxt.github.io](https://github.com/focustxt/focustxt.github.io) - 
+- [wooveep/chatserver-web](https://github.com/wooveep/chatserver-web) - 基於 OPENAI 的 ChatGPTAPI 開發，適合企業團隊使用的 AI 助手
+- [ClarenceDan/openai-billing](https://github.com/ClarenceDan/openai-billing) - 本專案提供快速便捷的方式查詢 OpenAI API Key 餘額，支援多 Key 查詢，並包含設置 Cloudflare 反向代理的教學。這個項目提供了一個快速簡便的方式來查詢 OpenAI
+- [xqdoo00o/chatgpt-web](https://github.com/xqdoo00o/chatgpt-web) - 基於 OpenAI API 的純 Javascript ChatGPT 展示
+- [x-dr/chatgptProxyAPI](https://github.com/x-dr/chatgptProxyAPI) - 🔥 使用 cloudflare 搭建免費的 OpenAI api 代理，解決網路無法訪問問題。支援流式輸出
+- [niturobert/gmailkit](https://github.com/niturobert/gmailkit) - 如果 reddit 是由 gmail 團隊製作的 reddit 用戶端。
+- [cf-pages/Telegraph-Image](https://github.com/cf-pages/Telegraph-Image) - 圖片託管解決方案，Flickr/imgur 替代品，讓用戶更容易分享圖片。使用 Cloudflare Pages 與 Telegraph。
+- [sofish/typo.css](https://github.com/sofish/typo.css) - 中文網頁重設與排版：一致化瀏覽器排版效果，打造最適合中文閱讀的網頁排版
+- [atelier-anchor/smiley-sans](https://github.com/atelier-anchor/smiley-sans) - 得意黑 Smiley Sans：一款在人文觀感和幾何特徵中尋找平衡的中文黑體
+- [52ludama/linode_panel](https://github.com/52ludama/linode_panel) - 一個簡單的 linode api 開機面板
+- [praveenjuge/copybook](https://github.com/praveenjuge/copybook) - Copy book 是網絡常用文本的集合。
+- [yusanshi/emgithub](https://github.com/yusanshi/emgithub) - 嵌入 GitHub 倉庫的檔案，就像 GitHub Gist 一樣。
+- [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) - 為 DevOps 和基礎設施開發者收集有免費層級的 SaaS、PaaS 和 IaaS 服務清單
+- [lvwzhen/foodie-ex](https://github.com/lvwzhen/foodie-ex) - 🍜「吃貨制霸生成器」
+- [steveruizok/perfect-freehand](https://github.com/steveruizok/perfect-freehand) - 繪製完美的壓力感應自由手繪線條。
+- [missuo/Telegraph-Image-Hosting](https://github.com/missuo/Telegraph-Image-Hosting) - 使用 Telegraph 建立免費圖片託管
+- [233boy/tools](https://github.com/233boy/tools) - 
+- [sciooga/Dropper](https://github.com/sciooga/Dropper) - Dropper（投擲器），基於七牛雲物件儲存的檔案分享工具
+- [Chuyu-Team/Dism-Multi-language](https://github.com/Chuyu-Team/Dism-Multi-language) - Dism++ 多語言支援與 BUG 回報
+- [openbiox/weekly](https://github.com/openbiox/weekly) - 生信愛好者週刊（每週日發布）
+- [CaiJimmy/hugo-theme-stack](https://github.com/CaiJimmy/hugo-theme-stack) - 為部落客設計的卡片式 Hugo 主題
+- [WeNeedHome/SummaryOfLoanSuspension](https://github.com/WeNeedHome/SummaryOfLoanSuspension) - 全國各省市停貸通知匯總
+- [themesberg/landwind](https://github.com/themesberg/landwind) - 使用 Tailwind CSS 和 Flowbite 構建的響應式乾淨登陸頁
+- [rameshvarun/ipfs-share](https://github.com/rameshvarun/ipfs-share) - 一個簡單的 IPFS 驅動 Pastebin / 圖片託管 / 檔案分享應用
+- [closed-social/safeShare](https://github.com/closed-social/safeShare) - 更安全地分享清華雲盤連結
+- [artchen/hexo-theme-element](https://github.com/artchen/hexo-theme-element) - 簡約的 Hexo 主題
+- [gillescastel/math-on-quora](https://github.com/gillescastel/math-on-quora) - Quora 上 LaTeX 的簡短指南
+- [SAST-skill-docers/sast-skill-docs](https://github.com/SAST-skill-docers/sast-skill-docs) - SAST 技能文檔，我們正在為你的計算機科學學習鋪路。
+- [maptalks/maptalks.js](https://github.com/maptalks/maptalks.js) - 輕量且可插拔的 JavaScript 2D/3D 地圖整合庫
+- [QianJianTech/LaTeXLive](https://github.com/QianJianTech/LaTeXLive) - LateX 公式編輯器－媽叔出品
+- [LuckyHookin/edge-TTS-record](https://github.com/LuckyHookin/edge-TTS-record) - 一個可以錄製 Microsoft Edge 瀏覽器語音合成（TTS）語音並輸出為 .wav 音訊的（Windows 平台）工具。
+- [suulnnka/BullshitGenerator](https://github.com/suulnnka/BullshitGenerator) - 文章產生器
+- [tmplink/tmpUI](https://github.com/tmplink/tmpUI) - 基於 ES6 的 JavaScript 框架。可用於模組化你的前端專案。僅 35kb，無其他依賴。易於使用。
+- [ossu/computer-science](https://github.com/ossu/computer-science) - 🎓 免費自學計算機科學路徑！
+- [DhanushNehru/Ultimate-Web-Development-Resources](https://github.com/DhanushNehru/Ultimate-Web-Development-Resources) - 收錄大多數開發需求的網頁開發資源集合
+- [vernesong/OpenClash](https://github.com/vernesong/OpenClash) - OpenWrt 的 Clash 客戶端
+- [Snickdx/pwadocs](https://github.com/Snickdx/pwadocs) - 讓你的 mkdocs 網站變成 PWA
+- [yoyodadada/haoruanfenxiang](https://github.com/yoyodadada/haoruanfenxiang) - 好軟分享
+- [me115/linuxtools_rst](https://github.com/me115/linuxtools_rst) - Linux 工具快速教程
+- [stellarkey/912_project](https://github.com/stellarkey/912_project) - 清華大學計算機系考研攻略
+- [pengchujin/v2rayDocker](https://github.com/pengchujin/v2rayDocker) - 一鍵 v2ray ws + tls 方便就完事了
+- [iBug/iBug-source](https://github.com/iBug/iBug-source) - 個人網站原始碼
+- [bg6cq/speedtest](https://github.com/bg6cq/speedtest) - 輕量級 HTML5 Speedtest
+- [PKUFlyingPig/cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning) - 計算機自學指南
+- [byoungd/English-level-up-tips](https://github.com/byoungd/English-level-up-tips) - 英語進階學習指南，或許對你受益良多 🎉 。離譜的英語學習指南/英語學習教程。
+- [emilwallner/Screenshot-to-code](https://github.com/emilwallner/Screenshot-to-code) - 將設計稿轉換為靜態網站的神經網絡
+- [coolwanglu/pdf2htmlEX](https://github.com/coolwanglu/pdf2htmlEX) - 將 PDF 轉換為 HTML，保留文字和格式。
+- [shd101wyy/markdown-preview-enhanced](https://github.com/shd101wyy/markdown-preview-enhanced) - Atom 編輯器中最好的 Markdown 預覽擴展之一！
+- [google/styleguide](https://github.com/google/styleguide) - Google 開源項目風格指南
+- [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) - 12 週，26 課，52 測驗，經典機器學習課程，人人可學
+- [belaviyo/save-images](https://github.com/belaviyo/save-images) - 儲存巢狀 iframe 頁面中已載入的圖片
+- [nisrulz/app-privacy-policy-generator](https://github.com/nisrulz/app-privacy-policy-generator) - 為您的行動應用產生自訂的隱私政策與使用條款文件
+- [google/fonts](https://github.com/google/fonts) - Google Fonts 提供的字型檔案及其公開議題追蹤
+- [xinglie/report-designer](https://github.com/xinglie/report-designer) - ⚡列印設計、可視化、標籤列印、編輯器、設計器、數據分析、報表設計、組件化、表單設計、h5 頁面、問卷調查、pdf 生成、流程圖、試卷、SVG、圖形元素、物聯網、標籤紙、小票
+- [HuyNguyenAu/notability-to-svg](https://github.com/HuyNguyenAu/notability-to-svg) - 將 Notability 筆記筆劃轉換為包裹 SVG 的 HTML 檔案的簡單 Python 腳本
+- [guillaC/JSBatchobfuscator](https://github.com/guillaC/JSBatchobfuscator) - JSBatchobfuscator 是一款簡單的 batch 腳本混淆器
+- [vitalets/github-trending-repos](https://github.com/vitalets/github-trending-repos) - 用原生 GitHub 通知追蹤你最愛語言的 GitHub 趨勢倉庫！
+- [PKUanonym/REKCARC-TSC-UHT](https://github.com/PKUanonym/REKCARC-TSC-UHT) - 清華大學計算機系課程攻略
+- [Sobranier/github-chart](https://github.com/Sobranier/github-chart) - 
+- [renzhezhilu/img2color-online](https://github.com/renzhezhilu/img2color-online) - 在線圖片配色提取 測試中...
+- [UmeLabs/node.umelabs.dev](https://github.com/UmeLabs/node.umelabs.dev) - 每天 24:00 前更新免費 SS/SSR 節點
+
+## Hack 
+
+- [slan-ning/coolshell-markdown](https://github.com/slan-ning/coolshell-markdown) - coolshell.cn Markdown 版本存檔
+
+## Haskell 
+
+- [mujx/hakatime](https://github.com/mujx/hakatime) - Wakatime 伺服器實作與分析儀表板
+- [asvyazin/imgbb-telegram-bot](https://github.com/asvyazin/imgbb-telegram-bot) - 用於自動上傳圖片至 imgbb 的 Telegram 機器人
+- [jgm/pandoc](https://github.com/jgm/pandoc) - 通用標記語言轉換器
+
+## Haxe 
+
+- [saharan/works](https://github.com/saharan/works) - oimo.io/works 上多個作品的程式碼
+
+## Java 
+
+- [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) - #1 本地部署的網頁應用，可對 PDF 檔案執行各種操作
+- [krahets/LeetCode-Book](https://github.com/krahets/LeetCode-Book) - 《劍指 Offer》Python、Java、C++ 解題程式碼，LeetBook《圖解算法資料結構》配套程式碼倉庫
+- [krahets/hello-algo](https://github.com/krahets/hello-algo) - 《Hello 算法》：動畫圖解、一鍵運行的資料結構與算法教學。支援 Python、Java、C++、C、C#、JS、Go、Swift、Rust、Ruby、Kotlin、TS、Dart 程式碼。簡體版與繁體版同步更新，英文版翻譯中
+- [apereo/cas](https://github.com/apereo/cas) - Apereo CAS - 提供身分認證與單一登入服務，適用於所有人甚至更廣泛的用戶。
+- [niumoo/bing-wallpaper](https://github.com/niumoo/bing-wallpaper) - 必應每日超清壁紙（4K）Bing Daily Wallpaper (4K)
+- [SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium) - 瀏覽器自動化框架與生態系統
+- [Jigsaw-Code/Intra](https://github.com/Jigsaw-Code/Intra) - 一款可在 Android 上測試新 DNS-over-HTTPS 服務的實驗性工具
+- [eclipse/openvsx](https://github.com/eclipse/openvsx) - 開源的 VS Code 擴充套件註冊中心
+- [google/private-compute-services](https://github.com/google/private-compute-services) - 
+- [G3G4X5X6/ultimate-cube](https://github.com/G3G4X5X6/ultimate-cube) - ultimate-cube 是開源的遠端伺服器管理工具，支援 SSH、RDP、Telnet、COM 等協議。
+- [theonedev/onedev](https://github.com/theonedev/onedev) - 結合 CI/CD、看板與套件的 Git 伺服器。無縫整合，極致體驗。
+- [hellokaton/profit](https://github.com/hellokaton/profit) - 🤔 biezhi 線上打賞系統，開啟你的討飯生涯。
+- [GrowingGit/GitHub-Chinese-Top-Charts](https://github.com/GrowingGit/GitHub-Chinese-Top-Charts) - :cn: GitHub 中文排行榜，各語言分設「軟體｜資料」榜單，精準定位中文優質專案。各取所需，高效學習。
+- [iterate-ch/cyberduck](https://github.com/iterate-ch/cyberduck) - Cyberduck 是一款自由軟體的 FTP、SFTP、WebDAV、Amazon S3、Backblaze B2、Microsoft Azure & OneDrive 及 OpenStack Swift 檔案傳輸用戶端，支援 Mac 與 Windows。
+- [ssssssss-team/spider-flow](https://github.com/ssssssss-team/spider-flow) - 新一代爬蟲平台，以圖形化方式定義爬蟲流程，無需寫程式碼即可完成爬蟲。
+- [git-commit-id/git-commit-id-maven-plugin](https://github.com/git-commit-id/git-commit-id-maven-plugin) - Maven 外掛，可將建置時的 Git 倉庫資訊包含至 POJO / *.properties 中。讓你的應用程式能清楚顯示其來源版本！在大型分散式部署中極為寶貴。
+- [ciscolxh/aliyunshare](https://github.com/ciscolxh/aliyunshare) - 讓阿里雲盤可以分享所有檔案
+- [zfile-dev/zfile](https://github.com/zfile-dev/zfile) - 線上雲端硬碟、網盤、OneDrive、雲端儲存、私有雲、對象儲存、h5ai、上傳、下載
+- [jagrosh/MusicBot](https://github.com/jagrosh/MusicBot) - 🎶 一款易於自行設置及運行的 Discord 音樂機器人！
+- [zixpo/candybar](https://github.com/zixpo/candybar) - Android 圖示包儀表板。由社群支援。
+- [LawnchairLauncher/lawnchair](https://github.com/LawnchairLauncher/lawnchair) - 無需花俏標語。
+## JavaScript 
+
+- [mozilla-firefox/firefox](https://github.com/mozilla-firefox/firefox) - Mozilla Firefox 網頁瀏覽器的官方倉庫。
+- [SamiranRai/Glyph-Tool](https://github.com/SamiranRai/Glyph-Tool) - Vs Code 擴展：Glyph 是一款簡單但強大的 Visual Studio Code 擴展，可幫助開發者在代碼庫內直接高亮、追蹤和管理任務相關的註釋。無論是 TOD
+- [wshanks/Zutilo](https://github.com/wshanks/Zutilo) - Zotero 插件，提供額外編輯功能
+- [Quick-Bin/qbin](https://github.com/Quick-Bin/qbin) - QBin：輕量高效的線上編輯與分享平台 | Monaco+Cherry Markdown專業編輯器 | Deno KV+DrizzleORM+EdgeCache多級快取 | PWA離線訪問+IndexedDB存儲 | 自訂短鏈+密碼+有效期 | 支援文本/代碼/圖片/視頻 | OAuth2登入 | 明暗主題 | 即時保存 | Docker/Deno一鍵部署 | PasteBin替代方案
+- [Tampermonkey/tampermonkey](https://github.com/Tampermonkey/tampermonkey) - Tampermonkey 是最受歡迎的用戶腳本管理器，擁有超過 1,000 萬用戶。可用於 Chrome、Microsoft Edge、Safari、Opera Next 和 Firefox。
+- [jason5ng32/Github-Models-Telegram-Bot](https://github.com/jason5ng32/Github-Models-Telegram-Bot) - 在 Telegram 中使用 Github LLM
+- [Llaves/ClaudeExport](https://github.com/Llaves/ClaudeExport) - 將 Claude 對話匯出為 HTML
+- [nfe-w/xhs_pic_download](https://github.com/nfe-w/xhs_pic_download) - 結合 iOS 的「快捷指令」，一鍵從小紅書下載無浮水印圖片/視頻
+- [MarSeventh/CloudFlare-ImgBed](https://github.com/MarSeventh/CloudFlare-ImgBed) - 基於 CloudFlare 的開源文件託管解決方案（圖床/文件床/網盤）
+- [uBlockOrigin/uBOL-home](https://github.com/uBlockOrigin/uBOL-home) - uBO Lite 首頁 (MV3)
+- [joye61/pic-smaller](https://github.com/joye61/pic-smaller) - Pic Smaller – 智能壓縮 JPEG、PNG、WEBP、AVIF、SVG 和 GIF 圖片
+- [copilot-is/myip](https://github.com/copilot-is/myip) - 我的 IP 及網路資訊
+- [fishjar/kiss-translator](https://github.com/fishjar/kiss-translator) - 一個簡約、開源的雙語對照翻譯擴展 & 油猴腳本
+- [A1phaN/tsinghua-ereserves-lib-downloader](https://github.com/A1phaN/tsinghua-ereserves-lib-downloader) - 從清華大學電子課程預留服務平台下載 PDF
+- [dockkkk/CF-WORKERS](https://github.com/dockkkk/CF-WORKERS) - 
+- [Repcz/Tool](https://github.com/Repcz/Tool) - 自用工具
+- [zizifn/edgetunnel](https://github.com/zizifn/edgetunnel) - 在 edge/serverless runtime 中運行 V2ray
+- [cteamx/Thief](https://github.com/cteamx/Thief) - 一款創新跨平台摸魚神器，支援小說、股票、網頁、視頻、直播、PDF、遊戲等摸魚模式，為上班族打造的上班必備神器，使用此軟體可讓上班倍感輕鬆，遠離 ICU。
+- [QuantumNous/new-api](https://github.com/QuantumNous/new-api) - AI 模型介面管理與分發系統，支援多種大模型統一格式調用，支援 OpenAI、Claude 等格式，可供個人或企業內部管理與分發管道使用，本項目基於 One API 二次開發。🍥 新一代 LLM 閘道與 AI 資產管理系統，支援多語言。
+- [heyman/heynote](https://github.com/heyman/heynote) - 為開發者專設的便條本
+- [NirmalScaria/le-git-graph](https://github.com/NirmalScaria/le-git-graph) - 為 GitHub 網站新增 git 圖形的瀏覽器擴展
+- [liu-ziting/PetThoughts](https://github.com/liu-ziting/PetThoughts) - 我知道你的寵物在想什麼 - gemini
+- [leibnizli/hummingbird](https://github.com/leibnizli/hummingbird) - 一款壓縮（jpg/png/webp/svg/gif/css/js/html/mp4/mov）應用，能轉換多種圖片格式，支援 macOS 和 Windows。
+- [tans/voicegpt](https://github.com/tans/voicegpt) - 與 gpt 語音對話
+- [LaniJ/invoice-dragon](https://github.com/LaniJ/invoice-dragon) - 免費開立發票與收據的開源應用
+- [scomper/cf-openai-azure-proxy](https://github.com/scomper/cf-openai-azure-proxy) - 將 OpenAI 請求代理到 Azure OpenAI 服務的 Cloudflare worker 腳本
+- [dice2o/BingGPT](https://github.com/dice2o/BingGPT) - 新 Bing AI 聊天桌面應用 (Windows, macOS 和 Linux)
+- [evildevill/Article-Summarizer](https://github.com/evildevill/Article-Summarizer) - 使用 Summize 簡化您的閱讀，這是一個開源文章摘要工具，能將冗長文章轉為清晰簡明摘要
+- [eideehi/sd-webui-better-prompt](https://github.com/eideehi/sd-webui-better-prompt) - Stable Diffusion Web UI 擴展，提供更優化的提示詞編輯介面
+- [songquanpeng/one-api](https://github.com/songquanpeng/one-api) - LLM API 管理 & 分發系統，支援 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字節豆包、ChatGLM、文心一言、訊飛星火、通義千問、360 智腦、騰訊混元等主流模型，統一 API 適配，可用於 key 管理與二次分發。單可執行檔，提供 Docker 映像，一鍵部署，開箱即用。LLM API management & key 
+- [tangyoha/telegram_media_downloader](https://github.com/tangyoha/telegram_media_downloader) - 基於 Dineshkarthik 的專案，Telegram 視頻下載，Telegram 資源下載，跨平台，支援網頁查看下載進度，支援 bot 下發指令下載，支援下載已加入但限制下載的私有群資源，telegram media download，每個檔案最高 2GiB
+- [haibbo/cf-openai-azure-proxy](https://github.com/haibbo/cf-openai-azure-proxy) - 將 OpenAI 請求代理到 Azure OpenAI 服務的 Cloudflare worker 腳本
+- [ChatGPTBox-dev/chatGPTBox](https://github.com/ChatGPTBox-dev/chatGPTBox) - 深度整合 ChatGPT 到你的瀏覽器，所需一切都在這裡
+- [onury5506/Discord-ChatGPT-Bot](https://github.com/onury5506/Discord-ChatGPT-Bot) - Discord ChatGPT 機器人
+- [plantree/ruanyf-weekly](https://github.com/plantree/ruanyf-weekly) - VitePress 構建阮一峰的技術週刊
+- [jiacai2050/pageview-worker](https://github.com/jiacai2050/pageview-worker) - 基於 Cloudflare Workers 和 KV 的 Page View 後端
+- [giosilvi/GPT-Prompter](https://github.com/giosilvi/GPT-Prompter) - 瀏覽器擴展，對選中文本快速生成 OpenAI GPT-3、GPT-4 & ChatGPT API 提示詞。可在 Chrome 網頁商店和 Firefox 附加元件獲得
+- [anc95/ChatGPT-CodeReview](https://github.com/anc95/ChatGPT-CodeReview) - 🐥 由 ChatGPT 驅動的代碼審查機器人
+- [leon-fong/ChatGPT-miniprogram](https://github.com/leon-fong/ChatGPT-miniprogram) - 🤖 ChatGPT 小程序
+- [fraserxu/fraserxu.dev](https://github.com/fraserxu/fraserxu.dev) - 我的新個人網站
+- [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) - 本倉庫收錄 ChatGPT 提示詞精選，幫助更好地使用 ChatGPT 及其他 LLM 工具。
+- [semantic-release/semantic-release](https://github.com/semantic-release/semantic-release) - :package::rocket: 全自動版本管理與套件發佈
+- [lmm214/memos-bber](https://github.com/lmm214/memos-bber) - Memos 的 Chrome 擴展
+- [dccxi/trust-zh-CN](https://github.com/dccxi/trust-zh-CN) - 一個合作博弈論的互動講解手冊 An interactive guide to the game theory of cooperation
+- [dessant/web-archives](https://github.com/dessant/web-archives) - 用於查看網頁存檔和快取版本的瀏覽器擴展，支援 Chrome、Edge 和 Safari
+- [argenos/zotero-mdnotes](https://github.com/argenos/zotero-mdnotes) - Zotero 插件，將條目元資料和筆記匯出為 markdown 檔
+- [zotero/zotero](https://github.com/zotero/zotero) - Zotero 是一款免費、易用的工具，協助你收集、組織、註解、引用與分享研究資源。
+- [microfeed/microfeed](https://github.com/microfeed/microfeed) - 輕量級雲端自架 CMS，適用於播客、部落格、照片、視頻、文件及精選網址。
+- [M3chD09/Cloudflare-Workers-E5Renew](https://github.com/M3chD09/Cloudflare-Workers-E5Renew) - 用於 E5 續期的 Cloudflare Workers
+- [vesoft-inc/github-statistics](https://github.com/vesoft-inc/github-statistics) - 用於顯示 GitHub 倉庫統計（如 Star 歷史、Fork 歷史等）的 React 靜態應用
+- [welai/glow-sans](https://github.com/welai/glow-sans) - SHSans 衍生 CJK 字型家族，設計更簡明現代。未來熒黑：基於思源黑體改造，擁有粗度和寬度系列，超大字型家族。
+- [renzhezhilu/gifsicle-wasm-browser](https://github.com/renzhezhilu/gifsicle-wasm-browser) - 在瀏覽器執行 Gifsicle，進行 GIF 壓縮、裁剪、幀操作、調整大小等
+- [Rabithua/memos_wmp](https://github.com/Rabithua/memos_wmp) - 開源項目「usememos/memos」的微信小程序版，可轉為 App。
+- [OBKoro1/koro1FileHeader](https://github.com/OBKoro1/koro1FileHeader) - VSCode 插件：自動生成、更新 VSCode 文件頭部註釋，自動生成函數註釋並支援提取函數參數，支援所有主流語言，文件齊全，簡單易用，配置靈活，持續維護多年。
+- [clmnin/summarize.site](https://github.com/clmnin/summarize.site) - 使用 OpenAI ChatGPT 摘要網頁內容
+- [terrastruct/d2](https://github.com/terrastruct/d2) - D2 是一種現代圖表腳本語言，可將文字轉為圖表。
+- [anselm94/googlekeepclone](https://github.com/anselm94/googlekeepclone) - 一個外觀原汁原味的 Google Keep 克隆版
+- [sveltejs/kit](https://github.com/sveltejs/kit) - 精簡化網頁開發
+- [anerg2046/Caddy_V2ray](https://github.com/anerg2046/Caddy_V2ray) - Caddy V2ray SSL TLS Websocket 整合 Docker 映像
+- [Postcatlab/postcat](https://github.com/Postcatlab/postcat) - Postcat 是一個可擴展的 API 工具平台。集合基礎的 API 管理和測試功能，並可通過插件簡化 API 開發，讓你更快更好地創建 API。An extensible API tool.
+- [itorr/china-ex](https://github.com/itorr/china-ex) - 🇨🇳「中國制霸生成器」中國三十四省制霸標記工具
+- [anerg2046/docker-v2ray](https://github.com/anerg2046/docker-v2ray) - V2Ray Caddy+Vmess+ws+tls 一鍵 Docker 腳本
+- [webtorrent/wormhole-crypto](https://github.com/webtorrent/wormhole-crypto) - Wormhole.app 的串流加密，基於 HTTP 加密內容編碼（RFC 8188）
+- [primer/contribute](https://github.com/primer/contribute) - Primer 設計系統的貢獻指南
+- [parvardegr/sharing](https://github.com/parvardegr/sharing) - Sharing 是一款命令列工具，可無需額外客戶端應用，直接從 CLI 分享目錄和檔案到 iOS 和 Android 裝置
+- [SurviveSJTU/SJTU-Application](https://github.com/SurviveSJTU/SJTU-Application) - https://survivesjtu.github.io/SJTU-Application/#/
+- [zjyl1994/lazydogocr](https://github.com/zjyl1994/lazydogocr) - 在瀏覽器內使用 Tesseract.js 進行 OCR
+- [dunwu/nginx-tutorial](https://github.com/dunwu/nginx-tutorial) - 這是一份 Nginx 極簡教程，旨在幫助新手快速入門 Nginx。
+- [Semporia/TikTok-Unlock](https://github.com/Semporia/TikTok-Unlock) - TikTok 無需拔卡解鎖，最新支援 iPhone & iPad、TikTok & TikTok TestFlight，地區切換、視頻發佈、直播、點讚評論、私信聊天等！
+- [divamgupta/diffusionbee-stable-diffusion-ui](https://github.com/divamgupta/diffusionbee-stable-diffusion-ui) - Diffusion Bee 是在 M1 Mac 本地運行 Stable Diffusion 最簡單的方法。提供一鍵安裝，無需依賴或技術知識。
+- [OverflowCat/zhihu-watermark-remover](https://github.com/OverflowCat/zhihu-watermark-remover) - 移除或偽造知乎網頁盲水印的用戶腳本
+- [ghostdevv/linode-object-upload](https://github.com/ghostdevv/linode-object-upload) - 一個簡單的 CLI 工具，用於將檔案上傳至 Linode 物件儲存
+- [dream-num/Luckysheet](https://github.com/dream-num/Luckysheet) - Luckysheet 是一款功能強大、配置簡單、完全開源的線上試算表類 excel。
+- [drew-royster/canvasFileSync](https://github.com/drew-royster/canvasFileSync) - 同步 Canvas 課程檔案到本地電腦
+- [joemccann/dillinger](https://github.com/joemccann/dillinger) - 最後一個 Markdown 編輯器
+- [feeddd/feeds](https://github.com/feeddd/feeds) - 免費的公眾號 RSS，支援擴展任意 APP
+- [goooooouwa/goplan-web](https://github.com/goooooouwa/goplan-web) - GoPlan 網頁端
+- [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets) - 👩‍💻👨‍💻 各種熱門編程語言、框架和開發工具的超棒速查表，應有盡有，全部匯聚於一檔。
+- [techgaun/active-forks](https://github.com/techgaun/active-forks) - 查找活躍的 GitHub 倉庫分支 https://git.io/vSnrC
+- [eip-work/kuboard-press](https://github.com/eip-work/kuboard-press) - Kuboard 是基於 Kubernetes 的微服務管理介面。另提供 Kubernetes 免費中文教程、入門教程、最新版安裝手冊、(k8s install) 在線答疑，持續更新。
+- [stephenou/fruitionsite](https://github.com/stephenou/fruitionsite) - 用 Notion 免費搭建你的網站
+- [summitech/gitexplorer](https://github.com/summitech/gitexplorer) - 幫助你快速查找合適 git 指令，無需網上苦搜。
+- [QasimWani/LeetHub](https://github.com/QasimWani/LeetHub) - 自動同步你的 leetcode 解答到 GitHub 帳戶 - 前五大熱門 GitHub 倉庫
+- [cockpit-project/cockpit](https://github.com/cockpit-project/cockpit) - Cockpit 是一個基於網頁的伺服器圖形介面。
+- [alcor/emoji-supply](https://github.com/alcor/emoji-supply) - http://emoji.supply/wallpaper 和 http://emoji.supply/kitchen 的原始碼
+- [Tyrone2333/giteeDeleteAccount](https://github.com/Tyrone2333/giteeDeleteAccount) - gitee 帳號刪除指南
+- [Dandelionss/CloudFlare-Workers](https://github.com/Dandelionss/CloudFlare-Workers) - 收藏一些 CloudFlare Workers 腳本
+- [cagataycali/url-shortener](https://github.com/cagataycali/url-shortener) - 爛短網址生成器，支援 emoji。🌍✌🏼
+- [7wate/wiki](https://github.com/7wate/wiki) - 7Wate 個人維基知識庫
+- [faressoft/terminalizer](https://github.com/faressoft/terminalizer) - 🦄 錄製終端機並生成動畫 gif 圖像或分享網路播放器
+- [twikoojs/twikoo](https://github.com/twikoojs/twikoo) - 💬 一個簡潔、安全、免費的靜態網站評論系統 | A simple, safe, free comment system.
+- [tmplink/tmplink_webapp](https://github.com/tmplink/tmplink_webapp) - 用於儲存。
+- [craftzdog/craftzdog-homepage](https://github.com/craftzdog/craftzdog-homepage) - 我的主頁
+- [play-with-docker/play-with-docker](https://github.com/play-with-docker/play-with-docker) - 你熟悉它，你使用它，現在該一起改進它。PWD!
+- [Cay-Zhang/RSSBud](https://github.com/Cay-Zhang/RSSBud) - iOS/macOS 上的 RSS 源發現應用，與熱門的 RSSHub 源產生服務配合良好。App Store 可獲得。
+- [ashutosh1919/masterPortfolio](https://github.com/ashutosh1919/masterPortfolio) - 🔥 完整可自訂的軟體開發者作品集模板，展示你的工作及所有細節，完全免費，功能豐富！
+- [alanshaw/markdown-pdf](https://github.com/alanshaw/markdown-pdf) - :page_facing_up: Markdown 轉 PDF 轉換器
+- [josephernest/writing](https://github.com/josephernest/writing) - Writing 是一款輕量級、專注無干擾的文字編輯器，支援瀏覽器 (支援 Markdown 和 LaTeX)。
+- [typemill/typemill](https://github.com/typemill/typemill) - Typemill 是一款基於 Markdown 的平面文件 CMS，專為文件、手冊和說明網站設計。
+- [varkor/quiver](https://github.com/varkor/quiver) - 一款現代網頁交換圖（交換圖）編輯器。
+- [gitpod-io/openvscode-releases](https://github.com/gitpod-io/openvscode-releases) - 本倉庫僅用於產生 OpenVSCode Server 的發行版本。
+- [SplitGemini/Clash_configuration](https://github.com/SplitGemini/Clash_configuration) - 
+- [ShevonKuan/yuektang_ppt2pdf](https://github.com/ShevonKuan/yuektang_ppt2pdf) - 將雨課堂中的課件匯出為 pdf
+- [Co1lin/Tsinghua-Yukuotang-Autoplay](https://github.com/Co1lin/Tsinghua-Yukuotang-Autoplay) - JS 練習用腳本。
+- [Konano/thu-weblearn-tgbot](https://github.com/Konano/thu-weblearn-tgbot) - 🤖 Telegram 機器人，監控清華 WebLearn 並推送新動態
+- [jmcgover/unblock-all](https://github.com/jmcgover/unblock-all) - 一個解鎖 Twitter 使用者所有被封鎖帳號的 javascript 腳本
+- [soumyajit4419/Portfolio](https://github.com/soumyajit4419/Portfolio) - 我的個人網站，自行編碼，使用 React.js 建立
+- [soumyajit4419/Chatify](https://github.com/soumyajit4419/Chatify) - 個人聊天室或資源分享空間，與好友交流，使用 React.js、Material-UI 和 Firebase 構建。
+- [pissang/little-big-city](https://github.com/pissang/little-big-city) - 
+- [atom/atom](https://github.com/atom/atom) - :atom: 可駭的可客製化文字編輯器
+- [ZxfBugProgrammer/Electron-SIMGUI](https://github.com/ZxfBugProgrammer/Electron-SIMGUI) - 本項目基於 Electron 和 element UI 開發的代碼查重軟體，內核採用 SIM（SIM 是 Dick Grune 開發的代碼查重軟體）
+- [eidam/cf-workers-status-page](https://github.com/eidam/cf-workers-status-page) - 監控網站狀態，展示狀態及日歷歷史，當網站狀態變化時獲得 Slack/Telegram/Discord 通知。使用 Cloudflare Workers、CRON Triggers 和 KV 存儲。
+- [digitalocean/nginxconfig.io](https://github.com/digitalocean/nginxconfig.io) - ⚙️ NGINX 配置生成器，超強大 💉
+- [ineo6/git-master](https://github.com/ineo6/git-master) - Git Master 擴展，支援 GitHub、GitLab、Gitee、Gitea、Gogs 的 git 檔案樹
+- [Zenquan/learnCode](https://github.com/Zenquan/learnCode) - 方便學習的代碼倉庫
+- [koodo-reader/koodo-reader](https://github.com/koodo-reader/koodo-reader) - 一款現代電子書管理和閱讀器，支援 Windows、macOS、Linux、Android、iOS 和 Web 的同步及備份
+- [s0urcelab/serverless-cloud-notepad](https://github.com/s0urcelab/serverless-cloud-notepad) - ☁ 又一個雲端記事本。
+- [VishwaGauravIn/github-profile-readme-maker](https://github.com/VishwaGauravIn/github-profile-readme-maker) - 🏆 最佳個人簡介生成器，免費創建完美的 GitHub Profile ReadMe，包含豐富功能與工具！💫
+- [lucaceriani/ooo](https://github.com/lucaceriani/ooo) - 
+- [MuggleWei/learning_compass](https://github.com/MuggleWei/learning_compass) - 各種學科自學指南 https://mugglewei.github.io/learning_compass/
+- [philc/vimium](https://github.com/philc/vimium) - 駭客的瀏覽器。
+- [thunlp/WantWords](https://github.com/thunlp/WantWords) - 開源線上反向詞典。
+- [Robbendebiene/Gesturefy](https://github.com/Robbendebiene/Gesturefy) - 透過滑鼠手勢更快地瀏覽、操作和導航！一款可自訂的 Firefox 滑鼠手勢擴充套件，擁有多種不同命令。
+- [wooorm/starry-night](https://github.com/wooorm/starry-night) - 語法高亮，像 GitHub 一樣
+- [foamzou/melody](https://github.com/foamzou/melody) - 我的音樂精靈
+- [liviuschera/noctis](https://github.com/liviuschera/noctis) - Noctis 是一組兼具溫暖與冷色調的明亮與暗色主題
+- [microsoft/vscode-markdown-tm-grammar](https://github.com/microsoft/vscode-markdown-tm-grammar) - VS Code 內建 Markdown 擴充的 Textmate 語法
+- [fluid-dev/hexo-theme-fluid](https://github.com/fluid-dev/hexo-theme-fluid) - :ocean: 一款 Material Design 風格的 Hexo 主題 / 優雅的 Material-Design 風格 Hexo 主題
+- [menzi11/BullshitGenerator](https://github.com/menzi11/BullshitGenerator) - 需要產生一些文本來測試 GUI 渲染程式碼是否優良，所以我做了這個工具。
+- [ciembor/4bit](https://github.com/ciembor/4bit) - Terminal 配色方案設計器
+- [Asabeneh/30-Days-Of-React](https://github.com/Asabeneh/30-Days-Of-React) - 30 天 React 挑戰是一個 30 天學習 React 的逐步指南。這些影片也許對你有幫助：https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw
+- [dukelec/cde](https://github.com/dukelec/cde) - HTML5 加密工具（提示：https://blog.d-l.io/cde），https://e.d-l.io 或 https://dukelec.gitee.io/cde 或
+- [soheilpro/mailwind](https://github.com/soheilpro/mailwind) - 使用 Tailwind CSS 設計 HTML 電子郵件。
+- [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) - 極速連接 API。開發者免費。
+- [gaocegege/Blog](https://github.com/gaocegege/Blog) - github.io 個人部落格
+- [dhanishgajjar/vscode-icons](https://github.com/dhanishgajjar/vscode-icons) - 自訂 Visual Studio Code 圖示
+- [ecitlm/Node-SpliderApi](https://github.com/ecitlm/Node-SpliderApi) - 基於 node+express 的爬蟲 API 介面專案，包括全國高校資訊、成語詩歌、星座運勢、歷史上的今天、音樂數據介面、圖片壁紙、搞笑視頻、熱點新聞資訊 詳細介面數據
+- [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) - 📝 用 JavaScript 實現的演算法和資料結構，含解釋及延伸閱讀連結
+- [leonardomso/33-js-concepts](https://github.com/leonardomso/33-js-concepts) - 📜 每位開發者都應該了解的 33 個 JavaScript 概念。
+- [denysdovhan/wtfjs](https://github.com/denysdovhan/wtfjs) - 🤪 有趣又棘手的 JavaScript 範例列表
+- [AleksiKnuutila/nlp-highlight](https://github.com/AleksiKnuutila/nlp-highlight) - 自然語言語意高亮提升可讀性
+- [vaxilu/x-ui](https://github.com/vaxilu/x-ui) - 支援多協議多用戶的 xray 面板
+- [wjclub/telegram-bot-getids](https://github.com/wjclub/telegram-bot-getids) - Telegram Bot，可打印用戶、聊天和媒體的詳細資訊。
+- [Robpayot/glowing-tree](https://github.com/Robpayot/glowing-tree) - Three.js 樹形實驗
+- [OBKoro1/web-basics](https://github.com/OBKoro1/web-basics) - 大廠前端需要掌握的 JS 基礎能力，大廠場景題、大廠面試真題，歡迎提 issue 和 PR 來豐富場景題。
+- [alyssaxuu/omni](https://github.com/alyssaxuu/omni) - 一站式提升生產力工具 ⌨️
+- [hackjutsu/Lepton](https://github.com/hackjutsu/Lepton) - 💻     片段管理民主化（macOS/Win/Linux）
+- [danielpigott/cloudflare-cli](https://github.com/danielpigott/cloudflare-cli) - 與 Cloudflare 互動的命令列工具
+- [shajidhasan/rknotes-landing](https://github.com/shajidhasan/rknotes-landing) - 
+- [wordshub/free-font](https://github.com/wordshub/free-font) - 大概是2020年最全的免費可商用字體，這裡收錄的商免字體都能找到明確的授權出處，可以放心使用，持續更新中...
+- [star7th/showdoc](https://github.com/star7th/showdoc) - ShowDoc 是一個非常適合 IT 團隊線上分享文件的工具，一個非常適合 IT 團隊的線上 API 文件、技術文件工具
+- [NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager) - 用於管理 Nginx 代理主機的 Docker 容器，提供簡單且強大的介面
+- [py7hon/Meowdrive](https://github.com/py7hon/Meowdrive) - Meowdrive/Google drive 直連工具
+- [pkuhollow/webhole](https://github.com/pkuhollow/webhole) - PKU Hollow React 前端
+- [stef-levesque/vscode-3dviewer](https://github.com/stef-levesque/vscode-3dviewer) - 在 VSCode 中預覽 3D 網格模型
+- [nirui/sshwifty](https://github.com/nirui/sshwifty) - Web SSH & Telnet（WebSSH & WebTelnet 客戶端）🔮
+- [Robpayot/risograph-grain-shader](https://github.com/Robpayot/risograph-grain-shader) - Light grain shader codrops 教學
+- [imlonghao/smms-bot](https://github.com/imlonghao/smms-bot) - 用於 SM.MS 的 Telegram Bot
+- [prettier/prettier](https://github.com/prettier/prettier) - Prettier 是一個有主見的程式碼格式化工具。
+- [ciderapp/Cider](https://github.com/ciderapp/Cider) - 🎵  Cider 1 原始碼
+- [pabueco/linear-vscode-theme](https://github.com/pabueco/linear-vscode-theme) - 
+- [imageslr/weapp-library](https://github.com/imageslr/weapp-library) - 「線上借書平台」微信小程式：連接讀者與圖書館的借書平台、讀者的圖書資料庫與書單系統。30+ 頁面，多個可重用元件，微信小程式開發入門。提供本地 mock server 解決方案。
+- [multiavatar/Multiavatar](https://github.com/multiavatar/Multiavatar) - 用 JavaScript 實現的多元文化頭像生成器
+- [noxue/bingdundun](https://github.com/noxue/bingdundun) - 冰墩墩 3D 原始碼
+- [Just-Moh-it/Pckd](https://github.com/Just-Moh-it/Pckd) - ⚡️ 注重分析、自架設的短網址服務，擁有美觀 UI｜免費 bit.ly 替代品 🚀
+- [moshang-ax/lottery](https://github.com/moshang-ax/lottery) - 🎉🌟✨🎈年會抽獎程式，基於 Express + Three.js 的 3D 球體抽獎程式，獎品🧧🎁、文字、圖片、抽獎規則皆可配置，😜抽獎人員資訊 Excel 一鍵導入😍，抽獎結果 Excel 導出😎，為你的抽獎活動帶來全新酷炫體驗🚀🚀🚀
+- [facebook/react](https://github.com/facebook/react) - 用於網頁與原生用戶介面的函式庫。
+- [kovacsv/Online3DViewer](https://github.com/kovacsv/Online3DViewer) - 在瀏覽器中可視化與探索 3D 模型的解決方案。
+- [rishimohan/pika](https://github.com/rishimohan/pika) - 快速設計美觀的螢幕截圖與 open graph 圖片
+- [bndw/wifi-card](https://github.com/bndw/wifi-card) - 📶 列印 WiFi 連線用的 QR 碼（wificard.io）
+- [E011011101001/Twitter-Block-With-Love](https://github.com/E011011101001/Twitter-Block-With-Love) - 封鎖點贊特定推文的用戶，幫助你改善 Twitter 使用體驗。
+- [YaoZeyuan/stablog](https://github.com/YaoZeyuan/stablog) - 穩部落。專業備份導出微博記錄，穩！
+- [diafygi/gethttpsforfree](https://github.com/diafygi/gethttpsforfree) - https://gethttpsforfree.com/ 的原始碼
+- [agalwood/Motrix](https://github.com/agalwood/Motrix) - 全功能下載管理器。
+- [txthinking/bash](https://github.com/txthinking/bash) - 一鍵腳本。
+- [xuhuai66/used-book-pro](https://github.com/xuhuai66/used-book-pro) - 微信小程式雲開發校園二手書商城，可線上支付提現，原始碼全開源
+- [gildas-lormeau/SingleFileZ](https://github.com/gildas-lormeau/SingleFileZ) - 將整個網頁以自解壓 ZIP 檔案的形式忠實保存的網頁擴充套件
+- [mickael-kerjean/filestash](https://github.com/mickael-kerjean/filestash) - :file_folder: 適用於 SFTP、S3、FTP、WebDAV、Git、Minio、LDAP、CalDAV、CardDAV、Mysql、Backblaze 等的檔案管理器 / 網頁客戶端
+- [suxiaogang/WeiboPicBed](https://github.com/suxiaogang/WeiboPicBed) - 新浪微博圖床 Chrome 擴充
+- [The-NeXT-Project/Docs](https://github.com/The-NeXT-Project/Docs) - 
+- [overleaf/overleaf](https://github.com/overleaf/overleaf) - 基於網頁的協作 LaTeX 編輯器
+- [szenius/set-timezone](https://github.com/szenius/set-timezone) - GitHub action 用於設置本地時區，支援 Linux、Windows、MacOS
+- [ckeditor/github-writer](https://github.com/ckeditor/github-writer) - GitHub Writer - GitHub 富文字所見即所得編輯器，基於 CKEditor。
+- [MinhasKamal/DownGit](https://github.com/MinhasKamal/DownGit) - 建立 GitHub 資源下載連結
+- [KinoLien/gitzip](https://github.com/KinoLien/gitzip) - 可將 github 倉庫子資料夾/子目錄壓縮為 zip 並下載
+- [paulmillr/encrypted-dns](https://github.com/paulmillr/encrypted-dns) - 適用於 iOS & macOS 的 DNS over HTTPS 設定檔
+- [toncenter/ton-wallet](https://github.com/toncenter/ton-wallet) - TON（The Open Network）Web 錢包與瀏覽器擴充套件
+- [nodejs/node](https://github.com/nodejs/node) - Node.js JavaScript 執行環境 ✨🐢🚀✨
+- [itorr/nbnhhsh](https://github.com/itorr/nbnhhsh) - 😩「能不能好好說話？」 拼音首字母縮寫翻譯工具
+- [carbon-app/carbon](https://github.com/carbon-app/carbon) - :black_heart: 創建並分享美觀的原始碼圖片
+- [jsdelivr/jsdelivr](https://github.com/jsdelivr/jsdelivr) - 免費、快速且可靠的開源 CDN，支援 npm、GitHub、Javascript 和 ESM
+- [hunkim/digital-human](https://github.com/hunkim/digital-human) - 
+- [menukaonline/goindex-extended](https://github.com/menukaonline/goindex-extended) - 一個運行於 Cloudflare Workers 的 Google Drive 索引工具，擁有許多額外功能。
+- [pureink/inkrss](https://github.com/pureink/inkrss) - RSS 更新通知
+- [gorse-io/gitrec](https://github.com/gorse-io/gitrec) - 基於 Gorse 的 GitHub 倉庫推薦系統
+- [Hackl0us/SS-Rule-Snippet](https://github.com/Hackl0us/SS-Rule-Snippet) - 搜集、整理、維護 Surge / Quantumult (X) / Shadowrocket / Surfboard / clash (Premium) 實用規則。
+- [netptop/siteproxy](https://github.com/netptop/siteproxy) - 反向代理，線上代理，免翻牆訪問 Youtube/twitter/Google，支援 github 和 telegram web 登錄（請注意不要通過不信任的代理進行登錄）。支援 DuckDuckGo AI Chat（可免費訪問 chatGPT3.5 和 Claude3）
+- [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) - 基於瀏覽器的程式碼編輯器
+- [btmills/geopattern](https://github.com/btmills/geopattern) - 生成美觀的 SVG 圖案
+- [RimoChan/match-you](https://github.com/RimoChan/match-you) - 【您配嗎】配你嗎
+- [sh-dv/hat.sh](https://github.com/sh-dv/hat.sh) - 在瀏覽器中安全加解密檔案。
+- [pxeger/url-shortener](https://github.com/pxeger/url-shortener) - 世界上最簡單的 URL 縮短器，基於 Cloudflare Workers
+- [mrmartineau/snippet-generator](https://github.com/mrmartineau/snippet-generator) - ⚡ Sublime Text、Atom & VS Code 片段生成器
+- [b3by/atom-clock](https://github.com/b3by/atom-clock) - 在狀態列顯示時鐘或日曆
+- [microsoft/vscode-atom-keybindings](https://github.com/microsoft/vscode-atom-keybindings) - VS Code 的 Atom 快捷鍵組合移植
+- [binaryoung/convert-atom-snippets-to-vscode](https://github.com/binaryoung/convert-atom-snippets-to-vscode) - 幫助你將 Atom 片段轉換為 VSCode 格式的小型工具包
+- [dstein64/workflows](https://github.com/dstein64/workflows) - 檢視 GitHub 工作流程狀態。
+- [sigoden/netease-music-crx](https://github.com/sigoden/netease-music-crx) - 網易雲音樂 Chrome 擴充
+- [pocc/bulk_delete_notion_pages](https://github.com/pocc/bulk_delete_notion_pages) - 書籤程式，可永久刪除已刪除的所有 notion 頁面。
+- [msaaddev/who-unfollowed-me](https://github.com/msaaddev/who-unfollowed-me) - 🙁 一個 CLI，可告訴你最近在 GitHub 取消關注你的人
+- [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) - 30 天 JavaScript 程式挑戰是一個 30 天學習 JavaScript 程式語言的逐步指南。本挑戰可能超過 100 天，請依照自己的步調進行。
+- [FilipePS/Traduzir-paginas-web](https://github.com/FilipePS/Traduzir-paginas-web) - 使用 Google、Bing 或 Yandex 即時翻譯你的網頁
+- [ysard/cookie-quick-manager](https://github.com/ysard/cookie-quick-manager) - Firefox 上管理（檢視、搜尋、創建、編輯、刪除、備份、還原）Cookie 的附加元件。
+- [candh/cookies-backup-chrome](https://github.com/candh/cookies-backup-chrome) - 用於備份、🔐加密與還原🍪 Cookie 的 Chrome 擴充
+- [vercel/next.js](https://github.com/vercel/next.js) - React 框架
+- [useful-forks/useful-forks.github.io](https://github.com/useful-forks/useful-forks.github.io) - 透過自動篩選改善 GitHub 分叉列表的可發現性。該專案提供線上工具與 Chrome 擴充功能。
+- [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) - 精美的自架站點監控工具
+- [webpack/webpack](https://github.com/webpack/webpack) - JavaScript 及周邊模組的打包工具。可將多個模組打包為少量 bundle。支援程式碼分割，按需載入應用程式部份內容。藉由 "loaders" 支援 CommonJs、AM
+- [webpack/webpack-cli](https://github.com/webpack/webpack-cli) - Webpack 的命令列工具
+- [viatsko/awesome-vscode](https://github.com/viatsko/awesome-vscode) - 🎨 精選 VS Code 套件與資源清單。
+- [Glitchbone/vscode-base16-term](https://github.com/Glitchbone/vscode-base16-term) - Visual Studio Code 的 Base16 終端配色
+- [xanderfrangos/twinkle-tray](https://github.com/xanderfrangos/twinkle-tray) - 輕鬆在 Windows 系統匣管理螢幕亮度
+- [excalidraw/excalidraw-libraries](https://github.com/excalidraw/excalidraw-libraries) - 公開可用的庫集合
+- [ad-m/github-push-action](https://github.com/ad-m/github-push-action) - 用於將更新後的程式碼推回倉庫的 GitHub actions
+- [spicetify/cli](https://github.com/spicetify/cli) - 自訂 Spotify 客戶端的命令列工具。支援 Windows、MacOS 和 Linux。
+- [softvar/enhanced-github](https://github.com/softvar/enhanced-github) - :rocket: 在瀏覽器擴充中顯示每個檔案的大小、下載連結並可直接複製檔案內容到剪貼簿
+- [stefanbuck/awesome-browser-extensions-for-github](https://github.com/stefanbuck/awesome-browser-extensions-for-github) - 精選 GitHub 瀏覽器擴充套件合集
+- [dessant/buster](https://github.com/dessant/buster) - Captcha 解決擴充功能，適用於 Chrome、Edge 和 Firefox
+- [gildas-lormeau/SingleFile](https://github.com/gildas-lormeau/SingleFile) - 用於將完整網頁忠實保存為單一 HTML 檔的網頁擴充套件
+- [listen1/listen1_chrome_extension](https://github.com/listen1/listen1_chrome_extension) - 一站式中國免費音樂（Chrome 擴充，支援 Firefox）
+- [unbug/codelf](https://github.com/unbug/codelf) - 協助開發者解決命名困難的搜尋工具。
+- [muan/github-dashboard](https://github.com/muan/github-dashboard) - 【網頁擴充】過濾 github.com 活動儀表板上的事件。
+- [ovity/octotree](https://github.com/ovity/octotree) - GitHub 功能增強利器
+- [modood/Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China) - 中華人民共和國行政區劃：省級（省份）、地級（城市）、縣級（區縣）、鄉級（鄉鎮街道）、村級（村委會居委會），中國省市區鎮村二級三級四級五級聯動地址數據。
+- [marktext/marktext](https://github.com/marktext/marktext) - 📝 簡單優雅的 markdown 編輯器，支援 Linux、macOS、Windows。
+- [notion-enhancer/notion-enhancer](https://github.com/notion-enhancer/notion-enhancer) - Notion 一體化生產力空間的增強/自訂工具
+- [carbon-design-system/carbon](https://github.com/carbon-design-system/carbon) - IBM 打造的設計系統
+- [tks18/gindex-v4](https://github.com/tks18/gindex-v4) - 基於 Vue Js 的 G Index，改進了暗色模式、搜尋和視頻播放器
+- [bryanbraun/checkboxland](https://github.com/bryanbraun/checkboxland) - 將任何內容渲染為 HTML 核取方塊
+- [jhotmann/node-rename-cli](https://github.com/jhotmann/node-rename-cli) - 一款能快速重新命名檔案的工具，特別適合一次處理多個檔案。
+- [GitSquared/edex-ui](https://github.com/GitSquared/edex-ui) - 跨平台、可自訂的科幻終端機模擬器，具備進階監控與觸控螢幕支援。
+- [methodofaction/Method-Draw](https://github.com/methodofaction/Method-Draw) - Method Draw，Method of Action 的 SVG 編輯器
+- [SVG-Edit/svgedit](https://github.com/SVG-Edit/svgedit) - 強大的瀏覽器端 SVG 編輯器
+- [richardkrikler/Notability-Viewer](https://github.com/richardkrikler/Notability-Viewer) - Notability 筆記檢視器，用於檔案系統內備份 PDF（例如與 Windows 的 OneDrive 整合）。
+- [pandao/editor.md](https://github.com/pandao/editor.md) - 開源可嵌入式線上 Markdown 編輯器（元件）。
+- [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) - 分流規則、重寫規則及腳本。
+- [littlegolden/syntax-highlight-word](https://github.com/littlegolden/syntax-highlight-word) - 為 planetB 復興的語法高亮程式碼專案。
+- [badges/shields](https://github.com/badges/shields) - 簡潔、一致且易讀的 SVG 與點陣圖格式徽章
+- [lekoOwO/short-link-bot](https://github.com/lekoOwO/short-link-bot) - 一個基於 Cloudflare Workers、由 short.io 提供支援的 Telegram 短鏈接機器人
+- [xyTom/Url-Shorten-Worker](https://github.com/xyTom/Url-Shorten-Worker) - 使用 Cloudflare worker 創建的 URL 縮短器
+- [kamranahmedse/githunt](https://github.com/kamranahmedse/githunt) - 在任何日期搜尋 GitHub 上最受歡迎的專案
+- [pyatyispyatil/github-releases-notify-bot](https://github.com/pyatyispyatil/github-releases-notify-bot) - 允許你在 Telegram 上接收 GitHub 軟體新版本發佈通知
+- [mrdoob/three.js](https://github.com/mrdoob/three.js) - JavaScript 3D 函式庫。
+- [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) - 零設定的網頁建構工具。📦🚀
+- [Chalarangelo/30-seconds-of-code](https://github.com/Chalarangelo/30-seconds-of-code) - 幫助提升開發技能的程式設計文章
+- [shimohq/chinese-programmer-wrong-pronunciation](https://github.com/shimohq/chinese-programmer-wrong-pronunciation) - 中國程式設計師容易發音錯誤的單詞
+- [evil-huawei/evil-huawei](https://github.com/evil-huawei/evil-huawei) - Evil Huawei - 華為作過的惡
+- [Raxvis/simple-icon-generator](https://github.com/Raxvis/simple-icon-generator) - 一個簡單的圖示產生器
+- [ascoders/weekly](https://github.com/ascoders/weekly) - 前端精讀週刊。幫你理解最前沿、實用的技術。
+- [saltcorn/saltcorn](https://github.com/saltcorn/saltcorn) - 免費且開源的無程式碼應用程式建構器
+- [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) - :zap: 為你的 GitHub readme 動態生成統計資料
+- [JacksonBates/tweet-delete-bot](https://github.com/JacksonBates/tweet-delete-bot) - 一個會自動刪除及取消收藏超過 10 天推文的機器人。可排程每日執行，成為像 http://twitter.com/JacksonBates 那樣的「即逝推友」。
+- [thedevs-network/kutt](https://github.com/thedevs-network/kutt) - 免費現代化 URL 縮短器。
+- [ethantw/Han](https://github.com/ethantw/Han) - 「漢字標準格式」印刷品般的漢字排版框架 Han.css：為漢字最佳化的 CSS 文字排版框架。
+- [nadimkobeissi/appleprivacyletter](https://github.com/nadimkobeissi/appleprivacyletter) - 一封反對蘋果新用戶端內容掃描、侵害隱私政策的公開信。
+- [pkalogiros/AudioMass](https://github.com/pkalogiros/AudioMass) - 免費全功能的網頁端音訊與波形編輯工具
+- [renzhezhilu/webp2jpg-online-demo](https://github.com/renzhezhilu/webp2jpg-online-demo) - 這裡收集了一些關於使用瀏覽器做圖片處理（格式轉換）的函式庫，並製作了相應的演示頁面。
+- [renzhezhilu/webp2jpg-online](https://github.com/renzhezhilu/webp2jpg-online) - 使用瀏覽器的線上圖片格式轉換器，無需上傳檔案，可將 jpeg、jpg、png、gif、webp、svg、ico、bmp 檔案轉為 jpeg、png、webp 動畫、gif、base64、avif、mozjpeg。
+- [benweet/stackedit](https://github.com/benweet/stackedit) - 瀏覽器內的 Markdown 編輯器
+- [stylus/stylus](https://github.com/stylus/stylus) - 專為 nodejs 打造、表現力強、穩健且功能豐富的 CSS 語言
+- [magic-akari/ncmc-web](https://github.com/magic-akari/ncmc-web) - 在瀏覽器中轉換檔案
+- [HeiSir2014/M3U8-Downloader](https://github.com/HeiSir2014/M3U8-Downloader) - M3U8-Downloader 支援多線程、斷點續傳、加密影片下載快取。
+- [thuservices/thuservices](https://github.com/thuservices/thuservices) - https://thu.services
+- [treehollow/webhole](https://github.com/treehollow/webhole) - THU Hole React 前端
+- [xmcp/webhole](https://github.com/xmcp/webhole) - Hole React 前端
+## Jinja 
+
+- [yunionio/ocboot](https://github.com/yunionio/ocboot) - Cloudpods 的安裝與設定工具
+- [trailofbits/algo](https://github.com/trailofbits/algo) - 在雲端設置個人 VPN
+
+## Julia 
+
+- [JuliaLang/julia](https://github.com/JuliaLang/julia) - Julia 程式語言
+
+## Jupyter Notebook 
+
+- [Estom/notes](https://github.com/Estom/notes) - 一個碼農的畢生所學！筆記 & 教程。考研、就業、上學。語言篇，Android、C++、Java、JavaScript、Latex、MATLAB、NodeJS、PHP、Python，技術篇，docker、git、Linux、Maven、office、Spark、Spring、SVN，基礎篇，編譯原理、作業系統、單片機、計算機網路、計算機網路實驗、架構模式、軟體文檔寫作、設計模式、資料結構、資料庫、演算法
+- [ckross4/ML-PolyBites](https://github.com/ckross4/ML-PolyBites) - 開始聚合物科學與化學機器學習之旅的實用程式碼
+- [Calysto/matlab_kernel](https://github.com/Calysto/matlab_kernel) - Jupyter 的 Matlab 核心
+- [xinychen/latex-cookbook](https://github.com/xinychen/latex-cookbook) - LaTeX 論文寫作教程（清華大學出版社）
+- [MarkFzp/mobile-aloha](https://github.com/MarkFzp/mobile-aloha) - Mobile ALOHA：利用低成本全身遠端操作學習雙手移動操作
+- [JinChengZ18/Learning-Materials-of-SMSE](https://github.com/JinChengZ18/Learning-Materials-of-SMSE) - 清華大學材料學院本科學習資料 - PPT、圖書、作業、實驗報告等
+- [datawhalechina/llm-cookbook](https://github.com/datawhalechina/llm-cookbook) - 面向開發者的 LLM 入門教程，吳恩達大模型系列課程中文版
+- [langchain-ai/langchain](https://github.com/langchain-ai/langchain) - 🦜🔗 建構具上下文意識推理的應用程式
+- [sanchit-gandhi/whisper-jax](https://github.com/sanchit-gandhi/whisper-jax) - OpenAI Whisper 模型的 JAX 實現，支援 TPU 上最高 70 倍加速
+- [Stability-AI/StableLM](https://github.com/Stability-AI/StableLM) - StableLM：Stability AI 語言模型
+- [advimman/lama](https://github.com/advimman/lama) - 🦙  LaMa 圖像修補，基於傅立葉卷積的解析度穩健大型遮罩修補，WACV 2022
+- [camenduru/stable-diffusion-webui-colab](https://github.com/camenduru/stable-diffusion-webui-colab) - stable diffusion webui colab
+- [LinXueyuanStdio/LaTeX_OCR](https://github.com/LinXueyuanStdio/LaTeX_OCR) - :gem: 數學公式識別 Math Formula OCR
+- [xuebinqin/DIS](https://github.com/xuebinqin/DIS) - 我們新項目的倉庫：高精度二分圖像分割
+- [MubertAI/Mubert-Text-to-Music](https://github.com/MubertAI/Mubert-Text-to-Music) - 通過 Mubert API 實現基於提示詞的音樂生成簡單 notebook
+- [LinXueyuanStdio/LaTeX_OCR_PRO](https://github.com/LinXueyuanStdio/LaTeX_OCR_PRO) - :art: 數學公式識別增強版：中英文手寫印刷公式，支持初級符號推導（數據結構基於 LaTeX 抽象語法樹）Math Formula OCR Pro，支持手寫、中英混合公式及簡單符號推理（基於 LaTeX AST）。
+- [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion) - 潛變文字到圖像擴散模型
+- [pengc02/THUDA-CRACKER](https://github.com/pengc02/THUDA-CRACKER) - DA 生活指導
+- [TheCaduceus/WARP-UNLIMITED-ADVANCED](https://github.com/TheCaduceus/WARP-UNLIMITED-ADVANCED) - 獲取 Cloudflare 的 WARP VPN 無限流量🔥
+- [megvii-research/IJCAI2023-CoNR](https://github.com/megvii-research/IJCAI2023-CoNR) - IJCAI2023 - 基於動漫角色設定圖的協同神經渲染
+- [Baiyuetribe/paper2gui](https://github.com/Baiyuetribe/paper2gui) - AI 論文轉 GUI，讓每個人都能簡單方便地使用前沿人工智慧技術
+- [PradyumnaKrishna/Colab-Hacks](https://github.com/PradyumnaKrishna/Colab-Hacks) - 提升 Google Colaboratory 效率和日常任務的簡單技巧
+- [zergtant/pytorch-handbook](https://github.com/zergtant/pytorch-handbook) - pytorch handbook 是一本開源書籍，目標是幫助希望和使用 PyTorch 進行深度學習開發和研究的朋友快速入門，包含的 Pytorch 教程全部通過測試保證可成功運行
+- [Harvard-IACS/2019-CS109A](https://github.com/Harvard-IACS/2019-CS109A) - https://harvard-iacs.github.io/2019-CS109A/
+- [microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) - 10 週，20 課，人人都能學資料科學！
+- [googlecolab/colabtools](https://github.com/googlecolab/colabtools) - Google Colaboratory 的 Python 函式庫
+- [Pierian-Data/Complete-Python-3-Bootcamp](https://github.com/Pierian-Data/Complete-Python-3-Bootcamp) - Udemy 完整 Python 3 Bootcamp 課程文件
+- [hgorr/matlab-with-python](https://github.com/hgorr/matlab-with-python) - MATLAB 與 Python 結合使用的範例
+- [mchong6/JoJoGAN](https://github.com/mchong6/JoJoGAN) - JoJoGAN 官方 PyTorch 倉庫：一次性臉部風格化
+- [prathimacode-hub/Awesome_Python_Scripts](https://github.com/prathimacode-hub/Awesome_Python_Scripts) - 🚀 精選超棒 Python 腳本合集，讓你驚嘆。360+ 腳本世界等你來探索，歡迎貢獻。點亮 ✨ 支持本倉庫。
+- [google-research/google-research](https://github.com/google-research/google-research) - Google 研究
+- [Spidy20/Python_To_APK](https://github.com/Spidy20/Python_To_APK) - 將你的 Python 代碼轉換為 Android APK
+- [Dsantra92/Julia-on-Colab](https://github.com/Dsantra92/Julia-on-Colab) - 在 Google Colab 上運行 Julia 的 notebook
+- [firmai/awesome-google-colab](https://github.com/firmai/awesome-google-colab) - Google Colaboratory 筆記本與倉庫（by @firmai）
+- [frankwxu/digital-forensics-lab](https://github.com/frankwxu/digital-forensics-lab) - 免費數位鑑識實驗室，適合學生及教師實作
+- [sokrypton/ColabFold](https://github.com/sokrypton/ColabFold) - 讓蛋白質摺疊人人可及！
+- [bryandlee/animegan2-pytorch](https://github.com/bryandlee/animegan2-pytorch) - AnimeGANv2 的 PyTorch 實現
+- [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) - Python - 100天從新手到大師
+- [marceloprates/prettymaps](https://github.com/marceloprates/prettymaps) - 從 OpenStreetMap 數據繪製漂亮地圖！基於 osmnx + matplotlib + shapely
+## Kotlin 
+
+- [gkd-kit/gkd](https://github.com/gkd-kit/gkd) - 基於無障礙，高級選擇器，訂閱規則的自訂螢幕點擊 Android 應用 | 一個基於無障礙、高級選擇器和訂閱規則的自訂螢幕點擊 Android 應用
+- [Sjj1024/PakePlus-Android](https://github.com/Sjj1024/PakePlus-Android) - 在幾分鐘內輕鬆將任意網頁/Vue/React 等項目構建為輕量級（小於 5M）多端桌面應用和手機應用。 https://ppofficial.netlify.app/
+- [iamgio/quarkdown](https://github.com/iamgio/quarkdown) - 🪐 具有超能力的 Markdown — 從想法到論文、簡報和書籍。
+- [Ackites/Nrfr](https://github.com/Ackites/Nrfr) - 🌍 免 Root 的 SIM 卡國家碼修改工具 | 解決國際漫遊時的相容性問題，幫助使用海外 SIM 卡獲得更好的本地化體驗，解鎖運營商限制，突破區域限制
+- [GuoXiCheng/SKIP](https://github.com/GuoXiCheng/SKIP) - 自動跳過 APP 開屏廣告
+- [you-apps/ClockYou](https://github.com/you-apps/ClockYou) - 專注隱私的時鐘應用，採用 MD3 打造
+- [IacobIonut01/Gallery](https://github.com/IacobIonut01/Gallery) - 使用 Jetpack Compose 製作的 Android 媒體圖庫應用
+- [MetaCubeX/ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid) - 基於規則的 Android 隧道工具。
+- [MatsuriDayo/NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid) - NekoBox for Android / sing-box / 適用於 Android 的通用代理工具鏈
+- [pppscn/SmsForwarder](https://github.com/pppscn/SmsForwarder) - 短信轉發器——監控 Android 手機短信、來電、APP 通知，並根據指定規則轉發到其他手機：釘釘群自訂機器人、釘釘企業內機器人、企業微信群機器人、飛書機器人、企業微信應用消息、郵箱、bark、webhook、Telegram 機器人、Server醬、PushPlus、手機短信等。包括主動控制伺服端與客戶端，讓你輕鬆遠端發短信、查短信、查通話、查話簿、查電量等。（V3.0 新增）PS.這個 APK 主要是
+- [celzero/rethink-app](https://github.com/celzero/rethink-app) - 適用於 Android 的 DNS over HTTPS / DNS over Tor / DNSCrypt 客戶端、WireGuard 代理、防火牆與連線追蹤器。
+- [JunkFood02/Seal](https://github.com/JunkFood02/Seal) - 🦭 適用於 Android 的影音下載器，基於 yt-dlp，採用 Material You 設計
+- [wenzewoo/jetbrains-markdown-image-support](https://github.com/wenzewoo/jetbrains-markdown-image-support) - Markdown 編輯器一鍵上傳圖片支援，適用於 JetBrains 系列的常見產品。
+- [Shabinder/SpotiFlyer](https://github.com/Shabinder/SpotiFlyer) - Kotlin 跨平台音樂下載器，支援 Spotify / Gaana / YouTube Music / Jio Saavn / SoundCloud。
+- [SagerNet/SagerNet](https://github.com/SagerNet/SagerNet) - 適用於 Android 的通用代理工具鏈
+- [2dust/v2rayNG](https://github.com/2dust/v2rayNG) - 適用於 Android 的 V2Ray 客戶端，支援 Xray core 和 v2fly core
+- [topjohnwu/Magisk](https://github.com/topjohnwu/Magisk) - 適用於 Android 的魔法面具
+- [fan123199/v2ex-simple](https://github.com/fan123199/v2ex-simple) - 一個簡單的第三方 Android V2EX 應用
+## LLVM 
+
+- [llvm/llvm-project](https://github.com/llvm/llvm-project) - LLVM 專案是一套模組化且可重用的編譯器與工具鏈技術集合。
+
+## Lua 
+
+- [iDvel/rime-ice](https://github.com/iDvel/rime-ice) - Rime 配置：霧凇拼音 | 長期維護的簡體詞庫
+- [AstroNvim/AstroNvim](https://github.com/AstroNvim/AstroNvim) - AstroNvim 是一個美觀且功能豐富的 Neovim 配置，具有可擴展性且易於使用，搭載了優秀的外掛組合
+- [craftzdog/dotfiles-public](https://github.com/craftzdog/dotfiles-public) - 我的個人 dotfiles
+- [jdhao/nvim-config](https://github.com/jdhao/nvim-config) - 一份現代化的 Neovim 配置，為 Python、Lua、C++、Markdown、LaTeX 等提供完善支援...
+- [FraserLee/ScratchPad](https://github.com/FraserLee/ScratchPad) - 用於自動置中 Neovim 緩衝區並附帶實用持久側邊便籤本的外掛
+
+## MATLAB 
+
+- [scottclowe/matlab-schemer](https://github.com/scottclowe/matlab-schemer) - 輕鬆在 MATLAB 中套用和儲存配色方案。
+
+## MDX 
+
+- [EvanNotFound/how-to-deal-with-my-crush](https://github.com/EvanNotFound/how-to-deal-with-my-crush) - 一個自以為是的情感指南
+- [mk965/mengke.me](https://github.com/mk965/mengke.me) - 我的 ☁️ 小屋。作品集、展示、程式片段與開發日誌
+- [lvwzhen/law-cn-ai](https://github.com/lvwzhen/law-cn-ai) - ⚖️ AI 法律助手
+- [cloudflare/cloudflare-docs](https://github.com/cloudflare/cloudflare-docs) - Cloudflare 的文件
+- [yangshun/front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook) - 🌐 為忙碌工程師準備的前端面試材料（已更新至 2025 年）
+- [twbs/bootstrap](https://github.com/twbs/bootstrap) - 最受歡迎的 HTML、CSS 和 JavaScript 框架，用於開發響應式、行動優先的網頁專案。
+## Makefile 
+
+- [Ewenwan/Ros](https://github.com/Ewenwan/Ros) - 機器人作業系統ROS 語音識別 語意理解 視覺控制 gazebo模擬 雷達建圖導航
+- [yuk7/ArchWSL](https://github.com/yuk7/ArchWSL) - 基於ArchLinux的WSL發行版。支持多重安裝。
+
+## Markdown 
+
+- [Schweinepriester/github-profile-achievements](https://github.com/Schweinepriester/github-profile-achievements) - 一個列出GitHub個人檔案所有成就的收藏 🏆
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) - 通過從零開始重建你喜愛的技術來精通程式設計。
+- [jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command) - Linux命令大全搜尋工具，內容包含Linux命令手冊、詳解、學習、蒐集。https://git.io/linux
+- [MicrosoftDocs/azure-docs](https://github.com/MicrosoftDocs/azure-docs) - Microsoft Azure 的開源文件
+- [tldr-pages/tldr](https://github.com/tldr-pages/tldr) - 📚 協作式的終端命令速查表
+- [microsoft/vscode-docs](https://github.com/microsoft/vscode-docs) - Visual Studio Code 的公開文件
+
+## Mermaid 
+
+- [v2fly/v2ray-examples](https://github.com/v2fly/v2ray-examples) - v2ray-core 的範本們
+
+## Meson 
+
+- [elementary/wallpapers](https://github.com/elementary/wallpapers) - elementary OS 的桌布收藏
+## Objective-C 
+
+- [MustangYM/WeChatExtension-ForMac](https://github.com/MustangYM/WeChatExtension-ForMac) - Mac 版微信插件
+
+## 其他
+
+- [lTbgykio/Books-Free-Books](https://github.com/lTbgykio/Books-Free-Books) - 免費書籍彙總。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+- [LOWERTOP/Shadowrocket-First](https://github.com/LOWERTOP/Shadowrocket-First) - 小火箭配色與配置
+- [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Trae AI & Cluely（及其它開源）系統提示詞、工具和 AI 模型。
+- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - MCP 伺服器合集。
+- [zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization) - 健康學習到 150 歲 - 人體系統調優不完全指南
+- [SpaceTimee/Fusion-JetBrainsMapleMono](https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono) - JetBrains Maple Mono：融合 JetBrains Mono 和 Maple Mono 的免費開源字型
+- [ZJU-LLMs/Foundations-of-LLMs](https://github.com/ZJU-LLMs/Foundations-of-LLMs) - 
+- [IQAQI233/611Study.ICU](https://github.com/IQAQI233/611Study.ICU) - 現今大多數中國高中生被迫執行 611 制，從早上 6 點到晚上 11 點，每週 6 天。令人遺憾的是，很多學生因此自殺或出現嚴重心理健康問題。靈感來自項目 996.i
+- [VIP-Share/Baidu-XunleiVIP](https://github.com/VIP-Share/Baidu-XunleiVIP) - 百度網盤超級會員，迅雷會員、愛奇藝會員帳號每日分享，還有優酷，騰訊，芒果等VIP。以及百度網盤（百度雲）不限速工具分享。
+- [pengsida/learning_research](https://github.com/pengsida/learning_research) - 本人的科研經驗
+- [wgwang/awesome-LLMs-In-China](https://github.com/wgwang/awesome-LLMs-In-China) - 中國大模型
+- [JnuSimba/MiscSecNotes](https://github.com/JnuSimba/MiscSecNotes) - 關於 Web 應用安全、滲透測試的學習筆記
+- [P3TERX/GeoLite.mmdb](https://github.com/P3TERX/GeoLite.mmdb) - MaxMind 的 GeoIP2 GeoLite2 國家、城市及 ASN 資料庫
+- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers) - 🚀 免費訂閱地址，🚀 免費節點，🚀 每 6 小時更新一次，共享節點，節點品質高且可用，完全免費。免費 clash 訂閱地址，免費翻牆、免費科學上網、免費梯子、免費 ss/v2ray/trojan 節點、Google 商店、翻牆梯子。🚀 Free subscription address, 🚀 Free node, 🚀 Updated every 6 hours, shared node, high-quality node
+- [billmei/every-chatgpt-gui](https://github.com/billmei/every-chatgpt-gui) - 所有 ChatGPT、Claude 及其它 LLM 的前端 GUI 客戶端
+- [zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare) - ⛅️ 精選的 Cloudflare 工具、開源項目、指南、部落格和其他資源列表。/ ⛅️ A curated list of Cloudflare tools, open source projects, guides, blogs and other resources.
+- [zbezj/HEU_KMS_Activator](https://github.com/zbezj/HEU_KMS_Activator) - 
+- [tuna/issues](https://github.com/tuna/issues) - 與程式碼無關的問題
+- [bamf2077/secure-dns](https://github.com/bamf2077/secure-dns) - 適用於蘋果設備的安全 DNS 配置描述檔。DNS over HTTPS (DoH) & DNS over TLS (DoT) 配置檔，適用於 iOS、iPadOS 及 macOS。
+- [TsinghuaMemes/TsinghuaMemes](https://github.com/TsinghuaMemes/TsinghuaMemes) - 以免在群聊時看不懂群友說什麼
+- [mlabonne/llm-course](https://github.com/mlabonne/llm-course) - 進入大型語言模型（LLMs）的學習課程，包含學習路線圖及 Colab 筆記本。
+- [maxujie/awesome-tsinghua](https://github.com/maxujie/awesome-tsinghua) - 與清華大學（Tsinghua University）相關的有趣 repo 整合
+- [easychen/lean-side-bussiness](https://github.com/easychen/lean-side-bussiness) - 精益副業：程式設計師如何優雅地做副業
+- [Wsky51/THU-CS912-kaoyan](https://github.com/Wsky51/THU-CS912-kaoyan) - 清華大學計算機類912考研歷年真題、清華本科生試卷以及清華相關課程 ppt
+- [MerlinKodo/clash-rev](https://github.com/MerlinKodo/clash-rev) - Clash 核心項目的延續
+- [THU-feiyue/docs](https://github.com/THU-feiyue/docs) - 清華大學飛躍手冊
+- [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) - 🦄 🎃 👻 V2Ray 路由規則檔加強版，可替代 V2Ray 官方 geoip.dat 和 geosite.dat，適用於 V2Ray、Xray-core、mihomo(Clash-Meta)、hysteria、Trojan-Go 和 leaf。Enhanced edition of V2Ray rules dat files, applicable to V2Ray, Xray-core, m
+- [huaweiii/HWGaussDB](https://github.com/huaweiii/HWGaussDB) - 滑偽 GaussDB 數據庫 - 完全自主研發，打破國外壟斷，比 PostgreSQL 快 600%。
+- [cloudcommunity/Cloud-Free-Tier-Comparison](https://github.com/cloudcommunity/Cloud-Free-Tier-Comparison) - 比較 AWS、Azure、GCP、Oracle 等主流雲服務提供商的免費方案。
+- [iamshuaidi/CS-Book](https://github.com/iamshuaidi/CS-Book) - 計算機類常用電子書整理，並附帶下載鏈接，包括 Java、Python、Linux、Go、C、C++、資料結構與算法、人工智能、計算機基礎、面試、設計模式、資料庫、前端等書籍
+- [immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate) - 沉浸式雙語網頁翻譯擴展，支持輸入框翻譯、滑鼠懸停翻譯、PDF、Epub、字幕檔、TXT 檔翻譯 - Immersive Dual Web Page Translation Extension
+- [megaease/Remembering-Haoel](https://github.com/megaease/Remembering-Haoel) - 記錄您對左耳朵耗子（陳皓）的點滴回憶
+- [cursor/cursor](https://github.com/cursor/cursor) - AI 代碼編輯器
+- [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) - Awesome-LLM：精選大型語言模型（LLM）資源列表
+- [dalinvip/Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT) - ChatGPT 資料彙總學習，持續更新......
+- [v2fly/v2ray-step-by-step](https://github.com/v2fly/v2ray-step-by-step) - 這個倉庫是 ToutyRater/v2ray-guide 的分支，旨在提供新的 v2ray 分步指南
+- [davinci1010/pinduoduo_backdoor](https://github.com/davinci1010/pinduoduo_backdoor) - 拼多多 apk 內嵌提權代碼及動態下發 dex 分析
+- [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - ChatGPT 中文調教指南。各種場景使用指南。學習如何讓它聽你的話。
+- [noobnooc/noobnooc](https://github.com/noobnooc/noobnooc) - 我的個人主頁
+- [jesselau76/GPT-Prompts](https://github.com/jesselau76/GPT-Prompts) - 有用的 GPT 提示詞
+- [humanloop/awesome-chatgpt](https://github.com/humanloop/awesome-chatgpt) - 精選 ChatGPT 和 GPT-3 的優秀工具、演示、文件列表
+- [erbanku/erbanku](https://github.com/erbanku/erbanku) - 
+- [dukeluo/awesome-awesome-prompts](https://github.com/dukeluo/awesome-awesome-prompts) - 收集與提示詞工程相關的優秀資源列表
+- [mushan0x0/AI0x0.com](https://github.com/mushan0x0/AI0x0.com) - 一款多模態多模型通用型的全域全能 AI 查詢生成桌面懸浮助手應用
+- [apachecn/huazhang-econ-mgt-book](https://github.com/apachecn/huazhang-econ-mgt-book) - :book: 華章經管叢書高清掃描
+- [tuic-protocol/tuic](https://github.com/tuic-protocol/tuic) - Delicately-TUICed 0-RTT 代理協議
+- [Alice-space/PKU-OpenWrt](https://github.com/Alice-space/PKU-OpenWrt) - 北大 OpenWrt 配置方法
+- [eliaszon/Programmers-Overseas-Job-Interview-Handbook](https://github.com/eliaszon/Programmers-Overseas-Job-Interview-Handbook) - 🏂🏻 程式設計師海外工作/英文面試手冊
+- [lukeed/awesome-cloudflare-workers](https://github.com/lukeed/awesome-cloudflare-workers) - 😎 Cloudflare Workers 優秀資源合輯
+- [LUKE-ZZ/thuthesis-biomedical](https://github.com/LUKE-ZZ/thuthesis-biomedical) - 清華大學生物、醫學、藥學等相關專業的畢業論文 latex 模板。亦適用於其他專業。適合本碩博畢業論文與博後報告。此模板在 tuna 協會 thuthesis 項目基礎上，增補了與生醫藥相關同學的內容，也增添了對 latex 新手更友好的註釋。
+- [oneclickearth/oneclick](https://github.com/oneclickearth/oneclick) - 科學上網/自由上網/翻牆/軟體，2021 科學上網指南
+- [k88hudson/git-flight-rules](https://github.com/k88hudson/git-flight-rules) - Git 使用飛行規則
+- [rockbenben/LearnData](https://github.com/rockbenben/LearnData) - 開源工具、效率方法、心理學探索的自我提升筆記
+- [fredliu168/TheEconomist2022](https://github.com/fredliu168/TheEconomist2022) - 經濟學人 2022 年期刊 在線閱讀，包含音訊，若域名無法訪問，請訪問 http://157.230.57.119:8888
+- [myseil/BingWallpaper](https://github.com/myseil/BingWallpaper) - 收集 Bing 必應每日壁紙
+- [Ethkuil/awesome-thu-student-software](https://github.com/Ethkuil/awesome-thu-student-software) - 收錄主要由清華大學在校學生開發/維護的實用開源軟體。
+- [HelinXu/THUDA-9](https://github.com/HelinXu/THUDA-9) - 清華大學自動化系課程 Notes
+- [DerDanilo/seafile-community-manual](https://github.com/DerDanilo/seafile-community-manual) - Seafile CE 社群手冊
+- [runvnc/dadsresume](https://github.com/runvnc/dadsresume) - 我的父親 1980 年的履歷與技能
+- [SurviveSJTU/SurviveSJTUManual](https://github.com/SurviveSJTU/SurviveSJTUManual) - 更新 2008 年版《上海交通大學生存手冊》gitbook 發布於 https://survivesjtu.gitbook.io/survivesjtumanual/
+- [dy-sh/one-dark-potplayer-theme](https://github.com/dy-sh/one-dark-potplayer-theme) - 受 Atom One Dark 啟發的 PotPlayer 皮膚
+- [vscode-ext-studio/OneDark-Modern](https://github.com/vscode-ext-studio/OneDark-Modern) - 
+- [bighuang624/AI-research-tools](https://github.com/bighuang624/AI-research-tools) - :hammer:AI 方向實用的科研工具
+- [jotaen/xit](https://github.com/jotaen/xit) - 一種純文字格式的待辦和清單
+- [ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix) - 現代/更快/更人性化的常見 Unix 指令替代集合
+- [opsre/Thanks-Mirror](https://github.com/opsre/Thanks-Mirror) - 整理記錄各個套件管理器、系統映像，以及常用軟體的好用鏡像，Thanks Mirror。 走過路過，如覺不錯，麻煩點個贊👆🌟
+- [KeiKinn/ShadowsocksBio](https://github.com/KeiKinn/ShadowsocksBio) - 記錄 Shadowsocks 的前世今生，以及簡單教程總結
+- [eryajf/awesome-github-profile-readme-chinese](https://github.com/eryajf/awesome-github-profile-readme-chinese) - 🦩 優秀的中文區個人主頁收集
+- [lesuixin/v2ray-cf](https://github.com/lesuixin/v2ray-cf) - v2ray 搭配 CF 無域名加速新手教程
+- [irazasyed/awesome-cloudflare](https://github.com/irazasyed/awesome-cloudflare) - ⛅️ Cloudflare Worker 精選食譜、開源項目、指南、部落格及其他資源列表。
+- [PicGo/Awesome-PicGo](https://github.com/PicGo/Awesome-PicGo) - PicGo 優秀項目合輯
+- [nicejade/nice-front-end-tutorial](https://github.com/nicejade/nice-front-end-tutorial) - 🌍  與時俱進的前端資源、教程和意見，持續更新。
+- [eryajf/learning-weekly](https://github.com/eryajf/learning-weekly) - 📝 周刊內容以運維技術和 Go 語言周邊為主，輔以 GitHub 上優秀項目或他人優秀經驗。歡迎 star 點贊收藏👆🌟
+- [dair-ai/ML-Course-Notes](https://github.com/dair-ai/ML-Course-Notes) - 🎓 分享機器學習課程/講義筆記。
+- [sirredbeard/awesome-wsl](https://github.com/sirredbeard/awesome-wsl) - 專注於 Windows 子系統 Linux（WSL）的優秀資源合輯
+- [GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) - 堅持分享 GitHub 上高品質、有趣實用的開源技術教程、開發者工具、編程網站、技術資訊。A list cool, interesting projects of GitHub.
+- [steam3d/MagicPods-Windows](https://github.com/steam3d/MagicPods-Windows) - 為你的 Airpods 增添小魔法
+- [dair-ai/ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses) - 📺 發現最新機器學習／AI YouTube 課程。
+- [ImCa0/just-laws](https://github.com/ImCa0/just-laws) - 一個簡潔、便捷的中國法律資料庫 | A Simple and Convenient Laws Library of China.
+- [github/codeql-cli-binaries](https://github.com/github/codeql-cli-binaries) - CodeQL CLI 的二進位檔
+- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - 各類啟發性列表、手冊、速查表、部落格、技巧、單行命令、CLI/Web 工具等合輯。
+- [brave/goggles-quickstart](https://github.com/brave/goggles-quickstart) - Goggles 教學資源，介紹如何創建自己的 Goggles。
+- [iggredible/Learn-Vim](https://github.com/iggredible/Learn-Vim) - 學習 Vim 和 Vimscript 並不難。這就是你要找的指南 📖
+- [fatalerror-i/ThuWordThesis](https://github.com/fatalerror-i/ThuWordThesis) - 清華大學學位論文 Word 模板。A Word thesis template for Tsinghua University.
+- [pb0316/thuhole_memories](https://github.com/pb0316/thuhole_memories) - 
+- [jiegec/dcst-facts](https://github.com/jiegec/dcst-facts) - 清華大學 DCST 相關事實
+- [microsoft/vscode-loc](https://github.com/microsoft/vscode-loc) - VS Code 本地化擴展
+- [mangecoeur/AcademicMarkdown](https://github.com/mangecoeur/AcademicMarkdown) - MarkdownEditing 的學術寫作擴展
+- [linuxkerneltravel/linux_kernel_wiki](https://github.com/linuxkerneltravel/linux_kernel_wiki) - linux 核心學習資料：200+ 經典核心文章，100+ 核心論文，50+ 核心項目，500+ 核心面試題，80+ 核心影片
+- [GyanD/codexffmpeg](https://github.com/GyanD/codexffmpeg) - https://www.gyan.dev/ffmpeg 的支援
+- [scottclowe/matlab-schemes](https://github.com/scottclowe/matlab-schemes) - MATLAB 色彩主題合輯
+- [skyiea/rememberry-i10n](https://github.com/skyiea/rememberry-i10n) - Rememberry 的本地化
+- [rzashakeri/beautify-github-profile](https://github.com/rzashakeri/beautify-github-profile) - 本倉庫助你打造更美觀的 GitHub 個人主頁，並提供完整工具和教程資源。
+- [Jonezhen/CSBook](https://github.com/Jonezhen/CSBook) - 
+- [ripperhe/Bob](https://github.com/ripperhe/Bob) - Bob 是一款 macOS 平台的翻譯和 OCR 軟體。
+- [SwiftOldDriver/iOS-Weekly](https://github.com/SwiftOldDriver/iOS-Weekly) - 🇨🇳 老司機技術 iOS 周報
+- [comwrg/package-manager-proxy-settings](https://github.com/comwrg/package-manager-proxy-settings) - 記錄各個套件管理器代理設置的坑點。
+- [liuchengxu/git-commit-emoji-cn](https://github.com/liuchengxu/git-commit-emoji-cn) - 😁 git commit 訊息 emoji 使用指南
+- [aishalih/sfwin](https://github.com/aishalih/sfwin) - SFWin — 適用於 Windows 10 和非蘋果平台的 San Francisco 字體
+- [aooiuu/z-reader](https://github.com/aooiuu/z-reader) - 📘 [vscode 插件] 小說閱讀器，支援線上搜索和本地閱讀，支援 txt 和 epub 格式
+- [inkscape/inkscape](https://github.com/inkscape/inkscape) - 項目網站：https://inkscape.org - 代碼倉庫：https://gitlab.com/inkscape/inkscape - 自由繪圖。🖌
+- [taunoe/arduino-dark-theme](https://github.com/taunoe/arduino-dark-theme) - Arduino 深色主題！
+- [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules) - 🦄️ 🎃 👻 Clash Premium 規則集（RULE-SET），相容於 ClashX Pro、Clash for Windows 等基於 Clash Premium 核心的客戶端。
+- [sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines) - 中文文案排版指北／Chinese copywriting guidelines for better written communication
+- [woct0rdho/pkuholebackup](https://github.com/woct0rdho/pkuholebackup) - 
+- [Keldos-Li/typora-latex-theme-fonts](https://github.com/Keldos-Li/typora-latex-theme-fonts) - 
+- [geekan/HowToLiveLonger](https://github.com/geekan/HowToLiveLonger) - 程式設計師延壽指南 | A programmer's guide to live longer
+- [gaocegege/my-github-status](https://github.com/gaocegege/my-github-status) - 
+- [fat0troll/terminalus](https://github.com/fat0troll/terminalus) - Terminal.app 主題，靈感來自 Termius iOS 應用的色彩方案
+- [clarketm/proxy-list](https://github.com/clarketm/proxy-list) - 免費、公開、正向代理伺服器列表。每日更新！
+- [ShiftyTR/Proxy-List](https://github.com/ShiftyTR/Proxy-List) - 免費代理伺服器列表，每小時更新！-- API 請訪問
+- [623637646/996.Leave](https://github.com/623637646/996.Leave) - 逃離 996
+- [The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run) - 潤學全球官方指定 GITHUB，整理潤學宗旨、綱領、理論和各類潤之實例；解決為什麼潤，潤去哪裡，怎麼潤三大問題；並成為新中國人的核心宗教、核心信念。
+- [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) - 精選的基於項目的教程合輯
+- [veeral-patel/how-to-secure-anything](https://github.com/veeral-patel/how-to-secure-anything) - 如何系統性地保護任何東西：有關安全工程的資源庫
+- [ossu/data-science](https://github.com/ossu/data-science) - 📊 免費自學資料科學的路徑！
+- [lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions) - 一長串（進階）JavaScript 問題及其說明 :sparkles:
+- [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) - 一套關於 JS 語言的書籍系列（已出版兩個版本）。
+- [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - 成為軟體工程師的完整計算機科學學習計劃。
+- [DhanushNehru/Ultimate-NodeJs-Resources](https://github.com/DhanushNehru/Ultimate-NodeJs-Resources) - 所有與 Node Js 相關的資源集中於一處
+- [Paladinfeng/MiaoProject](https://github.com/Paladinfeng/MiaoProject) - Miao Project Bug 反饋
+- [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) - 一套應用程式創意集合，可用於提升你的編程技能。
+- [warpdotdev/Warp](https://github.com/warpdotdev/Warp) - Warp 是一個智能開發環境，為多個 AI 代理協作編程而建。
+- [Infatuation-Fei/rule](https://github.com/Infatuation-Fei/rule) - 自用規則
+- [MicrosoftDocs/WSL](https://github.com/MicrosoftDocs/WSL) - Windows Subsystem for Linux 文件的原始碼。
+- [Serendipity-Theme/windows-terminal](https://github.com/Serendipity-Theme/windows-terminal) - Serendipity 主題移植到 Windows Terminal。
+- [Serendipity-Theme/vs-code](https://github.com/Serendipity-Theme/vs-code) - 輕鬆、溫和且現代。
+- [Serendipity-Theme/template-for-repositories](https://github.com/Serendipity-Theme/template-for-repositories) - 主題移植的倉庫範本
+- [xuehu54321/awesome-music-for-programming](https://github.com/xuehu54321/awesome-music-for-programming) - 編程時的好聽音樂，一起來分享你在編程時聽的音樂！
+- [soulteary/docker-flare](https://github.com/soulteary/docker-flare) - Flare ✨ 輕量級、高效能且快速的自託管導航頁，資源利用率 <1% CPU，MEM <30M，Docker 映像檔 <10M
+- [jCodeLife/mind-map](https://github.com/jCodeLife/mind-map) - 🖼個人思維導圖筆記，已整理 JS、TS、Vue、React ... 持續更新中，歡迎 PR 和 Start~
+- [coder2gwy/coder2gwy](https://github.com/coder2gwy/coder2gwy) - 互聯網首份程式員考公指南，由三位已進入體制內的前大廠程式員聯合獻上。
+- [georgezzzh/homepage](https://github.com/georgezzzh/homepage) - 
+- [996icu/996.ICU](https://github.com/996icu/996.ICU) - 統計 star 並貢獻的 repo。按 F 向光榮的開發者致敬。
+- [danyspin97/TelegramBotsList](https://github.com/danyspin97/TelegramBotsList) - 所有在 github 上托管的 Telegram 機器人原始碼列表。
+- [GorvGoyl/Clone-Wars](https://github.com/GorvGoyl/Clone-Wars) - 100+ 個熱門網站的開源克隆，如 Airbnb、Amazon、Instagram、Netflix、Tiktok、Spotify、Whatsapp、Youtube 等。查看原始碼、演示鏈接、技術棧、GitHub stars。
+- [github/gitignore](https://github.com/github/gitignore) - 有用的 .gitignore 模板合集
+- [gqcn/effective-go-zh-en](https://github.com/gqcn/effective-go-zh-en) - 《Effective Go》中英雙語版
+- [sublime-china/sublime-merge-chinese](https://github.com/sublime-china/sublime-merge-chinese) - Sublime Merge 漢化版
+- [facelessuser/merge-dracula-theme](https://github.com/facelessuser/merge-dracula-theme) - Sublime Merge Dracula 主題
+- [konrad91/OneDarkArduino](https://github.com/konrad91/OneDarkArduino) - Arduino IDE 的暗色主題，靈感來自 VSCode 的 One Dark Pro（binaryify）
+- [AbhishekGhosh/Arduino-Themes](https://github.com/AbhishekGhosh/Arduino-Themes) - 社群創建的 Arduino IDE 主題集合
+- [shengcaishizhan/kkndme_tianya](https://github.com/shengcaishizhan/kkndme_tianya) - 天涯 kkndme 神貼聊房價
+- [axipo/TrafficBlackhole](https://github.com/axipo/TrafficBlackhole) - 網絡品質與代理服務測試
+- [bestxtools/weekly-cn](https://github.com/bestxtools/weekly-cn) - 發現並分享有趣、有創意、免費、好用的工具，每週四發布。
+- [coderit666/GoGuide](https://github.com/coderit666/GoGuide) - 「Go 語言學習指南」涵蓋大部分 Golang 工程師所需的核心知識，包括 Go 語言教程、開源書籍、入門教學、學習路線。零基礎學習 Go 語言、Go 編程首選 GoGuide。
+- [andredelft/typora-tailwind-theme](https://github.com/andredelft/typora-tailwind-theme) - 適用於 Typora 的美麗 Tailwind 排版佈局。
+- [viraptor/reverse-interview](https://github.com/viraptor/reverse-interview) - 面試時你可以問公司的問題
+- [perkfly/reverse-interview-zh](https://github.com/perkfly/reverse-interview-zh) - 技術面試最後反問面試官的話
+- [imageslr/typora-theme-bear](https://github.com/imageslr/typora-theme-bear) - 一系列 Bear 風格的 Typora 主題，共計 20 餘款。A collection of typora themes, inspired by Bear.
+- [7-sevens/Developer-Books](https://github.com/7-sevens/Developer-Books) - 編程開發相關書單列表整理
+- [czs108/Cpp-Primer-5th-Notes-CN](https://github.com/czs108/Cpp-Primer-5th-Notes-CN) - 📚 《C++ Primer中文版（第5版）》筆記
+- [ShameCom/ShameCom](https://github.com/ShameCom/ShameCom) - 收集校招污點公司或組織，幫助學弟學妹避雷。互聯網不曾遺忘！
+- [csseky/cskaoyan](https://github.com/csseky/cskaoyan) - 提供計算機考研和軟件工程考研專業的各個學校考研真題
+- [Simizfo/WSATools](https://github.com/Simizfo/WSATools) - 易用的 Windows Subsystem for Android APK 安裝器及更多功能
+- [SPX372928/MyIPTV](https://github.com/SPX372928/MyIPTV) - 標準協議移動直播源
+- [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists) - 軟體及網頁開發可用的免費 API 集合 🚀
+- [Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo) - 收集整理 GitHub 上高品質、有趣的開源項目。
+- [imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8) - 直播源相關資源彙總 📺 💯 IPTV、M3U —— 勤洗手、戴口罩，祝願所有人百毒不侵
+- [methylcloud/learn-gcp](https://github.com/methylcloud/learn-gcp) - 學習 Google Cloud Platform (GCP) 的學習資源
+- [awsdocs/amazon-ec2-user-guide-windows](https://github.com/awsdocs/amazon-ec2-user-guide-windows) - Amazon EC2 Windows 使用者指南的開源版本。如有反饋或修改請提交 issue 或 PR。
+- [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) - 提供多款 Shadowrocket 規則，強大的廣告過濾功能。每日 8 點重建規則。
+- [AlenZhang-Dev/News-Record](https://github.com/AlenZhang-Dev/News-Record) - 目前主要維護經濟學人【The Economist】、紐約客【The NewYorker】和時代雜誌【Time】
+- [jeffreyxuan/toneoz-font-pinyin-kai](https://github.com/jeffreyxuan/toneoz-font-pinyin-kai) - 
+- [lanceliao/china-holiday-calender](https://github.com/lanceliao/china-holiday-calender) - 2023-2025 中國節假日、調休、補班日曆，ICS 格式，適用於 IPhone、Google Calendar、Outlook 等客戶端訂閱，包含節假日 API
+- [tokyo-night/tokyo-night-vscode-theme](https://github.com/tokyo-night/tokyo-night-vscode-theme) - 一款展現東京夜晚燈火的乾淨深色 Visual Studio Code 主題。
+- [Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules) - 🦄 🎃 👻 Surge 規則集（DOMAIN-SET 和 RULE-SET），適用於 iOS 和 Mac 客戶端。
+- [OpenRunner/clash-freenode](https://github.com/OpenRunner/clash-freenode) - 訂閱地址🚀 免費共享♻️ 定期更新✨ 科學上網🌈 請勿濫用🚫一鍵訂閱📪SSR/CLASH/V2RAY
+- [Sxela/ArcaneGAN](https://github.com/Sxela/ArcaneGAN) - ArcaneGAN
+- [60ss/Npp-1-Dark](https://github.com/60ss/Npp-1-Dark) - Notepad++ 的 One Dark 語法主題
+- [rdev/vscode-theme-onedark-spacegray](https://github.com/rdev/vscode-theme-onedark-spacegray) - 基於 Atom One Dark 主題的 VSCode 主題
+- [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD) - 致力於成為中文區命中率最高的廣告過濾列表，實現精確的廣告屏蔽和隱私保護。anti-AD 已支援 AdGuardHome、dnsmasq、Surge、Pi-Hole、Clash、mihomo、smartdns、sing-box 等網路元件。完全相容常見廣告過濾工具。
+- [Mosney/anti-anti-AD](https://github.com/Mosney/anti-anti-AD) - 為什麼不應使用 antiAD 去廣告列表，以及更多優秀替代方案
+- [leohku/andure](https://github.com/leohku/andure) - Android Chrome 的 DevTools — 適用於任何網站、任何 Chromium 瀏覽器。
+- [opendigg/awesome-github-wechat-weapp](https://github.com/opendigg/awesome-github-wechat-weapp) - 微信小程式開源項目庫匯總
+- [Discord-Custom-Covers/usrbg](https://github.com/Discord-Custom-Covers/usrbg) - Discord 使用者自訂背景資料庫。
+- [erbanku/awesome](https://github.com/erbanku/awesome) - 🌟 我的 Awesome 倉庫列表。每天 UTC 00:00 & 16:00 由 GitHub Actions 自動更新。
+- [algolia/awesome-algolia](https://github.com/algolia/awesome-algolia) - 🔍👋  從這裡開始！精選 Algolia 函式庫、資源和項目列表。
+- [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) - 精選遠端工作與資源列表。靈感來自 https://github.com/vinta/awesome-python
+- [githubtraining/introduction-to-github](https://github.com/githubtraining/introduction-to-github) - 學習實驗室「GitHub 入門」課程倉庫。模板倉庫 ➡️
+- [UyCode/uyfonts](https://github.com/UyCode/uyfonts) - 包含 UKIJ 及 Uighursoft 字型
+- [kkozee/vscode-theme-one-dark-vivid](https://github.com/kkozee/vscode-theme-one-dark-vivid) - Atom One Dark Vivid 主題的 VS Code 版本
+- [mathjax/MathJax](https://github.com/mathjax/MathJax) - 讓所有瀏覽器都能呈現美觀且可存取的數學公式
+- [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) - 每位軟體開發者都應該了解的（大多是技術性）知識集合
+- [yangkky/Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins) - 關於蛋白質機器學習的論文列表。
+- [mehcode/awesome-atom](https://github.com/mehcode/awesome-atom) - 精選 Atom 套件和資源列表。
+- [mcdtaiwan/McDonalds_Fries_Font](https://github.com/mcdtaiwan/McDonalds_Fries_Font) - 為每一位熱愛薯條的麥當勞鐵粉獻上 — 麥當勞薯條體 薯條 vs 番茄醬一起鬧一下！酥脆綿密的薯條、沾上美味番茄醬，拼出無限可能。麥當勞薯條體，免費開放下載！
+- [fangzesheng/free-api](https://github.com/fangzesheng/free-api) - 收集免費的 API 服務，做一個 API 的搬運工
+- [toml-lang/toml](https://github.com/toml-lang/toml) - Tom's Obvious, Minimal Language
+- [atomiechen/THU-PPT-Theme](https://github.com/atomiechen/THU-PPT-Theme) - 清華主題 PPT 模板
+- [zhiwehu/Python-programming-exercises](https://github.com/zhiwehu/Python-programming-exercises) - 100+ 個有挑戰性的 Python 編程練習
+- [hemanth/awesome-pwa](https://github.com/hemanth/awesome-pwa) - 精選進階 Web 應用（PWA）列表！
+- [joelparkerhenderson/git-commit-message](https://github.com/joelparkerhenderson/git-commit-message) - Git 提交訊息：如何寫出優秀的 git 提交訊息與模板
+- [marvinpinto/action-automatic-releases](https://github.com/marvinpinto/action-automatic-releases) - 唯讀：自動鏡像 https://github.com/marvinpinto/actions/tree/master/packages/automatic-releases
+- [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) - 精選新手友善項目列表。
+- [dracula/telegram](https://github.com/dracula/telegram) - 🧛🏻‍♂️ Telegram Desktop 的暗黑主題
+- [ahmadawais/shades-of-purple-vscode](https://github.com/ahmadawais/shades-of-purple-vscode) - 🦄 精選大膽鮮明的紫色調主題，讓你的程式碼視覺效果驚豔。精心設計的配色方案。
+- [priyankavergadia/GCPSketchnote](https://github.com/priyankavergadia/GCPSketchnote) - 如果你想成為 Google Cloud 工程師，這裡就是你的起點。GCPSketchnote 系列以簡潔易學的形式分享 Google Cloud 概念。
+- [flyhigher139/Git-Cheat-Sheet](https://github.com/flyhigher139/Git-Cheat-Sheet) - Git Cheat Sheet 中文版，由 Gevin (flyhigher139) 翻譯
+- [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) - 終端命令行高手之路，一頁全覽
+- [opendigg/awesome-github-vue](https://github.com/opendigg/awesome-github-vue) - Vue 相關開源項目庫匯總
+- [Codextor/npp-material-theme](https://github.com/Codextor/npp-material-theme) - Notepad++ 最史詩級的 Material 主題 | 暗色主題
+- [VirgilClyne/iRingo](https://github.com/VirgilClyne/iRingo) - 解鎖完整的 Apple 功能和整合服務
+- [treehollow/install-doc](https://github.com/treehollow/install-doc) - 如何搭建一個樹洞
+- [0voice/audio_video_streaming](https://github.com/0voice/audio_video_streaming) - 音視頻流媒體權威資料整理，500+ 份文章、論文、視頻、實踐項目、協議、業界大神名單。
+- [matchai/awesome-pinned-gists](https://github.com/matchai/awesome-pinned-gists) - 📌✨ GitHub 上超棒的動態置頂 Gist 集合
+- [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) - 🚀✨ 幫助初學者貢獻開源項目
+- [Tencent/secguide](https://github.com/Tencent/secguide) - 面向開發人員梳理的代碼安全指南
+- [ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey) - 精選 AutoHotkey 函式庫、分發包、腳本、工具及資源列表。
+- [Hack-with-Github/Windows](https://github.com/Hack-with-Github/Windows) - 精選利用 Windows 的工具！
+- [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) - 👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中國獨立開發者項目列表 -- 分享大家都在做什麼
+- [actionsflow/awesome-actionsflow](https://github.com/actionsflow/awesome-actionsflow) - Actionsflow 的超棒工作流程應用案例列表
+- [AZeC4/TelegramGroup](https://github.com/AZeC4/TelegramGroup) - 2025 最新悄咪咪收集的 10000+ 個 Telegram 群合集，附全網最有趣好用的機器人 BOT🤖【dianbaodaohang.com】
+- [sdras/awesome-actions](https://github.com/sdras/awesome-actions) - 精選 GitHub Actions 用法列表
+- [cobaltdisco/Google-Chinese-Results-Blocklist](https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist) - 我終於能用谷歌搜中文了……
+- [ffffffff0x/Digital-Privacy](https://github.com/ffffffff0x/Digital-Privacy) - 資訊保護與 OSINT 資源 | 一個數位隱私收集、保護、清理一體的方案，附加開源訊息收集（OSINT）對抗
+- [OverTheWallNode/SSV2RayTrojanSSRClash](https://github.com/OverTheWallNode/SSV2RayTrojanSSRClash) - 科學上網，ss, ssr, v2ray, trojan, clash, clashr，翻牆機場推薦
+- [formulahendry/955.WLB](https://github.com/formulahendry/955.WLB) - 955 不加班的公司名單 - 工作 955，work–life balance（工作與生活的平衡）
+- [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) - Git 和 GitHub 的酷炫功能列表
+- [github/roadmap](https://github.com/github/roadmap) - GitHub 公開路線圖
+- [ivmm/Student-resources](https://github.com/ivmm/Student-resources) - 介紹學生、教職工身份可享受的學生優惠、教育優惠或教師優惠權益，也希望各位享受權利的同時不忘義務，不要售賣、轉手資格，讓更多同學受益。
+- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - 可自架設於自己伺服器的自由軟體網路服務和網頁應用列表
+- [Cat-China/CatBrowser](https://github.com/Cat-China/CatBrowser) - 貓貓瀏覽器 - 完全自主研發，打破國外（美帝）對瀏覽器市場的壟斷，比 Chrome 快 600%。
+- [monyhar/monyhar](https://github.com/monyhar/monyhar) - 夢弘瀏覽器 - 完全自主研發，打破國外壟斷，比 Chrome 快 600%。
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - 😎 關於各類有趣主題的 Awesome 清單
+- [ruanyf/weekly](https://github.com/ruanyf/weekly) - 科技愛好者週刊，每週五發布
+- [github/gov-takedowns](https://github.com/github/gov-takedowns) - 政府下架通知原文。GitHub 不對下述通知中任何主張背書或採納。
+- [ShareX/CustomUploaders](https://github.com/ShareX/CustomUploaders) - ShareX 自訂上傳器
+- [glados-network/GLaDOS](https://github.com/glados-network/GLaDOS) - GLaDOS 狀態
+## PHP 
+
+- [pereorga/minimalist-web-notepad](https://github.com/pereorga/minimalist-web-notepad) - 極簡網頁記事本
+- [juzeon/fast-mail-bomber](https://github.com/juzeon/fast-mail-bomber) - 快速、多執行緒、高效且易於使用的郵件轟炸/垃圾郵件工具。通過不同供應商託管的 mailman 服務發送郵件。
+- [easychen/stack-roadmap](https://github.com/easychen/stack-roadmap) - 方糖全棧路線圖2023，為「從螺絲釘到一人企業」補全技能棧
+- [solstice23/argon-theme](https://github.com/solstice23/argon-theme) - 📖 Argon - 一個輕量、簡潔的 WordPress 主題
+- [assimon/dujiaoka](https://github.com/assimon/dujiaoka) - 🦄獨角數卡（自動售貨系統）- 開源站長自動化售貨解決方案，高效、穩定、快速！🚀🚀🎉🎉
+- [luolongfei/freenom](https://github.com/luolongfei/freenom) - Freenom 域名自動續期。Freenom domain name renews automatically.
+- [icret/EasyImages2.0](https://github.com/icret/EasyImages2.0) - 簡單圖床 - 一款功能強大且無需資料庫的圖床 2.0版
+- [coollabsio/coolify](https://github.com/coollabsio/coolify) - 一個開源且可自託管的 Heroku / Netlify / Vercel 替代方案。
+- [shlinkio/shlink](https://github.com/shlinkio/shlink) - 終極自託管短網址系統
+- [nadrad/h-m-m](https://github.com/nadrad/h-m-m) - h-m-m，或稱 Hackers Mind Map，是一個簡單、快速、以鍵盤為中心的終端心智圖工具。
+- [osuuu/LightPicture](https://github.com/osuuu/LightPicture) - 企業/團隊/個人圖片資源管理系統、圖床系統
+- [IO-Technologies/bashupload](https://github.com/IO-Technologies/bashupload) - bashupload.com 的開源版本 - 基於 PHP 的 CLI、伺服器、桌面和移動端檔案上傳工具
+- [renbaoshuo/Shortlink](https://github.com/renbaoshuo/Shortlink) - 短連結生成網站原始碼
+- [chenxuuu/shit-url](https://github.com/chenxuuu/shit-url) - 屑鏈生成，最屑的短連結生成站
+- [bugaosuni59/TH-CPL](https://github.com/bugaosuni59/TH-CPL) - 清華大學計算機學科推薦學術會議和期刊列表
+- [youranreus/Subscription-Manager](https://github.com/youranreus/Subscription-Manager) - 訂閱管理
+- [guanguans/favorite-link](https://github.com/guanguans/favorite-link) - ❤️ 每天收集喜歡的開源項目。
+- [PGYER/codefever](https://github.com/PGYER/codefever) - CodeFever 是完全免費開源的 Git 程式碼託管服務，支援一行命令安裝到自己伺服器！CodeFever Community Edition（自託管 Git 服務）！
+- [Anankke/SSPanel-UIM](https://github.com/Anankke/SSPanel-UIM) - 多用途代理服務管理系統
+- [privacy-protection-tools/dead-horse](https://github.com/privacy-protection-tools/dead-horse) - 
+- [xiebruce/PicUploader](https://github.com/xiebruce/PicUploader) - 一款不錯的圖床工具，支援 Mac/Win/Linux 伺服器、支援壓縮後上傳、添加圖片或文字浮水印、多檔案同時上傳、同時上傳到多個雲端、右鍵任意檔案上傳、快捷鍵上傳剪貼簿截圖、Web 版上傳、支援作為 Mweb/Typora 發布圖片介面、作為 PicGo/ShareX/uPic 等的自訂圖床，支援在伺服器上部署作為圖床介面，支援上傳任意格式檔案。
+- [5ime/video_spider](https://github.com/5ime/video_spider) - 短視頻去浮水印：抖音、皮皮蝦、火山、微視、微博、綠洲、最右、輕視頻、快手、全民小視頻、巴塞電影、陌陌、Before避風、開眼、Vue Vlog、小咖秀、皮皮搞笑、全民K歌、西瓜視頻、逗拍、虎牙、6間房、梨視頻、新片場、acfun、美拍...
+- [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) - 一個極簡、開源的線上 Pastebin，伺服器對貼上的資料零知識。資料在瀏覽器端使用 256 位元 AES 加密/解密。
+- [ZainCheung/netease-cloud-api](https://github.com/ZainCheung/netease-cloud-api) - 網易雲音樂升級 API
+- [SkyEmie/batch-obfuscator](https://github.com/SkyEmie/batch-obfuscator) - 批次檔案混淆的簡單方式（Windows）
+- [DenverCoder1/readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg) - ⚡ 動態產生、可自訂的 SVG，呈現打字和刪除文字的效果，適用於個人頁面、倉庫或網站。
+- [mylxsw/wizard](https://github.com/mylxsw/wizard) - Wizard 是一款開源的文件管理工具，支援 Markdown/Swagger/Table 類型的文件。
+- [jimmielin/the-light](https://github.com/jimmielin/the-light) - The Light 為 The Seed 提供動力。
+## PLpgSQL 
+
+- [pirate/wikipedia-mirror](https://github.com/pirate/wikipedia-mirror) - 🌐 指南與工具，用於以三種不同的方法離線鏡像 Wikipedia.org：Nginx 快取代理、Kiwix + ZIM 備份，以及 MediaWiki/XOWA + XML 備份
+
+## Pascal 
+
+- [tarcode-apps/BatteryMode](https://github.com/tarcode-apps/BatteryMode) - Windows 電池指示器替代品
+- [peazip/PeaZip](https://github.com/peazip/PeaZip) - 免費的壓縮/解壓軟體與 Rar 檔案解壓器。跨平台的檔案與壓縮管理器。功能包括分卷、壓縮、認證加密。支援 7Z、7-Zip sfx、ACE、ARJ、Brotli、BZ
+- [sashaoli/GiteaPanel](https://github.com/sashaoli/GiteaPanel) - 從系統匣管理本地 Gitea 伺服器。Управління локальним сервером Gitea з трею.
+
+## Perl 
+
+- [linode/longview](https://github.com/linode/longview) - Linode Longview Agent
+
+## PostScript 
+
+- [kenjihiranabe/The-Art-of-Linear-Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra) - Gilbert Strang《Linear Algebra for Everyone》的圖解筆記
+
+## PowerShell 
+
+- [lucyllewy/one-script-wsl2-systemd](https://github.com/lucyllewy/one-script-wsl2-systemd) - 適用於 WSL2 的 systemd hack 單腳本版本
+- [devblackops/Terminal-Icons](https://github.com/devblackops/Terminal-Icons) - 一個用於在終端中顯示檔案與資料夾圖示的 PowerShell 模組
+- [lptstr/winfetch](https://github.com/lptstr/winfetch) - 🛠 一個用 PowerShell 撰寫的命令列系統資訊工具。類似 Neofetch，但適用於 Windows。
+- [ScoopInstaller/Scoop](https://github.com/ScoopInstaller/Scoop) - Windows 命令列安裝器。
+- [gluons/powershell-git-aliases](https://github.com/gluons/powershell-git-aliases) - :octocat: PowerShell 版 Oh My Zsh Git 指令別名集。
+- [actions/runner-images](https://github.com/actions/runner-images) - GitHub Actions 執行器映像檔
+- [AmrEldib/WindowsContextMenuCustomizations](https://github.com/AmrEldib/WindowsContextMenuCustomizations) - 用於修改 Windows 右鍵選單的登錄檔項目
+- [dracula/powershell](https://github.com/dracula/powershell) - 🧛🏻‍♂️ PowerShell 與 cmd.exe 的暗色主題
+## Python 
+
+- [qianye216/OpenList-Desktop](https://github.com/qianye216/OpenList-Desktop) - OpenList Desktop 是一個為 OpenList (Alist) 和 Rclone 設計的跨平台桌面客戶端。它提供了一個現代化且用戶友善的圖形介面，幫助您輕鬆管理 Alist 服務和 Rclone 雲端硬碟掛載，無需記憶和輸入繁瑣的命令列指令。
+- [kvcache-ai/ktransformers](https://github.com/kvcache-ai/ktransformers) - 一個靈活的框架，用於體驗最先進的 LLM 推理優化
+- [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate) - PDF 科學論文翻譯並保留格式 - 基於 AI 完整保留排版的 PDF 文件全文雙語翻譯，支持 Google/DeepL/Ollama/OpenAI 等服務，提供 CLI/GUI/MCP/Docker/Zotero
+- [microsoft/markitdown](https://github.com/microsoft/markitdown) - 將檔案和 Office 文件轉換為 Markdown 的 Python 工具。
+- [hiroi-sora/Umi-CUT](https://github.com/hiroi-sora/Umi-CUT) - 圖片批量去黑邊/裁剪/壓縮工具，帶介面。可排除圖片邊緣的色塊干擾，將黑邊刪除乾淨。基於 Opencv。
+- [google-deepmind/alphafold3](https://github.com/google-deepmind/alphafold3) - AlphaFold 3 推理流程。
+- [CaoZ/XueCheBu-Crack](https://github.com/CaoZ/XueCheBu-Crack) - 學車的同學有福啦，再也不用傻傻的守在電腦前看幾十個小時的視頻了，輕輕點一點，煩惱全不見~
+- [zhuozhiyongde/PKU-Auto-Reservation](https://github.com/zhuozhiyongde/PKU-Auto-Reservation) - 北京大學/北大/PKU自動預約入校
+- [aoguai/LiYing](https://github.com/aoguai/LiYing) - LiYing 是一套適用於自動化完成一般照相館後期證件照處理流程的照片自動處理程式。
+- [chen08209/Clash.Meta](https://github.com/chen08209/Clash.Meta) - 一個簡單的 Python Pydantic 模型，用於解析來自 Mihomo API 的崩壞：星穹鐵道數據。
+- [arsenetar/dupeguru](https://github.com/arsenetar/dupeguru) - 尋找重複檔案
+- [2noise/ChatTTS](https://github.com/2noise/ChatTTS) - 用於日常對話的生成式語音模型。
+- [matheusfillipe/notes-todo_bot](https://github.com/matheusfillipe/notes-todo_bot) - 一個 Telegram 機器人，用於記錄、編輯並保存筆記到 Github gist
+- [xrl12/auto_back](https://github.com/xrl12/auto_back) - 自動備份
+- [LorenEteval/Furious](https://github.com/LorenEteval/Furious) - 一個基於 PySide6 的 GUI 代理客戶端。支持 Xray-core 及 hysteria
+- [MetaCubeX/mihomo](https://github.com/MetaCubeX/mihomo) - 一個簡單的 Python Pydantic 模型，用於解析來自 Mihomo API 的崩壞：星穹鐵道數據。
+- [euxcet/thulearn2018](https://github.com/euxcet/thulearn2018) - 清華大學網頁教學工具。
+- [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) - 🗃 開源自託管網頁歸檔。接受 URL/瀏覽器歷史/書籤/Pocket/Pinboard 等，保存 HTML、JS、PDF、媒體等...
+- [vvbbnn00/WARP-Clash-API](https://github.com/vvbbnn00/WARP-Clash-API) - 該項目可以讓你通過訂閱的方式使用 Cloudflare WARP+，自動獲取流量。This project enables you to use Cloudflare WARP+ through subscription, automatically acquiring traffic.
+- [deadc0de6/dotdrop](https://github.com/deadc0de6/dotdrop) - 一次保存您的 dotfiles，隨處部署
+- [MuggleWei/bdchecker](https://github.com/MuggleWei/bdchecker) - 備份數據檢查器
+- [ASKCOS/ASKCOS](https://github.com/ASKCOS/ASKCOS) - 電腦輔助合成規劃軟體包
+- [JoeanAmier/XHS-Downloader](https://github.com/JoeanAmier/XHS-Downloader) - 小紅書（XiaoHongShu、RedNote）連結提取/作品採集工具：提取帳號發布、收藏、按讚、專輯作品連結；提取搜尋結果作品、用戶連結；採集小紅書作品資訊；提取小紅書作品下載位址；下載小紅書無浮水印作品檔案
+- [Coframe/coffee](https://github.com/Coframe/coffee) - 用 AI 讓你的 UI 開發速度提升 10 倍 —— 直接在你的 IDE 裡 ☕️
+- [JoeanAmier/TikTokDownloader](https://github.com/JoeanAmier/TikTokDownloader) - TikTok 發布/喜歡/合輯/直播/視頻/圖集/音樂；抖音發布/喜歡/收藏/收藏夾/視頻/圖集/實況/直播/音樂/合集/評論/帳號/搜尋/熱榜數據採集工具/下載工具
+- [V-know/ChatGPT-Telegram-Bot](https://github.com/V-know/ChatGPT-Telegram-Bot) - 一個擁有絲滑 AI 體驗的 Telegram 機器人。支持 UI。
+- [pyecharts/pyecharts](https://github.com/pyecharts/pyecharts) - 🎨 Python Echarts 繪圖函式庫
+- [skypilot-org/skypilot](https://github.com/skypilot-org/skypilot) - SkyPilot：在任何基礎設施（Kubernetes 或 16+ 雲端）上運行 AI 及批次作業。簡單介面實現統一執行、節省成本、高 GPU 可用性。
+- [jiji262/douyin-downloader](https://github.com/jiji262/douyin-downloader) - 抖音批量下載工具，去浮水印，支持視頻、圖集、合集、音樂（原聲）。免費！免費！免費！
+- [sail-sg/EditAnything](https://github.com/sail-sg/EditAnything) - 基於 segment-anything、ControlNet、StableDiffusion 等編輯任意圖片內容（ACM MM）
+- [jackhawks/rectg](https://github.com/jackhawks/rectg) - 從全網收集超 10000+ 個 Telegram 群組、頻道和機器人，並篩選出優質且持續更新的資源，為數據分析、研究與學習提供支持。所有數據均來源於互聯網，僅用於研究分析，不涉及商業或違法用途，使用者需自行承擔風險。
+- [PromtEngineer/localGPT](https://github.com/PromtEngineer/localGPT) - 在本地設備上使用 GPT 模型與文件對話。資料不離開設備，100% 私密。
+- [jtsang4/claude-to-chatgpt](https://github.com/jtsang4/claude-to-chatgpt) - 本項目將 Anthropic 的 Claude 模型 API 轉換為 OpenAI Chat API 格式。
+- [zhaoolee/wxread](https://github.com/zhaoolee/wxread) - 微信讀書刷時長
+- [malinkang/weread2notion](https://github.com/malinkang/weread2notion) - 將微信讀書劃線同步到 Notion
+- [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt) - 使用 GPT 強大能力與文件互動，100% 私有，無資料外洩
+- [duaibeom/chemOCR](https://github.com/duaibeom/chemOCR) - 基於資料庫的化學結構光學識別
+- [pengxiao-song/LaWGPT](https://github.com/pengxiao-song/LaWGPT) - 🎉 LaWGPT 倉庫，Chinese-Llama 基於中文法律知識調優的大語言模型。
+- [RUCAIBox/LLMSurvey](https://github.com/RUCAIBox/LLMSurvey) - 論文 "A Survey of Large Language Models" 的官方 GitHub 頁面。
+- [AIGC-Audio/AudioGPT](https://github.com/AIGC-Audio/AudioGPT) - AudioGPT: 理解與生成語音、音樂、聲音與數位人像
+- [xtekky/gpt4free](https://github.com/xtekky/gpt4free) - 官方 gpt4free 倉庫 | 多種強大語言模型的合集 | o4, o3 和 deepseek r1, gpt-4.1, gemini 2.5
+- [OpenMOSS/MOSS](https://github.com/OpenMOSS/MOSS) - 復旦大學開源的工具增強型對話語言模型
+- [togethercomputer/RedPajama-Data](https://github.com/togethercomputer/RedPajama-Data) - RedPajama-Data 倉庫包含用於訓練大型語言模型的大型數據集準備代碼。
+- [Vision-CAIR/MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) - MiniGPT-4 和 MiniGPT-v2 的開源代碼（https://minigpt-4.github.io, https://minigpt-v2.github.io/）
+- [facebookresearch/AnimatedDrawings](https://github.com/facebookresearch/AnimatedDrawings) - 兒童人體繪畫動畫化方法配套代碼
+- [pypa/pipx](https://github.com/pypa/pipx) - 在隔離環境中安裝並運行 Python 應用程式
+- [dylanjcastillo/shell-genie](https://github.com/dylanjcastillo/shell-genie) - 你的願望即是我的命令
+- [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) - OpenAssistant 是一個基於聊天的助手，能理解任務、與第三方系統互動並動態檢索資訊。
+- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - AutoGPT 致力於讓人人都能用、能構建 AI。我們的使命是提供工具，讓你能專注於重要的事。
+- [THUDM/GLM-130B](https://github.com/THUDM/GLM-130B) - GLM-130B：一個開放雙語預訓練模型（ICLR 2023）
+- [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) - ChatGLM-6B：開源雙語對話語言模型
+- [binary-husky/gpt_academic](https://github.com/binary-husky/gpt_academic) - 為 GPT/GLM 等 LLM 大語言模型提供實用化互動介面，特別優化論文閱讀/潤色/寫作體驗，模組化設計，支持自訂快捷按鈕&函數插件，支持 Python 和 C++ 等項目剖析&自譯解功能，PDF/LaTex 論文翻譯&摘要功能，支持多 LLM 並行問詢，支持 chatglm3 等本地模型。接入通義千問, deepseekcoder, 訊飛星火, 文心一言, llama2, rwkv, claude2, moss
+- [gd3kr/BlenderGPT](https://github.com/gd3kr/BlenderGPT) - 使用英文指令配合 OpenAI 的 GPT-4 控制 Blender
+- [receyuki/stable-diffusion-prompt-reader](https://github.com/receyuki/stable-diffusion-prompt-reader) - 簡單獨立的 Stable Diffusion 圖片提示詞瀏覽器，無需 webui。
+- [Moksh-Bhardwaj/public-forward-bot](https://github.com/Moksh-Bhardwaj/public-forward-bot) - 
+- [lm-sys/FastChat](https://github.com/lm-sys/FastChat) - 開放平台，用於訓練、部署、評估大型語言模型。Vicuna 及 Chatbot Arena 發布倉庫。
+- [chidiwilliams/buzz](https://github.com/chidiwilliams/buzz) - Buzz 能在本地離線轉錄並翻譯音訊。基於 OpenAI Whisper。
+- [phguo/AskGPT](https://github.com/phguo/AskGPT) - AskGPT：一個 Alfred Workflow，讓你隨時隨地詢問 ChatGPT。
+- [visual-openllm/visual-openllm](https://github.com/visual-openllm/visual-openllm) - 類似 visual-chatgpt，文心一言的開源版
+- [kale5195/chilloutai](https://github.com/kale5195/chilloutai) - AI 圖片生成
+- [npiv/chatblade](https://github.com/npiv/chatblade) - ChatGPT 命令列瑞士刀
+- [yashsinghcodes/wik](https://github.com/yashsinghcodes/wik) - wik 用於在終端上通過維基百科查詢任何資訊。
+- [alpa-projects/alpa](https://github.com/alpa-projects/alpa) - 自動並行化訓練及部署大規模神經網絡。
+- [SkywalkerDarren/chatWeb](https://github.com/SkywalkerDarren/chatWeb) - ChatWeb 能抓取網頁、讀取 PDF、DOCX、TXT，提取主要內容，並根據內容回答問題或總結重點。
+- [chenfei-wu/TaskMatrix](https://github.com/chenfei-wu/TaskMatrix) - 
+- [yihong0618/bilingual_book_maker](https://github.com/yihong0618/bilingual_book_maker) - 使用 AI 翻譯製作雙語 epub 書籍
+- [evilpan/gptcli](https://github.com/evilpan/gptcli) - 命令列 ChatGPT，用 OpenAI API（gpt-3.5-turbo/gpt-4/gpt-4-32k）
+- [mukulpatnaik/researchgpt](https://github.com/mukulpatnaik/researchgpt) - 基於 LLM 的研究助手，可與論文對話
+- [OFA-Sys/Chinese-CLIP](https://github.com/OFA-Sys/Chinese-CLIP) - CLIP 中文版，實現中文跨模態檢索與表示生成。
+- [father-bot/chatgpt_telegram_bot](https://github.com/father-bot/chatgpt_telegram_bot) - 💬 基於 ChatGPT 的 Telegram 機器人，基於 Python，使用 OpenAI API。
+- [yihong0618/xiaogpt](https://github.com/yihong0618/xiaogpt) - 用小米 AI 音箱玩 ChatGPT 及其他 LLM
+- [PR0FESS0R-99/Midukki-RoBoT](https://github.com/PR0FESS0R-99/Midukki-RoBoT) - Midukki-RoBoT 是一個全功能群組管理機器人，為有效管理群組並提供進階安全工具設計，滿足各類需求 ❤️
+- [microsoft/Codex-CLI](https://github.com/microsoft/Codex-CLI) - 使用 Codex 將自然語言命令轉為 Bash/ZShell/PowerShell 等效指令的 CLI 工具
+- [acheong08/ChatGPT](https://github.com/acheong08/ChatGPT) - 逆向工程 ChatGPT API
+- [anasty17/mirror-leech-telegram-bot](https://github.com/anasty17/mirror-leech-telegram-bot) - 官方倉庫：Telegram 機器人，能下載直鏈、種子、nzb、Google Drive、Telegram 檔案、rclone 支持的雲端、所有 yt-dlp 支持網站及 jdownloa
+- [Gsllchb/Handright](https://github.com/Gsllchb/Handright) - 輕量級 Python 函式庫，用於模擬中文手寫字跡
+- [ahui2016/R2-Gallery](https://github.com/ahui2016/R2-Gallery) - 個人獨立相簿，圖片儲存採用 Cloudflare R2 實現。
+- [yash1th/unsplash-album-downloader](https://github.com/yash1th/unsplash-album-downloader) - 批量下載 Unsplash 整個相簿照片
+- [Cog-Creators/Red-DiscordBot](https://github.com/Cog-Creators/Red-DiscordBot) - 多功能 Discord 機器人
+- [sjvasquez/handwriting-synthesis](https://github.com/sjvasquez/handwriting-synthesis) - 使用 RNN 進行手寫字跡合成 ✏️
+- [zhelper-org/tgbot](https://github.com/zhelper-org/tgbot) - zhelper tgbot
+- [approximatelabs/sketch](https://github.com/approximatelabs/sketch) - 理解數據內容的 AI 代碼助手
+- [ehulinsky/AnalogChess](https://github.com/ehulinsky/AnalogChess) - 無格棋盤國際象棋
+- [PantsuDango/Dango-Translator](https://github.com/PantsuDango/Dango-Translator) - 團子翻譯器 —— 個人興趣製作，基於 OCR 技術的翻譯器
+- [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) - 最簡單、最快速的中型 GPT 訓練/微調倉庫。
+- [liblaf/thu-learn-downloader](https://github.com/liblaf/thu-learn-downloader) - 下載清華大學網頁教學所有內容
+- [WhymustIhaveaname/TsinghuaTunet](https://github.com/WhymustIhaveaname/TsinghuaTunet) - 清華校園網自動連接腳本。
+- [zhaoolee/ins](https://github.com/zhaoolee/ins) - 🍭 互聯網從業者靈感資料庫，無廣告，Github Actions 自動檢測網站訪問速度
+- [lonnyzhang423/douyin-hot-hub](https://github.com/lonnyzhang423/douyin-hot-hub) - 記錄抖音熱榜、明星榜、直播榜、音樂榜和品牌榜，每小時更新，按天歸檔。
+- [net4people/bbs](https://github.com/net4people/bbs) - 討論網路審查規避技術的論壇
+- [kael-k/telegram-webdav-integration-bot](https://github.com/kael-k/telegram-webdav-integration-bot) - Telegram 機器人，將照片、影片和文件發送至 webdav 目錄
+- [qazxcdswe123/telegramMemoBot](https://github.com/qazxcdswe123/telegramMemoBot) - 用於 https://github.com/usememos/memos 的 Telegram 機器人
+- [carson-katri/dream-textures](https://github.com/carson-katri/dream-textures) - Stable Diffusion 內建於 Blender
+- [openai/openai-python](https://github.com/openai/openai-python) - OpenAI API 官方 Python 函式庫
+- [apple/ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion) - 在 Apple Silicon 上使用 Core ML 運行 Stable Diffusion
+- [HFrost0/bilix](https://github.com/HFrost0/bilix) - ⚡️超快異步 bilibili 及更多平台下載工具
+- [Evil0ctal/Douyin_TikTok_Download_API](https://github.com/Evil0ctal/Douyin_TikTok_Download_API) - 🚀「Douyin_TikTok_Download_API」是一個開箱即用的高性能異步抖音、快手、TikTok、Bilibili 數據爬取工具，支持 API 調用，線上批量解析及下載。
+- [Johnserf-Seed/TikTokDownload](https://github.com/Johnserf-Seed/TikTokDownload) - 抖音去浮水印批量下載用戶主頁作品、喜歡、收藏、圖文、音頻
+- [OpenShot/openshot-qt](https://github.com/OpenShot/openshot-qt) - OpenShot Video Editor 是一款屢獲殊榮的免費開源視頻編輯器，支持 Linux、Mac 和 Windows，致力於為全球用戶帶來高品質的視頻剪輯與動畫解決方案。
+- [yym68686/ChatGPT-Telegram-Bot](https://github.com/yym68686/ChatGPT-Telegram-Bot) - TeleChat: 🤖️ AI 聊天 Telegram 機器人，支持 Web 搜尋，基於 GPT-3.5/4/4 Turbo/4o、DALL·E 3、Groq、Gemini 1.5 Pro/Flash 及官方 Claude2.1/3/3.5 API，使用 Python 部署於 Zeabur、fly.io 和 Replit
+- [bestmatteo/Telegram-Bot](https://github.com/bestmatteo/Telegram-Bot) - 使用 Selenium 的 Telegram 訊息自動轉發機器人
+- [altryne/chatGPT-telegram-bot](https://github.com/altryne/chatGPT-telegram-bot) - 這是讓 chatGPT 在 telegram 機器人中運作的早期嘗試
+- [radude/rentry](https://github.com/radude/rentry) - 命令行下的 Markdown pastebin
+- [erbanku/zhihu-archiver-2022-archived](https://github.com/erbanku/zhihu-archiver-2022-archived) - 每日自動抓取知乎熱榜，轉為 Markdown 文件並構建靜態網站
+- [shiwk20/TsinghuaCloudDownload](https://github.com/shiwk20/TsinghuaCloudDownload) - 清華雲端下載腳本。
+- [QianyanTech/Image-Downloader](https://github.com/QianyanTech/Image-Downloader) - 從 Google、Bing、Baidu 下載圖片。谷歌、百度、必應圖片下載。
+- [mli/autocut](https://github.com/mli/autocut) - 用文字編輯器剪輯視頻
+- [THUDM/CodeGeeX](https://github.com/THUDM/CodeGeeX) - CodeGeeX：開源多語言代碼生成模型（KDD 2023）
+- [MaxxRider/Leech-Pro](https://github.com/MaxxRider/Leech-Pro) - Telegram Leech / Mirror Bot，基於 Python。👉支持上傳檔案及資料夾到 gdrive 或 rclone.org 支持的任意雲端，如 onedrive、mega 等，支持解壓縮、解壓 rar、解壓 tar 等
+- [kerm-me/docdown](https://github.com/kerm-me/docdown) - 使用 playwright 強力驅動的原創力文檔 book118 和豆丁網 docin 下載工具
+- [jagrit007/Telegram-CloneBot](https://github.com/jagrit007/Telegram-CloneBot) - [使用 ALPHA 分支] 用於克隆 Google Drive 檔案（或資料夾）到您的 Team Drive（或一般雲端）的簡易機器人。這不是 Mirror Bot，請享用 ✌🏻
+- [danielgatis/rembg](https://github.com/danielgatis/rembg) - Rembg 是一款移除圖片背景的工具
+- [Sam-Max/rcmltb](https://github.com/Sam-Max/rcmltb) - rclone telegram 機器人，用於多雲端間鏡像、leech 及複製
+- [mpc001/Visual_Speech_Recognition_for_Multiple_Languages](https://github.com/mpc001/Visual_Speech_Recognition_for_Multiple_Languages) - 多語言視覺語音識別
+- [StevenBlack/hosts](https://github.com/StevenBlack/hosts) - 🔒 彙整並擴展多個精心維護的 hosts 檔案。可選擇擴展色情、社交媒體及其他分類。
+- [soxoj/maigret](https://github.com/soxoj/maigret) - 🕵️‍♂️ 根據用戶名從數千個網站收集個人檔案
+- [mxrch/GitFive](https://github.com/mxrch/GitFive) - 🐙 追蹤 GitHub 用戶。
+- [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - Stable Diffusion 網頁介面
+- [openai/whisper](https://github.com/openai/whisper) - 通過大規模弱監督實現穩健語音識別
+- [magicse/GFPGANv1.3-to-ncnn](https://github.com/magicse/GFPGANv1.3-to-ncnn) - GFPGAN 網絡由兩個網絡組成。實際上包括 GFPGAN 和 StyleGAN2
+- [pixray/pixray](https://github.com/pixray/pixray) - 
+- [subframe7536/maple-font](https://github.com/subframe7536/maple-font) - Maple Mono：開源圓角等寬字體，支持連字和 Nerd-Font 圖示，適用於 IDE 和終端，細粒度自定義選項。帶連字和控制台圖標的圓角等寬字體，中英文寬度完美 2:1，細粒度的自定義選項
+- [aws/aws-cli](https://github.com/aws/aws-cli) - Amazon Web Services 通用命令列介面
+- [archinetai/audio-diffusion-pytorch](https://github.com/archinetai/audio-diffusion-pytorch) - 使用擴散模型進行音訊生成，基於 PyTorch。
+- [Aadhi000/File-To-Link](https://github.com/Aadhi000/File-To-Link) - 
+- [microsoft/fluentui-emoji](https://github.com/microsoft/fluentui-emoji) - 微軟出品的熟悉、親切且現代的 Emoji 集合
+- [donnemartin/awesome-aws](https://github.com/donnemartin/awesome-aws) - 精選的優質 Amazon Web Services (AWS) 函式庫、開源資源庫、指南、部落格及其他資源列表。特色 AWSome 火熱指數。
+- [google-deepmind/alphafold](https://github.com/google-deepmind/alphafold) - AlphaFold 2 的開源代碼。
+- [mikf/gallery-dl](https://github.com/mikf/gallery-dl) - 命令行程式，用於從多個圖床網站下載圖集和收藏集
+- [NVlabs/eg3d](https://github.com/NVlabs/eg3d) - 
+- [chrieke/prettymapp](https://github.com/chrieke/prettymapp) - 🖼️ 在 streamlit web 應用中基於 OpenStreetMap 數據創建美麗的地圖
+- [streamlit/streamlit](https://github.com/streamlit/streamlit) - Streamlit — 更快構建和分享數據應用的方式。
+- [yihong0618/GitHubPoster](https://github.com/yihong0618/GitHubPoster) - 讓一切成為 GitHub svg 海報與 Skyline！
+- [yihong0618/Kindle_download_helper](https://github.com/yihong0618/Kindle_download_helper) - 下載你所有 Kindle 電子書的腳本。
+- [athphane/userbot](https://github.com/athphane/userbot) - 基於 Pyrogram 的 Telegram Userbot
+- [3b1b/manim](https://github.com/3b1b/manim) - 用於數學解釋動畫的動畫引擎
+- [ivy-llc/ivy](https://github.com/ivy-llc/ivy) - 在機器學習框架間轉換代碼
+- [tuna/tunasync-scripts](https://github.com/tuna/tunasync-scripts) - 鏡像任務自定義腳本
+- [Textualize/textual](https://github.com/Textualize/textual) - 精簡的 Python 應用框架。用簡單的 Python API 構建複雜用戶介面，在終端和網頁瀏覽器中運行應用。
+- [Textualize/rich-cli](https://github.com/Textualize/rich-cli) - rich-cli 是一個命令列工具箱，讓終端輸出更華麗
+- [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) - 基於 PaddlePaddle 的優秀多語言 OCR 和文檔解析工具包（實用超輕量級 OCR 系統，支持 80+ 種語言識別，提供數據標註和合成工具，支持多場景）
+- [zqthu/thu_cloud_download](https://github.com/zqthu/thu_cloud_download) - 從清華雲共享連結（https://cloud.tsinghua.edu.cn/）獲取文件
+- [ILTShade/tsinghua_cloud_upload](https://github.com/ILTShade/tsinghua_cloud_upload) - 
+- [mingrammer/diagrams](https://github.com/mingrammer/diagrams) - :art: 以代碼方式繪製雲系統架構圖，便於原型設計
+- [RaphielGang/Telegram-Paperplane](https://github.com/RaphielGang/Telegram-Paperplane) - Paperplane userbot 項目 - 幫助提升 Telegram 使用體驗的 Userbot。https://t.me/tgpaperplane
+- [zhanghefan123/Starperf-Satellite-Simulator](https://github.com/zhanghefan123/Starperf-Satellite-Simulator) - 清華衛星網絡仿真平台
+- [aaronraimist/element-themes](https://github.com/aaronraimist/element-themes) - Element 主題分享平台，歡迎提交新主題 PR！
+- [borisdayma/dalle-mini](https://github.com/borisdayma/dalle-mini) - DALL·E Mini - 根據文字提示生成圖片
+- [Konano/thu-info-forwarder](https://github.com/Konano/thu-info-forwarder) - 
+- [python/cpython](https://github.com/python/cpython) - Python 程式語言
+- [khoben/telemirror](https://github.com/khoben/telemirror) - Telegram 訊息轉發器（客戶端 API）
+- [CMiksche/gitea-auto-update](https://github.com/CMiksche/gitea-auto-update) - 一個可通過 crontab 自動更新 gitea 到新版本的腳本。
+- [praneetk2704/JPG-to-PDF](https://github.com/praneetk2704/JPG-to-PDF) - 簡單的 Python 腳本，可在數秒內將一組圖片生成 PDF 文件。
+- [Polaris119/Epidemic-visualization](https://github.com/Polaris119/Epidemic-visualization) - 中國新冠疫情數據可視化
+- [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) - 讓大型 AI 模型更便宜、更快、更易獲取
+- [blackboxo/CleanMyWechat](https://github.com/blackboxo/CleanMyWechat) - 自動刪除 PC 端微信快取資料，包括所有聊天自動下載的大量檔案、影片、圖片等內容，解放你的空間。
+- [why20021008/hand-write](https://github.com/why20021008/hand-write) - 模擬手寫效果，節省時間。
+- [FederatedAI/FATE](https://github.com/FederatedAI/FATE) - 工業級聯邦學習框架
+- [google-parfait/tensorflow-federated](https://github.com/google-parfait/tensorflow-federated) - 用於分散數據上機器學習和其他運算的開源框架。
+- [project-alice-assistant/ProjectAlice](https://github.com/project-alice-assistant/ProjectAlice) - Project Alice 主倉庫，包含主單元原始碼
+- [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) - 人人皆可的投資研究平台
+- [GeekTG/Friendly-Telegram](https://github.com/GeekTG/Friendly-Telegram) - 最佳 Telegram userbot，支持內聯按鈕
+- [archlinux/archinstall](https://github.com/archlinux/archinstall) - Arch Linux 安裝器 - 有引導、模板等
+- [globus/globus-cli](https://github.com/globus/globus-cli) - Globus 命令列介面工具
+- [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) - Linux、Jenkins、AWS、SRE、Prometheus、Docker、Python、Ansible、Git、Kubernetes、Terraform、OpenStack、SQL、NoSQL、Azure、GCP、DNS、Elastic、網路、虛擬化。DevOps 面試題
+- [YaoFANGUK/video-subtitle-extractor](https://github.com/YaoFANGUK/video-subtitle-extractor) - 視頻硬字幕提取，生成 srt 文件。無需申請第三方 API，本地實現文字識別。基於深度學習的視頻字幕提取框架，包含字幕區域檢測、字幕內容提取。A GUI tool for extracting hard-coded subtitle (hardsub) from videos and generating srt files.
+- [aaPanel/aaPanel](https://github.com/aaPanel/aaPanel) - 簡單但強大的基於網頁的控制面板
+- [aaPanel/BaoTa](https://github.com/aaPanel/BaoTa) - 寶塔 Linux 面板 - 簡單好用的伺服器運維面板
+- [Dragon-Born/warpy](https://github.com/Dragon-Born/warpy) - 一個命令行程式，使用 Python 實現將 WARP+ 作為 WireGuard
+- [pinry/pinry](https://github.com/pinry/pinry) - Pinry，一個拼貼式圖片板系統，方便保存、標籤和分享圖片、影片及網頁，格式易於瀏覽。開源且可自架設。
+- [nvbn/thefuck](https://github.com/nvbn/thefuck) - 華麗的應用程式，可修正你之前的終端命令。
+- [httpie/cli](https://github.com/httpie/cli) - 🥧 HTTPie CLI — 現代、易用的命令行 HTTP 客戶端，適用於 API 時代。支持 JSON、色彩、會話、下載、插件等功能。
+- [alfem/telegram-download-daemon](https://github.com/alfem/telegram-download-daemon) - 用於自動化下載 Telegram 大型檔案的簡單腳本
+- [No-OnE-Kn0wS-Me/FileRenameBot](https://github.com/No-OnE-Kn0wS-Me/FileRenameBot) - Telegram 文件重命名機器人，支持永久縮圖，也可將文件轉換成視頻！
+- [Eugeny/tabby-web](https://github.com/Eugeny/tabby-web) - Tabby Web - 在瀏覽器內運行的 SSH/Telnet/Serial 客戶端。
+- [QIN2DIM/sspanel-mining](https://github.com/QIN2DIM/sspanel-mining) - 🥤 收集、清理、分類並儲存網路上曝光的 SSPanel-Uim 站點。
+- [Ehco1996/django-sspanel](https://github.com/Ehco1996/django-sspanel) - 用 diango 開發的 shadowsocks 面板
+- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - 學習如何設計大規模系統，系統設計面試準備。包含 Anki 記憶卡片。
+- [mvt-project/mvt](https://github.com/mvt-project/mvt) - MVT（Mobile Verification Toolkit）協助進行移動設備取證，以發現潛在入侵跡象。
+- [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) - :books: 免費的程式設計書籍
+- [public-apis/public-apis](https://github.com/public-apis/public-apis) - 免費 API 的集體列表
+- [owid/covid-19-data](https://github.com/owid/covid-19-data) - 關於 COVID-19（新冠病毒）病例、死亡、住院、檢測的數據 • 所有國家 • 由 Our World in Data 每日更新
+- [darknessomi/musicbox](https://github.com/darknessomi/musicbox) - 網易雲音樂命令行版本
+- [yunlongzhuhuo/Windows-WeChat-Clean-Up-Tool](https://github.com/yunlongzhuhuo/Windows-WeChat-Clean-Up-Tool) - 對 Windows 中的 WeChat Files 資料夾定位，查找並刪除部分數據，達到清理目的。
+- [gilesknap/gphotos-sync](https://github.com/gilesknap/gphotos-sync) - 使用 Google Photos Library API 備份 Google 相片與相簿
+- [Dragon-Userbot/Dragon-Userbot](https://github.com/Dragon-Userbot/Dragon-Userbot) - 最容易安裝的 telegram userbot
+- [asottile/all-repos](https://github.com/asottile/all-repos) - 克隆你所有的倉庫並進行批量修改。
+- [zachhannum/mkdocs-autolinks-plugin](https://github.com/zachhannum/mkdocs-autolinks-plugin) - 一個 MkDocs 外掛，自動生成 markdown 頁面之間的相對連結
+- [Azure/WALinuxAgent](https://github.com/Azure/WALinuxAgent) - Microsoft Azure Linux 客戶端代理
+- [koalalorenzo/python-digitalocean](https://github.com/koalalorenzo/python-digitalocean) - 🐍🐳 管理 Digital Ocean Droplets 的 Python 模組
+- [fuqiuai/wordCloud](https://github.com/fuqiuai/wordCloud) - 用 python 進行文本分詞並生成詞雲
+- [Mahesh0253/Media-Search-bot](https://github.com/Mahesh0253/Media-Search-bot) - 適用於頻道和群組的內聯機器人
+- [Mahesh0253/GPlink-bot](https://github.com/Mahesh0253/GPlink-bot) - 
+- [tgbot-collection/YYeTsBot](https://github.com/tgbot-collection/YYeTsBot) - 🎬 人人影視機器人和網站，包含人人影視全部資源及多網友的網盤分享
+- [arry-lee/wereader](https://github.com/arry-lee/wereader) - 一個功能全面的微信讀書筆記助手 wereader
+- [arkane-systems/genie](https://github.com/arkane-systems/genie) - WSL 下快速進入 systemd “bottle”的方法
+- [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) - 黑客的全能工具集
+- [PaddlePaddle/PaddleGAN](https://github.com/PaddlePaddle/PaddleGAN) - PaddlePaddle GAN 庫，涵蓋大量有趣應用，如 First-Order 運動轉換、Wav2Lip、圖片修復、圖片編輯、照片轉卡通、圖片風格轉換、GPEN 等
+- [mgedmin/ghcloneall](https://github.com/mgedmin/ghcloneall) - 批量克隆/更新 GitHub 上所有用戶/組織倉庫的腳本
+- [Jrohy/multi-v2ray](https://github.com/Jrohy/multi-v2ray) - v2ray/xray 多用戶管理部署程式
+- [kalanakt/Url-Uploader-TG](https://github.com/kalanakt/Url-Uploader-TG) - 簡易 telegram 機器人，通過直接下載鏈接上傳媒體檔案或視頻到 telegram。（支持 youtube、Mediafire、Google Drive、Mega Drive 等）
+- [jagrit007/gDrive-DirectLink](https://github.com/jagrit007/gDrive-DirectLink) - 支持多鏈接的 Google Drive 永久直鏈產生器。P.S. 這是我學 Python 時寫的菜鳥代碼 :D
+- [Sanster/IOPaint](https://github.com/Sanster/IOPaint) - 基於 SOTA AI 模型的圖像修補工具。移除圖片中任何不需要的物件、缺陷或人物，或用穩定擴散技術擦除和替換任何內容。
+- [psf/black](https://github.com/psf/black) - 堅持風格的 Python 代碼格式化工具
+- [surajjjjjj/Telegram-automatic-message](https://github.com/surajjjjjj/Telegram-automatic-message) - 基於 telethon 庫的 python 腳本，每 30 秒自動向機器人發送訊息
+- [pirobot/rbx1](https://github.com/pirobot/rbx1) - ROS By Example 第一卷
+- [chen310/NeteaseCloudMusicTasks](https://github.com/chen310/NeteaseCloudMusicTasks) - 
+- [vinta/awesome-python](https://github.com/vinta/awesome-python) - 一份有主見的優秀 Python 框架、庫、軟件和資源列表。
+- [programthink/zhao](https://github.com/programthink/zhao) - 【編程隨想】整理的《太子黨關係網》，專門揭露趙國的權貴
+- [gradio-app/gradio](https://github.com/gradio-app/gradio) - 用 Python 構建和分享令人愉快的機器學習應用。🌟 歡迎 star 支持我們的工作！
+- [absop/ST-ChineseTokenizer](https://github.com/absop/ST-ChineseTokenizer) - Sublime Text 3 的 jieba 分詞庫綁定，支援中文更精確選詞、刪詞和按詞移動游標
+- [guofei9987/text_blind_watermark](https://github.com/guofei9987/text_blind_watermark) - 文本盲水印：將資訊隱藏於文本中，put invisible blind watermark into a text.
+- [sigmavirus24/github3.py](https://github.com/sigmavirus24/github3.py) - 你好，我是一個便捷與人體工學的 GitHub REST API 互動庫，支持 Python 3.6+。
+- [IntelligenceX/SDK](https://github.com/IntelligenceX/SDK) - Intelligence X 公開 SDK
+- [New-dev0/TgTwitterBot](https://github.com/New-dev0/TgTwitterBot) - TgTwitterBot - 從 Telegram 控制和瀏覽 Twitter
+- [AmineSoukara/ImgBB-Bot](https://github.com/AmineSoukara/ImgBB-Bot) - 將你的圖片託管到 imgbb.com 並返回連結的 Telegram 機器人
+- [pictuga/morss](https://github.com/pictuga/morss) - 獲取完整文字的 RSS 資訊源
+- [zhaoolee/garss](https://github.com/zhaoolee/garss) - Github Actions 收集 RSS，打造無廣告內容優質的頭版頭條寶藏頁
+- [ros/ros](https://github.com/ros/ros) - 核心 ROS 套件
+- [libthu/reserves-lib-tsinghua-downloader](https://github.com/libthu/reserves-lib-tsinghua-downloader) - 從 http://reserves.lib.tsinghua.edu.cn/ 下載頁面
+- [tychxn/jd-assistant](https://github.com/tychxn/jd-assistant) - 京東搶購助手：包含登入、查詢商品庫存/價格、添加/清空購物車、搶購商品（下單）、查詢訂單等功能
+- [SeaHOH/GotoX](https://github.com/SeaHOH/GotoX) - 本地自動代理，基於 goagent 修改。
+- [radinshayanfar/TGCopyBot](https://github.com/radinshayanfar/TGCopyBot) - 將 telegram 訊息複製到另一個聊天（非轉發）的 python 腳本
+- [Opticos/OpenInWSL-Source](https://github.com/Opticos/OpenInWSL-Source) - OpenInWSL 的實際代碼及部分預編譯發佈
+- [Opticos/GWSL-Source](https://github.com/Opticos/GWSL-Source) - GWSL 的實際代碼及部分預編譯發佈
+- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) - 功能豐富的音訊/視頻命令列下載器
+- [QIN2DIM/V2RSS](https://github.com/QIN2DIM/V2RSS) - ​:rocket: 采集|免費|優質|的-訂?閱&lt;；
+- [hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy) - github release、archive 及項目文件加速項目
+- [thedogb/smmsbot](https://github.com/thedogb/smmsbot) - 部署於 gae 的 telegram bot。可作為 sm.ms 圖床客戶端
+- [iBug/pac](https://github.com/iBug/pac) - 科學上網，智慧分流，使用 GFWList 和 IP 地址雙重判斷。現有 537 顆 ★
+- [Roiocam/V2ray2Clash](https://github.com/Roiocam/V2ray2Clash) - V2ray 訂閱轉 Clash 配置檔 python 腳本，供 Clash-Linux 自動訂閱 V2ray
+- [xiangsanliu/Rules](https://github.com/xiangsanliu/Rules) - 🛫️ 🎵 Shadowrocket 規則：屏蔽廣告、代理、網易音樂解鎖。
+- [zhouzhouprogram/Shadowrocket-ADBlock-Rules](https://github.com/zhouzhouprogram/Shadowrocket-ADBlock-Rules) - 提供多款 Shadowrocket 規則，帶廣告過濾功能。用於 iOS 未越獄設備選擇性自動翻牆。
+- [liudaolunboluo/WxChatRecordTool](https://github.com/liudaolunboluo/WxChatRecordTool) - 微信聊天記錄小工具
+- [icloud-photos-downloader/icloud_photos_downloader](https://github.com/icloud-photos-downloader/icloud_photos_downloader) - 從 iCloud 下載照片的命令列工具
+- [cronitorio/cronitor-python](https://github.com/cronitorio/cronitor-python) - Cronitor 的 Python 客戶端
+- [songquanpeng/zhihu-archiver](https://github.com/songquanpeng/zhihu-archiver) - 每日自動抓取知乎熱榜，轉換為 Markdown 文件並生成靜態網站
+- [pyinstaller/pyinstaller](https://github.com/pyinstaller/pyinstaller) - 將 Python 程式打包成獨立可執行檔
+- [huggingface/transformers](https://github.com/huggingface/transformers) - 🤗 Transformers：文本、視覺、音訊及多模態模型的最先進機器學習模型定義框架，支援推理與訓練。
+- [huashengdun/webssh](https://github.com/huashengdun/webssh) - :seedling: 基於 Web 的 SSH 客戶端
+- [openai/glide-text2im](https://github.com/openai/glide-text2im) - GLIDE：一種基於擴散的文本條件圖像生成模型
+- [bmjcode/pywebarchive](https://github.com/bmjcode/pywebarchive) - 用於讀取 Apple 的 webarchive 格式的軟體
+- [XX-net/XX-Net](https://github.com/XX-net/XX-Net) - 一個用於翻越 GFW 的代理工具。
+- [THUDM/CogView](https://github.com/THUDM/CogView) - 文本到圖像生成。NeurIPS 2021 論文「CogView: Mastering Text-to-Image Generation via Transformers」的程式庫。
+- [GrowingGit/GitHub-English-Top-Charts](https://github.com/GrowingGit/GitHub-English-Top-Charts) - 幫你發現優秀的英語項目，擺脫其他語言項目的干擾。
+- [waykom/weibo_top](https://github.com/waykom/weibo_top) - 爬取微博熱搜
+- [vmp65l3/weibo-hotrank](https://github.com/vmp65l3/weibo-hotrank) - 微博熱搜記錄並生成每日詞雲圖
+- [zisen123/TrierVosPhotos](https://github.com/zisen123/TrierVosPhotos) - 將您從 iPhone 匯出的照片與影片以日期和時間的格式重新命名並轉移到以日期分類的資料夾中
+- [whitejoce/Get_Weather](https://github.com/whitejoce/Get_Weather) - 通過獲取 IP 定位，爬取當地天氣（不需要 API）
+- [up2b/pyup2b](https://github.com/up2b/pyup2b) - 圖片上傳工具。
+- [Alvin9999/new-pac](https://github.com/Alvin9999/new-pac) - 翻牆-科學上網、自由上網、免費科學上網、免費翻牆、fanqiang、油管youtube/影片下載、軟體、VPN、一鍵翻牆瀏覽器，vps一鍵搭建翻牆伺服器腳本/教學，免費shadowsocks/ss/ssr/v2ray/goflyway帳號/節點，翻牆梯子，電腦、手機、iOS、安卓、windows、Mac、Linux、路由器翻牆、科學上網、youtube影片下載、youtube油管鏡像/免翻牆網站、
+- [TencentARC/GFPGAN](https://github.com/TencentARC/GFPGAN) - GFPGAN 致力於開發實用的真實場景人臉修復演算法。
+- [URenko/Accesser](https://github.com/URenko/Accesser) - 🌏一個解決 SNI RST 導致維基百科、Pixiv 等站點無法訪問的工具 | A tool for solving SNI RST
+- [pytorch/pytorch](https://github.com/pytorch/pytorch) - Python 中的張量與動態神經網路，具備強大 GPU 加速
+- [deepfakes/faceswap](https://github.com/deepfakes/faceswap) - 適用於所有人的 Deepfakes 軟體
+- [v2ex/remote](https://github.com/v2ex/remote) - 遠端工作者
+- [open-mmlab/mmtracking](https://github.com/open-mmlab/mmtracking) - OpenMMLab 視訊感知工具箱。以統一框架支援視頻目標檢測 (VID)、多目標追蹤 (MOT)、單目標追蹤 (SOT)、視頻實例分割 (VIS)。
+- [itstyren/CNKI-download](https://github.com/itstyren/CNKI-download) - :frog: 知網(CNKI)文獻下載及文獻速覽爬蟲 (Web Scraper for Extracting Data)
+- [aqlaboratory/proteinnet](https://github.com/aqlaboratory/proteinnet) - 蛋白質結構機器學習的標準化數據集
+- [lucidrains/alphafold2](https://github.com/lucidrains/alphafold2) - 最終成為 Alphafold2 的非官方 Pytorch 實作 / 複刻，隨著架構細節公開而持續更新
+- [RimoChan/python-anti-seduce-system](https://github.com/RimoChan/python-anti-seduce-system) - 針對 Python 語言防沉迷調整的說明
+- [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats) - 這個 GitHub action 幫助你在個人 Readme 中新增酷炫的開發者統計資料
+- [pywebio/PyWebIO](https://github.com/pywebio/PyWebIO) - 用腳本方式編寫互動式網頁應用。
+- [Python-World/python-mini-projects](https://github.com/Python-World/python-mini-projects) - 一系列簡單的 python 小項目，提升你的 python 技能
+- [geekcomputers/Python](https://github.com/geekcomputers/Python) - 我的 Python 範例
+- [TachibanaYoshino/AnimeGANv2](https://github.com/TachibanaYoshino/AnimeGANv2) - [開源]. AnimeGAN 改進版。風景照片/影片轉動漫風格
+- [srx-2000/spider_collection](https://github.com/srx-2000/spider_collection) - python 爬蟲，目前庫存：網易雲音樂歌曲爬取，B站視頻爬取，知乎問答爬取，壁紙爬取，xvideos視頻爬取，有聲書爬取，微博爬蟲，安居客資訊爬取+數據視覺化，嗶哩嗶哩視頻封面提取器，ip代理池封裝，知乎百萬級用戶爬蟲+數據分析，github用戶爬蟲
+- [genzj/pybingwallpaper](https://github.com/genzj/pybingwallpaper) - 從 bing.com 下載壁紙
+- [woider/PythonExercise](https://github.com/woider/PythonExercise) - Python 編程練習題 100 例（原始碼），範例於 Python 3.6 環境下測試通過。
+- [axyyu/notion-clear-trash](https://github.com/axyyu/notion-clear-trash) - 一個清理 Notion 垃圾桶的小腳本
+- [mono0926/alfred-git-commit-message-example](https://github.com/mono0926/alfred-git-commit-message-example) - Alfred Git 提交訊息範例
+- [skulltech/twitter-follow-bot](https://github.com/skulltech/twitter-follow-bot) - 一個自動關注大量 Twitter 賬號的工具
+- [tqdm/tqdm](https://github.com/tqdm/tqdm) - :zap: 一個快速、可擴展的 Python 與 CLI 進度條
+- [Chalarangelo/30-seconds-of-python](https://github.com/Chalarangelo/30-seconds-of-python) - 為你的開發需求提供短小精悍的 Python 代碼片段
+- [BadagalaAdarsh/Super_Mario](https://github.com/BadagalaAdarsh/Super_Mario) - 
+- [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) - Python 實現的所有演算法
+- [MrMissx/Telegram_Forwarder](https://github.com/MrMissx/Telegram_Forwarder) - Telegram 機器人，用於從頻道/群組自動轉發訊息
+- [mzucker/noteshrink](https://github.com/mzucker/noteshrink) - 將手寫筆記掃描件轉換為漂亮且體積小的 PDF
+- [YuvrajSingh-16/Text-To-Handwritten-Notes](https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes) - 將文本轉換為手寫筆記風格的 PDF
+- [steventango/notability2pdf](https://github.com/steventango/notability2pdf) - 從 Notability (*.note) 提取 PDF 檔案。
+- [132ikl/liteshort](https://github.com/132ikl/liteshort) - [已移動] 友好、真正輕量且可配置的 URL 縮短服務
+- [brndnmtthws/tweet-delete](https://github.com/brndnmtthws/tweet-delete) - 自毀推文，讓你也變酷 😎
+- [bonfy/github-trending](https://github.com/bonfy/github-trending) - 追蹤最受歡迎的 Github 倉庫，每日更新（Python 版）
+- [CollegesChat/university-information](https://github.com/CollegesChat/university-information) - 收集全國各高校招生時不會寫明，卻會實實在在影響大學生活品質的要求與細節
+- [curtinlv/JD-Script](https://github.com/curtinlv/JD-Script) - 僅供參考。
+- [yhangf/PythonCrawler](https://github.com/yhangf/PythonCrawler) - :heartpulse: 用 python 編寫的爬蟲項目集合
+- [mobier/shadowsocksr-speed](https://github.com/mobier/shadowsocksr-speed) - SSR 批量測試節點有效頻寬
+- [twtrubiks/docker-tutorial](https://github.com/twtrubiks/docker-tutorial) - Docker 基本教學 - 從無到有 Docker-Beginners-Guide   教你用 Docker 建立 Django + PostgreSQL 📝
+- [ZainCheung/netease-cloud](https://github.com/ZainCheung/netease-cloud) - 網易雲音樂全自動每日打卡 300 首歌升級帳號等級，支援微信提醒，支援無伺服器雲函數部署
+- [caj2pdf/caj2pdf](https://github.com/caj2pdf/caj2pdf) - 將 CAJ（中國知網期刊）文件轉換為 PDF。佛系轉換，成功與否，皆是玄學。
+- [iswbm/pycharm-guide](https://github.com/iswbm/pycharm-guide) - PyCharm 中文指南：安裝 | 破解 | 效率 | 技巧
+- [0voice/interview_internal_reference](https://github.com/0voice/interview_internal_reference) - 2023 年最新總結，阿里、騰訊、百度、美團、頭條等技術面試題目，以及答案，專家出題人分析彙總。
+- [spotDL/spotify-downloader](https://github.com/spotDL/spotify-downloader) - 下載你的 Spotify 播放清單及歌曲，並包含專輯封面和中繼資料（如果找到對應，則從 YouTube 下載）。
+- [devourbots/word_cloud_bot](https://github.com/devourbots/word_cloud_bot) - 一個能統計群組用戶發言，並將聊天內容生成詞雲的機器人
+- [Mrvishal2k2/TG-ShortLinkBot](https://github.com/Mrvishal2k2/TG-ShortLinkBot) - 一個簡單的 url 縮短機器人，使用 bit.ly 的 API
+- [hedyhli/starcli](https://github.com/hedyhli/starcli) - :sparkles: 從命令列瀏覽熱門 GitHub 專案
+- [bee-san/Ciphey](https://github.com/bee-san/Ciphey) - ⚡ 無需知道密鑰或加密方式，自動解密加密內容，解碼編碼並破解雜湊 ⚡
+- [bhrigu123/classifier](https://github.com/bhrigu123/classifier) - 即時整理目錄中的檔案，依檔案類型分類至不同資料夾
+- [tfeldmann/organize](https://github.com/tfeldmann/organize) - 檔案管理自動化工具。
+- [babysor/MockingBird](https://github.com/babysor/MockingBird) - 🚀AI 擬聲：5 秒內克隆您的聲音並生成任意語音內容
+- [urbanij/google_keep_takeout](https://github.com/urbanij/google_keep_takeout) - 將你的 Google Keep 筆記匯出為 markdown 或 txt 檔案
+- [lonnyzhang423/v2ex-hot-hub](https://github.com/lonnyzhang423/v2ex-hot-hub) - 記錄 v2ex 熱議話題，每小時更新，按天歸檔。
+- [Py-Contributors/awesomeScripts](https://github.com/Py-Contributors/awesomeScripts) - 蒐集一系列實用 Python 腳本，讓日常生活更便利。如果有新點子，歡迎提交 issue。歡迎 :star:
+- [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) - 從 YouTube.com 及其他視頻網站下載影片的命令列程式
+- [0xHJK/music-dl](https://github.com/0xHJK/music-dl) - 搜索並下載音樂，支援網易雲音樂、QQ 音樂、酷狗音樂、百度音樂、蝦米音樂、咪咕音樂等
+- [h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules) - 提供多款 Shadowrocket 規則，帶廣告過濾功能。用於 iOS 未越獄設備選擇性自動翻牆。
+- [Anankke/ASM-Bot](https://github.com/Anankke/ASM-Bot) - 自動刪除 Telegram 群組中的服務訊息，如加群退群訊息等。
+- [Textualize/rich](https://github.com/Textualize/rich) - Rich 是一個用於終端機豐富文字與美觀格式化的 Python 函式庫。
+- [Nekmo/telegram-upload](https://github.com/Nekmo/telegram-upload) - 使用你的帳號上傳和下載 Telegram 檔案，支援高達 4 GiB
+- [franciscod/telegram-twitter-forwarder-bot](https://github.com/franciscod/telegram-twitter-forwarder-bot) - 一個將推文轉發到 Telegram 的機器人
+- [pyrogram/pyrogram](https://github.com/pyrogram/pyrogram) - 優雅、現代且非同步的 Telegram MTProto API Python 框架，適用於用戶和機器人
+- [dev-jonghoonpark/pdf-password-locker](https://github.com/dev-jonghoonpark/pdf-password-locker) - PDF 文件加密工具
+- [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) - :octocat: 分享 GitHub 上有趣、入門級的開源項目。
+- [mozillazg/python-pinyin](https://github.com/mozillazg/python-pinyin) - 漢字轉拼音 (pypinyin)
+- [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) - 定投改變命運 —— 讓時間陪你慢慢變富 https://onregularinvesting.com
+- [piyx/FileOrganizer](https://github.com/piyx/FileOrganizer) - 自動整理你電腦裡的檔案
+- [sreekaransrinath/file_organizer](https://github.com/sreekaransrinath/file_organizer) - 一個腳本，能遍歷指定資料夾並依檔案類型將檔案移動到對應子資料夾。
+- [aashutoshrathi/py-scripts](https://github.com/aashutoshrathi/py-scripts) - 這些是 Windows 用戶日常生活腳本，讓你的生活更輕鬆。
+- [offa/android-foss](https://github.com/offa/android-foss) - Android 免費及開源軟體（FOSS）列表——守護自由與隱私。
+- [Trinkle23897/learn2018-autodown](https://github.com/Trinkle23897/learn2018-autodown) - 清華大學新版網路學堂課程自動下載腳本 / 用於複製 learn.tsinghua.edu.cn 上所有檔案的 python 腳本
+- [521xueweihan/GitHub520](https://github.com/521xueweihan/GitHub520) - :kissing_heart: 讓你「愛」上 GitHub，解決訪問時圖片裂開、加載慢的問題。（無需安裝）
+- [gurland/telegram-delete-all-messages](https://github.com/gurland/telegram-delete-all-messages) - 使用此 python 腳本刪除你在群組/超級群組中的所有消息
+- [dylanyang17/TsinghuaBookCrawler](https://github.com/dylanyang17/TsinghuaBookCrawler) - 清華教參平台爬蟲
+## QML 
+
+- [Dr-Incognito/V2Ray-Desktop](https://github.com/Dr-Incognito/V2Ray-Desktop) - 最優雅的跨平台代理客戶端，支持Shadowsocks(R)、V2Ray和Trojan協議。The most elegant cross-platform proxy GUI client that supports Shadowsocks(R), V2Ray, and Trojan. Built with Qt5 and QML2.
+
+## R 
+
+- [REditorSupport/languageserver](https://github.com/REditorSupport/languageserver) - R語言的語言伺服器協議實作
+
+## Rich Text Format 
+
+- [gauravghongde/social-icons](https://github.com/gauravghongde/social-icons) - SVG與PNG社群媒體圖示集。可嵌入的社群圖示，直接用於您的網站。
+
+## Roff 
+
+- [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) - 所有小學、初中、高中、大學PDF教材。
+- [wikihouseproject/Skylark](https://github.com/wikihouseproject/Skylark) - 最新的WikiHouse結構系統，使用標準化隔熱塊，適用於1-3層樓建築
+
+## Ruby 
+
+- [captn3m0/opml-gen](https://github.com/captn3m0/opml-gen) - 
+- [hartator/wayback-machine-downloader](https://github.com/hartator/wayback-machine-downloader) - 從Wayback Machine下載整個網站。
+- [lewagon/setup](https://github.com/lewagon/setup) - Le Wagon學員第一天Web開發訓練營的安裝說明
+- [community/community](https://github.com/community/community) - 公開反饋討論區：GitHub Mobile、GitHub Discussions、GitHub Codespaces、GitHub Sponsors、GitHub Issues等！
+- [mrtazz/katana](https://github.com/mrtazz/katana) - 可即用的Heroku托管URL縮短服務，基於guillotine
+- [technoweenie/guillotine](https://github.com/technoweenie/guillotine) - URL縮短愛好者工具包
+- [jekyll/jekyll](https://github.com/jekyll/jekyll) - :globe_with_meridians: Jekyll是一個基於Ruby的部落格靜態網站產生器
+- [mastodon/mastodon](https://github.com/mastodon/mastodon) - 您的自架、全球互聯的微網誌社群
+- [apsheronets/reader](https://github.com/apsheronets/reader) - 
+- [IgnoredAmbience/github-gitlab-sync](https://github.com/IgnoredAmbience/github-gitlab-sync) - 持續同步GitHub與GitLab之間的倉庫
+- [huginn/huginn](https://github.com/huginn/huginn) - 創建可代表您監控並執行操作的代理。您的代理已待命！
+## Rust 
+
+- [microsoft/edit](https://github.com/microsoft/edit) - 我們都在編輯。
+- [justjavac/herlang](https://github.com/justjavac/herlang) - 用 Rust 編寫的 Her 編程語言。
+- [sigoden/aichat](https://github.com/sigoden/aichat) - 全方位 LLM CLI 工具，包含 Shell 助手、Chat-REPL、RAG、AI 工具與代理，支援 OpenAI、Claude、Gemini、Ollama、Groq 等多種平台。
+- [astral-sh/rye](https://github.com/astral-sh/rye) - 無煩惱的 Python 體驗
+- [libnyanpasu/clash-nyanpasu](https://github.com/libnyanpasu/clash-nyanpasu) - Clash Nyanpasu～(∠・ω&lt; )⌒☆​
+- [microsoft/sudo](https://github.com/microsoft/sudo) - 這是 Windows 版的 sudo
+- [KipData/KiteSQL](https://github.com/KipData/KiteSQL) - Rust 的 SQL 函數庫
+- [zed-industries/zed](https://github.com/zed-industries/zed) - 以思維速度編寫程式碼 —— Zed 是一款來自 Atom 和 Tree-sitter 創作者的高效能多人協作程式碼編輯器。
+- [H-M-H/Weylus](https://github.com/H-M-H/Weylus) - 讓你的平板成為電腦的繪圖板/觸控螢幕。
+- [YukiCoco/ToMoon](https://github.com/YukiCoco/ToMoon) - 基於 SteamOS 定制的網路工具，自動配置 TUN 模式加速遊戲，網路代理。
+- [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) - 用 Rust 編寫的非官方 Bitwarden 相容伺服器，前稱 bitwarden_rs
+- [rustdesk/rustdesk-server](https://github.com/rustdesk/rustdesk-server) - RustDesk 伺服器程式
+- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) - 一款開源遠端桌面應用程式，支援自架伺服器，是 TeamViewer 的替代方案。
+- [m1guelpf/plz-cli](https://github.com/m1guelpf/plz-cli) - 你的終端 Copilot
+- [EAimTY/socks5-server](https://github.com/EAimTY/socks5-server) - 基於 tokio 的精細化、相對低階異步 SOCKS5 伺服器函式庫
+- [sigoden/opscan](https://github.com/sigoden/opscan) - 一款開放端口掃描器。
+- [lencx/ChatGPT](https://github.com/lencx/ChatGPT) - 🔮 ChatGPT 桌面應用程式（Mac、Windows 和 Linux）
+- [klausi/mastodon-twitter-sync](https://github.com/klausi/mastodon-twitter-sync) - 將 Mastodon 與 Twitter 貼文同步
+- [glotlabs/gdrive](https://github.com/glotlabs/gdrive) - Google Drive CLI 客戶端
+- [lapce/lapce](https://github.com/lapce/lapce) - 以 Rust 編寫的閃電般快速且強大的程式碼編輯器
+- [dracarys18/TweetBot](https://github.com/dracarys18/TweetBot) - 將任意 Twitter 帳號推文串流到 Telegram 頻道的簡易 Telegram 機器人
+- [tw93/Pake](https://github.com/tw93/Pake) - 🤱🏻 用 Rust 輕鬆將任何網頁打包成桌面應用  🤱🏻 利用 Rust 輕鬆構建輕量級多端桌面應用
+- [google/comprehensive-rust](https://github.com/google/comprehensive-rust) - 這是 Google Android 團隊使用的 Rust 課程，提供快速教授 Rust 的教材。
+- [facebook/sapling](https://github.com/facebook/sapling) - 一個可擴展、用戶友好的原始碼控制系統。
+- [abba23/spotify-adblock](https://github.com/abba23/spotify-adblock) - Spotify 專用的廣告攔截器
+- [messense/aliyundrive-webdav](https://github.com/messense/aliyundrive-webdav) - 阿里雲盤 WebDAV 服務
+- [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - 一個可擴展、分散式、協作型的文件圖形數據庫，適用於即時網頁
+- [rust-net/dnsd](https://github.com/rust-net/dnsd) - DNS 代理伺服器
+- [ihciah/shadow-tls](https://github.com/ihciah/shadow-tls) - 一個向防火牆暴露真實 TLS 握手的代理
+- [seanmonstar/warp](https://github.com/seanmonstar/warp) - 一個超簡易、可組合的高速網頁伺服器框架。
+- [iovxw/rssbot](https://github.com/iovxw/rssbot) - 輕量級 Telegram RSS 通知機器人。用於訊息通知的輕量級 Telegram RSS 機器人
+- [Wulf/create-rust-app](https://github.com/Wulf/create-rust-app) - 一行指令建立現代 rust+react 網頁應用。
+- [sathwikmatsa/tcad](https://github.com/sathwikmatsa/tcad) - tcloud 自動下載器
+- [sunface/rust-course](https://github.com/sunface/rust-course) - 「連續八年成為全球最受喜愛的語言，無 GC 也無需手動內存管理、極高的效能與安全性、過程/OO/函數式編程、優秀的套件管理、JS 未來基石」—— 工作之餘的第二語言來試試 Rust 吧。本書擁有全面且深入的講解、生動貼切的範例、德芙般絲滑的內容，這可能是目前最用心的 Rust 中文學習教程 / Book
+- [rust-lang/cargo](https://github.com/rust-lang/cargo) - Rust 的套件管理器
+- [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) - 用於 IDE 的 Rust 編譯器前端
+- [rust-lang/book](https://github.com/rust-lang/book) - Rust 程式語言
+- [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) - Rust 代碼與資源精選列表。
+- [bee-san/RustScan](https://github.com/bee-san/RustScan) - 🤖 現代端口掃描器 🤖
+- [RustPython/RustPython](https://github.com/RustPython/RustPython) - 用 Rust 編寫的 Python 直譯器
+- [TheAlgorithms/Rust](https://github.com/TheAlgorithms/Rust) - 所有用 Rust 實現的演算法
+- [Berrysoft/tunet-rust](https://github.com/Berrysoft/tunet-rust) - 清華大學校園網 Rust 函式庫與客戶端
+- [sachaos/viddy](https://github.com/sachaos/viddy) - 👀 現代化的 watch 指令。時光機與分頁器等。
+- [sekunho/emojied](https://github.com/sekunho/emojied) - ✂️ 使用表情符號的短網址服務，僅限表情符號。
+- [kxxt/aspeak](https://github.com/kxxt/aspeak) - Azure TTS API 的簡單文字轉語音客戶端。
+- [sharkdp/fd](https://github.com/sharkdp/fd) - 一個簡單、快速且易用的 'find' 替代品
+- [atuinsh/atuin](https://github.com/atuinsh/atuin) - ✨ 魔法般的 shell 歷史記錄
+- [Dusk-Labs/dim](https://github.com/Dusk-Labs/dim) - Dim，一款由黑暗力量驅動的媒體管理器。
+- [ekzhang/bore](https://github.com/ekzhang/bore) - 🕳 bore 是用於建立 localhost 隧道的簡易 CLI 工具
+- [rust-lang/mdBook](https://github.com/rust-lang/mdBook) - 由 Markdown 檔案建立書籍。類似 Gitbook，但用 Rust 實現
+- [sunface/rust-by-practice](https://github.com/sunface/rust-by-practice) - 透過實踐學習 Rust，通過挑戰性範例、練習與專案縮短初學者與高手的差距。
+- [Wilfred/difftastic](https://github.com/Wilfred/difftastic) - 一款理解語法的結構化 diff 工具 🟥🟩
+- [rust-lang/rust](https://github.com/rust-lang/rust) - 讓每個人都能構建可靠高效軟體的力量。
+- [influxdata/influxdb](https://github.com/influxdata/influxdb) - 可擴展的度量、事件與即時分析資料儲存庫
+- [ogham/exa](https://github.com/ogham/exa) - 現代化的 ‘ls’ 替代品。
+- [rathole-org/rathole](https://github.com/rathole-org/rathole) - 一款輕量且高效能的 NAT 穿透反向代理，使用 Rust 編寫。是 frp 和 ngrok 的替代品。
+- [flxzt/rnote](https://github.com/flxzt/rnote) - 塗鴉與手寫筆記工具。
+- [ihciah/ddns-worker](https://github.com/ihciah/ddns-worker) - 
+- [svenstaro/genact](https://github.com/svenstaro/genact) - 🌀 無意義的活動產生器
+- [cloudflare/wrangler-legacy](https://github.com/cloudflare/wrangler-legacy) - 🤠 Wrangler v1 的存放地（已棄用）
+- [starship/starship](https://github.com/starship/starship) - ☄🌌️ 極簡、極快且無限可自訂的 shell 提示！
+- [sayanarijit/qrcode.show](https://github.com/sayanarijit/qrcode.show) - [工作原型] 輕鬆免費產生 QR code - 二維碼產生服務
+- [fish-shell/fish-shell](https://github.com/fish-shell/fish-shell) - 用戶友好的命令列 shell。
+- [qarmin/szyszka](https://github.com/qarmin/szyszka) - Szyszka 是一款快速且強大的檔案重新命名工具
+- [qarmin/czkawka](https://github.com/qarmin/czkawka) - 多功能應用程式，可查找重複檔案、空資料夾、相似圖片等。
+## SCSS 
+
+- [Keldos-Li/typora-latex-theme](https://github.com/Keldos-Li/typora-latex-theme) - 將 Typora 偽裝成 LaTeX 的中文樣式主題，本科生輕量級課程論文撰寫的好幫手。This is a theme disguising Typora into Chinese LaTeX style.
+- [vinceliuice/Graphite-gtk-theme](https://github.com/vinceliuice/Graphite-gtk-theme) - Graphite gtk 主題
+- [noatpad/typora-theme-ursine](https://github.com/noatpad/typora-theme-ursine) - 一個 Typora 主題，靈感來自 Bear
+- [vinceliuice/WhiteSur-gtk-theme](https://github.com/vinceliuice/WhiteSur-gtk-theme) - MacOS 風格主題，適用於所有基於 gtk 的桌面環境
+- [sivan/heti](https://github.com/sivan/heti) - 赫蹏（hètí）是專為中文內容展示設計的排版樣式增強。它基於通行的中文排版規範而來，可以為網站的讀者帶來更好的文章閱讀體驗。
+- [AboutRSS/ALL-about-RSS](https://github.com/AboutRSS/ALL-about-RSS) - 一份 RSS 相關資源清單：工具、服務、社群和教程等。
+
+## SVG 
+
+- [gilbarbara/logos](https://github.com/gilbarbara/logos) - 一個龐大的 SVG 標誌收藏
+- [tandpfun/skill-icons](https://github.com/tandpfun/skill-icons) - 輕鬆在你的 Github Readme 或履歷中展示你的技能 ✨
+
+## Shell 
+
+- [LloydAsp/NodeQuality](https://github.com/LloydAsp/NodeQuality) - 在沙箱環境中運行 vps 測試腳本，並排版測試結果
+- [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) - 網路廣告的黑洞
+- [xykt/IPQuality](https://github.com/xykt/IPQuality) - IP 質量檢測腳本 - IP Quality Check Script
+- [i-abc/Speedtest](https://github.com/i-abc/Speedtest) - 多功能測速腳本 | 多功能 Speedtest 腳本
+- [fscarmen/ArgoX](https://github.com/fscarmen/ArgoX) - Argo Xray VPS 一鍵腳本
+- [233boy/Xray](https://github.com/233boy/Xray) - 最好用的 Xray 一鍵安裝腳本 & 管理腳本
+- [binpash/try](https://github.com/binpash/try) - 在修改你的真實系統前，檢查指令的影響
+- [panyanyany/muchat-aio](https://github.com/panyanyany/muchat-aio) - 團隊版 ChatGPT Web 應用，多用戶，免登錄。適合公司、組織或小團體內部使用。Team version of ChatGPT web application- multi-user and no log-in required. Suitable for internal use in companies, organizations or small groups.
+- [guzhaoyuan/net.tsinghua](https://github.com/guzhaoyuan/net.tsinghua) - 清華大學網路登錄命令行工具
+- [yonggekkk/warp-yg](https://github.com/yonggekkk/warp-yg) - warp 多功能一鍵腳本，支援 warp-go 與 wgcf 切換，無限生成 warp 配置文件，支援升級 warp+、warp 團隊帳號，查看 VPS 本地 IP、netflix、chatgpt 解鎖狀態
+- [AbdBarho/stable-diffusion-webui-docker](https://github.com/AbdBarho/stable-diffusion-webui-docker) - 用戶友好的 UI，輕鬆用 Docker 部署 Stable Diffusion
+- [lxhao61/integrated-examples](https://github.com/lxhao61/integrated-examples) - 以 Nginx 或 Caddy(v2 版) 配合 V2Ray(v4 版) 或 Xray、Caddy(v2 版) 加專用插件、Hysteria 等打造常用科學上網的優化配置及最優組合示例，且提供集成特定插件的 Caddy(v2 版) 文件，分享給大家食用及自己備份。
+- [haiwen/seafile-admin-docs](https://github.com/haiwen/seafile-admin-docs) - 
+- [P3TERX/aria2.conf](https://github.com/P3TERX/aria2.conf) - Aria2 配置文件 | OneDrive & Google Drive 離線下載 | 百度網盤轉存
+- [colinwjd/aria2-ariang](https://github.com/colinwjd/aria2-ariang) - Aria2 搭配 Aira-Ng Web UI
+- [lmc999/auto-add-routes](https://github.com/lmc999/auto-add-routes) - VPN 專用中國路由
+- [chenjie/v2ray-tls-websocket-nginx](https://github.com/chenjie/v2ray-tls-websocket-nginx) - 🌎The ULTIMATE V2Ray proxy configuration powered by Project V.
+- [awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash) - 精選的 Bash 腳本與資源清單
+- [York618/alist-flyio](https://github.com/York618/alist-flyio) - 
+- [termux/termux-packages](https://github.com/termux/termux-packages) - Termux 的套件建置系統
+- [todotxt/todo.txt-cli](https://github.com/todotxt/todo.txt-cli) - ☑️ 用於管理你的 todo.txt 文件的簡單且可擴展 Shell 腳本
+- [VSCodium/vscodium](https://github.com/VSCodium/vscodium) - 無 MS 品牌/遙測/授權的 VS Code 二進位發行版本
+- [dylanaraps/neofetch](https://github.com/dylanaraps/neofetch) - 🖼️  用 bash 3.2+ 編寫的命令列系統資訊工具
+- [emptysuns/Hi_Hysteria](https://github.com/emptysuns/Hi_Hysteria) - Hello World！非中國優化線路使用不佳？不想中轉？hysteria2 一鍵搞定。
+- [nicejade/vuepress-web-app](https://github.com/nicejade/vuepress-web-app) - 📝 採用 VuePress 構建的 Web 應用程式，支援 PWA、Github Issues 評論、Prettier Markdown 等。
+- [qinghuas/socks5-install](https://github.com/qinghuas/socks5-install) - socks5 一鍵腳本
+- [MichaelCade/90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps) - 這個倉庫最初是我個人的公開學習項目，現已成為社群中許多人的結構化學習地圖。我們已經覆蓋了三年的 DevOps 相關內容
+- [rocky-linux/rocky-tools](https://github.com/rocky-linux/rocky-tools) - 
+- [Smalls1652/wsl2-rockylinux](https://github.com/Smalls1652/wsl2-rockylinux) - 為 Windows 子系統 Linux 創建 RockyLinux 映像
+- [scop/bash-completion](https://github.com/scop/bash-completion) - Bash 的可編程補全函數
+- [yeahwu/v2ray-wss](https://github.com/yeahwu/v2ray-wss) - 多協議代理腳本
+- [nodesource/distributions](https://github.com/nodesource/distributions) - NodeSource Node.js 二進位發行版
+- [uvulpos/gitea-installer](https://github.com/uvulpos/gitea-installer) - 簡單的 Gitea bash 安裝器！請在執行腳本前檢查是否使用最新的 Gitea 下載連結
+- [chevereto/vps](https://github.com/chevereto/vps) - 在任何 VPS 上安裝 Chevereto 的 bash 腳本集
+- [wulabing/Xray_onekey](https://github.com/wulabing/Xray_onekey) - Xray 基於 Nginx 的 VLESS + XTLS 一鍵安裝腳本
+- [lanbugs/gitea_installer](https://github.com/lanbugs/gitea_installer) - GITEA 安裝腳本
+- [AlistGo/alist-replit](https://github.com/AlistGo/alist-replit) - alist on replit
+- [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) - 純 Unix Shell 腳本實現的 ACME 客戶端協議
+- [wulabing/V2Ray_ws-tls_bash_onekey](https://github.com/wulabing/V2Ray_ws-tls_bash_onekey) - 
+- [mack-a/v2ray-agent](https://github.com/mack-a/v2ray-agent) - Xray、Tuic、hysteria2、sing-box 八合一一鍵腳本
+- [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) - 電腦科學社群的論文收藏，用於閱讀與討論
+- [eRaid6/gitea-install](https://github.com/eRaid6/gitea-install) - 在 CentOS 7/RHEL7 和 Fedora 30 上安裝與升級 Gitea
+- [P3TERX/warp.sh](https://github.com/P3TERX/warp.sh) - Cloudflare WARP 安裝器 | WARP 一鍵安裝腳本
+- [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃   一個社群驅動的愉快 zsh 配置框架（有 2,400+ 貢獻者）。包含 300+ 可選插件（rails、git、macOS、hub、docker、homebrew、node、php、python 等）
+- [bestxtools/awesome-toolbox-chinese](https://github.com/bestxtools/awesome-toolbox-chinese) - 🧰 優秀工具箱集合 - 收集，推薦好用、優秀的工具箱。工具箱大全。| https://awesome-toolbox-chinese.bestxtools.com/ | https://😎🧰.bestxtools.com/
+- [wslutilities/wslu](https://github.com/wslutilities/wslu) - Windows 子系統 Linux 的實用工具集合
+- [cheat/cheatsheets](https://github.com/cheat/cheatsheets) - 社群貢獻的速查表
+- [foxundermoon/vs-shell-format](https://github.com/foxundermoon/vs-shell-format) - shellscript、Dockerfile、properties 等格式化擴展
+- [aprescott/gist-backup](https://github.com/aprescott/gist-backup) - 備份你所有公開和私有 gist 倉庫
+- [Jrohy/nodejs-install](https://github.com/Jrohy/nodejs-install) - 一鍵安裝最新版 nodejs
+- [rickellis/ConkyMatic](https://github.com/rickellis/ConkyMatic) - 根據當前桌布顏色自動變更 Conky 配色方案。以 Bash 編寫。
+- [DamionGans/ubuntu-wsl2-systemd-script](https://github.com/DamionGans/ubuntu-wsl2-systemd-script) - [已失效！] 啟用目前 Ubuntu WSL2 映像 systemd 支援的腳本
+- [adi1090x/dynamic-wallpaper](https://github.com/adi1090x/dynamic-wallpaper) - 根據當前時間設置桌布的簡單 bash 腳本，使用 cron 任務調度
+- [v2fly/fhs-install-v2ray](https://github.com/v2fly/fhs-install-v2ray) - 用於安裝 V2Ray 的 bash 腳本，適用於支援 systemd 的 Debian / CentOS / Fedora / openSUSE 等操作系統
+- [denysdovhan/one-gnome-terminal](https://github.com/denysdovhan/one-gnome-terminal) - Atom 的 One Dark 和 One Light 主題 for GNOME Terminal
+- [disbalancer-project/main](https://github.com/disbalancer-project/main) - 
+- [felixonmars/vps2arch](https://github.com/felixonmars/vps2arch) - 將 VPS 轉為 Arch Linux 的最快方式！（從 gitlab:drizzt/vps2arch 分支）
+- [xiantang/xiantang-blog](https://github.com/xiantang/xiantang-blog) - blog
+- [WSA-Community/WSAGAScript](https://github.com/WSA-Community/WSAGAScript) - 在 WSA 映像中安裝 Google Apps 的腳本。並可選 root
+- [mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) - 超過 400 款 iTerm/iTerm2 終端配色主題。包含 Terminal、Konsole、PuTTY、Xresources、XRDB、Remmina、Termite、XFCE、Tilda、FreeBSD VT、Terminator、Kitty、MobaXterm、LXTerminal 等移植版本
+- [wabarc/on-heroku](https://github.com/wabarc/on-heroku) - 輕鬆快速地將 wayback 服務部署並維護為 Heroku 應用
+- [wabarc/on-github](https://github.com/wabarc/on-github) - 以 GitHub Actions 執行的 wayback 服務（僅為示範）
+- [csguide-dabai/Programmer-look-at-China](https://github.com/csguide-dabai/Programmer-look-at-China) - 介紹中國各二線以上城市的網際網路環境以及生活成本
+- [vicalloy/outline-docker-compose](https://github.com/vicalloy/outline-docker-compose) - 幾分鐘內安裝自託管 Outline wiki 實例
+- [haoyume/233blog-v2ray](https://github.com/haoyume/233blog-v2ray) - 
+- [jpetazzo/container.training](https://github.com/jpetazzo/container.training) - 關於 Docker、容器及 Kubernetes 的培訓、教程與工作坊的投影片與程式碼範例
+- [Websoft9Archive/ansible-nextcloud](https://github.com/Websoft9Archive/ansible-nextcloud) - Linux 下一鍵安裝 Nextcloud（Nextcloud 自動安裝程序）
+- [nextcloud/docker](https://github.com/nextcloud/docker) - ⛴ Nextcloud 的 Docker 映像
+- [ToutyRater/v2ray-guide](https://github.com/ToutyRater/v2ray-guide) - 
+- [cutelua/mtg-dist](https://github.com/cutelua/mtg-dist) - mtg 的一行分發和安裝腳本
+- [Cats-Team/AdRules](https://github.com/Cats-Team/AdRules) - 適用於中國地區廣告封鎖的規則列表
+- [weakish/gister](https://github.com/weakish/gister) - 用於同步 github gists 的命令列工具
+- [Kr328/clash-premium-installer](https://github.com/Kr328/clash-premium-installer) - Linux 簡易 clash premium 核心安裝器
+- [zfl9/ss-tproxy](https://github.com/zfl9/ss-tproxy) - ss/v2ray/xray/trojan/hysteria/naive/socks5 透明代理
+- [wyx176/Socks5](https://github.com/wyx176/Socks5) - Socks5 代理伺服器搭建腳本/Socks5 快捷方式建立腳本
+- [JACKUSR2089/v2ray-subscribed](https://github.com/JACKUSR2089/v2ray-subscribed) - v2ray666
+- [jinwyp/one_click_script](https://github.com/jinwyp/one_click_script) - 安裝最新或 LTS linux kernel 並啟用 BBR 或 BBR plus
+- [gaurav-nelson/github-action-markdown-link-check](https://github.com/gaurav-nelson/github-action-markdown-link-check) - ⛔️ 已棄用 檢查 markdown 文件中所有連結是否有效。🔗✔️PS: https://github.com/tcort/github-action-markdown-link-check
+- [rey/tweet-delete](https://github.com/rey/tweet-delete) - 
+- [JetBrains/JetBrainsMono](https://github.com/JetBrains/JetBrainsMono) - JetBrains Mono – 開源免費的程式設計字型
+- [oh-my-fish/oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) - The Fish Shell 框架
+- [SnShine/Twitter-to-DayOne](https://github.com/SnShine/Twitter-to-DayOne) - 擷取你一天所有推文並建立 DayOne 條目
+- [haiwen/seafile-server-installer](https://github.com/haiwen/seafile-server-installer) - 設置生產環境就緒 Seafile 伺服器（含 HTTPS） 的腳本集
+- [ludovicchabant/Chrome-Search-Engine-Sync](https://github.com/ludovicchabant/Chrome-Search-Engine-Sync) - 一些用於匯出/匯入 Google Chrome 搜尋引擎偏好的簡單腳本
+- [lovezzzxxx/liverecord](https://github.com/lovezzzxxx/liverecord) - 自動錄播並自動備份，支援 youtube 頻道、twitcast 頻道、twitch 頻道、openrec 頻道、niconico 生放送、niconico 社區、niconico 頻道、mirrativ 頻道、reality 頻道、17live 頻道、bilibili 頻道、streamlink 支援的直播網址、ffmpeg 支援的 m3u8 地址
+## Stylus 
+
+- [XPoet/hexo-theme-keep](https://github.com/XPoet/hexo-theme-keep) - :rainbow: 一個簡單且輕量的 Hexo 主題。讓你更專注於寫作。
+
+## Svelte 
+
+- [K-Sato1995/focus-sounds](https://github.com/K-Sato1995/focus-sounds) - 使用 svelte-kit 建立的生產力網站。你可以聆聽環境音來幫助你專注👨‍💻👨‍💻
+- [shajidhasan/rknotes-app](https://github.com/shajidhasan/rknotes-app) - 
+- [shajidhasan/batname](https://github.com/shajidhasan/batname) - 生成類似「The Batman (2022)」電影標誌的文本
+- [shajidhasan/cowsay-svelte](https://github.com/shajidhasan/cowsay-svelte) - 一個用 Svelte、TailwindCSS 和 HTML Canvas 製作的 cowsay 圖形介面
+- [pabueco/hue.tools](https://github.com/pabueco/hue.tools) - 用於處理顏色的簡易工具箱。顏色混合、融合、轉換、修改、詳細資訊等。
+- [cxumol/URLinkCat](https://github.com/cxumol/URLinkCat) - URL 鏈結目錄，輕量級多用戶雲端書籤應用，運行於無伺服器平台，追求速度與易用性
+- [dufu1991/simple-cloud-music](https://github.com/dufu1991/simple-cloud-music) - 簡潔的第三方網易雲音樂播放器
+
+## Swift 
+
+- [mazzzystar/Queryable](https://github.com/mazzzystar/Queryable) - 在 iOS 上運行 OpenAI 的 CLIP 和蘋果的 MobileCLIP 模型來搜尋照片。
+- [mudkipme/MoeMemos](https://github.com/mudkipme/MoeMemos) - 幫助你捕捉想法和靈感的應用
+- [thebaselab/codeapp](https://github.com/thebaselab/codeapp) - 為 iPad 打造的完整功能程式碼編輯器
+- [LyricZhao/THU-Bell](https://github.com/LyricZhao/THU-Bell) - macOS 上的 THU Bell
+- [insidegui/VirtualBuddy](https://github.com/insidegui/VirtualBuddy) - 在 Apple Silicon 上虛擬化 macOS 12 及以上版本，VirtualBuddy 是 macOS M1、M2、M3、M4 的虛擬機圖形介面
+- [sindresorhus/Plash](https://github.com/sindresorhus/Plash) - 💦 讓任何網站成為你的 Mac 桌面桌布
+- [CodeEditApp/CodeEdit](https://github.com/CodeEditApp/CodeEdit) - 📝 適用於 macOS 的 CodeEdit App——提升你的程式碼編輯體驗。開源，永遠免費。
+- [RanKKI/LawRefBook](https://github.com/RanKKI/LawRefBook) - 中華人民共和國法律手冊
+- [gee1k/uPic](https://github.com/gee1k/uPic) - 📤uPic 是一款原生、強大、美觀且簡單的 macOS 圖片與檔案上傳工具。
+## TeX 
+
+- [billryan/resume](https://github.com/billryan/resume) - 優雅的 \LaTeX\ 履歷模板。大陸鏡像 https://gods.coding.net/p/resume/git
+- [LittleNewton/Replace_MathType](https://github.com/LittleNewton/Replace_MathType) - 提供一個基於 Microsoft Office 365 的數學公式替代方案
+- [lib-pku/libpku](https://github.com/lib-pku/libpku) - 貴校課程資料民間整理
+- [liblaf/ilatex](https://github.com/liblaf/ilatex) - 📚 LaTeX 模板與工具，用於創建美觀、結構化的文件 📝
+- [Didnelpsun/Math](https://github.com/Didnelpsun/Math) - 考研數學，數學一，包括高等數學、線性代數、概率統計
+- [zhengkd95/thu_poster_template](https://github.com/zhengkd95/thu_poster_template) - 一個帶有清華大學標誌的學術海報 LaTeX 模板
+- [VicaYang/THU-Exam-LaTeX-Template](https://github.com/VicaYang/THU-Exam-LaTeX-Template) - 清華大學考試 LaTeX 模板
+- [alick/thulib-latex-talk](https://github.com/alick/thulib-latex-talk) - 《如何使用 LaTeX 排版論文》講稿。後續更新：https://github.com/tuna/thulib-latex-talk
+- [tuna/thulib-latex-talk](https://github.com/tuna/thulib-latex-talk) - 《如何使用 LaTeX 排版論文》講稿
+- [zhaofeng-shu33/THU-coursework-template](https://github.com/zhaofeng-shu33/THU-coursework-template) - 清華大學課程作業模板，適用於數學、物理、電子工程、力學與計算機科學專業
+- [zinccat/PKU-beamer-theme](https://github.com/zinccat/PKU-beamer-theme) - 從某清華模板魔改的 beamer 主題 x
+- [ZenithalHourlyRate/learn-git-the-not-so-super-hard-way](https://github.com/ZenithalHourlyRate/learn-git-the-not-so-super-hard-way) - 
+- [K-Wu/CV-tsinghua-template](https://github.com/K-Wu/CV-tsinghua-template) - 萬歲，吾最高學府（清華大學）
+- [soulmachine/leetcode](https://github.com/soulmachine/leetcode) - LeetCode 題解，151 道題完整版。
+- [tuna/thuthesis](https://github.com/tuna/thuthesis) - 清華大學學位論文 LaTeX 模板
+
+## TypeScript 
+
+- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) - 一個開源 AI Agent，將 Gemini 的強大功能直接帶入你的終端。
+- [JuanJLH/vscode-warp-terminal](https://github.com/JuanJLH/vscode-warp-terminal) - 
+- [lobehub/lobe-icons](https://github.com/lobehub/lobe-icons) - 🥨 Lobe Icons - 流行 AI / LLM 模型品牌 SVG 標誌與圖示集。
+- [nimbusdotstorage/Nimbus](https://github.com/nimbusdotstorage/Nimbus) - 一個開源的 Google Drive、One Drive、iCloud 等雲端硬碟替代品。
+- [BingyanStudio/github-analyzer](https://github.com/BingyanStudio/github-analyzer) - 銳評一下你都在 GitHub 寫了什麼
+- [voideditor/void](https://github.com/voideditor/void) - 
+- [HiveNexus/A2A-Chat](https://github.com/HiveNexus/A2A-Chat) - 一個基於 Agent 2 Agent 協議的聊天應用，可以通過對話方式給外部 Agent 下發任務，並獲取結果。
+- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) - Model Context Protocol 伺服器
+- [iszhouhua/social-media-copilot](https://github.com/iszhouhua/social-media-copilot) - 社媒助手開源版 - 小紅書、抖音、快手等平台數據採集的瀏覽器插件，可通過 API 調用，支援 Docker 部署。
+- [Hugo-COLLIN/SaveMyPhind-conversation-exporter](https://github.com/Hugo-COLLIN/SaveMyPhind-conversation-exporter) - 🚀 Save my Chatbot: 下載你的 Claude、Perplexity、Phind、ChatGPT 及 MaxAI-Google 對話和頁面為 markdown 文件（非官方）。⏩ 現已登陸 Chrome 應用商店和 Firefox 附加組件
+- [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) - 以 Claude Code 為基礎構建編碼基礎設施，讓你決定如何與模型互動，同時享受 Anthropic 的更新。
+- [aigem/CFr2-webdav](https://github.com/aigem/CFr2-webdav) - 使用 Cloudflare Workers 和 R2 實現了一個兼容 WebDAV 的伺服器
+- [TBXark/ChatGPT-Telegram-Workers](https://github.com/TBXark/ChatGPT-Telegram-Workers) - 輕鬆將你的 Telegram ChatGPT 機器人部署到 Cloudflare Workers（或 Vercel、Docker...）。
+- [kyswtn/vscode-vercel](https://github.com/kyswtn/vscode-vercel) - 在寫程式時隨時關注你的 Vercel 部署狀態
+- [Femoon/tts-azure-web](https://github.com/Femoon/tts-azure-web) - TTS Azure Web 是一個 Azure 文字轉語音（TTS）網頁應用，可以在本地或雲端使用你的 Azure Key 一鍵部署。
+- [daytonaio/daytona](https://github.com/daytonaio/daytona) - Daytona 是一個安全且彈性的基礎設施，用於運行 AI 生成的程式碼
+- [bepass-org/oblivion-desktop](https://github.com/bepass-org/oblivion-desktop) - Oblivion Desktop - 非官方 Warp 用戶端，支援 Windows/Mac/Linux
+- [besscroft/PicImpact](https://github.com/besscroft/PicImpact) - 自部署的攝影作品網站，支援多種功能特性。PicImpact，分享你和世界！
+- [lyc8503/UptimeFlare](https://github.com/lyc8503/UptimeFlare) - ✔ 免費且無伺服器的 Uptime 監控 / 狀態頁，運行於 Cloudflare Workers，支援地區特定檢查
+- [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - 開源替代 Vercel、Netlify 和 Heroku。
+- [maotoumao/MusicFree](https://github.com/maotoumao/MusicFree) - 插件化、可自訂、無廣告的免費音樂播放器
+- [maotoumao/MusicFreeDesktop](https://github.com/maotoumao/MusicFreeDesktop) - 插件化、可自訂、無廣告的免費音樂播放器
+- [misskey-dev/misskey](https://github.com/misskey-dev/misskey) - 🌎 完全免費且開源的星際微網誌平台 🚀
+- [yllhwa/FileWorker](https://github.com/yllhwa/FileWorker) - 運行於邊緣函數上的線上剪貼板/檔案分享
+- [web-infra-dev/rspress](https://github.com/web-infra-dev/rspress) - 🦀 一個基於 Rsbuild 的快速靜態網站生成器。
+- [beilunyang/img-mom](https://github.com/beilunyang/img-mom) - Telegram 機器人（img-mon | 圖片老媽）
+- [liaoliao666/v2ex](https://github.com/liaoliao666/v2ex) - V2EX 好看的第三方客戶端，原生 App，支援夜間模式。
+- [chaselen/v2ex-playground](https://github.com/chaselen/v2ex-playground) - 在 VSCode 上逛 V2EX 網站的插件
+- [hyoban/kirika](https://github.com/hyoban/kirika) - 一個簡單的筆記跨平台轉換工具
+- [edrlab/thorium-reader](https://github.com/edrlab/thorium-reader) - 一款跨平台桌面閱讀應用，基於 Readium Desktop 工具包
+- [Kuingsmile/PicList](https://github.com/Kuingsmile/PicList) - 一個基於 PicGo 的圖片上傳與管理工具
+- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) - 一款現代化 GUI 客戶端，基於 Tauri 設計，支援 Windows、macOS 與 Linux，為你量身打造代理體驗
+- [githubnext/monaspace](https://github.com/githubnext/monaspace) - 一個創新的超級字型家族，專為程式碼設計
+- [dicarne/feishu-backup](https://github.com/dicarne/feishu-backup) - 用於備份飛書文件，可將飛書文件轉為 markdown 下載。
+- [LetTTGACO/elog](https://github.com/LetTTGACO/elog) - Markdown 批量匯出工具、開放式跨平台部落格解決方案，隨意組合寫作平台（語雀/Notion/FlowUs/飛書/我來Wolai）與部落格平台（Hexo/Vitepress/Halo/Confluence/WordPress 等）
+- [memgraph/odin](https://github.com/memgraph/odin) - 
+- [Harry-Chen/thu-learn-lib](https://github.com/Harry-Chen/thu-learn-lib) - 一個為清華大學網路學堂提供程式友好介面的 JavaScript 函式庫
+- [qxchuckle/vsc-cec-ide](https://github.com/qxchuckle/vsc-cec-ide) - 一個沒什麼用的 VSC 插件
+- [chatchat-space/Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat) - Langchain-Chatchat（原 Langchain-ChatGLM）基於 Langchain 與 ChatGLM, Qwen 與 Llama 等語言模型的 RAG 與 Agent 應用 | Langchain-Chatchat（原 langchain-ChatGLM），本地知識型 LLM（如 ChatGLM、Qwen 和 Ll
+- [CopyTranslator/CopyTranslator](https://github.com/CopyTranslator/CopyTranslator) - 🔠基於複製與翻譯的外語閱讀翻譯助手。
+- [longern/FlareDrive](https://github.com/longern/FlareDrive) - 基於 CloudFlare R2 的免費檔案託管服務（WebUI & WebDAV）
+- [ChatAnyTeam/ChatAny](https://github.com/ChatAnyTeam/ChatAny) - 🌻 一鍵擁有你自己的 ChatGPT+多種 AI 網頁服務 | One click access to your own ChatGPT+Many AI web services
+- [MuiseDestiny/zotero-gpt](https://github.com/MuiseDestiny/zotero-gpt) - GPT 與 Zotero 結合。
+- [langgenius/webapp-conversation](https://github.com/langgenius/webapp-conversation) - 
+- [langgenius/dify](https://github.com/langgenius/dify) - 可用於生產環境的 Agent 工作流開發平台。
+- [ObservedObserver/viz-gpt](https://github.com/ObservedObserver/viz-gpt) - 以聊天介面從表格數據生成上下文數據視覺化。AI 數據可視化。
+- [tldraw/tldraw](https://github.com/tldraw/tldraw) - 非常棒的白板 SDK / 無限畫布 SDK
+- [okisdev/ChatChat](https://github.com/okisdev/ChatChat) - Chat Chat，你自己的統一 AI 聊天與搜尋平台，擁有簡單易用的界面。
+- [79E/ChatGpt-Web](https://github.com/79E/ChatGpt-Web) - 一款可商業化的 ChatGpt Web 應用，使用 React 搭建。
+- [erictik/midjourney-ui](https://github.com/erictik/midjourney-ui) - Midjourney UI 是一個基於 Midjourney 的開源 AI 繪畫界面
+- [Nutlope/restorePhotos](https://github.com/Nutlope/restorePhotos) - 使用 AI 修復老舊與模糊的人臉照片。
+- [Nutlope/aicommits](https://github.com/Nutlope/aicommits) - 一個 AI 工具，可為你自動生成 git commit 訊息的 CLI
+- [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT) - 🤖 在瀏覽器中組裝、配置與部署自動化 AI Agent。
+- [RafalWilinski/telegram-chatgpt-concierge-bot](https://github.com/RafalWilinski/telegram-chatgpt-concierge-bot) - 通過 Telegram 和語音與 OpenAI 的 ChatGPT 互動。
+- [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) - 視覺化構建 AI Agents
+- [LokerL/tts-vue](https://github.com/LokerL/tts-vue) - 🎤 微軟語音合成工具，使用 Electron + Vue + ElementPlus + Vite 構建。
+- [nat/openplayground](https://github.com/nat/openplayground) - 一個能在本地筆電運行的 LLM playground
+- [labring/sealos](https://github.com/labring/sealos) - Sealos 是一個可用於生產環境的 Kubernetes 發行版，簡化部署流程。可即時搭建任何程式語言或框架的開發環境，部署高可用
+- [coolpace/V2EX_Polish](https://github.com/coolpace/V2EX_Polish) - 專業的 V2EX 瀏覽器擴充，整合眾多實用功能，重塑你的瀏覽體驗！
+- [ztjhz/BetterChatGPT](https://github.com/ztjhz/BetterChatGPT) - 為 OpenAI ChatGPT 提供驚豔 UI（網站 + Windows + MacOS + Linux）
+- [3Alan/DocsMind](https://github.com/3Alan/DocsMind) - 🤖 DocsMind 讓你可與文件對話、總結文件，支援 pdf, md。
+- [riwigefi/light-gpt](https://github.com/riwigefi/light-gpt) - Light-GPT 是一個基於 GPT-3.5-Turbo Model 的互動網站專案。
+- [nextauthjs/next-auth](https://github.com/nextauthjs/next-auth) - 網頁驗證解決方案。
+- [zengsanxiang/brain-reply](https://github.com/zengsanxiang/brain-reply) - 更優雅的 ChatGPT 客戶端
+- [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) - ✨ 輕量快速的 AI 助手。支援：Web | iOS | MacOS | Android | Linux | Windows
+- [hahahumble/speechgpt](https://github.com/hahahumble/speechgpt) - 💬 SpeechGPT 是一個可與 ChatGPT 對話的網頁應用。
+- [rerender2021/heard](https://github.com/rerender2021/heard) - 基於 whisper & avernakis react 的簡易字幕生成器。
+- [mckaywrigley/chatbot-ui](https://github.com/mckaywrigley/chatbot-ui) - 任意模型的 AI 聊天介面。
+- [GPTGenius/chatgpt-vercel](https://github.com/GPTGenius/chatgpt-vercel) - 透過 vercel 快速創建私人 chatgpt 網站
+- [hyoban/burogu](https://github.com/hyoban/burogu) - 基於 Next.js 13 的極簡部落格模板
+- [futantan/OpenGpt](https://github.com/futantan/OpenGpt) - 幾秒鐘創建你自己的 ChatGPT 應用。
+- [botpress/botpress](https://github.com/botpress/botpress) - 建構與部署 GPT/LLM Agents 的開源平台 ⚡️
+- [noobnooc/ohmygpt](https://github.com/noobnooc/ohmygpt) - 幾分鐘內部署基於 ChatGPT 的 Web 應用。
+- [aircloud/sync-to-github](https://github.com/aircloud/sync-to-github) - 將你的網頁內容同步到 github 倉庫，例如與 ChatGPT 的對話。
+- [fraserxu/book-gpt](https://github.com/fraserxu/book-gpt) - 拖放一本書，開始發問。
+- [ObservedObserver/chatgpt-i18n](https://github.com/ObservedObserver/chatgpt-i18n) - AI 輔助本地化你的网站。
+- [ourongxing/chatgpt-vercel](https://github.com/ourongxing/chatgpt-vercel) - 優雅且強大。由 OpenAI 與 Vercel 提供支持。
+- [lcomplete/huntly](https://github.com/lcomplete/huntly) - Huntly，資訊管理工具，RSS 閱讀器，GitHub stars 管理工具，推文管理，自動記錄瀏覽過的文章。
+- [openai-translator/openai-translator](https://github.com/openai-translator/openai-translator) - 基於 ChatGPT API 的劃詞翻譯瀏覽器插件和跨平台桌面端應用    -    Browser extension and cross-platform desktop application for translation based on ChatGPT API.
+- [sparticleinc/chatgpt-google-summary-extension](https://github.com/sparticleinc/chatgpt-google-summary-extension) - Chrome 擴充，用於在 Google 搜尋結果和 YouTube 影片旁顯示 ChatGPT 摘要，亦支援 Yahoo! ニュース、PubMed、PMC、NewsPicks、Github、Nikkei、Bing、Google Patents 及任何頁面摘要。
+- [anse-app/chatgpt-demo](https://github.com/anse-app/chatgpt-demo) - 極簡的 ChatGPT 網頁 UI。
+- [microsoft/vscode-webview-ui-toolkit](https://github.com/microsoft/vscode-webview-ui-toolkit) - 用於在 Visual Studio Code 中構建基於 webview 擴充的元件庫。
+- [ycjcl868/readme-gpt](https://github.com/ycjcl868/readme-gpt) - 使用 OpenAI 與 Vercel Edge Functions 生成你的 Github Readme。
+- [cloudflare/wildebeest](https://github.com/cloudflare/wildebeest) - Wildebeest 是一個支援 ActivityPub 與 Mastodon 協議的伺服器
+- [transitive-bullshit/bing-chat](https://github.com/transitive-bullshit/bing-chat) - Node.js 客戶端，支援新版 Bing AI 搜尋。就像 ChatGPT 升級版 🔥
+- [Musish/Musish](https://github.com/Musish/Musish) - Apple Music...ish
+- [MNThomson/containerflare](https://github.com/MNThomson/containerflare) - 🔥 Cloudflare（Workers + R2）邊緣容器映像倉庫
+- [cmj2002/CF-R2-ImageBed](https://github.com/cmj2002/CF-R2-ImageBed) - 基於 Cloudflare R2 的圖床，支援 PicGo。
+- [google/brotli](https://github.com/google/brotli) - Brotli 壓縮格式
+- [robertying/learnX-companion](https://github.com/robertying/learnX-companion) - 清華大學網路學堂 App 助手，為 learnX 提供個性化推播通知支援。
+- [dvanoni/notero](https://github.com/dvanoni/notero) - 一個將 Zotero 項目與筆記同步到 Notion 的插件
+- [windingwind/zotero-better-notes](https://github.com/windingwind/zotero-better-notes) - 關於筆記管理的一切。全部在 Zotero。
+- [honojs/hono](https://github.com/honojs/hono) - 基於 Web 標準構建的 Web 框架
+- [G4brym/R2-Explorer](https://github.com/G4brym/R2-Explorer) - 你的 Cloudflare R2 Bucket 的 Google Drive 介面！
+- [SunYufei/workers-dav](https://github.com/SunYufei/workers-dav) - 使用 Cloudflare Workers 為 Google Drive 提供 WebDAV 服務 / WebDAV supports for Google Drive using Cloudflare Workers
+- [realByg/office-user-auto-create](https://github.com/realByg/office-user-auto-create) - 用 cloudflare worker 自助創建 office 帳號
+- [ghedamat/obsidian-save-as-gist](https://github.com/ghedamat/obsidian-save-as-gist) - 
+- [kamranahmedse/aws-cost-cli](https://github.com/kamranahmedse/aws-cost-cli) - AWS 帳戶費用分析 CLI 工具，支援 Slack 整合
+- [remotely-save/remotely-save](https://github.com/remotely-save/remotely-save) - 本地與雲端筆記同步，支援智慧衝突解決：S3（Amazon S3/Cloudflare R2/Backblaze B2/...）、Dropbox、webdav（NextCloud/InfiniCLOUD/Synology/...）、OneDrive、Google Drive（GDrive）、Box、pCloud
+- [Future-Scholars/paperlib](https://github.com/Future-Scholars/paperlib) - 開源學術論文管理工具。
+- [forecho/cherries](https://github.com/forecho/cherries) - 
+- [thu-info-community/thu-info-lib](https://github.com/thu-info-community/thu-info-lib) - 提供清華大學網頁入口程式友好介面的 JavaScript 函式庫
+- [Harry-Chen/Learn-Helper](https://github.com/Harry-Chen/Learn-Helper) - 清華大學網絡學堂助手
+- [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) - Invoke 是一個領先的 Stable Diffusion 創意引擎，賦能專業人士、藝術家和愛好者，利用最新的 AI 技術生成和創作視覺媒體。該解決方案
+- [baotlake/periodic-table-pro](https://github.com/baotlake/periodic-table-pro) - 元素週期表Pro，高顏值化學必備小程式，提供全面的元素屬性、圖片和百科知識等
+- [dtysky/Awaken](https://github.com/dtysky/Awaken) - 一個基於 WebDAV 的全平台 EPUB 閱讀器，支援筆記、進度、書籤同步，支援 Kindle 筆記匯入。
+- [illacloud/illa-builder](https://github.com/illacloud/illa-builder) - 低程式碼平台，讓您快速構建業務應用，輕鬆建立儀表板、CRUD 應用、管理面板、CRM、CMS 等內部工具。支援 PostgreSQL、MySQL、Supabase、GraphQL
+- [resend/react-email](https://github.com/resend/react-email) - 💌 使用 React 建構和發送郵件
+- [domeccleston/sharegpt](https://github.com/domeccleston/sharegpt) - 輕鬆與朋友分享 ChatGPT 對話的永久連結
+- [wong2/chatgpt-google-extension](https://github.com/wong2/chatgpt-google-extension) - 本專案已棄用。請查看我的新專案 ChatHub：
+- [pacexy/flow](https://github.com/pacexy/flow) - 基於瀏覽器的 ePub 閱讀器
+- [jiegec/clone-learn-tsinghua](https://github.com/jiegec/clone-learn-tsinghua) - 用於從 learn.tsinghua.edu.cn 複製所有檔案的工具
+- [thu-info-community/thu-info-app](https://github.com/thu-info-community/thu-info-app) - 一個旨在整合校園多源資訊的 APP，使用 React Native 開發
+- [exposir/bing-wallpaper-node](https://github.com/exposir/bing-wallpaper-node) - Bing 每日 4K 超清壁紙
+- [AlistGo/docs](https://github.com/AlistGo/docs) - 📄 alist v3 說明文件：http://github.com/alist-org/alist
+- [slidevjs/docs](https://github.com/slidevjs/docs) - [鏡像] Slidev 的文件
+- [appwrite/appwrite](https://github.com/appwrite/appwrite) - 像數百人團隊一樣開發_
+- [dai-shi/excalidraw-animate](https://github.com/dai-shi/excalidraw-animate) - 用於為 Excalidraw 繪圖製作動畫的工具
+- [Graviton-Code-Editor/Graviton-App](https://github.com/Graviton-Code-Editor/Graviton-App) - 🚀 現代化介面的程式碼編輯器
+- [thusns/thu-wiki](https://github.com/thusns/thu-wiki) - https://thu.wiki 或 https://wiki.thusns.org
+- [crashmax-dev/twallpaper](https://github.com/crashmax-dev/twallpaper) - 🌈 多色漸變壁紙，通過演算法生成，動態閃爍。
+- [SigNoz/signoz](https://github.com/SigNoz/signoz) - SigNoz 是原生支援 OpenTelemetry 的開源可觀測性平台，集成日誌、追蹤和指標於一身。是 DataDog、NewRelic 等的開源替代方案。🔥 🖥   👉  開源
+- [vuejs/vitepress](https://github.com/vuejs/vitepress) - 由 Vite 和 Vue 驅動的靜態網站生成器。
+- [sst/sst](https://github.com/sst/sst) - 在你自己的基礎架構上構建全端應用。
+- [nrwl/nx](https://github.com/nrwl/nx) - AI 優先的構建平台，連接從編輯器到 CI 的一切。幫助你快速交付並減少錯誤。
+- [dubinc/dub](https://github.com/dubinc/dub) - 現代化連結歸屬平台。受到 Twilio、Buffer、Framer、Perplexity、Vercel 等世界一流行銷團隊的青睞。
+- [Privoce/vocechat-web](https://github.com/Privoce/vocechat-web) - VoceChat 網頁應用
+- [jackluson/vscode-pomodoro-clock](https://github.com/jackluson/vscode-pomodoro-clock) - VS Code 的番茄鐘
+- [DTStack/molecule](https://github.com/DTStack/molecule) - :rocket: 輕量級 Web IDE UI 框架。
+- [b4rtaz/voice-assistant](https://github.com/b4rtaz/voice-assistant) - Visual Studio Code 的語音助手。
+- [leon-ai/leon](https://github.com/leon-ai/leon) - 🧠 Leon 是你的開源個人助理。
+- [tycrek/ass](https://github.com/tycrek/ass) - 簡易自託管 ShareX 伺服器
+- [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - 著重隱私的筆記應用，支援 Windows、macOS、Linux、Android 和 iOS 的同步。
+- [AlphaNecron/Void](https://github.com/AlphaNecron/Void) - 快速且優雅的檔案託管服務。
+- [egoist/follower-count](https://github.com/egoist/follower-count) - 獲取 Instagram、Twitter、TikTok、Youtube 帳號的粉絲數
+- [liveblocks/liveblocks](https://github.com/liveblocks/liveblocks) - AI 時代最棒的應用不是單人體驗——而是協作。Liveblocks 提供可自訂的預建功能，讓你的產品具備多人、互動與 AI 能力，且不影響
+- [cloudflare/workers-graphql-server](https://github.com/cloudflare/workers-graphql-server) - 🔥閃電般快速、全球分布的 Apollo GraphQL 伺服器，透過 Cloudflare Workers 邊緣部署
+- [buhe/vscode-mail](https://github.com/buhe/vscode-mail) - 嵌入於 Visual Studio Code 的郵件客戶端。
+- [LekoArts/gatsby-themes](https://github.com/LekoArts/gatsby-themes) - 獲取高質量且可自訂的 Gatsby 主題，快速啟動你的网站！多種專業設計和豐富功能選擇
+- [haaarshsingh/kmenu](https://github.com/haaarshsingh/kmenu) - 完美的 ⌘K 選單
+- [sofn-xyz/mailing](https://github.com/sofn-xyz/mailing) - 使用 React 構建、測試、發送郵件
+- [webiny/webiny-js](https://github.com/webiny/webiny-js) - 開源無伺服器企業 CMS。包含 headless CMS、頁面構建器、表單構建器和檔案管理器。易於自訂與擴展。可部署到 AWS。
+- [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) - GitBook 文件網站的開源前端
+- [codex-team/editor.js](https://github.com/codex-team/editor.js) - 區塊式編輯器，輸出乾淨 JSON
+- [pingcap/ossinsight](https://github.com/pingcap/ossinsight) - 開源軟體的分析、比較、趨勢、排名，也可用自然語言（由 OpenAI 驅動）獲得超過 70 億資料的洞見。追蹤 Twitter: https://twitter.com/o
+- [markmap/markmap](https://github.com/markmap/markmap) - 用純文字構建心智圖
+- [hmu332233/q-link](https://github.com/hmu332233/q-link) - Q.Link | 用簡單測驗隱藏你的連結。
+- [triggerdotdev/jsonhero-web](https://github.com/triggerdotdev/jsonhero-web) - JSON Hero 是一款開源、美觀的網頁 JSON 瀏覽器，讓你快速瀏覽、搜尋與操作 JSON 檔案。🚀 由 Trigger.dev 團隊打造 💜。
+- [devhubapp/devhub](https://github.com/devhubapp/devhub) - GitHub 的 TweetDeck - 過濾 Issues、活動與通知，Web、Mobile 和 Desktop 99% 程式碼共用
+- [redhat-actions/try-in-web-ide](https://github.com/redhat-actions/try-in-web-ide) - 將你的 pull request 複製到 Red Hat OpenShift Developer Sandbox 上的 Web IDE，輕鬆測試修改。
+- [photoview/photoview](https://github.com/photoview/photoview) - 私人伺服器自託管的相簿
+- [yusukebe/r2-image-worker](https://github.com/yusukebe/r2-image-worker) - 使用 R2 後端 Cloudflare Workers 儲存並分發圖片。
+- [GitbookIO/proxies-on-cloudflare](https://github.com/GitbookIO/proxies-on-cloudflare) - Cloudflare Workers 上的代理服務
+- [SharzyL/pastebin-worker](https://github.com/SharzyL/pastebin-worker) - 基於 Cloudflare worker 的 Pastebin，支援友善 CLI 操作與豐富功能
+- [eclipse-theia/theia](https://github.com/eclipse-theia/theia) - Eclipse Theia 是用 TypeScript 實現的雲端與桌面 IDE 框架。
+- [facebook/docusaurus](https://github.com/facebook/docusaurus) - 易於維護的開源文件網站。
+- [logto-io/logto](https://github.com/logto-io/logto) - 🧑‍🚀 為 SaaS 與 AI 應用打造的身份驗證與授權基礎設施，基於 OIDC 與 OAuth 2.1，支援多租戶、SSO、RBAC。
+- [dushixiang/next-terminal](https://github.com/dushixiang/next-terminal) - Next Terminal 是一個簡單、安全、易用的互動審計系統，支援 RDP、SSH、VNC、Telnet、HTTP 多種遠端協議
+- [wayjam/picgo-plugin-s3](https://github.com/wayjam/picgo-plugin-s3) - PicGo S3 插件
+- [gaeulbyul/RedBlock](https://github.com/gaeulbyul/RedBlock) - [狀態：不再維護] 推特史上最強的連鎖封鎖擴充功能。/ 強大的多用戶 Twitter 封鎖擴充工具。
+- [formulahendry/vscode-code-runner](https://github.com/formulahendry/vscode-code-runner) - Visual Studio Code 的程式碼執行器
+- [hexojs/hexo-cli](https://github.com/hexojs/hexo-cli) - Hexo 的命令列介面
+- [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner) - 為鍵盤工作者設計的單詞記憶與英語肌肉記憶訓練軟體 / 為鍵盤族群打造的英文單字與打字記憶訓練工具
+- [SSShooter/mind-elixir-core](https://github.com/SSShooter/mind-elixir-core) - ⚗ Mind Elixir 是一個與框架無關的 JavaScript 心智圖核心。
+- [utterance/utterances](https://github.com/utterance/utterances) - :crystal_ball: 基於 GitHub Issues 的輕量級評論組件
+- [gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) - 開發者平台，按需提供雲端開發環境，加速且更安全地創建軟體。
+- [wabarc/cairn](https://github.com/wabarc/cairn) - 將網頁保存為單一 HTML 文件的 NPM 套件與 CLI 工具
+- [massCodeIO/assistant-vscode](https://github.com/massCodeIO/assistant-vscode) - VS Code 的 massCode 助手
+- [vercel/platforms](https://github.com/vercel/platforms) - 多租戶的全端 Next.js 應用範例
+- [taniarascia/takenote](https://github.com/taniarascia/takenote) - 📝  ‎ 一款為開發者設計的網頁筆記應用。
+- [standardnotes/app](https://github.com/standardnotes/app) - 端到端加密的筆記與檔案，放心大膽思考。回報問題請訪問 https://standardnotes.com/forum 或 https://standardnotes.com/help。
+- [gitpod-io/openvscode-server](https://github.com/gitpod-io/openvscode-server) - 在遠端機器上運行原生 VS Code，並可通過現代瀏覽器從任意裝置存取。
+- [EnixCoda/Gitako](https://github.com/EnixCoda/Gitako) - 🐙 適用於 Chrome、Firefox、Edge 的 GitHub 檔案樹擴充
+- [gridaco/grida](https://github.com/gridaco/grida) - Grida — 雄心勃勃的網頁 2D 圖形編輯器
+- [lostintangent/gitdoc](https://github.com/lostintangent/gitdoc) - 讓你像編輯多檔案、版本文件一樣編輯 Git 倉庫的 VS Code 擴充
+- [Platane/snk](https://github.com/Platane/snk) - 🟩⬜ 從 GitHub 用戶貢獻圖生成貪食蛇遊戲，並輸出為動畫 svg 或 gif
+- [yoshi389111/github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib) - 這個 GitHub Action 會在 3D 個人檔案圖片上生成 GitHub 貢獻日曆。
+- [yang991178/fluent-reader](https://github.com/yang991178/fluent-reader) - 現代化桌面 RSS 閱讀器，基於 Electron、React 和 Fluent UI
+- [AlistGo/web-v2](https://github.com/AlistGo/web-v2) - 🗂️ Alist V2 的前端
+- [ansh/jiffyreader.com](https://github.com/ansh/jiffyreader.com) - 任何網站都可更快閱讀的瀏覽器擴充！
+- [alefragnani/vscode-bookmarks](https://github.com/alefragnani/vscode-bookmarks) - Visual Studio Code 書籤擴充
+- [markdoc/markdoc](https://github.com/markdoc/markdoc) - 強大靈活的 Markdown 為基礎的創作框架。
+- [batnoter/batnoter](https://github.com/batnoter/batnoter) - 開源、基於 Markdown、自託管的網頁筆記應用。
+- [Cveinnt/LetsMarkdown.com](https://github.com/Cveinnt/LetsMarkdown.com) - 👨‍💻👩‍💻 一起寫 Markdown。
+- [Cherry/ShareX-R2-Cloudflare-Workers](https://github.com/Cherry/ShareX-R2-Cloudflare-Workers) - 自訂 ShareX 上傳器，通過 Workers 上傳至 Cloudflare R2
+- [mullvad/browser-extension](https://github.com/mullvad/browser-extension) - Mullvad 瀏覽器擴充，提升你在使用 Mullvad VPN 時的瀏覽體驗。
+- [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) - 通過類似 Markdown 的文字生成流程圖、時序圖等圖表
+- [Kong/insomnia](https://github.com/Kong/insomnia) - 開源跨平台 API 客戶端，支援 GraphQL、REST、WebSockets、SSE 和 gRPC。支援雲端、本機與 Git 存儲。
+- [theajack/cnchar](https://github.com/theajack/cnchar) - 🇨🇳 功能全面的漢字工具庫 (拼音、筆劃、偏旁、成語、語音、可視化等)
+- [missive/emoji-mart](https://github.com/missive/emoji-mart) - 🏪 一個全能 Emoji 選擇組件
+- [lcomplete/smart-toc](https://github.com/lcomplete/smart-toc) - 自動生成網頁文章目錄的 Chrome 擴充，支援 Inoreader 和 Feedly。
+- [sheepzh/time-tracker-4-browser](https://github.com/sheepzh/time-tracker-4-browser) - 瀏覽器用時間追蹤器/網費很貴
+- [ajayyy/SponsorBlockServer](https://github.com/ajayyy/SponsorBlockServer) - 跳過 YouTube 影片贊助片段（伺服器端）
+- [Hopding/pdf-lib](https://github.com/Hopding/pdf-lib) - 在任何 JavaScript 環境下建立和修改 PDF 文件
+- [GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension](https://github.com/GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension) - 在 VSCode 編輯器選單欄新增便利按鈕，如美化、顯示開啟檔案、儲存、切換終端機等。也可建立自訂按鈕與命令。VSCode Marketplace 連結：
+- [hexojs/hexo](https://github.com/hexojs/hexo) - 一個快速、簡單且強大的部落格框架，基於 Node.js。
+- [actions/stale](https://github.com/actions/stale) - 標記近期無互動的 Issue 和 Pull Request
+- [surgioproject/surgio](https://github.com/surgioproject/surgio) - 專業生成 Surge、Clash、Quantumult 規則
+- [nginxinc/nginx-for-azure-deploy-action](https://github.com/nginxinc/nginx-for-azure-deploy-action) - Github Actions 用於同步 NGINX 配置到 NGINX for Azure 服務。
+- [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) - Spacedrive 是一個開源跨平台檔案總管，由 Rust 編寫的虛擬分散式檔案系統驅動。
+- [DenverCoder1/custom-icon-badges](https://github.com/DenverCoder1/custom-icon-badges) - 🛡 讓使用者更容易在 shields.io 徽章上使用 Octicons 及自訂圖示與標誌
+- [arduino/arduino-ide](https://github.com/arduino/arduino-ide) - Arduino IDE 2.x
+- [yuudi/onesend](https://github.com/yuudi/onesend) - 通過 OneDrive 傳送檔案
+- [xcodebuild/CodeTerminal](https://github.com/xcodebuild/CodeTerminal) - 從 Visual Studio Code 提取的跨平台獨立終端應用。
+- [Zhengqbbb/cz-git](https://github.com/Zhengqbbb/cz-git) - cz-git | czg  🛠️ DX 優先，工程化、輕量、可自訂、標準輸出格式的 Commitizen 適配器和 CLI
+- [tutao/tutanota](https://github.com/tutao/tutanota) - Tuta 是一個專注安全與隱私的電子郵件服務，可在所有裝置上加密郵件、聯絡人和日曆。
+- [atomcorp/themes](https://github.com/atomcorp/themes) - Windows Terminal 主題
+- [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) - 開源 API 開發生態系 - https://hoppscotch.io（Postman、Insomnia 開源替代品）
+- [antfu/awesome-cn-cafe-web](https://github.com/antfu/awesome-cn-cafe-web) - ☕️ Awesome CN Café 的 Web 應用
+- [yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) - 💯 為忙碌的軟體工程師精選的程式面試準備材料
+- [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) - freeCodeCamp.org 的開源程式碼庫與課程。免費學習數學、程式設計與計算機科學。
+- [harrisoff/onedrive-js-sdk](https://github.com/harrisoff/onedrive-js-sdk) - 包裝部分 OneDrive API，只用於上傳與分享檔案。
+- [harrisoff/onedrive-image-hosting](https://github.com/harrisoff/onedrive-image-hosting) - OneDrive 圖床 | OneDrive Image Hosting
+- [ms-iot/vscode-ros](https://github.com/ms-iot/vscode-ros) - Visual Studio Code 的機器人作業系統（ROS）開發擴充
+- [yzhang-gh/vscode-markdown](https://github.com/yzhang-gh/vscode-markdown) - Markdown All in One
+- [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) - 🔒 2024 年數位安全與隱私 300+ 條保護建議彙編清單
+- [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) - ✨ 創新且開源的可視化應用，將 JSON、YAML、XML、CSV 等多種資料格式轉換為互動圖形。
+- [charleswan/vscode-extensions](https://github.com/charleswan/vscode-extensions) - 一系列美味的 Visual Studio Code 擴充推薦 https://marketplace.visualstudio.com/publishers/CharlesWan
+- [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium) - 用 Trilium Notes 建立你的個人知識庫
+- [grafana/grafana](https://github.com/grafana/grafana) - 開放且可組合的可觀測性與資料視覺化平台。可視化多種來源（如 Prometheus、Loki、Elasticsearch、InfluxDB、Postgres 等）的指標、日誌與追蹤。
+- [reactjs/react.dev](https://github.com/reactjs/react.dev) - React 文件說明網站
+- [microsoft/TypeScript](https://github.com/microsoft/TypeScript) - TypeScript 是 JavaScript 的超集，可以編譯為乾淨的 JavaScript 輸出。
+- [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) - 用於構建管理面板、內部工具和儀表板的平台。可整合 25+ 資料庫和任何 API。
+- [XadillaX/vscode-language-viml](https://github.com/XadillaX/vscode-language-viml) - VimL 的 VSCode 插件。
+- [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim) - 用於 vim 和 neovim 的 Nodejs 擴充主機，能像 VSCode 一樣載入擴充並支援語言伺服器。
+- [CryogenicPlanet/cryogenicplanet.github.io](https://github.com/CryogenicPlanet/cryogenicplanet.github.io) - 網路上的個人空間
+- [wei/socialify](https://github.com/wei/socialify) - 💞 讓你的專案社交化。🌐 向世界分享！
+- [VSCodeVim/Vim](https://github.com/VSCodeVim/Vim) - :star: Visual Studio Code 的 Vim
+- [AtomMaterialUI/iconGenerator](https://github.com/AtomMaterialUI/iconGenerator) - 用於 Atom Material Icons 插件（JetBrains、Chrome 和 Firefox）的圖示集合
+- [antfu/case-police](https://github.com/antfu/case-police) - 🚨 請讓命名格式正確！
+- [shd101wyy/vscode-markdown-preview-enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced) - Visual Studio Code 最佳的 Markdown 預覽擴充之一
+- [HAG87/vscode-maxscript-lsp](https://github.com/HAG87/vscode-maxscript-lsp) - VS Code 的 MaxScript 語言伺服器實作
+- [marcomontalbano/video-to-markdown](https://github.com/marcomontalbano/video-to-markdown) - 如何在 markdown 中嵌入影片？這裡有答案。讓你更輕鬆將影片加入 markdown 檔案。
+- [dangeredwolf/ModernDeck](https://github.com/dangeredwolf/ModernDeck) - 美觀且強大的桌面版 Twitter 客戶端。
+- [shiftkey/desktop](https://github.com/shiftkey/desktop) - GitHub Desktop 的分支，支援多個 Linux 發行版
+- [k9982874/github-gist-explorer](https://github.com/k9982874/github-gist-explorer) - 
+- [djyde/ossart](https://github.com/djyde/ossart) - 將你的 GitHub 活動列印成藝術品
+- [luyuhuang/vscode-rss](https://github.com/luyuhuang/vscode-rss) - 嵌入 Visual Studio Code 的 RSS 閱讀器
+- [liximomo/vscode-sftp](https://github.com/liximomo/vscode-sftp) - 超快的 VS Code sftp/ftp 擴充
+- [funnyzak/react-native-v2ex](https://github.com/funnyzak/react-native-v2ex) - 本專案使用 React Native 構建 V2EX 行動客戶端應用，目的是為了打造一個 React Native 快速開發腳手架。客戶端資料完全基於 V2EX 開放 API，基於 RN 0.71.5。
+- [trzsz/trzsz.js](https://github.com/trzsz/trzsz.js) - trzsz.js 是 trzsz 的 js 版本，使基於 electron 和 webshell 的終端支援 trzsz（trz / tsz）。
+- [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) - 一款獨特的履歷生成器，重視你的隱私。完全安全、可自訂、可攜帶、開源且永久免費。立即試用！
+- [slidevjs/slidev](https://github.com/slidevjs/slidev) - 為開發者打造的簡報幻燈片
+- [zzzgydi/clash-verge](https://github.com/zzzgydi/clash-verge) - 基於 tauri 的 Clash 圖形介面，支援 Windows、macOS 和 Linux。
+- [louisyoungx/safari-like-startpage](https://github.com/louisyoungx/safari-like-startpage) - 仿 Safari 的起始頁
+- [BoostIO/BoostNote-App](https://github.com/BoostIO/BoostNote-App) - Boost Note 是一款以文件驅動的專案管理工具，最大化遠端 DevOps 團隊效率。
+- [rick-yo/remind](https://github.com/rick-yo/remind) - 將思維導圖帶到瀏覽器
+- [QwikDev/qwik](https://github.com/QwikDev/qwik) - 無須額外操作即可瞬間加載的網頁應用
+- [vuepress-reco/vuepress-theme-reco](https://github.com/vuepress-reco/vuepress-theme-reco) - 🎨 這是 vuepress-theme-reco 2 的原始碼倉庫。
+- [WayneGongCN/microsoft-todo-browser-ext](https://github.com/WayneGongCN/microsoft-todo-browser-ext) - Microsoft To Do 的開源第三方瀏覽器擴充
+- [outline/outline](https://github.com/outline/outline) - 團隊成長最快的知識庫。美觀、即時協作、功能豐富並支援 markdown。
+- [geist-org/geist-ui](https://github.com/geist-org/geist-ui) - 現代網站與應用程式的設計系統。
+- [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) - 你的全方位出版工作台
+- [ddiu8081/bus-vis](https://github.com/ddiu8081/bus-vis) - 🚌 中國城市公車視覺化。
+- [vitejs/vite](https://github.com/vitejs/vite) - 新一代前端工具。就是快！
+- [notea-org/notea](https://github.com/notea-org/notea) - 📒 基於 S3 儲存的自託管筆記應用
+- [heroui-inc/heroui](https://github.com/heroui-inc/heroui) - 🚀 美觀、快速、現代化的 React UI 函式庫。（前身為 NextUI）
+- [coder/code-server](https://github.com/coder/code-server) - 瀏覽器中的 VS Code
+- [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) - 以效能為先的 CSS 框架，助你快速開發 UI。
+- [danloh/mdSilo-web](https://github.com/danloh/mdSilo-web) - 建立於本地純文字檔上的瀏覽器知識庫
+- [Gisto/Gisto](https://github.com/Gisto/Gisto) - Gisto 是一款跨平台的程式碼片段管理應用，讓你和團隊能快速方便地分享程式碼片段。基於 GitHub Gists 基礎建設，意味著你可以使用所有功能。
+- [GustavoASC/google-drive-vscode](https://github.com/GustavoASC/google-drive-vscode) - VSCode 整合 Google Drive™ 的擴充
+- [liupan1890/aliyunpan](https://github.com/liupan1890/aliyunpan) - 阿里雲盤小白羊版  阿里雲盤PC版 aliyundriver
+- [Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo) - :rocket: 一款由 vue-cli-electron-builder 構建的簡單美觀的圖片上傳工具
+- [XPoet/picx](https://github.com/XPoet/picx) - 🏞️ PicX 是一款基於 GitHub API 開發的圖床工具，提供圖片上傳託管、生成圖片鏈接和常用圖片工具箱服務。
+- [Actions-R-Us/actions-tagger](https://github.com/Actions-R-Us/actions-tagger) - 讓你的 Action 版本保持最新的元動作 :rocket:
+- [Ajaxy/telegram-tt](https://github.com/Ajaxy/telegram-tt) - Telegram Web A，GPL v3
+- [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) - 虛擬白板，適合手繪風格圖表
+- [nglviewer/ngl](https://github.com/nglviewer/ngl) - WebGL 蛋白質檢視器
+- [mjswensen/themer](https://github.com/mjswensen/themer) - 🎨 themer 依據一組顏色為你的應用程式（編輯器、終端、桌布等）產生主題。
+- [Binaryify/OneDark-Pro](https://github.com/Binaryify/OneDark-Pro) - Atom 經典 One Dark 主題的 Visual Studio Code 版本
+- [ritwickdey/vscode-create-file-folder](https://github.com/ritwickdey/vscode-create-file-folder) - 一個幫你以 Atom 風格在 VSCode 創建檔案和資料夾的小型擴充。
+- [whyour/qinglong](https://github.com/whyour/qinglong) - 支援 Python3、JavaScript、Shell、Typescript 的定時任務管理平台
+- [johnpapa/vscode-peacock](https://github.com/johnpapa/vscode-peacock) - 微妙地改變你的 Visual Studio Code 工作區顏色。當你開多個 VS Code 實例、使用 VS Live Share 或遠端功能時，便於快速識別。
+- [morethanwords/tweb](https://github.com/morethanwords/tweb) - Telegram Web K，GPL v3
+- [gitkraken/vscode-gitlens](https://github.com/gitkraken/vscode-gitlens) - 讓 VS Code 中的 Git 功能更強大，並釋放每個倉庫中的潛在知識 —— 透過 Git 責任註解和 CodeLens 快速視覺化程式碼作者，無縫導航和探索 Git 歷史。
+- [carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji) - 為你的提交訊息提供 emoji 指南。😜
+- [NotionX/react-notion-x](https://github.com/NotionX/react-notion-x) - 快速且精確的 Notion React 渲染器。內建 TS 支援。⚡️
+- [Shywim/github-repo-size](https://github.com/Shywim/github-repo-size) - 一款顯示 Github 倉庫大小的 Firefox 附加元件。
+- [streetsidesoftware/vscode-spell-checker](https://github.com/streetsidesoftware/vscode-spell-checker) - 程式碼的簡易拼字檢查器
+- [brianlovin/figma-dominant-color-toolkit](https://github.com/brianlovin/figma-dominant-color-toolkit) - 從圖片產生調色盤，神奇地填充你的設計。
+- [transitive-bullshit/nextjs-notion-starter-kit](https://github.com/transitive-bullshit/nextjs-notion-starter-kit) - 只需幾分鐘，使用 Next.js 和 Vercel 部署你自己的 Notion 驅動網站。
+- [spencerwooo/onedrive-vercel-index](https://github.com/spencerwooo/onedrive-vercel-index) - 基於 Vercel 和 Next.js 的 OneDrive 公開目錄索引
+- [doki-theme/doki-theme-vscode](https://github.com/doki-theme/doki-theme-vscode) - VS-Code 的可愛動漫主題
+- [frencojobs/vscode-notion](https://github.com/frencojobs/vscode-notion) - 直接在 Visual Studio Code 中瀏覽 Notion 頁面
+- [lostintangent/gistpad](https://github.com/lostintangent/gistpad) - 📘 用於管理和分享 GitHub Gists 程式碼片段、筆記和互動範例的 VS Code 擴充
+- [material-extensions/vscode-material-icon-theme](https://github.com/material-extensions/vscode-material-icon-theme) - VS Code 的 Material Design 圖示主題
+- [lokalise/i18n-ally](https://github.com/lokalise/i18n-ally) - 🌍 VS Code 全能 i18n 擴充
+- [vscode-icons/vscode-icons](https://github.com/vscode-icons/vscode-icons) - Visual Studio Code 的圖示套件
+- [Authenticator-Extension/Authenticator](https://github.com/Authenticator-Extension/Authenticator) - Authenticator 在瀏覽器中生成兩步驗證碼。
+- [samuelmaddock/metastream](https://github.com/samuelmaddock/metastream) - 與朋友一起觀看串流媒體。
+- [swdotcom/swdc-vscode](https://github.com/swdotcom/swdc-vscode) - Visual Studio Code 的時間追蹤插件
+- [oderwat/vscode-indent-rainbow](https://github.com/oderwat/vscode-indent-rainbow) - 用彩虹背景顯示縮排，使其更易讀
+- [CoenraadS/Bracket-Pair-Colorizer-2](https://github.com/CoenraadS/Bracket-Pair-Colorizer-2) - VSCode 括號配對著色擴充
+- [YXL76/cloudmusic-vscode](https://github.com/YXL76/cloudmusic-vscode) - VS Code 的網易雲音樂
+- [desktop/desktop](https://github.com/desktop/desktop) - 專注於重要事務，而不是與 Git 纏鬥。
+- [withfig/autocomplete](https://github.com/withfig/autocomplete) - 為你的終端與 Shell 帶來 IDE 風格的自動補全
+- [rid9/DateTime](https://github.com/rid9/DateTime) - Visual Studio Code 狀態列上的日期與時間資訊
+- [omgovich/colord](https://github.com/omgovich/colord) - 👑 小巧而強大的高效能顏色處理與轉換工具
+- [microsoft/vscode-sublime-keybindings](https://github.com/microsoft/vscode-sublime-keybindings) - VS Code 的 Sublime Text 快捷鍵映射擴充
+- [triggerjs/trigger](https://github.com/triggerjs/trigger) - 用 HTML 屬性和 CSS 變數創建基於滾動的動畫庫。
+- [Eugeny/tabby](https://github.com/Eugeny/tabby) - 為現代時代打造的終端機
+- [Vanessa219/vditor](https://github.com/Vanessa219/vditor) - ♏ 一款瀏覽器端的 Markdown 編輯器，支援所見即所得（富文本）、即時渲染（類 Typora）與分屏預覽模式。
+- [Yqnn/svg-path-editor](https://github.com/Yqnn/svg-path-editor) - 在線 SVG 路徑編輯與操作工具
+- [daltonmenezes/aura-theme](https://github.com/daltonmenezes/aura-theme) - ✨ 你最愛應用程式的美麗深色主題。
+- [pawelgrzybek/snippet-generator](https://github.com/pawelgrzybek/snippet-generator) - Visual Studio Code、Sublime Text 和 Atom 的程式碼片段生成器
+- [robertying/learnX](https://github.com/robertying/learnX) - 清華大學網路學堂 App，以 React Native 構建。App for Tsinghua University Web Learning, developed with React Native. ⚛️
+- [microsoft/vscode](https://github.com/microsoft/vscode) - Visual Studio Code
+- [refined-github/refined-github](https://github.com/refined-github/refined-github) - :octocat: 精簡 GitHub 介面並新增實用功能的瀏覽器擴充
+- [reruin/sharelist](https://github.com/reruin/sharelist) - 快速分享 GoogleDrive OneDrive
+- [dendronhq/dendron](https://github.com/dendronhq/dendron) - 隨你成長的個人知識管理（PKM）工具！
+- [foambubble/foam](https://github.com/foambubble/foam) - VSCode 的個人知識管理與分享系統
+- [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) - 注重隱私、自託管、完全開源的個人知識管理軟體，使用 typescript 和 golang 編寫。
+- [Ashutosh00710/github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph) - 動態生成的圖表，顯示你過去 31 天的 GitHub 活動。
+- [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) - 🧡 Everything is RSSible
+- [the1812/Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved) - 強大的嗶哩嗶哩增強腳本
+- [darkreader/darkreader](https://github.com/darkreader/darkreader) - Chrome 和 Firefox 的 Dark Reader 擴充
+- [ankit/stylebot](https://github.com/ankit/stylebot) - 立即改變網頁外觀
+## VBA 
+
+- [Jonathan-LeRoux/IguanaTex](https://github.com/Jonathan-LeRoux/IguanaTex) - 一個 PowerPoint 外掛，能在 Windows 和 Mac 上將 LaTeX 方程式插入到 PowerPoint 簡報中。
+
+## VBScript 
+
+- [bugfan/i996](https://github.com/bugfan/i996) - 免費、免搭建、免安裝的內網穿透、SSL 證書簽發、遠端辦公、居家辦公工具，方便調試微信小程序（客戶端無需安裝任何程式，拿來即用），類似於 natapp、ngrok。
+
+## Vala 
+
+- [birros/web-archives](https://github.com/birros/web-archives) - 一款網頁檔案閱讀器
+- [teejee2008/timeshift](https://github.com/teejee2008/timeshift) - Linux 的系統還原工具。利用 rsync+硬連結或 BTRFS 快照建立檔案系統快照。支援排程快照、多層級備份以及排除過濾器。快照可還原。
+
+## Vim Script 
+
+- [int32bit/dotfiles](https://github.com/int32bit/dotfiles) - 一組 vim、zsh、git 和 tmux 的設定檔案。
+- [mashirozx/Pixiv-Nginx](https://github.com/mashirozx/Pixiv-Nginx) - P站（Pixiv）的正確打開方式
+- [jbranchaud/til](https://github.com/jbranchaud/til) - :memo: Today I Learned
+- [junegunn/vim-plug](https://github.com/junegunn/vim-plug) - :hibiscus: 極簡主義的 Vim 插件管理器
+- [joshdick/onedark.vim](https://github.com/joshdick/onedark.vim) - 一個受 Atom 的 One Dark 語法主題啟發的深色 Vim/Neovim 色彩主題。
+- [albert12132/dotfiles](https://github.com/albert12132/dotfiles) - 
+- [mattn/vim-gist](https://github.com/mattn/vim-gist) - Gist 的 Vim 插件
+- [amix/vimrc](https://github.com/amix/vimrc) - 終極 Vim 配置（vimrc）
+- [neovim/neovim](https://github.com/neovim/neovim) - 著重於可擴展性和易用性的 Vim 分支
+## Visual Basic .NET 
+
+- [PeterStrick/ViVeTool-GUI](https://github.com/PeterStrick/ViVeTool-GUI) - 基於 ViVe / ViVeTool 的 Windows 功能控制圖形介面
+- [ChrisAnd1998/TaskbarX](https://github.com/ChrisAnd1998/TaskbarX) - 以多種動畫和選項將 Windows 工作列圖示置中。
+
+## Vue 
+
+- [Sjj1024/PakePlus](https://github.com/Sjj1024/PakePlus) - 只需幾分鐘即可輕鬆將任意網站/Vue/React 等專案構建為輕量級（小於 5M）多端桌面應用和手機應用。Turn any webpage/Vue/React and so on into desktop and mobile app under 5M with easy in few minutes. https://ppofficial.netlify.app
+- [Ackites/hidden-word](https://github.com/Ackites/hidden-word) - 基於 Unicode 的文字數位浮水印工具，用於在文字內容中嵌入隱形版權標記和中繼資料。
+- [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) - 最佳 IP 工具箱。輕鬆查詢你的 IP、IP 地理位置、DNS 洩漏檢查、WebRTC 連線檢查、速度測試、Ping 測試、MTR 測試、網站可用性檢查、whois 查詢等更多功能！
+- [zyronon/douyin](https://github.com/zyronon/douyin) - Vue3 + Pinia 仿抖音，Vue 在移動端的最佳實踐。Imitate TikTok，Vue Best practices on Mobile
+- [GUI-for-Cores/GUI.for.Clash](https://github.com/GUI-for-Cores/GUI.for.Clash) - 由 vue3 + wails 開發的圖形介面程式。
+- [dullage/flatnotes](https://github.com/dullage/flatnotes) - 一款自託管、無需資料庫的筆記網頁應用，採用 markdown 檔案夾作為儲存方式。
+- [TangSY/echarts-map-demo](https://github.com/TangSY/echarts-map-demo) - 適用於 echarts、QGIS 等地圖 geoJson 行政區劃邊界數據的即時獲取與應用，json 格式數據，全國省市區縣多級聯動下鑽，真正意義的下鑽至縣級【附最新全國省市區縣鄉鎮三級或四級城市 geoJson 檔案下載，另可下載四級聯動或五級（村級）行政編碼對應關係】
+- [hackun666/chat-easy](https://github.com/hackun666/chat-easy) - ChatGPT vue.js 範例
+- [weekend-project-space/chatgpt-online](https://github.com/weekend-project-space/chatgpt-online) - chatgpt-online，一鍵部署你的 chatgpt 頁面，無需翻牆
+- [weekend-project-space/chatgpt-chrome-extension](https://github.com/weekend-project-space/chatgpt-chrome-extension) - chatgpt-chrome-extension
+- [Paul-Gy/SessionShare](https://github.com/Paul-Gy/SessionShare) - 輕鬆用單一連結多次分享檔案！使用 Vue.js 在 Cloudflare Workers 上構建，結合 Durable Objects、R2 和 Cloudflare Pages。
+- [OBKoro1/stop-mess-around](https://github.com/OBKoro1/stop-mess-around) - 自律 Chrome 瀏覽器插件：幫助你戒掉上班/學習期間下意識在瀏覽器打開知乎等網站的習慣，常常一看就是幾個小時過去了，插件會自動檢測摸魚網站，提示激勵資訊後，關閉摸魚網站。
+- [tailwindcomponents/gradient-generator](https://github.com/tailwindcomponents/gradient-generator) - 使用 Vue JS、Vite 和 Tailwind CSS 製作的 Tailwind 漸層生成器
+- [nicejade/markdown2png](https://github.com/nicejade/markdown2png) - 玉桃文饗軒🍑，專業的文本轉圖片工具。一鍵將 Markdown 轉換為精美圖片，支援書摘模式、自訂主題、字體和背景。所有資料本地處理保障隱私安全，完美適配多端展示。讓文章分享、讀書筆記、社交傳播更有格調。基於 Vue3、Vite、Pinia、TailwindCSS、TypeScript 等技術棧構建。
+- [doocs/md](https://github.com/doocs/md) - ✍ 微信 Markdown 編輯器 | 一款高度簡潔的微信 Markdown 編輯器：支援 Markdown 語法、自訂主題樣式、內容管理、多圖床、AI 助手等特性
+- [betterRunner/context-note](https://github.com/betterRunner/context-note) - 一款筆記型 Chrome 擴充套件：在網頁上帶著上下文地做筆記。
+- [realByg/cfworker-kv-image-hosting](https://github.com/realByg/cfworker-kv-image-hosting) - Cloudflare workers KV 圖床
+- [lpssss/THUeat--Frontend](https://github.com/lpssss/THUeat--Frontend) - 清華大學食堂 App
+- [m0ngr31/DailyNotes](https://github.com/m0ngr31/DailyNotes) - 每日筆記與任務追蹤應用
+- [massCodeIO/massCode](https://github.com/massCodeIO/massCode) - 一款免費且開源的程式碼片段管理工具
+- [chaos-zhu/easynode](https://github.com/chaos-zhu/easynode) - 一個多功能 Linux 伺服器 WEB 終端面板（webSSH&webSFTP）。更新通知 TG：
+- [tipsy/profile-summary-for-github](https://github.com/tipsy/profile-summary-for-github) - 用於可視化 GitHub 個人檔案的工具
+- [lzdyes/douyin-downloader](https://github.com/lzdyes/douyin-downloader) - 使用 tauri 構建的跨平台抖音影片下載工具
+- [5aaee9/Dnsflare](https://github.com/5aaee9/Dnsflare) - 編輯 cloudflare 網域 DNS 設定
+- [Idered/chalk.ist](https://github.com/Idered/chalk.ist) - 📷 創建你的原始碼美圖
+- [manuelernestog/weektodo](https://github.com/manuelernestog/weektodo) - WeekToDo 是一款免費且開源的極簡主義每週計劃與待辦事項應用，專注於隱私。適用於 Windows、Mac、Linux 或線上使用。
+- [YunYouJun/cook](https://github.com/YunYouJun/cook) - 🍲 好的，今天我們來做菜！OK, Let's Cook!
+- [Jrohy/webssh](https://github.com/Jrohy/webssh) - 簡易線上終端與 sftp 工具
+- [requarks/wiki](https://github.com/requarks/wiki) - Wiki.js | 基於 Node.js 構建的現代化強大 Wiki 應用
+- [yddeng/amp](https://github.com/yddeng/amp) - 自動化管理平台：計劃任務、程序控制、程序監控告警
+- [surmon-china/surmon.me](https://github.com/surmon-china/surmon.me) - 🌱 我的數位精舍，由我自己驅動。
+- [xjh22222228/boomb](https://github.com/xjh22222228/boomb) - 💣 輕鬆管理您的 Github 圖庫。基於 Github 輕鬆管理您的存儲圖庫
+- [CareyWang/sub-web](https://github.com/CareyWang/sub-web) - 
+- [5ime/vue-page](https://github.com/5ime/vue-page) - vue 短視頻／圖集去浮水印解析頁面
+- [dhanyn10/multiple-file-manager](https://github.com/dhanyn10/multiple-file-manager) - 檔案管理應用。你可以根據條件批量重命名或刪除檔案，支援 Windows 和 Linux。
+- [Codennnn/vue-color-avatar](https://github.com/Codennnn/vue-color-avatar) - 一個純前端實現的頭像生成網站 | An online avatar generator just for fun
+- [JakHuang/form-generator](https://github.com/JakHuang/form-generator) - :sparkles:Element UI 表單設計及程式碼生成器
+- [KeziahMoselle/export-github-stars](https://github.com/KeziahMoselle/export-github-stars) - 檢視／排序／匯出你標記星號的倉庫。
+- [WebCrateApp/webcrate](https://github.com/WebCrateApp/webcrate) - 📦🔗 用 WebCrate 組織你的網頁，一款現代且美觀的書籤管理工具
+- [leon-kfd/Dashboard](https://github.com/leon-kfd/Dashboard) - 由多種可配置元件自訂你的個人瀏覽器起始頁。
+- [xiaoluoboding/skylines](https://github.com/xiaoluoboding/skylines) - 我的 GitHub 故事 3D。以 3D 模型方式查看你的 GitHub 貢獻圖。
+- [luyuhuang/DWords2](https://github.com/luyuhuang/DWords2) - 把單詞變成螢幕上的彈幕來幫助你記住它們 | Show words as Danmaku on the screen to help you memorize them
+- [qier222/YesPlayMusic](https://github.com/qier222/YesPlayMusic) - 高顏值的第三方網易雲播放器，支援 Windows / macOS / Linux :electron:
+- [vuepress-reco/vuepress-theme-reco-1.x](https://github.com/vuepress-reco/vuepress-theme-reco-1.x) - 🎨 這是 vuepress-theme-reco 1 的倉庫。
+## 授權
+
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+在法律允許的範圍內，[erbanku](https://github.com/erbanku) 已放棄本作品的所有版權及相關或鄰接權利。
+
+
+
+---
+
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-11
+
+---

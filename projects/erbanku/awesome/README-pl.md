@@ -1,0 +1,2266 @@
+<!--lint disable awesome-contributing awesome-license awesome-list-item match-punctuation no-repeat-punctuation no-undefined-references awesome-spell-check-->
+# Awesome Stars [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
+
+> Starannie dobrana lista moich gwiazdek na GitHubie! Wygenerowano przez [starred](https://github.com/maguowei/starred).
+
+## Spis treści
+
+- [Adblock Filter List](#adblock-filter-list)
+- [AutoHotkey](#autohotkey)
+- [AutoIt](#autoit)
+- [Batchfile](#batchfile)
+- [Blade](#blade)
+- [C](#c)
+- [C#](#c#)
+- [C++](#c++)
+- [CSS](#css)
+- [Clojure](#clojure)
+- [CodeQL](#codeql)
+- [Common Lisp](#common-lisp)
+- [Crystal](#crystal)
+- [D](#d)
+- [Dart](#dart)
+- [Dockerfile](#dockerfile)
+- [EJS](#ejs)
+- [Elm](#elm)
+- [Erlang](#erlang)
+- [GDScript](#gdscript)
+- [Go](#go)
+- [HCL](#hcl)
+- [HTML](#html)
+- [Hack](#hack)
+- [Haskell](#haskell)
+- [Haxe](#haxe)
+- [Java](#java)
+- [JavaScript](#javascript)
+- [Jinja](#jinja)
+- [Julia](#julia)
+- [Jupyter Notebook](#jupyter-notebook)
+- [Kotlin](#kotlin)
+- [LLVM](#llvm)
+- [Lua](#lua)
+- [MATLAB](#matlab)
+- [MDX](#mdx)
+- [Makefile](#makefile)
+- [Markdown](#markdown)
+- [Mermaid](#mermaid)
+- [Meson](#meson)
+- [Objective-C](#objective-c)
+- [Inne](#others)
+- [PHP](#php)
+- [PLpgSQL](#plpgsql)
+- [Pascal](#pascal)
+- [Perl](#perl)
+- [PostScript](#postscript)
+- [PowerShell](#powershell)
+- [Python](#python)
+- [QML](#qml)
+- [R](#r)
+- [Rich Text Format](#rich-text-format)
+- [Roff](#roff)
+- [Ruby](#ruby)
+- [Rust](#rust)
+- [SCSS](#scss)
+- [SVG](#svg)
+- [Shell](#shell)
+- [Stylus](#stylus)
+- [Svelte](#svelte)
+- [Swift](#swift)
+- [TeX](#tex)
+- [TypeScript](#typescript)
+- [VBA](#vba)
+- [VBScript](#vbscript)
+- [Vala](#vala)
+- [Vim Script](#vim-script)
+- [Visual Basic .NET](#visual-basic-.net)
+- [Vue](#vue)
+
+## Lista filtrów Adblock
+
+- [neodevpro/neodevhost](https://github.com/neodevpro/neodevhost) - Potężne, przyjazne i aktualne hosty blokujące reklamy  最新强大而友善的去广告
+- [uBlockOrigin/uAssets](https://github.com/uBlockOrigin/uAssets) - Listy filtrów dla uBlock Origin & uBlock Origin Lite
+
+## AutoHotkey
+
+- [raeleus/AHK-Macro-Recorder](https://github.com/raeleus/AHK-Macro-Recorder) - Skrypt AutoHotkey umożliwiający nagrywanie makr
+- [marius-sucan/KeyPress-OSD](https://github.com/marius-sucan/KeyPress-OSD) - Ten program to ekranowy wyświetlacz klawiszy (On-Screen Display lub Heads-Up Display). Wyświetla każde naciśnięcie klawisza w wyraźnie widocznym rozmiarze tekstu. Został opracowany dla osób z problemami ze wzrokiem. Ma na celu ułatwienie pracy przy biurku.
+- [AutoHotkey/Ahk2Exe](https://github.com/AutoHotkey/Ahk2Exe) - Oficjalny kompilator skryptów AutoHotkey - napisany w AutoHotkey
+
+## AutoIt
+
+- [rcmaehl/MSEdgeRedirect](https://github.com/rcmaehl/MSEdgeRedirect) - Narzędzie do przekierowywania wiadomości, wyszukiwania, widżetów, pogody i innych do Twojej domyślnej przeglądarki
+
+## Batchfile
+
+- [K3V1991/APK-Bundle-Installer](https://github.com/K3V1991/APK-Bundle-Installer) - Skrypt wsadowy umożliwiający instalację pakietów APK/Split APKs
+- [erbanku/cactusium-win](https://github.com/erbanku/cactusium-win) - Fork Chromium dla Windows nazwany od pierwiastka promieniotwórczego nr 90; kompilacje Windows projektu https://github.com/Alex313031/Thorium
+- [Alex313031/Thorium-Win](https://github.com/Alex313031/Thorium-Win) - Fork Chromium dla Windows nazwany od pierwiastka promieniotwórczego nr 90; kompilacje Windows projektu https://github.com/Alex313031/Thorium
+- [JimmyJLNU/SuperHosts](https://github.com/JimmyJLNU/SuperHosts) - Jak uzyskać dostęp do projektów Wikimedia (Virtual hosts)
+- [xinggsf/Adblock-Plus-Rule](https://github.com/xinggsf/Adblock-Plus-Rule) - Reguły filtrowania reklam 乘风 dla uBlock Origin
+- [erbanku/custom-search-engines-backup](https://github.com/erbanku/custom-search-engines-backup) - Import/eksport niestandardowych wyszukiwarek Google Chrome lub Microsoft Edge oraz synchronizacja (nadpisywanie) między 2 przeglądarkami.
+## Blade 
+
+- [lsky-org/lsky-pro](https://github.com/lsky-org/lsky-pro) - ☁️兰空图床(Lsky Pro) - Twój album zdjęć w chmurze.
+- [Qoraiche/laravel-mail-editor](https://github.com/Qoraiche/laravel-mail-editor) - MailEclipse :zap: Edytor wiadomości e-mail dla Laravel
+
+## C 
+
+- [kingToolbox/WindTerm](https://github.com/kingToolbox/WindTerm) - Profesjonalny, wieloplatformowy terminal SSH/Sftp/Shell/Telnet/Tmux/Serial.
+- [stefansundin/superf4](https://github.com/stefansundin/superf4) - :file_folder: Natychmiastowe zabijanie programów za pomocą Ctrl+Alt+F4. (Windows)
+- [wherewhere/Windows-Loopback-Exemption-Manager](https://github.com/wherewhere/Windows-Loopback-Exemption-Manager) - GUI do włączania wyjątków pętli zwrotnej dla Uniwersalnych Aplikacji Windows oraz aplikacji Modern UI Windows 8, 8.1, 10.
+- [Yutaka-Sawada/MultiPar](https://github.com/Yutaka-Sawada/MultiPar) - Narzędzie Parchive
+- [aleksey-hoffman/sigma-file-manager](https://github.com/aleksey-hoffman/sigma-file-manager) - "Sigma File Manager" to darmowy, otwartoźródłowy, szybko rozwijający się, nowoczesny menedżer plików (eksplorator/przeglądarka) dla Windows i Linux.
+- [Excitablecell/GEARdrones](https://github.com/Excitablecell/GEARdrones) - GEARdrones to lekki system sterowania dronami i lokalizacji multiagentowej, łączący kontroler lotu, algorytm względnej lokalizacji UWB oraz monitor oprogramowania.
+- [openssl/openssl](https://github.com/openssl/openssl) - Biblioteka TLS/SSL i kryptograficzna
+- [curl/curl](https://github.com/curl/curl) - Narzędzie wiersza poleceń i biblioteka do przesyłania danych z użyciem składni URL, obsługująca DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, S
+- [flatpak/flatpak](https://github.com/flatpak/flatpak) - Sandboxing i dystrybucja aplikacji dla Linuksa
+- [ish-app/ish](https://github.com/ish-app/ish) - Powłoka Linuksa na iOS
+- [pbatard/rufus](https://github.com/pbatard/rufus) - Niezawodne narzędzie do formatowania USB
+- [seclab-ucr/INTANG](https://github.com/seclab-ucr/INTANG) - 
+- [git/git](https://github.com/git/git) - Mirror kodu źródłowego Git - To repozytorium jest tylko do publikacji, ale pull requesty mogą być zamienione na poprawki do listy mailingowej za pomocą GitGitGadget (https://gitgitgadget.github.io/). Proszę postępować zgodnie z dokumentacją
+- [FreeRDP/FreeRDP](https://github.com/FreeRDP/FreeRDP) - FreeRDP to darmowa biblioteka protokołu zdalnego pulpitu oraz klienci
+- [ahrm/sioyek](https://github.com/ahrm/sioyek) - Sioyek to przeglądarka PDF skupiona na podręcznikach i pracach naukowych
+- [erbanku/tpnm-thu](https://github.com/erbanku/tpnm-thu) - 2022 Technologia i praktyka niekonwencjonalnej obróbki - Pliki środowiska Raspberry Pi (Zespół Hello World)
+- [sumatrapdfreader/sumatrapdf](https://github.com/sumatrapdfreader/sumatrapdf) - Czytnik SumatraPDF
+- [NVIDIA/open-gpu-kernel-modules](https://github.com/NVIDIA/open-gpu-kernel-modules) - Źródła otwartego modułu jądra GPU NVIDIA dla Linuksa
+- [heiher/hev-socks5-tproxy](https://github.com/heiher/hev-socks5-tproxy) - Transparentny proxy socks5 (IPv4/IPv6/TCP/UDP)
+- [beordle/termtunnel](https://github.com/beordle/termtunnel) - Wieloplatformowe narzędzie tunelujące terminal
+- [rvaiya/warpd](https://github.com/rvaiya/warpd) - Modalny, sterowany klawiaturą wirtualny wskaźnik
+- [nginx/nginx](https://github.com/nginx/nginx) - Oficjalne repozytorium NGINX Open Source.
+- [torvalds/linux](https://github.com/torvalds/linux) - Drzewo źródłowe jądra Linuksa
+- [hashcat/hashcat](https://github.com/hashcat/hashcat) - Najszybsze i najbardziej zaawansowane narzędzie do odzyskiwania haseł na świecie
+- [microsoft/SysmonForLinux](https://github.com/microsoft/SysmonForLinux) - Sysmon dla Linuksa
+- [tats/w3m](https://github.com/tats/w3m) - w3m z Debiana: pager WWW z możliwością przeglądania
+- [git-for-windows/git](https://github.com/git-for-windows/git) - Fork Gita zawierający łatki specyficzne dla Windows.
+- [zhaojh329/rtty](https://github.com/zhaojh329/rtty) - 🐛 Uzyskaj dostęp do swojego terminala z dowolnego miejsca przez internet.
+- [vysheng/tg](https://github.com/vysheng/tg) - telegram-cli
+- [apache/httpd](https://github.com/apache/httpd) - Mirror serwera Apache HTTP. Zgłoszenia: http://issues.apache.org
+- [openwrt/openwrt](https://github.com/openwrt/openwrt) - To repozytorium jest lustrzanym odbiciem https://git.openwrt.org/openwrt/openwrt.git Służy wyłącznie do odniesienia i nie jest aktywne dla commitów. Nadal będziemy akceptować tutaj Pull Requesty. Będą one scalane
+- [pyrogram/tgcrypto](https://github.com/pyrogram/tgcrypto) - Szybka i przenośna biblioteka rozszerzeń kryptograficznych dla Pyrogram
+- [haiwen/seafile](https://github.com/haiwen/seafile) - Wydajne narzędzie do synchronizacji i udostępniania plików, z edytorem Markdown WYSIWYG, Wiki, etykietami plików i innymi funkcjami zarządzania wiedzą.
+- [FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg) - Mirror https://git.ffmpeg.org/ffmpeg.git
+- [expressvpn/lightway-core](https://github.com/expressvpn/lightway-core) - Lightway Core to nowoczesny protokół VPN firmy ExpressVPN, zapewniający szybsze, bezpieczniejsze i bardziej niezawodne połączenie VPN.
+- [rainmeter/rainmeter](https://github.com/rainmeter/rainmeter) - Narzędzie do personalizacji pulpitu dla Windows
+- [obsproject/obs-studio](https://github.com/obsproject/obs-studio) - OBS Studio - Darmowe i otwartoźródłowe oprogramowanie do transmisji na żywo i nagrywania ekranu
+## C# # 
+
+- [UnigramDev/Unigram](https://github.com/UnigramDev/Unigram) - Telegram dla Windows
+- [IT-HaoGe/Windows-Update-Delayer](https://github.com/IT-HaoGe/Windows-Update-Delayer) - ITHaoGe Windows Update Delayer dla Win11/10，IT豪哥 komputerowy pauzator aktualizacji, szybkie wstrzymywanie aktualizacji systemu Windows11/10
+- [hellzerg/optimizer](https://github.com/hellzerg/optimizer) - Najlepszy optymalizator Windows
+- [thebookisclosed/ViVe](https://github.com/thebookisclosed/ViVe) - Biblioteka C# i aplikacja konsolowa do korzystania z nowych API kontroli funkcji dostępnych w Windows 10 wersja 2004 i nowszych
+- [xhnbzdl/feishu-doc-export](https://github.com/xhnbzdl/feishu-doc-export) - Usługa eksportu dokumentów Feishu
+- [abpframework/abp](https://github.com/abpframework/abp) - Otwarty framework aplikacji webowych dla ASP.NET Core! Oferuje opiniotwórczą architekturę do budowy rozwiązań dla przedsiębiorstw z najlepszymi praktykami na bazie .NET. Zapewnia podstawową infrastrukturę
+- [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) - Wolny system multimedialny - Backend serwera i API
+- [boy1dr/SpleeterGui](https://github.com/boy1dr/SpleeterGui) - Nakładka na Spleeter na Windows - AI separacja źródeł dźwięku
+- [Berrysoft/TsinghuaNet](https://github.com/Berrysoft/TsinghuaNet) - Wstrzymany rozwój, patrz projekt tunet-rust. Klient sieci kampusowej Uniwersytetu Tsinghua, dla UWP, iOS, Android.
+- [mili-tan/ArashiDNS.Dekunua](https://github.com/mili-tan/ArashiDNS.Dekunua) - Znany menedżer serwerów DoH dla Windows 11 / Wbudowane znane narzędzie do zarządzania serwerami DoH dla Windows 11
+- [2dust/clashN](https://github.com/2dust/clashN) - Klient clash dla Windows, obsługa Mihomo
+- [zsh2401/AutumnBox](https://github.com/zsh2401/AutumnBox) - Graficzny toolbox ADB
+- [thufv/CMinor-Verifier](https://github.com/thufv/CMinor-Verifier) - Platforma laboratoryjna do kursu "Analiza i weryfikacja oprogramowania", wiosna 2022, Uniwersytet Tsinghua
+- [emrecancubukcu/Terrain-Decorator](https://github.com/emrecancubukcu/Terrain-Decorator) - Lekki edytor terenu dla unity3d
+- [imbushuo/EnergyStar](https://github.com/imbushuo/EnergyStar) - Aplikacja ustawiająca tryb SV2 Efficiency dla nieaktywnych i działających w tle aplikacji Windows
+- [0x5bfa/FluentHub](https://github.com/0x5bfa/FluentHub) - Stylowy i potężny klient GitHub na Windows
+- [FireCubeStudios/Protecc](https://github.com/FireCubeStudios/Protecc) - To protecc
+- [AxDSan/KeyPose](https://github.com/AxDSan/KeyPose) - Alternatywa dla 'Mouseposé' na Windows
+- [RaoHammas/Social-Space](https://github.com/RaoHammas/Social-Space) - Social Space to aplikacja pozwalająca otwierać aplikacje obok siebie i zapisywać przestrzenie robocze.
+- [ros/solidworks_urdf_exporter](https://github.com/ros/solidworks_urdf_exporter) - Eksporter SolidWorks do URDF
+- [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) - PowerShell dla każdego systemu!
+- [Rise-Software/Rise-Media-Player](https://github.com/Rise-Software/Rise-Media-Player) - Jeden odtwarzacz multimedialny dla wszystkiego, co posiadasz lub streamujesz; muzyka i wideo, online lub offline – Rise Media Player obsłuży wszystko. Piękny, natywny z najnowszym WinUI.
+- [rocksdanister/lively](https://github.com/rocksdanister/lively) - Darmowe oprogramowanie open-source pozwalające ustawić animowane tapety i wygaszacze ekranu napędzane przez WinUI 3.
+- [dremin/RetroBar](https://github.com/dremin/RetroBar) - Klasyczny pasek zadań z Windows 95, 98, Me, 2000, XP, Vista dla współczesnych wersji Windows
+- [lalakii/MouseClickTool](https://github.com/lalakii/MouseClickTool) - Prosty i wygodny klikacz myszki, mały rozmiar, dobra wydajność ~ klikacz myszki. Obecna wersja 14KB, wersja online (minimal) tylko 5KB. https://mouseclicktool.sourceforge.io
+- [dotnet/yarp](https://github.com/dotnet/yarp) - Zestaw narzędzi do tworzenia wydajnych aplikacji HTTP reverse proxy.
+- [proxysu/ProxySU](https://github.com/proxysu/ProxySU) - Xray, V2ray, Trojan, NaiveProxy, Trojan-Go, ShadowsocksR(SSR), Shadowsocks-libev i powiązane wtyczki, MTProto+TLS narzędzie do instalacji jednym kliknięciem, do naukowego surfowania pod Windows
+- [bitwarden/server](https://github.com/bitwarden/server) - Infrastruktura/back-end Bitwarden (API, baza danych, Docker, itd).
+- [QL-Win/QuickLook](https://github.com/QL-Win/QuickLook) - Przynosi funkcję "Quick Look" z macOS do Windows
+- [DinoChan/Loaf](https://github.com/DinoChan/Loaf) - 
+- [ShareX/ShareX](https://github.com/ShareX/ShareX) - ShareX to darmowa aplikacja open-source pozwalająca użytkownikom przechwytywać lub nagrywać dowolny obszar ekranu za pomocą jednego klawisza. Obsługuje także przesyłanie obrazów, tekstu i różnych typów plików
+- [shadowsocks/shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows) - Port shadowsocks w C#
+- [gheyret/UyghurEditPP](https://github.com/gheyret/UyghurEditPP) - Edytor tekstu z kontrolą pisowni dla języka ujgurskiego
+- [marian42/wavefunctioncollapse](https://github.com/marian42/wavefunctioncollapse) - Spaceruj po nieskończonym, proceduralnie generowanym mieście
+- [kenvix/USBCopyer](https://github.com/kenvix/USBCopyer) - 😉 Automatyczne kopiowanie plików z podłączonego pendrive'a na żądanie. "Narzędzie do backupu i kradzieży plików z USB" (pisane USBCopyer, czytane USBCopier)
+- [sttz/expresso](https://github.com/sttz/expresso) - expresso to interfejs wiersza poleceń do sterowania aplikacją ExpressVPN
+- [Azure/azure-powershell](https://github.com/Azure/azure-powershell) - Microsoft Azure PowerShell
+- [LimerBoy/Adamantium-Thief](https://github.com/LimerBoy/Adamantium-Thief) - :key: (KOD NIEAKTUALNY DLA NOWYCH WERSJI CHROME) Odszyfrowywanie haseł, ciasteczek, kart, historii, zakładek, autouzupełniania w przeglądarkach opartych o Chromium. Wersje > 80 obsługiwane.
+- [wakatime/notepadpp-wakatime](https://github.com/wakatime/notepadpp-wakatime) - Wtyczka Notepad++ do automatycznego śledzenia czasu i generowania metryk z aktywności programistycznej.
+- [wakatime/office-wakatime](https://github.com/wakatime/office-wakatime) - Dodatki Office Solution do automatycznego śledzenia czasu i metryk generowanych z aktywności programistycznej.
+- [microsoft/PowerToys](https://github.com/microsoft/PowerToys) - Narzędzia systemowe Windows zwiększające produktywność
+- [0x7c13/Notepads](https://github.com/0x7c13/Notepads) - Nowoczesny, lekki edytor tekstu o minimalistycznym designie.
+- [srwi/EverythingToolbar](https://github.com/srwi/EverythingToolbar) - Integracja Everything z paskiem zadań Windows.
+- [mpvnet-player/mpv.net](https://github.com/mpvnet-player/mpv.net) - 🎞 mpv.net to odtwarzacz multimedialny dla Windows z nowoczesnym GUI.
+- [ModuleArt/quick-picture-viewer](https://github.com/ModuleArt/quick-picture-viewer) - 🖼️ Lekka, wszechstronna przeglądarka obrazów dla Windows. Najlepszy zamiennik domyślnej przeglądarki zdjęć Windows.
+- [nilaoda/BBDown](https://github.com/nilaoda/BBDown) - Bilibili Downloader. Liniowy downloader do Bilibili.
+- [TGSAN/CMWTAT_Digital_Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition) - CloudMoe Windows 10/11 Activation Toolkit do uzyskiwania licencji cyfrowej, najlepszy open source aktywator Win 10/11 na GitHub. Najlepsze narzędzie open source do aktywacji licencji cyfrowych Win10/Win11 na GitHub!
+- [AutoDarkMode/Windows-Auto-Night-Mode](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode) - Automatyczna zmiana motywu ciemnego i jasnego w Windows 10 i Windows 11
+- [mili-tan/AuroraDNS.GUI](https://github.com/mili-tan/AuroraDNS.GUI) - Czysty antyzanieczyszczeniowy, prosty i lekki
+- [Richasy/BiliBili-UWP](https://github.com/Richasy/BiliBili-UWP) - Klient UWP BiliBili, oczywiście nieoficjalny
+- [BluePointLilac/ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager) - 🖱️ Czysty menedżer menu kontekstowego Windows
+- [Tichau/FileConverter](https://github.com/Tichau/FileConverter) - File Converter to bardzo proste narzędzie pozwalające konwertować i kompresować pliki z menu kontekstowego eksploratora Windows.
+- [Alkl58/NotEnoughAV1Encodes](https://github.com/Alkl58/NotEnoughAV1Encodes) - GUI dla AV1 (aomenc, rav1e & svt-av1)
+- [t1m0thyj/WinDynamicDesktop](https://github.com/t1m0thyj/WinDynamicDesktop) - Port funkcji Dynamic Desktop z macOS Mojave do Windows
+## C++ 
+
+- [zen-browser/desktop](https://github.com/zen-browser/desktop) - Witaj w spokojniejszym internecie
+- [Lymphatus/caesium-image-compressor](https://github.com/Lymphatus/caesium-image-compressor) - Caesium to oprogramowanie do kompresji obrazów, które pomaga przechowywać, wysyłać i udostępniać zdjęcia cyfrowe, obsługujące formaty JPG, PNG, WebP i TIFF.  Możesz szybko zmniejszyć rozmiar pliku (i rozdzielczość, jeśli y
+- [LANDrop/LANDrop](https://github.com/LANDrop/LANDrop) - Przesyłaj dowolne pliki na dowolne urządzenia w swojej sieci LAN.
+- [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) - Port modelu Whisper firmy OpenAI w C/C++
+- [KTStephano/StratusGFX](https://github.com/KTStephano/StratusGFX) - Silnik renderowania 3D w czasie rzeczywistym
+- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) - Wnioskowanie LLM w C/C++
+- [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all) - GPT4All: Uruchamiaj lokalne LLM-y na dowolnym urządzeniu. Otwarty kod źródłowy, dostępny do użytku komercyjnego.
+- [sainnhe/caj2pdf-qt](https://github.com/sainnhe/caj2pdf-qt) - Konwerter CAJ na PDF (wersja GUI)
+- [zhongyang219/TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor) - To oprogramowanie do wyświetlania bieżącej prędkości sieci, użycia CPU i pamięci na pulpicie, obsługuje wyświetlanie na pasku zadań oraz zmianę motywów.
+- [klzgrad/naiveproxy](https://github.com/klzgrad/naiveproxy) - Cicho się wzbogacaj
+- [zhaochenyang20/IAI_2022](https://github.com/zhaochenyang20/IAI_2022) - Wszystkie materiały do kursu AI 2022 na Twoim wydziale, od prac domowych po powtórki do egzaminu
+- [google-deepmind/code_contests](https://github.com/google-deepmind/code_contests) - 
+- [EdVince/Stable-Diffusion-NCNN](https://github.com/EdVince/Stable-Diffusion-NCNN) - Stable Diffusion w NCNN z użyciem c++, obsługuje txt2img i img2img
+- [ethereal-developers/OpenScan](https://github.com/ethereal-developers/OpenScan) - Skaner dokumentów chroniący Twoją prywatność
+- [aria2/aria2](https://github.com/aria2/aria2) - aria2 to lekki, wieloprotokołowy i wieloźródłowy, wieloplatformowy program do pobierania obsługiwany z wiersza poleceń. Obsługuje HTTP/HTTPS, FTP, SFTP, BitTorrent i Metalink.
+- [s3fs-fuse/s3fs-fuse](https://github.com/s3fs-fuse/s3fs-fuse) - System plików oparty na FUSE, korzystający z Amazon S3
+- [carbon-language/carbon-lang](https://github.com/carbon-language/carbon-lang) - Główne repozytorium języka Carbon: dokumenty, projekt, implementacja i narzędzia. (UWAGA: Carbon Language jest eksperymentalny; zobacz README)
+- [diegomacario/Animation-Magic](https://github.com/diegomacario/Animation-Magic) - Świetna wizualizacja całej matematyki stojącej za animacjami postaci 3D.
+- [ros-drivers/usb_cam](https://github.com/ros-drivers/usb_cam) - Sterownik ROS dla kamer USB V4L2
+- [0voice/cpp_new_features](https://github.com/0voice/cpp_new_features) - Najnowsze opracowanie z 2021 roku, materiały do nauki C++, obejmujące nowe funkcje C++ 11 / 14 / 17 / 20 / 23, samouczki, polecane książki, wartościowe artykuły, notatki, filmy edukacyjne itd.
+- [lzh12139/cpp-big-homework](https://github.com/lzh12139/cpp-big-homework) - Duży projekt w C++
+- [polybar/polybar](https://github.com/polybar/polybar) - Szybki i łatwy w użyciu pasek stanu
+- [cppla/ServerStatus](https://github.com/cppla/ServerStatus) - Chmurowy monitoring, monitoring wielu serwerów, demonstracja: https://tz.cloudcpp.com/
+- [robopeak/rplidar_ros](https://github.com/robopeak/rplidar_ros) - 
+- [LiquidAmmonia/BigAssignment-AHotelSystem](https://github.com/LiquidAmmonia/BigAssignment-AHotelSystem) - Duży projekt C++ na pierwszy rok studiów — system zarządzania hotelem (kod źródłowy)
+- [LoopholesInTheHeart/C-language-program-design-advanced-course-problem](https://github.com/LoopholesInTheHeart/C-language-program-design-advanced-course-problem) - Odpowiedzi do zaawansowanego kursu programowania w języku C++ na XuetangX
+- [openmm/openmm](https://github.com/openmm/openmm) - OpenMM to zestaw narzędzi do symulacji molekularnych z wykorzystaniem wysokowydajnego kodu GPU.
+- [microsoft/wslg](https://github.com/microsoft/wslg) - Umożliwia obsługę Wayland i X server w Windows Subsystem for Linux
+- [octobanana/peaclock](https://github.com/octobanana/peaclock) - Reagujący i konfigurowalny zegar, minutnik i stoper na terminal
+- [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) - Oficjalny kod źródłowy FreeCAD, darmowego i otwartoźródłowego, wieloplatformowego, parametrycznego modelera 3D.
+- [tindy2013/subconverter](https://github.com/tindy2013/subconverter) - Narzędzie do konwersji pomiędzy różnymi formatami subskrypcji
+- [zufuliu/notepad4](https://github.com/zufuliu/notepad4) - Notepad4 (Notepad2⨯2, Notepad2++) to lekki edytor tekstu dla Windows oparty na Scintilla z podświetlaniem składni, zwijaniem kodu, autouzupełnianiem i listą API dla wielu języków programowania i dokumentów
+- [WhitewaterFoundry/Fedora-Remix-for-WSL](https://github.com/WhitewaterFoundry/Fedora-Remix-for-WSL) - Fedora Remix dla Windows Subsystem for Linux.
+- [Mooophy/Cpp-Primer](https://github.com/Mooophy/Cpp-Primer) - Odpowiedzi do C++ Primer 5
+- [huangmingchuan/Cpp_Primer_Answers](https://github.com/huangmingchuan/Cpp_Primer_Answers) - Odpowiedzi do zadań z chińskiego wydania „C++ Primer” (piąte wydanie)
+- [xaxfan/Cpp_Primer_5th](https://github.com/xaxfan/Cpp_Primer_5th) - 📔  C++ Primer piąte wydanie
+- [vooidzero/B23Downloader](https://github.com/vooidzero/B23Downloader) - (Od dawna nieaktualizowane)
+- [TCNOco/TcNo-WSA-SimpleSideload](https://github.com/TCNOco/TcNo-WSA-SimpleSideload) - Otwieraj pliki .apk jednym kliknięciem w Windows 11
+- [ksinkar/ticpp2](https://github.com/ksinkar/ticpp2) - Thinking in C++ (Tom 2)
+- [ksinkar/ticpp1](https://github.com/ksinkar/ticpp1) - Thinking in C++ (Tom 1)
+- [lammps/lammps](https://github.com/lammps/lammps) - Publiczny projekt rozwojowy pakietu oprogramowania LAMMPS MD
+- [WerWolv/ImHex](https://github.com/WerWolv/ImHex) - 🔍 Edytor szesnastkowy dla inżynierów odwrotnych, programistów i tych, którzy cenią swoje oczy, pracując o 3 nad ranem.
+- [microsoft/WSL](https://github.com/microsoft/WSL) - Podsystem Windows dla systemu Linux
+- [AnkerLeng/Cpp-0-1-Resource](https://github.com/AnkerLeng/Cpp-0-1-Resource) - C++ dzieło rzemieślnicze — materiały od zera do jedynki
+- [hkneptune/FreeFileSync](https://github.com/hkneptune/FreeFileSync) - Kopia kodu źródłowego FreeFileSync. To repozytorium jest tylko lustrem kodu źródłowego FreeFileSync. Proszę nie wysyłać pull requestów. Zgłaszaj błędy na oficjalnym forum (https://freefilesync.org/fo
+- [blender/blender](https://github.com/blender/blender) - Oficjalne lustro Blender
+- [cnr-isti-vclab/meshlab](https://github.com/cnr-isti-vclab/meshlab) - Otwarty system do przetwarzania siatek
+- [rizinorg/cutter](https://github.com/rizinorg/cutter) - Darmowa i otwartoźródłowa platforma do inżynierii wstecznej oparta na rizin
+- [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) - Otwarty framework do uczenia maszynowego dla każdego
+- [M2Team/NanaZip](https://github.com/M2Team/NanaZip) - Pochodna 7-Zip stworzona z myślą o nowoczesnym doświadczeniu Windows
+- [acaudwell/Gource](https://github.com/acaudwell/Gource) - Wizualizacja kontroli wersji oprogramowania
+- [TranslucentTB/TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) - Lekki program sprawiający, że pasek zadań Windows staje się przezroczysty.
+- [notepad-plus-plus/notepad-plus-plus](https://github.com/notepad-plus-plus/notepad-plus-plus) - Oficjalne repozytorium Notepad++
+- [Chaoses-Ib/IbEverythingExt](https://github.com/Chaoses-Ib/IbEverythingExt) - Rozszerzenie Everything: wyszukiwanie po pinyin, rōmaji, szybki wybór
+- [AutoHotkey/AutoHotkey](https://github.com/AutoHotkey/AutoHotkey) - AutoHotkey — narzędzie do tworzenia makr i automatyzacji dla Windows.
+- [microsoft/terminal](https://github.com/microsoft/terminal) - Nowy terminal Windows oraz oryginalny host konsoli Windows, wszystko w jednym miejscu!
+- [microsoft/winget-cli](https://github.com/microsoft/winget-cli) - WinGet to Menedżer Pakietów Windows. Ten projekt obejmuje CLI (interfejs wiersza poleceń), moduły PowerShell oraz API COM (Component Object Model/Interfejs Programowania Aplikacji).
+## CSS 
+
+- [BingyanStudio/LapisCV](https://github.com/BingyanStudio/LapisCV) - 📄 Łatwe tworzenie CV za pomocą Markdown w VSCode / Typora / Obsidian
+- [Akifyss/obsidian-border](https://github.com/Akifyss/obsidian-border) - Motyw dla obsidian.md
+- [wozulong/ChatGPTAuthHelper](https://github.com/wozulong/ChatGPTAuthHelper) - Prosta wtyczka Chrome, która pomaga zalogować się do ChatGPT.
+- [OrangeX4/cheatsheets](https://github.com/OrangeX4/cheatsheets) - Strona z ściągawkami OrangeX4.
+- [h16nning/typora-gitbook-theme](https://github.com/h16nning/typora-gitbook-theme) - Motyw Typora inspirowany gitbook.com. Większość interfejsu użytkownika została odnowiona. Zawiera trzy warianty: dwa jasne i jeden ciemny.
+- [calcom/font](https://github.com/calcom/font) - Strona domowa naszej czcionki Cal Sans.
+- [missing-semester-cn/missing-semester-cn.github.io](https://github.com/missing-semester-cn/missing-semester-cn.github.io) - Chińska wersja brakującego semestru CS
+- [hehonghui/awesome-english-ebooks](https://github.com/hehonghui/awesome-english-ebooks) - Darmowe pobieranie anglojęzycznych czasopism: The Economist (z audio), The New Yorker, The Guardian, Wired, The Atlantic, itp. Obsługa formatów epub, mobi, pdf, cotygodniowe aktualizacje.
+- [Johnserf-Seed/TikTokWeb](https://github.com/Johnserf-Seed/TikTokWeb) - TikTokTool wersja internetowa
+- [hydescarf/Obsidian-Theme-Mado-Miniflow](https://github.com/hydescarf/Obsidian-Theme-Mado-Miniflow) - Piękny minimalistyczny motyw dla Obsidian.
+- [BobCoderS9/SSPanel-Metron](https://github.com/BobCoderS9/SSPanel-Metron) - Motyw SSPanel-Metron, obecnie rozwijany przez @Bobs9.
+- [nanxiaobei/hugo-paper](https://github.com/nanxiaobei/hugo-paper) - 🪺 Prosty, czysty, konfigurowalny motyw Hugo
+- [ChenYFan-Tester/IPFS_PHOTO_SHARE](https://github.com/ChenYFan-Tester/IPFS_PHOTO_SHARE) - 💰 Po co serwer? Zbuduj stronę do udostępniania zdjęć w ServerLess! | Strona do udostępniania zdjęć oparta na funkcjach bezserwerowych CloudFlareWorker i zdecentralizowanym magazynie IPFS
+- [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts) - Agregator, kolekcja i patcher kultowych czcionek. 3 600+ ikon, 50+ spatchowanych czcionek: Hack, Source Code Pro i inne. Kolekcje glifów: Font Awesome, Material Design Icons, Octicons i inne
+- [HanryYu/typora-blubook-theme](https://github.com/HanryYu/typora-blubook-theme) - Blubook, płaski motyw typora.
+- [nicejade/markdown-online-editor](https://github.com/nicejade/markdown-online-editor) - 📝 Edytor Markdown online oparty na Vue2, Vditor. Obsługuje rysowanie diagramów przepływu, wykresów Gantta, diagramów sekwencji, list zadań, wykresów Echarts, pięciolinii, podgląd PPT, analizę wideo i audio, automatyczną konwersję HTML do Markdown i inne funkcje. https://www.niceshare.site/
+- [liangjingkanji/DrakeTyporaTheme](https://github.com/liangjingkanji/DrakeTyporaTheme) - Dwanaście stylów motywów - Material Google JetBrains Vue Juejin Purple Ayu Dark
+- [stilleshan/dockerfiles](https://github.com/stilleshan/dockerfiles) - Nieregularnie zbierane, porządkowane i pisane pliki Dockerfile dla popularnych i przydatnych programów i usług.  https://docker.ioiox.com
+- [daenuprobst/terminus-theme-hype](https://github.com/daenuprobst/terminus-theme-hype) - Motyw Windows 10 dla Terminus
+- [hliu202/typora-purple-theme](https://github.com/hliu202/typora-purple-theme) - Fioletowy motyw dla Typora
+- [jtchen2k/typora-theme-next](https://github.com/jtchen2k/typora-theme-next) - Motyw dla Typora inspirowany motywem Hexo NexT.
+- [houshanren/hangzhou_house_knowledge](https://github.com/houshanren/hangzhou_house_knowledge) - Podsumowanie doświadczeń z kupna domu w 2017 roku. Dzielę się wiedzą na temat kupna domu, mam nadzieję, że będzie przydatna. Kupno domu nie jest łatwe, szanujcie swoje wybory. Sharing the knowledge of buy an own house that according  to the experience at hangzhou in 2017 to all the people. It's not easy to buy a own house, so I
+- [atom/one-dark-ui](https://github.com/atom/one-dark-ui) - Motyw Atom One dark UI
+- [Soanguy/typora-theme-autumnus](https://github.com/Soanguy/typora-theme-autumnus) - Motyw Typora dla języka chińskiego
+- [themepark-dev/theme.park](https://github.com/themepark-dev/theme.park) - Kolekcja motywów/skórek dla 50 aplikacji self-hosted!
+- [fslongjin/My-Easy-Pic-Bed](https://github.com/fslongjin/My-Easy-Pic-Bed) - Lekki program do przechowywania obrazów (image bed)
+- [msys2/msys2.github.io](https://github.com/msys2/msys2.github.io) - Strona główna MSYS2
+- [theme-nexmoe/hexo-theme-nexmoe](https://github.com/theme-nexmoe/hexo-theme-nexmoe) - 🔥 Specjalny motyw Hexo skupiający się na zdjęciach i obrazach. Obrazy opowiadają historie, a Nexmoe czyni je bardziej wyrazistymi.
+- [sweatran/typora-onedark-theme](https://github.com/sweatran/typora-onedark-theme) - Ciemny motyw dla Typora inspirowany motywem One Dark Pro z VSCode.
+- [ljosberinn/github-one-dark-vivid](https://github.com/ljosberinn/github-one-dark-vivid) - [Rozszerzenie do przeglądarki] zmienia wygląd kodu na GitHubie, by był jak najbardziej zbliżony do One Dark Vivid z Fira Code z VS Code, bazując na https://github.com/vovanmix/github-dark-theme
+- [blinkfox/typora-vue-theme](https://github.com/blinkfox/typora-vue-theme) - Motyw typora inspirowany stylem dokumentacji Vue. 一个类似于 Vue 文档风格的 Typora Markdown 编辑器主题。
+- [kevinzhao2233/typora-theme-pie](https://github.com/kevinzhao2233/typora-theme-pie) - Motyw typora inspirowany sspai.com i Misty. 一个typora主题，具有少数派和Misty的风格
+- [airyv/typora-theme-redrail](https://github.com/airyv/typora-theme-redrail) - Motyw typora inspirowany motywami pie i ursine. 一个typora主题，具有pie和ursine风格。
+- [Theigrams/My-Typora-Themes](https://github.com/Theigrams/My-Typora-Themes) - Styl CSS dla Typora
+- [itmeo/webgradients](https://github.com/itmeo/webgradients) - Starannie dobrana kolekcja pięknych gradientów wykonanych w CSS3, .sketch i .PSD.
+- [spicetify/spicetify-themes](https://github.com/spicetify/spicetify-themes) - Kolekcja motywów tworzonych przez społeczność do personalizacji Spotify przez Spicetify - https://github.com/spicetify/cli
+- [adobe-fonts/source-code-pro](https://github.com/adobe-fonts/source-code-pro) - Rodzina czcionek monospaced do interfejsów użytkownika i środowisk programistycznych
+- [vinceliuice/Fluent-gtk-theme](https://github.com/vinceliuice/Fluent-gtk-theme) - Motyw Fluent design gtk dla pulpitów Linux
+- [jesperkallunki/youtube](https://github.com/jesperkallunki/youtube) - 
+- [typora/theme.typora.io](https://github.com/typora/theme.typora.io) - Strona z motywami Typora
+- [mengkunsoft/lmbtfy](https://github.com/mengkunsoft/lmbtfy) - 🔍 Pozwól, że wygoogluję to za Ciebie. Let Me Baidu That For You
+- [treehollow/thuhole-index](https://github.com/treehollow/thuhole-index) - 
+## Clojure 
+
+- [tonsky/FiraCode](https://github.com/tonsky/FiraCode) - Darmowy font o stałej szerokości ze skrótami programistycznymi (ligaturami)
+- [logseq/logseq](https://github.com/logseq/logseq) - Platforma open source do zarządzania wiedzą i współpracy, stawiająca na prywatność. Link do pobrania:  http://github.com/logseq/logseq/releases. Mapa drogowa: http://trello.com/b/8txSM12G/roadmap
+
+## CodeQL 
+
+- [github/codeql](https://github.com/github/codeql) - CodeQL: biblioteki i zapytania zasilające badaczy bezpieczeństwa na całym świecie oraz skanowanie kodu w GitHub Advanced Security
+
+## Common Lisp 
+
+- [susam/mathb](https://github.com/susam/mathb) - Oprogramowanie pastebin dla matematyki, które zasilało MathB.in od 2012 do 2025
+
+## Crystal 
+
+- [phil294/AHK_X11](https://github.com/phil294/AHK_X11) - AutoHotkey dla Linuksa (systemy oparte na X11)
+
+## D 
+
+- [abraunegg/onedrive](https://github.com/abraunegg/onedrive) - Klient OneDrive dla Linuksa
+- [skilion/onedrive](https://github.com/skilion/onedrive) - Darmowy klient OneDrive na Linuksa
+## Dart 
+
+- [honmaple/maple-file](https://github.com/honmaple/maple-file) - Wieloprotokołowy, bezserwerowy menedżer plików i przesyłania do chmury / 无服务端的多协议云盘文件上传和管理APP
+- [chen08209/FlClash](https://github.com/chen08209/FlClash) - Wieloplatformowy klient proxy oparty na ClashMeta, prosty i łatwy w użyciu, open-source i bez reklam.
+- [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) - Nowoczesny menedżer pobierania obsługujący wszystkie platformy. Zbudowany w Golang i Flutter.
+- [Xiang-cd/THU-downloader](https://github.com/Xiang-cd/THU-downloader) - Narzędzie do masowego pobierania z Tsinghua Cloud Drive z interfejsem UI, masowego pobierania linków i maili, ułatwiające absolwentom transfer i backup danych z Tsinghua Cloud Drive oraz skrzynki mailowej.
+- [lijy91/biyi](https://github.com/lijy91/biyi) - Biyi (比译) to wygodna aplikacja tłumaczeniowa i słownikowa napisana we Flutterze.
+- [Kuingsmile/PicHoro](https://github.com/Kuingsmile/PicHoro) - Narzędzie do zarządzania chmurą/hostem obrazów i przesyłania/pobierania plików na telefonie, obsługujące bezpośrednie zarządzanie Webdav, Alist, SSH/SFTP, serwerami w chmurze, kompatybilne z S3 API, Tencent COS, Alibaba OSS, Qiniu Cloud, Upyun, Lsky Pro, Imgur, SM.MS i github.
+- [mulaRahul/keyviz](https://github.com/mulaRahul/keyviz) - Keyviz to darmowe i otwarte narzędzie do wizualizacji naciskanych klawiszy ⌨️ i ruchów myszy 🖱️ w czasie rzeczywistym.
+- [pd4d10/git-touch](https://github.com/pd4d10/git-touch) - Otwarta aplikacja na GitHub, GitLab, Bitbucket, Gitea i Gitee(码云), zbudowana we Flutterze.
+- [nfcim/nfsee](https://github.com/nfcim/nfsee) - Odczytuj swoje karty komunikacyjne/bankowe/identyfikacyjne na telefonie z Android/iOS za pomocą aplikacji NFSee.
+- [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) - Łącz projekty, wiki i zespoły z AI. AppFlowy to współdzielona przestrzeń robocza AI, w której osiągasz więcej bez utraty kontroli nad swoimi danymi. Wiodąca otwarta alternatywa dla Notion.
+- [deckerst/aves](https://github.com/deckerst/aves) - Aves to aplikacja-galeria i eksplorator metadanych, zbudowana na Androida we Flutterze.
+- [harmonoid/harmonoid](https://github.com/harmonoid/harmonoid) - 🎵 Odtwarza i zarządza Twoją biblioteką muzyczną. Wygląda pięknie i soczyście.
+
+## Dockerfile 
+
+- [tao12345666333/radicale](https://github.com/tao12345666333/radicale) - 
+- [easychen/chatchan-dist](https://github.com/easychen/chatchan-dist) - Niezależna wersja Chat酱 do wdrożenia, rozwiązanie docker z wbudowanym proxy
+- [alexbelgium/hassio-addons](https://github.com/alexbelgium/hassio-addons) - Moje dodatki do homeassistant
+- [albuild/snap](https://github.com/albuild/snap) - Snappy dla Amazon Linux 2
+- [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) - Przewodnik gotowania w domu dla programistów. Programmer's guide about how to cook at home (tylko po chińsku uproszczonym).
+## EJS 
+
+- [Fechin/reference](https://github.com/Fechin/reference) - ⭕ Udostępnij szybki arkusz referencyjny dla programistów.
+
+## Elm 
+
+- [hilverd/glossary-page-template](https://github.com/hilverd/glossary-page-template) - Jednostronicowy dokument HTML z wbudowanym edytorem do tworzenia glosariusza, który można hostować gdziekolwiek.
+
+## Erlang 
+
+- [emqx/emqx](https://github.com/emqx/emqx) - Najbardziej skalowalny i niezawodny broker MQTT dla AI, IoT, IIoT i pojazdów połączonych.
+
+## GDScript 
+
+- [mbrlabs/Lorien](https://github.com/mbrlabs/Lorien) - Aplikacja do rysowania/tablicy o nieskończonym płótnie na Windows, Linux i macOS. Stworzona w Godot.
+
+## Go 
+
+- [OpenListTeam/OpenList](https://github.com/OpenListTeam/OpenList) - Nowy fork AList w odpowiedzi na kryzys zaufania.
+- [samzong/mdctl](https://github.com/samzong/mdctl) - Narzędzie CLI zasilane AI do usprawniania pracy z Markdown, automatyczne pobieranie obrazów, tłumaczenia i więcej funkcji wkrótce!
+- [henrygd/beszel](https://github.com/henrygd/beszel) - Lekki hub monitorowania serwera z danymi historycznymi, statystykami dockera i alertami.
+- [jonssonyan/h-ui](https://github.com/jonssonyan/h-ui) - Tylko panel dla Hysteria2 / 仅仅是 Hysteria2 的面板
+- [bepass-org/warp-plus](https://github.com/bepass-org/warp-plus) - Warp+Psiphon, narzędzie anty-cenzurujące dla Iranu.
+- [nezhahq/nezha](https://github.com/nezhahq/nezha) - :trollface: Samohostowany, lekki monitoring serwerów i stron oraz narzędzie O&M
+- [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) - Najprostszy sposób zarządzania wszystkim, co docker.
+- [OwO-Network/DeepLX](https://github.com/OwO-Network/DeepLX) - Potężne, darmowe API DeepL, bez konieczności używania tokena.
+- [juanfont/headscale](https://github.com/juanfont/headscale) - Open source, samohostowana implementacja serwera kontrolnego Tailscale
+- [tgdrive/teldrive](https://github.com/tgdrive/teldrive) - Teldrive
+- [apernet/OpenGFW](https://github.com/apernet/OpenGFW) - OpenGFW to elastyczna, łatwa w użyciu, otwartoźródłowa implementacja GFW (Great Firewall of China) na Linuksie
+- [putyy/res-downloader](https://github.com/putyy/res-downloader) - Pobieranie popularnych zasobów sieciowych: 视频号, mini-programy, Douyin, Kuaishou, Xiaohongshu, streamy, m3u8, Kugou, QQ Music itd.!
+- [eyebluecn/tank](https://github.com/eyebluecn/tank) - 《蓝眼云盘》(Eyeblue Cloud Storage)
+- [Wsine/feishu2md](https://github.com/Wsine/feishu2md) - Pobierz dokument Feishu jako Markdown jednym poleceniem
+- [bitrise-io/envman](https://github.com/bitrise-io/envman) - Menedżer zmiennych środowiskowych
+- [ollama/ollama](https://github.com/ollama/ollama) - Szybki start z Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3, Mistral Small 3.1 i innymi dużymi modelami językowymi.
+- [stillOnTheWay/openbilibili-go-common](https://github.com/stillOnTheWay/openbilibili-go-common) - Źródło backendu strony 哔哩哔哩 bilibili, pochodzi z https://github.com/openbilibili
+- [changwh/go-common](https://github.com/changwh/go-common) - 
+- [juzeon/poe-openai-proxy](https://github.com/juzeon/poe-openai-proxy) - Wrapper pozwalający używać zreverse-engineerowanej biblioteki poe-api w Pythonie jakby to było API OpenAI dla ChatGPT. Możesz podłączyć swoje ulubione aplikacje bazujące na OpenAI API do tego proxy i korzystać z...
+- [faceair/clash-speedtest](https://github.com/faceair/clash-speedtest) - clash speedtest
+- [stulzq/azure-openai-proxy](https://github.com/stulzq/azure-openai-proxy) - Proxy dla Azure OpenAI Service. Konwertuje oficjalne zapytania API OpenAI na zapytania API Azure OpenAI. Obsługuje GPT-4, Embeddings, Langchain. Adapter z OpenAI do Azure OpenAI.
+- [mbrt/gmailctl](https://github.com/mbrt/gmailctl) - Deklaratywna konfiguracja filtrów Gmail
+- [xnth97/magic-conch](https://github.com/xnth97/magic-conch) - Bot Telegram napędzany przez Azure Cognitive Services
+- [noobnooc/ebreader](https://github.com/noobnooc/ebreader) - Czytnik epub w przeglądarce
+- [869413421/chatgpt-web](https://github.com/869413421/chatgpt-web) - Prywatny web na bazie ChatGPT3.5 API
+- [WireGuard/wireguard-windows](https://github.com/WireGuard/wireguard-windows) - Pobierz WireGuard dla Windows na https://www.wireguard.com/install . To repo to tylko mirror. Oficjalne repozytorium: https://git.zx2c4.com/wireguard-windows
+- [j178/leetgo](https://github.com/j178/leetgo) - Najlepszy przyjaciel LeetCode dla geeków. :snowboarder:
+- [erdos-one/r2](https://github.com/erdos-one/r2) - ☁️ Interfejs CLI dla Cloudflare R2 Storage
+- [containrrr/watchtower](https://github.com/containrrr/watchtower) - Proces automatyzujący aktualizacje obrazów bazowych kontenerów Docker.
+- [authelia/authelia](https://github.com/authelia/authelia) - Portal Single Sign-On z wieloskładnikowym uwierzytelnianiem dla aplikacji web, teraz z certyfikatem OpenID™
+- [m1guelpf/chatgpt-telegram](https://github.com/m1guelpf/chatgpt-telegram) - Uruchom własnego bota Telegram GPTChat jednym poleceniem!
+- [v2fly/v2ray-core](https://github.com/v2fly/v2ray-core) - Platforma do budowania proxy omijających restrykcje sieciowe.
+- [usememos/memos](https://github.com/usememos/memos) - Nowoczesna, otwartoźródłowa, samohostowana platforma do zarządzania wiedzą i notatkami, zaprojektowana z myślą o prywatności.
+- [TimothyYe/bing-wallpaper](https://github.com/TimothyYe/bing-wallpaper) - RESTful API do pobierania codziennych tapet z Bing.com
+- [imgproxy/imgproxy](https://github.com/imgproxy/imgproxy) - Szybki i bezpieczny samodzielny serwer do zmiany rozmiaru i konwersji zdalnych obrazów
+- [gaowanliang/DownloadBot](https://github.com/gaowanliang/DownloadBot) - (Obecnie) 🤖 Rozproszony, wieloplatformowy bot Telegram kontrolujący serwer Aria2, pliki serwera oraz umożliwiający upload do OneDrive / Google Drive.
+- [huo-ju/dfserver](https://github.com/huo-ju/dfserver) - Rozproszony backendowy serwer pipeline AI
+- [charmbracelet/vhs](https://github.com/charmbracelet/vhs) - Nagrywarka wideo CLI do terminala 📼
+- [TruthHun/DocHub](https://github.com/TruthHun/DocHub) - Otwarty system biblioteki dokumentów inspirowany Baidu Wenku, rozwijany w Beego (Golang)
+- [XTLS/Xray-core](https://github.com/XTLS/Xray-core) - Xray, przenika wszystko. Najlepszy v2ray-core. Otwarta platforma do różnych zastosowań.
+- [p4gefau1t/trojan-go](https://github.com/p4gefau1t/trojan-go) - Trojan proxy zaimplementowany w Go, obsługuje multiksy, routing, CDN, plugin do mieszania Shadowsocks, wieloplatformowy, bez zależności. Mechanizm nie do wykrycia pomagający omijać GFW. https://p4gefau1t.github.io/trojan-go/
+- [Jrohy/trojan](https://github.com/Jrohy/trojan) - Program do zarządzania i wdrażania multi-user trojan, obsługa zarządzania przez stronę www
+- [caddyserver/caddy](https://github.com/caddyserver/caddy) - Szybki i rozszerzalny wieloplatformowy serwer HTTP/1-2-3 z automatycznym HTTPS
+- [Snawoot/opera-proxy](https://github.com/Snawoot/opera-proxy) - Samodzielny klient do proxy Opera VPN
+- [gphper/grm](https://github.com/gphper/grm) - Wizualne narzędzie do redis (gin+element-plus)【prosta instalacja, połączenie SSH, weryfikacja użytkownika, logi operacji, tryb CLI, wykonywanie skryptów LUA, monitoring Redis itd.】
+- [maxmunzel/kvass](https://github.com/maxmunzel/kvass) - Osobisty magazyn klucz-wartość
+- [caarlos0/starcharts](https://github.com/caarlos0/starcharts) - Wykres gwiazdek repozytorium w czasie.
+- [ViRb3/wgcf](https://github.com/ViRb3/wgcf) - 🚤 Wieloplatformowy, nieoficjalny CLI dla Cloudflare Warp
+- [macronut/phantomsocks](https://github.com/macronut/phantomsocks) - Wieloplatformowy klient/serwer proxy dla Linux/Windows/macOS
+- [macronut/ghostcp](https://github.com/macronut/ghostcp) - GhosTCP to program dla Windows chroniący połączenia TCP przed zakłóceniami.
+- [pretty66/iptables-web](https://github.com/pretty66/iptables-web) - Webowy program do zarządzania iptables napisany w golang
+- [navidrome/navidrome](https://github.com/navidrome/navidrome) - 🎧☁️ Twój Osobisty Serwis Streamingowy
+- [jwma/jump-jump](https://github.com/jwma/jump-jump) - Gotowy do użycia, kompletny system krótkich linków w Go. Usługa skracania URL stworzona w golang.
+- [akiyosi/goneovim](https://github.com/akiyosi/goneovim) - Graficzny frontend do neovim.
+- [pluveto/upgit](https://github.com/pluveto/upgit) - Kolejny hub do uploadu obsługujący schowek. Działa dobrze z Typora, Snipaste, VSCode.
+- [wabarc/wayback](https://github.com/wabarc/wayback) - Narzędzie archiwizujące z interfejsem w stylu komunikatora, stawiające na prywatność i dostępność, zintegrowane z różnymi usługami archiwizacji: Internet Archive, archive.today, Ghostarchive, IPFS, Telegram
+- [muety/wakapi](https://github.com/muety/wakapi) - 📊 Minimalistyczny, samohostowany backend kompatybilny z WakaTime do statystyk kodowania
+- [disksing/sao-gen-gen](https://github.com/disksing/sao-gen-gen) - Generator generatorów śmiesznych tekstów
+- [ArtalkJS/Artalk](https://github.com/ArtalkJS/Artalk) - 🌌 Twój samohostowany system komentarzy. | 自托管评论系统
+- [sheepla/pingu](https://github.com/sheepla/pingu) - 🐧 Komenda ping, ale z pingu
+- [noisetorch/NoiseTorch](https://github.com/noisetorch/NoiseTorch) - Redukcja szumów mikrofonu w czasie rzeczywistym na Linuksie.
+- [utahta/pythonbrew](https://github.com/utahta/pythonbrew) - Menedżer środowiska Python
+- [gogs/gogs](https://github.com/gogs/gogs) - Gogs to bezbolesna, samohostowana usługa Git
+- [Licoy/fetch-github-hosts](https://github.com/Licoy/fetch-github-hosts) - 🌏 Narzędzie do synchronizacji hosts github, obsługa wieloplatformowej GUI i CLI, dwa tryby: klienta i serwera.
+- [Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip) - 🌚 🌍 🌝 Wzmocnione pliki reguł GeoIP, obsługa własnych plików V2Ray dat geoip.dat, MaxMind mmdb, sing-box SRS, mihomo MRS, Clash ruleset, Surge ruleset itd. Wersja rozszerzona plików GeoIP dla V2Ray, Xray-core, sing-box, Cl
+- [master-coder-ll/v2ray-web-manager](https://github.com/master-coder-ll/v2ray-web-manager) - v2ray-web-manager to panel v2ray oraz rozwiązanie dla klastrów; dodano kontrolę transferu, zarządzanie kontami, limity prędkości itp. key: admin, panel, web, cluster, 集群, proxy
+- [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core) - Platforma do budowania proxy omijających restrykcje sieciowe.
+- [qax-os/excelize](https://github.com/qax-os/excelize) - Biblioteka Go do czytania i zapisywania arkuszy Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX)
+- [go-olive/olive](https://github.com/go-olive/olive) - Rejestrator transmisji na żywo 直播录制/录播
+- [ipfs/kubo](https://github.com/ipfs/kubo) - Implementacja IPFS w Go
+- [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) - Klient Cloudflare Tunnel (dawniej Argo Tunnel)
+- [junegunn/fzf](https://github.com/junegunn/fzf) - :cherry_blossom: Interaktywny znajdźka CLI
+- [barthr/redo](https://github.com/barthr/redo) - Redo to narzędzie do tworzenia wielokrotnego użytku funkcji z historii w interaktywny sposób
+- [safing/portmaster](https://github.com/safing/portmaster) - 🏔 Kochaj wolność - ❌ Blokuj masową inwigilację
+- [yeasy/docker_practice](https://github.com/yeasy/docker_practice) - Ucz się i rozum Docker i technologie kontenerowe, z praktycznym DevOps!
+- [ipfs-cluster/ipfs-cluster](https://github.com/ipfs-cluster/ipfs-cluster) - Orkiestracja Pinset dla IPFS
+- [anchore/syft](https://github.com/anchore/syft) - Narzędzie CLI i biblioteka do generowania Bill of Materials oprogramowania z obrazów kontenerów i systemów plików
+- [gabrie30/ghorg](https://github.com/gabrie30/ghorg) - Szybko klonuj lub wykonuj backup całych repozytoriów organizacji/użytkowników do jednego katalogu - Obsługuje GitHub, GitLab, Bitbucket i więcej 🐇🥚
+- [rclone/rclone](https://github.com/rclone/rclone) - "rsync dla chmury" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files
+- [lifei6671/interview-go](https://github.com/lifei6671/interview-go) - Zbiór pytań na rozmowy kwalifikacyjne z golang
+- [prasmussen/gdrive](https://github.com/prasmussen/gdrive) - Klient CLI Google Drive
+- [cheat/cheat](https://github.com/cheat/cheat) - cheat pozwala tworzyć i wyświetlać interaktywne ściągi w terminalu. Został stworzony by przypominać administratorom systemów *nix opcje poleceń używanych często, lecz nie regularnie.
+- [wtfutil/wtf](https://github.com/wtfutil/wtf) - Osobisty dashboard informacyjny w terminalu
+- [Hackl0us/GeoIP2-CN](https://github.com/Hackl0us/GeoIP2-CN) - Mała, dokładna i praktyczna baza danych GeoIP2
+- [HirbodBehnam/file2url-go](https://github.com/HirbodBehnam/file2url-go) - Bot Telegram do konwersji plików na URL do bezpośredniego pobierania.
+- [pkuhollow/nameless](https://github.com/pkuhollow/nameless) - Backend 未名树洞 w Golang
+- [AlistGo/alist](https://github.com/AlistGo/alist) - 🗂️Program listy plików/WebDAV obsługujący wiele magazynów, oparty na Gin i Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。
+- [z4yx/GoAuthing](https://github.com/z4yx/GoAuthing) - Narzędzie do uwierzytelniania dla srun4000 (auth.tsinghua.edu.cn / net.tsinghua.edu.cn / Tsinghua-IPv4)
+- [drakkan/sftpgo](https://github.com/drakkan/sftpgo) - Pełnoprawny, wysoce konfigurowalny serwer SFTP, HTTP/S, FTP/S i WebDAV - S3, Google Cloud Storage, Azure Blob
+- [frolic/redirect.name](https://github.com/frolic/redirect.name) - Prosta usługa przekierowań DNS
+- [datastack-net/dockerized](https://github.com/datastack-net/dockerized) - Uruchamiaj popularne narzędzia CLI w kontenerach dockerowych
+- [yinchengtsinghua/IPFS-Golang-China](https://github.com/yinchengtsinghua/IPFS-Golang-China) - Tłumaczona i dostosowana wersja ipfs dla Tsinghua
+- [bonaysoft/notion-md-gen](https://github.com/bonaysoft/notion-md-gen) - Generuj dokumenty Markdown dla dowolnych generatorów stron statycznych z Notion
+- [minio/minio](https://github.com/minio/minio) - MinIO to wysokowydajny, kompatybilny z S3 obiektowy magazyn, open source na licencji GNU AGPLv3.
+- [golang-china/go2-book](https://github.com/golang-china/go2-book) - :books: Otwarta książka „Go2 Programming Guide”, szczegółowo opisująca nowe funkcje Go2 oraz rzadziej poruszane aspekty Go1.
+- [9seconds/mtg](https://github.com/9seconds/mtg) - Wysoce opiniotwórczy proxy MTPROTO dla Telegrama
+- [v2rayA/v2rayA](https://github.com/v2rayA/v2rayA) - Webowy klient GUI Project V obsługujący protokoły VMess, VLESS, SS, SSR, Trojan, Tuic i Juicity. 🚀
+- [photoprism/photoprism](https://github.com/photoprism/photoprism) - Aplikacja do zdjęć zasilana AI dla zdecentralizowanej sieci 🌈💎✨
+- [lima-vm/lima](https://github.com/lima-vm/lima) - Maszyny wirtualne Linux z naciskiem na kontenery
+- [Jrohy/cfw-updater](https://github.com/Jrohy/cfw-updater) - clash_for_windows narzędzie do aktualizacji jednym kliknięciem
+- [mozillazg/go-pinyin](https://github.com/mozillazg/go-pinyin) - Konwersja chińskich znaków na pinyin
+- [darjun/go-daily-lib](https://github.com/darjun/go-daily-lib) - Go: codzienna biblioteka
+- [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) - 🌩「Własny wybór najlepszych IP」Testowanie opóźnień i prędkości Cloudflare CDN, znajdź najszybsze IP! Oczywiście obsługuje także inne CDN / strony z wieloma IP rozwiązań ~
+- [ginuerzh/gost](https://github.com/ginuerzh/gost) - GO Simple Tunnel - prosty tunel napisany w golang
+- [snail007/goproxy](https://github.com/snail007/goproxy) - 🔥  Proxy to wysokowydajny serwer proxy HTTP(S), SOCKS5, WEBSOCKET, TCP, UDP zaimplementowany w golang. Teraz obsługuje łańcuchowe proxy, nat forwarding w różnych sieciach LAN, przekierowanie portów TCP/UDP
+- [ehang-io/nps](https://github.com/ehang-io/nps) - Lekki, wysokowydajny, potężny serwer proxy do tunelowania ruchu w sieci lokalnej. Obsługuje tcp, udp, socks5, http i prawie każde przekierowanie ruchu, może być używany do dostępu do stron wewnętrznych, debugowania lokalnych interfejsów płatności, dostępu ssh, pulpitu zdalnego, wewnętrznego DNS, proxy socks5 itd... i posiada potężny panel zarządzania web. Lekki, wydajny, potężny serwer proxy do penetracji sieci wewnętrznej,
+- [fatedier/frp](https://github.com/fatedier/frp) - Szybki reverse proxy, który pomaga wystawić lokalny serwer ukryty za NAT-em lub firewallem do internetu.
+- [gohugoio/hugo](https://github.com/gohugoio/hugo) - Najszybszy na świecie framework do budowania stron internetowych.
+- [mholt/archiver](https://github.com/mholt/archiver) - NIEAKTUALNE. Proszę używać mholt/archives zamiast tego.
+- [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) - Produkcyjny system zarządzania i orkiestracji kontenerów
+- [sjlleo/VerifyDisneyPlus](https://github.com/sjlleo/VerifyDisneyPlus) - Skrypt sprawdzający, czy wyjściowe IP odblokowuje DisneyPlus
+- [0xDkd/auxpi](https://github.com/0xDkd/auxpi) - 🍭 Nowa generacja hostingu obrazów integrująca wiele API
+- [ahui2016/localtags](https://github.com/ahui2016/localtags) - localtags: Lokalny system kopii zapasowych plików + poprawnie zaprojektowany system tagów
+- [sourcegraph/sourcegraph-public-snapshot](https://github.com/sourcegraph/sourcegraph-public-snapshot) - Platforma AI do kodu z wyszukiwarką kodu i Codym
+- [indes/flowerss-bot](https://github.com/indes/flowerss-bot) - Bot telegramowy do czytnika RSS. Telegram RSS Bot z obsługą czytania w aplikacji.
+- [go-gitea/gitea](https://github.com/go-gitea/gitea) - Git z filiżanką herbaty! Bezproblemowa, samodzielna, kompleksowa usługa rozwoju oprogramowania: hosting Git, code review, współpraca zespołowa, rejestr pakietów i CI/CD
+- [zu1k/proxypool](https://github.com/zu1k/proxypool) - Automatycznie skanuje publiczne proxy, deduplikuje i testuje ich użyteczność, a następnie udostępnia listę węzłów
+- [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) - Lista domen zarządzana przez społeczność. Generowanie geosite.dat dla V2Ray.
+- [planetscale/cli](https://github.com/planetscale/cli) - CLI dla bazy danych PlanetScale
+- [MacroPower/wakatime_exporter](https://github.com/MacroPower/wakatime_exporter) - Eksportuje metryki Prometheus z Wakatime.
+- [long2ice/longurl](https://github.com/long2ice/longurl) - Samodzielnie hostowana usługa krótkich linków
+- [nektos/act](https://github.com/nektos/act) - Uruchamiaj swoje GitHub Actions lokalnie 🚀
+- [Tylous/ZipExec](https://github.com/Tylous/ZipExec) - Unikalna technika uruchamiania plików wykonywalnych z hasłem chronionego archiwum zip
+- [cloudreve/cloudreve](https://github.com/cloudreve/cloudreve) - 🌩 Samodzielnie hostowany system zarządzania i udostępniania plików, obsługuje wielu dostawców przestrzeni dyskowej
+- [cli/cli](https://github.com/cli/cli) - Oficjalne narzędzie wiersza poleceń GitHub
+- [stashapp/stash](https://github.com/stashapp/stash) - Organizator twojej kolekcji porno, napisany w Go.  Dokumentacja:  https://docs.stashapp.cc
+- [JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - Najbardziej konfigurowalny i niskolatencyjny cross-platformowy/shellowy renderer promptów
+- [misitebao/yakia](https://github.com/misitebao/yakia) - Yakia to pomocnik dla dewelopera.
+- [eallion/uBlacklist-subscription-compilation](https://github.com/eallion/uBlacklist-subscription-compilation) - 🚫 Kompilacja subskrypcji uBlacklist
+- [moonD4rk/HackBrowserData](https://github.com/moonD4rk/HackBrowserData) - Wyodrębnianie i odszyfrowywanie danych przeglądarki, obsługuje wiele typów danych, działa na różnych systemach operacyjnych (macOS, Windows, Linux).
+## HCL 
+
+- [rust-lang/simpleinfra](https://github.com/rust-lang/simpleinfra) - Automatyzacja infrastruktury Rust
+- [SadServers/sadservers](https://github.com/SadServers/sadservers) - SadServers: Scenariusze rozwiązywania problemów Linux & DevOps w modelu SaaS
+
+## HTML 
+
+- [LesFerch/WinSetView](https://github.com/LesFerch/WinSetView) - Globalne ustawianie widoków folderów Eksploratora
+- [seven1m/justforfunnoreally.dev](https://github.com/seven1m/justforfunnoreally.dev) - Mała strona internetowa wyjaśniająca, że czasem po prostu lubimy się bawić!
+- [summivox/thucal2](https://github.com/summivox/thucal2) - Program nauczania Uniwersytetu Tsinghua -&gt; format iCalendar (.ics) -&gt; Google Calendar, itp.
+- [GitHubyangjunyi/XMind](https://github.com/GitHubyangjunyi/XMind) - Mapa wiedzy z informatyki i technologii komputerowej
+- [federico-busato/Modern-CPP-Programming](https://github.com/federico-busato/Modern-CPP-Programming) - Kurs nowoczesnego programowania w C++ (C++03/11/14/17/20/23/26)
+- [QSCTech/zju-icicles](https://github.com/QSCTech/zju-icicles) - Wspólny plan udostępniania przewodników po kursach Uniwersytetu Zhejiang
+- [focustxt/focustxt.github.io](https://github.com/focustxt/focustxt.github.io) - 
+- [wooveep/chatserver-web](https://github.com/wooveep/chatserver-web) - Asystent AI dla zespołów firmowych oparty na OPENAI ChatGPTAPI
+- [ClarenceDan/openai-billing](https://github.com/ClarenceDan/openai-billing) - Ten projekt umożliwia szybkie i łatwe sprawdzanie salda klucza API OpenAI, obsługuje wiele kluczy oraz zawiera instrukcję konfiguracji Cloudflare reverse proxy. 
+- [xqdoo00o/chatgpt-web](https://github.com/xqdoo00o/chatgpt-web) - Czysty JavaScript demo ChatGPT oparty na OpenAI API
+- [x-dr/chatgptProxyAPI](https://github.com/x-dr/chatgptProxyAPI) - 🔥 Darmowy serwer proxy OpenAI API zbudowany na cloudflare, rozwiązuje problemy z dostępem do sieci. Obsługuje strumieniowe wyjście.
+- [niturobert/gmailkit](https://github.com/niturobert/gmailkit) - Klient reddit, gdyby reddit został stworzony przez zespół gmail.
+- [cf-pages/Telegraph-Image](https://github.com/cf-pages/Telegraph-Image) - Rozwiązanie do hostingu obrazów, alternatywa dla Flickr/imgur, ułatwiająca udostępnianie obrazów. Wykorzystuje Cloudflare Pages i Telegraph.
+- [sofish/typo.css](https://github.com/sofish/typo.css) - Przebudowa i formatowanie chińskich stron: ujednolicenie efektów typografii w przeglądarkach, optymalizacja do czytania po chińsku
+- [atelier-anchor/smiley-sans](https://github.com/atelier-anchor/smiley-sans) - Smiley Sans: chińska czcionka szukająca równowagi między humanistyką a geometrią
+- [52ludama/linode_panel](https://github.com/52ludama/linode_panel) - Prosty panel Linode API do uruchamiania maszyn
+- [praveenjuge/copybook](https://github.com/praveenjuge/copybook) - Copy book to zbiór tekstów powszechnie używanych w internecie.
+- [yusanshi/emgithub](https://github.com/yusanshi/emgithub) - Osadzanie pliku z repozytorium GitHub, podobnie jak GitHub Gist.
+- [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) - Lista ofert SaaS, PaaS i IaaS z darmowymi poziomami dla devops i infradev
+- [lvwzhen/foodie-ex](https://github.com/lvwzhen/foodie-ex) - 🍜 „Generator dominacji łakomczucha”
+- [steveruizok/perfect-freehand](https://github.com/steveruizok/perfect-freehand) - Rysuj perfekcyjne, czułe na nacisk linie odręczne.
+- [missuo/Telegraph-Image-Hosting](https://github.com/missuo/Telegraph-Image-Hosting) - Stwórz darmowy hosting obrazów z Telegraph
+- [233boy/tools](https://github.com/233boy/tools) - 
+- [sciooga/Dropper](https://github.com/sciooga/Dropper) - Dropper (wyrzutnik) - narzędzie do udostępniania plików oparte na przechowywaniu obiektowym Qiniu Cloud
+- [Chuyu-Team/Dism-Multi-language](https://github.com/Chuyu-Team/Dism-Multi-language) - Dism++ Obsługa wielu języków & zgłaszanie błędów
+- [openbiox/weekly](https://github.com/openbiox/weekly) - Tygodnik miłośników bioinformatyki (wydawany co niedzielę)
+- [CaiJimmy/hugo-theme-stack](https://github.com/CaiJimmy/hugo-theme-stack) - Kartowy motyw Hugo zaprojektowany dla blogerów
+- [WeNeedHome/SummaryOfLoanSuspension](https://github.com/WeNeedHome/SummaryOfLoanSuspension) - Zbiór powiadomień o zawieszeniu spłat kredytów w całych Chinach
+- [themesberg/landwind](https://github.com/themesberg/landwind) - Responsywna i czysta strona docelowa zbudowana z Tailwind CSS i Flowbite
+- [rameshvarun/ipfs-share](https://github.com/rameshvarun/ipfs-share) - Prosta aplikacja Pastebin / hosting obrazów / udostępnianie plików zasilana przez IPFS.
+- [closed-social/safeShare](https://github.com/closed-social/safeShare) - Bezpieczniejsze udostępnianie linków do dysku Tsinghua Cloud
+- [artchen/hexo-theme-element](https://github.com/artchen/hexo-theme-element) - Minimalistyczny motyw Hexo.
+- [gillescastel/math-on-quora](https://github.com/gillescastel/math-on-quora) - Krótki przewodnik po LaTeX na Quora
+- [SAST-skill-docers/sast-skill-docs](https://github.com/SAST-skill-docers/sast-skill-docs) - SAST Skill Docs. Torujemy drogę do nauki informatyki.
+- [maptalks/maptalks.js](https://github.com/maptalks/maptalks.js) - Lekka i wtyczkowa biblioteka JavaScript do zintegrowanych map 2D/3D.
+- [QianJianTech/LaTeXLive](https://github.com/QianJianTech/LaTeXLive) - Edytor wzorów LaTeX - produkt Ma Shu
+- [LuckyHookin/edge-TTS-record](https://github.com/LuckyHookin/edge-TTS-record) - Narzędzie (Windows) do nagrywania syntezy mowy (TTS) w przeglądarce Microsoft Edge i eksportu do pliku .wav.
+- [suulnnka/BullshitGenerator](https://github.com/suulnnka/BullshitGenerator) - Generator artykułów
+- [tmplink/tmpUI](https://github.com/tmplink/tmpUI) - Framework JavaScript napisany w es6. Umożliwia modularizację projektów frontendowych. Zaledwie 35kb, brak zależności. Łatwy w użyciu.
+- [ossu/computer-science](https://github.com/ossu/computer-science) - 🎓 Droga do darmowej, samodzielnej edukacji z informatyki!
+- [DhanushNehru/Ultimate-Web-Development-Resources](https://github.com/DhanushNehru/Ultimate-Web-Development-Resources) - Kolekcja zasobów do tworzenia stron internetowych dla większości potrzeb programistycznych
+- [vernesong/OpenClash](https://github.com/vernesong/OpenClash) - Klient Clash dla OpenWrt
+- [Snickdx/pwadocs](https://github.com/Snickdx/pwadocs) - Zamień swoją stronę mkdocs w PWA
+- [yoyodadada/haoruanfenxiang](https://github.com/yoyodadada/haoruanfenxiang) - Udostępnianie dobrego oprogramowania
+- [me115/linuxtools_rst](https://github.com/me115/linuxtools_rst) - Szybki przewodnik po narzędziach Linux
+- [stellarkey/912_project](https://github.com/stellarkey/912_project) - Przewodnik po egzaminach wstępnych na studia magisterskie na wydziale informatyki Uniwersytetu Tsinghua
+- [pengchujin/v2rayDocker](https://github.com/pengchujin/v2rayDocker) - Jedno kliknięcie v2ray ws + tls dla wygody
+- [iBug/iBug-source](https://github.com/iBug/iBug-source) - Źródło mojej strony internetowej
+- [bg6cq/speedtest](https://github.com/bg6cq/speedtest) - Lekki test prędkości HTML5
+- [PKUFlyingPig/cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning) - Przewodnik samodzielnej nauki informatyki
+- [byoungd/English-level-up-tips](https://github.com/byoungd/English-level-up-tips) - Zaawansowany przewodnik do nauki angielskiego, który może bardzo się przydać 🎉 . Niezwykły przewodnik/nauka języka angielskiego.
+- [emilwallner/Screenshot-to-code](https://github.com/emilwallner/Screenshot-to-code) - Sieć neuronowa zamieniająca makietę projektu w statyczną stronę internetową.
+- [coolwanglu/pdf2htmlEX](https://github.com/coolwanglu/pdf2htmlEX) - Konwersja PDF do HTML bez utraty tekstu lub formatowania.
+- [shd101wyy/markdown-preview-enhanced](https://github.com/shd101wyy/markdown-preview-enhanced) - Jedno z 'NAJLEPSZYCH' rozszerzeń podglądu markdown dla edytora Atom!
+- [google/styleguide](https://github.com/google/styleguide) - Przewodniki stylu dla projektów open-source pochodzących od Google
+- [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) - 12 tygodni, 26 lekcji, 52 quizy, klasyczne uczenie maszynowe dla wszystkich
+- [belaviyo/save-images](https://github.com/belaviyo/save-images) - Zapisuj załadowane obrazy na zagnieżdżonych stronach iframe
+- [nisrulz/app-privacy-policy-generator](https://github.com/nisrulz/app-privacy-policy-generator) - Generuj spersonalizowaną politykę prywatności i regulamin użytkowania dla swoich aplikacji mobilnych
+- [google/fonts](https://github.com/google/fonts) - Pliki czcionek dostępne z Google Fonts oraz publiczny tracker zgłoszeń dotyczących Google Fonts
+- [xinglie/report-designer](https://github.com/xinglie/report-designer) - ⚡Projektowanie wydruków, wizualizacja, drukowanie etykiet, edytor, projektant, analiza danych, projektowanie raportów, komponenty, formularze, strony h5, ankiety, generowanie PDF, diagramy, testy, SVG, grafika, IoT, etykiety, paragony
+- [HuyNguyenAu/notability-to-svg](https://github.com/HuyNguyenAu/notability-to-svg) - Prosty skrypt Pythona konwertujący notatki z Notability do pliku HTML z osadzonym SVG.
+- [guillaC/JSBatchobfuscator](https://github.com/guillaC/JSBatchobfuscator) - JSBatchobfuscator to prosty obfuscator dla skryptów batch
+- [vitalets/github-trending-repos](https://github.com/vitalets/github-trending-repos) - Śledź popularne repozytoria GitHub w wybranym języku programowania przez natywne powiadomienia GitHub!
+- [PKUanonym/REKCARC-TSC-UHT](https://github.com/PKUanonym/REKCARC-TSC-UHT) - Przewodniki po kursach wydziału informatyki Uniwersytetu Tsinghua
+- [Sobranier/github-chart](https://github.com/Sobranier/github-chart) - 
+- [renzhezhilu/img2color-online](https://github.com/renzhezhilu/img2color-online) - Online ekstrakcja kolorów z obrazów – w fazie testów...
+- [UmeLabs/node.umelabs.dev](https://github.com/UmeLabs/node.umelabs.dev) - Codziennie przed 24:00 aktualizacja darmowych węzłów SS/SSR
+## Hack 
+
+- [slan-ning/coolshell-markdown](https://github.com/slan-ning/coolshell-markdown) - coolshell.cn archiwum wersji markdown
+
+## Haskell 
+
+- [mujx/hakatime](https://github.com/mujx/hakatime) - Implementacja serwera Wakatime i pulpit analityczny
+- [asvyazin/imgbb-telegram-bot](https://github.com/asvyazin/imgbb-telegram-bot) - Bot Telegram do automatycznego przesyłania obrazów do imgbb
+- [jgm/pandoc](https://github.com/jgm/pandoc) - Uniwersalny konwerter znaczników
+
+## Haxe 
+
+- [saharan/works](https://github.com/saharan/works) - Kod kilku projektów na oimo.io/works
+
+## Java 
+
+- [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) - #1 Lokalne hostowana aplikacja webowa pozwalająca na wykonywanie różnych operacji na plikach PDF
+- [krahets/LeetCode-Book](https://github.com/krahets/LeetCode-Book) - 《剑指 Offer》 Kody rozwiązań w Python, Java, C++, repozytorium kodów do LeetBook《图解算法数据结构》
+- [krahets/hello-algo](https://github.com/krahets/hello-algo) - 《Hello 算法》: Samouczek struktur danych i algorytmów z animacjami i możliwością jednego kliknięcia do uruchomienia. Obsługa kodów: Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart. Aktualizacje w wersji uproszczonej i tradycyjnej, wersja angielska w tłumaczeniu
+- [apereo/cas](https://github.com/apereo/cas) - Apereo CAS - Tożsamość i pojedyncze logowanie dla wszystkich ludzi i nie tylko.
+- [niumoo/bing-wallpaper](https://github.com/niumoo/bing-wallpaper) - Codzienna tapeta Bing w ultrawysokiej rozdzielczości (4K) Bing Daily Wallpaper (4K)
+- [SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium) - Framework i ekosystem do automatyzacji przeglądarki.
+- [Jigsaw-Code/Intra](https://github.com/Jigsaw-Code/Intra) - Eksperymentalne narzędzie do testowania nowych usług DNS-over-HTTPS na Androidzie
+- [eclipse/openvsx](https://github.com/eclipse/openvsx) - Otwarty rejestr rozszerzeń do VS Code
+- [google/private-compute-services](https://github.com/google/private-compute-services) - 
+- [G3G4X5X6/ultimate-cube](https://github.com/G3G4X5X6/ultimate-cube) - ultimate-cube to otwartoźródłowe narzędzie do zdalnego zarządzania serwerem, obsługujące protokoły SSH, RDP, Telnet, COM i inne.
+- [theonedev/onedev](https://github.com/theonedev/onedev) - Serwer Git z CI/CD, Kanbanem i pakietami. Bezproblemowa integracja. Niezrównane doświadczenie.
+- [hellokaton/profit](https://github.com/hellokaton/profit) - 🤔 biezhi System online do darowizn, zacznij swoją przygodę z "żebraniem".
+- [GrowingGit/GitHub-Chinese-Top-Charts](https://github.com/GrowingGit/GitHub-Chinese-Top-Charts) - :cn: Chińskie rankingi GitHub, osobne listy "oprogramowanie | materiały" dla każdego języka, precyzyjne lokalizowanie dobrych chińskich projektów. Wybierz, czego potrzebujesz, ucz się efektywnie.
+- [iterate-ch/cyberduck](https://github.com/iterate-ch/cyberduck) - Cyberduck to wolny klient do przesyłania plików FTP, SFTP, WebDAV, Amazon S3, Backblaze B2, Microsoft Azure & OneDrive oraz OpenStack Swift dla Mac i Windows.
+- [ssssssss-team/spider-flow](https://github.com/ssssssss-team/spider-flow) - Nowej generacji platforma do web scrapingu, graficzne definiowanie procesu scrapingu bez konieczności pisania kodu.
+- [git-commit-id/git-commit-id-maven-plugin](https://github.com/git-commit-id/git-commit-id-maven-plugin) - Wtyczka Maven, która dodaje informacje o repozytorium git z czasu budowania do POJO / *.properties. Spraw, by Twoje aplikacje informowały, z jakiej dokładnie wersji zostały zbudowane! Bezcenne w dużych wdrożeniach rozproszonych.
+- [ciscolxh/aliyunshare](https://github.com/ciscolxh/aliyunshare) - Pozwala udostępniać wszystkie pliki na Aliyun Drive
+- [zfile-dev/zfile](https://github.com/zfile-dev/zfile) - Dysk online, chmura, OneDrive, przechowywanie w chmurze, prywatna chmura, obiektowe przechowywanie, h5ai, upload, download
+- [jagrosh/MusicBot](https://github.com/jagrosh/MusicBot) - 🎶 Bot muzyczny dla Discorda, łatwy do skonfigurowania i samodzielnego uruchomienia!
+- [zixpo/candybar](https://github.com/zixpo/candybar) - Pulpit nawigacyjny dla paczek ikon na Androida. Wspierany przez społeczność.
+- [LawnchairLauncher/lawnchair](https://github.com/LawnchairLauncher/lawnchair) - Nie potrzeba sprytnego sloganu.
+
+## JavaScript 
+
+- [mozilla-firefox/firefox](https://github.com/mozilla-firefox/firefox) - Oficjalne repozytorium przeglądarki internetowej Mozilla Firefox.
+- [SamiranRai/Glyph-Tool](https://github.com/SamiranRai/Glyph-Tool) - Rozszerzenie VS Code: Glyph to proste, a zarazem potężne rozszerzenie dla Visual Studio Code, które pomaga programistom wyróżniać, śledzić i zarządzać komentarzami związanymi z zadaniami bezpośrednio w bazie kodu. Niezależnie czy to TOD
+- [wshanks/Zutilo](https://github.com/wshanks/Zutilo) - Wtyczka Zotero zapewniająca dodatkowe funkcje edycji
+- [Quick-Bin/qbin](https://github.com/Quick-Bin/qbin) - QBin: Lekka i wydajna platforma do edycji i udostępniania online | Profesjonalny edytor Monaco+Cherry Markdown | Wielopoziomowa pamięć podręczna Deno KV+DrizzleORM+EdgeCache | PWA z dostępem offline + magazynowanie IndexedDB | Niestandardowe krótkie linki + hasła + okres ważności | Obsługa tekstu/kodu/obrazów/wideo | Logowanie OAuth2 | Motyw jasny i ciemny | Automatyczne zapisywanie | Jednoklikowa instalacja Docker/Deno | Alternatywa dla PasteBin
+- [Tampermonkey/tampermonkey](https://github.com/Tampermonkey/tampermonkey) - Tampermonkey to najpopularniejszy menedżer userscriptów, używany przez ponad 10 milionów użytkowników. Dostępny dla Chrome, Microsoft Edge, Safari, Opera Next i Firefox.
+- [jason5ng32/Github-Models-Telegram-Bot](https://github.com/jason5ng32/Github-Models-Telegram-Bot) - Użyj Github LLM w Telegramie
+- [Llaves/ClaudeExport](https://github.com/Llaves/ClaudeExport) - Eksportuj rozmowy z Claude jako HTML
+- [nfe-w/xhs_pic_download](https://github.com/nfe-w/xhs_pic_download) - W połączeniu z iOS "Szybkie polecenia", jednorazowe pobieranie obrazów/wideo bez znaku wodnego z Xiaohongshu
+- [MarSeventh/CloudFlare-ImgBed](https://github.com/MarSeventh/CloudFlare-ImgBed) - Otwarta platforma do hostingu plików oparta na CloudFlare (hosting obrazów/przechowywanie plików/dysk w chmurze) / 基于 CloudFlare 的开源文件托管解决方案（图床/文件床/网盘）
+- [uBlockOrigin/uBOL-home](https://github.com/uBlockOrigin/uBOL-home) - Strona domowa uBO Lite (MV3)
+- [joye61/pic-smaller](https://github.com/joye61/pic-smaller) - Pic Smaller – Inteligentna kompresja obrazów JPEG, PNG, WEBP, AVIF, SVG i GIF
+- [copilot-is/myip](https://github.com/copilot-is/myip) - Moje IP i informacje o sieci
+- [fishjar/kiss-translator](https://github.com/fishjar/kiss-translator) - Prosta, otwartoźródłowa dwujęzyczna wtyczka do tłumaczenia & skrypt Greasemonkey (一个简约、开源的 双语对照翻译扩展 & 油猴脚本)
+- [A1phaN/tsinghua-ereserves-lib-downloader](https://github.com/A1phaN/tsinghua-ereserves-lib-downloader) - Pobieranie PDF z Elektronicznej Platformy Rezerw Kursowych Uniwersytetu Tsinghua
+- [dockkkk/CF-WORKERS](https://github.com/dockkkk/CF-WORKERS) - 
+- [Repcz/Tool](https://github.com/Repcz/Tool) - Do użytku własnego
+- [zizifn/edgetunnel](https://github.com/zizifn/edgetunnel) - Uruchamianie V2ray w środowisku edge/serverless runtime
+- [cteamx/Thief](https://github.com/cteamx/Thief) - Innowacyjne, wieloplatformowe narzędzie do "pracy w tle", wspierające tryby: powieści, giełda, strony internetowe, wideo, transmisje na żywo, PDF, gry itp.; niezbędnik pracownika biurowego, pozwalający pracować z ulgą i trzymać się z dala od ICU.
+- [QuantumNous/new-api](https://github.com/QuantumNous/new-api) - System zarządzania i dystrybucji interfejsów AI, umożliwiający konwersję wielu dużych modeli do jednolitego formatu; obsługuje formaty OpenAI, Claude itp.; do użytku osobistego lub wewnętrznego w firmie. Projekt oparty na One API. 🍥 Brama nowej generacji dla LLM i system zarządzania zasobami AI, obsługa wielu języków.
+- [heyman/heynote](https://github.com/heyman/heynote) - Dedykowany notatnik dla programistów
+- [NirmalScaria/le-git-graph](https://github.com/NirmalScaria/le-git-graph) - Rozszerzenie przeglądarki dodające wykres git na stronie GitHub.
+- [liu-ziting/PetThoughts](https://github.com/liu-ziting/PetThoughts) - Wiem, o czym myśli Twój pupil - gemini
+- [leibnizli/hummingbird](https://github.com/leibnizli/hummingbird) - Aplikacja do kompresji (jpg/png/webp/svg/gif/css/js/html/mp4/mov), konwersja obrazów różnych formatów, wsparcie dla macOS i Windows.
+- [tans/voicegpt](https://github.com/tans/voicegpt) - Rozmowa głosowa z GPT
+- [LaniJ/invoice-dragon](https://github.com/LaniJ/invoice-dragon) - Otwarta aplikacja do wystawiania bezpłatnych faktur i paragonów
+- [scomper/cf-openai-azure-proxy](https://github.com/scomper/cf-openai-azure-proxy) - Skrypt Cloudflare Worker do proxy'owania żądań OpenAI do usługi Azure OpenAI
+- [dice2o/BingGPT](https://github.com/dice2o/BingGPT) - Aplikacja desktopowa czatu Bing z AI (Windows, macOS i Linux)
+- [evildevill/Article-Summarizer](https://github.com/evildevill/Article-Summarizer) - Uprość czytanie dzięki Summize, otwartoźródłowemu narzędziu do streszczania artykułów, które przekształca długie teksty w jasne, zwięzłe podsumowania
+- [eideehi/sd-webui-better-prompt](https://github.com/eideehi/sd-webui-better-prompt) - Rozszerzenie Stable Diffusion web UI zapewniające lepszy interfejs do edycji promptów.
+- [songquanpeng/one-api](https://github.com/songquanpeng/one-api) - System zarządzania i dystrybucji kluczy LLM API, obsługa OpenAI, Azure, Anthropic Claude, Google Gemini, DeepSeek, Byte Doubao, ChatGLM, Wenxin Yiyan, iFlytek Spark, Tongyi Qianwen, 360 Zhiniao, Tencent Hunyuan i innych modeli; ujednolicone API; zarządzanie kluczami i dystrybucja. Pojedynczy plik wykonywalny, obraz Docker, łatwa instalacja, gotowe do użycia.
+- [tangyoha/telegram_media_downloader](https://github.com/tangyoha/telegram_media_downloader) - Na bazie projektu Dineshkarthika: pobieranie wideo z Telegrama, pobieranie zasobów Telegram, wieloplatformowość, podgląd postępu pobierania w przeglądarce, obsługa poleceń botów, pobieranie zasobów z prywatnych grup z ograniczeniami, pobieranie plików do 2GiB z rozmów/kanałów Telegram.
+- [haibbo/cf-openai-azure-proxy](https://github.com/haibbo/cf-openai-azure-proxy) - Skrypt Cloudflare Worker do proxy'owania żądań OpenAI do usługi Azure OpenAI
+- [ChatGPTBox-dev/chatGPTBox](https://github.com/ChatGPTBox-dev/chatGPTBox) - Głębokie zintegrowanie ChatGPT z przeglądarką, wszystko czego potrzebujesz w jednym miejscu
+- [onury5506/Discord-ChatGPT-Bot](https://github.com/onury5506/Discord-ChatGPT-Bot) - Bot ChatGPT dla Discorda
+- [plantree/ruanyf-weekly](https://github.com/plantree/ruanyf-weekly) - Techniczny tygodnik Ruana Yifenga zbudowany przy użyciu VitePress
+- [jiacai2050/pageview-worker](https://github.com/jiacai2050/pageview-worker) - Backend Page View oparty na Cloudflare Workers i KV.
+- [giosilvi/GPT-Prompter](https://github.com/giosilvi/GPT-Prompter) - Rozszerzenie przeglądarki umożliwiające szybkie generowanie promptów (z zaznaczonego tekstu) dla OpenAI GPT-3, GPT-4 i ChatGPT API. Dostępne w Chrome Web Store i dodatkach do przeglądarki Firefox.
+- [anc95/ChatGPT-CodeReview](https://github.com/anc95/ChatGPT-CodeReview) - 🐥 Bot do code review zasilany przez ChatGPT
+- [leon-fong/ChatGPT-miniprogram](https://github.com/leon-fong/ChatGPT-miniprogram) - 🤖 Miniprogram ChatGPT
+- [fraserxu/fraserxu.dev](https://github.com/fraserxu/fraserxu.dev) - Moje nowe strony osobiste
+- [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) - Repozytorium zawiera wyselekcjonowane prompty dla ChatGPT i innych narzędzi LLM, aby lepiej z nich korzystać.
+- [semantic-release/semantic-release](https://github.com/semantic-release/semantic-release) - :package::rocket: W pełni zautomatyzowane zarządzanie wersjami i publikowanie paczek
+- [lmm214/memos-bber](https://github.com/lmm214/memos-bber) - Rozszerzenie Chrome do Memos
+- [dccxi/trust-zh-CN](https://github.com/dccxi/trust-zh-CN) - Interaktywny podręcznik teorii gier współpracy An interactive guide to the game theory of cooperation
+- [dessant/web-archives](https://github.com/dessant/web-archives) - Rozszerzenie przeglądarki do przeglądania zarchiwizowanych i buforowanych wersji stron internetowych, dostępne dla Chrome, Edge i Safari
+- [argenos/zotero-mdnotes](https://github.com/argenos/zotero-mdnotes) - Wtyczka Zotero do eksportowania metadanych i notatek jako plików markdown
+- [zotero/zotero](https://github.com/zotero/zotero) - Zotero to darmowe, łatwe w użyciu narzędzie do zbierania, organizowania, adnotowania, cytowania i udostępniania źródeł naukowych.
+- [microfeed/microfeed](https://github.com/microfeed/microfeed) - Lekki CMS do samodzielnego hostowania na Cloudflare, dla podcastów, blogów, zdjęć, wideo, dokumentów i wyselekcjonowanych linków.
+- [M3chD09/Cloudflare-Workers-E5Renew](https://github.com/M3chD09/Cloudflare-Workers-E5Renew) - Cloudflare Workers do odnowienia licencji E5
+- [vesoft-inc/github-statistics](https://github.com/vesoft-inc/github-statistics) - Statyczna aplikacja react do wyświetlania statystyk repozytorium github, takich jak historia gwiazdek, historia forków i więcej.
+- [welai/glow-sans](https://github.com/welai/glow-sans) - Rodzina czcionek CJK oparta na SHSans, bardziej zwięzła i nowoczesna. 未来荧黑·未來熒黑·ヒカリ角ゴ：Zmodyfikowana na bazie 思源黑体, z różnymi grubościami i szerokościami, bardzo nowoczesna i obszerna rodzina fontów.
+- [renzhezhilu/gifsicle-wasm-browser](https://github.com/renzhezhilu/gifsicle-wasm-browser) - Uruchamianie Gifsicle w przeglądarce, do kompresji, kadrowania, manipulacji klatkami, zmiany rozmiaru GIF-ów itd.
+- [Rabithua/memos_wmp](https://github.com/Rabithua/memos_wmp) - Mini Program WeChat oparty na otwartym projekcie "usememos/memos", możliwy do konwersji na aplikację.
+- [OBKoro1/koro1FileHeader](https://github.com/OBKoro1/koro1FileHeader) - Wtyczka VSCode: automatyczne generowanie i aktualizacja nagłówków plików w VSCode, automatyczne generowanie komentarzy do funkcji i wyodrębnianie parametrów funkcji, obsługa wszystkich głównych języków, pełna dokumentacja, łatwa konfiguracja, elastyczność, ciągłe wsparcie.
+- [clmnin/summarize.site](https://github.com/clmnin/summarize.site) - Streszczanie stron internetowych przy użyciu OpenAI ChatGPT
+- [terrastruct/d2](https://github.com/terrastruct/d2) - D2 to nowoczesny język do tworzenia diagramów, zamieniający tekst w diagramy.
+- [anselm94/googlekeepclone](https://github.com/anselm94/googlekeepclone) - Klon Google Keep z oryginalną estetyką Material Design
+- [sveltejs/kit](https://github.com/sveltejs/kit) - Rozwój stron internetowych, uproszczony
+- [anerg2046/Caddy_V2ray](https://github.com/anerg2046/Caddy_V2ray) - Zintegrowany obraz Docker Caddy V2ray SSL TLS Websocket
+- [Postcatlab/postcat](https://github.com/Postcatlab/postcat) - Postcat to rozszerzalna platforma narzędziowa API. Zbiera podstawowe funkcje zarządzania i testowania API, a poprzez wtyczki upraszcza pracę nad API, pozwalając szybciej i lepiej je tworzyć. Rozszerzalne narzędzie API.
+- [itorr/china-ex](https://github.com/itorr/china-ex) - 🇨🇳 „Generator dominacji Chin” – narzędzie do oznaczania 34 prowincji Chin
+- [anerg2046/docker-v2ray](https://github.com/anerg2046/docker-v2ray) - V2Ray Caddy+Vmess+ws+tls – skrypt Docker do instalacji jednym kliknięciem
+- [webtorrent/wormhole-crypto](https://github.com/webtorrent/wormhole-crypto) - Szyfrowanie strumieniowe dla Wormhole.app, oparte na Encrypted Content-Encoding for HTTP (RFC 8188)
+- [primer/contribute](https://github.com/primer/contribute) - Wytyczne dotyczące wkładów dla systemu projektowego Primer
+- [parvardegr/sharing](https://github.com/parvardegr/sharing) - Sharing to narzędzie CLI do udostępniania katalogów i plików z linii poleceń na urządzenia iOS i Android bez potrzeby instalowania dodatkowych aplikacji klienckich
+- [SurviveSJTU/SJTU-Application](https://github.com/SurviveSJTU/SJTU-Application) - https://survivesjtu.github.io/SJTU-Application/#/
+- [zjyl1994/lazydogocr](https://github.com/zjyl1994/lazydogocr) - OCR w przeglądarce przy użyciu Tesseract.js
+- [dunwu/nginx-tutorial](https://github.com/dunwu/nginx-tutorial) - To jest minimalistyczny poradnik Nginx, mający pomóc początkującym szybko rozpocząć pracę z Nginx.
+- [Semporia/TikTok-Unlock](https://github.com/Semporia/TikTok-Unlock) - TikTok – odblokowywanie bez wyjmowania karty, wsparcie dla iPhone & iPad, TikTok&TikTok TestFlight, zmiana regionu, publikowanie wideo, live streaming, polubienia, komentarze, prywatne wiadomości i inne!
+- [divamgupta/diffusionbee-stable-diffusion-ui](https://github.com/divamgupta/diffusionbee-stable-diffusion-ui) - Diffusion Bee to najłatwiejszy sposób na lokalne uruchomienie Stable Diffusion na Macu M1. Instalator jednym kliknięciem. Bez zależności i wiedzy technicznej.
+- [OverflowCat/zhihu-watermark-remover](https://github.com/OverflowCat/zhihu-watermark-remover) - Userscript usuwający lub podmieniający znaki wodne na stronach Zhihu
+- [ghostdevv/linode-object-upload](https://github.com/ghostdevv/linode-object-upload) - Proste narzędzie CLI do przesyłania plików do Linode Object Storage
+- [dream-num/Luckysheet](https://github.com/dream-num/Luckysheet) - Luckysheet to internetowy arkusz kalkulacyjny podobny do Excela – potężny, łatwy do skonfigurowania i całkowicie otwarty.
+- [drew-royster/canvasFileSync](https://github.com/drew-royster/canvasFileSync) - Synchronizuje pliki kursu Canvas z komputerem lokalnym
+- [joemccann/dillinger](https://github.com/joemccann/dillinger) - Ostatni edytor Markdown, jakiego potrzebujesz.
+- [feeddd/feeds](https://github.com/feeddd/feeds) - Darmowy RSS dla publicznych kont, obsługa rozszerzenia do dowolnej aplikacji
+- [goooooouwa/goplan-web](https://github.com/goooooouwa/goplan-web) - Klient GoPlan Web
+- [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets) - 👩‍💻👨‍💻 Fantastyczne ściągi do popularnych języków programowania, frameworków i narzędzi developerskich. Wszystko, co musisz wiedzieć, w jednym pliku.
+- [techgaun/active-forks](https://github.com/techgaun/active-forks) - Znajdź aktywne forki repozytorium na github https://git.io/vSnrC
+- [eip-work/kuboard-press](https://github.com/eip-work/kuboard-press) - Kuboard to interfejs do zarządzania mikroserwisami oparty na Kubernetes. Dostarcza także darmowe chińskie tutoriale, przewodniki dla początkujących, najnowszy podręcznik instalacji Kubernetes v1.23.4 (k8s install), wsparcie online, ciągłe aktualizacje.
+- [stephenou/fruitionsite](https://github.com/stephenou/fruitionsite) - Zbuduj swoją stronę internetową za darmo przy użyciu Notion
+- [summitech/gitexplorer](https://github.com/summitech/gitexplorer) - Znajdź właściwe polecenia git bez przekopywania się przez internet.
+- [QasimWani/LeetHub](https://github.com/QasimWani/LeetHub) - Automatyczna synchronizacja rozwiązań leetcode z kontem github – top 5 trendujących repozytoriów GitHub
+- [cockpit-project/cockpit](https://github.com/cockpit-project/cockpit) - Cockpit to przeglądarkowy graficzny interfejs do zarządzania serwerami.
+- [alcor/emoji-supply](https://github.com/alcor/emoji-supply) - Źródło dla http://emoji.supply/wallpaper i http://emoji.supply/kitchen
+- [Tyrone2333/giteeDeleteAccount](https://github.com/Tyrone2333/giteeDeleteAccount) - Przewodnik po usuwaniu konta gitee
+- [Dandelionss/CloudFlare-Workers](https://github.com/Dandelionss/CloudFlare-Workers) - Przechowywanie różnych skryptów CloudFlare Workers
+- [cagataycali/url-shortener](https://github.com/cagataycali/url-shortener) - Krótki skracacz URL, zasilany emoji. 🌍✌🏼
+- [7wate/wiki](https://github.com/7wate/wiki) - Osobista wiki wiedzy 7Wate
+- [faressoft/terminalizer](https://github.com/faressoft/terminalizer) - 🦄 Nagrywaj terminal i generuj animowane gify lub udostępniaj odtwarzacz internetowy
+- [twikoojs/twikoo](https://github.com/twikoojs/twikoo) - 💬 Prosty, bezpieczny, darmowy system komentarzy dla statycznych stron internetowych | A simple, safe, free comment system.
+- [tmplink/tmplink_webapp](https://github.com/tmplink/tmplink_webapp) - Stworzony do przechowywania.
+- [craftzdog/craftzdog-homepage](https://github.com/craftzdog/craftzdog-homepage) - Moja strona domowa
+- [play-with-docker/play-with-docker](https://github.com/play-with-docker/play-with-docker) - Znasz to, używasz, teraz czas to ulepszyć. PWD!
+- [Cay-Zhang/RSSBud](https://github.com/Cay-Zhang/RSSBud) - Aplikacja do wyszukiwania kanałów RSS na iOS/macOS, świetnie współpracuje z RSSHub – popularną usługą generowania kanałów. Dostępna w App Store.
+- [ashutosh1919/masterPortfolio](https://github.com/ashutosh1919/masterPortfolio) - 🔥 Kompletny, konfigurowalny szablon portfolio dla programistów, pozwalający zaprezentować swoją pracę i wszystkie szczegóły na temat siebie jako programisty.
+- [alanshaw/markdown-pdf](https://github.com/alanshaw/markdown-pdf) - :page_facing_up: Konwerter Markdown do PDF
+- [josephernest/writing](https://github.com/josephernest/writing) - Writing to lekki, pozbawiony rozpraszaczy edytor tekstu w przeglądarce (obsługuje Markdown i LaTeX).
+- [typemill/typemill](https://github.com/typemill/typemill) - Typemill to CMS oparty na plikach płaskich, przeznaczony do stron informacyjnych jak dokumentacje, podręczniki i instrukcje.
+- [varkor/quiver](https://github.com/varkor/quiver) - Nowoczesny edytor diagramów przemiennych online.
+- [gitpod-io/openvscode-releases](https://github.com/gitpod-io/openvscode-releases) - To repozytorium służy wyłącznie do tworzenia wydań OpenVSCode Server.
+- [SplitGemini/Clash_configuration](https://github.com/SplitGemini/Clash_configuration) - 
+- [ShevonKuan/yuektang_ppt2pdf](https://github.com/ShevonKuan/yuektang_ppt2pdf) - Eksportuj materiały dydaktyczne z Yuetang jako PDF
+- [Co1lin/Tsinghua-Yukuotang-Autoplay](https://github.com/Co1lin/Tsinghua-Yukuotang-Autoplay) - Skrypt do ćwiczeń z JS.
+- [Konano/thu-weblearn-tgbot](https://github.com/Konano/thu-weblearn-tgbot) - 🤖 Bot telegramowy monitorujący platformę nauki online Uniwersytetu Tsinghua i wysyłający powiadomienia o aktualizacjach
+- [jmcgover/unblock-all](https://github.com/jmcgover/unblock-all) - Skrypt javascript odblokowujący wszystkie zablokowane konta Twittera przez użytkownika
+- [soumyajit4419/Portfolio](https://github.com/soumyajit4419/Portfolio) - Moja własnoręcznie napisana strona portfolio zbudowana w React.js
+- [soumyajit4419/Chatify](https://github.com/soumyajit4419/Chatify) - Osobisty pokój czatowy lub miejsce do wymiany zasobów i spotkań ze znajomymi; zbudowany w React.js, Material-UI i Firebase.
+- [pissang/little-big-city](https://github.com/pissang/little-big-city) - 
+- [atom/atom](https://github.com/atom/atom) - :atom: Edytor tekstu do hakowania według własnego uznania
+- [ZxfBugProgrammer/Electron-SIMGUI](https://github.com/ZxfBugProgrammer/Electron-SIMGUI) - Projekt oparty na Electron i element UI – narzędzie do wykrywania plagiatu w kodzie, silnik oparty na SIM (SIM to narzędzie do porównywania kodu autorstwa Dicka Grune)
+- [eidam/cf-workers-status-page](https://github.com/eidam/cf-workers-status-page) - Monitoruj swoje strony, pokazuj status z historią dzienną i otrzymuj powiadomienia Slack/Telegram/Discord przy zmianie statusu strony. Wykorzystuje Cloudflare Workers, CRON Triggers i KV storage.
+- [digitalocean/nginxconfig.io](https://github.com/digitalocean/nginxconfig.io) - ⚙️ Generator konfiguracji NGINX na sterydach 💉
+- [ineo6/git-master](https://github.com/ineo6/git-master) - Rozszerzenie Git Master do eksploracji drzewa plików git, obsługuje GitHub, GitLab, Gitee, Gitea, Gogs
+- [Zenquan/learnCode](https://github.com/Zenquan/learnCode) - Repozytorium kodu ułatwiające naukę
+- [koodo-reader/koodo-reader](https://github.com/koodo-reader/koodo-reader) - Nowoczesny menedżer i czytnik ebooków z synchronizacją i kopią zapasową dla Windows, macOS, Linux, Android, iOS i Web
+- [s0urcelab/serverless-cloud-notepad](https://github.com/s0urcelab/serverless-cloud-notepad) - ☁ Kolejny notatnik w chmurze.
+- [VishwaGauravIn/github-profile-readme-maker](https://github.com/VishwaGauravIn/github-profile-readme-maker) - 🏆 Najlepszy generator profili, stwórz idealny profil GitHub ReadMe w najlepszy możliwy sposób. Wiele funkcji i narzędzi, wszystko za darmo! 💫
+- [lucaceriani/ooo](https://github.com/lucaceriani/ooo) - 
+- [MuggleWei/learning_compass](https://github.com/MuggleWei/learning_compass) - Przewodnik do samodzielnej nauki różnych dziedzin https://mugglewei.github.io/learning_compass/
+- [philc/vimium](https://github.com/philc/vimium) - Przeglądarka dla hakera.
+- [thunlp/WantWords](https://github.com/thunlp/WantWords) - Otwarty, internetowy słownik odwrotny.
+- [Robbendebiene/Gesturefy](https://github.com/Robbendebiene/Gesturefy) - Nawiguj, obsługuj i przeglądaj szybciej dzięki gestom myszy! Konfigurowalny dodatek Firefox z gestami myszy i wieloma różnymi komendami.
+- [wooorm/starry-night](https://github.com/wooorm/starry-night) - Podświetlanie składni, jak na GitHubie
+- [foamzou/melody](https://github.com/foamzou/melody) - Mój muzyczny duch
+- [liviuschera/noctis](https://github.com/liviuschera/noctis) - Noctis to kolekcja jasnych i ciemnych motywów z dobrze zbalansowaną mieszanką ciepłych i zimnych kolorów
+- [microsoft/vscode-markdown-tm-grammar](https://github.com/microsoft/vscode-markdown-tm-grammar) - Wbudowany w VS Code rozszerzenie markdown - gramatyka Textmate
+- [fluid-dev/hexo-theme-fluid](https://github.com/fluid-dev/hexo-theme-fluid) - :ocean: Motyw Hexo w stylu Material Design / Elegancki motyw Material-Design dla Hexo
+- [menzi11/BullshitGenerator](https://github.com/menzi11/BullshitGenerator) - Potrzebowałem wygenerować trochę tekstów, aby przetestować, czy moje kody renderowania GUI działają dobrze, więc to stworzyłem.
+- [ciembor/4bit](https://github.com/ciembor/4bit) - Projektant schematów kolorów terminala
+- [Asabeneh/30-Days-Of-React](https://github.com/Asabeneh/30-Days-Of-React) - Wyzwanie 30 Days of React to przewodnik krok po kroku, jak nauczyć się Reacta w 30 dni. Te filmy również mogą pomóc: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw
+- [dukelec/cde](https://github.com/dukelec/cde) - Narzędzie szyfrowania HTML5 (Wskazówki: https://blog.d-l.io/cde), https://e.d-l.io lub https://dukelec.gitee.io/cde lub
+- [soheilpro/mailwind](https://github.com/soheilpro/mailwind) - Projektuj e-maile HTML z wykorzystaniem Tailwind CSS.
+- [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) - Szybkie łączenie API. Darmowe dla programistów.
+- [gaocegege/Blog](https://github.com/gaocegege/Blog) - Blog osobisty na github.io
+- [dhanishgajjar/vscode-icons](https://github.com/dhanishgajjar/vscode-icons) - Niestandardowe ikony Visual Studio Code
+- [ecitlm/Node-SpliderApi](https://github.com/ecitlm/Node-SpliderApi) - Projekt API crawlera oparty na node+express, obejmuje informacje o chińskich uczelniach, idiomy, poezję, horoskopy, "historia dnia", interfejsy danych muzycznych, tapety, śmieszne wideo, gorące newsy i szczegółowe dane interfejsów
+- [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) - 📝 Algorytmy i struktury danych zaimplementowane w JavaScript z wyjaśnieniami i odnośnikami do dalszej lektury
+- [leonardomso/33-js-concepts](https://github.com/leonardomso/33-js-concepts) - 📜 33 koncepcje JavaScript, które powinien znać każdy programista.
+- [denysdovhan/wtfjs](https://github.com/denysdovhan/wtfjs) - 🤪 Lista zabawnych i podchwytliwych przykładów JavaScript
+- [AleksiKnuutila/nlp-highlight](https://github.com/AleksiKnuutila/nlp-highlight) - Semantyczne podświetlanie języka naturalnego dla lepszej czytelności
+- [vaxilu/x-ui](https://github.com/vaxilu/x-ui) - Panel xray obsługujący wiele protokołów i użytkowników
+- [wjclub/telegram-bot-getids](https://github.com/wjclub/telegram-bot-getids) - Bot Telegram wyświetlający szczegółowe informacje o użytkownikach, czatach i mediach.
+- [Robpayot/glowing-tree](https://github.com/Robpayot/glowing-tree) - Eksperyment z drzewem w Three.js
+- [OBKoro1/web-basics](https://github.com/OBKoro1/web-basics) - Podstawowe umiejętności JS wymagane przez duże firmy frontendowe, zadania scenariuszowe i prawdziwe pytania rekrutacyjne. Zapraszamy do zgłaszania issue i PR w celu wzbogacenia bazy zadań.
+- [alyssaxuu/omni](https://github.com/alyssaxuu/omni) - Narzędzie all-in-one do zwiększania produktywności ⌨️
+- [hackjutsu/Lepton](https://github.com/hackjutsu/Lepton) - 💻     Demokratyzacja zarządzania snippetami (macOS/Win/Linux)
+- [danielpigott/cloudflare-cli](https://github.com/danielpigott/cloudflare-cli) - CLI do interakcji z Cloudflare
+- [shajidhasan/rknotes-landing](https://github.com/shajidhasan/rknotes-landing) - 
+- [wordshub/free-font](https://github.com/wordshub/free-font) - Prawdopodobnie najpełniejsza kolekcja darmowych fontów komercyjnych z 2020 roku, wszystkie z jasnym źródłem licencji, bezpieczne do użycia, ciągła aktualizacja...
+- [star7th/showdoc](https://github.com/star7th/showdoc) - ShowDoc to narzędzie doskonale nadające się do dzielenia się dokumentacją online przez zespoły IT. Bardzo dobre narzędzie do dokumentacji API i dokumentacji technicznej online.
+- [NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager) - Kontener Docker do zarządzania hostami proxy Nginx przez prosty, potężny interfejs
+- [py7hon/Meowdrive](https://github.com/py7hon/Meowdrive) - Meowdrive/Google drive directlink
+- [pkuhollow/webhole](https://github.com/pkuhollow/webhole) - PKU Hollow frontend w React
+- [stef-levesque/vscode-3dviewer](https://github.com/stef-levesque/vscode-3dviewer) - Podgląd siatek 3D w VSCode
+- [nirui/sshwifty](https://github.com/nirui/sshwifty) - Web SSH & Telnet (WebSSH & WebTelnet client) 🔮
+- [Robpayot/risograph-grain-shader](https://github.com/Robpayot/risograph-grain-shader) - Lekki shader ziarna, samouczek codrops
+- [imlonghao/smms-bot](https://github.com/imlonghao/smms-bot) - Bot Telegram dla SM.MS
+- [prettier/prettier](https://github.com/prettier/prettier) - Prettier to opiniotwórczy formater kodu.
+- [ciderapp/Cider](https://github.com/ciderapp/Cider) - 🎵  Kod źródłowy Cider 1
+- [pabueco/linear-vscode-theme](https://github.com/pabueco/linear-vscode-theme) - 
+- [imageslr/weapp-library](https://github.com/imageslr/weapp-library) - „Platforma wypożyczania książek online” - miniprogram WeChat: łączy czytelników z biblioteką, system bazy danych książek i listy czytelniczej. Ponad 30 stron, wiele komponentów do ponownego użycia, wprowadzenie do programowania miniaplikacji WeChat. Lokalne rozwiązanie mock server.
+- [multiavatar/Multiavatar](https://github.com/multiavatar/Multiavatar) - Generator wielokulturowych awatarów w JavaScript
+- [noxue/bingdundun](https://github.com/noxue/bingdundun) - Źródło 3D Bingdundun
+- [Just-Moh-it/Pckd](https://github.com/Just-Moh-it/Pckd) - ⚡️ Analizujący, samohostowalny skracacz linków z pięknym UI | Darmowa alternatywa dla bit.ly 🚀
+- [moshang-ax/lottery](https://github.com/moshang-ax/lottery) - 🎉🌟✨🎈 Program losujący na imprezy firmowe, oparty na Express + Three.js, trójwymiarowa kula losująca, nagrody🧧🎁, tekst, obrazy, konfigurowalne zasady losowania, 😜 import uczestników z Excela jednym kliknięciem, eksport wyników do Excela 😎, nowe, efektowne doświadczenie losowania 🚀🚀🚀
+- [facebook/react](https://github.com/facebook/react) - Biblioteka do interfejsów użytkownika dla web i aplikacji natywnych.
+- [kovacsv/Online3DViewer](https://github.com/kovacsv/Online3DViewer) - Rozwiązanie do wizualizacji i eksploracji modeli 3D w przeglądarce.
+- [rishimohan/pika](https://github.com/rishimohan/pika) - Szybkie projektowanie pięknych zrzutów ekranu i obrazów open graph
+- [bndw/wifi-card](https://github.com/bndw/wifi-card) - 📶 Wydrukuj kod QR do łączenia się z WiFi (wificard.io)
+- [E011011101001/Twitter-Block-With-Love](https://github.com/E011011101001/Twitter-Block-With-Love) - Blokuj użytkowników, którzy polubili konkretny tweet i ulepsz swoje doświadczenie z Twitterem.
+- [YaoZeyuan/stablog](https://github.com/YaoZeyuan/stablog) - Wenbu. Profesjonalny eksport i backup archiwum Weibo, stabilnie!
+- [diafygi/gethttpsforfree](https://github.com/diafygi/gethttpsforfree) - Kod źródłowy do https://gethttpsforfree.com/
+- [agalwood/Motrix](https://github.com/agalwood/Motrix) - Menadżer pobierania z pełną funkcjonalnością.
+- [txthinking/bash](https://github.com/txthinking/bash) - Skrypty na jedno kliknięcie.
+- [xuhuai66/used-book-pro](https://github.com/xuhuai66/used-book-pro) - Kampusowy sklep z używanymi książkami - miniprogram WeChat, obsługa płatności online i wypłat, pełen open source
+- [gildas-lormeau/SingleFileZ](https://github.com/gildas-lormeau/SingleFileZ) - Rozszerzenie Web do zapisywania wiernej kopii całej strony internetowej w samorozpakowującym się pliku ZIP
+- [mickael-kerjean/filestash](https://github.com/mickael-kerjean/filestash) - :file_folder: Menadżer plików / klient web dla SFTP, S3, FTP, WebDAV, Git, Minio, LDAP, CalDAV, CardDAV, Mysql, Backblaze, ...
+- [suxiaogang/WeiboPicBed](https://github.com/suxiaogang/WeiboPicBed) - Rozszerzenie Chrome do hostowania obrazów na Sina Weibo
+- [The-NeXT-Project/Docs](https://github.com/The-NeXT-Project/Docs) - 
+- [overleaf/overleaf](https://github.com/overleaf/overleaf) - Internetowy edytor LaTeX do pracy zespołowej
+- [szenius/set-timezone](https://github.com/szenius/set-timezone) - Akcja GitHub do ustawiania strefy czasowej w lokalnym systemie, działa na Linux, Windows, MacOS
+- [ckeditor/github-writer](https://github.com/ckeditor/github-writer) - GitHub Writer - WYSIWYG Edytor tekstu sformatowanego dla GitHub, oparty na CKEditor.
+- [MinhasKamal/DownGit](https://github.com/MinhasKamal/DownGit) - Tworzenie linków do pobierania zasobów z GitHub
+- [KinoLien/gitzip](https://github.com/KinoLien/gitzip) - Może pobrać podfolder/poddirectory repozytorium github jako zip.
+- [paulmillr/encrypted-dns](https://github.com/paulmillr/encrypted-dns) - Profile konfiguracyjne DNS over HTTPS dla iOS i macOS
+- [toncenter/ton-wallet](https://github.com/toncenter/ton-wallet) - Portfel internetowy i rozszerzenie przeglądarki dla TON (The Open Network)
+- [nodejs/node](https://github.com/nodejs/node) - Środowisko uruchomieniowe Node.js JavaScript ✨🐢🚀✨
+- [itorr/nbnhhsh](https://github.com/itorr/nbnhhsh) - 😩 „Czy możesz mówić poprawnie?” Narzędzie tłumaczące skróty pinyin
+- [carbon-app/carbon](https://github.com/carbon-app/carbon) - :black_heart: Twórz i udostępniaj piękne obrazy swojego kodu źródłowego
+- [jsdelivr/jsdelivr](https://github.com/jsdelivr/jsdelivr) - Darmowy, szybki i niezawodny CDN Open Source dla npm, GitHub, Javascript i ESM
+- [hunkim/digital-human](https://github.com/hunkim/digital-human) - 
+- [menukaonline/goindex-extended](https://github.com/menukaonline/goindex-extended) - Indeks Google Drive z wieloma dodatkowymi funkcjami, działający na Cloudflare Workers.
+- [pureink/inkrss](https://github.com/pureink/inkrss) - Powiadomienia o aktualizacjach kanałów RSS | RSS 更新通知
+- [gorse-io/gitrec](https://github.com/gorse-io/gitrec) - System rekomendacji repozytoriów GitHub oparty na Gorse
+- [Hackl0us/SS-Rule-Snippet](https://github.com/Hackl0us/SS-Rule-Snippet) - Zbieranie, porządkowanie i utrzymanie praktycznych reguł dla Surge / Quantumult (X) / Shadowrocket / Surfboard / clash (Premium).
+- [netptop/siteproxy](https://github.com/netptop/siteproxy) - reverse proxy, online proxy, odwrócony proxy, dostęp do Youtube/twitter/Google bez blokad, obsługa logowania do github i telegram web (nie loguj się przez nieufny proxy). Obsługuje DuckDuckGo AI Chat (dostęp do chatGPT3.5 i Claude3 za darmo)
+- [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) - Edytor kodu oparty na przeglądarce
+- [btmills/geopattern](https://github.com/btmills/geopattern) - Generowanie pięknych wzorów SVG
+- [RimoChan/match-you](https://github.com/RimoChan/match-you) - 【Czy pasujesz?】Czy pasujesz
+- [sh-dv/hat.sh](https://github.com/sh-dv/hat.sh) - Bezpieczne szyfrowanie i deszyfrowanie plików w przeglądarce.
+- [pxeger/url-shortener](https://github.com/pxeger/url-shortener) - Najprostszy na świecie skracacz URL wykorzystujący Cloudflare Workers
+- [mrmartineau/snippet-generator](https://github.com/mrmartineau/snippet-generator) - ⚡ Generator snippetów dla Sublime Text, Atom & VS Code
+- [b3by/atom-clock](https://github.com/b3by/atom-clock) - Umieść zegar lub kalendarz na pasku statusu
+- [microsoft/vscode-atom-keybindings](https://github.com/microsoft/vscode-atom-keybindings) - Port klawiszologii Atom dla VS Code.
+- [binaryoung/convert-atom-snippets-to-vscode](https://github.com/binaryoung/convert-atom-snippets-to-vscode) - Mały pakiet pomagający przekonwertować snippety Atom do formatu vscode.
+- [dstein64/workflows](https://github.com/dstein64/workflows) - Podgląd statusu workflow GitHub.
+- [sigoden/netease-music-crx](https://github.com/sigoden/netease-music-crx) - Rozszerzenie Chrome NetEase Cloud Music
+- [pocc/bulk_delete_notion_pages](https://github.com/pocc/bulk_delete_notion_pages) - Bookmarklet do trwałego usuwania wszystkich stron Notion, które już zostały usunięte.
+- [msaaddev/who-unfollowed-me](https://github.com/msaaddev/who-unfollowed-me) - 🙁 CLI pokazujące, kto niedawno przestał Cię obserwować na GitHubie
+- [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) - Wyzwanie programistyczne 30 dni JavaScript to przewodnik krok po kroku, jak nauczyć się języka JavaScript w 30 dni. To wyzwanie może zająć ponad 100 dni, po prostu pracuj w swoim tempie. 
+- [FilipePS/Traduzir-paginas-web](https://github.com/FilipePS/Traduzir-paginas-web) - Tłumacz stronę w czasie rzeczywistym za pomocą Google, Bing lub Yandex
+- [ysard/cookie-quick-manager](https://github.com/ysard/cookie-quick-manager) - Dodatek do zarządzania (podgląd, wyszukiwanie, tworzenie, edycja, usuwanie, backup, przywracanie) ciasteczkami w Firefox.
+- [candh/cookies-backup-chrome](https://github.com/candh/cookies-backup-chrome) - Rozszerzenie Chrome do tworzenia kopii zapasowych, 🔐 szyfrowania i przywracania 🍪 ciasteczek.
+- [vercel/next.js](https://github.com/vercel/next.js) - Framework React
+- [useful-forks/useful-forks.github.io](https://github.com/useful-forks/useful-forks.github.io) - Poprawa widoczności listy forków na GitHub przez automatyczne filtrowanie. Projekt oferuje narzędzie online i rozszerzenie do Chrome.
+- [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) - Eleganckie narzędzie do monitoringu self-hosted
+- [webpack/webpack](https://github.com/webpack/webpack) - Bundler dla javascript i przyjaciół. Pakuje wiele modułów w kilka plików. Code Splitting pozwala na ładowanie części aplikacji na żądanie. Dzięki "loaderom" moduły mogą być CommonJs, AM
+- [webpack/webpack-cli](https://github.com/webpack/webpack-cli) - Interfejs wiersza poleceń Webpacka
+- [viatsko/awesome-vscode](https://github.com/viatsko/awesome-vscode) - 🎨 Kuratela najlepszych pakietów i zasobów VS Code.
+- [Glitchbone/vscode-base16-term](https://github.com/Glitchbone/vscode-base16-term) - Kolory terminala Base16 dla Visual Studio Code
+- [xanderfrangos/twinkle-tray](https://github.com/xanderfrangos/twinkle-tray) - Łatwe zarządzanie jasnością monitorów w Windows z poziomu zasobnika systemowego
+- [excalidraw/excalidraw-libraries](https://github.com/excalidraw/excalidraw-libraries) - Kolekcja publicznie dostępnych bibliotek
+- [ad-m/github-push-action](https://github.com/ad-m/github-push-action) - Akcje GitHub do wypychania zmian do repozytorium np. zaktualizowanego kodu
+- [spicetify/cli](https://github.com/spicetify/cli) - Narzędzie CLI do personalizacji klienta Spotify. Obsługuje Windows, MacOS i Linux.
+- [softvar/enhanced-github](https://github.com/softvar/enhanced-github) - :rocket: Rozszerzenie przeglądarki wyświetlające rozmiar pliku, link do pobrania i umożliwiające kopiowanie zawartości pliku bezpośrednio do schowka
+- [stefanbuck/awesome-browser-extensions-for-github](https://github.com/stefanbuck/awesome-browser-extensions-for-github) - Kolekcja świetnych rozszerzeń przeglądarki do GitHub.
+- [dessant/buster](https://github.com/dessant/buster) - Rozszerzenie do rozwiązywania Captcha dla ludzi, dostępne dla Chrome, Edge i Firefox
+- [gildas-lormeau/SingleFile](https://github.com/gildas-lormeau/SingleFile) - Rozszerzenie Web do zapisywania wiernej kopii całej strony internetowej w jednym pliku HTML
+- [listen1/listen1_chrome_extension](https://github.com/listen1/listen1_chrome_extension) - jedna dla całej darmowej muzyki w Chinach (rozszerzenie chrome, działa też na firefox)
+- [unbug/codelf](https://github.com/unbug/codelf) - Narzędzie wyszukujące pomagające programistom rozwiązać problem nazewnictwa.
+- [muan/github-dashboard](https://github.com/muan/github-dashboard) - [Rozszerzenie web] Filtrowanie wydarzeń na dashboardzie aktywności github.com.
+- [ovity/octotree](https://github.com/ovity/octotree) - GitHub na sterydach
+- [modood/Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China) - Podział administracyjny Chińskiej Republiki Ludowej: poziom prowincji (prowincje), poziom miast, poziom powiatów, poziom gmin, poziom wsi – dane adresowe z połączeniem 2, 3, 4, 5 poziomów.
+- [marktext/marktext](https://github.com/marktext/marktext) - 📝Prosty i elegancki edytor markdown, dostępny na Linux, macOS i Windows.
+- [notion-enhancer/notion-enhancer](https://github.com/notion-enhancer/notion-enhancer) - Rozszerzenie/personalizacja dla workspace Notion all-in-one
+- [carbon-design-system/carbon](https://github.com/carbon-design-system/carbon) - System projektowania stworzony przez IBM
+- [tks18/gindex-v4](https://github.com/tks18/gindex-v4) - Indeks G oparty na Vue Js z ulepszonym trybem ciemnym, wyszukiwarką i odtwarzaczem wideo
+- [bryanbraun/checkboxland](https://github.com/bryanbraun/checkboxland) - Renderuj wszystko jako pola wyboru HTML
+- [jhotmann/node-rename-cli](https://github.com/jhotmann/node-rename-cli) - Narzędzie do szybkiego zmieniania nazw plików, szczególnie wielu plików jednocześnie.
+- [GitSquared/edex-ui](https://github.com/GitSquared/edex-ui) - Wieloplatformowy, konfigurowalny emulator terminala science fiction z zaawansowanym monitoringiem i wsparciem dla ekranów dotykowych.
+- [methodofaction/Method-Draw](https://github.com/methodofaction/Method-Draw) - Method Draw, edytor SVG dla Method of Action
+- [SVG-Edit/svgedit](https://github.com/SVG-Edit/svgedit) - Potężny edytor SVG dla Twojej przeglądarki
+- [richardkrikler/Notability-Viewer](https://github.com/richardkrikler/Notability-Viewer) - Przeglądarka notatek Notability dla kopii zapasowych PDF w systemie plików (np. z integracją OneDrive w Windows).
+- [pandao/editor.md](https://github.com/pandao/editor.md) - Otwarty, osadzalny edytor markdown online (komponent).
+- [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) - Zasady podziału ruchu, zasady przepisywania oraz skrypty.
+- [littlegolden/syntax-highlight-word](https://github.com/littlegolden/syntax-highlight-word) - Wznowiony projekt Syntax Highlight Code dla planetB.
+- [badges/shields](https://github.com/badges/shields) - Zwięzłe, spójne i czytelne odznaki w formacie SVG i rastrowym
+- [lekoOwO/short-link-bot](https://github.com/lekoOwO/short-link-bot) - Bot Telegram do skracania linków hostowany na Cloudflare Workers zasilany przez short.io
+- [xyTom/Url-Shorten-Worker](https://github.com/xyTom/Url-Shorten-Worker) - Skracacz URL stworzony przy użyciu Cloudflare Worker
+- [kamranahmedse/githunt](https://github.com/kamranahmedse/githunt) - Wyszukuj najczęściej gwiazdkowane projekty na dowolną datę na GitHubie
+- [pyatyispyatil/github-releases-notify-bot](https://github.com/pyatyispyatil/github-releases-notify-bot) - Pozwala otrzymywać powiadomienia o nowych wydaniach oprogramowania na GitHubie w Telegramie
+- [mrdoob/three.js](https://github.com/mrdoob/three.js) - Biblioteka JavaScript 3D.
+- [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) - Narzędzie do budowania stron www bez konfiguracji. 📦🚀
+- [Chalarangelo/30-seconds-of-code](https://github.com/Chalarangelo/30-seconds-of-code) - Artykuły programistyczne, które podniosą Twoje umiejętności developerskie
+- [shimohq/chinese-programmer-wrong-pronunciation](https://github.com/shimohq/chinese-programmer-wrong-pronunciation) - Słowa, które chińscy programiści łatwo wymawiają niepoprawnie
+- [evil-huawei/evil-huawei](https://github.com/evil-huawei/evil-huawei) - Evil Huawei - Złe działania Huawei
+- [Raxvis/simple-icon-generator](https://github.com/Raxvis/simple-icon-generator) - Prosty generator ikon
+- [ascoders/weekly](https://github.com/ascoders/weekly) - Cotygodniowy przegląd front-endu. Pomaga zrozumieć najnowsze i praktyczne technologie.
+- [saltcorn/saltcorn](https://github.com/saltcorn/saltcorn) - Darmowy i otwarty kreator aplikacji no-code
+- [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) - :zap: Dynamicznie generowane statystyki do twoich readme na GitHubie
+- [JacksonBates/tweet-delete-bot](https://github.com/JacksonBates/tweet-delete-bot) - Bot, który usuwa i odznacza tweety starsze niż 10 dni. Zaplanuj uruchamianie raz dziennie, aby stać się efemerycznym użytkownikiem Twittera, tak jak http://twitter.com/JacksonBates
+- [thedevs-network/kutt](https://github.com/thedevs-network/kutt) - Darmowy nowoczesny skracacz URL.
+- [ethantw/Han](https://github.com/ethantw/Han) - „漢字標準格式” - typograficzne ramy CSS zoptymalizowane dla Hanzi, jak w druku.
+- [nadimkobeissi/appleprivacyletter](https://github.com/nadimkobeissi/appleprivacyletter) - Otwarty list przeciwko nowemu, naruszającemu prywatność, mechanizmowi skanowania treści po stronie klienta Apple.
+- [pkalogiros/AudioMass](https://github.com/pkalogiros/AudioMass) - Darmowe, pełnoprawne narzędzie do edycji dźwięku i widm online
+- [renzhezhilu/webp2jpg-online-demo](https://github.com/renzhezhilu/webp2jpg-online-demo) - Tutaj zebrano biblioteki do przetwarzania obrazów (konwersja formatów) w przeglądarce oraz przygotowano odpowiednie strony demo.
+- [renzhezhilu/webp2jpg-online](https://github.com/renzhezhilu/webp2jpg-online) - Przeglądarkowy konwerter formatów obrazów online, bez konieczności przesyłania plików; możesz konwertować jpeg, jpg, png, gif, webp, svg, ico, bmp na jpeg, png, animację webp, gif, base64, avif, mozjpeg.
+- [benweet/stackedit](https://github.com/benweet/stackedit) - Edytor Markdown w przeglądarce
+- [stylus/stylus](https://github.com/stylus/stylus) - Ekspresyjny, solidny, bogaty w funkcje język CSS stworzony dla nodejs
+- [magic-akari/ncmc-web](https://github.com/magic-akari/ncmc-web) - Konwertuj pliki w przeglądarce
+- [HeiSir2014/M3U8-Downloader](https://github.com/HeiSir2014/M3U8-Downloader) - M3U8-Downloader obsługuje wielowątkowość, wznawianie pobierania i pobieranie zaszyfrowanych wideo.
+- [thuservices/thuservices](https://github.com/thuservices/thuservices) - https://thu.services
+- [treehollow/webhole](https://github.com/treehollow/webhole) - Frontend reactowy THU Hole
+- [xmcp/webhole](https://github.com/xmcp/webhole) - Frontend reactowy Hole
+## Jinja 
+
+- [yunionio/ocboot](https://github.com/yunionio/ocboot) - Narzędzie do instalacji i konfiguracji Cloudpods
+- [trailofbits/algo](https://github.com/trailofbits/algo) - Skonfiguruj osobisty VPN w chmurze
+
+## Julia 
+
+- [JuliaLang/julia](https://github.com/JuliaLang/julia) - Język programowania Julia
+
+## Jupyter Notebook 
+
+- [Estom/notes](https://github.com/Estom/notes) - Cała wiedza życiowa programisty! Notatki & tutoriale. Studia magisterskie, zatrudnienie, nauka. Języki: Android, C++, Java, JavaScript, Latex, MATLAB, NodeJS, PHP, Python. Technologie: docker, git, Linux, Maven, office, Spark, Spring, SVN. Podstawy: teoria kompilacji, systemy operacyjne, mikrokontrolery, sieci komputerowe, eksperymenty sieciowe, wzorce architektoniczne, pisanie dokumentacji, wzorce projektowe, struktury danych, bazy danych, algorytmy.
+- [ckross4/ML-PolyBites](https://github.com/ckross4/ML-PolyBites) - Przydatny kod do rozpoczęcia przygody z uczeniem maszynowym w nauce o polimerach i chemii
+- [Calysto/matlab_kernel](https://github.com/Calysto/matlab_kernel) - Jupyter Kernel dla Matlab
+- [xinychen/latex-cookbook](https://github.com/xinychen/latex-cookbook) - Tutorial pisania prac naukowych w LaTeX (Wydawnictwo Uniwersytetu Tsinghua)
+- [MarkFzp/mobile-aloha](https://github.com/MarkFzp/mobile-aloha) - Mobile ALOHA: Nauka dwuręcznej mobilnej manipulacji z użyciem taniej teleoperacji całego ciała
+- [JinChengZ18/Learning-Materials-of-SMSE](https://github.com/JinChengZ18/Learning-Materials-of-SMSE) - Materiały do nauki dla studentów Wydziału Materiałoznawstwa Uniwersytetu Tsinghua – prezentacje, książki, zadania, raporty z eksperymentów i inne
+- [datawhalechina/llm-cookbook](https://github.com/datawhalechina/llm-cookbook) - Wprowadzenie do LLM dla deweloperów, chińska wersja kursu Andrew Ng o dużych modelach językowych
+- [langchain-ai/langchain](https://github.com/langchain-ai/langchain) - 🦜🔗 Buduj aplikacje z kontekstowym rozumowaniem
+- [sanchit-gandhi/whisper-jax](https://github.com/sanchit-gandhi/whisper-jax) - Implementacja modelu Whisper OpenAI w JAX, przyspieszenie do 70x na TPU.
+- [Stability-AI/StableLM](https://github.com/Stability-AI/StableLM) - StableLM: Modele językowe Stability AI
+- [advimman/lama](https://github.com/advimman/lama) - 🦙  LaMa Image Inpainting, odporne na rozdzielczość uzupełnianie dużych masek obrazów z użyciem splotów Fouriera, WACV 2022
+- [camenduru/stable-diffusion-webui-colab](https://github.com/camenduru/stable-diffusion-webui-colab) - stable diffusion webui colab
+- [LinXueyuanStdio/LaTeX_OCR](https://github.com/LinXueyuanStdio/LaTeX_OCR) - :gem: Rozpoznawanie wzorów matematycznych Math Formula OCR
+- [xuebinqin/DIS](https://github.com/xuebinqin/DIS) - Repozytorium projektu Highly Accurate Dichotomous Image Segmentation
+- [MubertAI/Mubert-Text-to-Music](https://github.com/MubertAI/Mubert-Text-to-Music) - Prosty notebook prezentujący generowanie muzyki na podstawie promptów przez Mubert API
+- [LinXueyuanStdio/LaTeX_OCR_PRO](https://github.com/LinXueyuanStdio/LaTeX_OCR_PRO) - :art: Rozszerzone rozpoznawanie wzorów matematycznych: chińskie i angielskie ręczne i drukowane wzory, wsparcie dla podstawowych wyprowadzeń symbolicznych (struktura danych oparta na drzewie AST LaTeX)
+- [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion) - Latentny model dyfuzji tekst-na-obraz
+- [pengc02/THUDA-CRACKER](https://github.com/pengc02/THUDA-CRACKER) - Poradnik życia w DA
+- [TheCaduceus/WARP-UNLIMITED-ADVANCED](https://github.com/TheCaduceus/WARP-UNLIMITED-ADVANCED) - Uzyskaj nieograniczoną ilość danych w Cloudflare WARP VPN🔥
+- [megvii-research/IJCAI2023-CoNR](https://github.com/megvii-research/IJCAI2023-CoNR) - IJCAI2023 - Wspólne renderowanie neuronowe przy użyciu arkuszy postaci anime
+- [Baiyuetribe/paper2gui](https://github.com/Baiyuetribe/paper2gui) - Konwertuj artykuły AI do GUI, aby każdy mógł łatwo korzystać z technologii sztucznej inteligencji
+- [PradyumnaKrishna/Colab-Hacks](https://github.com/PradyumnaKrishna/Colab-Hacks) - Proste hacki do Google Colaboratory zwiększające produktywność i pomagające w codziennych zadaniach.
+- [zergtant/pytorch-handbook](https://github.com/zergtant/pytorch-handbook) - Podręcznik PyTorch to otwarta książka, której celem jest szybkie wprowadzenie osób zainteresowanych uczeniem głębokim z użyciem PyTorch. Wszystkie tutoriale zostały przetestowane i działają poprawnie.
+- [Harvard-IACS/2019-CS109A](https://github.com/Harvard-IACS/2019-CS109A) - https://harvard-iacs.github.io/2019-CS109A/
+- [microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) - 10 tygodni, 20 lekcji, Data Science dla każdego!
+- [googlecolab/colabtools](https://github.com/googlecolab/colabtools) - Biblioteki Pythona dla Google Colaboratory
+- [Pierian-Data/Complete-Python-3-Bootcamp](https://github.com/Pierian-Data/Complete-Python-3-Bootcamp) - Pliki kursowe do kursu Complete Python 3 Bootcamp na Udemy
+- [hgorr/matlab-with-python](https://github.com/hgorr/matlab-with-python) - Przykłady użycia MATLAB i Pythona razem
+- [mchong6/JoJoGAN](https://github.com/mchong6/JoJoGAN) - Oficjalne repozytorium PyTorch JoJoGAN: One Shot Face Stylization
+- [prathimacode-hub/Awesome_Python_Scripts](https://github.com/prathimacode-hub/Awesome_Python_Scripts) - 🚀 Wyselekcjonowana kolekcja niesamowitych skryptów Pythona, które Cię zachwycą. Zanurz się w świecie ponad 360 skryptów. Współtwórz repozytorium i wesprzyj je ✨.
+- [google-research/google-research](https://github.com/google-research/google-research) - Google Research
+- [Spidy20/Python_To_APK](https://github.com/Spidy20/Python_To_APK) - Możesz konwertować swój kod Pythona na plik APK Androida.
+- [Dsantra92/Julia-on-Colab](https://github.com/Dsantra92/Julia-on-Colab) - Notebook do uruchamiania Julii na Google Colab
+- [firmai/awesome-google-colab](https://github.com/firmai/awesome-google-colab) - Notatniki i repozytoria Google Colaboratory (by @firmai)
+- [frankwxu/digital-forensics-lab](https://github.com/frankwxu/digital-forensics-lab) - Bezpłatne praktyczne laboratoria z informatyki śledczej dla studentów i wykładowców
+- [sokrypton/ColabFold](https://github.com/sokrypton/ColabFold) - Umożliwiamy składanie białek dla wszystkich!
+- [bryandlee/animegan2-pytorch](https://github.com/bryandlee/animegan2-pytorch) - Implementacja PyTorch AnimeGANv2
+- [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) - Python – 100 dni od nowicjusza do mistrza
+- [marceloprates/prettymaps](https://github.com/marceloprates/prettymaps) - Rysuj ładne mapy z danych OpenStreetMap! Oparte na osmnx + matplotlib + shapely
+## Kotlin 
+
+- [gkd-kit/gkd](https://github.com/gkd-kit/gkd) - Aplikacja Android z niestandardowym stukaniem w ekran oparta na funkcjach dostępności, zaawansowanych selektorach i zasadach subskrypcji
+- [Sjj1024/PakePlus-Android](https://github.com/Sjj1024/PakePlus-Android) - Zamień dowolną stronę internetową/Vue/React itp. w aplikację desktopową i mobilną w kilka minut. Łatwo zbuduj dowolną stronę/Vue/React do lekkiej (poniżej 5 MB) aplikacji wieloplatformowej i mobilnej w zaledwie kilka minut. https://ppofficial.netlify.app/
+- [iamgio/quarkdown](https://github.com/iamgio/quarkdown) - 🪐 Markdown z supermocami — od pomysłów do prac, prezentacji i książek.
+- [Ackites/Nrfr](https://github.com/Ackites/Nrfr) - 🌍 Narzędzie do zmiany kodu kraju karty SIM bez Roota | Rozwiązuje problemy kompatybilności podczas roamingu międzynarodowego, pomaga użytkownikom zagranicznych kart SIM uzyskać lepsze doświadczenia lokalne, odblokowuje ograniczenia operatora, przełamuje blokady regionalne
+- [GuoXiCheng/SKIP](https://github.com/GuoXiCheng/SKIP) - Automatyczne pomijanie reklam startowych w aplikacjach
+- [you-apps/ClockYou](https://github.com/you-apps/ClockYou) - Prywatnościowy zegar na Androida zbudowany w oparciu o MD3
+- [IacobIonut01/Gallery](https://github.com/IacobIonut01/Gallery) - Galeria multimediów na Androida wykonana przy użyciu Jetpack Compose
+- [MetaCubeX/ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid) - Tunel oparty na regułach dla Androida.
+- [MatsuriDayo/NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid) - NekoBox dla Androida / sing-box / uniwersalny łańcuch narzędzi proxy dla Androida
+- [pppscn/SmsForwarder](https://github.com/pppscn/SmsForwarder) - Przekierowywacz SMS — monitoruje SMS-y, połączenia, powiadomienia aplikacji na Androidzie i przekazuje je według określonych reguł na inne urządzenia: niestandardowy bot DingTalk, bot DingTalk w firmie, bot grupowy WeChat, bot Feishu, wiadomości aplikacji firmowego WeChata, e-mail, bark, webhook, bot Telegram, Server酱, PushPlus, SMS itp. Zawiera aktywne sterowanie serwerem i klientem, umożliwiając zdalne wysyłanie SMS-ów, sprawdzanie wiadomości, połączeń, książki telefonicznej, stanu baterii itp. (Nowość w V3.0) PS. Ten APK to głównie
+- [celzero/rethink-app](https://github.com/celzero/rethink-app) - Klient DNS over HTTPS / DNS over Tor / DNSCrypt, proxifier WireGuard, firewall i monitor połączeń dla Androida.
+- [JunkFood02/Seal](https://github.com/JunkFood02/Seal) - 🦭 Downloader wideo/audio dla Androida, oparty na yt-dlp, zaprojektowany zgodnie z Material You
+- [wenzewoo/jetbrains-markdown-image-support](https://github.com/wenzewoo/jetbrains-markdown-image-support) - Edytor Markdown z obsługą jednego kliknięcia do przesyłania obrazów, przeznaczony do popularnych produktów z serii JetBrains.                           Edytor Markdown z obsługą jednego kliknięcia do przesyłania obrazów, odpowiedni dla najczęstszych produktów JetBrains.
+- [Shabinder/SpotiFlyer](https://github.com/Shabinder/SpotiFlyer) - Kotlin Multiplatform Music Downloader, obsługuje Spotify /   Gaana / Youtube Music / Jio Saavn / SoundCloud.
+- [SagerNet/SagerNet](https://github.com/SagerNet/SagerNet) - Uniwersalny łańcuch narzędzi proxy dla Androida
+- [2dust/v2rayNG](https://github.com/2dust/v2rayNG) - Klient V2Ray dla Androida, obsługuje Xray core i v2fly core
+- [topjohnwu/Magisk](https://github.com/topjohnwu/Magisk) - Magiczna maska dla Androida
+- [fan123199/v2ex-simple](https://github.com/fan123199/v2ex-simple) - Prosta aplikacja na Androida innej firmy dla v2ex
+## LLVM 
+
+- [llvm/llvm-project](https://github.com/llvm/llvm-project) - Projekt LLVM to zbiór modułowych i wielokrotnego użytku technologii kompilatorów oraz narzędzi.
+
+## Lua 
+
+- [iDvel/rime-ice](https://github.com/iDvel/rime-ice) - Konfiguracja Rime: Wùsōng Pinyin | Długoterminowo utrzymywana uproszczona baza słów
+- [AstroNvim/AstroNvim](https://github.com/AstroNvim/AstroNvim) - AstroNvim to estetyczna i bogata w funkcje konfiguracja Neovim, która jest rozbudowywalna i łatwa w użyciu z doskonałym zestawem wtyczek
+- [craftzdog/dotfiles-public](https://github.com/craftzdog/dotfiles-public) - Moje prywatne pliki konfiguracyjne
+- [jdhao/nvim-config](https://github.com/jdhao/nvim-config) - Nowoczesna konfiguracja Neovim z pełnym wsparciem dla Pythona, Lua, C++, Markdown, LaTeX i nie tylko...
+- [FraserLee/ScratchPad](https://github.com/FraserLee/ScratchPad) - Wtyczka do automatycznego centrowania buforów Neovim z przydatnym, trwałym notatnikiem po boku
+
+## MATLAB 
+
+- [scottclowe/matlab-schemer](https://github.com/scottclowe/matlab-schemer) - Łatwe stosowanie i zapisywanie schematów kolorów w MATLAB.
+
+## MDX 
+
+- [EvanNotFound/how-to-deal-with-my-crush](https://github.com/EvanNotFound/how-to-deal-with-my-crush) - Subiektywny przewodnik po relacjach uczuciowych
+- [mk965/mengke.me](https://github.com/mk965/mengke.me) - Mój 🏠 w ☁️. Portfolio, prezentacje, fragmenty kodu i dzienniki rozwoju
+- [lvwzhen/law-cn-ai](https://github.com/lvwzhen/law-cn-ai) - ⚖️ Asystent AI do prawa
+- [cloudflare/cloudflare-docs](https://github.com/cloudflare/cloudflare-docs) - Dokumentacja Cloudflare
+- [yangshun/front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook) - 🌐 Materiały do przygotowania do rozmów kwalifikacyjnych z front-endu dla zapracowanych inżynierów (aktualizacja na 2025)
+- [twbs/bootstrap](https://github.com/twbs/bootstrap) - Najpopularniejszy framework HTML, CSS i JavaScript do tworzenia responsywnych, mobilnych projektów internetowych.
+## Makefile 
+
+- [Ewenwan/Ros](https://github.com/Ewenwan/Ros) - Robotyczny system operacyjny ROS, rozpoznawanie mowy, rozumienie semantyczne, sterowanie wizją, symulacja gazebo, mapowanie i nawigacja radarowa
+- [yuk7/ArchWSL](https://github.com/yuk7/ArchWSL) - Dystrybucja WSL oparta na ArchLinux. Obsługuje wiele instalacji.
+
+## Markdown 
+
+- [Schweinepriester/github-profile-achievements](https://github.com/Schweinepriester/github-profile-achievements) - Kolekcja przedstawiająca wszystkie osiągnięcia dostępne w profilu GitHub 🏆
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) - Opanuj programowanie, odtwarzając od podstaw swoje ulubione technologie.
+- [jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command) - Narzędzie do wyszukiwania pełnej listy poleceń Linux, zawiera podręczniki poleceń, szczegółowe wyjaśnienia, materiały do nauki i kolekcje. https://git.io/linux
+- [MicrosoftDocs/azure-docs](https://github.com/MicrosoftDocs/azure-docs) - Dokumentacja open source Microsoft Azure
+- [tldr-pages/tldr](https://github.com/tldr-pages/tldr) - 📚 Współtworzone ściągawki do poleceń konsolowych
+- [microsoft/vscode-docs](https://github.com/microsoft/vscode-docs) - Publiczna dokumentacja Visual Studio Code
+
+## Mermaid 
+
+- [v2fly/v2ray-examples](https://github.com/v2fly/v2ray-examples) - Szablony dla v2ray-core
+
+## Meson 
+
+- [elementary/wallpapers](https://github.com/elementary/wallpapers) - Kolekcja tapet dla elementary OS
+## Objective-C 
+
+- [MustangYM/WeChatExtension-ForMac](https://github.com/MustangYM/WeChatExtension-ForMac) - Wtyczka do Mac WeChat
+
+## Inne
+
+- [lTbgykio/Books-Free-Books](https://github.com/lTbgykio/Books-Free-Books) - Zbiór darmowych książek.　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+- [LOWERTOP/Shadowrocket-First](https://github.com/LOWERTOP/Shadowrocket-First) - Motywy kolorystyczne i konfiguracja Shadowrocket
+- [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Trae AI & Cluely (i inne otwarte) System Prompts, Narzędzia & Modele AI.
+- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - Kolekcja serwerów MCP.
+- [zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization) - Zdrowe uczenie się do 150 lat - niekompletny przewodnik po optymalizacji systemu ludzkiego
+- [SpaceTimee/Fusion-JetBrainsMapleMono](https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono) - JetBrains Maple Mono: darmowa i otwartoźródłowa czcionka łącząca JetBrains Mono & Maple Mono
+- [ZJU-LLMs/Foundations-of-LLMs](https://github.com/ZJU-LLMs/Foundations-of-LLMs) - 
+- [IQAQI233/611Study.ICU](https://github.com/IQAQI233/611Study.ICU) - Obecnie większość chińskich licealistów jest zmuszana do nauki 611, od 6:00 do 23:00 przez 6 dni w tygodniu. Niestety, wielu uczniów popełniło samobójstwo lub doznało poważnych problemów psychicznych. Zainspirowane projektem 996.i
+- [VIP-Share/Baidu-XunleiVIP](https://github.com/VIP-Share/Baidu-XunleiVIP) - Super VIP Baidu Cloud, konta VIP Xunlei, iQIYI oraz dzienne udostępnianie kont VIP Youku, Tencent, Mango itd. ORAZ. Narzędzia do usuwania limitów prędkości Baidu Cloud (Baidu Yun).
+- [pengsida/learning_research](https://github.com/pengsida/learning_research) - Moje doświadczenia badawcze
+- [wgwang/awesome-LLMs-In-China](https://github.com/wgwang/awesome-LLMs-In-China) - Chińskie duże modele językowe
+- [JnuSimba/MiscSecNotes](https://github.com/JnuSimba/MiscSecNotes) - Notatki z nauki o bezpieczeństwie aplikacji webowych, testach penetracyjnych
+- [P3TERX/GeoLite.mmdb](https://github.com/P3TERX/GeoLite.mmdb) - Bazy danych MaxMind GeoIP2 GeoLite2 Country, City i ASN
+- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers) - 🚀 Darmowe adresy subskrypcyjne, 🚀 Darmowe węzły, 🚀 Aktualizowane co 6 godzin, węzły współdzielone, wysokiej jakości, całkowicie za darmo. Darmowe adresy subskrypcyjne do clash, darmowe narzędzia do ominięcia cenzury, darmowe ss/v2ray/trojan, Google Play, VPN. 🚀
+- [billmei/every-chatgpt-gui](https://github.com/billmei/every-chatgpt-gui) - Każdy klient GUI front-end dla ChatGPT, Claude i innych LLM
+- [zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare) - ⛅️ Wyselekcjonowana lista narzędzi Cloudflare, projektów open source, przewodników, blogów i innych zasobów.
+- [zbezj/HEU_KMS_Activator](https://github.com/zbezj/HEU_KMS_Activator) - 
+- [tuna/issues](https://github.com/tuna/issues) - Problemy niezwiązane z kodem
+- [bamf2077/secure-dns](https://github.com/bamf2077/secure-dns) - Bezpieczne profile konfiguracyjne DNS dla urządzeń Apple. DNS over HTTPS (DoH) & DNS over TLS (DoT) dla iOS, iPadOS & macOS.
+- [TsinghuaMemes/TsinghuaMemes](https://github.com/TsinghuaMemes/TsinghuaMemes) - Aby podczas rozmów grupowych rozumieć, o czym mówią inni
+- [mlabonne/llm-course](https://github.com/mlabonne/llm-course) - Kurs wprowadzający do Large Language Models (LLMs) z roadmapami i notatnikami Colab.
+- [maxujie/awesome-tsinghua](https://github.com/maxujie/awesome-tsinghua) - Integracja ciekawych repozytoriów związanych z Uniwersytetem Tsinghua
+- [easychen/lean-side-bussiness](https://github.com/easychen/lean-side-bussiness) - Lean Side Business: Jak programiści mogą zgrabnie prowadzić działalność dodatkową
+- [Wsky51/THU-CS912-kaoyan](https://github.com/Wsky51/THU-CS912-kaoyan) - Egzaminy wstępne z informatyki na Uniwersytet Tsinghua (912), arkusze i prezentacje z kursów
+- [MerlinKodo/clash-rev](https://github.com/MerlinKodo/clash-rev) - Kontynuacja projektu Clash core
+- [THU-feiyue/docs](https://github.com/THU-feiyue/docs) - Podręcznik wyjazdowy Uniwersytetu Tsinghua
+- [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) - 🦄 🎃 👻 Rozszerzone pliki reguł routingu V2Ray, mogą zastąpić oficjalne geoip.dat i geosite.dat, kompatybilne z V2Ray, Xray-core, mihomo(Clash-Meta), hysteria, Trojan-Go i leaf.
+- [huaweiii/HWGaussDB](https://github.com/huaweiii/HWGaussDB) - GaussDB od Huawei - całkowicie niezależnie opracowana, przełamująca zagraniczną dominację, 600% szybsza niż PostgreSQL.
+- [cloudcommunity/Cloud-Free-Tier-Comparison](https://github.com/cloudcommunity/Cloud-Free-Tier-Comparison) - Porównanie ofert darmowych głównych dostawców chmury jak AWS, Azure, GCP, Oracle itd.
+- [iamshuaidi/CS-Book](https://github.com/iamshuaidi/CS-Book) - Zbiór popularnych e-booków z informatyki z linkami do pobrania, m.in. Java, Python, Linux, Go, C, C++, struktury danych i algorytmy, AI, podstawy informatyki, wywiady, wzorce projektowe, bazy danych, front-end itd.
+- [immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate) - Zanurzeniowe tłumaczenie stron www: tłumaczenie pól wejściowych, najechanie myszką, PDF, Epub, napisy, pliki TXT - Immersive Dual Web Page Translation Extension
+- [megaease/Remembering-Haoel](https://github.com/megaease/Remembering-Haoel) - Zapis wspomnień o Zuolear Duo Haozi (Chen Hao)
+- [cursor/cursor](https://github.com/cursor/cursor) - Edytor kodu AI
+- [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) - Awesome-LLM: wyselekcjonowana lista dużych modeli językowych
+- [dalinvip/Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT) - Zbiór materiałów o ChatGPT, nauka, ciągłe aktualizacje...
+- [v2fly/v2ray-step-by-step](https://github.com/v2fly/v2ray-step-by-step) - Fork repozytorium ToutyRater/v2ray-guide, nowy przewodnik krok po kroku po v2ray
+- [davinci1010/pinduoduo_backdoor](https://github.com/davinci1010/pinduoduo_backdoor) - Kod podnoszący uprawnienia osadzony w pliku apk Pinduoduo oraz analiza dynamicznego ładowania dex
+- [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - Przewodnik po promptach do ChatGPT w języku chińskim. Poradniki do różnych scenariuszy. Ucz się, jak go kontrolować.
+- [noobnooc/noobnooc](https://github.com/noobnooc/noobnooc) - Mój profil
+- [jesselau76/GPT-Prompts](https://github.com/jesselau76/GPT-Prompts) - Przydatne prompty do GPT
+- [humanloop/awesome-chatgpt](https://github.com/humanloop/awesome-chatgpt) - Wyselekcjonowana lista świetnych narzędzi, demonstracji, dokumentacji dla ChatGPT i GPT-3
+- [erbanku/erbanku](https://github.com/erbanku/erbanku) - 
+- [dukeluo/awesome-awesome-prompts](https://github.com/dukeluo/awesome-awesome-prompts) - Wyjątkowa lista kolekcji list dotyczących prompt engineering.
+- [mushan0x0/AI0x0.com](https://github.com/mushan0x0/AI0x0.com) - Wielomodalny, wielomodelowy uniwersalny globalny asystent AI na pulpit
+- [apachecn/huazhang-econ-mgt-book](https://github.com/apachecn/huazhang-econ-mgt-book) - :book: Skanowane w wysokiej rozdzielczości książki z serii Huazhang z ekonomii i zarządzania
+- [tuic-protocol/tuic](https://github.com/tuic-protocol/tuic) - Delikatnie dostrojony protokół proxy TUIC z 0-RTT
+- [Alice-space/PKU-OpenWrt](https://github.com/Alice-space/PKU-OpenWrt) - Jak skonfigurować OpenWrt na PKU
+- [eliaszon/Programmers-Overseas-Job-Interview-Handbook](https://github.com/eliaszon/Programmers-Overseas-Job-Interview-Handbook) - 🏂🏻 Podręcznik do pracy za granicą/angielskich rozmów kwalifikacyjnych dla programistów
+- [lukeed/awesome-cloudflare-workers](https://github.com/lukeed/awesome-cloudflare-workers) - 😎 Awesome Cloudflare Workers
+- [LUKE-ZZ/thuthesis-biomedical](https://github.com/LUKE-ZZ/thuthesis-biomedical) - Szablon pracy dyplomowej LaTeX dla kierunków biomedycznych, medycznych, farmaceutycznych na Uniwersytecie Tsinghua. Również dla innych kierunków, z przyjaznymi komentarzami dla początkujących w LaTeX.
+- [oneclickearth/oneclick](https://github.com/oneclickearth/oneclick) - Ominięcie cenzury/narzędzia do wolnego internetu/oprogramowanie, przewodnik 2021
+- [k88hudson/git-flight-rules](https://github.com/k88hudson/git-flight-rules) - Zasady postępowania z git
+- [rockbenben/LearnData](https://github.com/rockbenben/LearnData) - Notatki o narzędziach open source, metodach efektywności i eksploracji psychologii
+- [fredliu168/TheEconomist2022](https://github.com/fredliu168/TheEconomist2022) - The Economist 2022 online, z audio. Jeśli domena nie działa, odwiedź http://157.230.57.119:8888
+- [myseil/BingWallpaper](https://github.com/myseil/BingWallpaper) - Kolekcja tapet Bing publikowanych każdego dnia
+- [Ethkuil/awesome-thu-student-software](https://github.com/Ethkuil/awesome-thu-student-software) - Zbiór użytecznego open source oprogramowania tworzonego/utrzymywanego przez studentów Uniwersytetu Tsinghua.
+- [HelinXu/THUDA-9](https://github.com/HelinXu/THUDA-9) - Notatki z kursów Wydziału Automatyki Uniwersytetu Tsinghua
+- [DerDanilo/seafile-community-manual](https://github.com/DerDanilo/seafile-community-manual) - Podręcznik społeczności Seafile dla wersji CE
+- [runvnc/dadsresume](https://github.com/runvnc/dadsresume) - CV i umiejętności mojego taty z 1980 roku
+- [SurviveSJTU/SurviveSJTUManual](https://github.com/SurviveSJTU/SurviveSJTUManual) - Zaktualizowana wersja 2008 „Podręcznika przetrwania na Uniwersytecie Jiaotong w Szanghaju”, dostępna na https://survivesjtu.gitbook.io/survivesjtumanual/
+- [dy-sh/one-dark-potplayer-theme](https://github.com/dy-sh/one-dark-potplayer-theme) - Skórka do PotPlayer inspirowana Atom One Dark
+- [vscode-ext-studio/OneDark-Modern](https://github.com/vscode-ext-studio/OneDark-Modern) - 
+- [bighuang624/AI-research-tools](https://github.com/bighuang624/AI-research-tools) - :hammer: Przydatne narzędzia do badań w AI
+- [jotaen/xit](https://github.com/jotaen/xit) - Format pliku tekstowego do list TODO i checklist
+- [ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix) - Kolekcja nowoczesnych/szybszych/lepszych alternatyw dla typowych poleceń unixowych.
+- [opsre/Thanks-Mirror](https://github.com/opsre/Thanks-Mirror) - Lista dobrych mirrorów dla menedżerów pakietów, obrazów systemowych i popularnego oprogramowania. Jeśli uznasz to za przydatne, zostaw gwiazdkę 👆🌟
+- [KeiKinn/ShadowsocksBio](https://github.com/KeiKinn/ShadowsocksBio) - Historia i podsumowanie tutoriali Shadowsocks
+- [eryajf/awesome-github-profile-readme-chinese](https://github.com/eryajf/awesome-github-profile-readme-chinese) - 🦩 Zbiór wyróżniających się chińskich profili README na GitHubie
+- [lesuixin/v2ray-cf](https://github.com/lesuixin/v2ray-cf) - Prosty poradnik przyspieszania v2ray z Cloudflare bez domeny
+- [irazasyed/awesome-cloudflare](https://github.com/irazasyed/awesome-cloudflare) - ⛅️ Wyselekcjonowana lista przepisów dla Cloudflare workers, projektów open source, przewodników, blogów i innych zasobów.
+- [PicGo/Awesome-PicGo](https://github.com/PicGo/Awesome-PicGo) - Zbiór świetnych projektów używających PicGo.
+- [nicejade/nice-front-end-tutorial](https://github.com/nicejade/nice-front-end-tutorial) - 🌍  Stale aktualizowane zasoby, tutoriale, opinie front-endowe（nowoczesne zasoby i poradniki front-endowe.）
+- [eryajf/learning-weekly](https://github.com/eryajf/learning-weekly) - 📝 Tygodnik głównie o technologiach DevOps i Go, z dodatkiem ciekawych projektów i doświadczeń z GitHuba. Zapraszamy do gwiazdkowania 👆🌟
+- [dair-ai/ML-Course-Notes](https://github.com/dair-ai/ML-Course-Notes) - 🎓 Udostępnianie notatek z kursów / wykładów z uczenia maszynowego.
+- [sirredbeard/awesome-wsl](https://github.com/sirredbeard/awesome-wsl) - Lista poświęcona Windows Subsystem for Linux
+- [GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) - Codziennie dziel się wysokiej jakości, ciekawymi i użytecznymi tutorialami open source, narzędziami deweloperskimi, stronami programistycznymi, nowościami technologicznymi z GitHub.
+- [steam3d/MagicPods-Windows](https://github.com/steam3d/MagicPods-Windows) - Dodaj trochę magii do swoich Airpods na Windows
+- [dair-ai/ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses) - 📺 Odkrywaj najnowsze kursy ML/AI na YouTube.
+- [ImCa0/just-laws](https://github.com/ImCa0/just-laws) - Prosta i wygodna biblioteka chińskiego prawa | A Simple and Convenient Laws Library of China.
+- [github/codeql-cli-binaries](https://github.com/github/codeql-cli-binaries) - Binarne pliki CodeQL CLI
+- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - Zbiór inspirujących list, instrukcji, cheat sheetów, blogów, hacków, one-linerów, narzędzi CLI/web i więcej.
+- [brave/goggles-quickstart](https://github.com/brave/goggles-quickstart) - Materiały edukacyjne o Goggles i jak stworzyć własne.
+- [iggredible/Learn-Vim](https://github.com/iggredible/Learn-Vim) - Nauka Vim i Vimscript nie musi być trudna. To jest ten przewodnik, którego szukasz 📖
+- [fatalerror-i/ThuWordThesis](https://github.com/fatalerror-i/ThuWordThesis) - Szablon pracy dyplomowej Word dla Uniwersytetu Tsinghua.
+- [pb0316/thuhole_memories](https://github.com/pb0316/thuhole_memories) - 
+- [jiegec/dcst-facts](https://github.com/jiegec/dcst-facts) - Fakty o DCST Uniwersytetu Tsinghua
+- [microsoft/vscode-loc](https://github.com/microsoft/vscode-loc) - Rozszerzenie lokalizacyjne VS Code
+- [mangecoeur/AcademicMarkdown](https://github.com/mangecoeur/AcademicMarkdown) - Rozszerzenia do MarkdownEditing do pisania prac naukowych
+- [linuxkerneltravel/linux_kernel_wiki](https://github.com/linuxkerneltravel/linux_kernel_wiki) - Materiały do nauki jądra Linuksa: 200+ klasycznych artykułów, 100+ publikacji, 50+ projektów, 500+ pytań rekrutacyjnych, 80+ filmów
+- [GyanD/codexffmpeg](https://github.com/GyanD/codexffmpeg) - Wsparcie dla https://www.gyan.dev/ffmpeg
+- [scottclowe/matlab-schemes](https://github.com/scottclowe/matlab-schemes) - Kolekcja schematów kolorów do MATLAB
+- [skyiea/rememberry-i10n](https://github.com/skyiea/rememberry-i10n) - Lokalizacja dla Rememberry
+- [rzashakeri/beautify-github-profile](https://github.com/rzashakeri/beautify-github-profile) - To repozytorium pomoże Ci stworzyć piękniejszy profil na GitHubie, dając dostęp do szerokiej gamy narzędzi i tutoriali do jego upiększania.
+- [Jonezhen/CSBook](https://github.com/Jonezhen/CSBook) - 
+- [ripperhe/Bob](https://github.com/ripperhe/Bob) - Bob to aplikacja do tłumaczenia i OCR na macOS.
+- [SwiftOldDriver/iOS-Weekly](https://github.com/SwiftOldDriver/iOS-Weekly) - 🇨🇳 Tygodniowy newsletter iOS dla zaawansowanych
+- [comwrg/package-manager-proxy-settings](https://github.com/comwrg/package-manager-proxy-settings) - Zapis problematycznych ustawień proxy w różnych menedżerach pakietów.
+- [liuchengxu/git-commit-emoji-cn](https://github.com/liuchengxu/git-commit-emoji-cn) - 😁 Przewodnik używania emoji w komunikatach git commit
+- [aishalih/sfwin](https://github.com/aishalih/sfwin) - SFWin — czcionki San Francisco dla Windows 10 i innych niż Apple platform.
+- [aooiuu/z-reader](https://github.com/aooiuu/z-reader) - 📘 [wtyczka vscode] Czytnik powieści, obsługa wyszukiwania online i lokalnego, obsługa formatów txt i epub
+- [inkscape/inkscape](https://github.com/inkscape/inkscape) - Strona projektu: https://inkscape.org - Repozytorium kodu: https://gitlab.com/inkscape/inkscape - Rysuj swobodnie. 🖌
+- [taunoe/arduino-dark-theme](https://github.com/taunoe/arduino-dark-theme) - Ciemny motyw dla Arduino!
+- [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules) - 🦄️ 🎃 👻 Zestaw reguł Clash Premium (RULE-SET), kompatybilny z ClashX Pro, Clash for Windows i innymi klientami opartymi o Clash Premium.
+- [sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines) - Wytyczne dotyczące pisania tekstów po chińsku dla lepszej komunikacji pisemnej／指南 dotyczący układu tekstu w języku chińskim
+- [woct0rdho/pkuholebackup](https://github.com/woct0rdho/pkuholebackup) - 
+- [Keldos-Li/typora-latex-theme-fonts](https://github.com/Keldos-Li/typora-latex-theme-fonts) - 
+- [geekan/HowToLiveLonger](https://github.com/geekan/HowToLiveLonger) - Przewodnik programisty po długowieczności
+- [gaocegege/my-github-status](https://github.com/gaocegege/my-github-status) - 
+- [fat0troll/terminalus](https://github.com/fat0troll/terminalus) - Motywy Terminal.app inspirowane schematami kolorów Termius iOS
+- [clarketm/proxy-list](https://github.com/clarketm/proxy-list) - Lista darmowych, publicznych, przekazujących serwerów proxy. AKTUALIZOWANA CODZIENNIE!
+- [ShiftyTR/Proxy-List](https://github.com/ShiftyTR/Proxy-List) - Darmowa lista proxy AKTUALIZOWANA CO GODZINĘ! -- API na stronie
+- [623637646/996.Leave](https://github.com/623637646/996.Leave) - Ucieczka od 996
+- [The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run) - Oficjalne repozytorium globalnej filozofii Run, zbiór zasad, teorii i przykładów. Rozwiązuje trzy główne pytania: dlaczego, dokąd i jak "run"; staje się nową religią i wiarą Chińczyków.
+- [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) - Wyselekcjonowana lista tutoriali opartych na projektach
+- [veeral-patel/how-to-secure-anything](https://github.com/veeral-patel/how-to-secure-anything) - Jak systematycznie zabezpieczyć cokolwiek: repozytorium o inżynierii bezpieczeństwa
+- [ossu/data-science](https://github.com/ossu/data-science) - 📊 Ścieżka do darmowej samodzielnej edukacji w Data Science!
+- [lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions) - Długa lista (zaawansowanych) pytań dotyczących JavaScript oraz ich wyjaśnienia :sparkles:
+- [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) - Seria książek (2 wydane edycje) o języku JS.
+- [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - Kompletny plan nauki informatyki, aby zostać inżynierem oprogramowania.
+- [DhanushNehru/Ultimate-NodeJs-Resources](https://github.com/DhanushNehru/Ultimate-NodeJs-Resources) - Wszystkie zasoby związane z Node Js w jednym miejscu
+- [Paladinfeng/MiaoProject](https://github.com/Paladinfeng/MiaoProject) - Miao Project Zgłaszanie błędów
+- [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) - Kolekcja pomysłów na aplikacje, które mogą pomóc ulepszyć Twoje umiejętności kodowania.
+- [warpdotdev/Warp](https://github.com/warpdotdev/Warp) - Warp to agentyczne środowisko deweloperskie, stworzone do kodowania z wieloma agentami AI.
+- [Infatuation-Fei/rule](https://github.com/Infatuation-Fei/rule) - Własne reguły
+- [MicrosoftDocs/WSL](https://github.com/MicrosoftDocs/WSL) - Kod źródłowy dokumentacji Windows Subsystem for Linux.
+- [Serendipity-Theme/windows-terminal](https://github.com/Serendipity-Theme/windows-terminal) - Motyw Serendipity przeniesiony do windows terminal.
+- [Serendipity-Theme/vs-code](https://github.com/Serendipity-Theme/vs-code) - Spokojny, delikatny i nowoczesny.
+- [Serendipity-Theme/template-for-repositories](https://github.com/Serendipity-Theme/template-for-repositories) - szablon dla przeniesionych motywów
+- [xuehu54321/awesome-music-for-programming](https://github.com/xuehu54321/awesome-music-for-programming) - Świetna muzyka do programowania. Dobra muzyka podczas kodowania, podziel się tym, czego słuchasz podczas programowania!
+- [soulteary/docker-flare](https://github.com/soulteary/docker-flare) - Flare ✨ Lekka, wydajna i szybka samohostowana strona nawigacyjna, wykorzystanie zasobów &lt;1% CPU, MEM &lt;30 M, obraz Docker &lt; 10M
+- [jCodeLife/mind-map](https://github.com/jCodeLife/mind-map) - 🖼Osobiste notatki mapy myśli, uporządkowane JS, TS, Vue, React ... Ciągła aktualizacja, zapraszamy PR i Start~
+- [coder2gwy/coder2gwy](https://github.com/coder2gwy/coder2gwy) - Pierwszy w internecie przewodnik dla programistów przygotowujących się do egzaminów państwowych, przygotowany przez 3 byłych programistów z dużych firm, którzy już weszli do sektora publicznego.
+- [georgezzzh/homepage](https://github.com/georgezzzh/homepage) - 
+- [996icu/996.ICU](https://github.com/996icu/996.ICU) - Repozytorium do liczenia gwiazdek i współtworzenia. Naciśnij F, aby oddać hołd wspaniałym deweloperom.
+- [danyspin97/TelegramBotsList](https://github.com/danyspin97/TelegramBotsList) - Lista wszystkich botów Telegrama, których kod źródłowy jest hostowany na githubie.
+- [GorvGoyl/Clone-Wars](https://github.com/GorvGoyl/Clone-Wars) - 100+ open-source klonów popularnych stron jak Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube itd. Zobacz kod źródłowy, linki demo, stack technologiczny, gwiazdki github.
+- [github/gitignore](https://github.com/github/gitignore) - Kolekcja przydatnych szablonów .gitignore
+- [gqcn/effective-go-zh-en](https://github.com/gqcn/effective-go-zh-en) - Dwujęzyczna wersja „Effective Go” (chińsko-angielska)
+- [sublime-china/sublime-merge-chinese](https://github.com/sublime-china/sublime-merge-chinese) - Chińska wersja Sublime Merge
+- [facelessuser/merge-dracula-theme](https://github.com/facelessuser/merge-dracula-theme) - Motyw Dracula dla Sublime Merge
+- [konrad91/OneDarkArduino](https://github.com/konrad91/OneDarkArduino) - Ciemny motyw dla Arduino IDE, inspirowany One Dark Pro dla VSCode od binaryify
+- [AbhishekGhosh/Arduino-Themes](https://github.com/AbhishekGhosh/Arduino-Themes) - Kolekcja motywów Arduino IDE stworzonych przez społeczność
+- [shengcaishizhan/kkndme_tianya](https://github.com/shengcaishizhan/kkndme_tianya) - Tianya kkndme wątek o cenach nieruchomości
+- [axipo/TrafficBlackhole](https://github.com/axipo/TrafficBlackhole) - narzędzie do testowania jakości sieci i usług proxy
+- [bestxtools/weekly-cn](https://github.com/bestxtools/weekly-cn) - Odkrywanie i dzielenie się ciekawymi, kreatywnymi, darmowymi i przydatnymi narzędziami, publikacja co czwartek.
+- [coderit666/GoGuide](https://github.com/coderit666/GoGuide) - „Przewodnik po nauce Go” - zbiór kluczowej wiedzy potrzebnej większości programistów Golang, zawiera samouczki, książki open source, trasy nauki. Nauka Go od podstaw, GoGuide to pierwszy wybór.
+- [andredelft/typora-tailwind-theme](https://github.com/andredelft/typora-tailwind-theme) - Piękny układ typografii Tailwind dla Typora.
+- [viraptor/reverse-interview](https://github.com/viraptor/reverse-interview) - Pytania do zadania firmie podczas rozmowy kwalifikacyjnej
+- [perkfly/reverse-interview-zh](https://github.com/perkfly/reverse-interview-zh) - Pytania techniczne na koniec rozmowy do zadania rekruterowi
+- [imageslr/typora-theme-bear](https://github.com/imageslr/typora-theme-bear) - Seria motywów typora w stylu Bear, ponad 20 wersji. Kolekcja motywów typora inspirowanych Bear.
+- [7-sevens/Developer-Books](https://github.com/7-sevens/Developer-Books) - Lista książek związanych z programowaniem i rozwojem
+- [czs108/Cpp-Primer-5th-Notes-CN](https://github.com/czs108/Cpp-Primer-5th-Notes-CN) - 📚 Notatki do „C++ Primer (wersja chińska, wydanie 5)”
+- [ShameCom/ShameCom](https://github.com/ShameCom/ShameCom) - Zbiór firm lub organizacji z "czarną listą" dla studentów szukających pracy. Internet nie zapomina!
+- [csseky/cskaoyan](https://github.com/csseky/cskaoyan) - Dostarcza prawdziwe pytania z egzaminów magisterskich z informatyki i inżynierii oprogramowania dla różnych uczelni
+- [Simizfo/WSATools](https://github.com/Simizfo/WSATools) - Łatwy w użyciu instalator APK i więcej dla Windows Subsystem for Android
+- [SPX372928/MyIPTV](https://github.com/SPX372928/MyIPTV) - Standardowe protokoły mobilnych źródeł transmisji na żywo
+- [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists) - Zbiorcza lista darmowych API do użycia w oprogramowaniu i rozwoju stron internetowych 🚀
+- [Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo) - Zbiór i uporządkowanie wysokiej jakości, interesujących projektów open source na GitHub.
+- [imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8) - Zbiór zasobów związanych z transmisją na żywo 📺 💯 IPTV, M3U — myj ręce, noś maseczkę, życzymy wszystkim zdrowia
+- [methylcloud/learn-gcp](https://github.com/methylcloud/learn-gcp) - Zasoby do nauki Google Cloud Platform (GCP)
+- [awsdocs/amazon-ec2-user-guide-windows](https://github.com/awsdocs/amazon-ec2-user-guide-windows) - Wersja open source przewodnika użytkownika Amazon EC2 dla Windows. Aby przesłać opinie lub prośby o zmiany, zgłoś issue lub prześlij pull request.
+- [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) - Dostarcza wiele reguł Shadowrocket z potężną funkcją filtrowania reklam. Reguły ponownie kompilowane codziennie o 8 rano.
+- [AlenZhang-Dev/News-Record](https://github.com/AlenZhang-Dev/News-Record) - Aktualnie głównie utrzymywane: The Economist, The NewYorker, Time
+- [jeffreyxuan/toneoz-font-pinyin-kai](https://github.com/jeffreyxuan/toneoz-font-pinyin-kai) - 
+- [lanceliao/china-holiday-calender](https://github.com/lanceliao/china-holiday-calender) - Kalendarz chińskich świąt 2023-2025, dni wolnych i roboczych, format ICS, do subskrypcji w IPhone, Google Calendar, Outlook itp., zawiera API świąt
+- [tokyo-night/tokyo-night-vscode-theme](https://github.com/tokyo-night/tokyo-night-vscode-theme) - Czysty, ciemny motyw Visual Studio Code, celebrujący światła nocnego Tokio.
+- [Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules) - 🦄 🎃 👻 Zestaw reguł Surge (DOMAIN-SET i RULE-SET), odpowiedni dla klientów Surge for iOS i Surge for Mac.
+- [OpenRunner/clash-freenode](https://github.com/OpenRunner/clash-freenode) - Subskrypcja🚀 Darmowe współdzielone♻️ Regularne aktualizacje✨ Naukowe surfowanie po sieci🌈 Nie nadużywaj🚫 Jednoprzyciskowa subskrypcja📪SSR/CLASH/V2RAY
+- [Sxela/ArcaneGAN](https://github.com/Sxela/ArcaneGAN) - ArcaneGAN
+- [60ss/Npp-1-Dark](https://github.com/60ss/Npp-1-Dark) - Motyw składni One Dark dla Notepad++
+- [rdev/vscode-theme-onedark-spacegray](https://github.com/rdev/vscode-theme-onedark-spacegray) - Motyw VSCode oparty na One Dark z Atom
+- [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD) - Dąży do bycia najskuteczniejszą chińskojęzyczną listą filtrów reklam, umożliwiającą precyzyjne blokowanie reklam i ochronę prywatności. anti-AD obsługuje obecnie AdGuardHome, dnsmasq, Surge, Pi-Hole, Clash, mihomo, smartdns, sing-box itd. Całkowicie kompatybilny z popularnymi formatami filtrów reklam.
+- [Mosney/anti-anti-AD](https://github.com/Mosney/anti-anti-AD) - Dlaczego nie należy używać listy antiAD do blokowania reklam oraz więcej świetnych alternatyw
+- [leohku/andure](https://github.com/leohku/andure) - DevTools dla Android Chrome — działa na każdej stronie, w każdej przeglądarce Chromium.
+- [opendigg/awesome-github-wechat-weapp](https://github.com/opendigg/awesome-github-wechat-weapp) - Zbiór open source projektów WeChat Mini Program
+- [Discord-Custom-Covers/usrbg](https://github.com/Discord-Custom-Covers/usrbg) - Baza niestandardowych teł użytkowników na @Discord na życzenie.
+- [erbanku/awesome](https://github.com/erbanku/awesome) - 🌟 Moja lista świetnych repozytoriów. Automatycznie aktualizowana przez GitHub Actions o 00:00 i 16:00 UTC
+- [algolia/awesome-algolia](https://github.com/algolia/awesome-algolia) - 🔍👋  ZACZNIJ TUTAJ! Wyselekcjonowana lista bibliotek, zasobów i projektów Algolia.
+- [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) - Wyselekcjonowana lista świetnych zdalnych ofert pracy i zasobów. Inspirowane przez https://github.com/vinta/awesome-python
+- [githubtraining/introduction-to-github](https://github.com/githubtraining/introduction-to-github) - Repozytorium kursu dla kursu Learning Lab „Introduction to GitHub”. Repozytorium szablonowe ➡️
+- [UyCode/uyfonts](https://github.com/UyCode/uyfonts) - są tutaj czcionki UKIJ i Uighursoft
+- [kkozee/vscode-theme-one-dark-vivid](https://github.com/kkozee/vscode-theme-one-dark-vivid) - Motyw One Dark Vivid z Atom dla VS Code
+- [mathjax/MathJax](https://github.com/mathjax/MathJax) - Piękna i dostępna matematyka we wszystkich przeglądarkach
+- [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) - Zbiór (głównie) technicznych rzeczy, które każdy programista powinien znać
+- [yangkky/Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins) - Lista publikacji o uczeniu maszynowym dla białek.
+- [mehcode/awesome-atom](https://github.com/mehcode/awesome-atom) - Wyselekcjonowana lista przyjemnych paczek i zasobów Atom.
+- [mcdtaiwan/McDonalds_Fries_Font](https://github.com/mcdtaiwan/McDonalds_Fries_Font) - Dla każdego fana frytek z McDonald's — czcionka frytkowa McDonald's. Frytki vs ketchup, trochę zabawy! Chrupiące i miękkie frytki, z pysznym ketchupem, nieskończone możliwości. Czcionka frytkowa McDonald's, do pobrania za darmo!
+- [fangzesheng/free-api](https://github.com/fangzesheng/free-api) - Kolekcja darmowych usług API, praca jako przewoźnik API
+- [toml-lang/toml](https://github.com/toml-lang/toml) - Tom's Obvious, Minimal Language
+- [atomiechen/THU-PPT-Theme](https://github.com/atomiechen/THU-PPT-Theme) - Szablony prezentacji PPT w temacie Tsinghua
+- [zhiwehu/Python-programming-exercises](https://github.com/zhiwehu/Python-programming-exercises) - 100+ wymagających ćwiczeń programistycznych z Pythona
+- [hemanth/awesome-pwa](https://github.com/hemanth/awesome-pwa) - Świetna lista progresywnych aplikacji webowych!
+- [joelparkerhenderson/git-commit-message](https://github.com/joelparkerhenderson/git-commit-message) - Wiadomość commit Git: jak pisać świetne wiadomości commit i szablony commit dla kontroli wersji
+- [marvinpinto/action-automatic-releases](https://github.com/marvinpinto/action-automatic-releases) - TYLKO DO ODCZYTU: Automatycznie generowane lustrzane repozytorium dla https://github.com/marvinpinto/actions/tree/master/packages/automatic-releases
+- [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) - Lista świetnych projektów przyjaznych początkującym.
+- [dracula/telegram](https://github.com/dracula/telegram) - 🧛🏻‍♂️ Ciemny motyw dla Telegram Desktop
+- [ahmadawais/shades-of-purple-vscode](https://github.com/ahmadawais/shades-of-purple-vscode) - 🦄 Shades of Purple oferuje starannie dobraną paletę wyrazistych i żywych odcieni fioletu, które zamienią Twój kod w wizualne arcydzieło. Starannie dobrana paleta kolorów, ta
+- [priyankavergadia/GCPSketchnote](https://github.com/priyankavergadia/GCPSketchnote) - Jeśli chcesz zostać inżynierem Google Cloud, to jesteś we właściwym miejscu. GCPSketchnote to seria, w której dzielę się koncepcjami Google Cloud w szybkim i łatwym do nauki formacie.
+- [flyhigher139/Git-Cheat-Sheet](https://github.com/flyhigher139/Git-Cheat-Sheet) - Git Cheat Sheet w języku chińskim, tłumaczenie: Gevin (flyhigher139)
+- [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) - Opanuj linię poleceń na jednej stronie
+- [opendigg/awesome-github-vue](https://github.com/opendigg/awesome-github-vue) - Zbiór open source projektów związanych z Vue
+- [Codextor/npp-material-theme](https://github.com/Codextor/npp-material-theme) - Motyw Material, najbardziej epicki motyw dla Notepad++ | Ciemny motyw
+- [VirgilClyne/iRingo](https://github.com/VirgilClyne/iRingo) - Odblokuj pełne funkcje i usługi integracyjne  Apple
+- [treehollow/install-doc](https://github.com/treehollow/install-doc) - Jak zbudować własny "tree hollow"
+- [0voice/audio_video_streaming](https://github.com/0voice/audio_video_streaming) - Autorytatywne zasoby dotyczące strumieniowania audio/wideo, 500+ artykułów, publikacji, filmów, projektów praktycznych, protokołów, lista branżowych ekspertów.
+- [matchai/awesome-pinned-gists](https://github.com/matchai/awesome-pinned-gists) - 📌✨ Kolekcja świetnych dynamicznych przypiętych gistów na GitHub
+- [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) - 🚀✨ Pomoc dla początkujących w kontrybuowaniu do projektów open source
+- [Tencent/secguide](https://github.com/Tencent/secguide) - Przewodnik po bezpieczeństwie kodu dla programistów
+- [ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey) - Wyselekcjonowana lista świetnych bibliotek, dystrybucji, skryptów, narzędzi i zasobów AutoHotkey.
+- [Hack-with-Github/Windows](https://github.com/Hack-with-Github/Windows) - Świetne narzędzia do eksploatacji Windows!
+- [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) - 👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻Lista chińskich niezależnych deweloperów -- dziel się tym, co robisz
+- [actionsflow/awesome-actionsflow](https://github.com/actionsflow/awesome-actionsflow) - Lista świetnych przypadków użycia workflow dla Actionsflow
+- [AZeC4/TelegramGroup](https://github.com/AZeC4/TelegramGroup) - Najnowsza w 2025 cicha kolekcja 10000+ grup Telegram, z najlepszymi botami BOT🤖【dianbaodaohang.com】
+- [sdras/awesome-actions](https://github.com/sdras/awesome-actions) - Wyselekcjonowana lista świetnych akcji do użycia na GitHub
+- [cobaltdisco/Google-Chinese-Results-Blocklist](https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist) - W końcu mogę wyszukiwać po chińsku w Google...
+- [ffffffff0x/Digital-Privacy](https://github.com/ffffffff0x/Digital-Privacy) - Zasoby ochrony informacji & OSINT | Kompleksowe rozwiązanie w zakresie cyfrowej prywatności, ochrony, czyszczenia, a także przeciwdziałania OSINT
+- [OverTheWallNode/SSV2RayTrojanSSRClash](https://github.com/OverTheWallNode/SSV2RayTrojanSSRClash) - Naukowe surfowanie, ss, ssr, v2ray, trojan, clash, clashr, rekomendacje lotnisk proxy
+- [formulahendry/955.WLB](https://github.com/formulahendry/955.WLB) - Lista firm niepracujących po godzinach - Praca 955, work–life balance (równowaga między pracą a życiem)
+- [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) - Lista ciekawych funkcji Git i GitHub.
+- [github/roadmap](https://github.com/github/roadmap) - Publiczna mapa drogowa GitHub
+- [ivmm/Student-resources](https://github.com/ivmm/Student-resources) - Przedstawia uprawnienia, z których mogą korzystać studenci i pracownicy naukowi, takie jak zniżki studenckie i edukacyjne. Korzystaj z praw, ale nie sprzedawaj/nie przekazuj dalej swoich uprawnień, aby inni mogli skorzystać.
+- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Lista darmowych usług sieciowych i aplikacji webowych, które można hostować na własnym serwerze
+- [Cat-China/CatBrowser](https://github.com/Cat-China/CatBrowser) - Cat Browser - całkowicie niezależnie opracowana przeglądarka, przełamuje monopol zagranicznych firm (USA) na rynku, 600% szybsza niż Chrome.
+- [monyhar/monyhar](https://github.com/monyhar/monyhar) - Monyhar Browser - całkowicie niezależnie opracowana, przełamuje monopol zagraniczny, 600% szybsza niż Chrome.
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - 😎 Świetne listy na wszelkie ciekawe tematy
+- [ruanyf/weekly](https://github.com/ruanyf/weekly) - Tygodnik dla miłośników technologii, publikowany w każdy piątek
+- [github/gov-takedowns](https://github.com/github/gov-takedowns) - Treść rządowych powiadomień o usunięciu, jaką otrzymujemy. GitHub nie popiera ani nie przyjmuje żadnych oświadczeń zawartych w poniższych powiadomieniach.
+- [ShareX/CustomUploaders](https://github.com/ShareX/CustomUploaders) - Niestandardowe uploadery ShareX
+- [glados-network/GLaDOS](https://github.com/glados-network/GLaDOS) - status GLaDOS
+## PHP 
+
+- [pereorga/minimalist-web-notepad](https://github.com/pereorga/minimalist-web-notepad) - Minimalistyczny notatnik internetowy
+- [juzeon/fast-mail-bomber](https://github.com/juzeon/fast-mail-bomber) - Szybkie, wielowątkowe, wydajne i łatwe w użyciu narzędzie do mail bombingu/spamowania. Wysyłanie maili za pomocą usług mailman hostowanych przez różnych dostawców.
+- [easychen/stack-roadmap](https://github.com/easychen/stack-roadmap) - Kompletny roadmap full-stack 2023 od FangTang, uzupełniający stos umiejętności „od śrubki do jednoosobowej firmy”
+- [solstice23/argon-theme](https://github.com/solstice23/argon-theme) - 📖 Argon - lekki i minimalistyczny motyw WordPress
+- [assimon/dujiaoka](https://github.com/assimon/dujiaoka) - 🦄Dujiaoka (automatyczny system sprzedaży) - otwartoźródłowe rozwiązanie dla automatycznej sprzedaży dla webmasterów, wydajne, stabilne, szybkie! 🚀🚀🎉🎉
+- [luolongfei/freenom](https://github.com/luolongfei/freenom) - Automatyczne odnawianie domen Freenom. Freenom domain name renews automatically.
+- [icret/EasyImages2.0](https://github.com/icret/EasyImages2.0) - Prosty hosting obrazków - potężna aplikacja do hostowania obrazków bez bazy danych, wersja 2.0
+- [coollabsio/coolify](https://github.com/coollabsio/coolify) - Otwarta, samodzielnie hostowana alternatywa dla Heroku / Netlify / Vercel.
+- [shlinkio/shlink](https://github.com/shlinkio/shlink) - Ostateczny, samodzielnie hostowany skracacz URL
+- [nadrad/h-m-m](https://github.com/nadrad/h-m-m) - h-m-m, czyli Hackers Mind Map, to prosty, szybki, zorientowany na klawiaturę terminalowy program do pracy z mapami myśli.
+- [osuuu/LightPicture](https://github.com/osuuu/LightPicture) - System zarządzania zasobami obrazów dla firm/zespołów/osób prywatnych, system hostowania obrazków
+- [IO-Technologies/bashupload](https://github.com/IO-Technologies/bashupload) - Otwarty kod dla bashupload.com - uploader plików oparty na PHP dla CLI, serwerów, komputerów stacjonarnych i urządzeń mobilnych
+- [renbaoshuo/Shortlink](https://github.com/renbaoshuo/Shortlink) - Źródło strony do generowania krótkich linków
+- [chenxuuu/shit-url](https://github.com/chenxuuu/shit-url) - Generator najbardziej „beznadziejnych” krótkich linków
+- [bugaosuni59/TH-CPL](https://github.com/bugaosuni59/TH-CPL) - Rekomendowana lista konferencji i czasopism naukowych z informatyki Uniwersytetu Tsinghua
+- [youranreus/Subscription-Manager](https://github.com/youranreus/Subscription-Manager) - Zarządzanie subskrypcjami
+- [guanguans/favorite-link](https://github.com/guanguans/favorite-link) - ❤️ Codziennie zbierane ulubione projekty open source.
+- [PGYER/codefever](https://github.com/PGYER/codefever) - CodeFever to całkowicie darmowa, otwartoźródłowa usługa hostingu kodu Git, możliwa do zainstalowania na własnym serwerze jednym poleceniem! CodeFever Community Edition (Samodzielnie hostowany Git)!
+- [Anankke/SSPanel-UIM](https://github.com/Anankke/SSPanel-UIM) - Wielofunkcyjny system zarządzania usługami proxy
+- [privacy-protection-tools/dead-horse](https://github.com/privacy-protection-tools/dead-horse) - 
+- [xiebruce/PicUploader](https://github.com/xiebruce/PicUploader) - Całkiem dobre narzędzie do hostowania obrazków, obsługuje serwery Mac/Win/Linux, kompresję przed wysłaniem, dodawanie znaków wodnych obrazów lub tekstowych, wielopliki jednocześnie, przesyłanie do wielu chmur jednocześnie, prawoklik w celu przesłania dowolnego pliku, przesyłanie zrzutów ekranu ze schowka skrótem, wersja webowa, obsługa jako interfejs publikacji obrazków dla Mweb/Typora, niestandardowy hosting dla PicGo/ShareX/uPic itd., możliwość wdrożenia na serwerze jako interfejs hostingu, obsługa dowolnych formatów plików.
+- [5ime/video_spider](https://github.com/5ime/video_spider) - Usuwanie znaków wodnych z krótkich filmów: Douyin, PiPiXia, Huoshan, Weishi, Weibo, Oasis, Zuiyou, QingVideo, Kuaishou, Quanmin Xiaoshipin, Barce Film, Momo, Before Bifeng, Kaiyan, Vue Vlog, Xiaokaxiu, PiPiGaoXiao, Quanmin K Ge, Xigua Video, DouPai, Huya, 6Rooms, Pear Video, New Film Ground, acfun, Meipai...
+- [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) - Minimalistyczny, otwartoźródłowy internetowy pastebin, gdzie serwer nie ma żadnej wiedzy o wklejanych danych. Dane są szyfrowane/deszyfrowane w przeglądarce przy użyciu AES 256-bit.
+- [ZainCheung/netease-cloud-api](https://github.com/ZainCheung/netease-cloud-api) - Ulepszone API NetEase Cloud Music
+- [SkyEmie/batch-obfuscator](https://github.com/SkyEmie/batch-obfuscator) - Łatwy sposób na zaciemnianie plików batch (Windows)
+- [DenverCoder1/readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg) - ⚡ Dynamicznie generowany, konfigurowalny SVG dający efekt wpisywania i kasowania tekstu do użycia na stronie profilowej, repozytoriach lub stronie internetowej.
+- [mylxsw/wizard](https://github.com/mylxsw/wizard) - Wizard to otwartoźródłowe narzędzie do zarządzania dokumentacją, obsługujące dokumenty Markdown/Swagger/Table.
+- [jimmielin/the-light](https://github.com/jimmielin/the-light) - The Light zasila The Seed.
+## PLpgSQL 
+
+- [pirate/wikipedia-mirror](https://github.com/pirate/wikipedia-mirror) - 🌐 Przewodnik i narzędzia do uruchomienia pełnej offline'owej kopii lustrzanej Wikipedia.org z trzema różnymi podejściami: proxy cache Nginx, Kiwix + zrzut ZIM oraz MediaWiki/XOWA + zrzut XML
+
+## Pascal 
+
+- [tarcode-apps/BatteryMode](https://github.com/tarcode-apps/BatteryMode) - Zamiennik wskaźnika baterii w systemie Windows
+- [peazip/PeaZip](https://github.com/peazip/PeaZip) - Darmowe oprogramowanie do kompresji/dekompresji Zip oraz ekstraktor plików Rar. Wieloplatformowy menedżer plików i archiwów. Funkcje: dzielenie woluminów, kompresja, uwierzytelnione szyfrowanie. Obsługuje 7Z, 7-Zip sfx, ACE, ARJ, Brotli, BZ
+- [sashaoli/GiteaPanel](https://github.com/sashaoli/GiteaPanel) - Zarządzaj lokalnym serwerem Gitea z zasobnika systemowego. Управління локальним сервером Gitea з трею.
+
+## Perl 
+
+- [linode/longview](https://github.com/linode/longview) - Agent Linode Longview
+
+## PostScript 
+
+- [kenjihiranabe/The-Art-of-Linear-Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra) - Graficzne notatki do książki Gilberta Stranga "Linear Algebra for Everyone"
+
+## PowerShell 
+
+- [lucyllewy/one-script-wsl2-systemd](https://github.com/lucyllewy/one-script-wsl2-systemd) - Wariant w jednym skrypcie obejścia systemd dla WSL2
+- [devblackops/Terminal-Icons](https://github.com/devblackops/Terminal-Icons) - Moduł PowerShell pokazujący ikony plików i folderów w terminalu
+- [lptstr/winfetch](https://github.com/lptstr/winfetch) - 🛠 Narzędzie wiersza poleceń do wyświetlania informacji o systemie, napisane w PowerShell. Podobne do Neofetch, ale dla Windows.
+- [ScoopInstaller/Scoop](https://github.com/ScoopInstaller/Scoop) - Instalator wiersza poleceń dla Windows.
+- [gluons/powershell-git-aliases](https://github.com/gluons/powershell-git-aliases) - :octocat: Aliasów Git z Oh My Zsh dla PowerShell.
+- [actions/runner-images](https://github.com/actions/runner-images) - Obrazy runnerów GitHub Actions
+- [AmrEldib/WindowsContextMenuCustomizations](https://github.com/AmrEldib/WindowsContextMenuCustomizations) - Wpisy rejestru do modyfikacji menu kontekstowego Windows
+- [dracula/powershell](https://github.com/dracula/powershell) - 🧛🏻‍♂️ Ciemny motyw dla PowerShell i cmd.exe
+## Python 
+
+- [qianye216/OpenList-Desktop](https://github.com/qianye216/OpenList-Desktop) - OpenList Desktop to wieloplatformowy klient desktopowy zaprojektowany dla OpenList (Alist) i Rclone. Oferuje nowoczesny i przyjazny dla użytkownika interfejs graficzny, pomagający łatwo zarządzać usługami Alist oraz montowaniem dysków chmurowych Rclone, bez konieczności pamiętania i wpisywania skomplikowanych poleceń w wierszu poleceń.
+- [kvcache-ai/ktransformers](https://github.com/kvcache-ai/ktransformers) - Elastyczny framework do testowania najnowszych optymalizacji inferencji LLM
+- [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate) - Tłumaczenie naukowych artykułów PDF z zachowaniem formatowania - Pełnotekstowe tłumaczenie PDF z zachowaniem układu, oparte na AI, obsługuje Google/DeepL/Ollama/OpenAI i inne serwisy, oferuje CLI/GUI/MCP/Docker/Zotero
+- [microsoft/markitdown](https://github.com/microsoft/markitdown) - Narzędzie w Pythonie do konwertowania plików i dokumentów biurowych do Markdown.
+- [hiroi-sora/Umi-CUT](https://github.com/hiroi-sora/Umi-CUT) - Narzędzie do masowego usuwania czarnych krawędzi/wycinania/kompresji obrazów z interfejsem graficznym. Potrafi ignorować kolorowe bloki na krawędziach i dokładnie usuwać czarne krawędzie. Oparte na OpenCV.
+- [google-deepmind/alphafold3](https://github.com/google-deepmind/alphafold3) - Pipeline inferencyjny AlphaFold 3.
+- [CaoZ/XueCheBu-Crack](https://github.com/CaoZ/XueCheBu-Crack) - Dobra wiadomość dla uczniów kursów jazdy – koniec z bezmyślnym siedzeniem przed komputerem przez dziesiątki godzin oglądając filmy, wystarczy kilka kliknięć i problem znika~
+- [zhuozhiyongde/PKU-Auto-Reservation](https://github.com/zhuozhiyongde/PKU-Auto-Reservation) - Automatyczna rezerwacja wejścia na kampus Uniwersytetu Pekińskiego/PKU
+- [aoguai/LiYing](https://github.com/aoguai/LiYing) - LiYing to program do automatycznej obróbki zdjęć, zaprojektowany do automatyzacji procesu postprodukcji zdjęć do dokumentów w zwykłych studiach fotograficznych. | LiYing to zestaw programów do automatycznego przetwarzania zdjęć do dokumentów w studiach fotograficznych.
+- [chen08209/Clash.Meta](https://github.com/chen08209/Clash.Meta) - Prosty model Pydantic w Pythonie do danych z Honkai: Star Rail analizowanych z API Mihomo.
+- [arsenetar/dupeguru](https://github.com/arsenetar/dupeguru) - Znajdowanie zduplikowanych plików
+- [2noise/ChatTTS](https://github.com/2noise/ChatTTS) - Generatywny model mowy dla codziennych rozmów.
+- [matheusfillipe/notes-todo_bot](https://github.com/matheusfillipe/notes-todo_bot) - Boty telegramowe do robienia notatek, ich edycji i zapisywania na github gist
+- [xrl12/auto_back](https://github.com/xrl12/auto_back) - Automatyczna kopia zapasowa
+- [LorenEteval/Furious](https://github.com/LorenEteval/Furious) - Graficzny klient proxy oparty na PySide6. Obsługuje Xray-core i hysteria
+- [MetaCubeX/mihomo](https://github.com/MetaCubeX/mihomo) - Prosty model Pydantic w Pythonie do danych z Honkai: Star Rail analizowanych z API Mihomo.
+- [euxcet/thulearn2018](https://github.com/euxcet/thulearn2018) - Narzędzia do e-learningu Uniwersytetu Tsinghua.
+- [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) - 🗃 Otwarty, samo-hostowany system archiwizacji stron WWW. Pobiera URL-e/historię przeglądarki/zakładki/Pocket/Pinboard itd., zapisuje HTML, JS, PDF-y, multimedia i więcej...
+- [vvbbnn00/WARP-Clash-API](https://github.com/vvbbnn00/WARP-Clash-API) - Ten projekt pozwala korzystać z Cloudflare WARP+ przez subskrypcję, automatycznie pozyskując transfer. This project enables you to use Cloudflare WARP+ through subscription, automatically acquiring traffic.
+- [deadc0de6/dotdrop](https://github.com/deadc0de6/dotdrop) - Zachowaj swoje pliki konfiguracyjne (dotfiles) raz, wdrażaj wszędzie
+- [MuggleWei/bdchecker](https://github.com/MuggleWei/bdchecker) - Narzędzie do sprawdzania kopii zapasowych danych
+- [ASKCOS/ASKCOS](https://github.com/ASKCOS/ASKCOS) - Pakiet programowy do komputerowo wspomaganego planowania syntezy chemicznej
+- [JoeanAmier/XHS-Downloader](https://github.com/JoeanAmier/XHS-Downloader) - Narzędzie do pobierania i ekstrakcji linków/utworów z XiaoHongShu (RedNote): pobieranie linków do prac opublikowanych przez konto, polubionych, kolekcji, albumów; pobieranie prac z wyników wyszukiwania, linków użytkowników; pobieranie informacji o pracach; pobieranie adresów do pobierania prac bez znaku wodnego
+- [Coframe/coffee](https://github.com/Coframe/coffee) - Twórz i iteruj UI 10x szybciej dzięki AI – bezpośrednio z własnego IDE ☕️
+- [JoeanAmier/TikTokDownloader](https://github.com/JoeanAmier/TikTokDownloader) - Narzędzie do pobierania i zbierania danych z TikTok: publikacje, polubienia, kompilacje, transmisje na żywo, wideo, galerie, muzyka; oraz Douyin: publikacje, polubienia, kolekcje, playlisty, wideo, galerie, transmisje, komentarze, konto, wyszukiwanie, trendy – pobieranie/dane/statystyki
+- [V-know/ChatGPT-Telegram-Bot](https://github.com/V-know/ChatGPT-Telegram-Bot) - Bot Telegram z płynnym doświadczeniem AI. Z interfejsem graficznym.
+- [pyecharts/pyecharts](https://github.com/pyecharts/pyecharts) - 🎨 Biblioteka do wykresów Echarts w Pythonie
+- [skypilot-org/skypilot](https://github.com/skypilot-org/skypilot) - SkyPilot: Uruchamiaj zadania AI i wsadowe na dowolnej infrastrukturze (Kubernetes lub 16+ chmur). Zyskaj zunifikowane wykonanie, oszczędności i wysoką dostępność GPU przez prosty interfejs.
+- [jiji262/douyin-downloader](https://github.com/jiji262/douyin-downloader) - Narzędzie do masowego pobierania z Douyin, bez znaku wodnego, obsługuje wideo, galerie, kompilacje, muzykę (oryginał). Darmowe! Darmowe! Darmowe!
+- [sail-sg/EditAnything](https://github.com/sail-sg/EditAnything) - Edytuj wszystko na obrazach dzięki segment-anything, ControlNet, StableDiffusion itd. (ACM MM)
+- [jackhawks/rectg](https://github.com/jackhawks/rectg) - Zbiór ponad 10 000+ grup, kanałów i botów Telegram z całej sieci, wyselekcjonowane i stale aktualizowane, wspierające analizę danych, badania i naukę. Wszystkie dane pochodzą z internetu, tylko do celów badawczych, nie komercyjnych ani nielegalnych, użytkownik ponosi ryzyko.
+- [PromtEngineer/localGPT](https://github.com/PromtEngineer/localGPT) - Rozmawiaj z dokumentami lokalnie, używając modeli GPT. Żadne dane nie opuszczają Twojego urządzenia – 100% prywatności.
+- [jtsang4/claude-to-chatgpt](https://github.com/jtsang4/claude-to-chatgpt) - Ten projekt konwertuje API modelu Claude od Anthropic na format OpenAI Chat API.
+- [zhaoolee/wxread](https://github.com/zhaoolee/wxread) - Sztuczne wydłużanie czasu czytania w WeChat Read
+- [malinkang/weread2notion](https://github.com/malinkang/weread2notion) - Synchronizowanie podkreśleń z WeChat Read do Notion
+- [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt) - Interakcja z dokumentami za pomocą GPT, w pełni prywatnie, bez wycieku danych
+- [duaibeom/chemOCR](https://github.com/duaibeom/chemOCR) - Oparty na bazie danych system optycznego rozpoznawania struktur chemicznych (OCR)
+- [pengxiao-song/LaWGPT](https://github.com/pengxiao-song/LaWGPT) - 🎉 Repozytorium LaWGPT, chiński Llama dostrojony pod wiedzę prawniczą. Duży model językowy oparty na chińskiej wiedzy prawnej
+- [RUCAIBox/LLMSurvey](https://github.com/RUCAIBox/LLMSurvey) - Oficjalna strona repozytorium do pracy przeglądowej "A Survey of Large Language Models".
+- [AIGC-Audio/AudioGPT](https://github.com/AIGC-Audio/AudioGPT) - AudioGPT: Rozumienie i generowanie mowy, muzyki, dźwięków i animowanych głów
+- [xtekky/gpt4free](https://github.com/xtekky/gpt4free) - Oficjalne repozytorium gpt4free | różnorodna kolekcja zaawansowanych modeli językowych | o4, o3, deepseek r1, gpt-4.1, gemini 2.5
+- [OpenMOSS/MOSS](https://github.com/OpenMOSS/MOSS) - Otwarty model językowy do rozmów z narzędziami z Uniwersytetu Fudan
+- [togethercomputer/RedPajama-Data](https://github.com/togethercomputer/RedPajama-Data) - Repozytorium RedPajama-Data zawiera kod do przygotowania dużych zbiorów danych do trenowania dużych modeli językowych.
+- [Vision-CAIR/MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) - Otwarty kod MiniGPT-4 i MiniGPT-v2 (https://minigpt-4.github.io, https://minigpt-v2.github.io/)
+- [facebookresearch/AnimatedDrawings](https://github.com/facebookresearch/AnimatedDrawings) - Kod do pracy "A Method for Animating Children's Drawings of the Human Figure"
+- [pypa/pipx](https://github.com/pypa/pipx) - Instaluj i uruchamiaj aplikacje Python w odizolowanych środowiskach
+- [dylanjcastillo/shell-genie](https://github.com/dylanjcastillo/shell-genie) - Twoje życzenia są moimi poleceniami
+- [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) - OpenAssistant to asystent konwersacyjny rozumiejący zadania, potrafiący współpracować z systemami zewnętrznymi i dynamicznie pobierać informacje.
+- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - AutoGPT to wizja dostępnej AI dla wszystkich – do używania i rozwijania. Naszą misją jest dostarczać narzędzia, byś mógł skupić się na tym, co ważne.
+- [THUDM/GLM-130B](https://github.com/THUDM/GLM-130B) - GLM-130B: Otwarty, bilingwalny model wstępnie wytrenowany (ICLR 2023)
+- [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) - ChatGLM-6B: Otwarty dwujęzyczny model językowy do dialogów | 开源双语对话语言模型
+- [binary-husky/gpt_academic](https://github.com/binary-husky/gpt_academic) - Praktyczny interfejs do GPT/GLM i innych dużych modeli językowych, szczególnie zoptymalizowany pod czytanie, redakcję i pisanie artykułów; modułowa budowa, obsługa własnych skrótów i pluginów funkcji, analiza i automatyczne tłumaczenie kodu Python/C++, tłumaczenie i podsumowywanie artykułów PDF/LaTeX, wsparcie dla wielu modeli LLM, obsługa lokalnych modeli jak chatglm3. Integracja z Tongyi Qianwen, deepseekcoder, iFlytek Spark, Wenxin Yiyan, llama2, rwkv, claude2, moss
+- [gd3kr/BlenderGPT](https://github.com/gd3kr/BlenderGPT) - Steruj Blenderem za pomocą poleceń po angielsku, korzystając z GPT-4 od OpenAI
+- [receyuki/stable-diffusion-prompt-reader](https://github.com/receyuki/stable-diffusion-prompt-reader) - Prosta przeglądarka do odczytywania promptów z obrazów wygenerowanych przez Stable Diffusion poza webui.
+- [Moksh-Bhardwaj/public-forward-bot](https://github.com/Moksh-Bhardwaj/public-forward-bot) - 
+- [lm-sys/FastChat](https://github.com/lm-sys/FastChat) - Otwarta platforma do trenowania, udostępniania i oceny dużych modeli językowych. Repozytorium wydań Vicuna i Chatbot Arena.
+- [chidiwilliams/buzz](https://github.com/chidiwilliams/buzz) - Buzz transkrybuje i tłumaczy dźwięk offline na komputerze osobistym. Oparte na Whisper od OpenAI.
+- [phguo/AskGPT](https://github.com/phguo/AskGPT) - AskGPT: workflow do Alfreda umożliwiający zadawanie pytań ChatGPT z dowolnego miejsca podczas pisania.
+- [visual-openllm/visual-openllm](https://github.com/visual-openllm/visual-openllm) - coś jak visual-chatgpt, otwarta wersja 文心一言
+- [kale5195/chilloutai](https://github.com/kale5195/chilloutai) - Generowanie obrazów AI
+- [npiv/chatblade](https://github.com/npiv/chatblade) - Szwajcarski scyzoryk CLI do ChatGPT
+- [yashsinghcodes/wik](https://github.com/yashsinghcodes/wik) - wik służy do pobierania informacji o wszystkim z Wikipedii w terminalu.
+- [alpa-projects/alpa](https://github.com/alpa-projects/alpa) - Trenowanie i serwowanie dużych sieci neuronowych z automatyczną paralelizacją.
+- [SkywalkerDarren/chatWeb](https://github.com/SkywalkerDarren/chatWeb) - ChatWeb potrafi przeszukiwać strony www, czytać PDF, DOCX, TXT, wyodrębniać główną treść i odpowiadać na pytania na tej podstawie lub podsumowywać kluczowe punkty.
+- [chenfei-wu/TaskMatrix](https://github.com/chenfei-wu/TaskMatrix) - 
+- [yihong0618/bilingual_book_maker](https://github.com/yihong0618/bilingual_book_maker) - Twórz dwujęzyczne ebooki epub za pomocą AI
+- [evilpan/gptcli](https://github.com/evilpan/gptcli) - ChatGPT w wierszu poleceń z API OpenAI (gpt-3.5-turbo/gpt-4/gpt-4-32k)
+- [mukulpatnaik/researchgpt](https://github.com/mukulpatnaik/researchgpt) - Asystent badawczy oparty na LLM, umożliwiający rozmowę z artykułem naukowym
+- [OFA-Sys/Chinese-CLIP](https://github.com/OFA-Sys/Chinese-CLIP) - Chińska wersja CLIP, umożliwiająca chińskie wyszukiwanie i generowanie reprezentacji między modalnościami.
+- [father-bot/chatgpt_telegram_bot](https://github.com/father-bot/chatgpt_telegram_bot) - 💬 Bot Telegram z ChatGPT, oparty na Pythonie, wykorzystujący API OpenAI.
+- [yihong0618/xiaogpt](https://github.com/yihong0618/xiaogpt) - Graj z ChatGPT i innymi LLM na głośniku AI Xiaomi
+- [PR0FESS0R-99/Midukki-RoBoT](https://github.com/PR0FESS0R-99/Midukki-RoBoT) - Midukki-RoBoT to bot do zarządzania grupą na Telegramie z zaawansowanymi narzędziami bezpieczeństwa. Wszystko, czego potrzebujesz do zarządzania grupą. ❤️
+- [microsoft/Codex-CLI](https://github.com/microsoft/Codex-CLI) - Narzędzie CLI wykorzystujące Codex do konwersji poleceń języka naturalnego na ich odpowiedniki w Bash/ZShell/PowerShell
+- [acheong08/ChatGPT](https://github.com/acheong08/ChatGPT) - Odwrotnie inżynierowane API ChatGPT
+- [anasty17/mirror-leech-telegram-bot](https://github.com/anasty17/mirror-leech-telegram-bot) - Oficjalne repozytorium: Bot Telegram do pobierania bezpośrednich linków, torrentów, nzb, Google Drive, dokumentów Telegram, dowolnych plików/folderów z chmur obsługiwanych przez rclone, wszystkich stron obsługiwanych przez yt-dlp oraz jdownloader
+- [Gsllchb/Handright](https://github.com/Gsllchb/Handright) - Lekka biblioteka Pythona do symulowania chińskiego pisma odręcznego
+- [ahui2016/R2-Gallery](https://github.com/ahui2016/R2-Gallery) - Osobisty, niezależny album, w którym obrazy przechowywane są w Cloudflare R2.
+- [yash1th/unsplash-album-downloader](https://github.com/yash1th/unsplash-album-downloader) - Pobieraj całe albumy zdjęć z Unsplash
+- [Cog-Creators/Red-DiscordBot](https://github.com/Cog-Creators/Red-DiscordBot) - Wielofunkcyjny bot Discord
+- [sjvasquez/handwriting-synthesis](https://github.com/sjvasquez/handwriting-synthesis) - Synteza pisma odręcznego z użyciem RNN ✏️
+- [zhelper-org/tgbot](https://github.com/zhelper-org/tgbot) - zhelper tgbot
+- [approximatelabs/sketch](https://github.com/approximatelabs/sketch) - Asystent AI do pisania kodu, rozumiejący zawartość danych
+- [ehulinsky/AnalogChess](https://github.com/ehulinsky/AnalogChess) - Szachy bez siatki
+- [PantsuDango/Dango-Translator](https://github.com/PantsuDango/Dango-Translator) - Tłumacz Dango — hobbystyczny tłumacz oparty na technologii OCR
+- [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) - Najprostsze i najszybsze repozytorium do trenowania/dostrajania średnich modeli GPT.
+- [liblaf/thu-learn-downloader](https://github.com/liblaf/thu-learn-downloader) - Pobieraj wszystko z platformy Web Learning Uniwersytetu Tsinghua
+- [WhymustIhaveaname/TsinghuaTunet](https://github.com/WhymustIhaveaname/TsinghuaTunet) - Skrypt do automatycznego łączenia z siecią kampusu Tsinghua.
+- [zhaoolee/ins](https://github.com/zhaoolee/ins) - 🍭Baza inspiracji dla profesjonalistów internetowych, bez reklam, automatyczne sprawdzanie prędkości stron przez Github Actions
+- [lonnyzhang423/douyin-hot-hub](https://github.com/lonnyzhang423/douyin-hot-hub) - Rejestr Douyin: gorące trendy, gwiazdy, transmisje, muzyka i marki; aktualizowane co godzinę, archiwizowane dziennie.
+- [net4people/bbs](https://github.com/net4people/bbs) - Forum do dyskusji o obchodzeniu cenzury internetu
+- [kael-k/telegram-webdav-integration-bot](https://github.com/kael-k/telegram-webdav-integration-bot) - Bot Telegram do wysyłania zdjęć, wideo i dokumentów do katalogu WebDAV
+- [qazxcdswe123/telegramMemoBot](https://github.com/qazxcdswe123/telegramMemoBot) - Bot telegramowy dla https://github.com/usememos/memos
+- [carson-katri/dream-textures](https://github.com/carson-katri/dream-textures) - Wbudowany Stable Diffusion w Blenderze
+- [openai/openai-python](https://github.com/openai/openai-python) - Oficjalna biblioteka Pythona do API OpenAI
+- [apple/ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion) - Stable Diffusion z Core ML na Apple Silicon
+- [HFrost0/bilix](https://github.com/HFrost0/bilix) - ⚡️Błyskawiczne asynchroniczne narzędzie do pobierania z bilibili i więcej
+- [Evil0ctal/Douyin_TikTok_Download_API](https://github.com/Evil0ctal/Douyin_TikTok_Download_API) - 🚀„Douyin_TikTok_Download_API” to gotowe do użycia, wydajne asynchroniczne narzędzie do pobierania danych z Douyin, Kuaishou, TikTok, Bilibili, obsługuje API, masowe pobieranie i analizę online.
+- [Johnserf-Seed/TikTokDownload](https://github.com/Johnserf-Seed/TikTokDownload) - Masowe pobieranie z Douyin bez znaku wodnego: profil użytkownika, polubienia, kolekcje, obrazy, audio
+- [OpenShot/openshot-qt](https://github.com/OpenShot/openshot-qt) - OpenShot Video Editor to nagradzany, darmowy i otwartoźródłowy edytor wideo na Linuksa, Maca i Windows, dedykowany wysokiej jakości edycji wideo i animacji.
+- [yym68686/ChatGPT-Telegram-Bot](https://github.com/yym68686/ChatGPT-Telegram-Bot) - TeleChat: 🤖️ AI chat bot Telegram z wyszukiwaniem w sieci, obsługujący GPT-3.5/4/4 Turbo/4o, DALL·E 3, Groq, Gemini 1.5 Pro/Flash i oficjalne API Claude2.1/3/3.5, oparty na Pythonie na Zeabur, fly.io i Replit
+- [bestmatteo/Telegram-Bot](https://github.com/bestmatteo/Telegram-Bot) - Automatyczne przekazywanie wiadomości w Telegramie z użyciem Selenium
+- [altryne/chatGPT-telegram-bot](https://github.com/altryne/chatGPT-telegram-bot) - Bardzo wczesna próba integracji chatGPT z botem Telegram
+- [radude/rentry](https://github.com/radude/rentry) - Markdown pastebin z poziomu wiersza poleceń
+- [erbanku/zhihu-archiver-2022-archived](https://github.com/erbanku/zhihu-archiver-2022-archived) - Codzienne automatyczne pobieranie gorących tematów z Zhihu, konwersja do plików Markdown i budowa statycznej strony
+- [shiwk20/TsinghuaCloudDownload](https://github.com/shiwk20/TsinghuaCloudDownload) - Skrypt do pobierania plików z Tsinghua Cloud.
+- [QianyanTech/Image-Downloader](https://github.com/QianyanTech/Image-Downloader) - Pobieranie obrazów z Google, Bing, Baidu. Narzędzie do pobierania zdjęć z Google, Baidu, Bing.
+- [mli/autocut](https://github.com/mli/autocut) - Edycja wideo w edytorze tekstu
+- [THUDM/CodeGeeX](https://github.com/THUDM/CodeGeeX) - CodeGeeX: Otwarty wielojęzyczny model generowania kodu (KDD 2023)
+- [MaxxRider/Leech-Pro](https://github.com/MaxxRider/Leech-Pro) - Telegramowy bot Leech / Mirror oparty na Pythonie. 👉wsparcie dla przesyłania plików i folderów do gdrive lub innych dysków obsługiwanych przez rclone.org. Obsługuje rozpakowywanie, unrar, untar itd.
+- [kerm-me/docdown](https://github.com/kerm-me/docdown) - Oryginalne narzędzie do pobierania dokumentów book118 i docin zasilane przez playwright
+- [jagrit007/Telegram-CloneBot](https://github.com/jagrit007/Telegram-CloneBot) - [UŻYWAJ BRANCH ALPHA] Prosty bot do klonowania plików (lub folderów) Google Drive do Team Drive [lub zwykłego Dysku]. To nie jest bot lustrzany. Miłej zabawy ✌🏻
+- [danielgatis/rembg](https://github.com/danielgatis/rembg) - Rembg to narzędzie do usuwania tła z obrazów
+- [Sam-Max/rcmltb](https://github.com/Sam-Max/rcmltb) - Bot telegramowy rclone do mirrora-leech i kopiowania między wieloma chmurami
+- [mpc001/Visual_Speech_Recognition_for_Multiple_Languages](https://github.com/mpc001/Visual_Speech_Recognition_for_Multiple_Languages) - Wizualne rozpoznawanie mowy dla wielu języków
+- [StevenBlack/hosts](https://github.com/StevenBlack/hosts) - 🔒 Konsolidacja i rozszerzanie plików hosts z wielu dobrze utrzymanych źródeł. Opcjonalne rozszerzenia dla pornografii, mediów społecznościowych i innych kategorii.
+- [soxoj/maigret](https://github.com/soxoj/maigret) - 🕵️‍♂️ Zbierz dossier o osobie po nazwie użytkownika z tysięcy stron
+- [mxrch/GitFive](https://github.com/mxrch/GitFive) - 🐙 Namierz użytkowników GitHub.
+- [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - Interfejs webowy Stable Diffusion
+- [openai/whisper](https://github.com/openai/whisper) - Solidne rozpoznawanie mowy poprzez nadzorowanie na dużą skalę z użyciem słabych etykiet
+- [magicse/GFPGANv1.3-to-ncnn](https://github.com/magicse/GFPGANv1.3-to-ncnn) - Sieć GFPGAN składa się z dwóch sieci. W rzeczywistości GFPGAN i StyleGAN2
+- [pixray/pixray](https://github.com/pixray/pixray) - 
+- [subframe7536/maple-font](https://github.com/subframe7536/maple-font) - Maple Mono: Otwarta czcionka monospace z zaokrąglonymi rogami, ligaturami i ikonami Nerd-Font do IDE i terminala, z opcjami precyzyjnej personalizacji. 带连字和控制台图标的圆角等宽字体，中英文宽度完美2:1，细粒度的自定义选项
+- [aws/aws-cli](https://github.com/aws/aws-cli) - Uniwersalny interfejs wiersza poleceń dla Amazon Web Services
+- [archinetai/audio-diffusion-pytorch](https://github.com/archinetai/audio-diffusion-pytorch) - Generowanie dźwięku przy użyciu modeli dyfuzji w PyTorch.
+- [Aadhi000/File-To-Link](https://github.com/Aadhi000/File-To-Link) - 
+- [microsoft/fluentui-emoji](https://github.com/microsoft/fluentui-emoji) - Kolekcja znajomych, przyjaznych i nowoczesnych emoji od Microsoft
+- [donnemartin/awesome-aws](https://github.com/donnemartin/awesome-aws) - Kuratowana lista świetnych bibliotek Amazon Web Services (AWS), repozytoriów open source, przewodników, blogów i innych zasobów. Zawiera Fiery Meter of AWSome.
+- [google-deepmind/alphafold](https://github.com/google-deepmind/alphafold) - Otwarty kod źródłowy dla AlphaFold 2.
+- [mikf/gallery-dl](https://github.com/mikf/gallery-dl) - Program wiersza poleceń do pobierania galerii i kolekcji zdjęć z różnych serwisów hostingowych obrazów
+- [NVlabs/eg3d](https://github.com/NVlabs/eg3d) - 
+- [chrieke/prettymapp](https://github.com/chrieke/prettymapp) - 🖼️ Twórz piękne mapy z danych OpenStreetMap w aplikacji webowej streamlit
+- [streamlit/streamlit](https://github.com/streamlit/streamlit) - Streamlit — szybszy sposób tworzenia i udostępniania aplikacji do analizy danych.
+- [yihong0618/GitHubPoster](https://github.com/yihong0618/GitHubPoster) - Zamień wszystko w plakat SVG GitHub oraz Skyline!
+- [yihong0618/Kindle_download_helper](https://github.com/yihong0618/Kindle_download_helper) - Skrypt do pobierania wszystkich Twoich książek z Kindle.
+- [athphane/userbot](https://github.com/athphane/userbot) - Userbot Telegram zbudowany w Pyrogram
+- [3b1b/manim](https://github.com/3b1b/manim) - Silnik animacji do wyjaśniających filmów matematycznych
+- [ivy-llc/ivy](https://github.com/ivy-llc/ivy) - Konwertuj kod uczenia maszynowego pomiędzy frameworkami
+- [tuna/tunasync-scripts](https://github.com/tuna/tunasync-scripts) - Własne skrypty do zadań lustrzanych
+- [Textualize/textual](https://github.com/Textualize/textual) - Lekki framework aplikacyjny dla Pythona. Buduj zaawansowane interfejsy użytkownika prostym API w Pythonie. Uruchamiaj swoje aplikacje w terminalu i przeglądarce internetowej.
+- [Textualize/rich-cli](https://github.com/Textualize/rich-cli) - Rich-cli to zestaw narzędzi linii poleceń do efektownego wyświetlania w terminalu
+- [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) - Świetne wielojęzyczne narzędzia OCR i do parsowania dokumentów oparte na PaddlePaddle (praktyczny ultralekki system OCR, obsługuje rozpoznawanie 80+ języków, narzędzia do anotacji i syntezy danych, su
+- [zqthu/thu_cloud_download](https://github.com/zqthu/thu_cloud_download) - Pobieraj pliki z udostępnionych linków Tsinghua Cloud (https://cloud.tsinghua.edu.cn/)
+- [ILTShade/tsinghua_cloud_upload](https://github.com/ILTShade/tsinghua_cloud_upload) - 
+- [mingrammer/diagrams](https://github.com/mingrammer/diagrams) - :art: Diagram jako kod do prototypowania architektur systemów chmurowych
+- [RaphielGang/Telegram-Paperplane](https://github.com/RaphielGang/Telegram-Paperplane) - Projekt userbota Paperplane - Telegram userbot poprawiający Twoje doświadczenie w Telegramie. https://t.me/tgpaperplane
+- [zhanghefan123/Starperf-Satellite-Simulator](https://github.com/zhanghefan123/Starperf-Satellite-Simulator) - Platforma symulacyjna sieci satelitarnych Uniwersytetu Tsinghua
+- [aaronraimist/element-themes](https://github.com/aaronraimist/element-themes) - Miejsce do dzielenia się motywami dla Element. PR-y z nowymi motywami są mile widziane!
+- [borisdayma/dalle-mini](https://github.com/borisdayma/dalle-mini) - DALL·E Mini - Generuj obrazy na podstawie opisu tekstowego
+- [Konano/thu-info-forwarder](https://github.com/Konano/thu-info-forwarder) - 
+- [python/cpython](https://github.com/python/cpython) - Język programowania Python
+- [khoben/telemirror](https://github.com/khoben/telemirror) - Przekaźnik wiadomości Telegram (API klienta)
+- [CMiksche/gitea-auto-update](https://github.com/CMiksche/gitea-auto-update) - Skrypt umożliwiający automatyczną aktualizację Gitea do nowej wersji przez crontab.
+- [praneetk2704/JPG-to-PDF](https://github.com/praneetk2704/JPG-to-PDF) - Prosty skrypt Pythona do tworzenia pliku PDF z zestawu obrazów w kilka sekund.
+- [Polaris119/Epidemic-visualization](https://github.com/Polaris119/Epidemic-visualization) - Wizualizacja danych o epidemii COVID-19 w Chinach
+- [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) - Uczyń duże modele AI tańszymi, szybszymi i bardziej dostępnymi
+- [blackboxo/CleanMyWechat](https://github.com/blackboxo/CleanMyWechat) - Automatyczne usuwanie danych cache WeChat na PC, w tym dużych plików, filmów, zdjęć itp. pobranych automatycznie ze wszystkich czatów, zwolnij miejsce na dysku.
+- [why20021008/hand-write](https://github.com/why20021008/hand-write) - Symulacja efektu pisma odręcznego, oszczędność czasu.
+- [FederatedAI/FATE](https://github.com/FederatedAI/FATE) - Przemysłowej klasy framework do federacyjnego uczenia maszynowego
+- [google-parfait/tensorflow-federated](https://github.com/google-parfait/tensorflow-federated) - Otwarty framework do uczenia maszynowego i innych obliczeń na zdecentralizowanych danych.
+- [project-alice-assistant/ProjectAlice](https://github.com/project-alice-assistant/ProjectAlice) - Główne repozytorium Project Alice, zawiera kod źródłowy głównej jednostki
+- [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) - Badania inwestycyjne dla każdego, wszędzie.
+- [GeekTG/Friendly-Telegram](https://github.com/GeekTG/Friendly-Telegram) - Najlepszy userbot Telegram z obsługą przycisków inline
+- [archlinux/archinstall](https://github.com/archlinux/archinstall) - Instalator Arch Linux - prowadzenie krok po kroku, szablony itp.
+- [globus/globus-cli](https://github.com/globus/globus-cli) - Interfejs wiersza poleceń do Globus
+- [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Sieć, Wirtualizacja. Pytania do rozmów kwalifikacyjnych DevOps
+- [YaoFANGUK/video-subtitle-extractor](https://github.com/YaoFANGUK/video-subtitle-extractor) - Wyodrębnianie twardych napisów z wideo i generowanie plików srt. Bez potrzeby korzystania z zewnętrznego API, lokalna implementacja OCR. Ramy wyodrębniania napisów z wideo oparte na głębokim uczeniu, wykrywanie obszaru napisów, ekstrakcja treści.
+- [aaPanel/aaPanel](https://github.com/aaPanel/aaPanel) - Prosty, ale potężny panel sterowania w przeglądarce
+- [aaPanel/BaoTa](https://github.com/aaPanel/BaoTa) - BaoTa Linux Panel - Prosty i łatwy w użyciu panel zarządzania serwerem
+- [Dragon-Born/warpy](https://github.com/Dragon-Born/warpy) - Program wiersza poleceń do uzyskania WARP+ jako WireGuard napisany w pythonie
+- [pinry/pinry](https://github.com/pinry/pinry) - Pinry, system tablic obrazów dla osób, które chcą zapisywać, tagować i udostępniać obrazy, filmy oraz strony internetowe w formacie łatwym do przeglądania. Open-source i self-hosted.
+- [nvbn/thefuck](https://github.com/nvbn/thefuck) - Wspaniała aplikacja poprawiająca Twoją poprzednią komendę w konsoli.
+- [httpie/cli](https://github.com/httpie/cli) - 🥧 HTTPie CLI — nowoczesny, przyjazny klient HTTP w wierszu poleceń na erę API. Obsługa JSON, kolory, sesje, pobieranie, wtyczki i więcej.
+- [alfem/telegram-download-daemon](https://github.com/alfem/telegram-download-daemon) - Prosty skrypt do automatycznego pobierania dużych plików z Telegrama
+- [No-OnE-Kn0wS-Me/FileRenameBot](https://github.com/No-OnE-Kn0wS-Me/FileRenameBot) - Telegram File Renamer Bot z obsługą trwałych miniatur. Może również konwertować pliki na wideo!
+- [Eugeny/tabby-web](https://github.com/Eugeny/tabby-web) - Tabby Web - klient SSH/Telnet/Serial w Twojej przeglądarce.
+- [QIN2DIM/sspanel-mining](https://github.com/QIN2DIM/sspanel-mining) - 🥤 Zbieraj, czyść, klasyfikuj i przechowuj wystawione w Internecie strony SSPanel-Uim.
+- [Ehco1996/django-sspanel](https://github.com/Ehco1996/django-sspanel) - Panel shadowsocks rozwijany w Django
+- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - Naucz się projektowania systemów na dużą skalę. Przygotowanie do rozmów kwalifikacyjnych z projektowania systemów. Zawiera fiszki Anki.
+- [mvt-project/mvt](https://github.com/mvt-project/mvt) - MVT (Mobile Verification Toolkit) pomaga w analizie kryminalistycznej urządzeń mobilnych w celu wykrycia śladów potencjalnego naruszenia bezpieczeństwa.
+- [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) - :books: Bezpłatnie dostępne książki programistyczne
+- [public-apis/public-apis](https://github.com/public-apis/public-apis) - Zbiorowa lista darmowych API
+- [owid/covid-19-data](https://github.com/owid/covid-19-data) - Dane dotyczące COVID-19 (koronawirus): przypadki, zgony, hospitalizacje, testy • Wszystkie kraje • Codziennie aktualizowane przez Our World in Data
+- [darknessomi/musicbox](https://github.com/darknessomi/musicbox) - Wersja wiersza poleceń serwisu muzycznego NetEase Cloud Music
+- [yunlongzhuhuo/Windows-WeChat-Clean-Up-Tool](https://github.com/yunlongzhuhuo/Windows-WeChat-Clean-Up-Tool) - Lokalizuje folder WeChat Files w Windows, wyszukuje niektóre dane i usuwa je w celu oczyszczenia.
+- [gilesknap/gphotos-sync](https://github.com/gilesknap/gphotos-sync) - Backup zdjęć i albumów Google Photos z użyciem Google Photos Library API
+- [Dragon-Userbot/Dragon-Userbot](https://github.com/Dragon-Userbot/Dragon-Userbot) - Userbot dla Telegrama z najłatwiejszą instalacją
+- [asottile/all-repos](https://github.com/asottile/all-repos) - Klonuj wszystkie swoje repozytoria i wprowadzaj masowe zmiany.
+- [zachhannum/mkdocs-autolinks-plugin](https://github.com/zachhannum/mkdocs-autolinks-plugin) - Wtyczka MkDocs, która automatycznie generuje względne linki między stronami markdown
+- [Azure/WALinuxAgent](https://github.com/Azure/WALinuxAgent) - Microsoft Azure Linux Guest Agent
+- [koalalorenzo/python-digitalocean](https://github.com/koalalorenzo/python-digitalocean) - 🐍🐳 Moduł Pythona do zarządzania dropletami Digital Ocean
+- [fuqiuai/wordCloud](https://github.com/fuqiuai/wordCloud) - Segmentacja tekstu i generowanie chmur wyrazów w pythonie
+- [Mahesh0253/Media-Search-bot](https://github.com/Mahesh0253/Media-Search-bot) - Bot inline dla kanałów i grup
+- [Mahesh0253/GPlink-bot](https://github.com/Mahesh0253/GPlink-bot) - 
+- [tgbot-collection/YYeTsBot](https://github.com/tgbot-collection/YYeTsBot) - 🎬 Bot i strona www YYeTs, zawiera wszystkie zasoby YYeTs oraz liczne udostępnienia z dysków sieciowych.
+- [arry-lee/wereader](https://github.com/arry-lee/wereader) - Wszechstronny asystent do notatek z WeChat Read wereader
+- [arkane-systems/genie](https://github.com/arkane-systems/genie) - Szybki sposób na "butelkę" systemd dla WSL
+- [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) - WSZYSTKO W JEDNYM Narzędziu Hakerskim
+- [PaddlePaddle/PaddleGAN](https://github.com/PaddlePaddle/PaddleGAN) - Biblioteka PaddlePaddle GAN, zawierająca wiele ciekawych zastosowań jak First-Order motion transfer, Wav2Lip, naprawa obrazów, edycja zdjęć, photo2cartoon, transfer stylu, GPEN i inne.
+- [mgedmin/ghcloneall](https://github.com/mgedmin/ghcloneall) - Skrypt do klonowania/aktualizacji wszystkich repozytoriów użytkownika/organizacji z GitHub
+- [Jrohy/multi-v2ray](https://github.com/Jrohy/multi-v2ray) - Program do zarządzania i wdrażania multi-user v2ray/xray
+- [kalanakt/Url-Uploader-TG](https://github.com/kalanakt/Url-Uploader-TG) - Prosty bot Telegrama, przesyłaj pliki multimedialne/wideo na Telegrama za pomocą bezpośredniego linku do pobrania (youtube, Mediafire, google drive, mega drive, itd.)
+- [jagrit007/gDrive-DirectLink](https://github.com/jagrit007/gDrive-DirectLink) - Generator trwałych bezpośrednich linków do Google Drive z obsługą wielu linków. P.S. To prosty kod napisany podczas nauki Pythona :D
+- [Sanster/IOPaint](https://github.com/Sanster/IOPaint) - Narzędzie do inpaintingu obrazów zasilane przez najnowszy model AI. Usuń niechciane obiekty, defekty, osoby ze zdjęć lub zamaluj i zastąp dowolny element (powered by stable diffusion).
+- [psf/black](https://github.com/psf/black) - Bezwzględny formatator kodu Python
+- [surajjjjjj/Telegram-automatic-message](https://github.com/surajjjjjj/Telegram-automatic-message) - Skrypt python używający biblioteki telethon do prostego wysyłania wiadomości do bota co 30 sekund
+- [pirobot/rbx1](https://github.com/pirobot/rbx1) - ROS By Example Tom 1
+- [chen310/NeteaseCloudMusicTasks](https://github.com/chen310/NeteaseCloudMusicTasks) - 
+- [vinta/awesome-python](https://github.com/vinta/awesome-python) - Subiektywna lista świetnych frameworków, bibliotek, oprogramowania i zasobów dla Pythona.
+- [programthink/zhao](https://github.com/programthink/zhao) - 【编程随想】Relacja sieci frakcji książęcych, specjalnie ujawniająca elitę polityczną Chin
+- [gradio-app/gradio](https://github.com/gradio-app/gradio) - Twórz i udostępniaj atrakcyjne aplikacje uczenia maszynowego, wszystko w Pythonie. 🌟 Daj gwiazdkę, by wesprzeć naszą pracę!
+- [absop/ST-ChineseTokenizer](https://github.com/absop/ST-ChineseTokenizer) - Wiązanie biblioteki jieba dla Sublime Text 3, precyzyjniejsze wybieranie, usuwanie i przemieszczanie kursora po chińskich słowach
+- [guofei9987/text_blind_watermark](https://github.com/guofei9987/text_blind_watermark) - Tekstowy znak wodny: ukryj informacje w tekście, put invisible blind watermark into a text.
+- [sigmavirus24/github3.py](https://github.com/sigmavirus24/github3.py) - Biblioteka do wygodnej i ergonomicznej obsługi REST API GitHub. Obsługuje Python 3.6+.
+- [IntelligenceX/SDK](https://github.com/IntelligenceX/SDK) - Publiczne SDK dla Intelligence X
+- [New-dev0/TgTwitterBot](https://github.com/New-dev0/TgTwitterBot) - TgTwitterBot - Steruj i eksploruj Twittera z Telegrama
+- [AmineSoukara/ImgBB-Bot](https://github.com/AmineSoukara/ImgBB-Bot) - Bot Telegrama hostujący Twoje obrazy na imgbb.com i zwracający link
+- [pictuga/morss](https://github.com/pictuga/morss) - Uzyskaj pełny tekst kanałów RSS
+- [zhaoolee/garss](https://github.com/zhaoolee/garss) - Github Actions zbiera RSS, tworzy wysokiej jakości stronę główną bez reklam
+- [ros/ros](https://github.com/ros/ros) - Podstawowe pakiety ROS
+- [libthu/reserves-lib-tsinghua-downloader](https://github.com/libthu/reserves-lib-tsinghua-downloader) - Pobieraj strony z http://reserves.lib.tsinghua.edu.cn/
+- [tychxn/jd-assistant](https://github.com/tychxn/jd-assistant) - Asystent zakupowy JD: logowanie, sprawdzanie dostępności/cen, zarządzanie koszykiem, szybkie zakupy, sprawdzanie zamówień itp.
+- [SeaHOH/GotoX](https://github.com/SeaHOH/GotoX) - Lokalny automatyczny proxy, zmodyfikowany z goagent.
+- [radinshayanfar/TGCopyBot](https://github.com/radinshayanfar/TGCopyBot) - Skrypt Pythona do kopiowania wiadomości telegramowych do innego czatu (bez przekazywania dalej)
+- [Opticos/OpenInWSL-Source](https://github.com/Opticos/OpenInWSL-Source) - Właściwy kod dla OpenInWSL. I kilka gotowych wydań.
+- [Opticos/GWSL-Source](https://github.com/Opticos/GWSL-Source) - Właściwy kod dla GWSL. I kilka gotowych wydań.
+- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) - Zaawansowany program do pobierania audio/wideo w wierszu poleceń
+- [QIN2DIM/V2RSS](https://github.com/QIN2DIM/V2RSS) - ​:rocket: Zbieraj | darmowe | wysokiej jakości | subskrypcje &lt;；
+- [hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy) - Projekt przyspieszający pobieranie release, archiwów oraz plików projektów z github
+- [thedogb/smmsbot](https://github.com/thedogb/smmsbot) - Bot telegramowy wdrożony na GAE. Może być klientem sm.ms do hostowania obrazów
+- [iBug/pac](https://github.com/iBug/pac) - Obejście blokad sieciowych, inteligentne kierowanie ruchem, używa GFWList i adresów IP. Aktualnie 537 gwiazdek ★
+- [Roiocam/V2ray2Clash](https://github.com/Roiocam/V2ray2Clash) - Skrypt Pythona do konwersji subskrypcji V2ray na pliki konfiguracyjne Clash, automatyczna subskrypcja dla Clash-Linux
+- [xiangsanliu/Rules](https://github.com/xiangsanliu/Rules) - 🛫️ 🎵 Zasady Shadowrocket: blokowanie reklam, proxy, odblokowanie muzyki netease.
+- [zhouzhouprogram/Shadowrocket-ADBlock-Rules](https://github.com/zhouzhouprogram/Shadowrocket-ADBlock-Rules) - Zbiór różnych reguł do Shadowrocket z funkcją blokowania reklam. Do automatycznego omijania blokad na iOS bez jailbreaka.
+- [liudaolunboluo/WxChatRecordTool](https://github.com/liudaolunboluo/WxChatRecordTool) - Małe narzędzie do zapisywania historii czatów WeChat
+- [icloud-photos-downloader/icloud_photos_downloader](https://github.com/icloud-photos-downloader/icloud_photos_downloader) - Narzędzie wiersza poleceń do pobierania zdjęć z iCloud
+- [cronitorio/cronitor-python](https://github.com/cronitorio/cronitor-python) - Klient Pythona dla Cronitor
+- [songquanpeng/zhihu-archiver](https://github.com/songquanpeng/zhihu-archiver) - Codzienne automatyczne pobieranie gorących tematów Zhihu, konwersja do pliku Markdown i budowa statycznej strony
+- [pyinstaller/pyinstaller](https://github.com/pyinstaller/pyinstaller) - Zamrażanie (pakowanie) programów Pythona do samodzielnych plików wykonywalnych
+- [huggingface/transformers](https://github.com/huggingface/transformers) - 🤗 Transformers: framework do definiowania modeli dla najnowocześniejszych modeli uczenia maszynowego w tekście, wizji, audio i modelach multimodalnych, zarówno do wnioskowania, jak i treningu.
+- [huashengdun/webssh](https://github.com/huashengdun/webssh) - :seedling: Klient ssh oparty na przeglądarce internetowej
+- [openai/glide-text2im](https://github.com/openai/glide-text2im) - GLIDE: model syntezy obrazów warunkowanych tekstem oparty na dyfuzji
+- [bmjcode/pywebarchive](https://github.com/bmjcode/pywebarchive) - Oprogramowanie do odczytu formatu webarchive firmy Apple
+- [XX-net/XX-Net](https://github.com/XX-net/XX-Net) - Narzędzie proxy do omijania GFW.
+- [THUDM/CogView](https://github.com/THUDM/CogView) - Generowanie obrazów z tekstu. Repozytorium do artykułu NeurIPS 2021 "CogView: Mastering Text-to-Image Generation via Transformers".
+- [GrowingGit/GitHub-English-Top-Charts](https://github.com/GrowingGit/GitHub-English-Top-Charts) - Pomaga odkrywać doskonałe projekty anglojęzyczne i pozbyć się przeszkadzających projektów w innych językach.
+- [waykom/weibo_top](https://github.com/waykom/weibo_top) - Pobieranie gorących wyszukiwań z Weibo
+- [vmp65l3/weibo-hotrank](https://github.com/vmp65l3/weibo-hotrank) - Zapisywanie gorących wyszukiwań z Weibo i generowanie dziennych chmur słów
+- [zisen123/TrierVosPhotos](https://github.com/zisen123/TrierVosPhotos) - Zmienia nazwy i przenosi zdjęcia i filmy wyeksportowane z iPhone'a według daty i czasu do folderów posortowanych według daty
+- [whitejoce/Get_Weather](https://github.com/whitejoce/Get_Weather) - Pobieranie lokalnej pogody przez lokalizację IP (bez użycia API)
+- [up2b/pyup2b](https://github.com/up2b/pyup2b) - Uploader obrazów.
+- [Alvin9999/new-pac](https://github.com/Alvin9999/new-pac) - Obejście cenzury internetowej - naukowy dostęp do internetu, wolny internet, darmowy naukowy dostęp do internetu, darmowe obejście cenzury, fanqiang, pobieranie wideo z YouTube, oprogramowanie, VPN, przeglądarka do obejścia cenzury jednym kliknięciem, skrypt/poradnik do automatycznego tworzenia serwera proxy na VPS, darmowe konta/nody shadowsocks/ss/ssr/v2ray/goflyway, drabinki do obejścia cenzury, komputer, telefon, iOS, Android, Windows, Mac, Linux, router - naukowy dostęp do internetu, pobieranie wideo z YouTube, mirrory/strony bez cenzury YouTube,
+- [TencentARC/GFPGAN](https://github.com/TencentARC/GFPGAN) - GFPGAN ma na celu opracowanie praktycznych algorytmów do przywracania twarzy w rzeczywistych warunkach.
+- [URenko/Accesser](https://github.com/URenko/Accesser) - 🌏Narzędzie do rozwiązania problemu SNI RST uniemożliwiającego dostęp do stron takich jak Wikipedia, Pixiv | A tool for solving SNI RST
+- [pytorch/pytorch](https://github.com/pytorch/pytorch) - Tensory i dynamiczne sieci neuronowe w Pythonie z silnym przyspieszeniem GPU
+- [deepfakes/faceswap](https://github.com/deepfakes/faceswap) - Oprogramowanie Deepfakes dla wszystkich
+- [v2ex/remote](https://github.com/v2ex/remote) - Pracownik zdalny
+- [open-mmlab/mmtracking](https://github.com/open-mmlab/mmtracking) - OpenMMLab Video Perception Toolbox. Obsługuje Video Object Detection (VID), Multiple Object Tracking (MOT), Single Object Tracking (SOT), Video Instance Segmentation (VIS) w ramach jednolitego frameworka.
+- [itstyren/CNKI-download](https://github.com/itstyren/CNKI-download) - :frog: Pająk do pobierania i szybkiego przeglądania dokumentów CNKI (Web Scraper for Extracting Data)
+- [aqlaboratory/proteinnet](https://github.com/aqlaboratory/proteinnet) - Zestandaryzowany zestaw danych do uczenia maszynowego struktur białek
+- [lucidrains/alphafold2](https://github.com/lucidrains/alphafold2) - Docelowo nieoficjalna implementacja / replikacja Alphafold2 w Pytorchu, gdy szczegóły architektury zostaną ujawnione
+- [RimoChan/python-anti-seduce-system](https://github.com/RimoChan/python-anti-seduce-system) - Instrukcja dotycząca dostosowania systemu zapobiegającego uzależnieniom dla języka Python
+- [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats) - Ta akcja GitHub pomaga dodać fajne metryki deweloperskie do pliku Readme twojego profilu na GitHubie
+- [pywebio/PyWebIO](https://github.com/pywebio/PyWebIO) - Tworzenie interaktywnych aplikacji webowych w sposób skryptowy.
+- [Python-World/python-mini-projects](https://github.com/Python-World/python-mini-projects) - Kolekcja prostych mini projektów w Pythonie, które pomogą rozwinąć twoje umiejętności
+- [geekcomputers/Python](https://github.com/geekcomputers/Python) - Moje przykłady w Pythonie
+- [TachibanaYoshino/AnimeGANv2](https://github.com/TachibanaYoshino/AnimeGANv2) - [Open Source].  Ulepszona wersja AnimeGAN. Przekształca krajobrazy/filmy w anime
+- [srx-2000/spider_collection](https://github.com/srx-2000/spider_collection) - Kolekcja pająków w Pythonie, obecnie zawiera: pobieranie utworów z NetEase Cloud Music, pobieranie wideo z Bilibili, pobieranie pytań z Zhihu, pobieranie tapet, pobieranie wideo z xvideos, pobieranie audiobooków, pająk do Weibo, pobieranie danych z Anjuke + wizualizacja danych, narzędzie do pobierania okładek wideo z Bilibili, opakowanie puli proxy IP, pająk do pobierania użytkowników Zhihu + analiza danych, pająk do pobierania użytkowników GitHub
+- [genzj/pybingwallpaper](https://github.com/genzj/pybingwallpaper) - Pobierz tapetę z bing.com
+- [woider/PythonExercise](https://github.com/woider/PythonExercise) - 100 przykładów ćwiczeń programowania w Pythonie (z kodem źródłowym), przykłady przetestowane w środowisku Python 3.6.
+- [axyyu/notion-clear-trash](https://github.com/axyyu/notion-clear-trash) - Mały skrypt do czyszczenia kosza w Notion
+- [mono0926/alfred-git-commit-message-example](https://github.com/mono0926/alfred-git-commit-message-example) - Przykład wiadomości commit do Gita dla Alfreda
+- [skulltech/twitter-follow-bot](https://github.com/skulltech/twitter-follow-bot) - Narzędzie do automatycznego obserwowania wielu kont na Twitterze
+- [tqdm/tqdm](https://github.com/tqdm/tqdm) - :zap: Szybki, rozszerzalny pasek postępu dla Pythona i CLI
+- [Chalarangelo/30-seconds-of-python](https://github.com/Chalarangelo/30-seconds-of-python) - Krótkie fragmenty kodu Python do wszystkich potrzeb deweloperskich
+- [BadagalaAdarsh/Super_Mario](https://github.com/BadagalaAdarsh/Super_Mario) - 
+- [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) - Wszystkie algorytmy zaimplementowane w Pythonie
+- [MrMissx/Telegram_Forwarder](https://github.com/MrMissx/Telegram_Forwarder) - Bot Telegram do przekazywania wiadomości z kanałów/grup
+- [mzucker/noteshrink](https://github.com/mzucker/noteshrink) - Konwertuj skany odręcznych notatek do pięknych, skompresowanych plików PDF
+- [YuvrajSingh-16/Text-To-Handwritten-Notes](https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes) - Konwertuje tekst na PDF z odręcznymi notatkami
+- [steventango/notability2pdf](https://github.com/steventango/notability2pdf) - Wyodrębnij pliki PDF z notability (*.note).
+- [132ikl/liteshort](https://github.com/132ikl/liteshort) - [PRZENIESIONO] Przyjazny użytkownikowi, naprawdę lekki i konfigurowalny skracacz URL
+- [brndnmtthws/tweet-delete](https://github.com/brndnmtthws/tweet-delete) - Samoniszczące się tweety, żebyś też był cool 😎
+- [bonfy/github-trending](https://github.com/bonfy/github-trending) - Śledzenie najpopularniejszych repozytoriów Github, aktualizacja codziennie (wersja Python)
+- [CollegesChat/university-information](https://github.com/CollegesChat/university-information) - Zbiór wymagań i szczegółów, które nie są wymienione w oficjalnych informacjach o rekrutacji, a realnie wpływają na jakość życia studentów na chińskich uczelniach
+- [curtinlv/JD-Script](https://github.com/curtinlv/JD-Script) - Tylko do celów informacyjnych.
+- [yhangf/PythonCrawler](https://github.com/yhangf/PythonCrawler) - :heartpulse: Kolekcja projektów pająków napisanych w Pythonie
+- [mobier/shadowsocksr-speed](https://github.com/mobier/shadowsocksr-speed) - SSR masowe testowanie przepustowości nodów
+- [twtrubiks/docker-tutorial](https://github.com/twtrubiks/docker-tutorial) - Podstawowy tutorial Docker - od zera do Docker-Beginners-Guide. Uczy tworzenia Django + PostgreSQL 📝 przy użyciu Dockera
+- [ZainCheung/netease-cloud](https://github.com/ZainCheung/netease-cloud) - Automatyczne codzienne logowanie i odtwarzanie 300 utworów na NetEase Cloud Music w celu podniesienia poziomu konta, obsługa powiadomień WeChat, obsługa wdrożenia jako funkcja bezserwerowa
+- [caj2pdf/caj2pdf](https://github.com/caj2pdf/caj2pdf) - Konwersja plików CAJ (China Academic Journals) do PDF. 佛系转换，成功与否，皆是玄学。
+- [iswbm/pycharm-guide](https://github.com/iswbm/pycharm-guide) - PyCharm Przewodnik po chińsku: instalacja | crackowanie | wydajność | triki
+- [0voice/interview_internal_reference](https://github.com/0voice/interview_internal_reference) - Najnowsze podsumowanie 2023, pytania techniczne z rozmów kwalifikacyjnych w Alibaba, Tencent, Baidu, Meituan, Toutiao itp., wraz z odpowiedziami i analizami ekspertów.
+- [spotDL/spotify-downloader](https://github.com/spotDL/spotify-downloader) - Pobieranie playlist i utworów Spotify wraz z okładką albumu i metadanymi (z YouTube, jeśli znaleziono dopasowanie).
+- [devourbots/word_cloud_bot](https://github.com/devourbots/word_cloud_bot) - Bot generujący chmurę słów z treści czatu i statystyki wypowiedzi użytkowników grupy
+- [Mrvishal2k2/TG-ShortLinkBot](https://github.com/Mrvishal2k2/TG-ShortLinkBot) - Prosty bot do skracania URLi korzystający z API bit.ly
+- [hedyhli/starcli](https://github.com/hedyhli/starcli) - :sparkles: Przeglądaj popularne projekty GitHub z poziomu linii poleceń
+- [bee-san/Ciphey](https://github.com/bee-san/Ciphey) - ⚡ Automatyczne odszyfrowywanie szyfrowań bez znajomości klucza lub szyfru, dekodowanie kodowań i łamanie hashy ⚡
+- [bhrigu123/classifier](https://github.com/bhrigu123/classifier) - Natychmiast organizuj pliki w katalogu, klasyfikując je do różnych folderów
+- [tfeldmann/organize](https://github.com/tfeldmann/organize) - Narzędzie do automatyzacji zarządzania plikami.
+- [babysor/MockingBird](https://github.com/babysor/MockingBird) - 🚀AI klonowanie głosu: sklonuj swój głos w 5 sekund i generuj dowolną treść mówioną w czasie rzeczywistym
+- [urbanij/google_keep_takeout](https://github.com/urbanij/google_keep_takeout) - Eksportuj swoje notatki Google Keep do pliku markdown lub txt
+- [lonnyzhang423/v2ex-hot-hub](https://github.com/lonnyzhang423/v2ex-hot-hub) - Rejestruj gorące tematy V2EX, aktualizowane co godzinę, archiwizowane dziennie.
+- [Py-Contributors/awesomeScripts](https://github.com/Py-Contributors/awesomeScripts) - Kolekcja świetnych skryptów w Pythonie ułatwiających codzienne życie. Stwórz issue, jeśli masz świetny pomysł na nowy skrypt. Zostaw :star:
+- [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) - Program wiersza poleceń do pobierania filmów z YouTube.com i innych stron z wideo
+- [0xHJK/music-dl](https://github.com/0xHJK/music-dl) - wyszukiwanie i pobieranie muzyki z NetEase Cloud Music, QQ Music, Kugou Music, Baidu Music, Xiami Music, Migu Music itp.
+- [h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules) - Dostarcza wiele reguł Shadowrocket z funkcją blokowania reklam. Do selektywnego automatycznego omijania cenzury na urządzeniach iOS bez jailbreaka.
+- [Anankke/ASM-Bot](https://github.com/Anankke/ASM-Bot) - Automatyczne usuwanie komunikatów serwisowych w grupach Telegram, takich jak dołączanie i opuszczanie grupy.
+- [Textualize/rich](https://github.com/Textualize/rich) - Rich to biblioteka Pythona umożliwiająca bogate formatowanie tekstu i piękne formatowanie w terminalu.
+- [Nekmo/telegram-upload](https://github.com/Nekmo/telegram-upload) - Wysyłanie i pobieranie plików z Telegrama do 4 GiB przy użyciu własnego konta
+- [franciscod/telegram-twitter-forwarder-bot](https://github.com/franciscod/telegram-twitter-forwarder-bot) - Bot Telegram przekazujący tweety
+- [pyrogram/pyrogram](https://github.com/pyrogram/pyrogram) - Elegancki, nowoczesny i asynchroniczny framework API Telegram MTProto w Pythonie dla użytkowników i botów
+- [dev-jonghoonpark/pdf-password-locker](https://github.com/dev-jonghoonpark/pdf-password-locker) - Narzędzie do zabezpieczania pliku PDF hasłem
+- [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) - :octocat: Udostępnianie ciekawych, początkujących projektów open source na GitHubie.
+- [mozillazg/python-pinyin](https://github.com/mozillazg/python-pinyin) - Konwersja chińskich znaków na pinyin (pypinyin)
+- [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) - Regularne inwestowanie zmienia los —— pozwól czasowi powoli cię wzbogacić https://onregularinvesting.com
+- [piyx/FileOrganizer](https://github.com/piyx/FileOrganizer) - Automatycznie organizuje pliki na twoim komputerze
+- [sreekaransrinath/file_organizer](https://github.com/sreekaransrinath/file_organizer) - Skrypt, który przeszukuje dowolny wybrany folder i przenosi pliki do odpowiednich podfolderów na podstawie typu pliku.
+- [aashutoshrathi/py-scripts](https://github.com/aashutoshrathi/py-scripts) - Skrypty codziennego użytku dla użytkowników Windows, ułatwiające dzień.
+- [offa/android-foss](https://github.com/offa/android-foss) - Lista wolnego i otwartego oprogramowania (FOSS) dla Androida – dla wolności i prywatności.
+- [Trinkle23897/learn2018-autodown](https://github.com/Trinkle23897/learn2018-autodown) - Automatyczny skrypt do pobierania kursów z nowej platformy edukacyjnej Tsinghua / Skrypt w Pythonie do klonowania wszystkich plików z learn.tsinghua.edu.cn
+- [521xueweihan/GitHub520](https://github.com/521xueweihan/GitHub520) - :kissing_heart: Sprawia, że „pokochasz” GitHuba, rozwiązując problem rozbitych obrazów lub wolnego ładowania podczas przeglądania. (bez instalacji)
+- [gurland/telegram-delete-all-messages](https://github.com/gurland/telegram-delete-all-messages) - Usuń wszystkie swoje wiadomości w grupach/supergrupach za pomocą tego skryptu w Pythonie
+- [dylanyang17/TsinghuaBookCrawler](https://github.com/dylanyang17/TsinghuaBookCrawler) - Pająk do platformy podręczników Tsinghua
+## QML 
+
+- [Dr-Incognito/V2Ray-Desktop](https://github.com/Dr-Incognito/V2Ray-Desktop) - Najbardziej elegancki wieloplatformowy klient proxy z interfejsem graficznym, obsługujący protokoły Shadowsocks(R), V2Ray i Trojan. Zbudowany z użyciem Qt5 i QML2.
+
+## R 
+
+- [REditorSupport/languageserver](https://github.com/REditorSupport/languageserver) - Implementacja Language Server Protocol dla R
+
+## Rich Text Format 
+
+- [gauravghongde/social-icons](https://github.com/gauravghongde/social-icons) - Kolekcja ikon mediów społecznościowych w formatach SVG i PNG. Osadzane ikony społecznościowe, do bezpośredniego użycia na stronach internetowych.
+
+## Roff 
+
+- [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) - Wszystkie podręczniki PDF dla szkół podstawowych, średnich, wyższych oraz uniwersytetów.
+- [wikihouseproject/Skylark](https://github.com/wikihouseproject/Skylark) - Najnowszy system konstrukcyjny WikiHouse, wykorzystujący standaryzowane, izolowane bloki do budynków o wysokości 1–3 kondygnacji
+
+## Ruby 
+
+- [captn3m0/opml-gen](https://github.com/captn3m0/opml-gen) - 
+- [hartator/wayback-machine-downloader](https://github.com/hartator/wayback-machine-downloader) - Pobierz całą stronę internetową z Wayback Machine.
+- [lewagon/setup](https://github.com/lewagon/setup) - Instrukcje konfiguracji dla studentów Le Wagon na pierwszy dzień Bootcampu Web Development
+- [community/community](https://github.com/community/community) - Publiczne dyskusje dotyczące: GitHub Mobile, GitHub Discussions, GitHub Codespaces, GitHub Sponsors, GitHub Issues i innych!
+- [mrtazz/katana](https://github.com/mrtazz/katana) - gotowy do użycia skracacz URL hostowany na Heroku, oparty na guillotine
+- [technoweenie/guillotine](https://github.com/technoweenie/guillotine) - Zestaw do skracania URL dla hobbystów
+- [jekyll/jekyll](https://github.com/jekyll/jekyll) - :globe_with_meridians: Jekyll to generator statycznych stron z obsługą blogów napisany w Ruby
+- [mastodon/mastodon](https://github.com/mastodon/mastodon) - Twoja samodzielnie hostowana, globalnie połączona społeczność mikroblogowa
+- [apsheronets/reader](https://github.com/apsheronets/reader) - 
+- [IgnoredAmbience/github-gitlab-sync](https://github.com/IgnoredAmbience/github-gitlab-sync) - Ciągła synchronizacja repozytoriów pomiędzy GitHub i GitLab
+- [huginn/huginn](https://github.com/huginn/huginn) - Twórz agentów, którzy monitorują i działają w Twoim imieniu. Twoi agenci są gotowi do działania!
+## Rust 
+
+- [microsoft/edit](https://github.com/microsoft/edit) - Wszyscy edytujemy.
+- [justjavac/herlang](https://github.com/justjavac/herlang) - Her - język programowania napisany w Rust.
+- [sigoden/aichat](https://github.com/sigoden/aichat) - Wszechstronne narzędzie LLM CLI z asystentem powłoki, Chat-REPL, RAG, narzędziami AI i agentami, z dostępem do OpenAI, Claude, Gemini, Ollama, Groq i innych.
+- [astral-sh/rye](https://github.com/astral-sh/rye) - Bezproblemowe doświadczenie z Pythonem
+- [libnyanpasu/clash-nyanpasu](https://github.com/libnyanpasu/clash-nyanpasu) - Clash Nyanpasu～(∠・ω&lt; )⌒☆​
+- [microsoft/sudo](https://github.com/microsoft/sudo) - To jest sudo, dla Windows
+- [KipData/KiteSQL](https://github.com/KipData/KiteSQL) - SQL jako funkcja dla Rust
+- [zed-industries/zed](https://github.com/zed-industries/zed) - Koduj z prędkością myśli – Zed to wydajny, wieloosobowy edytor kodu twórców Atom i Tree-sitter.
+- [H-M-H/Weylus](https://github.com/H-M-H/Weylus) - Użyj swojego tabletu jako tabletu graficznego/ekranu dotykowego na komputerze.
+- [YukiCoco/ToMoon](https://github.com/YukiCoco/ToMoon) - Narzędzie sieciowe oparte na SteamOS, automatycznie konfiguruje tryb TUN do przyspieszania gier, proxy sieciowe.
+- [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) - Nieoficjalny serwer kompatybilny z Bitwarden, napisany w Rust, dawniej bitwarden_rs
+- [rustdesk/rustdesk-server](https://github.com/rustdesk/rustdesk-server) - Program serwera RustDesk
+- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) - Otwarty program do zdalnego pulpitu przeznaczony do hostowania własnego, alternatywa dla TeamViewer.
+- [m1guelpf/plz-cli](https://github.com/m1guelpf/plz-cli) - Copilot dla twojego terminala
+- [EAimTY/socks5-server](https://github.com/EAimTY/socks5-server) - Filtrowalna, względnie niskopoziomowa asynchroniczna biblioteka serwera SOCKS5 oparta na tokio
+- [sigoden/opscan](https://github.com/sigoden/opscan) - Otwarty skaner portów.
+- [lencx/ChatGPT](https://github.com/lencx/ChatGPT) - 🔮 Aplikacja ChatGPT na komputery (Mac, Windows i Linux)
+- [klausi/mastodon-twitter-sync](https://github.com/klausi/mastodon-twitter-sync) - Synchronizuje posty między Mastodon a Twitter
+- [glotlabs/gdrive](https://github.com/glotlabs/gdrive) - Klient CLI do Google Drive
+- [lapce/lapce](https://github.com/lapce/lapce) - Błyskawiczny i potężny edytor kodu napisany w Rust
+- [dracarys18/TweetBot](https://github.com/dracarys18/TweetBot) - Prosty bot Telegram do przesyłania tweetów z dowolnego konta na Twitterze do kanału Telegram
+- [tw93/Pake](https://github.com/tw93/Pake) - 🤱🏻 Zamień dowolną stronę internetową w aplikację desktopową z użyciem Rust.  🤱🏻 Zbuduj lekki, wieloplatformowy desktop z Rust.
+- [google/comprehensive-rust](https://github.com/google/comprehensive-rust) - Kurs Rust używany przez zespół Android w Google. Materiały do szybkiego uczenia się Rust.
+- [facebook/sapling](https://github.com/facebook/sapling) - Skalowalny, przyjazny system kontroli wersji źródeł.
+- [abba23/spotify-adblock](https://github.com/abba23/spotify-adblock) - Blokada reklam dla Spotify
+- [messense/aliyundrive-webdav](https://github.com/messense/aliyundrive-webdav) - Usługa WebDAV dla Aliyun Drive
+- [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - Skalowalna, rozproszona, współdzielona baza danych dokumentowo-grafowa dla webu czasu rzeczywistego
+- [rust-net/dnsd](https://github.com/rust-net/dnsd) - Serwer proxy DNS
+- [ihciah/shadow-tls](https://github.com/ihciah/shadow-tls) - Proxy ujawniające prawdziwy handshake TLS do zapory ogniowej
+- [seanmonstar/warp](https://github.com/seanmonstar/warp) - Bardzo łatwy, kompozycyjny framework serwera WWW dla warp speeds.
+- [iovxw/rssbot](https://github.com/iovxw/rssbot) - Lekki bot Telegram do powiadomień RSS. Lekki bot RSS do powiadomień w Telegramie
+- [Wulf/create-rust-app](https://github.com/Wulf/create-rust-app) - Konfiguracja nowoczesnej aplikacji webowej rust+react jednym poleceniem.
+- [sathwikmatsa/tcad](https://github.com/sathwikmatsa/tcad) - Automatyczny downloader tcloud
+- [sunface/rust-course](https://github.com/sunface/rust-course) - „Osiem lat z rzędu najbardziej lubiany język na świecie, bez GC, bez ręcznego zarządzania pamięcią, bardzo wydajny i bezpieczny, programowanie proceduralne/OO/funkcyjne, świetny system pakietów, fundament JS na przyszłość" — Spróbuj Rust jako drugiego języka po pracy. Książka zawiera kompleksowe, dogłębne wyjaśnienia, trafne przykłady, wyjątkowo płynne treści — prawdopodobnie najstaranniej przygotowany chiński kurs Rust.
+- [rust-lang/cargo](https://github.com/rust-lang/cargo) - Menedżer pakietów Rust
+- [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) - Frontend kompilatora Rust dla IDE
+- [rust-lang/book](https://github.com/rust-lang/book) - Język programowania Rust
+- [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) - Kuratorowana lista kodu i zasobów Rust.
+- [bee-san/RustScan](https://github.com/bee-san/RustScan) - 🤖 Nowoczesny skaner portów 🤖
+- [RustPython/RustPython](https://github.com/RustPython/RustPython) - Interpreter Pythona napisany w Rust
+- [TheAlgorithms/Rust](https://github.com/TheAlgorithms/Rust) - Wszystkie algorytmy zaimplementowane w Rust
+- [Berrysoft/tunet-rust](https://github.com/Berrysoft/tunet-rust) - Biblioteka i klient kampusowej sieci Tsinghua University w Rust
+- [sachaos/viddy](https://github.com/sachaos/viddy) - 👀 Nowoczesna komenda watch. Maszyna czasu i pager itd.
+- [sekunho/emojied](https://github.com/sekunho/emojied) - ✂️ Skracacz URL, który używa tylko emoji.
+- [kxxt/aspeak](https://github.com/kxxt/aspeak) - Prosty klient text-to-speech dla Azure TTS API.
+- [sharkdp/fd](https://github.com/sharkdp/fd) - Prosta, szybka i przyjazna alternatywa dla 'find'
+- [atuinsh/atuin](https://github.com/atuinsh/atuin) - ✨ Magiczna historia powłoki
+- [Dusk-Labs/dim](https://github.com/Dusk-Labs/dim) - Dim, menedżer multimediów napędzany mrocznymi siłami.
+- [ekzhang/bore](https://github.com/ekzhang/bore) - 🕳 bore to proste narzędzie CLI do tunelowania na localhost
+- [rust-lang/mdBook](https://github.com/rust-lang/mdBook) - Twórz książki z plików markdown. Jak Gitbook, ale zaimplementowane w Rust
+- [sunface/rust-by-practice](https://github.com/sunface/rust-by-practice) - Nauka Rust przez praktykę, zmniejszanie dystansu między początkującym a doświadczonym programistą poprzez przykłady, ćwiczenia i projekty.
+- [Wilfred/difftastic](https://github.com/Wilfred/difftastic) - Strukturalny diff rozumiejący składnię 🟥🟩
+- [rust-lang/rust](https://github.com/rust-lang/rust) - Umożliwia każdemu budowanie niezawodnego i wydajnego oprogramowania.
+- [influxdata/influxdb](https://github.com/influxdata/influxdb) - Skalowalna baza danych dla metryk, zdarzeń i analiz czasu rzeczywistego
+- [ogham/exa](https://github.com/ogham/exa) - Nowoczesny zamiennik dla ‘ls’.
+- [rathole-org/rathole](https://github.com/rathole-org/rathole) - Lekki i wydajny odwrotny proxy do NAT traversal, napisany w Rust. Alternatywa dla frp i ngrok.
+- [flxzt/rnote](https://github.com/flxzt/rnote) - Szkicuj i rób odręczne notatki.
+- [ihciah/ddns-worker](https://github.com/ihciah/ddns-worker) - 
+- [svenstaro/genact](https://github.com/svenstaro/genact) - 🌀 Generator bezsensownych aktywności
+- [cloudflare/wrangler-legacy](https://github.com/cloudflare/wrangler-legacy) - 🤠  Dom dla Wrangler v1 (przestarzały)
+- [starship/starship](https://github.com/starship/starship) - ☄🌌️  Minimalistyczny, superszybki, nieskończenie konfigurowalny prompt dla każdej powłoki!
+- [sayanarijit/qrcode.show](https://github.com/sayanarijit/qrcode.show) - [PROTOTYP ROBOCZY] Łatwe generowanie kodów QR za darmo – generowanie kodów QR jako usługa
+- [fish-shell/fish-shell](https://github.com/fish-shell/fish-shell) - Przyjazna użytkownikowi powłoka wiersza poleceń.
+- [qarmin/szyszka](https://github.com/qarmin/szyszka) - Szyszka to szybka i potężna aplikacja do zmiany nazw plików
+- [qarmin/czkawka](https://github.com/qarmin/czkawka) - Wielofunkcyjna aplikacja do wyszukiwania duplikatów, pustych folderów, podobnych obrazów itp.
+## SCSS 
+
+- [Keldos-Li/typora-latex-theme](https://github.com/Keldos-Li/typora-latex-theme) - Temat stylu chińskiego LaTeX dla Typora, przydatny do pisania lekkich prac dyplomowych dla studentów. This is a theme disguising Typora into Chinese LaTeX style.
+- [vinceliuice/Graphite-gtk-theme](https://github.com/vinceliuice/Graphite-gtk-theme) - Motyw Graphite gtk
+- [noatpad/typora-theme-ursine](https://github.com/noatpad/typora-theme-ursine) - Motyw Typora inspirowany Bear
+- [vinceliuice/WhiteSur-gtk-theme](https://github.com/vinceliuice/WhiteSur-gtk-theme) - Motyw podobny do MacOS dla wszystkich pulpitów opartych o gtk
+- [sivan/heti](https://github.com/sivan/heti) - Heti (hètí) to ulepszenie stylu typografii zaprojektowane specjalnie do prezentacji treści w języku chińskim. Opiera się na powszechnych standardach typografii chińskiej, zapewniając lepsze wrażenia z czytania artykułów dla czytelników stron internetowych.
+- [AboutRSS/ALL-about-RSS](https://github.com/AboutRSS/ALL-about-RSS) - Lista rzeczy związanych z RSS: narzędzia, usługi, społeczności, samouczki itd.
+
+## SVG 
+
+- [gilbarbara/logos](https://github.com/gilbarbara/logos) - Ogromna kolekcja logotypów SVG
+- [tandpfun/skill-icons](https://github.com/tandpfun/skill-icons) - Łatwo zaprezentuj swoje umiejętności w pliku readme na Githubie lub CV ✨
+
+## Shell 
+
+- [LloydAsp/NodeQuality](https://github.com/LloydAsp/NodeQuality) - Uruchamianie skryptu testującego VPS w środowisku piaskownicy i formatowanie wyników testu
+- [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) - Czarna dziura dla reklam internetowych
+- [xykt/IPQuality](https://github.com/xykt/IPQuality) - Skrypt do sprawdzania jakości IP - IP Quality Check Script
+- [i-abc/Speedtest](https://github.com/i-abc/Speedtest) - Wielofunkcyjny skrypt do testowania prędkości | Multi-functional speedtest script
+- [fscarmen/ArgoX](https://github.com/fscarmen/ArgoX) - Argo Xray dla VPS, skrypt instalacyjny jednym kliknięciem. 一键脚本
+- [233boy/Xray](https://github.com/233boy/Xray) - Najlepszy skrypt instalacyjny Xray i skrypt zarządzania
+- [binpash/try](https://github.com/binpash/try) - Sprawdź efekty działania polecenia zanim wprowadzisz zmiany w swoim systemie
+- [panyanyany/muchat-aio](https://github.com/panyanyany/muchat-aio) - Wersja zespołowa aplikacji ChatGPT Web, wielu użytkowników, brak logowania. Odpowiedni do użytku wewnętrznego w firmach, organizacjach lub małych grupach. Team version of ChatGPT web application- multi-user and no log-in required. Suitable for internal use in companies, organizations or small groups.
+- [guzhaoyuan/net.tsinghua](https://github.com/guzhaoyuan/net.tsinghua) - Interfejs CLI do logowania się do sieci Tsinghua
+- [yonggekkk/warp-yg](https://github.com/yonggekkk/warp-yg) - Wielofunkcyjny skrypt WARP jednym kliknięciem, obsługuje przełączanie warp-go i wgcf, nieograniczone generowanie plików konfiguracyjnych warp, obsługuje aktualizacje warp+, konta zespołowe warp, podgląd lokalnego IP VPS, status odblokowania netflix, chatgpt
+- [AbdBarho/stable-diffusion-webui-docker](https://github.com/AbdBarho/stable-diffusion-webui-docker) - Łatwe wdrożenie Stable Diffusion w Dockerze z przyjaznym interfejsem użytkownika
+- [lxhao61/integrated-examples](https://github.com/lxhao61/integrated-examples) - Optymalne przykłady konfiguracji i kombinacji dla popularnych rozwiązań obejścia cenzury z użyciem Nginx lub Caddy (v2) wraz z V2Ray (v4) lub Xray, Caddy (v2) z dedykowanymi wtyczkami, Hysteria itd.; zawiera zintegrowane pliki Caddy (v2) z konkretnymi wtyczkami, do wykorzystania i backupu.
+- [haiwen/seafile-admin-docs](https://github.com/haiwen/seafile-admin-docs) - 
+- [P3TERX/aria2.conf](https://github.com/P3TERX/aria2.conf) - Plik konfiguracyjny Aria2 | Pobieranie offline OneDrive i Google Drive | Przesyłanie do Baidu Netdisk
+- [colinwjd/aria2-ariang](https://github.com/colinwjd/aria2-ariang) - Aria2 z web UI Aira-Ng
+- [lmc999/auto-add-routes](https://github.com/lmc999/auto-add-routes) - Trasa do Chin dla VPN
+- [chenjie/v2ray-tls-websocket-nginx](https://github.com/chenjie/v2ray-tls-websocket-nginx) - 🌎ULTYMATYWNA konfiguracja proxy V2Ray napędzana przez Project V.
+- [awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash) - Wyselekcjonowana lista przydatnych skryptów i zasobów Bash.
+- [York618/alist-flyio](https://github.com/York618/alist-flyio) - 
+- [termux/termux-packages](https://github.com/termux/termux-packages) - System budowania pakietów dla Termux.
+- [todotxt/todo.txt-cli](https://github.com/todotxt/todo.txt-cli) - ☑️ Prosty i rozbudowywalny skrypt shell do zarządzania plikiem todo.txt.
+- [VSCodium/vscodium](https://github.com/VSCodium/vscodium) - Binaria VS Code bez marki MS/telemetrii/licencjonowania
+- [dylanaraps/neofetch](https://github.com/dylanaraps/neofetch) - 🖼️  Narzędzie wiersza poleceń do informacji o systemie napisane w bashu 3.2+
+- [emptysuns/Hi_Hysteria](https://github.com/emptysuns/Hi_Hysteria) - Hello World! Optymalizacja tras nie sprawdza się poza Chinami? Nie chcesz pośrednictwa? hysteria2 jednym kliknięciem.
+- [nicejade/vuepress-web-app](https://github.com/nicejade/vuepress-web-app) - 📝 Aplikacja internetowa zbudowana w VuePress, obsługuje Pwa, komentarze przez Github Issues, Prettier Markdown itd.
+- [qinghuas/socks5-install](https://github.com/qinghuas/socks5-install) - Skrypt SOCKS5 jednym kliknięciem
+- [MichaelCade/90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps) - To repozytorium zaczęło się jako projekt nauki publicznej dla mnie, a obecnie jest uporządkowaną mapą nauki dla wielu osób w społeczności. Przez 3 lata poruszamy wszystkie tematy związane z DevOps
+- [rocky-linux/rocky-tools](https://github.com/rocky-linux/rocky-tools) - 
+- [Smalls1652/wsl2-rockylinux](https://github.com/Smalls1652/wsl2-rockylinux) - Tworzenie obrazu RockyLinux do użycia w Windows Subsystem for Linux.
+- [scop/bash-completion](https://github.com/scop/bash-completion) - Programowalne funkcje uzupełniania dla bash
+- [yeahwu/v2ray-wss](https://github.com/yeahwu/v2ray-wss) - Skrypt proxy z wieloma protokołami.
+- [nodesource/distributions](https://github.com/nodesource/distributions) - Binaria Node.js od NodeSource
+- [uvulpos/gitea-installer](https://github.com/uvulpos/gitea-installer) - Prosty instalator bash dla Gitea! Przed wykonaniem skryptu sprawdź, czy używasz najnowszego linku do pobrania Gitea
+- [chevereto/vps](https://github.com/chevereto/vps) - Kolekcja skryptów bash do instalacji Chevereto na dowolnym VPS
+- [wulabing/Xray_onekey](https://github.com/wulabing/Xray_onekey) - Xray, VLESS + XTLS na bazie Nginx, skrypt instalacyjny jednym kliknięciem
+- [lanbugs/gitea_installer](https://github.com/lanbugs/gitea_installer) - Skrypt instalacyjny GITEA
+- [AlistGo/alist-replit](https://github.com/AlistGo/alist-replit) - alist na replit
+- [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) - Czysty skrypt powłoki Unix implementujący protokół klienta ACME
+- [wulabing/V2Ray_ws-tls_bash_onekey](https://github.com/wulabing/V2Ray_ws-tls_bash_onekey) - 
+- [mack-a/v2ray-agent](https://github.com/mack-a/v2ray-agent) - Xray, Tuic, hysteria2, sing-box, osiem w jednym, skrypt instalacyjny jednym kliknięciem
+- [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) - Prace naukowe ze społeczności informatycznej do czytania i dyskusji.
+- [eRaid6/gitea-install](https://github.com/eRaid6/gitea-install) - Instalacja i aktualizacja Gitea na CentOS 7/RHEL7 oraz Fedora 30
+- [P3TERX/warp.sh](https://github.com/P3TERX/warp.sh) - Instalator Cloudflare WARP | Skrypt instalacyjny WARP jednym kliknięciem
+- [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃   Przyjazny framework społecznościowy (ponad 2400 współtwórców) do zarządzania konfiguracją zsh. Zawiera ponad 300 opcjonalnych wtyczek (rails, git, macOS, hub, docker, homebrew, node, php, python, ...)
+- [bestxtools/awesome-toolbox-chinese](https://github.com/bestxtools/awesome-toolbox-chinese) - 🧰 Kolekcja znakomitych narzędzi - zbiór i polecenie przydatnych i wybitnych narzędzi. Kompletna lista narzędzi. | https://awesome-toolbox-chinese.bestxtools.com/ | https://😎🧰.bestxtools.com/
+- [wslutilities/wslu](https://github.com/wslutilities/wslu) - Zbiór narzędzi dla Windows Subsystem for Linux
+- [cheat/cheatsheets](https://github.com/cheat/cheatsheets) - Karty pomocy tworzone przez społeczność
+- [foxundermoon/vs-shell-format](https://github.com/foxundermoon/vs-shell-format) - Rozszerzenie do formatowania shellscript, Dockerfile, properties...
+- [aprescott/gist-backup](https://github.com/aprescott/gist-backup) - Backup wszystkich Twoich publicznych i prywatnych repozytoriów gist.
+- [Jrohy/nodejs-install](https://github.com/Jrohy/nodejs-install) - Skrypt instalacyjny najnowszego nodejs jednym kliknięciem
+- [rickellis/ConkyMatic](https://github.com/rickellis/ConkyMatic) - Automatyczna zmiana schematu kolorów Conky na podstawie kolorów aktualnej tapety. Napisane w Bash.
+- [DamionGans/ubuntu-wsl2-systemd-script](https://github.com/DamionGans/ubuntu-wsl2-systemd-script) - [Już nie działa!] Skrypt do włączenia wsparcia systemd na bieżących obrazach Ubuntu WSL2
+- [adi1090x/dynamic-wallpaper](https://github.com/adi1090x/dynamic-wallpaper) - Prosty skrypt bash do ustawiania tapet zgodnie z aktualną godziną, używając harmonogramu cron.
+- [v2fly/fhs-install-v2ray](https://github.com/v2fly/fhs-install-v2ray) - Skrypt bash do instalacji V2Ray na systemach operacyjnych takich jak Debian / CentOS / Fedora / openSUSE obsługujących systemd
+- [denysdovhan/one-gnome-terminal](https://github.com/denysdovhan/one-gnome-terminal) - Motyw Atom's One Dark i One Light dla GNOME Terminal
+- [disbalancer-project/main](https://github.com/disbalancer-project/main) - 
+- [felixonmars/vps2arch](https://github.com/felixonmars/vps2arch) - Najszybszy sposób na konwersję VPS do Arch Linux! (fork z gitlab:drizzt/vps2arch)
+- [xiantang/xiantang-blog](https://github.com/xiantang/xiantang-blog) - blog
+- [WSA-Community/WSAGAScript](https://github.com/WSA-Community/WSAGAScript) - Skrypty do instalacji Google Apps w obrazie WSA. Opcjonalnie root
+- [mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) - Ponad 400 schematów kolorów/motywów terminala dla iTerm/iTerm2. Zawiera porty do Terminal, Konsole, PuTTY, Xresources, XRDB, Remmina, Termite, XFCE, Tilda, FreeBSD VT, Terminator, Kitty, MobaXterm, LXTerminal i innych.
+- [wabarc/on-heroku](https://github.com/wabarc/on-heroku) - Łatwe i szybkie wdrażanie oraz utrzymanie usługi wayback jako aplikacji Heroku.
+- [wabarc/on-github](https://github.com/wabarc/on-github) - Usługa Wayback jako GitHub Actions (tylko demo)
+- [csguide-dabai/Programmer-look-at-China](https://github.com/csguide-dabai/Programmer-look-at-China) - Przegląd środowiska internetowego i kosztów życia w chińskich miastach drugiego poziomu i wyższych
+- [vicalloy/outline-docker-compose](https://github.com/vicalloy/outline-docker-compose) - Instalacja samodzielnej instancji wiki Outline w kilka minut
+- [haoyume/233blog-v2ray](https://github.com/haoyume/233blog-v2ray) - 
+- [jpetazzo/container.training](https://github.com/jpetazzo/container.training) - Slajdy i przykładowy kod do szkoleń, tutoriali i warsztatów o Dockerze, kontenerach i Kubernetes.
+- [Websoft9Archive/ansible-nextcloud](https://github.com/Websoft9Archive/ansible-nextcloud) - Automatyczna instalacja Nextcloud na Linuksie（Nextcloud自动安装程序）
+- [nextcloud/docker](https://github.com/nextcloud/docker) - ⛴ Obraz Dockera Nextcloud
+- [ToutyRater/v2ray-guide](https://github.com/ToutyRater/v2ray-guide) - 
+- [cutelua/mtg-dist](https://github.com/cutelua/mtg-dist) - Skrypt do dystrybucji i instalacji mtg jednym poleceniem
+- [Cats-Team/AdRules](https://github.com/Cats-Team/AdRules) - Lista do blokowania reklam w regionie chińskim
+- [weakish/gister](https://github.com/weakish/gister) - Narzędzie CLI do synchronizacji gistów github
+- [Kr328/clash-premium-installer](https://github.com/Kr328/clash-premium-installer) - Prosty instalator podstawy clash premium dla Linuksa.
+- [zfl9/ss-tproxy](https://github.com/zfl9/ss-tproxy) - ss/v2ray/xray/trojan/hysteria/naive/socks5 przeźroczysty proxy
+- [wyx176/Socks5](https://github.com/wyx176/Socks5) - Skrypt do uruchamiania serwera proxy Socks5/tworzenia skrótów Socks5
+- [JACKUSR2089/v2ray-subscribed](https://github.com/JACKUSR2089/v2ray-subscribed) - v2ray666
+- [jinwyp/one_click_script](https://github.com/jinwyp/one_click_script) - instalacja najnowszego lub LTS jądra Linuksa i włączenie BBR lub BBR plus
+- [gaurav-nelson/github-action-markdown-link-check](https://github.com/gaurav-nelson/github-action-markdown-link-check) - ⛔️ NIEAKTUALNE Sprawdzanie wszystkich linków w plikach markdown, czy są aktywne czy martwe. 🔗✔️PS: https://github.com/tcort/github-action-markdown-link-check
+- [rey/tweet-delete](https://github.com/rey/tweet-delete) - 
+- [JetBrains/JetBrainsMono](https://github.com/JetBrains/JetBrainsMono) - JetBrains Mono – darmowy i otwartoźródłowy krój pisma dla programistów
+- [oh-my-fish/oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) - Framework Fish Shell
+- [SnShine/Twitter-to-DayOne](https://github.com/SnShine/Twitter-to-DayOne) - Pobiera wszystkie Twoje tweety z dnia i tworzy wpis DayOne.
+- [haiwen/seafile-server-installer](https://github.com/haiwen/seafile-server-installer) - Kolekcja skryptów do wdrażania produkcyjnych instalacji serwera Seafile z HTTPS
+- [ludovicchabant/Chrome-Search-Engine-Sync](https://github.com/ludovicchabant/Chrome-Search-Engine-Sync) - Proste skrypty do eksportu/importu preferencji wyszukiwarek Google Chrome.
+- [lovezzzxxx/liverecord](https://github.com/lovezzzxxx/liverecord) - Automatyczne nagrywanie i backup, obsługuje kanały youtube, twitcast, twitch, openrec, niconico live, niconico społeczności, niconico kanały, mirrativ, reality, 17live, kanały bilibili, adresy live wspierane przez streamlink, adresy m3u8 wspierane przez ffmpeg
+
+## Stylus 
+
+- [XPoet/hexo-theme-keep](https://github.com/XPoet/hexo-theme-keep) - :rainbow: Prosty i lekki motyw dla Hexo. Pomaga skupić się na pisaniu.
+
+## Svelte 
+
+- [K-Sato1995/focus-sounds](https://github.com/K-Sato1995/focus-sounds) - Strona produktywności zbudowana w svelte-kit. Możesz słuchać dźwięków otoczenia, które pomagają się skupić👨‍💻👨‍💻
+- [shajidhasan/rknotes-app](https://github.com/shajidhasan/rknotes-app) - 
+- [shajidhasan/batname](https://github.com/shajidhasan/batname) - Generuj teksty w stylu logo filmu "The Batman (2022)"
+- [shajidhasan/cowsay-svelte](https://github.com/shajidhasan/cowsay-svelte) - GUI cowsay zbudowany z użyciem Svelte, TailwindCSS i HTML Canvas
+- [pabueco/hue.tools](https://github.com/pabueco/hue.tools) - Proste narzędzie do pracy z kolorami. Mieszanie, łączenie, konwersja, modyfikacja, szczegółowe informacje o kolorach itd.
+- [cxumol/URLinkCat](https://github.com/cxumol/URLinkCat) - Katalog linków URL, lekka, wieloużytkownikowa aplikacja do zakładek w chmurze, działająca na platformie serverless, stworzona dla szybkości i łatwości użycia
+- [dufu1991/simple-cloud-music](https://github.com/dufu1991/simple-cloud-music) - Prosty, zewnętrzny odtwarzacz NetEase Cloud Music
+
+## Swift 
+
+- [mazzzystar/Queryable](https://github.com/mazzzystar/Queryable) - Uruchom OpenAI CLIP i model MobileCLIP Apple na iOS, aby przeszukiwać zdjęcia.
+- [mudkipme/MoeMemos](https://github.com/mudkipme/MoeMemos) - Aplikacja pomagająca uchwycić myśli i pomysły
+- [thebaselab/codeapp](https://github.com/thebaselab/codeapp) - Budowanie pełnoprawnego edytora kodu dla iPada
+- [LyricZhao/THU-Bell](https://github.com/LyricZhao/THU-Bell) - THU Bell na macOS
+- [insidegui/VirtualBuddy](https://github.com/insidegui/VirtualBuddy) - Wirtualizuj macOS 12 i nowsze na Apple Silicon, VirtualBuddy to GUI maszyny wirtualnej dla macOS M1, M2, M3, M4
+- [sindresorhus/Plash](https://github.com/sindresorhus/Plash) - 💦 Ustaw dowolną stronę internetową jako tapetę pulpitu Maca
+- [CodeEditApp/CodeEdit](https://github.com/CodeEditApp/CodeEdit) - 📝 CodeEdit App dla macOS – Ulepsz swoje doświadczenie edycji kodu. Open source, na zawsze za darmo.
+- [RanKKI/LawRefBook](https://github.com/RanKKI/LawRefBook) - Podręcznik prawa Chińskiej Republiki Ludowej
+- [gee1k/uPic](https://github.com/gee1k/uPic) - 📤uPic to natywne, wydajne, piękne i proste narzędzie do przesyłania obrazów i plików dla macOS.
+## TeX 
+
+- [billryan/resume](https://github.com/billryan/resume) - Elegancki szablon CV w \LaTeX\. Mirror w Chinach https://gods.coding.net/p/resume/git
+- [LittleNewton/Replace_MathType](https://github.com/LittleNewton/Replace_MathType) - Zapewnia alternatywę dla wzorów matematycznych opartą na Microsoft Office 365
+- [lib-pku/libpku](https://github.com/lib-pku/libpku) - Oddolna kolekcja materiałów z kursów Twojej uczelni
+- [liblaf/ilatex](https://github.com/liblaf/ilatex) - 📚 Szablony i narzędzia LaTeX do tworzenia pięknych, uporządkowanych dokumentów 📝
+- [Didnelpsun/Math](https://github.com/Didnelpsun/Math) - Matematyka na egzamin wstępny na studia magisterskie, Matematyka I, w tym analiza matematyczna, algebra liniowa, rachunek prawdopodobieństwa i statystyka
+- [zhengkd95/thu_poster_template](https://github.com/zhengkd95/thu_poster_template) - Szablon plakatu akademickiego LaTeX z logo Uniwersytetu Tsinghua
+- [VicaYang/THU-Exam-LaTeX-Template](https://github.com/VicaYang/THU-Exam-LaTeX-Template) - Szablon LaTeX dla egzaminów Uniwersytetu Tsinghua
+- [alick/thulib-latex-talk](https://github.com/alick/thulib-latex-talk) - Materiały do wykładu „Jak używać LaTeX do składu pracy dyplomowej”. Aktualizacje: https://github.com/tuna/thulib-latex-talk
+- [tuna/thulib-latex-talk](https://github.com/tuna/thulib-latex-talk) - Materiały do wykładu „Jak używać LaTeX do składu pracy dyplomowej”
+- [zhaofeng-shu33/THU-coursework-template](https://github.com/zhaofeng-shu33/THU-coursework-template) - Szablon pracy zaliczeniowej THU, docelowy użytkownik: matematyka, fizyka, inżynieria elektroniczna, mechanika i informatyka
+- [zinccat/PKU-beamer-theme](https://github.com/zinccat/PKU-beamer-theme) - Zmodyfikowany motyw beamer pochodzący z szablonu Tsinghua
+- [ZenithalHourlyRate/learn-git-the-not-so-super-hard-way](https://github.com/ZenithalHourlyRate/learn-git-the-not-so-super-hard-way) - 
+- [K-Wu/CV-tsinghua-template](https://github.com/K-Wu/CV-tsinghua-template) - All hail, Thy Highest University (THU)
+- [soulmachine/leetcode](https://github.com/soulmachine/leetcode) - Rozwiązania zadań LeetCode, pełna wersja 151 zadań.
+- [tuna/thuthesis](https://github.com/tuna/thuthesis) - Szablon pracy dyplomowej LaTeX dla Uniwersytetu Tsinghua
+
+## TypeScript 
+
+- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) - Otwarty agent AI, który przenosi moc Gemini bezpośrednio do twojego terminala.
+- [JuanJLH/vscode-warp-terminal](https://github.com/JuanJLH/vscode-warp-terminal) - 
+- [lobehub/lobe-icons](https://github.com/lobehub/lobe-icons) - 🥨 Lobe Icons – popularna kolekcja SVG logo i ikon modeli AI/LLM.
+- [nimbusdotstorage/Nimbus](https://github.com/nimbusdotstorage/Nimbus) - Otwarta alternatywa dla Google Drive, One Drive, iCloud itd.
+- [BingyanStudio/github-analyzer](https://github.com/BingyanStudio/github-analyzer) - Analiza, co właściwie piszesz na GitHubie
+- [voideditor/void](https://github.com/voideditor/void) - 
+- [HiveNexus/A2A-Chat](https://github.com/HiveNexus/A2A-Chat) - Chatbot oparty na protokole Agent 2 Agent, pozwala zlecać zadania zewnętrznym agentom poprzez dialog i uzyskiwać wyniki.   一个基于 Agent 2 Agent 协议的聊天应用，可以通过对话方式给外部 Agent 下发任务，并获取结果
+- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) - Serwery Model Context Protocol
+- [iszhouhua/social-media-copilot](https://github.com/iszhouhua/social-media-copilot) - Otwarta wersja asystenta social media – wtyczka do przeglądarki do pobierania danych z platform takich jak XiaoHongShu, Douyin, Kuaishou itd., dostęp przez API, wsparcie dla Docker.
+- [Hugo-COLLIN/SaveMyPhind-conversation-exporter](https://github.com/Hugo-COLLIN/SaveMyPhind-conversation-exporter) - 🚀 Save my Chatbot: Pobieraj rozmowy z Claude, Perplexity, Phind, ChatGPT i MaxAI-Google do plików markdown (nieoficjalnie). ⏩ Dostępne w Chrome Web Store i Firefox Add-ons
+- [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) - Używaj Claude Code jako podstawy infrastruktury kodowania, decyduj jak wchodzić w interakcje z modelem i korzystaj z aktualizacji od Anthropic.
+- [aigem/CFr2-webdav](https://github.com/aigem/CFr2-webdav) - Kompatybilny z WebDAV serwer oparty na Cloudflare Workers i R2
+- [TBXark/ChatGPT-Telegram-Workers](https://github.com/TBXark/ChatGPT-Telegram-Workers) - Łatwo wdrażaj swojego bota ChatGPT na Telegramie na Cloudflare Workers (lub Vercel, Docker...).
+- [kyswtn/vscode-vercel](https://github.com/kyswtn/vscode-vercel) - Monitoruj wdrożenia Vercel podczas kodowania
+- [Femoon/tts-azure-web](https://github.com/Femoon/tts-azure-web) - TTS Azure Web to aplikacja internetowa do konwersji tekstu na mowę (TTS) Azure, umożliwiająca lokalne lub chmurowe wdrożenie z twoim kluczem Azure jednym kliknięciem.
+- [daytonaio/daytona](https://github.com/daytonaio/daytona) - Daytona to bezpieczna i elastyczna infrastruktura do uruchamiania kodu generowanego przez AI
+- [bepass-org/oblivion-desktop](https://github.com/bepass-org/oblivion-desktop) - Oblivion Desktop – nieoficjalny klient Warp dla Windows/Mac/Linux
+- [besscroft/PicImpact](https://github.com/besscroft/PicImpact) - Samodzielnie hostowana strona z fotografiami, obsługa wielu funkcji. PicImpact, podziel się sobą i światem!
+- [lyc8503/UptimeFlare](https://github.com/lyc8503/UptimeFlare) - ✔ Darmowy, bezserwerowy monitoring dostępności / strona statusu na Cloudflare Workers, z testami geolokalizowanymi
+- [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - Otwarta alternatywa dla Vercel, Netlify i Heroku.
+- [maotoumao/MusicFree](https://github.com/maotoumao/MusicFree) - Darmowy odtwarzacz muzyki, wtyczkowy, konfigurowalny, bez reklam
+- [maotoumao/MusicFreeDesktop](https://github.com/maotoumao/MusicFreeDesktop) - Darmowy odtwarzacz muzyki, wtyczkowy, konfigurowalny, bez reklam
+- [misskey-dev/misskey](https://github.com/misskey-dev/misskey) - 🌎 Całkowicie darmowa i otwarta międzyplanetarna platforma mikroblogowa 🚀
+- [yllhwa/FileWorker](https://github.com/yllhwa/FileWorker) - Internetowy schowek/udostępnianie plików działające na edge functions
+- [web-infra-dev/rspress](https://github.com/web-infra-dev/rspress) - 🦀 Szybki generator stron statycznych oparty na Rsbuild.
+- [beilunyang/img-mom](https://github.com/beilunyang/img-mom) - Bot Telegram (img-mon | 图片老妈)
+- [liaoliao666/v2ex](https://github.com/liaoliao666/v2ex) - Piękny, natywny klient V2EX, obsługa trybu nocnego.
+- [chaselen/v2ex-playground](https://github.com/chaselen/v2ex-playground) - Wtyczka do przeglądania strony V2EX w VSCode
+- [hyoban/kirika](https://github.com/hyoban/kirika) - Proste narzędzie do konwersji notatek między różnymi platformami
+- [edrlab/thorium-reader](https://github.com/edrlab/thorium-reader) - Wieloplatformowa aplikacja do czytania, oparta na zestawie narzędzi Readium Desktop
+- [Kuingsmile/PicList](https://github.com/Kuingsmile/PicList) - Narzędzie do przesyłania i zarządzania obrazami, oparte na PicGo
+- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) - Nowoczesny klient GUI oparty na Tauri, dla Windows, macOS i Linux do dostosowywania proxy
+- [githubnext/monaspace](https://github.com/githubnext/monaspace) - Innowacyjna superrodzina fontów do kodowania
+- [dicarne/feishu-backup](https://github.com/dicarne/feishu-backup) - Do tworzenia kopii zapasowych dokumentów Feishu, konwertuje je do markdown do pobrania.
+- [LetTTGACO/elog](https://github.com/LetTTGACO/elog) - Narzędzie do masowego eksportu Markdown, otwarte rozwiązanie blogowe, dowolna kombinacja platform pisarskich (Yuque/Notion/FlowUs/Feishu/Wolai) i blogowych (Hexo/Vitepress/Halo/Confluence/WordPress itd.)
+- [memgraph/odin](https://github.com/memgraph/odin) - 
+- [Harry-Chen/thu-learn-lib](https://github.com/Harry-Chen/thu-learn-lib) - Biblioteka JavaScript do programowego interfejsu z Web Learning Uniwersytetu Tsinghua
+- [qxchuckle/vsc-cec-ide](https://github.com/qxchuckle/vsc-cec-ide) - Mało użyteczna wtyczka do VSC
+- [chatchat-space/Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat) - Langchain-Chatchat (dawniej Langchain-ChatGLM) – aplikacje RAG i Agent oparte na Langchain oraz modelach językowych ChatGLM, Qwen, Llama itd. | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Ll
+- [CopyTranslator/CopyTranslator](https://github.com/CopyTranslator/CopyTranslator) - 🔠Asystent czytania języków obcych i tłumaczeń oparty na kopiowaniu i tłumaczeniu.
+- [longern/FlareDrive](https://github.com/longern/FlareDrive) - Darmowy hosting plików (WebUI & WebDAV) z użyciem CloudFlare R2
+- [ChatAnyTeam/ChatAny](https://github.com/ChatAnyTeam/ChatAny) - 🌻 Jedno kliknięcie, by mieć własny ChatGPT + wiele usług AI w przeglądarce
+- [MuiseDestiny/zotero-gpt](https://github.com/MuiseDestiny/zotero-gpt) - GPT spotyka Zotero.
+- [langgenius/webapp-conversation](https://github.com/langgenius/webapp-conversation) - 
+- [langgenius/dify](https://github.com/langgenius/dify) - Gotowa do produkcji platforma do rozwoju agentowych workflow.
+- [ObservedObserver/viz-gpt](https://github.com/ObservedObserver/viz-gpt) - Twórz kontekstowe wizualizacje danych przez interfejs czatu na podstawie danych tabelarycznych. Wizualizacja AI.
+- [tldraw/tldraw](https://github.com/tldraw/tldraw) - bardzo dobre SDK whiteboard / SDK nieskończonego płótna
+- [okisdev/ChatChat](https://github.com/okisdev/ChatChat) - Chat Chat, własna zunifikowana platforma czatu i wyszukiwania AI, proste i łatwe w obsłudze UI.
+- [79E/ChatGpt-Web](https://github.com/79E/ChatGpt-Web) - Komercyjna aplikacja ChatGpt Web zbudowana w React. Webaplikacja ChatGpt w React gotowa do komercyjnego użycia.
+- [erictik/midjourney-ui](https://github.com/erictik/midjourney-ui) - Midjourney UI – otwarty interfejs AI do malowania oparty na Midjourney
+- [Nutlope/restorePhotos](https://github.com/Nutlope/restorePhotos) - Odnawianie starych i rozmazanych zdjęć twarzy za pomocą AI.
+- [Nutlope/aicommits](https://github.com/Nutlope/aicommits) - CLI, które pisze za ciebie wiadomości git commit z pomocą AI
+- [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT) - 🤖 Montuj, konfiguruj i wdrażaj autonomiczne Agenty AI w przeglądarce.
+- [RafalWilinski/telegram-chatgpt-concierge-bot](https://github.com/RafalWilinski/telegram-chatgpt-concierge-bot) - Interakcja z ChatGPT OpenAI przez Telegram i głos.
+- [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) - Buduj agentów AI wizualnie
+- [LokerL/tts-vue](https://github.com/LokerL/tts-vue) - 🎤 Narzędzie syntezy mowy Microsoft, zbudowane w Electron + Vue + ElementPlus + Vite.
+- [nat/openplayground](https://github.com/nat/openplayground) - Playground LLM, który możesz uruchomić na laptopie
+- [labring/sealos](https://github.com/labring/sealos) - Sealos to gotowa do produkcji dystrybucja Kubernetes, która upraszcza wdrożenia. Natychmiastowe środowisko deweloperskie dla każdego języka programowania lub frameworka, łatwe wdrożenia aplikacji
+- [coolpace/V2EX_Polish](https://github.com/coolpace/V2EX_Polish) - Profesjonalne rozszerzenie przeglądarki do V2EX, wiele przydatnych funkcji, nowa jakość przeglądania!
+- [ztjhz/BetterChatGPT](https://github.com/ztjhz/BetterChatGPT) - Świetny interfejs UI dla ChatGPT OpenAI (strona www + Windows + MacOS + Linux)
+- [3Alan/DocsMind](https://github.com/3Alan/DocsMind) - 🤖 DocsMind pozwala czatować z dokumentami i je podsumowywać, obsługuje pdf, md.
+- [riwigefi/light-gpt](https://github.com/riwigefi/light-gpt) - Light-GPT to interaktywna strona oparta na modelu GPT-3.5-Turbo.
+- [nextauthjs/next-auth](https://github.com/nextauthjs/next-auth) - Uwierzytelnianie dla Web.
+- [zengsanxiang/brain-reply](https://github.com/zengsanxiang/brain-reply) - Bardziej elegancki klient ChatGPT
+- [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) - ✨ Lekki i szybki asystent AI. Obsługa: Web | iOS | MacOS | Android | Linux | Windows
+- [hahahumble/speechgpt](https://github.com/hahahumble/speechgpt) - 💬 SpeechGPT to aplikacja webowa do rozmów z ChatGPT.
+- [rerender2021/heard](https://github.com/rerender2021/heard) - Prosty generator napisów oparty na whisper & avernakis react.
+- [mckaywrigley/chatbot-ui](https://github.com/mckaywrigley/chatbot-ui) - Czat AI dla dowolnego modelu.
+- [GPTGenius/chatgpt-vercel](https://github.com/GPTGenius/chatgpt-vercel) - Stwórz prywatną stronę ChatGPT przez vercel
+- [hyoban/burogu](https://github.com/hyoban/burogu) - Minimalny szablon bloga oparty na Next.js 13
+- [futantan/OpenGpt](https://github.com/futantan/OpenGpt) - Stwórz własną aplikację ChatGPT w kilka sekund.
+- [botpress/botpress](https://github.com/botpress/botpress) - Otwarta platforma do budowy i wdrażania agentów GPT/LLM ⚡️
+- [noobnooc/ohmygpt](https://github.com/noobnooc/ohmygpt) - Wdróż własną aplikację webową opartą na ChatGPT w kilka minut.
+- [aircloud/sync-to-github](https://github.com/aircloud/sync-to-github) - Synchronizuj treści webowe z repozytorium github, np. rozmowy z ChatGPT.
+- [fraserxu/book-gpt](https://github.com/fraserxu/book-gpt) - Wrzuć książkę, zacznij zadawać pytania.
+- [ObservedObserver/chatgpt-i18n](https://github.com/ObservedObserver/chatgpt-i18n) - Lokalizuj strony internetowe z pomocą AI.
+- [ourongxing/chatgpt-vercel](https://github.com/ourongxing/chatgpt-vercel) - Elegancki i potężny. Zasilany przez OpenAI i Vercel.
+- [lcomplete/huntly](https://github.com/lcomplete/huntly) - Huntly, narzędzie do zarządzania informacjami, czytnik RSS, automatyczne zapisywanie przeglądanych treści, zarządzanie tweetami i gwiazdkami GitHub. Narzędzie do zarządzania informacjami, czytnik RSS, zarządzanie gwiazdkami GitHub, tweetami, automatyczny zapis przeczytanych artykułów.
+- [openai-translator/openai-translator](https://github.com/openai-translator/openai-translator) - Wtyczka do tłumaczenia na podstawie ChatGPT API i aplikacja desktopowa cross-platform    -    Browser extension and cross-platform desktop application for translation based on ChatGPT API.
+- [sparticleinc/chatgpt-google-summary-extension](https://github.com/sparticleinc/chatgpt-google-summary-extension) - Rozszerzenie Chrome do wyświetlania podsumowań ChatGPT obok wyników Google i filmów YouTube, także wsparcie Yahoo! ニュース, PubMed, PMC, NewsPicks, Github, Nikkei, Bing, Google Patents i dowolnych stron.
+- [anse-app/chatgpt-demo](https://github.com/anse-app/chatgpt-demo) - Minimalny webowy UI dla ChatGPT.
+- [microsoft/vscode-webview-ui-toolkit](https://github.com/microsoft/vscode-webview-ui-toolkit) - Biblioteka komponentów do budowy rozszerzeń webview w Visual Studio Code.
+- [ycjcl868/readme-gpt](https://github.com/ycjcl868/readme-gpt) - Generuj swój Github Readme za pomocą OpenAI i Vercel Edge Functions.
+- [cloudflare/wildebeest](https://github.com/cloudflare/wildebeest) - Wildebeest to serwer zgodny z ActivityPub i Mastodon
+- [transitive-bullshit/bing-chat](https://github.com/transitive-bullshit/bing-chat) - Klient Node.js dla nowego AI Bing. To jak ChatGPT na sterydach 🔥
+- [Musish/Musish](https://github.com/Musish/Musish) - Apple Music...ish
+- [MNThomson/containerflare](https://github.com/MNThomson/containerflare) - 🔥 Repozytorium obrazów kontenerów Cloudflare (Workers + R2) edge
+- [cmj2002/CF-R2-ImageBed](https://github.com/cmj2002/CF-R2-ImageBed) - Hosting obrazów oparty na Cloudflare R2. Wsparcie dla PicGo.
+- [google/brotli](https://github.com/google/brotli) - Format kompresji Brotli
+- [robertying/learnX-companion](https://github.com/robertying/learnX-companion) - Asystent aplikacji LearnX Uniwersytetu Tsinghua, zapewnia spersonalizowane powiadomienia push dla learnX.
+- [dvanoni/notero](https://github.com/dvanoni/notero) - Wtyczka Zotero do synchronizacji elementów i notatek z Notion
+- [windingwind/zotero-better-notes](https://github.com/windingwind/zotero-better-notes) - Wszystko o zarządzaniu notatkami. Wszystko w Zotero.
+- [honojs/hono](https://github.com/honojs/hono) - Framework webowy zbudowany na Web Standards
+- [G4brym/R2-Explorer](https://github.com/G4brym/R2-Explorer) - Interfejs Google Drive dla twoich bucketów Cloudflare R2!
+- [SunYufei/workers-dav](https://github.com/SunYufei/workers-dav) - Cloudflare Workers zapewnia obsługę WebDAV dla Google Drive / WebDAV supports for Google Drive using Cloudflare Workers
+- [realByg/office-user-auto-create](https://github.com/realByg/office-user-auto-create) - Samoobsługowe tworzenie konta office przez cloudflare worker
+- [ghedamat/obsidian-save-as-gist](https://github.com/ghedamat/obsidian-save-as-gist) - 
+- [kamranahmedse/aws-cost-cli](https://github.com/kamranahmedse/aws-cost-cli) - Narzędzie CLI do analizy kosztów AWS z integracją Slack
+- [remotely-save/remotely-save](https://github.com/remotely-save/remotely-save) - Synchronizuj notatki lokalnie i w chmurze z inteligentnym rozwiązywaniem konfliktów: S3 (Amazon S3/Cloudflare R2/Backblaze B2/...), Dropbox, webdav (NextCloud/InfiniCLOUD/Synology/...), OneDrive, Google Drive (GDrive), Box, pCloud
+- [Future-Scholars/paperlib](https://github.com/Future-Scholars/paperlib) - Otwarty menedżer publikacji naukowych.
+- [forecho/cherries](https://github.com/forecho/cherries) - 
+- [thu-info-community/thu-info-lib](https://github.com/thu-info-community/thu-info-lib) - Biblioteka JavaScript zapewniająca przyjazny dla programistów interfejs do portalu internetowego Uniwersytetu Tsinghua
+- [Harry-Chen/Learn-Helper](https://github.com/Harry-Chen/Learn-Helper) - Asystent platformy edukacyjnej Uniwersytetu Tsinghua
+- [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) - Invoke to wiodący silnik kreatywny dla modeli Stable Diffusion, umożliwiający profesjonalistom, artystom i entuzjastom generowanie i tworzenie mediów wizualnych z wykorzystaniem najnowszych technologii AI.
+- [baotlake/periodic-table-pro](https://github.com/baotlake/periodic-table-pro) - Okresowy układ pierwiastków Pro, niezbędna aplikacja do chemii o wysokiej estetyce, oferująca kompleksowe właściwości pierwiastków, obrazy i wiedzę encyklopedyczną
+- [dtysky/Awaken](https://github.com/dtysky/Awaken) - Wieloplatformowy czytnik EPUB oparty na WebDAV, obsługuje notatki, postęp, synchronizację zakładek oraz import notatek Kindle.
+- [illacloud/illa-builder](https://github.com/illacloud/illa-builder) - Platforma low-code umożliwiająca budowę aplikacji biznesowych, szybkie tworzenie narzędzi wewnętrznych, takich jak dashboardy, aplikacje CRUD, panele administracyjne, CRM, CMS itp. Obsługuje PostgreSQL, MySQL, Supabase, GraphQL
+- [resend/react-email](https://github.com/resend/react-email) - 💌 Twórz i wysyłaj e-maile za pomocą React
+- [domeccleston/sharegpt](https://github.com/domeccleston/sharegpt) - Łatwe udostępnianie trwałych linków do rozmów ChatGPT znajomym
+- [wong2/chatgpt-google-extension](https://github.com/wong2/chatgpt-google-extension) - Ten projekt jest przestarzały. Sprawdź mój nowy projekt ChatHub:
+- [pacexy/flow](https://github.com/pacexy/flow) - Czytnik ePub w przeglądarce
+- [jiegec/clone-learn-tsinghua](https://github.com/jiegec/clone-learn-tsinghua) - Narzędzie do klonowania wszystkich plików z learn.tsinghua.edu.cn
+- [thu-info-community/thu-info-app](https://github.com/thu-info-community/thu-info-app) - Aplikacja integrująca różne źródła informacji kampusowych, rozwijana z użyciem React Native
+- [exposir/bing-wallpaper-node](https://github.com/exposir/bing-wallpaper-node) - Bing Daily 4K Ultra HD Wallpaper 必应每日4K超清壁纸
+- [AlistGo/docs](https://github.com/AlistGo/docs) - 📄 Dokumentacja dla alist v3: http://github.com/alist-org/alist
+- [slidevjs/docs](https://github.com/slidevjs/docs) - [Mirror] Dokumentacja dla Slidev
+- [appwrite/appwrite](https://github.com/appwrite/appwrite) - Twórz jak zespół setek osób_
+- [dai-shi/excalidraw-animate](https://github.com/dai-shi/excalidraw-animate) - Narzędzie do animowania rysunków Excalidraw
+- [Graviton-Code-Editor/Graviton-App](https://github.com/Graviton-Code-Editor/Graviton-App) - 🚀 Nowoczesny edytor kodu
+- [thusns/thu-wiki](https://github.com/thusns/thu-wiki) - https://thu.wiki LUB https://wiki.thusns.org
+- [crashmax-dev/twallpaper](https://github.com/crashmax-dev/twallpaper) - 🌈 Wielokolorowa tapeta gradientowa tworzona algorytmicznie z płynnym połyskiem.
+- [SigNoz/signoz](https://github.com/SigNoz/signoz) - SigNoz to otwartoźródłowa platforma obserwowalności natywna dla OpenTelemetry z logami, śladami i metrykami w jednej aplikacji. Otwartoźródłowa alternatywa dla DataDog, NewRelic itd. 🔥 🖥.   👉  Open source
+- [vuejs/vitepress](https://github.com/vuejs/vitepress) - Generator statycznych stron oparty na Vite & Vue.
+- [sst/sst](https://github.com/sst/sst) - Twórz aplikacje full-stack na własnej infrastrukturze.
+- [nrwl/nx](https://github.com/nrwl/nx) - Platforma build AI-first łącząca wszystko od edytora po CI. Pomaga dostarczać szybciej, bez łamania rzeczy.
+- [dubinc/dub](https://github.com/dubinc/dub) - Nowoczesna platforma do atrybucji linków. Doceniana przez zespoły marketingowe światowej klasy, takie jak Twilio, Buffer, Framer, Perplexity, Vercel i inne.
+- [Privoce/vocechat-web](https://github.com/Privoce/vocechat-web) - VoceChat Web App
+- [jackluson/vscode-pomodoro-clock](https://github.com/jackluson/vscode-pomodoro-clock) - Zegar Pomodoro dla VS Code
+- [DTStack/molecule](https://github.com/DTStack/molecule) - :rocket: Lekki framework UI Web IDE.
+- [b4rtaz/voice-assistant](https://github.com/b4rtaz/voice-assistant) - Asystent głosowy dla Visual Studio Code.
+- [leon-ai/leon](https://github.com/leon-ai/leon) - 🧠 Leon to Twój otwartoźródłowy asystent osobisty.
+- [tycrek/ass](https://github.com/tycrek/ass) - Prosty, samohostowany serwer ShareX
+- [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - aplikacja do robienia notatek skupiająca się na prywatności z możliwością synchronizacji dla Windows, macOS, Linux, Android i iOS.
+- [AlphaNecron/Void](https://github.com/AlphaNecron/Void) - Szybka i elegancka usługa hostingu plików.
+- [egoist/follower-count](https://github.com/egoist/follower-count) - Pobierz liczbę obserwujących na Instagramie, Twitterze, TikTok, Youtube
+- [liveblocks/liveblocks](https://github.com/liveblocks/liveblocks) - Najlepsze aplikacje w erze AI nie są samotnym doświadczeniem — są współdzielone. Liveblocks dostarcza konfigurowalne, gotowe funkcje, dzięki którym Twój produkt będzie wieloosobowy, angażujący i gotowy na AI. Bez...
+- [cloudflare/workers-graphql-server](https://github.com/cloudflare/workers-graphql-server) - 🔥Błyskawicznie szybki, globalnie rozproszony serwer Apollo GraphQL, wdrażany na brzegu z użyciem Cloudflare Workers
+- [buhe/vscode-mail](https://github.com/buhe/vscode-mail) - Klient pocztowy osadzony w Visual Studio Code.
+- [LekoArts/gatsby-themes](https://github.com/LekoArts/gatsby-themes) - Zdobądź wysokiej jakości i konfigurowalne motywy Gatsby, by szybko uruchomić swoją stronę! Wybierz spośród wielu profesjonalnych i imponujących projektów z szeroką gamą funkcji i opcji personalizacji
+- [haaarshsingh/kmenu](https://github.com/haaarshsingh/kmenu) - Idealne menu ⌘K
+- [sofn-xyz/mailing](https://github.com/sofn-xyz/mailing) - Twórz, testuj, wysyłaj e-maile za pomocą React
+- [webiny/webiny-js](https://github.com/webiny/webiny-js) - Otwartoźródłowy, bezserwerowy CMS klasy enterprise. Zawiera headless CMS, kreator stron, kreator formularzy i menedżer plików. Łatwy do dostosowania i rozbudowy. Wdrażany na AWS.
+- [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) - Otwartoźródłowy frontend dla stron dokumentacji GitBook
+- [codex-team/editor.js](https://github.com/codex-team/editor.js) - Edytor blokowy z czystym wyjściem JSON
+- [pingcap/ossinsight](https://github.com/pingcap/ossinsight) - Analiza, porównanie, trendy, rankingi oprogramowania open source, możesz także uzyskać wgląd z ponad 7 miliardów danych za pomocą języka naturalnego (zasilane przez OpenAI). Obserwuj nas na Twitterze: https://twitter.com/o
+- [markmap/markmap](https://github.com/markmap/markmap) - Twórz mapy myśli z czystego tekstu
+- [hmu332233/q-link](https://github.com/hmu332233/q-link) - Q.Link | Ukryj swój link za prostym quizem.
+- [triggerdotdev/jsonhero-web](https://github.com/triggerdotdev/jsonhero-web) - JSON Hero to otwartoźródłowy, piękny eksplorator JSON dla sieci, który pozwala szybko przeglądać, wyszukiwać i nawigować po plikach JSON. 🚀. Zbudowany z 💜 przez zespół Trigger.dev.
+- [devhubapp/devhub](https://github.com/devhubapp/devhub) - TweetDeck dla GitHub - Filtruj Issues, Aktywności i Powiadomienia - Web, Mobile i Desktop z 99% współdzielenia kodu między platformami
+- [redhat-actions/try-in-web-ide](https://github.com/redhat-actions/try-in-web-ide) - Sklonuj swój pull request do Web IDE hostowanego na Developer Sandbox dla Red Hat OpenShift, aby łatwo testować zmiany.
+- [photoview/photoview](https://github.com/photoview/photoview) - Galeria zdjęć dla samohostowanych, prywatnych serwerów
+- [yusukebe/r2-image-worker](https://github.com/yusukebe/r2-image-worker) - Przechowywanie i dostarczanie obrazów z backendem R2 Cloudflare Workers.
+- [GitbookIO/proxies-on-cloudflare](https://github.com/GitbookIO/proxies-on-cloudflare) - Proxies w Cloudflare Workers
+- [SharzyL/pastebin-worker](https://github.com/SharzyL/pastebin-worker) - Pastebin na Cloudflare worker, przyjazny w użyciu przez CLI i bogaty w funkcje
+- [eclipse-theia/theia](https://github.com/eclipse-theia/theia) - Eclipse Theia to framework IDE w chmurze i na desktop, zaimplementowany w TypeScript.
+- [facebook/docusaurus](https://github.com/facebook/docusaurus) - Łatwe w utrzymaniu otwartoźródłowe strony dokumentacji.
+- [logto-io/logto](https://github.com/logto-io/logto) - 🧑‍🚀 Infrastruktura uwierzytelniania i autoryzacji dla aplikacji SaaS i AI, oparta na OIDC i OAuth 2.1 z multi-tenancy, SSO i RBAC.
+- [dushixiang/next-terminal](https://github.com/dushixiang/next-terminal) - Next Terminal to prosty, bezpieczny i przyjazny użytkownikowi system audytu interaktywnego obsługujący wiele protokołów zdalnego dostępu, w tym RDP, SSH, VNC, Telnet i HTTP
+- [wayjam/picgo-plugin-s3](https://github.com/wayjam/picgo-plugin-s3) - Wtyczka PicGo S3
+- [gaeulbyul/RedBlock](https://github.com/gaeulbyul/RedBlock) - [STATUS: UNMAINTAINED] Najpotężniejsze rozszerzenie do blokowania łańcuchowego użytkowników na Twitterze.
+- [formulahendry/vscode-code-runner](https://github.com/formulahendry/vscode-code-runner) - Code Runner dla Visual Studio Code
+- [hexojs/hexo-cli](https://github.com/hexojs/hexo-cli) - Interfejs wiersza poleceń dla Hexo
+- [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner) - Oprogramowanie do nauki słówek i treningu pamięci mięśniowej z angielskiego, zaprojektowane dla użytkowników klawiatury
+- [SSShooter/mind-elixir-core](https://github.com/SSShooter/mind-elixir-core) - ⚗ Mind Elixir to agnostyczny framework do map myśli w JavaScript.
+- [utterance/utterances](https://github.com/utterance/utterances) - :crystal_ball: Lekki widget komentarzy oparty na GitHub issues
+- [gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) - Platforma deweloperska do środowisk rozwoju w chmurze na żądanie, by szybciej i bezpieczniej tworzyć oprogramowanie.
+- [wabarc/cairn](https://github.com/wabarc/cairn) - Pakiet NPM i narzędzie CLI do zapisywania strony WWW jako pojedynczego pliku HTML
+- [massCodeIO/assistant-vscode](https://github.com/massCodeIO/assistant-vscode) - massCode assistant dla VS Code
+- [vercel/platforms](https://github.com/vercel/platforms) - Pełny stack aplikacji Next.js z multi-tenancy.
+- [taniarascia/takenote](https://github.com/taniarascia/takenote) - 📝  ‎ Aplikacja do notatek oparta na przeglądarce, przeznaczona dla programistów.
+- [standardnotes/app](https://github.com/standardnotes/app) - Myśl odważnie z notatkami i plikami szyfrowanymi end-to-end. W razie problemów odwiedź https://standardnotes.com/forum lub https://standardnotes.com/help.
+- [gitpod-io/openvscode-server](https://github.com/gitpod-io/openvscode-server) - Uruchom oryginalny VS Code na zdalnej maszynie z dostępem przez nowoczesną przeglądarkę z dowolnego urządzenia, wszędzie.
+- [EnixCoda/Gitako](https://github.com/EnixCoda/Gitako) - 🐙 Rozszerzenie drzewa plików dla GitHub na Chrome, Firefox i Edge
+- [gridaco/grida](https://github.com/gridaco/grida) - Grida — ambitny edytor grafiki 2D dla sieci
+- [lostintangent/gitdoc](https://github.com/lostintangent/gitdoc) - Rozszerzenie VS Code pozwalające edytować repozytorium Git jak wielopliki, wersjonowany dokument.
+- [Platane/snk](https://github.com/Platane/snk) - 🟩⬜ Generuje grę w węża z wykresu kontrybucji użytkownika GitHub i eksportuje zrzut ekranu jako animowany SVG lub GIF
+- [yoshi389111/github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib) - Ta GitHub Action tworzy kalendarz kontrybucji GitHub na trójwymiarowym obrazie profilowym.
+- [yang991178/fluent-reader](https://github.com/yang991178/fluent-reader) - Nowoczesny czytnik RSS na desktop, zbudowany na Electron, React i Fluent UI
+- [AlistGo/web-v2](https://github.com/AlistGo/web-v2) - 🗂️ Frontend Alist V2
+- [ansh/jiffyreader.com](https://github.com/ansh/jiffyreader.com) - Rozszerzenie przeglądarki do szybszego czytania na DOWOLNEJ stronie!
+- [alefragnani/vscode-bookmarks](https://github.com/alefragnani/vscode-bookmarks) - Rozszerzenie zakładek dla Visual Studio Code
+- [markdoc/markdoc](https://github.com/markdoc/markdoc) - Potężny, elastyczny framework do tworzenia w Markdownie.
+- [batnoter/batnoter](https://github.com/batnoter/batnoter) - Otwartoźródłowa, oparta na Markdown aplikacja do notatek, którą można samodzielnie hostować.
+- [Cveinnt/LetsMarkdown.com](https://github.com/Cveinnt/LetsMarkdown.com) - 👨‍💻👩‍💻 Pisz Markdown. Razem.
+- [Cherry/ShareX-R2-Cloudflare-Workers](https://github.com/Cherry/ShareX-R2-Cloudflare-Workers) - Niestandardowy uploader ShareX do Cloudflare R2 przez Workers
+- [mullvad/browser-extension](https://github.com/mullvad/browser-extension) - Rozszerzenie przeglądarki Mullvad poprawia komfort przeglądania podczas korzystania z Mullvad VPN.
+- [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) - Generowanie diagramów, takich jak flowcharty lub diagramy sekwencji, z tekstu w sposób podobny do markdown
+- [Kong/insomnia](https://github.com/Kong/insomnia) - Otwartoźródłowy, wieloplatformowy klient API dla GraphQL, REST, WebSockets, SSE i gRPC. Obsługa chmury, lokalna i przez Git.
+- [theajack/cnchar](https://github.com/theajack/cnchar) - 🇨🇳 Wszechstronna biblioteka narzędziowa dla znaków chińskich (pinyin, kreski, klucze, idiomy, wymowa, wizualizacja itd.)
+- [missive/emoji-mart](https://github.com/missive/emoji-mart) - 🏪 Jeden komponent do wyboru wszystkich emoji
+- [lcomplete/smart-toc](https://github.com/lcomplete/smart-toc) - Rozszerzenie Chrome do automatycznego generowania spisu treści, obsługuje Inoreader i Feedly. 自动生成网页文章大纲的浏览器扩展，支持 Inoreader 和 Feedly。
+- [sheepzh/time-tracker-4-browser](https://github.com/sheepzh/time-tracker-4-browser) - Time Tracker dla przeglądarki/网费很贵
+- [ajayyy/SponsorBlockServer](https://github.com/ajayyy/SponsorBlockServer) - Pomijanie sponsorów w filmach YouTube (część serwerowa)
+- [Hopding/pdf-lib](https://github.com/Hopding/pdf-lib) - Twórz i modyfikuj dokumenty PDF w dowolnym środowisku JavaScript
+- [GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension](https://github.com/GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension) - Dodaj przydatne przyciski, takie jak upiększanie, pokazuj otwarte pliki, zapisz, przełącz terminal itp. do paska menu edytora w VSCode. Możesz także tworzyć własne przyciski z niestandardowymi poleceniami. Link do Marketplace: htt
+- [hexojs/hexo](https://github.com/hexojs/hexo) - Szybki, prosty i potężny framework blogowy, oparty na Node.js.
+- [actions/stale](https://github.com/actions/stale) - Oznacza zgłoszenia i pull requesty, które nie miały ostatnio aktywności
+- [surgioproject/surgio](https://github.com/surgioproject/surgio) - Generowanie reguł dla Surge, Clash, Quantumult jak PRO
+- [nginxinc/nginx-for-azure-deploy-action](https://github.com/nginxinc/nginx-for-azure-deploy-action) - Github Actions do synchronizacji konfiguracji NGINX z usługą NGINX for Azure.
+- [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) - Spacedrive to otwartoźródłowy, wieloplatformowy eksplorator plików, oparty na wirtualnym, rozproszonym systemie plików napisanym w Rust.
+- [DenverCoder1/custom-icon-badges](https://github.com/DenverCoder1/custom-icon-badges) - 🛡 Ułatwia korzystanie z Octicons i własnych ikon oraz logotypów na odznakach shields.io
+- [arduino/arduino-ide](https://github.com/arduino/arduino-ide) - Arduino IDE 2.x
+- [yuudi/onesend](https://github.com/yuudi/onesend) - wysyłaj pliki przez onedrive
+- [xcodebuild/CodeTerminal](https://github.com/xcodebuild/CodeTerminal) - Wieloplatformowa, samodzielna aplikacja terminalowa wydzielona z Visual Studio Code.
+- [Zhengqbbb/cz-git](https://github.com/Zhengqbbb/cz-git) - cz-git | czg  🛠️ Najpierw DX i bardziej inżynieryjny, lekki, konfigurowalny, standardowy adapter Commitizen i CLI
+- [tutao/tutanota](https://github.com/tutao/tutanota) - Tuta to usługa e-mail z silnym naciskiem na bezpieczeństwo i prywatność, umożliwiająca szyfrowanie e-maili, kontaktów i kalendarzy na wszystkich urządzeniach.
+- [atomcorp/themes](https://github.com/atomcorp/themes) - Motywy dla Windows Terminal
+- [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) - Otwartoźródłowy ekosystem do rozwoju API - https://hoppscotch.io (otwartoźródłowa alternatywa dla Postman, Insomnia)
+- [antfu/awesome-cn-cafe-web](https://github.com/antfu/awesome-cn-cafe-web) - ☕️ Aplikacja webowa dla Awesome CN Café
+- [yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) - 💯 Wyselekcjonowane materiały do przygotowania się do rozmów technicznych dla zapracowanych programistów
+- [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) - Otwarty kod i program nauczania freeCodeCamp.org. Ucz się matematyki, programowania i informatyki za darmo.
+- [harrisoff/onedrive-js-sdk](https://github.com/harrisoff/onedrive-js-sdk) - Opakowanie dla części API OneDrive, tylko do przesyłania i udostępniania plików.
+- [harrisoff/onedrive-image-hosting](https://github.com/harrisoff/onedrive-image-hosting) - Hosting obrazów OneDrive | OneDrive 图床
+- [ms-iot/vscode-ros](https://github.com/ms-iot/vscode-ros) - Rozszerzenie Visual Studio Code do rozwoju Robot Operating System (ROS)
+- [yzhang-gh/vscode-markdown](https://github.com/yzhang-gh/vscode-markdown) - Markdown All in One
+- [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) - 🔒 Kompilowana lista kontrolna z 300+ wskazówkami, jak chronić bezpieczeństwo cyfrowe i prywatność w 2024
+- [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) - ✨ Innowacyjna i otwartoźródłowa aplikacja wizualizacyjna, która zamienia różne formaty danych, takie jak JSON, YAML, XML, CSV i inne, w interaktywne wykresy.
+- [charleswan/vscode-extensions](https://github.com/charleswan/vscode-extensions) - Kolekcja pysznych przepisów na rozszerzenia Visual Studio Code https://marketplace.visualstudio.com/publishers/CharlesWan
+- [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium) - Zbuduj swoją osobistą bazę wiedzy z Trilium Notes
+- [grafana/grafana](https://github.com/grafana/grafana) - Otwarta i składana platforma do obserwowalności i wizualizacji danych. Wizualizuj metryki, logi i ślady z wielu źródeł, takich jak Prometheus, Loki, Elasticsearch, InfluxDB, Postgres i wiele innych.
+- [reactjs/react.dev](https://github.com/reactjs/react.dev) - Strona dokumentacji React
+- [microsoft/TypeScript](https://github.com/microsoft/TypeScript) - TypeScript to nadzbiór JavaScript kompilujący się do czystego kodu JavaScript.
+- [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) - Platforma do budowy paneli administracyjnych, narzędzi wewnętrznych i pulpitów nawigacyjnych. Integruje się z 25+ bazami danych oraz dowolnym API.
+- [XadillaX/vscode-language-viml](https://github.com/XadillaX/vscode-language-viml) - Wtyczka VimL dla VSCode.
+- [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim) - Host rozszerzeń Nodejs dla vim & neovim, ładuje rozszerzenia jak VSCode oraz hostuje serwery językowe.
+- [CryogenicPlanet/cryogenicplanet.github.io](https://github.com/CryogenicPlanet/cryogenicplanet.github.io) - Przestrzeń osobista w sieci
+- [wei/socialify](https://github.com/wei/socialify) - 💞 Uspołecznij swój projekt. 🌐 Podziel się ze światem!
+- [VSCodeVim/Vim](https://github.com/VSCodeVim/Vim) - :star: Vim dla Visual Studio Code
+- [AtomMaterialUI/iconGenerator](https://github.com/AtomMaterialUI/iconGenerator) - Kolekcja ikon używana w wtyczkach Atom Material Icons (dla JetBrains, Chrome i Firefox)
+- [antfu/case-police](https://github.com/antfu/case-police) - 🚨 Popraw poprawność zapisu, PROSZĘ!
+- [shd101wyy/vscode-markdown-preview-enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced) - Jedno z "NAJLEPSZYCH" rozszerzeń podglądu markdown dla Visual Studio Code
+- [HAG87/vscode-maxscript-lsp](https://github.com/HAG87/vscode-maxscript-lsp) - MaxScript dla VS Code (implementacja Language Server)
+- [marcomontalbano/video-to-markdown](https://github.com/marcomontalbano/video-to-markdown) - Jak osadzić wideo w markdown? Oto odpowiedź. Dodawaj filmy do swoich plików markdown łatwiej.
+- [dangeredwolf/ModernDeck](https://github.com/dangeredwolf/ModernDeck) - Piękny, potężny klient Twittera na desktop.
+- [shiftkey/desktop](https://github.com/shiftkey/desktop) - Fork GitHub Desktop wspierający różne dystrybucje Linuksa
+- [k9982874/github-gist-explorer](https://github.com/k9982874/github-gist-explorer) - 
+- [djyde/ossart](https://github.com/djyde/ossart) - Wydrukuj swoją aktywność GitHub jako dzieło sztuki
+- [luyuhuang/vscode-rss](https://github.com/luyuhuang/vscode-rss) - Czytnik RSS osadzony w Visual Studio Code
+- [liximomo/vscode-sftp](https://github.com/liximomo/vscode-sftp) - Superszybkie rozszerzenie sftp/ftp dla VS Code
+- [funnyzak/react-native-v2ex](https://github.com/funnyzak/react-native-v2ex) - Projekt używa React Native do budowy mobilnej aplikacji klienckiej V2EX. Celem jest stworzenie szybkiego szablonu dla aplikacji React Native. Dane klienta oparte całkowicie na otwartym API V2EX. Bazuje na RN 0.71.5.
+- [trzsz/trzsz.js](https://github.com/trzsz/trzsz.js) - trzsz.js to wersja js trzsz, umożliwia terminalom zbudowanym w electronie i webshellu obsługę trzsz (trz / tsz).
+- [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) - Unikalny kreator CV dbający o Twoją prywatność. Całkowicie bezpieczny, konfigurowalny, przenośny, open-source i na zawsze darmowy. Wypróbuj już dziś!
+- [slidevjs/slidev](https://github.com/slidevjs/slidev) - Prezentacje dla deweloperów
+- [zzzgydi/clash-verge](https://github.com/zzzgydi/clash-verge) - GUI Clash oparty na tauri. Obsługuje Windows, macOS i Linux.
+- [louisyoungx/safari-like-startpage](https://github.com/louisyoungx/safari-like-startpage) - Strona startowa wzorowana na Safari
+- [BoostIO/BoostNote-App](https://github.com/BoostIO/BoostNote-App) - Boost Note to narzędzie do zarządzania projektami opartymi na dokumentach, maksymalizujące wydajność zdalnych zespołów DevOps.
+- [rick-yo/remind](https://github.com/rick-yo/remind) - Przenieś mapy myśli do przeglądarki
+- [QwikDev/qwik](https://github.com/QwikDev/qwik) - Błyskawicznie ładujące się aplikacje webowe, bez wysiłku
+- [vuepress-reco/vuepress-theme-reco](https://github.com/vuepress-reco/vuepress-theme-reco) - 🎨 Repozytorium dla vuepress-theme-reco 2.
+- [WayneGongCN/microsoft-todo-browser-ext](https://github.com/WayneGongCN/microsoft-todo-browser-ext) - Otwartoźródłowe, zewnętrzne rozszerzenie przeglądarki dla Microsoft To Do
+- [outline/outline](https://github.com/outline/outline) - Najszybsza baza wiedzy dla rozwijających się zespołów. Piękna, współdzielona w czasie rzeczywistym, bogata w funkcje, kompatybilna z markdown.
+- [geist-org/geist-ui](https://github.com/geist-org/geist-ui) - System projektowania do budowy nowoczesnych stron i aplikacji.
+- [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) - Twoje kompleksowe środowisko do publikacji
+- [ddiu8081/bus-vis](https://github.com/ddiu8081/bus-vis) - 🚌 Wizualizacje komunikacji miejskiej w Chinach.
+- [vitejs/vite](https://github.com/vitejs/vite) - Nowa generacja narzędzi frontendowych. Szybkość!
+- [notea-org/notea](https://github.com/notea-org/notea) - 📒 Samohostowana aplikacja do notatek przechowywanych na S3
+- [heroui-inc/heroui](https://github.com/heroui-inc/heroui) - 🚀 Piękna, szybka i nowoczesna biblioteka UI dla React. (dawniej NextUI)
+- [coder/code-server](https://github.com/coder/code-server) - VS Code w przeglądarce
+- [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) - Framework CSS typu utility-first do szybkiego tworzenia UI.
+- [danloh/mdSilo-web](https://github.com/danloh/mdSilo-web) - Baza wiedzy w przeglądarce oparta na lokalnych plikach tekstowych
+- [Gisto/Gisto](https://github.com/Gisto/Gisto) - Gisto to wieloplatformowa aplikacja do zarządzania fragmentami kodu, pozwalająca Tobie i/lub Twojemu zespołowi szybko i łatwo dzielić się snippetami. Bazuje na infrastrukturze GitHub Gists, co oznacza, że możesz użyć wszystkich swoich e
+- [GustavoASC/google-drive-vscode](https://github.com/GustavoASC/google-drive-vscode) - Rozszerzenie integrujące VSCode z Google Drive™
+- [liupan1890/aliyunpan](https://github.com/liupan1890/aliyunpan) - 阿里云盘小白羊版  阿里云盘PC版 aliyundriver
+- [Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo) - :rocket:Proste i piękne narzędzie do przesyłania obrazów zbudowane na vue-cli-electron-builder
+- [XPoet/picx](https://github.com/XPoet/picx) - 🏞️ PicX to narzędzie typu image bed oparte na API GitHub, oferujące przesyłanie, hosting obrazów, generowanie linków i przydatny toolbox.
+- [Actions-R-Us/actions-tagger](https://github.com/Actions-R-Us/actions-tagger) - Meta-akcja do utrzymywania wersji twoich akcji na bieżąco :rocket:
+- [Ajaxy/telegram-tt](https://github.com/Ajaxy/telegram-tt) - Telegram Web A, GPL v3
+- [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) - Wirtualna tablica do szkicowania diagramów jak odręcznie rysowanych
+- [nglviewer/ngl](https://github.com/nglviewer/ngl) - Przeglądarka białek WebGL
+- [mjswensen/themer](https://github.com/mjswensen/themer) - 🎨 themer bierze zestaw kolorów i generuje motywy dla Twoich aplikacji (edytory, terminale, tapety i inne).
+- [Binaryify/OneDark-Pro](https://github.com/Binaryify/OneDark-Pro) - Ikoniczny motyw One Dark z Atom dla Visual Studio Code
+- [ritwickdey/vscode-create-file-folder](https://github.com/ritwickdey/vscode-create-file-folder) - Małe rozszerzenie do VSCode, które pomaga tworzyć pliki i foldery w stylu Atom.
+- [whyour/qinglong](https://github.com/whyour/qinglong) - Platforma zarządzania zadaniami cyklicznymi obsługująca Python3, JavaScript, Shell, Typescript
+- [johnpapa/vscode-peacock](https://github.com/johnpapa/vscode-peacock) - Subtelna zmiana koloru środowiska pracy Visual Studio Code. Idealne, gdy masz wiele instancji VS Code, używasz Live Share lub funkcji Remote i chcesz szybko rozpoznać swoje okno.
+- [morethanwords/tweb](https://github.com/morethanwords/tweb) - Telegram Web K, GPL v3
+- [gitkraken/vscode-gitlens](https://github.com/gitkraken/vscode-gitlens) - Ulepsz Gita w VS Code i odkryj wiedzę ukrytą w repozytorium — wizualizuj autorstwo kodu, nawiguj po historii i korzystaj z zaawansowanych narzędzi.
+- [carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji) - Przewodnik po emoji do wiadomości commitów. 😜
+- [NotionX/react-notion-x](https://github.com/NotionX/react-notion-x) - Szybki i dokładny renderer Notion dla React. TS w zestawie. ⚡️
+- [Shywim/github-repo-size](https://github.com/Shywim/github-repo-size) - Dodatek do Firefoksa wyświetlający rozmiar repozytorium Github.
+- [streetsidesoftware/vscode-spell-checker](https://github.com/streetsidesoftware/vscode-spell-checker) - Prosty sprawdzacz pisowni w kodzie źródłowym dla VSCode
+- [brianlovin/figma-dominant-color-toolkit](https://github.com/brianlovin/figma-dominant-color-toolkit) - Generuj paletę z obrazu, aby automatycznie wypełniać projekty.
+- [transitive-bullshit/nextjs-notion-starter-kit](https://github.com/transitive-bullshit/nextjs-notion-starter-kit) - Wdróż własną stronę opartą na Notion w kilka minut przy użyciu Next.js i Vercel.
+- [spencerwooo/onedrive-vercel-index](https://github.com/spencerwooo/onedrive-vercel-index) - Publiczny indeks katalogu OneDrive, napędzany przez Vercel i Next.js
+- [doki-theme/doki-theme-vscode](https://github.com/doki-theme/doki-theme-vscode) - Słodkie motywy anime dla VS-Code.
+- [frencojobs/vscode-notion](https://github.com/frencojobs/vscode-notion) - Przeglądaj strony Notion bezpośrednio w Visual Studio Code.
+- [lostintangent/gistpad](https://github.com/lostintangent/gistpad) - 📘 Rozszerzenie VS Code do zarządzania i dzielenia się fragmentami kodu, notatkami i próbkami przy użyciu GitHub Gists
+- [material-extensions/vscode-material-icon-theme](https://github.com/material-extensions/vscode-material-icon-theme) - Ikony Material Design dla VS Code
+- [lokalise/i18n-ally](https://github.com/lokalise/i18n-ally) - 🌍 Wszystko w jednym rozszerzeniu i18n dla VS Code
+- [vscode-icons/vscode-icons](https://github.com/vscode-icons/vscode-icons) - Ikony dla Visual Studio Code
+- [Authenticator-Extension/Authenticator](https://github.com/Authenticator-Extension/Authenticator) - Authenticator generuje kody weryfikacji dwuetapowej w Twojej przeglądarce.
+- [samuelmaddock/metastream](https://github.com/samuelmaddock/metastream) - Oglądaj media strumieniowe ze znajomymi.
+- [swdotcom/swdc-vscode](https://github.com/swdotcom/swdc-vscode) - Wtyczka śledzenia czasu dla Visual Studio Code
+- [oderwat/vscode-indent-rainbow](https://github.com/oderwat/vscode-indent-rainbow) - Rozszerzenie pokazujące wcięcia za pomocą delikatnego, tęczowego tła, by były bardziej czytelne
+- [CoenraadS/Bracket-Pair-Colorizer-2](https://github.com/CoenraadS/Bracket-Pair-Colorizer-2) - Rozszerzenie kolorujące nawiasy dla VSCode
+- [YXL76/cloudmusic-vscode](https://github.com/YXL76/cloudmusic-vscode) - Netease Music dla VS Code
+- [desktop/desktop](https://github.com/desktop/desktop) - Skup się na tym, co ważne, zamiast walczyć z Gitem.
+- [withfig/autocomplete](https://github.com/withfig/autocomplete) - Autouzupełnianie w stylu IDE dla Twojego terminala i powłoki
+- [rid9/DateTime](https://github.com/rid9/DateTime) - Informacje o dacie i czasie na pasku statusu Visual Studio Code.
+- [omgovich/colord](https://github.com/omgovich/colord) - 👑 Małe, ale potężne narzędzie do szybkiej manipulacji i konwersji kolorów
+- [microsoft/vscode-sublime-keybindings](https://github.com/microsoft/vscode-sublime-keybindings) - Rozszerzenie mapujące klawisze Sublime Text w VS Code
+- [triggerjs/trigger](https://github.com/triggerjs/trigger) - Biblioteka do tworzenia animacji opartych na scrollu z użyciem atrybutów HTML i zmiennych CSS.
+- [Eugeny/tabby](https://github.com/Eugeny/tabby) - Terminal na miarę nowoczesnych czasów
+- [Vanessa219/vditor](https://github.com/Vanessa219/vditor) - ♏  Przeglądarkowy edytor Markdown, obsługuje WYSIWYG (Rich Text), natychmiastowe renderowanie (podobnie jak Typora) i tryb podzielonego widoku.
+- [Yqnn/svg-path-editor](https://github.com/Yqnn/svg-path-editor) - Edytor online do tworzenia i manipulowania ścieżkami SVG
+- [daltonmenezes/aura-theme](https://github.com/daltonmenezes/aura-theme) - ✨ Piękny ciemny motyw dla Twoich ulubionych aplikacji.
+- [pawelgrzybek/snippet-generator](https://github.com/pawelgrzybek/snippet-generator) - Generator snippetów dla Visual Studio Code, Sublime Text i Atom
+- [robertying/learnX](https://github.com/robertying/learnX) - Aplikacja Tsinghua University Web Learning zbudowana z użyciem React Native. App dla Web Learning Uniwersytetu Tsinghua, rozwijana z React Native. ⚛️
+- [microsoft/vscode](https://github.com/microsoft/vscode) - Visual Studio Code
+- [refined-github/refined-github](https://github.com/refined-github/refined-github) - :octocat: Rozszerzenie przeglądarki upraszczające interfejs GitHub i dodające przydatne funkcje
+- [reruin/sharelist](https://github.com/reruin/sharelist) - Szybkie udostępnianie GoogleDrive i OneDrive
+- [dendronhq/dendron](https://github.com/dendronhq/dendron) - Narzędzie do zarządzania wiedzą osobistą (PKM), które rośnie razem z Tobą!
+- [foambubble/foam](https://github.com/foambubble/foam) - System zarządzania i dzielenia się wiedzą dla VSCode
+- [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) - Prywatne, samohostowane, w pełni open source oprogramowanie do zarządzania wiedzą, napisane w typescript i golang.
+- [Ashutosh00710/github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph) - Dynamicznie generowany wykres aktywności pokazujący Twoje działania na GitHub z ostatnich 31 dni.
+- [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) - 🧡 Wszystko może być RSSem
+- [the1812/Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved) - Potężny skrypt ulepszający Bilibili
+- [darkreader/darkreader](https://github.com/darkreader/darkreader) - Rozszerzenie Dark Reader dla Chrome i Firefox
+- [ankit/stylebot](https://github.com/ankit/stylebot) - Zmień wygląd stron WWW natychmiast
+## VBA 
+
+- [Jonathan-LeRoux/IguanaTex](https://github.com/Jonathan-LeRoux/IguanaTex) - Dodatek do PowerPointa umożliwiający wstawianie równań LaTeX do prezentacji PowerPoint na Windows i Mac
+
+## VBScript 
+
+- [bugfan/i996](https://github.com/bugfan/i996) - Darmowe, bez konfiguracji, bez instalacji, narzędzie do tunelowania sieci wewnętrznej, wystawiania certyfikatów SSL, pracy zdalnej i pracy z domu, ułatwiające debugowanie mini-programów WeChat (klient nie wymaga instalacji żadnych programów, gotowe do użycia), podobne do natapp, ngrok
+
+## Vala 
+
+- [birros/web-archives](https://github.com/birros/web-archives) - Czytnik archiwów internetowych
+- [teejee2008/timeshift](https://github.com/teejee2008/timeshift) - Narzędzie do przywracania systemu dla Linuksa. Tworzy migawki systemu plików za pomocą rsync+hardlinks lub migawek BTRFS. Obsługuje zaplanowane migawki, wiele poziomów kopii zapasowych oraz filtry wykluczające. Migawki mogą być przyw
+
+## Vim Script 
+
+- [int32bit/dotfiles](https://github.com/int32bit/dotfiles) - Zestaw plików konfiguracyjnych dla vim, zsh, git i tmux.
+- [mashirozx/Pixiv-Nginx](https://github.com/mashirozx/Pixiv-Nginx) - Poprawny sposób korzystania z Pixiv (P站)
+- [jbranchaud/til](https://github.com/jbranchaud/til) - :memo: Dzisiaj się nauczyłem
+- [junegunn/vim-plug](https://github.com/junegunn/vim-plug) - :hibiscus: Minimalistyczny menedżer wtyczek do Vim
+- [joshdick/onedark.vim](https://github.com/joshdick/onedark.vim) - Ciemny motyw kolorystyczny Vim/Neovim inspirowany motywem składni One Dark z Atom.
+- [albert12132/dotfiles](https://github.com/albert12132/dotfiles) - 
+- [mattn/vim-gist](https://github.com/mattn/vim-gist) - Wtyczka do Vim obsługująca Gist
+- [amix/vimrc](https://github.com/amix/vimrc) - Ostateczna konfiguracja Vim (vimrc)
+- [neovim/neovim](https://github.com/neovim/neovim) - Fork Vima skupiony na rozszerzalności i użyteczności
+## Visual Basic .NET 
+
+- [PeterStrick/ViVeTool-GUI](https://github.com/PeterStrick/ViVeTool-GUI) - Graficzny interfejs użytkownika do kontroli funkcji Windows oparty na ViVe / ViVeTool
+- [ChrisAnd1998/TaskbarX](https://github.com/ChrisAnd1998/TaskbarX) - Wyśrodkowanie ikon paska zadań Windows z różnorodnymi animacjami i opcjami.
+
+## Vue 
+
+- [Sjj1024/PakePlus](https://github.com/Sjj1024/PakePlus) - Zamień dowolną stronę internetową/Vue/React itd. w aplikację desktopową i mobilną poniżej 5 MB w kilka minut. 轻松将任意网站/Vue/React等项目构建为轻量级(小于5M)多端桌面应用和手机应用仅需几分钟. https://ppofficial.netlify.app
+- [Ackites/hidden-word](https://github.com/Ackites/hidden-word) - Narzędzie do cyfrowego znakowania wodnego tekstów oparte na Unikodzie do osadzania niewidocznych znaków praw autorskich i metadanych w treści tekstowej.
+- [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) - Najlepsza skrzynka narzędziowa IP. Łatwe sprawdzanie swoich IP, geolokalizacji IP, wykrywanie wycieków DNS, badanie połączeń WebRTC, test prędkości, test ping, test MTR, sprawdzanie dostępności stron, wyszukiwanie whois i więcej!
+- [zyronon/douyin](https://github.com/zyronon/douyin) - Vue3 + Pinia imitacja Douyin, najlepsze praktyki Vue na urządzeniach mobilnych. Imitacja TikTok, najlepsze praktyki Vue na mobile
+- [GUI-for-Cores/GUI.for.Clash](https://github.com/GUI-for-Cores/GUI.for.Clash) - Program GUI rozwijany w oparciu o vue3 + wails.
+- [dullage/flatnotes](https://github.com/dullage/flatnotes) - Samohostowana aplikacja do notatek bez bazy danych, wykorzystująca płaski folder plików markdown do przechowywania.
+- [TangSY/echarts-map-demo](https://github.com/TangSY/echarts-map-demo) - Narzędzie do pobierania i stosowania danych geoJson granic podziału administracyjnego dla echarts, QGIS i innych map, format danych json, wielopoziomowa interakcja województwo-miasto-powiat, rzeczywisty drill-down do poziomu powiatu 【w zestawie najnowsze pliki geoJson z podziałem trzystopniowym lub czterostopniowym (w tym gminy); możliwy również pobór relacji kodów administracyjnych pięciostopniowych (wieś)】
+- [hackun666/chat-easy](https://github.com/hackun666/chat-easy) - Demo ChatGPT na vue.js
+- [weekend-project-space/chatgpt-online](https://github.com/weekend-project-space/chatgpt-online) - chatgpt-online, jednorazowe wdrożenie Twojej strony chatgpt, bez potrzeby omijania blokad
+- [weekend-project-space/chatgpt-chrome-extension](https://github.com/weekend-project-space/chatgpt-chrome-extension) - chatgpt-chrome-extension
+- [Paul-Gy/SessionShare](https://github.com/Paul-Gy/SessionShare) - Łatwe udostępnianie plików wiele razy za pomocą jednego linku! Zbudowany z użyciem Vue.js na Cloudflare Workers, z Durable Objects, R2 i Cloudflare Pages.
+- [OBKoro1/stop-mess-around](https://github.com/OBKoro1/stop-mess-around) - Samodyscyplinująca wtyczka do Chrome: pomaga zerwać nawyk nieświadomego otwierania stron takich jak Zhihu w trakcie pracy/nauki, co często pochłania kilka godzin. Wtyczka automatycznie wykrywa strony do prokrastynacji, wyświetla motywujące komunikaty, po czym zamyka te strony.
+- [tailwindcomponents/gradient-generator](https://github.com/tailwindcomponents/gradient-generator) - Generator gradientów Tailwind zbudowany w oparciu o Vue JS, Vite i Tailwind CSS
+- [nicejade/markdown2png](https://github.com/nicejade/markdown2png) - 玉桃文飨轩🍑, profesjonalne narzędzie do konwersji tekstu na obraz. Jedno kliknięcie konwertuje Markdown na piękne obrazy, obsługuje tryb cytatów, własne motywy, czcionki i tła. Wszystkie dane przetwarzane lokalnie dla bezpieczeństwa prywatności, doskonała adaptacja do różnych urządzeń. Ułatwia dzielenie się artykułami, notatkami i udostępnianie w mediach społecznościowych. Bazuje na Vue3, Vite, Pinia, TailwindCSS, TypeScript itd.
+- [doocs/md](https://github.com/doocs/md) - ✍ Edytor WeChat Markdown | Wysoce minimalistyczny edytor Markdown do WeChata: obsługuje składnię Markdown, własne style motywów, zarządzanie treścią, wielokrotne hostowanie obrazów, asystenta AI i inne funkcje
+- [betterRunner/context-note](https://github.com/betterRunner/context-note) - Rozszerzenie do Chrome do robienia notatek: twórz notatki w sieci wraz z ich kontekstem.
+- [realByg/cfworker-kv-image-hosting](https://github.com/realByg/cfworker-kv-image-hosting) - Cloudflare workers KV hosting obrazów
+- [lpssss/THUeat--Frontend](https://github.com/lpssss/THUeat--Frontend) - Aplikacja stołówkowa Uniwersytetu Tsinghua
+- [m0ngr31/DailyNotes](https://github.com/m0ngr31/DailyNotes) - Aplikacja do codziennego notowania i śledzenia zadań
+- [massCodeIO/massCode](https://github.com/massCodeIO/massCode) - Darmowy i otwartoźródłowy menedżer fragmentów kodu dla programistów
+- [chaos-zhu/easynode](https://github.com/chaos-zhu/easynode) - Wielofunkcyjny panel WEB terminala serwera Linux (webSSH & webSFTP). Powiadomienia o aktualizacjach TG：
+- [tipsy/profile-summary-for-github](https://github.com/tipsy/profile-summary-for-github) - Narzędzie do wizualizacji profili GitHub
+- [lzdyes/douyin-downloader](https://github.com/lzdyes/douyin-downloader) - Wieloplatformowe narzędzie do pobierania filmów Douyin, zbudowane na tauri
+- [5aaee9/Dnsflare](https://github.com/5aaee9/Dnsflare) - Edytuj ustawienia DNS domeny Cloudflare
+- [Idered/chalk.ist](https://github.com/Idered/chalk.ist) - 📷 Twórz piękne obrazy swojego kodu źródłowego
+- [manuelernestog/weektodo](https://github.com/manuelernestog/weektodo) - WeekToDo to darmowy i otwartoźródłowy minimalistyczny tygodniowy planer i aplikacja listy zadań skupiona na prywatności. Dostępna na Windows, Mac, Linux lub online.
+- [YunYouJun/cook](https://github.com/YunYouJun/cook) - 🍲 Dobrze, dziś gotujemy! OK, Let's Cook!
+- [Jrohy/webssh](https://github.com/Jrohy/webssh) - Proste narzędzie online terminal i sftp
+- [requarks/wiki](https://github.com/requarks/wiki) - Wiki.js | Nowoczesna i potężna aplikacja wiki zbudowana na Node.js
+- [yddeng/amp](https://github.com/yddeng/amp) - Platforma automatycznego zarządzania: zadania harmonogramu, kontrola procesów, monitoring i alarmowanie procesów
+- [surmon-china/surmon.me](https://github.com/surmon-china/surmon.me) - 🌱 Moje cyfrowe vihāra, napędzane przeze mnie.
+- [xjh22222228/boomb](https://github.com/xjh22222228/boomb) - 💣 Łatwe zarządzanie zdjęciami dla Github. Proste zarządzanie swoją galerią na Github
+- [CareyWang/sub-web](https://github.com/CareyWang/sub-web) - 
+- [5ime/vue-page](https://github.com/5ime/vue-page) - Strona do usuwania znaków wodnych z krótkich filmów/albumów wideo w Vue
+- [dhanyn10/multiple-file-manager](https://github.com/dhanyn10/multiple-file-manager) - Aplikacja do zarządzania plikami. Możesz hurtowo zmieniać nazwy lub usuwać pliki jednocześnie, według określonych warunków. Dostępna na Windows i Linux
+- [Codennnn/vue-color-avatar](https://github.com/Codennnn/vue-color-avatar) - Generator awatarów online tylko dla zabawy | Strona do generowania awatarów w pełni po stronie klienta
+- [JakHuang/form-generator](https://github.com/JakHuang/form-generator) - :sparkles:Generator i projektant formularzy Element UI
+- [KeziahMoselle/export-github-stars](https://github.com/KeziahMoselle/export-github-stars) - Przeglądaj / sortuj / eksportuj swoje repozytoria oznaczone gwiazdką.
+- [WebCrateApp/webcrate](https://github.com/WebCrateApp/webcrate) - 📦🔗 Organizuj swoją sieć z WebCrate, nowoczesnym i pięknym narzędziem do zakładek
+- [leon-kfd/Dashboard](https://github.com/leon-kfd/Dashboard) - Dostosuj swoją osobistą stronę startową przeglądarki z konfigurowalnych komponentów.
+- [xiaoluoboding/skylines](https://github.com/xiaoluoboding/skylines) - Moja historia GitHub w 3D. Zobacz trójwymiarowy model swojego wykresu kontrybucji na GitHub.
+- [luyuhuang/DWords2](https://github.com/luyuhuang/DWords2) - Wyświetlanie słów jako Danmaku na ekranie, by pomóc w ich zapamiętywaniu | Zamień słowa w ruchome napisy na ekranie dla łatwiejszej nauki
+- [qier222/YesPlayMusic](https://github.com/qier222/YesPlayMusic) - Stylowy zewnętrzny odtwarzacz NetEase Cloud, obsługuje Windows / macOS / Linux :electron:
+- [vuepress-reco/vuepress-theme-reco-1.x](https://github.com/vuepress-reco/vuepress-theme-reco-1.x) - 🎨 To repozytorium motywu vuepress-theme-reco 1.
+## Licencja
+
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+W zakresie dozwolonym przez prawo, [erbanku](https://github.com/erbanku) zrzekł się wszelkich praw autorskich oraz praw pokrewnych do tego dzieła.
+
+
+
+---
+
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-11
+
+---

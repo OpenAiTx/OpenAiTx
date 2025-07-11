@@ -1,0 +1,2265 @@
+<!--lint disable awesome-contributing awesome-license awesome-list-item match-punctuation no-repeat-punctuation no-undefined-references awesome-spell-check-->
+# Awesome Stars [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
+
+> Danh sách tuyển chọn các kho lưu trữ GitHub mà tôi đã gắn sao! Được tạo bởi [starred](https://github.com/maguowei/starred).
+
+## Mục lục
+
+- [Danh sách Bộ lọc Adblock](#adblock-filter-list)
+- [AutoHotkey](#autohotkey)
+- [AutoIt](#autoit)
+- [Batchfile](#batchfile)
+- [Blade](#blade)
+- [C](#c)
+- [C#](#c#)
+- [C++](#c++)
+- [CSS](#css)
+- [Clojure](#clojure)
+- [CodeQL](#codeql)
+- [Common Lisp](#common-lisp)
+- [Crystal](#crystal)
+- [D](#d)
+- [Dart](#dart)
+- [Dockerfile](#dockerfile)
+- [EJS](#ejs)
+- [Elm](#elm)
+- [Erlang](#erlang)
+- [GDScript](#gdscript)
+- [Go](#go)
+- [HCL](#hcl)
+- [HTML](#html)
+- [Hack](#hack)
+- [Haskell](#haskell)
+- [Haxe](#haxe)
+- [Java](#java)
+- [JavaScript](#javascript)
+- [Jinja](#jinja)
+- [Julia](#julia)
+- [Jupyter Notebook](#jupyter-notebook)
+- [Kotlin](#kotlin)
+- [LLVM](#llvm)
+- [Lua](#lua)
+- [MATLAB](#matlab)
+- [MDX](#mdx)
+- [Makefile](#makefile)
+- [Markdown](#markdown)
+- [Mermaid](#mermaid)
+- [Meson](#meson)
+- [Objective-C](#objective-c)
+- [Khác](#others)
+- [PHP](#php)
+- [PLpgSQL](#plpgsql)
+- [Pascal](#pascal)
+- [Perl](#perl)
+- [PostScript](#postscript)
+- [PowerShell](#powershell)
+- [Python](#python)
+- [QML](#qml)
+- [R](#r)
+- [Định dạng Văn bản Phong phú](#rich-text-format)
+- [Roff](#roff)
+- [Ruby](#ruby)
+- [Rust](#rust)
+- [SCSS](#scss)
+- [SVG](#svg)
+- [Shell](#shell)
+- [Stylus](#stylus)
+- [Svelte](#svelte)
+- [Swift](#swift)
+- [TeX](#tex)
+- [TypeScript](#typescript)
+- [VBA](#vba)
+- [VBScript](#vbscript)
+- [Vala](#vala)
+- [Vim Script](#vim-script)
+- [Visual Basic .NET](#visual-basic-.net)
+- [Vue](#vue)
+
+## Danh sách Bộ lọc Adblock
+
+- [neodevpro/neodevhost](https://github.com/neodevpro/neodevhost) - Bộ Hosts chặn quảng cáo mạnh mẽ, thân thiện và luôn cập nhật  最新强大而友善的去广告
+- [uBlockOrigin/uAssets](https://github.com/uBlockOrigin/uAssets) - Danh sách bộ lọc cho uBlock Origin & uBlock Origin Lite
+
+## AutoHotkey
+
+- [raeleus/AHK-Macro-Recorder](https://github.com/raeleus/AHK-Macro-Recorder) - Một script AutoHotkey cho phép bạn ghi lại macro
+- [marius-sucan/KeyPress-OSD](https://github.com/marius-sucan/KeyPress-OSD) - Chương trình này là một Hiển thị Trên Màn Hình hoặc Hiển thị Đầu (HUD) cho các phím. Nó hiển thị từng lần nhấn phím với kích thước chữ rõ ràng, dễ nhìn. Được phát triển cho những người có thị lực kém. Nhằm hỗ trợ làm việc trên bàn.
+- [AutoHotkey/Ahk2Exe](https://github.com/AutoHotkey/Ahk2Exe) - Trình biên dịch script AutoHotkey chính thức - được viết bằng chính AutoHotkey
+
+## AutoIt
+
+- [rcmaehl/MSEdgeRedirect](https://github.com/rcmaehl/MSEdgeRedirect) - Công cụ chuyển hướng Tin tức, Tìm kiếm, Widget, Thời tiết và nhiều hơn nữa sang trình duyệt mặc định của bạn
+
+## Batchfile
+
+- [K3V1991/APK-Bundle-Installer](https://github.com/K3V1991/APK-Bundle-Installer) - Script Batch cho phép bạn cài đặt APK Bundles/Split APKs
+- [erbanku/cactusium-win](https://github.com/erbanku/cactusium-win) - Chromium fork cho Windows được đặt tên theo nguyên tố phóng xạ số 90; Bản dựng Windows của https://github.com/Alex313031/Thorium
+- [Alex313031/Thorium-Win](https://github.com/Alex313031/Thorium-Win) - Chromium fork cho Windows được đặt tên theo nguyên tố phóng xạ số 90; Bản dựng Windows của https://github.com/Alex313031/Thorium
+- [JimmyJLNU/SuperHosts](https://github.com/JimmyJLNU/SuperHosts) - Cách truy cập các dự án của Wikimedia (Virtual hosts)
+- [xinggsf/Adblock-Plus-Rule](https://github.com/xinggsf/Adblock-Plus-Rule) - Quy tắc lọc quảng cáo 乘风 cho uBlock Origin
+- [erbanku/custom-search-engines-backup](https://github.com/erbanku/custom-search-engines-backup) - Nhập/Xuất các công cụ tìm kiếm tùy chỉnh của Google Chrome hoặc Microsoft Edge và đồng bộ (ghi đè) giữa 2 trình duyệt.
+## Blade 
+
+- [lsky-org/lsky-pro](https://github.com/lsky-org/lsky-pro) - ☁️兰空图床(Lsky Pro) - Album ảnh của bạn trên đám mây.
+- [Qoraiche/laravel-mail-editor](https://github.com/Qoraiche/laravel-mail-editor) - MailEclipse :zap: Trình chỉnh sửa Mail cho Laravel
+
+## C 
+
+- [kingToolbox/WindTerm](https://github.com/kingToolbox/WindTerm) - Một trình SSH/Sftp/Shell/Telnet/Tmux/Serial chuyên nghiệp, đa nền tảng.
+- [stefansundin/superf4](https://github.com/stefansundin/superf4) - :file_folder: Kết thúc chương trình ngay lập tức bằng Ctrl+Alt+F4. (Windows)
+- [wherewhere/Windows-Loopback-Exemption-Manager](https://github.com/wherewhere/Windows-Loopback-Exemption-Manager) - Giao diện đồ họa để bật Loopback Exemptions cho Universal Windows Apps và các ứng dụng Modern UI trên Windows 8, 8.1, 10.
+- [Yutaka-Sawada/MultiPar](https://github.com/Yutaka-Sawada/MultiPar) - Công cụ Parchive
+- [aleksey-hoffman/sigma-file-manager](https://github.com/aleksey-hoffman/sigma-file-manager) - "Sigma File Manager" là ứng dụng quản lý tệp hiện đại, miễn phí, mã nguồn mở, phát triển nhanh, dành cho Windows và Linux.
+- [Excitablecell/GEARdrones](https://github.com/Excitablecell/GEARdrones) - GEARdrones là hệ thống điều khiển drone nhẹ và định vị đa tác tử, kết hợp bộ điều khiển bay, thuật toán định vị tương đối UWB, và phần mềm giám sát.
+- [openssl/openssl](https://github.com/openssl/openssl) - Thư viện TLS/SSL và mã hóa
+- [curl/curl](https://github.com/curl/curl) - Công cụ dòng lệnh và thư viện truyền dữ liệu theo cú pháp URL, hỗ trợ DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, S
+- [flatpak/flatpak](https://github.com/flatpak/flatpak) - Khung phân phối và sandbox ứng dụng cho Linux
+- [ish-app/ish](https://github.com/ish-app/ish) - Shell Linux cho iOS
+- [pbatard/rufus](https://github.com/pbatard/rufus) - Tiện ích định dạng USB đáng tin cậy
+- [seclab-ucr/INTANG](https://github.com/seclab-ucr/INTANG) - 
+- [git/git](https://github.com/git/git) - Git Source Code Mirror - Đây là kho lưu trữ chỉ để xuất bản, nhưng pull requests có thể được chuyển thành bản vá tới mailing list qua GitGitGadget (https://gitgitgadget.github.io/). Vui lòng làm theo Tài liệu
+- [FreeRDP/FreeRDP](https://github.com/FreeRDP/FreeRDP) - FreeRDP là thư viện và các ứng dụng giao thức desktop từ xa miễn phí
+- [ahrm/sioyek](https://github.com/ahrm/sioyek) - Sioyek là trình xem PDF tập trung cho sách giáo khoa và bài báo nghiên cứu
+- [erbanku/tpnm-thu](https://github.com/erbanku/tpnm-thu) - 2022 Technology And Practice Of Non-conventional Machining Course Raspberry Pi Workspace Files (Team Hello World)
+- [sumatrapdfreader/sumatrapdf](https://github.com/sumatrapdfreader/sumatrapdf) - Trình đọc SumatraPDF
+- [NVIDIA/open-gpu-kernel-modules](https://github.com/NVIDIA/open-gpu-kernel-modules) - Mã nguồn module kernel GPU mở cho Linux của NVIDIA
+- [heiher/hev-socks5-tproxy](https://github.com/heiher/hev-socks5-tproxy) - Một proxy socks5 trong suốt (IPv4/IPv6/TCP/UDP)
+- [beordle/termtunnel](https://github.com/beordle/termtunnel) - Công cụ đường hầm terminal đa nền tảng
+- [rvaiya/warpd](https://github.com/rvaiya/warpd) - Con trỏ ảo điều khiển bằng bàn phím theo chế độ modal
+- [nginx/nginx](https://github.com/nginx/nginx) - Kho mã nguồn chính thức của NGINX Open Source.
+- [torvalds/linux](https://github.com/torvalds/linux) - Cây mã nguồn nhân Linux
+- [hashcat/hashcat](https://github.com/hashcat/hashcat) - Tiện ích phục hồi mật khẩu nhanh và tiên tiến nhất thế giới
+- [microsoft/SysmonForLinux](https://github.com/microsoft/SysmonForLinux) - Sysmon cho Linux
+- [tats/w3m](https://github.com/tats/w3m) - w3m của Debian: Trình đọc trang WWW có thể duyệt được
+- [git-for-windows/git](https://github.com/git-for-windows/git) - Nhánh của Git chứa các bản vá dành riêng cho Windows.
+- [zhaojh329/rtty](https://github.com/zhaojh329/rtty) - 🐛 Truy cập terminal của bạn từ bất cứ đâu qua web.
+- [vysheng/tg](https://github.com/vysheng/tg) - telegram-cli
+- [apache/httpd](https://github.com/apache/httpd) - Mirror của Apache HTTP Server. Vấn đề: http://issues.apache.org
+- [openwrt/openwrt](https://github.com/openwrt/openwrt) - Kho lưu trữ này là bản mirror của https://git.openwrt.org/openwrt/openwrt.git Chỉ dùng để tham khảo và không hoạt động cho các lần check-in. Chúng tôi vẫn tiếp tục nhận Pull Requests tại đây. Chúng sẽ được hợp nhất
+- [pyrogram/tgcrypto](https://github.com/pyrogram/tgcrypto) - Thư viện tiện ích mở rộng mã hóa nhanh và di động cho Pyrogram
+- [haiwen/seafile](https://github.com/haiwen/seafile) - Đồng bộ và chia sẻ tệp hiệu suất cao, có cả chỉnh sửa Markdown WYSIWYG, Wiki, nhãn tệp và các tính năng quản lý tri thức khác.
+- [FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg) - Mirror của https://git.ffmpeg.org/ffmpeg.git
+- [expressvpn/lightway-core](https://github.com/expressvpn/lightway-core) - Lightway Core là giao thức VPN hiện đại của ExpressVPN, mang lại trải nghiệm VPN nhanh hơn, an toàn hơn và ổn định hơn.
+- [rainmeter/rainmeter](https://github.com/rainmeter/rainmeter) - Công cụ tùy chỉnh desktop cho Windows
+- [obsproject/obs-studio](https://github.com/obsproject/obs-studio) - OBS Studio - Phần mềm miễn phí và mã nguồn mở cho phát trực tiếp và ghi màn hình
+## C# # 
+
+- [UnigramDev/Unigram](https://github.com/UnigramDev/Unigram) - Telegram cho Windows
+- [IT-HaoGe/Windows-Update-Delayer](https://github.com/IT-HaoGe/Windows-Update-Delayer) - ITHaoGe Windows Update Delayer cho Win11/10, Công cụ tạm dừng cập nhật máy tính của IT豪哥, nhanh chóng tạm dừng cập nhật hệ thống Windows11/10
+- [hellzerg/optimizer](https://github.com/hellzerg/optimizer) - Trình tối ưu hóa Windows tốt nhất
+- [thebookisclosed/ViVe](https://github.com/thebookisclosed/ViVe) - Thư viện C# và ứng dụng console để sử dụng các API kiểm soát tính năng mới trên Windows 10 phiên bản 2004 trở lên
+- [xhnbzdl/feishu-doc-export](https://github.com/xhnbzdl/feishu-doc-export) - Dịch vụ xuất tài liệu Feishu (飞书文档导出服务)
+- [abpframework/abp](https://github.com/abpframework/abp) - Framework ứng dụng web mã nguồn mở cho ASP.NET Core! Cung cấp kiến trúc định hướng để xây dựng giải pháp phần mềm doanh nghiệp với các thực tiễn tốt nhất trên nền tảng .NET. Cung cấp hạ tầng cơ bản
+- [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) - Hệ thống phần mềm đa phương tiện miễn phí - Backend máy chủ & API
+- [boy1dr/SpleeterGui](https://github.com/boy1dr/SpleeterGui) - Giao diện desktop Windows cho Spleeter - Tách nguồn âm thanh bằng AI
+- [Berrysoft/TsinghuaNet](https://github.com/Berrysoft/TsinghuaNet) - Đã dừng bảo trì, xem dự án tunet-rust. Ứng dụng khách mạng trường Tsinghua, dùng cho UWP, iOS, Android.
+- [mili-tan/ArashiDNS.Dekunua](https://github.com/mili-tan/ArashiDNS.Dekunua) - Trình quản lý máy chủ DoH nổi tiếng dành cho Windows 11 / Công cụ quản lý máy chủ DoH tích hợp nổi tiếng cho Windows 11
+- [2dust/clashN](https://github.com/2dust/clashN) - Ứng dụng clash client cho Windows, hỗ trợ Mihomo
+- [zsh2401/AutumnBox](https://github.com/zsh2401/AutumnBox) - Hộp công cụ ADB giao diện đồ họa
+- [thufv/CMinor-Verifier](https://github.com/thufv/CMinor-Verifier) - Nền tảng thực nghiệm cho môn “Phân tích và xác minh phần mềm” kỳ Xuân 2022, Đại học Thanh Hoa (Lab for Software Analysis and Verification, 2022 Spring, Tsinghua University)
+- [emrecancubukcu/Terrain-Decorator](https://github.com/emrecancubukcu/Terrain-Decorator) - Công cụ địa hình nhẹ cho unity3d
+- [imbushuo/EnergyStar](https://github.com/imbushuo/EnergyStar) - Ứng dụng thiết lập chế độ hiệu suất SV2 cho các ứng dụng Windows không hoạt động và ứng dụng nền người dùng
+- [0x5bfa/FluentHub](https://github.com/0x5bfa/FluentHub) - Ứng dụng GitHub phong cách hiện đại nhưng mạnh mẽ dành cho Windows
+- [FireCubeStudios/Protecc](https://github.com/FireCubeStudios/Protecc) - Nó bảo vệ (It protecc)
+- [AxDSan/KeyPose](https://github.com/AxDSan/KeyPose) - Giải pháp thay thế cho 'Mouseposé' trên Windows
+- [RaoHammas/Social-Space](https://github.com/RaoHammas/Social-Space) - Social Space là ứng dụng cho phép bạn mở các ứng dụng cạnh nhau & lưu không gian làm việc.
+- [ros/solidworks_urdf_exporter](https://github.com/ros/solidworks_urdf_exporter) - Xuất SolidWorks sang URDF
+- [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) - PowerShell cho mọi hệ thống!
+- [Rise-Software/Rise-Media-Player](https://github.com/Rise-Software/Rise-Media-Player) - Một trình phát đa phương tiện cho tất cả nội dung bạn sở hữu hoặc phát trực tuyến; dù là nhạc hay video, trực tuyến hay ngoại tuyến, Rise Media Player đều đáp ứng. Giao diện đẹp mắt, bản địa với WinUI mới nhất.
+- [rocksdanister/lively](https://github.com/rocksdanister/lively) - Phần mềm mã nguồn mở miễn phí cho phép người dùng đặt hình nền động và trình bảo vệ màn hình trên desktop sử dụng WinUI 3.
+- [dremin/RetroBar](https://github.com/dremin/RetroBar) - Thanh tác vụ cổ điển Windows 95, 98, Me, 2000, XP, Vista cho các phiên bản Windows hiện đại
+- [lalakii/MouseClickTool](https://github.com/lalakii/MouseClickTool) - Công cụ click chuột tự động đơn giản, dễ dùng, nhẹ, hiệu năng tốt~. Phiên bản hiện tại chỉ 14KB, bản online (minimal) chỉ 5KB. https://mouseclicktool.sourceforge.io
+- [dotnet/yarp](https://github.com/dotnet/yarp) - Bộ công cụ phát triển ứng dụng reverse proxy HTTP hiệu năng cao.
+- [proxysu/ProxySU](https://github.com/proxysu/ProxySU) - Xray, V2ray, Trojan, NaiveProxy, Trojan-Go, ShadowsocksR(SSR), Shadowsocks-libev và plugin liên quan, MTProto+TLS công cụ cài đặt một bước, dùng trên windows (một bước truy cập mạng an toàn)
+- [bitwarden/server](https://github.com/bitwarden/server) - Hạ tầng/backend Bitwarden (API, cơ sở dữ liệu, Docker, v.v.)
+- [QL-Win/QuickLook](https://github.com/QL-Win/QuickLook) - Mang tính năng “Quick Look” của macOS lên Windows
+- [DinoChan/Loaf](https://github.com/DinoChan/Loaf) - 
+- [ShareX/ShareX](https://github.com/ShareX/ShareX) - ShareX là phần mềm miễn phí mã nguồn mở cho phép người dùng chụp hoặc ghi lại bất kỳ khu vực nào trên màn hình chỉ với một phím bấm. Hỗ trợ tải lên hình ảnh, văn bản và nhiều loại tệp khác.
+- [shadowsocks/shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows) - Bản chuyển shadowsocks sang C#
+- [gheyret/UyghurEditPP](https://github.com/gheyret/UyghurEditPP) - Trình soạn thảo văn bản có kiểm tra chính tả cho tiếng Uyghur
+- [marian42/wavefunctioncollapse](https://github.com/marian42/wavefunctioncollapse) - Dạo bước qua một thành phố vô tận được tạo theo thuật toán procedural
+- [kenvix/USBCopyer](https://github.com/kenvix/USBCopyer) - 😉 Tự động sao chép file từ USB khi cắm vào. "Công cụ sao lưu & lấy file USB thần thánh" (Viết là USBCopyer, đọc là USBCopier)
+- [sttz/expresso](https://github.com/sttz/expresso) - expresso là CLI để điều khiển ứng dụng ExpressVPN
+- [Azure/azure-powershell](https://github.com/Azure/azure-powershell) - Microsoft Azure PowerShell
+- [LimerBoy/Adamantium-Thief](https://github.com/LimerBoy/Adamantium-Thief) - :key: (MÃ NÀY ĐÃ LỖI THỜI VỚI CÁC PHIÊN BẢN CHROME MỚI) Giải mã mật khẩu, cookie, thẻ tín dụng, lịch sử, dấu trang, tự động điền của trình duyệt nền tảng chromium. Hỗ trợ phiên bản &gt; 80.
+- [wakatime/notepadpp-wakatime](https://github.com/wakatime/notepadpp-wakatime) - Plugin Notepad++ để tự động theo dõi thời gian và thống kê hoạt động lập trình của bạn.
+- [wakatime/office-wakatime](https://github.com/wakatime/office-wakatime) - Add-in Office Solution để tự động theo dõi thời gian và thống kê hoạt động lập trình của bạn.
+- [microsoft/PowerToys](https://github.com/microsoft/PowerToys) - Bộ tiện ích hệ thống Windows để tối đa hóa năng suất
+- [0x7c13/Notepads](https://github.com/0x7c13/Notepads) - Trình soạn thảo văn bản hiện đại, nhẹ với thiết kế tối giản.
+- [srwi/EverythingToolbar](https://github.com/srwi/EverythingToolbar) - Tích hợp Everything vào thanh tác vụ Windows.
+- [mpvnet-player/mpv.net](https://github.com/mpvnet-player/mpv.net) - 🎞 mpv.net là trình phát đa phương tiện cho Windows với giao diện hiện đại.
+- [ModuleArt/quick-picture-viewer](https://github.com/ModuleArt/quick-picture-viewer) - 🖼️ Trình xem ảnh desktop nhẹ, đa năng cho Windows. Thay thế tốt nhất cho trình xem ảnh mặc định của Windows.
+- [nilaoda/BBDown](https://github.com/nilaoda/BBDown) - Trình tải Bilibili. Trình tải Bilibili dòng lệnh.
+- [TGSAN/CMWTAT_Digital_Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition) - CloudMoe Windows 10/11 Activation Toolkit - nhận giấy phép số, công cụ kích hoạt Win 10/11 mã nguồn mở tốt nhất trên GitHub!
+- [AutoDarkMode/Windows-Auto-Night-Mode](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode) - Tự động chuyển đổi giữa giao diện tối và sáng của Windows 10 và Windows 11
+- [mili-tan/AuroraDNS.GUI](https://github.com/mili-tan/AuroraDNS.GUI) - Thuần khiết, chống ô nhiễm, đơn giản nhẹ nhàng
+- [Richasy/BiliBili-UWP](https://github.com/Richasy/BiliBili-UWP) - Ứng dụng khách UWP của BiliBili, tất nhiên là bên thứ ba
+- [BluePointLilac/ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager) - 🖱️ Trình quản lý menu chuột phải Windows thuần túy
+- [Tichau/FileConverter](https://github.com/Tichau/FileConverter) - File Converter là công cụ đơn giản cho phép bạn chuyển đổi và nén file ngay trên menu chuột phải của Windows Explorer.
+- [Alkl58/NotEnoughAV1Encodes](https://github.com/Alkl58/NotEnoughAV1Encodes) - Giao diện GUI cho AV1 (aomenc, rav1e & svt-av1)
+- [t1m0thyj/WinDynamicDesktop](https://github.com/t1m0thyj/WinDynamicDesktop) - Chuyển tính năng Dynamic Desktop của macOS Mojave lên Windows
+## C++
+
+- [zen-browser/desktop](https://github.com/zen-browser/desktop) - Chào mừng bạn đến với một internet yên bình hơn
+- [Lymphatus/caesium-image-compressor](https://github.com/Lymphatus/caesium-image-compressor) - Caesium là phần mềm nén ảnh giúp bạn lưu trữ, gửi và chia sẻ hình ảnh kỹ thuật số, hỗ trợ các định dạng JPG, PNG, WebP và TIFF. Bạn có thể nhanh chóng giảm kích thước tập tin (và độ phân giải, nếu cần)
+- [LANDrop/LANDrop](https://github.com/LANDrop/LANDrop) - Chia sẻ bất kỳ tệp nào đến bất kỳ thiết bị nào trên mạng LAN của bạn.
+- [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) - Chuyển đổi mô hình Whisper của OpenAI sang C/C++
+- [KTStephano/StratusGFX](https://github.com/KTStephano/StratusGFX) - Engine dựng hình 3D thời gian thực
+- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) - Suy luận LLM bằng C/C++
+- [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all) - GPT4All: Chạy LLM cục bộ trên mọi thiết bị. Mã nguồn mở và có sẵn cho mục đích thương mại.
+- [sainnhe/caj2pdf-qt](https://github.com/sainnhe/caj2pdf-qt) - Bộ chuyển đổi CAJ sang PDF (phiên bản giao diện đồ họa)
+- [zhongyang219/TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor) - Đây là phần mềm cửa sổ nổi trên màn hình để hiển thị tốc độ mạng, mức sử dụng CPU và RAM hiện tại, hỗ trợ hiển thị trên thanh tác vụ và đổi giao diện.
+- [klzgrad/naiveproxy](https://github.com/klzgrad/naiveproxy) - Kiếm tiền một cách lặng lẽ
+- [zhaochenyang20/IAI_2022](https://github.com/zhaochenyang20/IAI_2022) - Toàn bộ tài liệu hướng dẫn trí tuệ nhân tạo 2022 của khoa bạn, từ bài tập về nhà đến tổng hợp ôn thi
+- [google-deepmind/code_contests](https://github.com/google-deepmind/code_contests) -
+- [EdVince/Stable-Diffusion-NCNN](https://github.com/EdVince/Stable-Diffusion-NCNN) - Stable Diffusion trên NCNN với C++, hỗ trợ txt2img và img2img
+- [ethereal-developers/OpenScan](https://github.com/ethereal-developers/OpenScan) - Ứng dụng quét tài liệu bảo vệ quyền riêng tư của bạn
+- [aria2/aria2](https://github.com/aria2/aria2) - aria2 là tiện ích tải về đa giao thức & đa nguồn gọn nhẹ, đa nền tảng, sử dụng dòng lệnh. Hỗ trợ HTTP/HTTPS, FTP, SFTP, BitTorrent và Metalink.
+- [s3fs-fuse/s3fs-fuse](https://github.com/s3fs-fuse/s3fs-fuse) - Hệ thống tập tin dựa trên FUSE, lưu trữ trên Amazon S3
+- [carbon-language/carbon-lang](https://github.com/carbon-language/carbon-lang) - Kho chính của Carbon Language: tài liệu, thiết kế, hiện thực và công cụ liên quan. (LƯU Ý: Carbon Language là dự án thử nghiệm; xem README)
+- [diegomacario/Animation-Magic](https://github.com/diegomacario/Animation-Magic) - Trực quan hóa hấp dẫn tất cả các toán học đằng sau hoạt hình nhân vật 3D.
+- [ros-drivers/usb_cam](https://github.com/ros-drivers/usb_cam) - Driver ROS cho camera USB V4L2
+- [0voice/cpp_new_features](https://github.com/0voice/cpp_new_features) - Tổng hợp mới nhất năm 2021, tài liệu học C++, gồm các tính năng mới C++ 11/14/17/20/23, hướng dẫn nhập môn, sách khuyến nghị, bài viết chất lượng, ghi chú học tập, video giảng dạy, v.v.
+- [lzh12139/cpp-big-homework](https://github.com/lzh12139/cpp-big-homework) - Bài tập lớn C++
+- [polybar/polybar](https://github.com/polybar/polybar) - Thanh trạng thái nhanh và dễ sử dụng
+- [cppla/ServerStatus](https://github.com/cppla/ServerStatus) - Cloud probe, giám sát nhiều máy chủ, giám sát đám mây, demo: https://tz.cloudcpp.com/
+- [robopeak/rplidar_ros](https://github.com/robopeak/rplidar_ros) -
+- [LiquidAmmonia/BigAssignment-AHotelSystem](https://github.com/LiquidAmmonia/BigAssignment-AHotelSystem) - Bài tập lớn C++ mùa hè năm nhất — Mã nguồn hệ thống quản lý khách sạn
+- [LoopholesInTheHeart/C-language-program-design-advanced-course-problem](https://github.com/LoopholesInTheHeart/C-language-program-design-advanced-course-problem) - Đáp án khóa học nâng cao thiết kế chương trình ngôn ngữ C++ trên XuetangX
+- [openmm/openmm](https://github.com/openmm/openmm) - OpenMM là bộ công cụ mô phỏng phân tử sử dụng mã GPU hiệu suất cao.
+- [microsoft/wslg](https://github.com/microsoft/wslg) - Bổ sung hỗ trợ Wayland và X server cho Windows Subsystem for Linux
+- [octobanana/peaclock](https://github.com/octobanana/peaclock) - Đồng hồ, hẹn giờ và bấm giờ đáp ứng và tùy chỉnh cho terminal.
+- [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) - Mã nguồn chính thức của FreeCAD, phần mềm mô hình tham số 3D đa nền tảng miễn phí và mã nguồn mở.
+- [tindy2013/subconverter](https://github.com/tindy2013/subconverter) - Công cụ chuyển đổi giữa các định dạng đăng ký khác nhau
+- [zufuliu/notepad4](https://github.com/zufuliu/notepad4) - Notepad4 (Notepad2⨯2, Notepad2++) là trình soạn thảo văn bản nhẹ dựa trên Scintilla cho Windows với tô sáng cú pháp, gập mã, tự động hoàn thành và danh sách API cho nhiều ngôn ngữ lập trình và tài liệu
+- [WhitewaterFoundry/Fedora-Remix-for-WSL](https://github.com/WhitewaterFoundry/Fedora-Remix-for-WSL) - Fedora Remix cho Windows Subsystem for Linux.
+- [Mooophy/Cpp-Primer](https://github.com/Mooophy/Cpp-Primer) - Đáp án C++ Primer 5
+- [huangmingchuan/Cpp_Primer_Answers](https://github.com/huangmingchuan/Cpp_Primer_Answers) - Đáp án tiếng Trung cho 《C++ Primer》Phiên bản thứ năm
+- [xaxfan/Cpp_Primer_5th](https://github.com/xaxfan/Cpp_Primer_5th) - 📔  C++ Primer Phiên bản thứ năm
+- [vooidzero/B23Downloader](https://github.com/vooidzero/B23Downloader) - (Đã ngừng cập nhật lâu dài)
+- [TCNOco/TcNo-WSA-SimpleSideload](https://github.com/TCNOco/TcNo-WSA-SimpleSideload) - Mở tệp .apk chỉ với một cú nhấp chuột trên Windows 11
+- [ksinkar/ticpp2](https://github.com/ksinkar/ticpp2) - Thinking in C++ (Tập 2)
+- [ksinkar/ticpp1](https://github.com/ksinkar/ticpp1) - Thinking in C++ (Tập 1)
+- [lammps/lammps](https://github.com/lammps/lammps) - Dự án phát triển công khai phần mềm mô phỏng động lực học phân tử LAMMPS
+- [WerWolv/ImHex](https://github.com/WerWolv/ImHex) - 🔍 Trình chỉnh sửa Hex dành cho kỹ sư đảo ngược, lập trình viên và những người coi trọng đôi mắt của mình khi làm việc lúc 3 giờ sáng.
+- [microsoft/WSL](https://github.com/microsoft/WSL) - Windows Subsystem for Linux
+- [AnkerLeng/Cpp-0-1-Resource](https://github.com/AnkerLeng/Cpp-0-1-Resource) - Tài liệu nhập môn C++ từ 0 đến 1, tác phẩm tâm huyết
+- [hkneptune/FreeFileSync](https://github.com/hkneptune/FreeFileSync) - Bản sao mã nguồn FreeFileSync. Kho này chỉ là bản phản chiếu mã nguồn FreeFileSync. Vui lòng không gửi pull request. Gửi vấn đề lên diễn đàn chính thức (https://freefilesync.org/forum)
+- [blender/blender](https://github.com/blender/blender) - Kho phản chiếu chính thức của Blender
+- [cnr-isti-vclab/meshlab](https://github.com/cnr-isti-vclab/meshlab) - Hệ thống xử lý lưới mã nguồn mở
+- [rizinorg/cutter](https://github.com/rizinorg/cutter) - Nền tảng phân tích đảo ngược miễn phí và mã nguồn mở, được cung cấp bởi rizin
+- [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) - Khung học máy mã nguồn mở cho tất cả mọi người
+- [M2Team/NanaZip](https://github.com/M2Team/NanaZip) - Phiên bản dẫn xuất từ 7-Zip dành cho trải nghiệm Windows hiện đại
+- [acaudwell/Gource](https://github.com/acaudwell/Gource) - Trực quan hóa kiểm soát phiên bản phần mềm
+- [TranslucentTB/TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) - Tiện ích nhẹ giúp làm mờ/ trong suốt thanh tác vụ Windows.
+- [notepad-plus-plus/notepad-plus-plus](https://github.com/notepad-plus-plus/notepad-plus-plus) - Kho chính thức của Notepad++
+- [Chaoses-Ib/IbEverythingExt](https://github.com/Chaoses-Ib/IbEverythingExt) - Everything mở rộng tìm kiếm theo pinyin, romaji, lựa chọn nhanh
+- [AutoHotkey/AutoHotkey](https://github.com/AutoHotkey/AutoHotkey) - AutoHotkey - tiện ích tạo macro và tự động hóa cho Windows.
+- [microsoft/terminal](https://github.com/microsoft/terminal) - Windows Terminal mới và trình chủ console Windows gốc, tất cả trong cùng một nơi!
+- [microsoft/winget-cli](https://github.com/microsoft/winget-cli) - WinGet là Trình quản lý gói Windows. Dự án này bao gồm CLI (Giao diện dòng lệnh), các module PowerShell, và API COM (Giao diện lập trình ứng dụng thành phần).
+## CSS 
+
+- [BingyanStudio/LapisCV](https://github.com/BingyanStudio/LapisCV) - 📄 Dễ dàng tạo CV của bạn với Markdown trên VSCode / Typora / Obsidian
+- [Akifyss/obsidian-border](https://github.com/Akifyss/obsidian-border) - Một chủ đề cho obsidian.md
+- [wozulong/ChatGPTAuthHelper](https://github.com/wozulong/ChatGPTAuthHelper) - Một tiện ích Chrome đơn giản, giúp bạn đăng nhập ChatGPT.
+- [OrangeX4/cheatsheets](https://github.com/OrangeX4/cheatsheets) - Website cheatsheets của OrangeX4.
+- [h16nning/typora-gitbook-theme](https://github.com/h16nning/typora-gitbook-theme) - Đây là một chủ đề Typora lấy cảm hứng từ gitbook.com. Hầu hết giao diện người dùng đã được đại tu. Bao gồm ba biến thể: hai biến thể sáng và một chủ đề tối.
+- [calcom/font](https://github.com/calcom/font) - Trang chủ font Cal Sans của chúng tôi.
+- [missing-semester-cn/missing-semester-cn.github.io](https://github.com/missing-semester-cn/missing-semester-cn.github.io) - Bản tiếng Trung của "CS missing semester"
+- [hehonghui/awesome-english-ebooks](https://github.com/hehonghui/awesome-english-ebooks) - Tải miễn phí các tạp chí tiếng Anh như Economist (có audio), The New Yorker, The Guardian, Wired, The Atlantic v.v., hỗ trợ định dạng epub, mobi, pdf, cập nhật hàng tuần
+- [Johnserf-Seed/TikTokWeb](https://github.com/Johnserf-Seed/TikTokWeb) - TikTokTool phiên bản web
+- [hydescarf/Obsidian-Theme-Mado-Miniflow](https://github.com/hydescarf/Obsidian-Theme-Mado-Miniflow) - Chủ đề tối giản đẹp cho Obsidian.
+- [BobCoderS9/SSPanel-Metron](https://github.com/BobCoderS9/SSPanel-Metron) - Chủ đề SSPanel-Metron, hiện đang được @Bobs9 duy trì phát triển.
+- [nanxiaobei/hugo-paper](https://github.com/nanxiaobei/hugo-paper) - 🪺 Chủ đề Hugo đơn giản, sạch sẽ, tùy biến
+- [ChenYFan-Tester/IPFS_PHOTO_SHARE](https://github.com/ChenYFan-Tester/IPFS_PHOTO_SHARE) - 💰Không cần máy chủ, xây dựng trang chia sẻ ảnh bằng ServerLess! | Trang chia sẻ ảnh dựa trên CloudFlareWorker và lưu trữ phi tập trung IPFS
+- [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts) - Bộ sưu tập, tổng hợp và vá font icon. 3.600+ biểu tượng, 50+ font đã vá: Hack, Source Code Pro, v.v. Bộ sưu tập glyph: Font Awesome, Material Design Icons, Octicons, v.v.
+- [HanryYu/typora-blubook-theme](https://github.com/HanryYu/typora-blubook-theme) - Blubook, một chủ đề phẳng cho typora.
+- [nicejade/markdown-online-editor](https://github.com/nicejade/markdown-online-editor) - 📝 Trình soạn thảo Markdown trực tuyến dựa trên Vue2, Vditor, hỗ trợ vẽ lưu đồ, biểu đồ Gantt, sơ đồ tuần tự, danh sách công việc, biểu đồ echarts, ngũ tuyến phổ, cũng như xem trước PPT, phân tích video/audio, tự động chuyển HTML sang Markdown, v.v. https://www.niceshare.site/
+- [liangjingkanji/DrakeTyporaTheme](https://github.com/liangjingkanji/DrakeTyporaTheme) - Mười hai phong cách chủ đề - Material Google JetBrains Vue Juejin Purple Ayu Dark
+- [stilleshan/dockerfiles](https://github.com/stilleshan/dockerfiles) - Thu thập, sắp xếp và viết các file Dockerfile phần mềm, dịch vụ xuất sắc thường dùng.  https://docker.ioiox.com
+- [daenuprobst/terminus-theme-hype](https://github.com/daenuprobst/terminus-theme-hype) - Chủ đề Windows 10 cho Terminus
+- [hliu202/typora-purple-theme](https://github.com/hliu202/typora-purple-theme) - Chủ đề tím cho Typora
+- [jtchen2k/typora-theme-next](https://github.com/jtchen2k/typora-theme-next) - Chủ đề cho Typora, lấy cảm hứng từ chủ đề NexT của hexo.
+- [houshanren/hangzhou_house_knowledge](https://github.com/houshanren/hangzhou_house_knowledge) - Chia sẻ kiến thức mua nhà dựa trên kinh nghiệm mua nhà tại Hàng Châu năm 2017. Hy vọng giúp ích cho mọi người. Mua nhà không dễ, hãy trân trọng khi mua.
+- [atom/one-dark-ui](https://github.com/atom/one-dark-ui) - Chủ đề giao diện Atom One dark UI
+- [Soanguy/typora-theme-autumnus](https://github.com/Soanguy/typora-theme-autumnus) - Chủ đề Typora cho tiếng Trung
+- [themepark-dev/theme.park](https://github.com/themepark-dev/theme.park) - Bộ sưu tập chủ đề/giao diện cho 50 ứng dụng tự host!
+- [fslongjin/My-Easy-Pic-Bed](https://github.com/fslongjin/My-Easy-Pic-Bed) - Một chương trình lưu trữ ảnh nhẹ
+- [msys2/msys2.github.io](https://github.com/msys2/msys2.github.io) - Trang chủ MSYS2
+- [theme-nexmoe/hexo-theme-nexmoe](https://github.com/theme-nexmoe/hexo-theme-nexmoe) - 🔥 Chủ đề Hexo đặc biệt tập trung vào hình ảnh. Hình ảnh kể chuyện, Nexmoe làm chúng sống động hơn.
+- [sweatran/typora-onedark-theme](https://github.com/sweatran/typora-onedark-theme) - Chủ đề tối cho Typora lấy cảm hứng từ One Dark Pro của VSCode.
+- [ljosberinn/github-one-dark-vivid](https://github.com/ljosberinn/github-one-dark-vivid) - [Tiện ích trình duyệt] thay đổi giao diện mã GitHub giống One Dark Vivid với Fira Code của VS Code nhất có thể, dựa trên https://github.com/vovanmix/github-dark-theme
+- [blinkfox/typora-vue-theme](https://github.com/blinkfox/typora-vue-theme) - Chủ đề typora lấy cảm hứng từ phong cách tài liệu Vue. Một chủ đề Typora Markdown giống giao diện tài liệu Vue.
+- [kevinzhao2233/typora-theme-pie](https://github.com/kevinzhao2233/typora-theme-pie) - Chủ đề typora lấy cảm hứng từ sspai.com và Misty. Một chủ đề typora với phong cách của Sspai và Misty
+- [airyv/typora-theme-redrail](https://github.com/airyv/typora-theme-redrail) - Chủ đề typora lấy cảm hứng từ chủ đề pie và ursine. Một chủ đề typora có phong cách pie và ursine.
+- [Theigrams/My-Typora-Themes](https://github.com/Theigrams/My-Typora-Themes) - Phong cách CSS cho Typora
+- [itmeo/webgradients](https://github.com/itmeo/webgradients) - Bộ sưu tập các gradient tuyệt đẹp làm bằng CSS3, .sketch và .PSD.
+- [spicetify/spicetify-themes](https://github.com/spicetify/spicetify-themes) - Bộ sưu tập chủ đề cộng đồng cho Spotify qua Spicetify - https://github.com/spicetify/cli
+- [adobe-fonts/source-code-pro](https://github.com/adobe-fonts/source-code-pro) - Bộ font chữ đều cho giao diện người dùng và môi trường lập trình
+- [vinceliuice/Fluent-gtk-theme](https://github.com/vinceliuice/Fluent-gtk-theme) - Chủ đề Fluent design cho gtk trên desktop linux
+- [jesperkallunki/youtube](https://github.com/jesperkallunki/youtube) - 
+- [typora/theme.typora.io](https://github.com/typora/theme.typora.io) - Website cho các chủ đề Typora
+- [mengkunsoft/lmbtfy](https://github.com/mengkunsoft/lmbtfy) - 🔍 Để tôi giúp bạn tìm kiếm trên Baidu? Let Me Baidu That For You
+- [treehollow/thuhole-index](https://github.com/treehollow/thuhole-index) - 
+## Clojure 
+
+- [tonsky/FiraCode](https://github.com/tonsky/FiraCode) - Phông chữ đơn cách miễn phí với các ký tự ghép dành cho lập trình
+- [logseq/logseq](https://github.com/logseq/logseq) - Nền tảng quản lý tri thức và cộng tác mã nguồn mở, ưu tiên quyền riêng tư. Liên kết tải xuống: http://github.com/logseq/logseq/releases. lộ trình: http://trello.com/b/8txSM12G/roadmap
+
+## CodeQL 
+
+- [github/codeql](https://github.com/github/codeql) - CodeQL: các thư viện và truy vấn hỗ trợ các nhà nghiên cứu bảo mật trên toàn thế giới, cũng như quét mã trong GitHub Advanced Security
+
+## Common Lisp 
+
+- [susam/mathb](https://github.com/susam/mathb) - Phần mềm pastebin toán học từng vận hành MathB.in từ 2012 đến 2025
+
+## Crystal 
+
+- [phil294/AHK_X11](https://github.com/phil294/AHK_X11) - AutoHotkey cho Linux (các hệ thống dựa trên X11)
+
+## D 
+
+- [abraunegg/onedrive](https://github.com/abraunegg/onedrive) - Ứng dụng khách OneDrive cho Linux
+- [skilion/onedrive](https://github.com/skilion/onedrive) - Ứng dụng khách miễn phí cho OneDrive trên Linux
+## Dart 
+
+- [honmaple/maple-file](https://github.com/honmaple/maple-file) - Ứng dụng tải lên và quản lý tệp đám mây đa giao thức không cần máy chủ / 无服务端的多协议云盘文件上传和管理APP
+- [chen08209/FlClash](https://github.com/chen08209/FlClash) - Ứng dụng khách proxy đa nền tảng dựa trên ClashMeta, đơn giản, dễ sử dụng, mã nguồn mở và không có quảng cáo.
+- [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) - Trình quản lý tải xuống hiện đại hỗ trợ tất cả các nền tảng. Được xây dựng bằng Golang và Flutter.
+- [Xiang-cd/THU-downloader](https://github.com/Xiang-cd/THU-downloader) - Một công cụ hỗ trợ giao diện người dùng để tải xuống hàng loạt kho cá nhân trên Tsinghua Cloud, tải xuống hàng loạt liên kết, tải xuống email hàng loạt, tiện lợi cho sinh viên tốt nghiệp di chuyển dữ liệu trên Tsinghua Cloud và sao lưu email.
+- [lijy91/biyi](https://github.com/lijy91/biyi) - Biyi (比译) là ứng dụng từ điển và dịch thuật tiện lợi được viết bằng Flutter.
+- [Kuingsmile/PicHoro](https://github.com/Kuingsmile/PicHoro) - Một công cụ quản lý nền tảng lưu trữ đám mây/host ảnh và tải lên/tải xuống tệp trên điện thoại, hỗ trợ quản lý trực tiếp Webdav, Alist, SSH/SFTP, máy chủ đám mây, tương thích với nền tảng S3 API, Tencent COS, Ali OSS, Qiniu Cloud, Upyun, Lan Kong host ảnh, Imgur, SM.MS và github.
+- [mulaRahul/keyviz](https://github.com/mulaRahul/keyviz) - Keyviz là công cụ miễn phí và mã nguồn mở để trực quan hóa thao tác bàn phím ⌨️ và 🖱️ chuột của bạn theo thời gian thực.
+- [pd4d10/git-touch](https://github.com/pd4d10/git-touch) - Ứng dụng mã nguồn mở dành cho GitHub, GitLab, Bitbucket, Gitea, và Gitee(码云), phát triển bằng Flutter.
+- [nfcim/nfsee](https://github.com/nfcim/nfsee) - Đọc thẻ giao thông/ngân hàng/ID trên điện thoại Android/iOS với ứng dụng NFSee.
+- [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) - Kết nối dự án, wiki và nhóm với AI. AppFlowy là không gian làm việc cộng tác AI giúp bạn đạt được nhiều hơn mà vẫn kiểm soát dữ liệu của mình. Giải pháp mã nguồn mở thay thế Notion hàng đầu.
+- [deckerst/aves](https://github.com/deckerst/aves) - Aves là ứng dụng thư viện ảnh và khám phá siêu dữ liệu, được phát triển cho Android bằng Flutter.
+- [harmonoid/harmonoid](https://github.com/harmonoid/harmonoid) - 🎵 Phát & quản lý thư viện nhạc của bạn. Giao diện đẹp & hấp dẫn.
+
+## Dockerfile 
+
+- [tao12345666333/radicale](https://github.com/tao12345666333/radicale) - 
+- [easychen/chatchan-dist](https://github.com/easychen/chatchan-dist) - Phiên bản Chat酱 triển khai độc lập, giải pháp docker tích hợp proxy
+- [alexbelgium/hassio-addons](https://github.com/alexbelgium/hassio-addons) - Các addon homeassistant của tôi
+- [albuild/snap](https://github.com/albuild/snap) - Snappy cho Amazon Linux 2
+- [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) - Hướng dẫn cách nấu ăn tại nhà cho lập trình viên. Programmer's guide about how to cook at home (chỉ có tiếng Trung giản thể).
+
+## EJS 
+
+- [Fechin/reference](https://github.com/Fechin/reference) - ⭕ Chia sẻ bảng cheat sheet tham khảo nhanh cho lập trình viên.
+
+## Elm 
+
+- [hilverd/glossary-page-template](https://github.com/hilverd/glossary-page-template) - Một trang HTML đơn với trình soạn thảo tích hợp để tạo bảng chú giải thuật ngữ, có thể lưu trữ ở bất kỳ đâu.
+
+## Erlang 
+
+- [emqx/emqx](https://github.com/emqx/emqx) - MQTT broker có khả năng mở rộng và đáng tin cậy nhất cho AI, IoT, IIoT và các phương tiện kết nối.
+
+## GDScript 
+
+- [mbrlabs/Lorien](https://github.com/mbrlabs/Lorien) - Ứng dụng vẽ/phác thảo bảng trắng vô hạn cho Windows, Linux và macOS. Được phát triển bằng Godot.
+
+## Go 
+
+- [OpenListTeam/OpenList](https://github.com/OpenListTeam/OpenList) - Một bản Fork mới của AList để phòng chống khủng hoảng lòng tin
+- [samzong/mdctl](https://github.com/samzong/mdctl) - Công cụ CLI tích hợp AI để nâng cao quy trình làm việc với Markdown, có tính năng tự động tải ảnh, dịch thuật và nhiều tính năng khác sắp ra mắt!
+- [henrygd/beszel](https://github.com/henrygd/beszel) - Trung tâm giám sát máy chủ nhẹ với dữ liệu lịch sử, thống kê docker và cảnh báo.
+- [jonssonyan/h-ui](https://github.com/jonssonyan/h-ui) - Chỉ là bảng điều khiển cho Hysteria2 / 仅仅是 Hysteria2 的面板
+- [bepass-org/warp-plus](https://github.com/bepass-org/warp-plus) - Warp+Psiphon, công cụ chống kiểm duyệt cho Iran
+- [nezhahq/nezha](https://github.com/nezhahq/nezha) - :trollface: Công cụ giám sát máy chủ và website, O&M tự lưu trữ, nhẹ
+- [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) - Quản lý mọi thứ về docker theo cách lười biếng nhất
+- [OwO-Network/DeepLX](https://github.com/OwO-Network/DeepLX) - DeepL API miễn phí mạnh mẽ, không cần Token
+- [juanfont/headscale](https://github.com/juanfont/headscale) - Triển khai mã nguồn mở, tự lưu trữ của máy chủ điều khiển Tailscale
+- [tgdrive/teldrive](https://github.com/tgdrive/teldrive) - Teldrive
+- [apernet/OpenGFW](https://github.com/apernet/OpenGFW) - OpenGFW là phiên bản mã nguồn mở, linh hoạt, dễ sử dụng của GFW (Great Firewall of China) trên Linux
+- [putyy/res-downloader](https://github.com/putyy/res-downloader) - Tải các tài nguyên phổ biến như 视频号, 小程序, 抖音, 快手, 小红书, live stream, m3u8, 酷狗, QQ音乐, v.v.!
+- [eyebluecn/tank](https://github.com/eyebluecn/tank) - 《蓝眼云盘》(Eyeblue Cloud Storage)
+- [Wsine/feishu2md](https://github.com/Wsine/feishu2md) - Tải tài liệu Feishu thành Markdown chỉ với một lệnh
+- [bitrise-io/envman](https://github.com/bitrise-io/envman) - Quản lý biến môi trường
+- [ollama/ollama](https://github.com/ollama/ollama) - Khởi động nhanh với Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3, Mistral Small 3.1 và các mô hình ngôn ngữ lớn khác.
+- [stillOnTheWay/openbilibili-go-common](https://github.com/stillOnTheWay/openbilibili-go-common) - Mã nguồn backend của trang web 哔哩哔哩 bilibili, lấy từ https://github.com/openbilibili
+- [changwh/go-common](https://github.com/changwh/go-common) - 
+- [juzeon/poe-openai-proxy](https://github.com/juzeon/poe-openai-proxy) - Gói chuyển đổi cho phép bạn sử dụng thư viện poe-api (Python, reverse-engineered) như thể đó là API OpenAI cho ChatGPT. Kết nối các ứng dụng dựa trên OpenAI API với proxy này và tận hưởng t
+- [faceair/clash-speedtest](https://github.com/faceair/clash-speedtest) - kiểm tra tốc độ clash
+- [stulzq/azure-openai-proxy](https://github.com/stulzq/azure-openai-proxy) - Proxy cho Azure OpenAI Service. Chuyển đổi request API chính thức OpenAI sang API của Azure OpenAI. Hỗ trợ GPT-4, Embeddings, Langchain. Adapter từ OpenAI sang Azure OpenAI.
+- [mbrt/gmailctl](https://github.com/mbrt/gmailctl) - Cấu hình khai báo cho bộ lọc Gmail
+- [xnth97/magic-conch](https://github.com/xnth97/magic-conch) - Bot Telegram sử dụng Azure Cognitive Services
+- [noobnooc/ebreader](https://github.com/noobnooc/ebreader) - Trình đọc epub trên trình duyệt
+- [869413421/chatgpt-web](https://github.com/869413421/chatgpt-web) - Ứng dụng web tự lưu trữ sử dụng ChatGPT3.5 API
+- [WireGuard/wireguard-windows](https://github.com/WireGuard/wireguard-windows) - Tải WireGuard cho Windows tại https://www.wireguard.com/install . Repo này chỉ là bản mirror. Kho chính thức tại https://git.zx2c4.com/wireguard-windows
+- [j178/leetgo](https://github.com/j178/leetgo) - Người bạn LeetCode tốt nhất cho dân công nghệ. :snowboarder:
+- [erdos-one/r2](https://github.com/erdos-one/r2) - ☁️ Giao diện dòng lệnh cho Cloudflare R2 Storage
+- [containrrr/watchtower](https://github.com/containrrr/watchtower) - Quy trình tự động cập nhật image nền cho Docker container.
+- [authelia/authelia](https://github.com/authelia/authelia) - Cổng đăng nhập một lần (SSO) đa yếu tố cho ứng dụng web, hiện đã đạt chứng nhận OpenID™
+- [m1guelpf/chatgpt-telegram](https://github.com/m1guelpf/chatgpt-telegram) - Tự chạy bot GPTChat Telegram chỉ với một lệnh!
+- [v2fly/v2ray-core](https://github.com/v2fly/v2ray-core) - Nền tảng xây dựng proxy để vượt qua kiểm duyệt mạng.
+- [usememos/memos](https://github.com/usememos/memos) - Nền tảng ghi chú và quản lý tri thức tự lưu trữ, hiện đại, mã nguồn mở, hướng tới quyền riêng tư cho cá nhân và tổ chức.
+- [TimothyYe/bing-wallpaper](https://github.com/TimothyYe/bing-wallpaper) - API RESTful để lấy hình nền hàng ngày từ Bing.com
+- [imgproxy/imgproxy](https://github.com/imgproxy/imgproxy) - Máy chủ riêng biệt, nhanh và an toàn để thay đổi kích thước và chuyển đổi ảnh từ xa
+- [gaowanliang/DownloadBot](https://github.com/gaowanliang/DownloadBot) - (Hiện tại) 🤖 Bot Telegram phân tán đa nền tảng, kiểm soát máy chủ Aria2, quản lý file máy chủ, tải lên OneDrive / Google Drive.
+- [huo-ju/dfserver](https://github.com/huo-ju/dfserver) - Máy chủ pipeline AI backend phân tán
+- [charmbracelet/vhs](https://github.com/charmbracelet/vhs) - Máy ghi hình video CLI cá nhân của bạn 📼
+- [TruthHun/DocHub](https://github.com/TruthHun/DocHub) - Dựa theo Baidu Wenku, hệ thống thư viện mã nguồn mở phát triển bằng Beego (Golang)
+- [XTLS/Xray-core](https://github.com/XTLS/Xray-core) - Xray, Xuyên thấu mọi thứ. Cũng là v2ray-core tốt nhất. Nơi phép màu xảy ra. Nền tảng mở cho nhiều mục đích sử dụng.
+- [p4gefau1t/trojan-go](https://github.com/p4gefau1t/trojan-go) - Proxy Trojan viết bằng Go, hỗ trợ multiplex/router/CDN trung chuyển/Shadowsocks plugin làm nhiễu, đa nền tảng, không phụ thuộc. Một cơ chế không thể phát hiện giúp vượt GFW. https://p4gefau1t.github.io/trojan-go/
+- [Jrohy/trojan](https://github.com/Jrohy/trojan) - Chương trình triển khai quản lý đa người dùng trojan, hỗ trợ quản lý qua web
+- [caddyserver/caddy](https://github.com/caddyserver/caddy) - Máy chủ web HTTP/1-2-3 đa nền tảng, mở rộng, tốc độ cao với HTTPS tự động
+- [Snawoot/opera-proxy](https://github.com/Snawoot/opera-proxy) - Ứng dụng client độc lập cho các proxy Opera VPN
+- [gphper/grm](https://github.com/gphper/grm) - Công cụ trực quan cho redis (gin+element-plus)【triển khai đơn giản, kết nối SSH, xác thực người dùng, nhật ký thao tác, chế độ dòng lệnh, chạy script LUA, giám sát Redis...】
+- [maxmunzel/kvass](https://github.com/maxmunzel/kvass) - Kho lưu trữ key-value cá nhân
+- [caarlos0/starcharts](https://github.com/caarlos0/starcharts) - Vẽ biểu đồ số lượng sao của repo theo thời gian.
+- [ViRb3/wgcf](https://github.com/ViRb3/wgcf) - 🚤 CLI đa nền tảng, không chính thức cho Cloudflare Warp
+- [macronut/phantomsocks](https://github.com/macronut/phantomsocks) - Proxy client/server đa nền tảng cho Linux/Windows/macOS
+- [macronut/ghostcp](https://github.com/macronut/ghostcp) - GhosTCP là phần mềm cho Windows bảo vệ kết nối TCP khỏi bị can thiệp.
+- [pretty66/iptables-web](https://github.com/pretty66/iptables-web) - Chương trình quản lý iptables qua web viết bằng golang
+- [navidrome/navidrome](https://github.com/navidrome/navidrome) - 🎧☁️ Dịch vụ phát nhạc cá nhân của bạn
+- [jwma/jump-jump](https://github.com/jwma/jump-jump) - Sẵn sàng sử dụng, hệ thống rút gọn link đầy đủ tính năng viết bằng Golang.
+- [akiyosi/goneovim](https://github.com/akiyosi/goneovim) - Giao diện GUI cho neovim.
+- [pluveto/upgit](https://github.com/pluveto/upgit) - Hub tải lên khác hỗ trợ clipboard. Tương thích tốt với Typora, Snipaste, VSCode.
+- [wabarc/wayback](https://github.com/wabarc/wayback) - Công cụ lưu trữ với giao diện kiểu tin nhắn, ưu tiên quyền riêng tư và khả năng truy cập, tích hợp nhiều dịch vụ lưu trữ như Internet Archive, archive.today, Ghostarchive, IPFS, Telegram...
+- [muety/wakapi](https://github.com/muety/wakapi) - 📊 Backend tối giản, tự lưu trữ, tương thích WakaTime cho thống kê lập trình
+- [disksing/sao-gen-gen](https://github.com/disksing/sao-gen-gen) - Trình tạo generator phát ngôn hài hước
+- [ArtalkJS/Artalk](https://github.com/ArtalkJS/Artalk) - 🌌  Hệ thống bình luận tự lưu trữ của bạn. | 自托管评论系统
+- [sheepla/pingu](https://github.com/sheepla/pingu) - 🐧 Lệnh ping nhưng có pingu
+- [noisetorch/NoiseTorch](https://github.com/noisetorch/NoiseTorch) - Khử tiếng ồn micro theo thời gian thực trên Linux.
+- [utahta/pythonbrew](https://github.com/utahta/pythonbrew) - Trình quản lý môi trường Python
+- [gogs/gogs](https://github.com/gogs/gogs) - Gogs là dịch vụ Git tự lưu trữ dễ dàng
+- [Licoy/fetch-github-hosts](https://github.com/Licoy/fetch-github-hosts) - 🌏 Công cụ đồng bộ hosts của github, hỗ trợ đa nền tảng với giao diện đồ họa và dòng lệnh, tích hợp sẵn chế độ client và server~
+- [Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip) - 🌚 🌍 🌝 Phiên bản nâng cao của tệp quy tắc GeoIP, hỗ trợ tùy biến file định dạng V2Ray dat, MaxMind mmdb, sing-box SRS, mihomo MRS, Clash ruleset, Surge ruleset, v.v.
+- [master-coder-ll/v2ray-web-manager](https://github.com/master-coder-ll/v2ray-web-manager) - v2ray-web-manager là bảng điều khiển cho v2ray, giải pháp cụm; bổ sung kiểm soát lưu lượng/quản lý tài khoản/giới hạn tốc độ. key: admin, panel, web, cluster, 集群, proxy
+- [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core) - Nền tảng xây dựng proxy để vượt qua kiểm duyệt mạng.
+- [qax-os/excelize](https://github.com/qax-os/excelize) - Thư viện Go để đọc và ghi bảng tính Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX)
+- [go-olive/olive](https://github.com/go-olive/olive) - Trình ghi/ghi lại live stream
+- [ipfs/kubo](https://github.com/ipfs/kubo) - Một triển khai IPFS bằng Go
+- [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) - Ứng dụng Cloudflare Tunnel client (trước đây là Argo Tunnel)
+- [junegunn/fzf](https://github.com/junegunn/fzf) - :cherry_blossom: Công cụ tìm kiếm mờ qua dòng lệnh
+- [barthr/redo](https://github.com/barthr/redo) - Redo là công cụ tối thượng để tạo hàm tái sử dụng từ lịch sử trong giao diện tương tác
+- [safing/portmaster](https://github.com/safing/portmaster) - 🏔 Yêu tự do - ❌ Chặn giám sát diện rộng
+- [yeasy/docker_practice](https://github.com/yeasy/docker_practice) - Học và hiểu Docker & Công nghệ Container, với thực hành DevOps thực tế!
+- [ipfs-cluster/ipfs-cluster](https://github.com/ipfs-cluster/ipfs-cluster) - Điều phối Pinset cho IPFS
+- [anchore/syft](https://github.com/anchore/syft) - Công cụ CLI và thư viện tạo Software Bill of Materials từ ảnh container và hệ thống file
+- [gabrie30/ghorg](https://github.com/gabrie30/ghorg) - Nhanh chóng clone hoặc backup toàn bộ repo của tổ chức/người dùng vào một thư mục - Hỗ trợ GitHub, GitLab, Bitbucket, v.v. 🐇🥚
+- [rclone/rclone](https://github.com/rclone/rclone) - "rsync cho lưu trữ đám mây" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files
+- [lifei6671/interview-go](https://github.com/lifei6671/interview-go) - Bộ sưu tập câu hỏi phỏng vấn golang
+- [prasmussen/gdrive](https://github.com/prasmussen/gdrive) - Ứng dụng dòng lệnh Google Drive
+- [cheat/cheat](https://github.com/cheat/cheat) - cheat cho phép bạn tạo và xem cheatsheet tương tác trên dòng lệnh. Được thiết kế để nhắc nhở admin hệ thống *nix về các tùy chọn lệnh thường dùng nhưng không nhớ hết.
+- [wtfutil/wtf](https://github.com/wtfutil/wtf) - Bảng thông tin cá nhân cho terminal của bạn
+- [Hackl0us/GeoIP2-CN](https://github.com/Hackl0us/GeoIP2-CN) - Cơ sở dữ liệu GeoIP2 nhỏ gọn, chính xác, thực dụng
+- [HirbodBehnam/file2url-go](https://github.com/HirbodBehnam/file2url-go) - Bot Telegram chuyển file thành URL để tải trực tiếp.
+- [pkuhollow/nameless](https://github.com/pkuhollow/nameless) - Backend Golang của 未名树洞
+- [AlistGo/alist](https://github.com/AlistGo/alist) - 🗂️Chương trình danh sách file/WebDAV hỗ trợ nhiều kho lưu trữ, dùng Gin và Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。
+- [z4yx/GoAuthing](https://github.com/z4yx/GoAuthing) - Tiện ích xác thực cho srun4000 (auth.tsinghua.edu.cn / net.tsinghua.edu.cn / Tsinghua-IPv4)
+- [drakkan/sftpgo](https://github.com/drakkan/sftpgo) - Máy chủ SFTP, HTTP/S, FTP/S và WebDAV đầy đủ tính năng, cấu hình linh hoạt - S3, Google Cloud Storage, Azure Blob
+- [frolic/redirect.name](https://github.com/frolic/redirect.name) - Dịch vụ chuyển hướng đơn giản dựa trên DNS
+- [datastack-net/dockerized](https://github.com/datastack-net/dockerized) - Chạy các công cụ dòng lệnh phổ biến trong docker
+- [yinchengtsinghua/IPFS-Golang-China](https://github.com/yinchengtsinghua/IPFS-Golang-China) - Bản dịch IPFS dành riêng cho Tsinghua Yin Cheng
+- [bonaysoft/notion-md-gen](https://github.com/bonaysoft/notion-md-gen) - Tạo tài liệu Markdown cho bất kỳ static site generator nào từ notion
+- [minio/minio](https://github.com/minio/minio) - MinIO là object store hiệu năng cao, tương thích S3, mã nguồn mở theo giấy phép GNU AGPLv3.
+- [golang-china/go2-book](https://github.com/golang-china/go2-book) - :books: Sách hướng dẫn lập trình Go2, tập trung vào các đặc điểm mới của Go2 và những đặc điểm ít được đề cập trong giáo trình Go1
+- [9seconds/mtg](https://github.com/9seconds/mtg) - Proxy MTPROTO cho Telegram với quan điểm rõ ràng
+- [v2rayA/v2rayA](https://github.com/v2rayA/v2rayA) - Ứng dụng GUI web của Project V, hỗ trợ giao thức VMess, VLESS, SS, SSR, Trojan, Tuic và Juicity. 🚀
+- [photoprism/photoprism](https://github.com/photoprism/photoprism) - Ứng dụng quản lý ảnh AI cho Web phi tập trung 🌈💎✨
+- [lima-vm/lima](https://github.com/lima-vm/lima) - Máy ảo Linux, tập trung vào container
+- [Jrohy/cfw-updater](https://github.com/Jrohy/cfw-updater) - Công cụ cập nhật một chạm clash_for_windows
+- [mozillazg/go-pinyin](https://github.com/mozillazg/go-pinyin) - Chuyển đổi chữ Hán sang pinyin
+- [darjun/go-daily-lib](https://github.com/darjun/go-daily-lib) - Go mỗi ngày một thư viện
+- [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) - 🌩「Tự chọn IP tối ưu」Kiểm tra độ trễ và tốc độ của Cloudflare CDN, lấy IP nhanh nhất! Tất nhiên cũng hỗ trợ các CDN khác / các trang web có nhiều IP phân giải ~
+- [ginuerzh/gost](https://github.com/ginuerzh/gost) - GO Simple Tunnel - một tunnel đơn giản được viết bằng golang
+- [snail007/goproxy](https://github.com/snail007/goproxy) - 🔥 Proxy là proxy HTTP(S) hiệu năng cao, proxy SOCKS5, WEBSOCKET, proxy TCP, UDP được hiện thực bằng golang. Hiện hỗ trợ proxy dạng chuỗi, chuyển tiếp nat trong các mạng LAN khác nhau, chuyển tiếp cổng TCP/UDP
+- [ehang-io/nps](https://github.com/ehang-io/nps) - Một máy chủ proxy xuyên NAT nhẹ, hiệu năng cao, mạnh mẽ. Hỗ trợ gần như mọi loại chuyển tiếp lưu lượng như tcp, udp, socks5, http..., có thể dùng để truy cập website nội bộ, kiểm thử giao diện thanh toán cục bộ, truy cập ssh, desktop từ xa, phân giải dns nội bộ, proxy socks5 nội bộ, v.v..., kèm giao diện quản lý web mạnh mẽ.
+- [fatedier/frp](https://github.com/fatedier/frp) - Một reverse proxy nhanh giúp bạn công khai máy chủ cục bộ phía sau NAT hoặc tường lửa ra internet.
+- [gohugoio/hugo](https://github.com/gohugoio/hugo) - Framework xây dựng website nhanh nhất thế giới.
+- [mholt/archiver](https://github.com/mholt/archiver) - ĐÃ NGỪNG PHÁT TRIỂN. Vui lòng sử dụng mholt/archives thay thế.
+- [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) - Lên lịch và quản lý container chuẩn sản xuất
+- [sjlleo/VerifyDisneyPlus](https://github.com/sjlleo/VerifyDisneyPlus) - Một script kiểm tra IP đầu ra có mở khóa DisneyPlus hay không
+- [0xDkd/auxpi](https://github.com/0xDkd/auxpi) - 🍭 Thế hệ mới của kho lưu trữ ảnh (图床) tích hợp nhiều API
+- [ahui2016/localtags](https://github.com/ahui2016/localtags) - localtags: Hệ thống sao lưu tệp tin cục bộ + hệ thống gắn thẻ được thiết kế đúng chuẩn
+- [sourcegraph/sourcegraph-public-snapshot](https://github.com/sourcegraph/sourcegraph-public-snapshot) - Nền tảng AI cho mã nguồn với Code Search & Cody
+- [indes/flowerss-bot](https://github.com/indes/flowerss-bot) - Một bot telegram đọc rss. Một Telegram RSS Bot hỗ trợ đọc trong ứng dụng.
+- [go-gitea/gitea](https://github.com/go-gitea/gitea) - Git with a cup of tea! Dịch vụ phát triển phần mềm tự host tất cả trong một, dễ dàng, bao gồm lưu trữ Git, review code, hợp tác nhóm, kho gói và CI/CD
+- [zu1k/proxypool](https://github.com/zu1k/proxypool) - Tự động thu thập proxy node trên internet công cộng, loại bỏ trùng lặp và kiểm tra tính khả dụng, sau đó cung cấp danh sách node
+- [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) - Danh sách tên miền do cộng đồng quản lý. Sinh tệp geosite.dat cho V2Ray.
+- [planetscale/cli](https://github.com/planetscale/cli) - CLI cho cơ sở dữ liệu PlanetScale
+- [MacroPower/wakatime_exporter](https://github.com/MacroPower/wakatime_exporter) - Xuất số liệu Prometheus từ Wakatime.
+- [long2ice/longurl](https://github.com/long2ice/longurl) - Dịch vụ rút gọn URL tự host
+- [nektos/act](https://github.com/nektos/act) - Chạy GitHub Actions của bạn tại máy cục bộ 🚀
+- [Tylous/ZipExec](https://github.com/Tylous/ZipExec) - Kỹ thuật độc đáo để thực thi file nhị phân từ file zip được bảo vệ bằng mật khẩu
+- [cloudreve/cloudreve](https://github.com/cloudreve/cloudreve) - 🌩 Hệ thống quản lý và chia sẻ tệp tin tự host, hỗ trợ nhiều nhà cung cấp lưu trữ
+- [cli/cli](https://github.com/cli/cli) - Công cụ dòng lệnh chính thức của GitHub
+- [stashapp/stash](https://github.com/stashapp/stash) - Trình quản lý nội dung người lớn của bạn, viết bằng Go. Tài liệu: https://docs.stashapp.cc
+- [JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - Công cụ hiển thị prompt shell đa nền tảng, độ trễ thấp và tuỳ biến nhất
+- [misitebao/yakia](https://github.com/misitebao/yakia) - Yakia là trợ thủ cho lập trình viên.
+- [eallion/uBlacklist-subscription-compilation](https://github.com/eallion/uBlacklist-subscription-compilation) - 🚫 Tổng hợp đăng ký uBlacklist
+- [moonD4rk/HackBrowserData](https://github.com/moonD4rk/HackBrowserData) - Trích xuất và giải mã dữ liệu trình duyệt, hỗ trợ nhiều loại dữ liệu, chạy trên nhiều hệ điều hành (macOS, Windows, Linux).
+## HCL 
+
+- [rust-lang/simpleinfra](https://github.com/rust-lang/simpleinfra) - Tự động hóa hạ tầng Rust
+- [SadServers/sadservers](https://github.com/SadServers/sadservers) - SadServers: Các kịch bản xử lý sự cố Linux & DevOps dưới dạng SaaS
+
+## HTML 
+
+- [LesFerch/WinSetView](https://github.com/LesFerch/WinSetView) - Đặt chế độ xem thư mục Explorer toàn cục
+- [seven1m/justforfunnoreally.dev](https://github.com/seven1m/justforfunnoreally.dev) - Một trang web nhỏ để giải thích rằng đôi khi chúng ta chỉ muốn vui vẻ!
+- [summivox/thucal2](https://github.com/summivox/thucal2) - Chuyển đổi thời khóa biểu Đại học Thanh Hoa -> định dạng iCalendar (.ics) -> Google Calendar, v.v.
+- [GitHubyangjunyi/XMind](https://github.com/GitHubyangjunyi/XMind) - Đồ thị tri thức Khoa học Máy tính và Công nghệ
+- [federico-busato/Modern-CPP-Programming](https://github.com/federico-busato/Modern-CPP-Programming) - Khóa học Lập trình C++ hiện đại (C++03/11/14/17/20/23/26)
+- [QSCTech/zju-icicles](https://github.com/QSCTech/zju-icicles) - Kế hoạch chia sẻ hướng dẫn các môn học tại Đại học Chiết Giang
+- [focustxt/focustxt.github.io](https://github.com/focustxt/focustxt.github.io) - 
+- [wooveep/chatserver-web](https://github.com/wooveep/chatserver-web) - Trợ lý AI phù hợp cho nhóm doanh nghiệp, phát triển dựa trên ChatGPTAPI của OPENAI
+- [ClarenceDan/openai-billing](https://github.com/ClarenceDan/openai-billing) - Dự án này cung cấp cách nhanh chóng và đơn giản để kiểm tra số dư khóa API OpenAI, hỗ trợ kiểm tra nhiều khóa và bao gồm hướng dẫn thiết lập proxy ngược Cloudflare. 这个项目提供了一个快速简便的方式来查询 OpenAI 
+- [xqdoo00o/chatgpt-web](https://github.com/xqdoo00o/chatgpt-web) - Demo ChatGPT thuần Javascript dựa trên OpenAI API
+- [x-dr/chatgptProxyAPI](https://github.com/x-dr/chatgptProxyAPI) - 🔥 Sử dụng cloudflare xây dựng proxy api OpenAI miễn phí, giải quyết vấn đề không thể truy cập mạng. Hỗ trợ xuất luồng
+- [niturobert/gmailkit](https://github.com/niturobert/gmailkit) - Một client reddit nếu reddit được tạo bởi nhóm gmail.
+- [cf-pages/Telegraph-Image](https://github.com/cf-pages/Telegraph-Image) - Giải pháp lưu trữ hình ảnh, thay thế Flickr/imgur, giúp người dùng dễ dàng chia sẻ hình ảnh. Sử dụng Cloudflare Pages và Telegraph.
+- [sofish/typo.css](https://github.com/sofish/typo.css) - Đặt lại và dàn trang web tiếng Trung: đồng nhất hiệu ứng dàn trang trình duyệt, xây dựng dàn trang tối ưu cho đọc tiếng Trung
+- [atelier-anchor/smiley-sans](https://github.com/atelier-anchor/smiley-sans) - Đắc ý Hắc Smiley Sans: Một font chữ Hán cân bằng giữa cảm quan nhân văn và đặc trưng hình học
+- [52ludama/linode_panel](https://github.com/52ludama/linode_panel) - Bảng điều khiển khởi động Linode API đơn giản
+- [praveenjuge/copybook](https://github.com/praveenjuge/copybook) - Copy book là bộ sưu tập các đoạn văn bản thường dùng trên web.
+- [yusanshi/emgithub](https://github.com/yusanshi/emgithub) - Nhúng một tệp từ kho GitHub giống như GitHub Gist.
+- [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) - Danh sách các dịch vụ SaaS, PaaS và IaaS có tầng miễn phí dành cho devops và infradev
+- [lvwzhen/foodie-ex](https://github.com/lvwzhen/foodie-ex) - 🍜「Trình tạo danh hiệu 'Thánh Ăn'」
+- [steveruizok/perfect-freehand](https://github.com/steveruizok/perfect-freehand) - Vẽ các đường tự do nhạy cảm với áp lực hoàn hảo.
+- [missuo/Telegraph-Image-Hosting](https://github.com/missuo/Telegraph-Image-Hosting) - Xây dựng lưu trữ hình ảnh miễn phí với Telegraph
+- [233boy/tools](https://github.com/233boy/tools) - 
+- [sciooga/Dropper](https://github.com/sciooga/Dropper) - Dropper (投掷器) - Công cụ chia sẻ tệp dựa trên lưu trữ đối tượng Qiniu Cloud
+- [Chuyu-Team/Dism-Multi-language](https://github.com/Chuyu-Team/Dism-Multi-language) - Hỗ trợ đa ngôn ngữ & báo cáo lỗi cho Dism++
+- [openbiox/weekly](https://github.com/openbiox/weekly) - Tuần san yêu thích sinh học tin học (phát hành chủ nhật hàng tuần)
+- [CaiJimmy/hugo-theme-stack](https://github.com/CaiJimmy/hugo-theme-stack) - Giao diện Hugo kiểu thẻ được thiết kế cho blogger
+- [WeNeedHome/SummaryOfLoanSuspension](https://github.com/WeNeedHome/SummaryOfLoanSuspension) - Tổng hợp thông báo tạm dừng vay trên toàn quốc
+- [themesberg/landwind](https://github.com/themesberg/landwind) - Trang đích đáp ứng và sạch sẽ xây dựng bằng Tailwind CSS và Flowbite
+- [rameshvarun/ipfs-share](https://github.com/rameshvarun/ipfs-share) - Ứng dụng chia sẻ tệp/dán hình ảnh sử dụng IPFS đơn giản.
+- [closed-social/safeShare](https://github.com/closed-social/safeShare) - Chia sẻ liên kết Tsinghua Cloud Drive an toàn hơn
+- [artchen/hexo-theme-element](https://github.com/artchen/hexo-theme-element) - Giao diện Hexo tối giản.
+- [gillescastel/math-on-quora](https://github.com/gillescastel/math-on-quora) - Hướng dẫn ngắn về LaTeX trên Quora
+- [SAST-skill-docers/sast-skill-docs](https://github.com/SAST-skill-docers/sast-skill-docs) - Tài liệu kỹ năng SAST. Chúng tôi đang mở đường cho việc học CNTT của bạn.
+- [maptalks/maptalks.js](https://github.com/maptalks/maptalks.js) - Thư viện JavaScript nhẹ và có thể mở rộng cho bản đồ 2D/3D tích hợp.
+- [QianJianTech/LaTeXLive](https://github.com/QianJianTech/LaTeXLive) - Trình chỉnh sửa công thức LateX - sản phẩm của Ma Shu
+- [LuckyHookin/edge-TTS-record](https://github.com/LuckyHookin/edge-TTS-record) - Công cụ ghi âm giọng nói tổng hợp (TTS) của trình duyệt Microsoft Edge và xuất ra tệp .wav (nền tảng Windows).
+- [suulnnka/BullshitGenerator](https://github.com/suulnnka/BullshitGenerator) - Trình tạo bài viết
+- [tmplink/tmpUI](https://github.com/tmplink/tmpUI) - Framework JavaScript viết bằng es6. Bạn có thể sử dụng để mô-đun hóa các dự án front-end. Chỉ 35kb, không phụ thuộc thêm, dễ sử dụng.
+- [ossu/computer-science](https://github.com/ossu/computer-science) - 🎓 Lộ trình tự học miễn phí ngành Khoa học Máy tính!
+- [DhanushNehru/Ultimate-Web-Development-Resources](https://github.com/DhanushNehru/Ultimate-Web-Development-Resources) - Bộ sưu tập tài nguyên phát triển web cho hầu hết các nhu cầu phát triển của bạn
+- [vernesong/OpenClash](https://github.com/vernesong/OpenClash) - Ứng dụng Clash Client cho OpenWrt
+- [Snickdx/pwadocs](https://github.com/Snickdx/pwadocs) - Biến site mkdocs của bạn thành PWA
+- [yoyodadada/haoruanfenxiang](https://github.com/yoyodadada/haoruanfenxiang) - Chia sẻ phần mềm hay
+- [me115/linuxtools_rst](https://github.com/me115/linuxtools_rst) - Hướng dẫn nhanh về các công cụ Linux
+- [stellarkey/912_project](https://github.com/stellarkey/912_project) - Chiến lược thi cao học ngành Khoa học Máy tính, Đại học Thanh Hoa
+- [pengchujin/v2rayDocker](https://github.com/pengchujin/v2rayDocker) - Cài đặt một bước v2ray ws + tls, tiện lợi là xong
+- [iBug/iBug-source](https://github.com/iBug/iBug-source) - Mã nguồn trang web của tôi
+- [bg6cq/speedtest](https://github.com/bg6cq/speedtest) - Speedtest HTML5 nhẹ
+- [PKUFlyingPig/cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning) - Hướng dẫn tự học Khoa học Máy tính
+- [byoungd/English-level-up-tips](https://github.com/byoungd/English-level-up-tips) - Hướng dẫn nâng cao trình độ tiếng Anh có thể rất hữu ích cho bạn 🎉 . Hướng dẫn/học tiếng Anh siêu dị.
+- [emilwallner/Screenshot-to-code](https://github.com/emilwallner/Screenshot-to-code) - Mạng nơ-ron chuyển đổi bản thiết kế thành website tĩnh.
+- [coolwanglu/pdf2htmlEX](https://github.com/coolwanglu/pdf2htmlEX) - Chuyển PDF sang HTML mà không mất nội dung hoặc định dạng.
+- [shd101wyy/markdown-preview-enhanced](https://github.com/shd101wyy/markdown-preview-enhanced) - Một trong những extension xem trước markdown 'TỐT NHẤT' cho trình soạn thảo Atom!
+- [google/styleguide](https://github.com/google/styleguide) - Hướng dẫn về phong cách cho các dự án mã nguồn mở của Google
+- [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) - 12 tuần, 26 bài học, 52 bài kiểm tra, học Máy cổ điển cho tất cả mọi người
+- [belaviyo/save-images](https://github.com/belaviyo/save-images) - Lưu các hình ảnh đã tải trong các trang iframe lồng nhau
+- [nisrulz/app-privacy-policy-generator](https://github.com/nisrulz/app-privacy-policy-generator) - Tạo tài liệu Chính sách Bảo mật và Điều khoản Sử dụng tùy chỉnh cho ứng dụng di động của bạn
+- [google/fonts](https://github.com/google/fonts) - Các tệp font từ Google Fonts, và bộ theo dõi sự cố công khai cho tất cả những gì liên quan đến Google Fonts
+- [xinglie/report-designer](https://github.com/xinglie/report-designer) - ⚡Thiết kế in ấn, trực quan hóa, in nhãn, trình chỉnh sửa, thiết kế, phân tích dữ liệu, thiết kế báo cáo, mô-đun hóa, thiết kế form, trang h5, khảo sát, tạo pdf, lưu đồ, đề thi, SVG, phần tử đồ họa, IoT, giấy nhãn, hóa đơn nhỏ
+- [HuyNguyenAu/notability-to-svg](https://github.com/HuyNguyenAu/notability-to-svg) - Script Python ngắn và đơn giản chuyển nét vẽ Notability thành tệp HTML bọc SVG.
+- [guillaC/JSBatchobfuscator](https://github.com/guillaC/JSBatchobfuscator) - JSBatchobfuscator là trình làm rối mã đơn giản cho batch script
+- [vitalets/github-trending-repos](https://github.com/vitalets/github-trending-repos) - Theo dõi kho GitHub trending bằng ngôn ngữ lập trình yêu thích qua thông báo gốc của GitHub!
+- [PKUanonym/REKCARC-TSC-UHT](https://github.com/PKUanonym/REKCARC-TSC-UHT) - Hướng dẫn các môn học ngành Khoa học Máy tính, Đại học Thanh Hoa
+- [Sobranier/github-chart](https://github.com/Sobranier/github-chart) - 
+- [renzhezhilu/img2color-online](https://github.com/renzhezhilu/img2color-online) - Trích xuất phối màu hình ảnh trực tuyến Đang thử nghiệm...
+- [UmeLabs/node.umelabs.dev](https://github.com/UmeLabs/node.umelabs.dev) - Cập nhật các node SS/SSR miễn phí trước 24:00 mỗi ngày
+## Hack 
+
+- [slan-ning/coolshell-markdown](https://github.com/slan-ning/coolshell-markdown) - coolshell.cn phiên bản lưu trữ markdown
+
+## Haskell 
+
+- [mujx/hakatime](https://github.com/mujx/hakatime) - Triển khai máy chủ Wakatime & bảng điều khiển phân tích dữ liệu
+- [asvyazin/imgbb-telegram-bot](https://github.com/asvyazin/imgbb-telegram-bot) - Bot Telegram tự động tải ảnh lên imgbb
+- [jgm/pandoc](https://github.com/jgm/pandoc) - Bộ chuyển đổi đánh dấu tổng quát
+
+## Haxe 
+
+- [saharan/works](https://github.com/saharan/works) - Mã nguồn của một số dự án trên oimo.io/works
+
+## Java 
+
+- [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) - Ứng dụng web lưu trữ cục bộ số 1 cho phép bạn thực hiện nhiều thao tác khác nhau với các tệp PDF
+- [krahets/LeetCode-Book](https://github.com/krahets/LeetCode-Book) - 《剑指 Offer》 Mã giải Python, Java, C++, kho mã LeetBook《图解算法数据结构》
+- [krahets/hello-algo](https://github.com/krahets/hello-algo) - 《Hello 算法》: Hướng dẫn cấu trúc dữ liệu & thuật toán minh họa bằng hoạt hình, chạy một chạm. Hỗ trợ các ngôn ngữ Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart. Cập nhật đồng bộ bản giản thể & phồn thể, bản tiếng Anh đang dịch
+- [apereo/cas](https://github.com/apereo/cas) - Apereo CAS - Quản lý danh tính & đăng nhập một lần cho tất cả mọi người trên Trái Đất và hơn thế nữa.
+- [niumoo/bing-wallpaper](https://github.com/niumoo/bing-wallpaper) - Hình nền Bing hàng ngày siêu nét (4K) Bing Daily Wallpaper (4K)
+- [SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium) - Bộ khung và hệ sinh thái tự động hóa trình duyệt.
+- [Jigsaw-Code/Intra](https://github.com/Jigsaw-Code/Intra) - Công cụ thử nghiệm cho phép bạn kiểm tra các dịch vụ DNS-over-HTTPS mới trên Android
+- [eclipse/openvsx](https://github.com/eclipse/openvsx) - Đăng ký mở mã nguồn mở cho các phần mở rộng VS Code
+- [google/private-compute-services](https://github.com/google/private-compute-services) - 
+- [G3G4X5X6/ultimate-cube](https://github.com/G3G4X5X6/ultimate-cube) - ultimate-cube là công cụ quản lý máy chủ từ xa mã nguồn mở, hỗ trợ các giao thức SSH, RDP, Telnet, COM...
+- [theonedev/onedev](https://github.com/theonedev/onedev) - Máy chủ Git với CI/CD, Kanban, và Packages. Tích hợp liền mạch. Trải nghiệm vượt trội.
+- [hellokaton/profit](https://github.com/hellokaton/profit) - 🤔 Hệ thống thưởng trực tuyến biezhi, bắt đầu sự nghiệp “xin tiền” của bạn.
+- [GrowingGit/GitHub-Chinese-Top-Charts](https://github.com/GrowingGit/GitHub-Chinese-Top-Charts) - :cn: Bảng xếp hạng GitHub tiếng Trung, phân loại “Phần mềm | Tài liệu” theo ngôn ngữ, định vị chính xác các dự án chất lượng tiếng Trung. Đáp ứng mọi nhu cầu, học tập hiệu quả.
+- [iterate-ch/cyberduck](https://github.com/iterate-ch/cyberduck) - Cyberduck là phần mềm chuyển tệp FTP, SFTP, WebDAV, Amazon S3, Backblaze B2, Microsoft Azure & OneDrive và OpenStack Swift miễn phí cho Mac và Windows.
+- [ssssssss-team/spider-flow](https://github.com/ssssssss-team/spider-flow) - Nền tảng crawler thế hệ mới, định nghĩa quy trình crawler bằng đồ họa, không cần viết mã cũng có thể hoàn thành crawler.
+- [git-commit-id/git-commit-id-maven-plugin](https://github.com/git-commit-id/git-commit-id-maven-plugin) - Plugin Maven nhúng thông tin kho git tại thời điểm build vào POJO / *.properties). Giúp ứng dụng của bạn hiển thị chính xác phiên bản build! Vô giá trong các môi trường phân tán lớn.
+- [ciscolxh/aliyunshare](https://github.com/ciscolxh/aliyunshare) - Giúp Aliyun Drive có thể chia sẻ tất cả các tệp
+- [zfile-dev/zfile](https://github.com/zfile-dev/zfile) - Ổ đĩa đám mây trực tuyến, ổ đĩa mạng, OneDrive, lưu trữ đám mây, đám mây riêng, lưu trữ đối tượng, h5ai, tải lên, tải xuống
+- [jagrosh/MusicBot](https://github.com/jagrosh/MusicBot) - 🎶 Bot nhạc Discord dễ dàng cài đặt và tự vận hành!
+- [zixpo/candybar](https://github.com/zixpo/candybar) - Bảng điều khiển cho Android Icon Packs. Được cộng đồng hỗ trợ.
+- [LawnchairLauncher/lawnchair](https://github.com/LawnchairLauncher/lawnchair) - Không cần slogan thông minh.
+## JavaScript 
+
+- [mozilla-firefox/firefox](https://github.com/mozilla-firefox/firefox) - Kho lưu trữ chính thức của trình duyệt web Mozilla Firefox.
+- [SamiranRai/Glyph-Tool](https://github.com/SamiranRai/Glyph-Tool) - Phần mở rộng VS Code: Glyph là một tiện ích mở rộng Visual Studio Code đơn giản nhưng mạnh mẽ giúp các nhà phát triển làm nổi bật, theo dõi và quản lý các bình luận liên quan đến công việc trực tiếp trong mã nguồn của họ. Dù là TOD
+- [wshanks/Zutilo](https://github.com/wshanks/Zutilo) - Plugin Zotero cung cấp một số tính năng chỉnh sửa bổ sung
+- [Quick-Bin/qbin](https://github.com/Quick-Bin/qbin) - QBin: Nền tảng chỉnh sửa và chia sẻ trực tuyến nhẹ, hiệu quả | Monaco+Cherry Markdown chuyên nghiệp | Deno KV+DrizzleORM+EdgeCache bộ nhớ đệm nhiều tầng | PWA truy cập ngoại tuyến+IndexedDB lưu trữ | Tùy chỉnh liên kết ngắn+mật khẩu+thời hạn | Hỗ trợ văn bản/mã/ảnh/video | Đăng nhập OAuth2 | Chủ đề sáng/tối | Lưu tự động | Triển khai Docker/Deno một bước | Giải pháp thay thế PasteBin
+- [Tampermonkey/tampermonkey](https://github.com/Tampermonkey/tampermonkey) - Tampermonkey là trình quản lý userscript phổ biến nhất, với hơn 10 triệu người dùng. Có sẵn cho Chrome, Microsoft Edge, Safari, Opera Next và Firefox.
+- [jason5ng32/Github-Models-Telegram-Bot](https://github.com/jason5ng32/Github-Models-Telegram-Bot) - Sử dụng Github LLM trên Telegram
+- [Llaves/ClaudeExport](https://github.com/Llaves/ClaudeExport) - Xuất hội thoại Claude ra HTML
+- [nfe-w/xhs_pic_download](https://github.com/nfe-w/xhs_pic_download) - Kết hợp “Phím tắt” trên iOS, tải ảnh/video không watermark từ Xiaohongshu chỉ với một cú nhấp
+- [MarSeventh/CloudFlare-ImgBed](https://github.com/MarSeventh/CloudFlare-ImgBed) - Giải pháp lưu trữ file mã nguồn mở dựa trên CloudFlare (Lưu trữ ảnh/tệp/tệp đám mây) / 基于 CloudFlare 的开源文件托管解决方案（图床/文件床/网盘）
+- [uBlockOrigin/uBOL-home](https://github.com/uBlockOrigin/uBOL-home) - Trang chủ uBO Lite (MV3)
+- [joye61/pic-smaller](https://github.com/joye61/pic-smaller) - Pic Smaller – Nén ảnh JPEG, PNG, WEBP, AVIF, SVG và GIF một cách thông minh
+- [copilot-is/myip](https://github.com/copilot-is/myip) - Thông tin địa chỉ IP và mạng của tôi
+- [fishjar/kiss-translator](https://github.com/fishjar/kiss-translator) - Một tiện ích mở rộng dịch song ngữ mã nguồn mở đơn giản & script Greasemonkey (一个简约、开源的 双语对照翻译扩展 & 油猴脚本)
+- [A1phaN/tsinghua-ereserves-lib-downloader](https://github.com/A1phaN/tsinghua-ereserves-lib-downloader) - Tải PDF từ Nền tảng Dịch vụ Dự trữ Tài liệu Điện tử Đại học Thanh Hoa
+- [dockkkk/CF-WORKERS](https://github.com/dockkkk/CF-WORKERS) - 
+- [Repcz/Tool](https://github.com/Repcz/Tool) - Công cụ cá nhân
+- [zizifn/edgetunnel](https://github.com/zizifn/edgetunnel) - Chạy V2ray bên trong edge/serverless runtime
+- [cteamx/Thief](https://github.com/cteamx/Thief) - Một công cụ "mò cá" đa nền tảng sáng tạo, hỗ trợ đọc tiểu thuyết, chứng khoán, web, video, phát trực tiếp, PDF, game v.v... Dành cho dân văn phòng, giúp công việc nhẹ nhàng, tránh xa ICU.
+- [QuantumNous/new-api](https://github.com/QuantumNous/new-api) - Hệ thống quản lý & phân phối API mô hình AI, hỗ trợ chuyển đổi nhiều mô hình lớn về định dạng gọi thống nhất, hỗ trợ các định dạng OpenAI, Claude, v.v. Dùng cho cá nhân hoặc doanh nghiệp quản lý & phân phối nội bộ, phát triển dựa trên One API. 🍥 Gateway LLM thế hệ mới & hệ thống quản lý tài sản AI, hỗ trợ đa ngôn ngữ.
+- [heyman/heynote](https://github.com/heyman/heynote) - Ứng dụng ghi chú nhanh chuyên dụng cho lập trình viên
+- [NirmalScaria/le-git-graph](https://github.com/NirmalScaria/le-git-graph) - Tiện ích trình duyệt thêm biểu đồ git vào website GitHub.
+- [liu-ziting/PetThoughts](https://github.com/liu-ziting/PetThoughts) - Tôi biết thú cưng của bạn đang nghĩ gì - gemini
+- [leibnizli/hummingbird](https://github.com/leibnizli/hummingbird) - Ứng dụng nén (jpg/png/webp/svg/gif/css/js/html/mp4/mov), chuyển đổi định dạng ảnh, hỗ trợ macOS và Windows.
+- [tans/voicegpt](https://github.com/tans/voicegpt) - Trò chuyện thoại với GPT
+- [LaniJ/invoice-dragon](https://github.com/LaniJ/invoice-dragon) - Ứng dụng mã nguồn mở tạo hóa đơn và biên lai miễn phí
+- [scomper/cf-openai-azure-proxy](https://github.com/scomper/cf-openai-azure-proxy) - Script Cloudflare worker để proxy yêu cầu OpenAI tới Azure OpenAI Service
+- [dice2o/BingGPT](https://github.com/dice2o/BingGPT) - Ứng dụng desktop trò chuyện AI Bing mới (Windows, macOS và Linux)
+- [evildevill/Article-Summarizer](https://github.com/evildevill/Article-Summarizer) - Đơn giản hóa việc đọc với Summize, công cụ tóm tắt bài viết mã nguồn mở, biến bài dài thành tóm tắt ngắn gọn, rõ ràng
+- [eideehi/sd-webui-better-prompt](https://github.com/eideehi/sd-webui-better-prompt) - Extension Stable Diffusion web UI cung cấp giao diện tốt hơn cho chỉnh sửa prompt.
+- [songquanpeng/one-api](https://github.com/songquanpeng/one-api) - Hệ thống quản lý & phân phối API LLM, hỗ trợ các mô hình chính như OpenAI, Azure, Anthropic Claude, Google Gemini, DeepSeek, Byte Doubao, ChatGLM, Wenxin Yiyan, iFlytek Spark, Tongyi Qianwen, 360 Zhinao, Tencent Hunyuan..., chuẩn hóa API, hỗ trợ quản lý key & phân phối lại. File thực thi đơn lẻ, có Docker, triển khai một bước, dùng ngay. LLM API management & key 
+- [tangyoha/telegram_media_downloader](https://github.com/tangyoha/telegram_media_downloader) - Dựa trên dự án của Dineshkarthik, tải video/nguồn tài nguyên Telegram, đa nền tảng, hỗ trợ xem tiến trình qua web, hỗ trợ bot gửi lệnh tải, tải tài nguyên nhóm riêng tư hạn chế tải, tải tệp tối đa 2GiB/tệp
+- [haibbo/cf-openai-azure-proxy](https://github.com/haibbo/cf-openai-azure-proxy) - Script Cloudflare worker để proxy yêu cầu OpenAI tới Azure OpenAI Service
+- [ChatGPTBox-dev/chatGPTBox](https://github.com/ChatGPTBox-dev/chatGPTBox) - Tích hợp ChatGPT sâu vào trình duyệt, mọi thứ bạn cần đều ở đây
+- [onury5506/Discord-ChatGPT-Bot](https://github.com/onury5506/Discord-ChatGPT-Bot) - Bot ChatGPT cho Discord
+- [plantree/ruanyf-weekly](https://github.com/plantree/ruanyf-weekly) - Được xây dựng bằng VitePress, bản kỹ thuật tuần của Ruan Yifeng
+- [jiacai2050/pageview-worker](https://github.com/jiacai2050/pageview-worker) - Backend đếm lượt xem dựa trên Cloudflare Workers và KV.
+- [giosilvi/GPT-Prompter](https://github.com/giosilvi/GPT-Prompter) - Tiện ích trình duyệt tạo prompt nhanh (cho văn bản đã chọn) cho GPT-3, GPT-4 & ChatGPT API của OpenAI. Có trên Chrome web store và tiện ích Firefox
+- [anc95/ChatGPT-CodeReview](https://github.com/anc95/ChatGPT-CodeReview) - 🐥 Bot review code sử dụng ChatGPT
+- [leon-fong/ChatGPT-miniprogram](https://github.com/leon-fong/ChatGPT-miniprogram) - 🤖 ChatGPT mini program
+- [fraserxu/fraserxu.dev](https://github.com/fraserxu/fraserxu.dev) - Trang cá nhân mới của tôi
+- [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) - Repo này tổng hợp các prompt ChatGPT để sử dụng ChatGPT và các công cụ LLM khác hiệu quả hơn.
+- [semantic-release/semantic-release](https://github.com/semantic-release/semantic-release) - :package::rocket: Quản lý phiên bản và phát hành gói hoàn toàn tự động
+- [lmm214/memos-bber](https://github.com/lmm214/memos-bber) - Tiện ích Chrome cho Memos
+- [dccxi/trust-zh-CN](https://github.com/dccxi/trust-zh-CN) - Một hướng dẫn tương tác về lý thuyết trò chơi hợp tác An interactive guide to the game theory of cooperation
+- [dessant/web-archives](https://github.com/dessant/web-archives) - Tiện ích trình duyệt xem các phiên bản lưu trữ và bộ nhớ đệm của trang web, hỗ trợ Chrome, Edge và Safari
+- [argenos/zotero-mdnotes](https://github.com/argenos/zotero-mdnotes) - Plugin Zotero xuất metadata và ghi chú của tài liệu thành file markdown
+- [zotero/zotero](https://github.com/zotero/zotero) - Zotero là công cụ miễn phí, dễ sử dụng giúp bạn thu thập, tổ chức, chú thích, trích dẫn và chia sẻ nguồn tham khảo nghiên cứu.
+- [microfeed/microfeed](https://github.com/microfeed/microfeed) - CMS nhẹ tự host trên cloudflare, cho podcast, blog, ảnh, video, tài liệu và URL chọn lọc.
+- [M3chD09/Cloudflare-Workers-E5Renew](https://github.com/M3chD09/Cloudflare-Workers-E5Renew) - Cloudflare Workers làm mới E5
+- [vesoft-inc/github-statistics](https://github.com/vesoft-inc/github-statistics) - Ứng dụng React tĩnh hiển thị thống kê repo github như Lịch sử Star, Fork và nhiều hơn nữa.
+- [welai/glow-sans](https://github.com/welai/glow-sans) - Họ font CJK dựa trên SHSans với diện mạo ngắn gọn & hiện đại. 未来荧黑·未來熒黑·ヒカリ角ゴ：Cải tiến từ Noto Sans, đủ độ dày và rộng, siêu lớn, hiện đại.
+- [renzhezhilu/gifsicle-wasm-browser](https://github.com/renzhezhilu/gifsicle-wasm-browser) - Chạy Gifsicle trong trình duyệt để nén, cắt, chỉnh sửa khung, thay đổi kích thước GIF, v.v.
+- [Rabithua/memos_wmp](https://github.com/Rabithua/memos_wmp) - Phiên bản Mini Program WeChat của dự án mã nguồn mở "usememos/memos", có thể chuyển thành app.
+- [OBKoro1/koro1FileHeader](https://github.com/OBKoro1/koro1FileHeader) - Plugin VSCode: Tự động tạo/cập nhật chú thích đầu file VSCode, tự động tạo chú thích hàm và trích xuất tham số, hỗ trợ mọi ngôn ngữ, tài liệu đầy đủ, dễ sử dụng, cấu hình linh hoạt, duy trì lâu dài.
+- [clmnin/summarize.site](https://github.com/clmnin/summarize.site) - Tóm tắt trang web bằng OpenAI ChatGPT
+- [terrastruct/d2](https://github.com/terrastruct/d2) - D2 là ngôn ngữ kịch bản vẽ sơ đồ hiện đại, chuyển văn bản thành sơ đồ.
+- [anselm94/googlekeepclone](https://github.com/anselm94/googlekeepclone) - Clone Google Keep với giao diện Material Design gốc
+- [sveltejs/kit](https://github.com/sveltejs/kit) - Phát triển web, tối ưu hóa
+- [anerg2046/Caddy_V2ray](https://github.com/anerg2046/Caddy_V2ray) - Caddy V2ray SSL TLS Websocket tích hợp Docker
+- [Postcatlab/postcat](https://github.com/Postcatlab/postcat) - Postcat là nền tảng công cụ API có thể mở rộng. Tích hợp quản lý & kiểm thử API cơ bản, có thể mở rộng bằng plugin để đơn giản hóa phát triển API, giúp bạn tạo API nhanh hơn, tốt hơn. Một công cụ API mở rộng.
+- [itorr/china-ex](https://github.com/itorr/china-ex) - 🇨🇳「Trình tạo bản đồ Trung Quốc」Công cụ đánh dấu chinh phục 34 tỉnh thành Trung Quốc
+- [anerg2046/docker-v2ray](https://github.com/anerg2046/docker-v2ray) - Script Docker một bước V2Ray Caddy+Vmess+ws+tls
+- [webtorrent/wormhole-crypto](https://github.com/webtorrent/wormhole-crypto) - Mã hóa streaming cho Wormhole.app, dựa trên Encrypted Content-Encoding for HTTP (RFC 8188)
+- [primer/contribute](https://github.com/primer/contribute) - Hướng dẫn đóng góp cho hệ thống thiết kế Primer
+- [parvardegr/sharing](https://github.com/parvardegr/sharing) - Công cụ dòng lệnh chia sẻ thư mục/tệp từ CLI sang thiết bị iOS/Android mà không cần app khách
+- [SurviveSJTU/SJTU-Application](https://github.com/SurviveSJTU/SJTU-Application) - https://survivesjtu.github.io/SJTU-Application/#/
+- [zjyl1994/lazydogocr](https://github.com/zjyl1994/lazydogocr) - OCR trên trình duyệt dùng Tesseract.js
+- [dunwu/nginx-tutorial](https://github.com/dunwu/nginx-tutorial) - Đây là hướng dẫn Nginx tối giản, giúp người mới nhanh chóng bắt đầu với Nginx.
+- [Semporia/TikTok-Unlock](https://github.com/Semporia/TikTok-Unlock) - TikTok mở khóa không cần tháo SIM, hỗ trợ mới nhất cho iPhone & iPad, TikTok & TikTok TestFlight, chuyển vùng, đăng video, live, thả tim, bình luận, nhắn tin riêng, v.v.
+- [divamgupta/diffusionbee-stable-diffusion-ui](https://github.com/divamgupta/diffusionbee-stable-diffusion-ui) - Diffusion Bee là cách dễ nhất để chạy Stable Diffusion cục bộ trên Mac M1. Cài đặt một bước, không cần phụ thuộc hay kiến thức kỹ thuật.
+- [OverflowCat/zhihu-watermark-remover](https://github.com/OverflowCat/zhihu-watermark-remover) - Userscript xóa hoặc làm giả watermark mù trên trang Zhihu
+- [ghostdevv/linode-object-upload](https://github.com/ghostdevv/linode-object-upload) - Công cụ CLI đơn giản tải tệp lên Linode Object Storage
+- [dream-num/Luckysheet](https://github.com/dream-num/Luckysheet) - Luckysheet là bảng tính trực tuyến mạnh mẽ, đơn giản cấu hình, hoàn toàn mã nguồn mở.
+- [drew-royster/canvasFileSync](https://github.com/drew-royster/canvasFileSync) - Đồng bộ file khóa học Canvas về máy tính cá nhân
+- [joemccann/dillinger](https://github.com/joemccann/dillinger) - Trình soạn thảo Markdown cuối cùng.
+- [feeddd/feeds](https://github.com/feeddd/feeds) - RSS miễn phí cho WeChat Official Account, hỗ trợ mở rộng mọi ứng dụng
+- [goooooouwa/goplan-web](https://github.com/goooooouwa/goplan-web) - Khách hàng Web của GoPlan
+- [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets) - 👩‍💻👨‍💻 Tổng hợp cheatsheet tuyệt vời cho các ngôn ngữ, framework và công cụ phát triển phổ biến. Mọi thứ bạn cần biết chỉ trong một file.
+- [techgaun/active-forks](https://github.com/techgaun/active-forks) - Tìm fork github đang hoạt động của repo https://git.io/vSnrC
+- [eip-work/kuboard-press](https://github.com/eip-work/kuboard-press) - Kuboard là giao diện quản lý vi dịch vụ dựa trên Kubernetes. Đồng thời cung cấp tài liệu hướng dẫn Kubernetes miễn phí bằng tiếng Trung, hướng dẫn nhập môn, cài đặt phiên bản mới nhất Kubernetes v1.23.4, hỗ trợ hỏi đáp trực tuyến, liên tục cập nhật.
+- [stephenou/fruitionsite](https://github.com/stephenou/fruitionsite) - Xây dựng website miễn phí với Notion
+- [summitech/gitexplorer](https://github.com/summitech/gitexplorer) - Tìm lệnh git đúng mà không cần tra cứu web.
+- [QasimWani/LeetHub](https://github.com/QasimWani/LeetHub) - Tự động đồng bộ giải pháp leetcode lên tài khoản github của bạn - top 5 repo GitHub thịnh hành
+- [cockpit-project/cockpit](https://github.com/cockpit-project/cockpit) - Cockpit là giao diện đồ họa dựa trên web cho máy chủ.
+- [alcor/emoji-supply](https://github.com/alcor/emoji-supply) - Nguồn cho http://emoji.supply/wallpaper và http://emoji.supply/kitchen
+- [Tyrone2333/giteeDeleteAccount](https://github.com/Tyrone2333/giteeDeleteAccount) - Hướng dẫn xóa tài khoản gitee
+- [Dandelionss/CloudFlare-Workers](https://github.com/Dandelionss/CloudFlare-Workers) - Lưu trữ một số script CloudFlare Workers
+- [cagataycali/url-shortener](https://github.com/cagataycali/url-shortener) - Rút gọn URL đơn giản, sử dụng emoji. 🌍✌🏼
+- [7wate/wiki](https://github.com/7wate/wiki) - Wiki kiến thức cá nhân 7Wate
+- [faressoft/terminalizer](https://github.com/faressoft/terminalizer) - 🦄 Ghi lại terminal và tạo ảnh gif động hoặc chia sẻ web player
+- [twikoojs/twikoo](https://github.com/twikoojs/twikoo) - 💬 Hệ thống bình luận cho website tĩnh đơn giản, an toàn, miễn phí | A simple, safe, free comment system.
+- [tmplink/tmplink_webapp](https://github.com/tmplink/tmplink_webapp) - Dành cho lưu trữ.
+- [craftzdog/craftzdog-homepage](https://github.com/craftzdog/craftzdog-homepage) - Trang chủ của tôi
+- [play-with-docker/play-with-docker](https://github.com/play-with-docker/play-with-docker) - Bạn biết nó, bạn dùng nó, giờ là lúc cải thiện nó. PWD!.
+- [Cay-Zhang/RSSBud](https://github.com/Cay-Zhang/RSSBud) - Ứng dụng phát hiện RSS cho iOS/macOS, hoạt động tốt với RSSHub, dịch vụ tạo feed nổi tiếng. Có trên App Store.
+- [ashutosh1919/masterPortfolio](https://github.com/ashutosh1919/masterPortfolio) - 🔥 Mẫu Portfolio nhà phát triển phần mềm hoàn chỉnh, tuỳ chỉnh, giúp bạn thể hiện công việc và thông tin chi tiết về bản thân.
+- [alanshaw/markdown-pdf](https://github.com/alanshaw/markdown-pdf) - :page_facing_up: Chuyển đổi Markdown sang PDF
+- [josephernest/writing](https://github.com/josephernest/writing) - Writing là trình soạn thảo văn bản nhẹ, không gây xao nhãng, chạy trên trình duyệt (hỗ trợ Markdown và LaTeX).
+- [typemill/typemill](https://github.com/typemill/typemill) - Typemill là CMS file phẳng dựa trên Markdown, thiết kế cho website thông tin như tài liệu, hướng dẫn, sổ tay.
+- [varkor/quiver](https://github.com/varkor/quiver) - Trình biên tập sơ đồ giao hoán hiện đại trên web.
+- [gitpod-io/openvscode-releases](https://github.com/gitpod-io/openvscode-releases) - Repo này chỉ để tạo phát hành cho OpenVSCode Server.
+- [SplitGemini/Clash_configuration](https://github.com/SplitGemini/Clash_configuration) - 
+- [ShevonKuan/yuektang_ppt2pdf](https://github.com/ShevonKuan/yuektang_ppt2pdf) - Xuất bài giảng từ Yueketang thành PDF
+- [Co1lin/Tsinghua-Yukuotang-Autoplay](https://github.com/Co1lin/Tsinghua-Yukuotang-Autoplay) - Script cho mục đích thực hành JS.
+- [Konano/thu-weblearn-tgbot](https://github.com/Konano/thu-weblearn-tgbot) - 🤖 Bot telegram giám sát học trực tuyến Tsinghua và gửi cập nhật mới đến người dùng trên Telegram.
+- [jmcgover/unblock-all](https://github.com/jmcgover/unblock-all) - Script javascript bỏ chặn tất cả tài khoản Twitter bị user Twitter chặn
+- [soumyajit4419/Portfolio](https://github.com/soumyajit4419/Portfolio) - Website cá nhân tự code bằng React.js
+- [soumyajit4419/Chatify](https://github.com/soumyajit4419/Chatify) - Phòng chat cá nhân hoặc không gian chia sẻ tài nguyên, trò chuyện bạn bè, xây dựng bằng React.js, Material-UI và Firebase.
+- [pissang/little-big-city](https://github.com/pissang/little-big-city) - 
+- [atom/atom](https://github.com/atom/atom) - :atom: Trình soạn thảo văn bản có thể tuỳ biến
+- [ZxfBugProgrammer/Electron-SIMGUI](https://github.com/ZxfBugProgrammer/Electron-SIMGUI) - Dự án này dựa trên Electron và element UI, phát triển phần mềm kiểm tra trùng mã, lõi sử dụng SIM (SIM do Dick Grune phát triển)
+- [eidam/cf-workers-status-page](https://github.com/eidam/cf-workers-status-page) - Giám sát website, hiển thị trạng thái kèm lịch sử, nhận thông báo Slack/Telegram/Discord khi thay đổi trạng thái. Sử dụng Cloudflare Workers, CRON Triggers và KV storage.
+- [digitalocean/nginxconfig.io](https://github.com/digitalocean/nginxconfig.io) - ⚙️ Trình tạo cấu hình NGINX mạnh mẽ 💉
+- [ineo6/git-master](https://github.com/ineo6/git-master) - Extension Git Master cho cây file git, hỗ trợ GitHub, GitLab, Gitee, Gitea, Gogs
+- [Zenquan/learnCode](https://github.com/Zenquan/learnCode) - Kho mã dễ học
+- [koodo-reader/koodo-reader](https://github.com/koodo-reader/koodo-reader) - Trình quản lý và đọc ebook hiện đại, đồng bộ và sao lưu cho Windows, macOS, Linux, Android, iOS và Web
+- [s0urcelab/serverless-cloud-notepad](https://github.com/s0urcelab/serverless-cloud-notepad) - ☁ Thêm một ứng dụng ghi chú đám mây nữa.
+- [VishwaGauravIn/github-profile-readme-maker](https://github.com/VishwaGauravIn/github-profile-readme-maker) - 🏆 Trình tạo Profile tốt nhất, tạo ReadMe GitHub Profile hoàn hảo của bạn. Nhiều tính năng và công cụ, hoàn toàn miễn phí! 💫
+- [lucaceriani/ooo](https://github.com/lucaceriani/ooo) - 
+- [MuggleWei/learning_compass](https://github.com/MuggleWei/learning_compass) - Các hướng dẫn tự học các môn học khác nhau https://mugglewei.github.io/learning_compass/
+- [philc/vimium](https://github.com/philc/vimium) - Trình duyệt dành cho hacker.
+- [thunlp/WantWords](https://github.com/thunlp/WantWords) - Từ điển đảo ngược trực tuyến mã nguồn mở.
+- [Robbendebiene/Gesturefy](https://github.com/Robbendebiene/Gesturefy) - Duyệt web, điều khiển và thao tác nhanh hơn với các cử chỉ chuột! Tiện ích mở rộng Firefox cho cử chỉ chuột tùy chỉnh với nhiều lệnh khác nhau.
+- [wooorm/starry-night](https://github.com/wooorm/starry-night) - Tô màu cú pháp, giống như GitHub
+- [foamzou/melody](https://github.com/foamzou/melody) - Nhạc thần của tôi
+- [liviuschera/noctis](https://github.com/liviuschera/noctis) - Noctis là bộ sưu tập các chủ đề sáng & tối với sự pha trộn cân bằng giữa màu nóng và lạnh
+- [microsoft/vscode-markdown-tm-grammar](https://github.com/microsoft/vscode-markdown-tm-grammar) - Ngữ pháp Textmate của phần mở rộng markdown tích hợp trong VS Code
+- [fluid-dev/hexo-theme-fluid](https://github.com/fluid-dev/hexo-theme-fluid) - :ocean: Một chủ đề Hexo phong cách Material Design / Chủ đề Material-Design thanh lịch cho Hexo
+- [menzi11/BullshitGenerator](https://github.com/menzi11/BullshitGenerator) - Cần tạo một số văn bản để kiểm tra xem mã dựng giao diện người dùng của tôi có tốt không. vì vậy tôi đã làm cái này.
+- [ciembor/4bit](https://github.com/ciembor/4bit) - Thiết kế bảng màu cho Terminal
+- [Asabeneh/30-Days-Of-React](https://github.com/Asabeneh/30-Days-Of-React) - Thử thách 30 ngày học React là hướng dẫn từng bước để học React trong 30 ngày. Những video này cũng có thể hữu ích: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw
+- [dukelec/cde](https://github.com/dukelec/cde) - Công cụ mã hóa HTML5 (Mẹo: https://blog.d-l.io/cde), https://e.d-l.io hoặc https://dukelec.gitee.io/cde hoặc
+- [soheilpro/mailwind](https://github.com/soheilpro/mailwind) - Sử dụng Tailwind CSS để thiết kế email HTML.
+- [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) - Kết nối API, nhanh một cách đáng kinh ngạc. Miễn phí cho lập trình viên.
+- [gaocegege/Blog](https://github.com/gaocegege/Blog) - Blog cá nhân trên github.io
+- [dhanishgajjar/vscode-icons](https://github.com/dhanishgajjar/vscode-icons) - Biểu tượng tùy chỉnh cho Visual Studio Code
+- [ecitlm/Node-SpliderApi](https://github.com/ecitlm/Node-SpliderApi) - Dự án API crawler dựa trên node+express, bao gồm thông tin các trường đại học toàn quốc, thành ngữ, thơ ca, vận mệnh cung hoàng đạo, sự kiện lịch sử, dữ liệu nhạc, ảnh nền, video hài hước, tin tức nóng...
+- [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) - 📝 Các giải thuật và cấu trúc dữ liệu được triển khai bằng JavaScript với giải thích và liên kết tài liệu tham khảo
+- [leonardomso/33-js-concepts](https://github.com/leonardomso/33-js-concepts) - 📜 33 khái niệm JavaScript mà mọi lập trình viên nên biết.
+- [denysdovhan/wtfjs](https://github.com/denysdovhan/wtfjs) - 🤪 Một danh sách các ví dụ JavaScript hài hước và hóc búa
+- [AleksiKnuutila/nlp-highlight](https://github.com/AleksiKnuutila/nlp-highlight) - Tô sáng ngữ nghĩa ngôn ngữ tự nhiên để tăng khả năng đọc
+- [vaxilu/x-ui](https://github.com/vaxilu/x-ui) - Bảng điều khiển xray hỗ trợ nhiều giao thức và nhiều người dùng
+- [wjclub/telegram-bot-getids](https://github.com/wjclub/telegram-bot-getids) - Bot Telegram in ra thông tin chi tiết về người dùng, cuộc trò chuyện và phương tiện.
+- [Robpayot/glowing-tree](https://github.com/Robpayot/glowing-tree) - Thử nghiệm cây bằng Three.js
+- [OBKoro1/web-basics](https://github.com/OBKoro1/web-basics) - Năng lực cơ bản JS mà lập trình viên front-end tại các công ty lớn cần nắm, các câu hỏi thực tế, đề phỏng vấn, chào mừng đóng góp issue và PR để làm phong phú thêm kho đề.
+- [alyssaxuu/omni](https://github.com/alyssaxuu/omni) - Công cụ tất cả trong một để nâng cao hiệu suất làm việc ⌨️
+- [hackjutsu/Lepton](https://github.com/hackjutsu/Lepton) - 💻  Dân chủ hóa quản lý đoạn mã (macOS/Win/Linux)
+- [danielpigott/cloudflare-cli](https://github.com/danielpigott/cloudflare-cli) - CLI để tương tác với Cloudflare
+- [shajidhasan/rknotes-landing](https://github.com/shajidhasan/rknotes-landing) - 
+- [wordshub/free-font](https://github.com/wordshub/free-font) - Có lẽ là bộ sưu tập font miễn phí thương mại đầy đủ nhất năm 2020, tất cả font miễn phí ở đây đều có nguồn cấp phép rõ ràng, có thể yên tâm sử dụng, liên tục cập nhật...
+- [star7th/showdoc](https://github.com/star7th/showdoc) - ShowDoc là công cụ rất phù hợp cho nhóm IT chia sẻ tài liệu trực tuyến, tài liệu API, tài liệu kỹ thuật
+- [NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager) - Docker container để quản lý các host proxy Nginx với giao diện đơn giản, mạnh mẽ
+- [py7hon/Meowdrive](https://github.com/py7hon/Meowdrive) - Meowdrive/Google drive directlink
+- [pkuhollow/webhole](https://github.com/pkuhollow/webhole) - PKU Hollow frontend dùng react
+- [stef-levesque/vscode-3dviewer](https://github.com/stef-levesque/vscode-3dviewer) - Xem trước mô hình 3D trong VSCode
+- [nirui/sshwifty](https://github.com/nirui/sshwifty) - Web SSH & Telnet (WebSSH & WebTelnet client) 🔮
+- [Robpayot/risograph-grain-shader](https://github.com/Robpayot/risograph-grain-shader) - Shader hiệu ứng hạt nhẹ, hướng dẫn trên codrops
+- [imlonghao/smms-bot](https://github.com/imlonghao/smms-bot) - Bot Telegram cho SM.MS
+- [prettier/prettier](https://github.com/prettier/prettier) - Prettier là trình định dạng mã có quan điểm riêng.
+- [ciderapp/Cider](https://github.com/ciderapp/Cider) - 🎵  Mã nguồn cho Cider 1
+- [pabueco/linear-vscode-theme](https://github.com/pabueco/linear-vscode-theme) - 
+- [imageslr/weapp-library](https://github.com/imageslr/weapp-library) - “Nền tảng mượn sách trực tuyến” trên WeChat: kết nối độc giả với thư viện, kho dữ liệu và hệ thống danh sách sách cá nhân. Hơn 30 trang, nhiều thành phần tái sử dụng, thích hợp cho người mới bắt đầu phát triển ứng dụng WeChat mini. Cung cấp giải pháp mock server cục bộ.
+- [multiavatar/Multiavatar](https://github.com/multiavatar/Multiavatar) - Trình tạo Avatar đa văn hóa bằng JavaScript
+- [noxue/bingdundun](https://github.com/noxue/bingdundun) - Mã nguồn 3d của Bing Dwen Dwen
+- [Just-Moh-it/Pckd](https://github.com/Just-Moh-it/Pckd) - Bộ rút gọn liên kết chuyên sâu về phân tích, tự lưu trữ với giao diện đẹp | Còn gọi là lựa chọn miễn phí thay thế bit.ly 🚀
+- [moshang-ax/lottery](https://github.com/moshang-ax/lottery) - 🎉🌟✨🎈Chương trình quay số cho tiệc cuối năm, dựa trên Express + Three.js, quay số 3D hình cầu, giải thưởng🧧🎁, văn bản, hình ảnh, quy tắc quay số đều có thể cấu hình, 😜 thông tin người tham gia quay số có thể nhập Excel một lần, 😍 kết quả quay số xuất ra Excel 😎, mang lại trải nghiệm quay số mới mẻ và hấp dẫn cho sự kiện của bạn 🚀🚀🚀
+- [facebook/react](https://github.com/facebook/react) - Thư viện cho giao diện người dùng web và native.
+- [kovacsv/Online3DViewer](https://github.com/kovacsv/Online3DViewer) - Giải pháp hiển thị và khám phá mô hình 3D trong trình duyệt.
+- [rishimohan/pika](https://github.com/rishimohan/pika) - Thiết kế nhanh ảnh chụp màn hình và ảnh open graph đẹp mắt
+- [bndw/wifi-card](https://github.com/bndw/wifi-card) - 📶 In mã QR để kết nối WiFi của bạn (wificard.io)
+- [E011011101001/Twitter-Block-With-Love](https://github.com/E011011101001/Twitter-Block-With-Love) - Chặn người dùng thích một tweet cụ thể, giúp bạn cải thiện trải nghiệm trên Twitter.
+- [YaoZeyuan/stablog](https://github.com/YaoZeyuan/stablog) - Ổn Bộ Lạc. Chuyên sao lưu và xuất bản ghi Weibo, ổn định!
+- [diafygi/gethttpsforfree](https://github.com/diafygi/gethttpsforfree) - Mã nguồn cho https://gethttpsforfree.com/
+- [agalwood/Motrix](https://github.com/agalwood/Motrix) - Trình quản lý tải xuống đầy đủ tính năng.
+- [txthinking/bash](https://github.com/txthinking/bash) - Script một lần bấm.
+- [xuhuai66/used-book-pro](https://github.com/xuhuai66/used-book-pro) - Ứng dụng WeChat mini cloud cho chợ sách cũ trong trường, hỗ trợ thanh toán và rút tiền trực tuyến, mã nguồn mở hoàn toàn
+- [gildas-lormeau/SingleFileZ](https://github.com/gildas-lormeau/SingleFileZ) - Tiện ích Web để lưu bản sao trung thực toàn bộ trang web thành file ZIP tự giải nén
+- [mickael-kerjean/filestash](https://github.com/mickael-kerjean/filestash) - :file_folder: Trình quản lý tệp / trình khách web cho SFTP, S3, FTP, WebDAV, Git, Minio, LDAP, CalDAV, CardDAV, Mysql, Backblaze, ...
+- [suxiaogang/WeiboPicBed](https://github.com/suxiaogang/WeiboPicBed) - Ảnh nền Sina Weibo tiện ích mở rộng Chrome
+- [The-NeXT-Project/Docs](https://github.com/The-NeXT-Project/Docs) - 
+- [overleaf/overleaf](https://github.com/overleaf/overleaf) - Trình soạn thảo LaTeX hợp tác trực tuyến trên web
+- [szenius/set-timezone](https://github.com/szenius/set-timezone) - GitHub action đặt múi giờ cho hệ thống của bạn, hỗ trợ Linux, Windows, MacOS
+- [ckeditor/github-writer](https://github.com/ckeditor/github-writer) - GitHub Writer - Trình soạn thảo văn bản WYSIWYG giàu định dạng cho GitHub, sử dụng CKEditor.
+- [MinhasKamal/DownGit](https://github.com/MinhasKamal/DownGit) - Tạo liên kết tải xuống tài nguyên GitHub
+- [KinoLien/gitzip](https://github.com/KinoLien/gitzip) - Có thể biến thư mục con của kho GitHub thành file zip và tải về.
+- [paulmillr/encrypted-dns](https://github.com/paulmillr/encrypted-dns) - Hồ sơ cấu hình DNS over HTTPS cho iOS & macOS
+- [toncenter/ton-wallet](https://github.com/toncenter/ton-wallet) - Ví Web và tiện ích mở rộng trình duyệt cho TON (The Open Network)
+- [nodejs/node](https://github.com/nodejs/node) - Node.js JavaScript runtime ✨🐢🚀✨
+- [itorr/nbnhhsh](https://github.com/itorr/nbnhhsh) - 😩「Có thể nói rõ ràng không？」 Công cụ dịch viết tắt pinyin
+- [carbon-app/carbon](https://github.com/carbon-app/carbon) - :black_heart: Tạo và chia sẻ ảnh mã nguồn đẹp mắt
+- [jsdelivr/jsdelivr](https://github.com/jsdelivr/jsdelivr) - CDN mã nguồn mở miễn phí, nhanh và đáng tin cậy cho npm, GitHub, Javascript, và ESM
+- [hunkim/digital-human](https://github.com/hunkim/digital-human) - 
+- [menukaonline/goindex-extended](https://github.com/menukaonline/goindex-extended) - Google Drive Index, có nhiều tính năng bổ sung, chạy trên Cloudflare Workers.
+- [pureink/inkrss](https://github.com/pureink/inkrss) - Thông báo khi nguồn rss được cập nhật | Thông báo cập nhật RSS
+- [gorse-io/gitrec](https://github.com/gorse-io/gitrec) - Hệ thống gợi ý kho GitHub dựa trên Gorse
+- [Hackl0us/SS-Rule-Snippet](https://github.com/Hackl0us/SS-Rule-Snippet) - Thu thập, tổ chức, duy trì các quy tắc hữu ích cho Surge / Quantumult (X) / Shadowrocket / Surfboard / clash (Premium).
+- [netptop/siteproxy](https://github.com/netptop/siteproxy) - reverse proxy, proxy trực tuyến, 反向代理, truy cập Youtube/twitter/Google không cần vượt tường lửa, hỗ trợ đăng nhập github và telegram web (lưu ý không đăng nhập qua proxy không tin tưởng). Hỗ trợ DuckDuckGo AI Chat (có thể truy cập miễn phí chatGPT3.5 và Claude3)
+- [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) - Trình soạn thảo mã nguồn dựa trên trình duyệt
+- [btmills/geopattern](https://github.com/btmills/geopattern) - Tạo mẫu SVG đẹp mắt
+- [RimoChan/match-you](https://github.com/RimoChan/match-you) - 【Bạn hợp không】Bạn hợp ai?
+- [sh-dv/hat.sh](https://github.com/sh-dv/hat.sh) - Mã hóa và giải mã tệp an toàn trên trình duyệt của bạn.
+- [pxeger/url-shortener](https://github.com/pxeger/url-shortener) - Bộ rút gọn URL đơn giản nhất thế giới sử dụng Cloudflare Workers
+- [mrmartineau/snippet-generator](https://github.com/mrmartineau/snippet-generator) - ⚡ Trình tạo snippet cho Sublime Text, Atom & VS Code
+- [b3by/atom-clock](https://github.com/b3by/atom-clock) - Đặt đồng hồ hoặc lịch vào thanh trạng thái của bạn
+- [microsoft/vscode-atom-keybindings](https://github.com/microsoft/vscode-atom-keybindings) - Chuyển đổi phím tắt Atom sang cho VS Code.
+- [binaryoung/convert-atom-snippets-to-vscode](https://github.com/binaryoung/convert-atom-snippets-to-vscode) - Một gói nhỏ giúp bạn chuyển đổi snippet của Atom sang định dạng của VS Code.
+- [dstein64/workflows](https://github.com/dstein64/workflows) - Xem trạng thái các workflow của GitHub.
+- [sigoden/netease-music-crx](https://github.com/sigoden/netease-music-crx) - Tiện ích Chrome cho NetEase Cloud Music
+- [pocc/bulk_delete_notion_pages](https://github.com/pocc/bulk_delete_notion_pages) - Bookmarklet để xóa vĩnh viễn tất cả các trang notion đã bị xóa.
+- [msaaddev/who-unfollowed-me](https://github.com/msaaddev/who-unfollowed-me) - 🙁 CLI cho bạn biết ai vừa bỏ theo dõi bạn trên GitHub
+- [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) - Thử thách 30 ngày lập trình JavaScript là hướng dẫn từng bước học ngôn ngữ JavaScript trong 30 ngày. Thử thách này có thể kéo dài hơn 100 ngày, hãy học theo tốc độ của bạn. 
+- [FilipePS/Traduzir-paginas-web](https://github.com/FilipePS/Traduzir-paginas-web) - Dịch trang web của bạn theo thời gian thực bằng Google, Bing hoặc Yandex
+- [ysard/cookie-quick-manager](https://github.com/ysard/cookie-quick-manager) - Tiện ích quản lý (xem, tìm kiếm, tạo, sửa, xóa, sao lưu, khôi phục) cookie trên Firefox.
+- [candh/cookies-backup-chrome](https://github.com/candh/cookies-backup-chrome) - Tiện ích Chrome sao lưu và 🔐 mã hóa và khôi phục 🍪 cookie.
+- [vercel/next.js](https://github.com/vercel/next.js) - Framework React
+- [useful-forks/useful-forks.github.io](https://github.com/useful-forks/useful-forks.github.io) - Nâng cao khả năng khám phá danh sách Fork của GitHub thông qua tự động lọc. Dự án cung cấp công cụ trực tuyến và tiện ích Chrome.
+- [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) - Công cụ giám sát tự lưu trữ đẹp mắt
+- [webpack/webpack](https://github.com/webpack/webpack) - Trình đóng gói cho javascript và các đối tượng liên quan. Gộp nhiều module thành một số ít tệp đóng gói. Hỗ trợ chia nhỏ code để tải từng phần ứng dụng khi cần. Thông qua "loaders", các module có thể là CommonJs, AM
+- [webpack/webpack-cli](https://github.com/webpack/webpack-cli) - Giao diện dòng lệnh của Webpack
+- [viatsko/awesome-vscode](https://github.com/viatsko/awesome-vscode) - 🎨 Danh sách tổng hợp các gói và tài nguyên VS Code tuyệt vời.
+- [Glitchbone/vscode-base16-term](https://github.com/Glitchbone/vscode-base16-term) - Màu Terminal Base16 cho Visual Studio Code
+- [xanderfrangos/twinkle-tray](https://github.com/xanderfrangos/twinkle-tray) - Quản lý độ sáng màn hình trên Windows dễ dàng từ khay hệ thống
+- [excalidraw/excalidraw-libraries](https://github.com/excalidraw/excalidraw-libraries) - Bộ sưu tập thư viện công khai
+- [ad-m/github-push-action](https://github.com/ad-m/github-push-action) - GitHub actions để đẩy lại lên kho, ví dụ: cập nhật mã nguồn
+- [spicetify/cli](https://github.com/spicetify/cli) - Công cụ dòng lệnh tùy chỉnh Spotify client. Hỗ trợ Windows, MacOS, và Linux.
+- [softvar/enhanced-github](https://github.com/softvar/enhanced-github) - :rocket: Tiện ích mở rộng trình duyệt hiển thị kích thước từng file, liên kết tải xuống và sao chép nội dung file trực tiếp vào clipboard
+- [stefanbuck/awesome-browser-extensions-for-github](https://github.com/stefanbuck/awesome-browser-extensions-for-github) - Bộ sưu tập các tiện ích trình duyệt tuyệt vời cho GitHub.
+- [dessant/buster](https://github.com/dessant/buster) - Tiện ích giải Captcha cho con người, có sẵn cho Chrome, Edge và Firefox
+- [gildas-lormeau/SingleFile](https://github.com/gildas-lormeau/SingleFile) - Tiện ích Web để lưu bản sao trung thực toàn bộ trang web thành một file HTML duy nhất
+- [listen1/listen1_chrome_extension](https://github.com/listen1/listen1_chrome_extension) - một cho tất cả nhạc miễn phí tại Trung Quốc (tiện ích chrome, cũng hoạt động trên firefox)
+- [unbug/codelf](https://github.com/unbug/codelf) - Công cụ tìm kiếm giúp lập trình viên giải quyết vấn đề đặt tên biến.
+- [muan/github-dashboard](https://github.com/muan/github-dashboard) - [Tiện ích web] Lọc sự kiện trên bảng điều khiển hoạt động github.com.
+- [ovity/octotree](https://github.com/ovity/octotree) - GitHub mạnh mẽ hơn
+- [modood/Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China) - Phân chia hành chính của Cộng hòa Nhân dân Trung Hoa: cấp tỉnh (tỉnh), cấp thành phố, cấp huyện, cấp xã, cấp thôn; dữ liệu địa chỉ liên kết cấp 2,3,4,5 của Trung Quốc.
+- [marktext/marktext](https://github.com/marktext/marktext) - 📝Trình soạn thảo markdown đơn giản và thanh lịch, hỗ trợ Linux, macOS và Windows.
+- [notion-enhancer/notion-enhancer](https://github.com/notion-enhancer/notion-enhancer) - Công cụ tăng cường/tùy chỉnh cho workspace Notion tất cả trong một
+- [carbon-design-system/carbon](https://github.com/carbon-design-system/carbon) - Hệ thống thiết kế do IBM xây dựng
+- [tks18/gindex-v4](https://github.com/tks18/gindex-v4) - G Index dựa trên Vue Js với chế độ tối cải tiến, tìm kiếm và trình phát video
+- [bryanbraun/checkboxland](https://github.com/bryanbraun/checkboxland) - Hiển thị bất kỳ nội dung nào dưới dạng các hộp kiểm HTML
+- [jhotmann/node-rename-cli](https://github.com/jhotmann/node-rename-cli) - Một công cụ đổi tên tệp nhanh chóng, đặc biệt là nhiều tệp cùng lúc.
+- [GitSquared/edex-ui](https://github.com/GitSquared/edex-ui) - Trình giả lập terminal phong cách khoa học viễn tưởng, đa nền tảng, có thể tùy chỉnh với tính năng giám sát nâng cao & hỗ trợ màn hình cảm ứng.
+- [methodofaction/Method-Draw](https://github.com/methodofaction/Method-Draw) - Method Draw, Trình chỉnh sửa SVG cho Method of Action
+- [SVG-Edit/svgedit](https://github.com/SVG-Edit/svgedit) - Trình chỉnh sửa SVG mạnh mẽ cho trình duyệt của bạn
+- [richardkrikler/Notability-Viewer](https://github.com/richardkrikler/Notability-Viewer) - Trình xem ghi chú Notability cho các tệp PDF sao lưu bên trong hệ thống tệp (ví dụ: với tích hợp OneDrive trên Windows).
+- [pandao/editor.md](https://github.com/pandao/editor.md) - Trình chỉnh sửa markdown trực tuyến mã nguồn mở có thể nhúng (thành phần).
+- [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) - Quy tắc phân luồng, quy tắc viết lại và script.
+- [littlegolden/syntax-highlight-word](https://github.com/littlegolden/syntax-highlight-word) - Dự án hồi sinh của Syntax Highlight Code cho planetB.
+- [badges/shields](https://github.com/badges/shields) - Huy hiệu ngắn gọn, nhất quán và dễ đọc ở định dạng SVG và raster
+- [lekoOwO/short-link-bot](https://github.com/lekoOwO/short-link-bot) - Bot rút gọn liên kết Telegram chạy trên Cloudflare Workers sử dụng short.io
+- [xyTom/Url-Shorten-Worker](https://github.com/xyTom/Url-Shorten-Worker) - Trình rút gọn URL được tạo bằng Cloudflare worker
+- [kamranahmedse/githunt](https://github.com/kamranahmedse/githunt) - Tìm các dự án được gắn sao nhiều nhất vào bất kỳ ngày nào trên GitHub
+- [pyatyispyatil/github-releases-notify-bot](https://github.com/pyatyispyatil/github-releases-notify-bot) - Cho phép bạn nhận thông báo về các bản phát hành phần mềm mới trên GitHub qua Telegram
+- [mrdoob/three.js](https://github.com/mrdoob/three.js) - Thư viện JavaScript 3D.
+- [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) - Công cụ build web không cần cấu hình. 📦🚀
+- [Chalarangelo/30-seconds-of-code](https://github.com/Chalarangelo/30-seconds-of-code) - Bài viết mã hóa giúp nâng cao kỹ năng phát triển của bạn
+- [shimohq/chinese-programmer-wrong-pronunciation](https://github.com/shimohq/chinese-programmer-wrong-pronunciation) - Các từ mà lập trình viên Trung Quốc dễ phát âm sai
+- [evil-huawei/evil-huawei](https://github.com/evil-huawei/evil-huawei) - Evil Huawei - Những việc xấu của Huawei
+- [Raxvis/simple-icon-generator](https://github.com/Raxvis/simple-icon-generator) - Công cụ tạo biểu tượng đơn giản
+- [ascoders/weekly](https://github.com/ascoders/weekly) - Tuần san đọc sâu về Frontend. Giúp bạn hiểu công nghệ tiên tiến và thực tiễn nhất.
+- [saltcorn/saltcorn](https://github.com/saltcorn/saltcorn) - Nền tảng xây dựng ứng dụng không cần mã nguồn mở và miễn phí
+- [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) - :zap: Thống kê động cho github readme của bạn
+- [JacksonBates/tweet-delete-bot](https://github.com/JacksonBates/tweet-delete-bot) - Bot xóa và bỏ thích các tweet cũ hơn 10 ngày. Lên lịch chạy hàng ngày để trở thành một tweep thoáng qua, giống như http://twitter.com/JacksonBates
+- [thedevs-network/kutt](https://github.com/thedevs-network/kutt) - Dịch vụ rút gọn URL miễn phí, hiện đại.
+- [ethantw/Han](https://github.com/ethantw/Han) - 「漢字標準格式」Khung bố cục chữ Hán như in ấn Han.css: framework CSS tối ưu cho kiểu chữ Hán.
+- [nadimkobeissi/appleprivacyletter](https://github.com/nadimkobeissi/appleprivacyletter) - Thư ngỏ phản đối công nghệ quét nội dung xâm phạm quyền riêng tư phía khách hàng mới của Apple.
+- [pkalogiros/AudioMass](https://github.com/pkalogiros/AudioMass) - Công cụ chỉnh sửa âm thanh & sóng âm trên web miễn phí, đầy đủ tính năng
+- [renzhezhilu/webp2jpg-online-demo](https://github.com/renzhezhilu/webp2jpg-online-demo) - Một số thư viện dùng trình duyệt để xử lý hình ảnh (chuyển đổi định dạng) và các trang demo tương ứng. Đây là nơi tập hợp các thư viện dùng trình duyệt để xử lý ảnh (chuyển đổi định dạng) và các trang demo.
+- [renzhezhilu/webp2jpg-online](https://github.com/renzhezhilu/webp2jpg-online) - Sử dụng trình duyệt để chuyển đổi định dạng ảnh trực tuyến, không cần tải lên tệp. Có thể chuyển jpeg, jpg, png, gif, webp, svg, ico, bmp sang jpeg, png, webp animation, gif, base64, avif, mozjpeg. Sử dụng trình duyệt để...
+- [benweet/stackedit](https://github.com/benweet/stackedit) - Trình chỉnh sửa Markdown trên trình duyệt
+- [stylus/stylus](https://github.com/stylus/stylus) - Ngôn ngữ CSS giàu tính năng, mạnh mẽ, biểu cảm, xây dựng cho nodejs
+- [magic-akari/ncmc-web](https://github.com/magic-akari/ncmc-web) - Chuyển đổi tệp trực tiếp trên trình duyệt
+- [HeiSir2014/M3U8-Downloader](https://github.com/HeiSir2014/M3U8-Downloader) - M3U8-Downloader hỗ trợ đa luồng, tải tiếp tục, tải video mã hóa.
+- [thuservices/thuservices](https://github.com/thuservices/thuservices) - https://thu.services
+- [treehollow/webhole](https://github.com/treehollow/webhole) - Giao diện frontend react của THU Hole
+- [xmcp/webhole](https://github.com/xmcp/webhole) - Giao diện frontend react của Hole
+## Jinja 
+
+- [yunionio/ocboot](https://github.com/yunionio/ocboot) - Công cụ cài đặt và thiết lập Cloudpods
+- [trailofbits/algo](https://github.com/trailofbits/algo) - Thiết lập VPN cá nhân trên đám mây
+
+## Julia 
+
+- [JuliaLang/julia](https://github.com/JuliaLang/julia) - Ngôn ngữ lập trình Julia
+
+## Jupyter Notebook 
+
+- [Estom/notes](https://github.com/Estom/notes) - Toàn bộ kiến thức của một lập trình viên! Ghi chú & hướng dẫn. Thi cao học, việc làm, học tập. Ngôn ngữ: Android, C++, Java, JavaScript, Latex, MATLAB, NodeJS, PHP, Python. Kỹ thuật: docker, git, Linux, Maven, office, Spark, Spring, SVN. Cơ bản: lý thuyết biên dịch, hệ điều hành, vi điều khiển, mạng máy tính, thực hành mạng, mô hình kiến trúc, viết tài liệu phần mềm, mẫu thiết kế, cấu trúc dữ liệu, cơ sở dữ liệu, toán học
+- [ckross4/ML-PolyBites](https://github.com/ckross4/ML-PolyBites) - Mã nguồn hữu ích để bắt đầu hành trình học máy cho khoa học và hóa học polyme
+- [Calysto/matlab_kernel](https://github.com/Calysto/matlab_kernel) - Nhân Jupyter cho Matlab
+- [xinychen/latex-cookbook](https://github.com/xinychen/latex-cookbook) - Hướng dẫn viết luận văn LaTeX (Nhà xuất bản Đại học Thanh Hoa)
+- [MarkFzp/mobile-aloha](https://github.com/MarkFzp/mobile-aloha) - Mobile ALOHA: Học thao tác hai tay di động với điều khiển toàn thân chi phí thấp
+- [JinChengZ18/Learning-Materials-of-SMSE](https://github.com/JinChengZ18/Learning-Materials-of-SMSE) - Tài liệu học tập bậc đại học của khoa Vật liệu, Đại học Thanh Hoa - PPT, sách, bài tập, báo cáo thí nghiệm, v.v.
+- [datawhalechina/llm-cookbook](https://github.com/datawhalechina/llm-cookbook) - Hướng dẫn nhập môn LLM dành cho lập trình viên, bản tiếng Trung khóa học mô hình lớn của Ngô Ân Đạt
+- [langchain-ai/langchain](https://github.com/langchain-ai/langchain) - 🦜🔗 Xây dựng ứng dụng suy luận nhận biết ngữ cảnh
+- [sanchit-gandhi/whisper-jax](https://github.com/sanchit-gandhi/whisper-jax) - Triển khai mô hình Whisper của OpenAI bằng JAX, tăng tốc đến 70 lần trên TPU.
+- [Stability-AI/StableLM](https://github.com/Stability-AI/StableLM) - StableLM: Mô hình ngôn ngữ của Stability AI
+- [advimman/lama](https://github.com/advimman/lama) - 🦙  LaMa Image Inpainting, Khôi phục vùng lớn trên ảnh một cách bền vững với Fourier Convolutions, WACV 2022
+- [camenduru/stable-diffusion-webui-colab](https://github.com/camenduru/stable-diffusion-webui-colab) - stable diffusion webui colab
+- [LinXueyuanStdio/LaTeX_OCR](https://github.com/LinXueyuanStdio/LaTeX_OCR) - :gem: Nhận diện công thức toán học Math Formula OCR
+- [xuebinqin/DIS](https://github.com/xuebinqin/DIS) - Kho lưu trữ cho dự án mới: Phân đoạn ảnh hai lớp chính xác cao
+- [MubertAI/Mubert-Text-to-Music](https://github.com/MubertAI/Mubert-Text-to-Music) - Notebook đơn giản minh họa tạo nhạc dựa trên prompt qua API Mubert
+- [LinXueyuanStdio/LaTeX_OCR_PRO](https://github.com/LinXueyuanStdio/LaTeX_OCR_PRO) - :art: Nhận diện công thức toán học phiên bản nâng cao: hỗ trợ công thức viết tay in ấn Trung-Anh, suy luận ký hiệu cơ bản (dựa trên LaTeX AST)
+- [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion) - Mô hình khuếch tán văn bản thành ảnh tiềm ẩn
+- [pengc02/THUDA-CRACKER](https://github.com/pengc02/THUDA-CRACKER) - Hướng dẫn cuộc sống tại DA
+- [TheCaduceus/WARP-UNLIMITED-ADVANCED](https://github.com/TheCaduceus/WARP-UNLIMITED-ADVANCED) - Nhận lượng dữ liệu không giới hạn trên Cloudflare WARP VPN🔥
+- [megvii-research/IJCAI2023-CoNR](https://github.com/megvii-research/IJCAI2023-CoNR) - IJCAI2023 - Kết xuất thần kinh cộng tác sử dụng bảng nhân vật Anime
+- [Baiyuetribe/paper2gui](https://github.com/Baiyuetribe/paper2gui) - Chuyển đổi bài báo AI thành GUI, giúp mọi người dễ dàng sử dụng công nghệ AI tiên tiến
+- [PradyumnaKrishna/Colab-Hacks](https://github.com/PradyumnaKrishna/Colab-Hacks) - Thủ thuật đơn giản cho Google Colaboratory để tăng năng suất và hỗ trợ công việc hàng ngày
+- [zergtant/pytorch-handbook](https://github.com/zergtant/pytorch-handbook) - pytorch handbook là một cuốn sách mã nguồn mở, giúp những ai muốn phát triển và nghiên cứu học sâu với PyTorch nhanh chóng nhập môn, các hướng dẫn đều đã kiểm thử thành công
+- [Harvard-IACS/2019-CS109A](https://github.com/Harvard-IACS/2019-CS109A) - https://harvard-iacs.github.io/2019-CS109A/
+- [microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) - 10 tuần, 20 bài học, khoa học dữ liệu cho tất cả mọi người!
+- [googlecolab/colabtools](https://github.com/googlecolab/colabtools) - Thư viện Python cho Google Colaboratory
+- [Pierian-Data/Complete-Python-3-Bootcamp](https://github.com/Pierian-Data/Complete-Python-3-Bootcamp) - Tệp khóa học Complete Python 3 Bootcamp trên Udemy
+- [hgorr/matlab-with-python](https://github.com/hgorr/matlab-with-python) - Ví dụ sử dụng MATLAB và Python cùng nhau
+- [mchong6/JoJoGAN](https://github.com/mchong6/JoJoGAN) - Kho chính thức PyTorch cho JoJoGAN: One Shot Face Stylization
+- [prathimacode-hub/Awesome_Python_Scripts](https://github.com/prathimacode-hub/Awesome_Python_Scripts) - 🚀 Bộ sưu tập mã nguồn Python tuyệt vời, với hơn 360+ script. Thỏa sức khám phá và đóng góp!
+- [google-research/google-research](https://github.com/google-research/google-research) - Google Research
+- [Spidy20/Python_To_APK](https://github.com/Spidy20/Python_To_APK) - Chuyển đổi mã Python thành file APK Android.
+- [Dsantra92/Julia-on-Colab](https://github.com/Dsantra92/Julia-on-Colab) - Notebook chạy Julia trên Google Colab
+- [firmai/awesome-google-colab](https://github.com/firmai/awesome-google-colab) - Notebook và kho lưu trữ Google Colaboratory (bởi @firmai)
+- [frankwxu/digital-forensics-lab](https://github.com/frankwxu/digital-forensics-lab) - Phòng lab pháp y số miễn phí cho sinh viên và giảng viên
+- [sokrypton/ColabFold](https://github.com/sokrypton/ColabFold) - Mang gập protein đến với tất cả mọi người!
+- [bryandlee/animegan2-pytorch](https://github.com/bryandlee/animegan2-pytorch) - Triển khai AnimeGANv2 bằng PyTorch
+- [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) - Python - 100 ngày từ người mới đến chuyên gia
+- [marceloprates/prettymaps](https://github.com/marceloprates/prettymaps) - Vẽ bản đồ đẹp từ dữ liệu OpenStreetMap! Xây dựng với osmnx + matplotlib + shapely
+## Kotlin 
+
+- [gkd-kit/gkd](https://github.com/gkd-kit/gkd) - Ứng dụng Android thao tác chạm màn hình tùy chỉnh dựa trên Khả năng Truy cập, Bộ chọn nâng cao và Quy tắc đăng ký
+- [Sjj1024/PakePlus-Android](https://github.com/Sjj1024/PakePlus-Android) - Biến bất kỳ trang web/Vue/React,... thành ứng dụng máy tính để bàn và di động một cách dễ dàng chỉ trong vài phút. Dễ dàng xây dựng bất kỳ website/Vue/React,... thành ứng dụng đa nền tảng nhẹ (dưới 5M) chỉ trong vài phút. https://ppofficial.netlify.app/
+- [iamgio/quarkdown](https://github.com/iamgio/quarkdown) - 🪐 Markdown với siêu năng lực — từ ý tưởng đến bài báo, thuyết trình và sách.
+- [Ackites/Nrfr](https://github.com/Ackites/Nrfr) - 🌍 Công cụ sửa đổi mã quốc gia SIM không cần Root | Giải quyết vấn đề tương thích khi chuyển vùng quốc tế, giúp sử dụng SIM nước ngoài có trải nghiệm bản địa hóa tốt hơn, mở khóa giới hạn nhà mạng, vượt qua hạn chế khu vực
+- [GuoXiCheng/SKIP](https://github.com/GuoXiCheng/SKIP) - Tự động bỏ qua quảng cáo khi mở ứng dụng
+- [you-apps/ClockYou](https://github.com/you-apps/ClockYou) - Ứng dụng đồng hồ tập trung vào quyền riêng tư, phát triển với MD3
+- [IacobIonut01/Gallery](https://github.com/IacobIonut01/Gallery) - Ứng dụng thư viện đa phương tiện cho Android được xây dựng với Jetpack Compose
+- [MetaCubeX/ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid) - Công cụ tunnel dựa trên quy tắc cho Android.
+- [MatsuriDayo/NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid) - NekoBox cho Android / sing-box / chuỗi công cụ proxy đa năng cho Android
+- [pppscn/SmsForwarder](https://github.com/pppscn/SmsForwarder) - Bộ chuyển tiếp SMS — Giám sát tin nhắn, cuộc gọi, thông báo ứng dụng trên điện thoại Android và chuyển tiếp theo quy tắc đến các thiết bị khác: robot tùy chỉnh nhóm DingTalk, robot nội bộ doanh nghiệp DingTalk, robot nhóm WeChat doanh nghiệp, robot Feishu, tin nhắn ứng dụng WeChat doanh nghiệp, email, bark, webhook, Telegram bot, Server酱, PushPlus, SMS, v.v. Bao gồm kiểm soát chủ động giữa máy chủ & máy khách, giúp bạn dễ dàng gửi SMS, kiểm tra SMS, cuộc gọi, danh bạ, pin từ xa, v.v. (V3.0 mới) Lưu ý: APK này chủ yếu là
+- [celzero/rethink-app](https://github.com/celzero/rethink-app) - Ứng dụng khách DNS qua HTTPS / DNS qua Tor / DNSCrypt, WireGuard proxifier, tường lửa, và theo dõi kết nối cho Android.
+- [JunkFood02/Seal](https://github.com/JunkFood02/Seal) - 🦭 Trình tải Video/Âm thanh cho Android, dựa trên yt-dlp, thiết kế theo Material You
+- [wenzewoo/jetbrains-markdown-image-support](https://github.com/wenzewoo/jetbrains-markdown-image-support) - Trình soạn thảo Markdown hỗ trợ tải ảnh lên chỉ bằng một cú nhấp, áp dụng cho các sản phẩm phổ biến của JetBrains.                           Trình soạn thảo Markdown hỗ trợ tải ảnh lên chỉ bằng một cú nhấp, phù hợp với các sản phẩm phổ biến của Jetbrains.
+- [Shabinder/SpotiFlyer](https://github.com/Shabinder/SpotiFlyer) - Bộ tải nhạc Kotlin đa nền tảng, hỗ trợ Spotify / Gaana / Youtube Music / Jio Saavn / SoundCloud.
+- [SagerNet/SagerNet](https://github.com/SagerNet/SagerNet) - Chuỗi công cụ proxy đa năng cho Android
+- [2dust/v2rayNG](https://github.com/2dust/v2rayNG) - Ứng dụng khách V2Ray cho Android, hỗ trợ Xray core và v2fly core
+- [topjohnwu/Magisk](https://github.com/topjohnwu/Magisk) - Magic Mask cho Android
+- [fan123199/v2ex-simple](https://github.com/fan123199/v2ex-simple) - Ứng dụng Android bên thứ 3 đơn giản dành cho v2ex
+## LLVM 
+
+- [llvm/llvm-project](https://github.com/llvm/llvm-project) - Dự án LLVM là một tập hợp các công nghệ trình biên dịch và bộ công cụ có tính mô-đun và có thể tái sử dụng.
+
+## Lua 
+
+- [iDvel/rime-ice](https://github.com/iDvel/rime-ice) - Cấu hình Rime: Wusong Pinyin | Bộ từ điển giản thể được duy trì lâu dài
+- [AstroNvim/AstroNvim](https://github.com/AstroNvim/AstroNvim) - AstroNvim là một cấu hình neovim thẩm mỹ và giàu tính năng, dễ mở rộng và dễ sử dụng với bộ plugin tuyệt vời
+- [craftzdog/dotfiles-public](https://github.com/craftzdog/dotfiles-public) - Dotfiles cá nhân của tôi
+- [jdhao/nvim-config](https://github.com/jdhao/nvim-config) - Cấu hình Neovim hiện đại với đầy đủ pin cho Python, Lua, C++, Markdown, LaTeX, và nhiều hơn nữa...
+- [FraserLee/ScratchPad](https://github.com/FraserLee/ScratchPad) - Plugin tự động căn giữa các buffer neovim với một scratchpad hữu ích và lưu trữ lâu dài ở bên cạnh
+
+## MATLAB 
+
+- [scottclowe/matlab-schemer](https://github.com/scottclowe/matlab-schemer) - Áp dụng và lưu các bảng màu trong MATLAB một cách dễ dàng.
+
+## MDX 
+
+- [EvanNotFound/how-to-deal-with-my-crush](https://github.com/EvanNotFound/how-to-deal-with-my-crush) - Một hướng dẫn về tình cảm tự cho là đúng
+- [mk965/mengke.me](https://github.com/mk965/mengke.me) - Ngôi nhà 🏠 của tôi trên ☁️. Portfolio, trình diễn, mã mẫu, và nhật ký phát triển
+- [lvwzhen/law-cn-ai](https://github.com/lvwzhen/law-cn-ai) - ⚖️ Trợ lý pháp lý AI
+- [cloudflare/cloudflare-docs](https://github.com/cloudflare/cloudflare-docs) - Tài liệu của Cloudflare
+- [yangshun/front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook) - 🌐 Tài liệu chuẩn bị phỏng vấn Front End cho kỹ sư bận rộn (cập nhật cho năm 2025)
+- [twbs/bootstrap](https://github.com/twbs/bootstrap) - Framework HTML, CSS, và JavaScript phổ biến nhất để phát triển các dự án web đáp ứng, ưu tiên di động.
+## Makefile 
+
+- [Ewenwan/Ros](https://github.com/Ewenwan/Ros) - Hệ điều hành robot ROS, nhận dạng giọng nói, hiểu ngữ nghĩa, điều khiển thị giác, mô phỏng gazebo, dẫn đường lập bản đồ radar
+- [yuk7/ArchWSL](https://github.com/yuk7/ArchWSL) - Bản phân phối WSL dựa trên ArchLinux. Hỗ trợ cài đặt đa phiên bản.
+
+## Markdown 
+
+- [Schweinepriester/github-profile-achievements](https://github.com/Schweinepriester/github-profile-achievements) - Bộ sưu tập liệt kê tất cả các Thành Tích có sẵn trên hồ sơ GitHub 🏆
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) - Làm chủ lập trình bằng cách tái tạo các công nghệ yêu thích từ đầu.
+- [jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command) - Công cụ tìm kiếm tổng hợp lệnh Linux, bao gồm hướng dẫn, giải thích chi tiết, học tập, thu thập. https://git.io/linux
+- [MicrosoftDocs/azure-docs](https://github.com/MicrosoftDocs/azure-docs) - Tài liệu nguồn mở của Microsoft Azure
+- [tldr-pages/tldr](https://github.com/tldr-pages/tldr) - 📚 Bảng gian lận hợp tác cho các lệnh console
+- [microsoft/vscode-docs](https://github.com/microsoft/vscode-docs) - Tài liệu công khai cho Visual Studio Code
+
+## Mermaid 
+
+- [v2fly/v2ray-examples](https://github.com/v2fly/v2ray-examples) - Các mẫu của v2ray-core
+
+## Meson 
+
+- [elementary/wallpapers](https://github.com/elementary/wallpapers) - Bộ sưu tập hình nền cho elementary OS
+## Objective-C 
+
+- [MustangYM/WeChatExtension-ForMac](https://github.com/MustangYM/WeChatExtension-ForMac) - Một plugin cho WeChat trên Mac
+
+## Khác 
+
+- [lTbgykio/Books-Free-Books](https://github.com/lTbgykio/Books-Free-Books) - Tổng hợp sách miễn phí.　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+- [LOWERTOP/Shadowrocket-First](https://github.com/LOWERTOP/Shadowrocket-First) - Cấu hình và phối màu cho Shadowrocket
+- [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Trae AI & Cluely (Và các System Prompts, Công cụ & Mô hình AI mã nguồn mở khác).
+- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - Bộ sưu tập các máy chủ MCP.
+- [zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization) - Học khỏe đến 150 tuổi - Hướng dẫn tối ưu hệ thống cơ thể người không hoàn chỉnh
+- [SpaceTimee/Fusion-JetBrainsMapleMono](https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono) - JetBrains Maple Mono: Phông chữ miễn phí và mã nguồn mở kết hợp JetBrains Mono & Maple Mono
+- [ZJU-LLMs/Foundations-of-LLMs](https://github.com/ZJU-LLMs/Foundations-of-LLMs) - 
+- [IQAQI233/611Study.ICU](https://github.com/IQAQI233/611Study.ICU) - Hiện nay, hầu hết học sinh trung học phổ thông Trung Quốc bị ép học 611, từ 6h sáng đến 11h đêm, 6 ngày/tuần. Đáng buồn là nhiều học sinh tự tử hoặc gặp vấn đề sức khỏe tâm thần nghiêm trọng. Lấy cảm hứng từ dự án 996.i
+- [VIP-Share/Baidu-XunleiVIP](https://github.com/VIP-Share/Baidu-XunleiVIP) - Chia sẻ hàng ngày tài khoản siêu VIP Baidu Netdisk, thành viên Xunlei, iQIYI, cùng với Youku, Tencent, Mango và các VIP khác. VÀ. Chia sẻ công cụ tăng tốc không giới hạn Baidu Netdisk (Baidu Cloud).
+- [pengsida/learning_research](https://github.com/pengsida/learning_research) - Kinh nghiệm nghiên cứu khoa học cá nhân
+- [wgwang/awesome-LLMs-In-China](https://github.com/wgwang/awesome-LLMs-In-China) - Các mô hình ngôn ngữ lớn của Trung Quốc
+- [JnuSimba/MiscSecNotes](https://github.com/JnuSimba/MiscSecNotes) - Một số ghi chú học tập về Bảo mật Ứng dụng Web, Kiểm thử xâm nhập
+- [P3TERX/GeoLite.mmdb](https://github.com/P3TERX/GeoLite.mmdb) - Cơ sở dữ liệu GeoIP2 GeoLite2 Quốc gia, Thành phố và ASN của MaxMind
+- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers) - 🚀 Địa chỉ đăng ký miễn phí, 🚀 Node miễn phí, 🚀 Cập nhật mỗi 6 giờ, node chia sẻ, node chất lượng cao, hoàn toàn miễn phí. Địa chỉ đăng ký clash miễn phí, vượt tường lửa miễn phí, khoa học internet miễn phí, ladder miễn phí, node ss/v2ray/trojan miễn phí, Google Play, ladder vượt tường lửa miễn phí.
+- [billmei/every-chatgpt-gui](https://github.com/billmei/every-chatgpt-gui) - Tất cả các giao diện GUI phía trước cho ChatGPT, Claude và các LLM khác
+- [zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare) - ⛅️ Danh sách công cụ, dự án mã nguồn mở, hướng dẫn, blog và tài nguyên Cloudflare được chọn lọc.
+- [zbezj/HEU_KMS_Activator](https://github.com/zbezj/HEU_KMS_Activator) - 
+- [tuna/issues](https://github.com/tuna/issues) - Vấn đề không liên quan đến mã nguồn
+- [bamf2077/secure-dns](https://github.com/bamf2077/secure-dns) - Hồ sơ cấu hình DNS an toàn cho thiết bị Apple. Hồ sơ cấu hình DNS over HTTPS (DoH) & DNS over TLS (DoT) cho iOS, iPadOS & macOS.
+- [TsinghuaMemes/TsinghuaMemes](https://github.com/TsinghuaMemes/TsinghuaMemes) - Để tránh không hiểu các thành viên nói gì khi trò chuyện nhóm
+- [mlabonne/llm-course](https://github.com/mlabonne/llm-course) - Khóa học để tiếp cận các Mô hình Ngôn ngữ Lớn (LLMs) với lộ trình và Colab notebooks.
+- [maxujie/awesome-tsinghua](https://github.com/maxujie/awesome-tsinghua) - Tổng hợp các repo thú vị liên quan đến Đại học Thanh Hoa (Tsinghua University)
+- [easychen/lean-side-bussiness](https://github.com/easychen/lean-side-bussiness) - Kinh doanh phụ tinh gọn: Lập trình viên làm kinh doanh phụ một cách tao nhã như thế nào
+- [Wsky51/THU-CS912-kaoyan](https://github.com/Wsky51/THU-CS912-kaoyan) - Đề thi thật các năm, đề thi sinh viên hệ đại học và ppt các môn học liên quan đến CS912 Đại học Thanh Hoa
+- [MerlinKodo/clash-rev](https://github.com/MerlinKodo/clash-rev) - Tiếp nối dự án Clash core
+- [THU-feiyue/docs](https://github.com/THU-feiyue/docs) - Sổ tay hướng dẫn "Bay cao" Đại học Thanh Hoa
+- [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) - 🦄 🎃 👻 Tập tin quy tắc định tuyến V2Ray phiên bản nâng cao, có thể thay thế geoip.dat và geosite.dat chính thức của V2Ray, dùng cho V2Ray, Xray-core, mihomo(Clash-Meta), hysteria, Trojan-Go, leaf.
+- [huaweiii/HWGaussDB](https://github.com/huaweiii/HWGaussDB) - Cơ sở dữ liệu GaussDB - Tự chủ hoàn toàn, phá vỡ thế độc quyền nước ngoài, nhanh hơn PostgreSQL 600%.
+- [cloudcommunity/Cloud-Free-Tier-Comparison](https://github.com/cloudcommunity/Cloud-Free-Tier-Comparison) - So sánh các gói miễn phí của các nhà cung cấp đám mây lớn như AWS, Azure, GCP, Oracle, v.v.
+- [iamshuaidi/CS-Book](https://github.com/iamshuaidi/CS-Book) - Tổng hợp ebook thường dùng ngành Khoa học Máy tính, kèm link tải, gồm Java, Python, Linux, Go, C, C++, cấu trúc dữ liệu & giải thuật, AI, cơ sở máy tính, phỏng vấn, mẫu thiết kế, cơ sở dữ liệu, front-end, v.v.
+- [immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate) - Tiện ích mở rộng dịch song ngữ trang web, hỗ trợ dịch ô nhập, di chuột dịch, dịch PDF, Epub, file phụ đề, file TXT
+- [megaease/Remembering-Haoel](https://github.com/megaease/Remembering-Haoel) - Ghi lại những ký ức của bạn về Zuo Erduo Haozi (Chen Hao)
+- [cursor/cursor](https://github.com/cursor/cursor) - Trình soạn thảo mã AI
+- [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) - Awesome-LLM: danh sách chọn lọc về Mô hình Ngôn ngữ Lớn
+- [dalinvip/Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT) - Tổng hợp tài liệu ChatGPT, cập nhật liên tục......
+- [v2fly/v2ray-step-by-step](https://github.com/v2fly/v2ray-step-by-step) - Repo này là fork của ToutyRater/v2ray-guide, cung cấp hướng dẫn từng bước mới cho v2ray
+- [davinci1010/pinduoduo_backdoor](https://github.com/davinci1010/pinduoduo_backdoor) - Phân tích mã nâng quyền tích hợp trong apk Pinduoduo và phân tích dex được phân phối động
+- [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - Hướng dẫn điều chỉnh ChatGPT bằng tiếng Trung. Hướng dẫn sử dụng trong nhiều tình huống. Học cách để nó nghe lời bạn.
+- [noobnooc/noobnooc](https://github.com/noobnooc/noobnooc) - Hồ sơ cá nhân của tôi
+- [jesselau76/GPT-Prompts](https://github.com/jesselau76/GPT-Prompts) - Các GPT Prompts hữu ích
+- [humanloop/awesome-chatgpt](https://github.com/humanloop/awesome-chatgpt) - Danh sách chọn lọc các công cụ, demo, tài liệu tuyệt vời cho ChatGPT và GPT-3
+- [erbanku/erbanku](https://github.com/erbanku/erbanku) - 
+- [dukeluo/awesome-awesome-prompts](https://github.com/dukeluo/awesome-awesome-prompts) - Danh sách tuyệt vời thu thập các danh sách liên quan đến kỹ thuật prompt.
+- [mushan0x0/AI0x0.com](https://github.com/mushan0x0/AI0x0.com) - Ứng dụng trợ lý AI toàn năng nổi đa mô hình đa chế độ, nổi toàn cầu trên desktop
+- [apachecn/huazhang-econ-mgt-book](https://github.com/apachecn/huazhang-econ-mgt-book) - :book: Sách kinh tế quản lý Hoa Chương bản scan độ nét cao
+- [tuic-protocol/tuic](https://github.com/tuic-protocol/tuic) - Giao thức proxy 0-RTT tinh chỉnh TUIC
+- [Alice-space/PKU-OpenWrt](https://github.com/Alice-space/PKU-OpenWrt) - Cách cấu hình OpenWrt tại PKU
+- [eliaszon/Programmers-Overseas-Job-Interview-Handbook](https://github.com/eliaszon/Programmers-Overseas-Job-Interview-Handbook) - 🏂🏻 Sổ tay phỏng vấn xin việc/tiếng Anh cho lập trình viên làm việc ở nước ngoài
+- [lukeed/awesome-cloudflare-workers](https://github.com/lukeed/awesome-cloudflare-workers) - 😎 Danh sách tuyệt vời về Cloudflare Workers
+- [LUKE-ZZ/thuthesis-biomedical](https://github.com/LUKE-ZZ/thuthesis-biomedical) - Mẫu luận văn latex tốt nghiệp cho các ngành Sinh học, Y học, Dược học Đại học Thanh Hoa. Cũng thích hợp với các ngành khác. Phù hợp cho luận văn tốt nghiệp đại học, thạc sĩ, tiến sĩ và báo cáo sau tiến sĩ. Dựa trên dự án thuthesis của hội tuna, bổ sung nội dung liên quan đến sinh y dược và các chú thích thân thiện cho người mới latex.
+- [oneclickearth/oneclick](https://github.com/oneclickearth/oneclick) - Khoa học internet/tự do internet/vượt tường lửa/phần mềm, Hướng dẫn khoa học internet 2021
+- [k88hudson/git-flight-rules](https://github.com/k88hudson/git-flight-rules) - Quy tắc sử dụng git
+- [rockbenben/LearnData](https://github.com/rockbenben/LearnData) - Ghi chú tự nâng cao bản thân về công cụ mã nguồn mở, phương pháp tăng hiệu suất, khám phá tâm lý học
+- [fredliu168/TheEconomist2022](https://github.com/fredliu168/TheEconomist2022) - Đọc trực tuyến tạp chí The Economist năm 2022, bao gồm cả âm thanh, nếu không truy cập được qua tên miền, hãy vào http://157.230.57.119:8888
+- [myseil/BingWallpaper](https://github.com/myseil/BingWallpaper) - Sưu tầm hình nền Bing mỗi ngày
+- [Ethkuil/awesome-thu-student-software](https://github.com/Ethkuil/awesome-thu-student-software) - Tổng hợp phần mềm mã nguồn mở thực tế do sinh viên Đại học Thanh Hoa phát triển/bảo trì.
+- [HelinXu/THUDA-9](https://github.com/HelinXu/THUDA-9) - Ghi chú môn học của Khoa Tự động hóa Đại học Thanh Hoa
+- [DerDanilo/seafile-community-manual](https://github.com/DerDanilo/seafile-community-manual) - Sổ tay cộng đồng Seafile cho Seafile CE
+- [runvnc/dadsresume](https://github.com/runvnc/dadsresume) - Sơ yếu lý lịch và kỹ năng của cha tôi từ năm 1980
+- [SurviveSJTU/SurviveSJTUManual](https://github.com/SurviveSJTU/SurviveSJTUManual) - Cập nhật phiên bản 2008 của "Sổ tay sinh tồn Đại học Giao thông Thượng Hải" phát hành gitbook tại https://survivesjtu.gitbook.io/survivesjtumanual/
+- [dy-sh/one-dark-potplayer-theme](https://github.com/dy-sh/one-dark-potplayer-theme) - Giao diện PotPlayer lấy cảm hứng từ Atom One Dark
+- [vscode-ext-studio/OneDark-Modern](https://github.com/vscode-ext-studio/OneDark-Modern) - 
+- [bighuang624/AI-research-tools](https://github.com/bighuang624/AI-research-tools) - :hammer:Các công cụ nghiên cứu hữu ích cho AI
+- [jotaen/xit](https://github.com/jotaen/xit) - Định dạng tệp văn bản thuần cho danh sách việc cần làm và checklist
+- [ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix) - Bộ sưu tập các lệnh unix hiện đại/nhanh hơn/hợp lý hơn thay thế cho các lệnh unix phổ biến.
+- [opsre/Thanks-Mirror](https://github.com/opsre/Thanks-Mirror) - Tổng hợp ghi chú các mirror hữu ích của các trình quản lý gói, hệ thống, phần mềm phổ biến, Thanks Mirror.     Nếu thấy hữu ích, hãy cho một like 👆🌟
+- [KeiKinn/ShadowsocksBio](https://github.com/KeiKinn/ShadowsocksBio) - Ghi lại quá trình phát triển của Shadowsocks, kèm hướng dẫn đơn giản
+- [eryajf/awesome-github-profile-readme-chinese](https://github.com/eryajf/awesome-github-profile-readme-chinese) - 🦩 Tổng hợp các trang hồ sơ cá nhân GitHub tiếng Trung xuất sắc
+- [lesuixin/v2ray-cf](https://github.com/lesuixin/v2ray-cf) - Hướng dẫn đơn giản tăng tốc v2ray qua Cloudflare không cần tên miền
+- [irazasyed/awesome-cloudflare](https://github.com/irazasyed/awesome-cloudflare) - ⛅️ Danh sách chọn lọc các công thức Cloudflare worker, dự án mã nguồn mở, hướng dẫn, blog và tài nguyên khác.
+- [PicGo/Awesome-PicGo](https://github.com/PicGo/Awesome-PicGo) - Bộ sưu tập các dự án tuyệt vời sử dụng PicGo.
+- [nicejade/nice-front-end-tutorial](https://github.com/nicejade/nice-front-end-tutorial) - 🌍  Tài nguyên front-end cập nhật liên tục, hướng dẫn, quan điểm (Tài nguyên front-end cập nhật theo thời đại).
+- [eryajf/learning-weekly](https://github.com/eryajf/learning-weekly) - 📝 Nội dung tuần chủ yếu về công nghệ vận hành và Go, bổ sung các dự án xuất sắc hoặc kinh nghiệm của người khác trên GitHub. Hoan nghênh star, like và lưu lại 👆🌟
+- [dair-ai/ML-Course-Notes](https://github.com/dair-ai/ML-Course-Notes) - 🎓 Chia sẻ ghi chú các khóa học/bài giảng học máy.
+- [sirredbeard/awesome-wsl](https://github.com/sirredbeard/awesome-wsl) - Danh sách tuyệt vời dành riêng cho Windows Subsystem for Linux
+- [GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) - Chia sẻ kiên trì các hướng dẫn công nghệ mã nguồn mở chất lượng cao, hữu ích, thú vị trên GitHub. Danh sách các dự án thú vị, hữu ích trên GitHub.
+- [steam3d/MagicPods-Windows](https://github.com/steam3d/MagicPods-Windows) - Thêm chút phép thuật cho Airpods của bạn
+- [dair-ai/ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses) - 📺 Khám phá các khóa học máy học/trí tuệ nhân tạo mới nhất trên YouTube.
+- [ImCa0/just-laws](https://github.com/ImCa0/just-laws) - Một thư viện luật Trung Quốc đơn giản, tiện lợi | A Simple and Convenient Laws Library of China.
+- [github/codeql-cli-binaries](https://github.com/github/codeql-cli-binaries) - Tập tin nhị phân cho CodeQL CLI
+- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - Bộ sưu tập các danh sách truyền cảm hứng, sổ tay, cheatsheet, blog, hack, one-liner, công cụ cli/web, v.v.
+- [brave/goggles-quickstart](https://github.com/brave/goggles-quickstart) - Tài liệu học để hiểu về Goggles và cách tự tạo Goggles
+- [iggredible/Learn-Vim](https://github.com/iggredible/Learn-Vim) - Học Vim và Vimscript không khó. Đây là hướng dẫn bạn đang tìm kiếm 📖
+- [fatalerror-i/ThuWordThesis](https://github.com/fatalerror-i/ThuWordThesis) - Mẫu luận văn Word cho Đại học Thanh Hoa. A Word thesis template for Tsinghua University.
+- [pb0316/thuhole_memories](https://github.com/pb0316/thuhole_memories) - 
+- [jiegec/dcst-facts](https://github.com/jiegec/dcst-facts) - Thông tin về DCST của Đại học Thanh Hoa
+- [microsoft/vscode-loc](https://github.com/microsoft/vscode-loc) - Tiện ích mở rộng bản địa hóa VS Code
+- [mangecoeur/AcademicMarkdown](https://github.com/mangecoeur/AcademicMarkdown) - Tiện ích mở rộng MarkdownEditing cho viết bài học thuật
+- [linuxkerneltravel/linux_kernel_wiki](https://github.com/linuxkerneltravel/linux_kernel_wiki) - Tài liệu học linux kernel: 200+ bài viết kinh điển, 100+ bài báo khoa học, 50+ dự án kernel, 500+ câu hỏi phỏng vấn kernel, 80+ video kernel
+- [GyanD/codexffmpeg](https://github.com/GyanD/codexffmpeg) - Hỗ trợ cho https://www.gyan.dev/ffmpeg
+- [scottclowe/matlab-schemes](https://github.com/scottclowe/matlab-schemes) - Bộ sưu tập bảng màu cho MATLAB
+- [skyiea/rememberry-i10n](https://github.com/skyiea/rememberry-i10n) - Bản địa hóa cho Rememberry
+- [rzashakeri/beautify-github-profile](https://github.com/rzashakeri/beautify-github-profile) - Repo này sẽ giúp bạn tạo hồ sơ github đẹp hơn, đồng thời bạn sẽ có quyền truy cập vào đầy đủ công cụ và hướng dẫn để làm đẹp hồ sơ github của mình.
+- [Jonezhen/CSBook](https://github.com/Jonezhen/CSBook) - 
+- [ripperhe/Bob](https://github.com/ripperhe/Bob) - Bob là phần mềm dịch thuật và OCR cho macOS.
+- [SwiftOldDriver/iOS-Weekly](https://github.com/SwiftOldDriver/iOS-Weekly) - 🇨🇳 IOS Weekly dành cho lập trình viên kỳ cựu
+- [comwrg/package-manager-proxy-settings](https://github.com/comwrg/package-manager-proxy-settings) - Ghi chú về cài đặt proxy của các trình quản lý gói.
+- [liuchengxu/git-commit-emoji-cn](https://github.com/liuchengxu/git-commit-emoji-cn) - 😁 Hướng dẫn sử dụng emoji trong git commit message
+- [aishalih/sfwin](https://github.com/aishalih/sfwin) - SFWin — Font San Francisco cho Windows 10 và các nền tảng không phải Apple.
+- [aooiuu/z-reader](https://github.com/aooiuu/z-reader) - 📘 [Tiện ích vscode] Trình đọc tiểu thuyết, hỗ trợ tìm kiếm trực tuyến và đọc tại chỗ, hỗ trợ định dạng txt và epub
+- [inkscape/inkscape](https://github.com/inkscape/inkscape) - Trang web dự án: https://inkscape.org - Kho mã nguồn: https://gitlab.com/inkscape/inkscape - Vẽ tự do. 🖌
+- [taunoe/arduino-dark-theme](https://github.com/taunoe/arduino-dark-theme) - Chủ đề tối cho Arduino!
+- [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules) - 🦄️ 🎃 👻 Bộ quy tắc Clash Premium (RULE-SET), tương thích với ClashX Pro, Clash for Windows và các client dựa trên lõi Clash Premium.
+- [sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines) - Hướng dẫn trình bày văn bản tiếng Trung cho giao tiếp tốt hơn／Chinese copywriting guidelines for better written communication.
+- [woct0rdho/pkuholebackup](https://github.com/woct0rdho/pkuholebackup) - 
+- [Keldos-Li/typora-latex-theme-fonts](https://github.com/Keldos-Li/typora-latex-theme-fonts) - 
+- [geekan/HowToLiveLonger](https://github.com/geekan/HowToLiveLonger) - Hướng dẫn kéo dài tuổi thọ cho lập trình viên | A programmer's guide to live longer
+- [gaocegege/my-github-status](https://github.com/gaocegege/my-github-status) - 
+- [fat0troll/terminalus](https://github.com/fat0troll/terminalus) - Chủ đề Terminal.app lấy cảm hứng từ bảng màu Termius iOS
+- [clarketm/proxy-list](https://github.com/clarketm/proxy-list) - Danh sách proxy chuyển tiếp miễn phí, công khai. CẬP NHẬT HÀNG NGÀY!
+- [ShiftyTR/Proxy-List](https://github.com/ShiftyTR/Proxy-List) - Danh sách proxy miễn phí CẬP NHẬT HÀNG GIỜ! -- để dùng api truy cập
+- [623637646/996.Leave](https://github.com/623637646/996.Leave) - Thoát khỏi 996
+- [The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run) - GITHUB chính thức toàn cầu của Run học, tổng hợp tôn chỉ, cương lĩnh, lý thuyết và các ví dụ của Run học; giải quyết ba vấn đề lớn: tại sao Run, Run đi đâu, Run như thế nào; và trở thành tôn giáo cốt lõi, niềm tin cốt lõi của người Trung Quốc mới.
+- [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) - Danh sách chọn lọc các hướng dẫn dựa trên dự án
+- [veeral-patel/how-to-secure-anything](https://github.com/veeral-patel/how-to-secure-anything) - Cách bảo mật mọi thứ một cách có hệ thống: một kho lưu trữ về kỹ thuật bảo mật
+- [ossu/data-science](https://github.com/ossu/data-science) - 📊 Lộ trình tự học miễn phí về Khoa học Dữ liệu!
+- [lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions) - Danh sách dài các câu hỏi (nâng cao) về JavaScript, kèm giải thích :sparkles:
+- [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) - Bộ sách (2 ấn bản đã xuất bản) về ngôn ngữ JS.
+- [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - Kế hoạch học khoa học máy tính hoàn chỉnh để trở thành kỹ sư phần mềm.
+- [DhanushNehru/Ultimate-NodeJs-Resources](https://github.com/DhanushNehru/Ultimate-NodeJs-Resources) - Tất cả tài nguyên liên quan đến Node Js ở một nơi
+- [Paladinfeng/MiaoProject](https://github.com/Paladinfeng/MiaoProject) - Phản hồi lỗi dự án Miao
+- [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) - Bộ sưu tập ý tưởng ứng dụng để cải thiện kỹ năng lập trình của bạn.
+- [warpdotdev/Warp](https://github.com/warpdotdev/Warp) - Warp là môi trường phát triển agentic, được xây dựng để lập trình với nhiều AI agent.
+- [Infatuation-Fei/rule](https://github.com/Infatuation-Fei/rule) - Quy tắc sử dụng cá nhân
+- [MicrosoftDocs/WSL](https://github.com/MicrosoftDocs/WSL) - Mã nguồn tài liệu cho Windows Subsystem for Linux.
+- [Serendipity-Theme/windows-terminal](https://github.com/Serendipity-Theme/windows-terminal) - Chủ đề Serendipity được chuyển sang Windows Terminal.
+- [Serendipity-Theme/vs-code](https://github.com/Serendipity-Theme/vs-code) - Thư thái, nhẹ nhàng và hiện đại.
+- [Serendipity-Theme/template-for-repositories](https://github.com/Serendipity-Theme/template-for-repositories) - Mẫu dành cho các kho lưu trữ chủ đề chuyển đổi
+- [xuehu54321/awesome-music-for-programming](https://github.com/xuehu54321/awesome-music-for-programming) - Nhạc hay khi lập trình. Âm nhạc hay khi lập trình, hãy cùng chia sẻ nhạc bạn nghe khi lập trình!
+- [soulteary/docker-flare](https://github.com/soulteary/docker-flare) - Flare ✨ Trang điều hướng tự host nhẹ, hiệu suất cao và nhanh, tỷ lệ sử dụng tài nguyên &lt;1% CPU, MEM &lt;30 M, Docker Image &lt; 10M
+- [jCodeLife/mind-map](https://github.com/jCodeLife/mind-map) - 🖼Ghi chú bản đồ tư duy cá nhân, đã tổng hợp JS, TS, Vue, React ... liên tục cập nhật, hoan nghênh PR và Start~
+- [coder2gwy/coder2gwy](https://github.com/coder2gwy/coder2gwy) - Hướng dẫn lập trình viên thi công chức đầu tiên trên Internet, được đồng sáng lập bởi 3 cựu lập trình viên từ các tập đoàn lớn đã vào thể chế.
+- [georgezzzh/homepage](https://github.com/georgezzzh/homepage) - 
+- [996icu/996.ICU](https://github.com/996icu/996.ICU) - Kho để đếm sao và đóng góp. Nhấn F để tưởng nhớ các lập trình viên vĩ đại.
+- [danyspin97/TelegramBotsList](https://github.com/danyspin97/TelegramBotsList) - Danh sách tất cả mã nguồn bot Telegram được lưu trữ trên github.
+- [GorvGoyl/Clone-Wars](https://github.com/GorvGoyl/Clone-Wars) - 100+ bản mã nguồn mở của các trang nổi tiếng như Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube, v.v. Xem mã nguồn, liên kết demo, công nghệ sử dụng, số sao github.
+- [github/gitignore](https://github.com/github/gitignore) - Bộ sưu tập các mẫu .gitignore hữu ích
+- [gqcn/effective-go-zh-en](https://github.com/gqcn/effective-go-zh-en) - 《Effective Go》bản song ngữ Trung-Anh
+- [sublime-china/sublime-merge-chinese](https://github.com/sublime-china/sublime-merge-chinese) - Bản Trung hóa của Sublime Merge
+- [facelessuser/merge-dracula-theme](https://github.com/facelessuser/merge-dracula-theme) - Chủ đề Dracula cho Sublime Merge
+- [konrad91/OneDarkArduino](https://github.com/konrad91/OneDarkArduino) - Chủ đề tối cho Arduino IDE, lấy cảm hứng từ One Dark Pro cho VSCode bởi binaryify
+- [AbhishekGhosh/Arduino-Themes](https://github.com/AbhishekGhosh/Arduino-Themes) - Bộ sưu tập chủ đề Arduino IDE do cộng đồng tạo ra
+- [shengcaishizhan/kkndme_tianya](https://github.com/shengcaishizhan/kkndme_tianya) - Bài viết thần kkndme trên Tianya bàn về giá nhà
+- [axipo/TrafficBlackhole](https://github.com/axipo/TrafficBlackhole) - Đánh giá chất lượng mạng & dịch vụ proxy
+- [bestxtools/weekly-cn](https://github.com/bestxtools/weekly-cn) - Khám phá và chia sẻ các công cụ thú vị, sáng tạo, miễn phí, hữu ích, phát hành vào thứ Năm hàng tuần.
+- [coderit666/GoGuide](https://github.com/coderit666/GoGuide) - 「Hướng dẫn học Go」bao quát hầu hết kiến thức cốt lõi mà lập trình viên Golang cần nắm, gồm hướng dẫn, sách mã nguồn mở, tài liệu nhập môn, lộ trình học. Học Go từ cơ bản đến nâng cao, chọn GoGuide.
+- [andredelft/typora-tailwind-theme](https://github.com/andredelft/typora-tailwind-theme) - Bố cục kiểu chữ Tailwind đẹp cho Typora.
+- [viraptor/reverse-interview](https://github.com/viraptor/reverse-interview) - Các câu hỏi để hỏi công ty khi phỏng vấn
+- [perkfly/reverse-interview-zh](https://github.com/perkfly/reverse-interview-zh) - Câu hỏi phản vấn kỹ thuật cuối buổi phỏng vấn dành cho nhà tuyển dụng
+- [imageslr/typora-theme-bear](https://github.com/imageslr/typora-theme-bear) - Bộ chủ đề Typora lấy cảm hứng từ Bear, tổng cộng hơn 20 mẫu.
+- [7-sevens/Developer-Books](https://github.com/7-sevens/Developer-Books) - Danh sách sách liên quan đến phát triển phần mềm
+- [czs108/Cpp-Primer-5th-Notes-CN](https://github.com/czs108/Cpp-Primer-5th-Notes-CN) - 📚 Ghi chú 《C++ Primer phiên bản tiếng Trung (lần 5)》
+- [ShameCom/ShameCom](https://github.com/ShameCom/ShameCom) - Thu thập các công ty hoặc tổ chức có vết nhơ trong tuyển dụng, giúp sinh viên tránh rủi ro. Internet không bao giờ quên!
+- [csseky/cskaoyan](https://github.com/csseky/cskaoyan) - Cung cấp đề thi thật cho các trường chuyên ngành Khoa học máy tính và Kỹ thuật phần mềm
+- [Simizfo/WSATools](https://github.com/Simizfo/WSATools) - Trình cài đặt APK dễ sử dụng và hơn thế nữa cho Windows Subsystem for Android
+- [SPX372928/MyIPTV](https://github.com/SPX372928/MyIPTV) - Nguồn phát trực tiếp di động theo giao thức chuẩn
+- [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists) - Danh sách tổng hợp các API miễn phí dùng cho phát triển phần mềm và web 🚀
+- [Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo) - Tổng hợp các dự án mã nguồn mở chất lượng, thú vị trên GitHub.
+- [imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8) - Tổng hợp tài nguyên nguồn phát trực tiếp 📺 💯 IPTV, M3U —— Rửa tay thường xuyên, đeo khẩu trang, chúc mọi người bình an
+- [methylcloud/learn-gcp](https://github.com/methylcloud/learn-gcp) - Tài nguyên học tập về Google Cloud Platform (GCP)
+- [awsdocs/amazon-ec2-user-guide-windows](https://github.com/awsdocs/amazon-ec2-user-guide-windows) - Phiên bản mã nguồn mở của Hướng dẫn sử dụng Amazon EC2 cho Windows. Để gửi phản hồi hoặc đề xuất thay đổi, gửi issue hoặc pull request.
+- [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) - Cung cấp nhiều quy tắc Shadowrocket, khả năng lọc quảng cáo mạnh mẽ. Tái tạo quy tắc mỗi ngày lúc 8h sáng.
+- [AlenZhang-Dev/News-Record](https://github.com/AlenZhang-Dev/News-Record) - Hiện đang chủ yếu duy trì các bài báo của The Economist, The New Yorker và Time
+- [jeffreyxuan/toneoz-font-pinyin-kai](https://github.com/jeffreyxuan/toneoz-font-pinyin-kai) - 
+- [lanceliao/china-holiday-calender](https://github.com/lanceliao/china-holiday-calender) - Lịch nghỉ lễ, điều chỉnh, làm bù Trung Quốc 2023-2025, định dạng ICS, dùng cho IPhone, Google Calendar, Outlook... kèm API ngày nghỉ lễ
+- [tokyo-night/tokyo-night-vscode-theme](https://github.com/tokyo-night/tokyo-night-vscode-theme) - Chủ đề Visual Studio Code tối, sạch sẽ, lấy cảm hứng từ ánh sáng Tokyo về đêm.
+- [Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules) - 🦄 🎃 👻 Bộ quy tắc Surge (DOMAIN-SET và RULE-SET), dành cho khách hàng Surge for iOS và Surge for Mac.
+- [OpenRunner/clash-freenode](https://github.com/OpenRunner/clash-freenode) - Địa chỉ đăng ký 🚀 Chia sẻ miễn phí♻️ Cập nhật định kỳ✨ Khoa học lướt web🌈 Không lạm dụng🚫 Đăng ký một chạm📪SSR/CLASH/V2RAY
+- [Sxela/ArcaneGAN](https://github.com/Sxela/ArcaneGAN) - ArcaneGAN
+- [60ss/Npp-1-Dark](https://github.com/60ss/Npp-1-Dark) - Chủ đề One Dark Syntax cho Notepad++
+- [rdev/vscode-theme-onedark-spacegray](https://github.com/rdev/vscode-theme-onedark-spacegray) - Chủ đề VSCode dựa trên chủ đề One Dark của Atom
+- [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD) - Hướng đến trở thành danh sách lọc quảng cáo hiệu quả nhất cho khu vực Trung Quốc, đạt lọc quảng cáo chính xác và bảo vệ quyền riêng tư. Hỗ trợ AdGuardHome, dnsmasq, Surge, Pi-Hole, Clash, mihomo, smartdns, sing-box, v.v. Tương thích đầy đủ với các định dạng lọc quảng cáo phổ biến.
+- [Mosney/anti-anti-AD](https://github.com/Mosney/anti-anti-AD) - Tại sao không nên dùng danh sách lọc quảng cáo antiAD, và lựa chọn các giải pháp thay thế tốt hơn
+- [leohku/andure](https://github.com/leohku/andure) - DevTools cho Android Chrome — hoạt động trên mọi website, mọi trình duyệt Chromium.
+- [opendigg/awesome-github-wechat-weapp](https://github.com/opendigg/awesome-github-wechat-weapp) - Tổng hợp dự án mã nguồn mở WeChat Mini Program
+- [Discord-Custom-Covers/usrbg](https://github.com/Discord-Custom-Covers/usrbg) - Cơ sở dữ liệu hình nền người dùng tùy chỉnh theo yêu cầu cho @Discord.
+- [erbanku/awesome](https://github.com/erbanku/awesome) - 🌟 Danh sách các kho lưu trữ tuyệt vời của tôi. Tự động cập nhật bằng GitHub Actions lúc 00:00 & 16:00 UTC
+- [algolia/awesome-algolia](https://github.com/algolia/awesome-algolia) - 🔍👋  BẮT ĐẦU Ở ĐÂY! Danh sách chọn lọc các thư viện, tài nguyên và dự án Algolia.
+- [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) - Danh sách chọn lọc các công việc và tài nguyên làm việc từ xa tuyệt vời. Lấy cảm hứng từ https://github.com/vinta/awesome-python
+- [githubtraining/introduction-to-github](https://github.com/githubtraining/introduction-to-github) - Khoá học "Giới thiệu về GitHub" trên Learning Lab. Khoá mẫu ➡️
+- [UyCode/uyfonts](https://github.com/UyCode/uyfonts) - Bao gồm phông chữ UKIJ và Uighursoft
+- [kkozee/vscode-theme-one-dark-vivid](https://github.com/kkozee/vscode-theme-one-dark-vivid) - Chủ đề One Dark Vivid của Atom cho VS Code
+- [mathjax/MathJax](https://github.com/mathjax/MathJax) - Hiển thị toán học đẹp và dễ tiếp cận trên mọi trình duyệt
+- [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) - Bộ sưu tập (chủ yếu là) các kiến thức kỹ thuật mà mọi lập trình viên nên biết
+- [yangkky/Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins) - Danh sách bài báo về học máy cho protein.
+- [mehcode/awesome-atom](https://github.com/mehcode/awesome-atom) - Danh sách chọn lọc các gói và tài nguyên Atom tuyệt vời.
+- [mcdtaiwan/McDonalds_Fries_Font](https://github.com/mcdtaiwan/McDonalds_Fries_Font) - Dành tặng cho mọi fan cứng yêu khoai tây chiên của McDonald's — Font khoai tây chiên McDonald's. Khoai tây chiên vs tương cà cùng nhau vui nhộn! Khoai tây giòn tan, chấm sốt cà ngon lành, xếp thành vô vàn khả năng. Font khoai tây chiên McDonald's, miễn phí tải về!
+- [fangzesheng/free-api](https://github.com/fangzesheng/free-api) - Tổng hợp các dịch vụ API miễn phí, làm người vận chuyển API
+- [toml-lang/toml](https://github.com/toml-lang/toml) - Tom's Obvious, Minimal Language
+- [atomiechen/THU-PPT-Theme](https://github.com/atomiechen/THU-PPT-Theme) - Mẫu PPT chủ đề Thanh Hoa (THU)
+- [zhiwehu/Python-programming-exercises](https://github.com/zhiwehu/Python-programming-exercises) - 100+ bài tập lập trình Python thử thách
+- [hemanth/awesome-pwa](https://github.com/hemanth/awesome-pwa) - Danh sách chọn lọc các ứng dụng web tiến bộ tuyệt vời!
+- [joelparkerhenderson/git-commit-message](https://github.com/joelparkerhenderson/git-commit-message) - Thông điệp commit Git: cách viết thông điệp commit tuyệt vời và mẫu commit cho quản lý phiên bản
+- [marvinpinto/action-automatic-releases](https://github.com/marvinpinto/action-automatic-releases) - CHỈ ĐỌC: Mirror tự động cho https://github.com/marvinpinto/actions/tree/master/packages/automatic-releases
+- [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) - Danh sách các dự án thân thiện cho người mới bắt đầu tuyệt vời.
+- [dracula/telegram](https://github.com/dracula/telegram) - 🧛🏻‍♂️ Chủ đề tối cho Telegram Desktop
+- [ahmadawais/shades-of-purple-vscode](https://github.com/ahmadawais/shades-of-purple-vscode) - 🦄 Shades of Purple cung cấp tuyển chọn các sắc tím đậm và rực rỡ, biến code của bạn thành kiệt tác thị giác. Bảng màu được thiết kế tỉ mỉ, ...
+- [priyankavergadia/GCPSketchnote](https://github.com/priyankavergadia/GCPSketchnote) - Nếu bạn muốn trở thành kỹ sư Google Cloud, đây là nơi phù hợp. GCPSketchnote là chuỗi chia sẻ kiến thức Google Cloud nhanh và dễ học.
+- [flyhigher139/Git-Cheat-Sheet](https://github.com/flyhigher139/Git-Cheat-Sheet) - Git Cheat Sheet tiếng Trung, dịch bởi Gevin (flyhigher139)
+- [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) - Làm chủ dòng lệnh trên một trang
+- [opendigg/awesome-github-vue](https://github.com/opendigg/awesome-github-vue) - Tổng hợp dự án mã nguồn mở liên quan đến Vue
+- [Codextor/npp-material-theme](https://github.com/Codextor/npp-material-theme) - Chủ đề Material, chủ đề tuyệt vời nhất cho Notepad++ | Chủ đề tối
+- [VirgilClyne/iRingo](https://github.com/VirgilClyne/iRingo) - Mở khóa đầy đủ tính năng và dịch vụ tích hợp của  Apple
+- [treehollow/install-doc](https://github.com/treehollow/install-doc) - Hướng dẫn xây dựng một "hốc cây" (tree hollow)
+- [0voice/audio_video_streaming](https://github.com/0voice/audio_video_streaming) - Tổng hợp tài liệu quyền uy về phát trực tuyến âm thanh và video, hơn 500 bài viết, luận văn, video, dự án thực tiễn, giao thức, danh sách chuyên gia ngành.
+- [matchai/awesome-pinned-gists](https://github.com/matchai/awesome-pinned-gists) - 📌✨ Bộ sưu tập các gist động ghim tuyệt vời cho GitHub
+- [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) - 🚀✨ Hỗ trợ người mới bắt đầu đóng góp cho các dự án mã nguồn mở
+- [Tencent/secguide](https://github.com/Tencent/secguide) - Hướng dẫn bảo mật mã dành cho lập trình viên
+- [ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey) - Danh sách chọn lọc các thư viện, bản phân phối, script, công cụ và tài nguyên AutoHotkey tuyệt vời.
+- [Hack-with-Github/Windows](https://github.com/Hack-with-Github/Windows) - Bộ công cụ khai thác Windows tuyệt vời!
+- [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) - 👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻Danh sách dự án của các nhà phát triển độc lập Trung Quốc -- Chia sẻ mọi người đang làm gì
+- [actionsflow/awesome-actionsflow](https://github.com/actionsflow/awesome-actionsflow) - Danh sách các trường hợp sử dụng workflow tuyệt vời cho Actionsflow
+- [AZeC4/TelegramGroup](https://github.com/AZeC4/TelegramGroup) - Tổng hợp lặng lẽ hơn 10.000 nhóm Telegram mới nhất năm 2025, kèm bot BOT thú vị và hữu ích nhất toàn mạng🤖【dianbaodaohang.com】
+- [sdras/awesome-actions](https://github.com/sdras/awesome-actions) - Danh sách chọn lọc các action tuyệt vời để dùng trên GitHub
+- [cobaltdisco/Google-Chinese-Results-Blocklist](https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist) - Cuối cùng tôi cũng có thể tìm kiếm tiếng Trung bằng Google rồi...
+- [ffffffff0x/Digital-Privacy](https://github.com/ffffffff0x/Digital-Privacy) - Tài nguyên bảo vệ thông tin & OSINT | Giải pháp tổng hợp về thu thập, bảo vệ, dọn dẹp quyền riêng tư số, kèm đối phó OSINT mã nguồn mở
+- [OverTheWallNode/SSV2RayTrojanSSRClash](https://github.com/OverTheWallNode/SSV2RayTrojanSSRClash) - Khoa học lướt web, ss, ssr, v2ray, trojan, clash, clashr, đề xuất dịch vụ VPN xuyên tường lửa
+- [formulahendry/955.WLB](https://github.com/formulahendry/955.WLB) - Danh sách công ty không làm thêm giờ - Làm việc 955, cân bằng công việc & cuộc sống (work–life balance)
+- [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) - Danh sách các tính năng thú vị của Git và GitHub.
+- [github/roadmap](https://github.com/github/roadmap) - Lộ trình công khai của GitHub
+- [ivmm/Student-resources](https://github.com/ivmm/Student-resources) - Giới thiệu các ưu đãi, giảm giá dành cho sinh viên, giáo viên, nhân viên giáo dục; lưu ý không bán hoặc chuyển nhượng quyền lợi để người khác không bị ảnh hưởng.
+- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Danh sách các dịch vụ mạng và ứng dụng web phần mềm miễn phí có thể tự host trên máy chủ của bạn
+- [Cat-China/CatBrowser](https://github.com/Cat-China/CatBrowser) - Trình duyệt mèo mèo - hoàn toàn tự phát triển, phá vỡ thế độc quyền của nước ngoài (Mỹ) trên thị trường trình duyệt, nhanh hơn Chrome 600%.
+- [monyhar/monyhar](https://github.com/monyhar/monyhar) - Trình duyệt Menghong - hoàn toàn tự phát triển, phá vỡ độc quyền nước ngoài, nhanh hơn Chrome 600%.
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - 😎 Danh sách tuyệt vời về mọi chủ đề thú vị
+- [ruanyf/weekly](https://github.com/ruanyf/weekly) - Tuần báo dành cho người yêu công nghệ, phát hành mỗi thứ Sáu
+- [github/gov-takedowns](https://github.com/github/gov-takedowns) - Văn bản thông báo gỡ bỏ của chính phủ như đã nhận được. GitHub không xác nhận hay tiếp nhận bất kỳ nội dung nào trong các thông báo dưới đây.
+- [ShareX/CustomUploaders](https://github.com/ShareX/CustomUploaders) - Bộ tải lên tuỳ chỉnh cho ShareX
+- [glados-network/GLaDOS](https://github.com/glados-network/GLaDOS) - Trạng thái của GLaDOS
+## PHP 
+
+- [pereorga/minimalist-web-notepad](https://github.com/pereorga/minimalist-web-notepad) - Sổ tay Web tối giản
+- [juzeon/fast-mail-bomber](https://github.com/juzeon/fast-mail-bomber) - Công cụ gửi bom mail/spam nhanh, đa luồng, hiệu quả và dễ sử dụng. Gửi mail qua các dịch vụ mailman được cung cấp bởi nhiều nhà cung cấp khác nhau.
+- [easychen/stack-roadmap](https://github.com/easychen/stack-roadmap) - Lộ trình toàn stack FangTang 2023, bổ sung kỹ năng từ "ốc vít" đến "doanh nghiệp một người"
+- [solstice23/argon-theme](https://github.com/solstice23/argon-theme) - 📖 Argon - Một chủ đề WordPress nhẹ, đơn giản
+- [assimon/dujiaoka](https://github.com/assimon/dujiaoka) - 🦄Độc Giác Số Card (Hệ thống bán hàng tự động) - Giải pháp tự động hóa bán hàng cho webmaster mã nguồn mở, hiệu quả, ổn định, nhanh chóng!🚀🚀🎉🎉
+- [luolongfei/freenom](https://github.com/luolongfei/freenom) - Tự động gia hạn tên miền Freenom.
+- [icret/EasyImages2.0](https://github.com/icret/EasyImages2.0) - Ảnh Hosting Đơn Giản - Một dịch vụ lưu trữ ảnh mạnh mẽ không cần cơ sở dữ liệu phiên bản 2.0
+- [coollabsio/coolify](https://github.com/coollabsio/coolify) - Một nền tảng thay thế Heroku / Netlify / Vercel mã nguồn mở & tự lưu trữ.
+- [shlinkio/shlink](https://github.com/shlinkio/shlink) - Công cụ rút gọn URL tự lưu trữ chuyên nghiệp
+- [nadrad/h-m-m](https://github.com/nadrad/h-m-m) - h-m-m, hay Hackers Mind Map, là công cụ bản đồ tư duy đơn giản, nhanh, tập trung vào bàn phím chạy trên terminal.
+- [osuuu/LightPicture](https://github.com/osuuu/LightPicture) - Hệ thống quản lý tài nguyên hình ảnh cho doanh nghiệp/nhóm/cá nhân, hệ thống lưu trữ ảnh
+- [IO-Technologies/bashupload](https://github.com/IO-Technologies/bashupload) - Mã nguồn cho bashupload.com - Công cụ tải lên file bằng PHP dành cho CLI, máy chủ, máy tính để bàn và thiết bị di động
+- [renbaoshuo/Shortlink](https://github.com/renbaoshuo/Shortlink) - Mã nguồn trang web tạo liên kết ngắn
+- [chenxuuu/shit-url](https://github.com/chenxuuu/shit-url) - Tạo liên kết ngắn tệ hại, trang tạo liên kết ngắn tệ nhất
+- [bugaosuni59/TH-CPL](https://github.com/bugaosuni59/TH-CPL) - Danh sách hội nghị và tạp chí học thuật khuyến nghị cho ngành Khoa học Máy tính Đại học Thanh Hoa
+- [youranreus/Subscription-Manager](https://github.com/youranreus/Subscription-Manager) - Quản lý đăng ký
+- [guanguans/favorite-link](https://github.com/guanguans/favorite-link) - ❤️ Thu thập các dự án mã nguồn mở yêu thích mỗi ngày.
+- [PGYER/codefever](https://github.com/PGYER/codefever) - CodeFever là dịch vụ lưu trữ mã Git hoàn toàn miễn phí và mã nguồn mở, hỗ trợ cài đặt lên máy chủ riêng chỉ với một dòng lệnh! CodeFever Community Edition (Dịch vụ Git tự lưu trữ)!
+- [Anankke/SSPanel-UIM](https://github.com/Anankke/SSPanel-UIM) - Hệ thống quản lý dịch vụ proxy đa năng
+- [privacy-protection-tools/dead-horse](https://github.com/privacy-protection-tools/dead-horse) - 
+- [xiebruce/PicUploader](https://github.com/xiebruce/PicUploader) - Một công cụ lưu trữ ảnh khá tốt, hỗ trợ máy chủ Mac/Win/Linux, hỗ trợ nén và tải lên, thêm watermark hình ảnh hoặc chữ, tải lên nhiều file cùng lúc, tải lên nhiều đám mây cùng lúc, nhấn chuột phải để tải lên bất kỳ file nào, phím tắt tải lên ảnh clipboard, phiên bản web, hỗ trợ làm API đăng ảnh cho Mweb/Typora, làm custom image hosting cho PicGo/ShareX/uPic v.v., triển khai trên máy chủ làm API lưu trữ ảnh, hỗ trợ tải lên bất kỳ định dạng file nào.
+- [5ime/video_spider](https://github.com/5ime/video_spider) - Gỡ watermark video ngắn: Douyin, Pipixia, Huoshan, Weishi, Weibo, Lvzou, Zuiyou, Qing Video, Kuaishou, Quanmin Video, Base Film, Momo, Before Bifeng, Kuyan, Vue Vlog, Xiaokaxiu, Pipixiaoxiao, Quanmin Kge, Xigua Video, Doupai, Huya, 6rooms, Pear Video, New Film Field, acfun, Meipai...
+- [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) - Một Pastebin trực tuyến tối giản, mã nguồn mở, nơi máy chủ không biết gì về dữ liệu đã dán. Dữ liệu được mã hóa/giải mã trong trình duyệt bằng AES 256 bit.
+- [ZainCheung/netease-cloud-api](https://github.com/ZainCheung/netease-cloud-api) - API nâng cấp cho Netease Cloud Music
+- [SkyEmie/batch-obfuscator](https://github.com/SkyEmie/batch-obfuscator) - Cách dễ dàng để làm rối mã các file batch (Windows)
+- [DenverCoder1/readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg) - ⚡ SVG động, tùy chỉnh, tạo hiệu ứng gõ và xóa chữ trên trang hồ sơ, kho lưu trữ hoặc website của bạn.
+- [mylxsw/wizard](https://github.com/mylxsw/wizard) - Wizard là công cụ quản lý tài liệu mã nguồn mở, hỗ trợ tài liệu Markdown/Swagger/Table.
+- [jimmielin/the-light](https://github.com/jimmielin/the-light) - The Light cung cấp năng lượng cho The Seed.
+## PLpgSQL 
+
+- [pirate/wikipedia-mirror](https://github.com/pirate/wikipedia-mirror) - 🌐 Hướng dẫn và công cụ để chạy một bản sao ngoại tuyến đầy đủ của Wikipedia.org với ba phương pháp khác nhau: proxy bộ nhớ đệm Nginx, Kiwix + ZIM dump, và MediaWiki/XOWA + XML dump
+
+## Pascal 
+
+- [tarcode-apps/BatteryMode](https://github.com/tarcode-apps/BatteryMode) - Thay thế chỉ báo pin Windows
+- [peazip/PeaZip](https://github.com/peazip/PeaZip) - Phần mềm nén/giải nén miễn phí và giải nén file Rar. Trình quản lý file và lưu trữ đa nền tảng. Tính năng chia nhỏ tập tin, nén, mã hóa xác thực. Hỗ trợ 7Z, 7-Zip sfx, ACE, ARJ, Brotli, BZ
+- [sashaoli/GiteaPanel](https://github.com/sashaoli/GiteaPanel) - Quản lý máy chủ Gitea cục bộ từ khay hệ thống. Управління локальним сервером Gitea з трею.
+
+## Perl 
+
+- [linode/longview](https://github.com/linode/longview) - Tác nhân Linode Longview
+
+## PostScript 
+
+- [kenjihiranabe/The-Art-of-Linear-Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra) - Ghi chú đồ họa về cuốn "Linear Algebra for Everyone" của Gilbert Strang
+
+## PowerShell 
+
+- [lucyllewy/one-script-wsl2-systemd](https://github.com/lucyllewy/one-script-wsl2-systemd) - Phiên bản one-script của hack systemd cho WSL2
+- [devblackops/Terminal-Icons](https://github.com/devblackops/Terminal-Icons) - Một mô-đun PowerShell để hiển thị biểu tượng tập tin và thư mục trong terminal
+- [lptstr/winfetch](https://github.com/lptstr/winfetch) - 🛠 Tiện ích thông tin hệ thống dòng lệnh viết bằng PowerShell. Giống Neofetch, nhưng cho Windows.
+- [ScoopInstaller/Scoop](https://github.com/ScoopInstaller/Scoop) - Trình cài đặt dòng lệnh cho Windows.
+- [gluons/powershell-git-aliases](https://github.com/gluons/powershell-git-aliases) - :octocat: Các bí danh Git của Oh My Zsh cho PowerShell.
+- [actions/runner-images](https://github.com/actions/runner-images) - Ảnh runner GitHub Actions
+- [AmrEldib/WindowsContextMenuCustomizations](https://github.com/AmrEldib/WindowsContextMenuCustomizations) - Các mục registry để chỉnh sửa menu chuột phải Windows
+- [dracula/powershell](https://github.com/dracula/powershell) - 🧛🏻‍♂️ Giao diện tối cho PowerShell và cmd.exe
+## Python 
+
+- [qianye216/OpenList-Desktop](https://github.com/qianye216/OpenList-Desktop) - OpenList Desktop là một ứng dụng máy tính để bàn đa nền tảng được thiết kế cho OpenList (Alist) và Rclone. Nó cung cấp một giao diện đồ họa hiện đại, thân thiện với người dùng, giúp bạn dễ dàng quản lý dịch vụ Alist và gắn ổ đĩa đám mây Rclone mà không cần phải nhớ và nhập các lệnh dòng lệnh phức tạp.
+- [kvcache-ai/ktransformers](https://github.com/kvcache-ai/ktransformers) - Một framework linh hoạt để trải nghiệm các tối ưu hóa suy luận LLM tiên tiến.
+- [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate) - Dịch tài liệu khoa học PDF giữ nguyên định dạng - Dịch song ngữ toàn văn tài liệu PDF dựa trên AI, bảo toàn hoàn toàn bố cục, hỗ trợ các dịch vụ Google/DeepL/Ollama/OpenAI..., cung cấp CLI/GUI/MCP/Docker/Zotero.
+- [microsoft/markitdown](https://github.com/microsoft/markitdown) - Công cụ Python để chuyển đổi tệp và tài liệu văn phòng sang Markdown.
+- [hiroi-sora/Umi-CUT](https://github.com/hiroi-sora/Umi-CUT) - Công cụ xử lý hàng loạt ảnh để loại bỏ viền đen/cắt/nén, có giao diện. Có thể loại trừ nhiễu màu ở mép ảnh, xóa sạch viền đen. Dựa trên Opencv.
+- [google-deepmind/alphafold3](https://github.com/google-deepmind/alphafold3) - Pipeline suy luận AlphaFold 3.
+- [CaoZ/XueCheBu-Crack](https://github.com/CaoZ/XueCheBu-Crack) - Các bạn học lái xe có phúc rồi, không còn phải ngồi trước máy tính xem hàng chục giờ video nữa, chỉ cần nhấp nhẹ, mọi phiền não tan biến~
+- [zhuozhiyongde/PKU-Auto-Reservation](https://github.com/zhuozhiyongde/PKU-Auto-Reservation) - Đặt lịch vào trường tự động cho Đại học Bắc Kinh/PKU
+- [aoguai/LiYing](https://github.com/aoguai/LiYing) - LiYing là một chương trình xử lý ảnh tự động dành cho các studio ảnh, tự động hóa quy trình xử lý hậu kỳ ảnh thẻ. | LiYing là một chương trình xử lý ảnh tự động thích hợp để hoàn thành quy trình xử lý hậu kỳ ảnh thẻ tại các tiệm ảnh.
+- [chen08209/Clash.Meta](https://github.com/chen08209/Clash.Meta) - Mô hình Pydantic Python đơn giản cho dữ liệu Honkai: Star Rail được phân tích từ API Mihomo.
+- [arsenetar/dupeguru](https://github.com/arsenetar/dupeguru) - Tìm tệp trùng lặp
+- [2noise/ChatTTS](https://github.com/2noise/ChatTTS) - Mô hình tổng hợp giọng nói cho đối thoại hàng ngày.
+- [matheusfillipe/notes-todo_bot](https://github.com/matheusfillipe/notes-todo_bot) - Bot Telegram để ghi chú, chỉnh sửa và lưu trên github gist
+- [xrl12/auto_back](https://github.com/xrl12/auto_back) - Tự động sao lưu
+- [LorenEteval/Furious](https://github.com/LorenEteval/Furious) - Khách hàng proxy giao diện đồ họa dựa trên PySide6. Hỗ trợ Xray-core & hysteria
+- [MetaCubeX/mihomo](https://github.com/MetaCubeX/mihomo) - Mô hình Pydantic Python đơn giản cho dữ liệu Honkai: Star Rail được phân tích từ API Mihomo.
+- [euxcet/thulearn2018](https://github.com/euxcet/thulearn2018) - Công cụ cho Web Learning của Đại học Thanh Hoa.
+- [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) - 🗃 Lưu trữ web mã nguồn mở tự lưu trữ. Nhận URL/lịch sử trình duyệt/dấu trang/Pocket/Pinboard/... và lưu HTML, JS, PDF, media, và nhiều hơn nữa...
+- [vvbbnn00/WARP-Clash-API](https://github.com/vvbbnn00/WARP-Clash-API) - Dự án này giúp bạn sử dụng Cloudflare WARP+ thông qua đăng ký, tự động nhận lưu lượng. This project enables you to use Cloudflare WARP+ through subscription, automatically acquiring traffic.
+- [deadc0de6/dotdrop](https://github.com/deadc0de6/dotdrop) - Lưu trữ dotfiles một lần, triển khai mọi nơi
+- [MuggleWei/bdchecker](https://github.com/MuggleWei/bdchecker) - Kiểm tra dữ liệu sao lưu
+- [ASKCOS/ASKCOS](https://github.com/ASKCOS/ASKCOS) - Bộ phần mềm hỗ trợ lập kế hoạch tổng hợp hóa học trên máy tính
+- [JoeanAmier/XHS-Downloader](https://github.com/JoeanAmier/XHS-Downloader) - Công cụ trích xuất liên kết/tác phẩm từ XiaoHongShu (RedNote): trích xuất liên kết tác phẩm đã đăng, đã lưu, đã thích, album; trích xuất liên kết tác phẩm từ kết quả tìm kiếm/người dùng; thu thập thông tin tác phẩm; trích xuất và tải liên kết tải về tác phẩm không watermark.
+- [Coframe/coffee](https://github.com/Coframe/coffee) - Xây dựng và lặp lại giao diện người dùng nhanh hơn 10 lần với AI - ngay từ chính IDE của bạn ☕️
+- [JoeanAmier/TikTokDownloader](https://github.com/JoeanAmier/TikTokDownloader) - Công cụ thu thập/tải dữ liệu TikTok và Douyin: video/ảnh/album/phát trực tiếp/âm nhạc/bình luận/tài khoản/tìm kiếm/xu hướng, v.v.
+- [V-know/ChatGPT-Telegram-Bot](https://github.com/V-know/ChatGPT-Telegram-Bot) - Bot Telegram với trải nghiệm AI mượt mà. Có giao diện người dùng.
+- [pyecharts/pyecharts](https://github.com/pyecharts/pyecharts) - 🎨 Thư viện vẽ đồ thị Echarts cho Python
+- [skypilot-org/skypilot](https://github.com/skypilot-org/skypilot) - SkyPilot: Chạy AI và tác vụ batch trên bất kỳ hạ tầng nào (Kubernetes hoặc hơn 16 đám mây). Giao diện đơn giản, thực thi hợp nhất, tiết kiệm chi phí và GPU luôn sẵn sàng.
+- [jiji262/douyin-downloader](https://github.com/jiji262/douyin-downloader) - Công cụ tải hàng loạt Douyin, gỡ watermark, hỗ trợ video, album, nhạc (original sound). Miễn phí!
+- [sail-sg/EditAnything](https://github.com/sail-sg/EditAnything) - Chỉnh sửa bất kỳ nội dung nào trong ảnh, sử dụng segment-anything, ControlNet, StableDiffusion, v.v. (ACM MM)
+- [jackhawks/rectg](https://github.com/jackhawks/rectg) - Thu thập hơn 10.000+ nhóm, kênh và bot Telegram chất lượng, cập nhật liên tục, hỗ trợ phân tích dữ liệu, nghiên cứu và học tập. Dữ liệu từ internet, chỉ dùng cho nghiên cứu, không thương mại hoặc vi phạm pháp luật.
+- [PromtEngineer/localGPT](https://github.com/PromtEngineer/localGPT) - Trò chuyện với tài liệu trên thiết bị của bạn bằng các mô hình GPT. Dữ liệu 100% riêng tư, không rò rỉ.
+- [jtsang4/claude-to-chatgpt](https://github.com/jtsang4/claude-to-chatgpt) - Chuyển API mô hình Claude của Anthropic sang định dạng API Chat của OpenAI.
+- [zhaoolee/wxread](https://github.com/zhaoolee/wxread) - Cày thời lượng đọc trên WeChat Read
+- [malinkang/weread2notion](https://github.com/malinkang/weread2notion) - Đồng bộ phần bôi vàng trên WeChat Read lên Notion
+- [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt) - Tương tác với tài liệu bằng sức mạnh GPT, 100% riêng tư, không rò rỉ dữ liệu
+- [duaibeom/chemOCR](https://github.com/duaibeom/chemOCR) - Nhận diện cấu trúc hóa học quang học dựa trên cơ sở dữ liệu
+- [pengxiao-song/LaWGPT](https://github.com/pengxiao-song/LaWGPT) - 🎉 Repo cho LaWGPT, Llama Trung Quốc huấn luyện với kiến thức pháp luật Trung Quốc. Mô hình ngôn ngữ lớn dựa trên kiến thức pháp luật tiếng Trung.
+- [RUCAIBox/LLMSurvey](https://github.com/RUCAIBox/LLMSurvey) - Trang GitHub chính thức cho bài khảo sát "A Survey of Large Language Models".
+- [AIGC-Audio/AudioGPT](https://github.com/AIGC-Audio/AudioGPT) - AudioGPT: Hiểu và tạo giọng nói, âm nhạc, âm thanh, khuôn mặt nói chuyện
+- [xtekky/gpt4free](https://github.com/xtekky/gpt4free) - Repo chính thức gpt4free | bộ sưu tập các mô hình ngôn ngữ mạnh mẽ | o4, o3, deepseek r1, gpt-4.1, gemini 2.5
+- [OpenMOSS/MOSS](https://github.com/OpenMOSS/MOSS) - Mô hình ngôn ngữ hội thoại tăng cường công cụ mã nguồn mở từ Đại học Phục Đán
+- [togethercomputer/RedPajama-Data](https://github.com/togethercomputer/RedPajama-Data) - Kho RedPajama-Data chứa mã chuẩn bị bộ dữ liệu lớn để huấn luyện mô hình ngôn ngữ lớn.
+- [Vision-CAIR/MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) - Mã nguồn mở cho MiniGPT-4 và MiniGPT-v2 (https://minigpt-4.github.io, https://minigpt-v2.github.io/)
+- [facebookresearch/AnimatedDrawings](https://github.com/facebookresearch/AnimatedDrawings) - Mã đi kèm bài "A Method for Animating Children's Drawings of the Human Figure"
+- [pypa/pipx](https://github.com/pypa/pipx) - Cài đặt và chạy ứng dụng Python trong môi trường cách ly
+- [dylanjcastillo/shell-genie](https://github.com/dylanjcastillo/shell-genie) - Điều ước của bạn là lệnh của tôi
+- [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) - OpenAssistant là trợ lý hội thoại hiểu nhiệm vụ, tương tác với hệ thống bên thứ ba, và truy xuất thông tin động.
+- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - AutoGPT là tầm nhìn AI cho mọi người, dễ dùng, dễ phát triển. Nhiệm vụ của chúng tôi là cung cấp công cụ để bạn tập trung vào điều quan trọng.
+- [THUDM/GLM-130B](https://github.com/THUDM/GLM-130B) - GLM-130B: Mô hình tiền huấn luyện song ngữ mở (ICLR 2023)
+- [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) - ChatGLM-6B: Mô hình ngôn ngữ đối thoại song ngữ mở | 开源双语对话语言模型
+- [binary-husky/gpt_academic](https://github.com/binary-husky/gpt_academic) - Cung cấp giao diện tương tác thực tiễn cho GPT/GLM và các LLM, tối ưu hóa trải nghiệm đọc/chỉnh sửa/viết bài, thiết kế module, hỗ trợ nút/phím tắt & plugin hàm tùy chỉnh, phân tích & tự dịch dự án Python/C++..., dịch/tóm tắt PDF/LaTex, hỏi song song nhiều LLM, hỗ trợ chatglm3 và nhiều mô hình nội bộ, tích hợp Tongyi Qianwen, deepseekcoder, iFLYTEK Spark, Wenxin Yiyan, llama2, rwkv, claude2, moss
+- [gd3kr/BlenderGPT](https://github.com/gd3kr/BlenderGPT) - Dùng lệnh tiếng Anh để điều khiển Blender với GPT-4 của OpenAI
+- [receyuki/stable-diffusion-prompt-reader](https://github.com/receyuki/stable-diffusion-prompt-reader) - Ứng dụng xem độc lập, đọc prompt từ ảnh tạo bởi Stable Diffusion ngoài webui.
+- [Moksh-Bhardwaj/public-forward-bot](https://github.com/Moksh-Bhardwaj/public-forward-bot) - 
+- [lm-sys/FastChat](https://github.com/lm-sys/FastChat) - Nền tảng mở để huấn luyện, phục vụ và đánh giá mô hình ngôn ngữ lớn. Repo phát hành Vicuna và Chatbot Arena.
+- [chidiwilliams/buzz](https://github.com/chidiwilliams/buzz) - Buzz chuyển đổi và dịch âm thanh ngoại tuyến trên máy tính cá nhân. Được hỗ trợ bởi Whisper của OpenAI.
+- [phguo/AskGPT](https://github.com/phguo/AskGPT) - AskGPT: workflow Alfred cho phép hỏi ChatGPT ở bất cứ đâu khi gõ.
+- [visual-openllm/visual-openllm](https://github.com/visual-openllm/visual-openllm) - Tương tự visual-chatgpt, phiên bản mã nguồn mở của Wenxin Yiyan
+- [kale5195/chilloutai](https://github.com/kale5195/chilloutai) - AI tạo ảnh
+- [npiv/chatblade](https://github.com/npiv/chatblade) - Dao đa năng CLI cho ChatGPT
+- [yashsinghcodes/wik](https://github.com/yashsinghcodes/wik) - wik dùng để tra cứu thông tin về bất cứ thứ gì trên shell qua Wikipedia.
+- [alpa-projects/alpa](https://github.com/alpa-projects/alpa) - Huấn luyện và phục vụ mạng nơ-ron lớn với tự động song song hóa.
+- [SkywalkerDarren/chatWeb](https://github.com/SkywalkerDarren/chatWeb) - ChatWeb có thể thu thập trang web, đọc PDF, DOCX, TXT, trích xuất nội dung chính, trả lời câu hỏi hoặc tóm tắt dựa trên nội dung đó.
+- [chenfei-wu/TaskMatrix](https://github.com/chenfei-wu/TaskMatrix) - 
+- [yihong0618/bilingual_book_maker](https://github.com/yihong0618/bilingual_book_maker) - Tạo sách epub song ngữ bằng AI dịch
+- [evilpan/gptcli](https://github.com/evilpan/gptcli) - ChatGPT trên dòng lệnh với API OpenAI (gpt-3.5-turbo/gpt-4/gpt-4-32k)
+- [mukulpatnaik/researchgpt](https://github.com/mukulpatnaik/researchgpt) - Trợ lý nghiên cứu dựa trên LLM cho phép trò chuyện với bài báo khoa học
+- [OFA-Sys/Chinese-CLIP](https://github.com/OFA-Sys/Chinese-CLIP) - Phiên bản CLIP tiếng Trung cho phép truy xuất và sinh biểu diễn đa mô thức tiếng Trung.
+- [father-bot/chatgpt_telegram_bot](https://github.com/father-bot/chatgpt_telegram_bot) - 💬 Bot Telegram với ChatGPT, viết bằng Python, sử dụng API OpenAI.
+- [yihong0618/xiaogpt](https://github.com/yihong0618/xiaogpt) - Chơi ChatGPT và các LLM khác với loa AI Xiaomi
+- [PR0FESS0R-99/Midukki-RoBoT](https://github.com/PR0FESS0R-99/Midukki-RoBoT) - Midukki-RoBoT là bot quản lý nhóm tất cả trong một, quản lý hiệu quả nhóm của bạn với các công cụ bảo mật nâng cao, phù hợp cho mọi nhu cầu ❤️
+- [microsoft/Codex-CLI](https://github.com/microsoft/Codex-CLI) - Công cụ CLI dùng Codex để chuyển lệnh ngôn ngữ tự nhiên thành lệnh Bash/ZShell/PowerShell tương ứng
+- [acheong08/ChatGPT](https://github.com/acheong08/ChatGPT) - API ChatGPT đảo ngược kỹ thuật
+- [anasty17/mirror-leech-telegram-bot](https://github.com/anasty17/mirror-leech-telegram-bot) - Repo chính thức: Bot Telegram có thể tải liên kết trực tiếp, torrent, nzb, google drive, tài liệu Telegram, tệp/thư mục từ rclone, tất cả trang web yt-dlp và jdownloa
+- [Gsllchb/Handright](https://github.com/Gsllchb/Handright) - Thư viện Python nhẹ mô phỏng chữ viết tay tiếng Trung
+- [ahui2016/R2-Gallery](https://github.com/ahui2016/R2-Gallery) - Album cá nhân độc lập, lưu trữ ảnh bằng Cloudflare R2.
+- [yash1th/unsplash-album-downloader](https://github.com/yash1th/unsplash-album-downloader) - Tải toàn bộ album ảnh từ Unsplash
+- [Cog-Creators/Red-DiscordBot](https://github.com/Cog-Creators/Red-DiscordBot) - Bot Discord đa chức năng
+- [sjvasquez/handwriting-synthesis](https://github.com/sjvasquez/handwriting-synthesis) - Sinh chữ viết tay với RNN ✏️
+- [zhelper-org/tgbot](https://github.com/zhelper-org/tgbot) - zhelper tgbot
+- [approximatelabs/sketch](https://github.com/approximatelabs/sketch) - Trợ lý viết mã AI hiểu nội dung dữ liệu
+- [ehulinsky/AnalogChess](https://github.com/ehulinsky/AnalogChess) - Cờ vua nhưng không có lưới
+- [PantsuDango/Dango-Translator](https://github.com/PantsuDango/Dango-Translator) - Dango Translator —— Trình dịch dựa trên công nghệ OCR do cá nhân phát triển vì sở thích
+- [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) - Repo đơn giản và nhanh nhất để huấn luyện/tinh chỉnh GPT cỡ trung bình.
+- [liblaf/thu-learn-downloader](https://github.com/liblaf/thu-learn-downloader) - Tải mọi thứ từ Web Learning của Đại học Thanh Hoa
+- [WhymustIhaveaname/TsinghuaTunet](https://github.com/WhymustIhaveaname/TsinghuaTunet) - Script tự động kết nối mạng campus Thanh Hoa.
+- [zhaoolee/ins](https://github.com/zhaoolee/ins) - 🍭Cơ sở dữ liệu cảm hứng cho người làm Internet, không quảng cáo, Github Actions kiểm tra tốc độ truy cập trang web tự động
+- [lonnyzhang423/douyin-hot-hub](https://github.com/lonnyzhang423/douyin-hot-hub) - Theo dõi bảng xếp hạng Douyin: hot, ngôi sao, live, nhạc, thương hiệu; cập nhật mỗi giờ, lưu trữ theo ngày.
+- [net4people/bbs](https://github.com/net4people/bbs) - Diễn đàn thảo luận về vượt kiểm duyệt Internet
+- [kael-k/telegram-webdav-integration-bot](https://github.com/kael-k/telegram-webdav-integration-bot) - Bot Telegram gửi ảnh, video, tài liệu đến thư mục WebDAV
+- [qazxcdswe123/telegramMemoBot](https://github.com/qazxcdswe123/telegramMemoBot) - Bot telegram cho https://github.com/usememos/memos
+- [carson-katri/dream-textures](https://github.com/carson-katri/dream-textures) - Stable Diffusion tích hợp trong Blender
+- [openai/openai-python](https://github.com/openai/openai-python) - Thư viện Python chính thức cho API OpenAI
+- [apple/ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion) - Stable Diffusion với Core ML trên Apple Silicon
+- [HFrost0/bilix](https://github.com/HFrost0/bilix) - ⚡️Công cụ tải bất đồng bộ siêu nhanh cho bilibili và nhiều hơn nữa
+- [Evil0ctal/Douyin_TikTok_Download_API](https://github.com/Evil0ctal/Douyin_TikTok_Download_API) - 🚀「Douyin_TikTok_Download_API」là công cụ thu thập dữ liệu Douyin, Kuaishou, TikTok, Bilibili hiệu năng cao, hỗ trợ API, phân tích và tải hàng loạt trực tuyến.
+- [Johnserf-Seed/TikTokDownload](https://github.com/Johnserf-Seed/TikTokDownload) - Tải hàng loạt tác phẩm Douyin từ trang chủ người dùng, đã thích, đã lưu, ảnh, âm thanh, gỡ watermark
+- [OpenShot/openshot-qt](https://github.com/OpenShot/openshot-qt) - OpenShot Video Editor là phần mềm chỉnh sửa video miễn phí, mã nguồn mở cho Linux, Mac, Windows, hướng tới cung cấp giải pháp chỉnh sửa, hoạt họa video chất lượng cao cho toàn thế giới.
+- [yym68686/ChatGPT-Telegram-Bot](https://github.com/yym68686/ChatGPT-Telegram-Bot) - TeleChat: 🤖️ bot AI Telegram có thể tìm kiếm web, hỗ trợ GPT-3.5/4/4 Turbo/4o, DALL·E 3, Groq, Gemini 1.5 Pro/Flash, Claude2.1/3/3.5 API, chạy Python trên Zeabur, fly.io, Replit
+- [bestmatteo/Telegram-Bot](https://github.com/bestmatteo/Telegram-Bot) - Bot tự động chuyển tiếp tin nhắn Telegram bằng Selenium
+- [altryne/chatGPT-telegram-bot](https://github.com/altryne/chatGPT-telegram-bot) - Nỗ lực đầu tiên tích hợp chatGPT vào bot Telegram
+- [radude/rentry](https://github.com/radude/rentry) - Markdown pastebin từ dòng lệnh
+- [erbanku/zhihu-archiver-2022-archived](https://github.com/erbanku/zhihu-archiver-2022-archived) - Tự động thu thập hotlist Zhihu mỗi ngày, chuyển thành Markdown và dựng web tĩnh
+- [shiwk20/TsinghuaCloudDownload](https://github.com/shiwk20/TsinghuaCloudDownload) - Script tải file từ Tsinghua Cloud.
+- [QianyanTech/Image-Downloader](https://github.com/QianyanTech/Image-Downloader) - Tải ảnh từ Google, Bing, Baidu.
+- [mli/autocut](https://github.com/mli/autocut) - Cắt video bằng trình soạn thảo văn bản
+- [THUDM/CodeGeeX](https://github.com/THUDM/CodeGeeX) - CodeGeeX: Mô hình sinh mã đa ngôn ngữ mở (KDD 2023)
+- [MaxxRider/Leech-Pro](https://github.com/MaxxRider/Leech-Pro) - Telegram Leech / Mirror Bot. Dựa trên Python. 👉hỗ trợ tải lên file/thư mục lên gdrive hoặc bất kỳ drive nào rclone.org hỗ trợ. Như onedrive, mega,... Hỗ trợ giải nén zip, rar, tar,...
+- [kerm-me/docdown](https://github.com/kerm-me/docdown) - Công cụ tải tài liệu book118 và docin, sử dụng playwright mạnh mẽ
+- [jagrit007/Telegram-CloneBot](https://github.com/jagrit007/Telegram-CloneBot) - [DÙNG NHÁNH ALPHA] Bot đơn giản để sao chép file/thư mục Google Drive vào Team Drive hoặc Drive thường. Không phải Mirror Bot.
+- [danielgatis/rembg](https://github.com/danielgatis/rembg) - Rembg là công cụ xóa nền ảnh
+- [Sam-Max/rcmltb](https://github.com/Sam-Max/rcmltb) - Bot Telegram rclone để mirror-leech và sao chép giữa nhiều máy chủ đám mây
+- [mpc001/Visual_Speech_Recognition_for_Multiple_Languages](https://github.com/mpc001/Visual_Speech_Recognition_for_Multiple_Languages) - Nhận diện khẩu hình đa ngôn ngữ
+- [StevenBlack/hosts](https://github.com/StevenBlack/hosts) - 🔒 Tổng hợp và mở rộng file hosts từ nhiều nguồn uy tín. Có thể chọn lọc chặn nội dung khiêu dâm, mạng xã hội, v.v.
+- [soxoj/maigret](https://github.com/soxoj/maigret) - 🕵️‍♂️ Thu thập hồ sơ một người qua username từ hàng ngàn trang web
+- [mxrch/GitFive](https://github.com/mxrch/GitFive) - 🐙 Truy tìm người dùng GitHub.
+- [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - Giao diện web cho Stable Diffusion
+- [openai/whisper](https://github.com/openai/whisper) - Nhận dạng giọng nói mạnh mẽ thông qua giám sát quy mô lớn yếu
+- [magicse/GFPGANv1.3-to-ncnn](https://github.com/magicse/GFPGANv1.3-to-ncnn) - Mạng lưới GFPGAN bao gồm hai mạng. Thực tế là GFPGAN và StyleGAN2
+- [pixray/pixray](https://github.com/pixray/pixray) - 
+- [subframe7536/maple-font](https://github.com/subframe7536/maple-font) - Maple Mono: Phông chữ monospace mã nguồn mở với góc bo tròn, ligatures và biểu tượng Nerd-Font cho IDE và terminal, tùy chỉnh chi tiết. 带连字和控制台图标的圆角等宽字体，中英文宽度完美2:1，细粒度的自定义选项
+- [aws/aws-cli](https://github.com/aws/aws-cli) - Giao diện dòng lệnh đa năng cho Amazon Web Services
+- [archinetai/audio-diffusion-pytorch](https://github.com/archinetai/audio-diffusion-pytorch) - Tạo âm thanh sử dụng mô hình khuếch tán, viết bằng PyTorch.
+- [Aadhi000/File-To-Link](https://github.com/Aadhi000/File-To-Link) - 
+- [microsoft/fluentui-emoji](https://github.com/microsoft/fluentui-emoji) - Bộ sưu tập emoji thân thiện, quen thuộc và hiện đại từ Microsoft
+- [donnemartin/awesome-aws](https://github.com/donnemartin/awesome-aws) - Danh sách chọn lọc các thư viện, repo mã nguồn mở, hướng dẫn, blog, và tài nguyên tuyệt vời về Amazon Web Services (AWS). Có cả Fiery Meter of AWSome.
+- [google-deepmind/alphafold](https://github.com/google-deepmind/alphafold) - Mã nguồn mở cho AlphaFold 2.
+- [mikf/gallery-dl](https://github.com/mikf/gallery-dl) - Chương trình dòng lệnh để tải xuống bộ sưu tập và bộ ảnh từ nhiều trang lưu trữ ảnh khác nhau
+- [NVlabs/eg3d](https://github.com/NVlabs/eg3d) - 
+- [chrieke/prettymapp](https://github.com/chrieke/prettymapp) - 🖼️ Tạo bản đồ đẹp từ dữ liệu OpenStreetMap trong ứng dụng web streamlit
+- [streamlit/streamlit](https://github.com/streamlit/streamlit) - Streamlit — Cách nhanh hơn để xây dựng và chia sẻ ứng dụng dữ liệu.
+- [yihong0618/GitHubPoster](https://github.com/yihong0618/GitHubPoster) - Biến mọi thứ thành poster svg GitHub và Skyline!
+- [yihong0618/Kindle_download_helper](https://github.com/yihong0618/Kindle_download_helper) - Script tải về tất cả sách kindle của bạn.
+- [athphane/userbot](https://github.com/athphane/userbot) - Telegram Userbot xây dựng bằng Pyrogram
+- [3b1b/manim](https://github.com/3b1b/manim) - Động cơ hoạt hình cho các video toán học giải thích
+- [ivy-llc/ivy](https://github.com/ivy-llc/ivy) - Chuyển đổi mã Machine Learning giữa các framework
+- [tuna/tunasync-scripts](https://github.com/tuna/tunasync-scripts) - Script tùy chỉnh cho các tác vụ mirror
+- [Textualize/textual](https://github.com/Textualize/textual) - Framework ứng dụng lean cho Python. Xây dựng giao diện người dùng tinh vi với API Python đơn giản. Chạy ứng dụng trong terminal và trình duyệt web.
+- [Textualize/rich-cli](https://github.com/Textualize/rich-cli) - Rich-cli là bộ công cụ dòng lệnh cho đầu ra đẹp mắt trong terminal
+- [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) - Bộ công cụ OCR đa ngôn ngữ và phân tích tài liệu tuyệt vời dựa trên PaddlePaddle (hệ thống OCR siêu nhẹ thực tế, hỗ trợ nhận diện hơn 80 ngôn ngữ, cung cấp công cụ chú thích và tổng hợp dữ liệu, su
+- [zqthu/thu_cloud_download](https://github.com/zqthu/thu_cloud_download) - Lấy file từ các liên kết chia sẻ của Tsinghua Cloud (https://cloud.tsinghua.edu.cn/)
+- [ILTShade/tsinghua_cloud_upload](https://github.com/ILTShade/tsinghua_cloud_upload) - 
+- [mingrammer/diagrams](https://github.com/mingrammer/diagrams) - :art: Vẽ sơ đồ bằng mã để tạo nguyên mẫu kiến trúc hệ thống cloud
+- [RaphielGang/Telegram-Paperplane](https://github.com/RaphielGang/Telegram-Paperplane) - Dự án userbot Paperplane - một userbot Telegram giúp cải thiện trải nghiệm Telegram của bạn. https://t.me/tgpaperplane
+- [zhanghefan123/Starperf-Satellite-Simulator](https://github.com/zhanghefan123/Starperf-Satellite-Simulator) - Nền tảng mô phỏng mạng lưới vệ tinh Tsinghua
+- [aaronraimist/element-themes](https://github.com/aaronraimist/element-themes) - Nơi chia sẻ chủ đề cho Element. Hoan nghênh PR với chủ đề mới!
+- [borisdayma/dalle-mini](https://github.com/borisdayma/dalle-mini) - DALL·E Mini - Tạo hình ảnh từ mô tả văn bản
+- [Konano/thu-info-forwarder](https://github.com/Konano/thu-info-forwarder) - 
+- [python/cpython](https://github.com/python/cpython) - Ngôn ngữ lập trình Python
+- [khoben/telemirror](https://github.com/khoben/telemirror) - Chuyển tiếp tin nhắn Telegram (API client)
+- [CMiksche/gitea-auto-update](https://github.com/CMiksche/gitea-auto-update) - Script tự động cập nhật gitea lên phiên bản mới qua crontab.
+- [praneetk2704/JPG-to-PDF](https://github.com/praneetk2704/JPG-to-PDF) - Script Python đơn giản tạo file PDF từ tập hợp ảnh chỉ trong vài giây.
+- [Polaris119/Epidemic-visualization](https://github.com/Polaris119/Epidemic-visualization) - Trung Quốc dữ liệu COVID-19 trực quan hóa
+- [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) - Làm cho mô hình AI lớn rẻ hơn, nhanh hơn và dễ tiếp cận hơn
+- [blackboxo/CleanMyWechat](https://github.com/blackboxo/CleanMyWechat) - Tự động xóa dữ liệu cache WeChat trên PC, bao gồm các file, video, ảnh... tải tự động từ các cuộc trò chuyện, giải phóng không gian.
+- [why20021008/hand-write](https://github.com/why20021008/hand-write) - Mô phỏng hiệu ứng viết tay, tiết kiệm thời gian.
+- [FederatedAI/FATE](https://github.com/FederatedAI/FATE) - Framework học liên kết cấp công nghiệp
+- [google-parfait/tensorflow-federated](https://github.com/google-parfait/tensorflow-federated) - Framework mã nguồn mở cho học máy và các phép tính khác trên dữ liệu phân tán.
+- [project-alice-assistant/ProjectAlice](https://github.com/project-alice-assistant/ProjectAlice) - Kho chính của Project Alice, chứa mã nguồn đơn vị chính
+- [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) - Nghiên cứu đầu tư cho mọi người, mọi nơi.
+- [GeekTG/Friendly-Telegram](https://github.com/GeekTG/Friendly-Telegram) - Userbot Telegram tốt nhất với hỗ trợ nút inline
+- [archlinux/archinstall](https://github.com/archlinux/archinstall) - Trình cài đặt Arch Linux - có hướng dẫn, mẫu, v.v.
+- [globus/globus-cli](https://github.com/globus/globus-cli) - Giao diện dòng lệnh cho Globus
+- [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Mạng, Ảo hóa. Câu hỏi phỏng vấn DevOps
+- [YaoFANGUK/video-subtitle-extractor](https://github.com/YaoFANGUK/video-subtitle-extractor) - Trích xuất phụ đề cứng từ video, tạo file srt. Không cần API bên thứ ba, nhận diện văn bản cục bộ. Khung trích xuất phụ đề dựa trên học sâu, bao gồm phát hiện vùng phụ đề và trích xuất nội dung phụ đề. Công cụ GUI để trích xuất phụ đề cứng (hardsub) từ video và tạo file srt.
+- [aaPanel/aaPanel](https://github.com/aaPanel/aaPanel) - Bảng điều khiển dựa trên web đơn giản nhưng mạnh mẽ
+- [aaPanel/BaoTa](https://github.com/aaPanel/BaoTa) - Bảng điều khiển Linux BaoTa - bảng điều khiển vận hành máy chủ đơn giản, dễ dùng
+- [Dragon-Born/warpy](https://github.com/Dragon-Born/warpy) - Chương trình dòng lệnh để lấy WARP+ dạng WireGuard viết bằng python
+- [pinry/pinry](https://github.com/pinry/pinry) - Pinry, hệ thống bảng ảnh dạng lưới cho người muốn lưu, gắn thẻ, chia sẻ ảnh, video, trang web với định dạng dễ xem lướt. Mã nguồn mở, tự host.
+- [nvbn/thefuck](https://github.com/nvbn/thefuck) - Ứng dụng tuyệt vời sửa lệnh console trước đó của bạn.
+- [httpie/cli](https://github.com/httpie/cli) - 🥧 HTTPie CLI — khách hàng HTTP dòng lệnh hiện đại, thân thiện cho thời đại API. Hỗ trợ JSON, màu sắc, phiên, tải về, plugin & nhiều hơn nữa.
+- [alfem/telegram-download-daemon](https://github.com/alfem/telegram-download-daemon) - Script đơn giản tự động tải tệp lớn từ telegram
+- [No-OnE-Kn0wS-Me/FileRenameBot](https://github.com/No-OnE-Kn0wS-Me/FileRenameBot) - Bot đổi tên file Telegram với hỗ trợ thumbnail vĩnh viễn, cũng có thể chuyển file thành video!!
+- [Eugeny/tabby-web](https://github.com/Eugeny/tabby-web) - Tabby Web - SSH/Telnet/Serial client ngay trên trình duyệt của bạn.
+- [QIN2DIM/sspanel-mining](https://github.com/QIN2DIM/sspanel-mining) - 🥤 Thu thập, làm sạch, phân loại và lưu trữ các site SSPanel-Uim bị lộ trên Internet.
+- [Ehco1996/django-sspanel](https://github.com/Ehco1996/django-sspanel) - Bảng shadowsocks phát triển bằng diango
+- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - Học cách thiết kế hệ thống quy mô lớn. Chuẩn bị cho phỏng vấn thiết kế hệ thống. Bao gồm flashcard Anki.
+- [mvt-project/mvt](https://github.com/mvt-project/mvt) - MVT (Mobile Verification Toolkit) hỗ trợ điều tra pháp y thiết bị di động để tìm dấu hiệu bị xâm nhập tiềm tàng.
+- [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) - :books: Sách lập trình miễn phí
+- [public-apis/public-apis](https://github.com/public-apis/public-apis) - Danh sách tổng hợp các API miễn phí
+- [owid/covid-19-data](https://github.com/owid/covid-19-data) - Dữ liệu về các ca COVID-19 (coronavirus), tử vong, nhập viện, xét nghiệm • Tất cả quốc gia • Cập nhật hàng ngày bởi Our World in Data
+- [darknessomi/musicbox](https://github.com/darknessomi/musicbox) - Phiên bản dòng lệnh của NetEase Cloud Music
+- [yunlongzhuhuo/Windows-WeChat-Clean-Up-Tool](https://github.com/yunlongzhuhuo/Windows-WeChat-Clean-Up-Tool) - Định vị thư mục WeChat Files trong Windows, tìm và xóa một số dữ liệu để làm sạch.
+- [gilesknap/gphotos-sync](https://github.com/gilesknap/gphotos-sync) - Sao lưu Google Photos và Albums bằng Google Photos Library API
+- [Dragon-Userbot/Dragon-Userbot](https://github.com/Dragon-Userbot/Dragon-Userbot) - Userbot cho telegram với cài đặt dễ dàng nhất
+- [asottile/all-repos](https://github.com/asottile/all-repos) - Clone tất cả repo của bạn và áp dụng thay đổi đồng loạt.
+- [zachhannum/mkdocs-autolinks-plugin](https://github.com/zachhannum/mkdocs-autolinks-plugin) - Plugin MkDocs tự động tạo liên kết tương đối giữa các trang markdown
+- [Azure/WALinuxAgent](https://github.com/Azure/WALinuxAgent) - Microsoft Azure Linux Guest Agent
+- [koalalorenzo/python-digitalocean](https://github.com/koalalorenzo/python-digitalocean) - 🐍🐳 Module Python để quản lý droplet Digital Ocean
+- [fuqiuai/wordCloud](https://github.com/fuqiuai/wordCloud) - Sử dụng python để phân tích từ khóa và tạo đám mây từ
+- [Mahesh0253/Media-Search-bot](https://github.com/Mahesh0253/Media-Search-bot) - Bot inline cho các kênh và nhóm
+- [Mahesh0253/GPlink-bot](https://github.com/Mahesh0253/GPlink-bot) - 
+- [tgbot-collection/YYeTsBot](https://github.com/tgbot-collection/YYeTsBot) - 🎬 Robot và trang web Renren Yingshi, bao gồm mọi tài nguyên Renren Yingshi cùng nhiều chia sẻ mạng của người dùng
+- [arry-lee/wereader](https://github.com/arry-lee/wereader) - Trợ lý ghi chú đọc sách WeChat đầy đủ tính năng wereader
+- [arkane-systems/genie](https://github.com/arkane-systems/genie) - Cách nhanh vào "chai" systemd cho WSL
+- [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) - Bộ công cụ hack TẤT CẢ TRONG MỘT cho hacker
+- [PaddlePaddle/PaddleGAN](https://github.com/PaddlePaddle/PaddleGAN) - Thư viện GAN PaddlePaddle, bao gồm nhiều ứng dụng thú vị như chuyển động First-Order, Wav2Lip, phục hồi ảnh, chỉnh sửa ảnh, photo2cartoon, chuyển đổi phong cách ảnh, GPEN, v.v.
+- [mgedmin/ghcloneall](https://github.com/mgedmin/ghcloneall) - Script để clone/cập nhật tất cả repo người dùng/tổ chức từ GitHub
+- [Jrohy/multi-v2ray](https://github.com/Jrohy/multi-v2ray) - Chương trình quản lý triển khai nhiều người dùng v2ray/xray
+- [kalanakt/Url-Uploader-TG](https://github.com/kalanakt/Url-Uploader-TG) - Bot Telegram đơn giản, tải lên file media | video lên telegram bằng liên kết tải trực tiếp. (youtube, Mediafire, google drive, mega drive, v.v)
+- [jagrit007/gDrive-DirectLink](https://github.com/jagrit007/gDrive-DirectLink) - Tạo liên kết trực tiếp vĩnh viễn cho Google Drive, hỗ trợ nhiều liên kết. P.S. Đây là code tập tành khi học Python :D
+- [Sanster/IOPaint](https://github.com/Sanster/IOPaint) - Công cụ inpainting ảnh sử dụng AI SOTA. Xóa đối tượng, lỗi, người không mong muốn khỏi ảnh hoặc xóa/thay thế (bằng stable diffusion) bất kỳ chi tiết nào trên ảnh của bạn.
+- [psf/black](https://github.com/psf/black) - Bộ định dạng mã Python nghiêm khắc
+- [surajjjjjj/Telegram-automatic-message](https://github.com/surajjjjjj/Telegram-automatic-message) - Script python sử dụng thư viện telethon để gửi tin nhắn đến bot mỗi 30 giây
+- [pirobot/rbx1](https://github.com/pirobot/rbx1) - ROS By Example Tập 1
+- [chen310/NeteaseCloudMusicTasks](https://github.com/chen310/NeteaseCloudMusicTasks) - 
+- [vinta/awesome-python](https://github.com/vinta/awesome-python) - Danh sách chọn lọc các framework, thư viện, phần mềm và tài nguyên Python tuyệt vời.
+- [programthink/zhao](https://github.com/programthink/zhao) - 【Lập trình tùy hứng】Tổng hợp “Mạng lưới quan hệ Thái tử Đảng”, chuyên vạch trần quyền quý Trung Quốc
+- [gradio-app/gradio](https://github.com/gradio-app/gradio) - Xây dựng và chia sẻ ứng dụng học máy thú vị, hoàn toàn bằng Python. 🌟 Star để ủng hộ chúng tôi!
+- [absop/ST-ChineseTokenizer](https://github.com/absop/ST-ChineseTokenizer) - Ràng buộc thư viện jieba cho Sublime Text 3, hỗ trợ chọn, xóa, di chuyển con trỏ chính xác hơn với tiếng Trung
+- [guofei9987/text_blind_watermark](https://github.com/guofei9987/text_blind_watermark) - Văn bản watermark mù: Ẩn thông tin vào văn bản, put invisible blind watermark into a text.
+- [sigmavirus24/github3.py](https://github.com/sigmavirus24/github3.py) - Thư viện tương tác với REST API của GitHub một cách thuận tiện, ergonomic. Dành cho Python 3.6+.
+- [IntelligenceX/SDK](https://github.com/IntelligenceX/SDK) - SDK công khai cho Intelligence X
+- [New-dev0/TgTwitterBot](https://github.com/New-dev0/TgTwitterBot) - TgTwitterBot - Điều khiển và khám phá Twitter từ Telegram
+- [AmineSoukara/ImgBB-Bot](https://github.com/AmineSoukara/ImgBB-Bot) - Bot Telegram lưu ảnh của bạn lên imgbb.com và trả về liên kết
+- [pictuga/morss](https://github.com/pictuga/morss) - Lấy RSS feed toàn văn
+- [zhaoolee/garss](https://github.com/zhaoolee/garss) - Github Actions thu thập RSS, tạo trang đầu không quảng cáo chất lượng cao
+- [ros/ros](https://github.com/ros/ros) - Các gói lõi ROS
+- [libthu/reserves-lib-tsinghua-downloader](https://github.com/libthu/reserves-lib-tsinghua-downloader) - Tải trang từ http://reserves.lib.tsinghua.edu.cn/
+- [tychxn/jd-assistant](https://github.com/tychxn/jd-assistant) - Trợ lý săn hàng JD: bao gồm đăng nhập, kiểm tra tồn kho/giá, thêm/xóa giỏ hàng, đặt hàng, kiểm tra đơn hàng, v.v.
+- [SeaHOH/GotoX](https://github.com/SeaHOH/GotoX) - Proxy tự động tại máy, chỉnh sửa từ goagent.
+- [radinshayanfar/TGCopyBot](https://github.com/radinshayanfar/TGCopyBot) - Script python để sao chép tin nhắn telegram sang chat khác (không cần chuyển tiếp)
+- [Opticos/OpenInWSL-Source](https://github.com/Opticos/OpenInWSL-Source) - Mã nguồn thực tế cho OpenInWSL. Và một số bản dựng sẵn.
+- [Opticos/GWSL-Source](https://github.com/Opticos/GWSL-Source) - Mã nguồn thực tế cho GWSL. Và một số bản dựng sẵn.
+- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) - Trình tải video/âm thanh dòng lệnh nhiều tính năng
+- [QIN2DIM/V2RSS](https://github.com/QIN2DIM/V2RSS) - ​:rocket: Thu thập|Miễn phí|Chất lượng|-Đăng ký&lt;；
+- [hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy) - Dự án tăng tốc github release, archive và file dự án
+- [thedogb/smmsbot](https://github.com/thedogb/smmsbot) - Một telegram bot triển khai trên gae. Có thể dùng làm client cho sm.ms
+- [iBug/pac](https://github.com/iBug/pac) - Vượt tường lửa, phân luồng thông minh, sử dụng GFWList và địa chỉ IP. Hiện có 537 ★
+- [Roiocam/V2ray2Clash](https://github.com/Roiocam/V2ray2Clash) - Script python chuyển V2ray đăng ký thành file cấu hình Clash, cho Clash-Linux tự động đăng ký V2ray
+- [xiangsanliu/Rules](https://github.com/xiangsanliu/Rules) - 🛫️ 🎵 Quy tắc Shadowrocket: chặn quảng cáo, proxy, mở khóa nhạc netease.
+- [zhouzhouprogram/Shadowrocket-ADBlock-Rules](https://github.com/zhouzhouprogram/Shadowrocket-ADBlock-Rules) - Cung cấp nhiều quy tắc Shadowrocket, có chức năng lọc quảng cáo. Dùng cho thiết bị iOS chưa jailbreak để tự động vượt tường lửa chọn lọc.
+- [liudaolunboluo/WxChatRecordTool](https://github.com/liudaolunboluo/WxChatRecordTool) - Công cụ nhỏ trích xuất lịch sử chat WeChat
+- [icloud-photos-downloader/icloud_photos_downloader](https://github.com/icloud-photos-downloader/icloud_photos_downloader) - Công cụ dòng lệnh tải ảnh từ iCloud
+- [cronitorio/cronitor-python](https://github.com/cronitorio/cronitor-python) - Client Python cho Cronitor
+- [songquanpeng/zhihu-archiver](https://github.com/songquanpeng/zhihu-archiver) - Tự động thu thập bảng xếp hạng nóng của Zhihu hàng ngày, sau đó chuyển thành file Markdown và xây dựng trang web tĩnh
+- [pyinstaller/pyinstaller](https://github.com/pyinstaller/pyinstaller) - Đóng gói (đóng băng) chương trình Python thành file thực thi độc lập
+- [huggingface/transformers](https://github.com/huggingface/transformers) - 🤗 Transformers: khung định nghĩa mô hình cho các mô hình học máy tiên tiến trong văn bản, hình ảnh, âm thanh và mô hình đa phương tiện, hỗ trợ cả suy luận và huấn luyện.
+- [huashengdun/webssh](https://github.com/huashengdun/webssh) - :seedling: Ứng dụng ssh dựa trên web
+- [openai/glide-text2im](https://github.com/openai/glide-text2im) - GLIDE: mô hình tổng hợp ảnh theo điều kiện văn bản dựa trên khuếch tán
+- [bmjcode/pywebarchive](https://github.com/bmjcode/pywebarchive) - Phần mềm đọc định dạng webarchive của Apple
+- [XX-net/XX-Net](https://github.com/XX-net/XX-Net) - Công cụ proxy để vượt GFW.
+- [THUDM/CogView](https://github.com/THUDM/CogView) - Sinh ảnh từ văn bản. Kho lưu trữ cho bài báo NeurIPS 2021 "CogView: Mastering Text-to-Image Generation via Transformers".
+- [GrowingGit/GitHub-English-Top-Charts](https://github.com/GrowingGit/GitHub-English-Top-Charts) - Giúp bạn khám phá các dự án tiếng Anh xuất sắc và tránh bị làm phiền bởi các ngôn ngữ khác.
+- [waykom/weibo_top](https://github.com/waykom/weibo_top) - Thu thập các chủ đề hot trên Weibo
+- [vmp65l3/weibo-hotrank](https://github.com/vmp65l3/weibo-hotrank) - Ghi lại bảng xếp hạng hot trên Weibo và tạo biểu đồ đám mây từ khóa hàng ngày
+- [zisen123/TrierVosPhotos](https://github.com/zisen123/TrierVosPhotos) - Đổi tên và chuyển ảnh, video xuất từ iPhone của bạn theo định dạng ngày và giờ, đồng thời phân loại vào thư mục theo ngày
+- [whitejoce/Get_Weather](https://github.com/whitejoce/Get_Weather) - Lấy định vị IP để thu thập thời tiết địa phương (không cần API)
+- [up2b/pyup2b](https://github.com/up2b/pyup2b) - Công cụ tải ảnh lên.
+- [Alvin9999/new-pac](https://github.com/Alvin9999/new-pac) - Vượt tường lửa - khoa học mạng, tự do truy cập, miễn phí, tải video Youtube, phần mềm, VPN, trình duyệt một cú nhấp, script/huớng dẫn xây dựng server vượt tường lửa trên VPS, tài khoản miễn phí shadowsocks/ss/ssr/v2ray/goflyway, cho máy tính, điện thoại, iOS, Android, Windows, Mac, Linux, Router, tải video Youtube, trang mirror Youtube không cần vượt tường, v.v.
+- [TencentARC/GFPGAN](https://github.com/TencentARC/GFPGAN) - GFPGAN nhằm phát triển các thuật toán thực tiễn cho khôi phục khuôn mặt trong thế giới thực.
+- [URenko/Accesser](https://github.com/URenko/Accesser) - 🌏 Một công cụ giải quyết sự cố SNI RST khiến không thể truy cập Wikipedia, Pixiv, v.v.
+- [pytorch/pytorch](https://github.com/pytorch/pytorch) - Tensor và mạng nơ-ron động trong Python với tăng tốc GPU mạnh mẽ
+- [deepfakes/faceswap](https://github.com/deepfakes/faceswap) - Phần mềm Deepfakes cho mọi người
+- [v2ex/remote](https://github.com/v2ex/remote) - Remote Worker
+- [open-mmlab/mmtracking](https://github.com/open-mmlab/mmtracking) - Bộ công cụ nhận thức video OpenMMLab. Hỗ trợ Video Object Detection (VID), Multiple Object Tracking (MOT), Single Object Tracking (SOT), Video Instance Segmentation (VIS) với một khung thống nhất.
+- [itstyren/CNKI-download](https://github.com/itstyren/CNKI-download) - :frog: Tải và xem nhanh tài liệu trên CNKI (Trung Quốc) - Web Scraper for Extracting Data
+- [aqlaboratory/proteinnet](https://github.com/aqlaboratory/proteinnet) - Bộ dữ liệu chuẩn hóa cho học máy về cấu trúc protein
+- [lucidrains/alphafold2](https://github.com/lucidrains/alphafold2) - Sẽ trở thành bản triển khai/nhân bản Alphafold2 chưa chính thức bằng Pytorch, khi có thêm chi tiết về kiến trúc
+- [RimoChan/python-anti-seduce-system](https://github.com/RimoChan/python-anti-seduce-system) - Hướng dẫn điều chỉnh chống nghiện cho ngôn ngữ Python
+- [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats) - GitHub action giúp thêm các số liệu phát triển thú vị vào Readme hồ sơ Github của bạn
+- [pywebio/PyWebIO](https://github.com/pywebio/PyWebIO) - Viết ứng dụng web tương tác theo kiểu script.
+- [Python-World/python-mini-projects](https://github.com/Python-World/python-mini-projects) - Bộ sưu tập các dự án Python nhỏ để nâng cao kỹ năng Python của bạn
+- [geekcomputers/Python](https://github.com/geekcomputers/Python) - Các ví dụ Python của tôi
+- [TachibanaYoshino/AnimeGANv2](https://github.com/TachibanaYoshino/AnimeGANv2) - [Mã nguồn mở]. Phiên bản cải tiến của AnimeGAN. Chuyển ảnh/video phong cảnh thành anime
+- [srx-2000/spider_collection](https://github.com/srx-2000/spider_collection) - Bộ sưu tập các crawler python, hiện gồm: thu thập bài hát NetEase Cloud Music, video Bilibili, hỏi đáp Zhihu, ảnh nền, video xvideos, sách nói, crawler Weibo, thu thập thông tin Anjuke + trực quan hóa dữ liệu, trích xuất ảnh bìa video Bilibili, đóng gói pool proxy IP, crawler người dùng Zhihu với phân tích dữ liệu hàng triệu người dùng, crawler người dùng Github
+- [genzj/pybingwallpaper](https://github.com/genzj/pybingwallpaper) - Tải hình nền từ bing.com
+- [woider/PythonExercise](https://github.com/woider/PythonExercise) - 100 bài luyện tập lập trình Python (mã nguồn), đã thử nghiệm trên Python 3.6
+- [axyyu/notion-clear-trash](https://github.com/axyyu/notion-clear-trash) - Script nhỏ để dọn sạch thùng rác trong Notion
+- [mono0926/alfred-git-commit-message-example](https://github.com/mono0926/alfred-git-commit-message-example) - Ví dụ về thông điệp commit Git cho Alfred
+- [skulltech/twitter-follow-bot](https://github.com/skulltech/twitter-follow-bot) - Công cụ tự động theo dõi nhiều tài khoản Twitter
+- [tqdm/tqdm](https://github.com/tqdm/tqdm) - :zap: Thanh tiến trình nhanh, mở rộng cho Python và CLI
+- [Chalarangelo/30-seconds-of-python](https://github.com/Chalarangelo/30-seconds-of-python) - Đoạn mã Python ngắn đáp ứng mọi nhu cầu phát triển của bạn
+- [BadagalaAdarsh/Super_Mario](https://github.com/BadagalaAdarsh/Super_Mario) - 
+- [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) - Tất cả các thuật toán được triển khai bằng Python
+- [MrMissx/Telegram_Forwarder](https://github.com/MrMissx/Telegram_Forwarder) - Bot Telegram chuyển tiếp tin nhắn từ kênh/nhóm
+- [mzucker/noteshrink](https://github.com/mzucker/noteshrink) - Chuyển đổi bản scan ghi chú viết tay thành file PDF đẹp, nhỏ gọn
+- [YuvrajSingh-16/Text-To-Handwritten-Notes](https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes) - Chuyển đổi văn bản thành PDF ghi chú viết tay
+- [steventango/notability2pdf](https://github.com/steventango/notability2pdf) - Trích xuất file PDF từ notability (*.note).
+- [132ikl/liteshort](https://github.com/132ikl/liteshort) - [ĐÃ CHUYỂN] Rút gọn URL thân thiện với người dùng, thực sự nhẹ và dễ cấu hình
+- [brndnmtthws/tweet-delete](https://github.com/brndnmtthws/tweet-delete) - Tự động xóa Tweet để bạn cũng có thể "ngầu" 😎
+- [bonfy/github-trending](https://github.com/bonfy/github-trending) - Theo dõi các repo nổi tiếng nhất trên Github, cập nhật hàng ngày (phiên bản Python)
+- [CollegesChat/university-information](https://github.com/CollegesChat/university-information) - Thu thập các yêu cầu và chi tiết ảnh hưởng thực tế đến chất lượng cuộc sống đại học tại các trường đại học trên toàn quốc mà trong tuyển sinh không đề cập rõ
+- [curtinlv/JD-Script](https://github.com/curtinlv/JD-Script) - Chỉ dùng để tham khảo.
+- [yhangf/PythonCrawler](https://github.com/yhangf/PythonCrawler) - :heartpulse: Bộ sưu tập các dự án crawler viết bằng python
+- [mobier/shadowsocksr-speed](https://github.com/mobier/shadowsocksr-speed) - Kiểm tra hàng loạt băng thông thực tế của node SSR
+- [twtrubiks/docker-tutorial](https://github.com/twtrubiks/docker-tutorial) - Hướng dẫn cơ bản về Docker - Từ chưa biết gì đến Docker-Beginners-Guide, dạy bạn dùng Docker để tạo Django + PostgreSQL 📝
+- [ZainCheung/netease-cloud](https://github.com/ZainCheung/netease-cloud) - Tự động điểm danh 300 bài hát mỗi ngày trên NetEase Cloud Music để nâng cấp tài khoản, hỗ trợ nhắc nhở qua WeChat, hỗ trợ triển khai trên cloud function không cần server
+- [caj2pdf/caj2pdf](https://github.com/caj2pdf/caj2pdf) - Chuyển đổi file CAJ (China Academic Journals) sang PDF. Chuyển đổi tài liệu CAJ của CNKI thành PDF. Chuyển đổi kiểu "Phật hệ", thành công hay không đều là duyên.
+- [iswbm/pycharm-guide](https://github.com/iswbm/pycharm-guide) - Hướng dẫn PyCharm bằng tiếng Trung: Cài đặt | Crack | Hiệu quả | Mẹo
+- [0voice/interview_internal_reference](https://github.com/0voice/interview_internal_reference) - Tổng hợp mới nhất năm 2023, các câu hỏi phỏng vấn kỹ thuật của Alibaba, Tencent, Baidu, Meituan, Toutiao, v.v., kèm đáp án và phân tích chuyên gia.
+- [spotDL/spotify-downloader](https://github.com/spotDL/spotify-downloader) - Tải playlist và bài hát Spotify cùng ảnh bìa và metadata (lấy từ YouTube nếu tìm được).
+- [devourbots/word_cloud_bot](https://github.com/devourbots/word_cloud_bot) - Bot tạo thống kê phát ngôn nhóm và sinh đám mây từ khóa từ nội dung trò chuyện
+- [Mrvishal2k2/TG-ShortLinkBot](https://github.com/Mrvishal2k2/TG-ShortLinkBot) - Bot rút gọn URL đơn giản sử dụng API của bit.ly
+- [hedyhli/starcli](https://github.com/hedyhli/starcli) - :sparkles: Duyệt các dự án nổi bật trên GitHub từ dòng lệnh
+- [bee-san/Ciphey](https://github.com/bee-san/Ciphey) - ⚡ Tự động giải mã mà không biết trước khóa hoặc thuật toán, giải mã encoding, bẻ khóa hash ⚡
+- [bhrigu123/classifier](https://github.com/bhrigu123/classifier) - Sắp xếp các file trong thư mục ngay lập tức bằng cách phân loại vào các thư mục khác nhau
+- [tfeldmann/organize](https://github.com/tfeldmann/organize) - Công cụ tự động quản lý file.
+- [babysor/MockingBird](https://github.com/babysor/MockingBird) - 🚀AI mô phỏng giọng nói: Nhân bản giọng nói của bạn trong 5 giây và tạo bất kỳ nội dung thoại nào theo thời gian thực
+- [urbanij/google_keep_takeout](https://github.com/urbanij/google_keep_takeout) - Xuất ghi chú Google Keep của bạn ra file markdown hoặc txt
+- [lonnyzhang423/v2ex-hot-hub](https://github.com/lonnyzhang423/v2ex-hot-hub) - Ghi lại các chủ đề hot trên v2ex, cập nhật mỗi giờ, lưu trữ theo ngày.
+- [Py-Contributors/awesomeScripts](https://github.com/Py-Contributors/awesomeScripts) - Bộ sưu tập các script Python tuyệt vời giúp cuộc sống hàng ngày dễ dàng hơn. Tạo issue nếu bạn có ý tưởng script mới. Để lại một :star: nhé!
+- [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) - Chương trình dòng lệnh để tải video từ YouTube.com và các trang video khác
+- [0xHJK/music-dl](https://github.com/0xHJK/music-dl) - Tìm kiếm và tải nhạc từ NetEase Cloud Music, QQ Music, Kugou Music, Baidu Music, Xiami Music, Migu Music, v.v.
+- [h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules) - Cung cấp nhiều bộ quy tắc Shadowrocket, có chức năng lọc quảng cáo. Dùng cho iOS chưa jailbreak để tự động vượt tường lửa có chọn lọc.
+- [Anankke/ASM-Bot](https://github.com/Anankke/ASM-Bot) - Tự động xóa tin nhắn dịch vụ như vào nhóm/rời nhóm trong Telegram group.
+- [Textualize/rich](https://github.com/Textualize/rich) - Rich là thư viện Python cho văn bản phong phú và định dạng đẹp trong terminal.
+- [Nekmo/telegram-upload](https://github.com/Nekmo/telegram-upload) - Tải lên và tải xuống file từ Telegram đến 4 GiB bằng tài khoản của bạn
+- [franciscod/telegram-twitter-forwarder-bot](https://github.com/franciscod/telegram-twitter-forwarder-bot) - Bot Telegram chuyển tiếp Tweet
+- [pyrogram/pyrogram](https://github.com/pyrogram/pyrogram) - Khung API MTProto Telegram hiện đại, bất đồng bộ, thanh lịch cho Python, dùng cho user và bot
+- [dev-jonghoonpark/pdf-password-locker](https://github.com/dev-jonghoonpark/pdf-password-locker) - Tiện ích đặt mật khẩu bảo vệ file PDF
+- [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) - :octocat: Chia sẻ các dự án mã nguồn mở thú vị, dễ tiếp cận trên GitHub.
+- [mozillazg/python-pinyin](https://github.com/mozillazg/python-pinyin) - Chuyển đổi chữ Hán sang Pinyin (pypinyin)
+- [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) - Đầu tư định kỳ thay đổi số phận —— để thời gian giúp bạn giàu lên dần dần https://onregularinvesting.com
+- [piyx/FileOrganizer](https://github.com/piyx/FileOrganizer) - Tự động sắp xếp các file trên máy tính của bạn
+- [sreekaransrinath/file_organizer](https://github.com/sreekaransrinath/file_organizer) - Script quét qua bất kỳ thư mục nào bạn chỉ định và di chuyển file vào thư mục con dựa trên loại file.
+- [aashutoshrathi/py-scripts](https://github.com/aashutoshrathi/py-scripts) - Các script hỗ trợ cho người dùng Windows để đơn giản hóa công việc hàng ngày.
+- [offa/android-foss](https://github.com/offa/android-foss) - Danh sách phần mềm Tự do & Mã nguồn mở (FOSS) cho Android – bảo vệ quyền tự do và riêng tư.
+- [Trinkle23897/learn2018-autodown](https://github.com/Trinkle23897/learn2018-autodown) - Script tự động tải các tài liệu khóa học trên hệ thống học online mới của Đại học Thanh Hoa / A python script to clone all files from learn.tsinghua.edu.cn
+- [521xueweihan/GitHub520](https://github.com/521xueweihan/GitHub520) - :kissing_heart: Giúp bạn "yêu" GitHub hơn, giải quyết sự cố hình bị vỡ, tải chậm khi truy cập GitHub. (không cần cài đặt)
+- [gurland/telegram-delete-all-messages](https://github.com/gurland/telegram-delete-all-messages) - Xóa tất cả tin nhắn của bạn trong nhóm / supergroup bằng script python này
+- [dylanyang17/TsinghuaBookCrawler](https://github.com/dylanyang17/TsinghuaBookCrawler) - Crawler thu thập dữ liệu từ nền tảng sách tham khảo Đại học Thanh Hoa
+## QML 
+
+- [Dr-Incognito/V2Ray-Desktop](https://github.com/Dr-Incognito/V2Ray-Desktop) - Ứng dụng khách proxy đa nền tảng thanh lịch nhất, hỗ trợ Shadowsocks(R), V2Ray và Trojan. Được xây dựng với Qt5 và QML2.
+
+## R 
+
+- [REditorSupport/languageserver](https://github.com/REditorSupport/languageserver) - Một triển khai của Giao thức Máy chủ Ngôn ngữ cho R
+
+## Rich Text Format 
+
+- [gauravghongde/social-icons](https://github.com/gauravghongde/social-icons) - Bộ sưu tập các biểu tượng mạng xã hội SVG & PNG. Biểu tượng mạng xã hội có thể nhúng, sử dụng trực tiếp trên trang web của bạn.
+
+## Roff 
+
+- [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) - Tất cả sách giáo khoa PDF cho tiểu học, trung học cơ sở, trung học phổ thông và đại học.
+- [wikihouseproject/Skylark](https://github.com/wikihouseproject/Skylark) - Hệ thống kết cấu WikiHouse mới nhất, sử dụng các khối cách nhiệt tiêu chuẩn hóa, dành cho các tòa nhà 1-3 tầng.
+
+## Ruby 
+
+- [captn3m0/opml-gen](https://github.com/captn3m0/opml-gen) - 
+- [hartator/wayback-machine-downloader](https://github.com/hartator/wayback-machine-downloader) - Tải xuống toàn bộ trang web từ Wayback Machine.
+- [lewagon/setup](https://github.com/lewagon/setup) - Hướng dẫn thiết lập cho sinh viên của Le Wagon vào ngày đầu tiên của Bootcamp Phát triển Web
+- [community/community](https://github.com/community/community) - Thảo luận phản hồi công khai cho: GitHub Mobile, GitHub Discussions, GitHub Codespaces, GitHub Sponsors, GitHub Issues và nhiều hơn nữa!
+- [mrtazz/katana](https://github.com/mrtazz/katana) - URL shortener sẵn sàng triển khai trên heroku, dựa trên guillotine
+- [technoweenie/guillotine](https://github.com/technoweenie/guillotine) - Bộ dụng cụ rút ngắn URL cho sở thích
+- [jekyll/jekyll](https://github.com/jekyll/jekyll) - :globe_with_meridians: Jekyll là trình tạo trang tĩnh nhận biết blog bằng Ruby
+- [mastodon/mastodon](https://github.com/mastodon/mastodon) - Cộng đồng tiểu blog tự lưu trữ, kết nối toàn cầu của bạn
+- [apsheronets/reader](https://github.com/apsheronets/reader) - 
+- [IgnoredAmbience/github-gitlab-sync](https://github.com/IgnoredAmbience/github-gitlab-sync) - Đồng bộ kho lưu trữ liên tục giữa GitHub và GitLab
+- [huginn/huginn](https://github.com/huginn/huginn) - Tạo các agent theo dõi và hành động thay bạn. Các agent của bạn luôn sẵn sàng!
+## Rust 
+
+- [microsoft/edit](https://github.com/microsoft/edit) - Chúng ta cùng chỉnh sửa.
+- [justjavac/herlang](https://github.com/justjavac/herlang) - Ngôn ngữ lập trình Her được viết bằng Rust.
+- [sigoden/aichat](https://github.com/sigoden/aichat) - Công cụ dòng lệnh LLM tất cả trong một với Trợ lý Shell, Chat-REPL, RAG, Công cụ & Tác nhân AI, hỗ trợ OpenAI, Claude, Gemini, Ollama, Groq và nhiều hơn nữa.
+- [astral-sh/rye](https://github.com/astral-sh/rye) - Trải nghiệm Python không rắc rối
+- [libnyanpasu/clash-nyanpasu](https://github.com/libnyanpasu/clash-nyanpasu) - Clash Nyanpasu～(∠・ω&lt; )⌒☆​
+- [microsoft/sudo](https://github.com/microsoft/sudo) - Đây là sudo, cho Windows
+- [KipData/KiteSQL](https://github.com/KipData/KiteSQL) - SQL như một Hàm cho Rust
+- [zed-industries/zed](https://github.com/zed-industries/zed) - Lập trình với tốc độ suy nghĩ – Zed là trình soạn thảo mã nguồn hiệu suất cao, hỗ trợ đa người dùng, từ các tác giả của Atom và Tree-sitter.
+- [H-M-H/Weylus](https://github.com/H-M-H/Weylus) - Sử dụng máy tính bảng của bạn làm bảng vẽ đồ họa/màn hình cảm ứng trên máy tính.
+- [YukiCoco/ToMoon](https://github.com/YukiCoco/ToMoon) - Công cụ mạng tùy biến dựa trên SteamOS, tự động cấu hình chế độ TUN để tăng tốc game, proxy mạng.
+- [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) - Máy chủ tương thích Bitwarden không chính thức viết bằng Rust, trước đây gọi là bitwarden_rs
+- [rustdesk/rustdesk-server](https://github.com/rustdesk/rustdesk-server) - Chương trình Máy chủ RustDesk
+- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) - Ứng dụng điều khiển máy tính từ xa mã nguồn mở dành cho tự triển khai, thay thế TeamViewer.
+- [m1guelpf/plz-cli](https://github.com/m1guelpf/plz-cli) - Copilot cho terminal của bạn
+- [EAimTY/socks5-server](https://github.com/EAimTY/socks5-server) - Thư viện máy chủ SOCKS5 không đồng bộ, chi tiết, dựa trên tokio
+- [sigoden/opscan](https://github.com/sigoden/opscan) - Máy quét cổng mở.
+- [lencx/ChatGPT](https://github.com/lencx/ChatGPT) - 🔮 Ứng dụng ChatGPT cho máy tính (Mac, Windows và Linux)
+- [klausi/mastodon-twitter-sync](https://github.com/klausi/mastodon-twitter-sync) - Đồng bộ bài viết từ Mastodon sang Twitter và ngược lại
+- [glotlabs/gdrive](https://github.com/glotlabs/gdrive) - Ứng dụng dòng lệnh Google Drive
+- [lapce/lapce](https://github.com/lapce/lapce) - Trình soạn thảo mã nguồn mạnh mẽ và siêu nhanh viết bằng Rust
+- [dracarys18/TweetBot](https://github.com/dracarys18/TweetBot) - Bot Telegram đơn giản để truyền tải tweet từ bất kỳ tài khoản twitter nào đến kênh Telegram
+- [tw93/Pake](https://github.com/tw93/Pake) - 🤱🏻 Biến bất kỳ trang web nào thành ứng dụng desktop bằng Rust.  🤱🏻 Dễ dàng xây dựng ứng dụng desktop đa nền tảng nhẹ với Rust
+- [google/comprehensive-rust](https://github.com/google/comprehensive-rust) - Đây là khóa học Rust được sử dụng bởi nhóm Android tại Google. Cung cấp tài liệu để bạn nhanh chóng giảng dạy Rust.
+- [facebook/sapling](https://github.com/facebook/sapling) - Hệ thống kiểm soát mã nguồn mở rộng, thân thiện với người dùng.
+- [abba23/spotify-adblock](https://github.com/abba23/spotify-adblock) - Chặn quảng cáo cho Spotify
+- [messense/aliyundrive-webdav](https://github.com/messense/aliyundrive-webdav) - Dịch vụ WebDAV cho Aliyun Drive
+- [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - Cơ sở dữ liệu tài liệu-đồ thị phân tán, mở rộng, cộng tác, cho web thời gian thực
+- [rust-net/dnsd](https://github.com/rust-net/dnsd) - Máy chủ proxy DNS
+- [ihciah/shadow-tls](https://github.com/ihciah/shadow-tls) - Proxy phơi bày bắt tay tls thực đến tường lửa
+- [seanmonstar/warp](https://github.com/seanmonstar/warp) - Khung máy chủ web siêu đơn giản, có thể kết hợp, tốc độ warp.
+- [iovxw/rssbot](https://github.com/iovxw/rssbot) - Bot thông báo RSS nhẹ cho Telegram. Dùng để thông báo tin nhắn, bot RSS nhẹ cho Telegram
+- [Wulf/create-rust-app](https://github.com/Wulf/create-rust-app) - Thiết lập web app hiện đại rust+react chỉ với một lệnh.
+- [sathwikmatsa/tcad](https://github.com/sathwikmatsa/tcad) - Trình tải tự động tcloud
+- [sunface/rust-course](https://github.com/sunface/rust-course) - “Liên tiếp tám năm là ngôn ngữ được yêu thích nhất thế giới, không có GC cũng không cần quản lý bộ nhớ thủ công, hiệu suất và an toàn cực cao, hỗ trợ lập trình thủ tục/OO/hàm, quản lý gói xuất sắc, nền tảng tương lai của JS" — Hãy thử Rust như ngôn ngữ thứ hai khi rảnh rỗi. Cuốn sách này có giải thích toàn diện và sâu sắc, ví dụ sinh động, nội dung mượt mà như sôcôla Dove, có thể là hướng dẫn học Rust tiếng Trung tốt nhất hiện tại.
+- [rust-lang/cargo](https://github.com/rust-lang/cargo) - Trình quản lý gói của Rust
+- [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) - Trình phân tích cú pháp Rust dành cho các IDE
+- [rust-lang/book](https://github.com/rust-lang/book) - Ngôn ngữ lập trình Rust
+- [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) - Danh sách chọn lọc mã và tài nguyên Rust.
+- [bee-san/RustScan](https://github.com/bee-san/RustScan) - 🤖 Máy quét cổng hiện đại 🤖
+- [RustPython/RustPython](https://github.com/RustPython/RustPython) - Trình thông dịch Python viết bằng Rust
+- [TheAlgorithms/Rust](https://github.com/TheAlgorithms/Rust) - Tất cả thuật toán được hiện thực bằng Rust
+- [Berrysoft/tunet-rust](https://github.com/Berrysoft/tunet-rust) - Thư viện và ứng dụng khách Rust cho mạng nội bộ Đại học Thanh Hoa
+- [sachaos/viddy](https://github.com/sachaos/viddy) - 👀 Lệnh watch hiện đại. Cỗ máy thời gian và trình phân trang v.v.
+- [sekunho/emojied](https://github.com/sekunho/emojied) - ✂️ Rút ngắn URL bằng emoji, chỉ dùng emoji.
+- [kxxt/aspeak](https://github.com/kxxt/aspeak) - Ứng dụng chuyển văn bản thành giọng nói đơn giản cho Azure TTS API.
+- [sharkdp/fd](https://github.com/sharkdp/fd) - Thay thế đơn giản, nhanh chóng và thân thiện với người dùng cho 'find'
+- [atuinsh/atuin](https://github.com/atuinsh/atuin) - ✨ Lịch sử shell ma thuật
+- [Dusk-Labs/dim](https://github.com/Dusk-Labs/dim) - Dim, trình quản lý đa phương tiện dựa trên sức mạnh bóng tối.
+- [ekzhang/bore](https://github.com/ekzhang/bore) - 🕳 bore là công cụ dòng lệnh đơn giản để tạo tunnel đến localhost
+- [rust-lang/mdBook](https://github.com/rust-lang/mdBook) - Tạo sách từ các tệp markdown. Giống Gitbook nhưng viết bằng Rust
+- [sunface/rust-by-practice](https://github.com/sunface/rust-by-practice) - Học Rust qua thực hành, thu hẹp khoảng cách giữa người mới bắt đầu và lập trình viên thành thạo qua ví dụ, bài tập, dự án thực tế.
+- [Wilfred/difftastic](https://github.com/Wilfred/difftastic) - Diff cấu trúc hiểu cú pháp 🟥🟩
+- [rust-lang/rust](https://github.com/rust-lang/rust) - Trao quyền cho mọi người xây dựng phần mềm đáng tin cậy và hiệu quả.
+- [influxdata/influxdb](https://github.com/influxdata/influxdb) - Kho dữ liệu mở rộng cho số liệu, sự kiện và phân tích thời gian thực
+- [ogham/exa](https://github.com/ogham/exa) - Thay thế hiện đại cho ‘ls’.
+- [rathole-org/rathole](https://github.com/rathole-org/rathole) - Proxy ngược nhẹ và hiệu suất cao cho NAT traversal, viết bằng Rust. Thay thế frp và ngrok.
+- [flxzt/rnote](https://github.com/flxzt/rnote) - Vẽ phác thảo và ghi chú bằng tay.
+- [ihciah/ddns-worker](https://github.com/ihciah/ddns-worker) - 
+- [svenstaro/genact](https://github.com/svenstaro/genact) - 🌀 Trình tạo hoạt động giả ngẫu nhiên
+- [cloudflare/wrangler-legacy](https://github.com/cloudflare/wrangler-legacy) - 🤠  Lưu trữ Wrangler v1 (không còn được hỗ trợ)
+- [starship/starship](https://github.com/starship/starship) - ☄🌌️  Dấu nhắc tối giản, cực nhanh, tùy biến vô hạn cho mọi shell!
+- [sayanarijit/qrcode.show](https://github.com/sayanarijit/qrcode.show) - [BẢN MẪU HOẠT ĐỘNG] Tạo mã QR dễ dàng miễn phí - Dịch vụ tạo mã QR
+- [fish-shell/fish-shell](https://github.com/fish-shell/fish-shell) - Shell dòng lệnh thân thiện với người dùng.
+- [qarmin/szyszka](https://github.com/qarmin/szyszka) - Szyszka là trình đổi tên tệp nhanh và mạnh mẽ
+- [qarmin/czkawka](https://github.com/qarmin/czkawka) - Ứng dụng đa chức năng để tìm file trùng lặp, thư mục rỗng, ảnh tương tự, v.v.
+## SCSS 
+
+- [Keldos-Li/typora-latex-theme](https://github.com/Keldos-Li/typora-latex-theme) - Chủ đề kiểu dáng tiếng Trung của LaTeX ngụy trang cho Typora, là trợ thủ đắc lực cho sinh viên đại học viết luận văn khóa học nhẹ. Đây là chủ đề ngụy trang Typora thành phong cách LaTeX tiếng Trung.
+- [vinceliuice/Graphite-gtk-theme](https://github.com/vinceliuice/Graphite-gtk-theme) - Chủ đề gtk Graphite
+- [noatpad/typora-theme-ursine](https://github.com/noatpad/typora-theme-ursine) - Chủ đề Typora, lấy cảm hứng từ Bear
+- [vinceliuice/WhiteSur-gtk-theme](https://github.com/vinceliuice/WhiteSur-gtk-theme) - Chủ đề giống MacOS cho tất cả desktop dựa trên gtk
+- [sivan/heti](https://github.com/sivan/heti) - 赫蹏（hètí）là kiểu dáng tăng cường bố cục dành riêng cho nội dung tiếng Trung. Dựa trên quy chuẩn bố cục tiếng Trung phổ biến, mang lại trải nghiệm đọc bài viết tốt hơn cho người đọc trên website.
+- [AboutRSS/ALL-about-RSS](https://github.com/AboutRSS/ALL-about-RSS) - Danh sách các công cụ, dịch vụ, cộng đồng và hướng dẫn liên quan đến RSS, v.v.
+
+## SVG 
+
+- [gilbarbara/logos](https://github.com/gilbarbara/logos) - Bộ sưu tập lớn các logo SVG
+- [tandpfun/skill-icons](https://github.com/tandpfun/skill-icons) - Dễ dàng trình bày kỹ năng của bạn trên Github readme hoặc sơ yếu lý lịch ✨
+
+## Shell 
+
+- [LloydAsp/NodeQuality](https://github.com/LloydAsp/NodeQuality) - Chạy script kiểm tra VPS trong môi trường sandbox và trình bày kết quả kiểm tra
+- [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) - Lỗ đen cho quảng cáo trên Internet
+- [xykt/IPQuality](https://github.com/xykt/IPQuality) - Script kiểm tra chất lượng IP - IP Quality Check Script
+- [i-abc/Speedtest](https://github.com/i-abc/Speedtest) - Script kiểm tra tốc độ đa chức năng | Multi-functional speedtest script
+- [fscarmen/ArgoX](https://github.com/fscarmen/ArgoX) - Argo Xray cho VPS - script một cú nhấp chuột. 一键脚本
+- [233boy/Xray](https://github.com/233boy/Xray) - Script cài đặt & quản lý Xray một cú nhấp chuột tốt nhất
+- [binpash/try](https://github.com/binpash/try) - Kiểm tra tác động của lệnh trước khi thay đổi hệ thống thực của bạn
+- [panyanyany/muchat-aio](https://github.com/panyanyany/muchat-aio) - Ứng dụng web ChatGPT phiên bản nhóm, đa người dùng, không cần đăng nhập. Phù hợp sử dụng nội bộ cho công ty, tổ chức hoặc nhóm nhỏ.
+- [guzhaoyuan/net.tsinghua](https://github.com/guzhaoyuan/net.tsinghua) - Giao diện dòng lệnh để đăng nhập mạng Tsinghua
+- [yonggekkk/warp-yg](https://github.com/yonggekkk/warp-yg) - Script warp đa chức năng một cú nhấp chuột, hỗ trợ chuyển đổi warp-go và wgcf, tạo vô hạn file cấu hình warp, hỗ trợ nâng cấp warp+, tài khoản nhóm warp, xem IP cục bộ VPS, trạng thái mở khóa netflix, chatgpt
+- [AbdBarho/stable-diffusion-webui-docker](https://github.com/AbdBarho/stable-diffusion-webui-docker) - Thiết lập Docker dễ dàng cho Stable Diffusion với giao diện người dùng thân thiện
+- [lxhao61/integrated-examples](https://github.com/lxhao61/integrated-examples) - Sử dụng Nginx hoặc Caddy (phiên bản v2) kết hợp V2Ray (phiên bản v4) hoặc Xray, Caddy (phiên bản v2) cùng plugin chuyên dụng, Hysteria, v.v. để tạo các cấu hình tối ưu và ví dụ kết hợp tối ưu cho các giải pháp vượt tường lửa phổ biến, kèm file Caddy (v2) tích hợp plugin đặc biệt, chia sẻ để mọi người sử dụng và tự sao lưu.
+- [haiwen/seafile-admin-docs](https://github.com/haiwen/seafile-admin-docs) - 
+- [P3TERX/aria2.conf](https://github.com/P3TERX/aria2.conf) - File cấu hình Aria2 | Tải về offline từ OneDrive & Google Drive | Chuyển lưu Baidu Netdisk
+- [colinwjd/aria2-ariang](https://github.com/colinwjd/aria2-ariang) - Aria2 với giao diện web Aira-Ng
+- [lmc999/auto-add-routes](https://github.com/lmc999/auto-add-routes) - Định tuyến Trung Quốc cho VPN
+- [chenjie/v2ray-tls-websocket-nginx](https://github.com/chenjie/v2ray-tls-websocket-nginx) - 🌎Cấu hình proxy V2Ray TỐI ƯU sử dụng Project V.
+- [awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash) - Danh sách tập hợp các script Bash và tài nguyên hữu ích.
+- [York618/alist-flyio](https://github.com/York618/alist-flyio) - 
+- [termux/termux-packages](https://github.com/termux/termux-packages) - Hệ thống xây dựng gói cho Termux.
+- [todotxt/todo.txt-cli](https://github.com/todotxt/todo.txt-cli) - ☑️ Script shell đơn giản và mở rộng để quản lý file todo.txt của bạn.
+- [VSCodium/vscodium](https://github.com/VSCodium/vscodium) - Phát hành nhị phân của VS Code không có thương hiệu/telemetry/bản quyền của MS
+- [dylanaraps/neofetch](https://github.com/dylanaraps/neofetch) - 🖼️  Công cụ thông tin hệ thống dòng lệnh viết bằng bash 3.2+
+- [emptysuns/Hi_Hysteria](https://github.com/emptysuns/Hi_Hysteria) - Hello World! Đường truyền không tối ưu cho ngoài Trung Quốc? Không muốn relay? hysteria2 giải quyết chỉ với một cú nhấp chuột.
+- [nicejade/vuepress-web-app](https://github.com/nicejade/vuepress-web-app) - 📝 Ứng dụng Web xây dựng bằng VuePress, hỗ trợ PWA, bình luận bằng Github Issues, Prettier Markdown, v.v.
+- [qinghuas/socks5-install](https://github.com/qinghuas/socks5-install) - Script socks5 một cú nhấp chuột
+- [MichaelCade/90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps) - Kho lưu trữ này ban đầu là dự án học tập công khai của cá nhân tôi, nay đã trở thành bản đồ học tập có cấu trúc cho nhiều người trong cộng đồng. Đã có 3 năm kinh nghiệm về tất cả mọi thứ DevOps
+- [rocky-linux/rocky-tools](https://github.com/rocky-linux/rocky-tools) - 
+- [Smalls1652/wsl2-rockylinux](https://github.com/Smalls1652/wsl2-rockylinux) - Tạo image RockyLinux để sử dụng trong Windows Subsystem for Linux.
+- [scop/bash-completion](https://github.com/scop/bash-completion) - Chức năng hoàn thành có thể lập trình cho bash
+- [yeahwu/v2ray-wss](https://github.com/yeahwu/v2ray-wss) - Script proxy với nhiều giao thức.
+- [nodesource/distributions](https://github.com/nodesource/distributions) - Phát hành nhị phân Node.js của NodeSource
+- [uvulpos/gitea-installer](https://github.com/uvulpos/gitea-installer) - Script bash cài đặt đơn giản cho gitea! Vui lòng kiểm tra xem bạn đang sử dụng liên kết tải Gitea mới nhất trước khi thực thi script
+- [chevereto/vps](https://github.com/chevereto/vps) - Bộ sưu tập script bash để cài đặt Chevereto trên bất kỳ VPS nào
+- [wulabing/Xray_onekey](https://github.com/wulabing/Xray_onekey) - Script cài đặt Xray VLESS + XTLS một cú nhấp chuột dựa trên Nginx
+- [lanbugs/gitea_installer](https://github.com/lanbugs/gitea_installer) - Script cài đặt GITEA
+- [AlistGo/alist-replit](https://github.com/AlistGo/alist-replit) - alist trên replit
+- [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) - Script shell thuần Unix thực hiện giao thức ACME client
+- [wulabing/V2Ray_ws-tls_bash_onekey](https://github.com/wulabing/V2Ray_ws-tls_bash_onekey) - 
+- [mack-a/v2ray-agent](https://github.com/mack-a/v2ray-agent) - Script một cú nhấp chuột 8 trong 1 cho Xray, Tuic, hysteria2, sing-box
+- [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) - Các bài báo từ cộng đồng khoa học máy tính để đọc và thảo luận.
+- [eRaid6/gitea-install](https://github.com/eRaid6/gitea-install) - Cài đặt và nâng cấp Gitea trên CentOS 7/RHEL7 và Fedora 30
+- [P3TERX/warp.sh](https://github.com/P3TERX/warp.sh) - Cloudflare WARP Installer | Script cài đặt WARP một cú nhấp chuột
+- [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃   Framework quản lý cấu hình zsh do cộng đồng xây dựng (với hơn 2.400 cộng tác viên). Bao gồm 300+ plugin tùy chọn (rails, git, macOS, hub, docker, homebrew, node, php, python, ...)
+- [bestxtools/awesome-toolbox-chinese](https://github.com/bestxtools/awesome-toolbox-chinese) - 🧰 Bộ sưu tập hộp công cụ xuất sắc - thu thập và giới thiệu các hộp công cụ hữu ích, xuất sắc. Tổng hợp các hộp công cụ. | https://awesome-toolbox-chinese.bestxtools.com/ | https://😎🧰.bestxtools.com/
+- [wslutilities/wslu](https://github.com/wslutilities/wslu) - Bộ tiện ích cho Windows Subsystem for Linux
+- [cheat/cheatsheets](https://github.com/cheat/cheatsheets) - Cheatsheet do cộng đồng đóng góp
+- [foxundermoon/vs-shell-format](https://github.com/foxundermoon/vs-shell-format) - Tiện ích định dạng shellscript, Dockerfile, properties ...
+- [aprescott/gist-backup](https://github.com/aprescott/gist-backup) - Sao lưu tất cả kho gist công khai và riêng tư của bạn.
+- [Jrohy/nodejs-install](https://github.com/Jrohy/nodejs-install) - Script cài đặt nodejs phiên bản mới nhất một cú nhấp chuột
+- [rickellis/ConkyMatic](https://github.com/rickellis/ConkyMatic) - Tự động thay đổi màu sắc Conky dựa trên màu hình nền hiện tại. Viết bằng Bash.
+- [DamionGans/ubuntu-wsl2-systemd-script](https://github.com/DamionGans/ubuntu-wsl2-systemd-script) - [Không còn hoạt động!] Script bật hỗ trợ systemd trên các image Ubuntu WSL2 hiện tại
+- [adi1090x/dynamic-wallpaper](https://github.com/adi1090x/dynamic-wallpaper) - Script bash đơn giản để đặt hình nền theo thời gian hiện tại, sử dụng cron job.
+- [v2fly/fhs-install-v2ray](https://github.com/v2fly/fhs-install-v2ray) - Script Bash cài đặt V2Ray trên các hệ điều hành hỗ trợ systemd như Debian / CentOS / Fedora / openSUSE
+- [denysdovhan/one-gnome-terminal](https://github.com/denysdovhan/one-gnome-terminal) - Chủ đề One Dark và One Light của Atom cho GNOME Terminal
+- [disbalancer-project/main](https://github.com/disbalancer-project/main) - 
+- [felixonmars/vps2arch](https://github.com/felixonmars/vps2arch) - Cách nhanh nhất để chuyển VPS sang Arch Linux! (forked từ gitlab:drizzt/vps2arch)
+- [xiantang/xiantang-blog](https://github.com/xiantang/xiantang-blog) - blog
+- [WSA-Community/WSAGAScript](https://github.com/WSA-Community/WSAGAScript) - Script cài đặt Google Apps vào image WSA. Tùy chọn root
+- [mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) - Hơn 400 phối màu/chủ đề terminal cho iTerm/iTerm2. Bao gồm các bản port sang Terminal, Konsole, PuTTY, Xresources, XRDB, Remmina, Termite, XFCE, Tilda, FreeBSD VT, Terminator, Kitty, MobaXterm, LXTermin
+- [wabarc/on-heroku](https://github.com/wabarc/on-heroku) - Triển khai và duy trì dịch vụ wayback dưới dạng ứng dụng Heroku một cách dễ dàng và nhanh chóng.
+- [wabarc/on-github](https://github.com/wabarc/on-github) - Dịch vụ Wayback dưới dạng GitHub Actions (Chỉ là bản demo)
+- [csguide-dabai/Programmer-look-at-China](https://github.com/csguide-dabai/Programmer-look-at-China) - Giới thiệu môi trường Internet và chi phí sinh hoạt của các thành phố hạng hai trở lên ở Trung Quốc
+- [vicalloy/outline-docker-compose](https://github.com/vicalloy/outline-docker-compose) - Cài đặt một instance Outline wiki tự host trong vài phút
+- [haoyume/233blog-v2ray](https://github.com/haoyume/233blog-v2ray) - 
+- [jpetazzo/container.training](https://github.com/jpetazzo/container.training) - Slide và mã nguồn mẫu cho đào tạo, hướng dẫn và workshop về Docker, containers, và Kubernetes.
+- [Websoft9Archive/ansible-nextcloud](https://github.com/Websoft9Archive/ansible-nextcloud) - Cài đặt tự động Nextcloud trên Linux (Nextcloud自动安装程序)
+- [nextcloud/docker](https://github.com/nextcloud/docker) - ⛴ Ảnh Docker của Nextcloud
+- [ToutyRater/v2ray-guide](https://github.com/ToutyRater/v2ray-guide) - 
+- [cutelua/mtg-dist](https://github.com/cutelua/mtg-dist) - Script phân phối và cài đặt mtg một dòng lệnh
+- [Cats-Team/AdRules](https://github.com/Cats-Team/AdRules) - Danh sách chặn quảng cáo cho khu vực Trung Quốc
+- [weakish/gister](https://github.com/weakish/gister) - Công cụ dòng lệnh đồng bộ github gists
+- [Kr328/clash-premium-installer](https://github.com/Kr328/clash-premium-installer) - Script cài đặt đơn giản clash premium core cho Linux.
+- [zfl9/ss-tproxy](https://github.com/zfl9/ss-tproxy) - ss/v2ray/xray/trojan/hysteria/naive/socks5 proxy trong suốt
+- [wyx176/Socks5](https://github.com/wyx176/Socks5) - Script xây dựng server proxy Socks5 / Script tạo shortcut Socks5
+- [JACKUSR2089/v2ray-subscribed](https://github.com/JACKUSR2089/v2ray-subscribed) - v2ray666
+- [jinwyp/one_click_script](https://github.com/jinwyp/one_click_script) - Cài đặt kernel linux mới nhất hoặc LTS và kích hoạt BBR hoặc BBR plus
+- [gaurav-nelson/github-action-markdown-link-check](https://github.com/gaurav-nelson/github-action-markdown-link-check) - ⛔️ ĐÃ NGỪNG SỬ DỤNG Kiểm tra tất cả liên kết trong file markdown xem còn hoạt động hay chết. 🔗✔️PS: https://github.com/tcort/github-action-markdown-link-check
+- [rey/tweet-delete](https://github.com/rey/tweet-delete) - 
+- [JetBrains/JetBrainsMono](https://github.com/JetBrains/JetBrainsMono) - JetBrains Mono – font miễn phí và mã nguồn mở dành cho lập trình viên
+- [oh-my-fish/oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) - Framework cho Fish Shell
+- [SnShine/Twitter-to-DayOne](https://github.com/SnShine/Twitter-to-DayOne) - Lấy tất cả tweet trong ngày của bạn và tạo entry DayOne.
+- [haiwen/seafile-server-installer](https://github.com/haiwen/seafile-server-installer) - Bộ sưu tập script thiết lập cài đặt Seafile server sẵn sàng sản xuất với HTTPS
+- [ludovicchabant/Chrome-Search-Engine-Sync](https://github.com/ludovicchabant/Chrome-Search-Engine-Sync) - Một số script đơn giản để xuất/nhập tuỳ chọn công cụ tìm kiếm của Google Chrome.
+- [lovezzzxxx/liverecord](https://github.com/lovezzzxxx/liverecord) - Tự động ghi hình và sao lưu, hỗ trợ kênh youtube, kênh twitcast, kênh twitch, kênh openrec, phát sóng trực tiếp niconico, cộng đồng niconico, kênh niconico, kênh mirrativ, kênh reality, kênh 17live, kênh bilibili, địa chỉ phát trực tiếp hỗ trợ streamlink, địa chỉ m3u8 hỗ trợ ffmpeg
+## Stylus 
+
+- [XPoet/hexo-theme-keep](https://github.com/XPoet/hexo-theme-keep) - :rainbow: Một giao diện đơn giản và nhẹ cho Hexo. Giúp bạn tập trung hơn vào việc viết lách.
+
+## Svelte 
+
+- [K-Sato1995/focus-sounds](https://github.com/K-Sato1995/focus-sounds) - Trang web tăng năng suất được xây dựng với svelte-kit. Bạn có thể nghe các âm thanh môi trường để giúp tập trung👨‍💻👨‍💻
+- [shajidhasan/rknotes-app](https://github.com/shajidhasan/rknotes-app) - 
+- [shajidhasan/batname](https://github.com/shajidhasan/batname) - Tạo văn bản giống logo phim "The Batman (2022)"
+- [shajidhasan/cowsay-svelte](https://github.com/shajidhasan/cowsay-svelte) - Giao diện đồ họa cowsay được xây dựng với Svelte, TailwindCSS và HTML Canvas
+- [pabueco/hue.tools](https://github.com/pabueco/hue.tools) - Bộ công cụ đơn giản để làm việc với màu sắc. Hỗn hợp màu, pha trộn, chuyển đổi, chỉnh sửa, thông tin chi tiết, v.v.
+- [cxumol/URLinkCat](https://github.com/cxumol/URLinkCat) - Danh mục liên kết URL, ứng dụng đánh dấu trang đám mây đa người dùng nhẹ chạy trên nền tảng serverless, được tạo ra để nhanh và dễ sử dụng
+- [dufu1991/simple-cloud-music](https://github.com/dufu1991/simple-cloud-music) - Trình phát nhạc đám mây NetEase của bên thứ ba đơn giản
+
+## Swift 
+
+- [mazzzystar/Queryable](https://github.com/mazzzystar/Queryable) - Chạy mô hình CLIP của OpenAI và MobileCLIP của Apple trên iOS để tìm kiếm ảnh.
+- [mudkipme/MoeMemos](https://github.com/mudkipme/MoeMemos) - Ứng dụng giúp bạn ghi lại ý tưởng và suy nghĩ
+- [thebaselab/codeapp](https://github.com/thebaselab/codeapp) - Xây dựng trình chỉnh sửa mã nguồn đầy đủ chức năng cho iPad
+- [LyricZhao/THU-Bell](https://github.com/LyricZhao/THU-Bell) - THU Bell trên macOS
+- [insidegui/VirtualBuddy](https://github.com/insidegui/VirtualBuddy) - Ảo hóa macOS 12 trở lên trên Apple Silicon, VirtualBuddy là giao diện máy ảo cho macOS M1, M2, M3, M4
+- [sindresorhus/Plash](https://github.com/sindresorhus/Plash) - 💦 Biến bất kỳ trang web nào thành hình nền desktop Mac của bạn
+- [CodeEditApp/CodeEdit](https://github.com/CodeEditApp/CodeEdit) - 📝 Ứng dụng CodeEdit cho macOS – Nâng tầm trải nghiệm chỉnh sửa mã. Mã nguồn mở, miễn phí mãi mãi.
+- [RanKKI/LawRefBook](https://github.com/RanKKI/LawRefBook) - Sổ tay pháp luật của Cộng hòa Nhân dân Trung Hoa
+- [gee1k/uPic](https://github.com/gee1k/uPic) - 📤uPic là công cụ tải lên ảnh và tệp bản địa, mạnh mẽ, đẹp và đơn giản cho macOS.
+## TeX 
+
+- [billryan/resume](https://github.com/billryan/resume) - Một mẫu sơ yếu lý lịch \LaTeX\ thanh lịch. 镜像 trong Đại Lục https://gods.coding.net/p/resume/git
+- [LittleNewton/Replace_MathType](https://github.com/LittleNewton/Replace_MathType) - Cung cấp một giải pháp thay thế công thức toán học dựa trên Microsoft Office 365
+- [lib-pku/libpku](https://github.com/lib-pku/libpku) - Tài liệu các khóa học của trường bạn được tổng hợp bởi cộng đồng
+- [liblaf/ilatex](https://github.com/liblaf/ilatex) - 📚 Các mẫu LaTeX và công cụ để tạo ra các tài liệu đẹp và có cấu trúc 📝
+- [Didnelpsun/Math](https://github.com/Didnelpsun/Math) - Toán cao học, Toán 1, bao gồm Toán cao cấp, Đại số tuyến tính, Xác suất thống kê
+- [zhengkd95/thu_poster_template](https://github.com/zhengkd95/thu_poster_template) - Một mẫu poster học thuật LaTeX với logo Đại học Thanh Hoa
+- [VicaYang/THU-Exam-LaTeX-Template](https://github.com/VicaYang/THU-Exam-LaTeX-Template) - Mẫu LaTeX cho đề thi THU
+- [alick/thulib-latex-talk](https://github.com/alick/thulib-latex-talk) - Bài giảng 《Cách sử dụng LaTeX để dàn trang luận văn》. Cập nhật tiếp theo: https://github.com/tuna/thulib-latex-talk
+- [tuna/thulib-latex-talk](https://github.com/tuna/thulib-latex-talk) - Bài giảng 《Cách sử dụng LaTeX để dàn trang luận văn》
+- [zhaofeng-shu33/THU-coursework-template](https://github.com/zhaofeng-shu33/THU-coursework-template) - Mẫu bài tập THU, người dùng dự kiến: Toán học, Vật lý, Kỹ thuật Điện tử, Cơ học và Khoa học Máy tính
+- [zinccat/PKU-beamer-theme](https://github.com/zinccat/PKU-beamer-theme) - Chủ đề beamer được chỉnh sửa từ một mẫu của Thanh Hoa
+- [ZenithalHourlyRate/learn-git-the-not-so-super-hard-way](https://github.com/ZenithalHourlyRate/learn-git-the-not-so-super-hard-way) - 
+- [K-Wu/CV-tsinghua-template](https://github.com/K-Wu/CV-tsinghua-template) - Tôn kính, Trường Đại học Cao quý nhất của bạn (THU)
+- [soulmachine/leetcode](https://github.com/soulmachine/leetcode) - Giải đề LeetCode, đầy đủ 151 câu hỏi.
+- [tuna/thuthesis](https://github.com/tuna/thuthesis) - Mẫu luận văn LaTeX cho Đại học Thanh Hoa
+
+## TypeScript 
+
+- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) - Một tác nhân AI mã nguồn mở mang sức mạnh của Gemini trực tiếp vào terminal của bạn.
+- [JuanJLH/vscode-warp-terminal](https://github.com/JuanJLH/vscode-warp-terminal) - 
+- [lobehub/lobe-icons](https://github.com/lobehub/lobe-icons) - 🥨 Lobe Icons - Bộ sưu tập logo và biểu tượng SVG của các thương hiệu AI / LLM phổ biến.
+- [nimbusdotstorage/Nimbus](https://github.com/nimbusdotstorage/Nimbus) - Một giải pháp thay thế mã nguồn mở cho Google Drive, One Drive, iCloud, v.v.
+- [BingyanStudio/github-analyzer](https://github.com/BingyanStudio/github-analyzer) - Đánh giá sắc bén về bạn đã viết gì trên GitHub
+- [voideditor/void](https://github.com/voideditor/void) - 
+- [HiveNexus/A2A-Chat](https://github.com/HiveNexus/A2A-Chat) - Một chatbot dựa trên giao thức Agent 2 Agent, có thể giao nhiệm vụ cho các Agent bên ngoài thông qua trò chuyện và nhận kết quả.   一个基于 Agent 2 Agent 协议的聊天应用，可以通过对话方式给外部 Agent 下发任务，并获取结果
+- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) - Máy chủ Giao thức Ngữ cảnh Mô hình (Model Context Protocol Servers)
+- [iszhouhua/social-media-copilot](https://github.com/iszhouhua/social-media-copilot) - Phiên bản mã nguồn mở của Trợ lý mạng xã hội - Tiện ích trình duyệt thu thập dữ liệu từ các nền tảng như Xiaohongshu, Douyin, Kuaishou, hỗ trợ gọi API và triển khai Docker.
+- [Hugo-COLLIN/SaveMyPhind-conversation-exporter](https://github.com/Hugo-COLLIN/SaveMyPhind-conversation-exporter) - 🚀 Lưu Chatbot của tôi: Tải xuống các chủ đề và trang của Claude, Perplexity, Phind, ChatGPT và MaxAI-Google thành tệp markdown (không chính thức). ⏩ Nay đã có trên Chrome Web Store và Firefox Add-ons
+- [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) - Sử dụng Claude Code làm nền tảng cho hạ tầng lập trình, cho phép bạn quyết định cách tương tác với mô hình đồng thời tận hưởng các bản cập nhật từ Anthropic.
+- [aigem/CFr2-webdav](https://github.com/aigem/CFr2-webdav) - Triển khai một máy chủ tương thích WebDAV sử dụng Cloudflare Workers và R2
+- [TBXark/ChatGPT-Telegram-Workers](https://github.com/TBXark/ChatGPT-Telegram-Workers) - Triển khai bot ChatGPT Telegram của bạn trên Cloudflare Workers (hoặc Vercel, Docker...) một cách dễ dàng.
+- [kyswtn/vscode-vercel](https://github.com/kyswtn/vscode-vercel) - Theo dõi quá trình triển khai Vercel của bạn khi đang lập trình
+- [Femoon/tts-azure-web](https://github.com/Femoon/tts-azure-web) - TTS Azure Web là một ứng dụng web chuyển văn bản thành giọng nói (TTS) của Azure. Có thể chạy cục bộ hoặc triển khai bằng Azure Key chỉ với một cú nhấp chuột.
+- [daytonaio/daytona](https://github.com/daytonaio/daytona) - Daytona là hạ tầng bảo mật và linh hoạt để chạy mã do AI sinh ra
+- [bepass-org/oblivion-desktop](https://github.com/bepass-org/oblivion-desktop) - Oblivion Desktop - Warp Client không chính thức cho Windows/Mac/Linux
+- [besscroft/PicImpact](https://github.com/besscroft/PicImpact) - Trang web chia sẻ tác phẩm nhiếp ảnh tự triển khai, hỗ trợ nhiều tính năng. PicImpact, chia sẻ bạn và thế giới!
+- [lyc8503/UptimeFlare](https://github.com/lyc8503/UptimeFlare) - ✔ Giám sát uptime miễn phí và không máy chủ / trang trạng thái trên Cloudflare Workers, với kiểm tra theo vị trí địa lý
+- [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - Giải pháp thay thế mã nguồn mở cho Vercel, Netlify và Heroku.
+- [maotoumao/MusicFree](https://github.com/maotoumao/MusicFree) - Trình phát nhạc miễn phí, không quảng cáo, hỗ trợ plugin và tùy biến
+- [maotoumao/MusicFreeDesktop](https://github.com/maotoumao/MusicFreeDesktop) - Trình phát nhạc miễn phí, không quảng cáo, hỗ trợ plugin và tùy biến
+- [misskey-dev/misskey](https://github.com/misskey-dev/misskey) - 🌎 Nền tảng microblog liên hành tinh hoàn toàn miễn phí và mã nguồn mở 🚀
+- [yllhwa/FileWorker](https://github.com/yllhwa/FileWorker) - Bảng tạm/Chia sẻ tệp trực tuyến chạy trên edge function
+- [web-infra-dev/rspress](https://github.com/web-infra-dev/rspress) - 🦀 Trình tạo trang tĩnh nhanh dựa trên Rsbuild.
+- [beilunyang/img-mom](https://github.com/beilunyang/img-mom) - Bot Telegram（img-mon | Ảnh mẹ）
+- [liaoliao666/v2ex](https://github.com/liaoliao666/v2ex) - Ứng dụng khách V2EX bên thứ ba đẹp, ứng dụng native, hỗ trợ chế độ ban đêm.
+- [chaselen/v2ex-playground](https://github.com/chaselen/v2ex-playground) - Tiện ích lướt trang V2EX trên VSCode
+- [hyoban/kirika](https://github.com/hyoban/kirika) - Công cụ đơn giản để chuyển đổi ghi chú giữa các nền tảng khác nhau
+- [edrlab/thorium-reader](https://github.com/edrlab/thorium-reader) - Ứng dụng đọc đa nền tảng, dựa trên bộ toolkit Readium Desktop
+- [Kuingsmile/PicList](https://github.com/Kuingsmile/PicList) - Công cụ tải lên và quản lý ảnh, dựa trên PicGo
+- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) - Ứng dụng khách GUI hiện đại dựa trên Tauri, chạy trên Windows, macOS và Linux cho trải nghiệm proxy tùy chỉnh
+- [githubnext/monaspace](https://github.com/githubnext/monaspace) - Siêu họ phông chữ sáng tạo cho lập trình
+- [dicarne/feishu-backup](https://github.com/dicarne/feishu-backup) - Dùng để sao lưu tài liệu Feishu, có thể chuyển đổi tài liệu Feishu thành markdown để tải về.
+- [LetTTGACO/elog](https://github.com/LetTTGACO/elog) - Công cụ xuất Markdown hàng loạt, giải pháp blog đa nền tảng mở, kết hợp linh hoạt nền tảng viết (Yuque/Notion/FlowUs/Feishu/Wolai) và nền tảng blog (Hexo/Vitepress/Halo/Confluence/WordPress, v.v.)
+- [memgraph/odin](https://github.com/memgraph/odin) - 
+- [Harry-Chen/thu-learn-lib](https://github.com/Harry-Chen/thu-learn-lib) - Thư viện JavaScript cung cấp giao diện thân thiện với lập trình cho Web Learning của Đại học Thanh Hoa
+- [qxchuckle/vsc-cec-ide](https://github.com/qxchuckle/vsc-cec-ide) - Một tiện ích VSC không mấy hữu dụng
+- [chatchat-space/Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat) - Langchain-Chatchat (trước đây là Langchain-ChatGLM) dựa trên Langchain và các mô hình ngôn ngữ như ChatGLM, Qwen, Llama... với RAG và Agent | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Ll
+- [CopyTranslator/CopyTranslator](https://github.com/CopyTranslator/CopyTranslator) - 🔠Trợ lý đọc và dịch ngôn ngữ nước ngoài dựa trên copy và dịch.
+- [longern/FlareDrive](https://github.com/longern/FlareDrive) - Dịch vụ lưu trữ tệp miễn phí (WebUI & WebDAV) sử dụng CloudFlare R2
+- [ChatAnyTeam/ChatAny](https://github.com/ChatAnyTeam/ChatAny) - 🌻 Truy cập ChatGPT+Nhiều dịch vụ AI web chỉ với một cú nhấp chuột
+- [MuiseDestiny/zotero-gpt](https://github.com/MuiseDestiny/zotero-gpt) - GPT gặp Zotero.
+- [langgenius/webapp-conversation](https://github.com/langgenius/webapp-conversation) - 
+- [langgenius/dify](https://github.com/langgenius/dify) - Nền tảng sẵn sàng sản xuất cho phát triển quy trình làm việc dạng tác nhân.
+- [ObservedObserver/viz-gpt](https://github.com/ObservedObserver/viz-gpt) - Tạo trực quan hóa dữ liệu theo ngữ cảnh với giao diện chat từ dữ liệu dạng bảng. AI data visualization.
+- [tldraw/tldraw](https://github.com/tldraw/tldraw) - SDK bảng trắng rất tốt / SDK canvas vô hạn
+- [okisdev/ChatChat](https://github.com/okisdev/ChatChat) - Chat Chat, nền tảng hợp nhất trò chuyện và tìm kiếm AI cá nhân với giao diện đơn giản, dễ sử dụng.
+- [79E/ChatGpt-Web](https://github.com/79E/ChatGpt-Web) - Ứng dụng ChatGpt Web có khả năng thương mại hóa được xây dựng bằng React. Sử dụng React để phát triển ứng dụng ChatGpt Web thương mại hóa.
+- [erictik/midjourney-ui](https://github.com/erictik/midjourney-ui) - Midjourney UI là giao diện vẽ tranh AI mã nguồn mở dựa trên Midjourney
+- [Nutlope/restorePhotos](https://github.com/Nutlope/restorePhotos) - Khôi phục ảnh chân dung cũ và mờ bằng AI.
+- [Nutlope/aicommits](https://github.com/Nutlope/aicommits) - CLI viết thông điệp commit git cho bạn bằng AI
+- [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT) - 🤖 Tập hợp, cấu hình và triển khai các AI Agent tự động ngay trên trình duyệt.
+- [RafalWilinski/telegram-chatgpt-concierge-bot](https://github.com/RafalWilinski/telegram-chatgpt-concierge-bot) - Tương tác với ChatGPT của OpenAI qua Telegram và Giọng nói.
+- [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) - Xây dựng AI Agent, trực quan
+- [LokerL/tts-vue](https://github.com/LokerL/tts-vue) - 🎤 Công cụ tổng hợp giọng nói Microsoft, xây dựng bằng Electron + Vue + ElementPlus + Vite.
+- [nat/openplayground](https://github.com/nat/openplayground) - Sân chơi LLM bạn có thể chạy trên máy tính cá nhân
+- [labring/sealos](https://github.com/labring/sealos) - Sealos là bản phân phối Kubernetes sẵn sàng sản xuất giúp triển khai dễ dàng và hiệu quả. Thiết lập môi trường phát triển cho bất kỳ ngôn ngữ hoặc framework nào chỉ trong tích tắc, triển khai hiệu quả
+- [coolpace/V2EX_Polish](https://github.com/coolpace/V2EX_Polish) - Tiện ích mở rộng trình duyệt V2EX chuyên nghiệp, tích hợp nhiều tính năng hữu ích, làm mới trải nghiệm duyệt web của bạn!
+- [ztjhz/BetterChatGPT](https://github.com/ztjhz/BetterChatGPT) - Giao diện tuyệt vời cho ChatGPT của OpenAI (Website + Windows + MacOS + Linux)
+- [3Alan/DocsMind](https://github.com/3Alan/DocsMind) - 🤖 DocsMind cho phép bạn trò chuyện và tóm tắt tài liệu, hỗ trợ pdf, md.
+- [riwigefi/light-gpt](https://github.com/riwigefi/light-gpt) - Light-GPT là dự án website tương tác dựa trên mô hình GPT-3.5-Turbo.
+- [nextauthjs/next-auth](https://github.com/nextauthjs/next-auth) - Xác thực cho Web.
+- [zengsanxiang/brain-reply](https://github.com/zengsanxiang/brain-reply) - Ứng dụng ChatGPT client đẹp hơn
+- [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) - ✨ Trợ lý AI nhẹ và nhanh. Hỗ trợ: Web | iOS | MacOS | Android | Linux | Windows
+- [hahahumble/speechgpt](https://github.com/hahahumble/speechgpt) - 💬 SpeechGPT là ứng dụng web cho phép bạn trò chuyện với ChatGPT.
+- [rerender2021/heard](https://github.com/rerender2021/heard) - Trình tạo phụ đề đơn giản dựa trên whisper & avernakis react.
+- [mckaywrigley/chatbot-ui](https://github.com/mckaywrigley/chatbot-ui) - Chat AI cho mọi mô hình.
+- [GPTGenius/chatgpt-vercel](https://github.com/GPTGenius/chatgpt-vercel) - Tạo trang web chatgpt cá nhân qua vercel
+- [hyoban/burogu](https://github.com/hyoban/burogu) - Mẫu blog tối giản dựa trên Next.js 13
+- [futantan/OpenGpt](https://github.com/futantan/OpenGpt) - Tạo ứng dụng ChatGPT của riêng bạn chỉ trong vài giây.
+- [botpress/botpress](https://github.com/botpress/botpress) - Trung tâm mã nguồn mở để xây dựng & triển khai GPT/LLM Agents ⚡️
+- [noobnooc/ohmygpt](https://github.com/noobnooc/ohmygpt) - Triển khai ứng dụng web dựa trên ChatGPT của bạn chỉ trong vài phút.
+- [aircloud/sync-to-github](https://github.com/aircloud/sync-to-github) - Đồng bộ nội dung web của bạn vào kho lưu trữ github, ví dụ: cuộc trò chuyện với ChatGPT.
+- [fraserxu/book-gpt](https://github.com/fraserxu/book-gpt) - Thả một cuốn sách, bắt đầu đặt câu hỏi.
+- [ObservedObserver/chatgpt-i18n](https://github.com/ObservedObserver/chatgpt-i18n) - Địa phương hóa website của bạn với sự hỗ trợ của AI.
+- [ourongxing/chatgpt-vercel](https://github.com/ourongxing/chatgpt-vercel) - Thanh lịch và mạnh mẽ. Dùng OpenAI và Vercel.
+- [lcomplete/huntly](https://github.com/lcomplete/huntly) - Huntly, công cụ quản lý thông tin, trình đọc RSS, quản lý tweet, quản lý sao lưu GitHub, tự động ghi lại các bài đã đọc.
+- [openai-translator/openai-translator](https://github.com/openai-translator/openai-translator) - Tiện ích dịch bằng cách bôi đen dựa trên ChatGPT API và ứng dụng desktop đa nền tảng    -    Tiện ích trình duyệt và ứng dụng desktop đa nền tảng cho dịch thuật dựa trên ChatGPT API.
+- [sparticleinc/chatgpt-google-summary-extension](https://github.com/sparticleinc/chatgpt-google-summary-extension) - Tiện ích Chrome hiển thị tóm tắt ChatGPT bên cạnh kết quả tìm kiếm Google và video YouTube, cũng hỗ trợ Yahoo! ニュース、PubMed、PMC、NewsPicks、Github、Nikkei、 Bing、Google Patents và tóm tắt bất kỳ trang nào.
+- [anse-app/chatgpt-demo](https://github.com/anse-app/chatgpt-demo) - Giao diện web tối giản cho ChatGPT.
+- [microsoft/vscode-webview-ui-toolkit](https://github.com/microsoft/vscode-webview-ui-toolkit) - Thư viện thành phần để xây dựng tiện ích mở rộng dựa trên webview trong Visual Studio Code.
+- [ycjcl868/readme-gpt](https://github.com/ycjcl868/readme-gpt) - Tạo Github Readme của bạn với OpenAI và Vercel Edge Functions.
+- [cloudflare/wildebeest](https://github.com/cloudflare/wildebeest) - Wildebeest là máy chủ tương thích ActivityPub và Mastodon
+- [transitive-bullshit/bing-chat](https://github.com/transitive-bullshit/bing-chat) - Khách hàng Node.js cho tìm kiếm mới của Bing được hỗ trợ AI. Giống như ChatGPT nhưng mạnh hơn 🔥
+- [Musish/Musish](https://github.com/Musish/Musish) - Apple Music...ish
+- [MNThomson/containerflare](https://github.com/MNThomson/containerflare) - 🔥 Kho hình ảnh container edge Cloudflare (Workers + R2)
+- [cmj2002/CF-R2-ImageBed](https://github.com/cmj2002/CF-R2-ImageBed) - Lưu trữ ảnh dựa trên Cloudflare R2. Hỗ trợ PicGo.
+- [google/brotli](https://github.com/google/brotli) - Định dạng nén Brotli
+- [robertying/learnX-companion](https://github.com/robertying/learnX-companion) - Trợ lý ứng dụng học tập trực tuyến của Đại học Thanh Hoa, cung cấp thông báo tùy chỉnh cho learnX.
+- [dvanoni/notero](https://github.com/dvanoni/notero) - Plugin Zotero để đồng bộ hóa mục và ghi chú vào Notion
+- [windingwind/zotero-better-notes](https://github.com/windingwind/zotero-better-notes) - Tất cả về quản lý ghi chú. Tất cả trong Zotero.
+- [honojs/hono](https://github.com/honojs/hono) - Framework web xây dựng trên Web Standards
+- [G4brym/R2-Explorer](https://github.com/G4brym/R2-Explorer) - Giao diện Google Drive cho Bucket Cloudflare R2 của bạn!
+- [SunYufei/workers-dav](https://github.com/SunYufei/workers-dav) - Sử dụng Cloudflare Workers cung cấp dịch vụ WebDAV cho Google Drive / WebDAV hỗ trợ Google Drive dùng Cloudflare Workers
+- [realByg/office-user-auto-create](https://github.com/realByg/office-user-auto-create) - Tự tạo tài khoản office bằng cloudflare worker
+- [ghedamat/obsidian-save-as-gist](https://github.com/ghedamat/obsidian-save-as-gist) - 
+- [kamranahmedse/aws-cost-cli](https://github.com/kamranahmedse/aws-cost-cli) - Công cụ CLI phân tích chi phí tài khoản AWS với tích hợp Slack
+- [remotely-save/remotely-save](https://github.com/remotely-save/remotely-save) - Đồng bộ ghi chú giữa máy cục bộ và đám mây với xử lý xung đột thông minh: S3 (Amazon S3/Cloudflare R2/Backblaze B2/...), Dropbox, webdav (NextCloud/InfiniCLOUD/Synology/...), OneDrive, Google Drive (GDrive), Box, pClou
+- [Future-Scholars/paperlib](https://github.com/Future-Scholars/paperlib) - Công cụ quản lý bài báo học thuật mã nguồn mở.
+- [forecho/cherries](https://github.com/forecho/cherries) - 
+- [thu-info-community/thu-info-lib](https://github.com/thu-info-community/thu-info-lib) - Thư viện JavaScript cung cấp giao diện thân thiện với lập trình viên cho cổng thông tin web Tsinghua
+- [Harry-Chen/Learn-Helper](https://github.com/Harry-Chen/Learn-Helper) - Trợ lý học tập mạng của Đại học Thanh Hoa
+- [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) - Invoke là một công cụ sáng tạo hàng đầu cho các mô hình Stable Diffusion, trao quyền cho các chuyên gia, nghệ sĩ và người đam mê tạo ra và sáng tạo phương tiện hình ảnh sử dụng các công nghệ AI tiên tiến nhất.
+- [baotlake/periodic-table-pro](https://github.com/baotlake/periodic-table-pro) - Bảng Tuần Hoàn Pro, ứng dụng nhỏ cần thiết cho hóa học với giao diện đẹp, cung cấp đầy đủ thuộc tính, hình ảnh và kiến thức bách khoa về các nguyên tố
+- [dtysky/Awaken](https://github.com/dtysky/Awaken) - Trình đọc EPUB đa nền tảng dựa trên WebDAV, hỗ trợ ghi chú, đồng bộ tiến trình, dấu trang và nhập ghi chú từ Kindle.
+- [illacloud/illa-builder](https://github.com/illacloud/illa-builder) - Nền tảng low-code giúp bạn xây dựng ứng dụng doanh nghiệp, tạo nhanh các công cụ nội bộ như dashboard, ứng dụng crud, bảng quản trị, crm, cms, v.v. Hỗ trợ PostgreSQL, MySQL, Supabase, GraphQL
+- [resend/react-email](https://github.com/resend/react-email) - 💌 Xây dựng và gửi email sử dụng React
+- [domeccleston/sharegpt](https://github.com/domeccleston/sharegpt) - Dễ dàng chia sẻ liên kết vĩnh viễn tới các cuộc trò chuyện ChatGPT với bạn bè
+- [wong2/chatgpt-google-extension](https://github.com/wong2/chatgpt-google-extension) - Dự án này đã ngừng phát triển. Xem dự án mới của tôi ChatHub:
+- [pacexy/flow](https://github.com/pacexy/flow) - Trình đọc ePub trên trình duyệt
+- [jiegec/clone-learn-tsinghua](https://github.com/jiegec/clone-learn-tsinghua) - Tiện ích để sao chép tất cả tệp từ learn.tsinghua.edu.cn
+- [thu-info-community/thu-info-app](https://github.com/thu-info-community/thu-info-app) - Ứng dụng tích hợp các nguồn thông tin trong khuôn viên trường, phát triển bằng React Native
+- [exposir/bing-wallpaper-node](https://github.com/exposir/bing-wallpaper-node) - Hình nền Bing hàng ngày 4K Ultra HD
+- [AlistGo/docs](https://github.com/AlistGo/docs) - 📄 Tài liệu cho alist v3: http://github.com/alist-org/alist
+- [slidevjs/docs](https://github.com/slidevjs/docs) - [Mirrored] Tài liệu cho Slidev
+- [appwrite/appwrite](https://github.com/appwrite/appwrite) - Xây dựng như một đội hàng trăm người_
+- [dai-shi/excalidraw-animate](https://github.com/dai-shi/excalidraw-animate) - Công cụ tạo hoạt ảnh cho bản vẽ Excalidraw
+- [Graviton-Code-Editor/Graviton-App](https://github.com/Graviton-Code-Editor/Graviton-App) - 🚀 Trình soạn thảo mã nguồn hiện đại
+- [thusns/thu-wiki](https://github.com/thusns/thu-wiki) - https://thu.wiki HOẶC https://wiki.thusns.org
+- [crashmax-dev/twallpaper](https://github.com/crashmax-dev/twallpaper) - 🌈 Hình nền chuyển sắc đa màu được tạo bằng thuật toán và chuyển động mượt mà.
+- [SigNoz/signoz](https://github.com/SigNoz/signoz) - SigNoz là nền tảng quan sát nguồn mở bản địa OpenTelemetry với logs, traces và metrics trong một ứng dụng duy nhất. Giải pháp nguồn mở thay thế cho DataDog, NewRelic, v.v. 🔥 🖥. 👉 Mã nguồn mở
+- [vuejs/vitepress](https://github.com/vuejs/vitepress) - Trình tạo trang tĩnh sử dụng Vite & Vue.
+- [sst/sst](https://github.com/sst/sst) - Xây dựng ứng dụng full-stack trên hạ tầng riêng của bạn.
+- [nrwl/nx](https://github.com/nrwl/nx) - Nền tảng build ưu tiên AI kết nối mọi thứ từ trình soạn thảo đến CI. Giúp bạn chuyển giao nhanh mà không gây lỗi.
+- [dubinc/dub](https://github.com/dubinc/dub) - Nền tảng gán liên kết hiện đại. Được yêu thích bởi các đội marketing hàng đầu như Twilio, Buffer, Framer, Perplexity, Vercel, và nhiều hơn nữa.
+- [Privoce/vocechat-web](https://github.com/Privoce/vocechat-web) - Ứng dụng web VoceChat
+- [jackluson/vscode-pomodoro-clock](https://github.com/jackluson/vscode-pomodoro-clock) - Đồng hồ Pomodoro cho VS Code
+- [DTStack/molecule](https://github.com/DTStack/molecule) - :rocket: Framework UI IDE web nhẹ
+- [b4rtaz/voice-assistant](https://github.com/b4rtaz/voice-assistant) - Trợ lý giọng nói cho Visual Studio Code.
+- [leon-ai/leon](https://github.com/leon-ai/leon) - 🧠 Leon là trợ lý cá nhân mã nguồn mở của bạn.
+- [tycrek/ass](https://github.com/tycrek/ass) - Máy chủ ShareX tự lưu trữ đơn giản
+- [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - ứng dụng ghi chú tập trung vào quyền riêng tư với khả năng đồng bộ trên Windows, macOS, Linux, Android và iOS.
+- [AlphaNecron/Void](https://github.com/AlphaNecron/Void) - Dịch vụ lưu trữ tệp nhanh và thanh lịch.
+- [egoist/follower-count](https://github.com/egoist/follower-count) - Lấy số lượng người theo dõi cho các tài khoản Instagram, Twitter, TikTok, Youtube
+- [liveblocks/liveblocks](https://github.com/liveblocks/liveblocks) - Các ứng dụng tốt nhất trong kỷ nguyên AI không phải là trải nghiệm cá nhân—chúng là trải nghiệm cộng tác. Liveblocks cung cấp các tính năng dựng sẵn có thể tùy chỉnh để làm cho sản phẩm của bạn có tính cộng tác, hấp dẫn và sẵn sàng cho AI mà không làm gián đoạn luồng phát triển.
+- [cloudflare/workers-graphql-server](https://github.com/cloudflare/workers-graphql-server) - 🔥 Máy chủ Apollo GraphQL cực nhanh, phân phối toàn cầu, triển khai tại edge sử dụng Cloudflare Workers
+- [buhe/vscode-mail](https://github.com/buhe/vscode-mail) - Ứng dụng Mail tích hợp trong Visual Studio Code.
+- [LekoArts/gatsby-themes](https://github.com/LekoArts/gatsby-themes) - Lấy các theme Gatsby chất lượng cao và tùy chỉnh để khởi tạo website của bạn một cách nhanh chóng! Chọn từ nhiều thiết kế chuyên nghiệp với nhiều tính năng và tùy chọn tùy chỉnh đa dạng.
+- [haaarshsingh/kmenu](https://github.com/haaarshsingh/kmenu) - Menu ⌘K hoàn hảo
+- [sofn-xyz/mailing](https://github.com/sofn-xyz/mailing) - Xây dựng, kiểm thử, gửi email với React
+- [webiny/webiny-js](https://github.com/webiny/webiny-js) - CMS doanh nghiệp serverless mã nguồn mở. Bao gồm headless CMS, trình tạo trang, trình tạo form và trình quản lý tệp. Dễ dàng tùy chỉnh và mở rộng. Triển khai lên AWS.
+- [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) - Giao diện frontend mã nguồn mở cho các trang tài liệu GitBook
+- [codex-team/editor.js](https://github.com/codex-team/editor.js) - Trình soạn thảo dạng khối với đầu ra JSON sạch
+- [pingcap/ossinsight](https://github.com/pingcap/ossinsight) - Phân tích, So sánh, Xu hướng, Xếp hạng phần mềm nguồn mở, bạn cũng có thể lấy insight từ hơn 7 tỷ dữ liệu bằng ngôn ngữ tự nhiên (hỗ trợ bởi OpenAI). Theo dõi chúng tôi trên Twitter: https://twitter.com/o
+- [markmap/markmap](https://github.com/markmap/markmap) - Xây dựng sơ đồ tư duy với văn bản thuần
+- [hmu332233/q-link](https://github.com/hmu332233/q-link) - Q.Link | Ẩn liên kết của bạn sau một câu đố đơn giản.
+- [triggerdotdev/jsonhero-web](https://github.com/triggerdotdev/jsonhero-web) - JSON Hero là trình duyệt JSON đẹp, mã nguồn mở cho web, cho phép bạn duyệt, tìm kiếm và điều hướng các tệp JSON nhanh chóng. 🚀. Được xây dựng với 💜 bởi đội ngũ Trigger.dev.
+- [devhubapp/devhub](https://github.com/devhubapp/devhub) - TweetDeck cho GitHub - Lọc Issues, Hoạt động & Thông báo - Web, Mobile & Desktop với 99% mã nguồn dùng chung
+- [redhat-actions/try-in-web-ide](https://github.com/redhat-actions/try-in-web-ide) - Clone pull request của bạn vào Web IDE được lưu trữ trên Developer Sandbox for Red Hat OpenShift, để dễ dàng kiểm thử các thay đổi.
+- [photoview/photoview](https://github.com/photoview/photoview) - Thư viện ảnh cho máy chủ cá nhân tự lưu trữ
+- [yusukebe/r2-image-worker](https://github.com/yusukebe/r2-image-worker) - Lưu trữ và Phân phối hình ảnh với backend R2 Cloudflare Workers.
+- [GitbookIO/proxies-on-cloudflare](https://github.com/GitbookIO/proxies-on-cloudflare) - Proxy trong Cloudflare Workers
+- [SharzyL/pastebin-worker](https://github.com/SharzyL/pastebin-worker) - Pastebin trên Cloudflare worker, với CLI thân thiện và nhiều tính năng phong phú
+- [eclipse-theia/theia](https://github.com/eclipse-theia/theia) - Eclipse Theia là framework IDE đám mây & desktop được triển khai bằng TypeScript.
+- [facebook/docusaurus](https://github.com/facebook/docusaurus) - Xây dựng website tài liệu mã nguồn mở dễ bảo trì.
+- [logto-io/logto](https://github.com/logto-io/logto) - 🧑‍🚀 Hạ tầng xác thực và phân quyền cho ứng dụng SaaS và AI, xây dựng trên OIDC và OAuth 2.1 với đa tenant, SSO, và RBAC.
+- [dushixiang/next-terminal](https://github.com/dushixiang/next-terminal) - Next Terminal là hệ thống kiểm toán tương tác đơn giản, an toàn, thân thiện, hỗ trợ nhiều giao thức truy cập từ xa như RDP, SSH, VNC, Telnet, và HTTP
+- [wayjam/picgo-plugin-s3](https://github.com/wayjam/picgo-plugin-s3) - Plugin PicGo S3
+- [gaeulbyul/RedBlock](https://github.com/gaeulbyul/RedBlock) - [TRẠNG THÁI: NGỪNG BẢO TRÌ] Tiện ích mở rộng chain block mạnh mẽ nhất cho Twitter. / Tiện ích mở rộng chặn nhiều người dùng trên Twitter.
+- [formulahendry/vscode-code-runner](https://github.com/formulahendry/vscode-code-runner) - Code Runner cho Visual Studio Code
+- [hexojs/hexo-cli](https://github.com/hexojs/hexo-cli) - Giao diện dòng lệnh cho Hexo
+- [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner) - Phần mềm ghi nhớ từ vựng và luyện trí nhớ cơ bắp tiếng Anh dành cho người làm việc với bàn phím
+- [SSShooter/mind-elixir-core](https://github.com/SSShooter/mind-elixir-core) - ⚗ Mind Elixir là core sơ đồ tư duy JavaScript, không phụ thuộc framework.
+- [utterance/utterances](https://github.com/utterance/utterances) - :crystal_ball: Tiện ích bình luận nhẹ sử dụng GitHub issues
+- [gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) - Nền tảng phát triển cho môi trường đám mây theo yêu cầu, giúp tạo phần mềm nhanh hơn và an toàn hơn.
+- [wabarc/cairn](https://github.com/wabarc/cairn) - Gói NPM và công cụ CLI để lưu trang web thành một tệp HTML đơn
+- [massCodeIO/assistant-vscode](https://github.com/massCodeIO/assistant-vscode) - massCode assistant cho VS Code
+- [vercel/platforms](https://github.com/vercel/platforms) - Ứng dụng Next.js full-stack với đa tenant.
+- [taniarascia/takenote](https://github.com/taniarascia/takenote) - 📝  ‎ Ứng dụng ghi chú web cho lập trình viên.
+- [standardnotes/app](https://github.com/standardnotes/app) - Suy nghĩ tự do với ghi chú và tệp tin mã hóa đầu-cuối. Để báo lỗi, hãy truy cập https://standardnotes.com/forum hoặc https://standardnotes.com/help.
+- [gitpod-io/openvscode-server](https://github.com/gitpod-io/openvscode-server) - Chạy VS Code upstream trên máy từ xa, truy cập qua trình duyệt web hiện đại từ mọi thiết bị, ở bất cứ đâu.
+- [EnixCoda/Gitako](https://github.com/EnixCoda/Gitako) - 🐙 Tiện ích cây thư mục cho GitHub trên Chrome & Firefox & Edge
+- [gridaco/grida](https://github.com/gridaco/grida) - Grida — Trình biên tập đồ họa 2D đầy tham vọng cho Web
+- [lostintangent/gitdoc](https://github.com/lostintangent/gitdoc) - Tiện ích mở rộng VS Code cho phép bạn chỉnh sửa repo Git như một tài liệu nhiều tệp, có phiên bản.
+- [Platane/snk](https://github.com/Platane/snk) - 🟩⬜ Tạo trò chơi rắn từ biểu đồ đóng góp GitHub của người dùng và xuất ra ảnh động svg hoặc gif
+- [yoshi389111/github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib) - GitHub Action này tạo lịch đóng góp GitHub trên ảnh hồ sơ 3D.
+- [yang991178/fluent-reader](https://github.com/yang991178/fluent-reader) - Trình đọc RSS hiện đại cho desktop được xây dựng với Electron, React và Fluent UI
+- [AlistGo/web-v2](https://github.com/AlistGo/web-v2) - 🗂️ Giao diện Alist V2
+- [ansh/jiffyreader.com](https://github.com/ansh/jiffyreader.com) - Tiện ích trình duyệt giúp đọc nhanh hơn trên BẤT KỲ website nào!
+- [alefragnani/vscode-bookmarks](https://github.com/alefragnani/vscode-bookmarks) - Tiện ích Đánh dấu cho Visual Studio Code
+- [markdoc/markdoc](https://github.com/markdoc/markdoc) - Framework biên soạn mạnh mẽ, linh hoạt dựa trên Markdown.
+- [batnoter/batnoter](https://github.com/batnoter/batnoter) - Ứng dụng web ghi chú tự lưu trữ, mã nguồn mở, dựa trên markdown.
+- [Cveinnt/LetsMarkdown.com](https://github.com/Cveinnt/LetsMarkdown.com) - 👨‍💻👩‍💻 Viết Markdown. Cùng nhau.
+- [Cherry/ShareX-R2-Cloudflare-Workers](https://github.com/Cherry/ShareX-R2-Cloudflare-Workers) - ShareX Uploader tùy chỉnh lên Cloudflare R2 qua Workers
+- [mullvad/browser-extension](https://github.com/mullvad/browser-extension) - Tiện ích trình duyệt Mullvad nâng cao trải nghiệm duyệt web khi dùng Mullvad VPN.
+- [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) - Tạo sơ đồ như flowchart hoặc sequence diagram từ văn bản, tương tự Markdown
+- [Kong/insomnia](https://github.com/Kong/insomnia) - Ứng dụng khách API mã nguồn mở, đa nền tảng cho GraphQL, REST, WebSockets, SSE và gRPC. Hỗ trợ lưu trữ Cloud, Local và Git.
+- [theajack/cnchar](https://github.com/theajack/cnchar) - 🇨🇳 Thư viện công cụ Hán tự toàn diện (pinyin, nét, bộ thủ, thành ngữ, giọng nói, trực quan hóa, v.v.)
+- [missive/emoji-mart](https://github.com/missive/emoji-mart) - 🏪 Một component chọn emoji cho tất cả
+- [lcomplete/smart-toc](https://github.com/lcomplete/smart-toc) - Tiện ích Chrome tự động tạo mục lục, hỗ trợ Inoreader và Feedly. Trình tạo dàn ý bài viết cho trình duyệt, hỗ trợ Inoreader và Feedly.
+- [sheepzh/time-tracker-4-browser](https://github.com/sheepzh/time-tracker-4-browser) - Theo dõi thời gian cho trình duyệt/网费很贵
+- [ajayyy/SponsorBlockServer](https://github.com/ajayyy/SponsorBlockServer) - Bỏ qua quảng cáo tài trợ YouTube (phần phía máy chủ)
+- [Hopding/pdf-lib](https://github.com/Hopding/pdf-lib) - Tạo và chỉnh sửa tài liệu PDF trong mọi môi trường JavaScript
+- [GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension](https://github.com/GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension) - Thêm các nút tiện lợi như làm đẹp, hiển thị tệp mở, lưu, chuyển đổi terminal, v.v. vào thanh menu trình soạn thảo trong VSCode. Bạn cũng có thể tạo nút riêng với lệnh tùy chỉnh. Link Marketplace VSCode: htt
+- [hexojs/hexo](https://github.com/hexojs/hexo) - Framework blog nhanh, đơn giản & mạnh mẽ, phát triển bằng Node.js.
+- [actions/stale](https://github.com/actions/stale) - Đánh dấu các issues và pull request không có tương tác gần đây
+- [surgioproject/surgio](https://github.com/surgioproject/surgio) - Tạo quy tắc cho Surge, Clash, Quantumult như một PRO
+- [nginxinc/nginx-for-azure-deploy-action](https://github.com/nginxinc/nginx-for-azure-deploy-action) - Github Actions đồng bộ cấu hình NGINX lên dịch vụ NGINX for Azure.
+- [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) - Spacedrive là trình quản lý tệp đa nền tảng nguồn mở, vận hành bởi hệ thống tệp phân tán ảo viết bằng Rust.
+- [DenverCoder1/custom-icon-badges](https://github.com/DenverCoder1/custom-icon-badges) - 🛡 Giúp người dùng dễ dàng sử dụng Octicons và biểu tượng/logo riêng trên huy hiệu shields.io
+- [arduino/arduino-ide](https://github.com/arduino/arduino-ide) - Arduino IDE 2.x
+- [yuudi/onesend](https://github.com/yuudi/onesend) - gửi tệp qua onedrive
+- [xcodebuild/CodeTerminal](https://github.com/xcodebuild/CodeTerminal) - Ứng dụng terminal độc lập đa nền tảng, tách từ Visual Studio Code.
+- [Zhengqbbb/cz-git](https://github.com/Zhengqbbb/cz-git) - cz-git | czg 🛠️ Ưu tiên DX, kỹ thuật hóa hơn, nhẹ, tùy chỉnh, định dạng đầu ra chuẩn Commitizen adapter và CLI
+- [tutao/tutanota](https://github.com/tutao/tutanota) - Tuta là dịch vụ email tập trung mạnh vào bảo mật và quyền riêng tư, cho phép bạn mã hóa email, danh bạ và lịch trên mọi thiết bị.
+- [atomcorp/themes](https://github.com/atomcorp/themes) - Chủ đề cho Windows Terminal
+- [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) - Hệ sinh thái phát triển API mã nguồn mở - https://hoppscotch.io (thay thế mã nguồn mở cho Postman, Insomnia)
+- [antfu/awesome-cn-cafe-web](https://github.com/antfu/awesome-cn-cafe-web) - ☕️ Ứng dụng Web cho Awesome CN Café
+- [yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) - 💯 Tổng hợp tài liệu chuẩn bị phỏng vấn lập trình cho kỹ sư phần mềm bận rộn
+- [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) - Mã nguồn và chương trình học mã nguồn mở của freeCodeCamp.org. Học toán, lập trình và khoa học máy tính miễn phí.
+- [harrisoff/onedrive-js-sdk](https://github.com/harrisoff/onedrive-js-sdk) - Bao bọc một số API của OneDrive, chỉ dùng để tải lên và chia sẻ tệp.
+- [harrisoff/onedrive-image-hosting](https://github.com/harrisoff/onedrive-image-hosting) - Lưu trữ ảnh OneDrive | OneDrive 图床
+- [ms-iot/vscode-ros](https://github.com/ms-iot/vscode-ros) - Tiện ích Visual Studio Code cho phát triển Robot Operating System (ROS)
+- [yzhang-gh/vscode-markdown](https://github.com/yzhang-gh/vscode-markdown) - Markdown All in One
+- [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) - 🔒 Danh sách kiểm tra tổng hợp hơn 300 mẹo bảo vệ an ninh và quyền riêng tư kỹ thuật số năm 2024
+- [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) - ✨ Ứng dụng trực quan hóa sáng tạo, mã nguồn mở biến đổi nhiều định dạng dữ liệu như JSON, YAML, XML, CSV,... thành biểu đồ tương tác.
+- [charleswan/vscode-extensions](https://github.com/charleswan/vscode-extensions) - Tổng hợp các tiện ích mở rộng Visual Studio Code hấp dẫn https://marketplace.visualstudio.com/publishers/CharlesWan
+- [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium) - Xây dựng kho kiến thức cá nhân với Trilium Notes
+- [grafana/grafana](https://github.com/grafana/grafana) - Nền tảng quan sát và trực quan hóa dữ liệu mở, linh hoạt. Trực quan hóa số liệu, log, trace từ nhiều nguồn như Prometheus, Loki, Elasticsearch, InfluxDB, Postgres và nhiều hơn nữa.
+- [reactjs/react.dev](https://github.com/reactjs/react.dev) - Trang web tài liệu React
+- [microsoft/TypeScript](https://github.com/microsoft/TypeScript) - TypeScript là một siêu tập hợp của JavaScript, biên dịch ra mã JavaScript sạch.
+- [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) - Nền tảng xây dựng bảng điều khiển quản trị, công cụ nội bộ và dashboard. Tích hợp với hơn 25 cơ sở dữ liệu và bất kỳ API nào.
+- [XadillaX/vscode-language-viml](https://github.com/XadillaX/vscode-language-viml) - Plugin VimL cho VSCode.
+- [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim) - Nodejs extension host cho vim & neovim, tải các extension như VSCode và host các language server.
+- [CryogenicPlanet/cryogenicplanet.github.io](https://github.com/CryogenicPlanet/cryogenicplanet.github.io) - Không gian cá nhân trên web
+- [wei/socialify](https://github.com/wei/socialify) - 💞 Socialify dự án của bạn. 🌐 Chia sẻ với thế giới!
+- [VSCodeVim/Vim](https://github.com/VSCodeVim/Vim) - :star: Vim cho Visual Studio Code
+- [AtomMaterialUI/iconGenerator](https://github.com/AtomMaterialUI/iconGenerator) - Bộ sưu tập icon dùng trong plugin Atom Material Icons (cho JetBrains, Chrome và Firefox)
+- [antfu/case-police](https://github.com/antfu/case-police) - 🚨 Hãy làm đúng kiểu chữ, LÀM ƠN!
+- [shd101wyy/vscode-markdown-preview-enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced) - Một trong những extension xem trước markdown "TỐT NHẤT" cho Visual Studio Code
+- [HAG87/vscode-maxscript-lsp](https://github.com/HAG87/vscode-maxscript-lsp) - Ngôn ngữ MaxScript cho VS Code (Triển khai Language Server)
+- [marcomontalbano/video-to-markdown](https://github.com/marcomontalbano/video-to-markdown) - Làm thế nào để nhúng video vào markdown? Đây là câu trả lời. Thêm video vào file markdown dễ dàng hơn.
+- [dangeredwolf/ModernDeck](https://github.com/dangeredwolf/ModernDeck) - Ứng dụng Twitter đẹp, mạnh mẽ cho máy tính để bàn.
+- [shiftkey/desktop](https://github.com/shiftkey/desktop) - Fork của GitHub Desktop để hỗ trợ nhiều bản phân phối Linux khác nhau
+- [k9982874/github-gist-explorer](https://github.com/k9982874/github-gist-explorer) - 
+- [djyde/ossart](https://github.com/djyde/ossart) - In ấn hoạt động GitHub của bạn như một tác phẩm nghệ thuật
+- [luyuhuang/vscode-rss](https://github.com/luyuhuang/vscode-rss) - Trình đọc RSS tích hợp trong Visual Studio Code
+- [liximomo/vscode-sftp](https://github.com/liximomo/vscode-sftp) - Extension sftp/ftp siêu nhanh cho VS Code
+- [funnyzak/react-native-v2ex](https://github.com/funnyzak/react-native-v2ex) - Dự án sử dụng React Native để xây dựng ứng dụng khách di động V2EX. Mục tiêu là xây dựng một bộ khởi tạo phát triển nhanh React Native. Dữ liệu ứng dụng hoàn toàn dựa trên API mở của V2EX. Dựa trên RN 0.71.5.
+- [trzsz/trzsz.js](https://github.com/trzsz/trzsz.js) - trzsz.js là phiên bản js của trzsz, giúp terminal xây dựng bằng electron và webshell hỗ trợ trzsz (trz / tsz).
+- [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) - Trình tạo CV độc đáo, ưu tiên quyền riêng tư. Hoàn toàn bảo mật, tùy chỉnh, di động, mã nguồn mở và miễn phí mãi mãi. Hãy thử ngay hôm nay!
+- [slidevjs/slidev](https://github.com/slidevjs/slidev) - Trang trình chiếu cho lập trình viên
+- [zzzgydi/clash-verge](https://github.com/zzzgydi/clash-verge) - Giao diện Clash dựa trên tauri. Hỗ trợ Windows, macOS và Linux.
+- [louisyoungx/safari-like-startpage](https://github.com/louisyoungx/safari-like-startpage) - Trang bắt đầu giống Safari
+- [BoostIO/BoostNote-App](https://github.com/BoostIO/BoostNote-App) - Boost Note là công cụ quản lý dự án hướng tài liệu giúp tối đa hóa tốc độ nhóm DevOps từ xa.
+- [rick-yo/remind](https://github.com/rick-yo/remind) - Đưa sơ đồ tư duy lên trình duyệt
+- [QwikDev/qwik](https://github.com/QwikDev/qwik) - Ứng dụng web tải tức thì, không tốn công sức
+- [vuepress-reco/vuepress-theme-reco](https://github.com/vuepress-reco/vuepress-theme-reco) - 🎨 Đây là repo cho vuepress-theme-reco 2.
+- [WayneGongCN/microsoft-todo-browser-ext](https://github.com/WayneGongCN/microsoft-todo-browser-ext) - Extension trình duyệt bên thứ ba mã nguồn mở cho Microsoft To Do
+- [outline/outline](https://github.com/outline/outline) - Nền tảng kiến thức nhanh nhất cho các nhóm phát triển. Đẹp, cộng tác thời gian thực, nhiều tính năng, tương thích markdown.
+- [geist-org/geist-ui](https://github.com/geist-org/geist-ui) - Hệ thống thiết kế để xây dựng website và ứng dụng hiện đại.
+- [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) - Bộ công cụ xuất bản tất cả trong một của bạn
+- [ddiu8081/bus-vis](https://github.com/ddiu8081/bus-vis) - 🚌 Hiển thị trực quan xe buýt thành phố Trung Quốc.
+- [vitejs/vite](https://github.com/vitejs/vite) - Công cụ frontend thế hệ tiếp theo. Nhanh!
+- [notea-org/notea](https://github.com/notea-org/notea) - 📒 Ứng dụng ghi chú tự host lưu trữ trên S3
+- [heroui-inc/heroui](https://github.com/heroui-inc/heroui) - 🚀 Thư viện React UI đẹp, nhanh và hiện đại. (Trước đây là NextUI)
+- [coder/code-server](https://github.com/coder/code-server) - VS Code trên trình duyệt
+- [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) - Framework CSS hướng tiện ích cho phát triển UI nhanh chóng.
+- [danloh/mdSilo-web](https://github.com/danloh/mdSilo-web) - Kiến thức cá nhân trong trình duyệt dựa trên file văn bản thuần túy local
+- [Gisto/Gisto](https://github.com/Gisto/Gisto) - Gisto là ứng dụng quản lý snippet đa nền tảng cho phép bạn và/hoặc nhóm chia sẻ đoạn mã nhanh chóng, dễ dàng. Dựa trên hạ tầng GitHub Gists nên bạn có thể sử dụng toàn bộ e
+- [GustavoASC/google-drive-vscode](https://github.com/GustavoASC/google-drive-vscode) - Extension tích hợp VSCode với Google Drive™
+- [liupan1890/aliyunpan](https://github.com/liupan1890/aliyunpan) - 阿里云盘小白羊版  阿里云盘PC版 aliyundriver
+- [Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo) - :rocket: Một công cụ upload ảnh đơn giản & đẹp được xây dựng bởi vue-cli-electron-builder
+- [XPoet/picx](https://github.com/XPoet/picx) - 🏞️ PicX là một công cụ lưu trữ ảnh dựa trên GitHub API, cung cấp dịch vụ upload, tạo link và hộp công cụ ảnh phổ biến.
+- [Actions-R-Us/actions-tagger](https://github.com/Actions-R-Us/actions-tagger) - Meta-action để giữ các phiên bản action của bạn luôn mới nhất :rocket:
+- [Ajaxy/telegram-tt](https://github.com/Ajaxy/telegram-tt) - Telegram Web A, GPL v3
+- [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) - Bảng trắng ảo vẽ sơ đồ như vẽ tay
+- [nglviewer/ngl](https://github.com/nglviewer/ngl) - Trình xem protein WebGL
+- [mjswensen/themer](https://github.com/mjswensen/themer) - 🎨 themer nhận bộ màu và xuất ra theme cho ứng dụng của bạn (editor, terminal, wallpaper, v.v.)
+- [Binaryify/OneDark-Pro](https://github.com/Binaryify/OneDark-Pro) - Giao diện One Dark nổi tiếng của Atom cho Visual Studio Code
+- [ritwickdey/vscode-create-file-folder](https://github.com/ritwickdey/vscode-create-file-folder) - Extension nhỏ cho vscode giúp tạo file & folder theo phong cách Atom.
+- [whyour/qinglong](https://github.com/whyour/qinglong) - Nền tảng quản lý tác vụ định kỳ hỗ trợ Python3, JavaScript, Shell, Typescript
+- [johnpapa/vscode-peacock](https://github.com/johnpapa/vscode-peacock) - Thay đổi màu workspace của Visual Studio Code một cách tinh tế. Lý tưởng khi bạn mở nhiều instance VS Code, dùng VS Live Share hoặc các tính năng Remote, muốn nhận diện nhanh.
+- [morethanwords/tweb](https://github.com/morethanwords/tweb) - Telegram Web K, GPL v3
+- [gitkraken/vscode-gitlens](https://github.com/gitkraken/vscode-gitlens) - Nâng cấp Git trong VS Code và khai phá tri thức trong từng repository — Hiển thị tác giả code qua annotation Git blame và CodeLens, điều hướng và khám phá Git mượt mà
+- [carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji) - Hướng dẫn emoji cho thông điệp commit của bạn. 😜
+- [NotionX/react-notion-x](https://github.com/NotionX/react-notion-x) - Trình renderer React cho Notion nhanh và chính xác. Bao gồm TS. ⚡️
+- [Shywim/github-repo-size](https://github.com/Shywim/github-repo-size) - Addon Firefox hiển thị dung lượng repository trên Github.
+- [streetsidesoftware/vscode-spell-checker](https://github.com/streetsidesoftware/vscode-spell-checker) - Bộ kiểm tra chính tả đơn giản cho mã nguồn
+- [brianlovin/figma-dominant-color-toolkit](https://github.com/brianlovin/figma-dominant-color-toolkit) - Tạo bảng màu từ ảnh để tự động điền vào thiết kế của bạn.
+- [transitive-bullshit/nextjs-notion-starter-kit](https://github.com/transitive-bullshit/nextjs-notion-starter-kit) - Triển khai website dùng Notion chỉ trong vài phút với Next.js và Vercel.
+- [spencerwooo/onedrive-vercel-index](https://github.com/spencerwooo/onedrive-vercel-index) - Liệt kê thư mục công khai OneDrive, chạy trên Vercel và Next.js
+- [doki-theme/doki-theme-vscode](https://github.com/doki-theme/doki-theme-vscode) - Chủ đề nhân vật anime dễ thương cho VS-Code.
+- [frencojobs/vscode-notion](https://github.com/frencojobs/vscode-notion) - Duyệt trang Notion ngay trong Visual Studio Code.
+- [lostintangent/gistpad](https://github.com/lostintangent/gistpad) - 📘 Extension VS Code để quản lý và chia sẻ code snippets, ghi chú và mẫu tương tác dùng GitHub Gists
+- [material-extensions/vscode-material-icon-theme](https://github.com/material-extensions/vscode-material-icon-theme) - Icon Material Design cho VS Code
+- [lokalise/i18n-ally](https://github.com/lokalise/i18n-ally) - 🌍 Extension i18n tất cả trong một cho VS Code
+- [vscode-icons/vscode-icons](https://github.com/vscode-icons/vscode-icons) - Biểu tượng cho Visual Studio Code
+- [Authenticator-Extension/Authenticator](https://github.com/Authenticator-Extension/Authenticator) - Authenticator tạo mã xác minh 2 bước trong trình duyệt của bạn.
+- [samuelmaddock/metastream](https://github.com/samuelmaddock/metastream) - Xem media trực tuyến cùng bạn bè.
+- [swdotcom/swdc-vscode](https://github.com/swdotcom/swdc-vscode) - Plugin theo dõi thời gian cho Visual Studio Code
+- [oderwat/vscode-indent-rainbow](https://github.com/oderwat/vscode-indent-rainbow) - Extension hiển thị thụt lề bằng nền cầu vồng mờ để dễ đọc hơn
+- [CoenraadS/Bracket-Pair-Colorizer-2](https://github.com/CoenraadS/Bracket-Pair-Colorizer-2) - Extension tô màu dấu ngoặc cho VSCode
+- [YXL76/cloudmusic-vscode](https://github.com/YXL76/cloudmusic-vscode) - Nhạc Netease cho VS Code
+- [desktop/desktop](https://github.com/desktop/desktop) - Tập trung vào những gì quan trọng thay vì vật lộn với Git.
+- [withfig/autocomplete](https://github.com/withfig/autocomplete) - Tự động hoàn thành kiểu IDE cho terminal & shell hiện tại của bạn
+- [rid9/DateTime](https://github.com/rid9/DateTime) - Thông tin ngày giờ trên thanh trạng thái của Visual Studio Code.
+- [omgovich/colord](https://github.com/omgovich/colord) - 👑 Công cụ nhỏ gọn nhưng mạnh mẽ cho thao tác và chuyển đổi màu sắc hiệu năng cao
+- [microsoft/vscode-sublime-keybindings](https://github.com/microsoft/vscode-sublime-keybindings) - Extension keymap Sublime Text cho VS Code
+- [triggerjs/trigger](https://github.com/triggerjs/trigger) - Thư viện tạo animation dựa trên cuộn trang với thuộc tính HTML và biến CSS.
+- [Eugeny/tabby](https://github.com/Eugeny/tabby) - Terminal cho thời đại hiện đại hơn
+- [Vanessa219/vditor](https://github.com/Vanessa219/vditor) - ♏  Một trình soạn thảo Markdown trên trình duyệt, hỗ trợ WYSIWYG (Rich Text), kết xuất tức thì (giống Typora) và chế độ xem phân chia. An In-browser Markdown editor, support WYSIWYG (Rich Text),  Instant Rendering (Typora-like) and Split View modes.
+- [Yqnn/svg-path-editor](https://github.com/Yqnn/svg-path-editor) - Trình chỉnh sửa online để tạo và thao tác đường dẫn SVG
+- [daltonmenezes/aura-theme](https://github.com/daltonmenezes/aura-theme) - ✨ Chủ đề tối đẹp cho các ứng dụng yêu thích của bạn.
+- [pawelgrzybek/snippet-generator](https://github.com/pawelgrzybek/snippet-generator) - Trình tạo snippet cho Visual Studio Code, Sublime Text và Atom
+- [robertying/learnX](https://github.com/robertying/learnX) - Ứng dụng Tsinghua University Web Learning, xây dựng bằng React Native. App for Tsinghua University Web Learning, developed with React Native. ⚛️
+- [microsoft/vscode](https://github.com/microsoft/vscode) - Visual Studio Code
+- [refined-github/refined-github](https://github.com/refined-github/refined-github) - :octocat: Extension trình duyệt đơn giản hóa giao diện GitHub và bổ sung nhiều tính năng hữu ích
+- [reruin/sharelist](https://github.com/reruin/sharelist) - Chia sẻ nhanh GoogleDrive OneDrive
+- [dendronhq/dendron](https://github.com/dendronhq/dendron) - Công cụ quản lý tri thức cá nhân (PKM) phát triển cùng bạn!
+- [foambubble/foam](https://github.com/foambubble/foam) - Hệ thống quản lý và chia sẻ tri thức cá nhân cho VSCode
+- [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) - Phần mềm quản lý tri thức cá nhân ưu tiên quyền riêng tư, tự host, mã nguồn mở hoàn toàn, viết bằng typescript và golang.
+- [Ashutosh00710/github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph) - Biểu đồ hoạt động động thể hiện các hoạt động GitHub của bạn trong 31 ngày qua.
+- [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) - 🧡 Mọi thứ đều có thể RSS
+- [the1812/Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved) - Script tăng cường mạnh mẽ cho Bilibili
+- [darkreader/darkreader](https://github.com/darkreader/darkreader) - Extension Dark Reader cho Chrome và Firefox
+- [ankit/stylebot](https://github.com/ankit/stylebot) - Thay đổi giao diện web ngay lập tức
+## VBA 
+
+- [Jonathan-LeRoux/IguanaTex](https://github.com/Jonathan-LeRoux/IguanaTex) - Một tiện ích bổ sung cho PowerPoint để chèn các phương trình LaTeX vào các bài thuyết trình PowerPoint trên Windows và Mac
+
+## VBScript 
+
+- [bugfan/i996](https://github.com/bugfan/i996) - Miễn phí, không cần xây dựng, không cần cài đặt, xuyên qua mạng nội bộ, cấp phát chứng chỉ SSL, công cụ làm việc từ xa, làm việc tại nhà, thuận tiện cho việc gỡ lỗi WeChat Mini Program (khách hàng không cần cài đặt bất kỳ chương trình nào, dùng ngay), tương tự natapp, ngrok
+
+## Vala 
+
+- [birros/web-archives](https://github.com/birros/web-archives) - Trình đọc lưu trữ web
+- [teejee2008/timeshift](https://github.com/teejee2008/timeshift) - Công cụ khôi phục hệ thống cho Linux. Tạo ảnh chụp hệ thống tập tin sử dụng rsync+hardlinks, hoặc ảnh chụp BTRFS. Hỗ trợ lên lịch chụp, nhiều cấp độ sao lưu, và bộ lọc loại trừ. Ảnh chụp có thể được khôi phục
+
+## Vim Script 
+
+- [int32bit/dotfiles](https://github.com/int32bit/dotfiles) - Bộ tập tin cấu hình vim, zsh, git, và tmux.
+- [mashirozx/Pixiv-Nginx](https://github.com/mashirozx/Pixiv-Nginx) - Cách mở đúng của P站 (Pixiv)
+- [jbranchaud/til](https://github.com/jbranchaud/til) - :memo: Hôm nay tôi đã học
+- [junegunn/vim-plug](https://github.com/junegunn/vim-plug) - :hibiscus: Trình quản lý plugin Vim tối giản
+- [joshdick/onedark.vim](https://github.com/joshdick/onedark.vim) - Chủ đề màu tối cho Vim/Neovim lấy cảm hứng từ chủ đề cú pháp One Dark của Atom.
+- [albert12132/dotfiles](https://github.com/albert12132/dotfiles) - 
+- [mattn/vim-gist](https://github.com/mattn/vim-gist) - Plugin Vim cho Gist
+- [amix/vimrc](https://github.com/amix/vimrc) - Cấu hình Vim tối thượng (vimrc)
+- [neovim/neovim](https://github.com/neovim/neovim) - Nhánh fork của Vim tập trung vào khả năng mở rộng và tính dễ sử dụng
+## Visual Basic .NET 
+
+- [PeterStrick/ViVeTool-GUI](https://github.com/PeterStrick/ViVeTool-GUI) - Giao diện điều khiển tính năng Windows dựa trên ViVe / ViVeTool
+- [ChrisAnd1998/TaskbarX](https://github.com/ChrisAnd1998/TaskbarX) - Canh giữa các biểu tượng trên taskbar Windows với nhiều hiệu ứng chuyển động và tùy chọn.
+
+## Vue 
+
+- [Sjj1024/PakePlus](https://github.com/Sjj1024/PakePlus) - Chuyển bất kỳ trang web/Vue/React v.v. thành ứng dụng máy tính để bàn và di động dưới 5M dễ dàng chỉ trong vài phút. 轻松将任意网站/Vue/React等项目构建为轻量级(小于5M)多端桌面应用和手机应用仅需几分钟. https://ppofficial.netlify.app
+- [Ackites/hidden-word](https://github.com/Ackites/hidden-word) - Công cụ watermark số dựa trên Unicode để nhúng dấu bản quyền và metadata vô hình vào nội dung văn bản.
+- [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) - Hộp công cụ IP tốt nhất. Dễ dàng kiểm tra IP của bạn, định vị địa lý IP, kiểm tra rò rỉ DNS, kiểm tra kết nối WebRTC, kiểm tra tốc độ, kiểm tra ping, kiểm tra MTR, kiểm tra trạng thái website, tra cứu whois và nhiều hơn nữa!
+- [zyronon/douyin](https://github.com/zyronon/douyin) - Vue3 + Pinia mô phỏng Douyin, thực tiễn tốt nhất của Vue trên di động. Imitate TikTok, Vue Best practices on Mobile
+- [GUI-for-Cores/GUI.for.Clash](https://github.com/GUI-for-Cores/GUI.for.Clash) - Một chương trình giao diện đồ họa phát triển bằng vue3 + wails.
+- [dullage/flatnotes](https://github.com/dullage/flatnotes) - Ứng dụng ghi chú tự lưu trữ, không cần cơ sở dữ liệu, sử dụng thư mục chứa các tệp markdown phẳng để lưu trữ.
+- [TangSY/echarts-map-demo](https://github.com/TangSY/echarts-map-demo) - Dữ liệu ranh giới địa lý geoJson hành chính cho bản đồ echarts, QGIS v.v., lấy và ứng dụng thời gian thực, dữ liệu định dạng json, liên kết và drilldown đa cấp tỉnh thành quận huyện, thực sự drilldown đến cấp huyện【kèm file geoJson mới nhất cấp tỉnh thành quận huyện xã, tải về liên kết 3 hoặc 4 cấp, hoặc tải về mã hành chính liên kết 4 hoặc 5 cấp (cấp xã)】
+- [hackun666/chat-easy](https://github.com/hackun666/chat-easy) - ChatGPT vue.js demo
+- [weekend-project-space/chatgpt-online](https://github.com/weekend-project-space/chatgpt-online) - chatgpt-online, triển khai trang chatgpt của bạn chỉ với một cú nhấp chuột, không cần vượt tường lửa
+- [weekend-project-space/chatgpt-chrome-extension](https://github.com/weekend-project-space/chatgpt-chrome-extension) - chatgpt-chrome-extension
+- [Paul-Gy/SessionShare](https://github.com/Paul-Gy/SessionShare) - Dễ dàng chia sẻ file nhiều lần với một liên kết duy nhất! Xây dựng bằng Vue.js trên Cloudflare Workers, sử dụng Durable Objects, R2 và Cloudflare Pages.
+- [OBKoro1/stop-mess-around](https://github.com/OBKoro1/stop-mess-around) - Tiện ích tự giác cho trình duyệt chrome: Giúp bạn bỏ thói quen vô thức mở các trang như Zhihu khi làm việc/học tập, thường thì vừa xem là đã hết mấy tiếng, tiện ích sẽ tự động phát hiện các trang giải trí, nhắc nhở động viên rồi đóng trang đó.
+- [tailwindcomponents/gradient-generator](https://github.com/tailwindcomponents/gradient-generator) - Trình tạo Gradient Tailwind xây dựng bằng Vue JS, Vite và Tailwind CSS
+- [nicejade/markdown2png](https://github.com/nicejade/markdown2png) - 玉桃文飨轩🍑, công cụ chuyển văn bản sang hình ảnh chuyên nghiệp. Chuyển Markdown thành ảnh đẹp chỉ với một cú nhấp, hỗ trợ chế độ trích sách, tùy chỉnh chủ đề, font và nền. Tất cả dữ liệu xử lý cục bộ đảm bảo an toàn riêng tư, hiển thị hoàn hảo đa nền tảng. Giúp chia sẻ bài viết, ghi chú đọc sách, lan tỏa xã hội phong cách hơn. Xây dựng trên Vue3, Vite, Pinia, TailwindCSS, TypeScript...
+- [doocs/md](https://github.com/doocs/md) - ✍ Trình soạn thảo Markdown cho WeChat | Một trình soạn thảo WeChat Markdown cực kỳ đơn giản: hỗ trợ cú pháp Markdown, tùy chỉnh chủ đề, quản lý nội dung, nhiều kho lưu trữ hình ảnh, trợ lý AI v.v.
+- [betterRunner/context-note](https://github.com/betterRunner/context-note) - Tiện ích ghi chú trên chrome: ghi chú trực tiếp trên web cùng với ngữ cảnh của nó.
+- [realByg/cfworker-kv-image-hosting](https://github.com/realByg/cfworker-kv-image-hosting) - Cloudflare workers KV lưu trữ hình ảnh
+- [lpssss/THUeat--Frontend](https://github.com/lpssss/THUeat--Frontend) - Ứng dụng nhà ăn Đại học Thanh Hoa
+- [m0ngr31/DailyNotes](https://github.com/m0ngr31/DailyNotes) - Ứng dụng ghi chú và theo dõi công việc hàng ngày
+- [massCodeIO/massCode](https://github.com/massCodeIO/massCode) - Trình quản lý đoạn mã nguồn miễn phí và mã nguồn mở dành cho lập trình viên
+- [chaos-zhu/easynode](https://github.com/chaos-zhu/easynode) - Bảng điều khiển WEB đa chức năng cho máy chủ Linux (webSSH & webSFTP). Thông báo cập nhật TG:
+- [tipsy/profile-summary-for-github](https://github.com/tipsy/profile-summary-for-github) - Công cụ trực quan hóa hồ sơ GitHub
+- [lzdyes/douyin-downloader](https://github.com/lzdyes/douyin-downloader) - Công cụ tải video Douyin đa nền tảng xây dựng bằng tauri
+- [5aaee9/Dnsflare](https://github.com/5aaee9/Dnsflare) - Chỉnh sửa cài đặt DNS tên miền Cloudflare
+- [Idered/chalk.ist](https://github.com/Idered/chalk.ist) - 📷 Tạo hình ảnh đẹp từ mã nguồn của bạn
+- [manuelernestog/weektodo](https://github.com/manuelernestog/weektodo) - WeekToDo là ứng dụng lập kế hoạch và danh sách công việc tối giản, miễn phí và mã nguồn mở tập trung vào quyền riêng tư. Có sẵn cho Windows, Mac, Linux hoặc trực tuyến.
+- [YunYouJun/cook](https://github.com/YunYouJun/cook) - 🍲 Được rồi, hôm nay chúng ta cùng nấu ăn! OK, Let's Cook!
+- [Jrohy/webssh](https://github.com/Jrohy/webssh) - Công cụ terminal và sftp trực tuyến đơn giản
+- [requarks/wiki](https://github.com/requarks/wiki) - Wiki.js | Ứng dụng wiki hiện đại và mạnh mẽ xây dựng trên Node.js
+- [yddeng/amp](https://github.com/yddeng/amp) - Nền tảng quản lý tự động hóa: công việc định kỳ, điều khiển tiến trình, giám sát và cảnh báo tiến trình
+- [surmon-china/surmon.me](https://github.com/surmon-china/surmon.me) - 🌱 Thiền viện số của tôi, tự phát triển.
+- [xjh22222228/boomb](https://github.com/xjh22222228/boomb) - 💣 Quản lý thư viện ảnh của bạn trên Github dễ dàng. Dựa trên Github để quản lý thư viện lưu trữ ảnh của bạn
+- [CareyWang/sub-web](https://github.com/CareyWang/sub-web) - 
+- [5ime/vue-page](https://github.com/5ime/vue-page) - Trang phân tích và xóa watermark cho video ngắn/hình ảnh bằng vue
+- [dhanyn10/multiple-file-manager](https://github.com/dhanyn10/multiple-file-manager) - Ứng dụng quản lý file. Bạn có thể đổi tên hoặc xóa hàng loạt file cùng lúc theo điều kiện nhất định. Có sẵn cho windows và linux
+- [Codennnn/vue-color-avatar](https://github.com/Codennnn/vue-color-avatar) - Trình tạo avatar trực tuyến chỉ để giải trí | Trang web tạo avatar hoàn toàn phía trước
+- [JakHuang/form-generator](https://github.com/JakHuang/form-generator) - :sparkles:Trình thiết kế và tạo mã form Element UI
+- [KeziahMoselle/export-github-stars](https://github.com/KeziahMoselle/export-github-stars) - Xem / Sắp xếp / Xuất kho lưu trữ đã gắn sao của bạn.
+- [WebCrateApp/webcrate](https://github.com/WebCrateApp/webcrate) - 📦🔗 Sắp xếp web của bạn với WebCrate, công cụ đánh dấu hiện đại và đẹp mắt
+- [leon-kfd/Dashboard](https://github.com/leon-kfd/Dashboard) - Tùy chỉnh trang bắt đầu trình duyệt cá nhân từ các thành phần cấu hình được.
+- [xiaoluoboding/skylines](https://github.com/xiaoluoboding/skylines) - Câu chuyện GitHub của tôi ở dạng 3D. Xem mô hình 3D đồ thị đóng góp GitHub của bạn.
+- [luyuhuang/DWords2](https://github.com/luyuhuang/DWords2) - Hiển thị từ vựng dưới dạng Danmaku trên màn hình để giúp bạn ghi nhớ chúng | Biến từ vựng thành dòng chữ chạy trên màn hình để giúp bạn nhớ từ
+- [qier222/YesPlayMusic](https://github.com/qier222/YesPlayMusic) - Trình phát nhạc NetEase bên thứ ba đẹp mắt, hỗ trợ Windows / macOS / Linux :electron:
+- [vuepress-reco/vuepress-theme-reco-1.x](https://github.com/vuepress-reco/vuepress-theme-reco-1.x) - 🎨 Đây là kho chứa theme vuepress-theme-reco 1.
+## Giấy phép
+
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+Trong phạm vi pháp luật cho phép, [erbanku](https://github.com/erbanku) đã từ bỏ tất cả bản quyền và các quyền liên quan hoặc lân cận đối với tác phẩm này.
+
+
+
+---
+
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-11
+
+---
