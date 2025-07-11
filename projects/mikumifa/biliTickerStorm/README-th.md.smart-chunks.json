@@ -1,0 +1,52 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n# 🎫 BiliTickerStorm\n\n\n## ⚙️ 服务说明\n\n| 服务名             | 说明              | 备注    |\n| --------------- | --------------- | ----- |\n| `ticket-master` | 主控服务，负责调度任务     | 单实例部署 |\n| `ticket-worker` | 抢票 worker，可横向扩展 | 支持多实例 |\n| `gt-python`     | 图形验证码处理服务       | 单实例部署 |\n\n---\n\n## 🚀 快速部署步骤\n\n> 集群搭建可以参考 [集群搭建指南](https://raw.githubusercontent.com/mikumifa/biliTickerStorm/main/docs/集群搭建参考.md)。\n\n<details> <summary><strong>📦 远程仓库安装（推荐）</strong></summary>\n\n```bash\nhelm repo add bili-ticker-storm https://mikumifa.github.io/biliTickerStorm/\nhelm repo update\n```",
+    "ContentSha": "OldZGYK15A366a5ixuZ2VdGPt5cgmrHXFFnh4CYVgZk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 🎫 BiliTickerStorm\n\n## ⚙️ คำอธิบายบริการ\n\n| ชื่อบริการ             | คำอธิบาย              | หมายเหตุ    |\n| --------------- | --------------- | ----- |\n| `ticket-master` | บริการควบคุมหลัก รับผิดชอบการจัดสรรงาน     | ติดตั้งเดี่ยว |\n| `ticket-worker` | worker สำหรับจองตั๋ว ขยายตามแนวราบได้ | รองรับหลายอินสแตนซ์ |\n| `gt-python`     | บริการประมวลผล captcha ภาพ       | ติดตั้งเดี่ยว |\n\n---\n\n## 🚀 ขั้นตอนการติดตั้งอย่างรวดเร็ว\n\n> การตั้งค่าคลัสเตอร์สามารถดูได้ที่ [คู่มือการตั้งค่าคลัสเตอร์](https://raw.githubusercontent.com/mikumifa/biliTickerStorm/main/docs/集群搭建参考.md)\n\n<details> <summary><strong>📦 ติดตั้งจากรีโมทรีโพซิทอรี (แนะนำ)</strong></summary>\n\n```bash\nhelm repo add bili-ticker-storm https://mikumifa.github.io/biliTickerStorm/\nhelm repo update\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 2,
+    "Content": "\n### 2. 安装 Chart\n\n```bash\nhelm install bili-ticker-storm bili-ticker-storm/bili-ticker-storm \\\n  --set ticketMaster.hostDataPath=/your/host/data/path \\\n  --set ticketWorker.pushplusToken=\"your_token\" \\\n  --set ticketWorker.ticketInterval=\"300\" \\\n  --set ticketWorker.ticketTimeStart=\"2025-05-20T13:14\"\n  \n```\n\n> - `hostDataPath` 是抢票配置文件目录，挂载给 `ticket-master` 容器用。抢票配置文件生成使用 https://github.com/mikumifa/biliTickerBuy\n> - `ticketWorker.pushplusToken` 是plusplus 推送配置，设置后可以接收抢票结果通知。\n> - `ticketWorker.ticketInterval` 是抢票间隔秒数，默认 300 毫秒。\n> - `ticketWorker.ticketTimeStart` 是定时启动时间，格式为 `2025-05-20T13:14`，不填默认打开容器直接开始抢票。\n\n### 3. 升级 Chart\n\n```bash\nhelm upgrade bili-ticker-storm bili-ticker-storm/bili-ticker-storm --reuse-values \\\n  --set ticketWorker.ticketInterval=\"600\"\n```",
+    "ContentSha": "bRX4Z1xqYGvwRzRrtzD8fIDYSWhh1YUxY5T1+aHGojM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 2. ติดตั้ง Chart\n\n```bash\nhelm install bili-ticker-storm bili-ticker-storm/bili-ticker-storm \\\n  --set ticketMaster.hostDataPath=/your/host/data/path \\\n  --set ticketWorker.pushplusToken=\"your_token\" \\\n  --set ticketWorker.ticketInterval=\"300\" \\\n  --set ticketWorker.ticketTimeStart=\"2025-05-20T13:14\"\n  \n```\n\n> - `hostDataPath` คือไดเรกทอรีไฟล์คอนฟิกสำหรับการจองตั๋ว จะถูก mount ให้กับคอนเทนเนอร์ `ticket-master` ไฟล์คอนฟิกสำหรับการจองตั๋วสามารถสร้างได้ที่ https://github.com/mikumifa/biliTickerBuy\n> - `ticketWorker.pushplusToken` คือการตั้งค่าการแจ้งเตือนผ่าน pushplus กำหนดค่านี้เพื่อรับการแจ้งเตือนผลการจองตั๋ว\n> - `ticketWorker.ticketInterval` คือช่วงเวลาระหว่างการจองตั๋ว หน่วยเป็นมิลลิวินาที ค่าเริ่มต้น 300 มิลลิวินาที\n> - `ticketWorker.ticketTimeStart` คือเวลาที่จะเริ่มต้นการจองตั๋วโดยอัตโนมัติ รูปแบบคือ `2025-05-20T13:14` หากไม่ระบุจะเริ่มจองตั๋วทันทีเมื่อเปิดคอนเทนเนอร์\n\n### 3. อัปเกรด Chart\n\n```bash\nhelm upgrade bili-ticker-storm bili-ticker-storm/bili-ticker-storm --reuse-values \\\n  --set ticketWorker.ticketInterval=\"600\"\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 3,
+    "Content": "---\n</details> \n<details> <summary><strong>📦 本地 Chart 安装</strong></summary>\n\n\n### 1. 安装 Chart\n\n```bash\n# 克隆仓库\ngit clone https://github.com/mikumifa/biliTickerStorm\n# 使用本地 Chart 包\nhelm install bili-ticker-storm ./helm \\\n  --set ticketMaster.hostDataPath=/your/host/data/path \\\n  --set ticketWorker.pushplusToken=\"your_token\" \\\n  --set ticketWorker.ticketInterval=\"300\" \\\n  --set ticketWorker.ticketTimeStart=\"2025-05-20T13:14\"\n```\n### 2. 升级 Chart\n\n```bash\nhelm upgrade bili-ticker-storm ./helm --reuse-values\n```",
+    "ContentSha": "pM8qGhCS+O0ExpFvJ7CXb9BMDD72Qk4iKw2KU4EXibI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "---\n</details> \n<details> <summary><strong>📦 การติดตั้ง Chart ในเครื่อง</strong></summary>\n\n\n### 1. ติดตั้ง Chart\n\n```bash\n# โคลนรีโพซิทอรี\ngit clone https://github.com/mikumifa/biliTickerStorm\n# ใช้แพ็กเกจ Chart ในเครื่อง\nhelm install bili-ticker-storm ./helm \\\n  --set ticketMaster.hostDataPath=/your/host/data/path \\\n  --set ticketWorker.pushplusToken=\"your_token\" \\\n  --set ticketWorker.ticketInterval=\"300\" \\\n  --set ticketWorker.ticketTimeStart=\"2025-05-20T13:14\"\n```\n### 2. อัปเกรด Chart\n\n```bash\nhelm upgrade bili-ticker-storm ./helm --reuse-values\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 4,
+    "Content": "</details>\n<details>\n<summary><strong>📌 通用命令</strong></summary>\n\n### ⏹ 卸载\n```bash\nhelm uninstall bili-ticker-storm\n```\n</details>\n\n\n## 📩 免责声明\n\n本项目遵循 MIT License 许可协议，仅供个人学习与研究使用。请勿将本项目用于任何商业牟利行为，亦严禁用于任何形式的代抢、违法行为或违反相关平台规则的用途。由此产生的一切后果均由使用者自行承担，与本人无关。\n\n若您 fork 或使用本项目，请务必遵守相关法律法规与目标平台规则。\n\n## 💡 关于访问频率与并发控制\n本项目在设计时严格遵循「非侵入式」原则，避免对目标服务器（如 Bilibili）造成任何干扰。\n\n所有网络请求的时间间隔均由用户自行配置，默认值模拟正常用户的手动操作速度。程序默认单线程运行，无并发任务。遇到请求失败时，程序会进行有限次数的重试，并在重试之间加入适当的延时，避免形成高频打点。项目完全依赖平台公开接口及网页结构，不含风控规避、API劫持等破坏性手段。\n",
+    "ContentSha": "c35GLp7Z8gLnZYAh8qiJxC3tPLz6iTepT9qYd1IaduM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "</details>\n<details>\n<summary><strong>📌 คำสั่งทั่วไป</strong></summary>\n\n### ⏹ ถอนการติดตั้ง\n```bash\nhelm uninstall bili-ticker-storm\n```\n</details>\n\n\n## 📩 ข้อจำกัดความรับผิดชอบ\n\nโครงการนี้ปฏิบัติตามข้อตกลงอนุญาตใช้ MIT License สำหรับการเรียนรู้และวิจัยส่วนบุคคลเท่านั้น โปรดอย่านำโครงการนี้ไปใช้เพื่อแสวงหากำไรในเชิงพาณิชย์ และห้ามใช้สำหรับการซื้อขายล่วงหน้า การกระทำผิดกฎหมาย หรือการใช้งานที่ฝ่าฝืนกฎระเบียบของแพลตฟอร์มที่เกี่ยวข้อง ผลกระทบใด ๆ ที่เกิดขึ้นจากการใช้งานถือเป็นความรับผิดชอบของผู้ใช้แต่เพียงผู้เดียว ไม่เกี่ยวข้องกับผู้พัฒนาแต่อย่างใด\n\nหากคุณ fork หรือใช้งานโครงการนี้ กรุณาปฏิบัติตามกฎหมายที่เกี่ยวข้องและกฎระเบียบของแพลตฟอร์มเป้าหมายอย่างเคร่งครัด\n\n## 💡 เกี่ยวกับความถี่ในการเข้าถึงและการควบคุมการทำงานพร้อมกัน\nโครงการนี้ถูกออกแบบโดยยึดหลักการ \"ไม่รบกวน\" อย่างเคร่งครัด เพื่อหลีกเลี่ยงการรบกวนเซิร์ฟเวอร์เป้าหมาย (เช่น Bilibili)\n\nช่วงเวลาระหว่างการร้องขอผ่านเครือข่ายทั้งหมดสามารถกำหนดค่าโดยผู้ใช้เอง ค่าเริ่มต้นจะจำลองความเร็วในการดำเนินการด้วยมือของผู้ใช้ปกติ โปรแกรมจะทำงานแบบเธรดเดียวโดยค่าเริ่มต้น ไม่มีการทำงานพร้อมกัน หากพบข้อผิดพลาดในการร้องขอ โปรแกรมจะลองใหม่จำนวนจำกัดครั้ง และจะมีการหน่วงเวลาก่อนลองใหม่แต่ละครั้งเพื่อหลีกเลี่ยงการส่งคำขอบ่อยเกินไป โครงการนี้ใช้เฉพาะอินเทอร์เฟซสาธารณะและโครงสร้างหน้าเว็บของแพลตฟอร์มโดยสมบูรณ์ ไม่รวมวิธีการหลีกเลี่ยงระบบควบคุมความเสี่ยง การดักจับ API หรือวิธีการที่เป็นอันตรายอื่น ๆ",
+    "Status": "ok"
+  },
+  {
+    "Id": 5,
+    "Content": "## 🛡️ 平台尊重声明\n\n本程序设计时已尽可能控制请求频率，避免对 Bilibili 服务器造成任何明显负载或影响。项目仅作为学习用途，不具备大规模、高并发的能力，亦无任何恶意行为或干扰服务的企图。\n\n如本项目中存在侵犯 Bilibili 公司合法权益的内容，请通过邮箱 [1055069518@qq.com](https://raw.githubusercontent.com/mikumifa/biliTickerStorm/main/mailto:1055069518@qq.com) 与我联系，我将第一时间下架相关内容并删除本仓库。对此造成的不便，我深表歉意，感谢您的理解与包容。\n\n## 📄 License\n\n[MIT License](LICENSE)\n\n",
+    "ContentSha": "jXwxdwRuyMfpVqKoo054exNU0SNLLLoad1BMCQyz+OU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🛡️ คำประกาศเคารพต่อแพลตฟอร์ม\n\nโปรแกรมนี้ได้รับการออกแบบโดยพยายามควบคุมความถี่ของการร้องขอให้มากที่สุดเท่าที่จะทำได้ เพื่อหลีกเลี่ยงการสร้างภาระหรือผลกระทบที่เห็นได้ชัดต่อเซิร์ฟเวอร์ของ Bilibili โครงการนี้จัดทำขึ้นเพื่อการศึกษาเท่านั้น ไม่รองรับการใช้งานในระดับใหญ่หรือการประมวลผลพร้อมกันจำนวนมาก และไม่มีเจตนาร้ายหรือความพยายามใด ๆ ที่จะรบกวนบริการ\n\nหากโครงการนี้มีเนื้อหาที่ละเมิดสิทธิ์อันชอบธรรมของบริษัท Bilibili กรุณาติดต่อผ่านอีเมล [1055069518@qq.com](https://raw.githubusercontent.com/mikumifa/biliTickerStorm/main/mailto:1055069518@qq.com) ผมจะดำเนินการนำเนื้อหาที่เกี่ยวข้องออกและลบคลังนี้ทันที ขออภัยในความไม่สะดวกที่อาจเกิดขึ้น และขอขอบคุณในความเข้าใจและความกรุณาของคุณ\n\n## 📄 สัญญาอนุญาต\n\n[MIT License](LICENSE)\n",
+    "Status": "ok"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n# 🎫 BiliTickerStorm\n\n\n## ⚙️ 服务说明\n\n| 服务名             | 说明              | 备注    |\n| --------------- | --------------- | ----- |\n| `ticket-master` | 主控服务，负责调度任务     | 单实例部署 |\n| `ticket-worker` | 抢票 worker，可横向扩展 | 支持多实例 |\n| `gt-python`     | 图形验证码处理服务       | 单实例部署 |\n\n---\n\n## 🚀 快速部署步骤\n\n> 集群搭建可以参考 [集群搭建指南](https://raw.githubusercontent.com/mikumifa/biliTickerStorm/main/docs/集群搭建参考.md)。\n\n<details> <summary><strong>📦 远程仓库安装（推荐）</strong></summary>\n\n```bash\nhelm repo add bili-ticker-storm https://mikumifa.github.io/biliTickerStorm/\nhelm repo update\n```",
+    "ContentSha": "OldZGYK15A366a5ixuZ2VdGPt5cgmrHXFFnh4CYVgZk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 🎫 BiliTickerStorm\n\n## ⚙️ サービス説明\n\n| サービス名             | 説明                         | 備考         |\n| ---------------------- | --------------------------- | ------------ |\n| `ticket-master`        | メインコントロールサービス、タスクのスケジューリングを担当 | 単一インスタンス配置 |\n| `ticket-worker`        | チケット取得ワーカー、水平スケーリング可能           | 複数インスタンス対応 |\n| `gt-python`            | 画像認証コード処理サービス                       | 単一インスタンス配置 |\n\n---\n\n## 🚀 クイックデプロイ手順\n\n> クラスター構築については [クラスター構築ガイド](https://raw.githubusercontent.com/mikumifa/biliTickerStorm/main/docs/集群搭建参考.md) を参照してください。\n\n<details> <summary><strong>📦 リモートリポジトリからのインストール（推奨）</strong></summary>\n\n```bash\nhelm repo add bili-ticker-storm https://mikumifa.github.io/biliTickerStorm/\nhelm repo update\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 2,
+    "Content": "\n### 2. 安装 Chart\n\n```bash\nhelm install bili-ticker-storm bili-ticker-storm/bili-ticker-storm \\\n  --set ticketMaster.hostDataPath=/your/host/data/path \\\n  --set ticketWorker.pushplusToken=\"your_token\" \\\n  --set ticketWorker.ticketInterval=\"300\" \\\n  --set ticketWorker.ticketTimeStart=\"2025-05-20T13:14\"\n  \n```\n\n> - `hostDataPath` 是抢票配置文件目录，挂载给 `ticket-master` 容器用。抢票配置文件生成使用 https://github.com/mikumifa/biliTickerBuy\n> - `ticketWorker.pushplusToken` 是plusplus 推送配置，设置后可以接收抢票结果通知。\n> - `ticketWorker.ticketInterval` 是抢票间隔秒数，默认 300 毫秒。\n> - `ticketWorker.ticketTimeStart` 是定时启动时间，格式为 `2025-05-20T13:14`，不填默认打开容器直接开始抢票。\n\n### 3. 升级 Chart\n\n```bash\nhelm upgrade bili-ticker-storm bili-ticker-storm/bili-ticker-storm --reuse-values \\\n  --set ticketWorker.ticketInterval=\"600\"\n```",
+    "ContentSha": "bRX4Z1xqYGvwRzRrtzD8fIDYSWhh1YUxY5T1+aHGojM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 2. Chart のインストール\n\n```bash\nhelm install bili-ticker-storm bili-ticker-storm/bili-ticker-storm \\\n  --set ticketMaster.hostDataPath=/your/host/data/path \\\n  --set ticketWorker.pushplusToken=\"your_token\" \\\n  --set ticketWorker.ticketInterval=\"300\" \\\n  --set ticketWorker.ticketTimeStart=\"2025-05-20T13:14\"\n  \n```\n\n> - `hostDataPath` はチケット取得設定ファイルのディレクトリで、`ticket-master` コンテナにマウントされます。チケット取得設定ファイルは https://github.com/mikumifa/biliTickerBuy を使って生成します。\n> - `ticketWorker.pushplusToken` は pushplus の通知設定で、設定するとチケット取得結果の通知を受け取れます。\n> - `ticketWorker.ticketInterval` はチケット取得の間隔（秒単位）で、デフォルトは 300 ミリ秒です。\n> - `ticketWorker.ticketTimeStart` は定時起動の時刻で、フォーマットは `2025-05-20T13:14` です。未設定の場合はコンテナ起動時にすぐチケット取得を開始します。\n\n### 3. Chart のアップグレード\n\n```bash\nhelm upgrade bili-ticker-storm bili-ticker-storm/bili-ticker-storm --reuse-values \\\n  --set ticketWorker.ticketInterval=\"600\"\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 3,
+    "Content": "---\n</details> \n<details> <summary><strong>📦 本地 Chart 安装</strong></summary>\n\n\n### 1. 安装 Chart\n\n```bash\n# 克隆仓库\ngit clone https://github.com/mikumifa/biliTickerStorm\n# 使用本地 Chart 包\nhelm install bili-ticker-storm ./helm \\\n  --set ticketMaster.hostDataPath=/your/host/data/path \\\n  --set ticketWorker.pushplusToken=\"your_token\" \\\n  --set ticketWorker.ticketInterval=\"300\" \\\n  --set ticketWorker.ticketTimeStart=\"2025-05-20T13:14\"\n```\n### 2. 升级 Chart\n\n```bash\nhelm upgrade bili-ticker-storm ./helm --reuse-values\n```",
+    "ContentSha": "pM8qGhCS+O0ExpFvJ7CXb9BMDD72Qk4iKw2KU4EXibI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "</details> \n<details> <summary><strong>📦 ローカル Chart インストール</strong></summary>\n\n\n### 1. Chart のインストール\n\n```bash\n# リポジトリをクローン\ngit clone https://github.com/mikumifa/biliTickerStorm\n# ローカル Chart パッケージを使用\nhelm install bili-ticker-storm ./helm \\\n  --set ticketMaster.hostDataPath=/your/host/data/path \\\n  --set ticketWorker.pushplusToken=\"your_token\" \\\n  --set ticketWorker.ticketInterval=\"300\" \\\n  --set ticketWorker.ticketTimeStart=\"2025-05-20T13:14\"\n```\n### 2. Chart のアップグレード\n\n```bash\nhelm upgrade bili-ticker-storm ./helm --reuse-values\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 4,
+    "Content": "</details>\n<details>\n<summary><strong>📌 通用命令</strong></summary>\n\n### ⏹ 卸载\n```bash\nhelm uninstall bili-ticker-storm\n```\n</details>\n\n\n## 📩 免责声明\n\n本项目遵循 MIT License 许可协议，仅供个人学习与研究使用。请勿将本项目用于任何商业牟利行为，亦严禁用于任何形式的代抢、违法行为或违反相关平台规则的用途。由此产生的一切后果均由使用者自行承担，与本人无关。\n\n若您 fork 或使用本项目，请务必遵守相关法律法规与目标平台规则。\n\n## 💡 关于访问频率与并发控制\n本项目在设计时严格遵循「非侵入式」原则，避免对目标服务器（如 Bilibili）造成任何干扰。\n\n所有网络请求的时间间隔均由用户自行配置，默认值模拟正常用户的手动操作速度。程序默认单线程运行，无并发任务。遇到请求失败时，程序会进行有限次数的重试，并在重试之间加入适当的延时，避免形成高频打点。项目完全依赖平台公开接口及网页结构，不含风控规避、API劫持等破坏性手段。\n",
+    "ContentSha": "c35GLp7Z8gLnZYAh8qiJxC3tPLz6iTepT9qYd1IaduM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "</details>\n<details>\n<summary><strong>📌 共通コマンド</strong></summary>\n\n### ⏹ アンインストール\n```bash\nhelm uninstall bili-ticker-storm\n```\n</details>\n\n\n## 📩 免責事項\n\n本プロジェクトは MIT License ライセンス規約に従い、個人の学習および研究用途のみに提供されます。本プロジェクトをいかなる商業的利益目的で使用すること、およびいかなる形態の自動購入、違法行為、または関連プラットフォーム規則違反の用途で使用することも固く禁じます。これにより生じる一切の結果については、利用者自身の責任となり、当方は一切関与いたしません。\n\n本プロジェクトを fork する、または利用する場合は、必ず関連する法律法規および対象プラットフォームの規則を遵守してください。\n\n## 💡 アクセス頻度と同時実行制御について\n本プロジェクトは設計段階から「非侵入型」原則を厳守しており、対象サーバー（例：Bilibili）にいかなる干渉も与えないようにしています。\n\nすべてのネットワークリクエストの間隔はユーザーが自由に設定でき、デフォルト値は通常のユーザーによる手動操作速度を模倣しています。プログラムはデフォルトでシングルスレッドで動作し、同時実行タスクはありません。リクエストが失敗した場合、プログラムは限定回数のリトライを行い、その間に適切な遅延を挟むことで高頻度のアクセスを回避します。本プロジェクトは完全にプラットフォームの公開インターフェースおよびWebページ構造に依存しており、リスク回避やAPIハイジャックなどの破壊的手法は一切含みません。",
+    "Status": "ok"
+  },
+  {
+    "Id": 5,
+    "Content": "## 🛡️ 平台尊重声明\n\n本程序设计时已尽可能控制请求频率，避免对 Bilibili 服务器造成任何明显负载或影响。项目仅作为学习用途，不具备大规模、高并发的能力，亦无任何恶意行为或干扰服务的企图。\n\n如本项目中存在侵犯 Bilibili 公司合法权益的内容，请通过邮箱 [1055069518@qq.com](https://raw.githubusercontent.com/mikumifa/biliTickerStorm/main/mailto:1055069518@qq.com) 与我联系，我将第一时间下架相关内容并删除本仓库。对此造成的不便，我深表歉意，感谢您的理解与包容。\n\n## 📄 License\n\n[MIT License](LICENSE)\n\n",
+    "ContentSha": "jXwxdwRuyMfpVqKoo054exNU0SNLLLoad1BMCQyz+OU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🛡️ プラットフォーム尊重声明\n\n本プログラムは設計時にリクエスト頻度をできる限り制御し、Bilibili サーバーに対して明らかな負荷や影響を与えないようにしています。本プロジェクトは学習目的のみであり、大規模・高並列の能力は持たず、また悪意ある行為やサービス妨害の意図もありません。\n\nもし本プロジェクトに Bilibili 社の合法的権益を侵害する内容が含まれている場合は、メール [1055069518@qq.com](https://raw.githubusercontent.com/mikumifa/biliTickerStorm/main/mailto:1055069518@qq.com) までご連絡ください。速やかに関連内容を削除し、本リポジトリも削除いたします。ご不便をおかけすることを深くお詫び申し上げます。ご理解とご寛容に感謝いたします。\n\n## 📄 ライセンス\n\n[MIT License](LICENSE)\n",
+    "Status": "ok"
+  }
+]
