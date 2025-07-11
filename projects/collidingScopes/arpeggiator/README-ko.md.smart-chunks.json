@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Hand Gesture Arpeggiator\n\nHand-controlled arpeggiator, drum machine, and audio reactive visualizer. Raise your hands to raise the roof!\n\nAn interactive web app built with threejs, mediapipe computer vision, rosebud AI, and tone.js.\n\n- Hand #1 controls the arpeggios (raise hand to raise pitch, pinch to change volume)\n- Hand #2 controls the drums (raise different fingers to change the pattern)\n\n[Video](https://youtu.be/JepIs-DTBgk?si=4Y-FrQDF6KNy662C) | [Live Demo](https://collidingscopes.github.io/arpeggiator/) | [More Code & Tutorials](https://funwithcomputervision.com/)\n\n<img src=\"https://raw.githubusercontent.com/collidingScopes/arpeggiator/main/assets/demo.png\">\n\n## Requirements\n\n- Modern web browser with WebGL support\n- Camera access enabled for hand tracking\n\n## Technologies\n\n- **MediaPipe** for hand tracking and gesture recognition\n- **Three.js** for audio reactive visual rendering\n- **Tone.js** for synthesizer sounds\n- **HTML5 Canvas** for visual feedback\n- **JavaScript** for real-time interaction\n",
+    "ContentSha": "MuDIMloT96Kn2JjFUW/IFHL/uJYZYe3f4As4Du1TScY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 핸드 제스처 아르페지에이터\n\n손으로 제어하는 아르페지에이터, 드럼 머신, 오디오 반응형 비주얼라이저입니다. 손을 들어 올려 분위기를 띄워보세요!\n\nthreejs, mediapipe 컴퓨터 비전, rosebud AI, tone.js로 구축된 인터랙티브 웹 앱입니다.\n\n- 손 #1은 아르페지오를 제어합니다 (손을 들어 올리면 음이 올라가고, 집으면 볼륨이 변경됩니다)\n- 손 #2는 드럼을 제어합니다 (다른 손가락을 들어 올리면 패턴이 바뀝니다)\n\n[비디오](https://youtu.be/JepIs-DTBgk?si=4Y-FrQDF6KNy662C) | [라이브 데모](https://collidingscopes.github.io/arpeggiator/) | [더 많은 코드 & 튜토리얼](https://funwithcomputervision.com/)\n\n<img src=\"https://raw.githubusercontent.com/collidingScopes/arpeggiator/main/assets/demo.png\">\n\n## 요구 사항\n\n- WebGL을 지원하는 최신 웹 브라우저\n- 손 추적을 위한 카메라 접근 권한\n\n## 사용 기술\n\n- **MediaPipe**: 손 추적 및 제스처 인식\n- **Three.js**: 오디오 반응형 시각화 렌더링\n- **Tone.js**: 신디사이저 사운드\n- **HTML5 Canvas**: 시각적 피드백\n- **JavaScript**: 실시간 상호작용",
+    "Status": "ok"
+  },
+  {
+    "Id": 2,
+    "Content": "## Setup for Development\n\n```bash\n# Clone this repository\ngit clone https://github.com/collidingScopes/arpeggiator\n\n# Navigate to the project directory\ncd arpeggiator\n\n# Serve with your preferred method (example using Python)\npython -m http.server\n```\n\nThen navigate to `http://localhost:8000` in your browser.\n\n## License\n\nMIT License\n\n## Credits",
+    "ContentSha": "oJ16StUCjWSnW16a9CPoAjgJra90sEyqpTxpl1jfg74=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 개발 환경 설정\n\n```bash\n# 이 저장소를 클론합니다\ngit clone https://github.com/collidingScopes/arpeggiator\n\n# 프로젝트 디렉토리로 이동합니다\ncd arpeggiator\n\n# 원하는 방식으로 서버를 실행합니다 (예: Python 사용)\npython -m http.server\n```\n\n그런 다음 브라우저에서 `http://localhost:8000` 으로 이동합니다.\n\n## 라이선스\n\nMIT 라이선스\n\n## 크레딧",
+    "Status": "ok"
+  },
+  {
+    "Id": 3,
+    "Content": "\n- Three.js - https://threejs.org/\n- MediaPipe - https://mediapipe.dev/\n- Rosebud AI - https://rosebud.ai/\n- Tone.js - https://tonejs.github.io/\n\n## Related Projects\n\nI've released several computer vision projects (with code + tutorials) here:\n[Fun With Computer Vision](https://www.funwithcomputervision.com/)\n\nYou can purchase lifetime access and receive the full project files and tutorials. I'm adding more content regularly 🪬\n\nYou might also like some of my other open source projects:\n\n- [3D Model Playground](https://collidingScopes.github.io/3d-model-playground) - control 3D models with voice and hand gestures\n- [Threejs hand tracking tutorial](https://collidingScopes.github.io/threejs-handtracking-101) - Basic hand tracking setup with threejs and MediaPipe computer vision\n- [Particular Drift](https://collidingScopes.github.io/particular-drift) - Turn photos into flowing particle animations\n- [Video-to-ASCII](https://collidingScopes.github.io/ascii) - Convert videos into ASCII pixel art\n",
+    "ContentSha": "v+qJjA6Qp4WtITohvzKNM4Me2jG9/zPdvj3gbYILFjE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- Three.js - https://threejs.org/\n- MediaPipe - https://mediapipe.dev/\n- Rosebud AI - https://rosebud.ai/\n- Tone.js - https://tonejs.github.io/\n\n## 관련 프로젝트\n\n제가 여러 컴퓨터 비전 프로젝트(코드 + 튜토리얼 포함)를 여기에서 공개했습니다:\n[Fun With Computer Vision](https://www.funwithcomputervision.com/)\n\n평생 이용권을 구매하시면 전체 프로젝트 파일과 튜토리얼을 받아보실 수 있습니다. 저는 정기적으로 더 많은 콘텐츠를 추가하고 있습니다 🪬\n\n다른 오픈 소스 프로젝트들도 마음에 드실 수 있습니다:\n\n- [3D Model Playground](https://collidingScopes.github.io/3d-model-playground) - 음성 및 손 제스처로 3D 모델 제어\n- [Threejs hand tracking tutorial](https://collidingScopes.github.io/threejs-handtracking-101) - threejs와 MediaPipe 컴퓨터 비전으로 기본 손 추적 설정\n- [Particular Drift](https://collidingScopes.github.io/particular-drift) - 사진을 흐르는 파티클 애니메이션으로 변환\n- [Video-to-ASCII](https://collidingScopes.github.io/ascii) - 비디오를 ASCII 픽셀 아트로 변환",
+    "Status": "ok"
+  },
+  {
+    "Id": 4,
+    "Content": "## Contact\n\n- Instagram: [@stereo.drift](https://www.instagram.com/stereo.drift/)\n- Twitter/X: [@measure_plan](https://x.com/measure_plan)\n- Email: [stereodriftvisuals@gmail.com](https://raw.githubusercontent.com/collidingScopes/arpeggiator/main/mailto:stereodriftvisuals@gmail.com)\n- GitHub: [collidingScopes](https://github.com/collidingScopes)\n\n## Donations\n\nIf you found this tool useful, feel free to buy me a coffee. \n\nMy name is Alan, and I enjoy building open source software for computer vision, games, and more. This would be much appreciated during late-night coding sessions!\n\n[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/stereoDrift)",
+    "ContentSha": "emSaM6Kgfjv75Bxr+WKR/K4dwiqW6fpMaieyVh1aeDo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 연락처\n\n- 인스타그램: [@stereo.drift](https://www.instagram.com/stereo.drift/)\n- 트위터/X: [@measure_plan](https://x.com/measure_plan)\n- 이메일: [stereodriftvisuals@gmail.com](https://raw.githubusercontent.com/collidingScopes/arpeggiator/main/mailto:stereodriftvisuals@gmail.com)\n- GitHub: [collidingScopes](https://github.com/collidingScopes)\n\n## 후원\n\n이 도구가 유용했다면 커피 한 잔을 사주셔도 좋습니다.\n\n저는 Alan이라고 하며, 컴퓨터 비전, 게임 등 다양한 오픈 소스 소프트웨어를 개발하는 것을 즐깁니다. 늦은 밤 코딩 세션에 큰 힘이 됩니다!\n\n[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/stereoDrift)",
+    "Status": "ok"
+  }
+]

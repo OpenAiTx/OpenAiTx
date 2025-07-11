@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Hand Gesture Arpeggiator\n\nHand-controlled arpeggiator, drum machine, and audio reactive visualizer. Raise your hands to raise the roof!\n\nAn interactive web app built with threejs, mediapipe computer vision, rosebud AI, and tone.js.\n\n- Hand #1 controls the arpeggios (raise hand to raise pitch, pinch to change volume)\n- Hand #2 controls the drums (raise different fingers to change the pattern)\n\n[Video](https://youtu.be/JepIs-DTBgk?si=4Y-FrQDF6KNy662C) | [Live Demo](https://collidingscopes.github.io/arpeggiator/) | [More Code & Tutorials](https://funwithcomputervision.com/)\n\n<img src=\"https://raw.githubusercontent.com/collidingScopes/arpeggiator/main/assets/demo.png\">\n\n## Requirements\n\n- Modern web browser with WebGL support\n- Camera access enabled for hand tracking\n\n## Technologies\n\n- **MediaPipe** for hand tracking and gesture recognition\n- **Three.js** for audio reactive visual rendering\n- **Tone.js** for synthesizer sounds\n- **HTML5 Canvas** for visual feedback\n- **JavaScript** for real-time interaction\n",
+    "ContentSha": "MuDIMloT96Kn2JjFUW/IFHL/uJYZYe3f4As4Du1TScY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Arpegiador Controlado por Gestos de Mano\n\nArpegiador, caja de ritmos y visualizador reactivo al audio controlados por la mano. ¡Levanta las manos para animar la fiesta!\n\nUna aplicación web interactiva construida con threejs, visión por computadora de mediapipe, rosebud AI y tone.js.\n\n- La Mano #1 controla los arpegios (levanta la mano para subir el tono, pellizca para cambiar el volumen)\n- La Mano #2 controla la percusión (levanta diferentes dedos para cambiar el patrón)\n\n[Video](https://youtu.be/JepIs-DTBgk?si=4Y-FrQDF6KNy662C) | [Demo en Vivo](https://collidingscopes.github.io/arpeggiator/) | [Más Código y Tutoriales](https://funwithcomputervision.com/)\n\n<img src=\"https://raw.githubusercontent.com/collidingScopes/arpeggiator/main/assets/demo.png\">\n\n## Requisitos\n\n- Navegador web moderno con soporte para WebGL\n- Acceso a la cámara habilitado para el seguimiento de manos\n\n## Tecnologías\n\n- **MediaPipe** para el seguimiento de manos y reconocimiento de gestos\n- **Three.js** para la visualización reactiva al audio\n- **Tone.js** para sonidos de sintetizador\n- **HTML5 Canvas** para retroalimentación visual\n- **JavaScript** para interacción en tiempo real",
+    "Status": "ok"
+  },
+  {
+    "Id": 2,
+    "Content": "## Setup for Development\n\n```bash\n# Clone this repository\ngit clone https://github.com/collidingScopes/arpeggiator\n\n# Navigate to the project directory\ncd arpeggiator\n\n# Serve with your preferred method (example using Python)\npython -m http.server\n```\n\nThen navigate to `http://localhost:8000` in your browser.\n\n## License\n\nMIT License\n\n## Credits",
+    "ContentSha": "oJ16StUCjWSnW16a9CPoAjgJra90sEyqpTxpl1jfg74=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Configuración para Desarrollo\n\n```bash\n# Clona este repositorio\ngit clone https://github.com/collidingScopes/arpeggiator\n\n# Navega al directorio del proyecto\ncd arpeggiator\n\n# Sirve con tu método preferido (ejemplo usando Python)\npython -m http.server\n```\n\nLuego navega a `http://localhost:8000` en tu navegador.\n\n## Licencia\n\nLicencia MIT\n\n## Créditos",
+    "Status": "ok"
+  },
+  {
+    "Id": 3,
+    "Content": "\n- Three.js - https://threejs.org/\n- MediaPipe - https://mediapipe.dev/\n- Rosebud AI - https://rosebud.ai/\n- Tone.js - https://tonejs.github.io/\n\n## Related Projects\n\nI've released several computer vision projects (with code + tutorials) here:\n[Fun With Computer Vision](https://www.funwithcomputervision.com/)\n\nYou can purchase lifetime access and receive the full project files and tutorials. I'm adding more content regularly 🪬\n\nYou might also like some of my other open source projects:\n\n- [3D Model Playground](https://collidingScopes.github.io/3d-model-playground) - control 3D models with voice and hand gestures\n- [Threejs hand tracking tutorial](https://collidingScopes.github.io/threejs-handtracking-101) - Basic hand tracking setup with threejs and MediaPipe computer vision\n- [Particular Drift](https://collidingScopes.github.io/particular-drift) - Turn photos into flowing particle animations\n- [Video-to-ASCII](https://collidingScopes.github.io/ascii) - Convert videos into ASCII pixel art\n",
+    "ContentSha": "v+qJjA6Qp4WtITohvzKNM4Me2jG9/zPdvj3gbYILFjE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- Three.js - https://threejs.org/\n- MediaPipe - https://mediapipe.dev/\n- Rosebud AI - https://rosebud.ai/\n- Tone.js - https://tonejs.github.io/\n\n## Proyectos Relacionados\n\nHe publicado varios proyectos de visión por computadora (con código + tutoriales) aquí:\n[Fun With Computer Vision](https://www.funwithcomputervision.com/)\n\nPuedes comprar acceso de por vida y recibir los archivos completos del proyecto y los tutoriales. Estoy agregando más contenido regularmente 🪬\n\nTambién podrían interesarte algunos de mis otros proyectos de código abierto:\n\n- [3D Model Playground](https://collidingScopes.github.io/3d-model-playground) - controla modelos 3D con voz y gestos de mano\n- [Tutorial de seguimiento de manos con Threejs](https://collidingScopes.github.io/threejs-handtracking-101) - Configuración básica de seguimiento de manos con threejs y visión por computadora de MediaPipe\n- [Particular Drift](https://collidingScopes.github.io/particular-drift) - Convierte fotos en animaciones de partículas fluidas\n- [Video-a-ASCII](https://collidingScopes.github.io/ascii) - Convierte videos en arte de píxeles ASCII",
+    "Status": "ok"
+  },
+  {
+    "Id": 4,
+    "Content": "## Contact\n\n- Instagram: [@stereo.drift](https://www.instagram.com/stereo.drift/)\n- Twitter/X: [@measure_plan](https://x.com/measure_plan)\n- Email: [stereodriftvisuals@gmail.com](https://raw.githubusercontent.com/collidingScopes/arpeggiator/main/mailto:stereodriftvisuals@gmail.com)\n- GitHub: [collidingScopes](https://github.com/collidingScopes)\n\n## Donations\n\nIf you found this tool useful, feel free to buy me a coffee. \n\nMy name is Alan, and I enjoy building open source software for computer vision, games, and more. This would be much appreciated during late-night coding sessions!\n\n[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/stereoDrift)",
+    "ContentSha": "emSaM6Kgfjv75Bxr+WKR/K4dwiqW6fpMaieyVh1aeDo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Contacto\n\n- Instagram: [@stereo.drift](https://www.instagram.com/stereo.drift/)\n- Twitter/X: [@measure_plan](https://x.com/measure_plan)\n- Correo electrónico: [stereodriftvisuals@gmail.com](https://raw.githubusercontent.com/collidingScopes/arpeggiator/main/mailto:stereodriftvisuals@gmail.com)\n- GitHub: [collidingScopes](https://github.com/collidingScopes)\n\n## Donaciones\n\nSi encontraste útil esta herramienta, siéntete libre de invitarme a un café.\n\nMi nombre es Alan y disfruto creando software de código abierto para visión por computadora, juegos y más. ¡Esto sería muy apreciado durante las sesiones de programación nocturnas!\n\n[![Invítame a un café](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/stereoDrift)",
+    "Status": "ok"
+  }
+]
