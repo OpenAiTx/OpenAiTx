@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# Po: czyste, logiczne commity\n* feat: implementacja systemu uwierzytelniania JWT\n* test: dodanie pokrycia testami endpointu auth\n```\n\n## Szybki start\n\n### 1. Instalacja\n\n```bash\n# Za pomocą pip\npip install git-smart-squash\n\n# Za pomocą pipx (zalecane do izolowanej instalacji)\npipx install git-smart-squash\n\n# Za pomocą uv (szybki menedżer pakietów Pythona)\nuv tool install git-smart-squash\n```",
+    "Status": "ok"
   },
   {
     "Id": 3,
@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### Wybór modelu\n```bash\n# Wskaż inny model\ngit-smart-squash --ai-provider openai --model gpt-4.1-mini\n\n# Dla lokalnego Ollama\ngit-smart-squash --ai-provider local --model llama-3.1\n```\n\n## Własne instrukcje\n\nParametr `--instructions` pozwala kontrolować, jak porządkowane są commity:\n\n### Przykłady\n```bash\n# Dodaj prefiksy zgłoszeń\ngit-smart-squash -i \"Prefix all commits with [ABC-1234]\"\n\n# Rozdziel według typu\ngit-smart-squash -i \"Keep backend and frontend changes in separate commits\"\n```",
+    "Status": "ok"
   },
   {
     "Id": 6,
@@ -66,8 +66,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### \"Chcę użyć konkretnego dostawcy AI\"\n```bash\ngit-smart-squash --ai-provider openai\n```\n\n## Bezpieczeństwo\n\n**Twój kod jest bezpieczny:**\n- Pokazuje plan przed wprowadzeniem zmian\n- Tworzy automatyczną gałąź zapasową\n- Wymaga czystego katalogu roboczego\n- Nigdy nie wysyła zmian bez Twojej komendy\n\n**Jeśli coś pójdzie nie tak:**\n```bash\n# Znajdź kopię zapasową\ngit branch | grep backup\n\n# Przywróć",
+    "Status": "ok"
   },
   {
     "Id": 8,
@@ -76,8 +76,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "git reset --hard your-branch-backup-[timestamp]\n```\n\n## Dostawcy AI\n\n| Dostawca     | Koszt  | Prywatność |\n|--------------|--------|------------|\n| **Ollama**   | Darmowe| Lokalnie    |\n| **OpenAI**   | ~0,01 USD | Chmura  |\n| **Anthropic**| ~0,01 USD | Chmura  |\n| **Gemini**   | ~0,01 USD | Chmura  |\n\n## Zaawansowana konfiguracja (opcjonalne)\n\nChcesz dostosować ustawienia? Utwórz plik konfiguracyjny:\n\n**Dla konkretnego projektu** (`.git-smart-squash.yml` w Twoim repozytorium):\n```yaml\nai:\n  provider: openai  # Użyj OpenAI dla tego projektu\nbase: develop       # Użyj develop jako głównej gałęzi dla tego projektu\n```",
+    "Status": "ok"
   },
   {
     "Id": 9,
@@ -106,7 +106,7 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### \"Brak zmian do reorganizacji\"\n```bash\ngit log --oneline main..HEAD  # Sprawdź, czy masz commity\ngit diff main                 # Sprawdź, czy masz zmiany\n```\n\n### Duże różnice / Limity tokenów\nModele lokalne mają limit około 32k tokenów. W przypadku dużych zmian:\n- Użyj `--base` z nowszym commitem\n- Przełącz się na chmurę: `--ai-provider openai`\n- Podziel na mniejsze PR-y\n\n### Potrzebujesz więcej pomocy?\n\nZobacz naszą [szczegółową dokumentację](https://raw.githubusercontent.com/edverma/git-smart-squash/main/DOCUMENTATION.md) lub otwórz zgłoszenie!\n\n## Licencja\n\nLicencja MIT - szczegóły w pliku [LICENSE](LICENSE).",
+    "Status": "ok"
   }
 ]

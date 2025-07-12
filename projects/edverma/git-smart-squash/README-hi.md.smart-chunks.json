@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# After: clean, logical commits\n* feat: JWT प्रमाणीकरण सिस्टम लागू करें\n* test: auth एंडपॉइंट कवरेज जोड़ें\n```\n\n## त्वरित प्रारंभ\n\n### 1. इंस्टॉल करें\n\n```bash\n# पिप का उपयोग करते हुए\npip install git-smart-squash\n\n# pipx का उपयोग करते हुए (आइसोलेटेड इंस्टॉल के लिए अनुशंसित)\npipx install git-smart-squash\n\n# uv का उपयोग करते हुए (तेज Python पैकेज मैनेजर)\nuv tool install git-smart-squash\n```",
+    "Status": "ok"
   },
   {
     "Id": 3,
@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "बस इतना ही। योजना की समीक्षा करें और अनुमोदन करें।\n\n## कमांड लाइन पैरामीटर\n\n| पैरामीटर | विवरण | डिफ़ॉल्ट |\n|-----------|-------------|---------|\n| `--base` | तुलना के लिए बेस ब्रांच | कॉन्फ़िग फ़ाइल या `main` |\n| `--ai-provider` | उपयोग करने के लिए एआई प्रदाता (openai, anthropic, local, gemini) | सेटिंग्स में कॉन्फ़िगर किया गया |\n| `--model` | उपयोग करने के लिए विशिष्ट एआई मॉडल (नीचे अनुशंसित मॉडल देखें) | प्रदाता डिफ़ॉल्ट |\n| `--config` | कस्टम कॉन्फ़िगरेशन फ़ाइल का पथ | `.git-smart-squash.yml` या `~/.git-smart-squash.yml` |\n| `--auto-apply` | बिना पुष्टि के कमिट योजना लागू करें | `false` |\n| `--instructions`, `-i` | एआई के लिए कस्टम निर्देश (जैसे, \"फ़ीचर क्षेत्र के अनुसार समूहित करें\") | कोई नहीं |\n| `--no-attribution` | कमिट्स में एट्रिब्यूशन संदेश अक्षम करें | `false` |\n| `--debug` | विस्तृत जानकारी के लिए डिबग लॉगिंग सक्षम करें | `false` |\n\n## अनुशंसित मॉडल\n\n### डिफ़ॉल्ट मॉडल\n- **OpenAI**: `gpt-4.1` (डिफ़ॉल्ट)\n- **Anthropic**: `claude-sonnet-4-20250514` (डिफ़ॉल्ट)\n- **Gemini**: `gemini-2.5-pro` (डिफ़ॉल्ट)\n- **Local/Ollama**: `devstral` (डिफ़ॉल्ट)",
+    "Status": "ok"
   },
   {
     "Id": 5,
@@ -56,8 +56,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# कमिट काउंट सीमित करें\ngit-smart-squash -i \"कुल मिलाकर अधिकतम 3 कमिट बनाएं\"\n```\n\n### बेहतर परिणामों के लिए सुझाव\n- **विशिष्ट रहें**: \"डेटाबेस माइग्रेशन को अलग-अलग समूहित करें\" \"अच्छी तरह व्यवस्थित करें\" से बेहतर काम करता है\n- **एक बार में एक निर्देश**: जटिल बहु-भागीय निर्देश आंशिक रूप से अनदेखे किए जा सकते हैं\n- **बेहतर मॉडल का उपयोग करें**: बड़े मॉडल छोटे मॉडलों की तुलना में निर्देशों का अधिक विश्वसनीय रूप से पालन करते हैं\n\n## सामान्य उपयोग के मामले\n\n### \"मुझे PR समीक्षा से पहले साफ-सफाई करनी है\"\n```bash\ngit-smart-squash              # योजना दिखाता है और पुष्टि के लिए पूछता है\ngit-smart-squash --auto-apply # बिना पूछे स्वतः लागू करता है\n```\n\n### \"मैं एक अलग मुख्य ब्रांच के साथ काम करता हूँ\"\n```bash\ngit-smart-squash --base develop\n```",
+    "Status": "ok"
   },
   {
     "Id": 7,
@@ -76,8 +76,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "git reset --hard your-branch-backup-[timestamp]\n```\n\n## एआई प्रदाता\n\n| प्रदाता | लागत | गोपनीयता |\n|----------|------|---------|\n| **Ollama** | नि:शुल्क | स्थानीय |\n| **OpenAI** | ~$0.01 | क्लाउड |\n| **Anthropic** | ~$0.01 | क्लाउड |\n| **Gemini** | ~$0.01 | क्लाउड |\n\n## उन्नत विन्यास (वैकल्पिक)\n\nअनुकूलित करना चाहते हैं? एक कॉन्फ़िग फ़ाइल बनाएं:\n\n**प्रोजेक्ट-विशिष्ट** (`.git-smart-squash.yml` आपके रिपॉजिटरी में):\n```yaml\nai:\n  provider: openai  # इस प्रोजेक्ट के लिए OpenAI का उपयोग करें\nbase: develop       # इस प्रोजेक्ट के लिए develop को बेस ब्रांच के रूप में उपयोग करें\n```",
+    "Status": "ok"
   },
   {
     "Id": 9,

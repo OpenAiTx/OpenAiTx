@@ -6,8 +6,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# Git Smart Squash\n\nتوقف عن إضاعة الوقت في إعادة تنظيم الالتزامات يدويًا. دع الذكاء الاصطناعي يقوم بذلك نيابةً عنك.\n\n## المشكلة\n\nلقد مررت بذلك من قبل: 15 التزامًا لميزة واحدة، نصفها بعنوان \"fix\"، أو \"typo\"، أو \"WIP\". الآن تحتاج إلى تنظيفها من أجل مراجعة طلب السحب (PR). الدمج وإعادة الكتابة يدويًا أمر ممل.\n\n## الحل\n\nيحلل Git Smart Squash تغييراتك ويعيد تنظيمها في التزامات منطقية مع رسائل مناسبة:\n\n```bash\n# قبل: فرعك الفوضوي\n* fix tests\n* typo  \n* more auth changes\n* WIP: working on auth\n* update tests\n* initial auth implementation\n```",
+    "Status": "ok"
   },
   {
     "Id": 2,
@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### 2. إعداد الذكاء الاصطناعي\n\n**الخيار أ: محلي (مجاني، خاص)**\n```bash\n# قم بتثبيت Ollama من https://ollama.com\nollama pull devstral  # النموذج الافتراضي\n```\n\n**الخيار ب: سحابي (نتائج أفضل)**\n```bash\nexport OPENAI_API_KEY=\"مفتاحك\"\nexport ANTHROPIC_API_KEY=\"مفتاحك\"\nexport GEMINI_API_KEY=\"مفتاحك\"\n```\n\n### 3. التشغيل\n\n```bash\ncd your-repo\ngit-smart-squash\n```",
+    "Status": "ok"
   },
   {
     "Id": 4,
@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### اختيار النموذج\n```bash\n# تحديد نموذج مختلف\ngit-smart-squash --ai-provider openai --model gpt-4.1-mini\n\n# للاستخدام المحلي مع Ollama\ngit-smart-squash --ai-provider local --model llama-3.1\n```\n\n## تعليمات مخصصة\n\nتتيح لك المعلمة `--instructions` التحكم في كيفية تنظيم الالتزامات (commits):\n\n### أمثلة\n```bash\n# إضافة بادئة رقم التذكرة\ngit-smart-squash -i \"Prefix all commits with [ABC-1234]\"\n\n# الفصل حسب النوع\ngit-smart-squash -i \"Keep backend and frontend changes in separate commits\"\n```",
+    "Status": "ok"
   },
   {
     "Id": 6,
@@ -56,8 +56,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# تحديد عدد الكوميتات\ngit-smart-squash -i \"أنشئ بحد أقصى 3 كوميتات فقط\"\n```\n\n### نصائح للحصول على نتائج أفضل\n- **كن محدداً**: \"اجمع ترحيلات قاعدة البيانات بشكل منفصل\" تعمل بشكل أفضل من \"نظمها بشكل جيد\"\n- **تعليمات واحدة في كل مرة**: قد يتم تجاهل التعليمات المعقدة متعددة الأجزاء جزئياً\n- **استخدم نماذج أفضل**: النماذج الأكبر تتبع التعليمات بشكل أكثر موثوقية من النماذج الأصغر\n\n## حالات الاستخدام الشائعة\n\n### \"أحتاج إلى تنظيف قبل مراجعة PR\"\n```bash\ngit-smart-squash              # يعرض الخطة ويطلب التأكيد\ngit-smart-squash --auto-apply # يطبق تلقائياً بدون طلب التأكيد\n```\n\n### \"أعمل مع فرع رئيسي مختلف\"\n```bash\ngit-smart-squash --base develop\n```",
+    "Status": "ok"
   },
   {
     "Id": 7,
@@ -76,8 +76,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "git reset --hard your-branch-backup-[timestamp]\n```\n\n## مزودو الذكاء الاصطناعي\n\n| المزود     | التكلفة | الخصوصية |\n|------------|---------|----------|\n| **Ollama**     | مجاني    | محلي     |\n| **OpenAI**     | ~$0.01   | سحابي    |\n| **Anthropic**  | ~$0.01   | سحابي    |\n| **Gemini**     | ~$0.01   | سحابي    |\n\n## الإعدادات المتقدمة (اختياري)\n\nهل ترغب في التخصيص؟ أنشئ ملف إعدادات:\n\n**خاص بالمشروع** (`.git-smart-squash.yml` في مستودعك):\n```yaml\nai:\n  provider: openai  # استخدم OpenAI لهذا المشروع\nbase: develop       # استخدم develop كفرع أساسي لهذا المشروع\n```",
+    "Status": "ok"
   },
   {
     "Id": 9,

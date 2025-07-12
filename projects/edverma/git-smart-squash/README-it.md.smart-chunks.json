@@ -6,8 +6,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# Git Smart Squash\n\nSmetti di perdere tempo a riorganizzare manualmente i commit. Lascia che sia l'IA a farlo per te.\n\n## Il Problema\n\nCi sei passato anche tu: 15 commit per una funzionalità, metà dei quali sono \"fix\", \"typo\" o \"WIP\". Ora devi ripulirli per la revisione della PR. Effettuare lo squash e la riscrittura manuale è noioso.\n\n## La Soluzione\n\nGit Smart Squash analizza le tue modifiche e le riorganizza in commit logici con messaggi appropriati:\n\n```bash\n# Prima: il tuo branch disordinato\n* fix tests\n* typo  \n* more auth changes\n* WIP: working on auth\n* update tests\n* initial auth implementation\n```",
+    "Status": "ok"
   },
   {
     "Id": 2,
@@ -76,8 +76,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "git reset --hard your-branch-backup-[timestamp]\n```\n\n## Fornitori di AI\n\n| Fornitore  | Costo   | Privacy |\n|------------|---------|---------|\n| **Ollama**     | Gratis  | Locale  |\n| **OpenAI**     | ~0,01 $ | Cloud   |\n| **Anthropic**  | ~0,01 $ | Cloud   |\n| **Gemini**     | ~0,01 $ | Cloud   |\n\n## Configurazione Avanzata (Opzionale)\n\nVuoi personalizzare? Crea un file di configurazione:\n\n**Specifico per il progetto** (`.git-smart-squash.yml` nella tua repo):\n```yaml\nai:\n  provider: openai  # Usa OpenAI per questo progetto\nbase: develop       # Usa develop come branch di base per questo progetto\n```",
+    "Status": "ok"
   },
   {
     "Id": 9,
@@ -86,8 +86,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "**Impostazione predefinita globale** (`~/.git-smart-squash.yml`):\n```yaml\nai:\n  provider: local   # Usa sempre l’AI locale per impostazione predefinita\nbase: main          # Branch base predefinito per tutti i progetti\n```\n\n## Risoluzione dei problemi\n\n### Errore \"JSON non valido\"\nDi solito significa che il modello AI non è riuscito a formattare correttamente la risposta:\n- **Con Ollama**: Passa da `llama2` a `mistral` o `mixtral`\n- **Soluzione**: `ollama pull mistral` poi riprova\n- **Alternativa**: Usa un provider cloud con `--ai-provider openai`\n\n### Il modello non segue le istruzioni\nAlcuni modelli hanno difficoltà con istruzioni complesse:\n- **Usa modelli migliori**: `--model gpt-4-turbo` oppure `--model claude-3-opus`\n- **Semplifica le istruzioni**: Una direttiva chiara funziona meglio di più istruzioni\n- **Sii esplicito**: \"Prefissa con [ABC-123]\" e non \"aggiungi il numero del ticket\"",
+    "Status": "ok"
   },
   {
     "Id": 10,
@@ -96,8 +96,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### \"Ollama non trovato\" \n```bash\n# Installa da https://ollama.com\nollama serve\nollama pull devstral  # Modello predefinito\n```\n\n### Raggruppamento dei Commit Scarso\nSe l'IA crea troppi commit o non li raggruppa bene:\n- **Modello insufficiente**: Usa un modello più grande\n- **Aggiungi istruzioni**: `-i \"Raggruppa le modifiche correlate, massimo 3 commit\"`\n- **Fornisci feedback**: Crea un issue su GitHub e facci sapere cosa è successo\n\n### Problemi di Installazione (Mac)\nSe non hai pip o preferisci installazioni isolate:\n```bash\n# Usando pipx (consigliato)\nbrew install pipx\npipx install git-smart-squash\n```",
+    "Status": "ok"
   },
   {
     "Id": 11,

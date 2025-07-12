@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### Model Selection\n```bash\n# Specify a different model\ngit-smart-squash --ai-provider openai --model gpt-4.1-mini\n\n# For local Ollama\ngit-smart-squash --ai-provider local --model llama-3.1\n```\n\n## Custom Instructions\n\nThe `--instructions` parameter lets you control how commits are organized:\n\n### Examples\n```bash\n# Add ticket prefixes\ngit-smart-squash -i \"Prefix all commits with [ABC-1234]\"\n\n# Separate by type\ngit-smart-squash -i \"Keep backend and frontend changes in separate commits\"\n```",
+    "Status": "ok"
   },
   {
     "Id": 6,
@@ -66,8 +66,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### \"I want to use a specific AI provider\"\n```bash\ngit-smart-squash --ai-provider openai\n```\n\n## Safety\n\n**Your code is safe:**\n- Shows plan before making changes\n- Creates automatic backup branch\n- Requires clean working directory\n- Never pushes without your command\n\n**If something goes wrong:**\n```bash\n# Find backup\ngit branch | grep backup\n\n# Restore",
+    "Status": "ok"
   },
   {
     "Id": 8,
@@ -76,8 +76,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "git reset --hard your-branch-backup-[timestamp]\n```\n\n## AI Providers\n\n| Provider   | Cost   | Privacy |\n|------------|--------|---------|\n| **Ollama** | Free   | Local   |\n| **OpenAI** | ~$0.01 | Cloud   |\n| **Anthropic** | ~$0.01 | Cloud |\n| **Gemini** | ~$0.01 | Cloud   |\n\n## Advanced Configuration (Optional)\n\nWant to customize? Create a config file:\n\n**Project-specific** (`.git-smart-squash.yml` in your repo):\n```yaml\nai:\n  provider: openai  # Use OpenAI for this project\nbase: develop       # Use develop as the base branch for this project\n```",
+    "Status": "ok"
   },
   {
     "Id": 9,
@@ -86,8 +86,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "**Global default** (`~/.git-smart-squash.yml`):\n```yaml\nai:\n  provider: local   # Always use local AI by default\nbase: main          # Default base branch for all projects\n```\n\n## Troubleshooting\n\n### \"Invalid JSON\" Error\nThis usually means the AI model couldn't format the response properly:\n- **With Ollama**: Switch from `llama2` to `mistral` or `mixtral`\n- **Solution**: `ollama pull mistral` then retry\n- **Alternative**: Use a cloud provider with `--ai-provider openai`\n\n### Model Not Following Instructions\nSome models struggle with complex instructions:\n- **Use better models**: `--model gpt-4-turbo` or `--model claude-3-opus`\n- **Simplify instructions**: One clear directive works better than multiple\n- **Be explicit**: \"Prefix with [ABC-123]\" not \"add ticket number\"",
+    "Status": "ok"
   },
   {
     "Id": 10,
@@ -96,8 +96,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### \"Ollama not found\" \n```bash\n# Install from https://ollama.com\nollama serve\nollama pull devstral  # Default model\n```\n\n### Poor Commit Grouping\nIf the AI creates too many commits or doesn't group well:\n- **Insufficient model**: Use a larger model\n- **Add instructions**: `-i \"Group related changes, max 3 commits\"`\n- **Provide Feedback**: Create an issue on GitHub and let us know what happened\n\n### Installation Issues (Mac)\nIf you don't have pip or prefer isolated installs:\n```bash\n# Using pipx (recommended)\nbrew install pipx\npipx install git-smart-squash\n```",
+    "Status": "ok"
   },
   {
     "Id": 11,

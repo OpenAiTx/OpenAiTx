@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# Sonra: temiz, mantıklı commitler\n* feat: JWT kimlik doğrulama sistemi uygulandı\n* test: auth endpoint kapsaması eklendi\n```\n\n## Hızlı Başlangıç\n\n### 1. Kurulum\n\n```bash\n# Pip kullanarak\npip install git-smart-squash\n\n# pipx kullanarak (izole kurulum için önerilir)\npipx install git-smart-squash\n\n# uv kullanarak (hızlı Python paket yöneticisi)\nuv tool install git-smart-squash\n```",
+    "Status": "ok"
   },
   {
     "Id": 3,
@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "Hepsi bu kadar. Planı gözden geçirin ve onaylayın.\n\n## Komut Satırı Parametreleri\n\n| Parametre | Açıklama | Varsayılan |\n|-----------|----------|------------|\n| `--base` | Karşılaştırılacak temel dal | Yapılandırma dosyası veya `main` |\n| `--ai-provider` | Kullanılacak AI sağlayıcısı (openai, anthropic, local, gemini) | Ayarlarda yapılandırılmış |\n| `--model` | Kullanılacak belirli AI modeli (aşağıda önerilen modellere bakınız) | Sağlayıcı varsayılanı |\n| `--config` | Özel yapılandırma dosyasının yolu | `.git-smart-squash.yml` veya `~/.git-smart-squash.yml` |\n| `--auto-apply` | Onay istemi olmadan commit planını uygula | `false` |\n| `--instructions`, `-i` | AI için özel talimatlar (örn. \"Özellik alanına göre grupla\") | Yok |\n| `--no-attribution` | Commitlerde atıf mesajını devre dışı bırak | `false` |\n| `--debug` | Ayrıntılı bilgi için hata ayıklama kaydını etkinleştir | `false` |\n\n## Önerilen Modeller\n\n### Varsayılan Modeller\n- **OpenAI**: `gpt-4.1` (varsayılan)\n- **Anthropic**: `claude-sonnet-4-20250514` (varsayılan)\n- **Gemini**: `gemini-2.5-pro` (varsayılan)\n- **Local/Ollama**: `devstral` (varsayılan)\n",
+    "Status": "ok"
   },
   {
     "Id": 5,
@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### Model Seçimi\n```bash\n# Farklı bir model belirtin\ngit-smart-squash --ai-provider openai --model gpt-4.1-mini\n\n# Yerel Ollama için\ngit-smart-squash --ai-provider local --model llama-3.1\n```\n\n## Özel Talimatlar\n\n`--instructions` parametresi, commit'lerin nasıl organize edileceğini kontrol etmenizi sağlar:\n\n### Örnekler\n```bash\n# Ticket önekleri ekle\ngit-smart-squash -i \"Tüm commit'lere [ABC-1234] öneki ekle\"\n\n# Türe göre ayır\ngit-smart-squash -i \"Backend ve frontend değişikliklerini ayrı commit'lerde tut\"\n```",
+    "Status": "ok"
   },
   {
     "Id": 6,
@@ -56,8 +56,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# Commit sayısını sınırla\ngit-smart-squash -i \"Toplamda en fazla 3 commit oluştur\"\n\n```\n\n### Daha İyi Sonuçlar İçin İpuçları\n- **Spesifik olun**: \"Veritabanı migrasyonlarını ayrı gruplandır\" ifadesi \"güzelce düzenle\"den daha iyi sonuç verir\n- **Her seferinde bir talimat verin**: Karmaşık ve çok parçalı talimatlar kısmen göz ardı edilebilir\n- **Daha iyi modeller kullanın**: Daha büyük modeller, talimatları daha güvenilir şekilde takip eder\n\n## Yaygın Kullanım Durumları\n\n### \"PR incelemesinden önce temizliğe ihtiyacım var\"\n```bash\ngit-smart-squash              # Planı gösterir ve onay ister\ngit-smart-squash --auto-apply # Onay istemeden otomatik uygular\n```\n\n### \"Farklı bir ana dal ile çalışıyorum\"\n```bash\ngit-smart-squash --base develop\n```",
+    "Status": "ok"
   },
   {
     "Id": 7,
@@ -86,8 +86,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "**Global default** (`~/.git-smart-squash.yml`):\n```yaml\nai:\n  provider: local   # Varsayılan olarak her zaman yerel AI kullan\nbase: main          # Tüm projeler için varsayılan ana dal\n```\n\n## Sorun Giderme\n\n### \"Geçersiz JSON\" Hatası\nBu genellikle AI modelinin yanıtı doğru biçimlendiremediği anlamına gelir:\n- **Ollama ile**: `llama2` yerine `mistral` veya `mixtral` kullanın\n- **Çözüm**: `ollama pull mistral` komutunu çalıştırın ve tekrar deneyin\n- **Alternatif**: `--ai-provider openai` ile bir bulut sağlayıcı kullanın\n\n### Model Talimatlara Uymuyor\nBazı modeller karmaşık talimatlarla zorlanabilir:\n- **Daha iyi modeller kullanın**: `--model gpt-4-turbo` veya `--model claude-3-opus`\n- **Talimatları basitleştirin**: Bir net talimat, birden çoktan daha iyi çalışır\n- **Açık olun**: \"[ABC-123] ile öne ekle\" deyin, \"bilet numarası ekle\" demeyin",
+    "Status": "ok"
   },
   {
     "Id": 10,

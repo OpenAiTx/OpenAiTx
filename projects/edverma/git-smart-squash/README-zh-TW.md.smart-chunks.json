@@ -6,8 +6,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# Git Smart Squash\n\n別再浪費時間手動重組提交記錄了。讓 AI 為你完成這項工作。\n\n## 問題\n\n你一定遇過這種情況：為了一個功能提交了 15 次，其中一半是「fix」、「typo」或「WIP」。現在你需要在 PR 審查前整理這些提交。手動壓縮和重寫非常繁瑣。\n\n## 解決方案\n\nGit Smart Squash 會分析你的變更，並將它們重新組織為具備合適訊息的邏輯提交：\n\n```bash\n# 之前：你凌亂的分支\n* fix tests\n* typo  \n* more auth changes\n* WIP: working on auth\n* update tests\n* initial auth implementation\n```",
+    "Status": "ok"
   },
   {
     "Id": 2,
@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### 2. 設定 AI\n\n**選項 A：本地端（免費，私密）**\n```bash\n# 從 https://ollama.com 安裝 Ollama\nollama pull devstral  # 預設模型\n```\n\n**選項 B：雲端（更佳結果）**\n```bash\nexport OPENAI_API_KEY=\"your-key\"\nexport ANTHROPIC_API_KEY=\"your-key\"\nexport GEMINI_API_KEY=\"your-key\"\n```\n\n### 3. 執行\n\n```bash\ncd your-repo\ngit-smart-squash\n```",
+    "Status": "ok"
   },
   {
     "Id": 4,
@@ -66,8 +66,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### 「我想使用特定的 AI 供應商」\n```bash\ngit-smart-squash --ai-provider openai\n```\n\n## 安全性\n\n**您的程式碼是安全的：**\n- 變更前顯示計劃\n- 自動建立備份分支\n- 需要乾淨的工作目錄\n- 從不會在未經您指示下推送\n\n**如果發生問題：**\n```bash\n# 查找備份\ngit branch | grep backup\n\n# 還原",
+    "Status": "ok"
   },
   {
     "Id": 8,
@@ -76,8 +76,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "git reset --hard your-branch-backup-[timestamp]\n```\n\n## AI 提供者\n\n| 提供者      | 費用    | 隱私     |\n|-------------|---------|----------|\n| **Ollama**  | 免費    | 本地端   |\n| **OpenAI**  | 約 $0.01 | 雲端     |\n| **Anthropic** | 約 $0.01 | 雲端   |\n| **Gemini**  | 約 $0.01 | 雲端     |\n\n## 進階設定（選用）\n\n想自訂嗎？建立一個設定檔：\n\n**專案專屬**（在你的倉庫中 `.git-smart-squash.yml`）：\n```yaml\nai:\n  provider: openai  # 這個專案使用 OpenAI\nbase: develop       # 這個專案使用 develop 作為基礎分支\n```",
+    "Status": "ok"
   },
   {
     "Id": 9,
@@ -86,8 +86,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "**全域預設**（`~/.git-smart-squash.yml`）：\n```yaml\nai:\n  provider: local   # 預設一律使用本地 AI\nbase: main          # 所有專案的預設基礎分支\n```\n\n## 疑難排解\n\n### 「Invalid JSON」錯誤\n這通常表示 AI 模型無法正確格式化回應：\n- **使用 Ollama 時**：從 `llama2` 換成 `mistral` 或 `mixtral`\n- **解決方法**：執行 `ollama pull mistral` 然後重試\n- **替代方案**：使用雲端供應商並加上 `--ai-provider openai`\n\n### 模型未遵循指示\n某些模型在處理複雜指令時會遇到困難：\n- **使用更好的模型**：`--model gpt-4-turbo` 或 `--model claude-3-opus`\n- **簡化指令**：一個明確的指示比多個指示效果更好\n- **明確說明**：「以 [ABC-123] 為前綴」比「加上票號」更有效",
+    "Status": "ok"
   },
   {
     "Id": 10,

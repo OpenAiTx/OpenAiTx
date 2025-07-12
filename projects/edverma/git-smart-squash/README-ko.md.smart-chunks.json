@@ -6,8 +6,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# Git Smart Squash\n\n커밋을 수동으로 재정렬하는 데 시간을 낭비하지 마세요. AI가 대신 해드립니다.\n\n## 문제점\n\n누구나 이런 경험이 있습니다: 기능 하나에 15개의 커밋, 그 중 절반은 \"fix\", \"typo\", 또는 \"WIP\"입니다. 이제 PR 리뷰를 위해 정리해야 합니다. 커밋을 수동으로 합치고 메시지를 다시 쓰는 것은 번거롭습니다.\n\n## 해결책\n\nGit Smart Squash는 변경사항을 분석하여 논리적인 커밋과 적절한 메시지로 재구성합니다:\n\n```bash\n# 이전: 지저분한 브랜치\n* fix tests\n* typo  \n* more auth changes\n* WIP: working on auth\n* update tests\n* initial auth implementation\n",
+    "Status": "ok"
   },
   {
     "Id": 2,
@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# After: clean, logical commits\n* feat: JWT 인증 시스템 구현\n* test: 인증 엔드포인트 커버리지 추가\n```\n\n## 빠른 시작\n\n### 1. 설치\n\n```bash\n# pip 사용\npip install git-smart-squash\n\n# pipx 사용 (격리된 설치 권장)\npipx install git-smart-squash\n\n# uv 사용 (빠른 Python 패키지 매니저)\nuv tool install git-smart-squash\n```",
+    "Status": "ok"
   },
   {
     "Id": 3,
@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "이것으로 끝입니다. 계획을 검토하고 승인하세요.\n\n## 커맨드 라인 파라미터\n\n| 파라미터 | 설명 | 기본값 |\n|-----------|-------------|---------|\n| `--base` | 비교할 기준 브랜치 | 설정 파일 또는 `main` |\n| `--ai-provider` | 사용할 AI 제공자 (openai, anthropic, local, gemini) | 설정에서 구성됨 |\n| `--model` | 사용할 특정 AI 모델 (아래 추천 모델 참고) | 제공자 기본값 |\n| `--config` | 사용자 지정 설정 파일 경로 | `.git-smart-squash.yml` 또는 `~/.git-smart-squash.yml` |\n| `--auto-apply` | 확인 프롬프트 없이 커밋 계획 적용 | `false` |\n| `--instructions`, `-i` | AI를 위한 사용자 지정 지침 (예: \"기능 영역별로 그룹화\") | 없음 |\n| `--no-attribution` | 커밋에서 귀속 메시지 비활성화 | `false` |\n| `--debug` | 상세 정보를 위한 디버그 로깅 활성화 | `false` |\n\n## 추천 모델\n\n### 기본 모델\n- **OpenAI**: `gpt-4.1` (기본값)\n- **Anthropic**: `claude-sonnet-4-20250514` (기본값)\n- **Gemini**: `gemini-2.5-pro` (기본값)\n- **Local/Ollama**: `devstral` (기본값)\n",
+    "Status": "ok"
   },
   {
     "Id": 5,
@@ -56,8 +56,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# 커밋 수 제한하기\ngit-smart-squash -i \"총 3개의 커밋만 생성\"\n\n```\n\n### 더 나은 결과를 위한 팁\n- **구체적으로 작성하세요**: \"데이터베이스 마이그레이션을 별도로 그룹화\"가 \"깔끔하게 정리\"보다 더 효과적입니다\n- **한 번에 한 가지 지시만**: 복잡한 다중 지시는 일부만 무시될 수 있습니다\n- **더 나은 모델 사용**: 더 큰 모델이 작은 모델보다 지시를 더 잘 따릅니다\n\n## 일반적인 사용 사례\n\n### \"PR 리뷰 전에 커밋을 정리하고 싶어요\"\n```bash\ngit-smart-squash              # 계획을 보여주고 확인을 요청합니다\ngit-smart-squash --auto-apply # 확인 없이 자동으로 적용합니다\n```\n\n### \"메인 브랜치가 다를 때 사용해요\"\n```bash\ngit-smart-squash --base develop\n```",
+    "Status": "ok"
   },
   {
     "Id": 7,
@@ -106,7 +106,7 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### \"재구성할 변경 사항 없음\"\n```bash\ngit log --oneline main..HEAD  # 커밋이 있는지 확인\ngit diff main                 # 변경 사항이 있는지 확인\n```\n\n### 대용량 Diff / 토큰 제한\n로컬 모델에는 약 32k 토큰 제한이 있습니다. 대규모 변경의 경우:\n- 더 최근 커밋과 함께 `--base` 사용\n- 클라우드로 전환: `--ai-provider openai`\n- 더 작은 PR로 분할\n\n### 추가 도움이 필요하신가요?\n\n[자세한 문서](https://raw.githubusercontent.com/edverma/git-smart-squash/main/DOCUMENTATION.md)를 확인하거나 이슈를 등록하세요!\n\n## 라이선스\n\nMIT 라이선스 - 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.\n",
+    "Status": "ok"
   }
 ]

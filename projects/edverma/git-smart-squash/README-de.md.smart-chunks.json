@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### 2. KI einrichten\n\n**Option A: Lokal (Kostenlos, Privat)**\n```bash\n# Installiere Ollama von https://ollama.com\nollama pull devstral  # Standardmodell\n```\n\n**Option B: Cloud (Bessere Ergebnisse)**\n```bash\nexport OPENAI_API_KEY=\"dein-key\"\nexport ANTHROPIC_API_KEY=\"dein-key\"\nexport GEMINI_API_KEY=\"dein-key\"\n```\n\n### 3. Ausführen\n\n```bash\ncd dein-repo\ngit-smart-squash\n```",
+    "Status": "ok"
   },
   {
     "Id": 4,
@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "Das war’s. Überprüfen Sie den Plan und genehmigen Sie ihn.\n\n## Kommandozeilenparameter\n\n| Parameter | Beschreibung | Standardwert |\n|-----------|--------------|--------------|\n| `--base` | Basis-Branch zum Vergleichen | Konfigurationsdatei oder `main` |\n| `--ai-provider` | Zu verwendender KI-Anbieter (openai, anthropic, local, gemini) | In den Einstellungen konfiguriert |\n| `--model` | Zu verwendendes spezifisches KI-Modell (siehe empfohlene Modelle unten) | Anbieter-Standard |\n| `--config` | Pfad zur benutzerdefinierten Konfigurationsdatei | `.git-smart-squash.yml` oder `~/.git-smart-squash.yml` |\n| `--auto-apply` | Commit-Plan ohne Bestätigungsabfrage anwenden | `false` |\n| `--instructions`, `-i` | Benutzerdefinierte Anweisungen für die KI (z.B. „Nach Funktionsbereich gruppieren“) | Keine |\n| `--no-attribution` | Hinweis auf Urheberschaft in Commits deaktivieren | `false` |\n| `--debug` | Debug-Logging für detaillierte Informationen aktivieren | `false` |\n\n## Empfohlene Modelle\n\n### Standardmodelle\n- **OpenAI**: `gpt-4.1` (Standard)\n- **Anthropic**: `claude-sonnet-4-20250514` (Standard)\n- **Gemini**: `gemini-2.5-pro` (Standard)\n- **Lokal/Ollama**: `devstral` (Standard)\n",
+    "Status": "ok"
   },
   {
     "Id": 5,
@@ -56,8 +56,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# Commit-Anzahl begrenzen\ngit-smart-squash -i \"Erstelle insgesamt höchstens 3 Commits\"\n```\n\n### Tipps für bessere Ergebnisse\n- **Sei spezifisch**: \"Gruppiere Datenbankmigrationen separat\" funktioniert besser als \"schön organisieren\"\n- **Nur eine Anweisung auf einmal**: Komplexe, mehrteilige Anweisungen werden möglicherweise nur teilweise beachtet\n- **Bessere Modelle verwenden**: Größere Modelle befolgen Anweisungen zuverlässiger als kleinere Modelle\n\n## Häufige Anwendungsfälle\n\n### \"Ich muss vor dem PR-Review aufräumen\"\n```bash\ngit-smart-squash              # Zeigt Plan an und fordert zur Bestätigung auf\ngit-smart-squash --auto-apply # Wendet automatisch ohne Nachfrage an\n```\n\n### \"Ich arbeite mit einem anderen Haupt-Branch\"\n```bash\ngit-smart-squash --base develop\n```",
+    "Status": "ok"
   },
   {
     "Id": 7,
@@ -76,8 +76,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "git reset --hard your-branch-backup-[timestamp]\n```\n\n## KI-Anbieter\n\n| Anbieter   | Kosten   | Datenschutz |\n|------------|----------|-------------|\n| **Ollama** | Kostenlos| Lokal       |\n| **OpenAI** | ~0,01 $  | Cloud       |\n| **Anthropic** | ~0,01 $ | Cloud     |\n| **Gemini** | ~0,01 $  | Cloud       |\n\n## Erweiterte Konfiguration (Optional)\n\nMöchten Sie anpassen? Erstellen Sie eine Konfigurationsdatei:\n\n**Projektspezifisch** (`.git-smart-squash.yml` in Ihrem Repository):\n```yaml\nai:\n  provider: openai  # Verwende OpenAI für dieses Projekt\nbase: develop       # Verwende develop als Basis-Branch für dieses Projekt\n```",
+    "Status": "ok"
   },
   {
     "Id": 9,
@@ -96,8 +96,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### \"Ollama nicht gefunden\"\n```bash\n# Installation von https://ollama.com\nollama serve\nollama pull devstral  # Standardmodell\n```\n\n### Schlechte Commit-Gruppierung\nWenn die KI zu viele Commits erstellt oder nicht gut gruppiert:\n- **Unzureichendes Modell**: Verwenden Sie ein größeres Modell\n- **Fügen Sie Anweisungen hinzu**: `-i \"Ähnliche Änderungen gruppieren, maximal 3 Commits\"`\n- **Feedback geben**: Erstellen Sie ein Issue auf GitHub und teilen Sie uns mit, was passiert ist\n\n### Installationsprobleme (Mac)\nWenn Sie kein pip haben oder isolierte Installationen bevorzugen:\n```bash\n# Mit pipx (empfohlen)\nbrew install pipx\npipx install git-smart-squash\n```",
+    "Status": "ok"
   },
   {
     "Id": 11,
@@ -106,7 +106,7 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### \"Keine Änderungen zum Neuorganisieren\"\n```bash\ngit log --oneline main..HEAD  # Prüfen Sie, ob Sie Commits haben\ngit diff main                 # Prüfen Sie, ob Sie Änderungen haben\n```\n\n### Große Diffs / Token-Limits\nLokale Modelle haben ein Token-Limit von ca. 32k. Bei großen Änderungen:\n- Verwenden Sie `--base` mit einem aktuelleren Commit\n- Wechseln Sie zur Cloud: `--ai-provider openai`\n- Teilen Sie in kleinere PRs auf\n\n### Benötigen Sie weitere Hilfe?\n\nSehen Sie sich unsere [ausführliche Dokumentation](https://raw.githubusercontent.com/edverma/git-smart-squash/main/DOCUMENTATION.md) an oder eröffnen Sie ein Issue!\n\n## Lizenz\n\nMIT-Lizenz – siehe [LICENSE](LICENSE) Datei für Details.",
+    "Status": "ok"
   }
 ]

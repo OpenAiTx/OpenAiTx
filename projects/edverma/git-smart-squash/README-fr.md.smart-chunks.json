@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "C'est tout. Passez en revue le plan et approuvez.\n\n## Paramètres de ligne de commande\n\n| Paramètre | Description | Valeur par défaut |\n|-----------|-------------|-------------------|\n| `--base` | Branche de base à comparer | Fichier de config ou `main` |\n| `--ai-provider` | Fournisseur d’IA à utiliser (openai, anthropic, local, gemini) | Configuré dans les paramètres |\n| `--model` | Modèle d’IA spécifique à utiliser (voir modèles recommandés ci-dessous) | Par défaut du fournisseur |\n| `--config` | Chemin vers le fichier de configuration personnalisé | `.git-smart-squash.yml` ou `~/.git-smart-squash.yml` |\n| `--auto-apply` | Appliquer le plan de commit sans demande de confirmation | `false` |\n| `--instructions`, `-i` | Instructions personnalisées pour l’IA (ex : \"Regrouper par domaine fonctionnel\") | Aucune |\n| `--no-attribution` | Désactiver le message d’attribution dans les commits | `false` |\n| `--debug` | Activer les logs de débogage pour des informations détaillées | `false` |\n\n## Modèles recommandés\n\n### Modèles par défaut\n- **OpenAI** : `gpt-4.1` (par défaut)\n- **Anthropic** : `claude-sonnet-4-20250514` (par défaut)\n- **Gemini** : `gemini-2.5-pro` (par défaut)\n- **Local/Ollama** : `devstral` (par défaut)\n",
+    "Status": "ok"
   },
   {
     "Id": 5,
@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### Sélection du Modèle\n```bash\n# Spécifier un modèle différent\ngit-smart-squash --ai-provider openai --model gpt-4.1-mini\n\n# Pour Ollama en local\ngit-smart-squash --ai-provider local --model llama-3.1\n```\n\n## Instructions Personnalisées\n\nLe paramètre `--instructions` vous permet de contrôler comment les commits sont organisés :\n\n### Exemples\n```bash\n# Ajouter des préfixes de ticket\ngit-smart-squash -i \"Préfixer tous les commits avec [ABC-1234]\"\n\n# Séparer par type\ngit-smart-squash -i \"Garder les modifications backend et frontend dans des commits séparés\"\n```",
+    "Status": "ok"
   },
   {
     "Id": 6,
@@ -56,8 +56,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# Limiter le nombre de commits\ngit-smart-squash -i \"Créer au maximum 3 commits au total\"\n```\n\n### Conseils pour de meilleurs résultats\n- **Soyez spécifique** : \"Regrouper les migrations de base de données séparément\" fonctionne mieux que \"organiser proprement\"\n- **Une instruction à la fois** : Les instructions complexes en plusieurs parties peuvent être partiellement ignorées\n- **Utilisez de meilleurs modèles** : Les modèles plus grands suivent les instructions plus fidèlement que les modèles plus petits\n\n## Cas d'utilisation courants\n\n### \"J'ai besoin de nettoyer avant la revue PR\"\n```bash\ngit-smart-squash              # Affiche le plan et demande une confirmation\ngit-smart-squash --auto-apply # Applique automatiquement sans demander\n```\n\n### \"Je travaille avec une branche principale différente\"\n```bash\ngit-smart-squash --base develop\n```",
+    "Status": "ok"
   },
   {
     "Id": 7,
@@ -86,8 +86,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "**Défaut global** (`~/.git-smart-squash.yml`) :\n```yaml\nai:\n  provider: local   # Toujours utiliser l’IA locale par défaut\nbase: main          # Branche de base par défaut pour tous les projets\n```\n\n## Dépannage\n\n### Erreur \"Invalid JSON\"\nCela signifie généralement que le modèle d’IA n’a pas pu formater correctement la réponse :\n- **Avec Ollama** : Passez de `llama2` à `mistral` ou `mixtral`\n- **Solution** : `ollama pull mistral` puis réessayez\n- **Alternative** : Utilisez un fournisseur cloud avec `--ai-provider openai`\n\n### Le modèle ne suit pas les instructions\nCertains modèles ont du mal avec des instructions complexes :\n- **Utilisez de meilleurs modèles** : `--model gpt-4-turbo` ou `--model claude-3-opus`\n- **Simplifiez les instructions** : Une directive claire fonctionne mieux que plusieurs\n- **Soyez explicite** : \"Préfixer avec [ABC-123]\" et non \"ajouter le numéro du ticket\"\n",
+    "Status": "ok"
   },
   {
     "Id": 10,
@@ -96,8 +96,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### \"Ollama introuvable\" \n```bash\n# Installer depuis https://ollama.com\nollama serve\nollama pull devstral  # Modèle par défaut\n```\n\n### Mauvais groupement des commits\nSi l'IA crée trop de commits ou ne les regroupe pas correctement :\n- **Modèle insuffisant** : Utilisez un modèle plus grand\n- **Ajouter des instructions** : `-i \"Regrouper les modifications liées, maximum 3 commits\"`\n- **Donner un retour** : Créez un ticket sur GitHub et dites-nous ce qui s’est passé\n\n### Problèmes d'installation (Mac)\nSi vous n'avez pas pip ou préférez des installations isolées :\n```bash\n# Utiliser pipx (recommandé)\nbrew install pipx\npipx install git-smart-squash\n```",
+    "Status": "ok"
   },
   {
     "Id": 11,
@@ -106,7 +106,7 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### \"Aucun changement à réorganiser\"\n```bash\ngit log --oneline main..HEAD  # Vérifiez que vous avez des commits\ngit diff main                 # Vérifiez que vous avez des modifications\n```\n\n### Grandes différences / Limites de jetons\nLes modèles locaux ont une limite d’environ 32k jetons. Pour les modifications importantes :\n- Utilisez `--base` avec un commit plus récent\n- Passez au cloud : `--ai-provider openai`\n- Divisez en plus petites PR\n\n### Besoin de plus d’aide ?\n\nConsultez notre [documentation détaillée](https://raw.githubusercontent.com/edverma/git-smart-squash/main/DOCUMENTATION.md) ou ouvrez un ticket !\n\n## Licence\n\nLicence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.\n",
+    "Status": "ok"
   }
 ]

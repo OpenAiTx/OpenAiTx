@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# Depois: commits limpos e lógicos\n* feat: implementar sistema de autenticação JWT\n* test: adicionar cobertura para endpoint de autenticação\n```\n\n## Início Rápido\n\n### 1. Instalação\n\n```bash\n# Usando pip\npip install git-smart-squash\n\n# Usando pipx (recomendado para instalação isolada)\npipx install git-smart-squash\n\n# Usando uv (gerenciador de pacotes Python rápido)\nuv tool install git-smart-squash\n```",
+    "Status": "ok"
   },
   {
     "Id": 3,
@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### 2. Configurar IA\n\n**Opção A: Local (Grátis, Privado)**\n```bash\n# Instale o Ollama em https://ollama.com\nollama pull devstral  # Modelo padrão\n```\n\n**Opção B: Nuvem (Melhores resultados)**\n```bash\nexport OPENAI_API_KEY=\"sua-chave\"\nexport ANTHROPIC_API_KEY=\"sua-chave\"\nexport GEMINI_API_KEY=\"sua-chave\"\n```\n\n### 3. Executar\n\n```bash\ncd seu-repositorio\ngit-smart-squash\n```",
+    "Status": "ok"
   },
   {
     "Id": 4,
@@ -76,8 +76,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "git reset --hard your-branch-backup-[timestamp]\n```\n\n## Provedores de IA\n\n| Provedor   | Custo   | Privacidade |\n|------------|---------|-------------|\n| **Ollama**     | Grátis  | Local      |\n| **OpenAI**     | ~US$0,01| Nuvem      |\n| **Anthropic**  | ~US$0,01| Nuvem      |\n| **Gemini**     | ~US$0,01| Nuvem      |\n\n## Configuração Avançada (Opcional)\n\nQuer personalizar? Crie um arquivo de configuração:\n\n**Específico do projeto** (`.git-smart-squash.yml` no seu repositório):\n```yaml\nai:\n  provider: openai  # Use OpenAI para este projeto\nbase: develop       # Use develop como o branch base para este projeto\n```",
+    "Status": "ok"
   },
   {
     "Id": 9,
@@ -86,8 +86,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "**Padrão global** (`~/.git-smart-squash.yml`):\n```yaml\nai:\n  provider: local   # Sempre use IA local por padrão\nbase: main          # Branch base padrão para todos os projetos\n```\n\n## Solução de Problemas\n\n### Erro \"JSON Inválido\"\nIsso geralmente significa que o modelo de IA não conseguiu formatar a resposta corretamente:\n- **Com Ollama**: Troque de `llama2` para `mistral` ou `mixtral`\n- **Solução**: `ollama pull mistral` e tente novamente\n- **Alternativa**: Use um provedor em nuvem com `--ai-provider openai`\n\n### Modelo Não Segue as Instruções\nAlguns modelos têm dificuldade com instruções complexas:\n- **Use modelos melhores**: `--model gpt-4-turbo` ou `--model claude-3-opus`\n- **Simplifique as instruções**: Uma orientação clara funciona melhor do que várias\n- **Seja explícito**: \"Prefixe com [ABC-123]\" e não \"adicione o número do ticket\"",
+    "Status": "ok"
   },
   {
     "Id": 10,
@@ -96,8 +96,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### \"Ollama não encontrado\" \n```bash\n# Instale de https://ollama.com\nollama serve\nollama pull devstral  # Modelo padrão\n```\n\n### Agrupamento Ruim de Commits\nSe a IA criar commits demais ou não agrupar bem:\n- **Modelo insuficiente**: Use um modelo maior\n- **Adicione instruções**: `-i \"Agrupe mudanças relacionadas, máximo 3 commits\"`\n- **Forneça Feedback**: Crie uma issue no GitHub e nos informe o que aconteceu\n\n### Problemas de Instalação (Mac)\nSe você não tem pip ou prefere instalações isoladas:\n```bash\n# Usando pipx (recomendado)\nbrew install pipx\npipx install git-smart-squash\n```",
+    "Status": "ok"
   },
   {
     "Id": 11,
@@ -106,7 +106,7 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### \"Nenhuma alteração para reorganizar\"\n```bash\ngit log --oneline main..HEAD  # Verifique se você tem commits\ngit diff main                 # Verifique se você tem alterações\n```\n\n### Diffs Grandes / Limites de Tokens\nModelos locais têm um limite de ~32k tokens. Para alterações grandes:\n- Use `--base` com um commit mais recente\n- Mude para a nuvem: `--ai-provider openai`\n- Divida em PRs menores\n\n### Precisa de mais ajuda?\n\nConfira nossa [documentação detalhada](https://raw.githubusercontent.com/edverma/git-smart-squash/main/DOCUMENTATION.md) ou abra uma issue!\n\n## Licença\n\nLicença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.\n",
+    "Status": "ok"
   }
 ]

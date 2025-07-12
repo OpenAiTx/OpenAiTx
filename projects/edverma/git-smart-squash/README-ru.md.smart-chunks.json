@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# После: чистые, логичные коммиты\n* feat: реализована система аутентификации JWT\n* test: добавлено покрытие для auth endpoint\n```\n\n## Быстрый старт\n\n### 1. Установка\n\n```bash\n# С помощью pip\npip install git-smart-squash\n\n# С помощью pipx (рекомендуется для изолированной установки)\npipx install git-smart-squash\n\n# С помощью uv (быстрый менеджер пакетов Python)\nuv tool install git-smart-squash\n```\n",
+    "Status": "ok"
   },
   {
     "Id": 3,
@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### 2. Настройка ИИ\n\n**Вариант A: Локально (Бесплатно, Приватно)**\n```bash\n# Установите Ollama с https://ollama.com\nollama pull devstral  # Модель по умолчанию\n```\n\n**Вариант B: Облако (Лучшие результаты)**\n```bash\nexport OPENAI_API_KEY=\"ваш-ключ\"\nexport ANTHROPIC_API_KEY=\"ваш-ключ\"\nexport GEMINI_API_KEY=\"ваш-ключ\"\n```\n\n### 3. Запуск\n\n```bash\ncd ваш-репозиторий\ngit-smart-squash\n```",
+    "Status": "ok"
   },
   {
     "Id": 4,
@@ -96,8 +96,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### \"Ollama не найден\"\n```bash\n# Установите с https://ollama.com\nollama serve\nollama pull devstral  # Модель по умолчанию\n```\n\n### Плохая группировка коммитов\nЕсли ИИ создает слишком много коммитов или плохо их группирует:\n- **Недостаточная модель**: Используйте более крупную модель\n- **Добавьте инструкции**: `-i \"Группировать связанные изменения, максимум 3 коммита\"`\n- **Оставьте отзыв**: Создайте issue на GitHub и сообщите нам, что произошло\n\n### Проблемы с установкой (Mac)\nЕсли у вас нет pip или вы предпочитаете изолированные установки:\n```bash\n# Использование pipx (рекомендуется)\nbrew install pipx\npipx install git-smart-squash\n```",
+    "Status": "ok"
   },
   {
     "Id": 11,

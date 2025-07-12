@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "Eso es todo. Revisa el plan y apruébalo.\n\n## Parámetros de Línea de Comandos\n\n| Parámetro | Descripción | Predeterminado |\n|-----------|-------------|---------------|\n| `--base` | Rama base para comparar | Archivo de configuración o `main` |\n| `--ai-provider` | Proveedor de IA a utilizar (openai, anthropic, local, gemini) | Configurado en ajustes |\n| `--model` | Modelo de IA específico a utilizar (ver modelos recomendados abajo) | Predeterminado del proveedor |\n| `--config` | Ruta al archivo de configuración personalizado | `.git-smart-squash.yml` o `~/.git-smart-squash.yml` |\n| `--auto-apply` | Aplicar el plan de commits sin mensaje de confirmación | `false` |\n| `--instructions`, `-i` | Instrucciones personalizadas para la IA (ej., \"Agrupar por área de funcionalidad\") | Ninguna |\n| `--no-attribution` | Desactivar mensaje de atribución en los commits | `false` |\n| `--debug` | Activar registros de depuración para información detallada | `false` |\n\n## Modelos Recomendados\n\n### Modelos Predeterminados\n- **OpenAI**: `gpt-4.1` (predeterminado)\n- **Anthropic**: `claude-sonnet-4-20250514` (predeterminado)\n- **Gemini**: `gemini-2.5-pro` (predeterminado)\n- **Local/Ollama**: `devstral` (predeterminado)\n",
+    "Status": "ok"
   },
   {
     "Id": 5,
@@ -86,8 +86,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "**Global default** (`~/.git-smart-squash.yml`):\n```yaml\nai:\n  provider: local   # Siempre usar IA local por defecto\nbase: main          # Rama base predeterminada para todos los proyectos\n```\n\n## Solución de problemas\n\n### Error de \"JSON inválido\"\nEsto usualmente significa que el modelo de IA no pudo formatear la respuesta correctamente:\n- **Con Ollama**: Cambia de `llama2` a `mistral` o `mixtral`\n- **Solución**: `ollama pull mistral` y luego vuelve a intentar\n- **Alternativa**: Usa un proveedor en la nube con `--ai-provider openai`\n\n### El modelo no sigue las instrucciones\nAlgunos modelos tienen dificultades con instrucciones complejas:\n- **Usa mejores modelos**: `--model gpt-4-turbo` o `--model claude-3-opus`\n- **Simplifica las instrucciones**: Una directiva clara funciona mejor que varias\n- **Sé explícito**: \"Prefija con [ABC-123]\" y no \"agrega el número de ticket\"\n",
+    "Status": "ok"
   },
   {
     "Id": 10,

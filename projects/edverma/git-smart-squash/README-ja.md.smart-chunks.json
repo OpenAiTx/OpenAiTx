@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# After: clean, logical commits\n* feat: JWT認証システムを実装\n* test: 認証エンドポイントのカバレッジを追加\n```\n\n## クイックスタート\n\n### 1. インストール\n\n```bash\n# pipを使用\npip install git-smart-squash\n\n# pipxを使用（分離インストール推奨）\npipx install git-smart-squash\n\n# uvを使用（高速なPythonパッケージマネージャー）\nuv tool install git-smart-squash\n```",
+    "Status": "ok"
   },
   {
     "Id": 3,
@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### モデル選択\n```bash\n# 別のモデルを指定する\ngit-smart-squash --ai-provider openai --model gpt-4.1-mini\n\n# ローカルOllamaの場合\ngit-smart-squash --ai-provider local --model llama-3.1\n```\n\n## カスタムインストラクション\n\n`--instructions` パラメータを使用すると、コミットの整理方法を制御できます。\n\n### 例\n```bash\n# チケットのプレフィックスを追加\ngit-smart-squash -i \"すべてのコミットに [ABC-1234] をプレフィックスとして追加する\"\n\n# 種類ごとに分ける\ngit-smart-squash -i \"バックエンドとフロントエンドの変更を別々のコミットにする\"\n```",
+    "Status": "ok"
   },
   {
     "Id": 6,
@@ -56,8 +56,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# コミット数の制限\ngit-smart-squash -i \"コミット数を合計3つまでにする\"\n```\n\n### より良い結果を得るためのヒント\n- **具体的に指示する**：「データベースマイグレーションは別々にまとめてください」の方が「きれいに整理してください」より効果的です\n- **1回につき1つの指示**：複雑な複数指示は一部無視される場合があります\n- **より良いモデルを使う**：大規模モデルの方が小規模モデルより指示に忠実です\n\n## よくあるユースケース\n\n### 「PRレビュー前にクリーンアップしたい」\n```bash\ngit-smart-squash              # プランを表示し、確認を求めます\ngit-smart-squash --auto-apply # 確認なしで自動適用します\n```\n\n### 「メインブランチが異なる場合」\n```bash\ngit-smart-squash --base develop\n```",
+    "Status": "ok"
   },
   {
     "Id": 7,
@@ -66,8 +66,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### 「特定のAIプロバイダーを使用したい」\n```bash\ngit-smart-squash --ai-provider openai\n```\n\n## セーフティ\n\n**あなたのコードは安全です：**\n- 変更を行う前に計画を表示\n- 自動バックアップブランチを作成\n- クリーンな作業ディレクトリが必要\n- あなたのコマンドなしにプッシュしません\n\n**もし何か問題が発生した場合：**\n```bash\n# バックアップを探す\ngit branch | grep backup\n\n# 復元",
+    "Status": "ok"
   },
   {
     "Id": 8,
@@ -76,8 +76,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "git reset --hard your-branch-backup-[timestamp]\n```\n\n## AIプロバイダー\n\n| プロバイダー | コスト | プライバシー |\n|--------------|--------|--------------|\n| **Ollama**   | 無料   | ローカル     |\n| **OpenAI**   | 約$0.01 | クラウド     |\n| **Anthropic**| 約$0.01 | クラウド     |\n| **Gemini**   | 約$0.01 | クラウド     |\n\n## 高度な設定（オプション）\n\nカスタマイズしたい場合は、設定ファイルを作成してください：\n\n**プロジェクト固有**（リポジトリ内の`.git-smart-squash.yml`）:\n```yaml\nai:\n  provider: openai  # このプロジェクトではOpenAIを使用\nbase: develop       # このプロジェクトのベースブランチとしてdevelopを使用\n```",
+    "Status": "ok"
   },
   {
     "Id": 9,
@@ -86,8 +86,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "**グローバルデフォルト**（`~/.git-smart-squash.yml`）:\n```yaml\nai:\n  provider: local   # デフォルトで常にローカルAIを使用\nbase: main          # すべてのプロジェクトのデフォルトベースブランチ\n```\n\n## トラブルシューティング\n\n### 「無効なJSON」エラー\nこれは通常、AIモデルがレスポンスを正しくフォーマットできなかったことを意味します。\n- **Ollamaの場合**: `llama2`から`mistral`または`mixtral`に切り替えてください\n- **解決方法**: `ollama pull mistral` を実行してから再試行\n- **代替案**: `--ai-provider openai` を指定してクラウドプロバイダを利用\n\n### モデルが指示に従わない\n一部のモデルは複雑な指示が苦手です。\n- **より良いモデルを使用**: `--model gpt-4-turbo` または `--model claude-3-opus`\n- **指示を簡潔に**: 複数よりも一つの明確な指示が効果的\n- **明示的に伝える**: 「[ABC-123] を前置してください」と伝え、「チケット番号を追加して」ではなく",
+    "Status": "ok"
   },
   {
     "Id": 10,

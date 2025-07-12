@@ -66,8 +66,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### \"Ik wil een specifieke AI-provider gebruiken\"\n```bash\ngit-smart-squash --ai-provider openai\n```\n\n## Veiligheid\n\n**Je code is veilig:**\n- Toont het plan voordat er wijzigingen worden aangebracht\n- Maakt automatisch een back-up branch aan\n- Vereist een schone werkdirectory\n- Nooit pushen zonder jouw opdracht\n\n**Als er iets misgaat:**\n```bash\n# Vind back-up\ngit branch | grep backup\n\n# Herstel",
+    "Status": "ok"
   },
   {
     "Id": 8,
@@ -86,8 +86,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "**Globale standaard** (`~/.git-smart-squash.yml`):\n```yaml\nai:\n  provider: local   # Gebruik standaard altijd lokale AI\nbase: main          # Standaard basisbranch voor alle projecten\n```\n\n## Problemen oplossen\n\n### \"Ongeldige JSON\" Fout\nDit betekent meestal dat het AI-model het antwoord niet goed kon formatteren:\n- **Met Ollama**: Schakel over van `llama2` naar `mistral` of `mixtral`\n- **Oplossing**: `ollama pull mistral` en probeer opnieuw\n- **Alternatief**: Gebruik een cloudprovider met `--ai-provider openai`\n\n### Model Volgt Instructies Niet\nSommige modellen hebben moeite met complexe instructies:\n- **Gebruik betere modellen**: `--model gpt-4-turbo` of `--model claude-3-opus`\n- **Vereenvoudig instructies**: Eén duidelijke opdracht werkt beter dan meerdere\n- **Wees expliciet**: \"Voorzie van prefix [ABC-123]\" in plaats van \"voeg ticketnummer toe\"",
+    "Status": "ok"
   },
   {
     "Id": 10,
@@ -96,8 +96,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### \"Ollama niet gevonden\" \n```bash\n# Installeren vanaf https://ollama.com\nollama serve\nollama pull devstral  # Standaardmodel\n```\n\n### Slechte Commit-Groepering\nAls de AI te veel commits aanmaakt of niet goed groepeert:\n- **Onvoldoende model**: Gebruik een groter model\n- **Voeg instructies toe**: `-i \"Groepeer gerelateerde wijzigingen, maximaal 3 commits\"`\n- **Geef feedback**: Maak een issue aan op GitHub en laat ons weten wat er is gebeurd\n\n### Installatieproblemen (Mac)\nAls je geen pip hebt of geïsoleerde installaties verkiest:\n```bash\n# Gebruik pipx (aanbevolen)\nbrew install pipx\npipx install git-smart-squash\n```",
+    "Status": "ok"
   },
   {
     "Id": 11,
@@ -106,7 +106,7 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### \"Geen wijzigingen om te reorganiseren\"\n```bash\ngit log --oneline main..HEAD  # Controleer of je commits hebt\ngit diff main                 # Controleer of je wijzigingen hebt\n```\n\n### Grote Diffs / Tokenlimieten\nLokale modellen hebben een tokenlimiet van ongeveer 32k. Voor grote wijzigingen:\n- Gebruik `--base` met een recentere commit\n- Schakel over naar de cloud: `--ai-provider openai`\n- Splits op in kleinere PR's\n\n### Meer hulp nodig?\n\nBekijk onze [uitgebreide documentatie](https://raw.githubusercontent.com/edverma/git-smart-squash/main/DOCUMENTATION.md) of open een issue!\n\n## Licentie\n\nMIT-licentie - zie het [LICENSE](LICENSE)-bestand voor details.",
+    "Status": "ok"
   }
 ]

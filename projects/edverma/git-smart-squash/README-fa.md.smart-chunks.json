@@ -6,8 +6,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# گیت اسمارت اسکوایش\n\nدیگر وقت خود را صرف بازچینی دستی کامیت‌ها نکنید. اجازه دهید هوش مصنوعی این کار را برای شما انجام دهد.\n\n## مشکل\n\nاحتمالاً برای شما هم پیش آمده است: ۱۵ کامیت برای یک فیچر، که نیمی از آن‌ها \"fix\"، \"typo\" یا \"WIP\" هستند. حالا باید برای بازبینی PR آن را پاک‌سازی کنید. اسکوایش و بازنویسی دستی کار خسته‌کننده‌ای است.\n\n## راه حل\n\nگیت اسمارت اسکوایش تغییرات شما را تحلیل کرده و آن‌ها را به کامیت‌های منطقی با پیام‌های مناسب بازچینی می‌کند:\n\n```bash\n# قبل: شاخه‌ی درهم‌ریخته شما\n* fix tests\n* typo  \n* more auth changes\n* WIP: working on auth\n* update tests\n* initial auth implementation\n```",
+    "Status": "ok"
   },
   {
     "Id": 2,
@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# بعد: کامیت‌های تمیز و منطقی\n* feat: پیاده‌سازی سیستم احراز هویت JWT\n* test: افزودن پوشش تست برای endpoint احراز هویت\n```\n\n## شروع سریع\n\n### ۱. نصب\n\n```bash\n# با استفاده از pip\npip install git-smart-squash\n\n# با استفاده از pipx (توصیه‌شده برای نصب ایزوله)\npipx install git-smart-squash\n\n# با استفاده از uv (مدیر بسته سریع پایتون)\nuv tool install git-smart-squash\n```",
+    "Status": "ok"
   },
   {
     "Id": 3,
@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### 2. راه‌اندازی هوش مصنوعی\n\n**گزینه الف: محلی (رایگان، خصوصی)**\n```bash\n# نصب Ollama از https://ollama.com\nollama pull devstral  # مدل پیش‌فرض\n```\n\n**گزینه ب: ابری (نتایج بهتر)**\n```bash\nexport OPENAI_API_KEY=\"your-key\"\nexport ANTHROPIC_API_KEY=\"your-key\"\nexport GEMINI_API_KEY=\"your-key\"\n```\n\n### 3. اجرا\n\n```bash\ncd your-repo\ngit-smart-squash\n```",
+    "Status": "ok"
   },
   {
     "Id": 4,
@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### انتخاب مدل\n```bash\n# مشخص کردن یک مدل متفاوت\ngit-smart-squash --ai-provider openai --model gpt-4.1-mini\n\n# برای Ollama محلی\ngit-smart-squash --ai-provider local --model llama-3.1\n```\n\n## دستورالعمل‌های سفارشی\n\nپارامتر `--instructions` به شما اجازه می‌دهد تا نحوه سازماندهی کامیت‌ها را کنترل کنید:\n\n### مثال‌ها\n```bash\n# افزودن پیشوند تیکت\ngit-smart-squash -i \"تمام کامیت‌ها را با [ABC-1234] پیشوندگذاری کن\"\n\n# جداسازی بر اساس نوع\ngit-smart-squash -i \"تغییرات بک‌اند و فرانت‌اند را در کامیت‌های جداگانه نگه دار\"\n```",
+    "Status": "ok"
   },
   {
     "Id": 6,
@@ -66,8 +66,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### \"می‌خواهم از یک ارائه‌دهنده هوش مصنوعی خاص استفاده کنم\"\n```bash\ngit-smart-squash --ai-provider openai\n```\n\n## ایمنی\n\n**کد شما ایمن است:**\n- قبل از اعمال تغییرات، طرح را نمایش می‌دهد\n- شاخه پشتیبان خودکار ایجاد می‌کند\n- نیاز به دایرکتوری کاری پاک دارد\n- هرگز بدون فرمان شما پوش نمی‌کند\n\n**اگر مشکلی پیش آمد:**\n```bash\n# یافتن پشتیبان\ngit branch | grep backup\n\n# بازیابی",
+    "Status": "ok"
   },
   {
     "Id": 8,

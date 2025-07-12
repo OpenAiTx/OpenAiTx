@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# หลังจากนั้น: คอมมิตที่สะอาดและเป็นลำดับ\n\n* feat: implement JWT authentication system\n* test: add auth endpoint coverage\n```\n\n## เริ่มต้นอย่างรวดเร็ว\n\n### 1. ติดตั้ง\n\n```bash\n# ใช้ pip\npip install git-smart-squash\n\n# ใช้ pipx (แนะนำสำหรับการติดตั้งแยก)\npipx install git-smart-squash\n\n# ใช้ uv (ตัวจัดการแพ็กเกจ Python ที่รวดเร็ว)\nuv tool install git-smart-squash\n```",
+    "Status": "ok"
   },
   {
     "Id": 3,
@@ -56,8 +56,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# จำกัดจำนวนคอมมิต\ngit-smart-squash -i \"สร้างคอมมิตรวมไม่เกิน 3 คอมมิตทั้งหมด\"\n```\n\n### เคล็ดลับเพื่อผลลัพธ์ที่ดียิ่งขึ้น\n- **ระบุให้ชัดเจน**: \"จัดกลุ่ม migration ของฐานข้อมูลแยกกัน\" จะได้ผลดีกว่า \"จัดระเบียบให้ดูดี\"\n- **ทีละคำสั่ง**: คำสั่งที่ซับซ้อนหรือหลายส่วนในครั้งเดียวอาจถูกละเลยบางส่วน\n- **ใช้โมเดลที่ดีกว่า**: โมเดลขนาดใหญ่จะปฏิบัติตามคำสั่งได้แม่นยำกว่าโมเดลขนาดเล็ก\n\n## กรณีใช้งานทั่วไป\n\n### \"ฉันต้องการจัดระเบียบก่อนรีวิว PR\"\n```bash\ngit-smart-squash              # แสดงแผนและขอการยืนยันก่อนดำเนินการ\ngit-smart-squash --auto-apply # ดำเนินการอัตโนมัติโดยไม่ขอการยืนยัน\n```\n\n### \"ฉันทำงานกับ branch หลักที่แตกต่างออกไป\"\n```bash\ngit-smart-squash --base develop\n```",
+    "Status": "ok"
   },
   {
     "Id": 7,
@@ -76,8 +76,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "git reset --hard your-branch-backup-[timestamp]\n```\n\n## ผู้ให้บริการ AI\n\n| ผู้ให้บริการ | ค่าใช้จ่าย | ความเป็นส่วนตัว |\n|--------------|------------|-----------------|\n| **Ollama**   | ฟรี        | ในเครื่อง       |\n| **OpenAI**   | ~0.01 ดอลลาร์ | คลาวด์        |\n| **Anthropic**| ~0.01 ดอลลาร์ | คลาวด์        |\n| **Gemini**   | ~0.01 ดอลลาร์ | คลาวด์        |\n\n## การตั้งค่าขั้นสูง (ไม่บังคับ)\n\nต้องการปรับแต่งเพิ่มเติม? สร้างไฟล์ config:\n\n**สำหรับโปรเจกต์** (`.git-smart-squash.yml` ใน repo ของคุณ):\n```yaml\nai:\n  provider: openai  # ใช้ OpenAI สำหรับโปรเจกต์นี้\nbase: develop       # ใช้ develop เป็น base branch สำหรับโปรเจกต์นี้\n```",
+    "Status": "ok"
   },
   {
     "Id": 9,
@@ -96,8 +96,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### \"ไม่พบ Ollama\"\n```bash\n# ติดตั้งจาก https://ollama.com\nollama serve\nollama pull devstral  # โมเดลเริ่มต้น\n```\n\n### การจัดกลุ่ม Commit ไม่ดี\nหาก AI สร้าง commit มากเกินไปหรือจัดกลุ่มไม่ดี:\n- **โมเดลไม่เพียงพอ**: ใช้โมเดลที่ใหญ่ขึ้น\n- **เพิ่มคำแนะนำ**: `-i \"Group related changes, max 3 commits\"`\n- **ให้ข้อเสนอแนะ**: สร้าง issue บน GitHub และแจ้งให้เราทราบว่าเกิดอะไรขึ้น\n\n### ปัญหาการติดตั้ง (Mac)\nหากคุณไม่มี pip หรือชอบการติดตั้งแบบแยก:\n```bash\n# ใช้ pipx (แนะนำ)\nbrew install pipx\npipx install git-smart-squash\n```",
+    "Status": "ok"
   },
   {
     "Id": 11,
@@ -106,7 +106,7 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### \"ไม่มีการเปลี่ยนแปลงให้จัดระเบียบใหม่\"\n```bash\ngit log --oneline main..HEAD  # ตรวจสอบว่าคุณมีคอมมิตหรือไม่\ngit diff main                 # ตรวจสอบว่าคุณมีการเปลี่ยนแปลงหรือไม่\n```\n\n### Diff ขนาดใหญ่ / ขีดจำกัดโทเค็น\nโมเดลแบบโลคัลมีขีดจำกัดประมาณ 32k โทเค็น สำหรับการเปลี่ยนแปลงขนาดใหญ่:\n- ใช้ `--base` กับคอมมิตที่ใหม่กว่า\n- เปลี่ยนไปใช้คลาวด์: `--ai-provider openai`\n- แยกเป็น PR ขนาดเล็กลง\n\n### ต้องการความช่วยเหลือเพิ่มเติม?\n\nดู [เอกสารประกอบแบบละเอียด](https://raw.githubusercontent.com/edverma/git-smart-squash/main/DOCUMENTATION.md) หรือเปิด issue ได้เลย!\n\n## ใบอนุญาต\n\nสัญญาอนุญาต MIT - ดูรายละเอียดได้ที่ไฟล์ [LICENSE](LICENSE)",
+    "Status": "ok"
   }
 ]

@@ -86,8 +86,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "**全局默认**（`~/.git-smart-squash.yml`）:\n```yaml\nai:\n  provider: local   # 默认始终使用本地AI\nbase: main          # 所有项目的默认基础分支\n```\n\n## 故障排查\n\n### “无效的 JSON” 错误\n这通常意味着 AI 模型未能正确格式化响应内容：\n- **对于 Ollama**：将 `llama2` 切换为 `mistral` 或 `mixtral`\n- **解决方法**：运行 `ollama pull mistral` 后重试\n- **替代方案**：使用带有 `--ai-provider openai` 的云服务商\n\n### 模型未遵循指令\n某些模型难以处理复杂指令：\n- **使用更优的模型**：`--model gpt-4-turbo` 或 `--model claude-3-opus`\n- **简化指令**：单一且明确的指令效果更好\n- **明确表达**：“前缀加上 [ABC-123]” 比 “添加工单号” 更清楚",
+    "Status": "ok"
   },
   {
     "Id": 10,
@@ -96,8 +96,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### “未找到 Ollama”\n```bash\n# 从 https://ollama.com 安装\nollama serve\nollama pull devstral  # 默认模型\n```\n\n### 提交分组不佳\n如果 AI 创建了太多提交或分组不合理：\n- **模型不足**：使用更大的模型\n- **添加指令**：`-i \"将相关更改分组，最多 3 个提交\"`\n- **提供反馈**：在 GitHub 上创建 issue 并告知我们发生了什么\n\n### 安装问题（Mac）\n如果你没有 pip 或者更喜欢隔离安装：\n```bash\n# 使用 pipx（推荐）\nbrew install pipx\npipx install git-smart-squash\n```",
+    "Status": "ok"
   },
   {
     "Id": 11,

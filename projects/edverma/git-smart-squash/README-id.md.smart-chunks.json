@@ -6,8 +6,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# Git Smart Squash\n\nBerhenti membuang waktu untuk mengatur ulang commit secara manual. Biarkan AI yang melakukannya untuk Anda.\n\n## Masalah\n\nAnda pasti pernah mengalaminya: 15 commit untuk satu fitur, setengahnya berisi \"fix\", \"typo\", atau \"WIP\". Sekarang Anda perlu membersihkannya untuk review PR. Melakukan squash dan menulis ulang secara manual itu melelahkan.\n\n## Solusi\n\nGit Smart Squash menganalisis perubahan Anda dan mengaturnya kembali menjadi commit yang logis dengan pesan yang tepat:\n\n```bash\n# Sebelum: branch Anda yang berantakan\n* fix tests\n* typo  \n* more auth changes\n* WIP: working on auth\n* update tests\n* initial auth implementation\n```",
+    "Status": "ok"
   },
   {
     "Id": 2,
@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# Setelah: commit yang bersih dan logis\n* feat: implementasi sistem otentikasi JWT\n* test: tambah cakupan endpoint auth\n```\n\n## Mulai Cepat\n\n### 1. Instalasi\n\n```bash\n# Menggunakan pip\npip install git-smart-squash\n\n# Menggunakan pipx (disarankan untuk instalasi terisolasi)\npipx install git-smart-squash\n\n# Menggunakan uv (manajer paket Python yang cepat)\nuv tool install git-smart-squash\n```",
+    "Status": "ok"
   },
   {
     "Id": 3,
@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### 2. Siapkan AI\n\n**Opsi A: Lokal (Gratis, Privat)**\n```bash\n# Instal Ollama dari https://ollama.com\nollama pull devstral  # Model default\n```\n\n**Opsi B: Cloud (Hasil lebih baik)**\n```bash\nexport OPENAI_API_KEY=\"kunci-anda\"\nexport ANTHROPIC_API_KEY=\"kunci-anda\"\nexport GEMINI_API_KEY=\"kunci-anda\"\n```\n\n### 3. Jalankan\n\n```bash\ncd repo-anda\ngit-smart-squash\n```",
+    "Status": "ok"
   },
   {
     "Id": 4,
@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### Pemilihan Model\n```bash\n# Tentukan model yang berbeda\ngit-smart-squash --ai-provider openai --model gpt-4.1-mini\n\n# Untuk Ollama lokal\ngit-smart-squash --ai-provider local --model llama-3.1\n```\n\n## Instruksi Kustom\n\nParameter `--instructions` memungkinkan Anda mengontrol bagaimana commit diatur:\n\n### Contoh\n```bash\n# Tambahkan prefiks tiket\ngit-smart-squash -i \"Prefix semua commit dengan [ABC-1234]\"\n\n# Pisahkan berdasarkan tipe\ngit-smart-squash -i \"Pisahkan perubahan backend dan frontend dalam commit terpisah\"\n```",
+    "Status": "ok"
   },
   {
     "Id": 6,
@@ -76,8 +76,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "git reset --hard your-branch-backup-[timestamp]\n```\n\n## Penyedia AI\n\n| Penyedia | Biaya | Privasi |\n|----------|-------|---------|\n| **Ollama** | Gratis | Lokal |\n| **OpenAI** | ~US$0,01 | Cloud |\n| **Anthropic** | ~US$0,01 | Cloud |\n| **Gemini** | ~US$0,01 | Cloud |\n\n## Konfigurasi Lanjutan (Opsional)\n\nIngin menyesuaikan? Buat file konfigurasi:\n\n**Khusus Proyek** (`.git-smart-squash.yml` di repo Anda):\n```yaml\nai:\n  provider: openai  # Gunakan OpenAI untuk proyek ini\nbase: develop       # Gunakan develop sebagai branch dasar untuk proyek ini\n```",
+    "Status": "ok"
   },
   {
     "Id": 9,
