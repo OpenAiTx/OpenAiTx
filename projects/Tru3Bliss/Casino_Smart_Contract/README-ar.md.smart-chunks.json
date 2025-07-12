@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "---\n\n## ⚡ البدء السريع\n\n### 🏗️ بناء البرنامج\n\nترجمة عقد Anchor الذكي:\n\n```bash\n# بناء برنامج Anchor باستخدام أداة السلسلة الليلية\nRUSTUP_TOOLCHAIN=\"nightly-2024-11-19\" anchor build\n\n# مزامنة جميع المفاتيح العامة للبرنامج\nanchor keys sync\n\n# إعادة البناء إذا تغير عنوان البرنامج في lib.rs\nRUSTUP_TOOLCHAIN=\"nightly-2024-11-19\" anchor build\n```\n\n---",
+    "Status": "ok"
   },
   {
     "Id": 4,
@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### 🧪 الاختبار على Devnet\n\nتأكد من أن ملف `Anchor.toml` يستخدم Devnet:\n\n```toml\n[provider]\ncluster = \"https://api.devnet.solana.com\"\n```\n\n---\n\n### 🚀 نشر البرنامج\n\n```bash\nanchor deploy\n```\n\n---\n\n## 🧪 استخدام CLI للتفاعل مع البرنامج",
+    "Status": "ok"
   },
   {
     "Id": 5,

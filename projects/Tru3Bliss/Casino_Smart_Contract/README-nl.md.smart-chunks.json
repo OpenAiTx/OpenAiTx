@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### 🧪 Test op Devnet\n\nZorg ervoor dat je `Anchor.toml` Devnet gebruikt:\n\n```toml\n[provider]\ncluster = \"https://api.devnet.solana.com\"\n```\n\n---\n\n### 🚀 Deploy het Programma\n\n```bash\nanchor deploy\n```\n\n---\n\n## 🧪 Gebruik CLI om met het Programma te Interageren",
+    "Status": "ok"
   },
   {
     "Id": 5,
@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "Gebruik deze CLI-scripts om lokaal met je smart contract te communiceren.\n\n---\n\n### 🔹 Initialiseer het Programma\n\n```bash\nyarn script config\n```\n\nInitialiseert de contractconfiguratie.\n\n---\n\n### 🔹 Maak een Ronde aan\n\n```bash\nyarn script create -t <RONDE_TIJD> -d <MINIMAAL_STORTINGSBEDRAG> -j <MAXIMUM_AANTAL_DEELNEMERS>\n",
+    "Status": "ok"
   },
   {
     "Id": 6,

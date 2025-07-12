@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "---\n\n## ⚡ Szybki start\n\n### 🏗️ Budowanie programu\n\nSkompiluj smart kontrakt Anchor:\n\n```bash\n# Zbuduj program Anchor używając toolchainu nightly\nRUSTUP_TOOLCHAIN=\"nightly-2024-11-19\" anchor build\n\n# Synchronizuj wszystkie publiczne klucze programów\nanchor keys sync\n\n# Przebuduj, jeśli adres programu w pliku lib.rs został zmieniony\nRUSTUP_TOOLCHAIN=\"nightly-2024-11-19\" anchor build\n```\n\n---",
+    "Status": "ok"
   },
   {
     "Id": 4,

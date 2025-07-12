@@ -56,8 +56,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# Contoh:\nyarn script create -t 60 -d 100000000 -j 100\n```\n\n**Parameter:**\n\n- `<ROUND_TIME>`: Durasi ronde dalam detik (misal, `60` = 60 detik).\n- `<MIN_DEPOSIT_AMOUNT>`: Setoran minimum dalam lamports (1 SOL = 1_000_000_000). Harus lebih besar dari `config.TEST_INITIAL_MIN_DEPOSIT_AMOUNT`.\n- `<MAX_JOINER_COUNT>`: Jumlah maksimum peserta. Harus kurang dari `config.TEST_INITIAL_MAX_JOINER_COUNT`.\n\n---\n\n### 🔹 Bergabung ke Ronde\n\n```bash\nyarn script join -a <DEPOSIT_SOL_AMOUNT> -g <ROUND_NUMBER>\n\n# Contoh:\nyarn script join -a 100000000 -g 2\n```",
+    "Status": "ok"
   },
   {
     "Id": 7,

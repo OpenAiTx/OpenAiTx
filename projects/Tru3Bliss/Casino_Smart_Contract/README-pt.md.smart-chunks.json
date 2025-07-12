@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "---\n\n## 🔐 Configuração da Carteira\n\nGere e gerencie as chaves da sua carteira:\n\n```bash\nsolana-keygen new -o ./keys/admin.json     # Gerar um novo par de chaves\nsolana-keygen pubkey ./keys/admin.json     # Obter a chave pública\nsolana balance ./keys/admin.json           # Verificar o saldo da carteira\nsolana airdrop 5 SEU_ENDEREÇO_DA_CARTEIRA -u devnet   # Airdrop de 5 SOL para sua carteira\n```\n\n---\n\n## 📦 Instalação do Projeto\n\nClone o projeto e instale as dependências:\n\n```bash\ngit clone https://github.com/project-repo.git\ncd project-folder\nyarn\n```",
+    "Status": "ok"
   },
   {
     "Id": 3,
@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "---\n\n## ⚡ Início Rápido\n\n### 🏗️ Compile o Programa\n\nCompile o contrato inteligente Anchor:\n\n```bash\n# Compile o programa Anchor usando a ferramenta nightly\nRUSTUP_TOOLCHAIN=\"nightly-2024-11-19\" anchor build\n\n# Sincronize todas as chaves públicas do programa\nanchor keys sync\n\n# Recompile se o endereço do programa em lib.rs tiver mudado\nRUSTUP_TOOLCHAIN=\"nightly-2024-11-19\" anchor build\n```\n\n---",
+    "Status": "ok"
   },
   {
     "Id": 4,
@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### 🧪 Testar na Devnet\n\nGaranta que seu `Anchor.toml` use a Devnet:\n\n```toml\n[provider]\ncluster = \"https://api.devnet.solana.com\"\n```\n\n---\n\n### 🚀 Implantar o Programa\n\n```bash\nanchor deploy\n```\n\n---\n\n## 🧪 Usar o CLI para Interagir com o Programa",
+    "Status": "ok"
   },
   {
     "Id": 5,

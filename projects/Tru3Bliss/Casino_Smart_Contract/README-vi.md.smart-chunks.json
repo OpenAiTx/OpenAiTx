@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### 🧪 Kiểm tra trên Devnet\n\nĐảm bảo `Anchor.toml` của bạn sử dụng Devnet:\n\n```toml\n[provider]\ncluster = \"https://api.devnet.solana.com\"\n```\n\n---\n\n### 🚀 Triển khai Chương trình\n\n```bash\nanchor deploy\n```\n\n---\n\n## 🧪 Sử dụng CLI để Tương tác với Chương trình",
+    "Status": "ok"
   },
   {
     "Id": 5,
@@ -46,8 +46,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "Sử dụng các script CLI này để tương tác với hợp đồng thông minh của bạn tại địa phương.\n\n---\n\n### 🔹 Khởi tạo Chương trình\n\n```bash\nyarn script config\n```\n\nKhởi tạo cấu hình hợp đồng.\n\n---\n\n### 🔹 Tạo một Vòng chơi\n\n```bash\nyarn script create -t <ROUND_TIME> -d <MIN_DEPOSIT_AMOUNT> -j <MAX_JOINER_COUNT>\n```",
+    "Status": "ok"
   },
   {
     "Id": 6,
