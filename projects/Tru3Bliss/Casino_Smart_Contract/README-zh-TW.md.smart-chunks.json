@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 🎯 Project Setup Guide\n\nWelcome to the project! This guide will help you quickly get started by installing the required tools and configuring your local environment.\n\n---\n\n## 🛠️ Prerequisites\n\nEnsure the following tools are installed on your system:\n\n- [Rust](https://www.rust-lang.org/tools/install)\n- [Solana CLI](https://docs.solana.com/cli/install-solana-cli-tools)\n- [Anchor](https://anchor-lang.com/docs/installation)\n\n> ℹ️ **Recommended Anchor version:** `0.30.1`\n\n---\n\n## ✅ Check Versions & Set Config\n\nVerify that everything is properly installed and configured:\n\n```bash\nrustc --version             # Check Rust version\nsolana --version            # Check Solana CLI version\nanchor --version            # Check Anchor version\n\nsolana config get           # View current Solana config\nsolana config set --url devnet  # Set network to devnet\n```",
+    "ContentSha": "58ta/Lha5uNOixFhEsqgq1z+nAth/qcs+uizeDFN9jg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 🎯 專案設定指南\n\n歡迎加入本專案！本指南將協助你快速開始，安裝所需工具並配置你的本地環境。\n\n---\n\n## 🛠️ 先決條件\n\n請確保你的系統已安裝以下工具：\n\n- [Rust](https://www.rust-lang.org/tools/install)\n- [Solana CLI](https://docs.solana.com/cli/install-solana-cli-tools)\n- [Anchor](https://anchor-lang.com/docs/installation)\n\n> ℹ️ **建議 Anchor 版本：** `0.30.1`\n\n---\n\n## ✅ 檢查版本與設置配置\n\n確認所有工具已正確安裝並配置：\n\n```bash\nrustc --version             # 檢查 Rust 版本\nsolana --version            # 檢查 Solana CLI 版本\nanchor --version            # 檢查 Anchor 版本\n\nsolana config get           # 檢視目前 Solana 配置\nsolana config set --url devnet  # 將網路設為 devnet\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 2,
+    "Content": "\n---\n\n## 🔐 Wallet Setup\n\nGenerate and manage your wallet keys:\n\n```bash\nsolana-keygen new -o ./keys/admin.json     # Generate a new keypair\nsolana-keygen pubkey ./keys/admin.json     # Get public key\nsolana balance ./keys/admin.json           # Check wallet balance\nsolana airdrop 5 YOUR_WALLET_ADDRESS -u devnet   # Airdrop 5 SOL to your wallet\n```\n\n---\n\n## 📦 Project Installation\n\nClone the project and install dependencies:\n\n```bash\ngit clone https://github.com/project-repo.git\ncd project-folder\nyarn\n```",
+    "ContentSha": "kA8XdCQ9aLeDTUWEre5qFPWY7mq6/IE5d4zShtwU7Uk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "---\n\n## 🔐 錢包設定\n\n產生並管理您的錢包金鑰：\n\n```bash\nsolana-keygen new -o ./keys/admin.json     # 產生新的金鑰對\nsolana-keygen pubkey ./keys/admin.json     # 取得公開金鑰\nsolana balance ./keys/admin.json           # 查詢錢包餘額\nsolana airdrop 5 YOUR_WALLET_ADDRESS -u devnet   # 向您的錢包空投 5 SOL\n```\n\n---\n\n## 📦 專案安裝\n\n複製專案並安裝相依套件：\n\n```bash\ngit clone https://github.com/project-repo.git\ncd project-folder\nyarn\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 3,
+    "Content": "\n---\n\n## ⚡ Quick Start\n\n### 🏗️ Build the Program\n\nCompile the Anchor smart contract:\n\n```bash\n# Build the Anchor program using nightly toolchain\nRUSTUP_TOOLCHAIN=\"nightly-2024-11-19\" anchor build\n\n# Sync all program public keys\nanchor keys sync\n\n# Rebuild if the program address in lib.rs has changed\nRUSTUP_TOOLCHAIN=\"nightly-2024-11-19\" anchor build\n```\n\n---\n",
+    "ContentSha": "0dTJUmBRGC2V7BLFhnqYfnEgogW3ZL32JyELDDStRKo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "---\n\n## ⚡ 快速開始\n\n### 🏗️ 建置程式\n\n編譯 Anchor 智能合約：\n\n```bash\n# 使用 nightly 工具鏈建置 Anchor 程式\nRUSTUP_TOOLCHAIN=\"nightly-2024-11-19\" anchor build\n\n# 同步所有程式公鑰\nanchor keys sync\n\n# 如果 lib.rs 中的程式地址有變更，請重新建置\nRUSTUP_TOOLCHAIN=\"nightly-2024-11-19\" anchor build\n```\n\n---",
+    "Status": "ok"
+  },
+  {
+    "Id": 4,
+    "Content": "### 🧪 Test on Devnet\n\nEnsure your `Anchor.toml` uses Devnet:\n\n```toml\n[provider]\ncluster = \"https://api.devnet.solana.com\"\n```\n\n---\n\n### 🚀 Deploy the Program\n\n```bash\nanchor deploy\n```\n\n---\n\n## 🧪 Use CLI to Interact with the Program",
+    "ContentSha": "4moA26Cidh+x8FPfiKAAqGuzFu1lZqi9qzY5TEqWnUM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "error"
+  },
+  {
+    "Id": 5,
+    "Content": "\nUse these CLI scripts to interact with your smart contract locally.\n\n---\n\n### 🔹 Initialize the Program\n\n```bash\nyarn script config\n```\n\nInitializes the contract configuration.\n\n---\n\n### 🔹 Create a Round\n\n```bash\nyarn script create -t <ROUND_TIME> -d <MIN_DEPOSIT_AMOUNT> -j <MAX_JOINER_COUNT>\n",
+    "ContentSha": "cJxU2seDI3kJdfOxGDERf3TQe+8hfEv5NKNfPzUvTCg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "使用這些 CLI 指令碼在本地與您的智慧合約互動。\n\n---\n\n### 🔹 初始化程式\n\n```bash\nyarn script config\n```\n\n初始化合約設定。\n\n---\n\n### 🔹 建立一個回合\n\n```bash\nyarn script create -t <ROUND_TIME> -d <MIN_DEPOSIT_AMOUNT> -j <MAX_JOINER_COUNT>\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 6,
+    "Content": "# Example:\nyarn script create -t 60 -d 100000000 -j 100\n```\n\n**Parameters:**\n\n- `<ROUND_TIME>`: Duration of the round in seconds (e.g., `60` = 60s).\n- `<MIN_DEPOSIT_AMOUNT>`: Minimum deposit in lamports (1 SOL = 1_000_000_000). Must be greater than `config.TEST_INITIAL_MIN_DEPOSIT_AMOUNT`.\n- `<MAX_JOINER_COUNT>`: Maximum number of participants. Must be less than `config.TEST_INITIAL_MAX_JOINER_COUNT`.\n\n---\n\n### 🔹 Join a Round\n\n```bash\nyarn script join -a <DEPOSIT_SOL_AMOUNT> -g <ROUND_NUMBER>\n\n# Example:\nyarn script join -a 100000000 -g 2\n```",
+    "ContentSha": "XY8SJE7JMOJAsdl48nMNMbL7M8okb0Hlj6Jj/5NRFPI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 範例：\nyarn script create -t 60 -d 100000000 -j 100\n```\n\n**參數說明：**\n\n- `<ROUND_TIME>`：每輪持續時間（秒），例如 `60` 表示 60 秒。\n- `<MIN_DEPOSIT_AMOUNT>`：最小存款額（單位 lamports，1 SOL = 1_000_000_000）。必須大於 `config.TEST_INITIAL_MIN_DEPOSIT_AMOUNT`。\n- `<MAX_JOINER_COUNT>`：參與者最大人數。必須小於 `config.TEST_INITIAL_MAX_JOINER_COUNT`。\n\n---\n\n### 🔹 加入一輪\n\n```bash\nyarn script join -a <DEPOSIT_SOL_AMOUNT> -g <ROUND_NUMBER>\n\n# 範例：\nyarn script join -a 100000000 -g 2\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 7,
+    "Content": "\n**Parameters:**\n\n- `<DEPOSIT_SOL_AMOUNT>`: Deposit amount in lamports (e.g., 0.1 SOL = 100_000_000).\n- `<ROUND_NUMBER>`: Index of the round to join. Starts from `0`. Must be less than `total_round`.\n\n> 🕒 Note: The countdown for the round starts when the second participant joins.\n\n---\n\n### 🔹 Select Winner\n\n```bash\nyarn script winner -g <ROUND_NUMBER>\n\n# Example:\nyarn script winner -g 2\n```\n\n**Note:** Only call this after the round time has fully elapsed.\n\n---\n",
+    "ContentSha": "tphZWsjhzY7LTk7u2SLeSqvFnxJ6zCG9RfbbUa8EWQs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**參數：**\n\n- `<DEPOSIT_SOL_AMOUNT>`：存款金額，以 lamports 為單位（例如：0.1 SOL = 100_000_000）。\n- `<ROUND_NUMBER>`：要參加的回合索引。從 `0` 開始。必須小於 `total_round`。\n\n> 🕒 注意：該回合的倒數計時會在第二位參與者加入時開始。\n\n---\n\n### 🔹 選擇贏家\n\n```bash\nyarn script winner -g <ROUND_NUMBER>\n\n# 範例：\nyarn script winner -g 2\n```\n\n**注意：** 僅可在該回合時間完全結束後呼叫此指令。\n\n---",
+    "Status": "ok"
+  },
+  {
+    "Id": 8,
+    "Content": "### 🔹 Claim Winnings\n\n```bash\nyarn script claim -g <ROUND_NUMBER>\n\n# Example:\nyarn script claim -g 2\n```\n\n**Note:** This must be run by the winning wallet after the winner has been selected.\n\n---\n\n## Contact\n\nFor questions or inquiries about Solana smart contract development, DeFi implementation, or DEX integration, please reach out to the project maintainers.\n\n**Telegram**: [@Tru3B1iss](https://t.me/Tru3B1iss)\n**X (Twitter)**: [@XTruebliss](https://x.com/XTruebliss)\n**Discord**: [@trueb1iss](https://discord.com/users/1274339638668038187)\n",
+    "ContentSha": "m5BE4dljADXL5fJUyLeVqKZCGWdj40xQnNCbGYmJ4oE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 🔹 領取獎金\n\n```bash\nyarn script claim -g <ROUND_NUMBER>\n\n# 範例：\nyarn script claim -g 2\n```\n\n**注意：** 這必須由中獎錢包在選出贏家後執行。\n\n---\n\n## 聯絡方式\n\n如有關於 Solana 智能合約開發、DeFi 實作或 DEX 整合的問題或諮詢，請聯絡專案維護者。\n\n**Telegram**: [@Tru3B1iss](https://t.me/Tru3B1iss)\n**X (Twitter)**: [@XTruebliss](https://x.com/XTruebliss)\n**Discord**: [@trueb1iss](https://discord.com/users/1274339638668038187)\n",
+    "Status": "ok"
+  }
+]

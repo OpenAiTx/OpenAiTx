@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Ansible Role: [Adaptix C2](https://adaptix-framework.gitbook.io/adaptix-framework) ([Ludus](https://ludus.cloud))\n\nAn Ansible Role that installs [Adaptix Framework](https://adaptix-framework.gitbook.io/adaptix-framework) server and/or client and all [Extensions](https://github.com/Adaptix-Framework/Extension-Kit) on a Debian based Linux host.\n\n![Adaptix Framework](https://raw.githubusercontent.com/badsectorlabs/ludus_adaptix_c2/main/docs/adaptix.png)\n\n## Usage\n\nBy default the server listens on port `4321` and endpoint `/endpoint` with password `pass`. Any username is accepted. You can change these with role variables, see below.\n\nOn the client machine, run the command `adaptixclient` to start the GUI, and then log into the server using the settings above (unless changed via variables).\n\n## Requirements\n\nNone.\n\n## Role Variables\n\nAvailable variables are listed below, along with default values (see `defaults/main.yml`):\n\n    ludus_adaptix_c2_version: 3af8e10c8c2d7d48e3636f48b0f9c80da4d6015d # 0.5 2024-05-28\n    ludus_adaptix_c2_install_server: false # Set this or the one below to true or the role won't do anything!\n    ludus_adaptix_c2_install_client: false\n    ludus_adaptix_c2_profile_url:\n    ludus_adaptix_c2_profile_raw:\n    ludus_adaptix_c2_server_args: # -debug can be used here\n    ludus_adaptix_c2_go_version: 1.24.3\n    # All options below are for the Adaptix GUI clients to connect to the server, not a c2 agent",
+    "ContentSha": "6pT/QaObfA3B/IFzyoo/KOBf/z0A0uHaBf5vpgVGWqY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Ansible 角色: [Adaptix C2](https://adaptix-framework.gitbook.io/adaptix-framework) ([Ludus](https://ludus.cloud))\n\n一个 Ansible 角色，用于在基于 Debian 的 Linux 主机上安装 [Adaptix Framework](https://adaptix-framework.gitbook.io/adaptix-framework) 服务器和/或客户端及所有 [扩展](https://github.com/Adaptix-Framework/Extension-Kit)。\n\n![Adaptix Framework](https://raw.githubusercontent.com/badsectorlabs/ludus_adaptix_c2/main/docs/adaptix.png)\n\n## 用法\n\n默认情况下，服务器监听端口为 `4321`，端点为 `/endpoint`，密码为 `pass`。接受任意用户名。你可以通过角色变量更改这些设置，见下文。\n\n在客户端机器上，运行命令 `adaptixclient` 启动 GUI，然后使用上述设置（如果没有通过变量更改）登录服务器。\n\n## 要求\n\n无。\n\n## 角色变量\n\n可用变量如下所示，以及默认值（见 `defaults/main.yml`）：\n\n    ludus_adaptix_c2_version: 3af8e10c8c2d7d48e3636f48b0f9c80da4d6015d # 0.5 2024-05-28\n    ludus_adaptix_c2_install_server: false # 若不将此项或下方一项设为 true，角色不会执行任何操作！\n    ludus_adaptix_c2_install_client: false\n    ludus_adaptix_c2_profile_url:\n    ludus_adaptix_c2_profile_raw:\n    ludus_adaptix_c2_server_args: # 可在此处使用 -debug\n    ludus_adaptix_c2_go_version: 1.24.3\n    # 下方所有选项均用于 Adaptix GUI 客户端连接服务器，而非 c2 agent",
+    "Status": "ok"
+  },
+  {
+    "Id": 2,
+    "Content": "    ludus_adaptix_c2_port: 4321\n    ludus_adaptix_c2_endpoint: /endpoint\n    ludus_adaptix_c2_password: pass\n    ludus_adaptix_c2_generate_certificate: true\n    ludus_adaptix_c2_common_name: localhost\n    ludus_adaptix_c2_organization_name: Adaptix C2\n    ludus_adaptix_c2_subject_alt_name_array: \"DNS:localhost,DNS:127.0.0.1,DNS:::1\"\n\n## Dependencies\n\nNone.\n\n## Example Playbook\n\n```yaml\n- hosts: adaptix_server_host\n  roles:\n    - badsectorlabs.ludus_adaptix_c2\n  vars:\n    ludus_adaptix_c2_install_server: true\n\n- hosts: adaptix_client_host\n  roles:\n    - badsectorlabs.ludus_adaptix_c2\n  vars:\n    ludus_adaptix_c2_install_client: true    \n```",
+    "ContentSha": "Bxjni7bz0CbOJY8gOlcylJZIY/HECSDx/UuKbkpUoMk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ludus_adaptix_c2_port: 4321\n    ludus_adaptix_c2_endpoint: /endpoint\n    ludus_adaptix_c2_password: pass\n    ludus_adaptix_c2_generate_certificate: true\n    ludus_adaptix_c2_common_name: localhost\n    ludus_adaptix_c2_organization_name: Adaptix C2\n    ludus_adaptix_c2_subject_alt_name_array: \"DNS:localhost,DNS:127.0.0.1,DNS:::1\"\n\n## 依赖项\n\n无。\n\n## 示例 Playbook\n\n```yaml\n- hosts: adaptix_server_host\n  roles:\n    - badsectorlabs.ludus_adaptix_c2\n  vars:\n    ludus_adaptix_c2_install_server: true\n\n- hosts: adaptix_client_host\n  roles:\n    - badsectorlabs.ludus_adaptix_c2\n  vars:\n    ludus_adaptix_c2_install_client: true    \n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Example Ludus Range Config\n\n```yaml\nludus:\n  - vm_name: \"{{ range_id }}-adaptix-server\"\n    hostname: \"{{ range_id }}-adaptix\"\n    template: debian-12-x64-server-template\n    vlan: 99\n    ip_last_octet: 1\n    ram_gb: 4\n    cpus: 2\n    linux: true\n    roles:\n      - badsectorlabs.ludus_adaptix_c2\n    role_vars:\n      ludus_adaptix_c2_install_server: true\n\n  - vm_name: \"{{ range_id }}-kali-1\"\n    hostname: \"{{ range_id }}-kali-1\"\n    template: kali-x64-desktop-template\n    vlan: 99\n    ip_last_octet: 2\n    ram_gb: 4\n    cpus: 2\n    linux: true\n    roles:\n      - badsectorlabs.ludus_adaptix_c2\n    role_vars:\n      ludus_adaptix_c2_install_client: true\n```",
+    "ContentSha": "8yOeNiUCcoGjrB9uGLaQcrQ5jXSNZEBKhYuc4e8pCy0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "error"
+  },
+  {
+    "Id": 4,
+    "Content": "\n## License\n\nGPLv3\n\n## Author Information\n\nThis role was created by [Bad Sector Labs](https://github.com/badsectorlabs), for [Ludus](https://ludus.cloud/).\n",
+    "ContentSha": "qu0sY9KzB0StebgtfOEjmHLlSS5k2Jpw5sFfnRJq2PU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 许可证\n\nGPLv3\n\n## 作者信息\n\n此角色由 [Bad Sector Labs](https://github.com/badsectorlabs) 创建，服务于 [Ludus](https://ludus.cloud/)。",
+    "Status": "ok"
+  }
+]

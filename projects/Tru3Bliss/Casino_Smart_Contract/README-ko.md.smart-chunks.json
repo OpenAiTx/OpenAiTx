@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 🎯 Project Setup Guide\n\nWelcome to the project! This guide will help you quickly get started by installing the required tools and configuring your local environment.\n\n---\n\n## 🛠️ Prerequisites\n\nEnsure the following tools are installed on your system:\n\n- [Rust](https://www.rust-lang.org/tools/install)\n- [Solana CLI](https://docs.solana.com/cli/install-solana-cli-tools)\n- [Anchor](https://anchor-lang.com/docs/installation)\n\n> ℹ️ **Recommended Anchor version:** `0.30.1`\n\n---\n\n## ✅ Check Versions & Set Config\n\nVerify that everything is properly installed and configured:\n\n```bash\nrustc --version             # Check Rust version\nsolana --version            # Check Solana CLI version\nanchor --version            # Check Anchor version\n\nsolana config get           # View current Solana config\nsolana config set --url devnet  # Set network to devnet\n```",
+    "ContentSha": "58ta/Lha5uNOixFhEsqgq1z+nAth/qcs+uizeDFN9jg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 🎯 프로젝트 설정 가이드\n\n프로젝트에 오신 것을 환영합니다! 이 가이드는 필수 도구를 설치하고 로컬 환경을 구성하여 빠르게 시작할 수 있도록 도와줍니다.\n\n---\n\n## 🛠️ 사전 준비 사항\n\n다음 도구들이 시스템에 설치되어 있는지 확인하세요:\n\n- [Rust](https://www.rust-lang.org/tools/install)\n- [Solana CLI](https://docs.solana.com/cli/install-solana-cli-tools)\n- [Anchor](https://anchor-lang.com/docs/installation)\n\n> ℹ️ **권장 Anchor 버전:** `0.30.1`\n\n---\n\n## ✅ 버전 확인 및 설정 구성\n\n모든 것이 올바르게 설치되고 구성되었는지 확인하세요:\n\n```bash\nrustc --version             # Rust 버전 확인\nsolana --version            # Solana CLI 버전 확인\nanchor --version            # Anchor 버전 확인\n\nsolana config get           # 현재 Solana 설정 보기\nsolana config set --url devnet  # 네트워크를 devnet으로 설정\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 2,
+    "Content": "\n---\n\n## 🔐 Wallet Setup\n\nGenerate and manage your wallet keys:\n\n```bash\nsolana-keygen new -o ./keys/admin.json     # Generate a new keypair\nsolana-keygen pubkey ./keys/admin.json     # Get public key\nsolana balance ./keys/admin.json           # Check wallet balance\nsolana airdrop 5 YOUR_WALLET_ADDRESS -u devnet   # Airdrop 5 SOL to your wallet\n```\n\n---\n\n## 📦 Project Installation\n\nClone the project and install dependencies:\n\n```bash\ngit clone https://github.com/project-repo.git\ncd project-folder\nyarn\n```",
+    "ContentSha": "kA8XdCQ9aLeDTUWEre5qFPWY7mq6/IE5d4zShtwU7Uk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "---\n\n## 🔐 지갑 설정\n\n지갑 키를 생성하고 관리합니다:\n\n```bash\nsolana-keygen new -o ./keys/admin.json     # 새 키페어 생성\nsolana-keygen pubkey ./keys/admin.json     # 공개키 확인\nsolana balance ./keys/admin.json           # 지갑 잔액 확인\nsolana airdrop 5 YOUR_WALLET_ADDRESS -u devnet   # 지갑에 5 SOL 에어드랍\n```\n\n---\n\n## 📦 프로젝트 설치\n\n프로젝트를 클론하고 의존성을 설치합니다:\n\n```bash\ngit clone https://github.com/project-repo.git\ncd project-folder\nyarn\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 3,
+    "Content": "\n---\n\n## ⚡ Quick Start\n\n### 🏗️ Build the Program\n\nCompile the Anchor smart contract:\n\n```bash\n# Build the Anchor program using nightly toolchain\nRUSTUP_TOOLCHAIN=\"nightly-2024-11-19\" anchor build\n\n# Sync all program public keys\nanchor keys sync\n\n# Rebuild if the program address in lib.rs has changed\nRUSTUP_TOOLCHAIN=\"nightly-2024-11-19\" anchor build\n```\n\n---\n",
+    "ContentSha": "0dTJUmBRGC2V7BLFhnqYfnEgogW3ZL32JyELDDStRKo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "---\n\n## ⚡ 빠른 시작\n\n### 🏗️ 프로그램 빌드\n\nAnchor 스마트 컨트랙트 컴파일:\n\n```bash\n# 야간(nightly) 툴체인을 사용하여 Anchor 프로그램 빌드\nRUSTUP_TOOLCHAIN=\"nightly-2024-11-19\" anchor build\n\n# 모든 프로그램 공개 키 동기화\nanchor keys sync\n\n# lib.rs의 프로그램 주소가 변경된 경우 재빌드\nRUSTUP_TOOLCHAIN=\"nightly-2024-11-19\" anchor build\n```\n\n---",
+    "Status": "ok"
+  },
+  {
+    "Id": 4,
+    "Content": "### 🧪 Test on Devnet\n\nEnsure your `Anchor.toml` uses Devnet:\n\n```toml\n[provider]\ncluster = \"https://api.devnet.solana.com\"\n```\n\n---\n\n### 🚀 Deploy the Program\n\n```bash\nanchor deploy\n```\n\n---\n\n## 🧪 Use CLI to Interact with the Program",
+    "ContentSha": "4moA26Cidh+x8FPfiKAAqGuzFu1lZqi9qzY5TEqWnUM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 🧪 Devnet에서 테스트\n\n`Anchor.toml`이 Devnet을 사용하도록 설정되어 있는지 확인하세요:\n\n```toml\n[provider]\ncluster = \"https://api.devnet.solana.com\"\n```\n\n---\n\n### 🚀 프로그램 배포\n\n```bash\nanchor deploy\n```\n\n---\n\n## 🧪 CLI를 사용하여 프로그램과 상호작용하기",
+    "Status": "ok"
+  },
+  {
+    "Id": 5,
+    "Content": "\nUse these CLI scripts to interact with your smart contract locally.\n\n---\n\n### 🔹 Initialize the Program\n\n```bash\nyarn script config\n```\n\nInitializes the contract configuration.\n\n---\n\n### 🔹 Create a Round\n\n```bash\nyarn script create -t <ROUND_TIME> -d <MIN_DEPOSIT_AMOUNT> -j <MAX_JOINER_COUNT>\n",
+    "ContentSha": "cJxU2seDI3kJdfOxGDERf3TQe+8hfEv5NKNfPzUvTCg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "이러한 CLI 스크립트를 사용하여 스마트 컨트랙트와 로컬에서 상호작용할 수 있습니다.\n\n---\n\n### 🔹 프로그램 초기화\n\n```bash\nyarn script config\n```\n\n컨트랙트 구성을 초기화합니다.\n\n---\n\n### 🔹 라운드 생성\n\n```bash\nyarn script create -t <ROUND_TIME> -d <MIN_DEPOSIT_AMOUNT> -j <MAX_JOINER_COUNT>\n",
+    "Status": "ok"
+  },
+  {
+    "Id": 6,
+    "Content": "# Example:\nyarn script create -t 60 -d 100000000 -j 100\n```\n\n**Parameters:**\n\n- `<ROUND_TIME>`: Duration of the round in seconds (e.g., `60` = 60s).\n- `<MIN_DEPOSIT_AMOUNT>`: Minimum deposit in lamports (1 SOL = 1_000_000_000). Must be greater than `config.TEST_INITIAL_MIN_DEPOSIT_AMOUNT`.\n- `<MAX_JOINER_COUNT>`: Maximum number of participants. Must be less than `config.TEST_INITIAL_MAX_JOINER_COUNT`.\n\n---\n\n### 🔹 Join a Round\n\n```bash\nyarn script join -a <DEPOSIT_SOL_AMOUNT> -g <ROUND_NUMBER>\n\n# Example:\nyarn script join -a 100000000 -g 2\n```",
+    "ContentSha": "XY8SJE7JMOJAsdl48nMNMbL7M8okb0Hlj6Jj/5NRFPI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 예시:\nyarn script create -t 60 -d 100000000 -j 100\n```\n\n**파라미터:**\n\n- `<ROUND_TIME>`: 라운드의 지속 시간(초 단위) (예: `60` = 60초).\n- `<MIN_DEPOSIT_AMOUNT>`: 최소 예치금(라포트 단위, 1 SOL = 1_000_000_000). `config.TEST_INITIAL_MIN_DEPOSIT_AMOUNT`보다 커야 합니다.\n- `<MAX_JOINER_COUNT>`: 최대 참가자 수. `config.TEST_INITIAL_MAX_JOINER_COUNT`보다 작아야 합니다.\n\n---\n\n### 🔹 라운드 참가\n\n```bash\nyarn script join -a <DEPOSIT_SOL_AMOUNT> -g <ROUND_NUMBER>\n\n# 예시:\nyarn script join -a 100000000 -g 2\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 7,
+    "Content": "\n**Parameters:**\n\n- `<DEPOSIT_SOL_AMOUNT>`: Deposit amount in lamports (e.g., 0.1 SOL = 100_000_000).\n- `<ROUND_NUMBER>`: Index of the round to join. Starts from `0`. Must be less than `total_round`.\n\n> 🕒 Note: The countdown for the round starts when the second participant joins.\n\n---\n\n### 🔹 Select Winner\n\n```bash\nyarn script winner -g <ROUND_NUMBER>\n\n# Example:\nyarn script winner -g 2\n```\n\n**Note:** Only call this after the round time has fully elapsed.\n\n---\n",
+    "ContentSha": "tphZWsjhzY7LTk7u2SLeSqvFnxJ6zCG9RfbbUa8EWQs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**파라미터:**\n\n- `<DEPOSIT_SOL_AMOUNT>`: 입금 금액(라포트 단위, 예: 0.1 SOL = 100_000_000).\n- `<ROUND_NUMBER>`: 참여할 라운드의 인덱스. `0`부터 시작. `total_round`보다 작아야 함.\n\n> 🕒 참고: 해당 라운드의 카운트다운은 두 번째 참가자가 참여할 때 시작됩니다.\n\n---\n\n### 🔹 우승자 선택\n\n```bash\nyarn script winner -g <ROUND_NUMBER>\n\n# 예시:\nyarn script winner -g 2\n```\n\n**참고:** 라운드 시간이 완전히 경과한 후에만 호출하세요.\n\n---",
+    "Status": "ok"
+  },
+  {
+    "Id": 8,
+    "Content": "### 🔹 Claim Winnings\n\n```bash\nyarn script claim -g <ROUND_NUMBER>\n\n# Example:\nyarn script claim -g 2\n```\n\n**Note:** This must be run by the winning wallet after the winner has been selected.\n\n---\n\n## Contact\n\nFor questions or inquiries about Solana smart contract development, DeFi implementation, or DEX integration, please reach out to the project maintainers.\n\n**Telegram**: [@Tru3B1iss](https://t.me/Tru3B1iss)\n**X (Twitter)**: [@XTruebliss](https://x.com/XTruebliss)\n**Discord**: [@trueb1iss](https://discord.com/users/1274339638668038187)\n",
+    "ContentSha": "m5BE4dljADXL5fJUyLeVqKZCGWdj40xQnNCbGYmJ4oE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 🔹 당첨금 청구\n\n```bash\nyarn script claim -g <ROUND_NUMBER>\n\n# 예시:\nyarn script claim -g 2\n```\n\n**참고:** 이 명령은 당첨자가 선정된 후, 당첨된 지갑에서 실행해야 합니다.\n\n---\n\n## 문의\n\nSolana 스마트 계약 개발, DeFi 구현 또는 DEX 통합에 관한 질문이나 문의 사항이 있으시면 프로젝트 관리자에게 연락해 주세요.\n\n**Telegram**: [@Tru3B1iss](https://t.me/Tru3B1iss)\n**X (Twitter)**: [@XTruebliss](https://x.com/XTruebliss)\n**Discord**: [@trueb1iss](https://discord.com/users/1274339638668038187)\n",
+    "Status": "ok"
+  }
+]

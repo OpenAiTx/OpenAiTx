@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 🎯 Project Setup Guide\n\nWelcome to the project! This guide will help you quickly get started by installing the required tools and configuring your local environment.\n\n---\n\n## 🛠️ Prerequisites\n\nEnsure the following tools are installed on your system:\n\n- [Rust](https://www.rust-lang.org/tools/install)\n- [Solana CLI](https://docs.solana.com/cli/install-solana-cli-tools)\n- [Anchor](https://anchor-lang.com/docs/installation)\n\n> ℹ️ **Recommended Anchor version:** `0.30.1`\n\n---\n\n## ✅ Check Versions & Set Config\n\nVerify that everything is properly installed and configured:\n\n```bash\nrustc --version             # Check Rust version\nsolana --version            # Check Solana CLI version\nanchor --version            # Check Anchor version\n\nsolana config get           # View current Solana config\nsolana config set --url devnet  # Set network to devnet\n```",
+    "ContentSha": "58ta/Lha5uNOixFhEsqgq1z+nAth/qcs+uizeDFN9jg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 🎯 Proje Kurulum Rehberi\n\nProjeye hoş geldiniz! Bu rehber, gerekli araçları kurarak ve yerel ortamınızı yapılandırarak hızlıca başlamanıza yardımcı olacaktır.\n\n---\n\n## 🛠️ Ön Koşullar\n\nAşağıdaki araçların sisteminizde kurulu olduğundan emin olun:\n\n- [Rust](https://www.rust-lang.org/tools/install)\n- [Solana CLI](https://docs.solana.com/cli/install-solana-cli-tools)\n- [Anchor](https://anchor-lang.com/docs/installation)\n\n> ℹ️ **Tavsiye edilen Anchor sürümü:** `0.30.1`\n\n---\n\n## ✅ Sürümleri Kontrol Et & Yapılandırmayı Ayarla\n\nHer şeyin doğru şekilde kurulduğundan ve yapılandırıldığından emin olun:\n\n```bash\nrustc --version             # Rust sürümünü kontrol et\nsolana --version            # Solana CLI sürümünü kontrol et\nanchor --version            # Anchor sürümünü kontrol et\n\nsolana config get           # Mevcut Solana yapılandırmasını görüntüle\nsolana config set --url devnet  # Ağı devnet olarak ayarla\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 2,
+    "Content": "\n---\n\n## 🔐 Wallet Setup\n\nGenerate and manage your wallet keys:\n\n```bash\nsolana-keygen new -o ./keys/admin.json     # Generate a new keypair\nsolana-keygen pubkey ./keys/admin.json     # Get public key\nsolana balance ./keys/admin.json           # Check wallet balance\nsolana airdrop 5 YOUR_WALLET_ADDRESS -u devnet   # Airdrop 5 SOL to your wallet\n```\n\n---\n\n## 📦 Project Installation\n\nClone the project and install dependencies:\n\n```bash\ngit clone https://github.com/project-repo.git\ncd project-folder\nyarn\n```",
+    "ContentSha": "kA8XdCQ9aLeDTUWEre5qFPWY7mq6/IE5d4zShtwU7Uk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "---\n\n## 🔐 Cüzdan Kurulumu\n\nCüzdan anahtarlarınızı oluşturun ve yönetin:\n\n```bash\nsolana-keygen new -o ./keys/admin.json     # Yeni bir anahtar çifti oluştur\nsolana-keygen pubkey ./keys/admin.json     # Genel anahtarı al\nsolana balance ./keys/admin.json           # Cüzdan bakiyesini kontrol et\nsolana airdrop 5 YOUR_WALLET_ADDRESS -u devnet   # Cüzdanınıza 5 SOL airdrop yap\n```\n\n---\n\n## 📦 Proje Kurulumu\n\nProjeyi klonlayın ve bağımlılıkları yükleyin:\n\n```bash\ngit clone https://github.com/project-repo.git\ncd project-folder\nyarn\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 3,
+    "Content": "\n---\n\n## ⚡ Quick Start\n\n### 🏗️ Build the Program\n\nCompile the Anchor smart contract:\n\n```bash\n# Build the Anchor program using nightly toolchain\nRUSTUP_TOOLCHAIN=\"nightly-2024-11-19\" anchor build\n\n# Sync all program public keys\nanchor keys sync\n\n# Rebuild if the program address in lib.rs has changed\nRUSTUP_TOOLCHAIN=\"nightly-2024-11-19\" anchor build\n```\n\n---\n",
+    "ContentSha": "0dTJUmBRGC2V7BLFhnqYfnEgogW3ZL32JyELDDStRKo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "---\n\n## ⚡ Hızlı Başlangıç\n\n### 🏗️ Programı Derle\n\nAnchor akıllı sözleşmesini derleyin:\n\n```bash\n# Anchor programını nightly toolchain kullanarak derle\nRUSTUP_TOOLCHAIN=\"nightly-2024-11-19\" anchor build\n\n# Tüm program ortak anahtarlarını senkronize et\nanchor keys sync\n\n# Eğer lib.rs içindeki program adresi değiştiyse tekrar derle\nRUSTUP_TOOLCHAIN=\"nightly-2024-11-19\" anchor build\n```\n\n---",
+    "Status": "ok"
+  },
+  {
+    "Id": 4,
+    "Content": "### 🧪 Test on Devnet\n\nEnsure your `Anchor.toml` uses Devnet:\n\n```toml\n[provider]\ncluster = \"https://api.devnet.solana.com\"\n```\n\n---\n\n### 🚀 Deploy the Program\n\n```bash\nanchor deploy\n```\n\n---\n\n## 🧪 Use CLI to Interact with the Program",
+    "ContentSha": "4moA26Cidh+x8FPfiKAAqGuzFu1lZqi9qzY5TEqWnUM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 🧪 Devnet'te Test Etme\n\n`Anchor.toml` dosyanızın Devnet kullandığından emin olun:\n\n```toml\n[provider]\ncluster = \"https://api.devnet.solana.com\"\n```\n\n---\n\n### 🚀 Programı Dağıtma\n\n```bash\nanchor deploy\n```\n\n---\n\n## 🧪 Program ile Etkileşim için CLI Kullanımı",
+    "Status": "ok"
+  },
+  {
+    "Id": 5,
+    "Content": "\nUse these CLI scripts to interact with your smart contract locally.\n\n---\n\n### 🔹 Initialize the Program\n\n```bash\nyarn script config\n```\n\nInitializes the contract configuration.\n\n---\n\n### 🔹 Create a Round\n\n```bash\nyarn script create -t <ROUND_TIME> -d <MIN_DEPOSIT_AMOUNT> -j <MAX_JOINER_COUNT>\n",
+    "ContentSha": "cJxU2seDI3kJdfOxGDERf3TQe+8hfEv5NKNfPzUvTCg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "error"
+  },
+  {
+    "Id": 6,
+    "Content": "# Example:\nyarn script create -t 60 -d 100000000 -j 100\n```\n\n**Parameters:**\n\n- `<ROUND_TIME>`: Duration of the round in seconds (e.g., `60` = 60s).\n- `<MIN_DEPOSIT_AMOUNT>`: Minimum deposit in lamports (1 SOL = 1_000_000_000). Must be greater than `config.TEST_INITIAL_MIN_DEPOSIT_AMOUNT`.\n- `<MAX_JOINER_COUNT>`: Maximum number of participants. Must be less than `config.TEST_INITIAL_MAX_JOINER_COUNT`.\n\n---\n\n### 🔹 Join a Round\n\n```bash\nyarn script join -a <DEPOSIT_SOL_AMOUNT> -g <ROUND_NUMBER>\n\n# Example:\nyarn script join -a 100000000 -g 2\n```",
+    "ContentSha": "XY8SJE7JMOJAsdl48nMNMbL7M8okb0Hlj6Jj/5NRFPI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Örnek:\nyarn script create -t 60 -d 100000000 -j 100\n```\n\n**Parametreler:**\n\n- `<ROUND_TIME>`: Tur süresi saniye cinsinden (örn. `60` = 60s).\n- `<MIN_DEPOSIT_AMOUNT>`: Minimum depozito miktarı lamport olarak (1 SOL = 1_000_000_000). `config.TEST_INITIAL_MIN_DEPOSIT_AMOUNT` değerinden büyük olmalıdır.\n- `<MAX_JOINER_COUNT>`: Maksimum katılımcı sayısı. `config.TEST_INITIAL_MAX_JOINER_COUNT` değerinden küçük olmalıdır.\n\n---\n\n### 🔹 Bir Tura Katılmak\n\n```bash\nyarn script join -a <DEPOSIT_SOL_AMOUNT> -g <ROUND_NUMBER>\n\n# Örnek:\nyarn script join -a 100000000 -g 2\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 7,
+    "Content": "\n**Parameters:**\n\n- `<DEPOSIT_SOL_AMOUNT>`: Deposit amount in lamports (e.g., 0.1 SOL = 100_000_000).\n- `<ROUND_NUMBER>`: Index of the round to join. Starts from `0`. Must be less than `total_round`.\n\n> 🕒 Note: The countdown for the round starts when the second participant joins.\n\n---\n\n### 🔹 Select Winner\n\n```bash\nyarn script winner -g <ROUND_NUMBER>\n\n# Example:\nyarn script winner -g 2\n```\n\n**Note:** Only call this after the round time has fully elapsed.\n\n---\n",
+    "ContentSha": "tphZWsjhzY7LTk7u2SLeSqvFnxJ6zCG9RfbbUa8EWQs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**Parametreler:**\n\n- `<DEPOSIT_SOL_AMOUNT>`: Lamport cinsinden yatırılacak miktar (örneğin, 0.1 SOL = 100_000_000).\n- `<ROUND_NUMBER>`: Katılınacak turun indeksi. `0`'dan başlar. `total_round` değerinden küçük olmalıdır.\n\n> 🕒 Not: Turun geri sayımı, ikinci katılımcı katıldığında başlar.\n\n---\n\n### 🔹 Kazananı Seç\n\n```bash\nyarn script winner -g <ROUND_NUMBER>\n\n# Örnek:\nyarn script winner -g 2\n```\n\n**Not:** Bunu yalnızca turun süresi tamamen dolduktan sonra çağırın.\n\n---",
+    "Status": "ok"
+  },
+  {
+    "Id": 8,
+    "Content": "### 🔹 Claim Winnings\n\n```bash\nyarn script claim -g <ROUND_NUMBER>\n\n# Example:\nyarn script claim -g 2\n```\n\n**Note:** This must be run by the winning wallet after the winner has been selected.\n\n---\n\n## Contact\n\nFor questions or inquiries about Solana smart contract development, DeFi implementation, or DEX integration, please reach out to the project maintainers.\n\n**Telegram**: [@Tru3B1iss](https://t.me/Tru3B1iss)\n**X (Twitter)**: [@XTruebliss](https://x.com/XTruebliss)\n**Discord**: [@trueb1iss](https://discord.com/users/1274339638668038187)\n",
+    "ContentSha": "m5BE4dljADXL5fJUyLeVqKZCGWdj40xQnNCbGYmJ4oE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 🔹 Kazançları Talep Etme\n\n```bash\nyarn script claim -g <TUR_NUMARASI>\n\n# Örnek:\nyarn script claim -g 2\n```\n\n**Not:** Bu komut, kazanan seçildikten sonra kazanan cüzdan tarafından çalıştırılmalıdır.\n\n---\n\n## İletişim\n\nSolana akıllı sözleşme geliştirme, DeFi uygulaması veya DEX entegrasyonu ile ilgili sorularınız veya talepleriniz için lütfen proje yöneticileriyle iletişime geçin.\n\n**Telegram**: [@Tru3B1iss](https://t.me/Tru3B1iss)\n**X (Twitter)**: [@XTruebliss](https://x.com/XTruebliss)\n**Discord**: [@trueb1iss](https://discord.com/users/1274339638668038187)",
+    "Status": "ok"
+  }
+]
