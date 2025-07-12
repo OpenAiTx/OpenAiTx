@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 寸止 🛑\n\n> **AI 对话\"早泄\"终结者，让交流持续到底**\n\n还在为 AI 助手总是提前结束对话而抓狂吗？明明还有很多要聊，它却说\"还有什么需要帮助的吗？\"**寸止** 专治这个毛病！\n\n当 AI 想要\"草草了事\"时，寸止会及时弹出对话框，让你能够继续深入交流，直到真正解决问题为止。\n\n## 🌟 核心特性\n\n- 🛑 **智能拦截**：AI 想结束时自动弹出继续选项\n- 🧠 **记忆管理**：按项目存储开发规范和偏好\n- 🎨 **优雅交互**：Markdown 支持、多种输入方式\n- ⚡ **即装即用**：3 秒安装，跨平台支持\n\n## 📸 看看效果\n\n### 🛑 智能拦截弹窗\n![寸止弹窗演示](https://raw.githubusercontent.com/imhuso/cunzhi/main/./screenshots/popup.png)\n\n*当 AI 想要结束对话时，寸止智能弹窗及时出现，提供预定义选项快速选择，让交流持续深入*\n",
+    "ContentSha": "fbsAB7eueoolkCLjEpA/v6NeaaRVz2C6C1S4I532NUk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Cunzhi 🛑\n\n> **The \"Premature End\" Terminator for AI Conversations—Keep Your Dialogue Going**\n\nStill frustrated that your AI assistant always ends conversations too early? There’s so much more you want to discuss, but it just says, \"Is there anything else I can help with?\" **Cunzhi** is here to fix that!\n\nWhen your AI tries to \"wrap things up too soon,\" Cunzhi will instantly pop up a dialog, allowing you to keep the conversation going until your issue is truly resolved.\n\n## 🌟 Core Features\n\n- 🛑 **Intelligent Interception**: Automatically pops up continuation options when the AI tries to end the conversation\n- 🧠 **Memory Management**: Stores development standards and preferences by project\n- 🎨 **Elegant Interaction**: Markdown support and multiple input methods\n- ⚡ **Ready to Use**: 3-second installation, cross-platform support\n\n## 📸 See It in Action\n\n### 🛑 Intelligent Interception Pop-up\n![Cunzhi Popup Demo](https://raw.githubusercontent.com/imhuso/cunzhi/main/./screenshots/popup.png)\n\n*When the AI tries to end the conversation, Cunzhi’s smart popup appears in time, offering predefined options for quick selection and allowing the conversation to continue deeply*",
+    "Status": "ok"
+  },
+  {
+    "Id": 2,
+    "Content": "### ⚙️ 设置管理界面\n![寸止设置界面](https://raw.githubusercontent.com/imhuso/cunzhi/main/./screenshots/settings.png)\n\n*优雅的设置界面，支持记忆管理、功能开关、主题切换和智能提示词生成*\n\n## 🚀 开始使用\n\n### 方式一：快速安装（推荐）\n\n**macOS 用户：**\n```bash\n# 3 秒安装，无需等待编译\nbrew tap imhuso/cunzhi && brew install cunzhi\n```\n\n> ⚠️ **故障排除**：如果遇到 404 下载错误，请执行以下步骤：\n>\n> ```bash\n> # 清除旧的 tap 缓存\n> brew untap imhuso/cunzhi\n> # 重新安装\n> brew tap imhuso/cunzhi && brew install cunzhi\n> ```\n>\n> **常见错误示例：**\n> ```\n> curl: (56) The requested URL returned error: 404\n> Error: cunzhi: Failed to download resource \"cunzhi\"\n> Download failed: https://github.com/imhuso/cunzhi/releases/download/v0.2.0/cunzhi-cli-v0.2.4-macos-aarch64.tar.gz\n> ```\n>\n> 这通常是由于之前版本的缓存问题导致版本号不匹配。清除 tap 后重新安装即可解决。\n\n**Windows/Linux 用户：**\n推荐使用方式二手动下载，简单快捷！\n",
+    "ContentSha": "i6Ld8nNxZXRQzh+UkccCDZfbe56Xt/+4KUxfXd0iNmc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### ⚙️ Settings Management Interface\n![Cunzhi Settings Interface](https://raw.githubusercontent.com/imhuso/cunzhi/main/./screenshots/settings.png)\n\n*Elegant settings interface, supports memory management, feature toggles, theme switching, and intelligent prompt generation*\n\n## 🚀 Getting Started\n\n### Method 1: Quick Install (Recommended)\n\n**macOS Users:**\n```bash\n# 3-second installation, no need to wait for compilation\nbrew tap imhuso/cunzhi && brew install cunzhi\n```\n\n> ⚠️ **Troubleshooting**: If you encounter a 404 download error, please follow these steps:\n>\n> ```bash\n> # Clear old tap cache\n> brew untap imhuso/cunzhi\n> # Reinstall\n> brew tap imhuso/cunzhi && brew install cunzhi\n> ```\n>\n> **Common Error Example:**\n> ```\n> curl: (56) The requested URL returned error: 404\n> Error: cunzhi: Failed to download resource \"cunzhi\"\n> Download failed: https://github.com/imhuso/cunzhi/releases/download/v0.2.0/cunzhi-cli-v0.2.4-macos-aarch64.tar.gz\n> ```\n>\n> This is usually caused by a version mismatch due to previous version caching issues. Clearing the tap and reinstalling will resolve the problem.\n\n**Windows/Linux Users:**\nIt is recommended to use Method 2 for manual download, which is simple and fast!",
+    "Status": "ok"
+  },
+  {
+    "Id": 3,
+    "Content": "### 方式二：手动下载\n\n1. 访问 [Releases 页面](https://github.com/imhuso/cunzhi/releases)\n2. 下载适合你系统的版本：\n   - 🐧 **Linux**: `cunzhi-cli-v*-linux-x86_64.tar.gz`\n   - 🍎 **macOS (Intel)**: `cunzhi-cli-v*-macos-x86_64.tar.gz`\n   - 🍎 **macOS (Apple Silicon)**: `cunzhi-cli-v*-macos-aarch64.tar.gz`\n   - 🪟 **Windows**: `cunzhi-cli-v*-windows-x86_64.zip`\n\n3. 解压后将 `寸止` 和 `等一下` 添加到系统 PATH\n\n## ⚡ 快速上手\n\n### 第一步：配置 MCP 客户端\n\n在你的 MCP 客户端（如 Claude Desktop）配置文件中添加：\n\n```json\n{\n  \"mcpServers\": {\n    \"寸止\": {\n      \"command\": \"寸止\"\n    }\n  }\n}\n```",
+    "ContentSha": "PRqy10Ci0vOtk8RtX+p8LZVJhqTaaojj8hrg6xR4VYM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Method 2: Manual Download\n\n1. Visit the [Releases page](https://github.com/imhuso/cunzhi/releases)\n2. Download the version suitable for your system:\n   - 🐧 **Linux**: `cunzhi-cli-v*-linux-x86_64.tar.gz`\n   - 🍎 **macOS (Intel)**: `cunzhi-cli-v*-macos-x86_64.tar.gz`\n   - 🍎 **macOS (Apple Silicon)**: `cunzhi-cli-v*-macos-aarch64.tar.gz`\n   - 🪟 **Windows**: `cunzhi-cli-v*-windows-x86_64.zip`\n\n3. After extracting, add `寸止` and `等一下` to your system PATH\n\n## ⚡ Quick Start\n\n### Step 1: Configure MCP Client\n\nAdd the following to the configuration file of your MCP client (such as Claude Desktop):\n\n```json\n{\n  \"mcpServers\": {\n    \"寸止\": {\n      \"command\": \"寸止\"\n    }\n  }\n}\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 4,
+    "Content": "\n### 第二步：打开设置界面\n\n```bash\n# 运行设置命令\n等一下\n```\n\n### 第三步：配置提示词\n\n在设置界面的\"参考提示词\"标签页：\n1. 查看自动生成的提示词\n2. 点击复制按钮\n3. 将提示词添加到你的 AI 助手中\n\n### 第四步：开始使用\n\n现在你的 AI 助手就拥有了智能拦截、记忆管理和弹窗交互功能！\n\n> 💡 **小贴士**：你可以参考生成的提示词进行个性化修改，打造专属的 AI 交互体验。\n",
+    "ContentSha": "ixxDUeZRQ40IfJn7RlNhGVbRh8gm+9WywSM80uLpknM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Step 2: Open the Settings Interface\n\n```bash\n# Run the settings command\nWait a moment\n```\n\n### Step 3: Configure Prompt Words\n\nIn the \"Reference Prompts\" tab of the settings interface:\n1. View the automatically generated prompts\n2. Click the copy button\n3. Add the prompts to your AI assistant\n\n### Step 4: Start Using\n\nNow your AI assistant is equipped with intelligent interception, memory management, and popup interaction features!\n\n> 💡 **Tip**: You can personalize and modify the generated prompts to create your own exclusive AI interaction experience.",
+    "Status": "ok"
+  },
+  {
+    "Id": 5,
+    "Content": "## 🤝 参与贡献\n\n寸止是开源项目，我们欢迎所有形式的贡献！\n\n### 🐛 发现问题？\n- [提交 Issue](https://github.com/imhuso/cunzhi/issues) 描述问题\n- 提供复现步骤和环境信息\n\n### 💡 有好想法？\n- [发起讨论](https://github.com/imhuso/cunzhi/discussions) 分享你的想法\n- 提交 Pull Request 实现新功能\n\n### 🛠️ 本地开发\n```bash\ngit clone https://github.com/imhuso/cunzhi.git\ncd cunzhi\npnpm install\npnpm tauri:dev\n```\n",
+    "ContentSha": "qvbwLOf/I55QZPFtUjgRKjCLnJ9LieitPEQ28jukmek=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🤝 Contributing\n\nCunzhi is an open-source project, and we welcome all forms of contribution!\n\n### 🐛 Found a problem?\n- [Submit an Issue](https://github.com/imhuso/cunzhi/issues) to describe the problem\n- Provide reproduction steps and environment information\n\n### 💡 Have a great idea?\n- [Start a discussion](https://github.com/imhuso/cunzhi/discussions) to share your thoughts\n- Submit a Pull Request to implement new features\n\n### 🛠️ Local Development\n```bash\ngit clone https://github.com/imhuso/cunzhi.git\ncd cunzhi\npnpm install\npnpm tauri:dev\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 6,
+    "Content": "## 📞 联系我们\n\n- 🐛 **问题反馈**：[GitHub Issues](https://github.com/imhuso/cunzhi/issues)\n- 💬 **功能讨论**：[GitHub Discussions](https://github.com/imhuso/cunzhi/discussions)\n- ⭐ **喜欢项目**：给我们一个 Star 支持！\n\n## 📄 开源协议\n\nMIT License - 自由使用，欢迎贡献！\n\n---\n\n<div align=\"center\">\n\n**告别 AI 对话\"早泄\" | 让每次交流都持续到底**\n\n[⭐ Star](https://github.com/imhuso/cunzhi) · [🐛 Report Bug](https://github.com/imhuso/cunzhi/issues) · [💡 Request Feature](https://github.com/imhuso/cunzhi/discussions)\n\n</div>\n",
+    "ContentSha": "1eio/RbDda+xaMjxXNgsCLcyPk1744PUEjdmIeaKlsc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 📞 Contact Us\n\n- 🐛 **Report Issues**: [GitHub Issues](https://github.com/imhuso/cunzhi/issues)\n- 💬 **Feature Discussions**: [GitHub Discussions](https://github.com/imhuso/cunzhi/discussions)\n- ⭐ **Like the Project**: Give us a Star to support!\n\n## 📄 Open Source License\n\nMIT License - Free to use, contributions welcome!\n\n---\n\n<div align=\"center\">\n\n**Say Goodbye to AI Conversation \"Premature Termination\" | Make Every Interaction Last Until the End**\n\n[⭐ Star](https://github.com/imhuso/cunzhi) · [🐛 Report Bug](https://github.com/imhuso/cunzhi/issues) · [💡 Request Feature](https://github.com/imhuso/cunzhi/discussions)\n\n</div>",
+    "Status": "ok"
+  }
+]

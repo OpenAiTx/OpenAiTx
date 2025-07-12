@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 寸止 🛑\n\n> **AI 对话\"早泄\"终结者，让交流持续到底**\n\n还在为 AI 助手总是提前结束对话而抓狂吗？明明还有很多要聊，它却说\"还有什么需要帮助的吗？\"**寸止** 专治这个毛病！\n\n当 AI 想要\"草草了事\"时，寸止会及时弹出对话框，让你能够继续深入交流，直到真正解决问题为止。\n\n## 🌟 核心特性\n\n- 🛑 **智能拦截**：AI 想结束时自动弹出继续选项\n- 🧠 **记忆管理**：按项目存储开发规范和偏好\n- 🎨 **优雅交互**：Markdown 支持、多种输入方式\n- ⚡ **即装即用**：3 秒安装，跨平台支持\n\n## 📸 看看效果\n\n### 🛑 智能拦截弹窗\n![寸止弹窗演示](https://raw.githubusercontent.com/imhuso/cunzhi/main/./screenshots/popup.png)\n\n*当 AI 想要结束对话时，寸止智能弹窗及时出现，提供预定义选项快速选择，让交流持续深入*\n",
+    "ContentSha": "fbsAB7eueoolkCLjEpA/v6NeaaRVz2C6C1S4I532NUk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 寸止 🛑\n\n> **AI 對話「早洩」終結者，讓交流持續到底**\n\n還在為 AI 助手總是提前結束對話而抓狂嗎？明明還有很多要聊，它卻說「還有什麼需要幫助的嗎？」**寸止** 專治這個毛病！\n\n當 AI 想要「草草了事」時，寸止會及時彈出對話框，讓你能夠繼續深入交流，直到真正解決問題為止。\n\n## 🌟 核心特性\n\n- 🛑 **智能攔截**：AI 想結束時自動彈出繼續選項\n- 🧠 **記憶管理**：按項目儲存開發規範和偏好\n- 🎨 **優雅互動**：Markdown 支援、多種輸入方式\n- ⚡ **即裝即用**：3 秒安裝，跨平台支援\n\n## 📸 看看效果\n\n### 🛑 智能攔截彈窗\n![寸止彈窗演示](https://raw.githubusercontent.com/imhuso/cunzhi/main/./screenshots/popup.png)\n\n*當 AI 想要結束對話時，寸止智能彈窗及時出現，提供預定義選項快速選擇，讓交流持續深入*",
+    "Status": "ok"
+  },
+  {
+    "Id": 2,
+    "Content": "### ⚙️ 设置管理界面\n![寸止设置界面](https://raw.githubusercontent.com/imhuso/cunzhi/main/./screenshots/settings.png)\n\n*优雅的设置界面，支持记忆管理、功能开关、主题切换和智能提示词生成*\n\n## 🚀 开始使用\n\n### 方式一：快速安装（推荐）\n\n**macOS 用户：**\n```bash\n# 3 秒安装，无需等待编译\nbrew tap imhuso/cunzhi && brew install cunzhi\n```\n\n> ⚠️ **故障排除**：如果遇到 404 下载错误，请执行以下步骤：\n>\n> ```bash\n> # 清除旧的 tap 缓存\n> brew untap imhuso/cunzhi\n> # 重新安装\n> brew tap imhuso/cunzhi && brew install cunzhi\n> ```\n>\n> **常见错误示例：**\n> ```\n> curl: (56) The requested URL returned error: 404\n> Error: cunzhi: Failed to download resource \"cunzhi\"\n> Download failed: https://github.com/imhuso/cunzhi/releases/download/v0.2.0/cunzhi-cli-v0.2.4-macos-aarch64.tar.gz\n> ```\n>\n> 这通常是由于之前版本的缓存问题导致版本号不匹配。清除 tap 后重新安装即可解决。\n\n**Windows/Linux 用户：**\n推荐使用方式二手动下载，简单快捷！\n",
+    "ContentSha": "i6Ld8nNxZXRQzh+UkccCDZfbe56Xt/+4KUxfXd0iNmc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "error"
+  },
+  {
+    "Id": 3,
+    "Content": "### 方式二：手动下载\n\n1. 访问 [Releases 页面](https://github.com/imhuso/cunzhi/releases)\n2. 下载适合你系统的版本：\n   - 🐧 **Linux**: `cunzhi-cli-v*-linux-x86_64.tar.gz`\n   - 🍎 **macOS (Intel)**: `cunzhi-cli-v*-macos-x86_64.tar.gz`\n   - 🍎 **macOS (Apple Silicon)**: `cunzhi-cli-v*-macos-aarch64.tar.gz`\n   - 🪟 **Windows**: `cunzhi-cli-v*-windows-x86_64.zip`\n\n3. 解压后将 `寸止` 和 `等一下` 添加到系统 PATH\n\n## ⚡ 快速上手\n\n### 第一步：配置 MCP 客户端\n\n在你的 MCP 客户端（如 Claude Desktop）配置文件中添加：\n\n```json\n{\n  \"mcpServers\": {\n    \"寸止\": {\n      \"command\": \"寸止\"\n    }\n  }\n}\n```",
+    "ContentSha": "PRqy10Ci0vOtk8RtX+p8LZVJhqTaaojj8hrg6xR4VYM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 方式二：手動下載\n\n1. 訪問 [Releases 頁面](https://github.com/imhuso/cunzhi/releases)\n2. 下載適合你系統的版本：\n   - 🐧 **Linux**: `cunzhi-cli-v*-linux-x86_64.tar.gz`\n   - 🍎 **macOS (Intel)**: `cunzhi-cli-v*-macos-x86_64.tar.gz`\n   - 🍎 **macOS (Apple Silicon)**: `cunzhi-cli-v*-macos-aarch64.tar.gz`\n   - 🪟 **Windows**: `cunzhi-cli-v*-windows-x86_64.zip`\n\n3. 解壓後將 `寸止` 和 `等一下` 添加到系統 PATH\n\n## ⚡ 快速上手\n\n### 第一步：配置 MCP 客戶端\n\n在你的 MCP 客戶端（如 Claude Desktop）配置文件中添加：\n\n```json\n{\n  \"mcpServers\": {\n    \"寸止\": {\n      \"command\": \"寸止\"\n    }\n  }\n}\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 4,
+    "Content": "\n### 第二步：打开设置界面\n\n```bash\n# 运行设置命令\n等一下\n```\n\n### 第三步：配置提示词\n\n在设置界面的\"参考提示词\"标签页：\n1. 查看自动生成的提示词\n2. 点击复制按钮\n3. 将提示词添加到你的 AI 助手中\n\n### 第四步：开始使用\n\n现在你的 AI 助手就拥有了智能拦截、记忆管理和弹窗交互功能！\n\n> 💡 **小贴士**：你可以参考生成的提示词进行个性化修改，打造专属的 AI 交互体验。\n",
+    "ContentSha": "ixxDUeZRQ40IfJn7RlNhGVbRh8gm+9WywSM80uLpknM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 第二步：打開設定介面\n\n```bash\n# 執行設定指令\n等一下\n```\n\n### 第三步：配置提示詞\n\n在設定介面的「參考提示詞」標籤頁：\n1. 查看自動生成的提示詞\n2. 點擊複製按鈕\n3. 將提示詞添加到你的 AI 助手中\n\n### 第四步：開始使用\n\n現在你的 AI 助手就擁有了智慧攔截、記憶管理和彈窗互動功能！\n\n> 💡 **小貼士**：你可以參考生成的提示詞進行個性化修改，打造專屬的 AI 互動體驗。",
+    "Status": "ok"
+  },
+  {
+    "Id": 5,
+    "Content": "## 🤝 参与贡献\n\n寸止是开源项目，我们欢迎所有形式的贡献！\n\n### 🐛 发现问题？\n- [提交 Issue](https://github.com/imhuso/cunzhi/issues) 描述问题\n- 提供复现步骤和环境信息\n\n### 💡 有好想法？\n- [发起讨论](https://github.com/imhuso/cunzhi/discussions) 分享你的想法\n- 提交 Pull Request 实现新功能\n\n### 🛠️ 本地开发\n```bash\ngit clone https://github.com/imhuso/cunzhi.git\ncd cunzhi\npnpm install\npnpm tauri:dev\n```\n",
+    "ContentSha": "qvbwLOf/I55QZPFtUjgRKjCLnJ9LieitPEQ28jukmek=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🤝 參與貢獻\n\n寸止是開源項目，我們歡迎所有形式的貢獻！\n\n### 🐛 發現問題？\n- [提交 Issue](https://github.com/imhuso/cunzhi/issues) 描述問題\n- 提供重現步驟和環境資訊\n\n### 💡 有好想法？\n- [發起討論](https://github.com/imhuso/cunzhi/discussions) 分享你的想法\n- 提交 Pull Request 實現新功能\n\n### 🛠️ 本地開發\n```bash\ngit clone https://github.com/imhuso/cunzhi.git\ncd cunzhi\npnpm install\npnpm tauri:dev\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 6,
+    "Content": "## 📞 联系我们\n\n- 🐛 **问题反馈**：[GitHub Issues](https://github.com/imhuso/cunzhi/issues)\n- 💬 **功能讨论**：[GitHub Discussions](https://github.com/imhuso/cunzhi/discussions)\n- ⭐ **喜欢项目**：给我们一个 Star 支持！\n\n## 📄 开源协议\n\nMIT License - 自由使用，欢迎贡献！\n\n---\n\n<div align=\"center\">\n\n**告别 AI 对话\"早泄\" | 让每次交流都持续到底**\n\n[⭐ Star](https://github.com/imhuso/cunzhi) · [🐛 Report Bug](https://github.com/imhuso/cunzhi/issues) · [💡 Request Feature](https://github.com/imhuso/cunzhi/discussions)\n\n</div>\n",
+    "ContentSha": "1eio/RbDda+xaMjxXNgsCLcyPk1744PUEjdmIeaKlsc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 📞 聯絡我們\n\n- 🐛 **問題回饋**：[GitHub Issues](https://github.com/imhuso/cunzhi/issues)\n- 💬 **功能討論**：[GitHub Discussions](https://github.com/imhuso/cunzhi/discussions)\n- ⭐ **喜歡專案**：給我們一個 Star 支持！\n\n## 📄 開源協議\n\nMIT License - 自由使用，歡迎貢獻！\n\n---\n\n<div align=\"center\">\n\n**告別 AI 對話「早洩」｜讓每次交流都持續到底**\n\n[⭐ Star](https://github.com/imhuso/cunzhi) · [🐛 回報錯誤](https://github.com/imhuso/cunzhi/issues) · [💡 功能建議](https://github.com/imhuso/cunzhi/discussions)\n\n</div>",
+    "Status": "ok"
+  }
+]

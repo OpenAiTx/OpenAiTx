@@ -1,0 +1,112 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Git Smart Squash\n\nStop wasting time manually reorganizing commits. Let AI do it for you.\n\n## The Problem\n\nYou've been there: 15 commits for a feature, half of them are \"fix\", \"typo\", or \"WIP\". Now you need to clean it up for PR review. Manually squashing and rewriting is tedious.\n\n## The Solution\n\nGit Smart Squash analyzes your changes and reorganizes them into logical commits with proper messages:\n\n```bash\n# Before: your messy branch\n* fix tests\n* typo  \n* more auth changes\n* WIP: working on auth\n* update tests\n* initial auth implementation\n",
+    "ContentSha": "YH9fY4xY/lXi3x+BR8NmyNqmDID4lmWiXBc3LGsn598=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "error"
+  },
+  {
+    "Id": 2,
+    "Content": "# After: clean, logical commits\n* feat: implement JWT authentication system\n* test: add auth endpoint coverage\n```\n\n## Quick Start\n\n### 1. Install\n\n```bash\n# Using pip\npip install git-smart-squash\n\n# Using pipx (recommended for isolated install)\npipx install git-smart-squash\n\n# Using uv (fast Python package manager)\nuv tool install git-smart-squash\n```\n",
+    "ContentSha": "pCxRMKQBu7AVNIWAqJtAKbTpwM6cJjK4yafCwq44TOU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "error"
+  },
+  {
+    "Id": 3,
+    "Content": "### 2. Set up AI\n\n**Option A: Local (Free, Private)**\n```bash\n# Install Ollama from https://ollama.com\nollama pull devstral  # Default model\n```\n\n**Option B: Cloud (Better results)**\n```bash\nexport OPENAI_API_KEY=\"your-key\"\nexport ANTHROPIC_API_KEY=\"your-key\"\nexport GEMINI_API_KEY=\"your-key\"\n```\n\n### 3. Run\n\n```bash\ncd your-repo\ngit-smart-squash\n```",
+    "ContentSha": "E2AGy4/eSi9FJ42apR9qXMYSpkkZrzqrl3Mn22oJODw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "error"
+  },
+  {
+    "Id": 4,
+    "Content": "\nThat's it. Review the plan and approve.\n\n## Command Line Parameters\n\n| Parameter | Description | Default |\n|-----------|-------------|---------|\n| `--base` | Base branch to compare against | Config file or `main` |\n| `--ai-provider` | AI provider to use (openai, anthropic, local, gemini) | Configured in settings |\n| `--model` | Specific AI model to use (see recommended models below) | Provider default |\n| `--config` | Path to custom configuration file | `.git-smart-squash.yml` or `~/.git-smart-squash.yml` |\n| `--auto-apply` | Apply commit plan without confirmation prompt | `false` |\n| `--instructions`, `-i` | Custom instructions for AI (e.g., \"Group by feature area\") | None |\n| `--no-attribution` | Disable attribution message in commits | `false` |\n| `--debug` | Enable debug logging for detailed information | `false` |\n\n## Recommended Models\n\n### Default Models\n- **OpenAI**: `gpt-4.1` (default)\n- **Anthropic**: `claude-sonnet-4-20250514` (default)\n- **Gemini**: `gemini-2.5-pro` (default)\n- **Local/Ollama**: `devstral` (default)\n",
+    "ContentSha": "FHYkiFSoZVlQv4AVehbXxD+gtFweeUnhmkjMtC2rCb4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "همین است. طرح را مرور کرده و تأیید کنید.\n\n## پارامترهای خط فرمان\n\n| پارامتر | توضیح | پیش‌فرض |\n|---------|-------|---------|\n| `--base` | شاخه پایه برای مقایسه | فایل تنظیمات یا `main` |\n| `--ai-provider` | ارائه‌دهنده هوش مصنوعی برای استفاده (openai، anthropic، local، gemini) | تنظیم‌شده در تنظیمات |\n| `--model` | مدل هوش مصنوعی خاص برای استفاده (مدل‌های پیشنهادی را در زیر ببینید) | پیش‌فرض ارائه‌دهنده |\n| `--config` | مسیر فایل پیکربندی سفارشی | `.git-smart-squash.yml` یا `~/.git-smart-squash.yml` |\n| `--auto-apply` | اعمال طرح کامیت بدون درخواست تأیید | `false` |\n| `--instructions`, `-i` | دستورالعمل‌های سفارشی برای هوش مصنوعی (مثلاً: \"بر اساس ناحیه ویژگی گروه‌بندی کن\") | هیچ‌کدام |\n| `--no-attribution` | غیرفعال کردن پیام انتساب در کامیت‌ها | `false` |\n| `--debug` | فعال‌سازی لاگ‌برداری اشکال‌زدایی برای اطلاعات جزئی | `false` |\n\n## مدل‌های پیشنهادی\n\n### مدل‌های پیش‌فرض\n- **OpenAI**: `gpt-4.1` (پیش‌فرض)\n- **Anthropic**: `claude-sonnet-4-20250514` (پیش‌فرض)\n- **Gemini**: `gemini-2.5-pro` (پیش‌فرض)\n- **Local/Ollama**: `devstral` (پیش‌فرض)",
+    "Status": "ok"
+  },
+  {
+    "Id": 5,
+    "Content": "### Model Selection\n```bash\n# Specify a different model\ngit-smart-squash --ai-provider openai --model gpt-4.1-mini\n\n# For local Ollama\ngit-smart-squash --ai-provider local --model llama-3.1\n```\n\n## Custom Instructions\n\nThe `--instructions` parameter lets you control how commits are organized:\n\n### Examples\n```bash\n# Add ticket prefixes\ngit-smart-squash -i \"Prefix all commits with [ABC-1234]\"\n\n# Separate by type\ngit-smart-squash -i \"Keep backend and frontend changes in separate commits\"\n",
+    "ContentSha": "59gf0Ud/6VrjgyVEVt6QJCKgcdF63NaibO10tb7S2Gg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "error"
+  },
+  {
+    "Id": 6,
+    "Content": "# Limit commit count\ngit-smart-squash -i \"Create at most 3 commits total\"\n```\n\n### Tips for Better Results\n- **Be specific**: \"Group database migrations separately\" works better than \"organize nicely\"\n- **One instruction at a time**: Complex multi-part instructions may be partially ignored\n- **Use better models**: Larger models follow instructions more reliably than smaller models\n\n## Common Use Cases\n\n### \"I need to clean up before PR review\"\n```bash\ngit-smart-squash              # Shows plan and prompts for confirmation\ngit-smart-squash --auto-apply # Auto-applies without prompting\n```\n\n### \"I work with a different main branch\"\n```bash\ngit-smart-squash --base develop\n```",
+    "ContentSha": "7nTUyDnFpIUxSGbqAObHJzIk8bye8cMxqP2qS/Y3PbA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# محدود کردن تعداد کامیت‌ها\ngit-smart-squash -i \"در مجموع حداکثر ۳ کامیت ایجاد کن\"\n```\n\n### نکات برای نتایج بهتر\n- **دقیق باشید**: \"مهاجرت‌های دیتابیس را جداگانه گروه‌بندی کن\" بهتر از \"مرتب سازماندهی کن\" عمل می‌کند\n- **هر بار یک دستور**: دستورالعمل‌های پیچیده چندبخشی ممکن است به‌طور ناقص اجرا شوند\n- **از مدل‌های بهتر استفاده کنید**: مدل‌های بزرگ‌تر دستورالعمل‌ها را قابل اعتمادتر دنبال می‌کنند تا مدل‌های کوچک‌تر\n\n## موارد استفاده رایج\n\n### \"قبل از بررسی PR باید پاک‌سازی کنم\"\n```bash\ngit-smart-squash              # برنامه را نمایش داده و تأیید می‌خواهد\ngit-smart-squash --auto-apply # به‌صورت خودکار و بدون پرسش اجرا می‌کند\n```\n\n### \"با شاخه اصلی متفاوتی کار می‌کنم\"\n```bash\ngit-smart-squash --base develop\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 7,
+    "Content": "\n### \"I want to use a specific AI provider\"\n```bash\ngit-smart-squash --ai-provider openai\n```\n\n## Safety\n\n**Your code is safe:**\n- Shows plan before making changes\n- Creates automatic backup branch\n- Requires clean working directory\n- Never pushes without your command\n\n**If something goes wrong:**\n```bash\n# Find backup\ngit branch | grep backup\n\n# Restore",
+    "ContentSha": "jqyM7EpZCqjhGFDKwBL5vcbG/ueNzkXRL+XYCfGmMWk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "error"
+  },
+  {
+    "Id": 8,
+    "Content": "git reset --hard your-branch-backup-[timestamp]\n```\n\n## AI Providers\n\n| Provider | Cost | Privacy |\n|----------|------|---------|\n| **Ollama** | Free | Local |\n| **OpenAI** | ~$0.01 | Cloud |\n| **Anthropic** | ~$0.01 | Cloud |\n| **Gemini** | ~$0.01 | Cloud |\n\n## Advanced Configuration (Optional)\n\nWant to customize? Create a config file:\n\n**Project-specific** (`.git-smart-squash.yml` in your repo):\n```yaml\nai:\n  provider: openai  # Use OpenAI for this project\nbase: develop       # Use develop as the base branch for this project\n```",
+    "ContentSha": "cbvq8zqp7rEHJXGfenotUkrPuefqa6+NRO/YEUMQDwg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "git reset --hard your-branch-backup-[timestamp]\n```\n\n## ارائه‌دهندگان هوش مصنوعی\n\n| ارائه‌دهنده | هزینه | حریم خصوصی |\n|--------------|-------|-------------|\n| **Ollama**   | رایگان | محلی       |\n| **OpenAI**   | ~۰.۰۱ دلار | ابری      |\n| **Anthropic**| ~۰.۰۱ دلار | ابری      |\n| **Gemini**   | ~۰.۰۱ دلار | ابری      |\n\n## پیکربندی پیشرفته (اختیاری)\n\nمی‌خواهید سفارشی‌سازی کنید؟ یک فایل پیکربندی بسازید:\n\n**مخصوص پروژه** (`.git-smart-squash.yml` در مخزن شما):\n```yaml\nai:\n  provider: openai  # استفاده از OpenAI برای این پروژه\nbase: develop       # استفاده از develop به عنوان شاخه مبنا برای این پروژه\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 9,
+    "Content": "\n**Global default** (`~/.git-smart-squash.yml`):\n```yaml\nai:\n  provider: local   # Always use local AI by default\nbase: main          # Default base branch for all projects\n```\n\n## Troubleshooting\n\n### \"Invalid JSON\" Error\nThis usually means the AI model couldn't format the response properly:\n- **With Ollama**: Switch from `llama2` to `mistral` or `mixtral`\n- **Solution**: `ollama pull mistral` then retry\n- **Alternative**: Use a cloud provider with `--ai-provider openai`\n\n### Model Not Following Instructions\nSome models struggle with complex instructions:\n- **Use better models**: `--model gpt-4-turbo` or `--model claude-3-opus`\n- **Simplify instructions**: One clear directive works better than multiple\n- **Be explicit**: \"Prefix with [ABC-123]\" not \"add ticket number\"\n",
+    "ContentSha": "ruyVxIfT4WTr9bP+5oPa/qMG4IErv3+CDdE6eUC1i40=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**پیش‌فرض جهانی** (`~/.git-smart-squash.yml`):\n```yaml\nai:\n  provider: local   # همیشه به طور پیش‌فرض از AI محلی استفاده کن\nbase: main          # شاخه مبنای پیش‌فرض برای همه پروژه‌ها\n```\n\n## رفع اشکال\n\n### خطای \"JSON نامعتبر\"\nاین معمولاً به این معناست که مدل AI نتوانسته پاسخ را به درستی قالب‌بندی کند:\n- **در صورت استفاده از Ollama**: از `llama2` به `mistral` یا `mixtral` تغییر دهید\n- **راه‌حل**: `ollama pull mistral` را اجرا کنید و مجدداً تلاش کنید\n- **جایگزین**: از یک ارائه‌دهنده ابری با `--ai-provider openai` استفاده کنید\n\n### مدل از دستورات پیروی نمی‌کند\nبرخی مدل‌ها در اجرای دستورالعمل‌های پیچیده مشکل دارند:\n- **از مدل‌های بهتر استفاده کنید**: `--model gpt-4-turbo` یا `--model claude-3-opus`\n- **دستورالعمل‌ها را ساده کنید**: یک دستور روشن بهتر از چندین دستور است\n- **صراحت داشته باشید**: \"با [ABC-123] پیشوند بزن\" نه \"شماره تیکت را اضافه کن\"\n",
+    "Status": "ok"
+  },
+  {
+    "Id": 10,
+    "Content": "### \"Ollama not found\" \n```bash\n# Install from https://ollama.com\nollama serve\nollama pull devstral  # Default model\n```\n\n### Poor Commit Grouping\nIf the AI creates too many commits or doesn't group well:\n- **Insufficient model**: Use a larger model\n- **Add instructions**: `-i \"Group related changes, max 3 commits\"`\n- **Provide Feedback**: Create an issue on GitHub and let us know what happened\n\n### Installation Issues (Mac)\nIf you don't have pip or prefer isolated installs:\n```bash\n# Using pipx (recommended)\nbrew install pipx\npipx install git-smart-squash\n```",
+    "ContentSha": "hQidcRHXIHVp8HWTIk4gtBeFiqIMKxkhn/WP2kGe4O8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### \"Ollama پیدا نشد\"\n```bash\n# نصب از https://ollama.com\nollama serve\nollama pull devstral  # مدل پیش‌فرض\n```\n\n### گروه‌بندی ضعیف کامیت‌ها\nاگر هوش مصنوعی تعداد زیادی کامیت ایجاد می‌کند یا به خوبی گروه‌بندی نمی‌کند:\n- **مدل ناکافی**: از یک مدل بزرگ‌تر استفاده کنید\n- **افزودن دستورالعمل**: `-i \"تغییرات مرتبط را گروه‌بندی کن، حداکثر ۳ کامیت\"`\n- **ارائه بازخورد**: یک issue در GitHub ایجاد کنید و به ما اطلاع دهید چه اتفاقی افتاده است\n\n### مشکلات نصب (مک)\nاگر pip ندارید یا نصب‌های ایزوله ترجیح می‌دهید:\n```bash\n# استفاده از pipx (توصیه‌شده)\nbrew install pipx\npipx install git-smart-squash\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 11,
+    "Content": "\n### \"No changes to reorganize\"\n```bash\ngit log --oneline main..HEAD  # Check you have commits\ngit diff main                 # Check you have changes\n```\n\n### Large Diffs / Token Limits\nLocal models have a ~32k token limit. For large changes:\n- Use `--base` with a more recent commit\n- Switch to cloud: `--ai-provider openai`\n- Split into smaller PRs\n\n### Need More Help?\n\nCheck out our [detailed documentation](https://raw.githubusercontent.com/edverma/git-smart-squash/main/DOCUMENTATION.md) or open an issue!\n\n## License\n\nMIT License - see [LICENSE](LICENSE) file for details.\n\n",
+    "ContentSha": "k1D47P387wrc5Isgrv1an4BozuTmAFJ//QE6JVvzSQM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### \"تغییری برای بازسازیش وجود ندارد\"\n```bash\ngit log --oneline main..HEAD  # بررسی کنید که کامیت دارید\ngit diff main                 # بررسی کنید که تغییر دارید\n```\n\n### تفاوت‌های بزرگ / محدودیت توکن\nمدل‌های محلی دارای محدودیت حدود ۳۲ هزار توکن هستند. برای تغییرات بزرگ:\n- از `--base` با یک کامیت جدیدتر استفاده کنید\n- به فضای ابری سوئیچ کنید: `--ai-provider openai`\n- به چند PR کوچکتر تقسیم کنید\n\n### به کمک بیشتری نیاز دارید؟\n\n[مستندات جامع ما](https://raw.githubusercontent.com/edverma/git-smart-squash/main/DOCUMENTATION.md) را بررسی کنید یا یک ایشو باز کنید!\n\n## مجوز\n\nمجوز MIT - برای جزییات به فایل [LICENSE](LICENSE) مراجعه کنید.\n",
+    "Status": "ok"
+  }
+]

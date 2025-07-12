@@ -1,0 +1,112 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Git Smart Squash\n\nStop wasting time manually reorganizing commits. Let AI do it for you.\n\n## The Problem\n\nYou've been there: 15 commits for a feature, half of them are \"fix\", \"typo\", or \"WIP\". Now you need to clean it up for PR review. Manually squashing and rewriting is tedious.\n\n## The Solution\n\nGit Smart Squash analyzes your changes and reorganizes them into logical commits with proper messages:\n\n```bash\n# Before: your messy branch\n* fix tests\n* typo  \n* more auth changes\n* WIP: working on auth\n* update tests\n* initial auth implementation\n",
+    "ContentSha": "YH9fY4xY/lXi3x+BR8NmyNqmDID4lmWiXBc3LGsn598=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Git Smart Squash\n\n别再浪费时间手动整理提交记录了。让 AI 替你完成这项工作。\n\n## 问题\n\n你一定遇到过这种情况：为一个功能分支提交了 15 次，有一半的提交信息是 “fix”、“typo” 或 “WIP”。现在你需要为 PR 审查进行整理。手动合并和重写提交记录非常繁琐。\n\n## 解决方案\n\nGit Smart Squash 会分析你的更改，并将它们重新组织为具有规范提交信息的逻辑提交：\n\n```bash\n# 之前：凌乱的分支\n* fix tests\n* typo  \n* more auth changes\n* WIP: working on auth\n* update tests\n* initial auth implementation\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 2,
+    "Content": "# After: clean, logical commits\n* feat: implement JWT authentication system\n* test: add auth endpoint coverage\n```\n\n## Quick Start\n\n### 1. Install\n\n```bash\n# Using pip\npip install git-smart-squash\n\n# Using pipx (recommended for isolated install)\npipx install git-smart-squash\n\n# Using uv (fast Python package manager)\nuv tool install git-smart-squash\n```\n",
+    "ContentSha": "pCxRMKQBu7AVNIWAqJtAKbTpwM6cJjK4yafCwq44TOU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# After: clean, logical commits\n* feat: 实现 JWT 认证系统\n* test: 增加认证端点的测试覆盖\n\n```\n\n## 快速开始\n\n### 1. 安装\n\n```bash\n# 使用 pip\npip install git-smart-squash\n\n# 使用 pipx（推荐隔离安装）\npipx install git-smart-squash\n\n# 使用 uv（快速的 Python 包管理器）\nuv tool install git-smart-squash\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 3,
+    "Content": "### 2. Set up AI\n\n**Option A: Local (Free, Private)**\n```bash\n# Install Ollama from https://ollama.com\nollama pull devstral  # Default model\n```\n\n**Option B: Cloud (Better results)**\n```bash\nexport OPENAI_API_KEY=\"your-key\"\nexport ANTHROPIC_API_KEY=\"your-key\"\nexport GEMINI_API_KEY=\"your-key\"\n```\n\n### 3. Run\n\n```bash\ncd your-repo\ngit-smart-squash\n```",
+    "ContentSha": "E2AGy4/eSi9FJ42apR9qXMYSpkkZrzqrl3Mn22oJODw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 2. 设置 AI\n\n**选项 A：本地（免费，私密）**\n```bash\n# 从 https://ollama.com 安装 Ollama\nollama pull devstral  # 默认模型\n```\n\n**选项 B：云端（效果更好）**\n```bash\nexport OPENAI_API_KEY=\"your-key\"\nexport ANTHROPIC_API_KEY=\"your-key\"\nexport GEMINI_API_KEY=\"your-key\"\n```\n\n### 3. 运行\n\n```bash\ncd your-repo\ngit-smart-squash\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 4,
+    "Content": "\nThat's it. Review the plan and approve.\n\n## Command Line Parameters\n\n| Parameter | Description | Default |\n|-----------|-------------|---------|\n| `--base` | Base branch to compare against | Config file or `main` |\n| `--ai-provider` | AI provider to use (openai, anthropic, local, gemini) | Configured in settings |\n| `--model` | Specific AI model to use (see recommended models below) | Provider default |\n| `--config` | Path to custom configuration file | `.git-smart-squash.yml` or `~/.git-smart-squash.yml` |\n| `--auto-apply` | Apply commit plan without confirmation prompt | `false` |\n| `--instructions`, `-i` | Custom instructions for AI (e.g., \"Group by feature area\") | None |\n| `--no-attribution` | Disable attribution message in commits | `false` |\n| `--debug` | Enable debug logging for detailed information | `false` |\n\n## Recommended Models\n\n### Default Models\n- **OpenAI**: `gpt-4.1` (default)\n- **Anthropic**: `claude-sonnet-4-20250514` (default)\n- **Gemini**: `gemini-2.5-pro` (default)\n- **Local/Ollama**: `devstral` (default)\n",
+    "ContentSha": "FHYkiFSoZVlQv4AVehbXxD+gtFweeUnhmkjMtC2rCb4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "就是这样。请审核计划并批准。\n\n## 命令行参数\n\n| 参数 | 描述 | 默认值 |\n|-----------|-------------|---------|\n| `--base` | 用于比较的基准分支 | 配置文件或 `main` |\n| `--ai-provider` | 要使用的AI提供商（openai、anthropic、local、gemini） | 在设置中配置 |\n| `--model` | 要使用的具体AI模型（见下方推荐模型） | 提供商默认值 |\n| `--config` | 自定义配置文件的路径 | `.git-smart-squash.yml` 或 `~/.git-smart-squash.yml` |\n| `--auto-apply` | 无需确认提示自动应用提交计划 | `false` |\n| `--instructions`, `-i` | AI的自定义指令（例如，“按功能区域分组”） | 无 |\n| `--no-attribution` | 禁用提交中的归属信息 | `false` |\n| `--debug` | 启用详细信息的调试日志 | `false` |\n\n## 推荐模型\n\n### 默认模型\n- **OpenAI**：`gpt-4.1`（默认）\n- **Anthropic**：`claude-sonnet-4-20250514`（默认）\n- **Gemini**：`gemini-2.5-pro`（默认）\n- **Local/Ollama**：`devstral`（默认）\n",
+    "Status": "ok"
+  },
+  {
+    "Id": 5,
+    "Content": "### Model Selection\n```bash\n# Specify a different model\ngit-smart-squash --ai-provider openai --model gpt-4.1-mini\n\n# For local Ollama\ngit-smart-squash --ai-provider local --model llama-3.1\n```\n\n## Custom Instructions\n\nThe `--instructions` parameter lets you control how commits are organized:\n\n### Examples\n```bash\n# Add ticket prefixes\ngit-smart-squash -i \"Prefix all commits with [ABC-1234]\"\n\n# Separate by type\ngit-smart-squash -i \"Keep backend and frontend changes in separate commits\"\n",
+    "ContentSha": "59gf0Ud/6VrjgyVEVt6QJCKgcdF63NaibO10tb7S2Gg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 模型选择\n```bash\n# 指定不同的模型\ngit-smart-squash --ai-provider openai --model gpt-4.1-mini\n\n# 本地 Ollama\ngit-smart-squash --ai-provider local --model llama-3.1\n```\n\n## 自定义指令\n\n`--instructions` 参数可让你控制提交的组织方式：\n\n### 示例\n```bash\n# 添加工单前缀\ngit-smart-squash -i \"Prefix all commits with [ABC-1234]\"\n\n# 按类型分开\ngit-smart-squash -i \"Keep backend and frontend changes in separate commits\"\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 6,
+    "Content": "# Limit commit count\ngit-smart-squash -i \"Create at most 3 commits total\"\n```\n\n### Tips for Better Results\n- **Be specific**: \"Group database migrations separately\" works better than \"organize nicely\"\n- **One instruction at a time**: Complex multi-part instructions may be partially ignored\n- **Use better models**: Larger models follow instructions more reliably than smaller models\n\n## Common Use Cases\n\n### \"I need to clean up before PR review\"\n```bash\ngit-smart-squash              # Shows plan and prompts for confirmation\ngit-smart-squash --auto-apply # Auto-applies without prompting\n```\n\n### \"I work with a different main branch\"\n```bash\ngit-smart-squash --base develop\n```",
+    "ContentSha": "7nTUyDnFpIUxSGbqAObHJzIk8bye8cMxqP2qS/Y3PbA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 限制提交数量\ngit-smart-squash -i \"最多创建 3 个提交\"\n```\n\n### 提高效果的建议\n- **要具体**：“将数据库迁移单独分组”比“整理得好看”更有效\n- **每次只给一个指令**：复杂的多部分指令可能会被部分忽略\n- **使用更好的模型**：大型模型比小型模型更能可靠地遵循指令\n\n## 常见用例\n\n### “我需要在 PR 审查前整理提交”\n```bash\ngit-smart-squash              # 显示计划并提示确认\ngit-smart-squash --auto-apply # 自动应用，无需确认\n```\n\n### “我的主分支不是 main”\n```bash\ngit-smart-squash --base develop\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 7,
+    "Content": "\n### \"I want to use a specific AI provider\"\n```bash\ngit-smart-squash --ai-provider openai\n```\n\n## Safety\n\n**Your code is safe:**\n- Shows plan before making changes\n- Creates automatic backup branch\n- Requires clean working directory\n- Never pushes without your command\n\n**If something goes wrong:**\n```bash\n# Find backup\ngit branch | grep backup\n\n# Restore",
+    "ContentSha": "jqyM7EpZCqjhGFDKwBL5vcbG/ueNzkXRL+XYCfGmMWk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### “我想使用特定的 AI 提供商”\n```bash\ngit-smart-squash --ai-provider openai\n```\n\n## 安全性\n\n**你的代码是安全的：**\n- 在进行更改前显示操作计划\n- 自动创建备份分支\n- 需要工作区干净无未提交更改\n- 不会在未经你命令的情况下推送\n\n**如果出现问题：**\n```bash\n# 查找备份\ngit branch | grep backup\n\n# 恢复",
+    "Status": "ok"
+  },
+  {
+    "Id": 8,
+    "Content": "git reset --hard your-branch-backup-[timestamp]\n```\n\n## AI Providers\n\n| Provider | Cost | Privacy |\n|----------|------|---------|\n| **Ollama** | Free | Local |\n| **OpenAI** | ~$0.01 | Cloud |\n| **Anthropic** | ~$0.01 | Cloud |\n| **Gemini** | ~$0.01 | Cloud |\n\n## Advanced Configuration (Optional)\n\nWant to customize? Create a config file:\n\n**Project-specific** (`.git-smart-squash.yml` in your repo):\n```yaml\nai:\n  provider: openai  # Use OpenAI for this project\nbase: develop       # Use develop as the base branch for this project\n```",
+    "ContentSha": "cbvq8zqp7rEHJXGfenotUkrPuefqa6+NRO/YEUMQDwg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "git reset --hard your-branch-backup-[timestamp]\n```\n\n## AI 提供商\n\n| 提供商    | 费用    | 隐私   |\n|-----------|--------|--------|\n| **Ollama**    | 免费   | 本地   |\n| **OpenAI**    | ~$0.01 | 云端   |\n| **Anthropic** | ~$0.01 | 云端   |\n| **Gemini**    | ~$0.01 | 云端   |\n\n## 高级配置（可选）\n\n想要自定义？创建一个配置文件：\n\n**项目专用**（在你的仓库中放置 `.git-smart-squash.yml`）:\n```yaml\nai:\n  provider: openai  # 该项目使用 OpenAI\nbase: develop       # 该项目使用 develop 作为基础分支\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 9,
+    "Content": "\n**Global default** (`~/.git-smart-squash.yml`):\n```yaml\nai:\n  provider: local   # Always use local AI by default\nbase: main          # Default base branch for all projects\n```\n\n## Troubleshooting\n\n### \"Invalid JSON\" Error\nThis usually means the AI model couldn't format the response properly:\n- **With Ollama**: Switch from `llama2` to `mistral` or `mixtral`\n- **Solution**: `ollama pull mistral` then retry\n- **Alternative**: Use a cloud provider with `--ai-provider openai`\n\n### Model Not Following Instructions\nSome models struggle with complex instructions:\n- **Use better models**: `--model gpt-4-turbo` or `--model claude-3-opus`\n- **Simplify instructions**: One clear directive works better than multiple\n- **Be explicit**: \"Prefix with [ABC-123]\" not \"add ticket number\"\n",
+    "ContentSha": "ruyVxIfT4WTr9bP+5oPa/qMG4IErv3+CDdE6eUC1i40=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "error"
+  },
+  {
+    "Id": 10,
+    "Content": "### \"Ollama not found\" \n```bash\n# Install from https://ollama.com\nollama serve\nollama pull devstral  # Default model\n```\n\n### Poor Commit Grouping\nIf the AI creates too many commits or doesn't group well:\n- **Insufficient model**: Use a larger model\n- **Add instructions**: `-i \"Group related changes, max 3 commits\"`\n- **Provide Feedback**: Create an issue on GitHub and let us know what happened\n\n### Installation Issues (Mac)\nIf you don't have pip or prefer isolated installs:\n```bash\n# Using pipx (recommended)\nbrew install pipx\npipx install git-smart-squash\n```",
+    "ContentSha": "hQidcRHXIHVp8HWTIk4gtBeFiqIMKxkhn/WP2kGe4O8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "error"
+  },
+  {
+    "Id": 11,
+    "Content": "\n### \"No changes to reorganize\"\n```bash\ngit log --oneline main..HEAD  # Check you have commits\ngit diff main                 # Check you have changes\n```\n\n### Large Diffs / Token Limits\nLocal models have a ~32k token limit. For large changes:\n- Use `--base` with a more recent commit\n- Switch to cloud: `--ai-provider openai`\n- Split into smaller PRs\n\n### Need More Help?\n\nCheck out our [detailed documentation](https://raw.githubusercontent.com/edverma/git-smart-squash/main/DOCUMENTATION.md) or open an issue!\n\n## License\n\nMIT License - see [LICENSE](LICENSE) file for details.\n\n",
+    "ContentSha": "k1D47P387wrc5Isgrv1an4BozuTmAFJ//QE6JVvzSQM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### “没有可重组的更改”\n```bash\ngit log --oneline main..HEAD  # 检查你是否有提交\ngit diff main                 # 检查你是否有更改\n```\n\n### 大型差异 / Token 限制\n本地模型约有 32k token 限制。对于较大的更改：\n- 使用 `--base` 指定一个更近的提交\n- 切换到云端：`--ai-provider openai`\n- 拆分为更小的 PR\n\n### 需要更多帮助？\n\n请查阅我们的[详细文档](https://raw.githubusercontent.com/edverma/git-smart-squash/main/DOCUMENTATION.md)或提交 issue！\n\n## 许可证\n\nMIT 许可证 - 详情请参见 [LICENSE](LICENSE) 文件。",
+    "Status": "ok"
+  }
+]
