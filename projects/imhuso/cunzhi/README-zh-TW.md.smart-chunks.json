@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### ⚙️ 設定管理介面\n![寸止設定介面](https://raw.githubusercontent.com/imhuso/cunzhi/main/./screenshots/settings.png)\n\n*優雅的設定介面，支援記憶管理、功能開關、主題切換和智慧提示詞生成*\n\n## 🚀 開始使用\n\n### 方式一：快速安裝（推薦）\n\n**macOS 使用者：**\n```bash\n# 3 秒安裝，無需等待編譯\nbrew tap imhuso/cunzhi && brew install cunzhi\n```\n\n> ⚠️ **故障排除**：如果遇到 404 下載錯誤，請執行以下步驟：\n>\n> ```bash\n> # 清除舊的 tap 快取\n> brew untap imhuso/cunzhi\n> # 重新安裝\n> brew tap imhuso/cunzhi && brew install cunzhi\n> ```\n>\n> **常見錯誤範例：**\n> ```\n> curl: (56) The requested URL returned error: 404\n> Error: cunzhi: Failed to download resource \"cunzhi\"\n> Download failed: https://github.com/imhuso/cunzhi/releases/download/v0.2.0/cunzhi-cli-v0.2.4-macos-aarch64.tar.gz\n> ```\n>\n> 這通常是由於先前版本的快取問題導致版本號不匹配。清除 tap 後重新安裝即可解決。\n\n**Windows/Linux 使用者：**\n推薦使用方式二手動下載，簡單快捷！",
+    "Status": "ok"
   },
   {
     "Id": 3,

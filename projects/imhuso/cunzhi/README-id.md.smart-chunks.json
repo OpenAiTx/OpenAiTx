@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### ⚙️ Antarmuka Pengelolaan Pengaturan\n![Tampilan Pengaturan Cunzhi](https://raw.githubusercontent.com/imhuso/cunzhi/main/./screenshots/settings.png)\n\n*Antarmuka pengaturan yang elegan, mendukung manajemen memori, saklar fungsi, pergantian tema, dan pembuatan prompt pintar*\n\n## 🚀 Mulai Menggunakan\n\n### Cara 1: Instalasi Cepat (Direkomendasikan)\n\n**Pengguna macOS:**\n```bash\n# Instalasi dalam 3 detik, tanpa menunggu kompilasi\nbrew tap imhuso/cunzhi && brew install cunzhi\n```\n\n> ⚠️ **Pemecahan Masalah**: Jika Anda mengalami kesalahan unduhan 404, silakan lakukan langkah-langkah berikut:\n>\n> ```bash\n> # Bersihkan cache tap lama\n> brew untap imhuso/cunzhi\n> # Instal ulang\n> brew tap imhuso/cunzhi && brew install cunzhi\n> ```\n>\n> **Contoh Kesalahan Umum:**\n> ```\n> curl: (56) The requested URL returned error: 404\n> Error: cunzhi: Failed to download resource \"cunzhi\"\n> Download failed: https://github.com/imhuso/cunzhi/releases/download/v0.2.0/cunzhi-cli-v0.2.4-macos-aarch64.tar.gz\n> ```\n>\n> Ini biasanya disebabkan oleh masalah cache versi sebelumnya yang menyebabkan ketidakcocokan nomor versi. Bersihkan tap lalu instal ulang untuk mengatasinya.\n\n**Pengguna Windows/Linux:**\nDirekomendasikan untuk menggunakan cara kedua dengan mengunduh secara manual, mudah dan cepat!",
+    "Status": "ok"
   },
   {
     "Id": 3,
@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### 方式 kedua: Unduh Manual\n\n1. Kunjungi [halaman Rilis](https://github.com/imhuso/cunzhi/releases)\n2. Unduh versi yang sesuai dengan sistem Anda:\n   - 🐧 **Linux**: `cunzhi-cli-v*-linux-x86_64.tar.gz`\n   - 🍎 **macOS (Intel)**: `cunzhi-cli-v*-macos-x86_64.tar.gz`\n   - 🍎 **macOS (Apple Silicon)**: `cunzhi-cli-v*-macos-aarch64.tar.gz`\n   - 🪟 **Windows**: `cunzhi-cli-v*-windows-x86_64.zip`\n\n3. Setelah diekstrak, tambahkan `寸止` dan `等一下` ke PATH sistem\n\n## ⚡ Mulai Cepat\n\n### Langkah Pertama: Konfigurasi Klien MCP\n\nTambahkan ke file konfigurasi klien MCP Anda (seperti Claude Desktop):\n\n```json\n{\n  \"mcpServers\": {\n    \"寸止\": {\n      \"command\": \"寸止\"\n    }\n  }\n}\n```",
+    "Status": "ok"
   },
   {
     "Id": 4,

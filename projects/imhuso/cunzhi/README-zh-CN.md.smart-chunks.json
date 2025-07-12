@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### 方式二：手动下载\n\n1. 访问 [Releases 页面](https://github.com/imhuso/cunzhi/releases)\n2. 下载适合你系统的版本：\n   - 🐧 **Linux**: `cunzhi-cli-v*-linux-x86_64.tar.gz`\n   - 🍎 **macOS (Intel)**: `cunzhi-cli-v*-macos-x86_64.tar.gz`\n   - 🍎 **macOS (Apple Silicon)**: `cunzhi-cli-v*-macos-aarch64.tar.gz`\n   - 🪟 **Windows**: `cunzhi-cli-v*-windows-x86_64.zip`\n\n3. 解压后将 `寸止` 和 `等一下` 添加到系统 PATH\n\n## ⚡ 快速上手\n\n### 第一步：配置 MCP 客户端\n\n在你的 MCP 客户端（如 Claude Desktop）配置文件中添加：\n\n```json\n{\n  \"mcpServers\": {\n    \"寸止\": {\n      \"command\": \"寸止\"\n    }\n  }\n}\n```",
+    "Status": "ok"
   },
   {
     "Id": 4,

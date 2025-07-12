@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### ⚙️ Interfaz de gestión de configuración\n![Interfaz de configuración de Cunzhi](https://raw.githubusercontent.com/imhuso/cunzhi/main/./screenshots/settings.png)\n\n*Interfaz de configuración elegante, soporta gestión de memoria, interruptores de funciones, cambio de tema y generación inteligente de prompts*\n\n## 🚀 Comenzar a usar\n\n### Método 1: Instalación rápida (recomendado)\n\n**Usuarios de macOS:**\n```bash\n# Instalación en 3 segundos, sin necesidad de esperar compilación\nbrew tap imhuso/cunzhi && brew install cunzhi\n```\n\n> ⚠️ **Solución de problemas**: Si te encuentras con un error 404 al descargar, realiza los siguientes pasos:\n>\n> ```bash\n> # Limpiar la caché antigua de tap\n> brew untap imhuso/cunzhi\n> # Reinstalar\n> brew tap imhuso/cunzhi && brew install cunzhi\n> ```\n>\n> **Ejemplo de error común:**\n> ```\n> curl: (56) The requested URL returned error: 404\n> Error: cunzhi: Failed to download resource \"cunzhi\"\n> Download failed: https://github.com/imhuso/cunzhi/releases/download/v0.2.0/cunzhi-cli-v0.2.4-macos-aarch64.tar.gz\n> ```\n>\n> Esto normalmente se debe a un problema de caché de versiones anteriores, lo que provoca una incompatibilidad de versiones. Limpiar el tap y reinstalar lo solucionará.\n\n**Usuarios de Windows/Linux:**\n¡Se recomienda utilizar el método 2 para descarga manual, rápido y sencillo!",
+    "Status": "ok"
   },
   {
     "Id": 3,
