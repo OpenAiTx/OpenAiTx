@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## 示例 Ludus Range 配置\n\n```yaml\nludus:\n  - vm_name: \"{{ range_id }}-adaptix-server\"\n    hostname: \"{{ range_id }}-adaptix\"\n    template: debian-12-x64-server-template\n    vlan: 99\n    ip_last_octet: 1\n    ram_gb: 4\n    cpus: 2\n    linux: true\n    roles:\n      - badsectorlabs.ludus_adaptix_c2\n    role_vars:\n      ludus_adaptix_c2_install_server: true\n\n  - vm_name: \"{{ range_id }}-kali-1\"\n    hostname: \"{{ range_id }}-kali-1\"\n    template: kali-x64-desktop-template\n    vlan: 99\n    ip_last_octet: 2\n    ram_gb: 4\n    cpus: 2\n    linux: true\n    roles:\n      - badsectorlabs.ludus_adaptix_c2\n    role_vars:\n      ludus_adaptix_c2_install_client: true\n```",
+    "Status": "ok"
   },
   {
     "Id": 4,

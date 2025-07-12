@@ -6,8 +6,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# نقش Ansible: [Adaptix C2](https://adaptix-framework.gitbook.io/adaptix-framework) ([Ludus](https://ludus.cloud))\n\nیک نقش Ansible که سرور و/یا کلاینت [Adaptix Framework](https://adaptix-framework.gitbook.io/adaptix-framework) و تمام [افزونه‌ها](https://github.com/Adaptix-Framework/Extension-Kit) را بر روی یک میزبان لینوکس مبتنی بر دبیان نصب می‌کند.\n\n![Adaptix Framework](https://raw.githubusercontent.com/badsectorlabs/ludus_adaptix_c2/main/docs/adaptix.png)\n\n## استفاده\n\nبه طور پیش‌فرض، سرور بر روی پورت `4321` و اندپوینت `/endpoint` با رمز عبور `pass` گوش می‌دهد. هر نام کاربری پذیرفته می‌شود. شما می‌توانید این موارد را با متغیرهای نقش تغییر دهید، توضیحات زیر را ببینید.\n\nدر دستگاه کلاینت، فرمان `adaptixclient` را اجرا کنید تا رابط گرافیکی (GUI) راه‌اندازی شود و سپس با استفاده از تنظیمات فوق (مگر اینکه با متغیرها تغییر داده باشید) به سرور وارد شوید.\n\n## پیش‌نیازها\n\nهیچکدام.\n\n## متغیرهای نقش\n\nمتغیرهای قابل استفاده در زیر به همراه مقادیر پیش‌فرض آمده‌اند (به `defaults/main.yml` مراجعه کنید):\n\n    ludus_adaptix_c2_version: 3af8e10c8c2d7d48e3636f48b0f9c80da4d6015d # 0.5 2024-05-28\n    ludus_adaptix_c2_install_server: false # یکی از این یا مورد زیر را روی true قرار دهید وگرنه نقش هیچ کاری انجام نمی‌دهد!\n    ludus_adaptix_c2_install_client: false\n    ludus_adaptix_c2_profile_url:\n    ludus_adaptix_c2_profile_raw:\n    ludus_adaptix_c2_server_args: # -debug می‌تواند اینجا استفاده شود\n    ludus_adaptix_c2_go_version: 1.24.3\n    # تمام گزینه‌های زیر برای اتصال کلاینت‌های GUI Adaptix به سرور است، نه یک عامل c2",
+    "Status": "ok"
   },
   {
     "Id": 2,
@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "    ludus_adaptix_c2_port: ۴۳۲۱\n    ludus_adaptix_c2_endpoint: /endpoint\n    ludus_adaptix_c2_password: pass\n    ludus_adaptix_c2_generate_certificate: true\n    ludus_adaptix_c2_common_name: localhost\n    ludus_adaptix_c2_organization_name: Adaptix C2\n    ludus_adaptix_c2_subject_alt_name_array: \"DNS:localhost,DNS:127.0.0.1,DNS:::1\"\n\n## وابستگی‌ها\n\nندارد.\n\n## نمونه Playbook\n\n```yaml\n- hosts: adaptix_server_host\n  roles:\n    - badsectorlabs.ludus_adaptix_c2\n  vars:\n    ludus_adaptix_c2_install_server: true\n\n- hosts: adaptix_client_host\n  roles:\n    - badsectorlabs.ludus_adaptix_c2\n  vars:\n    ludus_adaptix_c2_install_client: true    \n```",
+    "Status": "ok"
   },
   {
     "Id": 3,

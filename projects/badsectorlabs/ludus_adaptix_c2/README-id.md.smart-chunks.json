@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "    ludus_adaptix_c2_port: 4321\n    ludus_adaptix_c2_endpoint: /endpoint\n    ludus_adaptix_c2_password: pass\n    ludus_adaptix_c2_generate_certificate: true\n    ludus_adaptix_c2_common_name: localhost\n    ludus_adaptix_c2_organization_name: Adaptix C2\n    ludus_adaptix_c2_subject_alt_name_array: \"DNS:localhost,DNS:127.0.0.1,DNS:::1\"\n\n## Dependensi\n\nTidak ada.\n\n## Contoh Playbook\n\n```yaml\n- hosts: adaptix_server_host\n  roles:\n    - badsectorlabs.ludus_adaptix_c2\n  vars:\n    ludus_adaptix_c2_install_server: true\n\n- hosts: adaptix_client_host\n  roles:\n    - badsectorlabs.ludus_adaptix_c2\n  vars:\n    ludus_adaptix_c2_install_client: true    \n```",
+    "Status": "ok"
   },
   {
     "Id": 3,

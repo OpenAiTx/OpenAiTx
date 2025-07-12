@@ -6,8 +6,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# Ansible Role: [Adaptix C2](https://adaptix-framework.gitbook.io/adaptix-framework) ([Ludus](https://ludus.cloud))\n\nUm Papel Ansible que instala o servidor e/ou cliente do [Adaptix Framework](https://adaptix-framework.gitbook.io/adaptix-framework) e todas as [Extensões](https://github.com/Adaptix-Framework/Extension-Kit) em um host Linux baseado em Debian.\n\n![Adaptix Framework](https://raw.githubusercontent.com/badsectorlabs/ludus_adaptix_c2/main/docs/adaptix.png)\n\n## Uso\n\nPor padrão, o servidor escuta na porta `4321` e endpoint `/endpoint` com a senha `pass`. Qualquer nome de usuário é aceito. Você pode alterar esses valores com variáveis do papel, veja abaixo.\n\nNa máquina cliente, execute o comando `adaptixclient` para iniciar a GUI e então faça login no servidor usando as configurações acima (a menos que tenha alterado via variáveis).\n\n## Requisitos\n\nNenhum.\n\n## Variáveis do Papel\n\nAs variáveis disponíveis estão listadas abaixo, juntamente com os valores padrão (veja `defaults/main.yml`):\n\n    ludus_adaptix_c2_version: 3af8e10c8c2d7d48e3636f48b0f9c80da4d6015d # 0.5 2024-05-28\n    ludus_adaptix_c2_install_server: false # Defina este ou o abaixo como true ou o papel não fará nada!\n    ludus_adaptix_c2_install_client: false\n    ludus_adaptix_c2_profile_url:\n    ludus_adaptix_c2_profile_raw:\n    ludus_adaptix_c2_server_args: # -debug pode ser usado aqui\n    ludus_adaptix_c2_go_version: 1.24.3\n    # Todas as opções abaixo são para os clientes GUI do Adaptix se conectarem ao servidor, não para um agente c2",
+    "Status": "ok"
   },
   {
     "Id": 2,

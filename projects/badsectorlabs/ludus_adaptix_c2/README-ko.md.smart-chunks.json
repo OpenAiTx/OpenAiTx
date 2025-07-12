@@ -6,8 +6,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# Ansible 역할: [Adaptix C2](https://adaptix-framework.gitbook.io/adaptix-framework) ([Ludus](https://ludus.cloud))\n\nDebian 기반 리눅스 호스트에 [Adaptix Framework](https://adaptix-framework.gitbook.io/adaptix-framework) 서버 및/또는 클라이언트와 모든 [확장 프로그램](https://github.com/Adaptix-Framework/Extension-Kit)을 설치하는 Ansible 역할입니다.\n\n![Adaptix Framework](https://raw.githubusercontent.com/badsectorlabs/ludus_adaptix_c2/main/docs/adaptix.png)\n\n## 사용법\n\n기본적으로 서버는 포트 `4321`과 엔드포인트 `/endpoint`에서 비밀번호 `pass`로 대기합니다. 모든 사용자 이름이 허용됩니다. 이러한 값들은 역할 변수로 변경할 수 있습니다. 아래를 참조하세요.\n\n클라이언트 머신에서 `adaptixclient` 명령어를 실행하여 GUI를 시작한 후, 위의 설정(변수로 변경하지 않은 경우)을 사용하여 서버에 로그인할 수 있습니다.\n\n## 요구 사항\n\n없음.\n\n## 역할 변수\n\n사용 가능한 변수와 기본값은 아래에 나와 있습니다( `defaults/main.yml` 참조):\n\n    ludus_adaptix_c2_version: 3af8e10c8c2d7d48e3636f48b0f9c80da4d6015d # 0.5 2024-05-28\n    ludus_adaptix_c2_install_server: false # 이것 또는 아래 값을 true로 설정하지 않으면 역할이 아무것도 하지 않습니다!\n    ludus_adaptix_c2_install_client: false\n    ludus_adaptix_c2_profile_url:\n    ludus_adaptix_c2_profile_raw:\n    ludus_adaptix_c2_server_args: # -debug를 여기에 사용할 수 있습니다\n    ludus_adaptix_c2_go_version: 1.24.3\n    # 아래 모든 옵션은 Adaptix GUI 클라이언트가 서버에 연결할 때 사용하는 것이며, c2 에이전트용이 아닙니다.",
+    "Status": "ok"
   },
   {
     "Id": 2,

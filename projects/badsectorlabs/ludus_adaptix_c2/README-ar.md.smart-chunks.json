@@ -6,8 +6,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# دور Ansible: [Adaptix C2](https://adaptix-framework.gitbook.io/adaptix-framework) ([Ludus](https://ludus.cloud))\n\nدور Ansible يقوم بتثبيت [إطار عمل Adaptix](https://adaptix-framework.gitbook.io/adaptix-framework) كخادم و/أو عميل وجميع [الامتدادات](https://github.com/Adaptix-Framework/Extension-Kit) على نظام تشغيل لينكس مبني على Debian.\n\n![إطار عمل Adaptix](https://raw.githubusercontent.com/badsectorlabs/ludus_adaptix_c2/main/docs/adaptix.png)\n\n## الاستخدام\n\nبشكل افتراضي، يستمع الخادم على المنفذ `4321` ونقطة النهاية `/endpoint` مع كلمة المرور `pass`. يتم قبول أي اسم مستخدم. يمكنك تغيير هذه الإعدادات من خلال متغيرات الدور، انظر أدناه.\n\nعلى جهاز العميل، شغل الأمر `adaptixclient` لبدء واجهة المستخدم الرسومية، ثم سجل الدخول إلى الخادم باستخدام الإعدادات أعلاه (ما لم يتم تغييرها عبر المتغيرات).\n\n## المتطلبات\n\nلا يوجد.\n\n## متغيرات الدور\n\nالمتغيرات المتاحة مذكورة أدناه مع القيم الافتراضية (انظر `defaults/main.yml`):\n\n    ludus_adaptix_c2_version: 3af8e10c8c2d7d48e3636f48b0f9c80da4d6015d # 0.5 2024-05-28\n    ludus_adaptix_c2_install_server: false # قم بتعيين هذا أو الذي أدناه إلى true وإلا لن يقوم الدور بأي شيء!\n    ludus_adaptix_c2_install_client: false\n    ludus_adaptix_c2_profile_url:\n    ludus_adaptix_c2_profile_raw:\n    ludus_adaptix_c2_server_args: # -debug يمكن استخدامه هنا\n    ludus_adaptix_c2_go_version: 1.24.3\n    # جميع الخيارات أدناه مخصصة لعملاء واجهة المستخدم الرسومية لـ Adaptix للاتصال بالخادم، وليست لعامل c2",
+    "Status": "ok"
   },
   {
     "Id": 2,
