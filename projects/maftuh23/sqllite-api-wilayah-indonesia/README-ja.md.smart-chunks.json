@@ -1,0 +1,52 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 🇮🇩 SQLite Wilayah Indonesia\n\nDatabase SQLite berisi **data wilayah administratif Indonesia** berdasarkan BPS (Badan Pusat Statistik) yang lengkap:\n\n✅ Provinsi  \n✅ Kabupaten/Kota  \n✅ Kecamatan  \n✅ Desa/Kelurahan <br>\n✅ Kode Pos\n\nData ini berguna untuk aplikasi web, mobile, dan API yang membutuhkan referensi wilayah Indonesia secara hierarki.\n\n---\n\n## 🎯 Fitur\n\n- Data resmi dan lengkap wilayah Indonesia\n- Format SQLite yang ringan, cepat, dan portable\n- **Open source**, bebas digunakan untuk keperluan komersial & non-komersial\n- Mudah diintegrasikan dengan Laravel, CodeIgniter, Node.js, atau framework lain\n- Relasi antar tabel memudahkan query data secara bertingkat\n\n---\n",
+    "ContentSha": "VKLdpW/ibWz03hikS/AlD+YW+Hs/pbOWNEb+rw93gQo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 🇮🇩 SQLite インドネシア地域データベース\n\nSQLiteデータベースには、**BPS（インドネシア統計庁）に基づくインドネシアの行政区域データ**が完全に含まれています：\n\n✅ 州（Provinsi）  \n✅ 県/市（Kabupaten/Kota）  \n✅ 郡（Kecamatan）  \n✅ 村/町（Desa/Kelurahan） <br>\n✅ 郵便番号（Kode Pos）\n\nこのデータは、インドネシアの地域リファレンスが階層的に必要なWebアプリ、モバイルアプリ、APIに役立ちます。\n\n---\n\n## 🎯 特徴\n\n- インドネシアの公式かつ完全な地域データ\n- 軽量、高速、ポータブルなSQLiteフォーマット\n- **オープンソース**、商用・非商用問わず自由に利用可能\n- Laravel、CodeIgniter、Node.jsその他フレームワークとの統合が簡単\n- テーブル間のリレーションにより階層的なデータクエリが容易\n\n---",
+    "Status": "ok"
+  },
+  {
+    "Id": 2,
+    "Content": "## 📂 Struktur Database\n\nDatabase `records.sqlite` berisi tabel:\n\n- `provinces`\n- `regencies`\n- `districts`\n- `villages`\n\n**Relasi antar tabel:**\n\n- `regencies.province_id` → `provinces.id`\n- `districts.regency_id` → `regencies.id`\n- `villages.district_id` → `districts.id`\n\n---\n\n## Composer\n\n📦 Instalasi via Composer\n\nPaket ini tersedia di Packagist:\n\n🔗 Packagist - maftuhichsan/sqlite-wilayah-indonesia\n\nCara Install\n\nJalankan perintah Composer:\n\ncomposer require maftuhichsan/sqlite-wilayah-indonesia\n\nSetelah itu, Anda bisa menggunakan file database yang ada di dalam vendor path:\n\nvendor/maftuhichsan/sqlite-wilayah-indonesia/database/records.sqlite\n\n\n⸻\n\n✨ Contoh Penggunaan di PHP (PDO)\n\n```php\n\n$db = new PDO(__DIR__.'/vendor/maftuhichsan/sqlite-wilayah-indonesia/database/records.sqlite');\n\n// Ambil semua provinsi\n$stmt = $db->query(\"SELECT * FROM provinces\");\n$provinces = $stmt->fetchAll(PDO::FETCH_ASSOC);\n\nprint_r($provinces);\n\n```",
+    "ContentSha": "OVW/xbwr4WMhZOunPaebEkmwBgoMVZjuGkuQnqOMdRA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 📂 データベース構造\n\nデータベース `records.sqlite` には以下のテーブルが含まれています：\n\n- `provinces`\n- `regencies`\n- `districts`\n- `villages`\n\n**テーブル間のリレーション:**\n\n- `regencies.province_id` → `provinces.id`\n- `districts.regency_id` → `regencies.id`\n- `villages.district_id` → `districts.id`\n\n---\n\n## Composer\n\n📦 Composerによるインストール\n\nこのパッケージはPackagistで利用可能です：\n\n🔗 Packagist - maftuhichsan/sqlite-wilayah-indonesia\n\nインストール方法\n\nComposerコマンドを実行してください：\n\ncomposer require maftuhichsan/sqlite-wilayah-indonesia\n\nその後、vendorパス内のデータベースファイルを使用できます：\n\nvendor/maftuhichsan/sqlite-wilayah-indonesia/database/records.sqlite\n\n\n⸻\n\n✨ PHP（PDO）での使用例\n\n```php\n\n$db = new PDO(__DIR__.'/vendor/maftuhichsan/sqlite-wilayah-indonesia/database/records.sqlite');\n\n// すべての都道府県を取得\n$stmt = $db->query(\"SELECT * FROM provinces\");\n$provinces = $stmt->fetchAll(PDO::FETCH_ASSOC);\n\nprint_r($provinces);\n\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 3,
+    "Content": "\n⸻\n\n## NPM\n\n📦 Instalasi via NPM\n\nPaket ini tersedia di NPM:\n\n🔗 NPM - sqlite-wilayah-indonesia\n\nCara Install\n\nJalankan perintah package manager NPM:\n\nnpm install sqlite-wilayah-indonesia\n\n⸻\n\n✨ Contoh Penggunaan di Node.js\n\n```javascript\n// Contoh menggunakan sqlite3\nconst sqlite3 = require('sqlite3').verbose();\nconst path = require('path');\n\n// Arahkan ke file SQLite di node_modules\nconst dbPath = path.join(\n  __dirname,\n  'node_modules',\n  'sqlite-wilayah-indonesia',\n  'database',\n  'records.sqlite'\n);\n\nconst db = new sqlite3.Database(dbPath);\n\n// Ambil semua provinsi\ndb.all(\"SELECT * FROM provinces\", [], (err, rows) => {\n  if (err) {\n    throw err;\n  }\n  console.log(rows);\n});\n\ndb.close();\n```",
+    "ContentSha": "5dgm9YppocOXc9lnOX1vtTiGlQa8fWpalLGHgGXOFrs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "⸻\n\n## NPM\n\n📦 NPM経由でのインストール\n\nこのパッケージはNPMで利用可能です:\n\n🔗 NPM - sqlite-wilayah-indonesia\n\nインストール方法\n\nNPMパッケージマネージャのコマンドを実行してください:\n\nnpm install sqlite-wilayah-indonesia\n\n⸻\n\n✨ Node.jsでの使用例\n\n```javascript\n// sqlite3の使用例\nconst sqlite3 = require('sqlite3').verbose();\nconst path = require('path');\n\n// node_modules内のSQLiteファイルへのパスを指定\nconst dbPath = path.join(\n  __dirname,\n  'node_modules',\n  'sqlite-wilayah-indonesia',\n  'database',\n  'records.sqlite'\n);\n\nconst db = new sqlite3.Database(dbPath);\n\n// 全ての都道府県を取得\ndb.all(\"SELECT * FROM provinces\", [], (err, rows) => {\n  if (err) {\n    throw err;\n  }\n  console.log(rows);\n});\n\ndb.close();\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 4,
+    "Content": "⸻\n\n## 🚀 Cara Pakai\n\n### 1️⃣ Unduh Database\n\nDownload file `records.sqlite` dari repository ini, lalu simpan di project Anda.\n\n### 2️⃣ Query SQL Langsung\n\nContoh query SQL dasar:\n\n```sql\n-- Ambil semua provinsi\nSELECT * FROM provinces;\n\n-- Ambil kabupaten/kota berdasarkan ID provinsi\nSELECT * FROM cities WHERE city_province_code = '31';\n\n-- Ambil kecamatan berdasarkan ID kabupaten/kota\nSELECT * FROM sub_districts WHERE sub_district_city_code = '3171';\n\n-- Ambil desa/kelurahan berdasarkan ID kecamatan\nSELECT * FROM villages WHERE village_sub_district_code = '3171020';\n\n```",
+    "ContentSha": "LFZkZskbOpJiIgKXrgrZ2YmyKdDh4GIoM9FWJmwZDT4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🚀 使い方\n\n### 1️⃣ データベースのダウンロード\n\nこのリポジトリから `records.sqlite` ファイルをダウンロードし、プロジェクトに保存してください。\n\n### 2️⃣ 直接SQLクエリを実行\n\n基本的なSQLクエリの例：\n\n```sql\n-- すべての州（都道府県）を取得\nSELECT * FROM provinces;\n\n-- 州IDに基づいて市/区を取得\nSELECT * FROM cities WHERE city_province_code = '31';\n\n-- 市/区IDに基づいて郡（サブディストリクト）を取得\nSELECT * FROM sub_districts WHERE sub_district_city_code = '3171';\n\n-- 郡IDに基づいて村/町を取得\nSELECT * FROM villages WHERE village_sub_district_code = '3171020';\n\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 5,
+    "Content": "## 🌐 Endpoint API (Coming Soon): \n\nStatus API: Sedang dalam pengembangan.\n",
+    "ContentSha": "gxgOznuhue3cY9PzbXVuJ6+gtqa0Je2J16Vq/ST7Fu0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🌐 エンドポイントAPI（近日公開）:\n\nステータスAPI：開発中です。",
+    "Status": "ok"
+  }
+]

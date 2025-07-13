@@ -1,0 +1,52 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 🇮🇩 SQLite Wilayah Indonesia\n\nDatabase SQLite berisi **data wilayah administratif Indonesia** berdasarkan BPS (Badan Pusat Statistik) yang lengkap:\n\n✅ Provinsi  \n✅ Kabupaten/Kota  \n✅ Kecamatan  \n✅ Desa/Kelurahan <br>\n✅ Kode Pos\n\nData ini berguna untuk aplikasi web, mobile, dan API yang membutuhkan referensi wilayah Indonesia secara hierarki.\n\n---\n\n## 🎯 Fitur\n\n- Data resmi dan lengkap wilayah Indonesia\n- Format SQLite yang ringan, cepat, dan portable\n- **Open source**, bebas digunakan untuk keperluan komersial & non-komersial\n- Mudah diintegrasikan dengan Laravel, CodeIgniter, Node.js, atau framework lain\n- Relasi antar tabel memudahkan query data secara bertingkat\n\n---\n",
+    "ContentSha": "VKLdpW/ibWz03hikS/AlD+YW+Hs/pbOWNEb+rw93gQo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 🇮🇩 SQLite भारत का क्षेत्र\n\nSQLite डेटाबेस में **इंडोनेशिया के प्रशासनिक क्षेत्रों का डेटा** BPS (Badan Pusat Statistik) के अनुसार पूर्ण रूप से शामिल है:\n\n✅ प्रांत  \n✅ रीजेंसी/शहर  \n✅ उप-जिला  \n✅ गाँव/वार्ड <br>\n✅ पिन कोड\n\nयह डेटा उन वेब, मोबाइल, और API एप्लिकेशनों के लिए उपयोगी है जिन्हें इंडोनेशिया के क्षेत्रों की हायरार्किकल रेफरेंस की आवश्यकता होती है।\n\n---\n\n## 🎯 विशेषताएँ\n\n- इंडोनेशिया के क्षेत्र का आधिकारिक और पूर्ण डेटा\n- हल्के, तेज़, और पोर्टेबल SQLite फॉर्मेट में\n- **ओपन सोर्स**, व्यावसायिक और गैर-व्यावसायिक उपयोग के लिए स्वतंत्र\n- Laravel, CodeIgniter, Node.js, या किसी अन्य फ्रेमवर्क के साथ आसानी से एकीकृत किया जा सकता है\n- तालिकाओं के बीच संबंध से डेटा को लेयर अनुसार क्वेरी करना आसान",
+    "Status": "ok"
+  },
+  {
+    "Id": 2,
+    "Content": "## 📂 Struktur Database\n\nDatabase `records.sqlite` berisi tabel:\n\n- `provinces`\n- `regencies`\n- `districts`\n- `villages`\n\n**Relasi antar tabel:**\n\n- `regencies.province_id` → `provinces.id`\n- `districts.regency_id` → `regencies.id`\n- `villages.district_id` → `districts.id`\n\n---\n\n## Composer\n\n📦 Instalasi via Composer\n\nPaket ini tersedia di Packagist:\n\n🔗 Packagist - maftuhichsan/sqlite-wilayah-indonesia\n\nCara Install\n\nJalankan perintah Composer:\n\ncomposer require maftuhichsan/sqlite-wilayah-indonesia\n\nSetelah itu, Anda bisa menggunakan file database yang ada di dalam vendor path:\n\nvendor/maftuhichsan/sqlite-wilayah-indonesia/database/records.sqlite\n\n\n⸻\n\n✨ Contoh Penggunaan di PHP (PDO)\n\n```php\n\n$db = new PDO(__DIR__.'/vendor/maftuhichsan/sqlite-wilayah-indonesia/database/records.sqlite');\n\n// Ambil semua provinsi\n$stmt = $db->query(\"SELECT * FROM provinces\");\n$provinces = $stmt->fetchAll(PDO::FETCH_ASSOC);\n\nprint_r($provinces);\n\n```",
+    "ContentSha": "OVW/xbwr4WMhZOunPaebEkmwBgoMVZjuGkuQnqOMdRA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 📂 डेटाबेस संरचना\n\nडेटाबेस `records.sqlite` में निम्नलिखित टेबल्स शामिल हैं:\n\n- `provinces`\n- `regencies`\n- `districts`\n- `villages`\n\n**टेबल्स के बीच संबंध:**\n\n- `regencies.province_id` → `provinces.id`\n- `districts.regency_id` → `regencies.id`\n- `villages.district_id` → `districts.id`\n\n---\n\n## कॉम्पोज़र\n\n📦 कॉम्पोज़र के माध्यम से इंस्टॉलेशन\n\nयह पैकेज Packagist पर उपलब्ध है:\n\n🔗 Packagist - maftuhichsan/sqlite-wilayah-indonesia\n\nइंस्टॉल करने का तरीका\n\nकॉम्पोज़र कमांड चलाएँ:\n\ncomposer require maftuhichsan/sqlite-wilayah-indonesia\n\nइसके बाद, आप vendor पाथ में मौजूद डेटाबेस फ़ाइल का उपयोग कर सकते हैं:\n\nvendor/maftuhichsan/sqlite-wilayah-indonesia/database/records.sqlite\n\n\n⸻\n\n✨ PHP (PDO) में उपयोग का उदाहरण\n\n```php\n\n$db = new PDO(__DIR__.'/vendor/maftuhichsan/sqlite-wilayah-indonesia/database/records.sqlite');\n\n// सभी प्रांत प्राप्त करें\n$stmt = $db->query(\"SELECT * FROM provinces\");\n$provinces = $stmt->fetchAll(PDO::FETCH_ASSOC);\n\nprint_r($provinces);\n\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 3,
+    "Content": "\n⸻\n\n## NPM\n\n📦 Instalasi via NPM\n\nPaket ini tersedia di NPM:\n\n🔗 NPM - sqlite-wilayah-indonesia\n\nCara Install\n\nJalankan perintah package manager NPM:\n\nnpm install sqlite-wilayah-indonesia\n\n⸻\n\n✨ Contoh Penggunaan di Node.js\n\n```javascript\n// Contoh menggunakan sqlite3\nconst sqlite3 = require('sqlite3').verbose();\nconst path = require('path');\n\n// Arahkan ke file SQLite di node_modules\nconst dbPath = path.join(\n  __dirname,\n  'node_modules',\n  'sqlite-wilayah-indonesia',\n  'database',\n  'records.sqlite'\n);\n\nconst db = new sqlite3.Database(dbPath);\n\n// Ambil semua provinsi\ndb.all(\"SELECT * FROM provinces\", [], (err, rows) => {\n  if (err) {\n    throw err;\n  }\n  console.log(rows);\n});\n\ndb.close();\n```",
+    "ContentSha": "5dgm9YppocOXc9lnOX1vtTiGlQa8fWpalLGHgGXOFrs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "⸻\n\n## NPM\n\n📦 NPM के माध्यम से इंस्टॉलेशन\n\nयह पैकेज NPM पर उपलब्ध है:\n\n🔗 NPM - sqlite-wilayah-indonesia\n\nइंस्टॉल करने का तरीका\n\nNPM पैकेज मैनेजर का कमांड चलाएँ:\n\nnpm install sqlite-wilayah-indonesia\n\n⸻\n\n✨ Node.js में उपयोग का उदाहरण\n\n```javascript\n// sqlite3 का उपयोग करने का उदाहरण\nconst sqlite3 = require('sqlite3').verbose();\nconst path = require('path');\n\n// node_modules में SQLite फाइल की ओर इंगित करें\nconst dbPath = path.join(\n  __dirname,\n  'node_modules',\n  'sqlite-wilayah-indonesia',\n  'database',\n  'records.sqlite'\n);\n\nconst db = new sqlite3.Database(dbPath);\n\n// सभी प्रांत प्राप्त करें\ndb.all(\"SELECT * FROM provinces\", [], (err, rows) => {\n  if (err) {\n    throw err;\n  }\n  console.log(rows);\n});\n\ndb.close();\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 4,
+    "Content": "⸻\n\n## 🚀 Cara Pakai\n\n### 1️⃣ Unduh Database\n\nDownload file `records.sqlite` dari repository ini, lalu simpan di project Anda.\n\n### 2️⃣ Query SQL Langsung\n\nContoh query SQL dasar:\n\n```sql\n-- Ambil semua provinsi\nSELECT * FROM provinces;\n\n-- Ambil kabupaten/kota berdasarkan ID provinsi\nSELECT * FROM cities WHERE city_province_code = '31';\n\n-- Ambil kecamatan berdasarkan ID kabupaten/kota\nSELECT * FROM sub_districts WHERE sub_district_city_code = '3171';\n\n-- Ambil desa/kelurahan berdasarkan ID kecamatan\nSELECT * FROM villages WHERE village_sub_district_code = '3171020';\n\n```",
+    "ContentSha": "LFZkZskbOpJiIgKXrgrZ2YmyKdDh4GIoM9FWJmwZDT4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🚀 उपयोग करने का तरीका\n\n### 1️⃣ डेटाबेस डाउनलोड करें\n\nइस रिपॉजिटरी से `records.sqlite` फाइल डाउनलोड करें, फिर इसे अपने प्रोजेक्ट में सेव करें।\n\n### 2️⃣ सीधे SQL क्वेरी करें\n\nबुनियादी SQL क्वेरी का उदाहरण:\n\n```sql\n-- सभी प्रांत प्राप्त करें\nSELECT * FROM provinces;\n\n-- प्रांत आईडी के आधार पर जिले/शहर प्राप्त करें\nSELECT * FROM cities WHERE city_province_code = '31';\n\n-- जिले/शहर आईडी के आधार पर उप-जिले प्राप्त करें\nSELECT * FROM sub_districts WHERE sub_district_city_code = '3171';\n\n-- उप-जिला आईडी के आधार पर गाँव/वार्ड प्राप्त करें\nSELECT * FROM villages WHERE village_sub_district_code = '3171020';\n\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 5,
+    "Content": "## 🌐 Endpoint API (Coming Soon): \n\nStatus API: Sedang dalam pengembangan.\n",
+    "ContentSha": "gxgOznuhue3cY9PzbXVuJ6+gtqa0Je2J16Vq/ST7Fu0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🌐 एंडपॉइंट एपीआई (जल्द आ रहा है):\n\nस्टेटस एपीआई: विकासाधीन।",
+    "Status": "ok"
+  }
+]
