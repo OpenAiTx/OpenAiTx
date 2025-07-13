@@ -17,6 +17,7 @@
 <p align="center">
 Welcome to the Basketo Engine - a passion project where we are putting our best effort into creating an awesome and performant engine, with the exciting plan of making it an AI-Native game engine. Featuring Unity-like editor interface, Gemini AI integration, advanced multi-sound effects system, and powerful ECS architecture. Whether you’re here to contribute, suggest ideas, or just watch it grow, you’re part of the journey! 🚀
 </p>
+
 ## 🚀 Current State of the Engine
 <p align="center">
   <img src="https://raw.githubusercontent.com/basketoengine/Basketo/main/readmeimgs/image3.png" alt="Current State of Basketo Engine" width="700"/>
@@ -40,6 +41,7 @@ Welcome to the Basketo Engine - a passion project where we are putting our best 
 - **Smart script generation**: AI-powered Lua script creation
 - **Entity modification**: Describe changes in plain English
 - **Easy API setup**: Built-in Gemini API key configuration
+
 ### 🔊 **Advanced Audio System**
 - **Multi-sound effects**: Multiple named sounds per entity (walk, jump, attack, etc.)
 - **Traditional audio**: Background music and ambient sounds
@@ -63,6 +65,7 @@ Welcome to the Basketo Engine - a passion project where we are putting our best 
 - **Rigidbody physics**: Gravity, velocity, and forces
 - **Collision callbacks**: Script-accessible collision events
 - **Spatial partitioning**: Quadtree optimization for performance
+
 ## 🎬 Click the image below to see a video demonstration:
 <p align="center">
   <a href="https://x.com/BaslaelWorkneh/status/1922713614697288096">
@@ -70,7 +73,7 @@ Welcome to the Basketo Engine - a passion project where we are putting our best 
   </a>
 </p>
 
-## � Quick Start Guide
+## 📝 Quick Start Guide
 
 ### 1. **Get Your Gemini API Key** (Optional but Recommended)
 - Visit [Google AI Studio](https://aistudio.google.com/app/apikey)
@@ -95,7 +98,7 @@ cmake .. && make -j$(nproc)
 - Write Lua scripts or let AI generate them
 - Use the dual-window editor for live development
 
-## 🛠️ Building the Engine (Linux) 🐧
+## �🛠️ Building the Engine (Linux) 🐧
 
 ### Prerequisites
 - CMake 3.26.0 or higher is required.
@@ -105,6 +108,7 @@ cmake .. && make -j$(nproc)
 - libcurl (for AI features)
 - nlohmann/json (included as submodule)
 - ImGui (included as submodule)
+
 
 ### Build Steps
 ```bash
@@ -148,6 +152,8 @@ If you want to run the physics test:
 
 
 ---
+
+
 ### Install Dependencies
 
 ```bash
@@ -168,6 +174,25 @@ cd vcpkg
 ---
 
 ### Build Steps
+```bash
+# Clone the Basketo repository
+git clone --recurse-submodules git@github.com:basketoengine/Basketo.git
+cd Basketo
+mkdir build && cd build
+
+# Configure with CMake
+cmake .. -DCMAKE_TOOLCHAIN_FILE=C:/path/to/vcpkg/scripts/buildsystems/vcpkg.cmake -DCMAKE_BUILD_TYPE=Release
+
+# Replace "C:/path/to/vcpkg" with the full path to your vcpkg directory
+
+# Build the engine
+cmake --build . --config Release
+```
+
+---
+
+### Running
+
 ```bash
 # From the build/Release directory
 ```
@@ -220,6 +245,7 @@ end
 - **Audio**: Background music
 - **SoundEffects**: Multiple named sounds
 - **Camera**: View management
+
 ## 🤝 Get Involved
 
 We love contributions from our community ❤️. For details on contributing or running the project for development, check out our [Contribution Guidelines](https://raw.githubusercontent.com/basketoengine/Basketo/main/ContributionGuidline.md). <!-- Assuming you have this file -->
@@ -244,6 +270,9 @@ We are constantly improving, and more features and examples are coming soon 🌟
 ---
 
 Happy coding and game making! 🎉🎮
+
+
+
 
 ---
 
