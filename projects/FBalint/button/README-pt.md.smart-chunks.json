@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 3D Pressable Button\n\n\nA realistic 3D button component built with HTML, CSS, and SVG that simulates the feel of pressing a physical button. The button features smooth animations, customizable colors, and responsive interactions.\n\n\nCreated by [@BalintFerenczy](https://x.com/BalintFerenczy)\n\nInspired by the amazing work at [Resend](https://resend.com/)\n\n\n## Features\n\n- **Realistic 3D appearance** using layered SVG graphics\n- **Smooth animations** with custom easing functions\n- **Interactive states** - hover and press effects\n- **Customizable colors** through CSS variables\n- **Responsive design** that scales with container size\n\n## Demo",
+    "ContentSha": "Ph7Celcd6KgSP23MwVlrwdhEJ1G7orrjF3ZMiN2VAC0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Botão 3D Pressionável\n\nUm componente de botão 3D realista construído com HTML, CSS e SVG que simula a sensação de pressionar um botão físico. O botão apresenta animações suaves, cores personalizáveis e interações responsivas.\n\nCriado por [@BalintFerenczy](https://x.com/BalintFerenczy)\n\nInspirado pelo incrível trabalho em [Resend](https://resend.com/)\n\n## Características\n\n- **Aparência 3D realista** utilizando gráficos SVG em camadas\n- **Animações suaves** com funções de easing personalizadas\n- **Estados interativos** - efeitos ao passar o mouse e pressionar\n- **Cores personalizáveis** por meio de variáveis CSS\n- **Design responsivo** que se adapta ao tamanho do contêiner\n\n## Demonstração",
+    "Status": "ok"
+  },
+  {
+    "Id": 2,
+    "Content": "\nThe button responds to user interactions with three distinct states:\n- **Normal**: The button in its resting position\n- **Hover**: Subtle downward movement when mouse hovers over\n- **Active**: Significant downward movement when pressed/clicked\n\n## Usage\n\n### Customization\n\nThe button can be easily customized using CSS custom properties:\n\n```css\n.frame {\n    /* Button dimensions */\n    width: 400px; \n    height: 400px; \n\n    /* Movement distances */\n    --hover-travel: 3px;\n    --press-travel: 40px;\n    \n    /* Color customization */\n    --color: black;\n    --brightness: 1;\n    --blend-mode: color;\n\n    /* Transition settings */\n    --transition-duration: 0.4s;\n    --transition-easing: ease-in-out;\n}\n```",
+    "ContentSha": "+kHOA+kmQbVyB7W3/tjQMsebueSTPAaPi4uIh7viTlo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "O botão responde às interações do usuário com três estados distintos:\n- **Normal**: O botão em sua posição de repouso\n- **Hover**: Movimento sutil para baixo quando o mouse passa sobre ele\n- **Ativo**: Movimento significativo para baixo quando pressionado/clicado\n\n## Uso\n\n### Personalização\n\nO botão pode ser facilmente personalizado usando propriedades personalizadas do CSS:\n\n```css\n.frame {\n    /* Dimensões do botão */\n    width: 400px; \n    height: 400px; \n\n    /* Distâncias de movimento */\n    --hover-travel: 3px;\n    --press-travel: 40px;\n    \n    /* Personalização de cor */\n    --color: black;\n    --brightness: 1;\n    --blend-mode: color;\n\n    /* Configurações de transição */\n    --transition-duration: 0.4s;\n    --transition-easing: ease-in-out;\n}\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 3,
+    "Content": "\n#### Changing Button Text\n\nSimply modify the text content:\n\n```html\n<p class=\"text\">Click Me!</p>\n```\n\n#### Changing Button Size\n\nAdjust the frame dimensions:\n\n```css\n.frame {\n    width: 200px;\n    height: 200px;\n}\n```\n",
+    "ContentSha": "omuEuWZLjp9T+PnIuWEQ1zpZVYljjYHspsytINFKKik=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "#### Alterando o Texto do Botão\n\nBasta modificar o conteúdo do texto:\n\n```html\n<p class=\"text\">Clique em Mim!</p>\n```\n\n#### Alterando o Tamanho do Botão\n\nAjuste as dimensões do quadro:\n\n```css\n.frame {\n    width: 200px;\n    height: 200px;\n}\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 4,
+    "Content": "## License\n\nThis project is open source and available under the MIT License.\n\n## Contributing\n\nFeel free to fork this project and submit pull requests for improvements or new features!\n\n## Author\n\nCreated by [@BalintFerenczy](https://x.com/BalintFerenczy)",
+    "ContentSha": "DjanBCei/d751Syl5ryaO/FthGnnpIaP1bmLldp/tDY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Licença\n\nEste projeto é open source e está disponível sob a Licença MIT.\n\n## Contribuição\n\nSinta-se à vontade para fazer um fork deste projeto e enviar pull requests para melhorias ou novos recursos!\n\n## Autor\n\nCriado por [@BalintFerenczy](https://x.com/BalintFerenczy)",
+    "Status": "ok"
+  }
+]

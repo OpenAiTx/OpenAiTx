@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 3D Pressable Button\n\n\nA realistic 3D button component built with HTML, CSS, and SVG that simulates the feel of pressing a physical button. The button features smooth animations, customizable colors, and responsive interactions.\n\n\nCreated by [@BalintFerenczy](https://x.com/BalintFerenczy)\n\nInspired by the amazing work at [Resend](https://resend.com/)\n\n\n## Features\n\n- **Realistic 3D appearance** using layered SVG graphics\n- **Smooth animations** with custom easing functions\n- **Interactive states** - hover and press effects\n- **Customizable colors** through CSS variables\n- **Responsive design** that scales with container size\n\n## Demo",
+    "ContentSha": "Ph7Celcd6KgSP23MwVlrwdhEJ1G7orrjF3ZMiN2VAC0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 3D可按压按钮\n\n一个使用HTML、CSS和SVG构建的逼真3D按钮组件，能够模拟按下实体按钮的手感。该按钮具有流畅的动画效果、可自定义的颜色以及响应式的交互体验。\n\n由 [@BalintFerenczy](https://x.com/BalintFerenczy) 创建\n\n灵感来源于 [Resend](https://resend.com/) 的杰出作品\n\n## 功能特性\n\n- **逼真的3D外观**，采用分层SVG图形\n- **流畅的动画效果**，使用自定义缓动函数\n- **交互状态** —— 悬停和按下效果\n- **可自定义颜色**，通过CSS变量实现\n- **响应式设计**，可随容器尺寸自适应缩放\n\n## 演示",
+    "Status": "ok"
+  },
+  {
+    "Id": 2,
+    "Content": "\nThe button responds to user interactions with three distinct states:\n- **Normal**: The button in its resting position\n- **Hover**: Subtle downward movement when mouse hovers over\n- **Active**: Significant downward movement when pressed/clicked\n\n## Usage\n\n### Customization\n\nThe button can be easily customized using CSS custom properties:\n\n```css\n.frame {\n    /* Button dimensions */\n    width: 400px; \n    height: 400px; \n\n    /* Movement distances */\n    --hover-travel: 3px;\n    --press-travel: 40px;\n    \n    /* Color customization */\n    --color: black;\n    --brightness: 1;\n    --blend-mode: color;\n\n    /* Transition settings */\n    --transition-duration: 0.4s;\n    --transition-easing: ease-in-out;\n}\n```",
+    "ContentSha": "+kHOA+kmQbVyB7W3/tjQMsebueSTPAaPi4uIh7viTlo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "按钮根据用户交互会有三种不同的状态响应：\n- **正常**：按钮处于静止状态\n- **悬停**：鼠标悬停时按钮略微下移\n- **激活**：按下/点击时按钮明显下移\n\n## 用法\n\n### 自定义\n\n按钮可以通过 CSS 自定义属性轻松进行自定义：\n\n```css\n.frame {\n    /* 按钮尺寸 */\n    width: 400px; \n    height: 400px; \n\n    /* 移动距离 */\n    --hover-travel: 3px;\n    --press-travel: 40px;\n    \n    /* 颜色自定义 */\n    --color: black;\n    --brightness: 1;\n    --blend-mode: color;\n\n    /* 过渡设置 */\n    --transition-duration: 0.4s;\n    --transition-easing: ease-in-out;\n}\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 3,
+    "Content": "\n#### Changing Button Text\n\nSimply modify the text content:\n\n```html\n<p class=\"text\">Click Me!</p>\n```\n\n#### Changing Button Size\n\nAdjust the frame dimensions:\n\n```css\n.frame {\n    width: 200px;\n    height: 200px;\n}\n```\n",
+    "ContentSha": "omuEuWZLjp9T+PnIuWEQ1zpZVYljjYHspsytINFKKik=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "#### 更改按钮文本\n\n只需修改文本内容：\n\n```html\n<p class=\"text\">点击我！</p>\n```\n\n#### 更改按钮大小\n\n调整框架尺寸：\n\n```css\n.frame {\n    width: 200px;\n    height: 200px;\n}\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 4,
+    "Content": "## License\n\nThis project is open source and available under the MIT License.\n\n## Contributing\n\nFeel free to fork this project and submit pull requests for improvements or new features!\n\n## Author\n\nCreated by [@BalintFerenczy](https://x.com/BalintFerenczy)",
+    "ContentSha": "DjanBCei/d751Syl5ryaO/FthGnnpIaP1bmLldp/tDY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 许可证\n\n本项目为开源项目，采用 MIT 许可证。\n\n## 贡献\n\n欢迎自由分叉本项目，并提交拉取请求以改进或添加新功能！\n\n## 作者\n\n由 [@BalintFerenczy](https://x.com/BalintFerenczy) 创建",
+    "Status": "ok"
+  }
+]

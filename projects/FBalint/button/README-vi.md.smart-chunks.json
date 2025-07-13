@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 3D Pressable Button\n\n\nA realistic 3D button component built with HTML, CSS, and SVG that simulates the feel of pressing a physical button. The button features smooth animations, customizable colors, and responsive interactions.\n\n\nCreated by [@BalintFerenczy](https://x.com/BalintFerenczy)\n\nInspired by the amazing work at [Resend](https://resend.com/)\n\n\n## Features\n\n- **Realistic 3D appearance** using layered SVG graphics\n- **Smooth animations** with custom easing functions\n- **Interactive states** - hover and press effects\n- **Customizable colors** through CSS variables\n- **Responsive design** that scales with container size\n\n## Demo",
+    "ContentSha": "Ph7Celcd6KgSP23MwVlrwdhEJ1G7orrjF3ZMiN2VAC0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Nút 3D Có Thể Nhấn Được\n\nMột thành phần nút 3D chân thực được xây dựng bằng HTML, CSS và SVG, mô phỏng cảm giác nhấn một nút vật lý. Nút có các hiệu ứng hoạt ảnh mượt mà, màu sắc tùy chỉnh và tương tác đáp ứng.\n\nĐược tạo bởi [@BalintFerenczy](https://x.com/BalintFerenczy)\n\nLấy cảm hứng từ tác phẩm tuyệt vời tại [Resend](https://resend.com/)\n\n## Tính năng\n\n- **Giao diện 3D chân thực** sử dụng đồ họa SVG xếp lớp\n- **Hoạt ảnh mượt mà** với các hàm easing tùy chỉnh\n- **Các trạng thái tương tác** - hiệu ứng hover và nhấn\n- **Màu sắc tùy chỉnh** thông qua biến CSS\n- **Thiết kế đáp ứng** có thể co giãn theo kích thước vùng chứa\n\n## Trình diễn",
+    "Status": "ok"
+  },
+  {
+    "Id": 2,
+    "Content": "\nThe button responds to user interactions with three distinct states:\n- **Normal**: The button in its resting position\n- **Hover**: Subtle downward movement when mouse hovers over\n- **Active**: Significant downward movement when pressed/clicked\n\n## Usage\n\n### Customization\n\nThe button can be easily customized using CSS custom properties:\n\n```css\n.frame {\n    /* Button dimensions */\n    width: 400px; \n    height: 400px; \n\n    /* Movement distances */\n    --hover-travel: 3px;\n    --press-travel: 40px;\n    \n    /* Color customization */\n    --color: black;\n    --brightness: 1;\n    --blend-mode: color;\n\n    /* Transition settings */\n    --transition-duration: 0.4s;\n    --transition-easing: ease-in-out;\n}\n```",
+    "ContentSha": "+kHOA+kmQbVyB7W3/tjQMsebueSTPAaPi4uIh7viTlo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Nút phản hồi các tương tác của người dùng với ba trạng thái riêng biệt:\n- **Bình thường**: Nút ở vị trí nghỉ\n- **Di chuột**: Di chuyển nhẹ xuống dưới khi chuột di chuyển qua\n- **Đang nhấn**: Di chuyển mạnh xuống dưới khi được nhấn/bấm\n\n## Sử dụng\n\n### Tùy chỉnh\n\nNút có thể dễ dàng tùy chỉnh bằng cách sử dụng các thuộc tính tùy chỉnh CSS:\n\n```css\n.frame {\n    /* Kích thước nút */\n    width: 400px; \n    height: 400px; \n\n    /* Khoảng cách di chuyển */\n    --hover-travel: 3px;\n    --press-travel: 40px;\n    \n    /* Tùy chỉnh màu sắc */\n    --color: black;\n    --brightness: 1;\n    --blend-mode: color;\n\n    /* Thiết lập chuyển đổi */\n    --transition-duration: 0.4s;\n    --transition-easing: ease-in-out;\n}\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 3,
+    "Content": "\n#### Changing Button Text\n\nSimply modify the text content:\n\n```html\n<p class=\"text\">Click Me!</p>\n```\n\n#### Changing Button Size\n\nAdjust the frame dimensions:\n\n```css\n.frame {\n    width: 200px;\n    height: 200px;\n}\n```\n",
+    "ContentSha": "omuEuWZLjp9T+PnIuWEQ1zpZVYljjYHspsytINFKKik=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "#### Thay Đổi Văn Bản Nút\n\nChỉ cần chỉnh sửa nội dung văn bản:\n\n```html\n<p class=\"text\">Nhấn Vào Tôi!</p>\n```\n\n#### Thay Đổi Kích Thước Nút\n\nĐiều chỉnh kích thước khung:\n\n```css\n.frame {\n    width: 200px;\n    height: 200px;\n}\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 4,
+    "Content": "## License\n\nThis project is open source and available under the MIT License.\n\n## Contributing\n\nFeel free to fork this project and submit pull requests for improvements or new features!\n\n## Author\n\nCreated by [@BalintFerenczy](https://x.com/BalintFerenczy)",
+    "ContentSha": "DjanBCei/d751Syl5ryaO/FthGnnpIaP1bmLldp/tDY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Giấy phép\n\nDự án này là mã nguồn mở và được phát hành theo Giấy phép MIT.\n\n## Đóng góp\n\nBạn hãy thoải mái fork dự án này và gửi pull request để cải thiện hoặc thêm tính năng mới!\n\n## Tác giả\n\nĐược tạo bởi [@BalintFerenczy](https://x.com/BalintFerenczy)",
+    "Status": "ok"
+  }
+]
