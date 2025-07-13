@@ -142,6 +142,9 @@ Fork project → Clone project → Choose a script in your language → Fill in 
 - Only support github markdown.
 - If you are project owner or core developer, you can auth github account to auto-create PR after indexed.
 
+## FrontEnd Project
+[Source Code Project Link](https://github.com/OpenAiTx/OpenAiTx_FrontEnd) by [@mikechen](https://github.com/mikechen-git)
+
 ## Other
 
 - 10~30 mins/ per project
