@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## 🏗️ สถาปัตยกรรม\n\n```\nsrc/\n├── server.ts                   # เซิร์ฟเวอร์ Express & ตัวจัดการ WebSocket\n├── app.ts                      # ตัวประสานงานแอปพลิเคชันหลัก\n├── web/index.html              # UI สำหรับเครื่องรับชำระเงิน\n├── config/index.ts             # การกำหนดค่าหลายเชน\n└── services/\n    ├── nfcService.ts           # ตัวอ่าน NFC & การสแกนกระเป๋าเงิน\n    ├── alchemyService.ts       # ยอดคงเหลือหลายเชน & การติดตาม\n    ├── paymentService.ts       # การเลือกชำระเงิน & การสร้าง EIP-681\n    ├── ethereumService.ts      # ยูทิลิตี้ตรวจสอบที่อยู่\n    └── addressProcessor.ts     # การป้องกันการประมวลผลซ้ำ\nscripts/\n└── rpi-deploy/\n    ├── setup-build-environment.sh  # ติดตั้ง dependencies เพื่อให้สามารถสร้างอิมเมจ Raspberry Pi\n    └── build-pi-image-osx.sh       # สร้างอิมเมจ Raspberry Pi\n```",
+    "Status": "ok"
   },
   {
     "Id": 4,

@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## 🏗️ Architectuur\n\n```\nsrc/\n├── server.ts                   # Express-server & WebSocket-handler\n├── app.ts                      # Hoofdapplicatie-orchestrator\n├── web/index.html              # Betaalterminal UI\n├── config/index.ts             # Multi-chain configuratie\n└── services/\n    ├── nfcService.ts           # NFC-lezer & wallet-scanning\n    ├── alchemyService.ts       # Multi-chain balans & monitoring\n    ├── paymentService.ts       # Betalingsselectie & EIP-681-generatie\n    ├── ethereumService.ts      # Adresvalidatie-hulpprogramma's\n    └── addressProcessor.ts     # Preventie van dubbele verwerking\nscripts/\n└── rpi-deploy/\n    ├── setup-build-environment.sh  # Installeer afhankelijkheden om het bouwen van een Raspberry Pi-image mogelijk te maken\n    └── build-pi-image-osx.sh       # Bouw een Raspberry Pi-image\n```",
+    "Status": "ok"
   },
   {
     "Id": 4,

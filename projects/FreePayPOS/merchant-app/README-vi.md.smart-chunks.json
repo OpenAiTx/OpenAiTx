@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## 🏗️ Kiến trúc\n\n```\nsrc/\n├── server.ts                   # Máy chủ Express & Bộ xử lý WebSocket\n├── app.ts                      # Bộ điều phối ứng dụng chính\n├── web/index.html              # Giao diện người dùng của máy POS thanh toán\n├── config/index.ts             # Cấu hình đa chuỗi\n└── services/\n    ├── nfcService.ts           # Đầu đọc NFC & quét ví\n    ├── alchemyService.ts       # Theo dõi & kiểm tra số dư đa chuỗi\n    ├── paymentService.ts       # Lựa chọn thanh toán & tạo EIP-681\n    ├── ethereumService.ts      # Tiện ích xác thực địa chỉ\n    └── addressProcessor.ts     # Ngăn ngừa xử lý trùng lặp\nscripts/\n└── rpi-deploy/\n    ├── setup-build-environment.sh  # Cài đặt các phụ thuộc để xây dựng ảnh Raspberry Pi\n    └── build-pi-image-osx.sh       # Xây dựng ảnh Raspberry Pi\n```",
+    "Status": "ok"
   },
   {
     "Id": 4,
