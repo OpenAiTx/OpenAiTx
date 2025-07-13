@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "Il pulsante risponde alle interazioni dell'utente con tre stati distinti:\n- **Normale**: Il pulsante nella sua posizione di riposo\n- **Hover**: Leggero movimento verso il basso quando il mouse passa sopra\n- **Attivo**: Movimento verso il basso più marcato quando viene premuto/cliccato\n\n## Utilizzo\n\n### Personalizzazione\n\nIl pulsante può essere facilmente personalizzato utilizzando le proprietà personalizzate CSS:\n\n```css\n.frame {\n    /* Dimensioni del pulsante */\n    width: 400px; \n    height: 400px; \n\n    /* Distanze di movimento */\n    --hover-travel: 3px;\n    --press-travel: 40px;\n    \n    /* Personalizzazione dei colori */\n    --color: black;\n    --brightness: 1;\n    --blend-mode: color;\n\n    /* Impostazioni di transizione */\n    --transition-duration: 0.4s;\n    --transition-easing: ease-in-out;\n}\n```",
+    "Status": "ok"
   },
   {
     "Id": 3,

@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "按鈕對用戶互動有三種不同的狀態反應：\n- **正常**：按鈕處於靜止狀態\n- **懸停**：當滑鼠懸停時，按鈕微微下移\n- **啟動**：當按下/點擊時，按鈕顯著下移\n\n## 用法\n\n### 客製化\n\n可使用 CSS 自訂屬性輕鬆自訂按鈕：\n\n```css\n.frame {\n    /* 按鈕尺寸 */\n    width: 400px; \n    height: 400px; \n\n    /* 移動距離 */\n    --hover-travel: 3px;\n    --press-travel: 40px;\n    \n    /* 顏色自訂 */\n    --color: black;\n    --brightness: 1;\n    --blend-mode: color;\n\n    /* 動畫過渡設定 */\n    --transition-duration: 0.4s;\n    --transition-easing: ease-in-out;\n}\n```",
+    "Status": "ok"
   },
   {
     "Id": 3,

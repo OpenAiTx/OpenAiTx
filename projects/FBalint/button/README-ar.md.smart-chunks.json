@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "يستجيب الزر لتفاعلات المستخدم بثلاث حالات مميزة:\n- **عادي**: الزر في وضعه الطبيعي\n- **تحويم**: حركة نزول طفيفة عند مرور مؤشر الفأرة فوقه\n- **نشط**: حركة نزول كبيرة عند الضغط عليه أو النقر\n\n## الاستخدام\n\n### التخصيص\n\nيمكن تخصيص الزر بسهولة باستخدام خصائص CSS المخصصة:\n\n```css\n.frame {\n    /* أبعاد الزر */\n    width: 400px; \n    height: 400px; \n\n    /* مسافات الحركة */\n    --hover-travel: 3px;\n    --press-travel: 40px;\n    \n    /* تخصيص الألوان */\n    --color: black;\n    --brightness: 1;\n    --blend-mode: color;\n\n    /* إعدادات الانتقال */\n    --transition-duration: 0.4s;\n    --transition-easing: ease-in-out;\n}\n```",
+    "Status": "ok"
   },
   {
     "Id": 3,

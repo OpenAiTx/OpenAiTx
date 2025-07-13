@@ -6,8 +6,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# Przycisk 3D do Naciskania\n\nRealistyczny komponent przycisku 3D zbudowany przy użyciu HTML, CSS i SVG, który symuluje wrażenie naciskania fizycznego przycisku. Przycisk oferuje płynne animacje, możliwość dostosowania kolorów oraz responsywne interakcje.\n\nStworzony przez [@BalintFerenczy](https://x.com/BalintFerenczy)\n\nZainspirowany niesamowitą pracą zespołu [Resend](https://resend.com/)\n\n## Funkcje\n\n- **Realistyczny wygląd 3D** dzięki warstwowej grafice SVG\n- **Płynne animacje** z niestandardowymi funkcjami łagodzenia\n- **Interaktywne stany** – efekty najechania kursorem i naciśnięcia\n- **Możliwość dostosowania kolorów** za pomocą zmiennych CSS\n- **Responsywny design**, który dopasowuje się do rozmiaru kontenera\n\n## Demo",
+    "Status": "ok"
   },
   {
     "Id": 2,
@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "Przycisk reaguje na interakcje użytkownika trzema różnymi stanami:\n- **Normalny**: Przycisk w pozycji spoczynkowej\n- **Najechanie**: Delikatny ruch w dół po najechaniu myszką\n- **Aktywny**: Znaczący ruch w dół po naciśnięciu/kliknięciu\n\n## Użycie\n\n### Personalizacja\n\nPrzycisk można łatwo dostosować za pomocą niestandardowych właściwości CSS:\n\n```css\n.frame {\n    /* Wymiary przycisku */\n    width: 400px; \n    height: 400px; \n\n    /* Odległości ruchu */\n    --hover-travel: 3px;\n    --press-travel: 40px;\n    \n    /* Personalizacja kolorów */\n    --color: black;\n    --brightness: 1;\n    --blend-mode: color;\n\n    /* Ustawienia przejścia */\n    --transition-duration: 0.4s;\n    --transition-easing: ease-in-out;\n}\n```",
+    "Status": "ok"
   },
   {
     "Id": 3,
@@ -36,7 +36,7 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "## Licencja\n\nTen projekt jest open source i dostępny na licencji MIT.\n\n## Wkład\n\nZachęcamy do forka tego projektu i przesyłania pull requestów z ulepszeniami lub nowymi funkcjami!\n\n## Autor\n\nStworzony przez [@BalintFerenczy](https://x.com/BalintFerenczy)",
+    "Status": "ok"
   }
 ]
