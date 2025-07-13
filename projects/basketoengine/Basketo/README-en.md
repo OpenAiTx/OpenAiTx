@@ -31,15 +31,15 @@ Welcome to the Basketo Engine - a passion project where we are putting our best 
 
 ### 🎮 **Unity-like Editor Interface**
 - **Dual-window setup**: Scene editor and game view side by side
-- **Live editing**: Modify scenes while game is running
+- **Live editing**: Modify scenes while the game is running
 - **Inspector panel**: Visual component editing with drag-and-drop
 - **Hierarchy view**: Organize and manage entities
-- **Asset browser**: Easy texture and audio management
+- **Asset browser**: Easy management of textures and audio
 
 ### 🤖 **AI-Native Development**
 - **Gemini AI Integration**: Natural language commands for game development
-- **Smart script generation**: AI-powered Lua script creation
-- **Entity modification**: Describe changes in plain English
+- **Smart script generation**: AI-driven Lua script creation
+- **Entity modification**: Make changes using plain English
 - **Easy API setup**: Built-in Gemini API key configuration
 
 ### 🔊 **Advanced Audio System**
@@ -73,7 +73,7 @@ Welcome to the Basketo Engine - a passion project where we are putting our best 
   </a>
 </p>
 
-## � Quick Start Guide
+## 🚀 Quick Start Guide
 
 ### 1. **Get Your Gemini API Key** (Optional but Recommended)
 - Visit [Google AI Studio](https://aistudio.google.com/app/apikey)
