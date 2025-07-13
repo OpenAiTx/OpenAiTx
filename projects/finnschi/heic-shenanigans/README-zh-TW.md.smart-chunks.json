@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 🖼️ HEIC Image Processing Tools\n\nA collection of Python tools for processing HEIC (High Efficiency Image Container) files, with a focus on HDR content extraction and EXR conversion.\n\n## 🛠️ Tools Overview\n\n### 1. gain_map_extract.py\nExtracts all components from HEIC files including:\n- Base images\n- HDR gain maps\n- Depth maps\n- Complete metadata (EXIF, XMP, ICC profiles)\n\n### 2. heic_to_exr.py\nConverts HEIC files to OpenEXR format:\n- Combines base image and gain map into HDR EXR using apples method\n- Preserves full dynamic range\n- Maintains metadata where possible\n- Supports batch processing\n",
+    "ContentSha": "c9EHItkZ3cWwWq3l12y3Cqr/m3Msygc7E+YsxPzGSZ0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 🖼️ HEIC 圖像處理工具\n\n一套用於處理 HEIC（高效率圖像容器）檔案的 Python 工具，重點在於 HDR 內容擷取及 EXR 轉換。\n\n## 🛠️ 工具總覽\n\n### 1. gain_map_extract.py\n從 HEIC 檔案中擷取所有組件，包括：\n- 基礎圖像\n- HDR 增益圖\n- 深度圖\n- 完整的中繼資料（EXIF、XMP、ICC 配置檔）\n\n### 2. heic_to_exr.py\n將 HEIC 檔案轉換為 OpenEXR 格式：\n- 使用蘋果的方法將基礎圖像與增益圖結合為 HDR EXR\n- 保留完整動態範圍\n- 盡可能保留中繼資料\n- 支援批次處理",
+    "Status": "ok"
+  },
+  {
+    "Id": 2,
+    "Content": "### 3. merge_to_exr.sh\nShell script for batch processing:\n- Automates HEIC to EXR conversion\n- Handles multiple files\n- Provides progress feedback\n- Maintains directory structure\n\n## 🔧 Installation\n\n### Prerequisites\n- Python 3.8 or higher\n- pip (Python package manager)\n- Git (for cloning the repository)\n\n### macOS\n```bash\n# Install Homebrew if not already installed\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\n# Install Python and OpenEXR dependencies",
+    "ContentSha": "uAzF8rdR6MfoqJENF4y2T8lhy/sMSXhffexis8NFEkg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 3. merge_to_exr.sh\n批次處理的 Shell 腳本：\n- 自動化 HEIC 至 EXR 的轉換\n- 處理多個檔案\n- 提供進度回饋\n- 保持目錄結構\n\n## 🔧 安裝\n\n### 先決條件\n- Python 3.8 或更高版本\n- pip（Python 套件管理工具）\n- Git（用於複製儲存庫）\n\n### macOS\n```bash\n# 如果尚未安裝 Homebrew，請先安裝\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\n# 安裝 Python 及 OpenEXR 相關依賴",
+    "Status": "ok"
+  },
+  {
+    "Id": 3,
+    "Content": "brew install python3 openexr\n\n# Clone the repository\ngit clone https://github.com/finnschi/heic-shenanigans.git\ncd heic-shenanigans\n\n# Create and activate virtual environment\npython3 -m venv venv\nsource venv/bin/activate\n\n# Install Python dependencies\npip install -r requirements.txt\n```\n\n### Linux (Ubuntu/Debian)\n```bash\n# Install system dependencies\nsudo apt-get update\nsudo apt-get install python3 python3-pip python3-venv openexr libopenexr-dev\n",
+    "ContentSha": "jZ3bKsttp8mgvP4J9gGoZMwpoTRPqW26cSztuhwYGiA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "brew install python3 openexr\n\n# 複製儲存庫\ngit clone https://github.com/finnschi/heic-shenanigans.git\ncd heic-shenanigans\n\n# 建立並啟用虛擬環境\npython3 -m venv venv\nsource venv/bin/activate\n\n# 安裝 Python 依賴項\npip install -r requirements.txt\n```\n\n### Linux (Ubuntu/Debian)\n```bash\n# 安裝系統依賴項\nsudo apt-get update\nsudo apt-get install python3 python3-pip python3-venv openexr libopenexr-dev\n",
+    "Status": "ok"
+  },
+  {
+    "Id": 4,
+    "Content": "# Clone the repository\ngit clone https://github.com/finnschi/heic-shenanigans.git\ncd heic-shenanigans\n\n# Create and activate virtual environment\npython3 -m venv venv\nsource venv/bin/activate\n\n# Install Python dependencies\npip install -r requirements.txt\n```\n\n### Windows\n```powershell\n# Install Python from https://www.python.org/downloads/\n# Install Git from https://git-scm.com/download/win\n\n# Clone the repository\ngit clone https://github.com/finnschi/heic-shenanigans.git\ncd heic-shenanigans\n",
+    "ContentSha": "h8L0yC35blKnOCOxmW48vJ96fMByD6xUwvyAnxFf7FI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "error"
+  },
+  {
+    "Id": 5,
+    "Content": "# Create and activate virtual environment\npython -m venv venv\n.\\venv\\Scripts\\activate\n\n# Install Python dependencies\npip install -r requirements.txt\n```\n\n## 📋 Requirements\nAll required Python packages are listed in requirements.txt:\n- Pillow: Image processing library\n- pillow-heif: HEIC file support\n- numpy: Numerical operations\n- defusedxml: Safe XML parsing\n\nSystem dependencies (installed via package manager):\n- OpenEXR and OpenImageIO (oiiotool) for EXR file handling\n\n## 💻 Usage\n",
+    "ContentSha": "9TWKRU6p14m07VozQWNHkGuiJXDtqo/MGPzx/UmvqbI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 建立並啟用虛擬環境\npython -m venv venv\n.\\venv\\Scripts\\activate\n\n# 安裝 Python 依賴套件\npip install -r requirements.txt\n```\n\n## 📋 系統需求\n所有所需的 Python 套件均已列於 requirements.txt：\n- Pillow：影像處理函式庫\n- pillow-heif：支援 HEIC 檔案\n- numpy：數值運算\n- defusedxml：安全的 XML 解析\n\n系統依賴（透過套件管理器安裝）：\n- OpenEXR 與 OpenImageIO（oiiotool）用於 EXR 檔案處理\n\n## 💻 使用方法",
+    "Status": "ok"
+  },
+  {
+    "Id": 6,
+    "Content": "### Gain Map Extraction\n```bash\npython gain_map_extract.py input.heic [--output-dir OUTPUT_DIR]\n```\n\n### HEIC to EXR Conversion\n```bash\npython heic_to_exr.py input.heic [--output-dir OUTPUT_DIR]\n```\n\n### Batch Processing\n```bash\n./merge_to_exr.sh input_directory output_directory\n```\n\n## 📁 Output Files\n\n### gain_map_extract.py outputs:\n- Base image: `{filename}_base.tiff`\n- Gain maps: `{filename}_gain_map_{id}.tiff`\n- Depth maps: `{filename}_depth_{index}.tiff`\n- Metadata: `{filename}_metadata.json`\n",
+    "ContentSha": "SqApvcvt4uJvarPeEDOvr5DsRgtbesu4qnhpeM0k8f8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 增益圖擷取\n```bash\npython gain_map_extract.py input.heic [--output-dir OUTPUT_DIR]\n```\n\n### HEIC 轉 EXR\n```bash\npython heic_to_exr.py input.heic [--output-dir OUTPUT_DIR]\n```\n\n### 批次處理\n```bash\n./merge_to_exr.sh input_directory output_directory\n```\n\n## 📁 輸出檔案\n\n### gain_map_extract.py 輸出：\n- 基礎影像：`{filename}_base.tiff`\n- 增益圖：`{filename}_gain_map_{id}.tiff`\n- 深度圖：`{filename}_depth_{index}.tiff`\n- 中繼資料：`{filename}_metadata.json`\n",
+    "Status": "ok"
+  },
+  {
+    "Id": 7,
+    "Content": "### heic_to_exr.py outputs:\n- HDR EXR file: `{filename}.exr`\n\n## 🔍 Advanced Usage\n\n### Metadata Handling\n- Binary data is base64 encoded\n- ICC profiles are maintained\n- EXIF data is preserved where possible\n\n### HDR Processing\n- Gain maps are properly scaled\n- Linear color space is maintained\n- Full dynamic range is preserved in EXR output\n\n## ⚠️ Known Limitations\n- Some HEIC variants may not be fully supported\n- Depth map extraction is limited to supported devices\n- Windows OpenEXR support may require additional configuration\n",
+    "ContentSha": "mMK/AZzpBgn0oBPDUDqUTI2ejpIfdupchSbLmwaXpe4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### heic_to_exr.py 輸出：\n- HDR EXR 檔案：`{filename}.exr`\n\n## 🔍 進階用法\n\n### 中繼資料處理\n- 二進位資料以 base64 編碼\n- 保留 ICC 色彩描述檔\n- 盡可能保留 EXIF 資料\n\n### HDR 處理\n- 增益圖會正確縮放\n- 維持線性色彩空間\n- EXR 輸出完整保留動態範圍\n\n## ⚠️ 已知限制\n- 部分 HEIC 變體可能無法完全支援\n- 深度圖擷取僅限於支援的裝置\n- Windows 上的 OpenEXR 支援可能需要額外設定",
+    "Status": "ok"
+  },
+  {
+    "Id": 8,
+    "Content": "## 🤝 Contributing\nContributions are welcome! Please feel free to submit a Pull Request.\n\n\n",
+    "ContentSha": "//y7U/v0RJLV6jRB2ttYB6lt4osbl32LzIApNt265rE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🤝 貢獻\n歡迎貢獻！請隨時提交 Pull Request。",
+    "Status": "ok"
+  }
+]

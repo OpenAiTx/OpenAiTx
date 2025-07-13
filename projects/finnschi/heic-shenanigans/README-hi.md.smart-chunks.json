@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 🖼️ HEIC Image Processing Tools\n\nA collection of Python tools for processing HEIC (High Efficiency Image Container) files, with a focus on HDR content extraction and EXR conversion.\n\n## 🛠️ Tools Overview\n\n### 1. gain_map_extract.py\nExtracts all components from HEIC files including:\n- Base images\n- HDR gain maps\n- Depth maps\n- Complete metadata (EXIF, XMP, ICC profiles)\n\n### 2. heic_to_exr.py\nConverts HEIC files to OpenEXR format:\n- Combines base image and gain map into HDR EXR using apples method\n- Preserves full dynamic range\n- Maintains metadata where possible\n- Supports batch processing\n",
+    "ContentSha": "c9EHItkZ3cWwWq3l12y3Cqr/m3Msygc7E+YsxPzGSZ0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 🖼️ HEIC इमेज प्रोसेसिंग टूल्स\n\nHEIC (हाई एफिशिएंसी इमेज कंटेनर) फाइलों के प्रोसेसिंग के लिए पायथन टूल्स का संग्रह, जिसमें HDR कंटेंट एक्सट्रैक्शन और EXR कन्वर्जन पर विशेष ध्यान दिया गया है।\n\n## 🛠️ टूल्स का अवलोकन\n\n### 1. gain_map_extract.py\nHEIC फाइलों से सभी घटक निकालता है, जिसमें शामिल हैं:\n- बेस इमेजेज़\n- HDR गेन मैप्स\n- डेप्थ मैप्स\n- पूरी मेटाडेटा (EXIF, XMP, ICC प्रोफाइल्स)\n\n### 2. heic_to_exr.py\nHEIC फाइलों को OpenEXR फॉर्मेट में कन्वर्ट करता है:\n- बेस इमेज और गेन मैप को HDR EXR में एप्पल के तरीके से मिलाता है\n- पूरी डायनामिक रेंज को सुरक्षित रखता है\n- जहां संभव हो, मेटाडेटा को बनाए रखता है\n- बैच प्रोसेसिंग को सपोर्ट करता है",
+    "Status": "ok"
+  },
+  {
+    "Id": 2,
+    "Content": "### 3. merge_to_exr.sh\nShell script for batch processing:\n- Automates HEIC to EXR conversion\n- Handles multiple files\n- Provides progress feedback\n- Maintains directory structure\n\n## 🔧 Installation\n\n### Prerequisites\n- Python 3.8 or higher\n- pip (Python package manager)\n- Git (for cloning the repository)\n\n### macOS\n```bash\n# Install Homebrew if not already installed\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\n# Install Python and OpenEXR dependencies",
+    "ContentSha": "uAzF8rdR6MfoqJENF4y2T8lhy/sMSXhffexis8NFEkg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 3. merge_to_exr.sh\nबैच प्रोसेसिंग के लिए शेल स्क्रिप्ट:\n- HEIC से EXR रूपांतरण को स्वचालित करता है\n- कई फाइलों को संभालता है\n- प्रगति प्रतिक्रिया प्रदान करता है\n- डायरेक्टरी संरचना बनाए रखता है\n\n## 🔧 स्थापना\n\n### आवश्यकताएँ\n- Python 3.8 या उच्चतर\n- pip (Python पैकेज प्रबंधक)\n- Git (रिपॉजिटरी क्लोन करने के लिए)\n\n### macOS\n```bash\n# यदि पहले से इंस्टॉल नहीं है तो Homebrew इंस्टॉल करें\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\n# Python और OpenEXR निर्भरताएँ इंस्टॉल करें",
+    "Status": "ok"
+  },
+  {
+    "Id": 3,
+    "Content": "brew install python3 openexr\n\n# Clone the repository\ngit clone https://github.com/finnschi/heic-shenanigans.git\ncd heic-shenanigans\n\n# Create and activate virtual environment\npython3 -m venv venv\nsource venv/bin/activate\n\n# Install Python dependencies\npip install -r requirements.txt\n```\n\n### Linux (Ubuntu/Debian)\n```bash\n# Install system dependencies\nsudo apt-get update\nsudo apt-get install python3 python3-pip python3-venv openexr libopenexr-dev\n",
+    "ContentSha": "jZ3bKsttp8mgvP4J9gGoZMwpoTRPqW26cSztuhwYGiA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "brew install python3 openexr\n\n# रिपॉजिटरी क्लोन करें\ngit clone https://github.com/finnschi/heic-shenanigans.git\ncd heic-shenanigans\n\n# वर्चुअल एनवायरनमेंट बनाएं और सक्रिय करें\npython3 -m venv venv\nsource venv/bin/activate\n\n# पायथन डिपेंडेंसीज़ इंस्टॉल करें\npip install -r requirements.txt\n```\n\n### लिनक्स (Ubuntu/Debian)\n```bash\n# सिस्टम डिपेंडेंसीज़ इंस्टॉल करें\nsudo apt-get update\nsudo apt-get install python3 python3-pip python3-venv openexr libopenexr-dev\n",
+    "Status": "ok"
+  },
+  {
+    "Id": 4,
+    "Content": "# Clone the repository\ngit clone https://github.com/finnschi/heic-shenanigans.git\ncd heic-shenanigans\n\n# Create and activate virtual environment\npython3 -m venv venv\nsource venv/bin/activate\n\n# Install Python dependencies\npip install -r requirements.txt\n```\n\n### Windows\n```powershell\n# Install Python from https://www.python.org/downloads/\n# Install Git from https://git-scm.com/download/win\n\n# Clone the repository\ngit clone https://github.com/finnschi/heic-shenanigans.git\ncd heic-shenanigans\n",
+    "ContentSha": "h8L0yC35blKnOCOxmW48vJ96fMByD6xUwvyAnxFf7FI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# रिपॉजिटरी क्लोन करें\ngit clone https://github.com/finnschi/heic-shenanigans.git\ncd heic-shenanigans\n\n# वर्चुअल एनवायरनमेंट बनाएँ और सक्रिय करें\npython3 -m venv venv\nsource venv/bin/activate\n\n# Python निर्भरताएँ स्थापित करें\npip install -r requirements.txt\n```\n\n### विंडोज़\n```powershell\n# Python को https://www.python.org/downloads/ से इंस्टॉल करें\n# Git को https://git-scm.com/download/win से इंस्टॉल करें\n\n# रिपॉजिटरी क्लोन करें\ngit clone https://github.com/finnschi/heic-shenanigans.git\ncd heic-shenanigans\n",
+    "Status": "ok"
+  },
+  {
+    "Id": 5,
+    "Content": "# Create and activate virtual environment\npython -m venv venv\n.\\venv\\Scripts\\activate\n\n# Install Python dependencies\npip install -r requirements.txt\n```\n\n## 📋 Requirements\nAll required Python packages are listed in requirements.txt:\n- Pillow: Image processing library\n- pillow-heif: HEIC file support\n- numpy: Numerical operations\n- defusedxml: Safe XML parsing\n\nSystem dependencies (installed via package manager):\n- OpenEXR and OpenImageIO (oiiotool) for EXR file handling\n\n## 💻 Usage\n",
+    "ContentSha": "9TWKRU6p14m07VozQWNHkGuiJXDtqo/MGPzx/UmvqbI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# वर्चुअल एनवायरनमेंट बनाएं और सक्रिय करें\npython -m venv venv\n.\\venv\\Scripts\\activate\n\n# Python डिपेंडेंसीज़ इंस्टॉल करें\npip install -r requirements.txt\n```\n\n## 📋 आवश्यकताएँ\nसभी आवश्यक Python पैकेज requirements.txt में सूचीबद्ध हैं:\n- Pillow: इमेज प्रोसेसिंग लाइब्रेरी\n- pillow-heif: HEIC फाइल सपोर्ट\n- numpy: संख्यात्मक संचालन\n- defusedxml: सुरक्षित XML पार्सिंग\n\nसिस्टम डिपेंडेंसीज़ (पैकेज मैनेजर के माध्यम से इंस्टॉल):\n- OpenEXR और OpenImageIO (oiiotool) EXR फाइल हैंडलिंग के लिए\n\n## 💻 उपयोग",
+    "Status": "ok"
+  },
+  {
+    "Id": 6,
+    "Content": "### Gain Map Extraction\n```bash\npython gain_map_extract.py input.heic [--output-dir OUTPUT_DIR]\n```\n\n### HEIC to EXR Conversion\n```bash\npython heic_to_exr.py input.heic [--output-dir OUTPUT_DIR]\n```\n\n### Batch Processing\n```bash\n./merge_to_exr.sh input_directory output_directory\n```\n\n## 📁 Output Files\n\n### gain_map_extract.py outputs:\n- Base image: `{filename}_base.tiff`\n- Gain maps: `{filename}_gain_map_{id}.tiff`\n- Depth maps: `{filename}_depth_{index}.tiff`\n- Metadata: `{filename}_metadata.json`\n",
+    "ContentSha": "SqApvcvt4uJvarPeEDOvr5DsRgtbesu4qnhpeM0k8f8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### गेन मैप एक्सट्रैक्शन\n```bash\npython gain_map_extract.py input.heic [--output-dir OUTPUT_DIR]\n```\n\n### HEIC से EXR रूपांतरण\n```bash\npython heic_to_exr.py input.heic [--output-dir OUTPUT_DIR]\n```\n\n### बैच प्रोसेसिंग\n```bash\n./merge_to_exr.sh input_directory output_directory\n```\n\n## 📁 आउटपुट फाइलें\n\n### gain_map_extract.py आउटपुट:\n- बेस इमेज: `{filename}_base.tiff`\n- गेन मैप्स: `{filename}_gain_map_{id}.tiff`\n- डेप्थ मैप्स: `{filename}_depth_{index}.tiff`\n- मेटाडेटा: `{filename}_metadata.json`",
+    "Status": "ok"
+  },
+  {
+    "Id": 7,
+    "Content": "### heic_to_exr.py outputs:\n- HDR EXR file: `{filename}.exr`\n\n## 🔍 Advanced Usage\n\n### Metadata Handling\n- Binary data is base64 encoded\n- ICC profiles are maintained\n- EXIF data is preserved where possible\n\n### HDR Processing\n- Gain maps are properly scaled\n- Linear color space is maintained\n- Full dynamic range is preserved in EXR output\n\n## ⚠️ Known Limitations\n- Some HEIC variants may not be fully supported\n- Depth map extraction is limited to supported devices\n- Windows OpenEXR support may require additional configuration\n",
+    "ContentSha": "mMK/AZzpBgn0oBPDUDqUTI2ejpIfdupchSbLmwaXpe4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### heic_to_exr.py आउटपुट:\n- HDR EXR फ़ाइल: `{filename}.exr`\n\n## 🔍 उन्नत उपयोग\n\n### मेटाडेटा हैंडलिंग\n- बाइनरी डेटा को base64 में एन्कोड किया जाता है\n- ICC प्रोफाइल सुरक्षित रखे जाते हैं\n- EXIF डेटा जहाँ संभव हो संरक्षित रहता है\n\n### HDR प्रोसेसिंग\n- गेन मैप्स को सही ढंग से स्केल किया जाता है\n- लीनियर कलर स्पेस बनाए रखा जाता है\n- EXR आउटपुट में पूर्ण डायनेमिक रेंज संरक्षित रहती है\n\n## ⚠️ ज्ञात सीमाएँ\n- कुछ HEIC वेरिएंट्स पूरी तरह से समर्थित नहीं हो सकते हैं\n- डेप्थ मैप एक्सट्रैक्शन केवल समर्थित डिवाइसों तक ही सीमित है\n- Windows में OpenEXR सपोर्ट के लिए अतिरिक्त कॉन्फ़िगरेशन की आवश्यकता हो सकती है",
+    "Status": "ok"
+  },
+  {
+    "Id": 8,
+    "Content": "## 🤝 Contributing\nContributions are welcome! Please feel free to submit a Pull Request.\n\n\n",
+    "ContentSha": "//y7U/v0RJLV6jRB2ttYB6lt4osbl32LzIApNt265rE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🤝 योगदान\nयोगदान का स्वागत है! कृपया स्वतंत्र रूप से एक पुल रिक्वेस्ट सबमिट करें।\n\n",
+    "Status": "ok"
+  }
+]

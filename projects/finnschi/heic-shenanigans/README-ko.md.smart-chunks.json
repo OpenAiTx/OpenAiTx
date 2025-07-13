@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 🖼️ HEIC Image Processing Tools\n\nA collection of Python tools for processing HEIC (High Efficiency Image Container) files, with a focus on HDR content extraction and EXR conversion.\n\n## 🛠️ Tools Overview\n\n### 1. gain_map_extract.py\nExtracts all components from HEIC files including:\n- Base images\n- HDR gain maps\n- Depth maps\n- Complete metadata (EXIF, XMP, ICC profiles)\n\n### 2. heic_to_exr.py\nConverts HEIC files to OpenEXR format:\n- Combines base image and gain map into HDR EXR using apples method\n- Preserves full dynamic range\n- Maintains metadata where possible\n- Supports batch processing\n",
+    "ContentSha": "c9EHItkZ3cWwWq3l12y3Cqr/m3Msygc7E+YsxPzGSZ0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 🖼️ HEIC 이미지 처리 도구\n\nHEIC(High Efficiency Image Container) 파일을 처리하기 위한 파이썬 도구 모음으로, HDR 콘텐츠 추출 및 EXR 변환에 중점을 두고 있습니다.\n\n## 🛠️ 도구 개요\n\n### 1. gain_map_extract.py\nHEIC 파일에서 모든 구성요소를 추출합니다. 포함 항목:\n- 기본 이미지\n- HDR 게인 맵\n- 깊이 맵\n- 전체 메타데이터(EXIF, XMP, ICC 프로필)\n\n### 2. heic_to_exr.py\nHEIC 파일을 OpenEXR 포맷으로 변환합니다:\n- 기본 이미지와 게인 맵을 결합하여 애플 방식으로 HDR EXR 생성\n- 전체 다이내믹 레인지 보존\n- 가능한 경우 메타데이터 유지\n- 배치 처리 지원",
+    "Status": "ok"
+  },
+  {
+    "Id": 2,
+    "Content": "### 3. merge_to_exr.sh\nShell script for batch processing:\n- Automates HEIC to EXR conversion\n- Handles multiple files\n- Provides progress feedback\n- Maintains directory structure\n\n## 🔧 Installation\n\n### Prerequisites\n- Python 3.8 or higher\n- pip (Python package manager)\n- Git (for cloning the repository)\n\n### macOS\n```bash\n# Install Homebrew if not already installed\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\n# Install Python and OpenEXR dependencies",
+    "ContentSha": "uAzF8rdR6MfoqJENF4y2T8lhy/sMSXhffexis8NFEkg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 3. merge_to_exr.sh\n배치 처리를 위한 셸 스크립트:\n- HEIC를 EXR로 변환 자동화\n- 다수의 파일 처리\n- 진행 상황 피드백 제공\n- 디렉터리 구조 유지\n\n## 🔧 설치\n\n### 사전 요구 사항\n- Python 3.8 이상\n- pip (Python 패키지 관리자)\n- Git (저장소 클론용)\n\n### macOS\n```bash\n# Homebrew가 설치되어 있지 않다면 설치\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\n# Python 및 OpenEXR 종속성 설치",
+    "Status": "ok"
+  },
+  {
+    "Id": 3,
+    "Content": "brew install python3 openexr\n\n# Clone the repository\ngit clone https://github.com/finnschi/heic-shenanigans.git\ncd heic-shenanigans\n\n# Create and activate virtual environment\npython3 -m venv venv\nsource venv/bin/activate\n\n# Install Python dependencies\npip install -r requirements.txt\n```\n\n### Linux (Ubuntu/Debian)\n```bash\n# Install system dependencies\nsudo apt-get update\nsudo apt-get install python3 python3-pip python3-venv openexr libopenexr-dev\n",
+    "ContentSha": "jZ3bKsttp8mgvP4J9gGoZMwpoTRPqW26cSztuhwYGiA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "brew install python3 openexr\n\n# 저장소를 클론합니다.\ngit clone https://github.com/finnschi/heic-shenanigans.git\ncd heic-shenanigans\n\n# 가상 환경을 생성하고 활성화합니다.\npython3 -m venv venv\nsource venv/bin/activate\n\n# Python 의존성 설치\npip install -r requirements.txt\n```\n\n### Linux (Ubuntu/Debian)\n```bash\n# 시스템 의존성 설치\nsudo apt-get update\nsudo apt-get install python3 python3-pip python3-venv openexr libopenexr-dev\n",
+    "Status": "ok"
+  },
+  {
+    "Id": 4,
+    "Content": "# Clone the repository\ngit clone https://github.com/finnschi/heic-shenanigans.git\ncd heic-shenanigans\n\n# Create and activate virtual environment\npython3 -m venv venv\nsource venv/bin/activate\n\n# Install Python dependencies\npip install -r requirements.txt\n```\n\n### Windows\n```powershell\n# Install Python from https://www.python.org/downloads/\n# Install Git from https://git-scm.com/download/win\n\n# Clone the repository\ngit clone https://github.com/finnschi/heic-shenanigans.git\ncd heic-shenanigans\n",
+    "ContentSha": "h8L0yC35blKnOCOxmW48vJ96fMByD6xUwvyAnxFf7FI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 저장소 복제\ngit clone https://github.com/finnschi/heic-shenanigans.git\ncd heic-shenanigans\n\n# 가상 환경 생성 및 활성화\npython3 -m venv venv\nsource venv/bin/activate\n\n# Python 의존성 설치\npip install -r requirements.txt\n```\n\n### Windows\n```powershell\n# https://www.python.org/downloads/ 에서 Python 설치\n# https://git-scm.com/download/win 에서 Git 설치\n\n# 저장소 복제\ngit clone https://github.com/finnschi/heic-shenanigans.git\ncd heic-shenanigans\n",
+    "Status": "ok"
+  },
+  {
+    "Id": 5,
+    "Content": "# Create and activate virtual environment\npython -m venv venv\n.\\venv\\Scripts\\activate\n\n# Install Python dependencies\npip install -r requirements.txt\n```\n\n## 📋 Requirements\nAll required Python packages are listed in requirements.txt:\n- Pillow: Image processing library\n- pillow-heif: HEIC file support\n- numpy: Numerical operations\n- defusedxml: Safe XML parsing\n\nSystem dependencies (installed via package manager):\n- OpenEXR and OpenImageIO (oiiotool) for EXR file handling\n\n## 💻 Usage\n",
+    "ContentSha": "9TWKRU6p14m07VozQWNHkGuiJXDtqo/MGPzx/UmvqbI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 가상 환경 생성 및 활성화\npython -m venv venv\n.\\venv\\Scripts\\activate\n\n# Python 의존성 설치\npip install -r requirements.txt\n```\n\n## 📋 요구 사항\n필요한 모든 Python 패키지는 requirements.txt에 나열되어 있습니다:\n- Pillow: 이미지 처리 라이브러리\n- pillow-heif: HEIC 파일 지원\n- numpy: 수치 연산\n- defusedxml: 안전한 XML 파싱\n\n시스템 의존성(패키지 관리자를 통해 설치):\n- EXR 파일 처리를 위한 OpenEXR 및 OpenImageIO(oiiotool)\n\n## 💻 사용법",
+    "Status": "ok"
+  },
+  {
+    "Id": 6,
+    "Content": "### Gain Map Extraction\n```bash\npython gain_map_extract.py input.heic [--output-dir OUTPUT_DIR]\n```\n\n### HEIC to EXR Conversion\n```bash\npython heic_to_exr.py input.heic [--output-dir OUTPUT_DIR]\n```\n\n### Batch Processing\n```bash\n./merge_to_exr.sh input_directory output_directory\n```\n\n## 📁 Output Files\n\n### gain_map_extract.py outputs:\n- Base image: `{filename}_base.tiff`\n- Gain maps: `{filename}_gain_map_{id}.tiff`\n- Depth maps: `{filename}_depth_{index}.tiff`\n- Metadata: `{filename}_metadata.json`\n",
+    "ContentSha": "SqApvcvt4uJvarPeEDOvr5DsRgtbesu4qnhpeM0k8f8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 게인 맵 추출\n```bash\npython gain_map_extract.py input.heic [--output-dir OUTPUT_DIR]\n```\n\n### HEIC에서 EXR로 변환\n```bash\npython heic_to_exr.py input.heic [--output-dir OUTPUT_DIR]\n```\n\n### 배치 처리\n```bash\n./merge_to_exr.sh input_directory output_directory\n```\n\n## 📁 출력 파일\n\n### gain_map_extract.py 출력:\n- 기본 이미지: `{filename}_base.tiff`\n- 게인 맵: `{filename}_gain_map_{id}.tiff`\n- 뎁스 맵: `{filename}_depth_{index}.tiff`\n- 메타데이터: `{filename}_metadata.json`\n",
+    "Status": "ok"
+  },
+  {
+    "Id": 7,
+    "Content": "### heic_to_exr.py outputs:\n- HDR EXR file: `{filename}.exr`\n\n## 🔍 Advanced Usage\n\n### Metadata Handling\n- Binary data is base64 encoded\n- ICC profiles are maintained\n- EXIF data is preserved where possible\n\n### HDR Processing\n- Gain maps are properly scaled\n- Linear color space is maintained\n- Full dynamic range is preserved in EXR output\n\n## ⚠️ Known Limitations\n- Some HEIC variants may not be fully supported\n- Depth map extraction is limited to supported devices\n- Windows OpenEXR support may require additional configuration\n",
+    "ContentSha": "mMK/AZzpBgn0oBPDUDqUTI2ejpIfdupchSbLmwaXpe4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### heic_to_exr.py 출력:\n- HDR EXR 파일: `{filename}.exr`\n\n## 🔍 고급 사용법\n\n### 메타데이터 처리\n- 바이너리 데이터는 base64로 인코딩됨\n- ICC 프로필이 유지됨\n- EXIF 데이터는 가능한 한 보존됨\n\n### HDR 처리\n- 게인 맵이 적절하게 스케일링됨\n- 선형 색 공간이 유지됨\n- EXR 출력에서 전체 다이내믹 레인지가 보존됨\n\n## ⚠️ 알려진 제한사항\n- 일부 HEIC 변형은 완전히 지원되지 않을 수 있음\n- 뎁스 맵 추출은 지원되는 기기에만 제한됨\n- Windows OpenEXR 지원은 추가 구성이 필요할 수 있음",
+    "Status": "ok"
+  },
+  {
+    "Id": 8,
+    "Content": "## 🤝 Contributing\nContributions are welcome! Please feel free to submit a Pull Request.\n\n\n",
+    "ContentSha": "//y7U/v0RJLV6jRB2ttYB6lt4osbl32LzIApNt265rE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🤝 기여하기\n기여를 환영합니다! 언제든지 Pull Request를 제출해 주세요.\n",
+    "Status": "ok"
+  }
+]
