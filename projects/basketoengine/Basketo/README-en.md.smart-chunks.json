@@ -36,7 +36,7 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "## 🎬 Click the image below to see a video demonstration:\n<p align=\"center\">\n  <a href=\"https://x.com/BaslaelWorkneh/status/1922713614697288096\">\n    <img src=\"https://raw.githubusercontent.com/basketoengine/Basketo/main/readmeimgs/image2.png\" alt=\"Basketo Engine Demo\" width=\"500\"/>\n  </a>\n</p>\n\n## 📝 Quick Start Guide\n\n### 1. **Get Your Gemini API Key** (Optional but Recommended)\n- Visit [Google AI Studio](https://aistudio.google.com/app/apikey)\n- Sign in and create a free API key\n- This enables AI-powered features like natural language commands\n\n### 2. **Build and Run**\n```bash\ngit clone --recurse-submodules git@github.com:basketoengine/Basketo.git\ncd Basketo && mkdir build && cd build\ncmake .. && make -j$(nproc)\n./BasketoGameEngine\n```",
+    "Translation": "## 🎬 Click the image below to see a video demonstration:\n<p align=\"center\">\n  <a href=\"https://x.com/BaslaelWorkneh/status/1922713614697288096\">\n    <img src=\"https://raw.githubusercontent.com/basketoengine/Basketo/main/readmeimgs/image2.png\" alt=\"Basketo Engine Demo\" width=\"500\"/>\n  </a>\n</p>\n\n## � Quick Start Guide\n\n### 1. **Get Your Gemini API Key** (Optional but Recommended)\n- Visit [Google AI Studio](https://aistudio.google.com/app/apikey)\n- Sign in and create a free API key\n- This enables AI-powered features like natural language commands\n\n### 2. **Build and Run**\n```bash\ngit clone --recurse-submodules git@github.com:basketoengine/Basketo.git\ncd Basketo && mkdir build && cd build\ncmake .. && make -j$(nproc)\n./BasketoGameEngine\n```",
     "Status": "ok"
   },
   {
@@ -86,7 +86,7 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "```bash\n# Clone the Basketo repository\ngit clone --recurse-submodules git@github.com:basketoengine/Basketo.git\ncd Basketo\nmkdir build && cd build\n\n# Configure with CMake\ncmake .. -DCMAKE_TOOLCHAIN_FILE=C:/path/to/vcpkg/scripts/buildsystems/vcpkg.cmake -DCMAKE_BUILD_TYPE=Release\n\n# Replace \"C:/path/to/vcpkg\" with the full path to your vcpkg directory\n\n# Build the engine\ncmake --build . --config Release\n```\n\n---\n\n### Running\n\n```bash\n# From the build/Release directory\n```",
+    "Translation": "```bash\n# Clone the Basketo repository\ngit clone --recurse-submodules git@github.com:basketoengine/Basketo.git\ncd Basketo\nmkdir build && cd build\n\n# Configure with CMake\ncmake .. -DCMAKE_TOOLCHAIN_FILE=C:/path/to/vcpkg/scripts/buildsystems/vcpkg.cmake -DCMAKE_BUILD_TYPE=Release\n\n# Replace \"C:/path/to/vcpkg\" with the full path to your vcpkg directory\n\n# Build the engine\ncmake --build . --config Release\n```\n\n---\n\n### Running\n\n```bash\n# From the build/Release directory\n",
     "Status": "ok"
   },
   {

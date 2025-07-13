@@ -73,7 +73,7 @@ Welcome to the Basketo Engine - a passion project where we are putting our best 
   </a>
 </p>
 
-## 📝 Quick Start Guide
+## � Quick Start Guide
 
 ### 1. **Get Your Gemini API Key** (Optional but Recommended)
 - Visit [Google AI Studio](https://aistudio.google.com/app/apikey)
@@ -195,7 +195,7 @@ cmake --build . --config Release
 
 ```bash
 # From the build/Release directory
-```
+
 ./BasketoGameEngine.exe
 
 # To run the physics test
