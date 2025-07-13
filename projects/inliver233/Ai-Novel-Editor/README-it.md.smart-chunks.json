@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# AI Novel Editor\n\nEditor di romanzi AI assistito basato su PyQt6, che offre strumenti professionali di scrittura come completamento intelligente, gestione dei progetti, organizzazione dei concetti e altro.\n\n## Installazione\n\n1. Clona il progetto\n```bash\ngit clone https://github.com/inliver233/Ai-Novel-Editor.git\ncd ai-novel-editor\n```\n\n2. Crea un ambiente virtuale\n```bash\npython -m venv venv\nvenv\\Scripts\\activate     # Windows\n```\nUsa uv\n```bash\nuv venv -p 3.11\n```",
+    "Status": "ok"
   },
   {
     "Id": 3,
@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "3. Installazione delle dipendenze\n```bash\npip install -r requirements.txt\n```\nUtilizzo di uv\n```bash\nuv sync\n```\n\n\n4. Avvio del programma\n```bash\npython -m src\n```\n\n## Funzionalità principali\n\n### Gestione dei progetti\n- Struttura documentale gerarchica (Opera > Capitolo > Scena)\n- Importazione ed esportazione dei progetti (supporta formati TEXT, MARKDOWN, DOCX, PDF, HTML)\n- Backup automatico e controllo delle versioni\n- Gestione di più progetti",
+    "Status": "ok"
   },
   {
     "Id": 4,
@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### Funzione di completamento AI\n- Tre modalità di completamento: completamento automatico, completamento manuale (consigliato: premere una volta tab per attivare, premere di nuovo tab per applicare il completamento), disabilita completamento\n- Tre modalità di contesto:\n  - Modalità veloce: contesto leggero, risposta rapida\n  - Modalità bilanciata: contesto medio, equilibrio tra qualità e velocità\n  - Modalità globale: contesto completo del progetto, miglior risultato\n- Supporto per vari servizi AI: OpenAI, Claude, Tongyi Qianwen, Zhipu AI, DeepSeek, Groq, ecc.\n\n### Gestione della struttura\n- Struttura ad albero visuale della struttura\n- Ordinamento tramite trascinamento e regolazione dei livelli\n- Navigazione rapida dei documenti\n- Analisi della struttura e suggerimenti di ottimizzazione\n\n### Configurazione API\n- Centro di configurazione AI unificato\n- Configurazioni preimpostate per diversi provider di servizi\n- Funzione di test di connessione\n- Salvataggio, importazione ed esportazione delle configurazioni",
+    "Status": "ok"
   },
   {
     "Id": 5,

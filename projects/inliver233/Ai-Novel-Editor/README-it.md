@@ -1,6 +1,35 @@
+<div align="right">
+  <details>
+    <summary >🌐 Lingua</summary>
+    <div>
+      <div align="right">
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=en">English</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=zh-CN">简体中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=zh-TW">繁體中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ja">日本語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ko">한국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=hi">हिन्दी</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=th">ไทย</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fr">Français</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=de">Deutsch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=es">Español</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=it">Italiano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ru">Русский</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pt">Português</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=nl">Nederlands</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pl">Polski</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ar">العربية</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fa">فارسی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=tr">Türkçe</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=vi">Tiếng Việt</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=id">Bahasa Indonesia</a></p>
+      </div>
+    </div>
+  </details>
+</div>
 # AI Novel Editor
 
-Editor di romanzi AI-assistito basato su PyQt6, che offre strumenti professionali di scrittura come completamento intelligente, gestione dei progetti, organizzazione dei concetti e altro ancora.
+Editor di romanzi AI assistito basato su PyQt6, che offre strumenti professionali di scrittura come completamento intelligente, gestione dei progetti, organizzazione dei concetti e altro.
 
 ## Installazione
 
@@ -15,43 +44,51 @@ cd ai-novel-editor
 python -m venv venv
 venv\Scripts\activate     # Windows
 ```
-
-3. Installa le dipendenze
+Usa uv
+```bash
+uv venv -p 3.11
+```
+3. Installazione delle dipendenze
 ```bash
 pip install -r requirements.txt
 ```
-4. Esecuzione del programma
+Utilizzo di uv
 ```bash
-python src/main.py
+uv sync
+```
+
+
+4. Avvio del programma
+```bash
+python -m src
 ```
 
 ## Funzionalità principali
 
 ### Gestione dei progetti
 - Struttura documentale gerarchica (Opera > Capitolo > Scena)
-- Importazione ed esportazione dei progetti (supporto per i formati TEXT, MARKDOWN, DOCX, PDF, HTML)
+- Importazione ed esportazione dei progetti (supporta formati TEXT, MARKDOWN, DOCX, PDF, HTML)
 - Backup automatico e controllo delle versioni
 - Gestione di più progetti
-
-### Funzionalità di completamento AI
-- Tre modalità di completamento: completamento automatico, completamento manuale (consigliato: premi Tab una volta per attivare, premi di nuovo Tab per applicare il completamento), disabilita completamento
+### Funzione di completamento AI
+- Tre modalità di completamento: completamento automatico, completamento manuale (consigliato: premere una volta tab per attivare, premere di nuovo tab per applicare il completamento), disabilita completamento
 - Tre modalità di contesto:
-  - Modalità rapida: contesto leggero, risposta veloce
+  - Modalità veloce: contesto leggero, risposta rapida
   - Modalità bilanciata: contesto medio, equilibrio tra qualità e velocità
-  - Modalità globale: contesto completo del progetto, risultato migliore
+  - Modalità globale: contesto completo del progetto, miglior risultato
 - Supporto per vari servizi AI: OpenAI, Claude, Tongyi Qianwen, Zhipu AI, DeepSeek, Groq, ecc.
-### Gestione dell’Outline
-- Struttura ad albero dell’outline visualizzabile
+
+### Gestione della struttura
+- Struttura ad albero visuale della struttura
 - Ordinamento tramite trascinamento e regolazione dei livelli
-- Navigazione rapida del documento
-- Analisi dell’outline e suggerimenti di ottimizzazione
+- Navigazione rapida dei documenti
+- Analisi della struttura e suggerimenti di ottimizzazione
 
 ### Configurazione API
 - Centro di configurazione AI unificato
-- Configurazioni preimpostate per più fornitori di servizi
-- Funzione di test della connessione
+- Configurazioni preimpostate per diversi provider di servizi
+- Funzione di test di connessione
 - Salvataggio, importazione ed esportazione delle configurazioni
-
 ### Impostazioni di Completamento Intelligente
 - Ritardo di attivazione regolabile
 - Limite di lunghezza del completamento
@@ -59,30 +96,32 @@ python src/main.py
 - Supporto per risposta in streaming
 
 ### Modifica dei Prompt
-- Diversi modelli di scrittura integrati
+- Vari modelli di scrittura integrati
 - Modelli di prompt personalizzati
-- Gestione della classificazione dei modelli
+- Gestione delle categorie di modelli
 - Configurazione di modelli specifici per modalità
-### Funzionalità dell'interfaccia
+
+### Funzionalità dell'Interfaccia
 - Tema chiaro e scuro
 - Layout a tre colonne (albero del progetto, editor, pannello dei concetti)
 - Barra laterale comprimibile
 - Modalità di scrittura a schermo intero
-- Modalità di concentrazione (frase, paragrafo, macchina da scrivere, modalità zen, modalità immersiva)
+- Modalità concentrazione (frase, paragrafo, macchina da scrivere, modalità zen, modalità immersiva)
 
-### Ricerca e sostituzione
-- Ricerca testuale in tutto il progetto
-- Supporto per espressioni regolari
+### Ricerca e Sostituzione
+- Ricerca in tutto il testo del progetto
+- Supporto delle espressioni regolari
 - Funzione di sostituzione in batch
 - Opzioni di ricerca avanzate
 
 ### Gestione dei concetti
-- Rilevamento automatico di personaggi, luoghi, oggetti
+- Rilevamento automatico di ruoli, luoghi, oggetti
 - Gestione delle relazioni tra concetti
-- Sistema di tag e categorie
+- Sistema di etichette e classificazione
 - Inserimento rapido dei concetti
 
 ## Scorciatoie da tastiera
+
 - `Ctrl+N`: Nuovo progetto
 - `Ctrl+O`: Apri progetto
 - `Ctrl+S`: Salva documento
@@ -91,8 +130,6 @@ python src/main.py
 - `Ctrl+F`: Trova
 - `Ctrl+H`: Trova e sostituisci
 - `Ctrl+Shift+H`: Trova e sostituisci avanzato
-
-
 ## Requisiti di sistema
 
 - Python 3.8+
@@ -107,6 +144,6 @@ python src/main.py
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-13
 
 ---

@@ -1,3 +1,33 @@
+<div align="right">
+  <details>
+    <summary >🌐 Dil</summary>
+    <div>
+      <div align="right">
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=en">English</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=zh-CN">简体中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=zh-TW">繁體中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ja">日本語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ko">한국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=hi">हिन्दी</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=th">ไทย</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fr">Français</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=de">Deutsch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=es">Español</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=it">Itapano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ru">Русский</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pt">Português</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=nl">Nederlands</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pl">Polski</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ar">العربية</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fa">فارسی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=tr">Türkçe</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=vi">Tiếng Việt</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=id">Bahasa Indonesia</a></p>
+      </div>
+    </div>
+  </details>
+</div>
+
 # AI Roman Editörü
 
 PyQt6 tabanlı AI destekli roman editörü, akıllı tamamlama, proje yönetimi, kavram organizasyonu gibi profesyonel yazım araçları sunar.
@@ -15,84 +45,92 @@ cd ai-novel-editor
 python -m venv venv
 venv\Scripts\activate     # Windows
 ```
-
-3. Bağımlılıkları yükleyin
+uv kullanarak
+```bash
+uv venv -p 3.11
+```
+3. Bağımlılıkların Kurulması
 ```bash
 pip install -r requirements.txt
 ```
+uv kullanımı
+```bash
+uv sync
+```
+
+
 4. Programı Çalıştırma
 ```bash
-python src/main.py
+python -m src
 ```
 
 ## Ana Özellikler
 
 ### Proje Yönetimi
-- Hiyerarşik doküman yapısı (Eser > Bölüm > Sahne)
+- Hiyerarşik belge yapısı (Eser > Bölüm > Sahneler)
 - Proje içe/dışa aktarma (TEXT, MARKDOWN, DOCX, PDF, HTML formatlarını destekler)
 - Otomatik yedekleme ve sürüm kontrolü
 - Çoklu proje yönetimi
-
 ### AI Tamamlama Özelliği
-- Üç tamamlama modu: Otomatik tamamlama, manuel tamamlama (Önerilir: Bir kez tab'a basarak tetikleyin, tekrar tab'a basarak tamamlamayı uygulayın), tamamlama devre dışı
+- Üç tamamlama modu: Otomatik tamamlama, Manuel tamamlama (Tavsiye edilir: bir kez tab tuşuna basarak tetiklenir, tekrar tab tuşuna basarak tamamlama uygulanır), Tamamlama devre dışı
 - Üç bağlam modu:
   - Hızlı Mod: Hafif bağlam, hızlı yanıt
-  - Dengeli Mod: Orta seviyede bağlam, kalite ve hız dengesi
-  - Global Mod: Tüm proje bağlamı, en iyi sonuç
-- Çoklu AI servis desteği: OpenAI, Claude, Tongyi Qianwen, Zhipu AI, DeepSeek, Groq vb.
-### Başlık Yönetimi
-- Görselleştirilebilir başlık ağaç yapısı
-- Sürükle-bırak sıralama ve seviye ayarlama
-- Hızlı doküman gezintisi
-- Başlık analizi ve iyileştirme önerileri
+  - Dengeli Mod: Orta düzeyde bağlam, kalite ve hız dengesi
+  - Global Mod: Tam proje bağlamı, en iyi sonuç
+- Birçok AI servisini destekler: OpenAI, Claude, Tongyi Qianwen, Zhipu AI, DeepSeek, Groq vb.
+
+### Ana Hat Yönetimi
+- Görsel ana hat ağaç yapısı
+- Sürükle-bırak ile sıralama ve seviye ayarı
+- Hızlı belge gezintisi
+- Ana hat analizi ve optimizasyon önerileri
 
 ### API Yapılandırması
 - Birleşik AI yapılandırma merkezi
-- Çoklu servis sağlayıcı ön ayarlı yapılandırmaları
-- Bağlantı testi özelliği
+- Çoklu servis sağlayıcı ön ayarları
+- Bağlantı testi fonksiyonu
 - Yapılandırma şeması kaydetme ve içe/dışa aktarma
-
-### Akıllı Tamamlama Ayarları
+### Akıllı Otomatik Tamamlama Ayarları
 - Ayarlanabilir tetikleme gecikmesi
 - Tamamlama uzunluğu sınırı
 - Bağlam uzunluğu yapılandırması
 - Akışlı yanıt desteği
 
 ### İpucu Düzenleme
-- Dahili çoklu yazma şablonları
+- Dahili çeşitli yazı şablonları
 - Özelleştirilebilir ipucu şablonları
 - Şablon kategori yönetimi
 - Moda özel şablon yapılandırması
+
 ### Arayüz Özellikleri
-- Açık ve koyu çift tema
+- Açık/Koyu çift tema
 - Üç sütunlu düzen (proje ağacı, editör, kavram paneli)
 - Katlanabilir yan panel
-- Tam ekran yazma modu
-- Odak modu (cümle, paragraf, daktilo, zen modu, immersif mod)
+- Tam ekran yazı modu
+- Odak modu (cümle, paragraf, daktilo, zen modu, sürükleyici mod)
 
 ### Arama ve Değiştirme
-- Tüm projede metin arama
-- Düzenli ifade desteği
+- Tüm proje metni arama
+- Regüler ifade desteği
 - Toplu değiştirme özelliği
 - Gelişmiş arama seçenekleri
 
 ### Kavram Yönetimi
-- Karakter, mekan, nesne otomatik algılama
-- Kavram ilişkileri yönetimi
-- Etiket ve sınıflandırma sistemi
+- Otomatik rol, mekan, nesne algılama
+- Kavramsal ilişki yönetimi
+- Etiket ve kategorilendirme sistemi
 - Hızlı kavram ekleme
 
 ## Kısayol Tuşları
+
 - `Ctrl+N`: Yeni proje
 - `Ctrl+O`: Proje aç
 - `Ctrl+S`: Belgeyi kaydet
 - `F11`: Tam ekran modu
-- `Tab`: Manuel AI tamamlamayı tetikle (manuel modda)
+- `Tab`: AI otomatik tamamlama manuel tetikleme (manuel modda)
 - `Ctrl+F`: Bul
 - `Ctrl+H`: Bul ve değiştir
 - `Ctrl+Shift+H`: Gelişmiş bul ve değiştir
-
-
 ## Sistem Gereksinimleri
 
 - Python 3.8+
@@ -107,6 +145,6 @@ python src/main.py
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-13
 
 ---

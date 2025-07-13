@@ -16,8 +16,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "# AI Roman-Editor\n\nEin auf PyQt6 basierender, KI-gestützter Roman-Editor, der professionelle Schreibwerkzeuge wie intelligente Vervollständigung, Projektmanagement und Konzeptorganisation bietet.\n\n## Installation\n\n1. Projekt klonen\n```bash\ngit clone https://github.com/inliver233/Ai-Novel-Editor.git\ncd ai-novel-editor\n```\n\n2. Virtuelle Umgebung erstellen\n```bash\npython -m venv venv\nvenv\\Scripts\\activate     # Windows\n```\nVerwendung von uv\n```bash\nuv venv -p 3.11\n```",
+    "Status": "ok"
   },
   {
     "Id": 3,
@@ -26,8 +26,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "3. Abhängigkeiten installieren\n```bash\npip install -r requirements.txt\n```\nMit uv verwenden\n```bash\nuv sync\n```\n\n\n4. Programm ausführen\n```bash\npython -m src\n```\n\n## Hauptfunktionen\n\n### Projektmanagement\n- Hierarchische Dokumentenstruktur (Werk > Kapitel > Szene)\n- Projektimport und -export (unterstützt TEXT, MARKDOWN, DOCX, PDF, HTML-Formate)\n- Automatische Sicherung und Versionskontrolle\n- Verwaltung mehrerer Projekte",
+    "Status": "ok"
   },
   {
     "Id": 4,
@@ -36,8 +36,8 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "",
-    "Status": "error"
+    "Translation": "### KI-Autovervollständigungsfunktion\n- Drei Vervollständigungsmodi: Automatische Vervollständigung, Manuelle Vervollständigung (empfohlen: einmal Tab drücken zum Auslösen, nochmal Tab zum Anwenden), Deaktivierte Vervollständigung\n- Drei Kontextmodi:\n  - Schneller Modus: Leichtgewichtiger Kontext, schnelle Reaktion\n  - Ausgewogener Modus: Mittlerer Kontext, ausgewogen zwischen Qualität und Geschwindigkeit\n  - Globaler Modus: Vollständiger Projektkontext, bestes Ergebnis\n- Unterstützung für verschiedene KI-Dienste: OpenAI, Claude, Tongyi Qianwen, Zhipu AI, DeepSeek, Groq usw.\n\n### Gliederungsverwaltung\n- Visualisierte Gliederungsbaumstruktur\n- Drag-and-Drop-Sortierung und Hierarchieanpassung\n- Schnelle Dokumentnavigation\n- Gliederungsanalyse und Optimierungsvorschläge\n\n### API-Konfiguration\n- Zentrales KI-Konfigurationscenter\n- Voreingestellte Konfigurationen für mehrere Anbieter\n- Verbindungstestfunktion\n- Speichern sowie Import und Export von Konfigurationsschemata",
+    "Status": "ok"
   },
   {
     "Id": 5,

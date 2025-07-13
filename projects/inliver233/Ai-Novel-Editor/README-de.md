@@ -1,6 +1,36 @@
-# AI-Roman-Editor
+<div align="right">
+  <details>
+    <summary >🌐 Sprache</summary>
+    <div>
+      <div align="right">
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=en">Englisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=zh-CN">简体中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=zh-TW">繁體中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ja">日本語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ko">한국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=hi">हिन्दी</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=th">ไทย</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fr">Französisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=de">Deutsch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=es">Spanisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=it">Italienisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ru">Russisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pt">Portugiesisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=nl">Niederländisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pl">Polnisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ar">Arabisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fa">Persisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=tr">Türkisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=vi">Vietnamesisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=id">Bahasa Indonesia</a></p>
+      </div>
+    </div>
+  </details>
+</div>
 
-Ein auf PyQt6 basierender, KI-gestützter Romaneditor, der intelligente Vervollständigung, Projektmanagement, Konzeptorganisation und weitere professionelle Schreibwerkzeuge bietet.
+# AI Roman-Editor
+
+Ein auf PyQt6 basierender, KI-gestützter Roman-Editor, der professionelle Schreibwerkzeuge wie intelligente Vervollständigung, Projektmanagement und Konzeptorganisation bietet.
 
 ## Installation
 
@@ -15,74 +45,84 @@ cd ai-novel-editor
 python -m venv venv
 venv\Scripts\activate     # Windows
 ```
-
+Verwendung von uv
+```bash
+uv venv -p 3.11
+```
 3. Abhängigkeiten installieren
 ```bash
 pip install -r requirements.txt
 ```
+Mit uv verwenden
+```bash
+uv sync
+```
+
+
 4. Programm ausführen
 ```bash
-python src/main.py
+python -m src
 ```
 
 ## Hauptfunktionen
 
 ### Projektmanagement
 - Hierarchische Dokumentenstruktur (Werk > Kapitel > Szene)
-- Projektimport und -export (unterstützt TEXT-, MARKDOWN-, DOCX-, PDF-, HTML-Formate)
+- Projektimport und -export (unterstützt TEXT, MARKDOWN, DOCX, PDF, HTML-Formate)
 - Automatische Sicherung und Versionskontrolle
-- Mehrprojektverwaltung
-
-### KI-Vervollständigungsfunktion
-- Drei Vervollständigungsmodi: Automatische Vervollständigung, Manuelle Vervollständigung (empfohlen: einmal Tab drücken zum Auslösen, nochmal Tab zum Anwenden der Vervollständigung), Vervollständigung deaktivieren
+- Verwaltung mehrerer Projekte
+### KI-Autovervollständigungsfunktion
+- Drei Vervollständigungsmodi: Automatische Vervollständigung, Manuelle Vervollständigung (empfohlen: einmal Tab drücken zum Auslösen, nochmal Tab zum Anwenden), Deaktivierte Vervollständigung
 - Drei Kontextmodi:
-  - Schnellmodus: Leichtgewichtiger Kontext, schnelle Reaktion
-  - Ausgewogenmodus: Mittlerer Kontext, Ausgewogenheit zwischen Qualität und Geschwindigkeit
-  - Globalmodus: Vollständiger Projektkontext, bestes Ergebnis
+  - Schneller Modus: Leichtgewichtiger Kontext, schnelle Reaktion
+  - Ausgewogener Modus: Mittlerer Kontext, ausgewogen zwischen Qualität und Geschwindigkeit
+  - Globaler Modus: Vollständiger Projektkontext, bestes Ergebnis
 - Unterstützung für verschiedene KI-Dienste: OpenAI, Claude, Tongyi Qianwen, Zhipu AI, DeepSeek, Groq usw.
+
 ### Gliederungsverwaltung
 - Visualisierte Gliederungsbaumstruktur
-- Drag-and-Drop-Sortierung und Ebenenanpassung
-- Schnelle Dokumentennavigation
+- Drag-and-Drop-Sortierung und Hierarchieanpassung
+- Schnelle Dokumentnavigation
 - Gliederungsanalyse und Optimierungsvorschläge
 
 ### API-Konfiguration
-- Zentrales AI-Konfigurationszentrum
+- Zentrales KI-Konfigurationscenter
 - Voreingestellte Konfigurationen für mehrere Anbieter
-- Verbindungstest-Funktion
-- Konfigurationslösungen speichern sowie Import und Export
-
-### Intelligente Vervollständigungseinstellungen
+- Verbindungstestfunktion
+- Speichern sowie Import und Export von Konfigurationsschemata
+### Intelligente Autovervollständigungs-Einstellungen
 - Einstellbare Auslöseverzögerung
 - Begrenzung der Vervollständigungslänge
-- Kontextlängenkonfiguration
+- Konfiguration der Kontextlänge
 - Unterstützung für Streaming-Antworten
 
-### Prompt-Editor
+### Prompt-Bearbeitung
 - Mehrere integrierte Schreibvorlagen
 - Benutzerdefinierte Prompt-Vorlagen
-- Vorlagenkategorieverwaltung
+- Kategorisierte Vorlagenverwaltung
 - Modusspezifische Vorlagenkonfiguration
+
 ### Benutzeroberflächenfunktionen
-- Helles und dunkles Design
-- Dreispaltiges Layout (Projektbaum, Editor, Konzept-Panel)
+- Heller und dunkler Modus
+- Dreispaltiges Layout (Projektbaum, Editor, Konzeptpanel)
 - Einklappbare Seitenleiste
 - Vollbild-Schreibmodus
 - Fokusmodus (Satz, Absatz, Schreibmaschinenmodus, Zen-Modus, Immersionsmodus)
 
 ### Suchen und Ersetzen
-- Projektsuche im gesamten Text
+- Gesamte Projekttextsuche
 - Unterstützung für reguläre Ausdrücke
-- Funktion zum Ersetzen in großen Mengen
+- Funktion für Batch-Ersetzungen
 - Erweiterte Suchoptionen
 
-### Konzeptverwaltung
-- Automatische Erkennung von Charakteren, Orten, Objekten
+### Konzeptmanagement
+- Automatische Erkennung von Rollen, Orten und Objekten
 - Verwaltung von Konzeptbeziehungen
-- Tag- und Kategoriensystem
+- Tagging- und Kategoriesystem
 - Schnelles Einfügen von Konzepten
 
-## Tastenkürzel
+## Tastenkombinationen
+
 - `Ctrl+N`: Neues Projekt
 - `Ctrl+O`: Projekt öffnen
 - `Ctrl+S`: Dokument speichern
@@ -91,8 +131,6 @@ python src/main.py
 - `Ctrl+F`: Suchen
 - `Ctrl+H`: Suchen und Ersetzen
 - `Ctrl+Shift+H`: Erweiterte Suche und Ersetzen
-
-
 ## Systemanforderungen
 
 - Python 3.8+
@@ -107,6 +145,6 @@ python src/main.py
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-13
 
 ---
