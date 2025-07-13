@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 1,
+    "Content": "# NFC Payment Terminal\n\nA multi-chain NFC payment terminal that processes cryptocurrency payments across 5 blockchain networks with real-time transaction monitoring and comprehensive history tracking.\n\n## 🌐 Supported Networks\n\n- **Ethereum**\n- **Base** \n- **Arbitrum** \n- **Optimism** \n- **Polygon** \n\n### 🎯 **Smart Payment Priority**\n\nRather than negotiate a chain / token combo with the merchant, the payment terminal handles it automatically. First it figures out a chain the merchant supports that you also have funds on, then sends a transaction with ETH or an ERC-20 token with this priority:\n\n```\nL2 Stablecoin > L2 Other > L2 ETH > L1 Stablecoin > L1 Other > L1 ETH\n```\n",
+    "ContentSha": "pdIyU9KX6ZphRLpxoyda1sRftUwWiV0igELr5zBYMGE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# NFC Ödeme Terminali\n\nBeş blok zinciri ağı üzerinden kripto para ödemelerini işleyen, gerçek zamanlı işlem takibi ve kapsamlı geçmiş izleme özelliklerine sahip çok zincirli bir NFC ödeme terminali.\n\n## 🌐 Desteklenen Ağlar\n\n- **Ethereum**\n- **Base** \n- **Arbitrum** \n- **Optimism** \n- **Polygon** \n\n### 🎯 **Akıllı Ödeme Önceliği**\n\nSatıcı ile zincir / token kombinasyonu pazarlığı yapmak yerine, ödeme terminali bunu otomatik olarak halleder. Önce satıcının desteklediği ve sizin de bakiyenizin bulunduğu bir zinciri belirler, ardından işlemi aşağıdaki öncelik ile ETH veya bir ERC-20 token ile gönderir:\n\n```\nL2 Stablecoin > L2 Diğer > L2 ETH > L1 Stablecoin > L1 Diğer > L1 ETH\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 2,
+    "Content": "## 🚀 Quick Start\n\n1. **Install dependencies:**\n   ```bash\n   npm install\n   ```\n\n2. **Environment setup:**\n   ```bash\n   echo \"ALCHEMY_API_KEY=your_alchemy_api_key_here\" > .env\n   ```\n\n3. **Run the terminal:**\n   ```bash\n   npm start\n   ```\n\n4. **Open the interface:**\n   Navigate to `http://localhost:3000`\n",
+    "ContentSha": "Zi/hDUmVO5J5r0t5RPo1wkWQhfLFV+cY4pN8Y6VAVX0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🚀 Hızlı Başlangıç\n\n1. **Bağımlılıkları yükleyin:**\n   ```bash\n   npm install\n   ```\n\n2. **Ortamı ayarlayın:**\n   ```bash\n   echo \"ALCHEMY_API_KEY=your_alchemy_api_key_here\" > .env\n   ```\n\n3. **Terminali çalıştırın:**\n   ```bash\n   npm start\n   ```\n\n4. **Arayüzü açın:**\n   `http://localhost:3000` adresine gidin\n",
+    "Status": "ok"
+  },
+  {
+    "Id": 3,
+    "Content": "## 🏗️ Architecture\n\n```\nsrc/\n├── server.ts                   # Express server & WebSocket handler\n├── app.ts                     # Main application orchestrator\n├── web/index.html             # Payment terminal UI\n├── config/index.ts            # Multi-chain configuration\n└── services/\n    ├── nfcService.ts          # NFC reader & wallet scanning\n    ├── alchemyService.ts      # Multi-chain balance & monitoring\n    ├── paymentService.ts      # Payment selection & EIP-681 generation\n    ├── ethereumService.ts     # Address validation utilities\n    └── addressProcessor.ts    # Duplicate processing prevention\nscripts/\n└── rpi-deploy/\n    ├── setup-build-environment.sh  # Install dependencies to allow building a Raspberry Pi image\n    └── build-pi-image-osx.sh       # Build a Raspberry Pi image\n```\n",
+    "ContentSha": "g4uwm9UnsnRyY1+SOvBPNyQsRnRkAcLl+l3LqQCo880=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🏗️ Mimari\n\n```\nsrc/\n├── server.ts                   # Express sunucusu & WebSocket yöneticisi\n├── app.ts                      # Ana uygulama düzenleyicisi\n├── web/index.html              # Ödeme terminali arayüzü\n├── config/index.ts             # Çoklu-zincir yapılandırması\n└── services/\n    ├── nfcService.ts           # NFC okuyucu & cüzdan tarama\n    ├── alchemyService.ts       # Çoklu-zincir bakiye & izleme\n    ├── paymentService.ts       # Ödeme seçimi & EIP-681 oluşturma\n    ├── ethereumService.ts      # Adres doğrulama yardımcıları\n    └── addressProcessor.ts     # Yinelenen işlem önleme\nscripts/\n└── rpi-deploy/\n    ├── setup-build-environment.sh  # Raspberry Pi imajı oluşturmak için bağımlılıkları yükler\n    └── build-pi-image-osx.sh       # Raspberry Pi imajı oluşturur\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 4,
+    "Content": "## 💡 Usage\n\n### **Processing Payments**\n1. Enter amount using the keypad (cents-based: \"150\" = $1.50)\n2. Tap \"Charge\" to initiate payment\n3. Customer taps NFC device to send payment\n4. Real-time monitoring confirms transaction\n5. \"Approved\" message with block explorer link\n\n### **Transaction History**\n1. Tap the 📜 history button on the keypad\n2. View all transactions or scan a wallet for specific history\n3. Tap \"📱 Scan Wallet for History\" and have customer tap their device\n4. Browse filtered transactions for that specific wallet\n\n\n## 🔄 Payment Flow\n\n1. **NFC Detection** → Customer taps device\n2. **Multi-Chain Fetching** → Portfolio analysis across all 6 chains\n3. **Smart Selection** → Optimal payment token based on priority system\n4. **EIP-681 Generation** → Payment request with chain ID\n5. **Real-Time Monitoring** → WebSocket/polling for transaction confirmation\n6. **History Logging** → Transaction stored with full metadata\n",
+    "ContentSha": "J+WGDWPeAjl7sIlurfkYZDcwzRuMaTiHoAD9A+uQ8K0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 💡 Kullanım\n\n### **Ödeme İşleme**\n1. Tuş takımını kullanarak tutarı girin (kuruş bazlı: \"150\" = 1,50 $)\n2. Ödemeyi başlatmak için \"Tahsil Et\"e dokunun\n3. Müşteri ödemeyi göndermek için NFC cihazını dokundurur\n4. Gerçek zamanlı izleme işlem onayını sağlar\n5. Blok gezgini bağlantısı ile \"Onaylandı\" mesajı\n\n### **İşlem Geçmişi**\n1. Tuş takımındaki 📜 geçmiş butonuna dokunun\n2. Tüm işlemleri görüntüleyin veya belirli bir cüzdan için geçmişi tarayın\n3. \"📱 Geçmiş İçin Cüzdan Tara\"ya dokunun ve müşterinin cihazını dokundurmasını sağlayın\n4. O belirli cüzdana ait filtrelenmiş işlemleri inceleyin\n\n\n## 🔄 Ödeme Akışı\n\n1. **NFC Algılama** → Müşteri cihazını dokundurur\n2. **Çoklu Zincir Getirimi** → Tüm 6 zincirde portföy analizi\n3. **Akıllı Seçim** → Öncelik sistemine göre en uygun ödeme tokenı\n4. **EIP-681 Oluşturma** → Zincir kimliği ile ödeme isteği\n5. **Gerçek Zamanlı İzleme** → İşlem onayı için WebSocket/polling\n6. **Geçmiş Kaydı** → İşlem tam meta verilerle saklanır",
+    "Status": "ok"
+  },
+  {
+    "Id": 5,
+    "Content": "## 🛡️ Transaction Monitoring\n\n- **WebSocket monitoring** for Ethereum, Base, Arbitrum, Optimism, Polygon\n- **Polling-based monitoring** fallback\n- **Automatic timeout** after 5 minutes\n- **Block explorer integration** for transaction verification\n- **Status tracking**: detected → confirmed → failed\n\n## 🍓 Raspberry Pi Deployment\n\nThis NFC payment terminal can be deployed as a **plug-and-play kiosk** on Raspberry Pi hardware for production use.\n\n### **Hardware Requirements**\n- Raspberry Pi 4B (4GB+ RAM recommended)\n- 7\" Official Raspberry Pi Touchscreen \n- **ACR1252U-M1 NFC Reader** (specifically supported)\n- 32GB+ MicroSD card\n\n### **Deployment Features**\n- **One-command build** creates bootable SD card image\n- **Pre-configured WiFi** and API credentials\n- **Automatic startup** with fullscreen kiosk mode\n- **Safety validation** prevents deployment with test addresses\n- **macOS and Linux** build support\n",
+    "ContentSha": "XdVLIkLEQWeuUPlp6VBY6ilx0Ub2e+rAJocpc3rs/o0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🛡️ İşlem İzleme\n\n- Ethereum, Base, Arbitrum, Optimism, Polygon için **WebSocket izleme**\n- **Anket tabanlı izleme** yedekleme\n- **5 dakika** sonra otomatik zaman aşımı\n- İşlem doğrulaması için **blok gezgini entegrasyonu**\n- **Durum takibi**: tespit edildi → onaylandı → başarısız oldu\n\n## 🍓 Raspberry Pi Dağıtımı\n\nBu NFC ödeme terminali, üretim kullanımı için Raspberry Pi donanımında **tak-çalıştır kiosk** olarak dağıtılabilir.\n\n### **Donanım Gereksinimleri**\n- Raspberry Pi 4B (4GB+ RAM önerilir)\n- 7\" Resmi Raspberry Pi Dokunmatik Ekran\n- **ACR1252U-M1 NFC Okuyucu** (özellikle desteklenir)\n- 32GB+ MicroSD kart\n\n### **Dağıtım Özellikleri**\n- **Tek komutla kurulum** ile önyüklenebilir SD kart imajı oluşturur\n- **Önceden yapılandırılmış WiFi** ve API kimlik bilgileri\n- **Otomatik başlatma** ile tam ekran kiosk modu\n- **Güvenlik doğrulaması** test adresleriyle dağıtımı engeller\n- **macOS ve Linux** kurulum desteği",
+    "Status": "ok"
+  },
+  {
+    "Id": 6,
+    "Content": "### **Quick Deploy**\n```bash\n# Navigate to deployment scripts\ncd scripts/rpi-deploy\n\n# Configure your deployment\ncp build-config.env.template build-config.env\n# Edit build-config.env with your WiFi, API key, and merchant address\n\n# Build bootable image (macOS)\n./build-pi-image-osx.sh\n\n# Flash the generated nfc-terminal-<date>.img.gz file to SD card using Raspberry Pi Imager and boot!\n```\n\n📖 **[Complete Deployment Guide](https://raw.githubusercontent.com/FreePayPOS/merchant-app/main/README-DEPLOYMENT.md)**",
+    "ContentSha": "Z2ZdzeK6yogXFBnJoxqX4X4pfTcqnhfaN2ORjo58Gz4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### **Hızlı Dağıtım**\n```bash\n# Dağıtım betiklerine gidin\ncd scripts/rpi-deploy\n\n# Dağıtımınızı yapılandırın\ncp build-config.env.template build-config.env\n# build-config.env dosyasını WiFi, API anahtarınız ve mağaza adresiniz ile düzenleyin\n\n# Önyüklenebilir imajı oluşturun (macOS)\n./build-pi-image-osx.sh\n\n# Oluşturulan nfc-terminal-<date>.img.gz dosyasını Raspberry Pi Imager ile SD karta yazın ve başlatın!\n```\n\n📖 **[Tam Dağıtım Kılavuzu](https://raw.githubusercontent.com/FreePayPOS/merchant-app/main/README-DEPLOYMENT.md)**",
+    "Status": "ok"
+  }
+]

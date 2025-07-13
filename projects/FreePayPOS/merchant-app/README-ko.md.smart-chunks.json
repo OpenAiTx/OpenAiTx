@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 1,
+    "Content": "# NFC Payment Terminal\n\nA multi-chain NFC payment terminal that processes cryptocurrency payments across 5 blockchain networks with real-time transaction monitoring and comprehensive history tracking.\n\n## 🌐 Supported Networks\n\n- **Ethereum**\n- **Base** \n- **Arbitrum** \n- **Optimism** \n- **Polygon** \n\n### 🎯 **Smart Payment Priority**\n\nRather than negotiate a chain / token combo with the merchant, the payment terminal handles it automatically. First it figures out a chain the merchant supports that you also have funds on, then sends a transaction with ETH or an ERC-20 token with this priority:\n\n```\nL2 Stablecoin > L2 Other > L2 ETH > L1 Stablecoin > L1 Other > L1 ETH\n```\n",
+    "ContentSha": "pdIyU9KX6ZphRLpxoyda1sRftUwWiV0igELr5zBYMGE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "error"
+  },
+  {
+    "Id": 2,
+    "Content": "## 🚀 Quick Start\n\n1. **Install dependencies:**\n   ```bash\n   npm install\n   ```\n\n2. **Environment setup:**\n   ```bash\n   echo \"ALCHEMY_API_KEY=your_alchemy_api_key_here\" > .env\n   ```\n\n3. **Run the terminal:**\n   ```bash\n   npm start\n   ```\n\n4. **Open the interface:**\n   Navigate to `http://localhost:3000`\n",
+    "ContentSha": "Zi/hDUmVO5J5r0t5RPo1wkWQhfLFV+cY4pN8Y6VAVX0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🚀 빠른 시작\n\n1. **의존성 설치:**\n   ```bash\n   npm install\n   ```\n\n2. **환경 설정:**\n   ```bash\n   echo \"ALCHEMY_API_KEY=your_alchemy_api_key_here\" > .env\n   ```\n\n3. **터미널 실행:**\n   ```bash\n   npm start\n   ```\n\n4. **인터페이스 열기:**\n   `http://localhost:3000`로 이동하세요.",
+    "Status": "ok"
+  },
+  {
+    "Id": 3,
+    "Content": "## 🏗️ Architecture\n\n```\nsrc/\n├── server.ts                   # Express server & WebSocket handler\n├── app.ts                     # Main application orchestrator\n├── web/index.html             # Payment terminal UI\n├── config/index.ts            # Multi-chain configuration\n└── services/\n    ├── nfcService.ts          # NFC reader & wallet scanning\n    ├── alchemyService.ts      # Multi-chain balance & monitoring\n    ├── paymentService.ts      # Payment selection & EIP-681 generation\n    ├── ethereumService.ts     # Address validation utilities\n    └── addressProcessor.ts    # Duplicate processing prevention\nscripts/\n└── rpi-deploy/\n    ├── setup-build-environment.sh  # Install dependencies to allow building a Raspberry Pi image\n    └── build-pi-image-osx.sh       # Build a Raspberry Pi image\n```\n",
+    "ContentSha": "g4uwm9UnsnRyY1+SOvBPNyQsRnRkAcLl+l3LqQCo880=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "error"
+  },
+  {
+    "Id": 4,
+    "Content": "## 💡 Usage\n\n### **Processing Payments**\n1. Enter amount using the keypad (cents-based: \"150\" = $1.50)\n2. Tap \"Charge\" to initiate payment\n3. Customer taps NFC device to send payment\n4. Real-time monitoring confirms transaction\n5. \"Approved\" message with block explorer link\n\n### **Transaction History**\n1. Tap the 📜 history button on the keypad\n2. View all transactions or scan a wallet for specific history\n3. Tap \"📱 Scan Wallet for History\" and have customer tap their device\n4. Browse filtered transactions for that specific wallet\n\n\n## 🔄 Payment Flow\n\n1. **NFC Detection** → Customer taps device\n2. **Multi-Chain Fetching** → Portfolio analysis across all 6 chains\n3. **Smart Selection** → Optimal payment token based on priority system\n4. **EIP-681 Generation** → Payment request with chain ID\n5. **Real-Time Monitoring** → WebSocket/polling for transaction confirmation\n6. **History Logging** → Transaction stored with full metadata\n",
+    "ContentSha": "J+WGDWPeAjl7sIlurfkYZDcwzRuMaTiHoAD9A+uQ8K0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 💡 사용법\n\n### **결제 처리**\n1. 키패드를 사용하여 금액 입력 (센트 단위: \"150\" = 1.50달러)\n2. \"결제\"를 눌러 결제 시작\n3. 고객이 NFC 기기로 결제 전송\n4. 실시간 모니터링으로 거래 확인\n5. \"승인\" 메시지와 블록 탐색기 링크 제공\n\n### **거래 내역**\n1. 키패드의 📜 내역 버튼 탭\n2. 모든 거래 내역 보기 또는 특정 지갑의 내역 조회\n3. \"📱 지갑 스캔하여 내역 확인\"을 탭하고 고객이 기기를 태그하도록 안내\n4. 해당 지갑의 필터링된 거래 내역 탐색\n\n\n## 🔄 결제 흐름\n\n1. **NFC 감지** → 고객이 기기 태그\n2. **멀티체인 조회** → 6개 체인 전체 포트폴리오 분석\n3. **스마트 선택** → 우선순위 시스템 기반 최적 결제 토큰 선택\n4. **EIP-681 생성** → 체인 ID 포함 결제 요청\n5. **실시간 모니터링** → WebSocket/폴링으로 거래 확인\n6. **내역 기록** → 전체 메타데이터와 함께 거래 저장",
+    "Status": "ok"
+  },
+  {
+    "Id": 5,
+    "Content": "## 🛡️ Transaction Monitoring\n\n- **WebSocket monitoring** for Ethereum, Base, Arbitrum, Optimism, Polygon\n- **Polling-based monitoring** fallback\n- **Automatic timeout** after 5 minutes\n- **Block explorer integration** for transaction verification\n- **Status tracking**: detected → confirmed → failed\n\n## 🍓 Raspberry Pi Deployment\n\nThis NFC payment terminal can be deployed as a **plug-and-play kiosk** on Raspberry Pi hardware for production use.\n\n### **Hardware Requirements**\n- Raspberry Pi 4B (4GB+ RAM recommended)\n- 7\" Official Raspberry Pi Touchscreen \n- **ACR1252U-M1 NFC Reader** (specifically supported)\n- 32GB+ MicroSD card\n\n### **Deployment Features**\n- **One-command build** creates bootable SD card image\n- **Pre-configured WiFi** and API credentials\n- **Automatic startup** with fullscreen kiosk mode\n- **Safety validation** prevents deployment with test addresses\n- **macOS and Linux** build support\n",
+    "ContentSha": "XdVLIkLEQWeuUPlp6VBY6ilx0Ub2e+rAJocpc3rs/o0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🛡️ 트랜잭션 모니터링\n\n- 이더리움, 베이스, 아비트럼, 옵티미즘, 폴리곤용 **WebSocket 모니터링**\n- **폴링 기반 모니터링** 폴백\n- **5분 후 자동 타임아웃**\n- 트랜잭션 검증을 위한 **블록 익스플로러 연동**\n- **상태 추적**: 감지됨 → 확인됨 → 실패\n\n## 🍓 라즈베리 파이 배포\n\n이 NFC 결제 단말기는 **플러그 앤 플레이 키오스크**로 라즈베리 파이 하드웨어에 배포하여 실제 환경에서 사용할 수 있습니다.\n\n### **하드웨어 요구 사항**\n- 라즈베리 파이 4B (4GB 이상 RAM 권장)\n- 7인치 공식 라즈베리 파이 터치스크린\n- **ACR1252U-M1 NFC 리더기** (특별히 지원됨)\n- 32GB 이상 MicroSD 카드\n\n### **배포 기능**\n- **원커맨드 빌드**로 부팅 가능한 SD 카드 이미지 생성\n- **사전 설정된 WiFi** 및 API 자격 증명\n- **자동 시작** 및 전체화면 키오스크 모드\n- **안전성 검증**으로 테스트 주소 배포 방지\n- **macOS 및 Linux** 빌드 지원",
+    "Status": "ok"
+  },
+  {
+    "Id": 6,
+    "Content": "### **Quick Deploy**\n```bash\n# Navigate to deployment scripts\ncd scripts/rpi-deploy\n\n# Configure your deployment\ncp build-config.env.template build-config.env\n# Edit build-config.env with your WiFi, API key, and merchant address\n\n# Build bootable image (macOS)\n./build-pi-image-osx.sh\n\n# Flash the generated nfc-terminal-<date>.img.gz file to SD card using Raspberry Pi Imager and boot!\n```\n\n📖 **[Complete Deployment Guide](https://raw.githubusercontent.com/FreePayPOS/merchant-app/main/README-DEPLOYMENT.md)**",
+    "ContentSha": "Z2ZdzeK6yogXFBnJoxqX4X4pfTcqnhfaN2ORjo58Gz4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### **빠른 배포**\n```bash\n# 배포 스크립트 디렉토리로 이동\ncd scripts/rpi-deploy\n\n# 배포 환경 설정\ncp build-config.env.template build-config.env\n# build-config.env 파일을 열어 WiFi, API 키, 가맹점 주소를 입력하세요\n\n# 부팅 가능한 이미지 빌드 (macOS)\n./build-pi-image-osx.sh\n\n# 생성된 nfc-terminal-<date>.img.gz 파일을 Raspberry Pi Imager로 SD 카드에 플래시한 후 부팅하세요!\n```\n\n📖 **[전체 배포 가이드](https://raw.githubusercontent.com/FreePayPOS/merchant-app/main/README-DEPLOYMENT.md)**",
+    "Status": "ok"
+  }
+]

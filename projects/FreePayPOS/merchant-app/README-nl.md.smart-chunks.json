@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 1,
+    "Content": "# NFC Payment Terminal\n\nA multi-chain NFC payment terminal that processes cryptocurrency payments across 5 blockchain networks with real-time transaction monitoring and comprehensive history tracking.\n\n## 🌐 Supported Networks\n\n- **Ethereum**\n- **Base** \n- **Arbitrum** \n- **Optimism** \n- **Polygon** \n\n### 🎯 **Smart Payment Priority**\n\nRather than negotiate a chain / token combo with the merchant, the payment terminal handles it automatically. First it figures out a chain the merchant supports that you also have funds on, then sends a transaction with ETH or an ERC-20 token with this priority:\n\n```\nL2 Stablecoin > L2 Other > L2 ETH > L1 Stablecoin > L1 Other > L1 ETH\n```\n",
+    "ContentSha": "pdIyU9KX6ZphRLpxoyda1sRftUwWiV0igELr5zBYMGE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# NFC-betalterminal\n\nEen multi-chain NFC-betalterminal die cryptobetalingen verwerkt over 5 blockchainnetwerken met realtime transactiebewaking en uitgebreide geschiedenistracking.\n\n## 🌐 Ondersteunde netwerken\n\n- **Ethereum**\n- **Base**\n- **Arbitrum**\n- **Optimism**\n- **Polygon**\n\n### 🎯 **Slimme betalingsprioriteit**\n\nIn plaats van een keten/token-combinatie met de handelaar te onderhandelen, regelt de betaalterminal dit automatisch. Eerst zoekt het een keten die de handelaar ondersteunt en waarop jij ook tegoeden hebt, en vervolgens verzendt het een transactie met ETH of een ERC-20-token met deze prioriteit:\n\n```\nL2 Stablecoin > L2 Overige > L2 ETH > L1 Stablecoin > L1 Overige > L1 ETH\n```",
+    "Status": "ok"
+  },
+  {
+    "Id": 2,
+    "Content": "## 🚀 Quick Start\n\n1. **Install dependencies:**\n   ```bash\n   npm install\n   ```\n\n2. **Environment setup:**\n   ```bash\n   echo \"ALCHEMY_API_KEY=your_alchemy_api_key_here\" > .env\n   ```\n\n3. **Run the terminal:**\n   ```bash\n   npm start\n   ```\n\n4. **Open the interface:**\n   Navigate to `http://localhost:3000`\n",
+    "ContentSha": "Zi/hDUmVO5J5r0t5RPo1wkWQhfLFV+cY4pN8Y6VAVX0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🚀 Snel Starten\n\n1. **Installeer afhankelijkheden:**\n   ```bash\n   npm install\n   ```\n\n2. **Omgevingsinstellingen:**\n   ```bash\n   echo \"ALCHEMY_API_KEY=je_alchemy_api_sleutel_hier\" > .env\n   ```\n\n3. **Start de terminal:**\n   ```bash\n   npm start\n   ```\n\n4. **Open de interface:**\n   Navigeer naar `http://localhost:3000`",
+    "Status": "ok"
+  },
+  {
+    "Id": 3,
+    "Content": "## 🏗️ Architecture\n\n```\nsrc/\n├── server.ts                   # Express server & WebSocket handler\n├── app.ts                     # Main application orchestrator\n├── web/index.html             # Payment terminal UI\n├── config/index.ts            # Multi-chain configuration\n└── services/\n    ├── nfcService.ts          # NFC reader & wallet scanning\n    ├── alchemyService.ts      # Multi-chain balance & monitoring\n    ├── paymentService.ts      # Payment selection & EIP-681 generation\n    ├── ethereumService.ts     # Address validation utilities\n    └── addressProcessor.ts    # Duplicate processing prevention\nscripts/\n└── rpi-deploy/\n    ├── setup-build-environment.sh  # Install dependencies to allow building a Raspberry Pi image\n    └── build-pi-image-osx.sh       # Build a Raspberry Pi image\n```\n",
+    "ContentSha": "g4uwm9UnsnRyY1+SOvBPNyQsRnRkAcLl+l3LqQCo880=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "error"
+  },
+  {
+    "Id": 4,
+    "Content": "## 💡 Usage\n\n### **Processing Payments**\n1. Enter amount using the keypad (cents-based: \"150\" = $1.50)\n2. Tap \"Charge\" to initiate payment\n3. Customer taps NFC device to send payment\n4. Real-time monitoring confirms transaction\n5. \"Approved\" message with block explorer link\n\n### **Transaction History**\n1. Tap the 📜 history button on the keypad\n2. View all transactions or scan a wallet for specific history\n3. Tap \"📱 Scan Wallet for History\" and have customer tap their device\n4. Browse filtered transactions for that specific wallet\n\n\n## 🔄 Payment Flow\n\n1. **NFC Detection** → Customer taps device\n2. **Multi-Chain Fetching** → Portfolio analysis across all 6 chains\n3. **Smart Selection** → Optimal payment token based on priority system\n4. **EIP-681 Generation** → Payment request with chain ID\n5. **Real-Time Monitoring** → WebSocket/polling for transaction confirmation\n6. **History Logging** → Transaction stored with full metadata\n",
+    "ContentSha": "J+WGDWPeAjl7sIlurfkYZDcwzRuMaTiHoAD9A+uQ8K0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 💡 Gebruik\n\n### **Betalingen Verwerken**\n1. Voer het bedrag in met het toetsenbord (in centen: \"150\" = €1,50)\n2. Tik op \"Afrekenen\" om de betaling te starten\n3. Klant tikt met NFC-apparaat om betaling te verzenden\n4. Realtime monitoring bevestigt de transactie\n5. \"Goedgekeurd\" bericht met block explorer-link\n\n### **Transactiegeschiedenis**\n1. Tik op de 📜 geschiedenis-knop op het toetsenbord\n2. Bekijk alle transacties of scan een wallet voor specifieke geschiedenis\n3. Tik op \"📱 Scan Wallet voor Geschiedenis\" en laat de klant hun apparaat tikken\n4. Blader door gefilterde transacties voor die specifieke wallet\n\n\n## 🔄 Betalingsstroom\n\n1. **NFC-detectie** → Klant tikt apparaat\n2. **Multi-Chain Ophalen** → Portefeuille-analyse over alle 6 ketens\n3. **Slimme Selectie** → Optimale betaalmunt op basis van prioriteitensysteem\n4. **EIP-681 Generatie** → Betalingsverzoek met chain ID\n5. **Realtime Monitoring** → WebSocket/polling voor transactiebevestiging\n6. **Geschiedenis Logging** → Transactie opgeslagen met volledige metadata",
+    "Status": "ok"
+  },
+  {
+    "Id": 5,
+    "Content": "## 🛡️ Transaction Monitoring\n\n- **WebSocket monitoring** for Ethereum, Base, Arbitrum, Optimism, Polygon\n- **Polling-based monitoring** fallback\n- **Automatic timeout** after 5 minutes\n- **Block explorer integration** for transaction verification\n- **Status tracking**: detected → confirmed → failed\n\n## 🍓 Raspberry Pi Deployment\n\nThis NFC payment terminal can be deployed as a **plug-and-play kiosk** on Raspberry Pi hardware for production use.\n\n### **Hardware Requirements**\n- Raspberry Pi 4B (4GB+ RAM recommended)\n- 7\" Official Raspberry Pi Touchscreen \n- **ACR1252U-M1 NFC Reader** (specifically supported)\n- 32GB+ MicroSD card\n\n### **Deployment Features**\n- **One-command build** creates bootable SD card image\n- **Pre-configured WiFi** and API credentials\n- **Automatic startup** with fullscreen kiosk mode\n- **Safety validation** prevents deployment with test addresses\n- **macOS and Linux** build support\n",
+    "ContentSha": "XdVLIkLEQWeuUPlp6VBY6ilx0Ub2e+rAJocpc3rs/o0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🛡️ Transactiemonitoring\n\n- **WebSocket-monitoring** voor Ethereum, Base, Arbitrum, Optimism, Polygon\n- **Polling-gebaseerde monitoring** als fallback\n- **Automatische timeout** na 5 minuten\n- **Blokverkenner-integratie** voor transactie-verificatie\n- **Status-tracking**: gedetecteerd → bevestigd → mislukt\n\n## 🍓 Raspberry Pi Implementatie\n\nDeze NFC-betaalterminal kan als een **plug-and-play kiosk** worden geïmplementeerd op Raspberry Pi-hardware voor productiegebruik.\n\n### **Hardwarevereisten**\n- Raspberry Pi 4B (4GB+ RAM aanbevolen)\n- 7\" Officieel Raspberry Pi Touchscreen\n- **ACR1252U-M1 NFC-lezer** (specifiek ondersteund)\n- 32GB+ MicroSD-kaart\n\n### **Implementatiefuncties**\n- **One-command build** maakt een opstartbaar SD-kaartimage aan\n- **Vooraf geconfigureerde WiFi** en API-gegevens\n- **Automatisch opstarten** met fullscreen kioskmodus\n- **Veiligheidsvalidatie** voorkomt implementatie met testadressen\n- **macOS- en Linux**-buildondersteuning",
+    "Status": "ok"
+  },
+  {
+    "Id": 6,
+    "Content": "### **Quick Deploy**\n```bash\n# Navigate to deployment scripts\ncd scripts/rpi-deploy\n\n# Configure your deployment\ncp build-config.env.template build-config.env\n# Edit build-config.env with your WiFi, API key, and merchant address\n\n# Build bootable image (macOS)\n./build-pi-image-osx.sh\n\n# Flash the generated nfc-terminal-<date>.img.gz file to SD card using Raspberry Pi Imager and boot!\n```\n\n📖 **[Complete Deployment Guide](https://raw.githubusercontent.com/FreePayPOS/merchant-app/main/README-DEPLOYMENT.md)**",
+    "ContentSha": "Z2ZdzeK6yogXFBnJoxqX4X4pfTcqnhfaN2ORjo58Gz4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### **Snelle Implementatie**\n```bash\n# Ga naar de deployment scripts\ncd scripts/rpi-deploy\n\n# Configureer je deployment\ncp build-config.env.template build-config.env\n# Bewerk build-config.env met je WiFi, API-sleutel en handelsadres\n\n# Bouw het opstartbare image (macOS)\n./build-pi-image-osx.sh\n\n# Flash het gegenereerde nfc-terminal-<date>.img.gz bestand naar de SD-kaart met Raspberry Pi Imager en start op!\n```\n\n📖 **[Volledige Deploymentsgids](https://raw.githubusercontent.com/FreePayPOS/merchant-app/main/README-DEPLOYMENT.md)**",
+    "Status": "ok"
+  }
+]
