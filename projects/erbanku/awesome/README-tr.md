@@ -144,59 +144,60 @@
 - [obsproject/obs-studio](https://github.com/obsproject/obs-studio) - OBS Studio - Canlı yayın ve ekran kaydı için ücretsiz ve açık kaynaklı yazılım
 ## C# # 
 
+- [OpenAiTx/OpenAiTx](https://github.com/OpenAiTx/OpenAiTx) - GitHub projenizin readme ve wiki'si için otomatik çeviri platformu.
 - [UnigramDev/Unigram](https://github.com/UnigramDev/Unigram) - Windows için Telegram
-- [IT-HaoGe/Windows-Update-Delayer](https://github.com/IT-HaoGe/Windows-Update-Delayer) - Win11/10 için ITHaoGe Windows Update Delayer, IT豪哥 Bilgisayar Güncelleme Durdurucu, Windows11/10 sistem güncellemelerini hızlıca duraklatır
+- [IT-HaoGe/Windows-Update-Delayer](https://github.com/IT-HaoGe/Windows-Update-Delayer) - Win11/10 için ITHaoGe Windows Update Delayer，IT豪哥 bilgisayar güncelleme duraklatıcı, Windows11/10 sistem güncellemelerini hızlıca duraklatır
 - [hellzerg/optimizer](https://github.com/hellzerg/optimizer) - En iyi Windows Optimizasyon Aracı
-- [thebookisclosed/ViVe](https://github.com/thebookisclosed/ViVe) - Windows 10 sürüm 2004 ve üzeri için yeni özellik kontrol API'lerini kullanan C# kütüphanesi ve komut satırı uygulaması
+- [thebookisclosed/ViVe](https://github.com/thebookisclosed/ViVe) - Windows 10 sürüm 2004 ve sonrasında kullanılabilen yeni özellik kontrol API'lerini kullanan C# kütüphanesi ve konsol uygulaması
 - [xhnbzdl/feishu-doc-export](https://github.com/xhnbzdl/feishu-doc-export) - Feishu doküman dışa aktarma servisi
-- [abpframework/abp](https://github.com/abpframework/abp) - ASP.NET Core için açık kaynaklı web uygulama çerçevesi! .NET üzerinde en iyi uygulamalarla kurumsal yazılım çözümleri oluşturmak için önerilen bir mimari sunar. Temel altyapıyı sağlar
-- [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) - Ücretsiz Yazılım Medya Sistemi - Sunucu Backend & API
-- [boy1dr/SpleeterGui](https://github.com/boy1dr/SpleeterGui) - Spleeter için Windows masaüstü arayüzü - Yapay Zeka kaynak ayrımı
-- [Berrysoft/TsinghuaNet](https://github.com/Berrysoft/TsinghuaNet) - Artık bakım yapılmıyor, bkz. tunet-rust projesi. Tsinghua Üniversitesi kampüs ağı istemcisi, UWP, iOS, Android için uygundur.
-- [mili-tan/ArashiDNS.Dekunua](https://github.com/mili-tan/ArashiDNS.Dekunua) - Windows 11 için tanınmış DoH Sunucu Yöneticisi / Windows 11 için yerleşik ünlü DoH sunucu yönetim aracı
-- [2dust/clashN](https://github.com/2dust/clashN) - Windows için bir clash istemcisi, Mihomo desteğiyle
+- [abpframework/abp](https://github.com/abpframework/abp) - ASP.NET Core için açık kaynaklı web uygulama çatısı! .NET üzerinde en iyi uygulamalarla kurumsal yazılım çözümleri oluşturmak için görüşe dayalı bir mimari sunar. Temel altyapıyı sağlar.
+- [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) - Ücretsiz Yazılım Medya Sistemi - Sunucu Arka Ucu & API
+- [boy1dr/SpleeterGui](https://github.com/boy1dr/SpleeterGui) - Spleeter için Windows masaüstü arayüzü - Yapay Zeka kaynak ayrıştırma
+- [Berrysoft/TsinghuaNet](https://github.com/Berrysoft/TsinghuaNet) - Bakımı durduruldu, tunet-rust projesine bakın. Tsinghua Üniversitesi kampüs ağı istemcisi, UWP, iOS, Android için uygundur.
+- [mili-tan/ArashiDNS.Dekunua](https://github.com/mili-tan/ArashiDNS.Dekunua) - Windows 11 için ünlü DoH Sunucu Yöneticisi / 适用于 Windows 11 的内置著名 DoH 服务器管理工具
+- [2dust/clashN](https://github.com/2dust/clashN) - Windows için clash istemcisi, Mihomo desteğiyle
 - [zsh2401/AutumnBox](https://github.com/zsh2401/AutumnBox) - Grafiksel ADB araç kutusu
-- [thufv/CMinor-Verifier](https://github.com/thufv/CMinor-Verifier) - 2022 Bahar Dönemi Tsinghua Üniversitesi "Yazılım Analizi ve Doğrulama" dersi laboratuvarı (Lab for Software Analysis and Verification, 2022 Spring, Tsinghua University)
-- [emrecancubukcu/Terrain-Decorator](https://github.com/emrecancubukcu/Terrain-Decorator) - unity3d için hafif bir arazi aracı
-- [imbushuo/EnergyStar](https://github.com/imbushuo/EnergyStar) - Etkin olmayan Windows uygulamaları ve kullanıcı arka plan uygulamaları için SV2 Verimlilik Modunu ayarlayan bir uygulama
+- [thufv/CMinor-Verifier](https://github.com/thufv/CMinor-Verifier) - 2022 Bahar Dönemi Tsinghua Üniversitesi "Yazılım Analizi ve Doğrulama" dersi laboratuvar platformu (Lab for Software Analysis and Verification, 2022 Spring, Tsinghua University)
+- [emrecancubukcu/Terrain-Decorator](https://github.com/emrecancubukcu/Terrain-Decorator) - unity3d için hafif arazi aracı
+- [imbushuo/EnergyStar](https://github.com/imbushuo/EnergyStar) - Etkin olmayan Windows uygulamaları ve kullanıcı arka plan uygulamaları için SV2 Verimlilik Modunu ayarlayan kötü bir uygulama
 - [0x5bfa/FluentHub](https://github.com/0x5bfa/FluentHub) - Windows için şık ve güçlü bir GitHub istemcisi
 - [FireCubeStudios/Protecc](https://github.com/FireCubeStudios/Protecc) - Korur
 - [AxDSan/KeyPose](https://github.com/AxDSan/KeyPose) - Windows için 'Mouseposé' alternatifi
-- [RaoHammas/Social-Space](https://github.com/RaoHammas/Social-Space) - Uygulamalarınızı yan yana açıp çalışma alanlarını kaydetmenizi sağlayan bir uygulama.
-- [ros/solidworks_urdf_exporter](https://github.com/ros/solidworks_urdf_exporter) - SolidWorks'ten URDF'ye Dışa Aktarıcı
+- [RaoHammas/Social-Space](https://github.com/RaoHammas/Social-Space) - Social Space, uygulamalarınızı yan yana açmanıza ve çalışma alanlarını kaydetmenize olanak tanıyan bir uygulamadır.
+- [ros/solidworks_urdf_exporter](https://github.com/ros/solidworks_urdf_exporter) - SolidWorks'den URDF'ye Dışa Aktarıcı
 - [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) - Her sistem için PowerShell!
-- [Rise-Software/Rise-Media-Player](https://github.com/Rise-Software/Rise-Media-Player) - Sahip olduğunuz veya yayınladığınız her şey için tek medya oynatıcı; ister müzik ister video, ister çevrimiçi ister çevrimdışı Rise Media Player hepsini yapar. Ve WinUI'nin en son sürümüyle güzel ve yerel.
-- [rocksdanister/lively](https://github.com/rocksdanister/lively) - Kullanıcıların animasyonlu masaüstü duvar kağıtları ve ekran koruyucuları ayarlamasına olanak tanıyan, WinUI 3 destekli ücretsiz ve açık kaynaklı yazılım.
+- [Rise-Software/Rise-Media-Player](https://github.com/Rise-Software/Rise-Media-Player) - Sahip olduğunuz veya yayınladığınız her şey için tek medya oynatıcı; ister müzik ister video, çevrimiçi veya çevrimdışı, Rise Media Player hepsini yapar. Üstelik güzel ve en son WinUI sürümüyle yerel.
+- [rocksdanister/lively](https://github.com/rocksdanister/lively) - WinUI 3 destekli animasyonlu masaüstü duvar kağıtları ve ekran koruyucular ayarlamayı sağlayan ücretsiz ve açık kaynaklı yazılım.
 - [dremin/RetroBar](https://github.com/dremin/RetroBar) - Modern Windows sürümleri için klasik Windows 95, 98, Me, 2000, XP, Vista görev çubuğu
-- [lalakii/MouseClickTool](https://github.com/lalakii/MouseClickTool) - Basit ve kullanışlı bir otomatik tıklama aracı, küçük boyutlu, iyi performanslı~otomatik tıklama aracı. Mevcut sürüm boyutu 14KB, çevrimiçi (minimal) sürüm boyutu sadece 5KB. https://mouseclicktool.sourceforge.io
-- [dotnet/yarp](https://github.com/dotnet/yarp) - Yüksek performanslı HTTP ters proxy uygulamaları geliştirmek için araç seti.
-- [proxysu/ProxySU](https://github.com/proxysu/ProxySU) - Xray, V2ray, Trojan, NaiveProxy, Trojan-Go, ShadowsocksR(SSR), Shadowsocks-libev ve ilgili eklentiler, MTProto+TLS tek tıkla kurulum aracı, Windows altında kullanılır (tek tıkla bilimsel internet)
-- [bitwarden/server](https://github.com/bitwarden/server) - Bitwarden altyapısı/arka ucu (API, veritabanı, Docker, vb.).
-- [QL-Win/QuickLook](https://github.com/QL-Win/QuickLook) - macOS “Hızlı Bakış” özelliğini Windows'a getirir
+- [lalakii/MouseClickTool](https://github.com/lalakii/MouseClickTool) - Basit ve kullanışlı bir otomatik tıklayıcı, küçük boyutlu, iyi performanslı~Şu anki sürüm sadece 14KB, çevrimiçi sürüm(minimal) sadece 5KB. https://mouseclicktool.sourceforge.io
+- [dotnet/yarp](https://github.com/dotnet/yarp) - Yüksek performanslı HTTP ters proxy uygulamaları geliştirmek için bir araç seti.
+- [proxysu/ProxySU](https://github.com/proxysu/ProxySU) - Xray,V2ray，Trojan，NaiveProxy, Trojan-Go, ShadowsocksR(SSR),Shadowsocks-libev ve ilgili eklentiler,MTProto+TLS tek tıkla kurulum aracı, Windows altında kullanılır (tek tıkla bilimsel internet)
+- [bitwarden/server](https://github.com/bitwarden/server) - Bitwarden altyapısı/sunucu arka ucu (API, veritabanı, Docker, vb).
+- [QL-Win/QuickLook](https://github.com/QL-Win/QuickLook) - macOS “Quick Look” özelliğini Windows'a getirin
 - [DinoChan/Loaf](https://github.com/DinoChan/Loaf) - 
-- [ShareX/ShareX](https://github.com/ShareX/ShareX) - ShareX, kullanıcıların ekranlarının herhangi bir alanını tek tuşla yakalamasını veya kaydetmesini sağlayan ücretsiz ve açık kaynaklı bir uygulamadır. Ayrıca görüntü, metin ve çeşitli dosya türlerini yüklemeyi de destekler.
-- [shadowsocks/shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows) - shadowsocks'un C# uyarlaması
-- [gheyret/UyghurEditPP](https://github.com/gheyret/UyghurEditPP) - Uygurca için yazım denetimi özellikli metin düzenleyici
-- [marian42/wavefunctioncollapse](https://github.com/marian42/wavefunctioncollapse) - Sonsuz, prosedürel olarak oluşturulmuş bir şehirde yürüyüş yapın
-- [kenvix/USBCopyer](https://github.com/kenvix/USBCopyer) - 😉 Takılan USB belleğin dosyalarını ihtiyaca göre otomatik olarak kopyalamak için. "Yedekleme & USB bellek dosyalarını çalma aracı" (USBCopyer olarak yazılır, USBCopier olarak okunur)
+- [ShareX/ShareX](https://github.com/ShareX/ShareX) - ShareX, kullanıcıların ekranlarının herhangi bir alanını tek bir tuşla yakalamasını veya kaydetmesini sağlayan ücretsiz ve açık kaynaklı bir uygulamadır. Ayrıca görüntü, metin ve çeşitli dosya türlerini yüklemeyi de destekler.
+- [shadowsocks/shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows) - shadowsocks'un C# sürümü
+- [gheyret/UyghurEditPP](https://github.com/gheyret/UyghurEditPP) - Uygurca için yazım denetimli metin düzenleyici
+- [marian42/wavefunctioncollapse](https://github.com/marian42/wavefunctioncollapse) - Sonsuz, prosedürel olarak oluşturulmuş bir şehirde gezinin
+- [kenvix/USBCopyer](https://github.com/kenvix/USBCopyer) - 😉 USB takıldığında, USB'nin dosyalarını otomatik olarak ihtiyaca göre kopyalamak için kullanılır. "Yedekleme & USB'den dosya çalma aracı" (USBCopyer olarak yazılır, USBCopier olarak okunur)
 - [sttz/expresso](https://github.com/sttz/expresso) - expresso, ExpressVPN uygulamasını kontrol etmek için bir komut satırı arayüzüdür
 - [Azure/azure-powershell](https://github.com/Azure/azure-powershell) - Microsoft Azure PowerShell
-- [LimerBoy/Adamantium-Thief](https://github.com/LimerBoy/Adamantium-Thief) - :key: (BU KOD YENİ CHROME SÜRÜMLERİ İÇİN GÜNCEL DEĞİLDİR) Chromium tabanlı tarayıcıların şifrelerini, çerezlerini, kredi kartlarını, geçmişini, yer imlerini, otomatik doldurma verilerini çözer. Sürüm &gt; 80 desteklenir.
+- [LimerBoy/Adamantium-Thief](https://github.com/LimerBoy/Adamantium-Thief) - :key: (BU KOD YENİ CHROME SÜRÜMLERİ İÇİN ESKİDİR) Chromium tabanlı tarayıcıların şifrelerini, çerezlerini, kredi kartlarını, geçmişini, yer imlerini, otomatik doldurma verilerini şifre çözme. Sürüm > 80 desteklenmektedir.
 - [wakatime/notepadpp-wakatime](https://github.com/wakatime/notepadpp-wakatime) - Programlama etkinliğinizden otomatik zaman takibi ve metrikler üreten Notepad++ eklentisi.
-- [wakatime/office-wakatime](https://github.com/wakatime/office-wakatime) - Programlama etkinliğinizden otomatik zaman takibi ve metrikler üreten Office Solution eklentileri.
-- [microsoft/PowerToys](https://github.com/microsoft/PowerToys) - Üretkenliği en üst düzeye çıkarmak için Windows sistem araçları
-- [0x7c13/Notepads](https://github.com/0x7c13/Notepads) - Modern, hafif, minimalist tasarımlı bir metin düzenleyici.
+- [wakatime/office-wakatime](https://github.com/wakatime/office-wakatime) - Programlama etkinliğinizden otomatik zaman takibi ve metrikler üreten Office çözüm eklentileri.
+- [microsoft/PowerToys](https://github.com/microsoft/PowerToys) - Verimliliği en üst düzeye çıkarmak için Windows sistem yardımcı programları
+- [0x7c13/Notepads](https://github.com/0x7c13/Notepads) - Modern, hafif, minimalist tasarıma sahip bir metin düzenleyici.
 - [srwi/EverythingToolbar](https://github.com/srwi/EverythingToolbar) - Windows görev çubuğu için Everything entegrasyonu.
-- [mpvnet-player/mpv.net](https://github.com/mpvnet-player/mpv.net) - 🎞 mpv.net, modern bir arayüze sahip Windows için bir medya oynatıcıdır.
-- [ModuleArt/quick-picture-viewer](https://github.com/ModuleArt/quick-picture-viewer) - 🖼️ Windows için hafif, çok yönlü masaüstü resim görüntüleyici. Varsayılan Windows fotoğraf görüntüleyicisine en iyi alternatif.
-- [nilaoda/BBDown](https://github.com/nilaoda/BBDown) - Bilibili İndirici. Komut satırı tabanlı bir Bilibili indiricisi.
-- [TGSAN/CMWTAT_Digital_Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition) - CloudMoe Windows 10/11 Aktivasyon Aracı, dijital lisans alın, GitHub'daki en iyi açık kaynaklı Win 10/11 etkinleştiricisi. GitHub üzerindeki en harika açık kaynaklı Win10/Win11 dijital hak (dijital lisans) etkinleştirici aracı!
-- [AutoDarkMode/Windows-Auto-Night-Mode](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode) - Windows 10 ve Windows 11'in koyu ve açık teması arasında otomatik geçiş yapar
-- [mili-tan/AuroraDNS.GUI](https://github.com/mili-tan/AuroraDNS.GUI) - Saf, kirliliğe dayanıklı, basit ve hafif
-- [Richasy/BiliBili-UWP](https://github.com/Richasy/BiliBili-UWP) - BiliBili'nin UWP istemcisi, tabii ki üçüncü parti
+- [mpvnet-player/mpv.net](https://github.com/mpvnet-player/mpv.net) - 🎞 mpv.net, modern bir arayüze sahip Windows için bir medya oynatıcısıdır.
+- [ModuleArt/quick-picture-viewer](https://github.com/ModuleArt/quick-picture-viewer) - 🖼️ Windows için hafif, çok yönlü masaüstü resim görüntüleyici. Varsayılan Windows fotoğraf görüntüleyicisi için en iyi alternatif.
+- [nilaoda/BBDown](https://github.com/nilaoda/BBDown) - Bilibili İndirici. Komut satırı tabanlı bir Bilibili indirici.
+- [TGSAN/CMWTAT_Digital_Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition) - CloudMoe Windows 10/11 Aktivasyon Aracı dijital lisans alır, GitHub’daki en iyi açık kaynak Win 10/11 etkinleştiricisi! GitHub 上最棒的开源 Win10/Win11 数字权利（数字许可证）激活工具！
+- [AutoDarkMode/Windows-Auto-Night-Mode](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode) - Windows 10 ve Windows 11'in karanlık ve aydınlık teması arasında otomatik geçiş yapar
+- [mili-tan/AuroraDNS.GUI](https://github.com/mili-tan/AuroraDNS.GUI) - Temiz ve hafif, kirliliğe karşı korumalı
+- [Richasy/BiliBili-UWP](https://github.com/Richasy/BiliBili-UWP) - BiliBili için UWP istemcisi, elbette üçüncü parti
 - [BluePointLilac/ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager) - 🖱️ Saf Windows sağ tık menü yönetim programı
-- [Tichau/FileConverter](https://github.com/Tichau/FileConverter) - File Converter, windows gezgininde bağlam menüsünü kullanarak dosyaları dönüştürmenizi ve sıkıştırmanızı sağlayan çok basit bir araçtır.
-- [Alkl58/NotEnoughAV1Encodes](https://github.com/Alkl58/NotEnoughAV1Encodes) - AV1 (aomenc, rav1e & svt-av1) için grafik arayüz
+- [Tichau/FileConverter](https://github.com/Tichau/FileConverter) - File Converter, dosyaları Windows gezgininde sağ tıklama menüsünden dönüştürmenizi ve sıkıştırmanızı sağlayan çok basit bir araçtır.
+- [Alkl58/NotEnoughAV1Encodes](https://github.com/Alkl58/NotEnoughAV1Encodes) - AV1 (aomenc, rav1e & svt-av1) için arayüz
 - [t1m0thyj/WinDynamicDesktop](https://github.com/t1m0thyj/WinDynamicDesktop) - macOS Mojave Dinamik Masaüstü özelliğinin Windows'a aktarımı
 ## C++ 
 
@@ -347,15 +348,15 @@
 
 ## EJS 
 
-- [Fechin/reference](https://github.com/Fechin/reference) - ⭕ Geliştiriciler için hızlı başvuru ipucu sayfası paylaşın.
+- [Fechin/reference](https://github.com/Fechin/reference) - ⭕ Geliştiriciler için hızlı başvuru kopya kağıdı paylaşın.
 
 ## Elm 
 
-- [hilverd/glossary-page-template](https://github.com/hilverd/glossary-page-template) - Her yerde barındırılabilen, bir terimler sözlüğü oluşturmak için yerleşik editöre sahip tek bir HTML sayfası.
+- [hilverd/glossary-page-template](https://github.com/hilverd/glossary-page-template) - İstenilen yerde barındırılabilen, yerleşik editöre sahip bir terimler sözlüğü oluşturmak için tek bir HTML sayfası.
 
 ## Erlang 
 
-- [emqx/emqx](https://github.com/emqx/emqx) - AI, IoT, IIoT ve bağlı araçlar için en ölçeklenebilir ve güvenilir MQTT aracısı
+- [emqx/emqx](https://github.com/emqx/emqx) - AI, IoT, IIoT ve bağlı araçlar için en ölçeklenebilir ve güvenilir MQTT broker'ı
 
 ## GDScript 
 
@@ -363,136 +364,137 @@
 
 ## Go 
 
-- [OpenListTeam/OpenList](https://github.com/OpenListTeam/OpenList) - Anti Trust Crisis için yeni bir AList Fork'u
-- [samzong/mdctl](https://github.com/samzong/mdctl) - Markdown iş akışınızı geliştirmek için yapay zeka destekli bir CLI aracı, otomatik resim indirme, çeviri ve yakında gelecek daha fazla özellikle!
+- [lucaslorentz/caddy-docker-proxy](https://github.com/lucaslorentz/caddy-docker-proxy) - Docker için ters proxy olarak Caddy
+- [OpenListTeam/OpenList](https://github.com/OpenListTeam/OpenList) - Anti Trust Crisis için yeni bir AList Çatalı
+- [samzong/mdctl](https://github.com/samzong/mdctl) - Markdown iş akışınızı geliştirmek için otomatik görsel indirme, çeviri ve yakında gelecek daha fazla özellikle AI destekli CLI aracı!
 - [henrygd/beszel](https://github.com/henrygd/beszel) - Geçmiş veriler, docker istatistikleri ve uyarılarla hafif sunucu izleme merkezi.
-- [jonssonyan/h-ui](https://github.com/jonssonyan/h-ui) - Sadece Hysteria2 için panel / 仅仅是 Hysteria2 的面板
-- [bepass-org/warp-plus](https://github.com/bepass-org/warp-plus) - İran için sansür karşıtı bir araç olan Warp+Psiphon
-- [nezhahq/nezha](https://github.com/nezhahq/nezha) - :trollface: Kendi kendine barındırılan, hafif sunucu ve web sitesi izleme ve O&M aracı
+- [jonssonyan/h-ui](https://github.com/jonssonyan/h-ui) - Sadece Hysteria2'nin paneli / 仅仅是 Hysteria2 的面板
+- [bepass-org/warp-plus](https://github.com/bepass-org/warp-plus) - Warp+Psiphon, İran için bir sansür karşıtı yardımcı program
+- [nezhahq/nezha](https://github.com/nezhahq/nezha) - :trollface: Kendi barındırılan, hafif sunucu ve web sitesi izleme ve O&M aracı
 - [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) - Docker'ı yönetmenin daha tembel yolu
-- [OwO-Network/DeepLX](https://github.com/OwO-Network/DeepLX) - Güçlü Ücretsiz DeepL API, Token Gerekmez
-- [juanfont/headscale](https://github.com/juanfont/headscale) - Tailscale kontrol sunucusunun açık kaynak, kendi kendine barındırılan uygulaması
+- [OwO-Network/DeepLX](https://github.com/OwO-Network/DeepLX) - Güçlü Ücretsiz DeepL API, Token Gerektirmez
+- [juanfont/headscale](https://github.com/juanfont/headscale) - Tailscale kontrol sunucusunun açık kaynak, kendi barındırılan uygulaması
 - [tgdrive/teldrive](https://github.com/tgdrive/teldrive) - Teldrive
-- [apernet/OpenGFW](https://github.com/apernet/OpenGFW) - OpenGFW, Linux üzerinde GFW'nin (Çin Büyük Güvenlik Duvarı) esnek, kullanımı kolay, açık kaynak uygulamasıdır.
-- [putyy/res-downloader](https://github.com/putyy/res-downloader) - Video numarası, mini program, Douyin, Kuaishou, Xiaohongshu, canlı yayın akışı, m3u8, Kugou, QQ Müzik ve diğer yaygın ağ kaynaklarını indirin!
-- [eyebluecn/tank](https://github.com/eyebluecn/tank) - 《Mavi Göz Bulut Deposu》(Eyeblue Cloud Storage)
+- [apernet/OpenGFW](https://github.com/apernet/OpenGFW) - OpenGFW, Linux üzerinde GFW (Çin'in Büyük Güvenlik Duvarı) uygulamasının esnek, kullanımı kolay, açık kaynaklı bir uygulamasıdır
+- [putyy/res-downloader](https://github.com/putyy/res-downloader) - 视频号、小程序、抖音、快手、小红书、直播流、m3u8、酷狗、QQ音乐等常见网络资源下载!
+- [eyebluecn/tank](https://github.com/eyebluecn/tank) - 《蓝眼云盘》(Eyeblue Cloud Storage)
 - [Wsine/feishu2md](https://github.com/Wsine/feishu2md) - Feishu belgelerini tek komutla Markdown olarak indir
 - [bitrise-io/envman](https://github.com/bitrise-io/envman) - Ortam değişkeni yöneticisi
-- [ollama/ollama](https://github.com/ollama/ollama) - Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3, Mistral Small 3.1 ve diğer büyük dil modelleriyle hızlıca başlayın.
-- [stillOnTheWay/openbilibili-go-common](https://github.com/stillOnTheWay/openbilibili-go-common) - Bilibili web sitesi arka uç mühendisliği kaynak kodu. Kaynak: https://github.com/openbilibili
+- [ollama/ollama](https://github.com/ollama/ollama) - Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3, Mistral Small 3.1 ve diğer büyük dil modelleriyle hızlıca çalışmaya başlayın.
+- [stillOnTheWay/openbilibili-go-common](https://github.com/stillOnTheWay/openbilibili-go-common) - 哔哩哔哩 bilibili sitesi arka uç mühendisliği kaynak kodu https://github.com/openbilibili adresinden alınmıştır
 - [changwh/go-common](https://github.com/changwh/go-common) - 
-- [juzeon/poe-openai-proxy](https://github.com/juzeon/poe-openai-proxy) - Tersine mühendislik Python kütüphanesi poe-api kütüphanesini, OpenAI API içinmiş gibi kullanmanızı sağlayan bir sarmalayıcı. Favori OpenAI API tabanlı uygulamalarınızı bu proxy'ye bağlayıp keyfini çıkarabilirsiniz.
+- [juzeon/poe-openai-proxy](https://github.com/juzeon/poe-openai-proxy) - Ters mühendislikle elde edilmiş poe-api Python kütüphanesini, sanki OpenAI API'siymiş gibi kullandıran bir sarmalayıcı. Favori OpenAI API tabanlı uygulamalarınızı bu proxy'ye bağlayabilir ve tadını çıkarabilirsiniz.
 - [faceair/clash-speedtest](https://github.com/faceair/clash-speedtest) - clash hız testi
-- [stulzq/azure-openai-proxy](https://github.com/stulzq/azure-openai-proxy) - Azure OpenAI Servis Proxy. OpenAI resmi API isteğini Azure OpenAI API isteğine dönüştürür. GPT-4, Embeddings, Langchain destekler. OpenAI'dan Azure OpenAI'ya adaptör.
+- [stulzq/azure-openai-proxy](https://github.com/stulzq/azure-openai-proxy) - Azure OpenAI Servisi Proxy'si. OpenAI resmi API isteğini Azure OpenAI API isteğine dönüştürür. GPT-4, Embeddings, Langchain'i destekler. OpenAI'dan Azure OpenAI'ya adaptör.
 - [mbrt/gmailctl](https://github.com/mbrt/gmailctl) - Gmail filtreleri için deklaratif yapılandırma
-- [xnth97/magic-conch](https://github.com/xnth97/magic-conch) - Azure Cognitive Services destekli bir Telegram botu
+- [xnth97/magic-conch](https://github.com/xnth97/magic-conch) - Azure Cognitive Services ile güçlendirilmiş bir Telegram botu
 - [noobnooc/ebreader](https://github.com/noobnooc/ebreader) - Tarayıcı için bir epub okuyucu
-- [869413421/chatgpt-web](https://github.com/869413421/chatgpt-web) - ChatGPT3.5 API tabanlı özelleştirilmiş web uygulaması
-- [WireGuard/wireguard-windows](https://github.com/WireGuard/wireguard-windows) - Windows için WireGuard'ı https://www.wireguard.com/install adresinden indirin. Bu depo yalnızca aynadır. Resmi depo: https://git.zx2c4.com/wireguard-windows
+- [869413421/chatgpt-web](https://github.com/869413421/chatgpt-web) - ChatGPT3.5 API tabanlı özel web uygulaması
+- [WireGuard/wireguard-windows](https://github.com/WireGuard/wireguard-windows) - Windows için WireGuard'ı https://www.wireguard.com/install adresinden indirin. Bu repo yalnızca bir aynadır. Resmi depo: https://git.zx2c4.com/wireguard-windows
 - [j178/leetgo](https://github.com/j178/leetgo) - Geekler için en iyi LeetCode arkadaşı. :snowboarder:
 - [erdos-one/r2](https://github.com/erdos-one/r2) - ☁️ Cloudflare R2 Depolama için Komut Satırı Arayüzü
-- [containrrr/watchtower](https://github.com/containrrr/watchtower) - Docker konteyner temel görüntü güncellemelerini otomatikleştiren bir süreç.
+- [containrrr/watchtower](https://github.com/containrrr/watchtower) - Docker konteyner temel imaj güncellemelerini otomatikleştiren bir süreç.
 - [authelia/authelia](https://github.com/authelia/authelia) - Web uygulamaları için Tek Oturum Açma Çok Faktörlü portal, şimdi OpenID Sertifikalı™
 - [m1guelpf/chatgpt-telegram](https://github.com/m1guelpf/chatgpt-telegram) - Kendi GPTChat Telegram botunuzu tek komutla çalıştırın!
-- [v2fly/v2ray-core](https://github.com/v2fly/v2ray-core) - Ağ kısıtlamalarını aşmak için proxyler oluşturmak için bir platform.
-- [usememos/memos](https://github.com/usememos/memos) - Gizliliğe duyarlı kullanıcılar ve kuruluşlar için tasarlanmış, modern, açık kaynaklı, kendi kendine barındırılan bilgi yönetimi ve not alma platformu.
-- [TimothyYe/bing-wallpaper](https://github.com/TimothyYe/bing-wallpaper) - Bing.com'dan günlük duvar kağıdı almak için RESTful API
-- [imgproxy/imgproxy](https://github.com/imgproxy/imgproxy) - Uzaktan görüntüleri yeniden boyutlandırmak ve dönüştürmek için hızlı ve güvenli bağımsız sunucu
-- [gaowanliang/DownloadBot](https://github.com/gaowanliang/DownloadBot) - (Şu anda) 🤖 Aria2 sunucunuzu kontrol edebilen, sunucu dosyalarını yönetebilen ve ayrıca OneDrive / Google Drive'a yükleyebilen dağıtık, çok platformlu bir Telegram Bot.
-- [huo-ju/dfserver](https://github.com/huo-ju/dfserver) - Dağıtık arka uç AI iş akışı sunucusu
-- [charmbracelet/vhs](https://github.com/charmbracelet/vhs) - CLI ev video kaydediciniz 📼
-- [TruthHun/DocHub](https://github.com/TruthHun/DocHub) - Baidu Wenku referans alınarak Beego (Golang) ile geliştirilen açık kaynaklı doküman kütüphanesi sistemi
-- [XTLS/Xray-core](https://github.com/XTLS/Xray-core) - Xray, Her Şeyi Delip Geçer. Ayrıca en iyi v2ray-core. Sihir burada gerçekleşir. Çeşitli kullanımlar için açık bir platform.
-- [p4gefau1t/trojan-go](https://github.com/p4gefau1t/trojan-go) - Go ile yazılmış Trojan proxy, çoklu multiplexing/yönlendirme/CDN aktarım/Shadowsocks karmaşıklaştırma eklentisi desteği, çoklu platform, bağımsız. Go ile yazılmış bir Trojan proxy. GFW'yi aşmanıza yardımcı olan tanımlanamayan bir mekanizma. https://p4gefau1t.github.io/trojan-go/
-- [Jrohy/trojan](https://github.com/Jrohy/trojan) - trojan çoklu kullanıcı yönetim ve dağıtım programı, web sayfası yönetimi desteği
+- [v2fly/v2ray-core](https://github.com/v2fly/v2ray-core) - Ağ kısıtlamalarını aşmak için proxy'ler oluşturmak için bir platform.
+- [usememos/memos](https://github.com/usememos/memos) - Modern, açık kaynaklı, kendi barındırılan, gizliliğe önem veren kullanıcılar ve organizasyonlar için tasarlanmış bilgi yönetimi ve not alma platformu.
+- [TimothyYe/bing-wallpaper](https://github.com/TimothyYe/bing-wallpaper) - Bing.com'dan günlük duvar kağıdı çekmek için RESTful API
+- [imgproxy/imgproxy](https://github.com/imgproxy/imgproxy) - Uzaktan görselleri yeniden boyutlandırmak ve dönüştürmek için hızlı ve güvenli bağımsız sunucu
+- [gaowanliang/DownloadBot](https://github.com/gaowanliang/DownloadBot) - (Şu anda) 🤖 Aria2 sunucunuzu kontrol edebilen, sunucu dosyalarını yönetebilen ve ayrıca OneDrive / Google Drive'a yükleyebilen dağıtık çapraz platform Telegram Bot.
+- [huo-ju/dfserver](https://github.com/huo-ju/dfserver) - Dağıtık arka uç AI boru hattı sunucusu
+- [charmbracelet/vhs](https://github.com/charmbracelet/vhs) - Komut satırınız için ev videosu kaydedici 📼
+- [TruthHun/DocHub](https://github.com/TruthHun/DocHub) - Baidu Wenku referans alınarak Beego (Golang) ile geliştirilmiş açık kaynak belge kütüphanesi sistemi
+- [XTLS/Xray-core](https://github.com/XTLS/Xray-core) - Xray, Her Şeyi Delip Geçer. Ayrıca en iyi v2ray-core. Sihirin gerçekleştiği yer. Çeşitli kullanımlar için açık bir platform.
+- [p4gefau1t/trojan-go](https://github.com/p4gefau1t/trojan-go) - Go ile gerçekleştirilen Trojan proxy, çoklu yol/route/CDN aktarma/Shadowsocks karıştırma eklentisi, çoklu platform, bağımlılık yok. Go ile yazılmış bir Trojan proxy. Tanımlanamayan bir mekanizma ile GFW'yi aşmanıza yardımcı olur. https://p4gefau1t.github.io/trojan-go/
+- [Jrohy/trojan](https://github.com/Jrohy/trojan) - trojan çoklu kullanıcı yönetim ve dağıtım programı, web sayfası yönetimi destekler
 - [caddyserver/caddy](https://github.com/caddyserver/caddy) - Otomatik HTTPS ile hızlı ve genişletilebilir çok platformlu HTTP/1-2-3 web sunucusu
-- [Snawoot/opera-proxy](https://github.com/Snawoot/opera-proxy) - Opera VPN proxylerinin bağımsız istemcisi
-- [gphper/grm](https://github.com/gphper/grm) - redis görselleştirme aracı (gin+element-plus)【Basit ve kolay dağıtım, SSH bağlantısı, kullanıcı doğrulama, işlem günlüğü, komut satırı modu, LUA betiği çalıştırma, Redis izleme vb.】
+- [Snawoot/opera-proxy](https://github.com/Snawoot/opera-proxy) - Opera VPN'in proxy'leri için bağımsız istemci
+- [gphper/grm](https://github.com/gphper/grm) - redis görselleştirme aracı (gin+element-plus)【Kolay kurulum, SSH bağlantısı, kullanıcı doğrulama, işlem günlüğü, komut satırı modu, LUA betiği çalıştırma, Redis izleme vb.】
 - [maxmunzel/kvass](https://github.com/maxmunzel/kvass) - kişisel anahtar-değer deposu
-- [caarlos0/starcharts](https://github.com/caarlos0/starcharts) - Depo yıldızlarınızı zaman içinde grafikleştirin.
-- [ViRb3/wgcf](https://github.com/ViRb3/wgcf) - 🚤 Cloudflare Warp için platformlar arası, resmi olmayan CLI
-- [macronut/phantomsocks](https://github.com/macronut/phantomsocks) - Linux/Windows/macOS için platformlar arası proxy istemcisi/sunucusu
+- [caarlos0/starcharts](https://github.com/caarlos0/starcharts) - Depo yıldızlarınızı zaman içinde çizin.
+- [ViRb3/wgcf](https://github.com/ViRb3/wgcf) - 🚤 Cloudflare Warp için çapraz platform, resmi olmayan CLI
+- [macronut/phantomsocks](https://github.com/macronut/phantomsocks) - Linux/Windows/macOS için çapraz platform proxy istemci/sunucu
 - [macronut/ghostcp](https://github.com/macronut/ghostcp) - GhosTCP, Windows için TCP bağlantılarını müdahaleden koruyan bir programdır.
 - [pretty66/iptables-web](https://github.com/pretty66/iptables-web) - golang ile geliştirilmiş iptables web yönetim programı
 - [navidrome/navidrome](https://github.com/navidrome/navidrome) - 🎧☁️ Kişisel Akış Servisiniz
-- [jwma/jump-jump](https://github.com/jwma/jump-jump) - Kutudan çıkar çıkmaz kullanılabilen, Golang ile geliştirilmiş tam özellikli bir kısa bağlantı sistemi. URL kısaltıcı servisi.
-- [akiyosi/goneovim](https://github.com/akiyosi/goneovim) - Neovim için GUI arayüzü.
+- [jwma/jump-jump](https://github.com/jwma/jump-jump) - Kutudan çıktığı gibi kullanılabilen, Golang ile geliştirilmiş tam özellikli bir kısa bağlantı sistemi. Golang ile geliştirilen URL kısaltıcı servis.
+- [akiyosi/goneovim](https://github.com/akiyosi/goneovim) - neovim için GUI arayüzü.
 - [pluveto/upgit](https://github.com/pluveto/upgit) - Pano desteğiyle başka bir yükleme merkezi. Typora, Snipaste, VSCode ile iyi çalışır.
-- [wabarc/wayback](https://github.com/wabarc/wayback) - Gizlilik ve erişilebilirliği ön planda tutan, çeşitli arşivleme servisleriyle entegre IM tarzı arayüze sahip bir arşivleme aracı (Internet Archive, archive.today, Ghostarchive, IPFS, Telegram vb.).
-- [muety/wakapi](https://github.com/muety/wakapi) - 📊 Minimalist, kendi kendine barındırılan, WakaTime uyumlu kodlama istatistikleri arka ucu
-- [disksing/sao-gen-gen](https://github.com/disksing/sao-gen-gen) - Saçma söz üretici üreticisi
-- [ArtalkJS/Artalk](https://github.com/ArtalkJS/Artalk) - 🌌  Kendi kendine barındırılan yorum sistemi. | 自托管评论系统
-- [sheepla/pingu](https://github.com/sheepla/pingu) - 🐧ping komutu ama pingu'lu
-- [noisetorch/NoiseTorch](https://github.com/noisetorch/NoiseTorch) - Linux'ta gerçek zamanlı mikrofon gürültü bastırma.
-- [utahta/pythonbrew](https://github.com/utahta/pythonbrew) - Python ortam yöneticisi
-- [gogs/gogs](https://github.com/gogs/gogs) - Gogs, acısız kendi kendine barındırılan Git hizmetidir
-- [Licoy/fetch-github-hosts](https://github.com/Licoy/fetch-github-hosts) - 🌏 Github hosts senkronizasyon aracı, çoklu platform grafik ve komut satırı desteği, yerleşik istemci ve sunucu modları~
-- [Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip) - 🌚 🌍 🌝 GeoIP kural dosyalarının geliştirilmiş sürümü, özelleştirilebilir V2Ray dat dosyası geoip.dat, MaxMind mmdb dosyası, sing-box SRS dosyası, mihomo MRS dosyası, Clash ruleset, Surge ruleset vb. için destek.
-- [master-coder-ll/v2ray-web-manager](https://github.com/master-coder-ll/v2ray-web-manager) - v2ray-web-manager, v2ray için bir paneldir ve aynı zamanda bir küme çözümüdür; ayrıca trafik kontrolü/hesap yönetimi/hız sınırlama gibi işlevler eklenmiştir. anahtar: admin, panel, web, küme, proxy
-- [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core) - Ağ kısıtlamalarını aşmak için proxyler oluşturmak için bir platform.
-- [qax-os/excelize](https://github.com/qax-os/excelize) - Go dili ile Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) elektronik tablolarını okuma ve yazma kütüphanesi
+- [wabarc/wayback](https://github.com/wabarc/wayback) - Mahremiyet ve erişilebilirliğe öncelik veren IM tarzı arayüze sahip bir arşivleme aracı, Internet Archive, archive.today, Ghostarchive, IPFS, Telegram dahil çeşitli arşivleme servisleriyle entegre.
+- [muety/wakapi](https://github.com/muety/wakapi) - 📊 Kodlama istatistikleri için minimalist, kendi barındırılan, WakaTime uyumlu arka uç
+- [disksing/sao-gen-gen](https://github.com/disksing/sao-gen-gen) - Saçma cümle üretici üreticisi
+- [ArtalkJS/Artalk](https://github.com/ArtalkJS/Artalk) - 🌌  Kendi Barındırılan Yorum Sistemi. | 自托管评论系统
+- [sheepla/pingu](https://github.com/sheepla/pingu) - 🐧ping komutu ama pingu ile
+- [noisetorch/NoiseTorch](https://github.com/noisetorch/NoiseTorch) - Linux'ta gerçek zamanlı mikrofon gürültü engelleme.
+- [utahta/pythonbrew](https://github.com/utahta/pythonbrew) - Python ortamı yöneticisi
+- [gogs/gogs](https://github.com/gogs/gogs) - Gogs, kendi barındırılan zahmetsiz bir Git servisidir
+- [Licoy/fetch-github-hosts](https://github.com/Licoy/fetch-github-hosts) - 🌏 Github'ın hosts dosyalarını senkronize etme aracı, çoklu platform grafik ve komut satırı desteği, dahili istemci ve sunucu modları~
+- [Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip) - 🌚 🌍 🌝 GeoIP kural dosyaları güçlendirilmiş sürüm, V2Ray dat formatı geoip.dat, MaxMind mmdb formatı, sing-box SRS formatı, mihomo MRS formatı, Clash ruleset, Surge ruleset vb. için özel yapılandırma desteği. V2Ray, Xray-core, sing-box için geliştirilmiş GeoIP dosyaları.
+- [master-coder-ll/v2ray-web-manager](https://github.com/master-coder-ll/v2ray-web-manager) - v2ray-web-manager, bir v2ray paneli ve aynı zamanda bir küme çözümüdür; ayrıca trafik kontrolü/hesap yönetimi/hız sınırlama gibi özellikler ekler. key: admin, panel, web, cluster, 集群, proxy
+- [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core) - Ağ kısıtlamalarını aşmak için proxy'ler oluşturmak için bir platform.
+- [qax-os/excelize](https://github.com/qax-os/excelize) - Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) tablolarını okuma ve yazma için Go dili kütüphanesi
 - [go-olive/olive](https://github.com/go-olive/olive) - Canlı Yayın Kaydedici                       直播录制/录播
-- [ipfs/kubo](https://github.com/ipfs/kubo) - Go'da bir IPFS uygulaması
+- [ipfs/kubo](https://github.com/ipfs/kubo) - Go ile yazılmış bir IPFS uygulaması
 - [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) - Cloudflare Tunnel istemcisi (eski adıyla Argo Tunnel)
-- [junegunn/fzf](https://github.com/junegunn/fzf) - :cherry_blossom: Komut satırı bulanık bulucu
-- [barthr/redo](https://github.com/barthr/redo) - Geçmişinizden etkileşimli olarak yeniden kullanılabilir fonksiyonlar oluşturmak için en iyi araç
-- [safing/portmaster](https://github.com/safing/portmaster) - 🏔 Özgürlüğü sev - ❌ Toplu Gözetimi Engelle
-- [yeasy/docker_practice](https://github.com/yeasy/docker_practice) - Docker & Konteyner teknolojilerini öğrenin ve anlayın, gerçek DevOps uygulamalarıyla!
-- [ipfs-cluster/ipfs-cluster](https://github.com/ipfs-cluster/ipfs-cluster) - IPFS için pinset orkestrasyonu
-- [anchore/syft](https://github.com/anchore/syft) - Konteyner imajları ve dosya sistemlerinden Yazılım Malzeme Listesi (SBOM) oluşturan CLI aracı ve kütüphanesi
-- [gabrie30/ghorg](https://github.com/gabrie30/ghorg) - Tüm bir organizasyon/kullanıcı depolarını tek dizine hızla klonlayın veya yedekleyin - GitHub, GitLab, Bitbucket ve daha fazlasını destekler 🐇🥚
+- [junegunn/fzf](https://github.com/junegunn/fzf) - :cherry_blossom: Komut satırı için bulanık bulucu
+- [barthr/redo](https://github.com/barthr/redo) - Geçmişinizden etkileşimli biçimde tekrar kullanılabilir fonksiyonlar oluşturmak için nihai araç
+- [safing/portmaster](https://github.com/safing/portmaster) - 🏔 Özgürlüğü Sev - ❌ Toplu Gözetimi Engelle
+- [yeasy/docker_practice](https://github.com/yeasy/docker_practice) - Docker&Konteyner teknolojilerini öğrenin ve anlayın, gerçek DevOps uygulamalarıyla!
+- [ipfs-cluster/ipfs-cluster](https://github.com/ipfs-cluster/ipfs-cluster) - IPFS için Pinset düzenleme
+- [anchore/syft](https://github.com/anchore/syft) - Konteyner imajları ve dosya sistemlerinden Yazılım Malzeme Listesi (SBOM) üretmek için CLI aracı ve kütüphane
+- [gabrie30/ghorg](https://github.com/gabrie30/ghorg) - Tüm org/kullanıcı depolarını tek bir dizine hızla klonlayın veya yedekleyin - GitHub, GitLab, Bitbucket ve daha fazlasını destekler 🐇🥚
 - [rclone/rclone](https://github.com/rclone/rclone) - "Bulut depolama için rsync" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files
 - [lifei6671/interview-go](https://github.com/lifei6671/interview-go) - golang mülakat soruları koleksiyonu
 - [prasmussen/gdrive](https://github.com/prasmussen/gdrive) - Google Drive CLI İstemcisi
-- [cheat/cheat](https://github.com/cheat/cheat) - cheat, komut satırında etkileşimli ipucu sayfaları oluşturmanıza ve görüntülemenize olanak tanır. Sık kullandığınız ancak sık hatırlamadığınız komutlar için *nix sistem yöneticilerine yardımcı olmak üzere tasarlanmıştır.
+- [cheat/cheat](https://github.com/cheat/cheat) - cheat, komut satırında etkileşimli kopya kağıtları oluşturmanıza ve görüntülemenize olanak tanır. *nix sistem yöneticilerinin sık kullandığı ama sık hatırlayamadığı komut seçeneklerini hatırlatmak için tasarlanmıştır.
 - [wtfutil/wtf](https://github.com/wtfutil/wtf) - Terminaliniz için kişisel bilgi panosu
-- [Hackl0us/GeoIP2-CN](https://github.com/Hackl0us/GeoIP2-CN) - Küçük, hassas, pratik GeoIP2 veritabanı
-- [HirbodBehnam/file2url-go](https://github.com/HirbodBehnam/file2url-go) - Dosyaları doğrudan indirme bağlantılarına dönüştüren bir Telegram botu.
-- [pkuhollow/nameless](https://github.com/pkuhollow/nameless) - Nameless Tree Hole'ın Golang arka ucu
-- [AlistGo/alist](https://github.com/AlistGo/alist) - 🗂️Birden çok depolamayı destekleyen bir dosya listeleme/WebDAV programı, Gin ve Solidjs ile güçlendirilmiştir. / Birden fazla depolamayı destekleyen bir dosya listeleme/WebDAV programı, Gin ve Solidjs ile geliştirilmiştir.
-- [z4yx/GoAuthing](https://github.com/z4yx/GoAuthing) - srun4000 için kimlik doğrulama aracı (auth.tsinghua.edu.cn / net.tsinghua.edu.cn / Tsinghua-IPv4)
-- [drakkan/sftpgo](https://github.com/drakkan/sftpgo) - Tam özellikli ve yüksek derecede yapılandırılabilir SFTP, HTTP/S, FTP/S ve WebDAV sunucusu - S3, Google Cloud Storage, Azure Blob
+- [Hackl0us/GeoIP2-CN](https://github.com/Hackl0us/GeoIP2-CN) - Küçük, hassas, kullanışlı GeoIP2 veritabanı
+- [HirbodBehnam/file2url-go](https://github.com/HirbodBehnam/file2url-go) - Dosyaları doğrudan indirme bağlantıları için URL'ye dönüştüren bir Telegram botu.
+- [pkuhollow/nameless](https://github.com/pkuhollow/nameless) - 未名树洞 için Golang arka ucu
+- [AlistGo/alist](https://github.com/AlistGo/alist) - 🗂️Birden çok depolamayı destekleyen dosya listesi/WebDAV programı, Gin ve Solidjs ile güçlendirilmiştir. / 多存储支持的文件列表/WebDAV程序，使用 Gin 和 Solidjs。
+- [z4yx/GoAuthing](https://github.com/z4yx/GoAuthing) - srun4000 (auth.tsinghua.edu.cn / net.tsinghua.edu.cn / Tsinghua-IPv4) için kimlik doğrulama aracı
+- [drakkan/sftpgo](https://github.com/drakkan/sftpgo) - Tam özellikli ve yüksek yapılandırılabilir SFTP, HTTP/S, FTP/S ve WebDAV sunucusu - S3, Google Cloud Storage, Azure Blob
 - [frolic/redirect.name](https://github.com/frolic/redirect.name) - Basit DNS tabanlı yönlendirme servisi
 - [datastack-net/dockerized](https://github.com/datastack-net/dockerized) - Popüler komut satırı araçlarını docker içinde çalıştırın
 - [yinchengtsinghua/IPFS-Golang-China](https://github.com/yinchengtsinghua/IPFS-Golang-China) - Tsinghua Yin Cheng özel çeviri sürümü ipfs
-- [bonaysoft/notion-md-gen](https://github.com/bonaysoft/notion-md-gen) - Notion'dan herhangi bir statik site oluşturucu için Markdown belge üretin
-- [minio/minio](https://github.com/minio/minio) - MinIO, yüksek performanslı, S3 uyumlu nesne deposudur, GNU AGPLv3 lisansı ile açık kaynaklıdır.
-- [golang-china/go2-book](https://github.com/golang-china/go2-book) - :books: 《Go2 Programlama Rehberi》açık kaynak kitabı, Go2'nin yeni özelliklerine odaklanır ve Go1 derslerinde az değinilen özelliklere ağırlık verir
-- [9seconds/mtg](https://github.com/9seconds/mtg) - Telegram için oldukça iddialı MTPROTO proxy
+- [bonaysoft/notion-md-gen](https://github.com/bonaysoft/notion-md-gen) - Notion'dan herhangi bir statik site üreticisi için Markdown belge oluşturun
+- [minio/minio](https://github.com/minio/minio) - MinIO, yüksek performanslı, S3 uyumlu nesne deposudur, GNU AGPLv3 lisansı altında açık kaynaktır.
+- [golang-china/go2-book](https://github.com/golang-china/go2-book) - :books: 《Go2 Programlama Rehberi》açık kaynak kitabı, Go2'nin yeni özelliklerine odaklanır ve Go1 derslerinde nadiren değinilen özellikleri anlatır
+- [9seconds/mtg](https://github.com/9seconds/mtg) - Telegram için oldukça önyargılı MTPROTO proxy
 - [v2rayA/v2rayA](https://github.com/v2rayA/v2rayA) - VMess, VLESS, SS, SSR, Trojan, Tuic ve Juicity protokollerini destekleyen Project V'nin web GUI istemcisi. 🚀
 - [photoprism/photoprism](https://github.com/photoprism/photoprism) - Merkeziyetsiz Web için AI Destekli Fotoğraf Uygulaması 🌈💎✨
-- [lima-vm/lima](https://github.com/lima-vm/lima) - Konteyner çalıştırmaya odaklı Linux sanal makineleri
+- [lima-vm/lima](https://github.com/lima-vm/lima) - Konteyner çalıştırmaya odaklanan Linux sanal makineleri
 - [Jrohy/cfw-updater](https://github.com/Jrohy/cfw-updater) - clash_for_windows tek tıkla güncelleme aracı
-- [mozillazg/go-pinyin](https://github.com/mozillazg/go-pinyin) - Çince karakterleri pinyin'e dönüştürme
-- [darjun/go-daily-lib](https://github.com/darjun/go-daily-lib) - Go Her Güne Bir Kütüphane
-- [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) - 🌩「Kendi Seçtiğin En İyi IP」Cloudflare CDN gecikme ve hız testi, en hızlı IP'yi alın! Tabii ki diğer CDN'leri / birden fazla IP’ye sahip siteleri de destekler ~
+- [mozillazg/go-pinyin](https://github.com/mozillazg/go-pinyin) - 汉字转拼音
+- [darjun/go-daily-lib](https://github.com/darjun/go-daily-lib) - Go Her Gün Bir Kütüphane
+- [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) - 🌩 "Özel Seçim IP" ile Cloudflare CDN gecikme ve hız testi, en hızlı IP'yi bulur! Elbette diğer CDN'leri ve birden fazla IP'ye sahip siteleri de destekler ~
 - [ginuerzh/gost](https://github.com/ginuerzh/gost) - GO Simple Tunnel - golang ile yazılmış basit bir tünel
-- [snail007/goproxy](https://github.com/snail007/goproxy) - 🔥 Proxy, golang ile geliştirilmiş yüksek performanslı HTTP(S) proxy, SOCKS5 proxy, WEBSOCKET, TCP, UDP proxy sunucusudur. Şimdi, zincir stilinde proxy’leri, farklı ağlarda nat yönlendirmeyi, TCP/UDP portlarını destekler.
-- [ehang-io/nps](https://github.com/ehang-io/nps) - Hafif, yüksek performanslı, güçlü bir intranet geçiş proxy sunucusu. Neredeyse tüm trafik yönlendirmelerini (tcp, udp, socks5, http vb.) destekler; intranet web sitelerine erişim, yerel ödeme arayüzü testi, ssh erişimi, uzak masaüstü, intranet dns çözümü, intranet socks5 proxy ve daha fazlası için kullanılabilir... Güçlü bir web yönetim paneli ile birlikte gelir.
-- [fatedier/frp](https://github.com/fatedier/frp) - NAT veya güvenlik duvarı arkasındaki bir yerel sunucuyu internete açmanıza yardımcı olan hızlı bir ters proxy.
+- [snail007/goproxy](https://github.com/snail007/goproxy) - 🔥  Proxy, golang ile geliştirilmiş yüksek performanslı bir HTTP(S) proxy, SOCKS5 proxy, WEBSOCKET, TCP, UDP proxy sunucusudur. Şimdi, zincir tarzı proxy'leri, farklı LAN'da nat yönlendirmeyi, TCP/UDP portlarını desteklemektedir.
+- [ehang-io/nps](https://github.com/ehang-io/nps) - Hafif, yüksek performanslı ve güçlü bir intranet geçiş proxy sunucusu. TCP, UDP, socks5, http gibi neredeyse tüm trafik yönlendirmelerini destekler; intranet sitelerine erişim, yerel ödeme arayüzü testi, ssh erişimi, uzaktan masaüstü, intranet dns çözümü, intranet socks5 proxy gibi işlevlerde kullanılabilir. Güçlü bir web yönetim paneline sahiptir.
+- [fatedier/frp](https://github.com/fatedier/frp) - NAT veya güvenlik duvarı arkasındaki yerel bir sunucuyu internete açmanıza yardımcı olan hızlı bir ters proxy.
 - [gohugoio/hugo](https://github.com/gohugoio/hugo) - Dünyanın en hızlı web sitesi oluşturma çatısı.
-- [mholt/archiver](https://github.com/mholt/archiver) - KULLANIMDAN KALDIRILDI. Lütfen mholt/archives kullanın.
-- [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) - Üretim Seviyesinde Konteyner Zamanlama ve Yönetimi
-- [sjlleo/VerifyDisneyPlus](https://github.com/sjlleo/VerifyDisneyPlus) - Çıkış IP’nizin DisneyPlus’ı açıp açmadığını kontrol eden bir betik
-- [0xDkd/auxpi](https://github.com/0xDkd/auxpi) - 🍭 Çoklu API sağlayıcılarının bir araya geldiği yeni nesil bir görsel barındırma platformu
-- [ahui2016/localtags](https://github.com/ahui2016/localtags) - localtags: Yerel dosya yedekleme sistemi + doğru tasarlanmış etiketleme sistemi
+- [mholt/archiver](https://github.com/mholt/archiver) - ESKİ. Lütfen bunun yerine mholt/archives kullanınız.
+- [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) - Üretim Düzeyinde Konteyner Zamanlama ve Yönetimi
+- [sjlleo/VerifyDisneyPlus](https://github.com/sjlleo/VerifyDisneyPlus) - Çıkış IP'sinin DisneyPlus'ı açıp açmadığını kontrol eden bir betik
+- [0xDkd/auxpi](https://github.com/0xDkd/auxpi) - 🍭 Birden fazla API'yi bir araya getiren yeni nesil resim barındırıcı
+- [ahui2016/localtags](https://github.com/ahui2016/localtags) - localtags: Yerel dosya yedekleme sistemi + Doğru tasarlanmış etiketleme sistemi
 - [sourcegraph/sourcegraph-public-snapshot](https://github.com/sourcegraph/sourcegraph-public-snapshot) - Kod Arama & Cody ile Kod AI platformu
-- [indes/flowerss-bot](https://github.com/indes/flowerss-bot) - Telegram için rss okuyucu botu. Uygulama içi okuma destekli bir Telegram RSS Botu.
-- [go-gitea/gitea](https://github.com/go-gitea/gitea) - Bir fincan çay ile Git! Git barındırma, kod inceleme, ekip işbirliği, paket kaydı ve CI/CD dahil olmak üzere zahmetsiz, kendi kendine barındırılan, hepsi bir arada yazılım geliştirme hizmeti
-- [zu1k/proxypool](https://github.com/zu1k/proxypool) - Genel internetteki proxy düğümlerini otomatik olarak tarar, tekrarları ayıklar ve kullanılabilirlik için test eder ve ardından bir düğüm listesi sunar
-- [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) - Topluluk tarafından yönetilen alan adı listesi. V2Ray için geosite.dat üretir.
+- [indes/flowerss-bot](https://github.com/indes/flowerss-bot) - RSS okuyucu için bir telegram botu. Uygulama içinde okuma destekli bir Telegram RSS Botu.
+- [go-gitea/gitea](https://github.com/go-gitea/gitea) - Çay ile Git! Git barındırma, kod inceleme, ekip işbirliği, paket kaydı ve CI/CD dahil olmak üzere kolay, kendi kendine barındırılan hepsi bir arada yazılım geliştirme hizmeti
+- [zu1k/proxypool](https://github.com/zu1k/proxypool) - Genel internetteki proxy düğümlerini otomatik olarak tarar, tekrarları ayıklar ve kullanılabilirliği test eder, ardından bir düğüm listesi sunar
+- [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) - Topluluk tarafından yönetilen alan adı listesi. V2Ray için geosite.dat oluşturur.
 - [planetscale/cli](https://github.com/planetscale/cli) - PlanetScale Veritabanı için CLI
-- [MacroPower/wakatime_exporter](https://github.com/MacroPower/wakatime_exporter) - Wakatime’dan Prometheus metrikleri dışa aktarır.
+- [MacroPower/wakatime_exporter](https://github.com/MacroPower/wakatime_exporter) - Wakatime'dan Prometheus metrikleri dışa aktarır.
 - [long2ice/longurl](https://github.com/long2ice/longurl) - Kendi kendine barındırılan kısa URL servisi
-- [nektos/act](https://github.com/nektos/act) - GitHub Actions’ınızı yerel olarak çalıştırın 🚀
-- [Tylous/ZipExec](https://github.com/Tylous/ZipExec) - Şifre korumalı bir zip dosyasından ikili dosya çalıştırmak için benzersiz bir teknik
-- [cloudreve/cloudreve](https://github.com/cloudreve/cloudreve) - 🌩 Kendi kendine barındırılan dosya yönetimi ve paylaşım sistemi, çoklu depolama sağlayıcılarını destekler
-- [cli/cli](https://github.com/cli/cli) - GitHub’ın resmi komut satırı aracı
-- [stashapp/stash](https://github.com/stashapp/stash) - Pornolarınız için bir düzenleyici, Go ile yazılmıştır.  Dokümantasyon:  https://docs.stashapp.cc
-- [JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - En özelleştirilebilir ve düşük gecikmeli platformlar arası/kabuk istemi oluşturucu
+- [nektos/act](https://github.com/nektos/act) - GitHub Actions'ı yerel olarak çalıştırın 🚀
+- [Tylous/ZipExec](https://github.com/Tylous/ZipExec) - Parola korumalı zip dosyasından benzersiz bir ikili çalıştırma tekniği
+- [cloudreve/cloudreve](https://github.com/cloudreve/cloudreve) - 🌩 Kendi kendine barındırılan dosya yönetim ve paylaşım sistemi, birden çok depolama sağlayıcısını destekler
+- [cli/cli](https://github.com/cli/cli) - GitHub'ın resmi komut satırı aracı
+- [stashapp/stash](https://github.com/stashapp/stash) - Pornolarınızı düzenleyen bir uygulama, Go ile yazıldı.  Dokümantasyon:  https://docs.stashapp.cc
+- [JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - En özelleştirilebilir ve düşük gecikmeli platformlar arası/kabuk istemi renderlayıcısı
 - [misitebao/yakia](https://github.com/misitebao/yakia) - Yakia bir geliştirici yardımcısıdır.
 - [eallion/uBlacklist-subscription-compilation](https://github.com/eallion/uBlacklist-subscription-compilation) - 🚫 uBlacklist abonelik derlemesi
-- [moonD4rk/HackBrowserData](https://github.com/moonD4rk/HackBrowserData) - Tarayıcı verilerini çıkarır ve şifresini çözer, birden fazla veri türünü destekler, çeşitli işletim sistemlerinde (macOS, Windows, Linux) çalıştırılabilir.
+- [moonD4rk/HackBrowserData](https://github.com/moonD4rk/HackBrowserData) - Tarayıcı verilerini çıkarır ve şifrelerini çözer, birden çok veri türünü destekler, çeşitli işletim sistemlerinde (macOS, Windows, Linux) çalıştırılabilir.
 ## HCL 
 
 - [rust-lang/simpleinfra](https://github.com/rust-lang/simpleinfra) - Rust Altyapı otomasyonu
@@ -1003,234 +1005,235 @@
 
 ## Diğerleri
 
-- [lTbgykio/Books-Free-Books](https://github.com/lTbgykio/Books-Free-Books) - Ücretsiz kitaplar derlemesi。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
-- [LOWERTOP/Shadowrocket-First](https://github.com/LOWERTOP/Shadowrocket-First) - XiaoHuoJian (Shadowrocket) renk şemaları ve yapılandırmaları
+- [krishnr/MATLAB-cheat-sheet](https://github.com/krishnr/MATLAB-cheat-sheet) - MATLAB için hızlı başvuru kılavuzu
+- [lTbgykio/Books-Free-Books](https://github.com/lTbgykio/Books-Free-Books) - Ücretsiz kitaplar derlemesi.　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+- [LOWERTOP/Shadowrocket-First](https://github.com/LOWERTOP/Shadowrocket-First) - Shadowrocket renk şeması ve yapılandırması
 - [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Trae AI & Cluely (ve diğer açık kaynaklı) sistem istemleri, araçlar ve yapay zeka modelleri.
-- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - MCP sunucularının bir koleksiyonu.
-- [zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization) - 150 yaşına kadar sağlıklı öğrenme - İnsan vücudu sistemi optimizasyonu eksiksiz olmayan rehber
-- [SpaceTimee/Fusion-JetBrainsMapleMono](https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono) - JetBrains Maple Mono: JetBrains Mono & Maple Mono ile birleştirilmiş ücretsiz ve açık kaynaklı yazı tipi
+- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - MCP sunucuları koleksiyonu.
+- [zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization) - 150 yaşına kadar sağlıklı öğrenme - İnsan vücut sistemi optimizasyonuna dair eksik bir rehber
+- [SpaceTimee/Fusion-JetBrainsMapleMono](https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono) - JetBrains Maple Mono: JetBrains Mono ve Maple Mono ile birleştirilmiş, ücretsiz ve açık kaynaklı yazı tipi
 - [ZJU-LLMs/Foundations-of-LLMs](https://github.com/ZJU-LLMs/Foundations-of-LLMs) - 
-- [IQAQI233/611Study.ICU](https://github.com/IQAQI233/611Study.ICU) - Günümüzde Çinli lise öğrencilerinin çoğu, haftada 6 gün sabah 6'dan gece 11'e kadar çalışmaya zorlanıyor. Ne yazık ki, pek çok öğrenci intihar etti veya ciddi ruh sağlığı sorunları yaşadı. 996.i projesinden ilham alındı.
-- [VIP-Share/Baidu-XunleiVIP](https://github.com/VIP-Share/Baidu-XunleiVIP) - Baidu Netdisk Süper VIP, Xunlei VIP, iQIYI VIP hesapları günlük paylaşım, ayrıca Youku, Tencent, Mango vb. VIP'ler. VE. Baidu Netdisk (Baidu Cloud) hız sınırı olmayan araç paylaşımı.
-- [pengsida/learning_research](https://github.com/pengsida/learning_research) - Kendi araştırma deneyimlerim
-- [wgwang/awesome-LLMs-In-China](https://github.com/wgwang/awesome-LLMs-In-China) - Çin'deki büyük dil modelleri
-- [JnuSimba/MiscSecNotes](https://github.com/JnuSimba/MiscSecNotes) - Web Uygulama Güvenliği, Sızma Testi hakkında bazı notlar
+- [IQAQI233/611Study.ICU](https://github.com/IQAQI233/611Study.ICU) - Günümüzde, Çinli lise öğrencilerinin çoğu haftada 6 gün, sabah 6'dan gece 11'e kadar çalışmaya zorlanıyor. Ne yazık ki, birçok öğrenci intihar etti veya ciddi ruh sağlığı sorunları yaşadı. 996.i projesinden ilhamla
+- [VIP-Share/Baidu-XunleiVIP](https://github.com/VIP-Share/Baidu-XunleiVIP) - Baidu Netdisk süper üyeliği, Xunlei üyeliği, iQIYI üyeliği günlük paylaşımı ve ayrıca Youku, Tencent, Mango gibi VIP'ler. VE. Baidu Netdisk (Baidu Cloud) hız sınırsız araç paylaşımı.
+- [pengsida/learning_research](https://github.com/pengsida/learning_research) - Kendi bilimsel araştırma deneyimlerim
+- [wgwang/awesome-LLMs-In-China](https://github.com/wgwang/awesome-LLMs-In-China) - Çin büyük dil modelleri
+- [JnuSimba/MiscSecNotes](https://github.com/JnuSimba/MiscSecNotes) - Web Uygulama Güvenliği, Sızma Testi hakkında bazı öğrenme notları
 - [P3TERX/GeoLite.mmdb](https://github.com/P3TERX/GeoLite.mmdb) - MaxMind'in GeoIP2 GeoLite2 Ülke, Şehir ve ASN veritabanları
-- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers) - 🚀 Ücretsiz abonelik adresi, 🚀 Ücretsiz node, 🚀 6 saatte bir güncellenir, paylaşımlı node, yüksek kaliteli node, tamamen ücretsiz. Ücretsiz clash abonelik adresi, ücretsiz erişim, ücretsiz bilimsel internet, ücretsiz ss/v2ray/trojan node, Google Play, erişim aracı. 🚀 Free subscription address, 🚀 Free node, 🚀 Updated every 6 hours, shared node, high-quality node
-- [billmei/every-chatgpt-gui](https://github.com/billmei/every-chatgpt-gui) - ChatGPT, Claude ve diğer LLM'ler için tüm ön yüz GUI istemcileri
-- [zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare) - ⛅️ Seçilmiş Cloudflare araçları, açık kaynak projeleri, rehberler, bloglar ve diğer kaynaklar listesi. / ⛅️ A curated list of Cloudflare tools, open source projects, guides, blogs and other resources.
+- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers) - 🚀 Ücretsiz abonelik adresi, 🚀 Ücretsiz node, 🚀 6 saatte bir güncellenen paylaşılan node'lar, yüksek kaliteli node'lar, tamamen ücretsiz. Ücretsiz clash abonelik adresi, ücretsiz internet, ücretsiz atlama, ücretsiz ss/v2ray/trojan node'ları, Google Play Store, atlama aracı. 🚀 Free subscription address, 🚀 Free node, 🚀 Updated every 6 hours, shared node, high-quality node
+- [billmei/every-chatgpt-gui](https://github.com/billmei/every-chatgpt-gui) - ChatGPT, Claude ve diğer LLM'ler için her ön yüz GUI istemcisi
+- [zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare) - ⛅️ Seçilmiş Cloudflare araçları, açık kaynak projeler, rehberler, bloglar ve diğer kaynaklar listesi. / ⛅️ A curated list of Cloudflare tools, open source projects, guides, blogs and other resources.
 - [zbezj/HEU_KMS_Activator](https://github.com/zbezj/HEU_KMS_Activator) - 
-- [tuna/issues](https://github.com/tuna/issues) - Kod ile ilgisiz sorunlar
-- [bamf2077/secure-dns](https://github.com/bamf2077/secure-dns) - Apple cihazları için güvenli DNS yapılandırma profilleri. iOS, iPadOS & macOS için DNS over HTTPS (DoH) & DNS over TLS (DoT) profilleri.
+- [tuna/issues](https://github.com/tuna/issues) - Kodla İlgili Olmayan Sorunlar
+- [bamf2077/secure-dns](https://github.com/bamf2077/secure-dns) - Apple cihazlar için güvenli DNS yapılandırma profilleri. iOS, iPadOS & macOS için DNS over HTTPS (DoH) & DNS over TLS (DoT) yapılandırma profilleri.
 - [TsinghuaMemes/TsinghuaMemes](https://github.com/TsinghuaMemes/TsinghuaMemes) - Grup sohbetlerinde arkadaşlarınızın ne dediğini anlamamanız için
-- [mlabonne/llm-course](https://github.com/mlabonne/llm-course) - Büyük Dil Modellerine (LLM'ler) giriş için yol haritaları ve Colab not defterleriyle kurs.
-- [maxujie/awesome-tsinghua](https://github.com/maxujie/awesome-tsinghua) - Tsinghua Üniversitesi ile ilgili ilginç repo entegrasyonu
-- [easychen/lean-side-bussiness](https://github.com/easychen/lean-side-bussiness) - Yalın yan işler: Programcılar yan işlerini zarifçe nasıl yapar
-- [Wsky51/THU-CS912-kaoyan](https://github.com/Wsky51/THU-CS912-kaoyan) - Tsinghua Üniversitesi bilgisayar 912 yüksek lisans sınavının geçmiş yıllardaki gerçek soruları, Tsinghua lisans sınavları ve ilgili ders ppt’leri
+- [mlabonne/llm-course](https://github.com/mlabonne/llm-course) - Büyük Dil Modellerine (LLMs) giriş için yol haritaları ve Colab defterleriyle kurs.
+- [maxujie/awesome-tsinghua](https://github.com/maxujie/awesome-tsinghua) - Tsinghua Üniversitesi ile ilgili ilginç repo derlemesi
+- [easychen/lean-side-bussiness](https://github.com/easychen/lean-side-bussiness) - Yalın ek iş: Programcılar yan işlerini nasıl zarifçe yapar
+- [Wsky51/THU-CS912-kaoyan](https://github.com/Wsky51/THU-CS912-kaoyan) - Tsinghua Üniversitesi bilgisayar 912 yüksek lisans giriş sınavı geçmiş yılların soruları, Tsinghua lisans sınavları ve ilgili kurs ppt'leri
 - [MerlinKodo/clash-rev](https://github.com/MerlinKodo/clash-rev) - Clash core projesinin devamı
-- [THU-feiyue/docs](https://github.com/THU-feiyue/docs) - Tsinghua Üniversitesi Uçuş El Kitabı
-- [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) - 🦄 🎃 👻 V2Ray yönlendirme kural dosyalarının geliştirilmiş versiyonu, resmi V2Ray geoip.dat ve geosite.dat yerine kullanılabilir, V2Ray, Xray-core, mihomo(Clash-Meta), hysteria, Trojan-Go ve leaf için uygundur. V2Ray rules dat dosyalarının geliştirilmiş sürümü, V2Ray, Xray-core, m
-- [huaweiii/HWGaussDB](https://github.com/huaweiii/HWGaussDB) - Huawei GaussDB veritabanı - Tamamen bağımsız geliştirildi, yurtdışı tekelini kırdı, PostgreSQL'den %600 daha hızlı.
-- [cloudcommunity/Cloud-Free-Tier-Comparison](https://github.com/cloudcommunity/Cloud-Free-Tier-Comparison) - AWS, Azure, GCP, Oracle gibi büyük bulut sağlayıcıların ücretsiz katman tekliflerinin karşılaştırılması.
-- [iamshuaidi/CS-Book](https://github.com/iamshuaidi/CS-Book) - Bilgisayar kategorisinde yaygın kullanılan e-kitapların derlemesi ve indirme bağlantıları; Java, Python, Linux, Go, C, C++, veri yapıları ve algoritmalar, yapay zeka, bilgisayar temelleri, mülakat, tasarım desenleri, veritabanı, ön yüz vb. kitaplar içerir.
-- [immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate) - Sürükleyici çift dilli web sayfası çeviri uzantısı, giriş kutusu çevirisi, fareyle üzerine gelince çeviri, PDF, Epub, altyazı dosyaları, TXT dosyası çevirisini destekler - Immersive Dual Web Page Translation Extension
-- [megaease/Remembering-Haoel](https://github.com/megaease/Remembering-Haoel) - Sol Kulaklı Fare (Chen Haoel) hakkındaki anılarınızı kaydedin
+- [THU-feiyue/docs](https://github.com/THU-feiyue/docs) - Tsinghua Üniversitesi "Uçuş" El Kitabı
+- [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) - 🦄 🎃 👻 V2Ray yönlendirme kural dosyalarının geliştirilmiş sürümü, V2Ray resmi geoip.dat ve geosite.dat dosyalarının yerine kullanılabilir, V2Ray, Xray-core, mihomo(Clash-Meta), hysteria, Trojan-Go ve leaf için uygundur. V2Ray rules dat dosyalarının geliştirilmiş sürümü, V2Ray, Xray-core, m
+- [huaweiii/HWGaussDB](https://github.com/huaweiii/HWGaussDB) - HW GaussDB veritabanı - Tamamen bağımsız geliştirilmiş, yabancı tekelini kıran, PostgreSQL'den %600 daha hızlı.
+- [cloudcommunity/Cloud-Free-Tier-Comparison](https://github.com/cloudcommunity/Cloud-Free-Tier-Comparison) - AWS, Azure, GCP, Oracle vb. büyük bulut sağlayıcılarının ücretsiz katman tekliflerini karşılaştırma
+- [iamshuaidi/CS-Book](https://github.com/iamshuaidi/CS-Book) - Bilgisayar alanında yaygın kullanılan e-kitaplar derlemesi ve indirme bağlantıları, Java, Python, Linux, Go, C, C++, veri yapıları ve algoritmalar, yapay zeka, bilgisayar temelleri, mülakat, tasarım desenleri, veritabanı, ön yüz vb. kitaplar dahil
+- [immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate) - Sürükleyici çift dilli web sayfası çeviri uzantısı, giriş kutusu çevirisi, fareyle üzerine gelince çeviri, PDF, Epub, altyazı dosyası, TXT dosyası çeviri desteği - Immersive Dual Web Page Translation Extension
+- [megaease/Remembering-Haoel](https://github.com/megaease/Remembering-Haoel) - Zouerduo Haozi (Chen Hao) hakkında anılarınızı kaydedin
 - [cursor/cursor](https://github.com/cursor/cursor) - Yapay Zeka Kod Editörü
-- [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) - Awesome-LLM: Büyük Dil Modeli için seçkin bir liste
-- [dalinvip/Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT) - ChatGPT materyalleri derlemesi, sürekli güncelleniyor......
-- [v2fly/v2ray-step-by-step](https://github.com/v2fly/v2ray-step-by-step) - Bu repo ToutyRater/v2ray-guide'ın bir forkudur, v2ray için yeni bir adım adım rehber sunmayı hedefliyoruz
-- [davinci1010/pinduoduo_backdoor](https://github.com/davinci1010/pinduoduo_backdoor) - Pinduoduo apk'sında gömülü ayrıcalık kodu ve dinamik dex analizleri
-- [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - ChatGPT Çince ayar rehberi. Çeşitli senaryolarda kullanım kılavuzu. Onun sizi nasıl dinleyeceğini öğrenin.
+- [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) - Awesome-LLM: Büyük Dil Modeli için seçilmiş bir liste
+- [dalinvip/Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT) - ChatGPT kaynakları toplu öğrenme, sürekli güncelleniyor......
+- [v2fly/v2ray-step-by-step](https://github.com/v2fly/v2ray-step-by-step) - Bu repo, ToutyRater/v2ray-guide'ın bir çatalıdır, amacımız v2ray için adım adım yeni bir rehber sunmak
+- [davinci1010/pinduoduo_backdoor](https://github.com/davinci1010/pinduoduo_backdoor) - Pinduoduo apk içine gömülü yetki yükseltme kodu ve dinamik dex analizi
+- [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - ChatGPT için Çince ayar kılavuzu. Çeşitli senaryolar için kullanım rehberi. Onun senin dediğini anlamasını öğren.
 - [noobnooc/noobnooc](https://github.com/noobnooc/noobnooc) - Profilim
-- [jesselau76/GPT-Prompts](https://github.com/jesselau76/GPT-Prompts) - Kullanışlı GPT İstemleri
-- [humanloop/awesome-chatgpt](https://github.com/humanloop/awesome-chatgpt) - ChatGPT ve GPT-3 için seçkin araçlar, demolar, belgeler listesi
+- [jesselau76/GPT-Prompts](https://github.com/jesselau76/GPT-Prompts) - Faydalı GPT İstemleri
+- [humanloop/awesome-chatgpt](https://github.com/humanloop/awesome-chatgpt) - ChatGPT ve GPT-3 için seçilmiş harika araçlar, demolar, belgeler listesi
 - [erbanku/erbanku](https://github.com/erbanku/erbanku) - 
-- [dukeluo/awesome-awesome-prompts](https://github.com/dukeluo/awesome-awesome-prompts) - İstem mühendisliğiyle ilgili harika listeleri toplamak için harika bir liste.
-- [mushan0x0/AI0x0.com](https://github.com/mushan0x0/AI0x0.com) - Çok modelli, çok amaçlı evrensel AI sorgulama ve masaüstü yardımcı uygulaması
-- [apachecn/huazhang-econ-mgt-book](https://github.com/apachecn/huazhang-econ-mgt-book) - :book: Huazhang ekonomi ve yönetim kitapları yüksek çözünürlüklü taramalar
-- [tuic-protocol/tuic](https://github.com/tuic-protocol/tuic) - Özenle optimize edilmiş 0-RTT proxy protokolü
+- [dukeluo/awesome-awesome-prompts](https://github.com/dukeluo/awesome-awesome-prompts) - İstem mühendisliği ile ilgili harika listeleri toplayan müthiş bir liste.
+- [mushan0x0/AI0x0.com](https://github.com/mushan0x0/AI0x0.com) - Çoklu modaliteli, çoklu model evrensel küresel AI sorgu ve üretim masaüstü asistan uygulaması
+- [apachecn/huazhang-econ-mgt-book](https://github.com/apachecn/huazhang-econ-mgt-book) - :book: Huazhang ekonomi ve yönetim kitapları yüksek çözünürlüklü tarama
+- [tuic-protocol/tuic](https://github.com/tuic-protocol/tuic) - İncelikle hazırlanmış 0-RTT proxy protokolü TUIC
 - [Alice-space/PKU-OpenWrt](https://github.com/Alice-space/PKU-OpenWrt) - PKU'da OpenWrt nasıl yapılandırılır
-- [eliaszon/Programmers-Overseas-Job-Interview-Handbook](https://github.com/eliaszon/Programmers-Overseas-Job-Interview-Handbook) - 🏂🏻 Programcılar için yurt dışı iş/İngilizce mülakat el kitabı
+- [eliaszon/Programmers-Overseas-Job-Interview-Handbook](https://github.com/eliaszon/Programmers-Overseas-Job-Interview-Handbook) - 🏂🏻 Yazılımcılar için yurtdışı iş/İngilizce mülakat el kitabı
 - [lukeed/awesome-cloudflare-workers](https://github.com/lukeed/awesome-cloudflare-workers) - 😎 Harika Cloudflare Workers listesi
-- [LUKE-ZZ/thuthesis-biomedical](https://github.com/LUKE-ZZ/thuthesis-biomedical) - Tsinghua Üniversitesi biyoloji, tıp, eczacılık ve ilgili alanlarda mezuniyet tezi latex şablonu. Diğer bölümler için de uygundur. Lisans, yüksek lisans, doktora tezleri ve doktora sonrası raporlar için uygundur. Tuna topluluğunun thuthesis projesi temel alınarak hazırlanmıştır, biyomedikal ile ilgili ek içerikler ve latex yeni başlayanlar için daha dostça yorumlar eklenmiştir.
-- [oneclickearth/oneclick](https://github.com/oneclickearth/oneclick) - Bilimsel internet/özgür internet/engel aşma/yazılım, 2021 bilimsel internet rehberi
-- [k88hudson/git-flight-rules](https://github.com/k88hudson/git-flight-rules) - Git için uçuş kuralları
+- [LUKE-ZZ/thuthesis-biomedical](https://github.com/LUKE-ZZ/thuthesis-biomedical) - Tsinghua Üniversitesi biyoloji, tıp, eczacılık ve ilgili bölümleri için mezuniyet tezi latex şablonu. Diğer bölümler için de uygundur. Lisans, yüksek lisans ve doktora tezleri ile doktora sonrası raporlar için uygundur. Bu şablon, tuna derneğinin thuthesis projesi temelinde, biyomedikal öğrenciler için içerik eklenmiş ve latex yeni başlayanlar için daha dostça açıklamalar içermektedir.
+- [oneclickearth/oneclick](https://github.com/oneclickearth/oneclick) - Bilimsel internet/geçiş/atlama/yazılım, 2021 bilimsel internet rehberi
+- [k88hudson/git-flight-rules](https://github.com/k88hudson/git-flight-rules) - git için uçuş kuralları
 - [rockbenben/LearnData](https://github.com/rockbenben/LearnData) - Açık kaynak araçlar, verimlilik yöntemleri, psikoloji keşifleriyle kendini geliştirme notları
-- [fredliu168/TheEconomist2022](https://github.com/fredliu168/TheEconomist2022) - The Economist 2022 dergisi çevrimiçi okuma, ses dosyası içerir, eğer alan adı erişilemiyorsa lütfen http://157.230.57.119:8888 adresine gidin
-- [myseil/BingWallpaper](https://github.com/myseil/BingWallpaper) - Bing'in günlük duvar kağıtlarını toplama
-- [Ethkuil/awesome-thu-student-software](https://github.com/Ethkuil/awesome-thu-student-software) - Temelde Tsinghua Üniversitesi öğrencileri tarafından geliştirilen/bakımı yapılan pratik açık kaynak yazılımları içerir.
+- [fredliu168/TheEconomist2022](https://github.com/fredliu168/TheEconomist2022) - The Economist 2022 dergisi çevrimiçi okuma, ses dosyaları dahil. Alan adı erişilemiyorsa http://157.230.57.119:8888 adresini ziyaret edin.
+- [myseil/BingWallpaper](https://github.com/myseil/BingWallpaper) - Bing'in günlük duvar kağıtlarını toplamak
+- [Ethkuil/awesome-thu-student-software](https://github.com/Ethkuil/awesome-thu-student-software) - Başlıca Tsinghua Üniversitesi öğrencileri tarafından geliştirilen/bakımı yapılan kullanışlı açık kaynak yazılımların kaydı.
 - [HelinXu/THUDA-9](https://github.com/HelinXu/THUDA-9) - Tsinghua Üniversitesi Otomasyon Bölümü ders notları
 - [DerDanilo/seafile-community-manual](https://github.com/DerDanilo/seafile-community-manual) - Seafile CE için Seafile topluluk rehberi
-- [runvnc/dadsresume](https://github.com/runvnc/dadsresume) - Babamın 1980'den kalma özgeçmişi ve becerileri
-- [SurviveSJTU/SurviveSJTUManual](https://github.com/SurviveSJTU/SurviveSJTUManual) - 2008 güncellenmiş baskı "Şanghay Jiaotong Üniversitesi Hayatta Kalma El Kitabı" gitbook olarak https://survivesjtu.gitbook.io/survivesjtumanual/ adresinde yayınlanmıştır
-- [dy-sh/one-dark-potplayer-theme](https://github.com/dy-sh/one-dark-potplayer-theme) - PotPlayer için Atom One Dark esinli tema
+- [runvnc/dadsresume](https://github.com/runvnc/dadsresume) - Babamın 1980'den kalma özgeçmişi ve yetenekleri
+- [SurviveSJTU/SurviveSJTUManual](https://github.com/SurviveSJTU/SurviveSJTUManual) - 2008 sürümü "Şanghay Jiao Tong Üniversitesi Hayatta Kalma El Kitabı" güncellemesi, gitbook https://survivesjtu.gitbook.io/survivesjtumanual/ adresinde yayınlandı
+- [dy-sh/one-dark-potplayer-theme](https://github.com/dy-sh/one-dark-potplayer-theme) - PotPlayer için Atom One Dark esintili tema
 - [vscode-ext-studio/OneDark-Modern](https://github.com/vscode-ext-studio/OneDark-Modern) - 
-- [bighuang624/AI-research-tools](https://github.com/bighuang624/AI-research-tools) - :hammer: AI alanında işe yarar araştırma araçları
+- [bighuang624/AI-research-tools](https://github.com/bighuang624/AI-research-tools) - :hammer:AI alanında kullanışlı bilimsel araştırma araçları
 - [jotaen/xit](https://github.com/jotaen/xit) - Yapılacaklar ve kontrol listeleri için düz metin dosya formatı
 - [ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix) - Yaygın unix komutlarına modern/daha hızlı/daha mantıklı alternatifler koleksiyonu.
-- [opsre/Thanks-Mirror](https://github.com/opsre/Thanks-Mirror) - Tüm paket yöneticileri, sistem imajları ve yaygın yazılımlar için iyi aynaları derleyip kaydetme, Thanks Mirror.     Göz atarken beğenirseniz lütfen yıldız vermekten çekinmeyin 👆🌟
-- [KeiKinn/ShadowsocksBio](https://github.com/KeiKinn/ShadowsocksBio) - Shadowsocks'un geçmişi ve basit bir eğitim özeti
-- [eryajf/awesome-github-profile-readme-chinese](https://github.com/eryajf/awesome-github-profile-readme-chinese) - 🦩 Mükemmel Çince GitHub profil ana sayfası koleksiyonu
-- [lesuixin/v2ray-cf](https://github.com/lesuixin/v2ray-cf) - v2ray'i CF ile alan adı olmadan hızlandırmak için yeni başlayanlara yönelik rehber
-- [irazasyed/awesome-cloudflare](https://github.com/irazasyed/awesome-cloudflare) - ⛅️ Harika Cloudflare worker tarifleri, açık kaynak projeleri, rehberler, bloglar ve diğer kaynaklar listesi.
+- [opsre/Thanks-Mirror](https://github.com/opsre/Thanks-Mirror) - Çeşitli paket yöneticileri, sistem imajları ve yaygın yazılımlar için kullanışlı aynaların kaydı. Thanks Mirror.     Beğendiyseniz lütfen yıldız verin 👆🌟
+- [KeiKinn/ShadowsocksBio](https://github.com/KeiKinn/ShadowsocksBio) - Shadowsocks'un geçmişi ve kısa bir eğitim özeti
+- [eryajf/awesome-github-profile-readme-chinese](https://github.com/eryajf/awesome-github-profile-readme-chinese) - 🦩 Harika Çince kişisel anasayfa örnekleri koleksiyonu
+- [lesuixin/v2ray-cf](https://github.com/lesuixin/v2ray-cf) - v2ray'nin CF üzerinden alan adı olmadan hızlandırılması için yeni başlayanlara yönelik rehber
+- [irazasyed/awesome-cloudflare](https://github.com/irazasyed/awesome-cloudflare) - ⛅️ Harika Cloudflare worker tarifleri, açık kaynak projeler, rehberler, bloglar ve diğer kaynaklar listesi.
 - [PicGo/Awesome-PicGo](https://github.com/PicGo/Awesome-PicGo) - PicGo kullanan harika projeler koleksiyonu.
-- [nicejade/nice-front-end-tutorial](https://github.com/nicejade/nice-front-end-tutorial) - 🌍  Sürekli güncellenen ön yüz kaynakları, eğitimleri, görüşleri (güncel ön yüz kaynakları, eğitimler ve görüşler.)
-- [eryajf/learning-weekly](https://github.com/eryajf/learning-weekly) - 📝 Haftalık içerik esas olarak operasyon ve bakım teknolojisi ile Go dili çevresinde, GitHub'daki mükemmel projeler veya başkalarının harika deneyimleriyle desteklenir. Yıldız verip koleksiyona eklemekten çekinmeyin 👆🌟
-- [dair-ai/ML-Course-Notes](https://github.com/dair-ai/ML-Course-Notes) - 🎓 Makine öğrenmesi dersi/konferans notlarını paylaşma.
+- [nicejade/nice-front-end-tutorial](https://github.com/nicejade/nice-front-end-tutorial) - 🌍  Sürekli güncellenen ön yüz kaynakları, eğitimleri, görüşleri（Çağa ayak uyduran ön yüz kaynakları, eğitimler ve görüşler。）
+- [eryajf/learning-weekly](https://github.com/eryajf/learning-weekly) - 📝 Haftalık içerik ağırlıklı olarak sistem yöneticiliği ve Go dili etrafında, yanında GitHub'daki harika projeler ve başkalarının deneyimleri. Lütfen yıldız vermeyi unutmayın 👆🌟
+- [dair-ai/ML-Course-Notes](https://github.com/dair-ai/ML-Course-Notes) - 🎓 Makine öğrenmesi ders/konferans notlarını paylaşma.
 - [sirredbeard/awesome-wsl](https://github.com/sirredbeard/awesome-wsl) - Windows Subsystem for Linux'a adanmış harika liste
-- [GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) - GitHub'daki yüksek kaliteli, ilginç ve pratik açık kaynak teknolojisi eğitimleri, geliştirici araçları, programlama siteleri, teknik haberleri paylaşmaya devam ediyoruz. GitHub'ın havalı, ilginç projeler listesi.
-- [steam3d/MagicPods-Windows](https://github.com/steam3d/MagicPods-Windows) - Airpods'unuza biraz sihir katın
-- [dair-ai/ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses) - 📺 YouTube'daki en güncel makine öğrenimi / yapay zeka kurslarını keşfedin.
+- [GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) - GitHub'da yüksek kaliteli, ilginç ve kullanışlı açık kaynak teknik eğitimler, geliştirici araçları, programlama siteleri, teknik haberler paylaşmaya devam ediyoruz. GitHub'ın havalı ve ilginç projeler listesi.
+- [steam3d/MagicPods-Windows](https://github.com/steam3d/MagicPods-Windows) - Airpods'unuza biraz sihir ekleyin
+- [dair-ai/ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses) - 📺 YouTube'daki en yeni makine öğrenmesi / yapay zeka kurslarını keşfedin.
 - [ImCa0/just-laws](https://github.com/ImCa0/just-laws) - Basit ve kullanışlı bir Çin hukuk kütüphanesi | A Simple and Convenient Laws Library of China.
 - [github/codeql-cli-binaries](https://github.com/github/codeql-cli-binaries) - CodeQL CLI için ikili dosyalar
-- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - İlham verici listeler, el kitapları, kopya kağıtları, bloglar, hackler, tek satırlık komutlar, cli/web araçları ve daha fazlasının bir koleksiyonu.
-- [brave/goggles-quickstart](https://github.com/brave/goggles-quickstart) - Goggles ve kendi filtrenizi oluşturmayı öğrenmek için eğitim materyali.
+- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - İlham verici listeler, kılavuzlar, hızlı başvuru kartları, bloglar, hackler, tek satırlık komutlar, cli/web araçları ve daha fazlasının koleksiyonu.
+- [brave/goggles-quickstart](https://github.com/brave/goggles-quickstart) - Goggles hakkında bilgi edinmek ve kendi gözlüğünüzü nasıl oluşturacağınızı öğrenmek için eğitim materyali.
 - [iggredible/Learn-Vim](https://github.com/iggredible/Learn-Vim) - Vim ve Vimscript öğrenmek zor olmak zorunda değil. Aradığınız rehber bu 📖
-- [fatalerror-i/ThuWordThesis](https://github.com/fatalerror-i/ThuWordThesis) - Tsinghua Üniversitesi tezleri için Word şablonu. A Word thesis template for Tsinghua University.
+- [fatalerror-i/ThuWordThesis](https://github.com/fatalerror-i/ThuWordThesis) - Tsinghua Üniversitesi için Word tez şablonu. A Word thesis template for Tsinghua University.
 - [pb0316/thuhole_memories](https://github.com/pb0316/thuhole_memories) - 
 - [jiegec/dcst-facts](https://github.com/jiegec/dcst-facts) - Tsinghua Üniversitesi DCST hakkında gerçekler
-- [microsoft/vscode-loc](https://github.com/microsoft/vscode-loc) - VS Code Yerelleştirme Uzantısı
-- [mangecoeur/AcademicMarkdown](https://github.com/mangecoeur/AcademicMarkdown) - Akademik makale yazımı için MarkdownEditing'e ekler
-- [linuxkerneltravel/linux_kernel_wiki](https://github.com/linuxkerneltravel/linux_kernel_wiki) - Linux çekirdeği öğrenme materyalleri: 200+ klasik çekirdek makalesi, 100+ çekirdek makalesi, 50+ çekirdek projesi, 500+ çekirdek mülakat sorusu, 80+ çekirdek videosu
+- [microsoft/vscode-loc](https://github.com/microsoft/vscode-loc) - VS Code Yerelleştirme Eklentisi
+- [mangecoeur/AcademicMarkdown](https://github.com/mangecoeur/AcademicMarkdown) - Akademik makaleler yazmak için MarkdownEditing uzantıları
+- [linuxkerneltravel/linux_kernel_wiki](https://github.com/linuxkerneltravel/linux_kernel_wiki) - linux çekirdeği öğrenme materyali: 200+ klasik çekirdek makalesi, 100+ çekirdek makalesi, 50+ çekirdek projesi, 500+ çekirdek mülakat sorusu, 80+ çekirdek videosu
 - [GyanD/codexffmpeg](https://github.com/GyanD/codexffmpeg) - https://www.gyan.dev/ffmpeg için destek
 - [scottclowe/matlab-schemes](https://github.com/scottclowe/matlab-schemes) - MATLAB için renk şemaları koleksiyonu
 - [skyiea/rememberry-i10n](https://github.com/skyiea/rememberry-i10n) - Rememberry için yerelleştirme
-- [rzashakeri/beautify-github-profile](https://github.com/rzashakeri/beautify-github-profile) - Bu depo, daha güzel ve çekici bir github profili oluşturmanıza yardımcı olacak ve github profilinizi güzelleştirmek için kapsamlı bir araç ve öğretici yelpazesine erişebileceksiniz.
+- [rzashakeri/beautify-github-profile](https://github.com/rzashakeri/beautify-github-profile) - Bu depo, daha güzel ve çekici bir github profili oluşturmanıza yardımcı olacak ve github profilinizi güzelleştirmek için kapsamlı araçlar ve eğitimlere erişebileceksiniz.
 - [Jonezhen/CSBook](https://github.com/Jonezhen/CSBook) - 
 - [ripperhe/Bob](https://github.com/ripperhe/Bob) - Bob, macOS platformu için bir çeviri ve OCR yazılımıdır.
-- [SwiftOldDriver/iOS-Weekly](https://github.com/SwiftOldDriver/iOS-Weekly) - 🇨🇳 Deneyimli iOS geliştirici haftalık bülteni
-- [comwrg/package-manager-proxy-settings](https://github.com/comwrg/package-manager-proxy-settings) - Farklı paket yöneticilerinde proxy ayarlarıyla ilgili önemli noktaların kaydı.
-- [liuchengxu/git-commit-emoji-cn](https://github.com/liuchengxu/git-commit-emoji-cn) - 😁 git commit mesajı emoji kullanma rehberi
-- [aishalih/sfwin](https://github.com/aishalih/sfwin) - SFWin — Windows 10 ve Apple dışı platformlar için San Francisco yazı tipleri.
-- [aooiuu/z-reader](https://github.com/aooiuu/z-reader) - 📘 [vscode eklentisi] Roman okuyucu, çevrimiçi aramayı ve yerel okuma destekler, txt ve epub formatlarını destekler
+- [SwiftOldDriver/iOS-Weekly](https://github.com/SwiftOldDriver/iOS-Weekly) - 🇨🇳 Tecrübeli iOS geliştiriciler için teknik haftalık rapor
+- [comwrg/package-manager-proxy-settings](https://github.com/comwrg/package-manager-proxy-settings) - Çeşitli paket yöneticileri için proxy ayarları ile ilgili notlar.
+- [liuchengxu/git-commit-emoji-cn](https://github.com/liuchengxu/git-commit-emoji-cn) - 😁 git commit mesajı emojileri kullanım rehberi
+- [aishalih/sfwin](https://github.com/aishalih/sfwin) - SFWin — San Francisco Yazı Tipleri Windows 10 ve Apple dışı platformlar için.
+- [aooiuu/z-reader](https://github.com/aooiuu/z-reader) - 📘 [vscode eklentisi] Roman okuyucu, çevrimiçi arama ve yerel okuma desteği, txt ve epub formatlarını destekler
 - [inkscape/inkscape](https://github.com/inkscape/inkscape) - Proje Web Sitesi: https://inkscape.org - Kod Deposu: https://gitlab.com/inkscape/inkscape - Özgürce çizin. 🖌
-- [taunoe/arduino-dark-theme](https://github.com/taunoe/arduino-dark-theme) - Arduino için koyu tema!
-- [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules) - 🦄️ 🎃 👻 Clash Premium kural seti (RULE-SET), ClashX Pro, Clash for Windows ve diğer Clash Premium çekirdekli istemcilerle uyumlu.
-- [sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines) - Daha iyi yazılı iletişim için Çince metin yazarlığı kılavuzu／Çince metin düzenleme rehberi
+- [taunoe/arduino-dark-theme](https://github.com/taunoe/arduino-dark-theme) - Arduino karanlık tema!
+- [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules) - 🦄️ 🎃 👻 Clash Premium için kural seti (RULE-SET), ClashX Pro, Clash for Windows gibi Clash Premium çekirdeği tabanlı istemcilerle uyumlu.
+- [sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines) - Daha iyi yazılı iletişim için Çince metin yazarlığı yönergeleri／Çince metin düzenleme kılavuzu
 - [woct0rdho/pkuholebackup](https://github.com/woct0rdho/pkuholebackup) - 
 - [Keldos-Li/typora-latex-theme-fonts](https://github.com/Keldos-Li/typora-latex-theme-fonts) - 
-- [geekan/HowToLiveLonger](https://github.com/geekan/HowToLiveLonger) - Programcılar için uzun ömür rehberi | A programmer's guide to live longer
+- [geekan/HowToLiveLonger](https://github.com/geekan/HowToLiveLonger) - Programcılar için uzun yaşam rehberi | A programmer's guide to live longer
 - [gaocegege/my-github-status](https://github.com/gaocegege/my-github-status) - 
 - [fat0troll/terminalus](https://github.com/fat0troll/terminalus) - Terminal.app temaları, Termius iOS uygulamasının renk şemalarından esinlenmiştir
-- [clarketm/proxy-list](https://github.com/clarketm/proxy-list) - Ücretsiz, herkese açık, ileten proxy sunucuları listesi. HER GÜN GÜNCELLENİR!
+- [clarketm/proxy-list](https://github.com/clarketm/proxy-list) - Ücretsiz, herkese açık, yönlendiren proxy sunucuları listesi. GÜNLÜK GÜNCELLENİR!
 - [ShiftyTR/Proxy-List](https://github.com/ShiftyTR/Proxy-List) - Ücretsiz proxy listesi SAAT BAŞI GÜNCELLENİR! -- api için ziyaret edin
 - [623637646/996.Leave](https://github.com/623637646/996.Leave) - 996'dan kaçış
-- [The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run) - Run felsefesinin resmi GITHUB'u, amaç, program, teori ve çeşitli örnekler derlenmiştir; neden gidilir, nereye gidilir, nasıl gidilir üç büyük sorunu çözer; ve Yeni Çinlilerin çekirdek dini, çekirdek inancı olur.
-- [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) - Proje tabanlı eğitimlerin seçkin listesi
-- [veeral-patel/how-to-secure-anything](https://github.com/veeral-patel/how-to-secure-anything) - Herhangi bir şeyi sistematik olarak nasıl güvence altına alacağınız: güvenlik mühendisliği hakkında bir depo
-- [ossu/data-science](https://github.com/ossu/data-science) - 📊 Veri Biliminde ücretsiz, kendi kendine öğrenilebilen bir eğitim yolu!
-- [lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions) - Uzun bir (ileri seviye) JavaScript soruları listesi ve açıklamaları :sparkles:
-- [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) - JS dili üzerine bir kitap serisi (2 yayımlanmış baskı).
-- [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - Yazılım mühendisi olmak için eksiksiz bilgisayar bilimi çalışma planı.
+- [The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run) - "Run" felsefesi küresel resmi GITHUB'u, "Run" felsefesinin amacı, ilkeleri, teorileri ve çeşitli örneklerini düzenler; neden "run", nereye "run" ve nasıl "run" sorularını çözer; ve Yeni Çinlilerin temel dini, temel inancı haline gelir.
+- [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) - Projeye dayalı eğitimler için seçilmiş liste
+- [veeral-patel/how-to-secure-anything](https://github.com/veeral-patel/how-to-secure-anything) - Herhangi bir şeyi sistematik olarak nasıl güvenli hale getirirsiniz: güvenlik mühendisliği hakkında bir depo
+- [ossu/data-science](https://github.com/ossu/data-science) - 📊 Veri Biliminde ücretsiz, kendi kendine öğrenilen bir eğitime giden yol!
+- [lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions) - (Gelişmiş) JavaScript sorularının uzun bir listesi ve açıklamaları :sparkles:
+- [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) - JS dili hakkında bir kitap serisi (2 yayımlanmış baskı).
+- [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - Yazılım mühendisi olmak için eksiksiz bir bilgisayar bilimi çalışma planı.
 - [DhanushNehru/Ultimate-NodeJs-Resources](https://github.com/DhanushNehru/Ultimate-NodeJs-Resources) - Node Js ile ilgili tüm kaynaklar tek bir yerde
-- [Paladinfeng/MiaoProject](https://github.com/Paladinfeng/MiaoProject) - Miao Project Hata Geri Bildirimi
+- [Paladinfeng/MiaoProject](https://github.com/Paladinfeng/MiaoProject) - Miao Projesi Hata Geri Bildirimi
 - [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) - Kodlama becerilerinizi geliştirmek için kullanılabilecek uygulama fikirleri koleksiyonu.
-- [warpdotdev/Warp](https://github.com/warpdotdev/Warp) - Warp, birden çok AI ajanı ile kodlama için oluşturulmuş ajan tabanlı geliştirme ortamıdır.
-- [Infatuation-Fei/rule](https://github.com/Infatuation-Fei/rule) - Kişisel kullanım kuralları
+- [warpdotdev/Warp](https://github.com/warpdotdev/Warp) - Warp, birden fazla yapay zeka ajanı ile kodlama için oluşturulmuş, etken geliştirme ortamıdır.
+- [Infatuation-Fei/rule](https://github.com/Infatuation-Fei/rule) - Kişisel kullanım için kurallar
 - [MicrosoftDocs/WSL](https://github.com/MicrosoftDocs/WSL) - Windows Subsystem for Linux belgelerinin kaynak kodu.
-- [Serendipity-Theme/windows-terminal](https://github.com/Serendipity-Theme/windows-terminal) - Serendipity teması Windows Terminal'e port edildi.
-- [Serendipity-Theme/vs-code](https://github.com/Serendipity-Theme/vs-code) - Rahatlatıcı, nazik ve modern.
-- [Serendipity-Theme/template-for-repositories](https://github.com/Serendipity-Theme/template-for-repositories) - Port edilmiş temalar için şablon
-- [xuehu54321/awesome-music-for-programming](https://github.com/xuehu54321/awesome-music-for-programming) - Programlama için harika müzikler. Kodlama sırasında dinlediğiniz güzel müzikleri paylaşın!
-- [soulteary/docker-flare](https://github.com/soulteary/docker-flare) - Flare ✨ Hafif, yüksek performanslı ve hızlı kendi kendine barındırılan gezinme sayfaları, kaynak kullanımı &lt;1% CPU, MEM &lt;30 M, Docker Görüntüsü &lt; 10M
-- [jCodeLife/mind-map](https://github.com/jCodeLife/mind-map) - 🖼Kişisel zihin haritası notları, JS, TS, Vue, React ... düzenlendi ve güncelleniyor, PR ve Star'a hoş geldiniz~
-- [coder2gwy/coder2gwy](https://github.com/coder2gwy/coder2gwy) - İnternetin ilk programcı kamu sınavı rehberi, kamu sektörüne geçmiş üç eski büyük şirket programcısı tarafından ortak sunulmuştur.
+- [Serendipity-Theme/windows-terminal](https://github.com/Serendipity-Theme/windows-terminal) - Serendipity teması Windows terminaline aktarıldı.
+- [Serendipity-Theme/vs-code](https://github.com/Serendipity-Theme/vs-code) - Rahat, nazik ve modern.
+- [Serendipity-Theme/template-for-repositories](https://github.com/Serendipity-Theme/template-for-repositories) - Aktarılan temalar için şablon
+- [xuehu54321/awesome-music-for-programming](https://github.com/xuehu54321/awesome-music-for-programming) - Programlama için harika müzikler. Kodlama sırasında dinlediğiniz müzikleri paylaşın!
+- [soulteary/docker-flare](https://github.com/soulteary/docker-flare) - Flare ✨ Hafif, yüksek performanslı ve hızlı, kendi kendine barındırılan gezinme sayfaları, kaynak kullanımı &lt;1% CPU, MEM &lt;30 M, Docker Image &lt; 10M
+- [jCodeLife/mind-map](https://github.com/jCodeLife/mind-map) - 🖼Kişisel zihin haritası notları, JS, TS, Vue, React ... düzenlendi ve güncelleniyor, PR ve Start bekleniyor~
+- [coder2gwy/coder2gwy](https://github.com/coder2gwy/coder2gwy) - İnternetin ilk programcı kamu sınavı rehberi, üç eski büyük teknoloji şirketi programcısı tarafından hazırlandı.
 - [georgezzzh/homepage](https://github.com/georgezzzh/homepage) - 
-- [996icu/996.ICU](https://github.com/996icu/996.ICU) - Yıldız saymak ve katkı yapmak için depo. Şanlı geliştiricilere saygı için F tuşuna basın.
-- [danyspin97/TelegramBotsList](https://github.com/danyspin97/TelegramBotsList) - GitHub'da barındırılan tüm Telegram botlarının kaynak kodlarının listesi.
-- [GorvGoyl/Clone-Wars](https://github.com/GorvGoyl/Clone-Wars) - Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube gibi popüler sitelerin 100+ açık kaynak klonu. Kaynak kodu, demo bağlantıları, teknoloji yığını, github yıldızları.
-- [github/gitignore](https://github.com/github/gitignore) - Faydalı .gitignore şablonları koleksiyonu
-- [gqcn/effective-go-zh-en](https://github.com/gqcn/effective-go-zh-en) - 《Effective Go》Çince ve İngilizce iki dilli sürüm
+- [996icu/996.ICU](https://github.com/996icu/996.ICU) - Yıldızları saymak ve katkı yapmak için depo. Şanlı geliştiricilere saygı için F tuşuna basın.
+- [danyspin97/TelegramBotsList](https://github.com/danyspin97/TelegramBotsList) - GitHub'da barındırılan tüm Telegram botlarının kaynak kodu listesi.
+- [GorvGoyl/Clone-Wars](https://github.com/GorvGoyl/Clone-Wars) - Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube gibi popüler sitelerin 100+ açık kaynak klonu. Kaynak kodu, demo linkleri, teknik yığın, github yıldızları.
+- [github/gitignore](https://github.com/github/gitignore) - Yararlı .gitignore şablonlarının koleksiyonu
+- [gqcn/effective-go-zh-en](https://github.com/gqcn/effective-go-zh-en) - 《Effective Go》Çince-İngilizce çift dilli sürüm
 - [sublime-china/sublime-merge-chinese](https://github.com/sublime-china/sublime-merge-chinese) - Sublime Merge Çince sürümü
 - [facelessuser/merge-dracula-theme](https://github.com/facelessuser/merge-dracula-theme) - Sublime Merge için Dracula Teması
-- [konrad91/OneDarkArduino](https://github.com/konrad91/OneDarkArduino) - Arduino IDE için karanlık tema, binaryify'nin VSCode için One Dark Pro'sundan ilham almıştır
-- [AbhishekGhosh/Arduino-Themes](https://github.com/AbhishekGhosh/Arduino-Themes) - Topluluk tarafından oluşturulan Arduino IDE temaları koleksiyonu
-- [shengcaishizhan/kkndme_tianya](https://github.com/shengcaishizhan/kkndme_tianya) - Tianya kkndme başlığı ile konut fiyatları hakkında sohbet
-- [axipo/TrafficBlackhole](https://github.com/axipo/TrafficBlackhole) - Ağ kalitesi & proxy hizmeti karşılaştırması
-- [bestxtools/weekly-cn](https://github.com/bestxtools/weekly-cn) - İlginç, yaratıcı, ücretsiz, kullanışlı araçları keşfedin ve paylaşın, her Perşembe yayınlanır.
-- [coderit666/GoGuide](https://github.com/coderit666/GoGuide) - "Go Dili Öğrenme Rehberi" çoğu Golang programcısının bilmesi gereken temel bilgileri kapsayan, Go dili dersleri, Go açık kaynak kitapları, Go giriş dersleri, Go öğrenme yolları ile dolu bir rehberdir. Sıfırdan Go dili ve Go programlama öğrenmek için ilk tercih GoGuide.
-- [andredelft/typora-tailwind-theme](https://github.com/andredelft/typora-tailwind-theme) - Typora için güzel bir Tailwind tipografi düzeni.
+- [konrad91/OneDarkArduino](https://github.com/konrad91/OneDarkArduino) - Arduino IDE için koyu tema, binaryify tarafından VSCode için yapılan One Dark Pro'dan esinlenmiştir
+- [AbhishekGhosh/Arduino-Themes](https://github.com/AbhishekGhosh/Arduino-Themes) - Topluluk tarafından oluşturulan Arduino IDE Temaları Koleksiyonu
+- [shengcaishizhan/kkndme_tianya](https://github.com/shengcaishizhan/kkndme_tianya) - Tianya kkndme Efsanevi Konu Konut Fiyatları Sohbeti
+- [axipo/TrafficBlackhole](https://github.com/axipo/TrafficBlackhole) - ağ kalitesi & proxy servis kıyaslaması
+- [bestxtools/weekly-cn](https://github.com/bestxtools/weekly-cn) - İlginç, yaratıcı, ücretsiz, kullanışlı araçları keşfet ve paylaş, her Perşembe yayınlanır.
+- [coderit666/GoGuide](https://github.com/coderit666/GoGuide) - "Go Dili Öğrenme Rehberi" - Çoğu Golang programcısının bilmesi gereken temel bilgileri kapsayan bir kaynak, Go dili eğitimleri, Go açık kaynak kitapları, Go diline giriş dersleri, Go öğrenme yolları. Sıfırdan Go dili ve Go programlama öğrenmek için ilk tercih GoGuide.
+- [andredelft/typora-tailwind-theme](https://github.com/andredelft/typora-tailwind-theme) - Typora için güzel Tailwind tipografi düzeni.
 - [viraptor/reverse-interview](https://github.com/viraptor/reverse-interview) - Mülakat sırasında şirkete sorulacak sorular
 - [perkfly/reverse-interview-zh](https://github.com/perkfly/reverse-interview-zh) - Teknik mülakatın sonunda mülakatçıya sorulacak sorular
-- [imageslr/typora-theme-bear](https://github.com/imageslr/typora-theme-bear) - Bear tarzından ilham alan, toplamda 20'den fazla typora teması koleksiyonu.
-- [7-sevens/Developer-Books](https://github.com/7-sevens/Developer-Books) - Programlama ve geliştirme ile ilgili kitap listesi düzenlemesi
-- [czs108/Cpp-Primer-5th-Notes-CN](https://github.com/czs108/Cpp-Primer-5th-Notes-CN) - 📚 《C++ Primer Çince Sürüm (5. Baskı)》notları
-- [ShameCom/ShameCom](https://github.com/ShameCom/ShameCom) - Üniversite işe alımlarında lekeli şirket veya organizasyonları toplayıp, öğrencilere yardımcı olmak için. İnternet unutmaz!
-- [csseky/cskaoyan](https://github.com/csseky/cskaoyan) - Bilgisayar yüksek lisans ve yazılım mühendisliği yüksek lisans sınavları için farklı okulların soruları sağlanır
-- [Simizfo/WSATools](https://github.com/Simizfo/WSATools) - Windows Subsystem for Android için kullanımı kolay APK yükleyici ve daha fazlası
-- [SPX372928/MyIPTV](https://github.com/SPX372928/MyIPTV) - Standart protokollü mobil canlı yayın kaynakları
-- [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists) - Yazılım ve web geliştirme için ücretsiz API'lerin kolektif listesi 🚀
-- [Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo) - GitHub'da yüksek kaliteli ve ilginç açık kaynak projelerinin toplanması ve düzenlenmesi.
-- [imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8) - Canlı yayın kaynakları derlemesi 📺 💯 IPTV, M3U —— Sık sık ellerinizi yıkayın, maske takın, herkese sağlık dilerim
+- [imageslr/typora-theme-bear](https://github.com/imageslr/typora-theme-bear) - Bear tarzından esinlenen 20+ typora teması koleksiyonu.
+- [7-sevens/Developer-Books](https://github.com/7-sevens/Developer-Books) - Programlama ve geliştirme ile ilgili kitap listeleri
+- [czs108/Cpp-Primer-5th-Notes-CN](https://github.com/czs108/Cpp-Primer-5th-Notes-CN) - 📚 《C++ Primer Çince Sürüm (5. Baskı)》Notları
+- [ShameCom/ShameCom](https://github.com/ShameCom/ShameCom) - Mezuniyet için iş arayanlara, kötü şöhretli şirket veya organizasyonları toplar ve uyarır. İnternet unutmaz!
+- [csseky/cskaoyan](https://github.com/csseky/cskaoyan) - Bilgisayar ve yazılım mühendisliği yüksek lisans sınavları için üniversite bazında gerçek sınav soruları
+- [Simizfo/WSATools](https://github.com/Simizfo/WSATools) - Windows Subsystem for Android için kolay kullanımlı APK yükleyici ve daha fazlası
+- [SPX372928/MyIPTV](https://github.com/SPX372928/MyIPTV) - Standart protokol mobil canlı yayın kaynakları
+- [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists) - Yazılım ve web geliştirme için kullanılabilecek ücretsiz API'lerin toplu listesi 🚀
+- [Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo) - GitHub'daki yüksek kaliteli ve ilginç açık kaynak projelerini toplar ve düzenler.
+- [imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8) - Canlı yayın kaynaklarının özetlenmiş listesi 📺 💯 IPTV, M3U — Ellerinizi sık sık yıkayın, maske takın, herkese sağlık dilerim
 - [methylcloud/learn-gcp](https://github.com/methylcloud/learn-gcp) - Google Cloud Platform (GCP) öğrenmek için çalışma kaynakları
-- [awsdocs/amazon-ec2-user-guide-windows](https://github.com/awsdocs/amazon-ec2-user-guide-windows) - Amazon EC2 Kullanıcı Kılavuzu'nun açık kaynak sürümü. Geri bildirim veya değişiklik isteği göndermek için issue oluşturun veya değişiklik yapıp pull request gönderin.
-- [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) - Birçok Shadowrocket kuralı sunar, güçlü reklam filtreleme işlevine sahiptir. Kurallar her gün saat 8'de yeniden oluşturulur.
-- [AlenZhang-Dev/News-Record](https://github.com/AlenZhang-Dev/News-Record) - Şu anda esas olarak The Economist, The NewYorker ve Time dergilerini güncel tutuyor
+- [awsdocs/amazon-ec2-user-guide-windows](https://github.com/awsdocs/amazon-ec2-user-guide-windows) - Amazon EC2 Kullanıcı Kılavuzu'nun Windows için açık kaynak sürümü. Geri bildirim veya değişiklik talepleriniz için bir issue oluşturun veya pull request gönderin.
+- [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) - Birçok Shadowrocket kuralı sağlar, güçlü reklam filtreleme özelliğine sahiptir. Kurallar her gün saat 8'de yeniden oluşturulur.
+- [AlenZhang-Dev/News-Record](https://github.com/AlenZhang-Dev/News-Record) - Şu anda başlıca The Economist, The NewYorker ve Time dergileri güncellenmektedir.
 - [jeffreyxuan/toneoz-font-pinyin-kai](https://github.com/jeffreyxuan/toneoz-font-pinyin-kai) - 
-- [lanceliao/china-holiday-calender](https://github.com/lanceliao/china-holiday-calender) - 2023-2025 Çin tatil, telafi ve ek çalışma takvimi, ICS formatında, iPhone, Google Takvim, Outlook gibi istemciler için abone olunabilir, tatil API'si içerir
-- [tokyo-night/tokyo-night-vscode-theme](https://github.com/tokyo-night/tokyo-night-vscode-theme) - Tokyo şehir merkezinin gece ışıklarını kutlayan temiz, karanlık bir Visual Studio Code teması.
-- [Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules) - 🦄 🎃 👻 Surge kural setleri (DOMAIN-SET ve RULE-SET), Surge for iOS ve Surge for Mac istemcilerine uygundur.
-- [OpenRunner/clash-freenode](https://github.com/OpenRunner/clash-freenode) - Abonelik adresi🚀 Ücretsiz paylaşım♻️ Düzenli güncelleme✨ Bilimsel internet🌈 Lütfen kötüye kullanmayın🚫 Tek tıkla abone olun📪SSR/CLASH/V2RAY
+- [lanceliao/china-holiday-calender](https://github.com/lanceliao/china-holiday-calender) - 2023-2025 Çin tatil, telafi ve ek çalışma takvimi, ICS formatında, iPhone, Google Takvim, Outlook vb. için abone olunabilir, tatil API'si dahil
+- [tokyo-night/tokyo-night-vscode-theme](https://github.com/tokyo-night/tokyo-night-vscode-theme) - Tokyo şehir merkezinin gece ışıklarını kutlayan temiz, koyu bir Visual Studio Code teması.
+- [Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules) - 🦄 🎃 👻 Surge kural seti (DOMAIN-SET ve RULE-SET), Surge for iOS ve Surge for Mac istemcileri için uygundur.
+- [OpenRunner/clash-freenode](https://github.com/OpenRunner/clash-freenode) - Abone adresi🚀 Ücretsiz paylaşım♻️ Düzenli güncelleme✨ Bilimsel internet erişimi🌈 Lütfen kötüye kullanmayın🚫 Tek tıkla abone olun📪SSR/CLASH/V2RAY
 - [Sxela/ArcaneGAN](https://github.com/Sxela/ArcaneGAN) - ArcaneGAN
-- [60ss/Npp-1-Dark](https://github.com/60ss/Npp-1-Dark) - Notepad++ için One Dark Söz Dizimi Teması
+- [60ss/Npp-1-Dark](https://github.com/60ss/Npp-1-Dark) - Notepad++ için One Dark Sözdizimi Teması
 - [rdev/vscode-theme-onedark-spacegray](https://github.com/rdev/vscode-theme-onedark-spacegray) - Atom'un One Dark temasına dayalı VSCode Teması
-- [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD) - Çin bölgesinde en yüksek isabet oranına sahip reklam filtreleme listesi olmayı hedefler, hassas reklam engelleme ve gizlilik koruması sağlar. anti-AD artık AdGuardHome, dnsmasq, Surge, Pi-Hole, Clash, mihomo, smartdns, sing-box gibi ağ bileşenlerini destekliyor. Yaygın reklam filtreleme araçlarının desteklediği tüm filtre liste formatlarıyla tamamen uyumludur.
-- [Mosney/anti-anti-AD](https://github.com/Mosney/anti-anti-AD) - Neden antiAD reklam filtreleme listesi kullanılmamalı ve daha iyi alternatifler seçilmeli
-- [leohku/andure](https://github.com/leohku/andure) - Android Chrome için DevTools — herhangi bir web sitesinde, herhangi bir Chromium tarayıcısında çalışır.
-- [opendigg/awesome-github-wechat-weapp](https://github.com/opendigg/awesome-github-wechat-weapp) - WeChat Mini Program açık kaynak proje kütüphanesi özeti
-- [Discord-Custom-Covers/usrbg](https://github.com/Discord-Custom-Covers/usrbg) - @Discord için özel kullanıcı tarafından istenen arka planların veritabanı.
+- [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD) - Çince bölgede en yüksek isabet oranına sahip reklam filtreleme listesini oluşturmayı amaçlar, hassas reklam engelleme ve gizlilik koruması sağlar. anti-AD artık AdGuardHome, dnsmasq, Surge, Pi-Hole, Clash, mihomo, smartdns, sing-box vb. ile uyumludur. Yaygın reklam filtreleme araçları tarafından desteklenen tüm liste formatlarıyla tamamen uyumludur.
+- [Mosney/anti-anti-AD](https://github.com/Mosney/anti-anti-AD) - Neden antiAD reklam engelleme listesini kullanmamalı ve daha iyi alternatifleri seçmelisiniz
+- [leohku/andure](https://github.com/leohku/andure) - Android Chrome için DevTools — herhangi bir sitede, herhangi bir Chromium tarayıcıda çalışır.
+- [opendigg/awesome-github-wechat-weapp](https://github.com/opendigg/awesome-github-wechat-weapp) - WeChat mini program açık kaynak projeleri koleksiyonu
+- [Discord-Custom-Covers/usrbg](https://github.com/Discord-Custom-Covers/usrbg) - @Discord için kullanıcı talebiyle oluşturulan özel arka planlar veritabanı.
 - [erbanku/awesome](https://github.com/erbanku/awesome) - 🌟 Harika Depolar Listem. GitHub Actions ile UTC 00:00 & 16:00'da otomatik güncellenir
-- [algolia/awesome-algolia](https://github.com/algolia/awesome-algolia) - 🔍👋  BURADAN BAŞLAYIN! Algolia kütüphaneleri, kaynakları ve projeleri özenle seçilmiş liste.
-- [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) - Harika uzaktan işler ve kaynaklar listesi. https://github.com/vinta/awesome-python'dan ilham alınmıştır
-- [githubtraining/introduction-to-github](https://github.com/githubtraining/introduction-to-github) - Learning Lab kursu "GitHub'a Giriş" için kurs deposu. Şablon depo ➡️
-- [UyCode/uyfonts](https://github.com/UyCode/uyfonts) - UKIJ ve Uighursoft yazı tipleri mevcut
+- [algolia/awesome-algolia](https://github.com/algolia/awesome-algolia) - 🔍👋  BURADAN BAŞLAYIN! Algolia kütüphaneleri, kaynakları ve projeleri için seçilmiş bir liste.
+- [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) - Harika uzaktan iş ve kaynaklar için seçilmiş bir liste. İlham kaynağı: https://github.com/vinta/awesome-python
+- [githubtraining/introduction-to-github](https://github.com/githubtraining/introduction-to-github) - Learning Lab kursu "Introduction to GitHub" için kurs deposu. Şablon depo ➡️
+- [UyCode/uyfonts](https://github.com/UyCode/uyfonts) - UKIJ ve Uighursoft fontları mevcut
 - [kkozee/vscode-theme-one-dark-vivid](https://github.com/kkozee/vscode-theme-one-dark-vivid) - VS Code için Atom'un One Dark Vivid Teması
 - [mathjax/MathJax](https://github.com/mathjax/MathJax) - Tüm tarayıcılarda güzel ve erişilebilir matematik
 - [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) - Her yazılım geliştiricinin bilmesi gereken (çoğunlukla) teknik şeylerin koleksiyonu
-- [yangkky/Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins) - Proteinler için makine öğrenimi hakkında makalelerin listesi.
-- [mehcode/awesome-atom](https://github.com/mehcode/awesome-atom) - Harika Atom paketleri ve kaynakları özenle seçilmiş listesi.
-- [mcdtaiwan/McDonalds_Fries_Font](https://github.com/mcdtaiwan/McDonalds_Fries_Font) - Tüm McDonald's patates kızartması hayranları için — McDonald's Fries Font Patates kızartması vs ketçap biraz eğlenelim! Kıtır patates kızartması, lezzetli ketçaba batırılmış, sonsuz olasılıkları birleştirir. McDonald's Fries Font, ücretsiz indirilebilir!
-- [fangzesheng/free-api](https://github.com/fangzesheng/free-api) - Ücretsiz API servisleri toplanıyor, bir API taşıyıcısı olun
-- [toml-lang/toml](https://github.com/toml-lang/toml) - Tom'un Açık, Minimal Dili
-- [atomiechen/THU-PPT-Theme](https://github.com/atomiechen/THU-PPT-Theme) - Tsinghua Üniversitesi temalı PPT şablonu
-- [zhiwehu/Python-programming-exercises](https://github.com/zhiwehu/Python-programming-exercises) - 100+ Python zorlu programlama egzersizi
-- [hemanth/awesome-pwa](https://github.com/hemanth/awesome-pwa) - Harika progresif web uygulamaları listesi!
-- [joelparkerhenderson/git-commit-message](https://github.com/joelparkerhenderson/git-commit-message) - Git commit mesajı: harika bir git commit mesajı ve sürüm kontrolü için commit şablonu nasıl yazılır
-- [marvinpinto/action-automatic-releases](https://github.com/marvinpinto/action-automatic-releases) - SADECE OKUNUR: https://github.com/marvinpinto/actions/tree/master/packages/automatic-releases adresinin otomatik oluşturulan aynası
-- [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) - Yeni başlayanlar için harika projeler listesi.
-- [dracula/telegram](https://github.com/dracula/telegram) - 🧛🏻‍♂️ Telegram Desktop için karanlık tema
-- [ahmadawais/shades-of-purple-vscode](https://github.com/ahmadawais/shades-of-purple-vscode) - 🦄 Shades of Purple, kodunuzu görsel açıdan çarpıcı bir başyapıta dönüştürecek, özenle seçilmiş cesur ve canlı mor tonları sunar. Özenle hazırlanmış renk paleti ile
-- [priyankavergadia/GCPSketchnote](https://github.com/priyankavergadia/GCPSketchnote) - Google Cloud Mühendisi olmak istiyorsanız, doğru yerdesiniz. GCPSketchnote, Google Cloud kavramlarını hızlı ve kolay öğrenilecek formatta paylaştığım bir seridir.
-- [flyhigher139/Git-Cheat-Sheet](https://github.com/flyhigher139/Git-Cheat-Sheet) - Git Kopya Kağıdı Çince Sürümü, Gevin (flyhigher139) tarafından çevrilmiştir
+- [yangkky/Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins) - Proteinler için makine öğrenimi ile ilgili makale listesi.
+- [mehcode/awesome-atom](https://github.com/mehcode/awesome-atom) - Harika Atom paketleri ve kaynaklarından oluşan seçilmiş bir liste.
+- [mcdtaiwan/McDonalds_Fries_Font](https://github.com/mcdtaiwan/McDonalds_Fries_Font) - Her patates kızartması tutkunu için — McDonald's Fries Font Patates kızartması vs ketçap ile eğlenin! Kıtır kıtır patatesleri lezzetli ketçapa batırarak sonsuz olasılıklar yaratın. McDonald's Fries Font, ücretsiz olarak indirilebilir!
+- [fangzesheng/free-api](https://github.com/fangzesheng/free-api) - Ücretsiz API hizmetleri koleksiyonu, bir API taşıyıcısı olun
+- [toml-lang/toml](https://github.com/toml-lang/toml) - Tom's Obvious, Minimal Language
+- [atomiechen/THU-PPT-Theme](https://github.com/atomiechen/THU-PPT-Theme) - Tsinghua temalı PPT şablonları
+- [zhiwehu/Python-programming-exercises](https://github.com/zhiwehu/Python-programming-exercises) - 100+ Python zorlu programlama alıştırmaları
+- [hemanth/awesome-pwa](https://github.com/hemanth/awesome-pwa) - Harika ilerleyici web uygulamaları listesi!
+- [joelparkerhenderson/git-commit-message](https://github.com/joelparkerhenderson/git-commit-message) - Git commit mesajı: iyi bir git commit mesajı ve sürüm kontrolü için commit şablonu nasıl yazılır
+- [marvinpinto/action-automatic-releases](https://github.com/marvinpinto/action-automatic-releases) - SADECE OKUNUR: https://github.com/marvinpinto/actions/tree/master/packages/automatic-releases için otomatik oluşturulan yansıtma
+- [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) - Yeni başlayanlar için harika projelerin listesi.
+- [dracula/telegram](https://github.com/dracula/telegram) - 🧛🏻‍♂️ Telegram Desktop için koyu tema
+- [ahmadawais/shades-of-purple-vscode](https://github.com/ahmadawais/shades-of-purple-vscode) - 🦄 Shades of Purple, kodunuzu görsel olarak büyüleyici bir başyapıta dönüştürecek, özenle seçilmiş cesur ve canlı mor tonları sunar. Özenle hazırlanmış renk paletiyle...
+- [priyankavergadia/GCPSketchnote](https://github.com/priyankavergadia/GCPSketchnote) - Google Cloud Mühendisi olmak istiyorsanız doğru yerdesiniz. GCPSketchnote, Google Cloud kavramlarını hızlı ve kolay öğrenilebilir formatta paylaşan bir seridir.
+- [flyhigher139/Git-Cheat-Sheet](https://github.com/flyhigher139/Git-Cheat-Sheet) - Git Hile Sayfası Çince sürümü, Gevin (flyhigher139) tarafından çevrildi
 - [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) - Komut satırında ustalaşın, tek sayfada
-- [opendigg/awesome-github-vue](https://github.com/opendigg/awesome-github-vue) - Vue ile ilgili açık kaynak proje kütüphanesi özeti
-- [Codextor/npp-material-theme](https://github.com/Codextor/npp-material-theme) - Material Tema, Notepad++ için en destansı tema | Karanlık Tema
-- [VirgilClyne/iRingo](https://github.com/VirgilClyne/iRingo) - Tam  Apple özellikleri ve entegrasyon hizmetlerinin kilidini açın
+- [opendigg/awesome-github-vue](https://github.com/opendigg/awesome-github-vue) - Vue ile ilgili açık kaynak projeler koleksiyonu
+- [Codextor/npp-material-theme](https://github.com/Codextor/npp-material-theme) - Material Theme, Notepad++ için en efsanevi tema | Koyu Tema
+- [VirgilClyne/iRingo](https://github.com/VirgilClyne/iRingo) - Tam  Apple özelliklerini ve entegre hizmetlerini açın
 - [treehollow/install-doc](https://github.com/treehollow/install-doc) - Bir ağaç deliği nasıl kurulur
-- [0voice/audio_video_streaming](https://github.com/0voice/audio_video_streaming) - Ses ve video akışı konusunda otoriter kaynakların düzenlenmesi, 500+ makale, tez, video, pratik proje, protokol, sektör uzmanları listesi.
-- [matchai/awesome-pinned-gists](https://github.com/matchai/awesome-pinned-gists) - 📌✨ GitHub için harika dinamik sabitlenmiş gist'ler koleksiyonu
-- [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) - 🚀✨ Yeni başlayanların açık kaynak projelere katkı sağlamasına yardımcı olun
-- [Tencent/secguide](https://github.com/Tencent/secguide) - Geliştiriciler için kod güvenliği rehberi
-- [ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey) - Harika AutoHotkey kütüphaneleri, dağıtımları, scriptleri, araçları ve kaynakları özenle seçilmiş liste.
+- [0voice/audio_video_streaming](https://github.com/0voice/audio_video_streaming) - Ses ve video akışıyla ilgili yetkili materyallerin derlemesi, 500+ makale, makale, video, uygulama projesi, protokol, sektör uzmanları listesi.
+- [matchai/awesome-pinned-gists](https://github.com/matchai/awesome-pinned-gists) - 📌✨ GitHub için harika dinamik sabitlenmiş gist koleksiyonu
+- [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) - 🚀✨ Yeni başlayanların açık kaynak projelerine katkı yapmasını kolaylaştırın
+- [Tencent/secguide](https://github.com/Tencent/secguide) - Geliştiriciler için hazırlanmış kod güvenliği rehberi
+- [ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey) - Harika AutoHotkey kütüphaneleri, dağıtımları, betikleri, araçları ve kaynakları listesi.
 - [Hack-with-Github/Windows](https://github.com/Hack-with-Github/Windows) - Windows'u istismar etmek için harika araçlar!
-- [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) - 👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻Çinli bağımsız geliştiriciler proje listesi -- Herkesin neler yaptığını paylaşın
-- [actionsflow/awesome-actionsflow](https://github.com/actionsflow/awesome-actionsflow) - Actionsflow için harika iş akışı kullanım durumları listesi
-- [AZeC4/TelegramGroup](https://github.com/AZeC4/TelegramGroup) - 2025'in en yeni gizli toplanmış 10000+ Telegram grup koleksiyonu, tüm ağdaki en eğlenceli ve kullanışlı botlar BOT🤖【dianbaodaohang.com】ile birlikte
-- [sdras/awesome-actions](https://github.com/sdras/awesome-actions) - GitHub'da kullanılacak harika Actions'ların özenle seçilmiş listesi
+- [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) - 👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻 Çin bağımsız geliştiriciler proje listesi -- Herkes ne yapıyor paylaşın
+- [actionsflow/awesome-actionsflow](https://github.com/actionsflow/awesome-actionsflow) - Bu, Actionsflow için harika iş akışı kullanım durumlarının bir listesidir
+- [AZeC4/TelegramGroup](https://github.com/AZeC4/TelegramGroup) - 2025'in en yeni gizlice toplanan 10.000+ Telegram grup koleksiyonu, ayrıca en ilginç ve kullanışlı botlar🤖【dianbaodaohang.com】
+- [sdras/awesome-actions](https://github.com/sdras/awesome-actions) - GitHub'da kullanabileceğiniz harika action'lar için seçilmiş bir liste
 - [cobaltdisco/Google-Chinese-Results-Blocklist](https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist) - Sonunda Google'da Çince arama yapabiliyorum...
-- [ffffffff0x/Digital-Privacy](https://github.com/ffffffff0x/Digital-Privacy) - Bilgi Koruma & OSINT kaynakları | Dijital gizlilik toplama, koruma, temizleme ve OSINT karşı önlemlerle ilgili bir çözüm, ayrıca açık kaynak bilgi toplama(OSINT) karşıtı
-- [OverTheWallNode/SSV2RayTrojanSSRClash](https://github.com/OverTheWallNode/SSV2RayTrojanSSRClash) - Bilimsel internet, ss, ssr, v2ray, trojan, clash, clashr, VPN sağlayıcı önerileri
-- [formulahendry/955.WLB](https://github.com/formulahendry/955.WLB) - 955 Fazla mesai yapmayan şirketler listesi - 955 çalışma, iş-yaşam dengesi (iş ve yaşam dengesi)
-- [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) - Git ve GitHub'un harika özellikleri listesi.
-- [github/roadmap](https://github.com/github/roadmap) - GitHub halka açık yol haritası
-- [ivmm/Student-resources](https://github.com/ivmm/Student-resources) - Bu yazıda öğrenci veya öğretim üyesi kimliği ile elde edilebilen öğrenci/öğretmen indirimleri ve hakları tanıtılmaktadır, fakat haklardan yararlanırken yükümlülüklerinizi unutmayın, haklarınızı satmayın veya devretmeyin, diğer öğrencilerin faydalanmasını engellemeyin.
-- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Kendi sunucunuzda barındırabileceğiniz ücretsiz yazılım ağ hizmetleri ve web uygulamaları listesi
-- [Cat-China/CatBrowser](https://github.com/Cat-China/CatBrowser) - Kedi Tarayıcısı - Tamamen bağımsız geliştirildi, yabancıların (ABD'nin) tarayıcı pazarındaki tekelini kırıyor, Chrome'dan %600 daha hızlı.
-- [monyhar/monyhar](https://github.com/monyhar/monyhar) - Menghong Tarayıcısı - Tamamen bağımsız geliştirildi, yabancı tekelini kırıyor, Chrome'dan %600 daha hızlı.
-- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - 😎 Her türlü ilginç konuda harika listeler
-- [ruanyf/weekly](https://github.com/ruanyf/weekly) - Teknoloji meraklıları haftalık dergisi, her Cuma yayınlanır
-- [github/gov-takedowns](https://github.com/github/gov-takedowns) - Alınan hükümet kaldırma bildirimlerinin metni. GitHub, aşağıdaki bildirimlerde yer alan hiçbir iddiayı onaylamaz veya kabul etmez.
-- [ShareX/CustomUploaders](https://github.com/ShareX/CustomUploaders) - ShareX özel yükleyiciler
+- [ffffffff0x/Digital-Privacy](https://github.com/ffffffff0x/Digital-Privacy) - Bilgi Koruma & OSINT kaynakları | Dijital gizlilik toplama, koruma ve temizleme ile ilgili entegre çözüm, ayrıca açık kaynak bilgi toplama (OSINT) karşı önlemleri
+- [OverTheWallNode/SSV2RayTrojanSSRClash](https://github.com/OverTheWallNode/SSV2RayTrojanSSRClash) - Bilimsel internet erişimi, ss, ssr, v2ray, trojan, clash, clashr, VPN servis önerileri
+- [formulahendry/955.WLB](https://github.com/formulahendry/955.WLB) - 955 Fazla mesai olmayan şirket listesi - 955 çalışmak, iş ve yaşam dengesi
+- [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) - Git ve GitHub'ın harika özelliklerinin listesi.
+- [github/roadmap](https://github.com/github/roadmap) - GitHub'ın genel yol haritası
+- [ivmm/Student-resources](https://github.com/ivmm/Student-resources) - Bu makalede öğrenci ve personel kimliğiyle elde edilebilecek öğrenci ve eğitim indirimleri tanıtılmaktadır, ancak haklardan yararlanırken yükümlülüklerinizi unutmayın, indirim haklarınızı satmayın veya devretmeyin.
+- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Kendi sunucunuzda barındırabileceğiniz, ücretsiz yazılım ağ hizmetleri ve web uygulamaları listesi
+- [Cat-China/CatBrowser](https://github.com/Cat-China/CatBrowser) - CatBrowser - Tamamen yerli geliştirme, yurtdışının (ABD'nin) tarayıcı pazarındaki tekelini kırıyor, Chrome'dan %600 daha hızlı.
+- [monyhar/monyhar](https://github.com/monyhar/monyhar) - Monyhar Tarayıcısı - Tamamen yerli geliştirme, yabancı tekelini kırıyor, Chrome'dan %600 daha hızlı.
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - 😎 Her türlü ilginç konu hakkında harika listeler
+- [ruanyf/weekly](https://github.com/ruanyf/weekly) - Teknoloji meraklıları için haftalık dergi, her Cuma yayımlanır
+- [github/gov-takedowns](https://github.com/github/gov-takedowns) - Alınan devlet kaldırma bildirimlerinin metni. GitHub aşağıdaki bildirimlerde yer alan hiçbir iddiayı onaylamaz veya benimsemez.
+- [ShareX/CustomUploaders](https://github.com/ShareX/CustomUploaders) - ShareX özel yükleyicileri
 - [glados-network/GLaDOS](https://github.com/glados-network/GLaDOS) - GLaDOS'un durumu
 ## PHP 
 
@@ -1841,341 +1844,342 @@
 - [gee1k/uPic](https://github.com/gee1k/uPic) - 📤uPic, macOS için yerel, güçlü, güzel ve basit bir resim ve dosya yükleme aracıdır.
 ## TeX 
 
-- [billryan/resume](https://github.com/billryan/resume) - Zarif bir \LaTeX\ özgeçmiş şablonu. Anakara aynası https://gods.coding.net/p/resume/git
+- [billryan/resume](https://github.com/billryan/resume) - Zarif bir \LaTeX\ özgeçmiş şablonu. Çin ana karası aynası https://gods.coding.net/p/resume/git
 - [LittleNewton/Replace_MathType](https://github.com/LittleNewton/Replace_MathType) - Microsoft Office 365 tabanlı bir matematiksel formül alternatifi sağlar
 - [lib-pku/libpku](https://github.com/lib-pku/libpku) - Okulunuzun ders materyallerinin gayriresmi derlemesi
 - [liblaf/ilatex](https://github.com/liblaf/ilatex) - 📚 Güzel, yapılandırılmış belgeler oluşturmak için LaTeX şablonları ve araçları 📝
-- [Didnelpsun/Math](https://github.com/Didnelpsun/Math) - Lisansüstü sınav matematiği, Matematik I, yüksek matematik, lineer cebir, olasılık ve istatistik dahil
+- [Didnelpsun/Math](https://github.com/Didnelpsun/Math) - Yüksek lisans matematiği, Matematik I, yüksek matematik, lineer cebir, olasılık ve istatistik dahil
 - [zhengkd95/thu_poster_template](https://github.com/zhengkd95/thu_poster_template) - Tsinghua Üniversitesi logosu ile akademik posterler için bir LaTeX şablonu
 - [VicaYang/THU-Exam-LaTeX-Template](https://github.com/VicaYang/THU-Exam-LaTeX-Template) - THU Sınavları için bir LaTeX Şablonu
-- [alick/thulib-latex-talk](https://github.com/alick/thulib-latex-talk) - "LaTeX ile Nasıl Makale Dizgilenir" sunum notları. Sonraki güncellemeler: https://github.com/tuna/thulib-latex-talk
-- [tuna/thulib-latex-talk](https://github.com/tuna/thulib-latex-talk) - "LaTeX ile Nasıl Makale Dizgilenir" sunum notları
-- [zhaofeng-shu33/THU-coursework-template](https://github.com/zhaofeng-shu33/THU-coursework-template) - THU ödev şablonu, hedef kullanıcı: Matematik, Fizik, Elektronik Mühendisliği, Mekanik ve Bilgisayar Bilimi
-- [zinccat/PKU-beamer-theme](https://github.com/zinccat/PKU-beamer-theme) - Bir Tsinghua şablonundan modifiye edilmiş beamer teması x
+- [alick/thulib-latex-talk](https://github.com/alick/thulib-latex-talk) - "LaTeX ile Nasıl Makale Dizgilenir" sunumu. Sonraki güncellemeler: https://github.com/tuna/thulib-latex-talk
+- [tuna/thulib-latex-talk](https://github.com/tuna/thulib-latex-talk) - "LaTeX ile Nasıl Makale Dizgilenir" sunumu
+- [zhaofeng-shu33/THU-coursework-template](https://github.com/zhaofeng-shu33/THU-coursework-template) - THU ders ödevi şablonu, hedef kullanıcı: Matematik, Fizik, Elektronik Mühendisliği, Mekanik ve Bilgisayar Bilimleri
+- [zinccat/PKU-beamer-theme](https://github.com/zinccat/PKU-beamer-theme) - Bazı Tsinghua şablonundan modifiye edilmiş beamer teması x
 - [ZenithalHourlyRate/learn-git-the-not-so-super-hard-way](https://github.com/ZenithalHourlyRate/learn-git-the-not-so-super-hard-way) - 
 - [K-Wu/CV-tsinghua-template](https://github.com/K-Wu/CV-tsinghua-template) - All hail, Thy Highest University (THU)
-- [soulmachine/leetcode](https://github.com/soulmachine/leetcode) - LeetCode soru çözümleri, 151 soruluk tam sürüm.
+- [soulmachine/leetcode](https://github.com/soulmachine/leetcode) - LeetCode çözümleri, 151 sorunun tam sürümü.
 - [tuna/thuthesis](https://github.com/tuna/thuthesis) - Tsinghua Üniversitesi için LaTeX Tez Şablonu
 
 ## TypeScript 
 
-- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) - Gemini gücünü doğrudan terminalinize getiren açık kaynaklı bir AI aracı.
+- [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat) - 🤯 Lobe Chat - açık kaynaklı, modern tasarımlı bir AI sohbet çerçevesi. Birden çok AI sağlayıcısını destekler (OpenAI / Claude 4 / Gemini / DeepSeek / Ollama / Qwen), Bilgi Tabanı (dosya yükleme / RAG), tek tıkla giriş
+- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) - Gemini'nin gücünü doğrudan terminalinize getiren açık kaynaklı bir AI aracı.
 - [JuanJLH/vscode-warp-terminal](https://github.com/JuanJLH/vscode-warp-terminal) - 
-- [lobehub/lobe-icons](https://github.com/lobehub/lobe-icons) - 🥨 Lobe Icons - Popüler AI / LLM Model Markası SVG Logo ve Simge Koleksiyonu.
+- [lobehub/lobe-icons](https://github.com/lobehub/lobe-icons) - 🥨 Lobe Icons - Popüler AI / LLM Modeli Marka SVG Logo ve Simge Koleksiyonu.
 - [nimbusdotstorage/Nimbus](https://github.com/nimbusdotstorage/Nimbus) - Google Drive, One Drive, iCloud, vb. için açık kaynaklı bir alternatif.
-- [BingyanStudio/github-analyzer](https://github.com/BingyanStudio/github-analyzer) - GitHub'da ne yazdığınıza dair keskin yorumlar
+- [BingyanStudio/github-analyzer](https://github.com/BingyanStudio/github-analyzer) - GitHub'da neler yazdığınıza dair keskin yorumlar
 - [voideditor/void](https://github.com/voideditor/void) - 
-- [HiveNexus/A2A-Chat](https://github.com/HiveNexus/A2A-Chat) - Agent 2 Agent protokolüne dayalı bir sohbet botu, dış Ajanlara diyalog yoluyla görev atayabilir ve sonuçları alabilir.   Agent 2 Agent protokolüne dayalı bir sohbet uygulaması, diyalog yoluyla dış Agent'lara görev atayabilir ve sonuçları alabilir
-- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) - Model Context Protocol Sunucuları
-- [iszhouhua/social-media-copilot](https://github.com/iszhouhua/social-media-copilot) - Sosyal medya asistanı açık kaynak sürümü - Xiaohongshu, Douyin, Kuaishou ve diğer platformlar için veri toplama tarayıcı eklentisi, API üzerinden çağrılabilir, Docker dağıtımını destekler.
-- [Hugo-COLLIN/SaveMyPhind-conversation-exporter](https://github.com/Hugo-COLLIN/SaveMyPhind-conversation-exporter) - 🚀 Chatbotumu Kaydet: Claude, Perplexity, Phind, ChatGPT ve MaxAI-Google sohbetlerinizi ve sayfalarınızı markdown dosyalarına indirin (resmi olmayan). ⏩ Şimdi Chrome Web Mağazası ve Firefox Eklentilerinde mevcut
-- [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) - Kod altyapısı için Claude Code'u temel alın, modelle nasıl etkileşime geçeceğinize karar verin ve Anthropic güncellemelerinin keyfini çıkarın.
-- [aigem/CFr2-webdav](https://github.com/aigem/CFr2-webdav) - Cloudflare Workers ve R2 kullanarak WebDAV ile uyumlu bir sunucu gerçekleştirilmiştir
-- [TBXark/ChatGPT-Telegram-Workers](https://github.com/TBXark/ChatGPT-Telegram-Workers) - Telegram ChatGPT botunuzu Cloudflare Workers (veya Vercel, Docker...) üzerinde kolayca dağıtın.
+- [HiveNexus/A2A-Chat](https://github.com/HiveNexus/A2A-Chat) - Agent 2 Agent protokolüne dayalı bir sohbet botu, harici Ajanslara diyalog yoluyla görev atayabilir ve sonuçları alabilir.   Agent 2 Agent protokolüne dayalı bir sohbet uygulaması, diyalog yoluyla harici Ajanslara görev atayabilir ve sonuç alabilir
+- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) - Model Context Protokolü Sunucuları
+- [iszhouhua/social-media-copilot](https://github.com/iszhouhua/social-media-copilot) - Sosyal medya asistanı açık kaynak sürümü - Xiaohongshu, Douyin, Kuaishou ve diğer platformlardan veri toplamak için tarayıcı eklentisi, API çağrısı ile kullanılabilir, Docker kurulumu destekler.
+- [Hugo-COLLIN/SaveMyPhind-conversation-exporter](https://github.com/Hugo-COLLIN/SaveMyPhind-conversation-exporter) - 🚀 Save my Chatbot: Claude, Perplexity, Phind, ChatGPT ve MaxAI-Google sohbet ve sayfalarını markdown dosyalarına indir (resmi olmayan). ⏩ Şimdi Chrome Web Mağazası ve Firefox Eklenti Mağazasında mevcut
+- [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) - Kod altyapısı için temel olarak Claude Code'u kullanın, modelle nasıl etkileşime geçeceğinize siz karar verin, ayrıca Anthropic güncellemelerinin keyfini çıkarın.
+- [aigem/CFr2-webdav](https://github.com/aigem/CFr2-webdav) - Cloudflare Workers ve R2 ile WebDAV uyumlu bir sunucu gerçekleştirilmiştir
+- [TBXark/ChatGPT-Telegram-Workers](https://github.com/TBXark/ChatGPT-Telegram-Workers) - Telegram ChatGPT botunuzu kolayca Cloudflare Workers (veya Vercel, Docker...) üzerinde kurun.
 - [kyswtn/vscode-vercel](https://github.com/kyswtn/vscode-vercel) - Kod yazarken Vercel dağıtımlarınızı takip edin
-- [Femoon/tts-azure-web](https://github.com/Femoon/tts-azure-web) - TTS Azure Web, Azure metinden konuşmaya (TTS) web uygulamasıdır. Azure Anahtarınızla yerel veya bulutta tek tıkla dağıtım sağlar. TTS Azure Web is an Azure Text-to-Speech (TTS) web application. It allows you to run it locally or deploy it with a single click usi
-- [daytonaio/daytona](https://github.com/daytonaio/daytona) - Daytona, AI tarafından oluşturulan kodu çalıştırmak için Güvenli ve Elastik Altyapıdır
+- [Femoon/tts-azure-web](https://github.com/Femoon/tts-azure-web) - TTS Azure Web, Azure Metinden Konuşmaya (TTS) web uygulamasıdır, Azure Anahtarınızı kullanarak yerel veya bulutta tek tıkla dağıtım yapabilirsiniz.
+- [daytonaio/daytona](https://github.com/daytonaio/daytona) - Daytona, AI tarafından oluşturulan kodu çalıştırmak için Güvenli ve Esnek Altyapı
 - [bepass-org/oblivion-desktop](https://github.com/bepass-org/oblivion-desktop) - Oblivion Desktop - Windows/Mac/Linux için resmi olmayan Warp İstemcisi
-- [besscroft/PicImpact](https://github.com/besscroft/PicImpact) - Kendi kendine barındırılan fotoğrafçılık sitesi, çoklu işlev özelliklerini destekler. PicImpact, kendini ve dünyayı paylaş!
-- [lyc8503/UptimeFlare](https://github.com/lyc8503/UptimeFlare) - ✔ Cloudflare Workers üzerinde ücretsiz ve sunucusuz uptime izleme / durum sayfası, coğrafi kontrollerle
-- [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - Vercel, Netlify ve Heroku'ya Açık Kaynak Alternatif.
+- [besscroft/PicImpact](https://github.com/besscroft/PicImpact) - Kendi kendine barındırılan fotoğraf sitesi, çoklu özellikler desteklenir. PicImpact, sen ve dünyayla paylaş!
+- [lyc8503/UptimeFlare](https://github.com/lyc8503/UptimeFlare) - ✔ Cloudflare Workers üzerinde ücretsiz ve sunucusuz uptime izleme / durum sayfası, coğrafi kontroller ile
+- [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - Vercel, Netlify ve Heroku için Açık Kaynak Alternatif.
 - [maotoumao/MusicFree](https://github.com/maotoumao/MusicFree) - Eklenti tabanlı, özelleştirilebilir, reklamsız ücretsiz müzik çalar
 - [maotoumao/MusicFreeDesktop](https://github.com/maotoumao/MusicFreeDesktop) - Eklenti tabanlı, özelleştirilebilir, reklamsız ücretsiz müzik çalar
 - [misskey-dev/misskey](https://github.com/misskey-dev/misskey) - 🌎 Tamamen ücretsiz ve açık kaynaklı gezegenler arası mikroblog platformu 🚀
-- [yllhwa/FileWorker](https://github.com/yllhwa/FileWorker) - Edge fonksiyonlarında çalışan çevrimiçi pano/dosya paylaşım aracı
+- [yllhwa/FileWorker](https://github.com/yllhwa/FileWorker) - Kenar fonksiyonlarında çalışan çevrimiçi pano/dosya paylaşımı
 - [web-infra-dev/rspress](https://github.com/web-infra-dev/rspress) - 🦀 Hızlı Rsbuild tabanlı statik site üreticisi.
 - [beilunyang/img-mom](https://github.com/beilunyang/img-mom) - Telegram botu（img-mon | Görsel Anne）
-- [liaoliao666/v2ex](https://github.com/liaoliao666/v2ex) - V2EX için şık üçüncü parti istemci, yerel uygulama, gece modunu destekler.
-- [chaselen/v2ex-playground](https://github.com/chaselen/v2ex-playground) - VSCode üzerinde V2EX sitesinde gezinme eklentisi
+- [liaoliao666/v2ex](https://github.com/liaoliao666/v2ex) - V2EX için şık üçüncü parti istemci, yerel uygulama, gece modu desteği.
+- [chaselen/v2ex-playground](https://github.com/chaselen/v2ex-playground) - VSCode'da V2EX sitesini gezmek için eklenti
 - [hyoban/kirika](https://github.com/hyoban/kirika) - Notlarınızı farklı platformlar arasında dönüştürmek için basit bir araç
-- [edrlab/thorium-reader](https://github.com/edrlab/thorium-reader) - Readium Desktop araç setine dayalı, çoklu platform masaüstü okuma uygulaması
+- [edrlab/thorium-reader](https://github.com/edrlab/thorium-reader) - Readium Desktop aracı tabanlı çok platformlu masaüstü okuma uygulaması
 - [Kuingsmile/PicList](https://github.com/Kuingsmile/PicList) - PicGo tabanlı bir görsel yükleme ve yönetim aracı
 - [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) - Tauri tabanlı modern bir GUI istemcisi, Windows, macOS ve Linux'ta özelleştirilmiş proxy deneyimi için tasarlandı
 - [githubnext/monaspace](https://github.com/githubnext/monaspace) - Kod için yenilikçi bir süper yazı tipi ailesi
-- [dicarne/feishu-backup](https://github.com/dicarne/feishu-backup) - Feishu belgelerini yedeklemek için kullanılır, Feishu belgelerini markdown olarak indirebilir.
-- [LetTTGACO/elog](https://github.com/LetTTGACO/elog) - Markdown toplu dışa aktarma aracı, açık platformlu çapraz platform blog çözümü, yazı platformları (Yuque/Notion/FlowUs/Feishu/Wolai) ve blog platformları (Hexo/Vitepress/Halo/Confluence/WordPress vb.) ile serbestçe birleştirilebilir
+- [dicarne/feishu-backup](https://github.com/dicarne/feishu-backup) - Feishu belgelerini yedeklemek için, Feishu belgelerini markdown olarak indirebilir.
+- [LetTTGACO/elog](https://github.com/LetTTGACO/elog) - Toplu Markdown dışa aktarma aracı, açık platformlu blog çözümü, yazı platformları (Yuque/Notion/FlowUs/Feishu/Wolai) ve blog platformları (Hexo/Vitepress/Halo/Confluence/WordPress vb.) ile serbestçe kombinlenebilir
 - [memgraph/odin](https://github.com/memgraph/odin) - 
-- [Harry-Chen/thu-learn-lib](https://github.com/Harry-Chen/thu-learn-lib) - Tsinghua Üniversitesi Web Learning için program dostu bir arayüz sağlayan bir JavaScript kitaplığı
-- [qxchuckle/vsc-cec-ide](https://github.com/qxchuckle/vsc-cec-ide) - Pek işe yaramayan bir VSC eklentisi
-- [chatchat-space/Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat) - Langchain ve ChatGLM, Qwen ve Llama gibi dil modellerine dayalı RAG ve Agent uygulaması | Langchain-Chatchat (eski adıyla langchain-ChatGLM), yerel bilgi tabanlı LLM (ChatGLM, Qwen ve Llama gibi)
-- [CopyTranslator/CopyTranslator](https://github.com/CopyTranslator/CopyTranslator) - 🔠 Kopyala ve çevir tabanlı yabancı dil okuma ve çeviri asistanı.
-- [longern/FlareDrive](https://github.com/longern/FlareDrive) - CloudFlare R2 kullanan ücretsiz dosya barındırma servisi (WebUI & WebDAV)
-- [ChatAnyTeam/ChatAny](https://github.com/ChatAnyTeam/ChatAny) - 🌻 Kendi ChatGPT+çok sayıda AI web servisine tek tıkla sahip olun | One click access to your own ChatGPT+Many AI web services
+- [Harry-Chen/thu-learn-lib](https://github.com/Harry-Chen/thu-learn-lib) - Tsinghua Üniversitesi Web Learning'e program dostu bir arayüz sağlayan bir JavaScript kütüphanesi
+- [qxchuckle/vsc-cec-ide](https://github.com/qxchuckle/vsc-cec-ide) - Pek bir işe yaramayan bir VSC eklentisi
+- [chatchat-space/Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat) - Langchain-Chatchat (eski adıyla Langchain-ChatGLM), Langchain ve ChatGLM, Qwen, Llama gibi dil modelleriyle RAG ve Agent uygulamaları | Langchain-Chatchat, yerel bilgi tabanlı LLM (ChatGLM, Qwen ve Ll gibi)
+- [CopyTranslator/CopyTranslator](https://github.com/CopyTranslator/CopyTranslator) - 🔠Kopyala ve çevir temelli yabancı dil okuma ve çeviri asistanı.
+- [longern/FlareDrive](https://github.com/longern/FlareDrive) - CloudFlare R2 kullanarak ücretsiz dosya barındırma hizmeti (WebUI & WebDAV)
+- [ChatAnyTeam/ChatAny](https://github.com/ChatAnyTeam/ChatAny) - 🌻 Tek tıkla kendi ChatGPT+çoklu AI web servislerinize sahip olun | One click access to your own ChatGPT+Many AI web services
 - [MuiseDestiny/zotero-gpt](https://github.com/MuiseDestiny/zotero-gpt) - GPT Zotero ile buluşuyor.
 - [langgenius/webapp-conversation](https://github.com/langgenius/webapp-conversation) - 
-- [langgenius/dify](https://github.com/langgenius/dify) - Ajan tabanlı iş akışı geliştirme için üretime hazır platform.
-- [ObservedObserver/viz-gpt](https://github.com/ObservedObserver/viz-gpt) - Tablo veri setlerinden sohbet arayüzü ile bağlamsal veri görselleştirme. AI veri görselleştirme.
+- [langgenius/dify](https://github.com/langgenius/dify) - Aracılı iş akışı geliştirme için üretime hazır platform.
+- [ObservedObserver/viz-gpt](https://github.com/ObservedObserver/viz-gpt) - Tablo verilerinden Chat Arayüzü ile bağlamsal veri görselleştirme. AI veri görselleştirme.
 - [tldraw/tldraw](https://github.com/tldraw/tldraw) - çok iyi beyaz tahta SDK'sı / sonsuz tuval SDK'sı
-- [okisdev/ChatChat](https://github.com/okisdev/ChatChat) - Chat Chat, kendi birleşik sohbet ve AI arama platformunuz, basit ve kolay arayüz ile.
-- [79E/ChatGpt-Web](https://github.com/79E/ChatGpt-Web) - React ile oluşturulmuş, ticarileştirilebilen bir ChatGpt Web uygulaması. 使用React搭建的一款可商业化的ChatGpt Web应用。
-- [erictik/midjourney-ui](https://github.com/erictik/midjourney-ui) - Midjourney UI, Midjourney tabanlı açık kaynaklı bir AI resim arayüzüdür
-- [Nutlope/restorePhotos](https://github.com/Nutlope/restorePhotos) - Eski ve bulanık yüz fotoğraflarını AI ile onarın.
-- [Nutlope/aicommits](https://github.com/Nutlope/aicommits) - AI ile git commit mesajlarınızı sizin için yazan bir CLI
-- [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT) - 🤖 Tarayıcınızda özerk AI Ajanları derleyin, yapılandırın ve dağıtın.
-- [RafalWilinski/telegram-chatgpt-concierge-bot](https://github.com/RafalWilinski/telegram-chatgpt-concierge-bot) - Telegram ve Ses üzerinden OpenAI'nın ChatGPT'si ile etkileşim.
-- [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) - AI Ajanları oluşturun, görsel olarak
-- [LokerL/tts-vue](https://github.com/LokerL/tts-vue) - 🎤 Microsoft ses sentez aracı, Electron + Vue + ElementPlus + Vite ile oluşturuldu.
+- [okisdev/ChatChat](https://github.com/okisdev/ChatChat) - Chat Chat, birleşik sohbet ve AI arama platformunuz, basit ve kolay arayüz.
+- [79E/ChatGpt-Web](https://github.com/79E/ChatGpt-Web) - React ile kurulan ticarileştirilebilir bir ChatGpt Web uygulaması.
+- [erictik/midjourney-ui](https://github.com/erictik/midjourney-ui) - Midjourney UI, Midjourney tabanlı açık kaynaklı bir AI resim oluşturma arayüzüdür
+- [Nutlope/restorePhotos](https://github.com/Nutlope/restorePhotos) - Eski ve bulanık yüz fotoğraflarını AI ile yenileme.
+- [Nutlope/aicommits](https://github.com/Nutlope/aicommits) - AI ile git commit mesajlarını sizin için yazan bir CLI
+- [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT) - 🤖 Tarayıcınızda özerk AI Ajanları toplayın, yapılandırın ve dağıtın.
+- [RafalWilinski/telegram-chatgpt-concierge-bot](https://github.com/RafalWilinski/telegram-chatgpt-concierge-bot) - OpenAI'nin ChatGPT'si ile Telegram ve Ses aracılığıyla etkileşim kurun.
+- [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) - AI Ajanları oluşturun, görsel olarak.
+- [LokerL/tts-vue](https://github.com/LokerL/tts-vue) - 🎤 Microsoft metinden konuşma aracı, Electron + Vue + ElementPlus + Vite ile inşa edildi.
 - [nat/openplayground](https://github.com/nat/openplayground) - Dizüstü bilgisayarınızda çalıştırabileceğiniz bir LLM oyun alanı
-- [labring/sealos](https://github.com/labring/sealos) - Sealos, dağıtımı kolay ve verimli hale getiren, üretime hazır bir Kubernetes dağıtımıdır. Herhangi bir programlama dili veya çerçevesi için anında geliştirme ortamları kurun, yüksek kullanılabilirlikte dağıtım yapın
-- [coolpace/V2EX_Polish](https://github.com/coolpace/V2EX_Polish) - Profesyonel V2EX tarayıcı uzantısı, birçok pratik işlevi bir araya getirir, tarama deneyiminizi yeniden şekillendirir!
-- [ztjhz/BetterChatGPT](https://github.com/ztjhz/BetterChatGPT) - OpenAI'nin ChatGPT'si için harika bir arayüz (Web sitesi + Windows + MacOS + Linux)
-- [3Alan/DocsMind](https://github.com/3Alan/DocsMind) - 🤖 DocsMind, belgelerinizle sohbet etmenizi ve özetlemenizi sağlar, pdf, md destekler.
-- [riwigefi/light-gpt](https://github.com/riwigefi/light-gpt) - Light-GPT, GPT-3.5-Turbo Modeline dayalı etkileşimli bir web sitesi projesidir.
+- [labring/sealos](https://github.com/labring/sealos) - Sealos, AI tabanlı bir süper uygulama platformudur, Uygulama merkezli Akıllı Bulut İşletim Sistemi. Herhangi bir programlama dili veya çerçevesi için geliştirme ortamları kurun, yüksek kullanılabilirlikte konuşlandırın
+- [coolpace/V2EX_Polish](https://github.com/coolpace/V2EX_Polish) - Profesyonel V2EX tarayıcı eklentisi, birçok pratik özelliği birleştirir, gezinme deneyimini baştan yaratır!
+- [ztjhz/BetterChatGPT](https://github.com/ztjhz/BetterChatGPT) - OpenAI'nin ChatGPT'si için harika bir kullanıcı arayüzü (Web sitesi + Windows + MacOS + Linux)
+- [3Alan/DocsMind](https://github.com/3Alan/DocsMind) - 🤖 DocsMind, dökümanlarınızla sohbet etmenizi ve özetlemenizi sağlar, pdf, md destekler.
+- [riwigefi/light-gpt](https://github.com/riwigefi/light-gpt) - Light-GPT, GPT-3.5-Turbo Model tabanlı etkileşimli bir web sitesi projesidir.
 - [nextauthjs/next-auth](https://github.com/nextauthjs/next-auth) - Web için kimlik doğrulama.
 - [zengsanxiang/brain-reply](https://github.com/zengsanxiang/brain-reply) - Daha zarif bir ChatGPT istemcisi
-- [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) - ✨ Hafif ve Hızlı AI Asistanı. Destekler: Web | iOS | MacOS | Android |  Linux | Windows
-- [hahahumble/speechgpt](https://github.com/hahahumble/speechgpt) - 💬 SpeechGPT, ChatGPT ile konuşmanızı sağlayan bir web uygulamasıdır.
-- [rerender2021/heard](https://github.com/rerender2021/heard) - Whisper & avernakis react ile çalışan basit altyazı oluşturucu.
-- [mckaywrigley/chatbot-ui](https://github.com/mckaywrigley/chatbot-ui) - Her model için AI sohbet
-- [GPTGenius/chatgpt-vercel](https://github.com/GPTGenius/chatgpt-vercel) - Vercel ile özel chatgpt web sitesi oluşturun
+- [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) - ✨ Hafif ve Hızlı AI Asistanı. Destek: Web | iOS | MacOS | Android |  Linux | Windows
+- [hahahumble/speechgpt](https://github.com/hahahumble/speechgpt) - 💬 SpeechGPT, ChatGPT ile sohbet etmenizi sağlayan bir web uygulamasıdır.
+- [rerender2021/heard](https://github.com/rerender2021/heard) - whisper & avernakis react tabanlı basit bir altyazı oluşturucu.
+- [mckaywrigley/chatbot-ui](https://github.com/mckaywrigley/chatbot-ui) - Her model için AI sohbeti.
+- [GPTGenius/chatgpt-vercel](https://github.com/GPTGenius/chatgpt-vercel) - Vercel üzerinden özel bir chatgpt web sitesi oluşturun
 - [hyoban/burogu](https://github.com/hyoban/burogu) - Next.js 13 tabanlı minimal blog şablonu
 - [futantan/OpenGpt](https://github.com/futantan/OpenGpt) - Kendi ChatGPT Uygulamanızı saniyeler içinde oluşturun.
 - [botpress/botpress](https://github.com/botpress/botpress) - GPT/LLM Ajanları oluşturmak ve dağıtmak için açık kaynaklı merkez ⚡️
 - [noobnooc/ohmygpt](https://github.com/noobnooc/ohmygpt) - ChatGPT tabanlı web uygulamanızı dakikalar içinde dağıtın.
-- [aircloud/sync-to-github](https://github.com/aircloud/sync-to-github) - Web içeriğinizi bir github deposuna senkronize edin, ör: ChatGPT ile yapılan bir konuşma.
-- [fraserxu/book-gpt](https://github.com/fraserxu/book-gpt) - Bir kitap bırakın, soru sormaya başlayın.
+- [aircloud/sync-to-github](https://github.com/aircloud/sync-to-github) - Web içeriğinizi bir github deposuna senkronize edin, ör: ChatGPT ile yapılan bir sohbet.
+- [fraserxu/book-gpt](https://github.com/fraserxu/book-gpt) - Bir kitap yükleyin, sorularınızı sormaya başlayın.
 - [ObservedObserver/chatgpt-i18n](https://github.com/ObservedObserver/chatgpt-i18n) - Web sitelerinizi AI yardımıyla yerelleştirin.
-- [ourongxing/chatgpt-vercel](https://github.com/ourongxing/chatgpt-vercel) - Zarif ve Güçlü. OpenAI ve Vercel tarafından desteklenmektedir.
-- [lcomplete/huntly](https://github.com/lcomplete/huntly) - Huntly, bilgi yönetim aracı, rss okuyucu, okunan içerikleri otomatik kaydetme, tweet, github stars yönetimi aracı. Bilgi yönetim aracı, RSS okuyucu, GitHub stars yönetimi, tweet yönetimi, okunan makaleleri otomatik kaydeder.
-- [openai-translator/openai-translator](https://github.com/openai-translator/openai-translator) - ChatGPT API tabanlı seçili metin çeviri tarayıcı eklentisi ve çapraz platform masaüstü uygulaması    -    Browser extension and cross-platform desktop application for translation based on ChatGPT API.
-- [sparticleinc/chatgpt-google-summary-extension](https://github.com/sparticleinc/chatgpt-google-summary-extension) - Chrome eklentisi, Google arama sonuçları ve YouTube videoları yanında ChatGPT özetlerini görüntüler, ayrıca Yahoo! ニュース、PubMed、PMC、NewsPicks、Github、Nikkei、 Bing、Google Patents ve herhangi bir sayfa özetini destekler.
+- [ourongxing/chatgpt-vercel](https://github.com/ourongxing/chatgpt-vercel) - Zarif ve Güçlü. OpenAI ve Vercel ile güçlendirilmiştir.
+- [lcomplete/huntly](https://github.com/lcomplete/huntly) - Huntly, bilgi yönetimi aracı, rss okuyucu, taranan içerikleri otomatik kaydetme, tweet, github yıldız yönetimi aracı. Bilgi yönetimi aracı, RSS Okuyucu, GitHub yıldız yönetimi, tweet yönetimi, ziyaret edilen makaleleri otomatik kaydetme.
+- [openai-translator/openai-translator](https://github.com/openai-translator/openai-translator) - ChatGPT API tabanlı seçili metin çeviri tarayıcı eklentisi ve çoklu platform masaüstü uygulaması    -    ChatGPT API tabanlı tarayıcı eklentisi ve çoklu platform masaüstü uygulaması.
+- [sparticleinc/chatgpt-google-summary-extension](https://github.com/sparticleinc/chatgpt-google-summary-extension) - ChatGPT özetlerini Google arama sonuçları ve YouTube videoları yanında görmek için Chrome eklentisi, ayrıca Yahoo! ニュース、PubMed、PMC、NewsPicks、Github、Nikkei、 Bing、Google Patents ve herhangi bir sayfa özetini destekler.
 - [anse-app/chatgpt-demo](https://github.com/anse-app/chatgpt-demo) - ChatGPT için minimal web arayüzü.
-- [microsoft/vscode-webview-ui-toolkit](https://github.com/microsoft/vscode-webview-ui-toolkit) - Visual Studio Code'da webview tabanlı uzantılar oluşturmak için bileşen kütüphanesi.
-- [ycjcl868/readme-gpt](https://github.com/ycjcl868/readme-gpt) - Github Readme'nizi OpenAI ve Vercel Edge Functions ile oluşturun.
-- [cloudflare/wildebeest](https://github.com/cloudflare/wildebeest) - Wildebeest, ActivityPub ve Mastodon ile uyumlu bir sunucudur
-- [transitive-bullshit/bing-chat](https://github.com/transitive-bullshit/bing-chat) - Bing'in yeni AI destekli araması için Node.js istemcisi. ChatGPT'nin süper güçlendirilmiş hali 🔥
+- [microsoft/vscode-webview-ui-toolkit](https://github.com/microsoft/vscode-webview-ui-toolkit) - Visual Studio Code'da webview tabanlı uzantılar geliştirmek için bileşen kitaplığı.
+- [ycjcl868/readme-gpt](https://github.com/ycjcl868/readme-gpt) - OpenAI ve Vercel Edge Functions ile Github Readme'nizi oluşturun.
+- [cloudflare/wildebeest](https://github.com/cloudflare/wildebeest) - Wildebeest, ActivityPub ve Mastodon uyumlu sunucudur
+- [transitive-bullshit/bing-chat](https://github.com/transitive-bullshit/bing-chat) - Bing'in yeni AI destekli araması için Node.js istemcisi. ChatGPT'nin süper hızlısı 🔥
 - [Musish/Musish](https://github.com/Musish/Musish) - Apple Music...ish
-- [MNThomson/containerflare](https://github.com/MNThomson/containerflare) - 🔥 Cloudflare (Workers + R2) edge container imaj deposu
-- [cmj2002/CF-R2-ImageBed](https://github.com/cmj2002/CF-R2-ImageBed) - Cloudflare R2 tabanlı görsel barındırma. PicGo'yu destekler.
+- [MNThomson/containerflare](https://github.com/MNThomson/containerflare) - 🔥 Cloudflare (Workers + R2) kenar konteyner imaj deposu
+- [cmj2002/CF-R2-ImageBed](https://github.com/cmj2002/CF-R2-ImageBed) - Cloudflare R2 tabanlı görsel barındırma. PicGo desteği.
 - [google/brotli](https://github.com/google/brotli) - Brotli sıkıştırma formatı
-- [robertying/learnX-companion](https://github.com/robertying/learnX-companion) - Tsinghua Üniversitesi web sınıfı uygulaması asistanı, learnX'e kişiselleştirilmiş bildirim desteği sağlar.
-- [dvanoni/notero](https://github.com/dvanoni/notero) - Notları ve öğeleri Notion'a senkronize etmek için bir Zotero eklentisi
+- [robertying/learnX-companion](https://github.com/robertying/learnX-companion) - Tsinghua Üniversitesi ağ sınıfı için learnX'e kişiselleştirilmiş bildirimler sağlayan yardımcı uygulama.
+- [dvanoni/notero](https://github.com/dvanoni/notero) - Notları ve maddeleri Notion ile eşitlemek için bir Zotero eklentisi
 - [windingwind/zotero-better-notes](https://github.com/windingwind/zotero-better-notes) - Not yönetimiyle ilgili her şey. Hepsi Zotero'da.
-- [honojs/hono](https://github.com/honojs/hono) - Web Standartları üzerine inşa edilmiş web çatısı
-- [G4brym/R2-Explorer](https://github.com/G4brym/R2-Explorer) - Cloudflare R2 Bucket'larınız için Google Drive Arayüzü!
-- [SunYufei/workers-dav](https://github.com/SunYufei/workers-dav) - Cloudflare Workers kullanarak Google Drive için WebDAV hizmeti / Cloudflare Workers kullanarak Google Drive için WebDAV desteği
+- [honojs/hono](https://github.com/honojs/hono) - Web Standartları üzerine kurulmuş web çerçevesi
+- [G4brym/R2-Explorer](https://github.com/G4brym/R2-Explorer) - Cloudflare R2 Kovalarınız için Google Drive Arayüzü!
+- [SunYufei/workers-dav](https://github.com/SunYufei/workers-dav) - Cloudflare Workers kullanarak Google Drive için WebDAV hizmeti / WebDAV, Cloudflare Workers ile Google Drive'ı destekler
 - [realByg/office-user-auto-create](https://github.com/realByg/office-user-auto-create) - cloudflare worker ile kendi kendine office hesabı oluşturma
 - [ghedamat/obsidian-save-as-gist](https://github.com/ghedamat/obsidian-save-as-gist) - 
 - [kamranahmedse/aws-cost-cli](https://github.com/kamranahmedse/aws-cost-cli) - AWS hesabınızda maliyet analizi yapmak için CLI aracı, Slack entegrasyonu ile
-- [remotely-save/remotely-save](https://github.com/remotely-save/remotely-save) - Yerel ve bulut arasında notları akıllı çakışma yönetimiyle senkronize et: S3 (Amazon S3/Cloudflare R2/Backblaze B2/...), Dropbox, webdav (NextCloud/InfiniCLOUD/Synology/...), OneDrive, Google Drive (GDrive), Box, pClou
+- [remotely-save/remotely-save](https://github.com/remotely-save/remotely-save) - Notları yerel ve bulut arasında akıllı çakışma ile senkronize edin: S3 (Amazon S3/Cloudflare R2/Backblaze B2/...), Dropbox, webdav (NextCloud/InfiniCLOUD/Synology/...), OneDrive, Google Drive (GDrive), Box, pClou
 - [Future-Scholars/paperlib](https://github.com/Future-Scholars/paperlib) - Açık kaynaklı bir akademik makale yönetim aracı.
 - [forecho/cherries](https://github.com/forecho/cherries) - 
-- [thu-info-community/thu-info-lib](https://github.com/thu-info-community/thu-info-lib) - Tsinghua web portal'a program dostu bir arayüz sağlayan JavaScript kütüphanesi
+- [thu-info-community/thu-info-lib](https://github.com/thu-info-community/thu-info-lib) - Tsinghua web portalına program dostu bir arayüz sağlayan JavaScript kütüphanesi
 - [Harry-Chen/Learn-Helper](https://github.com/Harry-Chen/Learn-Helper) - Tsinghua Üniversitesi Ağ Sınıfı Yardımcısı
-- [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) - Invoke, Stable Diffusion modelleri için lider bir yaratıcı motordur; profesyonellerin, sanatçıların ve meraklıların en son yapay zeka tabanlı teknolojilerle görsel medya üretmesini ve oluşturmasını sağlar. Çözüm
-- [baotlake/periodic-table-pro](https://github.com/baotlake/periodic-table-pro) - Element Periyodik Tablo Pro, yüksek görünümlü kimya için vazgeçilmez mini program, kapsamlı element özellikleri, görseller ve ansiklopedik bilgi sağlar
-- [dtysky/Awaken](https://github.com/dtysky/Awaken) - WebDAV tabanlı, tüm platformlarda çalışan bir EPUB okuyucu; not, ilerleme, yer imi senkronizasyonu, Kindle not ithalatı desteği.
-- [illacloud/illa-builder](https://github.com/illacloud/illa-builder) - Düşük kodlu platform, iş uygulamaları oluşturmanıza olanak tanır; gösterge paneli, crud uygulaması, yönetim paneli, crm, cms vb. gibi dahili araçları hızlıca oluşturmanızı sağlar. PostgreSQL, MySQL, Supabase, GraphQL destekler
-- [resend/react-email](https://github.com/resend/react-email) - 💌 React kullanarak e-posta oluşturun ve gönderin
-- [domeccleston/sharegpt](https://github.com/domeccleston/sharegpt) - ChatGPT konuşmalarınıza kalıcı bağlantıları kolayca arkadaşlarınızla paylaşın
-- [wong2/chatgpt-google-extension](https://github.com/wong2/chatgpt-google-extension) - Bu proje sonlandırılmıştır. Yeni projem ChatHub'a göz atın:
+- [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) - Invoke, profesyonellerin, sanatçıların ve meraklıların en son yapay zeka destekli teknolojileri kullanarak görsel medya üretmesini ve oluşturmasını sağlayan, Stable Diffusion modelleri için lider bir yaratıcı motordur. Çözüm
+- [baotlake/periodic-table-pro](https://github.com/baotlake/periodic-table-pro) - Element Periyodik Tablo Pro, yüksek görünümlü kimya için gerekli mini program, kapsamlı element özellikleri, resimler ve ansiklopedik bilgiler sunar
+- [dtysky/Awaken](https://github.com/dtysky/Awaken) - WebDAV tabanlı, çok platformlu bir EPUB okuyucu, not, ilerleme, yer imi senkronizasyonu, Kindle notlarını içe aktarma desteği.
+- [illacloud/illa-builder](https://github.com/illacloud/illa-builder) - Düşük kodlu platform ile iş uygulamaları oluşturabilir, gösterge paneli, crud uygulaması, yönetim paneli, crm, cms gibi dahili araçları hızlıca oluşturabilirsiniz. PostgreSQL, MySQL, Supabase, GraphQL destekler
+- [resend/react-email](https://github.com/resend/react-email) - 💌 React ile e-posta oluşturun ve gönderin
+- [domeccleston/sharegpt](https://github.com/domeccleston/sharegpt) - ChatGPT sohbetlerine kalıcı bağlantıları arkadaşlarınızla kolayca paylaşın
+- [wong2/chatgpt-google-extension](https://github.com/wong2/chatgpt-google-extension) - Bu proje kullanım dışıdır. Yeni projem ChatHub'a göz atın:
 - [pacexy/flow](https://github.com/pacexy/flow) - Tarayıcı tabanlı ePub okuyucu
-- [jiegec/clone-learn-tsinghua](https://github.com/jiegec/clone-learn-tsinghua) - learn.tsinghua.edu.cn'den tüm dosyaları klonlamak için yardımcı program
-- [thu-info-community/thu-info-app](https://github.com/thu-info-community/thu-info-app) - React Native ile geliştirilen, kampüs bilgi kaynaklarını entegre etmeye yönelik bir uygulama
+- [jiegec/clone-learn-tsinghua](https://github.com/jiegec/clone-learn-tsinghua) - learn.tsinghua.edu.cn sitesinden tüm dosyaları klonlamak için bir yardımcı araç
+- [thu-info-community/thu-info-app](https://github.com/thu-info-community/thu-info-app) - Kampüs bilgi kaynaklarını entegre etmeyi amaçlayan, React Native ile geliştirilen bir uygulama
 - [exposir/bing-wallpaper-node](https://github.com/exposir/bing-wallpaper-node) - Bing Günlük 4K Ultra HD Duvar Kağıdı 必应每日4K超清壁纸
 - [AlistGo/docs](https://github.com/AlistGo/docs) - 📄 alist v3 için dokümantasyon: http://github.com/alist-org/alist
 - [slidevjs/docs](https://github.com/slidevjs/docs) - [Aynalanmış] Slidev için dokümantasyon
-- [appwrite/appwrite](https://github.com/appwrite/appwrite) - Yüzlerce kişilik bir ekip gibi geliştirin_
-- [dai-shi/excalidraw-animate](https://github.com/dai-shi/excalidraw-animate) - Excalidraw çizimlerini animasyon haline getiren bir araç
+- [appwrite/appwrite](https://github.com/appwrite/appwrite) - Yüzlerce kişilik bir ekip gibi inşa edin_
+- [dai-shi/excalidraw-animate](https://github.com/dai-shi/excalidraw-animate) - Excalidraw çizimlerini animasyonlu hale getirmek için bir araç
 - [Graviton-Code-Editor/Graviton-App](https://github.com/Graviton-Code-Editor/Graviton-App) - 🚀 Modern görünümlü bir Kod Editörü
 - [thusns/thu-wiki](https://github.com/thusns/thu-wiki) - https://thu.wiki VEYA https://wiki.thusns.org
-- [crashmax-dev/twallpaper](https://github.com/crashmax-dev/twallpaper) - 🌈 Algoritmik olarak oluşturulan çok renkli gradyan duvar kağıdı ve pürüzsüz bir şekilde parıldar.
-- [SigNoz/signoz](https://github.com/SigNoz/signoz) - SigNoz, loglar, izler ve metrikleri tek bir uygulamada sunan OpenTelemetry tabanlı açık kaynak gözlemlenebilirlik platformudur. DataDog, NewRelic vb. için açık kaynak alternatifi. 🔥 🖥.   👉  Açık kayna
+- [crashmax-dev/twallpaper](https://github.com/crashmax-dev/twallpaper) - 🌈 Çok renkli gradyan duvar kağıdı algoritmik olarak oluşturulur ve pürüzsüz bir şekilde parlar.
+- [SigNoz/signoz](https://github.com/SigNoz/signoz) - SigNoz, loglar, izler ve metrikleri tek bir uygulamada sunan, OpenTelemetry'ye özgü açık kaynaklı bir gözlemlenebilirlik platformudur. DataDog, NewRelic vb. için açık kaynaklı bir alternatiftir. 🔥 🖥.   👉  Açık kaynak
 - [vuejs/vitepress](https://github.com/vuejs/vitepress) - Vite & Vue destekli statik site oluşturucu.
-- [sst/sst](https://github.com/sst/sst) - Kendi altyapınızda uçtan uca uygulamalar geliştirin.
-- [nrwl/nx](https://github.com/nrwl/nx) - Editörünüzden CI'a kadar her şeyi bağlayan, AI-öncelikli bir yapı platformu. Hızlı teslimat yapmanızı sağlar, hataları önler.
-- [dubinc/dub](https://github.com/dubinc/dub) - Modern bağlantı atıf platformu. Twilio, Buffer, Framer, Perplexity, Vercel ve daha birçok üst düzey pazarlama ekibi tarafından kullanılmaktadır.
+- [sst/sst](https://github.com/sst/sst) - Kendi altyapınızda tam yığın uygulamalar oluşturun.
+- [nrwl/nx](https://github.com/nrwl/nx) - Editörden CI'ya kadar her şeyi bağlayan AI odaklı bir derleme platformu. Hızlı teslimat yapmanıza yardımcı olur, hiçbir şeyi bozmadan.
+- [dubinc/dub](https://github.com/dubinc/dub) - Modern bağlantı atıf platformu. Twilio, Buffer, Framer, Perplexity, Vercel ve daha fazlası gibi dünya çapında pazarlama ekipleri tarafından seviliyor.
 - [Privoce/vocechat-web](https://github.com/Privoce/vocechat-web) - VoceChat Web Uygulaması
 - [jackluson/vscode-pomodoro-clock](https://github.com/jackluson/vscode-pomodoro-clock) - VS Code için Pomodoro saati
-- [DTStack/molecule](https://github.com/DTStack/molecule) - :rocket: Hafif bir Web IDE UI framework'ü.
+- [DTStack/molecule](https://github.com/DTStack/molecule) - :rocket: Hafif bir Web IDE UI çerçevesi.
 - [b4rtaz/voice-assistant](https://github.com/b4rtaz/voice-assistant) - Visual Studio Code için sesli asistan.
-- [leon-ai/leon](https://github.com/leon-ai/leon) - 🧠 Leon, açık kaynak kişisel asistanınızdır.
-- [tycrek/ass](https://github.com/tycrek/ass) - Basit, kendi kendine barındırılan ShareX sunucusu
+- [leon-ai/leon](https://github.com/leon-ai/leon) - 🧠 Leon, açık kaynaklı kişisel asistanınızdır.
+- [tycrek/ass](https://github.com/tycrek/ass) - Basit, kendi barındırılan ShareX sunucusu
 - [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - Windows, macOS, Linux, Android ve iOS için senkronizasyon özellikli, gizliliğe odaklanan not alma uygulaması.
-- [AlphaNecron/Void](https://github.com/AlphaNecron/Void) - Hızlı ve şık dosya barındırma servisi.
-- [egoist/follower-count](https://github.com/egoist/follower-count) - Instagram, Twitter, TikTok, Youtube hesapları için takipçi sayısını alın
-- [liveblocks/liveblocks](https://github.com/liveblocks/liveblocks) - Yapay zeka çağının en iyi uygulamaları tekil deneyimler değildir—işbirlikçidirler. Liveblocks, ürününüzü çok oyunculu, etkileşimli ve AI'ya hazır hale getirmek için özelleştirilebilir, önceden oluşturulmuş özellikler sağlar. Tüm bunlar geliştirme hızını düşürmeden.
-- [cloudflare/workers-graphql-server](https://github.com/cloudflare/workers-graphql-server) - 🔥Yıldırım hızında, küresel olarak dağıtılmış Apollo GraphQL sunucusu, Cloudflare Workers kullanılarak edge'de dağıtılır
-- [buhe/vscode-mail](https://github.com/buhe/vscode-mail) - Visual Studio Code'a gömülü bir Mail istemcisi.
-- [LekoArts/gatsby-themes](https://github.com/LekoArts/gatsby-themes) - Sitenizi hızlıca başlatmak için yüksek kaliteli ve özelleştirilebilir Gatsby temaları alın! Birçok profesyonelce oluşturulmuş ve etkileyici tasarımdan, çeşitli özellik ve özelleştirme seçeneğiyle tercih yapın
+- [AlphaNecron/Void](https://github.com/AlphaNecron/Void) - Hızlı ve şık dosya barındırma hizmeti.
+- [egoist/follower-count](https://github.com/egoist/follower-count) - Instagram, Twitter, TikTok, Youtube hesaplarının takipçi sayılarını alın
+- [liveblocks/liveblocks](https://github.com/liveblocks/liveblocks) - Yapay zeka çağının en iyi uygulamaları tek başına deneyimler değildir—onlar işbirlikçidir. Liveblocks, ürününüzü çok oyunculu, etkileşimli ve AI hazır hale getirmek için özelleştirilebilir hazır özellikler sunar. Tüm bunlar der
+- [cloudflare/workers-graphql-server](https://github.com/cloudflare/workers-graphql-server) - 🔥Yıldırım hızında, küresel olarak dağıtılmış Apollo GraphQL sunucusu, Cloudflare Workers kullanılarak uçta dağıtılır
+- [buhe/vscode-mail](https://github.com/buhe/vscode-mail) - Visual Studio Code'a gömülü bir e-posta istemcisi.
+- [LekoArts/gatsby-themes](https://github.com/LekoArts/gatsby-themes) - Web sitenizi hızlıca başlatmak için yüksek kaliteli ve özelleştirilebilir Gatsby temaları edinin! Birçok profesyonelce oluşturulmuş ve etkileyici tasarımlar arasından, çok çeşitli özellikler ve özelleştirme seçene
 - [haaarshsingh/kmenu](https://github.com/haaarshsingh/kmenu) - Mükemmel ⌘K menüsü
 - [sofn-xyz/mailing](https://github.com/sofn-xyz/mailing) - React ile e-posta oluşturun, test edin, gönderin
-- [webiny/webiny-js](https://github.com/webiny/webiny-js) - Açık kaynak sunucusuz kurumsal CMS. Başsız CMS, sayfa oluşturucu, form oluşturucu ve dosya yöneticisi içerir. Özelleştirmesi ve genişletmesi kolaydır. AWS'ye dağıtılır.
-- [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) - GitBook doküman siteleri için açık kaynak frontend
-- [codex-team/editor.js](https://github.com/codex-team/editor.js) - Temiz JSON çıktısına sahip blok tarzı editör
-- [pingcap/ossinsight](https://github.com/pingcap/ossinsight) - Açık Kaynak Yazılımın Analizi, Karşılaştırması, Trendleri, Sıralamaları; ayrıca doğal dil ile (OpenAI destekli) 7 milyardan fazla veriyle içgörü elde edebilirsiniz. Twitter'da takip edin: https://twitter.com/o
+- [webiny/webiny-js](https://github.com/webiny/webiny-js) - Açık kaynaklı sunucusuz kurumsal CMS. Başsız CMS, sayfa oluşturucu, form oluşturucu ve dosya yöneticisi içerir. Özelleştirmesi ve genişletmesi kolaydır. AWS'ye dağıtılabilir.
+- [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) - GitBook doküman siteleri için açık kaynaklı ön yüz
+- [codex-team/editor.js](https://github.com/codex-team/editor.js) - Temiz JSON çıktısı veren blok tarzı editör
+- [pingcap/ossinsight](https://github.com/pingcap/ossinsight) - Açık Kaynak Yazılımların Analizi, Karşılaştırması, Trendleri, Sıralamaları; ayrıca doğal dil ile 7 milyardan fazla veriden içgörü alabilirsiniz (OpenAI destekli). Twitter'da takip edin: https://twitter.com/o
 - [markmap/markmap](https://github.com/markmap/markmap) - Düz metinle zihin haritaları oluşturun
-- [hmu332233/q-link](https://github.com/hmu332233/q-link) - Q.Link | Bağlantınızı basit bir sınavın arkasına saklayın.
-- [triggerdotdev/jsonhero-web](https://github.com/triggerdotdev/jsonhero-web) - JSON Hero, JSON dosyalarınızı hızla taramanıza, aramanıza ve gezinmenize olanak tanıyan açık kaynaklı, güzel bir JSON gezginidir. 🚀. Trigger.dev ekibi tarafından 💜 ile geliştirildi.
-- [devhubapp/devhub](https://github.com/devhubapp/devhub) - GitHub için TweetDeck - Sorunları, Aktiviteleri ve Bildirimleri Filtreleyin - Web, Mobil & Masaüstü, kodun %99'u paylaşımlı
-- [redhat-actions/try-in-web-ide](https://github.com/redhat-actions/try-in-web-ide) - Pull request'inizi Red Hat OpenShift için Developer Sandbox üzerinde barındırılan Web IDE'ye klonlayarak değişiklikleri kolayca test edin.
+- [hmu332233/q-link](https://github.com/hmu332233/q-link) - Q.Link | Bağlantınızı basit bir testin arkasına gizleyin.
+- [triggerdotdev/jsonhero-web](https://github.com/triggerdotdev/jsonhero-web) - JSON Hero, JSON dosyalarınızı hızla taramanıza, aramanıza ve gezmenize olanak tanıyan açık kaynaklı, güzel bir JSON gezginidir. 🚀. Trigger.dev ekibi tarafından 💜 ile yapılmıştır.
+- [devhubapp/devhub](https://github.com/devhubapp/devhub) - GitHub için TweetDeck - Sorunları, Aktiviteleri ve Bildirimleri Filtreleyin - Web, Mobil ve Masaüstü üzerinde %99 kod paylaşımı ile
+- [redhat-actions/try-in-web-ide](https://github.com/redhat-actions/try-in-web-ide) - Pull request'inizi Red Hat OpenShift için Developer Sandbox'ta barındırılan Web IDE'ye klonlayarak değişiklikleri kolayca test edin.
 - [photoview/photoview](https://github.com/photoview/photoview) - Kendi sunucunuzda barındırabileceğiniz fotoğraf galerisi
-- [yusukebe/r2-image-worker](https://github.com/yusukebe/r2-image-worker) - R2 arka ucu Cloudflare Workers ile görselleri depolayın ve sunun.
+- [yusukebe/r2-image-worker](https://github.com/yusukebe/r2-image-worker) - R2 arka uç Cloudflare Workers ile görselleri depolayın ve teslim edin.
 - [GitbookIO/proxies-on-cloudflare](https://github.com/GitbookIO/proxies-on-cloudflare) - Cloudflare Workers'ta Proxy'ler
-- [SharzyL/pastebin-worker](https://github.com/SharzyL/pastebin-worker) - Cloudflare worker üzerinde Pastebin, kullanışlı CLI ve zengin özelliklerle
-- [eclipse-theia/theia](https://github.com/eclipse-theia/theia) - Eclipse Theia, TypeScript ile uygulanan bulut ve masaüstü IDE çerçevesidir.
-- [facebook/docusaurus](https://github.com/facebook/docusaurus) - Açık kaynak dokümantasyon web sitelerini kolayca sürdürün.
+- [SharzyL/pastebin-worker](https://github.com/SharzyL/pastebin-worker) - Cloudflare worker üzerinde Pastebin, kullanıcı dostu CLI kullanımı ve zengin özelliklerle
+- [eclipse-theia/theia](https://github.com/eclipse-theia/theia) - Eclipse Theia, TypeScript ile uygulanan bulut & masaüstü IDE çerçevesidir.
+- [facebook/docusaurus](https://github.com/facebook/docusaurus) - Bakımı kolay açık kaynaklı dokümantasyon siteleri.
 - [logto-io/logto](https://github.com/logto-io/logto) - 🧑‍🚀 SaaS ve AI uygulamaları için kimlik doğrulama ve yetkilendirme altyapısı, OIDC ve OAuth 2.1 üzerine kurulu, çoklu kiracılık, SSO ve RBAC ile.
-- [dushixiang/next-terminal](https://github.com/dushixiang/next-terminal) - Next Terminal, RDP, SSH, VNC, Telnet ve HTTP dahil olmak üzere birden fazla uzaktan erişim protokolünü destekleyen basit, güvenli ve kullanıcı dostu interaktif denetim sistemidir.
+- [dushixiang/next-terminal](https://github.com/dushixiang/next-terminal) - Next Terminal, RDP, SSH, VNC, Telnet ve HTTP dahil olmak üzere birden fazla uzaktan erişim protokolünü destekleyen basit, güvenli ve kullanıcı dostu bir interaktif denetim sistemidir.
 - [wayjam/picgo-plugin-s3](https://github.com/wayjam/picgo-plugin-s3) - PicGo S3 Eklentisi
-- [gaeulbyul/RedBlock](https://github.com/gaeulbyul/RedBlock) - [DURUM: BAKIMSIZ] Twitter tarihinin en güçlü zincir blok uzantısı. / Twitter'da birden çok kullanıcıyı engellemek için güçlü bir uzantı.
+- [gaeulbyul/RedBlock](https://github.com/gaeulbyul/RedBlock) - [DURUM: BAKIMSIZ] Twitter tarihinin en güçlü zincir engelleme uzantısı. / Twitter'da birden fazla kullanıcıyı engellemek için güçlü bir eklenti.
 - [formulahendry/vscode-code-runner](https://github.com/formulahendry/vscode-code-runner) - Visual Studio Code için Kod Çalıştırıcı
 - [hexojs/hexo-cli](https://github.com/hexojs/hexo-cli) - Hexo için komut satırı arayüzü
-- [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner) - Klavye çalışanları için tasarlanmış kelime ezberleme ve İngilizce kas hafızası antrenman yazılımı / Klavye çalışanları için İngilizce kas hafızası eğitimi ve kelime öğrenme yazılımı
-- [SSShooter/mind-elixir-core](https://github.com/SSShooter/mind-elixir-core) - ⚗ Mind Elixir, framework bağımsız JavaScript zihin haritası çekirdeğidir.
-- [utterance/utterances](https://github.com/utterance/utterances) - :crystal_ball: GitHub sorunları üzerine inşa edilmiş hafif bir yorum widget'ı
-- [gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) - Talep üzerine bulut geliştirme ortamları için geliştirici platformu; yazılımı daha hızlı ve daha güvenli oluşturun.
+- [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner) - Klavye çalışanları için tasarlanmış kelime ezberleme ve İngilizce kas hafızası egzersiz yazılımı / Klavye çalışanları için tasarlanmış kelime öğrenme ve İngilizce kas hafızası egzersiz yazılımı
+- [SSShooter/mind-elixir-core](https://github.com/SSShooter/mind-elixir-core) - ⚗ Mind Elixir, framework bağımsız bir JavaScript zihin haritası çekirdeğidir.
+- [utterance/utterances](https://github.com/utterance/utterances) - :crystal_ball: GitHub issues üzerinde oluşturulmuş hafif bir yorum widget'ı
+- [gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) - Talep üzerine bulut geliştirme ortamları için geliştirici platformu, yazılımı daha hızlı ve güvenli oluşturun.
 - [wabarc/cairn](https://github.com/wabarc/cairn) - Web sayfasını tek bir HTML dosyası olarak kaydetmek için NPM paketi ve CLI aracı
-- [massCodeIO/assistant-vscode](https://github.com/massCodeIO/assistant-vscode) - massCode asistanı VS Code için
+- [massCodeIO/assistant-vscode](https://github.com/massCodeIO/assistant-vscode) - VS Code için massCode asistanı
 - [vercel/platforms](https://github.com/vercel/platforms) - Çok kiracılı, tam yığın Next.js uygulaması.
 - [taniarascia/takenote](https://github.com/taniarascia/takenote) - 📝  ‎ Geliştiriciler için web tabanlı not uygulaması.
-- [standardnotes/app](https://github.com/standardnotes/app) - Sonuna kadar şifreli notlar ve dosyalarla korkusuzca düşünün. Sorunlar için https://standardnotes.com/forum veya https://standardnotes.com/help adresini ziyaret edin.
-- [gitpod-io/openvscode-server](https://github.com/gitpod-io/openvscode-server) - Herhangi bir cihazdan, herhangi bir yerden modern bir web tarayıcı ile uzaktaki bir makinede upstream VS Code çalıştırın.
+- [standardnotes/app](https://github.com/standardnotes/app) - Uçtan uca şifreli notlar ve dosyalar ile korkusuzca düşünün. Sorunlar için: https://standardnotes.com/forum veya https://standardnotes.com/help.
+- [gitpod-io/openvscode-server](https://github.com/gitpod-io/openvscode-server) - Herhangi bir cihazdan, modern bir web tarayıcı aracılığıyla uzak bir makinede upstream VS Code çalıştırın.
 - [EnixCoda/Gitako](https://github.com/EnixCoda/Gitako) - 🐙 Chrome, Firefox ve Edge için GitHub dosya ağacı uzantısı
 - [gridaco/grida](https://github.com/gridaco/grida) - Grida — Web için iddialı 2D Grafik Editörü
-- [lostintangent/gitdoc](https://github.com/lostintangent/gitdoc) - Bir Git deposunu çok dosyalı, sürümlü bir belge gibi düzenlemenizi sağlayan VS Code uzantısı.
-- [Platane/snk](https://github.com/Platane/snk) - 🟩⬜ Bir github kullanıcısının katkı grafiğinden yılan oyunu üretir ve ekran kaydını animasyonlu svg veya gif olarak dışa aktarır
-- [yoshi389111/github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib) - Bu GitHub Action, GitHub katkı takviminizi 3D profil görüntüsü olarak oluşturur.
-- [yang991178/fluent-reader](https://github.com/yang991178/fluent-reader) - Electron, React ve Fluent UI ile geliştirilmiş modern masaüstü RSS okuyucu
-- [AlistGo/web-v2](https://github.com/AlistGo/web-v2) - 🗂️ Alist V2'nin ön ucu
-- [ansh/jiffyreader.com](https://github.com/ansh/jiffyreader.com) - HERHANGİ bir web sitesinde daha hızlı okuma için tarayıcı eklentisi!
+- [lostintangent/gitdoc](https://github.com/lostintangent/gitdoc) - Bir Git deposunu, çok dosyalı, versiyonlu bir belgeymiş gibi düzenlemenizi sağlayan VS Code uzantısı.
+- [Platane/snk](https://github.com/Platane/snk) - 🟩⬜ Bir github kullanıcısının katkı grafiğinden yılan oyunu üretir ve animasyonlu svg veya gif olarak ekran görüntüsü çıktısı verir
+- [yoshi389111/github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib) - Bu GitHub Action, 3D profil resmi üzerinde bir GitHub katkı takvimi oluşturur.
+- [yang991178/fluent-reader](https://github.com/yang991178/fluent-reader) - Electron, React ve Fluent UI ile oluşturulmuş modern masaüstü RSS okuyucu
+- [AlistGo/web-v2](https://github.com/AlistGo/web-v2) - 🗂️ Alist V2'nin ön yüzü
+- [ansh/jiffyreader.com](https://github.com/ansh/jiffyreader.com) - HERHANGİ bir web sitesinde daha hızlı okuma için Tarayıcı Eklentisi!
 - [alefragnani/vscode-bookmarks](https://github.com/alefragnani/vscode-bookmarks) - Visual Studio Code için Yer İmleri Uzantısı
-- [markdoc/markdoc](https://github.com/markdoc/markdoc) - Güçlü, esnek, Markdown tabanlı yazım çerçevesi.
-- [batnoter/batnoter](https://github.com/batnoter/batnoter) - Açık kaynaklı, markdown tabanlı, kendi kendine barındırılan not alma web uygulaması.
+- [markdoc/markdoc](https://github.com/markdoc/markdoc) - Güçlü, esnek, Markdown tabanlı yazarlık çerçevesi.
+- [batnoter/batnoter](https://github.com/batnoter/batnoter) - Açık kaynaklı, markdown tabanlı, kendi barındırılan not alma web uygulaması.
 - [Cveinnt/LetsMarkdown.com](https://github.com/Cveinnt/LetsMarkdown.com) - 👨‍💻👩‍💻 Markdown yazın. Birlikte.
 - [Cherry/ShareX-R2-Cloudflare-Workers](https://github.com/Cherry/ShareX-R2-Cloudflare-Workers) - Cloudflare R2 üzerinden Workers ile özel ShareX Yükleyici
 - [mullvad/browser-extension](https://github.com/mullvad/browser-extension) - Mullvad Tarayıcı Eklentisi, Mullvad VPN kullanırken tarama deneyiminizi geliştirir.
-- [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) - Metinden diyagram (akış diyagramları, sıralama diyagramları vb.) oluşturma; markdown benzeri
-- [Kong/insomnia](https://github.com/Kong/insomnia) - Açık kaynak, platformlar arası GraphQL, REST, WebSockets, SSE ve gRPC API istemcisi. Bulut, Yerel ve Git depolama ile.
-- [theajack/cnchar](https://github.com/theajack/cnchar) - 🇨🇳 Kapsamlı özelliklere sahip Çince karakter araç kütüphanesi (pinyin, çizgi sayısı, radikal, deyim, ses, görselleştirme vb.) (Çince karakter aracı)
-- [missive/emoji-mart](https://github.com/missive/emoji-mart) - 🏪 Hepsini seçmek için bir bileşen
-- [lcomplete/smart-toc](https://github.com/lcomplete/smart-toc) - Chrome için, otomatik içerik tablosu oluşturan bir eklenti; Inoreader ve Feedly destekler. Web makalelerinde otomatik içerik tablosu oluşturur, Inoreader ve Feedly desteğiyle.
-- [sheepzh/time-tracker-4-browser](https://github.com/sheepzh/time-tracker-4-browser) - Tarayıcı için zaman takipçisi / 网费很贵
-- [ajayyy/SponsorBlockServer](https://github.com/ajayyy/SponsorBlockServer) - YouTube videolarındaki sponsor bölümlerini atlayın (sunucu tarafı)
+- [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) - Metinden, markdown benzeri bir şekilde akış diyagramları veya sıralı diyagramlar gibi diyagramlar üretme
+- [Kong/insomnia](https://github.com/Kong/insomnia) - GraphQL, REST, WebSockets, SSE ve gRPC için açık kaynaklı, çok platformlu API istemcisi. Bulut, Yerel ve Git depolama ile.
+- [theajack/cnchar](https://github.com/theajack/cnchar) - 🇨🇳 Kapsamlı bir Çince karakter araç kütüphanesi (pinyin, çizgi, radikal, deyim, ses, görselleştirme vb.) (Chinese character util)
+- [missive/emoji-mart](https://github.com/missive/emoji-mart) - 🏪 Hepsini seçmek için tek bir bileşen
+- [lcomplete/smart-toc](https://github.com/lcomplete/smart-toc) - Otomatik içerik tablosu oluşturan bir Chrome eklentisi, Inoreader ve Feedly destekler. Web makaleleri için otomatik içerik tablosu oluşturucu, Inoreader ve Feedly desteği.
+- [sheepzh/time-tracker-4-browser](https://github.com/sheepzh/time-tracker-4-browser) - Tarayıcı için Zaman Takipçisi/İnternet çok pahalı
+- [ajayyy/SponsorBlockServer](https://github.com/ajayyy/SponsorBlockServer) - YouTube video sponsorlarını atla (sunucu tarafı kısmı)
 - [Hopding/pdf-lib](https://github.com/Hopding/pdf-lib) - Herhangi bir JavaScript ortamında PDF belgeleri oluşturun ve düzenleyin
-- [GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension](https://github.com/GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension) - VSCode editör menü çubuğuna güzelleştir, açık dosyaları göster, kaydet, terminali aç/kapat gibi kullanışlı butonlar ekleyin. Ayrıca kendi özel komutlarınızla buton oluşturabilirsiniz. VSCode Marketplace bağlantısı: htt
-- [hexojs/hexo](https://github.com/hexojs/hexo) - Hızlı, basit ve güçlü blog çerçevesi, Node.js tabanlı.
-- [actions/stale](https://github.com/actions/stale) - Son dönemde etkileşim olmayan issue ve pull request'leri işaretler
-- [surgioproject/surgio](https://github.com/surgioproject/surgio) - Surge, Clash, Quantumult için profesyonelce kural üretimi
-- [nginxinc/nginx-for-azure-deploy-action](https://github.com/nginxinc/nginx-for-azure-deploy-action) - NGINX yapılandırmalarını NGINX for Azure servisine senkronize eden Github Actions.
-- [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) - Spacedrive, Rust ile yazılmış sanal dağıtık dosya sistemiyle güçlendirilmiş açık kaynaklı, çapraz platform bir dosya gezgini.
-- [DenverCoder1/custom-icon-badges](https://github.com/DenverCoder1/custom-icon-badges) - 🛡 Kullanıcıların shields.io rozetlerinde Octicon ve kendi simge/logolarını daha kolay kullanmasını sağlar
+- [GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension](https://github.com/GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension) - VSCode editör menü çubuğuna güzelleştir, açık dosyaları göster, kaydet, terminali aç/kapat vb. gibi kullanışlı düğmeler ekleyin. Ayrıca kendi özel komutlarınızla kendi düğmelerinizi oluşturabilirsiniz. VSCode Marketplace bağlantısı: htt
+- [hexojs/hexo](https://github.com/hexojs/hexo) - Node.js tabanlı hızlı, basit ve güçlü blog çerçevesi.
+- [actions/stale](https://github.com/actions/stale) - Son zamanlarda etkileşim almayan issue ve pull request'leri işaretler
+- [surgioproject/surgio](https://github.com/surgioproject/surgio) - Surge, Clash, Quantumult gibi uygulamalar için profesyonel şekilde kural üretimi
+- [nginxinc/nginx-for-azure-deploy-action](https://github.com/nginxinc/nginx-for-azure-deploy-action) - NGINX yapılandırmalarını NGINX for Azure hizmetine senkronize etmek için Github Actions.
+- [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) - Spacedrive, Rust ile yazılmış sanal dağıtık dosya sistemiyle desteklenen açık kaynaklı, çok platformlu bir dosya gezgini.
+- [DenverCoder1/custom-icon-badges](https://github.com/DenverCoder1/custom-icon-badges) - 🛡 Kullanıcıların shields.io rozetlerinde Octicon'ları ve kendi simgelerini/logolarını daha kolay kullanmasını sağlar
 - [arduino/arduino-ide](https://github.com/arduino/arduino-ide) - Arduino IDE 2.x
 - [yuudi/onesend](https://github.com/yuudi/onesend) - onedrive üzerinden dosya gönderin
-- [xcodebuild/CodeTerminal](https://github.com/xcodebuild/CodeTerminal) - Visual Studio Code'dan ayrılmış, çapraz platform bağımsız terminal uygulaması.
-- [Zhengqbbb/cz-git](https://github.com/Zhengqbbb/cz-git) - cz-git | czg  🛠️ DX odaklı, daha mühendisliksel, hafif, özelleştirilebilir, standart çıktı formatlı Commitizen adaptörü ve CLI
-- [tutao/tutanota](https://github.com/tutao/tutanota) - Tuta, tüm cihazlarınızda e-postaları, kişileri ve takvim girişlerini şifrelemenizi sağlayan, güvenlik ve gizliliğe güçlü vurgu yapan bir e-posta servisidir.
+- [xcodebuild/CodeTerminal](https://github.com/xcodebuild/CodeTerminal) - Visual Studio Code'dan çıkarılan çapraz platform bağımsız terminal uygulaması.
+- [Zhengqbbb/cz-git](https://github.com/Zhengqbbb/cz-git) - cz-git | czg  🛠️ DX öncelikli ve daha mühendislik odaklı, hafif, özelleştirilebilir, standart çıktı formatlı Commitizen adaptörü ve CLI
+- [tutao/tutanota](https://github.com/tutao/tutanota) - Tuta, güvenlik ve gizliliğe güçlü bir şekilde odaklanan, tüm cihazlarınızda e-postaları, kişileri ve takvim girişlerini şifrelemenizi sağlayan bir e-posta hizmetidir.
 - [atomcorp/themes](https://github.com/atomcorp/themes) - Windows Terminal için temalar
-- [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) - Açık kaynak API geliştirme ekosistemi - https://hoppscotch.io (Postman, Insomnia'ya açık kaynak alternatif)
+- [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) - Açık kaynaklı API geliştirme ekosistemi - https://hoppscotch.io (Postman, Insomnia için açık kaynaklı alternatif)
 - [antfu/awesome-cn-cafe-web](https://github.com/antfu/awesome-cn-cafe-web) - ☕️ Awesome CN Café için Web Uygulaması
 - [yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) - 💯 Yoğun yazılım mühendisleri için özenle seçilmiş kodlama mülakatı hazırlık materyalleri
 - [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) - freeCodeCamp.org'un açık kaynak kod tabanı ve müfredatı. Ücretsiz matematik, programlama ve bilgisayar bilimi öğrenin.
-- [harrisoff/onedrive-js-sdk](https://github.com/harrisoff/onedrive-js-sdk) - OneDrive'ın bazı API'larını sarar, yalnızca dosya yükleme ve paylaşma için.
-- [harrisoff/onedrive-image-hosting](https://github.com/harrisoff/onedrive-image-hosting) - OneDrive Görüntü Barındırma | OneDrive 图床
-- [ms-iot/vscode-ros](https://github.com/ms-iot/vscode-ros) - Robot Operating System (ROS) geliştirme için Visual Studio Code uzantısı
-- [yzhang-gh/vscode-markdown](https://github.com/yzhang-gh/vscode-markdown) - Markdown Hepsi Bir Arada
-- [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) - 🔒 2024 yılında dijital güvenlik ve gizliliği korumak için 300+ ipucunun derlenmiş kontrol listesi
-- [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) - ✨ JSON, YAML, XML, CSV ve daha fazlası gibi çeşitli veri formatlarını etkileşimli grafiklere dönüştüren yenilikçi ve açık kaynaklı görselleştirme uygulaması.
+- [harrisoff/onedrive-js-sdk](https://github.com/harrisoff/onedrive-js-sdk) - OneDrive'ın bazı API'larını saran, yalnızca dosya yükleme ve paylaşma için kullanılan araç.
+- [harrisoff/onedrive-image-hosting](https://github.com/harrisoff/onedrive-image-hosting) - OneDrive Resim Barındırma | OneDrive 图床
+- [ms-iot/vscode-ros](https://github.com/ms-iot/vscode-ros) - Robot İşletim Sistemi (ROS) geliştirme için Visual Studio Code uzantısı
+- [yzhang-gh/vscode-markdown](https://github.com/yzhang-gh/vscode-markdown) - Markdown All in One
+- [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) - 🔒 2024 yılında dijital güvenlik ve gizliliği korumak için 300'den fazla ipucundan oluşan derlenmiş kontrol listesi
+- [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) - ✨ JSON, YAML, XML, CSV ve daha birçok veri formatını etkileşimli grafiklere dönüştüren yenilikçi ve açık kaynaklı görselleştirme uygulaması.
 - [charleswan/vscode-extensions](https://github.com/charleswan/vscode-extensions) - Lezzetli Visual Studio Code uzantıları koleksiyonu https://marketplace.visualstudio.com/publishers/CharlesWan
-- [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium) - Trilium Notes ile kişisel bilgi tabanınızı oluşturun
-- [grafana/grafana](https://github.com/grafana/grafana) - Açık ve birleştirilebilir gözlemlenebilirlik ve veri görselleştirme platformu. Prometheus, Loki, Elasticsearch, InfluxDB, Postgres ve daha birçok kaynaktan metrikleri, logları ve izleri görselleştirin.
+- [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium) - Kişisel bilgi tabanınızı Trilium Notes ile oluşturun
+- [grafana/grafana](https://github.com/grafana/grafana) - Açık ve bileşenlenebilir gözlemlenebilirlik ve veri görselleştirme platformu. Prometheus, Loki, Elasticsearch, InfluxDB, Postgres ve daha birçok kaynaktan metrikleri, logları ve izleri görselleştirin.
 - [reactjs/react.dev](https://github.com/reactjs/react.dev) - React dokümantasyon web sitesi
-- [microsoft/TypeScript](https://github.com/microsoft/TypeScript) - TypeScript, temiz JavaScript çıktısına derlenen, JavaScript'in bir üst kümesidir.
-- [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) - Yönetim panelleri, dahili araçlar ve panolar oluşturmak için platform. 25'ten fazla veritabanı ve herhangi bir API ile entegre olur.
+- [microsoft/TypeScript](https://github.com/microsoft/TypeScript) - TypeScript, temiz JavaScript çıktısına derlenen bir JavaScript üst kümesidir.
+- [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) - Yönetim panelleri, dahili araçlar ve panolar oluşturmak için platform. 25+ veritabanı ve herhangi bir API ile entegre olur.
 - [XadillaX/vscode-language-viml](https://github.com/XadillaX/vscode-language-viml) - VSCode için VimL eklentisi.
-- [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim) - vim & neovim için Nodejs uzantı barındırıcısı, VSCode gibi uzantıları yükler ve dil sunucularını barındırır.
+- [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim) - vim & neovim için Nodejs eklenti barındırıcısı, VSCode gibi eklentiler yükler ve dil sunucularını barındırır.
 - [CryogenicPlanet/cryogenicplanet.github.io](https://github.com/CryogenicPlanet/cryogenicplanet.github.io) - Web'de Kişisel Alan
-- [wei/socialify](https://github.com/wei/socialify) - 💞 Projenizi sosyal hale getirin. 🌐 Dünya ile paylaşın!
+- [wei/socialify](https://github.com/wei/socialify) - 💞 Projenizi Sosyalleştirin. 🌐 Dünya ile paylaşın!
 - [VSCodeVim/Vim](https://github.com/VSCodeVim/Vim) - :star: Visual Studio Code için Vim
-- [AtomMaterialUI/iconGenerator](https://github.com/AtomMaterialUI/iconGenerator) - Atom Material Icons eklentilerinde (JetBrains, Chrome ve Firefox için) kullanılan simge koleksiyonu
+- [AtomMaterialUI/iconGenerator](https://github.com/AtomMaterialUI/iconGenerator) - Atom Material Icons eklentilerinde (JetBrains, Chrome ve Firefox için) kullanılan Simge Koleksiyonu
 - [antfu/case-police](https://github.com/antfu/case-police) - 🚨 Büyük/küçük harf kullanımını doğru yapın, LÜTFEN!
-- [shd101wyy/vscode-markdown-preview-enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced) - Visual Studio Code için "EN İYİ" markdown önizleme eklentilerinden biri
+- [shd101wyy/vscode-markdown-preview-enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced) - Visual Studio Code için en "İYİ" markdown önizleme eklentilerinden biri
 - [HAG87/vscode-maxscript-lsp](https://github.com/HAG87/vscode-maxscript-lsp) - VS Code için MaxScript dili (Dil Sunucusu uygulaması)
-- [marcomontalbano/video-to-markdown](https://github.com/marcomontalbano/video-to-markdown) - Markdown'a nasıl video gömülür? İşte cevabı. Markdown dosyalarınıza video eklemeyi kolaylaştırır.
+- [marcomontalbano/video-to-markdown](https://github.com/marcomontalbano/video-to-markdown) - Markdown'a bir video nasıl gömülür? İşte cevabı burada. Videoları markdown dosyalarınıza daha kolay ekleyin.
 - [dangeredwolf/ModernDeck](https://github.com/dangeredwolf/ModernDeck) - Masaüstü için güzel ve güçlü bir Twitter istemcisi.
-- [shiftkey/desktop](https://github.com/shiftkey/desktop) - Çeşitli Linux dağıtımlarını desteklemek için GitHub Desktop'ın çatalı
+- [shiftkey/desktop](https://github.com/shiftkey/desktop) - Çeşitli Linux dağıtımlarını desteklemek için GitHub Desktop'un bir çatallaması
 - [k9982874/github-gist-explorer](https://github.com/k9982874/github-gist-explorer) - 
 - [djyde/ossart](https://github.com/djyde/ossart) - GitHub etkinliğinizi bir sanat eseri olarak yazdırın
 - [luyuhuang/vscode-rss](https://github.com/luyuhuang/vscode-rss) - Visual Studio Code'a gömülü bir RSS okuyucu
 - [liximomo/vscode-sftp](https://github.com/liximomo/vscode-sftp) - VS Code için süper hızlı sftp/ftp eklentisi
-- [funnyzak/react-native-v2ex](https://github.com/funnyzak/react-native-v2ex) - Projede React Native kullanılarak bir V2EX mobil istemci uygulaması geliştirilmiştir. Amaç, hızlı React Native geliştirme için bir iskelet oluşturmaktır. İstemci verileri tamamen V2EX açık API'sine dayalıdır. RN 0.71.5 tabanlıdır.
-- [trzsz/trzsz.js](https://github.com/trzsz/trzsz.js) - trzsz.js, trzsz'nin js sürümüdür, electron ile oluşturulmuş terminal ve webshell'in trzsz (trz / tsz) desteği sunmasını sağlar.
-- [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) - Gizliliğinizi ön planda tutan benzersiz bir özgeçmiş oluşturucu. Tamamen güvenli, özelleştirilebilir, taşınabilir, açık kaynak ve sonsuza kadar ücretsiz. Hemen deneyin!
+- [funnyzak/react-native-v2ex](https://github.com/funnyzak/react-native-v2ex) - Proje, React Native kullanılarak bir V2EX mobil istemci uygulaması oluşturdu. Amaç, hızlı React Native geliştirme için bir iskelet kurmaktı. İstemci verileri tamamen V2EX açık API'sine dayalıdır. RN 0.71.5 tabanlıdır.
+- [trzsz/trzsz.js](https://github.com/trzsz/trzsz.js) - trzsz.js, trzsz'nin js versiyonudur, electron ve webshell ile oluşturulmuş terminalin trzsz (trz / tsz) desteklemesini sağlar.
+- [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) - Gizliliğinizi ön planda tutan benzersiz bir özgeçmiş oluşturucu. Tamamen güvenli, özelleştirilebilir, taşınabilir, açık kaynaklı ve sonsuza dek ücretsiz. Bugün deneyin!
 - [slidevjs/slidev](https://github.com/slidevjs/slidev) - Geliştiriciler için Sunum Slaytları
-- [zzzgydi/clash-verge](https://github.com/zzzgydi/clash-verge) - tauri tabanlı bir Clash GUI. Windows, macOS ve Linux'u destekler.
+- [zzzgydi/clash-verge](https://github.com/zzzgydi/clash-verge) - tauri tabanlı bir Clash GUI'si. Windows, macOS ve Linux'u destekler.
 - [louisyoungx/safari-like-startpage](https://github.com/louisyoungx/safari-like-startpage) - Safari benzeri başlangıç sayfası
-- [BoostIO/BoostNote-App](https://github.com/BoostIO/BoostNote-App) - Boost Note, uzaktan DevOps ekiplerinin hızını en üst düzeye çıkaran, belge odaklı bir proje yönetim aracıdır.
-- [rick-yo/remind](https://github.com/rick-yo/remind) - Zihin haritasını tarayıcıya taşıyın
+- [BoostIO/BoostNote-App](https://github.com/BoostIO/BoostNote-App) - Boost Note, uzaktan çalışan DevOps ekiplerinin hızını en üst düzeye çıkaran, belge odaklı bir proje yönetim aracıdır.
+- [rick-yo/remind](https://github.com/rick-yo/remind) - Zihin haritasını tarayıcıya getirin
 - [QwikDev/qwik](https://github.com/QwikDev/qwik) - Anında yüklenen web uygulamaları, zahmetsizce
-- [vuepress-reco/vuepress-theme-reco](https://github.com/vuepress-reco/vuepress-theme-reco) - 🎨 vuepress-theme-reco 2 deposu burasıdır.
-- [WayneGongCN/microsoft-todo-browser-ext](https://github.com/WayneGongCN/microsoft-todo-browser-ext) - Microsoft To Do için açık kaynaklı üçüncü taraf bir tarayıcı eklentisi
-- [outline/outline](https://github.com/outline/outline) - Büyüyen ekipler için en hızlı bilgi tabanı. Güzel, gerçek zamanlı işbirlikçi, özellik dolu ve markdown uyumlu.
-- [geist-org/geist-ui](https://github.com/geist-org/geist-ui) - Modern web siteleri ve uygulamalar geliştirmek için bir tasarım sistemi.
-- [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) - Tek Noktadan Yayıncılık Çalışma Masanız
-- [ddiu8081/bus-vis](https://github.com/ddiu8081/bus-vis) - 🚌 Çin şehir otobüsü görselleştirmeleri.
-- [vitejs/vite](https://github.com/vitejs/vite) - Yeni nesil frontend araçları. Hızlıdır!
-- [notea-org/notea](https://github.com/notea-org/notea) - 📒 S3 üzerinde saklanan, kendi kendine barındırılan not alma uygulaması
-- [heroui-inc/heroui](https://github.com/heroui-inc/heroui) - 🚀 Güzel, hızlı ve modern React UI kütüphanesi. (Önceden NextUI)
+- [vuepress-reco/vuepress-theme-reco](https://github.com/vuepress-reco/vuepress-theme-reco) - 🎨 Bu, vuepress-theme-reco 2'nin deposudur.
+- [WayneGongCN/microsoft-todo-browser-ext](https://github.com/WayneGongCN/microsoft-todo-browser-ext) - Microsoft To Do için açık kaynaklı üçüncü taraf bir tarayıcı uzantısı
+- [outline/outline](https://github.com/outline/outline) - Büyüyen ekipler için en hızlı bilgi tabanı. Güzel, gerçek zamanlı işbirliği, zengin özellikli ve markdown uyumlu.
+- [geist-org/geist-ui](https://github.com/geist-org/geist-ui) - Modern web siteleri ve uygulamalar oluşturmak için bir tasarım sistemi.
+- [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) - Tek Noktadan Yayıncılık Çalışma Tezgahınız
+- [ddiu8081/bus-vis](https://github.com/ddiu8081/bus-vis) - 🚌 Çin şehir otobüslerinin görselleştirilmesi.
+- [vitejs/vite](https://github.com/vitejs/vite) - Yeni nesil ön yüz araçları. Çok hızlı!
+- [notea-org/notea](https://github.com/notea-org/notea) - 📒 S3'te depolanan, kendi kendine barındırılan not alma uygulaması
+- [heroui-inc/heroui](https://github.com/heroui-inc/heroui) - 🚀 Güzel, hızlı ve modern React UI kütüphanesi. (Önceki adıyla NextUI)
 - [coder/code-server](https://github.com/coder/code-server) - Tarayıcıda VS Code
-- [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) - Hızlı UI geliştirme için utility-first CSS çerçevesi.
-- [danloh/mdSilo-web](https://github.com/danloh/mdSilo-web) - Yerel düz metin dosyaları üzerinde çalışan tarayıcı içi bilgi tabanı
-- [Gisto/Gisto](https://github.com/Gisto/Gisto) - Gisto, siz ve/veya ekibinizin kod parçacıklarını hızlı ve kolayca paylaşmasını sağlayan çapraz platform kod parçacığı yönetim uygulamasıdır.  GitHub Gists Altyapısı üzerine kuruludur, yani tüm e
-- [GustavoASC/google-drive-vscode](https://github.com/GustavoASC/google-drive-vscode) - VSCode'u Google Drive™ ile entegre eden uzantı
-- [liupan1890/aliyunpan](https://github.com/liupan1890/aliyunpan) - Aliyun Drive Küçük Beyaz Koyun Sürümü  Aliyun Drive PC Sürümü aliyundriver
-- [Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo) - :rocket:vue-cli-electron-builder ile geliştirilmiş basit ve güzel bir resim yükleme aracı
-- [XPoet/picx](https://github.com/XPoet/picx) - 🏞️ PicX, GitHub API tabanlı bir resim barındırma aracıdır; resim yükleme, barındırma, resim bağlantısı oluşturma ve yaygın resim araç kutusu hizmetleri sunar.
-- [Actions-R-Us/actions-tagger](https://github.com/Actions-R-Us/actions-tagger) - Aksiyon sürümlerinizi güncel tutmak için meta-aksiyon :rocket:
+- [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) - Hızlı UI geliştirme için utility-first CSS çatısı.
+- [danloh/mdSilo-web](https://github.com/danloh/mdSilo-web) - Yerel düz metin dosyalarının üzerinde, tarayıcıda bilgi tabanı
+- [Gisto/Gisto](https://github.com/Gisto/Gisto) - Gisto, kod parçacıklarınızı hızlı ve kolayca paylaşmanıza olanak tanıyan, çapraz platform kod parçası yönetim uygulamasıdır. GitHub Gists Altyapısı tabanlıdır; yani tüm gistlerinizi kullanabilirsiniz.
+- [GustavoASC/google-drive-vscode](https://github.com/GustavoASC/google-drive-vscode) - VSCode'u Google Drive™ ile entegre eden eklenti
+- [liupan1890/aliyunpan](https://github.com/liupan1890/aliyunpan) - Aliyun Drive Küçük Beyaz Kuzu Sürümü  Aliyun Drive PC sürümü aliyundriver
+- [Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo) - :rocket: vue-cli-electron-builder ile oluşturulmuş, resim yükleme için basit ve güzel bir araç
+- [XPoet/picx](https://github.com/XPoet/picx) - 🏞️ PicX, GitHub API tabanlı bir resim barındırma aracı olup, resim yükleme, bağlantı oluşturma ve sık kullanılan resim araç kutusu hizmetleri sunar.
+- [Actions-R-Us/actions-tagger](https://github.com/Actions-R-Us/actions-tagger) - Eylem sürümlerinizi güncel tutmak için meta-eylem :rocket:
 - [Ajaxy/telegram-tt](https://github.com/Ajaxy/telegram-tt) - Telegram Web A, GPL v3
 - [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) - El çizimi benzeri diyagramlar çizmek için sanal beyaz tahta
 - [nglviewer/ngl](https://github.com/nglviewer/ngl) - WebGL protein görüntüleyici
-- [mjswensen/themer](https://github.com/mjswensen/themer) - 🎨 themer, bir dizi rengi alır ve uygulamalarınız için temalar üretir (editörler, terminaller, duvar kağıtları ve daha fazlası).
-- [Binaryify/OneDark-Pro](https://github.com/Binaryify/OneDark-Pro) - Atom'un ikonik One Dark teması Visual Studio Code için
-- [ritwickdey/vscode-create-file-folder](https://github.com/ritwickdey/vscode-create-file-folder) - Atom Stili dosya & klasör oluşturmanızı sağlayan küçük bir vscode eklentisi.
+- [mjswensen/themer](https://github.com/mjswensen/themer) - 🎨 themer bir dizi rengi alır ve uygulamalarınız (editörler, terminaller, duvar kağıtları ve daha fazlası) için temalar üretir.
+- [Binaryify/OneDark-Pro](https://github.com/Binaryify/OneDark-Pro) - Visual Studio Code için Atom'un ikonik One Dark teması
+- [ritwickdey/vscode-create-file-folder](https://github.com/ritwickdey/vscode-create-file-folder) - Atom tarzında dosya ve klasör oluşturmanıza yardımcı olan küçük bir vscode eklentisi.
 - [whyour/qinglong](https://github.com/whyour/qinglong) - Python3, JavaScript, Shell, Typescript destekli zamanlanmış görev yönetim platformu (Timed task management platform supporting Python3, JavaScript, Shell, Typescript)
-- [johnpapa/vscode-peacock](https://github.com/johnpapa/vscode-peacock) - Visual Studio Code çalışma alanınızın rengini hafifçe değiştirin. Birden fazla VS Code örneğiniz varsa, VS Live Share veya VS Code'un Uzaktan özelliklerini kullanıyorsanız ve çalışma alanınızı hızlıca tanımlamak istiyorsanız idealdir.
+- [johnpapa/vscode-peacock](https://github.com/johnpapa/vscode-peacock) - Visual Studio Code çalışma alanınızın rengini hafifçe değiştirin. Birden fazla VS Code örneğiniz varsa, VS Live Share kullanıyorsanız veya VS Code'un Uzaktan özelliklerini kullanıyorsanız ve hızlıca ayırt etmek istiyorsanız idealdir.
 - [morethanwords/tweb](https://github.com/morethanwords/tweb) - Telegram Web K, GPL v3
-- [gitkraken/vscode-gitlens](https://github.com/gitkraken/vscode-gitlens) - VS Code'da Git'i güçlendirin ve her bir depodaki gizli bilgileri ortaya çıkarın — Git blame açıklamaları ve CodeLens ile kod sahipliğini anında görselleştirin, Git geçmişini sorunsuzca gezin ve keşfedin
+- [gitkraken/vscode-gitlens](https://github.com/gitkraken/vscode-gitlens) - Git'i VS Code içinde güçlendirin ve her depo içindeki gizli bilgileri ortaya çıkarın — Git blame açıklamaları ve CodeLens ile kod sahipliğini anında görselleştirin, Git geçmişinde sorunsuzca gezin ve keşfedin
 - [carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji) - Commit mesajlarınız için emoji rehberi. 😜
-- [NotionX/react-notion-x](https://github.com/NotionX/react-notion-x) - Notion için hızlı ve doğru React render edici. TS pilleri dahil. ⚡️
+- [NotionX/react-notion-x](https://github.com/NotionX/react-notion-x) - Notion için hızlı ve doğru React renderlayıcı. TS pil dahil. ⚡️
 - [Shywim/github-repo-size](https://github.com/Shywim/github-repo-size) - Bir Github deposunun boyutunu gösteren Firefox eklentisi.
 - [streetsidesoftware/vscode-spell-checker](https://github.com/streetsidesoftware/vscode-spell-checker) - Kod için basit bir kaynak kodu yazım denetleyicisi
-- [brianlovin/figma-dominant-color-toolkit](https://github.com/brianlovin/figma-dominant-color-toolkit) - Tasarımlarınızı otomatik olarak doldurmak için bir görüntüden palet üretin.
+- [brianlovin/figma-dominant-color-toolkit](https://github.com/brianlovin/figma-dominant-color-toolkit) - Bir görüntüden palet oluşturun ve tasarımlarınızı sihirli bir şekilde doldurun.
 - [transitive-bullshit/nextjs-notion-starter-kit](https://github.com/transitive-bullshit/nextjs-notion-starter-kit) - Kendi Notion tabanlı web sitenizi dakikalar içinde Next.js ve Vercel ile dağıtın.
-- [spencerwooo/onedrive-vercel-index](https://github.com/spencerwooo/onedrive-vercel-index) - Vercel ve Next.js ile desteklenen OneDrive genel dizin listeleme
+- [spencerwooo/onedrive-vercel-index](https://github.com/spencerwooo/onedrive-vercel-index) - Vercel ve Next.js tarafından desteklenen OneDrive genel dizin listeleme
 - [doki-theme/doki-theme-vscode](https://github.com/doki-theme/doki-theme-vscode) - VS-Code için sevimli anime karakter temaları.
 - [frencojobs/vscode-notion](https://github.com/frencojobs/vscode-notion) - Notion sayfalarını doğrudan Visual Studio Code içinde gezinin.
-- [lostintangent/gistpad](https://github.com/lostintangent/gistpad) - 📘 GitHub Gists kullanarak kod parçacıklarını, notları ve etkileşimli örnekleri yönetmek ve paylaşmak için VS Code eklentisi
+- [lostintangent/gistpad](https://github.com/lostintangent/gistpad) - 📘 VS Code için GitHub Gists kullanarak kod parçacıklarını, notları ve etkileşimli örnekleri yönetmek ve paylaşmak için eklenti
 - [material-extensions/vscode-material-icon-theme](https://github.com/material-extensions/vscode-material-icon-theme) - VS Code için Material Design simgeleri
-- [lokalise/i18n-ally](https://github.com/lokalise/i18n-ally) - 🌍 VS Code için hepsi bir arada i18n eklentisi
+- [lokalise/i18n-ally](https://github.com/lokalise/i18n-ally) - 🌍 VS Code için hepsi bir arada i18n uzantısı
 - [vscode-icons/vscode-icons](https://github.com/vscode-icons/vscode-icons) - Visual Studio Code için simgeler
 - [Authenticator-Extension/Authenticator](https://github.com/Authenticator-Extension/Authenticator) - Authenticator, tarayıcınızda 2 Adımlı Doğrulama kodları üretir.
-- [samuelmaddock/metastream](https://github.com/samuelmaddock/metastream) - Arkadaşlarınızla akış medyası izleyin.
+- [samuelmaddock/metastream](https://github.com/samuelmaddock/metastream) - Arkadaşlarınızla birlikte medya akışı izleyin.
 - [swdotcom/swdc-vscode](https://github.com/swdotcom/swdc-vscode) - Visual Studio Code için zaman izleme eklentisi
-- [oderwat/vscode-indent-rainbow](https://github.com/oderwat/vscode-indent-rainbow) - Girintileri daha okunur hale getirmek için soluk gökkuşağı renkli arka planla gösteren uzantı
-- [CoenraadS/Bracket-Pair-Colorizer-2](https://github.com/CoenraadS/Bracket-Pair-Colorizer-2) - VSCode için Parantez Renkleyici Eklentisi
+- [oderwat/vscode-indent-rainbow](https://github.com/oderwat/vscode-indent-rainbow) - Girintileri daha okunabilir kılmak için soluk gökkuşağı renkli arka planla gösteren eklenti
+- [CoenraadS/Bracket-Pair-Colorizer-2](https://github.com/CoenraadS/Bracket-Pair-Colorizer-2) - VSCode için Parantez Renklendirici Eklentisi
 - [YXL76/cloudmusic-vscode](https://github.com/YXL76/cloudmusic-vscode) - VS Code için Netease Music
-- [desktop/desktop](https://github.com/desktop/desktop) - Git ile uğraşmak yerine önemli olanlara odaklanın.
-- [withfig/autocomplete](https://github.com/withfig/autocomplete) - Mevcut terminal & kabuğunuz için IDE tarzı otomatik tamamlama
+- [desktop/desktop](https://github.com/desktop/desktop) - Git ile uğraşmak yerine önemli olana odaklanın.
+- [withfig/autocomplete](https://github.com/withfig/autocomplete) - Mevcut terminaliniz & kabuğunuz için IDE tarzı otomatik tamamlama
 - [rid9/DateTime](https://github.com/rid9/DateTime) - Visual Studio Code için tarih ve saat durum çubuğu bilgisi.
-- [omgovich/colord](https://github.com/omgovich/colord) - 👑 Yüksek performanslı renk manipülasyonları ve dönüşümleri için küçük ama güçlü bir araç
-- [microsoft/vscode-sublime-keybindings](https://github.com/microsoft/vscode-sublime-keybindings) - VS Code için Sublime Text Tuş Haritası eklentisi
-- [triggerjs/trigger](https://github.com/triggerjs/trigger) - HTML öznitelikleri ve CSS değişkenleriyle kaydırmaya dayalı animasyon oluşturma kütüphanesi.
+- [omgovich/colord](https://github.com/omgovich/colord) - 👑 Yüksek performanslı renk manipülasyonu ve dönüşümleri için küçük ama güçlü bir araç
+- [microsoft/vscode-sublime-keybindings](https://github.com/microsoft/vscode-sublime-keybindings) - VS Code için Sublime Text Tuş Eşlemesi eklentisi
+- [triggerjs/trigger](https://github.com/triggerjs/trigger) - HTML öznitelikleri ve CSS değişkenleriyle kaydırmaya dayalı animasyon oluşturmak için bir kütüphane.
 - [Eugeny/tabby](https://github.com/Eugeny/tabby) - Daha modern bir çağ için bir terminal
-- [Vanessa219/vditor](https://github.com/Vanessa219/vditor) - ♏  Tarayıcı tabanlı bir Markdown editörü, WYSIWYG (Zengin Metin), Anında İşleme (Typora benzeri) ve Bölünmüş Görünüm modlarını destekler. An In-browser Markdown editor, support WYSIWYG (Rich Text),  Instant Rendering (Typora-like) and Split View modes.
-- [Yqnn/svg-path-editor](https://github.com/Yqnn/svg-path-editor) - SVG yolları oluşturmak ve düzenlemek için çevrimiçi editör
+- [Vanessa219/vditor](https://github.com/Vanessa219/vditor) - ♏  Tarayıcıda çalışan bir Markdown düzenleyici, WYSIWYG (Zengin Metin), Anında Render (Typora benzeri) ve Bölünmüş Görünüm modlarını destekler.
+- [Yqnn/svg-path-editor](https://github.com/Yqnn/svg-path-editor) - SVG yolları oluşturmak ve düzenlemek için çevrim içi düzenleyici
 - [daltonmenezes/aura-theme](https://github.com/daltonmenezes/aura-theme) - ✨ Favori uygulamalarınız için güzel bir koyu tema.
 - [pawelgrzybek/snippet-generator](https://github.com/pawelgrzybek/snippet-generator) - Visual Studio Code, Sublime Text ve Atom için kod parçacığı oluşturucu
-- [robertying/learnX](https://github.com/robertying/learnX) - Tsinghua Üniversitesi Web Öğrenme için React Native ile geliştirilmiş uygulama. App for Tsinghua University Web Learning, developed with React Native. ⚛️
+- [robertying/learnX](https://github.com/robertying/learnX) - 清华大学网络学堂 App, React Native ile geliştirildi. Tsinghua Üniversitesi Web Öğrenme için uygulama, React Native ile geliştirildi. ⚛️
 - [microsoft/vscode](https://github.com/microsoft/vscode) - Visual Studio Code
-- [refined-github/refined-github](https://github.com/refined-github/refined-github) - :octocat: GitHub arayüzünü sadeleştiren ve kullanışlı özellikler ekleyen tarayıcı eklentisi
-- [reruin/sharelist](https://github.com/reruin/sharelist) - GoogleDrive OneDrive ile hızlı paylaşım
-- [dendronhq/dendron](https://github.com/dendronhq/dendron) - Kişisel bilgi yönetimi (PKM) aracı, sizinle birlikte büyür!
-- [foambubble/foam](https://github.com/foambubble/foam) - VSCode için kişisel bilgi yönetim ve paylaşım sistemi
-- [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) - Gizliliği ön planda tutan, tamamen açık kaynaklı, kendi kendine barındırılan kişisel bilgi yönetimi yazılımı, typescript ve golang ile yazılmıştır.
-- [Ashutosh00710/github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph) - Son 31 güne ait GitHub etkinliklerinizi gösteren dinamik olarak oluşturulan etkinlik grafiği.
+- [refined-github/refined-github](https://github.com/refined-github/refined-github) - :octocat: GitHub arayüzünü basitleştiren ve kullanışlı özellikler ekleyen tarayıcı eklentisi
+- [reruin/sharelist](https://github.com/reruin/sharelist) - GoogleDrive OneDrive'ı hızlıca paylaşın
+- [dendronhq/dendron](https://github.com/dendronhq/dendron) - Sizinle beraber büyüyen kişisel bilgi yönetimi (PKM) aracı!
+- [foambubble/foam](https://github.com/foambubble/foam) - VSCode için kişisel bilgi yönetimi ve paylaşım sistemi
+- [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) - Gizliliği önceleyen, kendi kendine barındırılan, tamamen açık kaynaklı kişisel bilgi yönetimi yazılımı, typescript ve golang ile yazılmıştır.
+- [Ashutosh00710/github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph) - Son 31 gün içindeki GitHub etkinliklerinizi göstermek için dinamik olarak oluşturulan etkinlik grafiği.
 - [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) - 🧡 Her şey RSS olabilir
-- [the1812/Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved) - Güçlü Bilibili geliştirme betiği
-- [darkreader/darkreader](https://github.com/darkreader/darkreader) - Dark Reader Chrome ve Firefox eklentisi
+- [the1812/Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved) - Güçlü Bilibili geliştirilmiş betiği
+- [darkreader/darkreader](https://github.com/darkreader/darkreader) - Dark Reader Chrome ve Firefox uzantısı
 - [ankit/stylebot](https://github.com/ankit/stylebot) - Web'in görünümünü anında değiştirin
 ## VBA 
 
@@ -2264,6 +2268,6 @@ Yasal olarak mümkün olduğu ölçüde, [erbanku](https://github.com/erbanku) b
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-13
 
 ---

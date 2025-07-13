@@ -144,60 +144,61 @@
 - [obsproject/obs-studio](https://github.com/obsproject/obs-studio) - OBS Studio - Perangkat lunak gratis dan open source untuk live streaming dan perekaman layar
 ## C# # 
 
+- [OpenAiTx/OpenAiTx](https://github.com/OpenAiTx/OpenAiTx) - Platform auto-translate untuk readme & wiki proyek GitHub Anda.
 - [UnigramDev/Unigram](https://github.com/UnigramDev/Unigram) - Telegram untuk Windows
-- [IT-HaoGe/Windows-Update-Delayer](https://github.com/IT-HaoGe/Windows-Update-Delayer) - ITHaoGe Windows Update Delayer untuk Win11/10, Penunda Pembaruan Komputer IT Hao Ge, cepat menghentikan pembaruan sistem Windows11/10
+- [IT-HaoGe/Windows-Update-Delayer](https://github.com/IT-HaoGe/Windows-Update-Delayer) - ITHaoGe Windows Update Delayer untuk Win11/10，IT豪哥电脑更新暂停器，dengan cepat menghentikan sementara pembaruan sistem Windows11/10
 - [hellzerg/optimizer](https://github.com/hellzerg/optimizer) - Optimizer Windows terbaik
-- [thebookisclosed/ViVe](https://github.com/thebookisclosed/ViVe) - Library C# dan aplikasi konsol untuk menggunakan API kontrol fitur baru yang tersedia di Windows 10 versi 2004 dan yang lebih baru
+- [thebookisclosed/ViVe](https://github.com/thebookisclosed/ViVe) - Library C# dan aplikasi konsol untuk menggunakan API kontrol fitur baru yang tersedia di Windows 10 versi 2004 dan lebih baru
 - [xhnbzdl/feishu-doc-export](https://github.com/xhnbzdl/feishu-doc-export) - Layanan ekspor dokumen Feishu
-- [abpframework/abp](https://github.com/abpframework/abp) - Kerangka aplikasi web open-source untuk ASP.NET Core! Menawarkan arsitektur yang terarah untuk membangun solusi perangkat lunak perusahaan dengan praktik terbaik di atas .NET. Menyediakan infrastruktur dasar
+- [abpframework/abp](https://github.com/abpframework/abp) - Framework aplikasi web open-source untuk ASP.NET Core! Menawarkan arsitektur beropini untuk membangun solusi perangkat lunak enterprise dengan praktik terbaik di atas .NET. Menyediakan infrastruktur fundamental
 - [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) - Sistem Media Perangkat Lunak Gratis - Backend Server & API
 - [boy1dr/SpleeterGui](https://github.com/boy1dr/SpleeterGui) - Antarmuka desktop Windows untuk Spleeter - Pemisahan sumber AI
 - [Berrysoft/TsinghuaNet](https://github.com/Berrysoft/TsinghuaNet) - Tidak lagi dipelihara, lihat proyek tunet-rust. Klien jaringan kampus Universitas Tsinghua, cocok untuk UWP, iOS, Android.
-- [mili-tan/ArashiDNS.Dekunua](https://github.com/mili-tan/ArashiDNS.Dekunua) - Pengelola server DoH terkenal untuk Windows 11 / Alat manajemen server DoH bawaan terkenal untuk Windows 11
+- [mili-tan/ArashiDNS.Dekunua](https://github.com/mili-tan/ArashiDNS.Dekunua) - Pengelola Server DoH terkenal untuk Windows 11 / Alat manajemen server DoH internal terkenal untuk Windows 11
 - [2dust/clashN](https://github.com/2dust/clashN) - Klien clash untuk Windows, mendukung Mihomo
 - [zsh2401/AutumnBox](https://github.com/zsh2401/AutumnBox) - Kotak alat ADB grafis
-- [thufv/CMinor-Verifier](https://github.com/thufv/CMinor-Verifier) - Platform eksperimen untuk kursus "Analisis dan Verifikasi Perangkat Lunak" semester musim semi 2022 di Universitas Tsinghua (Lab for Software Analysis and Verification, 2022 Spring, Tsinghua University)
+- [thufv/CMinor-Verifier](https://github.com/thufv/CMinor-Verifier) - Platform eksperimen untuk mata kuliah Analisis dan Verifikasi Perangkat Lunak, Semester Musim Semi 2022, Universitas Tsinghua
 - [emrecancubukcu/Terrain-Decorator](https://github.com/emrecancubukcu/Terrain-Decorator) - Alat terrain ringan untuk unity3d
-- [imbushuo/EnergyStar](https://github.com/imbushuo/EnergyStar) - Aplikasi buruk yang mengatur SV2 Efficiency Mode untuk aplikasi Windows tidak aktif dan aplikasi latar belakang pengguna
-- [0x5bfa/FluentHub](https://github.com/0x5bfa/FluentHub) - Klien GitHub yang stylish namun kuat untuk Windows
-- [FireCubeStudios/Protecc](https://github.com/FireCubeStudios/Protecc) - Ia melindungi
-- [AxDSan/KeyPose](https://github.com/AxDSan/KeyPose) - Alternatif 'Mouseposé' untuk Windows,
-- [RaoHammas/Social-Space](https://github.com/RaoHammas/Social-Space) - Social Space adalah aplikasi yang memungkinkan Anda membuka aplikasi Anda berdampingan & menyimpan ruang kerja.
-- [ros/solidworks_urdf_exporter](https://github.com/ros/solidworks_urdf_exporter) - Ekspor SolidWorks ke URDF
+- [imbushuo/EnergyStar](https://github.com/imbushuo/EnergyStar) - Aplikasi buruk yang mengatur Mode Efisiensi SV2 untuk aplikasi Windows yang tidak aktif dan aplikasi latar belakang pengguna
+- [0x5bfa/FluentHub](https://github.com/0x5bfa/FluentHub) - Klien GitHub yang bergaya dan kuat untuk Windows
+- [FireCubeStudios/Protecc](https://github.com/FireCubeStudios/Protecc) - Ini protecc
+- [AxDSan/KeyPose](https://github.com/AxDSan/KeyPose) - Alternatif untuk 'Mouseposé' di Windows,
+- [RaoHammas/Social-Space](https://github.com/RaoHammas/Social-Space) - Social Space adalah aplikasi yang memungkinkan Anda membuka aplikasi berdampingan & menyimpan ruang kerja.
+- [ros/solidworks_urdf_exporter](https://github.com/ros/solidworks_urdf_exporter) - SolidWorks ke URDF Exporter
 - [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) - PowerShell untuk setiap sistem!
-- [Rise-Software/Rise-Media-Player](https://github.com/Rise-Software/Rise-Media-Player) - Satu pemutar media untuk semua koleksi atau streaming Anda; baik musik maupun video, online atau offline, Rise Media Player bisa semuanya. Dan aplikasi ini cantik dan native dengan versi terbaru WinUI.
+- [Rise-Software/Rise-Media-Player](https://github.com/Rise-Software/Rise-Media-Player) - Satu pemutar media untuk semua yang Anda miliki atau streaming; baik itu musik atau video, online atau offline, Rise Media Player dapat melakukan semuanya. Dan tampilannya indah dan native dengan versi terbaru WinUI.
 - [rocksdanister/lively](https://github.com/rocksdanister/lively) - Perangkat lunak gratis dan open-source yang memungkinkan pengguna mengatur wallpaper dan screensaver desktop animasi yang didukung oleh WinUI 3.
-- [dremin/RetroBar](https://github.com/dremin/RetroBar) - Taskbar klasik Windows 95, 98, Me, 2000, XP, Vista untuk versi modern Windows
-- [lalakii/MouseClickTool](https://github.com/lalakii/MouseClickTool) - Auto-clicker mouse yang sederhana dan mudah digunakan, ukuran kecil, performa bagus~ Auto-clicker mouse. Ukuran versi saat ini 14KB, versi online (minimal) hanya 5KB. https://mouseclicktool.sourceforge.io
-- [dotnet/yarp](https://github.com/dotnet/yarp) - Toolkit untuk mengembangkan aplikasi HTTP reverse proxy berkinerja tinggi.
-- [proxysu/ProxySU](https://github.com/proxysu/ProxySU) - Xray, V2ray, Trojan, NaiveProxy, Trojan-Go, ShadowsocksR(SSR), Shadowsocks-libev dan plugin terkait, MTProto+TLS alat instalasi sekali klik, digunakan di Windows (sekali klik internet sehat)
+- [dremin/RetroBar](https://github.com/dremin/RetroBar) - Taskbar klasik Windows 95, 98, Me, 2000, XP, Vista untuk versi Windows modern
+- [lalakii/MouseClickTool](https://github.com/lalakii/MouseClickTool) - Alat klik otomatis mouse yang sederhana dan mudah digunakan, berukuran kecil, performa bagus~. Ukuran versi saat ini 14KB, versi online (minimal) hanya 5KB. https://mouseclicktool.sourceforge.io
+- [dotnet/yarp](https://github.com/dotnet/yarp) - Toolkit untuk mengembangkan aplikasi reverse proxy HTTP berkinerja tinggi.
+- [proxysu/ProxySU](https://github.com/proxysu/ProxySU) - Xray,V2ray,Trojan,NaiveProxy, Trojan-Go, ShadowsocksR(SSR),Shadowsocks-libev dan plugin terkait,MTProto+TLS alat instalasi satu klik, digunakan di Windows (satu klik internet sehat)
 - [bitwarden/server](https://github.com/bitwarden/server) - Infrastruktur/backend Bitwarden (API, database, Docker, dll).
 - [QL-Win/QuickLook](https://github.com/QL-Win/QuickLook) - Membawa fitur “Quick Look” macOS ke Windows
 - [DinoChan/Loaf](https://github.com/DinoChan/Loaf) - 
-- [ShareX/ShareX](https://github.com/ShareX/ShareX) - ShareX adalah aplikasi gratis dan open-source yang memungkinkan pengguna menangkap atau merekam area mana pun di layar mereka dengan satu tombol. Juga mendukung pengunggahan gambar, teks, dan berbagai jenis file ke
-- [shadowsocks/shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows) - Port shadowsocks ke C#
-- [gheyret/UyghurEditPP](https://github.com/gheyret/UyghurEditPP) - Editor Teks dengan Kemampuan Pemeriksa Ejaan untuk Uyghur
-- [marian42/wavefunctioncollapse](https://github.com/marian42/wavefunctioncollapse) - Menjelajahi kota tak terbatas yang dihasilkan secara prosedural
-- [kenvix/USBCopyer](https://github.com/kenvix/USBCopyer) - 😉 Digunakan untuk secara otomatis menyalin file dari USB yang terpasang sesuai kebutuhan. "Alat backup & pencuri file USB terbaik" (ditulis USBCopyer, dibaca USBCopier)
+- [ShareX/ShareX](https://github.com/ShareX/ShareX) - ShareX adalah aplikasi gratis dan open-source yang memungkinkan pengguna menangkap atau merekam area mana pun di layar mereka dengan satu tombol. Mendukung juga pengunggahan gambar, teks, dan berbagai tipe file ke
+- [shadowsocks/shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows) - Port C# dari shadowsocks
+- [gheyret/UyghurEditPP](https://github.com/gheyret/UyghurEditPP) - Editor Teks dengan Kemampuan Pemeriksaan Ejaan untuk Uyghur
+- [marian42/wavefunctioncollapse](https://github.com/marian42/wavefunctioncollapse) - Berjalan melalui kota tak terbatas yang dihasilkan secara prosedural
+- [kenvix/USBCopyer](https://github.com/kenvix/USBCopyer) - 😉 Otomatis menyalin file dari USB ketika USB dicolokkan. "Alat backup & pencuri file USB terbaik" (ditulis USBCopyer, dibaca USBCopier)
 - [sttz/expresso](https://github.com/sttz/expresso) - expresso adalah antarmuka baris perintah untuk mengontrol aplikasi ExpressVPN
 - [Azure/azure-powershell](https://github.com/Azure/azure-powershell) - Microsoft Azure PowerShell
-- [LimerBoy/Adamantium-Thief](https://github.com/LimerBoy/Adamantium-Thief) - :key: (KODE INI KADALUARSA UNTUK VERSI CHROME BARU) Mendekripsi password, cookie, kartu kredit, riwayat, bookmark, pengisian otomatis browser berbasis chromium. Versi > 80 didukung.
+- [LimerBoy/Adamantium-Thief](https://github.com/LimerBoy/Adamantium-Thief) - :key: (KODE INI TIDAK LAGI MENDUKUNG VERSI CHROME BARU) Mendekripsi kata sandi, cookies, kartu kredit, riwayat, bookmark, autofill browser berbasis chromium. Mendukung versi > 80.
 - [wakatime/notepadpp-wakatime](https://github.com/wakatime/notepadpp-wakatime) - Plugin Notepad++ untuk pelacakan waktu otomatis dan metrik yang dihasilkan dari aktivitas pemrograman Anda.
 - [wakatime/office-wakatime](https://github.com/wakatime/office-wakatime) - Add-in Solusi Office untuk pelacakan waktu otomatis dan metrik yang dihasilkan dari aktivitas pemrograman Anda.
 - [microsoft/PowerToys](https://github.com/microsoft/PowerToys) - Utilitas sistem Windows untuk memaksimalkan produktivitas
-- [0x7c13/Notepads](https://github.com/0x7c13/Notepads) - Editor teks modern dan ringan dengan desain minimalis.
+- [0x7c13/Notepads](https://github.com/0x7c13/Notepads) - Editor teks modern, ringan dengan desain minimalis.
 - [srwi/EverythingToolbar](https://github.com/srwi/EverythingToolbar) - Integrasi Everything untuk taskbar Windows.
-- [mpvnet-player/mpv.net](https://github.com/mpvnet-player/mpv.net) - 🎞 mpv.net adalah pemutar media untuk Windows dengan antarmuka modern.
-- [ModuleArt/quick-picture-viewer](https://github.com/ModuleArt/quick-picture-viewer) - 🖼️ Penampil gambar desktop ringan dan serbaguna untuk Windows. Pengganti terbaik untuk penampil foto bawaan Windows.
-- [nilaoda/BBDown](https://github.com/nilaoda/BBDown) - Bilibili Downloader. Sebuah downloader Bilibili berbasis command line.
-- [TGSAN/CMWTAT_Digital_Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition) - CloudMoe Windows 10/11 Activation Toolkit mendapatkan lisensi digital, aktivator open source Win 10/11 terbaik di GitHub. Alat aktivasi digital Win10/Win11 open source terbaik di GitHub!
+- [mpvnet-player/mpv.net](https://github.com/mpvnet-player/mpv.net) - 🎞 mpv.net adalah pemutar media untuk Windows dengan GUI modern.
+- [ModuleArt/quick-picture-viewer](https://github.com/ModuleArt/quick-picture-viewer) - 🖼️ Penampil gambar desktop ringan dan serbaguna untuk Windows. Pengganti terbaik untuk penampil foto default Windows.
+- [nilaoda/BBDown](https://github.com/nilaoda/BBDown) - Bilibili Downloader. Downloader Bilibili berbasis command line.
+- [TGSAN/CMWTAT_Digital_Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition) - CloudMoe Windows 10/11 Activation Toolkit untuk mendapatkan lisensi digital, aktivator Win 10/11 open source terbaik di GitHub. Aktivator hak digital (lisensi digital) Win10/Win11 open source terbaik di GitHub!
 - [AutoDarkMode/Windows-Auto-Night-Mode](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode) - Secara otomatis beralih antara tema gelap dan terang Windows 10 dan Windows 11
-- [mili-tan/AuroraDNS.GUI](https://github.com/mili-tan/AuroraDNS.GUI) - Murni anti-pencemaran, sederhana dan ringan
-- [Richasy/BiliBili-UWP](https://github.com/Richasy/BiliBili-UWP) - Klien UWP untuk BiliBili, tentu saja, ini pihak ketiga
-- [BluePointLilac/ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager) - 🖱️ Program murni untuk mengelola menu klik kanan Windows
-- [Tichau/FileConverter](https://github.com/Tichau/FileConverter) - File Converter adalah alat yang sangat sederhana yang memungkinkan Anda mengonversi dan mengompres file menggunakan menu konteks di Windows Explorer.
-- [Alkl58/NotEnoughAV1Encodes](https://github.com/Alkl58/NotEnoughAV1Encodes) - Antarmuka GUI untuk AV1 (aomenc, rav1e & svt-av1)
-- [t1m0thyj/WinDynamicDesktop](https://github.com/t1m0thyj/WinDynamicDesktop) - Port fitur Desktop Dinamis macOS Mojave ke Windows
+- [mili-tan/AuroraDNS.GUI](https://github.com/mili-tan/AuroraDNS.GUI) - Murni anti-pollusi, sederhana dan ringan
+- [Richasy/BiliBili-UWP](https://github.com/Richasy/BiliBili-UWP) - Klien UWP untuk BiliBili, tentu saja, ini adalah pihak ketiga
+- [BluePointLilac/ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager) - 🖱️ Program manajemen menu klik kanan Windows yang murni
+- [Tichau/FileConverter](https://github.com/Tichau/FileConverter) - File Converter adalah alat yang sangat sederhana yang memungkinkan Anda mengonversi dan mengompres file menggunakan menu konteks di windows explorer.
+- [Alkl58/NotEnoughAV1Encodes](https://github.com/Alkl58/NotEnoughAV1Encodes) - GUI untuk AV1 (aomenc, rav1e & svt-av1)
+- [t1m0thyj/WinDynamicDesktop](https://github.com/t1m0thyj/WinDynamicDesktop) - Port fitur Dynamic Desktop macOS Mojave ke Windows
 ## C++ 
 
 - [zen-browser/desktop](https://github.com/zen-browser/desktop) - Selamat datang di internet yang lebih tenang
@@ -347,15 +348,15 @@
 
 ## EJS 
 
-- [Fechin/reference](https://github.com/Fechin/reference) - ⭕ Bagikan lembar contekan referensi cepat untuk pengembang.
+- [Fechin/reference](https://github.com/Fechin/reference) - ⭕ Berbagi cheat sheet referensi cepat untuk pengembang.
 
 ## Elm 
 
-- [hilverd/glossary-page-template](https://github.com/hilverd/glossary-page-template) - Satu halaman HTML dengan editor bawaan untuk membuat glosarium yang bisa di-host di mana saja.
+- [hilverd/glossary-page-template](https://github.com/hilverd/glossary-page-template) - Satu halaman HTML dengan editor bawaan untuk membuat glosarium yang dapat dihosting di mana saja.
 
 ## Erlang 
 
-- [emqx/emqx](https://github.com/emqx/emqx) - Broker MQTT paling skalabel dan andal untuk AI, IoT, IIoT dan kendaraan terhubung
+- [emqx/emqx](https://github.com/emqx/emqx) - Broker MQTT paling skalabel dan andal untuk AI, IoT, IIoT, dan kendaraan terhubung
 
 ## GDScript 
 
@@ -363,136 +364,137 @@
 
 ## Go 
 
+- [lucaslorentz/caddy-docker-proxy](https://github.com/lucaslorentz/caddy-docker-proxy) - Caddy sebagai reverse proxy untuk Docker
 - [OpenListTeam/OpenList](https://github.com/OpenListTeam/OpenList) - Fork AList baru untuk Krisis Anti Trust
-- [samzong/mdctl](https://github.com/samzong/mdctl) - Alat CLI bertenaga AI untuk meningkatkan alur kerja Markdown Anda, dengan fitur pengunduhan gambar otomatis, terjemahan, dan fitur lain yang segera hadir!
+- [samzong/mdctl](https://github.com/samzong/mdctl) - Alat CLI bertenaga AI untuk meningkatkan alur kerja Markdown Anda, dengan fitur unduh gambar otomatis, terjemahan, dan fitur lainnya segera hadir!
 - [henrygd/beszel](https://github.com/henrygd/beszel) - Hub pemantauan server ringan dengan data historis, statistik docker, dan peringatan.
 - [jonssonyan/h-ui](https://github.com/jonssonyan/h-ui) - Hanya panel untuk Hysteria2 / 仅仅是 Hysteria2 的面板
 - [bepass-org/warp-plus](https://github.com/bepass-org/warp-plus) - Warp+Psiphon, utilitas anti sensor untuk Iran
-- [nezhahq/nezha](https://github.com/nezhahq/nezha) - :trollface: Alat pemantauan server dan situs web mandiri, ringan dan O&M
-- [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) - Cara lebih santai untuk mengelola semua hal tentang docker
-- [OwO-Network/DeepLX](https://github.com/OwO-Network/DeepLX) - API DeepL Gratis yang Kuat, Tidak Perlu Token
-- [juanfont/headscale](https://github.com/juanfont/headscale) - Implementasi server kontrol Tailscale yang bersifat open source dan mandiri
+- [nezhahq/nezha](https://github.com/nezhahq/nezha) - :trollface: Alat pemantauan server dan website O&M ringan yang dihosting sendiri
+- [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) - Cara lebih malas untuk mengelola semua hal docker
+- [OwO-Network/DeepLX](https://github.com/OwO-Network/DeepLX) - DeepL API Gratis yang Kuat, Tidak Memerlukan Token
+- [juanfont/headscale](https://github.com/juanfont/headscale) - Implementasi open source dan self-hosted dari server kontrol Tailscale
 - [tgdrive/teldrive](https://github.com/tgdrive/teldrive) - Teldrive
-- [apernet/OpenGFW](https://github.com/apernet/OpenGFW) - OpenGFW adalah implementasi fleksibel, mudah digunakan, dan open source dari GFW (Great Firewall of China) di Linux
-- [putyy/res-downloader](https://github.com/putyy/res-downloader) - Pengunduhan sumber daya jaringan umum seperti 视频号, mini program, Douyin, Kuaishou, Xiaohongshu, live stream, m3u8, Kugou, QQ Music, dll!
+- [apernet/OpenGFW](https://github.com/apernet/OpenGFW) - OpenGFW adalah implementasi open source GFW (Great Firewall of China) yang fleksibel dan mudah digunakan di Linux
+- [putyy/res-downloader](https://github.com/putyy/res-downloader) - Pengunduh sumber daya jaringan umum seperti 视频号, Mini Program, Douyin, Kuaishou, Xiaohongshu, streaming langsung, m3u8, Kugou, QQ Music, dll!
 - [eyebluecn/tank](https://github.com/eyebluecn/tank) - 《蓝眼云盘》(Eyeblue Cloud Storage)
 - [Wsine/feishu2md](https://github.com/Wsine/feishu2md) - Unduh dokumen Feishu ke Markdown dengan satu perintah
 - [bitrise-io/envman](https://github.com/bitrise-io/envman) - Manajer variabel lingkungan
-- [ollama/ollama](https://github.com/ollama/ollama) - Mulai dan jalankan Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3, Mistral Small 3.1 dan model bahasa besar lainnya.
+- [ollama/ollama](https://github.com/ollama/ollama) - Mulai dan jalankan dengan Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3, Mistral Small 3.1, dan model bahasa besar lainnya.
 - [stillOnTheWay/openbilibili-go-common](https://github.com/stillOnTheWay/openbilibili-go-common) - Kode sumber backend situs 哔哩哔哩 bilibili, berasal dari https://github.com/openbilibili
 - [changwh/go-common](https://github.com/changwh/go-common) - 
-- [juzeon/poe-openai-proxy](https://github.com/juzeon/poe-openai-proxy) - Pembungkus yang memungkinkan Anda menggunakan pustaka Python poe-api yang direkayasa balik seolah-olah itu adalah API OpenAI untuk ChatGPT. Anda dapat menghubungkan aplikasi favorit Anda berbasis API OpenAI ke proxy ini dan menikmatinya
-- [faceair/clash-speedtest](https://github.com/faceair/clash-speedtest) - uji kecepatan clash
+- [juzeon/poe-openai-proxy](https://github.com/juzeon/poe-openai-proxy) - Wrapper yang memungkinkan Anda menggunakan pustaka poe-api Python hasil rekayasa balik seolah-olah itu adalah OpenAI API untuk ChatGPT. Anda dapat menghubungkan aplikasi favorit berbasis OpenAI API Anda ke proxy ini dan menikmatinya
+- [faceair/clash-speedtest](https://github.com/faceair/clash-speedtest) - clash speedtest
 - [stulzq/azure-openai-proxy](https://github.com/stulzq/azure-openai-proxy) - Proxy Azure OpenAI Service. Mengubah permintaan API resmi OpenAI ke permintaan API Azure OpenAI. Mendukung GPT-4, Embeddings, Langchain. Adapter dari OpenAI ke Azure OpenAI.
 - [mbrt/gmailctl](https://github.com/mbrt/gmailctl) - Konfigurasi deklaratif untuk filter Gmail
 - [xnth97/magic-conch](https://github.com/xnth97/magic-conch) - Bot Telegram didukung oleh Azure Cognitive Services
 - [noobnooc/ebreader](https://github.com/noobnooc/ebreader) - Pembaca epub untuk browser
 - [869413421/chatgpt-web](https://github.com/869413421/chatgpt-web) - Program web privat berbasis ChatGPT3.5 API
-- [WireGuard/wireguard-windows](https://github.com/WireGuard/wireguard-windows) - Unduh WireGuard untuk Windows di https://www.wireguard.com/install . Repo ini hanya mirror. Repositori resmi ada di https://git.zx2c4.com/wireguard-windows
-- [j178/leetgo](https://github.com/j178/leetgo) - Sahabat LeetCode terbaik untuk geek. :snowboarder:
+- [WireGuard/wireguard-windows](https://github.com/WireGuard/wireguard-windows) - Unduh WireGuard untuk Windows di https://www.wireguard.com/install . Repo ini hanya cermin. Repo resmi ada di https://git.zx2c4.com/wireguard-windows
+- [j178/leetgo](https://github.com/j178/leetgo) - Teman LeetCode terbaik untuk geek. :snowboarder:
 - [erdos-one/r2](https://github.com/erdos-one/r2) - ☁️ Antarmuka Baris Perintah untuk Cloudflare R2 Storage
-- [containrrr/watchtower](https://github.com/containrrr/watchtower) - Proses untuk mengotomatisasi pembaruan image dasar kontainer Docker.
-- [authelia/authelia](https://github.com/authelia/authelia) - Portal Single Sign-On Multi-Factor untuk aplikasi web, kini Bersertifikat OpenID™
+- [containrrr/watchtower](https://github.com/containrrr/watchtower) - Proses otomatisasi pembaruan image dasar Docker container.
+- [authelia/authelia](https://github.com/authelia/authelia) - Portal Single Sign-On Multi-Factor untuk aplikasi web, sekarang OpenID Certified™
 - [m1guelpf/chatgpt-telegram](https://github.com/m1guelpf/chatgpt-telegram) - Jalankan bot Telegram GPTChat Anda sendiri, dengan satu perintah!
-- [v2fly/v2ray-core](https://github.com/v2fly/v2ray-core) - Platform untuk membangun proxy untuk melewati pembatasan jaringan.
-- [usememos/memos](https://github.com/usememos/memos) - Platform manajemen pengetahuan dan pencatatan modern, open-source, mandiri yang dirancang untuk pengguna dan organisasi yang peduli privasi.
+- [v2fly/v2ray-core](https://github.com/v2fly/v2ray-core) - Platform untuk membangun proxy guna melewati pembatasan jaringan.
+- [usememos/memos](https://github.com/usememos/memos) - Platform manajemen pengetahuan dan pencatatan modern, open-source, dan self-hosted yang dirancang untuk pengguna dan organisasi yang peduli privasi.
 - [TimothyYe/bing-wallpaper](https://github.com/TimothyYe/bing-wallpaper) - API RESTful untuk mengambil wallpaper harian dari Bing.com
-- [imgproxy/imgproxy](https://github.com/imgproxy/imgproxy) - Server mandiri cepat dan aman untuk mengubah ukuran dan mengkonversi gambar jarak jauh
+- [imgproxy/imgproxy](https://github.com/imgproxy/imgproxy) - Server standalone cepat dan aman untuk mengubah ukuran dan mengonversi gambar jarak jauh
 - [gaowanliang/DownloadBot](https://github.com/gaowanliang/DownloadBot) - (Saat ini) 🤖 Bot Telegram terdistribusi lintas platform yang dapat mengontrol server Aria2 Anda, mengelola file server, dan juga mengunggah ke OneDrive / Google Drive.
-- [huo-ju/dfserver](https://github.com/huo-ju/dfserver) - Server pipeline backend AI terdistribusi
-- [charmbracelet/vhs](https://github.com/charmbracelet/vhs) - Perekam video rumahan CLI Anda 📼
-- [TruthHun/DocHub](https://github.com/TruthHun/DocHub) - Mengacu pada Baidu Wenku, sistem perpustakaan dokumen open source yang dikembangkan dengan Beego (Golang)
-- [XTLS/Xray-core](https://github.com/XTLS/Xray-core) - Xray, Menembus Segalanya. Juga v2ray-core terbaik. Tempat keajaiban terjadi. Platform terbuka untuk berbagai penggunaan.
-- [p4gefau1t/trojan-go](https://github.com/p4gefau1t/trojan-go) - Trojan proxy yang diimplementasikan dalam Go, mendukung multiplexing/routing/CDN relay/plug-in Shadowsocks obfuscation, multiplatform, tanpa dependensi. Trojan proxy yang tidak dapat diidentifikasi yang membantu Anda melewati GFW. https://p4gefau1t.github.io/trojan-go/
-- [Jrohy/trojan](https://github.com/Jrohy/trojan) - Program manajemen dan penyebaran multi-pengguna trojan, mendukung manajemen halaman web
-- [caddyserver/caddy](https://github.com/caddyserver/caddy) - Server web HTTP/1-2-3 multiplatform yang cepat dan dapat diperluas dengan HTTPS otomatis
+- [huo-ju/dfserver](https://github.com/huo-ju/dfserver) - Server backend pipeline AI terdistribusi
+- [charmbracelet/vhs](https://github.com/charmbracelet/vhs) - Perekam video rumah CLI Anda 📼
+- [TruthHun/DocHub](https://github.com/TruthHun/DocHub) - Mirip Baidu Wenku, sistem perpustakaan dokumen open-source yang dikembangkan dengan Beego (Golang)
+- [XTLS/Xray-core](https://github.com/XTLS/Xray-core) - Xray, Menembus Segalanya. Juga v2ray-core terbaik. Tempat keajaiban terjadi. Platform terbuka untuk berbagai keperluan.
+- [p4gefau1t/trojan-go](https://github.com/p4gefau1t/trojan-go) - Trojan proxy yang diimplementasikan dengan Go, mendukung multiplexing/routing/CDN relay/Plugin Shadowsocks, multi-platform, tanpa dependensi. Trojan proxy yang tak teridentifikasi untuk melewati GFW. https://p4gefau1t.github.io/trojan-go/
+- [Jrohy/trojan](https://github.com/Jrohy/trojan) - Program manajemen dan deployment multi-user trojan, mendukung manajemen halaman web
+- [caddyserver/caddy](https://github.com/caddyserver/caddy) - Server web HTTP/1-2-3 multi-platform cepat dan dapat diperluas dengan HTTPS otomatis
 - [Snawoot/opera-proxy](https://github.com/Snawoot/opera-proxy) - Klien mandiri untuk proxy Opera VPN
-- [gphper/grm](https://github.com/gphper/grm) - Alat visualisasi redis (gin+element-plus)【Penyebaran mudah, koneksi SSH, verifikasi pengguna, log operasi, mode baris perintah, eksekusi skrip LUA, pemantauan Redis, dll】
+- [gphper/grm](https://github.com/gphper/grm) - Alat visualisasi redis (gin+element-plus)【Deploy mudah, koneksi SSH, verifikasi pengguna, log operasi, mode command line, eksekusi skrip LUA, monitoring Redis, dll】
 - [maxmunzel/kvass](https://github.com/maxmunzel/kvass) - Penyimpanan key-value pribadi
-- [caarlos0/starcharts](https://github.com/caarlos0/starcharts) - Plot bintang repositori Anda dari waktu ke waktu.
+- [caarlos0/starcharts](https://github.com/caarlos0/starcharts) - Plot bintang repository Anda dari waktu ke waktu.
 - [ViRb3/wgcf](https://github.com/ViRb3/wgcf) - 🚤 CLI lintas platform tidak resmi untuk Cloudflare Warp
 - [macronut/phantomsocks](https://github.com/macronut/phantomsocks) - Klien/server proxy lintas platform untuk Linux/Windows/macOS
 - [macronut/ghostcp](https://github.com/macronut/ghostcp) - GhosTCP adalah program untuk Windows yang melindungi koneksi TCP dari gangguan.
 - [pretty66/iptables-web](https://github.com/pretty66/iptables-web) - Program manajemen iptables berbasis web yang dikembangkan dengan golang
 - [navidrome/navidrome](https://github.com/navidrome/navidrome) - 🎧☁️ Layanan Streaming Pribadi Anda
 - [jwma/jump-jump](https://github.com/jwma/jump-jump) - Siap pakai, sistem short link lengkap yang dikembangkan dengan Golang. Layanan pemendek URL yang dikembangkan dengan golang.
-- [akiyosi/goneovim](https://github.com/akiyosi/goneovim) - Antarmuka GUI untuk neovim.
-- [pluveto/upgit](https://github.com/pluveto/upgit) - Hub unggah lain yang mendukung clipboard. Bekerja dengan baik dengan Typora, Snipaste, VSCode.
-- [wabarc/wayback](https://github.com/wabarc/wayback) - Alat pengarsipan dengan antarmuka gaya IM yang memprioritaskan privasi dan aksesibilitas, terintegrasi dengan berbagai layanan pengarsipan termasuk Internet Archive, archive.today, Ghostarchive, IPFS, Telegr
-- [muety/wakapi](https://github.com/muety/wakapi) - 📊 Backend minimalis, mandiri, kompatibel WakaTime untuk statistik coding
-- [disksing/sao-gen-gen](https://github.com/disksing/sao-gen-gen) - Generator generator kata-kata nyeleneh
-- [ArtalkJS/Artalk](https://github.com/ArtalkJS/Artalk) - 🌌  Sistem Komentar Mandiri Anda. | Sistem komentar self-hosted
-- [sheepla/pingu](https://github.com/sheepla/pingu) - 🐧perintah ping tetapi dengan pingu
-- [noisetorch/NoiseTorch](https://github.com/noisetorch/NoiseTorch) - Penekan kebisingan mikrofon real-time di Linux.
-- [utahta/pythonbrew](https://github.com/utahta/pythonbrew) - Manajer Lingkungan Python
-- [gogs/gogs](https://github.com/gogs/gogs) - Gogs adalah layanan Git mandiri yang mudah
-- [Licoy/fetch-github-hosts](https://github.com/Licoy/fetch-github-hosts) - 🌏 Alat sinkronisasi hosts github, mendukung antarmuka grafis dan baris perintah multi-platform, mode klien dan server bawaan~ | Alat sinkronisasi hosts GitHub, dukungan mode klien dan server, multi-platform, GUI dan CLI
-- [Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip) - 🌚 🌍 🌝 File aturan GeoIP edisi diperkuat, mendukung kustomisasi file format V2Ray dat geoip.dat, format MaxMind mmdb, format sing-box SRS, format mihomo MRS, ruleset Clash, ruleset Surge, dll. Edisi peningkatan file GeoIP untuk V2Ray, Xray-core, sing-box, Cl
-- [master-coder-ll/v2ray-web-manager](https://github.com/master-coder-ll/v2ray-web-manager) - v2ray-web-manager adalah panel v2ray, juga solusi klaster; dengan tambahan kontrol lalu lintas/manajemen akun/pembatasan kecepatan, dll. kunci: admin, panel, web, cluster, proxy
-- [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core) - Platform untuk membangun proxy untuk melewati pembatasan jaringan.
+- [akiyosi/goneovim](https://github.com/akiyosi/goneovim) - GUI frontend untuk neovim.
+- [pluveto/upgit](https://github.com/pluveto/upgit) - Hub upload lain yang mendukung clipboard. Berfungsi baik dengan Typora, Snipaste, VSCode.
+- [wabarc/wayback](https://github.com/wabarc/wayback) - Alat pengarsipan dengan antarmuka gaya IM yang memprioritaskan privasi dan aksesibilitas, terintegrasi dengan berbagai layanan arsip termasuk Internet Archive, archive.today, Ghostarchive, IPFS, Telegram
+- [muety/wakapi](https://github.com/muety/wakapi) - 📊 Backend minimalis, self-hosted, kompatibel WakaTime untuk statistik coding
+- [disksing/sao-gen-gen](https://github.com/disksing/sao-gen-gen) - Generator pembuat kalimat lucu
+- [ArtalkJS/Artalk](https://github.com/ArtalkJS/Artalk) - 🌌  Sistem Komentar Self-hosted Anda. | 自托管评论系统
+- [sheepla/pingu](https://github.com/sheepla/pingu) - 🐧Perintah ping tapi dengan pingu
+- [noisetorch/NoiseTorch](https://github.com/noisetorch/NoiseTorch) - Penekan noise mikrofon real-time di Linux.
+- [utahta/pythonbrew](https://github.com/utahta/pythonbrew) - Manajer Environment Python
+- [gogs/gogs](https://github.com/gogs/gogs) - Gogs adalah layanan Git self-hosted yang mudah
+- [Licoy/fetch-github-hosts](https://github.com/Licoy/fetch-github-hosts) - 🌏 Alat sinkronisasi hosts github, mendukung GUI dan command line multi-platform, mode klien dan server bawaan~ | Alat sinkronisasi hosts GitHub, mendukung multi-platform grafis dan command line, mode klien dan server bawaan
+- [Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip) - 🌚 🌍 🌝 File aturan GeoIP edisi diperkuat, mendukung kustomisasi file format V2Ray dat geoip.dat, format MaxMind mmdb, format sing-box SRS, format mihomo MRS, Clash ruleset, Surge ruleset, dll. Edisi lanjutan file GeoIP untuk V2Ray, Xray-core, sing-box, Cl
+- [master-coder-ll/v2ray-web-manager](https://github.com/master-coder-ll/v2ray-web-manager) - v2ray-web-manager adalah panel v2ray, juga solusi cluster; menambah kontrol lalu lintas/manajemen akun/pembatasan kecepatan, dll. key: admin, panel, web, cluster, proxy
+- [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core) - Platform untuk membangun proxy guna melewati pembatasan jaringan.
 - [qax-os/excelize](https://github.com/qax-os/excelize) - Pustaka bahasa Go untuk membaca dan menulis spreadsheet Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX)
-- [go-olive/olive](https://github.com/go-olive/olive) - Perekam Live Stream                       直播录制/录播
+- [go-olive/olive](https://github.com/go-olive/olive) - Perekam Siaran Langsung                       直播录制/录播
 - [ipfs/kubo](https://github.com/ipfs/kubo) - Implementasi IPFS dalam Go
 - [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) - Klien Cloudflare Tunnel (sebelumnya Argo Tunnel)
-- [junegunn/fzf](https://github.com/junegunn/fzf) - :cherry_blossom: Fuzzy finder baris perintah
-- [barthr/redo](https://github.com/barthr/redo) - Redo adalah alat utama untuk membuat fungsi yang dapat digunakan ulang dari riwayat Anda secara interaktif
+- [junegunn/fzf](https://github.com/junegunn/fzf) - :cherry_blossom: Pencari fuzzy command-line
+- [barthr/redo](https://github.com/barthr/redo) - Redo adalah alat utama untuk membuat fungsi yang dapat digunakan kembali dari riwayat Anda secara interaktif
 - [safing/portmaster](https://github.com/safing/portmaster) - 🏔 Cinta Kebebasan - ❌ Blokir Pengawasan Massal
 - [yeasy/docker_practice](https://github.com/yeasy/docker_practice) - Belajar dan pahami teknologi Docker & Container, dengan praktik DevOps nyata!
 - [ipfs-cluster/ipfs-cluster](https://github.com/ipfs-cluster/ipfs-cluster) - Orkestrasi pinset untuk IPFS
-- [anchore/syft](https://github.com/anchore/syft) - Alat CLI dan pustaka untuk menghasilkan Software Bill of Materials dari image kontainer dan sistem file
-- [gabrie30/ghorg](https://github.com/gabrie30/ghorg) - Dengan cepat clone atau backup seluruh repositori org/user ke satu direktori - Mendukung GitHub, GitLab, Bitbucket, dan lainnya 🐇🥚
+- [anchore/syft](https://github.com/anchore/syft) - Alat CLI dan pustaka untuk menghasilkan Software Bill of Materials dari image container dan filesystem
+- [gabrie30/ghorg](https://github.com/gabrie30/ghorg) - Clone atau backup seluruh repositori org/user ke satu direktori dengan cepat - Mendukung GitHub, GitLab, Bitbucket, dan lainnya 🐇🥚
 - [rclone/rclone](https://github.com/rclone/rclone) - "rsync untuk penyimpanan cloud" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files
-- [lifei6671/interview-go](https://github.com/lifei6671/interview-go) - Koleksi soal wawancara golang
-- [prasmussen/gdrive](https://github.com/prasmussen/gdrive) - Klien Google Drive CLI
-- [cheat/cheat](https://github.com/cheat/cheat) - cheat memungkinkan Anda membuat dan melihat lembar contekan interaktif di baris perintah. Dirancang untuk membantu admin sistem *nix mengingat opsi perintah yang sering digunakan, tapi jarang diingat
-- [wtfutil/wtf](https://github.com/wtfutil/wtf) - Dasbor informasi pribadi untuk terminal Anda
+- [lifei6671/interview-go](https://github.com/lifei6671/interview-go) - Kumpulan soal wawancara golang
+- [prasmussen/gdrive](https://github.com/prasmussen/gdrive) - Klien CLI Google Drive
+- [cheat/cheat](https://github.com/cheat/cheat) - cheat memungkinkan Anda membuat dan melihat cheatsheet interaktif di command-line. Dirancang untuk membantu administrator sistem *nix mengingat opsi perintah yang sering digunakan, tapi tidak sering
+- [wtfutil/wtf](https://github.com/wtfutil/wtf) - Dashboard informasi pribadi untuk terminal Anda
 - [Hackl0us/GeoIP2-CN](https://github.com/Hackl0us/GeoIP2-CN) - Database GeoIP2 yang kecil, akurat, dan praktis
-- [HirbodBehnam/file2url-go](https://github.com/HirbodBehnam/file2url-go) - Bot Telegram untuk mengubah file menjadi URL tautan unduh langsung.
-- [pkuhollow/nameless](https://github.com/pkuhollow/nameless) - Backend 未名树洞 dengan Golang
-- [AlistGo/alist](https://github.com/AlistGo/alist) - 🗂️Program daftar file/WebDAV yang mendukung banyak penyimpanan, didukung oleh Gin dan Solidjs. / Program daftar file/WebDAV dengan dukungan multi-penyimpanan, menggunakan Gin dan Solidjs.
-- [z4yx/GoAuthing](https://github.com/z4yx/GoAuthing) - Utilitas autentikasi untuk srun4000 (auth.tsinghua.edu.cn / net.tsinghua.edu.cn / Tsinghua-IPv4)
-- [drakkan/sftpgo](https://github.com/drakkan/sftpgo) - Server SFTP, HTTP/S, FTP/S, dan WebDAV lengkap dan sangat dapat dikonfigurasi - S3, Google Cloud Storage, Azure Blob
-- [frolic/redirect.name](https://github.com/frolic/redirect.name) - Layanan redireksi berbasis DNS yang sederhana
-- [datastack-net/dockerized](https://github.com/datastack-net/dockerized) - Jalankan alat baris perintah populer di dalam docker
-- [yinchengtsinghua/IPFS-Golang-China](https://github.com/yinchengtsinghua/IPFS-Golang-China) - Versi terjemahan kustom ipfs oleh 清华尹成
-- [bonaysoft/notion-md-gen](https://github.com/bonaysoft/notion-md-gen) - Menghasilkan dokumen Markdown untuk generator situs statis dari notion
-- [minio/minio](https://github.com/minio/minio) - MinIO adalah penyimpanan objek berkinerja tinggi, kompatibel S3, open source di bawah lisensi GNU AGPLv3.
-- [golang-china/go2-book](https://github.com/golang-china/go2-book) - :books: Buku open source 《Go2编程指南》, fokus pada fitur baru Go2, serta fitur yang jarang dibahas pada tutorial Go1
-- [9seconds/mtg](https://github.com/9seconds/mtg) - Proxy MTPROTO yang sangat beropini untuk Telegram
-- [v2rayA/v2rayA](https://github.com/v2rayA/v2rayA) - Klien GUI web Project V yang mendukung protokol VMess, VLESS, SS, SSR, Trojan, Tuic dan Juicity. 🚀
+- [HirbodBehnam/file2url-go](https://github.com/HirbodBehnam/file2url-go) - Bot Telegram untuk mengonversi file ke URL sebagai link unduhan langsung.
+- [pkuhollow/nameless](https://github.com/pkuhollow/nameless) - Backend Golang 未名树洞
+- [AlistGo/alist](https://github.com/AlistGo/alist) - 🗂️Program daftar file/WebDAV yang mendukung banyak penyimpanan, didukung oleh Gin dan Solidjs. / Program daftar file/WebDAV multi-penyimpanan, menggunakan Gin dan Solidjs.
+- [z4yx/GoAuthing](https://github.com/z4yx/GoAuthing) - Utilitas otentikasi untuk srun4000 (auth.tsinghua.edu.cn / net.tsinghua.edu.cn / Tsinghua-IPv4)
+- [drakkan/sftpgo](https://github.com/drakkan/sftpgo) - Server SFTP, HTTP/S, FTP/S dan WebDAV yang lengkap fitur dan sangat dapat dikonfigurasi - S3, Google Cloud Storage, Azure Blob
+- [frolic/redirect.name](https://github.com/frolic/redirect.name) - Layanan redirect berbasis DNS yang sederhana
+- [datastack-net/dockerized](https://github.com/datastack-net/dockerized) - Jalankan alat commandline populer di dalam docker
+- [yinchengtsinghua/IPFS-Golang-China](https://github.com/yinchengtsinghua/IPFS-Golang-China) - Versi terjemahan kustom ipfs oleh Yin Cheng dari Tsinghua
+- [bonaysoft/notion-md-gen](https://github.com/bonaysoft/notion-md-gen) - Menghasilkan dokumen Markdown untuk static site generator dari notion
+- [minio/minio](https://github.com/minio/minio) - MinIO adalah object store berkinerja tinggi, kompatibel S3, open source di bawah lisensi GNU AGPLv3.
+- [golang-china/go2-book](https://github.com/golang-china/go2-book) - :books: Buku open source 《Go2编程指南》, fokus membahas fitur baru Go2, serta fitur yang jarang dibahas di tutorial Go1
+- [9seconds/mtg](https://github.com/9seconds/mtg) - Proxy MTPROTO untuk Telegram dengan opini kuat
+- [v2rayA/v2rayA](https://github.com/v2rayA/v2rayA) - Klien web GUI Project V yang mendukung protokol VMess, VLESS, SS, SSR, Trojan, Tuic, dan Juicity. 🚀
 - [photoprism/photoprism](https://github.com/photoprism/photoprism) - Aplikasi Foto Bertenaga AI untuk Web Terdesentralisasi 🌈💎✨
-- [lima-vm/lima](https://github.com/lima-vm/lima) - Mesin virtual Linux, dengan fokus pada menjalankan container
-- [Jrohy/cfw-updater](https://github.com/Jrohy/cfw-updater) - Alat pembaruan satu klik clash_for_windows
-- [mozillazg/go-pinyin](https://github.com/mozillazg/go-pinyin) - Konversi karakter Tionghoa ke pinyin
-- [darjun/go-daily-lib](https://github.com/darjun/go-daily-lib) - Satu pustaka Go per hari
-- [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) - 🌩「Pilih dan Optimalkan IP」untuk menguji latensi dan kecepatan Cloudflare CDN, dapatkan IP tercepat! Tentu saja juga mendukung CDN lain / situs web dengan beberapa IP resolusi ~
+- [lima-vm/lima](https://github.com/lima-vm/lima) - Mesin virtual Linux, fokus menjalankan container
+- [Jrohy/cfw-updater](https://github.com/Jrohy/cfw-updater) - Alat satu klik update clash_for_windows
+- [mozillazg/go-pinyin](https://github.com/mozillazg/go-pinyin) - Konversi Hanzi ke Pinyin
+- [darjun/go-daily-lib](https://github.com/darjun/go-daily-lib) - Go Satu Hari Satu Library
+- [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) - 🌩「Pilih IP Terbaik」Tes latensi dan kecepatan Cloudflare CDN, dapatkan IP tercepat! Tentu juga mendukung CDN lain / situs dengan banyak IP解析 ~
 - [ginuerzh/gost](https://github.com/ginuerzh/gost) - GO Simple Tunnel - sebuah tunnel sederhana yang ditulis dengan golang
-- [snail007/goproxy](https://github.com/snail007/goproxy) - 🔥  Proxy adalah server proxy HTTP(S) berkinerja tinggi, proxy SOCKS5, WEBSOCKET, TCP, UDP yang diimplementasikan dengan golang. Sekarang mendukung proxy gaya rantai, penerusan NAT di LAN berbeda, port TCP/UDP
-- [ehang-io/nps](https://github.com/ehang-io/nps) - Sebuah server proxy penetrasi intranet yang ringan, berkinerja tinggi, dan sangat kuat. Mendukung hampir semua penerusan lalu lintas seperti tcp, udp, socks5, http, dapat digunakan untuk mengakses situs intranet, debugging antarmuka pembayaran lokal, akses ssh, desktop jarak jauh, resolusi dns intranet, proxy socks5 intranet, dll..., serta dilengkapi dengan panel manajemen web yang sangat kuat.
-- [fatedier/frp](https://github.com/fatedier/frp) - Reverse proxy yang cepat untuk membantu Anda mengekspose server lokal di balik NAT atau firewall ke internet.
+- [snail007/goproxy](https://github.com/snail007/goproxy) - 🔥 Proxy adalah server proxy HTTP(S), SOCKS5, WEBSOCKET, TCP, UDP berkinerja tinggi yang diimplementasikan dengan golang. Kini, mendukung proxy model rantai, nat forwarding di LAN berbeda, port TCP/UDP
+- [ehang-io/nps](https://github.com/ehang-io/nps) - Sebuah server proxy penembus intranet yang ringan, berkinerja tinggi, dan kaya fitur. Mendukung hampir semua jenis forwarding trafik seperti tcp, udp, socks5, http, dapat digunakan untuk mengakses situs intranet, debugging antarmuka pembayaran lokal, akses ssh, remote desktop, resolusi dns intranet, proxy socks5 intranet, dll... Dilengkapi dengan panel manajemen web yang sangat kuat.
+- [fatedier/frp](https://github.com/fatedier/frp) - Proxy reverse yang cepat untuk membantu Anda mengekspos server lokal di balik NAT atau firewall ke internet.
 - [gohugoio/hugo](https://github.com/gohugoio/hugo) - Framework tercepat di dunia untuk membangun situs web.
-- [mholt/archiver](https://github.com/mholt/archiver) - TIDAK LAGI DIDUKUNG. Silakan gunakan mholt/archives sebagai gantinya.
-- [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) - Penjadwalan dan Manajemen Kontainer Kelas Produksi
-- [sjlleo/VerifyDisneyPlus](https://github.com/sjlleo/VerifyDisneyPlus) - Sebuah skrip untuk memeriksa apakah IP keluar dapat membuka DisneyPlus
-- [0xDkd/auxpi](https://github.com/0xDkd/auxpi) - 🍭 Generasi baru image hosting yang menggabungkan beberapa API
-- [ahui2016/localtags](https://github.com/ahui2016/localtags) - localtags: sistem backup file lokal + sistem tag yang didesain dengan benar
+- [mholt/archiver](https://github.com/mholt/archiver) - TIDAK LAGI DIGUNAKAN. Silakan gunakan mholt/archives sebagai gantinya.
+- [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) - Penjadwalan dan Manajemen Kontainer Tingkat Produksi
+- [sjlleo/VerifyDisneyPlus](https://github.com/sjlleo/VerifyDisneyPlus) - Sebuah skrip untuk mendeteksi apakah IP keluar Anda membuka blokir DisneyPlus
+- [0xDkd/auxpi](https://github.com/0xDkd/auxpi) - 🍭 Generasi baru image hosting yang menggabungkan banyak API
+- [ahui2016/localtags](https://github.com/ahui2016/localtags) - localtags: Sistem backup file lokal + sistem tagging yang dirancang dengan benar
 - [sourcegraph/sourcegraph-public-snapshot](https://github.com/sourcegraph/sourcegraph-public-snapshot) - Platform AI Kode dengan Pencarian Kode & Cody
-- [indes/flowerss-bot](https://github.com/indes/flowerss-bot) - Bot telegram untuk pembaca rss. Bot Telegram RSS yang mendukung pembacaan dalam aplikasi.
-- [go-gitea/gitea](https://github.com/go-gitea/gitea) - Git dengan secangkir teh! Layanan pengembangan perangkat lunak all-in-one self-hosted tanpa repot, termasuk hosting Git, code review, kolaborasi tim, registry paket, dan CI/CD
-- [zu1k/proxypool](https://github.com/zu1k/proxypool) - Meng-crawl node proxy secara otomatis di internet publik, menghilangkan duplikasi dan menguji kegunaan lalu menyediakan daftar node
+- [indes/flowerss-bot](https://github.com/indes/flowerss-bot) - Bot telegram untuk pembaca rss. Sebuah Telegram RSS Bot yang mendukung pembacaan dalam aplikasi.
+- [go-gitea/gitea](https://github.com/go-gitea/gitea) - Git dengan secangkir teh! Layanan pengembangan perangkat lunak all-in-one self-hosted yang mudah, termasuk hosting Git, code review, kolaborasi tim, package registry dan CI/CD
+- [zu1k/proxypool](https://github.com/zu1k/proxypool) - Secara otomatis merayapi node proxy di internet publik, menghilangkan duplikasi dan menguji kegunaan, lalu menyediakan daftar node
 - [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) - Daftar domain yang dikelola komunitas. Menghasilkan geosite.dat untuk V2Ray.
 - [planetscale/cli](https://github.com/planetscale/cli) - CLI untuk Database PlanetScale
 - [MacroPower/wakatime_exporter](https://github.com/MacroPower/wakatime_exporter) - Mengekspor metrik Prometheus dari Wakatime.
 - [long2ice/longurl](https://github.com/long2ice/longurl) - Layanan short url self-hosted
 - [nektos/act](https://github.com/nektos/act) - Jalankan GitHub Actions Anda secara lokal 🚀
-- [Tylous/ZipExec](https://github.com/Tylous/ZipExec) - Teknik unik untuk mengeksekusi binary dari zip yang dilindungi kata sandi
+- [Tylous/ZipExec](https://github.com/Tylous/ZipExec) - Teknik unik untuk mengeksekusi binary dari file zip yang diproteksi password
 - [cloudreve/cloudreve](https://github.com/cloudreve/cloudreve) - 🌩 Sistem manajemen dan berbagi file self-hosted, mendukung berbagai penyedia penyimpanan
-- [cli/cli](https://github.com/cli/cli) - Alat baris perintah resmi GitHub
-- [stashapp/stash](https://github.com/stashapp/stash) - Pengatur koleksi pornomu, ditulis dalam Go.  Dokumentasi:  https://docs.stashapp.cc
-- [JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - Renderer prompt platform/shell lintas platform yang paling dapat dikustomisasi dan latensi rendah
-- [misitebao/yakia](https://github.com/misitebao/yakia) - Yakia adalah asisten pengembang.
+- [cli/cli](https://github.com/cli/cli) - Alat command line resmi GitHub
+- [stashapp/stash](https://github.com/stashapp/stash) - Pengelola koleksi pornografi Anda, ditulis dalam Go. Dokumentasi: https://docs.stashapp.cc
+- [JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - Renderer prompt lintas platform/shell dengan kustomisasi paling tinggi dan latensi rendah
+- [misitebao/yakia](https://github.com/misitebao/yakia) - Yakia adalah alat bantu pengembang.
 - [eallion/uBlacklist-subscription-compilation](https://github.com/eallion/uBlacklist-subscription-compilation) - 🚫 Kompilasi langganan uBlacklist
-- [moonD4rk/HackBrowserData](https://github.com/moonD4rk/HackBrowserData) - Mengekstrak dan mendekripsi data browser, mendukung berbagai tipe data, dapat dijalankan di berbagai sistem operasi (macOS, Windows, Linux).
+- [moonD4rk/HackBrowserData](https://github.com/moonD4rk/HackBrowserData) - Mengekstrak dan mendekripsi data browser, mendukung berbagai jenis data, dapat dijalankan di berbagai sistem operasi (macOS, Windows, Linux).
 ## HCL 
 
 - [rust-lang/simpleinfra](https://github.com/rust-lang/simpleinfra) - Otomasi Infrastruktur Rust
@@ -1002,234 +1004,235 @@
 
 ## Lainnya
 
+- [krishnr/MATLAB-cheat-sheet](https://github.com/krishnr/MATLAB-cheat-sheet) - Lembar referensi cepat untuk MATLAB
 - [lTbgykio/Books-Free-Books](https://github.com/lTbgykio/Books-Free-Books) - Kumpulan buku gratis.
-- [LOWERTOP/Shadowrocket-First](https://github.com/LOWERTOP/Shadowrocket-First) - Kumpulan tema dan konfigurasi Shadowrocket
-- [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Trae AI & Cluely (Serta Open Source lainnya) Prompt Sistem, Tools & Model AI.
-- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - Kumpulan server MCP.
+- [LOWERTOP/Shadowrocket-First](https://github.com/LOWERTOP/Shadowrocket-First) - Tema dan konfigurasi Shadowrocket
+- [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Trae AI & Cluely (Dan Open Source lainnya) Prompt Sistem, Alat & Model AI.
+- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - Koleksi server MCP.
 - [zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization) - Belajar sehat hingga usia 150 tahun - Panduan tidak lengkap optimasi sistem tubuh manusia
-- [SpaceTimee/Fusion-JetBrainsMapleMono](https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono) - JetBrains Maple Mono: Font gratis dan open-source hasil perpaduan JetBrains Mono & Maple Mono
+- [SpaceTimee/Fusion-JetBrainsMapleMono](https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono) - JetBrains Maple Mono: Font gratis dan open-source hasil gabungan JetBrains Mono & Maple Mono
 - [ZJU-LLMs/Foundations-of-LLMs](https://github.com/ZJU-LLMs/Foundations-of-LLMs) - 
-- [IQAQI233/611Study.ICU](https://github.com/IQAQI233/611Study.ICU) - Saat ini, sebagian besar siswa SMA di Tiongkok dipaksa belajar 611, dari jam 6 pagi hingga 11 malam selama 6 hari seminggu. Sayangnya, banyak siswa yang bunuh diri atau mengalami masalah kesehatan mental serius. Terinspirasi oleh proyek 996.i
-- [VIP-Share/Baidu-XunleiVIP](https://github.com/VIP-Share/Baidu-XunleiVIP) - Berbagi akun Super Member Baidu Cloud, Member Xunlei, Member iQIYI harian, juga VIP Youku, Tencent, Mango, dll. DAN. Berbagi alat tanpa batas kecepatan Baidu Cloud (Baidu Netdisk).
-- [pengsida/learning_research](https://github.com/pengsida/learning_research) - Pengalaman penelitian saya
-- [wgwang/awesome-LLMs-In-China](https://github.com/wgwang/awesome-LLMs-In-China) - Model bahasa besar Tiongkok
-- [JnuSimba/MiscSecNotes](https://github.com/JnuSimba/MiscSecNotes) - beberapa catatan pembelajaran tentang Keamanan Aplikasi Web, Penetration Test
-- [P3TERX/GeoLite.mmdb](https://github.com/P3TERX/GeoLite.mmdb) - Database GeoIP2 GeoLite2 Country, City, dan ASN dari MaxMind
-- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers) - 🚀 Alamat langganan gratis, 🚀 node gratis, 🚀 update setiap 6 jam, node berbagi, node berkualitas tinggi dan dapat digunakan, sepenuhnya gratis. Alamat langganan clash gratis, akses internet gratis, VPN gratis, node ss/v2ray/trojan gratis, Google Play Store, VPN. 🚀 Free subscription address, 🚀 Free node, 🚀 Updated every 6 hours, shared node, high-quality node
-- [billmei/every-chatgpt-gui](https://github.com/billmei/every-chatgpt-gui) - Semua client GUI front-end untuk ChatGPT, Claude, dan LLM lainnya
-- [zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare) - ⛅️ Daftar pilihan alat, proyek open source, panduan, blog, dan sumber daya Cloudflare lainnya. / ⛅️ A curated list of Cloudflare tools, open source projects, guides, blogs and other resources.
+- [IQAQI233/611Study.ICU](https://github.com/IQAQI233/611Study.ICU) - Saat ini, sebagian besar siswa SMA di Tiongkok dipaksa belajar 611, dari jam 6 pagi hingga 11 malam 6 hari seminggu. Sayangnya, banyak siswa yang bunuh diri atau mengalami masalah kesehatan mental serius. Terinspirasi oleh proyek 996.i
+- [VIP-Share/Baidu-XunleiVIP](https://github.com/VIP-Share/Baidu-XunleiVIP) - Akun Super Member Baidu Netdisk, Xunlei, iQIYI dibagikan setiap hari, juga VIP Youku, Tencent, Mango, dan lainnya. DAN. Alat tanpa batas kecepatan Baidu Netdisk (Baidu Cloud) dibagikan.
+- [pengsida/learning_research](https://github.com/pengsida/learning_research) - Pengalaman riset saya sendiri
+- [wgwang/awesome-LLMs-In-China](https://github.com/wgwang/awesome-LLMs-In-China) - Model besar Tiongkok
+- [JnuSimba/MiscSecNotes](https://github.com/JnuSimba/MiscSecNotes) - beberapa catatan pembelajaran tentang Keamanan Aplikasi Web, Uji Penetrasi
+- [P3TERX/GeoLite.mmdb](https://github.com/P3TERX/GeoLite.mmdb) - Database MaxMind GeoIP2 GeoLite2 untuk Country, City, dan ASN
+- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers) - 🚀 Alamat langganan gratis, 🚀 node gratis, 🚀 update setiap 6 jam, node bersama, node berkualitas tinggi, sepenuhnya gratis. Alamat langganan clash gratis, VPN gratis, akses internet bebas, proxy gratis, node ss/v2ray/trojan gratis, Google Play, VPN. 🚀 Free subscription address, 🚀 Free node, 🚀 Updated every 6 hours, shared node, high-quality node
+- [billmei/every-chatgpt-gui](https://github.com/billmei/every-chatgpt-gui) - Semua klien GUI front-end untuk ChatGPT, Claude, dan LLM lainnya
+- [zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare) - ⛅️ Daftar terkurasi alat, proyek open source, panduan, blog, dan sumber daya Cloudflare lainnya.
 - [zbezj/HEU_KMS_Activator](https://github.com/zbezj/HEU_KMS_Activator) - 
-- [tuna/issues](https://github.com/tuna/issues) - Isu Tidak Terkait Kode
-- [bamf2077/secure-dns](https://github.com/bamf2077/secure-dns) - Profil konfigurasi DNS Aman untuk perangkat Apple. Profil konfigurasi DNS over HTTPS (DoH) & DNS over TLS (DoT) untuk iOS, iPadOS & macOS.
-- [TsinghuaMemes/TsinghuaMemes](https://github.com/TsinghuaMemes/TsinghuaMemes) - Supaya tidak bingung saat teman grup mengobrol dengan istilah-istilah tertentu
-- [mlabonne/llm-course](https://github.com/mlabonne/llm-course) - Kursus untuk memulai Large Language Models (LLMs) dengan roadmap dan notebook Colab.
-- [maxujie/awesome-tsinghua](https://github.com/maxujie/awesome-tsinghua) - Integrasi repo menarik yang berkaitan dengan Universitas Tsinghua (Tsinghua University)
-- [easychen/lean-side-bussiness](https://github.com/easychen/lean-side-bussiness) - Side job lean: Bagaimana programmer menjalankan side job dengan elegan
-- [Wsky51/THU-CS912-kaoyan](https://github.com/Wsky51/THU-CS912-kaoyan) - Soal asli ujian masuk pascasarjana komputer 912 Tsinghua University, soal ujian sarjana Tsinghua, serta ppt mata kuliah terkait Tsinghua
-- [MerlinKodo/clash-rev](https://github.com/MerlinKodo/clash-rev) - Kelanjutan dari proyek inti Clash
-- [THU-feiyue/docs](https://github.com/THU-feiyue/docs) - Buku panduan terbang Tsinghua University
-- [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) - 🦄 🎃 👻 File aturan routing V2Ray versi ditingkatkan, dapat menggantikan geoip.dat dan geosite.dat resmi V2Ray, cocok untuk V2Ray, Xray-core, mihomo(Clash-Meta), hysteria, Trojan-Go, dan leaf. Enhanced edition of V2Ray rules dat files, applicable to V2Ray, Xray-core, m
-- [huaweiii/HWGaussDB](https://github.com/huaweiii/HWGaussDB) - Database GaussDB Palsu - Dikembangkan sepenuhnya secara mandiri, mematahkan monopoli asing, 600% lebih cepat dari PostgreSQL.
-- [cloudcommunity/Cloud-Free-Tier-Comparison](https://github.com/cloudcommunity/Cloud-Free-Tier-Comparison) - Perbandingan penawaran free tier dari penyedia cloud besar seperti AWS, Azure, GCP, Oracle dll.
-- [iamshuaidi/CS-Book](https://github.com/iamshuaidi/CS-Book) - Kumpulan ebook komputer yang sering digunakan, lengkap dengan tautan unduhan, termasuk Java, Python, Linux, Go, C, C++, struktur data & algoritma, AI, dasar komputer, wawancara, pola desain, database, front-end, dll
-- [immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate) - Ekstensi penerjemahan halaman web bilingual imersif, mendukung terjemahan kolom input, hover mouse, file PDF, Epub, subtitle, file TXT - Immersive Dual Web Page Translation Extension
-- [megaease/Remembering-Haoel](https://github.com/megaease/Remembering-Haoel) - Catatan kenangan Anda tentang Zuǒ'ěrduǒ Hàozi (Chen Hao)
+- [tuna/issues](https://github.com/tuna/issues) - Masalah yang tidak terkait kode
+- [bamf2077/secure-dns](https://github.com/bamf2077/secure-dns) - Profil konfigurasi DNS aman untuk perangkat Apple. Profil konfigurasi DNS over HTTPS (DoH) & DNS over TLS (DoT) untuk iOS, iPadOS & macOS.
+- [TsinghuaMemes/TsinghuaMemes](https://github.com/TsinghuaMemes/TsinghuaMemes) - Agar tidak bingung saat teman mengobrol di grup
+- [mlabonne/llm-course](https://github.com/mlabonne/llm-course) - Kursus untuk memahami Large Language Models (LLMs) dengan roadmap dan notebook Colab.
+- [maxujie/awesome-tsinghua](https://github.com/maxujie/awesome-tsinghua) - Integrasi repo menarik terkait Universitas Tsinghua
+- [easychen/lean-side-bussiness](https://github.com/easychen/lean-side-bussiness) - Side job lean: Bagaimana programmer dengan elegan menjalankan side job
+- [Wsky51/THU-CS912-kaoyan](https://github.com/Wsky51/THU-CS912-kaoyan) - Bank soal ujian masuk pascasarjana jurusan komputer 912 Tsinghua, soal ujian sarjana Tsinghua dan ppt kursus terkait Tsinghua
+- [MerlinKodo/clash-rev](https://github.com/MerlinKodo/clash-rev) - Lanjutan dari proyek inti Clash
+- [THU-feiyue/docs](https://github.com/THU-feiyue/docs) - Buku panduan studi ke luar negeri Universitas Tsinghua
+- [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) - 🦄 🎃 👻 File aturan routing V2Ray versi diperkuat, dapat menggantikan geoip.dat dan geosite.dat resmi V2Ray, berlaku untuk V2Ray, Xray-core, mihomo(Clash-Meta), hysteria, Trojan-Go dan leaf. Enhanced edition of V2Ray rules dat files, applicable to V2Ray, Xray-core, m
+- [huaweiii/HWGaussDB](https://github.com/huaweiii/HWGaussDB) - Database GaussDB tiruan - dikembangkan mandiri sepenuhnya, mematahkan monopoli asing, 600% lebih cepat dari PostgreSQL.
+- [cloudcommunity/Cloud-Free-Tier-Comparison](https://github.com/cloudcommunity/Cloud-Free-Tier-Comparison) - Membandingkan penawaran free tier dari penyedia cloud utama seperti AWS, Azure, GCP, Oracle dll.
+- [iamshuaidi/CS-Book](https://github.com/iamshuaidi/CS-Book) - Kumpulan ebook komputer yang sering digunakan, beserta link unduhan, termasuk Java, Python, Linux, Go, C, C++, struktur data & algoritma, AI, dasar komputer, wawancara, pola desain, database, front-end, dll.
+- [immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate) - Ekstensi terjemahan web dwibahasa imersif, mendukung terjemahan input box, terjemahan mouse hover, PDF, Epub, file subtitle, file TXT - Immersive Dual Web Page Translation Extension
+- [megaease/Remembering-Haoel](https://github.com/megaease/Remembering-Haoel) - Catatan kenangan Anda tentang Zuoyierduo Haozi (Chen Hao)
 - [cursor/cursor](https://github.com/cursor/cursor) - Editor Kode AI
-- [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) - Awesome-LLM: daftar kurasi Model Bahasa Besar
+- [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) - Awesome-LLM: daftar terkurasi Model Bahasa Besar
 - [dalinvip/Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT) - Kumpulan materi belajar ChatGPT, terus diperbarui......
-- [v2fly/v2ray-step-by-step](https://github.com/v2fly/v2ray-step-by-step) - Repo ini adalah fork dari ToutyRater/v2ray-guide, kami bertujuan menyediakan panduan langkah demi langkah baru untuk v2ray
-- [davinci1010/pinduoduo_backdoor](https://github.com/davinci1010/pinduoduo_backdoor) - Kode elevasi hak istimewa yang tertanam dalam apk Pinduoduo, serta analisis dex pengiriman dinamis
-- [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - Panduan tuning ChatGPT dalam Bahasa Mandarin. Panduan penggunaan berbagai skenario. Belajar bagaimana membuatnya mengikuti perintah Anda.
-- [noobnooc/noobnooc](https://github.com/noobnooc/noobnooc) - Profil Saya
-- [jesselau76/GPT-Prompts](https://github.com/jesselau76/GPT-Prompts) - Prompt GPT yang bermanfaat
-- [humanloop/awesome-chatgpt](https://github.com/humanloop/awesome-chatgpt) - Daftar kurasi alat, demo, dan dokumentasi menarik untuk ChatGPT dan GPT-3
+- [v2fly/v2ray-step-by-step](https://github.com/v2fly/v2ray-step-by-step) - Repo ini adalah fork dari ToutyRater/v2ray-guide, kami bertujuan memberikan panduan step-by-step baru untuk v2ray
+- [davinci1010/pinduoduo_backdoor](https://github.com/davinci1010/pinduoduo_backdoor) - Kode eskalasi hak istimewa tertanam dalam apk Pinduoduo, dan analisis pengiriman dex dinamis
+- [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - Panduan pelatihan ChatGPT dalam bahasa Mandarin. Panduan penggunaan untuk berbagai skenario. Belajar bagaimana membuatnya mengikuti instruksi Anda.
+- [noobnooc/noobnooc](https://github.com/noobnooc/noobnooc) - Profil saya
+- [jesselau76/GPT-Prompts](https://github.com/jesselau76/GPT-Prompts) - GPT Prompts yang berguna
+- [humanloop/awesome-chatgpt](https://github.com/humanloop/awesome-chatgpt) - Daftar terkurasi alat, demo, dokumentasi keren untuk ChatGPT dan GPT-3
 - [erbanku/erbanku](https://github.com/erbanku/erbanku) - 
-- [dukeluo/awesome-awesome-prompts](https://github.com/dukeluo/awesome-awesome-prompts) - Daftar keren untuk mengumpulkan daftar keren yang berkaitan dengan prompt engineering.
-- [mushan0x0/AI0x0.com](https://github.com/mushan0x0/AI0x0.com) - Aplikasi asisten mengambang desktop AI global serbaguna multimodal multi-model
-- [apachecn/huazhang-econ-mgt-book](https://github.com/apachecn/huazhang-econ-mgt-book) - :book: Scan resolusi tinggi seri buku manajemen ekonomi Huazhang
-- [tuic-protocol/tuic](https://github.com/tuic-protocol/tuic) - Protokol proxy 0-RTT yang dikembangkan dengan cermat
-- [Alice-space/PKU-OpenWrt](https://github.com/Alice-space/PKU-OpenWrt) - Cara mengkonfigurasi OpenWrt di PKU
-- [eliaszon/Programmers-Overseas-Job-Interview-Handbook](https://github.com/eliaszon/Programmers-Overseas-Job-Interview-Handbook) - 🏂🏻 Buku panduan kerja/programmer wawancara kerja luar negeri/Inggris
-- [lukeed/awesome-cloudflare-workers](https://github.com/lukeed/awesome-cloudflare-workers) - 😎 Daftar keren Cloudflare Workers
-- [LUKE-ZZ/thuthesis-biomedical](https://github.com/LUKE-ZZ/thuthesis-biomedical) - Template latex tesis kelulusan untuk jurusan Biomedis, Kedokteran, Farmasi Tsinghua University, juga cocok untuk jurusan lain. Cocok untuk tesis S1/S2/S3 dan laporan postdoc. Template ini didasarkan pada proyek thuthesis dari asosiasi tuna, dengan penambahan konten terkait biomedis, serta komentar yang lebih ramah untuk pemula latex.
-- [oneclickearth/oneclick](https://github.com/oneclickearth/oneclick) - Internet bebas/akses internet bebas/VPN/software, Panduan internet bebas 2021
+- [dukeluo/awesome-awesome-prompts](https://github.com/dukeluo/awesome-awesome-prompts) - Daftar keren untuk mengumpulkan daftar terkait prompt engineering.
+- [mushan0x0/AI0x0.com](https://github.com/mushan0x0/AI0x0.com) - Aplikasi asisten desktop mengambang AI serba bisa global multi-modal multi-model
+- [apachecn/huazhang-econ-mgt-book](https://github.com/apachecn/huazhang-econ-mgt-book) - :book: Scan HD Seri Ekonomi-Manajemen Huazhang
+- [tuic-protocol/tuic](https://github.com/tuic-protocol/tuic) - Protokol proxy 0-RTT yang dirancang dengan cermat
+- [Alice-space/PKU-OpenWrt](https://github.com/Alice-space/PKU-OpenWrt) - Cara konfigurasi OpenWrt di PKU
+- [eliaszon/Programmers-Overseas-Job-Interview-Handbook](https://github.com/eliaszon/Programmers-Overseas-Job-Interview-Handbook) - 🏂🏻 Buku panduan kerja/ wawancara bahasa Inggris programmer di luar negeri
+- [lukeed/awesome-cloudflare-workers](https://github.com/lukeed/awesome-cloudflare-workers) - 😎 Cloudflare Workers keren
+- [LUKE-ZZ/thuthesis-biomedical](https://github.com/LUKE-ZZ/thuthesis-biomedical) - Template latex skripsi untuk jurusan biologi, kedokteran, farmasi Universitas Tsinghua dan jurusan terkait lainnya. Cocok untuk skripsi S1/S2/S3 dan laporan postdoc. Berdasarkan proyek thuthesis dari tuna, ditambah konten terkait bio-medis dan anotasi ramah untuk pemula latex.
+- [oneclickearth/oneclick](https://github.com/oneclickearth/oneclick) - VPN/Internet Bebas/Proxy/Software, Panduan VPN 2021
 - [k88hudson/git-flight-rules](https://github.com/k88hudson/git-flight-rules) - Aturan penggunaan git
-- [rockbenben/LearnData](https://github.com/rockbenben/LearnData) - Catatan pengembangan diri tentang alat open source, metode efisiensi, dan eksplorasi psikologi
-- [fredliu168/TheEconomist2022](https://github.com/fredliu168/TheEconomist2022) - Majalah The Economist 2022 online, termasuk audio. Jika domain tidak dapat diakses, silakan kunjungi http://157.230.57.119:8888
+- [rockbenben/LearnData](https://github.com/rockbenben/LearnData) - Catatan peningkatan diri tentang alat open source, metode efisiensi, eksplorasi psikologi
+- [fredliu168/TheEconomist2022](https://github.com/fredliu168/TheEconomist2022) - Majalah The Economist 2022 online, termasuk audio, jika domain tidak bisa diakses, kunjungi http://157.230.57.119:8888
 - [myseil/BingWallpaper](https://github.com/myseil/BingWallpaper) - Koleksi wallpaper harian Bing
-- [Ethkuil/awesome-thu-student-software](https://github.com/Ethkuil/awesome-thu-student-software) - Daftar perangkat lunak open source praktis yang dikembangkan/dipelihara terutama oleh mahasiswa aktif Tsinghua University.
-- [HelinXu/THUDA-9](https://github.com/HelinXu/THUDA-9) - Catatan mata kuliah jurusan Otomasi Tsinghua University
+- [Ethkuil/awesome-thu-student-software](https://github.com/Ethkuil/awesome-thu-student-software) - Kumpulan software open source praktis yang dikembangkan/dipelihara oleh mahasiswa aktif Tsinghua.
+- [HelinXu/THUDA-9](https://github.com/HelinXu/THUDA-9) - Catatan kuliah jurusan Otomasi Tsinghua
 - [DerDanilo/seafile-community-manual](https://github.com/DerDanilo/seafile-community-manual) - Manual komunitas Seafile untuk Seafile CE
-- [runvnc/dadsresume](https://github.com/runvnc/dadsresume) - Resume dan keterampilan ayah saya dari tahun 1980
-- [SurviveSJTU/SurviveSJTUManual](https://github.com/SurviveSJTU/SurviveSJTUManual) - Edisi 2008 dari "Buku Panduan Bertahan Hidup Mahasiswa Shanghai Jiao Tong University" diterbitkan di https://survivesjtu.gitbook.io/survivesjtumanual/
+- [runvnc/dadsresume](https://github.com/runvnc/dadsresume) - Resume dan keahlian ayah saya dari tahun 1980
+- [SurviveSJTU/SurviveSJTUManual](https://github.com/SurviveSJTU/SurviveSJTUManual) - Versi 2008 dari "Buku Panduan Bertahan Hidup Mahasiswa Shanghai Jiaotong University" diterbitkan di https://survivesjtu.gitbook.io/survivesjtumanual/
 - [dy-sh/one-dark-potplayer-theme](https://github.com/dy-sh/one-dark-potplayer-theme) - Tema PotPlayer terinspirasi Atom One Dark
 - [vscode-ext-studio/OneDark-Modern](https://github.com/vscode-ext-studio/OneDark-Modern) - 
-- [bighuang624/AI-research-tools](https://github.com/bighuang624/AI-research-tools) - :hammer: Alat penelitian AI yang berguna
-- [jotaen/xit](https://github.com/jotaen/xit) - Format file plain-text untuk daftar tugas dan ceklist
-- [ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix) - Kumpulan alternatif modern/lebih cepat/lebih masuk akal untuk perintah unix umum.
-- [opsre/Thanks-Mirror](https://github.com/opsre/Thanks-Mirror) - Catatan dan pengaturan mirror yang bagus untuk berbagai package manager, sistem image, dan software umum, Thanks Mirror.     Jika merasa bermanfaat, silakan beri bintang 👆🌟
-- [KeiKinn/ShadowsocksBio](https://github.com/KeiKinn/ShadowsocksBio) - Riwayat dan tutorial singkat Shadowsocks
-- [eryajf/awesome-github-profile-readme-chinese](https://github.com/eryajf/awesome-github-profile-readme-chinese) - 🦩 Kumpulan profil GitHub Bahasa Mandarin yang keren
-- [lesuixin/v2ray-cf](https://github.com/lesuixin/v2ray-cf) - Panduan pemula mempercepat v2ray dengan Cloudflare tanpa domain
-- [irazasyed/awesome-cloudflare](https://github.com/irazasyed/awesome-cloudflare) - ⛅️ Daftar kurasi resep Cloudflare worker, proyek open-source, panduan, blog, dan sumber daya lainnya.
+- [bighuang624/AI-research-tools](https://github.com/bighuang624/AI-research-tools) - :hammer: Alat riset AI yang berguna
+- [jotaen/xit](https://github.com/jotaen/xit) - Format file plain-text untuk daftar tugas dan ceklis
+- [ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix) - Kumpulan alternatif modern/lebih cepat/lebih waras untuk perintah unix umum.
+- [opsre/Thanks-Mirror](https://github.com/opsre/Thanks-Mirror) - Kumpulan mirror bagus dari berbagai package manager, image sistem, dan software populer.     Jika bermanfaat, silakan beri bintang 👆🌟
+- [KeiKinn/ShadowsocksBio](https://github.com/KeiKinn/ShadowsocksBio) - Sejarah Shadowsocks serta ringkasan tutorial sederhana
+- [eryajf/awesome-github-profile-readme-chinese](https://github.com/eryajf/awesome-github-profile-readme-chinese) - 🦩 Kumpulan profil GitHub berbahasa Mandarin yang keren
+- [lesuixin/v2ray-cf](https://github.com/lesuixin/v2ray-cf) - Tutorial pemula v2ray dengan CF akselerasi tanpa domain
+- [irazasyed/awesome-cloudflare](https://github.com/irazasyed/awesome-cloudflare) - ⛅️ Daftar terkurasi resep Cloudflare worker, proyek open-source, panduan, blog, dan sumber daya lainnya.
 - [PicGo/Awesome-PicGo](https://github.com/PicGo/Awesome-PicGo) - Kumpulan proyek keren yang menggunakan PicGo.
-- [nicejade/nice-front-end-tutorial](https://github.com/nicejade/nice-front-end-tutorial) - 🌍  Sumber daya front-end, tutorial, opini yang terus diperbarui (Versi front-end dengan perkembangan zaman).
-- [eryajf/learning-weekly](https://github.com/eryajf/learning-weekly) - 📝 Konten mingguan terutama seputar teknologi operasi dan bahasa Go, ditambah proyek hebat di GitHub atau pengalaman orang lain yang luar biasa. Silakan beri bintang 👆🌟
-- [dair-ai/ML-Course-Notes](https://github.com/dair-ai/ML-Course-Notes) - 🎓 Membagikan catatan kuliah/pelajaran machine learning.
-- [sirredbeard/awesome-wsl](https://github.com/sirredbeard/awesome-wsl) - Daftar keren yang didedikasikan untuk Windows Subsystem for Linux
-- [GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) - Berbagi secara konsisten tutorial teknologi open source berkualitas tinggi, alat pengembang, situs pemrograman, dan informasi teknologi di GitHub. A list cool, interesting projects of GitHub.
+- [nicejade/nice-front-end-tutorial](https://github.com/nicejade/nice-front-end-tutorial) - 🌍 Sumber daya front-end, tutorial, opini yang terus diperbarui.
+- [eryajf/learning-weekly](https://github.com/eryajf/learning-weekly) - 📝 Konten mingguan terutama tentang teknologi DevOps dan Go, dilengkapi dengan proyek GitHub bagus atau pengalaman orang lain. Silakan star & simpan 👆🌟
+- [dair-ai/ML-Course-Notes](https://github.com/dair-ai/ML-Course-Notes) - 🎓 Berbagi catatan kuliah/kursus machine learning.
+- [sirredbeard/awesome-wsl](https://github.com/sirredbeard/awesome-wsl) - Daftar keren khusus Windows Subsystem for Linux
+- [GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) - Selalu berbagi tutorial teknologi open source berkualitas tinggi, alat pengembang, situs pemrograman, berita teknologi di GitHub.
 - [steam3d/MagicPods-Windows](https://github.com/steam3d/MagicPods-Windows) - Tambahkan sedikit keajaiban ke Airpods Anda
-- [dair-ai/ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses) - 📺 Temukan kursus machine learning / AI terbaru di YouTube.
-- [ImCa0/just-laws](https://github.com/ImCa0/just-laws) - Perpustakaan hukum Tiongkok yang sederhana dan nyaman | A Simple and Convenient Laws Library of China.
+- [dair-ai/ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses) - 📺 Temukan kursus machine learning/AI terbaru di YouTube.
+- [ImCa0/just-laws](https://github.com/ImCa0/just-laws) - Perpustakaan hukum Tiongkok yang sederhana & praktis | A Simple and Convenient Laws Library of China.
 - [github/codeql-cli-binaries](https://github.com/github/codeql-cli-binaries) - Biner untuk CodeQL CLI
-- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - Kumpulan daftar inspiratif, manual, cheatsheet, blog, hack, one-liner, alat cli/web, dan banyak lagi.
-- [brave/goggles-quickstart](https://github.com/brave/goggles-quickstart) - Materi edukasi untuk memahami Goggles dan cara membuatnya sendiri.
-- [iggredible/Learn-Vim](https://github.com/iggredible/Learn-Vim) - Belajar Vim dan Vimscript tidak harus sulit. Ini panduan yang Anda cari 📖
-- [fatalerror-i/ThuWordThesis](https://github.com/fatalerror-i/ThuWordThesis) - Template Word tesis kelulusan Tsinghua University. A Word thesis template for Tsinghua University.
+- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - Kumpulan daftar inspiratif, manual, cheatsheet, blog, hack, one-liner, alat CLI/web, dan lainnya.
+- [brave/goggles-quickstart](https://github.com/brave/goggles-quickstart) - Materi edukasi untuk mempelajari Goggles dan cara membuat sendiri.
+- [iggredible/Learn-Vim](https://github.com/iggredible/Learn-Vim) - Belajar Vim dan Vimscript tidak harus sulit. Inilah panduan yang Anda cari 📖
+- [fatalerror-i/ThuWordThesis](https://github.com/fatalerror-i/ThuWordThesis) - Template Word skripsi Tsinghua University.
 - [pb0316/thuhole_memories](https://github.com/pb0316/thuhole_memories) - 
-- [jiegec/dcst-facts](https://github.com/jiegec/dcst-facts) - Fakta DCST Tsinghua University
+- [jiegec/dcst-facts](https://github.com/jiegec/dcst-facts) - Fakta DCST Universitas Tsinghua
 - [microsoft/vscode-loc](https://github.com/microsoft/vscode-loc) - Ekstensi Lokalisasi VS Code
-- [mangecoeur/AcademicMarkdown](https://github.com/mangecoeur/AcademicMarkdown) - Ekstensi untuk MarkdownEditing dalam menulis makalah akademik
-- [linuxkerneltravel/linux_kernel_wiki](https://github.com/linuxkerneltravel/linux_kernel_wiki) - Materi pembelajaran kernel linux: 200+ artikel klasik kernel, 100+ makalah kernel, 50+ proyek kernel, 500+ soal wawancara kernel, 80+ video kernel
+- [mangecoeur/AcademicMarkdown](https://github.com/mangecoeur/AcademicMarkdown) - Ekstensi untuk MarkdownEditing untuk menulis makalah akademik
+- [linuxkerneltravel/linux_kernel_wiki](https://github.com/linuxkerneltravel/linux_kernel_wiki) - Materi pembelajaran kernel linux: 200+ artikel klasik, 100+ makalah kernel, 50+ proyek kernel, 500+ soal wawancara kernel, 80+ video kernel
 - [GyanD/codexffmpeg](https://github.com/GyanD/codexffmpeg) - Dukungan untuk https://www.gyan.dev/ffmpeg
-- [scottclowe/matlab-schemes](https://github.com/scottclowe/matlab-schemes) - Kumpulan skema warna untuk MATLAB
+- [scottclowe/matlab-schemes](https://github.com/scottclowe/matlab-schemes) - Koleksi skema warna untuk MATLAB
 - [skyiea/rememberry-i10n](https://github.com/skyiea/rememberry-i10n) - Lokalisasi untuk Rememberry
-- [rzashakeri/beautify-github-profile](https://github.com/rzashakeri/beautify-github-profile) - Repo ini akan membantu Anda membuat profil GitHub yang lebih menarik dan indah, serta akses ke berbagai alat dan tutorial untuk mempercantik profil GitHub Anda.
+- [rzashakeri/beautify-github-profile](https://github.com/rzashakeri/beautify-github-profile) - Repositori ini membantu Anda membuat profil github lebih menarik dan indah, tersedia berbagai alat dan tutorial untuk mempercantik profil github Anda.
 - [Jonezhen/CSBook](https://github.com/Jonezhen/CSBook) - 
-- [ripperhe/Bob](https://github.com/ripperhe/Bob) - Bob adalah perangkat lunak terjemahan dan OCR untuk platform macOS.
-- [SwiftOldDriver/iOS-Weekly](https://github.com/SwiftOldDriver/iOS-Weekly) - 🇨🇳 Laporan mingguan teknis iOS dari para senior
-- [comwrg/package-manager-proxy-settings](https://github.com/comwrg/package-manager-proxy-settings) - Catatan masalah pengaturan proxy di berbagai package manager.
-- [liuchengxu/git-commit-emoji-cn](https://github.com/liuchengxu/git-commit-emoji-cn) - 😁 Panduan penggunaan emoji pada pesan git commit
-- [aishalih/sfwin](https://github.com/aishalih/sfwin) - SFWin — Font San Francisco untuk Windows 10 dan platform non-Apple.
-- [aooiuu/z-reader](https://github.com/aooiuu/z-reader) - 📘 [plugin vscode] Pembaca novel, mendukung pencarian online dan pembacaan lokal, mendukung format txt dan epub
-- [inkscape/inkscape](https://github.com/inkscape/inkscape) - Situs Proyek: https://inkscape.org - Repositori Kode: https://gitlab.com/inkscape/inkscape - Gambar secara bebas. 🖌
+- [ripperhe/Bob](https://github.com/ripperhe/Bob) - Bob adalah software terjemahan dan OCR untuk macOS.
+- [SwiftOldDriver/iOS-Weekly](https://github.com/SwiftOldDriver/iOS-Weekly) - 🇨🇳 iOS Weekly Teknologi Driver Senior
+- [comwrg/package-manager-proxy-settings](https://github.com/comwrg/package-manager-proxy-settings) - Catatan jebakan konfigurasi proxy pada berbagai package manager.
+- [liuchengxu/git-commit-emoji-cn](https://github.com/liuchengxu/git-commit-emoji-cn) - 😁 Panduan penggunaan emoji untuk pesan git commit
+- [aishalih/sfwin](https://github.com/aishalih/sfwin) - SFWin — Font San Francisco untuk Windows 10 dan Platform non-Apple.
+- [aooiuu/z-reader](https://github.com/aooiuu/z-reader) - 📘 [Plugin vscode] Pembaca novel, mendukung pencarian online dan pembacaan lokal, mendukung format txt dan epub
+- [inkscape/inkscape](https://github.com/inkscape/inkscape) - Website Proyek: https://inkscape.org - Repositori Kode: https://gitlab.com/inkscape/inkscape - Menggambar bebas. 🖌
 - [taunoe/arduino-dark-theme](https://github.com/taunoe/arduino-dark-theme) - Tema gelap Arduino!
-- [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules) - 🦄️ 🎃 👻 Kumpulan aturan Clash Premium (RULE-SET), kompatibel dengan ClashX Pro, Clash for Windows, dan klien berbasis inti Clash Premium lainnya.
-- [sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines) - Panduan penulisan copywriting Tionghoa untuk komunikasi tulisan yang lebih baik／中文文案排版指北
+- [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules) - 🦄️ 🎃 👻 Kumpulan aturan Clash Premium (RULE-SET), kompatibel dengan ClashX Pro, Clash for Windows dan klien berbasis kernel Clash Premium lainnya.
+- [sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines) - Panduan copywriting China untuk komunikasi tulisan yang lebih baik／Panduan tata letak dokumen Mandarin
 - [woct0rdho/pkuholebackup](https://github.com/woct0rdho/pkuholebackup) - 
 - [Keldos-Li/typora-latex-theme-fonts](https://github.com/Keldos-Li/typora-latex-theme-fonts) - 
-- [geekan/HowToLiveLonger](https://github.com/geekan/HowToLiveLonger) - Panduan memperpanjang usia untuk programmer | A programmer's guide to live longer
+- [geekan/HowToLiveLonger](https://github.com/geekan/HowToLiveLonger) - Panduan perpanjangan usia untuk programmer | A programmer's guide to live longer
 - [gaocegege/my-github-status](https://github.com/gaocegege/my-github-status) - 
 - [fat0troll/terminalus](https://github.com/fat0troll/terminalus) - Tema Terminal.app, terinspirasi dari skema warna aplikasi Termius iOS
 - [clarketm/proxy-list](https://github.com/clarketm/proxy-list) - Daftar server proxy publik gratis. DIPERBARUI SETIAP HARI!
 - [ShiftyTR/Proxy-List](https://github.com/ShiftyTR/Proxy-List) - Daftar proxy gratis DIPERBARUI SETIAP JAM! -- untuk api kunjungi
 - [623637646/996.Leave](https://github.com/623637646/996.Leave) - Melarikan diri dari 996
-- [The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run) - GITHUB resmi global Runology, merangkum tujuan, pedoman, teori, dan berbagai contoh Run; menjawab mengapa harus "run", ke mana harus "run", bagaimana cara "run"; dan menjadi agama inti, keyakinan inti generasi baru Tiongkok.
-- [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) - Daftar kurasi tutorial berbasis proyek
-- [veeral-patel/how-to-secure-anything](https://github.com/veeral-patel/how-to-secure-anything) - Cara mengamankan apa saja secara sistematis: repositori tentang rekayasa keamanan
-- [ossu/data-science](https://github.com/ossu/data-science) - 📊 Jalur menuju pendidikan Data Science otodidak gratis!
-- [lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions) - Daftar panjang pertanyaan JavaScript (lanjutan), beserta penjelasannya :sparkles:
-- [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) - Seri buku (2 edisi terbit) tentang bahasa JS.
-- [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - Rencana studi ilmu komputer lengkap untuk menjadi software engineer.
-- [DhanushNehru/Ultimate-NodeJs-Resources](https://github.com/DhanushNehru/Ultimate-NodeJs-Resources) - Semua sumber daya terkait Node Js dalam satu tempat
-- [Paladinfeng/MiaoProject](https://github.com/Paladinfeng/MiaoProject) - Umpan Balik Bug Proyek Miao
-- [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) - Kumpulan ide aplikasi yang bisa digunakan untuk meningkatkan keterampilan coding Anda.
+- [The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run) - GITHUB resmi global Runxue, mengorganisasi tujuan, pedoman, teori dan berbagai contoh Runxue; memecahkan mengapa harus run, ke mana harus run, dan bagaimana cara run; Menjadi agama inti dan keyakinan inti masyarakat Tiongkok baru.
+- [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) - Daftar tutorial berbasis proyek yang terkurasi
+- [veeral-patel/how-to-secure-anything](https://github.com/veeral-patel/how-to-secure-anything) - Cara mengamankan apa pun secara sistematis: repositori tentang rekayasa keamanan
+- [ossu/data-science](https://github.com/ossu/data-science) - 📊 Jalur menuju pendidikan Data Science mandiri secara gratis!
+- [lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions) - Daftar panjang pertanyaan (lanjutan) JavaScript, dan penjelasannya :sparkles:
+- [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) - Seri buku (2 edisi yang telah diterbitkan) tentang bahasa JS.
+- [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - Rencana studi ilmu komputer lengkap untuk menjadi insinyur perangkat lunak.
+- [DhanushNehru/Ultimate-NodeJs-Resources](https://github.com/DhanushNehru/Ultimate-NodeJs-Resources) - Semua sumber daya terkait Node Js di satu tempat
+- [Paladinfeng/MiaoProject](https://github.com/Paladinfeng/MiaoProject) - Miao Project Umpan Balik Bug
+- [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) - Koleksi ide aplikasi yang dapat digunakan untuk meningkatkan keterampilan coding Anda.
 - [warpdotdev/Warp](https://github.com/warpdotdev/Warp) - Warp adalah lingkungan pengembangan agentic, dibuat untuk coding dengan banyak agen AI.
-- [Infatuation-Fei/rule](https://github.com/Infatuation-Fei/rule) - Aturan untuk penggunaan pribadi
+- [Infatuation-Fei/rule](https://github.com/Infatuation-Fei/rule) - Aturan pribadi
 - [MicrosoftDocs/WSL](https://github.com/MicrosoftDocs/WSL) - Kode sumber di balik dokumentasi Windows Subsystem for Linux.
-- [Serendipity-Theme/windows-terminal](https://github.com/Serendipity-Theme/windows-terminal) - Tema Serendipity yang diporting ke Windows Terminal.
-- [Serendipity-Theme/vs-code](https://github.com/Serendipity-Theme/vs-code) - Santai, lembut, dan modern.
-- [Serendipity-Theme/template-for-repositories](https://github.com/Serendipity-Theme/template-for-repositories) - Template untuk tema yang diporting
-- [xuehu54321/awesome-music-for-programming](https://github.com/xuehu54321/awesome-music-for-programming) - Musik keren untuk pemrograman. Musik enak didengar saat coding, ayo bagikan musik yang Anda dengarkan saat coding!
-- [soulteary/docker-flare](https://github.com/soulteary/docker-flare) - Flare ✨ Halaman navigasi self-hosted yang ringan, berkinerja tinggi dan cepat, pemanfaatan sumber daya &lt;1% CPU, MEM &lt;30 M, Docker Image &lt;10M
-- [jCodeLife/mind-map](https://github.com/jCodeLife/mind-map) - 🖼Catatan peta pikiran pribadi, sudah ditata JS, TS, Vue, React ... Terus diperbarui, silakan PR dan Start~
-- [coder2gwy/coder2gwy](https://github.com/coder2gwy/coder2gwy) - Panduan pertama untuk programmer ujian CPNS di internet, dipersembahkan bersama oleh 3 mantan programmer perusahaan besar yang sudah masuk sistem pemerintah.
+- [Serendipity-Theme/windows-terminal](https://github.com/Serendipity-Theme/windows-terminal) - Tema Serendipity yang di-porting ke windows terminal.
+- [Serendipity-Theme/vs-code](https://github.com/Serendipity-Theme/vs-code) - Santai, lembut dan modern.
+- [Serendipity-Theme/template-for-repositories](https://github.com/Serendipity-Theme/template-for-repositories) - template untuk tema yang di-porting
+- [xuehu54321/awesome-music-for-programming](https://github.com/xuehu54321/awesome-music-for-programming) - Musik keren untuk pemrograman. Musik enak didengar saat coding, ayo bagikan musik yang Anda dengarkan saat ngoding!
+- [soulteary/docker-flare](https://github.com/soulteary/docker-flare) - Flare ✨ Halaman navigasi self-hosted yang ringan, berkinerja tinggi, dan cepat, penggunaan sumber daya &lt;1% CPU, MEM &lt;30 M, Docker Image &lt; 10M
+- [jCodeLife/mind-map](https://github.com/jCodeLife/mind-map) - 🖼 Catatan mind map pribadi, telah merangkum JS, TS, Vue, React ... Terus diperbarui, silakan PR dan Start~
+- [coder2gwy/coder2gwy](https://github.com/coder2gwy/coder2gwy) - Panduan pertama bagi programmer untuk mengikuti ujian pegawai negeri di internet, dipersembahkan oleh 3 mantan programmer perusahaan besar yang telah masuk ke sistem pemerintahan.
 - [georgezzzh/homepage](https://github.com/georgezzzh/homepage) - 
-- [996icu/996.ICU](https://github.com/996icu/996.ICU) - Repo untuk menghitung bintang dan berkontribusi. Tekan F untuk memberi hormat kepada para developer yang berjaya.
+- [996icu/996.ICU](https://github.com/996icu/996.ICU) - Repo untuk menghitung bintang dan berkontribusi. Tekan F untuk menghormati para developer yang luar biasa.
 - [danyspin97/TelegramBotsList](https://github.com/danyspin97/TelegramBotsList) - Daftar semua sumber bot Telegram yang dihosting di github.
-- [GorvGoyl/Clone-Wars](https://github.com/GorvGoyl/Clone-Wars) - 100+ klon open-source dari situs populer seperti Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube, dll. Lihat kode sumber, tautan demo, tech stack, bintang github.
-- [github/gitignore](https://github.com/github/gitignore) - Kumpulan template .gitignore yang berguna
+- [GorvGoyl/Clone-Wars](https://github.com/GorvGoyl/Clone-Wars) - 100+ open-source clone dari situs populer seperti Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube, dll. Lihat kode sumber, tautan demo, stack teknologi, bintang github.
+- [github/gitignore](https://github.com/github/gitignore) - Koleksi template .gitignore yang berguna
 - [gqcn/effective-go-zh-en](https://github.com/gqcn/effective-go-zh-en) - 《Effective Go》versi dwibahasa Mandarin-Inggris
-- [sublime-china/sublime-merge-chinese](https://github.com/sublime-china/sublime-merge-chinese) - Versi bahasa Mandarin Sublime Merge
+- [sublime-china/sublime-merge-chinese](https://github.com/sublime-china/sublime-merge-chinese) - Versi terjemahan Sublime Merge dalam Bahasa Mandarin
 - [facelessuser/merge-dracula-theme](https://github.com/facelessuser/merge-dracula-theme) - Tema Dracula untuk Sublime Merge
 - [konrad91/OneDarkArduino](https://github.com/konrad91/OneDarkArduino) - Tema gelap untuk Arduino IDE, terinspirasi oleh One Dark Pro untuk VSCode oleh binaryify
-- [AbhishekGhosh/Arduino-Themes](https://github.com/AbhishekGhosh/Arduino-Themes) - Kumpulan Tema Arduino IDE yang Dibuat Komunitas
-- [shengcaishizhan/kkndme_tianya](https://github.com/shengcaishizhan/kkndme_tianya) - Thread legendaris Tianya kkndme tentang diskusi harga rumah
-- [axipo/TrafficBlackhole](https://github.com/axipo/TrafficBlackhole) - Uji kualitas jaringan & layanan proxy
-- [bestxtools/weekly-cn](https://github.com/bestxtools/weekly-cn) - Menemukan dan berbagi alat yang menarik, kreatif, gratis, dan berguna, rilis setiap Kamis.
-- [coderit666/GoGuide](https://github.com/coderit666/GoGuide) - "Panduan Belajar Go" mencakup sebagian besar pengetahuan inti yang perlu dikuasai programmer Golang, termasuk tutorial Go, buku open-source Go, tutorial pemula Go, dan jalur pembelajaran Go. Belajar Go dari nol, GoGuide adalah pilihan utama.
+- [AbhishekGhosh/Arduino-Themes](https://github.com/AbhishekGhosh/Arduino-Themes) - Koleksi Tema Arduino IDE yang Dibuat Oleh Komunitas
+- [shengcaishizhan/kkndme_tianya](https://github.com/shengcaishizhan/kkndme_tianya) - Thread legendaris Tianya kkndme membahas harga properti
+- [axipo/TrafficBlackhole](https://github.com/axipo/TrafficBlackhole) - benchmark kualitas jaringan & layanan proxy
+- [bestxtools/weekly-cn](https://github.com/bestxtools/weekly-cn) - Menemukan dan berbagi alat yang menarik, kreatif, gratis, dan berguna, dirilis setiap Kamis.
+- [coderit666/GoGuide](https://github.com/coderit666/GoGuide) - "Panduan Belajar Bahasa Go" panduan yang mencakup sebagian besar pengetahuan inti yang perlu dikuasai oleh programmer Golang, termasuk tutorial Go, buku open source Go, tutorial pemula Go, dan jalur belajar Go. Belajar Go dari nol, Go programming, pilihan utama GoGuide.
 - [andredelft/typora-tailwind-theme](https://github.com/andredelft/typora-tailwind-theme) - Tata letak tipografi Tailwind yang indah untuk Typora.
 - [viraptor/reverse-interview](https://github.com/viraptor/reverse-interview) - Pertanyaan untuk diajukan kepada perusahaan saat wawancara kerja
-- [perkfly/reverse-interview-zh](https://github.com/perkfly/reverse-interview-zh) - Pertanyaan yang ditanyakan kepada pewawancara di akhir wawancara teknis
-- [imageslr/typora-theme-bear](https://github.com/imageslr/typora-theme-bear) - Serangkaian tema typora gaya Bear, lebih dari 20 jenis. Kumpulan tema typora, terinspirasi oleh Bear.
-- [7-sevens/Developer-Books](https://github.com/7-sevens/Developer-Books) - Daftar buku terkait pengembangan dan pemrograman
-- [czs108/Cpp-Primer-5th-Notes-CN](https://github.com/czs108/Cpp-Primer-5th-Notes-CN) - 📚 Catatan 《C++ Primer中文版（Edisi ke-5）》
-- [ShameCom/ShameCom](https://github.com/ShameCom/ShameCom) - Mengumpulkan daftar perusahaan atau organisasi dengan reputasi buruk dalam rekrutmen kampus, membantu mahasiswa menghindari jebakan. Internet tidak pernah lupa!
-- [csseky/cskaoyan](https://github.com/csseky/cskaoyan) - Menyediakan soal ujian masuk magister komputer dan rekayasa perangkat lunak dari berbagai universitas
+- [perkfly/reverse-interview-zh](https://github.com/perkfly/reverse-interview-zh) - Pertanyaan yang bisa diajukan ke pewawancara di akhir wawancara teknis
+- [imageslr/typora-theme-bear](https://github.com/imageslr/typora-theme-bear) - Serangkaian tema typora bergaya Bear, lebih dari 20 tema. Koleksi tema typora yang terinspirasi dari Bear.
+- [7-sevens/Developer-Books](https://github.com/7-sevens/Developer-Books) - Daftar buku terkait pengembangan pemrograman
+- [czs108/Cpp-Primer-5th-Notes-CN](https://github.com/czs108/Cpp-Primer-5th-Notes-CN) - 📚 Catatan 《C++ Primer Edisi ke-5 (Bahasa Mandarin)》
+- [ShameCom/ShameCom](https://github.com/ShameCom/ShameCom) - Mengumpulkan perusahaan atau organisasi dengan reputasi buruk dalam rekrutmen kampus, membantu junior menghindari masalah. Internet tidak pernah lupa!
+- [csseky/cskaoyan](https://github.com/csseky/cskaoyan) - Menyediakan soal ujian masuk pascasarjana komputer dan rekayasa perangkat lunak berbagai universitas
 - [Simizfo/WSATools](https://github.com/Simizfo/WSATools) - Penginstal APK yang mudah digunakan dan lainnya untuk Windows Subsystem for Android
-- [SPX372928/MyIPTV](https://github.com/SPX372928/MyIPTV) - Sumber siaran langsung protokol standar mobile
+- [SPX372928/MyIPTV](https://github.com/SPX372928/MyIPTV) - Sumber siaran langsung seluler protokol standar
 - [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists) - Daftar kolektif API gratis untuk digunakan dalam pengembangan perangkat lunak dan web 🚀
-- [Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo) - Mengumpulkan dan mengorganisasi proyek open source berkualitas tinggi dan menarik di GitHub.
-- [imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8) - Kumpulan sumber daya siaran langsung 📺 💯 IPTV, M3U —— Rajin cuci tangan, pakai masker, semoga semua sehat selalu
+- [Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo) - Mengumpulkan dan merangkum proyek open source berkualitas tinggi dan menarik di GitHub.
+- [imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8) - Kompilasi sumber daya siaran langsung 📺 💯 IPTV, M3U —— Sering cuci tangan, pakai masker, semoga semua orang sehat selalu
 - [methylcloud/learn-gcp](https://github.com/methylcloud/learn-gcp) - Sumber belajar untuk mempelajari Google Cloud Platform (GCP)
-- [awsdocs/amazon-ec2-user-guide-windows](https://github.com/awsdocs/amazon-ec2-user-guide-windows) - Versi open source dari Amazon EC2 User Guide untuk Windows. Untuk masukan atau permintaan perubahan, ajukan issue atau pull request.
-- [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) - Menyediakan berbagai aturan Shadowrocket dengan kemampuan filter iklan yang kuat. Aturan dibangun ulang setiap hari pukul 8 pagi.
-- [AlenZhang-Dev/News-Record](https://github.com/AlenZhang-Dev/News-Record) - Saat ini terutama memelihara The Economist, The NewYorker, dan majalah Time
+- [awsdocs/amazon-ec2-user-guide-windows](https://github.com/awsdocs/amazon-ec2-user-guide-windows) - Versi open source dari Panduan Pengguna Amazon EC2 untuk Windows. Untuk memberikan masukan atau permintaan perubahan, kirimkan issue atau pull request.
+- [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) - Menyediakan berbagai aturan Shadowrocket, memiliki kemampuan pemblokiran iklan yang kuat. Aturan dibangun ulang setiap hari pukul 8 pagi.
+- [AlenZhang-Dev/News-Record](https://github.com/AlenZhang-Dev/News-Record) - Saat ini terutama memelihara The Economist, The NewYorker, dan Time
 - [jeffreyxuan/toneoz-font-pinyin-kai](https://github.com/jeffreyxuan/toneoz-font-pinyin-kai) - 
-- [lanceliao/china-holiday-calender](https://github.com/lanceliao/china-holiday-calender) - Kalender hari libur, penyesuaian, dan hari kerja tambahan Tiongkok 2023-2025, format ICS, dapat di-subscribe di IPhone, Google Calendar, Outlook, dll, termasuk API hari libur
-- [tokyo-night/tokyo-night-vscode-theme](https://github.com/tokyo-night/tokyo-night-vscode-theme) - Tema Visual Studio Code gelap yang bersih, merayakan cahaya pusat kota Tokyo di malam hari.
+- [lanceliao/china-holiday-calender](https://github.com/lanceliao/china-holiday-calender) - Kalender hari libur, penyesuaian, dan pengganti kerja Tiongkok 2023-2025, format ICS, dapat berlangganan melalui IPhone, Google Calendar, Outlook, dll, termasuk API hari libur
+- [tokyo-night/tokyo-night-vscode-theme](https://github.com/tokyo-night/tokyo-night-vscode-theme) - Tema Visual Studio Code gelap yang bersih, merayakan gemerlap lampu pusat kota Tokyo di malam hari.
 - [Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules) - 🦄 🎃 👻 Kumpulan aturan Surge (DOMAIN-SET dan RULE-SET), cocok untuk klien Surge for iOS dan Surge for Mac.
-- [OpenRunner/clash-freenode](https://github.com/OpenRunner/clash-freenode) - Alamat berlangganan🚀 Berbagi gratis♻️ Update rutin✨ Internet sehat🌈 Jangan disalahgunakan🚫 Berlangganan satu klik📪SSR/CLASH/V2RAY
+- [OpenRunner/clash-freenode](https://github.com/OpenRunner/clash-freenode) - Alamat langganan🚀 Berbagi gratis♻️ Pembaruan rutin✨ Akses internet ilmiah🌈 Jangan disalahgunakan🚫 Langganan sekali klik📪SSR/CLASH/V2RAY
 - [Sxela/ArcaneGAN](https://github.com/Sxela/ArcaneGAN) - ArcaneGAN
 - [60ss/Npp-1-Dark](https://github.com/60ss/Npp-1-Dark) - Tema Sintaks One Dark untuk Notepad++
-- [rdev/vscode-theme-onedark-spacegray](https://github.com/rdev/vscode-theme-onedark-spacegray) - Tema VSCode berdasarkan tema One Dark dari Atom
-- [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD) - Bertujuan menjadi daftar filter iklan dengan tingkat hit tertinggi di kawasan berbahasa Mandarin, untuk penyaringan iklan yang presisi dan perlindungan privasi. anti-AD kini mendukung AdGuardHome, dnsmasq, Surge, Pi-Hole, Clash, mihomo, smartdns, sing-box, dll. Sepenuhnya kompatibel dengan berbagai format daftar filter iklan.
-- [Mosney/anti-anti-AD](https://github.com/Mosney/anti-anti-AD) - Mengapa tidak sebaiknya menggunakan daftar antiAD untuk filter iklan, serta pilihan alternatif yang lebih baik
-- [leohku/andure](https://github.com/leohku/andure) - DevTools untuk Android Chrome — berfungsi di situs web mana pun, di browser Chromium apa pun.
-- [opendigg/awesome-github-wechat-weapp](https://github.com/opendigg/awesome-github-wechat-weapp) - Kumpulan proyek open source WeChat Mini Program
-- [Discord-Custom-Covers/usrbg](https://github.com/Discord-Custom-Covers/usrbg) - Basis data latar belakang custom sesuai permintaan pengguna untuk @Discord.
-- [erbanku/awesome](https://github.com/erbanku/awesome) - 🌟 Daftar Repositori Awesome Saya. Diperbarui otomatis oleh GitHub Actions pada UTC 00:00 & 16:00
-- [algolia/awesome-algolia](https://github.com/algolia/awesome-algolia) - 🔍👋  MULAI DI SINI! Daftar kurasi pustaka, sumber daya, dan proyek Algolia.
-- [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) - Daftar kurasi pekerjaan remote keren dan sumber daya. Terinspirasi oleh https://github.com/vinta/awesome-python
-- [githubtraining/introduction-to-github](https://github.com/githubtraining/introduction-to-github) - Repo kursus untuk Learning Lab "Introduction to GitHub". Repo template ➡️
-- [UyCode/uyfonts](https://github.com/UyCode/uyfonts) - Berisi font UKIJ dan Uighursoft
-- [kkozee/vscode-theme-one-dark-vivid](https://github.com/kkozee/vscode-theme-one-dark-vivid) - Tema Atom One Dark Vivid untuk VS Code
+- [rdev/vscode-theme-onedark-spacegray](https://github.com/rdev/vscode-theme-onedark-spacegray) - Tema VSCode berdasarkan tema One Dark milik Atom
+- [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD) - Bertujuan menjadi daftar filter iklan dengan tingkat hit tertinggi di kawasan Tiongkok, mewujudkan pemblokiran iklan yang presisi dan perlindungan privasi. anti-AD kini telah mendukung AdGuardHome, dnsmasq, Surge, Pi-Hole, Clash, mihomo, smartdns, sing-box, dll. Sepenuhnya kompatibel dengan berbagai format daftar filter iklan yang umum digunakan.
+- [Mosney/anti-anti-AD](https://github.com/Mosney/anti-anti-AD) - Mengapa Anda tidak boleh menggunakan daftar filter iklan antiAD, dan memilih lebih banyak alternatif yang lebih baik
+- [leohku/andure](https://github.com/leohku/andure) - DevTools untuk Android Chrome — bekerja di semua situs web, pada semua browser Chromium.
+- [opendigg/awesome-github-wechat-weapp](https://github.com/opendigg/awesome-github-wechat-weapp) - Kompilasi proyek open source WeChat Mini Program
+- [Discord-Custom-Covers/usrbg](https://github.com/Discord-Custom-Covers/usrbg) - Basis data latar belakang kustom yang diminta pengguna untuk @Discord.
+- [erbanku/awesome](https://github.com/erbanku/awesome) - 🌟 Daftar Repository Keren Saya. Diperbarui otomatis oleh GitHub Actions pada UTC 00:00 & 16:00
+- [algolia/awesome-algolia](https://github.com/algolia/awesome-algolia) - 🔍👋  MULAI DI SINI! Daftar perpustakaan, sumber daya, dan proyek Algolia yang terkurasi.
+- [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) - Daftar pekerjaan remote dan sumber daya keren. Terinspirasi oleh https://github.com/vinta/awesome-python
+- [githubtraining/introduction-to-github](https://github.com/githubtraining/introduction-to-github) - Repo kursus untuk kursus Learning Lab "Introduction to GitHub". Template repo ➡️
+- [UyCode/uyfonts](https://github.com/UyCode/uyfonts) - terdapat font UKIJ dan Uighursoft
+- [kkozee/vscode-theme-one-dark-vivid](https://github.com/kkozee/vscode-theme-one-dark-vivid) - Tema One Dark Vivid milik Atom untuk VS Code
 - [mathjax/MathJax](https://github.com/mathjax/MathJax) - Matematika yang indah dan mudah diakses di semua browser
-- [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) - Kumpulan hal (kebanyakan teknis) yang harus diketahui setiap pengembang perangkat lunak
-- [yangkky/Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins) - Daftar paper tentang machine learning untuk protein.
-- [mehcode/awesome-atom](https://github.com/mehcode/awesome-atom) - Daftar kurasi paket dan sumber daya Atom yang menyenangkan.
-- [mcdtaiwan/McDonalds_Fries_Font](https://github.com/mcdtaiwan/McDonalds_Fries_Font) - Untuk setiap penggemar kentang goreng McDonald's — McDonald's Fries Font. Kentang goreng vs saus tomat, mari bersenang-senang! Kentang goreng renyah, dicelup saus tomat lezat, ciptakan kemungkinan tak terbatas. McDonald's Fries Font, gratis untuk diunduh!
-- [fangzesheng/free-api](https://github.com/fangzesheng/free-api) - Mengumpulkan layanan API gratis, menjadi kurir api
-- [toml-lang/toml](https://github.com/toml-lang/toml) - Tom's Obvious, Minimal Language
-- [atomiechen/THU-PPT-Theme](https://github.com/atomiechen/THU-PPT-Theme) - Template PPT bertema Tsinghua
+- [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) - Kumpulan hal-hal teknis (sebagian besar) yang harus diketahui setiap pengembang perangkat lunak
+- [yangkky/Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins) - Daftar makalah tentang machine learning untuk protein.
+- [mehcode/awesome-atom](https://github.com/mehcode/awesome-atom) - Daftar paket dan sumber daya Atom yang menyenangkan dan terkurasi.
+- [mcdtaiwan/McDonalds_Fries_Font](https://github.com/mcdtaiwan/McDonalds_Fries_Font) - Untuk setiap penggemar kentang goreng McDonald's — McDonald's Fries Font Kentang goreng vs saus tomat, ayo seru-seruan bersama! Kentang goreng renyah dan lembut, dicelup saus tomat lezat, ciptakan kemungkinan tak terbatas. McDonald's Fries Font, gratis untuk diunduh!
+- [fangzesheng/free-api](https://github.com/fangzesheng/free-api) - Mengumpulkan layanan API gratis, jadi tukang angkut API
+- [toml-lang/toml](https://github.com/toml-lang/toml) - Bahasa Tom yang Jelas, Minimal
+- [atomiechen/THU-PPT-Theme](https://github.com/atomiechen/THU-PPT-Theme) - Template PPT tema Tsinghua
 - [zhiwehu/Python-programming-exercises](https://github.com/zhiwehu/Python-programming-exercises) - 100+ latihan pemrograman Python yang menantang
-- [hemanth/awesome-pwa](https://github.com/hemanth/awesome-pwa) - Daftar PWA (Progressive Web Apps) yang keren!
-- [joelparkerhenderson/git-commit-message](https://github.com/joelparkerhenderson/git-commit-message) - Pesan commit Git: cara menulis pesan commit yang baik dan template commit untuk version control
-- [marvinpinto/action-automatic-releases](https://github.com/marvinpinto/action-automatic-releases) - BACA SAJA: Mirror otomatis untuk https://github.com/marvinpinto/actions/tree/master/packages/automatic-releases
-- [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) - Daftar proyek keren yang ramah pemula.
+- [hemanth/awesome-pwa](https://github.com/hemanth/awesome-pwa) - Daftar aplikasi web progresif (PWA) keren!
+- [joelparkerhenderson/git-commit-message](https://github.com/joelparkerhenderson/git-commit-message) - Pesan git commit: cara menulis pesan git commit yang hebat dan template commit untuk version control
+- [marvinpinto/action-automatic-releases](https://github.com/marvinpinto/action-automatic-releases) - READONLY: Mirror otomatis untuk https://github.com/marvinpinto/actions/tree/master/packages/automatic-releases
+- [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) - Daftar proyek ramah pemula yang keren.
 - [dracula/telegram](https://github.com/dracula/telegram) - 🧛🏻‍♂️ Tema gelap untuk Telegram Desktop
-- [ahmadawais/shades-of-purple-vscode](https://github.com/ahmadawais/shades-of-purple-vscode) - 🦄 Shades of Purple menawarkan pilihan nuansa ungu yang berani dan cerah yang akan mengubah kode Anda menjadi karya visual yang menakjubkan. Dengan palet warna yang dirancang dengan cermat, ini...
-- [priyankavergadia/GCPSketchnote](https://github.com/priyankavergadia/GCPSketchnote) - Jika Anda ingin menjadi Google Cloud Engineer, Anda berada di tempat yang tepat. GCPSketchnote adalah seri berbagi konsep Google Cloud dalam format ringkas dan mudah dipelajari.
-- [flyhigher139/Git-Cheat-Sheet](https://github.com/flyhigher139/Git-Cheat-Sheet) - Git Cheat Sheet dalam Bahasa Mandarin, diterjemahkan oleh Gevin (flyhigher139)
-- [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) - Kuasai command line, dalam satu halaman
-- [opendigg/awesome-github-vue](https://github.com/opendigg/awesome-github-vue) - Kumpulan proyek open source terkait Vue
-- [Codextor/npp-material-theme](https://github.com/Codextor/npp-material-theme) - Material Theme, tema paling epik untuk Notepad++ | Tema Gelap
-- [VirgilClyne/iRingo](https://github.com/VirgilClyne/iRingo) - Membuka fitur dan layanan integrasi Apple  secara penuh
-- [treehollow/install-doc](https://github.com/treehollow/install-doc) - Cara membangun sebuah tree hollow (lubang pohon)
-- [0voice/audio_video_streaming](https://github.com/0voice/audio_video_streaming) - Kumpulan referensi otoritatif tentang streaming media audio-video, 500+ artikel, makalah, video, proyek praktik, protokol, daftar ahli industri.
-- [matchai/awesome-pinned-gists](https://github.com/matchai/awesome-pinned-gists) - 📌✨ Kumpulan pinned gist dinamis keren untuk GitHub
-- [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) - 🚀✨ Membantu pemula untuk berkontribusi ke proyek open source
-- [Tencent/secguide](https://github.com/Tencent/secguide) - Panduan keamanan kode untuk pengembang
-- [ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey) - Daftar kurasi pustaka, distribusi pustaka, skrip, alat, dan sumber daya AutoHotkey yang keren.
-- [Hack-with-Github/Windows](https://github.com/Hack-with-Github/Windows) - Alat keren untuk eksploitasi Windows!
-- [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) - 👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻Daftar proyek pengembang independen Tiongkok -- berbagi apa yang sedang dikerjakan semua orang
-- [actionsflow/awesome-actionsflow](https://github.com/actionsflow/awesome-actionsflow) - Daftar use case workflow keren untuk Actionsflow
-- [AZeC4/TelegramGroup](https://github.com/AZeC4/TelegramGroup) - 10000+ koleksi grup Telegram terbaru yang dikumpulkan diam-diam pada 2025, dilengkapi BOT paling menarik dan berguna【dianbaodaohang.com】
-- [sdras/awesome-actions](https://github.com/sdras/awesome-actions) - Daftar kurasi aksi keren yang bisa digunakan di GitHub
-- [cobaltdisco/Google-Chinese-Results-Blocklist](https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist) - Saya akhirnya bisa menggunakan Google untuk mencari dalam bahasa Mandarin...
-- [ffffffff0x/Digital-Privacy](https://github.com/ffffffff0x/Digital-Privacy) - Sumber Perlindungan Informasi & OSINT | Solusi satu paket untuk pengumpulan, perlindungan, dan pembersihan privasi digital, plus perlawanan terhadap pengumpulan informasi terbuka (OSINT)
-- [OverTheWallNode/SSV2RayTrojanSSRClash](https://github.com/OverTheWallNode/SSV2RayTrojanSSRClash) - Internet sehat, ss, ssr, v2ray, trojan, clash, clashr, rekomendasi layanan VPN
-- [formulahendry/955.WLB](https://github.com/formulahendry/955.WLB) - Daftar perusahaan yang tidak lembur 955 - bekerja 955, work–life balance (keseimbangan kerja dan hidup)
+- [ahmadawais/shades-of-purple-vscode](https://github.com/ahmadawais/shades-of-purple-vscode) - 🦄 Shades of Purple menawarkan pilihan warna ungu yang berani dan cerah untuk membuat kode Anda terlihat menakjubkan. Dengan palet warna yang dirancang dengan hati-hati,
+- [priyankavergadia/GCPSketchnote](https://github.com/priyankavergadia/GCPSketchnote) - Jika Anda ingin menjadi Google Cloud Engineer, Anda berada di tempat yang tepat. GCPSketchnote adalah seri berbagi konsep Google Cloud dalam format cepat dan mudah dipelajari.
+- [flyhigher139/Git-Cheat-Sheet](https://github.com/flyhigher139/Git-Cheat-Sheet) - Git Cheat Sheet versi Mandarin, diterjemahkan oleh Gevin (flyhigher139)
+- [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) - Kuasai command line, hanya dalam satu halaman
+- [opendigg/awesome-github-vue](https://github.com/opendigg/awesome-github-vue) - Kompilasi proyek open source terkait Vue
+- [Codextor/npp-material-theme](https://github.com/Codextor/npp-material-theme) - Material Theme, tema paling epik untuk Notepad++ | Dark Theme
+- [VirgilClyne/iRingo](https://github.com/VirgilClyne/iRingo) - Membuka fitur lengkap  Apple dan layanan integrasi
+- [treehollow/install-doc](https://github.com/treehollow/install-doc) - Cara membangun tree hollow
+- [0voice/audio_video_streaming](https://github.com/0voice/audio_video_streaming) - Kompilasi referensi otoritatif tentang media streaming audio/video, 500+ artikel, makalah, video, proyek praktis, protokol, daftar pakar industri.
+- [matchai/awesome-pinned-gists](https://github.com/matchai/awesome-pinned-gists) - 📌✨ Koleksi pinned gists dinamis yang keren untuk GitHub
+- [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) - 🚀✨ Membantu pemula untuk berkontribusi pada proyek open source
+- [Tencent/secguide](https://github.com/Tencent/secguide) - Panduan keamanan kode yang dirangkum untuk pengembang
+- [ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey) - Daftar pustaka, distribusi pustaka, skrip, alat, dan sumber daya AutoHotkey yang keren.
+- [Hack-with-Github/Windows](https://github.com/Hack-with-Github/Windows) - Alat keren untuk mengeksploitasi Windows!
+- [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) - 👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻Daftar proyek pengembang independen Tiongkok -- Berbagi apa yang sedang dikerjakan semua orang
+- [actionsflow/awesome-actionsflow](https://github.com/actionsflow/awesome-actionsflow) - Ini adalah daftar use case workflow keren untuk Actionsflow
+- [AZeC4/TelegramGroup](https://github.com/AZeC4/TelegramGroup) - Koleksi terbaru lebih dari 10.000 grup Telegram yang diam-diam dikumpulkan pada 2025, beserta bot BOT paling menarik dan berguna di seluruh internet 🤖【dianbaodaohang.com】
+- [sdras/awesome-actions](https://github.com/sdras/awesome-actions) - Daftar actions keren yang dapat digunakan di GitHub
+- [cobaltdisco/Google-Chinese-Results-Blocklist](https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist) - Akhirnya saya bisa mencari dalam Bahasa Mandarin di Google...
+- [ffffffff0x/Digital-Privacy](https://github.com/ffffffff0x/Digital-Privacy) - Sumber Perlindungan Informasi & OSINT | Solusi terpadu untuk privasi digital: pengumpulan, perlindungan, pembersihan, serta perlawanan OSINT open source
+- [OverTheWallNode/SSV2RayTrojanSSRClash](https://github.com/OverTheWallNode/SSV2RayTrojanSSRClash) - Akses internet ilmiah, ss, ssr, v2ray, trojan, clash, clashr, rekomendasi layanan VPN
+- [formulahendry/955.WLB](https://github.com/formulahendry/955.WLB) - Daftar perusahaan yang tidak lembur 955 - work–life balance (keseimbangan kerja dan hidup)
 - [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) - Daftar fitur keren Git dan GitHub.
 - [github/roadmap](https://github.com/github/roadmap) - Roadmap publik GitHub
-- [ivmm/Student-resources](https://github.com/ivmm/Student-resources) - Artikel ini memperkenalkan hak-hak yang dapat dinikmati dengan status mahasiswa atau staf pengajar, seperti diskon pelajar, diskon pendidikan, atau diskon guru, namun diharapkan hak ini tidak disalahgunakan atau diperjualbelikan agar semua pelajar dapat menikmati.
-- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Daftar layanan jaringan dan aplikasi web Free Software yang bisa di-host di server sendiri
-- [Cat-China/CatBrowser](https://github.com/Cat-China/CatBrowser) - Cat Browser - Dikembangkan mandiri sepenuhnya, mematahkan monopoli pasar browser asing (AS), 600% lebih cepat dari Chrome.
-- [monyhar/monyhar](https://github.com/monyhar/monyhar) - Monyhar Browser - Dikembangkan mandiri sepenuhnya, mematahkan monopoli asing, 600% lebih cepat dari Chrome.
-- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - 😎 Daftar awesome tentang berbagai topik menarik
-- [ruanyf/weekly](https://github.com/ruanyf/weekly) - Mingguan penggemar teknologi, rilis setiap Jumat
-- [github/gov-takedowns](https://github.com/github/gov-takedowns) - Teks pemberitahuan penurunan oleh pemerintah sebagaimana diterima. GitHub tidak mendukung atau mengadopsi pernyataan apa pun dalam pemberitahuan berikut.
-- [ShareX/CustomUploaders](https://github.com/ShareX/CustomUploaders) - Uploader kustom ShareX
+- [ivmm/Student-resources](https://github.com/ivmm/Student-resources) - Artikel ini memperkenalkan hak istimewa diskon pelajar, diskon pendidikan, atau diskon guru yang dapat dinikmati dengan status pelajar atau staf pengajar, tetapi juga berharap agar semua orang menikmati hak tersebut tanpa melupakan kewajiban, jangan menjual atau mengalihkan hak diskon pelajar atau diskon pendidikan Anda, agar siswa lain juga bisa mendapatkan manfaat.
+- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Daftar layanan jaringan dan aplikasi web Free Software yang dapat di-host di server Anda sendiri
+- [Cat-China/CatBrowser](https://github.com/Cat-China/CatBrowser) - Cat Browser - Dikembangkan sepenuhnya secara mandiri, mematahkan monopoli asing (AS) di pasar browser, 600% lebih cepat dari Chrome.
+- [monyhar/monyhar](https://github.com/monyhar/monyhar) - Monyhar Browser - Dikembangkan sepenuhnya secara mandiri, mematahkan monopoli asing, 600% lebih cepat dari Chrome.
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - 😎 Daftar keren tentang berbagai topik menarik
+- [ruanyf/weekly](https://github.com/ruanyf/weekly) - Buletin mingguan penggemar teknologi, terbit setiap Jumat
+- [github/gov-takedowns](https://github.com/github/gov-takedowns) - Teks pemberitahuan penghapusan pemerintah seperti yang diterima. GitHub tidak mendukung atau mengadopsi pernyataan apa pun dalam pemberitahuan berikut.
+- [ShareX/CustomUploaders](https://github.com/ShareX/CustomUploaders) - Pengunggah kustom ShareX
 - [glados-network/GLaDOS](https://github.com/glados-network/GLaDOS) - status GLaDOS
 ## PHP 
 
@@ -1839,339 +1842,340 @@
 - [gee1k/uPic](https://github.com/gee1k/uPic) - 📤uPic adalah alat unggah gambar dan file asli, kuat, indah, dan sederhana untuk macOS.
 ## TeX 
 
-- [billryan/resume](https://github.com/billryan/resume) - Template résumé \LaTeX\ yang elegan. Mirror Tiongkok https://gods.coding.net/p/resume/git
+- [billryan/resume](https://github.com/billryan/resume) - Template résumé \LaTeX\ yang elegan. Mirror di Tiongkok https://gods.coding.net/p/resume/git
 - [LittleNewton/Replace_MathType](https://github.com/LittleNewton/Replace_MathType) - Menyediakan alternatif rumus matematika berbasis Microsoft Office 365
-- [lib-pku/libpku](https://github.com/lib-pku/libpku) - Pengumpulan materi kuliah kampus Anda secara mandiri
+- [lib-pku/libpku](https://github.com/lib-pku/libpku) - Pengumpulan mandiri materi perkuliahan kampus Anda
 - [liblaf/ilatex](https://github.com/liblaf/ilatex) - 📚 Template dan alat LaTeX untuk membuat dokumen yang indah dan terstruktur 📝
-- [Didnelpsun/Math](https://github.com/Didnelpsun/Math) - Matematika ujian pascasarjana, Matematika 1, termasuk Kalkulus Lanjut, Aljabar Linear, Statistik Probabilitas
+- [Didnelpsun/Math](https://github.com/Didnelpsun/Math) - Matematika ujian masuk pascasarjana, Matematika 1, termasuk kalkulus, aljabar linier, statistik probabilitas
 - [zhengkd95/thu_poster_template](https://github.com/zhengkd95/thu_poster_template) - Template LaTeX untuk poster akademik dengan logo Universitas Tsinghua
 - [VicaYang/THU-Exam-LaTeX-Template](https://github.com/VicaYang/THU-Exam-LaTeX-Template) - Template LaTeX untuk Ujian THU
-- [alick/thulib-latex-talk](https://github.com/alick/thulib-latex-talk) - Naskah presentasi "Bagaimana Menggunakan LaTeX untuk Menata Karya Ilmiah". Pembaruan selanjutnya: https://github.com/tuna/thulib-latex-talk
-- [tuna/thulib-latex-talk](https://github.com/tuna/thulib-latex-talk) - Naskah presentasi "Bagaimana Menggunakan LaTeX untuk Menata Karya Ilmiah"
-- [zhaofeng-shu33/THU-coursework-template](https://github.com/zhaofeng-shu33/THU-coursework-template) - Template tugas THU, pengguna yang ditargetkan: Matematika, Fisika, Teknik Elektronika, Mekanika, dan Ilmu Komputer
-- [zinccat/PKU-beamer-theme](https://github.com/zinccat/PKU-beamer-theme) - Tema beamer yang dimodifikasi dari template Tsinghua tertentu
+- [alick/thulib-latex-talk](https://github.com/alick/thulib-latex-talk) - Naskah presentasi "Cara Menggunakan LaTeX untuk Menyusun Makalah". Update selanjutnya: https://github.com/tuna/thulib-latex-talk
+- [tuna/thulib-latex-talk](https://github.com/tuna/thulib-latex-talk) - Naskah presentasi "Cara Menggunakan LaTeX untuk Menyusun Makalah"
+- [zhaofeng-shu33/THU-coursework-template](https://github.com/zhaofeng-shu33/THU-coursework-template) - Template tugas THU, pengguna yang dituju: Matematika, Fisika, Teknik Elektronika, Mekanika, dan Ilmu Komputer
+- [zinccat/PKU-beamer-theme](https://github.com/zinccat/PKU-beamer-theme) - Tema beamer hasil modifikasi dari template Tsinghua
 - [ZenithalHourlyRate/learn-git-the-not-so-super-hard-way](https://github.com/ZenithalHourlyRate/learn-git-the-not-so-super-hard-way) - 
-- [K-Wu/CV-tsinghua-template](https://github.com/K-Wu/CV-tsinghua-template) - Hidup Tsinghua University yang Mulia (THU)
-- [soulmachine/leetcode](https://github.com/soulmachine/leetcode) - Pembahasan soal LeetCode, 151 soal versi lengkap.
+- [K-Wu/CV-tsinghua-template](https://github.com/K-Wu/CV-tsinghua-template) - All hail, Thy Highest University (THU)
+- [soulmachine/leetcode](https://github.com/soulmachine/leetcode) - Pembahasan soal LeetCode, versi lengkap 151 soal.
 - [tuna/thuthesis](https://github.com/tuna/thuthesis) - Template Tesis LaTeX untuk Universitas Tsinghua
 
 ## TypeScript 
 
-- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) - Agen AI open-source yang membawa kekuatan Gemini langsung ke terminal Anda.
+- [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat) - 🤯 Lobe Chat - framework chat AI open-source dengan desain modern. Mendukung banyak penyedia AI (OpenAI / Claude 4 / Gemini / DeepSeek / Ollama / Qwen), Knowledge Base (unggah file / RAG), satu klik
+- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) - Agen AI open-source yang menghadirkan kekuatan Gemini langsung ke terminal Anda.
 - [JuanJLH/vscode-warp-terminal](https://github.com/JuanJLH/vscode-warp-terminal) - 
-- [lobehub/lobe-icons](https://github.com/lobehub/lobe-icons) - 🥨 Lobe Icons - Koleksi Logo SVG dan Ikon Merek Model AI / LLM Populer.
+- [lobehub/lobe-icons](https://github.com/lobehub/lobe-icons) - 🥨 Lobe Icons - Koleksi logo dan ikon SVG merek model AI / LLM populer.
 - [nimbusdotstorage/Nimbus](https://github.com/nimbusdotstorage/Nimbus) - Alternatif open source untuk Google Drive, One Drive, iCloud, dll.
 - [BingyanStudio/github-analyzer](https://github.com/BingyanStudio/github-analyzer) - Ulasan tajam tentang apa yang kamu tulis di GitHub
 - [voideditor/void](https://github.com/voideditor/void) - 
-- [HiveNexus/A2A-Chat](https://github.com/HiveNexus/A2A-Chat) - Chatbot berbasis protokol Agent 2 Agent, yang dapat memberikan tugas ke Agent eksternal melalui dialog dan memperoleh hasilnya.   一个基于 Agent 2 Agent 协议的聊天应用，可以通过对话方式给外部 Agent 下发任务，并获取结果
-- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) - Server Protokol Konteks Model
-- [iszhouhua/social-media-copilot](https://github.com/iszhouhua/social-media-copilot) - Versi open source asisten media sosial - Plugin browser untuk pengumpulan data platform seperti Xiaohongshu, Douyin, Kuaishou, mendukung panggilan API, mendukung deploy Docker.
-- [Hugo-COLLIN/SaveMyPhind-conversation-exporter](https://github.com/Hugo-COLLIN/SaveMyPhind-conversation-exporter) - 🚀 Save my Chatbot: Unduh thread dan halaman Claude, Perplexity, Phind, ChatGPT, dan MaxAI-Google ke file markdown (tidak resmi). ⏩ Kini tersedia di Chrome Web Store dan Firefox Add-ons
-- [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) - Gunakan Claude Code sebagai fondasi infrastruktur coding, memungkinkan Anda menentukan cara berinteraksi dengan model sambil menikmati pembaruan dari Anthropic.
-- [aigem/CFr2-webdav](https://github.com/aigem/CFr2-webdav) - Menggunakan Cloudflare Workers dan R2 untuk mewujudkan server yang kompatibel dengan WebDAV
-- [TBXark/ChatGPT-Telegram-Workers](https://github.com/TBXark/ChatGPT-Telegram-Workers) - Mudah deploy bot ChatGPT Telegram Anda di Cloudflare Workers (atau Vercel, Docker...).
-- [kyswtn/vscode-vercel](https://github.com/kyswtn/vscode-vercel) - Pantau deployment Vercel Anda saat coding
-- [Femoon/tts-azure-web](https://github.com/Femoon/tts-azure-web) - TTS Azure Web adalah aplikasi web Azure Text-to-Speech (TTS), dapat digunakan lokal maupun cloud dengan Azure Key Anda satu klik deploy. TTS Azure Web is an Azure Text-to-Speech (TTS) web application. It allows you to run it locally or deploy it with a single click usi
-- [daytonaio/daytona](https://github.com/daytonaio/daytona) - Daytona adalah Infrastruktur Aman dan Elastis untuk Menjalankan Kode yang Dihasilkan AI
+- [HiveNexus/A2A-Chat](https://github.com/HiveNexus/A2A-Chat) - Chatbot berbasis protokol Agent 2 Agent, yang dapat memberikan tugas kepada Agent eksternal melalui dialog dan mendapatkan hasilnya.   一个基于 Agent 2 Agent 协议的聊天应用，可以通过对话方式给外部 Agent 下发任务，并获取结果
+- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) - Server Model Context Protocol
+- [iszhouhua/social-media-copilot](https://github.com/iszhouhua/social-media-copilot) - Versi open source asisten media sosial - plugin browser untuk pengumpulan data platform seperti Xiaohongshu, Douyin, Kuaishou, dapat dipanggil melalui API, mendukung deployment Docker.
+- [Hugo-COLLIN/SaveMyPhind-conversation-exporter](https://github.com/Hugo-COLLIN/SaveMyPhind-conversation-exporter) - 🚀 Save my Chatbot: Download percakapan dan halaman Claude, Perplexity, Phind, ChatGPT, dan MaxAI-Google ke file markdown (tidak resmi). ⏩ Sekarang tersedia di Chrome Web Store dan Firefox Add-ons
+- [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) - Menggunakan Claude Code sebagai fondasi infrastruktur pemrograman, memungkinkan Anda memutuskan cara berinteraksi dengan model sambil tetap menerima pembaruan dari Anthropic.
+- [aigem/CFr2-webdav](https://github.com/aigem/CFr2-webdav) - Menggunakan Cloudflare Workers dan R2 untuk mengimplementasikan server yang kompatibel dengan WebDAV
+- [TBXark/ChatGPT-Telegram-Workers](https://github.com/TBXark/ChatGPT-Telegram-Workers) - Mudah deploy bot ChatGPT Telegram Anda di Cloudflare Workers (atau Vercel, Docker...)
+- [kyswtn/vscode-vercel](https://github.com/kyswtn/vscode-vercel) - Pantau deployment Vercel Anda saat Anda coding
+- [Femoon/tts-azure-web](https://github.com/Femoon/tts-azure-web) - TTS Azure Web adalah aplikasi web text-to-speech (TTS) Azure, dapat dijalankan secara lokal atau di cloud menggunakan Azure Key Anda, deploy dengan satu klik.
+- [daytonaio/daytona](https://github.com/daytonaio/daytona) - Daytona adalah infrastruktur aman dan elastis untuk menjalankan kode AI-Generated
 - [bepass-org/oblivion-desktop](https://github.com/bepass-org/oblivion-desktop) - Oblivion Desktop - Warp Client tidak resmi untuk Windows/Mac/Linux
-- [besscroft/PicImpact](https://github.com/besscroft/PicImpact) - Website karya fotografi self-hosted, mendukung banyak fitur. PicImpact, bagikan karya kamu ke dunia!
-- [lyc8503/UptimeFlare](https://github.com/lyc8503/UptimeFlare) - ✔ Monitoring uptime / status gratis dan tanpa server di Cloudflare Workers, dengan pemeriksaan Geo-spesifik
-- [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - Alternatif Open Source untuk Vercel, Netlify dan Heroku.
-- [maotoumao/MusicFree](https://github.com/maotoumao/MusicFree) - Pemutar musik gratis modular, dapat disesuaikan, tanpa iklan
-- [maotoumao/MusicFreeDesktop](https://github.com/maotoumao/MusicFreeDesktop) - Pemutar musik gratis modular, dapat disesuaikan, tanpa iklan
-- [misskey-dev/misskey](https://github.com/misskey-dev/misskey) - 🌎 Platform microblogging antarplanet gratis dan open source 🚀
+- [besscroft/PicImpact](https://github.com/besscroft/PicImpact) - Situs fotografi self-hosted, mendukung banyak fitur. PicImpact, bagikan karyamu ke dunia!
+- [lyc8503/UptimeFlare](https://github.com/lyc8503/UptimeFlare) - ✔ Monitoring uptime gratis dan tanpa server / halaman status di Cloudflare Workers, dengan pemeriksaan spesifik Geo
+- [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - Alternatif open source untuk Vercel, Netlify, dan Heroku.
+- [maotoumao/MusicFree](https://github.com/maotoumao/MusicFree) - Pemutar musik gratis yang modular, dapat dikustomisasi, dan tanpa iklan
+- [maotoumao/MusicFreeDesktop](https://github.com/maotoumao/MusicFreeDesktop) - Pemutar musik gratis yang modular, dapat dikustomisasi, dan tanpa iklan
+- [misskey-dev/misskey](https://github.com/misskey-dev/misskey) - 🌎 Platform mikroblog antarplanet sepenuhnya gratis dan open source 🚀
 - [yllhwa/FileWorker](https://github.com/yllhwa/FileWorker) - Clipboard/file sharing online yang berjalan di edge function
 - [web-infra-dev/rspress](https://github.com/web-infra-dev/rspress) - 🦀 Generator situs statis berbasis Rsbuild yang cepat.
-- [beilunyang/img-mom](https://github.com/beilunyang/img-mom) - Telegram bot（img-mon | Ibu Foto）
+- [beilunyang/img-mom](https://github.com/beilunyang/img-mom) - Bot Telegram (img-mon | Ibu Gambar)
 - [liaoliao666/v2ex](https://github.com/liaoliao666/v2ex) - Klien pihak ketiga V2EX yang menarik, aplikasi native, mendukung mode malam.
 - [chaselen/v2ex-playground](https://github.com/chaselen/v2ex-playground) - Plugin untuk menjelajahi situs V2EX di VSCode
-- [hyoban/kirika](https://github.com/hyoban/kirika) - Alat sederhana untuk mengonversi catatan Anda antar platform berbeda
-- [edrlab/thorium-reader](https://github.com/edrlab/thorium-reader) - Aplikasi baca lintas platform, berbasis Readium Desktop toolkit
+- [hyoban/kirika](https://github.com/hyoban/kirika) - Alat sederhana untuk mengonversi catatan Anda antar platform yang berbeda
+- [edrlab/thorium-reader](https://github.com/edrlab/thorium-reader) - Aplikasi pembaca desktop lintas platform, berbasis toolkit Readium Desktop
 - [Kuingsmile/PicList](https://github.com/Kuingsmile/PicList) - Alat upload dan manajemen gambar, berbasis PicGo
-- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) - Klien GUI modern berbasis Tauri, dirancang untuk Windows, macOS, dan Linux untuk pengalaman proxy yang disesuaikan
+- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) - Klien GUI modern berbasis Tauri, didesain untuk berjalan di Windows, macOS, dan Linux untuk pengalaman proxy yang disesuaikan
 - [githubnext/monaspace](https://github.com/githubnext/monaspace) - Superfamily font inovatif untuk kode
-- [dicarne/feishu-backup](https://github.com/dicarne/feishu-backup) - Untuk backup dokumen Feishu, dapat mengkonversi dokumen Feishu ke markdown dan mengunduhnya.
-- [LetTTGACO/elog](https://github.com/LetTTGACO/elog) - Alat ekspor batch Markdown, solusi blog lintas platform terbuka, bebas kombinasi platform menulis (Yuque/Notion/FlowUs/Feishu/Wolai) dan platform blog (Hexo/Vitepress/Halo/Confluence/WordPress, dll)
+- [dicarne/feishu-backup](https://github.com/dicarne/feishu-backup) - Untuk backup dokumen Feishu, dapat mengonversi dokumen Feishu menjadi markdown untuk diunduh.
+- [LetTTGACO/elog](https://github.com/LetTTGACO/elog) - Alat ekspor massal Markdown, solusi blog lintas platform terbuka, kombinasikan platform menulis (Yuque/Notion/FlowUs/Feishu/Wolai) dan platform blog (Hexo/Vitepress/Halo/Confluence/WordPress, dll) sesuka hati
 - [memgraph/odin](https://github.com/memgraph/odin) - 
-- [Harry-Chen/thu-learn-lib](https://github.com/Harry-Chen/thu-learn-lib) - Library JavaScript untuk menyediakan antarmuka ramah program ke Web Learning Universitas Tsinghua
+- [Harry-Chen/thu-learn-lib](https://github.com/Harry-Chen/thu-learn-lib) - Library JavaScript untuk menyediakan antarmuka yang ramah program ke Web Learning Universitas Tsinghua
 - [qxchuckle/vsc-cec-ide](https://github.com/qxchuckle/vsc-cec-ide) - Plugin VSC yang tidak terlalu berguna
-- [chatchat-space/Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat) - Langchain-Chatchat (sebelumnya langchain-ChatGLM) aplikasi RAG & Agent berbasis model bahasa Langchain dan ChatGLM, Qwen, Llama, dll | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Ll
-- [CopyTranslator/CopyTranslator](https://github.com/CopyTranslator/CopyTranslator) - 🔠Asisten membaca dan terjemahan bahasa asing berbasis copy and translate.
+- [chatchat-space/Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat) - Langchain-Chatchat (sebelumnya Langchain-ChatGLM) berbasis Langchain dan ChatGLM, Qwen, serta model bahasa Llama untuk aplikasi RAG dan Agent | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (seperti ChatGLM, Qwen, dan Ll
+- [CopyTranslator/CopyTranslator](https://github.com/CopyTranslator/CopyTranslator) - 🔠Asisten pembaca dan penerjemah bahasa asing berbasis copy dan translate.
 - [longern/FlareDrive](https://github.com/longern/FlareDrive) - Layanan hosting file gratis (WebUI & WebDAV) menggunakan CloudFlare R2
-- [ChatAnyTeam/ChatAny](https://github.com/ChatAnyTeam/ChatAny) - 🌻 Satu klik untuk memiliki ChatGPT+berbagai layanan web AI milik Anda | One click access to your own ChatGPT+Many AI web services
+- [ChatAnyTeam/ChatAny](https://github.com/ChatAnyTeam/ChatAny) - 🌻 Satu klik untuk memiliki layanan web ChatGPT+AI Anda sendiri
 - [MuiseDestiny/zotero-gpt](https://github.com/MuiseDestiny/zotero-gpt) - GPT Bertemu Zotero.
 - [langgenius/webapp-conversation](https://github.com/langgenius/webapp-conversation) - 
-- [langgenius/dify](https://github.com/langgenius/dify) - Platform siap produksi untuk pengembangan workflow agentik.
-- [ObservedObserver/viz-gpt](https://github.com/ObservedObserver/viz-gpt) - Membuat visualisasi data kontekstual dengan Chat Interface dari dataset tabular. Visualisasi data AI.
-- [tldraw/tldraw](https://github.com/tldraw/tldraw) - SDK papan tulis sangat bagus / SDK kanvas tak terbatas
-- [okisdev/ChatChat](https://github.com/okisdev/ChatChat) - Chat Chat, platform chat dan pencarian terpadu ke AI milik Anda, dengan antarmuka sederhana dan mudah digunakan.
-- [79E/ChatGpt-Web](https://github.com/79E/ChatGpt-Web) - Aplikasi web ChatGpt layak komersial berbasis React. Web ChatGpt komersial dengan React.
-- [erictik/midjourney-ui](https://github.com/erictik/midjourney-ui) - Midjourney UI adalah UI painting AI open source berbasis Midjourney
-- [Nutlope/restorePhotos](https://github.com/Nutlope/restorePhotos) - Memulihkan foto wajah lama dan buram dengan AI.
-- [Nutlope/aicommits](https://github.com/Nutlope/aicommits) - CLI yang menulis pesan git commit Anda dengan AI
-- [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT) - 🤖 Rakit, konfigurasikan, dan deploy Agen AI otonom di browser Anda.
-- [RafalWilinski/telegram-chatgpt-concierge-bot](https://github.com/RafalWilinski/telegram-chatgpt-concierge-bot) - Berinteraksi dengan ChatGPT OpenAI via Telegram dan Suara.
-- [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) - Bangun Agen AI, Secara Visual
+- [langgenius/dify](https://github.com/langgenius/dify) - Platform siap produksi untuk pengembangan workflow agentic.
+- [ObservedObserver/viz-gpt](https://github.com/ObservedObserver/viz-gpt) - Membuat visualisasi data kontekstual dengan antarmuka chat dari dataset tabular. Visualisasi data AI.
+- [tldraw/tldraw](https://github.com/tldraw/tldraw) - SDK whiteboard sangat baik / SDK kanvas tak terbatas
+- [okisdev/ChatChat](https://github.com/okisdev/ChatChat) - Chat Chat, platform chat dan pencarian AI terintegrasi milikmu sendiri, dengan antarmuka sederhana dan mudah digunakan.
+- [79E/ChatGpt-Web](https://github.com/79E/ChatGpt-Web) - Aplikasi ChatGpt Web yang layak secara komersial, dibangun dengan React. Web ChatGpt yang dapat dikomersialkan menggunakan React.
+- [erictik/midjourney-ui](https://github.com/erictik/midjourney-ui) - Midjourney UI adalah antarmuka lukis AI open source berbasis Midjourney
+- [Nutlope/restorePhotos](https://github.com/Nutlope/restorePhotos) - Mengembalikan foto wajah lama dan buram dengan AI.
+- [Nutlope/aicommits](https://github.com/Nutlope/aicommits) - CLI yang menuliskan pesan commit git Anda menggunakan AI
+- [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT) - 🤖 Rakit, konfigurasikan, dan deploy AI Agent otonom di browser Anda.
+- [RafalWilinski/telegram-chatgpt-concierge-bot](https://github.com/RafalWilinski/telegram-chatgpt-concierge-bot) - Berinteraksi dengan ChatGPT dari OpenAI melalui Telegram dan Voice.
+- [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) - Bangun AI Agents secara visual
 - [LokerL/tts-vue](https://github.com/LokerL/tts-vue) - 🎤 Alat sintesis suara Microsoft, dibangun dengan Electron + Vue + ElementPlus + Vite.
-- [nat/openplayground](https://github.com/nat/openplayground) - Playground LLM yang bisa dijalankan di laptop Anda
-- [labring/sealos](https://github.com/labring/sealos) - Sealos adalah distribusi Kubernetes siap produksi yang membuat deployment sederhana dan efisien. Langsung setup environment pengembangan untuk bahasa pemrograman atau framework apa pun, deploy tinggi-availa
-- [coolpace/V2EX_Polish](https://github.com/coolpace/V2EX_Polish) - Ekstensi browser V2EX profesional, banyak fitur praktis, membentuk ulang pengalaman browsing Anda!
+- [nat/openplayground](https://github.com/nat/openplayground) - Playground LLM yang dapat Anda jalankan di laptop Anda
+- [labring/sealos](https://github.com/labring/sealos) - Sealos adalah platform aplikasi super native AI, Sistem Operasi Cloud Cerdas yang berpusat pada aplikasi. Siapkan lingkungan pengembangan untuk bahasa atau framework pemrograman apa pun, deploy ting
+- [coolpace/V2EX_Polish](https://github.com/coolpace/V2EX_Polish) - Ekstensi browser V2EX profesional, menggabungkan banyak fitur praktis, mendesain ulang pengalaman browsing Anda!
 - [ztjhz/BetterChatGPT](https://github.com/ztjhz/BetterChatGPT) - UI luar biasa untuk ChatGPT OpenAI (Website + Windows + MacOS + Linux)
-- [3Alan/DocsMind](https://github.com/3Alan/DocsMind) - 🤖 DocsMind memungkinkan Anda chat dengan dokumen dan merangkumnya, dukung pdf, md.
+- [3Alan/DocsMind](https://github.com/3Alan/DocsMind) - 🤖 DocsMind memungkinkan Anda chat dan meringkas dokumen Anda, dukung pdf, md.
 - [riwigefi/light-gpt](https://github.com/riwigefi/light-gpt) - Light-GPT adalah proyek website interaktif berbasis Model GPT-3.5-Turbo.
-- [nextauthjs/next-auth](https://github.com/nextauthjs/next-auth) - Autentikasi untuk Web.
+- [nextauthjs/next-auth](https://github.com/nextauthjs/next-auth) - Otentikasi untuk Web.
 - [zengsanxiang/brain-reply](https://github.com/zengsanxiang/brain-reply) - Klien ChatGPT yang lebih elegan
-- [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) - ✨ Asisten AI Ringan dan Cepat. Dukungan: Web | iOS | MacOS | Android | Linux | Windows
-- [hahahumble/speechgpt](https://github.com/hahahumble/speechgpt) - 💬 SpeechGPT adalah aplikasi web untuk bercakap-cakap dengan ChatGPT.
-- [rerender2021/heard](https://github.com/rerender2021/heard) - Generator subtitle sederhana berbasis whisper & avernakis react.
+- [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) - ✨ Asisten AI ringan dan cepat. Dukungan: Web | iOS | MacOS | Android | Linux | Windows
+- [hahahumble/speechgpt](https://github.com/hahahumble/speechgpt) - 💬 SpeechGPT adalah aplikasi web yang memungkinkan Anda berbincang dengan ChatGPT.
+- [rerender2021/heard](https://github.com/rerender2021/heard) - Generator subtitle sederhana didukung oleh whisper & avernakis react.
 - [mckaywrigley/chatbot-ui](https://github.com/mckaywrigley/chatbot-ui) - Chat AI untuk model apa pun.
-- [GPTGenius/chatgpt-vercel](https://github.com/GPTGenius/chatgpt-vercel) - Buat website chatgpt pribadi melalui vercel
+- [GPTGenius/chatgpt-vercel](https://github.com/GPTGenius/chatgpt-vercel) - Buat situs web ChatGPT pribadi melalui vercel
 - [hyoban/burogu](https://github.com/hyoban/burogu) - Template blog minimal berbasis Next.js 13
 - [futantan/OpenGpt](https://github.com/futantan/OpenGpt) - Buat aplikasi ChatGPT Anda sendiri dalam hitungan detik.
 - [botpress/botpress](https://github.com/botpress/botpress) - Hub open-source untuk membangun & deploy Agen GPT/LLM ⚡️
-- [noobnooc/ohmygpt](https://github.com/noobnooc/ohmygpt) - Deploy aplikasi web ChatGPT Anda dalam hitungan menit.
+- [noobnooc/ohmygpt](https://github.com/noobnooc/ohmygpt) - Deploy aplikasi web berbasis ChatGPT Anda dalam hitungan menit.
 - [aircloud/sync-to-github](https://github.com/aircloud/sync-to-github) - Sinkronkan konten web Anda ke repositori github, misal percakapan dengan ChatGPT.
-- [fraserxu/book-gpt](https://github.com/fraserxu/book-gpt) - Drop buku, mulai ajukan pertanyaan.
-- [ObservedObserver/chatgpt-i18n](https://github.com/ObservedObserver/chatgpt-i18n) - Lokalkan situs web Anda dengan bantuan AI.
-- [ourongxing/chatgpt-vercel](https://github.com/ourongxing/chatgpt-vercel) - Elegan dan Kuat. Didukung oleh OpenAI dan Vercel.
-- [lcomplete/huntly](https://github.com/lcomplete/huntly) - Huntly, alat manajemen informasi, pembaca rss, otomatis menyimpan konten yang dibaca termasuk tweet, alat manajemen GitHub stars. Alat manajemen informasi, pembaca RSS, manajemen bintang GitHub, manajemen tweet, otomatis mencatat artikel yang telah dibaca.
-- [openai-translator/openai-translator](https://github.com/openai-translator/openai-translator) - Ekstensi browser dan aplikasi desktop lintas platform untuk terjemahan berbasis ChatGPT API.
-- [sparticleinc/chatgpt-google-summary-extension](https://github.com/sparticleinc/chatgpt-google-summary-extension) - Ekstensi Chrome untuk melihat ringkasan ChatGPT di samping hasil pencarian Google dan video YouTube, juga mendukung Yahoo! ニュース、PubMed、PMC、NewsPicks、Github、Nikkei、 Bing、Google Patents, dan ringkasan halaman apa pun.
+- [fraserxu/book-gpt](https://github.com/fraserxu/book-gpt) - Drop buku, mulai bertanya.
+- [ObservedObserver/chatgpt-i18n](https://github.com/ObservedObserver/chatgpt-i18n) - Lokalisasi situs web Anda dengan bantuan AI.
+- [ourongxing/chatgpt-vercel](https://github.com/ourongxing/chatgpt-vercel) - Elegan dan Powerful. Didukung oleh OpenAI dan Vercel.
+- [lcomplete/huntly](https://github.com/lcomplete/huntly) - Huntly, alat manajemen informasi, pembaca RSS, alat manajemen GitHub stars, manajemen tweet, otomatis mencatat artikel yang dibaca.
+- [openai-translator/openai-translator](https://github.com/openai-translator/openai-translator) - Ekstensi browser penerjemah teks berbasis ChatGPT API dan aplikasi desktop lintas platform untuk terjemahan.    -    Browser extension and cross-platform desktop application for translation based on ChatGPT API.
+- [sparticleinc/chatgpt-google-summary-extension](https://github.com/sparticleinc/chatgpt-google-summary-extension) - Ekstensi Chrome untuk melihat ringkasan ChatGPT di samping hasil pencarian Google dan video YouTube, juga mendukung Yahoo! ニュース, PubMed, PMC, NewsPicks, Github, Nikkei, Bing, Google Patents, dan ringkasan halaman apa pun.
 - [anse-app/chatgpt-demo](https://github.com/anse-app/chatgpt-demo) - UI web minimal untuk ChatGPT.
 - [microsoft/vscode-webview-ui-toolkit](https://github.com/microsoft/vscode-webview-ui-toolkit) - Library komponen untuk membangun ekstensi berbasis webview di Visual Studio Code.
-- [ycjcl868/readme-gpt](https://github.com/ycjcl868/readme-gpt) - Buat Github Readme Anda dengan OpenAI dan Vercel Edge Functions.
-- [cloudflare/wildebeest](https://github.com/cloudflare/wildebeest) - Wildebeest adalah server ActivityPub dan kompatibel dengan Mastodon
-- [transitive-bullshit/bing-chat](https://github.com/transitive-bullshit/bing-chat) - Klien Node.js untuk pencarian Bing berbasis AI baru. Seperti ChatGPT versi super 🔥
+- [ycjcl868/readme-gpt](https://github.com/ycjcl868/readme-gpt) - Hasilkan Readme Github Anda dengan OpenAI dan Vercel Edge Functions.
+- [cloudflare/wildebeest](https://github.com/cloudflare/wildebeest) - Wildebeest adalah server yang kompatibel ActivityPub dan Mastodon
+- [transitive-bullshit/bing-chat](https://github.com/transitive-bullshit/bing-chat) - Klien Node.js untuk pencarian Bing bertenaga AI baru. Seperti ChatGPT yang super 🔥
 - [Musish/Musish](https://github.com/Musish/Musish) - Apple Music...ish
 - [MNThomson/containerflare](https://github.com/MNThomson/containerflare) - 🔥 Repositori image container edge Cloudflare (Workers + R2)
 - [cmj2002/CF-R2-ImageBed](https://github.com/cmj2002/CF-R2-ImageBed) - Hosting gambar berbasis Cloudflare R2. Mendukung PicGo.
 - [google/brotli](https://github.com/google/brotli) - Format kompresi Brotli
-- [robertying/learnX-companion](https://github.com/robertying/learnX-companion) - Asisten App Tsinghua Network Classroom, menyediakan notifikasi push personalisasi untuk learnX.
-- [dvanoni/notero](https://github.com/dvanoni/notero) - Plugin Zotero untuk menyinkronkan item dan catatan ke Notion
+- [robertying/learnX-companion](https://github.com/robertying/learnX-companion) - Asisten Aplikasi Tsinghua University Network Classroom, menyediakan dukungan notifikasi personalisasi untuk learnX.
+- [dvanoni/notero](https://github.com/dvanoni/notero) - Plugin Zotero untuk sinkronisasi item dan catatan ke Notion
 - [windingwind/zotero-better-notes](https://github.com/windingwind/zotero-better-notes) - Segala hal tentang manajemen catatan. Semua di Zotero.
-- [honojs/hono](https://github.com/honojs/hono) - Framework web berbasis Web Standards
-- [G4brym/R2-Explorer](https://github.com/G4brym/R2-Explorer) - Antarmuka Google Drive untuk Cloudflare R2 Bucket Anda!
-- [SunYufei/workers-dav](https://github.com/SunYufei/workers-dav) - Menggunakan Cloudflare Workers untuk menyediakan layanan WebDAV ke Google Drive / WebDAV supports for Google Drive using Cloudflare Workers
+- [honojs/hono](https://github.com/honojs/hono) - Framework web yang dibangun di atas Standar Web
+- [G4brym/R2-Explorer](https://github.com/G4brym/R2-Explorer) - Antarmuka Google Drive untuk Cloudflare R2 Buckets Anda!
+- [SunYufei/workers-dav](https://github.com/SunYufei/workers-dav) - Menggunakan Cloudflare Workers untuk menyediakan layanan WebDAV ke Google Drive / Dukungan WebDAV untuk Google Drive menggunakan Cloudflare Workers
 - [realByg/office-user-auto-create](https://github.com/realByg/office-user-auto-create) - Menggunakan cloudflare worker untuk membuat akun office secara mandiri
 - [ghedamat/obsidian-save-as-gist](https://github.com/ghedamat/obsidian-save-as-gist) - 
 - [kamranahmedse/aws-cost-cli](https://github.com/kamranahmedse/aws-cost-cli) - Alat CLI untuk analisis biaya di akun AWS Anda dengan integrasi Slack
-- [remotely-save/remotely-save](https://github.com/remotely-save/remotely-save) - Sinkronisasi catatan antara lokal dan cloud dengan smart conflict: S3 (Amazon S3/Cloudflare R2/Backblaze B2/...), Dropbox, webdav (NextCloud/InfiniCLOUD/Synology/...), OneDrive, Google Drive (GDrive), Box, pClou
-- [Future-Scholars/paperlib](https://github.com/Future-Scholars/paperlib) - Alat manajemen makalah akademik open-source.
+- [remotely-save/remotely-save](https://github.com/remotely-save/remotely-save) - Sinkronkan catatan antara lokal dan cloud dengan smart conflict: S3 (Amazon S3/Cloudflare R2/Backblaze B2/...), Dropbox, webdav (NextCloud/InfiniCLOUD/Synology/...), OneDrive, Google Drive (GDrive), Box, pClou
+- [Future-Scholars/paperlib](https://github.com/Future-Scholars/paperlib) - Alat manajemen makalah akademik sumber terbuka.
 - [forecho/cherries](https://github.com/forecho/cherries) - 
 - [thu-info-community/thu-info-lib](https://github.com/thu-info-community/thu-info-lib) - Library JavaScript yang menyediakan antarmuka ramah program ke portal web Tsinghua
-- [Harry-Chen/Learn-Helper](https://github.com/Harry-Chen/Learn-Helper) - Asisten Jaringan Pembelajaran Universitas Tsinghua
-- [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) - Invoke adalah mesin kreatif terdepan untuk model Stable Diffusion, memberdayakan profesional, seniman, dan penggemar untuk menghasilkan dan membuat media visual menggunakan teknologi berbasis AI terbaru. Sol
-- [baotlake/periodic-table-pro](https://github.com/baotlake/periodic-table-pro) - Tabel Periodik Pro, aplikasi kimia wajib dengan tampilan menarik, menyediakan atribut unsur yang lengkap, gambar, dan pengetahuan ensiklopedia lainnya
-- [dtysky/Awaken](https://github.com/dtysky/Awaken) - Pembaca EPUB lintas platform berbasis WebDAV, mendukung catatan, kemajuan, sinkronisasi bookmark, serta impor catatan Kindle.
-- [illacloud/illa-builder](https://github.com/illacloud/illa-builder) - Platform low-code yang memungkinkan Anda membangun aplikasi bisnis, dengan cepat membuat alat internal seperti dashboard, aplikasi CRUD, panel admin, CRM, CMS, dll. Mendukung PostgreSQL, MySQL, Supabase, GraphQL
+- [Harry-Chen/Learn-Helper](https://github.com/Harry-Chen/Learn-Helper) - Asisten untuk platform belajar daring Universitas Tsinghua
+- [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) - Invoke adalah mesin kreatif terdepan untuk model Stable Diffusion, memberdayakan profesional, seniman, dan penggemar untuk menghasilkan dan menciptakan media visual menggunakan teknologi AI terbaru. Solusi ini
+- [baotlake/periodic-table-pro](https://github.com/baotlake/periodic-table-pro) - Tabel Periodik Pro, aplikasi kimia dengan tampilan menarik yang menyediakan data lengkap unsur, gambar, dan pengetahuan ensiklopedia
+- [dtysky/Awaken](https://github.com/dtysky/Awaken) - Pembaca EPUB lintas platform berbasis WebDAV, mendukung catatan, progres, sinkronisasi bookmark, dan impor catatan Kindle.
+- [illacloud/illa-builder](https://github.com/illacloud/illa-builder) - Platform low-code yang memungkinkan Anda membangun aplikasi bisnis, dan memungkinkan Anda dengan cepat membuat alat internal seperti dashboard, aplikasi crud, panel admin, crm, cms, dsb. Mendukung PostgreSQL, MySQL, Supabase, GraphQL
 - [resend/react-email](https://github.com/resend/react-email) - 💌 Bangun dan kirim email menggunakan React
 - [domeccleston/sharegpt](https://github.com/domeccleston/sharegpt) - Bagikan tautan permanen percakapan ChatGPT dengan teman Anda dengan mudah
-- [wong2/chatgpt-google-extension](https://github.com/wong2/chatgpt-google-extension) - Proyek ini sudah tidak digunakan. Lihat proyek baru saya ChatHub:
+- [wong2/chatgpt-google-extension](https://github.com/wong2/chatgpt-google-extension) - Proyek ini sudah tidak dikembangkan lagi. Cek proyek baru saya ChatHub:
 - [pacexy/flow](https://github.com/pacexy/flow) - Pembaca ePub berbasis browser
 - [jiegec/clone-learn-tsinghua](https://github.com/jiegec/clone-learn-tsinghua) - Utilitas untuk mengkloning semua file dari learn.tsinghua.edu.cn
 - [thu-info-community/thu-info-app](https://github.com/thu-info-community/thu-info-app) - Aplikasi yang bertujuan mengintegrasikan berbagai sumber informasi kampus, dikembangkan dengan React Native
-- [exposir/bing-wallpaper-node](https://github.com/exposir/bing-wallpaper-node) - Bing Daily 4K Ultra HD Wallpaper, Wallpaper Bing 4K ultra HD harian
+- [exposir/bing-wallpaper-node](https://github.com/exposir/bing-wallpaper-node) - Bing Daily 4K Ultra HD Wallpaper | Bing Wallpaper harian 4K ultra HD
 - [AlistGo/docs](https://github.com/AlistGo/docs) - 📄 Dokumentasi untuk alist v3: http://github.com/alist-org/alist
-- [slidevjs/docs](https://github.com/slidevjs/docs) - [Mirror] Dokumentasi Slidev
-- [appwrite/appwrite](https://github.com/appwrite/appwrite) - Bangun seperti tim beranggotakan ratusan_
+- [slidevjs/docs](https://github.com/slidevjs/docs) - [Mirrored] Dokumentasi untuk Slidev
+- [appwrite/appwrite](https://github.com/appwrite/appwrite) - Bangun seperti tim ratusan orang_
 - [dai-shi/excalidraw-animate](https://github.com/dai-shi/excalidraw-animate) - Alat untuk menganimasikan gambar Excalidraw
-- [Graviton-Code-Editor/Graviton-App](https://github.com/Graviton-Code-Editor/Graviton-App) - 🚀 Editor Kode dengan tampilan modern
+- [Graviton-Code-Editor/Graviton-App](https://github.com/Graviton-Code-Editor/Graviton-App) - 🚀 Editor kode dengan tampilan modern
 - [thusns/thu-wiki](https://github.com/thusns/thu-wiki) - https://thu.wiki ATAU https://wiki.thusns.org
-- [crashmax-dev/twallpaper](https://github.com/crashmax-dev/twallpaper) - 🌈 Wallpaper gradasi multicolor yang dibuat secara algoritmik dan berkilau halus.
-- [SigNoz/signoz](https://github.com/SigNoz/signoz) - SigNoz adalah platform observabilitas open-source native OpenTelemetry dengan log, trace, dan metrik dalam satu aplikasi. Alternatif open-source untuk DataDog, NewRelic, dll. 🔥 🖥.   👉  Open sour
-- [vuejs/vitepress](https://github.com/vuejs/vitepress) - Generator situs statis bertenaga Vite & Vue.
+- [crashmax-dev/twallpaper](https://github.com/crashmax-dev/twallpaper) - 🌈 Wallpaper gradien multicolor yang dibuat secara algoritmik dan berkilauan dengan mulus.
+- [SigNoz/signoz](https://github.com/SigNoz/signoz) - SigNoz adalah platform observabilitas sumber terbuka yang native untuk OpenTelemetry dengan log, trace, dan metrik dalam satu aplikasi. Alternatif sumber terbuka untuk DataDog, NewRelic, dll. 🔥 🖥.   👉  Open source
+- [vuejs/vitepress](https://github.com/vuejs/vitepress) - Generator situs statis yang didukung Vite & Vue.
 - [sst/sst](https://github.com/sst/sst) - Bangun aplikasi full-stack di infrastruktur Anda sendiri.
-- [nrwl/nx](https://github.com/nrwl/nx) - Platform build berbasis AI yang menghubungkan segalanya dari editor ke CI. Membantu Anda mengirimkan dengan cepat, tanpa merusak apapun.
+- [nrwl/nx](https://github.com/nrwl/nx) - Platform build berbasis AI yang menghubungkan semuanya dari editor Anda ke CI. Membantu Anda mengirimkan dengan cepat tanpa merusak apa pun.
 - [dubinc/dub](https://github.com/dubinc/dub) - Platform atribusi tautan modern. Digunakan oleh tim marketing kelas dunia seperti Twilio, Buffer, Framer, Perplexity, Vercel, dan lainnya.
 - [Privoce/vocechat-web](https://github.com/Privoce/vocechat-web) - Aplikasi Web VoceChat
 - [jackluson/vscode-pomodoro-clock](https://github.com/jackluson/vscode-pomodoro-clock) - Jam Pomodoro untuk VS Code
-- [DTStack/molecule](https://github.com/DTStack/molecule) - :rocket: Framework UI Web IDE yang ringan.
+- [DTStack/molecule](https://github.com/DTStack/molecule) - :rocket: Framework UI Web IDE ringan.
 - [b4rtaz/voice-assistant](https://github.com/b4rtaz/voice-assistant) - Asisten suara untuk Visual Studio Code.
-- [leon-ai/leon](https://github.com/leon-ai/leon) - 🧠 Leon adalah asisten pribadi open-source Anda.
-- [tycrek/ass](https://github.com/tycrek/ass) - Server ShareX sederhana yang self-hosted
-- [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - aplikasi pencatat fokus privasi dengan kemampuan sinkronisasi untuk Windows, macOS, Linux, Android, dan iOS.
+- [leon-ai/leon](https://github.com/leon-ai/leon) - 🧠 Leon adalah asisten pribadi sumber terbuka Anda.
+- [tycrek/ass](https://github.com/tycrek/ass) - Server ShareX self-hosted yang sederhana
+- [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - aplikasi pencatat fokus pada privasi dengan kemampuan sinkronisasi untuk Windows, macOS, Linux, Android, dan iOS.
 - [AlphaNecron/Void](https://github.com/AlphaNecron/Void) - Layanan hosting file yang cepat dan elegan.
 - [egoist/follower-count](https://github.com/egoist/follower-count) - Mendapatkan jumlah pengikut untuk akun Instagram, Twitter, TikTok, Youtube
-- [liveblocks/liveblocks](https://github.com/liveblocks/liveblocks) - Aplikasi terbaik di era AI bukanlah pengalaman solo—mereka kolaboratif. Liveblocks menyediakan fitur siap pakai yang dapat dikustomisasi untuk membuat produk Anda multiplayer, menarik, dan siap AI. Semua tanpa der
-- [cloudflare/workers-graphql-server](https://github.com/cloudflare/workers-graphql-server) - 🔥Server Apollo GraphQL sangat cepat, terdistribusi secara global, dideploy di edge menggunakan Cloudflare Workers
-- [buhe/vscode-mail](https://github.com/buhe/vscode-mail) - Klien Email yang terintegrasi dalam Visual Studio Code.
-- [LekoArts/gatsby-themes](https://github.com/LekoArts/gatsby-themes) - Dapatkan tema Gatsby berkualitas tinggi dan dapat dikustomisasi untuk bootstrap situs web Anda dengan cepat! Pilih dari banyak desain profesional dengan beragam fitur dan opsi kustomisasi
+- [liveblocks/liveblocks](https://github.com/liveblocks/liveblocks) - Aplikasi terbaik di era AI bukanlah pengalaman solo—mereka kolaboratif. Liveblocks menyediakan fitur siap pakai yang dapat disesuaikan untuk membuat produk Anda multiplayer, menarik, dan siap AI. Semua tanpa der
+- [cloudflare/workers-graphql-server](https://github.com/cloudflare/workers-graphql-server) - 🔥 Server Apollo GraphQL yang sangat cepat dan terdistribusi secara global, dideploy di edge menggunakan Cloudflare Workers
+- [buhe/vscode-mail](https://github.com/buhe/vscode-mail) - Klien Email yang terintegrasi di Visual Studio Code.
+- [LekoArts/gatsby-themes](https://github.com/LekoArts/gatsby-themes) - Dapatkan tema Gatsby berkualitas tinggi dan dapat disesuaikan untuk memulai situs web Anda dengan cepat! Pilih dari banyak desain profesional dengan beragam fitur dan opsi kustomisasi
 - [haaarshsingh/kmenu](https://github.com/haaarshsingh/kmenu) - Menu ⌘K yang sempurna
 - [sofn-xyz/mailing](https://github.com/sofn-xyz/mailing) - Bangun, uji, kirim email dengan React
-- [webiny/webiny-js](https://github.com/webiny/webiny-js) - CMS enterprise serverless open-source. Termasuk headless CMS, page builder, form builder, dan file manager. Mudah dikustomisasi dan diperluas. Dapat dideploy ke AWS.
-- [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) - Frontend open source untuk situs dokumentasi GitBook
+- [webiny/webiny-js](https://github.com/webiny/webiny-js) - CMS perusahaan serverless sumber terbuka. Termasuk headless CMS, page builder, form builder, dan file manager. Mudah dikustomisasi dan dikembangkan. Dapat dideploy ke AWS.
+- [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) - Frontend sumber terbuka untuk situs dokumentasi GitBook
 - [codex-team/editor.js](https://github.com/codex-team/editor.js) - Editor gaya blok dengan output JSON yang bersih
-- [pingcap/ossinsight](https://github.com/pingcap/ossinsight) - Analisis, Perbandingan, Tren, Peringkat Perangkat Lunak Open Source, Anda juga dapat mendapatkan insight dari lebih dari 7 miliar dengan bahasa alami (diberdayakan oleh OpenAI). Ikuti kami di Twitter: https://twitter.com/o
-- [markmap/markmap](https://github.com/markmap/markmap) - Bangun peta pikiran dengan teks biasa
+- [pingcap/ossinsight](https://github.com/pingcap/ossinsight) - Analisis, Perbandingan, Tren, Peringkat Perangkat Lunak Sumber Terbuka, Anda juga bisa mendapatkan wawasan dari lebih dari 7 miliar data dengan bahasa alami (didukung oleh OpenAI). Ikuti kami di Twitter: https://twitter.com/o
+- [markmap/markmap](https://github.com/markmap/markmap) - Buat mindmap dari teks biasa
 - [hmu332233/q-link](https://github.com/hmu332233/q-link) - Q.Link | Sembunyikan tautan Anda di balik kuis sederhana.
-- [triggerdotdev/jsonhero-web](https://github.com/triggerdotdev/jsonhero-web) - JSON Hero adalah penjelajah JSON open-source yang indah untuk web yang memungkinkan Anda menjelajah, mencari, dan menavigasi file JSON Anda dengan kecepatan tinggi. 🚀. Dibangun dengan 💜 oleh tim Trigger.dev.
+- [triggerdotdev/jsonhero-web](https://github.com/triggerdotdev/jsonhero-web) - JSON Hero adalah penjelajah JSON sumber terbuka yang indah untuk web yang memungkinkan Anda menjelajah, mencari, dan menavigasi file JSON Anda dengan cepat. 🚀. Dibuat dengan 💜 oleh tim Trigger.dev.
 - [devhubapp/devhub](https://github.com/devhubapp/devhub) - TweetDeck untuk GitHub - Filter Isu, Aktivitas & Notifikasi - Web, Mobile & Desktop dengan 99% kode berbagi di antara mereka
-- [redhat-actions/try-in-web-ide](https://github.com/redhat-actions/try-in-web-ide) - Clone permintaan tarik Anda ke dalam Web IDE yang dihosting di Developer Sandbox untuk Red Hat OpenShift, untuk menguji perubahan dengan mudah.
-- [photoview/photoview](https://github.com/photoview/photoview) - Galeri foto untuk server pribadi self-hosted
-- [yusukebe/r2-image-worker](https://github.com/yusukebe/r2-image-worker) - Simpan dan kirimkan gambar dengan backend R2 Cloudflare Workers.
-- [GitbookIO/proxies-on-cloudflare](https://github.com/GitbookIO/proxies-on-cloudflare) - Proksi di Cloudflare Workers
-- [SharzyL/pastebin-worker](https://github.com/SharzyL/pastebin-worker) - Pastebin di Cloudflare worker, dengan penggunaan CLI yang ramah dan fitur kaya
+- [redhat-actions/try-in-web-ide](https://github.com/redhat-actions/try-in-web-ide) - Clone pull request Anda ke Web IDE yang dihosting di Developer Sandbox untuk Red Hat OpenShift, untuk dengan mudah menguji perubahan.
+- [photoview/photoview](https://github.com/photoview/photoview) - Galeri foto untuk server pribadi yang dihosting sendiri
+- [yusukebe/r2-image-worker](https://github.com/yusukebe/r2-image-worker) - Simpan dan Kirim gambar dengan backend R2 Cloudflare Workers.
+- [GitbookIO/proxies-on-cloudflare](https://github.com/GitbookIO/proxies-on-cloudflare) - Proxy di Cloudflare Workers
+- [SharzyL/pastebin-worker](https://github.com/SharzyL/pastebin-worker) - Pastebin di Cloudflare worker, dengan penggunaan CLI yang ramah dan fitur lengkap
 - [eclipse-theia/theia](https://github.com/eclipse-theia/theia) - Eclipse Theia adalah framework IDE cloud & desktop yang diimplementasikan dengan TypeScript.
-- [facebook/docusaurus](https://github.com/facebook/docusaurus) - Situs dokumentasi open source yang mudah dipelihara.
-- [logto-io/logto](https://github.com/logto-io/logto) - 🧑‍🚀 Infrastruktur otentikasi dan otorisasi untuk aplikasi SaaS dan AI, dibangun di atas OIDC dan OAuth 2.1 dengan multi-tenancy, SSO, dan RBAC.
-- [dushixiang/next-terminal](https://github.com/dushixiang/next-terminal) - Next Terminal adalah sistem audit interaktif yang sederhana, aman, dan ramah pengguna, mendukung beberapa protokol akses jarak jauh termasuk RDP, SSH, VNC, Telnet, dan HTTP
+- [facebook/docusaurus](https://github.com/facebook/docusaurus) - Website dokumentasi sumber terbuka yang mudah dirawat.
+- [logto-io/logto](https://github.com/logto-io/logto) - 🧑‍🚀 Infrastruktur autentikasi dan otorisasi untuk aplikasi SaaS dan AI, dibangun di atas OIDC dan OAuth 2.1 dengan multi-tenancy, SSO, dan RBAC.
+- [dushixiang/next-terminal](https://github.com/dushixiang/next-terminal) - Next Terminal adalah sistem audit interaktif yang sederhana, aman, dan ramah pengguna yang mendukung berbagai protokol akses jarak jauh seperti RDP, SSH, VNC, Telnet, dan HTTP
 - [wayjam/picgo-plugin-s3](https://github.com/wayjam/picgo-plugin-s3) - Plugin PicGo S3
-- [gaeulbyul/RedBlock](https://github.com/gaeulbyul/RedBlock) - [STATUS: TIDAK DIPELIHARA] Ekstensi chainblock terkuat Twitter. / Ekstensi kuat untuk memblokir banyak pengguna di Twitter.
+- [gaeulbyul/RedBlock](https://github.com/gaeulbyul/RedBlock) - [STATUS: TIDAK DIPELIHARA] Ekstensi block rantai terkuat di Twitter. / Ekstensi kuat untuk memblokir banyak pengguna di Twitter.
 - [formulahendry/vscode-code-runner](https://github.com/formulahendry/vscode-code-runner) - Code Runner untuk Visual Studio Code
-- [hexojs/hexo-cli](https://github.com/hexojs/hexo-cli) - Antarmuka baris perintah untuk Hexo
-- [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner) - Perangkat lunak latihan ingatan kata & memori otot bahasa Inggris untuk pekerja keyboard
-- [SSShooter/mind-elixir-core](https://github.com/SSShooter/mind-elixir-core) - ⚗ Mind Elixir adalah inti mind map JavaScript, agnostik framework.
-- [utterance/utterances](https://github.com/utterance/utterances) - :crystal_ball: Widget komentar ringan berbasis isu GitHub
-- [gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) - Platform pengembang untuk lingkungan pengembangan cloud on-demand agar membuat perangkat lunak lebih cepat dan aman.
-- [wabarc/cairn](https://github.com/wabarc/cairn) - Paket NPM dan alat CLI untuk menyimpan halaman web sebagai file HTML tunggal
+- [hexojs/hexo-cli](https://github.com/hexojs/hexo-cli) - Antarmuka command line untuk Hexo
+- [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner) - Perangkat lunak latihan hafalan kata dan memori otot bahasa Inggris yang dirancang untuk pekerja keyboard
+- [SSShooter/mind-elixir-core](https://github.com/SSShooter/mind-elixir-core) - ⚗ Mind Elixir adalah inti mind map JavaScript yang agnostik framework.
+- [utterance/utterances](https://github.com/utterance/utterances) - :crystal_ball: Widget komentar ringan yang dibangun di atas isu GitHub
+- [gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) - Platform pengembang untuk lingkungan pengembangan cloud on-demand agar menciptakan perangkat lunak lebih cepat dan lebih aman.
+- [wabarc/cairn](https://github.com/wabarc/cairn) - Paket NPM dan alat CLI untuk menyimpan halaman web sebagai satu file HTML
 - [massCodeIO/assistant-vscode](https://github.com/massCodeIO/assistant-vscode) - massCode assistant untuk VS Code
 - [vercel/platforms](https://github.com/vercel/platforms) - Aplikasi Next.js full-stack dengan multi-tenancy.
-- [taniarascia/takenote](https://github.com/taniarascia/takenote) - 📝  ‎ Aplikasi catatan berbasis web untuk pengembang.
+- [taniarascia/takenote](https://github.com/taniarascia/takenote) - 📝  ‎ Aplikasi catatan berbasis web untuk developer.
 - [standardnotes/app](https://github.com/standardnotes/app) - Berpikir tanpa takut dengan catatan dan file terenkripsi end-to-end. Untuk masalah, kunjungi https://standardnotes.com/forum atau https://standardnotes.com/help.
-- [gitpod-io/openvscode-server](https://github.com/gitpod-io/openvscode-server) - Jalankan VS Code upstream di mesin jarak jauh dengan akses melalui browser web modern dari perangkat mana pun, di mana saja.
+- [gitpod-io/openvscode-server](https://github.com/gitpod-io/openvscode-server) - Jalankan VS Code upstream pada mesin jarak jauh dengan akses melalui browser web modern dari perangkat mana pun, di mana saja.
 - [EnixCoda/Gitako](https://github.com/EnixCoda/Gitako) - 🐙 Ekstensi pohon file untuk GitHub di Chrome & Firefox & Edge
 - [gridaco/grida](https://github.com/gridaco/grida) - Grida — Editor Grafik 2D Ambisius untuk Web
-- [lostintangent/gitdoc](https://github.com/lostintangent/gitdoc) - Ekstensi VS Code yang memungkinkan Anda mengedit repo Git seperti dokumen multi-file, versi.
-- [Platane/snk](https://github.com/Platane/snk) - 🟩⬜ Menghasilkan game ular dari grafik kontribusi pengguna github dan keluaran tangkapan layar sebagai svg atau gif animasi
+- [lostintangent/gitdoc](https://github.com/lostintangent/gitdoc) - Ekstensi VS Code yang memungkinkan Anda mengedit repo Git seperti dokumen multi-file yang berversi.
+- [Platane/snk](https://github.com/Platane/snk) - 🟩⬜ Menghasilkan permainan ular dari grafik kontribusi pengguna github dan menghasilkan tangkapan layar sebagai svg atau gif animasi
 - [yoshi389111/github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib) - GitHub Action ini membuat kalender kontribusi GitHub pada gambar profil 3D.
 - [yang991178/fluent-reader](https://github.com/yang991178/fluent-reader) - Pembaca RSS desktop modern yang dibangun dengan Electron, React, dan Fluent UI
-- [AlistGo/web-v2](https://github.com/AlistGo/web-v2) - 🗂️ Front end dari Alist V2
-- [ansh/jiffyreader.com](https://github.com/ansh/jiffyreader.com) - Ekstensi Browser untuk membaca lebih cepat di SEMUA situs web!
-- [alefragnani/vscode-bookmarks](https://github.com/alefragnani/vscode-bookmarks) - Ekstensi Bookmarks untuk Visual Studio Code
-- [markdoc/markdoc](https://github.com/markdoc/markdoc) - Framework authoring berbasis Markdown yang kuat dan fleksibel.
-- [batnoter/batnoter](https://github.com/batnoter/batnoter) - Webapp pencatat berbasis markdown, open source, dan self-hosted.
+- [AlistGo/web-v2](https://github.com/AlistGo/web-v2) - 🗂️ Frontend dari Alist V2
+- [ansh/jiffyreader.com](https://github.com/ansh/jiffyreader.com) - Ekstensi Browser untuk membaca lebih cepat di situs web APA PUN!
+- [alefragnani/vscode-bookmarks](https://github.com/alefragnani/vscode-bookmarks) - Ekstensi Bookmark untuk Visual Studio Code
+- [markdoc/markdoc](https://github.com/markdoc/markdoc) - Framework penulisan berbasis Markdown yang kuat dan fleksibel.
+- [batnoter/batnoter](https://github.com/batnoter/batnoter) - Aplikasi catatan web berbasis markdown, self-hosted, sumber terbuka.
 - [Cveinnt/LetsMarkdown.com](https://github.com/Cveinnt/LetsMarkdown.com) - 👨‍💻👩‍💻 Menulis Markdown. Bersama-sama.
-- [Cherry/ShareX-R2-Cloudflare-Workers](https://github.com/Cherry/ShareX-R2-Cloudflare-Workers) - ShareX Uploader kustom ke Cloudflare R2 via Workers
-- [mullvad/browser-extension](https://github.com/mullvad/browser-extension) - Mullvad Browser Extension meningkatkan pengalaman browsing Anda saat menggunakan Mullvad VPN.
+- [Cherry/ShareX-R2-Cloudflare-Workers](https://github.com/Cherry/ShareX-R2-Cloudflare-Workers) - Uploader ShareX kustom ke Cloudflare R2 via Workers
+- [mullvad/browser-extension](https://github.com/mullvad/browser-extension) - Ekstensi Browser Mullvad meningkatkan pengalaman browsing Anda saat menggunakan Mullvad VPN.
 - [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) - Pembuatan diagram seperti flowchart atau sequence diagram dari teks dengan cara mirip markdown
-- [Kong/insomnia](https://github.com/Kong/insomnia) - Klien API open-source lintas platform untuk GraphQL, REST, WebSockets, SSE, dan gRPC. Dengan Cloud, Local, dan penyimpanan Git.
-- [theajack/cnchar](https://github.com/theajack/cnchar) - 🇨🇳 Library alat karakter Tionghoa yang lengkap (pinyin, goresan, radikal, idiom, suara, visualisasi, dll)
-- [missive/emoji-mart](https://github.com/missive/emoji-mart) - 🏪 Satu komponen untuk memilih semuanya
-- [lcomplete/smart-toc](https://github.com/lcomplete/smart-toc) - Ekstensi Chrome untuk menghasilkan daftar isi secara otomatis, mendukung Inoreader dan Feedly. Ekstensi browser untuk membuat outline artikel web secara otomatis, mendukung Inoreader dan Feedly.
-- [sheepzh/time-tracker-4-browser](https://github.com/sheepzh/time-tracker-4-browser) - Pelacak Waktu untuk Browser/网费很贵
-- [ajayyy/SponsorBlockServer](https://github.com/ajayyy/SponsorBlockServer) - Lewati sponsor video YouTube (bagian sisi server)
+- [Kong/insomnia](https://github.com/Kong/insomnia) - Klien API lintas platform sumber terbuka untuk GraphQL, REST, WebSockets, SSE, dan gRPC. Dengan penyimpanan Cloud, Lokal, dan Git.
+- [theajack/cnchar](https://github.com/theajack/cnchar) - 🇨🇳 Library alat karakter Tionghoa serbaguna (Pinyin, goresan, radikal, idiom, suara, visualisasi, dll)
+- [missive/emoji-mart](https://github.com/missive/emoji-mart) - 🏪 Satu komponen untuk memilih semua emoji
+- [lcomplete/smart-toc](https://github.com/lcomplete/smart-toc) - Ekstensi Chrome untuk membuat daftar isi otomatis, mendukung Inoreader dan Feedly. Browser extension untuk menghasilkan outline artikel web secara otomatis, mendukung Inoreader dan Feedly.
+- [sheepzh/time-tracker-4-browser](https://github.com/sheepzh/time-tracker-4-browser) - Pelacak Waktu untuk Browser/Internet mahal
+- [ajayyy/SponsorBlockServer](https://github.com/ajayyy/SponsorBlockServer) - Lewati sponsor video YouTube (bagian server)
 - [Hopding/pdf-lib](https://github.com/Hopding/pdf-lib) - Membuat dan memodifikasi dokumen PDF di lingkungan JavaScript mana pun
-- [GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension](https://github.com/GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension) - Tambahkan tombol praktis seperti beautify, tampilkan file yang dibuka, simpan, toggle terminal, dll ke bilah menu editor di VSCode. Anda juga dapat membuat tombol sendiri dengan perintah kustom. Tautan Marketplace VSCode: htt
+- [GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension](https://github.com/GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension) - Tambahkan tombol praktis seperti beautify, show opened files, save, toggle terminal, dll ke menu editor di VSCode. Anda juga bisa membuat tombol sendiri dengan perintah kustom. Tautan VSCode Marketplace: htt
 - [hexojs/hexo](https://github.com/hexojs/hexo) - Framework blog yang cepat, sederhana & kuat, didukung oleh Node.js.
-- [actions/stale](https://github.com/actions/stale) - Menandai isu dan pull request yang tidak memiliki interaksi terbaru
+- [actions/stale](https://github.com/actions/stale) - Menandai isu dan pull request yang tidak ada interaksi terbaru
 - [surgioproject/surgio](https://github.com/surgioproject/surgio) - Menghasilkan aturan untuk Surge, Clash, Quantumult seperti PRO
-- [nginxinc/nginx-for-azure-deploy-action](https://github.com/nginxinc/nginx-for-azure-deploy-action) - Github Actions untuk sinkronisasi konfigurasi NGINX ke dalam layanan NGINX for Azure.
-- [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) - Spacedrive adalah penjelajah file lintas platform open source, didukung oleh sistem file virtual terdistribusi yang ditulis dengan Rust.
-- [DenverCoder1/custom-icon-badges](https://github.com/DenverCoder1/custom-icon-badges) - 🛡 Memungkinkan pengguna menggunakan Octicons dan ikon serta logo mereka sendiri di badge shields.io dengan lebih mudah
+- [nginxinc/nginx-for-azure-deploy-action](https://github.com/nginxinc/nginx-for-azure-deploy-action) - Github Actions untuk sinkronisasi konfigurasi NGINX ke layanan NGINX for Azure.
+- [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) - Spacedrive adalah penjelajah file lintas platform sumber terbuka, didukung oleh sistem file virtual terdistribusi yang ditulis dengan Rust.
+- [DenverCoder1/custom-icon-badges](https://github.com/DenverCoder1/custom-icon-badges) - 🛡 Memungkinkan pengguna lebih mudah menggunakan Octicons dan ikon serta logo mereka sendiri pada badge shields.io
 - [arduino/arduino-ide](https://github.com/arduino/arduino-ide) - Arduino IDE 2.x
 - [yuudi/onesend](https://github.com/yuudi/onesend) - kirim file melalui onedrive
-- [xcodebuild/CodeTerminal](https://github.com/xcodebuild/CodeTerminal) - Aplikasi terminal standalone lintas platform yang diekstrak dari Visual Studio Code.
-- [Zhengqbbb/cz-git](https://github.com/Zhengqbbb/cz-git) - cz-git | czg  🛠️ DX first dan lebih terstruktur, ringan, dapat dikustomisasi, format keluaran standar Commitizen adapter dan CLI
+- [xcodebuild/CodeTerminal](https://github.com/xcodebuild/CodeTerminal) - Aplikasi terminal mandiri lintas platform hasil ekstrak dari Visual Studio Code.
+- [Zhengqbbb/cz-git](https://github.com/Zhengqbbb/cz-git) - cz-git | czg  🛠️ DX first dan lebih terstruktur, ringan, dapat dikustomisasi, format output standar adapter Commitizen dan CLI
 - [tutao/tutanota](https://github.com/tutao/tutanota) - Tuta adalah layanan email dengan fokus kuat pada keamanan dan privasi yang memungkinkan Anda mengenkripsi email, kontak, dan entri kalender di semua perangkat Anda.
 - [atomcorp/themes](https://github.com/atomcorp/themes) - Tema untuk Windows Terminal
-- [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) - Ekosistem pengembangan API open-source - https://hoppscotch.io (alternatif open-source untuk Postman, Insomnia)
+- [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) - Ekosistem pengembangan API sumber terbuka - https://hoppscotch.io (alternatif open-source untuk Postman, Insomnia)
 - [antfu/awesome-cn-cafe-web](https://github.com/antfu/awesome-cn-cafe-web) - ☕️ Web App untuk Awesome CN Café
-- [yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) - 💯 Materi persiapan wawancara coding terkurasi untuk insinyur perangkat lunak yang sibuk
-- [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) - Kode sumber terbuka dan kurikulum freeCodeCamp.org. Belajar matematika, pemrograman, dan ilmu komputer secara gratis.
-- [harrisoff/onedrive-js-sdk](https://github.com/harrisoff/onedrive-js-sdk) - Membungkus beberapa API OneDrive, hanya untuk mengunggah dan berbagi file.
-- [harrisoff/onedrive-image-hosting](https://github.com/harrisoff/onedrive-image-hosting) - OneDrive Image Hosting | OneDrive 图床
+- [yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) - 💯 Materi persiapan wawancara coding yang dikurasi untuk insinyur perangkat lunak yang sibuk
+- [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) - Kode sumber dan kurikulum open-source freeCodeCamp.org. Belajar matematika, pemrograman, dan ilmu komputer gratis.
+- [harrisoff/onedrive-js-sdk](https://github.com/harrisoff/onedrive-js-sdk) - Membungkus beberapa API OneDrive, hanya untuk upload dan berbagi file.
+- [harrisoff/onedrive-image-hosting](https://github.com/harrisoff/onedrive-image-hosting) - Hosting Gambar OneDrive | OneDrive 图床
 - [ms-iot/vscode-ros](https://github.com/ms-iot/vscode-ros) - Ekstensi Visual Studio Code untuk pengembangan Robot Operating System (ROS)
 - [yzhang-gh/vscode-markdown](https://github.com/yzhang-gh/vscode-markdown) - Markdown All in One
-- [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) - 🔒 Daftar periksa kompilasi berisi 300+ tips untuk melindungi keamanan dan privasi digital di 2024
+- [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) - 🔒 Daftar periksa kompilasi lebih dari 300 tips untuk melindungi keamanan dan privasi digital di 2024
 - [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) - ✨ Aplikasi visualisasi inovatif dan open-source yang mengubah berbagai format data, seperti JSON, YAML, XML, CSV, dan lainnya, menjadi grafik interaktif.
 - [charleswan/vscode-extensions](https://github.com/charleswan/vscode-extensions) - Koleksi resep ekstensi Visual Studio Code yang lezat https://marketplace.visualstudio.com/publishers/CharlesWan
 - [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium) - Bangun basis pengetahuan pribadi Anda dengan Trilium Notes
-- [grafana/grafana](https://github.com/grafana/grafana) - Platform visualisasi data dan observabilitas yang terbuka dan dapat dikomposisi. Visualisasikan metrik, log, dan trace dari berbagai sumber seperti Prometheus, Loki, Elasticsearch, InfluxDB, Postgres, dan banyak lagi.
+- [grafana/grafana](https://github.com/grafana/grafana) - Platform observabilitas dan visualisasi data yang terbuka dan dapat dikomposisi. Visualisasikan metrik, log, dan jejak dari berbagai sumber seperti Prometheus, Loki, Elasticsearch, InfluxDB, Postgres, dan banyak lagi.
 - [reactjs/react.dev](https://github.com/reactjs/react.dev) - Situs dokumentasi React
 - [microsoft/TypeScript](https://github.com/microsoft/TypeScript) - TypeScript adalah superset dari JavaScript yang dikompilasi menjadi output JavaScript yang bersih.
-- [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) - Platform untuk membangun panel admin, alat internal, dan dasbor. Terintegrasi dengan 25+ basis data dan API apa pun.
+- [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) - Platform untuk membuat panel admin, alat internal, dan dasbor. Terintegrasi dengan 25+ database dan API apa pun.
 - [XadillaX/vscode-language-viml](https://github.com/XadillaX/vscode-language-viml) - Plugin VimL untuk VSCode.
-- [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim) - Host ekstensi Nodejs untuk vim & neovim, memuat ekstensi seperti VSCode dan meng-host language server.
+- [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim) - Host ekstensi Nodejs untuk vim & neovim, memuat ekstensi seperti VSCode dan menjadi host language server.
 - [CryogenicPlanet/cryogenicplanet.github.io](https://github.com/CryogenicPlanet/cryogenicplanet.github.io) - Ruang Pribadi di web
-- [wei/socialify](https://github.com/wei/socialify) - 💞 Sosialkan proyek Anda. 🌐 Bagikan ke dunia!
+- [wei/socialify](https://github.com/wei/socialify) - 💞 Sosialisasikan proyek Anda. 🌐 Bagikan ke dunia!
 - [VSCodeVim/Vim](https://github.com/VSCodeVim/Vim) - :star: Vim untuk Visual Studio Code
-- [AtomMaterialUI/iconGenerator](https://github.com/AtomMaterialUI/iconGenerator) - Koleksi ikon yang digunakan dalam plugin Atom Material Icons (untuk JetBrains, Chrome, dan Firefox)
-- [antfu/case-police](https://github.com/antfu/case-police) - 🚨 Perbaiki format penulisan, TOLONG!
+- [AtomMaterialUI/iconGenerator](https://github.com/AtomMaterialUI/iconGenerator) - Koleksi Ikon yang digunakan dalam plugin Atom Material Icons (untuk JetBrains, Chrome dan Firefox)
+- [antfu/case-police](https://github.com/antfu/case-police) - 🚨 Koreksi penulisan huruf besar/kecil, TOLONG!
 - [shd101wyy/vscode-markdown-preview-enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced) - Salah satu ekstensi pratinjau markdown "TERBAIK" untuk Visual Studio Code
 - [HAG87/vscode-maxscript-lsp](https://github.com/HAG87/vscode-maxscript-lsp) - Bahasa MaxScript untuk VS Code (implementasi Language Server)
-- [marcomontalbano/video-to-markdown](https://github.com/marcomontalbano/video-to-markdown) - Bagaimana cara menyematkan video dalam markdown? Ini jawabannya. Tambahkan video ke file markdown Anda dengan lebih mudah.
-- [dangeredwolf/ModernDeck](https://github.com/dangeredwolf/ModernDeck) - Klien Twitter yang cantik dan kuat untuk desktop.
+- [marcomontalbano/video-to-markdown](https://github.com/marcomontalbano/video-to-markdown) - Bagaimana cara menyematkan video dalam markdown? Di sini jawabannya. Tambahkan video ke file markdown Anda dengan lebih mudah.
+- [dangeredwolf/ModernDeck](https://github.com/dangeredwolf/ModernDeck) - Klien Twitter yang indah dan kuat untuk desktop.
 - [shiftkey/desktop](https://github.com/shiftkey/desktop) - Fork dari GitHub Desktop untuk mendukung berbagai distribusi Linux
 - [k9982874/github-gist-explorer](https://github.com/k9982874/github-gist-explorer) - 
-- [djyde/ossart](https://github.com/djyde/ossart) - Cetak aktivitas GitHub Anda sebagai karya seni
-- [luyuhuang/vscode-rss](https://github.com/luyuhuang/vscode-rss) - Pembaca RSS yang tertanam di Visual Studio Code
+- [djyde/ossart](https://github.com/djyde/ossart) - Cetak aktivitas GitHub Anda sebagai sebuah karya seni
+- [luyuhuang/vscode-rss](https://github.com/luyuhuang/vscode-rss) - Pembaca RSS yang tersemat di Visual Studio Code
 - [liximomo/vscode-sftp](https://github.com/liximomo/vscode-sftp) - Ekstensi sftp/ftp super cepat untuk VS Code
-- [funnyzak/react-native-v2ex](https://github.com/funnyzak/react-native-v2ex) - Proyek ini menggunakan React Native untuk membangun aplikasi klien mobile V2EX. Tujuannya adalah membangun kerangka kerja pengembangan cepat React Native. Data klien sepenuhnya berbasis pada API terbuka V2EX. Berdasarkan RN 0.71.5.
-- [trzsz/trzsz.js](https://github.com/trzsz/trzsz.js) - trzsz.js adalah versi js dari trzsz, membuat terminal yang dibangun dengan electron dan webshell mendukung trzsz ( trz / tsz ).
-- [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) - Pembuat resume unik yang menjaga privasi Anda. Sepenuhnya aman, dapat dikustomisasi, portabel, open-source, dan gratis selamanya. Coba sekarang!
-- [slidevjs/slidev](https://github.com/slidevjs/slidev) - Presentasi Slide untuk Pengembang
-- [zzzgydi/clash-verge](https://github.com/zzzgydi/clash-verge) - GUI Clash berbasis tauri. Mendukung Windows, macOS, dan Linux.
+- [funnyzak/react-native-v2ex](https://github.com/funnyzak/react-native-v2ex) - Proyek ini menggunakan React Native untuk membangun aplikasi klien mobile V2EX. Tujuannya adalah untuk membangun scaffolding pengembangan cepat dengan React Native. Data klien sepenuhnya berbasis API terbuka V2EX. Berdasarkan RN 0.71.5.
+- [trzsz/trzsz.js](https://github.com/trzsz/trzsz.js) - trzsz.js adalah versi js dari trzsz, membuat terminal yang dibangun dengan electron dan webshell mendukung trzsz (trz / tsz).
+- [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) - Pembuat resume unik yang menjaga privasi Anda. Sepenuhnya aman, dapat dikustomisasi, portabel, open-source dan gratis selamanya. Coba sekarang!
+- [slidevjs/slidev](https://github.com/slidevjs/slidev) - Slide Presentasi untuk Pengembang
+- [zzzgydi/clash-verge](https://github.com/zzzgydi/clash-verge) - Antarmuka Clash berbasis tauri. Mendukung Windows, macOS, dan Linux.
 - [louisyoungx/safari-like-startpage](https://github.com/louisyoungx/safari-like-startpage) - Halaman awal seperti Safari
 - [BoostIO/BoostNote-App](https://github.com/BoostIO/BoostNote-App) - Boost Note adalah alat manajemen proyek berbasis dokumen yang memaksimalkan kecepatan tim DevOps jarak jauh.
-- [rick-yo/remind](https://github.com/rick-yo/remind) - Bawa mindmap ke browser
-- [QwikDev/qwik](https://github.com/QwikDev/qwik) - Aplikasi web dengan pemuatan instan, tanpa usaha
+- [rick-yo/remind](https://github.com/rick-yo/remind) - Hadirkan mindmap ke browser
+- [QwikDev/qwik](https://github.com/QwikDev/qwik) - Aplikasi web dengan waktu muat instan, tanpa usaha
 - [vuepress-reco/vuepress-theme-reco](https://github.com/vuepress-reco/vuepress-theme-reco) - 🎨 Ini adalah repo untuk vuepress-theme-reco 2.
-- [WayneGongCN/microsoft-todo-browser-ext](https://github.com/WayneGongCN/microsoft-todo-browser-ext) - Ekstensi browser pihak ketiga open source untuk Microsoft To Do
-- [outline/outline](https://github.com/outline/outline) - Basis pengetahuan tercepat untuk tim yang berkembang. Indah, kolaboratif waktu nyata, fitur lengkap, dan kompatibel dengan markdown.
+- [WayneGongCN/microsoft-todo-browser-ext](https://github.com/WayneGongCN/microsoft-todo-browser-ext) - Ekstensi browser pihak ketiga sumber terbuka untuk Microsoft To Do
+- [outline/outline](https://github.com/outline/outline) - Basis pengetahuan tercepat untuk tim yang berkembang. Indah, kolaboratif waktu nyata, kaya fitur, dan kompatibel dengan markdown.
 - [geist-org/geist-ui](https://github.com/geist-org/geist-ui) - Sistem desain untuk membangun situs web dan aplikasi modern.
-- [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) - Workbench Publikasi Satu Atap Anda
+- [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) - Satu Tempat Kerja Publikasi Anda
 - [ddiu8081/bus-vis](https://github.com/ddiu8081/bus-vis) - 🚌 Visualisasi bus kota di Tiongkok.
-- [vitejs/vite](https://github.com/vitejs/vite) - Alat frontend generasi berikutnya. Cepat!
-- [notea-org/notea](https://github.com/notea-org/notea) - 📒 Aplikasi pencatat mandiri yang disimpan di S3
+- [vitejs/vite](https://github.com/vitejs/vite) - Alat pengembangan frontend generasi berikutnya. Cepat!
+- [notea-org/notea](https://github.com/notea-org/notea) - 📒 Aplikasi pencatatan self-hosted yang disimpan di S3
 - [heroui-inc/heroui](https://github.com/heroui-inc/heroui) - 🚀 Pustaka UI React yang indah, cepat, dan modern. (Sebelumnya NextUI)
 - [coder/code-server](https://github.com/coder/code-server) - VS Code di browser
-- [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) - Framework CSS utility-first untuk pengembangan UI yang cepat.
-- [danloh/mdSilo-web](https://github.com/danloh/mdSilo-web) - Basis pengetahuan dalam browser di atas file plain-text lokal
-- [Gisto/Gisto](https://github.com/Gisto/Gisto) - Gisto adalah aplikasi manajemen snippet lintas platform yang memungkinkan Anda dan/atau tim Anda berbagi potongan kode dengan cepat dan mudah. Berdasarkan Infrastruktur GitHub Gists yang berarti Anda dapat menggunakan semua fitur Anda
+- [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) - Kerangka kerja CSS utility-first untuk pengembangan UI yang cepat.
+- [danloh/mdSilo-web](https://github.com/danloh/mdSilo-web) - Basis pengetahuan dalam browser di atas file teks polos lokal
+- [Gisto/Gisto](https://github.com/Gisto/Gisto) - Gisto adalah aplikasi manajemen snippet lintas platform yang memungkinkan Anda dan/atau tim Anda berbagi potongan kode dengan cepat dan mudah. Berdasarkan Infrastruktur GitHub Gists yang berarti Anda dapat menggunakan semua e
 - [GustavoASC/google-drive-vscode](https://github.com/GustavoASC/google-drive-vscode) - Ekstensi untuk mengintegrasikan VSCode dengan Google Drive™
-- [liupan1890/aliyunpan](https://github.com/liupan1890/aliyunpan) - Aliyun Drive versi Xiao Bai Yang  Aliyun Drive versi PC aliyundriver
-- [Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo) - :rocket:Alat sederhana & cantik untuk mengunggah gambar yang dibangun dengan vue-cli-electron-builder
-- [XPoet/picx](https://github.com/XPoet/picx) - 🏞️ PicX adalah alat image hosting yang dikembangkan berbasis GitHub API, menyediakan layanan unggah gambar, pembuatan tautan gambar, dan toolbox gambar umum.
-- [Actions-R-Us/actions-tagger](https://github.com/Actions-R-Us/actions-tagger) - Meta-action untuk menjaga versi action Anda selalu terbaru :rocket:
+- [liupan1890/aliyunpan](https://github.com/liupan1890/aliyunpan) - 阿里云盘小白羊版  阿里云盘PC版 aliyundriver
+- [Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo) - :rocket: Alat sederhana & indah untuk mengunggah gambar yang dibangun dengan vue-cli-electron-builder
+- [XPoet/picx](https://github.com/XPoet/picx) - 🏞️ PicX adalah alat image hosting berbasis GitHub API, menyediakan layanan unggah gambar, pembuatan tautan gambar, dan toolbox gambar umum.
+- [Actions-R-Us/actions-tagger](https://github.com/Actions-R-Us/actions-tagger) - Meta-action untuk menjaga versi action Anda tetap terbaru :rocket:
 - [Ajaxy/telegram-tt](https://github.com/Ajaxy/telegram-tt) - Telegram Web A, GPL v3
 - [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) - Papan tulis virtual untuk membuat diagram seperti gambar tangan
 - [nglviewer/ngl](https://github.com/nglviewer/ngl) - Penampil protein WebGL
-- [mjswensen/themer](https://github.com/mjswensen/themer) - 🎨 themer mengambil satu set warna dan menghasilkan tema untuk aplikasi Anda (editor, terminal, wallpaper, dan lainnya).
-- [Binaryify/OneDark-Pro](https://github.com/Binaryify/OneDark-Pro) - Tema One Dark ikonik Atom untuk Visual Studio Code
-- [ritwickdey/vscode-create-file-folder](https://github.com/ritwickdey/vscode-create-file-folder) - Ekstensi kecil vscode yang membantu Anda membuat file & folder dengan gaya Atom.
+- [mjswensen/themer](https://github.com/mjswensen/themer) - 🎨 themer mengambil serangkaian warna dan menghasilkan tema untuk aplikasi Anda (editor, terminal, wallpaper, dan lainnya).
+- [Binaryify/OneDark-Pro](https://github.com/Binaryify/OneDark-Pro) - Tema One Dark ikonik dari Atom untuk Visual Studio Code
+- [ritwickdey/vscode-create-file-folder](https://github.com/ritwickdey/vscode-create-file-folder) - Ekstensi vscode kecil yang membantu Anda membuat file & folder dalam gaya Atom.
 - [whyour/qinglong](https://github.com/whyour/qinglong) - Platform manajemen tugas terjadwal yang mendukung Python3, JavaScript, Shell, Typescript
-- [johnpapa/vscode-peacock](https://github.com/johnpapa/vscode-peacock) - Ubah warna ruang kerja Visual Studio Code Anda secara halus. Ideal saat Anda memiliki beberapa instance VS Code, menggunakan VS Live Share, atau menggunakan fitur Remote VS Code, dan ingin cepat mengidentifikasi workspace Anda
+- [johnpapa/vscode-peacock](https://github.com/johnpapa/vscode-peacock) - Ubah warna ruang kerja Visual Studio Code Anda secara halus. Ideal ketika Anda memiliki beberapa instance VS Code, menggunakan VS Live Share, atau fitur Remote VS Code, dan ingin mengidentifikasi dengan cepat
 - [morethanwords/tweb](https://github.com/morethanwords/tweb) - Telegram Web K, GPL v3
-- [gitkraken/vscode-gitlens](https://github.com/gitkraken/vscode-gitlens) - Tingkatkan Git di dalam VS Code dan buka pengetahuan tersembunyi di setiap repositori — Visualisasikan kepenulisan kode secara sekilas melalui anotasi Git blame dan CodeLens, navigasikan dan jelajahi Git secara mulus
+- [gitkraken/vscode-gitlens](https://github.com/gitkraken/vscode-gitlens) - Tingkatkan Git di dalam VS Code dan buka pengetahuan tersembunyi di setiap repositori — Visualisasikan kepenulisan kode seketika melalui anotasi Git blame dan CodeLens, navigasi dan jelajahi Git dengan mulus
 - [carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji) - Panduan emoji untuk pesan commit Anda. 😜
-- [NotionX/react-notion-x](https://github.com/NotionX/react-notion-x) - Renderer React yang cepat dan akurat untuk Notion. Termasuk baterai TS. ⚡️
+- [NotionX/react-notion-x](https://github.com/NotionX/react-notion-x) - Renderer React untuk Notion yang cepat dan akurat. Termasuk TS. ⚡️
 - [Shywim/github-repo-size](https://github.com/Shywim/github-repo-size) - Addon Firefox yang menampilkan ukuran repositori Github.
 - [streetsidesoftware/vscode-spell-checker](https://github.com/streetsidesoftware/vscode-spell-checker) - Pemeriksa ejaan kode sumber sederhana untuk kode
 - [brianlovin/figma-dominant-color-toolkit](https://github.com/brianlovin/figma-dominant-color-toolkit) - Hasilkan palet dari gambar untuk secara ajaib mengisi desain Anda.
-- [transitive-bullshit/nextjs-notion-starter-kit](https://github.com/transitive-bullshit/nextjs-notion-starter-kit) - Deploy situs web bertenaga Notion Anda sendiri dalam hitungan menit dengan Next.js dan Vercel.
+- [transitive-bullshit/nextjs-notion-starter-kit](https://github.com/transitive-bullshit/nextjs-notion-starter-kit) - Deploy situs web berbasis Notion Anda sendiri dalam hitungan menit dengan Next.js dan Vercel.
 - [spencerwooo/onedrive-vercel-index](https://github.com/spencerwooo/onedrive-vercel-index) - Daftar direktori publik OneDrive, didukung oleh Vercel dan Next.js
 - [doki-theme/doki-theme-vscode](https://github.com/doki-theme/doki-theme-vscode) - Tema karakter anime lucu untuk VS-Code.
-- [frencojobs/vscode-notion](https://github.com/frencojobs/vscode-notion) - Telusuri halaman Notion langsung di dalam Visual Studio Code.
-- [lostintangent/gistpad](https://github.com/lostintangent/gistpad) - 📘 Ekstensi VS Code untuk mengelola dan berbagi potongan kode, catatan, dan contoh interaktif menggunakan GitHub Gists
+- [frencojobs/vscode-notion](https://github.com/frencojobs/vscode-notion) - Jelajahi halaman Notion langsung di dalam Visual Studio Code.
+- [lostintangent/gistpad](https://github.com/lostintangent/gistpad) - 📘 Ekstensi VS Code untuk mengelola dan berbagi snippet kode, catatan dan sampel interaktif menggunakan GitHub Gists
 - [material-extensions/vscode-material-icon-theme](https://github.com/material-extensions/vscode-material-icon-theme) - Ikon Material Design untuk VS Code
 - [lokalise/i18n-ally](https://github.com/lokalise/i18n-ally) - 🌍 Semua dalam satu ekstensi i18n untuk VS Code
 - [vscode-icons/vscode-icons](https://github.com/vscode-icons/vscode-icons) - Ikon untuk Visual Studio Code
 - [Authenticator-Extension/Authenticator](https://github.com/Authenticator-Extension/Authenticator) - Authenticator menghasilkan kode Verifikasi 2 Langkah di browser Anda.
 - [samuelmaddock/metastream](https://github.com/samuelmaddock/metastream) - Tonton media streaming bersama teman.
 - [swdotcom/swdc-vscode](https://github.com/swdotcom/swdc-vscode) - Plugin pelacak waktu untuk Visual Studio Code
-- [oderwat/vscode-indent-rainbow](https://github.com/oderwat/vscode-indent-rainbow) - Ekstensi yang menampilkan indentasi dengan latar belakang warna pelangi samar agar lebih mudah dibaca
+- [oderwat/vscode-indent-rainbow](https://github.com/oderwat/vscode-indent-rainbow) - Ekstensi yang menunjukkan indentasi dengan latar belakang warna pelangi samar untuk membuatnya lebih mudah dibaca
 - [CoenraadS/Bracket-Pair-Colorizer-2](https://github.com/CoenraadS/Bracket-Pair-Colorizer-2) - Ekstensi Pewarna Kurung untuk VSCode
 - [YXL76/cloudmusic-vscode](https://github.com/YXL76/cloudmusic-vscode) - Netease Music untuk VS Code
-- [desktop/desktop](https://github.com/desktop/desktop) - Fokus pada hal yang penting, bukan berjuang dengan Git.
-- [withfig/autocomplete](https://github.com/withfig/autocomplete) - Autocomplete bergaya IDE untuk terminal & shell Anda yang sudah ada
+- [desktop/desktop](https://github.com/desktop/desktop) - Fokus pada hal yang penting daripada bertarung dengan Git.
+- [withfig/autocomplete](https://github.com/withfig/autocomplete) - Autocomplete bergaya IDE untuk terminal & shell yang sudah ada
 - [rid9/DateTime](https://github.com/rid9/DateTime) - Informasi status bar tanggal dan waktu untuk Visual Studio Code.
-- [omgovich/colord](https://github.com/omgovich/colord) - 👑 Alat kecil namun kuat untuk manipulasi dan konversi warna berkinerja tinggi
+- [omgovich/colord](https://github.com/omgovich/colord) - 👑 Alat kecil namun kuat untuk manipulasi dan konversi warna dengan performa tinggi
 - [microsoft/vscode-sublime-keybindings](https://github.com/microsoft/vscode-sublime-keybindings) - Ekstensi Keymap Sublime Text untuk VS Code
 - [triggerjs/trigger](https://github.com/triggerjs/trigger) - Pustaka untuk membuat animasi berbasis scroll dengan atribut HTML dan variabel CSS.
-- [Eugeny/tabby](https://github.com/Eugeny/tabby) - Terminal untuk era yang lebih modern
-- [Vanessa219/vditor](https://github.com/Vanessa219/vditor) - ♏  Editor Markdown berbasis browser, mendukung WYSIWYG (Rich Text), Instant Rendering (seperti Typora), dan mode Split View.
+- [Eugeny/tabby](https://github.com/Eugeny/tabby) - Terminal untuk zaman yang lebih modern
+- [Vanessa219/vditor](https://github.com/Vanessa219/vditor) - ♏  Editor Markdown berbasis browser, mendukung WYSIWYG (Rich Text), Instant Rendering (mirip Typora), dan mode pratinjau split. Editor Markdown Dalam Browser, mendukung WYSIWYG (Teks Kaya), Instant Rendering (seperti Typora), dan mode Split View.
 - [Yqnn/svg-path-editor](https://github.com/Yqnn/svg-path-editor) - Editor online untuk membuat dan memanipulasi path SVG
 - [daltonmenezes/aura-theme](https://github.com/daltonmenezes/aura-theme) - ✨ Tema gelap yang indah untuk aplikasi favorit Anda.
-- [pawelgrzybek/snippet-generator](https://github.com/pawelgrzybek/snippet-generator) - Pembuat snippet untuk Visual Studio Code, Sublime Text, dan Atom
-- [robertying/learnX](https://github.com/robertying/learnX) - Aplikasi Web Learning Universitas Tsinghua, dibangun dengan React Native. App untuk Web Learning Universitas Tsinghua, dikembangkan dengan React Native. ⚛️
+- [pawelgrzybek/snippet-generator](https://github.com/pawelgrzybek/snippet-generator) - Generator snippet untuk Visual Studio Code, Sublime Text, dan Atom
+- [robertying/learnX](https://github.com/robertying/learnX) - Aplikasi Tsinghua University Web Learning, dibangun dengan React Native. ⚛️
 - [microsoft/vscode](https://github.com/microsoft/vscode) - Visual Studio Code
-- [refined-github/refined-github](https://github.com/refined-github/refined-github) - :octocat: Ekstensi browser yang menyederhanakan antarmuka GitHub dan menambah fitur berguna
-- [reruin/sharelist](https://github.com/reruin/sharelist) - Berbagi cepat GoogleDrive OneDrive
-- [dendronhq/dendron](https://github.com/dendronhq/dendron) - Alat manajemen pengetahuan pribadi (PKM) yang tumbuh seiring Anda berkembang!
+- [refined-github/refined-github](https://github.com/refined-github/refined-github) - :octocat: Ekstensi browser yang menyederhanakan antarmuka GitHub dan menambah fitur-fitur berguna
+- [reruin/sharelist](https://github.com/reruin/sharelist) - Berbagi GoogleDrive OneDrive dengan cepat
+- [dendronhq/dendron](https://github.com/dendronhq/dendron) - Alat manajemen pengetahuan pribadi (PKM) yang tumbuh seiring perkembangan Anda!
 - [foambubble/foam](https://github.com/foambubble/foam) - Sistem manajemen dan berbagi pengetahuan pribadi untuk VSCode
-- [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) - Perangkat lunak manajemen pengetahuan pribadi yang mengutamakan privasi, dapat dihosting sendiri, sepenuhnya open source, ditulis dalam typescript dan golang.
-- [Ashutosh00710/github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph) - Grafik aktivitas yang dihasilkan secara dinamis untuk menampilkan aktivitas GitHub Anda selama 31 hari terakhir.
-- [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) - 🧡 Segalanya bisa menjadi RSS
+- [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) - Perangkat lunak manajemen pengetahuan pribadi self-hosted, sepenuhnya open source, dan mengutamakan privasi, ditulis dalam typescript dan golang.
+- [Ashutosh00710/github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph) - Grafik aktivitas yang dihasilkan secara dinamis untuk menunjukkan aktivitas GitHub Anda selama 31 hari terakhir.
+- [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) - 🧡 Segala sesuatu bisa jadi RSS
 - [the1812/Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved) - Skrip peningkatan Bilibili yang kuat
 - [darkreader/darkreader](https://github.com/darkreader/darkreader) - Ekstensi Dark Reader untuk Chrome dan Firefox
 - [ankit/stylebot](https://github.com/ankit/stylebot) - Ubah tampilan web secara instan
@@ -2262,6 +2266,6 @@ Sejauh diizinkan oleh hukum, [erbanku](https://github.com/erbanku) telah melepas
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-13
 
 ---

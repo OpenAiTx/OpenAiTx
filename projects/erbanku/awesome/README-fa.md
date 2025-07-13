@@ -142,62 +142,63 @@
 - [expressvpn/lightway-core](https://github.com/expressvpn/lightway-core) - Lightway Core یک پروتکل VPN مدرن توسط ExpressVPN است تا تجربه‌ای سریع‌تر، ایمن‌تر و قابل اعتمادتر از VPN ارائه دهد.
 - [rainmeter/rainmeter](https://github.com/rainmeter/rainmeter) - ابزار سفارشی‌سازی دسکتاپ برای ویندوز
 - [obsproject/obs-studio](https://github.com/obsproject/obs-studio) - OBS Studio - نرم‌افزار رایگان و متن‌باز برای پخش زنده و ضبط صفحه نمایش
-## #C 
+## C# # 
 
+- [OpenAiTx/OpenAiTx](https://github.com/OpenAiTx/OpenAiTx) - پلتفرم ترجمه خودکار برای راهنمای پروژه GitHub شما و ویکی.
 - [UnigramDev/Unigram](https://github.com/UnigramDev/Unigram) - تلگرام برای ویندوز
-- [IT-HaoGe/Windows-Update-Delayer](https://github.com/IT-HaoGe/Windows-Update-Delayer) - ابزار توقف به‌روزرسانی ویندوز ITHaoGe برای Win11/10، توقف سریع به‌روزرسانی ویندوز 11/10
+- [IT-HaoGe/Windows-Update-Delayer](https://github.com/IT-HaoGe/Windows-Update-Delayer) - تاخیر‌دهنده به‌روزرسانی ویندوز ITHaoGe برای Win11/10، ابزار توقف سریع به‌روزرسانی ویندوز ۱۱/۱۰
 - [hellzerg/optimizer](https://github.com/hellzerg/optimizer) - بهترین بهینه‌ساز ویندوز
-- [thebookisclosed/ViVe](https://github.com/thebookisclosed/ViVe) - کتابخانه C# و برنامه کنسولی برای استفاده از APIهای کنترل ویژگی جدید در ویندوز 10 نسخه 2004 و جدیدتر
+- [thebookisclosed/ViVe](https://github.com/thebookisclosed/ViVe) - کتابخانه C# و برنامه کنسولی برای استفاده از APIهای کنترل ویژگی جدید در ویندوز ۱۰ نسخه ۲۰۰۴ و جدیدتر
 - [xhnbzdl/feishu-doc-export](https://github.com/xhnbzdl/feishu-doc-export) - سرویس خروجی گرفتن از اسناد Feishu
-- [abpframework/abp](https://github.com/abpframework/abp) - فریم‌ورک برنامه‌های وب متن‌باز برای ASP.NET Core! معماری پیشنهادی برای ساخت راهکارهای نرم‌افزاری سازمانی با بهترین شیوه‌ها بر پایه دات‌نت را ارائه می‌دهد. زیرساخت‌های پایه‌ای را فراهم می‌کند.
-- [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) - سیستم نرم‌افزاری رسانه‌ای رایگان - بک‌اند سرور و API
+- [abpframework/abp](https://github.com/abpframework/abp) - فریم‌ورک اپلیکیشن وب متن‌باز برای ASP.NET Core! معماری پیشنهادی برای ساخت راهکارهای نرم‌افزاری سازمانی با بهترین روش‌ها بر بستر .NET را ارائه می‌دهد. زیرساخت پایه را فراهم می‌کند.
+- [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) - سیستم رسانه‌ای نرم‌افزار آزاد - سرور Backend و API
 - [boy1dr/SpleeterGui](https://github.com/boy1dr/SpleeterGui) - رابط کاربری دسکتاپ ویندوز برای Spleeter - جداسازی منبع با هوش مصنوعی
-- [Berrysoft/TsinghuaNet](https://github.com/Berrysoft/TsinghuaNet) - متوقف شده، به پروژه tunet-rust مراجعه کنید. کلاینت شبکه دانشگاه تسینگ‌هوا، مناسب برای UWP، iOS، Android.
-- [mili-tan/ArashiDNS.Dekunua](https://github.com/mili-tan/ArashiDNS.Dekunua) - ابزار معروف مدیریت سرورهای DoH داخلی برای ویندوز 11
+- [Berrysoft/TsinghuaNet](https://github.com/Berrysoft/TsinghuaNet) - متوقف شده، به پروژه tunet-rust مراجعه کنید. کلاینت شبکه دانشگاه Tsinghua، مناسب برای UWP، iOS، Android.
+- [mili-tan/ArashiDNS.Dekunua](https://github.com/mili-tan/ArashiDNS.Dekunua) - مدیر معروف سرورهای DoH برای ویندوز ۱۱ / ابزار مدیریت داخلی معروف سرور DoH برای ویندوز ۱۱
 - [2dust/clashN](https://github.com/2dust/clashN) - کلاینت Clash برای ویندوز، پشتیبانی از Mihomo
 - [zsh2401/AutumnBox](https://github.com/zsh2401/AutumnBox) - جعبه ابزار گرافیکی ADB
-- [thufv/CMinor-Verifier](https://github.com/thufv/CMinor-Verifier) - پلتفرم آزمایش درس "تحلیل و اعتبارسنجی نرم‌افزار" دانشگاه تسینگ‌هوا، بهار 2022
-- [emrecancubukcu/Terrain-Decorator](https://github.com/emrecancubukcu/Terrain-Decorator) - ابزار سبک وزن ویرایش زمین برای unity3d
-- [imbushuo/EnergyStar](https://github.com/imbushuo/EnergyStar) - برنامه‌ای برای تنظیم حالت SV2 Efficiency برای برنامه‌های غیرفعال ویندوز و برنامه‌های پس‌زمینه کاربر
+- [thufv/CMinor-Verifier](https://github.com/thufv/CMinor-Verifier) - پلتفرم آزمایش درس «تحلیل و اعتبارسنجی نرم‌افزار» دانشگاه Tsinghua، بهار ۲۰۲۲
+- [emrecancubukcu/Terrain-Decorator](https://github.com/emrecancubukcu/Terrain-Decorator) - ابزار سبک تزیین زمین برای Unity3D
+- [imbushuo/EnergyStar](https://github.com/imbushuo/EnergyStar) - برنامه‌ای برای تنظیم حالت بهره‌وری SV2 برای برنامه‌های غیرفعال ویندوز و برنامه‌های پس‌زمینه کاربر
 - [0x5bfa/FluentHub](https://github.com/0x5bfa/FluentHub) - کلاینت شیک و قدرتمند GitHub برای ویندوز
 - [FireCubeStudios/Protecc](https://github.com/FireCubeStudios/Protecc) - محافظت می‌کند
 - [AxDSan/KeyPose](https://github.com/AxDSan/KeyPose) - جایگزینی برای 'Mouseposé' در ویندوز
-- [RaoHammas/Social-Space](https://github.com/RaoHammas/Social-Space) - Social Space برنامه‌ای است که به شما اجازه می‌دهد برنامه‌هایتان را کنار هم باز کنید و محیط‌های کاری را ذخیره نمایید.
+- [RaoHammas/Social-Space](https://github.com/RaoHammas/Social-Space) - برنامه‌ای که به شما اجازه می‌دهد برنامه‌ها را کنار هم باز کنید و محیط‌های کاری را ذخیره نمایید.
 - [ros/solidworks_urdf_exporter](https://github.com/ros/solidworks_urdf_exporter) - خروجی‌گیر SolidWorks به URDF
 - [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) - PowerShell برای هر سیستم!
-- [Rise-Software/Rise-Media-Player](https://github.com/Rise-Software/Rise-Media-Player) - یک پخش‌کننده رسانه برای همه فایل‌ها یا استریم‌های شما؛ چه موسیقی باشد یا ویدیو، آنلاین یا آفلاین، Rise Media Player همه را انجام می‌دهد. زیبا و بومی با آخرین نسخه WinUI.
-- [rocksdanister/lively](https://github.com/rocksdanister/lively) - نرم‌افزار رایگان و متن‌باز برای تنظیم پس‌زمینه دسکتاپ و اسکرین‌سیورهای متحرک با WinUI 3
-- [dremin/RetroBar](https://github.com/dremin/RetroBar) - نوار وظیفه کلاسیک ویندوز 95، 98، Me، 2000، XP، Vista برای نسخه‌های مدرن ویندوز
-- [lalakii/MouseClickTool](https://github.com/lalakii/MouseClickTool) - ابزار کلیک خودکار ساده و کاربردی، حجم کم، عملکرد عالی. نسخه فعلی 14 کیلوبایت، نسخه آنلاین(minimal) تنها 5 کیلوبایت. https://mouseclicktool.sourceforge.io
-- [dotnet/yarp](https://github.com/dotnet/yarp) - جعبه‌ابزار برای توسعه برنامه‌های پروکسی معکوس HTTP با عملکرد بالا
-- [proxysu/ProxySU](https://github.com/proxysu/ProxySU) - ابزار نصب یک‌کلیکی Xray, V2ray, Trojan, NaiveProxy, Trojan-Go, ShadowsocksR(SSR), Shadowsocks-libev و پلاگین‌های مرتبط، MTProto+TLS برای ویندوز (ابزار یک‌کلیکی عبور از تحریم)
+- [Rise-Software/Rise-Media-Player](https://github.com/Rise-Software/Rise-Media-Player) - یک مدیاپلیر برای همه چیزهایی که دارید یا استریم می‌کنید؛ چه موسیقی باشد یا ویدیو، آنلاین یا آفلاین، Rise Media Player همه را انجام می‌دهد. زیبا و بومی با آخرین نسخه WinUI.
+- [rocksdanister/lively](https://github.com/rocksdanister/lively) - نرم‌افزار رایگان و متن‌باز که به کاربران اجازه می‌دهد والپیپرها و اسکرین‌سیورهای دسکتاپ متحرک را با قدرت WinUI 3 تنظیم کنند.
+- [dremin/RetroBar](https://github.com/dremin/RetroBar) - نوار وظیفه کلاسیک ویندوز ۹۵، ۹۸، Me، ۲۰۰۰، XP، Vista برای نسخه‌های مدرن ویندوز
+- [lalakii/MouseClickTool](https://github.com/lalakii/MouseClickTool) - کلیک‌کننده خودکار ساده و کاربردی با حجم کم و عملکرد عالی. حجم فعلی ۱۴KB، نسخه آنلاین (minimal) فقط ۵KB. https://mouseclicktool.sourceforge.io
+- [dotnet/yarp](https://github.com/dotnet/yarp) - جعبه‌ابزار توسعه برنامه‌های پراکسی معکوس HTTP با کارایی بالا
+- [proxysu/ProxySU](https://github.com/proxysu/ProxySU) - ابزار نصب یک‌کلیکی Xray، V2ray، Trojan، NaiveProxy، Trojan-Go، ShadowsocksR(SSR)، Shadowsocks-libev و افزونه‌های مرتبط، MTProto+TLS برای ویندوز (ابزار یک‌کلیک عبور از تحریم)
 - [bitwarden/server](https://github.com/bitwarden/server) - زیرساخت/بک‌اند Bitwarden (API، پایگاه داده، Docker و غیره)
 - [QL-Win/QuickLook](https://github.com/QL-Win/QuickLook) - قابلیت "Quick Look" مک را به ویندوز بیاورید
 - [DinoChan/Loaf](https://github.com/DinoChan/Loaf) - 
-- [ShareX/ShareX](https://github.com/ShareX/ShareX) - ShareX یک برنامه رایگان و متن‌باز برای ضبط یا عکس‌برداری از هر بخش صفحه با یک کلید است. همچنین از بارگذاری تصاویر، متن و انواع مختلف فایل‌ها پشتیبانی می‌کند.
+- [ShareX/ShareX](https://github.com/ShareX/ShareX) - ShareX یک برنامه رایگان و متن‌باز است که به کاربران اجازه می‌دهد هر ناحیه‌ای از صفحه خود را تنها با یک کلید ضبط یا عکس‌برداری کنند. همچنین از آپلود تصاویر، متن و انواع فایل‌های مختلف پشتیبانی می‌کند.
 - [shadowsocks/shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows) - پورت C# از shadowsocks
-- [gheyret/UyghurEditPP](https://github.com/gheyret/UyghurEditPP) - ویرایشگر متن با قابلیت بررسی املا برای زبان اویغوری
-- [marian42/wavefunctioncollapse](https://github.com/marian42/wavefunctioncollapse) - قدم زدن در شهری بی‌نهایت و تولیدشده به صورت رویه‌ای
-- [kenvix/USBCopyer](https://github.com/kenvix/USBCopyer) - 😉 ابزار کپی خودکار فایل‌ها از فلش پس از اتصال. "ابزار پشتیبان‌گیری و سرقت فایل فلش" (USBCopyer خوانده می‌شود)
-- [sttz/expresso](https://github.com/sttz/expresso) - expresso واسط خط فرمان برای کنترل برنامه ExpressVPN
-- [Azure/azure-powershell](https://github.com/Azure/azure-powershell) - پاورشل مایکروسافت آژور
-- [LimerBoy/Adamantium-Thief](https://github.com/LimerBoy/Adamantium-Thief) - :key: (این کد برای نسخه‌های جدید کروم به‌روز نیست) رمزگشایی گذرواژه‌ها، کوکی‌ها، کارت‌های اعتباری، تاریخچه، بوکمارک‌ها و پرکردن خودکار مرورگرهای مبتنی بر کرومیوم. نسخه > 80 پشتیبانی می‌شود.
-- [wakatime/notepadpp-wakatime](https://github.com/wakatime/notepadpp-wakatime) - افزونه Notepad++ برای ردیابی خودکار زمان و تولید معیارها از فعالیت برنامه‌نویسی شما.
-- [wakatime/office-wakatime](https://github.com/wakatime/office-wakatime) - افزونه‌های Office برای ردیابی خودکار زمان و تولید معیارها از فعالیت برنامه‌نویسی شما.
+- [gheyret/UyghurEditPP](https://github.com/gheyret/UyghurEditPP) - ویرایشگر متن با قابلیت بررسی املای زبان اویغور
+- [marian42/wavefunctioncollapse](https://github.com/marian42/wavefunctioncollapse) - قدم زدن در شهری بی‌نهایت و تولیدی به‌صورت رویه‌ای
+- [kenvix/USBCopyer](https://github.com/kenvix/USBCopyer) - 😉 برای کپی خودکار فایل‌های فلش پس از اتصال آن. "ابزار پشتیبان‌گیری و کپی فایل یو‌اس‌بی" (نوشتن USBCopyer، خواندن USBCopier)
+- [sttz/expresso](https://github.com/sttz/expresso) - expresso یک رابط خط فرمان برای کنترل برنامه ExpressVPN است
+- [Azure/azure-powershell](https://github.com/Azure/azure-powershell) - PowerShell مایکروسافت آژور
+- [LimerBoy/Adamantium-Thief](https://github.com/LimerBoy/Adamantium-Thief) - :key: (این کد برای نسخه‌های جدید Chrome منسوخ شده است) رمزگشایی پسوردها، کوکی‌ها، کارت‌های اعتباری، تاریخچه، بوکمارک‌ها و تکمیل خودکار مرورگرهای مبتنی بر Chromium. پشتیبانی از نسخه بالاتر از ۸۰.
+- [wakatime/notepadpp-wakatime](https://github.com/wakatime/notepadpp-wakatime) - افزونه Notepad++ برای رهگیری خودکار زمان و تولید شاخص‌ها از فعالیت برنامه‌نویسی شما
+- [wakatime/office-wakatime](https://github.com/wakatime/office-wakatime) - افزونه‌های آفیس برای رهگیری خودکار زمان و تولید شاخص‌ها از فعالیت برنامه‌نویسی شما
 - [microsoft/PowerToys](https://github.com/microsoft/PowerToys) - ابزارهای سیستمی ویندوز برای افزایش بهره‌وری
-- [0x7c13/Notepads](https://github.com/0x7c13/Notepads) - ویرایشگر متن مدرن، سبک با طراحی مینیمالیستی
-- [srwi/EverythingToolbar](https://github.com/srwi/EverythingToolbar) - یکپارچه‌سازی Everything در نوار وظیفه ویندوز
-- [mpvnet-player/mpv.net](https://github.com/mpvnet-player/mpv.net) - 🎞 mpv.net پخش‌کننده رسانه با رابط کاربری مدرن برای ویندوز
-- [ModuleArt/quick-picture-viewer](https://github.com/ModuleArt/quick-picture-viewer) - 🖼️ نمایشگر تصویر دسکتاپ سبک و چندمنظوره برای ویندوز. بهترین جایگزین برای نمایشگر پیش‌فرض عکس ویندوز.
-- [nilaoda/BBDown](https://github.com/nilaoda/BBDown) - دانلودکننده Bilibili. یک ابزار دانلود دستوری برای بیلی‌بیلی.
-- [TGSAN/CMWTAT_Digital_Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition) - جعبه ابزار فعال‌سازی ویندوز 10/11 CloudMoe برای دریافت لایسنس دیجیتال؛ بهترین فعال‌ساز متن‌باز Win10/Win11 در گیت‌هاب!
-- [AutoDarkMode/Windows-Auto-Night-Mode](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode) - تعویض خودکار بین تم تیره و روشن ویندوز 10 و 11
-- [mili-tan/AuroraDNS.GUI](https://github.com/mili-tan/AuroraDNS.GUI) - خالص و مقاوم در برابر آلودگی، ساده و سبک
-- [Richasy/BiliBili-UWP](https://github.com/Richasy/BiliBili-UWP) - کلاینت UWP بیلی‌بیلی (البته غیررسمی)
+- [0x7c13/Notepads](https://github.com/0x7c13/Notepads) - ویرایشگر متن مدرن و سبک با طراحی مینیمالیستی
+- [srwi/EverythingToolbar](https://github.com/srwi/EverythingToolbar) - ادغام Everything با نوار وظیفه ویندوز
+- [mpvnet-player/mpv.net](https://github.com/mpvnet-player/mpv.net) - 🎞 mpv.net یک مدیاپلیر برای ویندوز با رابط کاربری مدرن است.
+- [ModuleArt/quick-picture-viewer](https://github.com/ModuleArt/quick-picture-viewer) - 🖼️ نمایشگر تصویر دسکتاپ سبک و چندکاره برای ویندوز. بهترین جایگزین نمایشگر پیش‌فرض عکس ویندوز.
+- [nilaoda/BBDown](https://github.com/nilaoda/BBDown) - دانلودر Bilibili. یک دانلودر خط فرمان برای Bilibili.
+- [TGSAN/CMWTAT_Digital_Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition) - ابزار فعال‌سازی CloudMoe Windows 10/11 برای دریافت مجوز دیجیتال، بهترین فعال‌ساز Win10/Win11 متن‌باز در GitHub. بهترین ابزار فعال‌سازی مجوز دیجیتال (Digital License) متن‌باز ویندوز!
+- [AutoDarkMode/Windows-Auto-Night-Mode](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode) - سوئیچ خودکار بین تم تاریک و روشن ویندوز ۱۰ و ۱۱
+- [mili-tan/AuroraDNS.GUI](https://github.com/mili-tan/AuroraDNS.GUI) - پاک و ضدآلودگی، ساده و سبک
+- [Richasy/BiliBili-UWP](https://github.com/Richasy/BiliBili-UWP) - کلاینت UWP برای BiliBili، البته به صورت شخص ثالث
 - [BluePointLilac/ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager) - 🖱️ برنامه مدیریت منوی راست‌کلیک ویندوز
-- [Tichau/FileConverter](https://github.com/Tichau/FileConverter) - File Converter ابزاری بسیار ساده برای تبدیل و فشرده‌سازی فایل‌ها از طریق منوی زمینه اکسپلورر ویندوز است.
-- [Alkl58/NotEnoughAV1Encodes](https://github.com/Alkl58/NotEnoughAV1Encodes) - رابط گرافیکی برای AV1 (aomenc، rav1e و svt-av1)
-- [t1m0thyj/WinDynamicDesktop](https://github.com/t1m0thyj/WinDynamicDesktop) - پورت قابلیت Dynamic Desktop مک Mojave برای ویندوز
+- [Tichau/FileConverter](https://github.com/Tichau/FileConverter) - File Converter ابزاری بسیار ساده برای تبدیل و فشرده‌سازی فایل‌ها با استفاده از منوی راست کلیک اکسپلورر ویندوز
+- [Alkl58/NotEnoughAV1Encodes](https://github.com/Alkl58/NotEnoughAV1Encodes) - رابط گرافیکی AV1 (aomenc, rav1e & svt-av1)
+- [t1m0thyj/WinDynamicDesktop](https://github.com/t1m0thyj/WinDynamicDesktop) - پورت ویژگی Dynamic Desktop macOS Mojave برای ویندوز
 ## ++C
 
 - [zen-browser/desktop](https://github.com/zen-browser/desktop) - به اینترنتی آرام‌تر خوش آمدید
@@ -350,148 +351,149 @@
 
 ## Elm 
 
-- [hilverd/glossary-page-template](https://github.com/hilverd/glossary-page-template) - یک صفحه HTML تکی با ویرایشگر داخلی برای ایجاد واژه‌نامه که می‌تواند در هر مکانی میزبانی شود.
+- [hilverd/glossary-page-template](https://github.com/hilverd/glossary-page-template) - یک صفحه HTML تکی با ویرایشگر داخلی برای ایجاد واژه‌نامه که می‌تواند در هر جایی میزبانی شود.
 
 ## Erlang 
 
-- [emqx/emqx](https://github.com/emqx/emqx) - مقیاس‌پذیرترین و قابل‌اعتمادترین بروکر MQTT برای هوش مصنوعی، اینترنت اشیا، اینترنت اشیای صنعتی و وسایل نقلیه متصل
+- [emqx/emqx](https://github.com/emqx/emqx) - مقیاس‌پذیرترین و قابل‌اعتمادترین بروکر MQTT برای AI، اینترنت اشیا، IIoT و خودروهای متصل
 
 ## GDScript 
 
-- [mbrlabs/Lorien](https://github.com/mbrlabs/Lorien) - اپلیکیشن نقاشی/وایت‌برد با بوم بی‌نهایت برای ویندوز، لینوکس و macOS. ساخته‌شده با Godot.
+- [mbrlabs/Lorien](https://github.com/mbrlabs/Lorien) - اپلیکیشن بوم بی‌نهایت برای طراحی/تخته‌نویسی در ویندوز، لینوکس و مک‌اواس. ساخته شده با Godot.
 
 ## Go 
 
-- [OpenListTeam/OpenList](https://github.com/OpenListTeam/OpenList) - یک فورک جدید از AList برای مقابله با بحران اعتماد
-- [samzong/mdctl](https://github.com/samzong/mdctl) - ابزار CLI مبتنی بر هوش مصنوعی برای بهبود گردش کار Markdown، با دانلود خودکار تصویر، ترجمه و ویژگی‌های بیشتر که به‌زودی اضافه می‌شود!
-- [henrygd/beszel](https://github.com/henrygd/beszel) - هاب مانیتورینگ سرور سبک با داده‌های تاریخی، آمار داکر و هشدارها.
+- [lucaslorentz/caddy-docker-proxy](https://github.com/lucaslorentz/caddy-docker-proxy) - Caddy به عنوان پروکسی معکوس برای Docker
+- [OpenListTeam/OpenList](https://github.com/OpenListTeam/OpenList) - یک فورک جدید از AList برای مقابله با بحران ضد اعتماد
+- [samzong/mdctl](https://github.com/samzong/mdctl) - ابزار خط فرمان مبتنی بر هوش مصنوعی برای بهبود گردش کار Markdown، با قابلیت دانلود خودکار تصویر، ترجمه و ویژگی‌های بیشتر که به زودی افزوده می‌شود!
+- [henrygd/beszel](https://github.com/henrygd/beszel) - مرکز پایش سرور سبک با داده‌های تاریخی، آمار داکر و هشدارها.
 - [jonssonyan/h-ui](https://github.com/jonssonyan/h-ui) - فقط پنل برای Hysteria2 / 仅仅是 Hysteria2 的面板
-- [bepass-org/warp-plus](https://github.com/bepass-org/warp-plus) - Warp+Psiphon، ابزاری برای مقابله با سانسور در ایران
-- [nezhahq/nezha](https://github.com/nezhahq/nezha) - :trollface: ابزار مانیتورینگ سرور و وب‌سایت سبک و خود-میزبان و ابزار عملیات و نگهداری (O&M)
-- [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) - روشی راحت‌تر برای مدیریت همه چیز در داکر
+- [bepass-org/warp-plus](https://github.com/bepass-org/warp-plus) - Warp+Psiphon، ابزار مقابله با سانسور برای ایران
+- [nezhahq/nezha](https://github.com/nezhahq/nezha) - :trollface: ابزار سبک و خودمیزبان پایش سرور و وب‌سایت و مدیریت عملیات و نگهداری (O&M)
+- [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) - راهی راحت‌تر برای مدیریت همه‌چیز در داکر
 - [OwO-Network/DeepLX](https://github.com/OwO-Network/DeepLX) - API قدرتمند و رایگان DeepL، بدون نیاز به توکن
-- [juanfont/headscale](https://github.com/juanfont/headscale) - پیاده‌سازی متن‌باز و خود-میزبان سرور کنترل Tailscale
+- [juanfont/headscale](https://github.com/juanfont/headscale) - پیاده‌سازی متن‌باز و خودمیزبان از سرور کنترل Tailscale
 - [tgdrive/teldrive](https://github.com/tgdrive/teldrive) - تل‌درایو
-- [apernet/OpenGFW](https://github.com/apernet/OpenGFW) - OpenGFW یک پیاده‌سازی منعطف، آسان و متن‌باز از GFW (دیوار آتش بزرگ چین) روی لینوکس است
-- [putyy/res-downloader](https://github.com/putyy/res-downloader) - دانلود منابع متداول شبکه‌ای مانند ویدیوها، مینی‌برنامه‌ها، Douyin، Kuaishou، Xiaohongshu، استریم‌های زنده، m3u8، Kugou، QQ Music و غیره!
-- [eyebluecn/tank](https://github.com/eyebluecn/tank) - «Eyeblue Cloud Storage» (فضای ابری چشم‌آبی)
-- [Wsine/feishu2md](https://github.com/Wsine/feishu2md) - دانلود اسناد Feishu به Markdown با یک دستور
-- [bitrise-io/envman](https://github.com/bitrise-io/envman) - مدیر متغیر محیطی
-- [ollama/ollama](https://github.com/ollama/ollama) - اجرای سریع Llama 3.3، DeepSeek-R1، Phi-4، Gemma 3، Mistral Small 3.1 و سایر مدل‌های بزرگ زبانی.
-- [stillOnTheWay/openbilibili-go-common](https://github.com/stillOnTheWay/openbilibili-go-common) - کد منبع بک‌اند وب‌سایت bilibili (哔哩哔哩) گرفته‌شده از https://github.com/openbilibili
+- [apernet/OpenGFW](https://github.com/apernet/OpenGFW) - OpenGFW یک پیاده‌سازی منعطف، آسان و متن‌باز از GFW (دیوار بزرگ چین) برای لینوکس است
+- [putyy/res-downloader](https://github.com/putyy/res-downloader) - دانلود منابع رایج شبکه مانند ویدیوها، اپلیکیشن‌های کوچک، Douyin، Kuaishou، Xiaohongshu، پخش زنده، m3u8، KuGou، QQ Music و غیره!
+- [eyebluecn/tank](https://github.com/eyebluecn/tank) - «ابر آبی چشم» (Eyeblue Cloud Storage)
+- [Wsine/feishu2md](https://github.com/Wsine/feishu2md) - دانلود اسناد فی‌شو به Markdown با یک فرمان
+- [bitrise-io/envman](https://github.com/bitrise-io/envman) - مدیر متغیرهای محیطی
+- [ollama/ollama](https://github.com/ollama/ollama) - راه‌اندازی و اجرای Llama 3.3، DeepSeek-R1، Phi-4، Gemma 3، Mistral Small 3.1 و سایر مدل‌های بزرگ زبان.
+- [stillOnTheWay/openbilibili-go-common](https://github.com/stillOnTheWay/openbilibili-go-common) - کد منبع بک‌اند سایت بیلی‌بیلی از https://github.com/openbilibili
 - [changwh/go-common](https://github.com/changwh/go-common) - 
-- [juzeon/poe-openai-proxy](https://github.com/juzeon/poe-openai-proxy) - یک رپر که به شما اجازه می‌دهد کتابخانه مهندسی معکوس‌شده poe-api پایتون را مانند OpenAI API برای ChatGPT استفاده کنید. می‌توانید اپلیکیشن‌های مبتنی بر OpenAI API مورد علاقه خود را به این پروکسی متصل کنید و لذت ببرید
+- [juzeon/poe-openai-proxy](https://github.com/juzeon/poe-openai-proxy) - یک واسط که به شما اجازه می‌دهد کتابخانه مهندسی معکوس poe-api را مانند API رسمی OpenAI برای ChatGPT استفاده کنید. می‌توانید اپ‌های مبتنی بر OpenAI API را به این پروکسی متصل کنید و لذت ببرید
 - [faceair/clash-speedtest](https://github.com/faceair/clash-speedtest) - تست سرعت clash
-- [stulzq/azure-openai-proxy](https://github.com/stulzq/azure-openai-proxy) - پروکسی سرویس Azure OpenAI. تبدیل درخواست رسمی OpenAI API به درخواست Azure OpenAI API. پشتیبانی از GPT-4، Embeddings، Langchain. آداپتر از OpenAI به Azure OpenAI.
-- [mbrt/gmailctl](https://github.com/mbrt/gmailctl) - پیکربندی اعلانی برای فیلترهای Gmail
-- [xnth97/magic-conch](https://github.com/xnth97/magic-conch) - ربات تلگرام مبتنی بر سرویس‌های شناختی Azure
-- [noobnooc/ebreader](https://github.com/noobnooc/ebreader) - یک خواننده epub برای مرورگر
-- [869413421/chatgpt-web](https://github.com/869413421/chatgpt-web) - برنامه وب خصوصی مبتنی بر API ChatGPT3.5
-- [WireGuard/wireguard-windows](https://github.com/WireGuard/wireguard-windows) - دانلود WireGuard برای ویندوز در https://www.wireguard.com/install . این مخزن فقط یک میرور است. مخزن رسمی در https://git.zx2c4.com/wireguard-windows
+- [stulzq/azure-openai-proxy](https://github.com/stulzq/azure-openai-proxy) - پروکسی سرویس Azure OpenAI. تبدیل درخواست API رسمی OpenAI به درخواست Azure OpenAI. پشتیبانی از GPT-4، Embeddings، Langchain. تطبیق‌دهنده از OpenAI به Azure OpenAI.
+- [mbrt/gmailctl](https://github.com/mbrt/gmailctl) - پیکربندی اعلامی برای فیلترهای جیمیل
+- [xnth97/magic-conch](https://github.com/xnth97/magic-conch) - ربات تلگرام مبتنی بر Azure Cognitive Services
+- [noobnooc/ebreader](https://github.com/noobnooc/ebreader) - کتابخوان epub برای مرورگر
+- [869413421/chatgpt-web](https://github.com/869413421/chatgpt-web) - برنامه وب خصوصی مبتنی بر ChatGPT3.5 API
+- [WireGuard/wireguard-windows](https://github.com/WireGuard/wireguard-windows) - دانلود WireGuard برای ویندوز در https://www.wireguard.com/install . این مخزن فقط آینه است. مخزن رسمی در https://git.zx2c4.com/wireguard-windows
 - [j178/leetgo](https://github.com/j178/leetgo) - بهترین دوست LeetCode برای گیک‌ها. :snowboarder:
-- [erdos-one/r2](https://github.com/erdos-one/r2) - ☁️ رابط خط فرمان (CLI) برای فضای ذخیره‌سازی Cloudflare R2
-- [containrrr/watchtower](https://github.com/containrrr/watchtower) - فرآیندی برای خودکارسازی به‌روزرسانی تصویر پایه کانتینرهای Docker.
-- [authelia/authelia](https://github.com/authelia/authelia) - پورتال Single Sign-On با چند فاکتور برای اپلیکیشن‌های وب، اکنون دارای گواهینامه OpenID™
-- [m1guelpf/chatgpt-telegram](https://github.com/m1guelpf/chatgpt-telegram) - ربات تلگرام GPTChat خود را با یک دستور اجرا کنید!
-- [v2fly/v2ray-core](https://github.com/v2fly/v2ray-core) - بستری برای ساخت پروکسی جهت دور زدن محدودیت‌های شبکه.
-- [usememos/memos](https://github.com/usememos/memos) - پلتفرم مدیریت دانش و یادداشت‌برداری مدرن، متن‌باز و خود-میزبان که برای کاربران و سازمان‌های دغدغه‌مند درباره حریم خصوصی طراحی شده است.
-- [TimothyYe/bing-wallpaper](https://github.com/TimothyYe/bing-wallpaper) - یک API RESTful برای دریافت والپیپر روزانه از Bing.com
+- [erdos-one/r2](https://github.com/erdos-one/r2) - ☁️ رابط خط فرمان برای فضای ذخیره‌سازی Cloudflare R2
+- [containrrr/watchtower](https://github.com/containrrr/watchtower) - فرآیندی برای خودکارسازی به‌روزرسانی تصاویر پایه کانتینر داکر.
+- [authelia/authelia](https://github.com/authelia/authelia) - درگاه احراز هویت تک مرحله‌ای و چندعاملی برای برنامه‌های وب، اکنون با گواهی OpenID™
+- [m1guelpf/chatgpt-telegram](https://github.com/m1guelpf/chatgpt-telegram) - ربات تلگرام GPTChat خود را با یک فرمان اجرا کنید!
+- [v2fly/v2ray-core](https://github.com/v2fly/v2ray-core) - بستری برای ساخت پروکسی جهت عبور از محدودیت‌های شبکه.
+- [usememos/memos](https://github.com/usememos/memos) - یک پلتفرم مدرن، متن‌باز و خودمیزبان برای مدیریت دانش و یادداشت‌برداری، طراحی شده برای کاربران و سازمان‌های حریم‌خصوصی‌محور.
+- [TimothyYe/bing-wallpaper](https://github.com/TimothyYe/bing-wallpaper) - API RESTful برای دریافت والپیپر روزانه از Bing.com
 - [imgproxy/imgproxy](https://github.com/imgproxy/imgproxy) - سرور مستقل سریع و امن برای تغییر اندازه و تبدیل تصاویر از راه دور
-- [gaowanliang/DownloadBot](https://github.com/gaowanliang/DownloadBot) - (در حال حاضر) 🤖 ربات تلگرام توزیع‌شده و چندسکویی که می‌تواند سرور Aria2 شما را کنترل کند، فایل‌های سرور را مدیریت کند و همچنین به OneDrive / Google Drive آپلود کند.
-- [huo-ju/dfserver](https://github.com/huo-ju/dfserver) - سرور بک‌اند توزیع‌شده خط لوله هوش مصنوعی
-- [charmbracelet/vhs](https://github.com/charmbracelet/vhs) - ضبط‌کننده ویدیوی خانگی CLI شما 📼
-- [TruthHun/DocHub](https://github.com/TruthHun/DocHub) - مشابه Baidu Wenku، سیستم کتابخانه متن‌باز توسعه‌یافته با Beego (Golang)
-- [XTLS/Xray-core](https://github.com/XTLS/Xray-core) - Xray، همه چیز را نفوذ می‌کند. همچنین بهترین v2ray-core. جایی که جادو رخ می‌دهد. یک پلتفرم باز برای کاربردهای مختلف.
-- [p4gefau1t/trojan-go](https://github.com/p4gefau1t/trojan-go) - پروکسی Trojan پیاده‌سازی‌شده با Go با پشتیبانی از مالتی‌پلکسینگ/مسیریابی/CDN/افزونه مخفی‌سازی Shadowsocks، چندسکویی، بدون وابستگی. یک مکانیزم ناشناس برای عبور از GFW. https://p4gefau1t.github.io/trojan-go/
-- [Jrohy/trojan](https://github.com/Jrohy/trojan) - برنامه مدیریت و استقرار چندکاربره trojan، پشتیبانی از مدیریت از طریق صفحه وب
-- [caddyserver/caddy](https://github.com/caddyserver/caddy) - سرور وب HTTP/1-2-3 چندسکویی، سریع و قابل توسعه با HTTPS خودکار
+- [gaowanliang/DownloadBot](https://github.com/gaowanliang/DownloadBot) - (فعلاً) 🤖 ربات تلگرام توزیع‌شده و چندسکویی که می‌تواند سرور Aria2 شما را کنترل کند، فایل‌های سرور را مدیریت کند و همچنین به OneDrive/Google Drive آپلود کند.
+- [huo-ju/dfserver](https://github.com/huo-ju/dfserver) - سرور بک‌اند توزیع‌شده برای پایپ‌لاین هوش مصنوعی
+- [charmbracelet/vhs](https://github.com/charmbracelet/vhs) - ضبط‌کننده ویدیوی خانگی خط فرمان شما 📼
+- [TruthHun/DocHub](https://github.com/TruthHun/DocHub) - مشابه Baidu Wenku، سیستم کتابخانه متن‌باز با استفاده از Beego (Golang)
+- [XTLS/Xray-core](https://github.com/XTLS/Xray-core) - Xray، نفوذ به همه چیز. همچنین بهترین v2ray-core. جایی که جادو اتفاق می‌افتد. بستری باز برای کاربردهای گوناگون.
+- [p4gefau1t/trojan-go](https://github.com/p4gefau1t/trojan-go) - پروکسی Trojan پیاده‌سازی شده با Go، پشتیبانی از چندکاناله/مسیر‌یابی/CDN/افزونه مخفی‌سازی Shadowsocks، چندسکویی، بدون وابستگی. Trojan proxy نوشته شده با Go. مکانیزمی غیرقابل‌شناسایی برای عبور از GFW. https://p4gefau1t.github.io/trojan-go/
+- [Jrohy/trojan](https://github.com/Jrohy/trojan) - برنامه مدیریت و استقرار چندکاربره trojan، پشتیبانی از مدیریت وب
+- [caddyserver/caddy](https://github.com/caddyserver/caddy) - وب‌سرور HTTP/1-2-3 سریع و قابل‌گسترش چندسکویی با HTTPS خودکار
 - [Snawoot/opera-proxy](https://github.com/Snawoot/opera-proxy) - کلاینت مستقل برای پروکسی‌های Opera VPN
-- [gphper/grm](https://github.com/gphper/grm) - ابزار مدیریت گرافیکی Redis با golang (gin+element-plus)، پشتیبانی از استقرار آسان، اتصال SSH، اعتبارسنجی کاربر، لاگ عملیات، حالت خط فرمان، اجرای اسکریپت LUA، مانیتورینگ Redis و غیره
-- [maxmunzel/kvass](https://github.com/maxmunzel/kvass) - پایگاه داده شخصی key-value
-- [caarlos0/starcharts](https://github.com/caarlos0/starcharts) - نمایش نمودار ستاره‌های مخزن شما در طول زمان.
-- [ViRb3/wgcf](https://github.com/ViRb3/wgcf) - 🚤 رابط خط فرمان غیررسمی و چندسکویی برای Cloudflare Warp
+- [gphper/grm](https://github.com/gphper/grm) - ابزار بصری‌سازی redis (gin+element-plus)【راه‌اندازی ساده، اتصال SSH، اعتبارسنجی کاربر، لاگ عملیات، حالت خط فرمان، اجرای اسکریپت LUA، مانیتورینگ Redis و غیره】
+- [maxmunzel/kvass](https://github.com/maxmunzel/kvass) - فروشگاه شخصی کلید-مقدار
+- [caarlos0/starcharts](https://github.com/caarlos0/starcharts) - رسم نمودار ستاره‌های مخزن شما در طول زمان.
+- [ViRb3/wgcf](https://github.com/ViRb3/wgcf) - 🚤 رابط خط فرمان چندسکویی و غیررسمی برای Cloudflare Warp
 - [macronut/phantomsocks](https://github.com/macronut/phantomsocks) - کلاینت/سرور پروکسی چندسکویی برای Linux/Windows/macOS
-- [macronut/ghostcp](https://github.com/macronut/ghostcp) - GhosTCP برنامه‌ای برای ویندوز که اتصالات TCP را در برابر تداخل محافظت می‌کند.
-- [pretty66/iptables-web](https://github.com/pretty66/iptables-web) - برنامه مدیریت گرافیکی iptables توسعه‌یافته با golang
+- [macronut/ghostcp](https://github.com/macronut/ghostcp) - GhosTCP برنامه‌ای برای ویندوز جهت محافظت از اتصالات TCP در برابر مداخله.
+- [pretty66/iptables-web](https://github.com/pretty66/iptables-web) - برنامه مدیریت وب iptables توسعه داده شده با golang
 - [navidrome/navidrome](https://github.com/navidrome/navidrome) - 🎧☁️ سرویس پخش شخصی شما
-- [jwma/jump-jump](https://github.com/jwma/jump-jump) - آماده استفاده، یک سیستم لینک کوتاه‌کننده URL با قابلیت‌های کامل توسعه‌یافته با Golang.
-- [akiyosi/goneovim](https://github.com/akiyosi/goneovim) - رابط گرافیکی (GUI) برای neovim.
-- [pluveto/upgit](https://github.com/pluveto/upgit) - هاب آپلود دیگر که از کلیپ‌بورد پشتیبانی می‌کند. با Typora، Snipaste، VSCode به خوبی کار می‌کند.
-- [wabarc/wayback](https://github.com/wabarc/wayback) - ابزار بایگانی با رابط شبیه پیام‌رسان که اولویت را به حریم خصوصی و دسترس‌پذیری می‌دهد، یکپارچه با سرویس‌های مختلف بایگانی شامل Internet Archive، archive.today، Ghostarchive، IPFS، تلگرام و...
-- [muety/wakapi](https://github.com/muety/wakapi) - 📊 بک‌اند مینیمالیست و خود-میزبان سازگار با WakaTime برای آمار کدنویسی
-- [disksing/sao-gen-gen](https://github.com/disksing/sao-gen-gen) - تولیدکننده تولیدکننده جملات شوخی
-- [ArtalkJS/Artalk](https://github.com/ArtalkJS/Artalk) - 🌌  سیستم نظردهی خود-میزبان شما. | سیستم نظردهی خود-میزبان
-- [sheepla/pingu](https://github.com/sheepla/pingu) - 🐧 فرمان ping اما با پینگو
-- [noisetorch/NoiseTorch](https://github.com/noisetorch/NoiseTorch) - حذف نویز میکروفون به‌صورت بلادرنگ روی لینوکس.
+- [jwma/jump-jump](https://github.com/jwma/jump-jump) - آماده به کار، یک سیستم کوتاه‌کننده لینک با امکانات کامل توسعه یافته با Golang.
+- [akiyosi/goneovim](https://github.com/akiyosi/goneovim) - رابط گرافیکی برای neovim.
+- [pluveto/upgit](https://github.com/pluveto/upgit) - هاب آپلود دیگر با پشتیبانی از کلیپ‌بورد. به خوبی با Typora، Snipaste، VSCode کار می‌کند.
+- [wabarc/wayback](https://github.com/wabarc/wayback) - ابزار بایگانی با رابط شبیه پیام‌رسان که بر حریم خصوصی و دسترسی تأکید دارد، ادغام شده با سرویس‌های مختلف بایگانی از جمله Internet Archive، archive.today، Ghostarchive، IPFS، تلگرام و غیره
+- [muety/wakapi](https://github.com/muety/wakapi) - 📊 بک‌اند مینیمالیست، خودمیزبان و سازگار با WakaTime برای آمار کدنویسی
+- [disksing/sao-gen-gen](https://github.com/disksing/sao-gen-gen) - تولیدکننده تولیدکننده جملات طنز
+- [ArtalkJS/Artalk](https://github.com/ArtalkJS/Artalk) - 🌌 سیستم نظردهی خودمیزبان | 自托管评论系统
+- [sheepla/pingu](https://github.com/sheepla/pingu) - 🐧 فرمان ping اما با pingu
+- [noisetorch/NoiseTorch](https://github.com/noisetorch/NoiseTorch) - حذف نویز میکروفون به صورت بلادرنگ در لینوکس.
 - [utahta/pythonbrew](https://github.com/utahta/pythonbrew) - مدیر محیط پایتون
-- [gogs/gogs](https://github.com/gogs/gogs) - Gogs یک سرویس Git خود-میزبان بدون دردسر است
-- [Licoy/fetch-github-hosts](https://github.com/Licoy/fetch-github-hosts) - 🌏 ابزار همگام‌سازی hosts گیت‌هاب، پشتیبانی از گرافیک و خط فرمان چندسکویی، دارای دو حالت کلاینت و سرور داخلی~
-- [Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip) - 🌚 🌍 🌝 نسخه تقویت‌شده فایل‌های GeoIP، پشتیبانی از سفارشی‌سازی فرمت‌های geoip.dat (V2Ray)، mmdb (MaxMind)، SRS (sing-box)، MRS (mihomo)، ruleset (Clash)، ruleset (Surge) و غیره.
-- [master-coder-ll/v2ray-web-manager](https://github.com/master-coder-ll/v2ray-web-manager) - v2ray-web-manager یک پنل برای v2ray و همچنین راهکار کلستر است؛ با امکاناتی مانند کنترل ترافیک/مدیریت اکانت/محدودیت سرعت. کلید: admin, panel, web, cluster, proxy
-- [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core) - بستری برای ساخت پروکسی جهت دور زدن محدودیت‌های شبکه.
+- [gogs/gogs](https://github.com/gogs/gogs) - Gogs یک سرویس Git خودمیزبان و بی‌دردسر است
+- [Licoy/fetch-github-hosts](https://github.com/Licoy/fetch-github-hosts) - 🌏 ابزار همگام‌سازی hosts گیت‌هاب، پشتیبانی از رابط گرافیکی و خط فرمان چندسکویی، دارای دو حالت کلاینت و سرور~
+- [Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip) - 🌚 🌍 🌝 نسخه تقویت‌شده فایل‌های GeoIP، پشتیبانی از سفارشی‌سازی فایل V2Ray dat، فرمت mmdb مکس‌مایند، فرمت SRS sing-box، فرمت MRS mihomo، مجموعه قوانین Clash، مجموعه قوانین Surge و غیره.
+- [master-coder-ll/v2ray-web-manager](https://github.com/master-coder-ll/v2ray-web-manager) - v2ray-web-manager یک پنل برای v2ray و همچنین راهکاری خوشه‌ای است؛ همچنین دارای کنترل ترافیک/مدیریت حساب/محدودیت سرعت و غیره. کلید: admin , panel ,web,cluster,خوشه,proxy
+- [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core) - بستری برای ساخت پروکسی جهت عبور از محدودیت‌های شبکه.
 - [qax-os/excelize](https://github.com/qax-os/excelize) - کتابخانه زبان Go برای خواندن و نوشتن صفحات گسترده Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX)
 - [go-olive/olive](https://github.com/go-olive/olive) - ضبط‌کننده پخش زنده                       ضبط/پخش زنده
-- [ipfs/kubo](https://github.com/ipfs/kubo) - پیاده‌سازی IPFS در Go
+- [ipfs/kubo](https://github.com/ipfs/kubo) - پیاده‌سازی IPFS به زبان Go
 - [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) - کلاینت Cloudflare Tunnel (قبلاً Argo Tunnel)
 - [junegunn/fzf](https://github.com/junegunn/fzf) - :cherry_blossom: جستجوگر فازی خط فرمان
-- [barthr/redo](https://github.com/barthr/redo) - ابزار نهایی برای ساخت توابع قابل استفاده مجدد از تاریخچه شما به صورت تعاملی
-- [safing/portmaster](https://github.com/safing/portmaster) - 🏔 عاشق آزادی - ❌ مسدودسازی نظارت گسترده
-- [yeasy/docker_practice](https://github.com/yeasy/docker_practice) - یادگیری و درک Docker و فناوری‌های کانتینر، با تمرین واقعی DevOps!
-- [ipfs-cluster/ipfs-cluster](https://github.com/ipfs-cluster/ipfs-cluster) - هماهنگ‌کننده Pinset برای IPFS
-- [anchore/syft](https://github.com/anchore/syft) - ابزار CLI و کتابخانه برای تولید صورت‌حساب نرم‌افزاری (SBOM) از تصاویر کانتینر و فایل‌سیستم‌ها
-- [gabrie30/ghorg](https://github.com/gabrie30/ghorg) - کلون یا پشتیبان‌گیری سریع از تمام مخازن یک سازمان/کاربر در یک دایرکتوری - پشتیبانی از GitHub، GitLab، Bitbucket و غیره 🐇🥚
-- [rclone/rclone](https://github.com/rclone/rclone) - "rsync برای فضای ذخیره‌سازی ابری" - گوگل درایو، S3، Dropbox، Backblaze B2، One Drive، Swift، Hubic، Wasabi، Google Cloud Storage، Azure Blob، Azure Files، Yandex Files
-- [lifei6671/interview-go](https://github.com/lifei6671/interview-go) - مجموعه سوالات مصاحبه Golang
-- [prasmussen/gdrive](https://github.com/prasmussen/gdrive) - کلاینت CLI گوگل درایو
-- [cheat/cheat](https://github.com/cheat/cheat) - cheat به شما امکان ایجاد و مشاهده برگه‌های تقلب تعاملی روی خط فرمان را می‌دهد. برای یادآوری گزینه‌های دستورات *nix برای مدیران سیستم طراحی شده که معمولاً فراموش می‌شوند.
+- [barthr/redo](https://github.com/barthr/redo) - Redo ابزار نهایی برای ساخت توابع قابل استفاده مجدد از تاریخچه شما به صورت تعاملی است
+- [safing/portmaster](https://github.com/safing/portmaster) - 🏔 آزادی را دوست داشته باشید - ❌ نظارت انبوه را مسدود کنید
+- [yeasy/docker_practice](https://github.com/yeasy/docker_practice) - یادگیری و درک Docker و فناوری کانتینر، با تمرین واقعی DevOps!
+- [ipfs-cluster/ipfs-cluster](https://github.com/ipfs-cluster/ipfs-cluster) - هماهنگی Pinset برای IPFS
+- [anchore/syft](https://github.com/anchore/syft) - ابزار خط فرمان و کتابخانه برای تولید صورت‌حساب نرم‌افزار از تصاویر کانتینر و فایل‌سیستم‌ها
+- [gabrie30/ghorg](https://github.com/gabrie30/ghorg) - کلون یا پشتیبان‌گیری سریع از کل مخازن یک سازمان/کاربر در یک پوشه - پشتیبانی از GitHub، GitLab، Bitbucket و غیره 🐇🥚
+- [rclone/rclone](https://github.com/rclone/rclone) - "rsync برای فضای ابری" - گوگل درایو، S3، دراپ‌باکس، Backblaze B2، وان‌درایو، سوئیفت، هوبیک، واسابی، گوگل کلود استوریج، Azure Blob، Azure Files، Yandex Files
+- [lifei6671/interview-go](https://github.com/lifei6671/interview-go) - مجموعه سؤالات مصاحبه golang
+- [prasmussen/gdrive](https://github.com/prasmussen/gdrive) - کلاینت خط فرمان Google Drive
+- [cheat/cheat](https://github.com/cheat/cheat) - cheat به شما اجازه می‌دهد برگه تقلب تعاملی را روی خط فرمان بسازید و مشاهده کنید. برای یادآوری گزینه‌های دستورات پرکاربرد برای مدیران سیستم *nix طراحی شده است.
 - [wtfutil/wtf](https://github.com/wtfutil/wtf) - داشبورد اطلاعات شخصی برای ترمینال شما
 - [Hackl0us/GeoIP2-CN](https://github.com/Hackl0us/GeoIP2-CN) - پایگاه داده GeoIP2 کوچک، دقیق و کاربردی
-- [HirbodBehnam/file2url-go](https://github.com/HirbodBehnam/file2url-go) - ربات تلگرام برای تبدیل فایل به URL برای دانلود مستقیم
+- [HirbodBehnam/file2url-go](https://github.com/HirbodBehnam/file2url-go) - ربات تلگرام برای تبدیل فایل‌ها به URL جهت لینک‌های دانلود مستقیم.
 - [pkuhollow/nameless](https://github.com/pkuhollow/nameless) - بک‌اند Golang برای 未名树洞
-- [AlistGo/alist](https://github.com/AlistGo/alist) - 🗂️برنامه فهرست فایل/WebDAV که از چندین فضای ذخیره‌سازی پشتیبانی می‌کند، مبتنی بر Gin و Solidjs. / یک برنامه فهرست فایل/WebDAV با پشتیبانی از چندین فضای ذخیره‌سازی، با استفاده از Gin و Solidjs.
+- [AlistGo/alist](https://github.com/AlistGo/alist) - 🗂️برنامه لیست فایل/WebDAV که از چند فضای ذخیره‌سازی پشتیبانی می‌کند، با Gin و Solidjs. / یک برنامه لیست فایل/WebDAV با پشتیبانی از چند ذخیره‌سازی، با استفاده از Gin و Solidjs.
 - [z4yx/GoAuthing](https://github.com/z4yx/GoAuthing) - ابزار احراز هویت برای srun4000 (auth.tsinghua.edu.cn / net.tsinghua.edu.cn / Tsinghua-IPv4)
-- [drakkan/sftpgo](https://github.com/drakkan/sftpgo) - سرور SFTP، HTTP/S، FTP/S و WebDAV با قابلیت پیکربندی بالا و امکانات کامل - S3، Google Cloud Storage، Azure Blob
-- [frolic/redirect.name](https://github.com/frolic/redirect.name) - سرویس ریدایرکت مبتنی بر DNS ساده
+- [drakkan/sftpgo](https://github.com/drakkan/sftpgo) - سرور SFTP، HTTP/S، FTP/S و WebDAV با امکانات کامل و قابلیت پیکربندی بالا - S3، Google Cloud Storage، Azure Blob
+- [frolic/redirect.name](https://github.com/frolic/redirect.name) - سرویس ریدایرکت ساده مبتنی بر DNS
 - [datastack-net/dockerized](https://github.com/datastack-net/dockerized) - اجرای ابزارهای محبوب خط فرمان درون داکر
-- [yinchengtsinghua/IPFS-Golang-China](https://github.com/yinchengtsinghua/IPFS-Golang-China) - نسخه ترجمه و بومی‌شده IPFS برای چین توسط Ying Cheng، دانشگاه Tsinghua
-- [bonaysoft/notion-md-gen](https://github.com/bonaysoft/notion-md-gen) - تولید سند Markdown برای هر سایت استاتیک از Notion
-- [minio/minio](https://github.com/minio/minio) - MinIO یک فضای ذخیره‌سازی شیء با عملکرد بالا و سازگار با S3 است که تحت مجوز GNU AGPLv3 متن‌باز شده است.
-- [golang-china/go2-book](https://github.com/golang-china/go2-book) - :books: کتاب متن‌باز «راهنمای برنامه‌نویسی Go2»، تمرکز بر ویژگی‌های جدید Go2 و ویژگی‌هایی که در آموزش Go1 کمتر مطرح شده‌اند
-- [9seconds/mtg](https://github.com/9seconds/mtg) - پروکسی MTPROTO برای تلگرام با نظر قوی
-- [v2rayA/v2rayA](https://github.com/v2rayA/v2rayA) - رابط گرافیکی وب برای Project V که از پروتکل‌های VMess، VLESS، SS، SSR، Trojan، Tuic و Juicity پشتیبانی می‌کند. 🚀
-- [photoprism/photoprism](https://github.com/photoprism/photoprism) - اپلیکیشن عکس مبتنی بر هوش مصنوعی برای وب غیرمتمرکز 🌈💎✨
-- [lima-vm/lima](https://github.com/lima-vm/lima) - ماشین مجازی لینوکس، با تمرکز بر اجرای کانتینرها
+- [yinchengtsinghua/IPFS-Golang-China](https://github.com/yinchengtsinghua/IPFS-Golang-China) - نسخه ترجمه‌شده و سفارشی ipfs توسط یین‌چنگ از دانشگاه Tsinghua
+- [bonaysoft/notion-md-gen](https://github.com/bonaysoft/notion-md-gen) - تولید سند Markdown برای هر ژنراتور سایت ایستا از Notion
+- [minio/minio](https://github.com/minio/minio) - MinIO یک ذخیره‌ساز آبجکت سازگار با S3 با کارایی بالا است که تحت مجوز GNU AGPLv3 متن‌باز شده است.
+- [golang-china/go2-book](https://github.com/golang-china/go2-book) - :books: کتاب متن‌باز «راهنمای برنامه‌نویسی Go2» با تمرکز بر ویژگی‌های جدید Go2 و ویژگی‌هایی که در آموزش Go1 کمتر به آن‌ها پرداخته شده است.
+- [9seconds/mtg](https://github.com/9seconds/mtg) - پروکسی MTPROTO بسیار خاص برای تلگرام
+- [v2rayA/v2rayA](https://github.com/v2rayA/v2rayA) - کلاینت رابط وب Project V با پشتیبانی از پروتکل‌های VMess، VLESS، SS، SSR، Trojan، Tuic و Juicity. 🚀
+- [photoprism/photoprism](https://github.com/photoprism/photoprism) - برنامه مدیریت عکس مبتنی بر هوش مصنوعی برای وب غیرمتمرکز 🌈💎✨
+- [lima-vm/lima](https://github.com/lima-vm/lima) - ماشین‌های مجازی لینوکس با تمرکز بر اجرای کانتینرها
 - [Jrohy/cfw-updater](https://github.com/Jrohy/cfw-updater) - ابزار به‌روزرسانی یک‌کلیکی clash_for_windows
-- [mozillazg/go-pinyin](https://github.com/mozillazg/go-pinyin) - تبدیل کاراکترهای چینی به پین‌یین
-- [darjun/go-daily-lib](https://github.com/darjun/go-daily-lib) - معرفی روزانه یک کتابخانه Go
-- [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) - 🌩 «آزمون انتخابی IP برتر» برای تست تأخیر و سرعت Cloudflare CDN و دریافت سریع‌ترین IP! البته از سایر CDNها / وب‌سایت‌هایی با چندین IP解析 نیز پشتیبانی می‌کند ~
-- [ginuerzh/gost](https://github.com/ginuerzh/gost) - GO Simple Tunnel - یک تونل ساده نوشته شده با golang
-- [snail007/goproxy](https://github.com/snail007/goproxy) - 🔥 Proxy یک سرور پراکسی HTTP(S)، پراکسی SOCKS5، WEBSOCKET، TCP، UDP با عملکرد بالا است که با golang پیاده‌سازی شده است. اکنون از پراکسی‌های زنجیره‌ای، NAT forwarding در شبکه‌های مختلف LAN، و پورت TCP/UDP پشتیبانی می‌کند.
-- [ehang-io/nps](https://github.com/ehang-io/nps) - یک سرور پراکسی نفوذ به شبکه داخلی سبک، با عملکرد بالا و قدرتمند. پشتیبانی از تقریباً تمام انتقال ترافیک مانند tcp، udp، socks5، http و غیره، قابل استفاده برای دسترسی به وب‌سایت داخلی، دیباگ رابط پرداخت محلی، دسترسی ssh، دسکتاپ راه دور،解析 dns داخلی، پراکسی socks5 داخلی و ... به همراه پنل مدیریت وب قدرتمند. یک سرور پراکسی نفوذ به شبکه داخلی سبک، با عملکرد بالا و قدرتمند،
-- [fatedier/frp](https://github.com/fatedier/frp) - یک پراکسی معکوس سریع برای کمک به نمایش یک سرور محلی پشت NAT یا فایروال در اینترنت.
-- [gohugoio/hugo](https://github.com/gohugoio/hugo) - سریع‌ترین چارچوب جهان برای ساخت وب‌سایت‌ها.
+- [mozillazg/go-pinyin](https://github.com/mozillazg/go-pinyin) - تبدیل نویسه‌های چینی به پین‌یین
+- [darjun/go-daily-lib](https://github.com/darjun/go-daily-lib) - Go هر روز یک کتابخانه
+- [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) - 🌩 «انتخاب و تست IP برتر» برای آزمایش تأخیر و سرعت Cloudflare CDN، یافتن سریع‌ترین IP! همچنین از سایر CDNها و وب‌سایت‌هایی با چندین IP پشتیبانی می‌کند ~
+- [ginuerzh/gost](https://github.com/ginuerzh/gost) - GO Simple Tunnel - یک تونل ساده نوشته‌شده با golang
+- [snail007/goproxy](https://github.com/snail007/goproxy) - 🔥  Proxy یک سرور پروکسی HTTP(S)، پروکسی SOCKS5، WEBSOCKET، TCP، UDP با عملکرد بالا پیاده‌سازی‌شده با golang است. اکنون از پروکسی‌های زنجیره‌ای، NAT forwarding در شبکه‌های محلی مختلف، و پورت TCP/UDP پشتیبانی می‌کند.
+- [ehang-io/nps](https://github.com/ehang-io/nps) - یک سرور پروکسی نفوذ به شبکه داخلی سبک، پرقدرت و با عملکرد بالا. پشتیبانی از tcp، udp، socks5، http و تقریباً تمام انتقال ترافیک، قابل استفاده برای دسترسی به سایت‌های داخلی، دیباگ رابط پرداخت محلی، دسترسی ssh، دسکتاپ راه دور،解析 dns داخلی، پروکسی socks5 داخلی و ... همراه با پنل مدیریت وب بسیار قدرتمند.
+- [fatedier/frp](https://github.com/fatedier/frp) - یک پروکسی معکوس سریع برای کمک به افشای یک سرور محلی پشت NAT یا فایروال به اینترنت.
+- [gohugoio/hugo](https://github.com/gohugoio/hugo) - سریع‌ترین فریمورک جهان برای ساخت وب‌سایت‌ها.
 - [mholt/archiver](https://github.com/mholt/archiver) - منسوخ شده. لطفاً از mholt/archives استفاده کنید.
 - [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) - زمان‌بندی و مدیریت کانتینر در سطح تولید
-- [sjlleo/VerifyDisneyPlus](https://github.com/sjlleo/VerifyDisneyPlus) - اسکریپتی برای بررسی اینکه آیا IP خروجی DisneyPlus را باز می‌کند یا خیر
-- [0xDkd/auxpi](https://github.com/0xDkd/auxpi) - 🍭 نسل جدید میزبان تصویر که چندین API را ترکیب می‌کند
-- [ahui2016/localtags](https://github.com/ahui2016/localtags) - localtags: یک سیستم پشتیبان‌گیری فایل محلی + سیستم برچسب‌گذاری با طراحی صحیح
-- [sourcegraph/sourcegraph-public-snapshot](https://github.com/sourcegraph/sourcegraph-public-snapshot) - پلتفرم AI کدنویسی با جستجوی کد و Cody
-- [indes/flowerss-bot](https://github.com/indes/flowerss-bot) - ربات تلگرام برای RSS خوان. یک ربات تلگرام RSS که از خواندن درون برنامه‌ای پشتیبانی می‌کند.
-- [go-gitea/gitea](https://github.com/go-gitea/gitea) - گیت با یک فنجان چای! سرویس توسعه نرم‌افزار یکپارچه و خودمیزبان، شامل میزبانی گیت، بازبینی کد، همکاری تیمی، رجیستری بسته و CI/CD
-- [zu1k/proxypool](https://github.com/zu1k/proxypool) - به طور خودکار نودهای پراکسی را از اینترنت عمومی جمع‌آوری، تکراری‌زدایی و تست کرده و لیستی از نودهای قابل استفاده ارائه می‌دهد
-- [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) - لیست دامین مدیریت شده توسط جامعه. تولید geosite.dat برای V2Ray.
-- [planetscale/cli](https://github.com/planetscale/cli) - رابط خط فرمان برای پایگاه داده PlanetScale
-- [MacroPower/wakatime_exporter](https://github.com/MacroPower/wakatime_exporter) - خروجی گرفتن متریک‌های Prometheus از Wakatime.
+- [sjlleo/VerifyDisneyPlus](https://github.com/sjlleo/VerifyDisneyPlus) - یک اسکریپت برای بررسی اینکه آیا IP خروجی DisneyPlus را باز می‌کند یا نه
+- [0xDkd/auxpi](https://github.com/0xDkd/auxpi) - 🍭 نسل جدید تصویرخوان با جمع‌آوری چندین API
+- [ahui2016/localtags](https://github.com/ahui2016/localtags) - localtags: یک سیستم پشتیبان‌گیری فایل محلی + سیستم تگ‌گذاری طراحی‌شده به‌درستی
+- [sourcegraph/sourcegraph-public-snapshot](https://github.com/sourcegraph/sourcegraph-public-snapshot) - پلتفرم هوش مصنوعی کد با جستجوی کد و کودی (Cody)
+- [indes/flowerss-bot](https://github.com/indes/flowerss-bot) - یک ربات تلگرام برای خواندن RSS. یک ربات Telegram RSS که از مطالعه درون‌برنامه‌ای پشتیبانی می‌کند.
+- [go-gitea/gitea](https://github.com/go-gitea/gitea) - گیت با یک فنجان چای! سرویس توسعه نرم‌افزار همه‌کاره و آسان برای میزبانی خودکار، شامل میزبانی Git، بازبینی کد، همکاری تیمی، رجیستری پکیج و CI/CD
+- [zu1k/proxypool](https://github.com/zu1k/proxypool) - به‌صورت خودکار گره‌های پروکسی اینترنت عمومی را جمع‌آوری، تکراری‌زدایی و تست می‌کند و سپس لیستی از گره‌های قابل استفاده ارائه می‌دهد
+- [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) - لیست دامنه مدیریت‌شده توسط جامعه. تولید geosite.dat برای V2Ray.
+- [planetscale/cli](https://github.com/planetscale/cli) - ابزار خط فرمان برای پایگاه داده PlanetScale
+- [MacroPower/wakatime_exporter](https://github.com/MacroPower/wakatime_exporter) - استخراج متریک‌های Prometheus از Wakatime.
 - [long2ice/longurl](https://github.com/long2ice/longurl) - سرویس کوتاه‌کننده لینک خودمیزبان
-- [nektos/act](https://github.com/nektos/act) - اجرای لوکال GitHub Actions 🚀
-- [Tylous/ZipExec](https://github.com/Tylous/ZipExec) - تکنیکی منحصربه‌فرد برای اجرای فایل‌های باینری از فایل zip دارای رمز عبور
-- [cloudreve/cloudreve](https://github.com/cloudreve/cloudreve) - 🌩 سیستم مدیریت و اشتراک‌گذاری فایل خودمیزبان که از چندین ارائه‌دهنده ذخیره‌سازی پشتیبانی می‌کند
+- [nektos/act](https://github.com/nektos/act) - اجرای GitHub Actions به‌صورت محلی 🚀
+- [Tylous/ZipExec](https://github.com/Tylous/ZipExec) - تکنیکی منحصر به فرد برای اجرای فایل‌های باینری از فایل zip رمزدار
+- [cloudreve/cloudreve](https://github.com/cloudreve/cloudreve) - 🌩 سیستم مدیریت و اشتراک‌گذاری فایل خودمیزبان، پشتیبانی از چندین ارائه‌دهنده فضای ذخیره‌سازی
 - [cli/cli](https://github.com/cli/cli) - ابزار رسمی خط فرمان GitHub
-- [stashapp/stash](https://github.com/stashapp/stash) - سازمان‌دهنده محتوای بزرگسالان شما، نوشته شده با Go. مستندات:  https://docs.stashapp.cc
-- [JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - قابل شخصی‌سازی‌ترین و با کمترین تأخیر، رندرکننده prompt برای پلتفرم‌ها و شل‌های مختلف
-- [misitebao/yakia](https://github.com/misitebao/yakia) - Yakia یک ابزار کمکی برای توسعه‌دهندگان است.
+- [stashapp/stash](https://github.com/stashapp/stash) - سامان‌دهنده محتوای بزرگسالان شما که با Go نوشته شده است. مستندات:  https://docs.stashapp.cc
+- [JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - قابل شخصی‌سازی‌ترین و کم‌تأخیرترین رندرکننده prompt برای شل‌ها و پلتفرم‌های مختلف
+- [misitebao/yakia](https://github.com/misitebao/yakia) - Yakia دستیار توسعه‌دهندگان است.
 - [eallion/uBlacklist-subscription-compilation](https://github.com/eallion/uBlacklist-subscription-compilation) - 🚫 مجموعه اشتراک uBlacklist
-- [moonD4rk/HackBrowserData](https://github.com/moonD4rk/HackBrowserData) - استخراج و رمزگشایی داده‌های مرورگر، پشتیبانی از انواع داده‌های مختلف، قابل اجرا در سیستم‌عامل‌های مختلف (macOS، Windows، Linux).
+- [moonD4rk/HackBrowserData](https://github.com/moonD4rk/HackBrowserData) - استخراج و رمزگشایی داده‌های مرورگر، پشتیبانی از انواع داده‌های مختلف، قابل اجرا روی سیستم‌عامل‌های مختلف (macOS، ویندوز، لینوکس).
 ## HCL 
 
 - [rust-lang/simpleinfra](https://github.com/rust-lang/simpleinfra) - اتوماسیون زیرساخت Rust
@@ -999,235 +1001,236 @@
 
 - [MustangYM/WeChatExtension-ForMac](https://github.com/MustangYM/WeChatExtension-ForMac) - یک افزونه برای WeChat مک
 
-## سایر
+## سایر 
 
-- [lTbgykio/Books-Free-Books](https://github.com/lTbgykio/Books-Free-Books) - جمع‌آوری کتاب‌های رایگان.　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+- [krishnr/MATLAB-cheat-sheet](https://github.com/krishnr/MATLAB-cheat-sheet) - برگه مرجع سریع برای MATLAB
+- [lTbgykio/Books-Free-Books](https://github.com/lTbgykio/Books-Free-Books) - گردآوری کتاب‌های رایگان.　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
 - [LOWERTOP/Shadowrocket-First](https://github.com/LOWERTOP/Shadowrocket-First) - تنظیمات و رنگ‌بندی Shadowrocket
-- [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Trae AI & Cluely (و سایر پرامپت‌ها، ابزارها و مدل‌های هوش مصنوعی متن‌باز)
+- [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - نسخه کامل v0، Cursor، Manus، Same.dev، Lovable، Devin، Replit Agent، Windsurf Agent، VSCode Agent، Dia Browser، Trae AI & Cluely (و سایر پرامپت‌ها، ابزارها و مدل‌های AI متن باز).
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - مجموعه‌ای از سرورهای MCP.
-- [zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization) - یادگیری سالم تا ۱۵۰ سالگی - راهنمای غیرکامل بهینه‌سازی سیستم بدن انسان
-- [SpaceTimee/Fusion-JetBrainsMapleMono](https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono) - JetBrains Maple Mono: فونت رایگان و متن‌باز ترکیب‌شده با JetBrains Mono و Maple Mono
+- [zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization) - یادگیری سالم تا ۱۵۰ سالگی - راهنمای ناتمام بهینه‌سازی سیستم بدن انسان
+- [SpaceTimee/Fusion-JetBrainsMapleMono](https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono) - JetBrains Maple Mono: فونت رایگان و متن باز تلفیقی JetBrains Mono و Maple Mono
 - [ZJU-LLMs/Foundations-of-LLMs](https://github.com/ZJU-LLMs/Foundations-of-LLMs) - 
-- [IQAQI233/611Study.ICU](https://github.com/IQAQI233/611Study.ICU) - امروزه اکثر دانش‌آموزان دبیرستانی چینی مجبور به مطالعه ۶۱۱ هستند، از ۶ صبح تا ۱۱ شب، ۶ روز در هفته. متاسفانه بسیاری از دانش‌آموزان خودکشی کردند یا دچار مشکلات جدی روانی شدند. الهام گرفته از پروژه 996.i
-- [VIP-Share/Baidu-XunleiVIP](https://github.com/VIP-Share/Baidu-XunleiVIP) - اشتراک روزانه حساب‌های سوپرعضویت Baidu Netdisk، عضویت Xunlei، عضویت iQIYI و همچنین Youku، Tencent، Mango و غیره. همچنین ابزارهای محدودیت‌زدایی سرعت Baidu Netdisk (Baidu Cloud).
-- [pengsida/learning_research](https://github.com/pengsida/learning_research) - تجارب پژوهشی شخصی
+- [IQAQI233/611Study.ICU](https://github.com/IQAQI233/611Study.ICU) - امروزه بیشتر دانش‌آموزان دبیرستانی چین مجبور به مطالعه 611 هستند، از ۶ صبح تا ۱۱ شب، ۶ روز در هفته. متاسفانه بسیاری از دانش‌آموزان خودکشی کردند یا دچار مشکلات جدی روانی شدند. الهام گرفته از پروژه 996.i
+- [VIP-Share/Baidu-XunleiVIP](https://github.com/VIP-Share/Baidu-XunleiVIP) - اشتراک روزانه حساب‌های سوپر وی‌آی‌پی Baidu، Xunlei، iQIYI و همچنین Youku، Tencent، Mango و سایر VIPها. همچنین ابزارهای عبور از محدودیت سرعت Baidu Netdisk (Baidu Cloud).
+- [pengsida/learning_research](https://github.com/pengsida/learning_research) - تجربیات پژوهشی شخصی
 - [wgwang/awesome-LLMs-In-China](https://github.com/wgwang/awesome-LLMs-In-China) - مدل‌های بزرگ زبانی چین
-- [JnuSimba/MiscSecNotes](https://github.com/JnuSimba/MiscSecNotes) - برخی یادداشت‌های یادگیری درباره امنیت برنامه‌های وب و تست نفوذ
-- [P3TERX/GeoLite.mmdb](https://github.com/P3TERX/GeoLite.mmdb) - پایگاه‌داده‌های MaxMind GeoIP2 GeoLite2 کشور، شهر و ASN
-- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers) - 🚀 آدرس اشتراک رایگان، 🚀 نود رایگان، 🚀 بروزرسانی هر ۶ ساعت، نود مشترک، نود با کیفیت بالا و رایگان. آدرس اشتراک رایگان clash، عبور از فیلترینگ، اینترنت آزاد، نردبان رایگان، نودهای ss/v2ray/trojan رایگان، Google Store، نردبان عبور از فیلتر.
-- [billmei/every-chatgpt-gui](https://github.com/billmei/every-chatgpt-gui) - همه رابط‌های گرافیکی کاربری سمت کلاینت برای ChatGPT، Claude و سایر LLMها
-- [zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare) - ⛅️ فهرست منتخب ابزارهای Cloudflare، پروژه‌های متن‌باز، راهنماها، وبلاگ‌ها و سایر منابع. / ⛅️ فهرست گزیده‌ای از ابزارهای Cloudflare، پروژه‌های متن‌باز، راهنماها، وبلاگ‌ها و منابع دیگر.
+- [JnuSimba/MiscSecNotes](https://github.com/JnuSimba/MiscSecNotes) - یادداشت‌هایی درباره امنیت برنامه‌های وب و تست نفوذ
+- [P3TERX/GeoLite.mmdb](https://github.com/P3TERX/GeoLite.mmdb) - پایگاه داده‌های GeoIP2 GeoLite2 کشور، شهر و ASN متعلق به MaxMind
+- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers) - 🚀 آدرس اشتراک رایگان، 🚀 سرور رایگان، 🚀 به‌روزرسانی هر ۶ ساعت، سرور مشترک، کیفیت بالا و کاملاً رایگان. آدرس اشتراک رایگان Clash، عبور از فیلترینگ، اینترنت آزاد، فیلترشکن، سرور ss/v2ray/trojan رایگان، Google Play و غیره.
+- [billmei/every-chatgpt-gui](https://github.com/billmei/every-chatgpt-gui) - همه رابط‌های کاربری گرافیکی کلاینت برای ChatGPT، Claude و سایر مدل‌های زبانی بزرگ
+- [zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare) - ⛅️ لیستی منتخب از ابزارها، پروژه‌های متن باز، راهنماها، وبلاگ‌ها و منابع دیگر Cloudflare.
 - [zbezj/HEU_KMS_Activator](https://github.com/zbezj/HEU_KMS_Activator) - 
-- [tuna/issues](https://github.com/tuna/issues) - مسائل غیرمرتبط با کد
-- [bamf2077/secure-dns](https://github.com/bamf2077/secure-dns) - پروفایل پیکربندی DNS امن برای دستگاه‌های اپل. پروفایل‌های پیکربندی DNS over HTTPS (DoH) و DNS over TLS (DoT) برای iOS، iPadOS و macOS.
-- [TsinghuaMemes/TsinghuaMemes](https://github.com/TsinghuaMemes/TsinghuaMemes) - تا در گفتگوهای گروهی متوجه صحبت‌های دوستان نشوید
-- [mlabonne/llm-course](https://github.com/mlabonne/llm-course) - دوره‌ای برای ورود به مدل‌های بزرگ زبانی (LLMs) با نقشه راه و دفترچه‌های Colab.
-- [maxujie/awesome-tsinghua](https://github.com/maxujie/awesome-tsinghua) - یکپارچه‌سازی ریپوهای جالب مرتبط با دانشگاه Tsinghua
-- [easychen/lean-side-bussiness](https://github.com/easychen/lean-side-bussiness) - کسب‌وکار جانبی ناب: چگونه برنامه‌نویسان به‌طور شیک کسب‌وکار جانبی راه‌اندازی کنند
-- [Wsky51/THU-CS912-kaoyan](https://github.com/Wsky51/THU-CS912-kaoyan) - سوالات کنکور سال‌های گذشته رشته کامپیوتر ۹۱۲ دانشگاه Tsinghua، برگه‌های امتحانی کارشناسی و فایل‌های ppt دوره‌های مرتبط با Tsinghua
-- [MerlinKodo/clash-rev](https://github.com/MerlinKodo/clash-rev) - ادامه پروژه هسته Clash
-- [THU-feiyue/docs](https://github.com/THU-feiyue/docs) - دفترچه راهنمای پرش Tsinghua University
-- [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) - 🦄 🎃 👻 نسخه تقویت‌شده فایل‌های قوانین مسیریابی V2Ray، قابل جایگزینی با geoip.dat و geosite.dat رسمی V2Ray، مناسب برای V2Ray، Xray-core، mihomo(Clash-Meta)، hysteria، Trojan-Go و leaf.
-- [huaweiii/HWGaussDB](https://github.com/huaweiii/HWGaussDB) - پایگاه داده GaussDB جعلی - کاملاً توسعه‌یافته بومی، شکستن انحصار خارجی، ۶۰۰٪ سریع‌تر از PostgreSQL.
-- [cloudcommunity/Cloud-Free-Tier-Comparison](https://github.com/cloudcommunity/Cloud-Free-Tier-Comparison) - مقایسه پیشنهادات لایه رایگان ارائه‌دهندگان عمده ابری مانند AWS، Azure، GCP، Oracle و غیره.
-- [iamshuaidi/CS-Book](https://github.com/iamshuaidi/CS-Book) - دسته‌بندی کتاب‌های الکترونیکی پرکاربرد رشته کامپیوتر به همراه لینک دانلود، شامل Java، Python، Linux، Go، C، C++، ساختمان داده و الگوریتم، هوش مصنوعی، مبانی کامپیوتر، مصاحبه، الگوهای طراحی، پایگاه داده، فرانت‌اند و غیره
-- [immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate) - افزونه ترجمه دو زبانه وب به صورت غوطه‌ور، پشتیبانی از ترجمه جعبه ورودی، ترجمه با نگه داشتن موس، ترجمه PDF، Epub، زیرنویس و فایل‌های TXT - افزونه ترجمه دو زبانه صفحات وب
-- [megaease/Remembering-Haoel](https://github.com/megaease/Remembering-Haoel) - ثبت خاطرات شما از Chen Hao (موش گوش‌چپ)
-- [cursor/cursor](https://github.com/cursor/cursor) - ویرایشگر کد مبتنی بر هوش مصنوعی
-- [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) - Awesome-LLM: فهرست منتخب مدل‌های بزرگ زبانی
-- [dalinvip/Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT) - جمع‌آوری منابع یادگیری ChatGPT، بروزرسانی مداوم......
-- [v2fly/v2ray-step-by-step](https://github.com/v2fly/v2ray-step-by-step) - این ریپو فورک شده از ToutyRater/v2ray-guide است، هدف ما ارائه راهنمای گام به گام جدید برای v2ray است
-- [davinci1010/pinduoduo_backdoor](https://github.com/davinci1010/pinduoduo_backdoor) - کد ارتقاء دسترسی داخلی apk پین‌دودو و تحلیل داینامیک dex
-- [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - راهنمای تنظیم ChatGPT به زبان چینی. راهنماهای کاربرد در سناریوهای مختلف. یادگیری نحوه فرمان دادن به ChatGPT.
+- [tuna/issues](https://github.com/tuna/issues) - مشکلات غیرمرتبط با کد
+- [bamf2077/secure-dns](https://github.com/bamf2077/secure-dns) - پروفایل‌های پیکربندی DNS امن برای دستگاه‌های اپل. پیکربندی DNS over HTTPS (DoH) و DNS over TLS (DoT) برای iOS، iPadOS و macOS.
+- [TsinghuaMemes/TsinghuaMemes](https://github.com/TsinghuaMemes/TsinghuaMemes) - تا در گروه‌های گفتگو صحبت‌های دوستان را متوجه شوید
+- [mlabonne/llm-course](https://github.com/mlabonne/llm-course) - دوره آموزشی ورود به مدل‌های بزرگ زبانی (LLMs) با نقشه راه و دفترچه‌های Colab.
+- [maxujie/awesome-tsinghua](https://github.com/maxujie/awesome-tsinghua) - گردآوری مخازن جالب مرتبط با دانشگاه Tsinghua
+- [easychen/lean-side-bussiness](https://github.com/easychen/lean-side-bussiness) - کسب‌وکار جانبی ناب: چگونه برنامه‌نویسان با ظرافت کسب‌وکار جانبی راه‌اندازی کنند
+- [Wsky51/THU-CS912-kaoyan](https://github.com/Wsky51/THU-CS912-kaoyan) - سوالات آزمون‌های سال‌های گذشته کارشناسی ارشد رشته کامپیوتر ۹۱۲ دانشگاه Tsinghua و نمونه سوالات دانشجویی و اسلایدهای مربوط به دوره‌های این دانشگاه
+- [MerlinKodo/clash-rev](https://github.com/MerlinKodo/clash-rev) - ادامه پروژه هسته اصلی Clash
+- [THU-feiyue/docs](https://github.com/THU-feiyue/docs) - راهنمای پرش دانشگاه Tsinghua
+- [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) - 🦄 🎃 👻 نسخه تقویت‌شده فایل‌های قوانین مسیریابی V2Ray که می‌تواند جایگزین geoip.dat و geosite.dat رسمی V2Ray شود؛ مناسب برای V2Ray، Xray-core، mihomo(Clash-Meta)، hysteria، Trojan-Go و leaf.
+- [huaweiii/HWGaussDB](https://github.com/huaweiii/HWGaussDB) - پایگاه داده GaussDB جعلی - کاملاً توسعه یافته بومی، شکستن انحصار خارجی و ۶۰۰٪ سریع‌تر از PostgreSQL.
+- [cloudcommunity/Cloud-Free-Tier-Comparison](https://github.com/cloudcommunity/Cloud-Free-Tier-Comparison) - مقایسه پیشنهادات لایه رایگان ارائه‌دهندگان بزرگ ابری مانند AWS، Azure، GCP، Oracle و غیره.
+- [iamshuaidi/CS-Book](https://github.com/iamshuaidi/CS-Book) - آرشیو کتاب‌های الکترونیکی پرکاربرد حوزه کامپیوتر، با لینک دانلود؛ شامل Java، Python، Linux، Go، C، C++، ساختار داده و الگوریتم، هوش مصنوعی، مبانی کامپیوتر، مصاحبه، الگوهای طراحی، پایگاه داده، فرانت‌اند و غیره.
+- [immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate) - افزونه ترجمه صفحات وب دو زبانه به صورت فراگیر، پشتیبانی از ترجمه کادر ورودی، ترجمه با حرکت ماوس، ترجمه PDF، Epub، فایل زیرنویس و فایل TXT - افزونه ترجمه فراگیر صفحات وب
+- [megaease/Remembering-Haoel](https://github.com/megaease/Remembering-Haoel) - ثبت خاطرات شما از گوش چپ موش (Chen Hao)
+- [cursor/cursor](https://github.com/cursor/cursor) - ویرایشگر کد AI
+- [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) - لیست برگزیده مدل‌های بزرگ زبانی (LLM)
+- [dalinvip/Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT) - گردآوری و یادگیری منابع ChatGPT، به‌روزرسانی مستمر......
+- [v2fly/v2ray-step-by-step](https://github.com/v2fly/v2ray-step-by-step) - این مخزن فورکی از ToutyRater/v2ray-guide است و هدف آن ارائه راهنمای گام‌به‌گام جدید برای v2ray می‌باشد.
+- [davinci1010/pinduoduo_backdoor](https://github.com/davinci1010/pinduoduo_backdoor) - کد افزایش دسترسی جاسازی شده در apk پین‌دودو و تحلیل dex ارسالی پویا
+- [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - راهنمای آموزش ChatGPT به زبان چینی. راهنما برای سناریوهای مختلف. بیاموزید چگونه آن را وادار به گوش دادن کنید.
 - [noobnooc/noobnooc](https://github.com/noobnooc/noobnooc) - پروفایل من
-- [jesselau76/GPT-Prompts](https://github.com/jesselau76/GPT-Prompts) - پرامپت‌های کاربردی GPT
-- [humanloop/awesome-chatgpt](https://github.com/humanloop/awesome-chatgpt) - فهرست منتخب ابزارهای عالی، دموها، مستندات برای ChatGPT و GPT-3
+- [jesselau76/GPT-Prompts](https://github.com/jesselau76/GPT-Prompts) - پرامپت‌های مفید GPT
+- [humanloop/awesome-chatgpt](https://github.com/humanloop/awesome-chatgpt) - لیست برگزیده ابزارها، دموها و مستندات عالی برای ChatGPT و GPT-3
 - [erbanku/erbanku](https://github.com/erbanku/erbanku) - 
-- [dukeluo/awesome-awesome-prompts](https://github.com/dukeluo/awesome-awesome-prompts) - فهرست منتخب برای جمع‌آوری فهرست‌های مرتبط با مهندسی پرامپت.
-- [mushan0x0/AI0x0.com](https://github.com/mushan0x0/AI0x0.com) - یک دستیار شناور دسکتاپی جامع و جهانی هوش مصنوعی با قابلیت پرسش و تولید چندحالته و چندمدلی
-- [apachecn/huazhang-econ-mgt-book](https://github.com/apachecn/huazhang-econ-mgt-book) - :book: اسکن باکیفیت کتاب‌های اقتصادی و مدیریتی Huazhang
+- [dukeluo/awesome-awesome-prompts](https://github.com/dukeluo/awesome-awesome-prompts) - لیست عالی برای جمع‌آوری لیست‌های عالی مرتبط با مهندسی پرامپت.
+- [mushan0x0/AI0x0.com](https://github.com/mushan0x0/AI0x0.com) - یک دستیار شناور دسکتاپ همه‌کاره و چندمدلی برای جستجو و تولید بر پایه AI
+- [apachecn/huazhang-econ-mgt-book](https://github.com/apachecn/huazhang-econ-mgt-book) - :book: اسکن با کیفیت مجموعه کتب مدیریت و اقتصاد Huazhang
 - [tuic-protocol/tuic](https://github.com/tuic-protocol/tuic) - پروتکل پراکسی 0-RTT با تنظیمات دقیق TUIC
-- [Alice-space/PKU-OpenWrt](https://github.com/Alice-space/PKU-OpenWrt) - نحوه پیکربندی OpenWrt در دانشگاه پکن
-- [eliaszon/Programmers-Overseas-Job-Interview-Handbook](https://github.com/eliaszon/Programmers-Overseas-Job-Interview-Handbook) - 🏂🏻 راهنمای مصاحبه شغلی و کاریابی برنامه‌نویسان در خارج و به زبان انگلیسی
-- [lukeed/awesome-cloudflare-workers](https://github.com/lukeed/awesome-cloudflare-workers) - 😎 فهرست عالی Cloudflare Workers
-- [LUKE-ZZ/thuthesis-biomedical](https://github.com/LUKE-ZZ/thuthesis-biomedical) - قالب latex پایان‌نامه برای رشته‌های زیست، پزشکی و داروسازی دانشگاه Tsinghua. همچنین مناسب سایر رشته‌ها. مناسب پایان‌نامه کارشناسی، ارشد، دکتری و گزارش پسادکتری. این قالب بر پایه پروژه thuthesis انجمن tuna توسعه یافته و برای دانشجویان رشته‌های زیست-پزشکی محتوای بیشتری دارد و برای مبتدیان latex توضیحات دوستانه افزوده شده است.
-- [oneclickearth/oneclick](https://github.com/oneclickearth/oneclick) - عبور از فیلترینگ/اینترنت آزاد/دور زدن فیلتر/نرم‌افزار، راهنمای عبور از فیلترینگ 2021
-- [k88hudson/git-flight-rules](https://github.com/k88hudson/git-flight-rules) - قوانین پرواز git
-- [rockbenben/LearnData](https://github.com/rockbenben/LearnData) - ابزارهای متن‌باز، روش‌های افزایش بهره‌وری، یادداشت‌های خودارتقایی در روانشناسی
-- [fredliu168/TheEconomist2022](https://github.com/fredliu168/TheEconomist2022) - نشریات The Economist سال ۲۰۲۲ برای مطالعه آنلاین، شامل فایل صوتی، در صورت عدم دسترسی به دامنه، به http://157.230.57.119:8888 مراجعه کنید
-- [myseil/BingWallpaper](https://github.com/myseil/BingWallpaper) - جمع‌آوری تصاویر پس‌زمینه روزانه Bing
-- [Ethkuil/awesome-thu-student-software](https://github.com/Ethkuil/awesome-thu-student-software) - نرم‌افزارهای متن‌باز کاربردی عمدتاً توسعه یافته یا نگهداری شده توسط دانشجویان دانشگاه Tsinghua
-- [HelinXu/THUDA-9](https://github.com/HelinXu/THUDA-9) - یادداشت‌های دروس گروه اتوماسیون دانشگاه Tsinghua
-- [DerDanilo/seafile-community-manual](https://github.com/DerDanilo/seafile-community-manual) - راهنمای جامعه Seafile برای نسخه CE
+- [Alice-space/PKU-OpenWrt](https://github.com/Alice-space/PKU-OpenWrt) - نحوه پیکربندی OpenWrt در PKU
+- [eliaszon/Programmers-Overseas-Job-Interview-Handbook](https://github.com/eliaszon/Programmers-Overseas-Job-Interview-Handbook) - 🏂🏻 راهنمای مصاحبه کاری/انگلیسی برای برنامه‌نویسان جهت اشتغال در خارج از کشور
+- [lukeed/awesome-cloudflare-workers](https://github.com/lukeed/awesome-cloudflare-workers) - 😎 لیست برگزیده Cloudflare Workers
+- [LUKE-ZZ/thuthesis-biomedical](https://github.com/LUKE-ZZ/thuthesis-biomedical) - قالب لاتک پایان‌نامه برای رشته‌های زیست‌شناسی، پزشکی و داروسازی دانشگاه Tsinghua. همچنین مناسب برای سایر رشته‌ها. مناسب پایان‌نامه کارشناسی، ارشد، دکترا و گزارش پسا دکتری. این قالب بر پایه پروژه thuthesis انجمن tuna توسعه یافته و محتوای مرتبط با دانشجویان زیستی-پزشکی و توضیحات دوستانه برای تازه‌کارهای لاتک را اضافه می‌کند.
+- [oneclickearth/oneclick](https://github.com/oneclickearth/oneclick) - فیلترشکن/اینترنت آزاد/راهنمای عبور از فیلترینگ/نرم‌افزار، راهنمای عبور از فیلترینگ ۲۰۲۱
+- [k88hudson/git-flight-rules](https://github.com/k88hudson/git-flight-rules) - قوانین پرواز برای git
+- [rockbenben/LearnData](https://github.com/rockbenben/LearnData) - یادداشت‌های خودارتقایی در ابزارهای متن باز، روش‌های بهره‌وری و اکتشافات روانشناسی
+- [fredliu168/TheEconomist2022](https://github.com/fredliu168/TheEconomist2022) - مجله The Economist سال ۲۰۲۲ برای مطالعه آنلاین، شامل صدا. اگر دامنه در دسترس نبود، لطفاً به http://157.230.57.119:8888 مراجعه کنید.
+- [myseil/BingWallpaper](https://github.com/myseil/BingWallpaper) - گردآوری تصاویر پس‌زمینه روزانه Bing
+- [Ethkuil/awesome-thu-student-software](https://github.com/Ethkuil/awesome-thu-student-software) - گردآوری نرم‌افزارهای کاربردی متن باز عمدتاً توسعه/نگهداری‌شده توسط دانشجویان دانشگاه Tsinghua.
+- [HelinXu/THUDA-9](https://github.com/HelinXu/THUDA-9) - یادداشت‌های دوره‌های گروه اتوماسیون دانشگاه Tsinghua
+- [DerDanilo/seafile-community-manual](https://github.com/DerDanilo/seafile-community-manual) - راهنمای جامعه Seafile برای Seafile CE
 - [runvnc/dadsresume](https://github.com/runvnc/dadsresume) - رزومه و مهارت‌های پدرم از سال ۱۹۸۰
-- [SurviveSJTU/SurviveSJTUManual](https://github.com/SurviveSJTU/SurviveSJTUManual) - نسخه ۲۰۰۸ کتابچه راهنمای زنده‌ماندن دانشجویان دانشگاه شانگهای جیائو تانگ منتشر شده در https://survivesjtu.gitbook.io/survivesjtumanual/
-- [dy-sh/one-dark-potplayer-theme](https://github.com/dy-sh/one-dark-potplayer-theme) - پوسته الهام گرفته از Atom One Dark برای PotPlayer
+- [SurviveSJTU/SurviveSJTUManual](https://github.com/SurviveSJTU/SurviveSJTUManual) - نسخه ۲۰۰۸ کتابچه راهنمای بقا در دانشگاه جیاوتونگ شانگهای، منتشر شده در https://survivesjtu.gitbook.io/survivesjtumanual/
+- [dy-sh/one-dark-potplayer-theme](https://github.com/dy-sh/one-dark-potplayer-theme) - پوسته PotPlayer الهام‌گرفته از Atom One Dark
 - [vscode-ext-studio/OneDark-Modern](https://github.com/vscode-ext-studio/OneDark-Modern) - 
-- [bighuang624/AI-research-tools](https://github.com/bighuang624/AI-research-tools) - :hammer: ابزارهای کارآمد پژوهشی در حوزه AI
-- [jotaen/xit](https://github.com/jotaen/xit) - قالب فایل متنی ساده برای لیست‌های todo و چک‌لیست‌ها
-- [ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix) - مجموعه‌ای از جایگزین‌های مدرن/سریع‌تر/معقول‌تر برای دستورات رایج یونیکس.
-- [opsre/Thanks-Mirror](https://github.com/opsre/Thanks-Mirror) - جمع‌آوری و ثبت آینه‌های مفید برای مدیرهای بسته، سیستم‌ها و نرم‌افزارهای پرکاربرد. اگر مفید بود لطفاً ستاره بدهید 👆🌟
-- [KeiKinn/ShadowsocksBio](https://github.com/KeiKinn/ShadowsocksBio) - مروری بر تاریخچه Shadowsocks و خلاصه آموزش ساده آن
-- [eryajf/awesome-github-profile-readme-chinese](https://github.com/eryajf/awesome-github-profile-readme-chinese) - 🦩 جمع‌آوری پروفایل‌های برتر چینی در گیت‌هاب
-- [lesuixin/v2ray-cf](https://github.com/lesuixin/v2ray-cf) - آموزش ساده شتاب‌دهی v2ray با CF بدون دامنه برای تازه‌کارها
-- [irazasyed/awesome-cloudflare](https://github.com/irazasyed/awesome-cloudflare) - ⛅️ فهرست منتخب دستورالعمل‌های Cloudflare Worker، پروژه‌های متن‌باز، راهنماها، وبلاگ‌ها و منابع دیگر.
-- [PicGo/Awesome-PicGo](https://github.com/PicGo/Awesome-PicGo) - مجموعه‌ای از پروژه‌های عالی با استفاده از PicGo.
-- [nicejade/nice-front-end-tutorial](https://github.com/nicejade/nice-front-end-tutorial) - 🌍 منابع، آموزش‌ها و نظرات روزآمد فرانت‌اند (آموزش فرانت‌اند به‌روز)
-- [eryajf/learning-weekly](https://github.com/eryajf/learning-weekly) - 📝 محتوای هفتگی با محوریت فناوری‌های عملیات و زبان Go، همراه با پروژه‌های عالی GitHub یا تجارب برجسته دیگران. خوشحال می‌شویم ستاره بزنید 👆🌟
-- [dair-ai/ML-Course-Notes](https://github.com/dair-ai/ML-Course-Notes) - 🎓 به اشتراک‌گذاری یادداشت‌های دوره/سخنرانی یادگیری ماشین.
-- [sirredbeard/awesome-wsl](https://github.com/sirredbeard/awesome-wsl) - فهرست عالی اختصاص داده شده به Windows Subsystem for Linux
-- [GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) - اشتراک روزانه پروژه‌های با کیفیت، جالب و مفید متن‌باز در GitHub.
-- [steam3d/MagicPods-Windows](https://github.com/steam3d/MagicPods-Windows) - کمی جادو به Airpods خود در ویندوز بیافزایید
-- [dair-ai/ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses) - 📺 کشف جدیدترین دوره‌های یادگیری ماشین/هوش مصنوعی در YouTube.
+- [bighuang624/AI-research-tools](https://github.com/bighuang624/AI-research-tools) - :hammer: ابزارهای پژوهشی کاربردی در حوزه AI
+- [jotaen/xit](https://github.com/jotaen/xit) - قالب فایل متنی ساده برای وظایف و چک‌لیست‌ها
+- [ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix) - مجموعه‌ای از جایگزین‌های مدرن/سریع‌تر/عقلانی‌تر برای دستورات رایج یونیکس.
+- [opsre/Thanks-Mirror](https://github.com/opsre/Thanks-Mirror) - گردآوری و ثبت آینه‌های خوب برای انواع مدیر بسته، ایمیج سیستم و نرم‌افزارهای پرکاربرد. اگر مفید بود لطفاً ستاره بدهید 👆🌟
+- [KeiKinn/ShadowsocksBio](https://github.com/KeiKinn/ShadowsocksBio) - مرور سرگذشت Shadowsocks و خلاصه یک آموزش ساده
+- [eryajf/awesome-github-profile-readme-chinese](https://github.com/eryajf/awesome-github-profile-readme-chinese) - 🦩 گردآوری پروفایل‌های شخصی برتر بخش چینی گیت‌هاب
+- [lesuixin/v2ray-cf](https://github.com/lesuixin/v2ray-cf) - آموزش ساده شتاب‌دهی v2ray با CF بدون دامنه
+- [irazasyed/awesome-cloudflare](https://github.com/irazasyed/awesome-cloudflare) - ⛅️ لیست برگزیده دستورپخت‌ها، پروژه‌های متن باز، راهنماها، وبلاگ‌ها و منابع دیگر Cloudflare Workers.
+- [PicGo/Awesome-PicGo](https://github.com/PicGo/Awesome-PicGo) - گردآوری پروژه‌های عالی با استفاده از PicGo.
+- [nicejade/nice-front-end-tutorial](https://github.com/nicejade/nice-front-end-tutorial) - 🌍 منابع، آموزش‌ها و دیدگاه‌های فرانت‌اند که دائماً به‌روزرسانی می‌شوند (نسخه همگام با زمان).
+- [eryajf/learning-weekly](https://github.com/eryajf/learning-weekly) - 📝 محتوای هفتگی عمدتاً درباره فناوری عملیات و زبان Go است و پروژه‌ها و تجربیات عالی GitHub نیز مکمل آن هستند. خوشحال می‌شویم ستاره بزنید 👆🌟
+- [dair-ai/ML-Course-Notes](https://github.com/dair-ai/ML-Course-Notes) - 🎓 اشتراک‌گذاری یادداشت‌های دوره/سخنرانی یادگیری ماشین.
+- [sirredbeard/awesome-wsl](https://github.com/sirredbeard/awesome-wsl) - لیست عالی اختصاص یافته به Windows Subsystem for Linux
+- [GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) - به اشتراک گذاری مستمر آموزش‌های با کیفیت، ابزارهای توسعه‌دهنده، سایت‌های برنامه‌نویسی و اخبار فناوری از GitHub. فهرستی از پروژه‌های جالب و کاربردی گیت‌هاب.
+- [steam3d/MagicPods-Windows](https://github.com/steam3d/MagicPods-Windows) - افزودن کمی جادو به Airpods شما
+- [dair-ai/ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses) - 📺 کشف جدیدترین دوره‌های یادگیری ماشین / هوش مصنوعی در YouTube.
 - [ImCa0/just-laws](https://github.com/ImCa0/just-laws) - یک کتابخانه ساده و کاربردی قوانین چین | A Simple and Convenient Laws Library of China.
-- [github/codeql-cli-binaries](https://github.com/github/codeql-cli-binaries) - فایل‌های باینری ابزار خط فرمان CodeQL
-- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - مجموعه‌ای از فهرست‌های الهام‌بخش، راهنماها، برگه‌های تقلب، وبلاگ‌ها، هک‌ها، دستورات کوتاه، ابزارهای cli/web و موارد دیگر.
-- [brave/goggles-quickstart](https://github.com/brave/goggles-quickstart) - مطالب آموزشی برای یادگیری Goggle و نحوه ساخت Goggle شخصی خودتان.
-- [iggredible/Learn-Vim](https://github.com/iggredible/Learn-Vim) - یادگیری Vim و Vimscript نباید سخت باشد. این همان راهنمایی است که دنبالش هستید 📖
+- [github/codeql-cli-binaries](https://github.com/github/codeql-cli-binaries) - باینری‌های CodeQL CLI
+- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - مجموعه‌ای از لیست‌های الهام‌بخش، راهنماها، برگه تقلب، وبلاگ‌ها، هک‌ها، تک‌خطی‌ها، ابزارهای CLI/وب و موارد دیگر.
+- [brave/goggles-quickstart](https://github.com/brave/goggles-quickstart) - مواد آموزشی برای یادگیری درباره Goggles و نحوه ایجاد آن توسط خودتان.
+- [iggredible/Learn-Vim](https://github.com/iggredible/Learn-Vim) - یادگیری Vim و Vimscript نباید سخت باشد. این همان راهنمایی است که به دنبالش هستید 📖
 - [fatalerror-i/ThuWordThesis](https://github.com/fatalerror-i/ThuWordThesis) - قالب Word پایان‌نامه دانشگاه Tsinghua. A Word thesis template for Tsinghua University.
 - [pb0316/thuhole_memories](https://github.com/pb0316/thuhole_memories) - 
-- [jiegec/dcst-facts](https://github.com/jiegec/dcst-facts) - حقایق گروه DCST دانشگاه Tsinghua
+- [jiegec/dcst-facts](https://github.com/jiegec/dcst-facts) - حقایق DCST دانشگاه Tsinghua
 - [microsoft/vscode-loc](https://github.com/microsoft/vscode-loc) - افزونه بومی‌سازی VS Code
-- [mangecoeur/AcademicMarkdown](https://github.com/mangecoeur/AcademicMarkdown) - افزونه‌هایی برای MarkdownEditing جهت نگارش مقالات علمی
-- [linuxkerneltravel/linux_kernel_wiki](https://github.com/linuxkerneltravel/linux_kernel_wiki) - منابع یادگیری هسته لینوکس: بیش از ۲۰۰ مقاله کلاسیک، ۱۰۰ مقاله پژوهشی، ۵۰ پروژه هسته، ۵۰۰ سوال مصاحبه هسته، ۸۰ ویدیوی هسته
-- [GyanD/codexffmpeg](https://github.com/GyanD/codexffmpeg) - پشتیبانی از https://www.gyan.dev/ffmpeg
-- [scottclowe/matlab-schemes](https://github.com/scottclowe/matlab-schemes) - مجموعه‌ای از طرح‌های رنگ برای MATLAB
+- [mangecoeur/AcademicMarkdown](https://github.com/mangecoeur/AcademicMarkdown) - افزونه‌های MarkdownEditing برای نوشتن مقالات علمی
+- [linuxkerneltravel/linux_kernel_wiki](https://github.com/linuxkerneltravel/linux_kernel_wiki) - منابع یادگیری هسته لینوکس: ۲۰۰+ مقاله کلاسیک هسته، ۱۰۰+ مقاله علمی هسته، ۵۰+ پروژه هسته، ۵۰۰+ سوال مصاحبه هسته، ۸۰+ ویدیو هسته
+- [GyanD/codexffmpeg](https://github.com/GyanD/codexffmpeg) - پشتیبانی برای https://www.gyan.dev/ffmpeg
+- [scottclowe/matlab-schemes](https://github.com/scottclowe/matlab-schemes) - مجموعه‌ای از طرح‌های رنگی برای MATLAB
 - [skyiea/rememberry-i10n](https://github.com/skyiea/rememberry-i10n) - بومی‌سازی برای Rememberry
-- [rzashakeri/beautify-github-profile](https://github.com/rzashakeri/beautify-github-profile) - این مخزن به شما کمک می‌کند پروفایل گیت‌هاب زیباتر و جذاب‌تری بسازید و به طیف کاملی از ابزارها و آموزش‌ها برای زیباسازی پروفایل خود دسترسی داشته باشید.
+- [rzashakeri/beautify-github-profile](https://github.com/rzashakeri/beautify-github-profile) - این مخزن به شما کمک می‌کند پروفایل گیت‌هاب زیباتری بسازید و به طیف کاملی از ابزارها و آموزش‌ها برای زیباتر کردن پروفایل خود دسترسی داشته باشید.
 - [Jonezhen/CSBook](https://github.com/Jonezhen/CSBook) - 
 - [ripperhe/Bob](https://github.com/ripperhe/Bob) - Bob یک نرم‌افزار ترجمه و OCR برای macOS است.
-- [SwiftOldDriver/iOS-Weekly](https://github.com/SwiftOldDriver/iOS-Weekly) - 🇨🇳 خبرنامه هفتگی فنی iOS مخصوص برنامه‌نویسان چینی
-- [comwrg/package-manager-proxy-settings](https://github.com/comwrg/package-manager-proxy-settings) - ثبت مشکلات مربوط به تنظیمات پراکسی در مدیرهای بسته مختلف.
-- [liuchengxu/git-commit-emoji-cn](https://github.com/liuchengxu/git-commit-emoji-cn) - 😁 راهنمای استفاده از ایموجی در پیام‌های git commit
-- [aishalih/sfwin](https://github.com/aishalih/sfwin) - SFWin — فونت San Francisco برای Windows 10 و پلتفرم‌های غیر اپل.
-- [aooiuu/z-reader](https://github.com/aooiuu/z-reader) - 📘 [افزونه vscode] ریدر رمان، پشتیبانی از جستجوی آنلاین و خواندن محلی، پشتیبانی از فرمت‌های txt و epub
-- [inkscape/inkscape](https://github.com/inkscape/inkscape) - وب‌سایت پروژه: https://inkscape.org - مخزن کد: https://gitlab.com/inkscape/inkscape - آزادانه طراحی کنید. 🖌
-- [taunoe/arduino-dark-theme](https://github.com/taunoe/arduino-dark-theme) - تم تاریک برای Arduino!
+- [SwiftOldDriver/iOS-Weekly](https://github.com/SwiftOldDriver/iOS-Weekly) - 🇨🇳 هفته‌نامه فنی iOS برای رانندگان قدیمی
+- [comwrg/package-manager-proxy-settings](https://github.com/comwrg/package-manager-proxy-settings) - ثبت نکات مربوط به تنظیمات پراکسی مدیران بسته مختلف.
+- [liuchengxu/git-commit-emoji-cn](https://github.com/liuchengxu/git-commit-emoji-cn) - 😁 راهنمای استفاده از ایموجی برای پیام‌های commit در git
+- [aishalih/sfwin](https://github.com/aishalih/sfwin) - SFWin — فونت‌های San Francisco برای Windows 10 و سایر پلتفرم‌های غیر اپل.
+- [aooiuu/z-reader](https://github.com/aooiuu/z-reader) - 📘 [افزونه vscode] کتاب‌خوان، پشتیبانی از جستجوی آنلاین و مطالعه محلی، پشتیبانی از فرمت txt و epub
+- [inkscape/inkscape](https://github.com/inkscape/inkscape) - وب‌سایت پروژه: https://inkscape.org - مخزن کد: https://gitlab.com/inkscape/inkscape - طراحی آزادانه. 🖌
+- [taunoe/arduino-dark-theme](https://github.com/taunoe/arduino-dark-theme) - تم تیره برای Arduino!
 - [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules) - 🦄️ 🎃 👻 مجموعه قوانین Clash Premium (RULE-SET)، سازگار با ClashX Pro، Clash for Windows و سایر کلاینت‌های مبتنی بر هسته Clash Premium.
-- [sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines) - راهنمای نگارش چینی برای ارتباطات مکتوب بهتر／راهنمای تایپ و نگارش چین
+- [sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines) - راهنمای نگارش متن چینی برای ارتباط نوشتاری بهتر／راهنمای صفحه‌آرایی متن چینی
 - [woct0rdho/pkuholebackup](https://github.com/woct0rdho/pkuholebackup) - 
 - [Keldos-Li/typora-latex-theme-fonts](https://github.com/Keldos-Li/typora-latex-theme-fonts) - 
-- [geekan/HowToLiveLonger](https://github.com/geekan/HowToLiveLonger) - راهنمای افزایش طول عمر برای برنامه‌نویسان | A programmer's guide to live longer
+- [geekan/HowToLiveLonger](https://github.com/geekan/HowToLiveLonger) - راهنمای افزایش عمر برنامه‌نویسان | A programmer's guide to live longer
 - [gaocegege/my-github-status](https://github.com/gaocegege/my-github-status) - 
-- [fat0troll/terminalus](https://github.com/fat0troll/terminalus) - تم‌های Terminal.app الهام گرفته از رنگ‌بندی Termius iOS
-- [clarketm/proxy-list](https://github.com/clarketm/proxy-list) - فهرست پراکسی سرورهای رایگان، عمومی و فوروارد. بروزرسانی روزانه!
-- [ShiftyTR/Proxy-List](https://github.com/ShiftyTR/Proxy-List) - فهرست پراکسی رایگان با بروزرسانی ساعتی! -- برای api به این آدرس مراجعه کنید
-- [623637646/996.Leave](https://github.com/623637646/996.Leave) - فرار از ۹۹۶
-- [The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run) - GITHUB رسمی فلسفه Run جهانی، سازماندهی اهداف، اصول، نظریه‌ها و انواع مثال‌های Run؛ حل سه سوال چرا Run، کجا Run، چگونه Run؛ و تبدیل شدن به دین و باور مرکزی چینی‌های جدید.
-- [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) - فهرست منتخب آموزش‌های پروژه‌محور
-- [veeral-patel/how-to-secure-anything](https://github.com/veeral-patel/how-to-secure-anything) - چگونه به‌صورت سیستماتیک هر چیزی را امن کنیم: یک مخزن درباره مهندسی امنیت
-- [ossu/data-science](https://github.com/ossu/data-science) - 📊 مسیر آموزش رایگان و خودآموخته در علم داده!
-- [lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions) - فهرستی طولانی از پرسش‌های (پیشرفته) جاوااسکریپت و توضیحات آن‌ها :sparkles:
-- [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) - مجموعه کتاب‌هایی (۲ نسخه منتشر شده) درباره زبان JS.
-- [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - یک برنامه کامل مطالعه علوم کامپیوتر برای تبدیل شدن به مهندس نرم‌افزار.
+- [fat0troll/terminalus](https://github.com/fat0troll/terminalus) - تم‌های Terminal.app الهام‌گرفته از طرح‌های رنگی برنامه Termius در iOS
+- [clarketm/proxy-list](https://github.com/clarketm/proxy-list) - فهرست سرورهای پراکسی عمومی و رایگان. به‌روزرسانی روزانه!
+- [ShiftyTR/Proxy-List](https://github.com/ShiftyTR/Proxy-List) - لیست پراکسی رایگان - به‌روزرسانی ساعتی! -- برای api مراجعه کنید
+- [623637646/996.Leave](https://github.com/623637646/996.Leave) - فرار از 996
+- [The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run) - گیت‌هاب رسمی فلسفه Run، جمع‌آوری اهداف، اصول، نظریه و نمونه‌های فلسفه Run؛ پاسخ به چرایی، مقصد و چگونگی Run؛ و تبدیل شدن به دین و باور اصلی چینی‌های جدید.
+- [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) - فهرست منتخب آموزش‌های مبتنی بر پروژه
+- [veeral-patel/how-to-secure-anything](https://github.com/veeral-patel/how-to-secure-anything) - چگونه هر چیزی را به صورت سیستماتیک ایمن کنیم: مخزنی درباره مهندسی امنیت
+- [ossu/data-science](https://github.com/ossu/data-science) - 📊 مسیر آموزش رایگان و خودآموز در علم داده!
+- [lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions) - فهرست بلند سوالات (پیشرفته) جاوااسکریپت و توضیحات آن‌ها :sparkles:
+- [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) - مجموعه کتاب‌هایی (۲ ویرایش منتشر شده) درباره زبان JS.
+- [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - برنامه کامل مطالعاتی علوم کامپیوتر برای تبدیل شدن به مهندس نرم‌افزار.
 - [DhanushNehru/Ultimate-NodeJs-Resources](https://github.com/DhanushNehru/Ultimate-NodeJs-Resources) - تمامی منابع مرتبط با Node Js در یک مکان
-- [Paladinfeng/MiaoProject](https://github.com/Paladinfeng/MiaoProject) - پروژه Miao بازخورد باگ
-- [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) - مجموعه‌ای از ایده‌های برنامه که می‌تواند مهارت‌های برنامه‌نویسی شما را بهبود بخشد.
-- [warpdotdev/Warp](https://github.com/warpdotdev/Warp) - وارپ محیط توسعه عامل‌محور است که برای کدنویسی با چندین عامل هوش مصنوعی ساخته شده است.
-- [Infatuation-Fei/rule](https://github.com/Infatuation-Fei/rule) - قوانین استفاده شخصی
-- [MicrosoftDocs/WSL](https://github.com/MicrosoftDocs/WSL) - کد منبع مستندات زیرسیستم ویندوز برای لینوکس.
+- [Paladinfeng/MiaoProject](https://github.com/Paladinfeng/MiaoProject) - بازخورد باگ پروژه Miao
+- [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) - مجموعه‌ای از ایده‌های برنامه‌نویسی جهت بهبود مهارت‌های کدنویسی شما.
+- [warpdotdev/Warp](https://github.com/warpdotdev/Warp) - Warp محیط توسعه عامل محور است، ساخته شده برای کدنویسی با چندین عامل هوش مصنوعی.
+- [Infatuation-Fei/rule](https://github.com/Infatuation-Fei/rule) - قوانین شخصی
+- [MicrosoftDocs/WSL](https://github.com/MicrosoftDocs/WSL) - کد منبع مستندات Windows Subsystem for Linux.
 - [Serendipity-Theme/windows-terminal](https://github.com/Serendipity-Theme/windows-terminal) - تم Serendipity برای ویندوز ترمینال.
 - [Serendipity-Theme/vs-code](https://github.com/Serendipity-Theme/vs-code) - آرام، ملایم و مدرن.
 - [Serendipity-Theme/template-for-repositories](https://github.com/Serendipity-Theme/template-for-repositories) - قالب برای تم‌های پورت شده
-- [xuehu54321/awesome-music-for-programming](https://github.com/xuehu54321/awesome-music-for-programming) - موسیقی‌های عالی برای برنامه‌نویسی. موسیقی‌های دلنشین هنگام برنامه‌نویسی، بیایید موسیقی‌هایی که هنگام کدنویسی گوش می‌دهید را به اشتراک بگذاریم!
-- [soulteary/docker-flare](https://github.com/soulteary/docker-flare) - Flare ✨ صفحات ناوبری سبک، با عملکرد بالا و خودمیزبان سریع، مصرف منابع <۱٪ CPU، حافظه <۳۰ مگابایت، تصویر Docker < ۱۰ مگابایت
-- [jCodeLife/mind-map](https://github.com/jCodeLife/mind-map) - 🖼 یادداشت‌های نقشه ذهنی شخصی، شامل JS، TS، Vue، React ... در حال بروزرسانی، خوش آمدید به PR و ستاره دادن~
-- [coder2gwy/coder2gwy](https://github.com/coder2gwy/coder2gwy) - اولین راهنمای برنامه‌نویسان اینترنت برای شرکت در آزمون‌های دولتی، توسط ۳ برنامه‌نویس سابق شرکت‌های بزرگ که اکنون وارد دستگاه دولتی شده‌اند.
+- [xuehu54321/awesome-music-for-programming](https://github.com/xuehu54321/awesome-music-for-programming) - موسیقی عالی برای برنامه‌نویسی. موسیقی‌های زیبا هنگام برنامه‌نویسی، بیایید موسیقی‌هایی که هنگام برنامه‌نویسی گوش می‌دهید را به اشتراک بگذاریم!
+- [soulteary/docker-flare](https://github.com/soulteary/docker-flare) - Flare ✨ صفحات ناوبری خودمیزبان سبک، با کارایی بالا و سریع، نرخ استفاده از منابع کمتر از ۱٪ CPU، حافظه کمتر از ۳۰ مگابایت، تصویر داکر کمتر از ۱۰ مگابایت
+- [jCodeLife/mind-map](https://github.com/jCodeLife/mind-map) - 🖼یادداشت‌های شخصی نقشه ذهنی، شامل JS، TS، Vue، React ... در حال به‌روزرسانی مداوم، خوش‌آمد به PR و ستاره~
+- [coder2gwy/coder2gwy](https://github.com/coder2gwy/coder2gwy) - اولین راهنمای برنامه‌نویسان اینترنتی برای آزمون‌های دولتی، تقدیم‌شده توسط ۳ برنامه‌نویس سابق شرکت‌های بزرگ که اکنون وارد سیستم دولتی شده‌اند.
 - [georgezzzh/homepage](https://github.com/georgezzzh/homepage) - 
-- [996icu/996.ICU](https://github.com/996icu/996.ICU) - مخزن شمارش ستاره‌ها و مشارکت. برای ادای احترام به توسعه‌دهندگان بزرگ کلید F را فشار دهید.
-- [danyspin97/TelegramBotsList](https://github.com/danyspin97/TelegramBotsList) - لیستی از تمامی ربات‌های تلگرام با سورس کد میزبانی شده در گیت‌هاب.
-- [GorvGoyl/Clone-Wars](https://github.com/GorvGoyl/Clone-Wars) - بیش از ۱۰۰ کلون متن‌باز از سایت‌های محبوب مانند Airbnb، Amazon، Instagram، Netflix، Tiktok، Spotify، Whatsapp، Youtube و غیره. مشاهده کد منبع، لینک دمو، تکنولوژی‌های استفاده شده، ستاره‌های گیت‌هاب.
+- [996icu/996.ICU](https://github.com/996icu/996.ICU) - مخزنی برای شمردن ستاره‌ها و مشارکت. برای ادای احترام به توسعه‌دهندگان پرشکوه کلید F را فشار دهید.
+- [danyspin97/TelegramBotsList](https://github.com/danyspin97/TelegramBotsList) - فهرست همه سورس‌کدهای ربات تلگرام میزبانی‌شده در گیت‌هاب.
+- [GorvGoyl/Clone-Wars](https://github.com/GorvGoyl/Clone-Wars) - بیش از ۱۰۰ کلون متن‌باز از سایت‌های محبوب مانند Airbnb، Amazon، Instagram، Netflix، Tiktok، Spotify، Whatsapp، Youtube و غیره. مشاهده کد منبع، لینک دمو، فناوری استفاده‌شده، ستاره‌های گیت‌هاب.
 - [github/gitignore](https://github.com/github/gitignore) - مجموعه‌ای از قالب‌های مفید .gitignore
-- [gqcn/effective-go-zh-en](https://github.com/gqcn/effective-go-zh-en) - نسخه دوزبانه چینی-انگلیسی 《Effective Go》
-- [sublime-china/sublime-merge-chinese](https://github.com/sublime-china/sublime-merge-chinese) - نسخه چینی شده Sublime Merge
-- [facelessuser/merge-dracula-theme](https://github.com/facelessuser/merge-dracula-theme) - تم Dracula برای Sublime Merge
-- [konrad91/OneDarkArduino](https://github.com/konrad91/OneDarkArduino) - تم تیره برای Arduino IDE، الهام گرفته از One Dark Pro برای VSCode توسط binaryify
-- [AbhishekGhosh/Arduino-Themes](https://github.com/AbhishekGhosh/Arduino-Themes) - مجموعه‌ای از تم‌های Arduino IDE ساخته شده توسط جامعه
+- [gqcn/effective-go-zh-en](https://github.com/gqcn/effective-go-zh-en) - نسخه دو زبانه چینی-انگلیسی 《Effective Go》
+- [sublime-china/sublime-merge-chinese](https://github.com/sublime-china/sublime-merge-chinese) - نسخه چینی‌شده Sublime Merge
+- [facelessuser/merge-dracula-theme](https://github.com/facelessuser/merge-dracula-theme) - تم دراکولا برای Sublime Merge
+- [konrad91/OneDarkArduino](https://github.com/konrad91/OneDarkArduino) - تم تیره برای Arduino IDE، الهام‌گرفته از One Dark Pro برای VSCode توسط binaryify
+- [AbhishekGhosh/Arduino-Themes](https://github.com/AbhishekGhosh/Arduino-Themes) - مجموعه تم‌های Arduino IDE که توسط جامعه ساخته شده‌اند
 - [shengcaishizhan/kkndme_tianya](https://github.com/shengcaishizhan/kkndme_tianya) - پست افسانه‌ای kkndme در Tianya درباره بحث قیمت مسکن
-- [axipo/TrafficBlackhole](https://github.com/axipo/TrafficBlackhole) - آزمون کیفیت شبکه و سرویس پروکسی
-- [bestxtools/weekly-cn](https://github.com/bestxtools/weekly-cn) - کشف و به اشتراک‌گذاری ابزارهای جالب، خلاقانه، رایگان و کاربردی، انتشار هر پنجشنبه.
-- [coderit666/GoGuide](https://github.com/coderit666/GoGuide) - «راهنمای یادگیری زبان Go» شامل تقریباً تمام دانش اصلی مورد نیاز برنامه‌نویسان Golang، همراه با آموزش‌ها، کتاب‌های متن‌باز، مسیر یادگیری و آموزش مقدماتی زبان Go. بهترین انتخاب برای یادگیری از صفر.
-- [andredelft/typora-tailwind-theme](https://github.com/andredelft/typora-tailwind-theme) - چیدمان زیبای تایپوگرافی Tailwind برای Typora.
-- [viraptor/reverse-interview](https://github.com/viraptor/reverse-interview) - سؤالاتی که می‌توانید هنگام مصاحبه از شرکت بپرسید
-- [perkfly/reverse-interview-zh](https://github.com/perkfly/reverse-interview-zh) - پرسش‌هایی که در پایان مصاحبه فنی باید از مصاحبه‌گر بپرسید
-- [imageslr/typora-theme-bear](https://github.com/imageslr/typora-theme-bear) - مجموعه‌ای از تم‌های Typora با الهام از Bear، بیش از ۲۰ نوع مختلف.
-- [7-sevens/Developer-Books](https://github.com/7-sevens/Developer-Books) - فهرست کتاب‌های مرتبط با برنامه‌نویسی و توسعه نرم‌افزار
+- [axipo/TrafficBlackhole](https://github.com/axipo/TrafficBlackhole) - سنجش کیفیت شبکه و سرویس پروکسی
+- [bestxtools/weekly-cn](https://github.com/bestxtools/weekly-cn) - کشف و اشتراک ابزارهای جالب، خلاقانه، رایگان و کاربردی، انتشار هر پنجشنبه.
+- [coderit666/GoGuide](https://github.com/coderit666/GoGuide) - «راهنمای یادگیری زبان Go» شامل بیشتر دانش‌های کلیدی مورد نیاز برنامه‌نویسان Golang، شامل آموزش، کتاب‌های متن‌باز، آموزش مقدماتی و مسیر یادگیری. یادگیری Go از پایه، انتخاب اول GoGuide.
+- [andredelft/typora-tailwind-theme](https://github.com/andredelft/typora-tailwind-theme) - طرح زیبا و تایپوگرافی Tailwind برای Typora.
+- [viraptor/reverse-interview](https://github.com/viraptor/reverse-interview) - سوالاتی برای پرسیدن از شرکت هنگام مصاحبه
+- [perkfly/reverse-interview-zh](https://github.com/perkfly/reverse-interview-zh) - سوالاتی برای پرسیدن از مصاحبه‌گر در پایان مصاحبه فنی
+- [imageslr/typora-theme-bear](https://github.com/imageslr/typora-theme-bear) - مجموعه‌ای از بیش از ۲۰ تم Typora به سبک Bear. مجموعه‌ای از تم‌های Typora، الهام‌گرفته از Bear.
+- [7-sevens/Developer-Books](https://github.com/7-sevens/Developer-Books) - لیست کتاب‌های مرتبط با برنامه‌نویسی و توسعه
 - [czs108/Cpp-Primer-5th-Notes-CN](https://github.com/czs108/Cpp-Primer-5th-Notes-CN) - 📚 یادداشت‌های 《C++ Primer نسخه چینی (ویرایش پنجم)》
-- [ShameCom/ShameCom](https://github.com/ShameCom/ShameCom) - جمع‌آوری شرکت‌ها یا سازمان‌های دارای سوابق منفی در جذب فارغ‌التحصیلان جدید برای کمک به دیگران جهت دوری از مشکلات. اینترنت هرگز فراموش نمی‌کند!
-- [csseky/cskaoyan](https://github.com/csseky/cskaoyan) - ارائه سؤالات واقعی آزمون کارشناسی ارشد کامپیوتر و مهندسی نرم‌افزار دانشگاه‌های مختلف
-- [Simizfo/WSATools](https://github.com/Simizfo/WSATools) - نصب آسان APK و ابزارهای بیشتر برای زیرسیستم ویندوز اندروید
-- [SPX372928/MyIPTV](https://github.com/SPX372928/MyIPTV) - منابع پخش زنده استاندارد برای موبایل
-- [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists) - یک لیست جمعی از APIهای رایگان برای توسعه نرم‌افزار و وب 🚀
+- [ShameCom/ShameCom](https://github.com/ShameCom/ShameCom) - جمع‌آوری شرکت‌ها یا سازمان‌های دارای سابقه بد در استخدام فارغ‌التحصیلان، کمک به دانشجویان جهت اجتناب از مشکلات. اینترنت هرگز فراموش نمی‌کند!
+- [csseky/cskaoyan](https://github.com/csseky/cskaoyan) - ارائه سوالات واقعی آزمون کارشناسی ارشد کامپیوتر و مهندسی نرم‌افزار برای دانشگاه‌های مختلف
+- [Simizfo/WSATools](https://github.com/Simizfo/WSATools) - نصب‌کننده APK آسان و ابزارهای بیشتر برای Windows Subsystem for Android
+- [SPX372928/MyIPTV](https://github.com/SPX372928/MyIPTV) - منابع پخش زنده موبایل با پروتکل استاندارد
+- [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists) - فهرست جمعی از APIهای رایگان برای استفاده در توسعه نرم‌افزار و وب 🚀
 - [Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo) - جمع‌آوری و سازماندهی پروژه‌های متن‌باز با کیفیت و جالب در GitHub.
-- [imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8) - منابع مرتبط با پخش زنده 📺 💯 IPTV، M3U —— دست‌ها را بشویید، ماسک بزنید، آرزوی سلامتی برای همه
+- [imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8) - منابع مربوط به پخش زنده 📺 💯 IPTV، M3U — دست‌ها را مرتب بشویید، ماسک بزنید، برای همه آرزوی سلامتی دارم
 - [methylcloud/learn-gcp](https://github.com/methylcloud/learn-gcp) - منابع مطالعاتی برای یادگیری Google Cloud Platform (GCP)
-- [awsdocs/amazon-ec2-user-guide-windows](https://github.com/awsdocs/amazon-ec2-user-guide-windows) - نسخه متن‌باز راهنمای کاربر Amazon EC2 برای ویندوز. برای ارسال بازخورد یا درخواست تغییر، issue ثبت کنید یا pull request بفرستید.
-- [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) - ارائه قوانین متعدد Shadowrocket با قابلیت فیلترینگ قوی تبلیغات. بازسازی قوانین هر روز ساعت ۸.
-- [AlenZhang-Dev/News-Record](https://github.com/AlenZhang-Dev/News-Record) - در حال حاضر عمدتاً نگهداری اخبار اکونومیست، نیویورکر و تایم
+- [awsdocs/amazon-ec2-user-guide-windows](https://github.com/awsdocs/amazon-ec2-user-guide-windows) - نسخه متن‌باز راهنمای کاربر Amazon EC2 برای ویندوز. برای ارسال بازخورد یا درخواست تغییرات، issue ارسال کنید یا pull request بدهید.
+- [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) - ارائه چندین قانون Shadowrocket با قدرت بالای فیلتر تبلیغات. هر روز ساعت ۸ قوانین بازسازی می‌شوند.
+- [AlenZhang-Dev/News-Record](https://github.com/AlenZhang-Dev/News-Record) - در حال حاضر تمرکز بر نگهداری اخبار The Economist، The NewYorker و Time
 - [jeffreyxuan/toneoz-font-pinyin-kai](https://github.com/jeffreyxuan/toneoz-font-pinyin-kai) - 
-- [lanceliao/china-holiday-calender](https://github.com/lanceliao/china-holiday-calender) - تقویم تعطیلات، جابه‌جایی و روزهای کاری جبرانی چین ۲۰۲۳-۲۰۲۵، فرمت ICS، قابل اشتراک برای iPhone، Google Calendar، Outlook و شامل API تعطیلات
-- [tokyo-night/tokyo-night-vscode-theme](https://github.com/tokyo-night/tokyo-night-vscode-theme) - تم تیره و تمیز برای Visual Studio Code که به نورهای توکیو در شب الهام گرفته است.
+- [lanceliao/china-holiday-calender](https://github.com/lanceliao/china-holiday-calender) - تقویم تعطیلات، جابجایی و روزهای کاری چین ۲۰۲۳-۲۰۲۵ به فرمت ICS، قابل اشتراک‌گذاری برای iPhone، Google Calendar، Outlook و غیره، شامل API تعطیلات
+- [tokyo-night/tokyo-night-vscode-theme](https://github.com/tokyo-night/tokyo-night-vscode-theme) - تم تمیز و تیره Visual Studio Code که نورهای مرکز شهر توکیو در شب را جشن می‌گیرد.
 - [Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules) - 🦄 🎃 👻 مجموعه قوانین Surge (DOMAIN-SET و RULE-SET)، مناسب برای Surge for iOS و Surge for Mac.
-- [OpenRunner/clash-freenode](https://github.com/OpenRunner/clash-freenode) - آدرس اشتراک 🚀 اشتراک رایگان ♻️ بروزرسانی منظم ✨ اینترنت آزاد 🌈 لطفاً سوءاستفاده نکنید 🚫 اشتراک با یک کلیک 📪 SSR/CLASH/V2RAY
+- [OpenRunner/clash-freenode](https://github.com/OpenRunner/clash-freenode) - آدرس اشتراک🚀 اشتراک رایگان♻️ به‌روزرسانی منظم✨ عبور از محدودیت‌های اینترنت🌈 لطفاً سوءاستفاده نکنید🚫 اشتراک یک‌کلیکی📪SSR/CLASH/V2RAY
 - [Sxela/ArcaneGAN](https://github.com/Sxela/ArcaneGAN) - ArcaneGAN
-- [60ss/Npp-1-Dark](https://github.com/60ss/Npp-1-Dark) - تم One Dark برای Notepad++
-- [rdev/vscode-theme-onedark-spacegray](https://github.com/rdev/vscode-theme-onedark-spacegray) - تم VSCode بر اساس One Dark اتم
-- [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD) - متعهد به تبدیل شدن به لیست فیلترینگ تبلیغات با بالاترین نرخ موفقیت در منطقه چین؛ پشتیبانی از AdGuardHome، dnsmasq، Surge، Pi-Hole، Clash، mihomo، smartdns، sing-box و غیره. کاملاً سازگار با قالب‌های مختلف فیلترینگ تبلیغات.
-- [Mosney/anti-anti-AD](https://github.com/Mosney/anti-anti-AD) - چرا نباید از لیست antiAD برای حذف تبلیغات استفاده کرد و معرفی جایگزین‌های بهتر
-- [leohku/andure](https://github.com/leohku/andure) - DevTools برای Chrome اندروید — قابل استفاده بر روی هر وب‌سایت، روی هر مرورگر Chromium.
-- [opendigg/awesome-github-wechat-weapp](https://github.com/opendigg/awesome-github-wechat-weapp) - مجموعه پروژه‌های متن‌باز مرتبط با ویچت مینی‌پروگرام
-- [Discord-Custom-Covers/usrbg](https://github.com/Discord-Custom-Covers/usrbg) - پایگاه داده‌ای از پس‌زمینه‌های سفارشی کاربران برای @Discord.
-- [erbanku/awesome](https://github.com/erbanku/awesome) - 🌟 لیست مخازن عالی من. بروزرسانی خودکار توسط GitHub Actions در ساعت ۰۰:۰۰ و ۱۶:۰۰ UTC
-- [algolia/awesome-algolia](https://github.com/algolia/awesome-algolia) - 🔍👋  از اینجا شروع کنید! لیست منتخب کتابخانه‌ها، منابع و پروژه‌های Algolia.
-- [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) - لیستی منتخب از مشاغل ریموت و منابع عالی. الهام گرفته از https://github.com/vinta/awesome-python
-- [githubtraining/introduction-to-github](https://github.com/githubtraining/introduction-to-github) - مخزن دوره "مقدمه‌ای بر GitHub" در Learning Lab. مخزن قالب ➡️
+- [60ss/Npp-1-Dark](https://github.com/60ss/Npp-1-Dark) - تم سینتکس One Dark برای Notepad++
+- [rdev/vscode-theme-onedark-spacegray](https://github.com/rdev/vscode-theme-onedark-spacegray) - تم VSCode بر اساس تم One Dark اتم
+- [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD) - تلاش برای تبدیل شدن به دقیق‌ترین لیست فیلتر تبلیغات در منطقه چینی، برای فیلتر تبلیغات دقیق و محافظت از حریم خصوصی. anti-AD اکنون از AdGuardHome، dnsmasq، Surge، Pi-Hole، Clash، mihomo، smartdns، sing-box و غیره پشتیبانی می‌کند. کاملاً با فرمت‌های معمول لیست فیلتر تبلیغات سازگار است.
+- [Mosney/anti-anti-AD](https://github.com/Mosney/anti-anti-AD) - چرا نباید از لیست فیلتر antiAD برای حذف تبلیغات استفاده کرد و معرفی جایگزین‌های بهتر
+- [leohku/andure](https://github.com/leohku/andure) - ابزارهای توسعه برای Chrome اندروید — روی هر وبسایت، در هر مرورگر مبتنی بر Chromium کار می‌کند.
+- [opendigg/awesome-github-wechat-weapp](https://github.com/opendigg/awesome-github-wechat-weapp) - فهرست پروژه‌های متن‌باز ویچت مینی‌پروگرام
+- [Discord-Custom-Covers/usrbg](https://github.com/Discord-Custom-Covers/usrbg) - پایگاه داده‌ای از پس‌زمینه‌های سفارشی درخواست‌شده کاربران برای @Discord.
+- [erbanku/awesome](https://github.com/erbanku/awesome) - 🌟 فهرست مخازن عالی من. به طور خودکار توسط GitHub Actions در ساعت ۰۰:۰۰ و ۱۶:۰۰ UTC به‌روزرسانی می‌شود
+- [algolia/awesome-algolia](https://github.com/algolia/awesome-algolia) - 🔍👋  از اینجا شروع کنید! فهرستی منتخب از کتابخانه‌ها، منابع و پروژه‌های Algolia.
+- [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) - فهرستی منتخب از مشاغل و منابع عالی دورکاری. الهام گرفته از https://github.com/vinta/awesome-python
+- [githubtraining/introduction-to-github](https://github.com/githubtraining/introduction-to-github) - مخزن دوره آموزشی Learning Lab با عنوان "مقدمه‌ای بر گیت‌هاب". مخزن قالب ➡️
 - [UyCode/uyfonts](https://github.com/UyCode/uyfonts) - شامل فونت‌های UKIJ و Uighursoft
 - [kkozee/vscode-theme-one-dark-vivid](https://github.com/kkozee/vscode-theme-one-dark-vivid) - تم One Dark Vivid اتم برای VS Code
-- [mathjax/MathJax](https://github.com/mathjax/MathJax) - ریاضیات زیبا و دسترس‌پذیر در همه مرورگرها
-- [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) - مجموعه‌ای از موارد (اغلب فنی) که هر توسعه‌دهنده نرم‌افزار باید بداند
-- [yangkky/Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins) - فهرست مقالات درباره یادگیری ماشین برای پروتئین‌ها.
-- [mehcode/awesome-atom](https://github.com/mehcode/awesome-atom) - لیست منتخب بسته‌ها و منابع عالی برای Atom.
-- [mcdtaiwan/McDonalds_Fries_Font](https://github.com/mcdtaiwan/McDonalds_Fries_Font) - تقدیم به همه طرفداران سیب‌زمینی سرخ‌کرده مک‌دونالد — فونت سیب‌زمینی مک‌دونالد رایگان برای دانلود!
-- [fangzesheng/free-api](https://github.com/fangzesheng/free-api) - جمع‌آوری سرویس‌های API رایگان، یک کارگر حمل API
-- [toml-lang/toml](https://github.com/toml-lang/toml) - زبان واضح، مینیمال و مشهود تام (Tom's Obvious, Minimal Language)
-- [atomiechen/THU-PPT-Theme](https://github.com/atomiechen/THU-PPT-Theme) - قالب‌های پاورپوینت با تم دانشگاه Tsinghua
+- [mathjax/MathJax](https://github.com/mathjax/MathJax) - ریاضیات زیبا و در دسترس در همه مرورگرها
+- [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) - مجموعه‌ای از موارد عمدتاً فنی که هر توسعه‌دهنده نرم‌افزار باید بداند
+- [yangkky/Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins) - فهرست مقالات یادگیری ماشین برای پروتئین‌ها.
+- [mehcode/awesome-atom](https://github.com/mehcode/awesome-atom) - فهرستی منتخب از افزونه‌ها و منابع عالی اتم.
+- [mcdtaiwan/McDonalds_Fries_Font](https://github.com/mcdtaiwan/McDonalds_Fries_Font) - تقدیم به همه طرفداران واقعی سیب‌زمینی مک‌دونالد — فونت سیب‌زمینی مک‌دونالد. سیب‌زمینی ترد و لطیف، با سس کچاپ خوشمزه، بی‌نهایت امکان را خلق کنید. فونت سیب‌زمینی مک‌دونالد، رایگان برای دانلود!
+- [fangzesheng/free-api](https://github.com/fangzesheng/free-api) - جمع‌آوری سرویس‌های API رایگان، یک کارگر حمل‌ونقل API باشید
+- [toml-lang/toml](https://github.com/toml-lang/toml) - زبان واضح و مینیمال Tom (TOML)
+- [atomiechen/THU-PPT-Theme](https://github.com/atomiechen/THU-PPT-Theme) - قالب پاورپوینت با تم دانشگاه Tsinghua
 - [zhiwehu/Python-programming-exercises](https://github.com/zhiwehu/Python-programming-exercises) - بیش از ۱۰۰ تمرین چالش‌برانگیز برنامه‌نویسی پایتون
-- [hemanth/awesome-pwa](https://github.com/hemanth/awesome-pwa) - لیست عالی از اپلیکیشن‌های وب پیش‌رونده (PWA)
-- [joelparkerhenderson/git-commit-message](https://github.com/joelparkerhenderson/git-commit-message) - پیام commit گیت: چگونه پیام commit عالی بنویسیم و قالب commit برای کنترل نسخه
-- [marvinpinto/action-automatic-releases](https://github.com/marvinpinto/action-automatic-releases) - فقط خواندنی: آینه خودکار برای https://github.com/marvinpinto/actions/tree/master/packages/automatic-releases
-- [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) - لیستی از پروژه‌های عالی و مناسب برای مبتدیان.
+- [hemanth/awesome-pwa](https://github.com/hemanth/awesome-pwa) - فهرستی عالی از برنامه‌های پیش‌رونده وب (PWA)!
+- [joelparkerhenderson/git-commit-message](https://github.com/joelparkerhenderson/git-commit-message) - پیام کامیت گیت: چگونه یک پیام کامیت عالی بنویسیم و قالب پیام کامیت برای کنترل نسخه
+- [marvinpinto/action-automatic-releases](https://github.com/marvinpinto/action-automatic-releases) - فقط خواندنی: میرور خودکار برای https://github.com/marvinpinto/actions/tree/master/packages/automatic-releases
+- [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) - فهرستی از پروژه‌های عالی مناسب برای مبتدیان.
 - [dracula/telegram](https://github.com/dracula/telegram) - 🧛🏻‍♂️ تم تیره برای Telegram Desktop
-- [ahmadawais/shades-of-purple-vscode](https://github.com/ahmadawais/shades-of-purple-vscode) - 🦄 مجموعه‌ای انتخابی از سایه‌های جسور و پرجنب‌وجوش بنفش که کد شما را به شاهکاری بصری تبدیل می‌کند. با پالت رنگی دقیق طراحی‌شده.
-- [priyankavergadia/GCPSketchnote](https://github.com/priyankavergadia/GCPSketchnote) - اگر به دنبال تبدیل شدن به مهندس Google Cloud هستید، این سری مفاهیم GCP را به‌شکلی سریع و آسان آموزش می‌دهد.
-- [flyhigher139/Git-Cheat-Sheet](https://github.com/flyhigher139/Git-Cheat-Sheet) - برگه تقلب Git به زبان چینی، ترجمه توسط Gevin (flyhigher139)
-- [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) - تسلط بر خط فرمان در یک صفحه
-- [opendigg/awesome-github-vue](https://github.com/opendigg/awesome-github-vue) - مجموعه پروژه‌های متن‌باز مرتبط با Vue
+- [ahmadawais/shades-of-purple-vscode](https://github.com/ahmadawais/shades-of-purple-vscode) - 🦄 طیف‌های بنفش، مجموعه‌ای دست‌چین از رنگ‌های بنفش پررنگ و زنده را ارائه می‌دهد که کد شما را به یک شاهکار بصری تبدیل می‌کند. با پالت رنگی با دقت طراحی‌شده‌اش، این...
+- [priyankavergadia/GCPSketchnote](https://github.com/priyankavergadia/GCPSketchnote) - اگر می‌خواهید مهندس Google Cloud شوید، اینجا جای درستی است. GCPSketchnote مجموعه‌ای است که مفاهیم Google Cloud را به صورت سریع و آسان برای یادگیری به اشتراک می‌گذارم.
+- [flyhigher139/Git-Cheat-Sheet](https://github.com/flyhigher139/Git-Cheat-Sheet) - برگه تقلب Git نسخه چینی، ترجمه توسط Gevin (flyhigher139)
+- [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) - فرماندهی خط فرمان را در یک صفحه بیاموزید
+- [opendigg/awesome-github-vue](https://github.com/opendigg/awesome-github-vue) - فهرست پروژه‌های متن‌باز مرتبط با Vue
 - [Codextor/npp-material-theme](https://github.com/Codextor/npp-material-theme) - تم Material، حماسی‌ترین تم برای Notepad++ | تم تیره
-- [VirgilClyne/iRingo](https://github.com/VirgilClyne/iRingo) - بازکردن قفل کامل قابلیت‌ها و خدمات یکپارچه  اپل
-- [treehollow/install-doc](https://github.com/treehollow/install-doc) - چگونه یک درخت‌حفره (Tree Hollow) راه‌اندازی کنیم
-- [0voice/audio_video_streaming](https://github.com/0voice/audio_video_streaming) - گردآوری منابع معتبر در زمینه جریان صوتی و تصویری، بیش از ۵۰۰ مقاله، ویدئو، پروژه عملی، پروتکل و فهرست بزرگان این حوزه.
-- [matchai/awesome-pinned-gists](https://github.com/matchai/awesome-pinned-gists) - 📌✨ مجموعه‌ای از Gistهای پین‌شده پویا و عالی برای GitHub
+- [VirgilClyne/iRingo](https://github.com/VirgilClyne/iRingo) - بازکردن قفل تمامی قابلیت‌ها و سرویس‌های یکپارچه  اپل
+- [treehollow/install-doc](https://github.com/treehollow/install-doc) - چگونه یک درخت توخالی راه‌اندازی کنیم
+- [0voice/audio_video_streaming](https://github.com/0voice/audio_video_streaming) - گردآوری منابع معتبر صوت و تصویر استریمینگ، بیش از ۵۰۰ مقاله، مقاله علمی، ویدیو، پروژه عملی، پروتکل و فهرست بزرگان صنعت.
+- [matchai/awesome-pinned-gists](https://github.com/matchai/awesome-pinned-gists) - 📌✨ مجموعه‌ای از گيست‌های پویا و عالی برای GitHub
 - [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) - 🚀✨ کمک به مبتدیان برای مشارکت در پروژه‌های متن‌باز
 - [Tencent/secguide](https://github.com/Tencent/secguide) - راهنمای امنیت کد برای توسعه‌دهندگان
-- [ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey) - لیست منتخب کتابخانه‌ها، توزیع‌ها، اسکریپت‌ها، ابزارها و منابع عالی AutoHotkey.
+- [ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey) - فهرستی منتخب از کتابخانه‌ها، توزیع‌های کتابخانه‌ای، اسکریپت‌ها، ابزارها و منابع عالی AutoHotkey.
 - [Hack-with-Github/Windows](https://github.com/Hack-with-Github/Windows) - ابزارهای عالی برای بهره‌برداری از ویندوز!
-- [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) - 👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻 فهرست پروژه‌های توسعه‌دهندگان مستقل چینی — اشتراک‌گذاری کارهایی که دیگران انجام می‌دهند
-- [actionsflow/awesome-actionsflow](https://github.com/actionsflow/awesome-actionsflow) - لیست موارد استفاده عالی برای Actionsflow
-- [AZeC4/TelegramGroup](https://github.com/AZeC4/TelegramGroup) - مجموعه جدید و مخفیانه ۲۰۲۵ شامل بیش از ۱۰,۰۰۰ گروه تلگرام، همراه با جالب‌ترین و بهترین ربات‌های BOT🤖【dianbaodaohang.com】
-- [sdras/awesome-actions](https://github.com/sdras/awesome-actions) - لیست منتخب اکشن‌های عالی برای استفاده در GitHub
-- [cobaltdisco/Google-Chinese-Results-Blocklist](https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist) - بالاخره می‌توانم با گوگل مطالب چینی را جستجو کنم...
-- [ffffffff0x/Digital-Privacy](https://github.com/ffffffff0x/Digital-Privacy) - منابع حفاظت اطلاعات و OSINT | مجموعه‌ای یکپارچه برای جمع‌آوری، حفاظت و پاک‌سازی حریم خصوصی دیجیتال، به‌علاوه مقابله با جمع‌آوری اطلاعات باز (OSINT)
-- [OverTheWallNode/SSV2RayTrojanSSRClash](https://github.com/OverTheWallNode/SSV2RayTrojanSSRClash) - اینترنت آزاد، ss, ssr, v2ray, trojan, clash, clashr، پیشنهاد ارائه‌دهندگان فیلترشکن
-- [formulahendry/955.WLB](https://github.com/formulahendry/955.WLB) - فهرست شرکت‌هایی که اضافه‌کاری نمی‌کنند - کار ۹۵۵، تعادل کار و زندگی
-- [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) - لیستی از ویژگی‌های جالب Git و GitHub.
+- [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) - 👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻فهرست پروژه‌های توسعه‌دهندگان مستقل چینی -- به اشتراک‌گذاری آنچه همه انجام می‌دهند
+- [actionsflow/awesome-actionsflow](https://github.com/actionsflow/awesome-actionsflow) - فهرستی از موارد استفاده عالی برای Actionsflow
+- [AZeC4/TelegramGroup](https://github.com/AZeC4/TelegramGroup) - جدیدترین مجموعه ۱۰۰۰۰+ گروه تلگرام جمع‌آوری‌شده در سال ۲۰۲۵، همراه با بهترین ربات‌های جالب و کاربردی BOT🤖【dianbaodaohang.com】
+- [sdras/awesome-actions](https://github.com/sdras/awesome-actions) - فهرستی منتخب از اکشن‌های عالی برای استفاده در GitHub
+- [cobaltdisco/Google-Chinese-Results-Blocklist](https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist) - بالاخره می‌توانم با گوگل به چینی جستجو کنم...
+- [ffffffff0x/Digital-Privacy](https://github.com/ffffffff0x/Digital-Privacy) - منابع حفاظت اطلاعات و OSINT | راهکار یکپارچه برای جمع‌آوری، حفاظت و پاکسازی حریم خصوصی دیجیتال، به همراه مقابله با جمع‌آوری اطلاعات متن‌باز (OSINT)
+- [OverTheWallNode/SSV2RayTrojanSSRClash](https://github.com/OverTheWallNode/SSV2RayTrojanSSRClash) - عبور از محدودیت اینترنت، ss، ssr، v2ray، trojan، clash، clashr، معرفی سرورهای VPN
+- [formulahendry/955.WLB](https://github.com/formulahendry/955.WLB) - فهرست شرکت‌های بدون اضافه‌کاری 955 - کار 955، تعادل کار و زندگی (تعادل کار و زندگی)
+- [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) - فهرستی از قابلیت‌های جالب Git و GitHub.
 - [github/roadmap](https://github.com/github/roadmap) - نقشه راه عمومی GitHub
-- [ivmm/Student-resources](https://github.com/ivmm/Student-resources) - معرفی امتیازات دانشجویی، تخفیفات آموزشی و حقوق معلمان برای دانشجویان و کارکنان آموزشی؛ لطفاً از فروش یا انتقال امتیازات خود خودداری کنید تا دیگران نیز بهره‌مند شوند.
-- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - لیستی از سرویس‌های شبکه‌ای و برنامه‌های وب متن‌باز که می‌توانید روی سرور خود میزبانی کنید
-- [Cat-China/CatBrowser](https://github.com/Cat-China/CatBrowser) - مرورگر Cat - کاملاً توسعه‌یافته بومی، شکستن انحصار خارجی (آمریکا) بر بازار مرورگرها، ۶۰۰٪ سریع‌تر از Chrome.
-- [monyhar/monyhar](https://github.com/monyhar/monyhar) - مرورگر MengHong - کاملاً توسعه‌یافته بومی، شکستن انحصار خارجی، ۶۰۰٪ سریع‌تر از Chrome.
-- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - 😎 لیست‌های عالی درباره انواع موضوعات جالب
-- [ruanyf/weekly](https://github.com/ruanyf/weekly) - هفته‌نامه علاقه‌مندان فناوری، انتشار هر جمعه
-- [github/gov-takedowns](https://github.com/github/gov-takedowns) - متن اعلان‌های حذف توسط دولت به همان صورت دریافت شده. GitHub هیچ ادعایی را تایید یا اتخاذ نمی‌کند.
+- [ivmm/Student-resources](https://github.com/ivmm/Student-resources) - این مقاله به معرفی مزایای تخفیفات دانشجویی، آموزشی یا معلمی برای دانشجویان و کارکنان آموزشی می‌پردازد، اما همچنین امیدوار است که کاربران در کنار استفاده از حقوق خود، وظایفشان را فراموش نکنند و حق استفاده را به دیگران نفروشند یا منتقل نکنند تا همه بتوانند بهره‌مند شوند.
+- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - فهرست نرم‌افزارهای شبکه‌ای و برنامه‌های وب متن‌بازی که می‌توانید روی سرور خودتان میزبانی کنید
+- [Cat-China/CatBrowser](https://github.com/Cat-China/CatBrowser) - مرورگر گربه - کاملاً توسعه‌یافته داخلی، شکستن انحصار بازار مرورگر توسط کشورهای خارجی (آمریکا)، ۶۰۰٪ سریع‌تر از Chrome.
+- [monyhar/monyhar](https://github.com/monyhar/monyhar) - مرورگر Menghong - کاملاً توسعه‌یافته داخلی، شکستن انحصار خارجی، ۶۰۰٪ سریع‌تر از Chrome.
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - 😎 فهرست‌های عالی درباره انواع موضوعات جالب
+- [ruanyf/weekly](https://github.com/ruanyf/weekly) - هفته‌نامه علاقه‌مندان فناوری، منتشرشده هر جمعه
+- [github/gov-takedowns](https://github.com/github/gov-takedowns) - متن اطلاعیه‌های حذف دولتی همانطور که دریافت شده‌اند. گیت‌هاب هیچ ادعایی را تأیید یا اتخاذ نمی‌کند.
 - [ShareX/CustomUploaders](https://github.com/ShareX/CustomUploaders) - آپلودرهای سفارشی ShareX
 - [glados-network/GLaDOS](https://github.com/glados-network/GLaDOS) - وضعیت GLaDOS
 ## PHP 
@@ -1839,342 +1842,343 @@
 - [gee1k/uPic](https://github.com/gee1k/uPic) - 📤uPic یک ابزار بومی، قدرتمند، زیبا و ساده برای بارگذاری عکس و فایل در macOS است.
 ## TeX 
 
-- [billryan/resume](https://github.com/billryan/resume) - یک قالب رزومه \LaTeX\ زیبا. آینه سرزمین اصلی چین https://gods.coding.net/p/resume/git
-- [LittleNewton/Replace_MathType](https://github.com/LittleNewton/Replace_MathType) - ارائه جایگزینی برای فرمول‌های ریاضی مبتنی بر Microsoft Office 365
+- [billryan/resume](https://github.com/billryan/resume) - یک قالب رزومه \LaTeX\ زیبا. آینه چین: https://gods.coding.net/p/resume/git
+- [LittleNewton/Replace_MathType](https://github.com/LittleNewton/Replace_MathType) - ارائه یک راه‌حل جایگزین برای فرمول‌های ریاضی مبتنی بر Microsoft Office 365
 - [lib-pku/libpku](https://github.com/lib-pku/libpku) - گردآوری غیررسمی منابع درسی دانشگاه شما
-- [liblaf/ilatex](https://github.com/liblaf/ilatex) - 📚 قالب‌ها و ابزارهای LaTeX برای ایجاد اسناد زیبا و ساختاریافته 📝
-- [Didnelpsun/Math](https://github.com/Didnelpsun/Math) - ریاضیات کنکور ارشد، ریاضی ۱، شامل ریاضیات عالی، جبر خطی، آمار و احتمال
-- [zhengkd95/thu_poster_template](https://github.com/zhengkd95/thu_poster_template) - یک قالب LaTeX برای پوسترهای علمی با لوگوی دانشگاه تسینگ‌هوا
-- [VicaYang/THU-Exam-LaTeX-Template](https://github.com/VicaYang/THU-Exam-LaTeX-Template) - قالب LaTex برای امتحانات دانشگاه تسینگ‌هوا
-- [alick/thulib-latex-talk](https://github.com/alick/thulib-latex-talk) - اسلایدهای «چگونه با LaTeX مقاله بنویسیم». به‌روزرسانی‌های بعدی: https://github.com/tuna/thulib-latex-talk
-- [tuna/thulib-latex-talk](https://github.com/tuna/thulib-latex-talk) - اسلایدهای «چگونه با LaTeX مقاله بنویسیم»
-- [zhaofeng-shu33/THU-coursework-template](https://github.com/zhaofeng-shu33/THU-coursework-template) - قالب تکالیف دانشگاه تسینگ‌هوا، کاربران هدف: ریاضی، فیزیک، مهندسی الکترونیک، مکانیک و علوم کامپیوتر
-- [zinccat/PKU-beamer-theme](https://github.com/zinccat/PKU-beamer-theme) - قالب beamer اصلاح‌شده از یک قالب تسینگ‌هوا
+- [liblaf/ilatex](https://github.com/liblaf/ilatex) - 📚 قالب‌ها و ابزارهای LaTeX برای ساخت اسناد زیبا و ساختاریافته 📝
+- [Didnelpsun/Math](https://github.com/Didnelpsun/Math) - ریاضیات کنکور کارشناسی ارشد، ریاضی ۱، شامل ریاضیات عالی، جبر خطی، آمار و احتمال
+- [zhengkd95/thu_poster_template](https://github.com/zhengkd95/thu_poster_template) - قالب LaTeX برای پوسترهای آکادمیک با لوگوی دانشگاه تسینگ‌هوا
+- [VicaYang/THU-Exam-LaTeX-Template](https://github.com/VicaYang/THU-Exam-LaTeX-Template) - قالب LaTeX برای امتحانات دانشگاه تسینگ‌هوا
+- [alick/thulib-latex-talk](https://github.com/alick/thulib-latex-talk) - اسلایدهای «چگونه با LaTeX مقاله صفحه‌آرایی کنیم». به‌روزرسانی‌های بعدی: https://github.com/tuna/thulib-latex-talk
+- [tuna/thulib-latex-talk](https://github.com/tuna/thulib-latex-talk) - اسلایدهای «چگونه با LaTeX مقاله صفحه‌آرایی کنیم»
+- [zhaofeng-shu33/THU-coursework-template](https://github.com/zhaofeng-shu33/THU-coursework-template) - قالب تکالیف دانشگاه تسینگ‌هوا، مناسب برای: ریاضیات، فیزیک، مهندسی الکترونیک، مکانیک و علوم کامپیوتر
+- [zinccat/PKU-beamer-theme](https://github.com/zinccat/PKU-beamer-theme) - تم beamer تغییر یافته از قالب تسینگ‌هوا
 - [ZenithalHourlyRate/learn-git-the-not-so-super-hard-way](https://github.com/ZenithalHourlyRate/learn-git-the-not-so-super-hard-way) - 
-- [K-Wu/CV-tsinghua-template](https://github.com/K-Wu/CV-tsinghua-template) - درود بر دانشگاه تسینگ‌هوا
-- [soulmachine/leetcode](https://github.com/soulmachine/leetcode) - راهنمای حل مسائل LeetCode، نسخه کامل ۱۵۱ سوال.
-- [tuna/thuthesis](https://github.com/tuna/thuthesis) - قالب پایان‌نامه LaTeX برای دانشگاه تسینگ‌هوا
+- [K-Wu/CV-tsinghua-template](https://github.com/K-Wu/CV-tsinghua-template) - درود بر دانشگاه عالی شما (تسینگ‌هوا)
+- [soulmachine/leetcode](https://github.com/soulmachine/leetcode) - راه‌حل‌های LeetCode، نسخه کامل با ۱۵۱ سوال.
+- [tuna/thuthesis](https://github.com/tuna/thuthesis) - قالب پایان‌نامه LaTeX دانشگاه تسینگ‌هوا
 
 ## TypeScript 
 
-- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) - یک عامل هوش مصنوعی متن‌باز که قدرت Gemini را مستقیماً به ترمینال شما می‌آورد.
+- [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat) - 🤯 Lobe Chat - یک چارچوب چت هوش مصنوعی منبع‌باز با طراحی مدرن. پشتیبانی از چند ارائه‌دهنده هوش مصنوعی (OpenAI / Claude 4 / Gemini / DeepSeek / Ollama / Qwen)، پایگاه دانش (آپلود فایل / RAG )، راه‌اندازی با یک کلیک
+- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) - یک عامل هوش مصنوعی منبع‌باز که قدرت Gemini را مستقیماً به ترمینال شما می‌آورد.
 - [JuanJLH/vscode-warp-terminal](https://github.com/JuanJLH/vscode-warp-terminal) - 
-- [lobehub/lobe-icons](https://github.com/lobehub/lobe-icons) - 🥨 مجموعه آیکون و لوگوی SVG مدل‌های معروف هوش مصنوعی / LLM
-- [nimbusdotstorage/Nimbus](https://github.com/nimbusdotstorage/Nimbus) - جایگزین متن‌باز برای Google Drive، One Drive، iCloud و غیره.
-- [BingyanStudio/github-analyzer](https://github.com/BingyanStudio/github-analyzer) - تحلیلی تیز از فعالیت‌های شما در GitHub
+- [lobehub/lobe-icons](https://github.com/lobehub/lobe-icons) - 🥨 Lobe Icons - مجموعه لوگو و آیکون SVG مدل‌های محبوب هوش مصنوعی/LLM.
+- [nimbusdotstorage/Nimbus](https://github.com/nimbusdotstorage/Nimbus) - جایگزین منبع‌باز برای Google Drive، One Drive، iCloud و غیره.
+- [BingyanStudio/github-analyzer](https://github.com/BingyanStudio/github-analyzer) - بررسی نقادانه اینکه شما در GitHub چه چیزهایی نوشته‌اید
 - [voideditor/void](https://github.com/voideditor/void) - 
-- [HiveNexus/A2A-Chat](https://github.com/HiveNexus/A2A-Chat) - یک ربات چت بر پایه پروتکل Agent 2 Agent، امکان واگذاری وظایف به Agentهای خارجی از طریق گفتگو و دریافت نتیجه.   یک برنامه چت مبتنی بر پروتکل Agent 2 Agent که می‌تواند از طریق گفتگو به Agentهای خارجی وظیفه بدهد و نتیجه را دریافت کند.
+- [HiveNexus/A2A-Chat](https://github.com/HiveNexus/A2A-Chat) - یک چت‌بات مبتنی بر پروتکل Agent 2 Agent که می‌تواند از طریق گفتگو به Agentهای خارجی وظیفه ارسال کند و نتایج را دریافت نماید.   یک اپلیکیشن گفتگو مبتنی بر پروتکل Agent 2 Agent که امکان ارسال وظایف به Agent خارجی و دریافت نتیجه را از طریق گفتگو فراهم می‌کند.
 - [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) - سرورهای پروتکل Model Context
-- [iszhouhua/social-media-copilot](https://github.com/iszhouhua/social-media-copilot) - نسخه متن‌باز دستیار شبکه‌های اجتماعی - افزونه مرورگر برای جمع‌آوری داده از پلتفرم‌هایی چون Xiaohongshu، Douyin، Kuaishou و غیره، قابل استفاده از طریق API و پشتیبانی از استقرار در Docker.
-- [Hugo-COLLIN/SaveMyPhind-conversation-exporter](https://github.com/Hugo-COLLIN/SaveMyPhind-conversation-exporter) - 🚀 Save my Chatbot: دانلود گفتگوها و صفحات Claude، Perplexity، Phind، ChatGPT و MaxAI-Google به فرمت markdown (غیررسمی). ⏩ اکنون در Chrome Web Store و Firefox Add-ons در دسترس است.
-- [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) - استفاده از Claude Code به عنوان زیرساخت برنامه‌نویسی، با امکان کنترل نحوه تعامل با مدل و بهره‌مندی از به‌روزرسانی‌های Anthropic.
-- [aigem/CFr2-webdav](https://github.com/aigem/CFr2-webdav) - پیاده‌سازی یک سرور سازگار با WebDAV با استفاده از Cloudflare Workers و R2
-- [TBXark/ChatGPT-Telegram-Workers](https://github.com/TBXark/ChatGPT-Telegram-Workers) - به‌راحتی ربات تلگرام ChatGPT خود را روی Cloudflare Workers (یا Vercel، Docker و...) مستقر کنید.
-- [kyswtn/vscode-vercel](https://github.com/kyswtn/vscode-vercel) - هنگام کدنویسی بر استقرارهای Vercel خود نظارت کنید
-- [Femoon/tts-azure-web](https://github.com/Femoon/tts-azure-web) - TTS Azure Web یک اپلیکیشن وب تبدیل متن به گفتار (TTS) مبتنی بر Azure است که می‌توانید آن را محلی یا ابری با کلید Azure خود تنها با یک کلیک مستقر کنید.
-- [daytonaio/daytona](https://github.com/daytonaio/daytona) - Daytona زیرساخت امن و الاستیک برای اجرای کد تولیدی هوش مصنوعی
+- [iszhouhua/social-media-copilot](https://github.com/iszhouhua/social-media-copilot) - نسخه متن‌باز دستیار شبکه‌های اجتماعی - افزونه مرورگر برای جمع‌آوری داده از پلتفرم‌هایی مانند شیائوهونگشو، Douyin، Kuaishou و غیره، قابل فراخوانی از طریق API، پشتیبانی از استقرار Docker.
+- [Hugo-COLLIN/SaveMyPhind-conversation-exporter](https://github.com/Hugo-COLLIN/SaveMyPhind-conversation-exporter) - 🚀 Save my Chatbot: دانلود گفتگوهای Claude، Perplexity، Phind، ChatGPT و MaxAI-Google و صفحات به فایل‌های markdown (غیررسمی). ⏩ اکنون در Chrome Web Store و افزونه‌های Firefox موجود است.
+- [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) - استفاده از Claude Code به عنوان زیرساخت برنامه‌نویسی، با قابلیت تعیین نحوه تعامل با مدل و دریافت به‌روزرسانی‌های Anthropic.
+- [aigem/CFr2-webdav](https://github.com/aigem/CFr2-webdav) - پیاده‌سازی سرور سازگار با WebDAV با استفاده از Cloudflare Workers و R2
+- [TBXark/ChatGPT-Telegram-Workers](https://github.com/TBXark/ChatGPT-Telegram-Workers) - به‌سادگی ربات ChatGPT تلگرام خود را در Cloudflare Workers (یا Vercel، Docker و ...) مستقر کنید.
+- [kyswtn/vscode-vercel](https://github.com/kyswtn/vscode-vercel) - هنگام کدنویسی، بر استقرارهای Vercel خود نظارت کنید
+- [Femoon/tts-azure-web](https://github.com/Femoon/tts-azure-web) - TTS Azure Web یک برنامه وب تبدیل متن به گفتار Azure است که می‌توانید با کلید Azure خود به راحتی در لوکال یا فضای ابری مستقر کنید. TTS Azure Web یک برنامه وب متن به گفتار Azure است. شما می‌توانید آن را به صورت محلی اجرا کنید یا تنها با یک کلیک با Azure Key خود مستقر کنید.
+- [daytonaio/daytona](https://github.com/daytonaio/daytona) - Daytona یک زیرساخت امن و الاستیک برای اجرای کد تولیدشده توسط هوش مصنوعی است
 - [bepass-org/oblivion-desktop](https://github.com/bepass-org/oblivion-desktop) - Oblivion Desktop - کلاینت غیررسمی Warp برای ویندوز/مک/لینوکس
-- [besscroft/PicImpact](https://github.com/besscroft/PicImpact) - وب‌سایت خود-میزبانی عکاسی با پشتیبانی از ویژگی‌های متعدد. PicImpact، عکس‌های خود و جهان را به اشتراک بگذارید!
-- [lyc8503/UptimeFlare](https://github.com/lyc8503/UptimeFlare) - ✔ مانیتورینگ رایگان و سرورلس در Cloudflare Workers با بررسی‌های مکانی
+- [besscroft/PicImpact](https://github.com/besscroft/PicImpact) - وب‌سایت عکاسی سلف‌میزبان با پشتیبانی از ویژگی‌های متعدد. PicImpact، عکس‌های خود را با دنیا به اشتراک بگذارید!
+- [lyc8503/UptimeFlare](https://github.com/lyc8503/UptimeFlare) - ✔ مانیتورینگ رایگان و بدون سرور uptime / صفحه وضعیت در Cloudflare Workers، با بررسی‌های جغرافیایی خاص
 - [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - جایگزین متن‌باز برای Vercel، Netlify و Heroku.
-- [maotoumao/MusicFree](https://github.com/maotoumao/MusicFree) - پلیر موسیقی رایگان، بدون تبلیغ، قابل شخصی‌سازی و افزونه‌پذیر
-- [maotoumao/MusicFreeDesktop](https://github.com/maotoumao/MusicFreeDesktop) - پلیر موسیقی رایگان، بدون تبلیغ، قابل شخصی‌سازی و افزونه‌پذیر
-- [misskey-dev/misskey](https://github.com/misskey-dev/misskey) - 🌎 یک پلتفرم میکروبلاگینگ بین‌سیاره‌ای کاملاً رایگان و متن‌باز 🚀
-- [yllhwa/FileWorker](https://github.com/yllhwa/FileWorker) - کلیپ‌بورد/اشتراک فایل آنلاین مبتنی بر توابع لبه‌ای
-- [web-infra-dev/rspress](https://github.com/web-infra-dev/rspress) - 🦀 تولیدکننده سریع سایت ایستا مبتنی بر Rsbuild.
-- [beilunyang/img-mom](https://github.com/beilunyang/img-mom) - ربات تلگرام (img-mon | مادر عکس)
+- [maotoumao/MusicFree](https://github.com/maotoumao/MusicFree) - پخش‌کننده موسیقی رایگان، پلاگین‌پذیر، قابل سفارشی‌سازی و بدون تبلیغات
+- [maotoumao/MusicFreeDesktop](https://github.com/maotoumao/MusicFreeDesktop) - پخش‌کننده موسیقی رایگان، پلاگین‌پذیر، قابل سفارشی‌سازی و بدون تبلیغات
+- [misskey-dev/misskey](https://github.com/misskey-dev/misskey) - 🌎 یک پلتفرم میکروبلاگینگ کاملاً رایگان و بین‌سیاره‌ای 🚀
+- [yllhwa/FileWorker](https://github.com/yllhwa/FileWorker) - کلیپ‌بورد/اشتراک‌گذاری فایل آنلاین مبتنی بر Edge Function
+- [web-infra-dev/rspress](https://github.com/web-infra-dev/rspress) - 🦀 یک مولد سریع سایت استاتیک مبتنی بر Rsbuild.
+- [beilunyang/img-mom](https://github.com/beilunyang/img-mom) - ربات تلگرام (img-mon | عکس‌مادر)
 - [liaoliao666/v2ex](https://github.com/liaoliao666/v2ex) - کلاینت شخص ثالث زیبا برای V2EX، اپلیکیشن بومی با پشتیبانی از حالت شب.
-- [chaselen/v2ex-playground](https://github.com/chaselen/v2ex-playground) - افزونه VSC برای مرور سایت V2EX
-- [hyoban/kirika](https://github.com/hyoban/kirika) - ابزاری ساده برای تبدیل یادداشت‌ها بین پلتفرم‌های مختلف
-- [edrlab/thorium-reader](https://github.com/edrlab/thorium-reader) - اپلیکیشن چندسکویی برای مطالعه دسکتاپ، مبتنی بر کیت Readium Desktop
-- [Kuingsmile/PicList](https://github.com/Kuingsmile/PicList) - ابزار آپلود و مدیریت تصویر مبتنی بر PicGo
-- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) - کلاینت GUI مدرن مبتنی بر Tauri، طراحی‌شده برای ویندوز، macOS و لینوکس جهت تجربه پراکسی سفارشی
-- [githubnext/monaspace](https://github.com/githubnext/monaspace) - یک خانواده فونت نوآورانه برای کدنویسی
-- [dicarne/feishu-backup](https://github.com/dicarne/feishu-backup) - برای پشتیبان‌گیری اسناد Feishu، تبدیل به markdown و دانلود.
-- [LetTTGACO/elog](https://github.com/LetTTGACO/elog) - ابزار صادرات دسته‌ای Markdown، راه‌حل وبلاگ متن‌باز و منعطف، ترکیب دلخواه پلتفرم‌های نگارش (Yuque/Notion/FlowUs/Feishu/Wolai) و پلتفرم‌های وبلاگ (Hexo/Vitepress/Halo/Confluence/WordPress و غیره)
+- [chaselen/v2ex-playground](https://github.com/chaselen/v2ex-playground) - افزونه‌ای برای مرور سایت V2EX در VSCode
+- [hyoban/kirika](https://github.com/hyoban/kirika) - ابزار ساده‌ای برای تبدیل یادداشت‌ها بین پلتفرم‌های مختلف
+- [edrlab/thorium-reader](https://github.com/edrlab/thorium-reader) - برنامه دسکتاپ چندسکویی برای مطالعه، مبتنی بر کیت Readium Desktop
+- [Kuingsmile/PicList](https://github.com/Kuingsmile/PicList) - ابزار مدیریت و آپلود تصویر، مبتنی بر PicGo
+- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) - کلاینت GUI مدرن مبتنی بر Tauri، طراحی‌شده برای تجربه پراکسی شخصی‌سازی‌شده در ویندوز، مک و لینوکس
+- [githubnext/monaspace](https://github.com/githubnext/monaspace) - خانواده فونت نوآورانه برای برنامه‌نویسی
+- [dicarne/feishu-backup](https://github.com/dicarne/feishu-backup) - برای پشتیبان‌گیری از اسناد Feishu، امکان تبدیل اسناد Feishu به Markdown و دانلود آن‌ها.
+- [LetTTGACO/elog](https://github.com/LetTTGACO/elog) - ابزار خروجی دسته‌ای Markdown، راهکار وبلاگ متن‌باز و چندسکویی، ترکیب دلخواه پلتفرم‌های نویسندگی (Yuque/Notion/FlowUs/Feishu/Wolai) و پلتفرم‌های وبلاگ (Hexo/Vitepress/Halo/Confluence/WordPress و ...)
 - [memgraph/odin](https://github.com/memgraph/odin) - 
-- [Harry-Chen/thu-learn-lib](https://github.com/Harry-Chen/thu-learn-lib) - کتابخانه جاوااسکریپت برای ارائه رابط کاربرپسند با سیستم آموزش وب دانشگاه تسینگ‌هوا
-- [qxchuckle/vsc-cec-ide](https://github.com/qxchuckle/vsc-cec-ide) - یک افزونه VSC تقریباً بی‌استفاده
-- [chatchat-space/Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat) - Langchain-Chatchat (قبلاً Langchain-ChatGLM) بر پایه Langchain و مدل‌های زبانی ChatGLM، Qwen، Llama و غیره؛ کاربردهای RAG و Agent | Langchain-Chatchat (قبلاً langchain-ChatGLM)، مدل LLM مبتنی بر دانش محلی (مانند ChatGLM، Qwen و Llama و ...)
-- [CopyTranslator/CopyTranslator](https://github.com/CopyTranslator/CopyTranslator) - 🔠دستیار ترجمه و خواندن زبان‌های خارجی مبتنی بر کپی و ترجمه.
-- [longern/FlareDrive](https://github.com/longern/FlareDrive) - سرویس میزبانی فایل رایگان (WebUI & WebDAV) با استفاده از CloudFlare R2
-- [ChatAnyTeam/ChatAny](https://github.com/ChatAnyTeam/ChatAny) - 🌻 یک کلیک برای داشتن سرویس ChatGPT+ و بسیاری از خدمات هوش مصنوعی وب | یک کلیک دسترسی به وب‌سرویس ChatGPT+ و سایر خدمات هوش مصنوعی
-- [MuiseDestiny/zotero-gpt](https://github.com/MuiseDestiny/zotero-gpt) - ملاقات GPT با Zotero.
+- [Harry-Chen/thu-learn-lib](https://github.com/Harry-Chen/thu-learn-lib) - کتابخانه جاوااسکریپت برای ارائه رابط برنامه‌نویسی دوستانه به سیستم یادگیری وب دانشگاه تسینگ‌هوا
+- [qxchuckle/vsc-cec-ide](https://github.com/qxchuckle/vsc-cec-ide) - یک افزونه VSC که کاربرد خاصی ندارد
+- [chatchat-space/Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat) - Langchain-Chatchat (قبلاً Langchain-ChatGLM) مبتنی بر Langchain و مدل‌های زبانی ChatGLM, Qwen, Llama و ...، RAG و Agent | Langchain-Chatchat (قبلاً langchain-ChatGLM)، LLM مبتنی بر دانش محلی (مانند ChatGLM, Qwen و ...)
+- [CopyTranslator/CopyTranslator](https://github.com/CopyTranslator/CopyTranslator) - 🔠دستیار مطالعه و ترجمه زبان خارجی مبتنی بر کپی و ترجمه.
+- [longern/FlareDrive](https://github.com/longern/FlareDrive) - سرویس میزبانی فایل رایگان (WebUI و WebDAV) با استفاده از CloudFlare R2
+- [ChatAnyTeam/ChatAny](https://github.com/ChatAnyTeam/ChatAny) - 🌻 تنها با یک کلیک، سرویس وب ChatGPT+AI خود را داشته باشید | دسترسی فوری به سرویس‌های ChatGPT+هوش مصنوعی
+- [MuiseDestiny/zotero-gpt](https://github.com/MuiseDestiny/zotero-gpt) - GPT با Zotero ملاقات می‌کند.
 - [langgenius/webapp-conversation](https://github.com/langgenius/webapp-conversation) - 
-- [langgenius/dify](https://github.com/langgenius/dify) - بستر آماده تولید برای توسعه گردش‌کار عامل‌محور.
-- [ObservedObserver/viz-gpt](https://github.com/ObservedObserver/viz-gpt) - مصورسازی داده زمینه‌ای با رابط چت از داده‌های جدولی. مصورسازی داده با هوش مصنوعی.
-- [tldraw/tldraw](https://github.com/tldraw/tldraw) - کیت توسعه whiteboard عالی / کیت توسعه بوم بی‌نهایت
-- [okisdev/ChatChat](https://github.com/okisdev/ChatChat) - Chat Chat، پلتفرم جستجو و چت یکپارچه با هوش مصنوعی شما، با رابط کاربری ساده و آسان.
-- [79E/ChatGpt-Web](https://github.com/79E/ChatGpt-Web) - اپلیکیشن وب ChatGpt تجاری‌پذیر ساخته‌شده با React. یک اپلیکیشن وب ChatGpt قابل تجاری‌سازی با استفاده از React.
-- [erictik/midjourney-ui](https://github.com/erictik/midjourney-ui) - رابط کاربری متن‌باز نقاشی هوش مصنوعی مبتنی بر Midjourney
+- [langgenius/dify](https://github.com/langgenius/dify) - پلتفرم آماده برای توسعه جریان کاری عامل‌محور.
+- [ObservedObserver/viz-gpt](https://github.com/ObservedObserver/viz-gpt) - مصورسازی داده‌های متنی با رابط چت از داده‌های جدولی. مصورسازی داده‌های هوش مصنوعی.
+- [tldraw/tldraw](https://github.com/tldraw/tldraw) - SDK تخته سفید بسیار خوب / SDK بوم بی‌نهایت
+- [okisdev/ChatChat](https://github.com/okisdev/ChatChat) - Chat Chat، پلتفرم چت و جستجوی یکپارچه شما برای هوش مصنوعی با رابط کاربری ساده و آسان.
+- [79E/ChatGpt-Web](https://github.com/79E/ChatGpt-Web) - برنامه وب ChatGpt قابل تجاری‌سازی ساخته‌شده با React. وب‌اپ ChatGpt ساخته شده با React و مناسب برای استفاده تجاری.
+- [erictik/midjourney-ui](https://github.com/erictik/midjourney-ui) - رابط کاربری منبع‌باز نقاشی هوش مصنوعی مبتنی بر Midjourney
 - [Nutlope/restorePhotos](https://github.com/Nutlope/restorePhotos) - بازگردانی عکس‌های قدیمی و تار چهره با هوش مصنوعی.
-- [Nutlope/aicommits](https://github.com/Nutlope/aicommits) - CLI که پیام‌های commit گیت شما را با هوش مصنوعی می‌نویسد
-- [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT) - 🤖 مونتاژ، پیکربندی و استقرار عامل‌های هوش مصنوعی مستقل در مرورگر خود.
-- [RafalWilinski/telegram-chatgpt-concierge-bot](https://github.com/RafalWilinski/telegram-chatgpt-concierge-bot) - تعامل با ChatGPT شرکت OpenAI از طریق تلگرام و صدا.
+- [Nutlope/aicommits](https://github.com/Nutlope/aicommits) - یک CLI که پیام‌های commit گیت شما را با هوش مصنوعی می‌نویسد
+- [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT) - 🤖 تجمیع، پیکربندی و استقرار عوامل هوش مصنوعی مستقل در مرورگر شما.
+- [RafalWilinski/telegram-chatgpt-concierge-bot](https://github.com/RafalWilinski/telegram-chatgpt-concierge-bot) - تعامل با ChatGPT از طریق تلگرام و صدا.
 - [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) - ساخت عامل‌های هوش مصنوعی به صورت بصری
-- [LokerL/tts-vue](https://github.com/LokerL/tts-vue) - 🎤 ابزار تبدیل متن به گفتار مایکروسافت، ساخته شده با Electron + Vue + ElementPlus + Vite.
-- [nat/openplayground](https://github.com/nat/openplayground) - محیط آزمایش LLM که می‌توانید روی لپ‌تاپ خود اجرا کنید
-- [labring/sealos](https://github.com/labring/sealos) - Sealos یک توزیع Kubernetes آماده تولید است که استقرار را ساده و کارآمد می‌کند. بلافاصله محیط توسعه را برای هر زبان برنامه‌نویسی یا چهارچوبی راه‌اندازی کنید، استقرار با دسترس‌پذیری بالا و ...
-- [coolpace/V2EX_Polish](https://github.com/coolpace/V2EX_Polish) - افزونه مرورگر حرفه‌ای V2EX با قابلیت‌های متعدد و بهبود تجربه مرور
+- [LokerL/tts-vue](https://github.com/LokerL/tts-vue) - 🎤 ابزار تبدیل متن به گفتار مایکروسافت، ساخته‌شده با Electron + Vue + ElementPlus + Vite.
+- [nat/openplayground](https://github.com/nat/openplayground) - زمین‌بازی LLM که می‌توانید روی لپ‌تاپ خود اجرا کنید
+- [labring/sealos](https://github.com/labring/sealos) - Sealos یک پلتفرم ابر هوشمند بومی هوش مصنوعی و سیستم‌عامل ابری مبتنی بر اپلیکیشن است. راه‌اندازی محیط توسعه برای هر زبان یا فریم‌ورک برنامه‌نویسی، استقرار آسان
+- [coolpace/V2EX_Polish](https://github.com/coolpace/V2EX_Polish) - افزونه مرورگر حرفه‌ای V2EX با امکانات متعدد و تجربه کاربری جدید!
 - [ztjhz/BetterChatGPT](https://github.com/ztjhz/BetterChatGPT) - رابط کاربری شگفت‌انگیز برای ChatGPT (وب‌سایت + ویندوز + مک + لینوکس)
-- [3Alan/DocsMind](https://github.com/3Alan/DocsMind) - 🤖 DocsMind به شما اجازه می‌دهد با اسناد خود گفتگو و خلاصه‌سازی کنید، پشتیبانی از pdf, md.
-- [riwigefi/light-gpt](https://github.com/riwigefi/light-gpt) - پروژه وبسایت تعاملی بر پایه مدل GPT-3.5-Turbo
+- [3Alan/DocsMind](https://github.com/3Alan/DocsMind) - 🤖 DocsMind به شما اجازه می‌دهد با اسناد خود گفتگو و خلاصه‌سازی کنید، پشتیبانی از pdf، md.
+- [riwigefi/light-gpt](https://github.com/riwigefi/light-gpt) - Light-GPT یک پروژه وب‌سایت تعاملی مبتنی بر مدل GPT-3.5-Turbo است.
 - [nextauthjs/next-auth](https://github.com/nextauthjs/next-auth) - احراز هویت برای وب.
-- [zengsanxiang/brain-reply](https://github.com/zengsanxiang/brain-reply) - کلاینت ChatGPT با رابط کاربری زیباتر
-- [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) - ✨ دستیار هوش مصنوعی سبک و سریع. پشتیبانی: وب | iOS | مک | اندروید | لینوکس | ویندوز
-- [hahahumble/speechgpt](https://github.com/hahahumble/speechgpt) - 💬 SpeechGPT یک اپلیکیشن وب برای گفتگو با ChatGPT است.
-- [rerender2021/heard](https://github.com/rerender2021/heard) - تولیدکننده ساده زیرنویس با قدرت whisper و avernakis-react.
+- [zengsanxiang/brain-reply](https://github.com/zengsanxiang/brain-reply) - کلاینت ChatGPT با طراحی زیباتر
+- [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) - ✨ دستیار هوش مصنوعی سبک و سریع. پشتیبانی: وب | iOS | MacOS | اندروید | لینوکس | ویندوز
+- [hahahumble/speechgpt](https://github.com/hahahumble/speechgpt) - 💬 SpeechGPT برنامه‌ای وب برای گفتگوی صوتی با ChatGPT.
+- [rerender2021/heard](https://github.com/rerender2021/heard) - تولیدکننده ساده زیرنویس با قدرت whisper و avernakis react.
 - [mckaywrigley/chatbot-ui](https://github.com/mckaywrigley/chatbot-ui) - چت هوش مصنوعی برای هر مدل.
-- [GPTGenius/chatgpt-vercel](https://github.com/GPTGenius/chatgpt-vercel) - ایجاد سایت خصوصی ChatGPT از طریق Vercel
-- [hyoban/burogu](https://github.com/hyoban/burogu) - قالب وبلاگ مینیمال بر پایه Next.js 13
-- [futantan/OpenGpt](https://github.com/futantan/OpenGpt) - اپلیکیشن ChatGPT خود را در چند ثانیه بسازید.
-- [botpress/botpress](https://github.com/botpress/botpress) - هاب متن‌باز برای ساخت و استقرار Agentهای GPT/LLM ⚡️
-- [noobnooc/ohmygpt](https://github.com/noobnooc/ohmygpt) - اپلیکیشن وب ChatGPT خود را در چند دقیقه مستقر کنید.
-- [aircloud/sync-to-github](https://github.com/aircloud/sync-to-github) - همگام‌سازی محتوای وب شما با مخزن گیت‌هاب، مثلاً یک گفتگو با ChatGPT.
-- [fraserxu/book-gpt](https://github.com/fraserxu/book-gpt) - یک کتاب بیندازید و شروع به پرسیدن سؤال کنید.
-- [ObservedObserver/chatgpt-i18n](https://github.com/ObservedObserver/chatgpt-i18n) - بومی‌سازی سایت خود با کمک هوش مصنوعی.
-- [ourongxing/chatgpt-vercel](https://github.com/ourongxing/chatgpt-vercel) - زیبا و قدرتمند. با پشتیبانی OpenAI و Vercel.
-- [lcomplete/huntly](https://github.com/lcomplete/huntly) - Huntly، ابزار مدیریت اطلاعات، خواننده RSS، ابزار مدیریت ستاره‌های گیت‌هاب، مدیریت توییت و ذخیره خودکار محتوای مرورشده. ابزار مدیریت اطلاعات، خواننده RSS، مدیریت ستاره‌های گیت‌هاب، مدیریت توییت و ثبت خودکار مطالب مشاهده‌شده.
-- [openai-translator/openai-translator](https://github.com/openai-translator/openai-translator) - افزونه مرورگر و اپلیکیشن دسکتاپ چندسکویی برای ترجمه مبتنی بر ChatGPT API.
-- [sparticleinc/chatgpt-google-summary-extension](https://github.com/sparticleinc/chatgpt-google-summary-extension) - افزونه Chrome برای مشاهده خلاصه‌های ChatGPT کنار نتایج جستجوی گوگل و ویدئوهای یوتیوب، همچنین پشتیبانی از Yahoo! ニュース، PubMed، PMC، NewsPicks، Github، Nikkei، Bing، Google Patents و هر صفحه‌ای.
-- [anse-app/chatgpt-demo](https://github.com/anse-app/chatgpt-demo) - رابط کاربری مینیمال برای ChatGPT.
-- [microsoft/vscode-webview-ui-toolkit](https://github.com/microsoft/vscode-webview-ui-toolkit) - کتابخانه کامپوننت برای ساخت افزونه‌های مبتنی بر webview در Visual Studio Code.
+- [GPTGenius/chatgpt-vercel](https://github.com/GPTGenius/chatgpt-vercel) - ساخت وب‌سایت خصوصی chatgpt با استفاده از vercel
+- [hyoban/burogu](https://github.com/hyoban/burogu) - قالب وبلاگ مینیمال مبتنی بر Next.js 13
+- [futantan/OpenGpt](https://github.com/futantan/OpenGpt) - در چند ثانیه اپ ChatGPT خود را بسازید.
+- [botpress/botpress](https://github.com/botpress/botpress) - مرکز منبع‌باز برای ساخت و استقرار Agentهای GPT/LLM ⚡️
+- [noobnooc/ohmygpt](https://github.com/noobnooc/ohmygpt) - در چند دقیقه برنامه وب مبتنی بر ChatGPT خود را مستقر کنید.
+- [aircloud/sync-to-github](https://github.com/aircloud/sync-to-github) - همگام‌سازی محتوای وب شما به مخزن github، مثلاً مکالمه با ChatGPT.
+- [fraserxu/book-gpt](https://github.com/fraserxu/book-gpt) - یک کتاب بیندازید، شروع به پرسیدن سوال کنید.
+- [ObservedObserver/chatgpt-i18n](https://github.com/ObservedObserver/chatgpt-i18n) - بومی‌سازی وب‌سایت‌های شما با کمک هوش مصنوعی.
+- [ourongxing/chatgpt-vercel](https://github.com/ourongxing/chatgpt-vercel) - زیبا و قدرتمند. قدرت‌گرفته از OpenAI و Vercel.
+- [lcomplete/huntly](https://github.com/lcomplete/huntly) - Huntly، ابزار مدیریت اطلاعات، RSS Reader، مدیریت ستاره‌های GitHub، مدیریت توییت‌ها، ثبت خودکار مقالات مرورشده.
+- [openai-translator/openai-translator](https://github.com/openai-translator/openai-translator) - افزونه مرورگر و برنامه دسکتاپ چندسکویی برای ترجمه مبتنی بر ChatGPT API.
+- [sparticleinc/chatgpt-google-summary-extension](https://github.com/sparticleinc/chatgpt-google-summary-extension) - افزونه کروم برای نمایش خلاصه ChatGPT کنار نتایج جستجوی Google و ویدیوهای YouTube، همچنین پشتیبانی از Yahoo! ニュース، PubMed، PMC، NewsPicks، Github، Nikkei، Bing، Google Patents و خلاصه هر صفحه.
+- [anse-app/chatgpt-demo](https://github.com/anse-app/chatgpt-demo) - رابط کاربری وب مینیمال برای ChatGPT.
+- [microsoft/vscode-webview-ui-toolkit](https://github.com/microsoft/vscode-webview-ui-toolkit) - کتابخانه اجزای UI برای ساخت افزونه‌های مبتنی بر webview در Visual Studio Code.
 - [ycjcl868/readme-gpt](https://github.com/ycjcl868/readme-gpt) - تولید Readme گیت‌هاب شما با OpenAI و Vercel Edge Functions.
 - [cloudflare/wildebeest](https://github.com/cloudflare/wildebeest) - Wildebeest یک سرور سازگار با ActivityPub و Mastodon است
-- [transitive-bullshit/bing-chat](https://github.com/transitive-bullshit/bing-chat) - کلاینت Node.js برای جستجوی جدید مبتنی بر هوش مصنوعی Bing. شبیه ChatGPT اما قدرتمندتر 🔥
+- [transitive-bullshit/bing-chat](https://github.com/transitive-bullshit/bing-chat) - کلاینت Node.js برای جستجوی جدید Bing با هوش مصنوعی. مثل ChatGPT اما قوی‌تر 🔥
 - [Musish/Musish](https://github.com/Musish/Musish) - Apple Music...ish
-- [MNThomson/containerflare](https://github.com/MNThomson/containerflare) - 🔥 مخزن ایمیج کانتینر لبه Cloudflare (Workers + R2)
-- [cmj2002/CF-R2-ImageBed](https://github.com/cmj2002/CF-R2-ImageBed) - میزبانی تصویر مبتنی بر Cloudflare R2. پشتیبانی از PicGo.
+- [MNThomson/containerflare](https://github.com/MNThomson/containerflare) - 🔥 مخزن ایمیج کانتینر Edge Cloudflare (Workers + R2)
+- [cmj2002/CF-R2-ImageBed](https://github.com/cmj2002/CF-R2-ImageBed) - میزبان تصویر مبتنی بر Cloudflare R2. پشتیبانی از PicGo.
 - [google/brotli](https://github.com/google/brotli) - قالب فشرده‌سازی Brotli
-- [robertying/learnX-companion](https://github.com/robertying/learnX-companion) - دستیار اپ شبکه آموزش آنلاین تسینگ‌هوا برای پشتیبانی اعلان‌های شخصی‌شده برای learnX
-- [dvanoni/notero](https://github.com/dvanoni/notero) - افزونه Zotero برای همگام‌سازی آیتم‌ها و یادداشت‌ها با Notion
-- [windingwind/zotero-better-notes](https://github.com/windingwind/zotero-better-notes) - همه‌چیز درباره مدیریت یادداشت‌ها. همه در Zotero.
-- [honojs/hono](https://github.com/honojs/hono) - چهارچوب وب مبتنی بر استانداردهای وب
-- [G4brym/R2-Explorer](https://github.com/G4brym/R2-Explorer) - رابط Google Drive برای سطل‌های Cloudflare R2 شما!
-- [SunYufei/workers-dav](https://github.com/SunYufei/workers-dav) - ارائه خدمات WebDAV برای Google Drive با استفاده از Cloudflare Workers / پشتیبانی WebDAV برای Google Drive با استفاده از Cloudflare Workers
-- [realByg/office-user-auto-create](https://github.com/realByg/office-user-auto-create) - ایجاد حساب office به صورت خودکار با cloudflare worker
+- [robertying/learnX-companion](https://github.com/robertying/learnX-companion) - دستیار اپلیکیشن سیستم آموزشی آنلاین تسینگ‌هوا، پشتیبانی از اعلان‌های شخصی برای learnX.
+- [dvanoni/notero](https://github.com/dvanoni/notero) - افزونه Zotero برای همگام‌سازی موارد و یادداشت‌ها با Notion
+- [windingwind/zotero-better-notes](https://github.com/windingwind/zotero-better-notes) - هر چیزی درباره مدیریت یادداشت‌ها. همه چیز در Zotero.
+- [honojs/hono](https://github.com/honojs/hono) - فریم‌ورک وب مبتنی بر استانداردهای وب
+- [G4brym/R2-Explorer](https://github.com/G4brym/R2-Explorer) - رابط Google Drive برای باکت‌های Cloudflare R2 شما!
+- [SunYufei/workers-dav](https://github.com/SunYufei/workers-dav) - ارائه سرویس WebDAV برای Google Drive با استفاده از Cloudflare Workers / پشتیبانی WebDAV برای Google Drive با Cloudflare Workers
+- [realByg/office-user-auto-create](https://github.com/realByg/office-user-auto-create) - ایجاد خودکار حساب office با cloudflare worker
 - [ghedamat/obsidian-save-as-gist](https://github.com/ghedamat/obsidian-save-as-gist) - 
-- [kamranahmedse/aws-cost-cli](https://github.com/kamranahmedse/aws-cost-cli) - ابزار خط فرمان برای تحلیل هزینه اکانت AWS با یکپارچه‌سازی Slack
-- [remotely-save/remotely-save](https://github.com/remotely-save/remotely-save) - همگام‌سازی یادداشت‌ها بین محلی و ابر با مدیریت هوشمند تضاد: S3 (Amazon S3/Cloudflare R2/Backblaze B2/...)، Dropbox، webdav (NextCloud/InfiniCLOUD/Synology/...)، OneDrive، Google Drive (GDrive)، Box، pClou
-- [Future-Scholars/paperlib](https://github.com/Future-Scholars/paperlib) - ابزار مدیریت مقالات علمی متن‌باز.
+- [kamranahmedse/aws-cost-cli](https://github.com/kamranahmedse/aws-cost-cli) - ابزار CLI برای تحلیل هزینه حساب AWS شما با ادغام Slack
+- [remotely-save/remotely-save](https://github.com/remotely-save/remotely-save) - همگام‌سازی یادداشت‌ها بین لوکال و فضای ابری با حل هوشمند تضاد: S3 (Amazon S3/Cloudflare R2/Backblaze B2/...)، Dropbox، webdav (NextCloud/InfiniCLOUD/Synology/...)، OneDrive، Google Drive (GDrive)، Box، pCloud
+- [Future-Scholars/paperlib](https://github.com/Future-Scholars/paperlib) - یک ابزار مدیریت مقالات علمی متن‌باز.
 - [forecho/cherries](https://github.com/forecho/cherries) - 
-- [thu-info-community/thu-info-lib](https://github.com/thu-info-community/thu-info-lib) - کتابخانه جاوااسکریپت که یک رابط برنامه‌نویسی‌پسند برای پورتال وب دانشگاه Tsinghua فراهم می‌کند
-- [Harry-Chen/Learn-Helper](https://github.com/Harry-Chen/Learn-Helper) - دستیار سامانه آموزش آنلاین دانشگاه Tsinghua
-- [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) - Invoke یک موتور خلاق پیشرو برای مدل‌های Stable Diffusion است که به حرفه‌ای‌ها، هنرمندان و علاقه‌مندان امکان تولید و خلق رسانه‌های بصری با استفاده از جدیدترین فناوری‌های مبتنی بر هوش مصنوعی را می‌دهد. این راهکار
-- [baotlake/periodic-table-pro](https://github.com/baotlake/periodic-table-pro) - جدول تناوبی عناصر Pro، اپلیکیشن شیک و ضروری شیمی، ارائه‌دهنده اطلاعات کامل عناصر، تصاویر و دانشنامه
-- [dtysky/Awaken](https://github.com/dtysky/Awaken) - یک کتابخوان EPUB مبتنی بر WebDAV برای تمام پلتفرم‌ها، پشتیبانی از یادداشت، پیشرفت، همگام‌سازی نشانه‌گذاری، و وارد کردن یادداشت‌های Kindle.
-- [illacloud/illa-builder](https://github.com/illacloud/illa-builder) - پلتفرم کم‌کد برای ساخت اپلیکیشن‌های تجاری، امکان ایجاد سریع ابزارهای داخلی مانند داشبورد، اپ CRUD، پنل ادمین، CRM، CMS و غیره. پشتیبانی از PostgreSQL، MySQL، Supabase، GraphQL
+- [thu-info-community/thu-info-lib](https://github.com/thu-info-community/thu-info-lib) - کتابخانه جاوااسکریپت که رابط کاربرپسند برنامه‌نویسی به پورتال وب دانشگاه تسینگ‌هوا ارائه می‌دهد
+- [Harry-Chen/Learn-Helper](https://github.com/Harry-Chen/Learn-Helper) - دستیار سامانه آموزش آنلاین دانشگاه تسینگ‌هوا
+- [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) - Invoke یک موتور خلاقانه پیشرو برای مدل‌های Stable Diffusion است که به حرفه‌ای‌ها، هنرمندان و علاقه‌مندان این امکان را می‌دهد تا با استفاده از جدیدترین فناوری‌های مبتنی بر هوش مصنوعی، رسانه‌های تصویری تولید و خلق کنند.
+- [baotlake/periodic-table-pro](https://github.com/baotlake/periodic-table-pro) - جدول تناوبی عناصر Pro، برنامه شیک و ضروری شیمی، ارائه اطلاعات کامل عناصر، تصاویر و دانش دایره‌المعارفی و غیره
+- [dtysky/Awaken](https://github.com/dtysky/Awaken) - یک کتابخوان EPUB مبتنی بر WebDAV برای تمام پلتفرم‌ها، پشتیبانی از یادداشت، پیشرفت، همگام‌سازی بوکمارک و وارد کردن یادداشت‌های Kindle.
+- [illacloud/illa-builder](https://github.com/illacloud/illa-builder) - پلتفرم کم‌کد که امکان ساخت برنامه‌های تجاری را به شما می‌دهد، ساخت سریع ابزارهای داخلی مانند داشبورد، برنامه crud، پنل مدیریت، crm، cms و غیره. پشتیبانی از PostgreSQL، MySQL، Supabase، GraphQL
 - [resend/react-email](https://github.com/resend/react-email) - 💌 ساخت و ارسال ایمیل با استفاده از React
-- [domeccleston/sharegpt](https://github.com/domeccleston/sharegpt) - به‌راحتی لینک‌های دائمی گفتگوهای ChatGPT را با دوستانتان به اشتراک بگذارید
+- [domeccleston/sharegpt](https://github.com/domeccleston/sharegpt) - به‌راحتی لینک‌های دائمی مکالمات ChatGPT را با دوستانتان به اشتراک بگذارید
 - [wong2/chatgpt-google-extension](https://github.com/wong2/chatgpt-google-extension) - این پروژه منسوخ شده است. پروژه جدید من ChatHub را بررسی کنید:
 - [pacexy/flow](https://github.com/pacexy/flow) - کتابخوان ePub مبتنی بر مرورگر
-- [jiegec/clone-learn-tsinghua](https://github.com/jiegec/clone-learn-tsinghua) - ابزاری برای کلون کردن همه فایل‌ها از learn.tsinghua.edu.cn
-- [thu-info-community/thu-info-app](https://github.com/thu-info-community/thu-info-app) - یک اپلیکیشن با هدف یکپارچه‌سازی منابع مختلف اطلاعات دانشگاه، توسعه یافته با React Native
-- [exposir/bing-wallpaper-node](https://github.com/exposir/bing-wallpaper-node) - والپیپر روزانه 4K Ultra HD بینگ | Bing Daily 4K Ultra HD Wallpaper
-- [AlistGo/docs](https://github.com/AlistGo/docs) - 📄 مستندات برای alist v3: http://github.com/alist-org/alist
+- [jiegec/clone-learn-tsinghua](https://github.com/jiegec/clone-learn-tsinghua) - ابزاری برای کپی تمام فایل‌ها از learn.tsinghua.edu.cn
+- [thu-info-community/thu-info-app](https://github.com/thu-info-community/thu-info-app) - اپلیکیشنی برای یکپارچه‌سازی منابع مختلف اطلاعات دانشگاه، توسعه‌یافته با React Native
+- [exposir/bing-wallpaper-node](https://github.com/exposir/bing-wallpaper-node) - والپیپر روزانه 4K فوق‌العاده HD بینگ 必应每日4K超清壁纸
+- [AlistGo/docs](https://github.com/AlistGo/docs) - 📄 مستندات alist نسخه 3: http://github.com/alist-org/alist
 - [slidevjs/docs](https://github.com/slidevjs/docs) - [Mirrored] مستندات Slidev
 - [appwrite/appwrite](https://github.com/appwrite/appwrite) - بسازید مانند یک تیم صد نفره_
 - [dai-shi/excalidraw-animate](https://github.com/dai-shi/excalidraw-animate) - ابزاری برای متحرک‌سازی نقاشی‌های Excalidraw
 - [Graviton-Code-Editor/Graviton-App](https://github.com/Graviton-Code-Editor/Graviton-App) - 🚀 ویرایشگر کد با ظاهر مدرن
 - [thusns/thu-wiki](https://github.com/thusns/thu-wiki) - https://thu.wiki یا https://wiki.thusns.org
-- [crashmax-dev/twallpaper](https://github.com/crashmax-dev/twallpaper) - 🌈 والپیپر گرادینت چندرنگ که به‌صورت الگوریتمی ساخته شده و به‌نرمی درخشان می‌شود.
-- [SigNoz/signoz](https://github.com/SigNoz/signoz) - SigNoz یک پلتفرم اپن سورس مشاهده‌پذیری بومی OpenTelemetry با لاگ، ردیابی و متریک‌ها در یک برنامه واحد است. جایگزین اپن سورس برای DataDog، NewRelic و غیره. 🔥 🖥.   👉  متن باز
-- [vuejs/vitepress](https://github.com/vuejs/vitepress) - تولیدکننده سایت استاتیک مبتنی بر Vite و Vue.
-- [sst/sst](https://github.com/sst/sst) - ساخت اپ‌های فول استک روی زیرساخت خودتان.
-- [nrwl/nx](https://github.com/nrwl/nx) - پلتفرم ساخت مبتنی بر هوش مصنوعی که همه چیز را از ویرایشگر تا CI متصل می‌کند. به شما کمک می‌کند سریع تحویل دهید، بدون اینکه چیزی خراب شود.
-- [dubinc/dub](https://github.com/dubinc/dub) - پلتفرم مدرن انتساب لینک. محبوب تیم‌های بازاریابی سطح جهانی مانند Twilio، Buffer، Framer، Perplexity، Vercel و غیره.
-- [Privoce/vocechat-web](https://github.com/Privoce/vocechat-web) - برنامه وب VoceChat
+- [crashmax-dev/twallpaper](https://github.com/crashmax-dev/twallpaper) - 🌈 والپیپر گرادیان چندرنگ که به صورت الگوریتمی ساخته شده و به‌نرمی می‌درخشد.
+- [SigNoz/signoz](https://github.com/SigNoz/signoz) - SigNoz یک پلتفرم مشاهده‌پذیری متن‌باز بومی OpenTelemetry با لاگ، تریس و متریک در یک اپلیکیشن است. جایگزین متن‌باز برای DataDog، NewRelic و غیره. 🔥 🖥.   👉  متن‌باز
+- [vuejs/vitepress](https://github.com/vuejs/vitepress) - مولد سایت ایستا مبتنی بر Vite و Vue.
+- [sst/sst](https://github.com/sst/sst) - ساخت برنامه‌های فول‌استک روی زیرساخت خودتان.
+- [nrwl/nx](https://github.com/nrwl/nx) - پلتفرم ساخت مبتنی بر هوش مصنوعی که همه چیز را از ویرایشگر تا CI به هم متصل می‌کند. کمک می‌کند سریع تحویل دهید، بدون اینکه چیزی بشکند.
+- [dubinc/dub](https://github.com/dubinc/dub) - پلتفرم مدرن نسبت‌دهی لینک. مورد علاقه تیم‌های بازاریابی سطح جهانی مانند Twilio، Buffer، Framer، Perplexity، Vercel و دیگران.
+- [Privoce/vocechat-web](https://github.com/Privoce/vocechat-web) - اپلیکیشن وب VoceChat
 - [jackluson/vscode-pomodoro-clock](https://github.com/jackluson/vscode-pomodoro-clock) - ساعت پومودورو برای VS Code
-- [DTStack/molecule](https://github.com/DTStack/molecule) - :rocket: چارچوب رابط کاربری IDE تحت وب سبک وزن.
+- [DTStack/molecule](https://github.com/DTStack/molecule) - :rocket: چارچوب رابط کاربری IDE سبک‌وزن مبتنی بر وب.
 - [b4rtaz/voice-assistant](https://github.com/b4rtaz/voice-assistant) - دستیار صوتی برای Visual Studio Code.
-- [leon-ai/leon](https://github.com/leon-ai/leon) - 🧠 Leon دستیار شخصی متن باز شماست.
-- [tycrek/ass](https://github.com/tycrek/ass) - سرور ShareX خودمیزبان ساده
-- [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - برنامه یادداشت‌برداری متمرکز بر حفظ حریم خصوصی با قابلیت همگام‌سازی برای ویندوز، مک، لینوکس، اندروید و iOS.
-- [AlphaNecron/Void](https://github.com/AlphaNecron/Void) - سرویس میزبانی فایل سریع و شیک.
-- [egoist/follower-count](https://github.com/egoist/follower-count) - دریافت تعداد دنبال‌کنندگان حساب‌های اینستاگرام، توییتر، تیک‌تاک، یوتیوب
-- [liveblocks/liveblocks](https://github.com/liveblocks/liveblocks) - بهترین اپلیکیشن‌ها در عصر هوش مصنوعی تجربه‌های انفرادی نیستند—بلکه مشارکتی هستند. Liveblocks ویژگی‌های آماده سفارشی‌سازی‌شده برای چندنفره کردن، جذابیت و آمادگی برای AI محصول شما ارائه می‌دهد. همه بدون
-- [cloudflare/workers-graphql-server](https://github.com/cloudflare/workers-graphql-server) - 🔥 سرور Apollo GraphQL فوق سریع و توزیع‌شده جهانی، مستقر در edge با استفاده از Cloudflare Workers
+- [leon-ai/leon](https://github.com/leon-ai/leon) - 🧠 لئون دستیار شخصی متن‌باز شماست.
+- [tycrek/ass](https://github.com/tycrek/ass) - سرور ساده و خودمیزبان ShareX
+- [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - اپلیکیشن یادداشت‌برداری با تمرکز بر حریم خصوصی و قابلیت همگام‌سازی برای ویندوز، مک، لینوکس، اندروید و iOS.
+- [AlphaNecron/Void](https://github.com/AlphaNecron/Void) - سرویس میزبانی فایل سریع و زیبا.
+- [egoist/follower-count](https://github.com/egoist/follower-count) - دریافت تعداد دنبال‌کنندگان برای حساب‌های اینستاگرام، توییتر، تیک‌تاک، یوتیوب
+- [liveblocks/liveblocks](https://github.com/liveblocks/liveblocks) - بهترین اپلیکیشن‌ها در عصر هوش مصنوعی تجارب انفرادی نیستند—آن‌ها همکاری‌محورند. Liveblocks ویژگی‌های آماده برای چندنفره، جذاب و سازگار با هوش مصنوعی را بدون پیچیدگی به محصول شما اضافه می‌کند.
+- [cloudflare/workers-graphql-server](https://github.com/cloudflare/workers-graphql-server) - 🔥 سرور Apollo GraphQL فوق‌العاده سریع و توزیع‌شده در سطح جهانی، مستقر شده روی لبه با استفاده از Cloudflare Workers
 - [buhe/vscode-mail](https://github.com/buhe/vscode-mail) - کلاینت ایمیل تعبیه‌شده در Visual Studio Code.
-- [LekoArts/gatsby-themes](https://github.com/LekoArts/gatsby-themes) - دریافت تم‌های باکیفیت و قابل سفارشی‌سازی Gatsby برای راه‌اندازی سریع وب‌سایت! انتخاب از میان طرح‌های حرفه‌ای و چشمگیر با امکانات و گزینه‌های سفارشی‌سازی متنوع
-- [haaarshsingh/kmenu](https://github.com/haaarshsingh/kmenu) - منوی ⌘K بی‌نقص
+- [LekoArts/gatsby-themes](https://github.com/LekoArts/gatsby-themes) - دریافت قالب‌های Gatsby با کیفیت بالا و قابل سفارشی‌سازی برای راه‌اندازی سریع وبسایت! انتخاب از میان طرح‌های حرفه‌ای با ویژگی‌ها و گزینه‌های سفارشی‌سازی متنوع
+- [haaarshsingh/kmenu](https://github.com/haaarshsingh/kmenu) - منوی ⌘K کامل
 - [sofn-xyz/mailing](https://github.com/sofn-xyz/mailing) - ساخت، تست و ارسال ایمیل با React
-- [webiny/webiny-js](https://github.com/webiny/webiny-js) - CMS سازمانی serverless متن‌باز. شامل یک CMS headless، صفحه‌ساز، سازنده فرم و مدیر فایل. به‌راحتی قابل سفارشی‌سازی و گسترش. استقرار در AWS.
-- [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) - رابط کاربری اپن سورس برای سایت‌های مستندات GitBook
+- [webiny/webiny-js](https://github.com/webiny/webiny-js) - CMS سازمانی سرورلس متن‌باز. شامل CMS Headless، سازنده صفحه، سازنده فرم و مدیر فایل. سفارشی‌سازی و توسعه آسان. استقرار در AWS.
+- [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) - فرانت‌اند متن‌باز برای سایت‌های مستندات GitBook
 - [codex-team/editor.js](https://github.com/codex-team/editor.js) - ویرایشگر بلوکی با خروجی JSON تمیز
-- [pingcap/ossinsight](https://github.com/pingcap/ossinsight) - تحلیل، مقایسه، روندها و رتبه‌بندی نرم‌افزارهای متن‌باز، همچنین دریافت بینش از بیش از ۷ میلیارد داده با زبان طبیعی (توسط OpenAI). ما را در توییتر دنبال کنید: https://twitter.com/o
+- [pingcap/ossinsight](https://github.com/pingcap/ossinsight) - تحلیل، مقایسه، روندها، رتبه‌بندی نرم‌افزار متن‌باز، و دریافت بینش از بیش از ۷ میلیارد داده با زبان طبیعی (با قدرت OpenAI). ما را در توییتر دنبال کنید: https://twitter.com/o
 - [markmap/markmap](https://github.com/markmap/markmap) - ساخت نقشه ذهنی با متن ساده
-- [hmu332233/q-link](https://github.com/hmu332233/q-link) - Q.Link | پنهان کردن لینک خود پشت یک آزمون ساده.
-- [triggerdotdev/jsonhero-web](https://github.com/triggerdotdev/jsonhero-web) - JSON Hero یک اکسپلورر زیبای JSON متن‌باز برای وب است که امکان مرور، جستجو و پیمایش سریع فایل‌های JSON را فراهم می‌کند. 🚀 ساخته شده با 💜 توسط تیم Trigger.dev
-- [devhubapp/devhub](https://github.com/devhubapp/devhub) - TweetDeck برای GitHub - فیلتر مسائل، فعالیت‌ها و اعلان‌ها - وب، موبایل و دسکتاپ با اشتراک ۹۹٪ کد میان آن‌ها
-- [redhat-actions/try-in-web-ide](https://github.com/redhat-actions/try-in-web-ide) - کلون کردن pull request خود در Web IDE میزبانی‌شده در Developer Sandbox برای Red Hat OpenShift، جهت تست آسان تغییرات.
+- [hmu332233/q-link](https://github.com/hmu332233/q-link) - Q.Link | مخفی کردن لینک خود پشت یک آزمون ساده.
+- [triggerdotdev/jsonhero-web](https://github.com/triggerdotdev/jsonhero-web) - JSON Hero یک کاوشگر JSON متن‌باز و زیبا برای وب است که به شما امکان مرور، جستجو و پیمایش سریع فایل‌های JSON را می‌دهد. 🚀. ساخته شده با 💜 توسط تیم Trigger.dev.
+- [devhubapp/devhub](https://github.com/devhubapp/devhub) - TweetDeck برای GitHub - فیلتر مسائل، فعالیت‌ها و اعلان‌ها - وب، موبایل و دسکتاپ با ۹۹٪ اشتراک کد
+- [redhat-actions/try-in-web-ide](https://github.com/redhat-actions/try-in-web-ide) - کلون کردن pull request خود به Web IDE میزبانی شده روی Developer Sandbox برای Red Hat OpenShift، برای تست آسان تغییرات.
 - [photoview/photoview](https://github.com/photoview/photoview) - گالری عکس برای سرورهای شخصی خودمیزبان
-- [yusukebe/r2-image-worker](https://github.com/yusukebe/r2-image-worker) - ذخیره و تحویل تصاویر با R2 backend Cloudflare Workers.
-- [GitbookIO/proxies-on-cloudflare](https://github.com/GitbookIO/proxies-on-cloudflare) - پراکسی‌ها در Cloudflare Workers
-- [SharzyL/pastebin-worker](https://github.com/SharzyL/pastebin-worker) - Pastebin روی Cloudflare worker، با CLI دوستانه و امکانات غنی
-- [eclipse-theia/theia](https://github.com/eclipse-theia/theia) - Eclipse Theia چارچوب IDE ابری و دسکتاپی پیاده‌سازی‌شده با TypeScript.
-- [facebook/docusaurus](https://github.com/facebook/docusaurus) - وب‌سایت‌های مستندات اپن سورس و آسان برای نگهداری.
-- [logto-io/logto](https://github.com/logto-io/logto) - 🧑‍🚀 زیرساخت احراز هویت و مجوز برای اپ‌های SaaS و AI، مبتنی بر OIDC و OAuth 2.1 با چندمستاجری، SSO و RBAC.
-- [dushixiang/next-terminal](https://github.com/dushixiang/next-terminal) - Next Terminal یک سیستم حسابرسی تعاملی ساده، ایمن و کاربرپسند است که از چندین پروتکل دسترسی راه دور از جمله RDP، SSH، VNC، Telnet و HTTP پشتیبانی می‌کند.
+- [yusukebe/r2-image-worker](https://github.com/yusukebe/r2-image-worker) - ذخیره و ارائه تصاویر با بک‌اند R2 و Cloudflare Workers.
+- [GitbookIO/proxies-on-cloudflare](https://github.com/GitbookIO/proxies-on-cloudflare) - پروکسی‌ها در Cloudflare Workers
+- [SharzyL/pastebin-worker](https://github.com/SharzyL/pastebin-worker) - پیست‌بن روی Cloudflare worker، با استفاده آسان CLI و ویژگی‌های غنی
+- [eclipse-theia/theia](https://github.com/eclipse-theia/theia) - Eclipse Theia یک چارچوب IDE ابری و دسکتاپ است که با TypeScript پیاده‌سازی شده است.
+- [facebook/docusaurus](https://github.com/facebook/docusaurus) - وبسایت مستندات متن‌باز و آسان برای نگهداری.
+- [logto-io/logto](https://github.com/logto-io/logto) - 🧑‍🚀 زیرساخت احراز هویت و مجوزدهی برای اپلیکیشن‌های SaaS و هوش مصنوعی، مبتنی بر OIDC و OAuth 2.1 با چنداجاره‌ای، SSO و RBAC.
+- [dushixiang/next-terminal](https://github.com/dushixiang/next-terminal) - Next Terminal یک سیستم حسابرسی تعاملی ساده، ایمن و کاربرپسند است که از چندین پروتکل دسترسی از راه دور شامل RDP، SSH، VNC، Telnet و HTTP پشتیبانی می‌کند.
 - [wayjam/picgo-plugin-s3](https://github.com/wayjam/picgo-plugin-s3) - افزونه PicGo S3
-- [gaeulbyul/RedBlock](https://github.com/gaeulbyul/RedBlock) - [وضعیت: پشتیبانی نمی‌شود] قدرتمندترین افزونه بلاک زنجیره‌ای توییتر. / افزونه قدرتمند برای بلاک چند کاربر در توییتر.
+- [gaeulbyul/RedBlock](https://github.com/gaeulbyul/RedBlock) - [وضعیت: پشتیبانی نمی‌شود] قوی‌ترین افزونه زنجیره‌ای بلاک کردن در توییتر. / افزونه قدرتمند برای بلاک کردن کاربران متعدد در توییتر.
 - [formulahendry/vscode-code-runner](https://github.com/formulahendry/vscode-code-runner) - اجراکننده کد برای Visual Studio Code
 - [hexojs/hexo-cli](https://github.com/hexojs/hexo-cli) - رابط خط فرمان برای Hexo
-- [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner) - نرم‌افزار یادگیری واژگان و تمرین حافظه عضلانی انگلیسی برای کاربران کیبورد / Words learning and English muscle memory training software designed for keyboard workers
-- [SSShooter/mind-elixir-core](https://github.com/SSShooter/mind-elixir-core) - ⚗ Mind Elixir هسته نقشه ذهنی جاوااسکریپت، مستقل از چارچوب.
-- [utterance/utterances](https://github.com/utterance/utterances) - :crystal_ball: ابزارک نظرات سبک وزن مبتنی بر issues گیت‌هاب
-- [gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) - پلتفرم توسعه‌دهندگان برای محیط‌های توسعه ابری درخواستی جهت ساخت نرم‌افزار سریع‌تر و ایمن‌تر.
-- [wabarc/cairn](https://github.com/wabarc/cairn) - بسته NPM و ابزار CLI برای ذخیره صفحه وب به عنوان یک فایل HTML واحد
+- [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner) - نرم‌افزار تقویت حافظه واژگان و حافظه عضلانی انگلیسی ویژه کاربران کیبورد / Words learning and English muscle memory training software designed for keyboard workers
+- [SSShooter/mind-elixir-core](https://github.com/SSShooter/mind-elixir-core) - ⚗ Mind Elixir هسته نقشه ذهنی جاوااسکریپت مستقل از فریمورک.
+- [utterance/utterances](https://github.com/utterance/utterances) - :crystal_ball: ویجت نظرات سبک مبتنی بر Issues گیت‌هاب
+- [gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) - پلتفرم توسعه‌دهنده برای محیط‌های توسعه ابری در لحظه برای توسعه سریع‌تر و ایمن‌تر نرم‌افزار.
+- [wabarc/cairn](https://github.com/wabarc/cairn) - بسته NPM و ابزار CLI برای ذخیره صفحات وب به عنوان یک فایل HTML واحد
 - [massCodeIO/assistant-vscode](https://github.com/massCodeIO/assistant-vscode) - دستیار massCode برای VS Code
-- [vercel/platforms](https://github.com/vercel/platforms) - اپلیکیشن فول‌استک Next.js با چندمستاجری.
-- [taniarascia/takenote](https://github.com/taniarascia/takenote) - 📝  ‎ برنامه یادداشت‌برداری مبتنی بر وب برای توسعه‌دهندگان.
-- [standardnotes/app](https://github.com/standardnotes/app) - با یادداشت‌ها و فایل‌های رمزگذاری‌شده سرتاسری بی‌پروا فکر کنید. برای مشکلات به https://standardnotes.com/forum یا https://standardnotes.com/help مراجعه کنید.
-- [gitpod-io/openvscode-server](https://github.com/gitpod-io/openvscode-server) - اجرای VS Code upstream روی دستگاه راه دور با دسترسی از طریق مرورگر وب مدرن از هر دستگاه، هر کجا.
-- [EnixCoda/Gitako](https://github.com/EnixCoda/Gitako) - 🐙 افزونه درخت فایل برای GitHub روی Chrome، Firefox و Edge
-- [gridaco/grida](https://github.com/gridaco/grida) - Grida — ویرایشگر گرافیک دو بعدی جاه‌طلبانه برای وب
-- [lostintangent/gitdoc](https://github.com/lostintangent/gitdoc) - افزونه VS Code که به شما اجازه می‌دهد یک مخزن Git را مانند یک سند چندفایلی و نسخه‌دار ویرایش کنید.
-- [Platane/snk](https://github.com/Platane/snk) - 🟩⬜ تولید بازی مار از نمودار مشارکت کاربر گیت‌هاب و خروجی به صورت svg یا gif متحرک
-- [yoshi389111/github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib) - این اکشن گیت‌هاب یک تقویم مشارکت گیت‌هاب را روی تصویر پروفایل سه‌بعدی ایجاد می‌کند.
-- [yang991178/fluent-reader](https://github.com/yang991178/fluent-reader) - برنامه دسکتاپ مدرن RSS ساخته‌شده با Electron، React و Fluent UI
-- [AlistGo/web-v2](https://github.com/AlistGo/web-v2) - 🗂️ رابط کاربری Alist V2
-- [ansh/jiffyreader.com](https://github.com/ansh/jiffyreader.com) - افزونه مرورگر برای خواندن سریع‌تر در هر وبسایتی!
+- [vercel/platforms](https://github.com/vercel/platforms) - اپلیکیشن فول‌استک Next.js با چنداجاره‌ای.
+- [taniarascia/takenote](https://github.com/taniarascia/takenote) - 📝  ‎ اپلیکیشن یادداشت‌برداری مبتنی بر وب برای توسعه‌دهندگان.
+- [standardnotes/app](https://github.com/standardnotes/app) - تفکر بی‌باکانه با یادداشت‌ها و فایل‌های رمزگذاری‌شده سرتاسری. برای مشکلات به https://standardnotes.com/forum یا https://standardnotes.com/help مراجعه کنید.
+- [gitpod-io/openvscode-server](https://github.com/gitpod-io/openvscode-server) - اجرای VS Code اصلی روی یک دستگاه راه دور با دسترسی از طریق مرورگر مدرن از هر دستگاه و هر مکان.
+- [EnixCoda/Gitako](https://github.com/EnixCoda/Gitako) - 🐙 افزونه درخت فایل برای GitHub در Chrome، Firefox و Edge
+- [gridaco/grida](https://github.com/gridaco/grida) - Grida — ویرایشگر گرافیک دو بعدی بلندپروازانه برای وب
+- [lostintangent/gitdoc](https://github.com/lostintangent/gitdoc) - افزونه VS Code که به شما امکان می‌دهد یک مخزن گیت را مانند یک سند چندفایلی و نسخه‌بندی‌شده ویرایش کنید.
+- [Platane/snk](https://github.com/Platane/snk) - 🟩⬜ تولید بازی مار از نمودار مشارکت کاربر گیت‌هاب و خروجی به صورت SVG یا GIF متحرک
+- [yoshi389111/github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib) - این اکشن گیت‌هاب یک تقویم مشارکت گیت‌هاب را روی یک تصویر سه‌بعدی پروفایل ایجاد می‌کند.
+- [yang991178/fluent-reader](https://github.com/yang991178/fluent-reader) - خبرخوان دسکتاپ مدرن مبتنی بر Electron، React و Fluent UI
+- [AlistGo/web-v2](https://github.com/AlistGo/web-v2) - 🗂️ فرانت‌اند Alist V2
+- [ansh/jiffyreader.com](https://github.com/ansh/jiffyreader.com) - افزونه مرورگر برای سریع‌تر خواندن در هر وبسایتی!
 - [alefragnani/vscode-bookmarks](https://github.com/alefragnani/vscode-bookmarks) - افزونه بوکمارک برای Visual Studio Code
-- [markdoc/markdoc](https://github.com/markdoc/markdoc) - چارچوب نگارش قدرتمند و انعطاف‌پذیر مبتنی بر Markdown.
-- [batnoter/batnoter](https://github.com/batnoter/batnoter) - برنامه یادداشت‌برداری مبتنی بر مارک‌داون، متن باز و خودمیزبان.
-- [Cveinnt/LetsMarkdown.com](https://github.com/Cveinnt/LetsMarkdown.com) - 👨‍💻👩‍💻 نوشتن Markdown. به صورت گروهی.
+- [markdoc/markdoc](https://github.com/markdoc/markdoc) - چارچوب قدرتمند و انعطاف‌پذیر مبتنی بر Markdown برای تولید محتوا.
+- [batnoter/batnoter](https://github.com/batnoter/batnoter) - وب‌اپ یادداشت‌برداری متن‌باز، مبتنی بر Markdown و خودمیزبان.
+- [Cveinnt/LetsMarkdown.com](https://github.com/Cveinnt/LetsMarkdown.com) - 👨‍💻👩‍💻 Markdown بنویسید. با هم.
 - [Cherry/ShareX-R2-Cloudflare-Workers](https://github.com/Cherry/ShareX-R2-Cloudflare-Workers) - آپلودر سفارشی ShareX به Cloudflare R2 از طریق Workers
-- [mullvad/browser-extension](https://github.com/mullvad/browser-extension) - افزونه مرورگر Mullvad تجربه مرور شما را هنگام استفاده از Mullvad VPN بهبود می‌دهد.
-- [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) - تولید نمودارهایی مانند فلوچارت یا نمودار توالی از متن مشابه مارک‌داون
-- [Kong/insomnia](https://github.com/Kong/insomnia) - کلاینت API اپن سورس و چندسکویی برای GraphQL، REST، WebSockets، SSE و gRPC. با ذخیره‌سازی ابری، محلی و Git.
-- [theajack/cnchar](https://github.com/theajack/cnchar) - 🇨🇳 کتابخانه جامع ابزار کاراکترهای چینی (پین‌یین، تعداد ضربه، بخش‌ها، اصطلاحات، صدا، بصری‌سازی و غیره)
+- [mullvad/browser-extension](https://github.com/mullvad/browser-extension) - افزونه مرورگر Mullvad تجربه مرور شما را هنگام استفاده از Mullvad VPN بهبود می‌بخشد.
+- [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) - تولید نمودارهایی مانند فلوچارت یا نمودار توالی از متن به روشی مشابه Markdown
+- [Kong/insomnia](https://github.com/Kong/insomnia) - کلاینت API متن‌باز و چندسکویی برای GraphQL، REST، WebSockets، SSE و gRPC. با فضای ابری، محلی و ذخیره‌سازی گیت.
+- [theajack/cnchar](https://github.com/theajack/cnchar) - 🇨🇳 کتابخانه ابزار همه‌کاره حروف چینی (پین‌یین، تعداد خطوط، اجزاء، اصطلاحات، صدا، مصور و غیره) (ابزار کاراکتر چینی)
 - [missive/emoji-mart](https://github.com/missive/emoji-mart) - 🏪 یک کامپوننت برای انتخاب همه ایموجی‌ها
-- [lcomplete/smart-toc](https://github.com/lcomplete/smart-toc) - افزونه Chrome برای تولید خودکار فهرست مطالب، پشتیبانی از Inoreader و Feedly. افزونه مرورگر برای تولید خودکار ساختار مقاله وب، پشتیبانی از Inoreader و Feedly.
-- [sheepzh/time-tracker-4-browser](https://github.com/sheepzh/time-tracker-4-browser) - ردیاب زمان برای مرورگر / هزینه اینترنت بالاست
-- [ajayyy/SponsorBlockServer](https://github.com/ajayyy/SponsorBlockServer) - رد کردن اسپانسرهای ویدیوی یوتیوب (بخش سمت سرور)
+- [lcomplete/smart-toc](https://github.com/lcomplete/smart-toc) - افزونه Chrome برای تولید خودکار فهرست مطالب، پشتیبانی از Inoreader و Feedly. افزونه مرورگر برای تولید خودکار دایرکتوری مقالات وب، پشتیبانی از Inoreader و Feedly.
+- [sheepzh/time-tracker-4-browser](https://github.com/sheepzh/time-tracker-4-browser) - ردیاب زمان برای مرورگر/هزینه اینترنت خیلی بالاست
+- [ajayyy/SponsorBlockServer](https://github.com/ajayyy/SponsorBlockServer) - پرش خودکار تبلیغات و حمایت‌کنندگان ویدیوهای یوتیوب (بخش سرور)
 - [Hopding/pdf-lib](https://github.com/Hopding/pdf-lib) - ایجاد و ویرایش اسناد PDF در هر محیط جاوااسکریپت
-- [GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension](https://github.com/GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension) - افزودن دکمه‌های کاربردی مانند زیباسازی، نمایش فایل‌های باز شده، ذخیره، تغییر وضعیت ترمینال و غیره به منوی ادیتور VSCode. همچنین می‌توانید دکمه‌های سفارشی با دستورات دلخواه ایجاد کنید. لینک Marketplace: htt
-- [hexojs/hexo](https://github.com/hexojs/hexo) - فریم‌ورک وبلاگ سریع، ساده و قدرتمند، مبتنی بر Node.js.
-- [actions/stale](https://github.com/actions/stale) - علامت‌گذاری مسائل و pull requestهایی که اخیراً تعاملی نداشته‌اند
+- [GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension](https://github.com/GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension) - افزودن دکمه‌های کاربردی مانند beautify، نمایش فایل‌های باز، ذخیره، نمایش/مخفی‌کردن ترمینال و غیره به منوی ویرایشگر VSCode. همچنین می‌توانید دکمه‌های دلخواه خود با دستورات سفارشی بسازید. لینک VSCode Marketplace: htt
+- [hexojs/hexo](https://github.com/hexojs/hexo) - چارچوب وبلاگ سریع، ساده و قدرتمند با Node.js.
+- [actions/stale](https://github.com/actions/stale) - علامت‌گذاری مسائل و Pull Requestهایی که اخیراً تعاملی نداشته‌اند
 - [surgioproject/surgio](https://github.com/surgioproject/surgio) - تولید قوانین برای Surge، Clash، Quantumult مانند یک حرفه‌ای
-- [nginxinc/nginx-for-azure-deploy-action](https://github.com/nginxinc/nginx-for-azure-deploy-action) - اکشن‌های گیت‌هاب برای همگام‌سازی تنظیمات NGINX با سرویس NGINX for Azure.
-- [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) - Spacedrive یک اکسپلورر فایل چندسکویی اپن سورس است که توسط یک فایل‌سیستم توزیع‌شده مجازی نوشته‌شده با Rust پشتیبانی می‌شود.
-- [DenverCoder1/custom-icon-badges](https://github.com/DenverCoder1/custom-icon-badges) - 🛡 به کاربران اجازه می‌دهد آیکون‌های Octicons و آیکون‌ها و لوگوهای دلخواه خود را راحت‌تر در نشان‌های shields.io استفاده کنند
-- [arduino/arduino-ide](https://github.com/arduino/arduino-ide) - Arduino IDE 2.x
-- [yuudi/onesend](https://github.com/yuudi/onesend) - ارسال فایل از طریق onedrive
-- [xcodebuild/CodeTerminal](https://github.com/xcodebuild/CodeTerminal) - برنامه ترمینال مستقل چندسکویی استخراج‌شده از Visual Studio Code.
-- [Zhengqbbb/cz-git](https://github.com/Zhengqbbb/cz-git) - cz-git | czg  🛠️ تجربه DX محور، سبک، قابل مهندسی بیشتر، قابل سفارشی‌سازی، فرمت خروجی استاندارد، آداپتور Commitizen و CLI
-- [tutao/tutanota](https://github.com/tutao/tutanota) - Tuta یک سرویس ایمیل با تمرکز قوی بر امنیت و حریم خصوصی است که به شما امکان رمزنگاری ایمیل‌ها، مخاطبین و رویدادهای تقویم را در همه دستگاه‌هایتان می‌دهد.
+- [nginxinc/nginx-for-azure-deploy-action](https://github.com/nginxinc/nginx-for-azure-deploy-action) - اکشن‌های گیت‌هاب برای همگام‌سازی پیکربندی‌های NGINX در سرویس NGINX برای Azure.
+- [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) - Spacedrive یک فایل منیجر کراس پلتفرم متن‌باز است که توسط یک فایل سیستم توزیع‌شده مجازی با زبان Rust قدرت گرفته است.
+- [DenverCoder1/custom-icon-badges](https://github.com/DenverCoder1/custom-icon-badges) - 🛡 به کاربران اجازه می‌دهد راحت‌تر از Octicons و آیکون‌ها و لوگوهای خود در نشان‌های shields.io استفاده کنند
+- [arduino/arduino-ide](https://github.com/arduino/arduino-ide) - آردوینو IDE نسخه 2.x
+- [yuudi/onesend](https://github.com/yuudi/onesend) - ارسال فایل‌ها از طریق OneDrive
+- [xcodebuild/CodeTerminal](https://github.com/xcodebuild/CodeTerminal) - اپلیکیشن ترمینال مستقل کراس پلتفرم استخراج‌شده از Visual Studio Code.
+- [Zhengqbbb/cz-git](https://github.com/Zhengqbbb/cz-git) - cz-git | czg  🛠️ تجربه DX و مهندسی بیشتر، سبک‌وزن، قابل سفارشی‌سازی، فرمت خروجی استاندارد، آداپتور Commitizen و CLI
+- [tutao/tutanota](https://github.com/tutao/tutanota) - تـوتا یک سرویس ایمیل با تمرکز شدید بر امنیت و حریم خصوصی است که امکان رمزگذاری ایمیل‌ها، مخاطبین و ورودی‌های تقویم را در تمام دستگاه‌ها می‌دهد.
 - [atomcorp/themes](https://github.com/atomcorp/themes) - تم‌ها برای Windows Terminal
-- [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) - اکوسیستم توسعه API متن باز - https://hoppscotch.io (جایگزین متن باز برای Postman, Insomnia)
+- [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) - اکوسیستم توسعه API متن‌باز - https://hoppscotch.io (جایگزین متن‌باز Postman و Insomnia)
 - [antfu/awesome-cn-cafe-web](https://github.com/antfu/awesome-cn-cafe-web) - ☕️ اپ وب برای Awesome CN Café
-- [yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) - 💯 مجموعه‌ای از مطالب منتخب برای آمادگی مصاحبه کدنویسی برای مهندسان نرم‌افزار پرمشغله
+- [yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) - 💯 منابع منتخب برای آمادگی مصاحبه کدنویسی ویژه مهندسان نرم‌افزار پرمشغله
 - [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) - کدبیس و برنامه درسی متن‌باز freeCodeCamp.org. یادگیری ریاضی، برنامه‌نویسی و علوم کامپیوتر به صورت رایگان.
-- [harrisoff/onedrive-js-sdk](https://github.com/harrisoff/onedrive-js-sdk) - بسته‌بندی برخی APIهای OneDrive، فقط برای آپلود و اشتراک‌گذاری فایل‌ها.
+- [harrisoff/onedrive-js-sdk](https://github.com/harrisoff/onedrive-js-sdk) - پوشش برخی از APIهای OneDrive، فقط برای آپلود و اشتراک‌گذاری فایل‌ها.
 - [harrisoff/onedrive-image-hosting](https://github.com/harrisoff/onedrive-image-hosting) - میزبانی تصویر OneDrive | OneDrive 图床
-- [ms-iot/vscode-ros](https://github.com/ms-iot/vscode-ros) - افزونه Visual Studio Code برای توسعه Robot Operating System (ROS)
+- [ms-iot/vscode-ros](https://github.com/ms-iot/vscode-ros) - افزونه Visual Studio Code برای توسعه سیستم عامل ربات (ROS)
 - [yzhang-gh/vscode-markdown](https://github.com/yzhang-gh/vscode-markdown) - Markdown All in One
-- [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) - 🔒 چک‌لیست گردآوری شده با بیش از ۳۰۰ نکته برای محافظت از امنیت و حریم خصوصی دیجیتال در سال ۲۰۲۴
-- [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) - ✨ برنامه متن‌باز نوآورانه‌ای که فرمت‌های مختلف داده مانند JSON، YAML، XML، CSV و غیره را به نمودارهای تعاملی تبدیل می‌کند.
-- [charleswan/vscode-extensions](https://github.com/charleswan/vscode-extensions) - مجموعه‌ای از افزونه‌های خوشمزه Visual Studio Code https://marketplace.visualstudio.com/publishers/CharlesWan
+- [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) - 🔒 فهرست گردآوری‌شده بیش از ۳۰۰ نکته برای محافظت از امنیت و حریم خصوصی دیجیتال در سال ۲۰۲۴
+- [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) - ✨ اپلیکیشن نوآورانه و متن‌باز برای تبدیل فرمت‌های مختلف داده مانند JSON، YAML، XML، CSV و غیره به نمودارهای تعاملی.
+- [charleswan/vscode-extensions](https://github.com/charleswan/vscode-extensions) - مجموعه‌ای از دستورالعمل‌های خوشمزه افزونه‌های Visual Studio Code https://marketplace.visualstudio.com/publishers/CharlesWan
 - [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium) - ساخت پایگاه دانش شخصی خود با Trilium Notes
-- [grafana/grafana](https://github.com/grafana/grafana) - پلتفرم مشاهده‌پذیری و مصورسازی داده باز و قابل ترکیب. مصورسازی متریک‌ها، لاگ‌ها و ردیابی‌ها از منابع متعدد مانند Prometheus، Loki، Elasticsearch، InfluxDB، Postgres و بسیاری دیگر.
+- [grafana/grafana](https://github.com/grafana/grafana) - پلتفرم متن‌باز و ترکیبی مشاهده‌پذیری و مصورسازی داده. مشاهده معیارها، لاگ‌ها و تریس‌ها از منابع متعدد مانند Prometheus، Loki، Elasticsearch، InfluxDB، Postgres و بسیاری دیگر.
 - [reactjs/react.dev](https://github.com/reactjs/react.dev) - وب‌سایت مستندات React
-- [microsoft/TypeScript](https://github.com/microsoft/TypeScript) - تایپ‌اسکریپت یک ابرمجموعه از جاوااسکریپت است که به خروجی جاوااسکریپت تمیز کامپایل می‌شود.
-- [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) - پلتفرمی برای ساخت پنل‌های مدیریت، ابزارهای داخلی و داشبوردها. ادغام با بیش از ۲۵ پایگاه داده و هر API.
+- [microsoft/TypeScript](https://github.com/microsoft/TypeScript) - تایپ‌اسکریپت یک فرازبان جاوااسکریپت است که به خروجی جاوااسکریپت تمیز کامپایل می‌شود.
+- [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) - پلتفرمی برای ساخت پنل‌های مدیریت، ابزارهای داخلی و داشبوردها. با بیش از ۲۵ پایگاه داده و هر API ادغام می‌شود.
 - [XadillaX/vscode-language-viml](https://github.com/XadillaX/vscode-language-viml) - افزونه VimL برای VSCode.
 - [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim) - میزبان افزونه Nodejs برای vim و neovim، بارگذاری افزونه‌هایی مانند VSCode و میزبانی سرورهای زبان.
 - [CryogenicPlanet/cryogenicplanet.github.io](https://github.com/CryogenicPlanet/cryogenicplanet.github.io) - فضای شخصی در وب
-- [wei/socialify](https://github.com/wei/socialify) - 💞 پروژه خود را اجتماعی کنید. 🌐 با جهان به اشتراک بگذارید!
-- [VSCodeVim/Vim](https://github.com/VSCodeVim/Vim) - :star: Vim برای Visual Studio Code
+- [wei/socialify](https://github.com/wei/socialify) - 💞 پروژه خود را اجتماعی کنید. 🌐 با دنیا به اشتراک بگذارید!
+- [VSCodeVim/Vim](https://github.com/VSCodeVim/Vim) - :star: ویم برای Visual Studio Code
 - [AtomMaterialUI/iconGenerator](https://github.com/AtomMaterialUI/iconGenerator) - مجموعه آیکون مورد استفاده در افزونه‌های Atom Material Icons (برای JetBrains، Chrome و Firefox)
-- [antfu/case-police](https://github.com/antfu/case-police) - 🚨 حالت صحیح را رعایت کنید، لطفاً!
-- [shd101wyy/vscode-markdown-preview-enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced) - یکی از بهترین افزونه‌های پیش‌نمایش مارک‌داون برای Visual Studio Code
+- [antfu/case-police](https://github.com/antfu/case-police) - 🚨 حالت نوشتار را درست کنید، لطفا!
+- [shd101wyy/vscode-markdown-preview-enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced) - یکی از بهترین افزونه‌های پیش‌نمایش Markdown برای Visual Studio Code
 - [HAG87/vscode-maxscript-lsp](https://github.com/HAG87/vscode-maxscript-lsp) - زبان MaxScript برای VS Code (پیاده‌سازی سرور زبان)
-- [marcomontalbano/video-to-markdown](https://github.com/marcomontalbano/video-to-markdown) - چطور یک ویدیو را در مارک‌داون جاسازی کنیم؟ اینجا پاسخ است. افزودن ویدیو به فایل‌های مارک‌داون آسان‌تر.
-- [dangeredwolf/ModernDeck](https://github.com/dangeredwolf/ModernDeck) - یک کلاینت توییتر زیبا و قدرتمند برای دسکتاپ.
+- [marcomontalbano/video-to-markdown](https://github.com/marcomontalbano/video-to-markdown) - چگونه یک ویدیو را در Markdown جاسازی کنیم؟ اینجا پاسخ است. افزودن ویدیو به فایل‌های Markdown آسان‌تر.
+- [dangeredwolf/ModernDeck](https://github.com/dangeredwolf/ModernDeck) - یک کلاینت زیبا و قدرتمند توییتر برای دسکتاپ.
 - [shiftkey/desktop](https://github.com/shiftkey/desktop) - فورک GitHub Desktop برای پشتیبانی از توزیع‌های مختلف لینوکس
 - [k9982874/github-gist-explorer](https://github.com/k9982874/github-gist-explorer) - 
-- [djyde/ossart](https://github.com/djyde/ossart) - فعالیت GitHub خود را به عنوان یک اثر هنری چاپ کنید
-- [luyuhuang/vscode-rss](https://github.com/luyuhuang/vscode-rss) - یک خواننده RSS جاسازی شده در Visual Studio Code
-- [liximomo/vscode-sftp](https://github.com/liximomo/vscode-sftp) - افزونه sftp/ftp بسیار سریع برای VS Code
-- [funnyzak/react-native-v2ex](https://github.com/funnyzak/react-native-v2ex) - این پروژه با استفاده از React Native یک کلاینت موبایل V2EX ساخته است. هدف ساخت یک اسکفولد سریع برای React Native است. داده‌های کلاینت کاملاً مبتنی بر API باز V2EX است. مبتنی بر RN 0.71.5.
-- [trzsz/trzsz.js](https://github.com/trzsz/trzsz.js) - trzsz.js نسخه js از trzsz است، ترمینال‌های ساخته شده با electron و webshell را برای پشتیبانی از trzsz (trz / tsz) آماده می‌کند.
-- [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) - یک سازنده رزومه منحصر به فرد که حریم خصوصی شما را در نظر دارد. کاملاً امن، قابل سفارشی‌سازی، قابل حمل، متن باز و برای همیشه رایگان. همین امروز امتحان کنید!
+- [djyde/ossart](https://github.com/djyde/ossart) - فعالیت GitHub خود را به صورت یک اثر هنری چاپ کنید
+- [luyuhuang/vscode-rss](https://github.com/luyuhuang/vscode-rss) - یک فیدخوان RSS تعبیه‌شده در Visual Studio Code
+- [liximomo/vscode-sftp](https://github.com/liximomo/vscode-sftp) - افزونه sftp/ftp فوق‌سریع برای VS Code
+- [funnyzak/react-native-v2ex](https://github.com/funnyzak/react-native-v2ex) - این پروژه با React Native یک کلاینت موبایل V2EX ساخته است. هدف، ساخت یک اسکلت سریع توسعه React Native است. داده‌های کلاینت کاملاً مبتنی بر API باز V2EX است. مبتنی بر RN 0.71.5.
+- [trzsz/trzsz.js](https://github.com/trzsz/trzsz.js) - trzsz.js نسخه جاوااسکریپت trzsz است، ترمینال ساخته‌شده با Electron و webshell را به پشتیبانی از trzsz (trz / tsz) مجهز می‌کند.
+- [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) - سازنده رزومه منحصر به فرد که حریم خصوصی شما را حفظ می‌کند. کاملاً امن، قابل سفارشی‌سازی، قابل حمل، متن‌باز و همیشه رایگان. همین امروز امتحان کنید!
 - [slidevjs/slidev](https://github.com/slidevjs/slidev) - اسلایدهای ارائه برای توسعه‌دهندگان
-- [zzzgydi/clash-verge](https://github.com/zzzgydi/clash-verge) - رابط گرافیکی Clash مبتنی بر tauri. پشتیبانی از ویندوز، مک‌اواس و لینوکس.
-- [louisyoungx/safari-like-startpage](https://github.com/louisyoungx/safari-like-startpage) - صفحه شروع شبیه به Safari
-- [BoostIO/BoostNote-App](https://github.com/BoostIO/BoostNote-App) - Boost Note یک ابزار مدیریت پروژه مبتنی بر مستندات است که سرعت تیم‌های DevOps را به حداکثر می‌رساند.
-- [rick-yo/remind](https://github.com/rick-yo/remind) - مایندمپ را به مرورگر بیاورید
-- [QwikDev/qwik](https://github.com/QwikDev/qwik) - اپلیکیشن‌های وب با بارگذاری آنی، بدون زحمت
+- [zzzgydi/clash-verge](https://github.com/zzzgydi/clash-verge) - رابط کاربری Clash مبتنی بر tauri. پشتیبانی از Windows، macOS و Linux.
+- [louisyoungx/safari-like-startpage](https://github.com/louisyoungx/safari-like-startpage) - صفحه شروع شبیه Safari
+- [BoostIO/BoostNote-App](https://github.com/BoostIO/BoostNote-App) - Boost Note یک ابزار مدیریت پروژه مبتنی بر سند است که سرعت تیم DevOps راه دور را به حداکثر می‌رساند.
+- [rick-yo/remind](https://github.com/rick-yo/remind) - آوردن نقشه ذهنی به مرورگر
+- [QwikDev/qwik](https://github.com/QwikDev/qwik) - برنامه‌های وب با بارگذاری فوری، بدون زحمت
 - [vuepress-reco/vuepress-theme-reco](https://github.com/vuepress-reco/vuepress-theme-reco) - 🎨 این مخزن برای vuepress-theme-reco 2 است.
-- [WayneGongCN/microsoft-todo-browser-ext](https://github.com/WayneGongCN/microsoft-todo-browser-ext) - افزونه مرورگر متن‌باز شخص ثالث برای Microsoft To Do
-- [outline/outline](https://github.com/outline/outline) - سریع‌ترین پایگاه دانش برای تیم‌های در حال رشد. زیبا، همکاری بلادرنگ، ویژگی‌های غنی و سازگار با مارک‌داون.
-- [geist-org/geist-ui](https://github.com/geist-org/geist-ui) - یک سیستم طراحی برای ساخت وب‌سایت‌ها و اپلیکیشن‌های مدرن.
-- [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) - کارگاه جامع نشر شما
-- [ddiu8081/bus-vis](https://github.com/ddiu8081/bus-vis) - 🚌 نمایش‌های تصویری اتوبوس شهری چین.
-- [vitejs/vite](https://github.com/vitejs/vite) - ابزار نسل بعدی فرانت‌اند. سریع است!
-- [notea-org/notea](https://github.com/notea-org/notea) - 📒 اپلیکیشن یادداشت‌برداری خودمیزبان با ذخیره‌سازی روی S3
-- [heroui-inc/heroui](https://github.com/heroui-inc/heroui) - 🚀 کتابخانه UI سریع، زیبا و مدرن React. (قبلاً NextUI)
+- [WayneGongCN/microsoft-todo-browser-ext](https://github.com/WayneGongCN/microsoft-todo-browser-ext) - افزونه متن‌باز شخص ثالث برای مرورگر Microsoft To Do
+- [outline/outline](https://github.com/outline/outline) - سریع‌ترین پایگاه دانش برای تیم‌های در حال رشد. زیبا، همکارانه به‌صورت بلادرنگ، پر از امکانات و سازگار با Markdown.
+- [geist-org/geist-ui](https://github.com/geist-org/geist-ui) - یک سیستم طراحی برای ساخت وب‌سایت‌ها و برنامه‌های مدرن.
+- [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) - میزکار جامع انتشار شما
+- [ddiu8081/bus-vis](https://github.com/ddiu8081/bus-vis) - 🚌 مصورسازی اتوبوس‌های شهری چین.
+- [vitejs/vite](https://github.com/vitejs/vite) - نسل بعدی ابزارهای فرانت‌اند. سریع است!
+- [notea-org/notea](https://github.com/notea-org/notea) - 📒 برنامه یادداشت‌برداری خودمیزبان با ذخیره‌سازی روی S3
+- [heroui-inc/heroui](https://github.com/heroui-inc/heroui) - 🚀 کتابخانه رابط کاربری React زیبا، سریع و مدرن. (قبلاً NextUI)
 - [coder/code-server](https://github.com/coder/code-server) - VS Code در مرورگر
-- [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) - فریم‌ورک CSS مبتنی بر utility برای توسعه سریع UI.
-- [danloh/mdSilo-web](https://github.com/danloh/mdSilo-web) - پایگاه دانش در مرورگر بر پایه فایل‌های متنی ساده محلی
-- [Gisto/Gisto](https://github.com/Gisto/Gisto) - Gisto یک اپلیکیشن مدیریت قطعه‌کد کراس پلتفرم است که به شما و/یا تیمتان اجازه می‌دهد قطعه‌کدها را سریع و آسان به اشتراک بگذارید. مبتنی بر زیرساخت GitHub Gists که به این معناست می‌توانید از تمام ویژگی‌ها استفاده کنید.
-- [GustavoASC/google-drive-vscode](https://github.com/GustavoASC/google-drive-vscode) - افزونه‌ای برای ادغام VSCode با Google Drive™
-- [liupan1890/aliyunpan](https://github.com/liupan1890/aliyunpan) - نسخه Xiaobaiyang از علی‌یون‌پان. نسخه PC علی‌یون‌پان aliyundriver
-- [Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo) - :rocket: ابزاری ساده و زیبا برای بارگذاری عکس ساخته شده با vue-cli-electron-builder
-- [XPoet/picx](https://github.com/XPoet/picx) - 🏞️ PicX یک ابزار آپلود عکس مبتنی بر GitHub API است که خدمات میزبانی عکس، تولید لینک عکس و جعبه ابزار تصویر ارائه می‌دهد.
-- [Actions-R-Us/actions-tagger](https://github.com/Actions-R-Us/actions-tagger) - یک متا-اکشن برای به‌روز نگه‌داشتن نسخه‌های اکشن شما :rocket:
-- [Ajaxy/telegram-tt](https://github.com/Ajaxy/telegram-tt) - تلگرام وب A، تحت GPL v3
-- [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) - وایت‌برد مجازی برای طراحی دیاگرام‌های دست‌نویس مانند
-- [nglviewer/ngl](https://github.com/nglviewer/ngl) - نمایشگر پروتئین WebGL
+- [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) - چارچوب CSS مبتنی بر utility برای توسعه سریع UI.
+- [danloh/mdSilo-web](https://github.com/danloh/mdSilo-web) - پایگاه دانش درون‌مرورگری مبتنی بر فایل‌های متنی ساده محلی
+- [Gisto/Gisto](https://github.com/Gisto/Gisto) - Gisto یک برنامه مدیریت قطعه کد چندسکویی است که به شما و/یا تیمتان اجازه می‌دهد کدها را سریع و آسان به اشتراک بگذارید. مبتنی بر زیرساخت GitHub Gists، یعنی می‌توانید از همه امکانات خود استفاده کنید.
+- [GustavoASC/google-drive-vscode](https://github.com/GustavoASC/google-drive-vscode) - افزونه یکپارچه‌سازی VSCode با Google Drive™
+- [liupan1890/aliyunpan](https://github.com/liupan1890/aliyunpan) - نسخه شیائوبای یانگ علی‌کلود درایو، نسخه PC علی‌کلود درایو aliyundriver
+- [Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo) - :rocket: ابزاری ساده و زیبا برای آپلود عکس ساخته‌شده با vue-cli-electron-builder
+- [XPoet/picx](https://github.com/XPoet/picx) - 🏞️ PicX یک ابزار تصویر مبتنی بر GitHub API است که سرویس آپلود و میزبانی عکس، تولید لینک عکس و جعبه‌ابزار تصاویر پرکاربرد را ارائه می‌دهد.
+- [Actions-R-Us/actions-tagger](https://github.com/Actions-R-Us/actions-tagger) - متا-اکشنی برای به‌روزرسانی نسخه اکشن‌های شما :rocket:
+- [Ajaxy/telegram-tt](https://github.com/Ajaxy/telegram-tt) - تلگرام وب A، تحت مجوز GPL v3
+- [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) - وایت‌برد مجازی برای طراحی نمودارهای دست‌نویس مانند
+- [nglviewer/ngl](https://github.com/nglviewer/ngl) - مشاهده‌گر پروتئین مبتنی بر WebGL
 - [mjswensen/themer](https://github.com/mjswensen/themer) - 🎨 themer مجموعه‌ای از رنگ‌ها را گرفته و تم‌هایی برای برنامه‌های شما (ویرایشگرها، ترمینال‌ها، والپیپرها و غیره) تولید می‌کند.
-- [Binaryify/OneDark-Pro](https://github.com/Binaryify/OneDark-Pro) - تم One Dark آیکونیک Atom برای Visual Studio Code
-- [ritwickdey/vscode-create-file-folder](https://github.com/ritwickdey/vscode-create-file-folder) - افزونه‌ای کوچک برای VSCode که به شما کمک می‌کند فایل و پوشه را به سبک Atom بسازید.
+- [Binaryify/OneDark-Pro](https://github.com/Binaryify/OneDark-Pro) - تم معروف One Dark اتم برای Visual Studio Code
+- [ritwickdey/vscode-create-file-folder](https://github.com/ritwickdey/vscode-create-file-folder) - افزونه کوچک vscode که به شما کمک می‌کند فایل و پوشه را به سبک Atom بسازید.
 - [whyour/qinglong](https://github.com/whyour/qinglong) - پلتفرم مدیریت وظایف زمان‌بندی شده با پشتیبانی از Python3، JavaScript، Shell، Typescript
-- [johnpapa/vscode-peacock](https://github.com/johnpapa/vscode-peacock) - به طور ظریف رنگ محیط کاری Visual Studio Code خود را تغییر دهید. ایده‌آل برای مواقعی که چندین نمونه VS Code دارید، از VS Live Share استفاده می‌کنید، یا از قابلیت‌های Remote VS Code استفاده می‌کنید و می‌خواهید محیط‌های خود را سریع شناسایی کنید.
-- [morethanwords/tweb](https://github.com/morethanwords/tweb) - تلگرام وب K، تحت GPL v3
-- [gitkraken/vscode-gitlens](https://github.com/gitkraken/vscode-gitlens) - قدرت‌بخشی به Git در VS Code و کشف دانش نهفته در هر مخزن — نمایش مالکیت کد در یک نگاه با حاشیه‌نویسی Git blame و CodeLens، ناوبری و کاوش بی‌وقفه در تاریخچه Git
-- [carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji) - راهنمای ایموجی برای پیام‌های commit شما. 😜
-- [NotionX/react-notion-x](https://github.com/NotionX/react-notion-x) - رندرر سریع و دقیق React برای Notion. شامل باتری‌های TS. ⚡️
-- [Shywim/github-repo-size](https://github.com/Shywim/github-repo-size) - افزونه Firefox که اندازه مخزن Github را نشان می‌دهد.
-- [streetsidesoftware/vscode-spell-checker](https://github.com/streetsidesoftware/vscode-spell-checker) - بررسی کننده املایی ساده برای کد منبع
-- [brianlovin/figma-dominant-color-toolkit](https://github.com/brianlovin/figma-dominant-color-toolkit) - تولید پالت از تصویر برای پر کردن جادویی طراحی‌های شما.
+- [johnpapa/vscode-peacock](https://github.com/johnpapa/vscode-peacock) - تغییر ظریف رنگ فضای کاری Visual Studio Code شما. ایده‌آل زمانی که چندین نمونه VS Code دارید، از VS Live Share یا قابلیت‌های Remote استفاده می‌کنید و می‌خواهید به سرعت محیط کاری خود را تشخیص دهید.
+- [morethanwords/tweb](https://github.com/morethanwords/tweb) - تلگرام وب K، تحت مجوز GPL v3
+- [gitkraken/vscode-gitlens](https://github.com/gitkraken/vscode-gitlens) - قدرت بخشیدن به Git در VS Code و آزاد کردن دانش نهفته در هر مخزن — مشاهده نویسندگی کد در یک نگاه از طریق حاشیه‌نویسی‌های Git blame و CodeLens، حرکت و اکتشاف یکپارچه در مخزن Git
+- [carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji) - راهنمای ایموجی برای پیام‌های کامیت شما. 😜
+- [NotionX/react-notion-x](https://github.com/NotionX/react-notion-x) - رندر سریع و دقیق React برای Notion. شامل باتری‌های TS. ⚡️
+- [Shywim/github-repo-size](https://github.com/Shywim/github-repo-size) - افزونه فایرفاکس که اندازه مخزن Github را نمایش می‌دهد.
+- [streetsidesoftware/vscode-spell-checker](https://github.com/streetsidesoftware/vscode-spell-checker) - بررسی کننده املای کد منبع ساده برای کد
+- [brianlovin/figma-dominant-color-toolkit](https://github.com/brianlovin/figma-dominant-color-toolkit) - تولید یک پالت از تصویر برای پر کردن جادویی طراحی‌های شما.
 - [transitive-bullshit/nextjs-notion-starter-kit](https://github.com/transitive-bullshit/nextjs-notion-starter-kit) - وب‌سایت خود را با قدرت Notion در چند دقیقه با Next.js و Vercel راه‌اندازی کنید.
 - [spencerwooo/onedrive-vercel-index](https://github.com/spencerwooo/onedrive-vercel-index) - فهرست دایرکتوری عمومی OneDrive، با قدرت Vercel و Next.js
 - [doki-theme/doki-theme-vscode](https://github.com/doki-theme/doki-theme-vscode) - تم‌های شخصیت انیمه بامزه برای VS-Code.
-- [frencojobs/vscode-notion](https://github.com/frencojobs/vscode-notion) - مرور صفحات Notion در داخل Visual Studio Code.
+- [frencojobs/vscode-notion](https://github.com/frencojobs/vscode-notion) - مرور صفحات Notion دقیقاً در داخل Visual Studio Code.
 - [lostintangent/gistpad](https://github.com/lostintangent/gistpad) - 📘 افزونه VS Code برای مدیریت و اشتراک‌گذاری قطعه‌کدها، یادداشت‌ها و نمونه‌های تعاملی با استفاده از GitHub Gists
-- [material-extensions/vscode-material-icon-theme](https://github.com/material-extensions/vscode-material-icon-theme) - آیکون‌های Material Design برای VS Code
-- [lokalise/i18n-ally](https://github.com/lokalise/i18n-ally) - 🌍 افزونه جامع i18n برای VS Code
+- [material-extensions/vscode-material-icon-theme](https://github.com/material-extensions/vscode-material-icon-theme) - آیکون‌های طراحی متریال برای VS Code
+- [lokalise/i18n-ally](https://github.com/lokalise/i18n-ally) - 🌍 افزونه همه‌کاره i18n برای VS Code
 - [vscode-icons/vscode-icons](https://github.com/vscode-icons/vscode-icons) - آیکون‌ها برای Visual Studio Code
-- [Authenticator-Extension/Authenticator](https://github.com/Authenticator-Extension/Authenticator) - Authenticator کدهای احراز هویت دومرحله‌ای را در مرورگر شما تولید می‌کند.
-- [samuelmaddock/metastream](https://github.com/samuelmaddock/metastream) - تماشای رسانه‌های پخش زنده با دوستان.
-- [swdotcom/swdc-vscode](https://github.com/swdotcom/swdc-vscode) - افزونه ثبت زمان برای Visual Studio Code
-- [oderwat/vscode-indent-rainbow](https://github.com/oderwat/vscode-indent-rainbow) - افزونه‌ای که تورفتگی را با پس‌زمینه رنگین‌کمانی کم‌رنگ نمایش می‌دهد تا خوانایی بیشتر شود
-- [CoenraadS/Bracket-Pair-Colorizer-2](https://github.com/CoenraadS/Bracket-Pair-Colorizer-2) - افزونه رنگی‌سازی براکت‌ها برای VSCode
-- [YXL76/cloudmusic-vscode](https://github.com/YXL76/cloudmusic-vscode) - نت‌ایز موزیک برای VS Code
-- [desktop/desktop](https://github.com/desktop/desktop) - روی آنچه اهمیت دارد تمرکز کنید، به جای درگیری با Git.
-- [withfig/autocomplete](https://github.com/withfig/autocomplete) - تکمیل خودکار شبیه IDE برای ترمینال و شل فعلی شما
-- [rid9/DateTime](https://github.com/rid9/DateTime) - اطلاعات تاریخ و زمان در نوار وضعیت Visual Studio Code.
-- [omgovich/colord](https://github.com/omgovich/colord) - 👑 ابزاری کوچک اما قدرتمند برای تبدیل و تغییر رنگ با کارایی بالا
+- [Authenticator-Extension/Authenticator](https://github.com/Authenticator-Extension/Authenticator) - Authenticator کدهای تأیید دو مرحله‌ای را در مرورگر شما تولید می‌کند.
+- [samuelmaddock/metastream](https://github.com/samuelmaddock/metastream) - تماشای رسانه‌های استریم با دوستان.
+- [swdotcom/swdc-vscode](https://github.com/swdotcom/swdc-vscode) - افزونه ردیابی زمان برای Visual Studio Code
+- [oderwat/vscode-indent-rainbow](https://github.com/oderwat/vscode-indent-rainbow) - افزونه‌ای که تورفتگی کد را با پس‌زمینه رنگین‌کمانی ملایم نمایش می‌دهد تا خواناتر شود
+- [CoenraadS/Bracket-Pair-Colorizer-2](https://github.com/CoenraadS/Bracket-Pair-Colorizer-2) - افزونه رنگ‌آمیزی جفت کروشه برای VSCode
+- [YXL76/cloudmusic-vscode](https://github.com/YXL76/cloudmusic-vscode) - موسیقی نت‌ایز برای VS Code
+- [desktop/desktop](https://github.com/desktop/desktop) - روی آنچه مهم است تمرکز کنید به جای درگیری با Git.
+- [withfig/autocomplete](https://github.com/withfig/autocomplete) - تکمیل خودکار به سبک IDE برای ترمینال و شل فعلی شما
+- [rid9/DateTime](https://github.com/rid9/DateTime) - نمایش اطلاعات تاریخ و زمان در نوار وضعیت Visual Studio Code.
+- [omgovich/colord](https://github.com/omgovich/colord) - 👑 ابزاری کوچک و قدرتمند برای تبدیل و دستکاری رنگ با کارایی بالا
 - [microsoft/vscode-sublime-keybindings](https://github.com/microsoft/vscode-sublime-keybindings) - افزونه کلیدهای میانبر Sublime Text برای VS Code
-- [triggerjs/trigger](https://github.com/triggerjs/trigger) - کتابخانه‌ای برای ایجاد انیمیشن‌های مبتنی بر اسکرول با ویژگی‌های HTML و متغیرهای CSS.
-- [Eugeny/tabby](https://github.com/Eugeny/tabby) - ترمینال برای عصری مدرن‌تر
-- [Vanessa219/vditor](https://github.com/Vanessa219/vditor) - ♏  یک ویرایشگر Markdown تحت مرورگر، پشتیبانی از WYSIWYG (متن غنی)، رندر آنی (شبیه Typora) و حالت پیش‌نمایش تقسیم‌شده. یک ویرایشگر Markdown در مرورگر، پشتیبانی از WYSIWYG (متن غنی)، رندر آنی (شبیه Typora) و حالت نمای تقسیم‌شده.
-- [Yqnn/svg-path-editor](https://github.com/Yqnn/svg-path-editor) - ویرایشگر آنلاین برای ساخت و ویرایش مسیرهای SVG
-- [daltonmenezes/aura-theme](https://github.com/daltonmenezes/aura-theme) - ✨ یک تم تیره زیبا برای برنامه‌های مورد علاقه شما.
-- [pawelgrzybek/snippet-generator](https://github.com/pawelgrzybek/snippet-generator) - تولیدکننده اسنیپت برای Visual Studio Code، Sublime Text و Atom
-- [robertying/learnX](https://github.com/robertying/learnX) - اپلیکیشن Web Learning دانشگاه Tsinghua، ساخته شده با React Native. اپلیکیشن برای یادگیری وب دانشگاه Tsinghua، توسعه یافته با React Native. ⚛️
+- [triggerjs/trigger](https://github.com/triggerjs/trigger) - کتابخانه‌ای برای ساخت انیمیشن مبتنی بر اسکرول با ویژگی‌های HTML و متغیرهای CSS.
+- [Eugeny/tabby](https://github.com/Eugeny/tabby) - ترمینالی برای عصر مدرن‌تر
+- [Vanessa219/vditor](https://github.com/Vanessa219/vditor) - ♏ ویرایشگر Markdown تحت مرورگر، پشتیبانی از WYSIWYG (متن غنی)، رندر فوری (مانند Typora) و حالت پیش‌نمایش تقسیم شده.
+- [Yqnn/svg-path-editor](https://github.com/Yqnn/svg-path-editor) - ویرایشگر آنلاین برای ساخت و دستکاری مسیرهای SVG
+- [daltonmenezes/aura-theme](https://github.com/daltonmenezes/aura-theme) - ✨ تم تاریک زیبا برای برنامه‌های مورد علاقه شما.
+- [pawelgrzybek/snippet-generator](https://github.com/pawelgrzybek/snippet-generator) - تولیدکننده قطعه‌کد برای Visual Studio Code، Sublime Text و Atom
+- [robertying/learnX](https://github.com/robertying/learnX) - برنامه شبکه آموزشی دانشگاه Tsinghua، ساخته شده با React Native. برنامه‌ای برای Tsinghua University Web Learning، توسعه یافته با React Native. ⚛️
 - [microsoft/vscode](https://github.com/microsoft/vscode) - Visual Studio Code
-- [refined-github/refined-github](https://github.com/refined-github/refined-github) - :octocat: افزونه مرورگر که رابط کاربری GitHub را ساده و ویژگی‌های مفید اضافه می‌کند
-- [reruin/sharelist](https://github.com/reruin/sharelist) - اشتراک سریع GoogleDrive و OneDrive
-- [dendronhq/dendron](https://github.com/dendronhq/dendron) - ابزار مدیریت دانش شخصی (PKM) که با شما رشد می‌کند!
-- [foambubble/foam](https://github.com/foambubble/foam) - سیستم مدیریت و اشتراک دانش شخصی برای VSCode
-- [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) - نرم‌افزار مدیریت دانش شخصی، خودمیزبان، کاملاً متن‌باز و اولویت حریم خصوصی، نوشته شده با typescript و golang.
-- [Ashutosh00710/github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph) - نمودار فعالیت تولیدشده پویا برای نمایش فعالیت‌های ۳۱ روز اخیر شما در GitHub.
-- [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) - 🧡 همه چیز RSSپذیر است
-- [the1812/Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved) - اسکریپت تقویت‌شده قدرتمند برای Bilibili
+- [refined-github/refined-github](https://github.com/refined-github/refined-github) - :octocat: افزونه مرورگر که رابط GitHub را ساده و امکانات مفیدی اضافه می‌کند
+- [reruin/sharelist](https://github.com/reruin/sharelist) - اشتراک‌گذاری سریع GoogleDrive و OneDrive
+- [dendronhq/dendron](https://github.com/dendronhq/dendron) - ابزار مدیریت دانش شخصی (PKM) که همراه با شما رشد می‌کند!
+- [foambubble/foam](https://github.com/foambubble/foam) - سیستم مدیریت و اشتراک‌گذاری دانش شخصی برای VSCode
+- [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) - نرم‌افزار مدیریت دانش شخصی کاملاً متن‌باز و خودمیزبان با اولویت حریم خصوصی، نوشته شده با typescript و golang.
+- [Ashutosh00710/github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph) - نمودار فعالیت پویا برای نمایش فعالیت‌های ۳۱ روز گذشته GitHub شما.
+- [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) - 🧡 همه چیز قابل RSS شدن است
+- [the1812/Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved) - اسکریپت تقویت‌شده قدرتمند برای بیلی‌بیلی
 - [darkreader/darkreader](https://github.com/darkreader/darkreader) - افزونه Dark Reader برای Chrome و Firefox
-- [ankit/stylebot](https://github.com/ankit/stylebot) - ظاهر وب را بلافاصله تغییر دهید
+- [ankit/stylebot](https://github.com/ankit/stylebot) - ظاهر وب را به صورت آنی تغییر دهید
 ## VBA 
 
 - [Jonathan-LeRoux/IguanaTex](https://github.com/Jonathan-LeRoux/IguanaTex) - افزونه‌ای برای پاورپوینت جهت وارد کردن معادلات LaTeX به ارائه‌های پاورپوینت در ویندوز و مک
@@ -2262,6 +2266,6 @@
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-13
 
 ---
