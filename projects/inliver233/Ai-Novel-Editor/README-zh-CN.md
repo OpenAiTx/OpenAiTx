@@ -1,3 +1,32 @@
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="right">
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=en">English</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=zh-CN">简体中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=zh-TW">繁體中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ja">日本語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ko">한국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=hi">हिन्दी</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=th">ไทย</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fr">Français</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=de">Deutsch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=es">Español</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=it">Itapano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ru">Русский</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pt">Português</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=nl">Nederlands</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pl">Polski</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ar">العربية</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fa">فارسی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=tr">Türkçe</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=vi">Tiếng Việt</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=id">Bahasa Indonesia</a></p>
+      </div>
+    </div>
+  </details>
+</div>
 # AI小说编辑器
 
 基于PyQt6的AI辅助小说编辑器，提供智能补全、项目管理、概念组织等专业写作工具。
@@ -15,14 +44,22 @@ cd ai-novel-editor
 python -m venv venv
 venv\Scripts\activate     # Windows
 ```
-
+使用uv
+```bash
+uv venv -p 3.11
+```
 3. 安装依赖
 ```bash
 pip install -r requirements.txt
 ```
+使用uv
+```bash
+uv sync
+```
+
 4. 运行程序
 ```bash
-python src/main.py
+python -m src
 ```
 
 ## 主要功能
@@ -32,14 +69,14 @@ python src/main.py
 - 项目导入导出（支持TEXT、MARKDOWN、DOCX、PDF、HTML格式）
 - 自动备份和版本控制
 - 多项目管理
-
 ### AI补全功能
-- 三种补全模式：自动补全、手动补全（推荐按一次Tab触发一次，再按一次Tab应用补全）、禁用补全
+- 三种补全模式：自动补全、手动补全（推荐按一次 Tab 触发一次，再按一次 Tab 应用补全）、禁用补全
 - 三种上下文模式：
   - 快速模式：轻量级上下文，快速响应
   - 平衡模式：中等上下文，质量与速度平衡
   - 全局模式：完整项目上下文，最佳效果
-- 支持多种AI服务：OpenAI、Claude、通义千问、智谱AI、DeepSeek、Groq等
+- 支持多种 AI 服务：OpenAI、Claude、通义千问、智谱 AI、DeepSeek、Groq 等
+
 ### 大纲管理
 - 可视化大纲树结构
 - 拖拽排序和层级调整
@@ -47,11 +84,10 @@ python src/main.py
 - 大纲分析和优化建议
 
 ### API配置
-- 统一的AI配置中心
+- 统一的 AI 配置中心
 - 多服务商预设配置
 - 连接测试功能
 - 配置方案保存和导入导出
-
 ### 智能补全设置
 - 可调节的触发延迟
 - 补全长度限制
@@ -63,6 +99,7 @@ python src/main.py
 - 自定义提示词模板
 - 模板分类管理
 - 模式特定模板配置
+
 ### 界面功能
 - 明暗双主题
 - 三栏式布局（项目树、编辑器、概念面板）
@@ -83,6 +120,7 @@ python src/main.py
 - 概念快速插入
 
 ## 快捷键
+
 - `Ctrl+N`: 新建项目
 - `Ctrl+O`: 打开项目
 - `Ctrl+S`: 保存文档
@@ -91,8 +129,6 @@ python src/main.py
 - `Ctrl+F`: 查找
 - `Ctrl+H`: 查找替换
 - `Ctrl+Shift+H`: 高级查找替换
-
-
 ## 系统要求
 
 - Python 3.8+
@@ -107,6 +143,6 @@ python src/main.py
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-13
 
 ---
