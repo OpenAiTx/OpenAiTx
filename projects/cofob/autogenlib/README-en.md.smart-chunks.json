@@ -1,0 +1,1563 @@
+[
+  {
+    "Id": 1,
+    "Content": "# AutoGenLib\n\n> The only library you'll need ever.\n>\n> Import wisdom, export code.\n\nAutoGenLib is a Python library that automatically generates code on-the-fly using OpenAI's API. When you try to import a module or function that doesn't exist, AutoGenLib creates it for you based on a high-level description of what you need.\n\n## Features\n\n- **Dynamic Code Generation**: Import modules and functions that don't exist yet\n- **Context-Aware**: New functions are generated with knowledge of existing code\n- **Progressive Enhancement**: Add new functionality to existing modules seamlessly\n- **No Default Caching**: Each import generates fresh code for more varied and creative results\n- **Full Codebase Context**: LLM can see all previously generated modules for better consistency\n- **Caller Code Analysis**: The LLM analyzes the actual code that's importing the module to better understand the context and requirements\n- **Automatic Exception Handling**: All exceptions are sent to LLM to provide clear explanation and fixes for errors.\n\n## Installation\n",
+    "ContentSha": "xungC58I5xsM7BfJRfg0QUhVlgBCmaz+hKPSoEPUiBk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# AutoGenLib\n\n> The only library you'll need ever.\n>\n> Import wisdom, export code.\n\nAutoGenLib is a Python library that automatically generates code on-the-fly using OpenAI's API. When you try to import a module or function that doesn't exist, AutoGenLib creates it for you based on a high-level description of what you need.\n\n## Features\n\n- **Dynamic Code Generation**: Import modules and functions that don't exist yet\n- **Context-Aware**: New functions are generated with knowledge of existing code\n- **Progressive Enhancement**: Add new functionality to existing modules seamlessly\n- **No Default Caching**: Each import generates fresh code for more varied and creative results\n- **Full Codebase Context**: LLM can see all previously generated modules for better consistency\n- **Caller Code Analysis**: The LLM analyzes the actual code that's importing the module to better understand the context and requirements\n- **Automatic Exception Handling**: All exceptions are sent to LLM to provide clear explanation and fixes for errors.\n\n## Installation\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Kpwwx9ejfGYsyL1IeS1F62jVv1P2b6BbZgVLDHaPvH4=",
+        "originContent": "# AutoGenLib",
+        "translatedContent": "# AutoGenLib"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "5MzJx9ZZ3Limo32dc9nigLf1VRTJXFtpr3IBdcbQhbU=",
+        "originContent": "> The only library you'll need ever.",
+        "translatedContent": "> The only library you'll need ever."
+      },
+      {
+        "row": 4,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 5,
+        "rowsha": "XpMuJEZTrhTVyAfat/EjXJgPYm2EuaTgEuMKcIPgo/0=",
+        "originContent": "> Import wisdom, export code.",
+        "translatedContent": "> Import wisdom, export code."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "sa9fp8Bo2GCQ9oOu+9S5KcON/gH7l7xvLEdagEibhZg=",
+        "originContent": "AutoGenLib is a Python library that automatically generates code on-the-fly using OpenAI's API. When you try to import a module or function that doesn't exist, AutoGenLib creates it for you based on a high-level description of what you need.",
+        "translatedContent": "AutoGenLib is a Python library that automatically generates code on-the-fly using OpenAI's API. When you try to import a module or function that doesn't exist, AutoGenLib creates it for you based on a high-level description of what you need."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Features"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "yIQs2+qq+FypBHzBfw50WTP1xobPFDyXeGr1DmffVfI=",
+        "originContent": "- **Dynamic Code Generation**: Import modules and functions that don't exist yet",
+        "translatedContent": "- **Dynamic Code Generation**: Import modules and functions that don't exist yet"
+      },
+      {
+        "row": 12,
+        "rowsha": "4nGYdfupekDMDaXt86sY0NsHj4ESuPtUEp6Mqznxmq0=",
+        "originContent": "- **Context-Aware**: New functions are generated with knowledge of existing code",
+        "translatedContent": "- **Context-Aware**: New functions are generated with knowledge of existing code"
+      },
+      {
+        "row": 13,
+        "rowsha": "AGYHUD7yWJZvCh8l8cp291MXy3/wjTtVwE6BaANWcHc=",
+        "originContent": "- **Progressive Enhancement**: Add new functionality to existing modules seamlessly",
+        "translatedContent": "- **Progressive Enhancement**: Add new functionality to existing modules seamlessly"
+      },
+      {
+        "row": 14,
+        "rowsha": "7idK5B0uBkIKJ0pIadulA2WG3gImFmMKeNz3MaKLbz8=",
+        "originContent": "- **No Default Caching**: Each import generates fresh code for more varied and creative results",
+        "translatedContent": "- **No Default Caching**: Each import generates fresh code for more varied and creative results"
+      },
+      {
+        "row": 15,
+        "rowsha": "VQIsayoy1TnJx+sY7l/icZC0B3QfFtX/XNItUcA9ieI=",
+        "originContent": "- **Full Codebase Context**: LLM can see all previously generated modules for better consistency",
+        "translatedContent": "- **Full Codebase Context**: LLM can see all previously generated modules for better consistency"
+      },
+      {
+        "row": 16,
+        "rowsha": "7FNRg+/ZZDa+ulhCkZ9KjZDF58E3FyeH5ruBrg8rZIU=",
+        "originContent": "- **Caller Code Analysis**: The LLM analyzes the actual code that's importing the module to better understand the context and requirements",
+        "translatedContent": "- **Caller Code Analysis**: The LLM analyzes the actual code that's importing the module to better understand the context and requirements"
+      },
+      {
+        "row": 17,
+        "rowsha": "yJp0ktmxvdcVSo1ehDe9ibNAIGuarb/6a5Z21UlnWNc=",
+        "originContent": "- **Automatic Exception Handling**: All exceptions are sent to LLM to provide clear explanation and fixes for errors.",
+        "translatedContent": "- **Automatic Exception Handling**: All exceptions are sent to LLM to provide clear explanation and fixes for errors."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\npip install autogenlib\n```",
+    "ContentSha": "YcqQDqL5s5KbAUBgYnvUecTOxkkZz5R3z8WK7O8UOzk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npip install autogenlib\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "zkiRsPTxndPXTwhmvbIyxCSv6dxnSPXkCCesigz00Io=",
+        "originContent": "pip install autogenlib",
+        "translatedContent": "pip install autogenlib"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nOr install from source:\n",
+    "ContentSha": "lLp9jg+yy+jUttHEqMZk7xrwgLhJSs53FsKTBPYYzXQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Or install from source:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Or install from source:"
+      },
+      {
+        "row": 2,
+        "rowsha": "935ttHh7u7TZunhyIStblckwHe7XJ5dsXFHVjJyRBYk=",
+        "originContent": "Or install from source:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\ngit clone https://github.com/cofob/autogenlib.git\ncd autogenlib\npip install -e .\n```",
+    "ContentSha": "JN5mf2iQtxu3/VHU5WIxulmqPOlmquGifWmVw7oExnU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/cofob/autogenlib.git\ncd autogenlib\npip install -e .\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "jECu7q3zi5t3IeOPM+J/s/JQbsfQl5CtdofzT2ERdVU=",
+        "originContent": "git clone https://github.com/cofob/autogenlib.git",
+        "translatedContent": "git clone https://github.com/cofob/autogenlib.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "8wddoBx0m4IaxVlUGomaGIiZ2HOTpfZzHoLZkov5WS8=",
+        "originContent": "cd autogenlib",
+        "translatedContent": "cd autogenlib"
+      },
+      {
+        "row": 4,
+        "rowsha": "knVRIKwsU4emj9biFUgJoBjbMP5EER6U5AGxS0Ix1+Y=",
+        "originContent": "pip install -e .",
+        "translatedContent": "pip install -e ."
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## Requirements\n\n- Python 3.12+\n- OpenAI API key\n\n## Quick Start\n\nSet OpenAI API key in `OPENAI_API_KEY` env variable.\n",
+    "ContentSha": "rIVTx0fhEQ5QZnhaRsJGtwKOeFs5IrYrqbe2sFOVBmM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Requirements\n\n- Python 3.12+\n- OpenAI API key\n\n## Quick Start\n\nSet OpenAI API key in `OPENAI_API_KEY` env variable.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Requirements"
+      },
+      {
+        "row": 2,
+        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+        "originContent": "## Requirements",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Python 3.12+"
+      },
+      {
+        "row": 4,
+        "rowsha": "54xOpzYqXHhefQLFKB5yke4FHSrhAi5BB0SxwygQNhs=",
+        "originContent": "- Python 3.12+",
+        "translatedContent": "- OpenAI API key"
+      },
+      {
+        "row": 5,
+        "rowsha": "gZB+KmHTq6AWGd3i7z2n6qauFljimwkKx0xrXArRQfY=",
+        "originContent": "- OpenAI API key",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Quick Start"
+      },
+      {
+        "row": 7,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Set OpenAI API key in `OPENAI_API_KEY` env variable."
+      },
+      {
+        "row": 9,
+        "rowsha": "dci/dpfm6mTkQMVaaKW/78QAaMJbA3S2jgU9222nuVw=",
+        "originContent": "Set OpenAI API key in `OPENAI_API_KEY` env variable.",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```python\n# Import a function that doesn't exist yet - it will be automatically generated\nfrom autogenlib.tokens import generate_token\n\n# Use the generated function\ntoken = generate_token(length=32)\nprint(token)\n```",
+    "ContentSha": "eHjXWMIaPV25MdUxQYZFB8y51KzTxDGUJdimqGz8O6k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\n# Import a function that doesn't exist yet - it will be automatically generated\nfrom autogenlib.tokens import generate_token\n\n# Use the generated function\ntoken = generate_token(length=32)\nprint(token)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "jLpIPToD4q03vivBGYp2At6onrrstXngdpZFfX5D3Gg=",
+        "originContent": "# Import a function that doesn't exist yet - it will be automatically generated",
+        "translatedContent": "# Import a function that doesn't exist yet - it will be automatically generated"
+      },
+      {
+        "row": 3,
+        "rowsha": "kY9fCSOGFAA/7fbOH9yN5PezAMd/glpB+msRHychDzw=",
+        "originContent": "from autogenlib.tokens import generate_token",
+        "translatedContent": "from autogenlib.tokens import generate_token"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Rwpro2bB87YSUxRn8hW2SEVpzXqvnBpEV0HEJ+oPciQ=",
+        "originContent": "# Use the generated function",
+        "translatedContent": "# Use the generated function"
+      },
+      {
+        "row": 6,
+        "rowsha": "b1ydWAuZqr1wELoc+9mVU743ari2GmPfIc94kBQ9AYA=",
+        "originContent": "token = generate_token(length=32)",
+        "translatedContent": "token = generate_token(length=32)"
+      },
+      {
+        "row": 7,
+        "rowsha": "iS9gdemyjpEIaVF83FJ/qJebosczHHM15QT1JYeUwMw=",
+        "originContent": "print(token)",
+        "translatedContent": "print(token)"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n## How It Works\n\n1. You initialize AutoGenLib with a description of what you need\n2. When you import a module or function under the `autogenlib` namespace, the library:\n   - Checks if the module/function already exists\n   - If not, it analyzes the code that's performing the import to understand the context\n   - It sends a request to OpenAI's API with your description and the context\n   - The API generates the appropriate code\n   - The code is validated and executed\n   - The requested module/function becomes available for use\n\n## Examples\n\n### Generate a TOTP Generator\n",
+    "ContentSha": "9qXlyEy3esyzO253DIufoP20H1YaR2927gpgavRJsxY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## How It Works\n\n1. You initialize AutoGenLib with a description of what you need\n2. When you import a module or function under the `autogenlib` namespace, the library:\n   - Checks if the module/function already exists\n   - If not, it analyzes the code that's performing the import to understand the context\n   - It sends a request to OpenAI's API with your description and the context\n   - The API generates the appropriate code\n   - The code is validated and executed\n   - The requested module/function becomes available for use\n\n## Examples\n\n### Generate a TOTP Generator\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## How It Works"
+      },
+      {
+        "row": 2,
+        "rowsha": "8Cn7DTPwgC5TRYcpx6IHELZx2Ghn/Zy5V2CaSviu4ik=",
+        "originContent": "## How It Works",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. You initialize AutoGenLib with a description of what you need"
+      },
+      {
+        "row": 4,
+        "rowsha": "iMC+iapBYyzmZXLJxUNRC1XzvIDnVdb4SgzLLtMfYoI=",
+        "originContent": "1. You initialize AutoGenLib with a description of what you need",
+        "translatedContent": "2. When you import a module or function under the `autogenlib` namespace, the library:"
+      },
+      {
+        "row": 5,
+        "rowsha": "2UKgMk6e5X5l+ppbEzJzng5utnPReIrDMr705m6PRKI=",
+        "originContent": "2. When you import a module or function under the `autogenlib` namespace, the library:",
+        "translatedContent": "   - Checks if the module/function already exists"
+      },
+      {
+        "row": 6,
+        "rowsha": "ir3feQy7TUDlKV9EKPnWYKWwoj3WOT9xZwQTzwYzTmI=",
+        "originContent": "   - Checks if the module/function already exists",
+        "translatedContent": "   - If not, it analyzes the code that's performing the import to understand the context"
+      },
+      {
+        "row": 7,
+        "rowsha": "qh9kErR3GdXoKWfdyUCC/Rf1caa5XjzXmCUp+3Rl4xI=",
+        "originContent": "   - If not, it analyzes the code that's performing the import to understand the context",
+        "translatedContent": "   - It sends a request to OpenAI's API with your description and the context"
+      },
+      {
+        "row": 8,
+        "rowsha": "jGBQPRvAUqOfwkDlPIz9rFRGC7FHPsdf7K4ovEQ3t7g=",
+        "originContent": "   - It sends a request to OpenAI's API with your description and the context",
+        "translatedContent": "   - The API generates the appropriate code"
+      },
+      {
+        "row": 9,
+        "rowsha": "sVB1nEOhWpaT4LAbDUQZ/MZTD3I2myGdTzYwBgqOthc=",
+        "originContent": "   - The API generates the appropriate code",
+        "translatedContent": "   - The code is validated and executed"
+      },
+      {
+        "row": 10,
+        "rowsha": "3Y6VKCy+81/Q8k5rI0ki7ee3Dq0l9o+QgXS1XN1Yk2U=",
+        "originContent": "   - The code is validated and executed",
+        "translatedContent": "   - The requested module/function becomes available for use"
+      },
+      {
+        "row": 11,
+        "rowsha": "B/LCMJ99fuQmKmmYE/fy+Airub+Gje6ICUkhq03eFwo=",
+        "originContent": "   - The requested module/function becomes available for use",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Examples"
+      },
+      {
+        "row": 13,
+        "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
+        "originContent": "## Examples",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Generate a TOTP Generator"
+      },
+      {
+        "row": 15,
+        "rowsha": "DMp/I1m+1nFyvGDSUtt3DfFaURd7YcR4CxLyyJt80PY=",
+        "originContent": "### Generate a TOTP Generator",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```python\nfrom autogenlib.totp import totp_generator\n\nprint(totp_generator(\"SECRETKEY123\"))\n```",
+    "ContentSha": "xeK2yPqRZX0m/Wv0Xu1lIF55nXeLxHlLGhxfS0xbyh0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nfrom autogenlib.totp import totp_generator\n\nprint(totp_generator(\"SECRETKEY123\"))\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "Wajn+KmCncLgzYtFeiKLwVwgVijTBJpOsWwNtJbhHgg=",
+        "originContent": "from autogenlib.totp import totp_generator",
+        "translatedContent": "from autogenlib.totp import totp_generator"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "fQRBiKwJrcGQw1SVuM9s8rTrLsOj2x1JB2ycURcZ5cc=",
+        "originContent": "print(totp_generator(\"SECRETKEY123\"))",
+        "translatedContent": "print(totp_generator(\"SECRETKEY123\"))"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nAdd a Verification Function Later\n",
+    "ContentSha": "fcMrhqSJAwsMsY/R48PR+8ecncglR+tWhiNfNy/HTj4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Add a Verification Function Later\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Add a Verification Function Later"
+      },
+      {
+        "row": 2,
+        "rowsha": "fycgox3+jCQacfASYUA+W/9L1onL1XFUURP2LDBI6Bw=",
+        "originContent": "Add a Verification Function Later",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```python\n# Later in your application, you need verification:\nfrom autogenlib.totp import verify_totp\nresult = verify_totp(\"SECRETKEY123\", \"123456\")\nprint(f\"Verification result: {result}\")\n```",
+    "ContentSha": "2RU/pStSDiEkKFrFqCXJvVefQ/IeMnwpQPXgow27hgA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\n# Later in your application, you need verification:\nfrom autogenlib.totp import verify_totp\nresult = verify_totp(\"SECRETKEY123\", \"123456\")\nprint(f\"Verification result: {result}\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "VTvzhbjKehVc/5xHs3gB92w3J6lXFGePVAIDjXjnKO8=",
+        "originContent": "# Later in your application, you need verification:",
+        "translatedContent": "# Later in your application, you need verification:"
+      },
+      {
+        "row": 3,
+        "rowsha": "lXaeXnIbCnkf+uqx+MbA/lRE/bitg/5UVW9aNYGzl/4=",
+        "originContent": "from autogenlib.totp import verify_totp",
+        "translatedContent": "from autogenlib.totp import verify_totp"
+      },
+      {
+        "row": 4,
+        "rowsha": "/dj6HuIYdsvs5rSFpHCRuig0nZG6C5I+dgvjZxLHPPw=",
+        "originContent": "result = verify_totp(\"SECRETKEY123\", \"123456\")",
+        "translatedContent": "result = verify_totp(\"SECRETKEY123\", \"123456\")"
+      },
+      {
+        "row": 5,
+        "rowsha": "IY9vFBqPxUokTobfFmBrpLcB2dVTh3iJBe9Iw4YK2bQ=",
+        "originContent": "print(f\"Verification result: {result}\")",
+        "translatedContent": "print(f\"Verification result: {result}\")"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n### Using Context-Awareness\n",
+    "ContentSha": "qCPmERRcdvSCmLNJTQ8aXdC7FX2ToB64DkC2+njmPHc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Using Context-Awareness\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Using Context-Awareness"
+      },
+      {
+        "row": 2,
+        "rowsha": "pPfZGGsF9Ykhw/rp2TQL2ewx6ngpVNAmCLhA64Rz9Zk=",
+        "originContent": "### Using Context-Awareness",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```python\n# Import a function - AutoGenLib will see how your data is structured\nfrom autogenlib.processor import get_highest_score\n\n# Define your data structure\ndata = [{\"user\": \"Alice\", \"score\": 95}, {\"user\": \"Bob\", \"score\": 82}]\n\n# The function will work with your data structure without you having to specify details\nprint(get_highest_score(data))  # Will correctly extract the highest score\n```",
+    "ContentSha": "szYhPKi9ZkKhOgBp9hyh9R27zxbrF6+IgPuwRMIPTuE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\n# Import a function - AutoGenLib will see how your data is structured\nfrom autogenlib.processor import get_highest_score\n\n# Define your data structure\ndata = [{\"user\": \"Alice\", \"score\": 95}, {\"user\": \"Bob\", \"score\": 82}]\n\n# The function will work with your data structure without you having to specify details\nprint(get_highest_score(data))  # Will correctly extract the highest score\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "qBXPLzVfwPYC3SoVX4ODmIJ/R/C+YOXNNgFApa9JTdk=",
+        "originContent": "# Import a function - AutoGenLib will see how your data is structured",
+        "translatedContent": "# Import a function - AutoGenLib will see how your data is structured"
+      },
+      {
+        "row": 3,
+        "rowsha": "Wrd2pwURB0nt1xHQEScqCwBhC/6O/Egrd2FpKG1KFUs=",
+        "originContent": "from autogenlib.processor import get_highest_score",
+        "translatedContent": "from autogenlib.processor import get_highest_score"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Iqlci+QITvHbpgOCaExs/KC2frIS0v1cBOgq5fLpXpI=",
+        "originContent": "# Define your data structure",
+        "translatedContent": "# Define your data structure"
+      },
+      {
+        "row": 6,
+        "rowsha": "JrG6D6i5kHAnmeN1qCUSEvaKnce87uL3vsDss0WcQrY=",
+        "originContent": "data = [{\"user\": \"Alice\", \"score\": 95}, {\"user\": \"Bob\", \"score\": 82}]",
+        "translatedContent": "data = [{\"user\": \"Alice\", \"score\": 95}, {\"user\": \"Bob\", \"score\": 82}]"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "551ZIKZ0bfEgNt5gRVhYFUivxTeU1guuLlrFt9bQAXU=",
+        "originContent": "# The function will work with your data structure without you having to specify details",
+        "translatedContent": "# The function will work with your data structure without you having to specify details"
+      },
+      {
+        "row": 9,
+        "rowsha": "PZAJT9ka1FPIU3vqxS2ug28baiPTreKFUZl2TfgoZMo=",
+        "originContent": "print(get_highest_score(data))  # Will correctly extract the highest score",
+        "translatedContent": "print(get_highest_score(data))  # Will correctly extract the highest score"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n### Create Multiple Modules\n",
+    "ContentSha": "yBnnfUFEQ0Vn6p8l7u0cnzZYr7FbrtBmDkAbjjJQxJg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Create Multiple Modules\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Create Multiple Modules"
+      },
+      {
+        "row": 2,
+        "rowsha": "jSeQEhTIJcPhFAmO5d1FABauXJHpuNDGpP1ezV5mFwQ=",
+        "originContent": "### Create Multiple Modules",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```python\n# You can use init function to additionally hint the purpose of your library\nfrom autogenlib import init\ninit(\"Cryptographic utility library\")\n\n# Generate encryption module\nfrom autogenlib.encryption import encrypt_text, decrypt_text\nencrypted = encrypt_text(\"Secret message\", \"password123\")\ndecrypted = decrypt_text(encrypted, \"password123\")\nprint(decrypted)\n\n# Generate hashing module\nfrom autogenlib.hashing import hash_password, verify_password\nhashed = hash_password(\"my_secure_password\")\nis_valid = verify_password(\"my_secure_password\", hashed)\nprint(f\"Password valid: {is_valid}\")\n```",
+    "ContentSha": "R/UDgljjfU7oVt15iUjoQPZj37Ku96IzEHOUmt1pqzY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\n# You can use init function to additionally hint the purpose of your library\nfrom autogenlib import init\ninit(\"Cryptographic utility library\")\n\n# Generate encryption module\nfrom autogenlib.encryption import encrypt_text, decrypt_text\nencrypted = encrypt_text(\"Secret message\", \"password123\")\ndecrypted = decrypt_text(encrypted, \"password123\")\nprint(decrypted)\n\n# Generate hashing module\nfrom autogenlib.hashing import hash_password, verify_password\nhashed = hash_password(\"my_secure_password\")\nis_valid = verify_password(\"my_secure_password\", hashed)\nprint(f\"Password valid: {is_valid}\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "iyVxtONRuO/QFXG3Na88oHBSD52SwOX8HPzU2Zpw9rM=",
+        "originContent": "# You can use init function to additionally hint the purpose of your library",
+        "translatedContent": "# You can use init function to additionally hint the purpose of your library"
+      },
+      {
+        "row": 3,
+        "rowsha": "ktxY/qrC1+x0Htcjor61mwvVeo4OmQja60knTnsJZl8=",
+        "originContent": "from autogenlib import init",
+        "translatedContent": "from autogenlib import init"
+      },
+      {
+        "row": 4,
+        "rowsha": "ORzRwQXn1eUlmg8mfACCzYpmU5FrOvukuh5M8+suYok=",
+        "originContent": "init(\"Cryptographic utility library\")",
+        "translatedContent": "init(\"Cryptographic utility library\")"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "OKbFKa5q23ZcSLrq6+SdP9W4q1tTfH12kPTO549u9Qc=",
+        "originContent": "# Generate encryption module",
+        "translatedContent": "# Generate encryption module"
+      },
+      {
+        "row": 7,
+        "rowsha": "Ld37I40ZktzuuNT/4UW7Gf3G5O8pODSIfzzrQ5qWyAs=",
+        "originContent": "from autogenlib.encryption import encrypt_text, decrypt_text",
+        "translatedContent": "from autogenlib.encryption import encrypt_text, decrypt_text"
+      },
+      {
+        "row": 8,
+        "rowsha": "kZR5+PhN5/1P5wtjaP4dBU9IycaCeQYQait6OtXCQRc=",
+        "originContent": "encrypted = encrypt_text(\"Secret message\", \"password123\")",
+        "translatedContent": "encrypted = encrypt_text(\"Secret message\", \"password123\")"
+      },
+      {
+        "row": 9,
+        "rowsha": "IOfGwoJHO3bsi4MzchhUluWaOJXrFoP0IRRwqi7LtiU=",
+        "originContent": "decrypted = decrypt_text(encrypted, \"password123\")",
+        "translatedContent": "decrypted = decrypt_text(encrypted, \"password123\")"
+      },
+      {
+        "row": 10,
+        "rowsha": "GM6Nchor5kDT2zHJ6gR5dRZSPklYYN0woXMloCnHBzY=",
+        "originContent": "print(decrypted)",
+        "translatedContent": "print(decrypted)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "dEOb9kifo5A5OGeklWzs6DDA5XpkQ9pJtIBruVTgOLY=",
+        "originContent": "# Generate hashing module",
+        "translatedContent": "# Generate hashing module"
+      },
+      {
+        "row": 13,
+        "rowsha": "XZzSBic5cesnmfv3aWO6IGAfqJnWJkxK/HojvdJB04I=",
+        "originContent": "from autogenlib.hashing import hash_password, verify_password",
+        "translatedContent": "from autogenlib.hashing import hash_password, verify_password"
+      },
+      {
+        "row": 14,
+        "rowsha": "TLAxkW0lVomzUIywHXqny+t+kMwyuiJ+3R7n/fsENj4=",
+        "originContent": "hashed = hash_password(\"my_secure_password\")",
+        "translatedContent": "hashed = hash_password(\"my_secure_password\")"
+      },
+      {
+        "row": 15,
+        "rowsha": "R1aRTsjDqrr2K9Gn5BgJmYtqlBYL8yynvcOagFd0ifM=",
+        "originContent": "is_valid = verify_password(\"my_secure_password\", hashed)",
+        "translatedContent": "is_valid = verify_password(\"my_secure_password\", hashed)"
+      },
+      {
+        "row": 16,
+        "rowsha": "H9fkhluTrJ4y3LTdpYIBBDScdOgGE7RcnFLebrBOuqc=",
+        "originContent": "print(f\"Password valid: {is_valid}\")",
+        "translatedContent": "print(f\"Password valid: {is_valid}\")"
+      },
+      {
+        "row": 17,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n## Configuration\n\n### Setting the OpenAI API Key\n\nSet your OpenAI API key as an environment variable:\n",
+    "ContentSha": "XE5XsoOV2fk+lYlcs+KD+iq60t9Y74X0c1MQUK0n2d4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Configuration\n\n### Setting the OpenAI API Key\n\nSet your OpenAI API key as an environment variable:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Configuration"
+      },
+      {
+        "row": 2,
+        "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+        "originContent": "## Configuration",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Setting the OpenAI API Key"
+      },
+      {
+        "row": 4,
+        "rowsha": "szjDV8G80dgym/o+Pl4opVV35p6K6tIqfviOzQYCG2M=",
+        "originContent": "### Setting the OpenAI API Key",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Set your OpenAI API key as an environment variable:"
+      },
+      {
+        "row": 6,
+        "rowsha": "Ik2wQeR1wQ5V6Eg1lEkF/SqvuiR6ziHQUcWdpvZCpLU=",
+        "originContent": "Set your OpenAI API key as an environment variable:",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```bash\nexport OPENAI_API_KEY=\"your-api-key-here\"\n# Optional\nexport OPENAI_API_BASE_URL=\"https://openrouter.ai/api/v1\"  # Use OpenRouter API\nexport OPENAI_MODEL=\"openai/gpt-4.1\"\n```",
+    "ContentSha": "MRN5+xpdQkCpqYbNP8vigOtEwJroBBC+9VTFm2tAR9Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nexport OPENAI_API_KEY=\"your-api-key-here\"\n# Optional\nexport OPENAI_API_BASE_URL=\"https://openrouter.ai/api/v1\"  # Use OpenRouter API\nexport OPENAI_MODEL=\"openai/gpt-4.1\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "7itvt7gZEMXbhbPQnkH1smoxnBbGEbhHHl4pmvXPD8k=",
+        "originContent": "export OPENAI_API_KEY=\"your-api-key-here\"",
+        "translatedContent": "export OPENAI_API_KEY=\"your-api-key-here\""
+      },
+      {
+        "row": 3,
+        "rowsha": "REQL/obu8+xyQgGiGZDiRtRkXPmFMjjiBj29GzOqUt8=",
+        "originContent": "# Optional",
+        "translatedContent": "# Optional"
+      },
+      {
+        "row": 4,
+        "rowsha": "Qhn0c7OeHMBQIZFCWuKvSen+a6U2ox5VIrORX5nEAAo=",
+        "originContent": "export OPENAI_API_BASE_URL=\"https://openrouter.ai/api/v1\"  # Use OpenRouter API",
+        "translatedContent": "export OPENAI_API_BASE_URL=\"https://openrouter.ai/api/v1\"  # Use OpenRouter API"
+      },
+      {
+        "row": 5,
+        "rowsha": "UvIjVf5nCy3OxHUmuyao2pjACTqxM4fJTbqF+t6vTUg=",
+        "originContent": "export OPENAI_MODEL=\"openai/gpt-4.1\"",
+        "translatedContent": "export OPENAI_MODEL=\"openai/gpt-4.1\""
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\nOr in your Python code (not recommended for production):\n",
+    "ContentSha": "1s4BC6NIvBkRE7tSop27zQPDieEEQuDYOcGvPj6m+Qw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Or in your Python code (not recommended for production):\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Or in your Python code (not recommended for production):"
+      },
+      {
+        "row": 2,
+        "rowsha": "RQaVx/9+iA6ojm2AllIlVO3kVlkI5X0R8mSSMNLgQrY=",
+        "originContent": "Or in your Python code (not recommended for production):",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```python\nimport os\nos.environ[\"OPENAI_API_KEY\"] = \"your-api-key-here\"\n```",
+    "ContentSha": "o/t/zuabWNF0WF2hxdxkuVCI1S6eeIK04IrDcSDOf+8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nimport os\nos.environ[\"OPENAI_API_KEY\"] = \"your-api-key-here\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "3iq63oMsjjUKG9yYz82x4gKsR0nF/FGkqXDUFza231w=",
+        "originContent": "import os",
+        "translatedContent": "import os"
+      },
+      {
+        "row": 3,
+        "rowsha": "LcxeDak3E7RLy+1DymShAOTOTcIFl3E6zv53pOeMjwg=",
+        "originContent": "os.environ[\"OPENAI_API_KEY\"] = \"your-api-key-here\"",
+        "translatedContent": "os.environ[\"OPENAI_API_KEY\"] = \"your-api-key-here\""
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n### Caching Behavior\n\nBy default, AutoGenLib does not cache generated code. This means:\n\n- Each time you import a module, the LLM generates fresh code\n- You get more varied and often funnier results due to LLM hallucinations\n- The same import might produce different implementations across runs\n\nIf you want to enable caching (for consistency or to reduce API calls):\n",
+    "ContentSha": "PpYsmtnr4NO7ZwQcXSbZkFzLgXwQW6Ei+NvicikF9Vs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Caching Behavior\n\nBy default, AutoGenLib does not cache generated code. This means:\n\n- Each time you import a module, the LLM generates fresh code\n- You get more varied and often funnier results due to LLM hallucinations\n- The same import might produce different implementations across runs\n\nIf you want to enable caching (for consistency or to reduce API calls):\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Caching Behavior"
+      },
+      {
+        "row": 2,
+        "rowsha": "oV/mc3y0aVDCHA9ufDpFWT6NmTvNYkN3VWgwIswGloQ=",
+        "originContent": "### Caching Behavior",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "By default, AutoGenLib does not cache generated code. This means:"
+      },
+      {
+        "row": 4,
+        "rowsha": "Vg9ultpW7MSDXXMppKmbJrEPfjTc8930I4vtPwAuN2k=",
+        "originContent": "By default, AutoGenLib does not cache generated code. This means:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Each time you import a module, the LLM generates fresh code"
+      },
+      {
+        "row": 6,
+        "rowsha": "x0IeCkMa/Nh8+zORBemYu96RxzVjFF2kElimdzo/jNg=",
+        "originContent": "- Each time you import a module, the LLM generates fresh code",
+        "translatedContent": "- You get more varied and often funnier results due to LLM hallucinations"
+      },
+      {
+        "row": 7,
+        "rowsha": "VDH1W2IQYl7nfgZWtDbT7TdIsY28yJRMS2AbX2YeC8E=",
+        "originContent": "- You get more varied and often funnier results due to LLM hallucinations",
+        "translatedContent": "- The same import might produce different implementations across runs"
+      },
+      {
+        "row": 8,
+        "rowsha": "+H7zIWF/qqEtdka74CqUtGMb2+f7XjtMYkNz6M1AJmM=",
+        "originContent": "- The same import might produce different implementations across runs",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "If you want to enable caching (for consistency or to reduce API calls):"
+      },
+      {
+        "row": 10,
+        "rowsha": "qphgmAyE+cTU4SAjMyZtv+4AUjUj+4UbBRuVpSEmyPo=",
+        "originContent": "If you want to enable caching (for consistency or to reduce API calls):",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```python\nfrom autogenlib import init\ninit(\"Library for data processing\", enable_caching=True)\n```",
+    "ContentSha": "RHR/cI2Xrkafc3VdrMMwdm1rVyih1jk64/8HkbXhpfI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nfrom autogenlib import init\ninit(\"Library for data processing\", enable_caching=True)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "ktxY/qrC1+x0Htcjor61mwvVeo4OmQja60knTnsJZl8=",
+        "originContent": "from autogenlib import init",
+        "translatedContent": "from autogenlib import init"
+      },
+      {
+        "row": 3,
+        "rowsha": "ZWJC6MBxdfOJ5tZ1Ty79rQ1teul+2JWFjrZ9rSH3zTk=",
+        "originContent": "init(\"Library for data processing\", enable_caching=True)",
+        "translatedContent": "init(\"Library for data processing\", enable_caching=True)"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\nOr toggle caching at runtime:\n",
+    "ContentSha": "L5fqDKbP0Ij1dRgV2A+jGEa9yJ+mj+ds8yFtYU2tQEw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Or toggle caching at runtime:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Or toggle caching at runtime:"
+      },
+      {
+        "row": 2,
+        "rowsha": "Yo5qAvyijV63IaImnO7yRq/zjUOs9FIuT8jnZzvMz1c=",
+        "originContent": "Or toggle caching at runtime:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```python\nfrom autogenlib import init, set_caching\ninit(\"Library for data processing\")\n\n# Later in your code:\nset_caching(True)  # Enable caching\nset_caching(False)  # Disable caching\n```",
+    "ContentSha": "CFe+qyoVI8SFU2r9zeLbdAnKmjKdZPQG3eykYbCesso=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nfrom autogenlib import init, set_caching\ninit(\"Library for data processing\")\n\n# Later in your code:\nset_caching(True)  # Enable caching\nset_caching(False)  # Disable caching\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "ix5kOoTsnSdj/ymgJJ4SBeCD4ij8fv1oRvT5YmsbESQ=",
+        "originContent": "from autogenlib import init, set_caching",
+        "translatedContent": "from autogenlib import init, set_caching"
+      },
+      {
+        "row": 3,
+        "rowsha": "N4cNmyS7kL8K04LgTSMBOJvQHmYcwcMXMuFwPh+Lhvs=",
+        "originContent": "init(\"Library for data processing\")",
+        "translatedContent": "init(\"Library for data processing\")"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "/Pskks72RWlxvv64JT4wbZ25cfnSp1vfebu5vd25uqk=",
+        "originContent": "# Later in your code:",
+        "translatedContent": "# Later in your code:"
+      },
+      {
+        "row": 6,
+        "rowsha": "K/guMSTLDX8rLRgSSpR+Vqp8zsF72x5FXOMP/rKVxs0=",
+        "originContent": "set_caching(True)  # Enable caching",
+        "translatedContent": "set_caching(True)  # Enable caching"
+      },
+      {
+        "row": 7,
+        "rowsha": "7NkKqnp9Kq1/qd2wlOUYJTXoJUXg06wy5y2QWsc1DGA=",
+        "originContent": "set_caching(False)  # Disable caching",
+        "translatedContent": "set_caching(False)  # Disable caching"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\nWhen caching is enabled, generated code is stored in `~/.autogenlib_cache`.\n\n## Limitations\n\n- Requires internet connection to generate new code\n- Depends on OpenAI API availability\n- Generated code quality depends on the clarity of your description\n- Not suitable for production-critical code without review\n\n## Advanced Usage\n\n### Inspecting Generated Code\n\nYou can inspect the code that was generated for a module:\n",
+    "ContentSha": "mfzciKAL0W5qq/j/5lzyujYO4tBqTMAcR/n0KXpyefs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "When caching is enabled, generated code is stored in `~/.autogenlib_cache`.\n\n## Limitations\n\n- Requires internet connection to generate new code\n- Depends on OpenAI API availability\n- Generated code quality depends on the clarity of your description\n- Not suitable for production-critical code without review\n\n## Advanced Usage\n\n### Inspecting Generated Code\n\nYou can inspect the code that was generated for a module:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "When caching is enabled, generated code is stored in `~/.autogenlib_cache`."
+      },
+      {
+        "row": 2,
+        "rowsha": "bfZk7r/JK+NvkEuwQY8LbBoRKY5uVmzOFZXGIIh35Gg=",
+        "originContent": "When caching is enabled, generated code is stored in `~/.autogenlib_cache`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Limitations"
+      },
+      {
+        "row": 4,
+        "rowsha": "Y51epMDrwmz/jYfs51pwyOiZomkP6vqj3r54yR/Mvp4=",
+        "originContent": "## Limitations",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Requires internet connection to generate new code"
+      },
+      {
+        "row": 6,
+        "rowsha": "86WvpIbY0Z3hJgeFwDshM6ciow+FaOnXgM6nPJmDhEA=",
+        "originContent": "- Requires internet connection to generate new code",
+        "translatedContent": "- Depends on OpenAI API availability"
+      },
+      {
+        "row": 7,
+        "rowsha": "wT7UD4gg2ap5ISwcQJTp6LkwdUXBmJcDptvyeySIBOQ=",
+        "originContent": "- Depends on OpenAI API availability",
+        "translatedContent": "- Generated code quality depends on the clarity of your description"
+      },
+      {
+        "row": 8,
+        "rowsha": "x2ECTlgckqhG4yjfJAwz0bhxT/tujbDDcV5hO8wAxP8=",
+        "originContent": "- Generated code quality depends on the clarity of your description",
+        "translatedContent": "- Not suitable for production-critical code without review"
+      },
+      {
+        "row": 9,
+        "rowsha": "4/3D1PCphsz2wfjsVaa+1O/HGZ0S5h9t9SzBeTpozqc=",
+        "originContent": "- Not suitable for production-critical code without review",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Advanced Usage"
+      },
+      {
+        "row": 11,
+        "rowsha": "3q+lclQQKa/mkVijw2G5SxQQg/odrvMc/jR58kE4feY=",
+        "originContent": "## Advanced Usage",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Inspecting Generated Code"
+      },
+      {
+        "row": 13,
+        "rowsha": "Zv6qvRK8Rq7jwZzDV6wr5oqswC+5JDoKZkrdbilap4k=",
+        "originContent": "### Inspecting Generated Code",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "You can inspect the code that was generated for a module:"
+      },
+      {
+        "row": 15,
+        "rowsha": "w1PKWxl2QCRnowkeyTvcpmBJzMftlf/NlIJGcPXBpyQ=",
+        "originContent": "You can inspect the code that was generated for a module:",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```python\nfrom autogenlib.totp import totp_generator\nimport inspect\nprint(inspect.getsource(totp_generator))\n```",
+    "ContentSha": "1xTznXRcpcHnWh/N0PYEoR11/YK+FuqluC3z8ZlN0D4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nfrom autogenlib.totp import totp_generator\nimport inspect\nprint(inspect.getsource(totp_generator))\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "Wajn+KmCncLgzYtFeiKLwVwgVijTBJpOsWwNtJbhHgg=",
+        "originContent": "from autogenlib.totp import totp_generator",
+        "translatedContent": "from autogenlib.totp import totp_generator"
+      },
+      {
+        "row": 3,
+        "rowsha": "w6dD5tJMm9G8Q+3HJZTfkbPIpfJjTSfVX0MWtMu7OSk=",
+        "originContent": "import inspect",
+        "translatedContent": "import inspect"
+      },
+      {
+        "row": 4,
+        "rowsha": "e4tcLs198qTaK9OCEVr/C+VAeAr/UQFxaDp3XRInKss=",
+        "originContent": "print(inspect.getsource(totp_generator))",
+        "translatedContent": "print(inspect.getsource(totp_generator))"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\n## How AutoGenLib Uses the OpenAI API\n\nAutoGenLib creates prompts for the OpenAI API that include:\n\n1. The description you provided\n2. Any existing code in the module being enhanced\n3. The full context of all previously generated modules\n4. The code that's importing the module/function (new feature!)\n5. The specific function or feature needed\n\nThis comprehensive context helps the LLM generate code that's consistent with your existing codebase and fits perfectly with how you intend to use it.\n\n## Contributing\n\nContributions are not welcome! This is just a fun PoC project.\n\n## License\n\nMIT License\n\n---\n\n*Note: This library is meant for prototyping and experimentation. Always review automatically generated code before using it in production environments.*\n\n*Note: Of course 100% of the code of this library was generated via LLM*\n",
+    "ContentSha": "sOaKMvxjQpTyVNe2J9NJoDbkTideI7vDxXzMe1GPKUo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## How AutoGenLib Uses the OpenAI API\n\nAutoGenLib creates prompts for the OpenAI API that include:\n\n1. The description you provided  \n2. Any existing code in the module being enhanced  \n3. The full context of all previously generated modules  \n4. The code that's importing the module/function (new feature!)  \n5. The specific function or feature needed  \n\nThis comprehensive context helps the LLM generate code that's consistent with your existing codebase and fits perfectly with how you intend to use it.\n\n## Contributing\n\nContributions are not welcome! This is just a fun PoC project.\n\n## License\n\nMIT License\n\n---\n\n*Note: This library is meant for prototyping and experimentation. Always review automatically generated code before using it in production environments.*\n\n*Note: Of course 100% of the code of this library was generated via LLM*\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## How AutoGenLib Uses the OpenAI API"
+      },
+      {
+        "row": 2,
+        "rowsha": "QTgxwRpflKk8dV/KEPesvtk9xbeZN4EPq4hqQFwAN24=",
+        "originContent": "## How AutoGenLib Uses the OpenAI API",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "AutoGenLib creates prompts for the OpenAI API that include:"
+      },
+      {
+        "row": 4,
+        "rowsha": "F+Q5XbkiDziU92HuWOdHiiYb+3K/dcWBkE8bJX/sBxo=",
+        "originContent": "AutoGenLib creates prompts for the OpenAI API that include:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. The description you provided  "
+      },
+      {
+        "row": 6,
+        "rowsha": "SP6fE1Ap/P4OrpoRxUBIykHz+UJcKUjIGtaRxXLPXsA=",
+        "originContent": "1. The description you provided",
+        "translatedContent": "2. Any existing code in the module being enhanced  "
+      },
+      {
+        "row": 7,
+        "rowsha": "YEHqbx9a/S/Rp7VBMpW74mE8cTsOSbckjVKpczFaOGs=",
+        "originContent": "2. Any existing code in the module being enhanced",
+        "translatedContent": "3. The full context of all previously generated modules  "
+      },
+      {
+        "row": 8,
+        "rowsha": "WVR7TcyNu26TdacS7MZu0/iKQUDlb0l/fSkzFIeFScQ=",
+        "originContent": "3. The full context of all previously generated modules",
+        "translatedContent": "4. The code that's importing the module/function (new feature!)  "
+      },
+      {
+        "row": 9,
+        "rowsha": "z01WGQ2/ysd6Caek6nxx0H6MZ6vMDfuxdbhy7HzDuuc=",
+        "originContent": "4. The code that's importing the module/function (new feature!)",
+        "translatedContent": "5. The specific function or feature needed  "
+      },
+      {
+        "row": 10,
+        "rowsha": "ZNNNPRNJ/TNcYTO29Wa3KCUgxykkYYQ/Gka/QH8aIhE=",
+        "originContent": "5. The specific function or feature needed",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "This comprehensive context helps the LLM generate code that's consistent with your existing codebase and fits perfectly with how you intend to use it."
+      },
+      {
+        "row": 12,
+        "rowsha": "2xcQdsJ7wkf+DdPE5v2BGK0zUShptiUz2ZsdMiWW2ZI=",
+        "originContent": "This comprehensive context helps the LLM generate code that's consistent with your existing codebase and fits perfectly with how you intend to use it.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Contributing"
+      },
+      {
+        "row": 14,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Contributions are not welcome! This is just a fun PoC project."
+      },
+      {
+        "row": 16,
+        "rowsha": "IDbQVv09YjPqOwLg99DHL2LDRyy0t/nromltOamGceU=",
+        "originContent": "Contributions are not welcome! This is just a fun PoC project.",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## License"
+      },
+      {
+        "row": 18,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "MIT License"
+      },
+      {
+        "row": 20,
+        "rowsha": "q7KJbcPCqUAvkBuI1QNc8Kg9XPfBfnNkLN9WKwudO8U=",
+        "originContent": "MIT License",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 22,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*Note: This library is meant for prototyping and experimentation. Always review automatically generated code before using it in production environments.*"
+      },
+      {
+        "row": 24,
+        "rowsha": "OwS2uV/AdIepbS/tFw2aNBqwM1oGwv4df0y5ahjWWjE=",
+        "originContent": "*Note: This library is meant for prototyping and experimentation. Always review automatically generated code before using it in production environments.*",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*Note: Of course 100% of the code of this library was generated via LLM*"
+      },
+      {
+        "row": 26,
+        "rowsha": "1F/f2EGhPGwsNmRlp7VQ29TO/UKc5+07LOWAdikdxWA=",
+        "originContent": "*Note: Of course 100% of the code of this library was generated via LLM*",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

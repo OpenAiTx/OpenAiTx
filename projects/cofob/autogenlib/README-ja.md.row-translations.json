@@ -1,0 +1,1238 @@
+[
+  {
+    "row": 1,
+    "rowsha": "Kpwwx9ejfGYsyL1IeS1F62jVv1P2b6BbZgVLDHaPvH4=",
+    "originContent": "# AutoGenLib",
+    "translatedContent": "# AutoGenLib"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "5MzJx9ZZ3Limo32dc9nigLf1VRTJXFtpr3IBdcbQhbU=",
+    "originContent": "> The only library you'll need ever.",
+    "translatedContent": "> あなたがこれから必要とする唯一のライブラリ。"
+  },
+  {
+    "row": 4,
+    "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+    "originContent": ">",
+    "translatedContent": ">"
+  },
+  {
+    "row": 5,
+    "rowsha": "XpMuJEZTrhTVyAfat/EjXJgPYm2EuaTgEuMKcIPgo/0=",
+    "originContent": "> Import wisdom, export code.",
+    "translatedContent": "> 知識をインポートし、コードをエクスポート。"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "sa9fp8Bo2GCQ9oOu+9S5KcON/gH7l7xvLEdagEibhZg=",
+    "originContent": "AutoGenLib is a Python library that automatically generates code on-the-fly using OpenAI's API. When you try to import a module or function that doesn't exist, AutoGenLib creates it for you based on a high-level description of what you need.",
+    "translatedContent": "AutoGenLibは、OpenAIのAPIを使用してリアルタイムでコードを自動生成するPythonライブラリです。存在しないモジュールや関数をインポートしようとすると、必要な内容の高レベルな説明に基づいてAutoGenLibがそれを作成します。"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 特徴"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "yIQs2+qq+FypBHzBfw50WTP1xobPFDyXeGr1DmffVfI=",
+    "originContent": "- **Dynamic Code Generation**: Import modules and functions that don't exist yet",
+    "translatedContent": "- **動的コード生成**：まだ存在しないモジュールや関数をインポート可能"
+  },
+  {
+    "row": 12,
+    "rowsha": "4nGYdfupekDMDaXt86sY0NsHj4ESuPtUEp6Mqznxmq0=",
+    "originContent": "- **Context-Aware**: New functions are generated with knowledge of existing code",
+    "translatedContent": "- **コンテキスト認識**：既存コードを理解した上で新しい関数を生成"
+  },
+  {
+    "row": 13,
+    "rowsha": "AGYHUD7yWJZvCh8l8cp291MXy3/wjTtVwE6BaANWcHc=",
+    "originContent": "- **Progressive Enhancement**: Add new functionality to existing modules seamlessly",
+    "translatedContent": "- **段階的強化**：既存モジュールに新機能をシームレスに追加"
+  },
+  {
+    "row": 14,
+    "rowsha": "7idK5B0uBkIKJ0pIadulA2WG3gImFmMKeNz3MaKLbz8=",
+    "originContent": "- **No Default Caching**: Each import generates fresh code for more varied and creative results",
+    "translatedContent": "- **デフォルトキャッシュなし**：インポートごとに新鮮なコードを生成し、より多様で創造的な結果を実現"
+  },
+  {
+    "row": 15,
+    "rowsha": "VQIsayoy1TnJx+sY7l/icZC0B3QfFtX/XNItUcA9ieI=",
+    "originContent": "- **Full Codebase Context**: LLM can see all previously generated modules for better consistency",
+    "translatedContent": "- **コードベース全体のコンテキスト**：LLMは以前に生成された全てのモジュールを参照し、一貫性を向上"
+  },
+  {
+    "row": 16,
+    "rowsha": "7FNRg+/ZZDa+ulhCkZ9KjZDF58E3FyeH5ruBrg8rZIU=",
+    "originContent": "- **Caller Code Analysis**: The LLM analyzes the actual code that's importing the module to better understand the context and requirements",
+    "translatedContent": "- **呼び出し元コード解析**：インポートしている実際のコードをLLMが解析し、文脈と要件をより深く理解"
+  },
+  {
+    "row": 17,
+    "rowsha": "yJp0ktmxvdcVSo1ehDe9ibNAIGuarb/6a5Z21UlnWNc=",
+    "originContent": "- **Automatic Exception Handling**: All exceptions are sent to LLM to provide clear explanation and fixes for errors.",
+    "translatedContent": "- **自動例外処理**：全ての例外をLLMに送信し、エラーの明確な説明と修正を提供"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## インストール"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 22,
+    "rowsha": "zkiRsPTxndPXTwhmvbIyxCSv6dxnSPXkCCesigz00Io=",
+    "originContent": "pip install autogenlib",
+    "translatedContent": "pip install autogenlib"
+  },
+  {
+    "row": 23,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "またはソースからインストール:"
+  },
+  {
+    "row": 25,
+    "rowsha": "935ttHh7u7TZunhyIStblckwHe7XJ5dsXFHVjJyRBYk=",
+    "originContent": "Or install from source:",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 28,
+    "rowsha": "jECu7q3zi5t3IeOPM+J/s/JQbsfQl5CtdofzT2ERdVU=",
+    "originContent": "git clone https://github.com/cofob/autogenlib.git",
+    "translatedContent": "git clone https://github.com/cofob/autogenlib.git"
+  },
+  {
+    "row": 29,
+    "rowsha": "8wddoBx0m4IaxVlUGomaGIiZ2HOTpfZzHoLZkov5WS8=",
+    "originContent": "cd autogenlib",
+    "translatedContent": "cd autogenlib"
+  },
+  {
+    "row": 30,
+    "rowsha": "knVRIKwsU4emj9biFUgJoBjbMP5EER6U5AGxS0Ix1+Y=",
+    "originContent": "pip install -e .",
+    "translatedContent": "pip install -e ."
+  },
+  {
+    "row": 31,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 要件"
+  },
+  {
+    "row": 33,
+    "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+    "originContent": "## Requirements",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Python 3.12以上"
+  },
+  {
+    "row": 35,
+    "rowsha": "54xOpzYqXHhefQLFKB5yke4FHSrhAi5BB0SxwygQNhs=",
+    "originContent": "- Python 3.12+",
+    "translatedContent": "- OpenAI APIキー"
+  },
+  {
+    "row": 36,
+    "rowsha": "gZB+KmHTq6AWGd3i7z2n6qauFljimwkKx0xrXArRQfY=",
+    "originContent": "- OpenAI API key",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## クイックスタート"
+  },
+  {
+    "row": 38,
+    "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+    "originContent": "## Quick Start",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`OPENAI_API_KEY` 環境変数にOpenAI APIキーを設定してください。"
+  },
+  {
+    "row": 40,
+    "rowsha": "dci/dpfm6mTkQMVaaKW/78QAaMJbA3S2jgU9222nuVw=",
+    "originContent": "Set OpenAI API key in `OPENAI_API_KEY` env variable.",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 43,
+    "rowsha": "jLpIPToD4q03vivBGYp2At6onrrstXngdpZFfX5D3Gg=",
+    "originContent": "# Import a function that doesn't exist yet - it will be automatically generated",
+    "translatedContent": "# Import a function that doesn't exist yet - it will be automatically generated"
+  },
+  {
+    "row": 44,
+    "rowsha": "kY9fCSOGFAA/7fbOH9yN5PezAMd/glpB+msRHychDzw=",
+    "originContent": "from autogenlib.tokens import generate_token",
+    "translatedContent": "from autogenlib.tokens import generate_token"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "Rwpro2bB87YSUxRn8hW2SEVpzXqvnBpEV0HEJ+oPciQ=",
+    "originContent": "# Use the generated function",
+    "translatedContent": "# Use the generated function"
+  },
+  {
+    "row": 47,
+    "rowsha": "b1ydWAuZqr1wELoc+9mVU743ari2GmPfIc94kBQ9AYA=",
+    "originContent": "token = generate_token(length=32)",
+    "translatedContent": "token = generate_token(length=32)"
+  },
+  {
+    "row": 48,
+    "rowsha": "iS9gdemyjpEIaVF83FJ/qJebosczHHM15QT1JYeUwMw=",
+    "originContent": "print(token)",
+    "translatedContent": "print(token)"
+  },
+  {
+    "row": 49,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 仕組み"
+  },
+  {
+    "row": 51,
+    "rowsha": "8Cn7DTPwgC5TRYcpx6IHELZx2Ghn/Zy5V2CaSviu4ik=",
+    "originContent": "## How It Works",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. 必要な内容の説明を使って AutoGenLib を初期化します  "
+  },
+  {
+    "row": 53,
+    "rowsha": "iMC+iapBYyzmZXLJxUNRC1XzvIDnVdb4SgzLLtMfYoI=",
+    "originContent": "1. You initialize AutoGenLib with a description of what you need",
+    "translatedContent": "2. `autogenlib` 名前空間の下でモジュールまたは関数をインポートすると、ライブラリは以下を行います  "
+  },
+  {
+    "row": 54,
+    "rowsha": "2UKgMk6e5X5l+ppbEzJzng5utnPReIrDMr705m6PRKI=",
+    "originContent": "2. When you import a module or function under the `autogenlib` namespace, the library:",
+    "translatedContent": "   - モジュール/関数がすでに存在するかチェックします  "
+  },
+  {
+    "row": 55,
+    "rowsha": "ir3feQy7TUDlKV9EKPnWYKWwoj3WOT9xZwQTzwYzTmI=",
+    "originContent": "   - Checks if the module/function already exists",
+    "translatedContent": "   - 存在しない場合は、インポートを実行しているコードを解析してコンテキストを理解します  "
+  },
+  {
+    "row": 56,
+    "rowsha": "qh9kErR3GdXoKWfdyUCC/Rf1caa5XjzXmCUp+3Rl4xI=",
+    "originContent": "   - If not, it analyzes the code that's performing the import to understand the context",
+    "translatedContent": "   - 説明とコンテキストを用いて OpenAI の API にリクエストを送信します  "
+  },
+  {
+    "row": 57,
+    "rowsha": "jGBQPRvAUqOfwkDlPIz9rFRGC7FHPsdf7K4ovEQ3t7g=",
+    "originContent": "   - It sends a request to OpenAI's API with your description and the context",
+    "translatedContent": "   - API が適切なコードを生成します  "
+  },
+  {
+    "row": 58,
+    "rowsha": "sVB1nEOhWpaT4LAbDUQZ/MZTD3I2myGdTzYwBgqOthc=",
+    "originContent": "   - The API generates the appropriate code",
+    "translatedContent": "   - コードが検証され、実行されます  "
+  },
+  {
+    "row": 59,
+    "rowsha": "3Y6VKCy+81/Q8k5rI0ki7ee3Dq0l9o+QgXS1XN1Yk2U=",
+    "originContent": "   - The code is validated and executed",
+    "translatedContent": "   - 要求されたモジュール/関数が使用可能になります  "
+  },
+  {
+    "row": 60,
+    "rowsha": "B/LCMJ99fuQmKmmYE/fy+Airub+Gje6ICUkhq03eFwo=",
+    "originContent": "   - The requested module/function becomes available for use",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 例"
+  },
+  {
+    "row": 62,
+    "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
+    "originContent": "## Examples",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### TOTP ジェネレーターを生成する"
+  },
+  {
+    "row": 64,
+    "rowsha": "DMp/I1m+1nFyvGDSUtt3DfFaURd7YcR4CxLyyJt80PY=",
+    "originContent": "### Generate a TOTP Generator",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 67,
+    "rowsha": "Wajn+KmCncLgzYtFeiKLwVwgVijTBJpOsWwNtJbhHgg=",
+    "originContent": "from autogenlib.totp import totp_generator",
+    "translatedContent": "from autogenlib.totp import totp_generator"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "fQRBiKwJrcGQw1SVuM9s8rTrLsOj2x1JB2ycURcZ5cc=",
+    "originContent": "print(totp_generator(\"SECRETKEY123\"))",
+    "translatedContent": "print(totp_generator(\"SECRETKEY123\"))"
+  },
+  {
+    "row": 70,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "後で検証機能を追加する"
+  },
+  {
+    "row": 72,
+    "rowsha": "fycgox3+jCQacfASYUA+W/9L1onL1XFUURP2LDBI6Bw=",
+    "originContent": "Add a Verification Function Later",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 75,
+    "rowsha": "VTvzhbjKehVc/5xHs3gB92w3J6lXFGePVAIDjXjnKO8=",
+    "originContent": "# Later in your application, you need verification:",
+    "translatedContent": "# Later in your application, you need verification:"
+  },
+  {
+    "row": 76,
+    "rowsha": "lXaeXnIbCnkf+uqx+MbA/lRE/bitg/5UVW9aNYGzl/4=",
+    "originContent": "from autogenlib.totp import verify_totp",
+    "translatedContent": "from autogenlib.totp import verify_totp"
+  },
+  {
+    "row": 77,
+    "rowsha": "/dj6HuIYdsvs5rSFpHCRuig0nZG6C5I+dgvjZxLHPPw=",
+    "originContent": "result = verify_totp(\"SECRETKEY123\", \"123456\")",
+    "translatedContent": "result = verify_totp(\"SECRETKEY123\", \"123456\")"
+  },
+  {
+    "row": 78,
+    "rowsha": "IY9vFBqPxUokTobfFmBrpLcB2dVTh3iJBe9Iw4YK2bQ=",
+    "originContent": "print(f\"Verification result: {result}\")",
+    "translatedContent": "print(f\"Verification result: {result}\")"
+  },
+  {
+    "row": 79,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### コンテキスト認識の使用"
+  },
+  {
+    "row": 81,
+    "rowsha": "pPfZGGsF9Ykhw/rp2TQL2ewx6ngpVNAmCLhA64Rz9Zk=",
+    "originContent": "### Using Context-Awareness",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 84,
+    "rowsha": "qBXPLzVfwPYC3SoVX4ODmIJ/R/C+YOXNNgFApa9JTdk=",
+    "originContent": "# Import a function - AutoGenLib will see how your data is structured",
+    "translatedContent": "# Import a function - AutoGenLib will see how your data is structured"
+  },
+  {
+    "row": 85,
+    "rowsha": "Wrd2pwURB0nt1xHQEScqCwBhC/6O/Egrd2FpKG1KFUs=",
+    "originContent": "from autogenlib.processor import get_highest_score",
+    "translatedContent": "from autogenlib.processor import get_highest_score"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "Iqlci+QITvHbpgOCaExs/KC2frIS0v1cBOgq5fLpXpI=",
+    "originContent": "# Define your data structure",
+    "translatedContent": "# Define your data structure"
+  },
+  {
+    "row": 88,
+    "rowsha": "JrG6D6i5kHAnmeN1qCUSEvaKnce87uL3vsDss0WcQrY=",
+    "originContent": "data = [{\"user\": \"Alice\", \"score\": 95}, {\"user\": \"Bob\", \"score\": 82}]",
+    "translatedContent": "data = [{\"user\": \"Alice\", \"score\": 95}, {\"user\": \"Bob\", \"score\": 82}]"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "551ZIKZ0bfEgNt5gRVhYFUivxTeU1guuLlrFt9bQAXU=",
+    "originContent": "# The function will work with your data structure without you having to specify details",
+    "translatedContent": "# The function will work with your data structure without you having to specify details"
+  },
+  {
+    "row": 91,
+    "rowsha": "PZAJT9ka1FPIU3vqxS2ug28baiPTreKFUZl2TfgoZMo=",
+    "originContent": "print(get_highest_score(data))  # Will correctly extract the highest score",
+    "translatedContent": "print(get_highest_score(data))  # Will correctly extract the highest score"
+  },
+  {
+    "row": 92,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 複数のモジュールを作成する"
+  },
+  {
+    "row": 94,
+    "rowsha": "jSeQEhTIJcPhFAmO5d1FABauXJHpuNDGpP1ezV5mFwQ=",
+    "originContent": "### Create Multiple Modules",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 97,
+    "rowsha": "iyVxtONRuO/QFXG3Na88oHBSD52SwOX8HPzU2Zpw9rM=",
+    "originContent": "# You can use init function to additionally hint the purpose of your library",
+    "translatedContent": "# You can use init function to additionally hint the purpose of your library"
+  },
+  {
+    "row": 98,
+    "rowsha": "ktxY/qrC1+x0Htcjor61mwvVeo4OmQja60knTnsJZl8=",
+    "originContent": "from autogenlib import init",
+    "translatedContent": "from autogenlib import init"
+  },
+  {
+    "row": 99,
+    "rowsha": "ORzRwQXn1eUlmg8mfACCzYpmU5FrOvukuh5M8+suYok=",
+    "originContent": "init(\"Cryptographic utility library\")",
+    "translatedContent": "init(\"Cryptographic utility library\")"
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "OKbFKa5q23ZcSLrq6+SdP9W4q1tTfH12kPTO549u9Qc=",
+    "originContent": "# Generate encryption module",
+    "translatedContent": "# Generate encryption module"
+  },
+  {
+    "row": 102,
+    "rowsha": "Ld37I40ZktzuuNT/4UW7Gf3G5O8pODSIfzzrQ5qWyAs=",
+    "originContent": "from autogenlib.encryption import encrypt_text, decrypt_text",
+    "translatedContent": "from autogenlib.encryption import encrypt_text, decrypt_text"
+  },
+  {
+    "row": 103,
+    "rowsha": "kZR5+PhN5/1P5wtjaP4dBU9IycaCeQYQait6OtXCQRc=",
+    "originContent": "encrypted = encrypt_text(\"Secret message\", \"password123\")",
+    "translatedContent": "encrypted = encrypt_text(\"Secret message\", \"password123\")"
+  },
+  {
+    "row": 104,
+    "rowsha": "IOfGwoJHO3bsi4MzchhUluWaOJXrFoP0IRRwqi7LtiU=",
+    "originContent": "decrypted = decrypt_text(encrypted, \"password123\")",
+    "translatedContent": "decrypted = decrypt_text(encrypted, \"password123\")"
+  },
+  {
+    "row": 105,
+    "rowsha": "GM6Nchor5kDT2zHJ6gR5dRZSPklYYN0woXMloCnHBzY=",
+    "originContent": "print(decrypted)",
+    "translatedContent": "print(decrypted)"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "dEOb9kifo5A5OGeklWzs6DDA5XpkQ9pJtIBruVTgOLY=",
+    "originContent": "# Generate hashing module",
+    "translatedContent": "# Generate hashing module"
+  },
+  {
+    "row": 108,
+    "rowsha": "XZzSBic5cesnmfv3aWO6IGAfqJnWJkxK/HojvdJB04I=",
+    "originContent": "from autogenlib.hashing import hash_password, verify_password",
+    "translatedContent": "from autogenlib.hashing import hash_password, verify_password"
+  },
+  {
+    "row": 109,
+    "rowsha": "TLAxkW0lVomzUIywHXqny+t+kMwyuiJ+3R7n/fsENj4=",
+    "originContent": "hashed = hash_password(\"my_secure_password\")",
+    "translatedContent": "hashed = hash_password(\"my_secure_password\")"
+  },
+  {
+    "row": 110,
+    "rowsha": "R1aRTsjDqrr2K9Gn5BgJmYtqlBYL8yynvcOagFd0ifM=",
+    "originContent": "is_valid = verify_password(\"my_secure_password\", hashed)",
+    "translatedContent": "is_valid = verify_password(\"my_secure_password\", hashed)"
+  },
+  {
+    "row": 111,
+    "rowsha": "H9fkhluTrJ4y3LTdpYIBBDScdOgGE7RcnFLebrBOuqc=",
+    "originContent": "print(f\"Password valid: {is_valid}\")",
+    "translatedContent": "print(f\"Password valid: {is_valid}\")"
+  },
+  {
+    "row": 112,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 設定"
+  },
+  {
+    "row": 114,
+    "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+    "originContent": "## Configuration",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### OpenAI APIキーの設定"
+  },
+  {
+    "row": 116,
+    "rowsha": "szjDV8G80dgym/o+Pl4opVV35p6K6tIqfviOzQYCG2M=",
+    "originContent": "### Setting the OpenAI API Key",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "OpenAIのAPIキーを環境変数として設定します："
+  },
+  {
+    "row": 118,
+    "rowsha": "Ik2wQeR1wQ5V6Eg1lEkF/SqvuiR6ziHQUcWdpvZCpLU=",
+    "originContent": "Set your OpenAI API key as an environment variable:",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 121,
+    "rowsha": "7itvt7gZEMXbhbPQnkH1smoxnBbGEbhHHl4pmvXPD8k=",
+    "originContent": "export OPENAI_API_KEY=\"your-api-key-here\"",
+    "translatedContent": "export OPENAI_API_KEY=\"your-api-key-here\""
+  },
+  {
+    "row": 122,
+    "rowsha": "REQL/obu8+xyQgGiGZDiRtRkXPmFMjjiBj29GzOqUt8=",
+    "originContent": "# Optional",
+    "translatedContent": "# Optional"
+  },
+  {
+    "row": 123,
+    "rowsha": "Qhn0c7OeHMBQIZFCWuKvSen+a6U2ox5VIrORX5nEAAo=",
+    "originContent": "export OPENAI_API_BASE_URL=\"https://openrouter.ai/api/v1\"  # Use OpenRouter API",
+    "translatedContent": "export OPENAI_API_BASE_URL=\"https://openrouter.ai/api/v1\"  # Use OpenRouter API"
+  },
+  {
+    "row": 124,
+    "rowsha": "UvIjVf5nCy3OxHUmuyao2pjACTqxM4fJTbqF+t6vTUg=",
+    "originContent": "export OPENAI_MODEL=\"openai/gpt-4.1\"",
+    "translatedContent": "export OPENAI_MODEL=\"openai/gpt-4.1\""
+  },
+  {
+    "row": 125,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "またはPythonコード内で（本番環境では推奨されません）："
+  },
+  {
+    "row": 127,
+    "rowsha": "RQaVx/9+iA6ojm2AllIlVO3kVlkI5X0R8mSSMNLgQrY=",
+    "originContent": "Or in your Python code (not recommended for production):",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 130,
+    "rowsha": "3iq63oMsjjUKG9yYz82x4gKsR0nF/FGkqXDUFza231w=",
+    "originContent": "import os",
+    "translatedContent": "import os"
+  },
+  {
+    "row": 131,
+    "rowsha": "LcxeDak3E7RLy+1DymShAOTOTcIFl3E6zv53pOeMjwg=",
+    "originContent": "os.environ[\"OPENAI_API_KEY\"] = \"your-api-key-here\"",
+    "translatedContent": "os.environ[\"OPENAI_API_KEY\"] = \"your-api-key-here\""
+  },
+  {
+    "row": 132,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### キャッシングの動作"
+  },
+  {
+    "row": 134,
+    "rowsha": "oV/mc3y0aVDCHA9ufDpFWT6NmTvNYkN3VWgwIswGloQ=",
+    "originContent": "### Caching Behavior",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "デフォルトでは、AutoGenLibは生成されたコードをキャッシュしません。これはつまり："
+  },
+  {
+    "row": 136,
+    "rowsha": "Vg9ultpW7MSDXXMppKmbJrEPfjTc8930I4vtPwAuN2k=",
+    "originContent": "By default, AutoGenLib does not cache generated code. This means:",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- モジュールをインポートするたびに、LLMが新しいコードを生成する"
+  },
+  {
+    "row": 138,
+    "rowsha": "x0IeCkMa/Nh8+zORBemYu96RxzVjFF2kElimdzo/jNg=",
+    "originContent": "- Each time you import a module, the LLM generates fresh code",
+    "translatedContent": "- LLMの誤認識によって、より多様でしばしば面白い結果が得られる"
+  },
+  {
+    "row": 139,
+    "rowsha": "VDH1W2IQYl7nfgZWtDbT7TdIsY28yJRMS2AbX2YeC8E=",
+    "originContent": "- You get more varied and often funnier results due to LLM hallucinations",
+    "translatedContent": "- 同じインポートでも実行ごとに異なる実装が生成される可能性がある"
+  },
+  {
+    "row": 140,
+    "rowsha": "+H7zIWF/qqEtdka74CqUtGMb2+f7XjtMYkNz6M1AJmM=",
+    "originContent": "- The same import might produce different implementations across runs",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "キャッシュを有効にしたい場合（安定性のためやAPIコール削減のため）："
+  },
+  {
+    "row": 142,
+    "rowsha": "qphgmAyE+cTU4SAjMyZtv+4AUjUj+4UbBRuVpSEmyPo=",
+    "originContent": "If you want to enable caching (for consistency or to reduce API calls):",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 145,
+    "rowsha": "ktxY/qrC1+x0Htcjor61mwvVeo4OmQja60knTnsJZl8=",
+    "originContent": "from autogenlib import init",
+    "translatedContent": "from autogenlib import init"
+  },
+  {
+    "row": 146,
+    "rowsha": "ZWJC6MBxdfOJ5tZ1Ty79rQ1teul+2JWFjrZ9rSH3zTk=",
+    "originContent": "init(\"Library for data processing\", enable_caching=True)",
+    "translatedContent": "init(\"Library for data processing\", enable_caching=True)"
+  },
+  {
+    "row": 147,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "または実行時にキャッシュを切り替えます:"
+  },
+  {
+    "row": 149,
+    "rowsha": "Yo5qAvyijV63IaImnO7yRq/zjUOs9FIuT8jnZzvMz1c=",
+    "originContent": "Or toggle caching at runtime:",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 151,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 152,
+    "rowsha": "ix5kOoTsnSdj/ymgJJ4SBeCD4ij8fv1oRvT5YmsbESQ=",
+    "originContent": "from autogenlib import init, set_caching",
+    "translatedContent": "from autogenlib import init, set_caching"
+  },
+  {
+    "row": 153,
+    "rowsha": "N4cNmyS7kL8K04LgTSMBOJvQHmYcwcMXMuFwPh+Lhvs=",
+    "originContent": "init(\"Library for data processing\")",
+    "translatedContent": "init(\"Library for data processing\")"
+  },
+  {
+    "row": 154,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 155,
+    "rowsha": "/Pskks72RWlxvv64JT4wbZ25cfnSp1vfebu5vd25uqk=",
+    "originContent": "# Later in your code:",
+    "translatedContent": "# Later in your code:"
+  },
+  {
+    "row": 156,
+    "rowsha": "K/guMSTLDX8rLRgSSpR+Vqp8zsF72x5FXOMP/rKVxs0=",
+    "originContent": "set_caching(True)  # Enable caching",
+    "translatedContent": "set_caching(True)  # Enable caching"
+  },
+  {
+    "row": 157,
+    "rowsha": "7NkKqnp9Kq1/qd2wlOUYJTXoJUXg06wy5y2QWsc1DGA=",
+    "originContent": "set_caching(False)  # Disable caching",
+    "translatedContent": "set_caching(False)  # Disable caching"
+  },
+  {
+    "row": 158,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "キャッシュが有効な場合、生成されたコードは `~/.autogenlib_cache` に保存されます。"
+  },
+  {
+    "row": 160,
+    "rowsha": "bfZk7r/JK+NvkEuwQY8LbBoRKY5uVmzOFZXGIIh35Gg=",
+    "originContent": "When caching is enabled, generated code is stored in `~/.autogenlib_cache`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 制限事項"
+  },
+  {
+    "row": 162,
+    "rowsha": "Y51epMDrwmz/jYfs51pwyOiZomkP6vqj3r54yR/Mvp4=",
+    "originContent": "## Limitations",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 新しいコードを生成するにはインターネット接続が必要です"
+  },
+  {
+    "row": 164,
+    "rowsha": "86WvpIbY0Z3hJgeFwDshM6ciow+FaOnXgM6nPJmDhEA=",
+    "originContent": "- Requires internet connection to generate new code",
+    "translatedContent": "- OpenAI APIの利用可能性に依存します"
+  },
+  {
+    "row": 165,
+    "rowsha": "wT7UD4gg2ap5ISwcQJTp6LkwdUXBmJcDptvyeySIBOQ=",
+    "originContent": "- Depends on OpenAI API availability",
+    "translatedContent": "- 生成されるコードの品質は説明の明確さに依存します"
+  },
+  {
+    "row": 166,
+    "rowsha": "x2ECTlgckqhG4yjfJAwz0bhxT/tujbDDcV5hO8wAxP8=",
+    "originContent": "- Generated code quality depends on the clarity of your description",
+    "translatedContent": "- レビューなしで本番重要コードに使用するのは適していません"
+  },
+  {
+    "row": 167,
+    "rowsha": "4/3D1PCphsz2wfjsVaa+1O/HGZ0S5h9t9SzBeTpozqc=",
+    "originContent": "- Not suitable for production-critical code without review",
+    "translatedContent": ""
+  },
+  {
+    "row": 168,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 高度な使用法"
+  },
+  {
+    "row": 169,
+    "rowsha": "3q+lclQQKa/mkVijw2G5SxQQg/odrvMc/jR58kE4feY=",
+    "originContent": "## Advanced Usage",
+    "translatedContent": ""
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 生成コードの検査"
+  },
+  {
+    "row": 171,
+    "rowsha": "Zv6qvRK8Rq7jwZzDV6wr5oqswC+5JDoKZkrdbilap4k=",
+    "originContent": "### Inspecting Generated Code",
+    "translatedContent": ""
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "モジュールに対して生成されたコードを検査することができます："
+  },
+  {
+    "row": 173,
+    "rowsha": "w1PKWxl2QCRnowkeyTvcpmBJzMftlf/NlIJGcPXBpyQ=",
+    "originContent": "You can inspect the code that was generated for a module:",
+    "translatedContent": ""
+  },
+  {
+    "row": 174,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 175,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 176,
+    "rowsha": "Wajn+KmCncLgzYtFeiKLwVwgVijTBJpOsWwNtJbhHgg=",
+    "originContent": "from autogenlib.totp import totp_generator",
+    "translatedContent": "from autogenlib.totp import totp_generator"
+  },
+  {
+    "row": 177,
+    "rowsha": "w6dD5tJMm9G8Q+3HJZTfkbPIpfJjTSfVX0MWtMu7OSk=",
+    "originContent": "import inspect",
+    "translatedContent": "import inspect"
+  },
+  {
+    "row": 178,
+    "rowsha": "e4tcLs198qTaK9OCEVr/C+VAeAr/UQFxaDp3XRInKss=",
+    "originContent": "print(inspect.getsource(totp_generator))",
+    "translatedContent": "print(inspect.getsource(totp_generator))"
+  },
+  {
+    "row": 179,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 180,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## AutoGenLibがOpenAI APIをどのように使用するか"
+  },
+  {
+    "row": 181,
+    "rowsha": "QTgxwRpflKk8dV/KEPesvtk9xbeZN4EPq4hqQFwAN24=",
+    "originContent": "## How AutoGenLib Uses the OpenAI API",
+    "translatedContent": ""
+  },
+  {
+    "row": 182,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "AutoGenLibはOpenAI API用のプロンプトを作成します。内容は以下を含みます："
+  },
+  {
+    "row": 183,
+    "rowsha": "F+Q5XbkiDziU92HuWOdHiiYb+3K/dcWBkE8bJX/sBxo=",
+    "originContent": "AutoGenLib creates prompts for the OpenAI API that include:",
+    "translatedContent": ""
+  },
+  {
+    "row": 184,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. あなたが提供した説明"
+  },
+  {
+    "row": 185,
+    "rowsha": "SP6fE1Ap/P4OrpoRxUBIykHz+UJcKUjIGtaRxXLPXsA=",
+    "originContent": "1. The description you provided",
+    "translatedContent": "2. 強化されるモジュール内の既存コード"
+  },
+  {
+    "row": 186,
+    "rowsha": "YEHqbx9a/S/Rp7VBMpW74mE8cTsOSbckjVKpczFaOGs=",
+    "originContent": "2. Any existing code in the module being enhanced",
+    "translatedContent": "3. これまでに生成されたすべてのモジュールの完全なコンテキスト"
+  },
+  {
+    "row": 187,
+    "rowsha": "WVR7TcyNu26TdacS7MZu0/iKQUDlb0l/fSkzFIeFScQ=",
+    "originContent": "3. The full context of all previously generated modules",
+    "translatedContent": "4. モジュール/関数をインポートしているコード（新機能！）"
+  },
+  {
+    "row": 188,
+    "rowsha": "z01WGQ2/ysd6Caek6nxx0H6MZ6vMDfuxdbhy7HzDuuc=",
+    "originContent": "4. The code that's importing the module/function (new feature!)",
+    "translatedContent": "5. 必要な特定の関数または機能"
+  },
+  {
+    "row": 189,
+    "rowsha": "ZNNNPRNJ/TNcYTO29Wa3KCUgxykkYYQ/Gka/QH8aIhE=",
+    "originContent": "5. The specific function or feature needed",
+    "translatedContent": ""
+  },
+  {
+    "row": 190,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "この包括的なコンテキストにより、LLMは既存のコードベースと一貫性があり、使用意図に完全に合ったコードを生成できます。"
+  },
+  {
+    "row": 191,
+    "rowsha": "2xcQdsJ7wkf+DdPE5v2BGK0zUShptiUz2ZsdMiWW2ZI=",
+    "originContent": "This comprehensive context helps the LLM generate code that's consistent with your existing codebase and fits perfectly with how you intend to use it.",
+    "translatedContent": ""
+  },
+  {
+    "row": 192,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 貢献について"
+  },
+  {
+    "row": 193,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": ""
+  },
+  {
+    "row": 194,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "貢献は歓迎しません！これは単なる楽しいPoCプロジェクトです。"
+  },
+  {
+    "row": 195,
+    "rowsha": "IDbQVv09YjPqOwLg99DHL2LDRyy0t/nromltOamGceU=",
+    "originContent": "Contributions are not welcome! This is just a fun PoC project.",
+    "translatedContent": ""
+  },
+  {
+    "row": 196,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## ライセンス"
+  },
+  {
+    "row": 197,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 198,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "MITライセンス"
+  },
+  {
+    "row": 199,
+    "rowsha": "q7KJbcPCqUAvkBuI1QNc8Kg9XPfBfnNkLN9WKwudO8U=",
+    "originContent": "MIT License",
+    "translatedContent": ""
+  },
+  {
+    "row": 200,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 201,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 202,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "*注：このライブラリはプロトタイピングと実験用です。自動生成されたコードは本番環境で使用する前に必ず確認してください。*"
+  },
+  {
+    "row": 203,
+    "rowsha": "OwS2uV/AdIepbS/tFw2aNBqwM1oGwv4df0y5ahjWWjE=",
+    "originContent": "*Note: This library is meant for prototyping and experimentation. Always review automatically generated code before using it in production environments.*",
+    "translatedContent": ""
+  },
+  {
+    "row": 204,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "*注：もちろん、このライブラリのコードの100％はLLMによって生成されています*"
+  },
+  {
+    "row": 205,
+    "rowsha": "1F/f2EGhPGwsNmRlp7VQ29TO/UKc5+07LOWAdikdxWA=",
+    "originContent": "*Note: Of course 100% of the code of this library was generated via LLM*",
+    "translatedContent": ""
+  },
+  {
+    "row": 206,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
