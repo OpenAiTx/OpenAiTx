@@ -53,11 +53,14 @@
 
 1. Replace URL `GitHub` by `OpenAiTx`, e.g. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
 2. Click and copy the style badges or text you like.
+3. Update to your readme file.
 
 or
 
 1. Access https://openaitx.github.io/ 
 2. Submit your project link.
+3. Click and copy the style badges or text you like.
+4. Update to your readme file.
 
 ## Example
 
