@@ -18,6 +18,8 @@
 Welcome to the Basketo Engine - a passion project where we are putting our best effort into creating an awesome and performant engine, with the exciting plan of making it an AI-Native game engine. Featuring Unity-like editor interface, Gemini AI integration, advanced multi-sound effects system, and powerful ECS architecture. Whether you’re here to contribute, suggest ideas, or just watch it grow, you’re part of the journey! 🚀
 </p>
 
+sdfsdfsdfsdf
+
 ## 🚀 Current State of the Engine
 <p align="center">
   <img src="https://raw.githubusercontent.com/basketoengine/Basketo/main/readmeimgs/image3.png" alt="Current State of Basketo Engine" width="700"/>
