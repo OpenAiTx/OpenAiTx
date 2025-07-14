@@ -1,0 +1,734 @@
+[
+  {
+    "row": 1,
+    "rowsha": "H+3n8IUUa4Arb0ALUmdOkeobCIKLL3ZJ8LHxF6s227Y=",
+    "originContent": "Now includes cloudflared. Configure on cloudflare.com and paste your token in the .env file.  ",
+    "translatedContent": "现在包含 cloudflared。请在 cloudflare.com 上配置并将您的令牌粘贴到 .env 文件中。"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "IrXVsGZkFgzNTxoi8+7tC/n0OPWPDIOer2rHdq9/wVE=",
+    "originContent": "for step by step instructions follow this guide: https://www.reddit.com/r/n8n/comments/1l9mi6k/major_update_to_n8nautoscaling_build_step_by_step/",
+    "translatedContent": "有关详细步骤说明，请参阅此指南：https://www.reddit.com/r/n8n/comments/1l9mi6k/major_update_to_n8nautoscaling_build_step_by_step/"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "vM03mzQS+4w2Xliok4dOmzuHFy9w+xd6jnSPQIGbBlY=",
+    "originContent": "original version without cloudflared is saved in the branches for those who don't want to use it. ",
+    "translatedContent": "不想使用 cloudflared 的用户，原始版本保存在各个分支中。"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "FdH03SoSDKgTPU5lWy/w6IHP/wg6LORfyGGEsQR75r0=",
+    "originContent": "# n8n Autoscaling System",
+    "translatedContent": "# n8n 自动扩展系统"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "H0eS79sAVSlb1hGMeGNd9/7zdXJxfRxNQDGnhQ2H9JQ=",
+    "originContent": "A Docker-based autoscaling solution for n8n workflow automation platform. Dynamically scales worker containers based on Redis queue length.  No need to deal with k8s or any other container scaling provider, a simple script runs it all and is easily configurable.",
+    "translatedContent": "一个基于 Docker 的 n8n 工作流自动化平台自动扩展解决方案。根据 Redis 队列长度动态扩展工作容器。无需处理 k8s 或其他容器扩展服务，简单脚本即可运行，且易于配置。"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "fYu2drJwVq+8jBAHyH5hS/0hNet0aBVaLTmi2TDmlwA=",
+    "originContent": "Tested with hundreds of simultaneous executions running on a 8 core 16gb ram VPS.  ",
+    "translatedContent": "已在配备 8 核 16GB 内存的 VPS 上测试，支持数百个同时执行。"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "fyXTVPdFNLvM59oFAibAfbaJYrFyBWFGAf2XxmPENoM=",
+    "originContent": "Includes Puppeteer and Chrome built-in for pro level scraping from the n8n code node, works better than the community nodes.  ",
+    "translatedContent": "内置 Puppeteer 和 Chrome，支持 n8n 代码节点的专业级爬取，效果优于社区节点。"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "YhSRiEPMS6sgYA2HnPXUUU2YZnP5qJc7nolQdR2ClH0=",
+    "originContent": "Simple install, just clone the files + docker compose up",
+    "translatedContent": "安装简单，只需克隆文件并运行 docker compose up"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "fxV+qJk43/CmRYwG5cyvrLMZ023bypgIha4+3wwqPB4=",
+    "originContent": "## Architecture Overview",
+    "translatedContent": "## 架构概览"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "RtlHQpG+V59KLQkk05f8+fLlxsq4KdWUwAAs6jH0zbs=",
+    "originContent": "```mermaid",
+    "translatedContent": "```mermaid"
+  },
+  {
+    "row": 20,
+    "rowsha": "rWWG8xDYdGHVf9XBvr5U7TTcoTADLi0czN3iTC1oIQ4=",
+    "originContent": "graph TD",
+    "translatedContent": "graph TD"
+  },
+  {
+    "row": 21,
+    "rowsha": "mS5aq5jhzYSPlXUvt9T87axLZRImCQxO0u7FTblUsA8=",
+    "originContent": "    A[n8n Main] -->|Queues jobs| B[Redis]",
+    "translatedContent": "    A[n8n Main] -->|Queues jobs| B[Redis]"
+  },
+  {
+    "row": 22,
+    "rowsha": "70XMf8mI0dNZi83tfv35sMRFrp+DYfTHvcYyYvJsLJg=",
+    "originContent": "    B -->|Monitors queue| C[Autoscaler]",
+    "translatedContent": "    B -->|Monitors queue| C[Autoscaler]"
+  },
+  {
+    "row": 23,
+    "rowsha": "am1Q8uBflnlhHxpbkkKPj+wal915Ic3aE0qXdMJCraQ=",
+    "originContent": "    C -->|Scales| D[n8n Workers]",
+    "translatedContent": "    C -->|Scales| D[n8n Workers]"
+  },
+  {
+    "row": 24,
+    "rowsha": "nomVXO6DbBUpvnUNTMHuEVJm2K4CQnRfAJJGRrGu0WE=",
+    "originContent": "    B -->|Monitors queue| E[Redis Monitor]",
+    "translatedContent": "    B -->|Monitors queue| E[Redis Monitor]"
+  },
+  {
+    "row": 25,
+    "rowsha": "yajmwuLnNCuU16In72/yvHdUxlM0tiz6cn9upgFebx4=",
+    "originContent": "    F[PostgreSQL] -->|Stores data| A",
+    "translatedContent": "    F[PostgreSQL] -->|Stores data| A"
+  },
+  {
+    "row": 26,
+    "rowsha": "1wIMMhsaoiQtwgc4JtUASqXQYIzIgamCKql6Ra9NOz8=",
+    "originContent": "    A -->|Webhooks| G[n8n Webhook]",
+    "translatedContent": "    A -->|Webhooks| G[n8n Webhook]"
+  },
+  {
+    "row": 27,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 功能"
+  },
+  {
+    "row": 29,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 基于队列长度动态扩展 n8n 工作容器  "
+  },
+  {
+    "row": 31,
+    "rowsha": "W8oyR7CkYO49FAz5s7QhDDSH1J2rzOIm2EjIjtqSZMg=",
+    "originContent": "- Dynamic scaling of n8n worker containers based on queue length",
+    "translatedContent": "- 可配置的扩展阈值和限制  "
+  },
+  {
+    "row": 32,
+    "rowsha": "4k0Vhx7MmZMu6a4paKeXEhjbs1NDIUvhJVzdb71y8r4=",
+    "originContent": "- Configurable scaling thresholds and limits",
+    "translatedContent": "- Redis 队列监控  "
+  },
+  {
+    "row": 33,
+    "rowsha": "eG354wnsVTcdSwKrx0ORulxiGWSl46cZq81Z8IObH7U=",
+    "originContent": "- Redis queue monitoring",
+    "translatedContent": "- 基于 Docker Compose 的部署  "
+  },
+  {
+    "row": 34,
+    "rowsha": "fUVAePF5SXew0hAEGuZih6QuqeH2EFTtEiutK/ZukW0=",
+    "originContent": "- Docker Compose-based deployment",
+    "translatedContent": "- 所有服务的健康检查  "
+  },
+  {
+    "row": 35,
+    "rowsha": "kLGMIX8oR7ykwc5vuWHiUyerCPr1EtIf8lJ5DKplPlo=",
+    "originContent": "- Health checks for all services",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 先决条件"
+  },
+  {
+    "row": 37,
+    "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+    "originContent": "## Prerequisites",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Docker 和 Docker Compose。  "
+  },
+  {
+    "row": 39,
+    "rowsha": "dB0StodFr53G0PNIBK3NOvVkM78ZCOUfJzrgL6i4N1I=",
+    "originContent": "- Docker and Docker Compose.",
+    "translatedContent": "- 如果您是新用户，建议使用 Docker Desktop 或 Ubuntu 的 Docker 便捷脚本。  "
+  },
+  {
+    "row": 40,
+    "rowsha": "YGDo0Tb9IPf69hyK6f8bJ7B7B4fYQy4rr2xiQvMRDsQ=",
+    "originContent": "- If you are a new user, I recommend either docker desktop or using the docker convenience script for ubuntu.  ",
+    "translatedContent": "- 设置您的 Cloudflare 域名和子域名。  "
+  },
+  {
+    "row": 41,
+    "rowsha": "utrt0vRNKn7n+3OreZZn9heplRE6yjug+2vZHVCfCKY=",
+    "originContent": "- Set up your cloudflare domain and subdomains.",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 快速开始"
+  },
+  {
+    "row": 43,
+    "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+    "originContent": "## Quick Start",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. 将此仓库复制或克隆到您选择的文件夹  "
+  },
+  {
+    "row": 45,
+    "rowsha": "aB10qaKWlJZmqP0ga3YvnG154o1NJC6b+6dSmS9xWqc=",
+    "originContent": "1. Copy or Clone this repository to a folder of your choice",
+    "translatedContent": "2. 将 .env.example 重命名为 .env  "
+  },
+  {
+    "row": 46,
+    "rowsha": "4/c29vVURPZS9i2kbAg/pTC2KaOFLGuNIxIa7NDDz0U=",
+    "originContent": "2. Rename .env.example to .env",
+    "translatedContent": "3. 在 .env 文件中配置您的环境变量 - 默认配置可直接使用，但请设置新的密码和令牌。  "
+  },
+  {
+    "row": 47,
+    "rowsha": "R/phDBUDlfVnNbmdEmLDTx12DR6BfFhCUfDowpbctNs=",
+    "originContent": "3. Configure your environment variables in the .env file - defaults are good to go, but set new passwords and tokens.",
+    "translatedContent": "4. 运行："
+  },
+  {
+    "row": 48,
+    "rowsha": "0S3oo4vbhJ+P0Puac+MgzHHMEhcwbQFe+NwUbGacG40=",
+    "originContent": "4. Run:",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 50,
+    "rowsha": "jhb7TgjtNYzULxnq/yjF/qfm+8zgN3ZvwAQbl/xKEcY=",
+    "originContent": "   docker network create shark",
+    "translatedContent": "   docker network create shark"
+  },
+  {
+    "row": 51,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 52,
+    "rowsha": "Kcd6o3v0eRKQ+7LRiIZSRXPu0xIb2uPEAgrGnjoodgY=",
+    "originContent": "5. Run:",
+    "translatedContent": "5. 运行:"
+  },
+  {
+    "row": 53,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 54,
+    "rowsha": "9f7Bg6s7+R8vc+jX0UtoCdNeymWtgTPNHduPQ0XKIAY=",
+    "originContent": "   docker compose up -d",
+    "translatedContent": "   docker compose up -d"
+  },
+  {
+    "row": 55,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "我们在第4步创建了shark外部网络，以便以后更容易连接其他容器。如果您不想这样做，可以在docker compose文件中注释掉shark网络。"
+  },
+  {
+    "row": 57,
+    "rowsha": "3ykbN6e8yEND3sYgQBIA5AHnwv24XHXute6/tp0QGj0=",
+    "originContent": "We create the shark external network in step 4 to make it easier to plug in other containers later.  If you don't want to do this, you can comment out the shark network in the docker compose file.  ",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 配置"
+  },
+  {
+    "row": 59,
+    "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+    "originContent": "## Configuration",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 确保您在.env文件中设置了自己的密码和加密密钥！！！"
+  },
+  {
+    "row": 61,
+    "rowsha": "HFuLidRM1O5//Cq8enBZ5kLw3f9ibZtCH4q6OLfE1qM=",
+    "originContent": "- Make sure you set your own passwords and encryption keys in the .env file!!!",
+    "translatedContent": "- 默认情况下，每个工作容器同时处理10个任务，您可以在docker-compose中修改此设置：      "
+  },
+  {
+    "row": 62,
+    "rowsha": "T1ZvYclrwZr+KatatZA8J1rUCW9ZJj1jVWS2Ot8neP4=",
+    "originContent": "- By default each worker handles 10 tasks at a time, you can modify this in the docker-compose under:      ",
+    "translatedContent": "   - N8N_CONCURRENCY_PRODUCTION_LIMIT=10"
+  },
+  {
+    "row": 63,
+    "rowsha": "SGPu10+5/i1nNlmSRCdWhOH1ASFhU2RwPWAXri/FtQw=",
+    "originContent": "   - N8N_CONCURRENCY_PRODUCTION_LIMIT=10",
+    "translatedContent": "- 将以下参数调整为大于您最长预期工作流执行时间（以秒为单位）："
+  },
+  {
+    "row": 64,
+    "rowsha": "k0kkFEYbgqXOIrFVhzUvJMwqc267Bapi6ryfFpHMuv4=",
+    "originContent": "- Adjust these to be greater than your longest expected workflow execution time measured in seconds:",
+    "translatedContent": "   - N8N_QUEUE_BULL_GRACEFULSHUTDOWNTIMEOUT=300"
+  },
+  {
+    "row": 65,
+    "rowsha": "Lhwf0lEvp4F0CBxGFPYDUaQ4qnvbZyg1LYuQsu3+s04=",
+    "originContent": "   - N8N_QUEUE_BULL_GRACEFULSHUTDOWNTIMEOUT=300",
+    "translatedContent": "   - N8N_GRACEFUL_SHUTDOWN_TIMEOUT=300"
+  },
+  {
+    "row": 66,
+    "rowsha": "Ng3lM26x4ucUVJqpNGxREGB2TWXyhGBZJAqzsR5wPe4=",
+    "originContent": "   - N8N_GRACEFUL_SHUTDOWN_TIMEOUT=300",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 关键环境变量"
+  },
+  {
+    "row": 68,
+    "rowsha": "0ffE2J2Pn6zuBofRKMp6cjesibUnvp0oDpcsuPtjQw0=",
+    "originContent": "### Key Environment Variables",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| 变量 | 描述 | 默认值 |"
+  },
+  {
+    "row": 70,
+    "rowsha": "39V4rhGMfb9epDMCWiSUXMY/40p3aaRXkMmW9OfYG7M=",
+    "originContent": "| Variable | Description | Default |",
+    "translatedContent": "|----------|-------------|---------|"
+  },
+  {
+    "row": 71,
+    "rowsha": "DVr/Dm1EyBfNVX8hj0lOlp3ivmaKGBnRdp7HSMQMDM8=",
+    "originContent": "|----------|-------------|---------|",
+    "translatedContent": "| `MIN_REPLICAS` | 最小工作容器数量 | 1 |"
+  },
+  {
+    "row": 72,
+    "rowsha": "dLKmsVjyvllMq4xcMv9ltuW2o1kr5rReO+FXNh9Y0nI=",
+    "originContent": "| `MIN_REPLICAS` | Minimum number of worker containers | 1 |",
+    "translatedContent": "| `MAX_REPLICAS` | 最大工作容器数量 | 5 |"
+  },
+  {
+    "row": 73,
+    "rowsha": "jIjFOc9ikthJMBrwM1Dc1MW1O2n2yZ8aJNFJoUICWNU=",
+    "originContent": "| `MAX_REPLICAS` | Maximum number of worker containers | 5 |",
+    "translatedContent": "| `SCALE_UP_QUEUE_THRESHOLD` | 触发扩容的队列长度 | 5 |"
+  },
+  {
+    "row": 74,
+    "rowsha": "tao2SccWostugZUExkXX7KVCgoRmG4zwj9+0+BRPH4A=",
+    "originContent": "| `SCALE_UP_QUEUE_THRESHOLD` | Queue length to trigger scale up | 5 |",
+    "translatedContent": "| `SCALE_DOWN_QUEUE_THRESHOLD` | 触发缩容的队列长度 | 2 |"
+  },
+  {
+    "row": 75,
+    "rowsha": "h3c0VreAXkSn4vgo8jRLS8E+KEXC37Tqal6AHg4Khk4=",
+    "originContent": "| `SCALE_DOWN_QUEUE_THRESHOLD` | Queue length to trigger scale down | 2 |",
+    "translatedContent": "| `POLLING_INTERVAL_SECONDS` | 检查队列长度的频率（秒） | 30 |"
+  },
+  {
+    "row": 76,
+    "rowsha": "uvQIhcKf7ueA5uvMNL7lf9Xb07TE1ESqCggT3Xw1NIw=",
+    "originContent": "| `POLLING_INTERVAL_SECONDS` | How often to check queue length | 30 |",
+    "translatedContent": "| `COOLDOWN_PERIOD_SECONDS` | 扩缩容操作间的冷却时间（秒） | 180 |"
+  },
+  {
+    "row": 77,
+    "rowsha": "CuEBY+JS79034D56YRxoov+Nae9rUNYHRgtmgDJRxe4=",
+    "originContent": "| `COOLDOWN_PERIOD_SECONDS` | Time between scaling actions | 180 |",
+    "translatedContent": "| `QUEUE_NAME_PREFIX` | Redis队列前缀 | `bull` |"
+  },
+  {
+    "row": 78,
+    "rowsha": "ZEWxHTxqb3xr8W2OtSZRq2gM7a3Xub52GUIckTn+//0=",
+    "originContent": "| `QUEUE_NAME_PREFIX` | Redis queue prefix | `bull` |",
+    "translatedContent": "| `QUEUE_NAME` | Redis队列名称 | `jobs` |"
+  },
+  {
+    "row": 79,
+    "rowsha": "0YWdPpXbNUA7ZgIlc7VhchmkvfH1HNjZOtsMmRTJltk=",
+    "originContent": "| `QUEUE_NAME` | Redis queue name | `jobs` |",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### n8n 配置"
+  },
+  {
+    "row": 81,
+    "rowsha": "1nmCM1rR46XZiDLVJmCrDFQPPh3LpGnRGzqMPb2i0Gs=",
+    "originContent": "### n8n Configuration",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "确保设置以下n8n环境变量："
+  },
+  {
+    "row": 83,
+    "rowsha": "XucZkIPSG1kGtUSOI2FDsgoOevDT3W/t4ME2+YxHmxk=",
+    "originContent": "Ensure these n8n environment variables are set:",
+    "translatedContent": "- `EXECUTIONS_MODE=queue`"
+  },
+  {
+    "row": 84,
+    "rowsha": "Kg1W0JxPfm7gOtzcqICeHpoaZhf6zq36K+m3gPXC8iU=",
+    "originContent": "- `EXECUTIONS_MODE=queue`",
+    "translatedContent": "- `QUEUE_BULL_REDIS_HOST=redis`"
+  },
+  {
+    "row": 85,
+    "rowsha": "7ASbimp20EzF2f9dfnSdvVhOhlyDi5FzTBH90veiIY4=",
+    "originContent": "- `QUEUE_BULL_REDIS_HOST=redis`",
+    "translatedContent": "- `QUEUE_HEALTH_CHECK_ACTIVE=true`"
+  },
+  {
+    "row": 86,
+    "rowsha": "UZkgyeOCJ2j6Z6BwAiQYoka9NERzfL9kFHgPPXIJi/8=",
+    "originContent": "- `QUEUE_HEALTH_CHECK_ACTIVE=true`",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 扩缩容行为"
+  },
+  {
+    "row": 88,
+    "rowsha": "4DGsK1bNISb8HxIlMlBjEGvJN+lHB/Sj3+P/7haH8n0=",
+    "originContent": "## Scaling Behavior",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "自动扩缩器："
+  },
+  {
+    "row": 90,
+    "rowsha": "EzlIFxGkFozyt57W/mFyW33nbD2DPvNUVcNkDWxyUZM=",
+    "originContent": "The autoscaler:",
+    "translatedContent": "1. 每隔`POLLING_INTERVAL_SECONDS`监控Redis队列长度"
+  },
+  {
+    "row": 91,
+    "rowsha": "LY98GVXxtYNFt3+rX4PzZXtvDk07usW297X+db/3M84=",
+    "originContent": "1. Monitors Redis queue length every `POLLING_INTERVAL_SECONDS`",
+    "translatedContent": "2. 当满足以下条件时扩容："
+  },
+  {
+    "row": 92,
+    "rowsha": "KiDzYoKrOFXP8tlD+hhacL4SSqfe0xCikbOE1SygfQI=",
+    "originContent": "2. Scales up when:",
+    "translatedContent": "   - 队列长度 > `SCALE_UP_QUEUE_THRESHOLD`"
+  },
+  {
+    "row": 93,
+    "rowsha": "2y7biF5qvX/yMNtZ95rhgXxJuUHiDhs7te5n2uhApcc=",
+    "originContent": "   - Queue length > `SCALE_UP_QUEUE_THRESHOLD`",
+    "translatedContent": "   - 当前副本数 < `MAX_REPLICAS`"
+  },
+  {
+    "row": 94,
+    "rowsha": "osIdc91oDqqEEsH2U5v57r755/3J0b8nDqS3Jy04JYY=",
+    "originContent": "   - Current replicas < `MAX_REPLICAS`",
+    "translatedContent": "3. 当满足以下条件时缩容："
+  },
+  {
+    "row": 95,
+    "rowsha": "URiHDKjkvVQgLtGPCAZsOfw3H07Np7VAm6Kk23vuqww=",
+    "originContent": "3. Scales down when:",
+    "translatedContent": "   - 队列长度 < `SCALE_DOWN_QUEUE_THRESHOLD`"
+  },
+  {
+    "row": 96,
+    "rowsha": "apVcP77YAMvZOimbMHM2szrJlzedLmDFJgQl9Vn90mc=",
+    "originContent": "   - Queue length < `SCALE_DOWN_QUEUE_THRESHOLD`",
+    "translatedContent": "   - 当前副本数 > `MIN_REPLICAS`"
+  },
+  {
+    "row": 97,
+    "rowsha": "bBC4L9+fhT9BN9BnQ6h1BtBejqz9v4NvdJe69MuUh2k=",
+    "originContent": "   - Current replicas > `MIN_REPLICAS`",
+    "translatedContent": "4. 扩缩容操作之间遵守冷却时间"
+  },
+  {
+    "row": 98,
+    "rowsha": "xf1hdDi8lVJoVEoMbvhkjEgOJzHgAE+0p9E41MS8R44=",
+    "originContent": "4. Respects cooldown period between scaling actions",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 监控"
+  },
+  {
+    "row": 100,
+    "rowsha": "ZyW2c7zH8x3/f7G8mR8+l3up7r6WueywzooSrpOxJbw=",
+    "originContent": "## Monitoring",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "系统包含："
+  },
+  {
+    "row": 102,
+    "rowsha": "P5t/cVJ0l3RKlykjhvGsoCaPGIDRFAc+7slwg/jS970=",
+    "originContent": "The system includes:",
+    "translatedContent": "- Redis队列监控服务（`redis-monitor`）"
+  },
+  {
+    "row": 103,
+    "rowsha": "QYR+3WNaBhTe5HGg/I+mM0xfS1tSwomX+kvZQ6Kb/q0=",
+    "originContent": "- Redis queue monitor service (`redis-monitor`)",
+    "translatedContent": "- 所有服务的Docker健康检查"
+  },
+  {
+    "row": 104,
+    "rowsha": "ecIDl9olvKDLu/3IPr/ez/0xIklzWWdlJONHfBVXPzE=",
+    "originContent": "- Docker health checks for all services",
+    "translatedContent": "- 自动扩缩器的详细日志记录"
+  },
+  {
+    "row": 105,
+    "rowsha": "a92yzGxfKkkMvKjzfkIHOq3NJFrbE/BBPQIbarz1/2w=",
+    "originContent": "- Detailed logging from autoscaler",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 故障排除"
+  },
+  {
+    "row": 107,
+    "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+    "originContent": "## Troubleshooting",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 查看容器日志：`docker-compose logs [service]`"
+  },
+  {
+    "row": 109,
+    "rowsha": "ZKblV/iY1o/q+jt7KpbmLS9kHzWOuzVvUXRyY/OGflA=",
+    "originContent": "- Check container logs: `docker-compose logs [service]`",
+    "translatedContent": "- 验证Redis连接：`docker-compose exec redis redis-cli ping`"
+  },
+  {
+    "row": 110,
+    "rowsha": "2SYmfC67S3YUm8pXCayjgN36zr8Ygon1AP7wbTwWT+o=",
+    "originContent": "- Verify Redis connection: `docker-compose exec redis redis-cli ping`",
+    "translatedContent": "- 手动检查队列长度：`docker-compose exec redis redis-cli LLEN bull:jobs:wait`"
+  },
+  {
+    "row": 111,
+    "rowsha": "un9bkhFaAY7p1czKjDwkVOHe0U5pHNviSZzicFD46EA=",
+    "originContent": "- Check queue length manually: `docker-compose exec redis redis-cli LLEN bull:jobs:wait`",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Webhook URL示例："
+  },
+  {
+    "row": 113,
+    "rowsha": "8a3+DlxABygZ2so3/mAUn5hlmwnbRMz+LL4H57F9QAk=",
+    "originContent": "Webhook URL example:",
+    "translatedContent": "Webhook使用您的Cloudflare子域名，而非本地主机，例如："
+  },
+  {
+    "row": 114,
+    "rowsha": "bAQiTuX5Av9WpeghBJztzcRQ4g/olllbx/dZ9EtpsRc=",
+    "originContent": "Webhooks use your cloudflare subdomain name not local host, example:",
+    "translatedContent": "http://webhook.domain.com/webhook/d7e73b77-6cfb-4add-b454-41e4c91461d8"
+  },
+  {
+    "row": 115,
+    "rowsha": "8OzsFR9amYF4RA0Y8Nu9G+1QCmhPYcWwC7/pGDoQBUI=",
+    "originContent": "http://webhook.domain.com/webhook/d7e73b77-6cfb-4add-b454-41e4c91461d8",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 许可"
+  },
+  {
+    "row": 119,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "MIT许可 - 详情见[LICENSE](LICENSE)。"
+  },
+  {
+    "row": 121,
+    "rowsha": "By/N+w9KrosUGMpNW9mPHh9ybwrQot7uPEDH4V4N8E8=",
+    "originContent": "MIT License - See [LICENSE](LICENSE) for details.",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

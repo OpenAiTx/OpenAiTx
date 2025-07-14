@@ -1,0 +1,734 @@
+[
+  {
+    "row": 1,
+    "rowsha": "H+3n8IUUa4Arb0ALUmdOkeobCIKLL3ZJ8LHxF6s227Y=",
+    "originContent": "Now includes cloudflared. Configure on cloudflare.com and paste your token in the .env file.  ",
+    "translatedContent": "Now includes cloudflared. Configure on cloudflare.com and paste your token in the .env file.  "
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "IrXVsGZkFgzNTxoi8+7tC/n0OPWPDIOer2rHdq9/wVE=",
+    "originContent": "for step by step instructions follow this guide: https://www.reddit.com/r/n8n/comments/1l9mi6k/major_update_to_n8nautoscaling_build_step_by_step/",
+    "translatedContent": "for step by step instructions follow this guide: https://www.reddit.com/r/n8n/comments/1l9mi6k/major_update_to_n8nautoscaling_build_step_by_step/"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "vM03mzQS+4w2Xliok4dOmzuHFy9w+xd6jnSPQIGbBlY=",
+    "originContent": "original version without cloudflared is saved in the branches for those who don't want to use it. ",
+    "translatedContent": "original version without cloudflared is saved in the branches for those who don't want to use it. "
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "FdH03SoSDKgTPU5lWy/w6IHP/wg6LORfyGGEsQR75r0=",
+    "originContent": "# n8n Autoscaling System",
+    "translatedContent": "# n8n Autoscaling System"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "H0eS79sAVSlb1hGMeGNd9/7zdXJxfRxNQDGnhQ2H9JQ=",
+    "originContent": "A Docker-based autoscaling solution for n8n workflow automation platform. Dynamically scales worker containers based on Redis queue length.  No need to deal with k8s or any other container scaling provider, a simple script runs it all and is easily configurable.",
+    "translatedContent": "A Docker-based autoscaling solution for n8n workflow automation platform. Dynamically scales worker containers based on Redis queue length.  No need to deal with k8s or any other container scaling provider, a simple script runs it all and is easily configurable."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "fYu2drJwVq+8jBAHyH5hS/0hNet0aBVaLTmi2TDmlwA=",
+    "originContent": "Tested with hundreds of simultaneous executions running on a 8 core 16gb ram VPS.  ",
+    "translatedContent": "Tested with hundreds of simultaneous executions running on a 8 core 16gb ram VPS.  "
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "fyXTVPdFNLvM59oFAibAfbaJYrFyBWFGAf2XxmPENoM=",
+    "originContent": "Includes Puppeteer and Chrome built-in for pro level scraping from the n8n code node, works better than the community nodes.  ",
+    "translatedContent": "Includes Puppeteer and Chrome built-in for pro level scraping from the n8n code node, works better than the community nodes.  "
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "YhSRiEPMS6sgYA2HnPXUUU2YZnP5qJc7nolQdR2ClH0=",
+    "originContent": "Simple install, just clone the files + docker compose up",
+    "translatedContent": "Simple install, just clone the files + docker compose up"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "fxV+qJk43/CmRYwG5cyvrLMZ023bypgIha4+3wwqPB4=",
+    "originContent": "## Architecture Overview",
+    "translatedContent": "## Architecture Overview"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "RtlHQpG+V59KLQkk05f8+fLlxsq4KdWUwAAs6jH0zbs=",
+    "originContent": "```mermaid",
+    "translatedContent": "```mermaid"
+  },
+  {
+    "row": 20,
+    "rowsha": "rWWG8xDYdGHVf9XBvr5U7TTcoTADLi0czN3iTC1oIQ4=",
+    "originContent": "graph TD",
+    "translatedContent": "graph TD"
+  },
+  {
+    "row": 21,
+    "rowsha": "mS5aq5jhzYSPlXUvt9T87axLZRImCQxO0u7FTblUsA8=",
+    "originContent": "    A[n8n Main] -->|Queues jobs| B[Redis]",
+    "translatedContent": "    A[n8n Main] -->|Queues jobs| B[Redis]"
+  },
+  {
+    "row": 22,
+    "rowsha": "70XMf8mI0dNZi83tfv35sMRFrp+DYfTHvcYyYvJsLJg=",
+    "originContent": "    B -->|Monitors queue| C[Autoscaler]",
+    "translatedContent": "    B -->|Monitors queue| C[Autoscaler]"
+  },
+  {
+    "row": 23,
+    "rowsha": "am1Q8uBflnlhHxpbkkKPj+wal915Ic3aE0qXdMJCraQ=",
+    "originContent": "    C -->|Scales| D[n8n Workers]",
+    "translatedContent": "    C -->|Scales| D[n8n Workers]"
+  },
+  {
+    "row": 24,
+    "rowsha": "nomVXO6DbBUpvnUNTMHuEVJm2K4CQnRfAJJGRrGu0WE=",
+    "originContent": "    B -->|Monitors queue| E[Redis Monitor]",
+    "translatedContent": "    B -->|Monitors queue| E[Redis Monitor]"
+  },
+  {
+    "row": 25,
+    "rowsha": "yajmwuLnNCuU16In72/yvHdUxlM0tiz6cn9upgFebx4=",
+    "originContent": "    F[PostgreSQL] -->|Stores data| A",
+    "translatedContent": "    F[PostgreSQL] -->|Stores data| A"
+  },
+  {
+    "row": 26,
+    "rowsha": "1wIMMhsaoiQtwgc4JtUASqXQYIzIgamCKql6Ra9NOz8=",
+    "originContent": "    A -->|Webhooks| G[n8n Webhook]",
+    "translatedContent": "    A -->|Webhooks| G[n8n Webhook]"
+  },
+  {
+    "row": 27,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Features"
+  },
+  {
+    "row": 29,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Dynamic scaling of n8n worker containers based on queue length  "
+  },
+  {
+    "row": 31,
+    "rowsha": "W8oyR7CkYO49FAz5s7QhDDSH1J2rzOIm2EjIjtqSZMg=",
+    "originContent": "- Dynamic scaling of n8n worker containers based on queue length",
+    "translatedContent": "- Configurable scaling thresholds and limits  "
+  },
+  {
+    "row": 32,
+    "rowsha": "4k0Vhx7MmZMu6a4paKeXEhjbs1NDIUvhJVzdb71y8r4=",
+    "originContent": "- Configurable scaling thresholds and limits",
+    "translatedContent": "- Redis queue monitoring  "
+  },
+  {
+    "row": 33,
+    "rowsha": "eG354wnsVTcdSwKrx0ORulxiGWSl46cZq81Z8IObH7U=",
+    "originContent": "- Redis queue monitoring",
+    "translatedContent": "- Docker Compose-based deployment  "
+  },
+  {
+    "row": 34,
+    "rowsha": "fUVAePF5SXew0hAEGuZih6QuqeH2EFTtEiutK/ZukW0=",
+    "originContent": "- Docker Compose-based deployment",
+    "translatedContent": "- Health checks for all services  "
+  },
+  {
+    "row": 35,
+    "rowsha": "kLGMIX8oR7ykwc5vuWHiUyerCPr1EtIf8lJ5DKplPlo=",
+    "originContent": "- Health checks for all services",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Prerequisites"
+  },
+  {
+    "row": 37,
+    "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+    "originContent": "## Prerequisites",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Docker and Docker Compose.  "
+  },
+  {
+    "row": 39,
+    "rowsha": "dB0StodFr53G0PNIBK3NOvVkM78ZCOUfJzrgL6i4N1I=",
+    "originContent": "- Docker and Docker Compose.",
+    "translatedContent": "- If you are a new user, I recommend either docker desktop or using the docker convenience script for ubuntu.  "
+  },
+  {
+    "row": 40,
+    "rowsha": "YGDo0Tb9IPf69hyK6f8bJ7B7B4fYQy4rr2xiQvMRDsQ=",
+    "originContent": "- If you are a new user, I recommend either docker desktop or using the docker convenience script for ubuntu.  ",
+    "translatedContent": "- Set up your cloudflare domain and subdomains.  "
+  },
+  {
+    "row": 41,
+    "rowsha": "utrt0vRNKn7n+3OreZZn9heplRE6yjug+2vZHVCfCKY=",
+    "originContent": "- Set up your cloudflare domain and subdomains.",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Quick Start"
+  },
+  {
+    "row": 43,
+    "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+    "originContent": "## Quick Start",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. Copy or Clone this repository to a folder of your choice  "
+  },
+  {
+    "row": 45,
+    "rowsha": "aB10qaKWlJZmqP0ga3YvnG154o1NJC6b+6dSmS9xWqc=",
+    "originContent": "1. Copy or Clone this repository to a folder of your choice",
+    "translatedContent": "2. Rename .env.example to .env  "
+  },
+  {
+    "row": 46,
+    "rowsha": "4/c29vVURPZS9i2kbAg/pTC2KaOFLGuNIxIa7NDDz0U=",
+    "originContent": "2. Rename .env.example to .env",
+    "translatedContent": "3. Configure your environment variables in the .env file - defaults are good to go, but set new passwords and tokens.  "
+  },
+  {
+    "row": 47,
+    "rowsha": "R/phDBUDlfVnNbmdEmLDTx12DR6BfFhCUfDowpbctNs=",
+    "originContent": "3. Configure your environment variables in the .env file - defaults are good to go, but set new passwords and tokens.",
+    "translatedContent": "4. Run:"
+  },
+  {
+    "row": 48,
+    "rowsha": "0S3oo4vbhJ+P0Puac+MgzHHMEhcwbQFe+NwUbGacG40=",
+    "originContent": "4. Run:",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 50,
+    "rowsha": "jhb7TgjtNYzULxnq/yjF/qfm+8zgN3ZvwAQbl/xKEcY=",
+    "originContent": "   docker network create shark",
+    "translatedContent": "   docker network create shark"
+  },
+  {
+    "row": 51,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 52,
+    "rowsha": "Kcd6o3v0eRKQ+7LRiIZSRXPu0xIb2uPEAgrGnjoodgY=",
+    "originContent": "5. Run:",
+    "translatedContent": "5. Run:"
+  },
+  {
+    "row": 53,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 54,
+    "rowsha": "9f7Bg6s7+R8vc+jX0UtoCdNeymWtgTPNHduPQ0XKIAY=",
+    "originContent": "   docker compose up -d",
+    "translatedContent": "   docker compose up -d"
+  },
+  {
+    "row": 55,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "We create the shark external network in step 4 to make it easier to plug in other containers later.  If you don't want to do this, you can comment out the shark network in the docker compose file.  "
+  },
+  {
+    "row": 57,
+    "rowsha": "3ykbN6e8yEND3sYgQBIA5AHnwv24XHXute6/tp0QGj0=",
+    "originContent": "We create the shark external network in step 4 to make it easier to plug in other containers later.  If you don't want to do this, you can comment out the shark network in the docker compose file.  ",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Configuration"
+  },
+  {
+    "row": 59,
+    "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+    "originContent": "## Configuration",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Make sure you set your own passwords and encryption keys in the .env file!!!"
+  },
+  {
+    "row": 61,
+    "rowsha": "HFuLidRM1O5//Cq8enBZ5kLw3f9ibZtCH4q6OLfE1qM=",
+    "originContent": "- Make sure you set your own passwords and encryption keys in the .env file!!!",
+    "translatedContent": "- By default each worker handles 10 tasks at a time, you can modify this in the docker-compose under:      "
+  },
+  {
+    "row": 62,
+    "rowsha": "T1ZvYclrwZr+KatatZA8J1rUCW9ZJj1jVWS2Ot8neP4=",
+    "originContent": "- By default each worker handles 10 tasks at a time, you can modify this in the docker-compose under:      ",
+    "translatedContent": "   - N8N_CONCURRENCY_PRODUCTION_LIMIT=10"
+  },
+  {
+    "row": 63,
+    "rowsha": "SGPu10+5/i1nNlmSRCdWhOH1ASFhU2RwPWAXri/FtQw=",
+    "originContent": "   - N8N_CONCURRENCY_PRODUCTION_LIMIT=10",
+    "translatedContent": "- Adjust these to be greater than your longest expected workflow execution time measured in seconds:"
+  },
+  {
+    "row": 64,
+    "rowsha": "k0kkFEYbgqXOIrFVhzUvJMwqc267Bapi6ryfFpHMuv4=",
+    "originContent": "- Adjust these to be greater than your longest expected workflow execution time measured in seconds:",
+    "translatedContent": "   - N8N_QUEUE_BULL_GRACEFULSHUTDOWNTIMEOUT=300"
+  },
+  {
+    "row": 65,
+    "rowsha": "Lhwf0lEvp4F0CBxGFPYDUaQ4qnvbZyg1LYuQsu3+s04=",
+    "originContent": "   - N8N_QUEUE_BULL_GRACEFULSHUTDOWNTIMEOUT=300",
+    "translatedContent": "   - N8N_GRACEFUL_SHUTDOWN_TIMEOUT=300"
+  },
+  {
+    "row": 66,
+    "rowsha": "Ng3lM26x4ucUVJqpNGxREGB2TWXyhGBZJAqzsR5wPe4=",
+    "originContent": "   - N8N_GRACEFUL_SHUTDOWN_TIMEOUT=300",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Key Environment Variables"
+  },
+  {
+    "row": 68,
+    "rowsha": "0ffE2J2Pn6zuBofRKMp6cjesibUnvp0oDpcsuPtjQw0=",
+    "originContent": "### Key Environment Variables",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| Variable | Description | Default |"
+  },
+  {
+    "row": 70,
+    "rowsha": "39V4rhGMfb9epDMCWiSUXMY/40p3aaRXkMmW9OfYG7M=",
+    "originContent": "| Variable | Description | Default |",
+    "translatedContent": "|----------|-------------|---------|"
+  },
+  {
+    "row": 71,
+    "rowsha": "DVr/Dm1EyBfNVX8hj0lOlp3ivmaKGBnRdp7HSMQMDM8=",
+    "originContent": "|----------|-------------|---------|",
+    "translatedContent": "| `MIN_REPLICAS` | Minimum number of worker containers | 1 |"
+  },
+  {
+    "row": 72,
+    "rowsha": "dLKmsVjyvllMq4xcMv9ltuW2o1kr5rReO+FXNh9Y0nI=",
+    "originContent": "| `MIN_REPLICAS` | Minimum number of worker containers | 1 |",
+    "translatedContent": "| `MAX_REPLICAS` | Maximum number of worker containers | 5 |"
+  },
+  {
+    "row": 73,
+    "rowsha": "jIjFOc9ikthJMBrwM1Dc1MW1O2n2yZ8aJNFJoUICWNU=",
+    "originContent": "| `MAX_REPLICAS` | Maximum number of worker containers | 5 |",
+    "translatedContent": "| `SCALE_UP_QUEUE_THRESHOLD` | Queue length to trigger scale up | 5 |"
+  },
+  {
+    "row": 74,
+    "rowsha": "tao2SccWostugZUExkXX7KVCgoRmG4zwj9+0+BRPH4A=",
+    "originContent": "| `SCALE_UP_QUEUE_THRESHOLD` | Queue length to trigger scale up | 5 |",
+    "translatedContent": "| `SCALE_DOWN_QUEUE_THRESHOLD` | Queue length to trigger scale down | 2 |"
+  },
+  {
+    "row": 75,
+    "rowsha": "h3c0VreAXkSn4vgo8jRLS8E+KEXC37Tqal6AHg4Khk4=",
+    "originContent": "| `SCALE_DOWN_QUEUE_THRESHOLD` | Queue length to trigger scale down | 2 |",
+    "translatedContent": "| `POLLING_INTERVAL_SECONDS` | How often to check queue length | 30 |"
+  },
+  {
+    "row": 76,
+    "rowsha": "uvQIhcKf7ueA5uvMNL7lf9Xb07TE1ESqCggT3Xw1NIw=",
+    "originContent": "| `POLLING_INTERVAL_SECONDS` | How often to check queue length | 30 |",
+    "translatedContent": "| `COOLDOWN_PERIOD_SECONDS` | Time between scaling actions | 180 |"
+  },
+  {
+    "row": 77,
+    "rowsha": "CuEBY+JS79034D56YRxoov+Nae9rUNYHRgtmgDJRxe4=",
+    "originContent": "| `COOLDOWN_PERIOD_SECONDS` | Time between scaling actions | 180 |",
+    "translatedContent": "| `QUEUE_NAME_PREFIX` | Redis queue prefix | `bull` |"
+  },
+  {
+    "row": 78,
+    "rowsha": "ZEWxHTxqb3xr8W2OtSZRq2gM7a3Xub52GUIckTn+//0=",
+    "originContent": "| `QUEUE_NAME_PREFIX` | Redis queue prefix | `bull` |",
+    "translatedContent": "| `QUEUE_NAME` | Redis queue name | `jobs` |"
+  },
+  {
+    "row": 79,
+    "rowsha": "0YWdPpXbNUA7ZgIlc7VhchmkvfH1HNjZOtsMmRTJltk=",
+    "originContent": "| `QUEUE_NAME` | Redis queue name | `jobs` |",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### n8n Configuration"
+  },
+  {
+    "row": 81,
+    "rowsha": "1nmCM1rR46XZiDLVJmCrDFQPPh3LpGnRGzqMPb2i0Gs=",
+    "originContent": "### n8n Configuration",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Ensure these n8n environment variables are set:"
+  },
+  {
+    "row": 83,
+    "rowsha": "XucZkIPSG1kGtUSOI2FDsgoOevDT3W/t4ME2+YxHmxk=",
+    "originContent": "Ensure these n8n environment variables are set:",
+    "translatedContent": "- `EXECUTIONS_MODE=queue`"
+  },
+  {
+    "row": 84,
+    "rowsha": "Kg1W0JxPfm7gOtzcqICeHpoaZhf6zq36K+m3gPXC8iU=",
+    "originContent": "- `EXECUTIONS_MODE=queue`",
+    "translatedContent": "- `QUEUE_BULL_REDIS_HOST=redis`"
+  },
+  {
+    "row": 85,
+    "rowsha": "7ASbimp20EzF2f9dfnSdvVhOhlyDi5FzTBH90veiIY4=",
+    "originContent": "- `QUEUE_BULL_REDIS_HOST=redis`",
+    "translatedContent": "- `QUEUE_HEALTH_CHECK_ACTIVE=true`"
+  },
+  {
+    "row": 86,
+    "rowsha": "UZkgyeOCJ2j6Z6BwAiQYoka9NERzfL9kFHgPPXIJi/8=",
+    "originContent": "- `QUEUE_HEALTH_CHECK_ACTIVE=true`",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Scaling Behavior"
+  },
+  {
+    "row": 88,
+    "rowsha": "4DGsK1bNISb8HxIlMlBjEGvJN+lHB/Sj3+P/7haH8n0=",
+    "originContent": "## Scaling Behavior",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "The autoscaler:"
+  },
+  {
+    "row": 90,
+    "rowsha": "EzlIFxGkFozyt57W/mFyW33nbD2DPvNUVcNkDWxyUZM=",
+    "originContent": "The autoscaler:",
+    "translatedContent": "1. Monitors Redis queue length every `POLLING_INTERVAL_SECONDS`"
+  },
+  {
+    "row": 91,
+    "rowsha": "LY98GVXxtYNFt3+rX4PzZXtvDk07usW297X+db/3M84=",
+    "originContent": "1. Monitors Redis queue length every `POLLING_INTERVAL_SECONDS`",
+    "translatedContent": "2. Scales up when:"
+  },
+  {
+    "row": 92,
+    "rowsha": "KiDzYoKrOFXP8tlD+hhacL4SSqfe0xCikbOE1SygfQI=",
+    "originContent": "2. Scales up when:",
+    "translatedContent": "   - Queue length > `SCALE_UP_QUEUE_THRESHOLD`"
+  },
+  {
+    "row": 93,
+    "rowsha": "2y7biF5qvX/yMNtZ95rhgXxJuUHiDhs7te5n2uhApcc=",
+    "originContent": "   - Queue length > `SCALE_UP_QUEUE_THRESHOLD`",
+    "translatedContent": "   - Current replicas < `MAX_REPLICAS`"
+  },
+  {
+    "row": 94,
+    "rowsha": "osIdc91oDqqEEsH2U5v57r755/3J0b8nDqS3Jy04JYY=",
+    "originContent": "   - Current replicas < `MAX_REPLICAS`",
+    "translatedContent": "3. Scales down when:"
+  },
+  {
+    "row": 95,
+    "rowsha": "URiHDKjkvVQgLtGPCAZsOfw3H07Np7VAm6Kk23vuqww=",
+    "originContent": "3. Scales down when:",
+    "translatedContent": "   - Queue length < `SCALE_DOWN_QUEUE_THRESHOLD`"
+  },
+  {
+    "row": 96,
+    "rowsha": "apVcP77YAMvZOimbMHM2szrJlzedLmDFJgQl9Vn90mc=",
+    "originContent": "   - Queue length < `SCALE_DOWN_QUEUE_THRESHOLD`",
+    "translatedContent": "   - Current replicas > `MIN_REPLICAS`"
+  },
+  {
+    "row": 97,
+    "rowsha": "bBC4L9+fhT9BN9BnQ6h1BtBejqz9v4NvdJe69MuUh2k=",
+    "originContent": "   - Current replicas > `MIN_REPLICAS`",
+    "translatedContent": "4. Respects cooldown period between scaling actions"
+  },
+  {
+    "row": 98,
+    "rowsha": "xf1hdDi8lVJoVEoMbvhkjEgOJzHgAE+0p9E41MS8R44=",
+    "originContent": "4. Respects cooldown period between scaling actions",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Monitoring"
+  },
+  {
+    "row": 100,
+    "rowsha": "ZyW2c7zH8x3/f7G8mR8+l3up7r6WueywzooSrpOxJbw=",
+    "originContent": "## Monitoring",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "The system includes:"
+  },
+  {
+    "row": 102,
+    "rowsha": "P5t/cVJ0l3RKlykjhvGsoCaPGIDRFAc+7slwg/jS970=",
+    "originContent": "The system includes:",
+    "translatedContent": "- Redis queue monitor service (`redis-monitor`)"
+  },
+  {
+    "row": 103,
+    "rowsha": "QYR+3WNaBhTe5HGg/I+mM0xfS1tSwomX+kvZQ6Kb/q0=",
+    "originContent": "- Redis queue monitor service (`redis-monitor`)",
+    "translatedContent": "- Docker health checks for all services"
+  },
+  {
+    "row": 104,
+    "rowsha": "ecIDl9olvKDLu/3IPr/ez/0xIklzWWdlJONHfBVXPzE=",
+    "originContent": "- Docker health checks for all services",
+    "translatedContent": "- Detailed logging from autoscaler"
+  },
+  {
+    "row": 105,
+    "rowsha": "a92yzGxfKkkMvKjzfkIHOq3NJFrbE/BBPQIbarz1/2w=",
+    "originContent": "- Detailed logging from autoscaler",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Troubleshooting"
+  },
+  {
+    "row": 107,
+    "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+    "originContent": "## Troubleshooting",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Check container logs: `docker-compose logs [service]`"
+  },
+  {
+    "row": 109,
+    "rowsha": "ZKblV/iY1o/q+jt7KpbmLS9kHzWOuzVvUXRyY/OGflA=",
+    "originContent": "- Check container logs: `docker-compose logs [service]`",
+    "translatedContent": "- Verify Redis connection: `docker-compose exec redis redis-cli ping`"
+  },
+  {
+    "row": 110,
+    "rowsha": "2SYmfC67S3YUm8pXCayjgN36zr8Ygon1AP7wbTwWT+o=",
+    "originContent": "- Verify Redis connection: `docker-compose exec redis redis-cli ping`",
+    "translatedContent": "- Check queue length manually: `docker-compose exec redis redis-cli LLEN bull:jobs:wait`"
+  },
+  {
+    "row": 111,
+    "rowsha": "un9bkhFaAY7p1czKjDwkVOHe0U5pHNviSZzicFD46EA=",
+    "originContent": "- Check queue length manually: `docker-compose exec redis redis-cli LLEN bull:jobs:wait`",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Webhook URL example:"
+  },
+  {
+    "row": 113,
+    "rowsha": "8a3+DlxABygZ2so3/mAUn5hlmwnbRMz+LL4H57F9QAk=",
+    "originContent": "Webhook URL example:",
+    "translatedContent": "Webhooks use your cloudflare subdomain name not local host, example:"
+  },
+  {
+    "row": 114,
+    "rowsha": "bAQiTuX5Av9WpeghBJztzcRQ4g/olllbx/dZ9EtpsRc=",
+    "originContent": "Webhooks use your cloudflare subdomain name not local host, example:",
+    "translatedContent": "http://webhook.domain.com/webhook/d7e73b77-6cfb-4add-b454-41e4c91461d8"
+  },
+  {
+    "row": 115,
+    "rowsha": "8OzsFR9amYF4RA0Y8Nu9G+1QCmhPYcWwC7/pGDoQBUI=",
+    "originContent": "http://webhook.domain.com/webhook/d7e73b77-6cfb-4add-b454-41e4c91461d8",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## License"
+  },
+  {
+    "row": 119,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "MIT License - See [LICENSE](LICENSE) for details."
+  },
+  {
+    "row": 121,
+    "rowsha": "By/N+w9KrosUGMpNW9mPHh9ybwrQot7uPEDH4V4N8E8=",
+    "originContent": "MIT License - See [LICENSE](LICENSE) for details.",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

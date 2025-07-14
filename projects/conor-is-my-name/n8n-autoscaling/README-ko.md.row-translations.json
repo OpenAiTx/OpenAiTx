@@ -1,0 +1,734 @@
+[
+  {
+    "row": 1,
+    "rowsha": "H+3n8IUUa4Arb0ALUmdOkeobCIKLL3ZJ8LHxF6s227Y=",
+    "originContent": "Now includes cloudflared. Configure on cloudflare.com and paste your token in the .env file.  ",
+    "translatedContent": "이제 cloudflared가 포함되어 있습니다. cloudflare.com에서 구성하고 .env 파일에 토큰을 붙여넣으세요.  "
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "IrXVsGZkFgzNTxoi8+7tC/n0OPWPDIOer2rHdq9/wVE=",
+    "originContent": "for step by step instructions follow this guide: https://www.reddit.com/r/n8n/comments/1l9mi6k/major_update_to_n8nautoscaling_build_step_by_step/",
+    "translatedContent": "단계별 지침은 다음 가이드를 참조하세요: https://www.reddit.com/r/n8n/comments/1l9mi6k/major_update_to_n8nautoscaling_build_step_by_step/"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "vM03mzQS+4w2Xliok4dOmzuHFy9w+xd6jnSPQIGbBlY=",
+    "originContent": "original version without cloudflared is saved in the branches for those who don't want to use it. ",
+    "translatedContent": "cloudflared를 사용하지 않는 분들을 위해 원본 버전은 브랜치에 저장되어 있습니다. "
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "FdH03SoSDKgTPU5lWy/w6IHP/wg6LORfyGGEsQR75r0=",
+    "originContent": "# n8n Autoscaling System",
+    "translatedContent": "# n8n 자동 확장 시스템"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "H0eS79sAVSlb1hGMeGNd9/7zdXJxfRxNQDGnhQ2H9JQ=",
+    "originContent": "A Docker-based autoscaling solution for n8n workflow automation platform. Dynamically scales worker containers based on Redis queue length.  No need to deal with k8s or any other container scaling provider, a simple script runs it all and is easily configurable.",
+    "translatedContent": "n8n 워크플로 자동화 플랫폼을 위한 Docker 기반 자동 확장 솔루션입니다. Redis 큐 길이에 따라 워커 컨테이너를 동적으로 확장합니다. k8s나 다른 컨테이너 확장 제공자를 다룰 필요 없이 간단한 스크립트로 모두 실행되며 쉽게 구성할 수 있습니다."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "fYu2drJwVq+8jBAHyH5hS/0hNet0aBVaLTmi2TDmlwA=",
+    "originContent": "Tested with hundreds of simultaneous executions running on a 8 core 16gb ram VPS.  ",
+    "translatedContent": "8코어 16GB 램 VPS에서 수백 개의 동시 실행을 테스트했습니다.  "
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "fyXTVPdFNLvM59oFAibAfbaJYrFyBWFGAf2XxmPENoM=",
+    "originContent": "Includes Puppeteer and Chrome built-in for pro level scraping from the n8n code node, works better than the community nodes.  ",
+    "translatedContent": "n8n 코드 노드에서 전문 수준의 스크래핑을 위한 Puppeteer와 Chrome이 내장되어 있어 커뮤니티 노드보다 더 잘 작동합니다.  "
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "YhSRiEPMS6sgYA2HnPXUUU2YZnP5qJc7nolQdR2ClH0=",
+    "originContent": "Simple install, just clone the files + docker compose up",
+    "translatedContent": "간단한 설치, 파일을 클론한 후 docker compose up 명령만 실행하세요"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "fxV+qJk43/CmRYwG5cyvrLMZ023bypgIha4+3wwqPB4=",
+    "originContent": "## Architecture Overview",
+    "translatedContent": "## 아키텍처 개요"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "RtlHQpG+V59KLQkk05f8+fLlxsq4KdWUwAAs6jH0zbs=",
+    "originContent": "```mermaid",
+    "translatedContent": "```mermaid"
+  },
+  {
+    "row": 20,
+    "rowsha": "rWWG8xDYdGHVf9XBvr5U7TTcoTADLi0czN3iTC1oIQ4=",
+    "originContent": "graph TD",
+    "translatedContent": "graph TD"
+  },
+  {
+    "row": 21,
+    "rowsha": "mS5aq5jhzYSPlXUvt9T87axLZRImCQxO0u7FTblUsA8=",
+    "originContent": "    A[n8n Main] -->|Queues jobs| B[Redis]",
+    "translatedContent": "    A[n8n Main] -->|Queues jobs| B[Redis]"
+  },
+  {
+    "row": 22,
+    "rowsha": "70XMf8mI0dNZi83tfv35sMRFrp+DYfTHvcYyYvJsLJg=",
+    "originContent": "    B -->|Monitors queue| C[Autoscaler]",
+    "translatedContent": "    B -->|Monitors queue| C[Autoscaler]"
+  },
+  {
+    "row": 23,
+    "rowsha": "am1Q8uBflnlhHxpbkkKPj+wal915Ic3aE0qXdMJCraQ=",
+    "originContent": "    C -->|Scales| D[n8n Workers]",
+    "translatedContent": "    C -->|Scales| D[n8n Workers]"
+  },
+  {
+    "row": 24,
+    "rowsha": "nomVXO6DbBUpvnUNTMHuEVJm2K4CQnRfAJJGRrGu0WE=",
+    "originContent": "    B -->|Monitors queue| E[Redis Monitor]",
+    "translatedContent": "    B -->|Monitors queue| E[Redis Monitor]"
+  },
+  {
+    "row": 25,
+    "rowsha": "yajmwuLnNCuU16In72/yvHdUxlM0tiz6cn9upgFebx4=",
+    "originContent": "    F[PostgreSQL] -->|Stores data| A",
+    "translatedContent": "    F[PostgreSQL] -->|Stores data| A"
+  },
+  {
+    "row": 26,
+    "rowsha": "1wIMMhsaoiQtwgc4JtUASqXQYIzIgamCKql6Ra9NOz8=",
+    "originContent": "    A -->|Webhooks| G[n8n Webhook]",
+    "translatedContent": "    A -->|Webhooks| G[n8n Webhook]"
+  },
+  {
+    "row": 27,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 기능"
+  },
+  {
+    "row": 29,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 큐 길이에 따른 n8n 워커 컨테이너의 동적 확장"
+  },
+  {
+    "row": 31,
+    "rowsha": "W8oyR7CkYO49FAz5s7QhDDSH1J2rzOIm2EjIjtqSZMg=",
+    "originContent": "- Dynamic scaling of n8n worker containers based on queue length",
+    "translatedContent": "- 구성 가능한 확장 임계값 및 한도"
+  },
+  {
+    "row": 32,
+    "rowsha": "4k0Vhx7MmZMu6a4paKeXEhjbs1NDIUvhJVzdb71y8r4=",
+    "originContent": "- Configurable scaling thresholds and limits",
+    "translatedContent": "- Redis 큐 모니터링"
+  },
+  {
+    "row": 33,
+    "rowsha": "eG354wnsVTcdSwKrx0ORulxiGWSl46cZq81Z8IObH7U=",
+    "originContent": "- Redis queue monitoring",
+    "translatedContent": "- Docker Compose 기반 배포"
+  },
+  {
+    "row": 34,
+    "rowsha": "fUVAePF5SXew0hAEGuZih6QuqeH2EFTtEiutK/ZukW0=",
+    "originContent": "- Docker Compose-based deployment",
+    "translatedContent": "- 모든 서비스에 대한 상태 검사"
+  },
+  {
+    "row": 35,
+    "rowsha": "kLGMIX8oR7ykwc5vuWHiUyerCPr1EtIf8lJ5DKplPlo=",
+    "originContent": "- Health checks for all services",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 사전 요구사항"
+  },
+  {
+    "row": 37,
+    "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+    "originContent": "## Prerequisites",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Docker 및 Docker Compose."
+  },
+  {
+    "row": 39,
+    "rowsha": "dB0StodFr53G0PNIBK3NOvVkM78ZCOUfJzrgL6i4N1I=",
+    "originContent": "- Docker and Docker Compose.",
+    "translatedContent": "- 새 사용자라면 docker desktop 또는 우분투용 도커 편의 스크립트 사용을 권장합니다.  "
+  },
+  {
+    "row": 40,
+    "rowsha": "YGDo0Tb9IPf69hyK6f8bJ7B7B4fYQy4rr2xiQvMRDsQ=",
+    "originContent": "- If you are a new user, I recommend either docker desktop or using the docker convenience script for ubuntu.  ",
+    "translatedContent": "- Cloudflare 도메인 및 서브도메인 설정."
+  },
+  {
+    "row": 41,
+    "rowsha": "utrt0vRNKn7n+3OreZZn9heplRE6yjug+2vZHVCfCKY=",
+    "originContent": "- Set up your cloudflare domain and subdomains.",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 빠른 시작"
+  },
+  {
+    "row": 43,
+    "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+    "originContent": "## Quick Start",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. 이 저장소를 원하는 폴더에 복사하거나 클론하세요"
+  },
+  {
+    "row": 45,
+    "rowsha": "aB10qaKWlJZmqP0ga3YvnG154o1NJC6b+6dSmS9xWqc=",
+    "originContent": "1. Copy or Clone this repository to a folder of your choice",
+    "translatedContent": "2. .env.example 파일명을 .env로 변경하세요"
+  },
+  {
+    "row": 46,
+    "rowsha": "4/c29vVURPZS9i2kbAg/pTC2KaOFLGuNIxIa7NDDz0U=",
+    "originContent": "2. Rename .env.example to .env",
+    "translatedContent": "3. .env 파일에서 환경 변수를 구성하세요 - 기본값은 사용 가능하지만 새 비밀번호와 토큰을 설정하세요."
+  },
+  {
+    "row": 47,
+    "rowsha": "R/phDBUDlfVnNbmdEmLDTx12DR6BfFhCUfDowpbctNs=",
+    "originContent": "3. Configure your environment variables in the .env file - defaults are good to go, but set new passwords and tokens.",
+    "translatedContent": "4. 실행:"
+  },
+  {
+    "row": 48,
+    "rowsha": "0S3oo4vbhJ+P0Puac+MgzHHMEhcwbQFe+NwUbGacG40=",
+    "originContent": "4. Run:",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 50,
+    "rowsha": "jhb7TgjtNYzULxnq/yjF/qfm+8zgN3ZvwAQbl/xKEcY=",
+    "originContent": "   docker network create shark",
+    "translatedContent": "   docker network create shark"
+  },
+  {
+    "row": 51,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 52,
+    "rowsha": "Kcd6o3v0eRKQ+7LRiIZSRXPu0xIb2uPEAgrGnjoodgY=",
+    "originContent": "5. Run:",
+    "translatedContent": "5. 실행:"
+  },
+  {
+    "row": 53,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 54,
+    "rowsha": "9f7Bg6s7+R8vc+jX0UtoCdNeymWtgTPNHduPQ0XKIAY=",
+    "originContent": "   docker compose up -d",
+    "translatedContent": "   docker compose up -d"
+  },
+  {
+    "row": 55,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "우리는 나중에 다른 컨테이너를 쉽게 연결할 수 있도록 4단계에서 shark 외부 네트워크를 생성합니다.  만약 이것을 원하지 않는다면, docker compose 파일에서 shark 네트워크를 주석 처리할 수 있습니다.  "
+  },
+  {
+    "row": 57,
+    "rowsha": "3ykbN6e8yEND3sYgQBIA5AHnwv24XHXute6/tp0QGj0=",
+    "originContent": "We create the shark external network in step 4 to make it easier to plug in other containers later.  If you don't want to do this, you can comment out the shark network in the docker compose file.  ",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 설정"
+  },
+  {
+    "row": 59,
+    "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+    "originContent": "## Configuration",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- .env 파일에 본인만의 비밀번호와 암호화 키를 반드시 설정하세요!!!"
+  },
+  {
+    "row": 61,
+    "rowsha": "HFuLidRM1O5//Cq8enBZ5kLw3f9ibZtCH4q6OLfE1qM=",
+    "originContent": "- Make sure you set your own passwords and encryption keys in the .env file!!!",
+    "translatedContent": "- 기본적으로 각 워커는 한 번에 10개의 작업을 처리하며, docker-compose에서 다음 항목을 수정할 수 있습니다:      "
+  },
+  {
+    "row": 62,
+    "rowsha": "T1ZvYclrwZr+KatatZA8J1rUCW9ZJj1jVWS2Ot8neP4=",
+    "originContent": "- By default each worker handles 10 tasks at a time, you can modify this in the docker-compose under:      ",
+    "translatedContent": "   - N8N_CONCURRENCY_PRODUCTION_LIMIT=10"
+  },
+  {
+    "row": 63,
+    "rowsha": "SGPu10+5/i1nNlmSRCdWhOH1ASFhU2RwPWAXri/FtQw=",
+    "originContent": "   - N8N_CONCURRENCY_PRODUCTION_LIMIT=10",
+    "translatedContent": "- 다음 값들은 예상되는 가장 긴 워크플로 실행 시간을 초 단위로 넘기도록 조정하세요:"
+  },
+  {
+    "row": 64,
+    "rowsha": "k0kkFEYbgqXOIrFVhzUvJMwqc267Bapi6ryfFpHMuv4=",
+    "originContent": "- Adjust these to be greater than your longest expected workflow execution time measured in seconds:",
+    "translatedContent": "   - N8N_QUEUE_BULL_GRACEFULSHUTDOWNTIMEOUT=300"
+  },
+  {
+    "row": 65,
+    "rowsha": "Lhwf0lEvp4F0CBxGFPYDUaQ4qnvbZyg1LYuQsu3+s04=",
+    "originContent": "   - N8N_QUEUE_BULL_GRACEFULSHUTDOWNTIMEOUT=300",
+    "translatedContent": "   - N8N_GRACEFUL_SHUTDOWN_TIMEOUT=300"
+  },
+  {
+    "row": 66,
+    "rowsha": "Ng3lM26x4ucUVJqpNGxREGB2TWXyhGBZJAqzsR5wPe4=",
+    "originContent": "   - N8N_GRACEFUL_SHUTDOWN_TIMEOUT=300",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 주요 환경 변수"
+  },
+  {
+    "row": 68,
+    "rowsha": "0ffE2J2Pn6zuBofRKMp6cjesibUnvp0oDpcsuPtjQw0=",
+    "originContent": "### Key Environment Variables",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| 변수 | 설명 | 기본값 |"
+  },
+  {
+    "row": 70,
+    "rowsha": "39V4rhGMfb9epDMCWiSUXMY/40p3aaRXkMmW9OfYG7M=",
+    "originContent": "| Variable | Description | Default |",
+    "translatedContent": "|----------|-------------|---------|"
+  },
+  {
+    "row": 71,
+    "rowsha": "DVr/Dm1EyBfNVX8hj0lOlp3ivmaKGBnRdp7HSMQMDM8=",
+    "originContent": "|----------|-------------|---------|",
+    "translatedContent": "| `MIN_REPLICAS` | 최소 워커 컨테이너 수 | 1 |"
+  },
+  {
+    "row": 72,
+    "rowsha": "dLKmsVjyvllMq4xcMv9ltuW2o1kr5rReO+FXNh9Y0nI=",
+    "originContent": "| `MIN_REPLICAS` | Minimum number of worker containers | 1 |",
+    "translatedContent": "| `MAX_REPLICAS` | 최대 워커 컨테이너 수 | 5 |"
+  },
+  {
+    "row": 73,
+    "rowsha": "jIjFOc9ikthJMBrwM1Dc1MW1O2n2yZ8aJNFJoUICWNU=",
+    "originContent": "| `MAX_REPLICAS` | Maximum number of worker containers | 5 |",
+    "translatedContent": "| `SCALE_UP_QUEUE_THRESHOLD` | 확장 트리거를 위한 큐 길이 | 5 |"
+  },
+  {
+    "row": 74,
+    "rowsha": "tao2SccWostugZUExkXX7KVCgoRmG4zwj9+0+BRPH4A=",
+    "originContent": "| `SCALE_UP_QUEUE_THRESHOLD` | Queue length to trigger scale up | 5 |",
+    "translatedContent": "| `SCALE_DOWN_QUEUE_THRESHOLD` | 축소 트리거를 위한 큐 길이 | 2 |"
+  },
+  {
+    "row": 75,
+    "rowsha": "h3c0VreAXkSn4vgo8jRLS8E+KEXC37Tqal6AHg4Khk4=",
+    "originContent": "| `SCALE_DOWN_QUEUE_THRESHOLD` | Queue length to trigger scale down | 2 |",
+    "translatedContent": "| `POLLING_INTERVAL_SECONDS` | 큐 길이 확인 주기 | 30 |"
+  },
+  {
+    "row": 76,
+    "rowsha": "uvQIhcKf7ueA5uvMNL7lf9Xb07TE1ESqCggT3Xw1NIw=",
+    "originContent": "| `POLLING_INTERVAL_SECONDS` | How often to check queue length | 30 |",
+    "translatedContent": "| `COOLDOWN_PERIOD_SECONDS` | 스케일링 동작 간 대기 시간 | 180 |"
+  },
+  {
+    "row": 77,
+    "rowsha": "CuEBY+JS79034D56YRxoov+Nae9rUNYHRgtmgDJRxe4=",
+    "originContent": "| `COOLDOWN_PERIOD_SECONDS` | Time between scaling actions | 180 |",
+    "translatedContent": "| `QUEUE_NAME_PREFIX` | Redis 큐 접두어 | `bull` |"
+  },
+  {
+    "row": 78,
+    "rowsha": "ZEWxHTxqb3xr8W2OtSZRq2gM7a3Xub52GUIckTn+//0=",
+    "originContent": "| `QUEUE_NAME_PREFIX` | Redis queue prefix | `bull` |",
+    "translatedContent": "| `QUEUE_NAME` | Redis 큐 이름 | `jobs` |"
+  },
+  {
+    "row": 79,
+    "rowsha": "0YWdPpXbNUA7ZgIlc7VhchmkvfH1HNjZOtsMmRTJltk=",
+    "originContent": "| `QUEUE_NAME` | Redis queue name | `jobs` |",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### n8n 구성"
+  },
+  {
+    "row": 81,
+    "rowsha": "1nmCM1rR46XZiDLVJmCrDFQPPh3LpGnRGzqMPb2i0Gs=",
+    "originContent": "### n8n Configuration",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "다음 n8n 환경 변수가 설정되어 있는지 확인하세요:"
+  },
+  {
+    "row": 83,
+    "rowsha": "XucZkIPSG1kGtUSOI2FDsgoOevDT3W/t4ME2+YxHmxk=",
+    "originContent": "Ensure these n8n environment variables are set:",
+    "translatedContent": "- `EXECUTIONS_MODE=queue`"
+  },
+  {
+    "row": 84,
+    "rowsha": "Kg1W0JxPfm7gOtzcqICeHpoaZhf6zq36K+m3gPXC8iU=",
+    "originContent": "- `EXECUTIONS_MODE=queue`",
+    "translatedContent": "- `QUEUE_BULL_REDIS_HOST=redis`"
+  },
+  {
+    "row": 85,
+    "rowsha": "7ASbimp20EzF2f9dfnSdvVhOhlyDi5FzTBH90veiIY4=",
+    "originContent": "- `QUEUE_BULL_REDIS_HOST=redis`",
+    "translatedContent": "- `QUEUE_HEALTH_CHECK_ACTIVE=true`"
+  },
+  {
+    "row": 86,
+    "rowsha": "UZkgyeOCJ2j6Z6BwAiQYoka9NERzfL9kFHgPPXIJi/8=",
+    "originContent": "- `QUEUE_HEALTH_CHECK_ACTIVE=true`",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 스케일링 동작"
+  },
+  {
+    "row": 88,
+    "rowsha": "4DGsK1bNISb8HxIlMlBjEGvJN+lHB/Sj3+P/7haH8n0=",
+    "originContent": "## Scaling Behavior",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "오토스케일러는:"
+  },
+  {
+    "row": 90,
+    "rowsha": "EzlIFxGkFozyt57W/mFyW33nbD2DPvNUVcNkDWxyUZM=",
+    "originContent": "The autoscaler:",
+    "translatedContent": "1. `POLLING_INTERVAL_SECONDS`마다 Redis 큐 길이를 모니터링합니다."
+  },
+  {
+    "row": 91,
+    "rowsha": "LY98GVXxtYNFt3+rX4PzZXtvDk07usW297X+db/3M84=",
+    "originContent": "1. Monitors Redis queue length every `POLLING_INTERVAL_SECONDS`",
+    "translatedContent": "2. 다음 조건 시 확장합니다:"
+  },
+  {
+    "row": 92,
+    "rowsha": "KiDzYoKrOFXP8tlD+hhacL4SSqfe0xCikbOE1SygfQI=",
+    "originContent": "2. Scales up when:",
+    "translatedContent": "   - 큐 길이 > `SCALE_UP_QUEUE_THRESHOLD`"
+  },
+  {
+    "row": 93,
+    "rowsha": "2y7biF5qvX/yMNtZ95rhgXxJuUHiDhs7te5n2uhApcc=",
+    "originContent": "   - Queue length > `SCALE_UP_QUEUE_THRESHOLD`",
+    "translatedContent": "   - 현재 복제 수 < `MAX_REPLICAS`"
+  },
+  {
+    "row": 94,
+    "rowsha": "osIdc91oDqqEEsH2U5v57r755/3J0b8nDqS3Jy04JYY=",
+    "originContent": "   - Current replicas < `MAX_REPLICAS`",
+    "translatedContent": "3. 다음 조건 시 축소합니다:"
+  },
+  {
+    "row": 95,
+    "rowsha": "URiHDKjkvVQgLtGPCAZsOfw3H07Np7VAm6Kk23vuqww=",
+    "originContent": "3. Scales down when:",
+    "translatedContent": "   - 큐 길이 < `SCALE_DOWN_QUEUE_THRESHOLD`"
+  },
+  {
+    "row": 96,
+    "rowsha": "apVcP77YAMvZOimbMHM2szrJlzedLmDFJgQl9Vn90mc=",
+    "originContent": "   - Queue length < `SCALE_DOWN_QUEUE_THRESHOLD`",
+    "translatedContent": "   - 현재 복제 수 > `MIN_REPLICAS`"
+  },
+  {
+    "row": 97,
+    "rowsha": "bBC4L9+fhT9BN9BnQ6h1BtBejqz9v4NvdJe69MuUh2k=",
+    "originContent": "   - Current replicas > `MIN_REPLICAS`",
+    "translatedContent": "4. 스케일링 동작 간 쿨다운 기간을 준수합니다."
+  },
+  {
+    "row": 98,
+    "rowsha": "xf1hdDi8lVJoVEoMbvhkjEgOJzHgAE+0p9E41MS8R44=",
+    "originContent": "4. Respects cooldown period between scaling actions",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 모니터링"
+  },
+  {
+    "row": 100,
+    "rowsha": "ZyW2c7zH8x3/f7G8mR8+l3up7r6WueywzooSrpOxJbw=",
+    "originContent": "## Monitoring",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "시스템은 다음을 포함합니다:"
+  },
+  {
+    "row": 102,
+    "rowsha": "P5t/cVJ0l3RKlykjhvGsoCaPGIDRFAc+7slwg/jS970=",
+    "originContent": "The system includes:",
+    "translatedContent": "- Redis 큐 모니터 서비스 (`redis-monitor`)"
+  },
+  {
+    "row": 103,
+    "rowsha": "QYR+3WNaBhTe5HGg/I+mM0xfS1tSwomX+kvZQ6Kb/q0=",
+    "originContent": "- Redis queue monitor service (`redis-monitor`)",
+    "translatedContent": "- 모든 서비스에 대한 Docker 헬스 체크"
+  },
+  {
+    "row": 104,
+    "rowsha": "ecIDl9olvKDLu/3IPr/ez/0xIklzWWdlJONHfBVXPzE=",
+    "originContent": "- Docker health checks for all services",
+    "translatedContent": "- 오토스케일러의 상세 로그"
+  },
+  {
+    "row": 105,
+    "rowsha": "a92yzGxfKkkMvKjzfkIHOq3NJFrbE/BBPQIbarz1/2w=",
+    "originContent": "- Detailed logging from autoscaler",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 문제 해결"
+  },
+  {
+    "row": 107,
+    "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+    "originContent": "## Troubleshooting",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 컨테이너 로그 확인: `docker-compose logs [서비스명]`"
+  },
+  {
+    "row": 109,
+    "rowsha": "ZKblV/iY1o/q+jt7KpbmLS9kHzWOuzVvUXRyY/OGflA=",
+    "originContent": "- Check container logs: `docker-compose logs [service]`",
+    "translatedContent": "- Redis 연결 확인: `docker-compose exec redis redis-cli ping`"
+  },
+  {
+    "row": 110,
+    "rowsha": "2SYmfC67S3YUm8pXCayjgN36zr8Ygon1AP7wbTwWT+o=",
+    "originContent": "- Verify Redis connection: `docker-compose exec redis redis-cli ping`",
+    "translatedContent": "- 수동으로 큐 길이 확인: `docker-compose exec redis redis-cli LLEN bull:jobs:wait`"
+  },
+  {
+    "row": 111,
+    "rowsha": "un9bkhFaAY7p1czKjDwkVOHe0U5pHNviSZzicFD46EA=",
+    "originContent": "- Check queue length manually: `docker-compose exec redis redis-cli LLEN bull:jobs:wait`",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "웹훅 URL 예시:"
+  },
+  {
+    "row": 113,
+    "rowsha": "8a3+DlxABygZ2so3/mAUn5hlmwnbRMz+LL4H57F9QAk=",
+    "originContent": "Webhook URL example:",
+    "translatedContent": "웹훅은 로컬 호스트가 아닌 클라우드플레어 서브도메인을 사용합니다, 예:"
+  },
+  {
+    "row": 114,
+    "rowsha": "bAQiTuX5Av9WpeghBJztzcRQ4g/olllbx/dZ9EtpsRc=",
+    "originContent": "Webhooks use your cloudflare subdomain name not local host, example:",
+    "translatedContent": "http://webhook.domain.com/webhook/d7e73b77-6cfb-4add-b454-41e4c91461d8"
+  },
+  {
+    "row": 115,
+    "rowsha": "8OzsFR9amYF4RA0Y8Nu9G+1QCmhPYcWwC7/pGDoQBUI=",
+    "originContent": "http://webhook.domain.com/webhook/d7e73b77-6cfb-4add-b454-41e4c91461d8",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 라이선스"
+  },
+  {
+    "row": 119,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "MIT 라이선스 - 자세한 내용은 [LICENSE](LICENSE)를 참조하세요."
+  },
+  {
+    "row": 121,
+    "rowsha": "By/N+w9KrosUGMpNW9mPHh9ybwrQot7uPEDH4V4N8E8=",
+    "originContent": "MIT License - See [LICENSE](LICENSE) for details.",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
