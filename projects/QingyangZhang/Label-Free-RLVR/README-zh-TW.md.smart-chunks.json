@@ -1,0 +1,555 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Awesome Label-Free Reinforcement Learning with Verifiable Rewards\n\n[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)\n\nA curated collection of papers on Label-Free Reinforcement Learning with Verifiable Rewards (RLVR) for Large Language Models (LLMs).\n\n> **By [Qingyang Zhang](https://raw.githubusercontent.com/QingyangZhang/Label-Free-RLVR/main/qingyangzhang.github.io), [Haitao Wu](https://haitaowutju.github.io) and [Yi Ding](https://dripnowhy.github.io). If there are any papers I missed, please let me know!**\n\n\n## Table of Contents\n- [Awesome Label-Free Reinforcement Learning with Verifiable Rewards](#awesome-label-free-reinforcement-learning-with-verifiable-rewards)\n  - [Table of Contents](#table-of-contents)\n  - [Overview](#overview)\n    - [Before DeepSeek-R1-Zero](#before-deepseek-r1-zero)\n    - [RLVR without External Supervision](#rlvr-without-external-supervision)\n    - [RLVR with Limited Data](#rlvr-with-limited-data)\n    - [Others](#others)\n  - [Star History](#star-history)\n\n## Overview\n\n### Before DeepSeek-R1-Zero\n\n[Preference Optimization for Reasoning with Pseudo Feedback](https://arxiv.org/abs/2411.16345), ArXiv, 2024-11, ICLR'25 spotlight\n\n[Self-Consistency Preference Optimization](https://arxiv.org/abs/2411.04109), ArXiv, 2024-11\n\n### RLVR without External Supervision\n\n[Right question is already half the answer: Fully unsupervised LLM reasoning incentivization](https://arxiv.org/abs/2504.05812), ArXiv, 2025-04-08\n\n[Ttrl: Test-time reinforcement learning](https://arxiv.org/abs/2504.16084), ArXiv, 2025-04-22\n\n[Absolute Zero: Reinforced Self-play Reasoning with Zero Data](https://arxiv.org/abs/2505.03335), ArXiv, 2025-05-06\n\n[The Unreasonable Effectiveness of Entropy Minimization in LLM Reasoning](https://arxiv.org/abs/2505.15134), ArXiv, 2025-05-21\n\n[SSR-Zero: Simple Self-Rewarding Reinforcement Learning for Machine Translation](https://arxiv.org/abs/2505.16637), ArXiv, 2025-05-22\n\n[SeRL: Self-Play Reinforcement Learning for Large Language Models with Limited Data](https://arxiv.org/abs/2505.20347), ArXiv, 2025-05-25\n\n[Learning to Reason without External Rewards](https://arxiv.org/abs/2505.19590), ArXiv, 2025-05-26\n\n[Surrogate Signals from Format and Length: Reinforcement Learning for Solving Mathematical Problems without Ground Truth Answers](https://arxiv.org/abs/2505.19439), ArXiv, 2025-05-26\n\n[Spurious Rewards: Rethinking Training Signals in RLVR](https://github.com/ruixin31/Rethink_RLVR/tree/main?tab=readme-ov-file), Blog, 2025-05-27\n\n[Can Large Reasoning Models Self-Train?](https://arxiv.org/abs/2505.21444), ArXiv, 2025-05-27\n\n[Maximizing Confidence Alone Improves Reasoning](https://arxiv.org/abs/2505.22660), ArXiv, 2025-05-28\n\n[Unsupervised Post-Training for Multi-Modal LLM Reasoning via GRPO](https://arxiv.org/abs/2505.22453v1), ArXiv, 2025-05-29\n\n[ZeroGUI: Automating Online GUI Learning at Zero Human Cost](https://arxiv.org/abs/2505.23762), ArXiv, 2025-05-29\n\n[Consistent Paths Lead to Truth: Self-Rewarding Reinforcement Learning for LLM Reasoning](https://arxiv.org/abs/2506.08745), ArXiv, 2025-06-02\n\n[Confidence Is All You Need: Few-Shot RL Fine-Tuning of Language Models](https://arxiv.org/abs/2506.06395v1), ArXiv, 2025-06-05\n\n[Self-Adapting Language Models](https://arxiv.org/abs/2506.10943), ArXiv, 2025-06-12\n\n[No Free Lunch: Rethinking Internal Feedback for LLM Reasoning](https://arxiv.org/abs/2506.17219), ArXiv, 2025-06-20\n\n### RLVR with Limited Data\n\n[Self-rewarding correction for mathematical reasoning](https://arxiv.org/pdf/2502.19613), ArXiv, 2025-02-26\n\n[Reinforcement Learning for Reasoning in Large Language Models with One Training Example](https://arxiv.org/abs/2504.20571), ArXiv, 2025-04-29\n\n[Evolving LLMs’ Self-Refinement Capability via Iterative Preference Optimization](https://arxiv.org/pdf/2502.05605), ArXiv, 2025-05-17\n\n[Sherlock: Self-Correcting Reasoning in Vision-Language Models](https://arxiv.org/pdf/2505.22651), ArXiv, 2025-05-28\n\n[Confidence Is All You Need: Few-Shot RL Fine-Tuning of Language Models](https://arxiv.org/abs/2506.06395), Arxiv, 2025-07-05 \n\n### Others\n\n[SLOT: Sample-specific Language Model Optimization at Test-time](https://arxiv.org/abs/2505.12392), ArXiv, 2025-05-18\n\n[One-shot Entropy Minimization](https://arxiv.org/abs/2505.20282), ArXiv, 2025-05-26\n\n[Reinforcing General Reasoning without Verifiers](https://arxiv.org/abs/2505.21493), ArXiv, 2025-05-27\n\n[Incorrect Baseline Evaluations Call into Question Recent LLM-RL Claims](https://safe-lip-9a8.notion.site/Incorrect-Baseline-Evaluations-Call-into-Question-Recent-LLM-RL-Claims-2012f1fbf0ee8094ab8ded1953c15a37#2022f1fbf0ee80cb9b18f7eac460410a), Blog, 2025-05-29\n> A critical review on RLVR evaluation setups.\n\n## Star History\n\n[![Star History Chart](https://api.star-history.com/svg?repos=QingyangZhang/Label-Free-RLVR&Date&type=Date)](https://www.star-history.com/#QingyangZhang/Label-Free-RLVR&Date&Date)\n",
+    "ContentSha": "ZsGwt8fMJpkRfSIGsCnRaS01zgE4I9+4oH1tEyJcevU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 超棒的無標籤強化學習與可驗證獎勵\n\n[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)\n\n一份針對大型語言模型（LLMs）之無標籤強化學習與可驗證獎勵（RLVR）論文的精選彙整。\n\n> **由 [Qingyang Zhang](https://raw.githubusercontent.com/QingyangZhang/Label-Free-RLVR/main/qingyangzhang.github.io)、[Haitao Wu](https://haitaowutju.github.io) 與 [Yi Ding](https://dripnowhy.github.io) 共同整理。若有遺漏的論文，請告訴我們！**\n\n\n## 目錄\n- [超棒的無標籤強化學習與可驗證獎勵](#超棒的無標籤強化學習與可驗證獎勵)\n  - [目錄](#目錄)\n  - [概述](#概述)\n    - [DeepSeek-R1-Zero 之前](#deepseek-r1-zero-之前)\n    - [無外部監督的 RLVR](#無外部監督的-rlvr)\n    - [有限資料下的 RLVR](#有限資料下的-rlvr)\n    - [其他](#其他)\n  - [星標歷史](#星標歷史)\n\n## 概述\n\n### DeepSeek-R1-Zero 之前\n\n[用偽反饋進行推理偏好優化](https://arxiv.org/abs/2411.16345)，ArXiv，2024-11，ICLR'25 spotlight\n\n[自洽偏好優化](https://arxiv.org/abs/2411.04109)，ArXiv，2024-11\n\n### 無外部監督的 RLVR\n\n[正確問題即答案的一半：完全無監督的 LLM 推理激勵](https://arxiv.org/abs/2504.05812)，ArXiv，2025-04-08\n\n[Ttrl：測試時強化學習](https://arxiv.org/abs/2504.16084)，ArXiv，2025-04-22\n\n[Absolute Zero：零資料下的強化自我對弈推理](https://arxiv.org/abs/2505.03335)，ArXiv，2025-05-06\n\n[熵最小化在 LLM 推理中的不合理有效性](https://arxiv.org/abs/2505.15134)，ArXiv，2025-05-21\n\n[SSR-Zero：用於機器翻譯的簡單自我獎勵強化學習](https://arxiv.org/abs/2505.16637)，ArXiv，2025-05-22\n\n[SeRL：有限資料下大型語言模型的自我對弈強化學習](https://arxiv.org/abs/2505.20347)，ArXiv，2025-05-25\n\n[學習在無外部獎勵下推理](https://arxiv.org/abs/2505.19590)，ArXiv，2025-05-26\n\n[格式與長度的代理信號：無需真實答案的數學問題強化學習](https://arxiv.org/abs/2505.19439)，ArXiv，2025-05-26\n\n[偽獎勵：重新思考 RLVR 的訓練信號](https://github.com/ruixin31/Rethink_RLVR/tree/main?tab=readme-ov-file)，部落格，2025-05-27\n\n[大型推理模型能自我訓練嗎？](https://arxiv.org/abs/2505.21444)，ArXiv，2025-05-27\n\n[僅最大化信心即可提升推理](https://arxiv.org/abs/2505.22660)，ArXiv，2025-05-28\n\n[多模態 LLM 推理的無監督後訓練透過 GRPO](https://arxiv.org/abs/2505.22453v1)，ArXiv，2025-05-29\n\n[ZeroGUI：零人工成本自動化線上 GUI 學習](https://arxiv.org/abs/2505.23762)，ArXiv，2025-05-29\n\n[一致路徑導向真理：LLM 推理的自我獎勵強化學習](https://arxiv.org/abs/2506.08745)，ArXiv，2025-06-02\n\n[信心即一切：語言模型的少量樣本 RL 微調](https://arxiv.org/abs/2506.06395v1)，ArXiv，2025-06-05\n\n[自適應語言模型](https://arxiv.org/abs/2506.10943)，ArXiv，2025-06-12\n\n[沒有免費午餐：重新思考 LLM 推理的內部反饋](https://arxiv.org/abs/2506.17219)，ArXiv，2025-06-20\n\n### 有限資料下的 RLVR\n\n[數學推理的自我獎勵修正](https://arxiv.org/pdf/2502.19613)，ArXiv，2025-02-26\n\n[用一個訓練範例進行大型語言模型的推理強化學習](https://arxiv.org/abs/2504.20571)，ArXiv，2025-04-29\n\n[透過迭代偏好優化演進 LLM 的自我精煉能力](https://arxiv.org/pdf/2502.05605)，ArXiv，2025-05-17\n\n[Sherlock：視覺語言模型中的自我修正推理](https://arxiv.org/pdf/2505.22651)，ArXiv，2025-05-28\n\n[信心即一切：語言模型的少量樣本 RL 微調](https://arxiv.org/abs/2506.06395)，Arxiv，2025-07-05 \n\n### 其他\n\n[SLOT：測試時的樣本特定語言模型優化](https://arxiv.org/abs/2505.12392)，ArXiv，2025-05-18\n\n[一次性熵最小化](https://arxiv.org/abs/2505.20282)，ArXiv，2025-05-26\n\n[無需驗證者的通用推理強化](https://arxiv.org/abs/2505.21493)，ArXiv，2025-05-27\n\n[錯誤基線評估質疑近期 LLM-RL 聲明](https://safe-lip-9a8.notion.site/Incorrect-Baseline-Evaluations-Call-into-Question-Recent-LLM-RL-Claims-2012f1fbf0ee8094ab8ded1953c15a37#2022f1fbf0ee80cb9b18f7eac460410a)，部落格，2025-05-29\n> RLVR 評估設置的批判性回顧。\n\n## 星標歷史\n\n[![Star History Chart](https://api.star-history.com/svg?repos=QingyangZhang/Label-Free-RLVR&Date&type=Date)](https://www.star-history.com/#QingyangZhang/Label-Free-RLVR&Date&Date)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qcIQprCswXczbZl6PkfTt12aBNHwyXcgR+rWg1DZPe4=",
+        "originContent": "# Awesome Label-Free Reinforcement Learning with Verifiable Rewards",
+        "translatedContent": "# 超棒的無標籤強化學習與可驗證獎勵"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "BPiKLA9kpn7ViORklzI/h0tXfTBm9MG6gOxoRh5tgnI=",
+        "originContent": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)",
+        "translatedContent": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "t7l8kbTGomt1KbELmG9wOBYOX5fSPTZFukFHetXY6/Y=",
+        "originContent": "A curated collection of papers on Label-Free Reinforcement Learning with Verifiable Rewards (RLVR) for Large Language Models (LLMs).",
+        "translatedContent": "一份針對大型語言模型（LLMs）之無標籤強化學習與可驗證獎勵（RLVR）論文的精選彙整。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "Ui1UNfZDNvScHDk3b1Ya5W0txJLvLbCNw9x1uizFXfA=",
+        "originContent": "> **By [Qingyang Zhang](https://raw.githubusercontent.com/QingyangZhang/Label-Free-RLVR/main/qingyangzhang.github.io), [Haitao Wu](https://haitaowutju.github.io) and [Yi Ding](https://dripnowhy.github.io). If there are any papers I missed, please let me know!**",
+        "translatedContent": "> **由 [Qingyang Zhang](https://raw.githubusercontent.com/QingyangZhang/Label-Free-RLVR/main/qingyangzhang.github.io)、[Haitao Wu](https://haitaowutju.github.io) 與 [Yi Ding](https://dripnowhy.github.io) 共同整理。若有遺漏的論文，請告訴我們！**"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "j2m8/Rf4OhNBtAZdHSFuUFBE6NBtExCFuaofstzruU0=",
+        "originContent": "## Table of Contents",
+        "translatedContent": "## 目錄"
+      },
+      {
+        "row": 11,
+        "rowsha": "lt7FRxtiJiCjvIFbtuSwmSICKazgtCQZDEeilwMqmEo=",
+        "originContent": "- [Awesome Label-Free Reinforcement Learning with Verifiable Rewards](#awesome-label-free-reinforcement-learning-with-verifiable-rewards)",
+        "translatedContent": "- [超棒的無標籤強化學習與可驗證獎勵](#超棒的無標籤強化學習與可驗證獎勵)"
+      },
+      {
+        "row": 12,
+        "rowsha": "rbf5P9OxCt4F1ggKqu9dCs3W4wnIQt4H87gCRUu9i3E=",
+        "originContent": "  - [Table of Contents](#table-of-contents)",
+        "translatedContent": "  - [目錄](#目錄)"
+      },
+      {
+        "row": 13,
+        "rowsha": "YB/h4lB/i3KkVaFHBO/eUBMzoXafqv7CLYpFbWMJPwc=",
+        "originContent": "  - [Overview](#overview)",
+        "translatedContent": "  - [概述](#概述)"
+      },
+      {
+        "row": 14,
+        "rowsha": "p+AISQrXun2X0yo/2CVk0FjEb7oT66/XdjiE+LjUEBc=",
+        "originContent": "    - [Before DeepSeek-R1-Zero](#before-deepseek-r1-zero)",
+        "translatedContent": "    - [DeepSeek-R1-Zero 之前](#deepseek-r1-zero-之前)"
+      },
+      {
+        "row": 15,
+        "rowsha": "ZORS+Ro77U+ZQQ3a7hDlc4A+6VEbxlJ9+f5RM08WD40=",
+        "originContent": "    - [RLVR without External Supervision](#rlvr-without-external-supervision)",
+        "translatedContent": "    - [無外部監督的 RLVR](#無外部監督的-rlvr)"
+      },
+      {
+        "row": 16,
+        "rowsha": "eGi5BYtp5Xwv3Id5fa/UIEaXQRpuD2eMc+TyK6rumFo=",
+        "originContent": "    - [RLVR with Limited Data](#rlvr-with-limited-data)",
+        "translatedContent": "    - [有限資料下的 RLVR](#有限資料下的-rlvr)"
+      },
+      {
+        "row": 17,
+        "rowsha": "Bu9NrlBZUZIp1OcXN4Iekn03NEoCnm+9bkgmvbuQAVQ=",
+        "originContent": "    - [Others](#others)",
+        "translatedContent": "    - [其他](#其他)"
+      },
+      {
+        "row": 18,
+        "rowsha": "rXgNbQmcVrq0LgCjgeOUGWV70FV6UMUHZMALc9Zz+z8=",
+        "originContent": "  - [Star History](#star-history)",
+        "translatedContent": "  - [星標歷史](#星標歷史)"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
+        "originContent": "## Overview",
+        "translatedContent": "## 概述"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "SEvZwZ+jFp9RVSZ88YymLXDIYv5v5kT/mfUhhKBTX5E=",
+        "originContent": "### Before DeepSeek-R1-Zero",
+        "translatedContent": "### DeepSeek-R1-Zero 之前"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "IzTOoQa6GLDhg+blcch9E1h8E/IGjJNVdnyjS//7/TI=",
+        "originContent": "[Preference Optimization for Reasoning with Pseudo Feedback](https://arxiv.org/abs/2411.16345), ArXiv, 2024-11, ICLR'25 spotlight",
+        "translatedContent": "[用偽反饋進行推理偏好優化](https://arxiv.org/abs/2411.16345)，ArXiv，2024-11，ICLR'25 spotlight"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "uZ9nqSh2qON32irMQzFKmog67o9y1QT94YRbApymNAo=",
+        "originContent": "[Self-Consistency Preference Optimization](https://arxiv.org/abs/2411.04109), ArXiv, 2024-11",
+        "translatedContent": "[自洽偏好優化](https://arxiv.org/abs/2411.04109)，ArXiv，2024-11"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "TcemN+PcTKdhY2wPsSyQqz0ZYs7Fyo8+cs4rcp3LN+Q=",
+        "originContent": "### RLVR without External Supervision",
+        "translatedContent": "### 無外部監督的 RLVR"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "jBhalzxRGxCzpMMSeNULaDf1axlEmyczQNKNTK15cEU=",
+        "originContent": "[Right question is already half the answer: Fully unsupervised LLM reasoning incentivization](https://arxiv.org/abs/2504.05812), ArXiv, 2025-04-08",
+        "translatedContent": "[正確問題即答案的一半：完全無監督的 LLM 推理激勵](https://arxiv.org/abs/2504.05812)，ArXiv，2025-04-08"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "v2zSCMlijQ0b710lxzFU8ZNgPVvJhC8A2Xm5lsBvLBg=",
+        "originContent": "[Ttrl: Test-time reinforcement learning](https://arxiv.org/abs/2504.16084), ArXiv, 2025-04-22",
+        "translatedContent": "[Ttrl：測試時強化學習](https://arxiv.org/abs/2504.16084)，ArXiv，2025-04-22"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "YoT3p+9a10wihnxZwyIWn3l+R/rjdk8f4W95+1aq2TE=",
+        "originContent": "[Absolute Zero: Reinforced Self-play Reasoning with Zero Data](https://arxiv.org/abs/2505.03335), ArXiv, 2025-05-06",
+        "translatedContent": "[Absolute Zero：零資料下的強化自我對弈推理](https://arxiv.org/abs/2505.03335)，ArXiv，2025-05-06"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "6NVPcZ7N/oNRFRz7azU3E2a2XmiuYoBnir3Xox8jPqU=",
+        "originContent": "[The Unreasonable Effectiveness of Entropy Minimization in LLM Reasoning](https://arxiv.org/abs/2505.15134), ArXiv, 2025-05-21",
+        "translatedContent": "[熵最小化在 LLM 推理中的不合理有效性](https://arxiv.org/abs/2505.15134)，ArXiv，2025-05-21"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "tgiBhRFUCWS5pCylr0AVigOd6R3gFY4peEdroonbWIQ=",
+        "originContent": "[SSR-Zero: Simple Self-Rewarding Reinforcement Learning for Machine Translation](https://arxiv.org/abs/2505.16637), ArXiv, 2025-05-22",
+        "translatedContent": "[SSR-Zero：用於機器翻譯的簡單自我獎勵強化學習](https://arxiv.org/abs/2505.16637)，ArXiv，2025-05-22"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "yEJQmv8G0CwDvXvDkbvvORajsgam38+rZedZkGb/lGo=",
+        "originContent": "[SeRL: Self-Play Reinforcement Learning for Large Language Models with Limited Data](https://arxiv.org/abs/2505.20347), ArXiv, 2025-05-25",
+        "translatedContent": "[SeRL：有限資料下大型語言模型的自我對弈強化學習](https://arxiv.org/abs/2505.20347)，ArXiv，2025-05-25"
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "aMujU2VB+CuGCZ+ANuA/Rlscpua1zZGePuPGObpSX3w=",
+        "originContent": "[Learning to Reason without External Rewards](https://arxiv.org/abs/2505.19590), ArXiv, 2025-05-26",
+        "translatedContent": "[學習在無外部獎勵下推理](https://arxiv.org/abs/2505.19590)，ArXiv，2025-05-26"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "IOgMSP7rVR1/+VnYM2SHx04QVczVE7tdKtBfGPVGKAY=",
+        "originContent": "[Surrogate Signals from Format and Length: Reinforcement Learning for Solving Mathematical Problems without Ground Truth Answers](https://arxiv.org/abs/2505.19439), ArXiv, 2025-05-26",
+        "translatedContent": "[格式與長度的代理信號：無需真實答案的數學問題強化學習](https://arxiv.org/abs/2505.19439)，ArXiv，2025-05-26"
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "LGtODJGN/ZurAEY2vPZM9Pif2sVT0q7TSOm6PhbLqWs=",
+        "originContent": "[Spurious Rewards: Rethinking Training Signals in RLVR](https://github.com/ruixin31/Rethink_RLVR/tree/main?tab=readme-ov-file), Blog, 2025-05-27",
+        "translatedContent": "[偽獎勵：重新思考 RLVR 的訓練信號](https://github.com/ruixin31/Rethink_RLVR/tree/main?tab=readme-ov-file)，部落格，2025-05-27"
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 48,
+        "rowsha": "pKXUxlAGvAXQSNihW+nuFSntwavM+YRhGR0J3oBndEY=",
+        "originContent": "[Can Large Reasoning Models Self-Train?](https://arxiv.org/abs/2505.21444), ArXiv, 2025-05-27",
+        "translatedContent": "[大型推理模型能自我訓練嗎？](https://arxiv.org/abs/2505.21444)，ArXiv，2025-05-27"
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 50,
+        "rowsha": "a3f7iL1ROI4Pv/cAR5/yd2walzL4eKFP3q40SZZjjBU=",
+        "originContent": "[Maximizing Confidence Alone Improves Reasoning](https://arxiv.org/abs/2505.22660), ArXiv, 2025-05-28",
+        "translatedContent": "[僅最大化信心即可提升推理](https://arxiv.org/abs/2505.22660)，ArXiv，2025-05-28"
+      },
+      {
+        "row": 51,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 52,
+        "rowsha": "c1MKrB40dIBOG8dYa8n0fW/a2qcprmNjn/mLIJvmuXA=",
+        "originContent": "[Unsupervised Post-Training for Multi-Modal LLM Reasoning via GRPO](https://arxiv.org/abs/2505.22453v1), ArXiv, 2025-05-29",
+        "translatedContent": "[多模態 LLM 推理的無監督後訓練透過 GRPO](https://arxiv.org/abs/2505.22453v1)，ArXiv，2025-05-29"
+      },
+      {
+        "row": 53,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 54,
+        "rowsha": "2kfmsXlcbPjGxKjYrwTgXu7cxeMVVQNZmixPV5DgNcw=",
+        "originContent": "[ZeroGUI: Automating Online GUI Learning at Zero Human Cost](https://arxiv.org/abs/2505.23762), ArXiv, 2025-05-29",
+        "translatedContent": "[ZeroGUI：零人工成本自動化線上 GUI 學習](https://arxiv.org/abs/2505.23762)，ArXiv，2025-05-29"
+      },
+      {
+        "row": 55,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 56,
+        "rowsha": "m+G3ZagYLctEAdjqgR7TuSVPZ0pjVRN2FUPFtvD7rQc=",
+        "originContent": "[Consistent Paths Lead to Truth: Self-Rewarding Reinforcement Learning for LLM Reasoning](https://arxiv.org/abs/2506.08745), ArXiv, 2025-06-02",
+        "translatedContent": "[一致路徑導向真理：LLM 推理的自我獎勵強化學習](https://arxiv.org/abs/2506.08745)，ArXiv，2025-06-02"
+      },
+      {
+        "row": 57,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 58,
+        "rowsha": "9aqGIl36h25tenyRc8rlY0ejstikqYWhmD68DQCOK/I=",
+        "originContent": "[Confidence Is All You Need: Few-Shot RL Fine-Tuning of Language Models](https://arxiv.org/abs/2506.06395v1), ArXiv, 2025-06-05",
+        "translatedContent": "[信心即一切：語言模型的少量樣本 RL 微調](https://arxiv.org/abs/2506.06395v1)，ArXiv，2025-06-05"
+      },
+      {
+        "row": 59,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 60,
+        "rowsha": "T1q6KLibmcXIzout4aNPEw1KbIHwiVLVB+RjX4TSsSY=",
+        "originContent": "[Self-Adapting Language Models](https://arxiv.org/abs/2506.10943), ArXiv, 2025-06-12",
+        "translatedContent": "[自適應語言模型](https://arxiv.org/abs/2506.10943)，ArXiv，2025-06-12"
+      },
+      {
+        "row": 61,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 62,
+        "rowsha": "AqJZQyaqxDDRVxoYCK6/qAqvjCWtZIDvOjFqQFqRLGA=",
+        "originContent": "[No Free Lunch: Rethinking Internal Feedback for LLM Reasoning](https://arxiv.org/abs/2506.17219), ArXiv, 2025-06-20",
+        "translatedContent": "[沒有免費午餐：重新思考 LLM 推理的內部反饋](https://arxiv.org/abs/2506.17219)，ArXiv，2025-06-20"
+      },
+      {
+        "row": 63,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 64,
+        "rowsha": "Rx4UPfjE3jXOHfgv3vslGUWYGc6eWnzfzoiuZsqBgV0=",
+        "originContent": "### RLVR with Limited Data",
+        "translatedContent": "### 有限資料下的 RLVR"
+      },
+      {
+        "row": 65,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 66,
+        "rowsha": "M2c7UxJtSSzs79IZfU7mOZaxDK3M51CTn/s0LT4FbiE=",
+        "originContent": "[Self-rewarding correction for mathematical reasoning](https://arxiv.org/pdf/2502.19613), ArXiv, 2025-02-26",
+        "translatedContent": "[數學推理的自我獎勵修正](https://arxiv.org/pdf/2502.19613)，ArXiv，2025-02-26"
+      },
+      {
+        "row": 67,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 68,
+        "rowsha": "HUyn4vrH3FnKKuR1fHcluvukWNsfo/Vz+hEBgfRQivo=",
+        "originContent": "[Reinforcement Learning for Reasoning in Large Language Models with One Training Example](https://arxiv.org/abs/2504.20571), ArXiv, 2025-04-29",
+        "translatedContent": "[用一個訓練範例進行大型語言模型的推理強化學習](https://arxiv.org/abs/2504.20571)，ArXiv，2025-04-29"
+      },
+      {
+        "row": 69,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 70,
+        "rowsha": "O6n/bQeSYtcCbdbzfRJc+xlkr6929yilOLxD4K1oxY8=",
+        "originContent": "[Evolving LLMs’ Self-Refinement Capability via Iterative Preference Optimization](https://arxiv.org/pdf/2502.05605), ArXiv, 2025-05-17",
+        "translatedContent": "[透過迭代偏好優化演進 LLM 的自我精煉能力](https://arxiv.org/pdf/2502.05605)，ArXiv，2025-05-17"
+      },
+      {
+        "row": 71,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 72,
+        "rowsha": "pnGqe2Eqy0nk6K1F++IPAI9khZkzTEw22Nt2EH2IT4I=",
+        "originContent": "[Sherlock: Self-Correcting Reasoning in Vision-Language Models](https://arxiv.org/pdf/2505.22651), ArXiv, 2025-05-28",
+        "translatedContent": "[Sherlock：視覺語言模型中的自我修正推理](https://arxiv.org/pdf/2505.22651)，ArXiv，2025-05-28"
+      },
+      {
+        "row": 73,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 74,
+        "rowsha": "MCMy3DYAcaA2udN9ypRYZjUI6VyAakRuoxPh9kmGMXs=",
+        "originContent": "[Confidence Is All You Need: Few-Shot RL Fine-Tuning of Language Models](https://arxiv.org/abs/2506.06395), Arxiv, 2025-07-05 ",
+        "translatedContent": "[信心即一切：語言模型的少量樣本 RL 微調](https://arxiv.org/abs/2506.06395)，Arxiv，2025-07-05 "
+      },
+      {
+        "row": 75,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 76,
+        "rowsha": "PaX4h6erVzkQ72Q4u5BNuTD/Jkehin2oPYaoNQEEtQ8=",
+        "originContent": "### Others",
+        "translatedContent": "### 其他"
+      },
+      {
+        "row": 77,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 78,
+        "rowsha": "QkzDuA+Qo9i9TLcNj4L+CwWeArg8bcPIPBwuwXScjik=",
+        "originContent": "[SLOT: Sample-specific Language Model Optimization at Test-time](https://arxiv.org/abs/2505.12392), ArXiv, 2025-05-18",
+        "translatedContent": "[SLOT：測試時的樣本特定語言模型優化](https://arxiv.org/abs/2505.12392)，ArXiv，2025-05-18"
+      },
+      {
+        "row": 79,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 80,
+        "rowsha": "BXHz2xdF6v69Zd153h770N9HU96xWgMKGPKZkvjoR5o=",
+        "originContent": "[One-shot Entropy Minimization](https://arxiv.org/abs/2505.20282), ArXiv, 2025-05-26",
+        "translatedContent": "[一次性熵最小化](https://arxiv.org/abs/2505.20282)，ArXiv，2025-05-26"
+      },
+      {
+        "row": 81,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 82,
+        "rowsha": "JUfgeCrQzas1kO3E4JgYJssScyTMZQSElKwQMnCWZxg=",
+        "originContent": "[Reinforcing General Reasoning without Verifiers](https://arxiv.org/abs/2505.21493), ArXiv, 2025-05-27",
+        "translatedContent": "[無需驗證者的通用推理強化](https://arxiv.org/abs/2505.21493)，ArXiv，2025-05-27"
+      },
+      {
+        "row": 83,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 84,
+        "rowsha": "sO37FZn+ypU39ss9TZSt1ppkK7kXnHrYQR+bvonE9UQ=",
+        "originContent": "[Incorrect Baseline Evaluations Call into Question Recent LLM-RL Claims](https://safe-lip-9a8.notion.site/Incorrect-Baseline-Evaluations-Call-into-Question-Recent-LLM-RL-Claims-2012f1fbf0ee8094ab8ded1953c15a37#2022f1fbf0ee80cb9b18f7eac460410a), Blog, 2025-05-29",
+        "translatedContent": "[錯誤基線評估質疑近期 LLM-RL 聲明](https://safe-lip-9a8.notion.site/Incorrect-Baseline-Evaluations-Call-into-Question-Recent-LLM-RL-Claims-2012f1fbf0ee8094ab8ded1953c15a37#2022f1fbf0ee80cb9b18f7eac460410a)，部落格，2025-05-29"
+      },
+      {
+        "row": 85,
+        "rowsha": "YPT1GnMozXU0Ea4GOuYyJn+rIUG7YhsXFSBUed2oU44=",
+        "originContent": "> A critical review on RLVR evaluation setups.",
+        "translatedContent": "> RLVR 評估設置的批判性回顧。"
+      },
+      {
+        "row": 86,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 87,
+        "rowsha": "HLlFkIOChBL2XK+/4offEec901rMTtlU760d5hKrZbw=",
+        "originContent": "## Star History",
+        "translatedContent": "## 星標歷史"
+      },
+      {
+        "row": 88,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 89,
+        "rowsha": "VWyWOeznPqf2VZuU88Ts/RliZVtSbBkxsExFI7tSHDk=",
+        "originContent": "[![Star History Chart](https://api.star-history.com/svg?repos=QingyangZhang/Label-Free-RLVR&Date&type=Date)](https://www.star-history.com/#QingyangZhang/Label-Free-RLVR&Date&Date)",
+        "translatedContent": "[![Star History Chart](https://api.star-history.com/svg?repos=QingyangZhang/Label-Free-RLVR&Date&type=Date)](https://www.star-history.com/#QingyangZhang/Label-Free-RLVR&Date&Date)"
+      },
+      {
+        "row": 90,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
