@@ -143,7 +143,7 @@ Fork project → Clone project → Choose a script in your language → Fill in 
 
 ## Notes
 
-- Only support github markdown.
+- Only support github markdown. 
 
 ## FrontEnd Project
 [Source Code Project Link](https://github.com/OpenAiTx/OpenAiTx_FrontEnd) by [@mikechen](https://github.com/mikechen-git)
