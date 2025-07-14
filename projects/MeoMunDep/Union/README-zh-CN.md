@@ -19,3 +19,10 @@ https://faucet.xion.burnt.com/
 https://cloud.google.com/application/web3/faucet/
 
 https://faucet.hoodscan.io/
+
+
+---
+
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-14
+
+---
