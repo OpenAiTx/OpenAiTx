@@ -58,7 +58,7 @@
 
 or
 
-1. Access https://openaitx.github.io/ 
+1. Access https://openaitx.com
 2. Submit your project link.
 3. Click and copy the style badges or text you like.
 4. Update to your readme file.
