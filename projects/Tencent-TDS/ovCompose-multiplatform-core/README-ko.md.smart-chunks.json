@@ -1,0 +1,679 @@
+[
+  {
+    "Id": 1,
+    "Content": "<p align=\"center\">\n    <img alt=\"ovCompose Logo\" src=\"https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/img/ovCompose.svg\" />\n</p>\n\n### English\novCompose (online-video-compose) is a cross-platform development framework launched by the Tencent Video team within Oteam, the leading frontend group at Tencent. It is based on the Compose Multiplatform ecosystem and aims to address the limitations of Jetbrains Compose Multiplatform, specifically its lack of support for the HarmonyOS platform and the constraints on mixed layout rendering on iOS. ovCompose makes it easier for businesses to build fully cross-platform apps.\n\nLearn more about [ovCompose](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/README_ovCompose_en.md)\n\n### 中文\novCompose（online-video-compose）是腾讯大前端领域Oteam中，腾讯视频团队基于 Compose Multiplatform 生态推出的跨平台开发框架，旨在弥补Jetbrains Compose Multiplatform不支持鸿蒙平台的遗憾与解决iOS平台混排受限的问题，便于业务构建全跨端App。\n\n详情请见 [ovCompose](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/README_ovCompose_zh.md)\n\n---\n# Android Jetpack\n\n[![Revved up by Gradle Enterprise](https://img.shields.io/badge/Revved%20up%20by-Gradle%20Enterprise-06A0CE?logo=Gradle&labelColor=02303A)](https://ge.androidx.dev)\n\nJetpack is a suite of libraries, tools, and guidance to help developers write high-quality apps easier. These components help you follow best practices, free you from writing boilerplate code, and simplify complex tasks, so you can focus on the code you care about.\n\nJetpack comprises the `androidx.*` package libraries, unbundled from the platform APIs. This means that it offers backward compatibility and is updated more frequently than the Android platform, making sure you always have access to the latest and greatest versions of the Jetpack components.\n\nOur official AARs and JARs binaries are distributed through [Google Maven](https://maven.google.com).\n\nYou can learn more about using it from [Android Jetpack landing page](https://developer.android.com/jetpack).\n\n# Contribution Guide\n\nFor contributions via GitHub, see the [GitHub Contribution Guide](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/CONTRIBUTING.md).\n\nNote: The contributions workflow via GitHub is currently experimental - only contributions to the following projects are being accepted at this time:\n* [Activity](activity)\n* [AppCompat](appcompat)\n* [Biometric](biometric)\n* [Collection](collection)\n* [Compose Compiler](compose/compiler)\n* [Compose Runtime](compose/runtime)\n* [Core](core)\n* [DataStore](datastore)\n* [Fragment](fragment)\n* [Lifecycle](lifecycle)\n* [Navigation](navigation)\n* [Paging](paging)\n* [Room](room)\n* [WorkManager](work)\n\n## Code Review Etiquette\nWhen contributing to Jetpack, follow the [code review etiquette](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/code-review.md).\n\n## Accepted Types of Contributions\n* Bug fixes - needs a corresponding bug report in the [Android Issue Tracker](https://issuetracker.google.com/issues/new?component=192731&template=842428)\n* Each bug fix is expected to come with tests\n* Fixing spelling errors\n* Updating documentation\n* Adding new tests to the area that is not currently covered by tests\n* New features to existing libraries if the feature request bug has been approved by an AndroidX team member.\n\nWe **are not** currently accepting new modules.\n\n## Checking Out the Code\n\nHead over to the [onboarding docs](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/docs/onboarding.md) to learn more about getting set up and the\ndevelopment workflow!\n\n### Continuous integration\n[Our continuous integration system](https://ci.android.com/builds/branches/aosp-androidx-main/grid?) builds all in progress (and potentially unstable) libraries as new changes are merged. You can manually download these AARs and JARs for your experimentation.\n\n## Password and Contributor Agreement before making a change\nBefore uploading your first contribution, you will need setup a password and agree to the contribution agreement:\n\nGenerate a HTTPS password:\nhttps://android-review.googlesource.com/new-password\n\nAgree to the Google Contributor Licenses Agreement:\nhttps://android-review.googlesource.com/settings/new-agreement\n\n## Getting reviewed\n* After you run repo upload, open [r.android.com](http://r.android.com)\n* Sign in into your account (or create one if you do not have one yet)\n* Add an appropriate reviewer (use git log to find who did most modifications on the file you are fixing or check the OWNERS file in the project's directory)\n\n## Handling binary dependencies\nAndroidX uses git to store all the binary Gradle dependencies. They are stored in `prebuilts/androidx/internal` and `prebuilts/androidx/external` directories in your checkout. All the dependencies in these directories are also available from `google()`, or `mavenCentral()`. We store copies of these dependencies to have hermetic builds. You can pull in [a new dependency using our importMaven tool](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/development/importMaven/README.md).\n\n\n\n## Publish\n\nConfigure your remote maven in `gradle.properties`.",
+    "ContentSha": "F8Q4tWL7hg3AhK8OWsCoHvqrGK4uRgWnolgGHTfeceg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<p align=\"center\">\n    <img alt=\"ovCompose Logo\" src=\"https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/img/ovCompose.svg\" />\n</p>\n\n### 영어\novCompose (online-video-compose)는 텐센트의 선도적인 프론트엔드 그룹인 Oteam 내 텐센트 비디오 팀이 출시한 크로스플랫폼 개발 프레임워크입니다. 이는 Compose Multiplatform 생태계를 기반으로 하며, Jetbrains Compose Multiplatform의 한계, 특히 HarmonyOS 플랫폼 미지원과 iOS에서의 혼합 레이아웃 렌더링 제한 문제를 해결하는 데 목적이 있습니다. ovCompose는 기업이 완전한 크로스플랫폼 앱을 쉽게 구축할 수 있도록 돕습니다.\n\n[ovCompose](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/README_ovCompose_en.md)에 대해 자세히 알아보세요.\n\n### 中文\novCompose（online-video-compose）是腾讯大前端领域Oteam中，腾讯视频团队基于 Compose Multiplatform 生态推出的跨平台开发框架，旨在弥补Jetbrains Compose Multiplatform不支持鸿蒙平台的遗憾与解决iOS平台混排受限的问题，便于业务构建全跨端App。\n\n详情请见 [ovCompose](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/README_ovCompose_zh.md)\n\n---\n# Android Jetpack\n\n[![Revved up by Gradle Enterprise](https://img.shields.io/badge/Revved%20up%20by-Gradle%20Enterprise-06A0CE?logo=Gradle&labelColor=02303A)](https://ge.androidx.dev)\n\nJetpack은 개발자가 고품질 앱을 더 쉽게 작성할 수 있도록 돕는 라이브러리, 도구 및 가이드 모음입니다. 이 컴포넌트들은 모범 사례를 따르도록 돕고, 반복적인 코딩을 줄이며, 복잡한 작업을 단순화하여 개발자가 중요한 코드에 집중할 수 있게 합니다.\n\nJetpack은 플랫폼 API에서 분리된 `androidx.*` 패키지 라이브러리로 구성되어 있습니다. 즉, 이전 버전 호환성을 제공하며 Android 플랫폼보다 더 자주 업데이트되어 최신 Jetpack 컴포넌트를 항상 사용할 수 있습니다.\n\n공식 AAR 및 JAR 바이너리는 [Google Maven](https://maven.google.com)을 통해 배포됩니다.\n\n자세한 사용법은 [Android Jetpack 랜딩 페이지](https://developer.android.com/jetpack)에서 확인할 수 있습니다.\n\n# 기여 가이드\n\nGitHub를 통한 기여는 [GitHub 기여 가이드](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/CONTRIBUTING.md)를 참조하세요.\n\n참고: 현재 GitHub를 통한 기여 워크플로우는 실험 단계이며, 다음 프로젝트에 한해 기여를 받고 있습니다:\n* [Activity](activity)\n* [AppCompat](appcompat)\n* [Biometric](biometric)\n* [Collection](collection)\n* [Compose Compiler](compose/compiler)\n* [Compose Runtime](compose/runtime)\n* [Core](core)\n* [DataStore](datastore)\n* [Fragment](fragment)\n* [Lifecycle](lifecycle)\n* [Navigation](navigation)\n* [Paging](paging)\n* [Room](room)\n* [WorkManager](work)\n\n## 코드 리뷰 예절\nJetpack에 기여할 때는 [코드 리뷰 예절](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/code-review.md)을 준수하세요.\n\n## 허용되는 기여 유형\n* 버그 수정 - 해당 버그는 [Android 이슈 트래커](https://issuetracker.google.com/issues/new?component=192731&template=842428)에 보고되어야 합니다.\n* 각 버그 수정에는 테스트가 포함되어야 합니다.\n* 맞춤법 오류 수정\n* 문서 업데이트\n* 현재 테스트가 없는 영역에 대한 신규 테스트 추가\n* AndroidX 팀 멤버가 승인한 기능 요청 버그에 따른 기존 라이브러리의 신규 기능 추가\n\n현재 신규 모듈은 받지 않습니다.\n\n## 코드 체크아웃\n\n[온보딩 문서](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/docs/onboarding.md)에서 설정 및 개발 워크플로우에 대해 자세히 알아보세요!\n\n### 지속적 통합\n[우리의 지속적 통합 시스템](https://ci.android.com/builds/branches/aosp-androidx-main/grid?)은 진행 중인(및 잠재적으로 불안정한) 라이브러리들을 새 변경 사항이 병합될 때마다 빌드합니다. 실험용으로 이 AAR 및 JAR을 수동으로 다운로드할 수 있습니다.\n\n## 변경 전 비밀번호 및 기여자 동의\n첫 기여를 업로드하기 전, 비밀번호 설정 및 기여자 동의가 필요합니다:\n\nHTTPS 비밀번호 생성:\nhttps://android-review.googlesource.com/new-password\n\nGoogle 기여자 라이선스 동의:\nhttps://android-review.googlesource.com/settings/new-agreement\n\n## 리뷰 받기\n* repo upload를 실행한 후 [r.android.com](http://r.android.com)을 엽니다.\n* 계정에 로그인(없으면 생성)합니다.\n* 적절한 리뷰어를 추가합니다(수정한 파일에 가장 많이 기여한 사람을 git log로 찾거나 프로젝트 디렉토리 내 OWNERS 파일을 확인).\n\n## 바이너리 종속성 처리\nAndroidX는 모든 바이너리 Gradle 종속성을 git으로 저장합니다. 이들은 체크아웃 시 `prebuilts/androidx/internal` 및 `prebuilts/androidx/external` 디렉토리에 있습니다. 이 종속성들은 `google()`, `mavenCentral()`에서도 사용 가능합니다. 빌드의 독립성을 위해 복사본을 저장합니다. [importMaven 도구](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/development/importMaven/README.md)를 사용해 새 종속성을 추가할 수 있습니다.\n\n## 배포\n\n`gradle.properties`에서 원격 maven을 설정하세요.\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "4NmFOiharz9QRwpHRzbCZCm8ylVMl27DceFOHyl9M2c=",
+        "originContent": "    <img alt=\"ovCompose Logo\" src=\"https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/img/ovCompose.svg\" />",
+        "translatedContent": "    <img alt=\"ovCompose Logo\" src=\"https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/img/ovCompose.svg\" />"
+      },
+      {
+        "row": 3,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "9Un2hUzpA0NXqhhzbUlZj/CGnEzY+uKB6HdKa22dg28=",
+        "originContent": "### English",
+        "translatedContent": "### 영어"
+      },
+      {
+        "row": 6,
+        "rowsha": "Mb4CDOYFb2lAsBRllqyNv9ddlsA14ShSvd6aIZc1f1I=",
+        "originContent": "ovCompose (online-video-compose) is a cross-platform development framework launched by the Tencent Video team within Oteam, the leading frontend group at Tencent. It is based on the Compose Multiplatform ecosystem and aims to address the limitations of Jetbrains Compose Multiplatform, specifically its lack of support for the HarmonyOS platform and the constraints on mixed layout rendering on iOS. ovCompose makes it easier for businesses to build fully cross-platform apps.",
+        "translatedContent": "ovCompose (online-video-compose)는 텐센트의 선도적인 프론트엔드 그룹인 Oteam 내 텐센트 비디오 팀이 출시한 크로스플랫폼 개발 프레임워크입니다. 이는 Compose Multiplatform 생태계를 기반으로 하며, Jetbrains Compose Multiplatform의 한계, 특히 HarmonyOS 플랫폼 미지원과 iOS에서의 혼합 레이아웃 렌더링 제한 문제를 해결하는 데 목적이 있습니다. ovCompose는 기업이 완전한 크로스플랫폼 앱을 쉽게 구축할 수 있도록 돕습니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "6QaflVd3Qox1n+TFpMDPd+5Xo8ytuUUa3/8Y7fgY4HQ=",
+        "originContent": "Learn more about [ovCompose](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/README_ovCompose_en.md)",
+        "translatedContent": "[ovCompose](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/README_ovCompose_en.md)에 대해 자세히 알아보세요."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "mY2QJQj0ayAarNiZOmrd0U+RsUmFiqouXTBONN1lWkY=",
+        "originContent": "### 中文",
+        "translatedContent": "### 中文"
+      },
+      {
+        "row": 11,
+        "rowsha": "LgwCk2fsqegzg7oqwlqhXoO+KEdZmhmHr8L7gdnKbm0=",
+        "originContent": "ovCompose（online-video-compose）是腾讯大前端领域Oteam中，腾讯视频团队基于 Compose Multiplatform 生态推出的跨平台开发框架，旨在弥补Jetbrains Compose Multiplatform不支持鸿蒙平台的遗憾与解决iOS平台混排受限的问题，便于业务构建全跨端App。",
+        "translatedContent": "ovCompose（online-video-compose）是腾讯大前端领域Oteam中，腾讯视频团队基于 Compose Multiplatform 生态推出的跨平台开发框架，旨在弥补Jetbrains Compose Multiplatform不支持鸿蒙平台的遗憾与解决iOS平台混排受限的问题，便于业务构建全跨端App。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "UkYfUZPAk5aeMGjvZQLzF62JwKLgr0iw+2w6feln8KE=",
+        "originContent": "详情请见 [ovCompose](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/README_ovCompose_zh.md)",
+        "translatedContent": "详情请见 [ovCompose](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/README_ovCompose_zh.md)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 16,
+        "rowsha": "9vhjOk2eELxYFpqP5mWq+IHTgnmajijD8e4nEUuiOFc=",
+        "originContent": "# Android Jetpack",
+        "translatedContent": "# Android Jetpack"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "W0ch5n9JKmbS9DiNFdrXx7F1gtg4/Na7xKPSBVYWcfU=",
+        "originContent": "[![Revved up by Gradle Enterprise](https://img.shields.io/badge/Revved%20up%20by-Gradle%20Enterprise-06A0CE?logo=Gradle&labelColor=02303A)](https://ge.androidx.dev)",
+        "translatedContent": "[![Revved up by Gradle Enterprise](https://img.shields.io/badge/Revved%20up%20by-Gradle%20Enterprise-06A0CE?logo=Gradle&labelColor=02303A)](https://ge.androidx.dev)"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "M+EzeWOl5HASJvOUkfkJvdi1d5w3k8Wdmw3VKVYjO4I=",
+        "originContent": "Jetpack is a suite of libraries, tools, and guidance to help developers write high-quality apps easier. These components help you follow best practices, free you from writing boilerplate code, and simplify complex tasks, so you can focus on the code you care about.",
+        "translatedContent": "Jetpack은 개발자가 고품질 앱을 더 쉽게 작성할 수 있도록 돕는 라이브러리, 도구 및 가이드 모음입니다. 이 컴포넌트들은 모범 사례를 따르도록 돕고, 반복적인 코딩을 줄이며, 복잡한 작업을 단순화하여 개발자가 중요한 코드에 집중할 수 있게 합니다."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "cd0jndAbAuXJAlzLuUVSTFTbJpUnakPNO0xB32CSZYM=",
+        "originContent": "Jetpack comprises the `androidx.*` package libraries, unbundled from the platform APIs. This means that it offers backward compatibility and is updated more frequently than the Android platform, making sure you always have access to the latest and greatest versions of the Jetpack components.",
+        "translatedContent": "Jetpack은 플랫폼 API에서 분리된 `androidx.*` 패키지 라이브러리로 구성되어 있습니다. 즉, 이전 버전 호환성을 제공하며 Android 플랫폼보다 더 자주 업데이트되어 최신 Jetpack 컴포넌트를 항상 사용할 수 있습니다."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "D6Aa9vmaiac53KUOSr4ZLy6qMQ6VVtwEBtxT1751c4o=",
+        "originContent": "Our official AARs and JARs binaries are distributed through [Google Maven](https://maven.google.com).",
+        "translatedContent": "공식 AAR 및 JAR 바이너리는 [Google Maven](https://maven.google.com)을 통해 배포됩니다."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "YrmYqjDqPv0UHM337p9lwwrzq9RO5REuw9/SVUcZISs=",
+        "originContent": "You can learn more about using it from [Android Jetpack landing page](https://developer.android.com/jetpack).",
+        "translatedContent": "자세한 사용법은 [Android Jetpack 랜딩 페이지](https://developer.android.com/jetpack)에서 확인할 수 있습니다."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "lMI/uE127HBUtXRF2+hfy/Sd/+E7YpI7D0Ci6AJ8WzA=",
+        "originContent": "# Contribution Guide",
+        "translatedContent": "# 기여 가이드"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "nQK/AhGzGpkUoAuliIyvsy7olZbOEuXI7TBxwaF7cKs=",
+        "originContent": "For contributions via GitHub, see the [GitHub Contribution Guide](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/CONTRIBUTING.md).",
+        "translatedContent": "GitHub를 통한 기여는 [GitHub 기여 가이드](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/CONTRIBUTING.md)를 참조하세요."
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "+OacJy5bKHoF6n8NrMIvej0bN4uh6ydHi0+sA1sC7t4=",
+        "originContent": "Note: The contributions workflow via GitHub is currently experimental - only contributions to the following projects are being accepted at this time:",
+        "translatedContent": "참고: 현재 GitHub를 통한 기여 워크플로우는 실험 단계이며, 다음 프로젝트에 한해 기여를 받고 있습니다:"
+      },
+      {
+        "row": 33,
+        "rowsha": "lOO+od5fGdXLvbk6JflSOkbcdo9DpXRLBYsKS+27U1s=",
+        "originContent": "* [Activity](activity)",
+        "translatedContent": "* [Activity](activity)"
+      },
+      {
+        "row": 34,
+        "rowsha": "F040edF8nHsM876iw8vVL1VA2eKAQGsnMfPePNBlFHc=",
+        "originContent": "* [AppCompat](appcompat)",
+        "translatedContent": "* [AppCompat](appcompat)"
+      },
+      {
+        "row": 35,
+        "rowsha": "1ioBGQslfWwEGK+LswTTondNfwZzdFYM5QdmX/rkbBY=",
+        "originContent": "* [Biometric](biometric)",
+        "translatedContent": "* [Biometric](biometric)"
+      },
+      {
+        "row": 36,
+        "rowsha": "SApShmZe2um/CWbZ8CuNOSLCu76KOtvjVXlUoau78t0=",
+        "originContent": "* [Collection](collection)",
+        "translatedContent": "* [Collection](collection)"
+      },
+      {
+        "row": 37,
+        "rowsha": "0I8R5WkI86Zn5lx6MujrrhlXNHiMVrPUQnm8UkozoJE=",
+        "originContent": "* [Compose Compiler](compose/compiler)",
+        "translatedContent": "* [Compose Compiler](compose/compiler)"
+      },
+      {
+        "row": 38,
+        "rowsha": "NtQafOXE5IzEmnWlyEIJF0gpGhbMoqoQXOPVCQBwxhM=",
+        "originContent": "* [Compose Runtime](compose/runtime)",
+        "translatedContent": "* [Compose Runtime](compose/runtime)"
+      },
+      {
+        "row": 39,
+        "rowsha": "YeTXvm1pt5f5cXU7cl8sMSgGlv2ED7o4Ahkqqj6jLEc=",
+        "originContent": "* [Core](core)",
+        "translatedContent": "* [Core](core)"
+      },
+      {
+        "row": 40,
+        "rowsha": "IBxKCrSLweKZqpgRHRdxwIqvrzUUpE+r9JArWbJ61P0=",
+        "originContent": "* [DataStore](datastore)",
+        "translatedContent": "* [DataStore](datastore)"
+      },
+      {
+        "row": 41,
+        "rowsha": "nMIVWfyfRhS20512XTaibKulH/bdbigM69zSLFA7M3g=",
+        "originContent": "* [Fragment](fragment)",
+        "translatedContent": "* [Fragment](fragment)"
+      },
+      {
+        "row": 42,
+        "rowsha": "+lrA5X3pmZFLtE4mEbwZ3KBAA5B5X/bK9frYt/ta6fc=",
+        "originContent": "* [Lifecycle](lifecycle)",
+        "translatedContent": "* [Lifecycle](lifecycle)"
+      },
+      {
+        "row": 43,
+        "rowsha": "pJssnLOu8wWPDjWNyztkvGKAog8joAl8kstwGo47fzk=",
+        "originContent": "* [Navigation](navigation)",
+        "translatedContent": "* [Navigation](navigation)"
+      },
+      {
+        "row": 44,
+        "rowsha": "7KE/TNrE8uGEwIf7y2rYluCqEYCIr70Wi86YAu4idu4=",
+        "originContent": "* [Paging](paging)",
+        "translatedContent": "* [Paging](paging)"
+      },
+      {
+        "row": 45,
+        "rowsha": "KynT/yqasWjG2mtuJ+odZn18cg5UoWg/qsDGit5iJKI=",
+        "originContent": "* [Room](room)",
+        "translatedContent": "* [Room](room)"
+      },
+      {
+        "row": 46,
+        "rowsha": "306Uh5UfZTgn4XwNxYeqM1KLoghEBxJZt8vn3nOAye8=",
+        "originContent": "* [WorkManager](work)",
+        "translatedContent": "* [WorkManager](work)"
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 48,
+        "rowsha": "rZr82XZlQvjY0vqoTfNNl9vXCuemG78FchbeCNzPChM=",
+        "originContent": "## Code Review Etiquette",
+        "translatedContent": "## 코드 리뷰 예절"
+      },
+      {
+        "row": 49,
+        "rowsha": "M5pAHczB/mYwVsaFlXSZC7Uu721ei0vKj9Q1odFREUM=",
+        "originContent": "When contributing to Jetpack, follow the [code review etiquette](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/code-review.md).",
+        "translatedContent": "Jetpack에 기여할 때는 [코드 리뷰 예절](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/code-review.md)을 준수하세요."
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "bBYUg6jXaaTjzndaLa+pVkuGyyr2Y7CJnt37CVZ9k5A=",
+        "originContent": "## Accepted Types of Contributions",
+        "translatedContent": "## 허용되는 기여 유형"
+      },
+      {
+        "row": 52,
+        "rowsha": "3qjVbqMdGcfcHdst9ASxn4Wbchwu0e9v3fsZ6/SM1x0=",
+        "originContent": "* Bug fixes - needs a corresponding bug report in the [Android Issue Tracker](https://issuetracker.google.com/issues/new?component=192731&template=842428)",
+        "translatedContent": "* 버그 수정 - 해당 버그는 [Android 이슈 트래커](https://issuetracker.google.com/issues/new?component=192731&template=842428)에 보고되어야 합니다."
+      },
+      {
+        "row": 53,
+        "rowsha": "YKNBs/uypXpHSmlaNT6Ld5VYu6RqG/Yayg6RKCpQydk=",
+        "originContent": "* Each bug fix is expected to come with tests",
+        "translatedContent": "* 각 버그 수정에는 테스트가 포함되어야 합니다."
+      },
+      {
+        "row": 54,
+        "rowsha": "Hj22TOJwZvswZ8HIrMW204WfqHiXlfkfHEiFc2UpRUA=",
+        "originContent": "* Fixing spelling errors",
+        "translatedContent": "* 맞춤법 오류 수정"
+      },
+      {
+        "row": 55,
+        "rowsha": "JNxsF3jTduGq7MOftQYN356x9TkZSsu+Bi7iwWsTvtU=",
+        "originContent": "* Updating documentation",
+        "translatedContent": "* 문서 업데이트"
+      },
+      {
+        "row": 56,
+        "rowsha": "5ZHdQ3WcpZ3c9DfFsnhdrDNkjLNe8qHZoWrsJfwg6rg=",
+        "originContent": "* Adding new tests to the area that is not currently covered by tests",
+        "translatedContent": "* 현재 테스트가 없는 영역에 대한 신규 테스트 추가"
+      },
+      {
+        "row": 57,
+        "rowsha": "hkS/zU4N+Z7iEh1xVfsgPTF1cDkVYga1LkDAJ/guXs4=",
+        "originContent": "* New features to existing libraries if the feature request bug has been approved by an AndroidX team member.",
+        "translatedContent": "* AndroidX 팀 멤버가 승인한 기능 요청 버그에 따른 기존 라이브러리의 신규 기능 추가"
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 59,
+        "rowsha": "0r+5FHVOTVJff2pc+GL+4ybSJjMM0yr+LGnc3Iha4bE=",
+        "originContent": "We **are not** currently accepting new modules.",
+        "translatedContent": "현재 신규 모듈은 받지 않습니다."
+      },
+      {
+        "row": 60,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 61,
+        "rowsha": "R/++lVlZaaUxH353GnUyZzqU8gXoGoyAe5SxEoBy/E0=",
+        "originContent": "## Checking Out the Code",
+        "translatedContent": "## 코드 체크아웃"
+      },
+      {
+        "row": 62,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 63,
+        "rowsha": "xr0VRv6vhmryn3pacB/fF3b7f4W5RjsHWXyKJ+r0iVE=",
+        "originContent": "Head over to the [onboarding docs](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/docs/onboarding.md) to learn more about getting set up and the",
+        "translatedContent": "[온보딩 문서](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/docs/onboarding.md)에서 설정 및 개발 워크플로우에 대해 자세히 알아보세요!"
+      },
+      {
+        "row": 64,
+        "rowsha": "slGs7aoidyXEVrwCU/FpRBoEz0TyU6wkHq676Ih8KYo=",
+        "originContent": "development workflow!",
+        "translatedContent": ""
+      },
+      {
+        "row": 65,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 지속적 통합"
+      },
+      {
+        "row": 66,
+        "rowsha": "zw/UGT6Qo62QLMJ3xzloLeOrzLv8snE4+BBPIhet8EU=",
+        "originContent": "### Continuous integration",
+        "translatedContent": "[우리의 지속적 통합 시스템](https://ci.android.com/builds/branches/aosp-androidx-main/grid?)은 진행 중인(및 잠재적으로 불안정한) 라이브러리들을 새 변경 사항이 병합될 때마다 빌드합니다. 실험용으로 이 AAR 및 JAR을 수동으로 다운로드할 수 있습니다."
+      },
+      {
+        "row": 67,
+        "rowsha": "uL6nisSu6eXz9qdMen0H5qESLhBVULjk9jjvoUUqwXQ=",
+        "originContent": "[Our continuous integration system](https://ci.android.com/builds/branches/aosp-androidx-main/grid?) builds all in progress (and potentially unstable) libraries as new changes are merged. You can manually download these AARs and JARs for your experimentation.",
+        "translatedContent": ""
+      },
+      {
+        "row": 68,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 변경 전 비밀번호 및 기여자 동의"
+      },
+      {
+        "row": 69,
+        "rowsha": "5dwPxWzIURprkAARAVQbgWsdAyuyTExeMdyabUJ1oJM=",
+        "originContent": "## Password and Contributor Agreement before making a change",
+        "translatedContent": "첫 기여를 업로드하기 전, 비밀번호 설정 및 기여자 동의가 필요합니다:"
+      },
+      {
+        "row": 70,
+        "rowsha": "Qy7X1TPthK6lTmeC1SwDgAOImHzOFH4iz3sZuPENC4c=",
+        "originContent": "Before uploading your first contribution, you will need setup a password and agree to the contribution agreement:",
+        "translatedContent": ""
+      },
+      {
+        "row": 71,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "HTTPS 비밀번호 생성:"
+      },
+      {
+        "row": 72,
+        "rowsha": "HdmotCtIMdDQjOwqxfBp5BSCetOwmjYoSsevd2ibTAA=",
+        "originContent": "Generate a HTTPS password:",
+        "translatedContent": "https://android-review.googlesource.com/new-password"
+      },
+      {
+        "row": 73,
+        "rowsha": "DTHkYf64Z6V0ZeeYlTjTwMld/9ObQd99cvewWiitP/w=",
+        "originContent": "https://android-review.googlesource.com/new-password",
+        "translatedContent": ""
+      },
+      {
+        "row": 74,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Google 기여자 라이선스 동의:"
+      },
+      {
+        "row": 75,
+        "rowsha": "udpfn1o4IbnYaTd+etFpIbzIpxdmhOg8KvEmL4f2zgQ=",
+        "originContent": "Agree to the Google Contributor Licenses Agreement:",
+        "translatedContent": "https://android-review.googlesource.com/settings/new-agreement"
+      },
+      {
+        "row": 76,
+        "rowsha": "5cEuC0LpDopjAuDoeLB8B4aEeTcEixa3DcLawMhvvlg=",
+        "originContent": "https://android-review.googlesource.com/settings/new-agreement",
+        "translatedContent": ""
+      },
+      {
+        "row": 77,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 리뷰 받기"
+      },
+      {
+        "row": 78,
+        "rowsha": "hXQSlk8zkhBXHe7GvTtiDD3dkc2Ma4cmdkrKJkes9f8=",
+        "originContent": "## Getting reviewed",
+        "translatedContent": "* repo upload를 실행한 후 [r.android.com](http://r.android.com)을 엽니다."
+      },
+      {
+        "row": 79,
+        "rowsha": "qpfTIdqPEfdlY6+q8DkWCctNOxjxIOqGHAccq6DLNbo=",
+        "originContent": "* After you run repo upload, open [r.android.com](http://r.android.com)",
+        "translatedContent": "* 계정에 로그인(없으면 생성)합니다."
+      },
+      {
+        "row": 80,
+        "rowsha": "Y/rndVBeoJsVN60Qttl0sb1db/z4ZqJu8h9u4vbyAKk=",
+        "originContent": "* Sign in into your account (or create one if you do not have one yet)",
+        "translatedContent": "* 적절한 리뷰어를 추가합니다(수정한 파일에 가장 많이 기여한 사람을 git log로 찾거나 프로젝트 디렉토리 내 OWNERS 파일을 확인)."
+      },
+      {
+        "row": 81,
+        "rowsha": "fqDhXRd5feQVeVi7b2ai60aOGZbajTSPJYkteRpp0Hg=",
+        "originContent": "* Add an appropriate reviewer (use git log to find who did most modifications on the file you are fixing or check the OWNERS file in the project's directory)",
+        "translatedContent": ""
+      },
+      {
+        "row": 82,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 바이너리 종속성 처리"
+      },
+      {
+        "row": 83,
+        "rowsha": "kgUieuy4maiYNadEQksnaO4Vav7k+eBnldJe0TDO5pI=",
+        "originContent": "## Handling binary dependencies",
+        "translatedContent": "AndroidX는 모든 바이너리 Gradle 종속성을 git으로 저장합니다. 이들은 체크아웃 시 `prebuilts/androidx/internal` 및 `prebuilts/androidx/external` 디렉토리에 있습니다. 이 종속성들은 `google()`, `mavenCentral()`에서도 사용 가능합니다. 빌드의 독립성을 위해 복사본을 저장합니다. [importMaven 도구](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/development/importMaven/README.md)를 사용해 새 종속성을 추가할 수 있습니다."
+      },
+      {
+        "row": 84,
+        "rowsha": "jhXGfA4j4FraNyFaOZMG6I76pzAH7e9A/KmdZcQUqaI=",
+        "originContent": "AndroidX uses git to store all the binary Gradle dependencies. They are stored in `prebuilts/androidx/internal` and `prebuilts/androidx/external` directories in your checkout. All the dependencies in these directories are also available from `google()`, or `mavenCentral()`. We store copies of these dependencies to have hermetic builds. You can pull in [a new dependency using our importMaven tool](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/development/importMaven/README.md).",
+        "translatedContent": ""
+      },
+      {
+        "row": 85,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 배포"
+      },
+      {
+        "row": 86,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 87,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`gradle.properties`에서 원격 maven을 설정하세요."
+      },
+      {
+        "row": 88,
+        "rowsha": "iCI6et6EIntMMfZqKxl71JqD+nv14cRXaHq/dC39OXE=",
+        "originContent": "## Publish",
+        "translatedContent": ""
+      },
+      {
+        "row": 89,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 90,
+        "rowsha": "4I/RxgQRXMbt3bTC31eWFk9vO1rf1SeujA/FzdYaDoA=",
+        "originContent": "Configure your remote maven in `gradle.properties`.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\nmaven.remote.url=https:xxx\nmaven.remote.username=xxx\nmaven.remote.password=xxx\n```",
+    "ContentSha": "IiY44Hk43lPxpw5Gx1Z14NyV7DTnPXwaGEaZmZKz4Is=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nmaven.remote.url=https:xxx\nmaven.remote.username=xxx\nmaven.remote.password=xxx\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "+AtEgky3rCyazP+PdiK9yimw/fjWhzeygiW/ONObzQs=",
+        "originContent": "maven.remote.url=https:xxx",
+        "translatedContent": "maven.remote.url=https:xxx"
+      },
+      {
+        "row": 3,
+        "rowsha": "oZzX82pPi1WSQOK/1+bsJmFeAg9AdKlAnRbyouajEoI=",
+        "originContent": "maven.remote.username=xxx",
+        "translatedContent": "maven.remote.username=xxx"
+      },
+      {
+        "row": 4,
+        "rowsha": "0n381WIZdEIfiYTgzuqkMIGvCLKD5Hz/iqnxu0FQ/Yk=",
+        "originContent": "maven.remote.password=xxx",
+        "translatedContent": "maven.remote.password=xxx"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "Publish artifacts to remote or local maven, see [MULTIPLATFORM.md](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/MULTIPLATFORM.md) for more details.",
+    "ContentSha": "oXrgmVNV2f7V6g5Akp5TmdQf2hOMcXdpknJ561r9veU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "원격 또는 로컬 메이븐에 아티팩트를 게시하려면 자세한 내용은 [MULTIPLATFORM.md](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/MULTIPLATFORM.md)를 참조하세요.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oXrgmVNV2f7V6g5Akp5TmdQf2hOMcXdpknJ561r9veU=",
+        "originContent": "Publish artifacts to remote or local maven, see [MULTIPLATFORM.md](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/MULTIPLATFORM.md) for more details.",
+        "translatedContent": "원격 또는 로컬 메이븐에 아티팩트를 게시하려면 자세한 내용은 [MULTIPLATFORM.md](https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/MULTIPLATFORM.md)를 참조하세요."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\n./gradlew :mpp:publishComposeJb -Pcompose.platforms=android,ohosArm64,uikit\n./gradlew :mpp:publishComposeJbToMavenLocal -Pcompose.platforms=android,ohosArm64,uikit\n```",
+    "ContentSha": "WqiBOvE38zqCQPY7HsajmEYIizF4WC2XNSUxkIpMjaA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n./gradlew :mpp:publishComposeJb -Pcompose.platforms=android,ohosArm64,uikit\n./gradlew :mpp:publishComposeJbToMavenLocal -Pcompose.platforms=android,ohosArm64,uikit\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "KQufIUAJiXixQVj8m8nDfd0qKl1u991Olj7pjJXZXbM=",
+        "originContent": "./gradlew :mpp:publishComposeJb -Pcompose.platforms=android,ohosArm64,uikit",
+        "translatedContent": "./gradlew :mpp:publishComposeJb -Pcompose.platforms=android,ohosArm64,uikit"
+      },
+      {
+        "row": 3,
+        "rowsha": "fCt+2gzI2T+/xANm2Ivnk9APpruOXkYgoLKAGu8eIUA=",
+        "originContent": "./gradlew :mpp:publishComposeJbToMavenLocal -Pcompose.platforms=android,ohosArm64,uikit",
+        "translatedContent": "./gradlew :mpp:publishComposeJbToMavenLocal -Pcompose.platforms=android,ohosArm64,uikit"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n",
+    "ContentSha": "AbpHGcgLb+kRsJGnwFEktk7uzpZOCcBY74+YBdrKVGs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\n</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

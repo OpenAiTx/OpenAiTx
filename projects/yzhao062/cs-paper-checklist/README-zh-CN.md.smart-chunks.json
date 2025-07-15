@@ -1,0 +1,988 @@
+[
+  {
+    "Id": 1,
+    "Content": "_This checklist is a practical, opinionated guide for sanity-checking the writing quality, structure, and presentation of CS papers—especially for conference (and journal) submissions. While some items are subjective, the goal is to provide concrete reminders and highlight common pitfalls. It is a living document and will continue to be updated based on feedback._\n\n---\n\n## 1. 🎯 Title and Abstract\n\n- [ ] 1.1 Title is ≤ 15 words. Check for generic phrasing (e.g., “A Novel Framework...,” which conveys little information) and overly narrow focus (which may reduce the paper’s audience)—aim for concise but informative.\n- [ ] 1.2 Title clearly reflects both the **problem** and the **solution**, and includes at least one technical keyword (e.g., jailbreak, OOD detection, graph learning).\n- [ ] 1.3 Title avoids rare or ambiguous abbreviations. Terms like LLM, AI, and ML are acceptable in CS venues, but avoid abbreviations like AD (which could refer to advertisement or anomaly detection).\n- [ ] 1.4 Abstract includes at least four key components: (1) problem/task definition, (2) proposed method or idea, (3) main results, and (4) broader impact or significance (some may be combined).\n- [ ] 1.5 Abstract avoids undefined abbreviations and vague descriptors (e.g., “important,” “novel,” “state-of-the-art” without context).\n- [ ] 1.6 Bonus: Abstract includes at least one concrete, quantitative result or insight to make the work stand out. For instance, “our method achieves 11.2× acceleration in test-time inference for jailbreak detection.”\n\n\n---\n\n## 2. 📚 Introduction\n\n- [ ] 2.1 The main problem or task is clearly defined within the first two paragraphs.\n- [ ] 2.2 Motivation includes either (a) real-world use cases or (b) citations to prior work—ideally both.\n- [ ] 2.3 The introduction ends with a brief overview of the proposed method and its name.\n- [ ] 2.4 Contributions are explicitly itemized (e.g., “(1) first framework for ..., (2) new dataset for ..., (3) extensive evaluation on ...”).\n- [ ] 2.5 Each contribution is specific and verifiable—avoid vague claims such as “we provide insights” or “we improve understanding.”\n- [ ] 2.6 Bonus: Include a compelling figure on the first page—e.g., comparison to prior work, performance highlight, or visual explanation of the core idea.\n\n\n\n\n---\n\n## 3. 🔍 Related Work\n\n- [ ] 3.1 All cited works are connected to your method, baseline, or task.\n- [ ] 3.2 At least one baseline from the top-3 most cited recent papers on the topic is mentioned.\n- [ ] 3.3 Related work does not exceed 1.5 pages (unless survey-style paper).\n- [ ] 3.4 You may use LLMs for searching the related work, but double triple check each of the paper -- do not trust LLMs!!!!\n- [ ] 3.5 Bonus: use related work section to introduce baseline algorithms -- show a table for your proposal better than the existing ones\n\n\n\n\n---\n\n## 4. 🧪 Method\n\n- [ ] 4.1 All symbols are defined before use.\n- [ ] 4.2 Each equation is referenced with inline explanation (e.g., “Eq. (3) defines the loss over…”). If an equation is never referenced, consider making it inline to save space.\n- [ ] 4.3 All modules or components of the method are illustrated or described in text or figures.\n- [ ] 4.4 Each subsection ideally aligns with parts of the overview figure. Add a short summary paragraph before diving into subsections.\n- [ ] 4.5 You do not need both overview figure and pseudo code in the main text -- move the pseudo code to the appendix\n- [ ] 4.6 The method is reproducible without referring to the appendix or external code—reviewers should understand everything from the main text.\n- [ ] 4.7 Bonus: Can anything be removed from this section without reducing clarity? Do not hesitate to cut: more math ≠ better paper.\n\n\n\n\n---\n\n## 5. 📊 Experiments\n\n- [ ] 5.1 At least 3 datasets are used (unless the paper introduces a new dataset).\n- [ ] 5.2 At least 3 baseline methods are compared. Are they state-of-the-art? Justify why these baselines are chosen.\n- [ ] 5.3 At least 1 ablation study is included.\n- [ ] 5.4 Standard deviation or confidence intervals are reported where appropriate.\n- [ ] 5.5 Hardware environment, software libraries, and hyperparameter settings are described.\n- [ ] 5.6 Negative results (if any) are explained, not omitted—failure cases are valuable.\n- [ ] 5.7 Evaluation metrics are clearly defined and justified.\n- [ ] 5.8 All figures and tables are referenced in the main text.\n- [ ] 5.9 Beyond showing numbers and saying “we perform well,” at least one deeper insight or analysis is provided (e.g., why it works, where it fails).\n- [ ] 5.10 Bonus: Think about how easy others can reproduce your work? If you have any \"dirty tricks\" -- remove them pls.\n\n\n\n\n\n---\n\n## 6. 🧾 Writing Quality and Style\n\n- [ ] 6.1 All abbreviations are defined at first use (even ML, LLM, etc.) -- do not redefine them again and again.\n- [ ] 6.2 No sentence exceeds 25 words without a comma or period.\n- [ ] 6.3 No paragraph exceeds 10 lines.\n- [ ] 6.4 Passive voice usage < 30% of the total number of sentences.\n- [ ] 6.5 Bonus: Have you noticed that your paper are full of the fancy LLM words, like encompass, intricate, etc?\n\n\n\n\n---\n\n## 7. 🖼️ Figures and Tables\n\n- [ ] 7.1 Each figure/table has a caption ≥ 2 lines that includes interpretation or context. Do not just place it without explanation—reviewers will get lost.\n- [ ] 7.2 Font size in all figures is ≥ 8pt and all labels are fully visible (not cropped).\n- [ ] 7.3 Plots use colors that remain distinguishable when printed in grayscale—some reviewers will print your paper.\n- [ ] 7.4 Each method mentioned in the results appears in either the legend or table column headers.\n- [ ] 7.5 Figures appear at the top of pages rather than mid-text or at the bottom (soft rule, but improves readability).\n- [ ] 7.6 Figures and tables are not redundant—each provides new or complementary information.\n- [ ] Bonus: All figures are in **lossless formats** (e.g., PDF for vector graphics). Absolutely no low-resolution images allowed.\n",
+    "ContentSha": "uccIq/JA3p5iPSvk6+4toq/M7uOA6v8foNl0tqisR1Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "_本清单是一个实用且有见地的指南，用于理智地检查计算机科学论文的写作质量、结构和呈现——特别是针对会议（和期刊）投稿。虽然有些条目带有主观性，但目标是提供具体提醒并突出常见陷阱。它是一个动态文档，将根据反馈持续更新。_\n\n---\n\n## 1. 🎯 标题和摘要\n\n- [ ] 1.1 标题不超过15个单词。检查泛泛而谈的措辞（例如，“一种新框架...”传达的信息较少）和过于狭窄的聚焦（可能会减少论文受众）——目标是简洁而信息丰富。\n- [ ] 1.2 标题清楚反映**问题**和**解决方案**，并包含至少一个技术关键词（例如，jailbreak，OOD检测，图学习）。\n- [ ] 1.3 标题避免使用罕见或模糊的缩写。像LLM、AI和ML在计算机科学领域是可接受的，但避免使用如AD（可能指广告或异常检测）等缩写。\n- [ ] 1.4 摘要包括至少四个关键组成部分：(1) 问题/任务定义，(2) 提出的方法或思路，(3) 主要结果，(4) 更广泛的影响或意义（某些部分可以合并）。\n- [ ] 1.5 摘要避免未定义的缩写和含糊的描述词（例如，“重要的”，“新颖的”，“最先进的”无上下文说明）。\n- [ ] 1.6 加分项：摘要包含至少一个具体的、量化的结果或见解，使工作突出。例如，“我们的方法在jailbreak检测测试时实现了11.2倍的加速。”\n\n---\n\n## 2. 📚 引言\n\n- [ ] 2.1 主要问题或任务在前两段内被清楚定义。\n- [ ] 2.2 动机包括（a）真实世界的用例，或（b）对前人工作的引用——理想情况下两者兼备。\n- [ ] 2.3 引言以对提出方法及其名称的简要概述结束。\n- [ ] 2.4 贡献明确列出（例如，“（1）首次提出了...框架，（2）提供了新的数据集...，（3）在...上进行了广泛评估”）。\n- [ ] 2.5 每项贡献具体且可验证——避免模糊声明如“我们提供了见解”或“我们提升了理解”。\n- [ ] 2.6 加分项：第一页包含引人注目的图示——如与前人工作的对比、性能亮点或核心思想的视觉解释。\n\n---\n\n## 3. 🔍 相关工作\n\n- [ ] 3.1 所有引用工作都与您的方法、基线或任务相关。\n- [ ] 3.2 至少提及一篇该主题中引用次数排名前三的最新论文中的基线。\n- [ ] 3.3 相关工作部分长度不超过1.5页（除非是综述类论文）。\n- [ ] 3.4 可使用LLM搜索相关工作，但必须反复核查每篇论文——不要盲目信任LLM！！！\n- [ ] 3.5 加分项：利用相关工作部分介绍基线算法——展示表格，证明您的方案优于现有方法。\n\n---\n\n## 4. 🧪 方法\n\n- [ ] 4.1 所有符号在使用前定义。\n- [ ] 4.2 每个方程都有内联解释引用（例如，“式(3)定义了...的损失”）。如果某方程未被引用，考虑将其放入内联以节省空间。\n- [ ] 4.3 方法的所有模块或组件均通过文本或图示说明。\n- [ ] 4.4 每个小节最好与概览图的部分对应。进入小节前添加简短的总结段落。\n- [ ] 4.5 不必在正文中同时包含概览图和伪代码——将伪代码移至附录。\n- [ ] 4.6 方法可在不参考附录或外部代码的情况下复现——评审者应能从正文完全理解。\n- [ ] 4.7 加分项：是否能删减本节内容而不降低清晰度？大胆删减：更多数学≠更好论文。\n\n---\n\n## 5. 📊 实验\n\n- [ ] 5.1 使用至少3个数据集（除非论文介绍新数据集）。\n- [ ] 5.2 比较至少3种基线方法。它们是最先进的吗？说明选择这些基线的理由。\n- [ ] 5.3 包含至少1项消融实验。\n- [ ] 5.4 适当时报告标准差或置信区间。\n- [ ] 5.5 描述硬件环境、软件库和超参数设置。\n- [ ] 5.6 解释负面结果（如有），不忽略——失败案例也有价值。\n- [ ] 5.7 明确定义并说明评估指标。\n- [ ] 5.8 所有图表均在正文中被引用。\n- [ ] 5.9 除了展示数据和宣称“表现良好”，至少提供一项更深入的见解或分析（例如，为什么有效，哪里失败）。\n- [ ] 5.10 加分项：考虑他人复现的难易程度？如果有“作弊技巧”，请删除。\n\n---\n\n## 6. 🧾 写作质量与风格\n\n- [ ] 6.1 所有缩写首次出现时定义（即使是ML、LLM等）——避免反复定义。\n- [ ] 6.2 句子长度不超过25个单词且无逗号或句号的情况。\n- [ ] 6.3 每段不超过10行。\n- [ ] 6.4 被动语态使用率低于总句数的30%。\n- [ ] 6.5 加分项：注意论文是否充斥华丽的LLM词汇，如encompass、intricate等？\n\n---\n\n## 7. 🖼️ 图表\n\n- [ ] 7.1 每个图表配有不少于两行的标题，包含解释或背景。不要仅放置无说明——评审会迷失。\n- [ ] 7.2 图中字体大小不小于8pt，所有标签完整可见（无裁剪）。\n- [ ] 7.3 绘图颜色在黑白打印时仍可区分——部分评审会打印论文。\n- [ ] 7.4 结果中提及的每种方法均出现在图例或表头。\n- [ ] 7.5 图表尽量置于页面顶部，而非正文中间或底部（软性规定，提升可读性）。\n- [ ] 7.6 图表无冗余——各自提供新的或互补信息。\n- [ ] 加分项：所有图表均为**无损格式**（如矢量图的PDF）。绝不允许低分辨率图片。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ttAfvvc/erI7kkH8dRzf4Ap5ojpHq6LfAtdJHGU3DmQ=",
+        "originContent": "_This checklist is a practical, opinionated guide for sanity-checking the writing quality, structure, and presentation of CS papers—especially for conference (and journal) submissions. While some items are subjective, the goal is to provide concrete reminders and highlight common pitfalls. It is a living document and will continue to be updated based on feedback._",
+        "translatedContent": "_本清单是一个实用且有见地的指南，用于理智地检查计算机科学论文的写作质量、结构和呈现——特别是针对会议（和期刊）投稿。虽然有些条目带有主观性，但目标是提供具体提醒并突出常见陷阱。它是一个动态文档，将根据反馈持续更新。_"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "pmrZvvQZPM1zTkMXz/nutQIramawl0Cr4CaL/49ZIpE=",
+        "originContent": "## 1. 🎯 Title and Abstract",
+        "translatedContent": "## 1. 🎯 标题和摘要"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "E8rOH/4hJohreil9w8k0IWEwu/wh7BqTzUEUfEHyt1o=",
+        "originContent": "- [ ] 1.1 Title is ≤ 15 words. Check for generic phrasing (e.g., “A Novel Framework...,” which conveys little information) and overly narrow focus (which may reduce the paper’s audience)—aim for concise but informative.",
+        "translatedContent": "- [ ] 1.1 标题不超过15个单词。检查泛泛而谈的措辞（例如，“一种新框架...”传达的信息较少）和过于狭窄的聚焦（可能会减少论文受众）——目标是简洁而信息丰富。"
+      },
+      {
+        "row": 8,
+        "rowsha": "vpKva8E4KTMfespeoZzR9EdCDouZSc9V6G6a1Ju3TcA=",
+        "originContent": "- [ ] 1.2 Title clearly reflects both the **problem** and the **solution**, and includes at least one technical keyword (e.g., jailbreak, OOD detection, graph learning).",
+        "translatedContent": "- [ ] 1.2 标题清楚反映**问题**和**解决方案**，并包含至少一个技术关键词（例如，jailbreak，OOD检测，图学习）。"
+      },
+      {
+        "row": 9,
+        "rowsha": "MQnVPNwL/Czs7baxUlLqh3AXNVDc+sr5tn2uTpq3AGA=",
+        "originContent": "- [ ] 1.3 Title avoids rare or ambiguous abbreviations. Terms like LLM, AI, and ML are acceptable in CS venues, but avoid abbreviations like AD (which could refer to advertisement or anomaly detection).",
+        "translatedContent": "- [ ] 1.3 标题避免使用罕见或模糊的缩写。像LLM、AI和ML在计算机科学领域是可接受的，但避免使用如AD（可能指广告或异常检测）等缩写。"
+      },
+      {
+        "row": 10,
+        "rowsha": "eKrDwAF6GcqOLyi9Spr4gHUU+8kU7owTCHEWt8yjDNg=",
+        "originContent": "- [ ] 1.4 Abstract includes at least four key components: (1) problem/task definition, (2) proposed method or idea, (3) main results, and (4) broader impact or significance (some may be combined).",
+        "translatedContent": "- [ ] 1.4 摘要包括至少四个关键组成部分：(1) 问题/任务定义，(2) 提出的方法或思路，(3) 主要结果，(4) 更广泛的影响或意义（某些部分可以合并）。"
+      },
+      {
+        "row": 11,
+        "rowsha": "Xuk7kCsKOs1iDPbTDowEfxDTD995neNQyfJpgwHKOhs=",
+        "originContent": "- [ ] 1.5 Abstract avoids undefined abbreviations and vague descriptors (e.g., “important,” “novel,” “state-of-the-art” without context).",
+        "translatedContent": "- [ ] 1.5 摘要避免未定义的缩写和含糊的描述词（例如，“重要的”，“新颖的”，“最先进的”无上下文说明）。"
+      },
+      {
+        "row": 12,
+        "rowsha": "J+rFWUnwq8rPK45rVLxmGGG+PqA489CqC9MOXttE6jk=",
+        "originContent": "- [ ] 1.6 Bonus: Abstract includes at least one concrete, quantitative result or insight to make the work stand out. For instance, “our method achieves 11.2× acceleration in test-time inference for jailbreak detection.”",
+        "translatedContent": "- [ ] 1.6 加分项：摘要包含至少一个具体的、量化的结果或见解，使工作突出。例如，“我们的方法在jailbreak检测测试时实现了11.2倍的加速。”"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 15,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 2. 📚 引言"
+      },
+      {
+        "row": 17,
+        "rowsha": "Cno73IBYEQwBiV53VESAet8l49n3/2TFOWugH5YDm2E=",
+        "originContent": "## 2. 📚 Introduction",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [ ] 2.1 主要问题或任务在前两段内被清楚定义。"
+      },
+      {
+        "row": 19,
+        "rowsha": "0Qhx2es18RLuFe6GABFOQ0jCYnPOAsmhUhoVh6ac+98=",
+        "originContent": "- [ ] 2.1 The main problem or task is clearly defined within the first two paragraphs.",
+        "translatedContent": "- [ ] 2.2 动机包括（a）真实世界的用例，或（b）对前人工作的引用——理想情况下两者兼备。"
+      },
+      {
+        "row": 20,
+        "rowsha": "YE1tfA1SpeUaDprFCDzOvL0Og03XengoVecU7VFnRl4=",
+        "originContent": "- [ ] 2.2 Motivation includes either (a) real-world use cases or (b) citations to prior work—ideally both.",
+        "translatedContent": "- [ ] 2.3 引言以对提出方法及其名称的简要概述结束。"
+      },
+      {
+        "row": 21,
+        "rowsha": "e3j1+jpBpU60X8RkRNEwi1TyFcgD1HZrmhsNGDF39dE=",
+        "originContent": "- [ ] 2.3 The introduction ends with a brief overview of the proposed method and its name.",
+        "translatedContent": "- [ ] 2.4 贡献明确列出（例如，“（1）首次提出了...框架，（2）提供了新的数据集...，（3）在...上进行了广泛评估”）。"
+      },
+      {
+        "row": 22,
+        "rowsha": "X6WJYptMuYYPF1OxInBHQ/UOGD6f04/OwUepWFfIhRE=",
+        "originContent": "- [ ] 2.4 Contributions are explicitly itemized (e.g., “(1) first framework for ..., (2) new dataset for ..., (3) extensive evaluation on ...”).",
+        "translatedContent": "- [ ] 2.5 每项贡献具体且可验证——避免模糊声明如“我们提供了见解”或“我们提升了理解”。"
+      },
+      {
+        "row": 23,
+        "rowsha": "nLHVz412vzVjUyWaEnUX23HnmT0TNAAz7/ZsXw1gkRw=",
+        "originContent": "- [ ] 2.5 Each contribution is specific and verifiable—avoid vague claims such as “we provide insights” or “we improve understanding.”",
+        "translatedContent": "- [ ] 2.6 加分项：第一页包含引人注目的图示——如与前人工作的对比、性能亮点或核心思想的视觉解释。"
+      },
+      {
+        "row": 24,
+        "rowsha": "IHK4mJanRu2g7tWTT75vZTe727ZveMmuRASu3EIFdi8=",
+        "originContent": "- [ ] 2.6 Bonus: Include a compelling figure on the first page—e.g., comparison to prior work, performance highlight, or visual explanation of the core idea.",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 3. 🔍 相关工作"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "- [ ] 3.1 所有引用工作都与您的方法、基线或任务相关。"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [ ] 3.2 至少提及一篇该主题中引用次数排名前三的最新论文中的基线。"
+      },
+      {
+        "row": 31,
+        "rowsha": "8Ww4OaSgGbGhH0kXAUWJrtSrPeflsDlvIJol5lLOpd0=",
+        "originContent": "## 3. 🔍 Related Work",
+        "translatedContent": "- [ ] 3.3 相关工作部分长度不超过1.5页（除非是综述类论文）。"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [ ] 3.4 可使用LLM搜索相关工作，但必须反复核查每篇论文——不要盲目信任LLM！！！"
+      },
+      {
+        "row": 33,
+        "rowsha": "CeYbs8TwqRaWO6fa6xu6TvehP8JNUkkAlVs/lgDYrao=",
+        "originContent": "- [ ] 3.1 All cited works are connected to your method, baseline, or task.",
+        "translatedContent": "- [ ] 3.5 加分项：利用相关工作部分介绍基线算法——展示表格，证明您的方案优于现有方法。"
+      },
+      {
+        "row": 34,
+        "rowsha": "YrQ8gNhTABA8Ikz2eb/o7kc1USBcIUeTZiWLzVo3R1g=",
+        "originContent": "- [ ] 3.2 At least one baseline from the top-3 most cited recent papers on the topic is mentioned.",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "jDriC1ees8QRNzwJ4ABSaxylCBT4fjQ9KxOdKfekdT8=",
+        "originContent": "- [ ] 3.3 Related work does not exceed 1.5 pages (unless survey-style paper).",
+        "translatedContent": "---"
+      },
+      {
+        "row": 36,
+        "rowsha": "ctlrEKBwhLmAQIYbSDsMotahQpFCPtzZuD6zxygs3aU=",
+        "originContent": "- [ ] 3.4 You may use LLMs for searching the related work, but double triple check each of the paper -- do not trust LLMs!!!!",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "KLUIJLt5K80h5tSJSuULR+A05MlZYWNg9wgziu3V5Fo=",
+        "originContent": "- [ ] 3.5 Bonus: use related work section to introduce baseline algorithms -- show a table for your proposal better than the existing ones",
+        "translatedContent": "## 4. 🧪 方法"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [ ] 4.1 所有符号在使用前定义。"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [ ] 4.2 每个方程都有内联解释引用（例如，“式(3)定义了...的损失”）。如果某方程未被引用，考虑将其放入内联以节省空间。"
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [ ] 4.3 方法的所有模块或组件均通过文本或图示说明。"
+      },
+      {
+        "row": 42,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "- [ ] 4.4 每个小节最好与概览图的部分对应。进入小节前添加简短的总结段落。"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [ ] 4.5 不必在正文中同时包含概览图和伪代码——将伪代码移至附录。"
+      },
+      {
+        "row": 44,
+        "rowsha": "CSPVNjeIGHoCbsQp370fIA8mS0ozJElzmmfvx8rGEeo=",
+        "originContent": "## 4. 🧪 Method",
+        "translatedContent": "- [ ] 4.6 方法可在不参考附录或外部代码的情况下复现——评审者应能从正文完全理解。"
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [ ] 4.7 加分项：是否能删减本节内容而不降低清晰度？大胆删减：更多数学≠更好论文。"
+      },
+      {
+        "row": 46,
+        "rowsha": "p4cUx/WMricqc8vAgfLuASQ3lpen44oD9KHfMvPASRY=",
+        "originContent": "- [ ] 4.1 All symbols are defined before use.",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "L+ksCpYH0A/z6Zl1kOpaWReNsQQSg6irG+e3V+T7i1Q=",
+        "originContent": "- [ ] 4.2 Each equation is referenced with inline explanation (e.g., “Eq. (3) defines the loss over…”). If an equation is never referenced, consider making it inline to save space.",
+        "translatedContent": "---"
+      },
+      {
+        "row": 48,
+        "rowsha": "SJTrg8Ftw8/ryKxssXWIaRdK1gMpVAI2c1Snp+rxCLM=",
+        "originContent": "- [ ] 4.3 All modules or components of the method are illustrated or described in text or figures.",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "Rizy02L9rrkxxZ+ORap/MFjp6Z44BDW5y0n1ZADu31o=",
+        "originContent": "- [ ] 4.4 Each subsection ideally aligns with parts of the overview figure. Add a short summary paragraph before diving into subsections.",
+        "translatedContent": "## 5. 📊 实验"
+      },
+      {
+        "row": 50,
+        "rowsha": "rwDMd0rUXZ+AQ+ZuU3afrjJrS6/xYcQzf+M3+ibTx3k=",
+        "originContent": "- [ ] 4.5 You do not need both overview figure and pseudo code in the main text -- move the pseudo code to the appendix",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "NSd4IcVNsXMRuvbkktNw/y12iwD30tgsEQR/hBxDW1k=",
+        "originContent": "- [ ] 4.6 The method is reproducible without referring to the appendix or external code—reviewers should understand everything from the main text.",
+        "translatedContent": "- [ ] 5.1 使用至少3个数据集（除非论文介绍新数据集）。"
+      },
+      {
+        "row": 52,
+        "rowsha": "OH2Kr0B3QMMs7QuURoWI0Nzmcd0ol3fgsruazJkFM3o=",
+        "originContent": "- [ ] 4.7 Bonus: Can anything be removed from this section without reducing clarity? Do not hesitate to cut: more math ≠ better paper.",
+        "translatedContent": "- [ ] 5.2 比较至少3种基线方法。它们是最先进的吗？说明选择这些基线的理由。"
+      },
+      {
+        "row": 53,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [ ] 5.3 包含至少1项消融实验。"
+      },
+      {
+        "row": 54,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [ ] 5.4 适当时报告标准差或置信区间。"
+      },
+      {
+        "row": 55,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [ ] 5.5 描述硬件环境、软件库和超参数设置。"
+      },
+      {
+        "row": 56,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [ ] 5.6 解释负面结果（如有），不忽略——失败案例也有价值。"
+      },
+      {
+        "row": 57,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "- [ ] 5.7 明确定义并说明评估指标。"
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [ ] 5.8 所有图表均在正文中被引用。"
+      },
+      {
+        "row": 59,
+        "rowsha": "K0mAX1DvDdujdMm1wa7ZfUv+nKJ+AVm0ht8ota/y/1k=",
+        "originContent": "## 5. 📊 Experiments",
+        "translatedContent": "- [ ] 5.9 除了展示数据和宣称“表现良好”，至少提供一项更深入的见解或分析（例如，为什么有效，哪里失败）。"
+      },
+      {
+        "row": 60,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [ ] 5.10 加分项：考虑他人复现的难易程度？如果有“作弊技巧”，请删除。"
+      },
+      {
+        "row": 61,
+        "rowsha": "0Qz3ju0Czq1LkVNGnP14d8Ez4islVLtir2h8D5htUYw=",
+        "originContent": "- [ ] 5.1 At least 3 datasets are used (unless the paper introduces a new dataset).",
+        "translatedContent": ""
+      },
+      {
+        "row": 62,
+        "rowsha": "ciI9n01H+B92dl/PTxHbCX4ohcxKK7lhS4oH3wiE3OI=",
+        "originContent": "- [ ] 5.2 At least 3 baseline methods are compared. Are they state-of-the-art? Justify why these baselines are chosen.",
+        "translatedContent": "---"
+      },
+      {
+        "row": 63,
+        "rowsha": "Ah0GILzUBYvYNAoDFGa/bAYu0bfHII8e+nuy8SYbnGY=",
+        "originContent": "- [ ] 5.3 At least 1 ablation study is included.",
+        "translatedContent": ""
+      },
+      {
+        "row": 64,
+        "rowsha": "ZMMyulB0/+6YuqkV8bblYO/NyCmZTdPdp6/45MtEL5c=",
+        "originContent": "- [ ] 5.4 Standard deviation or confidence intervals are reported where appropriate.",
+        "translatedContent": "## 6. 🧾 写作质量与风格"
+      },
+      {
+        "row": 65,
+        "rowsha": "Jqg5pEQBupZ41UR9YS4w+v6ufFyvD3r7WjrIf/hIMqs=",
+        "originContent": "- [ ] 5.5 Hardware environment, software libraries, and hyperparameter settings are described.",
+        "translatedContent": ""
+      },
+      {
+        "row": 66,
+        "rowsha": "+e/OUpQed9cjHuzWn6R/aziYuyEtJsZLV8BScp1FIds=",
+        "originContent": "- [ ] 5.6 Negative results (if any) are explained, not omitted—failure cases are valuable.",
+        "translatedContent": "- [ ] 6.1 所有缩写首次出现时定义（即使是ML、LLM等）——避免反复定义。"
+      },
+      {
+        "row": 67,
+        "rowsha": "e1SHws9gqjhUuLAlwaMn6U4Vq/q+RTdBZeYJVZmfyG0=",
+        "originContent": "- [ ] 5.7 Evaluation metrics are clearly defined and justified.",
+        "translatedContent": "- [ ] 6.2 句子长度不超过25个单词且无逗号或句号的情况。"
+      },
+      {
+        "row": 68,
+        "rowsha": "7HC9lC6JaFlQWplu8lT4yLGz0ttivN8wCjLwBaIA82w=",
+        "originContent": "- [ ] 5.8 All figures and tables are referenced in the main text.",
+        "translatedContent": "- [ ] 6.3 每段不超过10行。"
+      },
+      {
+        "row": 69,
+        "rowsha": "GmQlV8Mc68XPekqe9TR16Vts4aPOfdDjdD9FPUwQT0s=",
+        "originContent": "- [ ] 5.9 Beyond showing numbers and saying “we perform well,” at least one deeper insight or analysis is provided (e.g., why it works, where it fails).",
+        "translatedContent": "- [ ] 6.4 被动语态使用率低于总句数的30%。"
+      },
+      {
+        "row": 70,
+        "rowsha": "cvD47umLHknnszCWMM5GVn4vXofPYNsv5YVlH2voQzs=",
+        "originContent": "- [ ] 5.10 Bonus: Think about how easy others can reproduce your work? If you have any \"dirty tricks\" -- remove them pls.",
+        "translatedContent": "- [ ] 6.5 加分项：注意论文是否充斥华丽的LLM词汇，如encompass、intricate等？"
+      },
+      {
+        "row": 71,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 72,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 73,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 74,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 7. 🖼️ 图表"
+      },
+      {
+        "row": 75,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 76,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "- [ ] 7.1 每个图表配有不少于两行的标题，包含解释或背景。不要仅放置无说明——评审会迷失。"
+      },
+      {
+        "row": 77,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [ ] 7.2 图中字体大小不小于8pt，所有标签完整可见（无裁剪）。"
+      },
+      {
+        "row": 78,
+        "rowsha": "k4Uu0Bs/xEK1QHhlx3j4x0HIqQz4po15SBpGUENRiNU=",
+        "originContent": "## 6. 🧾 Writing Quality and Style",
+        "translatedContent": "- [ ] 7.3 绘图颜色在黑白打印时仍可区分——部分评审会打印论文。"
+      },
+      {
+        "row": 79,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [ ] 7.4 结果中提及的每种方法均出现在图例或表头。"
+      },
+      {
+        "row": 80,
+        "rowsha": "EzEoH4f/5BnQCEgfJOjjSZcZT+7Syh7LOriZbxa3faE=",
+        "originContent": "- [ ] 6.1 All abbreviations are defined at first use (even ML, LLM, etc.) -- do not redefine them again and again.",
+        "translatedContent": "- [ ] 7.5 图表尽量置于页面顶部，而非正文中间或底部（软性规定，提升可读性）。"
+      },
+      {
+        "row": 81,
+        "rowsha": "fhiASi8BuzmLtpe79t4QR61INfmQg0XKWfGQSsfT1rU=",
+        "originContent": "- [ ] 6.2 No sentence exceeds 25 words without a comma or period.",
+        "translatedContent": "- [ ] 7.6 图表无冗余——各自提供新的或互补信息。"
+      },
+      {
+        "row": 82,
+        "rowsha": "YAXX4/b0zhmbg+4z2TxlwV/nqHI5hJ6iaA3gDnkToN0=",
+        "originContent": "- [ ] 6.3 No paragraph exceeds 10 lines.",
+        "translatedContent": "- [ ] 加分项：所有图表均为**无损格式**（如矢量图的PDF）。绝不允许低分辨率图片。"
+      },
+      {
+        "row": 83,
+        "rowsha": "XFqwt5HHaZuzN78NwdG9YTss0Uj2NFDVSQA89g8hGg4=",
+        "originContent": "- [ ] 6.4 Passive voice usage < 30% of the total number of sentences.",
+        "translatedContent": ""
+      },
+      {
+        "row": 84,
+        "rowsha": "BhRuP8XnCRdVVIp+/p2b8uKNrLhvDwwQ/IYLmZL4IQk=",
+        "originContent": "- [ ] 6.5 Bonus: Have you noticed that your paper are full of the fancy LLM words, like encompass, intricate, etc?",
+        "translatedContent": ""
+      },
+      {
+        "row": 85,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 86,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 87,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 88,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 89,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 90,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 91,
+        "rowsha": "G5mwiuepEfKoomVRRdje/PYwzIkJhcS1N8ZFNium8z0=",
+        "originContent": "## 7. 🖼️ Figures and Tables",
+        "translatedContent": ""
+      },
+      {
+        "row": 92,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 93,
+        "rowsha": "VwLYJps9WK+tfUavX55bOVPEkhAPrbZBQdE1ziLAzmw=",
+        "originContent": "- [ ] 7.1 Each figure/table has a caption ≥ 2 lines that includes interpretation or context. Do not just place it without explanation—reviewers will get lost.",
+        "translatedContent": ""
+      },
+      {
+        "row": 94,
+        "rowsha": "k1YX0zKc8PSL8+GvzlZHLRt5MP2SZjoy0JxCXlqQcus=",
+        "originContent": "- [ ] 7.2 Font size in all figures is ≥ 8pt and all labels are fully visible (not cropped).",
+        "translatedContent": ""
+      },
+      {
+        "row": 95,
+        "rowsha": "84RJ9ZUsMLuC5ZbGfIv0MIqEhsQGeuNk/quKWYMMA2E=",
+        "originContent": "- [ ] 7.3 Plots use colors that remain distinguishable when printed in grayscale—some reviewers will print your paper.",
+        "translatedContent": ""
+      },
+      {
+        "row": 96,
+        "rowsha": "U0NwkFOmKEhUIJmRtyf1oJ09Rq8dBjJMbKBpVbg327I=",
+        "originContent": "- [ ] 7.4 Each method mentioned in the results appears in either the legend or table column headers.",
+        "translatedContent": ""
+      },
+      {
+        "row": 97,
+        "rowsha": "Rk14aViIEp7C7jza1HTpM1JwKiCQoye6Jaf4SnEZ2Ug=",
+        "originContent": "- [ ] 7.5 Figures appear at the top of pages rather than mid-text or at the bottom (soft rule, but improves readability).",
+        "translatedContent": ""
+      },
+      {
+        "row": 98,
+        "rowsha": "qIlfJdWlIWtSPyWM6fGb0V+muRdt3Gc2vhw3/l0xRag=",
+        "originContent": "- [ ] 7.6 Figures and tables are not redundant—each provides new or complementary information.",
+        "translatedContent": ""
+      },
+      {
+        "row": 99,
+        "rowsha": "KTmsXWAohwHgDV8/gH69/OMUPvt31ws7lV9aHz8vECE=",
+        "originContent": "- [ ] Bonus: All figures are in **lossless formats** (e.g., PDF for vector graphics). Absolutely no low-resolution images allowed.",
+        "translatedContent": ""
+      },
+      {
+        "row": 100,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n\n\n\n---\n\n## 8. 🧱 Structure and Formatting\n\n- [ ] 8.1 All LaTeX warnings and bad boxes have been resolved.\n- [ ] 8.2 Section headers follow the standard paper structure (e.g., Introduction, Method, Experiments, etc.).\n- [ ] 8.3 All appendix sections are explicitly referenced in the main text (e.g., “Appendix B.2 shows…”).\n- [ ] 8.4 No **orphan lines** anywhere in the paper—avoid single-line section headers or short lines at the top/bottom of columns.\n- [ ] 8.5 No two figures or tables are placed consecutively without explanatory text between them.\n\n\n\n\n---\n\n## 9. 📎 References\n\n- [ ] 9.1 All references are in the correct format for the target venue.\n- [ ] 9.2 All datasets, toolkits, and models used are cited.\n- [ ] 9.3 At least one paper from the target venue (conference/journal) is cited.\n- [ ] 9.4 Self-citations ≤ 20% of total citations.\n- [ ] 9.5 BibTeX file has been deduplicated and spell-checked.\n\n\n\n\n---\n\n## 10. 🛑 Citation Sanity Check (LLM-Generated Risk)\n\n- [ ] 10.1 All citations were **manually verified to exist**—title, authors, venue, and year match a real, published paper.\n- [ ] 10.2 No hallucinated references from LLM tools are included.\n- [ ] 10.3 If a citation was generated by ChatGPT, Copilot, or similar, it has been cross-checked on **Google Scholar**, **Semantic Scholar**, or publisher sites.\n\n\n\n\n---\n\n## 11. 🧠 Sanity Checks Before Submission\n\n- [ ] 11.1 PDF compiles in Overleaf/TeX with no errors or bad boxes.\n- [ ] 11.2 File name follows the submission guideline format (e.g., no underscores or author names if anonymized).\n- [ ] 11.3 No author-identifying information exists in metadata, supplementary files, or file names. Check your code repository and images too.\n- [ ] 11.4 The paper length complies with the page limit, including references and appendices (if counted).\n- [ ] 11.5 The paper has been read start-to-finish by someone not on the author list, without them needing to stop for clarification.\n- [ ] 11.6 All co-authors are listed and properly acknowledged—this is surprisingly often overlooked.\n- [ ] 11.7 Bonus: After submission, log in from a different device and OS (e.g., Mac, Windows) to verify that the uploaded version renders correctly.\n\n\n---\n\n_This checklist is part of the [`cs-paper-checklist`](https://github.com/yzhao062/cs-paper-checklist) project. Contributions welcome via PR._\n\n---\n",
+    "ContentSha": "qO5hIBHCbU0acoTmManLbTvkOFqpqjbIB4AvMsbd8+I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "---\n\n## 8. 🧱 结构与格式\n\n- [ ] 8.1 所有 LaTeX 警告和错误框均已解决。\n- [ ] 8.2 章节标题遵循标准论文结构（例如，引言、方法、实验等）。\n- [ ] 8.3 所有附录章节在正文中均有明确引用（例如，“附录 B.2 显示……”）。\n- [ ] 8.4 论文中无**孤行**——避免单行章节标题或短行出现在栏的顶部/底部。\n- [ ] 8.5 不允许连续放置两个图表，中间必须有解释性文字。\n\n\n\n\n---\n\n## 9. 📎 参考文献\n\n- [ ] 9.1 所有参考文献均符合目标刊物的格式要求。\n- [ ] 9.2 所使用的所有数据集、工具包和模型均已被引用。\n- [ ] 9.3 至少引用了一篇目标刊物（会议/期刊）的论文。\n- [ ] 9.4 自引比例 ≤ 20%。\n- [ ] 9.5 BibTeX 文件已去重并检查拼写。\n\n\n\n\n---\n\n## 10. 🛑 引用合理性检查（大型语言模型生成风险）\n\n- [ ] 10.1 所有引用均已**人工核实存在**——标题、作者、刊物和年份与真实发表论文匹配。\n- [ ] 10.2 不包含来自大型语言模型工具的虚构引用。\n- [ ] 10.3 若引用由 ChatGPT、Copilot 等生成，已在**Google Scholar**、**Semantic Scholar**或出版商网站交叉核对。\n\n\n\n\n---\n\n## 11. 🧠 提交前的合理性检查\n\n- [ ] 11.1 PDF 在 Overleaf/TeX 中编译无错误或错误框。\n- [ ] 11.2 文件名符合提交指南格式（例如，匿名时无下划线或作者名）。\n- [ ] 11.3 元数据、补充文件或文件名中无作者身份信息。检查代码仓库和图片。\n- [ ] 11.4 论文长度符合页数限制，包括参考文献和附录（如计入）。\n- [ ] 11.5 论文已由非作者名单中的人通读，无需停顿求解。\n- [ ] 11.6 所有合著者均已列出并适当致谢——这点常被忽视。\n- [ ] 11.7 额外提示：提交后，从不同设备和操作系统（如 Mac、Windows）登录，验证上传版本渲染正确。\n\n\n---\n\n_此清单为 [`cs-paper-checklist`](https://github.com/yzhao062/cs-paper-checklist) 项目的一部分。欢迎通过 PR 贡献。_\n\n---\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 8. 🧱 结构与格式"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "- [ ] 8.1 所有 LaTeX 警告和错误框均已解决。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [ ] 8.2 章节标题遵循标准论文结构（例如，引言、方法、实验等）。"
+      },
+      {
+        "row": 7,
+        "rowsha": "wR3F3vy+uNZMiuHm2GBOefM6rhgQ39CZeEK/5fJndkk=",
+        "originContent": "## 8. 🧱 Structure and Formatting",
+        "translatedContent": "- [ ] 8.3 所有附录章节在正文中均有明确引用（例如，“附录 B.2 显示……”）。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [ ] 8.4 论文中无**孤行**——避免单行章节标题或短行出现在栏的顶部/底部。"
+      },
+      {
+        "row": 9,
+        "rowsha": "+3RFPms/uxcEbwzunzdXCDGvTLcm+kXurQNRNyCIaqE=",
+        "originContent": "- [ ] 8.1 All LaTeX warnings and bad boxes have been resolved.",
+        "translatedContent": "- [ ] 8.5 不允许连续放置两个图表，中间必须有解释性文字。"
+      },
+      {
+        "row": 10,
+        "rowsha": "80WhqUu7qAmVtzot5k4vWWZe1jT5GOcs1P7vk2jT2mA=",
+        "originContent": "- [ ] 8.2 Section headers follow the standard paper structure (e.g., Introduction, Method, Experiments, etc.).",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "KCsS9U8emaTZhtBW/71WRuJcdeiq8BeSf28F3QxAIAs=",
+        "originContent": "- [ ] 8.3 All appendix sections are explicitly referenced in the main text (e.g., “Appendix B.2 shows…”).",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "aIXF1GS8noiJ08fnI9cnZduKHUsBFrpNztkni3UbFOg=",
+        "originContent": "- [ ] 8.4 No **orphan lines** anywhere in the paper—avoid single-line section headers or short lines at the top/bottom of columns.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "+E9lyZJ5KvBtlNWw3GcyHGu63Pig8HmiTlDPgs0m9EQ=",
+        "originContent": "- [ ] 8.5 No two figures or tables are placed consecutively without explanatory text between them.",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 9. 📎 参考文献"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "- [ ] 9.1 所有参考文献均符合目标刊物的格式要求。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [ ] 9.2 所使用的所有数据集、工具包和模型均已被引用。"
+      },
+      {
+        "row": 20,
+        "rowsha": "jKytTL+1KcBEbSTAH3RSGDJPNwSudflL538FZxSTFTs=",
+        "originContent": "## 9. 📎 References",
+        "translatedContent": "- [ ] 9.3 至少引用了一篇目标刊物（会议/期刊）的论文。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [ ] 9.4 自引比例 ≤ 20%。"
+      },
+      {
+        "row": 22,
+        "rowsha": "A6S6sb4Ix9ViXw6ktDXb/R3LZwXUiKWKFZR5pyx1obc=",
+        "originContent": "- [ ] 9.1 All references are in the correct format for the target venue.",
+        "translatedContent": "- [ ] 9.5 BibTeX 文件已去重并检查拼写。"
+      },
+      {
+        "row": 23,
+        "rowsha": "ivZNGhdRLxEeJmQOxabx43dH3WCUjvOdYGGRXxNsBnU=",
+        "originContent": "- [ ] 9.2 All datasets, toolkits, and models used are cited.",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "lQODPzZ5fxT+s5nZThOUK+BcQmMCG49TkbpuNlWwnMI=",
+        "originContent": "- [ ] 9.3 At least one paper from the target venue (conference/journal) is cited.",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "oVYvOHk1oO3dFRmZfJUD9vsHN2KDNX5WR2XJ1j29tfM=",
+        "originContent": "- [ ] 9.4 Self-citations ≤ 20% of total citations.",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "A0t8wbPa+pbtb10fKDD3ypdYTuQU8Q0axWjXCAznFyg=",
+        "originContent": "- [ ] 9.5 BibTeX file has been deduplicated and spell-checked.",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 10. 🛑 引用合理性检查（大型语言模型生成风险）"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "- [ ] 10.1 所有引用均已**人工核实存在**——标题、作者、刊物和年份与真实发表论文匹配。"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [ ] 10.2 不包含来自大型语言模型工具的虚构引用。"
+      },
+      {
+        "row": 33,
+        "rowsha": "NikTEpsS6oS3tLNmJvNBJTiE++nfsyLt5gSJyeT1G7I=",
+        "originContent": "## 10. 🛑 Citation Sanity Check (LLM-Generated Risk)",
+        "translatedContent": "- [ ] 10.3 若引用由 ChatGPT、Copilot 等生成，已在**Google Scholar**、**Semantic Scholar**或出版商网站交叉核对。"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "vuh+bfkLpHpsmauTKHK6PbcUXyblad3hlqB7Ewfzg90=",
+        "originContent": "- [ ] 10.1 All citations were **manually verified to exist**—title, authors, venue, and year match a real, published paper.",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "H4nhRyNElh2YU9KKcWdb8lfzjFl7XIizRFpvdQ3MRns=",
+        "originContent": "- [ ] 10.2 No hallucinated references from LLM tools are included.",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "BmXUf6c+x41PwVzQmWXe11n6O47eRWZr+gR6sRSRW/8=",
+        "originContent": "- [ ] 10.3 If a citation was generated by ChatGPT, Copilot, or similar, it has been cross-checked on **Google Scholar**, **Semantic Scholar**, or publisher sites.",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 11. 🧠 提交前的合理性检查"
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "- [ ] 11.1 PDF 在 Overleaf/TeX 中编译无错误或错误框。"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [ ] 11.2 文件名符合提交指南格式（例如，匿名时无下划线或作者名）。"
+      },
+      {
+        "row": 44,
+        "rowsha": "mXnqEucOUU4IvwneXbGAedrRyAqXJ6uEzfqnzO2N1kU=",
+        "originContent": "## 11. 🧠 Sanity Checks Before Submission",
+        "translatedContent": "- [ ] 11.3 元数据、补充文件或文件名中无作者身份信息。检查代码仓库和图片。"
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [ ] 11.4 论文长度符合页数限制，包括参考文献和附录（如计入）。"
+      },
+      {
+        "row": 46,
+        "rowsha": "/9MtiEezVeln1vNdknh/bxnP+GxdHEBGszCMJ+elEs4=",
+        "originContent": "- [ ] 11.1 PDF compiles in Overleaf/TeX with no errors or bad boxes.",
+        "translatedContent": "- [ ] 11.5 论文已由非作者名单中的人通读，无需停顿求解。"
+      },
+      {
+        "row": 47,
+        "rowsha": "8U96fTbvAYo15LHMlj3iknFV7kKV0mh/gZaCEUoB3Sk=",
+        "originContent": "- [ ] 11.2 File name follows the submission guideline format (e.g., no underscores or author names if anonymized).",
+        "translatedContent": "- [ ] 11.6 所有合著者均已列出并适当致谢——这点常被忽视。"
+      },
+      {
+        "row": 48,
+        "rowsha": "aBU/mtSoZFlJtUbRBMjfu/r09GZ4BA8NIiT1mKZoCpg=",
+        "originContent": "- [ ] 11.3 No author-identifying information exists in metadata, supplementary files, or file names. Check your code repository and images too.",
+        "translatedContent": "- [ ] 11.7 额外提示：提交后，从不同设备和操作系统（如 Mac、Windows）登录，验证上传版本渲染正确。"
+      },
+      {
+        "row": 49,
+        "rowsha": "Vhpu5Ap58iHV5eF8B/VbCBbt/NkGO56NiLS7JazOMtA=",
+        "originContent": "- [ ] 11.4 The paper length complies with the page limit, including references and appendices (if counted).",
+        "translatedContent": ""
+      },
+      {
+        "row": 50,
+        "rowsha": "GDrwSU5Oasep3TZyJtDmQEm0npE3BrbyTqVIn4LEKeQ=",
+        "originContent": "- [ ] 11.5 The paper has been read start-to-finish by someone not on the author list, without them needing to stop for clarification.",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "2qnsjGf6aG8h1S53ovnS+31NU0ZACjB/eSTTWO4zW/A=",
+        "originContent": "- [ ] 11.6 All co-authors are listed and properly acknowledged—this is surprisingly often overlooked.",
+        "translatedContent": "---"
+      },
+      {
+        "row": 52,
+        "rowsha": "rAQeyFCWHmK5dUP3AsGEJSQq2b7CTtgymxQtAYastPk=",
+        "originContent": "- [ ] 11.7 Bonus: After submission, log in from a different device and OS (e.g., Mac, Windows) to verify that the uploaded version renders correctly.",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "_此清单为 [`cs-paper-checklist`](https://github.com/yzhao062/cs-paper-checklist) 项目的一部分。欢迎通过 PR 贡献。_"
+      },
+      {
+        "row": 54,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 55,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 56,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 57,
+        "rowsha": "TRwfpPgmkpzR83i1eaIUmBCG8X+XsJy9k0vY6PDEaUM=",
+        "originContent": "_This checklist is part of the [`cs-paper-checklist`](https://github.com/yzhao062/cs-paper-checklist) project. Contributions welcome via PR._",
+        "translatedContent": ""
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 59,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 60,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

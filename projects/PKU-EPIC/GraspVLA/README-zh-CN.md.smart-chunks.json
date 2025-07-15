@@ -1,0 +1,147 @@
+[
+  {
+    "Id": 1,
+    "Content": "# GraspVLA: a Grasping Foundation Model Pre-trained on Billion-scale Synthetic Action Data\n[![arXiv](https://img.shields.io/badge/arXiv-2505.03233-df2a2a.svg)](https://arxiv.org/pdf/2505.03233)\n[![Static Badge](https://img.shields.io/badge/Project-Page-a)](https://pku-epic.github.io/GraspVLA-web/)\n\n<!-- [Shengliang Deng](https://shengliangd.github.io/about/), [Mi Yan](https://miyandoris.github.io/), [Songlin Wei](https://songlin.github.io/), Haixin Ma, Yuxin Yang, [Jiayi Chen](https://jychen18.github.io/), Zhiqi Zhang, Taoyu Yang, Xuheng Zhang, [Heming Cui](https://i.cs.hku.hk/~heming/), [Zhizheng Zhang](https://scholar.google.com/citations?user=X7M0I8kAAAAJ&hl=en), [He Wang](https://hughw19.github.io/) -->\n\nWe present a cost-effective pretraining paradigm for VLA models using only synthetic data, achieving direct sim-to-real transfer and strong zero-shot generalizability for robotic grasping. Key contributions include:\n\n- **SynGrasp-1B**: a billion-frame synthetic grasping dataset, spanning 240 object categories and 10,000+ objects.\n\n- **GraspVLA**: a VLA model pretrained on SynGrasp-1B that achieves zero-shot generalization to real-world grasping without fine-tuning.\n\n- **Unified CoT Framework**: GraspVLA integrates autoregressive perception and flow-matching-based action generation into a single reasoning process, enabling joint training on synthetic action data and internet-scale semantic data for open-vocabulary grasping.\n\n![teaser](https://raw.githubusercontent.com/PKU-EPIC/GraspVLA/main/./figs/teaser.jpg)\n\nTODO List:\n- [ ] Release the supplementary material\n- [ ] Release model weights\n- [ ] Release SynGrasp-1B dataset\n\n[![License](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](LICENSE)",
+    "ContentSha": "+P8RMNSPNWTnFt1LJSY2ySWbpMJfL5UIah0k3YliuzA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# GraspVLA：一个基于十亿规模合成动作数据预训练的抓取基础模型\n[![arXiv](https://img.shields.io/badge/arXiv-2505.03233-df2a2a.svg)](https://arxiv.org/pdf/2505.03233)\n[![Static Badge](https://img.shields.io/badge/Project-Page-a)](https://pku-epic.github.io/GraspVLA-web/)\n\n<!-- [邓胜良](https://shengliangd.github.io/about/), [闫密](https://miyandoris.github.io/), [魏松林](https://songlin.github.io/), 马海鑫, 杨宇鑫, [陈佳怡](https://jychen18.github.io/), 张志奇, 杨涛宇, 张旭恒, [崔鹤鸣](https://i.cs.hku.hk/~heming/), [张志正](https://scholar.google.com/citations?user=X7M0I8kAAAAJ&hl=en), [王鹤](https://hughw19.github.io/) -->\n\n我们提出了一种仅使用合成数据的成本效益高的VLA模型预训练范式，实现了直接的仿真到现实迁移和机器人抓取的强零样本泛化能力。主要贡献包括：\n\n- **SynGrasp-1B**：一个十亿帧的合成抓取数据集，涵盖240个物体类别和超过10,000个物体。\n\n- **GraspVLA**：基于SynGrasp-1B预训练的VLA模型，实现了无需微调即可对现实抓取任务的零样本泛化。\n\n- **统一的CoT框架**：GraspVLA将自回归感知和基于流匹配的动作生成整合到单一推理流程中，实现对合成动作数据和互联网规模语义数据的联合训练，支持开放词汇抓取。\n\n![teaser](https://raw.githubusercontent.com/PKU-EPIC/GraspVLA/main/./figs/teaser.jpg)\n\n待办事项：\n- [ ] 发布补充材料\n- [ ] 发布模型权重\n- [ ] 发布SynGrasp-1B数据集\n\n[![License](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](LICENSE)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "P2qYbvTYlOMcUIHHajG/ywqP7sc2pfoswunCw0cOgDk=",
+        "originContent": "# GraspVLA: a Grasping Foundation Model Pre-trained on Billion-scale Synthetic Action Data",
+        "translatedContent": "# GraspVLA：一个基于十亿规模合成动作数据预训练的抓取基础模型"
+      },
+      {
+        "row": 2,
+        "rowsha": "h8eG3N7VZU4WXpl+3X9UWoszREusoGUz+m3dflWVQnc=",
+        "originContent": "[![arXiv](https://img.shields.io/badge/arXiv-2505.03233-df2a2a.svg)](https://arxiv.org/pdf/2505.03233)",
+        "translatedContent": "[![arXiv](https://img.shields.io/badge/arXiv-2505.03233-df2a2a.svg)](https://arxiv.org/pdf/2505.03233)"
+      },
+      {
+        "row": 3,
+        "rowsha": "GcD/1abS+gFx3rpaS5Hufm7AB1D/FPKw5UX40hdDPnE=",
+        "originContent": "[![Static Badge](https://img.shields.io/badge/Project-Page-a)](https://pku-epic.github.io/GraspVLA-web/)",
+        "translatedContent": "[![Static Badge](https://img.shields.io/badge/Project-Page-a)](https://pku-epic.github.io/GraspVLA-web/)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "hfznSf6Ww2BjLioZmtV5J0z8no62zOq+aBPVnNHVwTU=",
+        "originContent": "<!-- [Shengliang Deng](https://shengliangd.github.io/about/), [Mi Yan](https://miyandoris.github.io/), [Songlin Wei](https://songlin.github.io/), Haixin Ma, Yuxin Yang, [Jiayi Chen](https://jychen18.github.io/), Zhiqi Zhang, Taoyu Yang, Xuheng Zhang, [Heming Cui](https://i.cs.hku.hk/~heming/), [Zhizheng Zhang](https://scholar.google.com/citations?user=X7M0I8kAAAAJ&hl=en), [He Wang](https://hughw19.github.io/) -->",
+        "translatedContent": "<!-- [邓胜良](https://shengliangd.github.io/about/), [闫密](https://miyandoris.github.io/), [魏松林](https://songlin.github.io/), 马海鑫, 杨宇鑫, [陈佳怡](https://jychen18.github.io/), 张志奇, 杨涛宇, 张旭恒, [崔鹤鸣](https://i.cs.hku.hk/~heming/), [张志正](https://scholar.google.com/citations?user=X7M0I8kAAAAJ&hl=en), [王鹤](https://hughw19.github.io/) -->"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "ClMqPTgEteI2M7nVgTu2B1FbmfK1UpbTC9BmdKYR6ck=",
+        "originContent": "We present a cost-effective pretraining paradigm for VLA models using only synthetic data, achieving direct sim-to-real transfer and strong zero-shot generalizability for robotic grasping. Key contributions include:",
+        "translatedContent": "我们提出了一种仅使用合成数据的成本效益高的VLA模型预训练范式，实现了直接的仿真到现实迁移和机器人抓取的强零样本泛化能力。主要贡献包括："
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "NcdmBdxAC9KQsH/26cH7JJARoV/2Y3LsN8F4EDxzigo=",
+        "originContent": "- **SynGrasp-1B**: a billion-frame synthetic grasping dataset, spanning 240 object categories and 10,000+ objects.",
+        "translatedContent": "- **SynGrasp-1B**：一个十亿帧的合成抓取数据集，涵盖240个物体类别和超过10,000个物体。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "9KrSo4Gh6Jys4IV5chHJ1c6wFWnk16seAS1el8D1aZQ=",
+        "originContent": "- **GraspVLA**: a VLA model pretrained on SynGrasp-1B that achieves zero-shot generalization to real-world grasping without fine-tuning.",
+        "translatedContent": "- **GraspVLA**：基于SynGrasp-1B预训练的VLA模型，实现了无需微调即可对现实抓取任务的零样本泛化。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "w9khj90UNtKTZeUYe6C1qHRBPQK1kjUuREyzuZDZq2o=",
+        "originContent": "- **Unified CoT Framework**: GraspVLA integrates autoregressive perception and flow-matching-based action generation into a single reasoning process, enabling joint training on synthetic action data and internet-scale semantic data for open-vocabulary grasping.",
+        "translatedContent": "- **统一的CoT框架**：GraspVLA将自回归感知和基于流匹配的动作生成整合到单一推理流程中，实现对合成动作数据和互联网规模语义数据的联合训练，支持开放词汇抓取。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "PSlyJ1uERmjdSspZQM/psov1Ox9kzll/4gzOCDWSlWw=",
+        "originContent": "![teaser](https://raw.githubusercontent.com/PKU-EPIC/GraspVLA/main/./figs/teaser.jpg)",
+        "translatedContent": "![teaser](https://raw.githubusercontent.com/PKU-EPIC/GraspVLA/main/./figs/teaser.jpg)"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "N8D+AZ+ph8V6ZHtw9iQvghn7dtVTmVJtqRrrGnKN3ZQ=",
+        "originContent": "TODO List:",
+        "translatedContent": "待办事项："
+      },
+      {
+        "row": 18,
+        "rowsha": "2wWHDqA1PfFoe/2tY1XOTJSk8dKe2cvJx5o6PFwklbo=",
+        "originContent": "- [ ] Release the supplementary material",
+        "translatedContent": "- [ ] 发布补充材料"
+      },
+      {
+        "row": 19,
+        "rowsha": "rdp/AQ0Xk1WtzytMctvXuuiIheBD6BmZYTuEuf878Nc=",
+        "originContent": "- [ ] Release model weights",
+        "translatedContent": "- [ ] 发布模型权重"
+      },
+      {
+        "row": 20,
+        "rowsha": "9W+5jQrgevd3flHYenpyQgSMgMMZSFItwYPK70kM0gI=",
+        "originContent": "- [ ] Release SynGrasp-1B dataset",
+        "translatedContent": "- [ ] 发布SynGrasp-1B数据集"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "0UDozCHddBF6FlFGK68EMjiHStyWkEXXyWYWPOXXA8A=",
+        "originContent": "[![License](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](LICENSE)",
+        "translatedContent": "[![License](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](LICENSE)"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

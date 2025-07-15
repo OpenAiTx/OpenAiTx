@@ -1,0 +1,962 @@
+[
+  {
+    "row": 1,
+    "rowsha": "ttAfvvc/erI7kkH8dRzf4Ap5ojpHq6LfAtdJHGU3DmQ=",
+    "originContent": "_This checklist is a practical, opinionated guide for sanity-checking the writing quality, structure, and presentation of CS papers—especially for conference (and journal) submissions. While some items are subjective, the goal is to provide concrete reminders and highlight common pitfalls. It is a living document and will continue to be updated based on feedback._",
+    "translatedContent": "_This checklist is a practical, opinionated guide for sanity-checking the writing quality, structure, and presentation of CS papers—especially for conference (and journal) submissions. While some items are subjective, the goal is to provide concrete reminders and highlight common pitfalls. It is a living document and will continue to be updated based on feedback._"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "pmrZvvQZPM1zTkMXz/nutQIramawl0Cr4CaL/49ZIpE=",
+    "originContent": "## 1. 🎯 Title and Abstract",
+    "translatedContent": "## 1. 🎯 Title and Abstract"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "E8rOH/4hJohreil9w8k0IWEwu/wh7BqTzUEUfEHyt1o=",
+    "originContent": "- [ ] 1.1 Title is ≤ 15 words. Check for generic phrasing (e.g., “A Novel Framework...,” which conveys little information) and overly narrow focus (which may reduce the paper’s audience)—aim for concise but informative.",
+    "translatedContent": "- [ ] 1.1 Title is ≤ 15 words. Check for generic phrasing (e.g., “A Novel Framework...,” which conveys little information) and overly narrow focus (which may reduce the paper’s audience)—aim for concise but informative."
+  },
+  {
+    "row": 8,
+    "rowsha": "vpKva8E4KTMfespeoZzR9EdCDouZSc9V6G6a1Ju3TcA=",
+    "originContent": "- [ ] 1.2 Title clearly reflects both the **problem** and the **solution**, and includes at least one technical keyword (e.g., jailbreak, OOD detection, graph learning).",
+    "translatedContent": "- [ ] 1.2 Title clearly reflects both the **problem** and the **solution**, and includes at least one technical keyword (e.g., jailbreak, OOD detection, graph learning)."
+  },
+  {
+    "row": 9,
+    "rowsha": "MQnVPNwL/Czs7baxUlLqh3AXNVDc+sr5tn2uTpq3AGA=",
+    "originContent": "- [ ] 1.3 Title avoids rare or ambiguous abbreviations. Terms like LLM, AI, and ML are acceptable in CS venues, but avoid abbreviations like AD (which could refer to advertisement or anomaly detection).",
+    "translatedContent": "- [ ] 1.3 Title avoids rare or ambiguous abbreviations. Terms like LLM, AI, and ML are acceptable in CS venues, but avoid abbreviations like AD (which could refer to advertisement or anomaly detection)."
+  },
+  {
+    "row": 10,
+    "rowsha": "eKrDwAF6GcqOLyi9Spr4gHUU+8kU7owTCHEWt8yjDNg=",
+    "originContent": "- [ ] 1.4 Abstract includes at least four key components: (1) problem/task definition, (2) proposed method or idea, (3) main results, and (4) broader impact or significance (some may be combined).",
+    "translatedContent": "- [ ] 1.4 Abstract includes at least four key components: (1) problem/task definition, (2) proposed method or idea, (3) main results, and (4) broader impact or significance (some may be combined)."
+  },
+  {
+    "row": 11,
+    "rowsha": "Xuk7kCsKOs1iDPbTDowEfxDTD995neNQyfJpgwHKOhs=",
+    "originContent": "- [ ] 1.5 Abstract avoids undefined abbreviations and vague descriptors (e.g., “important,” “novel,” “state-of-the-art” without context).",
+    "translatedContent": "- [ ] 1.5 Abstract avoids undefined abbreviations and vague descriptors (e.g., “important,” “novel,” “state-of-the-art” without context)."
+  },
+  {
+    "row": 12,
+    "rowsha": "J+rFWUnwq8rPK45rVLxmGGG+PqA489CqC9MOXttE6jk=",
+    "originContent": "- [ ] 1.6 Bonus: Abstract includes at least one concrete, quantitative result or insight to make the work stand out. For instance, “our method achieves 11.2× acceleration in test-time inference for jailbreak detection.”",
+    "translatedContent": "- [ ] 1.6 Bonus: Abstract includes at least one concrete, quantitative result or insight to make the work stand out. For instance, “our method achieves 11.2× acceleration in test-time inference for jailbreak detection.”"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "Cno73IBYEQwBiV53VESAet8l49n3/2TFOWugH5YDm2E=",
+    "originContent": "## 2. 📚 Introduction",
+    "translatedContent": "## 2. 📚 Introduction"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "0Qhx2es18RLuFe6GABFOQ0jCYnPOAsmhUhoVh6ac+98=",
+    "originContent": "- [ ] 2.1 The main problem or task is clearly defined within the first two paragraphs.",
+    "translatedContent": "- [ ] 2.1 The main problem or task is clearly defined within the first two paragraphs."
+  },
+  {
+    "row": 20,
+    "rowsha": "YE1tfA1SpeUaDprFCDzOvL0Og03XengoVecU7VFnRl4=",
+    "originContent": "- [ ] 2.2 Motivation includes either (a) real-world use cases or (b) citations to prior work—ideally both.",
+    "translatedContent": "- [ ] 2.2 Motivation includes either (a) real-world use cases or (b) citations to prior work—ideally both."
+  },
+  {
+    "row": 21,
+    "rowsha": "e3j1+jpBpU60X8RkRNEwi1TyFcgD1HZrmhsNGDF39dE=",
+    "originContent": "- [ ] 2.3 The introduction ends with a brief overview of the proposed method and its name.",
+    "translatedContent": "- [ ] 2.3 The introduction ends with a brief overview of the proposed method and its name."
+  },
+  {
+    "row": 22,
+    "rowsha": "X6WJYptMuYYPF1OxInBHQ/UOGD6f04/OwUepWFfIhRE=",
+    "originContent": "- [ ] 2.4 Contributions are explicitly itemized (e.g., “(1) first framework for ..., (2) new dataset for ..., (3) extensive evaluation on ...”).",
+    "translatedContent": "- [ ] 2.4 Contributions are explicitly itemized (e.g., “(1) first framework for ..., (2) new dataset for ..., (3) extensive evaluation on ...”)."
+  },
+  {
+    "row": 23,
+    "rowsha": "nLHVz412vzVjUyWaEnUX23HnmT0TNAAz7/ZsXw1gkRw=",
+    "originContent": "- [ ] 2.5 Each contribution is specific and verifiable—avoid vague claims such as “we provide insights” or “we improve understanding.”",
+    "translatedContent": "- [ ] 2.5 Each contribution is specific and verifiable—avoid vague claims such as “we provide insights” or “we improve understanding.”"
+  },
+  {
+    "row": 24,
+    "rowsha": "IHK4mJanRu2g7tWTT75vZTe727ZveMmuRASu3EIFdi8=",
+    "originContent": "- [ ] 2.6 Bonus: Include a compelling figure on the first page—e.g., comparison to prior work, performance highlight, or visual explanation of the core idea.",
+    "translatedContent": "- [ ] 2.6 Bonus: Include a compelling figure on the first page—e.g., comparison to prior work, performance highlight, or visual explanation of the core idea."
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "8Ww4OaSgGbGhH0kXAUWJrtSrPeflsDlvIJol5lLOpd0=",
+    "originContent": "## 3. 🔍 Related Work",
+    "translatedContent": "## 3. 🔍 Related Work"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "CeYbs8TwqRaWO6fa6xu6TvehP8JNUkkAlVs/lgDYrao=",
+    "originContent": "- [ ] 3.1 All cited works are connected to your method, baseline, or task.",
+    "translatedContent": "- [ ] 3.1 All cited works are connected to your method, baseline, or task."
+  },
+  {
+    "row": 34,
+    "rowsha": "YrQ8gNhTABA8Ikz2eb/o7kc1USBcIUeTZiWLzVo3R1g=",
+    "originContent": "- [ ] 3.2 At least one baseline from the top-3 most cited recent papers on the topic is mentioned.",
+    "translatedContent": "- [ ] 3.2 At least one baseline from the top-3 most cited recent papers on the topic is mentioned."
+  },
+  {
+    "row": 35,
+    "rowsha": "jDriC1ees8QRNzwJ4ABSaxylCBT4fjQ9KxOdKfekdT8=",
+    "originContent": "- [ ] 3.3 Related work does not exceed 1.5 pages (unless survey-style paper).",
+    "translatedContent": "- [ ] 3.3 Related work does not exceed 1.5 pages (unless survey-style paper)."
+  },
+  {
+    "row": 36,
+    "rowsha": "ctlrEKBwhLmAQIYbSDsMotahQpFCPtzZuD6zxygs3aU=",
+    "originContent": "- [ ] 3.4 You may use LLMs for searching the related work, but double triple check each of the paper -- do not trust LLMs!!!!",
+    "translatedContent": "- [ ] 3.4 You may use LLMs for searching the related work, but double triple check each of the paper -- do not trust LLMs!!!!"
+  },
+  {
+    "row": 37,
+    "rowsha": "KLUIJLt5K80h5tSJSuULR+A05MlZYWNg9wgziu3V5Fo=",
+    "originContent": "- [ ] 3.5 Bonus: use related work section to introduce baseline algorithms -- show a table for your proposal better than the existing ones",
+    "translatedContent": "- [ ] 3.5 Bonus: use related work section to introduce baseline algorithms -- show a table for your proposal better than the existing ones"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "CSPVNjeIGHoCbsQp370fIA8mS0ozJElzmmfvx8rGEeo=",
+    "originContent": "## 4. 🧪 Method",
+    "translatedContent": "## 4. 🧪 Method"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "p4cUx/WMricqc8vAgfLuASQ3lpen44oD9KHfMvPASRY=",
+    "originContent": "- [ ] 4.1 All symbols are defined before use.",
+    "translatedContent": "- [ ] 4.1 All symbols are defined before use."
+  },
+  {
+    "row": 47,
+    "rowsha": "L+ksCpYH0A/z6Zl1kOpaWReNsQQSg6irG+e3V+T7i1Q=",
+    "originContent": "- [ ] 4.2 Each equation is referenced with inline explanation (e.g., “Eq. (3) defines the loss over…”). If an equation is never referenced, consider making it inline to save space.",
+    "translatedContent": "- [ ] 4.2 Each equation is referenced with inline explanation (e.g., “Eq. (3) defines the loss over…”). If an equation is never referenced, consider making it inline to save space."
+  },
+  {
+    "row": 48,
+    "rowsha": "SJTrg8Ftw8/ryKxssXWIaRdK1gMpVAI2c1Snp+rxCLM=",
+    "originContent": "- [ ] 4.3 All modules or components of the method are illustrated or described in text or figures.",
+    "translatedContent": "- [ ] 4.3 All modules or components of the method are illustrated or described in text or figures."
+  },
+  {
+    "row": 49,
+    "rowsha": "Rizy02L9rrkxxZ+ORap/MFjp6Z44BDW5y0n1ZADu31o=",
+    "originContent": "- [ ] 4.4 Each subsection ideally aligns with parts of the overview figure. Add a short summary paragraph before diving into subsections.",
+    "translatedContent": "- [ ] 4.4 Each subsection ideally aligns with parts of the overview figure. Add a short summary paragraph before diving into subsections."
+  },
+  {
+    "row": 50,
+    "rowsha": "rwDMd0rUXZ+AQ+ZuU3afrjJrS6/xYcQzf+M3+ibTx3k=",
+    "originContent": "- [ ] 4.5 You do not need both overview figure and pseudo code in the main text -- move the pseudo code to the appendix",
+    "translatedContent": "- [ ] 4.5 You do not need both overview figure and pseudo code in the main text -- move the pseudo code to the appendix"
+  },
+  {
+    "row": 51,
+    "rowsha": "NSd4IcVNsXMRuvbkktNw/y12iwD30tgsEQR/hBxDW1k=",
+    "originContent": "- [ ] 4.6 The method is reproducible without referring to the appendix or external code—reviewers should understand everything from the main text.",
+    "translatedContent": "- [ ] 4.6 The method is reproducible without referring to the appendix or external code—reviewers should understand everything from the main text."
+  },
+  {
+    "row": 52,
+    "rowsha": "OH2Kr0B3QMMs7QuURoWI0Nzmcd0ol3fgsruazJkFM3o=",
+    "originContent": "- [ ] 4.7 Bonus: Can anything be removed from this section without reducing clarity? Do not hesitate to cut: more math ≠ better paper.",
+    "translatedContent": "- [ ] 4.7 Bonus: Can anything be removed from this section without reducing clarity? Do not hesitate to cut: more math ≠ better paper."
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "K0mAX1DvDdujdMm1wa7ZfUv+nKJ+AVm0ht8ota/y/1k=",
+    "originContent": "## 5. 📊 Experiments",
+    "translatedContent": "## 5. 📊 Experiments"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "0Qz3ju0Czq1LkVNGnP14d8Ez4islVLtir2h8D5htUYw=",
+    "originContent": "- [ ] 5.1 At least 3 datasets are used (unless the paper introduces a new dataset).",
+    "translatedContent": "- [ ] 5.1 At least 3 datasets are used (unless the paper introduces a new dataset)."
+  },
+  {
+    "row": 62,
+    "rowsha": "ciI9n01H+B92dl/PTxHbCX4ohcxKK7lhS4oH3wiE3OI=",
+    "originContent": "- [ ] 5.2 At least 3 baseline methods are compared. Are they state-of-the-art? Justify why these baselines are chosen.",
+    "translatedContent": "- [ ] 5.2 At least 3 baseline methods are compared. Are they state-of-the-art? Justify why these baselines are chosen."
+  },
+  {
+    "row": 63,
+    "rowsha": "Ah0GILzUBYvYNAoDFGa/bAYu0bfHII8e+nuy8SYbnGY=",
+    "originContent": "- [ ] 5.3 At least 1 ablation study is included.",
+    "translatedContent": "- [ ] 5.3 At least 1 ablation study is included."
+  },
+  {
+    "row": 64,
+    "rowsha": "ZMMyulB0/+6YuqkV8bblYO/NyCmZTdPdp6/45MtEL5c=",
+    "originContent": "- [ ] 5.4 Standard deviation or confidence intervals are reported where appropriate.",
+    "translatedContent": "- [ ] 5.4 Standard deviation or confidence intervals are reported where appropriate."
+  },
+  {
+    "row": 65,
+    "rowsha": "Jqg5pEQBupZ41UR9YS4w+v6ufFyvD3r7WjrIf/hIMqs=",
+    "originContent": "- [ ] 5.5 Hardware environment, software libraries, and hyperparameter settings are described.",
+    "translatedContent": "- [ ] 5.5 Hardware environment, software libraries, and hyperparameter settings are described."
+  },
+  {
+    "row": 66,
+    "rowsha": "+e/OUpQed9cjHuzWn6R/aziYuyEtJsZLV8BScp1FIds=",
+    "originContent": "- [ ] 5.6 Negative results (if any) are explained, not omitted—failure cases are valuable.",
+    "translatedContent": "- [ ] 5.6 Negative results (if any) are explained, not omitted—failure cases are valuable."
+  },
+  {
+    "row": 67,
+    "rowsha": "e1SHws9gqjhUuLAlwaMn6U4Vq/q+RTdBZeYJVZmfyG0=",
+    "originContent": "- [ ] 5.7 Evaluation metrics are clearly defined and justified.",
+    "translatedContent": "- [ ] 5.7 Evaluation metrics are clearly defined and justified."
+  },
+  {
+    "row": 68,
+    "rowsha": "7HC9lC6JaFlQWplu8lT4yLGz0ttivN8wCjLwBaIA82w=",
+    "originContent": "- [ ] 5.8 All figures and tables are referenced in the main text.",
+    "translatedContent": "- [ ] 5.8 All figures and tables are referenced in the main text."
+  },
+  {
+    "row": 69,
+    "rowsha": "GmQlV8Mc68XPekqe9TR16Vts4aPOfdDjdD9FPUwQT0s=",
+    "originContent": "- [ ] 5.9 Beyond showing numbers and saying “we perform well,” at least one deeper insight or analysis is provided (e.g., why it works, where it fails).",
+    "translatedContent": "- [ ] 5.9 Beyond showing numbers and saying “we perform well,” at least one deeper insight or analysis is provided (e.g., why it works, where it fails)."
+  },
+  {
+    "row": 70,
+    "rowsha": "cvD47umLHknnszCWMM5GVn4vXofPYNsv5YVlH2voQzs=",
+    "originContent": "- [ ] 5.10 Bonus: Think about how easy others can reproduce your work? If you have any \"dirty tricks\" -- remove them pls.",
+    "translatedContent": "- [ ] 5.10 Bonus: Think about how easy others can reproduce your work? If you have any \"dirty tricks\" -- remove them pls."
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "k4Uu0Bs/xEK1QHhlx3j4x0HIqQz4po15SBpGUENRiNU=",
+    "originContent": "## 6. 🧾 Writing Quality and Style",
+    "translatedContent": "## 6. 🧾 Writing Quality and Style"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "EzEoH4f/5BnQCEgfJOjjSZcZT+7Syh7LOriZbxa3faE=",
+    "originContent": "- [ ] 6.1 All abbreviations are defined at first use (even ML, LLM, etc.) -- do not redefine them again and again.",
+    "translatedContent": "- [ ] 6.1 All abbreviations are defined at first use (even ML, LLM, etc.) -- do not redefine them again and again."
+  },
+  {
+    "row": 81,
+    "rowsha": "fhiASi8BuzmLtpe79t4QR61INfmQg0XKWfGQSsfT1rU=",
+    "originContent": "- [ ] 6.2 No sentence exceeds 25 words without a comma or period.",
+    "translatedContent": "- [ ] 6.2 No sentence exceeds 25 words without a comma or period."
+  },
+  {
+    "row": 82,
+    "rowsha": "YAXX4/b0zhmbg+4z2TxlwV/nqHI5hJ6iaA3gDnkToN0=",
+    "originContent": "- [ ] 6.3 No paragraph exceeds 10 lines.",
+    "translatedContent": "- [ ] 6.3 No paragraph exceeds 10 lines."
+  },
+  {
+    "row": 83,
+    "rowsha": "XFqwt5HHaZuzN78NwdG9YTss0Uj2NFDVSQA89g8hGg4=",
+    "originContent": "- [ ] 6.4 Passive voice usage < 30% of the total number of sentences.",
+    "translatedContent": "- [ ] 6.4 Passive voice usage < 30% of the total number of sentences."
+  },
+  {
+    "row": 84,
+    "rowsha": "BhRuP8XnCRdVVIp+/p2b8uKNrLhvDwwQ/IYLmZL4IQk=",
+    "originContent": "- [ ] 6.5 Bonus: Have you noticed that your paper are full of the fancy LLM words, like encompass, intricate, etc?",
+    "translatedContent": "- [ ] 6.5 Bonus: Have you noticed that your paper are full of the fancy LLM words, like encompass, intricate, etc?"
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "G5mwiuepEfKoomVRRdje/PYwzIkJhcS1N8ZFNium8z0=",
+    "originContent": "## 7. 🖼️ Figures and Tables",
+    "translatedContent": "## 7. 🖼️ Figures and Tables"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "VwLYJps9WK+tfUavX55bOVPEkhAPrbZBQdE1ziLAzmw=",
+    "originContent": "- [ ] 7.1 Each figure/table has a caption ≥ 2 lines that includes interpretation or context. Do not just place it without explanation—reviewers will get lost.",
+    "translatedContent": "- [ ] 7.1 Each figure/table has a caption ≥ 2 lines that includes interpretation or context. Do not just place it without explanation—reviewers will get lost."
+  },
+  {
+    "row": 94,
+    "rowsha": "k1YX0zKc8PSL8+GvzlZHLRt5MP2SZjoy0JxCXlqQcus=",
+    "originContent": "- [ ] 7.2 Font size in all figures is ≥ 8pt and all labels are fully visible (not cropped).",
+    "translatedContent": "- [ ] 7.2 Font size in all figures is ≥ 8pt and all labels are fully visible (not cropped)."
+  },
+  {
+    "row": 95,
+    "rowsha": "84RJ9ZUsMLuC5ZbGfIv0MIqEhsQGeuNk/quKWYMMA2E=",
+    "originContent": "- [ ] 7.3 Plots use colors that remain distinguishable when printed in grayscale—some reviewers will print your paper.",
+    "translatedContent": "- [ ] 7.3 Plots use colors that remain distinguishable when printed in grayscale—some reviewers will print your paper."
+  },
+  {
+    "row": 96,
+    "rowsha": "U0NwkFOmKEhUIJmRtyf1oJ09Rq8dBjJMbKBpVbg327I=",
+    "originContent": "- [ ] 7.4 Each method mentioned in the results appears in either the legend or table column headers.",
+    "translatedContent": "- [ ] 7.4 Each method mentioned in the results appears in either the legend or table column headers."
+  },
+  {
+    "row": 97,
+    "rowsha": "Rk14aViIEp7C7jza1HTpM1JwKiCQoye6Jaf4SnEZ2Ug=",
+    "originContent": "- [ ] 7.5 Figures appear at the top of pages rather than mid-text or at the bottom (soft rule, but improves readability).",
+    "translatedContent": "- [ ] 7.5 Figures appear at the top of pages rather than mid-text or at the bottom (soft rule, but improves readability)."
+  },
+  {
+    "row": 98,
+    "rowsha": "qIlfJdWlIWtSPyWM6fGb0V+muRdt3Gc2vhw3/l0xRag=",
+    "originContent": "- [ ] 7.6 Figures and tables are not redundant—each provides new or complementary information.",
+    "translatedContent": "- [ ] 7.6 Figures and tables are not redundant—each provides new or complementary information."
+  },
+  {
+    "row": 99,
+    "rowsha": "KTmsXWAohwHgDV8/gH69/OMUPvt31ws7lV9aHz8vECE=",
+    "originContent": "- [ ] Bonus: All figures are in **lossless formats** (e.g., PDF for vector graphics). Absolutely no low-resolution images allowed.",
+    "translatedContent": "- [ ] Bonus: All figures are in **lossless formats** (e.g., PDF for vector graphics). Absolutely no low-resolution images allowed."
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 8. 🧱 Structure and Formatting"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "- [ ] 8.1 All LaTeX warnings and bad boxes have been resolved."
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [ ] 8.2 Section headers follow the standard paper structure (e.g., Introduction, Method, Experiments, etc.)."
+  },
+  {
+    "row": 107,
+    "rowsha": "wR3F3vy+uNZMiuHm2GBOefM6rhgQ39CZeEK/5fJndkk=",
+    "originContent": "## 8. 🧱 Structure and Formatting",
+    "translatedContent": "- [ ] 8.3 All appendix sections are explicitly referenced in the main text (e.g., “Appendix B.2 shows…”)."
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [ ] 8.4 No **orphan lines** anywhere in the paper—avoid single-line section headers or short lines at the top/bottom of columns."
+  },
+  {
+    "row": 109,
+    "rowsha": "+3RFPms/uxcEbwzunzdXCDGvTLcm+kXurQNRNyCIaqE=",
+    "originContent": "- [ ] 8.1 All LaTeX warnings and bad boxes have been resolved.",
+    "translatedContent": "- [ ] 8.5 No two figures or tables are placed consecutively without explanatory text between them."
+  },
+  {
+    "row": 110,
+    "rowsha": "80WhqUu7qAmVtzot5k4vWWZe1jT5GOcs1P7vk2jT2mA=",
+    "originContent": "- [ ] 8.2 Section headers follow the standard paper structure (e.g., Introduction, Method, Experiments, etc.).",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "KCsS9U8emaTZhtBW/71WRuJcdeiq8BeSf28F3QxAIAs=",
+    "originContent": "- [ ] 8.3 All appendix sections are explicitly referenced in the main text (e.g., “Appendix B.2 shows…”).",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "aIXF1GS8noiJ08fnI9cnZduKHUsBFrpNztkni3UbFOg=",
+    "originContent": "- [ ] 8.4 No **orphan lines** anywhere in the paper—avoid single-line section headers or short lines at the top/bottom of columns.",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "+E9lyZJ5KvBtlNWw3GcyHGu63Pig8HmiTlDPgs0m9EQ=",
+    "originContent": "- [ ] 8.5 No two figures or tables are placed consecutively without explanatory text between them.",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 9. 📎 References"
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "- [ ] 9.1 All references are in the correct format for the target venue."
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [ ] 9.2 All datasets, toolkits, and models used are cited."
+  },
+  {
+    "row": 120,
+    "rowsha": "jKytTL+1KcBEbSTAH3RSGDJPNwSudflL538FZxSTFTs=",
+    "originContent": "## 9. 📎 References",
+    "translatedContent": "- [ ] 9.3 At least one paper from the target venue (conference/journal) is cited."
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [ ] 9.4 Self-citations ≤ 20% of total citations."
+  },
+  {
+    "row": 122,
+    "rowsha": "A6S6sb4Ix9ViXw6ktDXb/R3LZwXUiKWKFZR5pyx1obc=",
+    "originContent": "- [ ] 9.1 All references are in the correct format for the target venue.",
+    "translatedContent": "- [ ] 9.5 BibTeX file has been deduplicated and spell-checked."
+  },
+  {
+    "row": 123,
+    "rowsha": "ivZNGhdRLxEeJmQOxabx43dH3WCUjvOdYGGRXxNsBnU=",
+    "originContent": "- [ ] 9.2 All datasets, toolkits, and models used are cited.",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "lQODPzZ5fxT+s5nZThOUK+BcQmMCG49TkbpuNlWwnMI=",
+    "originContent": "- [ ] 9.3 At least one paper from the target venue (conference/journal) is cited.",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "oVYvOHk1oO3dFRmZfJUD9vsHN2KDNX5WR2XJ1j29tfM=",
+    "originContent": "- [ ] 9.4 Self-citations ≤ 20% of total citations.",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "A0t8wbPa+pbtb10fKDD3ypdYTuQU8Q0axWjXCAznFyg=",
+    "originContent": "- [ ] 9.5 BibTeX file has been deduplicated and spell-checked.",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 10. 🛑 Citation Sanity Check (LLM-Generated Risk)"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "- [ ] 10.1 All citations were **manually verified to exist**—title, authors, venue, and year match a real, published paper."
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [ ] 10.2 No hallucinated references from LLM tools are included."
+  },
+  {
+    "row": 133,
+    "rowsha": "NikTEpsS6oS3tLNmJvNBJTiE++nfsyLt5gSJyeT1G7I=",
+    "originContent": "## 10. 🛑 Citation Sanity Check (LLM-Generated Risk)",
+    "translatedContent": "- [ ] 10.3 If a citation was generated by ChatGPT, Copilot, or similar, it has been cross-checked on **Google Scholar**, **Semantic Scholar**, or publisher sites."
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "vuh+bfkLpHpsmauTKHK6PbcUXyblad3hlqB7Ewfzg90=",
+    "originContent": "- [ ] 10.1 All citations were **manually verified to exist**—title, authors, venue, and year match a real, published paper.",
+    "translatedContent": ""
+  },
+  {
+    "row": 136,
+    "rowsha": "H4nhRyNElh2YU9KKcWdb8lfzjFl7XIizRFpvdQ3MRns=",
+    "originContent": "- [ ] 10.2 No hallucinated references from LLM tools are included.",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "BmXUf6c+x41PwVzQmWXe11n6O47eRWZr+gR6sRSRW/8=",
+    "originContent": "- [ ] 10.3 If a citation was generated by ChatGPT, Copilot, or similar, it has been cross-checked on **Google Scholar**, **Semantic Scholar**, or publisher sites.",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 11. 🧠 Sanity Checks Before Submission"
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "- [ ] 11.1 PDF compiles in Overleaf/TeX with no errors or bad boxes."
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [ ] 11.2 File name follows the submission guideline format (e.g., no underscores or author names if anonymized)."
+  },
+  {
+    "row": 144,
+    "rowsha": "mXnqEucOUU4IvwneXbGAedrRyAqXJ6uEzfqnzO2N1kU=",
+    "originContent": "## 11. 🧠 Sanity Checks Before Submission",
+    "translatedContent": "- [ ] 11.3 No author-identifying information exists in metadata, supplementary files, or file names. Check your code repository and images too."
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [ ] 11.4 The paper length complies with the page limit, including references and appendices (if counted)."
+  },
+  {
+    "row": 146,
+    "rowsha": "/9MtiEezVeln1vNdknh/bxnP+GxdHEBGszCMJ+elEs4=",
+    "originContent": "- [ ] 11.1 PDF compiles in Overleaf/TeX with no errors or bad boxes.",
+    "translatedContent": "- [ ] 11.5 The paper has been read start-to-finish by someone not on the author list, without them needing to stop for clarification."
+  },
+  {
+    "row": 147,
+    "rowsha": "8U96fTbvAYo15LHMlj3iknFV7kKV0mh/gZaCEUoB3Sk=",
+    "originContent": "- [ ] 11.2 File name follows the submission guideline format (e.g., no underscores or author names if anonymized).",
+    "translatedContent": "- [ ] 11.6 All co-authors are listed and properly acknowledged—this is surprisingly often overlooked."
+  },
+  {
+    "row": 148,
+    "rowsha": "aBU/mtSoZFlJtUbRBMjfu/r09GZ4BA8NIiT1mKZoCpg=",
+    "originContent": "- [ ] 11.3 No author-identifying information exists in metadata, supplementary files, or file names. Check your code repository and images too.",
+    "translatedContent": "- [ ] 11.7 Bonus: After submission, log in from a different device and OS (e.g., Mac, Windows) to verify that the uploaded version renders correctly."
+  },
+  {
+    "row": 149,
+    "rowsha": "Vhpu5Ap58iHV5eF8B/VbCBbt/NkGO56NiLS7JazOMtA=",
+    "originContent": "- [ ] 11.4 The paper length complies with the page limit, including references and appendices (if counted).",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "GDrwSU5Oasep3TZyJtDmQEm0npE3BrbyTqVIn4LEKeQ=",
+    "originContent": "- [ ] 11.5 The paper has been read start-to-finish by someone not on the author list, without them needing to stop for clarification.",
+    "translatedContent": ""
+  },
+  {
+    "row": 151,
+    "rowsha": "2qnsjGf6aG8h1S53ovnS+31NU0ZACjB/eSTTWO4zW/A=",
+    "originContent": "- [ ] 11.6 All co-authors are listed and properly acknowledged—this is surprisingly often overlooked.",
+    "translatedContent": "---"
+  },
+  {
+    "row": 152,
+    "rowsha": "rAQeyFCWHmK5dUP3AsGEJSQq2b7CTtgymxQtAYastPk=",
+    "originContent": "- [ ] 11.7 Bonus: After submission, log in from a different device and OS (e.g., Mac, Windows) to verify that the uploaded version renders correctly.",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "_This checklist is part of the [`cs-paper-checklist`](https://github.com/yzhao062/cs-paper-checklist) project. Contributions welcome via PR._"
+  },
+  {
+    "row": 154,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 155,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 156,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 157,
+    "rowsha": "TRwfpPgmkpzR83i1eaIUmBCG8X+XsJy9k0vY6PDEaUM=",
+    "originContent": "_This checklist is part of the [`cs-paper-checklist`](https://github.com/yzhao062/cs-paper-checklist) project. Contributions welcome via PR._",
+    "translatedContent": ""
+  },
+  {
+    "row": 158,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 160,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
