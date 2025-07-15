@@ -8,134 +8,7 @@
     "EndLine": 0,
     "Translation": "![B2DVL Header](https://raw.githubusercontent.com/Thinklab-SJTU/Bench2Drive-VL/main/./assets/Bench2Drive-VL.png)\n\n🚗 **Bench2Drive-VL** は自動運転におけるビジョン・言語モデル（VLM）のためのクローズドループ・フルスタックベンチマークです。VQAパートでは、ルールベースのエキスパートモデルDriveCommenterを用いてCARLAシミュレータ内（またはBench2Driveのような静的データセットから）でVQAの正解を生成します。計画ベンチマークには元のBench2Driveの指標を使用します。\n\n<h2 align=\"center\">\n  <a href=\"https://thinklab-sjtu.github.io/Bench2Drive-VL/\"> ドキュメント</a> |\n  <a href=\"https://huggingface.co/datasets/Telkwevr/Bench2Drive-VL-base\"> データセット</a>\n</h2>\n\n![B2DVL Structure](https://raw.githubusercontent.com/Thinklab-SJTU/Bench2Drive-VL/main/./assets/struct_new.png)\n\n📚 Docker対応は現在進行中です...\n\n![B2DVL Modules](https://raw.githubusercontent.com/Thinklab-SJTU/Bench2Drive-VL/main/./assets/modules_new.png)\n\n## 使い方\n\n### 環境設定\n\n1. CARLAをインストールしてください：\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "uPuTbnWQJ4i4dYMiEtx6i6ctDR0Qmp/6OWpyCTt9f+A=",
-        "originContent": "![B2DVL Header](https://raw.githubusercontent.com/Thinklab-SJTU/Bench2Drive-VL/main/./assets/Bench2Drive-VL.png)",
-        "translatedContent": "![B2DVL Header](https://raw.githubusercontent.com/Thinklab-SJTU/Bench2Drive-VL/main/./assets/Bench2Drive-VL.png)"
-      },
-      {
-        "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "yIRyxBs4vmMj1P8IlHGPZri2vm7HOyhvP7x9ju1AabQ=",
-        "originContent": "🚗 **Bench2Drive-VL** is a closed-loop full-stack benchmark for vision-language models (VLMs) in autonomous driving. In VQA part, our rule-based expert model DriveCommenter is used for generating VQAs' ground truth in CARLA simulator (or from static datasets like Bench2Drive). Original Bench2Drive metrics are used for planning benchmarking.",
-        "translatedContent": "🚗 **Bench2Drive-VL** は自動運転におけるビジョン・言語モデル（VLM）のためのクローズドループ・フルスタックベンチマークです。VQAパートでは、ルールベースのエキスパートモデルDriveCommenterを用いてCARLAシミュレータ内（またはBench2Driveのような静的データセットから）でVQAの正解を生成します。計画ベンチマークには元のBench2Driveの指標を使用します。"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "xlMx3yAJ1rsuHEtg1xTQ4fmeRWv2TFeTCIL1YXPfK/w=",
-        "originContent": "<h2 align=\"center\">",
-        "translatedContent": "<h2 align=\"center\">"
-      },
-      {
-        "row": 6,
-        "rowsha": "JH7LbNYl0kwltqv2xjc0d2/O8PKbBDKNomebScGuH3s=",
-        "originContent": "  <a href=\"https://thinklab-sjtu.github.io/Bench2Drive-VL/\"> Document</a> |",
-        "translatedContent": "  <a href=\"https://thinklab-sjtu.github.io/Bench2Drive-VL/\"> ドキュメント</a> |"
-      },
-      {
-        "row": 7,
-        "rowsha": "004sKfJd/xnX4d0erPUr1wINhijyhG7vlNvzkmlqf+Q=",
-        "originContent": "  <a href=\"https://huggingface.co/datasets/Telkwevr/Bench2Drive-VL-base\"> Dataset</a>",
-        "translatedContent": "  <a href=\"https://huggingface.co/datasets/Telkwevr/Bench2Drive-VL-base\"> データセット</a>"
-      },
-      {
-        "row": 8,
-        "rowsha": "zvkhCrDoF8KgpHtRKAFP1Wd8gMoco105aBgHZaKSw3E=",
-        "originContent": "</h2>",
-        "translatedContent": "</h2>"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "0La5YQyw5Ue5LjscH7ZRyo54A3be8G7AxpxPjfxNLzA=",
-        "originContent": "![B2DVL Structure](https://raw.githubusercontent.com/Thinklab-SJTU/Bench2Drive-VL/main/./assets/struct_new.png)",
-        "translatedContent": "![B2DVL Structure](https://raw.githubusercontent.com/Thinklab-SJTU/Bench2Drive-VL/main/./assets/struct_new.png)"
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 12,
-        "rowsha": "wWbTIFACjMrF+FYLVFqAklqXq11yeWYkTv/wz/l2Gs8=",
-        "originContent": "📚 Docker support is on the way...",
-        "translatedContent": "📚 Docker対応は現在進行中です..."
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 14,
-        "rowsha": "I/asLyX7a+WwA1/Ru53TgAKwrkRSuYUrr6Ch+joDnAc=",
-        "originContent": "![B2DVL Modules](https://raw.githubusercontent.com/Thinklab-SJTU/Bench2Drive-VL/main/./assets/modules_new.png)",
-        "translatedContent": "![B2DVL Modules](https://raw.githubusercontent.com/Thinklab-SJTU/Bench2Drive-VL/main/./assets/modules_new.png)"
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 16,
-        "rowsha": "B0rZUVAuvA0woeHASaoNWRIBbA+LJfRLl9zTeDoLks0=",
-        "originContent": "## How to use",
-        "translatedContent": "## 使い方"
-      },
-      {
-        "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 18,
-        "rowsha": "yO3YCUTTzBAEtfdMlXoLh3SYQEVvX2BgUucggaMTrMk=",
-        "originContent": "### Set up the environment",
-        "translatedContent": "### 環境設定"
-      },
-      {
-        "row": 19,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 20,
-        "rowsha": "Mk4hJMnSitaJ7h+VYobeAGCY37HfBgeZXV3EqVPVHb4=",
-        "originContent": "1. Install CARLA:",
-        "translatedContent": "1. CARLAをインストールしてください："
-      },
-      {
-        "row": 21,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -147,68 +20,7 @@
     "EndLine": 0,
     "Translation": "    ```bash\n    mkdir carla\n    cd carla\n    wget https://carla-releases.s3.us-east-005.backblazeb2.com/Linux/CARLA_0.9.15.tar.gz\n    tar -xvf CARLA_0.9.15.tar.gz\n    cd Import && wget https://carla-releases.s3.us-east-005.backblazeb2.com/Linux/AdditionalMaps_0.9.15.tar.gz\n    cd .. && bash ImportAssets.sh\n    export CARLA_ROOT=YOUR_CARLA_PATH\n    echo \"$CARLA_ROOT/PythonAPI/carla/dist/carla-0.9.15-py3.7-linux-x86_64.egg\" >> YOUR_CONDA_PATH/envs/YOUR_CONDA_ENV_NAME/lib/python3.7/site-packages/carla.pth # python 3.8 also works well, please set YOUR_CONDA_PATH and YOUR_CONDA_ENV_NAME\n    ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
-        "originContent": "    ```bash",
-        "translatedContent": "    ```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "ZtBXe+pWe/D1RMCub8eIFUu2KATjdg5BNh3MtfnXwuo=",
-        "originContent": "    mkdir carla",
-        "translatedContent": "    mkdir carla"
-      },
-      {
-        "row": 3,
-        "rowsha": "G0YG3E7tU11/n3/BfHuaIhrLALOw5Fy02mc8iTWLqXc=",
-        "originContent": "    cd carla",
-        "translatedContent": "    cd carla"
-      },
-      {
-        "row": 4,
-        "rowsha": "ud9P8vfKmFTwUNuMEEKF46HI4E/Ij6sZEy54msvCpis=",
-        "originContent": "    wget https://carla-releases.s3.us-east-005.backblazeb2.com/Linux/CARLA_0.9.15.tar.gz",
-        "translatedContent": "    wget https://carla-releases.s3.us-east-005.backblazeb2.com/Linux/CARLA_0.9.15.tar.gz"
-      },
-      {
-        "row": 5,
-        "rowsha": "5bbGHHBZVxKOxTZ8f6Gio25kUVdnlQIjCLEudO4bPU0=",
-        "originContent": "    tar -xvf CARLA_0.9.15.tar.gz",
-        "translatedContent": "    tar -xvf CARLA_0.9.15.tar.gz"
-      },
-      {
-        "row": 6,
-        "rowsha": "J2g6jDQV8vu1y/pJz8ElpJGYjdi3ACPNsdI3am04JDM=",
-        "originContent": "    cd Import && wget https://carla-releases.s3.us-east-005.backblazeb2.com/Linux/AdditionalMaps_0.9.15.tar.gz",
-        "translatedContent": "    cd Import && wget https://carla-releases.s3.us-east-005.backblazeb2.com/Linux/AdditionalMaps_0.9.15.tar.gz"
-      },
-      {
-        "row": 7,
-        "rowsha": "4Tl62uFWpRyvpd/I/lkZpALXWd7aAyCWpsrsXzbrDLE=",
-        "originContent": "    cd .. && bash ImportAssets.sh",
-        "translatedContent": "    cd .. && bash ImportAssets.sh"
-      },
-      {
-        "row": 8,
-        "rowsha": "ybfV5zhluPVYZa9lLBA22nQJX6WE2mDuwZbtsYwTZJk=",
-        "originContent": "    export CARLA_ROOT=YOUR_CARLA_PATH",
-        "translatedContent": "    export CARLA_ROOT=YOUR_CARLA_PATH"
-      },
-      {
-        "row": 9,
-        "rowsha": "9oO5Np12yO9OHs5IgIvxJifAvUTqa/d7/fzXXaTTZPQ=",
-        "originContent": "    echo \"$CARLA_ROOT/PythonAPI/carla/dist/carla-0.9.15-py3.7-linux-x86_64.egg\" >> YOUR_CONDA_PATH/envs/YOUR_CONDA_ENV_NAME/lib/python3.7/site-packages/carla.pth # python 3.8 also works well, please set YOUR_CONDA_PATH and YOUR_CONDA_ENV_NAME",
-        "translatedContent": "    echo \"$CARLA_ROOT/PythonAPI/carla/dist/carla-0.9.15-py3.7-linux-x86_64.egg\" >> YOUR_CONDA_PATH/envs/YOUR_CONDA_ENV_NAME/lib/python3.7/site-packages/carla.pth # python 3.8 also works well, please set YOUR_CONDA_PATH and YOUR_CONDA_ENV_NAME"
-      },
-      {
-        "row": 10,
-        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
-        "originContent": "    ```",
-        "translatedContent": "    ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -220,26 +32,7 @@
     "EndLine": 0,
     "Translation": "2. CARLAをインストールした後、`env.sh`を書きます：\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "2. CARLAをインストールした後、`env.sh`を書きます："
-      },
-      {
-        "row": 2,
-        "rowsha": "eXOVMt/HiqMLzM9ZeoeDkiYKo1qQSyJApsqyHQoo9gY=",
-        "originContent": "2. After installing CARLA, write an `env.sh`:",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -251,128 +44,7 @@
     "EndLine": 0,
     "Translation": "   ```bash\n   export CARLA_ROOT=/path/to/your/carla\n\n   export CARLA_SERVER=${CARLA_ROOT}/CarlaUE4.sh\n   export PYTHONPATH=${CARLA_ROOT}/PythonAPI\n   export PYTHONPATH=$PYTHONPATH:${CARLA_ROOT}/PythonAPI/carla\n   export PYTHONPATH=$PYTHONPATH:$CARLA_ROOT/PythonAPI/carla/dist/carla-0.9.15-py3.7-linux-x86_64.egg\n\n   export WORK_DIR=/path/to/this/repo\n   export PYTHONPATH=$PYTHONPATH:${WORK_DIR}/scenario_runner\n   export PYTHONPATH=$PYTHONPATH:${WORK_DIR}/leaderboard\n   export PYTHONPATH=$PYTHONPATH:${WORK_DIR}/B2DVL_Adapter\n   export SCENARIO_RUNNER_ROOT=${WORK_DIR}/scenario_runner\n   export LEADERBOARD_ROOT=${WORK_DIR}/leaderboard\n\n   export VQA_GEN=1\n   export STRICT_MODE=1\n   # DriveCommenter drives back the ego vehicle after circumventing obstacles if STRICT_MODE > 0,\n   # must set to true if doing closed-loop eval.\n   ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
-        "originContent": "   ```bash",
-        "translatedContent": "   ```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "OSkyz+Hb/a3hUJA17ScnbM0aGyrriaw+i59KlC7FApM=",
-        "originContent": "   export CARLA_ROOT=/path/to/your/carla",
-        "translatedContent": "   export CARLA_ROOT=/path/to/your/carla"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "1vlBzTptcCYOw7Nl0mYBCCwmZtbTyCYD0oZ5HfzWwAc=",
-        "originContent": "   export CARLA_SERVER=${CARLA_ROOT}/CarlaUE4.sh",
-        "translatedContent": "   export CARLA_SERVER=${CARLA_ROOT}/CarlaUE4.sh"
-      },
-      {
-        "row": 5,
-        "rowsha": "tej8HBQnRECGoBky6zGtEAV/+/24LDzMWis0Leip98I=",
-        "originContent": "   export PYTHONPATH=${CARLA_ROOT}/PythonAPI",
-        "translatedContent": "   export PYTHONPATH=${CARLA_ROOT}/PythonAPI"
-      },
-      {
-        "row": 6,
-        "rowsha": "t3oxKlr8OWpS2EEvhHtn6/2HNHP7Esivf1959Y/gsgE=",
-        "originContent": "   export PYTHONPATH=$PYTHONPATH:${CARLA_ROOT}/PythonAPI/carla",
-        "translatedContent": "   export PYTHONPATH=$PYTHONPATH:${CARLA_ROOT}/PythonAPI/carla"
-      },
-      {
-        "row": 7,
-        "rowsha": "04M4SUUHQtX7xbsJF/H75oVYQhOlnUwd8f/dQnaJquM=",
-        "originContent": "   export PYTHONPATH=$PYTHONPATH:$CARLA_ROOT/PythonAPI/carla/dist/carla-0.9.15-py3.7-linux-x86_64.egg",
-        "translatedContent": "   export PYTHONPATH=$PYTHONPATH:$CARLA_ROOT/PythonAPI/carla/dist/carla-0.9.15-py3.7-linux-x86_64.egg"
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "RuDY8Uj+iOqCNu2aqI4cqNW3MIhcfNf6fd93BrzD/mM=",
-        "originContent": "   export WORK_DIR=/path/to/this/repo",
-        "translatedContent": "   export WORK_DIR=/path/to/this/repo"
-      },
-      {
-        "row": 10,
-        "rowsha": "pvkJqM8O1hU9icZ8HnlliFXqA57UYP/YQOB45bBn7SE=",
-        "originContent": "   export PYTHONPATH=$PYTHONPATH:${WORK_DIR}/scenario_runner",
-        "translatedContent": "   export PYTHONPATH=$PYTHONPATH:${WORK_DIR}/scenario_runner"
-      },
-      {
-        "row": 11,
-        "rowsha": "QtXUGE5k9rWGaIieF+ay6QKOMjYETpgrW2P6CBOxNGY=",
-        "originContent": "   export PYTHONPATH=$PYTHONPATH:${WORK_DIR}/leaderboard",
-        "translatedContent": "   export PYTHONPATH=$PYTHONPATH:${WORK_DIR}/leaderboard"
-      },
-      {
-        "row": 12,
-        "rowsha": "1ERp1lHwOxZmOjWAIlqfIwKKs7lZHLozt5S6thmwt7Q=",
-        "originContent": "   export PYTHONPATH=$PYTHONPATH:${WORK_DIR}/B2DVL_Adapter",
-        "translatedContent": "   export PYTHONPATH=$PYTHONPATH:${WORK_DIR}/B2DVL_Adapter"
-      },
-      {
-        "row": 13,
-        "rowsha": "UnCnkGmVnEji9u0n1zEpsZlkM6cB749nfXchBv1X09U=",
-        "originContent": "   export SCENARIO_RUNNER_ROOT=${WORK_DIR}/scenario_runner",
-        "translatedContent": "   export SCENARIO_RUNNER_ROOT=${WORK_DIR}/scenario_runner"
-      },
-      {
-        "row": 14,
-        "rowsha": "pPJpvY7IcrdWksSF2wVpXSWmVBT8+3cg3xr2GeZRGn0=",
-        "originContent": "   export LEADERBOARD_ROOT=${WORK_DIR}/leaderboard",
-        "translatedContent": "   export LEADERBOARD_ROOT=${WORK_DIR}/leaderboard"
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 16,
-        "rowsha": "lSNrlaZqAsS2mnQimZ2NunBLOtPr0DR3M5Pe+K7zFZA=",
-        "originContent": "   export VQA_GEN=1",
-        "translatedContent": "   export VQA_GEN=1"
-      },
-      {
-        "row": 17,
-        "rowsha": "MU7ptbBl4IHb7pX2CcCjLQbn8AvdRBFAgobu81DgoWo=",
-        "originContent": "   export STRICT_MODE=1",
-        "translatedContent": "   export STRICT_MODE=1"
-      },
-      {
-        "row": 18,
-        "rowsha": "WLI8zkWdzUsm7yFIhpBjhRtnQO3XbmS3zU4XKJqLGkQ=",
-        "originContent": "   # DriveCommenter drives back the ego vehicle after circumventing obstacles if STRICT_MODE > 0,",
-        "translatedContent": "   # DriveCommenter drives back the ego vehicle after circumventing obstacles if STRICT_MODE > 0,"
-      },
-      {
-        "row": 19,
-        "rowsha": "Hd0rb1gU8vH+iRi3uYP6HfaqmH8fC+P2p9hvcZEF6pQ=",
-        "originContent": "   # must set to true if doing closed-loop eval.",
-        "translatedContent": "   # must set to true if doing closed-loop eval."
-      },
-      {
-        "row": 20,
-        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
-        "originContent": "   ```",
-        "translatedContent": "   ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -384,26 +56,7 @@
     "EndLine": 0,
     "Translation": "3. 正しい環境変数が設定されていることを確認してください:\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "3. 正しい環境変数が設定されていることを確認してください:"
-      },
-      {
-        "row": 2,
-        "rowsha": "YtaTxfoEhJ/AqBvP3i+Wab9wKj5kKq1a/UYegbDO41k=",
-        "originContent": "3. Make sure you have the correct environment variables:",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -415,26 +68,7 @@
     "EndLine": 0,
     "Translation": "   ```shell\n   source ./env.sh\n   ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "7Zf0weddgCKY9JIe5blkcUKQbc7QUUErQJ2rGCljuFc=",
-        "originContent": "   ```shell",
-        "translatedContent": "   ```shell"
-      },
-      {
-        "row": 2,
-        "rowsha": "geHTDNtbkRTHQVFmcon/afTfuaPsZmtaCpaBSXbEFkc=",
-        "originContent": "   source ./env.sh",
-        "translatedContent": "   source ./env.sh"
-      },
-      {
-        "row": 3,
-        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
-        "originContent": "   ```",
-        "translatedContent": "   ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -446,74 +80,7 @@
     "EndLine": 0,
     "Translation": "### クローズドループ推論\n\n1. vlm設定ファイルを作成します（例は`./vlm_config`にあります）：\n   \n   *これはJSONファイルなので、すべてのコメントを削除するのを忘れないでください！*\n   \n   *質問IDについては[ドキュメント](https://raw.githubusercontent.com/Thinklab-SJTU/Bench2Drive-VL/main/./docs/qids.md)を参照してください。*\n\n   *アクションモジュールがその回答を必要とするため、質問50を必ず含めてください。*\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### クローズドループ推論"
-      },
-      {
-        "row": 2,
-        "rowsha": "wL+2Ght7la9QsK09FEb8I0HKRmkU3EvP4tngyS4I9MQ=",
-        "originContent": "### Closed-Loop Inference",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "1. vlm設定ファイルを作成します（例は`./vlm_config`にあります）："
-      },
-      {
-        "row": 4,
-        "rowsha": "2oK5cG+G3AI5xrQ8Pwoc2w+/1hcWyKnJqkBVCdGtKC8=",
-        "originContent": "1. Write a vlm config file (examples can be found under `./vlm_config`):",
-        "translatedContent": "   "
-      },
-      {
-        "row": 5,
-        "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
-        "originContent": "   ",
-        "translatedContent": "   *これはJSONファイルなので、すべてのコメントを削除するのを忘れないでください！*"
-      },
-      {
-        "row": 6,
-        "rowsha": "n685IqIl99o+N/jRXgI0OrSQC5eO7YVyWlHC9qiWp+I=",
-        "originContent": "   *This is a JSON file, so don't forget to delete all comments!*",
-        "translatedContent": "   "
-      },
-      {
-        "row": 7,
-        "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
-        "originContent": "   ",
-        "translatedContent": "   *質問IDについては[ドキュメント](https://raw.githubusercontent.com/Thinklab-SJTU/Bench2Drive-VL/main/./docs/qids.md)を参照してください。*"
-      },
-      {
-        "row": 8,
-        "rowsha": "IFJVpgMJ6mS+vh26B2GMUN8DLf3SY6uCgoEqTPdSDt4=",
-        "originContent": "   *Question id please refer to [document](https://raw.githubusercontent.com/Thinklab-SJTU/Bench2Drive-VL/main/./docs/qids.md).*",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "   *アクションモジュールがその回答を必要とするため、質問50を必ず含めてください。*"
-      },
-      {
-        "row": 10,
-        "rowsha": "IIyf8xezHR4MKd8W2IJVvif5kqvUldy+2CTJsPmeTmE=",
-        "originContent": "   *Make sure you include question 50 because action module requires its answer.*",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -525,254 +92,7 @@
     "EndLine": 0,
     "Translation": "    ```java\n    {\n        \"TASK_CONFIGS\": {\n            \"FRAME_PER_SEC\": 10 // sensor saving frequency\n        },\n        \"INFERENCE_BASICS\": {\n            \"INPUT_WINDOW\": 1, // frame count of given image input\n            \"CONVERSATION_WINDOW\": 1, // not used anymore, to be removed\n            \"USE_ALL_CAMERAS\": false, // true if use all cameras as input\n            \"USE_BEV\": false, // true if use bev as input\n            \"NO_HISTORY_MODE\": false // do not inherit context of previous VQAs\n        },\n        \"CHAIN\": { // for inference\n            \"NODE\": [19, 15, 7, 24, 13, 47, 8, 43, 50],\n            \"EDGE\": { // \"pred\": succ\n                \"19\": [24, 13, 8],\n                \"15\": [7, 8],\n                \"7\": [8],\n                \"24\": [13, 47],\n                \"13\": [47, 8, 43],\n                \"47\": [8],\n                \"8\": [43],\n                \"43\": [50],\n                \"50\": []\n            },\n            \"INHERIT\": { // inherit context from last frame\n                \"19\": [43, 7],\n                \"15\": [7]\n            },\n            \"USE_GT\": [24] // questions which use ground truth as answer\n        },\n        \"CONTROL_RATE\": 2.0, // intervene freq of vlm\n        \"MODEL_NAME\": \"api\", // model name\n        \"MODEL_PATH\": \"../model_zoo/your_model\", // model path\n        \"GPU_ID\": 0, // the gpu model runs on\n        \"PORT\": 7023, // web port\n        \"IN_CARLA\": true,\n        \"USE_BASE64\": true, // if false, local path is used for transmitting images\n        \"NO_PERC_INFO\": false // do not pass extra perception info to vlm via prompt\n    }\n    ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "dNkwqz6NvoF5eGPT/taw70kXCV8Zkf/uNLe0e/5RVvA=",
-        "originContent": "    ```java",
-        "translatedContent": "    ```java"
-      },
-      {
-        "row": 2,
-        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
-        "originContent": "    {",
-        "translatedContent": "    {"
-      },
-      {
-        "row": 3,
-        "rowsha": "MiYpKOxmf7ydhe2abHSDJfS1L6+j89scjowOflWnFIg=",
-        "originContent": "        \"TASK_CONFIGS\": {",
-        "translatedContent": "        \"TASK_CONFIGS\": {"
-      },
-      {
-        "row": 4,
-        "rowsha": "Hak1N06HnmCyOymaweluLa8iWIbgN+L3Bd6z/dBvkvE=",
-        "originContent": "            \"FRAME_PER_SEC\": 10 // sensor saving frequency",
-        "translatedContent": "            \"FRAME_PER_SEC\": 10 // sensor saving frequency"
-      },
-      {
-        "row": 5,
-        "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
-        "originContent": "        },",
-        "translatedContent": "        },"
-      },
-      {
-        "row": 6,
-        "rowsha": "bv6wTsCf23HmwF97hRoXlaD8xeUfDliS0qVnojC+JkA=",
-        "originContent": "        \"INFERENCE_BASICS\": {",
-        "translatedContent": "        \"INFERENCE_BASICS\": {"
-      },
-      {
-        "row": 7,
-        "rowsha": "vaGqjtp6ryXUV3hUCA57xTrG75cS+c+LBSow9hAO20M=",
-        "originContent": "            \"INPUT_WINDOW\": 1, // frame count of given image input",
-        "translatedContent": "            \"INPUT_WINDOW\": 1, // frame count of given image input"
-      },
-      {
-        "row": 8,
-        "rowsha": "0F7OKiq58MJqXJ9nPM4VFqNV/BAcNP15d5dfmWBtRaI=",
-        "originContent": "            \"CONVERSATION_WINDOW\": 1, // not used anymore, to be removed",
-        "translatedContent": "            \"CONVERSATION_WINDOW\": 1, // not used anymore, to be removed"
-      },
-      {
-        "row": 9,
-        "rowsha": "hfuz2PD03X25aMzhTJj3WNVTQd7T0VjtGyiaoZyt6d0=",
-        "originContent": "            \"USE_ALL_CAMERAS\": false, // true if use all cameras as input",
-        "translatedContent": "            \"USE_ALL_CAMERAS\": false, // true if use all cameras as input"
-      },
-      {
-        "row": 10,
-        "rowsha": "Z7FO1/6Pfe+It2o9T8hJg2wUlf+clbNliDVQ9EBGbwY=",
-        "originContent": "            \"USE_BEV\": false, // true if use bev as input",
-        "translatedContent": "            \"USE_BEV\": false, // true if use bev as input"
-      },
-      {
-        "row": 11,
-        "rowsha": "W3cX2AQOT8ZNCtLxW1qGsFuR5AE8tYGZh7ZPWZwdRUA=",
-        "originContent": "            \"NO_HISTORY_MODE\": false // do not inherit context of previous VQAs",
-        "translatedContent": "            \"NO_HISTORY_MODE\": false // do not inherit context of previous VQAs"
-      },
-      {
-        "row": 12,
-        "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
-        "originContent": "        },",
-        "translatedContent": "        },"
-      },
-      {
-        "row": 13,
-        "rowsha": "2KnmlozeE/k5v99GNJFvLrnsrr8HCrYQfW98lIUyxkI=",
-        "originContent": "        \"CHAIN\": { // for inference",
-        "translatedContent": "        \"CHAIN\": { // for inference"
-      },
-      {
-        "row": 14,
-        "rowsha": "+PB+OuT3QWoYiWDXGA3KXvdPZj2PxFz7ydkz5KS3jfA=",
-        "originContent": "            \"NODE\": [19, 15, 7, 24, 13, 47, 8, 43, 50],",
-        "translatedContent": "            \"NODE\": [19, 15, 7, 24, 13, 47, 8, 43, 50],"
-      },
-      {
-        "row": 15,
-        "rowsha": "qnzzogEq/IhyD2y+2A2XcUIYihbP7iV6YA/wKoSLIdM=",
-        "originContent": "            \"EDGE\": { // \"pred\": succ",
-        "translatedContent": "            \"EDGE\": { // \"pred\": succ"
-      },
-      {
-        "row": 16,
-        "rowsha": "1CaHG3y5qfWJYn1c7whqxa2RniVFRLReCMH4jlC3idA=",
-        "originContent": "                \"19\": [24, 13, 8],",
-        "translatedContent": "                \"19\": [24, 13, 8],"
-      },
-      {
-        "row": 17,
-        "rowsha": "QPYeOOpicDfE0IXgJkZJ421S0Vcg9z08adLaYO4bhYI=",
-        "originContent": "                \"15\": [7, 8],",
-        "translatedContent": "                \"15\": [7, 8],"
-      },
-      {
-        "row": 18,
-        "rowsha": "Mpl9Dy9b1Kl0rRbktHZspB+gT3847u0/wtRt0RJ2TFk=",
-        "originContent": "                \"7\": [8],",
-        "translatedContent": "                \"7\": [8],"
-      },
-      {
-        "row": 19,
-        "rowsha": "xcnAs+CYtnYe0Ogx45VXmXEonllhGZ7cf1HjVQw2FbA=",
-        "originContent": "                \"24\": [13, 47],",
-        "translatedContent": "                \"24\": [13, 47],"
-      },
-      {
-        "row": 20,
-        "rowsha": "CXy+coAKbt7BPkfT9L33LUPL3zaeOSF3FnB1mSWEKJ8=",
-        "originContent": "                \"13\": [47, 8, 43],",
-        "translatedContent": "                \"13\": [47, 8, 43],"
-      },
-      {
-        "row": 21,
-        "rowsha": "CaFuN6Dxc6pwGUTmZ9tFJcOsV9bSvCiLqhHbxvKRUF0=",
-        "originContent": "                \"47\": [8],",
-        "translatedContent": "                \"47\": [8],"
-      },
-      {
-        "row": 22,
-        "rowsha": "z09Zatz+sYNX3NImdm5HtvYMgY/+6YRS4phRJpmvNCg=",
-        "originContent": "                \"8\": [43],",
-        "translatedContent": "                \"8\": [43],"
-      },
-      {
-        "row": 23,
-        "rowsha": "kS1qxYUJGJK1q3jLA4pqDVA1KdJ6O5uYgh3Q66qWfio=",
-        "originContent": "                \"43\": [50],",
-        "translatedContent": "                \"43\": [50],"
-      },
-      {
-        "row": 24,
-        "rowsha": "HLIOhPEtb3md9ruHuFJEOP6egJx750PAWuUwpwltE1c=",
-        "originContent": "                \"50\": []",
-        "translatedContent": "                \"50\": []"
-      },
-      {
-        "row": 25,
-        "rowsha": "P3fk1ACushnjNcsFIQ6mOsZqw8QwPiBC8kSmiXXV5Eo=",
-        "originContent": "            },",
-        "translatedContent": "            },"
-      },
-      {
-        "row": 26,
-        "rowsha": "y6pukFenVglit1YRI+KMEwWXdP2lFwbUOuetl269OIk=",
-        "originContent": "            \"INHERIT\": { // inherit context from last frame",
-        "translatedContent": "            \"INHERIT\": { // inherit context from last frame"
-      },
-      {
-        "row": 27,
-        "rowsha": "XwoPk5Ch0n5ijt5AXIlQKEa71XY7iYAtGKWjp/aU8nc=",
-        "originContent": "                \"19\": [43, 7],",
-        "translatedContent": "                \"19\": [43, 7],"
-      },
-      {
-        "row": 28,
-        "rowsha": "MMm7qccSdNvnRPDN7HPY5kE/eTDrpR+Pc6igcljMfTw=",
-        "originContent": "                \"15\": [7]",
-        "translatedContent": "                \"15\": [7]"
-      },
-      {
-        "row": 29,
-        "rowsha": "P3fk1ACushnjNcsFIQ6mOsZqw8QwPiBC8kSmiXXV5Eo=",
-        "originContent": "            },",
-        "translatedContent": "            },"
-      },
-      {
-        "row": 30,
-        "rowsha": "Dz0V89opNO5RTYCOXfDBnvlIfxPurrbjuoFrSWx3+Dk=",
-        "originContent": "            \"USE_GT\": [24] // questions which use ground truth as answer",
-        "translatedContent": "            \"USE_GT\": [24] // questions which use ground truth as answer"
-      },
-      {
-        "row": 31,
-        "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
-        "originContent": "        },",
-        "translatedContent": "        },"
-      },
-      {
-        "row": 32,
-        "rowsha": "vbL6NfiH1YwWB5HQVb39NdVzW7MUHXTmDBl5nF6xqlc=",
-        "originContent": "        \"CONTROL_RATE\": 2.0, // intervene freq of vlm",
-        "translatedContent": "        \"CONTROL_RATE\": 2.0, // intervene freq of vlm"
-      },
-      {
-        "row": 33,
-        "rowsha": "qhRQth+HXb5+t4VWAgc0+knfsHD06QaqqM45ExmCHYg=",
-        "originContent": "        \"MODEL_NAME\": \"api\", // model name",
-        "translatedContent": "        \"MODEL_NAME\": \"api\", // model name"
-      },
-      {
-        "row": 34,
-        "rowsha": "vDb3pZuTXa1wBM+pD5NpjOknIvlk705ur0m/V1n2g7Y=",
-        "originContent": "        \"MODEL_PATH\": \"../model_zoo/your_model\", // model path",
-        "translatedContent": "        \"MODEL_PATH\": \"../model_zoo/your_model\", // model path"
-      },
-      {
-        "row": 35,
-        "rowsha": "CbMwyTewnjeLFHjuyOUreOJ6gQATDPiZ4rycaH4l/dg=",
-        "originContent": "        \"GPU_ID\": 0, // the gpu model runs on",
-        "translatedContent": "        \"GPU_ID\": 0, // the gpu model runs on"
-      },
-      {
-        "row": 36,
-        "rowsha": "PgFnCLh3feypPhRf6jH0UznzouZiTgCDTK1RjrRx+Po=",
-        "originContent": "        \"PORT\": 7023, // web port",
-        "translatedContent": "        \"PORT\": 7023, // web port"
-      },
-      {
-        "row": 37,
-        "rowsha": "T3RfaL/2VX0qibTc70qDIhkvCChEN0TscSJ0f6uU10g=",
-        "originContent": "        \"IN_CARLA\": true,",
-        "translatedContent": "        \"IN_CARLA\": true,"
-      },
-      {
-        "row": 38,
-        "rowsha": "8xUhoNG/ZDA+N5f4EB4pdjlJ6fyfu575J8RamjAdsWs=",
-        "originContent": "        \"USE_BASE64\": true, // if false, local path is used for transmitting images",
-        "translatedContent": "        \"USE_BASE64\": true, // if false, local path is used for transmitting images"
-      },
-      {
-        "row": 39,
-        "rowsha": "IGBfkoUFlgSLbgTxXwozVFTI8lSnXLPeyv9uZ6LKTOQ=",
-        "originContent": "        \"NO_PERC_INFO\": false // do not pass extra perception info to vlm via prompt",
-        "translatedContent": "        \"NO_PERC_INFO\": false // do not pass extra perception info to vlm via prompt"
-      },
-      {
-        "row": 40,
-        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
-        "originContent": "    }",
-        "translatedContent": "    }"
-      },
-      {
-        "row": 41,
-        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
-        "originContent": "    ```",
-        "translatedContent": "    ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -784,38 +104,7 @@
     "EndLine": 0,
     "Translation": "2. 起動スクリプトの作成:\n   \n    *クイックスタートを希望する場合は、MINIMAL=1 を設定して VLM なしで Bench2Drive-VL を実行できます。*\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "2. 起動スクリプトの作成:"
-      },
-      {
-        "row": 2,
-        "rowsha": "UAqEaTm+8FReS2AkiNEQOCNbo6dDOlTtgKX9sK+MS/A=",
-        "originContent": "2. Write start up script:",
-        "translatedContent": "   "
-      },
-      {
-        "row": 3,
-        "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
-        "originContent": "   ",
-        "translatedContent": "    *クイックスタートを希望する場合は、MINIMAL=1 を設定して VLM なしで Bench2Drive-VL を実行できます。*"
-      },
-      {
-        "row": 4,
-        "rowsha": "lYubzB4FOxW5p02C4Fp16jz6X5CMXEbEKKhH7laicR4=",
-        "originContent": "    *If you want a quickstart, you can set MINIMAL=1 to run Bench2Drive-VL without VLM.*",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -827,116 +116,7 @@
     "EndLine": 0,
     "Translation": "    ```bash\n    #!/bin/bash\n    BASE_PORT=20082 # CARLA port\n    BASE_TM_PORT=50000\n    BASE_ROUTES=./leaderboard/data/bench2drive220\n    TEAM_AGENT=leaderboard/team_code/data_agent.py\n    BASE_CHECKPOINT_ENDPOINT=./my_checkpoint\n    SAVE_PATH=./eval_v1/\n    GPU_RANK=0 # the gpu carla runs on\n    VLM_CONFIG=/path/to/your_vlm_config.json\n    PORT=$BASE_PORT\n    TM_PORT=$BASE_TM_PORT\n    ROUTES=\"${BASE_ROUTES}.xml\"\n    CHECKPOINT_ENDPOINT=\"${BASE_CHECKPOINT_ENDPOINT}.json\"\n    export MINIMAL=0 # if MINIMAL > 0, DriveCommenter takes control of the ego vehicle,\n    # and vlm server is not needed\n    bash leaderboard/scripts/run_evaluation.sh $PORT $TM_PORT 1 $ROUTES $TEAM_AGENT \".\" $CHECKPOINT_ENDPOINT $SAVE_PATH \"null\" $GPU_RANK $VLM_CONFIG\n    ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
-        "originContent": "    ```bash",
-        "translatedContent": "    ```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "+FKW3hcZuhOvQsg306hxYPwq52HQltJzvngLhQCDTw8=",
-        "originContent": "    #!/bin/bash",
-        "translatedContent": "    #!/bin/bash"
-      },
-      {
-        "row": 3,
-        "rowsha": "F8xpEKajhyVhrfYc+0hCHfZmjArAT2YptpARMXq2/pc=",
-        "originContent": "    BASE_PORT=20082 # CARLA port",
-        "translatedContent": "    BASE_PORT=20082 # CARLA port"
-      },
-      {
-        "row": 4,
-        "rowsha": "6B5zqw1hItHt1JTjlZC37OR5aSfkgYRvaqkznLoETYw=",
-        "originContent": "    BASE_TM_PORT=50000",
-        "translatedContent": "    BASE_TM_PORT=50000"
-      },
-      {
-        "row": 5,
-        "rowsha": "z5vfK4ugoEQDXlz7OY57MdAVCF4jse1qZ829TamgkrU=",
-        "originContent": "    BASE_ROUTES=./leaderboard/data/bench2drive220",
-        "translatedContent": "    BASE_ROUTES=./leaderboard/data/bench2drive220"
-      },
-      {
-        "row": 6,
-        "rowsha": "W/xbdaIX9cXm9qiusJHok+PzYDVmao57m/NlCwT4xqs=",
-        "originContent": "    TEAM_AGENT=leaderboard/team_code/data_agent.py",
-        "translatedContent": "    TEAM_AGENT=leaderboard/team_code/data_agent.py"
-      },
-      {
-        "row": 7,
-        "rowsha": "qqbrLJhVa5ltKsCXQu0y+uMOKqJ65zKyB6tH5b1Eg+c=",
-        "originContent": "    BASE_CHECKPOINT_ENDPOINT=./my_checkpoint",
-        "translatedContent": "    BASE_CHECKPOINT_ENDPOINT=./my_checkpoint"
-      },
-      {
-        "row": 8,
-        "rowsha": "hcqHTNh68OYXVAnmoQyoPhYPrEUKWYa6dE9zqu0MCYc=",
-        "originContent": "    SAVE_PATH=./eval_v1/",
-        "translatedContent": "    SAVE_PATH=./eval_v1/"
-      },
-      {
-        "row": 9,
-        "rowsha": "u2qIJeOEPbXxpJ75PnuDxMtKP4Gg13CbHq0euQRwjrI=",
-        "originContent": "    GPU_RANK=0 # the gpu carla runs on",
-        "translatedContent": "    GPU_RANK=0 # the gpu carla runs on"
-      },
-      {
-        "row": 10,
-        "rowsha": "B0jp5WGCyag97F11w6OT20NZZwbaXzxc6QHZmF6FSH0=",
-        "originContent": "    VLM_CONFIG=/path/to/your_vlm_config.json",
-        "translatedContent": "    VLM_CONFIG=/path/to/your_vlm_config.json"
-      },
-      {
-        "row": 11,
-        "rowsha": "FpKZAwo4eYdqloyzDQF/VZ2cMpS9ScZcpgZtGHj9Tg0=",
-        "originContent": "    PORT=$BASE_PORT",
-        "translatedContent": "    PORT=$BASE_PORT"
-      },
-      {
-        "row": 12,
-        "rowsha": "EZsNQmk8pazAwS89EMGSLFeXv89Gc9lwRKWxdSEpRlA=",
-        "originContent": "    TM_PORT=$BASE_TM_PORT",
-        "translatedContent": "    TM_PORT=$BASE_TM_PORT"
-      },
-      {
-        "row": 13,
-        "rowsha": "R2qPrMVQtGXDAT8jLW5QuYk0d98GtYkV0QbsG6TdBlc=",
-        "originContent": "    ROUTES=\"${BASE_ROUTES}.xml\"",
-        "translatedContent": "    ROUTES=\"${BASE_ROUTES}.xml\""
-      },
-      {
-        "row": 14,
-        "rowsha": "eE3lwHsZc3R0TNVKgzILLwZtxMaAcGKzdXNxQ4esWZE=",
-        "originContent": "    CHECKPOINT_ENDPOINT=\"${BASE_CHECKPOINT_ENDPOINT}.json\"",
-        "translatedContent": "    CHECKPOINT_ENDPOINT=\"${BASE_CHECKPOINT_ENDPOINT}.json\""
-      },
-      {
-        "row": 15,
-        "rowsha": "s2Zu+SNexPZfvN6v9ETITc13DS+U/RvB7jm+EQop24Q=",
-        "originContent": "    export MINIMAL=0 # if MINIMAL > 0, DriveCommenter takes control of the ego vehicle,",
-        "translatedContent": "    export MINIMAL=0 # if MINIMAL > 0, DriveCommenter takes control of the ego vehicle,"
-      },
-      {
-        "row": 16,
-        "rowsha": "uoi2hmvbuGhOmmsw4RTskRlxeKgme7ASj4g6ZWiCk/8=",
-        "originContent": "    # and vlm server is not needed",
-        "translatedContent": "    # and vlm server is not needed"
-      },
-      {
-        "row": 17,
-        "rowsha": "xlaXRaGnlSUQ25kW1b0LL0HiN6gUAKMGir1jCYEFLI0=",
-        "originContent": "    bash leaderboard/scripts/run_evaluation.sh $PORT $TM_PORT 1 $ROUTES $TEAM_AGENT \".\" $CHECKPOINT_ENDPOINT $SAVE_PATH \"null\" $GPU_RANK $VLM_CONFIG",
-        "translatedContent": "    bash leaderboard/scripts/run_evaluation.sh $PORT $TM_PORT 1 $ROUTES $TEAM_AGENT \".\" $CHECKPOINT_ENDPOINT $SAVE_PATH \"null\" $GPU_RANK $VLM_CONFIG"
-      },
-      {
-        "row": 18,
-        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
-        "originContent": "    ```",
-        "translatedContent": "    ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -948,26 +128,7 @@
     "EndLine": 0,
     "Translation": "3. VLMサーバーを起動します（`MINIMAL`の場合は不要です）\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "3. VLMサーバーを起動します（`MINIMAL`の場合は不要です）"
-      },
-      {
-        "row": 2,
-        "rowsha": "4v7vYxE9MagFpGeEcrarPb2JllHESzSoReB4u4HlQc0=",
-        "originContent": "3. Start VLM Server (not needed if `MINIMAL`)",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -979,26 +140,7 @@
     "EndLine": 0,
     "Translation": "    ```shell\n    python ./B2DVL_Adapter/web_interact_app.py --config /path/to/your/vlm_config.json\n    ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "EBNgZD2BV45ccLI2WMmxred9nrfZ698QuuxWJ+Enp58=",
-        "originContent": "    ```shell",
-        "translatedContent": "    ```shell"
-      },
-      {
-        "row": 2,
-        "rowsha": "C/uQ5il30UfAKqj4rE/fY/cZlN5ZjTPHVsa+QOLMx88=",
-        "originContent": "    python ./B2DVL_Adapter/web_interact_app.py --config /path/to/your/vlm_config.json",
-        "translatedContent": "    python ./B2DVL_Adapter/web_interact_app.py --config /path/to/your/vlm_config.json"
-      },
-      {
-        "row": 3,
-        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
-        "originContent": "    ```",
-        "translatedContent": "    ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1010,26 +152,7 @@
     "EndLine": 0,
     "Translation": "4. メインモジュールを開始する\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "4. メインモジュールを開始する"
-      },
-      {
-        "row": 2,
-        "rowsha": "yKqWDiauBIzj5DYoDO/FQ68U5oBbUuEZbsL8nVfERJ8=",
-        "originContent": "4. Start Main module",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1041,26 +164,7 @@
     "EndLine": 0,
     "Translation": "    ```shell\n    bash ./startup.sh\n    ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "EBNgZD2BV45ccLI2WMmxred9nrfZ698QuuxWJ+Enp58=",
-        "originContent": "    ```shell",
-        "translatedContent": "    ```shell"
-      },
-      {
-        "row": 2,
-        "rowsha": "CnKOuFaCpvMfcQnZApmsLueaEMlctsFiNPl4JT2bfMo=",
-        "originContent": "    bash ./startup.sh",
-        "translatedContent": "    bash ./startup.sh"
-      },
-      {
-        "row": 3,
-        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
-        "originContent": "    ```",
-        "translatedContent": "    ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1072,38 +176,7 @@
     "EndLine": 0,
     "Translation": "### DriveCommenterを使用して静的データセットからVQAを生成する\n\n1. `./B2DVL-Adapter`内にスタートアップスクリプトを作成する\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### DriveCommenterを使用して静的データセットからVQAを生成する"
-      },
-      {
-        "row": 2,
-        "rowsha": "tPxaXNsH1alSWASuermgD7EjDS9SBy0A+i9FG5YKGLE=",
-        "originContent": "### Generate VQAs from static dataset using DriveCommenter",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "1. `./B2DVL-Adapter`内にスタートアップスクリプトを作成する"
-      },
-      {
-        "row": 4,
-        "rowsha": "+Auh0PZ+0hrr0+TSww7TQUD6y29Yr+S0rsGZuFfgAPU=",
-        "originContent": "1. Write a startup script under `./B2DVL-Adapter`",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1115,92 +188,7 @@
     "EndLine": 0,
     "Translation": "    ```bash\n    #!/bin/bash\n    export SUBSET=0 # generate from a subset of given dataset\n    export STRICT_MODE=1\n    # DriveCommenter drives back the ego vehicle after circumventing obstacles if STRICT_MODE > 0\n    export SUBSET_PATH=./subset_0.txt # subset file\n    export PROCESSED_PATH=./processed_paths_0.txt # checkpoint file\n    export CACHE_PATH=./.worker_0_cache\n    # DriveCommenter supports dataset in .tar.gz\n    # it will unzip some of the dataset temporarily in cache dir\n    python ./drive_commenter_main.py --data-directory=/path/to/Bench2Drive/dataset --output-graph-directory=./outgraph     --path-maps=${CARLA_ROOT}/CarlaUE4/Content/Carla/Maps     --worker-count=1\n    # We do not recommend using multiple worker here since multi-thread in python is not very good.\n    # You can run multiple DriveCommenter at the same time with different subset and checkpoint files to do the same.\n    ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
-        "originContent": "    ```bash",
-        "translatedContent": "    ```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "+FKW3hcZuhOvQsg306hxYPwq52HQltJzvngLhQCDTw8=",
-        "originContent": "    #!/bin/bash",
-        "translatedContent": "    #!/bin/bash"
-      },
-      {
-        "row": 3,
-        "rowsha": "CtRFXb6g6iFBd8FcmvwEWq6vulgXQWinIoef5GbhmZU=",
-        "originContent": "    export SUBSET=0 # generate from a subset of given dataset",
-        "translatedContent": "    export SUBSET=0 # generate from a subset of given dataset"
-      },
-      {
-        "row": 4,
-        "rowsha": "GlUK8BR060FVxnhO1kc7IE89KHNWz74vORfOMXbE66I=",
-        "originContent": "    export STRICT_MODE=1",
-        "translatedContent": "    export STRICT_MODE=1"
-      },
-      {
-        "row": 5,
-        "rowsha": "ORaKZDLwOlEJvIPhOepAk3qcIcuwJ2DsOl6q/vYz1ZQ=",
-        "originContent": "    # DriveCommenter drives back the ego vehicle after circumventing obstacles if STRICT_MODE > 0",
-        "translatedContent": "    # DriveCommenter drives back the ego vehicle after circumventing obstacles if STRICT_MODE > 0"
-      },
-      {
-        "row": 6,
-        "rowsha": "MU8E/O/Wkq95rUM+Wl5Fl6WtoGQF4Zigb9Yml02ekho=",
-        "originContent": "    export SUBSET_PATH=./subset_0.txt # subset file",
-        "translatedContent": "    export SUBSET_PATH=./subset_0.txt # subset file"
-      },
-      {
-        "row": 7,
-        "rowsha": "J3mlnM3m1qqn2UCBFVlApxE2qMdQaHmGNkd9vF5KtMA=",
-        "originContent": "    export PROCESSED_PATH=./processed_paths_0.txt # checkpoint file",
-        "translatedContent": "    export PROCESSED_PATH=./processed_paths_0.txt # checkpoint file"
-      },
-      {
-        "row": 8,
-        "rowsha": "ENdsvhKjcRAaTxP0xbrg45vBtVKF3Pj4PQjnmi0n4z4=",
-        "originContent": "    export CACHE_PATH=./.worker_0_cache",
-        "translatedContent": "    export CACHE_PATH=./.worker_0_cache"
-      },
-      {
-        "row": 9,
-        "rowsha": "eH8rsNdlapzBNIQskjskSCxE8GjvDeVhUhqAy1Y9RoI=",
-        "originContent": "    # DriveCommenter supports dataset in .tar.gz",
-        "translatedContent": "    # DriveCommenter supports dataset in .tar.gz"
-      },
-      {
-        "row": 10,
-        "rowsha": "6OfJ9l5tqAv66Nf5y9l/5qXzif1C+L953iBBGDzc9TE=",
-        "originContent": "    # it will unzip some of the dataset temporarily in cache dir",
-        "translatedContent": "    # it will unzip some of the dataset temporarily in cache dir"
-      },
-      {
-        "row": 11,
-        "rowsha": "zwNuikJQ4n9S8H1Hkm/vTRa87jqtXYPAo2oHmo50Yr8=",
-        "originContent": "    python ./drive_commenter_main.py --data-directory=/path/to/Bench2Drive/dataset --output-graph-directory=./outgraph     --path-maps=${CARLA_ROOT}/CarlaUE4/Content/Carla/Maps     --worker-count=1",
-        "translatedContent": "    python ./drive_commenter_main.py --data-directory=/path/to/Bench2Drive/dataset --output-graph-directory=./outgraph     --path-maps=${CARLA_ROOT}/CarlaUE4/Content/Carla/Maps     --worker-count=1"
-      },
-      {
-        "row": 12,
-        "rowsha": "kT0I9y975hkwVdJM4Dms059UYKVkNZwduiNGEj+snJw=",
-        "originContent": "    # We do not recommend using multiple worker here since multi-thread in python is not very good.",
-        "translatedContent": "    # We do not recommend using multiple worker here since multi-thread in python is not very good."
-      },
-      {
-        "row": 13,
-        "rowsha": "6JQeFr4Anfx8NgSAPqS6CNip8jYL6BBA43s383t07hA=",
-        "originContent": "    # You can run multiple DriveCommenter at the same time with different subset and checkpoint files to do the same.",
-        "translatedContent": "    # You can run multiple DriveCommenter at the same time with different subset and checkpoint files to do the same."
-      },
-      {
-        "row": 14,
-        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
-        "originContent": "    ```",
-        "translatedContent": "    ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1212,26 +200,7 @@
     "EndLine": 0,
     "Translation": "2. 実行します。\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "2. 実行します。"
-      },
-      {
-        "row": 2,
-        "rowsha": "FW0hYcKw5qXGU2bIvAHc7NoKZ/wGX1xeEW1GvdkoJxo=",
-        "originContent": "2. Run it.",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1243,32 +212,7 @@
     "EndLine": 0,
     "Translation": "    ```shell\n    cd ./B2DVL-Adapter\n    bash ./your_startup_script.sh\n    ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "EBNgZD2BV45ccLI2WMmxred9nrfZ698QuuxWJ+Enp58=",
-        "originContent": "    ```shell",
-        "translatedContent": "    ```shell"
-      },
-      {
-        "row": 2,
-        "rowsha": "DSEwffmU0/n0GVpaTFt+k7MNRdbf187POsaCVLigsxc=",
-        "originContent": "    cd ./B2DVL-Adapter",
-        "translatedContent": "    cd ./B2DVL-Adapter"
-      },
-      {
-        "row": 3,
-        "rowsha": "1TzDo0VduXIceEy4u/n94H7clOlOA2qfD3E4gyFmd4g=",
-        "originContent": "    bash ./your_startup_script.sh",
-        "translatedContent": "    bash ./your_startup_script.sh"
-      },
-      {
-        "row": 4,
-        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
-        "originContent": "    ```",
-        "translatedContent": "    ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1280,38 +224,7 @@
     "EndLine": 0,
     "Translation": "### オープンループ推論\n\n1. コンフィグファイルを作成します。\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### オープンループ推論"
-      },
-      {
-        "row": 2,
-        "rowsha": "NWq/sgcS7PWQIRFDVP9+NlBR4kmOg2x2DvkPOgF83Bk=",
-        "originContent": "### Open-Loop Inference",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "1. コンフィグファイルを作成します。"
-      },
-      {
-        "row": 4,
-        "rowsha": "qR3Cxj/1wAMVbS7qUx5JcRQxS6tRtWxSgnAnSZoV1yc=",
-        "originContent": "1. Write a config file.",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1323,206 +236,7 @@
     "EndLine": 0,
     "Translation": "    ```java\n    {\n        \"TASK_CONFIGS\": {\n            \"INFER_SUBSET\": false, // inference a subset of given dataset\n            \"USE_CHECKPOINT\": true, // record the process of inference\n            \"SUBSET_FILE\": \"./infer_configs/subset.txt\", // subset file, leave blank if not used\n            \"CHECKPOINT_FILE\": \"./infer_configs/finished_scenarios.txt\", // checkpoint file, leave blank if not used\n            \"ENTRY_EXIT_FILE\": \"./infer_configs/entry_exits.json\", // the file which specifies entry and exit point of certain scenario, \n            // you can create a file with \"{}\" as content if do not specify\n            \"FRAME_PER_SEC\": 10 // sensor frame\n        },\n        \"INFERENCE_BASICS\": {\n            \"INPUT_WINDOW\": 1,\n            \"CONVERSATION_WINDOW\": 2,\n            \"USE_ALL_CAMERAS\": true,\n            \"NO_HISTORY_MODE\": false,\n            \"APPEND_QUESTION\": true,\n            \"APPENDIX_FILE\": \"./infer_configs/append_questions.json\" // not used now, to be removed\n        },\n        \"CHAIN\": {\n            \"NODE\": [43, 50],\n            \"EDGE\": {\n                \"43\": [50],\n                \"50\": []\n            },\n            \"INHERIT\": {\n                \"19\": [43, 7],\n                \"15\": [7]\n            },\n            \"USE_GT\": []\n        }\n    }\n    ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "dNkwqz6NvoF5eGPT/taw70kXCV8Zkf/uNLe0e/5RVvA=",
-        "originContent": "    ```java",
-        "translatedContent": "    ```java"
-      },
-      {
-        "row": 2,
-        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
-        "originContent": "    {",
-        "translatedContent": "    {"
-      },
-      {
-        "row": 3,
-        "rowsha": "MiYpKOxmf7ydhe2abHSDJfS1L6+j89scjowOflWnFIg=",
-        "originContent": "        \"TASK_CONFIGS\": {",
-        "translatedContent": "        \"TASK_CONFIGS\": {"
-      },
-      {
-        "row": 4,
-        "rowsha": "gQBAx7wkWTKtR8i8Ikho4tB5vkk40YSaBPR6rGL9+o8=",
-        "originContent": "            \"INFER_SUBSET\": false, // inference a subset of given dataset",
-        "translatedContent": "            \"INFER_SUBSET\": false, // inference a subset of given dataset"
-      },
-      {
-        "row": 5,
-        "rowsha": "4p+UIJiiIzQ1wXP5rIIjtTficKxQJpeBJtn2ZwXp220=",
-        "originContent": "            \"USE_CHECKPOINT\": true, // record the process of inference",
-        "translatedContent": "            \"USE_CHECKPOINT\": true, // record the process of inference"
-      },
-      {
-        "row": 6,
-        "rowsha": "aVtXv01VY1U6fsSX9YJZWT4QhYapBEV2vVUk/ydHXLM=",
-        "originContent": "            \"SUBSET_FILE\": \"./infer_configs/subset.txt\", // subset file, leave blank if not used",
-        "translatedContent": "            \"SUBSET_FILE\": \"./infer_configs/subset.txt\", // subset file, leave blank if not used"
-      },
-      {
-        "row": 7,
-        "rowsha": "/75JixE24eAUGPoM5L5ua/cZwHGwMfkSGHe8KEIxedg=",
-        "originContent": "            \"CHECKPOINT_FILE\": \"./infer_configs/finished_scenarios.txt\", // checkpoint file, leave blank if not used",
-        "translatedContent": "            \"CHECKPOINT_FILE\": \"./infer_configs/finished_scenarios.txt\", // checkpoint file, leave blank if not used"
-      },
-      {
-        "row": 8,
-        "rowsha": "kTaoY1w8N/dwvZjDkNAVfYpJSwCn5Vlfd1eLC34rSMo=",
-        "originContent": "            \"ENTRY_EXIT_FILE\": \"./infer_configs/entry_exits.json\", // the file which specifies entry and exit point of certain scenario, ",
-        "translatedContent": "            \"ENTRY_EXIT_FILE\": \"./infer_configs/entry_exits.json\", // the file which specifies entry and exit point of certain scenario, "
-      },
-      {
-        "row": 9,
-        "rowsha": "7ZD3rmnXvYOe8Qi7fyf+QM46Ex/gzGbq03mB1Tpylds=",
-        "originContent": "            // you can create a file with \"{}\" as content if do not specify",
-        "translatedContent": "            // you can create a file with \"{}\" as content if do not specify"
-      },
-      {
-        "row": 10,
-        "rowsha": "WjNR/lGTkBe5EjxSIn3K2cXGV230jTWGl+/0CcKelOI=",
-        "originContent": "            \"FRAME_PER_SEC\": 10 // sensor frame",
-        "translatedContent": "            \"FRAME_PER_SEC\": 10 // sensor frame"
-      },
-      {
-        "row": 11,
-        "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
-        "originContent": "        },",
-        "translatedContent": "        },"
-      },
-      {
-        "row": 12,
-        "rowsha": "bv6wTsCf23HmwF97hRoXlaD8xeUfDliS0qVnojC+JkA=",
-        "originContent": "        \"INFERENCE_BASICS\": {",
-        "translatedContent": "        \"INFERENCE_BASICS\": {"
-      },
-      {
-        "row": 13,
-        "rowsha": "0uDlqxvNhP9pcew7ZyvSTuW7ZSOHIQooDz0ViEz2SFo=",
-        "originContent": "            \"INPUT_WINDOW\": 1,",
-        "translatedContent": "            \"INPUT_WINDOW\": 1,"
-      },
-      {
-        "row": 14,
-        "rowsha": "MQyOJWXTscz537eKPB5D2HXVVFunzqcyJ2hAC3cr8M8=",
-        "originContent": "            \"CONVERSATION_WINDOW\": 2,",
-        "translatedContent": "            \"CONVERSATION_WINDOW\": 2,"
-      },
-      {
-        "row": 15,
-        "rowsha": "qoJKcKAqZXk3p58qhDuwMlf3CBIQVbPELPZMzqDF57o=",
-        "originContent": "            \"USE_ALL_CAMERAS\": true,",
-        "translatedContent": "            \"USE_ALL_CAMERAS\": true,"
-      },
-      {
-        "row": 16,
-        "rowsha": "qHZOeCaBBwmNyL+AE2hARglZqf4FPwvzwM/VvUogYyo=",
-        "originContent": "            \"NO_HISTORY_MODE\": false,",
-        "translatedContent": "            \"NO_HISTORY_MODE\": false,"
-      },
-      {
-        "row": 17,
-        "rowsha": "1C/x6R8ejvgETL6QWXrUCFO+eLRcIdM3Yk0PxN7sjWY=",
-        "originContent": "            \"APPEND_QUESTION\": true,",
-        "translatedContent": "            \"APPEND_QUESTION\": true,"
-      },
-      {
-        "row": 18,
-        "rowsha": "32yAAEZRk7Img0//wwBLaDD2Fu7tL8KVQXTFRD8dNSo=",
-        "originContent": "            \"APPENDIX_FILE\": \"./infer_configs/append_questions.json\" // not used now, to be removed",
-        "translatedContent": "            \"APPENDIX_FILE\": \"./infer_configs/append_questions.json\" // not used now, to be removed"
-      },
-      {
-        "row": 19,
-        "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
-        "originContent": "        },",
-        "translatedContent": "        },"
-      },
-      {
-        "row": 20,
-        "rowsha": "QFxZfsfJ8zgHuSP6sPlWZRs8vLMX1kx3R792jTLfBtM=",
-        "originContent": "        \"CHAIN\": {",
-        "translatedContent": "        \"CHAIN\": {"
-      },
-      {
-        "row": 21,
-        "rowsha": "7N3KYVTkttzKG9fS2G1XBoBc7bmVN4FCHjA6C+HSwuE=",
-        "originContent": "            \"NODE\": [43, 50],",
-        "translatedContent": "            \"NODE\": [43, 50],"
-      },
-      {
-        "row": 22,
-        "rowsha": "cjjYU7vHGYcwQ2AX1Uv35D7E1476Ep8kStGjIAWH3hU=",
-        "originContent": "            \"EDGE\": {",
-        "translatedContent": "            \"EDGE\": {"
-      },
-      {
-        "row": 23,
-        "rowsha": "kS1qxYUJGJK1q3jLA4pqDVA1KdJ6O5uYgh3Q66qWfio=",
-        "originContent": "                \"43\": [50],",
-        "translatedContent": "                \"43\": [50],"
-      },
-      {
-        "row": 24,
-        "rowsha": "HLIOhPEtb3md9ruHuFJEOP6egJx750PAWuUwpwltE1c=",
-        "originContent": "                \"50\": []",
-        "translatedContent": "                \"50\": []"
-      },
-      {
-        "row": 25,
-        "rowsha": "P3fk1ACushnjNcsFIQ6mOsZqw8QwPiBC8kSmiXXV5Eo=",
-        "originContent": "            },",
-        "translatedContent": "            },"
-      },
-      {
-        "row": 26,
-        "rowsha": "4bp54raK/yV71u+euHgPZbPava9SF97LMy4qhpqMmfY=",
-        "originContent": "            \"INHERIT\": {",
-        "translatedContent": "            \"INHERIT\": {"
-      },
-      {
-        "row": 27,
-        "rowsha": "XwoPk5Ch0n5ijt5AXIlQKEa71XY7iYAtGKWjp/aU8nc=",
-        "originContent": "                \"19\": [43, 7],",
-        "translatedContent": "                \"19\": [43, 7],"
-      },
-      {
-        "row": 28,
-        "rowsha": "MMm7qccSdNvnRPDN7HPY5kE/eTDrpR+Pc6igcljMfTw=",
-        "originContent": "                \"15\": [7]",
-        "translatedContent": "                \"15\": [7]"
-      },
-      {
-        "row": 29,
-        "rowsha": "P3fk1ACushnjNcsFIQ6mOsZqw8QwPiBC8kSmiXXV5Eo=",
-        "originContent": "            },",
-        "translatedContent": "            },"
-      },
-      {
-        "row": 30,
-        "rowsha": "GOKN6XRomKt2+vZ8EUxlSZj1x0F/ZEdvT/70ybtjes4=",
-        "originContent": "            \"USE_GT\": []",
-        "translatedContent": "            \"USE_GT\": []"
-      },
-      {
-        "row": 31,
-        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
-        "originContent": "        }",
-        "translatedContent": "        }"
-      },
-      {
-        "row": 32,
-        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
-        "originContent": "    }",
-        "translatedContent": "    }"
-      },
-      {
-        "row": 33,
-        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
-        "originContent": "    ```",
-        "translatedContent": "    ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1534,26 +248,7 @@
     "EndLine": 0,
     "Translation": "2. 推論スクリプトを起動します:\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "2. 推論スクリプトを起動します:"
-      },
-      {
-        "row": 2,
-        "rowsha": "iIs+qzkrAAI4GT8mreEVjtFEFVx588VC+Ll6Z4dRidk=",
-        "originContent": "2. Start up inference script:",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1565,32 +260,7 @@
     "EndLine": 0,
     "Translation": "    ```shell\n    cd ./B2DVL_Adapter\n    python inference.py --model Qwen2.5VL --model_path /path/to/Qwen2.5VL-3B-Instruct --config_dir /path/to/your_infer_config.json --image_dir /path/to/Bench2Drive/dataset --vqa_dir /path/to/vqa/dataset --num_workers 4 --out_dir ./infer_outputs\n    ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "EBNgZD2BV45ccLI2WMmxred9nrfZ698QuuxWJ+Enp58=",
-        "originContent": "    ```shell",
-        "translatedContent": "    ```shell"
-      },
-      {
-        "row": 2,
-        "rowsha": "ROJZAVap9b5UU9t3GHyki4wWLYgDkSJ7UZvZvmWTNX0=",
-        "originContent": "    cd ./B2DVL_Adapter",
-        "translatedContent": "    cd ./B2DVL_Adapter"
-      },
-      {
-        "row": 3,
-        "rowsha": "KVqKLLzZDIex9GkzzmWbE26SmvIKLa/USf2F0W2fRZw=",
-        "originContent": "    python inference.py --model Qwen2.5VL --model_path /path/to/Qwen2.5VL-3B-Instruct --config_dir /path/to/your_infer_config.json --image_dir /path/to/Bench2Drive/dataset --vqa_dir /path/to/vqa/dataset --num_workers 4 --out_dir ./infer_outputs",
-        "translatedContent": "    python inference.py --model Qwen2.5VL --model_path /path/to/Qwen2.5VL-3B-Instruct --config_dir /path/to/your_infer_config.json --image_dir /path/to/Bench2Drive/dataset --vqa_dir /path/to/vqa/dataset --num_workers 4 --out_dir ./infer_outputs"
-      },
-      {
-        "row": 4,
-        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
-        "originContent": "    ```",
-        "translatedContent": "    ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1602,38 +272,7 @@
     "EndLine": 0,
     "Translation": "### 評価\n\n1. 評価のためにあなたのllm APIを使用するには、`./B2DVL-Adapter`内に`mytoken.py`を作成してください。deepseekを例とします:\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 評価"
-      },
-      {
-        "row": 2,
-        "rowsha": "YDG+cxezaJ19ksy6T2qjd3YuZ43NpPCr5ktWHajmaBE=",
-        "originContent": "### Evaluation",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "1. 評価のためにあなたのllm APIを使用するには、`./B2DVL-Adapter`内に`mytoken.py`を作成してください。deepseekを例とします:"
-      },
-      {
-        "row": 4,
-        "rowsha": "6X3Zh3Svvmq16AMjRaMd1MMV9M3mAxizOwZcfJjabNs=",
-        "originContent": "1. To use your llm api for evaluation, create a `mytoken.py` under `./B2DVL-Adapter`. Take deepseek as an example:",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1645,50 +284,7 @@
     "EndLine": 0,
     "Translation": "    ```python\n    DEEPSEEK_TOKEN = [\n        \"your-token-1\", # you can set multiple tokens, and they will be used in a round-robin way\n        \"your-token-2\"...\n    ]\n    DEEPSEEK_URL = \"https://api.deepseek.com/v1\"\n    ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "/3YcnfYMIbg5SHdjtA0V75d0xzbY90Q/7NqlXH2Y9ZM=",
-        "originContent": "    ```python",
-        "translatedContent": "    ```python"
-      },
-      {
-        "row": 2,
-        "rowsha": "zLuNlmVn+uNvF4xZVVGjjcGn7iFExdSi/QowRRyFiGE=",
-        "originContent": "    DEEPSEEK_TOKEN = [",
-        "translatedContent": "    DEEPSEEK_TOKEN = ["
-      },
-      {
-        "row": 3,
-        "rowsha": "1545DOUBtuTo5oTUwDu5DODsmSjlmSElYF3x84ohC+Y=",
-        "originContent": "        \"your-token-1\", # you can set multiple tokens, and they will be used in a round-robin way",
-        "translatedContent": "        \"your-token-1\", # you can set multiple tokens, and they will be used in a round-robin way"
-      },
-      {
-        "row": 4,
-        "rowsha": "xct/T6KGxfOsZc2Du7wpPcbzlT9h6N5UhCjIVNwg7o8=",
-        "originContent": "        \"your-token-2\"...",
-        "translatedContent": "        \"your-token-2\"..."
-      },
-      {
-        "row": 5,
-        "rowsha": "lVZwDnSmuzpTa/s9y8MQVA//SFx3EANoxPgHY4wlQ/o=",
-        "originContent": "    ]",
-        "translatedContent": "    ]"
-      },
-      {
-        "row": 6,
-        "rowsha": "Dd5yu3kwItAowgMkrzqWziasvQMvOo+sVLm3f63CICY=",
-        "originContent": "    DEEPSEEK_URL = \"https://api.deepseek.com/v1\"",
-        "translatedContent": "    DEEPSEEK_URL = \"https://api.deepseek.com/v1\""
-      },
-      {
-        "row": 7,
-        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
-        "originContent": "    ```",
-        "translatedContent": "    ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1700,50 +296,7 @@
     "EndLine": 0,
     "Translation": "    それから、私たちのスクリプトは `openai` テンプレートを使用してこのAPIを呼び出します。\n\n\n\n2. 設定ファイルを作成します：\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "    それから、私たちのスクリプトは `openai` テンプレートを使用してこのAPIを呼び出します。"
-      },
-      {
-        "row": 2,
-        "rowsha": "gdu3SbaYvW8Lb25r6idCR1R8Zixi4mUa7Mn9j5cCM7k=",
-        "originContent": "    Then our script will call this api using `openai` templates.",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "2. 設定ファイルを作成します："
-      },
-      {
-        "row": 6,
-        "rowsha": "8TOcpRuuIj86crkLdoy6X6faTuEefKY0ihihf3JFXmc=",
-        "originContent": "2. Write a config file:",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1755,104 +308,7 @@
     "EndLine": 0,
     "Translation": "    ```java\n    {\n        \"EVAL_SUBSET\": true, // eval a subset of given infer result folder\n        \"USE_CHECKPOINT\": false, // use a file to record evaluation process\n        \"SUBSET_FILE\": \"./eval_configs/subset.txt\", // subset file\n        \"CHECKPOINT_FILE\": \"./eval_configs/finished_scenarios.txt\", // checkpoint file\n        \"INFERENCE_RESULT_DIR\": \"./infer_results\", // path to inference results\n        // when doing closed-loop inference, this dir is ./output/infer_results/model_name+input_mode\n        \"B2D_DIR\": \"/path/to/Bench2Drive/dataset\", // evaluation script uses annotations in b2d,\n        // when doing closed-loop inference, this dir is ./eval_v1(SAVE_PATH you specified)/model_name+input_mode\n        \"ORIGINAL_VQA_DIR\": \"../Carla_Chain_QA/carla_vqa_gen/vqa_dataset/outgraph\",\n        // when doing closed-loop inference, this dir is ./output/vqagen/model_name+input_mode\n        \"FRAME_PER_SEC\": 10, // sensor fps\n        \"LOOK_FUTURE\": false // not used now, to be removed\n    }\n    ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "dNkwqz6NvoF5eGPT/taw70kXCV8Zkf/uNLe0e/5RVvA=",
-        "originContent": "    ```java",
-        "translatedContent": "    ```java"
-      },
-      {
-        "row": 2,
-        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
-        "originContent": "    {",
-        "translatedContent": "    {"
-      },
-      {
-        "row": 3,
-        "rowsha": "pvo5ngEYHU+G8ISr6C+8FHIXBA5BJvsm0JBqcH/lmio=",
-        "originContent": "        \"EVAL_SUBSET\": true, // eval a subset of given infer result folder",
-        "translatedContent": "        \"EVAL_SUBSET\": true, // eval a subset of given infer result folder"
-      },
-      {
-        "row": 4,
-        "rowsha": "mlsKBiIQCrzUMW3eW4b3wcNGKLCbFMremmDfpLriPVg=",
-        "originContent": "        \"USE_CHECKPOINT\": false, // use a file to record evaluation process",
-        "translatedContent": "        \"USE_CHECKPOINT\": false, // use a file to record evaluation process"
-      },
-      {
-        "row": 5,
-        "rowsha": "/5onlK4En4R51kU5w7nj0LtpPBQ3Xkx8r0D/R2TRhUw=",
-        "originContent": "        \"SUBSET_FILE\": \"./eval_configs/subset.txt\", // subset file",
-        "translatedContent": "        \"SUBSET_FILE\": \"./eval_configs/subset.txt\", // subset file"
-      },
-      {
-        "row": 6,
-        "rowsha": "rqDTMR82vrvMRL2w3/0WZ9q9tFkg3B1LfcthwqacXDY=",
-        "originContent": "        \"CHECKPOINT_FILE\": \"./eval_configs/finished_scenarios.txt\", // checkpoint file",
-        "translatedContent": "        \"CHECKPOINT_FILE\": \"./eval_configs/finished_scenarios.txt\", // checkpoint file"
-      },
-      {
-        "row": 7,
-        "rowsha": "lvmfeRQE9JkirzJDWFCN6YhqZoRSrtBbfbm+l8Jwoww=",
-        "originContent": "        \"INFERENCE_RESULT_DIR\": \"./infer_results\", // path to inference results",
-        "translatedContent": "        \"INFERENCE_RESULT_DIR\": \"./infer_results\", // path to inference results"
-      },
-      {
-        "row": 8,
-        "rowsha": "02kN7v0UxlMa/22oMsPyWmToyl/kbCw5lIvqg5CkeCA=",
-        "originContent": "        // when doing closed-loop inference, this dir is ./output/infer_results/model_name+input_mode",
-        "translatedContent": "        // when doing closed-loop inference, this dir is ./output/infer_results/model_name+input_mode"
-      },
-      {
-        "row": 9,
-        "rowsha": "YdM9l+a/N6EXsd7i2U+A+JQr+7BI3U1/vIluVvEfwVo=",
-        "originContent": "        \"B2D_DIR\": \"/path/to/Bench2Drive/dataset\", // evaluation script uses annotations in b2d,",
-        "translatedContent": "        \"B2D_DIR\": \"/path/to/Bench2Drive/dataset\", // evaluation script uses annotations in b2d,"
-      },
-      {
-        "row": 10,
-        "rowsha": "036739PFu7D52G/r7JtxzMGAw2PjI5VwXrIbNQTAQf4=",
-        "originContent": "        // when doing closed-loop inference, this dir is ./eval_v1(SAVE_PATH you specified)/model_name+input_mode",
-        "translatedContent": "        // when doing closed-loop inference, this dir is ./eval_v1(SAVE_PATH you specified)/model_name+input_mode"
-      },
-      {
-        "row": 11,
-        "rowsha": "7FSF2kAqTZ5uc3GWKNL5km63i+Z6BrjW9ZTUyz17/Co=",
-        "originContent": "        \"ORIGINAL_VQA_DIR\": \"../Carla_Chain_QA/carla_vqa_gen/vqa_dataset/outgraph\",",
-        "translatedContent": "        \"ORIGINAL_VQA_DIR\": \"../Carla_Chain_QA/carla_vqa_gen/vqa_dataset/outgraph\","
-      },
-      {
-        "row": 12,
-        "rowsha": "UTShvbKIZR4NU19XLVnxF5qn4SsKNxvZzoxtQeLSk24=",
-        "originContent": "        // when doing closed-loop inference, this dir is ./output/vqagen/model_name+input_mode",
-        "translatedContent": "        // when doing closed-loop inference, this dir is ./output/vqagen/model_name+input_mode"
-      },
-      {
-        "row": 13,
-        "rowsha": "pCs26PISaTALie88ZAbT15j0/e9nZlcG9BnIPka0ovw=",
-        "originContent": "        \"FRAME_PER_SEC\": 10, // sensor fps",
-        "translatedContent": "        \"FRAME_PER_SEC\": 10, // sensor fps"
-      },
-      {
-        "row": 14,
-        "rowsha": "6iqniOor+NLnAaKsfMMPIndibKGT8LxDetDtmG2GqM0=",
-        "originContent": "        \"LOOK_FUTURE\": false // not used now, to be removed",
-        "translatedContent": "        \"LOOK_FUTURE\": false // not used now, to be removed"
-      },
-      {
-        "row": 15,
-        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
-        "originContent": "    }",
-        "translatedContent": "    }"
-      },
-      {
-        "row": 16,
-        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
-        "originContent": "    ```",
-        "translatedContent": "    ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1864,26 +320,7 @@
     "EndLine": 0,
     "Translation": "2. 評価スクリプトを実行します：\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "2. 評価スクリプトを実行します："
-      },
-      {
-        "row": 2,
-        "rowsha": "7d4I9clObzZnyaLEYEnnMGz841OyoxxZGQO1p+yYlCA=",
-        "originContent": "2. Run evaluation script:",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1895,26 +332,7 @@
     "EndLine": 0,
     "Translation": "    ```shell\n    python eval.py --config_dir ./path/to/eval_config.json --num_workers 4 --out_dir ./eval_outputs\n    ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "EBNgZD2BV45ccLI2WMmxred9nrfZ698QuuxWJ+Enp58=",
-        "originContent": "    ```shell",
-        "translatedContent": "    ```shell"
-      },
-      {
-        "row": 2,
-        "rowsha": "udNNJiZQ4YnoAm50cSxikbs1W/jVvqqUUnQXPae9uaI=",
-        "originContent": "    python eval.py --config_dir ./path/to/eval_config.json --num_workers 4 --out_dir ./eval_outputs",
-        "translatedContent": "    python eval.py --config_dir ./path/to/eval_config.json --num_workers 4 --out_dir ./eval_outputs"
-      },
-      {
-        "row": 3,
-        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
-        "originContent": "    ```",
-        "translatedContent": "    ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1926,26 +344,7 @@
     "EndLine": 0,
     "Translation": "## ライセンス\nすべてのアセットおよびコードは、特に明記がない限りCC-BY-NC-NDの下で提供されています。\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## ライセンス"
-      },
-      {
-        "row": 2,
-        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
-        "originContent": "## License",
-        "translatedContent": "すべてのアセットおよびコードは、特に明記がない限りCC-BY-NC-NDの下で提供されています。"
-      },
-      {
-        "row": 3,
-        "rowsha": "a/AnraqodazBJBIXBSRfVTjBEW6mIki18CwULFCCtEw=",
-        "originContent": "All assets and code are under the CC-BY-NC-ND unless specified otherwise.",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]
