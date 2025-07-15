@@ -1,5 +1,5 @@
-# movies
-Ressources de médias audiovisuels, films, documentaires, musique, concerts, etc., mises à jour en continu
+# films
+Ressources de médias audiovisuels, films, documentaires, musique, concerts, etc., mise à jour continue
 
 [English](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=id)
 
@@ -11,42 +11,43 @@ Ressources de médias audiovisuels, films, documentaires, musique, concerts, etc
 
 
 -------
-[202505](https://raw.githubusercontent.com/mswnlz/movies/main/202505.md)
-[202506](https://raw.githubusercontent.com/mswnlz/movies/main/202506.md)
+# [202507](https://raw.githubusercontent.com/mswnlz/movies/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/movies/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/movies/main/202506.md)
 
 
 ---------------
-# Plus de ressources du projet
+### Plus de ressources du projet
 
-[🎁Ressource exceptionnelle ! Ensemble complet de cours de médecine traditionnelle chinoise, édition de collection 1.18TB, valeur initiale 59880 RMB, comprenant bases, vidéos, traitements externes, acupuncture, livres, etc.](https://github.com/mswnlz/chinese-traditional)
+[🎁 Ressource exceptionnelle ! Cours complet de médecine traditionnelle chinoise d'une valeur de 59 880 RMB【Édition à collectionner 1,18 To】, comprenant bases, vidéos, traitements externes, acupuncture, livres, etc.](https://github.com/mswnlz/chinese-traditional)
 
-[Ressources sur divers outils utiles, incluant systèmes d'exploitation, plugins, outils crackés portables, etc., mises à jour en continu](https://github.com/mswnlz/tools)
+[Différentes ressources d’outils pratiques, incluant systèmes d'exploitation, plugins variés, outils crackés portables, etc., mise à jour continue](https://github.com/mswnlz/tools)
 
-[Ressources liées au e-commerce transfrontalier : demandes, paiements, commerce international, TikTok, Amazon, ouverture de boutique, acquisition de nouveaux clients, etc., mises à jour en continu](https://github.com/mswnlz/cross-border)
 
-[Ressources liées aux médias sociaux, incluant acquisition de clients, stratégies de trafic, conversion, monétisation, etc., mises à jour en continu](https://github.com/mswnlz/self-media)
+[Ressources sur le e-commerce transfrontalier, demandes, paiements, commerce international, tiktok, Amazon, ouverture de boutiques, acquisition de nouveaux clients, etc., mise à jour continue](https://github.com/mswnlz/cross-border)
 
-[Ressources éducatives diverses, de la maternelle au primaire, collège, couvrant Xueersi, Wanwei, Yuanfudao et d'autres institutions, continuellement enrichies](https://github.com/mswnlz/edu-knowlege)
+[Ressources sur les médias sociaux, acquisition de nouveaux clients, stratégies de trafic, conversion, monétisation, etc., mise à jour continue](https://github.com/mswnlz/self-media)
 
-[Connaissances liées à l'IA, prompts, tutoriels, cours vidéo, monétisation, etc., mises à jour en continu](https://github.com/mswnlz/AIknowledge)
+[ Matériel éducatif divers, de la maternelle à l’école primaire et secondaire, couvrant Xueersi, Wanwei, Yuanfudao, et bien d’autres institutions, ajout constant](https://github.com/mswnlz/edu-knowlege)
 
-[Matériel de cours divers, incluant Dedao, supports populaires en ligne, et d'autres ressources ne pouvant être placées ailleurs, etc., mises à jour en continu](https://github.com/mswnlz/curriculum)
+[Connaissances liées à l’IA, prompts, tutoriels, vidéos, cours de monétisation, etc., mise à jour continue](https://github.com/mswnlz/AIknowledge)
 
-[Ressources de médias audiovisuels, films, documentaires, musique, concerts, etc., mises à jour en continu](https://github.com/mswnlz/movies)
+[Divers matériels de cours, y compris Dedao, ressources populaires en ligne, et autres documents ne convenant pas aux autres projets, etc., mise à jour continue](https://github.com/mswnlz/curriculum)
 
-[Ressources de livres, incluant divers tutoriels, romans et autres ouvrages](https://github.com/mswnlz/book)
+[Ressources de médias audiovisuels, films, documentaires, musique, concerts, etc., mise à jour continue](https://github.com/mswnlz/movies)
 
-[Fitness, entraînement, alimentation, nutrition, santé, sommeil, etc., mises à jour en continu](https://github.com/mswnlz/healthy)
+[Livres et documents, incluant tutoriels, romans et divers types de livres](https://github.com/mswnlz/book)
+
+[Fitness, exercice, alimentation, nutrition, santé, sommeil, etc., mise à jour continue](https://github.com/mswnlz/healthy)
 
 ---------------
 
 # Page principale des ressources
-[Base de données en continu de ressources, connaissances, films, documentaires, musique, livres, médias, etc.](https://github.com/mswnlz)
+[Regroupement de diverses ressources, connaissances, films, documentaires, musique, livres, médias, en cours de compilation](https://github.com/mswnlz)
 
 ---------------
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-15
 
 ---

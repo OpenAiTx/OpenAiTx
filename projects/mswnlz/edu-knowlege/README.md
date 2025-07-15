@@ -3,15 +3,15 @@
 
 [English](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=id)
 
+超过 100T，各种资料、知识、影视、记录片、音乐、书籍、媒体、健身，健康营养等聚集地，持续整理中 https://doc.869hr.uk
 ------------------
 
-[202505](https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/202505.md)
-[202506](https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/202506.md)
+# [202507](https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/202506.md)
 
 
 ---------------
 
-# 项目更多资源
+### 项目更多资源
 
 [🎁重磅资源！原价59880元 绝版中医课程资料大全【收藏版1.18TB】，包括基础、视频、外治、针灸、书籍等等等应有尽有](https://github.com/mswnlz/chinese-traditional)
 
@@ -69,4 +69,3 @@
   <img src="https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/support-alipay.png" width="30%">
   <img src="https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/wechat-qrcode.jpg" width="30%">
 </p>
-

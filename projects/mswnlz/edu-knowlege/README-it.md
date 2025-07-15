@@ -1,44 +1,45 @@
 # edu-knowlege
-Varie risorse educative, dall'asilo alla scuola primaria, secondaria, università, inclusi tesi di laurea e altro, che coprono istituti come Xueersi, Wanwei, Yuanfudao, Zuoyebang e molti altri. Aggiornamenti continui in corso.
+Materiali educativi di vario genere, dalla scuola materna alla primaria, secondaria, università, inclusi tesi di laurea, coprendo istituzioni come Xueersi, Wanwei, Yuanfudao, Zuoyebang e molte altre, in continuo aggiornamento
 
 [English](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=id)
 
+Oltre 100T, una raccolta di vari materiali, conoscenze, film, documentari, musica, libri, media, fitness, nutrizione e salute, in costante aggiornamento https://doc.869hr.uk
 ------------------
 
-[202505](https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/202505.md)
-[202506](https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/202506.md)
+# [202507](https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/202506.md)
 
 
 ---------------
 
-# Altre risorse del progetto
+### Altre risorse del progetto
 
-[🎁Risorse esclusive! Corso completo di medicina tradizionale cinese del valore originale di 59.880 RMB【Edizione Collezione 1.18TB】, inclusi materiali di base, video, trattamenti esterni, agopuntura, libri e molto altro](https://github.com/mswnlz/chinese-traditional)
+[🎁Risorse eccezionali! Corso completo di medicina tradizionale cinese, valore originale 59880 yuan, versione da collezione 1.18TB, include basi, video, trattamenti esterni, agopuntura, libri e molto altro](https://github.com/mswnlz/chinese-traditional)
 
-[Varie risorse utili su strumenti, inclusi sistemi operativi, vari plugin, strumenti in versione portable e crackata, ecc., aggiornamento continuo](https://github.com/mswnlz/tools)
+[Risorse utili su vari strumenti, inclusi sistemi operativi, plugin, strumenti craccati portatili, ecc., aggiornate regolarmente](https://github.com/mswnlz/tools)
 
-[Risorse relative all'e-commerce cross-border, domande, pagamenti, commercio estero, TikTok, Amazon, apertura negozi, acquisizione clienti, ecc., aggiornamento continuo](https://github.com/mswnlz/cross-border)
 
-[Risorse relative ai media digitali, tra cui acquisizione clienti, strategie di traffico, conversione, monetizzazione e altro, aggiornamento continuo](https://github.com/mswnlz/self-media)
+[Materiali relativi all’e-commerce internazionale, richieste, pagamenti, commercio estero, TikTok, Amazon, apertura negozi, acquisizione nuovi utenti, aggiornati regolarmente](https://github.com/mswnlz/cross-border)
 
-[Risorse educative varie, dall'asilo alla scuola primaria e secondaria, che coprono Xueersi, Wanwei, Yuanfudao e altri istituti, aggiornamento continuo](https://github.com/mswnlz/edu-knowlege)
+[Risorse relative ai social media, incluse acquisizione nuovi utenti, strategie di traffico, acquisizione clienti, conversione, monetizzazione, aggiornate regolarmente](https://github.com/mswnlz/self-media)
 
-[Conoscenze sull'AI, prompt, tutorial, video corsi, corsi di monetizzazione, ecc., aggiornamento continuo](https://github.com/mswnlz/AIknowledge)
+[Materiali educativi di vario genere, dalla scuola materna alla primaria e secondaria, inclusi Xueersi, Wanwei, Yuanfudao e altri, aggiornati costantemente](https://github.com/mswnlz/edu-knowlege)
 
-[Materiali di vari corsi, tra cui DeDao, materiali popolari online e altre risorse non incluse in altri progetti, ecc., aggiornamento continuo](https://github.com/mswnlz/curriculum)
+[Conoscenze su AI, prompt, tutorial, video corsi, corsi di monetizzazione e altro, aggiornati costantemente](https://github.com/mswnlz/AIknowledge)
 
-[Risorse multimediali, film, documentari, musica, concerti, ecc., aggiornamento continuo](https://github.com/mswnlz/movies)
+[Materiali di vari corsi, inclusi quelli di Dedao, materiali popolari online e altre risorse non inseribili negli altri progetti, costantemente aggiornate](https://github.com/mswnlz/curriculum)
 
-[Risorse librarie, inclusi vari tutorial, romanzi e libri di ogni genere](https://github.com/mswnlz/book)
+[Risorse multimediali: film, documentari, musica, concerti, ecc., aggiornate regolarmente](https://github.com/mswnlz/movies)
 
-[Fitness, allenamento, alimentazione, nutrizione, salute, sonno, ecc., aggiornamento continuo](https://github.com/mswnlz/healthy)
+[Materiali di libri, inclusi vari tutorial, romanzi e altri libri di ogni genere](https://github.com/mswnlz/book)
+
+[Fitness, esercizio fisico, alimentazione, nutrizione, salute, sonno, aggiornati regolarmente](https://github.com/mswnlz/healthy)
 
 
 
 ---------------
 
-# Pagina principale delle risorse
-[Varie risorse, conoscenze, film, documentari, musica, libri, media, punto di raccolta, in continuo aggiornamento](https://github.com/mswnlz)
+# Homepage delle risorse
+[Raccolta di materiali, conoscenze, film, documentari, musica, libri e media, costantemente aggiornata](https://github.com/mswnlz)
 
 ---------------
 
@@ -47,7 +48,7 @@ Varie risorse educative, dall'asilo alla scuola primaria, secondaria, universit�
 ---------------
 
 
-## Cronologia delle stelle
+## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=mswnlz/edu-knowlege&type=Date)](https://www.star-history.com/#mswnlz/edu-knowlege&Date)
 
 ---------------
@@ -55,7 +56,7 @@ Varie risorse educative, dall'asilo alla scuola primaria, secondaria, universit�
 
 
 # Dichiarazione di sponsorizzazione
-Questo progetto è supportato da [ZMTO](https://console.vtexs.com/?affid=12967) tramite il "Piano VPS gratuito per progetti open source".
+Questo progetto è supportato dalla potenza di calcolo fornita dal "Programma VPS gratuito per progetti open source" di [ZMTO](https://console.vtexs.com/?affid=12967).
 Grazie a ZMTO per il supporto alla comunità open source!
 
 
@@ -63,7 +64,7 @@ Grazie a ZMTO per il supporto alla comunità open source!
 
 # Sostienimi
 
-Se pensi che questo progetto ti sia stato utile, puoi scansionare il seguente codice QR per fare una donazione:
+Se pensi che questo progetto ti sia stato utile, puoi scansionare il seguente codice QR per effettuare una donazione:
 <p align="left">
   <img src="https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/support-alipay.png" width="30%">
   <img src="https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/wechat-qrcode.jpg" width="30%">
@@ -72,6 +73,6 @@ Se pensi che questo progetto ti sia stato utile, puoi scansionare il seguente co
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-15
 
 ---

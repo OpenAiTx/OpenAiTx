@@ -4,15 +4,14 @@
 [English](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=id)
 
 ------------
-[202505](https://raw.githubusercontent.com/mswnlz/cross-border/main/202505.md)
-[202506](https://raw.githubusercontent.com/mswnlz/cross-border/main/202506.md)
+# [202507](https://raw.githubusercontent.com/mswnlz/cross-border/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/cross-border/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/cross-border/main/202506.md)
 
 
 
 ---------------
-# 项目更多资源
+### 项目更多资源
 
-[🎁重磅资源！原价59880元 绝版中医课程资料大全【收藏版1.18TB】，包括基础、视频、外治、针灸、书籍等等等应有尽有](https://github.com/mswnlz/chinese-traditional)
+[🎁重磅资源！原价59880元 绝版中医课程资料大全【收藏版1.18TB】，包括基础、视频、外治、针灸，书籍等等等应有尽有](https://github.com/mswnlz/chinese-traditional)
 
 [各种好用工具相关的资源，包括操作系统，各种插件，绿色破解版工具等等，持续更新中](https://github.com/mswnlz/tools)
 
@@ -31,13 +30,13 @@
 
 [书籍资料相关的，包括各种教程、小说等各种书籍](https://github.com/mswnlz/book)
 
-[健身、锻炼、饮食、营养，健康，睡眠等，持续更新中](https://github.com/mswnlz/healthy)
+[健身、锻炼、饮食，营养，健康，睡眠等，持续更新中](https://github.com/mswnlz/healthy)
 
 
 
 ---------------
 
 # 资源主页
-[各种资料、知识、影视、记录片、音乐、书籍、媒体聚集地，持续整理中](https://github.com/mswnlz)
+[各种资料、知识、影视，记录片，音乐，书籍，媒体聚集地，持续整理中](https://github.com/mswnlz)
 
 ---------------

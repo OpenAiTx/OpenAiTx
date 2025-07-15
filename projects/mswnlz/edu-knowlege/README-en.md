@@ -1,35 +1,36 @@
 # edu-knowlege
-Educational materials of all kinds, from kindergarten to elementary school, middle school, university, including graduation theses, covering multiple institutions such as Xueersi, Wanwei, Yuanfudao, Zuoyebang, etc., continuously being added.
+Various educational materials, from kindergarten to elementary school, middle school, university, including graduation theses, covering Xueersi, Wanwei, Yuanfudao, Zuoyebang and other institutions, with continuous additions
 
-[English](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=en) | [Simplified Chinese](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=zh-CN) | [Traditional Chinese](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=zh-TW) | [Japanese](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=ja) | [Korean](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=ko) | [Hindi](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=hi) | [Thai](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=th) | [French](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=fr) | [German](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=de) | [Spanish](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=es) | [Italian](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=it) | [Russian](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=ru) | [Portuguese](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=pt) | [Dutch](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=nl) | [Polish](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=pl) | [Arabic](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=ar) | [Persian](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=fa) | [Turkish](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=tr) | [Vietnamese](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=vi) | [Indonesian](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=id)
+[English](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=edu-knowlege&lang=id)
 
+Over 100T, a gathering place for all kinds of materials, knowledge, movies, documentaries, music, books, media, fitness, health and nutrition, etc., continuously being organized https://doc.869hr.uk
 ------------------
 
-[202505](https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/202505.md)
-[202506](https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/202506.md)
+# [202507](https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/202506.md)
 
 
 ---------------
 
-# More Project Resources
+### More resources of the project
 
-[🎁 Blockbuster Resource! Original price 59,880 RMB, Complete Collection of Rare Traditional Chinese Medicine Courses [Collector's Edition 1.18TB], including basics, videos, external therapies, acupuncture, books, etc.](https://github.com/mswnlz/chinese-traditional)
+[🎁Heavyweight resource! Original price 59,880 RMB, rare complete collection of Traditional Chinese Medicine courses [Collector's Edition 1.18TB], including basics, videos, external therapies, acupuncture, books and much more](https://github.com/mswnlz/chinese-traditional)
 
-[Various useful tools and related resources, including operating systems, various plugins, green cracked tools, etc., continuously updated](https://github.com/mswnlz/tools)
+[Various useful tool-related resources, including operating systems, all kinds of plugins, green cracked tools, etc., continuously updated](https://github.com/mswnlz/tools)
 
-[Cross-border e-commerce related materials, applications, payments, foreign trade, TikTok, Amazon, store opening, customer acquisition, etc., continuously updated](https://github.com/mswnlz/cross-border)
 
-[Self-media related resources, including customer acquisition, traffic strategies, conversion, monetization, etc., continuously updated](https://github.com/mswnlz/self-media)
+[Cross-border e-commerce related materials, application, payment, foreign trade, TikTok, Amazon, opening stores, customer acquisition and more resources, continuously updated](https://github.com/mswnlz/cross-border)
 
-[Educational materials of all kinds, from kindergarten to elementary and middle school, covering multiple institutions such as Xueersi, Wanwei, Yuanfudao, etc., continuously being added](https://github.com/mswnlz/edu-knowlege)
+[Self-media related resources, including user acquisition, traffic strategies, customer acquisition, conversion, monetization and more, continuously updated](https://github.com/mswnlz/self-media)
 
-[AI-related knowledge, prompts, tutorials, video tutorials, monetization courses, etc., continuously updated](https://github.com/mswnlz/AIknowledge)
+[ Educational materials of all kinds, from kindergarten to elementary and middle school, covering Xueersi, Wanwei, Yuanfudao and other institutions, continuously increasing](https://github.com/mswnlz/edu-knowlege)
 
-[Various course materials, including Dedao, popular online materials, and other resources that don't fit into other projects, etc., continuously updated](https://github.com/mswnlz/curriculum)
+[AI related knowledge, prompts, tutorials, video courses, monetization courses, etc., continuously updated](https://github.com/mswnlz/AIknowledge)
+
+[Various course materials, including Dedao, popular online materials, and those that don’t fit well in other projects, all here, etc., continuously updated](https://github.com/mswnlz/curriculum)
 
 [Film and media resources, movies, documentaries, music, concerts, etc., continuously updated](https://github.com/mswnlz/movies)
 
-[Book resources, including various tutorials, novels, and all kinds of books](https://github.com/mswnlz/book)
+[Book resources, including various tutorials, novels and all kinds of books](https://github.com/mswnlz/book)
 
 [Fitness, exercise, diet, nutrition, health, sleep, etc., continuously updated](https://github.com/mswnlz/healthy)
 
@@ -38,7 +39,7 @@ Educational materials of all kinds, from kindergarten to elementary school, midd
 ---------------
 
 # Resource Homepage
-[Collection of various materials, knowledge, movies, documentaries, music, books, media, continuously organized](https://github.com/mswnlz)
+[All kinds of materials, knowledge, movies, documentaries, music, books, media gathering place, continuously organized](https://github.com/mswnlz)
 
 ---------------
 
@@ -55,8 +56,8 @@ Educational materials of all kinds, from kindergarten to elementary school, midd
 
 
 # Sponsorship Statement
-This project is powered by the "Open Source Project Free VPS Program" from [ZMTO](https://console.vtexs.com/?affid=12967).
-Thanks to ZMTO for supporting the open source community!
+This project is powered by [ZMTO](https://console.vtexs.com/?affid=12967) "Free VPS for Open Source Projects" program.
+Thank you ZMTO for supporting the open source community!
 
 
 ---------------
@@ -72,6 +73,6 @@ If you find this project helpful, you can scan the QR codes below to donate:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-15
 
 ---

@@ -3,18 +3,18 @@
 
 [English](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=en) | [簡體中文](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=id)
 
-[202505](https://raw.githubusercontent.com/mswnlz/chinese-traditional/main/202505.md)
+# [202505](https://raw.githubusercontent.com/mswnlz/chinese-traditional/main/202505.md)
 
 
 ---------------
-# 項目更多資源
+### 項目更多資源
 
 [🎁重磅資源！原價59880元 絕版中醫課程資料大全【收藏版1.18TB】，包括基礎、視頻、外治、針灸、書籍等等等應有盡有](https://github.com/mswnlz/chinese-traditional)
 
-[各種好用工具相關的資源，包括操作系統，各種插件，綠色破解版工具等等，持續更新中](https://github.com/mswnlz/tools)
+[各種好用工具相關的資源，包括作業系統，各種插件，綠色破解版工具等等，持續更新中](https://github.com/mswnlz/tools)
 
 
-[跨境電商相關的資料，申請，支付、外貿，tiktok，亞馬遜，開店舖，拉新等資源，持續更新中](https://github.com/mswnlz/cross-border)
+[跨境電商相關的資料，申請，支付、外貿，tiktok，亞馬遜，開店鋪，拉新等資源，持續更新中](https://github.com/mswnlz/cross-border)
 
 [自媒體相關資源，包括拉新，流量玩法、獲客，轉化、變現等資料，持續更新中](https://github.com/mswnlz/self-media)
 
@@ -38,8 +38,10 @@
 
 
 
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-15
 
 ---
