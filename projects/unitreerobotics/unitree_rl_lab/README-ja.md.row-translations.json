@@ -1,0 +1,764 @@
+[
+  {
+    "row": 1,
+    "rowsha": "xDNZ1LOLsd7/y9oRsZ1GC3fFtTcOKyeiCegpvCzuxH0=",
+    "originContent": "# Unitree RL Lab",
+    "translatedContent": "# Unitree RL Lab"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "L5sS/VXpSEoaJ9P7yNsxjzWt4uTs6U2bnWx+S1+udj8=",
+    "originContent": "[![IsaacSim](https://img.shields.io/badge/IsaacSim-4.5.0-silver.svg)](https://docs.omniverse.nvidia.com/isaacsim/latest/overview.html)",
+    "translatedContent": "[![IsaacSim](https://img.shields.io/badge/IsaacSim-4.5.0-silver.svg)](https://docs.omniverse.nvidia.com/isaacsim/latest/overview.html)"
+  },
+  {
+    "row": 4,
+    "rowsha": "dSn29z3DjCz+6cRVZu1fdTCsBE1rB+tx6yBhTvHPT9c=",
+    "originContent": "[![Isaac Lab](https://img.shields.io/badge/IsaacLab-2.0.0-silver)](https://isaac-sim.github.io/IsaacLab)",
+    "translatedContent": "[![Isaac Lab](https://img.shields.io/badge/IsaacLab-2.0.0-silver)](https://isaac-sim.github.io/IsaacLab)"
+  },
+  {
+    "row": 5,
+    "rowsha": "RzXFv3au26039zkaS8k2GsswZZrGkgWeTtsW415+6tA=",
+    "originContent": "[![License](https://img.shields.io/badge/license-Apache2.0-yellow.svg)](https://opensource.org/license/apache-2-0)",
+    "translatedContent": "[![License](https://img.shields.io/badge/license-Apache2.0-yellow.svg)](https://opensource.org/license/apache-2-0)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
+    "originContent": "## Overview",
+    "translatedContent": "## 概要"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "hLEHhg/VbLu3SIH80fXVdPj1exsYdcCf5PyUwZd386U=",
+    "originContent": "This project provides a set of reinforcement learning environments for Unitree robots, built on top of [IsaacLab](https://github.com/isaac-sim/IsaacLab).",
+    "translatedContent": "本プロジェクトは、[IsaacLab](https://github.com/isaac-sim/IsaacLab) 上に構築されたUnitreeロボット用の強化学習環境のセットを提供します。"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "ysf0GrmYF1FuHLvkxS5v0RW+a1yphx3CDhGIqvqLMXw=",
+    "originContent": "Currently supports Unitree **Go2**, **H1** and **G1-29dof** robots.",
+    "translatedContent": "現在、Unitreeの**Go2**、**H1**、および**G1-29dof**ロボットをサポートしています。"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+    "originContent": "<div align=\"center\">",
+    "translatedContent": "<div align=\"center\">"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "R5f28ydz1vNpJGcKrVUtDr6K2Op718K5dSGyjzfMB2Y=",
+    "originContent": "| <div align=\"center\"> Isaac Lab </div> | <div align=\"center\">  Mujoco </div> |  <div align=\"center\"> Physical </div> |",
+    "translatedContent": "| <div align=\"center\"> Isaac Lab </div> | <div align=\"center\">  Mujoco </div> |  <div align=\"center\"> 物理環境 </div> |"
+  },
+  {
+    "row": 16,
+    "rowsha": "Th5m3ucRY0UNC53si0b4GrgBQUltW56EkF5jFKAaAyg=",
+    "originContent": "|--- | --- | --- |",
+    "translatedContent": "|--- | --- | --- |"
+  },
+  {
+    "row": 17,
+    "rowsha": "wYdBo0CvXSBX0jtwjkni0bp2kkJzzQGf3DGSMbEgHbc=",
+    "originContent": "| [<img src=\"https://oss-global-cdn.unitree.com/static/d879adac250648c587d3681e90658b49_480x397.gif\" width=\"240px\">](https://raw.githubusercontent.com/unitreerobotics/unitree_rl_lab/main/g1_sim.gif) | [<img src=\"https://oss-global-cdn.unitree.com/static/3c88e045ab124c3ab9c761a99cb5e71f_480x397.gif\" width=\"240px\">](https://raw.githubusercontent.com/unitreerobotics/unitree_rl_lab/main/g1_mujoco.gif) | [<img src=\"https://oss-global-cdn.unitree.com/static/6c17c6cf52ec4e26bbfab1fbf591adb2_480x270.gif\" width=\"240px\">](https://raw.githubusercontent.com/unitreerobotics/unitree_rl_lab/main/g1_real.gif) |",
+    "translatedContent": "| [<img src=\"https://oss-global-cdn.unitree.com/static/d879adac250648c587d3681e90658b49_480x397.gif\" width=\"240px\">](https://raw.githubusercontent.com/unitreerobotics/unitree_rl_lab/main/g1_sim.gif) | [<img src=\"https://oss-global-cdn.unitree.com/static/3c88e045ab124c3ab9c761a99cb5e71f_480x397.gif\" width=\"240px\">](https://raw.githubusercontent.com/unitreerobotics/unitree_rl_lab/main/g1_mujoco.gif) | [<img src=\"https://oss-global-cdn.unitree.com/static/6c17c6cf52ec4e26bbfab1fbf591adb2_480x270.gif\" width=\"240px\">](https://raw.githubusercontent.com/unitreerobotics/unitree_rl_lab/main/g1_real.gif) |"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## インストール"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "hHAExdqdtW2Q43XVFfaEqhp0hmtg82fil3YfPEDBLrE=",
+    "originContent": "- Install Isaac Lab by following the [installation guide](https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/index.html).",
+    "translatedContent": "- [インストールガイド](https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/index.html)に従ってIsaac Labをインストールしてください。"
+  },
+  {
+    "row": 24,
+    "rowsha": "/k2jAHEIXCX4XL+m1DCCWTkG1oGm4F26qaJKO8AW728=",
+    "originContent": "- Install the Unitree RL IsaacLab standalone environments.",
+    "translatedContent": "- Unitree RL IsaacLabのスタンドアロン環境をインストールします。"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "zOZir6UxyrPd87BodvthDbWhgapc7fxlx3Hwb++FttI=",
+    "originContent": "  - Clone or copy this repository separately from the Isaac Lab installation (i.e. outside the `IsaacLab` directory):",
+    "translatedContent": "  - Isaac Labのインストールとは別に、このリポジトリをクローンまたはコピーしてください（つまり、`IsaacLab`ディレクトリの外側）："
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+    "originContent": "    ```bash",
+    "translatedContent": "    ```bash"
+  },
+  {
+    "row": 29,
+    "rowsha": "p6ZuxebmVxarHT4w+vb/o8hu7NthE1ohVMOjGFvM4yw=",
+    "originContent": "    git clone https://github.com/unitreerobotics/unitree_rl_lab.git",
+    "translatedContent": "    git clone https://github.com/unitreerobotics/unitree_rl_lab.git"
+  },
+  {
+    "row": 30,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 31,
+    "rowsha": "1iE7ELwOFiXcpOmxJZJmT57RLOg6rY+JbRa4nuNvvZU=",
+    "originContent": "  - Use a python interpreter that has Isaac Lab installed, install the library in editable mode using:",
+    "translatedContent": "  - Isaac LabがインストールされているPythonインタープリターを使用し、ライブラリを編集可能モードでインストールします:"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+    "originContent": "    ```bash",
+    "translatedContent": "    ```bash"
+  },
+  {
+    "row": 34,
+    "rowsha": "5j5WlK/4ZVAA4EMD80LNLzCHHBQl94yAIiOiUqwCU00=",
+    "originContent": "    conda activate env_isaaclab",
+    "translatedContent": "    conda activate env_isaaclab"
+  },
+  {
+    "row": 35,
+    "rowsha": "OziTY1plFY/xv4vNcy6+xt7nvxElPZtwgxoGgnOja+g=",
+    "originContent": "    python -m pip install -e source/unitree_rl_lab",
+    "translatedContent": "    python -m pip install -e source/unitree_rl_lab"
+  },
+  {
+    "row": 36,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 37,
+    "rowsha": "28N+wQXJfKO02C3uDvI6ILllUA59BIJ78U04O2UZXKc=",
+    "originContent": "- Download unitree usd files",
+    "translatedContent": "- unitreeのusdファイルをダウンロードする"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "jsrkaijmooHqnTl37od93y/FnUAeB+1V8SR8i4RPzB0=",
+    "originContent": "  - Download unitree usd files from [unitree_model](https://huggingface.co/datasets/unitreerobotics/unitree_model/tree/main), keeping folder structure",
+    "translatedContent": "  - フォルダ構造を保持したまま、[unitree_model](https://huggingface.co/datasets/unitreerobotics/unitree_model/tree/main)からunitreeのusdファイルをダウンロードする"
+  },
+  {
+    "row": 40,
+    "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+    "originContent": "    ```bash",
+    "translatedContent": "    ```bash"
+  },
+  {
+    "row": 41,
+    "rowsha": "rZHNbAmteG7X8f+DBoliQEss10bVYLhzURVdp2z/89I=",
+    "originContent": "    git clone https://huggingface.co/datasets/unitreerobotics/unitree_model",
+    "translatedContent": "    git clone https://huggingface.co/datasets/unitreerobotics/unitree_model"
+  },
+  {
+    "row": 42,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 43,
+    "rowsha": "AL9l8DJIz4b5LyzYyWmvupNopPtHHcgW0YvAJ/jSqv4=",
+    "originContent": "  - Config `UNITREE_MODEL_DIR` in `source/unitree_rl_lab/unitree_rl_lab/assets/robots/unitree.py`.",
+    "translatedContent": "  - `source/unitree_rl_lab/unitree_rl_lab/assets/robots/unitree.py`の`UNITREE_MODEL_DIR`を設定します。"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+    "originContent": "    ```bash",
+    "translatedContent": "    ```bash"
+  },
+  {
+    "row": 46,
+    "rowsha": "R0BbgZQMEwvVTIXtU2tbGMmPdV/OQbQIiKIG2leWasM=",
+    "originContent": "    UNITREE_MODEL_DIR = \"</home/user/projects/unitree_usd>\"",
+    "translatedContent": "    UNITREE_MODEL_DIR = \"</home/user/projects/unitree_usd>\""
+  },
+  {
+    "row": 47,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 48,
+    "rowsha": "PT5lmnNUjLU4fjaEv04kUcZeK0xPnzR8ifzVAvWPksM=",
+    "originContent": "- Verify that the environments are correctly installed by:",
+    "translatedContent": "- 次の方法で環境が正しくインストールされていることを確認します："
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "HV990vBoe/jNvbNNKGbtNdxL3Yr+bGa9znWjJy2NZlM=",
+    "originContent": "  - Listing the available tasks:",
+    "translatedContent": "  - 利用可能なタスクを一覧表示します："
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+    "originContent": "    ```bash",
+    "translatedContent": "    ```bash"
+  },
+  {
+    "row": 53,
+    "rowsha": "96smcvKZVYfcE/HmB/Avg3NKHiJ/U6spDVsPP6VNwoY=",
+    "originContent": "    python scripts/list_envs.py",
+    "translatedContent": "    python scripts/list_envs.py"
+  },
+  {
+    "row": 54,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 55,
+    "rowsha": "LDN4qWEdsTpyHsfL4hB0wD2NgKYXcrtpqLz0daq8MVo=",
+    "originContent": "  - Running a task:",
+    "translatedContent": "  - タスクの実行:"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+    "originContent": "    ```bash",
+    "translatedContent": "    ```bash"
+  },
+  {
+    "row": 58,
+    "rowsha": "e3zi7RsE/U5/mOMX2cNOf4qE16ohCoGbVXeXFacIc0Q=",
+    "originContent": "    python scripts/rsl_rl/train.py --headless --task Unitree-G1-29dof-Velocity",
+    "translatedContent": "    python scripts/rsl_rl/train.py --headless --task Unitree-G1-29dof-Velocity"
+  },
+  {
+    "row": 59,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 60,
+    "rowsha": "NuOdjJVuPuy9n/L8CB2d4IUNq+LTomM4entN0Q0RjKE=",
+    "originContent": "  - Inference with a trained agent:",
+    "translatedContent": "  - 訓練済みエージェントによる推論:"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+    "originContent": "    ```bash",
+    "translatedContent": "    ```bash"
+  },
+  {
+    "row": 63,
+    "rowsha": "5qYryGatiEcc3hRHgISmVyOuhPoZZ3xwq2QA3LpOUpI=",
+    "originContent": "    python scripts/rsl_rl/play.py --task Unitree-G1-29dof-Velocity-Play",
+    "translatedContent": "    python scripts/rsl_rl/play.py --task Unitree-G1-29dof-Velocity-Play"
+  },
+  {
+    "row": 64,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## デプロイ"
+  },
+  {
+    "row": 66,
+    "rowsha": "yj2nRQSTwHRXRGHFp62rI01LMArxtKJNctYWy1VPq0k=",
+    "originContent": "## Deploy",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "モデルのトレーニングが完了したら、Mujocoで訓練された戦略に対してsim2simを実行し、モデルの性能をテストする必要があります。  "
+  },
+  {
+    "row": 68,
+    "rowsha": "Q4tCplxG7uM6jDNVNHOhzR7tyjvuOvFylU9g5Xsb9t4=",
+    "originContent": "After the model training is completed, we need to perform sim2sim on the trained strategy in Mujoco to test the performance of the model.",
+    "translatedContent": "その後、sim2realを展開します。"
+  },
+  {
+    "row": 69,
+    "rowsha": "woF3HrsoQ8dTErxgfdPKXMEdZKQtP+K11G2UbMl5Ons=",
+    "originContent": "Then deploy sim2real.",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### セットアップ"
+  },
+  {
+    "row": 71,
+    "rowsha": "iJa409tTUC9P1gTULbIw6Kod+KAUdLl5kgZl7whoChE=",
+    "originContent": "### Setup",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 74,
+    "rowsha": "eZl+L3vwMSfnhJPApyjgp5MAN3lox2CikfYeIVqDi7M=",
+    "originContent": "# Install dependencies",
+    "translatedContent": "# Install dependencies"
+  },
+  {
+    "row": 75,
+    "rowsha": "YHZHj/u2Tsi2C9xCxpdT44gDz7IKnYac0ZnzJsbkKSY=",
+    "originContent": "sudo apt install -y libyaml-cpp-dev libboost-all-dev libeigen3-dev libspdlog-dev",
+    "translatedContent": "sudo apt install -y libyaml-cpp-dev libboost-all-dev libeigen3-dev libspdlog-dev"
+  },
+  {
+    "row": 76,
+    "rowsha": "8qCX8EeJhJ51CTqGX72O+NbzVzE5Ok29L6JpWPVXxMo=",
+    "originContent": "# Install unitree_sdk2",
+    "translatedContent": "# Install unitree_sdk2"
+  },
+  {
+    "row": 77,
+    "rowsha": "yqkAy3Np7AxwCgKZAacn4BUzyOC7PFLcM3IHIe6okc4=",
+    "originContent": "git clone git@github.com:unitreerobotics/unitree_sdk2.git",
+    "translatedContent": "git clone git@github.com:unitreerobotics/unitree_sdk2.git"
+  },
+  {
+    "row": 78,
+    "rowsha": "vPyv3ijaViADmb74Vaqu+7f9TsFoBLMILAovF20aDFg=",
+    "originContent": "cd unitree_sdk2",
+    "translatedContent": "cd unitree_sdk2"
+  },
+  {
+    "row": 79,
+    "rowsha": "/ij4nXADubLfmHtzOAT6hQUJOJtaNpy3lGYNFT5zcdc=",
+    "originContent": "mkdir build && cd build",
+    "translatedContent": "mkdir build && cd build"
+  },
+  {
+    "row": 80,
+    "rowsha": "YR6z6T443BC8iU5kidicY4fMO6XDdCrt3dw8g89JkT8=",
+    "originContent": "cmake .. -DBUILD_EXAMPLES=OFF # Install on the /usr/local directory",
+    "translatedContent": "cmake .. -DBUILD_EXAMPLES=OFF # Install on the /usr/local directory"
+  },
+  {
+    "row": 81,
+    "rowsha": "X4lB+l8zOMi20qo0XRIEKTZp6x0ypYIDekQeYf6ZkJw=",
+    "originContent": "sudo make install",
+    "translatedContent": "sudo make install"
+  },
+  {
+    "row": 82,
+    "rowsha": "Rv61DKRS+8/RH+WYoqZ5WtI+suRnbyoMq5EmuzAg+1Q=",
+    "originContent": "# Compile the robot_controller",
+    "translatedContent": "# Compile the robot_controller"
+  },
+  {
+    "row": 83,
+    "rowsha": "kTzhvuBDPZbNmvvNY8fcjgTQAo2W0WKsStHVGj/dJpc=",
+    "originContent": "cd deploy/robots/g1 # or other robots",
+    "translatedContent": "cd deploy/robots/g1 # or other robots"
+  },
+  {
+    "row": 84,
+    "rowsha": "/ij4nXADubLfmHtzOAT6hQUJOJtaNpy3lGYNFT5zcdc=",
+    "originContent": "mkdir build && cd build",
+    "translatedContent": "mkdir build && cd build"
+  },
+  {
+    "row": 85,
+    "rowsha": "lUfUoB8xbRJurA+RP2r55jEqXwxG3WMgS1cRod5QBqQ=",
+    "originContent": "cmake .. && make",
+    "translatedContent": "cmake .. && make"
+  },
+  {
+    "row": 86,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Sim2Sim"
+  },
+  {
+    "row": 88,
+    "rowsha": "ifkI/vqCD8g9IC/p+Nwo9iG4jDNfDK3hbrVSlgTU+5M=",
+    "originContent": "### Sim2Sim",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[unitree_mujoco](https://github.com/unitreerobotics/unitree_mujoco?tab=readme-ov-file#installation)のインストール。"
+  },
+  {
+    "row": 90,
+    "rowsha": "tPvXenDr3R646dCjGbH/XCaT0BQ+/eFkaZaBagypzko=",
+    "originContent": "Installing the [unitree_mujoco](https://github.com/unitreerobotics/unitree_mujoco?tab=readme-ov-file#installation).",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- `/simulate/config.yaml` の `robot` を g1 に設定"
+  },
+  {
+    "row": 92,
+    "rowsha": "csanj2BEZsBcEEoMM27rqFQoBraa2s8AeHMCqCnX6Yk=",
+    "originContent": "- Set the `robot` at `/simulate/config.yaml` to g1",
+    "translatedContent": "- `domain_id` を 0 に設定"
+  },
+  {
+    "row": 93,
+    "rowsha": "dAQZ696gUlQjDIvtMhN8aiH8Y/qi2k39krYAfbXuVjA=",
+    "originContent": "- Set `domain_id` to 0",
+    "translatedContent": "- `enable_elastic_hand` を 1 に設定"
+  },
+  {
+    "row": 94,
+    "rowsha": "JObDK1mHO3SiR5zS7g4FpkD++iuB5ytPMhkxAlvz95Q=",
+    "originContent": "- Set `enable_elastic_hand` to 1",
+    "translatedContent": "- `use_joystck` を 1 に設定。"
+  },
+  {
+    "row": 95,
+    "rowsha": "2rw8mxMXRFDMiL60cUxHG1nKWUd9Ob+owLlTM6d0BzA=",
+    "originContent": "- Set `use_joystck` to 1.",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 98,
+    "rowsha": "Yljua2RdSRTbC3XEgEUnLh6RHEjK1ISzdOlR2jJXY48=",
+    "originContent": "# start simulation",
+    "translatedContent": "# start simulation"
+  },
+  {
+    "row": 99,
+    "rowsha": "Gqg2ch08g56jHSD3X/bNDrDQzeknNqhyoz10DJxfVyE=",
+    "originContent": "cd unitree_mujoco/simulate/build",
+    "translatedContent": "cd unitree_mujoco/simulate/build"
+  },
+  {
+    "row": 100,
+    "rowsha": "TaOFA2tdBE2gchBlrppbZtWKRt3FUdGQvJgs3SJw/0A=",
+    "originContent": "./unitree_mujoco",
+    "translatedContent": "./unitree_mujoco"
+  },
+  {
+    "row": 101,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "元のテキストには1行あります。翻訳も正確に1行でなければなりません。"
+  },
+  {
+    "row": 103,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 104,
+    "rowsha": "Aapv/+HvtVLQuW2ITaOWxCjbpxMKTtyCPkPkRWdelc4=",
+    "originContent": "cd unitree_rl_lab/deploy/robots/g1/build",
+    "translatedContent": "cd unitree_rl_lab/deploy/robots/g1/build"
+  },
+  {
+    "row": 105,
+    "rowsha": "RSPeobNy7bFPy646XvzAcnBZBuVi3KnA2lbwSHa/6iU=",
+    "originContent": "./g1_ctrl",
+    "translatedContent": "./g1_ctrl"
+  },
+  {
+    "row": 106,
+    "rowsha": "OPjqGJU3P8G0aL8elS2T3YvQ0ujZauW7nv39J2V7+Ps=",
+    "originContent": "# 1. press [L2 + Up] to set the robot to stand up",
+    "translatedContent": "# 1. press [L2 + Up] to set the robot to stand up"
+  },
+  {
+    "row": 107,
+    "rowsha": "PE/a428US3HMNA57n1IcWxNs4IHYjPCajEwhlECKIrk=",
+    "originContent": "# 2. Click the mujoco window, and then press 8 to make the robot feet touch the ground.",
+    "translatedContent": "# 2. Click the mujoco window, and then press 8 to make the robot feet touch the ground."
+  },
+  {
+    "row": 108,
+    "rowsha": "fhgEMQxOhYnsH5Q8+9k6rs+RE7HGpoPpKbGoqDuW3SM=",
+    "originContent": "# 3. Press [R1 + X] to run the policy.",
+    "translatedContent": "# 3. Press [R1 + X] to run the policy."
+  },
+  {
+    "row": 109,
+    "rowsha": "k6OXrsZPSUOojzc2/mb1JZLMY2diclZWyGoWkG2JyC4=",
+    "originContent": "# 4. Click the mujoco window, and then press 9 to disable the elastic band.",
+    "translatedContent": "# 4. Click the mujoco window, and then press 9 to disable the elastic band."
+  },
+  {
+    "row": 110,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Sim2Real"
+  },
+  {
+    "row": 112,
+    "rowsha": "iaBV1ZtB3P/eUwVe0vQ3saGh51rXx8ICtgmnFm2duwQ=",
+    "originContent": "### Sim2Real",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "このプログラムを使用してロボットを直接制御できますが、オンボード制御プログラムが終了していることを確認してください。"
+  },
+  {
+    "row": 114,
+    "rowsha": "eCAXvcf8xVhopKLwt8JH1iGqkqGDHczygTCj1sUZj20=",
+    "originContent": "You can use this program to control the robot directly, but make sure the on-borad control program has been closed.",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 117,
+    "rowsha": "jdqtmFvpAaMZWimR/KXq6uqgaatol6YmSony80ap3Xk=",
+    "originContent": "./g1_ctrl --network eth0 # eth0 is the network interface name.",
+    "translatedContent": "./g1_ctrl --network eth0 # eth0 is the network interface name."
+  },
+  {
+    "row": 118,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 謝辞"
+  },
+  {
+    "row": 120,
+    "rowsha": "HvkwNudYOlwL8j/t4djBVF3hUJwHWa2r5QjmSxgq3AA=",
+    "originContent": "## Acknowledgements",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "このリポジトリは、以下のオープンソースプロジェクトのサポートと貢献に基づいて構築されています。特に感謝します："
+  },
+  {
+    "row": 122,
+    "rowsha": "ht+RtvgAH8GyfHavShA7NQaRms6iAsVEDcH55vipm4g=",
+    "originContent": "This repository is built upon the support and contributions of the following open-source projects. Special thanks to:",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [IsaacLab](https://github.com/isaac-sim/IsaacLab): トレーニングおよび実行コードの基盤。"
+  },
+  {
+    "row": 124,
+    "rowsha": "YyU9v+aTOvYc8YMfEdmb/ACCeizjnQy3o22gqXsOwjE=",
+    "originContent": "- [IsaacLab](https://github.com/isaac-sim/IsaacLab): The foundation for training and running codes.",
+    "translatedContent": "- [mujoco](https://github.com/google-deepmind/mujoco.git): 強力なシミュレーション機能の提供。"
+  },
+  {
+    "row": 125,
+    "rowsha": "nINtyI9j5TgRqSBXOFVXdbSXzZnRV0rE2W/2z/1RUzE=",
+    "originContent": "- [mujoco](https://github.com/google-deepmind/mujoco.git): Providing powerful simulation functionalities.",
+    "translatedContent": "- [robot_lab](https://github.com/fan-ziqi/robot_lab): プロジェクト構造と実装の一部の参照。"
+  },
+  {
+    "row": 126,
+    "rowsha": "yE9A9cT6DiD1g/1RMCJD5XS2FUekVjJpkLIwg1ZPXLE=",
+    "originContent": "- [robot_lab](https://github.com/fan-ziqi/robot_lab): Referenced for project structure and parts of the implementation.",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

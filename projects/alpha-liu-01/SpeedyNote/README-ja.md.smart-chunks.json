@@ -1,0 +1,757 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 📝 SpeedyNote\n\n_A lightweight, fast, and stylus-optimized note-taking app built for classic tablet PCs, low-resolution screens, and vintage hardware._\n\n如果您恰好不懂英文，请移步[中文README](https://github.com/alpha-liu-01/SpeedyNote/blob/main/speedynote_README_zh_CN.md)\n\n![cover](https://i.imgur.com/UTNNbnM.png)\n\n---\n\n## ✨ Features\n\n- 🖊️ **Pressure-sensitive inking** with stylus support\n- 📄 **Multi-page notebooks** with tabbed or scrollable page view\n- 📌 **PDF background integration** with annotation overlay\n- 🌀 **Dial UI + Joy-Con support** for intuitive one-handed control\n- 🎨 **Per-page background styles**: grid, lined, or blank (customizable)\n- 💾 **Portable `.snpkg` notebooks** for export/import & sharing\n- 🔎 **Zoom, pan, thickness, and color preset switching** via dial\n- 💡 **Designed for low-spec devices** (133Hz Sample Rate @ Intel Atom N450)\n- 🌏 **Supports multiple languages across the globe** (Covers half the global population)\n\n---\n\n## 📸 Screenshots\n\n| Drawing | Dial UI / Joycon Controls | Overlay Grid Options |\n|----------------|------------------------|-----------------------|\n| ![draw](https://i.imgur.com/iARL6Vo.gif) | ![pdf](https://i.imgur.com/NnrqOQQ.gif) | ![grid](https://i.imgur.com/YaEdx1p.gif) |\n\n\n---\n\n## 🚀 Getting Started\n\n### ✅ Requirements\n\n- Windows 7/8/10/11/Ubuntu amd64/Kali amd64/PostmarketOS arm64\n- Qt 5 or Qt 6 runtime (bundled in Windows releases)\n- Stylus input (Wacom recommended)\n\n### 🛠️ Usage\n\n1. Launch `NoteApp.exe`\n2. Click **Folder Icon** to select a working folder or **Import `.snpkg` Package**\n3. Start writing/drawing using your stylus\n4. Use the **MagicDial** or **Joy-Con** to change tools, zoom, scroll, or switch pages\n5. Notebooks can be exported as `.snpkg`\n\n---\n\n## 📦 Notebook Format\n\n- Can be saved as:\n  - 📁 A **folder** with `.png` pages + metadata\n  - 🗜️ A **`.snpkg` archive** for portability (non-compressed `.tar`)\n- Each notebook may contain:\n  - Annotated page images (`annotated_XXXX.png`)\n  - Optional background images from PDF (`XXXX.png`)\n  - Metadata: background style, density, color, and PDF path\n\n---\n\n## 🎮 Controller Support\n\nSpeedyNote supports controller input, ideal for tablet users:\n\n- ✅ **Left Joy-Con supported**\n- 🎛️ Analog stick → Dial control\n- 🔘 Buttons can be mapped to:\n  - Control the dial with multiple features\n  - Toggle fullscreen\n  - Change color / thickness\n  - Open control panel\n  - Create/delete pages\n\n> Long press + turn = hold-and-turn mappings\n\n---\n\n## 📁 Building From Source\n\n\n1. Install **Qt 6** and **CMake**\n2. Clone this repository\n3. Run:\n",
+    "ContentSha": "RQemup5m9GK5B+oVbcmKXScdmBSvcabLf7qZKw2axH4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 📝 SpeedyNote\n\n_クラシックなタブレットPC、低解像度スクリーン、ヴィンテージハードウェア向けに設計された、軽量で高速、スタイラス最適化のノートテイキングアプリ。_\n\nもし英語がわからない場合は、[中国語README](https://github.com/alpha-liu-01/SpeedyNote/blob/main/speedynote_README_zh_CN.md)をご覧ください\n\n![cover](https://i.imgur.com/UTNNbnM.png)\n\n---\n\n## ✨ 特徴\n\n- 🖊️ **圧力感知インキング** スタイラス対応\n- 📄 **複数ページのノートブック** タブまたはスクロール表示対応\n- 📌 **PDF背景統合** 注釈オーバーレイ付き\n- 🌀 **ダイヤルUI + Joy-Con対応** 片手で直感的に操作可能\n- 🎨 **ページごとの背景スタイル**：グリッド、罫線、または白紙（カスタマイズ可能）\n- 💾 **ポータブルな `.snpkg` ノートブック** エクスポート/インポート＆共有用\n- 🔎 **ズーム、パン、線の太さ、色のプリセット切替** ダイヤルで操作\n- 💡 **低スペックデバイス向け設計**（Intel Atom N450で133Hzサンプルレート動作）\n- 🌏 **多言語対応**（世界人口の半数をカバー）\n\n---\n\n## 📸 スクリーンショット\n\n| 描画 | ダイヤルUI / Joy-Con操作 | オーバーレイグリッドオプション |\n|----------------|------------------------|-----------------------|\n| ![draw](https://i.imgur.com/iARL6Vo.gif) | ![pdf](https://i.imgur.com/NnrqOQQ.gif) | ![grid](https://i.imgur.com/YaEdx1p.gif) |\n\n\n---\n\n## 🚀 はじめに\n\n### ✅ 動作環境\n\n- Windows 7/8/10/11/Ubuntu amd64/Kali amd64/PostmarketOS arm64\n- Qt 5 または Qt 6 ランタイム（Windowsリリースにはバンドル済み）\n- スタイラス入力（Wacom推奨）\n\n### 🛠️ 使い方\n\n1. `NoteApp.exe` を起動\n2. **フォルダアイコン** をクリックして作業フォルダを選択、または **`.snpkg` パッケージをインポート**\n3. スタイラスで書き込み/描画を開始\n4. **MagicDial** または **Joy-Con** を使ってツール変更、ズーム、スクロール、ページ切替\n5. ノートブックは `.snpkg` としてエクスポート可能\n\n---\n\n## 📦 ノートブック形式\n\n- 保存形式：\n  - 📁 **フォルダ**（`.png` ページ＋メタデータ）\n  - 🗜️ **`.snpkg` アーカイブ**（非圧縮 `.tar`、持ち運び用）\n- 各ノートブックに含まれるもの：\n  - 注釈付きページ画像 (`annotated_XXXX.png`)\n  - PDF由来の背景画像（オプション）(`XXXX.png`)\n  - メタデータ：背景スタイル、密度、色、PDFパス\n\n---\n\n## 🎮 コントローラー対応\n\nSpeedyNoteはタブレットユーザーに最適なコントローラー入力をサポート：\n\n- ✅ **左Joy-Con対応**\n- 🎛️ アナログスティック → ダイヤル操作\n- 🔘 ボタンは以下に割り当て可能：\n  - 複数機能のダイヤル操作\n  - フルスクリーン切替\n  - 色／太さ変更\n  - コントロールパネル開閉\n  - ページ作成／削除\n\n> 長押し＋回転＝ホールド＆回転のマッピング\n\n---\n\n## 📁 ソースからのビルド\n\n\n1. **Qt 6** と **CMake** をインストール\n2. このリポジトリをクローン\n3. 以下を実行：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jWe1/IYpaAG7AW8yrjvleosT+1z+AbyCrWvvMw6sg7k=",
+        "originContent": "# 📝 SpeedyNote",
+        "translatedContent": "# 📝 SpeedyNote"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "k2Ot8pG4rVLBNZ50d7akLsB5UQhbQD++ge4Sqf8yby8=",
+        "originContent": "_A lightweight, fast, and stylus-optimized note-taking app built for classic tablet PCs, low-resolution screens, and vintage hardware._",
+        "translatedContent": "_クラシックなタブレットPC、低解像度スクリーン、ヴィンテージハードウェア向けに設計された、軽量で高速、スタイラス最適化のノートテイキングアプリ。_"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "XDIK49jyyeqWzPkZBTNf2WGuFgI7ylFaYdES/95YjKQ=",
+        "originContent": "如果您恰好不懂英文，请移步[中文README](https://github.com/alpha-liu-01/SpeedyNote/blob/main/speedynote_README_zh_CN.md)",
+        "translatedContent": "もし英語がわからない場合は、[中国語README](https://github.com/alpha-liu-01/SpeedyNote/blob/main/speedynote_README_zh_CN.md)をご覧ください"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "bjiyZxOD/tEtRuaY4C5M8VpDi9DKduHBaTWzMnifo/0=",
+        "originContent": "![cover](https://i.imgur.com/UTNNbnM.png)",
+        "translatedContent": "![cover](https://i.imgur.com/UTNNbnM.png)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "VzDxHMl0vKby6BK5RJlfHxPFit1vMlpPiL5Nfi50CNE=",
+        "originContent": "## ✨ Features",
+        "translatedContent": "## ✨ 特徴"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "/KczwCzktabXFnVct37l1fn8p4UVePLFgWIu52ccJRQ=",
+        "originContent": "- 🖊️ **Pressure-sensitive inking** with stylus support",
+        "translatedContent": "- 🖊️ **圧力感知インキング** スタイラス対応"
+      },
+      {
+        "row": 14,
+        "rowsha": "D3LcENpdJhZ9sur7kL59/QbAvk2gbKvKTcxzu2Q8oww=",
+        "originContent": "- 📄 **Multi-page notebooks** with tabbed or scrollable page view",
+        "translatedContent": "- 📄 **複数ページのノートブック** タブまたはスクロール表示対応"
+      },
+      {
+        "row": 15,
+        "rowsha": "sS0H4zuAt3nuGAp0CwNTveF7Z0pZAKbBfJKAAc8xMVo=",
+        "originContent": "- 📌 **PDF background integration** with annotation overlay",
+        "translatedContent": "- 📌 **PDF背景統合** 注釈オーバーレイ付き"
+      },
+      {
+        "row": 16,
+        "rowsha": "Mq2GYP9VCQp4sbHpFXron3ye2M+DBrGxLbITqQ2B7I8=",
+        "originContent": "- 🌀 **Dial UI + Joy-Con support** for intuitive one-handed control",
+        "translatedContent": "- 🌀 **ダイヤルUI + Joy-Con対応** 片手で直感的に操作可能"
+      },
+      {
+        "row": 17,
+        "rowsha": "nTS086uRkx3yFy+bMpkEZNg/8b9R7gDZAcf7bkFQubs=",
+        "originContent": "- 🎨 **Per-page background styles**: grid, lined, or blank (customizable)",
+        "translatedContent": "- 🎨 **ページごとの背景スタイル**：グリッド、罫線、または白紙（カスタマイズ可能）"
+      },
+      {
+        "row": 18,
+        "rowsha": "c12IKvZ3p4dYiCsmAptlJ2BFMOEGr2e9ge+b2a+lf4s=",
+        "originContent": "- 💾 **Portable `.snpkg` notebooks** for export/import & sharing",
+        "translatedContent": "- 💾 **ポータブルな `.snpkg` ノートブック** エクスポート/インポート＆共有用"
+      },
+      {
+        "row": 19,
+        "rowsha": "q9CeIawBkrlXj5zlE1oLeruO2tyUeByAcR6xPk3bGcU=",
+        "originContent": "- 🔎 **Zoom, pan, thickness, and color preset switching** via dial",
+        "translatedContent": "- 🔎 **ズーム、パン、線の太さ、色のプリセット切替** ダイヤルで操作"
+      },
+      {
+        "row": 20,
+        "rowsha": "QzdL0r/qKEQjMKIDqqp1zDDsFvKJH0ciFZ+iI+RufZo=",
+        "originContent": "- 💡 **Designed for low-spec devices** (133Hz Sample Rate @ Intel Atom N450)",
+        "translatedContent": "- 💡 **低スペックデバイス向け設計**（Intel Atom N450で133Hzサンプルレート動作）"
+      },
+      {
+        "row": 21,
+        "rowsha": "0Abu/UKiqSx3kuc+IzI3OwMNqJ9yEYGbFieB9/gbyM4=",
+        "originContent": "- 🌏 **Supports multiple languages across the globe** (Covers half the global population)",
+        "translatedContent": "- 🌏 **多言語対応**（世界人口の半数をカバー）"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "NXtpR9o/OxK0/GuwYts3jaIeOhWjWcqdgmsn7axM/io=",
+        "originContent": "## 📸 Screenshots",
+        "translatedContent": "## 📸 スクリーンショット"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "bsS254NLJiW6voLxwR3YS+l9/z9DjI3IAqxo3diOkVI=",
+        "originContent": "| Drawing | Dial UI / Joycon Controls | Overlay Grid Options |",
+        "translatedContent": "| 描画 | ダイヤルUI / Joy-Con操作 | オーバーレイグリッドオプション |"
+      },
+      {
+        "row": 28,
+        "rowsha": "TYkVGoh5aaDOSBptJLa+d5paEHFowFWAE6IY6eJnHGc=",
+        "originContent": "|----------------|------------------------|-----------------------|",
+        "translatedContent": "|----------------|------------------------|-----------------------|"
+      },
+      {
+        "row": 29,
+        "rowsha": "zIadOZzsrJ2W4IOuaZIn2qxMXOxrseHvGrBipvyhNAs=",
+        "originContent": "| ![draw](https://i.imgur.com/iARL6Vo.gif) | ![pdf](https://i.imgur.com/NnrqOQQ.gif) | ![grid](https://i.imgur.com/YaEdx1p.gif) |",
+        "translatedContent": "| ![draw](https://i.imgur.com/iARL6Vo.gif) | ![pdf](https://i.imgur.com/NnrqOQQ.gif) | ![grid](https://i.imgur.com/YaEdx1p.gif) |"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "aKVJgV9gnSk4MAp/Su+G/EZ8/96Lvx8p89GEoOBOwkQ=",
+        "originContent": "## 🚀 Getting Started",
+        "translatedContent": "## 🚀 はじめに"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "/1/MMT76QWZIsksHXr/HZ3OXxLb2AxSUghf/aQrYkNk=",
+        "originContent": "### ✅ Requirements",
+        "translatedContent": "### ✅ 動作環境"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "VA0SSmmXYnB1FWZXmZbzCOky7qAipnF0LCNRSq6ROAs=",
+        "originContent": "- Windows 7/8/10/11/Ubuntu amd64/Kali amd64/PostmarketOS arm64",
+        "translatedContent": "- Windows 7/8/10/11/Ubuntu amd64/Kali amd64/PostmarketOS arm64"
+      },
+      {
+        "row": 39,
+        "rowsha": "YanCZgWYiib64CEOS/0dm6cgX/JlzY+LzdPTfQXftNo=",
+        "originContent": "- Qt 5 or Qt 6 runtime (bundled in Windows releases)",
+        "translatedContent": "- Qt 5 または Qt 6 ランタイム（Windowsリリースにはバンドル済み）"
+      },
+      {
+        "row": 40,
+        "rowsha": "NKr+yozKWySYYay67BWWDbGZfjvTsjOEJiq28TD/nWw=",
+        "originContent": "- Stylus input (Wacom recommended)",
+        "translatedContent": "- スタイラス入力（Wacom推奨）"
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "jXukcYG7f03XI02j4kCzSEOaacgmk3X575VYYQp3+YA=",
+        "originContent": "### 🛠️ Usage",
+        "translatedContent": "### 🛠️ 使い方"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "9MyLmLEc8egdSrMt02Dd3VsYtw8pL7kxjU4GB3p5UP0=",
+        "originContent": "1. Launch `NoteApp.exe`",
+        "translatedContent": "1. `NoteApp.exe` を起動"
+      },
+      {
+        "row": 45,
+        "rowsha": "hNnJbbhQNzw1ynmhweiuCW8AefxTxcIxmyAXL4zg/2g=",
+        "originContent": "2. Click **Folder Icon** to select a working folder or **Import `.snpkg` Package**",
+        "translatedContent": "2. **フォルダアイコン** をクリックして作業フォルダを選択、または **`.snpkg` パッケージをインポート**"
+      },
+      {
+        "row": 46,
+        "rowsha": "iwWCRxJEnVtagtRlT0RyoT8biUV1+JXEKlS6OVmZ57w=",
+        "originContent": "3. Start writing/drawing using your stylus",
+        "translatedContent": "3. スタイラスで書き込み/描画を開始"
+      },
+      {
+        "row": 47,
+        "rowsha": "V4/h+KfwF6zF1lv/Jgty/d0xpMTpzGT9ytve0QjbH4M=",
+        "originContent": "4. Use the **MagicDial** or **Joy-Con** to change tools, zoom, scroll, or switch pages",
+        "translatedContent": "4. **MagicDial** または **Joy-Con** を使ってツール変更、ズーム、スクロール、ページ切替"
+      },
+      {
+        "row": 48,
+        "rowsha": "b1leD90o1A9oRcccDU/KhHagdz1q4GgsNKVt15wMoc0=",
+        "originContent": "5. Notebooks can be exported as `.snpkg`",
+        "translatedContent": "5. ノートブックは `.snpkg` としてエクスポート可能"
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 50,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 51,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 52,
+        "rowsha": "oJCDtDqA9ebCC9GeAYaMdKx6sjALmethZxV1SwGJZ6o=",
+        "originContent": "## 📦 Notebook Format",
+        "translatedContent": "## 📦 ノートブック形式"
+      },
+      {
+        "row": 53,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 54,
+        "rowsha": "SWaQNoKHcjjYPLh6z2dDf4Gbw3ISwo/2spObZfrZ6b0=",
+        "originContent": "- Can be saved as:",
+        "translatedContent": "- 保存形式："
+      },
+      {
+        "row": 55,
+        "rowsha": "dtiSvF3K6yC1mU0yiMM8UmjocblK5quZ4sMCTDZptwo=",
+        "originContent": "  - 📁 A **folder** with `.png` pages + metadata",
+        "translatedContent": "  - 📁 **フォルダ**（`.png` ページ＋メタデータ）"
+      },
+      {
+        "row": 56,
+        "rowsha": "jo2mNyOfKuMx+6nsLnZii5VccobWt6CCvyvADyIePWQ=",
+        "originContent": "  - 🗜️ A **`.snpkg` archive** for portability (non-compressed `.tar`)",
+        "translatedContent": "  - 🗜️ **`.snpkg` アーカイブ**（非圧縮 `.tar`、持ち運び用）"
+      },
+      {
+        "row": 57,
+        "rowsha": "mPZ/Q3VOeXAS9hGtJyK1tt1wUAHab2pL2FTn+Nf5Dz8=",
+        "originContent": "- Each notebook may contain:",
+        "translatedContent": "- 各ノートブックに含まれるもの："
+      },
+      {
+        "row": 58,
+        "rowsha": "bZrphFcx1ty0fZyCM9cTRmy2G65NfNE8HB5OR8MyfVE=",
+        "originContent": "  - Annotated page images (`annotated_XXXX.png`)",
+        "translatedContent": "  - 注釈付きページ画像 (`annotated_XXXX.png`)"
+      },
+      {
+        "row": 59,
+        "rowsha": "G1WNQRTGHjwUrY1/GfHNVBmGbr1kh97jeKdzmAu+5Zk=",
+        "originContent": "  - Optional background images from PDF (`XXXX.png`)",
+        "translatedContent": "  - PDF由来の背景画像（オプション）(`XXXX.png`)"
+      },
+      {
+        "row": 60,
+        "rowsha": "ACuIvtxVslVvFW3keqJXRJbWdd83bO9Sr3p3/KWoboY=",
+        "originContent": "  - Metadata: background style, density, color, and PDF path",
+        "translatedContent": "  - メタデータ：背景スタイル、密度、色、PDFパス"
+      },
+      {
+        "row": 61,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 62,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 63,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 64,
+        "rowsha": "1KXec5LqqaKa11nP0pSc6gW3gMVOYpguQfME18uvV0Q=",
+        "originContent": "## 🎮 Controller Support",
+        "translatedContent": "## 🎮 コントローラー対応"
+      },
+      {
+        "row": 65,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 66,
+        "rowsha": "AfK48TBnU9PKt0IDPFE6TMD4DIxPg9IjjDC4VUkvADE=",
+        "originContent": "SpeedyNote supports controller input, ideal for tablet users:",
+        "translatedContent": "SpeedyNoteはタブレットユーザーに最適なコントローラー入力をサポート："
+      },
+      {
+        "row": 67,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 68,
+        "rowsha": "hmEEq6XiFwnYfx0d967qXJHI3QcWQjwwXfX4UXVArDI=",
+        "originContent": "- ✅ **Left Joy-Con supported**",
+        "translatedContent": "- ✅ **左Joy-Con対応**"
+      },
+      {
+        "row": 69,
+        "rowsha": "/8yKTs33ebOnn5fevlcmE7+LHQYDW0mRbC174kpDzk4=",
+        "originContent": "- 🎛️ Analog stick → Dial control",
+        "translatedContent": "- 🎛️ アナログスティック → ダイヤル操作"
+      },
+      {
+        "row": 70,
+        "rowsha": "T1owBN69qyPDyUzCcoCouUUwfFo711/GyuIu3NaPp8o=",
+        "originContent": "- 🔘 Buttons can be mapped to:",
+        "translatedContent": "- 🔘 ボタンは以下に割り当て可能："
+      },
+      {
+        "row": 71,
+        "rowsha": "ZLyPF+5s60NyPkF7emPwEh2vvmu3s4FJw4qc3ksAWv8=",
+        "originContent": "  - Control the dial with multiple features",
+        "translatedContent": "  - 複数機能のダイヤル操作"
+      },
+      {
+        "row": 72,
+        "rowsha": "Wll44VtaDrIsVx/Imv4D4DewDQuknGB+kUPQ8CTFqSA=",
+        "originContent": "  - Toggle fullscreen",
+        "translatedContent": "  - フルスクリーン切替"
+      },
+      {
+        "row": 73,
+        "rowsha": "9r2f4UmeEQkot32WBgbqEQkB4MlZxt/gWPg57WWiYtc=",
+        "originContent": "  - Change color / thickness",
+        "translatedContent": "  - 色／太さ変更"
+      },
+      {
+        "row": 74,
+        "rowsha": "1Si8YUrXRNUq+H40sWV/+c0t520Ss/KPJLNAGU3aQ/4=",
+        "originContent": "  - Open control panel",
+        "translatedContent": "  - コントロールパネル開閉"
+      },
+      {
+        "row": 75,
+        "rowsha": "xTNKB7DxKmH7zLdMMuG/Ur/lRCPCO+0gxCHn9GTs9dE=",
+        "originContent": "  - Create/delete pages",
+        "translatedContent": "  - ページ作成／削除"
+      },
+      {
+        "row": 76,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 77,
+        "rowsha": "mPWtQm2oGNZMwu+3XyP3e1MApjWrLUx7u/E+FH3XGg0=",
+        "originContent": "> Long press + turn = hold-and-turn mappings",
+        "translatedContent": "> 長押し＋回転＝ホールド＆回転のマッピング"
+      },
+      {
+        "row": 78,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 79,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 80,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 81,
+        "rowsha": "x7d0HNFFrtSKd8Fh9xxkm/fppazLf2ieEWtzYg7dung=",
+        "originContent": "## 📁 Building From Source",
+        "translatedContent": "## 📁 ソースからのビルド"
+      },
+      {
+        "row": 82,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 83,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 84,
+        "rowsha": "qMp1QzRGXDPQmo0IYS7mAVUZ+KM2SAf/WE4iJOo0sBs=",
+        "originContent": "1. Install **Qt 6** and **CMake**",
+        "translatedContent": "1. **Qt 6** と **CMake** をインストール"
+      },
+      {
+        "row": 85,
+        "rowsha": "DOUACQFMHFCluiAVsRXAJL7Z4cpAMfw0RY2iHPngHyM=",
+        "originContent": "2. Clone this repository",
+        "translatedContent": "2. このリポジトリをクローン"
+      },
+      {
+        "row": 86,
+        "rowsha": "jHf/ZRZhaVkGJLLcmTEZ7iAC66+6jrJCaMLHeFgJzs4=",
+        "originContent": "3. Run:",
+        "translatedContent": "3. 以下を実行："
+      },
+      {
+        "row": 87,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\nrm -r build\nmkdir build\n# ✅ Update translation source files (ensure the .ts files exist already)\n& \"C:\\Qt\\6.8.2\\mingw_64\\bin\\lupdate.exe\" . -ts ./resources/translations/app_fr.ts ./resources/translations/app_zh.ts ./resources/translations/app_es.ts\n& \"C:\\Qt\\6.8.2\\mingw_64\\bin\\linguist.exe\" resources/translations/app_zh.ts\n& \"C:\\Qt\\6.8.2\\mingw_64\\bin\\linguist.exe\" resources/translations/app_fr.ts\n& \"C:\\Qt\\6.8.2\\mingw_64\\bin\\linguist.exe\" resources/translations/app_es.ts\n```",
+    "ContentSha": "iu8fRZcXLXEq9GVNNPCOG6K3c9BN1TpbNEYOk2BaZ3I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nrm -r build\nmkdir build\n# ✅ Update translation source files (ensure the .ts files exist already)\n& \"C:\\Qt\\6.8.2\\mingw_64\\bin\\lupdate.exe\" . -ts ./resources/translations/app_fr.ts ./resources/translations/app_zh.ts ./resources/translations/app_es.ts\n& \"C:\\Qt\\6.8.2\\mingw_64\\bin\\linguist.exe\" resources/translations/app_zh.ts\n& \"C:\\Qt\\6.8.2\\mingw_64\\bin\\linguist.exe\" resources/translations/app_fr.ts\n& \"C:\\Qt\\6.8.2\\mingw_64\\bin\\linguist.exe\" resources/translations/app_es.ts\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "RizkrIf7D4quyNwOvJnGX+FpJrQf78NMtet03MPf1j4=",
+        "originContent": "rm -r build",
+        "translatedContent": "rm -r build"
+      },
+      {
+        "row": 3,
+        "rowsha": "klYXsM14m4nOprfexqnXiyqPlC6FH6Z39Rbt9Y6MgzU=",
+        "originContent": "mkdir build",
+        "translatedContent": "mkdir build"
+      },
+      {
+        "row": 4,
+        "rowsha": "6vO/M/hthzqCuYnzMqilP2N/hGqNzfdFVqdyNrBLRz8=",
+        "originContent": "# ✅ Update translation source files (ensure the .ts files exist already)",
+        "translatedContent": "# ✅ Update translation source files (ensure the .ts files exist already)"
+      },
+      {
+        "row": 5,
+        "rowsha": "XjM/ABl/fcIbSQq63NGMbdIXFOrbKE77XCTWen88d1o=",
+        "originContent": "& \"C:\\Qt\\6.8.2\\mingw_64\\bin\\lupdate.exe\" . -ts ./resources/translations/app_fr.ts ./resources/translations/app_zh.ts ./resources/translations/app_es.ts",
+        "translatedContent": "& \"C:\\Qt\\6.8.2\\mingw_64\\bin\\lupdate.exe\" . -ts ./resources/translations/app_fr.ts ./resources/translations/app_zh.ts ./resources/translations/app_es.ts"
+      },
+      {
+        "row": 6,
+        "rowsha": "Vu+kqNHUVS3rok7J2uE1vXWjhkUUMY8mLK3hI/OSxZE=",
+        "originContent": "& \"C:\\Qt\\6.8.2\\mingw_64\\bin\\linguist.exe\" resources/translations/app_zh.ts",
+        "translatedContent": "& \"C:\\Qt\\6.8.2\\mingw_64\\bin\\linguist.exe\" resources/translations/app_zh.ts"
+      },
+      {
+        "row": 7,
+        "rowsha": "pWGgyL6zbek8v7paPmh8pOEryk77SQPZW+DejrQGK24=",
+        "originContent": "& \"C:\\Qt\\6.8.2\\mingw_64\\bin\\linguist.exe\" resources/translations/app_fr.ts",
+        "translatedContent": "& \"C:\\Qt\\6.8.2\\mingw_64\\bin\\linguist.exe\" resources/translations/app_fr.ts"
+      },
+      {
+        "row": 8,
+        "rowsha": "7qWA8jRR56kDkCN6Z7jD2O1TshtUQmWA9Zar2bQDJCU=",
+        "originContent": "& \"C:\\Qt\\6.8.2\\mingw_64\\bin\\linguist.exe\" resources/translations/app_es.ts",
+        "translatedContent": "& \"C:\\Qt\\6.8.2\\mingw_64\\bin\\linguist.exe\" resources/translations/app_es.ts"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "4. (Optional) Modify translations in the GUI interface\n5. Run:",
+    "ContentSha": "WiWGwjCgVyWrgaj+1IIL6WUEuLIRJwMcA3ZZCsuX3QQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "4. （オプション）GUIインターフェースで翻訳を修正する  \n5. 実行：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "OuWdxCMyK+msMdnbhLzfXCmOM03jvAFeZVxzeRB8Lq8=",
+        "originContent": "4. (Optional) Modify translations in the GUI interface",
+        "translatedContent": "4. （オプション）GUIインターフェースで翻訳を修正する  "
+      },
+      {
+        "row": 2,
+        "rowsha": "Kcd6o3v0eRKQ+7LRiIZSRXPu0xIb2uPEAgrGnjoodgY=",
+        "originContent": "5. Run:",
+        "translatedContent": "5. 実行："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nrm -r build\nmkdir build\n& \"C:\\Qt\\6.8.2\\mingw_64\\bin\\lrelease.exe\" ./resources/translations/app_zh.ts ./resources/translations/app_fr.ts ./resources/translations/app_es.ts\n\nCopy-Item -Path \"C:\\Games\\yourfolder\\resources\\translations\\*.qm\" -Destination \"C:\\Games\\yourfolder\\build\" -Force\n\ncd .\\build\ncmake -G \"MinGW Makefiles\" .. \ncmake --build .  \n& \"C:\\Qt\\6.8.2\\mingw_64\\bin\\windeployqt.exe\" \"NoteApp.exe\"\nCopy-Item -Path \"C:\\yourfolder\\dllpack\\*.dll\" -Destination \"C:\\yourfolder\\build\" -Force\nCopy-Item -Path \"C:\\yourfolder\\bsdtar.exe\" -Destination \"C:\\yourfolder\\build\" -Force\n./NoteApp.exe\ncd ../\n```",
+    "ContentSha": "dJcZpCVJsV8Y3nZFeB+D8sM1yKJeEi8n4Py4ONR4McY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nrm -r build\nmkdir build\n& \"C:\\Qt\\6.8.2\\mingw_64\\bin\\lrelease.exe\" ./resources/translations/app_zh.ts ./resources/translations/app_fr.ts ./resources/translations/app_es.ts\n\nCopy-Item -Path \"C:\\Games\\yourfolder\\resources\\translations\\*.qm\" -Destination \"C:\\Games\\yourfolder\\build\" -Force\n\ncd .\\build\ncmake -G \"MinGW Makefiles\" .. \ncmake --build .  \n& \"C:\\Qt\\6.8.2\\mingw_64\\bin\\windeployqt.exe\" \"NoteApp.exe\"\nCopy-Item -Path \"C:\\yourfolder\\dllpack\\*.dll\" -Destination \"C:\\yourfolder\\build\" -Force\nCopy-Item -Path \"C:\\yourfolder\\bsdtar.exe\" -Destination \"C:\\yourfolder\\build\" -Force\n./NoteApp.exe\ncd ../\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "RizkrIf7D4quyNwOvJnGX+FpJrQf78NMtet03MPf1j4=",
+        "originContent": "rm -r build",
+        "translatedContent": "rm -r build"
+      },
+      {
+        "row": 3,
+        "rowsha": "klYXsM14m4nOprfexqnXiyqPlC6FH6Z39Rbt9Y6MgzU=",
+        "originContent": "mkdir build",
+        "translatedContent": "mkdir build"
+      },
+      {
+        "row": 4,
+        "rowsha": "H4fIXYtlW2E2LxvwdoXgjYCGXXICcjSSEsMyxXmHo00=",
+        "originContent": "& \"C:\\Qt\\6.8.2\\mingw_64\\bin\\lrelease.exe\" ./resources/translations/app_zh.ts ./resources/translations/app_fr.ts ./resources/translations/app_es.ts",
+        "translatedContent": "& \"C:\\Qt\\6.8.2\\mingw_64\\bin\\lrelease.exe\" ./resources/translations/app_zh.ts ./resources/translations/app_fr.ts ./resources/translations/app_es.ts"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Eku6vLAjpX8L5lb5xsCDPZVixTNGzQkg994iVkNPeUo=",
+        "originContent": "Copy-Item -Path \"C:\\Games\\yourfolder\\resources\\translations\\*.qm\" -Destination \"C:\\Games\\yourfolder\\build\" -Force",
+        "translatedContent": "Copy-Item -Path \"C:\\Games\\yourfolder\\resources\\translations\\*.qm\" -Destination \"C:\\Games\\yourfolder\\build\" -Force"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "JW2YvfAdeEBhTzd4Bup+zCIZQ5ab7XTwwJE2DPzLUIc=",
+        "originContent": "cd .\\build",
+        "translatedContent": "cd .\\build"
+      },
+      {
+        "row": 9,
+        "rowsha": "cQuhn5pDpD17EB05GhSlbA6yQiQtI5oDuJabbvQ2/eo=",
+        "originContent": "cmake -G \"MinGW Makefiles\" .. ",
+        "translatedContent": "cmake -G \"MinGW Makefiles\" .. "
+      },
+      {
+        "row": 10,
+        "rowsha": "9AttsG59QDzA+bXyQAlgGGu03TjvtIgKzETDDCDQKiE=",
+        "originContent": "cmake --build .  ",
+        "translatedContent": "cmake --build .  "
+      },
+      {
+        "row": 11,
+        "rowsha": "YBf+8X24KGg4qZqTg1RvvdkX0fOJEcmcCgWoLtMFDfA=",
+        "originContent": "& \"C:\\Qt\\6.8.2\\mingw_64\\bin\\windeployqt.exe\" \"NoteApp.exe\"",
+        "translatedContent": "& \"C:\\Qt\\6.8.2\\mingw_64\\bin\\windeployqt.exe\" \"NoteApp.exe\""
+      },
+      {
+        "row": 12,
+        "rowsha": "svoDKmStV5ERqgLYt1G6Ab1oD9pgmw3ewM4MNdTxU2M=",
+        "originContent": "Copy-Item -Path \"C:\\yourfolder\\dllpack\\*.dll\" -Destination \"C:\\yourfolder\\build\" -Force",
+        "translatedContent": "Copy-Item -Path \"C:\\yourfolder\\dllpack\\*.dll\" -Destination \"C:\\yourfolder\\build\" -Force"
+      },
+      {
+        "row": 13,
+        "rowsha": "fThiXXMm5gRzhsfoGKKbkQvMRNqSxAnG33wGHClOKQA=",
+        "originContent": "Copy-Item -Path \"C:\\yourfolder\\bsdtar.exe\" -Destination \"C:\\yourfolder\\build\" -Force",
+        "translatedContent": "Copy-Item -Path \"C:\\yourfolder\\bsdtar.exe\" -Destination \"C:\\yourfolder\\build\" -Force"
+      },
+      {
+        "row": 14,
+        "rowsha": "UQnkFXfWKNx6ynYvsjkN5rRBBh3rG/AKiY32IFa1tXA=",
+        "originContent": "./NoteApp.exe",
+        "translatedContent": "./NoteApp.exe"
+      },
+      {
+        "row": 15,
+        "rowsha": "pFtSb5cBPYwF4sEUHdr9SC1g4CuwMcQF/AKJkAfFsg8=",
+        "originContent": "cd ../",
+        "translatedContent": "cd ../"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "元のテキストは1行です。翻訳も必ず1行にしてください。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "元のテキストは1行です。翻訳も必ず1行にしてください。"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
