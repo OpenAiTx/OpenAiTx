@@ -6,10 +6,10 @@
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">انگلیسی</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN">简体中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">繁體中文</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">ไทย</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">ژاپنی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">کره‌ای</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">هندی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">تایلندی</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">فرانسوی</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">آلمانی</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">اسپانیایی</a></p>
@@ -18,7 +18,7 @@
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">پرتغالی</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">هلندی</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl">لهستانی</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar">العربية</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar">عربی</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa">فارسی</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">ترکی</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">ویتنامی</a></p>
@@ -33,29 +33,36 @@
 
 
 <div align="center">
- ستاره <a href="https://github.com/OpenAiTx/OpenAiTx">شما</a>  می‌تواند Open Ai Tx را بهتر کند
+ ستاره <a href="https://github.com/OpenAiTx/OpenAiTx">شما</a> می‌تواند Open Ai Tx را بهتر کند
 </div>
 
-## مقدمه
 
-**OpenAiTx** ابزار ترجمه خودکار به ۲۰ زبان برای مستندات readme و ویکی پروژه‌های GitHub شما.
+## معرفی
+
+**OpenAiTx** ابزاری برای ترجمه خودکار ۲۰ زبان برای راهنمای پروژه GitHub و ویکی شما.
 
 ## چرا؟
 
-1. ترجمه یک‌باره با استفاده از مدل‌های زبانی پیشرفته و ارائه رایگان نتیجه به جامعه متن‌باز.
-2. پشتیبانی از جستجوی چندزبانه گوگل/بینگ برای سئو؛ ابزارهای ترجمه سمت کاربر این قابلیت را ندارند.
-3. رایگان و متن‌باز برای همیشه
-4. ارسال یک‌باره و به‌روزرسانی خودکار در آینده، در صورت نگهداری پروژه موجب صرفه‌جویی در زمان شما می‌شود.
+1. یکبار ترجمه با استفاده از مدل‌های LLM با کیفیت بالا و ارائه رایگان نتیجه به جامعه متن‌باز.
+2. پشتیبانی از جستجوی چندزبانه در Google/Bing برای SEO؛ ابزارهای ترجمه سمت کاربر قادر به این کار نیستند.
+3. همیشه رایگان و متن‌باز
+4. یکبار ارسال و به‌روزرسانی خودکار در آینده؛ اگر نگهدارنده پروژه هستید در زمان شما صرفه‌جویی می‌کند.
+
 
 ## شروع کنید
 
-1. آدرس `GitHub` را با `OpenAiTx` جایگزین کنید، مثلاً https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
-2. نشان‌ها یا متنی را که دوست دارید کلیک و کپی کنید.
+1. آدرس `GitHub` را با `OpenAiTx` جایگزین کنید، مثال: https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+2. پروژه خود را ارسال کنید.
+3. نشان‌ها یا متن مورد نظر را کلیک و کپی کنید.
+4. به فایل readme خود اضافه کنید.
 
 یا
 
-1. به https://openaitx.github.io/ مراجعه کنید.
+1. به https://openaitx.com مراجعه کنید
 2. لینک پروژه خود را ارسال کنید.
+3. نشان‌ها یا متن مورد نظر را کلیک و کپی کنید.
+4. به فایل readme خود اضافه کنید.
+
 ## مثال
 
 ### گزینه استایل ۱:
@@ -65,91 +72,97 @@
 ### گزینه استایل ۲:
 
 <p align="center">
-  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">English</a> |
+  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">انگلیسی</a> |
   <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN">简体中文</a> |
   <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">繁體中文</a> |
-  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a> |
-  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a> |
-  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a> |
-  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">ไทย</a> |
-  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a> |
-  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a> |
-  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a> |
-  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a> |
-  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a> |
-  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a> |
-  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a> |
-  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl">Polski</a> |
-  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar">العربية</a> |
+  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">ژاپنی</a> |
+  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">کره‌ای</a> |
+  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">هندی</a> |
+  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">تایلندی</a> |
+  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">فرانسوی</a> |
+  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">آلمانی</a> |
+  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">اسپانیایی</a> |
+  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">ایتالیایی</a> |
+  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">روسی</a> |
+  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">پرتغالی</a> |
+  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">هلندی</a> |
+  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl">لهستانی</a> |
+  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar">عربی</a> |
   <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa">فارسی</a> |
-  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">Türkçe</a> |
-  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">Tiếng Việt</a> |
-  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Bahasa Indonesia</a>
+  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">ترکی</a> |
+  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">ویتنامی</a> |
+  <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">اندونزیایی</a>
 </p>
 
-### گزینه سبک ۳:
+### گزینه استایل ۳:
 
 <div align="right" >
   <details>
-    <summary >🌐 زبان</summary>
-    <div>
-      <div align="right">
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">English</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN">简体中文</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">繁體中文</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">ไทย</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl">Polski</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar">العربية</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa">فارسی</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">Türkçe</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">Tiếng Việt</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Bahasa Indonesia</a></p>
-      </div>
-    </div>
-  </details>
+<summary >🌐 زبان</summary>
+<div>
+  <div align="right">
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">انگلیسی</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN">简体中文</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">繁體中文</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">ژاپنی</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">کره‌ای</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">هندی</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">تایلندی</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">فرانسوی</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">آلمانی</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">اسپانیایی</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">ایتالیایی</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">روسی</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">پرتغالی</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">هلندی</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl">لهستانی</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar">عربی</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa">فارسی</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">ترکی</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">ویتنامی</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">اندونزیایی</a></p>
+  </div>
+</div>
+</details>
 </div>
 
-## ویدئوی دمو
+
+## ویدیوی دمو
 
 <a href="https://github.com/user-attachments/assets/a1370023-8924-4d40-9f18-979a334e934d"> 
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
-## نحوه مشارکت محاسباتی
 
-اگر مایل به مشارکت در پروژه هستید، کافیست مراحل زیر را انجام دهید:
-فورک کردن پروژه → کلون کردن پروژه → انتخاب یک اسکریپت به زبان خودتان → وارد کردن توکن هوش مصنوعی خود → اجرای آن → کامیت و پوش و ایجاد PR
+## مشارکت محاسباتی
+
+اگر می‌خواهید در پروژه مشارکت داشته باشید، کافیست:
+فورک پروژه → کلون پروژه → انتخاب یک اسکریپت به زبان خودتان → قرار دادن توکن هوش مصنوعی → اجرا → کامیت & پوش & ساخت PR
 
 > توجه: **لطفاً توکن‌های خود را آپلود نکنید!**
 
 ## نکات
 
-- تنها از مارک‌داون گیت‌هاب پشتیبانی می‌شود.
-- اگر مالک پروژه یا توسعه‌دهنده اصلی هستید، می‌توانید حساب گیت‌هاب خود را احراز هویت کنید تا پس از ایندکس شدن، PR به صورت خودکار ایجاد شود.
+- فقط از مارک‌داون گیت‌هاب پشتیبانی می‌کند.
 
-## سایر
-- ۱۰ تا ۳۰ دقیقه برای هر پروژه
-- ۲۰۰ تا ۴۰۰ پروژه/ هر کنسول در روز.
-- هر ۳ تا ۷ روز پروژه‌های موجود به‌روزرسانی خواهند شد (بسته به منابع محاسباتی آینده)
+## پروژه فرانت‌اند
+[لینک پروژه کد منبع](https://github.com/OpenAiTx/OpenAiTx_FrontEnd) توسط [@mikechen](https://github.com/mikechen-git)
+
+## سایر موارد
+
+- ۱۰~۳۰ دقیقه برای هر پروژه
+- ۲۰۰~۴۰۰ پروژه/در هر کنسول در روز.
+- هر ۳~۷ روز پروژه‌های موجود به‌روزرسانی می‌شوند (بسته به منابع محاسباتی آینده)
 
 
 
-## تشکر
+## سپاسگزاری
 
-- تیم Microsoft MVP
+- تیم MVP مایکروسافت
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-15
 
 ---

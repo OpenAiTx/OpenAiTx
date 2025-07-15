@@ -1,0 +1,245 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Qwen3 MoE Fused\n\nThe Qwen3 MoE model (and all other MoE models) in HF Transformers is notoriously slow, because it uses a [for loop](https://github.com/huggingface/transformers/blob/bdf5fb70aa11782cce22027d76879f71f4e41c1e/src/transformers/models/qwen3_moe/modular_qwen3_moe.py#L103) to access the experts. The purpose of this repo is to fine-tune Qwen3-30B-A3B on a single GPU with 24GB VRAM and achieve high throughput. The implementation is compatible with the HF Transformers ecosystem, such as LoRA, bitsandbytes 4-bit quantization, and Unsloth. See [`example_train_30b_a3b_unsloth.py`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/example_train_30b_a3b_unsloth.py) for the usage.\n\n## Fused linear layer\n\nThe critical part is to implement the [`moe_fused_linear`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/qwen3_moe_fused/functional.py) function:",
+    "ContentSha": "sJaLD083y384YDC/xALyD1sEEsqIMPoTlk5AFNKv9Ys=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Qwen3 MoE 融合\n\nHF Transformers 中的 Qwen3 MoE 模型（以及所有其他 MoE 模型）速度非常慢，因为它使用了一个 [for 循环](https://github.com/huggingface/transformers/blob/bdf5fb70aa11782cce22027d76879f71f4e41c1e/src/transformers/models/qwen3_moe/modular_qwen3_moe.py#L103) 来访问专家。这个仓库的目的是在单个拥有 24GB 显存的 GPU 上微调 Qwen3-30B-A3B 并实现高吞吐量。该实现兼容 HF Transformers 生态系统，例如 LoRA、bitsandbytes 4-bit 量化和 Unsloth。使用方法见 [`example_train_30b_a3b_unsloth.py`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/example_train_30b_a3b_unsloth.py)。\n\n## 融合线性层\n\n关键部分是实现 [`moe_fused_linear`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/qwen3_moe_fused/functional.py) 函数：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4fnB711iyDvWoa0sKnw+8nYcLwawM1UTLQBb3f+uY/I=",
+        "originContent": "# Qwen3 MoE Fused",
+        "translatedContent": "# Qwen3 MoE 融合"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "E8ZuWnU15dO/sgSrAS2zLXz2v6/wQQRlilP1EcTpZs8=",
+        "originContent": "The Qwen3 MoE model (and all other MoE models) in HF Transformers is notoriously slow, because it uses a [for loop](https://github.com/huggingface/transformers/blob/bdf5fb70aa11782cce22027d76879f71f4e41c1e/src/transformers/models/qwen3_moe/modular_qwen3_moe.py#L103) to access the experts. The purpose of this repo is to fine-tune Qwen3-30B-A3B on a single GPU with 24GB VRAM and achieve high throughput. The implementation is compatible with the HF Transformers ecosystem, such as LoRA, bitsandbytes 4-bit quantization, and Unsloth. See [`example_train_30b_a3b_unsloth.py`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/example_train_30b_a3b_unsloth.py) for the usage.",
+        "translatedContent": "HF Transformers 中的 Qwen3 MoE 模型（以及所有其他 MoE 模型）速度非常慢，因为它使用了一个 [for 循环](https://github.com/huggingface/transformers/blob/bdf5fb70aa11782cce22027d76879f71f4e41c1e/src/transformers/models/qwen3_moe/modular_qwen3_moe.py#L103) 来访问专家。这个仓库的目的是在单个拥有 24GB 显存的 GPU 上微调 Qwen3-30B-A3B 并实现高吞吐量。该实现兼容 HF Transformers 生态系统，例如 LoRA、bitsandbytes 4-bit 量化和 Unsloth。使用方法见 [`example_train_30b_a3b_unsloth.py`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/example_train_30b_a3b_unsloth.py)。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Pmbwz3LvqDEsoiXIcoWxD2/gbOhXynGxYe92Z2EgDPc=",
+        "originContent": "## Fused linear layer",
+        "translatedContent": "## 融合线性层"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "047G9Ex30bXGjZUejfj91sdJaMGjkewJppnmN8SAWcU=",
+        "originContent": "The critical part is to implement the [`moe_fused_linear`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/qwen3_moe_fused/functional.py) function:",
+        "translatedContent": "关键部分是实现 [`moe_fused_linear`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/qwen3_moe_fused/functional.py) 函数："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\noutput[b, o] = sum_i weight[selected_experts[b], o, i] * input[b, i]\n```",
+    "ContentSha": "quw4WKeS/Jhf211mDBWyop2/s6jP9zPRNfJSVy8BYRI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\noutput[b, o] = sum_i weight[selected_experts[b], o, i] * input[b, i]\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "q87k1IVVbIctgBDM3CY56OuF+LdL8R4pQtnzu0fEfPo=",
+        "originContent": "output[b, o] = sum_i weight[selected_experts[b], o, i] * input[b, i]",
+        "translatedContent": "output[b, o] = sum_i weight[selected_experts[b], o, i] * input[b, i]"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "There are already several good implementations, such as [triton-kernels](https://github.com/triton-lang/triton/blob/dd1c3d429d1c24904722ac699ea5750bc694c4d6/python/triton_kernels/triton_kernels/matmul_ogs.py), [llama.cpp](https://github.com/ggml-org/llama.cpp/blob/a0535ffa0d35fccfec3e1a0a3bfc9dbb6054d7c0/ggml/src/ggml-cuda/ggml-cuda.cu#L2065), [vLLM](https://github.com/vllm-project/vllm/blob/015fab8c2fa4db8776f7e91abd50371911673d88/vllm/model_executor/layers/fused_moe/fused_moe.py). `torch._grouped_mm` is also being implemented. We need to sort `input` by the experts to improve the memory coalescence of `weight`.\n\nThe implementation in this repo is largely based on the MoE kernel in [Unsloth](https://github.com/unslothai/unsloth/blob/2bfc39b6387577457834059c59f83fcdb954c9bd/unsloth/kernels/moe), which is based on the Triton [grouped GEMM](https://triton-lang.org/main/getting-started/tutorials/08-grouped-gemm.html). I've added strides, masks, and autotune configs for small or 'thin' matrices, which are needed for LoRA.\n\nI aim to keep the code readable and easy to follow. I only used the most mature features of Triton, such as load and store, rather than things like TMA and swizzle.\n\n### LoRA\n\nThe LoRA for the fused linear layer is define by first creating a LoRA for the linear layer in each expert, then stack them along the experts dimension. For the weight tensor with shape `(num_experts, out_features, in_features)`, the two LoRA weights have shape `lora_A: (num_experts, lora_rank, in_features), lora_B: (num_experts, out_features, lora_rank)`. Therefore, a previously trained LoRA can be losslessly converted to the fused format.\n\nThe functions in [`qwen3_moe_fused/convert.py`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/qwen3_moe_fused/convert.py) can convert a model or a LoRA between the fused and the unfused formats. After you train a LoRA in the fused format, you can convert it to the unfused format, then convert it to other formats such as GGUF.\n\n### TODO\n\n* Fuse 4-bit dequant and MoE linear, see [`qwen3_moe_fused/quantize/layer.py`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/qwen3_moe_fused/quantize/layer.py). Currently I've written a kernel in [`qwen3_moe_fused/grouped_gemm/forward_4bit.py`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/qwen3_moe_fused/grouped_gemm/forward_4bit.py) but it's slower than the unfused version when the batch size is large.\n* Multi-GPU support. I don't have multiple GPUs at home so I'm not focusing on this. Maybe worth checking [OpenSloth](https://github.com/anhvth/opensloth).\n* Upstream to Transformers or Unsloth. If you have any idea how to do this, please open an issue. Transformers itself never includes Triton or CUDA kernels in the package, but they have a [HuggingFace Kernels](https://github.com/huggingface/kernels) project for them, and the [vLLM MoE kernels](https://huggingface.co/kernels-community/moe) are already there.\n\n### License\n\nThe files in `qwen3_moe_fused/grouped_gemm/` are modified from the Unsloth MoE kernels so they are AGPLv3 licensed, see the [explanation](https://github.com/unslothai/unsloth/discussions/2890#discussioncomment-13675890). For more robust and performant integration, it's possible to use the MIT licensed [triton-kernels](https://github.com/triton-lang/triton/tree/main/python/triton_kernels/triton_kernels) as an alternative.\n\nThe rest of this repo, including files modified from Transformers, PEFT, and bitsandbytes, are Apache-2.0 licensed.\n",
+    "ContentSha": "SBcaoBeEv3C7+SccVQZHq90MuERAkARDS0F9szUhpnM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "已经有几个很好的实现，例如 [triton-kernels](https://github.com/triton-lang/triton/blob/dd1c3d429d1c24904722ac699ea5750bc694c4d6/python/triton_kernels/triton_kernels/matmul_ogs.py)、[llama.cpp](https://github.com/ggml-org/llama.cpp/blob/a0535ffa0d35fccfec3e1a0a3bfc9dbb6054d7c0/ggml/src/ggml-cuda/ggml-cuda.cu#L2065)、[vLLM](https://github.com/vllm-project/vllm/blob/015fab8c2fa4db8776f7e91abd50371911673d88/vllm/model_executor/layers/fused_moe/fused_moe.py) 。`torch._grouped_mm` 也正在实现中。我们需要按专家对 `input` 进行排序，以提升 `weight` 的内存合并效率。\n\n本仓库中的实现很大程度上基于 [Unsloth](https://github.com/unslothai/unsloth/blob/2bfc39b6387577457834059c59f83fcdb954c9bd/unsloth/kernels/moe) 中的 MoE 内核，该内核基于 Triton 的 [grouped GEMM](https://triton-lang.org/main/getting-started/tutorials/08-grouped-gemm.html)。我添加了 stride、掩码和针对小型或“瘦”矩阵的自动调优配置，这些都是 LoRA 所需的。\n\n我力求保持代码可读且易于理解。我只使用了 Triton 中最成熟的特性，如 load 和 store，而没有使用 TMA 和 swizzle 之类的功能。\n\n### LoRA\n\n融合线性层的 LoRA 是先为每个专家的线性层创建 LoRA，然后沿专家维度堆叠。对于形状为 `(num_experts, out_features, in_features)` 的权重张量，两个 LoRA 权重的形状分别是 `lora_A: (num_experts, lora_rank, in_features)` 和 `lora_B: (num_experts, out_features, lora_rank)`。因此，先前训练好的 LoRA 可以无损转换为融合格式。\n\n[`qwen3_moe_fused/convert.py`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/qwen3_moe_fused/convert.py) 中的函数可以在融合和非融合格式之间转换模型或 LoRA。在融合格式下训练完 LoRA 后，可以将其转换为非融合格式，然后再转换为 GGUF 等其他格式。\n\n### 待办事项\n\n* 融合 4-bit 反量化和 MoE 线性，见 [`qwen3_moe_fused/quantize/layer.py`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/qwen3_moe_fused/quantize/layer.py)。目前我已在 [`qwen3_moe_fused/grouped_gemm/forward_4bit.py`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/qwen3_moe_fused/grouped_gemm/forward_4bit.py) 编写了一个内核，但在批量较大时，其速度比非融合版本慢。\n* 多 GPU 支持。我家中没有多块 GPU，因此暂时未重点开发。也许可以关注 [OpenSloth](https://github.com/anhvth/opensloth)。\n* 上游集成到 Transformers 或 Unsloth。如果你有任何想法，欢迎开 issue。Transformers 本身从不在包中包含 Triton 或 CUDA 内核，但它们有一个 [HuggingFace Kernels](https://github.com/huggingface/kernels) 项目，且 [vLLM MoE 内核](https://huggingface.co/kernels-community/moe) 已经在那里。\n\n### 许可协议\n\n`qwen3_moe_fused/grouped_gemm/` 目录下的文件是从 Unsloth MoE 内核修改而来，因此遵循 AGPLv3 许可，详见 [说明](https://github.com/unslothai/unsloth/discussions/2890#discussioncomment-13675890)。为了更稳健和高性能的集成，可以选择使用 MIT 许可的 [triton-kernels](https://github.com/triton-lang/triton/tree/main/python/triton_kernels/triton_kernels) 作为替代。\n\n本仓库其余部分，包括从 Transformers、PEFT 和 bitsandbytes 修改的文件，均采用 Apache-2.0 许可。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "MGxH1pV1ODf3IykcFMW7nwdj0eKYz9zxqp/QSAB2fEY=",
+        "originContent": "There are already several good implementations, such as [triton-kernels](https://github.com/triton-lang/triton/blob/dd1c3d429d1c24904722ac699ea5750bc694c4d6/python/triton_kernels/triton_kernels/matmul_ogs.py), [llama.cpp](https://github.com/ggml-org/llama.cpp/blob/a0535ffa0d35fccfec3e1a0a3bfc9dbb6054d7c0/ggml/src/ggml-cuda/ggml-cuda.cu#L2065), [vLLM](https://github.com/vllm-project/vllm/blob/015fab8c2fa4db8776f7e91abd50371911673d88/vllm/model_executor/layers/fused_moe/fused_moe.py). `torch._grouped_mm` is also being implemented. We need to sort `input` by the experts to improve the memory coalescence of `weight`.",
+        "translatedContent": "已经有几个很好的实现，例如 [triton-kernels](https://github.com/triton-lang/triton/blob/dd1c3d429d1c24904722ac699ea5750bc694c4d6/python/triton_kernels/triton_kernels/matmul_ogs.py)、[llama.cpp](https://github.com/ggml-org/llama.cpp/blob/a0535ffa0d35fccfec3e1a0a3bfc9dbb6054d7c0/ggml/src/ggml-cuda/ggml-cuda.cu#L2065)、[vLLM](https://github.com/vllm-project/vllm/blob/015fab8c2fa4db8776f7e91abd50371911673d88/vllm/model_executor/layers/fused_moe/fused_moe.py) 。`torch._grouped_mm` 也正在实现中。我们需要按专家对 `input` 进行排序，以提升 `weight` 的内存合并效率。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "ZUmetfWCpNh4LWV3piJ21Oyu/2zS1wBvLO1OqURV6e8=",
+        "originContent": "The implementation in this repo is largely based on the MoE kernel in [Unsloth](https://github.com/unslothai/unsloth/blob/2bfc39b6387577457834059c59f83fcdb954c9bd/unsloth/kernels/moe), which is based on the Triton [grouped GEMM](https://triton-lang.org/main/getting-started/tutorials/08-grouped-gemm.html). I've added strides, masks, and autotune configs for small or 'thin' matrices, which are needed for LoRA.",
+        "translatedContent": "本仓库中的实现很大程度上基于 [Unsloth](https://github.com/unslothai/unsloth/blob/2bfc39b6387577457834059c59f83fcdb954c9bd/unsloth/kernels/moe) 中的 MoE 内核，该内核基于 Triton 的 [grouped GEMM](https://triton-lang.org/main/getting-started/tutorials/08-grouped-gemm.html)。我添加了 stride、掩码和针对小型或“瘦”矩阵的自动调优配置，这些都是 LoRA 所需的。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "YvkpS78wp3XNDaUQX5/fRMuSxzcGUKIe6j8TmHssxQw=",
+        "originContent": "I aim to keep the code readable and easy to follow. I only used the most mature features of Triton, such as load and store, rather than things like TMA and swizzle.",
+        "translatedContent": "我力求保持代码可读且易于理解。我只使用了 Triton 中最成熟的特性，如 load 和 store，而没有使用 TMA 和 swizzle 之类的功能。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "B4A7UsDCpxuCRDFo6LmWvxpEwAz3AW8SmytKNung4aI=",
+        "originContent": "### LoRA",
+        "translatedContent": "### LoRA"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "ERRKxcm0HlEK0Yc9MYK4B8FQarT+mYwdpOIOsE1TlkU=",
+        "originContent": "The LoRA for the fused linear layer is define by first creating a LoRA for the linear layer in each expert, then stack them along the experts dimension. For the weight tensor with shape `(num_experts, out_features, in_features)`, the two LoRA weights have shape `lora_A: (num_experts, lora_rank, in_features), lora_B: (num_experts, out_features, lora_rank)`. Therefore, a previously trained LoRA can be losslessly converted to the fused format.",
+        "translatedContent": "融合线性层的 LoRA 是先为每个专家的线性层创建 LoRA，然后沿专家维度堆叠。对于形状为 `(num_experts, out_features, in_features)` 的权重张量，两个 LoRA 权重的形状分别是 `lora_A: (num_experts, lora_rank, in_features)` 和 `lora_B: (num_experts, out_features, lora_rank)`。因此，先前训练好的 LoRA 可以无损转换为融合格式。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "XaNc5BSMoTxd9+1kC2j8xa8k2RJ2W5+uSLjigg8bAzs=",
+        "originContent": "The functions in [`qwen3_moe_fused/convert.py`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/qwen3_moe_fused/convert.py) can convert a model or a LoRA between the fused and the unfused formats. After you train a LoRA in the fused format, you can convert it to the unfused format, then convert it to other formats such as GGUF.",
+        "translatedContent": "[`qwen3_moe_fused/convert.py`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/qwen3_moe_fused/convert.py) 中的函数可以在融合和非融合格式之间转换模型或 LoRA。在融合格式下训练完 LoRA 后，可以将其转换为非融合格式，然后再转换为 GGUF 等其他格式。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "F8LwUOZ4tDJeV2W/K2C9N0HW21H4xuvFdGr6cF8VLK4=",
+        "originContent": "### TODO",
+        "translatedContent": "### 待办事项"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "etYMqHTAJxW80LImsF70XwmH5TYyDZfgewtMKauNerQ=",
+        "originContent": "* Fuse 4-bit dequant and MoE linear, see [`qwen3_moe_fused/quantize/layer.py`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/qwen3_moe_fused/quantize/layer.py). Currently I've written a kernel in [`qwen3_moe_fused/grouped_gemm/forward_4bit.py`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/qwen3_moe_fused/grouped_gemm/forward_4bit.py) but it's slower than the unfused version when the batch size is large.",
+        "translatedContent": "* 融合 4-bit 反量化和 MoE 线性，见 [`qwen3_moe_fused/quantize/layer.py`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/qwen3_moe_fused/quantize/layer.py)。目前我已在 [`qwen3_moe_fused/grouped_gemm/forward_4bit.py`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/qwen3_moe_fused/grouped_gemm/forward_4bit.py) 编写了一个内核，但在批量较大时，其速度比非融合版本慢。"
+      },
+      {
+        "row": 16,
+        "rowsha": "bjXcem56RfLZD5s9MgOCU6sBlow9N8qFTyJb6lMrfZo=",
+        "originContent": "* Multi-GPU support. I don't have multiple GPUs at home so I'm not focusing on this. Maybe worth checking [OpenSloth](https://github.com/anhvth/opensloth).",
+        "translatedContent": "* 多 GPU 支持。我家中没有多块 GPU，因此暂时未重点开发。也许可以关注 [OpenSloth](https://github.com/anhvth/opensloth)。"
+      },
+      {
+        "row": 17,
+        "rowsha": "K+rUaMJtX70JswVTwpDYqTPr9ROBjXM8aejWxUyjTWs=",
+        "originContent": "* Upstream to Transformers or Unsloth. If you have any idea how to do this, please open an issue. Transformers itself never includes Triton or CUDA kernels in the package, but they have a [HuggingFace Kernels](https://github.com/huggingface/kernels) project for them, and the [vLLM MoE kernels](https://huggingface.co/kernels-community/moe) are already there.",
+        "translatedContent": "* 上游集成到 Transformers 或 Unsloth。如果你有任何想法，欢迎开 issue。Transformers 本身从不在包中包含 Triton 或 CUDA 内核，但它们有一个 [HuggingFace Kernels](https://github.com/huggingface/kernels) 项目，且 [vLLM MoE 内核](https://huggingface.co/kernels-community/moe) 已经在那里。"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "yQxCDp1zblVb6PkKhbgZ2Y8kW5iQPeq17cih4/6NsYY=",
+        "originContent": "### License",
+        "translatedContent": "### 许可协议"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "Rz3kmllDGAyfmM/sY1wXCW9B/q95GSJiDQh5Z2q0//I=",
+        "originContent": "The files in `qwen3_moe_fused/grouped_gemm/` are modified from the Unsloth MoE kernels so they are AGPLv3 licensed, see the [explanation](https://github.com/unslothai/unsloth/discussions/2890#discussioncomment-13675890). For more robust and performant integration, it's possible to use the MIT licensed [triton-kernels](https://github.com/triton-lang/triton/tree/main/python/triton_kernels/triton_kernels) as an alternative.",
+        "translatedContent": "`qwen3_moe_fused/grouped_gemm/` 目录下的文件是从 Unsloth MoE 内核修改而来，因此遵循 AGPLv3 许可，详见 [说明](https://github.com/unslothai/unsloth/discussions/2890#discussioncomment-13675890)。为了更稳健和高性能的集成，可以选择使用 MIT 许可的 [triton-kernels](https://github.com/triton-lang/triton/tree/main/python/triton_kernels/triton_kernels) 作为替代。"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "xvGmKtVjDeYOEy69I3XUJ/A2PXViR38HXuLvrGQ0IU0=",
+        "originContent": "The rest of this repo, including files modified from Transformers, PEFT, and bitsandbytes, are Apache-2.0 licensed.",
+        "translatedContent": "本仓库其余部分，包括从 Transformers、PEFT 和 bitsandbytes 修改的文件，均采用 Apache-2.0 许可。"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

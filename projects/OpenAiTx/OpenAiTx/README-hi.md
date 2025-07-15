@@ -33,30 +33,36 @@
 
 
 <div align="center">
-  आपका <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a>  Open Ai Tx को और बेहतर बना सकता है
+ आपका <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a>  Open Ai Tx को बेहतर बना सकता है
 </div>
+
 
 ## परिचय
 
-**OpenAiTx** 20 भाषाओं के लिए ऑटो-ट्रांसलेट टूल आपके GitHub प्रोजेक्ट की readme और wiki के लिए।
+**OpenAiTx** आपके GitHub प्रोजेक्ट रीडमी और विकी के लिए 20 भाषाओं का ऑटो-अनुवाद टूल है।
 
 ## क्यों?
 
-1. प्रीमियम-ग्रेड LLM का उपयोग करके एक बार अनुवाद करें और परिणाम को ओपन-सोर्स समुदाय के लिए स्वतंत्र रूप से उपलब्ध कराएँ।
-2. Google/Bing की कई भाषाओं में SEO सर्च को सपोर्ट करता है, क्लाइंट ट्रांसलेट टूल ऐसा नहीं कर सकता।
-3. हमेशा के लिए मुफ्त और ओपन सोर्स
-4. एक बार सबमिट करें और भविष्य में ऑटो-अपडेट हो जाए, यदि आप प्रोजेक्ट मेंटेनर हैं तो यह आपका समय बचा सकता है।
+1. प्रीमियम-ग्रेड LLM का उपयोग कर एक बार अनुवाद करें और परिणाम को ओपन-सोर्स समुदाय के लिए निःशुल्क उपलब्ध कराएं।
+2. Google/Bing बहुभाषी SEO सर्च का समर्थन करें, क्लाइंट अनुवाद टूल यह नहीं कर सकते।
+3. हमेशा के लिए मुफ्त और ओपन सोर्स 
+4. एक बार सबमिट करें और भविष्य में ऑटो-अपडेट करें, यदि आप प्रोजेक्ट मेंटेनर हैं तो यह आपका समय बचा सकता है।
 
 
 ## शुरू करें
 
-1. URL में `GitHub` को `OpenAiTx` से बदलें, उदाहरण: https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
-2. क्लिक करें और अपने पसंदीदा स्टाइल बैज या टेक्स्ट को कॉपी करें।
+1. URL में `GitHub` को `OpenAiTx` से बदलें, जैसे https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+2. अपने प्रोजेक्ट को सबमिट करें।
+3. अपनी पसंद की स्टाइल बैज या टेक्स्ट पर क्लिक करें और कॉपी करें।
+4. अपने रीडमी फाइल में अपडेट करें।
 
 या
 
-1. https://openaitx.github.io/ पर जाएँ
+1. https://openaitx.com पर जाएं
 2. अपने प्रोजेक्ट लिंक को सबमिट करें।
+3. अपनी पसंद की स्टाइल बैज या टेक्स्ट पर क्लिक करें और कॉपी करें।
+4. अपने रीडमी फाइल में अपडेट करें।
+
 ## उदाहरण
 
 ### स्टाइल विकल्प 1:
@@ -88,37 +94,38 @@
   <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Bahasa Indonesia</a>
 </p>
 
-### स्टाइल विकल्प3:
+### स्टाइल विकल्प 3:
 
 <div align="right" >
   <details>
-    <summary >🌐 भाषा</summary>
-    <div>
-      <div align="right">
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">English</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN">简体中文</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">繁體中文</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">ไทย</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl">Polski</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar">العربية</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa">فارسی</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">Türkçe</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">Tiếng Việt</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Bahasa Indonesia</a></p>
-      </div>
-    </div>
-  </details>
+<summary >🌐 भाषा</summary>
+<div>
+  <div align="right">
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">English</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN">简体中文</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">繁體中文</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">日本語</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">한국어</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">हिन्दी</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">ไทย</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl">Polski</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar">العربية</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa">فارسی</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">Türkçe</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">Tiếng Việt</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Bahasa Indonesia</a></p>
+  </div>
 </div>
+</details>
+</div>
+
 
 ## डेमो वीडियो
 
@@ -126,22 +133,26 @@
 <img src="https://github.com/user-attachments/assets/f99e18aa-d943-4a88-a40e-2642952e9695"  alt="">
 </a>
 
-## योगदान की गणना
 
-यदि आप इस प्रोजेक्ट में योगदान करना चाहते हैं, तो आपको बस यह करना है:
-प्रोजेक्ट को फोर्क करें → प्रोजेक्ट को क्लोन करें → अपनी भाषा में एक स्क्रिप्ट चुनें → अपना AI टोकन भरें → इसे चलाएं → कमिट करें & पुश करें & PR बनाएं
+## कंप्यूटिंग में योगदान
+
+यदि आप परियोजना में योगदान देना चाहते हैं, तो आपको बस ये करना है:
+प्रोजेक्ट को फोर्क करें → प्रोजेक्ट को क्लोन करें → अपनी भाषा में एक स्क्रिप्ट चुनें → अपना AI टोकन भरें → इसे चलाएं → कमिट करें और पुश करें एवं PR बनाएं
 
 > नोट: **कृपया अपने टोकन अपलोड न करें!**
 
 ## नोट्स
 
-- केवल GitHub मार्कडाउन को सपोर्ट करता है।
-- यदि आप प्रोजेक्ट ओनर या कोर डेवलपर हैं, तो आप GitHub अकाउंट को प्रमाणित करके इंडेक्सिंग के बाद ऑटो-PR बना सकते हैं।
+- केवल GitHub मार्कडाउन का समर्थन है।
+
+## फ्रंटएंड प्रोजेक्ट
+[सोर्स कोड प्रोजेक्ट लिंक](https://github.com/OpenAiTx/OpenAiTx_FrontEnd) - [@mikechen](https://github.com/mikechen-git) द्वारा
 
 ## अन्य
-- 10~30 मिनट/ प्रति परियोजना
-- 200~400 परियोजनाएँ/एक कंसोल प्रतिदिन।
-- हर 3~7 दिनों में मौजूदा परियोजनाओं को अपडेट किया जाएगा (भविष्य के कंप्यूटिंग संसाधनों पर निर्भर करता है)
+
+- 10~30 मिनट/प्रति प्रोजेक्ट
+- 200~400 प्रोजेक्ट/प्रति कंसोल प्रतिदिन।
+- हर 3~7 दिनों में मौजूदा प्रोजेक्ट्स अपडेट होंगे (भविष्य की कंप्यूटिंग संसाधनों पर निर्भर करता है)
 
 
 
@@ -149,8 +160,9 @@
 
 - Microsoft MVP टीम
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-15
 
 ---

@@ -1,0 +1,1190 @@
+[
+  {
+    "row": 1,
+    "rowsha": "N6yXTS+UeczDJ4XoMwi/jjLarkrM9BXnahXJSTjwHxI=",
+    "originContent": "## New Feature: Read with Gemini, Edit with Claude + Diffs",
+    "translatedContent": "## 新功能：使用 Gemini 閱讀，使用 Claude 編輯 + 差異比較"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+    "originContent": "<div align=\"center\">",
+    "translatedContent": "<div align=\"center\">"
+  },
+  {
+    "row": 4,
+    "rowsha": "oij0ID8Ym4z0PRwNW4e+VS0Fm4xX1m1/QYXZjAdaPL4=",
+    "originContent": "  <img width=\"400\" alt=\"screenshot 2025-07-13 at 07 09 45\"",
+    "translatedContent": "  <img width=\"400\" alt=\"2025-07-13 07 09 45 截圖\""
+  },
+  {
+    "row": 5,
+    "rowsha": "i595RLinWLsjClDX3chNqI3mx2s7XpKtsDh507xztdA=",
+    "originContent": "       src=\"https://github.com/user-attachments/assets/5fccba53-71ce-4546-8aed-b1095c5a1ca8\" />",
+    "translatedContent": "       src=\"https://github.com/user-attachments/assets/5fccba53-71ce-4546-8aed-b1095c5a1ca8\" />"
+  },
+  {
+    "row": 6,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "WVaXPSSyFOz+nrxdGOkgiucFSRecO5OlGq08d66QVy0=",
+    "originContent": "> **Note:** ",
+    "translatedContent": "> **注意：**  "
+  },
+  {
+    "row": 11,
+    "rowsha": "UmqXKFcmQFEzfY0j6oKNFF4lfdu3CGqV22FXJAv4L7A=",
+    "originContent": "> - If your Gemini CLI installation already includes other MCP tools, they may interact with gemini-mcp-tool, leading to conflicts or unexpected console output if those MCPs write directly to stdout.  ",
+    "translatedContent": "> - 如果您的 Gemini CLI 安裝已包含其他 MCP 工具，它們可能會與 gemini-mcp-tool 發生互動，導致衝突或當這些 MCP 直接寫入 stdout 時產生意外的控制台輸出。  "
+  },
+  {
+    "row": 12,
+    "rowsha": "yp9n/2mP7xSJXzOb/y8TvQ7FB4RtTTac1Y+j0eKecSg=",
+    "originContent": "> - You can nest prompts by asking Gemini to invoke itself (e.g., `ask gemini to ask gemini`), but it won’t fall back automatically if the request exceeds your quota.  ",
+    "translatedContent": "> - 您可以透過讓 Gemini 自我呼叫來巢狀提示（例如，`ask gemini to ask gemini`），但若請求超出配額，它不會自動回退。  "
+  },
+  {
+    "row": 13,
+    "rowsha": "S7rszeUDQOtmtoo4EsNgQLey7BKGqRi6GpS/gb2gJeE=",
+    "originContent": "> - To use the faster, lower-cost flash model, append `flash` (e.g., `... using flash ...`).",
+    "translatedContent": "> - 若要使用更快且成本較低的 flash 模型，請在命令後加上 `flash`（例如，`... using flash ...`）。"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "I9vm6hEt6pU8hnEqxC+mT8j8eVkPccOdvv1qvCHOzTU=",
+    "originContent": "> 🚀 **Share your experience!** [Tell us how it went](https://github.com/jamubc/gemini-mcp-tool/discussions/2) and help the community grow!",
+    "translatedContent": "> 🚀 **分享您的使用心得！** [告訴我們您的經驗](https://github.com/jamubc/gemini-mcp-tool/discussions/2) 並協助社群成長！"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "OLX29K/ePx3UZvK6pAolRqH4I5hqBC/QK8kIKtbvi2E=",
+    "originContent": "> 📚 [Wiki documentation](https://github.com/jamubc/gemini-mcp-tool/wiki) is available with additional guides and examples.",
+    "translatedContent": "> 📚 [維基文件](https://github.com/jamubc/gemini-mcp-tool/wiki) 提供更多指南與範例。  "
+  },
+  {
+    "row": 18,
+    "rowsha": "7E+OPR98r724bpCLatg+QHrDaps++r2OJLVtgCKL5Ck=",
+    "originContent": "> ",
+    "translatedContent": ">  "
+  },
+  {
+    "row": 19,
+    "rowsha": "gr/LC50EPYjwew8UThOTT70viWhjkq7A7b/5CkfgUoI=",
+    "originContent": "> The contribution framework is currently in testing. Our goal is to use Gemini to create gemini-mcp-tool extensions, automate tool creation, and provide a TUI-based tool generator.",
+    "translatedContent": "> 貢獻框架目前正在測試中。我們的目標是利用 Gemini 創建 gemini-mcp-tool 擴充功能，自動化工具創建，並提供基於 TUI 的工具生成器。"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "aOjWZTVysv/FuDlJ/oJI4F0kw3Vqn3rgdg//IrHpcDc=",
+    "originContent": "# Gemini MCP Tool",
+    "translatedContent": "# Gemini MCP 工具"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+    "originContent": "<div align=\"center\">",
+    "translatedContent": "<div align=\"center\">"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "MT+Tydr2gaTMw9abibJsL+isGKEYK1SKlbF0UuYe0T8=",
+    "originContent": "[![GitHub Release](https://img.shields.io/github/v/release/jamubc/gemini-mcp-tool?logo=github&label=GitHub)](https://github.com/jamubc/gemini-mcp-tool/releases)",
+    "translatedContent": "[![GitHub 發行版本](https://img.shields.io/github/v/release/jamubc/gemini-mcp-tool?logo=github&label=GitHub)](https://github.com/jamubc/gemini-mcp-tool/releases)"
+  },
+  {
+    "row": 26,
+    "rowsha": "4m7xc6SloIM85JzQ3LmjBp+iMOf50vlU+AwVFQVyKXc=",
+    "originContent": "[![npm version](https://img.shields.io/npm/v/gemini-mcp-tool)](https://www.npmjs.com/package/gemini-mcp-tool)",
+    "translatedContent": "[![npm 版本](https://img.shields.io/npm/v/gemini-mcp-tool)](https://www.npmjs.com/package/gemini-mcp-tool)"
+  },
+  {
+    "row": 27,
+    "rowsha": "Too1Q79+G5HXxx876Zgx7gGD25ruq0DqXDkN0q/sir4=",
+    "originContent": "[![npm downloads](https://img.shields.io/npm/dt/gemini-mcp-tool)](https://www.npmjs.com/package/gemini-mcp-tool)",
+    "translatedContent": "[![npm 下載次數](https://img.shields.io/npm/dt/gemini-mcp-tool)](https://www.npmjs.com/package/gemini-mcp-tool)"
+  },
+  {
+    "row": 28,
+    "rowsha": "T74wg+upsuJuG1b7GCaib3uIPqtzv6418uqERHA8Bi4=",
+    "originContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+    "translatedContent": "[![授權：MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
+  },
+  {
+    "row": 29,
+    "rowsha": "JtmrKi3nYmPDPbSr6+f24ychsDpoJmMEqz5koIWr1bU=",
+    "originContent": "[![Open Source](https://img.shields.io/badge/Open%20Source-❤️-red.svg)](https://github.com/jamubc/gemini-mcp-tool)",
+    "translatedContent": "[![開源專案](https://img.shields.io/badge/Open%20Source-❤️-red.svg)](https://github.com/jamubc/gemini-mcp-tool)"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "LukINxhpHcsd2DweIcjEBWLtuWLHeyX1AMVqpZgDwQw=",
+    "originContent": "<a href=\"https://glama.ai/mcp/servers/@jamubc/gemini-mcp-tool\">",
+    "translatedContent": "<a href=\"https://glama.ai/mcp/servers/@jamubc/gemini-mcp-tool\">"
+  },
+  {
+    "row": 34,
+    "rowsha": "wwy5HK1rs5wxLSJKAQU9zHwDzgF5dZ2WN68i+Ucfd20=",
+    "originContent": "  <img width=\"380\" height=\"200\" src=\"https://glama.ai/mcp/servers/@jamubc/gemini-mcp-tool/badge\" alt=\"Gemini Tool MCP server\" />",
+    "translatedContent": "  <img width=\"380\" height=\"200\" src=\"https://glama.ai/mcp/servers/@jamubc/gemini-mcp-tool/badge\" alt=\"Gemini 工具 MCP 伺服器\" />"
+  },
+  {
+    "row": 35,
+    "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+    "originContent": "</a>",
+    "translatedContent": "</a>"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "7wYQ+tzyjlBWS7EEIwqxldkNISab4MfpYQhpXbBM65Y=",
+    "originContent": "> 📚 **[View Full Documentation](https://jamubc.github.io/gemini-mcp-tool/)** - Search me!, Examples, FAQ, Troubleshooting, Best Practices",
+    "translatedContent": "> 📚 **[查看完整文件](https://jamubc.github.io/gemini-mcp-tool/)** - 搜尋我！、範例、常見問題、疑難排解、最佳實踐"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "c8jkxfqKI5eI1DCKApT/IaKgqUGzjaP13Hfb3CuZL+Y=",
+    "originContent": "This is a simple Model Context Protocol (MCP) server that allows AI assistants to interact with the [Gemini CLI](https://github.com/google-gemini/gemini-cli). It enables the AI to leverage the power of Gemini's massive token window for large analysis, especially with large files and codebases using the `@` syntax for direction.",
+    "translatedContent": "這是一個簡單的模型上下文協定（MCP）伺服器，允許 AI 助手與 [Gemini CLI](https://github.com/google-gemini/gemini-cli) 互動。它使 AI 能夠利用 Gemini 巨大 token 視窗的強大功能進行大型分析，特別是針對使用 `@` 語法指示的大型檔案和程式碼庫。"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 簡述： [![Claude](https://img.shields.io/badge/Claude-D97757?logo=claude&logoColor=fff)](#) + [![Google Gemini](https://img.shields.io/badge/Google%20Gemini-886FBF?logo=googlegemini&logoColor=fff)](#)"
+  },
+  {
+    "row": 42,
+    "rowsha": "3y3s13Ozfb1Z2oQks/ZhMY3G08SM6yka+KPwXegc66k=",
+    "originContent": "## TLDR: [![Claude](https://img.shields.io/badge/Claude-D97757?logo=claude&logoColor=fff)](#) + [![Google Gemini](https://img.shields.io/badge/Google%20Gemini-886FBF?logo=googlegemini&logoColor=fff)](#)",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**目標**：直接在 Claude Code 中使用 Gemini 強大的分析能力，以節省 token 並分析大型檔案。"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "YFMmONzvUJap0iP4b3UlpUataWMOF7/nkfSx6Ac9074=",
+    "originContent": "**Goal**: Use Gemini's powerful analysis capabilities directly in Claude Code to save tokens and analyze large files.",
+    "translatedContent": "### 一行設定"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "K7A53Jxtr7L1SwnUl0pslg2qfJBYgU005uGEvr6WEPE=",
+    "originContent": "### One-Line Setup",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 50,
+    "rowsha": "5riK4/H8Fmu8uSV8MGRoGYsaqYFNGBgOAdk9TadXeuk=",
+    "originContent": "claude mcp add gemini-cli -- npx -y gemini-mcp-tool",
+    "translatedContent": "claude mcp add gemini-cli -- npx -y gemini-mcp-tool"
+  },
+  {
+    "row": 51,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 驗證安裝"
+  },
+  {
+    "row": 53,
+    "rowsha": "q6LUCmX8tJcOB6JLBK/113TRf3GjXXVQ8oF5vyUeiiM=",
+    "originContent": "### Verify Installation",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "在 Claude Code 中輸入 `/mcp` 以驗證 gemini-cli MCP 是否啟動。"
+  },
+  {
+    "row": 55,
+    "rowsha": "+wdt8kDBssSwzF/MwC0Krr//+5dDeQXpXZwTnZixefY=",
+    "originContent": "Type `/mcp` inside Claude Code to verify the gemini-cli MCP is active.",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 57,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 替代方案：從 Claude 桌面版匯入"
+  },
+  {
+    "row": 59,
+    "rowsha": "TQu1iV0AaYiNxiAaSMEySJacmt98dxdmsbseUdqcQ04=",
+    "originContent": "### Alternative: Import from Claude Desktop",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "如果您已在 Claude 桌面版中設定："
+  },
+  {
+    "row": 61,
+    "rowsha": "HiuNArGJw76DzlOjjd0GSfGADX22zDKhw8Za2U8eJFw=",
+    "originContent": "If you already have it configured in Claude Desktop:",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. 新增至您的 Claude 桌面版設定："
+  },
+  {
+    "row": 63,
+    "rowsha": "QedQrP4O1WB54RHSxwTTpcTP2T+CdVjmjdWbHBUdb3k=",
+    "originContent": "1. Add to your Claude Desktop config:",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+    "originContent": "```json",
+    "translatedContent": "```json"
+  },
+  {
+    "row": 65,
+    "rowsha": "rW/Ckgf6xg8JvhxFlcTt7Ui98TOMXp7x3Qo9aB1HHmI=",
+    "originContent": "\"gemini-cli\": {",
+    "translatedContent": "\"gemini-cli\": {"
+  },
+  {
+    "row": 66,
+    "rowsha": "RGMsLX7GE4OqJB43peaKE6ib3R0h11gdvorC5wkHj7s=",
+    "originContent": "  \"command\": \"npx\",",
+    "translatedContent": "  \"command\": \"npx\","
+  },
+  {
+    "row": 67,
+    "rowsha": "Dsbu4HAclw4Uu7VLmSXqDEqdW5bN2E+jd5Lk4XauLgk=",
+    "originContent": "  \"args\": [\"-y\", \"gemini-mcp-tool\"]",
+    "translatedContent": "  \"args\": [\"-y\", \"gemini-mcp-tool\"]"
+  },
+  {
+    "row": 68,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 69,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "2. 匯入至 Claude 程式碼："
+  },
+  {
+    "row": 71,
+    "rowsha": "qzGpj08tbjKPmxp0opDMaMH+LR1TtcUMzt4rzNbF9hk=",
+    "originContent": "2. Import to Claude Code:",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 73,
+    "rowsha": "igEOc4+f2sdkeEEkfCLeTVIF2Ipz98XGhLz1GqD355Q=",
+    "originContent": "claude mcp add-from-claude-desktop",
+    "translatedContent": "claude mcp add-from-claude-desktop"
+  },
+  {
+    "row": 74,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 先決條件"
+  },
+  {
+    "row": 76,
+    "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+    "originContent": "## Prerequisites",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "在使用此工具之前，請確保您已具備："
+  },
+  {
+    "row": 78,
+    "rowsha": "CdYV4zX4TF4rEalFaVCS3I97KKXlsXv7qkDwLv388mQ=",
+    "originContent": "Before using this tool, ensure you have:",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. **[Node.js](https://nodejs.org/)**（版本16.0.0或更高）"
+  },
+  {
+    "row": 80,
+    "rowsha": "9vixYU3GcXFg0YdNX7tYg+PIRlX8MC/6+dbUjfdjcn4=",
+    "originContent": "1. **[Node.js](https://nodejs.org/)** (v16.0.0 or higher)",
+    "translatedContent": "2. **[Google Gemini CLI](https://github.com/google-gemini/gemini-cli)** 已安裝並配置"
+  },
+  {
+    "row": 81,
+    "rowsha": "18CejcAZKtYZBYv9mAdrRpEKJeKiSdtSrnKe/LuoCvo=",
+    "originContent": "2. **[Google Gemini CLI](https://github.com/google-gemini/gemini-cli)** installed and configured",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 安裝選項"
+  },
+  {
+    "row": 83,
+    "rowsha": "bMeNgKqSzHqVJ05iFQTzhD+TJwL9xfT3DpyHwR8yDBI=",
+    "originContent": "## Installation Options",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 選項1：NPX（推薦）"
+  },
+  {
+    "row": 85,
+    "rowsha": "i3GdRcQ6kuE2RBAh+MZzE/SI+/aK1S70vEk0sAFDbuI=",
+    "originContent": "### Option 1: NPX (Recommended)",
+    "translatedContent": "無需安裝 - 工具可直接透過 `npx` 執行。"
+  },
+  {
+    "row": 86,
+    "rowsha": "Ob+yAXbdGqhHj5iZp78cn91yU3xIf2dWzYbiR9ia7yA=",
+    "originContent": "No installation required - the tool runs directly via `npx`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 選項2：全域安裝"
+  },
+  {
+    "row": 88,
+    "rowsha": "5kPD7Dlf6jn0j+Q6DBspDZUAVz9oLH3AtZc7ivVCL9c=",
+    "originContent": "### Option 2: Global Installation",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 90,
+    "rowsha": "cl7EeYfG+mPxu98DGblvdoomLf2EpS8/sTA5HYy9IEk=",
+    "originContent": "npm install -g gemini-mcp-tool",
+    "translatedContent": "npm install -g gemini-mcp-tool"
+  },
+  {
+    "row": 91,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 配置"
+  },
+  {
+    "row": 93,
+    "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+    "originContent": "## Configuration",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "使用您的 MCP 客戶端註冊 MCP 伺服器："
+  },
+  {
+    "row": 95,
+    "rowsha": "wkDOspBhIDJ1lbd/aepTVALntbC7WqtH0HC+FcvO8SQ=",
+    "originContent": "Register the MCP server with your MCP client:",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### NPX 使用方式（推薦）"
+  },
+  {
+    "row": 97,
+    "rowsha": "oB/fsS73vmImTV7MeFq+DikMwzkQEAqx2ZVOphe6JY0=",
+    "originContent": "### For NPX Usage (Recommended)",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "將此配置添加到您的 Claude Desktop 配置文件中："
+  },
+  {
+    "row": 99,
+    "rowsha": "Lo5fGSgF8/q+BPFFsCG7UCubihhjlMNwZkEDXyfpi8s=",
+    "originContent": "Add this configuration to your Claude Desktop config file:",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+    "originContent": "```json",
+    "translatedContent": "```json"
+  },
+  {
+    "row": 102,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 103,
+    "rowsha": "ZckkIpKixltZLtYSjGOhgJjNOCkOb0HBckGFnZZHIuw=",
+    "originContent": "  \"mcpServers\": {",
+    "translatedContent": "  \"mcpServers\": {"
+  },
+  {
+    "row": 104,
+    "rowsha": "8lXaGwjM2gR0d4dq80O85nFV2eGaBZiOE8BY/ZcMS+w=",
+    "originContent": "    \"gemini-cli\": {",
+    "translatedContent": "    \"gemini-cli\": {"
+  },
+  {
+    "row": 105,
+    "rowsha": "m1brNZrsMVLBwdNTiAu1UnTnL8Y0znjxjarXfqBMLmw=",
+    "originContent": "      \"command\": \"npx\",",
+    "translatedContent": "      \"command\": \"npx\","
+  },
+  {
+    "row": 106,
+    "rowsha": "c1ljd40ruvk6lpXu3z8op0Ezu8QxaVtWPbWYb74wcmk=",
+    "originContent": "      \"args\": [\"-y\", \"gemini-mcp-tool\"]",
+    "translatedContent": "      \"args\": [\"-y\", \"gemini-mcp-tool\"]"
+  },
+  {
+    "row": 107,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 108,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 109,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 110,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 全域安裝使用"
+  },
+  {
+    "row": 112,
+    "rowsha": "m9doUyedfGxvY9pe4PKODcvmLHhb/JJCUCEAbGkqnmk=",
+    "originContent": "### For Global Installation",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "如果您是全域安裝，請改用此設定："
+  },
+  {
+    "row": 114,
+    "rowsha": "9mZlKG2jJMnX21Fv/3ETcC2XA1Hier4wA0al50Di3W0=",
+    "originContent": "If you installed globally, use this configuration instead:",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+    "originContent": "```json",
+    "translatedContent": "```json"
+  },
+  {
+    "row": 117,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 118,
+    "rowsha": "ZckkIpKixltZLtYSjGOhgJjNOCkOb0HBckGFnZZHIuw=",
+    "originContent": "  \"mcpServers\": {",
+    "translatedContent": "  \"mcpServers\": {"
+  },
+  {
+    "row": 119,
+    "rowsha": "8lXaGwjM2gR0d4dq80O85nFV2eGaBZiOE8BY/ZcMS+w=",
+    "originContent": "    \"gemini-cli\": {",
+    "translatedContent": "    \"gemini-cli\": {"
+  },
+  {
+    "row": 120,
+    "rowsha": "VSx8KSb8QQBLEIRnxLbzhUGnSyOV+IGRI1FD6N5bNNo=",
+    "originContent": "      \"command\": \"gemini-mcp\"",
+    "translatedContent": "      \"command\": \"gemini-mcp\""
+  },
+  {
+    "row": 121,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 122,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 123,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 124,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**設定檔位置：**"
+  },
+  {
+    "row": 126,
+    "rowsha": "MmN0n8u2ycXc3DJJ0f6bqF8fEWduGc5Aa/XYppqp/PE=",
+    "originContent": "**Configuration File Locations:**",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **Claude 桌面版**："
+  },
+  {
+    "row": 128,
+    "rowsha": "F0rOGc02lX2cJ8ygoXsEG+CbzSP91ohiZt+sGI2tkWc=",
+    "originContent": "- **Claude Desktop**:",
+    "translatedContent": "  - **macOS**：`~/Library/Application Support/Claude/claude_desktop_config.json`"
+  },
+  {
+    "row": 129,
+    "rowsha": "SJTxxmqY4+EYKZybG5CpH2HUU6iJbkYrDbdG4iIiDeg=",
+    "originContent": "  - **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`",
+    "translatedContent": "  - **Windows**：`%APPDATA%\\Claude\\claude_desktop_config.json`"
+  },
+  {
+    "row": 130,
+    "rowsha": "2eQsZtq0F7Bpx8uf1aSIyfVfmo5JaBp8PoE1E4/udfA=",
+    "originContent": "  - **Windows**: `%APPDATA%\\Claude\\claude_desktop_config.json`",
+    "translatedContent": "  - **Linux**：`~/.config/claude/claude_desktop_config.json`"
+  },
+  {
+    "row": 131,
+    "rowsha": "pggOvxb9DT3DOBX3+14OM8g8XMF8/0c4Qo0+pBGoiM8=",
+    "originContent": "  - **Linux**: `~/.config/claude/claude_desktop_config.json`",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "更新設定後，請重新啟動終端機會話。"
+  },
+  {
+    "row": 133,
+    "rowsha": "Pxy+S2ffjohcu39vgp3jD9OjbxMrSNFLvNzyd+UQWG0=",
+    "originContent": "After updating the configuration, restart your terminal session.",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 可用指令"
+  },
+  {
+    "row": 135,
+    "rowsha": "C/vXT/QiAcXKjzGjp1Q5ZMHs6lvyF8KP2vO3FscmMyk=",
+    "originContent": "## Available Commands",
+    "translatedContent": ""
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **自然語言**： \"use gemini to explain index.html\", \"understand the massive project using gemini\", \"ask gemini to search for latest news\""
+  },
+  {
+    "row": 137,
+    "rowsha": "3grK42gi5WJ34kDuYWza7BfXoCzroMNjcOKSUwrZ96g=",
+    "originContent": "- **Natural language**: \"use gemini to explain index.html\", \"understand the massive project using gemini\", \"ask gemini to search for latest news\"",
+    "translatedContent": "- **Claude 程式碼**：輸入 `/gemini-cli`，指令會出現在 Claude 程式碼介面中。"
+  },
+  {
+    "row": 138,
+    "rowsha": "MSvieIa75Al+jIAMhNz/H1gV6+5jrt0y8PnxD+wlvqQ=",
+    "originContent": "- **Claude Code**: Type `/gemini-cli` and commands will populate in Claude Code's interface.",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 使用範例"
+  },
+  {
+    "row": 140,
+    "rowsha": "S26wdEyXDtbwhsw5/RfwoNc6EYkI3moIDhrEDjveQB0=",
+    "originContent": "## Usage Examples",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 使用檔案參考（使用 @ 語法）"
+  },
+  {
+    "row": 142,
+    "rowsha": "Zz1mh6oAfiVFdmjOGK5rZ6jzu5Zt0R9GxskgefZcdMM=",
+    "originContent": "### With File References (using @ syntax)",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- `ask gemini to analyze @src/main.js and explain what it does`"
+  },
+  {
+    "row": 144,
+    "rowsha": "yQChyvmBtrDj2VhcjJiEfxkN+yDeTzO3jA1OdvdytS0=",
+    "originContent": "- `ask gemini to analyze @src/main.js and explain what it does`",
+    "translatedContent": "- `use gemini to summarize @. the current directory`"
+  },
+  {
+    "row": 145,
+    "rowsha": "KeeOVdBntp6JxUliMlsMuO2Fmzpi+70PTkJdMQTKvZM=",
+    "originContent": "- `use gemini to summarize @. the current directory`",
+    "translatedContent": "- `analyze @package.json and tell me about dependencies`"
+  },
+  {
+    "row": 146,
+    "rowsha": "TqBQRsxKx45H4bmdpl/tG0RRtaG6Th5yQvbt2QWo0sg=",
+    "originContent": "- `analyze @package.json and tell me about dependencies`",
+    "translatedContent": ""
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 一般問題（無檔案）"
+  },
+  {
+    "row": 148,
+    "rowsha": "C6TplC1jd6i5UKyj5MyEnawR6YR50lMCs+iDB5CunvA=",
+    "originContent": "### General Questions (without files)",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- `ask gemini to search for the latest tech news`"
+  },
+  {
+    "row": 150,
+    "rowsha": "dfcjeCjGMfYvufFe1u/zmYMWXy1RGKTCG/BbIWuqd04=",
+    "originContent": "- `ask gemini to search for the latest tech news`",
+    "translatedContent": "- `use gemini to explain div centering`"
+  },
+  {
+    "row": 151,
+    "rowsha": "dPRdRAXvDb47MQCUja7CLcTFW57YKu952tW7R/ed0Kg=",
+    "originContent": "- `use gemini to explain div centering`",
+    "translatedContent": "- `ask gemini about best practices for React development related to @file_im_confused_about`"
+  },
+  {
+    "row": 152,
+    "rowsha": "BmDHxaRZ5UgI5JO1kHkGSX2+Htd5SgAqtk+cEmh/c+Y=",
+    "originContent": "- `ask gemini about best practices for React development related to @file_im_confused_about`",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 使用 Gemini CLI 的 Sandbox 模式 (-s)"
+  },
+  {
+    "row": 154,
+    "rowsha": "ZyLsk9Dpe2QCfBp5nOdHAuEfqWGQoXw6MVZKM621BJ0=",
+    "originContent": "### Using Gemini CLI's Sandbox Mode (-s)",
+    "translatedContent": ""
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Sandbox 模式讓你能在隔離環境中安全測試程式碼變更、執行腳本或執行可能有風險的操作。"
+  },
+  {
+    "row": 156,
+    "rowsha": "fAK3AJoqeR4ihdRhrSQnWGas6DJHYSmHb0n9NFIKM9k=",
+    "originContent": "The sandbox mode allows you to safely test code changes, run scripts, or execute potentially risky operations in an isolated environment.",
+    "translatedContent": ""
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- `use gemini sandbox to create and run a Python script that processes data`"
+  },
+  {
+    "row": 158,
+    "rowsha": "yaxVeDPIGLp3PSbtihF1WyimNTj+vwEqTFztsUJ1/cs=",
+    "originContent": "- `use gemini sandbox to create and run a Python script that processes data`",
+    "translatedContent": "- `ask gemini to safely test @script.py and explain what it does`"
+  },
+  {
+    "row": 159,
+    "rowsha": "jJVX1yt0X8p64FZPiakwwIGY7kze6nfnIpRxh2c+05c=",
+    "originContent": "- `ask gemini to safely test @script.py and explain what it does`",
+    "translatedContent": "- `use gemini sandbox to install numpy and create a data visualization`"
+  },
+  {
+    "row": 160,
+    "rowsha": "9G8z5W8BZI5uPzbkFN718V9XNrMwdPmUZimPboJq+5s=",
+    "originContent": "- `use gemini sandbox to install numpy and create a data visualization`",
+    "translatedContent": "- `test this code safely: Create a script that makes HTTP requests to an API`"
+  },
+  {
+    "row": 161,
+    "rowsha": "2YC2GLyA57p75dO7sglHHkert3G34v3BXihNYlADOwo=",
+    "originContent": "- `test this code safely: Create a script that makes HTTP requests to an API`",
+    "translatedContent": ""
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 工具（供 AI 使用）"
+  },
+  {
+    "row": 163,
+    "rowsha": "KGvNqo4cp7tLvDKLEgE6PmDH65rRG+aRmKuS8QxwUvE=",
+    "originContent": "### Tools (for the AI)",
+    "translatedContent": ""
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "這些工具設計供 AI 助手使用。"
+  },
+  {
+    "row": 165,
+    "rowsha": "byzZCvNTrwJT+sNHCo6LDzZGyP3zf/uaLhW10WLV2Og=",
+    "originContent": "These tools are designed to be used by the AI assistant.",
+    "translatedContent": ""
+  },
+  {
+    "row": 166,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **`ask-gemini`**：向 Google Gemini 詢問觀點。可用於一般問題或檔案的複雜分析。"
+  },
+  {
+    "row": 167,
+    "rowsha": "wqbOOGGvNpXZXXTDRZ+eUWO4cvtYjjdIxyrK21h38uQ=",
+    "originContent": "- **`ask-gemini`**: Asks Google Gemini for its perspective. Can be used for general questions or complex analysis of files.",
+    "translatedContent": "  - **`prompt`**（必填）：分析請求。使用 `@` 語法包含檔案或目錄參考（例如 `@src/main.js explain this code`），或詢問一般問題（例如 `Please use a web search to find the latest news stories`）。"
+  },
+  {
+    "row": 168,
+    "rowsha": "aBWJ+82NBxda5Ik5XDqe1hd/IRJz0ZqRxtfXTBLQgKU=",
+    "originContent": "  - **`prompt`** (required): The analysis request. Use the `@` syntax to include file or directory references (e.g., `@src/main.js explain this code`) or ask general questions (e.g., `Please use a web search to find the latest news stories`).",
+    "translatedContent": "  - **`model`**（選填）：使用的 Gemini 模型。預設為 `gemini-2.5-flash`。"
+  },
+  {
+    "row": 169,
+    "rowsha": "ODFplgsHwA5roi697pGFiFgo5lHJ8AtFy9Fzh8ovQHs=",
+    "originContent": "  - **`model`** (optional): The Gemini model to use. Defaults to `gemini-2.5-flash`.",
+    "translatedContent": "  - **`sandbox`**（選填）：設為 `true` 以啟用 sandbox 模式，安全執行程式碼。"
+  },
+  {
+    "row": 170,
+    "rowsha": "o6kFchXc2fqXyUGgGA65l0o3qTVTfGv5qSUfzI9O/j8=",
+    "originContent": "  - **`sandbox`** (optional): Set to `true` to run in sandbox mode for safe code execution.",
+    "translatedContent": "- **`sandbox-test`**：在 Gemini 的 sandbox 環境安全執行程式碼或指令。始終以 sandbox 模式執行。"
+  },
+  {
+    "row": 171,
+    "rowsha": "1iDY+0DMrrtfW+LsQ2TLOCikSIoqU0gY93U0DXuAvWY=",
+    "originContent": "- **`sandbox-test`**: Safely executes code or commands in Gemini's sandbox environment. Always runs in sandbox mode.",
+    "translatedContent": "  - **`prompt`**（必填）：程式碼測試請求（例如 `Create and run a Python script that...` 或 `@script.py Run this safely`）。"
+  },
+  {
+    "row": 172,
+    "rowsha": "GOU3Q+RN0LHL2jbjAvDW5nRoByX2ZHhIo8Wn5IjFmdw=",
+    "originContent": "  - **`prompt`** (required): Code testing request (e.g., `Create and run a Python script that...` or `@script.py Run this safely`).",
+    "translatedContent": "  - **`model`**（選填）：使用的 Gemini 模型。"
+  },
+  {
+    "row": 173,
+    "rowsha": "F0kGK1+K7y5cJ60gpcJt+rKALOvgmouGYz/SOPh/1Oo=",
+    "originContent": "  - **`model`** (optional): The Gemini model to use.",
+    "translatedContent": "- **`Ping`**：簡單的測試工具，回傳訊息。"
+  },
+  {
+    "row": 174,
+    "rowsha": "PPXfswfIShDUJ/B80CVZI2IDeaugM076JGJAo3FWiZ4=",
+    "originContent": "- **`Ping`**: A simple test tool that echoes back a message.",
+    "translatedContent": "- **`Help`**：顯示 Gemini CLI 的說明文字。"
+  },
+  {
+    "row": 175,
+    "rowsha": "LmpVvoD3pB7w314QZwc5UQ0rXhdKVVB/B+dRVWE1zFw=",
+    "originContent": "- **`Help`**: Shows the Gemini CLI help text.",
+    "translatedContent": ""
+  },
+  {
+    "row": 176,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 斜線指令（供使用者）"
+  },
+  {
+    "row": 177,
+    "rowsha": "F9PQyoHIAfLdAHOVaeFU2C5jgtI80Ktqx0Ln0y2/6RE=",
+    "originContent": "### Slash Commands (for the User)",
+    "translatedContent": ""
+  },
+  {
+    "row": 178,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "你可以直接在 Claude 程式碼介面中使用這些指令（尚未測試其他客戶端的相容性）。"
+  },
+  {
+    "row": 179,
+    "rowsha": "JmrO7RG7lkw0JSNqlsQ3ClXB2Zce6TpVpktxtRBejU0=",
+    "originContent": "You can use these commands directly in Claude Code's interface (compatibility with other clients has not been tested).",
+    "translatedContent": ""
+  },
+  {
+    "row": 180,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **/analyze**：使用 Gemini 分析檔案或目錄，或詢問一般問題。"
+  },
+  {
+    "row": 181,
+    "rowsha": "3UIt4zkso/X8jWIQ4IjSGeJj7EY2HgfCp/Pn3ftEynw=",
+    "originContent": "- **/analyze**: Analyzes files or directories using Gemini, or asks general questions.",
+    "translatedContent": "  - **`prompt`**（必填）：分析提示。使用 `@` 語法包含檔案（例如 `/analyze prompt:@src/ summarize this directory`）或詢問一般問題（例如 `/analyze prompt:Please use a web search to find the latest news stories`）。"
+  },
+  {
+    "row": 182,
+    "rowsha": "SDtJqrn70KXBH4xJxHCMbxUUSwUkfZg/ZkZ6VEQNqzc=",
+    "originContent": "  - **`prompt`** (required): The analysis prompt. Use `@` syntax to include files (e.g., `/analyze prompt:@src/ summarize this directory`) or ask general questions (e.g., `/analyze prompt:Please use a web search to find the latest news stories`).",
+    "translatedContent": "- **/sandbox**：在 Gemini 的 sandbox 環境中安全測試程式碼或腳本。"
+  },
+  {
+    "row": 183,
+    "rowsha": "4U98D5h/OsdCFKi3/nh0H+6N747b0aa5ejM8pt4KS40=",
+    "originContent": "- **/sandbox**: Safely tests code or scripts in Gemini's sandbox environment.",
+    "translatedContent": "  - **`prompt`**（必填）：程式碼測試請求（例如 `/sandbox prompt:Create and run a Python script that processes CSV data` 或 `/sandbox prompt:@script.py Test this script safely`）。"
+  },
+  {
+    "row": 184,
+    "rowsha": "lq3xnteXBrXHldkc1wkYbBy//yIIVR4nmatCK7vWu2w=",
+    "originContent": "  - **`prompt`** (required): Code testing request (e.g., `/sandbox prompt:Create and run a Python script that processes CSV data` or `/sandbox prompt:@script.py Test this script safely`).",
+    "translatedContent": "- **/help**：顯示 Gemini CLI 的說明資訊。"
+  },
+  {
+    "row": 185,
+    "rowsha": "T2I5fmp6wfvfI1ZEkMfPb10HwuyIRSgQFrHR6auQF7I=",
+    "originContent": "- **/help**: Displays the Gemini CLI help information.",
+    "translatedContent": "- **/ping**：測試與伺服器的連線。"
+  },
+  {
+    "row": 186,
+    "rowsha": "o5tJAiTW8UePgQm9bY/F7g9GhQTFie3NfIk9z0eT/co=",
+    "originContent": "- **/ping**: Tests the connection to the server.",
+    "translatedContent": "  - **`message`**（選填）：回傳的訊息。"
+  },
+  {
+    "row": 187,
+    "rowsha": "GGYjjQR68A4zNOtCriojYQpYdxLsBInwuvSxYEJcx7k=",
+    "originContent": "  - **`message`** (optional): A message to echo back.",
+    "translatedContent": ""
+  },
+  {
+    "row": 188,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 貢獻"
+  },
+  {
+    "row": 189,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": ""
+  },
+  {
+    "row": 190,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "歡迎貢獻！請參閱我們的[貢獻指南](https://raw.githubusercontent.com/jamubc/gemini-mcp-tool/main/CONTRIBUTING.md)了解如何提交 Pull Request、回報問題及參與專案。"
+  },
+  {
+    "row": 191,
+    "rowsha": "opAWJuhkFYuD4opnYdJdNd7SG8PyPRv0G1UTd3DsaQY=",
+    "originContent": "Contributions are welcome! Please see our [Contributing Guidelines](https://raw.githubusercontent.com/jamubc/gemini-mcp-tool/main/CONTRIBUTING.md) for details on how to submit pull requests, report issues, and contribute to the project.",
+    "translatedContent": ""
+  },
+  {
+    "row": 192,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 授權條款"
+  },
+  {
+    "row": 193,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 194,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "本專案採用 MIT 授權條款。詳細資訊請參閱 [LICENSE](LICENSE) 檔案。"
+  },
+  {
+    "row": 195,
+    "rowsha": "JH3sz3mjuQaCd/DzIihh3gXY1C+5cMHFSIlbm3SBuvg=",
+    "originContent": "This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.",
+    "translatedContent": ""
+  },
+  {
+    "row": 196,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**免責聲明：** 這是非官方第三方工具，與 Google 無關，亦未獲 Google 認可或贊助。"
+  },
+  {
+    "row": 197,
+    "rowsha": "dV6Q96FDnoUgpSianMtrroe7FYKWY21zoELW2qkCKek=",
+    "originContent": "**Disclaimer:** This is an unofficial, third-party tool and is not affiliated with, endorsed, or sponsored by Google.",
+    "translatedContent": ""
+  },
+  {
+    "row": 198,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

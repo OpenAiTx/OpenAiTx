@@ -1,0 +1,206 @@
+[
+  {
+    "row": 1,
+    "rowsha": "4fnB711iyDvWoa0sKnw+8nYcLwawM1UTLQBb3f+uY/I=",
+    "originContent": "# Qwen3 MoE Fused",
+    "translatedContent": "# Qwen3 MoE 퓨즈드"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "E8ZuWnU15dO/sgSrAS2zLXz2v6/wQQRlilP1EcTpZs8=",
+    "originContent": "The Qwen3 MoE model (and all other MoE models) in HF Transformers is notoriously slow, because it uses a [for loop](https://github.com/huggingface/transformers/blob/bdf5fb70aa11782cce22027d76879f71f4e41c1e/src/transformers/models/qwen3_moe/modular_qwen3_moe.py#L103) to access the experts. The purpose of this repo is to fine-tune Qwen3-30B-A3B on a single GPU with 24GB VRAM and achieve high throughput. The implementation is compatible with the HF Transformers ecosystem, such as LoRA, bitsandbytes 4-bit quantization, and Unsloth. See [`example_train_30b_a3b_unsloth.py`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/example_train_30b_a3b_unsloth.py) for the usage.",
+    "translatedContent": "HF Transformers의 Qwen3 MoE 모델(및 모든 다른 MoE 모델)은 전문가에 접근하기 위해 [for 루프](https://github.com/huggingface/transformers/blob/bdf5fb70aa11782cce22027d76879f71f4e41c1e/src/transformers/models/qwen3_moe/modular_qwen3_moe.py#L103)를 사용하기 때문에 매우 느립니다. 이 저장소의 목적은 24GB VRAM을 가진 단일 GPU에서 Qwen3-30B-A3B를 미세 조정하고 높은 처리량을 달성하는 것입니다. 구현은 LoRA, bitsandbytes 4비트 양자화, Unsloth 등 HF Transformers 생태계와 호환됩니다. 사용법은 [`example_train_30b_a3b_unsloth.py`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/example_train_30b_a3b_unsloth.py)를 참조하세요."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "Pmbwz3LvqDEsoiXIcoWxD2/gbOhXynGxYe92Z2EgDPc=",
+    "originContent": "## Fused linear layer",
+    "translatedContent": "## 퓨즈드 선형 계층"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "047G9Ex30bXGjZUejfj91sdJaMGjkewJppnmN8SAWcU=",
+    "originContent": "The critical part is to implement the [`moe_fused_linear`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/qwen3_moe_fused/functional.py) function:",
+    "translatedContent": "핵심 부분은 [`moe_fused_linear`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/qwen3_moe_fused/functional.py) 함수를 구현하는 것입니다:"
+  },
+  {
+    "row": 8,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 9,
+    "rowsha": "q87k1IVVbIctgBDM3CY56OuF+LdL8R4pQtnzu0fEfPo=",
+    "originContent": "output[b, o] = sum_i weight[selected_experts[b], o, i] * input[b, i]",
+    "translatedContent": "output[b, o] = sum_i weight[selected_experts[b], o, i] * input[b, i]"
+  },
+  {
+    "row": 10,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 11,
+    "rowsha": "MGxH1pV1ODf3IykcFMW7nwdj0eKYz9zxqp/QSAB2fEY=",
+    "originContent": "There are already several good implementations, such as [triton-kernels](https://github.com/triton-lang/triton/blob/dd1c3d429d1c24904722ac699ea5750bc694c4d6/python/triton_kernels/triton_kernels/matmul_ogs.py), [llama.cpp](https://github.com/ggml-org/llama.cpp/blob/a0535ffa0d35fccfec3e1a0a3bfc9dbb6054d7c0/ggml/src/ggml-cuda/ggml-cuda.cu#L2065), [vLLM](https://github.com/vllm-project/vllm/blob/015fab8c2fa4db8776f7e91abd50371911673d88/vllm/model_executor/layers/fused_moe/fused_moe.py). `torch._grouped_mm` is also being implemented. We need to sort `input` by the experts to improve the memory coalescence of `weight`.",
+    "translatedContent": "이미 [triton-kernels](https://github.com/triton-lang/triton/blob/dd1c3d429d1c24904722ac699ea5750bc694c4d6/python/triton_kernels/triton_kernels/matmul_ogs.py), [llama.cpp](https://github.com/ggml-org/llama.cpp/blob/a0535ffa0d35fccfec3e1a0a3bfc9dbb6054d7c0/ggml/src/ggml-cuda/ggml-cuda.cu#L2065), [vLLM](https://github.com/vllm-project/vllm/blob/015fab8c2fa4db8776f7e91abd50371911673d88/vllm/model_executor/layers/fused_moe/fused_moe.py)와 같은 여러 좋은 구현체가 있습니다. `torch._grouped_mm`도 구현 중입니다. `weight`의 메모리 연속성을 개선하기 위해 `input`을 전문가별로 정렬해야 합니다."
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "ZUmetfWCpNh4LWV3piJ21Oyu/2zS1wBvLO1OqURV6e8=",
+    "originContent": "The implementation in this repo is largely based on the MoE kernel in [Unsloth](https://github.com/unslothai/unsloth/blob/2bfc39b6387577457834059c59f83fcdb954c9bd/unsloth/kernels/moe), which is based on the Triton [grouped GEMM](https://triton-lang.org/main/getting-started/tutorials/08-grouped-gemm.html). I've added strides, masks, and autotune configs for small or 'thin' matrices, which are needed for LoRA.",
+    "translatedContent": "이 저장소의 구현은 Triton의 [grouped GEMM](https://triton-lang.org/main/getting-started/tutorials/08-grouped-gemm.html)을 기반으로 한 [Unsloth](https://github.com/unslothai/unsloth/blob/2bfc39b6387577457834059c59f83fcdb954c9bd/unsloth/kernels/moe)의 MoE 커널에 크게 의존합니다. LoRA에 필요한 작은 또는 '얇은' 행렬을 위한 스트라이드, 마스크, 자동 튜닝 설정을 추가했습니다."
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "YvkpS78wp3XNDaUQX5/fRMuSxzcGUKIe6j8TmHssxQw=",
+    "originContent": "I aim to keep the code readable and easy to follow. I only used the most mature features of Triton, such as load and store, rather than things like TMA and swizzle.",
+    "translatedContent": "코드는 읽기 쉽고 따라가기 쉽게 유지하는 것을 목표로 합니다. TMA나 스위즐 같은 기능 대신 Triton의 가장 성숙한 기능인 로드와 저장만 사용했습니다."
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "B4A7UsDCpxuCRDFo6LmWvxpEwAz3AW8SmytKNung4aI=",
+    "originContent": "### LoRA",
+    "translatedContent": "### LoRA"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "ERRKxcm0HlEK0Yc9MYK4B8FQarT+mYwdpOIOsE1TlkU=",
+    "originContent": "The LoRA for the fused linear layer is define by first creating a LoRA for the linear layer in each expert, then stack them along the experts dimension. For the weight tensor with shape `(num_experts, out_features, in_features)`, the two LoRA weights have shape `lora_A: (num_experts, lora_rank, in_features), lora_B: (num_experts, out_features, lora_rank)`. Therefore, a previously trained LoRA can be losslessly converted to the fused format.",
+    "translatedContent": "융합 선형층의 LoRA는 각 전문가의 선형층에 대해 먼저 LoRA를 생성한 다음 전문가 차원으로 쌓아 정의합니다. `(num_experts, out_features, in_features)` 형태의 weight 텐서에 대해 두 LoRA 가중치는 `lora_A: (num_experts, lora_rank, in_features), lora_B: (num_experts, out_features, lora_rank)` 형태를 가집니다. 따라서 이전에 학습된 LoRA를 손실 없이 융합 형식으로 변환할 수 있습니다."
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "XaNc5BSMoTxd9+1kC2j8xa8k2RJ2W5+uSLjigg8bAzs=",
+    "originContent": "The functions in [`qwen3_moe_fused/convert.py`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/qwen3_moe_fused/convert.py) can convert a model or a LoRA between the fused and the unfused formats. After you train a LoRA in the fused format, you can convert it to the unfused format, then convert it to other formats such as GGUF.",
+    "translatedContent": "[`qwen3_moe_fused/convert.py`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/qwen3_moe_fused/convert.py)의 함수들은 모델이나 LoRA를 융합 형식과 비융합 형식 간에 변환할 수 있습니다. 융합 형식으로 LoRA를 학습한 후 비융합 형식으로 변환하고, 다시 GGUF 같은 다른 형식으로 변환할 수 있습니다."
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "F8LwUOZ4tDJeV2W/K2C9N0HW21H4xuvFdGr6cF8VLK4=",
+    "originContent": "### TODO",
+    "translatedContent": "### TODO"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "etYMqHTAJxW80LImsF70XwmH5TYyDZfgewtMKauNerQ=",
+    "originContent": "* Fuse 4-bit dequant and MoE linear, see [`qwen3_moe_fused/quantize/layer.py`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/qwen3_moe_fused/quantize/layer.py). Currently I've written a kernel in [`qwen3_moe_fused/grouped_gemm/forward_4bit.py`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/qwen3_moe_fused/grouped_gemm/forward_4bit.py) but it's slower than the unfused version when the batch size is large.",
+    "translatedContent": "* 4비트 디퀀타이즈와 MoE 선형을 융합하기, [`qwen3_moe_fused/quantize/layer.py`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/qwen3_moe_fused/quantize/layer.py) 참조. 현재 [`qwen3_moe_fused/grouped_gemm/forward_4bit.py`](https://github.com/woct0rdho/transformers-qwen3-moe-fused/blob/master/qwen3_moe_fused/grouped_gemm/forward_4bit.py)에 커널을 작성했으나 배치 크기가 클 때 비융합 버전보다 느립니다."
+  },
+  {
+    "row": 26,
+    "rowsha": "bjXcem56RfLZD5s9MgOCU6sBlow9N8qFTyJb6lMrfZo=",
+    "originContent": "* Multi-GPU support. I don't have multiple GPUs at home so I'm not focusing on this. Maybe worth checking [OpenSloth](https://github.com/anhvth/opensloth).",
+    "translatedContent": "* 멀티 GPU 지원. 집에 여러 GPU가 없어 이 부분에 집중하지 않고 있습니다. [OpenSloth](https://github.com/anhvth/opensloth)를 참고할 만합니다."
+  },
+  {
+    "row": 27,
+    "rowsha": "K+rUaMJtX70JswVTwpDYqTPr9ROBjXM8aejWxUyjTWs=",
+    "originContent": "* Upstream to Transformers or Unsloth. If you have any idea how to do this, please open an issue. Transformers itself never includes Triton or CUDA kernels in the package, but they have a [HuggingFace Kernels](https://github.com/huggingface/kernels) project for them, and the [vLLM MoE kernels](https://huggingface.co/kernels-community/moe) are already there.",
+    "translatedContent": "* Transformers나 Unsloth에 상류 병합. 방법에 대한 아이디어가 있으면 이슈를 열어 주세요. Transformers 자체는 패키지에 Triton이나 CUDA 커널을 포함하지 않지만, 이를 위한 [HuggingFace Kernels](https://github.com/huggingface/kernels) 프로젝트가 있고, [vLLM MoE 커널](https://huggingface.co/kernels-community/moe)은 이미 존재합니다."
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "yQxCDp1zblVb6PkKhbgZ2Y8kW5iQPeq17cih4/6NsYY=",
+    "originContent": "### License",
+    "translatedContent": "### 라이선스"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "Rz3kmllDGAyfmM/sY1wXCW9B/q95GSJiDQh5Z2q0//I=",
+    "originContent": "The files in `qwen3_moe_fused/grouped_gemm/` are modified from the Unsloth MoE kernels so they are AGPLv3 licensed, see the [explanation](https://github.com/unslothai/unsloth/discussions/2890#discussioncomment-13675890). For more robust and performant integration, it's possible to use the MIT licensed [triton-kernels](https://github.com/triton-lang/triton/tree/main/python/triton_kernels/triton_kernels) as an alternative.",
+    "translatedContent": "`qwen3_moe_fused/grouped_gemm/` 내 파일들은 Unsloth MoE 커널에서 수정한 것이므로 AGPLv3 라이선스를 따릅니다. 자세한 내용은 [설명](https://github.com/unslothai/unsloth/discussions/2890#discussioncomment-13675890)을 참조하세요. 더 견고하고 성능 좋은 통합을 위해 MIT 라이선스의 [triton-kernels](https://github.com/triton-lang/triton/tree/main/python/triton_kernels/triton_kernels)를 대안으로 사용할 수 있습니다."
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "xvGmKtVjDeYOEy69I3XUJ/A2PXViR38HXuLvrGQ0IU0=",
+    "originContent": "The rest of this repo, including files modified from Transformers, PEFT, and bitsandbytes, are Apache-2.0 licensed.",
+    "translatedContent": "이 저장소의 나머지 부분, Transformers, PEFT, bitsandbytes에서 수정한 파일들은 Apache-2.0 라이선스를 따릅니다."
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -1,45 +1,46 @@
 # book
-Informasi terkait buku, termasuk berbagai tutorial, novel, karya besar filsafat, dan ribuan jenis buku lainnya, terus diperbarui
+Informasi terkait buku, termasuk berbagai tutorial, novel, karya filsafat besar dan ribuan jenis buku lainnya, terus diperbarui
 
 [English](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=id)
 
 ----------------
-[202505](https://raw.githubusercontent.com/mswnlz/book/main/202505.md)
-[202506](https://raw.githubusercontent.com/mswnlz/book/main/202506.md)
+# [202507](https://raw.githubusercontent.com/mswnlz/book/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/book/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/book/main/202506.md)
 
 
 ---------------
-# Sumber Daya Proyek Lainnya
+### Sumber daya proyek lainnya
 
-[🎁Sumber Daya Eksklusif! Kursus Lengkap Pengobatan Tradisional Tiongkok yang Sudah Langka (1.18TB, harga asli 59.880 RMB), meliputi dasar, video, pengobatan luar, akupunktur, buku, dll, semua ada di sini](https://github.com/mswnlz/chinese-traditional)
+[🎁Sumber daya luar biasa! Kursus Lengkap Pengobatan Tradisional Tiongkok seharga 59.880 RMB [Edisi Koleksi 1,18TB], mencakup dasar, video, pengobatan eksternal, akupunktur, buku, dan banyak lagi](https://github.com/mswnlz/chinese-traditional)
 
-[Berbagai sumber daya alat yang berguna, termasuk sistem operasi, berbagai plugin, alat versi crack portable, dan lain-lain, terus diperbarui](https://github.com/mswnlz/tools)
+[Berbagai sumber daya alat yang berguna, termasuk sistem operasi, berbagai plugin, alat versi cracked dan portable, dll, terus diperbarui](https://github.com/mswnlz/tools)
 
-[Sumber daya terkait e-commerce lintas negara, aplikasi, pembayaran, perdagangan luar negeri, tiktok, amazon, buka toko, akuisisi pelanggan baru, dll, terus diperbarui](https://github.com/mswnlz/cross-border)
 
-[Sumber daya terkait media sosial, termasuk akuisisi pelanggan baru, strategi trafik, mendapatkan pelanggan, konversi, monetisasi, dll, terus diperbarui](https://github.com/mswnlz/self-media)
+[Materi terkait e-commerce lintas negara, aplikasi, pembayaran, ekspor-impor, tiktok, amazon, buka toko, promosi, dll, terus diperbarui](https://github.com/mswnlz/cross-border)
 
-[Berbagai sumber daya pendidikan, mulai dari TK, SD, SMP, mencakup lembaga seperti Xueersi, Wanwei, Yuanfudao, dll, terus bertambah](https://github.com/mswnlz/edu-knowlege)
+[Sumber daya terkait media sosial, termasuk promosi, strategi trafik, akuisisi pelanggan, konversi, monetisasi, dan lainnya, terus diperbarui](https://github.com/mswnlz/self-media)
 
-[Pengetahuan terkait AI, prompt, tutorial, tutorial video, kursus monetisasi, dll, terus diperbarui](https://github.com/mswnlz/AIknowledge)
+[ Berbagai materi pendidikan, mulai dari TK, SD, SMP, mencakup Xueersi, Wanwei, Yuanfudao, dan institusi lainnya, terus bertambah](https://github.com/mswnlz/edu-knowlege)
 
-[Berbagai materi kursus, termasuk materi populer daring, materi dari berbagai proyek lain yang tidak cocok ditempatkan di proyek lain, dan lain sebagainya, terus diperbarui](https://github.com/mswnlz/curriculum)
+[Pengetahuan terkait AI, prompt, tutorial, video tutorial, kursus monetisasi, dan lainnya, terus diperbarui](https://github.com/mswnlz/AIknowledge)
 
-[Sumber daya media film, film, dokumenter, musik, konser, dan lain-lain, terus diperbarui](https://github.com/mswnlz/movies)
+[Berbagai bahan kursus, termasuk kursus populer, materi daring, dan sumber lain yang tidak bisa masuk proyek lain, semuanya ada di sini, dll, terus diperbarui](https://github.com/mswnlz/curriculum)
 
-[Informasi terkait buku, termasuk berbagai tutorial, novel, dan berbagai buku lainnya](https://github.com/mswnlz/book)
+[Sumber daya media film, film, dokumenter, musik, konser, dan lainnya, terus diperbarui](https://github.com/mswnlz/movies)
 
-[Kebugaran, olahraga, diet, nutrisi, kesehatan, tidur, dan lain-lain, terus diperbarui](https://github.com/mswnlz/healthy)
+[Informasi terkait buku, termasuk berbagai tutorial, novel, dan buku lainnya](https://github.com/mswnlz/book)
+
+[Kebugaran, olahraga, diet, nutrisi, kesehatan, tidur, dll, terus diperbarui](https://github.com/mswnlz/healthy)
+
+---------------
+
+# Halaman utama sumber daya
+[Berbagai materi, pengetahuan, film, dokumenter, musik, buku, dan media, pusat koleksi, terus diperbarui](https://github.com/mswnlz)
 
 ---------------
 
-# Beranda Sumber Daya
-[Berbagai informasi, pengetahuan, film, dokumenter, musik, buku, media, semua dalam satu tempat, terus diorganisir](https://github.com/mswnlz)
-
----------------
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-15
 
 ---

@@ -1,49 +1,52 @@
 # AIknowledge
-Conhecimento relacionado à IA, prompts, tutoriais, vídeo-aulas, cursos de monetização e outros materiais, atualizados continuamente
-
+Conhecimento relacionado à IA, prompts, tutoriais, videoaulas, cursos de monetização e outros materiais, em atualização contínua
 
 [English](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=id)
 
 ------------
-[202505](https://raw.githubusercontent.com/mswnlz/AIknowledge/main/202505.md)
-[202506](https://raw.githubusercontent.com/mswnlz/AIknowledge/main/202506.md)
-
+# [202507](https://raw.githubusercontent.com/mswnlz/AIknowledge/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/AIknowledge/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/AIknowledge/main/202506.md)
 
 ---------------
-# Mais recursos do projeto
+### Mais recursos do projeto
 
-[🎁Recurso de peso! Curso completo de medicina tradicional chinesa (coleção rara de 1,18TB, preço original 59.880 RMB), incluindo fundamentos, vídeos, tratamentos externos, acupuntura, livros etc.](https://github.com/mswnlz/chinese-traditional)
+[🎁Recurso especial! Curso completo de Medicina Tradicional Chinesa, preço original de 59.880 yuan, versão de coleção 1,18TB, inclui fundamentos, vídeos, tratamentos externos, acupuntura, livros e muito mais](https://github.com/mswnlz/chinese-traditional)
 
-[Recursos relacionados a ferramentas úteis, incluindo sistemas operacionais, diversos plugins, ferramentas portáteis crackeadas, etc., sempre atualizados](https://github.com/mswnlz/tools)
+[Recursos diversos de ferramentas úteis, incluindo sistemas operacionais, vários plugins, ferramentas portáteis e versões crackeadas, sempre atualizados](https://github.com/mswnlz/tools)
 
-[Materiais de e-commerce internacional: solicitações, pagamentos, comércio exterior, tiktok, amazon, abertura de lojas, aquisição de clientes, e outros recursos, sempre atualizados](https://github.com/mswnlz/cross-border)
+[Materiais sobre e-commerce internacional, solicitações, pagamentos, comércio exterior, tiktok, amazon, abertura de loja, aquisição de novos clientes e mais, atualizados continuamente](https://github.com/mswnlz/cross-border)
 
-[Recursos para mídia independente, incluindo aquisição de clientes, estratégias de tráfego, conversão, monetização e outros materiais, sempre atualizados](https://github.com/mswnlz/self-media)
+[Recursos para mídia independente, incluindo aquisição de usuários, estratégias de tráfego, captação de clientes, conversão, monetização, em constante atualização](https://github.com/mswnlz/self-media)
 
-[Materiais educacionais diversos, do jardim de infância ao ensino médio, abrangendo Xueersi, Wanwei, Yuanfudao e outras instituições, sempre em expansão](https://github.com/mswnlz/edu-knowlege)
+[Materiais educacionais diversos, desde jardim de infância até ensino fundamental e médio, cobrindo Xueersi, Wanwei, Yuanfudao e outras instituições, sempre aumentando](https://github.com/mswnlz/edu-knowlege)
 
-[Conhecimento relacionado à IA, prompts, tutoriais, vídeo-aulas, cursos de monetização e outros, sempre atualizados](https://github.com/mswnlz/AIknowledge)
+[Conhecimento sobre IA, prompts, tutoriais, videoaulas, cursos de monetização e mais, sempre atualizando](https://github.com/mswnlz/AIknowledge)
 
-[Diversos materiais de cursos, incluindo conteúdo da plataforma Dedao, materiais populares da internet e outros que não se encaixam em outros projetos, sempre atualizados](https://github.com/mswnlz/curriculum)
+[Materiais de cursos diversos, incluindo os da Dedao, conteúdos populares na internet e outros recursos que não se encaixam em outros projetos, tudo aqui, sempre atualizando](https://github.com/mswnlz/curriculum)
 
-[Recursos de mídia audiovisual: filmes, documentários, músicas, shows, etc., sempre atualizados](https://github.com/mswnlz/movies)
+[Recursos de mídia audiovisual, filmes, documentários, música, shows e muito mais, sempre atualizando](https://github.com/mswnlz/movies)
 
-[Materiais de livros, incluindo diversos tutoriais, romances e outros tipos de livros](https://github.com/mswnlz/book)
+[Recursos de livros, incluindo vários tutoriais, romances e diferentes tipos de livros](https://github.com/mswnlz/book)
 
-[Recursos sobre fitness, exercícios, alimentação, nutrição, saúde, sono e mais, sempre atualizados](https://github.com/mswnlz/healthy)
+[Fitness, exercícios, alimentação, nutrição, saúde, sono e outros, sempre atualizando](https://github.com/mswnlz/healthy)
 
 ---------------
 
 # Página principal de recursos
-[Central de materiais, conhecimento, filmes, documentários, músicas, livros, mídia – sempre em organização contínua](https://github.com/mswnlz)
+[Central de materiais, conhecimentos, filmes, documentários, músicas, livros e mídia, em constante organização](https://github.com/mswnlz)
 
 ---------------
 
+### 
 
-###
+
+
+
+
+
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-15
 
 ---

@@ -36,27 +36,33 @@
  Your <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a>  can make Open Ai Tx better
 </div>
 
+
 ## Introduction
 
-**OpenAiTx** 20 languages auto-translate tool for your GitHub project readme & wiki.
+**OpenAiTx** is a 20-language automatic translation tool for your GitHub project readme & wiki.
 
 ## Why?
 
-1. One-time translation using premium-grade LLM and make the result freely accessible to the open-source community.
-2. Support Google/Bing multiple languages SEO search, client translate tool can't do it.
+1. One-time translation using top-tier LLM and make the result freely accessible to the open-source community.
+2. Supports Google/Bing multi-language SEO search, which client-side translation tools cannot do.
 3. Free & Open Source forever 
-4. Submit one time and auto-update future, it can save your time if you're a project maintainer.
+4. Submit once and auto-update in the future, saving you time as a project maintainer.
 
 
 ## Get Started
 
-1. Replace URL `GitHub` by `OpenAiTx`, e.g. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
-2. Click and copy the style badges or text you like.
+1. Replace `GitHub` in the URL with `OpenAiTx`, e.g. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+2. Submit your project.
+3. Click and copy the style badges or text you prefer.
+4. Update your readme file.
 
 or
 
-1. Access https://openaitx.github.io/ 
+1. Visit https://openaitx.com
 2. Submit your project link.
+3. Click and copy the style badges or text you prefer.
+4. Update your readme file.
+
 ## Example
 
 ### Style Option1:
@@ -92,33 +98,34 @@ or
 
 <div align="right" >
   <details>
-    <summary >🌐 Language</summary>
-    <div>
-      <div align="right">
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">English</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN">Simplified Chinese</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">Traditional Chinese</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">Japanese</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">Korean</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">Hindi</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">Thai</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">French</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">German</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Spanish</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italian</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Russian</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Portuguese</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Dutch</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl">Polish</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar">Arabic</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa">Persian</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">Turkish</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">Vietnamese</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Indonesian</a></p>
-      </div>
-    </div>
-  </details>
+<summary >🌐 Language</summary>
+<div>
+  <div align="right">
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=en">English</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-CN">Simplified Chinese</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=zh-TW">Traditional Chinese</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ja">Japanese</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ko">Korean</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=hi">Hindi</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=th">Thai</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">French</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">German</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Spanish</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italian</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Russian</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Portuguese</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Dutch</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl">Polish</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ar">Arabic</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa">Persian</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">Turkish</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">Vietnamese</a></p>
+    <p><a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Indonesian</a></p>
+  </div>
 </div>
+</details>
+</div>
+
 
 ## Demo Video
 
@@ -129,17 +136,20 @@ or
 
 ## Computing Contribution 
 
-If you would like to have a contribution in the project, all you need to do is:
-Fork project → Clone project → Choose a script in your language → Fill in your AI token  → Run it → Commit & push & create a PR
+If you would like to contribute to the project, all you need to do is:
+Fork the project → Clone the project → Choose a script in your language → Fill in your AI token → Run it → Commit & push & create a PR
 
 > Note: **Please do not upload your tokens!**
 
 ## Notes
 
-- Only support github markdown.
-- If you are project owner or core developer, you can auth github account to auto-create PR after indexed.
+- Only supports GitHub markdown. 
+
+## FrontEnd Project
+[Source Code Project Link](https://github.com/OpenAiTx/OpenAiTx_FrontEnd) by [@mikechen](https://github.com/mikechen-git)
 
 ## Other
+
 - 10~30 mins/ per project
 - 200~400 projects/one console per day.
 - Existing projects will be updated every 3~7 days (depending on future computing resources)
@@ -150,8 +160,9 @@ Fork project → Clone project → Choose a script in your language → Fill in 
 
 - Microsoft MVP team
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-15
 
 ---

@@ -52,12 +52,16 @@
 ## Get Started
 
 1. Replace URL `GitHub` by `OpenAiTx`, e.g. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
-2. Click and copy the style badges or text you like.
+2. Submit your project.
+3. Click and copy the style badges or text you like.
+4. Update to your readme file.
 
 or
 
-1. Access https://openaitx.github.io/ 
+1. Access https://openaitx.com
 2. Submit your project link.
+3. Click and copy the style badges or text you like.
+4. Update to your readme file.
 
 ## Example
 
@@ -139,8 +143,10 @@ Fork project → Clone project → Choose a script in your language → Fill in 
 
 ## Notes
 
-- Only support github markdown.
-- If you are project owner or core developer, you can auth github account to auto-create PR after indexed.
+- Only support github markdown. 
+
+## FrontEnd Project
+[Source Code Project Link](https://github.com/OpenAiTx/OpenAiTx_FrontEnd) by [@mikechen](https://github.com/mikechen-git)
 
 ## Other
 

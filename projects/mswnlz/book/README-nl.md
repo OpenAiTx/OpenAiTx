@@ -1,45 +1,46 @@
-# book
-Boekgegevens gerelateerd, inclusief allerlei handleidingen, romans, filosofische meesterwerken en duizenden andere boeken, wordt voortdurend bijgewerkt
+# boek
+Boekgerelateerde informatie, waaronder duizenden boeken zoals diverse handleidingen, romans, filosofische meesterwerken enzovoort, die voortdurend worden bijgewerkt
 
 [English](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=id)
 
 ----------------
-[202505](https://raw.githubusercontent.com/mswnlz/book/main/202505.md)
-[202506](https://raw.githubusercontent.com/mswnlz/book/main/202506.md)
+# [202507](https://raw.githubusercontent.com/mswnlz/book/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/book/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/book/main/202506.md)
 
 
 ---------------
-# Meer projectbronnen
+### Meer bronnen van het project
 
-[🎁Topbron! Originele prijs 59880 yuan, zeldzame complete verzameling van traditionele Chinese geneeskundecursussen [verzamelaarseditie 1,18TB], inclusief basis, video, externe behandelingen, acupunctuur, boeken, en nog veel meer](https://github.com/mswnlz/chinese-traditional)
+[🎁Zeer waardevolle bron! Oorspronkelijk 59.880 yuan Klassieke verzameling traditionele Chinese geneeskunde cursussen【Verzamelversie 1.18TB】, inclusief basis, video’s, externe behandeling, acupunctuur, boeken enzovoort, alles wat je maar kunt wensen](https://github.com/mswnlz/chinese-traditional)
 
-[Allerlei handige tools, inclusief besturingssystemen, diverse plug-ins, portable gekraakte tools, enzovoort, wordt voortdurend bijgewerkt](https://github.com/mswnlz/tools)
+[Allerlei handige hulpmiddelen, inclusief besturingssystemen, diverse plug-ins, groene gekraakte tools enzovoort, voortdurend bijgewerkt](https://github.com/mswnlz/tools)
 
-[Bronnen met betrekking tot cross-border e-commerce, aanvragen, betalingen, buitenlandse handel, tiktok, Amazon, winkels openen, nieuwe klanten aantrekken, enzovoort, wordt voortdurend bijgewerkt](https://github.com/mswnlz/cross-border)
 
-[Bronnen met betrekking tot social media, inclusief nieuwe klanten aantrekken, traffic strategieën, klantenwerving, conversie, monetisatie, enzovoort, wordt voortdurend bijgewerkt](https://github.com/mswnlz/self-media)
+[Bronnen met betrekking tot cross-border e-commerce, aanvragen, betalingen, buitenlandse handel, tiktok, Amazon, winkels openen, klantwerving enzovoort, voortdurend bijgewerkt](https://github.com/mswnlz/cross-border)
 
-[ Allerlei educatieve bronnen, van kleuterschool tot basisschool, middelbare school, inclusief Xueersi, Wanwei, Yuanfudao en andere instellingen, wordt continu uitgebreid](https://github.com/mswnlz/edu-knowlege)
+[Bronnen over sociale media, inclusief klantwerving, verkeerstrucs, klantenwerving, conversie, monetisatie enzovoort, voortdurend bijgewerkt](https://github.com/mswnlz/self-media)
 
-[AI-gerelateerde kennis, prompts, handleidingen, video-tutorials, monetisatiecursussen, enzovoort, wordt voortdurend bijgewerkt](https://github.com/mswnlz/AIknowledge)
+[ Diverse onderwijsmaterialen, van kleuterschool tot basisschool, middelbare school, omvat Xueersi, Wanwei, Yuanfudao en andere instellingen, wordt voortdurend aangevuld](https://github.com/mswnlz/edu-knowlege)
 
-[Allerlei cursusmaterialen, inclusief Dedao, populaire online materialen, en materialen die niet in andere projecten passen, enzovoort, wordt voortdurend bijgewerkt](https://github.com/mswnlz/curriculum)
+[AI-gerelateerde kennis, prompts, handleidingen, videotutorials, monetisatiecursussen enzovoort, voortdurend bijgewerkt](https://github.com/mswnlz/AIknowledge)
 
-[Film- en mediabronnen, films, documentaires, muziek, concerten, enzovoort, wordt voortdurend bijgewerkt](https://github.com/mswnlz/movies)
+[Allerlei cursusmaterialen, waaronder Dedao, populaire online materialen, en andere bronnen die niet goed passen bij andere projecten, allemaal hier te vinden, enzovoort, voortdurend bijgewerkt](https://github.com/mswnlz/curriculum)
 
-[Boekgegevens, inclusief allerlei handleidingen, romans en andere boeken](https://github.com/mswnlz/book)
+[Film- en mediabronnen, films, documentaires, muziek, concerten enzovoort, voortdurend bijgewerkt](https://github.com/mswnlz/movies)
 
-[Fitness, training, dieet, voeding, gezondheid, slaap, enzovoort, wordt voortdurend bijgewerkt](https://github.com/mswnlz/healthy)
+[Boekgerelateerde informatie, waaronder diverse handleidingen, romans en andere boeken](https://github.com/mswnlz/book)
+
+[Fitness, training, voeding, gezondheid, slaap, enzovoort, voortdurend bijgewerkt](https://github.com/mswnlz/healthy)
+
+---------------
+
+# Hoofdpagina bronnen
+[Diverse informatie, kennis, films, documentaires, muziek, boeken, mediaverzamelplaats, wordt continu bijgewerkt](https://github.com/mswnlz)
 
 ---------------
 
-# Bronnen hoofdpagina
-[Allerlei gegevens, kennis, films, documentaires, muziek, boeken, media verzamelplaats, wordt voortdurend georganiseerd](https://github.com/mswnlz)
-
----------------
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-15
 
 ---
