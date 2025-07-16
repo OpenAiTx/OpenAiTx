@@ -8,80 +8,7 @@
     "EndLine": 0,
     "Translation": "<translate-content>[![CI - テスト、リンティング](https://github.com/vet-run/vet/actions/workflows/ci.yml/badge.svg)](https://github.com/vet-run/vet/actions/workflows/ci.yml)\n\n`vet` は、一般的だがリスクの高い `curl | bash` パターンの安全網として機能するコマンドラインツールです。リモートスクリプトの変更を検査し、リンターでチェックし、実行前に明示的な承認を求めることができます。\n\n**ただ実行するだけでなく、`vet` でチェックしましょう。**\n\n---\n\n## 問題点\n\nソフトウェアをインストールするこのパターンを私たちは皆見てきました：\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "7MUgNfKM5eGyIA5k1IathMu2NB5MBRTxzRbJQiE3kDs=",
-        "originContent": "[![CI - Tests, Linting](https://github.com/vet-run/vet/actions/workflows/ci.yml/badge.svg)](https://github.com/vet-run/vet/actions/workflows/ci.yml)",
-        "translatedContent": "<translate-content>[![CI - テスト、リンティング](https://github.com/vet-run/vet/actions/workflows/ci.yml/badge.svg)](https://github.com/vet-run/vet/actions/workflows/ci.yml)"
-      },
-      {
-        "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "wnoxIJ2V/HbMyhRE12Fkyv4BHFfi7pZFIMfcJdQphDI=",
-        "originContent": "`vet` is a command-line tool that acts as a safety net for the common but risky `curl | bash` pattern. It lets you inspect remote scripts for changes, run them through a linter, and require your explicit approval before they can execute.",
-        "translatedContent": "`vet` は、一般的だがリスクの高い `curl | bash` パターンの安全網として機能するコマンドラインツールです。リモートスクリプトの変更を検査し、リンターでチェックし、実行前に明示的な承認を求めることができます。"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "JFJ+VbmA+p2Vr0/0dYTv/hn5/BpQ+bHWAT9tnvK9OUY=",
-        "originContent": "**Don't just run it, `vet` it.**",
-        "translatedContent": "**ただ実行するだけでなく、`vet` でチェックしましょう。**"
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---"
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "lR7GTMM3zAqvnZnIsrFEy15m6S/PY8nzenXxRU1vPnA=",
-        "originContent": "## The Problem",
-        "translatedContent": "## 問題点"
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "wl2Z9OfqJjrootSyCskcbP/Y+1YqiSyavQ2cnIq6Qtw=",
-        "originContent": "We've all seen this pattern for installing software:",
-        "translatedContent": "ソフトウェアをインストールするこのパターンを私たちは皆見てきました："
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -93,32 +20,7 @@
     "EndLine": 0,
     "Translation": "```bash\n# This is convenient, but you're blindly trusting the remote script.\ncurl -sSL https://example.com/install.sh | bash\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "fI7ANrvk+r7CzHkDQW+hLoc2pPU2sjx+bKycmv9Pr2Q=",
-        "originContent": "# This is convenient, but you're blindly trusting the remote script.",
-        "translatedContent": "# This is convenient, but you're blindly trusting the remote script."
-      },
-      {
-        "row": 3,
-        "rowsha": "fbStbbGKIa7n516xt67IM90JRBCx4KafytNm4Qr8/3k=",
-        "originContent": "curl -sSL https://example.com/install.sh | bash",
-        "translatedContent": "curl -sSL https://example.com/install.sh | bash"
-      },
-      {
-        "row": 4,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -130,98 +32,7 @@
     "EndLine": 0,
     "Translation": "これは危険です。スクリプトが悪意のあるものである可能性があり、サーバーが侵害されているか、一時的なネットワークエラーにより部分的なスクリプトが実行されることがあります。\n\n### 解決策：vet\n\n`vet` はこのプロセスを安全で対話的なワークフローに包みます：\n\n-   **取得：** リモートスクリプトを一時的な場所にダウンロードします。\n\n-   **差分とレビュー：** 前回スクリプトを実行した時から何が変わったかを表示します。\n\n-   **Lint：** shellcheck がインストールされていれば、スクリプトの潜在的なバグや悪意あるパターンを自動的に解析します。\n\n-   **確認：** 実行前に明示的な承認を求めます。\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "これは危険です。スクリプトが悪意のあるものである可能性があり、サーバーが侵害されているか、一時的なネットワークエラーにより部分的なスクリプトが実行されることがあります。"
-      },
-      {
-        "row": 2,
-        "rowsha": "zEpbo7Bh1P9Rdx7NhkEAFWHC8w+x8EC1ux3vG34N3K4=",
-        "originContent": "This is dangerous. The script could be malicious, the server could be compromised, or a transient network error could result in executing a partial script.",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 解決策：vet"
-      },
-      {
-        "row": 4,
-        "rowsha": "DCuo3CTfVg1EvyKWYe7ZDT0fYNro8ESNQPzIkWYiVv8=",
-        "originContent": "### The Solution: vet",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "`vet` はこのプロセスを安全で対話的なワークフローに包みます："
-      },
-      {
-        "row": 6,
-        "rowsha": "CXIzYlQuy1VcU+390mWhUBjqeGUW2LqglI5uxWHAVlk=",
-        "originContent": "`vet` wraps this process in a secure, interactive workflow:",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "-   **取得：** リモートスクリプトを一時的な場所にダウンロードします。"
-      },
-      {
-        "row": 8,
-        "rowsha": "IYvapts9uxyy6N01kazVw20iVBGsvzwIDe59jVvkoPY=",
-        "originContent": "-   **Fetch:** It downloads the remote script to a temporary location.",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "-   **差分とレビュー：** 前回スクリプトを実行した時から何が変わったかを表示します。"
-      },
-      {
-        "row": 10,
-        "rowsha": "zWyPsrYV4Ea3XM339XbM+9y6h5CDKWteRNaonXbTEYc=",
-        "originContent": "-   **Diff & Review:** It shows you what, if anything, has changed since the last time you ran this script.",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "-   **Lint：** shellcheck がインストールされていれば、スクリプトの潜在的なバグや悪意あるパターンを自動的に解析します。"
-      },
-      {
-        "row": 12,
-        "rowsha": "TW54khXP8gXC885vofe0Si50oANIc16z8G0QrcqliKo=",
-        "originContent": "-   **Lint:** If you have shellcheck installed, it automatically analyzes the script for potential bugs or malicious patterns.",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "-   **確認：** 実行前に明示的な承認を求めます。"
-      },
-      {
-        "row": 14,
-        "rowsha": "gYMlzj5C01Qf9uDCgdwMuoBwSY+oo32JsnVSU7ml3E8=",
-        "originContent": "-   **Confirm:** It prompts you for explicit approval before executing anything.",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -233,32 +44,7 @@
     "EndLine": 0,
     "Translation": "```bash\n# The new, safer way.\nvet https://example.com/install.sh\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "7Pfc9EhFTMCqZ1CuMjmlCpm6MPk8bgnH9jce6KgTtoE=",
-        "originContent": "# The new, safer way.",
-        "translatedContent": "# The new, safer way."
-      },
-      {
-        "row": 3,
-        "rowsha": "wOAvdXyPUEsI8b1OvEtzn3fLEF3TqocIp+9b+TsGmDk=",
-        "originContent": "vet https://example.com/install.sh",
-        "translatedContent": "vet https://example.com/install.sh"
-      },
-      {
-        "row": 4,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -270,56 +56,7 @@
     "EndLine": 0,
     "Translation": "## インストール\n\n私たちは、インターネット上のスクリプトを盲目的に信用すべきではないと考えています—私たちのものですら。だからこそ `vet` が存在します。インストールプロセス自体が、`vet` が解決する問題の完璧な実例です。\n\n## Homebrew（macOS/Linux）- 推奨\n\n`vet` をインストールする最も簡単で推奨される方法は、Homebrew を使用することです。\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## インストール"
-      },
-      {
-        "row": 2,
-        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
-        "originContent": "## Installation",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "私たちは、インターネット上のスクリプトを盲目的に信用すべきではないと考えています—私たちのものですら。だからこそ `vet` が存在します。インストールプロセス自体が、`vet` が解決する問題の完璧な実例です。"
-      },
-      {
-        "row": 4,
-        "rowsha": "NMOHFmVdUYtT64ubKZK70G+zAZYEO8hIcW7La+uKu1Q=",
-        "originContent": "We believe you should never blindly trust a script from the internet—not even ours. That's why `vet` exists. The installation process itself is a perfect demonstration of the problem `vet` solves.",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## Homebrew（macOS/Linux）- 推奨"
-      },
-      {
-        "row": 6,
-        "rowsha": "1hMqCZfpMG9tUuTsb+vL5KEsi7sBNFUPuavvM4RPPs8=",
-        "originContent": "## Homebrew (macOS/Linux) - Recommended",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "`vet` をインストールする最も簡単で推奨される方法は、Homebrew を使用することです。"
-      },
-      {
-        "row": 8,
-        "rowsha": "m7oBHbN5gF4URj+78elCzIkXRPO+gvhKpSU5Rbk5UpY=",
-        "originContent": "The easiest and recommended way to install `vet` is via Homebrew.",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -331,50 +68,7 @@
     "EndLine": 0,
     "Translation": "```\n# First, tap the official repository\nbrew tap vet-run/vet\n\n# Now, install the formula\nbrew install vet-run\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "7Lqb6QV6JXZFpmIdRFLAaZtciHSvdIA2E+SW9gTS4NA=",
-        "originContent": "# First, tap the official repository",
-        "translatedContent": "# First, tap the official repository"
-      },
-      {
-        "row": 3,
-        "rowsha": "7ppBGFPt31PsxFTMmeQRMRZNFY0eUsQyBdM+fxxjMYg=",
-        "originContent": "brew tap vet-run/vet",
-        "translatedContent": "brew tap vet-run/vet"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "aVQnfFhGHNZdZz3Lpspcmp2SiF3VEsomBcfAo6kwwNI=",
-        "originContent": "# Now, install the formula",
-        "translatedContent": "# Now, install the formula"
-      },
-      {
-        "row": 6,
-        "rowsha": "2XKz1mfLgPvm5+eepsgxGNb4YWvHEQ6uSwL7WidjQ9U=",
-        "originContent": "brew install vet-run",
-        "translatedContent": "brew install vet-run"
-      },
-      {
-        "row": 7,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -386,80 +80,7 @@
     "EndLine": 0,
     "Translation": "**注意：** このフォーミュラはHomebrewエコシステム内の他のツールとの競合を避けるために `vet-run` と名付けられていますが、このコマンドはシステムに `vet` 実行ファイルを正しくインストールします。\n\n## 手動インストール\n\n### 安全な方法\nHomebrewを使用しない場合、または `vet` が推奨するセキュリティ第一の原則に従いたい場合は、手動インストールを行うことができます。これは「ダウンロードしてからレビューする」という2段階のプロセスであり、`vet` が自動化している内容を正確に示します。\n\n1. **インストーラをダウンロードする**：\n\n以下のいずれかのソースを選択してください。最初は公式プロジェクトドメインで、2番目はGitHubリリースアセットへの直接リンクです。\n\n*オプションA：公式プロジェクトドメイン*",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "sEtCIHhPGWW1fm1BWZCV7YM84Qwy5VKoDSktSRxGgXg=",
-        "originContent": "**Note:** The formula is named `vet-run` to avoid a conflict with another tool in the Homebrew ecosystem, but this command will correctly install the `vet` executable on your system.",
-        "translatedContent": "**注意：** このフォーミュラはHomebrewエコシステム内の他のツールとの競合を避けるために `vet-run` と名付けられていますが、このコマンドはシステムに `vet` 実行ファイルを正しくインストールします。"
-      },
-      {
-        "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "laS0KIYq72pvo1+ZXwKou2XNnPzMwETqxFf1uDd9iQs=",
-        "originContent": "## Manual Installation",
-        "translatedContent": "## 手動インストール"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "8f5CAHi88c8wE9cPq8ai3huoSCVvGMl1eCiIydxQEpQ=",
-        "originContent": "### The Safe Way",
-        "translatedContent": "### 安全な方法"
-      },
-      {
-        "row": 6,
-        "rowsha": "a3ZykIPvIbpsykOq9u/RK5wVqXMWruuuuuVNsBrhSWs=",
-        "originContent": "If you don't use Homebrew, or if you simply wish to follow the security-first principle that `vet` champions, you can perform a manual installation. This is the two-step \"Download, then Review\" process that demonstrates exactly what `vet` automates for you.",
-        "translatedContent": "Homebrewを使用しない場合、または `vet` が推奨するセキュリティ第一の原則に従いたい場合は、手動インストールを行うことができます。これは「ダウンロードしてからレビューする」という2段階のプロセスであり、`vet` が自動化している内容を正確に示します。"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "NAgNia+FMJtv0MFfg9N7oBjaezemgYOZrwocdlFn8RA=",
-        "originContent": "1. **Download the installer**:",
-        "translatedContent": "1. **インストーラをダウンロードする**："
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "tU64tI3XivTHv2d9kuePqRp90gDpDX6qQcb9GpvhKTM=",
-        "originContent": "Choose one of the following sources. The first is the official project domain, and the second is a direct link to the GitHub release asset.",
-        "translatedContent": "以下のいずれかのソースを選択してください。最初は公式プロジェクトドメインで、2番目はGitHubリリースアセットへの直接リンクです。"
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 12,
-        "rowsha": "4SMGXKf3mI5rkCdgtWEDYyYxN7qlkpxWkSpKc9RK5YM=",
-        "originContent": "*Option A: Official project domain*",
-        "translatedContent": "*オプションA：公式プロジェクトドメイン*"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -471,26 +92,7 @@
     "EndLine": 0,
     "Translation": "```bash\ncurl -o install_vet.sh https://getvet.sh/install.sh\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "fn+OVcWe2ReUXqyXEzcc5CucyUgfyBJ2+81Jt2dzAOY=",
-        "originContent": "curl -o install_vet.sh https://getvet.sh/install.sh",
-        "translatedContent": "curl -o install_vet.sh https://getvet.sh/install.sh"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -502,14 +104,7 @@
     "EndLine": 0,
     "Translation": "*オプションB: 直接GitHubリリースリンク*",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "4IuUb3mmkrla+bGmvI58WeAO2Fi+Jt4mxluJT2YXmuc=",
-        "originContent": "*Option B: Direct GitHub Release Link*",
-        "translatedContent": "*オプションB: 直接GitHubリリースリンク*"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -521,26 +116,7 @@
     "EndLine": 0,
     "Translation": "```bash\ncurl -L -o install_vet.sh https://github.com/vet-run/vet/releases/latest/download/install.sh\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "F4nTXALSP8dt/zEl5FO7lN5bNi9U9ZWZlJWV8GSjBDw=",
-        "originContent": "curl -L -o install_vet.sh https://github.com/vet-run/vet/releases/latest/download/install.sh",
-        "translatedContent": "curl -L -o install_vet.sh https://github.com/vet-run/vet/releases/latest/download/install.sh"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -552,14 +128,7 @@
     "EndLine": 0,
     "Translation": "2. **インストーラーのコードを確認する。** テキストエディタで開くか、lessを使って怪しい動作をしていないか確認してください。これは正しいvetスクリプトをダウンロードし、/usr/local/binに移動する簡単なスクリプトです。",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "uF6YwcukR0E+oXUbJRHUsZw8wzfeMoBp/WkOF1RH47Y=",
-        "originContent": "2. **Review the installer's code.** Open it in a text editor or use less to ensure it's not doing anything suspicious. It's a simple script that downloads the correct vet script and moves it to /usr/local/bin.",
-        "translatedContent": "2. **インストーラーのコードを確認する。** テキストエディタで開くか、lessを使って怪しい動作をしていないか確認してください。これは正しいvetスクリプトをダウンロードし、/usr/local/binに移動する簡単なスクリプトです。"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -571,26 +140,7 @@
     "EndLine": 0,
     "Translation": "```bash\nless install_vet.sh\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "klbLDIi4ZKlmEFnXOyXkmD7A6dZXesMFmc01Ji4D8BI=",
-        "originContent": "less install_vet.sh",
-        "translatedContent": "less install_vet.sh"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -602,14 +152,7 @@
     "EndLine": 0,
     "Translation": "3. **先ほど検証したインストーラーを実行します:**",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "MJ46yd+6MzGUaZK7B9oYv4oesgu6FFygzTS7jLKkgRA=",
-        "originContent": "3. **Run the installer you just vetted:**",
-        "translatedContent": "3. **先ほど検証したインストーラーを実行します:**"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -621,26 +164,7 @@
     "EndLine": 0,
     "Translation": "```bash\nbash install_vet.sh\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "43+O5fu7af0gPLmTft+YijF3+fTzL6aHyYdyyCC0iPY=",
-        "originContent": "bash install_vet.sh",
-        "translatedContent": "bash install_vet.sh"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -652,32 +176,7 @@
     "EndLine": 0,
     "Translation": "おめでとうございます！あなたは今、獣医が自動化するプロセスを手動で実行しました。\n\n### 「信頼する」ワンライナー（アンチパターン）\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "おめでとうございます！あなたは今、獣医が自動化するプロセスを手動で実行しました。"
-      },
-      {
-        "row": 2,
-        "rowsha": "FHKs4eAkdVYxo185CNzvcZUmaWust9bOAGY2mHTol9k=",
-        "originContent": "Congratulations! You just manually performed the process that vet will now automate for you.",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 「信頼する」ワンライナー（アンチパターン）"
-      },
-      {
-        "row": 4,
-        "rowsha": "In3IF8fYvk6fPPRyfRKPPaNtw9emzRtSZoGGF+lOxKc=",
-        "originContent": "### The \"Trusting\" One-Liner (The Anti-Pattern)",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -689,38 +188,7 @@
     "EndLine": 0,
     "Translation": "```bash\n# This is the curl-to-bash pattern.\n# Don't actually do this. That's the whole point.\ncurl -sL https://getvet.sh/install.sh | bash\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "igdfP9g14kyKqYtxWLTz3o9x0CSsY/m2+EfqTADvvMU=",
-        "originContent": "# This is the curl-to-bash pattern.",
-        "translatedContent": "# This is the curl-to-bash pattern."
-      },
-      {
-        "row": 3,
-        "rowsha": "+0mvnFR6vEyf5eYEIaM+uzY0RbAKPUwQO/NXN2U/kCM=",
-        "originContent": "# Don't actually do this. That's the whole point.",
-        "translatedContent": "# Don't actually do this. That's the whole point."
-      },
-      {
-        "row": 4,
-        "rowsha": "CQNtJqEKAozEeWyGi0nYnk8sS68TQt72rpgi3xGbt1s=",
-        "originContent": "curl -sL https://getvet.sh/install.sh | bash",
-        "translatedContent": "curl -sL https://getvet.sh/install.sh | bash"
-      },
-      {
-        "row": 5,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -732,20 +200,7 @@
     "EndLine": 0,
     "Translation": "---\n### 使用法",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---"
-      },
-      {
-        "row": 2,
-        "rowsha": "elsthwRCF+vtpOBxqAWFEGuucFIX2nKj7DKSYQAuFv8=",
-        "originContent": "### Usage",
-        "translatedContent": "### 使用法"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -757,92 +212,7 @@
     "EndLine": 0,
     "Translation": "```bash\n# Basic usage\nvet <URL>\n\n# Example with a real-world installer\nvet https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh\n\n# Pass arguments to the remote script\n# All arguments after the URL are passed directly to the script.\nvet https://example.com/setup.sh --user myuser --version latest\n\n# Non-interactive mode for trusted scripts in automated environments (e.g., CI/CD)\nvet --force https://my-trusted-internal-script.sh\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "tubzP7r0Ok05GG68i4Ce3bfcIIwk9n4smd2fVzAOCY8=",
-        "originContent": "# Basic usage",
-        "translatedContent": "# Basic usage"
-      },
-      {
-        "row": 3,
-        "rowsha": "1jHXdhyyDGNZXSAjAr6/lxkHRgXLozDKxZYNal6BgcU=",
-        "originContent": "vet <URL>",
-        "translatedContent": "vet <URL>"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "NhdsJVSVBEciMiOyW819mLmaYkRpt4oN/D40Hk1lhs8=",
-        "originContent": "# Example with a real-world installer",
-        "translatedContent": "# Example with a real-world installer"
-      },
-      {
-        "row": 6,
-        "rowsha": "0bBLEAPmNSHiHRDRcz3hOcVFFaH/6nIZsDkJgPyTTGs=",
-        "originContent": "vet https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh",
-        "translatedContent": "vet https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "5RXkNnoa4kLPmLvAb9cQLYtbmfW34NCCQ15/ElKhG6g=",
-        "originContent": "# Pass arguments to the remote script",
-        "translatedContent": "# Pass arguments to the remote script"
-      },
-      {
-        "row": 9,
-        "rowsha": "G/ywqCRRNH7fAHN7utYNs9eGhP+d2d3hFgr2O9Mp/u8=",
-        "originContent": "# All arguments after the URL are passed directly to the script.",
-        "translatedContent": "# All arguments after the URL are passed directly to the script."
-      },
-      {
-        "row": 10,
-        "rowsha": "XCtO5deePPnf6NduPZIaW79o0uVNZYIAVOYjvRISI2w=",
-        "originContent": "vet https://example.com/setup.sh --user myuser --version latest",
-        "translatedContent": "vet https://example.com/setup.sh --user myuser --version latest"
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 12,
-        "rowsha": "icr4/XjIb9Jrqawi526A++8RE8lrBKVz3JWCFafNnH0=",
-        "originContent": "# Non-interactive mode for trusted scripts in automated environments (e.g., CI/CD)",
-        "translatedContent": "# Non-interactive mode for trusted scripts in automated environments (e.g., CI/CD)"
-      },
-      {
-        "row": 13,
-        "rowsha": "8MG8GeaITD95eEJK5e3AevllagqkxVM0V5CRbUoaZ9M=",
-        "originContent": "vet --force https://my-trusted-internal-script.sh",
-        "translatedContent": "vet --force https://my-trusted-internal-script.sh"
-      },
-      {
-        "row": 14,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -866,26 +236,7 @@
     "EndLine": 0,
     "Translation": "```bash\napk add --no-cache bash\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "1XQTRCKOXzzr7hvIyH3sHQUuvR0EZdjkmt2hk9OwzMg=",
-        "originContent": "apk add --no-cache bash",
-        "translatedContent": "apk add --no-cache bash"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -897,164 +248,7 @@
     "EndLine": 0,
     "Translation": "## 貢献について\n\n貢献は歓迎します！新しい機能のアイデアがある場合やバグを見つけた場合は、Issueを開いてください。プルリクエストの場合は、変更がテストでカバーされていることを確認してください。\n\n-   リポジトリをフォークします。\n\n-   新しい機能ブランチを作成します（git checkout -b feature/my-amazing-feature）。\n\n-   変更を行います。\n\n-   テストを実行します（bats tests/）。\n\n-   変更をコミットします（git commit -am 'Add some amazing feature'）。\n\n-   ブランチにプッシュします（git push origin feature/my-amazing-feature）。\n\n-   新しいプルリクエストを開きます。\n\n## 謝辞\n\nこのプロジェクトは貢献者によってより良くなっています。`vet`の形成に貢献した方々は、[Contributors](https://raw.githubusercontent.com/vet-run/vet/main/CONTRIBUTORS.md)ファイルをご覧ください。\n\n## ライセンス\n\nこのプロジェクトはMITライセンスのもとで提供されています。詳細は[LICENSE](https://spdx.org/licenses/MIT.html)ファイルをご参照ください。\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
-        "originContent": "## Contributing",
-        "translatedContent": "## 貢献について"
-      },
-      {
-        "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "wKvoUqnA7fxU5v9x9uP99gMNYeXN8CDpGi/sC+DFSok=",
-        "originContent": "Contributions are welcome! If you have an idea for a new feature or have found a bug, please open an issue. For pull requests, please ensure that your changes are covered by tests.",
-        "translatedContent": "貢献は歓迎します！新しい機能のアイデアがある場合やバグを見つけた場合は、Issueを開いてください。プルリクエストの場合は、変更がテストでカバーされていることを確認してください。"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "pgPYGPf8uCJR6v+NIJ1T3QFVb8NVOplu4a5+VmxwoAI=",
-        "originContent": "-   Fork the repository.",
-        "translatedContent": "-   リポジトリをフォークします。"
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "0dTzuLyojVYukqRgxICYbrQPf2PB+cchLII+XOcwR1Y=",
-        "originContent": "-   Create a new feature branch (git checkout -b feature/my-amazing-feature).",
-        "translatedContent": "-   新しい機能ブランチを作成します（git checkout -b feature/my-amazing-feature）。"
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "ypee/16fqf5afdQL6OsKO2aEfNBQVpaLy9tc/Gbs2fU=",
-        "originContent": "-   Make your changes.",
-        "translatedContent": "-   変更を行います。"
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "YybuV8501M2+5Hw0qnTxSCVcZgjGMEGHHGT7HOvpbAY=",
-        "originContent": "-   Run the tests (bats tests/).",
-        "translatedContent": "-   テストを実行します（bats tests/）。"
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "SE1f3GbWf/Q6TmajNbsKP2f1uKbShelwiFWw/Rcfrqg=",
-        "originContent": "-   Commit your changes (git commit -am 'Add some amazing feature').",
-        "translatedContent": "-   変更をコミットします（git commit -am 'Add some amazing feature'）。"
-      },
-      {
-        "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "cDPWUR+JV3RcFMiWa9ZEj9eUKTqD9tEBqEqNfRZooVI=",
-        "originContent": "-   Push to the branch (git push origin feature/my-amazing-feature).",
-        "translatedContent": "-   ブランチにプッシュします（git push origin feature/my-amazing-feature）。"
-      },
-      {
-        "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 17,
-        "rowsha": "kUT3qMS3GF/w4kX9yHC1/TYmPtHBNopwCI5LlO2LWD8=",
-        "originContent": "-   Open a new Pull Request.",
-        "translatedContent": "-   新しいプルリクエストを開きます。"
-      },
-      {
-        "row": 18,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 19,
-        "rowsha": "HvkwNudYOlwL8j/t4djBVF3hUJwHWa2r5QjmSxgq3AA=",
-        "originContent": "## Acknowledgements",
-        "translatedContent": "## 謝辞"
-      },
-      {
-        "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 21,
-        "rowsha": "ks+HLAySIFCTwZ6MnRwBLVL2Ucl0Sx6V5v/Lmr9uzuc=",
-        "originContent": "This project is made better by its contributors. See our [Contributors](https://raw.githubusercontent.com/vet-run/vet/main/CONTRIBUTORS.md) file to recognize those who have helped shape `vet`.",
-        "translatedContent": "このプロジェクトは貢献者によってより良くなっています。`vet`の形成に貢献した方々は、[Contributors](https://raw.githubusercontent.com/vet-run/vet/main/CONTRIBUTORS.md)ファイルをご覧ください。"
-      },
-      {
-        "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 23,
-        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
-        "originContent": "## License",
-        "translatedContent": "## ライセンス"
-      },
-      {
-        "row": 24,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 25,
-        "rowsha": "kNN9NH8dAfif7AtklJaBP/J+1vhahvJjJNC+67Xvezk=",
-        "originContent": "This project is licensed under the MIT License - see the [LICENSE](https://spdx.org/licenses/MIT.html) file for details.",
-        "translatedContent": "このプロジェクトはMITライセンスのもとで提供されています。詳細は[LICENSE](https://spdx.org/licenses/MIT.html)ファイルをご参照ください。"
-      },
-      {
-        "row": 26,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]

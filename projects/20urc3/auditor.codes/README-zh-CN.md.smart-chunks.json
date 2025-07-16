@@ -1,0 +1,585 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Code Auditor CTF\n![image](https://github.com/user-attachments/assets/fdfbbffc-71f9-4463-856d-aca054399a0f)\n\nA web-based Capture The Flag (CTF) platform offering unparalleled depth and breadth in source code auditing challenges. With the largest collection of real-world C/C++ vulnerability examples available anywhere, users analyze authentic code snippets, identify sophisticated security flaws, and master secure coding practices through hands-on experience.\n\nOur comprehensive training environment features thousands of meticulously curated challenges spanning the entire vulnerability spectrum - from classic buffer overflows to the most obscure memory corruption bugs. No other platform provides this level of completeness in source code security education.\n\n### This application is currently in ALPHA stage and was entirely \"vibe coded\" with the assistance of Large Language Models.\n\nWhat does this mean? The development process prioritized creative flow and rapid iteration over traditional software engineering practices.\nAs an ALPHA release, users should consider themselves active testers of the platform. You will likely encounter bugs, unexpected behaviors, and incomplete features as you explore. These experiences are an integral part of our development process, not exceptions to it.\nBy using this platform, you're participating in its evolution and helping shape its future. We encourage you to report any issues, share your insights, and suggest improvements as we transform this LLM-assisted creation into a more stable and refined tool.\n\n## Features ✨\n\n* **Vulnerability Challenges:** Practice identifying various CWEs (Common Weakness Enumerations) in C/C++ code snippets.\n* **Multiple Difficulty Levels:** Challenges categorized by difficulty (Easy, Medium, Hard, Insane - *Note: Current implementation might be simplified*).\n* **Code Diff View:** Compare vulnerable code side-by-side with a fixed version.\n* **User Authentication:** Secure user registration, login, and logout functionality using Flask-Login.\n* **Persistent Progress:** User scores and completed challenges are tracked in a database.\n* **User Profiles:** View individual scores and completion stats.\n* **Leaderboard:** See how you rank against other auditors!\n* **Educational Content:** Dedicated \"Learn\" section with comprehensive resources on vulnerability identification.\n* **Modern UI:** Dark theme with Tailwind CSS for landing/auth pages and Prism.js for code highlighting.\n* **Extensive Challenge Dataset:** Features over 7000+ challenges derived from real C/C++ code snippets. *(Based on the excellent [MegaVul dataset](https://github.com/Icyrockton/MegaVul) by Icyrockton)*.\n\n## Tech Stack ️\n\n* **Backend:**\n    * Python 3\n    * Flask (Web Framework)\n    * Flask-Login (User Session Management)\n    * Werkzeug (Password Hashing, WSGI utilities)\n    * SQLite (Database)\n    * Gunicorn (Production WSGI Server - Recommended)\n* **Frontend:**\n    * HTML5\n    * CSS3 (including custom styles)\n    * Tailwind CSS (for specific pages like landing/auth)\n    * Vanilla JavaScript (DOM manipulation, API calls)\n    * Prism.js (Syntax Highlighting)\n \n*Deployment configuration information can be found in `conf/readme.md`*\n\n## Database Schema\n\nThe application uses an SQLite database (`auditor_challenges.db`) with the following main tables:\n\n* **`users`**: Stores user information.\n    * `id` (INTEGER, PK, AI): Unique user ID.\n    * `username` (TEXT, UNIQUE, NOT NULL): User's chosen name.\n    * `password_hash` (TEXT, NOT NULL): Securely hashed password.\n    * `created_at` (TIMESTAMP): When the user registered.\n* **`user_progress`**: Tracks individual user progress.\n    * `user_id` (INTEGER, PK, FK -> users.id): Links to the user.\n    * `total_score` (INTEGER): User's current score.\n    * `completed_count` (INTEGER): Number of challenges correctly solved.\n    * `seen_challenges` (TEXT): JSON string list of challenge IDs the user has been assigned.\n* **`challenges`**: Stores the CTF challenge data (derived from sources like MegaVul).\n    * `id` (INTEGER, PK): Unique challenge ID.\n    * `title` (TEXT): Title of the challenge.\n    * `vulnerable_code` (TEXT): The code snippet with the vulnerability.\n    * `fixed_code` (TEXT): The corrected version of the code (for diff view).\n    * `difficulty` (TEXT): e.g., 'easy', 'medium', 'hard', 'insane'.\n    * `cwe_id` (TEXT): The primary CWE associated with the vulnerability (e.g., 'CWE-120').\n    * `cwe_name` (TEXT): A descriptive name for the CWE.\n    * `cve_id` (TEXT, Optional): Associated CVE identifier, if applicable.\n    * `solution` (TEXT): Explanation of the vulnerability and fix.\n\n## Usage\n\n1.  Navigate to the application URL.\n2.  Register a new account or Log In via the \"My Account\" dropdown.\n3.  Go to the \"Challenges\" page (`/ctf`).\n4.  Select a difficulty level using the dropdown.\n5.  A challenge will load. Analyze the source code.\n6.  Optionally, use the \"Show Diff View\" button to compare with a fixed version (incurs a score penalty).\n7.  Select the CWE you believe is present in the code from the radio buttons.\n8.  Click \"Submit Assessment\".\n9.  View the results, explanation, and your updated score.\n10. Use the \"Load Next Challenge\" button (on the results page) or the \"New Challenge\" button (next to the difficulty dropdown) to get a new challenge.\n11. Check your progress on the \"Profile\" page and see rankings on the \"Scoreboard\" (both accessible from the \"My Account\" dropdown).\n\n## Acknowledgements\n\n* The challenge dataset used in this project is based on the [MegaVul dataset](https://github.com/Icyrockton/MegaVul) created by Icyrockton.\n\n## Contributing\n\nContributions are welcome! Please feel free to submit pull requests or open issues for bugs, feature requests, or improvements.\n\n## License\n\nThis project is licensed under the MIT License - see the [LICENSE.md](https://raw.githubusercontent.com/20urc3/auditor.codes/main/LICENSE.md) file for details.\n",
+    "ContentSha": "1O51ZkJCUPYdLO/csPRE1Zfw4BNKIaq4k/nYyYmBrx8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 代码审计员 CTF\n![image](https://github.com/user-attachments/assets/fdfbbffc-71f9-4463-856d-aca054399a0f)\n\n一个基于网页的夺旗赛（CTF）平台，提供无与伦比的源代码审计挑战的深度和广度。拥有迄今为止最大规模的真实 C/C++ 漏洞示例集合，用户可以分析真实代码片段，识别复杂的安全漏洞，并通过实践掌握安全编码规范。\n\n我们全面的培训环境包含数千个精心策划的挑战，涵盖整个漏洞谱系——从经典缓冲区溢出到最隐蔽的内存破坏漏洞。没有其他平台能提供如此完整的源代码安全教育。\n\n### 本应用目前处于 ALPHA 阶段，完全通过大型语言模型辅助“vibe 编码”完成。\n\n这意味着什么？开发过程优先考虑创造性流程和快速迭代，而非传统软件工程实践。\n作为 ALPHA 版本，用户应视自己为平台的活跃测试者。在探索过程中，您可能会遇到错误、意外行为和未完成的功能。这些体验是我们开发过程的组成部分，而非例外。\n通过使用本平台，您正在参与其演变并助力塑造未来。我们鼓励您报告任何问题，分享见解，提出改进建议，帮助将这一 LLM 辅助创作转变为更稳定、更完善的工具。\n\n## 功能 ✨\n\n* **漏洞挑战：** 练习识别 C/C++ 代码片段中的各种 CWE（通用弱点枚举）。\n* **多难度等级：** 按难度分类的挑战（简单、中等、困难、疯狂 - *注意：当前实现可能较为简化*）。\n* **代码差异视图：** 并排比较有漏洞代码与修复版本。\n* **用户认证：** 使用 Flask-Login 实现安全的用户注册、登录和登出功能。\n* **持久进度：** 用户分数和完成的挑战在数据库中跟踪。\n* **用户资料：** 查看个人分数和完成统计。\n* **排行榜：** 查看您在审计员中的排名！\n* **教育内容：** 专门的“学习”部分，提供全面的漏洞识别资源。\n* **现代界面：** 使用 Tailwind CSS 实现暗色主题的登录/认证页面，Prism.js 用于代码高亮。\n* **丰富挑战数据集：** 包含超过 7000+ 个来自真实 C/C++ 代码片段的挑战。*(基于 Icyrockton 优秀的 [MegaVul 数据集](https://github.com/Icyrockton/MegaVul))*。\n\n## 技术栈 ️\n\n* **后端：**\n    * Python 3\n    * Flask（Web 框架）\n    * Flask-Login（用户会话管理）\n    * Werkzeug（密码哈希，WSGI 工具）\n    * SQLite（数据库）\n    * Gunicorn（生产环境 WSGI 服务器 - 推荐）\n* **前端：**\n    * HTML5\n    * CSS3（含自定义样式）\n    * Tailwind CSS（用于特定页面如登录/认证）\n    * 原生 JavaScript（DOM 操作，API 调用）\n    * Prism.js（语法高亮）\n\n*部署配置信息见 `conf/readme.md`*\n\n## 数据库模式\n\n应用使用 SQLite 数据库（`auditor_challenges.db`），包含以下主要表：\n\n* **`users`**：存储用户信息。\n    * `id`（INTEGER，主键，自增）：唯一用户 ID。\n    * `username`（TEXT，唯一，非空）：用户选择的名称。\n    * `password_hash`（TEXT，非空）：安全哈希密码。\n    * `created_at`（时间戳）：用户注册时间。\n* **`user_progress`**：跟踪单个用户进度。\n    * `user_id`（INTEGER，主键，外键 -> users.id）：关联用户。\n    * `total_score`（INTEGER）：用户当前分数。\n    * `completed_count`（INTEGER）：正确完成的挑战数量。\n    * `seen_challenges`（TEXT）：用户已分配挑战 ID 的 JSON 字符串列表。\n* **`challenges`**：存储 CTF 挑战数据（源自 MegaVul 等）。\n    * `id`（INTEGER，主键）：唯一挑战 ID。\n    * `title`（TEXT）：挑战标题。\n    * `vulnerable_code`（TEXT）：含漏洞代码片段。\n    * `fixed_code`（TEXT）：修复版本代码（用于差异视图）。\n    * `difficulty`（TEXT）：如“easy”、“medium”、“hard”、“insane”。\n    * `cwe_id`（TEXT）：漏洞对应的主要 CWE（如“CWE-120”）。\n    * `cwe_name`（TEXT）：CWE 描述名称。\n    * `cve_id`（TEXT，可选）：相关 CVE 标识符（如有）。\n    * `solution`（TEXT）：漏洞及修复说明。\n\n## 使用方法\n\n1. 访问应用网址。\n2. 通过“我的账户”下拉菜单注册新账号或登录。\n3. 进入“挑战”页面（`/ctf`）。\n4. 使用下拉菜单选择难度等级。\n5. 加载挑战，分析源代码。\n6. 可选地点击“显示差异视图”按钮查看修复版本对比（会扣分）。\n7. 从单选按钮中选择您认为代码中存在的 CWE。\n8. 点击“提交评估”。\n9. 查看结果、解释及更新后的分数。\n10. 在结果页点击“加载下一个挑战”按钮，或在难度下拉旁点击“新挑战”按钮获取新挑战。\n11. 在“个人资料”页面查看进度，在“排行榜”查看排名（两者均可通过“我的账户”下拉菜单访问）。\n\n## 致谢\n\n* 本项目所用挑战数据集基于 Icyrockton 创建的 [MegaVul 数据集](https://github.com/Icyrockton/MegaVul)。\n\n## 贡献\n\n欢迎贡献！请随时提交拉取请求或打开问题报告 bug、功能请求或改进建议。\n\n## 许可证\n\n本项目采用 MIT 许可证 - 详情请参阅 [LICENSE.md](https://raw.githubusercontent.com/20urc3/auditor.codes/main/LICENSE.md) 文件。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "bZWG8Nlpp7X7OSK26alHWVVGRRQsPXlgKRxWX6BRI7s=",
+        "originContent": "# Code Auditor CTF",
+        "translatedContent": "# 代码审计员 CTF"
+      },
+      {
+        "row": 2,
+        "rowsha": "PU+iC2TIBwkXToU18r+xn1AD4IOLxxGBzk2uZDZfLTg=",
+        "originContent": "![image](https://github.com/user-attachments/assets/fdfbbffc-71f9-4463-856d-aca054399a0f)",
+        "translatedContent": "![image](https://github.com/user-attachments/assets/fdfbbffc-71f9-4463-856d-aca054399a0f)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "pqQ57/xWVpuPzgTpfhj0ey+whjE+FVNxL07oIFHlAC8=",
+        "originContent": "A web-based Capture The Flag (CTF) platform offering unparalleled depth and breadth in source code auditing challenges. With the largest collection of real-world C/C++ vulnerability examples available anywhere, users analyze authentic code snippets, identify sophisticated security flaws, and master secure coding practices through hands-on experience.",
+        "translatedContent": "一个基于网页的夺旗赛（CTF）平台，提供无与伦比的源代码审计挑战的深度和广度。拥有迄今为止最大规模的真实 C/C++ 漏洞示例集合，用户可以分析真实代码片段，识别复杂的安全漏洞，并通过实践掌握安全编码规范。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "s1a/xBPlEpyObrnFnS4m8Mt6LU0BxJuAx9LzBsM43FA=",
+        "originContent": "Our comprehensive training environment features thousands of meticulously curated challenges spanning the entire vulnerability spectrum - from classic buffer overflows to the most obscure memory corruption bugs. No other platform provides this level of completeness in source code security education.",
+        "translatedContent": "我们全面的培训环境包含数千个精心策划的挑战，涵盖整个漏洞谱系——从经典缓冲区溢出到最隐蔽的内存破坏漏洞。没有其他平台能提供如此完整的源代码安全教育。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "LUKQY8medLLP/rOZTJXD58yVXfNEnXeXPIrRl6X6KxI=",
+        "originContent": "### This application is currently in ALPHA stage and was entirely \"vibe coded\" with the assistance of Large Language Models.",
+        "translatedContent": "### 本应用目前处于 ALPHA 阶段，完全通过大型语言模型辅助“vibe 编码”完成。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "FrBHppoFOpgXAJHlWNTeJSVETRBZvTZR3SzZJu3B9GE=",
+        "originContent": "What does this mean? The development process prioritized creative flow and rapid iteration over traditional software engineering practices.",
+        "translatedContent": "这意味着什么？开发过程优先考虑创造性流程和快速迭代，而非传统软件工程实践。"
+      },
+      {
+        "row": 11,
+        "rowsha": "F4CIbMJ5eN/Z18TAIANvstXaPUNukLciqVWfMYzzlRg=",
+        "originContent": "As an ALPHA release, users should consider themselves active testers of the platform. You will likely encounter bugs, unexpected behaviors, and incomplete features as you explore. These experiences are an integral part of our development process, not exceptions to it.",
+        "translatedContent": "作为 ALPHA 版本，用户应视自己为平台的活跃测试者。在探索过程中，您可能会遇到错误、意外行为和未完成的功能。这些体验是我们开发过程的组成部分，而非例外。"
+      },
+      {
+        "row": 12,
+        "rowsha": "ssf1wZZwdqxZ+1OTie3iQDTFIlcP1lUsvH+F8lbDTqg=",
+        "originContent": "By using this platform, you're participating in its evolution and helping shape its future. We encourage you to report any issues, share your insights, and suggest improvements as we transform this LLM-assisted creation into a more stable and refined tool.",
+        "translatedContent": "通过使用本平台，您正在参与其演变并助力塑造未来。我们鼓励您报告任何问题，分享见解，提出改进建议，帮助将这一 LLM 辅助创作转变为更稳定、更完善的工具。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "f3rfSrXa1rddp0MLxFv6J8IpNFsTThVDQOPV102+JNY=",
+        "originContent": "## Features ✨",
+        "translatedContent": "## 功能 ✨"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "m/mE8YsTMJycro+65TRa6bjTUeVvZ8VZPuLnssoWbaI=",
+        "originContent": "* **Vulnerability Challenges:** Practice identifying various CWEs (Common Weakness Enumerations) in C/C++ code snippets.",
+        "translatedContent": "* **漏洞挑战：** 练习识别 C/C++ 代码片段中的各种 CWE（通用弱点枚举）。"
+      },
+      {
+        "row": 17,
+        "rowsha": "UTePMtd1aE/rtoGwv5fUpy/HDGeQbTqSWdjT0uooelI=",
+        "originContent": "* **Multiple Difficulty Levels:** Challenges categorized by difficulty (Easy, Medium, Hard, Insane - *Note: Current implementation might be simplified*).",
+        "translatedContent": "* **多难度等级：** 按难度分类的挑战（简单、中等、困难、疯狂 - *注意：当前实现可能较为简化*）。"
+      },
+      {
+        "row": 18,
+        "rowsha": "8Z52ehtKENStSOHpVkpnW2LE3UCbjVJc+eRIIl2XhYs=",
+        "originContent": "* **Code Diff View:** Compare vulnerable code side-by-side with a fixed version.",
+        "translatedContent": "* **代码差异视图：** 并排比较有漏洞代码与修复版本。"
+      },
+      {
+        "row": 19,
+        "rowsha": "pPvwjk2jKJWf5Lfxm50R9C5yvohVaQ/V5DXyc+B0kGo=",
+        "originContent": "* **User Authentication:** Secure user registration, login, and logout functionality using Flask-Login.",
+        "translatedContent": "* **用户认证：** 使用 Flask-Login 实现安全的用户注册、登录和登出功能。"
+      },
+      {
+        "row": 20,
+        "rowsha": "wXICs/dUJmXKurvqYj+t53mWngRRzJXoXNnIVK6iliQ=",
+        "originContent": "* **Persistent Progress:** User scores and completed challenges are tracked in a database.",
+        "translatedContent": "* **持久进度：** 用户分数和完成的挑战在数据库中跟踪。"
+      },
+      {
+        "row": 21,
+        "rowsha": "E7J15bweKz91fb8YQ8tOjwmmI0+0RXx1zthklofQJWk=",
+        "originContent": "* **User Profiles:** View individual scores and completion stats.",
+        "translatedContent": "* **用户资料：** 查看个人分数和完成统计。"
+      },
+      {
+        "row": 22,
+        "rowsha": "fOGTQ7JTV3oTGj9qIAYAiB+kITTjWCFu3gpCy+uHEog=",
+        "originContent": "* **Leaderboard:** See how you rank against other auditors!",
+        "translatedContent": "* **排行榜：** 查看您在审计员中的排名！"
+      },
+      {
+        "row": 23,
+        "rowsha": "lp3Mx6YuvZHWqITfRIMO22ESN7Wb0fbiXk6a2f8iTyU=",
+        "originContent": "* **Educational Content:** Dedicated \"Learn\" section with comprehensive resources on vulnerability identification.",
+        "translatedContent": "* **教育内容：** 专门的“学习”部分，提供全面的漏洞识别资源。"
+      },
+      {
+        "row": 24,
+        "rowsha": "zNfCRoAwhPCZzw87W8r5YecqQCAHS/ypbtMaewYOK3Y=",
+        "originContent": "* **Modern UI:** Dark theme with Tailwind CSS for landing/auth pages and Prism.js for code highlighting.",
+        "translatedContent": "* **现代界面：** 使用 Tailwind CSS 实现暗色主题的登录/认证页面，Prism.js 用于代码高亮。"
+      },
+      {
+        "row": 25,
+        "rowsha": "bkcgM/ZJI1SRK/Y0T+9FWHF7PVIbeWuwiK9l1EjeOf8=",
+        "originContent": "* **Extensive Challenge Dataset:** Features over 7000+ challenges derived from real C/C++ code snippets. *(Based on the excellent [MegaVul dataset](https://github.com/Icyrockton/MegaVul) by Icyrockton)*.",
+        "translatedContent": "* **丰富挑战数据集：** 包含超过 7000+ 个来自真实 C/C++ 代码片段的挑战。*(基于 Icyrockton 优秀的 [MegaVul 数据集](https://github.com/Icyrockton/MegaVul))*。"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "lEyP47CTH/yw9wJxWWKzCXbXFhBdhZ50Mci7H6zvYZU=",
+        "originContent": "## Tech Stack ️",
+        "translatedContent": "## 技术栈 ️"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "FZlXCGE0dbdekm2sNH7dv+9bC0SNugiBoV2A29jXaho=",
+        "originContent": "* **Backend:**",
+        "translatedContent": "* **后端：**"
+      },
+      {
+        "row": 30,
+        "rowsha": "Zlr35JpQvTDBhpsv9q1MUby3ZhYFSeMIqvKFB0119p0=",
+        "originContent": "    * Python 3",
+        "translatedContent": "    * Python 3"
+      },
+      {
+        "row": 31,
+        "rowsha": "HfZavYbpLH+OFobpbMR9PQ8dEArqRfp5CD+4gs/iC5M=",
+        "originContent": "    * Flask (Web Framework)",
+        "translatedContent": "    * Flask（Web 框架）"
+      },
+      {
+        "row": 32,
+        "rowsha": "AShq2UpFXeABDJkNfNBCY1+nsg19UuzOsm1tIBbsC70=",
+        "originContent": "    * Flask-Login (User Session Management)",
+        "translatedContent": "    * Flask-Login（用户会话管理）"
+      },
+      {
+        "row": 33,
+        "rowsha": "2HX4DQzU09JROEk4TjjyNR9f0XxBPpNmHDmZSbGWodY=",
+        "originContent": "    * Werkzeug (Password Hashing, WSGI utilities)",
+        "translatedContent": "    * Werkzeug（密码哈希，WSGI 工具）"
+      },
+      {
+        "row": 34,
+        "rowsha": "c/TV+IzFAOl5iMPMR+F1LDm/z7bPcg4woHFOzvDlMHI=",
+        "originContent": "    * SQLite (Database)",
+        "translatedContent": "    * SQLite（数据库）"
+      },
+      {
+        "row": 35,
+        "rowsha": "1/Wl9plzi0yR2yJRR3JIIF2RT8qe6HYkyIszPfgqPto=",
+        "originContent": "    * Gunicorn (Production WSGI Server - Recommended)",
+        "translatedContent": "    * Gunicorn（生产环境 WSGI 服务器 - 推荐）"
+      },
+      {
+        "row": 36,
+        "rowsha": "1UGPbY2vWry1KYTF6gHPdOSuZbK8WG/iqBu67OEmFzE=",
+        "originContent": "* **Frontend:**",
+        "translatedContent": "* **前端：**"
+      },
+      {
+        "row": 37,
+        "rowsha": "n0Mn0umWnu82LQ8CEDwwJXp5NiCA2f50JR+SQzFcsk4=",
+        "originContent": "    * HTML5",
+        "translatedContent": "    * HTML5"
+      },
+      {
+        "row": 38,
+        "rowsha": "qLNUIHcqddJQ3HjpPqLH8fzUsNPbYSw8nq0E+2XWsp8=",
+        "originContent": "    * CSS3 (including custom styles)",
+        "translatedContent": "    * CSS3（含自定义样式）"
+      },
+      {
+        "row": 39,
+        "rowsha": "nOVcUekoqGG+tYsE4nbCbQOYVCDDh9J8fjVQNsZxhVA=",
+        "originContent": "    * Tailwind CSS (for specific pages like landing/auth)",
+        "translatedContent": "    * Tailwind CSS（用于特定页面如登录/认证）"
+      },
+      {
+        "row": 40,
+        "rowsha": "YUCc+0gJVAQ+54QluqXePpQXXWpj/cp+Wxy4R1U/dPk=",
+        "originContent": "    * Vanilla JavaScript (DOM manipulation, API calls)",
+        "translatedContent": "    * 原生 JavaScript（DOM 操作，API 调用）"
+      },
+      {
+        "row": 41,
+        "rowsha": "rF6vQ3+JOxrVmyf+SUHCMzp/D04qGIsbdcGygv1o10U=",
+        "originContent": "    * Prism.js (Syntax Highlighting)",
+        "translatedContent": "    * Prism.js（语法高亮）"
+      },
+      {
+        "row": 42,
+        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+        "originContent": " ",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "udm+tg95meqZwdd7dc9sl/apITWaslFQkL2wriWccvM=",
+        "originContent": "*Deployment configuration information can be found in `conf/readme.md`*",
+        "translatedContent": "*部署配置信息见 `conf/readme.md`*"
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "1rpm+pXaXZgtV/Ahv2g2Cawd0t+XgGReDNPI4ahCH4U=",
+        "originContent": "## Database Schema",
+        "translatedContent": "## 数据库模式"
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "pFSu2GqjAZwx5aaxEQ8xNxoc5ZPoIyOw9fTUVvpiZ2s=",
+        "originContent": "The application uses an SQLite database (`auditor_challenges.db`) with the following main tables:",
+        "translatedContent": "应用使用 SQLite 数据库（`auditor_challenges.db`），包含以下主要表："
+      },
+      {
+        "row": 48,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "OeetU1QiU9IaN06soXP8elh0cUIlc3FAEgJVGz84IqA=",
+        "originContent": "* **`users`**: Stores user information.",
+        "translatedContent": "* **`users`**：存储用户信息。"
+      },
+      {
+        "row": 50,
+        "rowsha": "GNkMq2mleK4rP0f6jjZFx/bLZzFsa4fQd/Qb1OOkYfg=",
+        "originContent": "    * `id` (INTEGER, PK, AI): Unique user ID.",
+        "translatedContent": "    * `id`（INTEGER，主键，自增）：唯一用户 ID。"
+      },
+      {
+        "row": 51,
+        "rowsha": "YYD+O7HtxEqvEPQMYxRarO8WNw+suHYKtzUmLbXATzw=",
+        "originContent": "    * `username` (TEXT, UNIQUE, NOT NULL): User's chosen name.",
+        "translatedContent": "    * `username`（TEXT，唯一，非空）：用户选择的名称。"
+      },
+      {
+        "row": 52,
+        "rowsha": "jc4CC+F2Zi4Qsimtx4usM+UPRxDX+lvC/Y6kEyTwd1w=",
+        "originContent": "    * `password_hash` (TEXT, NOT NULL): Securely hashed password.",
+        "translatedContent": "    * `password_hash`（TEXT，非空）：安全哈希密码。"
+      },
+      {
+        "row": 53,
+        "rowsha": "TSY89IpfghK6QLaH+cFHvJL9zEHNfA7CmSxhHUmOUBs=",
+        "originContent": "    * `created_at` (TIMESTAMP): When the user registered.",
+        "translatedContent": "    * `created_at`（时间戳）：用户注册时间。"
+      },
+      {
+        "row": 54,
+        "rowsha": "1hJiTBallt32X7HC33GrAqSZUxhbpiQBOCqHk+K7KzE=",
+        "originContent": "* **`user_progress`**: Tracks individual user progress.",
+        "translatedContent": "* **`user_progress`**：跟踪单个用户进度。"
+      },
+      {
+        "row": 55,
+        "rowsha": "1OGWVgZ3bog8OqqMUCFyfK94qfWiS14QnYGRfPAHhQY=",
+        "originContent": "    * `user_id` (INTEGER, PK, FK -> users.id): Links to the user.",
+        "translatedContent": "    * `user_id`（INTEGER，主键，外键 -> users.id）：关联用户。"
+      },
+      {
+        "row": 56,
+        "rowsha": "pNejhOm+wTB2Co++GDXLsAgPqeMGYn0e/Msw5QTFmjM=",
+        "originContent": "    * `total_score` (INTEGER): User's current score.",
+        "translatedContent": "    * `total_score`（INTEGER）：用户当前分数。"
+      },
+      {
+        "row": 57,
+        "rowsha": "+fNgCsDR+64MYeu2l5HkxEn2850G6IjxK/s9TKpeOxg=",
+        "originContent": "    * `completed_count` (INTEGER): Number of challenges correctly solved.",
+        "translatedContent": "    * `completed_count`（INTEGER）：正确完成的挑战数量。"
+      },
+      {
+        "row": 58,
+        "rowsha": "D9sGbOjSDpRy9ztAov9jB4F3/m6ron/UjxZ6k8D7pto=",
+        "originContent": "    * `seen_challenges` (TEXT): JSON string list of challenge IDs the user has been assigned.",
+        "translatedContent": "    * `seen_challenges`（TEXT）：用户已分配挑战 ID 的 JSON 字符串列表。"
+      },
+      {
+        "row": 59,
+        "rowsha": "1XbIjqDVxX42WpzBA1wW2nWahEoQ32nZmDzy5g0riZs=",
+        "originContent": "* **`challenges`**: Stores the CTF challenge data (derived from sources like MegaVul).",
+        "translatedContent": "* **`challenges`**：存储 CTF 挑战数据（源自 MegaVul 等）。"
+      },
+      {
+        "row": 60,
+        "rowsha": "OXbVYlJYA+61CVR3qHjibRTaemmXsXUww/eYXHgMcLM=",
+        "originContent": "    * `id` (INTEGER, PK): Unique challenge ID.",
+        "translatedContent": "    * `id`（INTEGER，主键）：唯一挑战 ID。"
+      },
+      {
+        "row": 61,
+        "rowsha": "vWOayhswpx/L15Vxq+1BUOQJY1tj/mjPYwEFBT6zKtc=",
+        "originContent": "    * `title` (TEXT): Title of the challenge.",
+        "translatedContent": "    * `title`（TEXT）：挑战标题。"
+      },
+      {
+        "row": 62,
+        "rowsha": "cYb/huJ4W7h/2JhjibfoC4RCrzQd2l8k+ar2PJMMct0=",
+        "originContent": "    * `vulnerable_code` (TEXT): The code snippet with the vulnerability.",
+        "translatedContent": "    * `vulnerable_code`（TEXT）：含漏洞代码片段。"
+      },
+      {
+        "row": 63,
+        "rowsha": "gc0vUFYSxOi1qdKYZ3zTLexhBa/nkAZ4dGkI6Fu1pO8=",
+        "originContent": "    * `fixed_code` (TEXT): The corrected version of the code (for diff view).",
+        "translatedContent": "    * `fixed_code`（TEXT）：修复版本代码（用于差异视图）。"
+      },
+      {
+        "row": 64,
+        "rowsha": "BU91ogWYIKoRX4xbJXLlfHBPKKnhL0cjTgLF2JGj9eE=",
+        "originContent": "    * `difficulty` (TEXT): e.g., 'easy', 'medium', 'hard', 'insane'.",
+        "translatedContent": "    * `difficulty`（TEXT）：如“easy”、“medium”、“hard”、“insane”。"
+      },
+      {
+        "row": 65,
+        "rowsha": "YfCCDdNb8ULZYw1VSe7dXmUAgmMUqRKtENTGcSum+p0=",
+        "originContent": "    * `cwe_id` (TEXT): The primary CWE associated with the vulnerability (e.g., 'CWE-120').",
+        "translatedContent": "    * `cwe_id`（TEXT）：漏洞对应的主要 CWE（如“CWE-120”）。"
+      },
+      {
+        "row": 66,
+        "rowsha": "qtFYoe7q4d4EIP4RNRSdCeWITBWoG93evhfhOnwfsvE=",
+        "originContent": "    * `cwe_name` (TEXT): A descriptive name for the CWE.",
+        "translatedContent": "    * `cwe_name`（TEXT）：CWE 描述名称。"
+      },
+      {
+        "row": 67,
+        "rowsha": "1hl7Nohq4lTtVttarYdkhcrf5GODMTq8Ilfd68ix9HA=",
+        "originContent": "    * `cve_id` (TEXT, Optional): Associated CVE identifier, if applicable.",
+        "translatedContent": "    * `cve_id`（TEXT，可选）：相关 CVE 标识符（如有）。"
+      },
+      {
+        "row": 68,
+        "rowsha": "4WOfw52n5cD+/qvUbliptotZY1rAdfdLzxA56bz4VaE=",
+        "originContent": "    * `solution` (TEXT): Explanation of the vulnerability and fix.",
+        "translatedContent": "    * `solution`（TEXT）：漏洞及修复说明。"
+      },
+      {
+        "row": 69,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 70,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 使用方法"
+      },
+      {
+        "row": 71,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 72,
+        "rowsha": "kE+kksPomue3UuP22fRdP9rBm9g+QAonKCOrNctT7UI=",
+        "originContent": "1.  Navigate to the application URL.",
+        "translatedContent": "1. 访问应用网址。"
+      },
+      {
+        "row": 73,
+        "rowsha": "gXMl6aIYA5C+AhAsG3gaPix9n7pRi7LdAtZq6yJU/do=",
+        "originContent": "2.  Register a new account or Log In via the \"My Account\" dropdown.",
+        "translatedContent": "2. 通过“我的账户”下拉菜单注册新账号或登录。"
+      },
+      {
+        "row": 74,
+        "rowsha": "nfXTQs4t9aubsKIAZQakvkIdFogOqqYqncqMxAHz6SM=",
+        "originContent": "3.  Go to the \"Challenges\" page (`/ctf`).",
+        "translatedContent": "3. 进入“挑战”页面（`/ctf`）。"
+      },
+      {
+        "row": 75,
+        "rowsha": "+jNPB1se9pH3HuDj0xBY9/Ew1RVlHm04aWgU9TAUjfQ=",
+        "originContent": "4.  Select a difficulty level using the dropdown.",
+        "translatedContent": "4. 使用下拉菜单选择难度等级。"
+      },
+      {
+        "row": 76,
+        "rowsha": "RwsPhsTnowBQmPZMr+bPmbLB2RVzqb0wfooF/toOI3w=",
+        "originContent": "5.  A challenge will load. Analyze the source code.",
+        "translatedContent": "5. 加载挑战，分析源代码。"
+      },
+      {
+        "row": 77,
+        "rowsha": "5dWSeHLdcyRjKrUaHBgNXhxKnee2g/Ye9EBoz1lSdKc=",
+        "originContent": "6.  Optionally, use the \"Show Diff View\" button to compare with a fixed version (incurs a score penalty).",
+        "translatedContent": "6. 可选地点击“显示差异视图”按钮查看修复版本对比（会扣分）。"
+      },
+      {
+        "row": 78,
+        "rowsha": "7DBNyKZOOYoj6fcoKDORbbyxow2XwzUokBq3jE6yFXg=",
+        "originContent": "7.  Select the CWE you believe is present in the code from the radio buttons.",
+        "translatedContent": "7. 从单选按钮中选择您认为代码中存在的 CWE。"
+      },
+      {
+        "row": 79,
+        "rowsha": "n7l9/j0Yoszulm3Rra4IVN77LbtXlEsfpuYJ7o7YdNY=",
+        "originContent": "8.  Click \"Submit Assessment\".",
+        "translatedContent": "8. 点击“提交评估”。"
+      },
+      {
+        "row": 80,
+        "rowsha": "XAOIGzXrP6ouSpIWuM41c3xRPtvBwPST7nJLSgGOck0=",
+        "originContent": "9.  View the results, explanation, and your updated score.",
+        "translatedContent": "9. 查看结果、解释及更新后的分数。"
+      },
+      {
+        "row": 81,
+        "rowsha": "5BfnswLNcGyRf6NtkeLsznfmd7YViZ9b2dCUvAA5Qb4=",
+        "originContent": "10. Use the \"Load Next Challenge\" button (on the results page) or the \"New Challenge\" button (next to the difficulty dropdown) to get a new challenge.",
+        "translatedContent": "10. 在结果页点击“加载下一个挑战”按钮，或在难度下拉旁点击“新挑战”按钮获取新挑战。"
+      },
+      {
+        "row": 82,
+        "rowsha": "SLo1Uw/crU3tXuJopCSw3BnWjkD1jn+kGoyAdpeMLn8=",
+        "originContent": "11. Check your progress on the \"Profile\" page and see rankings on the \"Scoreboard\" (both accessible from the \"My Account\" dropdown).",
+        "translatedContent": "11. 在“个人资料”页面查看进度，在“排行榜”查看排名（两者均可通过“我的账户”下拉菜单访问）。"
+      },
+      {
+        "row": 83,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 84,
+        "rowsha": "HvkwNudYOlwL8j/t4djBVF3hUJwHWa2r5QjmSxgq3AA=",
+        "originContent": "## Acknowledgements",
+        "translatedContent": "## 致谢"
+      },
+      {
+        "row": 85,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 86,
+        "rowsha": "8bnR35h1JMak5Ipm3DS0QU4HbCPG/T4zyegkonpGtVk=",
+        "originContent": "* The challenge dataset used in this project is based on the [MegaVul dataset](https://github.com/Icyrockton/MegaVul) created by Icyrockton.",
+        "translatedContent": "* 本项目所用挑战数据集基于 Icyrockton 创建的 [MegaVul 数据集](https://github.com/Icyrockton/MegaVul)。"
+      },
+      {
+        "row": 87,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 88,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## 贡献"
+      },
+      {
+        "row": 89,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 90,
+        "rowsha": "fjZu7GDqeXe6OIAhdXVocOANaIyqEG88bz8vxkH1njU=",
+        "originContent": "Contributions are welcome! Please feel free to submit pull requests or open issues for bugs, feature requests, or improvements.",
+        "translatedContent": "欢迎贡献！请随时提交拉取请求或打开问题报告 bug、功能请求或改进建议。"
+      },
+      {
+        "row": 91,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 92,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 许可证"
+      },
+      {
+        "row": 93,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 94,
+        "rowsha": "L87r9qooQ5i9nKdOWUmIgCas3w6eiAxQNpLHtVxRfHo=",
+        "originContent": "This project is licensed under the MIT License - see the [LICENSE.md](https://raw.githubusercontent.com/20urc3/auditor.codes/main/LICENSE.md) file for details.",
+        "translatedContent": "本项目采用 MIT 许可证 - 详情请参阅 [LICENSE.md](https://raw.githubusercontent.com/20urc3/auditor.codes/main/LICENSE.md) 文件。"
+      },
+      {
+        "row": 95,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
