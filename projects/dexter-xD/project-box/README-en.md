@@ -1,3 +1,33 @@
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
+
 # C Programming Projects Collection
 
 [![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)
@@ -67,6 +97,7 @@ A simple compiler that takes arithmetic expressions as input and generates assem
 - Lexical analysis (tokenization)
 - Parsing and evaluation of expressions
 - Assembly code generation
+
 - Compiler construction fundamentals
 
 ### 10. [Asteroid Game](asteroid-game/)
@@ -98,44 +129,44 @@ To get started with any project:
 - G++ compiler (for C++ projects)
 - Make utility
 - CMake (for C/C++ projects)
-- Basic understanding of C/C++ programming  
-- For network projects: understanding of basic networking concepts  
+- Basic understanding of C/C++ programming
+- For network projects: understanding of basic networking concepts
 
-## Recommended Book  
+## Recommended Book
 
-To get started with C programming, I recommend this comprehensive book:  
-[The C Programming Language](https://amzn.to/3F2Y1Zl) - A must-have resource for learning C programming fundamentals and best practices.  
+To get started with C programming, I recommend this comprehensive book:
+[The C Programming Language](https://amzn.to/3F2Y1Zl) - A must-have resource for learning C programming fundamentals and best practices.
 
-## Learning Path  
+## Learning Path
 
-These projects are arranged in order of increasing complexity:  
+These projects are arranged in order of increasing complexity:
 
-1. Start with Tic-Tac-Toe for basic programming concepts  
-2. Move to SHA-512 for algorithm implementation  
-3. Try the UDP Server-Client for basic networking  
-4. Progress to HTTP Server and Chat System for more complex networking  
-5. Finally, explore Port Scanner and Ping for advanced networking concepts  
+1. Start with Tic-Tac-Toe for basic programming concepts
+2. Move to SHA-512 for algorithm implementation
+3. Try the UDP Server-Client for basic networking
+4. Progress to HTTP Server and Chat System for more complex networking
+5. Finally, explore Port Scanner and Ping for advanced networking concepts
 
-## Contributing  
+## Contributing
 
-Feel free to:  
-- Report bugs  
-- Suggest improvements  
-- Add new features  
-- Create new projects  
-- Improve documentation  
+Feel free to:
+- Report bugs
+- Suggest improvements
+- Add new features
+- Create new projects
+- Improve documentation
 
-## License  
+## License
 
-This project is open source and available for learning purposes.  
+This project is open source and available for learning purposes.
 
-## Note  
+## Note
 
-Some network-related projects (Port Scanner, Ping) require root/administrator privileges to run due to the use of raw sockets. Always use these tools responsibly and only on networks you have permission to test.  
+Some network-related projects (Port Scanner, Ping) require root/administrator privileges to run due to the use of raw sockets. Always use these tools responsibly and only on networks you have permission to test.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-14
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
 
 ---

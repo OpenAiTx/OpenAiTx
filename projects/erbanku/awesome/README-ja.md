@@ -998,297 +998,298 @@
 ## Markdown 
 
 - [Schweinepriester/github-profile-achievements](https://github.com/Schweinepriester/github-profile-achievements) - GitHubプロフィールで入手可能な実績一覧コレクション 🏆
-- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) - お気に入りのテクノロジーをゼロから再現してプログラミングを極めるプロジェクト。
-- [jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command) - Linuxコマンド大全検索ツール。内容にはLinuxコマンドマニュアル、詳細解説、学習、収集が含まれます。https://git.io/linux
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) - お気に入りの技術を一から再現してプログラミングを極めよう。
+- [jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command) - Linuxコマンド大全検索ツール、内容はLinuxコマンドマニュアル、詳細解説、学習、収集を含む。https://git.io/linux
 - [MicrosoftDocs/azure-docs](https://github.com/MicrosoftDocs/azure-docs) - Microsoft Azureのオープンソースドキュメント
-- [tldr-pages/tldr](https://github.com/tldr-pages/tldr) - 📚 コンソールコマンドのための協力型チートシート集
+- [tldr-pages/tldr](https://github.com/tldr-pages/tldr) - 📚 コンソールコマンドの共同チートシート
 - [microsoft/vscode-docs](https://github.com/microsoft/vscode-docs) - Visual Studio Codeの公開ドキュメント
 
 ## Mermaid 
 
-- [v2fly/v2ray-examples](https://github.com/v2fly/v2ray-examples) - v2ray-coreのテンプレート集
+- [v2fly/v2ray-examples](https://github.com/v2fly/v2ray-examples) - v2ray-core のテンプレート集
 
 ## Meson 
 
-- [elementary/wallpapers](https://github.com/elementary/wallpapers) - elementary OS用の壁紙コレクション
+- [elementary/wallpapers](https://github.com/elementary/wallpapers) - elementary OS用壁紙のコレクション
 
 ## Objective-C 
 
-- [MustangYM/WeChatExtension-ForMac](https://github.com/MustangYM/WeChatExtension-ForMac) - Mac版WeChat向けプラグイン
+- [MustangYM/WeChatExtension-ForMac](https://github.com/MustangYM/WeChatExtension-ForMac) - Mac版WeChat用プラグイン
 
-## その他 
+## Others 
 
+- [MoonshotAI/Kimi-K2](https://github.com/MoonshotAI/Kimi-K2) - Kimi K2はMoonshot AIチームによって開発された大型言語モデルシリーズ
 - [krishnr/MATLAB-cheat-sheet](https://github.com/krishnr/MATLAB-cheat-sheet) - MATLABのクイックリファレンスシート
 - [lTbgykio/Books-Free-Books](https://github.com/lTbgykio/Books-Free-Books) - 無料書籍まとめ。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
-- [LOWERTOP/Shadowrocket-First](https://github.com/LOWERTOP/Shadowrocket-First) - シャドウロケットの配色と設定
-- [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Trae AI & Cluely (および他のオープンソース)のシステムプロンプト、ツール、AIモデル集。
+- [LOWERTOP/Shadowrocket-First](https://github.com/LOWERTOP/Shadowrocket-First) - Shadowrocketの配色と設定
+- [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - FULL v0、Cursor、Manus、Same.dev、Lovable、Devin、Replit Agent、Windsurf Agent、VSCode Agent、Dia Browser、Trae AI & Cluely（その他のオープンソース）システムプロンプト、ツール、AIモデル。
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - MCPサーバーのコレクション。
-- [zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization) - 150歳まで健康学習 - 人体システム最適化不完全ガイド
-- [SpaceTimee/Fusion-JetBrainsMapleMono](https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono) - JetBrains Maple Mono: JetBrains MonoとMaple Monoを融合した無料・オープンソースフォント
+- [zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization) - 健康的に150歳まで学び続ける - 人体システム最適化不完全ガイド
+- [SpaceTimee/Fusion-JetBrainsMapleMono](https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono) - JetBrains Maple Mono: JetBrains MonoとMaple Monoを融合した無料のオープンソースフォント
 - [ZJU-LLMs/Foundations-of-LLMs](https://github.com/ZJU-LLMs/Foundations-of-LLMs) - 
-- [IQAQI233/611Study.ICU](https://github.com/IQAQI233/611Study.ICU) - 現在、中国の高校生の多くは6時から23時まで週6日勉強を強いられています。多くの学生が自殺または深刻な精神的健康問題を抱えています。プロジェクト996.iに触発されました。
-- [VIP-Share/Baidu-XunleiVIP](https://github.com/VIP-Share/Baidu-XunleiVIP) - 百度ネットディスクのスーパーメンバー、迅雷メンバー、iQIYIメンバーのアカウントを毎日共有。他にYouku、Tencent、MangoなどのVIPも。さらに百度ネットディスク(百度雲)の速度制限解除ツールも共有。
-- [pengsida/learning_research](https://github.com/pengsida/learning_research) - 自身の研究経験
-- [wgwang/awesome-LLMs-In-China](https://github.com/wgwang/awesome-LLMs-In-China) - 中国の大規模言語モデル
+- [IQAQI233/611Study.ICU](https://github.com/IQAQI233/611Study.ICU) - 現代の中国の高校生はほとんどが6時から23時まで週6日間611（勉強）を強いられている。悲しいことに多くの学生が自殺したり深刻な精神健康問題を抱えている。プロジェクト996.iに触発されて
+- [VIP-Share/Baidu-XunleiVIP](https://github.com/VIP-Share/Baidu-XunleiVIP) - 百度網盤スーパー会員、迅雷会員、愛奇芸会員アカウントを毎日共有、さらに優酷、テンセント、マンゴーなどのVIPも。さらに百度網盤(百度クラウド)無制限速度ツール共有。
+- [pengsida/learning_research](https://github.com/pengsida/learning_research) - 私の研究経験
+- [wgwang/awesome-LLMs-In-China](https://github.com/wgwang/awesome-LLMs-In-China) - 中国の大型言語モデル
 - [JnuSimba/MiscSecNotes](https://github.com/JnuSimba/MiscSecNotes) - Webアプリケーションセキュリティ、ペネトレーションテストに関する学習ノート
-- [P3TERX/GeoLite.mmdb](https://github.com/P3TERX/GeoLite.mmdb) - MaxMindのGeoIP2 GeoLite2 Country, City, ASNデータベース
-- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers) - 🚀 無料サブスクリプションアドレス、🚀 無料ノード、🚀 6時間ごとに更新、共有ノード、高品質ノード、完全無料。Clash用無料サブスクリプション、無料でVPN/科学上網/プロキシ/ss/v2ray/trojanノード、Google Play、プロキシ。🚀
-- [billmei/every-chatgpt-gui](https://github.com/billmei/every-chatgpt-gui) - ChatGPT、Claude、他LLM用の全てのフロントエンドGUIクライアント
-- [zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare) - ⛅️ Cloudflareツール、オープンソースプロジェクト、ガイド、ブログ、その他リソースの厳選リスト。/ ⛅️
+- [P3TERX/GeoLite.mmdb](https://github.com/P3TERX/GeoLite.mmdb) - MaxMindのGeoIP2 GeoLite2国別、都市別、ASNデータベース
+- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers) - 🚀 無料購読アドレス、🚀 無料ノード、🚀 6時間ごとに更新、共有ノード、高品質ノード、完全無料。無料clash購読アドレス、無料翻訳、無料科学的インターネット接続、無料プロキシ、無料ss/v2ray/trojanノード、Googleストア、翻訳プロキシ。🚀 Free subscription address, 🚀 Free node, 🚀 Updated every 6 hours, shared node, high-quality node
+- [billmei/every-chatgpt-gui](https://github.com/billmei/every-chatgpt-gui) - ChatGPT、Claude、その他LLM用の全てのフロントエンドGUIクライアント
+- [zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare) - ⛅️ 厳選されたCloudflareツール、オープンソースプロジェクト、ガイド、ブログ、その他のリソース一覧。/ ⛅️ A curated list of Cloudflare tools, open source projects, guides, blogs and other resources.
 - [zbezj/HEU_KMS_Activator](https://github.com/zbezj/HEU_KMS_Activator) - 
-- [tuna/issues](https://github.com/tuna/issues) - コードに関係のない課題
-- [bamf2077/secure-dns](https://github.com/bamf2077/secure-dns) - Appleデバイス向け安全なDNS設定プロファイル。iOS、iPadOS、macOS用のDoH・DoT設定。
-- [TsinghuaMemes/TsinghuaMemes](https://github.com/TsinghuaMemes/TsinghuaMemes) - グループチャットで友人の話が分からなくならないために
-- [mlabonne/llm-course](https://github.com/mlabonne/llm-course) - 大規模言語モデル(LLM)の入門コース。ロードマップとColabノート付き。
-- [maxujie/awesome-tsinghua](https://github.com/maxujie/awesome-tsinghua) - 清華大学（Tsinghua University）関連の面白いリポジトリ集
-- [easychen/lean-side-bussiness](https://github.com/easychen/lean-side-bussiness) - 精益副業：プログラマーが優雅に副業する方法
-- [Wsky51/THU-CS912-kaoyan](https://github.com/Wsky51/THU-CS912-kaoyan) - 清華大学計算機912院試の過去問、学部試験、関連コースPPT
-- [MerlinKodo/clash-rev](https://github.com/MerlinKodo/clash-rev) - Clash coreプロジェクトの継続
+- [tuna/issues](https://github.com/tuna/issues) - コードに関係ない問題
+- [bamf2077/secure-dns](https://github.com/bamf2077/secure-dns) - Appleデバイス向け安全DNS構成プロファイル。DNS over HTTPS (DoH) & DNS over TLS (DoT)設定プロファイル for iOS, iPadOS & macOS.
+- [TsinghuaMemes/TsinghuaMemes](https://github.com/TsinghuaMemes/TsinghuaMemes) - グループチャットで友達の話が理解できないときのために
+- [mlabonne/llm-course](https://github.com/mlabonne/llm-course) - 大型言語モデル（LLMs）入門コース、ロードマップとColabノートブック付き。
+- [maxujie/awesome-tsinghua](https://github.com/maxujie/awesome-tsinghua) - 清華大学関連の面白いリポジトリまとめ
+- [easychen/lean-side-bussiness](https://github.com/easychen/lean-side-bussiness) - リーン副業：プログラマーが優雅に副業をする方法
+- [Wsky51/THU-CS912-kaoyan](https://github.com/Wsky51/THU-CS912-kaoyan) - 清華大学コンピュータ系912大学院入試過去問、清華学部生試験問題および関連コースppt
+- [MerlinKodo/clash-rev](https://github.com/MerlinKodo/clash-rev) - Clashコアプロジェクトの継続
 - [THU-feiyue/docs](https://github.com/THU-feiyue/docs) - 清華大学飛躍マニュアル
-- [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) - 🦄 🎃 👻 V2Rayルーティングルールファイル強化版。公式geoip.dat/geosite.datの代替、V2Ray、Xray-core、mihomo(Clash-Meta)、hysteria、Trojan-Go、leaf等に対応。Enhanced edition of V2Ray rules dat files, applicable to V2Ray, Xray-core, m
-- [huaweiii/HWGaussDB](https://github.com/huaweiii/HWGaussDB) - 滑伪 GaussDBデータベース - 完全自社開発、海外の独占を打破、PostgreSQLより600%高速。
-- [cloudcommunity/Cloud-Free-Tier-Comparison](https://github.com/cloudcommunity/Cloud-Free-Tier-Comparison) - AWS, Azure, GCP, Oracleなど主要クラウドのフリーティア比較
-- [iamshuaidi/CS-Book](https://github.com/iamshuaidi/CS-Book) - コンピューター関連電子書籍整理・ダウンロードリンク付き。Java、Python、Linux、Go、C、C++、データ構造・アルゴリズム、AI、基礎、面接、デザインパターン、DB、フロントエンドなど。
-- [immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate) - 没入型バイリンガルWebページ翻訳拡張。入力欄翻訳、マウスホバー翻訳、PDF/Epub/字幕/TXTファイル翻訳対応。
-- [megaease/Remembering-Haoel](https://github.com/megaease/Remembering-Haoel) - 左耳朵耗子（陳皓）さんへの思い出記録
-- [cursor/cursor](https://github.com/cursor/cursor) - AIコードエディター
-- [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) - Awesome-LLM: 大規模言語モデル関連の厳選リスト
-- [dalinvip/Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT) - ChatGPT関連資料のまとめ・学習、継続更新中......
-- [v2fly/v2ray-step-by-step](https://github.com/v2fly/v2ray-step-by-step) - ToutyRater/v2ray-guideのフォーク。新しいv2rayステップバイステップガイドを提供します。
-- [davinci1010/pinduoduo_backdoor](https://github.com/davinci1010/pinduoduo_backdoor) - 拼多多apkの埋め込み権限昇格コードと動的配信dexの解析
-- [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - ChatGPT中国語プロンプトガイド。様々なシーンの使用例。GPTの使いこなし方を学ぶ。
-- [noobnooc/noobnooc](https://github.com/noobnooc/noobnooc) - マイプロフィール
+- [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) - 🦄 🎃 👻 V2Rayルールファイル強化版。V2Ray公式のgeoip.datとgeosite.datの代替となり、V2Ray、Xray-core、mihomo(Clash-Meta)、hysteria、Trojan-Go、leafに対応。Enhanced edition of V2Ray rules dat files, applicable to V2Ray, Xray-core, m
+- [huaweiii/HWGaussDB](https://github.com/huaweiii/HWGaussDB) - Huawei GaussDBデータベース - 完全自社開発、海外の独占を破り、PostgreSQLより600%高速。
+- [cloudcommunity/Cloud-Free-Tier-Comparison](https://github.com/cloudcommunity/Cloud-Free-Tier-Comparison) - AWS、Azure、GCP、Oracleなど主要クラウドプロバイダの無料ティア比較。
+- [iamshuaidi/CS-Book](https://github.com/iamshuaidi/CS-Book) - コンピュータ関連の電子書籍整理、ダウンロードリンク付き。Java、Python、Linux、Go、C、C++、データ構造とアルゴリズム、AI、コンピュータ基礎、面接、デザインパターン、データベース、フロントエンドなど。
+- [immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate) - 没入型バイリンガルウェブページ翻訳拡張機能。入力欄翻訳、マウスオーバー翻訳、PDF、Epub、字幕ファイル、TXTファイル翻訳対応 - Immersive Dual Web Page Translation Extension
+- [megaease/Remembering-Haoel](https://github.com/megaease/Remembering-Haoel) - 左耳朵耗子（陳皓）への思い出を記録
+- [cursor/cursor](https://github.com/cursor/cursor) - AIコードエディタ
+- [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) - Awesome-LLM: 大型言語モデルの厳選リスト
+- [dalinvip/Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT) - ChatGPT資料まとめ学習、随時更新中……
+- [v2fly/v2ray-step-by-step](https://github.com/v2fly/v2ray-step-by-step) - このリポジトリはToutyRater/v2ray-guideのフォークであり、新しいv2rayのステップバイステップガイドを提供することを目的としています
+- [davinci1010/pinduoduo_backdoor](https://github.com/davinci1010/pinduoduo_backdoor) - 拼多多apkに埋め込まれた権限昇格コードと動的配信dex解析
+- [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - ChatGPT中国語調教ガイド。様々なシナリオ使用ガイド。どうやって従わせるか学ぶ。
+- [noobnooc/noobnooc](https://github.com/noobnooc/noobnooc) - 私のプロフィール
 - [jesselau76/GPT-Prompts](https://github.com/jesselau76/GPT-Prompts) - 便利なGPTプロンプト集
-- [humanloop/awesome-chatgpt](https://github.com/humanloop/awesome-chatgpt) - ChatGPT・GPT-3用の素晴らしいツール・デモ・ドキュメント厳選リスト
+- [humanloop/awesome-chatgpt](https://github.com/humanloop/awesome-chatgpt) - ChatGPTとGPT-3用の素晴らしいツール、デモ、ドキュメントの厳選リスト
 - [erbanku/erbanku](https://github.com/erbanku/erbanku) - 
-- [dukeluo/awesome-awesome-prompts](https://github.com/dukeluo/awesome-awesome-prompts) - プロンプトエンジニアリング関連の素晴らしいリストを集めたリスト
-- [mushan0x0/AI0x0.com](https://github.com/mushan0x0/AI0x0.com) - 多モーダル・多モデル汎用型グローバルAIクエリ生成デスクトップフローティングアシスタントアプリ
-- [apachecn/huazhang-econ-mgt-book](https://github.com/apachecn/huazhang-econ-mgt-book) - :book: 華章経営管理書シリーズ高解像度スキャン
-- [tuic-protocol/tuic](https://github.com/tuic-protocol/tuic) - 精巧に調整された0-RTTプロキシプロトコル
-- [Alice-space/PKU-OpenWrt](https://github.com/Alice-space/PKU-OpenWrt) - PKU環境でのOpenWrt設定方法
-- [eliaszon/Programmers-Overseas-Job-Interview-Handbook](https://github.com/eliaszon/Programmers-Overseas-Job-Interview-Handbook) - 🏂🏻 プログラマー海外就職/英語面接ハンドブック
-- [lukeed/awesome-cloudflare-workers](https://github.com/lukeed/awesome-cloudflare-workers) - 😎 素晴らしいCloudflare Workers集
-- [LUKE-ZZ/thuthesis-biomedical](https://github.com/LUKE-ZZ/thuthesis-biomedical) - 清華大学生物・医学・薬学等の卒業論文latexテンプレート。他学科にも対応。本・修・博論・ポスドク報告対応。tuna協会thuthesisプロジェクトをもとに内容と注釈を強化。
-- [oneclickearth/oneclick](https://github.com/oneclickearth/oneclick) - 科学上網/自由上網/プロキシ/ソフトウェア。2021年版科学上網ガイド
+- [dukeluo/awesome-awesome-prompts](https://github.com/dukeluo/awesome-awesome-prompts) - プロンプトエンジニアリングに関連した素晴らしいリストを収集した素晴らしいリスト。
+- [mushan0x0/AI0x0.com](https://github.com/mushan0x0/AI0x0.com) - 多モーダル多モデル汎用グローバル万能AI検索生成デスクトップフローティングアシスタントアプリ
+- [apachecn/huazhang-econ-mgt-book](https://github.com/apachecn/huazhang-econ-mgt-book) - :book: 華章経済管理シリーズ高解像度スキャン
+- [tuic-protocol/tuic](https://github.com/tuic-protocol/tuic) - Delicately-TUICed 0-RTTプロキシプロトコル
+- [Alice-space/PKU-OpenWrt](https://github.com/Alice-space/PKU-OpenWrt) - 北京大学でのOpenWrt設定方法
+- [eliaszon/Programmers-Overseas-Job-Interview-Handbook](https://github.com/eliaszon/Programmers-Overseas-Job-Interview-Handbook) - 🏂🏻 プログラマー海外就職・英語面接ハンドブック
+- [lukeed/awesome-cloudflare-workers](https://github.com/lukeed/awesome-cloudflare-workers) - 😎 素晴らしいCloudflare Workers
+- [LUKE-ZZ/thuthesis-biomedical](https://github.com/LUKE-ZZ/thuthesis-biomedical) - 清華大学の生物学、医学、薬学など関連専攻の卒業論文LaTeXテンプレート。他専攻にも適用可能。学士、修士、博士論文および博士後期報告に適している。本テンプレートはtuna協会のthuthesisプロジェクトを基に生医薬関連内容を追加し、LaTeX初心者により親切な注釈も付加。
+- [oneclickearth/oneclick](https://github.com/oneclickearth/oneclick) - 科学的インターネット接続/自由インターネット接続/翻訳ソフト、2021科学的インターネットガイド
 - [k88hudson/git-flight-rules](https://github.com/k88hudson/git-flight-rules) - gitのフライトルール
-- [rockbenben/LearnData](https://github.com/rockbenben/LearnData) - オープンソースツール、効率メソッド、心理学探索による自己成長ノート
-- [fredliu168/TheEconomist2022](https://github.com/fredliu168/TheEconomist2022) - The Economist 2022年号オンライン閲覧・音声付き。アクセスできない場合はhttp://157.230.57.119:8888を参照。
+- [rockbenben/LearnData](https://github.com/rockbenben/LearnData) - オープンソースツール、効率的手法、心理学探索の自己改善ノート
+- [fredliu168/TheEconomist2022](https://github.com/fredliu168/TheEconomist2022) - エコノミスト2022年刊行物オンライン閲覧、音声付き。ドメインにアクセスできない場合はhttp://157.230.57.119:8888へアクセスしてください。
 - [myseil/BingWallpaper](https://github.com/myseil/BingWallpaper) - Bingの毎日壁紙を収集
-- [Ethkuil/awesome-thu-student-software](https://github.com/Ethkuil/awesome-thu-student-software) - 主に清華大学在学生が開発/メンテナンスする実用オープンソースソフトウェア集
+- [Ethkuil/awesome-thu-student-software](https://github.com/Ethkuil/awesome-thu-student-software) - 主に清華大学在学生が開発・維持する実用的オープンソースソフトウェアを収録。
 - [HelinXu/THUDA-9](https://github.com/HelinXu/THUDA-9) - 清華大学自動化系コースノート
-- [DerDanilo/seafile-community-manual](https://github.com/DerDanilo/seafile-community-manual) - Seafile CE向けコミュニティマニュアル
-- [runvnc/dadsresume](https://github.com/runvnc/dadsresume) - 父の1980年の履歴書とスキル
-- [SurviveSJTU/SurviveSJTUManual](https://github.com/SurviveSJTU/SurviveSJTUManual) - 2008年版《上海交通大学サバイバルマニュアル》をhttps://survivesjtu.gitbook.io/survivesjtumanual/にて公開
-- [dy-sh/one-dark-potplayer-theme](https://github.com/dy-sh/one-dark-potplayer-theme) - Atom One DarkインスパイアのPotPlayer用スキン
+- [DerDanilo/seafile-community-manual](https://github.com/DerDanilo/seafile-community-manual) - Seafile CEのコミュニティマニュアル
+- [runvnc/dadsresume](https://github.com/runvnc/dadsresume) - 1980年の私の父の履歴書とスキル
+- [SurviveSJTU/SurviveSJTUManual](https://github.com/SurviveSJTU/SurviveSJTUManual) - 2008年版「上海交通大学生存マニュアル」更新版。gitbookで公開：https://survivesjtu.gitbook.io/survivesjtumanual/
+- [dy-sh/one-dark-potplayer-theme](https://github.com/dy-sh/one-dark-potplayer-theme) - Atom One DarkにインスパイアされたPotPlayer用スキン
 - [vscode-ext-studio/OneDark-Modern](https://github.com/vscode-ext-studio/OneDark-Modern) - 
-- [bighuang624/AI-research-tools](https://github.com/bighuang624/AI-research-tools) - :hammer:AI分野で使いやすい研究ツール
-- [jotaen/xit](https://github.com/jotaen/xit) - TODO・チェックリスト用プレーンテキストファイルフォーマット
-- [ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix) - 一般的なUNIXコマンドの現代的/高速/便利な代替ツール集
-- [opsre/Thanks-Mirror](https://github.com/opsre/Thanks-Mirror) - 各種パッケージマネージャ、システムミラー、一般ソフト用の便利なミラーまとめ。良ければスターを👆🌟
+- [bighuang624/AI-research-tools](https://github.com/bighuang624/AI-research-tools) - :hammer: AI分野で使える研究ツール
+- [jotaen/xit](https://github.com/jotaen/xit) - ToDoとチェックリスト用のプレーンテキストファイル形式
+- [ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix) - 一般的なUnixコマンドのモダンで高速かつ健全な代替集
+- [opsre/Thanks-Mirror](https://github.com/opsre/Thanks-Mirror) - 各パッケージマネージャー、システムミラー、よく使うソフトの便利なミラーまとめ、Thanks Mirror。通りすがりに良いと思ったらいいね👆🌟をお願いします
 - [KeiKinn/ShadowsocksBio](https://github.com/KeiKinn/ShadowsocksBio) - Shadowsocksの歴史と簡単なチュートリアルまとめ
-- [eryajf/awesome-github-profile-readme-chinese](https://github.com/eryajf/awesome-github-profile-readme-chinese) - 🦩 優秀な中国語プロフィールREADMEコレクション
-- [lesuixin/v2ray-cf](https://github.com/lesuixin/v2ray-cf) - v2ray＋Cloudflareを使ったドメイン不要の加速超初心者向けチュートリアル
-- [irazasyed/awesome-cloudflare](https://github.com/irazasyed/awesome-cloudflare) - ⛅️ 素晴らしいCloudflare Workerレシピ、オープンソースプロジェクト、ガイド、ブログ、その他リソースの厳選リスト
-- [PicGo/Awesome-PicGo](https://github.com/PicGo/Awesome-PicGo) - PicGoを使った素晴らしいプロジェクト集
-- [nicejade/nice-front-end-tutorial](https://github.com/nicejade/nice-front-end-tutorial) - 🌍  常に更新されるフロントエンドリソース・チュートリアル・意見（時代に合った前端リソース・チュートリアル・意見）
-- [eryajf/learning-weekly](https://github.com/eryajf/learning-weekly) - 📝 主に運用技術とGo言語関連の週刊。優れたプロジェクトや経験も紹介。ぜひStarを👆🌟
-- [dair-ai/ML-Course-Notes](https://github.com/dair-ai/ML-Course-Notes) - 🎓 機械学習コース・講義ノートの共有
-- [sirredbeard/awesome-wsl](https://github.com/sirredbeard/awesome-wsl) - Windows Subsystem for Linux専用の厳選リスト
-- [GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) - GitHub上の高品質・面白く実用的なオープンソース技術チュートリアル・開発者ツール・プログラミングサイト・技術情報を共有
-- [steam3d/MagicPods-Windows](https://github.com/steam3d/MagicPods-Windows) - AirPodsに少し魔法をプラス
-- [dair-ai/ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses) - 📺 最新の機械学習/AI関連YouTubeコースを発見
-- [ImCa0/just-laws](https://github.com/ImCa0/just-laws) - シンプルかつ便利な中国法律文庫 | A Simple and Convenient Laws Library of China.
+- [eryajf/awesome-github-profile-readme-chinese](https://github.com/eryajf/awesome-github-profile-readme-chinese) - 🦩 優秀な中国語圏の個人ホームページ集
+- [lesuixin/v2ray-cf](https://github.com/lesuixin/v2ray-cf) - v2rayでCloudflare無ドメイン加速初心者向けチュートリアル
+- [irazasyed/awesome-cloudflare](https://github.com/irazasyed/awesome-cloudflare) - ⛅️ 厳選されたCloudflare workerレシピ、オープンソースプロジェクト、ガイド、ブログ、その他のリソース。
+- [PicGo/Awesome-PicGo](https://github.com/PicGo/Awesome-PicGo) - PicGoを使った素晴らしいプロジェクトのコレクション。
+- [nicejade/nice-front-end-tutorial](https://github.com/nicejade/nice-front-end-tutorial) - 🌍 常に更新されるフロントエンドリソース、チュートリアル、意見（時代に合わせたフロントエンドリソース、チュートリアル、意見）
+- [eryajf/learning-weekly](https://github.com/eryajf/learning-weekly) - 📝 週刊内容は主に運用技術とGo言語周辺、加えてGitHubの優秀プロジェクトや他者の優れた経験。Starといいね、保存歓迎👆🌟
+- [dair-ai/ML-Course-Notes](https://github.com/dair-ai/ML-Course-Notes) - 🎓 機械学習コース・講義ノートの共有。
+- [sirredbeard/awesome-wsl](https://github.com/sirredbeard/awesome-wsl) - Windows Subsystem for Linuxに特化した素晴らしいリスト
+- [GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) - GitHub上の高品質で面白く実用的なオープンソース技術チュートリアル、開発ツール、プログラミングサイト、技術ニュースを継続的に共有。A list cool, interesting projects of GitHub.
+- [steam3d/MagicPods-Windows](https://github.com/steam3d/MagicPods-Windows) - Airpodsにちょっとした魔法を追加
+- [dair-ai/ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses) - 📺 YouTubeで最新の機械学習・AIコースを発見。
+- [ImCa0/just-laws](https://github.com/ImCa0/just-laws) - シンプルで便利な中国の法律ライブラリ | 中国の法律文書のシンプルかつ便利なライブラリです。
 - [github/codeql-cli-binaries](https://github.com/github/codeql-cli-binaries) - CodeQL CLI のバイナリ
-- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - インスピレーションを与えるリスト、マニュアル、チートシート、ブログ、ハック、ワンライナー、CLI/WEBツールなどのコレクション。
-- [brave/goggles-quickstart](https://github.com/brave/goggles-quickstart) - Gogglesについて学び、自分で作成する方法を学ぶための教材。
-- [iggredible/Learn-Vim](https://github.com/iggredible/Learn-Vim) - VimとVimscriptの学習は難しくない。あなたが探しているガイドです 📖
-- [fatalerror-i/ThuWordThesis](https://github.com/fatalerror-i/ThuWordThesis) - 清華大学学位論文Wordテンプレート。Tsinghua University用のWord学位論文テンプレート。
+- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - インスピレーションを与えるリスト、マニュアル、チートシート、ブログ、ハック、ワンライナー、CLI/Webツールなどのコレクション。
+- [brave/goggles-quickstart](https://github.com/brave/goggles-quickstart) - Gogglesについて学び、自分で作成する方法を学ぶための教育資料。
+- [iggredible/Learn-Vim](https://github.com/iggredible/Learn-Vim) - VimとVimscriptの学習は難しくありません。これがあなたが探しているガイドです 📖
+- [fatalerror-i/ThuWordThesis](https://github.com/fatalerror-i/ThuWordThesis) - 清華大学の学位論文用Wordテンプレート。
 - [pb0316/thuhole_memories](https://github.com/pb0316/thuhole_memories) - 
-- [jiegec/dcst-facts](https://github.com/jiegec/dcst-facts) - 清華大学DCSTの事実集
-- [microsoft/vscode-loc](https://github.com/microsoft/vscode-loc) - VS Code ローカライゼーション拡張
+- [jiegec/dcst-facts](https://github.com/jiegec/dcst-facts) - 清華大学DCSTの事実
+- [microsoft/vscode-loc](https://github.com/microsoft/vscode-loc) - VS Code ローカリゼーション拡張
 - [mangecoeur/AcademicMarkdown](https://github.com/mangecoeur/AcademicMarkdown) - 学術論文執筆のためのMarkdownEditing拡張
-- [linuxkerneltravel/linux_kernel_wiki](https://github.com/linuxkerneltravel/linux_kernel_wiki) - linuxカーネル学習資料：200以上のクラシックカーネル記事、100以上のカーネル論文、50以上のカーネルプロジェクト、500以上のカーネル面接問題、80以上のカーネル動画
+- [linuxkerneltravel/linux_kernel_wiki](https://github.com/linuxkerneltravel/linux_kernel_wiki) - Linuxカーネル学習資料：200+のクラシックカーネル記事、100+のカーネル論文、50+のカーネルプロジェクト、500+のカーネル面接問題、80+のカーネル動画
 - [GyanD/codexffmpeg](https://github.com/GyanD/codexffmpeg) - https://www.gyan.dev/ffmpeg のサポート
-- [scottclowe/matlab-schemes](https://github.com/scottclowe/matlab-schemes) - MATLAB用カラースキームのコレクション
-- [skyiea/rememberry-i10n](https://github.com/skyiea/rememberry-i10n) - Rememberryのローカライゼーション
-- [rzashakeri/beautify-github-profile](https://github.com/rzashakeri/beautify-github-profile) - より美しく魅力的なGitHubプロフィールを作成するためのリポジトリ。プロフィール美化用の幅広いツールやチュートリアルを利用できます。
+- [scottclowe/matlab-schemes](https://github.com/scottclowe/matlab-schemes) - MATLAB用カラースキーム集
+- [skyiea/rememberry-i10n](https://github.com/skyiea/rememberry-i10n) - Rememberryのローカリゼーション
+- [rzashakeri/beautify-github-profile](https://github.com/rzashakeri/beautify-github-profile) - GitHubプロフィールをより美しく魅力的にする支援リポジトリ。プロフィール美化のためのツールやチュートリアルが揃っています。
 - [Jonezhen/CSBook](https://github.com/Jonezhen/CSBook) - 
-- [ripperhe/Bob](https://github.com/ripperhe/Bob) - BobはmacOSプラットフォーム用の翻訳・OCRソフトです。
-- [SwiftOldDriver/iOS-Weekly](https://github.com/SwiftOldDriver/iOS-Weekly) - 🇨🇳 ベテラン技術者のiOS週報
-- [comwrg/package-manager-proxy-settings](https://github.com/comwrg/package-manager-proxy-settings) - 各種パッケージマネージャのプロキシ設定の落とし穴記録。
-- [liuchengxu/git-commit-emoji-cn](https://github.com/liuchengxu/git-commit-emoji-cn) - 😁 git commitメッセージ用絵文字ガイド
-- [aishalih/sfwin](https://github.com/aishalih/sfwin) - SFWin — Windows 10および非Appleプラットフォーム用のSan Franciscoフォント。
-- [aooiuu/z-reader](https://github.com/aooiuu/z-reader) - 📘 [vscodeプラグイン] 小説リーダー。オンライン検索・ローカル読書に対応。txt・epub形式対応。
-- [inkscape/inkscape](https://github.com/inkscape/inkscape) - プロジェクト公式サイト: https://inkscape.org - コードリポジトリ: https://gitlab.com/inkscape/inkscape - 自由に描こう。🖌
+- [ripperhe/Bob](https://github.com/ripperhe/Bob) - BobはmacOSプラットフォーム向けの翻訳およびOCRソフトウェアです。
+- [SwiftOldDriver/iOS-Weekly](https://github.com/SwiftOldDriver/iOS-Weekly) - 🇨🇳 熟練者向け技術iOS週刊
+- [comwrg/package-manager-proxy-settings](https://github.com/comwrg/package-manager-proxy-settings) - 各種パッケージマネージャーのプロキシ設定の罠を記録。
+- [liuchengxu/git-commit-emoji-cn](https://github.com/liuchengxu/git-commit-emoji-cn) - 😁 gitコミットメッセージ絵文字使用ガイド
+- [aishalih/sfwin](https://github.com/aishalih/sfwin) - SFWin — Windows 10および非Appleプラットフォーム向けのサンフランシスコフォント。
+- [aooiuu/z-reader](https://github.com/aooiuu/z-reader) - 📘 [VSCodeプラグイン] 小説リーダー、オンライン検索とローカル読書をサポート、txtとepub形式対応
+- [inkscape/inkscape](https://github.com/inkscape/inkscape) - プロジェクトウェブサイト: https://inkscape.org - コードリポジトリ: https://gitlab.com/inkscape/inkscape - 自由に描く。🖌
 - [taunoe/arduino-dark-theme](https://github.com/taunoe/arduino-dark-theme) - Arduinoダークテーマ！
-- [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules) - 🦄️ 🎃 👻 Clash Premium ルールセット(RULE-SET)。ClashX Pro、Clash for WindowsなどClash Premiumコアクライアント互換。
-- [sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines) - より良い書き方のための中国語コピーライティングガイド／中文文案排版指北
+- [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules) - 🦄️ 🎃 👻 Clash Premium ルールセット(RULE-SET)、ClashX Pro、Clash for WindowsなどClash Premiumコアベースのクライアントと互換性あり。
+- [sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines) - より良い文章コミュニケーションのための中国語コピーライティングガイドライン／中文文案レイアウトガイド
 - [woct0rdho/pkuholebackup](https://github.com/woct0rdho/pkuholebackup) - 
 - [Keldos-Li/typora-latex-theme-fonts](https://github.com/Keldos-Li/typora-latex-theme-fonts) - 
-- [geekan/HowToLiveLonger](https://github.com/geekan/HowToLiveLonger) - プログラマー長寿ガイド | A programmer's guide to live longer
+- [geekan/HowToLiveLonger](https://github.com/geekan/HowToLiveLonger) - プログラマーの長生きガイド | A programmer's guide to live longer
 - [gaocegege/my-github-status](https://github.com/gaocegege/my-github-status) - 
-- [fat0troll/terminalus](https://github.com/fat0troll/terminalus) - Terminal.appテーマ。Termius iOSアプリのカラースキームにインスパイア。
-- [clarketm/proxy-list](https://github.com/clarketm/proxy-list) - 無料・公開・フォワードプロキシサーバーリスト。毎日更新！
-- [ShiftyTR/Proxy-List](https://github.com/ShiftyTR/Proxy-List) - 無料プロキシリストを毎時更新！-- APIは
+- [fat0troll/terminalus](https://github.com/fat0troll/terminalus) - Terminal.app用テーマ、Termius iOSアプリのカラースキームに触発
+- [clarketm/proxy-list](https://github.com/clarketm/proxy-list) - 無料で公開されているフォワードプロキシサーバーのリスト。毎日更新！
+- [ShiftyTR/Proxy-List](https://github.com/ShiftyTR/Proxy-List) - 無料プロキシリスト、毎時更新！ -- API利用可能
 - [623637646/996.Leave](https://github.com/623637646/996.Leave) - 996からの脱出
-- [The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run) - 潤学公式GITHUB。潤学の理念・綱領・理論・各種実例整理。なぜ潤うか、どこへ行くか、どう潤うかの三大問題解決。新中国人の中核宗教・信念となる。
+- [The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run) - 「润学」世界公式GitHub、润学の宗旨、綱領、理論や各種润の実例を整理；なぜ润するのか、どこへ润するのか、どう润するのかの三大疑問を解決；新中国人のコア宗教、コア信念となる。
 - [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) - プロジェクトベースのチュートリアル厳選リスト
-- [veeral-patel/how-to-secure-anything](https://github.com/veeral-patel/how-to-secure-anything) - 何でも体系的にセキュリティ保護する方法：セキュリティエンジニアリングに関するリポジトリ
-- [ossu/data-science](https://github.com/ossu/data-science) - 📊 データサイエンスを独学で学ぶための道筋！
-- [lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions) - (高度な)JavaScript質問とその解説の長いリスト :sparkles:
-- [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) - JS言語についての書籍シリーズ（2つの版を出版）。
+- [veeral-patel/how-to-secure-anything](https://github.com/veeral-patel/how-to-secure-anything) - 何でも体系的にセキュアにする方法：セキュリティエンジニアリングに関するリポジトリ
+- [ossu/data-science](https://github.com/ossu/data-science) - 📊 データサイエンスの無料独学パス！
+- [lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions) - (上級)JavaScriptの質問リストとその解説 :sparkles:
+- [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) - JS言語に関する書籍シリーズ（2版刊行済み）。
 - [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - ソフトウェアエンジニアになるための完全なコンピュータサイエンス学習計画。
-- [DhanushNehru/Ultimate-NodeJs-Resources](https://github.com/DhanushNehru/Ultimate-NodeJs-Resources) - Node Jsに関連するすべてのリソースを一箇所に集約
-- [Paladinfeng/MiaoProject](https://github.com/Paladinfeng/MiaoProject) - Miaoプロジェクト バグ報告
-- [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) - コーディングスキル向上に役立つアプリケーションアイデア集
-- [warpdotdev/Warp](https://github.com/warpdotdev/Warp) - Warpは、複数のAIエージェントによるコーディングのためのエージェンティック開発環境です。
-- [Infatuation-Fei/rule](https://github.com/Infatuation-Fei/rule) - 自分用ルール
+- [DhanushNehru/Ultimate-NodeJs-Resources](https://github.com/DhanushNehru/Ultimate-NodeJs-Resources) - Node Jsに関する全リソースを一箇所にまとめたもの
+- [Paladinfeng/MiaoProject](https://github.com/Paladinfeng/MiaoProject) - Miaoプロジェクトのバグ報告
+- [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) - コーディングスキル向上のために使えるアプリケーションアイデア集。
+- [warpdotdev/Warp](https://github.com/warpdotdev/Warp) - Warpは複数のAIエージェントとコーディングするためのエージェント開発環境です。
+- [Infatuation-Fei/rule](https://github.com/Infatuation-Fei/rule) - 自用ルール
 - [MicrosoftDocs/WSL](https://github.com/MicrosoftDocs/WSL) - Windows Subsystem for Linuxドキュメントのソースコード。
-- [Serendipity-Theme/windows-terminal](https://github.com/Serendipity-Theme/windows-terminal) - SerendipityテーマをWindows Terminalに移植。
-- [Serendipity-Theme/vs-code](https://github.com/Serendipity-Theme/vs-code) - リラックスした、穏やかでモダンなテーマ。
+- [Serendipity-Theme/windows-terminal](https://github.com/Serendipity-Theme/windows-terminal) - SerendipityテーマのWindows Terminal移植版。
+- [Serendipity-Theme/vs-code](https://github.com/Serendipity-Theme/vs-code) - リラックスした、優しくモダンなテーマ。
 - [Serendipity-Theme/template-for-repositories](https://github.com/Serendipity-Theme/template-for-repositories) - 移植テーマ用テンプレート
-- [xuehu54321/awesome-music-for-programming](https://github.com/xuehu54321/awesome-music-for-programming) - プログラミングに最適な音楽集。プログラミング中に聴く音楽をシェアしよう！
-- [soulteary/docker-flare](https://github.com/soulteary/docker-flare) - Flare ✨ 軽量・高性能・高速なセルフホスト型ナビゲーションページ。リソース使用率 <1% CPU、MEM <30M、Dockerイメージ <10M
-- [jCodeLife/mind-map](https://github.com/jCodeLife/mind-map) - 🖼個人用マインドマップノート。JS、TS、Vue、React...を整理。継続更新中、PRやStart歓迎~
-- [coder2gwy/coder2gwy](https://github.com/coder2gwy/coder2gwy) - インターネット初のプログラマー公務員試験ガイド。体制内に入った元大手ITプログラマー3名が共同制作。
+- [xuehu54321/awesome-music-for-programming](https://github.com/xuehu54321/awesome-music-for-programming) - プログラミングに最適な音楽集。プログラミング中に聴く良い音楽をみんなで共有しよう！
+- [soulteary/docker-flare](https://github.com/soulteary/docker-flare) - Flare ✨ 軽量で高性能な自己ホスト型ナビゲーションページ。リソース使用率CPU&lt;1%、メモリ&lt;30MB、Dockerイメージ&lt;10MB
+- [jCodeLife/mind-map](https://github.com/jCodeLife/mind-map) - 🖼 個人のマインドマップノート。JS、TS、Vue、Reactなど整理済み。継続更新中、PRとスター歓迎〜
+- [coder2gwy/coder2gwy](https://github.com/coder2gwy/coder2gwy) - インターネット初のプログラマー公務員試験ガイド、元大手企業プログラマー3名による共同提供。
 - [georgezzzh/homepage](https://github.com/georgezzzh/homepage) - 
-- [996icu/996.ICU](https://github.com/996icu/996.ICU) - スター数カウントと貢献のためのリポジトリ。栄光の開発者へ敬意を表してFキーを押してください。
-- [danyspin97/TelegramBotsList](https://github.com/danyspin97/TelegramBotsList) - GitHubでホストされている全Telegramボットのリスト。
-- [GorvGoyl/Clone-Wars](https://github.com/GorvGoyl/Clone-Wars) - AirbnbやAmazon、Instagram、Netflix、Tiktok、Spotify、Whatsapp、Youtube等の人気サイトのオープンソースクローン100以上。ソースコード・デモリンク・技術スタック・GitHubスターあり。
-- [github/gitignore](https://github.com/github/gitignore) - 便利な.gitignoreテンプレートのコレクション
+- [996icu/996.ICU](https://github.com/996icu/996.ICU) - スターとコントリビュート用リポジトリ。偉大な開発者に敬意を表してFを押してください。
+- [danyspin97/TelegramBotsList](https://github.com/danyspin97/TelegramBotsList) - GitHubでホストされているすべてのTelegramボットのソースリスト。
+- [GorvGoyl/Clone-Wars](https://github.com/GorvGoyl/Clone-Wars) - Airbnb、Amazon、Instagram、Netflix、Tiktok、Spotify、Whatsapp、Youtubeなど人気サイトの100+オープンソースクローン。ソースコード、デモリンク、技術スタック、GitHubスターあり。
+- [github/gitignore](https://github.com/github/gitignore) - 便利な.gitignoreテンプレート集
 - [gqcn/effective-go-zh-en](https://github.com/gqcn/effective-go-zh-en) - 『Effective Go』中英バイリンガル版
-- [sublime-china/sublime-merge-chinese](https://github.com/sublime-china/sublime-merge-chinese) - Sublime Merge 中国語化版
-- [facelessuser/merge-dracula-theme](https://github.com/facelessuser/merge-dracula-theme) - Sublime Merge Draculaテーマ
-- [konrad91/OneDarkArduino](https://github.com/konrad91/OneDarkArduino) - Arduino IDE用ダークテーマ。VSCodeのOne Dark Proにインスパイア。
-- [AbhishekGhosh/Arduino-Themes](https://github.com/AbhishekGhosh/Arduino-Themes) - コミュニティ作成のArduino IDEテーマ集
-- [shengcaishizhan/kkndme_tianya](https://github.com/shengcaishizhan/kkndme_tianya) - 天涯 kkndme 神スレ住宅価格トーク
-- [axipo/TrafficBlackhole](https://github.com/axipo/TrafficBlackhole) - ネットワーク品質＆プロキシサービスベンチ
-- [bestxtools/weekly-cn](https://github.com/bestxtools/weekly-cn) - 面白く、創造的で、無料・便利なツールを発見・共有。毎週木曜発行。
-- [coderit666/GoGuide](https://github.com/coderit666/GoGuide) - 「Go言語学習ガイド」Golangプログラマーが習得すべきコア知識を網羅。Goチュートリアル・入門・学習ルート・オープン書籍。ゼロから学ぶGo言語、Goプログラミングの最初の選択肢。
+- [sublime-china/sublime-merge-chinese](https://github.com/sublime-china/sublime-merge-chinese) - Sublime Mergeの中国語化版
+- [facelessuser/merge-dracula-theme](https://github.com/facelessuser/merge-dracula-theme) - Sublime Merge用ドラキュラテーマ
+- [konrad91/OneDarkArduino](https://github.com/konrad91/OneDarkArduino) - Arduino IDE用ダークテーマ、VSCodeのOne Dark Proに触発
+- [AbhishekGhosh/Arduino-Themes](https://github.com/AbhishekGhosh/Arduino-Themes) - コミュニティ制作のArduino IDEテーマコレクション
+- [shengcaishizhan/kkndme_tianya](https://github.com/shengcaishizhan/kkndme_tianya) - 天涯 kkndme 神スレッドで住宅価格を語る
+- [axipo/TrafficBlackhole](https://github.com/axipo/TrafficBlackhole) - ネットワーク品質＆プロキシサービスベンチマーク
+- [bestxtools/weekly-cn](https://github.com/bestxtools/weekly-cn) - 面白くてクリエイティブで無料の便利ツールを発見し共有、毎週木曜公開。
+- [coderit666/GoGuide](https://github.com/coderit666/GoGuide) - 「Go言語学習ガイド」Goプログラマーが習得すべきコア知識を網羅。Go言語チュートリアル、オープンソース書籍、入門チュートリアル、学習ロードマップ付き。初心者向けGo言語学習の最適選択。
 - [andredelft/typora-tailwind-theme](https://github.com/andredelft/typora-tailwind-theme) - Typora用の美しいTailwindタイポグラフィレイアウト。
-- [viraptor/reverse-interview](https://github.com/viraptor/reverse-interview) - 面接時に会社へ質問するためのリスト
-- [perkfly/reverse-interview-zh](https://github.com/perkfly/reverse-interview-zh) - 技術面接で面接官に最後に聞くべき質問
-- [imageslr/typora-theme-bear](https://github.com/imageslr/typora-theme-bear) - Bear風typoraテーマ20種類以上のコレクション
-- [7-sevens/Developer-Books](https://github.com/7-sevens/Developer-Books) - プログラミング・開発関連書籍リスト整理
+- [viraptor/reverse-interview](https://github.com/viraptor/reverse-interview) - 面接時に会社に質問するためのリスト
+- [perkfly/reverse-interview-zh](https://github.com/perkfly/reverse-interview-zh) - 技術面接の最後に面接官に逆質問する言葉
+- [imageslr/typora-theme-bear](https://github.com/imageslr/typora-theme-bear) - Bear風のTyporaテーマシリーズ、20種類以上。A collection of typora themes, inspired by Bear.
+- [7-sevens/Developer-Books](https://github.com/7-sevens/Developer-Books) - プログラミング開発関連書籍リスト整理
 - [czs108/Cpp-Primer-5th-Notes-CN](https://github.com/czs108/Cpp-Primer-5th-Notes-CN) - 📚 『C++ Primer中文版（第5版）』ノート
-- [ShameCom/ShameCom](https://github.com/ShameCom/ShameCom) - 新卒採用の汚点企業・組織を収集。後輩の地雷回避を支援。インターネットは忘れない！
-- [csseky/cskaoyan](https://github.com/csseky/cskaoyan) - コンピュータ及びソフトウェア工学修士受験各校の過去問提供
-- [Simizfo/WSATools](https://github.com/Simizfo/WSATools) - Windows Subsystem for Android用APKインストーラーなどを簡単に利用
-- [SPX372928/MyIPTV](https://github.com/SPX372928/MyIPTV) - 標準プロトコルのモバイルライブ配信ソース
-- [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists) - ソフトウェア・Web開発用の無料APIリスト 🚀
-- [Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo) - GitHubの高品質・面白いオープンソースプロジェクトを収集・整理。
-- [imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8) - ライブ配信ソース関連リソース総集 📺 💯 IPTV、M3U —— 手洗い・マスク着用、みなさんの健康を願います
-- [methylcloud/learn-gcp](https://github.com/methylcloud/learn-gcp) - Google Cloud Platform (GCP) 学習リソース
-- [awsdocs/amazon-ec2-user-guide-windows](https://github.com/awsdocs/amazon-ec2-user-guide-windows) - Amazon EC2 for Windowsユーザーガイドのオープンソース版。フィードバック・変更依頼はIssueまたはプルリクで。
-- [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) - 複数のShadowrocketルールを提供。強力な広告ブロック機能。毎日8時にルールを再構築。
-- [AlenZhang-Dev/News-Record](https://github.com/AlenZhang-Dev/News-Record) - 主にThe Economist、The NewYorker、Timeのニュースを保守
+- [ShameCom/ShameCom](https://github.com/ShameCom/ShameCom) - 新卒採用での不名誉な企業や組織を収集し、後輩がトラブルを避けるための支援。インターネットは忘れない！
+- [csseky/cskaoyan](https://github.com/csseky/cskaoyan) - コンピュータ科学大学院試験とソフトウェア工学大学院試験の各学校の過去問提供
+- [Simizfo/WSATools](https://github.com/Simizfo/WSATools) - Windows Subsystem for Android用の使いやすいAPKインストーラーなど
+- [SPX372928/MyIPTV](https://github.com/SPX372928/MyIPTV) - 標準プロトコルのモバイルライブストリームソース
+- [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists) - ソフトウェア・ウェブ開発用の無料APIの総合リスト 🚀
+- [Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo) - GitHub上の高品質で面白いオープンソースプロジェクトを収集整理。
+- [imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8) - ライブストリーム関連リソースまとめ 📺 💯 IPTV、M3U —— 手洗い、マスク着用、全員が安全でありますように
+- [methylcloud/learn-gcp](https://github.com/methylcloud/learn-gcp) - Google Cloud Platform (GCP)学習のための学習リソース
+- [awsdocs/amazon-ec2-user-guide-windows](https://github.com/awsdocs/amazon-ec2-user-guide-windows) - Amazon EC2 Windowsユーザーガイドのオープンソース版。フィードバックや変更リクエストはIssue提出またはプルリクエストで。
+- [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) - 強力な広告フィルタ機能を持つ複数のShadowrocketルールを提供。毎日8時にルールを再構築。
+- [AlenZhang-Dev/News-Record](https://github.com/AlenZhang-Dev/News-Record) - 主にエコノミスト【The Economist】、ニューヨーカー【The New Yorker】、タイム誌【Time】をメンテナンス中
 - [jeffreyxuan/toneoz-font-pinyin-kai](https://github.com/jeffreyxuan/toneoz-font-pinyin-kai) - 
-- [lanceliao/china-holiday-calender](https://github.com/lanceliao/china-holiday-calender) - 2023-2025中国祝日・振替・出勤カレンダー。ICS形式。iPhone、Google Calendar、Outlook等で購読可。祝日API付き。
-- [tokyo-night/tokyo-night-vscode-theme](https://github.com/tokyo-night/tokyo-night-vscode-theme) - 東京の夜景をイメージしたクリーンなダーク系Visual Studio Codeテーマ
-- [Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules) - 🦄 🎃 👻 Surgeルールセット(DOMAIN-SETとRULE-SET)。Surge for iOS/Macクライアント対応。
-- [OpenRunner/clash-freenode](https://github.com/OpenRunner/clash-freenode) - サブスクリプションアドレス🚀 無料共有♻️ 定期更新✨ 科学的ネット利用🌈 悪用禁止🚫ワンクリック購読📪SSR/CLASH/V2RAY
+- [lanceliao/china-holiday-calender](https://github.com/lanceliao/china-holiday-calender) - 2023-2025年中国の祝日、振替休日、補休日カレンダー、ICS形式でiPhone、Googleカレンダー、Outlook等のクライアントで購読可能、祝日APIも含む
+- [tokyo-night/tokyo-night-vscode-theme](https://github.com/tokyo-night/tokyo-night-vscode-theme) - 夜の東京ダウンタウンの灯りを祝う、クリーンでダークなVisual Studio Codeテーマ。
+- [Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules) - 🦄 🎃 👻 Surgeルールセット(DOMAIN-SETおよびRULE-SET)、Surge for iOSとSurge for Macクライアント対応。
+- [OpenRunner/clash-freenode](https://github.com/OpenRunner/clash-freenode) - 購読用アドレス🚀 無料共有♻️ 定期更新✨ 科学的ネット接続🌈 乱用禁止🚫 ワンクリック購読📪SSR/CLASH/V2RAY
 - [Sxela/ArcaneGAN](https://github.com/Sxela/ArcaneGAN) - ArcaneGAN
 - [60ss/Npp-1-Dark](https://github.com/60ss/Npp-1-Dark) - Notepad++用One Darkシンタックステーマ
-- [rdev/vscode-theme-onedark-spacegray](https://github.com/rdev/vscode-theme-onedark-spacegray) - AtomのOne Darkテーマを基にしたVSCodeテーマ
-- [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD) - 中国語圏で命中率最高を目指す広告フィルタリスト。精確な広告ブロック・プライバシー保護。多くのネットワークコンポーネント・リスト形式に完全対応。
-- [Mosney/anti-anti-AD](https://github.com/Mosney/anti-anti-AD) - antiAD広告ブロックリストを使うべきでない理由、および優れた代替品の選択肢
-- [leohku/andure](https://github.com/leohku/andure) - Android Chrome用DevTools — どのWebサイト・Chromiumブラウザでも動作
+- [rdev/vscode-theme-onedark-spacegray](https://github.com/rdev/vscode-theme-onedark-spacegray) - AtomのOne Darkテーマに基づくVSCodeテーマ
+- [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD) - 中国語圏で最もヒット率の高い広告フィルタリストを目指し、正確な広告ブロックとプライバシー保護を実現。AdGuardHome、dnsmasq、Surge、Pi-Hole、Clash、mihomo、smartdns、sing-boxなどネットワークコンポーネントに対応。一般的な広告フィルタツールがサポートするあらゆる広告フィルタリスト形式と完全互換。
+- [Mosney/anti-anti-AD](https://github.com/Mosney/anti-anti-AD) - なぜantiAD広告ブロックリストを使うべきでないかと、より優れた代替品の選択
+- [leohku/andure](https://github.com/leohku/andure) - Android Chrome用DevTools — どのウェブサイト、どのChromiumブラウザでも動作。
 - [opendigg/awesome-github-wechat-weapp](https://github.com/opendigg/awesome-github-wechat-weapp) - WeChatミニプログラムのオープンソースプロジェクト集
-- [Discord-Custom-Covers/usrbg](https://github.com/Discord-Custom-Covers/usrbg) - @Discord向けカスタムユーザー背景データベース
-- [erbanku/awesome](https://github.com/erbanku/awesome) - 🌟 マイAwesomeリポジトリリスト。GitHub ActionsでUTC 00:00 & 16:00に自動更新
-- [algolia/awesome-algolia](https://github.com/algolia/awesome-algolia) - 🔍👋  ここから始めよう！Algoliaライブラリ・リソース・プロジェクトの厳選リスト。
-- [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) - 優れたリモートジョブとリソースの厳選リスト。https://github.com/vinta/awesome-python に触発。
-- [githubtraining/introduction-to-github](https://github.com/githubtraining/introduction-to-github) - Learning Labコース「Introduction to GitHub」のためのコースリポジトリ。テンプレートリポジトリ ➡️
-- [UyCode/uyfonts](https://github.com/UyCode/uyfonts) - UKIJおよびUighursoftフォントがあります
-- [kkozee/vscode-theme-one-dark-vivid](https://github.com/kkozee/vscode-theme-one-dark-vivid) - AtomのOne Dark VividテーマをVS Code用に
-- [mathjax/MathJax](https://github.com/mathjax/MathJax) - すべてのブラウザで美しくアクセス可能な数式を表示
-- [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) - すべてのソフトウェア開発者が知っておくべき（主に）技術的なことのまとめ
-- [yangkky/Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins) - タンパク質の機械学習に関する論文リスト。
-- [mehcode/awesome-atom](https://github.com/mehcode/awesome-atom) - 厳選された素晴らしいAtomパッケージとリソースのリスト。
-- [mcdtaiwan/McDonalds_Fries_Font](https://github.com/mcdtaiwan/McDonalds_Fries_Font) - マクドナルドファンのための「マクドナルドフライフォント」。フライドポテトとケチャップの無限の可能性。無料ダウンロード！
-- [fangzesheng/free-api](https://github.com/fangzesheng/free-api) - 無料のAPIサービス収集、APIの運び屋
-- [toml-lang/toml](https://github.com/toml-lang/toml) - Tom's Obvious, Minimal Language
+- [Discord-Custom-Covers/usrbg](https://github.com/Discord-Custom-Covers/usrbg) - @Discord用カスタムユーザーリクエスト背景のデータベース。
+- [erbanku/awesome](https://github.com/erbanku/awesome) - 🌟 私の素晴らしいリポジトリ一覧。GitHub ActionsでUTC 00:00 & 16:00に自動更新
+- [algolia/awesome-algolia](https://github.com/algolia/awesome-algolia) - 🔍👋 ここからスタート！Algoliaのライブラリ、リソース、プロジェクトのキュレーションリスト。
+- [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) - 素晴らしいリモートジョブとリソースのキュレーションリスト。https://github.com/vinta/awesome-python に触発されました
+- [githubtraining/introduction-to-github](https://github.com/githubtraining/introduction-to-github) - Learning Labコース「Introduction to GitHub」のコースリポジトリ。テンプレートリポ ➡️
+- [UyCode/uyfonts](https://github.com/UyCode/uyfonts) - UKIJとウイグルソフトフォントがあります
+- [kkozee/vscode-theme-one-dark-vivid](https://github.com/kkozee/vscode-theme-one-dark-vivid) - VS Code用AtomのOne Dark Vividテーマ
+- [mathjax/MathJax](https://github.com/mathjax/MathJax) - すべてのブラウザで美しくアクセス可能な数学
+- [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) - ほとんどが技術的な、すべてのソフトウェア開発者が知っておくべきことのコレクション
+- [yangkky/Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins) - タンパク質の機械学習に関する論文のリスト。
+- [mehcode/awesome-atom](https://github.com/mehcode/awesome-atom) - 素晴らしいAtomパッケージとリソースのキュレーションリスト。
+- [mcdtaiwan/McDonalds_Fries_Font](https://github.com/mcdtaiwan/McDonalds_Fries_Font) - フライドポテトを愛するすべてのマクドナルドファンに捧ぐ — マクドナルドフライドポテトフォント フライドポテト vs ケチャップで盛り上がろう！サクサクでしっとりのフライドポテトに美味しいケチャップをつけて、無限の可能性を表現。マクドナルドフライドポテトフォントは無料でダウンロード可能！
+- [fangzesheng/free-api](https://github.com/fangzesheng/free-api) - 無料のAPIサービスを収集、APIの運搬屋をしています
+- [toml-lang/toml](https://github.com/toml-lang/toml) - Tomの明白で最小限の言語
 - [atomiechen/THU-PPT-Theme](https://github.com/atomiechen/THU-PPT-Theme) - 清華大学テーマのPPTテンプレート
-- [zhiwehu/Python-programming-exercises](https://github.com/zhiwehu/Python-programming-exercises) - 100以上のPython挑戦プログラミング練習問題
-- [hemanth/awesome-pwa](https://github.com/hemanth/awesome-pwa) - 素晴らしいプログレッシブWebアプリのリスト！
-- [joelparkerhenderson/git-commit-message](https://github.com/joelparkerhenderson/git-commit-message) - Gitコミットメッセージ：優れたGitコミットメッセージとテンプレートの書き方
-- [marvinpinto/action-automatic-releases](https://github.com/marvinpinto/action-automatic-releases) - 読み取り専用: https://github.com/marvinpinto/actions/tree/master/packages/automatic-releases の自動生成ミラー
-- [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) - 初心者向けの素晴らしいプロジェクトのリスト。
-- [dracula/telegram](https://github.com/dracula/telegram) - 🧛🏻‍♂️ Telegram Desktop用ダークテーマ
-- [ahmadawais/shades-of-purple-vscode](https://github.com/ahmadawais/shades-of-purple-vscode) - 🦄 紫の鮮やかなシェードであなたのコードを美しく彩るテーマ。厳選されたカラーパレットで視覚的に魅力的なマスターピースを実現します。
-- [priyankavergadia/GCPSketchnote](https://github.com/priyankavergadia/GCPSketchnote) - Google Cloudエンジニアを目指す方へ。Google Cloudの概念を素早く簡単に学べるシリーズです。
-- [flyhigher139/Git-Cheat-Sheet](https://github.com/flyhigher139/Git-Cheat-Sheet) - Git チートシート中国語版、Gevin (flyhigher139) による翻訳
-- [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) - コマンドラインを1ページでマスター
-- [opendigg/awesome-github-vue](https://github.com/opendigg/awesome-github-vue) - Vue関連のオープンソースプロジェクトまとめ
-- [Codextor/npp-material-theme](https://github.com/Codextor/npp-material-theme) - Notepad++用の最も壮大なマテリアルテーマ | ダークテーマ
-- [VirgilClyne/iRingo](https://github.com/VirgilClyne/iRingo) -  Appleの機能や統合サービスをフルアンロック
-- [treehollow/install-doc](https://github.com/treehollow/install-doc) - ツリーホールの立て方
-- [0voice/audio_video_streaming](https://github.com/0voice/audio_video_streaming) - 音声・動画ストリーミング権威資料まとめ、500以上の記事、論文、動画、実践プロジェクト、プロトコル、業界著名人リスト。
-- [matchai/awesome-pinned-gists](https://github.com/matchai/awesome-pinned-gists) - 📌✨ GitHubの素晴らしい動的ピン留めGistのコレクション
+- [zhiwehu/Python-programming-exercises](https://github.com/zhiwehu/Python-programming-exercises) - 100以上のPythonのチャレンジングなプログラミング演習
+- [hemanth/awesome-pwa](https://github.com/hemanth/awesome-pwa) - 素晴らしいプログレッシブウェブアプリのリスト！
+- [joelparkerhenderson/git-commit-message](https://github.com/joelparkerhenderson/git-commit-message) - Gitコミットメッセージ：優れたGitコミットメッセージの書き方とバージョン管理用コミットテンプレート
+- [marvinpinto/action-automatic-releases](https://github.com/marvinpinto/action-automatic-releases) - READONLY: https://github.com/marvinpinto/actions/tree/master/packages/automatic-releases の自動生成ミラー
+- [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) - 初心者に優しい素晴らしいプロジェクトのリスト。
+- [dracula/telegram](https://github.com/dracula/telegram) - 🧛🏻‍♂️ Telegramデスクトップ用ダークテーマ
+- [ahmadawais/shades-of-purple-vscode](https://github.com/ahmadawais/shades-of-purple-vscode) - 🦄 Shades of Purpleは厳選された大胆で鮮やかな紫の色合いを提供し、コードを視覚的に素晴らしい傑作に変えます。綿密に作成されたカラーパレットで、こ
+- [priyankavergadia/GCPSketchnote](https://github.com/priyankavergadia/GCPSketchnote) - Googleクラウドエンジニアになりたいならここが最適です。GCPSketchnoteはGoogleクラウドの概念を素早く簡単に学べる形式で共有するシリーズです。
+- [flyhigher139/Git-Cheat-Sheet](https://github.com/flyhigher139/Git-Cheat-Sheet) - Gitチートシート中国語版、Gevin (flyhigher139)による翻訳
+- [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) - 1ページでコマンドラインをマスター
+- [opendigg/awesome-github-vue](https://github.com/opendigg/awesome-github-vue) - Vue関連のオープンソースプロジェクト集約
+- [Codextor/npp-material-theme](https://github.com/Codextor/npp-material-theme) - Material Theme、Notepad++用の最もエピックなテーマ | ダークテーマ
+- [VirgilClyne/iRingo](https://github.com/VirgilClyne/iRingo) -  Appleの完全な機能と統合サービスをアンロック
+- [treehollow/install-doc](https://github.com/treehollow/install-doc) - 木の洞を構築する方法
+- [0voice/audio_video_streaming](https://github.com/0voice/audio_video_streaming) - 音声・映像ストリーミングの権威ある資料集、500以上の記事、論文、動画、実践プロジェクト、プロトコル、業界の専門家リスト。
+- [matchai/awesome-pinned-gists](https://github.com/matchai/awesome-pinned-gists) - 📌✨ GitHubのダイナミックなピン留めされた素晴らしいGistのコレクション
 - [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) - 🚀✨ 初心者がオープンソースプロジェクトに貢献するのを支援
-- [Tencent/secguide](https://github.com/Tencent/secguide) - 開発者向けコードセキュリティガイド
-- [ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey) - 優れたAutoHotkeyライブラリ、配布物、スクリプト、ツール、リソースの厳選リスト。
+- [Tencent/secguide](https://github.com/Tencent/secguide) - 開発者向けに整理されたコードセキュリティガイド
+- [ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey) - 優れたAutoHotkeyライブラリ、配布物、スクリプト、ツール、リソースのキュレーションリスト。
 - [Hack-with-Github/Windows](https://github.com/Hack-with-Github/Windows) - Windowsを攻撃するための素晴らしいツール！
-- [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) - 👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国の独立系開発者プロジェクトリスト -- みんなが何をしているかを共有
-- [actionsflow/awesome-actionsflow](https://github.com/actionsflow/awesome-actionsflow) - Actionsflowの素晴らしいワークフロー事例集
-- [AZeC4/TelegramGroup](https://github.com/AZeC4/TelegramGroup) - 2025年最新の10000以上のTelegramグループまとめ、面白く便利なBOTも紹介【dianbaodaohang.com】
-- [sdras/awesome-actions](https://github.com/sdras/awesome-actions) - GitHubで使える素晴らしいActionsの厳選リスト
-- [cobaltdisco/Google-Chinese-Results-Blocklist](https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist) - ついにGoogleで中国語を検索できるようになった……
-- [ffffffff0x/Digital-Privacy](https://github.com/ffffffff0x/Digital-Privacy) - 情報保護＆OSINTリソース | デジタルプライバシーの収集・保護・クリーンアップの総合案、オープンソース情報収集(OSINT)対策も付属
-- [OverTheWallNode/SSV2RayTrojanSSRClash](https://github.com/OverTheWallNode/SSV2RayTrojanSSRClash) - 科学的インターネット利用、ss, ssr, v2ray, trojan, clash, clashr, VPN推薦
-- [formulahendry/955.WLB](https://github.com/formulahendry/955.WLB) - 955 残業なし企業リスト - 仕事955、ワークライフバランス
-- [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) - GitおよびGitHubのクールな機能リスト。
-- [github/roadmap](https://github.com/github/roadmap) - GitHub公開ロードマップ
-- [ivmm/Student-resources](https://github.com/ivmm/Student-resources) - 学生・教職員が受けられる各種学割・教育割や特典の紹介。権利を享受する一方で、資格の転売等は控えてください。
-- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - 自分のサーバーでホストできるフリーソフトウェアのネットワークサービスとWebアプリのリスト
-- [Cat-China/CatBrowser](https://github.com/Cat-China/CatBrowser) - 猫猫ブラウザ - 完全自社開発、海外（米国）によるブラウザ市場の独占を打破、Chromeより600%高速。
-- [monyhar/monyhar](https://github.com/monyhar/monyhar) - 夢弘ブラウザ - 完全自社開発、海外独占打破、Chromeより600%高速。
-- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - 😎 あらゆる面白いトピックのawesomeリスト
-- [ruanyf/weekly](https://github.com/ruanyf/weekly) - テクノロジー愛好者の週刊誌、毎週金曜発行
-- [github/gov-takedowns](https://github.com/github/gov-takedowns) - 受信した政府の削除要請文書全文。GitHubは内容の主張を支持または採用しません。
-- [ShareX/CustomUploaders](https://github.com/ShareX/CustomUploaders) - ShareXカスタムアップローダー
-- [glados-network/GLaDOS](https://github.com/glados-network/GLaDOS) - GLaDOSのステータス
+- [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) - 👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻 中国の独立開発者プロジェクトリスト -- みんなが何をしているかを共有
+- [actionsflow/awesome-actionsflow](https://github.com/actionsflow/awesome-actionsflow) - Actionsflowの素晴らしいワークフロー使用例のリスト
+- [AZeC4/TelegramGroup](https://github.com/AZeC4/TelegramGroup) - 2025年最新のこっそり集めた10000以上のTelegramグループ集、最も面白く使いやすいBOT🤖付き【dianbaodaohang.com】
+- [sdras/awesome-actions](https://github.com/sdras/awesome-actions) - GitHubで使える素晴らしいActionsのキュレーションリスト
+- [cobaltdisco/Google-Chinese-Results-Blocklist](https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist) - やっとGoogleで中国語検索が使えるようになった……
+- [ffffffff0x/Digital-Privacy](https://github.com/ffffffff0x/Digital-Privacy) - 情報保護＆OSINTリソース | デジタルプライバシーの収集、保護、クリーンアップの統合ソリューションとオープンソース情報収集（OSINT）対策
+- [OverTheWallNode/SSV2RayTrojanSSRClash](https://github.com/OverTheWallNode/SSV2RayTrojanSSRClash) - 科学的なインターネットアクセス、ss、ssr、v2ray、trojan、clash、clashr、VPNサービス推奨
+- [formulahendry/955.WLB](https://github.com/formulahendry/955.WLB) - 955勤務の残業なし企業リスト - 仕事は955、ワーク・ライフ・バランス（仕事と生活の調和）
+- [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) - GitとGitHubのクールな機能のリスト。
+- [github/roadmap](https://github.com/github/roadmap) - GitHubの公開ロードマップ
+- [ivmm/Student-resources](https://github.com/ivmm/Student-resources) - 学生、教職員の身分で利用可能な学生割引、教育割引、教員割引の権利を紹介しますが、権利を享受する一方で義務を忘れず、割引資格の転売や譲渡を行わず、他の学生が恩恵を受けられなくしないようお願いします。
+- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - 自分のサーバーでホスティング可能なフリーソフトウェアのネットワークサービスとウェブアプリケーションのリスト
+- [Cat-China/CatBrowser](https://github.com/Cat-China/CatBrowser) - 猫猫ブラウザ - 完全自社開発、海外（米国）のブラウザ市場独占を打破、Chromeより600％高速。
+- [monyhar/monyhar](https://github.com/monyhar/monyhar) - 夢弘ブラウザ - 完全自社開発、海外独占を打破、Chromeより600％高速。
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - 😎 あらゆる興味深いトピックに関する素晴らしいリスト
+- [ruanyf/weekly](https://github.com/ruanyf/weekly) - テクノロジー愛好家の週刊、毎週金曜発行
+- [github/gov-takedowns](https://github.com/github/gov-takedowns) - 受け取った政府による削除通知のテキスト。GitHubは以下の通知に含まれる主張を支持または採用しません。
+- [ShareX/CustomUploaders](https://github.com/ShareX/CustomUploaders) - ShareX用カスタムアップローダー
+- [glados-network/GLaDOS](https://github.com/glados-network/GLaDOS) - GLaDOSの状態
 
 ## PHP 
 
-- [pereorga/minimalist-web-notepad](https://github.com/pereorga/minimalist-web-notepad) - ミニマルなWebノートパッド
-- [juzeon/fast-mail-bomber](https://github.com/juzeon/fast-mail-bomber) - 高速・マルチスレッド・効率的で使いやすいメールボンバー/スパムツール。複数プロバイダーのmailmanサービスを利用。
-- [easychen/stack-roadmap](https://github.com/easychen/stack-roadmap) - 方糖フルスタックロードマップ2023、「ネジから一人企業へ」スキル栈の補完
-- [solstice23/argon-theme](https://github.com/solstice23/argon-theme) - 📖 Argon - 軽量かつシンプルなWordPressテーマ
-- [assimon/dujiaoka](https://github.com/assimon/dujiaoka) - 🦄独角数カ（自動販売システム）- オープンソース運営自動化ソリューション、高効率・安定・迅速！🚀🚀🎉🎉
-- [luolongfei/freenom](https://github.com/luolongfei/freenom) - Freenomドメイン自動更新ツール。
-- [icret/EasyImages2.0](https://github.com/icret/EasyImages2.0) - シンプルな画像アップローダー - 強力なDB不要の画像管理システム 2.0版
-- [coollabsio/coolify](https://github.com/coollabsio/coolify) - オープンソース＆セルフホスト可能なHeroku / Netlify / Vercel代替。
-- [shlinkio/shlink](https://github.com/shlinkio/shlink) - 決定版セルフホスト型URL短縮サービス
-- [nadrad/h-m-m](https://github.com/nadrad/h-m-m) - h-m-m、またはHackers Mind Mapは、マインドマップ操作のための高速・キーボード中心のターミナルツール。
-- [osuuu/LightPicture](https://github.com/osuuu/LightPicture) - 企業/チーム/個人用画像リソース管理・画像ホスティングシステム
-- [IO-Technologies/bashupload](https://github.com/IO-Technologies/bashupload) - bashupload.com用オープンソース - CLI/サーバ/デスクトップ/モバイル向けPHPベースのファイルアップローダー
-- [renbaoshuo/Shortlink](https://github.com/renbaoshuo/Shortlink) - 短縮URL生成サイトソースコード
-- [chenxuuu/shit-url](https://github.com/chenxuuu/shit-url) - クズリンク生成、最悪の短縮URL生成サイト
-- [bugaosuni59/TH-CPL](https://github.com/bugaosuni59/TH-CPL) - 清華大学コンピュータ分野推奨学術会議・ジャーナル一覧
+- [pereorga/minimalist-web-notepad](https://github.com/pereorga/minimalist-web-notepad) - ミニマリストWebノートパッド
+- [juzeon/fast-mail-bomber](https://github.com/juzeon/fast-mail-bomber) - 高速、多スレッド、効率的で使いやすいメールボンバー/スパムツール。異なるプロバイダがホストするmailmanサービス経由でメールを送信します。
+- [easychen/stack-roadmap](https://github.com/easychen/stack-roadmap) - 2023年版方糖フルスタックロードマップ、「ネジから一人企業へ」のスキルスタック補完
+- [solstice23/argon-theme](https://github.com/solstice23/argon-theme) - 📖 Argon - 軽量でシンプルなWordPressテーマ
+- [assimon/dujiaoka](https://github.com/assimon/dujiaoka) - 🦄 独角数カード(自動販売システム) - オープンソースの自動販売ソリューション、高効率、安定、迅速！🚀🚀🎉🎉
+- [luolongfei/freenom](https://github.com/luolongfei/freenom) - Freenomドメインの自動更新。Freenomドメイン名を自動で更新します。
+- [icret/EasyImages2.0](https://github.com/icret/EasyImages2.0) - シンプルな画像ホスティング - 強力でデータベース不要の画像ホスティング2.0版
+- [coollabsio/coolify](https://github.com/coollabsio/coolify) - オープンソースでセルフホスト可能なHeroku / Netlify / Vercelの代替。
+- [shlinkio/shlink](https://github.com/shlinkio/shlink) - 決定版セルフホスト型URLショートナー
+- [nadrad/h-m-m](https://github.com/nadrad/h-m-m) - h-m-m、またはHackers Mind Mapは、シンプルで高速、キーボード中心のターミナルベースマインドマップツール。
+- [osuuu/LightPicture](https://github.com/osuuu/LightPicture) - 企業/チーム/個人の画像リソース管理システム、画像ホスティングシステム
+- [IO-Technologies/bashupload](https://github.com/IO-Technologies/bashupload) - bashupload.com向けオープンソース - CLI、サーバー、デスクトップ、モバイル向けPHPベースファイルアップローダー
+- [renbaoshuo/Shortlink](https://github.com/renbaoshuo/Shortlink) - 短縮リンク生成サイトのソースコード
+- [chenxuuu/shit-url](https://github.com/chenxuuu/shit-url) - クズリンク生成、最もクズな短縮リンク生成サイト
+- [bugaosuni59/TH-CPL](https://github.com/bugaosuni59/TH-CPL) - 清華大学計算機学科推薦学術会議とジャーナルリスト
 - [youranreus/Subscription-Manager](https://github.com/youranreus/Subscription-Manager) - サブスクリプション管理
-- [guanguans/favorite-link](https://github.com/guanguans/favorite-link) - ❤️ 毎日お気に入りのオープンソースプロジェクトを収集。
-- [PGYER/codefever](https://github.com/PGYER/codefever) - CodeFeverは完全無料・オープンソースのGitコードホスティングサービス。一行コマンドで自サーバーにインストール可能！CodeFever Community Edition（セルフホスト型Gitサービス）！
+- [guanguans/favorite-link](https://github.com/guanguans/favorite-link) - ❤️ 毎日好きなオープンソースプロジェクトを収集。
+- [PGYER/codefever](https://github.com/PGYER/codefever) - CodeFeverは完全無料のオープンソースGitコードホスティングサービスで、一行コマンドで自分のサーバーにインストール可能！CodeFever Community Edition（セルフホスト型Gitサービス）！
 - [Anankke/SSPanel-UIM](https://github.com/Anankke/SSPanel-UIM) - 多目的プロキシサービス管理システム
 - [privacy-protection-tools/dead-horse](https://github.com/privacy-protection-tools/dead-horse) - 
-- [xiebruce/PicUploader](https://github.com/xiebruce/PicUploader) - 多機能画像アップローダーツール。Mac/Win/Linuxサーバ対応、圧縮・透かし・同時複数アップ・複数クラウド・クリップボード・Webアップ・各種画像エディタやアップローダー連携、任意ファイル対応。
-- [5ime/video_spider](https://github.com/5ime/video_spider) - ショート動画の透かし除去：抖音,皮皮虾,火山,微视,微博,绿洲,最右,轻视频,快手,全民小视频,バサ映画,陌陌,Before避風,開眼,Vue Vlog 小咖秀,皮皮搞笑,全民K歌,西瓜视频,逗拍,虎牙,6间房,梨视频,新片場,acfun,美拍...
-- [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) - ミニマルなオープンソースオンラインペーストビン。サーバーは貼り付けたデータを一切知りません。データはブラウザでAES 256ビットで暗号化・復号。
+- [xiebruce/PicUploader](https://github.com/xiebruce/PicUploader) - かなり良い画像ホスティングツール。Mac/Win/Linuxサーバー対応、圧縮アップロード対応、画像・テキストウォーターマーク追加、多ファイル同時アップロード、複数クラウド同時アップロード、任意ファイル右クリックアップロード、クリップボードショットのホットキーアップロード、Web版アップロード、Mweb/Typoraの画像公開インターフェース対応、PicGo/ShareX/uPic等のカスタム画像ホスティング対応、サーバー上で画像ホスティングインターフェースとしてデプロイ可能、任意形式ファイルのアップロード対応。
+- [5ime/video_spider](https://github.com/5ime/video_spider) - 短編動画のウォーターマーク除去：抖音, 皮皮虾, 火山, 微视, 微博, 绿洲, 最右, 轻视频, 快手, 全民小视频, 巴塞电影, 陌陌, Before避风, 开眼, Vue Vlog 小咖秀, 皮皮搞笑, 全民K歌, 西瓜视频, 逗拍, 虎牙, 6间房, 梨视频, 新片场, acfun, 美拍...
+- [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) - 最小限のオープンソースオンラインペーストビン。サーバーは貼り付けられたデータを一切知らず、データは256ビットAESでブラウザ内で暗号化/復号。
 - [ZainCheung/netease-cloud-api](https://github.com/ZainCheung/netease-cloud-api) - NetEase Cloud MusicのアップグレードAPI
-- [SkyEmie/batch-obfuscator](https://github.com/SkyEmie/batch-obfuscator) - バッチファイル（Windows）を簡単に難読化
-- [DenverCoder1/readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg) - ⚡ 動的生成・カスタマイズ可能なSVGで、プロフィール・リポジトリ・サイトでタイピング・削除のアニメーションを実現
-- [mylxsw/wizard](https://github.com/mylxsw/wizard) - Wizardはオープンソースのドキュメント管理ツール。Markdown/Swagger/Table型ドキュメント対応。
-- [jimmielin/the-light](https://github.com/jimmielin/the-light) - The LightはThe Seedを動かします。
+- [SkyEmie/batch-obfuscator](https://github.com/SkyEmie/batch-obfuscator) - バッチファイルを簡単に難読化する方法（Windows）
+- [DenverCoder1/readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg) - ⚡ プロフィールページ、リポジトリ、ウェブサイトで使用できる、テキストがタイプされるように見える動的生成カスタマイズ可能SVG。
+- [mylxsw/wizard](https://github.com/mylxsw/wizard) - Wizardはオープンソースのドキュメント管理ツールで、Markdown/Swagger/Tableタイプのドキュメントをサポート。
+- [jimmielin/the-light](https://github.com/jimmielin/the-light) - The LightはThe Seedを支えます。
 
 ## PLpgSQL 
 
-- [pirate/wikipedia-mirror](https://github.com/pirate/wikipedia-mirror) - 🌐 Wikipedia.orgの完全オフラインミラーを構築するためのガイドとツール：Nginxキャッシュプロキシ、Kiwix+ZIMダンプ、MediaWiki/XOWA+XMLダンプの3つの方法
+- [pirate/wikipedia-mirror](https://github.com/pirate/wikipedia-mirror) - 🌐 Wikipedia.orgの完全オフラインミラーを3つの異なる方法で実行するためのガイドとツール：Nginxキャッシュプロキシ、Kiwix + ZIMダンプ、MediaWiki/XOWA + XMLダンプ
 
 ## Pascal 
 
-- [tarcode-apps/BatteryMode](https://github.com/tarcode-apps/BatteryMode) - Windowsバッテリーインジケータの代替
-- [peazip/PeaZip](https://github.com/peazip/PeaZip) - 無料のZip/Unzipソフト・Rarファイル抽出。クロスプラットフォームのファイル＆アーカイブ管理。ボリューム分割、圧縮、認証付き暗号化対応。7Z, 7-Zip sfx, ACE, ARJ, Brotli, BZなどに対応。
-- [sashaoli/GiteaPanel](https://github.com/sashaoli/GiteaPanel) - トレイからローカルGiteaサーバーを管理。Управління локальним сервером Gitea з трею.
+- [tarcode-apps/BatteryMode](https://github.com/tarcode-apps/BatteryMode) - Windowsのバッテリーインジケーターの置き換え
+- [peazip/PeaZip](https://github.com/peazip/PeaZip) - 無料のZip/UnzipソフトウェアとRarファイル抽出ソフト。クロスプラットフォームのファイル・アーカイブ管理。ボリューム分割、圧縮、認証付き暗号化対応。7Z、7-Zip sfx、ACE、ARJ、Brotli、BZ対応。
+- [sashaoli/GiteaPanel](https://github.com/sashaoli/GiteaPanel) - ローカルGiteaサーバーをトレイから管理。トレイからローカルGiteaサーバーを管理します。
 
 ## Perl 
 
@@ -1296,1000 +1297,1000 @@
 
 ## PostScript 
 
-- [kenjihiranabe/The-Art-of-Linear-Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra) - Gilbert Strang「Linear Algebra for Everyone」のグラフィックノート
-
+- [kenjihiranabe/The-Art-of-Linear-Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra) - Gilbert Strangの「Everyoneのための線形代数」に関するグラフィックノート
 ## PowerShell 
 
-- [lucyllewy/one-script-wsl2-systemd](https://github.com/lucyllewy/one-script-wsl2-systemd) - WSL2用systemdハックのワンスクリプトバリアント
-- [devblackops/Terminal-Icons](https://github.com/devblackops/Terminal-Icons) - ターミナル内でファイルやフォルダーのアイコンを表示するPowerShellモジュール
-- [lptstr/winfetch](https://github.com/lptstr/winfetch) - 🛠 PowerShellで書かれたコマンドラインのシステム情報ユーティリティ。NeofetchのWindows版。
+- [lucyllewy/one-script-wsl2-systemd](https://github.com/lucyllewy/one-script-wsl2-systemd) - WSL2向けsystemdハックのワンスクリプト版
+- [devblackops/Terminal-Icons](https://github.com/devblackops/Terminal-Icons) - ターミナルにファイルとフォルダのアイコンを表示するPowerShellモジュール
+- [lptstr/winfetch](https://github.com/lptstr/winfetch) - 🛠 PowerShellで書かれたコマンドラインシステム情報ユーティリティ。NeofetchのWindows版。
 - [ScoopInstaller/Scoop](https://github.com/ScoopInstaller/Scoop) - Windows用コマンドラインインストーラー。
 - [gluons/powershell-git-aliases](https://github.com/gluons/powershell-git-aliases) - :octocat: Oh My ZshのGitエイリアスをPowerShell用に。
 - [actions/runner-images](https://github.com/actions/runner-images) - GitHub Actionsランナーイメージ
-- [AmrEldib/WindowsContextMenuCustomizations](https://github.com/AmrEldib/WindowsContextMenuCustomizations) - Windowsのコンテキストメニューを変更するレジストリエントリ
-- [dracula/powershell](https://github.com/dracula/powershell) - 🧛🏻‍♂️ PowerShellとcmd.exe用ダークテーマ
+- [AmrEldib/WindowsContextMenuCustomizations](https://github.com/AmrEldib/WindowsContextMenuCustomizations) - Windowsコンテキストメニューを変更するレジストリエントリ
+- [dracula/powershell](https://github.com/dracula/powershell) - 🧛🏻‍♂️ PowerShellおよびcmd.exe用ダークテーマ
 
 ## Python 
 
-- [qianye216/OpenList-Desktop](https://github.com/qianye216/OpenList-Desktop) - OpenList DesktopはOpenList (Alist) およびRclone向けクロスプラットフォームデスクトップクライアント。モダンで使いやすいGUIでAlistサービスとRcloneクラウドドライブの管理を簡単に。
-- [kvcache-ai/ktransformers](https://github.com/kvcache-ai/ktransformers) - 最先端LLM推論最適化を体験できる柔軟なフレームワーク
-- [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate) - PDF科学論文の書式保持AI翻訳 - Google/DeepL/Ollama/OpenAI等対応、CLI/GUI/MCP/Docker/Zoteroサポート
-- [microsoft/markitdown](https://github.com/microsoft/markitdown) - ファイルやOfficeドキュメントをMarkdownに変換するPythonツール。
-- [hiroi-sora/Umi-CUT](https://github.com/hiroi-sora/Umi-CUT) - 画像の一括黒縁除去/トリミング/圧縮ツール。GUI付き。OpenCVベース。
-- [google-deepmind/alphafold3](https://github.com/google-deepmind/alphafold3) - AlphaFold 3推論パイプライン。
-- [CaoZ/XueCheBu-Crack](https://github.com/CaoZ/XueCheBu-Crack) - 学習者向け、自動化で動画視聴時間を節約できるツール
-- [zhuozhiyongde/PKU-Auto-Reservation](https://github.com/zhuozhiyongde/PKU-Auto-Reservation) - 北京大学/北大/PKU自動入校予約
-- [aoguai/LiYing](https://github.com/aoguai/LiYing) - LiYingは写真館での証明写真後処理を自動化するプログラム | 一般写真館向け証明写真自動処理プログラム
-- [chen08209/Clash.Meta](https://github.com/chen08209/Clash.Meta) - 崩壊：スターレイル Mihomo APIデータ用Python Pydanticモデル
+- [qianye216/OpenList-Desktop](https://github.com/qianye216/OpenList-Desktop) - OpenList DesktopはOpenList（Alist）とRclone向けのクロスプラットフォームデスクトップクライアント。モダンでユーザーフレンドリーなGUIを提供し、AlistサービスとRcloneクラウドマウントの管理を簡単にし、複雑なコマンドを覚えたり入力したりする必要がありません。
+- [kvcache-ai/ktransformers](https://github.com/kvcache-ai/ktransformers) - 最先端の大規模言語モデル推論最適化を体験するための柔軟なフレームワーク
+- [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate) - フォーマットを保ったPDF科学論文翻訳 - AIに基づきレイアウトを完全保持したPDF全文バイリンガル翻訳。Google/DeepL/Ollama/OpenAIなどをサポート。CLI/GUI/MCP/Docker/Zotero対応。
+- [microsoft/markitdown](https://github.com/microsoft/markitdown) - ファイルとオフィス文書をMarkdownに変換するPythonツール。
+- [hiroi-sora/Umi-CUT](https://github.com/hiroi-sora/Umi-CUT) - 画像の一括黒縁除去/トリミング/圧縮ツール、GUI付き。画像の端の色ブロック干渉を除外し、黒縁をきれいに削除。OpenCVベース。
+- [google-deepmind/alphafold3](https://github.com/google-deepmind/alphafold3) - AlphaFold 3 推論パイプライン。
+- [CaoZ/XueCheBu-Crack](https://github.com/CaoZ/XueCheBu-Crack) - 運転免許学習者に朗報、何十時間もの動画をパソコンの前でじっと見る必要なし。クリック一つで悩み解消〜
+- [zhuozhiyongde/PKU-Auto-Reservation](https://github.com/zhuozhiyongde/PKU-Auto-Reservation) - 北京大学/北大/PKUの自動入校予約
+- [aoguai/LiYing](https://github.com/aoguai/LiYing) - LiYingは一般的な写真館のID写真後処理ワークフローを自動化するために設計された写真自動処理プログラムです。| LiYingは一般写真館の後期証明写真処理フローの自動化に適した写真自動処理プログラムです。
+- [chen08209/Clash.Meta](https://github.com/chen08209/Clash.Meta) - Mihomo APIから解析したHonkai: Star Railデータ用のシンプルなPython Pydanticモデル。
 - [arsenetar/dupeguru](https://github.com/arsenetar/dupeguru) - 重複ファイル検索ツール
-- [2noise/ChatTTS](https://github.com/2noise/ChatTTS) - 日常会話向け生成型音声モデル
-- [matheusfillipe/notes-todo_bot](https://github.com/matheusfillipe/notes-todo_bot) - ノートを取って編集し、github gistに保存するTelegramボット
+- [2noise/ChatTTS](https://github.com/2noise/ChatTTS) - 日常会話用の生成音声モデル。
+- [matheusfillipe/notes-todo_bot](https://github.com/matheusfillipe/notes-todo_bot) - Telegramボットでメモを取り、編集し、GitHub Gistに保存
 - [xrl12/auto_back](https://github.com/xrl12/auto_back) - 自動バックアップ
-- [LorenEteval/Furious](https://github.com/LorenEteval/Furious) - PySide6ベースのGUIプロキシクライアント。Xray-core＆hysteria対応
-- [MetaCubeX/mihomo](https://github.com/MetaCubeX/mihomo) - 崩壊：スターレイル Mihomo APIデータ用Python Pydanticモデル
-- [euxcet/thulearn2018](https://github.com/euxcet/thulearn2018) - 清華大学Web学習用ツール群
-- [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) - 🗃 オープンソースのセルフホストWebアーカイブ。URLや履歴・ブックマーク等を保存。
-- [vvbbnn00/WARP-Clash-API](https://github.com/vvbbnn00/WARP-Clash-API) - Cloudflare WARP+をサブスクリプション経由で使い、自動でトラフィック取得可能にするプロジェクト
-- [deadc0de6/dotdrop](https://github.com/deadc0de6/dotdrop) - dotfilesを一度保存し、どこでもデプロイ
+- [LorenEteval/Furious](https://github.com/LorenEteval/Furious) - PySide6ベースのGUIプロキシクライアント。Xray-core & hysteria対応
+- [MetaCubeX/mihomo](https://github.com/MetaCubeX/mihomo) - Mihomo APIから解析したHonkai: Star Railデータ用のシンプルなPython Pydanticモデル。
+- [euxcet/thulearn2018](https://github.com/euxcet/thulearn2018) - 清華大学のウェブ学習ツール。
+- [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) - 🗃 オープンソースのセルフホスト型ウェブアーカイブ。URL/ブラウザ履歴/ブックマーク/Pocket/Pinboard等を取り込み、HTML、JS、PDF、メディアなどを保存。
+- [vvbbnn00/WARP-Clash-API](https://github.com/vvbbnn00/WARP-Clash-API) - このプロジェクトはCloudflare WARP+をサブスクリプション経由で利用し、トラフィックを自動取得可能にします。This project enables you to use Cloudflare WARP+ through subscription, automatically acquiring traffic.
+- [deadc0de6/dotdrop](https://github.com/deadc0de6/dotdrop) - ドットファイルを一度保存し、どこでも展開
 - [MuggleWei/bdchecker](https://github.com/MuggleWei/bdchecker) - バックアップデータチェッカー
-- [ASKCOS/ASKCOS](https://github.com/ASKCOS/ASKCOS) - コンピュータ支援合成計画ソフトウェアパッケージ
-- [JoeanAmier/XHS-Downloader](https://github.com/JoeanAmier/XHS-Downloader) - 小红书（XiaoHongShu、RedNote）作品リンク抽出/収集ツール。アカウント・検索・ダウンロード等対応
-- [Coframe/coffee](https://github.com/Coframe/coffee) - AIでUI開発を10倍高速化 - IDEから直接操作 ☕️
-- [JoeanAmier/TikTokDownloader](https://github.com/JoeanAmier/TikTokDownloader) - TikTok/抖音の投稿・ライブ・動画・音楽などのデータ収集・ダウンロードツール
-- [V-know/ChatGPT-Telegram-Bot](https://github.com/V-know/ChatGPT-Telegram-Bot) - 滑らかなAI体験のTelegramボット。UI付き。
-- [pyecharts/pyecharts](https://github.com/pyecharts/pyecharts) - 🎨 Python Echartsプロットライブラリ
-- [skypilot-org/skypilot](https://github.com/skypilot-org/skypilot) - SkyPilot: 任意のインフラでAIやバッチジョブを実行。統一実行・コスト削減・高GPU可用性を提供。
-- [jiji262/douyin-downloader](https://github.com/jiji262/douyin-downloader) - 抖音バッチダウンロードツール。透かし除去、動画・音楽等対応。無料！
-- [sail-sg/EditAnything](https://github.com/sail-sg/EditAnything) - segment-anything、ControlNet、StableDiffusion等による画像編集（ACM MM）
-- [jackhawks/rectg](https://github.com/jackhawks/rectg) - 1万件超のTelegramグループ・チャンネル・ボットを収集し、データ分析・研究・学習を支援
-- [PromtEngineer/localGPT](https://github.com/PromtEngineer/localGPT) - GPTモデルでドキュメントをローカル対話。データは外部に出ず完全プライベート。
-- [jtsang4/claude-to-chatgpt](https://github.com/jtsang4/claude-to-chatgpt) - Anthropic Claude APIをOpenAI Chat API形式に変換するプロジェクト
-- [zhaoolee/wxread](https://github.com/zhaoolee/wxread) - 微信読書の読書時間自動化
+- [ASKCOS/ASKCOS](https://github.com/ASKCOS/ASKCOS) - コンピュータ支援合成計画用ソフトウェアパッケージ
+- [JoeanAmier/XHS-Downloader](https://github.com/JoeanAmier/XHS-Downloader) - 小紅書（XiaoHongShu、RedNote）リンク抽出/作品収集ツール：アカウントの投稿・お気に入り・いいね・アルバム作品リンク抽出、検索結果作品・ユーザーリンク抽出、小紅書作品情報収集、小紅書作品ダウンロードURL抽出、小紅書無水印作品ファイルダウンロード
+- [Coframe/coffee](https://github.com/Coframe/coffee) - AIでUIを10倍速く構築・反復。自分のIDEから直接 ☕️
+- [JoeanAmier/TikTokDownloader](https://github.com/JoeanAmier/TikTokDownloader) - TikTokの投稿/いいね/プレイリスト/ライブ/動画/画像集/音楽、抖音の投稿/いいね/お気に入り/お気に入りフォルダ/動画/画像集/生放送/音楽/プレイリスト/コメント/アカウント/検索/ランキングデータ収集・ダウンロードツール
+- [V-know/ChatGPT-Telegram-Bot](https://github.com/V-know/ChatGPT-Telegram-Bot) - 滑らかなAI体験を提供するTelegramボット。UI対応。
+- [pyecharts/pyecharts](https://github.com/pyecharts/pyecharts) - 🎨 Python用Echarts描画ライブラリ
+- [skypilot-org/skypilot](https://github.com/skypilot-org/skypilot) - SkyPilot：任意のインフラ（Kubernetesや16以上のクラウド）でAIとバッチジョブを実行。統一された実行、コスト削減、高いGPU可用性をシンプルなインターフェースで提供。
+- [jiji262/douyin-downloader](https://github.com/jiji262/douyin-downloader) - 抖音（Douyin）一括ダウンロードツール。ウォーターマーク除去。動画、画像集、プレイリスト、音楽（オリジナルサウンド）対応。無料！無料！無料！
+- [sail-sg/EditAnything](https://github.com/sail-sg/EditAnything) - segment-anything, ControlNet, StableDiffusion等を活用した画像内のあらゆるものを編集可能にするツール（ACM MM）
+- [jackhawks/rectg](https://github.com/jackhawks/rectg) - 10,000以上のTelegramグループ、チャンネル、ボットをネット全体から収集し、質が高く継続的に更新されるリソースを選別。データ分析、研究、学習を支援。すべてのデータはインターネット由来で研究分析目的でのみ使用、商用や違法利用は含まず、利用者は自己責任で使用。
+- [PromtEngineer/localGPT](https://github.com/PromtEngineer/localGPT) - GPTモデルを使ってローカルデバイス上で文書と対話。データはデバイス外に出ず、完全プライベート。
+- [jtsang4/claude-to-chatgpt](https://github.com/jtsang4/claude-to-chatgpt) - AnthropicのClaudeモデルのAPIをOpenAIのChat API形式に変換するプロジェクト。
+- [zhaoolee/wxread](https://github.com/zhaoolee/wxread) - 微信読書の読書時間増加ツール
 - [malinkang/weread2notion](https://github.com/malinkang/weread2notion) - 微信読書のハイライトをNotionに同期
-- [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt) - GPTの力で完全プライベートにドキュメント対話。データ漏洩なし
-- [duaibeom/chemOCR](https://github.com/duaibeom/chemOCR) - DBベースの化学構造式OCR認識
-- [pengxiao-song/LaWGPT](https://github.com/pengxiao-song/LaWGPT) - 🎉 LaWGPTリポジトリ。中国法知識で調整されたChinese-Llama。中文法知識大規模言語モデル
-- [RUCAIBox/LLMSurvey](https://github.com/RUCAIBox/LLMSurvey) - 大規模言語モデル調査論文の公式GitHubページ
-- [AIGC-Audio/AudioGPT](https://github.com/AIGC-Audio/AudioGPT) - AudioGPT: 音声・音楽・サウンド・トーキングヘッドの理解と生成
-- [xtekky/gpt4free](https://github.com/xtekky/gpt4free) - 公式gpt4freeリポジトリ | 強力な言語モデルの各種コレクション | o4, o3, deepseek r1, gpt-4.1, gemini 2.5
-- [OpenMOSS/MOSS](https://github.com/OpenMOSS/MOSS) - 復旦大学発のツール拡張型対話LLMオープンソースモデル
-- [togethercomputer/RedPajama-Data](https://github.com/togethercomputer/RedPajama-Data) - 大規模言語モデル訓練用大規模データセット準備コード
-- [Vision-CAIR/MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) - MiniGPT-4およびMiniGPT-v2のオープンソースコード
-- [facebookresearch/AnimatedDrawings](https://github.com/facebookresearch/AnimatedDrawings) - 「子供の描いた人の絵をアニメ化する手法」論文用コード
-- [pypa/pipx](https://github.com/pypa/pipx) - Pythonアプリケーションを分離環境でインストール＆実行
-- [dylanjcastillo/shell-genie](https://github.com/dylanjcastillo/shell-genie) - あなたの願いは私のコマンド
-- [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) - タスク理解・外部システム連携・情報取得が可能なチャット型AIアシスタント
-- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - すべての人が使い構築できるAIを目指すAutoGPT。あなたが大事なことに集中できるツールを提供。
-- [THUDM/GLM-130B](https://github.com/THUDM/GLM-130B) - GLM-130B: オープンソースのバイリンガル事前学習モデル (ICLR 2023)
-- [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) - ChatGLM-6B: オープンソース双方向対話言語モデル | 開源双語対話言語モデル
-- [binary-husky/gpt_academic](https://github.com/binary-husky/gpt_academic) - GPT/GLM等LLMの実用インターフェイス。論文読解/翻訳/執筆の最適化、モジュール式設計。PDF/LaTeX論文翻訳・要約、chatglm3等もサポート。
-- [gd3kr/BlenderGPT](https://github.com/gd3kr/BlenderGPT) - 英語コマンドでBlenderをGPT-4経由で操作
-- [receyuki/stable-diffusion-prompt-reader](https://github.com/receyuki/stable-diffusion-prompt-reader) - Stable Diffusion生成画像のプロンプトをwebui外で読むためのシンプルなスタンドアロンビューア
+- [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt) - GPTの力を使って文書とインタラクション。100%プライベートでデータ漏洩なし
+- [duaibeom/chemOCR](https://github.com/duaibeom/chemOCR) - DBベースの化学構造光学認識
+- [pengxiao-song/LaWGPT](https://github.com/pengxiao-song/LaWGPT) - 🎉 中国語の法律知識でチューニングしたChinese-Llamaベースの大規模言語モデル
+- [RUCAIBox/LLMSurvey](https://github.com/RUCAIBox/LLMSurvey) - 大規模言語モデルに関する調査論文の公式GitHubページ
+- [AIGC-Audio/AudioGPT](https://github.com/AIGC-Audio/AudioGPT) - AudioGPT：音声、音楽、サウンド、トーキングヘッドの理解と生成
+- [xtekky/gpt4free](https://github.com/xtekky/gpt4free) - 公式gpt4freeリポジトリ｜強力な言語モデルの多様なコレクション｜o4、o3、deepseek r1、gpt-4.1、gemini 2.5
+- [OpenMOSS/MOSS](https://github.com/OpenMOSS/MOSS) - 復旦大学発のオープンソースツール支援対話型言語モデル
+- [togethercomputer/RedPajama-Data](https://github.com/togethercomputer/RedPajama-Data) - 大規模言語モデルの学習用大規模データセット準備コードを含むRedPajama-Dataリポジトリ
+- [Vision-CAIR/MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) - MiniGPT-4およびMiniGPT-v2のオープンソースコード（https://minigpt-4.github.io, https://minigpt-v2.github.io/）
+- [facebookresearch/AnimatedDrawings](https://github.com/facebookresearch/AnimatedDrawings) - 「子供の人体描画をアニメ化する方法」に付随するコード
+- [pypa/pipx](https://github.com/pypa/pipx) - Pythonアプリケーションを隔離環境でインストール＆実行
+- [dylanjcastillo/shell-genie](https://github.com/dylanjcastillo/shell-genie) - あなたの願いは私の命令
+- [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) - タスク理解、サードパーティシステムとのインタラクション、情報動的取得が可能なチャットベースのアシスタント
+- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - すべての人にアクセス可能なAIのビジョン。使用と構築のためのツールを提供し、重要なことに集中できるようにする。
+- [THUDM/GLM-130B](https://github.com/THUDM/GLM-130B) - GLM-130B：オープンなバイリンガル事前学習モデル（ICLR 2023）
+- [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) - ChatGLM-6B：オープンバイリンガル対話型言語モデル | 開源双语对话语言模型
+- [binary-husky/gpt_academic](https://github.com/binary-husky/gpt_academic) - GPT/GLMなどのLLM大規模言語モデル向け実用的インターフェース、特に論文読解/校正/執筆体験を最適化。モジュール設計、カスタムショートカット＆関数プラグイン対応、PythonやC++プロジェクト解析＆自動翻訳機能、PDF/LaTex論文翻訳＆要約、多モデル並列問合せ対応、chatglm3などローカルモデル対応。通義千問、deepseekcoder、讯飞星火、文心一言、llama2、rwkv、claude2、mossに接続可能。
+- [gd3kr/BlenderGPT](https://github.com/gd3kr/BlenderGPT) - 英語コマンドでOpenAIのGPT-4を使いBlenderを操作
+- [receyuki/stable-diffusion-prompt-reader](https://github.com/receyuki/stable-diffusion-prompt-reader) - WebUI外でStable Diffusion生成画像のプロンプトを読むためのシンプルなスタンドアロンビューア
 - [Moksh-Bhardwaj/public-forward-bot](https://github.com/Moksh-Bhardwaj/public-forward-bot) - 
-- [lm-sys/FastChat](https://github.com/lm-sys/FastChat) - 大規模言語モデルの訓練・提供・評価のオープンプラットフォーム。VicunaやChatbot Arenaのリリースリポジトリ。
-- [chidiwilliams/buzz](https://github.com/chidiwilliams/buzz) - OpenAI Whisper搭載、PC上で音声をオフライン文字起こし・翻訳するツール
-- [phguo/AskGPT](https://github.com/phguo/AskGPT) - AskGPT: Alfred WorkflowでどこからでもChatGPTに質問
-- [visual-openllm/visual-openllm](https://github.com/visual-openllm/visual-openllm) - visual-chatgptのようなもの、文心一言のオープンソース版
+- [lm-sys/FastChat](https://github.com/lm-sys/FastChat) - 大規模言語モデルのトレーニング、提供、評価のためのオープンプラットフォーム。VicunaおよびChatbot Arenaのリリースリポジトリ。
+- [chidiwilliams/buzz](https://github.com/chidiwilliams/buzz) - Buzzは個人PC上で音声をオフラインで書き起こし翻訳。OpenAIのWhisper搭載。
+- [phguo/AskGPT](https://github.com/phguo/AskGPT) - AskGPT：どこからでもChatGPTに質問できるAlfredワークフロー。
+- [visual-openllm/visual-openllm](https://github.com/visual-openllm/visual-openllm) - visual-chatgptのようなもの、文心一言のオープン版
 - [kale5195/chilloutai](https://github.com/kale5195/chilloutai) - AI画像生成
 - [npiv/chatblade](https://github.com/npiv/chatblade) - ChatGPT用CLIスイスアーミーナイフ
-- [yashsinghcodes/wik](https://github.com/yashsinghcodes/wik) - Wikipediaを利用し、シェル上であらゆる情報を取得
-- [alpa-projects/alpa](https://github.com/alpa-projects/alpa) - 自動並列化による大規模ニューラルネットの訓練・提供
-- [SkywalkerDarren/chatWeb](https://github.com/SkywalkerDarren/chatWeb) - Webページ/PDF/DOCX/TXTの主要内容を抽出し、要約やQ&A可能なチャットツール
+- [yashsinghcodes/wik](https://github.com/yashsinghcodes/wik) - シェル上でWikipediaを使い何でも情報取得
+- [alpa-projects/alpa](https://github.com/alpa-projects/alpa) - 自動並列化による大規模ニューラルネットワークのトレーニングと提供。
+- [SkywalkerDarren/chatWeb](https://github.com/SkywalkerDarren/chatWeb) - ChatWebはウェブページをクロールし、PDF、DOCX、TXTを読み込み主要コンテンツを抽出し、その内容に基づいて質問に答えたり要約したりします。
 - [chenfei-wu/TaskMatrix](https://github.com/chenfei-wu/TaskMatrix) - 
-- [yihong0618/bilingual_book_maker](https://github.com/yihong0618/bilingual_book_maker) - AI翻訳でバイリンガルepub本を作成
-- [evilpan/gptcli](https://github.com/evilpan/gptcli) - OpenAI API (gpt-3.5-turbo/gpt-4/gpt-4-32k)でコマンドラインChatGPT
-- [mukulpatnaik/researchgpt](https://github.com/mukulpatnaik/researchgpt) - 論文と会話できるLLMベース研究アシスタント
-- [OFA-Sys/Chinese-CLIP](https://github.com/OFA-Sys/Chinese-CLIP) - 中国語クロスモーダル検索・表現生成を実現するCLIP中国語版
-- [father-bot/chatgpt_telegram_bot](https://github.com/father-bot/chatgpt_telegram_bot) - 💬 ChatGPT搭載Telegramボット。Python製、OpenAI API利用。
-- [yihong0618/xiaogpt](https://github.com/yihong0618/xiaogpt) - Xiaomi AIスピーカーでChatGPTや他LLMを利用
-- [PR0FESS0R-99/Midukki-RoBoT](https://github.com/PR0FESS0R-99/Midukki-RoBoT) - グループ管理・セキュリティ・多機能を備えたグループ管理Telegramボット
-- [microsoft/Codex-CLI](https://github.com/microsoft/Codex-CLI) - Codexで自然言語コマンドをBash/ZShell/PowerShellコマンドに変換するCLIツール
-- [acheong08/ChatGPT](https://github.com/acheong08/ChatGPT) - ChatGPT APIのリバースエンジニアリング
-- [anasty17/mirror-leech-telegram-bot](https://github.com/anasty17/mirror-leech-telegram-bot) - 公式リポジトリ：様々なクラウド・サイトからのダウンロード対応Telegramボット
-- [Gsllchb/Handright](https://github.com/Gsllchb/Handright) - 中国語手書き風をシミュレートする軽量Pythonライブラリ
-- [ahui2016/R2-Gallery](https://github.com/ahui2016/R2-Gallery) - 個人用独立写真ギャラリー。Cloudflare R2を画像保存に使用。
-- [yash1th/unsplash-album-downloader](https://github.com/yash1th/unsplash-album-downloader) - Unsplashのアルバム写真を一括ダウンロード
+- [yihong0618/bilingual_book_maker](https://github.com/yihong0618/bilingual_book_maker) - AI翻訳を使ったバイリンガルEPUB書籍の作成
+- [evilpan/gptcli](https://github.com/evilpan/gptcli) - OpenAI API（gpt-3.5-turbo/gpt-4/gpt-4-32k）を使ったコマンドラインのChatGPT
+- [mukulpatnaik/researchgpt](https://github.com/mukulpatnaik/researchgpt) - 論文と対話可能なLLMベース研究アシスタント
+- [OFA-Sys/Chinese-CLIP](https://github.com/OFA-Sys/Chinese-CLIP) - 中国語版CLIP。中国語のクロスモーダル検索と表現生成を実現。
+- [father-bot/chatgpt_telegram_bot](https://github.com/father-bot/chatgpt_telegram_bot) - 💬 OpenAI APIを使ったPythonベースのChatGPT Telegramボット。
+- [yihong0618/xiaogpt](https://github.com/yihong0618/xiaogpt) - Xiaomi AIスピーカーでChatGPTなどのLLMを遊ぶ
+- [PR0FESS0R-99/Midukki-RoBoT](https://github.com/PR0FESS0R-99/Midukki-RoBoT) - Midukki-RoBoTは高度なセキュリティツールを備えたグループ管理用オールインワンボット。あらゆるニーズに対応 ❤️
+- [microsoft/Codex-CLI](https://github.com/microsoft/Codex-CLI) - Codexを使って自然言語コマンドをBash/ZShell/PowerShellコマンドに変換するCLIツール
+- [acheong08/ChatGPT](https://github.com/acheong08/ChatGPT) - ChatGPT APIをリバースエンジニアリング
+- [anasty17/mirror-leech-telegram-bot](https://github.com/anasty17/mirror-leech-telegram-bot) - 公式リポジトリ：直接リンク、トレント、nzb、Googleドライブ、Telegramドキュメント、rclone対応クラウドのファイル/フォルダ、yt-dlp対応サイト、jdownloaからのダウンロードが可能なTelegramボット
+- [Gsllchb/Handright](https://github.com/Gsllchb/Handright) - 中国語手書きシミュレーション用軽量Pythonライブラリ
+- [ahui2016/R2-Gallery](https://github.com/ahui2016/R2-Gallery) - 個人独立アルバム。画像保存にCloudflare R2を使用。
+- [yash1th/unsplash-album-downloader](https://github.com/yash1th/unsplash-album-downloader) - Unsplashの写真アルバムを丸ごとダウンロード
 - [Cog-Creators/Red-DiscordBot](https://github.com/Cog-Creators/Red-DiscordBot) - 多機能Discordボット
-- [sjvasquez/handwriting-synthesis](https://github.com/sjvasquez/handwriting-synthesis) - RNNによる手書き合成 ✏️
+- [sjvasquez/handwriting-synthesis](https://github.com/sjvasquez/handwriting-synthesis) - RNNを用いた手書き合成 ✏️
 - [zhelper-org/tgbot](https://github.com/zhelper-org/tgbot) - zhelper tgbot
-- [approximatelabs/sketch](https://github.com/approximatelabs/sketch) - データ内容を理解するAIコードライティングアシスタント
-- [ehulinsky/AnalogChess](https://github.com/ehulinsky/AnalogChess) - 格子なしのチェス
-- [PantsuDango/Dango-Translator](https://github.com/PantsuDango/Dango-Translator) - 団子翻訳器 — OCR技術ベースの翻訳ツール（個人開発）
-- [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) - ミディアムサイズGPTの最もシンプルかつ高速な学習/微調整リポジトリ
-- [liblaf/thu-learn-downloader](https://github.com/liblaf/thu-learn-downloader) - 清華大学Web学習からすべてをダウンロード
-- [WhymustIhaveaname/TsinghuaTunet](https://github.com/WhymustIhaveaname/TsinghuaTunet) - 清華Tunet自動接続スクリプト。清華キャンパスネット自動接続。
-- [zhaoolee/ins](https://github.com/zhaoolee/ins) - 🍭インターネット業界従事者のためのインスピレーションデータベース。広告なし。Github Actionsでウェブサイトのアクセス速度を自動検出。
-- [lonnyzhang423/douyin-hot-hub](https://github.com/lonnyzhang423/douyin-hot-hub) - 抖音（Douyin）のホットランキング、スターランキング、ライブランキング、音楽ランキング、ブランドランキングを毎時更新し、日毎にアーカイブ。
-- [net4people/bbs](https://github.com/net4people/bbs) - インターネット検閲回避について議論するフォーラム
-- [kael-k/telegram-webdav-integration-bot](https://github.com/kael-k/telegram-webdav-integration-bot) - Telegramボットで写真、動画、ドキュメントをWebDAVディレクトリへ送信
-- [qazxcdswe123/telegramMemoBot](https://github.com/qazxcdswe123/telegramMemoBot) - https://github.com/usememos/memos 用のTelegramボット
-- [carson-katri/dream-textures](https://github.com/carson-katri/dream-textures) - Blenderに内蔵されたStable Diffusion
+- [approximatelabs/sketch](https://github.com/approximatelabs/sketch) - データコンテンツを理解するAIコード作成アシスタント
+- [ehulinsky/AnalogChess](https://github.com/ehulinsky/AnalogChess) - グリッドなしのチェス
+- [PantsuDango/Dango-Translator](https://github.com/PantsuDango/Dango-Translator) - 団子翻訳器 — OCR技術ベースの個人趣味製作翻訳器
+- [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) - 中規模GPTのトレーニング/微調整用最もシンプルかつ高速なリポジトリ。
+- [liblaf/thu-learn-downloader](https://github.com/liblaf/thu-learn-downloader) - 清華大学ウェブ学習からすべてダウンロード
+
+- [WhymustIhaveaname/TsinghuaTunet](https://github.com/WhymustIhaveaname/TsinghuaTunet) - 清华校园网自動接続スクリプト。
+- [zhaoolee/ins](https://github.com/zhaoolee/ins) - 🍭インターネット従事者のインスピレーションデータベース、広告なし、Github Actionsでウェブサイトのアクセス速度を自動検出
+- [lonnyzhang423/douyin-hot-hub](https://github.com/lonnyzhang423/douyin-hot-hub) - 抖音（TikTok中国版）のホットランキング、スターランキング、ライブランキング、音楽ランキング、ブランドランキングを記録し、毎時更新、日別アーカイブ。
+- [net4people/bbs](https://github.com/net4people/bbs) - インターネット検閲回避に関するフォーラム
+- [kael-k/telegram-webdav-integration-bot](https://github.com/kael-k/telegram-webdav-integration-bot) - Telegramボットで写真、ビデオ、ドキュメントをwebdavディレクトリに送信
+- [qazxcdswe123/telegramMemoBot](https://github.com/qazxcdswe123/telegramMemoBot) - https://github.com/usememos/memos用のTelegramボット
+- [carson-katri/dream-textures](https://github.com/carson-katri/dream-textures) - Blenderに組み込まれたStable Diffusion
 - [openai/openai-python](https://github.com/openai/openai-python) - OpenAI APIの公式Pythonライブラリ
-- [apple/ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion) - Apple Silicon上でCore MLによるStable Diffusion
-- [HFrost0/bilix](https://github.com/HFrost0/bilix) - ⚡️bilibiliなどのための超高速非同期ダウンロードツール
-- [Evil0ctal/Douyin_TikTok_Download_API](https://github.com/Evil0ctal/Douyin_TikTok_Download_API) - 🚀「Douyin_TikTok_Download_API」は、抖音、快手、TikTok、Bilibiliデータの高性能非同期クローラー。API呼び出し、オンライン一括解析・ダウンロード対応。
-- [Johnserf-Seed/TikTokDownload](https://github.com/Johnserf-Seed/TikTokDownload) - 抖音のウォーターマーク除去バッチダウンロード、ユーザーページ作品・いいね・コレクション・画像・音声に対応
-- [OpenShot/openshot-qt](https://github.com/OpenShot/openshot-qt) - OpenShot Video Editorは、Linux、Mac、Windows対応の受賞歴ある無料オープンソース動画編集ツール。高品質な動画編集・アニメーションソリューションを提供。
-- [yym68686/ChatGPT-Telegram-Bot](https://github.com/yym68686/ChatGPT-Telegram-Bot) - TeleChat: 🤖️ GPT-3.5/4/4 Turbo/4o, DALL·E 3, Groq, Gemini 1.5 Pro/Flash, 公式Claude2.1/3/3.5 APIを搭載したAIチャットTelegramボット。Web検索も可能。PythonでZeabur, fly.io, Replit上動作。
-- [bestmatteo/Telegram-Bot](https://github.com/bestmatteo/Telegram-Bot) - SeleniumによるTelegram自動転送ボット
-- [altryne/chatGPT-telegram-bot](https://github.com/altryne/chatGPT-telegram-bot) - chatGPTをTelegramボットで動作させる初期的な試み
-- [radude/rentry](https://github.com/radude/rentry) - コマンドラインから利用するMarkdownペーストビン
-- [erbanku/zhihu-archiver-2022-archived](https://github.com/erbanku/zhihu-archiver-2022-archived) - 知乎ホットランキングを毎日自動取得し、Markdownに変換して静的サイトを構築
-- [shiwk20/TsinghuaCloudDownload](https://github.com/shiwk20/TsinghuaCloudDownload) - 清華クラウドからファイルをダウンロードするスクリプト
-- [QianyanTech/Image-Downloader](https://github.com/QianyanTech/Image-Downloader) - Google、Bing、Baiduの画像ダウンローダー。谷歌、百度、必応画像ダウンロード。
+- [apple/ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion) - Apple Silicon上のCore MLによるStable Diffusion
+- [HFrost0/bilix](https://github.com/HFrost0/bilix) - ⚡️bilibiliなどの超高速非同期ダウンロードツール
+- [Evil0ctal/Douyin_TikTok_Download_API](https://github.com/Evil0ctal/Douyin_TikTok_Download_API) - 🚀「Douyin_TikTok_Download_API」は高性能非同期の抖音、快手、TikTok、Bilibiliデータスクレイピングツールで、API呼び出し、オンライン一括解析およびダウンロードをサポート。
+- [Johnserf-Seed/TikTokDownload](https://github.com/Johnserf-Seed/TikTokDownload) - 抖音の透かしなしバッチダウンロード、ユーザーホームページの作品、いいね、コレクション、テキスト・画像、音声
+- [OpenShot/openshot-qt](https://github.com/OpenShot/openshot-qt) - OpenShot Video EditorはLinux、Mac、Windows対応の受賞歴のある無料オープンソース動画編集ソフトで、高品質な動画編集とアニメーションソリューションを提供。
+- [yym68686/ChatGPT-Telegram-Bot](https://github.com/yym68686/ChatGPT-Telegram-Bot) - TeleChat: 🤖️ GPT-3.5/4/4 Turbo/4o、DALL·E 3、Groq、Gemini 1.5 Pro/Flash、公式Claude2.1/3/3.5 APIをPythonでZeabur、fly.io、Replit上で動作するWeb検索対応AIチャットTelegramボット
+- [bestmatteo/Telegram-Bot](https://github.com/bestmatteo/Telegram-Bot) - SeleniumによるTelegram自動転送メッセージ
+- [altryne/chatGPT-telegram-bot](https://github.com/altryne/chatGPT-telegram-bot) - chatGPTをTelegramボット内で動作させる非常に初期の試み
+- [radude/rentry](https://github.com/radude/rentry) - コマンドラインから使えるMarkdownペーストビン
+- [erbanku/zhihu-archiver-2022-archived](https://github.com/erbanku/zhihu-archiver-2022-archived) - 毎日自動で知乎のホットランキングを取得し、Markdownファイルに変換し静的サイトを構築
+- [shiwk20/TsinghuaCloudDownload](https://github.com/shiwk20/TsinghuaCloudDownload) - 清华云からファイルをダウンロードするスクリプト
+- [QianyanTech/Image-Downloader](https://github.com/QianyanTech/Image-Downloader) - Google、Bing、百度から画像をダウンロード。Google、百度、必应画像ダウンロード。
 - [mli/autocut](https://github.com/mli/autocut) - テキストエディタで動画をカット
-- [THUDM/CodeGeeX](https://github.com/THUDM/CodeGeeX) - CodeGeeX: オープンな多言語対応コード生成モデル (KDD 2023)
-- [MaxxRider/Leech-Pro](https://github.com/MaxxRider/Leech-Pro) - Telegram Leech/Mirrorボット。Python製。gdriveやrclone.org対応ストレージへのアップロード、解凍/unrar/untarに対応。
-- [kerm-me/docdown](https://github.com/kerm-me/docdown) - playwright駆動のオリジナルBook118、豆丁網docinダウンロードツール
-- [jagrit007/Telegram-CloneBot](https://github.com/jagrit007/Telegram-CloneBot) - [ALPHAブランチを使用] Google Driveファイルやフォルダをチームドライブ/通常ドライブにクローンするシンプルなボット。※ミラーボットではありません。
-- [danielgatis/rembg](https://github.com/danielgatis/rembg) - Rembgは画像の背景を削除するツール
-- [Sam-Max/rcmltb](https://github.com/Sam-Max/rcmltb) - 複数クラウド間でミラーダウンロード・コピーができるrclone Telegramボット
-- [mpc001/Visual_Speech_Recognition_for_Multiple_Languages](https://github.com/mpc001/Visual_Speech_Recognition_for_Multiple_Languages) - 複数言語対応視覚的音声認識
-- [StevenBlack/hosts](https://github.com/StevenBlack/hosts) - 🔒 厳選されたソースからのhostsファイルを統合・拡張。ポルノ、SNS、その他カテゴリの拡張も選択可能。
-- [soxoj/maigret](https://github.com/soxoj/maigret) - 🕵️‍♂️ 数千のサイトからユーザー名で人物の情報を収集
-- [mxrch/GitFive](https://github.com/mxrch/GitFive) - 🐙 GitHubユーザーを追跡
-- [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - Stable Diffusion用Web UI
-- [openai/whisper](https://github.com/openai/whisper) - 大規模弱教師あり学習による高精度音声認識
-- [magicse/GFPGANv1.3-to-ncnn](https://github.com/magicse/GFPGANv1.3-to-ncnn) - GFPGANネットワークはGFPGANとStyleGAN2の2つで構成
+- [THUDM/CodeGeeX](https://github.com/THUDM/CodeGeeX) - CodeGeeX: 多言語対応のコード生成モデル（KDD 2023）
+- [MaxxRider/Leech-Pro](https://github.com/MaxxRider/Leech-Pro) - PythonベースのTelegram Leech / Mirror Bot。ファイルやフォルダをgdriveやrclone.org対応ドライブ（onedrive、megaなど）にアップロード可能。現在は解凍、unrar、untもサポート。
+- [kerm-me/docdown](https://github.com/kerm-me/docdown) - playwrightを強力に駆使した原创力文档book118と豆丁网docinのダウンロードツール
+- [jagrit007/Telegram-CloneBot](https://github.com/jagrit007/Telegram-CloneBot) - [ALPHA BRANCH使用] Google Driveのファイル（またはフォルダ）をチームドライブまたは通常のドライブにクローンするシンプルボット。ミラーボットではありません。楽しんでください✌🏻
+- [danielgatis/rembg](https://github.com/danielgatis/rembg) - 画像の背景を除去するツール
+- [Sam-Max/rcmltb](https://github.com/Sam-Max/rcmltb) - 複数クラウドサーバ間のミラー、リーチ、コピー用rclone Telegramボット
+- [mpc001/Visual_Speech_Recognition_for_Multiple_Languages](https://github.com/mpc001/Visual_Speech_Recognition_for_Multiple_Languages) - 多言語対応の視覚音声認識
+- [StevenBlack/hosts](https://github.com/StevenBlack/hosts) - 🔒 いくつかの厳選されたソースからhostsファイルを統合・拡張。ポルノ、ソーシャルメディア等の拡張選択可能。
+- [soxoj/maigret](https://github.com/soxoj/maigret) - 🕵️‍♂️ 数千のサイトからユーザー名で人の情報を収集
+- [mxrch/GitFive](https://github.com/mxrch/GitFive) - 🐙 GitHubユーザーの追跡ツール
+- [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - Stable DiffusionのWeb UI
+- [openai/whisper](https://github.com/openai/whisper) - 大規模弱教師あり学習による堅牢な音声認識
+- [magicse/GFPGANv1.3-to-ncnn](https://github.com/magicse/GFPGANv1.3-to-ncnn) - GFPGANネットワークは2つのネットワークで構成。実際にはGFPGANとStyleGAN2。
 - [pixray/pixray](https://github.com/pixray/pixray) - 
-- [subframe7536/maple-font](https://github.com/subframe7536/maple-font) - Maple Mono: 角丸・連字・Nerd-Fontアイコン付きIDE/ターミナル用等幅フォント。中英幅2:1。細かいカスタマイズも可能。
-- [aws/aws-cli](https://github.com/aws/aws-cli) - Amazon Web Services用ユニバーサルコマンドラインインターフェース
+- [subframe7536/maple-font](https://github.com/subframe7536/maple-font) - Maple Mono: 丸みのある角、リガチャ、Nerd-Fontアイコンを備えたオープンソース等幅フォント。IDEとターミナル用、細かいカスタマイズオプション。連字とコンソールアイコン付きの丸角等幅フォント、中英文字幅は完璧な2:1、細粒度カスタマイズ可能。
+- [aws/aws-cli](https://github.com/aws/aws-cli) - Amazon Web Services用の汎用コマンドラインインターフェース
 - [archinetai/audio-diffusion-pytorch](https://github.com/archinetai/audio-diffusion-pytorch) - PyTorchによる拡散モデルを用いた音声生成
 - [Aadhi000/File-To-Link](https://github.com/Aadhi000/File-To-Link) - 
-- [microsoft/fluentui-emoji](https://github.com/microsoft/fluentui-emoji) - Microsoftの親しみやすくモダンな絵文字コレクション
-- [donnemartin/awesome-aws](https://github.com/donnemartin/awesome-aws) - AWSの優れたライブラリ、OSS、ガイド、ブログ等の厳選リスト。「Fiery Meter of AWSome」も搭載。
+- [microsoft/fluentui-emoji](https://github.com/microsoft/fluentui-emoji) - Microsoftによる親しみやすくモダンな絵文字コレクション
+- [donnemartin/awesome-aws](https://github.com/donnemartin/awesome-aws) - 素晴らしいAmazon Web Services (AWS)ライブラリ、オープンソースリポジトリ、ガイド、ブログ、その他リソースの厳選リスト。Fiery Meter of AWSomeを特色。
 - [google-deepmind/alphafold](https://github.com/google-deepmind/alphafold) - AlphaFold 2のオープンソースコード
-- [mikf/gallery-dl](https://github.com/mikf/gallery-dl) - 複数画像ホスティングサイトから画像ギャラリーをコマンドラインでダウンロード
+- [mikf/gallery-dl](https://github.com/mikf/gallery-dl) - 複数の画像ホスティングサイトから画像ギャラリーやコレクションをダウンロードするコマンドラインプログラム
 - [NVlabs/eg3d](https://github.com/NVlabs/eg3d) - 
-- [chrieke/prettymapp](https://github.com/chrieke/prettymapp) - 🖼️ OpenStreetMapデータから美しい地図を作成するStreamlitウェブアプリ
-- [streamlit/streamlit](https://github.com/streamlit/streamlit) - Streamlit — データアプリを高速構築＆共有
-- [yihong0618/GitHubPoster](https://github.com/yihong0618/GitHubPoster) - すべてをGitHub SVGポスターやSkylineに！
-- [yihong0618/Kindle_download_helper](https://github.com/yihong0618/Kindle_download_helper) - Kindle本を全てダウンロードするスクリプト
-- [athphane/userbot](https://github.com/athphane/userbot) - Pyrogram製Telegramユーザーボット
-- [3b1b/manim](https://github.com/3b1b/manim) - 説明用数学動画のアニメーションエンジン
+- [chrieke/prettymapp](https://github.com/chrieke/prettymapp) - 🖼️ OpenStreetMapデータから美しい地図を作成するstreamlitウェブアプリ
+- [streamlit/streamlit](https://github.com/streamlit/streamlit) - Streamlit — データアプリをより速く構築・共有
+- [yihong0618/GitHubPoster](https://github.com/yihong0618/GitHubPoster) - すべてをGitHub SVGポスターとスカイラインにするツール
+- [yihong0618/Kindle_download_helper](https://github.com/yihong0618/Kindle_download_helper) - すべてのKindle本をダウンロードするスクリプト
+- [athphane/userbot](https://github.com/athphane/userbot) - Pyrogramで構築されたTelegramユーザーボット
+- [3b1b/manim](https://github.com/3b1b/manim) - 解説数学動画用アニメーションエンジン
 - [ivy-llc/ivy](https://github.com/ivy-llc/ivy) - 機械学習コードをフレームワーク間で変換
 - [tuna/tunasync-scripts](https://github.com/tuna/tunasync-scripts) - ミラージョブ用カスタムスクリプト
-- [Textualize/textual](https://github.com/Textualize/textual) - シンプルなPython APIで高度なUIを構築。ターミナル・Webブラウザ両対応の軽量アプリケーションフレームワーク。
-- [Textualize/rich-cli](https://github.com/Textualize/rich-cli) - リッチな端末出力のためのコマンドラインツールボックス
-- [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) - PaddlePaddleベースの多言語OCR&ドキュメント解析ツールキット（実用超軽量OCR、80+言語、データアノテーション・合成ツール等）
-- [zqthu/thu_cloud_download](https://github.com/zqthu/thu_cloud_download) - 清華クラウド(https://cloud.tsinghua.edu.cn/)の共有リンクからファイルを取得
+- [Textualize/textual](https://github.com/Textualize/textual) - Python用の軽量アプリケーションフレームワーク。シンプルなPython APIで洗練されたユーザーインターフェースを構築。ターミナルとウェブブラウザでアプリを実行。
+- [Textualize/rich-cli](https://github.com/Textualize/rich-cli) - ターミナルで豪華な出力を行うコマンドラインツールボックス
+- [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) - PaddlePaddleベースの多言語対応OCRおよびドキュメント解析ツールキット（実用的な超軽量OCRシステム、80+言語認識対応、データアノテーションおよび合成ツール提供）
+- [zqthu/thu_cloud_download](https://github.com/zqthu/thu_cloud_download) - 清华クラウド(https://cloud.tsinghua.edu.cn/)の共有リンクからファイルを取得
 - [ILTShade/tsinghua_cloud_upload](https://github.com/ILTShade/tsinghua_cloud_upload) - 
-- [mingrammer/diagrams](https://github.com/mingrammer/diagrams) - :art: コードで記述するクラウドシステム設計図プロトタイピング
-- [RaphielGang/Telegram-Paperplane](https://github.com/RaphielGang/Telegram-Paperplane) - Paperplaneユーザーボットプロジェクト - Telegram体験向上のためのユーザーボット https://t.me/tgpaperplane
-- [zhanghefan123/Starperf-Satellite-Simulator](https://github.com/zhanghefan123/Starperf-Satellite-Simulator) - 清華衛星ネットワークシミュレーションプラットフォーム
-- [aaronraimist/element-themes](https://github.com/aaronraimist/element-themes) - Element用テーマ共有の場。新テーマのPR歓迎！
+- [mingrammer/diagrams](https://github.com/mingrammer/diagrams) - :art: クラウドシステムアーキテクチャのプロトタイピング用コードとしての図
+- [RaphielGang/Telegram-Paperplane](https://github.com/RaphielGang/Telegram-Paperplane) - Paperplaneユーザーボットプロジェクト - Telegram体験を向上させるTelegramユーザーボット。https://t.me/tgpaperplane
+- [zhanghefan123/Starperf-Satellite-Simulator](https://github.com/zhanghefan123/Starperf-Satellite-Simulator) - 清华衛星ネットワークシミュレーションプラットフォーム
+- [aaronraimist/element-themes](https://github.com/aaronraimist/element-themes) - Element用テーマ共有場所。新テーマのPR歓迎！
 - [borisdayma/dalle-mini](https://github.com/borisdayma/dalle-mini) - DALL·E Mini - テキストプロンプトから画像生成
 - [Konano/thu-info-forwarder](https://github.com/Konano/thu-info-forwarder) - 
 - [python/cpython](https://github.com/python/cpython) - Pythonプログラミング言語
-- [khoben/telemirror](https://github.com/khoben/telemirror) - Telegramメッセージ転送ボット（クライアントAPI）
-- [CMiksche/gitea-auto-update](https://github.com/CMiksche/gitea-auto-update) - crontabでgiteaを新バージョンに自動更新するスクリプト
-- [praneetk2704/JPG-to-PDF](https://github.com/praneetk2704/JPG-to-PDF) - 複数画像からPDFを数秒で作成するシンプルなPythonスクリプト
-- [Polaris119/Epidemic-visualization](https://github.com/Polaris119/Epidemic-visualization) - 中国新型コロナウイルス流行データ可視化
-- [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) - 大規模AIモデルをより安価・高速・手軽に
-- [blackboxo/CleanMyWechat](https://github.com/blackboxo/CleanMyWechat) - PC版WeChatのキャッシュデータ（自動DLファイル・動画・画像等）を自動削除、ストレージを解放
-- [why20021008/hand-write](https://github.com/why20021008/hand-write) - 手書き風効果をシミュレートし、時間を節約
+- [khoben/telemirror](https://github.com/khoben/telemirror) - Telegramメッセージ転送（クライアントAPI）
+- [CMiksche/gitea-auto-update](https://github.com/CMiksche/gitea-auto-update) - crontabを使用してgiteaを自動的に新バージョンに更新するスクリプト
+- [praneetk2704/JPG-to-PDF](https://github.com/praneetk2704/JPG-to-PDF) - 数秒で画像セットからPDFファイルを作成するシンプルPythonスクリプト
+- [Polaris119/Epidemic-visualization](https://github.com/Polaris119/Epidemic-visualization) - 中国の新型コロナウイルス感染症データの可視化
+- [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) - 大規模AIモデルをより安価に、高速に、アクセスしやすく
+- [blackboxo/CleanMyWechat](https://github.com/blackboxo/CleanMyWechat) - PC版WeChatのキャッシュデータを自動削除、すべてのチャットから自動ダウンロードされた大量のファイル、動画、画像等をクリアし、ストレージを解放。
+- [why20021008/hand-write](https://github.com/why20021008/hand-write) - 手書き効果をシミュレートし、時間を節約。
 - [FederatedAI/FATE](https://github.com/FederatedAI/FATE) - 産業グレードのフェデレーテッドラーニングフレームワーク
-- [google-parfait/tensorflow-federated](https://github.com/google-parfait/tensorflow-federated) - 分散データ上での機械学習/計算のためのオープンソースフレームワーク
-- [project-alice-assistant/ProjectAlice](https://github.com/project-alice-assistant/ProjectAlice) - Project Aliceのメインリポジトリ、メインユニットソースコードを含む
-- [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) - すべての人のための投資リサーチ
+- [google-parfait/tensorflow-federated](https://github.com/google-parfait/tensorflow-federated) - 分散データ上の機械学習やその他計算のためのオープンソースフレームワーク
+- [project-alice-assistant/ProjectAlice](https://github.com/project-alice-assistant/ProjectAlice) - Project Aliceのメインリポジトリ、メインユニットのソースコード含む
+- [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) - どこでもだれでも使える投資リサーチ
 - [GeekTG/Friendly-Telegram](https://github.com/GeekTG/Friendly-Telegram) - インラインボタン対応の最高のTelegramユーザーボット
-- [archlinux/archinstall](https://github.com/archlinux/archinstall) - Arch Linuxインストーラー - ガイド付き、テンプレート等
+- [archlinux/archinstall](https://github.com/archlinux/archinstall) - Arch Linuxインストーラー - ガイド付き、テンプレートなど
 - [globus/globus-cli](https://github.com/globus/globus-cli) - Globus用コマンドラインインターフェース
-- [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) - Linux、Jenkins、AWS、SRE、Prometheus、Docker、Python、Ansible、Git、Kubernetes、Terraform、OpenStack、SQL、NoSQL、Azure、GCP、DNS、Elastic、ネットワーク、仮想化等のDevOps面接対策問題
-- [YaoFANGUK/video-subtitle-extractor](https://github.com/YaoFANGUK/video-subtitle-extractor) - 動画ハード字幕抽出、srt生成。第三者API不要、ローカルでテキスト認識。深層学習ベースの字幕抽出・領域検出・内容抽出。GUI付き。
-- [aaPanel/aaPanel](https://github.com/aaPanel/aaPanel) - シンプルで強力なWebベースのコントロールパネル
-- [aaPanel/BaoTa](https://github.com/aaPanel/BaoTa) - 宝塔Linuxパネル - シンプルで使いやすいサーバー運用パネル
-- [Dragon-Born/warpy](https://github.com/Dragon-Born/warpy) - WARP+をWireGuardとして取得するためのPython製コマンドラインツール
-- [pinry/pinry](https://github.com/pinry/pinry) - Pinry：画像・動画・ウェブページを保存・タグ付け・共有するタイル型ボードシステム。OSSでセルフホスト対応。
-- [nvbn/thefuck](https://github.com/nvbn/thefuck) - 前回のコンソールコマンドを修正する素晴らしいアプリ
-- [httpie/cli](https://github.com/httpie/cli) - 🥧 HTTPie CLI — モダンで使いやすいAPI時代のコマンドラインHTTPクライアント。JSON対応、カラー、セッション、ダウンロード、プラグイン等。
-- [alfem/telegram-download-daemon](https://github.com/alfem/telegram-download-daemon) - Telegramで大容量ファイルを自動ダウンロードするシンプルなスクリプト
-- [No-OnE-Kn0wS-Me/FileRenameBot](https://github.com/No-OnE-Kn0wS-Me/FileRenameBot) - サムネイル永続対応・ファイル→動画変換もできるTelegramファイルリネームボット
+- [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) - Linux、Jenkins、AWS、SRE、Prometheus、Docker、Python、Ansible、Git、Kubernetes、Terraform、OpenStack、SQL、NoSQL、Azure、GCP、DNS、Elastic、ネットワーク、仮想化。DevOps面接問題集
+- [YaoFANGUK/video-subtitle-extractor](https://github.com/YaoFANGUK/video-subtitle-extractor) - 動画のハード字幕抽出、srtファイル生成。第三者API不要でローカルでテキスト認識実現。深層学習ベースの動画字幕抽出フレームワークで字幕領域検出、字幕内容抽出を含む。GUIツール。
+- [aaPanel/aaPanel](https://github.com/aaPanel/aaPanel) - シンプルだが強力なウェブベースコントロールパネル
+- [aaPanel/BaoTa](https://github.com/aaPanel/BaoTa) - 宝塔Linuxパネル - 簡単で使いやすいサーバー運用パネル
+- [Dragon-Born/warpy](https://github.com/Dragon-Born/warpy) - Pythonで書かれたWireGuardとしてのWARP+取得用コマンドラインプログラム
+- [pinry/pinry](https://github.com/pinry/pinry) - Pinryは画像、動画、ウェブページを保存、タグ付け、共有できるタイル型画像掲示板システム。オープンソースでセルフホスト可能。
+- [nvbn/thefuck](https://github.com/nvbn/thefuck) - 直前のコンソールコマンドを修正する素晴らしいアプリ。
+- [httpie/cli](https://github.com/httpie/cli) - 🥧 HTTPie CLI — API時代のモダンでユーザーフレンドリーなコマンドラインHTTPクライアント。JSON対応、カラー、セッション、ダウンロード、プラグインなど。
+- [alfem/telegram-download-daemon](https://github.com/alfem/telegram-download-daemon) - 大きなファイルのTelegramダウンロードを自動化するシンプルスクリプト
+- [No-OnE-Kn0wS-Me/FileRenameBot](https://github.com/No-OnE-Kn0wS-Me/FileRenameBot) - 永続サムネイル対応のTelegramファイルリネームボット。ファイルを動画に変換も可能！
 - [Eugeny/tabby-web](https://github.com/Eugeny/tabby-web) - Tabby Web - ブラウザで使えるSSH/Telnet/シリアルクライアント
-- [QIN2DIM/sspanel-mining](https://github.com/QIN2DIM/sspanel-mining) - 🥤 インターネット上の公開SSPanel-Uimサイトを収集・分類・保存
-- [Ehco1996/django-sspanel](https://github.com/Ehco1996/django-sspanel) - diangoで開発されたShadowsocksパネル
-- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - 大規模システム設計の学習。システム設計面接対策。Ankiフラッシュカード付き。
-- [mvt-project/mvt](https://github.com/mvt-project/mvt) - MVT（Mobile Verification Toolkit）：モバイル端末のフォレンジック調査支援ツール。不正侵入の兆候を検出。
-- [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) - :books: 無料で入手できるプログラミング書籍
-- [public-apis/public-apis](https://github.com/public-apis/public-apis) - 無料APIの総合リスト
-- [owid/covid-19-data](https://github.com/owid/covid-19-data) - COVID-19（新型コロナ）症例・死亡・入院・検査データ。全世界対応、Our World in Dataが毎日更新。
-- [darknessomi/musicbox](https://github.com/darknessomi/musicbox) - NetEase Cloud Musicコマンドライン版
-- [yunlongzhuhuo/Windows-WeChat-Clean-Up-Tool](https://github.com/yunlongzhuhuo/Windows-WeChat-Clean-Up-Tool) - WindowsのWeChat Filesフォルダを特定し、一部データを削除してクリーンアップ
-- [gilesknap/gphotos-sync](https://github.com/gilesknap/gphotos-sync) - Google PhotosとアルバムをGoogle Photos Library APIでバックアップ
-- [Dragon-Userbot/Dragon-Userbot](https://github.com/Dragon-Userbot/Dragon-Userbot) - Telegram用ユーザーボット。簡単インストール
-- [asottile/all-repos](https://github.com/asottile/all-repos) - すべてのリポジトリをクローンし、一括変更を適用
-- [zachhannum/mkdocs-autolinks-plugin](https://github.com/zachhannum/mkdocs-autolinks-plugin) - MkDocsのプラグインで、Markdownページ間の相対リンクを自動生成します
+- [QIN2DIM/sspanel-mining](https://github.com/QIN2DIM/sspanel-mining) - 🥤 インターネット上に露出したSSPanel-Uimサイトを収集、クリーン、分類、保存
+- [Ehco1996/django-sspanel](https://github.com/Ehco1996/django-sspanel) - djangoで開発されたshadowsocksパネル
+- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - 大規模システム設計を学ぶ。システム設計面接対策。Ankiフラッシュカード含む。
+- [mvt-project/mvt](https://github.com/mvt-project/mvt) - MVT（Mobile Verification Toolkit）はモバイル端末のフォレンジックを支援し、潜在的な侵害の兆候を検出。
+- [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) - :books: 無料で利用可能なプログラミング書籍
+- [public-apis/public-apis](https://github.com/public-apis/public-apis) - 無料APIの集合リスト
+- [owid/covid-19-data](https://github.com/owid/covid-19-data) - COVID-19（コロナウイルス）感染者数、死者数、入院、検査データ。全国対応。Our World in Dataによる毎日更新。
+- [darknessomi/musicbox](https://github.com/darknessomi/musicbox) - 网易云音楽のコマンドライン版
+- [yunlongzhuhuo/Windows-WeChat-Clean-Up-Tool](https://github.com/yunlongzhuhuo/Windows-WeChat-Clean-Up-Tool) - WindowsのWeChat Filesフォルダを特定し、一部データを削除してクリーンアップを実現。
+- [gilesknap/gphotos-sync](https://github.com/gilesknap/gphotos-sync) - Google PhotosとアルバムのGoogle Photos Library APIによるバックアップ
+- [Dragon-Userbot/Dragon-Userbot](https://github.com/Dragon-Userbot/Dragon-Userbot) - 簡単インストールのTelegramユーザーボット
+- [asottile/all-repos](https://github.com/asottile/all-repos) - すべてのリポジトリをクローンし、大規模な変更を適用します。
+- [zachhannum/mkdocs-autolinks-plugin](https://github.com/zachhannum/mkdocs-autolinks-plugin) - MkDocsプラグインで、マークダウンページ間の相対リンクを自動生成します
 - [Azure/WALinuxAgent](https://github.com/Azure/WALinuxAgent) - Microsoft Azure Linux ゲストエージェント
-- [koalalorenzo/python-digitalocean](https://github.com/koalalorenzo/python-digitalocean) - 🐍🐳 Digital Oceanのドロップレットを管理するPythonモジュール
-- [fuqiuai/wordCloud](https://github.com/fuqiuai/wordCloud) - pythonでテキストを分かち書きしワードクラウドを生成
-- [Mahesh0253/Media-Search-bot](https://github.com/Mahesh0253/Media-Search-bot) - チャンネルやグループ用のインラインボット
+- [koalalorenzo/python-digitalocean](https://github.com/koalalorenzo/python-digitalocean) - 🐍🐳 Digital Oceanドロップレットを管理するPythonモジュール
+- [fuqiuai/wordCloud](https://github.com/fuqiuai/wordCloud) - Pythonでテキストの分かち書きを行いワードクラウドを生成
+- [Mahesh0253/Media-Search-bot](https://github.com/Mahesh0253/Media-Search-bot) - チャンネルおよびグループ用のインラインボット
 - [Mahesh0253/GPlink-bot](https://github.com/Mahesh0253/GPlink-bot) - 
-- [tgbot-collection/YYeTsBot](https://github.com/tgbot-collection/YYeTsBot) - 🎬 人人影视のロボットとウェブサイト。すべてのリソースと多くのユーザーのネットディスク共有を含む
-- [arry-lee/wereader](https://github.com/arry-lee/wereader) - 機能豊富な微信読書ノートアシスタント wereader
-- [arkane-systems/genie](https://github.com/arkane-systems/genie) - WSL用のsystemd「ボトル」にすばやく入る方法
-- [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) - ハッカー向けALL IN ONEハッキングツール
-- [PaddlePaddle/PaddleGAN](https://github.com/PaddlePaddle/PaddleGAN) - PaddlePaddle GANライブラリ。First-Orderモーション転送、Wav2Lip、画像修復、画像編集、photo2cartoon、画像スタイル転送、GPENなど多数のアプリケーションを含む。
-- [mgedmin/ghcloneall](https://github.com/mgedmin/ghcloneall) - GitHubのユーザー/組織リポジトリをすべてクローン/更新するスクリプト
-- [Jrohy/multi-v2ray](https://github.com/Jrohy/multi-v2ray) - v2ray/xray多ユーザー管理デプロイプログラム
-- [kalanakt/Url-Uploader-TG](https://github.com/kalanakt/Url-Uploader-TG) - シンプルなTelegramボットで、ダイレクトダウンロードリンクを使ってメディアファイル|ビデオをTelegramにアップロード（youtube, Mediafire, Google Drive, Mega Drive等）
-- [jagrit007/gDrive-DirectLink](https://github.com/jagrit007/gDrive-DirectLink) - Google Drive用の永続的ダイレクトリンク生成器（複数リンク対応）。P.S. Python学習中に書いた初心者コードです :D
-- [Sanster/IOPaint](https://github.com/Sanster/IOPaint) - SOTA AIモデル搭載の画像インペインティングツール。不要な物体や欠陥、人を画像から除去、または置換（stable diffusion対応）
-- [psf/black](https://github.com/psf/black) - 妥協のないPythonコードフォーマッタ
-- [surajjjjjj/Telegram-automatic-message](https://github.com/surajjjjjj/Telegram-automatic-message) - telethonライブラリを使って、30秒ごとにボットへメッセージを送信するPythonスクリプト
+- [tgbot-collection/YYeTsBot](https://github.com/tgbot-collection/YYeTsBot) - 🎬 人人影视のボットとウェブサイト。人人影视の全リソースおよび多数のユーザーのクラウド共有を含む
+- [arry-lee/wereader](https://github.com/arry-lee/wereader) - 機能豊富なWeChat読書ノートアシスタント wereader
+- [arkane-systems/genie](https://github.com/arkane-systems/genie) - WSL用のsystemd「ボトル」への簡単なアクセス方法
+- [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) - ハッカー向けのオールインワンハッキングツール
+- [PaddlePaddle/PaddleGAN](https://github.com/PaddlePaddle/PaddleGAN) - PaddlePaddleのGANライブラリ。First-Order motion transfer、Wav2Lip、画像修復、画像編集、photo2cartoon、画像スタイル転送、GPENなど多彩なアプリケーションを含む。
+- [mgedmin/ghcloneall](https://github.com/mgedmin/ghcloneall) - GitHubからユーザー/組織のすべてのリポジトリをクローン/更新するスクリプト
+- [Jrohy/multi-v2ray](https://github.com/Jrohy/multi-v2ray) - v2ray/xrayの多ユーザー管理・展開プログラム
+- [kalanakt/Url-Uploader-TG](https://github.com/kalanakt/Url-Uploader-TG) - シンプルなTelegramボット。直接ダウンロードリンクを使ってメディアファイルや動画をTelegramにアップロード（YouTube、Mediafire、Google Drive、Mega Driveなど）
+- [jagrit007/gDrive-DirectLink](https://github.com/jagrit007/gDrive-DirectLink) - Google Driveのパーマネントダイレクトリンク生成ツール。複数リンク対応。P.S. Python学習中に書いた初心者コード :D
+- [Sanster/IOPaint](https://github.com/Sanster/IOPaint) - SOTA AIモデルによる画像修復ツール。不要な物体、欠陥、人を写真から除去。写真上のものを消去・置換（stable diffusionによる）
+- [psf/black](https://github.com/psf/black) - 妥協しないPythonコードフォーマッター
+- [surajjjjjj/Telegram-automatic-message](https://github.com/surajjjjjj/Telegram-automatic-message) - telethonライブラリを使って30秒ごとにボットにメッセージを送るPythonスクリプト
 - [pirobot/rbx1](https://github.com/pirobot/rbx1) - ROS By Example 第1巻
 - [chen310/NeteaseCloudMusicTasks](https://github.com/chen310/NeteaseCloudMusicTasks) - 
-- [vinta/awesome-python](https://github.com/vinta/awesome-python) - 優れたPythonフレームワーク、ライブラリ、ソフトウェア、リソースの意見を交えたリスト
-- [programthink/zhao](https://github.com/programthink/zhao) - 【编程随想】作成の《太子党関係ネットワーク》、権力者を暴露
-- [gradio-app/gradio](https://github.com/gradio-app/gradio) - 素晴らしい機械学習アプリをPythonで構築・共有。🌟 Starして応援！
-- [absop/ST-ChineseTokenizer](https://github.com/absop/ST-ChineseTokenizer) - Sublime Text 3用jieba分かち書きバインディング。より正確な中国語の単語選択・削除・単語移動をサポート
-- [guofei9987/text_blind_watermark](https://github.com/guofei9987/text_blind_watermark) - テキスト盲水印：情報をテキストに隠蔽する。put invisible blind watermark into a text.
-- [sigmavirus24/github3.py](https://github.com/sigmavirus24/github3.py) - GItHubのREST APIと便利かつ快適にやり取りするためのライブラリ。Python 3.6+対応。
-- [IntelligenceX/SDK](https://github.com/IntelligenceX/SDK) - Intelligence X用パブリックSDK
-- [New-dev0/TgTwitterBot](https://github.com/New-dev0/TgTwitterBot) - TgTwitterBot - TelegramからTwitterを操作・探索
-- [AmineSoukara/ImgBB-Bot](https://github.com/AmineSoukara/ImgBB-Bot) - imgbb.comに画像をアップロードしてリンクを返すTelegramボット
-- [pictuga/morss](https://github.com/pictuga/morss) - フルテキストのRSSフィードを取得
-- [zhaoolee/garss](https://github.com/zhaoolee/garss) - Github ActionsでRSS収集、広告なしの高品質なニュースページを作成
-- [ros/ros](https://github.com/ros/ros) - ROSコアパッケージ
-- [libthu/reserves-lib-tsinghua-downloader](https://github.com/libthu/reserves-lib-tsinghua-downloader) - http://reserves.lib.tsinghua.edu.cn/ からページをダウンロード
-- [tychxn/jd-assistant](https://github.com/tychxn/jd-assistant) - 京东（JD）購入アシスタント：ログイン、在庫/価格確認、カート操作、商品購入、注文確認等機能
-- [SeaHOH/GotoX](https://github.com/SeaHOH/GotoX) - ローカル自動プロキシ。goagentからの改造版。
-- [radinshayanfar/TGCopyBot](https://github.com/radinshayanfar/TGCopyBot) - Telegramメッセージを他のチャットへ転送せずにコピーするPythonスクリプト
-- [Opticos/OpenInWSL-Source](https://github.com/Opticos/OpenInWSL-Source) - OpenInWSLの実際のコードと一部の事前ビルド済みリリース
-- [Opticos/GWSL-Source](https://github.com/Opticos/GWSL-Source) - GWSLの実際のコードと一部の事前ビルド済みリリース
-- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) - 多機能なコマンドライン音声・動画ダウンローダー
-- [QIN2DIM/V2RSS](https://github.com/QIN2DIM/V2RSS) - ​:rocket: 収集｜無料｜高品質｜の-購読&lt;；
-- [hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy) - github release、archiveおよびプロジェクトファイルの高速化プロジェクト
-- [thedogb/smmsbot](https://github.com/thedogb/smmsbot) - gae上で動作するTelegramボット。sm.ms画像ホストクライアントとして利用可能
-- [iBug/pac](https://github.com/iBug/pac) - 科学的ネット、インテリジェント分流。GFWListとIPアドレスで二重判定。現在★538個
-- [Roiocam/V2ray2Clash](https://github.com/Roiocam/V2ray2Clash) - V2ray購読をClash設定ファイルに変換するPythonスクリプト。Clash-LinuxでV2ray自動購読
-- [xiangsanliu/Rules](https://github.com/xiangsanliu/Rules) - 🛫️ 🎵 Shadowrocketルール：広告ブロック、プロキシ、NetEase Music解除
-- [zhouzhouprogram/Shadowrocket-ADBlock-Rules](https://github.com/zhouzhouprogram/Shadowrocket-ADBlock-Rules) - 複数のShadowrocketルールを提供、広告フィルタ機能付き。iOS未脱獄デバイスで自動プロキシ選択等
-- [liudaolunboluo/WxChatRecordTool](https://github.com/liudaolunboluo/WxChatRecordTool) - 微信チャット履歴ツール
+- [vinta/awesome-python](https://github.com/vinta/awesome-python) - 厳選されたPythonフレームワーク、ライブラリ、ソフトウェア、リソースのリスト
+- [programthink/zhao](https://github.com/programthink/zhao) - 【编程随想】整理的《太子党关系网络》，专门揭露赵国的权贵
+- [gradio-app/gradio](https://github.com/gradio-app/gradio) - Pythonですべての機械学習アプリを構築・共有。🌟 スターで応援を！
+- [absop/ST-ChineseTokenizer](https://github.com/absop/ST-ChineseTokenizer) - Sublime Text 3用のjieba分かち書きライブラリバインディング。中国語のより正確な単語選択、削除、単語単位のカーソル移動をサポート
+- [guofei9987/text_blind_watermark](https://github.com/guofei9987/text_blind_watermark) - テキスト盲水印：情報をテキストに隠す技術。不可視の盲水印をテキストに埋め込む
+- [sigmavirus24/github3.py](https://github.com/sigmavirus24/github3.py) - GitHubのREST APIと対話するための便利でエルゴノミックなPython 3.6+対応ライブラリ
+- [IntelligenceX/SDK](https://github.com/IntelligenceX/SDK) - Intelligence Xの公開SDK
+- [New-dev0/TgTwitterBot](https://github.com/New-dev0/TgTwitterBot) - TelegramからTwitterを操作・探索するボット
+- [AmineSoukara/ImgBB-Bot](https://github.com/AmineSoukara/ImgBB-Bot) - imgbb.comに画像をホストし、リンクを返すTelegramボット
+- [pictuga/morss](https://github.com/pictuga/morss) - フルテキストRSSフィードを取得
+- [zhaoolee/garss](https://github.com/zhaoolee/garss) - GitHub ActionsでRSSを収集し、広告なしの高品質トップニュースページを作成
+- [ros/ros](https://github.com/ros/ros) - ROSのコアパッケージ群
+- [libthu/reserves-lib-tsinghua-downloader](https://github.com/libthu/reserves-lib-tsinghua-downloader) - http://reserves.lib.tsinghua.edu.cn/からページをダウンロード
+- [tychxn/jd-assistant](https://github.com/tychxn/jd-assistant) - 京東（JD）購入支援ツール：ログイン、商品在庫・価格照会、カート追加・空にする、商品購入（注文）、注文照会機能など
+- [SeaHOH/GotoX](https://github.com/SeaHOH/GotoX) - ローカル自動プロキシ。goagentを改造したもの。
+- [radinshayanfar/TGCopyBot](https://github.com/radinshayanfar/TGCopyBot) - Telegramメッセージを別チャットに転送せずコピーするPythonスクリプト
+- [Opticos/OpenInWSL-Source](https://github.com/Opticos/OpenInWSL-Source) - OpenInWSLの実際のコードと一部のプリビルドリリース
+- [Opticos/GWSL-Source](https://github.com/Opticos/GWSL-Source) - GWSLの実際のコードと一部のプリビルドリリース
+- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) - 機能豊富なコマンドライン音声/動画ダウンローダー
+- [QIN2DIM/V2RSS](https://github.com/QIN2DIM/V2RSS) - ​:rocket: 高品質かつ無料のRSS収集・購読ツール
+- [hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy) - GitHubのリリース、アーカイブ、プロジェクトファイル高速化プロジェクト
+- [thedogb/smmsbot](https://github.com/thedogb/smmsbot) - GAE上にデプロイされたTelegramボット。sm.ms画像アップローダークライアントとして利用可能
+- [iBug/pac](https://github.com/iBug/pac) - 科学的なインターネットアクセス、スマートなトラフィック振り分け。GFWリストとIPアドレスの二重判定を使用。現在538スター獲得
+- [Roiocam/V2ray2Clash](https://github.com/Roiocam/V2ray2Clash) - V2rayの購読をClash設定ファイルに変換するPythonスクリプト。Clash-Linuxの自動購読用
+- [xiangsanliu/Rules](https://github.com/xiangsanliu/Rules) - 🛫️ 🎵 Shadowrocket用ルール：広告ブロック、プロキシ、Netease Musicアンブロック
+- [zhouzhouprogram/Shadowrocket-ADBlock-Rules](https://github.com/zhouzhouprogram/Shadowrocket-ADBlock-Rules) - 複数のShadowrocketルールを提供。広告フィルタ機能付き。iOS非脱獄デバイス向けの選択的自動VPN接続用
+- [liudaolunboluo/WxChatRecordTool](https://github.com/liudaolunboluo/WxChatRecordTool) - WeChatチャット記録ツール
 - [icloud-photos-downloader/icloud_photos_downloader](https://github.com/icloud-photos-downloader/icloud_photos_downloader) - iCloudから写真をダウンロードするコマンドラインツール
-- [cronitorio/cronitor-python](https://github.com/cronitorio/cronitor-python) - Cronitor用Pythonクライアント
-- [songquanpeng/zhihu-archiver](https://github.com/songquanpeng/zhihu-archiver) - 毎日自動で知乎ホットリストを取得し、Markdownファイルに変換・静的サイト生成
-- [pyinstaller/pyinstaller](https://github.com/pyinstaller/pyinstaller) - Pythonプログラムを単独実行ファイルにパッケージ化
-- [huggingface/transformers](https://github.com/huggingface/transformers) - 🤗 Transformers：最先端のテキスト・画像・音声・マルチモーダル機械学習モデルのためのフレームワーク（推論・学習両対応）
-- [huashengdun/webssh](https://github.com/huashengdun/webssh) - :seedling: WebベースのSSHクライアント
-- [openai/glide-text2im](https://github.com/openai/glide-text2im) - GLIDE：拡散型テキスト条件付き画像生成モデル
-- [bmjcode/pywebarchive](https://github.com/bmjcode/pywebarchive) - Appleのwebarchive形式を読むためのソフトウェア
-- [XX-net/XX-Net](https://github.com/XX-net/XX-Net) - GFW回避用プロキシツール
-- [THUDM/CogView](https://github.com/THUDM/CogView) - テキストから画像生成。NeurIPS 2021論文「CogView: Mastering Text-to-Image Generation via Transformers」リポジトリ
-- [GrowingGit/GitHub-English-Top-Charts](https://github.com/GrowingGit/GitHub-English-Top-Charts) - 優れた英語プロジェクトの発見を支援し、他言語による妨害を排除
-- [waykom/weibo_top](https://github.com/waykom/weibo_top) - Weiboホットトピック取得
-- [vmp65l3/weibo-hotrank](https://github.com/vmp65l3/weibo-hotrank) - 微博ホットトピック記録＆日次ワードクラウド生成
-- [zisen123/TrierVosPhotos](https://github.com/zisen123/TrierVosPhotos) - iPhoneからエクスポートした写真・動画を日付・時刻でリネームし、日付別フォルダに移動
-- [whitejoce/Get_Weather](https://github.com/whitejoce/Get_Weather) - IP位置取得で天気をスクレイピング（API不要）
+- [cronitorio/cronitor-python](https://github.com/cronitorio/cronitor-python) - CronitorのPythonクライアント
+- [songquanpeng/zhihu-archiver](https://github.com/songquanpeng/zhihu-archiver) - 毎日自動でZhihuのホットランキングを取得しMarkdownファイルに変換、静的サイトを構築
+- [pyinstaller/pyinstaller](https://github.com/pyinstaller/pyinstaller) - Pythonプログラムをスタンドアロン実行ファイルに凍結（パッケージ化）
+- [huggingface/transformers](https://github.com/huggingface/transformers) - 🤗 Transformers：テキスト、画像、音声、マルチモーダルモデルの最先端機械学習モデル定義フレームワーク。推論・学習両対応
+- [huashengdun/webssh](https://github.com/huashengdun/webssh) - :seedling: ウェブベースのSSHクライアント
+- [openai/glide-text2im](https://github.com/openai/glide-text2im) - GLIDE：拡散ベースのテキスト条件付き画像合成モデル
+- [bmjcode/pywebarchive](https://github.com/bmjcode/pywebarchive) - Appleのwebarchiveフォーマットを読み取るソフトウェア
+- [XX-net/XX-Net](https://github.com/XX-net/XX-Net) - GFWを回避するためのプロキシツール
+- [THUDM/CogView](https://github.com/THUDM/CogView) - テキストから画像生成。NeurIPS 2021論文「CogView：Transformersによるテキスト画像生成の習得」のリポジトリ
+- [GrowingGit/GitHub-English-Top-Charts](https://github.com/GrowingGit/GitHub-English-Top-Charts) - 優れた英語プロジェクトを発見し、他言語によるノイズを排除
+- [waykom/weibo_top](https://github.com/waykom/weibo_top) - Weiboのホットサーチをクローリング
+- [vmp65l3/weibo-hotrank](https://github.com/vmp65l3/weibo-hotrank) - Weiboのホットサーチを記録し、毎日のワードクラウドを生成
+- [zisen123/TrierVosPhotos](https://github.com/zisen123/TrierVosPhotos) - iPhoneからエクスポートした写真と動画を日付・時刻形式でリネームし、日付ごとに分類したフォルダに移動
+- [whitejoce/Get_Weather](https://github.com/whitejoce/Get_Weather) - IP位置情報から現地の天気をスクレイピング（API不要）
 - [up2b/pyup2b](https://github.com/up2b/pyup2b) - 画像アップローダー
-- [Alvin9999/new-pac](https://github.com/Alvin9999/new-pac) - 翻墙・科学上网・無料で自由にネット・無料VPN・youtube/動画ダウンロード・ソフトウェア・VPN・一発翻墙ブラウザ、VPS一発サーバー構築スクリプト/チュートリアル、無料shadowsocks/ss/ssr/v2ray/goflywayアカウント/ノード、PC・スマホ・iOS・Android・Windows・Mac・Linux・ルーターで翻墙・科学上网・youtubeダウンロード・youtubeミラー/免翻墙サイト
-- [TencentARC/GFPGAN](https://github.com/TencentARC/GFPGAN) - GFPGANは実用的な実世界向け顔修復アルゴリズムの開発を目指す
-- [URenko/Accesser](https://github.com/URenko/Accesser) - 🌏SNI RSTによるWikipedia・Pixiv等のアクセス不能を解決するツール
-- [pytorch/pytorch](https://github.com/pytorch/pytorch) - 高速GPU対応のPythonテンソル＆動的ニューラルネットワーク
-- [deepfakes/faceswap](https://github.com/deepfakes/faceswap) - 全員向けディープフェイクソフトウェア
-- [v2ex/remote](https://github.com/v2ex/remote) - Remote Worker
-- [open-mmlab/mmtracking](https://github.com/open-mmlab/mmtracking) - OpenMMLab動画認識ツールボックス。VID・MOT・SOT・VISを統合フレームワークでサポート
-- [itstyren/CNKI-download](https://github.com/itstyren/CNKI-download) - :frog: 知网（CNKI）論文ダウンロード＆速読クローラー（Webスクレーパー）
-- [aqlaboratory/proteinnet](https://github.com/aqlaboratory/proteinnet) - タンパク質構造機械学習用の標準化データセット
-- [lucidrains/alphafold2](https://github.com/lucidrains/alphafold2) - 将来的にAlphafold2の非公式Pytorch実装/複製を目指す（アーキテクチャ詳細公開後）
-- [RimoChan/python-anti-seduce-system](https://github.com/RimoChan/python-anti-seduce-system) - Python言語向け防依存調整の説明
-- [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats) - GitHubプロフィールReadmeにクールな開発指標を追加するGitHubアクション
-- [pywebio/PyWebIO](https://github.com/pywebio/PyWebIO) - スクリプト方式でインタラクティブなWebアプリを作成
-- [Python-World/python-mini-projects](https://github.com/Python-World/python-mini-projects) - Pythonスキル向上のためのシンプルなミニプロジェクト集
-- [geekcomputers/Python](https://github.com/geekcomputers/Python) - 私のPython例集
-- [TachibanaYoshino/AnimeGANv2](https://github.com/TachibanaYoshino/AnimeGANv2) - [オープンソース] AnimeGANの改良版。風景写真/動画をアニメ化
-- [srx-2000/spider_collection](https://github.com/srx-2000/spider_collection) - pythonクローラー集：NetEase Cloud Music、Bilibili動画、知乎QA、壁紙、xvideos動画、有声書、Weibo、Anjuke情報＋可視化、Bilibili動画カバー抽出、IPプロキシプール、知乎ユーザー＋分析、githubユーザー
+- [Alvin9999/new-pac](https://github.com/Alvin9999/new-pac) - インターネット検閲回避・科学的インターネットアクセス・無料VPN・YouTube動画ダウンロード・ソフトウェア・VPN・ワンクリック翻訳ブラウザ・VPSワンクリック翻訳サーバースクリプト/チュートリアル・無料shadowsocks/ss/ssr/v2ray/goflywayアカウント/ノード・PC・スマホ・iOS・Android・Windows・Mac・Linux・ルーター用翻訳・科学的インターネットアクセス・YouTube動画ダウンロード・YouTubeミラー/検閲回避サイト
+- [TencentARC/GFPGAN](https://github.com/TencentARC/GFPGAN) - GFPGANは実用的なリアルワールド顔修復アルゴリズムの開発を目指す
+- [URenko/Accesser](https://github.com/URenko/Accesser) - 🌏 SNI RSTによりWikipediaやPixivなどがアクセスできない問題を解決するツール
+- [pytorch/pytorch](https://github.com/pytorch/pytorch) - Pythonでのテンソルと動的ニューラルネットワーク。強力なGPUアクセラレーション対応
+- [deepfakes/faceswap](https://github.com/deepfakes/faceswap) - Deepfakeソフトウェア
+- [v2ex/remote](https://github.com/v2ex/remote) - リモートワーカー
+- [open-mmlab/mmtracking](https://github.com/open-mmlab/mmtracking) - OpenMMLabビデオ知覚ツールボックス。ビデオ物体検出（VID）、複数物体追跡（MOT）、単一物体追跡（SOT）、ビデオインスタンスセグメンテーション（VIS）を統一フレームワークでサポート
+- [itstyren/CNKI-download](https://github.com/itstyren/CNKI-download) - :frog: CNKI文献ダウンロードおよび文献プレビュー用スクレイパー（Webスクレイパー）
+- [aqlaboratory/proteinnet](https://github.com/aqlaboratory/proteinnet) - タンパク質構造機械学習用標準化データセット
+- [lucidrains/alphafold2](https://github.com/lucidrains/alphafold2) - Alphafold2の非公式Pytorch実装/複製を目指す。アーキテクチャ詳細公開に合わせて開発
+- [RimoChan/python-anti-seduce-system](https://github.com/RimoChan/python-anti-seduce-system) - Python言語向けの依存防止調整説明
+- [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats) - GitHubプロフィールREADMEにクールな開発指標を追加するGitHubアクション
+- [pywebio/PyWebIO](https://github.com/pywebio/PyWebIO) - スクリプト形式でインタラクティブなウェブアプリを書く
+- [Python-World/python-mini-projects](https://github.com/Python-World/python-mini-projects) - Pythonスキルを向上させるシンプルなミニプロジェクト集
+- [geekcomputers/Python](https://github.com/geekcomputers/Python) - 私のPythonサンプル集
+- [TachibanaYoshino/AnimeGANv2](https://github.com/TachibanaYoshino/AnimeGANv2) - [オープンソース] AnimeGANの改良版。風景写真/動画をアニメ風に変換
+- [srx-2000/spider_collection](https://github.com/srx-2000/spider_collection) - Pythonクローラー集。現在の在庫：NetEase Cloud Music曲クローラー、Bilibili動画クローラー、Zhihu Q&Aクローラー、壁紙クローラー、xvideos動画クローラー、有声書籍クローラー、Weiboクローラー、Anjuke情報クローラー+データ可視化、Bilibili動画サムネイル抽出器、IP代理プールラッパー、Zhihu百万ユーザークローラー+データ分析、GitHubユーザークローラー
 - [genzj/pybingwallpaper](https://github.com/genzj/pybingwallpaper) - bing.comから壁紙をダウンロード
-- [woider/PythonExercise](https://github.com/woider/PythonExercise) - Pythonプログラミング練習問題100例（ソース付）、Python 3.6環境でテスト済
+- [woider/PythonExercise](https://github.com/woider/PythonExercise) - Pythonプログラミング練習問題100例（ソースコード付き）。Python 3.6環境でテスト済み
 - [axyyu/notion-clear-trash](https://github.com/axyyu/notion-clear-trash) - Notionのゴミ箱をクリアする小さなスクリプト
 - [mono0926/alfred-git-commit-message-example](https://github.com/mono0926/alfred-git-commit-message-example) - Alfred用Gitコミットメッセージ例
-- [skulltech/twitter-follow-bot](https://github.com/skulltech/twitter-follow-bot) - 多数のTwitterアカウントを自動フォローするツール
-- [tqdm/tqdm](https://github.com/tqdm/tqdm) - :zap: PythonとCLI向け高速・拡張性プログレスバー
-- [Chalarangelo/30-seconds-of-python](https://github.com/Chalarangelo/30-seconds-of-python) - 開発に役立つ短いPythonコードスニペット集
+- [skulltech/twitter-follow-bot](https://github.com/skulltech/twitter-follow-bot) - Twitterアカウントを自動で大量にフォローするツール
+- [tqdm/tqdm](https://github.com/tqdm/tqdm) - :zap: PythonとCLI用の高速で拡張可能なプログレスバー
+- [Chalarangelo/30-seconds-of-python](https://github.com/Chalarangelo/30-seconds-of-python) - あらゆる開発ニーズに応える短いPythonコードスニペット集
 - [BadagalaAdarsh/Super_Mario](https://github.com/BadagalaAdarsh/Super_Mario) - 
 - [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) - Pythonで実装されたすべてのアルゴリズム
 - [MrMissx/Telegram_Forwarder](https://github.com/MrMissx/Telegram_Forwarder) - チャンネルやグループからメッセージを転送するTelegramボット
 - [mzucker/noteshrink](https://github.com/mzucker/noteshrink) - 手書きノートのスキャンを美しくコンパクトなPDFに変換
-- [YuvrajSingh-16/Text-To-Handwritten-Notes](https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes) - テキストを手書きノート風PDFに変換
-- [steventango/notability2pdf](https://github.com/steventango/notability2pdf) - notability (*.note)からPDFファイルを抽出
-- [132ikl/liteshort](https://github.com/132ikl/liteshort) - [移動済] 使いやすく本当に軽量で設定可能なURL短縮サービス
-- [brndnmtthws/tweet-delete](https://github.com/brndnmtthws/tweet-delete) - 自動削除ツイートであなたもクールに😎
-- [bonfy/github-trending](https://github.com/bonfy/github-trending) - 人気GitHubリポジトリを日次追跡（Python版）
-- [CollegesChat/university-information](https://github.com/CollegesChat/university-information) - 全国大学の入学時に明記されないが学生生活の質に実際影響する要求・詳細を収集
-- [curtinlv/JD-Script](https://github.com/curtinlv/JD-Script) - 参考用のみ。
-- [yhangf/PythonCrawler](https://github.com/yhangf/PythonCrawler) - :heartpulse: pythonで書かれたクローラー集
-- [mobier/shadowsocksr-speed](https://github.com/mobier/shadowsocksr-speed) - SSRノードの有効帯域を一括テスト
-- [twtrubiks/docker-tutorial](https://github.com/twtrubiks/docker-tutorial) - Docker 基本チュートリアル - ゼロから始める Docker-Beginners-Guide   Docker で Django + PostgreSQL を構築する方法 📝
-- [ZainCheung/netease-cloud](https://github.com/ZainCheung/netease-cloud) - NetEase Cloud Music 自動毎日打刻で300曲再生してアカウントレベルを上げる、WeChat通知対応、サーバーレスクラウド関数デプロイ対応
-- [caj2pdf/caj2pdf](https://github.com/caj2pdf/caj2pdf) - CAJ (中国学術雑誌) ファイルを PDF へ変換。中国知网 CAJ 形式文献を PDF に変換。成功は運次第の仏系変換。
-- [iswbm/pycharm-guide](https://github.com/iswbm/pycharm-guide) - PyCharm 中文ガイド：インストール | クラック | 効率 | テクニック
-- [0voice/interview_internal_reference](https://github.com/0voice/interview_internal_reference) - 2023年最新まとめ、アリババ、テンセント、バイドゥ、美団、トウティアオなどの技術面接問題と回答、専門家による出題者分析まとめ。
-- [spotDL/spotify-downloader](https://github.com/spotDL/spotify-downloader) - Spotifyのプレイリストと曲を、アルバムアートやメタデータ付きでダウンロード（YouTubeで一致が見つかればそこからも）。
-- [devourbots/word_cloud_bot](https://github.com/devourbots/word_cloud_bot) - グループユーザーの発言を集計し、チャット内容からワードクラウドを生成するボット
-- [Mrvishal2k2/TG-ShortLinkBot](https://github.com/Mrvishal2k2/TG-ShortLinkBot) - bit.lyのAPIを使ったシンプルなURL短縮ボット
-- [hedyhli/starcli](https://github.com/hedyhli/starcli) - :sparkles: コマンドラインからGitHubトレンドプロジェクトを閲覧
-- [bee-san/Ciphey](https://github.com/bee-san/Ciphey) - ⚡ 鍵や暗号が不明でも自動復号、エンコーディング解読、ハッシュ解析が可能 ⚡
-- [bhrigu123/classifier](https://github.com/bhrigu123/classifier) - ファイルを自動分類し、ディレクトリ内のファイルを瞬時に整理
-- [tfeldmann/organize](https://github.com/tfeldmann/organize) - ファイル管理自動化ツール。
-- [babysor/MockingBird](https://github.com/babysor/MockingBird) - 🚀AIボイスクローン: 5秒であなたの声を複製し、任意の音声内容を生成
-- [urbanij/google_keep_takeout](https://github.com/urbanij/google_keep_takeout) - Google KeepのノートをMarkdownまたはtxtファイルにエクスポート
-- [lonnyzhang423/v2ex-hot-hub](https://github.com/lonnyzhang423/v2ex-hot-hub) - v2exのホットトピックを記録、毎時更新、日別アーカイブ。
-- [Py-Contributors/awesomeScripts](https://github.com/Py-Contributors/awesomeScripts) - 日常生活を楽にするPythonスクリプト集。新しいスクリプトのアイデアがあればIssueを作成してください。:star:をどうぞ
+- [YuvrajSingh-16/Text-To-Handwritten-Notes](https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes) - テキストを手書きノートのPDFに変換
+- [steventango/notability2pdf](https://github.com/steventango/notability2pdf) - Notability（*.note）ファイルからPDFを抽出
+- [132ikl/liteshort](https://github.com/132ikl/liteshort) - [移動済み] ユーザーフレンドリーで実際に軽量、設定可能なURL短縮サービス
+- [brndnmtthws/tweet-delete](https://github.com/brndnmtthws/tweet-delete) - 自己消滅ツイートでクールになろう 😎
+- [bonfy/github-trending](https://github.com/bonfy/github-trending) - 人気のGitHubリポジトリを毎日追跡（Python版）
+- [CollegesChat/university-information](https://github.com/CollegesChat/university-information) - 全国の大学で募集時に明記されないが、大学生活の質に影響する要求や詳細を収集
+- [curtinlv/JD-Script](https://github.com/curtinlv/JD-Script) - 参考用のみ
+- [yhangf/PythonCrawler](https://github.com/yhangf/PythonCrawler) - :heartpulse: Pythonで書かれたクローラープロジェクト集
+- [mobier/shadowsocksr-speed](https://github.com/mobier/shadowsocksr-speed) - SSR ノードの有効帯域幅を一括テスト
+- [twtrubiks/docker-tutorial](https://github.com/twtrubiks/docker-tutorial) - Docker 基本チュートリアル - Docker初心者向けガイドで Django + PostgreSQL を構築する方法 📝
+- [ZainCheung/netease-cloud](https://github.com/ZainCheung/netease-cloud) - 网易云音乐の自動デイリー300曲チェックインでアカウントレベルアップ、WeChat通知対応、サーバーレスクラウド関数展開対応
+- [caj2pdf/caj2pdf](https://github.com/caj2pdf/caj2pdf) - CAJ（中国学術雑誌）ファイルをPDFに変換。中国知網CAJ形式の文献をPDFに変換。気楽に変換、成功するかは運次第。
+- [iswbm/pycharm-guide](https://github.com/iswbm/pycharm-guide) - PyCharm 日本語ガイド：インストール｜クラッキング｜効率化｜テクニック
+- [0voice/interview_internal_reference](https://github.com/0voice/interview_internal_reference) - 2023年最新版まとめ、アリババ、テンセント、百度、美団、頭条などの技術面接問題と解答、専門家による出題者分析集約。
+- [spotDL/spotify-downloader](https://github.com/spotDL/spotify-downloader) - Spotifyのプレイリストや曲をアルバムアートとメタデータと共にダウンロード（マッチがあればYouTubeから）
+- [devourbots/word_cloud_bot](https://github.com/devourbots/word_cloud_bot) - グループの発言を集計し、チャット内容をワードクラウドに生成できるボット
+- [Mrvishal2k2/TG-ShortLinkBot](https://github.com/Mrvishal2k2/TG-ShortLinkBot) - bit.ly APIを使ったシンプルなURL短縮ボット
+- [hedyhli/starcli](https://github.com/hedyhli/starcli) - :sparkles: コマンドラインからGitHubのトレンドプロジェクトを閲覧
+- [bee-san/Ciphey](https://github.com/bee-san/Ciphey) - ⚡ キーや暗号を知らずに自動的に暗号を解読、エンコードをデコード、ハッシュを解析 ⚡
+- [bhrigu123/classifier](https://github.com/bhrigu123/classifier) - ディレクトリ内のファイルを分類して異なるフォルダに即時整理
+- [tfeldmann/organize](https://github.com/tfeldmann/organize) - ファイル管理の自動化ツール
+- [babysor/MockingBird](https://github.com/babysor/MockingBird) - 🚀AIボイスクローン: 5秒で声をクローンし任意の音声をリアルタイム生成
+- [urbanij/google_keep_takeout](https://github.com/urbanij/google_keep_takeout) - Google KeepのメモをMarkdownまたはtxtファイルにエクスポート
+- [lonnyzhang423/v2ex-hot-hub](https://github.com/lonnyzhang423/v2ex-hot-hub) - v2exのホットトピックを記録し、毎時更新、日別アーカイブ
+- [Py-Contributors/awesomeScripts](https://github.com/Py-Contributors/awesomeScripts) - Pythonで日常を楽にする素晴らしいスクリプト集。新しいスクリプトのアイデアがあればIssueを作成してください。スターをお願いします
 - [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) - YouTube.comや他の動画サイトから動画をダウンロードするコマンドラインプログラム
-- [0xHJK/music-dl](https://github.com/0xHJK/music-dl) - 音楽検索＆ダウンロード。NetEase Cloud、QQ音楽、KuGou、Baidu、Xiami、Miguなど対応
-- [h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules) - 複数のShadowrocketルールと広告フィルタ機能を提供。iOS脱獄不要の自動プロキシ選択。
-- [Anankke/ASM-Bot](https://github.com/Anankke/ASM-Bot) - Telegramグループのサービスメッセージ（参加・退会情報等）を自動削除
-- [Textualize/rich](https://github.com/Textualize/rich) - Richはターミナルでリッチテキストや美しいフォーマットを可能にするPythonライブラリです。
-- [Nekmo/telegram-upload](https://github.com/Nekmo/telegram-upload) - Telegramアカウントで最大4GiBのファイルをアップロード・ダウンロード
+- [0xHJK/music-dl](https://github.com/0xHJK/music-dl) - 网易云音乐、QQ音乐、酷狗音乐、百度音乐、虾米音乐、咪咕音乐などから音楽を検索・ダウンロード
+- [h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules) - 複数のShadowrocketルールを提供、広告フィルタリング機能付き。iOS非脱獄デバイスで選択的に自動プロキシ利用可能。
+- [Anankke/ASM-Bot](https://github.com/Anankke/ASM-Bot) - Telegramグループのサービスメッセージ（参加・退出通知など）を自動削除。
+- [Textualize/rich](https://github.com/Textualize/rich) - Richはターミナルでリッチテキストと美しいフォーマットを提供するPythonライブラリ。
+- [Nekmo/telegram-upload](https://github.com/Nekmo/telegram-upload) - アカウントを使って4GiBまでのファイルをTelegramにアップロード・ダウンロード
 - [franciscod/telegram-twitter-forwarder-bot](https://github.com/franciscod/telegram-twitter-forwarder-bot) - ツイートを転送するTelegramボット
-- [pyrogram/pyrogram](https://github.com/pyrogram/pyrogram) - Python製のエレガントでモダンかつ非同期なTelegram MTProto APIフレームワーク（ユーザー・ボット両対応）
-- [dev-jonghoonpark/pdf-password-locker](https://github.com/dev-jonghoonpark/pdf-password-locker) - PDFファイルにパスワード保護をかけるユーティリティ
-- [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) - :octocat: GitHubの面白く、入門向けなオープンソースプロジェクトを紹介。Share interesting, entry-level open source projects on GitHub.
-- [mozillazg/python-pinyin](https://github.com/mozillazg/python-pinyin) - 漢字からピンインへの変換(pypinyin)
-- [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) - 積立投資で運命を変える——時間とともにゆっくりと裕福になる https://onregularinvesting.com
-- [piyx/FileOrganizer](https://github.com/piyx/FileOrganizer) - PC内のファイルを自動で整理
-- [sreekaransrinath/file_organizer](https://github.com/sreekaransrinath/file_organizer) - 任意のフォルダを解析し、ファイルタイプごとにサブフォルダへ自動移動するスクリプト。
-- [aashutoshrathi/py-scripts](https://github.com/aashutoshrathi/py-scripts) - Windowsユーザー向けの日常生活を楽にするスクリプト集。
-- [offa/android-foss](https://github.com/offa/android-foss) - Android向けの自由かつオープンソースソフトウェア（FOSS）一覧 – 自由とプライバシーを守る。
-- [Trinkle23897/learn2018-autodown](https://github.com/Trinkle23897/learn2018-autodown) - 清華大学新版ネット学堂のコース資料自動ダウンロードスクリプト / learn.tsinghua.edu.cnから全ファイルを複製するPythonスクリプト
-- [521xueweihan/GitHub520](https://github.com/521xueweihan/GitHub520) - :kissing_heart: GitHubが好きになる、アクセス時の画像崩れや読み込み遅延を解決（インストール不要）
-- [gurland/telegram-delete-all-messages](https://github.com/gurland/telegram-delete-all-messages) - Pythonスクリプトでグループ・スーパーグループ内の自分のメッセージを全削除
-- [dylanyang17/TsinghuaBookCrawler](https://github.com/dylanyang17/TsinghuaBookCrawler) - 清華教参プラットフォームのクローラー
+- [pyrogram/pyrogram](https://github.com/pyrogram/pyrogram) - Pythonで書かれたエレガントでモダンな非同期Telegram MTProto APIフレームワーク（ユーザー・ボット用）
+- [dev-jonghoonpark/pdf-password-locker](https://github.com/dev-jonghoonpark/pdf-password-locker) - PDFファイルにパスワードを設定するユーティリティ
+- [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) - :octocat: GitHub上の面白く入門向けのオープンソースプロジェクトを共有。面白いプロジェクトをシェア。
+- [mozillazg/python-pinyin](https://github.com/mozillazg/python-pinyin) - 漢字をピンインに変換(pypinyin)
+- [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) - 積立投資で運命を変える — 時間があなたをゆっくりと豊かにする https://onregularinvesting.com
+- [piyx/FileOrganizer](https://github.com/piyx/FileOrganizer) - コンピューター内のファイルを自動的に整理
+- [sreekaransrinath/file_organizer](https://github.com/sreekaransrinath/file_organizer) - 指定したフォルダをスキャンし、ファイルタイプに基づき各サブフォルダに移動するスクリプト。
+- [aashutoshrathi/py-scripts](https://github.com/aashutoshrathi/py-scripts) - Windowsユーザーの日常を楽にするスクリプト集。
+- [offa/android-foss](https://github.com/offa/android-foss) - Android向けのフリー＆オープンソースソフトウェア（FOSS）リスト – 自由とプライバシーを守る。
+- [Trinkle23897/learn2018-autodown](https://github.com/Trinkle23897/learn2018-autodown) - 清華大学新版ネット講義の自動ダウンロードスクリプト / learn.tsinghua.edu.cn から全ファイルをクローニングするPythonスクリプト
+- [521xueweihan/GitHub520](https://github.com/521xueweihan/GitHub520) - :kissing_heart: GitHubを「愛」せるように、アクセス時の画像破損や読み込み遅延問題を解決（インストール不要）
+- [gurland/telegram-delete-all-messages](https://github.com/gurland/telegram-delete-all-messages) - Pythonスクリプトでグループ/スーパグループ内の全メッセージを削除
+- [dylanyang17/TsinghuaBookCrawler](https://github.com/dylanyang17/TsinghuaBookCrawler) - 清華大学教材プラットフォームのクローラー
 
 ## QML 
 
-- [Dr-Incognito/V2Ray-Desktop](https://github.com/Dr-Incognito/V2Ray-Desktop) - 最もエレガントなクロスプラットフォームプロキシクライアント。Shadowsocks(R)、V2Ray、Trojanプロトコル対応。Qt5とQML2で構築。
+- [Dr-Incognito/V2Ray-Desktop](https://github.com/Dr-Incognito/V2Ray-Desktop) - 最もエレガントなクロスプラットフォームプロキシGUIクライアントで、Shadowsocks(R)、V2Ray、Trojanをサポート。Qt5とQML2で構築。
 
 ## R 
 
-- [REditorSupport/languageserver](https://github.com/REditorSupport/languageserver) - R向けLanguage Server Protocolの実装
+- [REditorSupport/languageserver](https://github.com/REditorSupport/languageserver) - R用のLanguage Server Protocol実装
 
 ## Rich Text Format 
 
-- [gauravghongde/social-icons](https://github.com/gauravghongde/social-icons) - SVG & PNGソーシャルメディアアイコン集。ウェブサイトに直接埋め込み可能。
+- [gauravghongde/social-icons](https://github.com/gauravghongde/social-icons) - SVG & PNGのソーシャルメディアアイコン集。ウェブサイトに直接埋め込み可能。
 
 ## Roff 
 
-- [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) - 小学校・中学校・高校・大学のPDF教材すべて。
-- [wikihouseproject/Skylark](https://github.com/wikihouseproject/Skylark) - 標準化された断熱ブロックを使用した最新のWikiHouse構造システム、1-3階建て建物向け
+- [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) - 小中高および大学のPDF教科書すべて。
+- [wikihouseproject/Skylark](https://github.com/wikihouseproject/Skylark) - 標準化された断熱ブロックを使用した最新のWikiHouse構造システム、1～3階建て向け
 
 ## Ruby 
 
 - [captn3m0/opml-gen](https://github.com/captn3m0/opml-gen) - 
-- [hartator/wayback-machine-downloader](https://github.com/hartator/wayback-machine-downloader) - Wayback Machineからウェブサイト全体をダウンロード
-- [lewagon/setup](https://github.com/lewagon/setup) - Le WagonのWeb開発ブートキャンプ初日に必要なセットアップ手順
-- [community/community](https://github.com/community/community) - GitHub Mobile、GitHub Discussions、GitHub Codespaces、GitHub Sponsors、GitHub Issuesなどの公開フィードバックディスカッション
-- [mrtazz/katana](https://github.com/mrtazz/katana) - guillotineベースのHerokuホスト型URL短縮サービス
+- [hartator/wayback-machine-downloader](https://github.com/hartator/wayback-machine-downloader) - Wayback Machineからウェブサイト全体をダウンロード。
+- [lewagon/setup](https://github.com/lewagon/setup) - Le Wagonの学生向け、Web開発ブートキャンプ初日のセットアップ手順
+- [community/community](https://github.com/community/community) - GitHub Mobile、GitHub Discussions、GitHub Codespaces、GitHub Sponsors、GitHub Issuesなどの公開フィードバックディスカッション！
+- [mrtazz/katana](https://github.com/mrtazz/katana) - guillotineベースのHerokuホストURL短縮サービス
 - [technoweenie/guillotine](https://github.com/technoweenie/guillotine) - URL短縮ホビーキット
-- [jekyll/jekyll](https://github.com/jekyll/jekyll) - :globe_with_meridians: JekyllはRuby製のブログ対応静的サイトジェネレーター
-- [mastodon/mastodon](https://github.com/mastodon/mastodon) - 自己ホスト型・グローバルに連携可能なマイクロブログコミュニティ
+- [jekyll/jekyll](https://github.com/jekyll/jekyll) - :globe_with_meridians: Rubyで書かれたブログ対応の静的サイトジェネレーター
+- [mastodon/mastodon](https://github.com/mastodon/mastodon) - セルフホスト可能なグローバルに連結されたマイクロブログコミュニティ
 - [apsheronets/reader](https://github.com/apsheronets/reader) - 
 - [IgnoredAmbience/github-gitlab-sync](https://github.com/IgnoredAmbience/github-gitlab-sync) - GitHubとGitLab間の継続的リポジトリ同期ツール
-- [huginn/huginn](https://github.com/huginn/huginn) - モニタリング＆自動実行エージェントを作成。あなたのためにエージェントが待機中！
+- [huginn/huginn](https://github.com/huginn/huginn) - 代理で監視・行動するエージェントを作成。あなたのエージェントが待機中！
 
 ## Rust 
 
-- [microsoft/edit](https://github.com/microsoft/edit) - みんなで編集。
+- [microsoft/edit](https://github.com/microsoft/edit) - 私たちは皆編集する。
 - [justjavac/herlang](https://github.com/justjavac/herlang) - Rustで書かれたHerプログラミング言語。
-- [sigoden/aichat](https://github.com/sigoden/aichat) - シェルアシスタント、Chat-REPL、RAG、AIツール＆エージェントを備えたオールインワンLLM CLI。OpenAI、Claude、Gemini、Ollama、Groq等対応。
-- [astral-sh/rye](https://github.com/astral-sh/rye) - 手間いらずのPython体験
-- [libnyanpasu/clash-nyanpasu](https://github.com/libnyanpasu/clash-nyanpasu) - Clash Nyanpasu～(∠・ω&lt; )⌒☆​
-- [microsoft/sudo](https://github.com/microsoft/sudo) - Windows版sudo
-- [KipData/KiteSQL](https://github.com/KipData/KiteSQL) - Rust向けの「SQL as a Function」
-- [zed-industries/zed](https://github.com/zed-industries/zed) - 思考のスピードでコーディング―AtomとTree-sitterの開発者による高速・マルチプレイヤー対応コードエディタ
-- [H-M-H/Weylus](https://github.com/H-M-H/Weylus) - タブレットをグラフィックタブレット／タッチスクリーンとしてPCで使用可能
-- [YukiCoco/ToMoon](https://github.com/YukiCoco/ToMoon) - SteamOSベースのネットワークツール、自動でTUNモードを設定しゲームやネットワークプロキシを高速化。
-- [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) - Rust製の非公式Bitwarden互換サーバー（旧名bitwarden_rs）
-- [rustdesk/rustdesk-server](https://github.com/rustdesk/rustdesk-server) - RustDesk サーバープログラム
-- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) - 自己ホスト可能なオープンソースリモートデスクトップアプリケーション、TeamViewer代替
-- [m1guelpf/plz-cli](https://github.com/m1guelpf/plz-cli) - ターミナル向けCopilot
-- [EAimTY/socks5-server](https://github.com/EAimTY/socks5-server) - tokioベースの細かな制御が可能な非同期SOCKS5サーバーライブラリ
-- [sigoden/opscan](https://github.com/sigoden/opscan) - オープンポートスキャナー。
-- [lencx/ChatGPT](https://github.com/lencx/ChatGPT) - 🔮 ChatGPT デスクトップアプリ（Mac, Windows, Linux対応）
-- [klausi/mastodon-twitter-sync](https://github.com/klausi/mastodon-twitter-sync) - MastodonとTwitter間の投稿同期
+- [sigoden/aichat](https://github.com/sigoden/aichat) - Shellアシスタント、Chat-REPL、RAG、AIツール＆エージェントを備えたオールインワンLLM CLIツール。OpenAI、Claude、Gemini、Ollama、Groq等にアクセス可能。
+- [astral-sh/rye](https://github.com/astral-sh/rye) - ストレスフリーなPython体験
+- [libnyanpasu/clash-nyanpasu](https://github.com/libnyanpasu/clash-nyanpasu) - Clash Nyanpasu～(∠・ω&lt; )⌒☆
+- [microsoft/sudo](https://github.com/microsoft/sudo) - Windows用sudo
+- [KipData/KiteSQL](https://github.com/KipData/KiteSQL) - Rustの関数としてのSQL
+- [zed-industries/zed](https://github.com/zed-industries/zed) - 思考の速度でコードを書く – AtomとTree-sitterの作成者による高性能マルチプレイヤーコードエディタ。
+- [H-M-H/Weylus](https://github.com/H-M-H/Weylus) - タブレットをPCのグラフィックタブレット/タッチスクリーンとして使用。
+- [YukiCoco/ToMoon](https://github.com/YukiCoco/ToMoon) - SteamOSベースのネットワークツール、TUNモード自動設定でゲーム加速、ネットワークプロキシ。
+- [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) - Rustで書かれた非公式Bitwarden互換サーバー、旧名bitwarden_rs
+- [rustdesk/rustdesk-server](https://github.com/rustdesk/rustdesk-server) - RustDeskサーバープログラム
+- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) - TeamViewerの代替となるセルフホスト可能なオープンソースリモートデスクトップアプリ。
+- [m1guelpf/plz-cli](https://github.com/m1guelpf/plz-cli) - ターミナル用コパイロット
+- [EAimTY/socks5-server](https://github.com/EAimTY/socks5-server) - tokioベースの細粒度で比較的低レベルな非同期SOCKS5サーバーライブラリ
+- [sigoden/opscan](https://github.com/sigoden/opscan) - オープンポートスキャナ。
+- [lencx/ChatGPT](https://github.com/lencx/ChatGPT) - 🔮 ChatGPTデスクトップアプリ（Mac、Windows、Linux）
+- [klausi/mastodon-twitter-sync](https://github.com/klausi/mastodon-twitter-sync) - MastodonとTwitter間で投稿を同期
 - [glotlabs/gdrive](https://github.com/glotlabs/gdrive) - Google Drive CLIクライアント
-- [lapce/lapce](https://github.com/lapce/lapce) - Rust製の高速・高機能なコードエディタ
-- [dracarys18/TweetBot](https://github.com/dracarys18/TweetBot) - 任意のTwitterアカウントからTelegramチャンネルへツイートを配信するシンプルなTelegramボット
-- [tw93/Pake](https://github.com/tw93/Pake) - 🤱🏻 Rustで任意のウェブページをデスクトップアプリ化。🤱🏻 Rustで手軽に軽量クロスプラットフォームデスクトップアプリを構築
-- [google/comprehensive-rust](https://github.com/google/comprehensive-rust) - Google Androidチームが使用するRust講座。短期間でRustを指導できる教材を提供。
-- [facebook/sapling](https://github.com/facebook/sapling) - スケーラブルでユーザーフレンドリーなソース管理システム。
+- [lapce/lapce](https://github.com/lapce/lapce) - Rustで書かれた超高速で強力なコードエディタ
+- [dracarys18/TweetBot](https://github.com/dracarys18/TweetBot) - TwitterアカウントのツイートをTelegramチャンネルにストリームするシンプルなTelegramボット
+- [tw93/Pake](https://github.com/tw93/Pake) - 🤱🏻 Rustで任意のウェブページをデスクトップアプリに変換。🤱🏻 Rustを使った軽量多端末対応デスクトップアプリ構築
+- [google/comprehensive-rust](https://github.com/google/comprehensive-rust) - GoogleのAndroidチームが使うRustコース。Rustを素早く習得する教材。
+- [facebook/sapling](https://github.com/facebook/sapling) - 拡張可能で使いやすいソース管理システム。
 - [abba23/spotify-adblock](https://github.com/abba23/spotify-adblock) - Spotify用広告ブロッカー
-- [messense/aliyundrive-webdav](https://github.com/messense/aliyundrive-webdav) - 阿里雲ドライブのWebDAVサービス
-- [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - スケーラブル・分散・コラボレーション可能なドキュメントグラフ型リアルタイムWeb向けデータベース
+- [messense/aliyundrive-webdav](https://github.com/messense/aliyundrive-webdav) - アリババクラウドディスクWebDAVサービス
+- [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - スケーラブルで分散型、協調型のドキュメント・グラフデータベース、リアルタイムWeb向け
 - [rust-net/dnsd](https://github.com/rust-net/dnsd) - DNSプロキシサーバー
-- [ihciah/shadow-tls](https://github.com/ihciah/shadow-tls) - ファイアウォール向けに本物のTLSハンドシェイクを露出させるプロキシ
-- [seanmonstar/warp](https://github.com/seanmonstar/warp) - 超簡単で構成可能な高速Webサーバーフレームワーク
-- [iovxw/rssbot](https://github.com/iovxw/rssbot) - 軽量なTelegram RSS通知ボット。メッセージ通知用の軽量Telegram RSSボット
-- [Wulf/create-rust-app](https://github.com/Wulf/create-rust-app) - 1コマンドで最新のrust+reactウェブアプリをセットアップ。
+- [ihciah/shadow-tls](https://github.com/ihciah/shadow-tls) - 本物のTLSハンドシェイクをファイアウォールに露出させるプロキシ
+- [seanmonstar/warp](https://github.com/seanmonstar/warp) - 超簡単で合成可能な、高速ウェブサーバーフレームワーク。
+- [iovxw/rssbot](https://github.com/iovxw/rssbot) - 軽量なTelegram RSS通知ボット。メッセージ通知用の軽量Telegram RSSロボット
+- [Wulf/create-rust-app](https://github.com/Wulf/create-rust-app) - コマンド1つでモダンなrust+reactウェブアプリをセットアップ。
 - [sathwikmatsa/tcad](https://github.com/sathwikmatsa/tcad) - tcloud自動ダウンローダー
-- [sunface/rust-course](https://github.com/sunface/rust-course) - 「8年連続で世界で最も愛されている言語、GC不要かつ手動メモリ管理不要、高性能かつ安全、手続き/OO/関数型プログラミング、優れたパッケージ管理、JSの未来の基盤」— 余暇の第二言語としてRustを試そう。本書は包括的かつ深い解説、分かりやすい例、滑らかな内容を持ち、現時点で最も丁寧なRust中国語学習チュートリアル／ブックです
+- [sunface/rust-course](https://github.com/sunface/rust-course) - 「8年連続で世界で最も愛される言語、GC不要で手動メモリ管理不要、高性能と安全性、手続き型/OO/関数型プログラミング、優れたパッケージ管理、JSの未来の基盤」 — 仕事の合間に第二言語としてRustを試そう。本書は包括的で深い解説、生き生きとした例、滑らかな内容を持ち、現在最も丁寧なRustの中国語学習教材かもしれません / Book
 - [rust-lang/cargo](https://github.com/rust-lang/cargo) - Rustのパッケージマネージャー
-- [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) - IDE用Rustコンパイラフロントエンド
-- [rust-lang/book](https://github.com/rust-lang/book) - The Rust Programming Language
-- [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) - Rustコードとリソースの厳選リスト。
-- [bee-san/RustScan](https://github.com/bee-san/RustScan) - 🤖 最新型ポートスキャナー 🤖
+- [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) - IDE向けRustコンパイラフロントエンド
+- [rust-lang/book](https://github.com/rust-lang/book) - Rustプログラミング言語
+- [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) - Rustコードとリソースのキュレーションリスト。
+- [bee-san/RustScan](https://github.com/bee-san/RustScan) - 🤖 モダンなポートスキャナー 🤖
 - [RustPython/RustPython](https://github.com/RustPython/RustPython) - Rustで書かれたPythonインタプリタ
-- [TheAlgorithms/Rust](https://github.com/TheAlgorithms/Rust) - Rustで実装された全アルゴリズム
-- [Berrysoft/tunet-rust](https://github.com/Berrysoft/tunet-rust) - 清華大学キャンパスネットワークRustライブラリ＆クライアント
+- [TheAlgorithms/Rust](https://github.com/TheAlgorithms/Rust) - Rustで実装されたすべてのアルゴリズム
+- [Berrysoft/tunet-rust](https://github.com/Berrysoft/tunet-rust) - 清華大学キャンパスネットRustライブラリとクライアント
 - [sachaos/viddy](https://github.com/sachaos/viddy) - 👀 モダンなwatchコマンド。タイムマシンやページャーなど。
-- [sekunho/emojied](https://github.com/sekunho/emojied) - ✂️ 絵文字だけを使うURL短縮サービス。
+- [sekunho/emojied](https://github.com/sekunho/emojied) - ✂️ 絵文字だけを使ったURL短縮サービス。
 - [kxxt/aspeak](https://github.com/kxxt/aspeak) - Azure TTS API用のシンプルなテキスト読み上げクライアント。
-- [sharkdp/fd](https://github.com/sharkdp/fd) - シンプルで高速かつ使いやすい「find」の代替
-- [atuinsh/atuin](https://github.com/atuinsh/atuin) - ✨ 魔法のシェル履歴管理
-- [Dusk-Labs/dim](https://github.com/Dusk-Labs/dim) - 闇の力で動くメディアマネージャーDim。
-- [ekzhang/bore](https://github.com/ekzhang/bore) - 🕳 boreはローカルホストへのトンネルを作るシンプルなCLIツール
-- [rust-lang/mdBook](https://github.com/rust-lang/mdBook) - Markdownファイルから本を作成。GitbookのRust実装版
-- [sunface/rust-by-practice](https://github.com/sunface/rust-by-practice) - 実践でRustを学ぶ。課題やプロジェクトを通じて初心者と熟練者のギャップを埋める。
-- [Wilfred/difftastic](https://github.com/Wilfred/difftastic) - 構造を理解するシンタックス差分ツール 🟥🟩
-- [rust-lang/rust](https://github.com/rust-lang/rust) - すべての人に信頼性が高く効率的なソフトウェア開発を提供します。
-- [influxdata/influxdb](https://github.com/influxdata/influxdb) - メトリクス、イベント、リアルタイム分析用スケーラブルデータストア
-- [ogham/exa](https://github.com/ogham/exa) - 「ls」のモダンな代替。
-- [rathole-org/rathole](https://github.com/rathole-org/rathole) - Rust製の軽量かつ高性能なNATトラバーサル用リバースプロキシ。frpやngrokの代替。
-- [flxzt/rnote](https://github.com/flxzt/rnote) - 手書きノートとスケッチを作成。
+- [sharkdp/fd](https://github.com/sharkdp/fd) - シンプルで高速、使いやすい'find'の代替。
+- [atuinsh/atuin](https://github.com/atuinsh/atuin) - ✨ 魔法のようなシェル履歴
+- [Dusk-Labs/dim](https://github.com/Dusk-Labs/dim) - ダークフォースが動力のメディアマネージャーDim。
+- [ekzhang/bore](https://github.com/ekzhang/bore) - 🕳 boreはlocalhostへのトンネル作成用のシンプルなCLIツール
+- [rust-lang/mdBook](https://github.com/rust-lang/mdBook) - マークダウンファイルから書籍作成。GitbookのようだがRustで実装
+- [sunface/rust-by-practice](https://github.com/sunface/rust-by-practice) - 実践で学ぶRust。初心者と熟練者のギャップを挑戦的な例題、演習、プロジェクトで埋める。
+- [Wilfred/difftastic](https://github.com/Wilfred/difftastic) - 構文を理解する構造的diff 🟥🟩
+- [rust-lang/rust](https://github.com/rust-lang/rust) - 誰もが信頼性と効率性の高いソフトウェアを作れるように。
+- [influxdata/influxdb](https://github.com/influxdata/influxdb) - メトリクス、イベント、リアルタイム分析用のスケーラブルデータストア
+- [ogham/exa](https://github.com/ogham/exa) - ‘ls’のモダンな代替。
+- [rathole-org/rathole](https://github.com/rathole-org/rathole) - NATトラバーサル用の軽量かつ高性能なリバースプロキシ。Rust製。frpやngrokの代替。
+- [flxzt/rnote](https://github.com/flxzt/rnote) - スケッチと手書きノート。
 - [ihciah/ddns-worker](https://github.com/ihciah/ddns-worker) - 
 - [svenstaro/genact](https://github.com/svenstaro/genact) - 🌀 ナンセンスなアクティビティジェネレーター
-- [cloudflare/wrangler-legacy](https://github.com/cloudflare/wrangler-legacy) - 🤠  Wrangler v1のホーム（非推奨）
-- [starship/starship](https://github.com/starship/starship) - ☄🌌️  あらゆるシェル用のミニマルで超高速、無限にカスタマイズ可能なプロンプト！
-- [sayanarijit/qrcode.show](https://github.com/sayanarijit/qrcode.show) - 【作業中プロトタイプ】無料で簡単にQRコード生成 - サービスとしてのQRコード生成
+- [cloudflare/wrangler-legacy](https://github.com/cloudflare/wrangler-legacy) - 🤠 Wrangler v1（非推奨）用リポジトリ
+- [starship/starship](https://github.com/starship/starship) - ☄🌌️ あらゆるシェルに対応した最小限で超高速、無限にカスタマイズ可能なプロンプト！
+- [sayanarijit/qrcode.show](https://github.com/sayanarijit/qrcode.show) - [実用プロトタイプ] 無料で簡単にQRコードを生成 - QRコード生成のサービス
 - [fish-shell/fish-shell](https://github.com/fish-shell/fish-shell) - ユーザーフレンドリーなコマンドラインシェル。
-- [qarmin/szyszka](https://github.com/qarmin/szyszka) - Szyszkaは高速かつ強力なファイルリネーマー
-- [qarmin/czkawka](https://github.com/qarmin/czkawka) - 重複ファイル、空フォルダ、類似画像などを探す多機能アプリ。
+- [qarmin/szyszka](https://github.com/qarmin/szyszka) - Szyszkaは高速で強力なファイルリネーマー
+- [qarmin/czkawka](https://github.com/qarmin/czkawka) - 重複ファイル、空フォルダ、類似画像などを探す多機能アプリ
 
 ## SCSS 
 
-- [Keldos-Li/typora-latex-theme](https://github.com/Keldos-Li/typora-latex-theme) - TyporaをLaTeX風の中国語スタイルテーマに。学部生の軽量なレポート作成に最適。
-- [vinceliuice/Graphite-gtk-theme](https://github.com/vinceliuice/Graphite-gtk-theme) - Graphite gtkテーマ
+- [Keldos-Li/typora-latex-theme](https://github.com/Keldos-Li/typora-latex-theme) - TyporaをLaTeX風の中国語スタイルに変えるテーマ。学部生の軽量論文作成に最適。This is a theme disguising Typora into Chinese LaTeX style.
+- [vinceliuice/Graphite-gtk-theme](https://github.com/vinceliuice/Graphite-gtk-theme) - Graphite GTKテーマ
 - [noatpad/typora-theme-ursine](https://github.com/noatpad/typora-theme-ursine) - BearにインスパイアされたTyporaテーマ
-- [vinceliuice/WhiteSur-gtk-theme](https://github.com/vinceliuice/WhiteSur-gtk-theme) - すべてのgtkデスクトップ向けMacOS風テーマ
-- [sivan/heti](https://github.com/sivan/heti) - 赫蹏（hètí）は中国語コンテンツ表示のために設計されたタイポグラフィ強化。中国語排版規範に基づき、より良い読書体験を提供。
-- [AboutRSS/ALL-about-RSS](https://github.com/AboutRSS/ALL-about-RSS) - RSS関連のツール、サービス、コミュニティ、チュートリアルなどのリスト。
+- [vinceliuice/WhiteSur-gtk-theme](https://github.com/vinceliuice/WhiteSur-gtk-theme) - 全GTKベースデスクトップ用のMacOS風テーマ
+- [sivan/heti](https://github.com/sivan/heti) - 赫蹏（hètí）は中国語コンテンツ表示向けに設計されたレイアウト強化スタイル。一般的な中国語組版規則に基づき、ウェブの読者により良い読みやすさを提供。
+- [AboutRSS/ALL-about-RSS](https://github.com/AboutRSS/ALL-about-RSS) - RSS関連のツール、サービス、コミュニティ、チュートリアル等のリスト。
 
 ## SVG 
 
-- [gilbarbara/logos](https://github.com/gilbarbara/logos) - SVGロゴの巨大コレクション
-- [tandpfun/skill-icons](https://github.com/tandpfun/skill-icons) - Githubリードミーや履歴書で簡単にスキルを披露✨
+- [gilbarbara/logos](https://github.com/gilbarbara/logos) - 大量のSVGロゴコレクション
+- [tandpfun/skill-icons](https://github.com/tandpfun/skill-icons) - GithubのREADMEや履歴書にスキルを簡単に表示できる✨
 
 ## Shell 
 
 - [LloydAsp/NodeQuality](https://github.com/LloydAsp/NodeQuality) - サンドボックス環境でVPSテストスクリプトを実行し、結果を整形
-- [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) - インターネット広告をブロックするブラックホール
-- [xykt/IPQuality](https://github.com/xykt/IPQuality) - IP品質チェックスクリプト - IP Quality Check Script
-- [i-abc/Speedtest](https://github.com/i-abc/Speedtest) - 多機能速度テストスクリプト | Multi-functional speedtest script
-- [fscarmen/ArgoX](https://github.com/fscarmen/ArgoX) - Argo XrayのVPSワンクリックスクリプト。一発スクリプト
+- [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) - インターネット広告のブラックホール
+- [xykt/IPQuality](https://github.com/xykt/IPQuality) - IP品質検査スクリプト - IP Quality Check Script
+- [i-abc/Speedtest](https://github.com/i-abc/Speedtest) - 多機能速度測定スクリプト
+- [fscarmen/ArgoX](https://github.com/fscarmen/ArgoX) - VPS用Argo Xrayワンクリックスクリプト。
 - [233boy/Xray](https://github.com/233boy/Xray) - 最高のXrayワンクリックインストール＆管理スクリプト
-- [binpash/try](https://github.com/binpash/try) - コマンド実行前にその効果を検証
-- [panyanyany/muchat-aio](https://github.com/panyanyany/muchat-aio) - チーム向けChatGPT Webアプリ。マルチユーザー・ログイン不要。企業や団体、グループ内利用に最適。
-- [guzhaoyuan/net.tsinghua](https://github.com/guzhaoyuan/net.tsinghua) - 清華ネットワークログイン用コマンドラインインターフェース
-- [yonggekkk/warp-yg](https://github.com/yonggekkk/warp-yg) - warp多機能ワンクリックスクリプト。warp-goとwgcf切替、warp設定無制限生成、warp+・warpチームアカウント対応、VPSローカルIP/netflix/chatgpt解除確認
-- [AbdBarho/stable-diffusion-webui-docker](https://github.com/AbdBarho/stable-diffusion-webui-docker) - 安易にStable DiffusionをセットアップできるDocker用UI
-- [lxhao61/integrated-examples](https://github.com/lxhao61/integrated-examples) - NginxまたはCaddy(v2)＋V2Ray(v4)やXray、Caddy(v2)+専用プラグイン、Hysteria等を使った最適な科学ネットワーク構成例、及び特定プラグインCaddy(v2)ファイルの共有
+- [binpash/try](https://github.com/binpash/try) - コマンドの影響をライブシステム変更前に検査
+- [panyanyany/muchat-aio](https://github.com/panyanyany/muchat-aio) - チーム版ChatGPTウェブアプリ、多ユーザー、ログイン不要。会社や組織、小グループ向け。
+- [guzhaoyuan/net.tsinghua](https://github.com/guzhaoyuan/net.tsinghua) - 清華ネットワークログイン用CLI
+- [yonggekkk/warp-yg](https://github.com/yonggekkk/warp-yg) - warp多機能ワンクリックスクリプト。warp-goとwgcf切替、無制限warp設定生成、warp+やwarpチームアカウント対応、VPSローカルIP、Netflix、ChatGPT解除状態確認
+- [AbdBarho/stable-diffusion-webui-docker](https://github.com/AbdBarho/stable-diffusion-webui-docker) - ユーザーフレンドリーUI付きStable Diffusionの簡単Dockerセットアップ
+- [lxhao61/integrated-examples](https://github.com/lxhao61/integrated-examples) - NginxやCaddy(v2)とV2Ray(v4)またはXray、Caddy専用プラグイン、Hysteria等を使った科学的ネット利用最適化設定例。特定プラグイン統合済みCaddy(v2)ファイルも提供し、共有とバックアップ用。
 - [haiwen/seafile-admin-docs](https://github.com/haiwen/seafile-admin-docs) - 
-- [P3TERX/aria2.conf](https://github.com/P3TERX/aria2.conf) - Aria2設定ファイル | OneDrive & Google DriveオフラインDL | 百度網盤転送
-- [colinwjd/aria2-ariang](https://github.com/colinwjd/aria2-ariang) - Aria2＋Aira-Ng Web UI
+- [P3TERX/aria2.conf](https://github.com/P3TERX/aria2.conf) - Aria2設定ファイル | OneDrive & Google Driveオフラインダウンロード | 百度網盤転送
+- [colinwjd/aria2-ariang](https://github.com/colinwjd/aria2-ariang) - Aira-NgウェブUI付きAria2
 - [lmc999/auto-add-routes](https://github.com/lmc999/auto-add-routes) - VPN用中国ルート
-- [chenjie/v2ray-tls-websocket-nginx](https://github.com/chenjie/v2ray-tls-websocket-nginx) - 🌎究極のV2Rayプロキシ構成(Project V)
-- [awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash) - 優れたBashスクリプトとリソースの厳選リスト
+- [chenjie/v2ray-tls-websocket-nginx](https://github.com/chenjie/v2ray-tls-websocket-nginx) - 🌎 Project Vによる究極のV2Rayプロキシ設定。
+- [awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash) - 素晴らしいBashスクリプトとリソースのキュレーションリスト。
 - [York618/alist-flyio](https://github.com/York618/alist-flyio) - 
-- [termux/termux-packages](https://github.com/termux/termux-packages) - Termux用パッケージビルドシステム
-- [todotxt/todo.txt-cli](https://github.com/todotxt/todo.txt-cli) - ☑️ todo.txtファイル管理用のシンプルで拡張性の高いシェルスクリプト
-- [VSCodium/vscodium](https://github.com/VSCodium/vscodium) - MSブランドやテレメトリ、ライセンスなしのVS Codeバイナリリリース
-- [dylanaraps/neofetch](https://github.com/dylanaraps/neofetch) - 🖼️  bash 3.2+で書かれたコマンドラインシステム情報ツール
-- [emptysuns/Hi_Hysteria](https://github.com/emptysuns/Hi_Hysteria) - Hello World！中国最適化回線でないと遅い？中継不要？hysteria2ワンクリック解決。
-- [nicejade/vuepress-web-app](https://github.com/nicejade/vuepress-web-app) - 📝 VuePress構築のWebアプリ。PWA、Github Issuesコメント、Prettier Markdownなど対応。
-- [qinghuas/socks5-install](https://github.com/qinghuas/socks5-install) - socks5 ワンクリックスクリプト
-- [MichaelCade/90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps) - このリポジトリは当初、自分の公開学習プロジェクトとして始まり、今では多くのコミュニティに向けた体系的学習マップに。3年間でDevOps全般をカバー
+- [termux/termux-packages](https://github.com/termux/termux-packages) - Termux用パッケージビルドシステム。
+- [todotxt/todo.txt-cli](https://github.com/todotxt/todo.txt-cli) - ☑️ todo.txt管理用のシンプルで拡張可能なシェルスクリプト。
+- [VSCodium/vscodium](https://github.com/VSCodium/vscodium) - MSのブランド、テレメトリ、ライセンスなしのVS Codeバイナリリリース
+- [dylanaraps/neofetch](https://github.com/dylanaraps/neofetch) - 🖼️ bash 3.2+で書かれたコマンドラインシステム情報ツール
+- [emptysuns/Hi_Hysteria](https://github.com/emptysuns/Hi_Hysteria) - Hello World！中国以外の最適化回線が不調？中継不要？hysteria2一発解決。
+- [nicejade/vuepress-web-app](https://github.com/nicejade/vuepress-web-app) - 📝 VuePressで構築されたウェブアプリ。PWA、Github Issuesコメント、Prettier Markdown対応。
+- [qinghuas/socks5-install](https://github.com/qinghuas/socks5-install) - socks5ワンクリックスクリプト
+- [MichaelCade/90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps) - 自分用の学習公開プロジェクトとして始まり、今ではコミュニティで多くが使う体系的学習マップ。3年分のDevOps全般をカバー。
 - [rocky-linux/rocky-tools](https://github.com/rocky-linux/rocky-tools) - 
-- [Smalls1652/wsl2-rockylinux](https://github.com/Smalls1652/wsl2-rockylinux) - Windows Subsystem for Linux用のRockyLinuxイメージを作成
-- [scop/bash-completion](https://github.com/scop/bash-completion) - bash用のプログラマブル補完関数
-- [yeahwu/v2ray-wss](https://github.com/yeahwu/v2ray-wss) - 複数プロトコル対応のプロキシスクリプト
+- [Smalls1652/wsl2-rockylinux](https://github.com/Smalls1652/wsl2-rockylinux) - Windows Subsystem for Linux用RockyLinuxイメージ作成。
+- [scop/bash-completion](https://github.com/scop/bash-completion) - bash用プログラム可能な補完関数
+- [yeahwu/v2ray-wss](https://github.com/yeahwu/v2ray-wss) - 複数プロトコル対応のプロキシスクリプト。
 - [nodesource/distributions](https://github.com/nodesource/distributions) - NodeSource Node.jsバイナリ配布
-- [uvulpos/gitea-installer](https://github.com/uvulpos/gitea-installer) - シンプルなgitea用bashインストーラー！実行前に最新のGiteaダウンロードリンクを要確認
+- [uvulpos/gitea-installer](https://github.com/uvulpos/gitea-installer) - giteaのシンプルなbashインストーラー！スクリプト実行前に最新のGiteaダウンロードリンクか確認してください
 - [chevereto/vps](https://github.com/chevereto/vps) - どのVPSにもCheveretoをインストールするbashスクリプト集
-- [wulabing/Xray_onekey](https://github.com/wulabing/Xray_onekey) - Xray＋NginxのVLESS+XTLSワンクリックスクリプト
+- [wulabing/Xray_onekey](https://github.com/wulabing/Xray_onekey) - NginxベースのVLESS+XTLS Xrayワンクリックインストールスクリプト
 - [lanbugs/gitea_installer](https://github.com/lanbugs/gitea_installer) - GITEAインストールスクリプト
-- [AlistGo/alist-replit](https://github.com/AlistGo/alist-replit) - replit上でalist
-- [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) - 純粋なUnixシェルスクリプトで実装したACMEクライアントプロトコル
+- [AlistGo/alist-replit](https://github.com/AlistGo/alist-replit) - replit上のalist
+- [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) - 純Unixシェルスクリプトで実装されたACMEクライアントプロトコル
 - [wulabing/V2Ray_ws-tls_bash_onekey](https://github.com/wulabing/V2Ray_ws-tls_bash_onekey) - 
-- [mack-a/v2ray-agent](https://github.com/mack-a/v2ray-agent) - Xray、Tuic、hysteria2、sing-boxなど8種統合ワンクリックスクリプト
-- [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) - コンピュータサイエンス分野で読むべき論文集
-- [eRaid6/gitea-install](https://github.com/eRaid6/gitea-install) - CentOS 7/RHEL7・Fedora 30上でGiteaをインストール＆アップグレード
-- [P3TERX/warp.sh](https://github.com/P3TERX/warp.sh) - Cloudflare WARPインストーラー | WARPワンクリックスクリプト
-- [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃  2,400人超の貢献者によるzsh設定管理フレームワーク。300以上のプラグインを収録（rails, git, macOS, hub, docker, homebrew, node, php, python ほか）
-- [bestxtools/awesome-toolbox-chinese](https://github.com/bestxtools/awesome-toolbox-chinese) - 🧰 優れたツールボックスまとめ - 便利で優秀なツールボックスを収集・推薦。ツールボックス大全。| https://awesome-toolbox-chinese.bestxtools.com/ | https://😎🧰.bestxtools.com/
+- [mack-a/v2ray-agent](https://github.com/mack-a/v2ray-agent) - Xray、Tuic、hysteria2、sing-boxの八合一ワンクリックスクリプト
+- [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) - コンピューターサイエンス界の論文を読んで議論する場。
+- [eRaid6/gitea-install](https://github.com/eRaid6/gitea-install) - CentOS 7/RHEL7およびFedora 30でのGiteaインストールとアップグレード
+- [P3TERX/warp.sh](https://github.com/P3TERX/warp.sh) - Cloudflare WARPインストーラー | WARPワンクリックインストールスクリプト
+- [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃 2400+コントリビューターによるコミュニティ主導のzsh管理フレームワーク。300+のオプションプラグイン含む（rails, git, macOS, hub, docker, homebrew, node, php, python,
+- [bestxtools/awesome-toolbox-chinese](https://github.com/bestxtools/awesome-toolbox-chinese) - 🧰 優秀なツールボックス集 - 使いやすく優れたツールボックスを収集・推薦。ツールボックス大全。| https://awesome-toolbox-chinese.bestxtools.com/ | https://😎🧰.bestxtools.com/
 - [wslutilities/wslu](https://github.com/wslutilities/wslu) - Windows Subsystem for Linux用ユーティリティ集
-- [cheat/cheatsheets](https://github.com/cheat/cheatsheets) - コミュニティ発のチートシート
+- [cheat/cheatsheets](https://github.com/cheat/cheatsheets) - コミュニティ発のチートシート集
 - [foxundermoon/vs-shell-format](https://github.com/foxundermoon/vs-shell-format) - shellscript、Dockerfile、propertiesなどのフォーマット拡張
-- [aprescott/gist-backup](https://github.com/aprescott/gist-backup) - すべての公開・非公開のgistリポジトリをバックアップします。
-- [Jrohy/nodejs-install](https://github.com/Jrohy/nodejs-install) - 最新版nodejsをワンクリックでインストール
-- [rickellis/ConkyMatic](https://github.com/rickellis/ConkyMatic) - 現在の壁紙の色に基づいてConkyのカラースキームを自動で変更するBash製ツール。
-- [DamionGans/ubuntu-wsl2-systemd-script](https://github.com/DamionGans/ubuntu-wsl2-systemd-script) - 【現在動作不可！】Ubuntu WSL2イメージでsystemdサポートを有効にするスクリプト
-- [adi1090x/dynamic-wallpaper](https://github.com/adi1090x/dynamic-wallpaper) - 現在時刻に合わせて壁紙をcronジョブで自動切り替えするシンプルなbashスクリプト。
-- [v2fly/fhs-install-v2ray](https://github.com/v2fly/fhs-install-v2ray) - Debian / CentOS / Fedora / openSUSEなどsystemd対応OS向けV2Rayインストール用Bashスクリプト
-- [denysdovhan/one-gnome-terminal](https://github.com/denysdovhan/one-gnome-terminal) - AtomのOne Dark/One LightテーマをGNOME Terminal向けに移植
+- [aprescott/gist-backup](https://github.com/aprescott/gist-backup) - すべての公開および非公開のgistリポジトリをバックアップします。
+- [Jrohy/nodejs-install](https://github.com/Jrohy/nodejs-install) - 最新版のnodejsをワンクリックでインストール
+- [rickellis/ConkyMatic](https://github.com/rickellis/ConkyMatic) - 現在の壁紙の色に基づいて自動的にConkyのカラースキームを変更します。Bashで書かれています。
+- [DamionGans/ubuntu-wsl2-systemd-script](https://github.com/DamionGans/ubuntu-wsl2-systemd-script) - [現在は動作しません！] 現行のUbuntu WSL2イメージでsystemdサポートを有効にするスクリプト
+- [adi1090x/dynamic-wallpaper](https://github.com/adi1090x/dynamic-wallpaper) - cronジョブスケジューラを使用して現在の時間に応じて壁紙を設定するシンプルなbashスクリプト。
+- [v2fly/fhs-install-v2ray](https://github.com/v2fly/fhs-install-v2ray) - Debian / CentOS / Fedora / openSUSEなどのsystemdをサポートするOS向けのV2Rayインストール用Bashスクリプト
+- [denysdovhan/one-gnome-terminal](https://github.com/denysdovhan/one-gnome-terminal) - GNOME Terminal用AtomのOne DarkおよびOne Lightテーマ
 - [disbalancer-project/main](https://github.com/disbalancer-project/main) - 
-- [felixonmars/vps2arch](https://github.com/felixonmars/vps2arch) - VPSを最速でArch Linuxに変換！（gitlab:drizzt/vps2archからフォーク）
+- [felixonmars/vps2arch](https://github.com/felixonmars/vps2arch) - VPSをArch Linuxに変換する最速の方法！（gitlab:drizzt/vps2archからフォーク）
 - [xiantang/xiantang-blog](https://github.com/xiantang/xiantang-blog) - ブログ
-- [WSA-Community/WSAGAScript](https://github.com/WSA-Community/WSAGAScript) - WSAイメージにGoogle Appsをインストールするスクリプト。オプションでroot化も可能
-- [mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) - iTerm/iTerm2用400以上の端末カラースキーム/テーマ。Terminal, Konsole, PuTTY, Xresources, XRDB, Remmina, Termite, XFCE, Tilda, FreeBSD VT, Terminator, Kitty, MobaXterm, LXTerminへの移植も含む
-- [wabarc/on-heroku](https://github.com/wabarc/on-heroku) - HerokuアプリとしてWaybackサービスを簡単・迅速にデプロイ・管理。
-- [wabarc/on-github](https://github.com/wabarc/on-github) - GitHub ActionsとしてのWaybackサービス（デモ用）
-- [csguide-dabai/Programmer-look-at-China](https://github.com/csguide-dabai/Programmer-look-at-China) - 中国の各二線以上都市のインターネット環境と生活コストを紹介
-- [vicalloy/outline-docker-compose](https://github.com/vicalloy/outline-docker-compose) - 数分でセルフホスト型Outline wikiインスタンスをインストール
+- [WSA-Community/WSAGAScript](https://github.com/WSA-Community/WSAGAScript) - WSAイメージにGoogle Appsをインストールするスクリプト。オプションでrootも対応
+- [mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) - iTerm/iTerm2向けの400以上のターミナルカラースキーム/テーマ。Terminal、Konsole、PuTTY、Xresources、XRDB、Remmina、Termite、XFCE、Tilda、FreeBSD VT、Terminator、Kitty、MobaXterm、LXTerminへの移植も含む
+- [wabarc/on-heroku](https://github.com/wabarc/on-heroku) - WaybackサービスをHerokuアプリとして簡単かつ迅速にデプロイおよび管理。
+- [wabarc/on-github](https://github.com/wabarc/on-github) - GitHub ActionsとしてのWaybackサービス（デモ）
+- [csguide-dabai/Programmer-look-at-China](https://github.com/csguide-dabai/Programmer-look-at-China) - 中国の二線以上の都市のインターネット環境および生活コストの紹介
+- [vicalloy/outline-docker-compose](https://github.com/vicalloy/outline-docker-compose) - 数分でセルフホストのOutlineウィキインスタンスをインストール
 - [haoyume/233blog-v2ray](https://github.com/haoyume/233blog-v2ray) - 
-- [jpetazzo/container.training](https://github.com/jpetazzo/container.training) - Docker、コンテナ、Kubernetesに関するトレーニング・ワークショップ用スライドとコード例。
-- [Websoft9Archive/ansible-nextcloud](https://github.com/Websoft9Archive/ansible-nextcloud) - Linux上でのNextcloud自動インストーラー（Nextcloud自动安装程序）
+- [jpetazzo/container.training](https://github.com/jpetazzo/container.training) - Docker、コンテナ、Kubernetesに関するトレーニング、チュートリアル、ワークショップ用のスライドとコードサンプル。
+- [Websoft9Archive/ansible-nextcloud](https://github.com/Websoft9Archive/ansible-nextcloud) - Linux向けNextcloudの自動インストール（Nextcloud自動インストールプログラム）
 - [nextcloud/docker](https://github.com/nextcloud/docker) - ⛴ NextcloudのDockerイメージ
 - [ToutyRater/v2ray-guide](https://github.com/ToutyRater/v2ray-guide) - 
-- [cutelua/mtg-dist](https://github.com/cutelua/mtg-dist) - mtgの配布・インストールをワンライナーで実現するスクリプト
+- [cutelua/mtg-dist](https://github.com/cutelua/mtg-dist) - mtg用のワンライン配布・インストールスクリプト
 - [Cats-Team/AdRules](https://github.com/Cats-Team/AdRules) - 中国地域の広告ブロックリスト
-- [weakish/gister](https://github.com/weakish/gister) - githubのgistsを同期するコマンドラインツール
-- [Kr328/clash-premium-installer](https://github.com/Kr328/clash-premium-installer) - Linux用のシンプルなclash premiumコアインストーラー。
+- [weakish/gister](https://github.com/weakish/gister) - github gistsを同期するコマンドラインツール
+- [Kr328/clash-premium-installer](https://github.com/Kr328/clash-premium-installer) - Linux用シンプルなclash premiumコアインストーラ。
 - [zfl9/ss-tproxy](https://github.com/zfl9/ss-tproxy) - ss/v2ray/xray/trojan/hysteria/naive/socks5 透過プロキシ
-- [wyx176/Socks5](https://github.com/wyx176/Socks5) - Socks5プロキシサーバー構築用スクリプト/Socks5ショートカット作成スクリプト
+- [wyx176/Socks5](https://github.com/wyx176/Socks5) - Socks5代理サーバー構築スクリプト/Socks5ショートカット作成スクリプト
 - [JACKUSR2089/v2ray-subscribed](https://github.com/JACKUSR2089/v2ray-subscribed) - v2ray666
-- [jinwyp/one_click_script](https://github.com/jinwyp/one_click_script) - 最新またはLTS LinuxカーネルのインストールおよびBBRまたはBBR plusの有効化
-- [gaurav-nelson/github-action-markdown-link-check](https://github.com/gaurav-nelson/github-action-markdown-link-check) - ⛔️ 非推奨 Markdownファイル中のすべてのリンクが生きているか死んでいるかチェック 🔗✔️PS: https://github.com/tcort/github-action-markdown-link-check
+- [jinwyp/one_click_script](https://github.com/jinwyp/one_click_script) - 最新またはLTSのLinuxカーネルをインストールし、BBRまたはBBR plusを有効化
+- [gaurav-nelson/github-action-markdown-link-check](https://github.com/gaurav-nelson/github-action-markdown-link-check) - ⛔️ 廃止予定 Markdownファイル内のすべてのリンクが生存しているか死んでいるかをチェック。🔗✔️PS: https://github.com/tcort/github-action-markdown-link-check
 - [rey/tweet-delete](https://github.com/rey/tweet-delete) - 
-- [JetBrains/JetBrainsMono](https://github.com/JetBrains/JetBrainsMono) - JetBrains Mono – 開発者向けの無料かつオープンソースな書体
+- [JetBrains/JetBrainsMono](https://github.com/JetBrains/JetBrainsMono) - JetBrains Mono – 開発者向けの無料オープンソースフォント
 - [oh-my-fish/oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) - Fish Shellフレームワーク
-- [SnShine/Twitter-to-DayOne](https://github.com/SnShine/Twitter-to-DayOne) - その日のツイートをすべて取得しDayOneに記録
-- [haiwen/seafile-server-installer](https://github.com/haiwen/seafile-server-installer) - HTTPS対応の本番運用向けSeafileサーバー構築用スクリプト集
-- [ludovicchabant/Chrome-Search-Engine-Sync](https://github.com/ludovicchabant/Chrome-Search-Engine-Sync) - Google Chromeの検索エンジン設定をエクスポート/インポートする簡単なスクリプト
-- [lovezzzxxx/liverecord](https://github.com/lovezzzxxx/liverecord) - 自動録画・自動バックアップ、youtube/twitcast/twitch/openrec/niconico生放送/コミュニティ/チャンネル/mirrativ/reality/17live/bilibili/streamlink/ffmpegサポート
+- [SnShine/Twitter-to-DayOne](https://github.com/SnShine/Twitter-to-DayOne) - 当日のツイートをすべて取得し、DayOneエントリを作成。
+- [haiwen/seafile-server-installer](https://github.com/haiwen/seafile-server-installer) - HTTPS対応の本番用Seafileサーバーセットアップ用スクリプト集
+- [ludovicchabant/Chrome-Search-Engine-Sync](https://github.com/ludovicchabant/Chrome-Search-Engine-Sync) - Google Chromeの検索エンジン設定をエクスポート/インポートするシンプルなスクリプト
+- [lovezzzxxx/liverecord](https://github.com/lovezzzxxx/liverecord) - 自動録画および自動バックアップ。YouTubeチャンネル、twitcastチャンネル、twitchチャンネル、openrecチャンネル、niconico生放送、niconicoコミュニティ、niconicoチャンネル、mirrativチャンネル、realityチャンネル、17liveチャンネル、bilibiliチャンネル、streamlink対応のライブURL、ffmpeg対応のm3u8アドレスをサポート
 
 ## Stylus 
 
-- [XPoet/hexo-theme-keep](https://github.com/XPoet/hexo-theme-keep) - :rainbow: Hexo向けのシンプルで軽量なテーマ。執筆に集中できます。
+- [XPoet/hexo-theme-keep](https://github.com/XPoet/hexo-theme-keep) - :rainbow: Hexoのためのシンプルで軽量なテーマ。執筆に集中できるようにします。
 
 ## Svelte 
 
-- [K-Sato1995/focus-sounds](https://github.com/K-Sato1995/focus-sounds) - svelte-kit製の生産性向上サイト。集中のための環境音を聴けます👨‍💻👨‍💻
+- [K-Sato1995/focus-sounds](https://github.com/K-Sato1995/focus-sounds) - svelte-kitで構築された生産性向上サイト。集中を助ける環境音を聞くことができます👨‍💻👨‍💻
 - [shajidhasan/rknotes-app](https://github.com/shajidhasan/rknotes-app) - 
-- [shajidhasan/batname](https://github.com/shajidhasan/batname) - 「The Batman (2022)」映画ロゴ風のテキスト生成
-- [shajidhasan/cowsay-svelte](https://github.com/shajidhasan/cowsay-svelte) - Svelte, TailwindCSS, HTML Canvasで作られたcowsay GUI
-- [pabueco/hue.tools](https://github.com/pabueco/hue.tools) - 色操作のためのシンプルなツールボックス。色の合成、ブレンド、変換、修正、詳細情報など。
-- [cxumol/URLinkCat](https://github.com/cxumol/URLinkCat) - URLリンクカタログ、サーバーレスで動作する軽量多人数向けクラウドブックマークアプリ。高速・使いやすさ重視。
-- [dufu1991/simple-cloud-music](https://github.com/dufu1991/simple-cloud-music) - シンプルなサードパーティ製NetEase Cloud Musicプレーヤー
+- [shajidhasan/batname](https://github.com/shajidhasan/batname) - "The Batman (2022)"映画ロゴのようなテキストを生成
+- [shajidhasan/cowsay-svelte](https://github.com/shajidhasan/cowsay-svelte) - Svelte、TailwindCSS、HTML Canvasで作成されたcowsay GUI
+- [pabueco/hue.tools](https://github.com/pabueco/hue.tools) - 色に関するシンプルなツールボックス。色の混合、ブレンド、変換、修正、詳細情報など。
+- [cxumol/URLinkCat](https://github.com/cxumol/URLinkCat) - URLリンクカタログ、サーバーレスプラットフォーム上で動作する軽量マルチユーザークラウドブックマークアプリ。高速かつ使いやすい設計
+- [dufu1991/simple-cloud-music](https://github.com/dufu1991/simple-cloud-music) - シンプルなサードパーティのNetEase Cloud Musicプレイヤー
 
 ## Swift 
 
-- [mazzzystar/Queryable](https://github.com/mazzzystar/Queryable) - iOS上でOpenAIのCLIPやAppleのMobileCLIPモデルを使い写真検索
-- [mudkipme/MoeMemos](https://github.com/mudkipme/MoeMemos) - アイデアや思いつきを記録するアプリ
-- [thebaselab/codeapp](https://github.com/thebaselab/codeapp) - iPad向けフル機能コードエディタを開発中
-- [LyricZhao/THU-Bell](https://github.com/LyricZhao/THU-Bell) - macOS上のTHUベル
-- [insidegui/VirtualBuddy](https://github.com/insidegui/VirtualBuddy) - macOS 12以降をApple Silicon上で仮想化するVirtualBuddyはmacOS M1, M2, M3, M4向け仮想マシンGUI
-- [sindresorhus/Plash](https://github.com/sindresorhus/Plash) - 💦 任意のウェブサイトをMacのデスクトップ壁紙に設定
-- [CodeEditApp/CodeEdit](https://github.com/CodeEditApp/CodeEdit) - 📝 macOS向けCodeEditアプリ – コード編集体験を向上。オープンソース・永年無料。
-- [RanKKI/LawRefBook](https://github.com/RanKKI/LawRefBook) - 中華人民共和国法律ハンドブック
-- [gee1k/uPic](https://github.com/gee1k/uPic) - 📤uPicはmacOS用の高機能・美しい・シンプルな画像・ファイルアップローダー
+- [mazzzystar/Queryable](https://github.com/mazzzystar/Queryable) - iOSでOpenAIのCLIPとAppleのMobileCLIPモデルを実行して写真検索。
+- [mudkipme/MoeMemos](https://github.com/mudkipme/MoeMemos) - 思考やアイデアをキャプチャするのを助けるアプリ
+- [thebaselab/codeapp](https://github.com/thebaselab/codeapp) - iPad向けの本格的なコードエディタの構築
+- [LyricZhao/THU-Bell](https://github.com/LyricZhao/THU-Bell) - macOS用THU Bell
+- [insidegui/VirtualBuddy](https://github.com/insidegui/VirtualBuddy) - Apple SiliconでmacOS 12以降を仮想化。VirtualBuddyはmacOS M1, M2, M3, M4向けの仮想マシンGUI
+- [sindresorhus/Plash](https://github.com/sindresorhus/Plash) - 💦 任意のウェブサイトをMacのデスクトップ壁紙にする
+- [CodeEditApp/CodeEdit](https://github.com/CodeEditApp/CodeEdit) - 📝 macOS用のCodeEditアプリ – コード編集体験を向上。オープンソース、永久無料。
+- [RanKKI/LawRefBook](https://github.com/RanKKI/LawRefBook) - 中華人民共和国法律手帳
+- [gee1k/uPic](https://github.com/gee1k/uPic) - 📤 uPicはmacOS向けのネイティブで強力、美しくシンプルな画像・ファイルアップロードツール。
 
 ## TeX 
 
-- [billryan/resume](https://github.com/billryan/resume) - 洗練された\LaTeX\履歴書テンプレート。中国大陸ミラー https://gods.coding.net/p/resume/git
+- [billryan/resume](https://github.com/billryan/resume) - エレガントな\LaTeX\履歴書テンプレート。中国大陸ミラー https://gods.coding.net/p/resume/git
 - [LittleNewton/Replace_MathType](https://github.com/LittleNewton/Replace_MathType) - Microsoft Office 365ベースの数式代替案を提供
-- [lib-pku/libpku](https://github.com/lib-pku/libpku) - 貴校の講義資料の民間整理
-- [liblaf/ilatex](https://github.com/liblaf/ilatex) - 📚 美しく構造化された文書を作成するためのLaTeXテンプレートとツール 📝
-- [Didnelpsun/Math](https://github.com/Didnelpsun/Math) - 大学院入試数学、数学Ⅰ、高等数学・線形代数・確率統計
-- [zhengkd95/thu_poster_template](https://github.com/zhengkd95/thu_poster_template) - 清華大学ロゴ入り学術ポスター用LaTeXテンプレート
-- [VicaYang/THU-Exam-LaTeX-Template](https://github.com/VicaYang/THU-Exam-LaTeX-Template) - THU試験用LaTeXテンプレート
-- [alick/thulib-latex-talk](https://github.com/alick/thulib-latex-talk) - 「LaTeXで論文を組版する方法」講義資料。続き：https://github.com/tuna/thulib-latex-talk
-- [tuna/thulib-latex-talk](https://github.com/tuna/thulib-latex-talk) - 「LaTeXで論文を組版する方法」講義資料
-- [zhaofeng-shu33/THU-coursework-template](https://github.com/zhaofeng-shu33/THU-coursework-template) - THU課題テンプレート。対象：数学・物理・電子工学・力学・情報科学
-- [zinccat/PKU-beamer-theme](https://github.com/zinccat/PKU-beamer-theme) - 清華大学テンプレートを改造したbeamerテーマx
+- [lib-pku/libpku](https://github.com/lib-pku/libpku) - 貴校の講義資料の非公式整理
+- [liblaf/ilatex](https://github.com/liblaf/ilatex) - 📚 美しく構造化された文書作成のためのLaTeXテンプレートとツール 📝
+- [Didnelpsun/Math](https://github.com/Didnelpsun/Math) - 大学院入試数学、数学一、高等数学、線形代数、確率統計
+- [zhengkd95/thu_poster_template](https://github.com/zhengkd95/thu_poster_template) - 清華大学ロゴ入り学術ポスターテンプレート（LaTeX）
+- [VicaYang/THU-Exam-LaTeX-Template](https://github.com/VicaYang/THU-Exam-LaTeX-Template) - 清華大学試験用LaTeXテンプレート
+- [alick/thulib-latex-talk](https://github.com/alick/thulib-latex-talk) - 「LaTeXで論文を組版する方法」講演資料。今後の更新：https://github.com/tuna/thulib-latex-talk
+- [tuna/thulib-latex-talk](https://github.com/tuna/thulib-latex-talk) - 「LaTeXで論文を組版する方法」講演資料
+- [zhaofeng-shu33/THU-coursework-template](https://github.com/zhaofeng-shu33/THU-coursework-template) - 清華大学課題テンプレート、対象ユーザー：数学、物理、電子工学、力学、計算機科学
+- [zinccat/PKU-beamer-theme](https://github.com/zinccat/PKU-beamer-theme) - ある清華大学テンプレートを大幅改変したbeamerテーマ
 - [ZenithalHourlyRate/learn-git-the-not-so-super-hard-way](https://github.com/ZenithalHourlyRate/learn-git-the-not-so-super-hard-way) - 
-- [K-Wu/CV-tsinghua-template](https://github.com/K-Wu/CV-tsinghua-template) - All hail, Thy Highest University (THU)
+- [K-Wu/CV-tsinghua-template](https://github.com/K-Wu/CV-tsinghua-template) - 清華大学に栄光あれ (THU)
 - [soulmachine/leetcode](https://github.com/soulmachine/leetcode) - LeetCode問題解説、151問完全版。
-- [tuna/thuthesis](https://github.com/tuna/thuthesis) - 清華大学論文用LaTeXテンプレート
+- [tuna/thuthesis](https://github.com/tuna/thuthesis) - 清華大学向けLaTeX論文テンプレート
 
 ## TypeScript 
 
-- [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat) - 🤯 Lobe Chat - オープンソース・モダンデザインのAIチャットフレームワーク。複数AIプロバイダ（OpenAI / Claude 4 / Gemini / DeepSeek / Ollama / Qwen）対応、ナレッジベース（ファイルアップロード / RAG）、ワンクリックイン
-- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) - Geminiの力を直接ターミナルに届けるオープンソースAIエージェント。
+- [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat) - 🤯 Lobe Chat - オープンソースでモダンなデザインのAIチャットフレームワーク。複数のAIプロバイダー(OpenAI / Claude 4 / Gemini / DeepSeek / Ollama / Qwen)、ナレッジベース(ファイルアップロード / RAG)、ワンクリック対応
+- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) - Geminiの力を直接ターミナルに持ち込むオープンソースAIエージェント。
 - [JuanJLH/vscode-warp-terminal](https://github.com/JuanJLH/vscode-warp-terminal) - 
-- [lobehub/lobe-icons](https://github.com/lobehub/lobe-icons) - 🥨 Lobe Icons - 人気AI / LLMモデルブランドのSVGロゴ・アイコンコレクション。
+- [lobehub/lobe-icons](https://github.com/lobehub/lobe-icons) - 🥨 Lobe Icons - 人気AI / LLMモデルブランドのSVGロゴとアイコンコレクション。
 - [nimbusdotstorage/Nimbus](https://github.com/nimbusdotstorage/Nimbus) - Google Drive、One Drive、iCloudなどのオープンソース代替
-- [BingyanStudio/github-analyzer](https://github.com/BingyanStudio/github-analyzer) - あなたのGitHub活動を鋭く分析
+- [BingyanStudio/github-analyzer](https://github.com/BingyanStudio/github-analyzer) - GitHubであなたが何を書いたかを鋭く評価
 - [voideditor/void](https://github.com/voideditor/void) - 
-- [HiveNexus/A2A-Chat](https://github.com/HiveNexus/A2A-Chat) - Agent 2 Agentプロトコルに基づくチャットボット。対話を通じて外部Agentにタスクを割り当て、結果を取得できる。
+- [HiveNexus/A2A-Chat](https://github.com/HiveNexus/A2A-Chat) - Agent 2 Agentプロトコルに基づくチャットボット。対話を通じて外部エージェントにタスクを割り当て、結果を取得。一个基于 Agent 2 Agent 协议的聊天应用，可以通过对话方式给外部 Agent 下发任务，并获取结果
 - [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) - Model Context Protocolサーバー
-- [iszhouhua/social-media-copilot](https://github.com/iszhouhua/social-media-copilot) - 社会メディア助手オープンソース版 - 小紅書・抖音・快手等のデータ取得用ブラウザ拡張機能。API呼び出し可能、Dockerデプロイ対応。
-- [Hugo-COLLIN/SaveMyPhind-conversation-exporter](https://github.com/Hugo-COLLIN/SaveMyPhind-conversation-exporter) - 🚀 Save my Chatbot: Claude、Perplexity、Phind、ChatGPT、MaxAI-GoogleのスレッドやページをMarkdownで保存（非公式）。⏩ Chrome Web Store・Firefox Add-onsで利用可。
-- [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) - Claude Codeを基盤にコーディング基盤を構築。モデルとのインタラクション方法を自由に設計し、Anthropicのアップデートを享受。
-- [aigem/CFr2-webdav](https://github.com/aigem/CFr2-webdav) - Cloudflare WorkersとR2でWebDAV互換サーバーを実現
-- [TBXark/ChatGPT-Telegram-Workers](https://github.com/TBXark/ChatGPT-Telegram-Workers) - Telegram ChatGPTボットをCloudflare Workers（またはVercel、Docker...）に簡単デプロイ
-- [kyswtn/vscode-vercel](https://github.com/kyswtn/vscode-vercel) - コーディング中にVercelのデプロイ状況を監視
-- [Femoon/tts-azure-web](https://github.com/Femoon/tts-azure-web) - TTS Azure WebはAzureテキスト読み上げ（TTS）のWebアプリ。Azure Keyでローカル/クラウド一発デプロイ可能。
-- [daytonaio/daytona](https://github.com/daytonaio/daytona) - DaytonaはAI生成コードを実行するためのセキュアかつ弾力的なインフラストラクチャ
-- [bepass-org/oblivion-desktop](https://github.com/bepass-org/oblivion-desktop) - Oblivion Desktop - Windows/Mac/Linux向けの非公式Warpクライアント
-- [besscroft/PicImpact](https://github.com/besscroft/PicImpact) - 自己ホスト型の写真作品サイト、様々な機能をサポート。PicImpactであなたと世界をシェア！
-- [lyc8503/UptimeFlare](https://github.com/lyc8503/UptimeFlare) - ✔ Cloudflare Workers上で動作する無料サーバーレスの稼働監視／ステータスページ、地域別チェック対応
-- [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - Vercel、Netlify、Herokuのオープンソース代替
-- [maotoumao/MusicFree](https://github.com/maotoumao/MusicFree) - プラグイン式・カスタマイズ可能・広告なしの無料音楽プレイヤー
-- [maotoumao/MusicFreeDesktop](https://github.com/maotoumao/MusicFreeDesktop) - プラグイン式・カスタマイズ可能・広告なしの無料音楽プレイヤー
-- [misskey-dev/misskey](https://github.com/misskey-dev/misskey) - 🌎 完全無料でオープンな惑星間マイクロブログプラットフォーム 🚀
-- [yllhwa/FileWorker](https://github.com/yllhwa/FileWorker) - エッジ関数上で稼働するオンラインクリップボード／ファイル共有
-- [web-infra-dev/rspress](https://github.com/web-infra-dev/rspress) - 🦀 高速Rsbuildベースの静的サイトジェネレータ
-- [beilunyang/img-mom](https://github.com/beilunyang/img-mom) - Telegramボット（img-mon | 画像お母さん）
-- [liaoliao666/v2ex](https://github.com/liaoliao666/v2ex) - V2EXの美しいサードパーティクライアント。ネイティブアプリ、夜間モード対応。
-- [chaselen/v2ex-playground](https://github.com/chaselen/v2ex-playground) - VSCode上でV2EXサイトを閲覧するプラグイン
-- [hyoban/kirika](https://github.com/hyoban/kirika) - メモを異なるプラットフォーム間で変換するシンプルなツール
-- [edrlab/thorium-reader](https://github.com/edrlab/thorium-reader) - Readium Desktopツールキットに基づくクロスプラットフォームデスクトップ読書アプリ
-- [Kuingsmile/PicList](https://github.com/Kuingsmile/PicList) - PicGoベースの画像アップロード＆管理ツール
-- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) - Tauriベースの最新GUIクライアント。Windows、macOS、Linuxで動作するプロキシ体験
-- [githubnext/monaspace](https://github.com/githubnext/monaspace) - コード用の革新的なスーパーファミリーフォント
-- [dicarne/feishu-backup](https://github.com/dicarne/feishu-backup) - 飛書ドキュメントをバックアップし、Markdown形式でダウンロード
-- [LetTTGACO/elog](https://github.com/LetTTGACO/elog) - Markdown一括エクスポートツール・オープンなクロスプラットフォームブログソリューション。執筆（語雀/Notion/FlowUs/飛書/我来Wolai）×ブログ（Hexo/Vitepress/Halo/Confluence/WordPress等）
-- [memgraph/odin](https://github.com/memgraph/odin) - 
-- [Harry-Chen/thu-learn-lib](https://github.com/Harry-Chen/thu-learn-lib) - 清華大学Web Learningをプログラムから扱うためのJavaScriptライブラリ
-- [qxchuckle/vsc-cec-ide](https://github.com/qxchuckle/vsc-cec-ide) - あまり役に立たないVSCプラグイン
-- [chatchat-space/Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat) - Langchain-Chatchat（旧Langchain-ChatGLM）はLangchainとChatGLM、Qwen、Llama等のRAG・Agentアプリ | Langchain-Chatchat（旧langchain-ChatGLM）、ローカル知識ベースLLM（ChatGLM、Qwen、Llamaなど）
-- [CopyTranslator/CopyTranslator](https://github.com/CopyTranslator/CopyTranslator) - 🔠コピー＆翻訳ベースの外国語読書・翻訳アシスタント
-- [longern/FlareDrive](https://github.com/longern/FlareDrive) - CloudFlare R2を使った無料ファイルホスティングサービス（WebUI & WebDAV対応）
-- [ChatAnyTeam/ChatAny](https://github.com/ChatAnyTeam/ChatAny) - 🌻 ワンクリックで自分のChatGPT＋多様なAIウェブサービスを利用可能
-- [MuiseDestiny/zotero-gpt](https://github.com/MuiseDestiny/zotero-gpt) - GPTとZoteroの統合
-- [langgenius/webapp-conversation](https://github.com/langgenius/webapp-conversation) - 
-- [langgenius/dify](https://github.com/langgenius/dify) - エージェント型ワークフロー開発向けプロダクション対応プラットフォーム
-- [ObservedObserver/viz-gpt](https://github.com/ObservedObserver/viz-gpt) - タブ形式データセットからチャットで文脈的データ可視化。AIデータビジュアライゼーション
-- [tldraw/tldraw](https://github.com/tldraw/tldraw) - とても良いホワイトボードSDK／無限キャンバスSDK
-- [okisdev/ChatChat](https://github.com/okisdev/ChatChat) - シンプル・使いやすいUIで自分専用統合AIチャット＆検索プラットフォーム
-- [79E/ChatGpt-Web](https://github.com/79E/ChatGpt-Web) - 商用利用可能なChatGpt Webアプリ（React製）。Reactで構築された商用可能なChatGpt Webアプリ
-- [erictik/midjourney-ui](https://github.com/erictik/midjourney-ui) - MidjourneyベースのオープンソースAIペインティングUI
-- [Nutlope/restorePhotos](https://github.com/Nutlope/restorePhotos) - AIで古くぼやけた顔写真を修復
-- [Nutlope/aicommits](https://github.com/Nutlope/aicommits) - AIがGitコミットメッセージを自動生成するCLI
-- [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT) - 🤖 ブラウザ上で自律AIエージェントを組み立て・設定・デプロイ
-- [RafalWilinski/telegram-chatgpt-concierge-bot](https://github.com/RafalWilinski/telegram-chatgpt-concierge-bot) - Telegramと音声でOpenAI ChatGPTと対話
-- [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) - AIエージェントをビジュアルに構築
-- [LokerL/tts-vue](https://github.com/LokerL/tts-vue) - 🎤 マイクロソフト音声合成ツール。Electron＋Vue＋ElementPlus＋Vite製
-- [nat/openplayground](https://github.com/nat/openplayground) - ノートPCで動かせるLLMプレイグラウンド
-- [labring/sealos](https://github.com/labring/sealos) - SealosはAIネイティブなスーパーアプリケーションプラットフォーム、アプリ中心知能クラウドOS。どんな言語やフレームワークも即開発環境をセットアップ、即時デプロイ
-- [coolpace/V2EX_Polish](https://github.com/coolpace/V2EX_Polish) - プロフェッショナルなV2EXブラウザ拡張。多機能搭載で閲覧体験を刷新！
-- [ztjhz/BetterChatGPT](https://github.com/ztjhz/BetterChatGPT) - OpenAI ChatGPTのための素晴らしいUI（ウェブ＋Windows＋MacOS＋Linux）
-- [3Alan/DocsMind](https://github.com/3Alan/DocsMind) - 🤖 DocsMindはドキュメントとチャット・要約（PDF, md対応）が可能
-- [riwigefi/light-gpt](https://github.com/riwigefi/light-gpt) - GPT-3.5-TurboモデルベースのインタラクティブなWebサイトプロジェクト
-- [nextauthjs/next-auth](https://github.com/nextauthjs/next-auth) - Web認証
-- [zengsanxiang/brain-reply](https://github.com/zengsanxiang/brain-reply) - よりエレガントなChatGPTクライアント
-- [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) - ✨ 軽量高速なAIアシスタント。Web｜iOS｜MacOS｜Android｜Linux｜Windows対応
-- [hahahumble/speechgpt](https://github.com/hahahumble/speechgpt) - 💬 ChatGPTと会話できるウェブアプリケーション
-- [rerender2021/heard](https://github.com/rerender2021/heard) - whisper＆avernakis react採用のシンプルな字幕生成ツール
-- [mckaywrigley/chatbot-ui](https://github.com/mckaywrigley/chatbot-ui) - あらゆるモデル向けAIチャット
-- [GPTGenius/chatgpt-vercel](https://github.com/GPTGenius/chatgpt-vercel) - vercelでプライベートなchatgptウェブサイトを作成
-- [hyoban/burogu](https://github.com/hyoban/burogu) - Next.js 13ベースのミニマルなブログテンプレート
-- [futantan/OpenGpt](https://github.com/futantan/OpenGpt) - 数秒で自分のChatGPTアプリを作成
-- [botpress/botpress](https://github.com/botpress/botpress) - GPT/LLMエージェント構築＆デプロイ用オープンソースハブ ⚡️
-- [noobnooc/ohmygpt](https://github.com/noobnooc/ohmygpt) - ChatGPTベースのウェブアプリを数分でデプロイ
-- [aircloud/sync-to-github](https://github.com/aircloud/sync-to-github) - Webコンテンツ（例：ChatGPTとの会話）をGitHubリポジトリに同期
-- [fraserxu/book-gpt](https://github.com/fraserxu/book-gpt) - 本をドロップして、質問を始めよう
-- [ObservedObserver/chatgpt-i18n](https://github.com/ObservedObserver/chatgpt-i18n) - AI支援でウェブサイトをローカライズ
-- [ourongxing/chatgpt-vercel](https://github.com/ourongxing/chatgpt-vercel) - エレガント＆パワフル。OpenAI＆Vercel対応
-- [lcomplete/huntly](https://github.com/lcomplete/huntly) - Huntly：情報管理ツール、RSSリーダー、ツイート／GitHubスター管理、閲覧記事自動保存
-- [openai-translator/openai-translator](https://github.com/openai-translator/openai-translator) - ChatGPT APIベースの選択翻訳ブラウザ拡張＆クロスプラットフォームデスクトップアプリ
-- [sparticleinc/chatgpt-google-summary-extension](https://github.com/sparticleinc/chatgpt-google-summary-extension) - Google検索結果とYouTube動画にChatGPT要約を表示するChrome拡張。Yahoo!ニュース、PubMed、PMC、NewsPicks、Github、Nikkei、Bing、Google Patents、任意ページ要約対応
-- [anse-app/chatgpt-demo](https://github.com/anse-app/chatgpt-demo) - ChatGPT用最小限Web UI
-- [microsoft/vscode-webview-ui-toolkit](https://github.com/microsoft/vscode-webview-ui-toolkit) - VSCode拡張向けWebViewベースコンポーネントライブラリ
-- [ycjcl868/readme-gpt](https://github.com/ycjcl868/readme-gpt) - OpenAIとVercel Edge FunctionsでGitHub Readmeを生成
-- [cloudflare/wildebeest](https://github.com/cloudflare/wildebeest) - WildebeestはActivityPub・Mastodon互換サーバ
-- [transitive-bullshit/bing-chat](https://github.com/transitive-bullshit/bing-chat) - Bing新AI検索用Node.jsクライアント。強化版ChatGPT🔥
-- [Musish/Musish](https://github.com/Musish/Musish) - Apple Music...ish
-- [MNThomson/containerflare](https://github.com/MNThomson/containerflare) - 🔥 Cloudflare（Workers＋R2）エッジコンテナイメージリポジトリ
-- [cmj2002/CF-R2-ImageBed](https://github.com/cmj2002/CF-R2-ImageBed) - Cloudflare R2ベースの画像ホスティング。PicGo対応
-- [google/brotli](https://github.com/google/brotli) - Brotli圧縮フォーマット
-- [robertying/learnX-companion](https://github.com/robertying/learnX-companion) - 清華大学ネット学堂アプリ助手。learnX向けに個別プッシュ通知を提供
-- [dvanoni/notero](https://github.com/dvanoni/notero) - ZoteroとNotion間でアイテム・ノート同期するプラグイン
-- [windingwind/zotero-better-notes](https://github.com/windingwind/zotero-better-notes) - ノート管理のすべて。Zoteroオールインワン
-- [honojs/hono](https://github.com/honojs/hono) - Web標準ベースのWebフレームワーク
-- [G4brym/R2-Explorer](https://github.com/G4brym/R2-Explorer) - Cloudflare R2バケット用Google Driveインターフェース
-- [SunYufei/workers-dav](https://github.com/SunYufei/workers-dav) - Cloudflare WorkersでGoogle DriveにWebDAVサービス提供／Cloudflare WorkersでGoogle DriveのWebDAV対応
-- [realByg/office-user-auto-create](https://github.com/realByg/office-user-auto-create) - cloudflare workerでofficeアカウントのセルフ作成
-- [ghedamat/obsidian-save-as-gist](https://github.com/ghedamat/obsidian-save-as-gist) - 
-- [kamranahmedse/aws-cost-cli](https://github.com/kamranahmedse/aws-cost-cli) - AWSアカウントのコスト分析CLI。Slack連携
-- [remotely-save/remotely-save](https://github.com/remotely-save/remotely-save) - ローカルとクラウド間でノートを賢く同期：S3（Amazon S3/Cloudflare R2/Backblaze B2等）、Dropbox、WebDAV（NextCloud/InfiniCLOUD/Synology等）、OneDrive、Google Drive（GDrive）、Box、pCloud
-- [Future-Scholars/paperlib](https://github.com/Future-Scholars/paperlib) - オープンソース学術論文管理ツール
-- [forecho/cherries](https://github.com/forecho/cherries) - 
-- [thu-info-community/thu-info-lib](https://github.com/thu-info-community/thu-info-lib) - 清華大学ウェブポータル向けプログラムフレンドリーなJavaScriptライブラリ
-- [Harry-Chen/Learn-Helper](https://github.com/Harry-Chen/Learn-Helper) - 清華大学ネット学堂アシスタント
-- [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) - InvokeはStable Diffusionモデル用の主要クリエイティブエンジン。プロ・アーティスト・愛好家向けに最新AI技術でビジュアルメディア生成。ソリューション完備
-- [baotlake/periodic-table-pro](https://github.com/baotlake/periodic-table-pro) - 元素周期表Pro。美麗な化学必携ミニアプリ。詳細な元素属性、画像、百科知識等
-- [dtysky/Awaken](https://github.com/dtysky/Awaken) - WebDAVベースの全プラットフォームEPUBリーダー。ノート・進捗・しおり同期、Kindleノート取り込み対応
-- [illacloud/illa-builder](https://github.com/illacloud/illa-builder) - ローコードプラットフォームで業務アプリを構築。ダッシュボード、CRUDアプリ、管理パネル、CRM、CMS等を素早く作成。PostgreSQL、MySQL、Supabase、GraphQL対応
-- [resend/react-email](https://github.com/resend/react-email) - 💌 Reactでメールを作成・送信
-- [domeccleston/sharegpt](https://github.com/domeccleston/sharegpt) - ChatGPT会話の永久リンクを簡単共有
-- [wong2/chatgpt-google-extension](https://github.com/wong2/chatgpt-google-extension) - 本プロジェクトは非推奨。新プロジェクトChatHubを参照
-- [pacexy/flow](https://github.com/pacexy/flow) - ブラウザベースのePubリーダー
-- [jiegec/clone-learn-tsinghua](https://github.com/jiegec/clone-learn-tsinghua) - learn.tsinghua.edu.cnから全ファイルを複製するユーティリティ
-- [thu-info-community/thu-info-app](https://github.com/thu-info-community/thu-info-app) - 複数の学内情報源を統合するアプリ。React Native製
-- [exposir/bing-wallpaper-node](https://github.com/exposir/bing-wallpaper-node) - Bing毎日4K超高精細壁紙
-- [AlistGo/docs](https://github.com/AlistGo/docs) - 📄 alist v3用ドキュメント：http://github.com/alist-org/alist
-- [slidevjs/docs](https://github.com/slidevjs/docs) - [ミラー] Slidevのドキュメント
-- [appwrite/appwrite](https://github.com/appwrite/appwrite) - 数百人のチームのように構築_
-- [dai-shi/excalidraw-animate](https://github.com/dai-shi/excalidraw-animate) - Excalidrawの図をアニメーション化するツール
-- [Graviton-Code-Editor/Graviton-App](https://github.com/Graviton-Code-Editor/Graviton-App) - 🚀 モダンな外観のコードエディタ
-- [thusns/thu-wiki](https://github.com/thusns/thu-wiki) - https://thu.wiki または https://wiki.thusns.org
-- [crashmax-dev/twallpaper](https://github.com/crashmax-dev/twallpaper) - 🌈 アルゴリズムで作成されたマルチカラ―グラデーション壁紙。滑らかにきらめきます。
-- [SigNoz/signoz](https://github.com/SigNoz/signoz) - SigNozはOpenTelemetryにネイティブなオープンソースの可観測性プラットフォーム。ログ、トレース、メトリクスを一つのアプリで。DataDogやNewRelic等のオープンソース代替。🔥🖥 👉 オープンソース
-- [vuejs/vitepress](https://github.com/vuejs/vitepress) - ViteとVueで動く静的サイトジェネレータ。
-- [sst/sst](https://github.com/sst/sst) - 自分のインフラ上でフルスタックアプリを構築。
-- [nrwl/nx](https://github.com/nrwl/nx) - エディタからCIまで全てを繋ぐAIファーストのビルドプラットフォーム。高速かつ安全なデリバリーを支援。
-- [dubinc/dub](https://github.com/dubinc/dub) - モダンなリンク帰属プラットフォーム。TwilioやBuffer、Framer、Perplexity、Vercel等の世界的なマーケティングチームに愛用されています。
-- [Privoce/vocechat-web](https://github.com/Privoce/vocechat-web) - VoceChat Webアプリ
-- [jackluson/vscode-pomodoro-clock](https://github.com/jackluson/vscode-pomodoro-clock) - VS Code用のポモドーロタイマー
-- [DTStack/molecule](https://github.com/DTStack/molecule) - :rocket: 軽量なWeb IDE UIフレームワーク
-- [b4rtaz/voice-assistant](https://github.com/b4rtaz/voice-assistant) - Visual Studio Code向け音声アシスタント
-- [leon-ai/leon](https://github.com/leon-ai/leon) - 🧠 Leonはオープンソースのパーソナルアシスタントです。
-- [tycrek/ass](https://github.com/tycrek/ass) - シンプルなセルフホスト型ShareXサーバー
-- [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - プライバシー重視の同期可能ノートアプリ。Windows, macOS, Linux, Android, iOS対応。
-- [AlphaNecron/Void](https://github.com/AlphaNecron/Void) - 高速でエレガントなファイルホスティングサービス
-- [egoist/follower-count](https://github.com/egoist/follower-count) - Instagram、Twitter、TikTok、Youtubeのフォロワー数を取得
-- [liveblocks/liveblocks](https://github.com/liveblocks/liveblocks) - AI時代の最高のアプリはコラボレーション型。Liveblocksでマルチプレイヤー、エンゲージ、AI対応を事前構築。既存機能を損なわず導入可能。
-- [cloudflare/workers-graphql-server](https://github.com/cloudflare/workers-graphql-server) - 🔥超高速・グローバル分散Apollo GraphQLサーバー。Cloudflare Workersでエッジにデプロイ。
-- [buhe/vscode-mail](https://github.com/buhe/vscode-mail) - Visual Studio Codeに組み込まれたメールクライアント。
-- [LekoArts/gatsby-themes](https://github.com/LekoArts/gatsby-themes) - 高品質でカスタマイズ可能なGatsbyテーマで、ウェブサイトのブートストラップを高速化！多彩なデザインと機能、カスタマイズ性。
-- [haaarshsingh/kmenu](https://github.com/haaarshsingh/kmenu) - 完璧な⌘Kメニュー
-- [sofn-xyz/mailing](https://github.com/sofn-xyz/mailing) - Reactでメールの構築、テスト、送信
-- [webiny/webiny-js](https://github.com/webiny/webiny-js) - オープンソースのサーバーレスエンタープライズCMS。ヘッドレスCMS、ページビルダー、フォームビルダー、ファイルマネージャー搭載。AWSにデプロイ可能、カスタマイズ・拡張も容易。
-- [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) - GitBookドキュメントサイトのためのオープンソースフロントエンド
-- [codex-team/editor.js](https://github.com/codex-team/editor.js) - クリーンなJSON出力を特徴としたブロックスタイルエディタ
-- [pingcap/ossinsight](https://github.com/pingcap/ossinsight) - OSSの分析・比較・トレンド・ランキング。OpenAIによる自然言語解析で70億超のデータをインサイト。Twitter: https://twitter.com/o
-- [markmap/markmap](https://github.com/markmap/markmap) - プレーンテキストからマインドマップを作成
-- [hmu332233/q-link](https://github.com/hmu332233/q-link) - Q.Link | あなたのリンクを簡単なクイズの裏に隠します。
-- [triggerdotdev/jsonhero-web](https://github.com/triggerdotdev/jsonhero-web) - JSON Heroは美しく高速なオープンソースのJSONエクスプローラー。ブラウズ・検索・ナビゲートが快適。🚀 開発: Trigger.devチーム
-- [devhubapp/devhub](https://github.com/devhubapp/devhub) - GitHub用TweetDeck - Issueや通知、アクティビティをフィルタ。Web/モバイル/デスクトップ間で99%のコード共有
-- [redhat-actions/try-in-web-ide](https://github.com/redhat-actions/try-in-web-ide) - Red Hat OpenShift用のWeb IDEでプルリクエストをクローンし、変更を簡単にテスト。
-- [photoview/photoview](https://github.com/photoview/photoview) - セルフホスト型パーソナルサーバー向けフォトギャラリー
-- [yusukebe/r2-image-worker](https://github.com/yusukebe/r2-image-worker) - R2バックエンドのCloudflare Workersで画像を保存・配信。
-- [GitbookIO/proxies-on-cloudflare](https://github.com/GitbookIO/proxies-on-cloudflare) - Cloudflare Workers上のプロキシ
-- [SharzyL/pastebin-worker](https://github.com/SharzyL/pastebin-worker) - Cloudflare worker上のPastebin。CLI利用や多機能サポート。
-- [eclipse-theia/theia](https://github.com/eclipse-theia/theia) - Eclipse TheiaはTypeScript実装のクラウド＆デスクトップIDEフレームワーク。
-- [facebook/docusaurus](https://github.com/facebook/docusaurus) - メンテナンスが容易なオープンソースドキュメントサイト
-- [logto-io/logto](https://github.com/logto-io/logto) - 🧑‍🚀 SaaSやAIアプリ向け認証・認可インフラ。OIDC/OAuth2.1対応。マルチテナント、SSO、RBAC。
-- [dushixiang/next-terminal](https://github.com/dushixiang/next-terminal) - Next TerminalはRDP、SSH、VNC、Telnet、HTTPなど複数プロトコル対応のシンプル・安全・ユーザーフレンドリーな監査システム
-- [wayjam/picgo-plugin-s3](https://github.com/wayjam/picgo-plugin-s3) - PicGo S3プラグイン
-- [gaeulbyul/RedBlock](https://github.com/gaeulbyul/RedBlock) - [状態: メンテナンス終了] Twitter史上最強のチェーンブロック拡張機能。複数ユーザーを一括ブロック。
-- [formulahendry/vscode-code-runner](https://github.com/formulahendry/vscode-code-runner) - Visual Studio Code用コードランナー
-- [hexojs/hexo-cli](https://github.com/hexojs/hexo-cli) - Hexo用コマンドラインインターフェース
-- [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner) - キーボード作業者向け単語記憶＆英語筋肉記憶トレーニングソフト / Words learning and English muscle memory training software designed for keyboard workers
-- [SSShooter/mind-elixir-core](https://github.com/SSShooter/mind-elixir-core) - ⚗ Mind Elixirはフレームワーク非依存なJavaScript製マインドマップコア
-- [utterance/utterances](https://github.com/utterance/utterances) - :crystal_ball: GitHub Issuesベースの軽量コメントウィジェット
-- [gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) - オンデマンドクラウド開発環境のためのデベロッパープラットフォーム。ソフトウェア開発を高速かつ安全に。
-- [wabarc/cairn](https://github.com/wabarc/cairn) - ウェブページを単一HTMLファイルとして保存するNPMパッケージ＆CLIツール
-- [massCodeIO/assistant-vscode](https://github.com/massCodeIO/assistant-vscode) - massCodeアシスタント for VS Code
-- [vercel/platforms](https://github.com/vercel/platforms) - マルチテナント対応のフルスタックNext.jsアプリ
-- [taniarascia/takenote](https://github.com/taniarascia/takenote) - 📝 開発者向けウェブベースノートアプリ
-- [standardnotes/app](https://github.com/standardnotes/app) - エンドツーエンド暗号化されたノートとファイルで自由に思考。質問は https://standardnotes.com/forum または https://standardnotes.com/help まで。
-- [gitpod-io/openvscode-server](https://github.com/gitpod-io/openvscode-server) - 任意の端末からWebブラウザ経由でリモートマシン上のVS Codeを実行。
-- [EnixCoda/Gitako](https://github.com/EnixCoda/Gitako) - 🐙 GitHub用ファイルツリー拡張（Chrome, Firefox, Edge対応）
-- [gridaco/grida](https://github.com/gridaco/grida) - Grida — 野心的なWeb向け2Dグラフィックエディタ
-- [lostintangent/gitdoc](https://github.com/lostintangent/gitdoc) - Gitリポジトリをマルチファイル・バージョンドキュメントのように編集できるVS Code拡張
-- [Platane/snk](https://github.com/Platane/snk) - 🟩⬜ GitHubの貢献グラフからスネークゲームを生成し、SVGまたはGIFアニメとして出力
-- [yoshi389111/github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib) - GitHubの貢献カレンダーを3Dプロフィール画像に作成するGitHub Action
-- [yang991178/fluent-reader](https://github.com/yang991178/fluent-reader) - Electron・React・Fluent UIで構築されたモダンなデスクトップRSSリーダー
-- [AlistGo/web-v2](https://github.com/AlistGo/web-v2) - 🗂️ Alist V2のフロントエンド
-- [ansh/jiffyreader.com](https://github.com/ansh/jiffyreader.com) - どのウェブサイトでも速読できるブラウザ拡張！
-- [alefragnani/vscode-bookmarks](https://github.com/alefragnani/vscode-bookmarks) - Visual Studio Code用ブックマーク拡張
-- [markdoc/markdoc](https://github.com/markdoc/markdoc) - 強力かつ柔軟なMarkdownベースの著述フレームワーク
-- [batnoter/batnoter](https://github.com/batnoter/batnoter) - オープンソース・マークダウンベースのセルフホスト型ノートアプリ
-- [Cveinnt/LetsMarkdown.com](https://github.com/Cveinnt/LetsMarkdown.com) - 👨‍💻👩‍💻 Markdownを一緒に書こう
-- [Cherry/ShareX-R2-Cloudflare-Workers](https://github.com/Cherry/ShareX-R2-Cloudflare-Workers) - Cloudflare R2経由でShareXをアップロードするカスタムWorker
-- [mullvad/browser-extension](https://github.com/mullvad/browser-extension) - Mullvad Browser ExtensionはMullvad VPN利用時のブラウジング体験を向上
-- [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) - テキストからフローチャートやシーケンス図等をMarkdown感覚で生成
-- [Kong/insomnia](https://github.com/Kong/insomnia) - オープンソース・クロスプラットフォームのAPIクライアント。GraphQL, REST, WebSockets, SSE, gRPC。Cloud/ローカル/Gitストレージ対応。
-- [theajack/cnchar](https://github.com/theajack/cnchar) - 🇨🇳 機能豊富な漢字ツールライブラリ (ピンイン、筆画、部首、成語、音声、可視化など) (Chinese character util)
-- [missive/emoji-mart](https://github.com/missive/emoji-mart) - 🏪 あらゆる絵文字を選択できるコンポーネント
-- [lcomplete/smart-toc](https://github.com/lcomplete/smart-toc) - Chrome拡張で自動目次生成。InoreaderやFeedly対応。网页文章大纲自动生成扩展，支持 Inoreader 和 Feedly。
-- [sheepzh/time-tracker-4-browser](https://github.com/sheepzh/time-tracker-4-browser) - ブラウザ用タイムトラッカー/ネット料金が高い
-- [ajayyy/SponsorBlockServer](https://github.com/ajayyy/SponsorBlockServer) - YouTube動画のスポンサー部分をスキップ（サーバー側）
-- [Hopding/pdf-lib](https://github.com/Hopding/pdf-lib) - どのJavaScript環境でもPDFドキュメントを作成・編集
-- [GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension](https://github.com/GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension) - VSCodeのエディタメニューバーに便利なボタン（整形、開いているファイル表示、保存、ターミナル切替等）を追加。独自ボタンも作成可能。VSCode Marketplaceリンク: htt
-- [hexojs/hexo](https://github.com/hexojs/hexo) - 高速・シンプル・強力なNode.js製ブログフレームワーク
-- [actions/stale](https://github.com/actions/stale) - 最近やり取りのないIssueやPRに「古い」マークを付与
-- [surgioproject/surgio](https://github.com/surgioproject/surgio) - Surge、Clash、Quantumult用のルールをプロ並みに生成
-- [nginxinc/nginx-for-azure-deploy-action](https://github.com/nginxinc/nginx-for-azure-deploy-action) - NGINX for AzureサービスにNGINX設定を同期するGitHub Actions
-- [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) - Rust製の仮想分散ファイルシステムによるオープンソースクロスプラットフォームファイルエクスプローラ
-- [DenverCoder1/custom-icon-badges](https://github.com/DenverCoder1/custom-icon-badges) - 🛡 Octiconsや独自アイコン・ロゴをshields.ioバッジで簡単に使えるようにする
-- [arduino/arduino-ide](https://github.com/arduino/arduino-ide) - Arduino IDE 2.x
-- [yuudi/onesend](https://github.com/yuudi/onesend) - onedrive経由でファイル送信
-- [xcodebuild/CodeTerminal](https://github.com/xcodebuild/CodeTerminal) - Visual Studio Codeから抽出したクロスプラットフォームスタンドアロン端末アプリ
-- [Zhengqbbb/cz-git](https://github.com/Zhengqbbb/cz-git) - cz-git | czg 🛠️ DX重視・高機能・軽量・カスタマイズ可能な標準出力Commitizenアダプタ＆CLI
-- [tutao/tutanota](https://github.com/tutao/tutanota) - Tutaはセキュリティとプライバシー重視のメールサービス。全デバイスでメール、連絡先、カレンダーを暗号化。
-- [atomcorp/themes](https://github.com/atomcorp/themes) - Windows Terminal用テーマ集
-- [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) - オープンソースAPI開発エコシステム - https://hoppscotch.io (Postman, Insomniaのオープンソース代替)
-- [antfu/awesome-cn-cafe-web](https://github.com/antfu/awesome-cn-cafe-web) - ☕️ Awesome CN CaféのWebアプリ
-- [yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) - 💯 忙しいソフトウェアエンジニア向け厳選コーディング面接対策資料
-- [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) - freeCodeCamp.orgのオープンソースコードベース＆カリキュラム。無料で数学・プログラミング・コンピューターサイエンスを学ぼう。
-- [harrisoff/onedrive-js-sdk](https://github.com/harrisoff/onedrive-js-sdk) - OneDriveのAPIラッパー。アップロードと共有専用。
-- [harrisoff/onedrive-image-hosting](https://github.com/harrisoff/onedrive-image-hosting) - OneDrive画像ホスティング | OneDrive 图床
-- [ms-iot/vscode-ros](https://github.com/ms-iot/vscode-ros) - ロボットOS (ROS) 開発用Visual Studio Code拡張
+- [iszhouhua/social-media-copilot](https://github.com/iszhouhua/social-media-copilot) - ソーシャルメディアアシスタントのオープンソース版 - 小紅書、抖音、快手などのプラットフォームデータ収集ブラウザプラグイン。API呼び出し対応、Docker展開可能。
+- [Hugo-COLLIN/SaveMyPhind-conversation-exporter](https://github.com/Hugo-COLLIN/SaveMyPhind-conversation-exporter) - 🚀 Save my Chatbot: Claude、Perplexity、Phind、ChatGPT、MaxAI-GoogleのスレッドやページをMarkdownファイルにダウンロード（非公式）。⏩ ChromeウェブストアとFirefoxアドオンで利用可能
+- [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) - Claude Codeをコーディングインフラの基盤として使用し、モデルとの対話方法を決めながらAnthropicの更新も享受。
+- [aigem/CFr2-webdav](https://github.com/aigem/CFr2-webdav) - Cloudflare WorkersとR2を使ってWebDAV互換サーバーを実装
+- [TBXark/ChatGPT-Telegram-Workers](https://github.com/TBXark/ChatGPT-Telegram-Workers) - Cloudflare Workers（またはVercel、Dockerなど）で簡単にTelegram ChatGPTボットを展開。
+- [kyswtn/vscode-vercel](https://github.com/kyswtn/vscode-vercel) - コーディング中にVercelのデプロイを監視</translate-content>
+- [Femoon/tts-azure-web](https://github.com/Femoon/tts-azure-web) - TTS Azure Web は Azure テキスト読み上げ（TTS）のウェブアプリケーションで、ローカルまたはクラウド上で Azure Key を使ってワンクリックでデプロイ可能です。TTS Azure Web is an Azure Text-to-Speech (TTS) web application. It allows you to run it locally or deploy it with a single click usi  
+- [daytonaio/daytona](https://github.com/daytonaio/daytona) - Daytona は AI が生成したコードを実行するための安全で柔軟なインフラストラクチャです  
+- [bepass-org/oblivion-desktop](https://github.com/bepass-org/oblivion-desktop) - Oblivion Desktop - Windows/Mac/Linux向け非公式Warpクライアント  
+- [besscroft/PicImpact](https://github.com/besscroft/PicImpact) - 自分でホスティング可能な写真作品サイト、多機能をサポート。PicImpact、あなたと世界をつなぐ！  
+- [lyc8503/UptimeFlare](https://github.com/lyc8503/UptimeFlare) - ✔ Cloudflare Workers上で動作する無料かつサーバーレスの稼働監視/ステータスページ、地域別チェック対応  
+- [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - Vercel、Netlify、Herokuのオープンソース代替  
+- [maotoumao/MusicFree](https://github.com/maotoumao/MusicFree) - プラグイン化、カスタマイズ可能、広告なしの無料音楽プレーヤー  
+- [maotoumao/MusicFreeDesktop](https://github.com/maotoumao/MusicFreeDesktop) - プラグイン化、カスタマイズ可能、広告なしの無料音楽プレーヤー  
+- [misskey-dev/misskey](https://github.com/misskey-dev/misskey) - 🌎 完全無料のオープンな惑星間マイクロブログプラットフォーム 🚀  
+- [yllhwa/FileWorker](https://github.com/yllhwa/FileWorker) - エッジ関数上で動作するオンラインクリップボード/ファイル共有  
+- [web-infra-dev/rspress](https://github.com/web-infra-dev/rspress) - 🦀 Rsbuildベースの高速静的サイトジェネレーター  
+- [beilunyang/img-mom](https://github.com/beilunyang/img-mom) - Telegramボット（img-mon | 画像ママ）  
+- [liaoliao666/v2ex](https://github.com/liaoliao666/v2ex) - V2EXの美しいサードパーティクライアント、ネイティブアプリ、ダークモード対応  
+- [chaselen/v2ex-playground](https://github.com/chaselen/v2ex-playground) - VSCode上でV2EXを閲覧するプラグイン  
+- [hyoban/kirika](https://github.com/hyoban/kirika) - メモを異なるプラットフォーム間で変換するシンプルなツール  
+- [edrlab/thorium-reader](https://github.com/edrlab/thorium-reader) - Readium Desktopツールキットをベースにしたクロスプラットフォームデスクトップリーダーアプリ  
+- [Kuingsmile/PicList](https://github.com/Kuingsmile/PicList) - PicGoベースの画像アップロード・管理ツール  
+- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) - TauriベースのモダンGUIクライアント、Windows/macOS/Linuxで動作しカスタマイズされたプロキシ体験を提供  
+- [githubnext/monaspace](https://github.com/githubnext/monaspace) - コード用の革新的なスーパー系フォントファミリー  
+- [dicarne/feishu-backup](https://github.com/dicarne/feishu-backup) - 飛書のドキュメントをバックアップし、Markdown形式に変換してダウンロード可能  
+- [LetTTGACO/elog](https://github.com/LetTTGACO/elog) - Markdown一括エクスポートツール、オープンなクロスプラットフォームブログソリューション。執筆プラットフォーム(語雀/Notion/FlowUs/飛書/我来Wolai)とブログプラットフォーム(Hexo/Vitepress/Halo/Confluence/WordPressなど)の自由な組み合わせを実現  
+- [memgraph/odin](https://github.com/memgraph/odin) -   
+- [Harry-Chen/thu-learn-lib](https://github.com/Harry-Chen/thu-learn-lib) - 清華大学Webラーニングのプログラムフレンドリーなインターフェースを提供するJavaScriptライブラリ  
+- [qxchuckle/vsc-cec-ide](https://github.com/qxchuckle/vsc-cec-ide) - ほとんど役に立たないVSCプラグイン  
+- [chatchat-space/Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat) - Langchain-Chatchat（旧Langchain-ChatGLM）はLangchainとChatGLM、Qwen、Llamaなどの言語モデルを用いたRAGおよびエージェントアプリケーション | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Ll  
+- [CopyTranslator/CopyTranslator](https://github.com/CopyTranslator/CopyTranslator) - 🔠 コピー＆翻訳に基づく外国語読解・翻訳支援ツール  
+- [longern/FlareDrive](https://github.com/longern/FlareDrive) - CloudFlare R2を利用した無料ファイルホスティングサービス（WebUI & WebDAV対応）  
+- [ChatAnyTeam/ChatAny](https://github.com/ChatAnyTeam/ChatAny) - 🌻 あなた自身のChatGPT+多数のAIウェブサービスをワンクリックで | One click access to your own ChatGPT+Many AI web services  
+- [MuiseDestiny/zotero-gpt](https://github.com/MuiseDestiny/zotero-gpt) - GPTとZoteroの融合。  
+- [langgenius/webapp-conversation](https://github.com/langgenius/webapp-conversation) -   
+- [langgenius/dify](https://github.com/langgenius/dify) - エージェントワークフロー開発のためのプロダクション対応プラットフォーム  
+- [ObservedObserver/viz-gpt](https://github.com/ObservedObserver/viz-gpt) - 表形式データからチャットインターフェースで文脈に即したデータ可視化を作成。AIデータビジュアライゼーション。  
+- [tldraw/tldraw](https://github.com/tldraw/tldraw) - 非常に優れたホワイトボードSDK / 無限キャンバスSDK  
+- [okisdev/ChatChat](https://github.com/okisdev/ChatChat) - Chat Chat、使いやすいインターフェースを持つあなた専用の統合チャット＆AI検索プラットフォーム  
+- [79E/ChatGpt-Web](https://github.com/79E/ChatGpt-Web) - Reactで構築された商用可能なChatGptウェブアプリ。使用React搭建的一款可商业化的ChatGpt Web应用。  
+- [erictik/midjourney-ui](https://github.com/erictik/midjourney-ui) - MidjourneyをベースにしたオープンソースAIペインティングUI  
+- [Nutlope/restorePhotos](https://github.com/Nutlope/restorePhotos) - AIで古いぼやけた顔写真を復元。  
+- [Nutlope/aicommits](https://github.com/Nutlope/aicommits) - AIを利用してgitのコミットメッセージを書いてくれるCLI  
+- [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT) - 🤖 ブラウザで自律型AIエージェントを組み立て、設定、デプロイ  
+- [RafalWilinski/telegram-chatgpt-concierge-bot](https://github.com/RafalWilinski/telegram-chatgpt-concierge-bot) - Telegramと音声でOpenAIのChatGPTと対話  
+- [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) - AIエージェントをビジュアルに構築  
+- [LokerL/tts-vue](https://github.com/LokerL/tts-vue) - 🎤 Microsoft音声合成ツール、Electron + Vue + ElementPlus + Viteで構築  
+- [nat/openplayground](https://github.com/nat/openplayground) - ノートパソコン上で動作するLLMプレイグラウンド  
+- [labring/sealos](https://github.com/labring/sealos) - SealosはAIネイティブのスーパーアプリケーションプラットフォーム、アプリ中心のインテリジェントクラウドOS。任意の言語やフレームワークの開発環境をセットアップし、高可用性をデプロイ  
+- [coolpace/V2EX_Polish](https://github.com/coolpace/V2EX_Polish) - プロフェッショナルなV2EXブラウザ拡張、多数の実用機能を統合しブラウジング体験を一新！  
+- [ztjhz/BetterChatGPT](https://github.com/ztjhz/BetterChatGPT) - OpenAIのChatGPT向けの素晴らしいUI（ウェブサイト + Windows + MacOS + Linux）  
+- [3Alan/DocsMind](https://github.com/3Alan/DocsMind) - 🤖 DocsMindはドキュメントとチャットし要約も可能、PDFやmdをサポート  
+- [riwigefi/light-gpt](https://github.com/riwigefi/light-gpt) - GPT-3.5-Turboモデルに基づくインタラクティブなウェブサイトプロジェクト  
+- [nextauthjs/next-auth](https://github.com/nextauthjs/next-auth) - ウェブ向け認証ライブラリ  
+- [zengsanxiang/brain-reply](https://github.com/zengsanxiang/brain-reply) - より洗練されたChatGPTクライアント  
+- [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) - ✨ 軽量で高速なAIアシスタント。対応：Web | iOS | MacOS | Android | Linux | Windows  
+- [hahahumble/speechgpt](https://github.com/hahahumble/speechgpt) - 💬 SpeechGPTはChatGPTと会話可能なウェブアプリケーション  
+- [rerender2021/heard](https://github.com/rerender2021/heard) - whisper & avernakis reactを利用したシンプルな字幕生成ツール  
+- [mckaywrigley/chatbot-ui](https://github.com/mckaywrigley/chatbot-ui) - 任意のモデルに対応したAIチャット  
+- [GPTGenius/chatgpt-vercel](https://github.com/GPTGenius/chatgpt-vercel) - vercelを使ってプライベートチャットGPTウェブサイトを作成  
+- [hyoban/burogu](https://github.com/hyoban/burogu) - Next.js 13ベースのミニマルブログテンプレート  
+- [futantan/OpenGpt](https://github.com/futantan/OpenGpt) - 数秒で自分だけのChatGPTアプリを作成  
+- [botpress/botpress](https://github.com/botpress/botpress) - GPT/LLMエージェント構築・展開のためのオープンソースハブ ⚡️  
+- [noobnooc/ohmygpt](https://github.com/noobnooc/ohmygpt) - ChatGPTベースのウェブアプリを数分でデプロイ  
+- [aircloud/sync-to-github](https://github.com/aircloud/sync-to-github) - WebコンテンツをGitHubリポジトリに同期。例：ChatGPTとの会話  
+- [fraserxu/book-gpt](https://github.com/fraserxu/book-gpt) - 本をアップロードし、質問を開始  
+- [ObservedObserver/chatgpt-i18n](https://github.com/ObservedObserver/chatgpt-i18n) - AI支援でウェブサイトのローカライズを実現  
+- [ourongxing/chatgpt-vercel](https://github.com/ourongxing/chatgpt-vercel) - エレガントでパワフル。OpenAIとVercelによる  
+- [lcomplete/huntly](https://github.com/lcomplete/huntly) - Huntly、情報管理ツール、RSSリーダー、ブラウズしたコンテンツの自動保存（ツイート含む）、GitHubスター管理ツール。情報管理ツール、RSSリーダー、GitHubスター管理、ツイート管理、閲覧した記事の自動記録。  
+- [openai-translator/openai-translator](https://github.com/openai-translator/openai-translator) - ChatGPT APIに基づく選択範囲翻訳ブラウザ拡張およびクロスプラットフォームデスクトップアプリケーション  
+- [sparticleinc/chatgpt-google-summary-extension](https://github.com/sparticleinc/chatgpt-google-summary-extension) - Google検索結果やYouTube動画の横にChatGPTの要約を表示するChrome拡張。Yahoo!ニュース、PubMed、PMC、NewsPicks、Github、日経、Bing、Google Patents、あらゆるページの要約も対応。  
+- [anse-app/chatgpt-demo](https://github.com/anse-app/chatgpt-demo) - ChatGPTのミニマルウェブUI  
+- [microsoft/vscode-webview-ui-toolkit](https://github.com/microsoft/vscode-webview-ui-toolkit) - Visual Studio CodeのWebviewベース拡張構築用コンポーネントライブラリ  
+- [ycjcl868/readme-gpt](https://github.com/ycjcl868/readme-gpt) - OpenAIとVercel Edge FunctionsでGitHub Readmeを生成  
+- [cloudflare/wildebeest](https://github.com/cloudflare/wildebeest) - WildebeestはActivityPubおよびMastodon互換サーバー  
+- [transitive-bullshit/bing-chat](https://github.com/transitive-bullshit/bing-chat) - Bingの新しいAI検索のNode.jsクライアント。ChatGPTを強化したようなもの🔥  
+- [Musish/Musish](https://github.com/Musish/Musish) - Apple Music風プレイヤー  
+- [MNThomson/containerflare](https://github.com/MNThomson/containerflare) - 🔥 Cloudflare (Workers + R2) エッジコンテナイメージリポジトリ  
+- [cmj2002/CF-R2-ImageBed](https://github.com/cmj2002/CF-R2-ImageBed) - Cloudflare R2ベースの画像ホスティング。PicGo対応。  
+- [google/brotli](https://github.com/google/brotli) - Brotli圧縮フォーマット  
+- [robertying/learnX-companion](https://github.com/robertying/learnX-companion) - 清華大学ネットワーク学堂アプリ支援ツール、learnXにパーソナライズされたプッシュ通知を提供。  
+- [dvanoni/notero](https://github.com/dvanoni/notero) - ZoteroからNotionへアイテムとノートを同期するプラグイン  
+- [windingwind/zotero-better-notes](https://github.com/windingwind/zotero-better-notes) - ノート管理に関する全て。すべてZotero内で。  
+- [honojs/hono](https://github.com/honojs/hono) - Web標準に基づくWebフレームワーク  
+- [G4brym/R2-Explorer](https://github.com/G4brym/R2-Explorer) - Cloudflare R2バケット用Googleドライブインターフェース！  
+- [SunYufei/workers-dav](https://github.com/SunYufei/workers-dav) - Cloudflare Workersを使ったGoogle DriveのWebDAVサービス / WebDAVサポート  
+- [realByg/office-user-auto-create](https://github.com/realByg/office-user-auto-create) - Cloudflare Workerを利用したOfficeアカウントのセルフ作成  
+- [ghedamat/obsidian-save-as-gist](https://github.com/ghedamat/obsidian-save-as-gist) -   
+- [kamranahmedse/aws-cost-cli](https://github.com/kamranahmedse/aws-cost-cli) - Slack連携付きのAWSアカウントコスト分析CLIツール  
+- [remotely-save/remotely-save](https://github.com/remotely-save/remotely-save) - ローカルとクラウド間でノートを同期し、スマートな競合解決。対応：S3（Amazon S3/Cloudflare R2/Backblaze B2/…）、Dropbox、webdav（NextCloud/InfiniCLOUD/Synology/…）、OneDrive、Google Drive（GDrive）、Box、pClou  
+- [Future-Scholars/paperlib](https://github.com/Future-Scholars/paperlib) - オープンソースの学術論文管理ツール  
+- [forecho/cherries](https://github.com/forecho/cherries) -   
+- [thu-info-community/thu-info-lib](https://github.com/thu-info-community/thu-info-lib) - 清華大学ウェブポータルのプログラムフレンドリーなインターフェースを提供するJavaScriptライブラリ  
+- [Harry-Chen/Learn-Helper](https://github.com/Harry-Chen/Learn-Helper) - 清華大学ネットワーク学堂支援ツール  
+- [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) - InvokeはStable Diffusionモデル向けの先進的クリエイティブエンジンで、専門家、アーティスト、愛好家が最新のAI技術を用いてビジュアルメディアを生成・創造可能にします。  
+- [baotlake/periodic-table-pro](https://github.com/baotlake/periodic-table-pro) - 元素周期表Pro、高デザインの化学必携アプリ。元素の属性、画像、百科知識を網羅  
+- [dtysky/Awaken](https://github.com/dtysky/Awaken) - WebDAVベースの全プラットフォーム対応EPUBリーダー。ノート、進捗、ブックマーク同期、Kindleノートのインポート対応。  
+- [illacloud/illa-builder](https://github.com/illacloud/illa-builder) - ローコードプラットフォーム。ビジネスアプリ構築を支援し、ダッシュボード、CRUDアプリ、管理パネル、CRM、CMSなどの内部ツールを迅速に作成可能。PostgreSQL、MySQL、Supabase、GraphQLをサポート  
+- [resend/react-email](https://github.com/resend/react-email) - 💌 Reactでメールを構築・送信  
+- [domeccleston/sharegpt](https://github.com/domeccleston/sharegpt) - ChatGPT会話の永久リンクを友人と簡単共有  
+- [wong2/chatgpt-google-extension](https://github.com/wong2/chatgpt-google-extension) - このプロジェクトは非推奨です。新プロジェクトChatHubを参照してください：  
+- [pacexy/flow](https://github.com/pacexy/flow) - ブラウザベースのePubリーダー  
+- [jiegec/clone-learn-tsinghua](https://github.com/jiegec/clone-learn-tsinghua) - learn.tsinghua.edu.cnから全ファイルをクローンするユーティリティ  
+- [thu-info-community/thu-info-app](https://github.com/thu-info-community/thu-info-app) - キャンパス情報の統合を目指すReact Native製アプリ  
+- [exposir/bing-wallpaper-node](https://github.com/exposir/bing-wallpaper-node) - Bingの毎日4K超高精細壁紙
+- [AlistGo/docs](https://github.com/AlistGo/docs) - 📄 alist v3 のドキュメント: http://github.com/alist-org/alist  
+- [slidevjs/docs](https://github.com/slidevjs/docs) - [ミラー] Slidev のドキュメント  
+- [appwrite/appwrite](https://github.com/appwrite/appwrite) - 数百人のチームのように構築_  
+- [dai-shi/excalidraw-animate](https://github.com/dai-shi/excalidraw-animate) - Excalidrawの図をアニメーション化するツール  
+- [Graviton-Code-Editor/Graviton-App](https://github.com/Graviton-Code-Editor/Graviton-App) - 🚀 モダンな外観のコードエディタ  
+- [thusns/thu-wiki](https://github.com/thusns/thu-wiki) - https://thu.wiki または https://wiki.thusns.org  
+- [crashmax-dev/twallpaper](https://github.com/crashmax-dev/twallpaper) - 🌈 アルゴリズムで作成され滑らかに輝く多色グラデーション壁紙。  
+- [SigNoz/signoz](https://github.com/SigNoz/signoz) - SigNozはOpenTelemetryにネイティブ対応したオープンソースの観測プラットフォームで、ログ、トレース、メトリクスを単一のアプリケーションで扱います。DataDogやNewRelicのオープンソース代替です。🔥 🖥.   👉  オープンソース  
+- [vuejs/vitepress](https://github.com/vuejs/vitepress) - Vite & Vueをベースにした静的サイトジェネレータ。  
+- [sst/sst](https://github.com/sst/sst) - 自分のインフラ上でフルスタックアプリを構築。  
+- [nrwl/nx](https://github.com/nrwl/nx) - エディタからCIまで全てをつなぐAIファーストのビルドプラットフォーム。速さを保ちつつ壊れない開発を支援。  
+- [dubinc/dub](https://github.com/dubinc/dub) - 近代的なリンク属性プラットフォーム。Twilio、Buffer、Framer、Perplexity、Vercelなど世界トップクラスのマーケティングチームに愛用されています。  
+- [Privoce/vocechat-web](https://github.com/Privoce/vocechat-web) - VoceChat Web アプリ  
+- [jackluson/vscode-pomodoro-clock](https://github.com/jackluson/vscode-pomodoro-clock) - VS Code用ポモドーロクロック  
+- [DTStack/molecule](https://github.com/DTStack/molecule) - :rocket: 軽量Web IDE UIフレームワーク。  
+- [b4rtaz/voice-assistant](https://github.com/b4rtaz/voice-assistant) - Visual Studio Code用音声アシスタント。  
+- [leon-ai/leon](https://github.com/leon-ai/leon) - 🧠 Leonはあなたのオープンソースパーソナルアシスタントです。  
+- [tycrek/ass](https://github.com/tycrek/ass) - シンプルなセルフホスト型ShareXサーバー  
+- [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - プライバシー重視のノートアプリで、Windows、macOS、Linux、Android、iOSで同期可能。  
+- [AlphaNecron/Void](https://github.com/AlphaNecron/Void) - 高速でエレガントなファイルホスティングサービス。  
+- [egoist/follower-count](https://github.com/egoist/follower-count) - Instagram、Twitter、TikTok、Youtubeアカウントのフォロワーカウント取得  
+- [liveblocks/liveblocks](https://github.com/liveblocks/liveblocks) - AI時代の最高のアプリはソロ体験ではなく共同体験。Liveblocksはマルチプレイヤーで魅力的、AI対応製品のためのカスタマイズ可能な既製機能を提供。すべて導入不要で。  
+- [cloudflare/workers-graphql-server](https://github.com/cloudflare/workers-graphql-server) - 🔥 Lightning-fast、グローバル分散型Apollo GraphQLサーバー、Cloudflare Workersを使いエッジに展開。  
+- [buhe/vscode-mail](https://github.com/buhe/vscode-mail) - Visual Studio Codeに埋め込まれたメールクライアント。  
+- [LekoArts/gatsby-themes](https://github.com/LekoArts/gatsby-themes) - 高品質でカスタマイズ可能なGatsbyテーマで素早くウェブサイトを起動！多くのプロフェッショナルデザインから選択可能。  
+- [haaarshsingh/kmenu](https://github.com/haaarshsingh/kmenu) - 完璧な ⌘K メニュー  
+- [sofn-xyz/mailing](https://github.com/sofn-xyz/mailing) - Reactでメールを構築、テスト、送信  
+- [webiny/webiny-js](https://github.com/webiny/webiny-js) - オープンソースのサーバーレス企業向けCMS。ヘッドレスCMS、ページビルダー、フォームビルダー、ファイルマネージャーを含む。カスタマイズや拡張が容易。AWSにデプロイ可能。  
+- [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) - GitBookドキュメントサイトのオープンソースフロントエンド  
+- [codex-team/editor.js](https://github.com/codex-team/editor.js) - クリーンなJSON出力のブロックスタイルエディタ  
+- [pingcap/ossinsight](https://github.com/pingcap/ossinsight) - オープンソースソフトウェアの分析、比較、トレンド、ランキング。OpenAI搭載の自然言語で70億件以上から洞察取得可能。Twitterでフォロー: https://twitter.com/o  
+- [markmap/markmap](https://github.com/markmap/markmap) - プレーンテキストでマインドマップを作成  
+- [hmu332233/q-link](https://github.com/hmu332233/q-link) - Q.Link | 簡単なクイズでリンクを隠す。  
+- [triggerdotdev/jsonhero-web](https://github.com/triggerdotdev/jsonhero-web) - JSON Heroは美しいオープンソースのJSONブラウザで、高速に閲覧、検索、ナビゲートが可能。🚀 Trigger.devチーム製。  
+- [devhubapp/devhub](https://github.com/devhubapp/devhub) - GitHubのTweetDeck - Issues、アクティビティ、通知をフィルタリング - Web、モバイル、デスクトップで99%コード共有  
+- [redhat-actions/try-in-web-ide](https://github.com/redhat-actions/try-in-web-ide) - Red Hat OpenShiftのDeveloper Sandbox上のWeb IDEにプルリクをクローンし、簡単に変更をテスト。  
+- [photoview/photoview](https://github.com/photoview/photoview) - セルフホスト型個人サーバー向け写真ギャラリー  
+- [yusukebe/r2-image-worker](https://github.com/yusukebe/r2-image-worker) - R2バックエンドCloudflare Workersで画像を保存・配信。  
+- [GitbookIO/proxies-on-cloudflare](https://github.com/GitbookIO/proxies-on-cloudflare) - Cloudflare Workersでプロキシ  
+- [SharzyL/pastebin-worker](https://github.com/SharzyL/pastebin-worker) - Cloudflare worker上のPastebin、使いやすいCLIと豊富な機能付き  
+- [eclipse-theia/theia](https://github.com/eclipse-theia/theia) - Eclipse TheiaはTypeScriptで実装されたクラウド＆デスクトップIDEフレームワーク。  
+- [facebook/docusaurus](https://github.com/facebook/docusaurus) - メンテナンスが簡単なオープンソースのドキュメンテーションサイト。  
+- [logto-io/logto](https://github.com/logto-io/logto) - 🧑‍🚀 SaaSとAIアプリ向けの認証・認可基盤。OIDCとOAuth 2.1ベースでマルチテナンシー、SSO、RBAC対応。  
+- [dushixiang/next-terminal](https://github.com/dushixiang/next-terminal) - Next TerminalはRDP、SSH、VNC、Telnet、HTTPなど複数のリモートアクセスプロトコルをサポートするシンプルで安全、ユーザーフレンドリーなインタラクティブ監査システム。  
+- [wayjam/picgo-plugin-s3](https://github.com/wayjam/picgo-plugin-s3) - PicGo S3 プラグイン  
+- [gaeulbyul/RedBlock](https://github.com/gaeulbyul/RedBlock) - [状態: メンテナンス終了] Twitter史上最強のチェインブロック拡張機能。/ Twitterで複数ユーザーを強力にブロックする拡張。  
+- [formulahendry/vscode-code-runner](https://github.com/formulahendry/vscode-code-runner) - Visual Studio Code用コードランナー  
+- [hexojs/hexo-cli](https://github.com/hexojs/hexo-cli) - Hexoのコマンドラインインターフェース  
+- [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner) - キーボード作業者向けの単語記憶と英語筋肉記憶トレーニングソフトウェア  
+- [SSShooter/mind-elixir-core](https://github.com/SSShooter/mind-elixir-core) - ⚗ Mind ElixirはJavaScriptで書かれたフレームワーク非依存のマインドマップコア。  
+- [utterance/utterances](https://github.com/utterance/utterances) - :crystal_ball: GitHub Issuesを基にした軽量コメントウィジェット  
+- [gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) - オンデマンドクラウド開発環境のための開発者プラットフォーム。より速く安全にソフトウェアを作成。  
+- [wabarc/cairn](https://github.com/wabarc/cairn) - ウェブページを単一HTMLファイルとして保存するNPMパッケージ＆CLIツール  
+- [massCodeIO/assistant-vscode](https://github.com/massCodeIO/assistant-vscode) - VS Code用massCodeアシスタント  
+- [vercel/platforms](https://github.com/vercel/platforms) - マルチテナント対応のフルスタックNext.jsアプリ。  
+- [taniarascia/takenote](https://github.com/taniarascia/takenote) - 📝 開発者向けウェブベースノートアプリ。  
+- [standardnotes/app](https://github.com/standardnotes/app) - エンドツーエンド暗号化ノート＆ファイルで恐れず考えよう。問題は https://standardnotes.com/forum または https://standardnotes.com/help へ。  
+- [gitpod-io/openvscode-server](https://github.com/gitpod-io/openvscode-server) - 最新のウェブブラウザからどのデバイスでもアクセス可能なリモートマシンで上流のVS Codeを実行。  
+- [EnixCoda/Gitako](https://github.com/EnixCoda/Gitako) - 🐙 Chrome、Firefox、Edgeで使えるGitHubのファイルツリー拡張。  
+- [gridaco/grida](https://github.com/gridaco/grida) - Grida — 野心的なウェブ向け2Dグラフィックスエディタ  
+- [lostintangent/gitdoc](https://github.com/lostintangent/gitdoc) - Gitリポジトリを複数ファイルかつバージョン管理されたドキュメントのように編集可能なVS Code拡張。  
+- [Platane/snk](https://github.com/Platane/snk) - 🟩⬜ GitHubユーザーの貢献グラフからスネークゲームを生成し、アニメーションSVGまたはGIFでキャプチャ出力。  
+- [yoshi389111/github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib) - GitHubの貢献カレンダーを3Dプロフィール画像に作成するGitHub Action。  
+- [yang991178/fluent-reader](https://github.com/yang991178/fluent-reader) - Electron、React、Fluent UIで作られたモダンなデスクトップRSSリーダー  
+- [AlistGo/web-v2](https://github.com/AlistGo/web-v2) - 🗂️ Alist V2のフロントエンド  
+- [ansh/jiffyreader.com](https://github.com/ansh/jiffyreader.com) - どのウェブサイトでも高速読書を可能にするブラウザ拡張！  
+- [alefragnani/vscode-bookmarks](https://github.com/alefragnani/vscode-bookmarks) - Visual Studio Code用ブックマーク拡張  
+- [markdoc/markdoc](https://github.com/markdoc/markdoc) - 強力で柔軟なMarkdownベースのオーサリングフレームワーク。  
+- [batnoter/batnoter](https://github.com/batnoter/batnoter) - オープンソースのMarkdownベース、セルフホスト型ノートテイキングウェブアプリ。  
+- [Cveinnt/LetsMarkdown.com](https://github.com/Cveinnt/LetsMarkdown.com) - 👨‍💻👩‍💻 Markdownを一緒に書こう。  
+- [Cherry/ShareX-R2-Cloudflare-Workers](https://github.com/Cherry/ShareX-R2-Cloudflare-Workers) - Workers経由でCloudflare R2にアップロードするカスタムShareXアップローダー  
+- [mullvad/browser-extension](https://github.com/mullvad/browser-extension) - Mullvad VPN利用時のブラウジング体験を向上させるブラウザ拡張。  
+- [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) - マークダウンのようにテキストからフローチャートやシーケンス図などの図を生成。  
+- [Kong/insomnia](https://github.com/Kong/insomnia) - GraphQL、REST、WebSockets、SSE、gRPC対応のオープンソースクロスプラットフォームAPIクライアント。Cloud、ローカル、Gitストレージ対応。  
+- [theajack/cnchar](https://github.com/theajack/cnchar) - 🇨🇳 多機能な漢字ツールライブラリ（ピンイン、画数、偏旁、成語、発音、可視化等）  
+- [missive/emoji-mart](https://github.com/missive/emoji-mart) - 🏪 すべての絵文字を選べる1コンポーネント  
+- [lcomplete/smart-toc](https://github.com/lcomplete/smart-toc) - 自動で目次を生成するChrome拡張、InoreaderとFeedly対応。  
+- [sheepzh/time-tracker-4-browser](https://github.com/sheepzh/time-tracker-4-browser) - ブラウザ用タイムトラッカー/ネット代が高い  
+- [ajayyy/SponsorBlockServer](https://github.com/ajayyy/SponsorBlockServer) - YouTube動画のスポンサーをスキップ（サーバー側部分）  
+- [Hopding/pdf-lib](https://github.com/Hopding/pdf-lib) - どんなJavaScript環境でもPDFドキュメントの作成と編集が可能  
+- [GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension](https://github.com/GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension) - VSCodeのエディタメニューバーにビューティファイ、開いたファイル表示、保存、ターミナル切替など便利なボタンを追加。カスタムコマンドで独自ボタン作成も可能。VSCodeマーケットプレイスリンク: htt  
+- [hexojs/hexo](https://github.com/hexojs/hexo) - Node.jsベースの高速でシンプルかつ強力なブログフレームワーク。  
+- [actions/stale](https://github.com/actions/stale) - 最近のやり取りがないIssueとプルリクエストにマークを付ける。  
+- [surgioproject/surgio](https://github.com/surgioproject/surgio) - Surge、Clash、Quantumult用のルールをプロ並みに生成。  
+- [nginxinc/nginx-for-azure-deploy-action](https://github.com/nginxinc/nginx-for-azure-deploy-action) - NGINX設定をNGINX for Azureサービスに同期するGitHub Actions。  
+- [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) - Rustで書かれた仮想分散ファイルシステムを搭載したオープンソースクロスプラットフォームファイルエクスプローラー。  
+- [DenverCoder1/custom-icon-badges](https://github.com/DenverCoder1/custom-icon-badges) - 🛡 Octiconsや独自アイコン、ロゴをshields.ioバッジで簡単に使えるようにする。  
+- [arduino/arduino-ide](https://github.com/arduino/arduino-ide) - Arduino IDE 2.x  
+- [yuudi/onesend](https://github.com/yuudi/onesend) - OneDrive経由でファイルを送信  
+- [xcodebuild/CodeTerminal](https://github.com/xcodebuild/CodeTerminal) - Visual Studio Codeから抽出したクロスプラットフォーム独立型ターミナルアプリ。  
+- [Zhengqbbb/cz-git](https://github.com/Zhengqbbb/cz-git) - cz-git | czg  🛠️ DX優先でエンジニアリングされた軽量でカスタマイズ可能な標準出力形式のCommitizenアダプター＆CLI  
+- [tutao/tutanota](https://github.com/tutao/tutanota) - Tutaはセキュリティとプライバシーに強くフォーカスしたメールサービスで、すべてのデバイスでメール、連絡先、カレンダーを暗号化可能。  
+- [atomcorp/themes](https://github.com/atomcorp/themes) - Windows Terminal用テーマ  
+- [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) - オープンソースAPI開発エコシステム - https://hoppscotch.io (PostmanやInsomniaのオープンソース代替)  
+- [antfu/awesome-cn-cafe-web](https://github.com/antfu/awesome-cn-cafe-web) - ☕️ Awesome CN Café用ウェブアプリ  
+- [yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) - 💯 忙しいソフトウェアエンジニアのための厳選されたコーディング面接準備資料  
+- [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) - freeCodeCamp.orgのオープンソースコードベースとカリキュラム。数学、プログラミング、コンピュータサイエンスを無料で学習。  
+- [harrisoff/onedrive-js-sdk](https://github.com/harrisoff/onedrive-js-sdk) - OneDriveのAPIの一部をラップ、アップロードと共有ファイルのみ対応。  
+- [harrisoff/onedrive-image-hosting](https://github.com/harrisoff/onedrive-image-hosting) - OneDrive画像ホスティング | OneDrive 图床  
+- [ms-iot/vscode-ros](https://github.com/ms-iot/vscode-ros) - Robot Operating System (ROS)開発用Visual Studio Code拡張
 - [yzhang-gh/vscode-markdown](https://github.com/yzhang-gh/vscode-markdown) - Markdown All in One
-- [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) - 🔒 2024年におけるデジタルセキュリティとプライバシーを守るための300以上のヒントをまとめたチェックリスト
-- [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) - ✨ JSON、YAML、XML、CSVなど様々なデータフォーマットをインタラクティブなグラフに変換する革新的なオープンソースの可視化アプリケーション。
-- [charleswan/vscode-extensions](https://github.com/charleswan/vscode-extensions) - 美味しいVisual Studio Code拡張機能レシピのコレクション https://marketplace.visualstudio.com/publishers/CharlesWan
-- [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium) - Trilium Notesで個人ナレッジベースを構築
-- [grafana/grafana](https://github.com/grafana/grafana) - オープンかつ構成可能な可観測性・データ可視化プラットフォーム。Prometheus, Loki, Elasticsearch, InfluxDB, Postgresなど多様なソースからメトリクス、ログ、トレースを可視化。
-- [reactjs/react.dev](https://github.com/reactjs/react.dev) - React公式ドキュメントサイト
-- [microsoft/TypeScript](https://github.com/microsoft/TypeScript) - TypeScriptはJavaScriptのスーパーセットで、クリーンなJavaScriptにコンパイルされます。
-- [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) - 管理パネル、社内ツール、ダッシュボード構築プラットフォーム。25以上のデータベースやあらゆるAPIと統合可能。
-- [XadillaX/vscode-language-viml](https://github.com/XadillaX/vscode-language-viml) - VSCode用VimLプラグイン。
-- [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim) - vim & neovim用Nodejs拡張ホスト。VSCodeのような拡張機能や言語サーバーをロード。
+- [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) - 🔒 2024年のデジタルセキュリティとプライバシー保護のための300以上のヒントをまとめたチェックリスト
+- [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) - ✨ JSON、YAML、XML、CSVなどの様々なデータ形式をインタラクティブなグラフに変換する革新的なオープンソースの可視化アプリケーション。
+- [charleswan/vscode-extensions](https://github.com/charleswan/vscode-extensions) - 美味しいVisual Studio Code拡張機能レシピ集 https://marketplace.visualstudio.com/publishers/CharlesWan
+- [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium) - Trilium Notesであなたの個人知識ベースを構築
+- [grafana/grafana](https://github.com/grafana/grafana) - オープンで構成可能な可観測性およびデータ可視化プラットフォーム。Prometheus、Loki、Elasticsearch、InfluxDB、Postgresなど複数のソースからメトリクス、ログ、トレースを可視化。
+- [reactjs/react.dev](https://github.com/reactjs/react.dev) - Reactドキュメントウェブサイト
+- [microsoft/TypeScript](https://github.com/microsoft/TypeScript) - TypeScriptはJavaScriptのスーパーセットで、クリーンなJavaScript出力にコンパイルされます。
+- [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) - 管理パネル、内部ツール、ダッシュボードを構築するプラットフォーム。25以上のデータベースとあらゆるAPIと統合。
+- [XadillaX/vscode-language-viml](https://github.com/XadillaX/vscode-language-viml) - VSCode用のVimLプラグイン。
+- [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim) - vim & neovim用のNodejs拡張ホスト。VSCodeのように拡張機能をロードし、言語サーバーをホスト。
 - [CryogenicPlanet/cryogenicplanet.github.io](https://github.com/CryogenicPlanet/cryogenicplanet.github.io) - ウェブ上の個人スペース
-- [wei/socialify](https://github.com/wei/socialify) - 💞 プロジェクトをソーシャライズ。🌐 世界と共有しよう！
-- [VSCodeVim/Vim](https://github.com/VSCodeVim/Vim) - :star: Visual Studio Code用Vim
-- [AtomMaterialUI/iconGenerator](https://github.com/AtomMaterialUI/iconGenerator) - Atom Material Iconsプラグイン（JetBrains、Chrome、Firefox用）で利用されるアイコンコレクション
-- [antfu/case-police](https://github.com/antfu/case-police) - 🚨 ケースを正しくしましょう、お願いします！
-- [shd101wyy/vscode-markdown-preview-enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced) - Visual Studio Code用「最高」のMarkdownプレビュー拡張の一つ
-- [HAG87/vscode-maxscript-lsp](https://github.com/HAG87/vscode-maxscript-lsp) - VS Code用MaxScript言語（Language Server実装）
-- [marcomontalbano/video-to-markdown](https://github.com/marcomontalbano/video-to-markdown) - Markdownに動画を埋め込む方法？答えはこちら。Markdownファイルに動画を簡単に追加。
-- [dangeredwolf/ModernDeck](https://github.com/dangeredwolf/ModernDeck) - 美しく強力なデスクトップ用Twitterクライアント。
-- [shiftkey/desktop](https://github.com/shiftkey/desktop) - 様々なLinuxディストリビューションをサポートするGitHub Desktopのフォーク
+- [wei/socialify](https://github.com/wei/socialify) - 💞 あなたのプロジェクトをSocialify。🌐 世界と共有！
+- [VSCodeVim/Vim](https://github.com/VSCodeVim/Vim) - :star: Visual Studio Code用のVim
+- [AtomMaterialUI/iconGenerator](https://github.com/AtomMaterialUI/iconGenerator) - Atom Material Iconsプラグイン内で使用されるアイコンコレクション（JetBrains、Chrome、Firefox用）
+- [antfu/case-police](https://github.com/antfu/case-police) - 🚨 ケースを正しくしてください、お願いします！
+- [shd101wyy/vscode-markdown-preview-enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced) - Visual Studio Code用の「最高」のマークダウンプレビュー拡張の一つ
+- [HAG87/vscode-maxscript-lsp](https://github.com/HAG87/vscode-maxscript-lsp) - VS Code用のMaxScript言語（言語サーバー実装）
+- [marcomontalbano/video-to-markdown](https://github.com/marcomontalbano/video-to-markdown) - マークダウンに動画を埋め込む方法？ここに答えがあります。マークダウンファイルに動画を簡単に追加。
+- [dangeredwolf/ModernDeck](https://github.com/dangeredwolf/ModernDeck) - 美しく強力なデスクトップ向けTwitterクライアント。
+- [shiftkey/desktop](https://github.com/shiftkey/desktop) - さまざまなLinuxディストリビューションをサポートするGitHub Desktopのフォーク
 - [k9982874/github-gist-explorer](https://github.com/k9982874/github-gist-explorer) - 
-- [djyde/ossart](https://github.com/djyde/ossart) - GitHubの活動をアートワークとして出力
-- [luyuhuang/vscode-rss](https://github.com/luyuhuang/vscode-rss) - Visual Studio Codeに埋め込まれたRSSリーダー
-- [liximomo/vscode-sftp](https://github.com/liximomo/vscode-sftp) - 超高速なVS Code用sftp/ftp拡張
-- [funnyzak/react-native-v2ex](https://github.com/funnyzak/react-native-v2ex) - 本プロジェクトはReact NativeでV2EXモバイルクライアントアプリを構築。目的はReact Nativeの高速開発脚手架を作ること。クライアントデータはV2EX公開APIに完全依存。RN 0.71.5ベース。
-- [trzsz/trzsz.js](https://github.com/trzsz/trzsz.js) - trzsz.jsはtrzszのjsバージョンで、Electron製ターミナルやwebshellでtrzsz（trz/tsz）をサポート。
-- [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) - プライバシーを重視したユニークな履歴書作成ツール。完全に安全、カスタマイズ可能、ポータブル、オープンソース、永遠に無料。今すぐお試しください！
-- [slidevjs/slidev](https://github.com/slidevjs/slidev) - 開発者のためのプレゼンテーションスライド
-- [zzzgydi/clash-verge](https://github.com/zzzgydi/clash-verge) - tauriベースのClash GUI。Windows、macOS、Linuxをサポート。
+- [djyde/ossart](https://github.com/djyde/ossart) - GitHubの活動をアートワークとして印刷
+- [luyuhuang/vscode-rss](https://github.com/luyuhuang/vscode-rss) - Visual Studio Code内蔵のRSSリーダー
+- [liximomo/vscode-sftp](https://github.com/liximomo/vscode-sftp) - VS Code用の超高速sftp/ftp拡張
+- [funnyzak/react-native-v2ex](https://github.com/funnyzak/react-native-v2ex) - React Nativeを使用して構築されたV2EXモバイルクライアントアプリ。目的はReact Nativeの高速開発スキャフォールド構築。クライアントデータは完全にV2EXの公開APIに基づく。RN 0.71.5ベース。
+- [trzsz/trzsz.js](https://github.com/trzsz/trzsz.js) - trzsz.jsはtrzszのjsバージョンで、electronとwebshellで構築されたターミナルでtrzsz（trz / tsz）をサポート。
+- [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) - プライバシーを重視した唯一無二の履歴書作成ツール。完全に安全でカスタマイズ可能、ポータブル、オープンソースで永遠に無料。今日試してみてください！
+- [slidevjs/slidev](https://github.com/slidevjs/slidev) - 開発者向けプレゼンテーションスライド
+- [zzzgydi/clash-verge](https://github.com/zzzgydi/clash-verge) - tauriベースのClash GUI。Windows、macOS、Linux対応。
 - [louisyoungx/safari-like-startpage](https://github.com/louisyoungx/safari-like-startpage) - Safari風スタートページ
-- [BoostIO/BoostNote-App](https://github.com/BoostIO/BoostNote-App) - Boost Noteは、リモートDevOpsチームの速度を最大化するドキュメント駆動型プロジェクト管理ツールです。
-- [rick-yo/remind](https://github.com/rick-yo/remind) - マインドマップをブラウザへ
-- [QwikDev/qwik](https://github.com/QwikDev/qwik) - 努力不要で瞬時にロードされるWebアプリ
-- [vuepress-reco/vuepress-theme-reco](https://github.com/vuepress-reco/vuepress-theme-reco) - 🎨 これはvuepress-theme-reco 2のリポジトリです。
-- [WayneGongCN/microsoft-todo-browser-ext](https://github.com/WayneGongCN/microsoft-todo-browser-ext) - Microsoft To Do用サードパーティーオープンソースブラウザ拡張
-- [outline/outline](https://github.com/outline/outline) - 成長するチーム向け最速のナレッジベース。美しく、リアルタイム共同編集、機能豊富、Markdown互換。
-- [geist-org/geist-ui](https://github.com/geist-org/geist-ui) - モダンなウェブサイトやアプリケーション構築用デザインシステム。
-- [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) - オールインワン出版作業台
-- [ddiu8081/bus-vis](https://github.com/ddiu8081/bus-vis) - 🚌 中国都市バスの可視化。
-- [vitejs/vite](https://github.com/vitejs/vite) - 次世代フロントエンドツール。高速！
-- [notea-org/notea](https://github.com/notea-org/notea) - 📒 S3に保存するセルフホスト型ノートアプリ
-- [heroui-inc/heroui](https://github.com/heroui-inc/heroui) - 🚀 美しく高速でモダンなReact UIライブラリ（旧NextUI）
-- [coder/code-server](https://github.com/coder/code-server) - ブラウザ上で使えるVS Code
-- [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) - 高速UI開発のためのユーティリティファーストなCSSフレームワーク
-- [danloh/mdSilo-web](https://github.com/danloh/mdSilo-web) - ローカルプレーンテキストファイルを用いたブラウザ上のナレッジベース
-- [Gisto/Gisto](https://github.com/Gisto/Gisto) - Gistoはクロスプラットフォームのスニペット管理アプリ。あなたとチームでコードスニペットを迅速かつ簡単に共有。GitHub Gistsインフラを利用でき、全ての機能が使えます。
-- [GustavoASC/google-drive-vscode](https://github.com/GustavoASC/google-drive-vscode) - VSCodeとGoogle Drive™を連携する拡張機能
-- [liupan1890/aliyunpan](https://github.com/liupan1890/aliyunpan) - 阿里云盘小白羊版  阿里云盘PC版 aliyundriver
-- [Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo) - :rocket:vue-cli-electron-builderで作られたシンプルで美しい画像アップロードツール
-- [XPoet/picx](https://github.com/XPoet/picx) - 🏞️ PicXはGitHub APIを使った画像ホスティングツール。画像のアップロード・リンク生成・便利な画像ツールボックスサービスを提供。
-- [Actions-R-Us/actions-tagger](https://github.com/Actions-R-Us/actions-tagger) - アクションバージョンを常に最新に保つメタアクション :rocket:
+- [BoostIO/BoostNote-App](https://github.com/BoostIO/BoostNote-App) - Boost NoteはリモートDevOpsチームの速度を最大化するドキュメント駆動型プロジェクト管理ツール。
+- [rick-yo/remind](https://github.com/rick-yo/remind) - ブラウザでマインドマップを実現
+- [QwikDev/qwik](https://github.com/QwikDev/qwik) - 努力なしでインスタントロードのウェブアプリ
+- [vuepress-reco/vuepress-theme-reco](https://github.com/vuepress-reco/vuepress-theme-reco) - 🎨 vuepress-theme-reco 2のリポジトリです。
+- [WayneGongCN/microsoft-todo-browser-ext](https://github.com/WayneGongCN/microsoft-todo-browser-ext) - Microsoft To Do用のオープンソースサードパーティブラウザ拡張
+- [outline/outline](https://github.com/outline/outline) - 成長するチームのための最速のナレッジベース。美しく、リアルタイムコラボレーション対応、機能満載、Markdown互換。
+- [geist-org/geist-ui](https://github.com/geist-org/geist-ui) - モダンなウェブサイトとアプリケーション構築のためのデザインシステム。
+- [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) - あなたのオールインワン出版作業台
+- [ddiu8081/bus-vis](https://github.com/ddiu8081/bus-vis) - 🚌 中国の都市バスの可視化。
+- [vitejs/vite](https://github.com/vitejs/vite) - 次世代のフロントエンドツール。高速です！
+- [notea-org/notea](https://github.com/notea-org/notea) - 📒 S3に保存されるセルフホスト型ノートアプリ
+- [heroui-inc/heroui](https://github.com/heroui-inc/heroui) - 🚀 美しく高速でモダンなReact UIライブラリ。（旧NextUI）
+- [coder/code-server](https://github.com/coder/code-server) - ブラウザで動くVS Code
+- [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) - 高速UI開発のためのユーティリティファーストCSSフレームワーク。
+- [danloh/mdSilo-web](https://github.com/danloh/mdSilo-web) - ローカルのプレーンテキストファイル上に構築されたブラウザ内ナレッジベース
+- [Gisto/Gisto](https://github.com/Gisto/Gisto) - Gistoはクロスプラットフォームのスニペット管理アプリケーションで、あなたやチームがコードスニペットを高速かつ簡単に共有可能。GitHub Gistsインフラを基盤としているため、すべてのe
+- [GustavoASC/google-drive-vscode](https://github.com/GustavoASC/google-drive-vscode) - VSCodeをGoogle Drive™と統合する拡張機能
+- [liupan1890/aliyunpan](https://github.com/liupan1890/aliyunpan) - 阿里云盘小白羊版 阿里云盘PC版 aliyundriver
+- [Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo) - :rocket: vue-cli-electron-builderで構築されたシンプルで美しい画像アップロードツール
+- [XPoet/picx](https://github.com/XPoet/picx) - 🏞️ PicXはGitHub APIを基に開発された画像ホスティングツールで、画像アップロード、リンク生成、よく使う画像ツールボックスサービスを提供。
+- [Actions-R-Us/actions-tagger](https://github.com/Actions-R-Us/actions-tagger) - アクションのバージョンを最新に保つメタアクション :rocket:
 - [Ajaxy/telegram-tt](https://github.com/Ajaxy/telegram-tt) - Telegram Web A, GPL v3
-- [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) - 手書き風図をスケッチできるバーチャルホワイトボード
-- [nglviewer/ngl](https://github.com/nglviewer/ngl) - WebGLプロテインビューワー
-- [mjswensen/themer](https://github.com/mjswensen/themer) - 🎨 themerは一組の色からアプリ（エディタ、ターミナル、壁紙など）用テーマを出力します。
-- [Binaryify/OneDark-Pro](https://github.com/Binaryify/OneDark-Pro) - Atomの象徴的なOne DarkテーマをVisual Studio Codeで
-- [ritwickdey/vscode-create-file-folder](https://github.com/ritwickdey/vscode-create-file-folder) - Atomスタイルでファイルやフォルダを作成できる小さなVSCode拡張
-- [whyour/qinglong](https://github.com/whyour/qinglong) - Python3、JavaScript、Shell、Typescript対応の定時タスク管理プラットフォーム
-- [johnpapa/vscode-peacock](https://github.com/johnpapa/vscode-peacock) - VS Codeワークスペースの色をさりげなく変更。複数インスタンスやLive Share、Remote利用時に識別が簡単。
+- [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) - 手書き風ダイアグラムをスケッチするための仮想ホワイトボード
+- [nglviewer/ngl](https://github.com/nglviewer/ngl) - WebGLタンパク質ビューア
+- [mjswensen/themer](https://github.com/mjswensen/themer) - 🎨 themerは一連の色からアプリ（エディタ、ターミナル、壁紙など）のテーマを生成します。
+- [Binaryify/OneDark-Pro](https://github.com/Binaryify/OneDark-Pro) - Atomの象徴的なOne DarkテーマのVisual Studio Code版
+- [ritwickdey/vscode-create-file-folder](https://github.com/ritwickdey/vscode-create-file-folder) - Atomスタイルでファイルとフォルダーを作成する小さなVSCode拡張。
+- [whyour/qinglong](https://github.com/whyour/qinglong) - Python3、JavaScript、Shell、Typescript対応の定時タスク管理プラットフォーム（Timed task management platform supporting Python3, JavaScript, Shell, Typescript）
+- [johnpapa/vscode-peacock](https://github.com/johnpapa/vscode-peacock) - Visual Studio Codeのワークスペースの色をさりげなく変更。複数のVS Codeインスタンス使用時、VS Live ShareやVS Codeのリモート機能利用時に素早く識別可能。
 - [morethanwords/tweb](https://github.com/morethanwords/tweb) - Telegram Web K, GPL v3
-- [gitkraken/vscode-gitlens](https://github.com/gitkraken/vscode-gitlens) - VS Code内でGitを強化、リポジトリ内の知識を最大化。Git blameやCodeLensで著者情報を可視化し、Git履歴をシームレスに探索。
-- [carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji) - コミットメッセージ用絵文字ガイド。😜
-- [NotionX/react-notion-x](https://github.com/NotionX/react-notion-x) - 高速かつ正確なNotion用Reactレンダラー。TSバッテリー同梱。⚡️
-- [Shywim/github-repo-size](https://github.com/Shywim/github-repo-size) - Githubリポジトリのサイズを表示するFirefoxアドオン。
-- [streetsidesoftware/vscode-spell-checker](https://github.com/streetsidesoftware/vscode-spell-checker) - シンプルなソースコード用スペルチェッカー
-- [brianlovin/figma-dominant-color-toolkit](https://github.com/brianlovin/figma-dominant-color-toolkit) - 画像からパレットを生成し、デザインを自動で彩る。
-- [transitive-bullshit/nextjs-notion-starter-kit](https://github.com/transitive-bullshit/nextjs-notion-starter-kit) - Next.jsとVercelでNotion駆動のウェブサイトを数分でデプロイ。
-- [spencerwooo/onedrive-vercel-index](https://github.com/spencerwooo/onedrive-vercel-index) - OneDrive公開ディレクトリリストをVercelとNext.jsで
+- [gitkraken/vscode-gitlens](https://github.com/gitkraken/vscode-gitlens) - VS Code内でGitを強化し、各リポジトリの未活用知識を解放。Git blame注釈とCodeLensでコードの作者を一目で可視化し、シームレスにGitをナビゲート・探索。
+- [carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji) - コミットメッセージ用の絵文字ガイド。😜
+- [NotionX/react-notion-x](https://github.com/NotionX/react-notion-x) - Notion用の高速かつ正確なReactレンダラー。TSバッテリー付き。⚡️
+- [Shywim/github-repo-size](https://github.com/Shywim/github-repo-size) - GitHubリポジトリのサイズを表示するFirefoxアドオン。
+- [streetsidesoftware/vscode-spell-checker](https://github.com/streetsidesoftware/vscode-spell-checker) - コード用のシンプルなスペルチェッカー
+- [brianlovin/figma-dominant-color-toolkit](https://github.com/brianlovin/figma-dominant-color-toolkit) - 画像からパレットを生成し、デザインを魔法のように補完。
+- [transitive-bullshit/nextjs-notion-starter-kit](https://github.com/transitive-bullshit/nextjs-notion-starter-kit) - Next.jsとVercelで数分で自分のNotion駆動ウェブサイトをデプロイ。
+- [spencerwooo/onedrive-vercel-index](https://github.com/spencerwooo/onedrive-vercel-index) - VercelとNext.jsによるOneDriveの公開ディレクトリリスト
 - [doki-theme/doki-theme-vscode](https://github.com/doki-theme/doki-theme-vscode) - VS-Code用のかわいいアニメキャラクターテーマ。
 - [frencojobs/vscode-notion](https://github.com/frencojobs/vscode-notion) - Visual Studio Code内でNotionページを閲覧。
-- [lostintangent/gistpad](https://github.com/lostintangent/gistpad) - 📘 GitHub Gistsを使ったコードスニペット、ノート、インタラクティブサンプル管理・共有用VS Code拡張
-- [material-extensions/vscode-material-icon-theme](https://github.com/material-extensions/vscode-material-icon-theme) - VS Code用マテリアルデザインアイコン
-- [lokalise/i18n-ally](https://github.com/lokalise/i18n-ally) - 🌍 VS Code用オールインワンi18n拡張
+- [lostintangent/gistpad](https://github.com/lostintangent/gistpad) - 📘 GitHub Gistsを使ってコードスニペット、ノート、インタラクティブサンプルを管理・共有するVS Code拡張
+- [material-extensions/vscode-material-icon-theme](https://github.com/material-extensions/vscode-material-icon-theme) - VS Code用のマテリアルデザインアイコン
+- [lokalise/i18n-ally](https://github.com/lokalise/i18n-ally) - 🌍 VS Code用のオールインワンi18n拡張
 - [vscode-icons/vscode-icons](https://github.com/vscode-icons/vscode-icons) - Visual Studio Code用アイコン
-- [Authenticator-Extension/Authenticator](https://github.com/Authenticator-Extension/Authenticator) - ブラウザで2段階認証コードを生成
-- [samuelmaddock/metastream](https://github.com/samuelmaddock/metastream) - 友達と一緒にストリーミングメディアを視聴
+- [Authenticator-Extension/Authenticator](https://github.com/Authenticator-Extension/Authenticator) - Authenticatorはブラウザ内で2段階認証コードを生成。
+- [samuelmaddock/metastream](https://github.com/samuelmaddock/metastream) - 友達と一緒にストリーミングメディアを視聴。
 - [swdotcom/swdc-vscode](https://github.com/swdotcom/swdc-vscode) - Visual Studio Code用タイムトラッキングプラグイン
-- [oderwat/vscode-indent-rainbow](https://github.com/oderwat/vscode-indent-rainbow) - インデントを淡い虹色で表示し可読性を向上する拡張
-- [CoenraadS/Bracket-Pair-Colorizer-2](https://github.com/CoenraadS/Bracket-Pair-Colorizer-2) - VSCode用ブラケットカラライザー拡張
-- [YXL76/cloudmusic-vscode](https://github.com/YXL76/cloudmusic-vscode) - Netease Music for VS Code
-- [desktop/desktop](https://github.com/desktop/desktop) - Gitの煩わしさから解放され、本質作業に集中できる。
-- [withfig/autocomplete](https://github.com/withfig/autocomplete) - 既存のターミナル＆シェルにIDEスタイルの自動補完を追加
-- [rid9/DateTime](https://github.com/rid9/DateTime) - Visual Studio Code用の日付と時刻のステータスバー情報
-- [omgovich/colord](https://github.com/omgovich/colord) - 👑 高性能な色操作・変換のための小型かつ強力なツール
-- [microsoft/vscode-sublime-keybindings](https://github.com/microsoft/vscode-sublime-keybindings) - VS Code用Sublime Textキーマップ拡張
-- [triggerjs/trigger](https://github.com/triggerjs/trigger) - HTML属性とCSS変数でスクロールベースアニメーションを作るライブラリ
-- [Eugeny/tabby](https://github.com/Eugeny/tabby) - より現代的な時代のためのターミナル
-- [Vanessa219/vditor](https://github.com/Vanessa219/vditor) - ♏  ブラウザ上で動作するMarkdownエディタ。WYSIWYG（リッチテキスト）、即時レンダリング（Typora風）、分割プレビュー対応。
-- [Yqnn/svg-path-editor](https://github.com/Yqnn/svg-path-editor) - SVGパス作成・編集用オンラインエディタ
-- [daltonmenezes/aura-theme](https://github.com/daltonmenezes/aura-theme) - ✨ お気に入りアプリ用の美しいダークテーマ。
-- [pawelgrzybek/snippet-generator](https://github.com/pawelgrzybek/snippet-generator) - VS Code、Sublime Text、Atom用スニペット生成ツール
-- [robertying/learnX](https://github.com/robertying/learnX) - 清華大学ネット学堂アプリ。React Native製。Tsinghua University Web LearningのApp。⚛️
+- [oderwat/vscode-indent-rainbow](https://github.com/oderwat/vscode-indent-rainbow) - インデントを薄い虹色の背景で表示し、読みやすくする拡張
+- [CoenraadS/Bracket-Pair-Colorizer-2](https://github.com/CoenraadS/Bracket-Pair-Colorizer-2) - VSCode用括弧カラーライザー拡張
+- [YXL76/cloudmusic-vscode](https://github.com/YXL76/cloudmusic-vscode) - VS Code用のNetease Music
+- [desktop/desktop](https://github.com/desktop/desktop) - Gitと闘うのではなく、重要なことに集中。
+- [withfig/autocomplete](https://github.com/withfig/autocomplete) - 既存のターミナル＆シェル用IDEスタイルのオートコンプリート
+- [rid9/DateTime](https://github.com/rid9/DateTime) - Visual Studio Code用の日付と時間ステータスバー情報。
+- [omgovich/colord](https://github.com/omgovich/colord) - 👑 高性能なカラー操作と変換のための小さく強力なツール
+- [microsoft/vscode-sublime-keybindings](https://github.com/microsoft/vscode-sublime-keybindings) - VS Code用のSublime Textキーマップ拡張
+- [triggerjs/trigger](https://github.com/triggerjs/trigger) - HTML属性とCSS変数を使ったスクロールベースのアニメーション作成ライブラリ。
+- [Eugeny/tabby](https://github.com/Eugeny/tabby) - もっとモダンな時代のためのターミナル
+- [Vanessa219/vditor](https://github.com/Vanessa219/vditor) - ♏ ブラウザベースのMarkdownエディタで、WYSIWYG（リッチテキスト）、即時レンダリング（Typora風）、分割プレビューモードをサポート。
+- [Yqnn/svg-path-editor](https://github.com/Yqnn/svg-path-editor) - SVGパスの作成と操作のオンラインエディタ
+- [daltonmenezes/aura-theme](https://github.com/daltonmenezes/aura-theme) - ✨ お気に入りアプリのための美しいダークテーマ。
+- [pawelgrzybek/snippet-generator](https://github.com/pawelgrzybek/snippet-generator) - Visual Studio Code、Sublime Text、Atom用スニペットジェネレーター
+- [robertying/learnX](https://github.com/robertying/learnX) - 清華大学ネットワーク学堂アプリ。React Nativeで構築。清華大学Web学習用アプリ。⚛️
 - [microsoft/vscode](https://github.com/microsoft/vscode) - Visual Studio Code
-- [refined-github/refined-github](https://github.com/refined-github/refined-github) - :octocat: GitHubインターフェースを簡素化し便利な機能を追加するブラウザ拡張
-- [reruin/sharelist](https://github.com/reruin/sharelist) - GoogleDrive OneDriveの高速共有
-- [dendronhq/dendron](https://github.com/dendronhq/dendron) - あなたと共に成長する個人ナレッジ管理（PKM）ツール
-- [foambubble/foam](https://github.com/foambubble/foam) - VSCode用個人ナレッジ管理・共有システム
-- [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) - プライバシー重視・セルフホスト型・完全オープンソースの個人ナレッジ管理ソフト。typescriptとgolang製。
-- [Ashutosh00710/github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph) - 直近31日間のGitHub活動を表示する動的生成グラフ。
-- [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) - 🧡 すべてがRSS化可能
-- [the1812/Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved) - 強力なビリビリ（Bilibili）拡張スクリプト
+- [refined-github/refined-github](https://github.com/refined-github/refined-github) - :octocat: GitHubのインターフェースを簡素化し便利な機能を追加するブラウザ拡張
+- [reruin/sharelist](https://github.com/reruin/sharelist) - GoogleDrive、OneDriveの高速共有
+- [dendronhq/dendron](https://github.com/dendronhq/dendron) - あなたの成長とともに育つパーソナル知識管理（PKM）ツール！
+- [foambubble/foam](https://github.com/foambubble/foam) - VSCode用の個人知識管理と共有システム
+- [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) - プライバシー重視のセルフホスト型、完全オープンソースの個人知識管理ソフトウェア。typescriptとgolangで書かれています。
+- [Ashutosh00710/github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph) - 過去31日間のGitHubアクティビティを動的に生成されたグラフで表示。
+- [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) - 🧡 すべてがRSS可能
+- [the1812/Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved) - 強力なビリビリ強化スクリプト
 - [darkreader/darkreader](https://github.com/darkreader/darkreader) - Dark Reader ChromeおよびFirefox拡張機能
-- [ankit/stylebot](https://github.com/ankit/stylebot) - ウェブの外観を瞬時に変更
+- [ankit/stylebot](https://github.com/ankit/stylebot) - ウェブの見た目を即座に変更
 
 ## VBA 
 
-- [Jonathan-LeRoux/IguanaTex](https://github.com/Jonathan-LeRoux/IguanaTex) - PowerPointプレゼンテーションにLaTeX数式を挿入するWindowsおよびMac用PowerPointアドイン
+- [Jonathan-LeRoux/IguanaTex](https://github.com/Jonathan-LeRoux/IguanaTex) - WindowsとMac上のPowerPointプレゼンテーションにLaTeX方程式を挿入するPowerPointアドイン
 
 ## VBScript 
 
-- [bugfan/i996](https://github.com/bugfan/i996) - 無料・構築不要・インストール不要の内網貫通、SSL証明書発行、リモートワーク、自宅作業ツール。WeChatミニプログラムのデバッグも簡単（クライアント側インストール不要ですぐ利用可能）。natappやngrokに似ている。
+- [bugfan/i996](https://github.com/bugfan/i996) - 無料、構築不要、インストール不要、内網透過、SSL証明書発行、リモートワーク、自宅勤務ツール、WeChatミニプログラムのデバッグに便利（クライアントは何のプログラムもインストール不要でそのまま使える）、natappやngrokに類似
 
 ## Vala 
 
 - [birros/web-archives](https://github.com/birros/web-archives) - ウェブアーカイブリーダー
-- [teejee2008/timeshift](https://github.com/teejee2008/timeshift) - Linux用システム復元ツール。rsync+ハードリンクまたはBTRFSスナップショットを使用してファイルシステムのスナップショットを作成。スケジュールスナップショット、複数バックアップレベル、除外フィルタをサポート。スナップショットは復元可能
+- [teejee2008/timeshift](https://github.com/teejee2008/timeshift) - Linux用システム復元ツール。rsync+ハードリンクまたはBTRFSスナップショットを使用してファイルシステムのスナップショットを作成。スケジュールされたスナップショット、複数のバックアップレベル、除外フィルターをサポート。スナップショットは復元可能
 
 ## Vim Script 
 
-- [int32bit/dotfiles](https://github.com/int32bit/dotfiles) - Vim、zsh、git、tmuxの設定ファイルセット。
-- [mashirozx/Pixiv-Nginx](https://github.com/mashirozx/Pixiv-Nginx) - Pixiv（P站）の正しい開き方
+- [int32bit/dotfiles](https://github.com/int32bit/dotfiles) - vim、zsh、git、tmux設定ファイルのセット
+- [mashirozx/Pixiv-Nginx](https://github.com/mashirozx/Pixiv-Nginx) - Pixivの正しい開き方
 - [jbranchaud/til](https://github.com/jbranchaud/til) - :memo: 今日学んだこと
 - [junegunn/vim-plug](https://github.com/junegunn/vim-plug) - :hibiscus: ミニマリストVimプラグインマネージャ
-- [joshdick/onedark.vim](https://github.com/joshdick/onedark.vim) - AtomのOne Darkシンタックステーマに触発されたダークなVim/Neovimカラースキーム。
+- [joshdick/onedark.vim](https://github.com/joshdick/onedark.vim) - AtomのOne Darkシンタックステーマに触発されたダークVim/Neovimカラースキーム
 - [albert12132/dotfiles](https://github.com/albert12132/dotfiles) - 
 - [mattn/vim-gist](https://github.com/mattn/vim-gist) - Gist用Vimプラグイン
-- [amix/vimrc](https://github.com/amix/vimrc) - 究極のVim設定（vimrc）
-- [neovim/neovim](https://github.com/neovim/neovim) - 拡張性と使いやすさに特化したVimフォーク
+- [amix/vimrc](https://github.com/amix/vimrc) - 究極のVim設定(vimrc)
+- [neovim/neovim](https://github.com/neovim/neovim) - 拡張性と使いやすさに焦点を当てたVimフォーク
 
 ## Visual Basic .NET 
 
-- [PeterStrick/ViVeTool-GUI](https://github.com/PeterStrick/ViVeTool-GUI) - ViVe / ViVeToolを基にしたWindows機能制御GUI
-- [ChrisAnd1998/TaskbarX](https://github.com/ChrisAnd1998/TaskbarX) - Windowsタスクバーアイコンを様々なアニメーションとオプションで中央配置
+- [PeterStrick/ViVeTool-GUI](https://github.com/PeterStrick/ViVeTool-GUI) - ViVe / ViVeToolに基づくWindows機能制御GUI
+- [ChrisAnd1998/TaskbarX](https://github.com/ChrisAnd1998/TaskbarX) - さまざまなアニメーションとオプションでWindowsタスクバーのアイコンを中央に配置
 
 ## Vue 
 
-- [Sjj1024/PakePlus](https://github.com/Sjj1024/PakePlus) - 任意のWebページ/Vue/React等を5M未満のデスクトップ・モバイルアプリに数分で簡単に変換。https://ppofficial.netlify.app
-- [Ackites/hidden-word](https://github.com/Ackites/hidden-word) - テキストコンテンツに不可視の著作権マークやメタデータを埋め込むUnicodeベースのテキスト電子透かしツール
-- [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) - 最高のIPツールボックス。IP、IPジオロケーション、DNSリーク、WebRTC接続、速度テスト、pingテスト、MTRテスト、ウェブサイト可用性、whois検索などが簡単に確認できます！
-- [zyronon/douyin](https://github.com/zyronon/douyin) - Vue3 + Pinia によるTikTok模倣、モバイルでのVueベストプラクティス
-- [GUI-for-Cores/GUI.for.Clash](https://github.com/GUI-for-Cores/GUI.for.Clash) - vue3 + wailsで開発されたClash用GUIプログラム
-- [dullage/flatnotes](https://github.com/dullage/flatnotes) - フラットなフォルダのMarkdownファイルをストレージとして利用するセルフホスト型データベースレスノートアプリ
-- [TangSY/echarts-map-demo](https://github.com/TangSY/echarts-map-demo) - echarts、QGIS等の地図geoJson行政区境界データのリアルタイム取得・活用。全国省市区県多層連動ドリルダウン、県レベルまで対応。最新の全国行政区geoJsonファイルもダウンロード可
-- [hackun666/chat-easy](https://github.com/hackun666/chat-easy) - ChatGPT vue.js デモ
-- [weekend-project-space/chatgpt-online](https://github.com/weekend-project-space/chatgpt-online) - chatgpt-online、ワンクリックであなたのchatgptページをデプロイ、VPN不要
+- [Sjj1024/PakePlus](https://github.com/Sjj1024/PakePlus) - どんなウェブページやVue、React等を数分で簡単に5M以下の軽量マルチプラットフォームデスクトップ・モバイルアプリに変換。https://ppofficial.netlify.app
+- [Ackites/hidden-word](https://github.com/Ackites/hidden-word) - テキストコンテンツに不可視の著作権マークやメタデータを埋め込むUnicodeベースのテキストデジタルウォーターマーキングツール
+- [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) - 最強のIPツールボックス。IP確認、IPジオロケーション、DNSリークチェック、WebRTC接続検査、速度テスト、pingテスト、MTRテスト、ウェブサイト稼働状況確認、whois検索などが簡単に可能
+- [zyronon/douyin](https://github.com/zyronon/douyin) - Vue3 + PiniaでTikTokを模倣、モバイルでのVueベストプラクティス
+- [GUI-for-Cores/GUI.for.Clash](https://github.com/GUI-for-Cores/GUI.for.Clash) - vue3 + wailsで開発されたGUIプログラム
+- [dullage/flatnotes](https://github.com/dullage/flatnotes) - マークダウンファイルのフラットフォルダを利用する自己ホスト型データベースレスノートテイキングウェブアプリ
+- [TangSY/echarts-map-demo](https://github.com/TangSY/echarts-map-demo) - echarts、QGIS等の地図geoJson行政区画境界データのリアルタイム取得と応用。json形式データ、全国省市区県の多階層連動ドリルダウン、本当の意味で県レベルまでのドリルダウン【最新全国省市区県郷鎮三級または四級都市geoJsonファイルダウンロード付き、四級連動または五級（村級）行政コード対応関係もダウンロード可能】
+- [hackun666/chat-easy](https://github.com/hackun666/chat-easy) - ChatGPT vue.jsデモ
+- [weekend-project-space/chatgpt-online](https://github.com/weekend-project-space/chatgpt-online) - chatgpt-online、ワンクリックでchatgptページをデプロイ、VPN不要
 - [weekend-project-space/chatgpt-chrome-extension](https://github.com/weekend-project-space/chatgpt-chrome-extension) - chatgpt-chrome-extension
-- [Paul-Gy/SessionShare](https://github.com/Paul-Gy/SessionShare) - 1つのリンクで複数回ファイルを簡単に共有！Cloudflare Workers、Durable Objects、R2、Cloudflare Pages上でVue.jsを利用して構築
-- [OBKoro1/stop-mess-around](https://github.com/OBKoro1/stop-mess-around) - 自律chrome拡張：仕事/学習中の無意識なブラウザ閲覧（例：知乎）をやめる手助け。自動でサボりサイトを検出し、励ましメッセージ提示後にサイトを閉じます。
-- [tailwindcomponents/gradient-generator](https://github.com/tailwindcomponents/gradient-generator) - Tailwind JS、Vite、Tailwind CSSで構築されたグラデーションジェネレーター
-- [nicejade/markdown2png](https://github.com/nicejade/markdown2png) - 玉桃文飨轩🍑 プロ仕様のテキスト画像変換ツール。一発でMarkdown→美しい画像。書摘モード、テーマ・フォント・背景カスタム、全データローカル処理でプライバシー安全。マルチデバイス対応。Vue3、Vite、Pinia、TailwindCSS等で構築。
-- [doocs/md](https://github.com/doocs/md) - ✍ WeChat Markdown Editor | シンプルなWeChat向けMarkdownエディタ。Markdown構文、テーマ、内容管理、マルチ画像、AIアシスタント等をサポート
-- [betterRunner/context-note](https://github.com/betterRunner/context-note) - ウェブの文脈付きノートを取るChrome拡張
-- [realByg/cfworker-kv-image-hosting](https://github.com/realByg/cfworker-kv-image-hosting) - Cloudflare Workers KVによるイメージホスティング
+- [Paul-Gy/SessionShare](https://github.com/Paul-Gy/SessionShare) - Vue.jsを使ってCloudflare Workers上でDurable Objects、R2、Cloudflare Pagesと共に複数回ファイル共有を簡単に実現
+- [OBKoro1/stop-mess-around](https://github.com/OBKoro1/stop-mess-around) - 自律Chromeブラウザ拡張：勤務・学習時間中に無意識に知乎などのサイトを開く癖をやめる手助け。数時間が経過していることが多い。拡張機能はサボりサイトを自動検出し、励ましメッセージを表示後、サボりサイトを閉じる
+- [tailwindcomponents/gradient-generator](https://github.com/tailwindcomponents/gradient-generator) - Vue JS、Vite、Tailwind CSSで作られたTailwindグラデーションジェネレーター
+- [nicejade/markdown2png](https://github.com/nicejade/markdown2png) - 玉桃文飨轩🍑、プロのテキストから画像への変換ツール。Markdownを美しい画像に一括変換、書摘モード、カスタムテーマ、フォント、背景をサポート。全データはローカル処理でプライバシーを守り、多端末表示に完璧対応。記事共有、読書ノート、ソーシャル拡散を洗練。Vue3、Vite、Pinia、TailwindCSS、TypeScriptなどの技術スタックを使用。
+- [doocs/md](https://github.com/doocs/md) - ✍ WeChat Markdownエディタ｜高度にシンプルなWeChat Markdownエディタ：Markdown構文、カスタムテーマスタイル、コンテンツ管理、多数の画像アップローダー、AIアシスタントなどをサポート
+- [betterRunner/context-note](https://github.com/betterRunner/context-note) - ウェブ上でコンテキスト付きにメモを取るChrome拡張
+- [realByg/cfworker-kv-image-hosting](https://github.com/realByg/cfworker-kv-image-hosting) - Cloudflare Workers KV画像ホスティング
 - [lpssss/THUeat--Frontend](https://github.com/lpssss/THUeat--Frontend) - 清華大学食堂アプリ
-- [m0ngr31/DailyNotes](https://github.com/m0ngr31/DailyNotes) - 日々のノートやタスクを記録するアプリ
-- [massCodeIO/massCode](https://github.com/massCodeIO/massCode) - 無料・オープンソースの開発者向けコードスニペット管理ツール
-- [chaos-zhu/easynode](https://github.com/chaos-zhu/easynode) - 多機能LinuxサーバWEBターミナルパネル(webSSH&webSFTP)。更新通知TG：
-- [tipsy/profile-summary-for-github](https://github.com/tipsy/profile-summary-for-github) - GitHubプロフィールの可視化ツール
-- [lzdyes/douyin-downloader](https://github.com/lzdyes/douyin-downloader) - tauriで構築されたクロスプラットフォームの抖音動画ダウンロードツール
-- [5aaee9/Dnsflare](https://github.com/5aaee9/Dnsflare) - CloudflareドメインDNS設定編集ツール
+- [m0ngr31/DailyNotes](https://github.com/m0ngr31/DailyNotes) - 日々のメモとタスク追跡アプリ
+- [massCodeIO/massCode](https://github.com/massCodeIO/massCode) - 開発者向けの無料オープンソースコードスニペットマネージャー
+- [chaos-zhu/easynode](https://github.com/chaos-zhu/easynode) - 多機能LinuxサーバーWEB端末パネル(webSSH&webSFTP)。更新通知TG：
+- [tipsy/profile-summary-for-github](https://github.com/tipsy/profile-summary-for-github) - GitHubプロフィールを可視化するツール
+- [lzdyes/douyin-downloader](https://github.com/lzdyes/douyin-downloader) - tauriで構築されたクロスプラットフォームのdouyin動画ダウンロードツール
+- [5aaee9/Dnsflare](https://github.com/5aaee9/Dnsflare) - CloudflareドメインDNS設定編集
 - [Idered/chalk.ist](https://github.com/Idered/chalk.ist) - 📷 ソースコードの美しい画像を作成
-- [manuelernestog/weektodo](https://github.com/manuelernestog/weektodo) - WeekToDoは、プライバシー重視の無料・オープンソースのミニマリスト週間計画＆To Doリストアプリ。Windows、Mac、Linux、オンライン対応
-- [YunYouJun/cook](https://github.com/YunYouJun/cook) - 🍲 今日は料理を作りましょう！OK, Let's Cook!
-- [Jrohy/webssh](https://github.com/Jrohy/webssh) - シンプルなオンライン端末＆sftpツール
-- [requarks/wiki](https://github.com/requarks/wiki) - Wiki.js | Node.jsで構築されたモダンで強力なWikiアプリ
-- [yddeng/amp](https://github.com/yddeng/amp) - 自動化管理プラットフォーム：スケジュールタスク、プロセス制御、プロセス監視・警報
-- [surmon-china/surmon.me](https://github.com/surmon-china/surmon.me) - 🌱 自分自身によるデジタル僧院
-- [xjh22222228/boomb](https://github.com/xjh22222228/boomb) - 💣 Github用画像管理を簡単に。Githubでストレージギャラリーを楽々管理
+- [manuelernestog/weektodo](https://github.com/manuelernestog/weektodo) - WeekToDoはプライバシーに焦点を当てた無料オープンソースのミニマリスト週間プランナー兼To Doリストアプリ。Windows、Mac、Linuxまたはオンラインで利用可能
+- [YunYouJun/cook](https://github.com/YunYouJun/cook) - 🍲 よし、今日は料理をしよう！OK, Let's Cook!
+- [Jrohy/webssh](https://github.com/Jrohy/webssh) - 簡易オンライン端末およびsftpツール
+- [requarks/wiki](https://github.com/requarks/wiki) - Wiki.js｜Node.js上に構築されたモダンで強力なWikiアプリ
+- [yddeng/amp](https://github.com/yddeng/amp) - 自動化管理プラットフォーム：スケジュールタスク、プロセス制御、プロセス監視アラーム
+- [surmon-china/surmon.me](https://github.com/surmon-china/surmon.me) - 🌱 自分自身が運営するデジタルヴィハーラ
+- [xjh22222228/boomb](https://github.com/xjh22222228/boomb) - 💣 GitHub用画像管理を簡単に。GitHubベースでストレージギャラリーを簡単管理
 - [CareyWang/sub-web](https://github.com/CareyWang/sub-web) - 
-- [5ime/vue-page](https://github.com/5ime/vue-page) - Vue短動画/画像集のウォーターマーク除去解析ページ
-- [dhanyn10/multiple-file-manager](https://github.com/dhanyn10/multiple-file-manager) - ファイル一括リネーム・削除などのファイル管理アプリ。Windows/Linux対応
-- [Codennnn/vue-color-avatar](https://github.com/Codennnn/vue-color-avatar) - オンラインアバター生成サイト | フロントエンドだけで実現
-- [JakHuang/form-generator](https://github.com/JakHuang/form-generator) - :sparkles:Element UIフォーム設計＆コードジェネレーター
-- [KeziahMoselle/export-github-stars](https://github.com/KeziahMoselle/export-github-stars) - スター付きリポジトリの閲覧/ソート/エクスポート
-- [WebCrateApp/webcrate](https://github.com/WebCrateApp/webcrate) - 📦🔗 WebCrateでウェブを整理。モダンで美しいブックマークツール
-- [leon-kfd/Dashboard](https://github.com/leon-kfd/Dashboard) - 様々な構成部品でパーソナルブラウザスタートページをカスタマイズ
-- [xiaoluoboding/skylines](https://github.com/xiaoluoboding/skylines) - 3Dで自分のGitHubストーリーを見る。GitHub貢献グラフの3Dモデルを表示
-- [luyuhuang/DWords2](https://github.com/luyuhuang/DWords2) - 単語を画面上の弾幕にして記憶を助ける | 単語を弾幕にして覚えよう
-- [qier222/YesPlayMusic](https://github.com/qier222/YesPlayMusic) - 高美観のサードパーティーNetEase Cloudプレーヤー。Windows / macOS / Linux対応 :electron:
-- [vuepress-reco/vuepress-theme-reco-1.x](https://github.com/vuepress-reco/vuepress-theme-reco-1.x) - 🎨 vuepress-theme-reco 1用リポジトリ
-
+- [5ime/vue-page](https://github.com/5ime/vue-page) - vue短編動画/画像集のウォーターマーク除去解析ページ
+- [dhanyn10/multiple-file-manager](https://github.com/dhanyn10/multiple-file-manager) - ファイル管理アプリ。条件に応じてファイルを一括で名前変更または削除可能。WindowsとLinux対応
+- [Codennnn/vue-color-avatar](https://github.com/Codennnn/vue-color-avatar) - 単なる娯楽のためのオンラインアバター生成器｜完全フロントエンド実装のアバター生成サイト
+- [JakHuang/form-generator](https://github.com/JakHuang/form-generator) - :sparkles: Element UIフォームデザインおよびコードジェネレーター
+- [KeziahMoselle/export-github-stars](https://github.com/KeziahMoselle/export-github-stars) - スターを付けたリポジトリの表示/並べ替え/エクスポート
+- [WebCrateApp/webcrate](https://github.com/WebCrateApp/webcrate) - 📦🔗 WebCrateでウェブを整理、モダンで美しいブックマークツール
+- [leon-kfd/Dashboard](https://github.com/leon-kfd/Dashboard) - いくつかの設定可能なコンポーネントから個人用ブラウザスタートページをカスタマイズ
+- [xiaoluoboding/skylines](https://github.com/xiaoluoboding/skylines) - 3Dで見る私のGitHubストーリー。GitHub貢献グラフの3Dモデルを表示
+- [luyuhuang/DWords2](https://github.com/luyuhuang/DWords2) - 単語を画面上の弾幕として表示し、記憶を助ける | 単語を画面上の弾幕にして覚えやすく
+- [qier222/YesPlayMusic](https://github.com/qier222/YesPlayMusic) - 高いデザイン性を持つサードパーティのNetEase Cloud Musicプレーヤー、Windows/macOS/Linux対応 :electron:
+- [vuepress-reco/vuepress-theme-reco-1.x](https://github.com/vuepress-reco/vuepress-theme-reco-1.x) - 🎨 vuepress-theme-reco 1のリポジトリ
 
 ## ライセンス
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-適用法の範囲内で、[erbanku](https://github.com/erbanku) はこの作品に対する著作権および関連または隣接権を放棄しています。
+法の許す限りにおいて、[erbanku](https://github.com/erbanku) は本作品に対するすべての著作権および関連または隣接する権利を放棄しています。
+
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
 
 ---

@@ -1,0 +1,563 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 🚀 Xianyu AutoAgent - 智能闲鱼客服机器人系统\n\n[![Java Version](https://img.shields.io/badge/java21%2B-blue)](https://www.python.org/) [![LLM Powered](https://img.shields.io/badge/LLM-powered-FF6F61)](https://platform.openai.com/)\n\n专为闲鱼平台打造的AI值守解决方案，实现闲鱼平台7×24小时自动化值守，支持多专家协同决策、智能议价和上下文感知对话。\n\n## 🎮 Playground - 快速体验（免配置版）\n\n无需本地环境或设置 Secrets！**直接通过 GitHub Actions 网页端传入参数**，一键启动闲鱼机器人。\n\n### 如何使用\n1. **Fork 本仓库** → 点击右上角 `Fork` 按钮\n2. **触发 Action**：\n   - 进入你的仓库 `Actions` 标签页\n   - 选择 **`🚀 Run Service`** 工作流\n   - 点击 **`Run workflow`** 按钮，填写参数：\n      - `API Key`: 粘贴你的大模型 API Key（如阿里云 DashScope）\n      - `Cookies`: 粘贴闲鱼网页端的完整 Cookie 字符串\n3. **查看运行日志**：\n   - 机器人启动后会自动监听闲鱼消息\n   - 在 Action 日志中搜索 `🤖 Reply:` 查看对话记录\n\n### 注意事项\n⚠️ 注意临时运行限制：\n- 默认运行 **30分钟**（GitHub 免费账户限制）\n- 敏感信息（如 Cookie）**不会存储**，仅当次生效\n\n<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/qOeOp/XianyuAutoAgent/main/./screenshots/workflow.png\" width=\"400px\" alt=\"workflow\">\n</div>\n\n## 🌟 核心特性\n\n### 智能对话引擎\n| 功能模块   | 技术实现            | 关键特性                                                     |\n| ---------- | ------------------- | ------------------------------------------------------------ |\n| 上下文感知 | 会话历史存储        | 轻量级对话记忆管理，完整对话历史作为LLM上下文输入            |\n| 专家路由   | LLM prompt+规则路由 | 基于提示工程的意图识别 → 专家Agent动态分发，支持议价/技术/客服多场景切换 |\n\n### 业务功能矩阵\n| 模块     | 已实现                        | 规划中                     |\n| -------- | ----------------------------- | ----------------------- |\n| 核心引擎 | ✅ LLM自动回复<br>✅ 上下文管理 | 🔄 情感分析增强               |\n| 议价系统 | ✅ 阶梯降价策略                | 🔄 市场比价功能               |\n| 技术支持 | ✅ 网络搜索整合                | 🔄 RAG知识库增强             |\n\n## 🚴 快速开始\n\n### 环境要求\n- JDK 21+\n- Maven 3.9.10+\n\n### 安装步骤",
+    "ContentSha": "SVSoNWvnP5vi6rLgCfP7/lCSvtIMpsXeRp0Zd1h71ek=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># 🚀 Xianyu AutoAgent - インテリジェントな闲鱼カスタマーサポートロボットシステム\n\n[![Java Version](https://img.shields.io/badge/java21%2B-blue)](https://www.python.org/) [![LLM Powered](https://img.shields.io/badge/LLM-powered-FF6F61)](https://platform.openai.com/)\n\n闲鱼プラットフォーム向けに特化したAI監視ソリューションで、闲鱼プラットフォームの7×24時間自動監視を実現し、複数専門家の協調意思決定、インテリジェントな価格交渉およびコンテキスト認識対話をサポートします。\n\n## 🎮 Playground - クイック体験（設定不要版）\n\nローカル環境やSecretsの設定は不要！**GitHub Actionsのウェブ上から直接パラメータを渡して**、ワンクリックで闲鱼ロボットを起動できます。\n\n### 使い方\n1. **リポジトリをFork** → 右上の `Fork` ボタンをクリック\n2. **Actionをトリガー**：\n   - 自分のリポジトリの `Actions` タブに移動\n   - **`🚀 Run Service`** ワークフローを選択\n   - **`Run workflow`** ボタンをクリックし、パラメータを入力：\n      - `API Key`: 大規模モデルのAPIキーを貼り付け（例：阿里云 DashScope）\n      - `Cookies`: 闲鱼ウェブの完全なCookie文字列を貼り付け\n3. **実行ログを確認**：\n   - ロボット起動後、自動的に闲鱼メッセージを監視\n   - Actionログ内で `🤖 Reply:` を検索して対話履歴を確認\n\n### 注意事項\n⚠️ 一時的な実行制限にご注意ください：\n- デフォルトで **30分** 実行（GitHub無料アカウントの制限）\n- センシティブ情報（Cookieなど）は**保存されず**、一時的にのみ有効\n\n<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/qOeOp/XianyuAutoAgent/main/./screenshots/workflow.png\" width=\"400px\" alt=\"workflow\">\n</div>\n\n## 🌟 コア機能\n\n### インテリジェント対話エンジン\n| 機能モジュール | 技術実装            | 主要特徴                                                       |\n| -------------- | ------------------- | -------------------------------------------------------------- |\n| コンテキスト認識 | 会話履歴保存        | 軽量な対話記憶管理、完全な対話履歴をLLMのコンテキスト入力として使用 |\n| 専門家ルーティング | LLMプロンプト+ルールルーティング | プロンプトエンジニアリングによる意図認識 → 専門家Agentへ動的割り振り、交渉/技術/カスタマーサポートの複数シナリオ切替対応 |\n\n### ビジネス機能マトリクス\n| モジュール   | 実装済み                     | 計画中                       |\n| ------------ | ---------------------------- | ---------------------------- |\n| コアエンジン | ✅ LLM自動応答<br>✅ コンテキスト管理 | 🔄 感情分析強化               |\n| 交渉システム | ✅ 階段的値下げ戦略           | 🔄 市場比較機能               |\n| 技術サポート | ✅ ネット検索統合             | 🔄 RAGナレッジベース強化     |\n\n## 🚴 クイックスタート\n\n### 環境要件\n- JDK 21+\n- Maven 3.9.10+\n\n### インストール手順</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "nDF4XOIN36UCHa1t6md4snKSui/jMb9DIvhd1CIDBSg=",
+        "originContent": "# 🚀 Xianyu AutoAgent - 智能闲鱼客服机器人系统",
+        "translatedContent": "<translate-content># 🚀 Xianyu AutoAgent - インテリジェントな闲鱼カスタマーサポートロボットシステム"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "ko7ZbF7VJvYk2j6kM/ZulpOs5RxDwEpFJbXA9G3OXAk=",
+        "originContent": "[![Java Version](https://img.shields.io/badge/java21%2B-blue)](https://www.python.org/) [![LLM Powered](https://img.shields.io/badge/LLM-powered-FF6F61)](https://platform.openai.com/)",
+        "translatedContent": "[![Java Version](https://img.shields.io/badge/java21%2B-blue)](https://www.python.org/) [![LLM Powered](https://img.shields.io/badge/LLM-powered-FF6F61)](https://platform.openai.com/)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "AAL7SxNU6dO76cSa2om/bI5LcQEuDs6hlUw7I3ScYgA=",
+        "originContent": "专为闲鱼平台打造的AI值守解决方案，实现闲鱼平台7×24小时自动化值守，支持多专家协同决策、智能议价和上下文感知对话。",
+        "translatedContent": "闲鱼プラットフォーム向けに特化したAI監視ソリューションで、闲鱼プラットフォームの7×24時間自動監視を実現し、複数専門家の協調意思決定、インテリジェントな価格交渉およびコンテキスト認識対話をサポートします。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "kihruixn6fJU4hu+BrLseLzUs18uZP7bgyGd/V/hXNA=",
+        "originContent": "## 🎮 Playground - 快速体验（免配置版）",
+        "translatedContent": "## 🎮 Playground - クイック体験（設定不要版）"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "U/VEkANFha8fFfZLuCoAZRfLaY6BlR3M3UlIlOthwv4=",
+        "originContent": "无需本地环境或设置 Secrets！**直接通过 GitHub Actions 网页端传入参数**，一键启动闲鱼机器人。",
+        "translatedContent": "ローカル環境やSecretsの設定は不要！**GitHub Actionsのウェブ上から直接パラメータを渡して**、ワンクリックで闲鱼ロボットを起動できます。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "iLSilKCUFL91NJA+BAk7tmCZtBTUF2S2LwAuEloXqio=",
+        "originContent": "### 如何使用",
+        "translatedContent": "### 使い方"
+      },
+      {
+        "row": 12,
+        "rowsha": "GzGwlJoOJM48TDRYaLC46RzY+pjb+xhY5aiGv7jDQNs=",
+        "originContent": "1. **Fork 本仓库** → 点击右上角 `Fork` 按钮",
+        "translatedContent": "1. **リポジトリをFork** → 右上の `Fork` ボタンをクリック"
+      },
+      {
+        "row": 13,
+        "rowsha": "lb9x8YnRnePy5KPgCX3oejVMMJCdHdZTKypDTQ+uErk=",
+        "originContent": "2. **触发 Action**：",
+        "translatedContent": "2. **Actionをトリガー**："
+      },
+      {
+        "row": 14,
+        "rowsha": "m726/VeWRgAXrj7fPXyjpHHtU5/MDsk/DJZyNLUYu84=",
+        "originContent": "   - 进入你的仓库 `Actions` 标签页",
+        "translatedContent": "   - 自分のリポジトリの `Actions` タブに移動"
+      },
+      {
+        "row": 15,
+        "rowsha": "cjR7fva1NsnWzx4mceSn+pVDZN5UDFvu/l9Ccx8aqTw=",
+        "originContent": "   - 选择 **`🚀 Run Service`** 工作流",
+        "translatedContent": "   - **`🚀 Run Service`** ワークフローを選択"
+      },
+      {
+        "row": 16,
+        "rowsha": "ZVV63Eu9z8DAMN7foVBjybq36wOeOHYvvXJNBQLf50M=",
+        "originContent": "   - 点击 **`Run workflow`** 按钮，填写参数：",
+        "translatedContent": "   - **`Run workflow`** ボタンをクリックし、パラメータを入力："
+      },
+      {
+        "row": 17,
+        "rowsha": "JZm4p++4Eh8c64bfGPkR2gbmbb1GUhypc0TRu1W1n48=",
+        "originContent": "      - `API Key`: 粘贴你的大模型 API Key（如阿里云 DashScope）",
+        "translatedContent": "      - `API Key`: 大規模モデルのAPIキーを貼り付け（例：阿里云 DashScope）"
+      },
+      {
+        "row": 18,
+        "rowsha": "mU/P9AUart4S56hwn8oB4a7ErXlXBr5hfQK1urHI8UM=",
+        "originContent": "      - `Cookies`: 粘贴闲鱼网页端的完整 Cookie 字符串",
+        "translatedContent": "      - `Cookies`: 闲鱼ウェブの完全なCookie文字列を貼り付け"
+      },
+      {
+        "row": 19,
+        "rowsha": "ZhL9iYltkY5pq9b0UWjeIQS3kI0Im3P3alOCezWtHRs=",
+        "originContent": "3. **查看运行日志**：",
+        "translatedContent": "3. **実行ログを確認**："
+      },
+      {
+        "row": 20,
+        "rowsha": "QPRdAM/+nFGjHapddUNmvrytCjheweDDnwr9DqQTfOY=",
+        "originContent": "   - 机器人启动后会自动监听闲鱼消息",
+        "translatedContent": "   - ロボット起動後、自動的に闲鱼メッセージを監視"
+      },
+      {
+        "row": 21,
+        "rowsha": "Fp9K1xtJWO7QDkW3ZnLGQdgh8XNsRUlLT6FwFk8KC9A=",
+        "originContent": "   - 在 Action 日志中搜索 `🤖 Reply:` 查看对话记录",
+        "translatedContent": "   - Actionログ内で `🤖 Reply:` を検索して対話履歴を確認"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "8p0metIVfXUNTXKqNkzSg2OUBc7dRSDhGhCsme5WYj0=",
+        "originContent": "### 注意事项",
+        "translatedContent": "### 注意事項"
+      },
+      {
+        "row": 24,
+        "rowsha": "7O1zZXj8BPRRVv6Zr9UafaqyRUFN/CNO3U+3KOXsDwY=",
+        "originContent": "⚠️ 注意临时运行限制：",
+        "translatedContent": "⚠️ 一時的な実行制限にご注意ください："
+      },
+      {
+        "row": 25,
+        "rowsha": "ev8LC0ui44ULm+iEb0YMbm/BLa5jLq69F8wIiqa4Ar8=",
+        "originContent": "- 默认运行 **30分钟**（GitHub 免费账户限制）",
+        "translatedContent": "- デフォルトで **30分** 実行（GitHub無料アカウントの制限）"
+      },
+      {
+        "row": 26,
+        "rowsha": "bt3SvYpcSsA40LEpMNjsxWCr52tHxDN6tPVjzPDk9go=",
+        "originContent": "- 敏感信息（如 Cookie）**不会存储**，仅当次生效",
+        "translatedContent": "- センシティブ情報（Cookieなど）は**保存されず**、一時的にのみ有効"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 29,
+        "rowsha": "f1fhCSXnzbfEigznIrFagXBwhy502zMjgXPlMl0LLJk=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/qOeOp/XianyuAutoAgent/main/./screenshots/workflow.png\" width=\"400px\" alt=\"workflow\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/qOeOp/XianyuAutoAgent/main/./screenshots/workflow.png\" width=\"400px\" alt=\"workflow\">"
+      },
+      {
+        "row": 30,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "mAMzZT1MMV8tOapDAdlYKenNHKRM2vOb7DbaRJXyJ/U=",
+        "originContent": "## 🌟 核心特性",
+        "translatedContent": "## 🌟 コア機能"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "gepiFvco7zPqI7iAYPAdrA+6tUycLN/Zc0GUJxuRTos=",
+        "originContent": "### 智能对话引擎",
+        "translatedContent": "### インテリジェント対話エンジン"
+      },
+      {
+        "row": 35,
+        "rowsha": "JfeuzEFTUtRQ58F4f9+a4CEKqueHpA3zisGQAHm437E=",
+        "originContent": "| 功能模块   | 技术实现            | 关键特性                                                     |",
+        "translatedContent": "| 機能モジュール | 技術実装            | 主要特徴                                                       |"
+      },
+      {
+        "row": 36,
+        "rowsha": "xesIUUpYJ/oseHnHuG4pFbUiruwQfwQb2GoYdyfd6hY=",
+        "originContent": "| ---------- | ------------------- | ------------------------------------------------------------ |",
+        "translatedContent": "| -------------- | ------------------- | -------------------------------------------------------------- |"
+      },
+      {
+        "row": 37,
+        "rowsha": "+z3r787eApi6tkvfESqJV+njgyD5FlnJm+ciJLwG8tE=",
+        "originContent": "| 上下文感知 | 会话历史存储        | 轻量级对话记忆管理，完整对话历史作为LLM上下文输入            |",
+        "translatedContent": "| コンテキスト認識 | 会話履歴保存        | 軽量な対話記憶管理、完全な対話履歴をLLMのコンテキスト入力として使用 |"
+      },
+      {
+        "row": 38,
+        "rowsha": "I54saBD/I1QZ03c96it2hgoWn1saktpTiDFSGKJTafo=",
+        "originContent": "| 专家路由   | LLM prompt+规则路由 | 基于提示工程的意图识别 → 专家Agent动态分发，支持议价/技术/客服多场景切换 |",
+        "translatedContent": "| 専門家ルーティング | LLMプロンプト+ルールルーティング | プロンプトエンジニアリングによる意図認識 → 専門家Agentへ動的割り振り、交渉/技術/カスタマーサポートの複数シナリオ切替対応 |"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "5igejpP4c9Pepdfz+JziJK90vgfPSszh+fLlltItu+s=",
+        "originContent": "### 业务功能矩阵",
+        "translatedContent": "### ビジネス機能マトリクス"
+      },
+      {
+        "row": 41,
+        "rowsha": "3bVicclYz+xvILYa2STW8kYsnht+PW9HYphQiEkcDZc=",
+        "originContent": "| 模块     | 已实现                        | 规划中                     |",
+        "translatedContent": "| モジュール   | 実装済み                     | 計画中                       |"
+      },
+      {
+        "row": 42,
+        "rowsha": "6v7b/rv+HJ8t/RHXslS5Np2q8+J23yBOdPgWyVeHYKM=",
+        "originContent": "| -------- | ----------------------------- | ----------------------- |",
+        "translatedContent": "| ------------ | ---------------------------- | ---------------------------- |"
+      },
+      {
+        "row": 43,
+        "rowsha": "03upKUttSk1+P2OPcAebRHdkDbWfJNhfGmFfya39T1s=",
+        "originContent": "| 核心引擎 | ✅ LLM自动回复<br>✅ 上下文管理 | 🔄 情感分析增强               |",
+        "translatedContent": "| コアエンジン | ✅ LLM自動応答<br>✅ コンテキスト管理 | 🔄 感情分析強化               |"
+      },
+      {
+        "row": 44,
+        "rowsha": "JZpqOLseLdFaZIW/g+VueleihQ4H0MZsIyKJ6UslOl0=",
+        "originContent": "| 议价系统 | ✅ 阶梯降价策略                | 🔄 市场比价功能               |",
+        "translatedContent": "| 交渉システム | ✅ 階段的値下げ戦略           | 🔄 市場比較機能               |"
+      },
+      {
+        "row": 45,
+        "rowsha": "bDhQ7F2M1GTtZv/CX8DpXcM94h0mIR4GGwDhr7lzqtQ=",
+        "originContent": "| 技术支持 | ✅ 网络搜索整合                | 🔄 RAG知识库增强             |",
+        "translatedContent": "| 技術サポート | ✅ ネット検索統合             | 🔄 RAGナレッジベース強化     |"
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "YzoZJc5YLeJ0p5Q/A+Y0ex98ocLGPDsRBJXEMZ87X/o=",
+        "originContent": "## 🚴 快速开始",
+        "translatedContent": "## 🚴 クイックスタート"
+      },
+      {
+        "row": 48,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "+r2y2uXVS4A9gUZOoxSZy1nkMpyD7saUQ4rPpon3Ucw=",
+        "originContent": "### 环境要求",
+        "translatedContent": "### 環境要件"
+      },
+      {
+        "row": 50,
+        "rowsha": "BnSj0qAienMwerhFE4DwiZtwEJB4JeDCvGeXMxNc//8=",
+        "originContent": "- JDK 21+",
+        "translatedContent": "- JDK 21+"
+      },
+      {
+        "row": 51,
+        "rowsha": "Wev9ntaQtQ7hiXi9SL71n9aNL+a3xDbpnXDUwojoblI=",
+        "originContent": "- Maven 3.9.10+",
+        "translatedContent": "- Maven 3.9.10+"
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "tkfuqI0cKC8ewUA9uf67O2A9oZBSjycXZ17LBrKd1dI=",
+        "originContent": "### 安装步骤",
+        "translatedContent": "### インストール手順</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\n1. 克隆仓库\ngit clone https://github.com/qOeOp/XianyuAutoAgent.git\ncd XianyuAutoAgent\n\n2. 配置环境变量\n- AI_DASHSCOPE_API_KEY : 阿里云大模型API-KEY\n- COOKIES_STR : 闲鱼网页端Cookie\n\n3. 执行命令\nmvn spring-boot:run\n注意：默认使用的模型是通义千问，如需使用其他API，请自行修改application.yml文件中的模型地址和模型名称；\nCOOKIES_STR自行在闲鱼网页端获取cookies(网页端F12打开控制台，选择Network，点击Fetch/XHR,点击一个请求，查看cookies)\n\n4. (可选)创建提示词文件src/main/resources/*-prompt.txt\n```",
+    "ContentSha": "lzLAsrRT2aCPJWyUg/bZvgfY9kDc6cHUP+WB267I0jY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n1. 克隆仓库\ngit clone https://github.com/qOeOp/XianyuAutoAgent.git\ncd XianyuAutoAgent\n\n2. 配置环境变量\n- AI_DASHSCOPE_API_KEY : 阿里云大模型API-KEY\n- COOKIES_STR : 闲鱼网页端Cookie\n\n3. 执行命令\nmvn spring-boot:run\n注意：默认使用的模型是通义千问，如需使用其他API，请自行修改application.yml文件中的模型地址和模型名称；\nCOOKIES_STR自行在闲鱼网页端获取cookies(网页端F12打开控制台，选择Network，点击Fetch/XHR,点击一个请求，查看cookies)\n\n4. (可选)创建提示词文件src/main/resources/*-prompt.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "ln5zdjqIHZ8gN4381XbIvMg7QGQrmeBmZon7JzCQyww=",
+        "originContent": "1. 克隆仓库",
+        "translatedContent": "1. 克隆仓库"
+      },
+      {
+        "row": 3,
+        "rowsha": "fsLDGEr54GmIes46qPvksKjBkbg+wB0OjdV/2GYnI0w=",
+        "originContent": "git clone https://github.com/qOeOp/XianyuAutoAgent.git",
+        "translatedContent": "git clone https://github.com/qOeOp/XianyuAutoAgent.git"
+      },
+      {
+        "row": 4,
+        "rowsha": "lu8Zj3WftOGIC1tLn1JV14SjXFGHvignXQoOy9iFUj4=",
+        "originContent": "cd XianyuAutoAgent",
+        "translatedContent": "cd XianyuAutoAgent"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "o0ftXlgWUdjtfMWaOLs9yIjjj1YUfFdXYkJyIoAGCpc=",
+        "originContent": "2. 配置环境变量",
+        "translatedContent": "2. 配置环境变量"
+      },
+      {
+        "row": 7,
+        "rowsha": "Z+ASxnpx/mjRwnUesg2xwyMI1M8MXsV8rdCuWaz4090=",
+        "originContent": "- AI_DASHSCOPE_API_KEY : 阿里云大模型API-KEY",
+        "translatedContent": "- AI_DASHSCOPE_API_KEY : 阿里云大模型API-KEY"
+      },
+      {
+        "row": 8,
+        "rowsha": "Minrlsm5tfDZOpdK9WVvnVdmDosIqpNicW5UISZ4kdA=",
+        "originContent": "- COOKIES_STR : 闲鱼网页端Cookie",
+        "translatedContent": "- COOKIES_STR : 闲鱼网页端Cookie"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "F6JdQNDiyfD6uKEtoRKVw6N0baK70YSDshwiDjTM8WE=",
+        "originContent": "3. 执行命令",
+        "translatedContent": "3. 执行命令"
+      },
+      {
+        "row": 11,
+        "rowsha": "ccqWKgWVvI2FMYLXKkk/z30FeBje6v8IC1bPSSxs1uI=",
+        "originContent": "mvn spring-boot:run",
+        "translatedContent": "mvn spring-boot:run"
+      },
+      {
+        "row": 12,
+        "rowsha": "+Oru3WRUVQccmfQ9uEzDJI4DDO2qHhVpaNDRNOPkkvo=",
+        "originContent": "注意：默认使用的模型是通义千问，如需使用其他API，请自行修改application.yml文件中的模型地址和模型名称；",
+        "translatedContent": "注意：默认使用的模型是通义千问，如需使用其他API，请自行修改application.yml文件中的模型地址和模型名称；"
+      },
+      {
+        "row": 13,
+        "rowsha": "JJdE3eWLWwICqgTvXD/+CS1IIUx+Z9SK7zUGFOWXB2Y=",
+        "originContent": "COOKIES_STR自行在闲鱼网页端获取cookies(网页端F12打开控制台，选择Network，点击Fetch/XHR,点击一个请求，查看cookies)",
+        "translatedContent": "COOKIES_STR自行在闲鱼网页端获取cookies(网页端F12打开控制台，选择Network，点击Fetch/XHR,点击一个请求，查看cookies)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "9fD7JQtVZcMjWeV2EDX1ayacfa/4OceUl0ptb+gQ+4U=",
+        "originContent": "4. (可选)创建提示词文件src/main/resources/*-prompt.txt",
+        "translatedContent": "4. (可选)创建提示词文件src/main/resources/*-prompt.txt"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## 🤝 参与贡献\n\n欢迎通过 Issue 提交建议或 PR 贡献代码，请遵循 [贡献指南](https://contributing.md/)\n\n\n\n## 🛡 注意事项\n\n⚠️ 注意：**本项目仅供学习与交流，如有侵权联系作者删除。**\n\n鉴于项目的特殊性，开发团队可能在任何时间**停止更新**或**删除项目**。\n\n\n## 🧸 特别鸣谢\n\n本项目基于以下开源项目重构：\n- [XianyuAutoAgent](https://github.com/shaxiu/XianyuAutoAgent) - 智能闲鱼客服机器人系统，由 [@shaxiu](https://github.com/shaxiu) 和 [@cv-cat](https://github.com/cv-cat) 开发",
+    "ContentSha": "abQQ4Sr6nG68nvgdsAuv1ZPqAg5ETgv/ucAMKPRdeV8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🤝 参加と貢献\n\nIssue を通じて提案を提出したり、PR でコードを貢献したりすることを歓迎します。必ず [貢献ガイドライン](https://contributing.md/) に従ってください。\n\n\n\n## 🛡 注意事項\n\n⚠️ 注意：**本プロジェクトは学習および交流のみを目的としており、著作権侵害があった場合は作者に連絡してください。**\n\nプロジェクトの特殊性を考慮し、開発チームはいつでも**更新停止**または**プロジェクト削除**を行う可能性があります。\n\n\n## 🧸 特別謝辞\n\n本プロジェクトは以下のオープンソースプロジェクトを基に再構築されています：\n- [XianyuAutoAgent](https://github.com/shaxiu/XianyuAutoAgent) - インテリジェントな閑魚カスタマーサービスロボットシステム、[@shaxiu](https://github.com/shaxiu) と [@cv-cat](https://github.com/cv-cat) によって開発\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🤝 参加と貢献"
+      },
+      {
+        "row": 2,
+        "rowsha": "ZxzGTYc/ScIz6VaB5KamAGfr7tHR262qsyB3vkCiRtY=",
+        "originContent": "## 🤝 参与贡献",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Issue を通じて提案を提出したり、PR でコードを貢献したりすることを歓迎します。必ず [貢献ガイドライン](https://contributing.md/) に従ってください。"
+      },
+      {
+        "row": 4,
+        "rowsha": "eeE0jw92Kfzf1AH1vCXS86qpDTH+xRfxGppj8VJCb5I=",
+        "originContent": "欢迎通过 Issue 提交建议或 PR 贡献代码，请遵循 [贡献指南](https://contributing.md/)",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🛡 注意事項"
+      },
+      {
+        "row": 8,
+        "rowsha": "0hZn3OWLAmIng+n5pDuZza5uNeG6dab/uaaI1bQMVKU=",
+        "originContent": "## 🛡 注意事项",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "⚠️ 注意：**本プロジェクトは学習および交流のみを目的としており、著作権侵害があった場合は作者に連絡してください。**"
+      },
+      {
+        "row": 10,
+        "rowsha": "Mc1wNszPQj6/c5Za+fb5PMOLeKjnWXjg0Ebmdw9Mw4E=",
+        "originContent": "⚠️ 注意：**本项目仅供学习与交流，如有侵权联系作者删除。**",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "プロジェクトの特殊性を考慮し、開発チームはいつでも**更新停止**または**プロジェクト削除**を行う可能性があります。"
+      },
+      {
+        "row": 12,
+        "rowsha": "mzh2og9fOTrknqn1lg1ExnkNvWlN162XMD0ZdTJ9b40=",
+        "originContent": "鉴于项目的特殊性，开发团队可能在任何时间**停止更新**或**删除项目**。",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🧸 特別謝辞"
+      },
+      {
+        "row": 15,
+        "rowsha": "wyAJVdqscLt1gXrPiElmKTO/q1SXx0JU1Bz0IO89fmE=",
+        "originContent": "## 🧸 特别鸣谢",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "本プロジェクトは以下のオープンソースプロジェクトを基に再構築されています："
+      },
+      {
+        "row": 17,
+        "rowsha": "gGciEO8V1JjYlwwpIHQT3HbLfwYZgQ0DZYqS7AXYI00=",
+        "originContent": "本项目基于以下开源项目重构：",
+        "translatedContent": "- [XianyuAutoAgent](https://github.com/shaxiu/XianyuAutoAgent) - インテリジェントな閑魚カスタマーサービスロボットシステム、[@shaxiu](https://github.com/shaxiu) と [@cv-cat](https://github.com/cv-cat) によって開発"
+      },
+      {
+        "row": 18,
+        "rowsha": "EP1JfJ/sAklJ4kBcfeaDdlS8vrpOkbl7As7dAck1vGQ=",
+        "originContent": "- [XianyuAutoAgent](https://github.com/shaxiu/XianyuAutoAgent) - 智能闲鱼客服机器人系统，由 [@shaxiu](https://github.com/shaxiu) 和 [@cv-cat](https://github.com/cv-cat) 开发",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

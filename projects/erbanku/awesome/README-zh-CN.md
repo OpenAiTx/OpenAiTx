@@ -998,1298 +998,1299 @@
 ## Markdown 
 
 - [Schweinepriester/github-profile-achievements](https://github.com/Schweinepriester/github-profile-achievements) - GitHub 个人资料所有成就列表 🏆
-- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) - 通过从零开始重现你喜欢的技术来精通编程。
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) - 通过从零开始重建你喜欢的技术来掌握编程。
 - [jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command) - Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。https://git.io/linux
-- [MicrosoftDocs/azure-docs](https://github.com/MicrosoftDocs/azure-docs) - 微软Azure的开源文档
-- [tldr-pages/tldr](https://github.com/tldr-pages/tldr) - 📚 终端命令协作式速查表
+- [MicrosoftDocs/azure-docs](https://github.com/MicrosoftDocs/azure-docs) - Microsoft Azure 的开源文档
+- [tldr-pages/tldr](https://github.com/tldr-pages/tldr) - 📚 控制台命令的协作备忘单
 - [microsoft/vscode-docs](https://github.com/microsoft/vscode-docs) - Visual Studio Code 的公开文档
 
 ## Mermaid 
 
-- [v2fly/v2ray-examples](https://github.com/v2fly/v2ray-examples) - v2ray-core 的各类模板
+- [v2fly/v2ray-examples](https://github.com/v2fly/v2ray-examples) - v2ray-core 的示例模板
 
 ## Meson 
 
-- [elementary/wallpapers](https://github.com/elementary/wallpapers) - elementary OS 壁纸合集
+- [elementary/wallpapers](https://github.com/elementary/wallpapers) - elementary OS 的壁纸集合
 
 ## Objective-C 
 
-- [MustangYM/WeChatExtension-ForMac](https://github.com/MustangYM/WeChatExtension-ForMac) - Mac 版微信插件
+- [MustangYM/WeChatExtension-ForMac](https://github.com/MustangYM/WeChatExtension-ForMac) - Mac版微信插件
 
 ## Others 
 
+- [MoonshotAI/Kimi-K2](https://github.com/MoonshotAI/Kimi-K2) - Kimi K2 是 Moonshot AI 团队开发的大型语言模型系列
 - [krishnr/MATLAB-cheat-sheet](https://github.com/krishnr/MATLAB-cheat-sheet) - MATLAB 快速参考表
 - [lTbgykio/Books-Free-Books](https://github.com/lTbgykio/Books-Free-Books) - 免费书籍汇总。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
 - [LOWERTOP/Shadowrocket-First](https://github.com/LOWERTOP/Shadowrocket-First) - 小火箭配色与配置
-- [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Trae AI & Cluely（及其他开源）系统提示、工具和AI模型。
-- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - MCP服务器集合。
+- [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Trae AI & Cluely（及其他开源）系统提示、工具与 AI 模型。
+- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - MCP 服务器集合。
 - [zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization) - 健康学习到150岁 - 人体系统调优不完全指南
-- [SpaceTimee/Fusion-JetBrainsMapleMono](https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono) - JetBrains Maple Mono：融合 JetBrains Mono 与 Maple Mono 的免费开源字体
+- [SpaceTimee/Fusion-JetBrainsMapleMono](https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono) - JetBrains Maple Mono：与 JetBrains Mono & Maple Mono 融合的免费开源字体
 - [ZJU-LLMs/Foundations-of-LLMs](https://github.com/ZJU-LLMs/Foundations-of-LLMs) - 
-- [IQAQI233/611Study.ICU](https://github.com/IQAQI233/611Study.ICU) - 现今，大多数中国高中生被迫实行 611 作息，每周6天每天6点到23点。令人痛心的是，许多学生因此自杀或出现严重心理健康问题。受996.i项目启发
+- [IQAQI233/611Study.ICU](https://github.com/IQAQI233/611Study.ICU) - 现今大多数中国高中生被迫从早6点学到晚11点，一周6天。可悲的是，许多学生自杀或患严重心理健康问题。灵感来源于项目 996.i
 - [VIP-Share/Baidu-XunleiVIP](https://github.com/VIP-Share/Baidu-XunleiVIP) - 百度网盘超级会员，迅雷会员、爱奇艺会员账号每日分享，还有优酷，腾讯，芒果等VIP。以及百度网盘(百度云)不限速工具分享。
 - [pengsida/learning_research](https://github.com/pengsida/learning_research) - 本人的科研经验
 - [wgwang/awesome-LLMs-In-China](https://github.com/wgwang/awesome-LLMs-In-China) - 中国大模型
-- [JnuSimba/MiscSecNotes](https://github.com/JnuSimba/MiscSecNotes) - Web应用安全、渗透测试学习笔记
-- [P3TERX/GeoLite.mmdb](https://github.com/P3TERX/GeoLite.mmdb) - MaxMind 的 GeoIP2 GeoLite2 国家、城市和 ASN 数据库
-- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers) - 🚀 免费订阅地址，🚀 免费节点，🚀 每6小时更新一次，共享节点，节点高质量可用，完全免费。免费clash订阅地址，免费科学上网、免费梯子、免费ss/v2ray/trojan节点、谷歌商店、翻墙梯子。🚀 Free subscription address, 🚀 Free node, 🚀 Updated every 6 hours, shared node, high-quality node
-- [billmei/every-chatgpt-gui](https://github.com/billmei/every-chatgpt-gui) - 所有 ChatGPT、Claude 及其他 LLMs 前端 GUI 客户端
-- [zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare) - ⛅️ 精选 Cloudflare 工具、开源项目、指南、博客及其他资源列表。/ ⛅️ A curated list of Cloudflare tools, open source projects, guides, blogs and other resources.
+- [JnuSimba/MiscSecNotes](https://github.com/JnuSimba/MiscSecNotes) - 关于Web应用安全、渗透测试的一些学习笔记
+- [P3TERX/GeoLite.mmdb](https://github.com/P3TERX/GeoLite.mmdb) - MaxMind 的 GeoIP2 GeoLite2 国家、城市及ASN数据库
+- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers) - 🚀 免费订阅地址，🚀 免费节点，🚀 每6小时更新，共享节点，高质量可用，完全免费。免费clash订阅地址，免费翻墙、免费科学上网、免费梯子、免费ss/v2ray/trojan节点、谷歌商店、翻墙梯子。🚀 Free subscription address, 🚀 Free node, 🚀 Updated every 6 hours, shared node, high-quality node
+- [billmei/every-chatgpt-gui](https://github.com/billmei/every-chatgpt-gui) - 所有 ChatGPT、Claude 及其他大型语言模型的前端 GUI 客户端
+- [zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare) - ⛅️ 精选的 Cloudflare 工具、开源项目、指南、博客和其他资源列表。/ ⛅️ A curated list of Cloudflare tools, open source projects, guides, blogs and other resources.
 - [zbezj/HEU_KMS_Activator](https://github.com/zbezj/HEU_KMS_Activator) - 
-- [tuna/issues](https://github.com/tuna/issues) - 代码无关问题反馈
-- [bamf2077/secure-dns](https://github.com/bamf2077/secure-dns) - 适用于苹果设备的安全 DNS 配置描述文件。适配 iOS、iPadOS、macOS 的 DNS over HTTPS（DoH）和 DNS over TLS（DoT）配置文件。
+- [tuna/issues](https://github.com/tuna/issues) - 代码无关的问题
+- [bamf2077/secure-dns](https://github.com/bamf2077/secure-dns) - 适用于苹果设备的安全 DNS 配置描述文件。iOS、iPadOS 及 macOS 的 DNS over HTTPS (DoH) & DNS over TLS (DoT) 配置文件。
 - [TsinghuaMemes/TsinghuaMemes](https://github.com/TsinghuaMemes/TsinghuaMemes) - 以免在群聊吹水时读不懂群友在说什么
-- [mlabonne/llm-course](https://github.com/mlabonne/llm-course) - 入门大型语言模型（LLMs）的课程，包含路线图和 Colab 笔记本。
-- [maxujie/awesome-tsinghua](https://github.com/maxujie/awesome-tsinghua) - 与清华大学（Tsinghua University）相关的有趣仓库整合
+- [mlabonne/llm-course](https://github.com/mlabonne/llm-course) - 入门大型语言模型（LLMs）的课程，含路线图和Colab笔记本。
+- [maxujie/awesome-tsinghua](https://github.com/maxujie/awesome-tsinghua) - 与清华大学相关的有趣仓库整合
 - [easychen/lean-side-bussiness](https://github.com/easychen/lean-side-bussiness) - 精益副业：程序员如何优雅地做副业
-- [Wsky51/THU-CS912-kaoyan](https://github.com/Wsky51/THU-CS912-kaoyan) - 清华大学计算机类912考研历年真题、清华本科试卷及相关课程ppt
-- [MerlinKodo/clash-rev](https://github.com/MerlinKodo/clash-rev) - Clash core 项目延续版
+- [Wsky51/THU-CS912-kaoyan](https://github.com/Wsky51/THU-CS912-kaoyan) - 清华大学计算机类912考研历年真题，清华本科生试卷及相关课程PPT
+- [MerlinKodo/clash-rev](https://github.com/MerlinKodo/clash-rev) - Clash核心项目的延续
 - [THU-feiyue/docs](https://github.com/THU-feiyue/docs) - 清华大学飞跃手册
-- [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) - 🦄 🎃 👻 V2Ray路由规则文件加强版，可替代V2Ray官方geoip.dat和geosite.dat，适用于V2Ray、Xray-core、mihomo(Clash-Meta)、hysteria、Trojan-Go、leaf。Enhanced edition of V2Ray rules dat files, applicable to V2Ray, Xray-core, m
-- [huaweiii/HWGaussDB](https://github.com/huaweiii/HWGaussDB) - 滑伪 GaussDB 数据库 - 完全自主研发，打破国外垄断，比 PostgreSQL 快 600%。
-- [cloudcommunity/Cloud-Free-Tier-Comparison](https://github.com/cloudcommunity/Cloud-Free-Tier-Comparison) - 主流云服务商（如AWS、Azure、GCP、Oracle等）免费套餐对比
-- [iamshuaidi/CS-Book](https://github.com/iamshuaidi/CS-Book) - 计算机常用电子书整理，附带下载链接，包括Java、Python、Linux、Go、C、C++、数据结构与算法、人工智能、计算机基础、面试、设计模式、数据库、前端等书籍
-- [immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate) - 沉浸式双语网页翻译扩展，支持输入框翻译、鼠标悬停翻译、PDF、Epub、字幕文件、TXT文件翻译 - Immersive Dual Web Page Translation Extension
+- [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) - 🦄 🎃 👻 V2Ray 路由规则文件加强版，替代官方 geoip.dat 和 geosite.dat，适用 V2Ray、Xray-core、mihomo(Clash-Meta)、hysteria、Trojan-Go 和 leaf。Enhanced edition of V2Ray rules dat files, applicable to V2Ray, Xray-core, m
+- [huaweiii/HWGaussDB](https://github.com/huaweiii/HWGaussDB) - 华为 GaussDB 数据库 - 完全自主研发，打破国外垄断，比 PostgreSQL 快 600%。
+- [cloudcommunity/Cloud-Free-Tier-Comparison](https://github.com/cloudcommunity/Cloud-Free-Tier-Comparison) - 比较主要云服务商如 AWS、Azure、GCP、Oracle 等的免费套餐。
+- [iamshuaidi/CS-Book](https://github.com/iamshuaidi/CS-Book) - 计算机类常用电子书整理，附下载链接，包括Java，Python，Linux，Go，C，C++，数据结构与算法，人工智能，计算机基础，面试，设计模式，数据库，前端等书籍
+- [immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate) - 沉浸式双语网页翻译扩展，支持输入框翻译、鼠标悬停翻译，支持 PDF、Epub、字幕文件、TXT 文件翻译 - Immersive 双语网页翻译扩展
 - [megaease/Remembering-Haoel](https://github.com/megaease/Remembering-Haoel) - 记录您对左耳朵耗子（陈皓）的点滴回忆
-- [cursor/cursor](https://github.com/cursor/cursor) - AI代码编辑器
+- [cursor/cursor](https://github.com/cursor/cursor) - AI 代码编辑器
 - [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) - Awesome-LLM：大型语言模型精选列表
-- [dalinvip/Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT) - ChatGPT资料汇总学习，持续更新......
-- [v2fly/v2ray-step-by-step](https://github.com/v2fly/v2ray-step-by-step) - 本仓库是 ToutyRater/v2ray-guide 的分支，旨在提供全新的 v2ray 分步指南
+- [dalinvip/Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT) - ChatGPT资料汇总学习，持续更新……
+- [v2fly/v2ray-step-by-step](https://github.com/v2fly/v2ray-step-by-step) - 本仓库是 ToutyRater/v2ray-guide 的分支，旨在提供 v2ray 的新逐步指南
 - [davinci1010/pinduoduo_backdoor](https://github.com/davinci1010/pinduoduo_backdoor) - 拼多多apk内嵌提权代码及动态下发dex分析
-- [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - ChatGPT 中文调教指南。各种场景使用指南。学习如何让它听你指令。
-- [noobnooc/noobnooc](https://github.com/noobnooc/noobnooc) - 我的个人主页
-- [jesselau76/GPT-Prompts](https://github.com/jesselau76/GPT-Prompts) - 实用的 GPT 提示词
-- [humanloop/awesome-chatgpt](https://github.com/humanloop/awesome-chatgpt) - ChatGPT 和 GPT-3 的精选工具、演示、文档列表
+- [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - ChatGPT 中文调教指南。各种场景使用指南。学习如何让它听你的话。
+- [noobnooc/noobnooc](https://github.com/noobnooc/noobnooc) - 我的个人资料
+- [jesselau76/GPT-Prompts](https://github.com/jesselau76/GPT-Prompts) - 有用的 GPT 提示语
+- [humanloop/awesome-chatgpt](https://github.com/humanloop/awesome-chatgpt) - 精选 ChatGPT 和 GPT-3 的工具、演示、文档列表
 - [erbanku/erbanku](https://github.com/erbanku/erbanku) - 
-- [dukeluo/awesome-awesome-prompts](https://github.com/dukeluo/awesome-awesome-prompts) - 收集与提示工程相关的优秀列表
-- [mushan0x0/AI0x0.com](https://github.com/mushan0x0/AI0x0.com) - 一款多模态多模型通用型的全局全能AI查询生成桌面悬浮助手应用
+- [dukeluo/awesome-awesome-prompts](https://github.com/dukeluo/awesome-awesome-prompts) - 收集与提示工程相关的精选列表的精选列表。
+- [mushan0x0/AI0x0.com](https://github.com/mushan0x0/AI0x0.com) - 一个多模态多模型通用的全局全能 AI 查询生成桌面悬浮助手应用
 - [apachecn/huazhang-econ-mgt-book](https://github.com/apachecn/huazhang-econ-mgt-book) - :book: 华章经管丛书高清扫描
-- [tuic-protocol/tuic](https://github.com/tuic-protocol/tuic) - 精致-TUICed 0-RTT 代理协议
-- [Alice-space/PKU-OpenWrt](https://github.com/Alice-space/PKU-OpenWrt) - 北大校园网 OpenWrt 配置方法
+- [tuic-protocol/tuic](https://github.com/tuic-protocol/tuic) - 精致的 TUIC 0-RTT 代理协议
+- [Alice-space/PKU-OpenWrt](https://github.com/Alice-space/PKU-OpenWrt) - 北京大学 OpenWrt 配置方法
 - [eliaszon/Programmers-Overseas-Job-Interview-Handbook](https://github.com/eliaszon/Programmers-Overseas-Job-Interview-Handbook) - 🏂🏻 程序员海外工作/英文面试手册
-- [lukeed/awesome-cloudflare-workers](https://github.com/lukeed/awesome-cloudflare-workers) - 😎 精选 Cloudflare Workers 资源
-- [LUKE-ZZ/thuthesis-biomedical](https://github.com/LUKE-ZZ/thuthesis-biomedical) - 清华大学生物、医学、药学等相关专业毕业论文latex模板，也适用于其他专业，适合本硕博毕业论文和博后报告。基于 tuna 协会 thuthesis 项目，增加生医药内容和latex新手友好注释。
-- [oneclickearth/oneclick](https://github.com/oneclickearth/oneclick) - 科学上网/自由上网/翻墙/软件，2021科学上网指南
-- [k88hudson/git-flight-rules](https://github.com/k88hudson/git-flight-rules) - git 操作应急规则
+- [lukeed/awesome-cloudflare-workers](https://github.com/lukeed/awesome-cloudflare-workers) - 😎 精选 Cloudflare Workers
+- [LUKE-ZZ/thuthesis-biomedical](https://github.com/LUKE-ZZ/thuthesis-biomedical) - 清华大学生物、医学、药学等相关专业毕业论文 LaTeX 模板。也适用于其他专业。适合本硕博毕业论文和博后报告。本模板在 tuna 协会 thuthesis 项目基础上，补充了生医药相关内容，也添加了对 LaTeX 新手更友好的注释。
+- [oneclickearth/oneclick](https://github.com/oneclickearth/oneclick) - 科学上网/自由上网/翻墙软件，2021科学上网指南
+- [k88hudson/git-flight-rules](https://github.com/k88hudson/git-flight-rules) - Git 操作指南
 - [rockbenben/LearnData](https://github.com/rockbenben/LearnData) - 开源工具、效率方法、心理学探索的自我提升笔记
-- [fredliu168/TheEconomist2022](https://github.com/fredliu168/TheEconomist2022) - 经济学人2022年期刊在线阅读，含音频，若域名无法访问，请访问 http://157.230.57.119:8888
+- [fredliu168/TheEconomist2022](https://github.com/fredliu168/TheEconomist2022) - 经济学人2022年期刊在线阅读，包含音频，如域名无法访问，请访问http://157.230.57.119:8888
 - [myseil/BingWallpaper](https://github.com/myseil/BingWallpaper) - 收集Bing必应每日壁纸
-- [Ethkuil/awesome-thu-student-software](https://github.com/Ethkuil/awesome-thu-student-software) - 收录主要由清华大学在校生开发/维护的实用开源软件。
+- [Ethkuil/awesome-thu-student-software](https://github.com/Ethkuil/awesome-thu-student-software) - 收录主要由清华大学在校学生开发/维护的实用开源软件。
 - [HelinXu/THUDA-9](https://github.com/HelinXu/THUDA-9) - 清华大学自动化系课程笔记
 - [DerDanilo/seafile-community-manual](https://github.com/DerDanilo/seafile-community-manual) - Seafile 社区版手册
-- [runvnc/dadsresume](https://github.com/runvnc/dadsresume) - 我爸爸 1980 年的简历和技能
-- [SurviveSJTU/SurviveSJTUManual](https://github.com/SurviveSJTU/SurviveSJTUManual) - 更新2008年版《上海交通大学生存手册》gitbook发布于https://survivesjtu.gitbook.io/survivesjtumanual/
-- [dy-sh/one-dark-potplayer-theme](https://github.com/dy-sh/one-dark-potplayer-theme) - Atom One Dark 风格 PotPlayer 皮肤
+- [runvnc/dadsresume](https://github.com/runvnc/dadsresume) - 我爸爸1980年的简历与技能
+- [SurviveSJTU/SurviveSJTUManual](https://github.com/SurviveSJTU/SurviveSJTUManual) - 更新版2008年《上海交通大学生存手册》，gitbook发布于https://survivesjtu.gitbook.io/survivesjtumanual/
+- [dy-sh/one-dark-potplayer-theme](https://github.com/dy-sh/one-dark-potplayer-theme) - Atom One Dark 风格的 PotPlayer 皮肤
 - [vscode-ext-studio/OneDark-Modern](https://github.com/vscode-ext-studio/OneDark-Modern) - 
-- [bighuang624/AI-research-tools](https://github.com/bighuang624/AI-research-tools) - :hammer: AI方向好用的科研工具
-- [jotaen/xit](https://github.com/jotaen/xit) - 一个用于待办和清单的纯文本文件格式
-- [ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix) - 常用Unix命令的现代/更快/更合理替代品合集
-- [opsre/Thanks-Mirror](https://github.com/opsre/Thanks-Mirror) - 整理记录各包管理器、系统镜像及常用软件的优质镜像，Thanks Mirror。     路过觉得不错请点赞👆🌟
-- [KeiKinn/ShadowsocksBio](https://github.com/KeiKinn/ShadowsocksBio) - 记录Shadowsocks的前世今生，以及简单教程总结
-- [eryajf/awesome-github-profile-readme-chinese](https://github.com/eryajf/awesome-github-profile-readme-chinese) - 🦩 优秀中文区个人主页收集
-- [lesuixin/v2ray-cf](https://github.com/lesuixin/v2ray-cf) - v2ray套CF无域名加速的小白教程
-- [irazasyed/awesome-cloudflare](https://github.com/irazasyed/awesome-cloudflare) - ⛅️ 精选 Cloudflare Worker 脚本、开源项目、指南、博客及其他资源列表。
-- [PicGo/Awesome-PicGo](https://github.com/PicGo/Awesome-PicGo) - PicGo 相关优秀项目集合
-- [nicejade/nice-front-end-tutorial](https://github.com/nicejade/nice-front-end-tutorial) - 🌍  持续更新的前端资源、教程、观点（与时俱进版前端资源、教程和意见。）
-- [eryajf/learning-weekly](https://github.com/eryajf/learning-weekly) - 📝 周刊内容以运维技术和Go语言为主，辅以GitHub优秀项目及他人优秀经验。欢迎star点赞收藏👆🌟
-- [dair-ai/ML-Course-Notes](https://github.com/dair-ai/ML-Course-Notes) - 🎓 分享机器学习课程/讲座笔记。
-- [sirredbeard/awesome-wsl](https://github.com/sirredbeard/awesome-wsl) - 专注于Windows子系统Linux的精选列表
-- [GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) - 坚持分享GitHub上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.
-- [steam3d/MagicPods-Windows](https://github.com/steam3d/MagicPods-Windows) - 给你的Airpods增添一点魔法
-- [dair-ai/ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses) - 📺 发现YouTube上最新的机器学习/人工智能课程。
+- [bighuang624/AI-research-tools](https://github.com/bighuang624/AI-research-tools) - :hammer: AI 方向好用的科研工具
+- [jotaen/xit](https://github.com/jotaen/xit) - 用于待办事项和检查列表的纯文本文件格式
+- [ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix) - 现代/更快/更合理的常用 Unix 命令替代集合。
+- [opsre/Thanks-Mirror](https://github.com/opsre/Thanks-Mirror) - 整理记录各个包管理器、系统镜像及常用软件的好用镜像，Thanks Mirror。走过路过，如觉不错，麻烦点个赞👆🌟
+- [KeiKinn/ShadowsocksBio](https://github.com/KeiKinn/ShadowsocksBio) - 记录 Shadowsocks 的前世今生，以及一个简单教程总结
+- [eryajf/awesome-github-profile-readme-chinese](https://github.com/eryajf/awesome-github-profile-readme-chinese) - 🦩 优秀的中文区个人主页收集
+- [lesuixin/v2ray-cf](https://github.com/lesuixin/v2ray-cf) - v2ray 套用 Cloudflare 无域名加速小白教程
+- [irazasyed/awesome-cloudflare](https://github.com/irazasyed/awesome-cloudflare) - ⛅️ 精选 Cloudflare Worker 配方、开源项目、指南、博客及其他资源。
+- [PicGo/Awesome-PicGo](https://github.com/PicGo/Awesome-PicGo) - 使用 PicGo 的精选项目集合。
+- [nicejade/nice-front-end-tutorial](https://github.com/nicejade/nice-front-end-tutorial) - 🌍 持续更新的前端资源、教程、观点（与时俱进的前端资源、教程和意见。）
+- [eryajf/learning-weekly](https://github.com/eryajf/learning-weekly) - 📝 周刊内容以运维技术和 Go 语言相关为主，辅以 GitHub 上优秀项目或他人优秀经验。欢迎 star 点赞收藏👆🌟
+- [dair-ai/ML-Course-Notes](https://github.com/dair-ai/ML-Course-Notes) - 🎓 分享机器学习课程/讲义笔记。
+- [sirredbeard/awesome-wsl](https://github.com/sirredbeard/awesome-wsl) - 专注于 Windows Subsystem for Linux 的精选列表
+- [GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) - 坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。GitHub 上酷炫有趣项目列表。
+- [steam3d/MagicPods-Windows](https://github.com/steam3d/MagicPods-Windows) - 给你的 Airpods 加点魔法
+- [dair-ai/ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses) - 📺 发现最新的机器学习/人工智能 YouTube 课程。
 - [ImCa0/just-laws](https://github.com/ImCa0/just-laws) - 一个简洁、便捷的中国法律文库 | A Simple and Convenient Laws Library of China.
 - [github/codeql-cli-binaries](https://github.com/github/codeql-cli-binaries) - CodeQL CLI 的二进制文件
-- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - 一个包含鼓舞人心的清单、手册、速查表、博客、黑客、一行代码、CLI/网页工具等的合集。
-- [brave/goggles-quickstart](https://github.com/brave/goggles-quickstart) - 学习 Goggles 及如何创建自己的 Goggles 的教育材料。
-- [iggredible/Learn-Vim](https://github.com/iggredible/Learn-Vim) - 学习 Vim 和 Vimscript 并不难。这正是你需要的那本指南 📖
-- [fatalerror-i/ThuWordThesis](https://github.com/fatalerror-i/ThuWordThesis) - 清华大学学位论文Word模板。A Word thesis template for Tsinghua University.
+- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - 一个激发灵感的列表、手册、备忘单、博客、技巧、一行代码、命令行/网页工具等合集。
+- [brave/goggles-quickstart](https://github.com/brave/goggles-quickstart) - 学习 Goggles 及如何创建你自己的教育材料。
+- [iggredible/Learn-Vim](https://github.com/iggredible/Learn-Vim) - 学习 Vim 和 Vimscript 不必难。这就是你要找的指南 📖
+- [fatalerror-i/ThuWordThesis](https://github.com/fatalerror-i/ThuWordThesis) - 清华大学学位论文 Word 模板。
 - [pb0316/thuhole_memories](https://github.com/pb0316/thuhole_memories) - 
-- [jiegec/dcst-facts](https://github.com/jiegec/dcst-facts) - 清华大学 DCST 事实资料
+- [jiegec/dcst-facts](https://github.com/jiegec/dcst-facts) - 清华大学 DCST 的事实
 - [microsoft/vscode-loc](https://github.com/microsoft/vscode-loc) - VS Code 本地化扩展
 - [mangecoeur/AcademicMarkdown](https://github.com/mangecoeur/AcademicMarkdown) - 用于撰写学术论文的 MarkdownEditing 扩展
-- [linuxkerneltravel/linux_kernel_wiki](https://github.com/linuxkerneltravel/linux_kernel_wiki) - linux内核学习资料：200+经典内核文章，100+内核论文，50+内核项目，500+内核面试题，80+内核视频
+- [linuxkerneltravel/linux_kernel_wiki](https://github.com/linuxkerneltravel/linux_kernel_wiki) - linux 内核学习资料：200+经典内核文章，100+内核论文，50+内核项目，500+内核面试题，80+内核视频
 - [GyanD/codexffmpeg](https://github.com/GyanD/codexffmpeg) - 支持 https://www.gyan.dev/ffmpeg
 - [scottclowe/matlab-schemes](https://github.com/scottclowe/matlab-schemes) - MATLAB 颜色方案集合
-- [skyiea/rememberry-i10n](https://github.com/skyiea/rememberry-i10n) - Rememberry 的本地化
-- [rzashakeri/beautify-github-profile](https://github.com/rzashakeri/beautify-github-profile) - 本仓库帮助你打造更美观、更吸引人的 GitHub 主页，并提供全面的工具和教程。
+- [skyiea/rememberry-i10n](https://github.com/skyiea/rememberry-i10n) - Rememberry 本地化
+- [rzashakeri/beautify-github-profile](https://github.com/rzashakeri/beautify-github-profile) - 本仓库将帮助你打造更美观吸引人的 GitHub 个人主页，提供丰富的工具和教程。
 - [Jonezhen/CSBook](https://github.com/Jonezhen/CSBook) - 
 - [ripperhe/Bob](https://github.com/ripperhe/Bob) - Bob 是一款 macOS 平台的翻译和 OCR 软件。
 - [SwiftOldDriver/iOS-Weekly](https://github.com/SwiftOldDriver/iOS-Weekly) - 🇨🇳 老司机技术 iOS 周报
 - [comwrg/package-manager-proxy-settings](https://github.com/comwrg/package-manager-proxy-settings) - 记录各个包管理器代理设置坑点。
-- [liuchengxu/git-commit-emoji-cn](https://github.com/liuchengxu/git-commit-emoji-cn) - 😁 git commit message emoji 使用指南
-- [aishalih/sfwin](https://github.com/aishalih/sfwin) - SFWin — Windows 10 及非苹果平台的 San Francisco 字体。
+- [liuchengxu/git-commit-emoji-cn](https://github.com/liuchengxu/git-commit-emoji-cn) - 😁 git 提交信息表情使用指南
+- [aishalih/sfwin](https://github.com/aishalih/sfwin) - SFWin — Windows 10 及非苹果平台的旧金山字体。
 - [aooiuu/z-reader](https://github.com/aooiuu/z-reader) - 📘 [vscode插件] 小说阅读器，支持在线搜索和本地阅读，支持txt和epub格式
-- [inkscape/inkscape](https://github.com/inkscape/inkscape) - 项目官网: https://inkscape.org - 代码仓库: https://gitlab.com/inkscape/inkscape - 自由绘画。🖌
-- [taunoe/arduino-dark-theme](https://github.com/taunoe/arduino-dark-theme) - Arduino 深色主题！
+- [inkscape/inkscape](https://github.com/inkscape/inkscape) - 项目网站：https://inkscape.org - 代码仓库：https://gitlab.com/inkscape/inkscape - 自由绘画。🖌
+- [taunoe/arduino-dark-theme](https://github.com/taunoe/arduino-dark-theme) - Arduino 暗色主题！
 - [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules) - 🦄️ 🎃 👻 Clash Premium 规则集（RULE-SET），兼容 ClashX Pro、Clash for Windows 等基于 Clash Premium 内核的客户端。
-- [sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines) - 优化书面沟通的中文文案排版指北
+- [sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines) - 中文文案排版指北，提升书面沟通质量
 - [woct0rdho/pkuholebackup](https://github.com/woct0rdho/pkuholebackup) - 
 - [Keldos-Li/typora-latex-theme-fonts](https://github.com/Keldos-Li/typora-latex-theme-fonts) - 
-- [geekan/HowToLiveLonger](https://github.com/geekan/HowToLiveLonger) - 程序员延寿指南 | A programmer's guide to live longer
+- [geekan/HowToLiveLonger](https://github.com/geekan/HowToLiveLonger) - 程序员延寿指南 | 程序员活得更久的指南
 - [gaocegege/my-github-status](https://github.com/gaocegege/my-github-status) - 
 - [fat0troll/terminalus](https://github.com/fat0troll/terminalus) - Terminal.app 主题，灵感来自 Termius iOS 应用的配色方案
-- [clarketm/proxy-list](https://github.com/clarketm/proxy-list) - 免费、公开、正向代理服务器列表。每天更新！
-- [ShiftyTR/Proxy-List](https://github.com/ShiftyTR/Proxy-List) - 免费代理列表，每小时更新！-- 访问 api
+- [clarketm/proxy-list](https://github.com/clarketm/proxy-list) - 免费公共正向代理服务器列表。每日更新！
+- [ShiftyTR/Proxy-List](https://github.com/ShiftyTR/Proxy-List) - 免费代理列表，每小时更新！-- API 访问
 - [623637646/996.Leave](https://github.com/623637646/996.Leave) - 逃离996
-- [The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run) - 润学全球官方指定GITHUB，整理润学宗旨、纲领、理论和各类润之实例；解决为什么润，润去哪里，怎么润三大问题； 并成为新中国人的核心宗教，核心信念。
-- [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) - 项目驱动学习教程精选列表
-- [veeral-patel/how-to-secure-anything](https://github.com/veeral-patel/how-to-secure-anything) - 如何系统地保护任何事物：安全工程相关资源库
-- [ossu/data-science](https://github.com/ossu/data-science) - 📊 免费自学数据科学之路！
+- [The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run) - 润学全球官方指定 GITHUB，整理润学宗旨、纲领、理论和各类润之实例；解决为什么润，润去哪里，怎么润三大问题；并成为新中国人的核心宗教，核心信念。
+- [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) - 精选项目驱动教程列表
+- [veeral-patel/how-to-secure-anything](https://github.com/veeral-patel/how-to-secure-anything) - 系统化地保护任何东西：安全工程相关仓库
+- [ossu/data-science](https://github.com/ossu/data-science) - 📊 免费自学数据科学路径！
 - [lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions) - 一长串（高级）JavaScript 问题及其解释 :sparkles:
-- [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) - JS 语言的书籍系列（已出版 2 个版本）。
+- [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) - JS 语言书籍系列（已出版两版）。
 - [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - 成为软件工程师的完整计算机科学学习计划。
-- [DhanushNehru/Ultimate-NodeJs-Resources](https://github.com/DhanushNehru/Ultimate-NodeJs-Resources) - 所有 Node Js 相关资源于一处
-- [Paladinfeng/MiaoProject](https://github.com/Paladinfeng/MiaoProject) - Miao Project Bug 反馈
-- [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) - 提升编程技能的应用创意集合
-- [warpdotdev/Warp](https://github.com/warpdotdev/Warp) - Warp 是为多 AI 代理编程而生的 agentic 开发环境。
+- [DhanushNehru/Ultimate-NodeJs-Resources](https://github.com/DhanushNehru/Ultimate-NodeJs-Resources) - 关于 Node Js 的所有资源集合
+- [Paladinfeng/MiaoProject](https://github.com/Paladinfeng/MiaoProject) - Miao 项目 Bug 反馈
+- [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) - 应用创意集合，用于提升你的编码技能。
+- [warpdotdev/Warp](https://github.com/warpdotdev/Warp) - Warp 是一个支持多 AI 代理的智能开发环境。
 - [Infatuation-Fei/rule](https://github.com/Infatuation-Fei/rule) - 自用规则
-- [MicrosoftDocs/WSL](https://github.com/MicrosoftDocs/WSL) - Windows 子系统 Linux 文档的源代码。
+- [MicrosoftDocs/WSL](https://github.com/MicrosoftDocs/WSL) - Windows Subsystem for Linux 文档的源代码。
 - [Serendipity-Theme/windows-terminal](https://github.com/Serendipity-Theme/windows-terminal) - Serendipity 主题移植到 Windows Terminal。
-- [Serendipity-Theme/vs-code](https://github.com/Serendipity-Theme/vs-code) - 轻松、温和且现代化。
-- [Serendipity-Theme/template-for-repositories](https://github.com/Serendipity-Theme/template-for-repositories) - 移植主题的模板仓库
+- [Serendipity-Theme/vs-code](https://github.com/Serendipity-Theme/vs-code) - 轻松、温和且现代。
+- [Serendipity-Theme/template-for-repositories](https://github.com/Serendipity-Theme/template-for-repositories) - 移植主题的模板
 - [xuehu54321/awesome-music-for-programming](https://github.com/xuehu54321/awesome-music-for-programming) - 编程时的好听音乐，一起来分享你在编程时听的音乐！
-- [soulteary/docker-flare](https://github.com/soulteary/docker-flare) - Flare ✨ 轻量、高性能、快速的自托管导航页，资源利用率 &lt;1% CPU，MEM &lt;30 M，Docker 镜像 &lt; 10M
-- [jCodeLife/mind-map](https://github.com/jCodeLife/mind-map) - 🖼个人思维导图笔记，已整理JS、TS、Vue、React ... 持续更新中，欢迎 PR 和 Start~
+- [soulteary/docker-flare](https://github.com/soulteary/docker-flare) - Flare ✨ 轻量、高性能、快速的自托管导航页，资源利用率 &lt;1% CPU，内存 &lt;30M，Docker 镜像 &lt; 10M
+- [jCodeLife/mind-map](https://github.com/jCodeLife/mind-map) - 🖼个人思维导图笔记，已整理 JS、TS、Vue、React ... 持续更新中，欢迎 PR 和 Star~
 - [coder2gwy/coder2gwy](https://github.com/coder2gwy/coder2gwy) - 互联网首份程序员考公指南，由3位已经进入体制内的前大厂程序员联合献上。
 - [georgezzzh/homepage](https://github.com/georgezzzh/homepage) - 
-- [996icu/996.ICU](https://github.com/996icu/996.ICU) - 用于计星与贡献的仓库。按 F 向光荣的开发者致敬。
-- [danyspin97/TelegramBotsList](https://github.com/danyspin97/TelegramBotsList) - 所有在 github 托管的 Telegram 机器人源码列表。
-- [GorvGoyl/Clone-Wars](https://github.com/GorvGoyl/Clone-Wars) - 100+ 个热门网站（如 Airbnb、Amazon、Instagram、Netflix、Tiktok、Spotify、Whatsapp、Youtube 等）的开源克隆。含源码、演示、技术栈、github 星数。
-- [github/gitignore](https://github.com/github/gitignore) - 有用的 .gitignore 模板合集
+- [996icu/996.ICU](https://github.com/996icu/996.ICU) - 计算星标和贡献的仓库。按 F 以向光荣的开发者致敬。
+- [danyspin97/TelegramBotsList](https://github.com/danyspin97/TelegramBotsList) - 所有托管在 GitHub 上的 Telegram 机器人列表。
+- [GorvGoyl/Clone-Wars](https://github.com/GorvGoyl/Clone-Wars) - 100+ 流行网站如 Airbnb、Amazon、Instagram、Netflix、Tiktok、Spotify、Whatsapp、Youtube 等的开源克隆。查看源码、演示链接、技术栈、GitHub 星标。
+- [github/gitignore](https://github.com/github/gitignore) - 实用的 .gitignore 模板集合
 - [gqcn/effective-go-zh-en](https://github.com/gqcn/effective-go-zh-en) - 《Effective Go》中英双语版
 - [sublime-china/sublime-merge-chinese](https://github.com/sublime-china/sublime-merge-chinese) - Sublime Merge 汉化版
 - [facelessuser/merge-dracula-theme](https://github.com/facelessuser/merge-dracula-theme) - Sublime Merge Dracula 主题
-- [konrad91/OneDarkArduino](https://github.com/konrad91/OneDarkArduino) - Arduino IDE 深色主题，灵感来自 VSCode 的 One Dark Pro
-- [AbhishekGhosh/Arduino-Themes](https://github.com/AbhishekGhosh/Arduino-Themes) - 社区创作的 Arduino IDE 主题集合
+- [konrad91/OneDarkArduino](https://github.com/konrad91/OneDarkArduino) - Arduino IDE 的暗色主题，灵感来自 VSCode 的 One Dark Pro 由 binaryify 制作
+- [AbhishekGhosh/Arduino-Themes](https://github.com/AbhishekGhosh/Arduino-Themes) - 社区制作的 Arduino IDE 主题合集
 - [shengcaishizhan/kkndme_tianya](https://github.com/shengcaishizhan/kkndme_tianya) - 天涯 kkndme 神贴聊房价
 - [axipo/TrafficBlackhole](https://github.com/axipo/TrafficBlackhole) - 网络质量与代理服务基准测试
-- [bestxtools/weekly-cn](https://github.com/bestxtools/weekly-cn) - 发现并分享有趣、有创意、免费、好用的工具，每周四发布。
-- [coderit666/GoGuide](https://github.com/coderit666/GoGuide) - 「Go语言学习指南」涵盖大部分 Golang 程序员应掌握的核心知识，包含教程、开源书籍、入门教程、学习路线。零基础学 Go 首选。
-- [andredelft/typora-tailwind-theme](https://github.com/andredelft/typora-tailwind-theme) - Typora 的精美 Tailwind 排版布局主题
-- [viraptor/reverse-interview](https://github.com/viraptor/reverse-interview) - 面试时反问公司的问题列表
+- [bestxtools/weekly-cn](https://github.com/bestxtools/weekly-cn) - 发现并分享有趣、有创意、免费且好用的工具，每周四发布。
+- [coderit666/GoGuide](https://github.com/coderit666/GoGuide) - 「Go语言学习指南」涵盖大部分 Golang 程序员所需核心知识，包含 Go 语言教程、开源书籍、入门教程、学习路线。零基础学 Go、编程首选。
+- [andredelft/typora-tailwind-theme](https://github.com/andredelft/typora-tailwind-theme) - Typora 的漂亮 Tailwind 排版布局主题。
+- [viraptor/reverse-interview](https://github.com/viraptor/reverse-interview) - 面试时向公司提问的问题
 - [perkfly/reverse-interview-zh](https://github.com/perkfly/reverse-interview-zh) - 技术面试最后反问面试官的话
-- [imageslr/typora-theme-bear](https://github.com/imageslr/typora-theme-bear) - 一系列 Bear 风格的 typora 主题，共 20 余款。A collection of typora themes, inspired by Bear.
-- [7-sevens/Developer-Books](https://github.com/7-sevens/Developer-Books) - 编程开发相关书单列表整理
+- [imageslr/typora-theme-bear](https://github.com/imageslr/typora-theme-bear) - 一系列 Bear 风格的 typora 主题，共计 20 余款。Bear 风格的 typora 主题合集。
+- [7-sevens/Developer-Books](https://github.com/7-sevens/Developer-Books) - 编程开发相关书单整理
 - [czs108/Cpp-Primer-5th-Notes-CN](https://github.com/czs108/Cpp-Primer-5th-Notes-CN) - 📚 《C++ Primer中文版（第5版）》笔记
 - [ShameCom/ShameCom](https://github.com/ShameCom/ShameCom) - 收集校招污点公司或组织，帮助学弟学妹避雷。互联网不曾遗忘！
-- [csseky/cskaoyan](https://github.com/csseky/cskaoyan) - 提供计算机考研和软件工程考研专业的各个学校考研真题
-- [Simizfo/WSATools](https://github.com/Simizfo/WSATools) - 简单易用的 Windows 子系统 Android APK 安装器等
+- [csseky/cskaoyan](https://github.com/csseky/cskaoyan) - 提供计算机考研和软件工程考研专业各校考研真题
+- [Simizfo/WSATools](https://github.com/Simizfo/WSATools) - Windows Subsystem for Android 的易用 APK 安装器及更多工具
 - [SPX372928/MyIPTV](https://github.com/SPX372928/MyIPTV) - 标准协议移动直播源
-- [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists) - 软件和网页开发可用的免费 API 列表 🚀
+- [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists) - 软件和网页开发中可用的免费 API 集合 🚀
 - [Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo) - 收集整理 GitHub 上高质量、有趣的开源项目。
 - [imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8) - 直播源相关资源汇总 📺 💯 IPTV、M3U —— 勤洗手、戴口罩，祝愿所有人百毒不侵
-- [methylcloud/learn-gcp](https://github.com/methylcloud/learn-gcp) - 学习 Google Cloud Platform (GCP) 的学习资源
-- [awsdocs/amazon-ec2-user-guide-windows](https://github.com/awsdocs/amazon-ec2-user-guide-windows) - Amazon EC2 Windows 用户指南的开源版本。反馈或修改请提交 issue 或 PR。
-- [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) - 提供多款 Shadowrocket 规则，拥有强劲的广告过滤功能。每日 8 时重新构建规则。
-- [AlenZhang-Dev/News-Record](https://github.com/AlenZhang-Dev/News-Record) - 目前主要维护经济学人【The Economist】、纽约客【The NewYorker】和时代杂志【Time】
+- [methylcloud/learn-gcp](https://github.com/methylcloud/learn-gcp) - 学习 Google Cloud Platform (GCP) 的资源
+- [awsdocs/amazon-ec2-user-guide-windows](https://github.com/awsdocs/amazon-ec2-user-guide-windows) - Amazon EC2 Windows 用户指南开源版本。反馈或修改请提交 issue 或 pull request。
+- [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) - 提供多款 Shadowrocket 规则，具备强力广告过滤功能。每日 8 时重构规则。
+- [AlenZhang-Dev/News-Record](https://github.com/AlenZhang-Dev/News-Record) - 主要维护经济学人【The Economist】、纽约客【The NewYorker】和时代杂志【Time】
 - [jeffreyxuan/toneoz-font-pinyin-kai](https://github.com/jeffreyxuan/toneoz-font-pinyin-kai) - 
-- [lanceliao/china-holiday-calender](https://github.com/lanceliao/china-holiday-calender) - 2023-2025中国节假日、调休、补班日历，ICS格式，适用于IPhone、Google Calendar、Outlook等客户端订阅，含节假日API
-- [tokyo-night/tokyo-night-vscode-theme](https://github.com/tokyo-night/tokyo-night-vscode-theme) - 一款清新、黑暗的 VS Code 主题，致敬东京夜晚的霓虹灯光。
+- [lanceliao/china-holiday-calender](https://github.com/lanceliao/china-holiday-calender) - 2023-2025 中国节假日、调休、补班日历，ICS 格式，可供 iPhone、Google 日历、Outlook 等订阅，包含节假日 API
+- [tokyo-night/tokyo-night-vscode-theme](https://github.com/tokyo-night/tokyo-night-vscode-theme) - 一款简洁暗色的 VSCode 主题，致敬东京夜晚的霓虹灯。
 - [Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules) - 🦄 🎃 👻 Surge 规则集（DOMAIN-SET 和 RULE-SET），适用于 Surge for iOS 和 Surge for Mac 客户端。
 - [OpenRunner/clash-freenode](https://github.com/OpenRunner/clash-freenode) - 订阅地址🚀 免费共享♻️ 定期更新✨ 科学上网🌈 请勿滥用🚫一键订阅📪SSR/CLASH/V2RAY
 - [Sxela/ArcaneGAN](https://github.com/Sxela/ArcaneGAN) - ArcaneGAN
 - [60ss/Npp-1-Dark](https://github.com/60ss/Npp-1-Dark) - Notepad++ 的 One Dark 语法主题
 - [rdev/vscode-theme-onedark-spacegray](https://github.com/rdev/vscode-theme-onedark-spacegray) - 基于 Atom One Dark 主题的 VSCode 主题
-- [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD) - 致力于成为中文区命中率最高的广告过滤列表，实现精确广告屏蔽与隐私保护。现已支持 AdGuardHome、dnsmasq、Surge、Pi-Hole、Clash、mihomo、smartdns、sing-box 等，完全兼容主流广告过滤格式
-- [Mosney/anti-anti-AD](https://github.com/Mosney/anti-anti-AD) - 为什么不应使用antiAD去广告列表，以及选择更多优秀的替代品
-- [leohku/andure](https://github.com/leohku/andure) - Android Chrome DevTools —— 适用于所有 Chromium 浏览器及任意网站。
+- [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD) - 致力于成为中文区命中率最高的广告过滤列表，实现精准广告屏蔽和隐私保护。支持 AdGuardHome、dnsmasq、Surge、Pi-Hole、Clash、mihomo、smartdns、sing-box 等。完全兼容常见广告过滤工具的各种列表格式。
+- [Mosney/anti-anti-AD](https://github.com/Mosney/anti-anti-AD) - 为什么不应使用 antiAD 去广告列表，以及更多优秀替代品推荐
+- [leohku/andure](https://github.com/leohku/andure) - Android Chrome 的开发工具，适用于任意网站和 Chromium 浏览器。
 - [opendigg/awesome-github-wechat-weapp](https://github.com/opendigg/awesome-github-wechat-weapp) - 微信小程序开源项目库汇总
-- [Discord-Custom-Covers/usrbg](https://github.com/Discord-Custom-Covers/usrbg) - Discord 用户自定义背景数据库。
-- [erbanku/awesome](https://github.com/erbanku/awesome) - 🌟 我的 Awesome 仓库列表。通过 GitHub Actions 在 UTC 00:00 和 16:00 自动更新
-- [algolia/awesome-algolia](https://github.com/algolia/awesome-algolia) - 🔍👋  从这里开始！Algolia 库、资源和项目精选列表。
-- [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) - 精选优秀远程工作及资源列表。灵感来自 https://github.com/vinta/awesome-python
-- [githubtraining/introduction-to-github](https://github.com/githubtraining/introduction-to-github) - Learning Lab 课程“Introduction to GitHub”的课程仓库。模板仓库 ➡️
-- [UyCode/uyfonts](https://github.com/UyCode/uyfonts) - 包含 UKIJ 和 Uighursoft 字体
-- [kkozee/vscode-theme-one-dark-vivid](https://github.com/kkozee/vscode-theme-one-dark-vivid) - Atom 的 One Dark Vivid 主题，适用于 VS Code
-- [mathjax/MathJax](https://github.com/mathjax/MathJax) - 在所有浏览器中优美且可访问的数学公式
-- [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) - 每位软件开发者都应该了解的（大多为）技术性内容的集合
-- [yangkky/Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins) - 关于蛋白质机器学习的论文列表。
-- [mehcode/awesome-atom](https://github.com/mehcode/awesome-atom) - 精选的 Atom 插件和资源列表。
-- [mcdtaiwan/McDonalds_Fries_Font](https://github.com/mcdtaiwan/McDonalds_Fries_Font) - 献给每一位热爱薯条的麦当劳铁粉 —— 麦当劳薯条体 薯条 vs 番茄酱一起玩！酥脆绵密的薯条，沾上美味番茄酱，拼出无限可能。麦当劳薯条体，免费下载！
-- [fangzesheng/free-api](https://github.com/fangzesheng/free-api) - 收集免费的接口服务，做一个api的搬运工
-- [toml-lang/toml](https://github.com/toml-lang/toml) - Tom 的明显且简洁的语言
-- [atomiechen/THU-PPT-Theme](https://github.com/atomiechen/THU-PPT-Theme) - 清华主题PPT模板
-- [zhiwehu/Python-programming-exercises](https://github.com/zhiwehu/Python-programming-exercises) - 100+ 个有挑战性的 Python 编程练习
-- [hemanth/awesome-pwa](https://github.com/hemanth/awesome-pwa) - 渐进式 Web 应用精选列表！
-- [joelparkerhenderson/git-commit-message](https://github.com/joelparkerhenderson/git-commit-message) - Git 提交信息：如何编写优秀的 git 提交信息及模板
-- [marvinpinto/action-automatic-releases](https://github.com/marvinpinto/action-automatic-releases) - 只读：自动生成的镜像，源于 https://github.com/marvinpinto/actions/tree/master/packages/automatic-releases
-- [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) - 精选面向初学者的项目列表。
-- [dracula/telegram](https://github.com/dracula/telegram) - 🧛🏻‍♂️ Telegram Desktop 暗黑主题
-- [ahmadawais/shades-of-purple-vscode](https://github.com/ahmadawais/shades-of-purple-vscode) - 🦄 Shades of Purple 提供精选大胆且鲜艳的紫色系，令你的代码视觉惊艳。其精心设计的配色方案，thi
-- [priyankavergadia/GCPSketchnote](https://github.com/priyankavergadia/GCPSketchnote) - 如果你想成为 Google Cloud 工程师，这里正是你要找的地方。GCPSketchnote 系列以简明易学的方式分享 Google Cloud 概念。
-- [flyhigher139/Git-Cheat-Sheet](https://github.com/flyhigher139/Git-Cheat-Sheet) - Git 速查表中文版，由 Gevin (flyhigher139) 翻译
-- [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) - 一页掌握命令行
+- [Discord-Custom-Covers/usrbg](https://github.com/Discord-Custom-Covers/usrbg) - @Discord 的自定义用户请求背景数据库。
+- [erbanku/awesome](https://github.com/erbanku/awesome) - 🌟 我的优秀仓库列表。由 GitHub Actions 于 UTC 00:00 和 16:00 自动更新
+- [algolia/awesome-algolia](https://github.com/algolia/awesome-algolia) - 🔍👋  从这里开始！Algolia 库、资源和项目的精选列表。
+- [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) - 精选的优秀远程工作及资源列表。灵感来源于 https://github.com/vinta/awesome-python
+- [githubtraining/introduction-to-github](https://github.com/githubtraining/introduction-to-github) - Learning Lab 课程“GitHub 入门”的课程仓库。模板仓库 ➡️
+- [UyCode/uyfonts](https://github.com/UyCode/uyfonts) - 包含 UKIJ 和维吾尔软字体
+- [kkozee/vscode-theme-one-dark-vivid](https://github.com/kkozee/vscode-theme-one-dark-vivid) - Atom 的 One Dark Vivid 主题移植到 VS Code
+- [mathjax/MathJax](https://github.com/mathjax/MathJax) - 所有浏览器中优美且可访问的数学公式渲染
+- [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) - 每个软件开发者都应该了解的（大多）技术知识集合
+- [yangkky/Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins) - 关于蛋白质机器学习的论文列表
+- [mehcode/awesome-atom](https://github.com/mehcode/awesome-atom) - 精选的精彩 Atom 插件和资源列表
+- [mcdtaiwan/McDonalds_Fries_Font](https://github.com/mcdtaiwan/McDonalds_Fries_Font) - 献给每位热爱薯条的麦当劳铁粉 —— 麦当劳薯条字体 薯条 vs 番茄酱一起嗨！酥脆绵密的薯条，蘸上美味番茄酱，拼出无限可能。麦当劳薯条字体，免费下载！
+- [fangzesheng/free-api](https://github.com/fangzesheng/free-api) - 收集免费的接口服务，做一个 API 搬运工
+- [toml-lang/toml](https://github.com/toml-lang/toml) - Tom 的明显且极简语言
+- [atomiechen/THU-PPT-Theme](https://github.com/atomiechen/THU-PPT-Theme) - 清华主题 PPT 模板
+- [zhiwehu/Python-programming-exercises](https://github.com/zhiwehu/Python-programming-exercises) - 100+ Python 挑战性编程练习
+- [hemanth/awesome-pwa](https://github.com/hemanth/awesome-pwa) - 精选渐进式网页应用列表！
+- [joelparkerhenderson/git-commit-message](https://github.com/joelparkerhenderson/git-commit-message) - Git 提交信息：如何写出优秀的 Git 提交信息和提交模板
+- [marvinpinto/action-automatic-releases](https://github.com/marvinpinto/action-automatic-releases) - 只读：自动生成镜像，源自 https://github.com/marvinpinto/actions/tree/master/packages/automatic-releases
+- [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) - 初学者友好项目的精选列表
+- [dracula/telegram](https://github.com/dracula/telegram) - 🧛🏻‍♂️ Telegram 桌面版暗黑主题
+- [ahmadawais/shades-of-purple-vscode](https://github.com/ahmadawais/shades-of-purple-vscode) - 🦄 Shades of Purple 提供精选的大胆且鲜艳的紫色调，将你的代码变成视觉惊艳的杰作。凭借精心设计的色彩调色板，这款主题
+- [priyankavergadia/GCPSketchnote](https://github.com/priyankavergadia/GCPSketchnote) - 如果你想成为 Google 云工程师，你来对地方了。GCPSketchnote 是一个系列，我以快速且易学的格式分享 Google 云概念。
+- [flyhigher139/Git-Cheat-Sheet](https://github.com/flyhigher139/Git-Cheat-Sheet) - Git 备忘单中文版，由 Gevin (flyhigher139) 翻译
+- [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) - 一页掌握命令行艺术
 - [opendigg/awesome-github-vue](https://github.com/opendigg/awesome-github-vue) - Vue 相关开源项目库汇总
-- [Codextor/npp-material-theme](https://github.com/Codextor/npp-material-theme) - Material 主题，Notepad++ 最棒的主题 | 暗色主题
+- [Codextor/npp-material-theme](https://github.com/Codextor/npp-material-theme) - Material 主题，Notepad++ 最史诗的主题 | 暗黑主题
 - [VirgilClyne/iRingo](https://github.com/VirgilClyne/iRingo) - 解锁完整的 Apple 功能和集成服务
 - [treehollow/install-doc](https://github.com/treehollow/install-doc) - 如何搭建一个树洞
-- [0voice/audio_video_streaming](https://github.com/0voice/audio_video_streaming) - 音视频流媒体权威资料整理，500+篇文章、论文、视频、项目、协议、业界大神名单。
-- [matchai/awesome-pinned-gists](https://github.com/matchai/awesome-pinned-gists) - 📌✨ 精选 GitHub 动态置顶 Gist 的合集
-- [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) - 🚀✨ 帮助初学者参与开源项目
-- [Tencent/secguide](https://github.com/Tencent/secguide) - 面向开发者梳理的代码安全指南
-- [ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey) - 精选 AutoHotkey 库、发行版、脚本、工具和资源列表。
-- [Hack-with-Github/Windows](https://github.com/Hack-with-Github/Windows) - 利用 Windows 的强大工具！
-- [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) - 👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么
-- [actionsflow/awesome-actionsflow](https://github.com/actionsflow/awesome-actionsflow) - Actionsflow 的精彩工作流用例列表
-- [AZeC4/TelegramGroup](https://github.com/AZeC4/TelegramGroup) - 2025最新悄悄收集的10000+个Telegram群合集，附全网最有趣好用的机器人BOT🤖【dianbaodaohang.com】
-- [sdras/awesome-actions](https://github.com/sdras/awesome-actions) - 精选 GitHub Actions 列表
+- [0voice/audio_video_streaming](https://github.com/0voice/audio_video_streaming) - 音视频流媒体权威资料整理，500+篇文章、论文、视频、实践项目、协议及业界大神名单
+- [matchai/awesome-pinned-gists](https://github.com/matchai/awesome-pinned-gists) - 📌✨ 精选的 GitHub 动态置顶 Gist 集合
+- [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) - 🚀✨ 帮助初学者贡献开源项目
+- [Tencent/secguide](https://github.com/Tencent/secguide) - 面向开发人员的代码安全指南
+- [ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey) - 精选的 AutoHotkey 库、库分发、脚本、工具和资源列表
+- [Hack-with-Github/Windows](https://github.com/Hack-with-Github/Windows) - 利用 Windows 的精彩工具！
+- [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) - 👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 —— 分享大家都在做什么
+- [actionsflow/awesome-actionsflow](https://github.com/actionsflow/awesome-actionsflow) - Actionsflow 精彩工作流用例列表
+- [AZeC4/TelegramGroup](https://github.com/AZeC4/TelegramGroup) - 2025 最新悄悄收集的 10000+ 个 Telegram 群合集，附全网最有趣好用的机器人 BOT🤖【dianbaodaohang.com】
+- [sdras/awesome-actions](https://github.com/sdras/awesome-actions) - 精选 GitHub 上优秀的 Actions
 - [cobaltdisco/Google-Chinese-Results-Blocklist](https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist) - 我终于能用谷歌搜中文了……
-- [ffffffff0x/Digital-Privacy](https://github.com/ffffffff0x/Digital-Privacy) - 信息保护与 OSINT 资源 | 一体化数字隐私收集、保护、清理方案，附开源情报对抗
+- [ffffffff0x/Digital-Privacy](https://github.com/ffffffff0x/Digital-Privacy) - 信息保护 & OSINT 资源 | 一个关于数字隐私搜集、保护、清理一体化方案，外加开源信息收集 (OSINT) 对抗
 - [OverTheWallNode/SSV2RayTrojanSSRClash](https://github.com/OverTheWallNode/SSV2RayTrojanSSRClash) - 科学上网，ss, ssr, v2ray, trojan, clash, clashr，翻墙机场推荐
-- [formulahendry/955.WLB](https://github.com/formulahendry/955.WLB) - 955 不加班公司名单 - 工作 955，work–life balance（工作与生活平衡）
-- [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) - Git 和 GitHub 的酷炫功能列表。
-- [github/roadmap](https://github.com/github/roadmap) - GitHub 公共路线图
-- [ivmm/Student-resources](https://github.com/ivmm/Student-resources) - 介绍学生、教职工身份可享受的相关学生优惠、教育优惠或教师优惠权益，也希望大家勿滥用优惠资格。
-- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - 可自托管的免费软件网络服务和 Web 应用列表
+- [formulahendry/955.WLB](https://github.com/formulahendry/955.WLB) - 955 不加班公司名单 - 工作 955，work–life balance (工作与生活的平衡)
+- [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) - Git 和 GitHub 的酷功能列表
+- [github/roadmap](https://github.com/github/roadmap) - GitHub 公开路线图
+- [ivmm/Student-resources](https://github.com/ivmm/Student-resources) - 本文介绍学生、教职工可享受的相关学生优惠、教育优惠或教师优惠权益，也希望大家享受权益时不忘义务，不售卖或转让资格，避免其他同学无法受益
+- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - 自托管的免费软件网络服务和网络应用列表
 - [Cat-China/CatBrowser](https://github.com/Cat-China/CatBrowser) - 猫猫浏览器 - 完全自主研发，打破国外（美帝）对浏览器市场的垄断，比 Chrome 快 600%。
 - [monyhar/monyhar](https://github.com/monyhar/monyhar) - 梦弘浏览器 - 完全自主研发，打破国外垄断，比 Chrome 快 600%。
 - [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - 😎 关于各种有趣主题的精选列表
 - [ruanyf/weekly](https://github.com/ruanyf/weekly) - 科技爱好者周刊，每周五发布
-- [github/gov-takedowns](https://github.com/github/gov-takedowns) - 收到的政府下架通知文本。GitHub 不支持或采纳以下通知中的任何断言。
+- [github/gov-takedowns](https://github.com/github/gov-takedowns) - 政府下架通知文本。GitHub 不认可也不采纳以下通知中的任何声明。
 - [ShareX/CustomUploaders](https://github.com/ShareX/CustomUploaders) - ShareX 自定义上传器
 - [glados-network/GLaDOS](https://github.com/glados-network/GLaDOS) - GLaDOS 状态
 
 ## PHP 
 
-- [pereorga/minimalist-web-notepad](https://github.com/pereorga/minimalist-web-notepad) - 极简网页版记事本
-- [juzeon/fast-mail-bomber](https://github.com/juzeon/fast-mail-bomber) - 快速、多线程、高效、易用的邮件轰炸/群发工具。通过不同服务商的 mailman 服务发送邮件。
-- [easychen/stack-roadmap](https://github.com/easychen/stack-roadmap) - 方糖全栈路线图2023，为“从螺丝钉到一人企业”补全技能栈
+- [pereorga/minimalist-web-notepad](https://github.com/pereorga/minimalist-web-notepad) - 极简网页记事本
+- [juzeon/fast-mail-bomber](https://github.com/juzeon/fast-mail-bomber) - 快速、多线程、高效且易用的邮件轰炸/垃圾邮件工具。通过不同提供商托管的 Mailman 服务发送邮件。
+- [easychen/stack-roadmap](https://github.com/easychen/stack-roadmap) - 方糖全栈路线图 2023，为「从螺丝钉到一人企业」补全技能栈
 - [solstice23/argon-theme](https://github.com/solstice23/argon-theme) - 📖 Argon - 一个轻盈、简洁的 WordPress 主题
-- [assimon/dujiaoka](https://github.com/assimon/dujiaoka) - 🦄独角数卡（自动售货系统）- 开源站长自动化售货解决方案，高效、稳定、快速！🚀🚀🎉🎉
-- [luolongfei/freenom](https://github.com/luolongfei/freenom) - Freenom 域名自动续期。Freenom 域名自动续期工具。
-- [icret/EasyImages2.0](https://github.com/icret/EasyImages2.0) - 简单图床 - 功能强大、无数据库的图床 2.0 版
-- [coollabsio/coolify](https://github.com/coollabsio/coolify) - 一个开源且可自托管的 Heroku / Netlify / Vercel 替代品。
-- [shlinkio/shlink](https://github.com/shlinkio/shlink) - 权威自托管短链接服务
-- [nadrad/h-m-m](https://github.com/nadrad/h-m-m) - h-m-m，即 Hackers Mind Map，是一款简单、快速、键盘为中心的终端思维导图工具。
+- [assimon/dujiaoka](https://github.com/assimon/dujiaoka) - 🦄 独角数卡（自动售货系统）- 开源站长自动化售货解决方案，高效、稳定、快速！🚀🚀🎉🎉
+- [luolongfei/freenom](https://github.com/luolongfei/freenom) - Freenom 域名自动续期。Freenom 域名自动续期。
+- [icret/EasyImages2.0](https://github.com/icret/EasyImages2.0) - 简单图床 - 一款功能强大无数据库的图床 2.0 版
+- [coollabsio/coolify](https://github.com/coollabsio/coolify) - 一个开源且可自托管的 Heroku / Netlify / Vercel 替代方案
+- [shlinkio/shlink](https://github.com/shlinkio/shlink) - 权威的自托管 URL 缩短器
+- [nadrad/h-m-m](https://github.com/nadrad/h-m-m) - h-m-m，或称 Hackers Mind Map，是一个简单、快速、以键盘为中心的终端思维导图工具
 - [osuuu/LightPicture](https://github.com/osuuu/LightPicture) - 企业/团队/个人图片资源管理系统、图床系统
-- [IO-Technologies/bashupload](https://github.com/IO-Technologies/bashupload) - bashupload.com 的开源代码 - 基于 PHP 的文件上传器，适用于 CLI、服务器、桌面和移动端
+- [IO-Technologies/bashupload](https://github.com/IO-Technologies/bashupload) - bashupload.com 开源项目 - 基于 PHP 的 CLI、服务器、桌面和移动端文件上传器
 - [renbaoshuo/Shortlink](https://github.com/renbaoshuo/Shortlink) - 短链接生成网站源码
 - [chenxuuu/shit-url](https://github.com/chenxuuu/shit-url) - 屑链生成，最屑的短链接生成站
 - [bugaosuni59/TH-CPL](https://github.com/bugaosuni59/TH-CPL) - 清华大学计算机学科推荐学术会议和期刊列表
 - [youranreus/Subscription-Manager](https://github.com/youranreus/Subscription-Manager) - 订阅管理
-- [guanguans/favorite-link](https://github.com/guanguans/favorite-link) - ❤️ 每天收集喜欢的开源项目。
-- [PGYER/codefever](https://github.com/PGYER/codefever) - CodeFever 是完全免费开源的 Git 代码托管服务，支持一行命令安装到自己服务器！CodeFever Community Edition（自托管 Git 服务）！
+- [guanguans/favorite-link](https://github.com/guanguans/favorite-link) - ❤️ 每天收集喜欢的开源项目
+- [PGYER/codefever](https://github.com/PGYER/codefever) - CodeFever 是完全免费开源的 Git 代码托管服务，支持一键安装到自有服务器！CodeFever 社区版（自托管 Git 服务）
 - [Anankke/SSPanel-UIM](https://github.com/Anankke/SSPanel-UIM) - 多用途代理服务管理系统
 - [privacy-protection-tools/dead-horse](https://github.com/privacy-protection-tools/dead-horse) - 
-- [xiebruce/PicUploader](https://github.com/xiebruce/PicUploader) - 不错的图床工具，支持Mac/Win/Linux服务器、支持压缩上传、添加图片/文字水印、多文件上传、多云端上传、右键任意文件上传、快捷键上传剪贴板截图、Web版、支持Mweb/Typora、PicGo/ShareX/uPic等定制，支持服务器部署作为接口，支持上传任意格式文件。
-- [5ime/video_spider](https://github.com/5ime/video_spider) - 短视频去水印：抖音、皮皮虾、火山、微视、微博、绿洲、最右、轻视频、快手、全民小视频、巴塞电影、陌陌、Before避风、开眼、Vue Vlog、小咖秀、皮皮搞笑、全民K歌、西瓜视频、逗拍、虎牙、6间房、梨视频、新片场、acfun、美拍...
-- [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) - 极简的开源在线 pastebin，服务端对数据零感知。数据在浏览器中使用 256 位 AES 加密/解密。
-- [ZainCheung/netease-cloud-api](https://github.com/ZainCheung/netease-cloud-api) - 网易云音乐升级 API
-- [SkyEmie/batch-obfuscator](https://github.com/SkyEmie/batch-obfuscator) - 简单混淆批处理文件（Windows）
-- [DenverCoder1/readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg) - ⚡ 动态生成的可自定义 SVG，模拟输入和删除文字，可用于个人页、仓库或网站。
-- [mylxsw/wizard](https://github.com/mylxsw/wizard) - Wizard是一款开源文档管理工具，支持 Markdown/Swagger/Table 类型文档。
-- [jimmielin/the-light](https://github.com/jimmielin/the-light) - The Light 为 The Seed 提供支持。
+- [xiebruce/PicUploader](https://github.com/xiebruce/PicUploader) - 一个不错的图床工具，支持 Mac/Win/Linux 服务器，支持压缩上传、添加图片或文字水印、多文件同时上传、多云同时上传、右键文件上传、快捷键上传剪贴板截图、Web 上传、支持作为 Mweb/Typora 发布图片接口、作为 PicGo/ShareX/uPic 等自定义图床，支持服务器部署图床接口，支持上传任意格式文件
+- [5ime/video_spider](https://github.com/5ime/video_spider) - 短视频去水印：抖音、皮皮虾、火山、微视、微博、绿洲、最右、轻视频、快手、全民小视频、巴塞电影、陌陌、Before避风、开眼、Vue Vlog 小咖秀、皮皮搞笑、全民K歌、西瓜视频、逗拍、虎牙、6间房、梨视频、新片场、acfun、美拍...
+- [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) - 极简开源在线粘贴工具，服务器对粘贴内容零知识。数据在浏览器使用 256 位 AES 加密/解密。
+- [ZainCheung/netease-cloud-api](https://github.com/ZainCheung/netease-cloud-api) - 网易云音乐升级版 API
+- [SkyEmie/batch-obfuscator](https://github.com/SkyEmie/batch-obfuscator) - 简单的批处理文件混淆工具（Windows）
+- [DenverCoder1/readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg) - ⚡ 动态生成、可定制的 SVG，呈现打字和删除文字效果，可用于个人主页、仓库或网站
+- [mylxsw/wizard](https://github.com/mylxsw/wizard) - Wizard 是一款开源文档管理工具，支持 Markdown/Swagger/Table 类型文档
+- [jimmielin/the-light](https://github.com/jimmielin/the-light) - The Light 驱动 The Seed。
 
 ## PLpgSQL 
 
-- [pirate/wikipedia-mirror](https://github.com/pirate/wikipedia-mirror) - 🌐 运行 Wikipedia.org 完全离线镜像的指南和工具，包含三种方式：Nginx 缓存代理、Kiwix+ZIM、MediaWiki/XOWA+XML
+- [pirate/wikipedia-mirror](https://github.com/pirate/wikipedia-mirror) - 🌐 使用三种不同方法运行完整离线 Wikipedia.org 镜像的指南和工具：Nginx 缓存代理、Kiwix + ZIM 转储，以及 MediaWiki/XOWA + XML 转储
 
 ## Pascal 
 
 - [tarcode-apps/BatteryMode](https://github.com/tarcode-apps/BatteryMode) - Windows 电池指示器替代品
-- [peazip/PeaZip](https://github.com/peazip/PeaZip) - 免费压缩/解压软件及 Rar 文件解压器。跨平台文件与归档管理器。支持分卷、压缩、认证加密。支持7Z、7-Zip sfx、ACE、ARJ、Brotli、BZ
-- [sashaoli/GiteaPanel](https://github.com/sashaoli/GiteaPanel) - 托盘管理本地 Gitea 服务器。Управління локальним сервером Gitea з трею.
+- [peazip/PeaZip](https://github.com/peazip/PeaZip) - 免费的压缩/解压软件和 Rar 文件解压器。跨平台文件和归档管理器。支持分卷压缩、认证加密。支持 7Z、7-Zip sfx、ACE、ARJ、Brotli、BZ
+- [sashaoli/GiteaPanel](https://github.com/sashaoli/GiteaPanel) - 从托盘管理本地 Gitea 服务器。 Управління локальним сервером Gitea з трею。
 
 ## Perl 
 
-- [linode/longview](https://github.com/linode/longview) - Linode Longview Agent
+- [linode/longview](https://github.com/linode/longview) - Linode Longview 代理
 
 ## PostScript 
 
-- [kenjihiranabe/The-Art-of-Linear-Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra) - Gilbert Strang《Linear Algebra for Everyone》图形笔记
-
+- [kenjihiranabe/The-Art-of-Linear-Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra) - Gilbert Strang 的《线性代数的艺术》图形笔记
 ## PowerShell 
 
-- [lucyllewy/one-script-wsl2-systemd](https://github.com/lucyllewy/one-script-wsl2-systemd) - 针对WSL2的systemd hack的单脚本版本
-- [devblackops/Terminal-Icons](https://github.com/devblackops/Terminal-Icons) - 一个在终端中显示文件和文件夹图标的PowerShell模块
-- [lptstr/winfetch](https://github.com/lptstr/winfetch) - 🛠 一个用PowerShell编写的命令行系统信息工具。类似于Neofetch，但适用于Windows。
-- [ScoopInstaller/Scoop](https://github.com/ScoopInstaller/Scoop) - Windows命令行安装器。
+- [lucyllewy/one-script-wsl2-systemd](https://github.com/lucyllewy/one-script-wsl2-systemd) - WSL2 的 systemd 破解的一键脚本版本
+- [devblackops/Terminal-Icons](https://github.com/devblackops/Terminal-Icons) - 一个 PowerShell 模块，用于在终端显示文件和文件夹图标
+- [lptstr/winfetch](https://github.com/lptstr/winfetch) - 🛠 一个用 PowerShell 编写的命令行系统信息工具。类似 Neofetch，但适用于 Windows。
+- [ScoopInstaller/Scoop](https://github.com/ScoopInstaller/Scoop) - Windows 的命令行安装器。
 - [gluons/powershell-git-aliases](https://github.com/gluons/powershell-git-aliases) - :octocat: Oh My Zsh 的 Git 别名，适用于 PowerShell。
 - [actions/runner-images](https://github.com/actions/runner-images) - GitHub Actions 运行器镜像
-- [AmrEldib/WindowsContextMenuCustomizations](https://github.com/AmrEldib/WindowsContextMenuCustomizations) - 修改Windows右键菜单的注册表项
+- [AmrEldib/WindowsContextMenuCustomizations](https://github.com/AmrEldib/WindowsContextMenuCustomizations) - 修改 Windows 右键菜单的注册表项
 - [dracula/powershell](https://github.com/dracula/powershell) - 🧛🏻‍♂️ PowerShell 和 cmd.exe 的暗黑主题
 
 ## Python 
 
-- [qianye216/OpenList-Desktop](https://github.com/qianye216/OpenList-Desktop) - OpenList Desktop 是一款为 OpenList (Alist) 和 Rclone 设计的跨平台桌面客户端。提供现代化且用户友好的图形界面，助您轻松管理 Alist 服务与 Rclone 云盘挂载，无需记忆和输入繁琐命令行指令。
-- [kvcache-ai/ktransformers](https://github.com/kvcache-ai/ktransformers) - 一个灵活的前沿LLM推理优化体验框架
-- [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate) - PDF 科研论文格式保留翻译 - 基于 AI 完全保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero
-- [microsoft/markitdown](https://github.com/microsoft/markitdown) - 用于将文件和 Office 文档转换为 Markdown 的 Python 工具。
-- [hiroi-sora/Umi-CUT](https://github.com/hiroi-sora/Umi-CUT) - 图片批量去黑边/裁剪/压缩工具，带界面。可排除图片边缘色块干扰，清除黑边。基于 Opencv 。
+- [qianye216/OpenList-Desktop](https://github.com/qianye216/OpenList-Desktop) - OpenList Desktop 是一个为 OpenList (Alist) 和 Rclone 设计的跨平台桌面客户端。它提供了一个现代化且用户友好的图形界面，帮助您轻松管理 Alist 服务和 Rclone 云盘挂载，无需记忆和输入繁琐的命令行指令。
+- [kvcache-ai/ktransformers](https://github.com/kvcache-ai/ktransformers) - 一个灵活的框架，用于体验前沿的大语言模型推理优化
+- [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate) - PDF 科学论文翻译，保留格式 - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero
+- [microsoft/markitdown](https://github.com/microsoft/markitdown) - 将文件和办公文档转换为 Markdown 的 Python 工具。
+- [hiroi-sora/Umi-CUT](https://github.com/hiroi-sora/Umi-CUT) - 图片批量去黑边/裁剪/压缩工具，带界面。可排除图片边缘的色块干扰，将黑边删除干净。基于 Opencv 。
 - [google-deepmind/alphafold3](https://github.com/google-deepmind/alphafold3) - AlphaFold 3 推理管道。
-- [CaoZ/XueCheBu-Crack](https://github.com/CaoZ/XueCheBu-Crack) - 学车的同学有福啦，再也不用傻傻地守在电脑前看几十个小时的视频了，轻轻一点，烦恼全消失~
+- [CaoZ/XueCheBu-Crack](https://github.com/CaoZ/XueCheBu-Crack) - 学车的同学有福啦，再也不用傻傻的守在电脑前看几十个小时的视频了，轻轻点一点，烦恼全不见~
 - [zhuozhiyongde/PKU-Auto-Reservation](https://github.com/zhuozhiyongde/PKU-Auto-Reservation) - 北京大学/北大/PKU自动预约入校
-- [aoguai/LiYing](https://github.com/aoguai/LiYing) - LiYing 是一套适用于自动化处理一般照相馆后期证件照流程的照片自动处理程序。
-- [chen08209/Clash.Meta](https://github.com/chen08209/Clash.Meta) - 为崩坏：星穹铁道 Mihomo API 解析数据设计的简易 Python Pydantic 模型。
+- [aoguai/LiYing](https://github.com/aoguai/LiYing) - LiYing 是一套适用于自动化 完成一般照相馆后期证件照处理流程的照片自动处理的程序。
+- [chen08209/Clash.Meta](https://github.com/chen08209/Clash.Meta) - 一个用于米哈游 API 解析数据的简单 Python Pydantic 模型，适用于崩坏：星穹铁道。
 - [arsenetar/dupeguru](https://github.com/arsenetar/dupeguru) - 查找重复文件
-- [2noise/ChatTTS](https://github.com/2noise/ChatTTS) - 用于日常对话的生成式语音模型。
-- [matheusfillipe/notes-todo_bot](https://github.com/matheusfillipe/notes-todo_bot) - 一个用于记录笔记、编辑并保存到 GitHub gist 的 Telegram 机器人
+- [2noise/ChatTTS](https://github.com/2noise/ChatTTS) - 一种用于日常对话的生成式语音模型。
+- [matheusfillipe/notes-todo_bot](https://github.com/matheusfillipe/notes-todo_bot) - 一个用于记笔记、编辑并保存到 GitHub Gist 的 Telegram 机器人
 - [xrl12/auto_back](https://github.com/xrl12/auto_back) - 自动备份
-- [LorenEteval/Furious](https://github.com/LorenEteval/Furious) - 基于 PySide6 的 GUI 代理客户端，支持 Xray-core & hysteria
-- [MetaCubeX/mihomo](https://github.com/MetaCubeX/mihomo) - 为崩坏：星穹铁道 Mihomo API 解析数据设计的简易 Python Pydantic 模型。
-- [euxcet/thulearn2018](https://github.com/euxcet/thulearn2018) - 清华大学网络学堂工具
-- [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) - 🗃 开源自托管网页归档工具。支持保存 URL/浏览器历史/书签/Pocket/Pinboard 等，保存 HTML、JS、PDF、媒体等内容...
-- [vvbbnn00/WARP-Clash-API](https://github.com/vvbbnn00/WARP-Clash-API) - 该项目可以让你通过订阅的方式使用 Cloudflare WARP+，自动获取流量。
-- [deadc0de6/dotdrop](https://github.com/deadc0de6/dotdrop) - 一次保存你的 dotfiles，随处部署
+- [LorenEteval/Furious](https://github.com/LorenEteval/Furious) - 基于 PySide6 的 GUI 代理客户端。支持 Xray-core 和 hysteria
+- [MetaCubeX/mihomo](https://github.com/MetaCubeX/mihomo) - 一个用于米哈游 API 解析数据的简单 Python Pydantic 模型，适用于崩坏：星穹铁道。
+- [euxcet/thulearn2018](https://github.com/euxcet/thulearn2018) - 清华大学网络学习工具。
+- [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) - 🗃 开源的自托管网页存档工具。支持 URL/浏览器历史/书签/Pocket/Pinboard 等，保存 HTML、JS、PDF、媒体等内容...
+- [vvbbnn00/WARP-Clash-API](https://github.com/vvbbnn00/WARP-Clash-API) - 该项目可以让你通过订阅的方式使用Cloudflare WARP+，自动获取流量。This project enables you to use Cloudflare WARP+ through subscription, automatically acquiring traffic.
+- [deadc0de6/dotdrop](https://github.com/deadc0de6/dotdrop) - 保存你的配置文件，一次部署到处使用
 - [MuggleWei/bdchecker](https://github.com/MuggleWei/bdchecker) - 备份数据检查工具
 - [ASKCOS/ASKCOS](https://github.com/ASKCOS/ASKCOS) - 计算机辅助合成规划软件包
-- [JoeanAmier/XHS-Downloader](https://github.com/JoeanAmier/XHS-Downloader) - 小红书链接提取/作品采集工具：提取账号发布、收藏、点赞、专辑作品链接；提取搜索结果作品、用户链接；采集作品信息；提取下载地址；下载无水印作品文件
-- [Coframe/coffee](https://github.com/Coframe/coffee) - 用AI在你自己的IDE中，10倍速搭建和迭代UI ☕️
-- [JoeanAmier/TikTokDownloader](https://github.com/JoeanAmier/TikTokDownloader) - TikTok 发布/喜欢/合辑/直播/视频/图集/音乐；抖音发布/喜欢/收藏/收藏夹/视频/图集/实况/直播/音乐/合集/评论/账号/搜索/热榜数据采集/下载工具
-- [V-know/ChatGPT-Telegram-Bot](https://github.com/V-know/ChatGPT-Telegram-Bot) - 拥有丝滑AI体验的Telegram机器人，带界面。
+- [JoeanAmier/XHS-Downloader](https://github.com/JoeanAmier/XHS-Downloader) - 小红书（XiaoHongShu、RedNote）链接提取/作品采集工具：提取账号发布、收藏、点赞、专辑作品链接；提取搜索结果作品、用户链接；采集小红书作品信息；提取小红书作品下载地址；下载小红书无水印作品文件
+- [Coframe/coffee](https://github.com/Coframe/coffee) - 使用 AI 从你的 IDE 中 10 倍速构建和迭代用户界面 ☕️
+- [JoeanAmier/TikTokDownloader](https://github.com/JoeanAmier/TikTokDownloader) - TikTok 发布/喜欢/合辑/直播/视频/图集/音乐；抖音发布/喜欢/收藏/收藏夹/视频/图集/实况/直播/音乐/合集/评论/账号/搜索/热榜数据采集工具/下载工具
+- [V-know/ChatGPT-Telegram-Bot](https://github.com/V-know/ChatGPT-Telegram-Bot) - 一个拥有流畅 AI 体验的 Telegram 机器人。启用 UI。
 - [pyecharts/pyecharts](https://github.com/pyecharts/pyecharts) - 🎨 Python Echarts 绘图库
-- [skypilot-org/skypilot](https://github.com/skypilot-org/skypilot) - SkyPilot：在任意基础设施（Kubernetes 或 16+ 云）上运行AI和批处理作业。通过简单界面实现统一执行、节省成本和高GPU可用性。
-- [jiji262/douyin-downloader](https://github.com/jiji262/douyin-downloader) - 抖音批量下载工具，去水印，支持视频、图集、合集、音乐（原声）。免费！免费！免费！
-- [sail-sg/EditAnything](https://github.com/sail-sg/EditAnything) - 基于 segment-anything、ControlNet、StableDiffusion 等的任意图像编辑工具。（ACM MM）
-- [jackhawks/rectg](https://github.com/jackhawks/rectg) - 从全网收集超 10000+ 个 Telegram 群组、频道和机器人，筛选优质且持续更新的资源，为数据分析、研究与学习提供支持。所有数据均来源互联网，仅供研究分析，不涉商用或违法，使用者需自担风险。
-- [PromtEngineer/localGPT](https://github.com/PromtEngineer/localGPT) - 在本地设备上用GPT模型与文档对话。数据完全本地，100%隐私。
-- [jtsang4/claude-to-chatgpt](https://github.com/jtsang4/claude-to-chatgpt) - 将Anthropic Claude模型API转换为OpenAI Chat API格式的项目。
-- [zhaoolee/wxread](https://github.com/zhaoolee/wxread) - 微信读书刷时长工具
-- [malinkang/weread2notion](https://github.com/malinkang/weread2notion) - 将微信读书划线同步到Notion
-- [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt) - 利用GPT私密地与文档交互，100%隐私，无数据泄露
+- [skypilot-org/skypilot](https://github.com/skypilot-org/skypilot) - SkyPilot：在任何基础设施（Kubernetes 或 16+ 云）上运行 AI 和批处理作业。通过简单界面实现统一执行、成本节约和高 GPU 可用性。
+- [jiji262/douyin-downloader](https://github.com/jiji262/douyin-downloader) - 抖音批量下载工具，去水印，支持视频、图集、合集、音乐(原声)。免费！免费！免费！
+- [sail-sg/EditAnything](https://github.com/sail-sg/EditAnything) - 基于 segment-anything、ControlNet、StableDiffusion 等技术的图像编辑工具（ACM MM）
+- [jackhawks/rectg](https://github.com/jackhawks/rectg) - 从全网搜集超 10000+ 个 Telegram 群组、频道和机器人，并筛选出优质且持续更新的资源，为 数据分析、研究与学习 提供支持。所有数据均来源于互联网，仅用于研究分析，不涉及商业或违法用途，使用者需自行承担风险。
+- [PromtEngineer/localGPT](https://github.com/PromtEngineer/localGPT) - 在本地设备上使用 GPT 模型与文档对话。数据不离开设备，100% 私密。
+- [jtsang4/claude-to-chatgpt](https://github.com/jtsang4/claude-to-chatgpt) - 本项目将 Anthropic 的 Claude 模型 API 转换为 OpenAI Chat API 格式。
+- [zhaoolee/wxread](https://github.com/zhaoolee/wxread) - 微信读书刷时长
+- [malinkang/weread2notion](https://github.com/malinkang/weread2notion) - 将微信读书划线同步到 Notion
+- [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt) - 使用 GPT 助力与您的文档交互，100% 私密，无数据泄露
 - [duaibeom/chemOCR](https://github.com/duaibeom/chemOCR) - 基于数据库的化学结构光学识别
-- [pengxiao-song/LaWGPT](https://github.com/pengxiao-song/LaWGPT) - 🎉 LaWGPT项目，基于中文法律知识的Chinese-Llama大语言模型。
-- [RUCAIBox/LLMSurvey](https://github.com/RUCAIBox/LLMSurvey) - 大语言模型综述论文官方GitHub页面。
-- [AIGC-Audio/AudioGPT](https://github.com/AIGC-Audio/AudioGPT) - AudioGPT：理解与生成语音、音乐、声音及说话人头像
-- [xtekky/gpt4free](https://github.com/xtekky/gpt4free) - 官方gpt4free仓库 | 各种强大语言模型合集 | o4、o3、deepseek r1、gpt-4.1、gemini 2.5
+- [pengxiao-song/LaWGPT](https://github.com/pengxiao-song/LaWGPT) - 🎉 LaWGPT 仓库，基于中文法律知识微调的中文 Llama 大语言模型。
+- [RUCAIBox/LLMSurvey](https://github.com/RUCAIBox/LLMSurvey) - 论文《大型语言模型综述》的官方 GitHub 页面。
+- [AIGC-Audio/AudioGPT](https://github.com/AIGC-Audio/AudioGPT) - AudioGPT：理解和生成语音、音乐、声音和说话头部动画
+- [xtekky/gpt4free](https://github.com/xtekky/gpt4free) - 官方 gpt4free 仓库 | 多种强大语言模型合集 | o4、o3 及 deepseek r1、gpt-4.1、gemini 2.5
 - [OpenMOSS/MOSS](https://github.com/OpenMOSS/MOSS) - 复旦大学开源的工具增强型对话语言模型
-- [togethercomputer/RedPajama-Data](https://github.com/togethercomputer/RedPajama-Data) - RedPajama-Data 仓库包含用于训练大语言模型的大型数据集准备代码。
-- [Vision-CAIR/MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) - MiniGPT-4 及 MiniGPT-v2 开源代码 (https://minigpt-4.github.io, https://minigpt-v2.github.io/)
-- [facebookresearch/AnimatedDrawings](https://github.com/facebookresearch/AnimatedDrawings) - 儿童人体绘画动画方法配套代码
-- [pypa/pipx](https://github.com/pypa/pipx) - 在隔离环境中安装和运行 Python 应用
+- [togethercomputer/RedPajama-Data](https://github.com/togethercomputer/RedPajama-Data) - RedPajama-Data 仓库包含用于训练大型语言模型的大型数据集准备代码。
+- [Vision-CAIR/MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) - MiniGPT-4 和 MiniGPT-v2 的开源代码 (https://minigpt-4.github.io, https://minigpt-v2.github.io/)
+- [facebookresearch/AnimatedDrawings](https://github.com/facebookresearch/AnimatedDrawings) - “儿童人物画动画方法”论文配套代码
+- [pypa/pipx](https://github.com/pypa/pipx) - 在隔离环境中安装和运行 Python 应用程序
 - [dylanjcastillo/shell-genie](https://github.com/dylanjcastillo/shell-genie) - 你的愿望就是我的命令
-- [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) - OpenAssistant 是基于对话的助理，可理解任务、交互第三方系统并动态检索信息。
-- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - AutoGPT 致力于让所有人都可用、可扩展的AI。我们的使命是提供工具，让你专注于重要的事。
-- [THUDM/GLM-130B](https://github.com/THUDM/GLM-130B) - GLM-130B: 开源双语预训练模型 (ICLR 2023)
-- [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) - ChatGLM-6B: 开源双语对话语言模型
-- [binary-husky/gpt_academic](https://github.com/binary-husky/gpt_academic) - 为GPT/GLM等LLM大模型提供实用交互接口，优化论文阅读/润色/写作体验，模块化设计，支持自定义快捷按钮&函数插件，支持Python和C++项目剖析与自译解，PDF/LaTex论文翻译与总结，支持多种LLM模型并行问询，支持本地chatglm3等。接入通义千问、deepseekcoder、讯飞星火、文心一言、llama2、rwkv、claude2、moss
-- [gd3kr/BlenderGPT](https://github.com/gd3kr/BlenderGPT) - 用英语指令结合OpenAI的GPT-4控制Blender
-- [receyuki/stable-diffusion-prompt-reader](https://github.com/receyuki/stable-diffusion-prompt-reader) - 独立的Stable Diffusion图片提示词读取器
+- [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) - OpenAssistant 是一个基于聊天的助手，能够理解任务，交互第三方系统，并动态检索信息。
+- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - AutoGPT 是人人都能使用和构建的可访问 AI 设想。我们的使命是提供工具，让你专注于重要的事情。
+- [THUDM/GLM-130B](https://github.com/THUDM/GLM-130B) - GLM-130B：开源双语预训练模型（ICLR 2023）
+- [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) - ChatGLM-6B：开源双语对话语言模型
+- [binary-husky/gpt_academic](https://github.com/binary-husky/gpt_academic) - 为 GPT/GLM 等大型语言模型提供实用交互接口，特别优化论文阅读/润色/写作体验，模块化设计，支持自定义快捷按钮和函数插件，支持 Python 和 C++ 等项目分析及自译功能，PDF/LaTex 论文翻译与总结，支持多模型并行问询及本地模型如 chatglm3。支持通义千问、deepseekcoder、讯飞星火、文心一言、llama2、rwkv、claude2、moss 等。
+- [gd3kr/BlenderGPT](https://github.com/gd3kr/BlenderGPT) - 使用英文命令通过 OpenAI 的 GPT-4 控制 Blender
+- [receyuki/stable-diffusion-prompt-reader](https://github.com/receyuki/stable-diffusion-prompt-reader) - 一个简单的独立查看器，用于读取 Stable Diffusion 生成图像的提示词，适用于非 WebUI 环境。
 - [Moksh-Bhardwaj/public-forward-bot](https://github.com/Moksh-Bhardwaj/public-forward-bot) - 
-- [lm-sys/FastChat](https://github.com/lm-sys/FastChat) - 大语言模型训练、服务和评估的开放平台。Vicuna 和 Chatbot Arena 官方仓库。
-- [chidiwilliams/buzz](https://github.com/chidiwilliams/buzz) - Buzz 在本地计算机离线转录和翻译音频。由OpenAI的Whisper驱动。
-- [phguo/AskGPT](https://github.com/phguo/AskGPT) - AskGPT：Alfred Workflow，可在任意输入时向ChatGPT提问。
-- [visual-openllm/visual-openllm](https://github.com/visual-openllm/visual-openllm) - 类似于visual-chatgpt，文心一言的开源版
-- [kale5195/chilloutai](https://github.com/kale5195/chilloutai) - AI图片生成
-- [npiv/chatblade](https://github.com/npiv/chatblade) - ChatGPT 命令行瑞士军刀
-- [yashsinghcodes/wik](https://github.com/yashsinghcodes/wik) - wik 用于在 shell 上通过 Wikipedia 获取任何信息。
-- [alpa-projects/alpa](https://github.com/alpa-projects/alpa) - 自动并行化大规模神经网络训练与服务
-- [SkywalkerDarren/chatWeb](https://github.com/SkywalkerDarren/chatWeb) - ChatWeb 可抓取网页、读取 PDF、DOCX、TXT 并提取主要内容，然后基于内容回答问题或总结要点。
+- [lm-sys/FastChat](https://github.com/lm-sys/FastChat) - 一个用于训练、服务和评估大型语言模型的开放平台。Vicuna 和 Chatbot Arena 发布仓库。
+- [chidiwilliams/buzz](https://github.com/chidiwilliams/buzz) - Buzz 在你的个人电脑上离线转录和翻译音频。基于 OpenAI 的 Whisper。
+- [phguo/AskGPT](https://github.com/phguo/AskGPT) - AskGPT：一个 Alfred 工作流，可让你随时向 ChatGPT 提问。
+- [visual-openllm/visual-openllm](https://github.com/visual-openllm/visual-openllm) - 类似 visual-chatgpt，文心一言的开源版本
+- [kale5195/chilloutai](https://github.com/kale5195/chilloutai) - AI 图片生成
+- [npiv/chatblade](https://github.com/npiv/chatblade) - ChatGPT 的命令行瑞士军刀
+- [yashsinghcodes/wik](https://github.com/yashsinghcodes/wik) - wik 用于在 shell 上使用维基百科获取任何信息。
+- [alpa-projects/alpa](https://github.com/alpa-projects/alpa) - 使用自动并行化训练和服务大规模神经网络。
+- [SkywalkerDarren/chatWeb](https://github.com/SkywalkerDarren/chatWeb) - ChatWeb 可爬取网页，读取 PDF、DOCX、TXT，并提取主要内容，然后基于内容回答你的问题或总结要点。
 - [chenfei-wu/TaskMatrix](https://github.com/chenfei-wu/TaskMatrix) - 
-- [yihong0618/bilingual_book_maker](https://github.com/yihong0618/bilingual_book_maker) - 使用AI翻译制作双语epub书籍
-- [evilpan/gptcli](https://github.com/evilpan/gptcli) - 命令行 ChatGPT，支持 OpenAI API (gpt-3.5-turbo/gpt-4/gpt-4-32k)
-- [mukulpatnaik/researchgpt](https://github.com/mukulpatnaik/researchgpt) - 基于LLM的科研助手，可与论文对话
-- [OFA-Sys/Chinese-CLIP](https://github.com/OFA-Sys/Chinese-CLIP) - 中文版 CLIP，支持中文跨模态检索与表征生成。
-- [father-bot/chatgpt_telegram_bot](https://github.com/father-bot/chatgpt_telegram_bot) - 💬 使用 OpenAI API 的 Python 版 ChatGPT Telegram 机器人。
-- [yihong0618/xiaogpt](https://github.com/yihong0618/xiaogpt) - 用小米AI音箱玩转ChatGPT及其他大语言模型
-- [PR0FESS0R-99/Midukki-RoBoT](https://github.com/PR0FESS0R-99/Midukki-RoBoT) - Midukki-RoBoT 是一款集群管理机器人，具备高级安全工具，满足群组管理需求 ❤️
-- [microsoft/Codex-CLI](https://github.com/microsoft/Codex-CLI) - 使用Codex将自然语言命令转为Bash/ZShell/PowerShell等等效命令的CLI工具
-- [acheong08/ChatGPT](https://github.com/acheong08/ChatGPT) - ChatGPT 逆向工程 API
-- [anasty17/mirror-leech-telegram-bot](https://github.com/anasty17/mirror-leech-telegram-bot) - 官方仓库：Telegram机器人，支持下载直链、种子、nzb、Google Drive、Telegram文档、rclone支持的云、所有yt-dlp支持站点及jdownloa
-- [Gsllchb/Handright](https://github.com/Gsllchb/Handright) - 轻量级中文手写体模拟 Python 库
-- [ahui2016/R2-Gallery](https://github.com/ahui2016/R2-Gallery) - 个人独立相册，图片存储采用 Cloudflare R2 实现。
+- [yihong0618/bilingual_book_maker](https://github.com/yihong0618/bilingual_book_maker) - 使用 AI 翻译制作双语 epub 书籍
+- [evilpan/gptcli](https://github.com/evilpan/gptcli) - 命令行中的 ChatGPT，使用 OpenAI API（gpt-3.5-turbo/gpt-4/gpt-4-32k）
+- [mukulpatnaik/researchgpt](https://github.com/mukulpatnaik/researchgpt) - 基于大型语言模型的研究助手，允许你与研究论文对话
+- [OFA-Sys/Chinese-CLIP](https://github.com/OFA-Sys/Chinese-CLIP) - 中文版 CLIP，实现中文跨模态检索和表征生成。
+- [father-bot/chatgpt_telegram_bot](https://github.com/father-bot/chatgpt_telegram_bot) - 💬 基于 Python 的 Telegram ChatGPT 机器人，使用 OpenAI API。
+- [yihong0618/xiaogpt](https://github.com/yihong0618/xiaogpt) - 使用小米 AI 音箱玩转 ChatGPT 和其他大型语言模型
+- [PR0FESS0R-99/Midukki-RoBoT](https://github.com/PR0FESS0R-99/Midukki-RoBoT) - Midukki-RoBoT 是一个一体化的群组管理机器人，配备高级安全工具，满足你的所有需求 ❤️
+- [microsoft/Codex-CLI](https://github.com/microsoft/Codex-CLI) - 使用 Codex 将自然语言命令转换为 Bash/ZShell/PowerShell 等效命令的 CLI 工具
+- [acheong08/ChatGPT](https://github.com/acheong08/ChatGPT) - 反向工程的 ChatGPT API
+- [anasty17/mirror-leech-telegram-bot](https://github.com/anasty17/mirror-leech-telegram-bot) - 官方仓库：Telegram 机器人，可下载直链、种子、nzb、谷歌云盘、Telegram 文档、rclone 支持的云端文件夹、所有 yt-dlp 支持的网站和 jdownloa
+- [Gsllchb/Handright](https://github.com/Gsllchb/Handright) - 一个轻量级的 Python 库，用于模拟中文手写
+- [ahui2016/R2-Gallery](https://github.com/ahui2016/R2-Gallery) - 个人独立相册，其中图片存储采用 Cloudflare R2 实现。
 - [yash1th/unsplash-album-downloader](https://github.com/yash1th/unsplash-album-downloader) - 下载 Unsplash 整个相册的照片
-- [Cog-Creators/Red-DiscordBot](https://github.com/Cog-Creators/Red-DiscordBot) - 多功能 Discord 机器人
-- [sjvasquez/handwriting-synthesis](https://github.com/sjvasquez/handwriting-synthesis) - 基于RNN的手写体合成 ✏️
-- [zhelper-org/tgbot](https://github.com/zhelper-org/tgbot) - zhelper tgbot
-- [approximatelabs/sketch](https://github.com/approximatelabs/sketch) - 理解数据内容的AI代码编写助手
-- [ehulinsky/AnalogChess](https://github.com/ehulinsky/AnalogChess) - 无网格棋盘的国际象棋
-- [PantsuDango/Dango-Translator](https://github.com/PantsuDango/Dango-Translator) - 团子翻译器 —— 个人兴趣开发的基于OCR技术的翻译工具
-- [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) - 最简单、最快速的中型GPT训练与微调仓库。
-- [liblaf/thu-learn-downloader](https://github.com/liblaf/thu-learn-downloader) - 下载清华大学网络学堂所有内容
-- [WhymustIhaveaname/TsinghuaTunet](https://github.com/WhymustIhaveaname/TsinghuaTunet) - 清华校园网自动连接脚本
+- [Cog-Creators/Red-DiscordBot](https://github.com/Cog-Creators/Red-DiscordBot) - 一个多功能 Discord 机器人
+- [sjvasquez/handwriting-synthesis](https://github.com/sjvasquez/handwriting-synthesis) - 基于 RNN 的手写合成 ✏️
+- [zhelper-org/tgbot](https://github.com/zhelper-org/tgbot) - zhelper Telegram 机器人
+- [approximatelabs/sketch](https://github.com/approximatelabs/sketch) - 理解数据内容的 AI 代码编写助手
+- [ehulinsky/AnalogChess](https://github.com/ehulinsky/AnalogChess) - 无棋盘的国际象棋
+- [PantsuDango/Dango-Translator](https://github.com/PantsuDango/Dango-Translator) - 团子翻译器 —— 个人兴趣制作的一款基于 OCR 技术的翻译器
+- [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) - 训练/微调中等规模 GPT 的最简单最快速仓库。
+- [liblaf/thu-learn-downloader](https://github.com/liblaf/thu-learn-downloader) - 下载清华大学网络学习平台的所有内容
+
+- [WhymustIhaveaname/TsinghuaTunet](https://github.com/WhymustIhaveaname/TsinghuaTunet) - 清华校园网自动连接脚本。
 - [zhaoolee/ins](https://github.com/zhaoolee/ins) - 🍭互联网从业者的灵感数据库，无广告，Github Actions自动检测网站访问速度
 - [lonnyzhang423/douyin-hot-hub](https://github.com/lonnyzhang423/douyin-hot-hub) - 记录抖音热榜、明星榜、直播榜、音乐榜和品牌榜，每小时更新，按天归档。
-- [net4people/bbs](https://github.com/net4people/bbs) - 用于讨论互联网审查规避的论坛
-- [kael-k/telegram-webdav-integration-bot](https://github.com/kael-k/telegram-webdav-integration-bot) - Telegram 机器人消费者，将照片、视频和文档发送到 webdav 目录
-- [qazxcdswe123/telegramMemoBot](https://github.com/qazxcdswe123/telegramMemoBot) - 一个用于 https://github.com/usememos/memos 的 telegram 机器人
-- [carson-katri/dream-textures](https://github.com/carson-katri/dream-textures) - 在 Blender 中内置 Stable Diffusion
-- [openai/openai-python](https://github.com/openai/openai-python) - OpenAI API 的官方 Python 库
-- [apple/ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion) - Apple Silicon 上基于 Core ML 的 Stable Diffusion
-- [HFrost0/bilix](https://github.com/HFrost0/bilix) - ⚡️极快的异步 bilibili 等下载工具
-- [Evil0ctal/Douyin_TikTok_Download_API](https://github.com/Evil0ctal/Douyin_TikTok_Download_API) - 🚀「Douyin_TikTok_Download_API」高性能异步抖音、快手、TikTok、Bilibili 数据爬取工具，支持 API 调用、在线批量解析及下载。
-- [Johnserf-Seed/TikTokDownload](https://github.com/Johnserf-Seed/TikTokDownload) - 批量下载抖音用户主页作品、喜欢、收藏、图文、音频，去水印
-- [OpenShot/openshot-qt](https://github.com/OpenShot/openshot-qt) - OpenShot 视频编辑器是一款屡获殊荣的免费开源视频编辑器，支持 Linux、Mac 和 Windows，致力于为全球提供高质量的视频编辑和动画解决方案。
-- [yym68686/ChatGPT-Telegram-Bot](https://github.com/yym68686/ChatGPT-Telegram-Bot) - TeleChat: 🤖️ AI 聊天 Telegram 机器人，支持 GPT-3.5/4/4 Turbo/4o、DALL·E 3、Groq、Gemini 1.5 Pro/Flash 及官方 Claude2.1/3/3.5 API，基于 Python 在 Zeabur、fly.io 和 Replit 上运行
-- [bestmatteo/Telegram-Bot](https://github.com/bestmatteo/Telegram-Bot) - 用 Selenium 实现的 Telegram 自动消息转发机器人
-- [altryne/chatGPT-telegram-bot](https://github.com/altryne/chatGPT-telegram-bot) - 这是一个在 telegram 机器人中集成 chatGPT 的早期尝试
-- [radude/rentry](https://github.com/radude/rentry) - 命令行下的 Markdown pastebin
-- [erbanku/zhihu-archiver-2022-archived](https://github.com/erbanku/zhihu-archiver-2022-archived) - 每日自动抓取知乎热榜，转换为 Markdown 文件并生成静态网站
-- [shiwk20/TsinghuaCloudDownload](https://github.com/shiwk20/TsinghuaCloudDownload) - 清华云盘文件下载脚本。
-- [QianyanTech/Image-Downloader](https://github.com/QianyanTech/Image-Downloader) - 从 Google、Bing、百度下载图片。谷歌、百度、必应图片下载。
+- [net4people/bbs](https://github.com/net4people/bbs) - 讨论互联网审查规避的论坛
+- [kael-k/telegram-webdav-integration-bot](https://github.com/kael-k/telegram-webdav-integration-bot) - Telegram机器人客户端，将照片、视频和文档发送到webdav目录
+- [qazxcdswe123/telegramMemoBot](https://github.com/qazxcdswe123/telegramMemoBot) - 一个用于https://github.com/usememos/memos的Telegram机器人
+- [carson-katri/dream-textures](https://github.com/carson-katri/dream-textures) - Stable Diffusion内置于Blender
+- [openai/openai-python](https://github.com/openai/openai-python) - OpenAI API的官方Python库
+- [apple/ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion) - 基于Apple Silicon的Core ML实现的Stable Diffusion
+- [HFrost0/bilix](https://github.com/HFrost0/bilix) - ⚡️高速异步下载工具，支持哔哩哔哩等平台
+- [Evil0ctal/Douyin_TikTok_Download_API](https://github.com/Evil0ctal/Douyin_TikTok_Download_API) - 🚀「Douyin_TikTok_Download_API」是一个开箱即用的高性能异步抖音、快手、TikTok、Bilibili数据爬取工具，支持API调用，在线批量解析及下载。
+- [Johnserf-Seed/TikTokDownload](https://github.com/Johnserf-Seed/TikTokDownload) - 抖音去水印批量下载用户主页作品、喜欢、收藏、图文、音频
+- [OpenShot/openshot-qt](https://github.com/OpenShot/openshot-qt) - OpenShot视频编辑器，是一款获奖的免费开源视频编辑器，支持Linux、Mac和Windows，致力于为全球提供高质量的视频编辑和动画解决方案。
+- [yym68686/ChatGPT-Telegram-Bot](https://github.com/yym68686/ChatGPT-Telegram-Bot) - TeleChat：🤖️ 一个基于GPT-3.5/4/4 Turbo/4o、DALL·E 3、Groq、Gemini 1.5 Pro/Flash及官方Claude2.1/3/3.5 API的AI聊天Telegram机器人，使用Python在Zeabur、fly.io和Replit上运行，支持网络搜索。
+- [bestmatteo/Telegram-Bot](https://github.com/bestmatteo/Telegram-Bot) - 使用Selenium的Telegram消息自动转发器
+- [altryne/chatGPT-telegram-bot](https://github.com/altryne/chatGPT-telegram-bot) - 在Telegram机器人中实现ChatGPT的早期尝试
+- [radude/rentry](https://github.com/radude/rentry) - 命令行Markdown粘贴板
+- [erbanku/zhihu-archiver-2022-archived](https://github.com/erbanku/zhihu-archiver-2022-archived) - 每日自动抓取知乎热榜，转换成Markdown文件并构建静态网站
+- [shiwk20/TsinghuaCloudDownload](https://github.com/shiwk20/TsinghuaCloudDownload) - 用于从清华云盘下载文件的脚本
+- [QianyanTech/Image-Downloader](https://github.com/QianyanTech/Image-Downloader) - 从Google、Bing、百度下载图片。谷歌、百度、必应图片下载。
 - [mli/autocut](https://github.com/mli/autocut) - 用文本编辑器剪辑视频
-- [THUDM/CodeGeeX](https://github.com/THUDM/CodeGeeX) - CodeGeeX：开源多语言代码生成模型（KDD 2023）
-- [MaxxRider/Leech-Pro](https://github.com/MaxxRider/Leech-Pro) - Telegram Leech / Mirror 机器人，基于 Python。👉支持上传文件和文件夹到 gdrive 或 rclone 支持的任意网盘，如 onedrive、mega 等，支持解压、解包等。
-- [kerm-me/docdown](https://github.com/kerm-me/docdown) - 基于 playwright 的原创力文档 book118 和豆丁网 docin 下载工具
-- [jagrit007/Telegram-CloneBot](https://github.com/jagrit007/Telegram-CloneBot) - [使用 ALPHA 分支] 简单的机器人，可将 Google Drive 文件（或文件夹）克隆到团队盘或个人盘。注意这不是 Mirror Bot。祝使用愉快 ✌🏻
-- [danielgatis/rembg](https://github.com/danielgatis/rembg) - Rembg 是一款移除图片背景的工具
-- [Sam-Max/rcmltb](https://github.com/Sam-Max/rcmltb) - rclone telegram 机器人，用于多云服务器之间的镜像、leech 和复制
+- [THUDM/CodeGeeX](https://github.com/THUDM/CodeGeeX) - CodeGeeX：一个开放的多语言代码生成模型（KDD 2023）
+- [MaxxRider/Leech-Pro](https://github.com/MaxxRider/Leech-Pro) - 这是一个基于Python的Telegram吸取/镜像机器人。支持上传文件和文件夹到Google Drive或任何支持rclone.org的云盘，如OneDrive、Mega等。现支持解压zip、rar等。
+- [kerm-me/docdown](https://github.com/kerm-me/docdown) - 使用playwright强力驱动的原创力文档book118和豆丁网docin下载工具
+- [jagrit007/Telegram-CloneBot](https://github.com/jagrit007/Telegram-CloneBot) - [使用ALPHA分支] 简单的机器人，用于克隆Google Drive文件（或文件夹）到你的团队盘[或普通盘]。备注：这不是镜像机器人。祝您愉快✌🏻
+- [danielgatis/rembg](https://github.com/danielgatis/rembg) - Rembg是一个图片背景去除工具
+- [Sam-Max/rcmltb](https://github.com/Sam-Max/rcmltb) - 一个rclone Telegram机器人，用于云服务器之间的镜像、吸取和复制
 - [mpc001/Visual_Speech_Recognition_for_Multiple_Languages](https://github.com/mpc001/Visual_Speech_Recognition_for_Multiple_Languages) - 多语言视觉语音识别
-- [StevenBlack/hosts](https://github.com/StevenBlack/hosts) - 🔒 整合并扩展来自多个精选来源的 hosts 文件。可选扩展色情、社交媒体等类别。
-- [soxoj/maigret](https://github.com/soxoj/maigret) - 🕵️‍♂️ 通过用户名从数千个网站收集个人档案信息
-- [mxrch/GitFive](https://github.com/mxrch/GitFive) - 🐙 查找 GitHub 用户。
-- [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - Stable Diffusion 网页界面
-- [openai/whisper](https://github.com/openai/whisper) - 基于大规模弱监督的强大语音识别系统
-- [magicse/GFPGANv1.3-to-ncnn](https://github.com/magicse/GFPGANv1.3-to-ncnn) - GFPGAN 网络由两部分组成：GFPGAN 和 StyleGAN2
+- [StevenBlack/hosts](https://github.com/StevenBlack/hosts) - 🔒 整合并扩展多个优质来源的hosts文件。可选择添加成人内容、社交媒体及其他类别的扩展。
+- [soxoj/maigret](https://github.com/soxoj/maigret) - 🕵️‍♂️ 通过用户名从数千个网站收集个人档案
+- [mxrch/GitFive](https://github.com/mxrch/GitFive) - 🐙 追踪GitHub用户。
+- [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - Stable Diffusion网页用户界面
+- [openai/whisper](https://github.com/openai/whisper) - 通过大规模弱监督实现的鲁棒语音识别
+- [magicse/GFPGANv1.3-to-ncnn](https://github.com/magicse/GFPGANv1.3-to-ncnn) - GFPGAN网络由两个网络组成，实际上是GFPGAN和StyleGAN2
 - [pixray/pixray](https://github.com/pixray/pixray) - 
-- [subframe7536/maple-font](https://github.com/subframe7536/maple-font) - Maple Mono：开源圆角等宽字体，含连字和 Nerd-Font 控制台图标，细粒度自定义。带连字和控制台图标的圆角等宽字体，中英文宽度完美2:1，细粒度自定义选项
-- [aws/aws-cli](https://github.com/aws/aws-cli) - Amazon Web Services 的通用命令行界面
-- [archinetai/audio-diffusion-pytorch](https://github.com/archinetai/audio-diffusion-pytorch) - 基于 PyTorch 的扩散模型音频生成
+- [subframe7536/maple-font](https://github.com/subframe7536/maple-font) - Maple Mono：开源圆角等宽字体，带连字和Nerd-Font图标，适用于IDE和终端，支持细粒度定制。中英文宽度完美2:1。
+- [aws/aws-cli](https://github.com/aws/aws-cli) - 亚马逊云服务通用命令行界面
+- [archinetai/audio-diffusion-pytorch](https://github.com/archinetai/audio-diffusion-pytorch) - 基于PyTorch的音频扩散模型生成
 - [Aadhi000/File-To-Link](https://github.com/Aadhi000/File-To-Link) - 
-- [microsoft/fluentui-emoji](https://github.com/microsoft/fluentui-emoji) - 微软推出的熟悉、友好、现代的 emoji 集合
-- [donnemartin/awesome-aws](https://github.com/donnemartin/awesome-aws) - 精选的 Amazon Web Services (AWS) 库、开源项目、指南、博客及其他资源列表。特色 Fiery Meter of AWSome。
-- [google-deepmind/alphafold](https://github.com/google-deepmind/alphafold) - AlphaFold 2 的开源代码
-- [mikf/gallery-dl](https://github.com/mikf/gallery-dl) - 命令行图片画廊和集合下载工具，支持多个图片托管站点
+- [microsoft/fluentui-emoji](https://github.com/microsoft/fluentui-emoji) - 微软的熟悉、友好且现代的表情符号集合
+- [donnemartin/awesome-aws](https://github.com/donnemartin/awesome-aws) - 精选的亚马逊云服务（AWS）库、开源仓库、指南、博客和其他资源列表。特色AWS精彩指标。
+- [google-deepmind/alphafold](https://github.com/google-deepmind/alphafold) - AlphaFold 2的开源代码
+- [mikf/gallery-dl](https://github.com/mikf/gallery-dl) - 命令行程序，用于下载多个图片托管网站的图集和集合
 - [NVlabs/eg3d](https://github.com/NVlabs/eg3d) - 
-- [chrieke/prettymapp](https://github.com/chrieke/prettymapp) - 🖼️ 在 streamlit web 应用中用 OpenStreetMap 数据创建美丽地图
-- [streamlit/streamlit](https://github.com/streamlit/streamlit) - Streamlit — 更快构建和分享数据应用的方式。
-- [yihong0618/GitHubPoster](https://github.com/yihong0618/GitHubPoster) - 让一切都成为 GitHub svg 海报和 Skyline！
-- [yihong0618/Kindle_download_helper](https://github.com/yihong0618/Kindle_download_helper) - 下载你所有 Kindle 书籍的脚本。
-- [athphane/userbot](https://github.com/athphane/userbot) - 基于 Pyrogram 的 Telegram 用户机器人
-- [3b1b/manim](https://github.com/3b1b/manim) - 用于解释性数学视频的动画引擎
-- [ivy-llc/ivy](https://github.com/ivy-llc/ivy) - 机器学习代码框架间转换工具
-- [tuna/tunasync-scripts](https://github.com/tuna/tunasync-scripts) - 镜像任务自定义脚本
-- [Textualize/textual](https://github.com/Textualize/textual) - Python 精简应用框架。用简单 Python API 构建复杂用户界面，可在终端和网页浏览器运行。
-- [Textualize/rich-cli](https://github.com/Textualize/rich-cli) - rich-cli 是终端花式输出命令行工具箱
-- [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) - 基于 PaddlePaddle 的多语言 OCR 及文档解析工具包（实用超轻量 OCR 系统，支持 80+ 语言识别，提供数据标注与合成工具等）
-- [zqthu/thu_cloud_download](https://github.com/zqthu/thu_cloud_download) - 从清华云（https://cloud.tsinghua.edu.cn/）的分享链接获取文件
+- [chrieke/prettymapp](https://github.com/chrieke/prettymapp) - 🖼️ 使用Streamlit网页应用从OpenStreetMap数据创建美观地图
+- [streamlit/streamlit](https://github.com/streamlit/streamlit) - Streamlit——构建和分享数据应用的更快方式。
+- [yihong0618/GitHubPoster](https://github.com/yihong0618/GitHubPoster) - 将所有内容制作成GitHub SVG海报和天际线！
+- [yihong0618/Kindle_download_helper](https://github.com/yihong0618/Kindle_download_helper) - 下载你所有Kindle书籍的脚本。
+- [athphane/userbot](https://github.com/athphane/userbot) - 使用Pyrogram构建的Telegram用户机器人
+- [3b1b/manim](https://github.com/3b1b/manim) - 用于解释数学视频的动画引擎
+- [ivy-llc/ivy](https://github.com/ivy-llc/ivy) - 不同机器学习框架之间的代码转换工具
+- [tuna/tunasync-scripts](https://github.com/tuna/tunasync-scripts) - 镜像任务的自定义脚本
+- [Textualize/textual](https://github.com/Textualize/textual) - 适用于Python的精简应用框架。使用简单的Python API构建复杂用户界面。可在终端和网页浏览器中运行应用。
+- [Textualize/rich-cli](https://github.com/Textualize/rich-cli) - Rich-cli是终端华丽输出的命令行工具箱
+- [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) - 基于PaddlePaddle的多语言OCR和文档解析工具包（实用的超轻量级OCR系统，支持80+语言识别，提供数据标注和合成工具）
+- [zqthu/thu_cloud_download](https://github.com/zqthu/thu_cloud_download) - 从清华云（https://cloud.tsinghua.edu.cn/）的共享链接获取文件
 - [ILTShade/tsinghua_cloud_upload](https://github.com/ILTShade/tsinghua_cloud_upload) - 
-- [mingrammer/diagrams](https://github.com/mingrammer/diagrams) - :art: 用代码绘制云系统架构原型图
-- [RaphielGang/Telegram-Paperplane](https://github.com/RaphielGang/Telegram-Paperplane) - Paperplane 用户机器人项目——提升你的 Telegram 使用体验。https://t.me/tgpaperplane
+- [mingrammer/diagrams](https://github.com/mingrammer/diagrams) - :art: 用代码绘制云系统架构图的工具
+- [RaphielGang/Telegram-Paperplane](https://github.com/RaphielGang/Telegram-Paperplane) - Paperplane用户机器人项目 - 一个帮助提升Telegram体验的Telegram用户机器人。https://t.me/tgpaperplane
 - [zhanghefan123/Starperf-Satellite-Simulator](https://github.com/zhanghefan123/Starperf-Satellite-Simulator) - 清华卫星网络仿真平台
-- [aaronraimist/element-themes](https://github.com/aaronraimist/element-themes) - 分享 Element 主题的地方，欢迎提交新主题 PR！
-- [borisdayma/dalle-mini](https://github.com/borisdayma/dalle-mini) - DALL·E Mini - 根据文本提示生成图片
+- [aaronraimist/element-themes](https://github.com/aaronraimist/element-themes) - 分享Element主题的地方，欢迎提交新主题PR！
+- [borisdayma/dalle-mini](https://github.com/borisdayma/dalle-mini) - DALL·E Mini - 从文本提示生成图像
 - [Konano/thu-info-forwarder](https://github.com/Konano/thu-info-forwarder) - 
-- [python/cpython](https://github.com/python/cpython) - Python 编程语言
-- [khoben/telemirror](https://github.com/khoben/telemirror) - Telegram 消息转发机器人（客户端 API）
-- [CMiksche/gitea-auto-update](https://github.com/CMiksche/gitea-auto-update) - 可通过 crontab 自动更新 gitea 的脚本
-- [praneetk2704/JPG-to-PDF](https://github.com/praneetk2704/JPG-to-PDF) - 简单的 Python 脚本，可在数秒内将多张图片生成 PDF 文件。
+- [python/cpython](https://github.com/python/cpython) - Python编程语言
+- [khoben/telemirror](https://github.com/khoben/telemirror) - Telegram消息转发器（客户端API）
+- [CMiksche/gitea-auto-update](https://github.com/CMiksche/gitea-auto-update) - 一个通过crontab自动更新gitea到新版本的脚本。
+- [praneetk2704/JPG-to-PDF](https://github.com/praneetk2704/JPG-to-PDF) - 简单的Python脚本，几秒内将一组图片转换为PDF文件。
 - [Polaris119/Epidemic-visualization](https://github.com/Polaris119/Epidemic-visualization) - 中国新冠疫情数据可视化
-- [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) - 让大模型更便宜、更快、更易用
-- [blackboxo/CleanMyWechat](https://github.com/blackboxo/CleanMyWechat) - 自动删除 PC 端微信缓存数据，包括所有聊天中自动下载的大量文件、视频、图片等，释放空间。
+- [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) - 让大型AI模型更便宜、更快、更易用
+- [blackboxo/CleanMyWechat](https://github.com/blackboxo/CleanMyWechat) - 自动删除PC端微信缓存数据，包括所有聊天中自动下载的大量文件、视频、图片等内容，释放空间。
 - [why20021008/hand-write](https://github.com/why20021008/hand-write) - 模拟手写效果，节省时间。
 - [FederatedAI/FATE](https://github.com/FederatedAI/FATE) - 工业级联邦学习框架
-- [google-parfait/tensorflow-federated](https://github.com/google-parfait/tensorflow-federated) - 在分布式数据上进行机器学习及其他计算的开源框架
-- [project-alice-assistant/ProjectAlice](https://github.com/project-alice-assistant/ProjectAlice) - Project Alice 主仓库，包含主单元源码
-- [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) - 人人可用、随时随地的投资研究工具
-- [GeekTG/Friendly-Telegram](https://github.com/GeekTG/Friendly-Telegram) - 最佳带内联按钮支持的 Telegram 用户机器人
-- [archlinux/archinstall](https://github.com/archlinux/archinstall) - Arch Linux 安装器——支持引导、模板等功能
-- [globus/globus-cli](https://github.com/globus/globus-cli) - Globus 命令行界面
-- [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) - Linux、Jenkins、AWS、SRE、Prometheus、Docker、Python、Ansible、Git、Kubernetes、Terraform、OpenStack、SQL、NoSQL、Azure、GCP、DNS、Elastic、网络、虚拟化。DevOps 面试题
-- [YaoFANGUK/video-subtitle-extractor](https://github.com/YaoFANGUK/video-subtitle-extractor) - 视频硬字幕提取，生成 srt 文件。本地实现文本识别，无需第三方 API。基于深度学习的视频字幕提取框架，包含字幕区域检测、内容提取。A GUI tool for extracting hard-coded subtitle (hardsub) from videos and generating srt files.
-- [aaPanel/aaPanel](https://github.com/aaPanel/aaPanel) - 简单但强大的基于 Web 的服务器运维面板
-- [aaPanel/BaoTa](https://github.com/aaPanel/BaoTa) - 宝塔 Linux 面板——简单好用的服务器运维面板
-- [Dragon-Born/warpy](https://github.com/Dragon-Born/warpy) - 用 Python 编写的命令行程序，可将 WARP+ 作为 WireGuard 获取
-- [pinry/pinry](https://github.com/pinry/pinry) - Pinry，适合需要保存、标签、分享图片、视频和网页的平铺式画板系统，易于浏览。开源自托管。
-- [nvbn/thefuck](https://github.com/nvbn/thefuck) - 超棒的应用，可自动纠正你之前的控制台命令。
-- [httpie/cli](https://github.com/httpie/cli) - 🥧 HTTPie CLI —— 现代、用户友好的命令行 HTTP 客户端，支持 JSON、高亮、会话、下载、插件等。
-- [alfem/telegram-download-daemon](https://github.com/alfem/telegram-download-daemon) - 简易脚本，自动下载 telegram 大文件
-- [No-OnE-Kn0wS-Me/FileRenameBot](https://github.com/No-OnE-Kn0wS-Me/FileRenameBot) - 支持永久缩略图的 Telegram 文件重命名机器人，也可将文件转换为视频！
-- [Eugeny/tabby-web](https://github.com/Eugeny/tabby-web) - Tabby Web - 浏览器中的 SSH/Telnet/串口客户端
-- [QIN2DIM/sspanel-mining](https://github.com/QIN2DIM/sspanel-mining) - 🥤 收集、清洗、分类和存储互联网上暴露的 SSPanel-Uim 站点。
-- [Ehco1996/django-sspanel](https://github.com/Ehco1996/django-sspanel) - 用 diango 开发的 shadowsocks 面板
-- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - 学习如何设计大规模系统，系统设计面试准备，含 Anki 闪卡。
-- [mvt-project/mvt](https://github.com/mvt-project/mvt) - MVT（移动验证工具包）帮助对移动设备进行取证，以发现潜在的安全威胁迹象。
-- [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) - :books: 免费编程书籍资源
-- [public-apis/public-apis](https://github.com/public-apis/public-apis) - 免费 API 的集合列表
-- [owid/covid-19-data](https://github.com/owid/covid-19-data) - COVID-19（新冠病毒）病例、死亡、住院、检测等数据 • 所有国家 • Our World in Data 每日更新
+- [google-parfait/tensorflow-federated](https://github.com/google-parfait/tensorflow-federated) - 一个用于去中心化数据上的机器学习及其他计算的开源框架。
+- [project-alice-assistant/ProjectAlice](https://github.com/project-alice-assistant/ProjectAlice) - Project Alice主仓库，包含主要单元源码
+- [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) - 面向所有人的投资研究平台。
+- [GeekTG/Friendly-Telegram](https://github.com/GeekTG/Friendly-Telegram) - 支持内联按钮的最佳Telegram用户机器人
+- [archlinux/archinstall](https://github.com/archlinux/archinstall) - Arch Linux安装器——引导、模板等。
+- [globus/globus-cli](https://github.com/globus/globus-cli) - Globus命令行接口
+- [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) - Linux、Jenkins、AWS、SRE、Prometheus、Docker、Python、Ansible、Git、Kubernetes、Terraform、OpenStack、SQL、NoSQL、Azure、GCP、DNS、Elastic、网络、虚拟化。DevOps面试题
+- [YaoFANGUK/video-subtitle-extractor](https://github.com/YaoFANGUK/video-subtitle-extractor) - 视频硬字幕提取，生成srt文件。无需申请第三方API，本地实现文本识别。基于深度学习的视频字幕提取框架，包含字幕区域检测、字幕内容提取。用于提取视频硬字幕（hardsub）并生成srt文件的GUI工具。
+- [aaPanel/aaPanel](https://github.com/aaPanel/aaPanel) - 简单而强大的基于Web的控制面板
+- [aaPanel/BaoTa](https://github.com/aaPanel/BaoTa) - 宝塔Linux面板——简单好用的服务器运维面板
+- [Dragon-Born/warpy](https://github.com/Dragon-Born/warpy) - 一个用Python编写的命令行程序，用于获取WARP+作为WireGuard
+- [pinry/pinry](https://github.com/pinry/pinry) - Pinry，一个平铺式图片板系统，适合保存、标记和分享图片、视频和网页，界面易于浏览。开源且自托管。
+- [nvbn/thefuck](https://github.com/nvbn/thefuck) - 一个神奇的应用，帮你纠正之前的终端命令。
+- [httpie/cli](https://github.com/httpie/cli) - 🥧 HTTPie CLI——现代、用户友好的命令行HTTP客户端，适用于API时代。支持JSON、颜色、会话、下载、插件等。
+- [alfem/telegram-download-daemon](https://github.com/alfem/telegram-download-daemon) - 一个自动化Telegram大文件下载的简单脚本
+- [No-OnE-Kn0wS-Me/FileRenameBot](https://github.com/No-OnE-Kn0wS-Me/FileRenameBot) - 一个支持永久缩略图的Telegram文件重命名机器人，还能将文件转换为视频！！
+- [Eugeny/tabby-web](https://github.com/Eugeny/tabby-web) - Tabby Web - 浏览器中的SSH/Telnet/串口客户端。
+- [QIN2DIM/sspanel-mining](https://github.com/QIN2DIM/sspanel-mining) - 🥤 收集、清理、分类并存储互联网上暴露的SSPanel-Uim站点。
+- [Ehco1996/django-sspanel](https://github.com/Ehco1996/django-sspanel) - 使用Django开发的shadowsocks面板
+- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - 学习如何设计大型系统。系统设计面试准备。包括Anki闪卡。
+- [mvt-project/mvt](https://github.com/mvt-project/mvt) - MVT（移动验证工具包）帮助进行移动设备取证，查找潜在妥协迹象。
+- [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) - :books: 免费编程书籍
+- [public-apis/public-apis](https://github.com/public-apis/public-apis) - 免费API合集
+- [owid/covid-19-data](https://github.com/owid/covid-19-data) - COVID-19（冠状病毒）病例、死亡、住院、检测数据•所有国家•由Our World in Data每日更新
 - [darknessomi/musicbox](https://github.com/darknessomi/musicbox) - 网易云音乐命令行版本
-- [yunlongzhuhuo/Windows-WeChat-Clean-Up-Tool](https://github.com/yunlongzhuhuo/Windows-WeChat-Clean-Up-Tool) - 定位 Windows 中的 WeChat Files 文件夹，查找并删除部分数据，实现清理。
-- [gilesknap/gphotos-sync](https://github.com/gilesknap/gphotos-sync) - Google 相册和相册备份，基于 Google Photos Library API
-- [Dragon-Userbot/Dragon-Userbot](https://github.com/Dragon-Userbot/Dragon-Userbot) - Telegram 用户机器人，最简易安装
-- [asottile/all-repos](https://github.com/asottile/all-repos) - 克隆你所有仓库并批量做变更。
-- [zachhannum/mkdocs-autolinks-plugin](https://github.com/zachhannum/mkdocs-autolinks-plugin) - 一个 MkDocs 插件，可自动在 markdown 页面之间生成相对链接
-- [Azure/WALinuxAgent](https://github.com/Azure/WALinuxAgent) - 微软 Azure Linux 客户端代理
-- [koalalorenzo/python-digitalocean](https://github.com/koalalorenzo/python-digitalocean) - 🐍🐳 用于管理 Digital Ocean 云主机的 Python 模块
-- [fuqiuai/wordCloud](https://github.com/fuqiuai/wordCloud) - 用 python 进行文本分词并生成词云
-- [Mahesh0253/Media-Search-bot](https://github.com/Mahesh0253/Media-Search-bot) - 用于频道和群组的内联机器人
+- [yunlongzhuhuo/Windows-WeChat-Clean-Up-Tool](https://github.com/yunlongzhuhuo/Windows-WeChat-Clean-Up-Tool) - 定位Windows中的WeChat Files文件夹，查找并删除部分数据，实现清理目的。
+- [gilesknap/gphotos-sync](https://github.com/gilesknap/gphotos-sync) - 使用Google Photos Library API备份Google照片和相册
+- [Dragon-Userbot/Dragon-Userbot](https://github.com/Dragon-Userbot/Dragon-Userbot) - 易于安装的Telegram用户机器人
+- [asottile/all-repos](https://github.com/asottile/all-repos) - 克隆你所有的仓库并进行全面更改。
+- [zachhannum/mkdocs-autolinks-plugin](https://github.com/zachhannum/mkdocs-autolinks-plugin) - 一个MkDocs插件，自动生成markdown页面之间的相对链接
+- [Azure/WALinuxAgent](https://github.com/Azure/WALinuxAgent) - Microsoft Azure Linux客户端代理
+- [koalalorenzo/python-digitalocean](https://github.com/koalalorenzo/python-digitalocean) - 🐍🐳 管理Digital Ocean droplets的Python模块
+- [fuqiuai/wordCloud](https://github.com/fuqiuai/wordCloud) - 用python进行文本分词并生成词云
+- [Mahesh0253/Media-Search-bot](https://github.com/Mahesh0253/Media-Search-bot) - 频道和群组的内联机器人
 - [Mahesh0253/GPlink-bot](https://github.com/Mahesh0253/GPlink-bot) - 
-- [tgbot-collection/YYeTsBot](https://github.com/tgbot-collection/YYeTsBot) - 🎬 人人影视机器人和网站，包含全部人人影视资源及网友网盘分享
+- [tgbot-collection/YYeTsBot](https://github.com/tgbot-collection/YYeTsBot) - 🎬 人人影视机器人和网站，包含人人影视全部资源及众多网友的网盘分享
 - [arry-lee/wereader](https://github.com/arry-lee/wereader) - 一个功能全面的微信读书笔记助手 wereader
-- [arkane-systems/genie](https://github.com/arkane-systems/genie) - 让 WSL 快速进入 systemd “瓶中环境” 的方法
-- [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) - 一体化黑客工具合集
-- [PaddlePaddle/PaddleGAN](https://github.com/PaddlePaddle/PaddleGAN) - PaddlePaddle GAN 库，包含多种有趣应用，如一阶运动迁移、Wav2Lip、图片修复、图像编辑、照片转卡通、风格迁移、GPEN 等
-- [mgedmin/ghcloneall](https://github.com/mgedmin/ghcloneall) - 克隆/更新所有用户/组织 GitHub 仓库的脚本
-- [Jrohy/multi-v2ray](https://github.com/Jrohy/multi-v2ray) - v2ray/xray 多用户管理部署程序
-- [kalanakt/Url-Uploader-TG](https://github.com/kalanakt/Url-Uploader-TG) - 一个简单的 Telegram 机器人，通过直链上传媒体文件或视频到 Telegram。（支持 youtube、Mediafire、谷歌云盘、mega 等）
-- [jagrit007/gDrive-DirectLink](https://github.com/jagrit007/gDrive-DirectLink) - Google Drive 永久直链生成器，支持多链接。P.S. 这是我学习 Python 时写的小白代码 :D
-- [Sanster/IOPaint](https://github.com/Sanster/IOPaint) - 基于最新 AI 模型的图片修复工具。移除图片中不需要的物体、瑕疵、人物，或用稳定扩散技术擦除并替换任意内容。
-- [psf/black](https://github.com/psf/black) - 坚持风格的 Python 代码格式化工具
-- [surajjjjjj/Telegram-automatic-message](https://github.com/surajjjjjj/Telegram-automatic-message) - 使用 telethon 库编写的 python 脚本，每 30 秒自动向机器人发送消息
-- [pirobot/rbx1](https://github.com/pirobot/rbx1) - ROS 实例教程卷一
+- [arkane-systems/genie](https://github.com/arkane-systems/genie) - 进入WSL的systemd“瓶子”的快速方式
+- [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) - 黑客的全能黑客工具
+- [PaddlePaddle/PaddleGAN](https://github.com/PaddlePaddle/PaddleGAN) - PaddlePaddle GAN库，包括一阶运动转移、Wav2Lip、图像修复、编辑、照片转漫画、风格迁移、GPEN等众多有趣应用。
+- [mgedmin/ghcloneall](https://github.com/mgedmin/ghcloneall) - 脚本用于克隆/更新GitHub上所有用户/组织仓库
+- [Jrohy/multi-v2ray](https://github.com/Jrohy/multi-v2ray) - v2ray/xray多用户管理部署程序
+- [kalanakt/Url-Uploader-TG](https://github.com/kalanakt/Url-Uploader-TG) - 一个简单的Telegram机器人，使用直链上传媒体文件|视频到Telegram。（YouTube，Mediafire，Google Drive，Mega Drive等）
+- [jagrit007/gDrive-DirectLink](https://github.com/jagrit007/gDrive-DirectLink) - Google Drive永久直链生成器，支持多链接。P.S. 这是我学习Python时写的新手代码 :D
+- [Sanster/IOPaint](https://github.com/Sanster/IOPaint) - 由SOTA AI模型驱动的图像修复工具。移除图片中任何不想要的物体、缺陷、人物，或使用稳定扩散擦除并替换任何内容。
+- [psf/black](https://github.com/psf/black) - 毫不妥协的Python代码格式化工具
+- [surajjjjjj/Telegram-automatic-message](https://github.com/surajjjjjj/Telegram-automatic-message) - 使用telethon库的Python脚本，每30秒向机器人发送消息
+- [pirobot/rbx1](https://github.com/pirobot/rbx1) - ROS实例教程第一卷
 - [chen310/NeteaseCloudMusicTasks](https://github.com/chen310/NeteaseCloudMusicTasks) - 
-- [vinta/awesome-python](https://github.com/vinta/awesome-python) - 精选的 Python 框架、库、软件与资源清单
+- [vinta/awesome-python](https://github.com/vinta/awesome-python) - 精选Python框架、库、软件和资源的主观看法列表。
 - [programthink/zhao](https://github.com/programthink/zhao) - 【编程随想】整理的《太子党关系网络》，专门揭露赵国权贵
-- [gradio-app/gradio](https://github.com/gradio-app/gradio) - 用 Python 构建和分享有趣的机器学习应用。🌟 点亮 Star 支持我们！
-- [absop/ST-ChineseTokenizer](https://github.com/absop/ST-ChineseTokenizer) - Sublime Text 3 的 jieba 分词库绑定，支持更精确的中文选词、删词和按词移动光标
-- [guofei9987/text_blind_watermark](https://github.com/guofei9987/text_blind_watermark) - 文本盲水印：把信息隐藏到文本中，将隐形盲水印嵌入文本
-- [sigmavirus24/github3.py](https://github.com/sigmavirus24/github3.py) - 嗨，我是用于便捷交互 GitHub REST API 的库。支持 Python 3.6+。
-- [IntelligenceX/SDK](https://github.com/IntelligenceX/SDK) - Intelligence X 的公开 SDK
-- [New-dev0/TgTwitterBot](https://github.com/New-dev0/TgTwitterBot) - TgTwitterBot - 通过 Telegram 控制和探索 Twitter
-- [AmineSoukara/ImgBB-Bot](https://github.com/AmineSoukara/ImgBB-Bot) - 将图片上传到 imgbb.com 并返回链接的 Telegram 机器人
-- [pictuga/morss](https://github.com/pictuga/morss) - 获取完整文本 RSS 源
-- [zhaoolee/garss](https://github.com/zhaoolee/garss) - Github Actions 采集 RSS，打造无广告高质量头条宝藏页
-- [ros/ros](https://github.com/ros/ros) - ROS 核心软件包
-- [libthu/reserves-lib-tsinghua-downloader](https://github.com/libthu/reserves-lib-tsinghua-downloader) - 下载 http://reserves.lib.tsinghua.edu.cn/ 页面内容
-- [tychxn/jd-assistant](https://github.com/tychxn/jd-assistant) - 京东抢购助手：支持登录、查询库存/价格、购物车管理、下单抢购、订单查询等
-- [SeaHOH/GotoX](https://github.com/SeaHOH/GotoX) - 本地自动代理，基于 goagent 修改
-- [radinshayanfar/TGCopyBot](https://github.com/radinshayanfar/TGCopyBot) - 用于将 Telegram 消息复制到另一个聊天（非转发）的 python 脚本
-- [Opticos/OpenInWSL-Source](https://github.com/Opticos/OpenInWSL-Source) - OpenInWSL 的源码及部分预编译版本
-- [Opticos/GWSL-Source](https://github.com/Opticos/GWSL-Source) - GWSL 的源码及部分预编译版本
+- [gradio-app/gradio](https://github.com/gradio-app/gradio) - 用Python构建并分享令人愉快的机器学习应用。🌟 点星支持我们的工作！
+- [absop/ST-ChineseTokenizer](https://github.com/absop/ST-ChineseTokenizer) - Sublime Text 3的jieba分词绑定，支持更精准的中文选词、删词及按词移动光标
+- [guofei9987/text_blind_watermark](https://github.com/guofei9987/text_blind_watermark) - 文本盲水印：将信息隐匿进文本，put invisible blind watermark into a text.
+- [sigmavirus24/github3.py](https://github.com/sigmavirus24/github3.py) - 一个方便且符合人体工学的GitHub REST API交互库，支持Python 3.6+
+- [IntelligenceX/SDK](https://github.com/IntelligenceX/SDK) - Intelligence X公共SDK
+- [New-dev0/TgTwitterBot](https://github.com/New-dev0/TgTwitterBot) - TgTwitterBot - 从Telegram控制并探索Twitter
+- [AmineSoukara/ImgBB-Bot](https://github.com/AmineSoukara/ImgBB-Bot) - Telegram机器人，托管您的图片至imgbb.com并返回链接
+- [pictuga/morss](https://github.com/pictuga/morss) - 获取全文RSS订阅源
+- [zhaoolee/garss](https://github.com/zhaoolee/garss) - Github Actions采集RSS，打造无广告优质内容头版头条宝藏页
+- [ros/ros](https://github.com/ros/ros) - ROS核心包
+- [libthu/reserves-lib-tsinghua-downloader](https://github.com/libthu/reserves-lib-tsinghua-downloader) - 下载 http://reserves.lib.tsinghua.edu.cn/ 页面
+- [tychxn/jd-assistant](https://github.com/tychxn/jd-assistant) - 京东抢购助手：包含登录，查询库存/价格，添加/清空购物车，抢购商品，下单，查询订单等功能
+- [SeaHOH/GotoX](https://github.com/SeaHOH/GotoX) - 本地自动代理，基于goagent修改。
+- [radinshayanfar/TGCopyBot](https://github.com/radinshayanfar/TGCopyBot) - Python脚本，将Telegram消息复制到另一个聊天（非转发）
+- [Opticos/OpenInWSL-Source](https://github.com/Opticos/OpenInWSL-Source) - OpenInWSL的实际代码及部分预构建版本
+- [Opticos/GWSL-Source](https://github.com/Opticos/GWSL-Source) - GWSL的实际代码及部分预构建版本
 - [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) - 功能丰富的命令行音视频下载器
-- [QIN2DIM/V2RSS](https://github.com/QIN2DIM/V2RSS) - ​:rocket: 采集|免费|优质|的-订?阅&lt;；
-- [hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy) - github release、archive 及项目文件加速工具
-- [thedogb/smmsbot](https://github.com/thedogb/smmsbot) - 部署在 GAE 上的 telegram bot。可用作 sm.ms 图床客户端
-- [iBug/pac](https://github.com/iBug/pac) - 科学上网、智能分流，双重判断 GFWList 和 IP 地址。已有 538 颗 ★
-- [Roiocam/V2ray2Clash](https://github.com/Roiocam/V2ray2Clash) - V2ray 订阅转 Clash 配置 python 脚本，支持 Clash-Linux 自动订阅 V2ray
-- [xiangsanliu/Rules](https://github.com/xiangsanliu/Rules) - 🛫️ 🎵 Shadowrocket 规则集：广告屏蔽、代理、网易云解锁
-- [zhouzhouprogram/Shadowrocket-ADBlock-Rules](https://github.com/zhouzhouprogram/Shadowrocket-ADBlock-Rules) - 多款 Shadowrocket 规则，带广告过滤，用于 iOS 设备选择性自动翻墙
+- [QIN2DIM/V2RSS](https://github.com/QIN2DIM/V2RSS) - ​:rocket: 采集|免费|优质|的-订?阅&lt；
+- [hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy) - github release、archive及项目文件加速项目
+- [thedogb/smmsbot](https://github.com/thedogb/smmsbot) - 部署在GAE上的Telegram机器人。可作为sm.ms图床客户端
+- [iBug/pac](https://github.com/iBug/pac) - 科学上网，智能分流，基于GFWList和IP地址双重判断。现有538颗★
+- [Roiocam/V2ray2Clash](https://github.com/Roiocam/V2ray2Clash) - V2ray订阅转Clash配置文件Python脚本，供Clash-Linux自动订阅V2ray
+- [xiangsanliu/Rules](https://github.com/xiangsanliu/Rules) - 🛫️ 🎵 Shadowrocket规则：广告屏蔽，代理，网易音乐解锁。
+- [zhouzhouprogram/Shadowrocket-ADBlock-Rules](https://github.com/zhouzhouprogram/Shadowrocket-ADBlock-Rules) - 多款Shadowrocket规则，带广告过滤。适用于iOS未越狱设备选择性自动翻墙。
 - [liudaolunboluo/WxChatRecordTool](https://github.com/liudaolunboluo/WxChatRecordTool) - 微信聊天记录小工具
-- [icloud-photos-downloader/icloud_photos_downloader](https://github.com/icloud-photos-downloader/icloud_photos_downloader) - 命令行工具，用于下载 iCloud 照片
-- [cronitorio/cronitor-python](https://github.com/cronitorio/cronitor-python) - Cronitor 的 Python 客户端
-- [songquanpeng/zhihu-archiver](https://github.com/songquanpeng/zhihu-archiver) - 每日自动抓取知乎热榜，转换为 Markdown 并构建静态网站
-- [pyinstaller/pyinstaller](https://github.com/pyinstaller/pyinstaller) - 将 Python 程序打包为独立可执行文件
-- [huggingface/transformers](https://github.com/huggingface/transformers) - 🤗 Transformers：先进文本、视觉、音频及多模态模型的定义与推理/训练框架
-- [huashengdun/webssh](https://github.com/huashengdun/webssh) - :seedling: 基于 Web 的 SSH 客户端
-- [openai/glide-text2im](https://github.com/openai/glide-text2im) - GLIDE：基于扩散的文本条件图像生成模型
-- [bmjcode/pywebarchive](https://github.com/bmjcode/pywebarchive) - 用于读取 Apple webarchive 格式的软件
-- [XX-net/XX-Net](https://github.com/XX-net/XX-Net) - 科学上网工具，用于突破防火墙
-- [THUDM/CogView](https://github.com/THUDM/CogView) - 文本生成图像。NeurIPS 2021 论文 “CogView: Mastering Text-to-Image Generation via Transformers” 的代码
-- [GrowingGit/GitHub-English-Top-Charts](https://github.com/GrowingGit/GitHub-English-Top-Charts) - 帮你发现优秀英文项目，避免被其他语言项目干扰
+- [icloud-photos-downloader/icloud_photos_downloader](https://github.com/icloud-photos-downloader/icloud_photos_downloader) - 一个命令行工具，用于从iCloud下载照片
+- [cronitorio/cronitor-python](https://github.com/cronitorio/cronitor-python) - Cronitor的Python客户端
+- [songquanpeng/zhihu-archiver](https://github.com/songquanpeng/zhihu-archiver) - 每日自动抓取知乎热榜，转换为Markdown文件并构建静态网站
+- [pyinstaller/pyinstaller](https://github.com/pyinstaller/pyinstaller) - 将Python程序打包成独立可执行文件
+- [huggingface/transformers](https://github.com/huggingface/transformers) - 🤗 Transformers：文本、视觉、音频及多模态模型的最先进机器学习模型定义框架，支持推理与训练。
+- [huashengdun/webssh](https://github.com/huashengdun/webssh) - :seedling: 基于Web的SSH客户端
+- [openai/glide-text2im](https://github.com/openai/glide-text2im) - GLIDE：基于扩散的文本条件图像合成模型
+- [bmjcode/pywebarchive](https://github.com/bmjcode/pywebarchive) - 用于读取Apple webarchive格式的软件
+- [XX-net/XX-Net](https://github.com/XX-net/XX-Net) - 绕过GFW的代理工具
+- [THUDM/CogView](https://github.com/THUDM/CogView) - 文本到图像生成。NeurIPS 2021论文“CogView: 通过Transformers掌握文本到图像生成”的代码库。
+- [GrowingGit/GitHub-English-Top-Charts](https://github.com/GrowingGit/GitHub-English-Top-Charts) - 帮助你发现优秀的英文项目，避免其他语言干扰。
 - [waykom/weibo_top](https://github.com/waykom/weibo_top) - 爬取微博热搜
-- [vmp65l3/weibo-hotrank](https://github.com/vmp65l3/weibo-hotrank) - 记录微博热搜并生成每日词云图
-- [zisen123/TrierVosPhotos](https://github.com/zisen123/TrierVosPhotos) - 将从 iPhone 导出的照片和视频按日期和时间重命名，并移动到按日期分类的文件夹
-- [whitejoce/Get_Weather](https://github.com/whitejoce/Get_Weather) - 通过 IP 定位，爬取本地天气（无需 API）
-- [up2b/pyup2b](https://github.com/up2b/pyup2b) - 图片上传工具
-- [Alvin9999/new-pac](https://github.com/Alvin9999/new-pac) - 翻墙、科学上网、自由上网、免费科学上网、免费翻墙、fanqiang、油管 youtube/视频下载、软件、VPN、一键翻墙浏览器，vps 一键搭建翻墙服务器脚本/教程，免费 shadowsocks/ss/ssr/v2ray/goflyway 账号/节点，梯子，电脑、手机、iOS、安卓、windows、Mac、Linux、路由器翻墙、科学上网、youtube 视频下载、youtube 油管镜像/免翻墙网站、
-- [TencentARC/GFPGAN](https://github.com/TencentARC/GFPGAN) - GFPGAN 致力于开发实用的人脸修复算法
-- [URenko/Accesser](https://github.com/URenko/Accesser) - 🌏 一个解决 SNI RST 导致维基百科、Pixiv 等站点无法访问的工具
-- [pytorch/pytorch](https://github.com/pytorch/pytorch) - 基于 Python 的张量和动态神经网络，强大的 GPU 加速
-- [deepfakes/faceswap](https://github.com/deepfakes/faceswap) - 通用 Deepfakes 换脸软件
+- [vmp65l3/weibo-hotrank](https://github.com/vmp65l3/weibo-hotrank) - 微博热搜记录并生成每日词云图
+- [zisen123/TrierVosPhotos](https://github.com/zisen123/TrierVosPhotos) - 将从iPhone导出的照片和视频以日期时间格式重命名并分类到对应日期文件夹
+- [whitejoce/Get_Weather](https://github.com/whitejoce/Get_Weather) - 通过IP定位获取当地天气（无需API）
+- [up2b/pyup2b](https://github.com/up2b/pyup2b) - 图片上传工具。
+- [Alvin9999/new-pac](https://github.com/Alvin9999/new-pac) - 翻墙-科学上网、自由上网、免费科学上网、免费翻墙、翻墙、YouTube/视频下载、软件、VPN、一键搭建翻墙服务器脚本/教程，免费shadowsocks/ss/ssr/v2ray/goflyway账号/节点，翻墙梯子，电脑、手机、iOS、安卓、Windows、Mac、Linux、路由器翻墙、科学上网、YouTube视频下载、YouTube镜像/免翻墙网站、
+- [TencentARC/GFPGAN](https://github.com/TencentARC/GFPGAN) - GFPGAN致力于开发实用的真实人脸修复算法。
+- [URenko/Accesser](https://github.com/URenko/Accesser) - 🌏 解决因SNI RST导致维基百科、Pixiv等站点无法访问的工具 | A tool for solving SNI RST
+- [pytorch/pytorch](https://github.com/pytorch/pytorch) - Python中的张量和动态图神经网络，支持强大的GPU加速
+- [deepfakes/faceswap](https://github.com/deepfakes/faceswap) - 面向所有人的Deepfakes软件
 - [v2ex/remote](https://github.com/v2ex/remote) - 远程工作者
-- [open-mmlab/mmtracking](https://github.com/open-mmlab/mmtracking) - OpenMMLab 视频感知工具箱。支持统一框架下的视频目标检测、多目标跟踪、单目标跟踪、视频实例分割
-- [itstyren/CNKI-download](https://github.com/itstyren/CNKI-download) - :frog: 知网（CNKI）文献下载及速览爬虫
-- [aqlaboratory/proteinnet](https://github.com/aqlaboratory/proteinnet) - 用于蛋白质结构机器学习的标准化数据集
-- [lucidrains/alphafold2](https://github.com/lucidrains/alphafold2) - 计划成为 Alphafold2 的非官方 Pytorch 实现/复刻，随架构细节公开不断完善
-- [RimoChan/python-anti-seduce-system](https://github.com/RimoChan/python-anti-seduce-system) - 针对 Python 防沉迷调整的说明
-- [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats) - 通过 GitHub Action 帮你在个人 Readme 添加酷炫开发统计
-- [pywebio/PyWebIO](https://github.com/pywebio/PyWebIO) - 用脚本方式编写交互式 Web 应用
-- [Python-World/python-mini-projects](https://github.com/Python-World/python-mini-projects) - 提升 Python 技能的简单项目合集
-- [geekcomputers/Python](https://github.com/geekcomputers/Python) - 我的 Python 示例代码
-- [TachibanaYoshino/AnimeGANv2](https://github.com/TachibanaYoshino/AnimeGANv2) - [开源]. AnimeGAN 改进版。风景照片/视频转动漫
-- [srx-2000/spider_collection](https://github.com/srx-2000/spider_collection) - python 爬虫，目前包括：网易云音乐、B站视频、知乎问答、壁纸、xvideos、有声书、微博、安居客+数据可视化、B站视频封面提取、ip代理池、知乎用户+分析、github 用户
-- [genzj/pybingwallpaper](https://github.com/genzj/pybingwallpaper) - 下载 bing.com 壁纸
-- [woider/PythonExercise](https://github.com/woider/PythonExercise) - Python 编程练习题 100 例（含源码），在 Python 3.6 环境测试通过
-- [axyyu/notion-clear-trash](https://github.com/axyyu/notion-clear-trash) - 一行脚本清空 Notion 垃圾桶
-- [mono0926/alfred-git-commit-message-example](https://github.com/mono0926/alfred-git-commit-message-example) - Alfred Git 提交信息模板示例
-- [skulltech/twitter-follow-bot](https://github.com/skulltech/twitter-follow-bot) - 用于自动关注大量 Twitter 账号的工具
-- [tqdm/tqdm](https://github.com/tqdm/tqdm) - :zap: 快速、可扩展的 Python 和 CLI 进度条
-- [Chalarangelo/30-seconds-of-python](https://github.com/Chalarangelo/30-seconds-of-python) - 简短 Python 代码片段，满足你的开发需求
+- [open-mmlab/mmtracking](https://github.com/open-mmlab/mmtracking) - OpenMMLab视频感知工具箱。支持视频目标检测（VID）、多目标跟踪（MOT）、单目标跟踪（SOT）、视频实例分割（VIS）统一框架。
+- [itstyren/CNKI-download](https://github.com/itstyren/CNKI-download) - :frog: 知网(CNKI)文献下载及文献速览爬虫 (Web数据提取器)
+- [aqlaboratory/proteinnet](https://github.com/aqlaboratory/proteinnet) - 蛋白质结构机器学习的标准化数据集
+- [lucidrains/alphafold2](https://github.com/lucidrains/alphafold2) - 计划成为Alphafold2非官方PyTorch实现/复现，随着架构细节发布
+- [RimoChan/python-anti-seduce-system](https://github.com/RimoChan/python-anti-seduce-system) - 针对Python语言的防沉迷调整说明
+- [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats) - 该GitHub Action帮助在你的GitHub个人资料Readme添加酷炫开发统计数据
+- [pywebio/PyWebIO](https://github.com/pywebio/PyWebIO) - 以脚本方式编写交互式Web应用。
+- [Python-World/python-mini-projects](https://github.com/Python-World/python-mini-projects) - 一系列简单的Python小项目，提升你的Python技能
+- [geekcomputers/Python](https://github.com/geekcomputers/Python) - 我的Python示例
+- [TachibanaYoshino/AnimeGANv2](https://github.com/TachibanaYoshino/AnimeGANv2) - [开源] AnimeGAN的改进版本。将风景照片/视频转为动漫风格
+- [srx-2000/spider_collection](https://github.com/srx-2000/spider_collection) - Python爬虫合集，目前库存：网易云音乐歌曲爬取，B站视频爬取，知乎问答爬取，壁纸爬取，xvideos视频爬取，有声书爬取，微博爬虫，安居客信息爬取+数据可视化，哔哩哔哩视频封面提取器，IP代理池封装，知乎百万级用户爬虫+数据分析，GitHub用户爬虫
+- [genzj/pybingwallpaper](https://github.com/genzj/pybingwallpaper) - 从bing.com下载壁纸
+- [woider/PythonExercise](https://github.com/woider/PythonExercise) - Python编程练习题100例（源码），在Python 3.6环境测试通过。
+- [axyyu/notion-clear-trash](https://github.com/axyyu/notion-clear-trash) - 一个清理Notion垃圾桶的小脚本
+- [mono0926/alfred-git-commit-message-example](https://github.com/mono0926/alfred-git-commit-message-example) - Alfred Git提交信息示例
+- [skulltech/twitter-follow-bot](https://github.com/skulltech/twitter-follow-bot) - 自动关注大量Twitter账户的工具
+- [tqdm/tqdm](https://github.com/tqdm/tqdm) - :zap: 快速、可扩展的Python及CLI进度条
+- [Chalarangelo/30-seconds-of-python](https://github.com/Chalarangelo/30-seconds-of-python) - 满足你开发需求的Python简短代码片段
 - [BadagalaAdarsh/Super_Mario](https://github.com/BadagalaAdarsh/Super_Mario) - 
-- [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) - 所有 Python 实现的算法
-- [MrMissx/Telegram_Forwarder](https://github.com/MrMissx/Telegram_Forwarder) - Telegram 机器人转发频道/群组消息
-- [mzucker/noteshrink](https://github.com/mzucker/noteshrink) - 将手写笔记扫描件转换为美观、紧凑的 PDF
-- [YuvrajSingh-16/Text-To-Handwritten-Notes](https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes) - 将文本转换为手写笔记风格的 PDF
-- [steventango/notability2pdf](https://github.com/steventango/notability2pdf) - 从 Notability (*.note) 文件中提取 PDF
-- [132ikl/liteshort](https://github.com/132ikl/liteshort) - [已迁移] 轻量、易用且可配置的短链接服务
-- [brndnmtthws/tweet-delete](https://github.com/brndnmtthws/tweet-delete) - 自动销毁推文，让你也能很酷 😎
-- [bonfy/github-trending](https://github.com/bonfy/github-trending) - 跟踪最热门 GitHub 仓库，每日更新（Python 版）
-- [CollegesChat/university-information](https://github.com/CollegesChat/university-information) - 收集全国高校招生时未明说但影响生活质量的实际要求与细节
+- [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) - Python实现的所有算法
+- [MrMissx/Telegram_Forwarder](https://github.com/MrMissx/Telegram_Forwarder) - Telegram机器人，用于转发频道/群组消息
+- [mzucker/noteshrink](https://github.com/mzucker/noteshrink) - 将手写笔记扫描件转换为美观紧凑的PDF
+- [YuvrajSingh-16/Text-To-Handwritten-Notes](https://github.com/YuvrajSingh-16/Text-To-Handwritten-Notes) - 将文本转换为手写笔记的PDF
+- [steventango/notability2pdf](https://github.com/steventango/notability2pdf) - 从Notability (*.note)提取PDF文件。
+- [132ikl/liteshort](https://github.com/132ikl/liteshort) - [已搬迁] 用户友好、真正轻量且可配置的URL短链接服务
+- [brndnmtthws/tweet-delete](https://github.com/brndnmtthws/tweet-delete) - 自毁推文，让你也能很酷 😎
+- [bonfy/github-trending](https://github.com/bonfy/github-trending) - 跟踪最热门的GitHub仓库，每日更新（Python版本）
+- [CollegesChat/university-information](https://github.com/CollegesChat/university-information) - 收集全国高校招生时不明示但影响大学生活质量的要求与细节
 - [curtinlv/JD-Script](https://github.com/curtinlv/JD-Script) - 仅供参考。
-- [yhangf/PythonCrawler](https://github.com/yhangf/PythonCrawler) - :heartpulse: 用 python 编写的爬虫项目合集
-- [mobier/shadowsocksr-speed](https://github.com/mobier/shadowsocksr-speed) - SSR 节点批量带宽测速
-- [twtrubiks/docker-tutorial](https://github.com/twtrubiks/docker-tutorial) - Docker 基本教学 - 从零开始 Docker-Beginners-Guide   教你用 Docker 搭建 Django + PostgreSQL 📝
+- [yhangf/PythonCrawler](https://github.com/yhangf/PythonCrawler) - :heartpulse: 用Python编写的爬虫项目集合
+- [mobier/shadowsocksr-speed](https://github.com/mobier/shadowsocksr-speed) - SSR 批量测试节点有效带宽
+- [twtrubiks/docker-tutorial](https://github.com/twtrubiks/docker-tutorial) - Docker 基本教学 - 从无到有 Docker-Beginners-Guide 教你用 Docker 建立 Django + PostgreSQL 📝
 - [ZainCheung/netease-cloud](https://github.com/ZainCheung/netease-cloud) - 网易云音乐全自动每日打卡300首歌升级账号等级，支持微信提醒，支持无服务器云函数部署
-- [caj2pdf/caj2pdf](https://github.com/caj2pdf/caj2pdf) - 将 CAJ (中国学术期刊) 文件转换为 PDF。转换中国知网 CAJ 格式文献为 PDF。佛系转换，成功与否，皆是玄学。
+- [caj2pdf/caj2pdf](https://github.com/caj2pdf/caj2pdf) - 将 CAJ（中国学术期刊）文件转换为 PDF。转换中国知网 CAJ 格式文献为 PDF。佛系转换，成功与否，皆是玄学。
 - [iswbm/pycharm-guide](https://github.com/iswbm/pycharm-guide) - PyCharm 中文指南：安装 | 破解 | 效率 | 技巧
-- [0voice/interview_internal_reference](https://github.com/0voice/interview_internal_reference) - 2023年最新总结，阿里，腾讯，百度，美团，头条等技术面试题目及答案，专家出题人分析汇总。
-- [spotDL/spotify-downloader](https://github.com/spotDL/spotify-downloader) - 下载你的 Spotify 播放列表和歌曲（如有匹配可自动从 YouTube 下载专辑封面及元数据）。
-- [devourbots/word_cloud_bot](https://github.com/devourbots/word_cloud_bot) - 一个可以统计群组用户发言，并将聊天内容生成词云的机器人
+- [0voice/interview_internal_reference](https://github.com/0voice/interview_internal_reference) - 2023年最新总结，阿里，腾讯，百度，美团，头条等技术面试题目，以及答案，专家出题人分析汇总。
+- [spotDL/spotify-downloader](https://github.com/spotDL/spotify-downloader) - 下载你的 Spotify 播放列表和歌曲，附带专辑封面和元数据（如果找到匹配则从 YouTube 下载）。
+- [devourbots/word_cloud_bot](https://github.com/devourbots/word_cloud_bot) - 一个可以统计群组用户发言，并且能将聊天内容生成词云的机器人
 - [Mrvishal2k2/TG-ShortLinkBot](https://github.com/Mrvishal2k2/TG-ShortLinkBot) - 一个简单的 URL 缩短机器人，使用 bit.ly 的 API
-- [hedyhli/starcli](https://github.com/hedyhli/starcli) - :sparkles: 在命令行浏览 GitHub 热门项目
-- [bee-san/Ciphey](https://github.com/bee-san/Ciphey) - ⚡ 自动解密加密内容，无需知道密钥或算法，解码编码，破解哈希值 ⚡
-- [bhrigu123/classifier](https://github.com/bhrigu123/classifier) - 快速整理你目录下的文件，将它们按类型分类到不同文件夹
+- [hedyhli/starcli](https://github.com/hedyhli/starcli) - :sparkles: 从命令行浏览 GitHub 热门项目
+- [bee-san/Ciphey](https://github.com/bee-san/Ciphey) - ⚡ 自动解密加密内容，无需知道密钥或密码，解码编码，破解哈希 ⚡
+- [bhrigu123/classifier](https://github.com/bhrigu123/classifier) - 立即整理你目录中的文件，将其分类到不同的文件夹
 - [tfeldmann/organize](https://github.com/tfeldmann/organize) - 文件管理自动化工具。
-- [babysor/MockingBird](https://github.com/babysor/MockingBird) - 🚀AI拟声：5秒克隆你的声音并实时生成任意语音内容
-- [urbanij/google_keep_takeout](https://github.com/urbanij/google_keep_takeout) - 导出你的 Google Keep 笔记为 markdown 或 txt 文件
-- [lonnyzhang423/v2ex-hot-hub](https://github.com/lonnyzhang423/v2ex-hot-hub) - 记录v2ex热议话题，每小时更新，按天归档。
-- [Py-Contributors/awesomeScripts](https://github.com/Py-Contributors/awesomeScripts) - 一组用 Python 编写的实用脚本，旨在简化日常生活。如果你有新脚本的好主意欢迎提 issue，记得点 :star:。
-- [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) - 命令行程序，从 YouTube.com 及其他视频网站下载视频
-- [0xHJK/music-dl](https://github.com/0xHJK/music-dl) - 搜索并下载音乐，支持网易云音乐、QQ音乐、酷狗音乐、百度音乐、虾米音乐、咪咕音乐等平台
-- [h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules) - 提供多种 Shadowrocket 规则，带广告过滤功能。用于 iOS 未越狱设备选择性自动翻墙。
+- [babysor/MockingBird](https://github.com/babysor/MockingBird) - 🚀 AI拟声：5秒内克隆您的声音并生成任意语音内容，实时生成语音
+- [urbanij/google_keep_takeout](https://github.com/urbanij/google_keep_takeout) - 将你的 Google Keep 笔记导出为 markdown 或 txt 文件
+- [lonnyzhang423/v2ex-hot-hub](https://github.com/lonnyzhang423/v2ex-hot-hub) - 记录 v2ex 热议话题，每小时更新，按天归档。
+- [Py-Contributors/awesomeScripts](https://github.com/Py-Contributors/awesomeScripts) - 一个 Python 脚本合集，方便日常生活。如果你有好的脚本想法，请创建 issue。记得点个⭐
+- [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) - 命令行程序，用于从 YouTube.com 和其他视频网站下载视频
+- [0xHJK/music-dl](https://github.com/0xHJK/music-dl) - 从网易云音乐、QQ音乐、酷狗音乐、百度音乐、虾米音乐、咪咕音乐等搜索和下载歌曲
+- [h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules) - 提供多款 Shadowrocket 规则，带广告过滤功能。用于 iOS 未越狱设备选择性地自动翻墙。
 - [Anankke/ASM-Bot](https://github.com/Anankke/ASM-Bot) - 自动删除 Telegram 群组中的服务消息，如加群退群信息等。
-- [Textualize/rich](https://github.com/Textualize/rich) - Rich 是一个用于终端丰富文本和美观格式化的 Python 库。
-- [Nekmo/telegram-upload](https://github.com/Nekmo/telegram-upload) - 使用你的账号上传和下载 Telegram 文件，支持最大4 GiB
-- [franciscod/telegram-twitter-forwarder-bot](https://github.com/franciscod/telegram-twitter-forwarder-bot) - 一个将 Tweets 转发到 Telegram 的机器人
-- [pyrogram/pyrogram](https://github.com/pyrogram/pyrogram) - Python 编写的优雅、现代、异步的 Telegram MTProto API 框架，适用于用户和机器人
-- [dev-jonghoonpark/pdf-password-locker](https://github.com/dev-jonghoonpark/pdf-password-locker) - PDF 文件加密工具
-- [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) - :octocat: 分享 GitHub 上有趣、入门级的开源项目。
-- [mozillazg/python-pinyin](https://github.com/mozillazg/python-pinyin) - 汉字转拼音(pypinyin)
+- [Textualize/rich](https://github.com/Textualize/rich) - Rich 是一个用于终端的丰富文本和漂亮格式化的 Python 库。
+- [Nekmo/telegram-upload](https://github.com/Nekmo/telegram-upload) - 使用你的账号上传和下载 Telegram 文件，最大支持 4 GiB
+- [franciscod/telegram-twitter-forwarder-bot](https://github.com/franciscod/telegram-twitter-forwarder-bot) - 一个转发推文的 Telegram 机器人
+- [pyrogram/pyrogram](https://github.com/pyrogram/pyrogram) - 优雅、现代且异步的 Python Telegram MTProto API 框架，适用于用户和机器人
+- [dev-jonghoonpark/pdf-password-locker](https://github.com/dev-jonghoonpark/pdf-password-locker) - PDF 文件密码保护工具
+- [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) - :octocat: 分享 GitHub 上有趣、入门级的开源项目。分享有趣的入门级开源项目。
+- [mozillazg/python-pinyin](https://github.com/mozillazg/python-pinyin) - 汉字转拼音（pypinyin）
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) - 定投改变命运 —— 让时间陪你慢慢变富 https://onregularinvesting.com
-- [piyx/FileOrganizer](https://github.com/piyx/FileOrganizer) - 自动整理你电脑上的文件
-- [sreekaransrinath/file_organizer](https://github.com/sreekaransrinath/file_organizer) - 一个脚本，可扫描指定文件夹并按文件类型移动到相应子文件夹。
-- [aashutoshrathi/py-scripts](https://github.com/aashutoshrathi/py-scripts) - 这些是为 Windows 用户简化日常操作的脚本。
-- [offa/android-foss](https://github.com/offa/android-foss) - Android 免费开源软件（FOSS）列表 —— 守护自由和隐私。
-- [Trinkle23897/learn2018-autodown](https://github.com/Trinkle23897/learn2018-autodown) - 清华大学新版网络学堂课程自动下载脚本 / 用 python 一键克隆 learn.tsinghua.edu.cn 上的所有文件
+- [piyx/FileOrganizer](https://github.com/piyx/FileOrganizer) - 自动整理你电脑中的文件
+- [sreekaransrinath/file_organizer](https://github.com/sreekaransrinath/file_organizer) - 一个脚本，会扫描你指定的文件夹并根据文件类型将文件移动到相应子文件夹。
+- [aashutoshrathi/py-scripts](https://github.com/aashutoshrathi/py-scripts) - 这些是 Windows 用户的日常脚本，简化日常操作。
+- [offa/android-foss](https://github.com/offa/android-foss) - 一个 Android 免费开源软件（FOSS）列表——保护自由与隐私。
+- [Trinkle23897/learn2018-autodown](https://github.com/Trinkle23897/learn2018-autodown) - 清华大学新版网络学堂课程自动下载脚本 / 一个从 learn.tsinghua.edu.cn 克隆所有文件的 Python 脚本
 - [521xueweihan/GitHub520](https://github.com/521xueweihan/GitHub520) - :kissing_heart: 让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。（无需安装）
-- [gurland/telegram-delete-all-messages](https://github.com/gurland/telegram-delete-all-messages) - 使用此 python 脚本批量删除你在群组/超级群组中的所有消息
+- [gurland/telegram-delete-all-messages](https://github.com/gurland/telegram-delete-all-messages) - 使用此 Python 脚本删除你在群组/超级群组中的所有消息
 - [dylanyang17/TsinghuaBookCrawler](https://github.com/dylanyang17/TsinghuaBookCrawler) - 清华教参平台爬虫
 
 ## QML 
 
-- [Dr-Incognito/V2Ray-Desktop](https://github.com/Dr-Incognito/V2Ray-Desktop) - 最优雅的跨平台代理客户端，支持Shadowsocks(R)、V2Ray和Trojan协议。使用 Qt5 和 QML2 构建。
+- [Dr-Incognito/V2Ray-Desktop](https://github.com/Dr-Incognito/V2Ray-Desktop) - 最优雅的跨平台代理客户端，支持 Shadowsocks(R)、V2Ray 和 Trojan 协议。The most elegant cross-platform proxy GUI client that supports Shadowsocks(R), V2Ray, and Trojan. 基于 Qt5 和 QML2 构建。
 
 ## R 
 
-- [REditorSupport/languageserver](https://github.com/REditorSupport/languageserver) - R 语言的语言服务器协议实现
+- [REditorSupport/languageserver](https://github.com/REditorSupport/languageserver) - R 语言服务器协议实现
 
-## 富文本格式 
+## Rich Text Format 
 
-- [gauravghongde/social-icons](https://github.com/gauravghongde/social-icons) - SVG & PNG 社交媒体图标集。可嵌入社交图标，直接用于你的网站。
+- [gauravghongde/social-icons](https://github.com/gauravghongde/social-icons) - SVG 和 PNG 社交媒体图标集合。可嵌入的社交图标，直接用于你的网站。
 
 ## Roff 
 
-- [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) - 所有小初高、大学PDF教材。
-- [wikihouseproject/Skylark](https://github.com/wikihouseproject/Skylark) - 最新 WikiHouse 结构系统，采用标准化保温块，用于1-3层建筑
+- [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) - 所有小初高、大学 PDF 教材。
+- [wikihouseproject/Skylark](https://github.com/wikihouseproject/Skylark) - 最新的 WikiHouse 结构系统，使用标准化绝缘模块，适用于1-3层建筑
 
 ## Ruby 
 
 - [captn3m0/opml-gen](https://github.com/captn3m0/opml-gen) - 
 - [hartator/wayback-machine-downloader](https://github.com/hartator/wayback-machine-downloader) - 从 Wayback Machine 下载整个网站。
-- [lewagon/setup](https://github.com/lewagon/setup) - Le Wagon 学生 Web 开发训练营首日环境配置说明
-- [community/community](https://github.com/community/community) - GitHub Mobile、Discussions、Codespaces、Sponsors、Issues 等公共反馈讨论区
+- [lewagon/setup](https://github.com/lewagon/setup) - Le Wagon 学生第一天 Web 开发训练营的设置指南
+- [community/community](https://github.com/community/community) - GitHub Mobile、GitHub Discussions、GitHub Codespaces、GitHub Sponsors、GitHub Issues 等的公开反馈讨论！
 - [mrtazz/katana](https://github.com/mrtazz/katana) - 基于 guillotine 的 Heroku 托管 URL 缩短服务
-- [technoweenie/guillotine](https://github.com/technoweenie/guillotine) - URL 缩短爱好者套件
-- [jekyll/jekyll](https://github.com/jekyll/jekyll) - :globe_with_meridians: Jekyll 是 Ruby 编写的博客感知静态网站生成器
+- [technoweenie/guillotine](https://github.com/technoweenie/guillotine) - URL 缩短爱好者工具包
+- [jekyll/jekyll](https://github.com/jekyll/jekyll) - :globe_with_meridians: Jekyll 是一个基于 Ruby 的博客感知静态站点生成器
 - [mastodon/mastodon](https://github.com/mastodon/mastodon) - 你的自托管、全球互联的微博社区
 - [apsheronets/reader](https://github.com/apsheronets/reader) - 
-- [IgnoredAmbience/github-gitlab-sync](https://github.com/IgnoredAmbience/github-gitlab-sync) - GitHub 与 GitLab 之间的持续仓库同步工具
-- [huginn/huginn](https://github.com/huginn/huginn) - 创建代理为你监控并自动执行任务。你的代理已待命！
+- [IgnoredAmbience/github-gitlab-sync](https://github.com/IgnoredAmbience/github-gitlab-sync) - GitHub 和 GitLab 之间的持续仓库同步器
+- [huginn/huginn](https://github.com/huginn/huginn) - 创建代理，监控并代表你行动。你的代理随时待命！
 
 ## Rust 
 
-- [microsoft/edit](https://github.com/microsoft/edit) - We all edit.
+- [microsoft/edit](https://github.com/microsoft/edit) - 我们都在编辑。
 - [justjavac/herlang](https://github.com/justjavac/herlang) - 用 Rust 编写的 Her 编程语言。
-- [sigoden/aichat](https://github.com/sigoden/aichat) - 一体化 LLM 命令行工具，集成 Shell 助手、Chat-REPL、RAG、AI 工具与代理，支持 OpenAI、Claude、Gemini、Ollama、Groq 等。
-- [astral-sh/rye](https://github.com/astral-sh/rye) - 无忧的 Python 体验
-- [libnyanpasu/clash-nyanpasu](https://github.com/libnyanpasu/clash-nyanpasu) - Clash Nyanpasu～(∠・ω&lt; )⌒☆​
-- [microsoft/sudo](https://github.com/microsoft/sudo) - 适用于 Windows 的 sudo
-- [KipData/KiteSQL](https://github.com/KipData/KiteSQL) - Rust 语言的 SQL as a Function
-- [zed-industries/zed](https://github.com/zed-industries/zed) - 以思维速度编写代码——Zed 是 Atom 和 Tree-sitter 作者开发的高性能多人协作代码编辑器。
-- [H-M-H/Weylus](https://github.com/H-M-H/Weylus) - 将你的平板用作电脑的数位板/触摸屏。
-- [YukiCoco/ToMoon](https://github.com/YukiCoco/ToMoon) - 基于 SteamOS 定制的网络工具，自动配置 TUN 模式加速游戏及网络代理。
-- [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) - Rust 编写的非官方 Bitwarden 兼容服务器，原名 bitwarden_rs
+- [sigoden/aichat](https://github.com/sigoden/aichat) - 集 Shell 助手、聊天 REPL、RAG、AI 工具与代理为一体的 LLM CLI 工具，支持 OpenAI、Claude、Gemini、Ollama、Groq 等。
+- [astral-sh/rye](https://github.com/astral-sh/rye) - 无烦恼的 Python 体验
+- [libnyanpasu/clash-nyanpasu](https://github.com/libnyanpasu/clash-nyanpasu) - Clash Nyanpasu～(∠・ω< )⌒☆​
+- [microsoft/sudo](https://github.com/microsoft/sudo) - Windows 版 sudo
+- [KipData/KiteSQL](https://github.com/KipData/KiteSQL) - Rust 的函数式 SQL
+- [zed-industries/zed](https://github.com/zed-industries/zed) - 思维速度的代码编辑器——Zed 是由 Atom 和 Tree-sitter 创造者打造的高性能多人代码编辑器。
+- [H-M-H/Weylus](https://github.com/H-M-H/Weylus) - 将你的平板用作电脑上的绘图板/触摸屏。
+- [YukiCoco/ToMoon](https://github.com/YukiCoco/ToMoon) - 基于 SteamOS 定制的网络工具，自动配置 TUN 模式加速游戏，网络代理。
+- [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) - 非官方的 Bitwarden 兼容服务器，Rust 编写，前称 bitwarden_rs
 - [rustdesk/rustdesk-server](https://github.com/rustdesk/rustdesk-server) - RustDesk 服务器程序
-- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) - 一款开源远程桌面应用，支持自托管，可替代 TeamViewer。
-- [m1guelpf/plz-cli](https://github.com/m1guelpf/plz-cli) - 你的终端 Copilot
-- [EAimTY/socks5-server](https://github.com/EAimTY/socks5-server) - 基于 tokio 的精细化低层异步 SOCKS5 服务器库
-- [sigoden/opscan](https://github.com/sigoden/opscan) - 开放端口扫描工具。
-- [lencx/ChatGPT](https://github.com/lencx/ChatGPT) - 🔮 ChatGPT 桌面端应用（Mac、Windows、Linux）
-- [klausi/mastodon-twitter-sync](https://github.com/klausi/mastodon-twitter-sync) - 同步 Mastodon 与 Twitter 的帖子
+- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) - 一个开源远程桌面应用，设计为自托管，替代 TeamViewer。
+- [m1guelpf/plz-cli](https://github.com/m1guelpf/plz-cli) - 终端的 Copilot
+- [EAimTY/socks5-server](https://github.com/EAimTY/socks5-server) - 基于 tokio 的细粒度、相对低层异步 SOCKS5 服务器库
+- [sigoden/opscan](https://github.com/sigoden/opscan) - 一个开放端口扫描器。
+- [lencx/ChatGPT](https://github.com/lencx/ChatGPT) - 🔮 ChatGPT 桌面应用（Mac、Windows 和 Linux）
+- [klausi/mastodon-twitter-sync](https://github.com/klausi/mastodon-twitter-sync) - 同步 Mastodon 和 Twitter 之间的帖子
 - [glotlabs/gdrive](https://github.com/glotlabs/gdrive) - Google Drive 命令行客户端
-- [lapce/lapce](https://github.com/lapce/lapce) - Rust 编写的闪电级快速强大代码编辑器
-- [dracarys18/TweetBot](https://github.com/dracarys18/TweetBot) - 一个简单的 Telegram Bot，将任意 Twitter 账号的推文同步到 Telegram 频道
-- [tw93/Pake](https://github.com/tw93/Pake) - 🤱🏻 用 Rust 将任何网页打包为桌面应用。🤱🏻 利用 Rust 轻松构建轻量级多端桌面应用
-- [google/comprehensive-rust](https://github.com/google/comprehensive-rust) - 这是 Google Android 团队的 Rust 课程，提供快速教学 Rust 的全部资料。
-- [facebook/sapling](https://github.com/facebook/sapling) - 可扩展、用户友好的源码控制系统。
+- [lapce/lapce](https://github.com/lapce/lapce) - 用 Rust 编写的闪电般快速强大代码编辑器
+- [dracarys18/TweetBot](https://github.com/dracarys18/TweetBot) - 一个简单的 Telegram 机器人，将任何 Twitter 账号的推文实时推送到 Telegram 频道
+- [tw93/Pake](https://github.com/tw93/Pake) - 🤱🏻 利用 Rust 将任意网页转为桌面应用。🤱🏻 使用 Rust 轻松构建轻量级多端桌面应用
+- [google/comprehensive-rust](https://github.com/google/comprehensive-rust) - 这是 Google Android 团队使用的 Rust 课程，提供快速学习 Rust 的材料。
+- [facebook/sapling](https://github.com/facebook/sapling) - 一个可扩展、用户友好的源代码管理系统。
 - [abba23/spotify-adblock](https://github.com/abba23/spotify-adblock) - Spotify 广告屏蔽器
 - [messense/aliyundrive-webdav](https://github.com/messense/aliyundrive-webdav) - 阿里云盘 WebDAV 服务
-- [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - 面向实时 Web 的可扩展分布式协作文档图数据库
+- [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - 一个可扩展、分布式、协作式文档图数据库，适用于实时网页
 - [rust-net/dnsd](https://github.com/rust-net/dnsd) - DNS 代理服务器
-- [ihciah/shadow-tls](https://github.com/ihciah/shadow-tls) - 向防火墙暴露真实 tls 握手的代理
-- [seanmonstar/warp](https://github.com/seanmonstar/warp) - 超级易用、可组合的极速 Web 服务器框架
-- [iovxw/rssbot](https://github.com/iovxw/rssbot) - 轻量级 Telegram RSS 通知机器人。用于消息通知的轻量级 Telegram RSS 机器人
-- [Wulf/create-rust-app](https://github.com/Wulf/create-rust-app) - 仅需一条命令即可搭建现代 rust+react Web 应用。
-- [sathwikmatsa/tcad](https://github.com/sathwikmatsa/tcad) - tcloud 自动下载工具
-- [sunface/rust-course](https://github.com/sunface/rust-course) - “连续八年成为全世界最受喜爱的语言，无 GC 也无需手动内存管理、极高的性能和安全性、过程/OO/函数式编程、优秀的包管理、JS 未来基石" — 工作之余的第二语言来试试 Rust 吧。本书拥有全面且深入的讲解、生动贴切的示例、德芙般丝滑的内容，这可能是目前最用心的 Rust 中文学习教程 / Book
-- [rust-lang/cargo](https://github.com/rust-lang/cargo) - Rust 包管理器
-- [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) - 用于 IDE 的 Rust 编译器前端
-- [rust-lang/book](https://github.com/rust-lang/book) - Rust 编程语言
-- [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) - Rust 代码和资源的精选列表。
-- [bee-san/RustScan](https://github.com/bee-san/RustScan) - 🤖 现代端口扫描器 🤖
-- [RustPython/RustPython](https://github.com/RustPython/RustPython) - 用 Rust 编写的 Python 解释器
-- [TheAlgorithms/Rust](https://github.com/TheAlgorithms/Rust) - 所有算法的 Rust 实现
-- [Berrysoft/tunet-rust](https://github.com/Berrysoft/tunet-rust) - 清华大学校园网 Rust 库与客户端
+- [ihciah/shadow-tls](https://github.com/ihciah/shadow-tls) - 一个将真实 TLS 握手暴露给防火墙的代理
+- [seanmonstar/warp](https://github.com/seanmonstar/warp) - 一个超简单、可组合的极速 Web 服务器框架。
+- [iovxw/rssbot](https://github.com/iovxw/rssbot) - 轻量级 Telegram RSS 通知机器人。
+- [Wulf/create-rust-app](https://github.com/Wulf/create-rust-app) - 通过一条命令搭建现代的 rust+react Web 应用。
+- [sathwikmatsa/tcad](https://github.com/sathwikmatsa/tcad) - tcloud 自动下载器。
+- [sunface/rust-course](https://github.com/sunface/rust-course) - “连续八年成为全世界最受喜爱的语言，无 GC 也无需手动内存管理、极高的性能和安全性、过程/OO/函数式编程、优秀的包管理、JS 未来基石" — 工作之余的第二语言来试试 Rust 吧。本书拥有全面且深入的讲解、生动贴切的示例、德芙般丝滑的内容，这可能是目前最用心的 Rust 中文学习教程 / 书籍。
+- [rust-lang/cargo](https://github.com/rust-lang/cargo) - Rust 包管理器。
+- [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) - 用于 IDE 的 Rust 编译器前端。
+- [rust-lang/book](https://github.com/rust-lang/book) - Rust 编程语言。
+- [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) - 精选 Rust 代码和资源列表。
+- [bee-san/RustScan](https://github.com/bee-san/RustScan) - 🤖 现代端口扫描器 🤖。
+- [RustPython/RustPython](https://github.com/RustPython/RustPython) - 用 Rust 编写的 Python 解释器。
+- [TheAlgorithms/Rust](https://github.com/TheAlgorithms/Rust) - 所有算法的 Rust 实现。
+- [Berrysoft/tunet-rust](https://github.com/Berrysoft/tunet-rust) - 清华大学校园网 Rust 库与客户端。
 - [sachaos/viddy](https://github.com/sachaos/viddy) - 👀 现代 watch 命令。时间机器和分页器等。
-- [sekunho/emojied](https://github.com/sekunho/emojied) - ✂️ 只用表情符号的短链接生成器。
-- [kxxt/aspeak](https://github.com/kxxt/aspeak) - Azure TTS API 的简单文本转语音客户端。
-- [sharkdp/fd](https://github.com/sharkdp/fd) - “find”的简单、快速且用户友好替代品
-- [atuinsh/atuin](https://github.com/atuinsh/atuin) - ✨ 神奇的 shell 历史
+- [sekunho/emojied](https://github.com/sekunho/emojied) - ✂️ 一个只使用表情符号的 URL 缩短器。
+- [kxxt/aspeak](https://github.com/kxxt/aspeak) - 一个简单的 Azure TTS API 文本转语音客户端。
+- [sharkdp/fd](https://github.com/sharkdp/fd) - 简单、快速且用户友好的 'find' 替代品。
+- [atuinsh/atuin](https://github.com/atuinsh/atuin) - ✨ 魔法的 shell 历史记录。
 - [Dusk-Labs/dim](https://github.com/Dusk-Labs/dim) - Dim，一款由黑暗力量驱动的媒体管理器。
-- [ekzhang/bore](https://github.com/ekzhang/bore) - 🕳 bore 是一个用于本地端口隧道的简单 CLI 工具
-- [rust-lang/mdBook](https://github.com/rust-lang/mdBook) - 从 Markdown 文件创建电子书。类似 Gitbook，但用 Rust 实现
-- [sunface/rust-by-practice](https://github.com/sunface/rust-by-practice) - 通过实践学习 Rust，通过有挑战性的示例、练习和项目缩小初学者与熟练开发者之间的差距。
-- [Wilfred/difftastic](https://github.com/Wilfred/difftastic) - 理解语法的结构化 diff 工具 🟥🟩
-- [rust-lang/rust](https://github.com/rust-lang/rust) - 赋能每个人构建可靠高效软件。
-- [influxdata/influxdb](https://github.com/influxdata/influxdb) - 可扩展的指标、事件和实时分析数据存储
-- [ogham/exa](https://github.com/ogham/exa) - 现代化的 ‘ls’ 替代品。
-- [rathole-org/rathole](https://github.com/rathole-org/rathole) - Rust 编写的轻量级高性能 NAT 穿透反向代理。frp 和 ngrok 的替代品。
-- [flxzt/rnote](https://github.com/flxzt/rnote) - 绘图与手写笔记应用。
+- [ekzhang/bore](https://github.com/ekzhang/bore) - 🕳 bore 是一个简单的命令行工具，用于创建到本地主机的隧道。
+- [rust-lang/mdBook](https://github.com/rust-lang/mdBook) - 从 Markdown 文件创建书籍。类似 Gitbook，但用 Rust 实现。
+- [sunface/rust-by-practice](https://github.com/sunface/rust-by-practice) - 通过实践学习 Rust，通过挑战性示例、练习和项目缩小初学者与熟练开发者之间的差距。
+- [Wilfred/difftastic](https://github.com/Wilfred/difftastic) - 一种理解语法的结构化差异工具 🟥🟩。
+- [rust-lang/rust](https://github.com/rust-lang/rust) - 赋能每个人构建可靠且高效的软件。
+- [influxdata/influxdb](https://github.com/influxdata/influxdb) - 用于指标、事件和实时分析的可扩展数据存储。
+- [ogham/exa](https://github.com/ogham/exa) - ‘ls’ 的现代替代品。
+- [rathole-org/rathole](https://github.com/rathole-org/rathole) - 一个轻量且高性能的反向代理，用于 NAT 穿透，使用 Rust 编写。frp 和 ngrok 的替代品。
+- [flxzt/rnote](https://github.com/flxzt/rnote) - 草图与手写笔记。
 - [ihciah/ddns-worker](https://github.com/ihciah/ddns-worker) - 
-- [svenstaro/genact](https://github.com/svenstaro/genact) - 🌀 无意义活动生成器
-- [cloudflare/wrangler-legacy](https://github.com/cloudflare/wrangler-legacy) - 🤠  Wrangler v1 的家（已弃用）
-- [starship/starship](https://github.com/starship/starship) - ☄🌌️  适用于任意 shell 的极简、极速、无限可定制的提示符！
-- [sayanarijit/qrcode.show](https://github.com/sayanarijit/qrcode.show) - [工作原型] 免费轻松生成二维码 - 提供二维码生成服务
+- [svenstaro/genact](https://github.com/svenstaro/genact) - 🌀 一个无意义活动生成器。
+- [cloudflare/wrangler-legacy](https://github.com/cloudflare/wrangler-legacy) - 🤠 Wrangler v1（已弃用）的家园。
+- [starship/starship](https://github.com/starship/starship) - ☄🌌️ 适用于任何 shell 的极简、极速且无限可定制的提示符！
+- [sayanarijit/qrcode.show](https://github.com/sayanarijit/qrcode.show) - [工作原型] 免费轻松生成二维码 - 作为服务的二维码生成。
 - [fish-shell/fish-shell](https://github.com/fish-shell/fish-shell) - 用户友好的命令行 shell。
-- [qarmin/szyszka](https://github.com/qarmin/szyszka) - Szyszka 是快速且强大的文件重命名工具
-- [qarmin/czkawka](https://github.com/qarmin/czkawka) - 多功能应用，用于查找重复文件、空文件夹、相似图片等。
+- [qarmin/szyszka](https://github.com/qarmin/szyszka) - Szyszka 是快速且强大的文件重命名工具。
+- [qarmin/czkawka](https://github.com/qarmin/czkawka) - 多功能应用，用于查找重复文件、空文件夹、相似图像等。
 
 ## SCSS 
 
-- [Keldos-Li/typora-latex-theme](https://github.com/Keldos-Li/typora-latex-theme) - 将Typora伪装成LaTeX的中文样式主题，本科生轻量级课程论文撰写的好帮手。This is a theme disguising Typora into Chinese LaTeX style.
-- [vinceliuice/Graphite-gtk-theme](https://github.com/vinceliuice/Graphite-gtk-theme) - Graphite gtk 主题
-- [noatpad/typora-theme-ursine](https://github.com/noatpad/typora-theme-ursine) - 一款受 Bear 启发的 Typora 主题
-- [vinceliuice/WhiteSur-gtk-theme](https://github.com/vinceliuice/WhiteSur-gtk-theme) - 类 MacOS 风格的 gtk 桌面主题
-- [sivan/heti](https://github.com/sivan/heti) - 赫蹏（hètí），专为中文内容展示设计的排版样式增强。基于通行的中文排版规范，为网站读者带来更好的文章阅读体验。
-- [AboutRSS/ALL-about-RSS](https://github.com/AboutRSS/ALL-about-RSS) - RSS 相关内容列表：工具、服务、社区和教程等。
+- [Keldos-Li/typora-latex-theme](https://github.com/Keldos-Li/typora-latex-theme) - 将 Typora 伪装成 LaTeX 的中文样式主题，本科生轻量级课程论文撰写的好帮手。This is a theme disguising Typora into Chinese LaTeX style.
+- [vinceliuice/Graphite-gtk-theme](https://github.com/vinceliuice/Graphite-gtk-theme) - Graphite gtk 主题。
+- [noatpad/typora-theme-ursine](https://github.com/noatpad/typora-theme-ursine) - 一个受熊启发的 Typora 主题。
+- [vinceliuice/WhiteSur-gtk-theme](https://github.com/vinceliuice/WhiteSur-gtk-theme) - 类似 MacOS 的所有 gtk 桌面主题。
+- [sivan/heti](https://github.com/sivan/heti) - 赫蹏（hètí）是专为中文内容展示设计的排版样式增强。它基于通行的中文排版规范而来，可以为网站的读者带来更好的文章阅读体验。
+- [AboutRSS/ALL-about-RSS](https://github.com/AboutRSS/ALL-about-RSS) - 一个关于 RSS 的相关内容列表：工具、服务、社区和教程等。
 
 ## SVG 
 
-- [gilbarbara/logos](https://github.com/gilbarbara/logos) - 超大规模 SVG Logo 集合
-- [tandpfun/skill-icons](https://github.com/tandpfun/skill-icons) - 在你的 Github README 或简历中轻松展示技能图标 ✨
+- [gilbarbara/logos](https://github.com/gilbarbara/logos) - 大量 SVG 标志集合。
+- [tandpfun/skill-icons](https://github.com/tandpfun/skill-icons) - 轻松在 Github 个人简介或简历上展示你的技能 ✨。
 
 ## Shell 
 
-- [LloydAsp/NodeQuality](https://github.com/LloydAsp/NodeQuality) - 在沙箱环境中运行vps测试脚本，并排版测试结果
-- [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) - 互联网广告黑洞
-- [xykt/IPQuality](https://github.com/xykt/IPQuality) - IP质量检测脚本 - IP Quality Check Script
-- [i-abc/Speedtest](https://github.com/i-abc/Speedtest) - 多功能测速脚本 | Multi-functional speedtest script
-- [fscarmen/ArgoX](https://github.com/fscarmen/ArgoX) - Argo Xray VPS 一键脚本
-- [233boy/Xray](https://github.com/233boy/Xray) - 最好用的 Xray 一键安装与管理脚本
-- [binpash/try](https://github.com/binpash/try) - 在修改真实系统前检查命令效果
+- [LloydAsp/NodeQuality](https://github.com/LloydAsp/NodeQuality) - 在沙箱环境中运行 VPS 测试脚本，并排版测试结果。
+- [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) - 一个互联网广告黑洞。
+- [xykt/IPQuality](https://github.com/xykt/IPQuality) - IP 质量检测脚本。
+- [i-abc/Speedtest](https://github.com/i-abc/Speedtest) - 多功能测速脚本。
+- [fscarmen/ArgoX](https://github.com/fscarmen/ArgoX) - VPS 一键 Argo Xray 脚本。
+- [233boy/Xray](https://github.com/233boy/Xray) - 最好用的 Xray 一键安装脚本及管理脚本。
+- [binpash/try](https://github.com/binpash/try) - 在修改系统前先检查命令效果。
 - [panyanyany/muchat-aio](https://github.com/panyanyany/muchat-aio) - 团队版 ChatGPT Web 应用，多用户，免登录。适合公司、组织或小团体内部使用。
-- [guzhaoyuan/net.tsinghua](https://github.com/guzhaoyuan/net.tsinghua) - 清华校园网命令行登录工具
-- [yonggekkk/warp-yg](https://github.com/yonggekkk/warp-yg) - warp多功能一键脚本，支持warp-go与wgcf切换，无限生成warp配置文件，支持升级warp+、warp团队账户，查看VPS本地IP、netflix、chatgpt解锁状态
-- [AbdBarho/stable-diffusion-webui-docker](https://github.com/AbdBarho/stable-diffusion-webui-docker) - 便于使用的 Stable Diffusion Docker 一键部署，带用户友好界面
-- [lxhao61/integrated-examples](https://github.com/lxhao61/integrated-examples) - 以 Nginx 或 Caddy(v2 版) 配合 V2Ray(v4 版) 或 Xray、Caddy(v2 版) 加专用插件、Hysteria 等打造常用科学上网的优化配置及最优组合示例，并提供集成插件的 Caddy(v2 版) 文件，分享食用及备份。
+- [guzhaoyuan/net.tsinghua](https://github.com/guzhaoyuan/net.tsinghua) - 清华网络登录命令行界面。
+- [yonggekkk/warp-yg](https://github.com/yonggekkk/warp-yg) - warp 多功能一键脚本，支持 warp-go 与 wgcf 切换，无限生成 warp 配置文件，支持升级 warp+、warp 团队账户，查看 VPS 本地 IP、Netflix、ChatGPT 解锁状态。
+- [AbdBarho/stable-diffusion-webui-docker](https://github.com/AbdBarho/stable-diffusion-webui-docker) - 易用的 Stable Diffusion Docker 设置，带用户友好界面。
+- [lxhao61/integrated-examples](https://github.com/lxhao61/integrated-examples) - 使用 Nginx 或 Caddy(v2 版) 配合 V2Ray(v4 版) 或 Xray、Caddy(v2 版) 专用插件、Hysteria 等优化科学上网的配置示例，并提供集成特定插件的 Caddy(v2 版) 文件，供大家使用及备份。
 - [haiwen/seafile-admin-docs](https://github.com/haiwen/seafile-admin-docs) - 
-- [P3TERX/aria2.conf](https://github.com/P3TERX/aria2.conf) - Aria2 配置文件 | OneDrive & Google Drvive 离线下载 | 百度网盘转存
-- [colinwjd/aria2-ariang](https://github.com/colinwjd/aria2-ariang) - Aria2 + Aira-Ng Web UI
-- [lmc999/auto-add-routes](https://github.com/lmc999/auto-add-routes) - VPN 专用中国路由表
-- [chenjie/v2ray-tls-websocket-nginx](https://github.com/chenjie/v2ray-tls-websocket-nginx) - 🌎终极 V2Ray 代理配置，由 Project V 驱动。
+- [P3TERX/aria2.conf](https://github.com/P3TERX/aria2.conf) - Aria2 配置文件 | OneDrive & Google Drive 离线下载 | 百度网盘转存。
+- [colinwjd/aria2-ariang](https://github.com/colinwjd/aria2-ariang) - 带有 Aira-Ng Web UI 的 Aria2。
+- [lmc999/auto-add-routes](https://github.com/lmc999/auto-add-routes) - 中国 VPN 路由。
+- [chenjie/v2ray-tls-websocket-nginx](https://github.com/chenjie/v2ray-tls-websocket-nginx) - 🌎 由 Project V 提供动力的终极 V2Ray 代理配置。
 - [awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash) - 精选 Bash 脚本和资源列表。
 - [York618/alist-flyio](https://github.com/York618/alist-flyio) - 
 - [termux/termux-packages](https://github.com/termux/termux-packages) - Termux 的软件包构建系统。
-- [todotxt/todo.txt-cli](https://github.com/todotxt/todo.txt-cli) - ☑️ 管理 todo.txt 文件的简单可扩展 shell 脚本。
-- [VSCodium/vscodium](https://github.com/VSCodium/vscodium) - 不含微软品牌/遥测/许可的 VS Code 二进制发行版
-- [dylanaraps/neofetch](https://github.com/dylanaraps/neofetch) - 🖼️  用 bash 3.2+ 编写的命令行系统信息工具
-- [emptysuns/Hi_Hysteria](https://github.com/emptysuns/Hi_Hysteria) - Hello World！非中国优化线路使用不佳？不想中转？hysteria2一键搞定。
-- [nicejade/vuepress-web-app](https://github.com/nicejade/vuepress-web-app) - 📝 基于 VuePress 构建的 Web 应用，支持 Pwa、Github Issues 评论、Prettier Markdown 等。
-- [qinghuas/socks5-install](https://github.com/qinghuas/socks5-install) - socks5 一键脚本
-- [MichaelCade/90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps) - 本仓库最初是个人公开学习项目，现在已成为社区的结构化学习地图。三年涵盖全部 DevOps 内容
+- [todotxt/todo.txt-cli](https://github.com/todotxt/todo.txt-cli) - ☑️ 简单且可扩展的 shell 脚本，用于管理 todo.txt 文件。
+- [VSCodium/vscodium](https://github.com/VSCodium/vscodium) - 去除微软品牌、遥测和许可的 VS Code 二进制发行版。
+- [dylanaraps/neofetch](https://github.com/dylanaraps/neofetch) - 🖼️ 用 bash 3.2+ 编写的命令行系统信息工具。
+- [emptysuns/Hi_Hysteria](https://github.com/emptysuns/Hi_Hysteria) - Hello World！非中国优化线路表现不佳？不想中转？hysteria2 一键搞定。
+- [nicejade/vuepress-web-app](https://github.com/nicejade/vuepress-web-app) - 📝 使用 VuePress 构建的 Web 应用，支持 PWA、Github Issues 评论、Prettier Markdown 等。
+- [qinghuas/socks5-install](https://github.com/qinghuas/socks5-install) - socks5 一键脚本。
+- [MichaelCade/90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps) - 本仓库起初为个人公开学习项目，现已成为社区内结构化学习地图。涵盖三年所有 DevOps 相关内容。
 - [rocky-linux/rocky-tools](https://github.com/rocky-linux/rocky-tools) - 
-- [Smalls1652/wsl2-rockylinux](https://github.com/Smalls1652/wsl2-rockylinux) - 创建适用于 Windows 子系统 Linux 的 RockyLinux 镜像。
-- [scop/bash-completion](https://github.com/scop/bash-completion) - bash 的可编程补全函数
-- [yeahwu/v2ray-wss](https://github.com/yeahwu/v2ray-wss) - 多协议代理脚本。
-- [nodesource/distributions](https://github.com/nodesource/distributions) - NodeSource Node.js 二进制分发
-- [uvulpos/gitea-installer](https://github.com/uvulpos/gitea-installer) - 简单的 gitea bash 安装器！执行前请检查是否为最新 Gitea 下载链接
-- [chevereto/vps](https://github.com/chevereto/vps) - 在任意 VPS 上安装 Chevereto 的 bash 脚本集合
-- [wulabing/Xray_onekey](https://github.com/wulabing/Xray_onekey) - 基于 Nginx 的 Xray VLESS + XTLS 一键安装脚本
-- [lanbugs/gitea_installer](https://github.com/lanbugs/gitea_installer) - GITEA 安装脚本
-- [AlistGo/alist-replit](https://github.com/AlistGo/alist-replit) - replit 上部署 alist
-- [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) - 纯 Unix Shell 实现的 ACME 客户端协议脚本
+- [Smalls1652/wsl2-rockylinux](https://github.com/Smalls1652/wsl2-rockylinux) - 为 Windows 子系统 Linux 创建 RockyLinux 镜像。
+- [scop/bash-completion](https://github.com/scop/bash-completion) - bash 可编程补全函数。
+- [yeahwu/v2ray-wss](https://github.com/yeahwu/v2ray-wss) - 支持多协议的代理脚本。
+- [nodesource/distributions](https://github.com/nodesource/distributions) - NodeSource Node.js 二进制发行版。
+- [uvulpos/gitea-installer](https://github.com/uvulpos/gitea-installer) - 一个简单的 Gitea bash 安装脚本！执行前请确认使用最新的 Gitea 下载链接。
+- [chevereto/vps](https://github.com/chevereto/vps) - 一组用于在任何 VPS 上安装 Chevereto 的 bash 脚本。
+- [wulabing/Xray_onekey](https://github.com/wulabing/Xray_onekey) - 基于 Nginx 的 Xray VLESS + XTLS 一键安装脚本。
+- [lanbugs/gitea_installer](https://github.com/lanbugs/gitea_installer) - GITEA 安装脚本。
+- [AlistGo/alist-replit](https://github.com/AlistGo/alist-replit) - 在 replit 上运行 alist。
+- [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) - 纯 Unix shell 脚本实现的 ACME 客户端协议。
 - [wulabing/V2Ray_ws-tls_bash_onekey](https://github.com/wulabing/V2Ray_ws-tls_bash_onekey) - 
-- [mack-a/v2ray-agent](https://github.com/mack-a/v2ray-agent) - Xray、Tuic、hysteria2、sing-box 八合一一键脚本
-- [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) - 计算机科学社区值得阅读和讨论的论文集。
-- [eRaid6/gitea-install](https://github.com/eRaid6/gitea-install) - 在 CentOS 7/RHEL7 和 Fedora 30 上安装与升级 Gitea
-- [P3TERX/warp.sh](https://github.com/P3TERX/warp.sh) - Cloudflare WARP 安装器 | WARP 一键安装脚本
-- [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃 由社区驱动（超2400名贡献者）的 zsh 配置管理框架。包含 300+ 可选插件（rails、git、macOS、hub、docker、homebrew、node、php、python 等）
-- [bestxtools/awesome-toolbox-chinese](https://github.com/bestxtools/awesome-toolbox-chinese) - 🧰 优秀工具箱集合 - 收集、推荐好用、优秀的工具箱。工具箱大全。| https://awesome-toolbox-chinese.bestxtools.com/ | https://😎🧰.bestxtools.com/
-- [wslutilities/wslu](https://github.com/wslutilities/wslu) - Windows 子系统 Linux 实用工具集
-- [cheat/cheatsheets](https://github.com/cheat/cheatsheets) - 社区驱动的速查表
-- [foxundermoon/vs-shell-format](https://github.com/foxundermoon/vs-shell-format) - shellscript、Dockerfile、properties 等格式化扩展
-- [aprescott/gist-backup](https://github.com/aprescott/gist-backup) - 备份你所有的公开和私有 gist 仓库。
-- [Jrohy/nodejs-install](https://github.com/Jrohy/nodejs-install) - 一键安装最新版 nodejs
-- [rickellis/ConkyMatic](https://github.com/rickellis/ConkyMatic) - 基于当前壁纸颜色自动更改 Conky 配色方案。用 Bash 编写。
-- [DamionGans/ubuntu-wsl2-systemd-script](https://github.com/DamionGans/ubuntu-wsl2-systemd-script) - [已不可用！] 使当前 Ubuntu WSL2 镜像支持 systemd 的脚本
-- [adi1090x/dynamic-wallpaper](https://github.com/adi1090x/dynamic-wallpaper) - 一个简单的 bash 脚本，根据当前时间自动设置壁纸，使用 cron 任务调度器。
-- [v2fly/fhs-install-v2ray](https://github.com/v2fly/fhs-install-v2ray) - 用于在支持 systemd 的 Debian / CentOS / Fedora / openSUSE 等操作系统中安装 V2Ray 的 Bash 脚本
-- [denysdovhan/one-gnome-terminal](https://github.com/denysdovhan/one-gnome-terminal) - GNOME Terminal 的 Atom One Dark 和 One Light 主题
+- [mack-a/v2ray-agent](https://github.com/mack-a/v2ray-agent) - Xray、Tuic、hysteria2、sing-box 八合一一键脚本。
+- [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) - 计算机科学社区的论文阅读与讨论。
+- [eRaid6/gitea-install](https://github.com/eRaid6/gitea-install) - 在 CentOS 7/RHEL7 和 Fedora 30 上安装和升级 Gitea。
+- [P3TERX/warp.sh](https://github.com/P3TERX/warp.sh) - Cloudflare WARP 安装器 | WARP 一键安装脚本。
+- [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃 一个由社区驱动（2400+ 贡献者）的 zsh 配置管理框架。包含 300+ 可选插件（rails、git、macOS、hub、docker、homebrew、node、php、python，
+- [bestxtools/awesome-toolbox-chinese](https://github.com/bestxtools/awesome-toolbox-chinese) - 🧰 优秀工具箱集合 - 收集、推荐好用且优秀的工具箱。工具箱大全。| https://awesome-toolbox-chinese.bestxtools.com/ | https://😎🧰.bestxtools.com/
+- [wslutilities/wslu](https://github.com/wslutilities/wslu) - Windows 子系统 Linux 的工具集合。
+- [cheat/cheatsheets](https://github.com/cheat/cheatsheets) - 社区贡献的速查表。
+- [foxundermoon/vs-shell-format](https://github.com/foxundermoon/vs-shell-format) - shellscript、Dockerfile、properties 等格式扩展
+- [aprescott/gist-backup](https://github.com/aprescott/gist-backup) - 备份所有你的公共和私有 gist 仓库。
+- [Jrohy/nodejs-install](https://github.com/Jrohy/nodejs-install) - 一键安装最新版nodejs
+- [rickellis/ConkyMatic](https://github.com/rickellis/ConkyMatic) - 基于当前壁纸颜色自动更换 Conky 颜色方案。用 Bash 编写。
+- [DamionGans/ubuntu-wsl2-systemd-script](https://github.com/DamionGans/ubuntu-wsl2-systemd-script) - [不再可用！] 启用当前 Ubuntu WSL2 镜像 systemd 支持的脚本
+- [adi1090x/dynamic-wallpaper](https://github.com/adi1090x/dynamic-wallpaper) - 一个简单的 bash 脚本，根据当前时间设置壁纸，使用 cron 任务调度。
+- [v2fly/fhs-install-v2ray](https://github.com/v2fly/fhs-install-v2ray) - 用于在支持 systemd 的操作系统（如 Debian / CentOS / Fedora / openSUSE）中安装 V2Ray 的 Bash 脚本
+- [denysdovhan/one-gnome-terminal](https://github.com/denysdovhan/one-gnome-terminal) - Atom 的 One Dark 和 One Light 主题，用于 GNOME 终端
 - [disbalancer-project/main](https://github.com/disbalancer-project/main) - 
-- [felixonmars/vps2arch](https://github.com/felixonmars/vps2arch) - 将 VPS 转为 Arch Linux 的最快方法！（基于 gitlab:drizzt/vps2arch 分叉）
+- [felixonmars/vps2arch](https://github.com/felixonmars/vps2arch) - 将 VPS 快速转换为 Arch Linux 的最快方法！（fork 自 gitlab:drizzt/vps2arch）
 - [xiantang/xiantang-blog](https://github.com/xiantang/xiantang-blog) - 博客
-- [WSA-Community/WSAGAScript](https://github.com/WSA-Community/WSAGAScript) - 用于在 WSA 镜像中安装 Google Apps 的脚本，并可选获取 root 权限
-- [mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) - 超过 400 款 iTerm/iTerm2 终端配色方案。包括 Terminal、Konsole、PuTTY、Xresources、XRDB、Remmina、Termite、XFCE、Tilda、FreeBSD VT、Terminator、Kitty、MobaXterm、LXTermin 的移植版
-- [wabarc/on-heroku](https://github.com/wabarc/on-heroku) - 轻松快速地将 wayback 服务部署并维护为 Heroku 应用。
-- [wabarc/on-github](https://github.com/wabarc/on-github) - 作为 GitHub Actions 运行的 wayback 服务（仅演示用）
+- [WSA-Community/WSAGAScript](https://github.com/WSA-Community/WSAGAScript) - 安装 Google 应用到 WSA 镜像的脚本。支持可选 root
+- [mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) - 超过400款 iTerm/iTerm2 终端配色方案/主题。包括 Terminal、Konsole、PuTTY、Xresources、XRDB、Remmina、Termite、XFCE、Tilda、FreeBSD VT、Terminator、Kitty、MobaXterm、LXTermin 的移植版本
+- [wabarc/on-heroku](https://github.com/wabarc/on-heroku) - 轻松快速地部署和维护 Wayback 服务为 Heroku 应用。
+- [wabarc/on-github](https://github.com/wabarc/on-github) - 作为 GitHub Actions 的 Wayback 服务（仅演示）
 - [csguide-dabai/Programmer-look-at-China](https://github.com/csguide-dabai/Programmer-look-at-China) - 介绍中国各二线及以上城市的互联网环境及生活成本
-- [vicalloy/outline-docker-compose](https://github.com/vicalloy/outline-docker-compose) - 几分钟内安装自托管的 Outline wiki 实例
+- [vicalloy/outline-docker-compose](https://github.com/vicalloy/outline-docker-compose) - 几分钟内安装自托管的 Outline Wiki 实例
 - [haoyume/233blog-v2ray](https://github.com/haoyume/233blog-v2ray) - 
-- [jpetazzo/container.training](https://github.com/jpetazzo/container.training) - Docker、容器和 Kubernetes 培训、教程和研讨会的幻灯片及代码示例。
+- [jpetazzo/container.training](https://github.com/jpetazzo/container.training) - 关于 Docker、容器和 Kubernetes 的培训、教程和研讨会的幻灯片及代码示例。
 - [Websoft9Archive/ansible-nextcloud](https://github.com/Websoft9Archive/ansible-nextcloud) - Nextcloud 在 Linux 上的自动安装程序
 - [nextcloud/docker](https://github.com/nextcloud/docker) - ⛴ Nextcloud 的 Docker 镜像
 - [ToutyRater/v2ray-guide](https://github.com/ToutyRater/v2ray-guide) - 
-- [cutelua/mtg-dist](https://github.com/cutelua/mtg-dist) - mtg 的一行命令分发与安装脚本
+- [cutelua/mtg-dist](https://github.com/cutelua/mtg-dist) - mtg 的一键分发及安装脚本
 - [Cats-Team/AdRules](https://github.com/Cats-Team/AdRules) - 中国地区广告屏蔽列表
-- [weakish/gister](https://github.com/weakish/gister) - 用于同步 github gists 的命令行工具
-- [Kr328/clash-premium-installer](https://github.com/Kr328/clash-premium-installer) - Linux 下简单的 clash premium 内核安装器。
+- [weakish/gister](https://github.com/weakish/gister) - 同步 GitHub gist 的命令行工具
+- [Kr328/clash-premium-installer](https://github.com/Kr328/clash-premium-installer) - Linux 简易 Clash Premium 核心安装器。
 - [zfl9/ss-tproxy](https://github.com/zfl9/ss-tproxy) - ss/v2ray/xray/trojan/hysteria/naive/socks5 透明代理
 - [wyx176/Socks5](https://github.com/wyx176/Socks5) - Socks5 代理服务器搭建脚本/Socks5 快捷方式创建脚本
 - [JACKUSR2089/v2ray-subscribed](https://github.com/JACKUSR2089/v2ray-subscribed) - v2ray666
-- [jinwyp/one_click_script](https://github.com/jinwyp/one_click_script) - 安装最新或 LTS Linux 内核，并启用 BBR 或 BBR plus
-- [gaurav-nelson/github-action-markdown-link-check](https://github.com/gaurav-nelson/github-action-markdown-link-check) - ⛔️ 已弃用 检查 markdown 文件中所有链接是否可用。🔗✔️ 另见：https://github.com/tcort/github-action-markdown-link-check
+- [jinwyp/one_click_script](https://github.com/jinwyp/one_click_script) - 安装最新或 LTS Linux 内核并启用 BBR 或 BBR plus
+- [gaurav-nelson/github-action-markdown-link-check](https://github.com/gaurav-nelson/github-action-markdown-link-check) - ⛔️ 已废弃 检查 markdown 文件中所有链接是否有效。🔗✔️PS: https://github.com/tcort/github-action-markdown-link-check
 - [rey/tweet-delete](https://github.com/rey/tweet-delete) - 
 - [JetBrains/JetBrainsMono](https://github.com/JetBrains/JetBrainsMono) - JetBrains Mono —— 免费开源的开发者字体
 - [oh-my-fish/oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) - Fish Shell 框架
-- [SnShine/Twitter-to-DayOne](https://github.com/SnShine/Twitter-to-DayOne) - 获取你当天所有推文并生成 DayOne 日志。
-- [haiwen/seafile-server-installer](https://github.com/haiwen/seafile-server-installer) - 用于搭建生产可用 Seafile 服务器（含 HTTPS）的脚本集
-- [ludovicchabant/Chrome-Search-Engine-Sync](https://github.com/ludovicchabant/Chrome-Search-Engine-Sync) - 导出/导入 Google Chrome 搜索引擎偏好设置的简单脚本
-- [lovezzzxxx/liverecord](https://github.com/lovezzzxxx/liverecord) - 自动录播并自动备份，支持 youtube 频道、twitcast 频道、twitch 频道、openrec 频道、niconico 生放送、niconico 社区、niconico 频道、mirrativ 频道、reality 频道、17live 频道、bilibili 频道、streamlink 支持的直播网址、ffmpeg 支持的 m3u8 地址
+- [SnShine/Twitter-to-DayOne](https://github.com/SnShine/Twitter-to-DayOne) - 获取你当天所有推文并生成 DayOne 条目。
+- [haiwen/seafile-server-installer](https://github.com/haiwen/seafile-server-installer) - 配置生产环境 Seafile 服务器安装的脚本集合，支持 HTTPS
+- [ludovicchabant/Chrome-Search-Engine-Sync](https://github.com/ludovicchabant/Chrome-Search-Engine-Sync) - 简单脚本，用于导出/导入 Google Chrome 搜索引擎偏好设置。
+- [lovezzzxxx/liverecord](https://github.com/lovezzzxxx/liverecord) - 自动录播并自动备份，支持 youtube 频道、twitcast 频道、twitch 频道、openrec 频道、niconico 直播、niconico 社区、niconico 频道、mirrativ 频道、reality 频道、17live 频道、bilibili 频道、streamlink 支持的直播网址、ffmpeg 支持的 m3u8 地址
 
 ## Stylus 
 
-- [XPoet/hexo-theme-keep](https://github.com/XPoet/hexo-theme-keep) - :rainbow: 一款简洁、轻盈的 Hexo 主题，让你更专注于写作。
+- [XPoet/hexo-theme-keep](https://github.com/XPoet/hexo-theme-keep) - :rainbow: 一个简单轻量的 Hexo 主题。让你更专注于写作。
 
 ## Svelte 
 
-- [K-Sato1995/focus-sounds](https://github.com/K-Sato1995/focus-sounds) - 用 svelte-kit 构建的效率网站。你可以聆听环境音帮助专注👨‍💻👨‍💻
+- [K-Sato1995/focus-sounds](https://github.com/K-Sato1995/focus-sounds) - 用 svelte-kit 构建的生产力网站。你可以听环境音帮助集中注意力👨‍💻👨‍💻
 - [shajidhasan/rknotes-app](https://github.com/shajidhasan/rknotes-app) - 
-- [shajidhasan/batname](https://github.com/shajidhasan/batname) - 生成类似“The Batman (2022)”电影 logo 的文本
+- [shajidhasan/batname](https://github.com/shajidhasan/batname) - 生成类似 "The Batman (2022)" 电影标志的文本
 - [shajidhasan/cowsay-svelte](https://github.com/shajidhasan/cowsay-svelte) - 用 Svelte、TailwindCSS 和 HTML Canvas 构建的 cowsay 图形界面
-- [pabueco/hue.tools](https://github.com/pabueco/hue.tools) - 简单的色彩工具箱。支持混色、混合、转换、修改、详细信息等。
-- [cxumol/URLinkCat](https://github.com/cxumol/URLinkCat) - URL 链接目录，轻量级多用户云书签应用，基于无服务器平台，速度快、易用
+- [pabueco/hue.tools](https://github.com/pabueco/hue.tools) - 颜色处理简易工具箱。颜色混合、融合、转换、修改、详细信息等。
+- [cxumol/URLinkCat](https://github.com/cxumol/URLinkCat) - URL 链接目录，轻量级多用户云书签应用，运行在无服务器平台，速度快且易用
 - [dufu1991/simple-cloud-music](https://github.com/dufu1991/simple-cloud-music) - 简洁的第三方网易云音乐播放器
 
 ## Swift 
 
 - [mazzzystar/Queryable](https://github.com/mazzzystar/Queryable) - 在 iOS 上运行 OpenAI 的 CLIP 和 Apple 的 MobileCLIP 模型搜索照片。
-- [mudkipme/MoeMemos](https://github.com/mudkipme/MoeMemos) - 一款帮助你捕捉想法与灵感的应用
-- [thebaselab/codeapp](https://github.com/thebaselab/codeapp) - 为 iPad 构建的全功能代码编辑器
-- [LyricZhao/THU-Bell](https://github.com/LyricZhao/THU-Bell) - macOS 上的清华钟声
-- [insidegui/VirtualBuddy](https://github.com/insidegui/VirtualBuddy) - 在 Apple Silicon 上虚拟化 macOS 12 及以上版本，VirtualBuddy 是适用于 macOS M1、M2、M3、M4 的虚拟机图形界面
+- [mudkipme/MoeMemos](https://github.com/mudkipme/MoeMemos) - 帮助你捕捉想法和灵感的应用
+- [thebaselab/codeapp](https://github.com/thebaselab/codeapp) - 为 iPad 构建一个功能完善的代码编辑器
+- [LyricZhao/THU-Bell](https://github.com/LyricZhao/THU-Bell) - macOS 上的 THU Bell
+- [insidegui/VirtualBuddy](https://github.com/insidegui/VirtualBuddy) - 在 Apple Silicon 上虚拟 macOS 12 及更高版本，VirtualBuddy 是 macOS M1、M2、M3、M4 的虚拟机 GUI
 - [sindresorhus/Plash](https://github.com/sindresorhus/Plash) - 💦 让任意网站成为你的 Mac 桌面壁纸
 - [CodeEditApp/CodeEdit](https://github.com/CodeEditApp/CodeEdit) - 📝 macOS 上的 CodeEdit 应用——提升你的代码编辑体验。开源，永久免费。
 - [RanKKI/LawRefBook](https://github.com/RanKKI/LawRefBook) - 中华人民共和国法律手册
-- [gee1k/uPic](https://github.com/gee1k/uPic) - 📤uPic 是一款原生、强大、美观且简单的 macOS 图片和文件上传工具。
+- [gee1k/uPic](https://github.com/gee1k/uPic) - 📤 uPic 是一款原生的、强大、美观且简单的 macOS 图片和文件上传工具。
 
 ## TeX 
 
 - [billryan/resume](https://github.com/billryan/resume) - 一个优雅的 \LaTeX\ 简历模板。大陆镜像 https://gods.coding.net/p/resume/git
-- [LittleNewton/Replace_MathType](https://github.com/LittleNewton/Replace_MathType) - 提供一个基于 Microsoft Office 365 的数学公式替代方案
+- [LittleNewton/Replace_MathType](https://github.com/LittleNewton/Replace_MathType) - 提供基于 Microsoft Office 365 的数学公式替代方案
 - [lib-pku/libpku](https://github.com/lib-pku/libpku) - 贵校课程资料民间整理
-- [liblaf/ilatex](https://github.com/liblaf/ilatex) - 📚 创建优美、结构化文档的 LaTeX 模板与工具 📝
+- [liblaf/ilatex](https://github.com/liblaf/ilatex) - 📚 用于创建美观且结构化文档的 LaTeX 模板和工具 📝
 - [Didnelpsun/Math](https://github.com/Didnelpsun/Math) - 考研数学，数学一，包括高等数学、线性代数、概率统计
-- [zhengkd95/thu_poster_template](https://github.com/zhengkd95/thu_poster_template) - 带有清华大学标志的学术海报 LaTeX 模板
+- [zhengkd95/thu_poster_template](https://github.com/zhengkd95/thu_poster_template) - 带清华大学标志的学术海报 LaTeX 模板
 - [VicaYang/THU-Exam-LaTeX-Template](https://github.com/VicaYang/THU-Exam-LaTeX-Template) - 清华大学考试 LaTeX 模板
 - [alick/thulib-latex-talk](https://github.com/alick/thulib-latex-talk) - 《如何使用 LaTeX 排版论文》讲稿。后续更新：https://github.com/tuna/thulib-latex-talk
 - [tuna/thulib-latex-talk](https://github.com/tuna/thulib-latex-talk) - 《如何使用 LaTeX 排版论文》讲稿
-- [zhaofeng-shu33/THU-coursework-template](https://github.com/zhaofeng-shu33/THU-coursework-template) - 清华课程作业模板，适用专业：数学、物理、电子工程、力学与计算机科学
-- [zinccat/PKU-beamer-theme](https://github.com/zinccat/PKU-beamer-theme) - 从某清华模板魔改的 beamer 主题 x
+- [zhaofeng-shu33/THU-coursework-template](https://github.com/zhaofeng-shu33/THU-coursework-template) - 清华大学课程作业模板，适用专业：数学、物理、电子工程、力学和计算机科学
+- [zinccat/PKU-beamer-theme](https://github.com/zinccat/PKU-beamer-theme) - 基于某清华模板魔改的 beamer 主题
 - [ZenithalHourlyRate/learn-git-the-not-so-super-hard-way](https://github.com/ZenithalHourlyRate/learn-git-the-not-so-super-hard-way) - 
-- [K-Wu/CV-tsinghua-template](https://github.com/K-Wu/CV-tsinghua-template) - All hail, Thy Highest University (THU)
-- [soulmachine/leetcode](https://github.com/soulmachine/leetcode) - LeetCode 题解，151 道题完整版。
-- [tuna/thuthesis](https://github.com/tuna/thuthesis) - 清华大学学位论文 LaTeX 模板
+- [K-Wu/CV-tsinghua-template](https://github.com/K-Wu/CV-tsinghua-template) - 万岁，至高无上的清华大学（THU）
+- [soulmachine/leetcode](https://github.com/soulmachine/leetcode) - LeetCode 题解，151道题完整版。
+- [tuna/thuthesis](https://github.com/tuna/thuthesis) - 清华大学 LaTeX 论文模板
 
 ## TypeScript 
 
-- [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat) - 🤯 Lobe Chat - 一个开源、现代设计的 AI 聊天框架。支持多种 AI 供应商（OpenAI / Claude 4 / Gemini / DeepSeek / Ollama / Qwen）、知识库（文件上传 / RAG）、一键安装等
-- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) - 一款开源 AI 代理，将 Gemini 的强大功能直接带到你的终端。
+- [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat) - 🤯 Lobe Chat - 一个开源的现代设计 AI 聊天框架。支持多种 AI 提供商（OpenAI / Claude 4 / Gemini / DeepSeek / Ollama / Qwen）、知识库（文件上传 / RAG），一键使用
+- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) - 一个开源 AI 代理，将 Gemini 的强大功能直接带入你的终端。
 - [JuanJLH/vscode-warp-terminal](https://github.com/JuanJLH/vscode-warp-terminal) - 
-- [lobehub/lobe-icons](https://github.com/lobehub/lobe-icons) - 🥨 Lobe Icons - 流行 AI / LLM 模型品牌 SVG Logo 与图标集合。
-- [nimbusdotstorage/Nimbus](https://github.com/nimbusdotstorage/Nimbus) - 一款开源的 Google Drive、One Drive、iCloud 等云盘替代品。
-- [BingyanStudio/github-analyzer](https://github.com/BingyanStudio/github-analyzer) - 锐评一下你都在 GitHub 写了什么
+- [lobehub/lobe-icons](https://github.com/lobehub/lobe-icons) - 🥨 Lobe Icons - 流行 AI / LLM 模型品牌 SVG 标志和图标集合。
+- [nimbusdotstorage/Nimbus](https://github.com/nimbusdotstorage/Nimbus) - Google Drive、One Drive、iCloud 等的开源替代方案。
+- [BingyanStudio/github-analyzer](https://github.com/BingyanStudio/github-analyzer) - 锐评你在 GitHub 上写了什么
 - [voideditor/void](https://github.com/voideditor/void) - 
 - [HiveNexus/A2A-Chat](https://github.com/HiveNexus/A2A-Chat) - 一个基于 Agent 2 Agent 协议的聊天应用，可以通过对话方式给外部 Agent 下发任务，并获取结果
-- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) - Model Context Protocol 服务器
+- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) - 模型上下文协议服务器
 - [iszhouhua/social-media-copilot](https://github.com/iszhouhua/social-media-copilot) - 社媒助手开源版 - 小红书、抖音、快手等平台数据采集的浏览器插件，可通过 API 调用，支持 Docker 部署。
-- [Hugo-COLLIN/SaveMyPhind-conversation-exporter](https://github.com/Hugo-COLLIN/SaveMyPhind-conversation-exporter) - 🚀 Save my Chatbot: 下载你的 Claude、Perplexity、Phind、ChatGPT 和 MaxAI-Google 对话及页面为 markdown 文件（非官方）。⏩ 现已上线 Chrome 商店和 Firefox 附加组件
-- [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) - 以 Claude Code 作为编码基础设施，让你自定义与模型的交互方式，并享受 Anthropic 的更新。
+- [Hugo-COLLIN/SaveMyPhind-conversation-exporter](https://github.com/Hugo-COLLIN/SaveMyPhind-conversation-exporter) - 🚀 保存我的聊天机器人：下载你的 Claude、Perplexity、Phind、ChatGPT 和 MaxAI-Google 线程和页面为 markdown 文件（非官方）。⏩ 现已上架 Chrome 网上应用店和 Firefox 附加组件
+- [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) - 以 Claude Code 作为编码基础设施，让你决定如何与模型交互，同时享受 Anthropic 的更新。
 - [aigem/CFr2-webdav](https://github.com/aigem/CFr2-webdav) - 使用 Cloudflare Workers 和 R2 实现的兼容 WebDAV 的服务器
-- [TBXark/ChatGPT-Telegram-Workers](https://github.com/TBXark/ChatGPT-Telegram-Workers) - 轻松在 Cloudflare Workers（或 Vercel、Docker...）上部署你的 Telegram ChatGPT 机器人。
-- [kyswtn/vscode-vercel](https://github.com/kyswtn/vscode-vercel) - 在编码时实时监控你的 Vercel 部署
-- [Femoon/tts-azure-web](https://github.com/Femoon/tts-azure-web) - TTS Azure Web 是一个 Azure 文本转语音（TTS）网页应用，可在本地或云端使用你的 Azure Key 一键部署。TTS Azure Web is an Azure Text-to-Speech (TTS) web application. It allows you to run it locally or deploy it with a single click us
+- [TBXark/ChatGPT-Telegram-Workers](https://github.com/TBXark/ChatGPT-Telegram-Workers) - 轻松在 Cloudflare Workers（或 Vercel、Docker 等）上部署你的 Telegram ChatGPT 机器人。
+- [kyswtn/vscode-vercel](https://github.com/kyswtn/vscode-vercel) - 编码时随时关注你的 Vercel 部署情况
+- [Femoon/tts-azure-web](https://github.com/Femoon/tts-azure-web) - TTS Azure Web 是一个 Azure 文本转语音（TTS）网页应用，可以在本地或者云端使用你的 Azure Key 一键部署。TTS Azure Web 是一个基于 Azure 的文本转语音（TTS）网页应用。它允许你在本地运行或通过单击使用你的 Azure Key 部署。
 - [daytonaio/daytona](https://github.com/daytonaio/daytona) - Daytona 是一个用于运行 AI 生成代码的安全且弹性的基础设施
-- [bepass-org/oblivion-desktop](https://github.com/bepass-org/oblivion-desktop) - Oblivion Desktop - Windows/Mac/Linux 的非官方 Warp 客户端
-- [besscroft/PicImpact](https://github.com/besscroft/PicImpact) - 自部署摄影作品网站，支持多种功能。PicImpact，分享你和世界！
-- [lyc8503/UptimeFlare](https://github.com/lyc8503/UptimeFlare) - ✔ 基于 Cloudflare Workers 的免费无服务器的在线监控/状态页，支持地理位置检测
-- [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - 开源替代 Vercel、Netlify 和 Heroku 的平台。
-- [maotoumao/MusicFree](https://github.com/maotoumao/MusicFree) - 插件化、可定制、无广告的免费音乐播放器
-- [maotoumao/MusicFreeDesktop](https://github.com/maotoumao/MusicFreeDesktop) - 插件化、可定制、无广告的免费音乐播放器
-- [misskey-dev/misskey](https://github.com/misskey-dev/misskey) - 🌎 完全免费且开源的星际微博平台 🚀
-- [yllhwa/FileWorker](https://github.com/yllhwa/FileWorker) - 运行在边缘函数上的在线剪贴板/文件共享工具
-- [web-infra-dev/rspress](https://github.com/web-infra-dev/rspress) - 🦀 基于 Rsbuild 的高速静态网站生成器。
+- [bepass-org/oblivion-desktop](https://github.com/bepass-org/oblivion-desktop) - Oblivion Desktop - 非官方的 Warp 客户端，支持 Windows/Mac/Linux
+- [besscroft/PicImpact](https://github.com/besscroft/PicImpact) - 自部署的摄影作品网站，支持多种功能特性。PicImpact，分享你和世界！
+- [lyc8503/UptimeFlare](https://github.com/lyc8503/UptimeFlare) - ✔ 基于 Cloudflare Workers 的免费无服务器运行时间监控/状态页，支持地理位置特定检查
+- [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - Vercel、Netlify 和 Heroku 的开源替代方案。
+- [maotoumao/MusicFree](https://github.com/maotoumao/MusicFree) - 插件化、定制化、无广告的免费音乐播放器
+- [maotoumao/MusicFreeDesktop](https://github.com/maotoumao/MusicFreeDesktop) - 插件化、定制化、无广告的免费音乐播放器
+- [misskey-dev/misskey](https://github.com/misskey-dev/misskey) - 🌎 一个完全免费且开放的星际微博平台 🚀
+- [yllhwa/FileWorker](https://github.com/yllhwa/FileWorker) - 运行于边缘函数的在线剪贴板/文件共享
+- [web-infra-dev/rspress](https://github.com/web-infra-dev/rspress) - 🦀 一个基于 Rsbuild 的快速静态网站生成器。
 - [beilunyang/img-mom](https://github.com/beilunyang/img-mom) - Telegram 机器人（img-mon | 图片老妈）
 - [liaoliao666/v2ex](https://github.com/liaoliao666/v2ex) - V2EX 好看的第三方客户端，原生 App，支持夜间模式。
-- [chaselen/v2ex-playground](https://github.com/chaselen/v2ex-playground) - VSCode 上逛 V2EX 网站的插件
-- [hyoban/kirika](https://github.com/hyoban/kirika) - 一个简单的笔记跨平台转换工具
+- [chaselen/v2ex-playground](https://github.com/chaselen/v2ex-playground) - VSCode 上浏览 V2EX 网站的插件
+- [hyoban/kirika](https://github.com/hyoban/kirika) - 一个简单的工具，用于在不同平台间转换你的笔记
 - [edrlab/thorium-reader](https://github.com/edrlab/thorium-reader) - 基于 Readium Desktop 工具包的跨平台桌面阅读应用
-- [Kuingsmile/PicList](https://github.com/Kuingsmile/PicList) - 基于 PicGo 的图片上传与管理工具
-- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) - 基于 Tauri 的现代代理 GUI 客户端，支持 Windows、macOS 和 Linux
-- [githubnext/monaspace](https://github.com/githubnext/monaspace) - 专为编程设计的创新超级字体家族
+- [Kuingsmile/PicList](https://github.com/Kuingsmile/PicList) - 基于 PicGo 的图片上传和管理工具
+- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) - 基于 Tauri 的现代 GUI 客户端，支持 Windows、macOS 和 Linux，提供定制代理体验
+- [githubnext/monaspace](https://github.com/githubnext/monaspace) - 一个创新的代码字体超家族
 - [dicarne/feishu-backup](https://github.com/dicarne/feishu-backup) - 用于备份飞书文档，可将飞书文档转换为 markdown 下载。
-- [LetTTGACO/elog](https://github.com/LetTTGACO/elog) - Markdown 批量导出工具、开放式跨平台博客解决方案，支持多种写作与博客平台自由组合
+- [LetTTGACO/elog](https://github.com/LetTTGACO/elog) - Markdown 批量导出工具，开放式跨平台博客解决方案，自由组合写作平台（语雀/Notion/FlowUs/飞书/我来Wolai）和博客平台（Hexo/Vitepress/Halo/Confluence/WordPress 等）
 - [memgraph/odin](https://github.com/memgraph/odin) - 
-- [Harry-Chen/thu-learn-lib](https://github.com/Harry-Chen/thu-learn-lib) - 为清华大学网络学堂提供编程友好接口的 JavaScript 库
+- [Harry-Chen/thu-learn-lib](https://github.com/Harry-Chen/thu-learn-lib) - 一个为清华大学网络学堂提供程序友好接口的 JavaScript 库
 - [qxchuckle/vsc-cec-ide](https://github.com/qxchuckle/vsc-cec-ide) - 一个没什么用的 VSC 插件
-- [chatchat-space/Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat) - Langchain-Chatchat（原 Langchain-ChatGLM）基于 Langchain 与 ChatGLM、Qwen、Llama 等语言模型的 RAG 与 Agent 应用
-- [CopyTranslator/CopyTranslator](https://github.com/CopyTranslator/CopyTranslator) - 🔠基于复制翻译的外语阅读与翻译助手。
-- [longern/FlareDrive](https://github.com/longern/FlareDrive) - 基于 CloudFlare R2 的免费文件托管服务（WebUI & WebDAV）
-- [ChatAnyTeam/ChatAny](https://github.com/ChatAnyTeam/ChatAny) - 🌻 一键拥有你自己的 ChatGPT+多种 AI 网页服务
-- [MuiseDestiny/zotero-gpt](https://github.com/MuiseDestiny/zotero-gpt) - GPT 与 Zotero 集成工具。
+- [chatchat-space/Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat) - Langchain-Chatchat（原 Langchain-ChatGLM）基于 Langchain 与 ChatGLM、Qwen 和 Llama 等语言模型的 RAG 与 Agent 应用 | Langchain-Chatchat（前称 langchain-ChatGLM），基于本地知识的 LLM（如 ChatGLM、Qwen 和 Ll
+- [CopyTranslator/CopyTranslator](https://github.com/CopyTranslator/CopyTranslator) - 🔠 基于复制翻译的外语阅读和翻译助手。
+- [longern/FlareDrive](https://github.com/longern/FlareDrive) - 使用 CloudFlare R2 的免费文件托管服务（WebUI & WebDAV）
+- [ChatAnyTeam/ChatAny](https://github.com/ChatAnyTeam/ChatAny) - 🌻 一键拥有你自己的 ChatGPT+众多 AI 网页服务 | 一键访问你自己的 ChatGPT+众多 AI 网页服务
+- [MuiseDestiny/zotero-gpt](https://github.com/MuiseDestiny/zotero-gpt) - GPT 遇见 Zotero。
 - [langgenius/webapp-conversation](https://github.com/langgenius/webapp-conversation) - 
-- [langgenius/dify](https://github.com/langgenius/dify) - 面向生产的 Agent 工作流开发平台。
-- [ObservedObserver/viz-gpt](https://github.com/ObservedObserver/viz-gpt) - 通过聊天界面实现表格数据的上下文数据可视化。AI 数据可视化。
-- [tldraw/tldraw](https://github.com/tldraw/tldraw) - 非常优秀的白板 SDK / 无限画布 SDK
-- [okisdev/ChatChat](https://github.com/okisdev/ChatChat) - Chat Chat，统一 AI 聊天和搜索平台，界面简单易用。
-- [79E/ChatGpt-Web](https://github.com/79E/ChatGpt-Web) - 一款基于 React 搭建的可商业化 ChatGpt Web 应用。
-- [erictik/midjourney-ui](https://github.com/erictik/midjourney-ui) - 基于 Midjourney 的开源 AI 绘画 UI
-- [Nutlope/restorePhotos](https://github.com/Nutlope/restorePhotos) - 使用 AI 修复老旧模糊的人脸照片。
-- [Nutlope/aicommits](https://github.com/Nutlope/aicommits) - 用 AI 自动为你写 git 提交信息的 CLI 工具
-- [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT) - 🤖 在浏览器中组装、配置和部署自动化 AI Agents。
-- [RafalWilinski/telegram-chatgpt-concierge-bot](https://github.com/RafalWilinski/telegram-chatgpt-concierge-bot) - 通过 Telegram 和语音与 OpenAI ChatGPT 互动。
-- [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) - 可视化构建 AI Agent
-- [LokerL/tts-vue](https://github.com/LokerL/tts-vue) - 🎤 微软语音合成工具，基于 Electron + Vue + ElementPlus + Vite 构建。
-- [nat/openplayground](https://github.com/nat/openplayground) - 可在本地运行的 LLM 在线体验平台
-- [labring/sealos](https://github.com/labring/sealos) - Sealos 是 AI 原生超级应用平台，应用为中心的智能云操作系统。为任何语言或框架搭建开发环境，部署高可用应用。
-- [coolpace/V2EX_Polish](https://github.com/coolpace/V2EX_Polish) - 专业的 V2EX 浏览器扩展，集成多种实用功能，重塑你的浏览体验！
-- [ztjhz/BetterChatGPT](https://github.com/ztjhz/BetterChatGPT) - OpenAI ChatGPT 的出色 UI（支持网站、Windows、MacOS、Linux）
-- [3Alan/DocsMind](https://github.com/3Alan/DocsMind) - 🤖 支持与文档对话并总结文档，支持 pdf、md 文件。
-- [riwigefi/light-gpt](https://github.com/riwigefi/light-gpt) - 基于 GPT-3.5-Turbo 模型的交互式网站项目。
-- [nextauthjs/next-auth](https://github.com/nextauthjs/next-auth) - Web 身份认证。
+- [langgenius/dify](https://github.com/langgenius/dify) - 面向代理工作流开发的生产就绪平台。
+- [ObservedObserver/viz-gpt](https://github.com/ObservedObserver/viz-gpt) - 使用聊天界面从表格数据集制作上下文数据可视化。AI 数据可视化。
+- [tldraw/tldraw](https://github.com/tldraw/tldraw) - 非常好的白板 SDK / 无限画布 SDK
+- [okisdev/ChatChat](https://github.com/okisdev/ChatChat) - Chat Chat，你自己的统一聊天和搜索 AI 平台，界面简单易用。
+- [79E/ChatGpt-Web](https://github.com/79E/ChatGpt-Web) - 一个使用 React 构建的商业可行的 ChatGpt Web 应用。
+- [erictik/midjourney-ui](https://github.com/erictik/midjourney-ui) - Midjourney UI 是基于 Midjourney 的开源 AI 绘画界面
+- [Nutlope/restorePhotos](https://github.com/Nutlope/restorePhotos) - 用 AI 修复老旧和模糊的人脸照片。
+- [Nutlope/aicommits](https://github.com/Nutlope/aicommits) - 一个用 AI 为你写 git 提交信息的命令行工具
+- [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT) - 🤖 在浏览器中组装、配置并部署自主 AI 代理。
+- [RafalWilinski/telegram-chatgpt-concierge-bot](https://github.com/RafalWilinski/telegram-chatgpt-concierge-bot) - 通过 Telegram 和语音与 OpenAI 的 ChatGPT 交互。
+- [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) - 可视化构建 AI 代理
+- [LokerL/tts-vue](https://github.com/LokerL/tts-vue) - 🎤 微软语音合成工具，使用 Electron + Vue + ElementPlus + Vite 构建。
+- [nat/openplayground](https://github.com/nat/openplayground) - 你可以在笔记本上运行的 LLM 游乐场
+- [labring/sealos](https://github.com/labring/sealos) - Sealos 是一个 AI 原生超级应用平台，面向应用的智能云操作系统。为任何编程语言或框架搭建开发环境，部署高可用
+- [coolpace/V2EX_Polish](https://github.com/coolpace/V2EX_Polish) - 专业的 V2EX 浏览器扩展，集合众多实用功能，重塑你的浏览体验！
+- [ztjhz/BetterChatGPT](https://github.com/ztjhz/BetterChatGPT) - OpenAI ChatGPT 的惊艳 UI（网页 + Windows + MacOS + Linux）
+- [3Alan/DocsMind](https://github.com/3Alan/DocsMind) - 🤖 DocsMind 允许你与文档聊天并总结文档，支持 pdf、md。
+- [riwigefi/light-gpt](https://github.com/riwigefi/light-gpt) - Light-GPT 是基于 GPT-3.5-Turbo 模型的交互式网站项目。
+- [nextauthjs/next-auth](https://github.com/nextauthjs/next-auth) - 网络认证。
 - [zengsanxiang/brain-reply](https://github.com/zengsanxiang/brain-reply) - 更优雅的 ChatGPT 客户端
-- [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) - ✨ 轻量快速的 AI 助手。支持：Web | iOS | MacOS | Android | Linux | Windows
-- [hahahumble/speechgpt](https://github.com/hahahumble/speechgpt) - 💬 SpeechGPT 是一个可与 ChatGPT 语音对话的 Web 应用。
-- [rerender2021/heard](https://github.com/rerender2021/heard) - 基于 whisper & avernakis react 的简单字幕生成器。
-- [mckaywrigley/chatbot-ui](https://github.com/mckaywrigley/chatbot-ui) - 任意模型的 AI 聊天 UI。
-- [GPTGenius/chatgpt-vercel](https://github.com/GPTGenius/chatgpt-vercel) - 通过 vercel 创建你的专属 chatgpt 网站
+- [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) - ✨ 轻量且快速的 AI 助手。支持：网页 | iOS | MacOS | Android | Linux | Windows
+- [hahahumble/speechgpt](https://github.com/hahahumble/speechgpt) - 💬 SpeechGPT 是一个让你与 ChatGPT 对话的网页应用。
+- [rerender2021/heard](https://github.com/rerender2021/heard) - 一个由 whisper 和 avernakis react 驱动的简单字幕生成器。
+- [mckaywrigley/chatbot-ui](https://github.com/mckaywrigley/chatbot-ui) - 适用于任何模型的 AI 聊天。
+- [GPTGenius/chatgpt-vercel](https://github.com/GPTGenius/chatgpt-vercel) - 通过 vercel 创建私人 chatgpt 网站
 - [hyoban/burogu](https://github.com/hyoban/burogu) - 基于 Next.js 13 的极简博客模板
-- [futantan/OpenGpt](https://github.com/futantan/OpenGpt) - 秒建你的 ChatGPT 应用。
-- [botpress/botpress](https://github.com/botpress/botpress) - 构建和部署 GPT/LLM Agents 的开源中心 ⚡️
-- [noobnooc/ohmygpt](https://github.com/noobnooc/ohmygpt) - 分分钟部署你的 ChatGPT 网页应用。
-- [aircloud/sync-to-github](https://github.com/aircloud/sync-to-github) - 将你的网页内容同步到 github 仓库，如 ChatGPT 对话等。
-- [fraserxu/book-gpt](https://github.com/fraserxu/book-gpt) - 拖一本书，开始提问。
-- [ObservedObserver/chatgpt-i18n](https://github.com/ObservedObserver/chatgpt-i18n) - 用 AI 辅助本地化你的网站。
-- [ourongxing/chatgpt-vercel](https://github.com/ourongxing/chatgpt-vercel) - 优雅且强大。由 OpenAI 和 Vercel 驱动。
-- [lcomplete/huntly](https://github.com/lcomplete/huntly) - Huntly，信息管理工具，RSS 阅读器，自动保存浏览内容，包括推文、GitHub 星管理、自动记录浏览文章。
-- [openai-translator/openai-translator](https://github.com/openai-translator/openai-translator) - 基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面应用
-- [sparticleinc/chatgpt-google-summary-extension](https://github.com/sparticleinc/chatgpt-google-summary-extension) - Chrome 插件，可在 Google 搜索结果和 YouTube 视频旁查看 ChatGPT 总结，并支持多平台摘要。
-- [anse-app/chatgpt-demo](https://github.com/anse-app/chatgpt-demo) - 极简 ChatGPT 网页 UI。
-- [microsoft/vscode-webview-ui-toolkit](https://github.com/microsoft/vscode-webview-ui-toolkit) - 用于构建 Visual Studio Code Webview 扩展的组件库。
-- [ycjcl868/readme-gpt](https://github.com/ycjcl868/readme-gpt) - 利用 OpenAI 和 Vercel Edge Functions 生成你的 GitHub Readme。
-- [cloudflare/wildebeest](https://github.com/cloudflare/wildebeest) - Wildebeest 是支持 ActivityPub 和 Mastodon 协议的服务器
-- [transitive-bullshit/bing-chat](https://github.com/transitive-bullshit/bing-chat) - Bing 新 AI 搜索的 Node.js 客户端。就像打了激素的 ChatGPT 🔥
-- [Musish/Musish](https://github.com/Musish/Musish) - Apple Music...ish
-- [MNThomson/containerflare](https://github.com/MNThomson/containerflare) - 🔥 Cloudflare (Workers + R2) 边缘容器镜像仓库
-- [cmj2002/CF-R2-ImageBed](https://github.com/cmj2002/CF-R2-ImageBed) - 基于 Cloudflare R2 的图床，支持 PicGo。
+- [futantan/OpenGpt](https://github.com/futantan/OpenGpt) - 秒级创建你自己的 ChatGPT 应用。
+- [botpress/botpress](https://github.com/botpress/botpress) - 构建和部署 GPT/LLM 代理的开源中心 ⚡️
+- [noobnooc/ohmygpt](https://github.com/noobnooc/ohmygpt) - 几分钟内部署你的 ChatGPT 基础网页应用。
+- [aircloud/sync-to-github](https://github.com/aircloud/sync-to-github) - 将你的网页内容同步到 GitHub 仓库，例如与 ChatGPT 的对话。
+- [fraserxu/book-gpt](https://github.com/fraserxu/book-gpt) - 上传一本书，开始提问。
+- [ObservedObserver/chatgpt-i18n](https://github.com/ObservedObserver/chatgpt-i18n) - 使用 AI 协助本地化你的网站。
+- [ourongxing/chatgpt-vercel](https://github.com/ourongxing/chatgpt-vercel) - 优雅且强大。由 OpenAI 和 Vercel 提供支持。
+- [lcomplete/huntly](https://github.com/lcomplete/huntly) - Huntly，信息管理工具，RSS 阅读器，自动保存浏览内容包括推文，GitHub stars 管理工具。信息管理工具、RSS 阅读器、GitHub stars 管理、推文管理、自动记录浏览过的文章。
+- [openai-translator/openai-translator](https://github.com/openai-translator/openai-translator) - 基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面应用 - 基于 ChatGPT API 的浏览器扩展和跨平台桌面应用。
+- [sparticleinc/chatgpt-google-summary-extension](https://github.com/sparticleinc/chatgpt-google-summary-extension) - Chrome 扩展，可在谷歌搜索结果和 YouTube 视频旁查看 ChatGPT 摘要，也支持 Yahoo! ニュース、PubMed、PMC、NewsPicks、Github、Nikkei、Bing、Google 专利及任何网页摘要。
+- [anse-app/chatgpt-demo](https://github.com/anse-app/chatgpt-demo) - ChatGPT 的极简网页 UI。
+- [microsoft/vscode-webview-ui-toolkit](https://github.com/microsoft/vscode-webview-ui-toolkit) - 用于在 Visual Studio Code 中构建基于 Webview 扩展的组件库。
+- [ycjcl868/readme-gpt](https://github.com/ycjcl868/readme-gpt) - 使用 OpenAI 和 Vercel Edge Functions 生成你的 Github Readme。
+- [cloudflare/wildebeest](https://github.com/cloudflare/wildebeest) - Wildebeest 是一个 ActivityPub 和 Mastodon 兼容的服务器
+- [transitive-bullshit/bing-chat](https://github.com/transitive-bullshit/bing-chat) - Bing 新的 AI 驱动搜索的 Node.js 客户端。它就像增强版的 ChatGPT 🔥
+- [Musish/Musish](https://github.com/Musish/Musish) - 类似 Apple Music 的播放器
+- [MNThomson/containerflare](https://github.com/MNThomson/containerflare) - 🔥 Cloudflare（Workers + R2）边缘容器镜像仓库
+- [cmj2002/CF-R2-ImageBed](https://github.com/cmj2002/CF-R2-ImageBed) - 基于 Cloudflare R2 的图床。支持 PicGo。
 - [google/brotli](https://github.com/google/brotli) - Brotli 压缩格式
 - [robertying/learnX-companion](https://github.com/robertying/learnX-companion) - 清华大学网络学堂 App 助手，为 learnX 提供个性化推送通知支持。
-- [dvanoni/notero](https://github.com/dvanoni/notero) - Zotero 与 Notion 同步条目和笔记的插件
-- [windingwind/zotero-better-notes](https://github.com/windingwind/zotero-better-notes) - 一站式笔记管理，全部集成在 Zotero
+- [dvanoni/notero](https://github.com/dvanoni/notero) - 一个将 Zotero 条目和笔记同步到 Notion 的插件
+- [windingwind/zotero-better-notes](https://github.com/windingwind/zotero-better-notes) - 关于笔记管理的一切。全在 Zotero 中。
 - [honojs/hono](https://github.com/honojs/hono) - 基于 Web 标准构建的 Web 框架
 - [G4brym/R2-Explorer](https://github.com/G4brym/R2-Explorer) - 你的 Cloudflare R2 桶的 Google Drive 界面！
-- [SunYufei/workers-dav](https://github.com/SunYufei/workers-dav) - 使用 Cloudflare Workers 为 Google Drive 提供 WebDAV 服务
-- [realByg/office-user-auto-create](https://github.com/realByg/office-user-auto-create) - 用 cloudflare worker 自助创建 office 账号
+- [SunYufei/workers-dav](https://github.com/SunYufei/workers-dav) - 使用 Cloudflare Workers 为 Google Drive 提供 WebDAV 服务 / 通过 Cloudflare Workers 支持 Google Drive 的 WebDAV
+- [realByg/office-user-auto-create](https://github.com/realByg/office-user-auto-create) - 使用 Cloudflare Worker 自助创建 Office 账号
 - [ghedamat/obsidian-save-as-gist](https://github.com/ghedamat/obsidian-save-as-gist) - 
-- [kamranahmedse/aws-cost-cli](https://github.com/kamranahmedse/aws-cost-cli) - 用于 AWS 账户成本分析并集成 Slack 的命令行工具
-- [remotely-save/remotely-save](https://github.com/remotely-save/remotely-save) - 本地与云端智能冲突同步笔记：S3、Dropbox、webdav、OneDrive、Google Drive、Box、pCloud 等
-- [Future-Scholars/paperlib](https://github.com/Future-Scholars/paperlib) - 开源学术论文管理工具。
+- [kamranahmedse/aws-cost-cli](https://github.com/kamranahmedse/aws-cost-cli) - 用于分析 AWS 账户费用的 CLI 工具，集成 Slack
+- [remotely-save/remotely-save](https://github.com/remotely-save/remotely-save) - 本地与云之间同步笔记，智能冲突处理：支持 S3（Amazon S3/Cloudflare R2/Backblaze B2/...）、Dropbox、WebDAV（NextCloud/InfiniCLOUD/Synology/...）、OneDrive、Google Drive（GDrive）、Box、pClou
+- [Future-Scholars/paperlib](https://github.com/Future-Scholars/paperlib) - 一个开源的学术论文管理工具。
 - [forecho/cherries](https://github.com/forecho/cherries) - 
-- [thu-info-community/thu-info-lib](https://github.com/thu-info-community/thu-info-lib) - 为清华门户提供编程友好接口的 JavaScript 库
+- [thu-info-community/thu-info-lib](https://github.com/thu-info-community/thu-info-lib) - 提供清华校园门户程序友好接口的 JavaScript 库
 - [Harry-Chen/Learn-Helper](https://github.com/Harry-Chen/Learn-Helper) - 清华大学网络学堂助手
-- [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) - Invoke 是领先的 Stable Diffusion 创作引擎，赋能专业人士、艺术家和爱好者利用最新 AI 技术生成视觉作品。
-- [baotlake/periodic-table-pro](https://github.com/baotlake/periodic-table-pro) - 元素周期表Pro，高颜值化学小程序，全面展示元素属性、图片和百科知识
-- [dtysky/Awaken](https://github.com/dtysky/Awaken) - 基于 WebDAV 的全平台 EPUB 阅读器，支持笔记、进度、书签同步，支持 Kindle 笔记导入。
-- [illacloud/illa-builder](https://github.com/illacloud/illa-builder) - 低代码平台，快速搭建业务应用，如仪表盘、CRUD 应用、管理后台、CRM、CMS 等，支持多种数据库。
-- [resend/react-email](https://github.com/resend/react-email) - 💌 用 React 构建和发送邮件
-- [domeccleston/sharegpt](https://github.com/domeccleston/sharegpt) - 轻松与好友永久分享 ChatGPT 对话链接
-- [wong2/chatgpt-google-extension](https://github.com/wong2/chatgpt-google-extension) - 本项目已弃用。请查看我的新项目 ChatHub：
+- [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) - Invoke 是领先的 Stable Diffusion 模型创作引擎，赋能专业人士、艺术家和爱好者使用最新 AI 技术生成和创作视觉媒体。该解决方案
+- [baotlake/periodic-table-pro](https://github.com/baotlake/periodic-table-pro) - 元素周期表 Pro，高颜值化学必备小程序，提供全面的元素属性、图片和百科知识等
+- [dtysky/Awaken](https://github.com/dtysky/Awaken) - 一个基于 WebDAV 的全平台 EPUB 阅读器，支持笔记、进度、书签同步，支持 Kindle 笔记导入。
+- [illacloud/illa-builder](https://github.com/illacloud/illa-builder) - 低代码平台，允许你构建业务应用，快速创建仪表盘、CRUD 应用、管理面板、CRM、CMS 等内部工具。支持 PostgreSQL、MySQL、Supabase、GraphQL
+- [resend/react-email](https://github.com/resend/react-email) - 💌 使用 React 构建和发送邮件
+- [domeccleston/sharegpt](https://github.com/domeccleston/sharegpt) - 轻松与朋友分享 ChatGPT 对话的永久链接
+- [wong2/chatgpt-google-extension](https://github.com/wong2/chatgpt-google-extension) - 该项目已废弃。查看我的新项目 ChatHub：
 - [pacexy/flow](https://github.com/pacexy/flow) - 基于浏览器的 ePub 阅读器
-- [jiegec/clone-learn-tsinghua](https://github.com/jiegec/clone-learn-tsinghua) - 克隆 learn.tsinghua.edu.cn 所有文件的工具
-- [thu-info-community/thu-info-app](https://github.com/thu-info-community/thu-info-app) - 整合多源校园信息的 APP，基于 React Native 开发
-- [exposir/bing-wallpaper-node](https://github.com/exposir/bing-wallpaper-node) - Bing 每日 4K 超清壁纸
-- [AlistGo/docs](https://github.com/AlistGo/docs) - 📄 alist v3 文档: http://github.com/alist-org/alist
+- [jiegec/clone-learn-tsinghua](https://github.com/jiegec/clone-learn-tsinghua) - 一个用于克隆 learn.tsinghua.edu.cn 上所有文件的工具
+- [thu-info-community/thu-info-app](https://github.com/thu-info-community/thu-info-app) - 一个旨在整合校园多种信息源的 APP，基于 React Native 开发
+- [exposir/bing-wallpaper-node](https://github.com/exposir/bing-wallpaper-node) - 必应每日 4K 超清壁纸
+- [AlistGo/docs](https://github.com/AlistGo/docs) - 📄 alist v3 的文档：http://github.com/alist-org/alist
 - [slidevjs/docs](https://github.com/slidevjs/docs) - [镜像] Slidev 文档
-- [appwrite/appwrite](https://github.com/appwrite/appwrite) - 如同数百人团队般开发_
-- [dai-shi/excalidraw-animate](https://github.com/dai-shi/excalidraw-animate) - 用于为 Excalidraw 图形添加动画的工具
-- [Graviton-Code-Editor/Graviton-App](https://github.com/Graviton-Code-Editor/Graviton-App) - 🚀 现代化界面的代码编辑器
+- [appwrite/appwrite](https://github.com/appwrite/appwrite) - 像数百人团队一样构建_
+- [dai-shi/excalidraw-animate](https://github.com/dai-shi/excalidraw-animate) - 用于为 Excalidraw 绘图添加动画的工具
+- [Graviton-Code-Editor/Graviton-App](https://github.com/Graviton-Code-Editor/Graviton-App) - 🚀 现代外观的代码编辑器
 - [thusns/thu-wiki](https://github.com/thusns/thu-wiki) - https://thu.wiki 或 https://wiki.thusns.org
-- [crashmax-dev/twallpaper](https://github.com/crashmax-dev/twallpaper) - 🌈 通过算法创建的多彩渐变壁纸，流畅闪烁。
-- [SigNoz/signoz](https://github.com/SigNoz/signoz) - SigNoz 是一个原生支持 OpenTelemetry 的开源可观测性平台，集日志、追踪和指标于一体。开源替代 DataDog、NewRelic 等。🔥 🖥。 👉  开源
-- [vuejs/vitepress](https://github.com/vuejs/vitepress) - 基于 Vite 和 Vue 的静态网站生成器。
-- [sst/sst](https://github.com/sst/sst) - 在你自己的基础设施上构建全栈应用。
-- [nrwl/nx](https://github.com/nrwl/nx) - 以 AI 为先的构建平台，将编辑器到 CI 一切连接起来。帮助你快速交付且不易出错。
-- [dubinc/dub](https://github.com/dubinc/dub) - 现代链接归因平台。受到 Twilio、Buffer、Framer、Perplexity、Vercel 等一流营销团队喜爱。
+- [crashmax-dev/twallpaper](https://github.com/crashmax-dev/twallpaper) - 🌈 多色渐变壁纸，算法生成并平滑闪烁。
+- [SigNoz/signoz](https://github.com/SigNoz/signoz) - SigNoz 是一个开源的原生 OpenTelemetry 可观察性平台，集日志、跟踪和指标于一体。开源替代 DataDog、NewRelic 等。🔥 🖥。 👉 开源
+- [vuejs/vitepress](https://github.com/vuejs/vitepress) - 基于 Vite 和 Vue 的静态站点生成器。
+- [sst/sst](https://github.com/sst/sst) - 在您自己的基础设施上构建全栈应用。
+- [nrwl/nx](https://github.com/nrwl/nx) - 一个以 AI 为先的构建平台，连接从编辑器到 CI 的一切。帮助您快速交付且不破坏东西。
+- [dubinc/dub](https://github.com/dubinc/dub) - 现代链接归因平台。受到 Twilio、Buffer、Framer、Perplexity、Vercel 等世界级营销团队的喜爱。
 - [Privoce/vocechat-web](https://github.com/Privoce/vocechat-web) - VoceChat Web 应用
 - [jackluson/vscode-pomodoro-clock](https://github.com/jackluson/vscode-pomodoro-clock) - VS Code 的番茄钟
 - [DTStack/molecule](https://github.com/DTStack/molecule) - :rocket: 轻量级 Web IDE UI 框架。
 - [b4rtaz/voice-assistant](https://github.com/b4rtaz/voice-assistant) - Visual Studio Code 的语音助手。
-- [leon-ai/leon](https://github.com/leon-ai/leon) - 🧠 Leon 你的开源个人助手。
+- [leon-ai/leon](https://github.com/leon-ai/leon) - 🧠 Leon 是你的开源个人助理。
 - [tycrek/ass](https://github.com/tycrek/ass) - 简单的自托管 ShareX 服务器
-- [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - 注重隐私的跨平台同步笔记应用，支持 Windows、macOS、Linux、Android 和 iOS。
-- [AlphaNecron/Void](https://github.com/AlphaNecron/Void) - 快速优雅的文件托管服务。
-- [egoist/follower-count](https://github.com/egoist/follower-count) - 获取 Instagram、Twitter、TikTok、Youtube 账号粉丝数
-- [liveblocks/liveblocks](https://github.com/liveblocks/liveblocks) - AI 时代的最佳应用不是单人体验——它们是协作的。Liveblocks 提供可定制的预构建功能，让你的产品支持多人、富有互动与 AI 准备，无需复杂集成。
-- [cloudflare/workers-graphql-server](https://github.com/cloudflare/workers-graphql-server) - 🔥超快的全球分布式 Apollo GraphQL 服务器，利用 Cloudflare Workers 在边缘部署
-- [buhe/vscode-mail](https://github.com/buhe/vscode-mail) - 集成于 Visual Studio Code 的邮件客户端。
-- [LekoArts/gatsby-themes](https://github.com/LekoArts/gatsby-themes) - 获取高质量、可定制的 Gatsby 主题，快速启动你的网站！包含多种专业设计与丰富自定义选项。
+- [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - 注重隐私的笔记应用，支持 Windows、macOS、Linux、Android 和 iOS 的同步功能。
+- [AlphaNecron/Void](https://github.com/AlphaNecron/Void) - 快速且优雅的文件托管服务。
+- [egoist/follower-count](https://github.com/egoist/follower-count) - 获取 Instagram、Twitter、TikTok、YouTube 账号的粉丝数
+- [liveblocks/liveblocks](https://github.com/liveblocks/liveblocks) - AI 时代最好的应用不是单人体验——它们是协作的。Liveblocks 提供可定制的预构建功能，让你的产品支持多人参与、互动且 AI 就绪。全无干扰
+- [cloudflare/workers-graphql-server](https://github.com/cloudflare/workers-graphql-server) - 🔥 lightning-fast、全球分布式的 Apollo GraphQL 服务器，使用 Cloudflare Workers 部署在边缘
+- [buhe/vscode-mail](https://github.com/buhe/vscode-mail) - 嵌入在 Visual Studio Code 中的邮件客户端。
+- [LekoArts/gatsby-themes](https://github.com/LekoArts/gatsby-themes) - 获取高质量且可定制的 Gatsby 主题，快速启动您的网站！从众多专业设计的主题中选择，拥有丰富的功能和自定义选项
 - [haaarshsingh/kmenu](https://github.com/haaarshsingh/kmenu) - 完美的 ⌘K 菜单
-- [sofn-xyz/mailing](https://github.com/sofn-xyz/mailing) - 用 React 构建、测试、发送邮件
-- [webiny/webiny-js](https://github.com/webiny/webiny-js) - 开源无服务器企业级 CMS。包含无头 CMS、页面构建器、表单构建器和文件管理器。易于定制和扩展，可部署到 AWS。
+- [sofn-xyz/mailing](https://github.com/sofn-xyz/mailing) - 使用 React 构建、测试、发送邮件
+- [webiny/webiny-js](https://github.com/webiny/webiny-js) - 开源无服务器企业 CMS。包含无头 CMS、页面构建器、表单构建器和文件管理器。易于定制和扩展。部署到 AWS。
 - [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) - GitBook 文档站点的开源前端
-- [codex-team/editor.js](https://github.com/codex-team/editor.js) - 区块式编辑器，输出干净的 JSON
-- [pingcap/ossinsight](https://github.com/pingcap/ossinsight) - 开源软件分析、比较、趋势和排名，支持基于自然语言从 70 亿+ 数据中洞察（由 OpenAI 驱动）。推特: https://twitter.com/o
-- [markmap/markmap](https://github.com/markmap/markmap) - 用纯文本构建思维导图
-- [hmu332233/q-link](https://github.com/hmu332233/q-link) - Q.Link | 通过小测验隐藏你的链接。
-- [triggerdotdev/jsonhero-web](https://github.com/triggerdotdev/jsonhero-web) - JSON Hero 是一个开源的美观 JSON 浏览器，让你快速浏览、搜索和定位 JSON 文件。🚀。由 Trigger.dev 团队开发 💜
-- [devhubapp/devhub](https://github.com/devhubapp/devhub) - GitHub 的 TweetDeck - 筛选问题、活动与通知 - Web、移动与桌面端 99% 代码共享
-- [redhat-actions/try-in-web-ide](https://github.com/redhat-actions/try-in-web-ide) - 将你的拉取请求克隆到由 Red Hat OpenShift Developer Sandbox 托管的 Web IDE，便于测试更改。
-- [photoview/photoview](https://github.com/photoview/photoview) - 适用于自托管个人服务器的照片图库
+- [codex-team/editor.js](https://github.com/codex-team/editor.js) - 一个块状编辑器，输出干净的 JSON
+- [pingcap/ossinsight](https://github.com/pingcap/ossinsight) - 开源软件的分析、比较、趋势、排名，还可通过自然语言（由 OpenAI 提供支持）洞察超过 70 亿条数据。关注我们 Twitter：https://twitter.com/o
+- [markmap/markmap](https://github.com/markmap/markmap) - 使用纯文本构建思维导图
+- [hmu332233/q-link](https://github.com/hmu332233/q-link) - Q.Link | 将您的链接隐藏在简单的测验后面。
+- [triggerdotdev/jsonhero-web](https://github.com/triggerdotdev/jsonhero-web) - JSON Hero 是一个开源的美观 JSON 浏览器，支持快速浏览、搜索和导航 JSON 文件。🚀 由 Trigger.dev 团队倾心打造。
+- [devhubapp/devhub](https://github.com/devhubapp/devhub) - GitHub 的 TweetDeck - 筛选 Issues、活动和通知 - Web、移动和桌面端 99% 代码共享
+- [redhat-actions/try-in-web-ide](https://github.com/redhat-actions/try-in-web-ide) - 将您的拉取请求克隆到托管在 Red Hat OpenShift 开发者沙箱上的 Web IDE，轻松测试更改。
+- [photoview/photoview](https://github.com/photoview/photoview) - 自托管个人服务器的照片图库
 - [yusukebe/r2-image-worker](https://github.com/yusukebe/r2-image-worker) - 使用 R2 后端 Cloudflare Workers 存储和分发图片。
-- [GitbookIO/proxies-on-cloudflare](https://github.com/GitbookIO/proxies-on-cloudflare) - Cloudflare Workers 上的代理
-- [SharzyL/pastebin-worker](https://github.com/SharzyL/pastebin-worker) - 基于 Cloudflare worker 的 Pastebin，支持友好 CLI 与丰富特性
-- [eclipse-theia/theia](https://github.com/eclipse-theia/theia) - Eclipse Theia 是基于 TypeScript 实现的云与桌面 IDE 框架。
-- [facebook/docusaurus](https://github.com/facebook/docusaurus) - 易维护的开源文档网站。
-- [logto-io/logto](https://github.com/logto-io/logto) - 🧑‍🚀 为 SaaS 和 AI 应用而生的认证和授权基础设施，基于 OIDC 与 OAuth 2.1，支持多租户、单点登录和 RBAC。
-- [dushixiang/next-terminal](https://github.com/dushixiang/next-terminal) - Next Terminal 是一个简单、安全、易用的交互式审计系统，支持 RDP、SSH、VNC、Telnet、HTTP 等多种远程访问协议
+- [GitbookIO/proxies-on-cloudflare](https://github.com/GitbookIO/proxies-on-cloudflare) - Cloudflare Workers 中的代理
+- [SharzyL/pastebin-worker](https://github.com/SharzyL/pastebin-worker) - 基于 Cloudflare worker 的 Pastebin，支持友好的 CLI 使用和丰富功能
+- [eclipse-theia/theia](https://github.com/eclipse-theia/theia) - Eclipse Theia 是一个用 TypeScript 实现的云和桌面 IDE 框架。
+- [facebook/docusaurus](https://github.com/facebook/docusaurus) - 易于维护的开源文档网站。
+- [logto-io/logto](https://github.com/logto-io/logto) - 🧑‍🚀 面向 SaaS 和 AI 应用的身份验证和授权基础设施，基于 OIDC 和 OAuth 2.1，支持多租户、SSO 和 RBAC。
+- [dushixiang/next-terminal](https://github.com/dushixiang/next-terminal) - Next Terminal 是一个简单、安全、用户友好的交互式审计系统，支持包括 RDP、SSH、VNC、Telnet 和 HTTP 在内的多种远程访问协议
 - [wayjam/picgo-plugin-s3](https://github.com/wayjam/picgo-plugin-s3) - PicGo S3 插件
-- [gaeulbyul/RedBlock](https://github.com/gaeulbyul/RedBlock) - [状态: 不再维护] 推特史上最强链式封锁扩展。/ 强大批量屏蔽 Twitter 用户扩展。
+- [gaeulbyul/RedBlock](https://github.com/gaeulbyul/RedBlock) - [状态：不维护] 推特史上最强链块屏蔽扩展。/ 推特多用户屏蔽强力扩展。
 - [formulahendry/vscode-code-runner](https://github.com/formulahendry/vscode-code-runner) - Visual Studio Code 的代码运行器
-- [hexojs/hexo-cli](https://github.com/hexojs/hexo-cli) - Hexo 命令行工具
-- [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner) - 为键盘工作者设计的单词记忆和英语肌肉记忆训练软件
-- [SSShooter/mind-elixir-core](https://github.com/SSShooter/mind-elixir-core) - ⚗ Mind Elixir 是一个与框架无关的 JavaScript 思维导图核心库。
-- [utterance/utterances](https://github.com/utterance/utterances) - :crystal_ball: 基于 GitHub issues 的轻量级评论插件
-- [gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) - 按需云开发环境开发者平台，加速和提升软件开发安全性。
-- [wabarc/cairn](https://github.com/wabarc/cairn) - 用于将网页保存为单一 HTML 文件的 NPM 包及 CLI 工具
-- [massCodeIO/assistant-vscode](https://github.com/massCodeIO/assistant-vscode) - massCode 的 VS Code 助手插件
-- [vercel/platforms](https://github.com/vercel/platforms) - 支持多租户的 Next.js 全栈应用。
-- [taniarascia/takenote](https://github.com/taniarascia/takenote) - 📝  ‎ 面向开发者的基于 Web 的笔记应用。
-- [standardnotes/app](https://github.com/standardnotes/app) - 用端到端加密实现无畏思考的笔记和文件。遇到问题请访问 https://standardnotes.com/forum 或 https://standardnotes.com/help。
-- [gitpod-io/openvscode-server](https://github.com/gitpod-io/openvscode-server) - 在远程设备运行原生 VS Code，并可通过现代浏览器从任意设备访问。
-- [EnixCoda/Gitako](https://github.com/EnixCoda/Gitako) - 🐙 GitHub 文件树浏览插件，支持 Chrome、Firefox、Edge
-- [gridaco/grida](https://github.com/gridaco/grida) - Grida — Web 上雄心勃勃的 2D 图形编辑器
-- [lostintangent/gitdoc](https://github.com/lostintangent/gitdoc) - 允许你像编辑多文件版本化文档一样编辑 Git 仓库的 VS Code 扩展。
-- [Platane/snk](https://github.com/Platane/snk) - 🟩⬜ 根据 GitHub 用户贡献图生成贪吃蛇游戏，并输出为动画 svg 或 gif
-- [yoshi389111/github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib) - 该 GitHub Action 用 3D 头像展示你的 GitHub 贡献日历。
-- [yang991178/fluent-reader](https://github.com/yang991178/fluent-reader) - 用 Electron、React 和 Fluent UI 构建的现代桌面 RSS 阅读器
-- [AlistGo/web-v2](https://github.com/AlistGo/web-v2) - 🗂️ Alist V2 前端
-- [ansh/jiffyreader.com](https://github.com/ansh/jiffyreader.com) - 任何网站上都能更快阅读的浏览器扩展！
+- [hexojs/hexo-cli](https://github.com/hexojs/hexo-cli) - Hexo 的命令行界面
+- [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner) - 为键盘工作者设计的单词记忆与英语肌肉记忆训练软件
+- [SSShooter/mind-elixir-core](https://github.com/SSShooter/mind-elixir-core) - ⚗ Mind Elixir 是一个 JavaScript 框架无关的思维导图核心。
+- [utterance/utterances](https://github.com/utterance/utterances) - :crystal_ball: 基于 GitHub issue 的轻量级评论插件
+- [gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) - 面向按需云开发环境的开发者平台，加快软件开发速度，提升安全性。
+- [wabarc/cairn](https://github.com/wabarc/cairn) - 用于将网页保存为单个 HTML 文件的 NPM 包和 CLI 工具
+- [massCodeIO/assistant-vscode](https://github.com/massCodeIO/assistant-vscode) - massCode VS Code 助手
+- [vercel/platforms](https://github.com/vercel/platforms) - 一个全栈 Next.js 应用，支持多租户。
+- [taniarascia/takenote](https://github.com/taniarascia/takenote) - 📝 面向开发者的基于网页的笔记应用。
+- [standardnotes/app](https://github.com/standardnotes/app) - 使用端到端加密笔记和文件，安全无忧。遇到问题请访问 https://standardnotes.com/forum 或 https://standardnotes.com/help。
+- [gitpod-io/openvscode-server](https://github.com/gitpod-io/openvscode-server) - 在远程机器上运行上游 VS Code，并可通过现代浏览器从任何设备访问。
+- [EnixCoda/Gitako](https://github.com/EnixCoda/Gitako) - 🐙 Chrome、Firefox 和 Edge 上的 GitHub 文件树扩展
+- [gridaco/grida](https://github.com/gridaco/grida) - Grida — 适用于 Web 的雄心勃勃的 2D 图形编辑器
+- [lostintangent/gitdoc](https://github.com/lostintangent/gitdoc) - VS Code 扩展，允许您像编辑多文件版本文档一样编辑 Git 仓库。
+- [Platane/snk](https://github.com/Platane/snk) - 🟩⬜ 根据 GitHub 用户贡献图生成贪吃蛇游戏，并输出动画 SVG 或 GIF 截屏
+- [yoshi389111/github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib) - 该 GitHub Action 在 3D 个人资料图片上创建 GitHub 贡献日历。
+- [yang991178/fluent-reader](https://github.com/yang991178/fluent-reader) - 使用 Electron、React 和 Fluent UI 构建的现代桌面 RSS 阅读器
+- [AlistGo/web-v2](https://github.com/AlistGo/web-v2) - 🗂️ Alist V2 的前端
+- [ansh/jiffyreader.com](https://github.com/ansh/jiffyreader.com) - 适用于任何网站的快速阅读浏览器扩展！
 - [alefragnani/vscode-bookmarks](https://github.com/alefragnani/vscode-bookmarks) - Visual Studio Code 的书签扩展
-- [markdoc/markdoc](https://github.com/markdoc/markdoc) - 强大灵活的 Markdown 内容创作框架。
-- [batnoter/batnoter](https://github.com/batnoter/batnoter) - 开源、基于 markdown 的自托管笔记 web 应用。
+- [markdoc/markdoc](https://github.com/markdoc/markdoc) - 强大灵活的基于 Markdown 的创作框架。
+- [batnoter/batnoter](https://github.com/batnoter/batnoter) - 一个开源、基于 Markdown 的自托管笔记 Web 应用。
 - [Cveinnt/LetsMarkdown.com](https://github.com/Cveinnt/LetsMarkdown.com) - 👨‍💻👩‍💻 一起写 Markdown。
-- [Cherry/ShareX-R2-Cloudflare-Workers](https://github.com/Cherry/ShareX-R2-Cloudflare-Workers) - 自定义 ShareX 上传器，通过 Workers 上传至 Cloudflare R2
-- [mullvad/browser-extension](https://github.com/mullvad/browser-extension) - Mullvad 浏览器扩展提升 Mullvad VPN 使用体验。
-- [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) - 类似 markdown 的文本生成流程图、时序图等
-- [Kong/insomnia](https://github.com/Kong/insomnia) - 跨平台开源 API 客户端，支持 GraphQL、REST、WebSockets、SSE 和 gRPC。支持云、本地和 Git 存储。
-- [theajack/cnchar](https://github.com/theajack/cnchar) - 🇨🇳 全能汉字工具库（拼音、笔画、偏旁、成语、语音、可视化等）
-- [missive/emoji-mart](https://github.com/missive/emoji-mart) - 🏪 一站式 Emoji 选择组件
-- [lcomplete/smart-toc](https://github.com/lcomplete/smart-toc) - 自动生成网页文章目录的 Chrome 扩展，支持 Inoreader 和 Feedly。
+- [Cherry/ShareX-R2-Cloudflare-Workers](https://github.com/Cherry/ShareX-R2-Cloudflare-Workers) - 通过 Workers 自定义 ShareX 上传至 Cloudflare R2
+- [mullvad/browser-extension](https://github.com/mullvad/browser-extension) - Mullvad 浏览器扩展提升您使用 Mullvad VPN 时的浏览体验。
+- [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) - 类似 Markdown 的文本生成流程图或时序图等图表
+- [Kong/insomnia](https://github.com/Kong/insomnia) - 开源跨平台 API 客户端，支持 GraphQL、REST、WebSockets、SSE 和 gRPC。支持云、本地和 Git 存储。
+- [theajack/cnchar](https://github.com/theajack/cnchar) - 🇨🇳 功能全面的汉字工具库（拼音、笔画、偏旁、成语、语音、可视化等）
+- [missive/emoji-mart](https://github.com/missive/emoji-mart) - 🏪 一组件满足所有表情选择需求
+- [lcomplete/smart-toc](https://github.com/lcomplete/smart-toc) - 一个自动生成网页文章大纲的 Chrome 扩展，支持 Inoreader 和 Feedly。
 - [sheepzh/time-tracker-4-browser](https://github.com/sheepzh/time-tracker-4-browser) - 浏览器时间追踪器/网费很贵
-- [ajayyy/SponsorBlockServer](https://github.com/ajayyy/SponsorBlockServer) - 跳过 YouTube 视频赞助片段（服务器端部分）
-- [Hopding/pdf-lib](https://github.com/Hopding/pdf-lib) - 在任意 JavaScript 环境下创建和修改 PDF 文档
-- [GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension](https://github.com/GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension) - 在 VSCode 编辑器菜单栏添加美化、显示已打开文件、保存、切换终端等快捷按钮。也可自定义按钮和命令。VSCode 市场链接：htt
-- [hexojs/hexo](https://github.com/hexojs/hexo) - 基于 Node.js 的快速、简单、强大的博客框架。
-- [actions/stale](https://github.com/actions/stale) - 标记最近无互动的 issues 和 pull requests
-- [surgioproject/surgio](https://github.com/surgioproject/surgio) - 专业级生成 Surge、Clash、Quantumult 规则
-- [nginxinc/nginx-for-azure-deploy-action](https://github.com/nginxinc/nginx-for-azure-deploy-action) - 将 NGINX 配置同步到 NGINX for Azure 服务的 Github Actions。
-- [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) - Spacedrive 是一款开源跨平台文件管理器，由 Rust 编写的虚拟分布式文件系统驱动。
-- [DenverCoder1/custom-icon-badges](https://github.com/DenverCoder1/custom-icon-badges) - 🛡 让用户更便捷地在 shields.io 徽章上使用 Octicons 及自定义图标
+- [ajayyy/SponsorBlockServer](https://github.com/ajayyy/SponsorBlockServer) - 跳过 YouTube 视频广告（服务器端部分）
+- [Hopding/pdf-lib](https://github.com/Hopding/pdf-lib) - 在任何 JavaScript 环境中创建和修改 PDF 文档
+- [GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension](https://github.com/GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension) - 为 VSCode 编辑器菜单栏添加美化、显示打开文件、保存、切换终端等便捷按钮。也可创建自定义命令按钮。VSCode 市场链接：
+- [hexojs/hexo](https://github.com/hexojs/hexo) - 一个快速、简单且强大的博客框架，基于 Node.js。
+- [actions/stale](https://github.com/actions/stale) - 标记近期无交互的 Issues 和 Pull Requests
+- [surgioproject/surgio](https://github.com/surgioproject/surgio) - 专业生成 Surge、Clash、Quantumult 规则
+- [nginxinc/nginx-for-azure-deploy-action](https://github.com/nginxinc/nginx-for-azure-deploy-action) - 将 NGINX 配置同步至 Azure NGINX 服务的 GitHub Actions。
+- [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) - Spacedrive 是一个开源跨平台文件浏览器，基于 Rust 编写的虚拟分布式文件系统。
+- [DenverCoder1/custom-icon-badges](https://github.com/DenverCoder1/custom-icon-badges) - 🛡 允许用户更轻松地在 shields.io 徽章上使用 Octicons 及自定义图标和徽标
 - [arduino/arduino-ide](https://github.com/arduino/arduino-ide) - Arduino IDE 2.x
-- [yuudi/onesend](https://github.com/yuudi/onesend) - 通过 onedrive 发送文件
-- [xcodebuild/CodeTerminal](https://github.com/xcodebuild/CodeTerminal) - 从 Visual Studio Code 提取的跨平台独立终端应用。
-- [Zhengqbbb/cz-git](https://github.com/Zhengqbbb/cz-git) - cz-git | czg  🛠️ DX 优先、更工程化，轻量、可定制、标准输出格式的 Commitizen 适配器和 CLI
-- [tutao/tutanota](https://github.com/tutao/tutanota) - Tuta 是专注于安全与隐私的邮件服务，可在所有设备上加密邮件、联系人和日历。
+- [yuudi/onesend](https://github.com/yuudi/onesend) - 通过 OneDrive 发送文件
+- [xcodebuild/CodeTerminal](https://github.com/xcodebuild/CodeTerminal) - 从 Visual Studio Code 中提取的跨平台独立终端应用。
+- [Zhengqbbb/cz-git](https://github.com/Zhengqbbb/cz-git) - cz-git | czg 🛠️ 以开发者体验为先，更工程化、轻量、可定制、标准输出格式的 Commitizen 适配器和 CLI
+- [tutao/tutanota](https://github.com/tutao/tutanota) - Tuta 是一个专注于安全与隐私的邮件服务，支持在所有设备上加密邮件、联系人和日历条目。
 - [atomcorp/themes](https://github.com/atomcorp/themes) - Windows Terminal 主题
-- [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) - 开源 API 开发生态 - https://hoppscotch.io（Postman、Insomnia 的开源替代方案）
-- [antfu/awesome-cn-cafe-web](https://github.com/antfu/awesome-cn-cafe-web) - ☕️ Awesome CN Café 的 Web 应用
-- [yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) - 💯 专为忙碌软件工程师策划的编程面试准备资料
+- [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) - 开源 API 开发生态系统 - https://hoppscotch.io（Postman、Insomnia 的开源替代）
+- [antfu/awesome-cn-cafe-web](https://github.com/antfu/awesome-cn-cafe-web) - ☕️ 优秀的 CN Café Web 应用
+- [yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) - 💯 为忙碌的软件工程师精心挑选的编程面试准备材料
 - [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) - freeCodeCamp.org 的开源代码库和课程。免费学习数学、编程和计算机科学。
-- [harrisoff/onedrive-js-sdk](https://github.com/harrisoff/onedrive-js-sdk) - 封装 OneDrive 部分 API，仅用于上传和分享文件。
-- [harrisoff/onedrive-image-hosting](https://github.com/harrisoff/onedrive-image-hosting) - OneDrive 图床 | OneDrive Image Hosting
-- [ms-iot/vscode-ros](https://github.com/ms-iot/vscode-ros) - 用于机器人操作系统（ROS）开发的 Visual Studio Code 扩展
-- [yzhang-gh/vscode-markdown](https://github.com/yzhang-gh/vscode-markdown) - Markdown All in One
-- [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) - 🔒 一份整理了 300+ 条 2024 年数字安全和隐私保护建议的清单
-- [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) - ✨ 创新且开源的数据可视化应用，将 JSON、YAML、XML、CSV 等多种数据格式转换为交互式图表。
-- [charleswan/vscode-extensions](https://github.com/charleswan/vscode-extensions) - 一系列美味的 Visual Studio Code 插件配方 https://marketplace.visualstudio.com/publishers/CharlesWan
+- [harrisoff/onedrive-js-sdk](https://github.com/harrisoff/onedrive-js-sdk) - 封装 OneDrive 部分 API，仅用于上传和共享文件。
+- [harrisoff/onedrive-image-hosting](https://github.com/harrisoff/onedrive-image-hosting) - OneDrive 图床
+- [ms-iot/vscode-ros](https://github.com/ms-iot/vscode-ros) - Visual Studio Code 机器人操作系统 (ROS) 开发扩展
+- [yzhang-gh/vscode-markdown](https://github.com/yzhang-gh/vscode-markdown) - Markdown 一体化
+- [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) - 🔒 2024年保护数字安全和隐私的300+条提示汇总清单
+- [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) - ✨ 创新且开源的可视化应用，将 JSON、YAML、XML、CSV 等多种数据格式转换为交互式图表。
+- [charleswan/vscode-extensions](https://github.com/charleswan/vscode-extensions) - 美味的 Visual Studio Code 扩展集合 https://marketplace.visualstudio.com/publishers/CharlesWan
 - [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium) - 使用 Trilium Notes 构建你的个人知识库
-- [grafana/grafana](https://github.com/grafana/grafana) - 开放且可组合的可观察性与数据可视化平台。可视化多来源（如 Prometheus、Loki、Elasticsearch、InfluxDB、Postgres 等）的指标、日志和追踪。
-- [reactjs/react.dev](https://github.com/reactjs/react.dev) - React 官方文档网站
-- [microsoft/TypeScript](https://github.com/microsoft/TypeScript) - TypeScript 是 JavaScript 的超集，可编译为干净的 JavaScript 输出。
-- [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) - 构建管理后台、内部工具和仪表盘的平台。集成 25+ 数据库及任意 API。
-- [XadillaX/vscode-language-viml](https://github.com/XadillaX/vscode-language-viml) - VimL 的 VSCode 插件。
-- [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim) - 用于 vim & neovim 的 Nodejs 扩展主机，支持像 VSCode 一样加载扩展与主语言服务器。
-- [CryogenicPlanet/cryogenicplanet.github.io](https://github.com/CryogenicPlanet/cryogenicplanet.github.io) - 网络上的个人空间
-- [wei/socialify](https://github.com/wei/socialify) - 💞 让你的项目更具社交性。🌐 与世界分享！
+- [grafana/grafana](https://github.com/grafana/grafana) - 开放且可组合的可观测性和数据可视化平台。可视化来自 Prometheus、Loki、Elasticsearch、InfluxDB、Postgres 等多源的指标、日志和追踪。
+- [reactjs/react.dev](https://github.com/reactjs/react.dev) - React 文档网站
+- [microsoft/TypeScript](https://github.com/microsoft/TypeScript) - TypeScript 是 JavaScript 的超集，编译为干净的 JavaScript 输出。
+- [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) - 构建管理面板、内部工具和仪表盘的平台。支持与25+数据库和任意API集成。
+- [XadillaX/vscode-language-viml](https://github.com/XadillaX/vscode-language-viml) - VSCode 的 VimL 插件。
+- [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim) - Vim & neovim 的 Nodejs 扩展宿主，加载类似 VSCode 的扩展并托管语言服务器。
+- [CryogenicPlanet/cryogenicplanet.github.io](https://github.com/CryogenicPlanet/cryogenicplanet.github.io) - 个人网络空间
+- [wei/socialify](https://github.com/wei/socialify) - 💞 让你的项目社会化。🌐 与世界分享！
 - [VSCodeVim/Vim](https://github.com/VSCodeVim/Vim) - :star: Visual Studio Code 的 Vim
-- [AtomMaterialUI/iconGenerator](https://github.com/AtomMaterialUI/iconGenerator) - Atom Material Icons 插件（适用于 JetBrains、Chrome 和 Firefox）内的图标集
+- [AtomMaterialUI/iconGenerator](https://github.com/AtomMaterialUI/iconGenerator) - Atom Material Icons 插件（JetBrains、Chrome 和 Firefox）中使用的图标集合
 - [antfu/case-police](https://github.com/antfu/case-police) - 🚨 请确保大小写正确！
-- [shd101wyy/vscode-markdown-preview-enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced) - Visual Studio Code 最佳 Markdown 预览插件之一
-- [HAG87/vscode-maxscript-lsp](https://github.com/HAG87/vscode-maxscript-lsp) - VS Code 的 MaxScript 语言支持（语言服务器实现）
-- [marcomontalbano/video-to-markdown](https://github.com/marcomontalbano/video-to-markdown) - 如何在 markdown 中嵌入视频？这里有答案。让你更轻松地添加视频到 markdown 文件。
-- [dangeredwolf/ModernDeck](https://github.com/dangeredwolf/ModernDeck) - 一款美观、强大的桌面 Twitter 客户端。
-- [shiftkey/desktop](https://github.com/shiftkey/desktop) - GitHub Desktop 的分支，支持多种 Linux 发行版
+- [shd101wyy/vscode-markdown-preview-enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced) - Visual Studio Code 的“最佳”Markdown预览扩展之一
+- [HAG87/vscode-maxscript-lsp](https://github.com/HAG87/vscode-maxscript-lsp) - VS Code 的 MaxScript 语言服务器实现
+- [marcomontalbano/video-to-markdown](https://github.com/marcomontalbano/video-to-markdown) - 如何在 Markdown 中嵌入视频？这里有答案。更轻松地向 Markdown 文件添加视频。
+- [dangeredwolf/ModernDeck](https://github.com/dangeredwolf/ModernDeck) - 一款美观强大的桌面 Twitter 客户端。
+- [shiftkey/desktop](https://github.com/shiftkey/desktop) - GitHub Desktop 的分支版本，支持多种 Linux 发行版
 - [k9982874/github-gist-explorer](https://github.com/k9982874/github-gist-explorer) - 
-- [djyde/ossart](https://github.com/djyde/ossart) - 将你的 GitHub 活动打印成艺术作品
-- [luyuhuang/vscode-rss](https://github.com/luyuhuang/vscode-rss) - 内嵌于 Visual Studio Code 的 RSS 阅读器
-- [liximomo/vscode-sftp](https://github.com/liximomo/vscode-sftp) - 超快的 VS Code sftp/ftp 扩展
-- [funnyzak/react-native-v2ex](https://github.com/funnyzak/react-native-v2ex) - 项目采用 React Native 构建 V2EX 移动客户端。旨在打造 React Native 快速开发脚手架。客户端数据完全基于 V2EX 开放 API。基于 RN 0.71.5。
-- [trzsz/trzsz.js](https://github.com/trzsz/trzsz.js) - trzsz.js 是 trzsz 的 js 版本，让基于 electron 和 webshell 的终端支持 trzsz（trz / tsz）。
-- [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) - 一款独特的简历生成器，注重你的隐私。完全安全、可定制、便携、开源且永久免费。现在就试试吧！
-- [slidevjs/slidev](https://github.com/slidevjs/slidev) - 面向开发者的演示文稿幻灯片
-- [zzzgydi/clash-verge](https://github.com/zzzgydi/clash-verge) - 基于 tauri 的 Clash GUI，支持 Windows、macOS 和 Linux。
-- [louisyoungx/safari-like-startpage](https://github.com/louisyoungx/safari-like-startpage) - 类 Safari 风格的新标签页
-- [BoostIO/BoostNote-App](https://github.com/BoostIO/BoostNote-App) - Boost Note 是一款文档驱动的项目管理工具，最大化远程 DevOps 团队的效率。
+- [djyde/ossart](https://github.com/djyde/ossart) - 将你的 GitHub 活动打印成艺术品
+- [luyuhuang/vscode-rss](https://github.com/luyuhuang/vscode-rss) - 嵌入 Visual Studio Code 的 RSS 阅读器
+- [liximomo/vscode-sftp](https://github.com/liximomo/vscode-sftp) - VS Code 的超快 sftp/ftp 扩展
+- [funnyzak/react-native-v2ex](https://github.com/funnyzak/react-native-v2ex) - 项目使用 React Native 构建了一个 V2EX 移动客户端应用。目的是构建一个 React Native 快速开发脚手架。客户端数据完全基于 V2EX 开放 API。基于 RN 0.71.5。
+- [trzsz/trzsz.js](https://github.com/trzsz/trzsz.js) - trzsz.js 是 trzsz 的 JavaScript 版本，使基于 electron 和 webshell 构建的终端支持 trzsz（trz / tsz）。
+- [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) - 独一无二的简历生成器，注重隐私。完全安全、可定制、便携、开源且永久免费。立即试用！
+- [slidevjs/slidev](https://github.com/slidevjs/slidev) - 面向开发者的演示幻灯片
+- [zzzgydi/clash-verge](https://github.com/zzzgydi/clash-verge) - 基于 tauri 的 Clash GUI。支持 Windows、macOS 和 Linux。
+- [louisyoungx/safari-like-startpage](https://github.com/louisyoungx/safari-like-startpage) - 类似 Safari 的起始页
+- [BoostIO/BoostNote-App](https://github.com/BoostIO/BoostNote-App) - Boost Note 是一款文档驱动的项目管理工具，最大化远程 DevOps 团队效率。
 - [rick-yo/remind](https://github.com/rick-yo/remind) - 将思维导图带到浏览器
-- [QwikDev/qwik](https://github.com/QwikDev/qwik) - 无需努力即可实现瞬时加载的 Web 应用
-- [vuepress-reco/vuepress-theme-reco](https://github.com/vuepress-reco/vuepress-theme-reco) - 🎨 这是 vuepress-theme-reco 2 的仓库。
+- [QwikDev/qwik](https://github.com/QwikDev/qwik) - 即时加载的网页应用，轻松实现
+- [vuepress-reco/vuepress-theme-reco](https://github.com/vuepress-reco/vuepress-theme-reco) - 🎨 vuepress-theme-reco 2 的代码仓库。
 - [WayneGongCN/microsoft-todo-browser-ext](https://github.com/WayneGongCN/microsoft-todo-browser-ext) - Microsoft To Do 的开源第三方浏览器扩展
-- [outline/outline](https://github.com/outline/outline) - 团队成长最快的知识库。美观、实时协作、功能丰富并兼容 markdown。
-- [geist-org/geist-ui](https://github.com/geist-org/geist-ui) - 用于构建现代网站和应用的设计系统。
-- [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) - 你的“一站式”出版工作台
+- [outline/outline](https://github.com/outline/outline) - 适合成长团队的最快知识库。美观、实时协作、功能丰富且兼容 Markdown。
+- [geist-org/geist-ui](https://github.com/geist-org/geist-ui) - 构建现代网站和应用的设计系统。
+- [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) - 你的全能出版工作台
 - [ddiu8081/bus-vis](https://github.com/ddiu8081/bus-vis) - 🚌 中国城市公交可视化。
-- [vitejs/vite](https://github.com/vitejs/vite) - 新一代前端开发工具。极速！
-- [notea-org/notea](https://github.com/notea-org/notea) - 📒 基于 S3 存储的自托管笔记应用
-- [heroui-inc/heroui](https://github.com/heroui-inc/heroui) - 🚀 美观、快速、现代的 React UI 库。（前身为 NextUI）
+- [vitejs/vite](https://github.com/vitejs/vite) - 下一代前端工具。速度飞快！
+- [notea-org/notea](https://github.com/notea-org/notea) - 📒 自托管的笔记应用，存储于 S3
+- [heroui-inc/heroui](https://github.com/heroui-inc/heroui) - 🚀 美观、快速且现代的 React UI 库。（前称 NextUI）
 - [coder/code-server](https://github.com/coder/code-server) - 浏览器中的 VS Code
-- [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) - 一个实用优先的 CSS 框架，用于快速 UI 开发。
-- [danloh/mdSilo-web](https://github.com/danloh/mdSilo-web) - 基于本地纯文本文件的浏览器端知识库
-- [Gisto/Gisto](https://github.com/Gisto/Gisto) - Gisto 是一个跨平台的代码片段管理应用，支持团队快速共享代码片段。基于 GitHub Gists，可使用全部功能。
+- [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) - 一款实用至上的 CSS 框架，快速进行 UI 开发。
+- [danloh/mdSilo-web](https://github.com/danloh/mdSilo-web) - 基于本地纯文本文件的浏览器内知识库
+- [Gisto/Gisto](https://github.com/Gisto/Gisto) - Gisto 是一款跨平台代码片段管理应用，允许你和/或你的团队快速轻松分享代码片段。基于 GitHub Gists 基础设施，意味着你可以使用所有你的 e
 - [GustavoASC/google-drive-vscode](https://github.com/GustavoASC/google-drive-vscode) - 将 VSCode 与 Google Drive™ 集成的扩展
-- [liupan1890/aliyunpan](https://github.com/liupan1890/aliyunpan) - 阿里云盘小白羊版  阿里云盘PC版 aliyundriver
-- [Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo) - :rocket:一款由 vue-cli-electron-builder 构建的简单美观的图片上传工具
-- [XPoet/picx](https://github.com/XPoet/picx) - 🏞️ PicX 是一款基于 GitHub API 开发的图床工具，提供图片上传、生成链接及常用图片工具箱服务。
-- [Actions-R-Us/actions-tagger](https://github.com/Actions-R-Us/actions-tagger) - 用于保持你的 action 版本最新的元 action :rocket:
+- [liupan1890/aliyunpan](https://github.com/liupan1890/aliyunpan) - 阿里云盘小白羊版 阿里云盘PC版 aliyundriver
+- [Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo) - :rocket: 一个由 vue-cli-electron-builder 构建的简单美观的图片上传工具
+- [XPoet/picx](https://github.com/XPoet/picx) - 🏞️ PicX 是一款基于 GitHub API 开发的图床工具，提供图片上传托管、生成图片链接和常用图片工具箱服务。
+- [Actions-R-Us/actions-tagger](https://github.com/Actions-R-Us/actions-tagger) - 一个元动作，用于保持你的动作版本更新 :rocket:
 - [Ajaxy/telegram-tt](https://github.com/Ajaxy/telegram-tt) - Telegram Web A，GPL v3
-- [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) - 用于手绘风格图表草图的虚拟白板
-- [nglviewer/ngl](https://github.com/nglviewer/ngl) - WebGL 蛋白质分子查看器
-- [mjswensen/themer](https://github.com/mjswensen/themer) - 🎨 themer 用一组颜色生成各类应用（编辑器、终端、壁纸等）的主题。
-- [Binaryify/OneDark-Pro](https://github.com/Binaryify/OneDark-Pro) - Visual Studio Code 的 Atom 经典 One Dark 主题
-- [ritwickdey/vscode-create-file-folder](https://github.com/ritwickdey/vscode-create-file-folder) - 一个帮助你以 Atom 风格创建文件夹和文件的小型 vscode 插件。
+- [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) - 用于绘制手绘风格图表的虚拟白板
+- [nglviewer/ngl](https://github.com/nglviewer/ngl) - WebGL 蛋白质查看器
+- [mjswensen/themer](https://github.com/mjswensen/themer) - 🎨 themer 通过一组颜色输出适合你应用（编辑器、终端、壁纸等）的主题。
+- [Binaryify/OneDark-Pro](https://github.com/Binaryify/OneDark-Pro) - Atom 标志性的 One Dark 主题，适用于 Visual Studio Code
+- [ritwickdey/vscode-create-file-folder](https://github.com/ritwickdey/vscode-create-file-folder) - 一个帮助你以 Atom 风格创建文件和文件夹的小型 vscode 扩展。
 - [whyour/qinglong](https://github.com/whyour/qinglong) - 支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台
-- [johnpapa/vscode-peacock](https://github.com/johnpapa/vscode-peacock) - 微妙地改变 VS Code 工作区颜色。适合多实例、VS Live Share 或远程特性下快速识别。
+- [johnpapa/vscode-peacock](https://github.com/johnpapa/vscode-peacock) - 微妙地改变你的 Visual Studio Code 工作区颜色。适合多个 VS Code 实例、使用 VS Live Share 或 VS Code 远程功能时快速识别工作区。
 - [morethanwords/tweb](https://github.com/morethanwords/tweb) - Telegram Web K，GPL v3
-- [gitkraken/vscode-gitlens](https://github.com/gitkraken/vscode-gitlens) - 为 VS Code 增强 Git，并在每个仓库中解锁未开发的知识——通过 Git blame 注释和 CodeLens 一目了然地可视化代码作者，轻松浏览和探索 Git。
-- [carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji) - 提交信息的 emoji 指南。😜
-- [NotionX/react-notion-x](https://github.com/NotionX/react-notion-x) - 快速精准的 Notion React 渲染器。内置 TS。⚡️
+- [gitkraken/vscode-gitlens](https://github.com/gitkraken/vscode-gitlens) - 在 VS Code 中增强 Git 功能，并挖掘每个仓库中的未开发知识 —— 通过 Git blame 注释和 CodeLens 一目了然地可视化代码作者，轻松导航和探索 Git 
+- [carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji) - 你的提交信息的表情符号指南。😜
+- [NotionX/react-notion-x](https://github.com/NotionX/react-notion-x) - 针对 Notion 的快速且精准的 React 渲染器。自带 TS 支持。⚡️
 - [Shywim/github-repo-size](https://github.com/Shywim/github-repo-size) - 显示 Github 仓库大小的 Firefox 插件。
-- [streetsidesoftware/vscode-spell-checker](https://github.com/streetsidesoftware/vscode-spell-checker) - 简单易用的源码拼写检查器
-- [brianlovin/figma-dominant-color-toolkit](https://github.com/brianlovin/figma-dominant-color-toolkit) - 从图片生成调色板，魔法般填充你的设计。
-- [transitive-bullshit/nextjs-notion-starter-kit](https://github.com/transitive-bullshit/nextjs-notion-starter-kit) - 用 Next.js 和 Vercel 快速部署你的 Notion 驱动网站。
-- [spencerwooo/onedrive-vercel-index](https://github.com/spencerwooo/onedrive-vercel-index) - 基于 Vercel 和 Next.js 的 OneDrive 公共目录列表
-- [doki-theme/doki-theme-vscode](https://github.com/doki-theme/doki-theme-vscode) - VS-Code 的可爱动漫主题。
-- [frencojobs/vscode-notion](https://github.com/frencojobs/vscode-notion) - 直接在 Visual Studio Code 内浏览 Notion 页面。
-- [lostintangent/gistpad](https://github.com/lostintangent/gistpad) - 📘 用于管理和分享代码片段、笔记和交互样例的 VS Code 插件，基于 GitHub Gists
-- [material-extensions/vscode-material-icon-theme](https://github.com/material-extensions/vscode-material-icon-theme) - VS Code 的 Material Design 图标
-- [lokalise/i18n-ally](https://github.com/lokalise/i18n-ally) - 🌍 VS Code 的全能 i18n 扩展
+- [streetsidesoftware/vscode-spell-checker](https://github.com/streetsidesoftware/vscode-spell-checker) - 用于代码的简单拼写检查器
+- [brianlovin/figma-dominant-color-toolkit](https://github.com/brianlovin/figma-dominant-color-toolkit) - 从图片生成调色板，神奇地填充你的设计。
+- [transitive-bullshit/nextjs-notion-starter-kit](https://github.com/transitive-bullshit/nextjs-notion-starter-kit) - 使用 Next.js 和 Vercel 几分钟内部署你自己的 Notion 驱动网站。
+- [spencerwooo/onedrive-vercel-index](https://github.com/spencerwooo/onedrive-vercel-index) - OneDrive 公开目录列表，由 Vercel 和 Next.js 提供支持
+- [doki-theme/doki-theme-vscode](https://github.com/doki-theme/doki-theme-vscode) - 适用于 VS-Code 的可爱动漫角色主题。
+- [frencojobs/vscode-notion](https://github.com/frencojobs/vscode-notion) - 在 Visual Studio Code 内浏览 Notion 页面。
+- [lostintangent/gistpad](https://github.com/lostintangent/gistpad) - 📘 用于管理和分享代码片段、笔记及交互式样例的 VS Code 扩展，基于 GitHub Gists
+- [material-extensions/vscode-material-icon-theme](https://github.com/material-extensions/vscode-material-icon-theme) - VS Code 的材质设计图标
+- [lokalise/i18n-ally](https://github.com/lokalise/i18n-ally) - 🌍 VS Code 的全功能国际化扩展
 - [vscode-icons/vscode-icons](https://github.com/vscode-icons/vscode-icons) - Visual Studio Code 的图标集
-- [Authenticator-Extension/Authenticator](https://github.com/Authenticator-Extension/Authenticator) - Authenticator 在浏览器中生成两步验证码。
-- [samuelmaddock/metastream](https://github.com/samuelmaddock/metastream) - 与朋友一起在线观看流媒体。
-- [swdotcom/swdc-vscode](https://github.com/swdotcom/swdc-vscode) - Visual Studio Code 的时间追踪插件
-- [oderwat/vscode-indent-rainbow](https://github.com/oderwat/vscode-indent-rainbow) - 用淡彩虹色背景显示缩进，使其更易读的扩展
-- [CoenraadS/Bracket-Pair-Colorizer-2](https://github.com/CoenraadS/Bracket-Pair-Colorizer-2) - VSCode 括号配对上色扩展
-- [YXL76/cloudmusic-vscode](https://github.com/YXL76/cloudmusic-vscode) - VS Code 的网易云音乐插件
-- [desktop/desktop](https://github.com/desktop/desktop) - 专注于重要事务，不必为 Git 争斗。
-- [withfig/autocomplete](https://github.com/withfig/autocomplete) - 为现有终端和 shell 提供 IDE 风格的自动补全
-- [rid9/DateTime](https://github.com/rid9/DateTime) - Visual Studio Code 状态栏日期和时间信息
-- [omgovich/colord](https://github.com/omgovich/colord) - 👑 轻量而强大的高性能颜色操作与转换工具
+- [Authenticator-Extension/Authenticator](https://github.com/Authenticator-Extension/Authenticator) - Authenticator 在你的浏览器中生成两步验证代码。
+- [samuelmaddock/metastream](https://github.com/samuelmaddock/metastream) - 与朋友一起观看流媒体。
+- [swdotcom/swdc-vscode](https://github.com/swdotcom/swdc-vscode) - Visual Studio Code 的时间跟踪插件
+- [oderwat/vscode-indent-rainbow](https://github.com/oderwat/vscode-indent-rainbow) - 显示带有淡彩虹色背景的缩进的扩展，使其更易读
+- [CoenraadS/Bracket-Pair-Colorizer-2](https://github.com/CoenraadS/Bracket-Pair-Colorizer-2) - VSCode 的括号着色扩展
+- [YXL76/cloudmusic-vscode](https://github.com/YXL76/cloudmusic-vscode) - VS Code 的网易云音乐
+- [desktop/desktop](https://github.com/desktop/desktop) - 专注于重要的事，而非与 Git 斗争。
+- [withfig/autocomplete](https://github.com/withfig/autocomplete) - 为你的现有终端和 shell 提供 IDE 风格的自动补全
+- [rid9/DateTime](https://github.com/rid9/DateTime) - Visual Studio Code 的日期和时间状态栏信息。
+- [omgovich/colord](https://github.com/omgovich/colord) - 👑 一个小巧但强大的高性能颜色操作和转换工具
 - [microsoft/vscode-sublime-keybindings](https://github.com/microsoft/vscode-sublime-keybindings) - VS Code 的 Sublime Text 键位映射扩展
-- [triggerjs/trigger](https://github.com/triggerjs/trigger) - 基于 HTML 属性和 CSS 变量创建滚动动画的库。
-- [Eugeny/tabby](https://github.com/Eugeny/tabby) - 适应现代需求的终端
+- [triggerjs/trigger](https://github.com/triggerjs/trigger) - 一个基于 HTML 属性和 CSS 变量创建滚动动画的库。
+- [Eugeny/tabby](https://github.com/Eugeny/tabby) - 面向现代时代的终端
 - [Vanessa219/vditor](https://github.com/Vanessa219/vditor) - ♏ 一款浏览器端 Markdown 编辑器，支持所见即所得（富文本）、即时渲染（类似 Typora）和分屏预览模式。
-- [Yqnn/svg-path-editor](https://github.com/Yqnn/svg-path-editor) - 在线编辑和操作 SVG 路径
-- [daltonmenezes/aura-theme](https://github.com/daltonmenezes/aura-theme) - ✨ 一款美丽的暗色主题，适用于你喜欢的各种应用。
-- [pawelgrzybek/snippet-generator](https://github.com/pawelgrzybek/snippet-generator) - 为 VS Code、Sublime Text 和 Atom 生成代码片段的工具
-- [robertying/learnX](https://github.com/robertying/learnX) - 清华大学网络学堂 App，基于 React Native 开发。App for Tsinghua University Web Learning, developed with React Native. ⚛️
+- [Yqnn/svg-path-editor](https://github.com/Yqnn/svg-path-editor) - 在线创建和操作 SVG 路径的编辑器
+- [daltonmenezes/aura-theme](https://github.com/daltonmenezes/aura-theme) - ✨ 你喜爱应用的美丽暗色主题。
+- [pawelgrzybek/snippet-generator](https://github.com/pawelgrzybek/snippet-generator) - 适用于 Visual Studio Code、Sublime Text 和 Atom 的代码片段生成器
+- [robertying/learnX](https://github.com/robertying/learnX) - 清华大学网络学堂 App，使用 React Native 构建。Tsinghua University Web Learning 的 App，采用 React Native 开发。⚛️
 - [microsoft/vscode](https://github.com/microsoft/vscode) - Visual Studio Code
-- [refined-github/refined-github](https://github.com/refined-github/refined-github) - :octocat: 简化 GitHub 界面并增加实用功能的浏览器扩展
-- [reruin/sharelist](https://github.com/reruin/sharelist) - 快速分享 GoogleDrive OneDrive
-- [dendronhq/dendron](https://github.com/dendronhq/dendron) - 随你成长的个人知识管理（PKM）工具！
-- [foambubble/foam](https://github.com/foambubble/foam) - VSCode 的个人知识管理与共享系统
-- [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) - 一款隐私优先、自托管、完全开源的个人知识管理软件，基于 typescript 和 golang 编写。
-- [Ashutosh00710/github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph) - 动态生成展示你过去 31 天 GitHub 活动的图表。
-- [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) - 🧡 万物皆可 RSS
+- [refined-github/refined-github](https://github.com/refined-github/refined-github) - :octocat: 简化 GitHub 界面并添加实用功能的浏览器扩展
+- [reruin/sharelist](https://github.com/reruin/sharelist) - 快速分享 GoogleDrive 和 OneDrive
+- [dendronhq/dendron](https://github.com/dendronhq/dendron) - 随着你的成长而成长的个人知识管理（PKM）工具！
+- [foambubble/foam](https://github.com/foambubble/foam) - VSCode 的个人知识管理和共享系统
+- [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) - 一款以隐私为先、自托管、完全开源的个人知识管理软件，使用 typescript 和 golang 编写。
+- [Ashutosh00710/github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph) - 动态生成的活动图，展示你过去31天的 GitHub 活动。
+- [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) - 🧡 一切皆RSS可能
 - [the1812/Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved) - 强大的哔哩哔哩增强脚本
 - [darkreader/darkreader](https://github.com/darkreader/darkreader) - Dark Reader Chrome 和 Firefox 扩展
-- [ankit/stylebot](https://github.com/ankit/stylebot) - 即刻更改网页外观
+- [ankit/stylebot](https://github.com/ankit/stylebot) - 立即更改网页外观
 
 ## VBA 
 
-- [Jonathan-LeRoux/IguanaTex](https://github.com/Jonathan-LeRoux/IguanaTex) - 一个 PowerPoint 插件，可在 Windows 和 Mac 上将 LaTeX 公式插入到 PowerPoint 演示文稿中
+- [Jonathan-LeRoux/IguanaTex](https://github.com/Jonathan-LeRoux/IguanaTex) - 一个 PowerPoint 插件，用于在 Windows 和 Mac 上将 LaTeX 公式插入 PowerPoint 演示文稿
 
 ## VBScript 
 
-- [bugfan/i996](https://github.com/bugfan/i996) - 免费、免搭建、免安装的内网穿透、SSL证书签发、远程办公、居家办公工具，便于调试微信小程序（客户端无需安装任何程序即用），类似 natapp 和 ngrok
+- [bugfan/i996](https://github.com/bugfan/i996) - 免费 免搭建 免安装 内网穿透 ssl证书签发 远程办公 居家办公工具 方便调试微信小程序(客户端无需安装任何程序拿来即用) 类似于natapp ngrok
 
 ## Vala 
 
-- [birros/web-archives](https://github.com/birros/web-archives) - 一个 Web 档案阅读器
-- [teejee2008/timeshift](https://github.com/teejee2008/timeshift) - Linux 系统还原工具。使用 rsync+硬链接或 BTRFS 快照创建文件系统快照。支持定时快照、多级备份和排除过滤器。快照可还原。
+- [birros/web-archives](https://github.com/birros/web-archives) - 一个网页档案阅读器
+- [teejee2008/timeshift](https://github.com/teejee2008/timeshift) - Linux 系统还原工具。使用 rsync+硬链接 或 BTRFS 快照创建文件系统快照。支持定时快照、多级备份和排除过滤器。快照可恢复
 
 ## Vim Script 
 
-- [int32bit/dotfiles](https://github.com/int32bit/dotfiles) - 一套 Vim、zsh、git 和 tmux 配置文件
+- [int32bit/dotfiles](https://github.com/int32bit/dotfiles) - 一套 vim、zsh、git 和 tmux 配置文件。
 - [mashirozx/Pixiv-Nginx](https://github.com/mashirozx/Pixiv-Nginx) - P站（Pixiv）的正确打开方式
 - [jbranchaud/til](https://github.com/jbranchaud/til) - :memo: 今天我学到了
 - [junegunn/vim-plug](https://github.com/junegunn/vim-plug) - :hibiscus: 极简 Vim 插件管理器
-- [joshdick/onedark.vim](https://github.com/joshdick/onedark.vim) - 一个受 Atom One Dark 语法主题启发的深色 Vim/Neovim 主题
+- [joshdick/onedark.vim](https://github.com/joshdick/onedark.vim) - 一个受 Atom 的 One Dark 语法主题启发的暗色 Vim/Neovim 颜色方案。
 - [albert12132/dotfiles](https://github.com/albert12132/dotfiles) - 
-- [mattn/vim-gist](https://github.com/mattn/vim-gist) - Gist 的 Vim 插件
-- [amix/vimrc](https://github.com/amix/vimrc) - 终极 Vim 配置（vimrc）
-- [neovim/neovim](https://github.com/neovim/neovim) - 专注于可扩展性和易用性的 Vim 分支
+- [mattn/vim-gist](https://github.com/mattn/vim-gist) - Vim 的 Gist 插件
+- [amix/vimrc](https://github.com/amix/vimrc) - 终极 Vim 配置 (vimrc)
+- [neovim/neovim](https://github.com/neovim/neovim) - 专注于可扩展性和可用性的 Vim 分支
 
 ## Visual Basic .NET 
 
 - [PeterStrick/ViVeTool-GUI](https://github.com/PeterStrick/ViVeTool-GUI) - 基于 ViVe / ViVeTool 的 Windows 功能控制 GUI
-- [ChrisAnd1998/TaskbarX](https://github.com/ChrisAnd1998/TaskbarX) - 通过多种动画和选项实现 Windows 任务栏图标居中
+- [ChrisAnd1998/TaskbarX](https://github.com/ChrisAnd1998/TaskbarX) - 使用多种动画和选项居中 Windows 任务栏图标。
 
 ## Vue 
 
-- [Sjj1024/PakePlus](https://github.com/Sjj1024/PakePlus) - 只需几分钟，轻松将任何网页/Vue/React等转成小于5M的多端桌面及移动应用。https://ppofficial.netlify.app
-- [Ackites/hidden-word](https://github.com/Ackites/hidden-word) - 基于 Unicode 的文本数字水印工具，可在文本内容中嵌入隐形版权标记和元数据
-- [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) - 最佳 IP 工具箱。轻松查看你的 IP、IP 地理位置、DNS 泄漏检查、WebRTC 检查、测速、Ping 测试、MTR 测试、网站可用性、whois 查询等！
-- [zyronon/douyin](https://github.com/zyronon/douyin) - Vue3 + Pinia 仿抖音，Vue 在移动端的最佳实践。抖音仿制，Vue 移动端最佳实践
-- [GUI-for-Cores/GUI.for.Clash](https://github.com/GUI-for-Cores/GUI.for.Clash) - 使用 vue3 + wails 开发的 Clash GUI 程序
-- [dullage/flatnotes](https://github.com/dullage/flatnotes) - 自托管、无数据库的笔记应用，使用 Markdown 文件夹存储
-- [TangSY/echarts-map-demo](https://github.com/TangSY/echarts-map-demo) - 适用于echarts、QGIS等地图geoJson行政区划边界数据的实时获取与应用，json格式数据，全国省市区县多级联动下钻，真正意义的下钻至县级【附最新全国省市区县乡镇三级或四级城市geoJson文件下载，另可下载四级联动或五级（村级）行政编码对应关系】
+- [Sjj1024/PakePlus](https://github.com/Sjj1024/PakePlus) - 轻松将任意网页/Vue/React 等项目几分钟内构建为小于5M的桌面和移动应用。轻松将任意网站/Vue/React等项目构建为轻量级(小于5M)多端桌面应用和手机应用仅需几分钟。 https://ppofficial.netlify.app
+- [Ackites/hidden-word](https://github.com/Ackites/hidden-word) - 一个基于 Unicode 的文本数字水印工具，用于在文本内容中嵌入不可见的版权标记和元数据。
+- [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) - 最佳 IP 工具箱。轻松查看你的 IP，IP 地理位置，DNS 泄漏检测，检查 WebRTC 连接，速度测试，ping 测试，MTR 测试，网站可用性检测，whois 查询等！
+- [zyronon/douyin](https://github.com/zyronon/douyin) - Vue3 + Pinia 仿抖音，Vue 在移动端的最佳实践。模仿 TikTok，Vue 移动端最佳实践
+- [GUI-for-Cores/GUI.for.Clash](https://github.com/GUI-for-Cores/GUI.for.Clash) - 一个由 vue3 + wails 开发的 GUI 程序。
+- [dullage/flatnotes](https://github.com/dullage/flatnotes) - 一个自托管、无数据库的笔记网页应用，使用扁平文件夹的 markdown 文件存储。
+- [TangSY/echarts-map-demo](https://github.com/TangSY/echarts-map-demo) - 适用于 echarts、QGIS 等地图 geoJson 行政区划边界数据的实时获取与应用，json 格式数据，全国省市区县多级联动下钻，真正意义的下钻至县级【附最新全国省市区县乡镇三级或四级城市 geoJson 文件下载，另可下载四级联动或五级（村级）行政编码对应关系】
 - [hackun666/chat-easy](https://github.com/hackun666/chat-easy) - ChatGPT vue.js 演示
 - [weekend-project-space/chatgpt-online](https://github.com/weekend-project-space/chatgpt-online) - chatgpt-online，一键部署你的 chatgpt 页面，无需翻墙
 - [weekend-project-space/chatgpt-chrome-extension](https://github.com/weekend-project-space/chatgpt-chrome-extension) - chatgpt-chrome-extension
-- [Paul-Gy/SessionShare](https://github.com/Paul-Gy/SessionShare) - 轻松通过单一链接多次分享文件！基于 Vue.js 构建，运行于 Cloudflare Workers，使用 Durable Objects、R2 和 Cloudflare Pages
-- [OBKoro1/stop-mess-around](https://github.com/OBKoro1/stop-mess-around) - 自律 Chrome 浏览器插件：帮助你戒掉上班/学习期间下意识打开知乎等网站的习惯，插件会自动检测摸鱼网站，提示激励信息后关闭摸鱼页面。
-- [tailwindcomponents/gradient-generator](https://github.com/tailwindcomponents/gradient-generator) - 用 Vue JS、Vite 和 Tailwind CSS 构建的 Tailwind 渐变生成器
-- [nicejade/markdown2png](https://github.com/nicejade/markdown2png) - 玉桃文飨轩🍑，专业的文本转图片工具。一键将 Markdown 转换为精美图片，支持书摘、自定义主题、字体和背景。本地处理保障隐私，适配多端，提升文章分享、笔记、社交传播格调。基于 Vue3、Vite、Pinia、TailwindCSS、TypeScript。
-- [doocs/md](https://github.com/doocs/md) - ✍ 微信 Markdown 编辑器 | 一款高度简洁的微信 Markdown 编辑器：支持 Markdown 语法、自定义主题样式、内容管理、多图床、AI 助手等特性
-- [betterRunner/context-note](https://github.com/betterRunner/context-note) - 网页环境下记笔记的 Chrome 扩展：带有上下文的网页笔记
+- [Paul-Gy/SessionShare](https://github.com/Paul-Gy/SessionShare) - 轻松通过单个链接多次分享文件！基于 Vue.js，运行于 Cloudflare Workers，使用 Durable Objects、R2 和 Cloudflare Pages。
+- [OBKoro1/stop-mess-around](https://github.com/OBKoro1/stop-mess-around) - 自律 chrome 浏览器插件：帮助你戒掉上班/学习时无意识打开知乎等网站的习惯，往往一看就是几个小时，插件自动检测摸鱼网站，提示激励信息后关闭摸鱼网站。
+- [tailwindcomponents/gradient-generator](https://github.com/tailwindcomponents/gradient-generator) - 使用 Vue JS、Vite 和 Tailwind CSS 构建的 Tailwind 渐变生成器
+- [nicejade/markdown2png](https://github.com/nicejade/markdown2png) - 玉桃文飨轩🍑，专业文本转图片工具。一键将 Markdown 转换为精美图片，支持书摘模式、自定义主题、字体和背景。所有数据本地处理保障隐私安全，完美适配多端展示。让文章分享、读书笔记、社交传播更有格调。基于 Vue3、Vite、Pinia、TailwindCSS、TypeScript 等技术栈构建。
+- [doocs/md](https://github.com/doocs/md) - ✍ 微信 Markdown 编辑器 | 一款高度简洁的微信 Markdown 编辑器：支持 Markdown 语法、自定义主题样式、内容管理、多图床、AI 助手等功能
+- [betterRunner/context-note](https://github.com/betterRunner/context-note) - 一个笔记 Chrome 扩展：带上下文在网页上做笔记。
 - [realByg/cfworker-kv-image-hosting](https://github.com/realByg/cfworker-kv-image-hosting) - Cloudflare workers KV 图床
-- [lpssss/THUeat--Frontend](https://github.com/lpssss/THUeat--Frontend) - 清华大学食堂App
-- [m0ngr31/DailyNotes](https://github.com/m0ngr31/DailyNotes) - 用于记录每日笔记和任务的应用
-- [massCodeIO/massCode](https://github.com/massCodeIO/massCode) - 免费开源的开发者代码片段管理器
-- [chaos-zhu/easynode](https://github.com/chaos-zhu/easynode) - 多功能Linux服务器WEB终端面板（webSSH&webSFTP）。更新通知TG：
-- [tipsy/profile-summary-for-github](https://github.com/tipsy/profile-summary-for-github) - GitHub 个人资料可视化工具
-- [lzdyes/douyin-downloader](https://github.com/lzdyes/douyin-downloader) - 基于 tauri 的跨平台抖音视频下载工具
-- [5aaee9/Dnsflare](https://github.com/5aaee9/Dnsflare) - 编辑 cloudflare 域名 DNS 设置
+- [lpssss/THUeat--Frontend](https://github.com/lpssss/THUeat--Frontend) - 清华大学食堂 App
+- [m0ngr31/DailyNotes](https://github.com/m0ngr31/DailyNotes) - 用于日常记笔记和任务跟踪的 App
+- [massCodeIO/massCode](https://github.com/massCodeIO/massCode) - 一款面向开发者的免费开源代码片段管理器
+- [chaos-zhu/easynode](https://github.com/chaos-zhu/easynode) - 一个多功能 Linux 服务器 WEB 终端面板（webSSH & webSFTP）。更新通知 TG：
+- [tipsy/profile-summary-for-github](https://github.com/tipsy/profile-summary-for-github) - GitHub 资料可视化工具
+- [lzdyes/douyin-downloader](https://github.com/lzdyes/douyin-downloader) - 一个基于 tauri 的跨平台抖音视频下载工具
+- [5aaee9/Dnsflare](https://github.com/5aaee9/Dnsflare) - 编辑 Cloudflare 域名 DNS 设置
 - [Idered/chalk.ist](https://github.com/Idered/chalk.ist) - 📷 创建漂亮的源代码图片
-- [manuelernestog/weektodo](https://github.com/manuelernestog/weektodo) - WeekToDo 是一个免费开源极简周计划与待办应用，专注隐私。支持 Windows、Mac、Linux 和在线版。
+- [manuelernestog/weektodo](https://github.com/manuelernestog/weektodo) - WeekToDo 是一款免费开源的极简隐私聚焦的周计划和待办事项应用。支持 Windows、Mac、Linux 及在线使用。
 - [YunYouJun/cook](https://github.com/YunYouJun/cook) - 🍲 好的，今天我们来做菜！OK, Let's Cook!
-- [Jrohy/webssh](https://github.com/Jrohy/webssh) - 简易在线终端和SFTP工具
-- [requarks/wiki](https://github.com/requarks/wiki) - Wiki.js | 基于 Node.js 的现代强大 wiki 应用
+- [Jrohy/webssh](https://github.com/Jrohy/webssh) - 简易在线终端和 sftp 工具
+- [requarks/wiki](https://github.com/requarks/wiki) - Wiki.js | 一个基于 Node.js 的现代且强大的 Wiki 应用
 - [yddeng/amp](https://github.com/yddeng/amp) - 自动化管理平台：计划任务、进程控制、进程监控报警
-- [surmon-china/surmon.me](https://github.com/surmon-china/surmon.me) - 🌱 我的数字精舍，由我自己驱动。
-- [xjh22222228/boomb](https://github.com/xjh22222228/boomb) - 💣 轻松管理您的 Github 图库。基于 Github 的图片管理
+- [surmon-china/surmon.me](https://github.com/surmon-china/surmon.me) - 🌱 我的数字禅院，由我自己驱动。
+- [xjh22222228/boomb](https://github.com/xjh22222228/boomb) - 💣 基于 Github 轻松管理您的图片库
 - [CareyWang/sub-web](https://github.com/CareyWang/sub-web) - 
-- [5ime/vue-page](https://github.com/5ime/vue-page) - vue短视频/图集去水印解析页面
-- [dhanyn10/multiple-file-manager](https://github.com/dhanyn10/multiple-file-manager) - 文件管理应用。可批量重命名或删除文件，支持条件筛选。支持 windows 和 linux
-- [Codennnn/vue-color-avatar](https://github.com/Codennnn/vue-color-avatar) - 一个纯前端实现的头像生成网站 | 在线头像生成器
-- [JakHuang/form-generator](https://github.com/JakHuang/form-generator) - :sparkles:Element UI 表单设计与代码生成器
-- [KeziahMoselle/export-github-stars](https://github.com/KeziahMoselle/export-github-stars) - 查看/排序/导出你的 Github 星标仓库
-- [WebCrateApp/webcrate](https://github.com/WebCrateApp/webcrate) - 📦🔗 用 WebCrate 组织你的网络，一个现代漂亮的书签工具
-- [leon-kfd/Dashboard](https://github.com/leon-kfd/Dashboard) - 从可配置组件自定义你的个人浏览器起始页
-- [xiaoluoboding/skylines](https://github.com/xiaoluoboding/skylines) - 我的 GitHub 故事以 3D 形式呈现。3D 查看你的 GitHub 贡献图
-- [luyuhuang/DWords2](https://github.com/luyuhuang/DWords2) - 把单词变成屏幕上的弹幕来帮助记忆 | 屏幕弹幕背单词工具
-- [qier222/YesPlayMusic](https://github.com/qier222/YesPlayMusic) - 高颜值第三方网易云播放器，支持 Windows / macOS / Linux :electron:
-- [vuepress-reco/vuepress-theme-reco-1.x](https://github.com/vuepress-reco/vuepress-theme-reco-1.x) - 🎨 这是 vuepress-theme-reco 1 的仓库
+- [5ime/vue-page](https://github.com/5ime/vue-page) - vue 短视频/图集去水印解析页面
+- [dhanyn10/multiple-file-manager](https://github.com/dhanyn10/multiple-file-manager) - 文件管理应用。支持批量重命名或删除文件，支持条件。适用于 Windows 和 Linux
+- [Codennnn/vue-color-avatar](https://github.com/Codennnn/vue-color-avatar) - 一个纯娱乐的在线头像生成器 | 一个纯前端实现的头像生成网站
+- [JakHuang/form-generator](https://github.com/JakHuang/form-generator) - :sparkles: Element UI 表单设计及代码生成器
+- [KeziahMoselle/export-github-stars](https://github.com/KeziahMoselle/export-github-stars) - 查看 / 排序 / 导出你的 Star 仓库。
+- [WebCrateApp/webcrate](https://github.com/WebCrateApp/webcrate) - 📦🔗 使用 WebCrate 组织你的网页，一个现代且美观的书签工具
+- [leon-kfd/Dashboard](https://github.com/leon-kfd/Dashboard) - 从一些可配置组件自定义你的个人浏览器起始页。
+- [xiaoluoboding/skylines](https://github.com/xiaoluoboding/skylines) - 我的 GitHub 故事以 3D 形式展现。查看你的 GitHub 贡献图的 3D 模型。
+- [luyuhuang/DWords2](https://github.com/luyuhuang/DWords2) - 在屏幕上以弹幕形式展示单词，帮助你记忆它们 | 把单词变成屏幕上的弹幕来帮助你记住它们
+- [qier222/YesPlayMusic](https://github.com/qier222/YesPlayMusic) - 高颜值的第三方网易云播放器，支持 Windows / macOS / Linux :electron:
+- [vuepress-reco/vuepress-theme-reco-1.x](https://github.com/vuepress-reco/vuepress-theme-reco-1.x) - 🎨 这是 vuepress-theme-reco 1 的仓库。
 
 
 ## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-在法律允许的范围内，[erbanku](https://github.com/erbanku) 已放弃本作品的所有版权及相关或邻接权利。
+在法律允许的最大范围内，[erbanku](https://github.com/erbanku) 已放弃对本作品的所有版权及相关或邻接权利。
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
 
 ---

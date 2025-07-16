@@ -1,19 +1,632 @@
 [
   {
     "Id": 1,
-    "Content": "# C Programming Projects Collection\n\n[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)\n\nA collection of C programming projects designed for beginners to learn and practice various programming concepts, from basic algorithms to network programming. Each project is self-contained and includes its own documentation and build system.\n\n## Projects Overview\n\n### 1. [SHA-512 Implementation](SHA-512/)\nA cryptographic hash function implementation that demonstrates:\n- Bit manipulation\n- Complex algorithms\n- Memory management\n- File I/O operations\n\n### 2. [HTTP Server](http-server/)\nA basic HTTP server implementation that covers:\n- Socket programming\n- HTTP protocol basics\n- File serving\n- Network communication\n\n### 3. [UDP Server-Client](udp-server-client/)\nA simple UDP-based communication system that teaches:\n- UDP socket programming\n- Client-server architecture\n- Network protocols\n- Message exchange\n\n### 4. [Port Scanner](port-scanner/)\nA network diagnostic tool that demonstrates:\n- TCP socket programming\n- Network scanning techniques\n- Error handling\n- Command-line argument parsing\n\n### 5. [Ping Implementation](ping/)\nA custom ping utility that covers:\n- ICMP protocol\n- Raw socket programming\n- Network diagnostics\n- Time measurement\n\n### 6. [Tic-Tac-Toe](tic-tac-toe/)\nA classic game implementation that teaches:\n- Multiplayer game server \n-Socket programming\n- Game logic\n- User input handling\n\n### 7. [Chat System](chat-system/)\nA real-time chat application that demonstrates:\n- TCP socket programming\n- Multi-threading\n- Real-time communication\n- Client-server architecture\n\n### 8. [Lexical Analyzer](lexical-analyser/)\nA simple compiler front-end component that demonstrates:\n- Tokenization of source code\n- Parsing techniques\n- Compiler design principles\n- String manipulation\n\n### 9. [Arithmetic Compiler](arithmetic-compiler/)\nA simple compiler that takes arithmetic expressions as input and generates assembly-like code:\n- Lexical analysis (tokenization)\n- Parsing and evaluation of expressions\n- Assembly code generation\n- Compiler construction fundamentals\n\n### 10. [Asteroid Game](asteroid-game/)\nA terminal-based game where you control a ship to avoid falling asteroids:\n\n- Game state management\n- User input handling\n- Terminal-based graphics\n- Real-time gameplay mechanics\n- Simple collision detection\n\n## Getting Started\n\nEach project in this repository is designed to be self-contained and includes:\n- Source code\n- Makefile or CMake configuration\n- README with build and usage instructions\n- Implementation details\n\nTo get started with any project:\n1. Navigate to the project directory\n2. Read the project's README.md\n3. Follow the build instructions\n4. Run the program as described\n\n## Prerequisites\n\n- GCC compiler (for C projects)\n- G++ compiler (for C++ projects)\n- Make utility\n- CMake (for C/C++ projects)",
-    "ContentSha": "1kNavTUcwxCFN3LZsEatVGhbJdtp41K2FKHe9ud+IQQ=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it\">Itapano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# C Programming Projects Collection\n\n[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)\n\nA collection of C programming projects designed for beginners to learn and practice various programming concepts, from basic algorithms to network programming. Each project is self-contained and includes its own documentation and build system.\n\n## Projects Overview\n\n### 1. [SHA-512 Implementation](SHA-512/)\nA cryptographic hash function implementation that demonstrates:\n- Bit manipulation\n- Complex algorithms\n- Memory management\n- File I/O operations\n\n### 2. [HTTP Server](http-server/)\nA basic HTTP server implementation that covers:\n- Socket programming\n- HTTP protocol basics\n- File serving\n- Network communication\n\n### 3. [UDP Server-Client](udp-server-client/)\nA simple UDP-based communication system that teaches:\n- UDP socket programming\n- Client-server architecture\n- Network protocols\n- Message exchange\n\n### 4. [Port Scanner](port-scanner/)\nA network diagnostic tool that demonstrates:\n- TCP socket programming\n- Network scanning techniques\n- Error handling\n- Command-line argument parsing\n\n### 5. [Ping Implementation](ping/)\nA custom ping utility that covers:\n- ICMP protocol\n- Raw socket programming\n- Network diagnostics\n- Time measurement\n\n### 6. [Tic-Tac-Toe](tic-tac-toe/)\nA classic game implementation that teaches:\n- Multiplayer game server \n-Socket programming\n- Game logic\n- User input handling\n\n### 7. [Chat System](chat-system/)\nA real-time chat application that demonstrates:\n- TCP socket programming\n- Multi-threading\n- Real-time communication\n- Client-server architecture\n\n### 8. [Lexical Analyzer](lexical-analyser/)\nA simple compiler front-end component that demonstrates:\n- Tokenization of source code\n- Parsing techniques\n- Compiler design principles\n- String manipulation\n\n### 9. [Arithmetic Compiler](arithmetic-compiler/)\nA simple compiler that takes arithmetic expressions as input and generates assembly-like code:\n- Lexical analysis (tokenization)\n- Parsing and evaluation of expressions\n- Assembly code generation",
+    "ContentSha": "556SlQ6Q89QrIy9pG8uETao1iXn39BO9afI4rimCDSE=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "# C 프로그래밍 프로젝트 모음\n\n[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)\n\n초보자가 다양한 프로그래밍 개념을 배우고 연습할 수 있도록 설계된 C 프로그래밍 프로젝트 모음으로, 기본 알고리즘부터 네트워크 프로그래밍까지 포함합니다. 각 프로젝트는 독립적이며 자체 문서와 빌드 시스템을 포함합니다.\n\n## 프로젝트 개요\n\n### 1. [SHA-512 구현](SHA-512/)\n다음 내용을 보여주는 암호학적 해시 함수 구현:\n- 비트 조작\n- 복잡한 알고리즘\n- 메모리 관리\n- 파일 입출력 작업\n\n### 2. [HTTP 서버](http-server/)\n다음을 다루는 기본 HTTP 서버 구현:\n- 소켓 프로그래밍\n- HTTP 프로토콜 기초\n- 파일 서빙\n- 네트워크 통신\n\n### 3. [UDP 서버-클라이언트](udp-server-client/)\n다음을 가르치는 간단한 UDP 기반 통신 시스템:\n- UDP 소켓 프로그래밍\n- 클라이언트-서버 아키텍처\n- 네트워크 프로토콜\n- 메시지 교환\n\n### 4. [포트 스캐너](port-scanner/)\n다음을 보여주는 네트워크 진단 도구:\n- TCP 소켓 프로그래밍\n- 네트워크 스캐닝 기술\n- 오류 처리\n- 명령줄 인자 파싱\n\n### 5. [핑 구현](ping/)\n다음을 다루는 맞춤형 핑 유틸리티:\n- ICMP 프로토콜\n- 로우 소켓 프로그래밍\n- 네트워크 진단\n- 시간 측정\n\n### 6. [틱택토](tic-tac-toe/)\n다음을 가르치는 고전 게임 구현:\n- 멀티플레이어 게임 서버\n- 소켓 프로그래밍\n- 게임 로직\n- 사용자 입력 처리\n\n### 7. [채팅 시스템](chat-system/)\n다음을 보여주는 실시간 채팅 애플리케이션:\n- TCP 소켓 프로그래밍\n- 멀티스레딩\n- 실시간 통신\n- 클라이언트-서버 아키텍처\n\n### 8. [렉시컬 분석기](lexical-analyser/)\n다음을 보여주는 간단한 컴파일러 프론트엔드 구성요소:\n- 소스 코드 토큰화\n- 파싱 기법\n- 컴파일러 설계 원칙\n- 문자열 조작\n\n### 9. [산술 컴파일러](arithmetic-compiler/)\n산술식을 입력받아 어셈블리 유사 코드를 생성하는 간단한 컴파일러:\n- 렉시컬 분석(토큰화)\n- 식 파싱 및 평가\n- 어셈블리 코드 생성\n- 컴파일러 구축 기본\n\n### 10. [소행성 게임](asteroid-game/)\n우주선을 조종하여 떨어지는 소행성을 피하는 터미널 기반 게임:\n\n- 게임 상태 관리\n- 사용자 입력 처리\n- 터미널 기반 그래픽\n- 실시간 게임플레이 메커니즘\n- 간단한 충돌 감지\n\n## 시작하기\n\n이 저장소의 각 프로젝트는 독립적으로 설계되었으며 다음을 포함합니다:\n- 소스 코드\n- Makefile 또는 CMake 구성\n- 빌드 및 사용법 안내가 포함된 README\n- 구현 세부사항\n\n어떤 프로젝트든 시작하려면:\n1. 프로젝트 디렉터리로 이동\n2. 프로젝트의 README.md 읽기\n3. 빌드 지침 따르기\n4. 설명대로 프로그램 실행\n\n## 필수 조건\n\n- GCC 컴파일러 (C 프로젝트용)\n- G++ 컴파일러 (C++ 프로젝트용)\n- Make 유틸리티\n- CMake (C/C++ 프로젝트용)",
+    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 언어</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it\">Itapano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# C 프로그래밍 프로젝트 모음\n\n[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)\n\n초보자를 위한 다양한 프로그래밍 개념 학습과 연습을 위한 C 프로그래밍 프로젝트 모음입니다. 각 프로젝트는 독립적으로 구성되어 있으며, 자체 문서와 빌드 시스템을 포함합니다.\n\n## 프로젝트 개요\n\n### 1. [SHA-512 구현](SHA-512/)\n암호화 해시 함수 구현으로 다음을 보여줍니다:\n- 비트 조작\n- 복잡한 알고리즘\n- 메모리 관리\n- 파일 I/O 작업\n\n### 2. [HTTP 서버](http-server/)\n기본 HTTP 서버 구현으로 다음을 다룹니다:\n- 소켓 프로그래밍\n- HTTP 프로토콜 기초\n- 파일 제공\n- 네트워크 통신\n\n### 3. [UDP 서버-클라이언트](udp-server-client/)\n간단한 UDP 기반 통신 시스템으로 다음을 학습합니다:\n- UDP 소켓 프로그래밍\n- 클라이언트-서버 구조\n- 네트워크 프로토콜\n- 메시지 교환\n\n### 4. [포트 스캐너](port-scanner/)\n네트워크 진단 도구로 다음을 보여줍니다:\n- TCP 소켓 프로그래밍\n- 네트워크 스캔 기법\n- 오류 처리\n- 명령줄 인자 파싱\n\n### 5. [핑 구현](ping/)\n사용자 정의 핑 유틸리티로 다음을 다룹니다:\n- ICMP 프로토콜\n- Raw 소켓 프로그래밍\n- 네트워크 진단\n- 시간 측정\n\n### 6. [틱택토](tic-tac-toe/)\n고전 게임 구현으로 다음을 학습합니다:\n- 멀티플레이어 게임 서버 \n-소켓 프로그래밍\n- 게임 로직\n- 사용자 입력 처리\n\n### 7. [채팅 시스템](chat-system/)\n실시간 채팅 애플리케이션으로 다음을 보여줍니다:\n- TCP 소켓 프로그래밍\n- 멀티스레딩\n- 실시간 통신\n- 클라이언트-서버 구조\n\n### 8. [어휘 분석기](lexical-analyser/)\n간단한 컴파일러 프론트엔드 컴포넌트로 다음을 보여줍니다:\n- 소스 코드의 토큰화\n- 파싱 기법\n- 컴파일러 설계 원칙\n- 문자열 조작\n\n### 9. [산술 컴파일러](arithmetic-compiler/)\n산술 표현식을 입력받아 어셈블리 유사 코드를 생성하는 간단한 컴파일러:\n- 어휘 분석(토큰화)\n- 표현식 파싱 및 평가\n- 어셈블리 코드 생성\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "    <summary >🌐 언어</summary>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=en\">English</a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "4nU1ZEGs/3jr7AyR18CQIpCCqXwGj8pPpfZFACGl5xk=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=en\">English</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "yVYmsyt1l86pR8hDP0HC9GEni1ENxIFc/nzV4qvpQcA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "n/KOonTSnQXQtRcrXNX4Qke2ipwLlwV9It+urBrfOL4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "Ww1g/EnjgeMgGHTlAH32XY2wWoHZLi75BkSZ1fu6xEM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "aRtP35f7yACAS3xL0DgQ9gXNcJjcsqryfu/f9Eu+NHU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "BAbBbmdc0upesgjg/hFGyLcKlfc8Znip9rLEYoAPX+g=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "6Wu9IWKj+BS7KLEyQaawSBmNeM3tqXvIr8HPNRe1h48=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fr\">Français</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "v5lAx2gBJR5KeiTSQ5H2YK8ksXfCsZ9kk+6aI3k33dM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "IhB8jUKed1bQcWkFF6QEB7s1MzgEoEhWY1PksbJ1B4Y=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=es\">Español</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "/s/cTmCIAzGMory+n6NClLqp31uv4erg4gmCLpfZD7g=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it\">Itapano</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "ODHYe8cJia4ngGPsrmGsfTBJcV6m1OHl+BiCMKCtjLc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it\">Itapano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "u478F5VIzQ5Kn+fyqczKusokAWM/XkAZEKiPYx55wIU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pt\">Português</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "LAmRCI04EK6gARC/xxipnwSggUmO5FHc++ySeEsGiG0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "ClOJlsWKa8kEUE2favjjq2aFbA9eRp1lPlDGQewIc3k=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "duYu7bEphcoKVMcKMlpWVQcpWyuaJDRqFhonHLn6hbU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "f6N9rsvWDfBWU2CfGyeoq0g5Iq9qwJAyFN8IOMQ9iH8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "Q5pp9YobeqkKby/TfzPl4D51FiyGOlIHoueSRwTKVrs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "j9N172KjCfMl0G73eEnYYuBc3sLrW1Ye6IdKOocjcak=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "aBvuw4dyo3Bnji2zg3skzlcJfgsUnDsPaSECk5xmoJo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "LUo7Q9XEG6Acduh0kiR66nPqPex2Q7r8RiMeTQ+STXQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 27,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 28,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 29,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# C 프로그래밍 프로젝트 모음"
+      },
+      {
+        "row": 32,
         "rowsha": "szfGfVjEZALPgPpajUbzo/E5IB7C3JDe9HSPHEr7KUo=",
         "originContent": "# C Programming Projects Collection",
-        "translatedContent": "# C 프로그래밍 프로젝트 모음"
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)"
+      },
+      {
+        "row": 34,
+        "rowsha": "B0zj7aOLHEvZLwc9MAij4LExsuQp4oJnVK9bP2Tt+2Q=",
+        "originContent": "[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "초보자를 위한 다양한 프로그래밍 개념 학습과 연습을 위한 C 프로그래밍 프로젝트 모음입니다. 각 프로젝트는 독립적으로 구성되어 있으며, 자체 문서와 빌드 시스템을 포함합니다."
+      },
+      {
+        "row": 36,
+        "rowsha": "KqPR0jn7srim8oPXdIZxb/aDqHWwtIG6Ka5Jei6yqMU=",
+        "originContent": "A collection of C programming projects designed for beginners to learn and practice various programming concepts, from basic algorithms to network programming. Each project is self-contained and includes its own documentation and build system.",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 프로젝트 개요"
+      },
+      {
+        "row": 38,
+        "rowsha": "KzbgdFOymRyMwPJYcrqjCq5lUJLBdnAV3q1dw90QMCo=",
+        "originContent": "## Projects Overview",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 1. [SHA-512 구현](SHA-512/)"
+      },
+      {
+        "row": 40,
+        "rowsha": "j2v+ISzDiKa9eZ7eo+0Ycv/l1Yoi3eSg/nD+NEtBxrQ=",
+        "originContent": "### 1. [SHA-512 Implementation](SHA-512/)",
+        "translatedContent": "암호화 해시 함수 구현으로 다음을 보여줍니다:"
+      },
+      {
+        "row": 41,
+        "rowsha": "CSe3R+eGOWV9E7SqMlfX0s4CcVU38fAbwKoiWSId1y4=",
+        "originContent": "A cryptographic hash function implementation that demonstrates:",
+        "translatedContent": "- 비트 조작"
+      },
+      {
+        "row": 42,
+        "rowsha": "vqDmYyeMwVkGqOQcnpvaa8RlUDvoTklKonVjw3OtB3U=",
+        "originContent": "- Bit manipulation",
+        "translatedContent": "- 복잡한 알고리즘"
+      },
+      {
+        "row": 43,
+        "rowsha": "+uE7sGSH+QUbbVo3L2gq2cCr3x4rAexcnouYbVxeK14=",
+        "originContent": "- Complex algorithms",
+        "translatedContent": "- 메모리 관리"
+      },
+      {
+        "row": 44,
+        "rowsha": "oO45dYs+LxBFr0CFQcwOtoIx22Lpn7/bwms9KhkUU4g=",
+        "originContent": "- Memory management",
+        "translatedContent": "- 파일 I/O 작업"
+      },
+      {
+        "row": 45,
+        "rowsha": "a30Cj8pv9QYvhTd7MqBLWiRM/H/gTNXO13mQ5U9TgjI=",
+        "originContent": "- File I/O operations",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 2. [HTTP 서버](http-server/)"
+      },
+      {
+        "row": 47,
+        "rowsha": "g80nFWfZ7uVu2Li599ctWvykinbTqGhrl1wHXfC5qt0=",
+        "originContent": "### 2. [HTTP Server](http-server/)",
+        "translatedContent": "기본 HTTP 서버 구현으로 다음을 다룹니다:"
+      },
+      {
+        "row": 48,
+        "rowsha": "qorh+wsxNFzJ2t+rhjvxDYteibAfVLfLW9wuIeCJ1w8=",
+        "originContent": "A basic HTTP server implementation that covers:",
+        "translatedContent": "- 소켓 프로그래밍"
+      },
+      {
+        "row": 49,
+        "rowsha": "RFgAXxX8iA6wwAchIEXg6PeuqLttIS+AhBVlEg6AMx0=",
+        "originContent": "- Socket programming",
+        "translatedContent": "- HTTP 프로토콜 기초"
+      },
+      {
+        "row": 50,
+        "rowsha": "Kl/tqg2msIeU2cFbZG5+Rwb12PctvZdkqmA5lZaC6DE=",
+        "originContent": "- HTTP protocol basics",
+        "translatedContent": "- 파일 제공"
+      },
+      {
+        "row": 51,
+        "rowsha": "F86DFoky1BXZGF+AbTL2G3+ip4CDKyw2LR7W5wvkDh0=",
+        "originContent": "- File serving",
+        "translatedContent": "- 네트워크 통신"
+      },
+      {
+        "row": 52,
+        "rowsha": "i+j/UIIWx715sWRL3grio12DQYDCaRifG/ODYJvRYvY=",
+        "originContent": "- Network communication",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 3. [UDP 서버-클라이언트](udp-server-client/)"
+      },
+      {
+        "row": 54,
+        "rowsha": "PxukZU0bt1kTQwgod33MvnnUm0sIilylrqxCL3gLxPs=",
+        "originContent": "### 3. [UDP Server-Client](udp-server-client/)",
+        "translatedContent": "간단한 UDP 기반 통신 시스템으로 다음을 학습합니다:"
+      },
+      {
+        "row": 55,
+        "rowsha": "ZjcFxMPp0LCrlvKRokB/6HeYF4I9a2PlxYz0gO0Y9M4=",
+        "originContent": "A simple UDP-based communication system that teaches:",
+        "translatedContent": "- UDP 소켓 프로그래밍"
+      },
+      {
+        "row": 56,
+        "rowsha": "yvgaGHDcKTCFDp0zVpAc5QN1b8ldqLdFDBExcB1QhIQ=",
+        "originContent": "- UDP socket programming",
+        "translatedContent": "- 클라이언트-서버 구조"
+      },
+      {
+        "row": 57,
+        "rowsha": "CmSt2hGR/+dxovElYGxSSxkaMJG7pfC3Qav0GL4wDKk=",
+        "originContent": "- Client-server architecture",
+        "translatedContent": "- 네트워크 프로토콜"
+      },
+      {
+        "row": 58,
+        "rowsha": "iFqipnTD87W6SOH/caIngwgfPDuUPk5d3YWU4OaTCb8=",
+        "originContent": "- Network protocols",
+        "translatedContent": "- 메시지 교환"
+      },
+      {
+        "row": 59,
+        "rowsha": "GnYwUDIWpV2uxJW23Gjfoaq1Fnia5hPUp4NFpyNylZQ=",
+        "originContent": "- Message exchange",
+        "translatedContent": ""
+      },
+      {
+        "row": 60,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 4. [포트 스캐너](port-scanner/)"
+      },
+      {
+        "row": 61,
+        "rowsha": "ni7EhcM1aj4T1LhHVbuUa5oLm0y3ZUnEkK3GnATJ0kI=",
+        "originContent": "### 4. [Port Scanner](port-scanner/)",
+        "translatedContent": "네트워크 진단 도구로 다음을 보여줍니다:"
+      },
+      {
+        "row": 62,
+        "rowsha": "bTFv9q0ag1AgIFxpWOl9VxFnsq9myTlYpARAmVuFQb0=",
+        "originContent": "A network diagnostic tool that demonstrates:",
+        "translatedContent": "- TCP 소켓 프로그래밍"
+      },
+      {
+        "row": 63,
+        "rowsha": "1TMoPcoOh/LZ6GZ9XC/3iwbvGD1ilm+RaCYcnE53978=",
+        "originContent": "- TCP socket programming",
+        "translatedContent": "- 네트워크 스캔 기법"
+      },
+      {
+        "row": 64,
+        "rowsha": "BpBivglicrUo7fVt/p/aElaLT/pTiOcuRhGsBhKlMyk=",
+        "originContent": "- Network scanning techniques",
+        "translatedContent": "- 오류 처리"
+      },
+      {
+        "row": 65,
+        "rowsha": "zIF2/8s/KGmLqwoDNwPuGDGt1DFArlv7GdKrCbyhGL8=",
+        "originContent": "- Error handling",
+        "translatedContent": "- 명령줄 인자 파싱"
+      },
+      {
+        "row": 66,
+        "rowsha": "fQbmttlQRnNxmufak/ccqifey8xatRfDjo1JmU7oozM=",
+        "originContent": "- Command-line argument parsing",
+        "translatedContent": ""
+      },
+      {
+        "row": 67,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 5. [핑 구현](ping/)"
+      },
+      {
+        "row": 68,
+        "rowsha": "9N12413w4DHGvitzNs7MxxKnlA4Zf6v9qxOq9Q8HtNc=",
+        "originContent": "### 5. [Ping Implementation](ping/)",
+        "translatedContent": "사용자 정의 핑 유틸리티로 다음을 다룹니다:"
+      },
+      {
+        "row": 69,
+        "rowsha": "pzK4bLRsFYoCed98ZBNDv3udUAt8Azk7Fw+wgc0uDa8=",
+        "originContent": "A custom ping utility that covers:",
+        "translatedContent": "- ICMP 프로토콜"
+      },
+      {
+        "row": 70,
+        "rowsha": "RrYB/xgLtmIzfvwNKqnvhuoYDFM0Kxo6YCIzn42Rs00=",
+        "originContent": "- ICMP protocol",
+        "translatedContent": "- Raw 소켓 프로그래밍"
+      },
+      {
+        "row": 71,
+        "rowsha": "m05u0ft7ToxegXbyW4XlCzA10eXmH8fSWM1dhMkLlS8=",
+        "originContent": "- Raw socket programming",
+        "translatedContent": "- 네트워크 진단"
+      },
+      {
+        "row": 72,
+        "rowsha": "/d9NCtJU5DvQIgSibkIkgqL8rsg+77SGPoshbB8XY3k=",
+        "originContent": "- Network diagnostics",
+        "translatedContent": "- 시간 측정"
+      },
+      {
+        "row": 73,
+        "rowsha": "Uejp0/vRXEeBfbTcDjbbS3GOMg12FpUJBQ6Is7WR2QQ=",
+        "originContent": "- Time measurement",
+        "translatedContent": ""
+      },
+      {
+        "row": 74,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 6. [틱택토](tic-tac-toe/)"
+      },
+      {
+        "row": 75,
+        "rowsha": "UhdwPQd/AvB7jRKrT9zjCQaDTjgWGdpjL/3Kzbg61q4=",
+        "originContent": "### 6. [Tic-Tac-Toe](tic-tac-toe/)",
+        "translatedContent": "고전 게임 구현으로 다음을 학습합니다:"
+      },
+      {
+        "row": 76,
+        "rowsha": "4kWF+GZ/Y+5GfHfjg4Ihl9L467L26Bz5WCXFBZ5IFfg=",
+        "originContent": "A classic game implementation that teaches:",
+        "translatedContent": "- 멀티플레이어 게임 서버 "
+      },
+      {
+        "row": 77,
+        "rowsha": "Hxr4ObDGMQ5MetTDXYwaGExwfZ35vrHTRS4R6wrDWvU=",
+        "originContent": "- Multiplayer game server ",
+        "translatedContent": "-소켓 프로그래밍"
+      },
+      {
+        "row": 78,
+        "rowsha": "88pOE+wrrPiLDjo/TCL1jVuXtJGmeYMBPAHAAQEaRCk=",
+        "originContent": "-Socket programming",
+        "translatedContent": "- 게임 로직"
+      },
+      {
+        "row": 79,
+        "rowsha": "vXmvdg49httmyomSVPfjHn5d2BCDfVC8ObMGQbL+PeQ=",
+        "originContent": "- Game logic",
+        "translatedContent": "- 사용자 입력 처리"
+      },
+      {
+        "row": 80,
+        "rowsha": "C+Fyh1qMpoz88pXjZk2jbjLQqjr4UAXOme6N7iK4Yqk=",
+        "originContent": "- User input handling",
+        "translatedContent": ""
+      },
+      {
+        "row": 81,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 7. [채팅 시스템](chat-system/)"
+      },
+      {
+        "row": 82,
+        "rowsha": "CTmtMR6Kf0sLmfizGi3ns0puE6WeyO1TvuQ6o5uG6PA=",
+        "originContent": "### 7. [Chat System](chat-system/)",
+        "translatedContent": "실시간 채팅 애플리케이션으로 다음을 보여줍니다:"
+      },
+      {
+        "row": 83,
+        "rowsha": "5Bh0pFGcjgnskqoZSkMXx/o59C5kpSMCg4JrdJOxcDo=",
+        "originContent": "A real-time chat application that demonstrates:",
+        "translatedContent": "- TCP 소켓 프로그래밍"
+      },
+      {
+        "row": 84,
+        "rowsha": "1TMoPcoOh/LZ6GZ9XC/3iwbvGD1ilm+RaCYcnE53978=",
+        "originContent": "- TCP socket programming",
+        "translatedContent": "- 멀티스레딩"
+      },
+      {
+        "row": 85,
+        "rowsha": "+6cGG+CGoFjJLDE7fgd189czML8QBjTWehqZU460DIs=",
+        "originContent": "- Multi-threading",
+        "translatedContent": "- 실시간 통신"
+      },
+      {
+        "row": 86,
+        "rowsha": "fBu/MEeAdVwvnrXZV1UHpdGbVyj10SQp+T2JjP0rT3c=",
+        "originContent": "- Real-time communication",
+        "translatedContent": "- 클라이언트-서버 구조"
+      },
+      {
+        "row": 87,
+        "rowsha": "CmSt2hGR/+dxovElYGxSSxkaMJG7pfC3Qav0GL4wDKk=",
+        "originContent": "- Client-server architecture",
+        "translatedContent": ""
+      },
+      {
+        "row": 88,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 8. [어휘 분석기](lexical-analyser/)"
+      },
+      {
+        "row": 89,
+        "rowsha": "3ygi+Xz2EpjDis7bAqBzu+Fij1EekYsZokUDSOnrbZM=",
+        "originContent": "### 8. [Lexical Analyzer](lexical-analyser/)",
+        "translatedContent": "간단한 컴파일러 프론트엔드 컴포넌트로 다음을 보여줍니다:"
+      },
+      {
+        "row": 90,
+        "rowsha": "Qp6DpJUXG87VlLwSMRIZuc9astD23TNtsRoNrbIBBYE=",
+        "originContent": "A simple compiler front-end component that demonstrates:",
+        "translatedContent": "- 소스 코드의 토큰화"
+      },
+      {
+        "row": 91,
+        "rowsha": "TmqCzSDHniRAO9pcnpWPFKlQLEGg6KX0MNvOmQS2LSg=",
+        "originContent": "- Tokenization of source code",
+        "translatedContent": "- 파싱 기법"
+      },
+      {
+        "row": 92,
+        "rowsha": "1oiP0YEBeye8brlY/AQMrPPBDM4847iCbK9d4UaOLNI=",
+        "originContent": "- Parsing techniques",
+        "translatedContent": "- 컴파일러 설계 원칙"
+      },
+      {
+        "row": 93,
+        "rowsha": "g8UGmz/gbetuGUv7EgduPrcxJ9/8O1suOnK15ZykCdc=",
+        "originContent": "- Compiler design principles",
+        "translatedContent": "- 문자열 조작"
+      },
+      {
+        "row": 94,
+        "rowsha": "3ekpaoHb/kSQ/EInpLB0jGZgdI2A2Om8IWGSkxwKReY=",
+        "originContent": "- String manipulation",
+        "translatedContent": ""
+      },
+      {
+        "row": 95,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 9. [산술 컴파일러](arithmetic-compiler/)"
+      },
+      {
+        "row": 96,
+        "rowsha": "E5SKwx7Jwir4hKoKHo2oZUOReI14+jQv0/r32TfsdzI=",
+        "originContent": "### 9. [Arithmetic Compiler](arithmetic-compiler/)",
+        "translatedContent": "산술 표현식을 입력받아 어셈블리 유사 코드를 생성하는 간단한 컴파일러:"
+      },
+      {
+        "row": 97,
+        "rowsha": "6mW3fRyMZfiL0mpX0yUWKUDN/BH4n1wt/wkParDA8SE=",
+        "originContent": "A simple compiler that takes arithmetic expressions as input and generates assembly-like code:",
+        "translatedContent": "- 어휘 분석(토큰화)"
+      },
+      {
+        "row": 98,
+        "rowsha": "s8GzX2lwHjDBqQWFDVaU5l1YYChzLBReUyQ6n8BXBHY=",
+        "originContent": "- Lexical analysis (tokenization)",
+        "translatedContent": "- 표현식 파싱 및 평가"
+      },
+      {
+        "row": 99,
+        "rowsha": "0I0bOXjHenr/0SHFCdE8FbS0YHgrv8eQsOe3uxonjb4=",
+        "originContent": "- Parsing and evaluation of expressions",
+        "translatedContent": "- 어셈블리 코드 생성"
+      },
+      {
+        "row": 100,
+        "rowsha": "qsHv05AZzA4jZm5mSZkdJS0FLVdgbQPFGixNUyoLO3w=",
+        "originContent": "- Assembly code generation",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- Compiler construction fundamentals\n\n### 10. [Asteroid Game](asteroid-game/)\nA terminal-based game where you control a ship to avoid falling asteroids:\n\n- Game state management\n- User input handling\n- Terminal-based graphics\n- Real-time gameplay mechanics\n- Simple collision detection\n\n## Getting Started\n\nEach project in this repository is designed to be self-contained and includes:\n- Source code\n- Makefile or CMake configuration\n- README with build and usage instructions\n- Implementation details\n\nTo get started with any project:\n1. Navigate to the project directory\n2. Read the project's README.md\n3. Follow the build instructions\n4. Run the program as described\n\n## Prerequisites\n\n- GCC compiler (for C projects)\n- G++ compiler (for C++ projects)\n- Make utility\n- CMake (for C/C++ projects)\n- Basic understanding of C/C++ programming\n- For network projects: understanding of basic networking concepts\n\n## Recommended Book\n\nTo get started with C programming, I recommend this comprehensive book:\n[The C Programming Language](https://amzn.to/3F2Y1Zl) - A must-have resource for learning C programming fundamentals and best practices.\n\n## Learning Path\n\nThese projects are arranged in order of increasing complexity:\n\n1. Start with Tic-Tac-Toe for basic programming concepts\n2. Move to SHA-512 for algorithm implementation\n3. Try the UDP Server-Client for basic networking\n4. Progress to HTTP Server and Chat System for more complex networking\n5. Finally, explore Port Scanner and Ping for advanced networking concepts\n\n## Contributing\n\nFeel free to:\n- Report bugs\n- Suggest improvements\n- Add new features\n- Create new projects\n- Improve documentation\n\n## License\n\nThis project is open source and available for learning purposes.\n\n## Note\n\nSome network-related projects (Port Scanner, Ping) require root/administrator privileges to run due to the use of raw sockets. Always use these tools responsibly and only on networks you have permission to test. \n",
+    "ContentSha": "DA82dnH7u6+vq340bVvyZ34W+xzgjvB6omkn0xcc200=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- 컴파일러 구성 기본\n\n### 10. [Asteroid Game](asteroid-game/)\n사용자가 우주선을 조종하여 떨어지는 소행성을 피하는 터미널 기반 게임:\n\n- 게임 상태 관리\n- 사용자 입력 처리\n- 터미널 기반 그래픽\n- 실시간 게임플레이 메커니즘\n- 간단한 충돌 감지\n\n## 시작하기\n\n이 저장소의 각 프로젝트는 독립적으로 구성되어 있으며 다음을 포함합니다:\n- 소스 코드\n- Makefile 또는 CMake 구성\n- 빌드 및 사용법이 포함된 README\n- 구현 세부사항\n\n어떤 프로젝트든 시작하려면:\n1. 프로젝트 디렉터리로 이동\n2. 해당 프로젝트의 README.md 읽기\n3. 빌드 지침 따르기\n4. 안내된 대로 프로그램 실행\n\n## 사전 요구사항\n\n- GCC 컴파일러(C 프로젝트용)\n- G++ 컴파일러(C++ 프로젝트용)\n- Make 유틸리티\n- CMake (C/C++ 프로젝트용)\n- C/C++ 프로그래밍에 대한 기본 이해\n- 네트워크 프로젝트의 경우: 기본 네트워킹 개념의 이해\n\n## 추천 도서\n\nC 프로그래밍을 시작하려면 이 포괄적인 책을 추천합니다:\n[The C Programming Language](https://amzn.to/3F2Y1Zl) - C 프로그래밍의 기초와 모범 사례를 배우는 데 필수적인 자료입니다.\n\n## 학습 경로\n\n이 프로젝트들은 점진적으로 난이도가 높아지도록 배열되어 있습니다:\n\n1. 기본 프로그래밍 개념을 위해 틱택토부터 시작\n2. 알고리즘 구현을 위해 SHA-512로 이동\n3. 기본 네트워킹을 위해 UDP 서버-클라이언트 시도\n4. 보다 복잡한 네트워킹을 위해 HTTP 서버와 채팅 시스템 진행\n5. 마지막으로 고급 네트워킹 개념을 위해 포트 스캐너와 핑 탐색\n\n## 기여 안내\n\n다음과 같은 활동을 자유롭게 하세요:\n- 버그 신고\n- 개선 사항 제안\n- 새로운 기능 추가\n- 새로운 프로젝트 생성\n- 문서 개선\n\n## 라이선스\n\n이 프로젝트는 오픈 소스이며 학습 목적으로 제공됩니다.\n\n## 참고\n\n일부 네트워크 관련 프로젝트(포트 스캐너, 핑)는 raw 소켓 사용으로 인해 루트/관리자 권한이 필요할 수 있습니다. 항상 이러한 도구를 책임감 있게 사용하고, 테스트 허가를 받은 네트워크에서만 사용하세요.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Y++sYKVAN/+4ff3xsKMFi9Y4jaNU2zWF2jHrco3HBck=",
+        "originContent": "- Compiler construction fundamentals",
+        "translatedContent": "- 컴파일러 구성 기본"
       },
       {
         "row": 2,
@@ -23,201 +636,201 @@
       },
       {
         "row": 3,
-        "rowsha": "B0zj7aOLHEvZLwc9MAij4LExsuQp4oJnVK9bP2Tt+2Q=",
-        "originContent": "[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)",
-        "translatedContent": "[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)"
+        "rowsha": "7w9qwIXd6IqMum/C7yOooZF4I0JrmFIswj7D0KjKofs=",
+        "originContent": "### 10. [Asteroid Game](asteroid-game/)",
+        "translatedContent": "### 10. [Asteroid Game](asteroid-game/)"
       },
       {
         "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "va0Bf3A99YrrMIrqOPgi8QdnWVAnPXlDP0FGk6gC+zs=",
+        "originContent": "A terminal-based game where you control a ship to avoid falling asteroids:",
+        "translatedContent": "사용자가 우주선을 조종하여 떨어지는 소행성을 피하는 터미널 기반 게임:"
       },
       {
         "row": 5,
-        "rowsha": "KqPR0jn7srim8oPXdIZxb/aDqHWwtIG6Ka5Jei6yqMU=",
-        "originContent": "A collection of C programming projects designed for beginners to learn and practice various programming concepts, from basic algorithms to network programming. Each project is self-contained and includes its own documentation and build system.",
-        "translatedContent": "초보자가 다양한 프로그래밍 개념을 배우고 연습할 수 있도록 설계된 C 프로그래밍 프로젝트 모음으로, 기본 알고리즘부터 네트워크 프로그래밍까지 포함합니다. 각 프로젝트는 독립적이며 자체 문서와 빌드 시스템을 포함합니다."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "fzeQzB/Aadif247HKN5EADSGHTb4EN6IW87F1RzwfJw=",
+        "originContent": "- Game state management",
+        "translatedContent": "- 게임 상태 관리"
       },
       {
         "row": 7,
-        "rowsha": "KzbgdFOymRyMwPJYcrqjCq5lUJLBdnAV3q1dw90QMCo=",
-        "originContent": "## Projects Overview",
-        "translatedContent": "## 프로젝트 개요"
+        "rowsha": "C+Fyh1qMpoz88pXjZk2jbjLQqjr4UAXOme6N7iK4Yqk=",
+        "originContent": "- User input handling",
+        "translatedContent": "- 사용자 입력 처리"
       },
       {
         "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "NQ5SaGaSxehS9sk3C7Bs+tlzvWjkpyVnE2AgPyW1mxE=",
+        "originContent": "- Terminal-based graphics",
+        "translatedContent": "- 터미널 기반 그래픽"
       },
       {
         "row": 9,
-        "rowsha": "j2v+ISzDiKa9eZ7eo+0Ycv/l1Yoi3eSg/nD+NEtBxrQ=",
-        "originContent": "### 1. [SHA-512 Implementation](SHA-512/)",
-        "translatedContent": "### 1. [SHA-512 구현](SHA-512/)"
+        "rowsha": "5GbuUW71qCK3auT4q9jhxgFts2IpD+8od9kkdqtzvCY=",
+        "originContent": "- Real-time gameplay mechanics",
+        "translatedContent": "- 실시간 게임플레이 메커니즘"
       },
       {
         "row": 10,
-        "rowsha": "CSe3R+eGOWV9E7SqMlfX0s4CcVU38fAbwKoiWSId1y4=",
-        "originContent": "A cryptographic hash function implementation that demonstrates:",
-        "translatedContent": "다음 내용을 보여주는 암호학적 해시 함수 구현:"
+        "rowsha": "Jmumk1IIN0wI6efCt5zkdDKtKxDuVVspsRnTNFIwFiU=",
+        "originContent": "- Simple collision detection",
+        "translatedContent": "- 간단한 충돌 감지"
       },
       {
         "row": 11,
-        "rowsha": "vqDmYyeMwVkGqOQcnpvaa8RlUDvoTklKonVjw3OtB3U=",
-        "originContent": "- Bit manipulation",
-        "translatedContent": "- 비트 조작"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 12,
-        "rowsha": "+uE7sGSH+QUbbVo3L2gq2cCr3x4rAexcnouYbVxeK14=",
-        "originContent": "- Complex algorithms",
-        "translatedContent": "- 복잡한 알고리즘"
+        "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+        "originContent": "## Getting Started",
+        "translatedContent": "## 시작하기"
       },
       {
         "row": 13,
-        "rowsha": "oO45dYs+LxBFr0CFQcwOtoIx22Lpn7/bwms9KhkUU4g=",
-        "originContent": "- Memory management",
-        "translatedContent": "- 메모리 관리"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 14,
-        "rowsha": "a30Cj8pv9QYvhTd7MqBLWiRM/H/gTNXO13mQ5U9TgjI=",
-        "originContent": "- File I/O operations",
-        "translatedContent": "- 파일 입출력 작업"
+        "rowsha": "vuhi0a1ZSoOD5HoGwGkeccrVT01bzSK8A51umFU68rA=",
+        "originContent": "Each project in this repository is designed to be self-contained and includes:",
+        "translatedContent": "이 저장소의 각 프로젝트는 독립적으로 구성되어 있으며 다음을 포함합니다:"
       },
       {
         "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "3lSymsVK7pBozoV4fDl4Xia6jbTBvwV0ngBYluxQWpc=",
+        "originContent": "- Source code",
+        "translatedContent": "- 소스 코드"
       },
       {
         "row": 16,
-        "rowsha": "g80nFWfZ7uVu2Li599ctWvykinbTqGhrl1wHXfC5qt0=",
-        "originContent": "### 2. [HTTP Server](http-server/)",
-        "translatedContent": "### 2. [HTTP 서버](http-server/)"
+        "rowsha": "OyTmgwkCK1QNeNa1zBoiTe4k6gzWUYt3LoH62KwEboQ=",
+        "originContent": "- Makefile or CMake configuration",
+        "translatedContent": "- Makefile 또는 CMake 구성"
       },
       {
         "row": 17,
-        "rowsha": "qorh+wsxNFzJ2t+rhjvxDYteibAfVLfLW9wuIeCJ1w8=",
-        "originContent": "A basic HTTP server implementation that covers:",
-        "translatedContent": "다음을 다루는 기본 HTTP 서버 구현:"
+        "rowsha": "jkx7IeeyyZ4MkeDVtJRbQXW+gu7T2y9CuujhZK63o0I=",
+        "originContent": "- README with build and usage instructions",
+        "translatedContent": "- 빌드 및 사용법이 포함된 README"
       },
       {
         "row": 18,
-        "rowsha": "RFgAXxX8iA6wwAchIEXg6PeuqLttIS+AhBVlEg6AMx0=",
-        "originContent": "- Socket programming",
-        "translatedContent": "- 소켓 프로그래밍"
+        "rowsha": "Ppl2xes3JFb9y5ExSC7pmJ7kytdoLb04EMQZVmwTpOk=",
+        "originContent": "- Implementation details",
+        "translatedContent": "- 구현 세부사항"
       },
       {
         "row": 19,
-        "rowsha": "Kl/tqg2msIeU2cFbZG5+Rwb12PctvZdkqmA5lZaC6DE=",
-        "originContent": "- HTTP protocol basics",
-        "translatedContent": "- HTTP 프로토콜 기초"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 20,
-        "rowsha": "F86DFoky1BXZGF+AbTL2G3+ip4CDKyw2LR7W5wvkDh0=",
-        "originContent": "- File serving",
-        "translatedContent": "- 파일 서빙"
+        "rowsha": "dCFfgU3zK5vdA3tG9BXZX7QOczBncPD+QiGWalAEs24=",
+        "originContent": "To get started with any project:",
+        "translatedContent": "어떤 프로젝트든 시작하려면:"
       },
       {
         "row": 21,
-        "rowsha": "i+j/UIIWx715sWRL3grio12DQYDCaRifG/ODYJvRYvY=",
-        "originContent": "- Network communication",
-        "translatedContent": "- 네트워크 통신"
+        "rowsha": "i09YkmChhu6lQnvvJHRhagbZSFM3ab1vpCsQGBsYLQ8=",
+        "originContent": "1. Navigate to the project directory",
+        "translatedContent": "1. 프로젝트 디렉터리로 이동"
       },
       {
         "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "Y8gX7Y67qbhBu4oIgFBUlugTXoMD/AUIOh+eGMA8Plw=",
+        "originContent": "2. Read the project's README.md",
+        "translatedContent": "2. 해당 프로젝트의 README.md 읽기"
       },
       {
         "row": 23,
-        "rowsha": "PxukZU0bt1kTQwgod33MvnnUm0sIilylrqxCL3gLxPs=",
-        "originContent": "### 3. [UDP Server-Client](udp-server-client/)",
-        "translatedContent": "### 3. [UDP 서버-클라이언트](udp-server-client/)"
+        "rowsha": "u7Qpt+DVCtNwgnXb4mJLpDaJEU+GLRxFhfJLy0E4KXc=",
+        "originContent": "3. Follow the build instructions",
+        "translatedContent": "3. 빌드 지침 따르기"
       },
       {
         "row": 24,
-        "rowsha": "ZjcFxMPp0LCrlvKRokB/6HeYF4I9a2PlxYz0gO0Y9M4=",
-        "originContent": "A simple UDP-based communication system that teaches:",
-        "translatedContent": "다음을 가르치는 간단한 UDP 기반 통신 시스템:"
+        "rowsha": "Hy2Zj94VCKgK78MzUkwIZ1T+dvpi1tlV01DOfH5+KAE=",
+        "originContent": "4. Run the program as described",
+        "translatedContent": "4. 안내된 대로 프로그램 실행"
       },
       {
         "row": 25,
-        "rowsha": "yvgaGHDcKTCFDp0zVpAc5QN1b8ldqLdFDBExcB1QhIQ=",
-        "originContent": "- UDP socket programming",
-        "translatedContent": "- UDP 소켓 프로그래밍"
-      },
-      {
-        "row": 26,
-        "rowsha": "CmSt2hGR/+dxovElYGxSSxkaMJG7pfC3Qav0GL4wDKk=",
-        "originContent": "- Client-server architecture",
-        "translatedContent": "- 클라이언트-서버 아키텍처"
-      },
-      {
-        "row": 27,
-        "rowsha": "iFqipnTD87W6SOH/caIngwgfPDuUPk5d3YWU4OaTCb8=",
-        "originContent": "- Network protocols",
-        "translatedContent": "- 네트워크 프로토콜"
-      },
-      {
-        "row": 28,
-        "rowsha": "GnYwUDIWpV2uxJW23Gjfoaq1Fnia5hPUp4NFpyNylZQ=",
-        "originContent": "- Message exchange",
-        "translatedContent": "- 메시지 교환"
-      },
-      {
-        "row": 29,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 26,
+        "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+        "originContent": "## Prerequisites",
+        "translatedContent": "## 사전 요구사항"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "nnul39GaSrQOvx+/c1CJD79J/RffM87Z3se5jW+fW28=",
+        "originContent": "- GCC compiler (for C projects)",
+        "translatedContent": "- GCC 컴파일러(C 프로젝트용)"
+      },
+      {
+        "row": 29,
+        "rowsha": "8OB81f/74TAT2eP1MfWdmA0aMqYnwcmWTeV307ML69A=",
+        "originContent": "- G++ compiler (for C++ projects)",
+        "translatedContent": "- G++ 컴파일러(C++ 프로젝트용)"
+      },
+      {
         "row": 30,
-        "rowsha": "ni7EhcM1aj4T1LhHVbuUa5oLm0y3ZUnEkK3GnATJ0kI=",
-        "originContent": "### 4. [Port Scanner](port-scanner/)",
-        "translatedContent": "### 4. [포트 스캐너](port-scanner/)"
+        "rowsha": "u6sjPgAofR4vDLay+aFkmkEMv0t1NEQU2FiMb7Pk/AM=",
+        "originContent": "- Make utility",
+        "translatedContent": "- Make 유틸리티"
       },
       {
         "row": 31,
-        "rowsha": "bTFv9q0ag1AgIFxpWOl9VxFnsq9myTlYpARAmVuFQb0=",
-        "originContent": "A network diagnostic tool that demonstrates:",
-        "translatedContent": "다음을 보여주는 네트워크 진단 도구:"
+        "rowsha": "YtZBcM7gHQMOJ7MRqnzFJnizswK1VqAHX8GqFrG+DYc=",
+        "originContent": "- CMake (for C/C++ projects)",
+        "translatedContent": "- CMake (C/C++ 프로젝트용)"
       },
       {
         "row": 32,
-        "rowsha": "1TMoPcoOh/LZ6GZ9XC/3iwbvGD1ilm+RaCYcnE53978=",
-        "originContent": "- TCP socket programming",
-        "translatedContent": "- TCP 소켓 프로그래밍"
+        "rowsha": "GxV0/Zcc3negfBroAqwTfFCgLWUM3QR0i+ALoPITfgE=",
+        "originContent": "- Basic understanding of C/C++ programming",
+        "translatedContent": "- C/C++ 프로그래밍에 대한 기본 이해"
       },
       {
         "row": 33,
-        "rowsha": "BpBivglicrUo7fVt/p/aElaLT/pTiOcuRhGsBhKlMyk=",
-        "originContent": "- Network scanning techniques",
-        "translatedContent": "- 네트워크 스캐닝 기술"
+        "rowsha": "ZUjGz4uFy81J3UvTGVN0LS6lwumeEu1Es7WpZiPLBUo=",
+        "originContent": "- For network projects: understanding of basic networking concepts",
+        "translatedContent": "- 네트워크 프로젝트의 경우: 기본 네트워킹 개념의 이해"
       },
       {
         "row": 34,
-        "rowsha": "zIF2/8s/KGmLqwoDNwPuGDGt1DFArlv7GdKrCbyhGL8=",
-        "originContent": "- Error handling",
-        "translatedContent": "- 오류 처리"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 35,
-        "rowsha": "fQbmttlQRnNxmufak/ccqifey8xatRfDjo1JmU7oozM=",
-        "originContent": "- Command-line argument parsing",
-        "translatedContent": "- 명령줄 인자 파싱"
+        "rowsha": "OfVNszQt0XrpIp/FwWQMHn0z287V+7B5fqtdxPw997I=",
+        "originContent": "## Recommended Book",
+        "translatedContent": "## 추천 도서"
       },
       {
         "row": 36,
@@ -227,39 +840,39 @@
       },
       {
         "row": 37,
-        "rowsha": "9N12413w4DHGvitzNs7MxxKnlA4Zf6v9qxOq9Q8HtNc=",
-        "originContent": "### 5. [Ping Implementation](ping/)",
-        "translatedContent": "### 5. [핑 구현](ping/)"
+        "rowsha": "feirgcMKvRuV9oLGe45s9ukVs5ZRXsgjS54/JnKEgL0=",
+        "originContent": "To get started with C programming, I recommend this comprehensive book:",
+        "translatedContent": "C 프로그래밍을 시작하려면 이 포괄적인 책을 추천합니다:"
       },
       {
         "row": 38,
-        "rowsha": "pzK4bLRsFYoCed98ZBNDv3udUAt8Azk7Fw+wgc0uDa8=",
-        "originContent": "A custom ping utility that covers:",
-        "translatedContent": "다음을 다루는 맞춤형 핑 유틸리티:"
+        "rowsha": "blvNt5qlniAlEIhjaGGvIStjEsouBf4gGpmpLAwFQI4=",
+        "originContent": "[The C Programming Language](https://amzn.to/3F2Y1Zl) - A must-have resource for learning C programming fundamentals and best practices.",
+        "translatedContent": "[The C Programming Language](https://amzn.to/3F2Y1Zl) - C 프로그래밍의 기초와 모범 사례를 배우는 데 필수적인 자료입니다."
       },
       {
         "row": 39,
-        "rowsha": "RrYB/xgLtmIzfvwNKqnvhuoYDFM0Kxo6YCIzn42Rs00=",
-        "originContent": "- ICMP protocol",
-        "translatedContent": "- ICMP 프로토콜"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 40,
-        "rowsha": "m05u0ft7ToxegXbyW4XlCzA10eXmH8fSWM1dhMkLlS8=",
-        "originContent": "- Raw socket programming",
-        "translatedContent": "- 로우 소켓 프로그래밍"
+        "rowsha": "ZDdLE/srmuXBR3Cfuz3Xr9tIrTrbuUzWZ4lEgyQ5YW4=",
+        "originContent": "## Learning Path",
+        "translatedContent": "## 학습 경로"
       },
       {
         "row": 41,
-        "rowsha": "/d9NCtJU5DvQIgSibkIkgqL8rsg+77SGPoshbB8XY3k=",
-        "originContent": "- Network diagnostics",
-        "translatedContent": "- 네트워크 진단"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 42,
-        "rowsha": "Uejp0/vRXEeBfbTcDjbbS3GOMg12FpUJBQ6Is7WR2QQ=",
-        "originContent": "- Time measurement",
-        "translatedContent": "- 시간 측정"
+        "rowsha": "zLrFy+/R2Ft0D4cZmok5qIn2bxvaoHk4dfAIcOx2+Yw=",
+        "originContent": "These projects are arranged in order of increasing complexity:",
+        "translatedContent": "이 프로젝트들은 점진적으로 난이도가 높아지도록 배열되어 있습니다:"
       },
       {
         "row": 43,
@@ -269,123 +882,123 @@
       },
       {
         "row": 44,
-        "rowsha": "UhdwPQd/AvB7jRKrT9zjCQaDTjgWGdpjL/3Kzbg61q4=",
-        "originContent": "### 6. [Tic-Tac-Toe](tic-tac-toe/)",
-        "translatedContent": "### 6. [틱택토](tic-tac-toe/)"
+        "rowsha": "ECrdXWVEbuwQ29/jHecnOKKAOeMkRUSsPL0xbrx/gn4=",
+        "originContent": "1. Start with Tic-Tac-Toe for basic programming concepts",
+        "translatedContent": "1. 기본 프로그래밍 개념을 위해 틱택토부터 시작"
       },
       {
         "row": 45,
-        "rowsha": "4kWF+GZ/Y+5GfHfjg4Ihl9L467L26Bz5WCXFBZ5IFfg=",
-        "originContent": "A classic game implementation that teaches:",
-        "translatedContent": "다음을 가르치는 고전 게임 구현:"
+        "rowsha": "QH7hCYWqC3RzdCPj70YzOTlwcIKnT/dSIXTV4S86Wnc=",
+        "originContent": "2. Move to SHA-512 for algorithm implementation",
+        "translatedContent": "2. 알고리즘 구현을 위해 SHA-512로 이동"
       },
       {
         "row": 46,
-        "rowsha": "Hxr4ObDGMQ5MetTDXYwaGExwfZ35vrHTRS4R6wrDWvU=",
-        "originContent": "- Multiplayer game server ",
-        "translatedContent": "- 멀티플레이어 게임 서버"
+        "rowsha": "/SyNCPYImHyd6J6Y06CCJDo/b3BbZsLXfOVEOvZe8k0=",
+        "originContent": "3. Try the UDP Server-Client for basic networking",
+        "translatedContent": "3. 기본 네트워킹을 위해 UDP 서버-클라이언트 시도"
       },
       {
         "row": 47,
-        "rowsha": "88pOE+wrrPiLDjo/TCL1jVuXtJGmeYMBPAHAAQEaRCk=",
-        "originContent": "-Socket programming",
-        "translatedContent": "- 소켓 프로그래밍"
+        "rowsha": "q8KElOIsdYPqAm7vk9NTsjqZcyczVhmRwDM8phQgsmA=",
+        "originContent": "4. Progress to HTTP Server and Chat System for more complex networking",
+        "translatedContent": "4. 보다 복잡한 네트워킹을 위해 HTTP 서버와 채팅 시스템 진행"
       },
       {
         "row": 48,
-        "rowsha": "vXmvdg49httmyomSVPfjHn5d2BCDfVC8ObMGQbL+PeQ=",
-        "originContent": "- Game logic",
-        "translatedContent": "- 게임 로직"
+        "rowsha": "saoc2yTmovnCHMhyrXrzMduOYmqsBFbrxiU2zRmZcNw=",
+        "originContent": "5. Finally, explore Port Scanner and Ping for advanced networking concepts",
+        "translatedContent": "5. 마지막으로 고급 네트워킹 개념을 위해 포트 스캐너와 핑 탐색"
       },
       {
         "row": 49,
-        "rowsha": "C+Fyh1qMpoz88pXjZk2jbjLQqjr4UAXOme6N7iK4Yqk=",
-        "originContent": "- User input handling",
-        "translatedContent": "- 사용자 입력 처리"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 50,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## 기여 안내"
       },
       {
         "row": 51,
-        "rowsha": "CTmtMR6Kf0sLmfizGi3ns0puE6WeyO1TvuQ6o5uG6PA=",
-        "originContent": "### 7. [Chat System](chat-system/)",
-        "translatedContent": "### 7. [채팅 시스템](chat-system/)"
-      },
-      {
-        "row": 52,
-        "rowsha": "5Bh0pFGcjgnskqoZSkMXx/o59C5kpSMCg4JrdJOxcDo=",
-        "originContent": "A real-time chat application that demonstrates:",
-        "translatedContent": "다음을 보여주는 실시간 채팅 애플리케이션:"
-      },
-      {
-        "row": 53,
-        "rowsha": "1TMoPcoOh/LZ6GZ9XC/3iwbvGD1ilm+RaCYcnE53978=",
-        "originContent": "- TCP socket programming",
-        "translatedContent": "- TCP 소켓 프로그래밍"
-      },
-      {
-        "row": 54,
-        "rowsha": "+6cGG+CGoFjJLDE7fgd189czML8QBjTWehqZU460DIs=",
-        "originContent": "- Multi-threading",
-        "translatedContent": "- 멀티스레딩"
-      },
-      {
-        "row": 55,
-        "rowsha": "fBu/MEeAdVwvnrXZV1UHpdGbVyj10SQp+T2JjP0rT3c=",
-        "originContent": "- Real-time communication",
-        "translatedContent": "- 실시간 통신"
-      },
-      {
-        "row": 56,
-        "rowsha": "CmSt2hGR/+dxovElYGxSSxkaMJG7pfC3Qav0GL4wDKk=",
-        "originContent": "- Client-server architecture",
-        "translatedContent": "- 클라이언트-서버 아키텍처"
-      },
-      {
-        "row": 57,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 52,
+        "rowsha": "gFetMMHtgOzgoGzOoWoC1t0uONpOfuW5Ae4Qvza/IY8=",
+        "originContent": "Feel free to:",
+        "translatedContent": "다음과 같은 활동을 자유롭게 하세요:"
+      },
+      {
+        "row": 53,
+        "rowsha": "wcwSGchEh/YlQ7cW0UoEFEkRRVQHUylYKd0CFi2M3P0=",
+        "originContent": "- Report bugs",
+        "translatedContent": "- 버그 신고"
+      },
+      {
+        "row": 54,
+        "rowsha": "0RYFMerwf7bi61RcTqo2OryVKBpdCO1V6a0fYdijHSI=",
+        "originContent": "- Suggest improvements",
+        "translatedContent": "- 개선 사항 제안"
+      },
+      {
+        "row": 55,
+        "rowsha": "eMzK/M7OHAwYOMWAxkiVu87pOeTOE6VfN9ZZKIEH4nU=",
+        "originContent": "- Add new features",
+        "translatedContent": "- 새로운 기능 추가"
+      },
+      {
+        "row": 56,
+        "rowsha": "KBwJiwZpCAKgm21/RHebYUgycJ9JQA7SmMBfUgealA8=",
+        "originContent": "- Create new projects",
+        "translatedContent": "- 새로운 프로젝트 생성"
+      },
+      {
+        "row": 57,
+        "rowsha": "dGgSPe4NCKMYJDQeFBihgL8m5xtWrc7nQTszjNf+I4M=",
+        "originContent": "- Improve documentation",
+        "translatedContent": "- 문서 개선"
+      },
+      {
         "row": 58,
-        "rowsha": "3ygi+Xz2EpjDis7bAqBzu+Fij1EekYsZokUDSOnrbZM=",
-        "originContent": "### 8. [Lexical Analyzer](lexical-analyser/)",
-        "translatedContent": "### 8. [렉시컬 분석기](lexical-analyser/)"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 59,
-        "rowsha": "Qp6DpJUXG87VlLwSMRIZuc9astD23TNtsRoNrbIBBYE=",
-        "originContent": "A simple compiler front-end component that demonstrates:",
-        "translatedContent": "다음을 보여주는 간단한 컴파일러 프론트엔드 구성요소:"
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 라이선스"
       },
       {
         "row": 60,
-        "rowsha": "TmqCzSDHniRAO9pcnpWPFKlQLEGg6KX0MNvOmQS2LSg=",
-        "originContent": "- Tokenization of source code",
-        "translatedContent": "- 소스 코드 토큰화"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 61,
-        "rowsha": "1oiP0YEBeye8brlY/AQMrPPBDM4847iCbK9d4UaOLNI=",
-        "originContent": "- Parsing techniques",
-        "translatedContent": "- 파싱 기법"
+        "rowsha": "SkGDkEg5uThW6+17HcebRShOcoaBQQCtzsFB/Tz05Nw=",
+        "originContent": "This project is open source and available for learning purposes.",
+        "translatedContent": "이 프로젝트는 오픈 소스이며 학습 목적으로 제공됩니다."
       },
       {
         "row": 62,
-        "rowsha": "g8UGmz/gbetuGUv7EgduPrcxJ9/8O1suOnK15ZykCdc=",
-        "originContent": "- Compiler design principles",
-        "translatedContent": "- 컴파일러 설계 원칙"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 63,
-        "rowsha": "3ekpaoHb/kSQ/EInpLB0jGZgdI2A2Om8IWGSkxwKReY=",
-        "originContent": "- String manipulation",
-        "translatedContent": "- 문자열 조작"
+        "rowsha": "VYQvUTBNlrg7S7O5MUfgs2AFM5VCFr7AjtAep+bJRBw=",
+        "originContent": "## Note",
+        "translatedContent": "## 참고"
       },
       {
         "row": 64,
@@ -395,439 +1008,12 @@
       },
       {
         "row": 65,
-        "rowsha": "E5SKwx7Jwir4hKoKHo2oZUOReI14+jQv0/r32TfsdzI=",
-        "originContent": "### 9. [Arithmetic Compiler](arithmetic-compiler/)",
-        "translatedContent": "### 9. [산술 컴파일러](arithmetic-compiler/)"
+        "rowsha": "LoF7N+Ihme5mO8O8hqvR5wW1VJhzjB/lAzV06yi8fEQ=",
+        "originContent": "Some network-related projects (Port Scanner, Ping) require root/administrator privileges to run due to the use of raw sockets. Always use these tools responsibly and only on networks you have permission to test. ",
+        "translatedContent": "일부 네트워크 관련 프로젝트(포트 스캐너, 핑)는 raw 소켓 사용으로 인해 루트/관리자 권한이 필요할 수 있습니다. 항상 이러한 도구를 책임감 있게 사용하고, 테스트 허가를 받은 네트워크에서만 사용하세요."
       },
       {
         "row": 66,
-        "rowsha": "6mW3fRyMZfiL0mpX0yUWKUDN/BH4n1wt/wkParDA8SE=",
-        "originContent": "A simple compiler that takes arithmetic expressions as input and generates assembly-like code:",
-        "translatedContent": "산술식을 입력받아 어셈블리 유사 코드를 생성하는 간단한 컴파일러:"
-      },
-      {
-        "row": 67,
-        "rowsha": "s8GzX2lwHjDBqQWFDVaU5l1YYChzLBReUyQ6n8BXBHY=",
-        "originContent": "- Lexical analysis (tokenization)",
-        "translatedContent": "- 렉시컬 분석(토큰화)"
-      },
-      {
-        "row": 68,
-        "rowsha": "0I0bOXjHenr/0SHFCdE8FbS0YHgrv8eQsOe3uxonjb4=",
-        "originContent": "- Parsing and evaluation of expressions",
-        "translatedContent": "- 식 파싱 및 평가"
-      },
-      {
-        "row": 69,
-        "rowsha": "qsHv05AZzA4jZm5mSZkdJS0FLVdgbQPFGixNUyoLO3w=",
-        "originContent": "- Assembly code generation",
-        "translatedContent": "- 어셈블리 코드 생성"
-      },
-      {
-        "row": 70,
-        "rowsha": "Y++sYKVAN/+4ff3xsKMFi9Y4jaNU2zWF2jHrco3HBck=",
-        "originContent": "- Compiler construction fundamentals",
-        "translatedContent": "- 컴파일러 구축 기본"
-      },
-      {
-        "row": 71,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 72,
-        "rowsha": "7w9qwIXd6IqMum/C7yOooZF4I0JrmFIswj7D0KjKofs=",
-        "originContent": "### 10. [Asteroid Game](asteroid-game/)",
-        "translatedContent": "### 10. [소행성 게임](asteroid-game/)"
-      },
-      {
-        "row": 73,
-        "rowsha": "va0Bf3A99YrrMIrqOPgi8QdnWVAnPXlDP0FGk6gC+zs=",
-        "originContent": "A terminal-based game where you control a ship to avoid falling asteroids:",
-        "translatedContent": "우주선을 조종하여 떨어지는 소행성을 피하는 터미널 기반 게임:"
-      },
-      {
-        "row": 74,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 75,
-        "rowsha": "fzeQzB/Aadif247HKN5EADSGHTb4EN6IW87F1RzwfJw=",
-        "originContent": "- Game state management",
-        "translatedContent": "- 게임 상태 관리"
-      },
-      {
-        "row": 76,
-        "rowsha": "C+Fyh1qMpoz88pXjZk2jbjLQqjr4UAXOme6N7iK4Yqk=",
-        "originContent": "- User input handling",
-        "translatedContent": "- 사용자 입력 처리"
-      },
-      {
-        "row": 77,
-        "rowsha": "NQ5SaGaSxehS9sk3C7Bs+tlzvWjkpyVnE2AgPyW1mxE=",
-        "originContent": "- Terminal-based graphics",
-        "translatedContent": "- 터미널 기반 그래픽"
-      },
-      {
-        "row": 78,
-        "rowsha": "5GbuUW71qCK3auT4q9jhxgFts2IpD+8od9kkdqtzvCY=",
-        "originContent": "- Real-time gameplay mechanics",
-        "translatedContent": "- 실시간 게임플레이 메커니즘"
-      },
-      {
-        "row": 79,
-        "rowsha": "Jmumk1IIN0wI6efCt5zkdDKtKxDuVVspsRnTNFIwFiU=",
-        "originContent": "- Simple collision detection",
-        "translatedContent": "- 간단한 충돌 감지"
-      },
-      {
-        "row": 80,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 81,
-        "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
-        "originContent": "## Getting Started",
-        "translatedContent": "## 시작하기"
-      },
-      {
-        "row": 82,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 83,
-        "rowsha": "vuhi0a1ZSoOD5HoGwGkeccrVT01bzSK8A51umFU68rA=",
-        "originContent": "Each project in this repository is designed to be self-contained and includes:",
-        "translatedContent": "이 저장소의 각 프로젝트는 독립적으로 설계되었으며 다음을 포함합니다:"
-      },
-      {
-        "row": 84,
-        "rowsha": "3lSymsVK7pBozoV4fDl4Xia6jbTBvwV0ngBYluxQWpc=",
-        "originContent": "- Source code",
-        "translatedContent": "- 소스 코드"
-      },
-      {
-        "row": 85,
-        "rowsha": "OyTmgwkCK1QNeNa1zBoiTe4k6gzWUYt3LoH62KwEboQ=",
-        "originContent": "- Makefile or CMake configuration",
-        "translatedContent": "- Makefile 또는 CMake 구성"
-      },
-      {
-        "row": 86,
-        "rowsha": "jkx7IeeyyZ4MkeDVtJRbQXW+gu7T2y9CuujhZK63o0I=",
-        "originContent": "- README with build and usage instructions",
-        "translatedContent": "- 빌드 및 사용법 안내가 포함된 README"
-      },
-      {
-        "row": 87,
-        "rowsha": "Ppl2xes3JFb9y5ExSC7pmJ7kytdoLb04EMQZVmwTpOk=",
-        "originContent": "- Implementation details",
-        "translatedContent": "- 구현 세부사항"
-      },
-      {
-        "row": 88,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 89,
-        "rowsha": "dCFfgU3zK5vdA3tG9BXZX7QOczBncPD+QiGWalAEs24=",
-        "originContent": "To get started with any project:",
-        "translatedContent": "어떤 프로젝트든 시작하려면:"
-      },
-      {
-        "row": 90,
-        "rowsha": "i09YkmChhu6lQnvvJHRhagbZSFM3ab1vpCsQGBsYLQ8=",
-        "originContent": "1. Navigate to the project directory",
-        "translatedContent": "1. 프로젝트 디렉터리로 이동"
-      },
-      {
-        "row": 91,
-        "rowsha": "Y8gX7Y67qbhBu4oIgFBUlugTXoMD/AUIOh+eGMA8Plw=",
-        "originContent": "2. Read the project's README.md",
-        "translatedContent": "2. 프로젝트의 README.md 읽기"
-      },
-      {
-        "row": 92,
-        "rowsha": "u7Qpt+DVCtNwgnXb4mJLpDaJEU+GLRxFhfJLy0E4KXc=",
-        "originContent": "3. Follow the build instructions",
-        "translatedContent": "3. 빌드 지침 따르기"
-      },
-      {
-        "row": 93,
-        "rowsha": "Hy2Zj94VCKgK78MzUkwIZ1T+dvpi1tlV01DOfH5+KAE=",
-        "originContent": "4. Run the program as described",
-        "translatedContent": "4. 설명대로 프로그램 실행"
-      },
-      {
-        "row": 94,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 95,
-        "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
-        "originContent": "## Prerequisites",
-        "translatedContent": "## 필수 조건"
-      },
-      {
-        "row": 96,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 97,
-        "rowsha": "nnul39GaSrQOvx+/c1CJD79J/RffM87Z3se5jW+fW28=",
-        "originContent": "- GCC compiler (for C projects)",
-        "translatedContent": "- GCC 컴파일러 (C 프로젝트용)"
-      },
-      {
-        "row": 98,
-        "rowsha": "8OB81f/74TAT2eP1MfWdmA0aMqYnwcmWTeV307ML69A=",
-        "originContent": "- G++ compiler (for C++ projects)",
-        "translatedContent": "- G++ 컴파일러 (C++ 프로젝트용)"
-      },
-      {
-        "row": 99,
-        "rowsha": "u6sjPgAofR4vDLay+aFkmkEMv0t1NEQU2FiMb7Pk/AM=",
-        "originContent": "- Make utility",
-        "translatedContent": "- Make 유틸리티"
-      },
-      {
-        "row": 100,
-        "rowsha": "YtZBcM7gHQMOJ7MRqnzFJnizswK1VqAHX8GqFrG+DYc=",
-        "originContent": "- CMake (for C/C++ projects)",
-        "translatedContent": "- CMake (C/C++ 프로젝트용)"
-      }
-    ],
-    "IsCodeBlock": false
-  },
-  {
-    "Id": 2,
-    "Content": "- Basic understanding of C/C++ programming\n- For network projects: understanding of basic networking concepts\n\n## Recommended Book\n\nTo get started with C programming, I recommend this comprehensive book:\n[The C Programming Language](https://amzn.to/3F2Y1Zl) - A must-have resource for learning C programming fundamentals and best practices.\n\n## Learning Path\n\nThese projects are arranged in order of increasing complexity:\n\n1. Start with Tic-Tac-Toe for basic programming concepts\n2. Move to SHA-512 for algorithm implementation\n3. Try the UDP Server-Client for basic networking\n4. Progress to HTTP Server and Chat System for more complex networking\n5. Finally, explore Port Scanner and Ping for advanced networking concepts\n\n## Contributing\n\nFeel free to:\n- Report bugs\n- Suggest improvements\n- Add new features\n- Create new projects\n- Improve documentation\n\n## License\n\nThis project is open source and available for learning purposes.\n\n## Note\n\nSome network-related projects (Port Scanner, Ping) require root/administrator privileges to run due to the use of raw sockets. Always use these tools responsibly and only on networks you have permission to test. \n",
-    "ContentSha": "uinp8psfMpktsetPlZOFjKmnZDWMvQQSezX7ZrB6chs=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "- C/C++ 프로그래밍 기본 이해  \n- 네트워크 프로젝트의 경우: 기본 네트워킹 개념 이해  \n\n## 추천 도서  \n\nC 프로그래밍을 시작하려면 이 포괄적인 책을 추천합니다:  \n[The C Programming Language](https://amzn.to/3F2Y1Zl) - C 프로그래밍의 기본과 모범 사례를 배우기 위한 필수 자료입니다.  \n\n## 학습 경로  \n\n이 프로젝트들은 난이도 순으로 배열되어 있습니다:  \n\n1. 기본 프로그래밍 개념을 위한 틱택토부터 시작  \n2. 알고리즘 구현을 위한 SHA-512로 이동  \n3. 기본 네트워킹을 위한 UDP 서버-클라이언트 시도  \n4. 더 복잡한 네트워킹을 위한 HTTP 서버 및 채팅 시스템으로 진행  \n5. 마지막으로 고급 네트워킹 개념을 위한 포트 스캐너 및 핑 탐색  \n\n## 기여  \n\n언제든지 다음을 해주세요:  \n- 버그 신고  \n- 개선 사항 제안  \n- 새로운 기능 추가  \n- 새로운 프로젝트 생성  \n- 문서 개선  \n\n## 라이선스  \n\n이 프로젝트는 오픈 소스이며 학습 목적으로 제공됩니다.  \n\n## 주의  \n\n일부 네트워크 관련 프로젝트(포트 스캐너, 핑)는 원시 소켓 사용으로 인해 루트/관리자 권한이 필요합니다. 항상 이러한 도구를 책임감 있게 사용하고, 허가받은 네트워크에서만 테스트하세요.  \n",
-    "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "GxV0/Zcc3negfBroAqwTfFCgLWUM3QR0i+ALoPITfgE=",
-        "originContent": "- Basic understanding of C/C++ programming",
-        "translatedContent": "- C/C++ 프로그래밍 기본 이해  "
-      },
-      {
-        "row": 2,
-        "rowsha": "ZUjGz4uFy81J3UvTGVN0LS6lwumeEu1Es7WpZiPLBUo=",
-        "originContent": "- For network projects: understanding of basic networking concepts",
-        "translatedContent": "- 네트워크 프로젝트의 경우: 기본 네트워킹 개념 이해  "
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "OfVNszQt0XrpIp/FwWQMHn0z287V+7B5fqtdxPw997I=",
-        "originContent": "## Recommended Book",
-        "translatedContent": "## 추천 도서  "
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "feirgcMKvRuV9oLGe45s9ukVs5ZRXsgjS54/JnKEgL0=",
-        "originContent": "To get started with C programming, I recommend this comprehensive book:",
-        "translatedContent": "C 프로그래밍을 시작하려면 이 포괄적인 책을 추천합니다:  "
-      },
-      {
-        "row": 7,
-        "rowsha": "blvNt5qlniAlEIhjaGGvIStjEsouBf4gGpmpLAwFQI4=",
-        "originContent": "[The C Programming Language](https://amzn.to/3F2Y1Zl) - A must-have resource for learning C programming fundamentals and best practices.",
-        "translatedContent": "[The C Programming Language](https://amzn.to/3F2Y1Zl) - C 프로그래밍의 기본과 모범 사례를 배우기 위한 필수 자료입니다.  "
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "ZDdLE/srmuXBR3Cfuz3Xr9tIrTrbuUzWZ4lEgyQ5YW4=",
-        "originContent": "## Learning Path",
-        "translatedContent": "## 학습 경로  "
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "zLrFy+/R2Ft0D4cZmok5qIn2bxvaoHk4dfAIcOx2+Yw=",
-        "originContent": "These projects are arranged in order of increasing complexity:",
-        "translatedContent": "이 프로젝트들은 난이도 순으로 배열되어 있습니다:  "
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "ECrdXWVEbuwQ29/jHecnOKKAOeMkRUSsPL0xbrx/gn4=",
-        "originContent": "1. Start with Tic-Tac-Toe for basic programming concepts",
-        "translatedContent": "1. 기본 프로그래밍 개념을 위한 틱택토부터 시작  "
-      },
-      {
-        "row": 14,
-        "rowsha": "QH7hCYWqC3RzdCPj70YzOTlwcIKnT/dSIXTV4S86Wnc=",
-        "originContent": "2. Move to SHA-512 for algorithm implementation",
-        "translatedContent": "2. 알고리즘 구현을 위한 SHA-512로 이동  "
-      },
-      {
-        "row": 15,
-        "rowsha": "/SyNCPYImHyd6J6Y06CCJDo/b3BbZsLXfOVEOvZe8k0=",
-        "originContent": "3. Try the UDP Server-Client for basic networking",
-        "translatedContent": "3. 기본 네트워킹을 위한 UDP 서버-클라이언트 시도  "
-      },
-      {
-        "row": 16,
-        "rowsha": "q8KElOIsdYPqAm7vk9NTsjqZcyczVhmRwDM8phQgsmA=",
-        "originContent": "4. Progress to HTTP Server and Chat System for more complex networking",
-        "translatedContent": "4. 더 복잡한 네트워킹을 위한 HTTP 서버 및 채팅 시스템으로 진행  "
-      },
-      {
-        "row": 17,
-        "rowsha": "saoc2yTmovnCHMhyrXrzMduOYmqsBFbrxiU2zRmZcNw=",
-        "originContent": "5. Finally, explore Port Scanner and Ping for advanced networking concepts",
-        "translatedContent": "5. 마지막으로 고급 네트워킹 개념을 위한 포트 스캐너 및 핑 탐색  "
-      },
-      {
-        "row": 18,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 19,
-        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
-        "originContent": "## Contributing",
-        "translatedContent": "## 기여  "
-      },
-      {
-        "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 21,
-        "rowsha": "gFetMMHtgOzgoGzOoWoC1t0uONpOfuW5Ae4Qvza/IY8=",
-        "originContent": "Feel free to:",
-        "translatedContent": "언제든지 다음을 해주세요:  "
-      },
-      {
-        "row": 22,
-        "rowsha": "wcwSGchEh/YlQ7cW0UoEFEkRRVQHUylYKd0CFi2M3P0=",
-        "originContent": "- Report bugs",
-        "translatedContent": "- 버그 신고  "
-      },
-      {
-        "row": 23,
-        "rowsha": "0RYFMerwf7bi61RcTqo2OryVKBpdCO1V6a0fYdijHSI=",
-        "originContent": "- Suggest improvements",
-        "translatedContent": "- 개선 사항 제안  "
-      },
-      {
-        "row": 24,
-        "rowsha": "eMzK/M7OHAwYOMWAxkiVu87pOeTOE6VfN9ZZKIEH4nU=",
-        "originContent": "- Add new features",
-        "translatedContent": "- 새로운 기능 추가  "
-      },
-      {
-        "row": 25,
-        "rowsha": "KBwJiwZpCAKgm21/RHebYUgycJ9JQA7SmMBfUgealA8=",
-        "originContent": "- Create new projects",
-        "translatedContent": "- 새로운 프로젝트 생성  "
-      },
-      {
-        "row": 26,
-        "rowsha": "dGgSPe4NCKMYJDQeFBihgL8m5xtWrc7nQTszjNf+I4M=",
-        "originContent": "- Improve documentation",
-        "translatedContent": "- 문서 개선  "
-      },
-      {
-        "row": 27,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 28,
-        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
-        "originContent": "## License",
-        "translatedContent": "## 라이선스  "
-      },
-      {
-        "row": 29,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 30,
-        "rowsha": "SkGDkEg5uThW6+17HcebRShOcoaBQQCtzsFB/Tz05Nw=",
-        "originContent": "This project is open source and available for learning purposes.",
-        "translatedContent": "이 프로젝트는 오픈 소스이며 학습 목적으로 제공됩니다.  "
-      },
-      {
-        "row": 31,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 32,
-        "rowsha": "VYQvUTBNlrg7S7O5MUfgs2AFM5VCFr7AjtAep+bJRBw=",
-        "originContent": "## Note",
-        "translatedContent": "## 주의  "
-      },
-      {
-        "row": 33,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 34,
-        "rowsha": "LoF7N+Ihme5mO8O8hqvR5wW1VJhzjB/lAzV06yi8fEQ=",
-        "originContent": "Some network-related projects (Port Scanner, Ping) require root/administrator privileges to run due to the use of raw sockets. Always use these tools responsibly and only on networks you have permission to test. ",
-        "translatedContent": "일부 네트워크 관련 프로젝트(포트 스캐너, 핑)는 원시 소켓 사용으로 인해 루트/관리자 권한이 필요합니다. 항상 이러한 도구를 책임감 있게 사용하고, 허가받은 네트워크에서만 테스트하세요.  "
-      },
-      {
-        "row": 35,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""

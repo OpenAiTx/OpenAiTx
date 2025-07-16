@@ -1,19 +1,632 @@
 [
   {
     "Id": 1,
-    "Content": "# C Programming Projects Collection\n\n[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)\n\nA collection of C programming projects designed for beginners to learn and practice various programming concepts, from basic algorithms to network programming. Each project is self-contained and includes its own documentation and build system.\n\n## Projects Overview\n\n### 1. [SHA-512 Implementation](SHA-512/)\nA cryptographic hash function implementation that demonstrates:\n- Bit manipulation\n- Complex algorithms\n- Memory management\n- File I/O operations\n\n### 2. [HTTP Server](http-server/)\nA basic HTTP server implementation that covers:\n- Socket programming\n- HTTP protocol basics\n- File serving\n- Network communication\n\n### 3. [UDP Server-Client](udp-server-client/)\nA simple UDP-based communication system that teaches:\n- UDP socket programming\n- Client-server architecture\n- Network protocols\n- Message exchange\n\n### 4. [Port Scanner](port-scanner/)\nA network diagnostic tool that demonstrates:\n- TCP socket programming\n- Network scanning techniques\n- Error handling\n- Command-line argument parsing\n\n### 5. [Ping Implementation](ping/)\nA custom ping utility that covers:\n- ICMP protocol\n- Raw socket programming\n- Network diagnostics\n- Time measurement\n\n### 6. [Tic-Tac-Toe](tic-tac-toe/)\nA classic game implementation that teaches:\n- Multiplayer game server \n-Socket programming\n- Game logic\n- User input handling\n\n### 7. [Chat System](chat-system/)\nA real-time chat application that demonstrates:\n- TCP socket programming\n- Multi-threading\n- Real-time communication\n- Client-server architecture\n\n### 8. [Lexical Analyzer](lexical-analyser/)\nA simple compiler front-end component that demonstrates:\n- Tokenization of source code\n- Parsing techniques\n- Compiler design principles\n- String manipulation\n\n### 9. [Arithmetic Compiler](arithmetic-compiler/)\nA simple compiler that takes arithmetic expressions as input and generates assembly-like code:\n- Lexical analysis (tokenization)\n- Parsing and evaluation of expressions\n- Assembly code generation\n- Compiler construction fundamentals\n\n### 10. [Asteroid Game](asteroid-game/)\nA terminal-based game where you control a ship to avoid falling asteroids:\n\n- Game state management\n- User input handling\n- Terminal-based graphics\n- Real-time gameplay mechanics\n- Simple collision detection\n\n## Getting Started\n\nEach project in this repository is designed to be self-contained and includes:\n- Source code\n- Makefile or CMake configuration\n- README with build and usage instructions\n- Implementation details\n\nTo get started with any project:\n1. Navigate to the project directory\n2. Read the project's README.md\n3. Follow the build instructions\n4. Run the program as described\n\n## Prerequisites\n\n- GCC compiler (for C projects)\n- G++ compiler (for C++ projects)\n- Make utility\n- CMake (for C/C++ projects)",
-    "ContentSha": "1kNavTUcwxCFN3LZsEatVGhbJdtp41K2FKHe9ud+IQQ=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it\">Itapano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# C Programming Projects Collection\n\n[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)\n\nA collection of C programming projects designed for beginners to learn and practice various programming concepts, from basic algorithms to network programming. Each project is self-contained and includes its own documentation and build system.\n\n## Projects Overview\n\n### 1. [SHA-512 Implementation](SHA-512/)\nA cryptographic hash function implementation that demonstrates:\n- Bit manipulation\n- Complex algorithms\n- Memory management\n- File I/O operations\n\n### 2. [HTTP Server](http-server/)\nA basic HTTP server implementation that covers:\n- Socket programming\n- HTTP protocol basics\n- File serving\n- Network communication\n\n### 3. [UDP Server-Client](udp-server-client/)\nA simple UDP-based communication system that teaches:\n- UDP socket programming\n- Client-server architecture\n- Network protocols\n- Message exchange\n\n### 4. [Port Scanner](port-scanner/)\nA network diagnostic tool that demonstrates:\n- TCP socket programming\n- Network scanning techniques\n- Error handling\n- Command-line argument parsing\n\n### 5. [Ping Implementation](ping/)\nA custom ping utility that covers:\n- ICMP protocol\n- Raw socket programming\n- Network diagnostics\n- Time measurement\n\n### 6. [Tic-Tac-Toe](tic-tac-toe/)\nA classic game implementation that teaches:\n- Multiplayer game server \n-Socket programming\n- Game logic\n- User input handling\n\n### 7. [Chat System](chat-system/)\nA real-time chat application that demonstrates:\n- TCP socket programming\n- Multi-threading\n- Real-time communication\n- Client-server architecture\n\n### 8. [Lexical Analyzer](lexical-analyser/)\nA simple compiler front-end component that demonstrates:\n- Tokenization of source code\n- Parsing techniques\n- Compiler design principles\n- String manipulation\n\n### 9. [Arithmetic Compiler](arithmetic-compiler/)\nA simple compiler that takes arithmetic expressions as input and generates assembly-like code:\n- Lexical analysis (tokenization)\n- Parsing and evaluation of expressions\n- Assembly code generation",
+    "ContentSha": "556SlQ6Q89QrIy9pG8uETao1iXn39BO9afI4rimCDSE=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "# C 编程项目合集\n\n[![请我喝杯咖啡](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)\n\n一个为初学者设计的 C 编程项目合集，用于学习和练习各种编程概念，从基础算法到网络编程。每个项目都是独立的，包含自己的文档和构建系统。\n\n## 项目概览\n\n### 1. [SHA-512 实现](SHA-512/)\n一个加密哈希函数实现，展示了：\n- 位操作\n- 复杂算法\n- 内存管理\n- 文件输入输出操作\n\n### 2. [HTTP 服务器](http-server/)\n一个基础的 HTTP 服务器实现，涵盖了：\n- 套接字编程\n- HTTP 协议基础\n- 文件服务\n- 网络通信\n\n### 3. [UDP 服务器-客户端](udp-server-client/)\n一个基于 UDP 的简单通信系统，教学内容包括：\n- UDP 套接字编程\n- 客户端-服务器架构\n- 网络协议\n- 消息交换\n\n### 4. [端口扫描器](port-scanner/)\n一个网络诊断工具，展示了：\n- TCP 套接字编程\n- 网络扫描技术\n- 错误处理\n- 命令行参数解析\n\n### 5. [Ping 实现](ping/)\n一个自定义的 ping 工具，涵盖：\n- ICMP 协议\n- 原始套接字编程\n- 网络诊断\n- 时间测量\n\n### 6. [井字棋](tic-tac-toe/)\n一个经典游戏实现，教学内容包括：\n- 多人游戏服务器\n- 套接字编程\n- 游戏逻辑\n- 用户输入处理\n\n### 7. [聊天系统](chat-system/)\n一个实时聊天应用，展示了：\n- TCP 套接字编程\n- 多线程\n- 实时通信\n- 客户端-服务器架构\n\n### 8. [词法分析器](lexical-analyser/)\n一个简单的编译器前端组件，展示了：\n- 源代码的词法分析\n- 解析技术\n- 编译器设计原理\n- 字符串操作\n\n### 9. [算术编译器](arithmetic-compiler/)\n一个简单编译器，接收算术表达式作为输入并生成类似汇编的代码：\n- 词法分析（分词）\n- 表达式的解析与求值\n- 汇编代码生成\n- 编译器构建基础\n\n### 10. [小行星游戏](asteroid-game/)\n一个基于终端的游戏，玩家控制飞船避开下落的小行星：\n\n- 游戏状态管理\n- 用户输入处理\n- 终端图形显示\n- 实时游戏机制\n- 简单碰撞检测\n\n## 入门指南\n\n本仓库中的每个项目都是独立设计的，包含：\n- 源代码\n- Makefile 或 CMake 配置\n- 含构建及使用说明的 README\n- 实现细节\n\n开始使用任一项目：\n1. 进入项目目录\n2. 阅读项目的 README.md\n3. 按照构建说明操作\n4. 按描述运行程序\n\n## 先决条件\n\n- GCC 编译器（针对 C 项目）\n- G++ 编译器（针对 C++ 项目）\n- Make 工具\n- CMake（针对 C/C++ 项目）",
+    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 语言</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it\">Itapano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# C语言编程项目集\n\n[![请我喝咖啡](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)\n\n本项目集包含了为初学者设计的C语言编程项目，用于学习和练习各种编程概念，从基础算法到网络编程。每个项目都是独立的，并配有详细文档和构建系统。\n\n## 项目概览\n\n### 1. [SHA-512 实现](SHA-512/)\n一个加密哈希函数实现，展示了：\n- 位运算\n- 复杂算法\n- 内存管理\n- 文件I/O操作\n\n### 2. [HTTP服务器](http-server/)\n一个基础的HTTP服务器实现，涵盖：\n- 套接字编程\n- HTTP协议基础\n- 文件服务\n- 网络通信\n\n### 3. [UDP服务端-客户端](udp-server-client/)\n一个简单的基于UDP的通信系统，教学内容包括：\n- UDP套接字编程\n- 客户端-服务器架构\n- 网络协议\n- 消息交换\n\n### 4. [端口扫描器](port-scanner/)\n一个网络诊断工具，展示了：\n- TCP套接字编程\n- 网络扫描技术\n- 错误处理\n- 命令行参数解析\n\n### 5. [Ping 实现](ping/)\n自定义ping工具，涵盖：\n- ICMP协议\n- 原始套接字编程\n- 网络诊断\n- 时间测量\n\n### 6. [井字棋](tic-tac-toe/)\n一个经典游戏实现，教学内容包括：\n- 多人游戏服务器 \n-套接字编程\n- 游戏逻辑\n- 用户输入处理\n\n### 7. [聊天系统](chat-system/)\n一个实时聊天应用，展示了：\n- TCP套接字编程\n- 多线程\n- 实时通信\n- 客户端-服务器架构\n\n### 8. [词法分析器](lexical-analyser/)\n一个简单的编译器前端组件，展示了：\n- 源代码分词\n- 解析技术\n- 编译器设计原理\n- 字符串处理\n\n### 9. [算术编译器](arithmetic-compiler/)\n一个简单的编译器，输入算术表达式并生成类似汇编的代码：\n- 词法分析（分词）\n- 表达式解析与计算\n- 汇编代码生成\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "    <summary >🌐 语言</summary>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=en\">English</a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "4nU1ZEGs/3jr7AyR18CQIpCCqXwGj8pPpfZFACGl5xk=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=en\">English</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "yVYmsyt1l86pR8hDP0HC9GEni1ENxIFc/nzV4qvpQcA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "n/KOonTSnQXQtRcrXNX4Qke2ipwLlwV9It+urBrfOL4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "Ww1g/EnjgeMgGHTlAH32XY2wWoHZLi75BkSZ1fu6xEM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "aRtP35f7yACAS3xL0DgQ9gXNcJjcsqryfu/f9Eu+NHU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "BAbBbmdc0upesgjg/hFGyLcKlfc8Znip9rLEYoAPX+g=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "6Wu9IWKj+BS7KLEyQaawSBmNeM3tqXvIr8HPNRe1h48=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fr\">Français</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "v5lAx2gBJR5KeiTSQ5H2YK8ksXfCsZ9kk+6aI3k33dM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "IhB8jUKed1bQcWkFF6QEB7s1MzgEoEhWY1PksbJ1B4Y=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=es\">Español</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "/s/cTmCIAzGMory+n6NClLqp31uv4erg4gmCLpfZD7g=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it\">Itapano</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "ODHYe8cJia4ngGPsrmGsfTBJcV6m1OHl+BiCMKCtjLc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it\">Itapano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "u478F5VIzQ5Kn+fyqczKusokAWM/XkAZEKiPYx55wIU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pt\">Português</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "LAmRCI04EK6gARC/xxipnwSggUmO5FHc++ySeEsGiG0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "ClOJlsWKa8kEUE2favjjq2aFbA9eRp1lPlDGQewIc3k=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "duYu7bEphcoKVMcKMlpWVQcpWyuaJDRqFhonHLn6hbU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "f6N9rsvWDfBWU2CfGyeoq0g5Iq9qwJAyFN8IOMQ9iH8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "Q5pp9YobeqkKby/TfzPl4D51FiyGOlIHoueSRwTKVrs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "j9N172KjCfMl0G73eEnYYuBc3sLrW1Ye6IdKOocjcak=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "aBvuw4dyo3Bnji2zg3skzlcJfgsUnDsPaSECk5xmoJo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "LUo7Q9XEG6Acduh0kiR66nPqPex2Q7r8RiMeTQ+STXQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 27,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 28,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 29,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# C语言编程项目集"
+      },
+      {
+        "row": 32,
         "rowsha": "szfGfVjEZALPgPpajUbzo/E5IB7C3JDe9HSPHEr7KUo=",
         "originContent": "# C Programming Projects Collection",
-        "translatedContent": "# C 编程项目合集"
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[![请我喝咖啡](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)"
+      },
+      {
+        "row": 34,
+        "rowsha": "B0zj7aOLHEvZLwc9MAij4LExsuQp4oJnVK9bP2Tt+2Q=",
+        "originContent": "[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "本项目集包含了为初学者设计的C语言编程项目，用于学习和练习各种编程概念，从基础算法到网络编程。每个项目都是独立的，并配有详细文档和构建系统。"
+      },
+      {
+        "row": 36,
+        "rowsha": "KqPR0jn7srim8oPXdIZxb/aDqHWwtIG6Ka5Jei6yqMU=",
+        "originContent": "A collection of C programming projects designed for beginners to learn and practice various programming concepts, from basic algorithms to network programming. Each project is self-contained and includes its own documentation and build system.",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 项目概览"
+      },
+      {
+        "row": 38,
+        "rowsha": "KzbgdFOymRyMwPJYcrqjCq5lUJLBdnAV3q1dw90QMCo=",
+        "originContent": "## Projects Overview",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 1. [SHA-512 实现](SHA-512/)"
+      },
+      {
+        "row": 40,
+        "rowsha": "j2v+ISzDiKa9eZ7eo+0Ycv/l1Yoi3eSg/nD+NEtBxrQ=",
+        "originContent": "### 1. [SHA-512 Implementation](SHA-512/)",
+        "translatedContent": "一个加密哈希函数实现，展示了："
+      },
+      {
+        "row": 41,
+        "rowsha": "CSe3R+eGOWV9E7SqMlfX0s4CcVU38fAbwKoiWSId1y4=",
+        "originContent": "A cryptographic hash function implementation that demonstrates:",
+        "translatedContent": "- 位运算"
+      },
+      {
+        "row": 42,
+        "rowsha": "vqDmYyeMwVkGqOQcnpvaa8RlUDvoTklKonVjw3OtB3U=",
+        "originContent": "- Bit manipulation",
+        "translatedContent": "- 复杂算法"
+      },
+      {
+        "row": 43,
+        "rowsha": "+uE7sGSH+QUbbVo3L2gq2cCr3x4rAexcnouYbVxeK14=",
+        "originContent": "- Complex algorithms",
+        "translatedContent": "- 内存管理"
+      },
+      {
+        "row": 44,
+        "rowsha": "oO45dYs+LxBFr0CFQcwOtoIx22Lpn7/bwms9KhkUU4g=",
+        "originContent": "- Memory management",
+        "translatedContent": "- 文件I/O操作"
+      },
+      {
+        "row": 45,
+        "rowsha": "a30Cj8pv9QYvhTd7MqBLWiRM/H/gTNXO13mQ5U9TgjI=",
+        "originContent": "- File I/O operations",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 2. [HTTP服务器](http-server/)"
+      },
+      {
+        "row": 47,
+        "rowsha": "g80nFWfZ7uVu2Li599ctWvykinbTqGhrl1wHXfC5qt0=",
+        "originContent": "### 2. [HTTP Server](http-server/)",
+        "translatedContent": "一个基础的HTTP服务器实现，涵盖："
+      },
+      {
+        "row": 48,
+        "rowsha": "qorh+wsxNFzJ2t+rhjvxDYteibAfVLfLW9wuIeCJ1w8=",
+        "originContent": "A basic HTTP server implementation that covers:",
+        "translatedContent": "- 套接字编程"
+      },
+      {
+        "row": 49,
+        "rowsha": "RFgAXxX8iA6wwAchIEXg6PeuqLttIS+AhBVlEg6AMx0=",
+        "originContent": "- Socket programming",
+        "translatedContent": "- HTTP协议基础"
+      },
+      {
+        "row": 50,
+        "rowsha": "Kl/tqg2msIeU2cFbZG5+Rwb12PctvZdkqmA5lZaC6DE=",
+        "originContent": "- HTTP protocol basics",
+        "translatedContent": "- 文件服务"
+      },
+      {
+        "row": 51,
+        "rowsha": "F86DFoky1BXZGF+AbTL2G3+ip4CDKyw2LR7W5wvkDh0=",
+        "originContent": "- File serving",
+        "translatedContent": "- 网络通信"
+      },
+      {
+        "row": 52,
+        "rowsha": "i+j/UIIWx715sWRL3grio12DQYDCaRifG/ODYJvRYvY=",
+        "originContent": "- Network communication",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 3. [UDP服务端-客户端](udp-server-client/)"
+      },
+      {
+        "row": 54,
+        "rowsha": "PxukZU0bt1kTQwgod33MvnnUm0sIilylrqxCL3gLxPs=",
+        "originContent": "### 3. [UDP Server-Client](udp-server-client/)",
+        "translatedContent": "一个简单的基于UDP的通信系统，教学内容包括："
+      },
+      {
+        "row": 55,
+        "rowsha": "ZjcFxMPp0LCrlvKRokB/6HeYF4I9a2PlxYz0gO0Y9M4=",
+        "originContent": "A simple UDP-based communication system that teaches:",
+        "translatedContent": "- UDP套接字编程"
+      },
+      {
+        "row": 56,
+        "rowsha": "yvgaGHDcKTCFDp0zVpAc5QN1b8ldqLdFDBExcB1QhIQ=",
+        "originContent": "- UDP socket programming",
+        "translatedContent": "- 客户端-服务器架构"
+      },
+      {
+        "row": 57,
+        "rowsha": "CmSt2hGR/+dxovElYGxSSxkaMJG7pfC3Qav0GL4wDKk=",
+        "originContent": "- Client-server architecture",
+        "translatedContent": "- 网络协议"
+      },
+      {
+        "row": 58,
+        "rowsha": "iFqipnTD87W6SOH/caIngwgfPDuUPk5d3YWU4OaTCb8=",
+        "originContent": "- Network protocols",
+        "translatedContent": "- 消息交换"
+      },
+      {
+        "row": 59,
+        "rowsha": "GnYwUDIWpV2uxJW23Gjfoaq1Fnia5hPUp4NFpyNylZQ=",
+        "originContent": "- Message exchange",
+        "translatedContent": ""
+      },
+      {
+        "row": 60,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 4. [端口扫描器](port-scanner/)"
+      },
+      {
+        "row": 61,
+        "rowsha": "ni7EhcM1aj4T1LhHVbuUa5oLm0y3ZUnEkK3GnATJ0kI=",
+        "originContent": "### 4. [Port Scanner](port-scanner/)",
+        "translatedContent": "一个网络诊断工具，展示了："
+      },
+      {
+        "row": 62,
+        "rowsha": "bTFv9q0ag1AgIFxpWOl9VxFnsq9myTlYpARAmVuFQb0=",
+        "originContent": "A network diagnostic tool that demonstrates:",
+        "translatedContent": "- TCP套接字编程"
+      },
+      {
+        "row": 63,
+        "rowsha": "1TMoPcoOh/LZ6GZ9XC/3iwbvGD1ilm+RaCYcnE53978=",
+        "originContent": "- TCP socket programming",
+        "translatedContent": "- 网络扫描技术"
+      },
+      {
+        "row": 64,
+        "rowsha": "BpBivglicrUo7fVt/p/aElaLT/pTiOcuRhGsBhKlMyk=",
+        "originContent": "- Network scanning techniques",
+        "translatedContent": "- 错误处理"
+      },
+      {
+        "row": 65,
+        "rowsha": "zIF2/8s/KGmLqwoDNwPuGDGt1DFArlv7GdKrCbyhGL8=",
+        "originContent": "- Error handling",
+        "translatedContent": "- 命令行参数解析"
+      },
+      {
+        "row": 66,
+        "rowsha": "fQbmttlQRnNxmufak/ccqifey8xatRfDjo1JmU7oozM=",
+        "originContent": "- Command-line argument parsing",
+        "translatedContent": ""
+      },
+      {
+        "row": 67,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 5. [Ping 实现](ping/)"
+      },
+      {
+        "row": 68,
+        "rowsha": "9N12413w4DHGvitzNs7MxxKnlA4Zf6v9qxOq9Q8HtNc=",
+        "originContent": "### 5. [Ping Implementation](ping/)",
+        "translatedContent": "自定义ping工具，涵盖："
+      },
+      {
+        "row": 69,
+        "rowsha": "pzK4bLRsFYoCed98ZBNDv3udUAt8Azk7Fw+wgc0uDa8=",
+        "originContent": "A custom ping utility that covers:",
+        "translatedContent": "- ICMP协议"
+      },
+      {
+        "row": 70,
+        "rowsha": "RrYB/xgLtmIzfvwNKqnvhuoYDFM0Kxo6YCIzn42Rs00=",
+        "originContent": "- ICMP protocol",
+        "translatedContent": "- 原始套接字编程"
+      },
+      {
+        "row": 71,
+        "rowsha": "m05u0ft7ToxegXbyW4XlCzA10eXmH8fSWM1dhMkLlS8=",
+        "originContent": "- Raw socket programming",
+        "translatedContent": "- 网络诊断"
+      },
+      {
+        "row": 72,
+        "rowsha": "/d9NCtJU5DvQIgSibkIkgqL8rsg+77SGPoshbB8XY3k=",
+        "originContent": "- Network diagnostics",
+        "translatedContent": "- 时间测量"
+      },
+      {
+        "row": 73,
+        "rowsha": "Uejp0/vRXEeBfbTcDjbbS3GOMg12FpUJBQ6Is7WR2QQ=",
+        "originContent": "- Time measurement",
+        "translatedContent": ""
+      },
+      {
+        "row": 74,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 6. [井字棋](tic-tac-toe/)"
+      },
+      {
+        "row": 75,
+        "rowsha": "UhdwPQd/AvB7jRKrT9zjCQaDTjgWGdpjL/3Kzbg61q4=",
+        "originContent": "### 6. [Tic-Tac-Toe](tic-tac-toe/)",
+        "translatedContent": "一个经典游戏实现，教学内容包括："
+      },
+      {
+        "row": 76,
+        "rowsha": "4kWF+GZ/Y+5GfHfjg4Ihl9L467L26Bz5WCXFBZ5IFfg=",
+        "originContent": "A classic game implementation that teaches:",
+        "translatedContent": "- 多人游戏服务器 "
+      },
+      {
+        "row": 77,
+        "rowsha": "Hxr4ObDGMQ5MetTDXYwaGExwfZ35vrHTRS4R6wrDWvU=",
+        "originContent": "- Multiplayer game server ",
+        "translatedContent": "-套接字编程"
+      },
+      {
+        "row": 78,
+        "rowsha": "88pOE+wrrPiLDjo/TCL1jVuXtJGmeYMBPAHAAQEaRCk=",
+        "originContent": "-Socket programming",
+        "translatedContent": "- 游戏逻辑"
+      },
+      {
+        "row": 79,
+        "rowsha": "vXmvdg49httmyomSVPfjHn5d2BCDfVC8ObMGQbL+PeQ=",
+        "originContent": "- Game logic",
+        "translatedContent": "- 用户输入处理"
+      },
+      {
+        "row": 80,
+        "rowsha": "C+Fyh1qMpoz88pXjZk2jbjLQqjr4UAXOme6N7iK4Yqk=",
+        "originContent": "- User input handling",
+        "translatedContent": ""
+      },
+      {
+        "row": 81,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 7. [聊天系统](chat-system/)"
+      },
+      {
+        "row": 82,
+        "rowsha": "CTmtMR6Kf0sLmfizGi3ns0puE6WeyO1TvuQ6o5uG6PA=",
+        "originContent": "### 7. [Chat System](chat-system/)",
+        "translatedContent": "一个实时聊天应用，展示了："
+      },
+      {
+        "row": 83,
+        "rowsha": "5Bh0pFGcjgnskqoZSkMXx/o59C5kpSMCg4JrdJOxcDo=",
+        "originContent": "A real-time chat application that demonstrates:",
+        "translatedContent": "- TCP套接字编程"
+      },
+      {
+        "row": 84,
+        "rowsha": "1TMoPcoOh/LZ6GZ9XC/3iwbvGD1ilm+RaCYcnE53978=",
+        "originContent": "- TCP socket programming",
+        "translatedContent": "- 多线程"
+      },
+      {
+        "row": 85,
+        "rowsha": "+6cGG+CGoFjJLDE7fgd189czML8QBjTWehqZU460DIs=",
+        "originContent": "- Multi-threading",
+        "translatedContent": "- 实时通信"
+      },
+      {
+        "row": 86,
+        "rowsha": "fBu/MEeAdVwvnrXZV1UHpdGbVyj10SQp+T2JjP0rT3c=",
+        "originContent": "- Real-time communication",
+        "translatedContent": "- 客户端-服务器架构"
+      },
+      {
+        "row": 87,
+        "rowsha": "CmSt2hGR/+dxovElYGxSSxkaMJG7pfC3Qav0GL4wDKk=",
+        "originContent": "- Client-server architecture",
+        "translatedContent": ""
+      },
+      {
+        "row": 88,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 8. [词法分析器](lexical-analyser/)"
+      },
+      {
+        "row": 89,
+        "rowsha": "3ygi+Xz2EpjDis7bAqBzu+Fij1EekYsZokUDSOnrbZM=",
+        "originContent": "### 8. [Lexical Analyzer](lexical-analyser/)",
+        "translatedContent": "一个简单的编译器前端组件，展示了："
+      },
+      {
+        "row": 90,
+        "rowsha": "Qp6DpJUXG87VlLwSMRIZuc9astD23TNtsRoNrbIBBYE=",
+        "originContent": "A simple compiler front-end component that demonstrates:",
+        "translatedContent": "- 源代码分词"
+      },
+      {
+        "row": 91,
+        "rowsha": "TmqCzSDHniRAO9pcnpWPFKlQLEGg6KX0MNvOmQS2LSg=",
+        "originContent": "- Tokenization of source code",
+        "translatedContent": "- 解析技术"
+      },
+      {
+        "row": 92,
+        "rowsha": "1oiP0YEBeye8brlY/AQMrPPBDM4847iCbK9d4UaOLNI=",
+        "originContent": "- Parsing techniques",
+        "translatedContent": "- 编译器设计原理"
+      },
+      {
+        "row": 93,
+        "rowsha": "g8UGmz/gbetuGUv7EgduPrcxJ9/8O1suOnK15ZykCdc=",
+        "originContent": "- Compiler design principles",
+        "translatedContent": "- 字符串处理"
+      },
+      {
+        "row": 94,
+        "rowsha": "3ekpaoHb/kSQ/EInpLB0jGZgdI2A2Om8IWGSkxwKReY=",
+        "originContent": "- String manipulation",
+        "translatedContent": ""
+      },
+      {
+        "row": 95,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 9. [算术编译器](arithmetic-compiler/)"
+      },
+      {
+        "row": 96,
+        "rowsha": "E5SKwx7Jwir4hKoKHo2oZUOReI14+jQv0/r32TfsdzI=",
+        "originContent": "### 9. [Arithmetic Compiler](arithmetic-compiler/)",
+        "translatedContent": "一个简单的编译器，输入算术表达式并生成类似汇编的代码："
+      },
+      {
+        "row": 97,
+        "rowsha": "6mW3fRyMZfiL0mpX0yUWKUDN/BH4n1wt/wkParDA8SE=",
+        "originContent": "A simple compiler that takes arithmetic expressions as input and generates assembly-like code:",
+        "translatedContent": "- 词法分析（分词）"
+      },
+      {
+        "row": 98,
+        "rowsha": "s8GzX2lwHjDBqQWFDVaU5l1YYChzLBReUyQ6n8BXBHY=",
+        "originContent": "- Lexical analysis (tokenization)",
+        "translatedContent": "- 表达式解析与计算"
+      },
+      {
+        "row": 99,
+        "rowsha": "0I0bOXjHenr/0SHFCdE8FbS0YHgrv8eQsOe3uxonjb4=",
+        "originContent": "- Parsing and evaluation of expressions",
+        "translatedContent": "- 汇编代码生成"
+      },
+      {
+        "row": 100,
+        "rowsha": "qsHv05AZzA4jZm5mSZkdJS0FLVdgbQPFGixNUyoLO3w=",
+        "originContent": "- Assembly code generation",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- Compiler construction fundamentals\n\n### 10. [Asteroid Game](asteroid-game/)\nA terminal-based game where you control a ship to avoid falling asteroids:\n\n- Game state management\n- User input handling\n- Terminal-based graphics\n- Real-time gameplay mechanics\n- Simple collision detection\n\n## Getting Started\n\nEach project in this repository is designed to be self-contained and includes:\n- Source code\n- Makefile or CMake configuration\n- README with build and usage instructions\n- Implementation details\n\nTo get started with any project:\n1. Navigate to the project directory\n2. Read the project's README.md\n3. Follow the build instructions\n4. Run the program as described\n\n## Prerequisites\n\n- GCC compiler (for C projects)\n- G++ compiler (for C++ projects)\n- Make utility\n- CMake (for C/C++ projects)\n- Basic understanding of C/C++ programming\n- For network projects: understanding of basic networking concepts\n\n## Recommended Book\n\nTo get started with C programming, I recommend this comprehensive book:\n[The C Programming Language](https://amzn.to/3F2Y1Zl) - A must-have resource for learning C programming fundamentals and best practices.\n\n## Learning Path\n\nThese projects are arranged in order of increasing complexity:\n\n1. Start with Tic-Tac-Toe for basic programming concepts\n2. Move to SHA-512 for algorithm implementation\n3. Try the UDP Server-Client for basic networking\n4. Progress to HTTP Server and Chat System for more complex networking\n5. Finally, explore Port Scanner and Ping for advanced networking concepts\n\n## Contributing\n\nFeel free to:\n- Report bugs\n- Suggest improvements\n- Add new features\n- Create new projects\n- Improve documentation\n\n## License\n\nThis project is open source and available for learning purposes.\n\n## Note\n\nSome network-related projects (Port Scanner, Ping) require root/administrator privileges to run due to the use of raw sockets. Always use these tools responsibly and only on networks you have permission to test. \n",
+    "ContentSha": "DA82dnH7u6+vq340bVvyZ34W+xzgjvB6omkn0xcc200=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- 编译器构建基础\n\n### 10. [小行星游戏](asteroid-game/)\n一个基于终端的游戏，你需要控制飞船躲避下落的小行星：\n\n- 游戏状态管理\n- 用户输入处理\n- 基于终端的图形显示\n- 实时游戏机制\n- 简单的碰撞检测\n\n## 入门指南\n\n本仓库中的每个项目都设计为自包含，并包括：\n- 源代码\n- Makefile 或 CMake 配置\n- 包含构建和使用说明的 README\n- 实现细节\n\n开始任何项目的步骤如下：\n1. 进入项目目录\n2. 阅读项目的 README.md\n3. 按照构建说明操作\n4. 按说明运行程序\n\n## 先决条件\n\n- GCC 编译器（用于 C 项目）\n- G++ 编译器（用于 C++ 项目）\n- Make 工具\n- CMake（用于 C/C++ 项目）\n- 基本的 C/C++ 编程知识\n- 对于网络项目：了解基础的网络概念\n\n## 推荐书籍\n\n入门 C 编程，我推荐这本全面的书籍：\n[The C Programming Language](https://amzn.to/3F2Y1Zl) —— 学习 C 语言基础和最佳实践的必备资源。\n\n## 学习路径\n\n这些项目按复杂度递增的顺序排列：\n\n1. 从井字棋开始，掌握基础编程概念\n2. 进阶到 SHA-512，学习算法实现\n3. 尝试 UDP 客户端-服务器，入门基础网络\n4. 继续 HTTP 服务器和聊天系统，体验更复杂的网络编程\n5. 最后探索端口扫描器和 Ping，掌握高级网络概念\n\n## 贡献方式\n\n欢迎你：\n- 报告 Bug\n- 提出改进建议\n- 添加新功能\n- 创建新项目\n- 改进文档\n\n## 许可证\n\n本项目为开源，供学习用途使用。\n\n## 注意\n\n部分网络相关项目（端口扫描器、Ping）因使用原始套接字，需要 root/管理员权限运行。请始终负责任地使用这些工具，仅在你有权限的网络上进行测试。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Y++sYKVAN/+4ff3xsKMFi9Y4jaNU2zWF2jHrco3HBck=",
+        "originContent": "- Compiler construction fundamentals",
+        "translatedContent": "- 编译器构建基础"
       },
       {
         "row": 2,
@@ -23,201 +636,201 @@
       },
       {
         "row": 3,
-        "rowsha": "B0zj7aOLHEvZLwc9MAij4LExsuQp4oJnVK9bP2Tt+2Q=",
-        "originContent": "[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)",
-        "translatedContent": "[![请我喝杯咖啡](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)"
+        "rowsha": "7w9qwIXd6IqMum/C7yOooZF4I0JrmFIswj7D0KjKofs=",
+        "originContent": "### 10. [Asteroid Game](asteroid-game/)",
+        "translatedContent": "### 10. [小行星游戏](asteroid-game/)"
       },
       {
         "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "va0Bf3A99YrrMIrqOPgi8QdnWVAnPXlDP0FGk6gC+zs=",
+        "originContent": "A terminal-based game where you control a ship to avoid falling asteroids:",
+        "translatedContent": "一个基于终端的游戏，你需要控制飞船躲避下落的小行星："
       },
       {
         "row": 5,
-        "rowsha": "KqPR0jn7srim8oPXdIZxb/aDqHWwtIG6Ka5Jei6yqMU=",
-        "originContent": "A collection of C programming projects designed for beginners to learn and practice various programming concepts, from basic algorithms to network programming. Each project is self-contained and includes its own documentation and build system.",
-        "translatedContent": "一个为初学者设计的 C 编程项目合集，用于学习和练习各种编程概念，从基础算法到网络编程。每个项目都是独立的，包含自己的文档和构建系统。"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "fzeQzB/Aadif247HKN5EADSGHTb4EN6IW87F1RzwfJw=",
+        "originContent": "- Game state management",
+        "translatedContent": "- 游戏状态管理"
       },
       {
         "row": 7,
-        "rowsha": "KzbgdFOymRyMwPJYcrqjCq5lUJLBdnAV3q1dw90QMCo=",
-        "originContent": "## Projects Overview",
-        "translatedContent": "## 项目概览"
+        "rowsha": "C+Fyh1qMpoz88pXjZk2jbjLQqjr4UAXOme6N7iK4Yqk=",
+        "originContent": "- User input handling",
+        "translatedContent": "- 用户输入处理"
       },
       {
         "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "NQ5SaGaSxehS9sk3C7Bs+tlzvWjkpyVnE2AgPyW1mxE=",
+        "originContent": "- Terminal-based graphics",
+        "translatedContent": "- 基于终端的图形显示"
       },
       {
         "row": 9,
-        "rowsha": "j2v+ISzDiKa9eZ7eo+0Ycv/l1Yoi3eSg/nD+NEtBxrQ=",
-        "originContent": "### 1. [SHA-512 Implementation](SHA-512/)",
-        "translatedContent": "### 1. [SHA-512 实现](SHA-512/)"
+        "rowsha": "5GbuUW71qCK3auT4q9jhxgFts2IpD+8od9kkdqtzvCY=",
+        "originContent": "- Real-time gameplay mechanics",
+        "translatedContent": "- 实时游戏机制"
       },
       {
         "row": 10,
-        "rowsha": "CSe3R+eGOWV9E7SqMlfX0s4CcVU38fAbwKoiWSId1y4=",
-        "originContent": "A cryptographic hash function implementation that demonstrates:",
-        "translatedContent": "一个加密哈希函数实现，展示了："
+        "rowsha": "Jmumk1IIN0wI6efCt5zkdDKtKxDuVVspsRnTNFIwFiU=",
+        "originContent": "- Simple collision detection",
+        "translatedContent": "- 简单的碰撞检测"
       },
       {
         "row": 11,
-        "rowsha": "vqDmYyeMwVkGqOQcnpvaa8RlUDvoTklKonVjw3OtB3U=",
-        "originContent": "- Bit manipulation",
-        "translatedContent": "- 位操作"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 12,
-        "rowsha": "+uE7sGSH+QUbbVo3L2gq2cCr3x4rAexcnouYbVxeK14=",
-        "originContent": "- Complex algorithms",
-        "translatedContent": "- 复杂算法"
+        "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+        "originContent": "## Getting Started",
+        "translatedContent": "## 入门指南"
       },
       {
         "row": 13,
-        "rowsha": "oO45dYs+LxBFr0CFQcwOtoIx22Lpn7/bwms9KhkUU4g=",
-        "originContent": "- Memory management",
-        "translatedContent": "- 内存管理"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 14,
-        "rowsha": "a30Cj8pv9QYvhTd7MqBLWiRM/H/gTNXO13mQ5U9TgjI=",
-        "originContent": "- File I/O operations",
-        "translatedContent": "- 文件输入输出操作"
+        "rowsha": "vuhi0a1ZSoOD5HoGwGkeccrVT01bzSK8A51umFU68rA=",
+        "originContent": "Each project in this repository is designed to be self-contained and includes:",
+        "translatedContent": "本仓库中的每个项目都设计为自包含，并包括："
       },
       {
         "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "3lSymsVK7pBozoV4fDl4Xia6jbTBvwV0ngBYluxQWpc=",
+        "originContent": "- Source code",
+        "translatedContent": "- 源代码"
       },
       {
         "row": 16,
-        "rowsha": "g80nFWfZ7uVu2Li599ctWvykinbTqGhrl1wHXfC5qt0=",
-        "originContent": "### 2. [HTTP Server](http-server/)",
-        "translatedContent": "### 2. [HTTP 服务器](http-server/)"
+        "rowsha": "OyTmgwkCK1QNeNa1zBoiTe4k6gzWUYt3LoH62KwEboQ=",
+        "originContent": "- Makefile or CMake configuration",
+        "translatedContent": "- Makefile 或 CMake 配置"
       },
       {
         "row": 17,
-        "rowsha": "qorh+wsxNFzJ2t+rhjvxDYteibAfVLfLW9wuIeCJ1w8=",
-        "originContent": "A basic HTTP server implementation that covers:",
-        "translatedContent": "一个基础的 HTTP 服务器实现，涵盖了："
+        "rowsha": "jkx7IeeyyZ4MkeDVtJRbQXW+gu7T2y9CuujhZK63o0I=",
+        "originContent": "- README with build and usage instructions",
+        "translatedContent": "- 包含构建和使用说明的 README"
       },
       {
         "row": 18,
-        "rowsha": "RFgAXxX8iA6wwAchIEXg6PeuqLttIS+AhBVlEg6AMx0=",
-        "originContent": "- Socket programming",
-        "translatedContent": "- 套接字编程"
+        "rowsha": "Ppl2xes3JFb9y5ExSC7pmJ7kytdoLb04EMQZVmwTpOk=",
+        "originContent": "- Implementation details",
+        "translatedContent": "- 实现细节"
       },
       {
         "row": 19,
-        "rowsha": "Kl/tqg2msIeU2cFbZG5+Rwb12PctvZdkqmA5lZaC6DE=",
-        "originContent": "- HTTP protocol basics",
-        "translatedContent": "- HTTP 协议基础"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 20,
-        "rowsha": "F86DFoky1BXZGF+AbTL2G3+ip4CDKyw2LR7W5wvkDh0=",
-        "originContent": "- File serving",
-        "translatedContent": "- 文件服务"
+        "rowsha": "dCFfgU3zK5vdA3tG9BXZX7QOczBncPD+QiGWalAEs24=",
+        "originContent": "To get started with any project:",
+        "translatedContent": "开始任何项目的步骤如下："
       },
       {
         "row": 21,
-        "rowsha": "i+j/UIIWx715sWRL3grio12DQYDCaRifG/ODYJvRYvY=",
-        "originContent": "- Network communication",
-        "translatedContent": "- 网络通信"
+        "rowsha": "i09YkmChhu6lQnvvJHRhagbZSFM3ab1vpCsQGBsYLQ8=",
+        "originContent": "1. Navigate to the project directory",
+        "translatedContent": "1. 进入项目目录"
       },
       {
         "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "Y8gX7Y67qbhBu4oIgFBUlugTXoMD/AUIOh+eGMA8Plw=",
+        "originContent": "2. Read the project's README.md",
+        "translatedContent": "2. 阅读项目的 README.md"
       },
       {
         "row": 23,
-        "rowsha": "PxukZU0bt1kTQwgod33MvnnUm0sIilylrqxCL3gLxPs=",
-        "originContent": "### 3. [UDP Server-Client](udp-server-client/)",
-        "translatedContent": "### 3. [UDP 服务器-客户端](udp-server-client/)"
+        "rowsha": "u7Qpt+DVCtNwgnXb4mJLpDaJEU+GLRxFhfJLy0E4KXc=",
+        "originContent": "3. Follow the build instructions",
+        "translatedContent": "3. 按照构建说明操作"
       },
       {
         "row": 24,
-        "rowsha": "ZjcFxMPp0LCrlvKRokB/6HeYF4I9a2PlxYz0gO0Y9M4=",
-        "originContent": "A simple UDP-based communication system that teaches:",
-        "translatedContent": "一个基于 UDP 的简单通信系统，教学内容包括："
+        "rowsha": "Hy2Zj94VCKgK78MzUkwIZ1T+dvpi1tlV01DOfH5+KAE=",
+        "originContent": "4. Run the program as described",
+        "translatedContent": "4. 按说明运行程序"
       },
       {
         "row": 25,
-        "rowsha": "yvgaGHDcKTCFDp0zVpAc5QN1b8ldqLdFDBExcB1QhIQ=",
-        "originContent": "- UDP socket programming",
-        "translatedContent": "- UDP 套接字编程"
-      },
-      {
-        "row": 26,
-        "rowsha": "CmSt2hGR/+dxovElYGxSSxkaMJG7pfC3Qav0GL4wDKk=",
-        "originContent": "- Client-server architecture",
-        "translatedContent": "- 客户端-服务器架构"
-      },
-      {
-        "row": 27,
-        "rowsha": "iFqipnTD87W6SOH/caIngwgfPDuUPk5d3YWU4OaTCb8=",
-        "originContent": "- Network protocols",
-        "translatedContent": "- 网络协议"
-      },
-      {
-        "row": 28,
-        "rowsha": "GnYwUDIWpV2uxJW23Gjfoaq1Fnia5hPUp4NFpyNylZQ=",
-        "originContent": "- Message exchange",
-        "translatedContent": "- 消息交换"
-      },
-      {
-        "row": 29,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 26,
+        "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+        "originContent": "## Prerequisites",
+        "translatedContent": "## 先决条件"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "nnul39GaSrQOvx+/c1CJD79J/RffM87Z3se5jW+fW28=",
+        "originContent": "- GCC compiler (for C projects)",
+        "translatedContent": "- GCC 编译器（用于 C 项目）"
+      },
+      {
+        "row": 29,
+        "rowsha": "8OB81f/74TAT2eP1MfWdmA0aMqYnwcmWTeV307ML69A=",
+        "originContent": "- G++ compiler (for C++ projects)",
+        "translatedContent": "- G++ 编译器（用于 C++ 项目）"
+      },
+      {
         "row": 30,
-        "rowsha": "ni7EhcM1aj4T1LhHVbuUa5oLm0y3ZUnEkK3GnATJ0kI=",
-        "originContent": "### 4. [Port Scanner](port-scanner/)",
-        "translatedContent": "### 4. [端口扫描器](port-scanner/)"
+        "rowsha": "u6sjPgAofR4vDLay+aFkmkEMv0t1NEQU2FiMb7Pk/AM=",
+        "originContent": "- Make utility",
+        "translatedContent": "- Make 工具"
       },
       {
         "row": 31,
-        "rowsha": "bTFv9q0ag1AgIFxpWOl9VxFnsq9myTlYpARAmVuFQb0=",
-        "originContent": "A network diagnostic tool that demonstrates:",
-        "translatedContent": "一个网络诊断工具，展示了："
+        "rowsha": "YtZBcM7gHQMOJ7MRqnzFJnizswK1VqAHX8GqFrG+DYc=",
+        "originContent": "- CMake (for C/C++ projects)",
+        "translatedContent": "- CMake（用于 C/C++ 项目）"
       },
       {
         "row": 32,
-        "rowsha": "1TMoPcoOh/LZ6GZ9XC/3iwbvGD1ilm+RaCYcnE53978=",
-        "originContent": "- TCP socket programming",
-        "translatedContent": "- TCP 套接字编程"
+        "rowsha": "GxV0/Zcc3negfBroAqwTfFCgLWUM3QR0i+ALoPITfgE=",
+        "originContent": "- Basic understanding of C/C++ programming",
+        "translatedContent": "- 基本的 C/C++ 编程知识"
       },
       {
         "row": 33,
-        "rowsha": "BpBivglicrUo7fVt/p/aElaLT/pTiOcuRhGsBhKlMyk=",
-        "originContent": "- Network scanning techniques",
-        "translatedContent": "- 网络扫描技术"
+        "rowsha": "ZUjGz4uFy81J3UvTGVN0LS6lwumeEu1Es7WpZiPLBUo=",
+        "originContent": "- For network projects: understanding of basic networking concepts",
+        "translatedContent": "- 对于网络项目：了解基础的网络概念"
       },
       {
         "row": 34,
-        "rowsha": "zIF2/8s/KGmLqwoDNwPuGDGt1DFArlv7GdKrCbyhGL8=",
-        "originContent": "- Error handling",
-        "translatedContent": "- 错误处理"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 35,
-        "rowsha": "fQbmttlQRnNxmufak/ccqifey8xatRfDjo1JmU7oozM=",
-        "originContent": "- Command-line argument parsing",
-        "translatedContent": "- 命令行参数解析"
+        "rowsha": "OfVNszQt0XrpIp/FwWQMHn0z287V+7B5fqtdxPw997I=",
+        "originContent": "## Recommended Book",
+        "translatedContent": "## 推荐书籍"
       },
       {
         "row": 36,
@@ -227,39 +840,39 @@
       },
       {
         "row": 37,
-        "rowsha": "9N12413w4DHGvitzNs7MxxKnlA4Zf6v9qxOq9Q8HtNc=",
-        "originContent": "### 5. [Ping Implementation](ping/)",
-        "translatedContent": "### 5. [Ping 实现](ping/)"
+        "rowsha": "feirgcMKvRuV9oLGe45s9ukVs5ZRXsgjS54/JnKEgL0=",
+        "originContent": "To get started with C programming, I recommend this comprehensive book:",
+        "translatedContent": "入门 C 编程，我推荐这本全面的书籍："
       },
       {
         "row": 38,
-        "rowsha": "pzK4bLRsFYoCed98ZBNDv3udUAt8Azk7Fw+wgc0uDa8=",
-        "originContent": "A custom ping utility that covers:",
-        "translatedContent": "一个自定义的 ping 工具，涵盖："
+        "rowsha": "blvNt5qlniAlEIhjaGGvIStjEsouBf4gGpmpLAwFQI4=",
+        "originContent": "[The C Programming Language](https://amzn.to/3F2Y1Zl) - A must-have resource for learning C programming fundamentals and best practices.",
+        "translatedContent": "[The C Programming Language](https://amzn.to/3F2Y1Zl) —— 学习 C 语言基础和最佳实践的必备资源。"
       },
       {
         "row": 39,
-        "rowsha": "RrYB/xgLtmIzfvwNKqnvhuoYDFM0Kxo6YCIzn42Rs00=",
-        "originContent": "- ICMP protocol",
-        "translatedContent": "- ICMP 协议"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 40,
-        "rowsha": "m05u0ft7ToxegXbyW4XlCzA10eXmH8fSWM1dhMkLlS8=",
-        "originContent": "- Raw socket programming",
-        "translatedContent": "- 原始套接字编程"
+        "rowsha": "ZDdLE/srmuXBR3Cfuz3Xr9tIrTrbuUzWZ4lEgyQ5YW4=",
+        "originContent": "## Learning Path",
+        "translatedContent": "## 学习路径"
       },
       {
         "row": 41,
-        "rowsha": "/d9NCtJU5DvQIgSibkIkgqL8rsg+77SGPoshbB8XY3k=",
-        "originContent": "- Network diagnostics",
-        "translatedContent": "- 网络诊断"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 42,
-        "rowsha": "Uejp0/vRXEeBfbTcDjbbS3GOMg12FpUJBQ6Is7WR2QQ=",
-        "originContent": "- Time measurement",
-        "translatedContent": "- 时间测量"
+        "rowsha": "zLrFy+/R2Ft0D4cZmok5qIn2bxvaoHk4dfAIcOx2+Yw=",
+        "originContent": "These projects are arranged in order of increasing complexity:",
+        "translatedContent": "这些项目按复杂度递增的顺序排列："
       },
       {
         "row": 43,
@@ -269,123 +882,123 @@
       },
       {
         "row": 44,
-        "rowsha": "UhdwPQd/AvB7jRKrT9zjCQaDTjgWGdpjL/3Kzbg61q4=",
-        "originContent": "### 6. [Tic-Tac-Toe](tic-tac-toe/)",
-        "translatedContent": "### 6. [井字棋](tic-tac-toe/)"
+        "rowsha": "ECrdXWVEbuwQ29/jHecnOKKAOeMkRUSsPL0xbrx/gn4=",
+        "originContent": "1. Start with Tic-Tac-Toe for basic programming concepts",
+        "translatedContent": "1. 从井字棋开始，掌握基础编程概念"
       },
       {
         "row": 45,
-        "rowsha": "4kWF+GZ/Y+5GfHfjg4Ihl9L467L26Bz5WCXFBZ5IFfg=",
-        "originContent": "A classic game implementation that teaches:",
-        "translatedContent": "一个经典游戏实现，教学内容包括："
+        "rowsha": "QH7hCYWqC3RzdCPj70YzOTlwcIKnT/dSIXTV4S86Wnc=",
+        "originContent": "2. Move to SHA-512 for algorithm implementation",
+        "translatedContent": "2. 进阶到 SHA-512，学习算法实现"
       },
       {
         "row": 46,
-        "rowsha": "Hxr4ObDGMQ5MetTDXYwaGExwfZ35vrHTRS4R6wrDWvU=",
-        "originContent": "- Multiplayer game server ",
-        "translatedContent": "- 多人游戏服务器"
+        "rowsha": "/SyNCPYImHyd6J6Y06CCJDo/b3BbZsLXfOVEOvZe8k0=",
+        "originContent": "3. Try the UDP Server-Client for basic networking",
+        "translatedContent": "3. 尝试 UDP 客户端-服务器，入门基础网络"
       },
       {
         "row": 47,
-        "rowsha": "88pOE+wrrPiLDjo/TCL1jVuXtJGmeYMBPAHAAQEaRCk=",
-        "originContent": "-Socket programming",
-        "translatedContent": "- 套接字编程"
+        "rowsha": "q8KElOIsdYPqAm7vk9NTsjqZcyczVhmRwDM8phQgsmA=",
+        "originContent": "4. Progress to HTTP Server and Chat System for more complex networking",
+        "translatedContent": "4. 继续 HTTP 服务器和聊天系统，体验更复杂的网络编程"
       },
       {
         "row": 48,
-        "rowsha": "vXmvdg49httmyomSVPfjHn5d2BCDfVC8ObMGQbL+PeQ=",
-        "originContent": "- Game logic",
-        "translatedContent": "- 游戏逻辑"
+        "rowsha": "saoc2yTmovnCHMhyrXrzMduOYmqsBFbrxiU2zRmZcNw=",
+        "originContent": "5. Finally, explore Port Scanner and Ping for advanced networking concepts",
+        "translatedContent": "5. 最后探索端口扫描器和 Ping，掌握高级网络概念"
       },
       {
         "row": 49,
-        "rowsha": "C+Fyh1qMpoz88pXjZk2jbjLQqjr4UAXOme6N7iK4Yqk=",
-        "originContent": "- User input handling",
-        "translatedContent": "- 用户输入处理"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 50,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## 贡献方式"
       },
       {
         "row": 51,
-        "rowsha": "CTmtMR6Kf0sLmfizGi3ns0puE6WeyO1TvuQ6o5uG6PA=",
-        "originContent": "### 7. [Chat System](chat-system/)",
-        "translatedContent": "### 7. [聊天系统](chat-system/)"
-      },
-      {
-        "row": 52,
-        "rowsha": "5Bh0pFGcjgnskqoZSkMXx/o59C5kpSMCg4JrdJOxcDo=",
-        "originContent": "A real-time chat application that demonstrates:",
-        "translatedContent": "一个实时聊天应用，展示了："
-      },
-      {
-        "row": 53,
-        "rowsha": "1TMoPcoOh/LZ6GZ9XC/3iwbvGD1ilm+RaCYcnE53978=",
-        "originContent": "- TCP socket programming",
-        "translatedContent": "- TCP 套接字编程"
-      },
-      {
-        "row": 54,
-        "rowsha": "+6cGG+CGoFjJLDE7fgd189czML8QBjTWehqZU460DIs=",
-        "originContent": "- Multi-threading",
-        "translatedContent": "- 多线程"
-      },
-      {
-        "row": 55,
-        "rowsha": "fBu/MEeAdVwvnrXZV1UHpdGbVyj10SQp+T2JjP0rT3c=",
-        "originContent": "- Real-time communication",
-        "translatedContent": "- 实时通信"
-      },
-      {
-        "row": 56,
-        "rowsha": "CmSt2hGR/+dxovElYGxSSxkaMJG7pfC3Qav0GL4wDKk=",
-        "originContent": "- Client-server architecture",
-        "translatedContent": "- 客户端-服务器架构"
-      },
-      {
-        "row": 57,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 52,
+        "rowsha": "gFetMMHtgOzgoGzOoWoC1t0uONpOfuW5Ae4Qvza/IY8=",
+        "originContent": "Feel free to:",
+        "translatedContent": "欢迎你："
+      },
+      {
+        "row": 53,
+        "rowsha": "wcwSGchEh/YlQ7cW0UoEFEkRRVQHUylYKd0CFi2M3P0=",
+        "originContent": "- Report bugs",
+        "translatedContent": "- 报告 Bug"
+      },
+      {
+        "row": 54,
+        "rowsha": "0RYFMerwf7bi61RcTqo2OryVKBpdCO1V6a0fYdijHSI=",
+        "originContent": "- Suggest improvements",
+        "translatedContent": "- 提出改进建议"
+      },
+      {
+        "row": 55,
+        "rowsha": "eMzK/M7OHAwYOMWAxkiVu87pOeTOE6VfN9ZZKIEH4nU=",
+        "originContent": "- Add new features",
+        "translatedContent": "- 添加新功能"
+      },
+      {
+        "row": 56,
+        "rowsha": "KBwJiwZpCAKgm21/RHebYUgycJ9JQA7SmMBfUgealA8=",
+        "originContent": "- Create new projects",
+        "translatedContent": "- 创建新项目"
+      },
+      {
+        "row": 57,
+        "rowsha": "dGgSPe4NCKMYJDQeFBihgL8m5xtWrc7nQTszjNf+I4M=",
+        "originContent": "- Improve documentation",
+        "translatedContent": "- 改进文档"
+      },
+      {
         "row": 58,
-        "rowsha": "3ygi+Xz2EpjDis7bAqBzu+Fij1EekYsZokUDSOnrbZM=",
-        "originContent": "### 8. [Lexical Analyzer](lexical-analyser/)",
-        "translatedContent": "### 8. [词法分析器](lexical-analyser/)"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 59,
-        "rowsha": "Qp6DpJUXG87VlLwSMRIZuc9astD23TNtsRoNrbIBBYE=",
-        "originContent": "A simple compiler front-end component that demonstrates:",
-        "translatedContent": "一个简单的编译器前端组件，展示了："
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 许可证"
       },
       {
         "row": 60,
-        "rowsha": "TmqCzSDHniRAO9pcnpWPFKlQLEGg6KX0MNvOmQS2LSg=",
-        "originContent": "- Tokenization of source code",
-        "translatedContent": "- 源代码的词法分析"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 61,
-        "rowsha": "1oiP0YEBeye8brlY/AQMrPPBDM4847iCbK9d4UaOLNI=",
-        "originContent": "- Parsing techniques",
-        "translatedContent": "- 解析技术"
+        "rowsha": "SkGDkEg5uThW6+17HcebRShOcoaBQQCtzsFB/Tz05Nw=",
+        "originContent": "This project is open source and available for learning purposes.",
+        "translatedContent": "本项目为开源，供学习用途使用。"
       },
       {
         "row": 62,
-        "rowsha": "g8UGmz/gbetuGUv7EgduPrcxJ9/8O1suOnK15ZykCdc=",
-        "originContent": "- Compiler design principles",
-        "translatedContent": "- 编译器设计原理"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 63,
-        "rowsha": "3ekpaoHb/kSQ/EInpLB0jGZgdI2A2Om8IWGSkxwKReY=",
-        "originContent": "- String manipulation",
-        "translatedContent": "- 字符串操作"
+        "rowsha": "VYQvUTBNlrg7S7O5MUfgs2AFM5VCFr7AjtAep+bJRBw=",
+        "originContent": "## Note",
+        "translatedContent": "## 注意"
       },
       {
         "row": 64,
@@ -395,439 +1008,12 @@
       },
       {
         "row": 65,
-        "rowsha": "E5SKwx7Jwir4hKoKHo2oZUOReI14+jQv0/r32TfsdzI=",
-        "originContent": "### 9. [Arithmetic Compiler](arithmetic-compiler/)",
-        "translatedContent": "### 9. [算术编译器](arithmetic-compiler/)"
+        "rowsha": "LoF7N+Ihme5mO8O8hqvR5wW1VJhzjB/lAzV06yi8fEQ=",
+        "originContent": "Some network-related projects (Port Scanner, Ping) require root/administrator privileges to run due to the use of raw sockets. Always use these tools responsibly and only on networks you have permission to test. ",
+        "translatedContent": "部分网络相关项目（端口扫描器、Ping）因使用原始套接字，需要 root/管理员权限运行。请始终负责任地使用这些工具，仅在你有权限的网络上进行测试。"
       },
       {
         "row": 66,
-        "rowsha": "6mW3fRyMZfiL0mpX0yUWKUDN/BH4n1wt/wkParDA8SE=",
-        "originContent": "A simple compiler that takes arithmetic expressions as input and generates assembly-like code:",
-        "translatedContent": "一个简单编译器，接收算术表达式作为输入并生成类似汇编的代码："
-      },
-      {
-        "row": 67,
-        "rowsha": "s8GzX2lwHjDBqQWFDVaU5l1YYChzLBReUyQ6n8BXBHY=",
-        "originContent": "- Lexical analysis (tokenization)",
-        "translatedContent": "- 词法分析（分词）"
-      },
-      {
-        "row": 68,
-        "rowsha": "0I0bOXjHenr/0SHFCdE8FbS0YHgrv8eQsOe3uxonjb4=",
-        "originContent": "- Parsing and evaluation of expressions",
-        "translatedContent": "- 表达式的解析与求值"
-      },
-      {
-        "row": 69,
-        "rowsha": "qsHv05AZzA4jZm5mSZkdJS0FLVdgbQPFGixNUyoLO3w=",
-        "originContent": "- Assembly code generation",
-        "translatedContent": "- 汇编代码生成"
-      },
-      {
-        "row": 70,
-        "rowsha": "Y++sYKVAN/+4ff3xsKMFi9Y4jaNU2zWF2jHrco3HBck=",
-        "originContent": "- Compiler construction fundamentals",
-        "translatedContent": "- 编译器构建基础"
-      },
-      {
-        "row": 71,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 72,
-        "rowsha": "7w9qwIXd6IqMum/C7yOooZF4I0JrmFIswj7D0KjKofs=",
-        "originContent": "### 10. [Asteroid Game](asteroid-game/)",
-        "translatedContent": "### 10. [小行星游戏](asteroid-game/)"
-      },
-      {
-        "row": 73,
-        "rowsha": "va0Bf3A99YrrMIrqOPgi8QdnWVAnPXlDP0FGk6gC+zs=",
-        "originContent": "A terminal-based game where you control a ship to avoid falling asteroids:",
-        "translatedContent": "一个基于终端的游戏，玩家控制飞船避开下落的小行星："
-      },
-      {
-        "row": 74,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 75,
-        "rowsha": "fzeQzB/Aadif247HKN5EADSGHTb4EN6IW87F1RzwfJw=",
-        "originContent": "- Game state management",
-        "translatedContent": "- 游戏状态管理"
-      },
-      {
-        "row": 76,
-        "rowsha": "C+Fyh1qMpoz88pXjZk2jbjLQqjr4UAXOme6N7iK4Yqk=",
-        "originContent": "- User input handling",
-        "translatedContent": "- 用户输入处理"
-      },
-      {
-        "row": 77,
-        "rowsha": "NQ5SaGaSxehS9sk3C7Bs+tlzvWjkpyVnE2AgPyW1mxE=",
-        "originContent": "- Terminal-based graphics",
-        "translatedContent": "- 终端图形显示"
-      },
-      {
-        "row": 78,
-        "rowsha": "5GbuUW71qCK3auT4q9jhxgFts2IpD+8od9kkdqtzvCY=",
-        "originContent": "- Real-time gameplay mechanics",
-        "translatedContent": "- 实时游戏机制"
-      },
-      {
-        "row": 79,
-        "rowsha": "Jmumk1IIN0wI6efCt5zkdDKtKxDuVVspsRnTNFIwFiU=",
-        "originContent": "- Simple collision detection",
-        "translatedContent": "- 简单碰撞检测"
-      },
-      {
-        "row": 80,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 81,
-        "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
-        "originContent": "## Getting Started",
-        "translatedContent": "## 入门指南"
-      },
-      {
-        "row": 82,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 83,
-        "rowsha": "vuhi0a1ZSoOD5HoGwGkeccrVT01bzSK8A51umFU68rA=",
-        "originContent": "Each project in this repository is designed to be self-contained and includes:",
-        "translatedContent": "本仓库中的每个项目都是独立设计的，包含："
-      },
-      {
-        "row": 84,
-        "rowsha": "3lSymsVK7pBozoV4fDl4Xia6jbTBvwV0ngBYluxQWpc=",
-        "originContent": "- Source code",
-        "translatedContent": "- 源代码"
-      },
-      {
-        "row": 85,
-        "rowsha": "OyTmgwkCK1QNeNa1zBoiTe4k6gzWUYt3LoH62KwEboQ=",
-        "originContent": "- Makefile or CMake configuration",
-        "translatedContent": "- Makefile 或 CMake 配置"
-      },
-      {
-        "row": 86,
-        "rowsha": "jkx7IeeyyZ4MkeDVtJRbQXW+gu7T2y9CuujhZK63o0I=",
-        "originContent": "- README with build and usage instructions",
-        "translatedContent": "- 含构建及使用说明的 README"
-      },
-      {
-        "row": 87,
-        "rowsha": "Ppl2xes3JFb9y5ExSC7pmJ7kytdoLb04EMQZVmwTpOk=",
-        "originContent": "- Implementation details",
-        "translatedContent": "- 实现细节"
-      },
-      {
-        "row": 88,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 89,
-        "rowsha": "dCFfgU3zK5vdA3tG9BXZX7QOczBncPD+QiGWalAEs24=",
-        "originContent": "To get started with any project:",
-        "translatedContent": "开始使用任一项目："
-      },
-      {
-        "row": 90,
-        "rowsha": "i09YkmChhu6lQnvvJHRhagbZSFM3ab1vpCsQGBsYLQ8=",
-        "originContent": "1. Navigate to the project directory",
-        "translatedContent": "1. 进入项目目录"
-      },
-      {
-        "row": 91,
-        "rowsha": "Y8gX7Y67qbhBu4oIgFBUlugTXoMD/AUIOh+eGMA8Plw=",
-        "originContent": "2. Read the project's README.md",
-        "translatedContent": "2. 阅读项目的 README.md"
-      },
-      {
-        "row": 92,
-        "rowsha": "u7Qpt+DVCtNwgnXb4mJLpDaJEU+GLRxFhfJLy0E4KXc=",
-        "originContent": "3. Follow the build instructions",
-        "translatedContent": "3. 按照构建说明操作"
-      },
-      {
-        "row": 93,
-        "rowsha": "Hy2Zj94VCKgK78MzUkwIZ1T+dvpi1tlV01DOfH5+KAE=",
-        "originContent": "4. Run the program as described",
-        "translatedContent": "4. 按描述运行程序"
-      },
-      {
-        "row": 94,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 95,
-        "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
-        "originContent": "## Prerequisites",
-        "translatedContent": "## 先决条件"
-      },
-      {
-        "row": 96,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 97,
-        "rowsha": "nnul39GaSrQOvx+/c1CJD79J/RffM87Z3se5jW+fW28=",
-        "originContent": "- GCC compiler (for C projects)",
-        "translatedContent": "- GCC 编译器（针对 C 项目）"
-      },
-      {
-        "row": 98,
-        "rowsha": "8OB81f/74TAT2eP1MfWdmA0aMqYnwcmWTeV307ML69A=",
-        "originContent": "- G++ compiler (for C++ projects)",
-        "translatedContent": "- G++ 编译器（针对 C++ 项目）"
-      },
-      {
-        "row": 99,
-        "rowsha": "u6sjPgAofR4vDLay+aFkmkEMv0t1NEQU2FiMb7Pk/AM=",
-        "originContent": "- Make utility",
-        "translatedContent": "- Make 工具"
-      },
-      {
-        "row": 100,
-        "rowsha": "YtZBcM7gHQMOJ7MRqnzFJnizswK1VqAHX8GqFrG+DYc=",
-        "originContent": "- CMake (for C/C++ projects)",
-        "translatedContent": "- CMake（针对 C/C++ 项目）"
-      }
-    ],
-    "IsCodeBlock": false
-  },
-  {
-    "Id": 2,
-    "Content": "- Basic understanding of C/C++ programming\n- For network projects: understanding of basic networking concepts\n\n## Recommended Book\n\nTo get started with C programming, I recommend this comprehensive book:\n[The C Programming Language](https://amzn.to/3F2Y1Zl) - A must-have resource for learning C programming fundamentals and best practices.\n\n## Learning Path\n\nThese projects are arranged in order of increasing complexity:\n\n1. Start with Tic-Tac-Toe for basic programming concepts\n2. Move to SHA-512 for algorithm implementation\n3. Try the UDP Server-Client for basic networking\n4. Progress to HTTP Server and Chat System for more complex networking\n5. Finally, explore Port Scanner and Ping for advanced networking concepts\n\n## Contributing\n\nFeel free to:\n- Report bugs\n- Suggest improvements\n- Add new features\n- Create new projects\n- Improve documentation\n\n## License\n\nThis project is open source and available for learning purposes.\n\n## Note\n\nSome network-related projects (Port Scanner, Ping) require root/administrator privileges to run due to the use of raw sockets. Always use these tools responsibly and only on networks you have permission to test. \n",
-    "ContentSha": "uinp8psfMpktsetPlZOFjKmnZDWMvQQSezX7ZrB6chs=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "- 基本的 C/C++ 编程理解  \n- 对网络项目：理解基本的网络概念  \n\n## 推荐书籍  \n\n想要入门 C 编程，我推荐这本全面的书籍：  \n[The C Programming Language](https://amzn.to/3F2Y1Zl) - 学习 C 编程基础和最佳实践的必备资源。  \n\n## 学习路径  \n\n这些项目按复杂度递增排列：  \n\n1. 从井字游戏开始，掌握基本编程概念  \n2. 进阶到 SHA-512 算法实现  \n3. 尝试 UDP 服务器-客户端，实现基础网络通信  \n4. 进一步学习 HTTP 服务器和聊天系统，涉及更复杂的网络编程  \n5. 最后探索端口扫描和 Ping，实现高级网络概念  \n\n## 贡献  \n\n欢迎你：  \n- 报告错误  \n- 提出改进建议  \n- 添加新功能  \n- 创建新项目  \n- 改善文档  \n\n## 许可证  \n\n本项目为开源，供学习用途。  \n\n## 注意事项  \n\n部分网络相关项目（端口扫描、Ping）因使用原始套接字，需要 root/管理员权限运行。请务必负责任地使用这些工具，并仅在获得许可的网络上进行测试。  \n",
-    "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "GxV0/Zcc3negfBroAqwTfFCgLWUM3QR0i+ALoPITfgE=",
-        "originContent": "- Basic understanding of C/C++ programming",
-        "translatedContent": "- 基本的 C/C++ 编程理解  "
-      },
-      {
-        "row": 2,
-        "rowsha": "ZUjGz4uFy81J3UvTGVN0LS6lwumeEu1Es7WpZiPLBUo=",
-        "originContent": "- For network projects: understanding of basic networking concepts",
-        "translatedContent": "- 对网络项目：理解基本的网络概念  "
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "OfVNszQt0XrpIp/FwWQMHn0z287V+7B5fqtdxPw997I=",
-        "originContent": "## Recommended Book",
-        "translatedContent": "## 推荐书籍  "
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "feirgcMKvRuV9oLGe45s9ukVs5ZRXsgjS54/JnKEgL0=",
-        "originContent": "To get started with C programming, I recommend this comprehensive book:",
-        "translatedContent": "想要入门 C 编程，我推荐这本全面的书籍：  "
-      },
-      {
-        "row": 7,
-        "rowsha": "blvNt5qlniAlEIhjaGGvIStjEsouBf4gGpmpLAwFQI4=",
-        "originContent": "[The C Programming Language](https://amzn.to/3F2Y1Zl) - A must-have resource for learning C programming fundamentals and best practices.",
-        "translatedContent": "[The C Programming Language](https://amzn.to/3F2Y1Zl) - 学习 C 编程基础和最佳实践的必备资源。  "
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "ZDdLE/srmuXBR3Cfuz3Xr9tIrTrbuUzWZ4lEgyQ5YW4=",
-        "originContent": "## Learning Path",
-        "translatedContent": "## 学习路径  "
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "zLrFy+/R2Ft0D4cZmok5qIn2bxvaoHk4dfAIcOx2+Yw=",
-        "originContent": "These projects are arranged in order of increasing complexity:",
-        "translatedContent": "这些项目按复杂度递增排列：  "
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "ECrdXWVEbuwQ29/jHecnOKKAOeMkRUSsPL0xbrx/gn4=",
-        "originContent": "1. Start with Tic-Tac-Toe for basic programming concepts",
-        "translatedContent": "1. 从井字游戏开始，掌握基本编程概念  "
-      },
-      {
-        "row": 14,
-        "rowsha": "QH7hCYWqC3RzdCPj70YzOTlwcIKnT/dSIXTV4S86Wnc=",
-        "originContent": "2. Move to SHA-512 for algorithm implementation",
-        "translatedContent": "2. 进阶到 SHA-512 算法实现  "
-      },
-      {
-        "row": 15,
-        "rowsha": "/SyNCPYImHyd6J6Y06CCJDo/b3BbZsLXfOVEOvZe8k0=",
-        "originContent": "3. Try the UDP Server-Client for basic networking",
-        "translatedContent": "3. 尝试 UDP 服务器-客户端，实现基础网络通信  "
-      },
-      {
-        "row": 16,
-        "rowsha": "q8KElOIsdYPqAm7vk9NTsjqZcyczVhmRwDM8phQgsmA=",
-        "originContent": "4. Progress to HTTP Server and Chat System for more complex networking",
-        "translatedContent": "4. 进一步学习 HTTP 服务器和聊天系统，涉及更复杂的网络编程  "
-      },
-      {
-        "row": 17,
-        "rowsha": "saoc2yTmovnCHMhyrXrzMduOYmqsBFbrxiU2zRmZcNw=",
-        "originContent": "5. Finally, explore Port Scanner and Ping for advanced networking concepts",
-        "translatedContent": "5. 最后探索端口扫描和 Ping，实现高级网络概念  "
-      },
-      {
-        "row": 18,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 19,
-        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
-        "originContent": "## Contributing",
-        "translatedContent": "## 贡献  "
-      },
-      {
-        "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 21,
-        "rowsha": "gFetMMHtgOzgoGzOoWoC1t0uONpOfuW5Ae4Qvza/IY8=",
-        "originContent": "Feel free to:",
-        "translatedContent": "欢迎你：  "
-      },
-      {
-        "row": 22,
-        "rowsha": "wcwSGchEh/YlQ7cW0UoEFEkRRVQHUylYKd0CFi2M3P0=",
-        "originContent": "- Report bugs",
-        "translatedContent": "- 报告错误  "
-      },
-      {
-        "row": 23,
-        "rowsha": "0RYFMerwf7bi61RcTqo2OryVKBpdCO1V6a0fYdijHSI=",
-        "originContent": "- Suggest improvements",
-        "translatedContent": "- 提出改进建议  "
-      },
-      {
-        "row": 24,
-        "rowsha": "eMzK/M7OHAwYOMWAxkiVu87pOeTOE6VfN9ZZKIEH4nU=",
-        "originContent": "- Add new features",
-        "translatedContent": "- 添加新功能  "
-      },
-      {
-        "row": 25,
-        "rowsha": "KBwJiwZpCAKgm21/RHebYUgycJ9JQA7SmMBfUgealA8=",
-        "originContent": "- Create new projects",
-        "translatedContent": "- 创建新项目  "
-      },
-      {
-        "row": 26,
-        "rowsha": "dGgSPe4NCKMYJDQeFBihgL8m5xtWrc7nQTszjNf+I4M=",
-        "originContent": "- Improve documentation",
-        "translatedContent": "- 改善文档  "
-      },
-      {
-        "row": 27,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 28,
-        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
-        "originContent": "## License",
-        "translatedContent": "## 许可证  "
-      },
-      {
-        "row": 29,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 30,
-        "rowsha": "SkGDkEg5uThW6+17HcebRShOcoaBQQCtzsFB/Tz05Nw=",
-        "originContent": "This project is open source and available for learning purposes.",
-        "translatedContent": "本项目为开源，供学习用途。  "
-      },
-      {
-        "row": 31,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 32,
-        "rowsha": "VYQvUTBNlrg7S7O5MUfgs2AFM5VCFr7AjtAep+bJRBw=",
-        "originContent": "## Note",
-        "translatedContent": "## 注意事项  "
-      },
-      {
-        "row": 33,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 34,
-        "rowsha": "LoF7N+Ihme5mO8O8hqvR5wW1VJhzjB/lAzV06yi8fEQ=",
-        "originContent": "Some network-related projects (Port Scanner, Ping) require root/administrator privileges to run due to the use of raw sockets. Always use these tools responsibly and only on networks you have permission to test. ",
-        "translatedContent": "部分网络相关项目（端口扫描、Ping）因使用原始套接字，需要 root/管理员权限运行。请务必负责任地使用这些工具，并仅在获得许可的网络上进行测试。  "
-      },
-      {
-        "row": 35,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""

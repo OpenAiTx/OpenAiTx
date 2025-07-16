@@ -1,141 +1,172 @@
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=en">英語</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=zh-CN">簡体字中国語</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=zh-TW">繁体字中国語</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ko">韓国語</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=hi">ヒンディー語</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=th">タイ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fr">フランス語</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=de">ドイツ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=es">スペイン語</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">イタリア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ru">ロシア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pt">ポルトガル語</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=nl">オランダ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pl">ポーランド語</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ar">アラビア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fa">ペルシャ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=tr">トルコ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=vi">ベトナム語</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=id">インドネシア語</a>
+      </div>
+    </div>
+  </details>
+</div>
+
 # Cプログラミングプロジェクト集
 
-[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)
+[![コーヒーをおごってください](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)
 
-初心者が基本的なアルゴリズムからネットワークプログラミングまで様々なプログラミング概念を学び練習するために設計されたCプログラミングプロジェクトのコレクションです。各プロジェクトは自己完結型で、独自のドキュメントとビルドシステムを含んでいます。
+初心者がさまざまなプログラミングの概念を学び、練習するために設計されたCプログラミングプロジェクト集です。各プロジェクトは独立しており、独自のドキュメントとビルドシステムが含まれています。
 
 ## プロジェクト概要
 
-### 1. [SHA-512 実装](SHA-512/)
-以下を示す暗号学的ハッシュ関数の実装：
+### 1. [SHA-512実装](SHA-512/)
+暗号学的ハッシュ関数の実装例。以下を示します：
 - ビット操作
 - 複雑なアルゴリズム
 - メモリ管理
-- ファイル入出力操作
+- ファイルI/O操作
 
-### 2. [HTTP サーバー](http-server/)
-以下をカバーする基本的なHTTPサーバーの実装：
+### 2. [HTTPサーバー](http-server/)
+基本的なHTTPサーバー実装。以下をカバーします：
 - ソケットプログラミング
-- HTTPプロトコルの基本
+- HTTPプロトコルの基礎
 - ファイル配信
 - ネットワーク通信
 
-### 3. [UDP サーバー・クライアント](udp-server-client/)
-以下を教えるシンプルなUDPベースの通信システム：
+### 3. [UDPサーバー・クライアント](udp-server-client/)
+UDPベースのシンプルな通信システム。以下を学びます：
 - UDPソケットプログラミング
 - クライアント・サーバーアーキテクチャ
 - ネットワークプロトコル
 - メッセージ交換
 
 ### 4. [ポートスキャナー](port-scanner/)
-以下を示すネットワーク診断ツール：
+ネットワーク診断ツール。以下を示します：
 - TCPソケットプログラミング
 - ネットワークスキャン技術
-- エラーハンドリング
-- コマンドライン引数解析
+- エラー処理
+- コマンドライン引数の解析
 
-### 5. [Ping 実装](ping/)
-以下をカバーするカスタムpingユーティリティ：
+### 5. [Ping実装](ping/)
+カスタムPingユーティリティ。以下をカバーします：
 - ICMPプロトコル
-- ローソケットプログラミング
+- Rawソケットプログラミング
 - ネットワーク診断
 - 時間計測
 
-### 6. [三目並べ](tic-tac-toe/)
-以下を教えるクラシックゲームの実装：
+### 6. [三目並べ（Tic-Tac-Toe）](tic-tac-toe/)
+古典的なゲームの実装例。以下を学びます：
 - マルチプレイヤーゲームサーバー
 - ソケットプログラミング
 - ゲームロジック
 - ユーザー入力処理
 
 ### 7. [チャットシステム](chat-system/)
-以下を示すリアルタイムチャットアプリケーション：
+リアルタイムチャットアプリケーションの実装例。以下を示します：
 - TCPソケットプログラミング
 - マルチスレッド
 - リアルタイム通信
 - クライアント・サーバーアーキテクチャ
 
 ### 8. [字句解析器](lexical-analyser/)
-以下を示すシンプルなコンパイラフロントエンドコンポーネント：
+シンプルなコンパイラフロントエンドコンポーネント。以下を示します：
 - ソースコードのトークン化
-- 解析技術
-- コンパイラ設計原理
+- 解析技法
+- コンパイラ設計原則
 - 文字列操作
 
-### 9. [算術コンパイラ](arithmetic-compiler/)
-算術式を入力として受け取りアセンブリ風コードを生成するシンプルなコンパイラ：
+### 9. [算術式コンパイラ](arithmetic-compiler/)
+算術式を入力として受け取り、アセンブリ風コードを生成するシンプルなコンパイラ：
 - 字句解析（トークン化）
 - 式の解析と評価
 - アセンブリコード生成
-- コンパイラ構築の基本
+
+- コンパイラ構築の基礎
 
 ### 10. [アステロイドゲーム](asteroid-game/)
-落ちてくる小惑星を避ける船を操作するターミナルベースのゲーム：
+端末ベースのゲームで、あなたは宇宙船を操作して落下するアステロイドを回避します:
 
-- ゲーム状態管理
-- ユーザー入力処理
+- ゲーム状態の管理
+- ユーザー入力の処理
 - ターミナルベースのグラフィックス
-- リアルタイムゲームプレイメカニクス
+- リアルタイムのゲームプレイメカニクス
 - シンプルな衝突検出
 
 ## はじめに
 
-このリポジトリの各プロジェクトは自己完結型で、以下を含みます：
+このリポジトリの各プロジェクトは自己完結型で設計されており、以下が含まれます:
 - ソースコード
-- Makefile または CMake設定
-- ビルドと使用方法を記載したREADME
+- Makefile または CMake の設定
+- ビルドおよび使用方法を記載した README
 - 実装の詳細
 
-任意のプロジェクトを始めるには：
-1. プロジェクトディレクトリに移動
-2. プロジェクトのREADME.mdを読む
-3. ビルド手順に従う
-4. 記載された通りにプログラムを実行
+任意のプロジェクトで作業を始めるには:
+1. プロジェクトのディレクトリに移動します
+2. プロジェクトの README.md を読みます
+3. ビルド手順に従います
+4. 説明に従ってプログラムを実行します
 
-## 前提条件
+## 必要条件
 
-- GCCコンパイラ（Cプロジェクト用）
-- G++コンパイラ（C++プロジェクト用）
-- Makeユーティリティ
+- GCC コンパイラ（Cプロジェクト用）
+- G++ コンパイラ（C++プロジェクト用）
+- Make ユーティリティ
 - CMake（C/C++プロジェクト用）
-- C/C++プログラミングの基本的な理解  
-- ネットワークプロジェクトの場合：基本的なネットワーク概念の理解  
+- C/C++ プログラミングの基礎知識
+- ネットワークプロジェクトの場合: 基本的なネットワーク概念の理解
 
-## おすすめの書籍  
+## 推奨書籍
 
-Cプログラミングを始めるには、以下の包括的な書籍をお勧めします：  
-[The C Programming Language](https://amzn.to/3F2Y1Zl) - Cプログラミングの基礎とベストプラクティスを学ぶための必携リソース。  
+C プログラミングを始めるには、この包括的な書籍をおすすめします:
+[The C Programming Language](https://amzn.to/3F2Y1Zl) - C プログラミングの基礎とベストプラクティスを学ぶための必携リソースです。
 
-## 学習の流れ  
+## 学習パス
 
-これらのプロジェクトは複雑さが増す順に並んでいます：  
+これらのプロジェクトは、難易度が徐々に上がる順に並んでいます:
 
-1. 基本的なプログラミング概念のために三目並べから始める  
-2. アルゴリズム実装のためにSHA-512へ進む  
-3. 基本的なネットワーキングのためにUDPサーバー・クライアントに挑戦する  
-4. より複雑なネットワーキングのためにHTTPサーバーとチャットシステムへ進む  
-5. 最後に、高度なネットワーキング概念のためにポートスキャナーとPingを探求する  
+1. 基本的なプログラミング概念のために三目並べから始めましょう
+2. アルゴリズム実装のために SHA-512 に進みます
+3. 基本的なネットワークのために UDP サーバークライアントに挑戦します
+4. より高度なネットワークのために HTTP サーバーとチャットシステムに進みます
+5. 最後に、ポートスキャナと Ping で高度なネットワーク概念を探求します
 
-## コントリビュート  
+## コントリビュートについて
 
-以下を自由に行ってください：  
-- バグの報告  
-- 改善案の提案  
-- 新機能の追加  
-- 新しいプロジェクトの作成  
-- ドキュメントの改善  
+以下のことはご自由にどうぞ:
+- バグの報告
+- 改善案の提案
+- 新機能の追加
+- 新しいプロジェクトの作成
+- ドキュメントの改善
 
-## ライセンス  
+## ライセンス
 
-このプロジェクトはオープンソースであり、学習目的で利用可能です。  
+このプロジェクトはオープンソースで、学習目的で利用可能です。
 
-## 注意  
+## 注意
 
-一部のネットワーク関連プロジェクト（ポートスキャナー、Ping）は、rawソケットを使用するため実行にroot/管理者権限が必要です。これらのツールは必ず責任を持って使用し、許可のあるネットワークのみでテストしてください。  
+一部のネットワーク関連プロジェクト（ポートスキャナ、Ping）は、生のソケットを使用するため root/管理者権限が必要です。これらのツールは常に責任を持って、必ず許可されたネットワークのみで使用してください。
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-14
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
 
 ---
