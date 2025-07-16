@@ -1,7 +1,14 @@
-# 🎶 ThinkSound
+<h1 align="center">ThinkSound</h1>
 
 <p align="center">
-  If you find this project useful, a star ⭐ on GitHub would be greatly appreciated!
+  🌐
+  <a href="https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=en">English</a> |
+  <a href="https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=zh-CN">Simplified Chinese</a> |
+  <a href="https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=zh-TW">Traditional Chinese</a> |
+  <a href="https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=es">Spanish</a> |
+  <a href="https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=fr">French</a> |
+  <a href="https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=ja">Japanese</a>
+  
 </p>
 
 <p align="center">
@@ -18,8 +25,13 @@
   </a>
   &nbsp;
   <a href="https://modelscope.cn/studios/iic/ThinkSound">
-    <img src="https://img.shields.io/badge/ModelScope-在线体验-green" alt="ModelScope"/>
+    <img src="https://img.shields.io/badge/ModelScope-Online%20Experience-green" alt="ModelScope"/>
   </a>
+</p>
+
+<p align="center">
+  If you find this project useful,<br>
+  a star ⭐ on GitHub would be greatly appreciated!
 </p>
 
 ---
@@ -32,12 +44,15 @@ PyTorch implementation for multimodal audio generation and editing: generate or 
 ---
 
 ## 📰 News
-- **2025.07** &nbsp; 🔥Online demo on [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) and [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) for interactive experience!
-- **2025.07** &nbsp; 🔥Released inference scripts and web interface; 
+- **2025.07.15** &nbsp; 📦 Simplified installation and usability: dependencies on PyPI for easy cross-platform setup; Windows `.bat` scripts automate environment creation and script running.
+- **2025.07.08** &nbsp;  🔧 Major update: model lightweighted and optimized memory and GPU usage, now supports high-throughput audio generation at scale!
+- **2025.07.01** &nbsp; 🔥Online demo on [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) and [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) for interactive experience!
+- **2025.07.01** &nbsp; 🔥Released inference scripts and web interface; 
 - **2025.06** &nbsp; 🔥[ThinkSound paper](https://arxiv.org/pdf/2506.21448) released on arXiv!
 - **2025.06** &nbsp; 🔥[Online Demo](http://thinksound-project.github.io/) is live - try it now!
 
 ---
+
 
 ## 🚀 Features
 
@@ -69,58 +84,127 @@ ThinkSound decomposes audio generation and editing into three interactive stages
 ```bash
 git clone https://github.com/liuhuadai/ThinkSound.git
 cd ThinkSound
-pip install -r requirements.txt
+conda create -n thinksound python=3.10
+conda activate thinksound
+pip install thinksound
 conda install -y -c conda-forge 'ffmpeg<7'
 # Download pretrained weights https://huggingface.co/liuhuadai/ThinkSound to Directory ckpts/
 # model weights can be also downloaded from https://www.modelscope.cn/models/iic/ThinkSound
 git lfs install
 git clone https://huggingface.co/liuhuadai/ThinkSound ckpts
+# To improve inference and training speed, you may optionally install a FlashAttention backend compatible with your system and PyTorch version.
 ```
+> ✅ **Windows Tip:**  
+> Windows users can simply run `setup_windows.bat` (or double-click it) to automatically create the conda environment, install all dependencies (including FFmpeg), and download the pretrained model — no manual setup required.  
+> Make sure `conda` and `git` are installed and available in your system PATH before running the script.
 
-**Make it executable**
+
+### ▶️ Run the Demo
+
+#### **Linux/macOS**
+
+
 ```bash
 chmod +x scripts/demo.sh
+./scripts/demo.sh <path-to-your-demo-video> <title> <CoT description> [use-half]
 ```
+#### **Windows**
 
-**Run the script**
+You can use the provided `.bat` script instead:
+
+
 ```bash
-./scripts/demo.sh <video_path> <caption> <CoT description>
+.\scripts\demo.bat <path-to-your-demo-video> <title> <CoT description> [use-half]
 ```
+**Note:**
+
+* `<path-to-your-demo-video>`: The path to a single video
+* `[use-half]` (optional): Add use-half at the end to enable half precision feature extraction.
+
+---
+
+### 📦 Batch Inference
+
+#### **Linux/macOS**
+
+
+```bash
+chmod +x scripts/eval_batch.sh
+./scripts/eval_batch.sh <video_path> <csv_path> <save_path (optional)> [use-half]
+```
+#### **Windows**
+
+Use the corresponding `.bat` script:
+
+
+```bash
+.\scripts\eval_batch.bat <video_path> <csv_path> <save_path (optional)> [use-half]
+```
+**Note:**
+
+* `<video_path>`: Path to the root directory containing all .mp4 videos to be processed (all videos must be of equal duration).
+* `<csv_path>`: A CSV file with text prompts for each video (see `demo_test.csv` for format).
+* `<save_path>` (optional): Where to save generated audio. Defaults to `results/features`.
+* `[use-half]` (optional): Add use-half at the end to enable half precision feature extraction.
+
+---
 
 
 ### Web Interface Usage
 
 For an interactive experience, launch the Gradio web interface:
 
+
 ```bash
 python app.py
 ```
-
 ---
-## 📝 TODO
 
-- ☐ Release training scripts for ThinkSound models
-- ☐ Open-source AudioCoT dataset and automated pipeline
-- ☐ Provide detailed documentation and API reference
-- ☐ Add support for additional modalities and downstream tasks
-
+## 📝 TODO & Future Plans
+* - [ ] Release training scripts for ThinkSound models (Expected before 07/20/2025)
+* - [ ] Open-source AudioCoT dataset and automated pipeline (Expected before 07/23/2025)
+* - [ ] Provide a ready-to-use environment image (Expected before 07/23/2025)
+* - [ ] Release a more powerful foundation model covering multiple domains to provide more engaging and immersive foley creation (Expected by end of August 2025)
+* - [ ] Add support for additional modalities and downstream tasks (Expected before end of July 2025)
+* - [ ] Release models at different scales (Expected before end of July 2025)
+* - [x] A beginner-friendly Windows quick-start README
 ---
+
 
 ## 📄 License
 
-This project is released under the [Apache 2.0 License](LICENSE).
+This project is released under the Apache 2.0 License.
 
-> **Note:**  
-> The code, models, and dataset are **for research and educational purposes only**.  
+> **Note:**
+> The code, models, and dataset are **for research and educational purposes only**.
 > **Commercial use is NOT permitted.**
->
 > For commercial licensing, please contact the authors.
+
+**📦 Third-Party Components**
+
+* **Stable Audio Open VAE** (by Stability AI):
+  This repository includes a fine-tuned VAE from [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/), licensed under the [Stability AI Community License](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md).
+  **Commercial use and redistribution require prior permission from Stability AI.**
+
+* 📘 **All other code and models** are released under the Apache License 2.0.
+
+---
+
+## Acknowledgements
+
+Many thanks to:
+
+* **stable-audio-tools** (by Stability AI):
+For providing an easy-to-use framework for audio generation, as well as the VAE module and weights.
+* **MMAudio**:
+  For the implementation of the MM-DiT backbone in the audio domain.
 
 ---
 
 ## 📖 Citation
 
 If you find ThinkSound useful in your research or work, please cite our paper:
+
 
 ```bibtex
 @misc{liu2025thinksoundchainofthoughtreasoningmultimodal,
@@ -133,15 +217,16 @@ If you find ThinkSound useful in your research or work, please cite our paper:
       url={https://arxiv.org/abs/2506.21448}, 
 }
 ```
-
 ---
 
 ## 📬 Contact
 
 ✨ Feel free to [open an issue](https://github.com/liuhuadai/ThinkSound/issues) or contact us via email ([liuhuadai@zju.edu.cn](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/mailto:liuhuadai@zju.edu.cn)) if you have any questions or suggestions!
 
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-03
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
 
 ---

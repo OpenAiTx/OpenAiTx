@@ -1,6 +1,36 @@
+<div align="right">
+  <details>
+    <summary >🌐 Idioma</summary>
+    <div>
+      <div align="right">
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=en">English</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-CN">简体中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-TW">繁體中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ja">日本語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ko">한국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=hi">हिन्दी</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=th">ไทย</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr">Français</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de">Deutsch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es">Español</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">Itapano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru">Русский</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt">Português</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl">Nederlands</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pl">Polski</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ar">العربية</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fa">فارسی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=tr">Türkçe</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=vi">Tiếng Việt</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=id">Bahasa Indonesia</a></p>
+      </div>
+    </div>
+  </details>
+</div>
+
 # SparkyFitness - Alternativa autoalojada a MyFitnessPal
 
-SparkyFitness es una aplicación integral de seguimiento y gestión fitness diseñada para ayudar a los usuarios a monitorear su nutrición, ejercicio y mediciones corporales. Proporciona herramientas para el seguimiento diario del progreso, establecimiento de metas e informes detallados para apoyar un estilo de vida saludable.
+SparkyFitness es una aplicación integral de seguimiento y gestión de fitness diseñada para ayudar a los usuarios a monitorizar su nutrición, ejercicio y mediciones corporales. Ofrece herramientas para el seguimiento diario del progreso, establecimiento de metas e informes detallados que apoyan un estilo de vida saludable.
 
 
 ## ✨ Características
@@ -14,37 +44,37 @@ SparkyFitness es una aplicación integral de seguimiento y gestión fitness dise
 ### 💪 Registro de Ejercicio
 
 * **Registra tus entrenamientos**
-* **Explora y busca en una base de datos completa de ejercicios**
-* **Haz seguimiento del progreso fitness a lo largo del tiempo**
+* **Busca y explora una base de datos completa de ejercicios**
+* **Sigue tu progreso físico a lo largo del tiempo**
 
-### 💧 Monitoreo de Ingesta de Agua
+### 💧 Monitorización de Ingesta de Agua
 
-* **Haz seguimiento de tus metas diarias de hidratación**
-* **Registro de agua simple y rápido**
+* **Haz seguimiento de tus objetivos diarios de hidratación**
+* **Registro de agua fácil y rápido**
 
-### 📏 Mediciones Corporales
+### 📏 Medidas Corporales
 
 * **Registra métricas corporales** (por ejemplo, peso, cintura, brazos)
 * **Agrega tipos de medición personalizados**
-* **Visualiza el progreso mediante gráficos**
+* **Visualiza el progreso a través de gráficos**
 
 ### 🎯 Establecimiento de Metas
 
-* **Establece y gestiona metas de fitness y nutrición**
-* **Haz seguimiento del progreso en el tiempo**
+* **Establece y gestiona objetivos de fitness y nutrición**
+* **Haz seguimiento del progreso a lo largo del tiempo**
 
 ### 🗓️ Chequeos Diarios
 
 * **Monitorea la actividad diaria**
 * **Mantén la constancia con el seguimiento de hábitos**
 
-### 🤖 Coach Nutricional con IA (SparkyAI)
+### 🤖 Coach Nutricional AI (SparkyAI)
 
-* **Registra alimentos, ejercicio, estadísticas corporales y pasos vía chat**
-* **Carga imágenes de alimentos para registrar comidas automáticamente**
+* **Registra comida, ejercicio, datos corporales y pasos a través del chat**
+* **Sube imágenes de comida para registrar comidas automáticamente**
 * **Incluye historial de chat y orientación personalizada**
 
-### 🔒 Autenticación de Usuario y Perfiles
+### 🔒 Autenticación y Perfiles de Usuario
 
 * **Sistema de inicio de sesión seguro**
 * **Cambia entre perfiles de usuario**
@@ -57,95 +87,71 @@ SparkyFitness es una aplicación integral de seguimiento y gestión fitness dise
 
 ### 🎨 Temas Personalizables
 
-* **Alterna entre modo claro y oscuro**
-* **Diseño minimalista y sin distracciones**
+* **Cambia entre modo claro y oscuro**
+* **Diseñado con una interfaz minimalista y libre de distracciones**
 
-### ¿Necesitas ayuda?
-* **Únete a Discord**
+### ¿Necesitas Ayuda?
+* **Únete a discord**
   https://discord.gg/vcnMT5cPEA
 * **Publica en la discusión**
 
 
 ![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
 
-
-## 🚀 Primeros Pasos
+## 🚀 Comenzando
 
 Para ejecutar la aplicación SparkyFitness en tu máquina local, sigue estos pasos:
 
-### Requisitos Previos
-
-*   **Proyecto Supabase**: Necesitarás tener un proyecto Supabase configurado.
-    *   **Crea un nuevo proyecto en Supabase**: Ve a [Supabase](https://app.supabase.com/) y crea un nuevo proyecto. (También puedes intentar configurar un proyecto Supabase local si lo prefieres.)
-    *   Obtén la URL de tu Proyecto Supabase y la Anon Key desde la configuración del proyecto (sección API).
-    *   **Nota importante sobre la autenticación de Supabase:** Actualiza la configuración de URL en los ajustes de autenticación de Supabase para que coincida con tu dominio. Esto es crucial para que tu dominio funcione y para recibir invitaciones por correo electrónico para el registro. Supabase ofrece amplias funciones de seguridad y opciones SSO de terceros; configúralas según las necesidades de tu proyecto.
-    *   El despliegue automatizado de la base de datos en Supabase no funciona con IPV4 si tienes la versión gratuita de Supabase. Por lo tanto, debes configurar tu red para usar conexión IPV6. De lo contrario, la migración de la base de datos fallará y tendrás que desplegar manualmente.       
-
-
-    
+### Requisitos previos
 
 ### Instalación
 
-1.  **Configura las variables de entorno:**
-    Crea un archivo `.env` en la carpeta privada. Si utilizas Portainer, créalo directamente allí.
-    Agrega tus credenciales de Supabase:
-    ```
-    VITE_SUPABASE_URL="TU_URL_DEL_PROYECTO_SUPABASE"
-    VITE_SUPABASE_ANON_KEY="TU_ANON_KEY_SUPABASE"
-    SUPABASE_PROJECT_REF="TU_SUPABASE_PROJECT_REF"    
-    ```
+1.  **Configurar variables de entorno:**
 
-2.  **Ejecuta con Docker Compose:**
-    Descarga las imágenes de Docker e inicia los servicios:
+    Crea un archivo `.env` en el directorio raíz. Copia la plantilla del archivo de ejemplo `.env` y actualízalo con tu configuración. Consulta la WIKI para la configuración existente que usé. Trata de no cambiar el puerto, ya que puede que no funcione correctamente con los lanzamientos iniciales hasta que el proyecto sea estable.
+
+    *   **URL del panel de administración:** Para habilitar el panel de administración y configurar los ajustes de OIDC, asegúrate de que la variable de entorno `SPARKY_FITNESS_ADMIN_EMAIL` esté configurada con la URL adecuada para tu panel de administración.
+    
+
+2.  **Ejecutar con Docker Compose:**
+    Descarga las imágenes de Docker e inicia los servicios. Si has realizado cambios en el archivo `.env`, debes reconstruir las imágenes para asegurarte de que se apliquen las nuevas variables de entorno.
+
+
     ```sh
-```markdown
-    docker compose pull
-    docker compose up -d
+    docker-compose pull # Pull the latest Docker images
+    docker-compose up -d # Start the services in detached mode
     ```
+Consulta la configuración de ejemplo como referencia
+https://github.com/CodeWithCJ/SparkyFitness/wiki/Sample-Setup
 
 3.  **Accede a la Aplicación:**
-    Una vez que los servicios estén en funcionamiento, accede a SparkyFitness en tu navegador web en:
-    ```
-    http://localhost:3000
-    ```
+    Una vez que los servicios estén en funcionamiento, accede a SparkyFitness en tu navegador web en la URL configurada para tu frontend (por ejemplo, `http://localhost:3004` o `http://tu_frontend_ip_o_dominio:3004`).
 
-4.  **Chatbot IA - Configuración Opcional:**
-    Para habilitar la funcionalidad completa del Chatbot de IA, incluida el almacenamiento seguro de la clave API y el acceso a la base de datos, sigue estos pasos:
+4.  **Chatbot de IA - Configuración Opcional:**
+    Para habilitar la funcionalidad completa del Chatbot de IA, deberás configurar las claves API necesarias dentro de la configuración de la aplicación después de iniciar sesión.
+  
+5.  **Configuración Inicial de la Aplicación:**
+    Después de iniciar sesión en la aplicación, navega al menú de configuración para:
+    *   Agregar tus proveedores de alimentos preferidos (por ejemplo, OpenFoodFacts es una opción gratuita).
+    *   Ajustar tus preferencias y la configuración de tu perfil.
 
-    *   **Configura `AI_API_ENCRYPTION_KEY`:** Genera un secreto en "Supabase -> Edge Functions" -> "Environment Variables". Esta clave se utiliza para cifrar tus claves de IA cuando se almacenan en Supabase.
+### ⚠️ Problemas Conocidos / Funciones Beta ⚠️
 
-    *   **Genera `SUPABASE_ACCESS_TOKEN`:**
-        1.  Accede a tu consola de Docker.
-        2.  Ejecuta `supabase login` y autentícate usando la URL proporcionada.
-        3.  Recupera el token de acceso ejecutando `cat ~/.supabase/access-token`.
-        4.  Actualiza tu `docker-compose.yml` o la configuración de Portainer con este token para volver a desplegar.
-        5.  Después del redepliegue, inicia sesión en SparkyFitness y configura el servicio de IA con tu proveedor preferido.
-     
+Las siguientes funciones están actualmente en beta y pueden no haber sido probadas exhaustivamente. Espera posibles errores o funcionalidades incompletas:
 
-### Despliegue Manual de la Base de Datos y Funciones en Supabase
-**Método 1:  
-**Si no tienes habilitada la conexión de red IPV6, la migración de la base de datos fallará ya que la versión gratuita de Supabase no soporta conexión directa por IPV4.
+*   Chatbot de IA
+*   Soporte multiusuario
+*   Acceso de Familia y Amigos
+*   Integración con Apple Health Data
 
-   1. Descarga la última versión y descomprímela en tu PC.
-   2. Navega a la carpeta del proyecto. Docker debe estar en funcionamiento.
-   3. Ejecuta los siguientes comandos. (el despliegue de funciones solo es necesario para la configuración de IA. Si no necesitas ChatBOT, puedes omitirlo)
-``
-      supabase login  
-      supabase link  
-      supabase db push  
-      supabase functions deploy chat   
-``
-Vuelve a ejecutar Docker compose. La aplicación Front end comenzará a funcionar.
+Esta aplicación está en pleno desarrollo. Las cosas pueden no funcionar como se espera debido a la migración de Supabase a PostgreSQL. Se pueden introducir CAMBIOS IMPORTANTES hasta que la aplicación sea estable.
+Es posible que debas cambiar variables de entorno/Docker para las nuevas versiones. Por lo tanto, no se recomienda la actualización automática mediante Watchtower u otras apps similares. Lee las notas de la versión para cualquier CAMBIO IMPORTANTE.
 
-**Método 2:  
-   1. Descarga la última versión y descomprímela en tu PC.  
-   2. Navega a la carpeta del proyecto.  
-   3. Ve a supabase/migrations. Copia las sentencias SQL y ejecútalas en Supabase-->Project-->SQL Editor una por una en orden ASC.  
-   4. [Opcional] Haz lo mismo para supabase/functions/chat si necesitas el ChatBOT de IA. Copia index.js y ejecútalo en Supabase-->Project-->Edge Function-->Deploy new function.  
-```
+
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
 
 ---

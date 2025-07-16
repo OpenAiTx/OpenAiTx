@@ -1,64 +1,94 @@
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="right">
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=en">영어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-CN">간체중국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-TW">번체중국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ja">일본어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ko">한국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=hi">힌디어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=th">태국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr">프랑스어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de">독일어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es">스페인어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">이탈리아어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru">러시아어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt">포르투갈어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl">네덜란드어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pl">폴란드어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ar">아랍어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fa">페르시아어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=tr">터키어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=vi">베트남어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=id">인도네시아어</a></p>
+      </div>
+    </div>
+  </details>
+</div>
+
 # SparkyFitness - MyFitnessPal의 셀프호스팅 대안
 
-SparkyFitness는 사용자가 영양, 운동, 신체 치수를 모니터링할 수 있도록 설계된 종합적인 피트니스 추적 및 관리 애플리케이션입니다. 일일 진행 상황 추적, 목표 설정, 인사이트가 담긴 보고서 등 건강한 라이프스타일을 지원하는 도구를 제공합니다.
+SparkyFitness는 사용자가 영양, 운동, 신체 치수를 모니터링할 수 있도록 설계된 종합 피트니스 추적 및 관리 애플리케이션입니다. 일일 진행 상황 추적, 목표 설정, 건강한 생활을 지원하는 인사이트 리포트를 위한 도구를 제공합니다.
 
 
 ## ✨ 주요 기능
 
 ### 🍎 영양 추적
 
-* **일일 식단 기록**
-* **사용자 지정 음식 및 카테고리 생성 및 관리**
+* **일일 식사 기록**
+* **사용자 정의 음식 및 카테고리 생성 및 관리**
 * **요약 보기 및 대화형 차트로 트렌드 분석**
 
 ### 💪 운동 기록
 
-* **운동 기록 저장**
+* **운동 기록**
 * **포괄적인 운동 데이터베이스 탐색 및 검색**
 * **시간에 따른 피트니스 진행 상황 추적**
 
-### 💧 수분 섭취 관리
+### 💧 수분 섭취 모니터링
 
-* **일일 수분 섭취 목표 추적**
+* **일일 수분 목표 추적**
 * **간편하고 빠른 물 섭취 기록**
 
-### 📏 신체 치수
+### 📏 신체 측정
 
-* **신체 지표 기록** (예: 체중, 허리, 팔둘레 등)
+* **신체 지표 기록** (예: 체중, 허리, 팔)
 * **사용자 정의 측정 항목 추가**
 * **차트로 진행 상황 시각화**
 
 ### 🎯 목표 설정
 
 * **피트니스 및 영양 목표 설정 및 관리**
-* **시간에 따른 목표 달성도 추적**
+* **시간에 따른 목표 달성 추적**
 
 ### 🗓️ 일일 체크인
 
 * **일일 활동 모니터링**
-* **습관 추적으로 꾸준함 유지**
+* **습관 추적으로 일관성 유지**
 
 ### 🤖 AI 영양 코치 (SparkyAI)
 
-* **채팅을 통해 음식, 운동, 신체 통계, 걸음 수 기록**
-* **음식 사진 업로드로 자동 식사 기록**
-* **채팅 기록 및 개인별 맞춤 가이드 포함**
+* **채팅으로 음식, 운동, 신체 데이터, 걸음 수 기록**
+* **음식 이미지를 업로드하여 자동 식사 기록**
+* **채팅 기록 및 맞춤형 가이드 포함**
 
 ### 🔒 사용자 인증 및 프로필
 
-* **보안 로그인 시스템**
+* **안전한 로그인 시스템**
 * **사용자 프로필 간 전환**
 * **가족 접근 및 관리 지원**
 
-### 📊 종합 보고서
+### 📊 종합 리포트
 
-* **영양 및 신체 지표 요약 보고서 생성**
-* **주/월 단위 장기 트렌드 추적**
+* **영양 및 신체 지표 요약 생성**
+* **주·월 단위 장기 트렌드 추적**
 
 ### 🎨 맞춤형 테마
 
 * **라이트/다크 모드 전환**
-* **미니멀하고 집중을 방해하지 않는 인터페이스 디자인**
+* **미니멀하고 방해 없는 인터페이스 설계**
 
 ### 도움이 필요하신가요?
 * **디스코드 참여**
@@ -68,83 +98,60 @@ SparkyFitness는 사용자가 영양, 운동, 신체 치수를 모니터링할 �
 
 ![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
 
-
 ## 🚀 시작하기
 
-로컬 환경에서 SparkyFitness 애플리케이션을 실행하려면 다음 단계를 따르세요:
+SparkyFitness 애플리케이션을 로컬 머신에서 실행하려면 다음 단계를 따르세요:
 
-### 사전 준비
-
-*   **Supabase 프로젝트**: Supabase 프로젝트가 필요합니다.
-    *   **Supabase에서 새 프로젝트 생성**: [Supabase](https://app.supabase.com/)에 접속해 새 프로젝트를 만드세요. (원한다면 로컬 Supabase 프로젝트로 설정할 수도 있습니다.)
-    *   프로젝트 설정(API 섹션)에서 Supabase 프로젝트 URL과 Anon Key를 확인하세요.
-    *   **Supabase 인증 관련 중요 사항:** Supabase 인증 설정에서 URL 구성을 귀하의 도메인에 맞게 업데이트하세요. 이는 도메인이 정상 작동하고 회원가입 초대 이메일 수신을 위해 반드시 필요합니다. Supabase는 강력한 보안 기능과 외부 SSO 옵션도 제공하니, 프로젝트 요구에 맞게 구성하세요.
-    *   Supabase 무료 버전 사용 시, 자동 DB 배포는 IPV4에서 작동하지 않습니다. 네트워크를 IPV6 연결로 설정해야 하며, 그렇지 않으면 DB 마이그레이션이 실패하고 수동 배포가 필요합니다.       
-
-
-    
+### 사전 준비 사항
 
 ### 설치
 
-1.  **환경 변수 설정:**
-    private 폴더 아래에 `.env` 파일을 생성하세요. Portainer를 사용 중이라면 거기서 직접 생성할 수 있습니다. 
-    Supabase 자격 정보를 추가하세요:
-    ```
-    VITE_SUPABASE_URL="YOUR_SUPABASE_PROJECT_URL"
-    VITE_SUPABASE_ANON_KEY="YOUR_SUPABASE_ANON_KEY"
-    SUPABASE_PROJECT_REF="YOUR_SUPABASE_PROJECT_REF"    
-    ```
+1.  **환경 변수 구성:**
+
+    루트 디렉터리에 `.env` 파일을 생성하세요. 예시 `.env` 파일에서 템플릿을 복사한 후, 본인의 설정에 맞게 업데이트하세요. 제가 사용한 기존 구성은 WIKI를 참고하세요. 포트 번호는 프로젝트가 안정화되기 전까지는 변경하지 않는 것이 좋습니다. 변경 시 초기 릴리스에서 제대로 동작하지 않을 수 있습니다.
+
+    *   **관리자 패널 URL:** 관리자 패널을 활성화하고 OIDC 설정을 구성하려면 `SPARKY_FITNESS_ADMIN_EMAIL` 환경 변수가 관리자 패널에 적합한 URL로 설정되어 있는지 확인하세요.
+    
 
 2.  **Docker Compose로 실행:**
-    Docker 이미지를 받아와 서비스를 시작하세요:
-    ```sh
-    docker compose pull
-    docker compose up -d
-    ```
+    Docker 이미지를 가져오고 서비스를 시작하세요. `.env` 파일을 변경했다면, 새 환경 변수가 반영되도록 이미지를 다시 빌드해야 합니다.
 
-3.  **애플리케이션 접속:**
-    서비스가 모두 실행되면, 웹 브라우저에서 SparkyFitness에 접속하세요:
+
+    ```sh
+    docker-compose pull # Pull the latest Docker images
+    docker-compose up -d # Start the services in detached mode
     ```
-    http://localhost:3000
-    ```
+    참조 샘플 설정을 참고하세요
+    https://github.com/CodeWithCJ/SparkyFitness/wiki/Sample-Setup
+
+3.  **애플리케이션 접근:**
+    서비스가 모두 실행 중이면, 웹 브라우저에서 프론트엔드에 설정된 URL(예: `http://localhost:3004` 또는 `http://your_frontend_ip_or_domain:3004`)로 SparkyFitness에 접속하세요.
 
 4.  **AI 챗봇 - 선택적 구성:**
-    AI 챗봇의 전체 기능(보안 API 키 저장 및 데이터베이스 접근 포함)을 활성화하려면 아래 단계를 따르세요:
+    AI 챗봇의 모든 기능을 활성화하려면, 로그인 후 애플리케이션 설정에서 필요한 API 키를 구성해야 합니다.
+  
+5.  **초기 애플리케이션 설정:**
+    애플리케이션에 로그인한 후, 설정 메뉴로 이동하여 다음을 수행하세요:
+    *   선호하는 음식 공급자를 추가하세요(예: OpenFoodFacts는 무료 옵션입니다).
+    *   환경설정과 프로필 설정을 조정하세요.
 
-    *   **`AI_API_ENCRYPTION_KEY` 구성:** "Supabase -> Edge Functions" -> "Environment Variables"에서 시크릿을 생성하세요. 이 키는 Supabase에 AI 키를 저장할 때 암호화하는 데 사용됩니다.
+### ⚠️ 알려진 문제 / 베타 기능 ⚠️
 
-    *   **`SUPABASE_ACCESS_TOKEN` 생성:**
-        1.  Docker 콘솔에 접속합니다.
-        2.  `supabase login`을 실행하고 제공된 URL로 인증합니다.
-        3.  `cat ~/.supabase/access-token` 명령어를 실행하여 액세스 토큰을 확인합니다.
-        4.  해당 토큰을 `docker-compose.yml`이나 Portainer 설정에 업데이트하여 재배포합니다.
-        5.  재배포 후, SparkyFitness에 로그인하여 선호하는 AI 제공업체로 AI 서비스를 구성합니다.
-     
+다음 기능들은 현재 베타 단계이며, 충분히 테스트되지 않았을 수 있습니다. 버그나 완성되지 않은 기능이 있을 수 있습니다:
 
-### Supabase에 DB 및 Functions 수동 배포
-**방법 1:**  
-**IPV6 네트워크 연결이 활성화되어 있지 않으면, Supabase 무료 버전이 IPV4 직접 연결을 지원하지 않으므로 DB 마이그레이션이 실패합니다.
+*   AI 챗봇
+*   다중 사용자 지원
+*   가족 및 친구 접근
+*   Apple Health 데이터 통합
 
-   1. 최신 릴리스를 다운로드하여 PC에서 압축을 풉니다.
-   2. 프로젝트 폴더로 이동합니다. Docker가 실행 중이어야 합니다.
-   3. 아래 명령어를 실행합니다. (functions deploy는 AI 구성 시에만 필요합니다. ChatBOT이 필요 없다면 건너뛸 수 있습니다.)
-``
-      supabase login  
-      supabase link  
-      supabase db push  
-      supabase functions deploy chat   
-``
-Docker compose를 다시 실행하세요. 프론트엔드 앱이 정상적으로 동작합니다.
+이 애플리케이션은 활발히 개발 중입니다. Supabase에서 PostgreSQL로 마이그레이션 중이므로 예상과 다르게 동작할 수 있습니다. 애플리케이션이 안정화될 때까지 주요 변경사항이 도입될 수 있습니다.
+새 릴리스를 위해 Docker/환경 변수를 변경해야 할 수 있습니다. 따라서 Watchtower 등으로 자동 업그레이드는 권장하지 않습니다. 주요 변경사항은 릴리스 노트를 반드시 확인하세요.
 
-**방법 2:**  
-   1. 최신 릴리스를 다운로드하여 PC에서 압축을 풉니다.  
-   2. 프로젝트 폴더로 이동합니다.  
-   3. supabase/migrations로 이동하여 SQL 구문들을 복사한 뒤, Supabase-->Project-->SQL Editor에서 하나씩 ASC 순서로 실행합니다.  
-   4. [선택 사항] AI ChatBOT이 필요하다면, supabase/functions/chat에서도 동일하게 진행합니다. index.js를 복사해 Supabase-->Project-->Edge Function-->Deploy new function에서 실행합니다.  
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
 
 ---

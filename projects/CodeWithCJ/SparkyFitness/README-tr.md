@@ -1,6 +1,36 @@
-# SparkyFitness - MyFitnessPal’a Kendin Barındırabileceğiniz Alternatif
+<div align="right">
+  <details>
+    <summary >🌐 Dil</summary>
+    <div>
+      <div align="right">
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=en">English</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-CN">简体中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-TW">繁體中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ja">日本語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ko">한국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=hi">हिन्दी</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=th">ไทย</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr">Français</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de">Deutsch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es">Español</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">Itapano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru">Русский</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt">Português</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl">Nederlands</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pl">Polski</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ar">العربية</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fa">فارسی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=tr">Türkçe</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=vi">Tiếng Việt</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=id">Bahasa Indonesia</a></p>
+      </div>
+    </div>
+  </details>
+</div>
 
-SparkyFitness, kullanıcıların beslenme, egzersiz ve vücut ölçümlerini takip etmelerine yardımcı olmak için tasarlanmış kapsamlı bir fitness izleme ve yönetim uygulamasıdır. Günlük ilerleme takibi, hedef belirleme ve sağlıklı yaşam tarzını destekleyen anlamlı raporlar için araçlar sunar.
+# SparkyFitness - MyFitnessPal'a Kendi Sunucunda Alternatif
+
+SparkyFitness, kullanıcıların beslenme, egzersiz ve vücut ölçümlerini takip etmelerine yardımcı olmak için tasarlanmış kapsamlı bir fitness takip ve yönetim uygulamasıdır. Günlük ilerleme takibi, hedef belirleme ve sağlıklı yaşam tarzını destekleyen anlamlı raporlar sunar.
 
 
 ## ✨ Özellikler
@@ -8,144 +38,120 @@ SparkyFitness, kullanıcıların beslenme, egzersiz ve vücut ölçümlerini tak
 ### 🍎 Beslenme Takibi
 
 * **Günlük öğünlerinizi kaydedin**
-* **Özel yiyecekler ve kategoriler oluşturun ve yönetin**
+* **Özel yiyecek ve kategori oluşturup yönetin**
 * **Etkileşimli grafiklerle özetleri görüntüleyin ve eğilimleri analiz edin**
 
 ### 💪 Egzersiz Kaydı
 
 * **Antrenmanlarınızı kaydedin**
-* **Kapsamlı egzersiz veritabanında gezin ve arama yapın**
-* **Zaman içindeki fitness ilerlemenizi takip edin**
+* **Kapsamlı egzersiz veritabanında gezinin ve arama yapın**
+* **Zamanla fitness ilerlemenizi izleyin**
 
-### 💧 Su Tüketimi İzleme
+### 💧 Su Tüketimi Takibi
 
-* **Günlük su tüketim hedeflerinizi takip edin**
+* **Günlük su hedeflerinizi takip edin**
 * **Basit ve hızlı su kaydı**
 
 ### 📏 Vücut Ölçümleri
 
-* **Vücut metriklerini kaydedin** (örn. kilo, bel, kollar)
+* **Vücut ölçülerinizi kaydedin** (ör. kilo, bel, kol)
 * **Özel ölçüm türleri ekleyin**
-* **Grafikler aracılığıyla ilerlemeyi görselleştirin**
+* **Grafiklerle ilerlemenizi görselleştirin**
 
 ### 🎯 Hedef Belirleme
 
-* **Fitness ve beslenme hedefleri belirleyin ve yönetin**
-* **Zaman içindeki ilerlemeyi takip edin**
+* **Fitness ve beslenme hedefleri oluşturup yönetin**
+* **Zamanla ilerlemeyi takip edin**
 
 ### 🗓️ Günlük Kontroller
 
-* **Günlük aktiviteleri izleyin**
-* **Alışkanlık takibi ile tutarlı kalın**
+* **Günlük aktivitelerinizi izleyin**
+* **Alışkanlık takibiyle istikrarlı kalın**
 
 ### 🤖 AI Beslenme Koçu (SparkyAI)
 
-* **Sohbet üzerinden yemek, egzersiz, vücut istatistikleri ve adım kaydı yapın**
-* **Yemek fotoğraflarını yükleyerek otomatik olarak öğün kaydedin**
+* **Sohbetle yemek, egzersiz, vücut istatistikleri ve adım kaydı yapın**
+* **Yemekleri otomatik kaydetmek için yemek fotoğrafı yükleyin**
 * **Sohbet geçmişi ve kişiselleştirilmiş rehberlik içerir**
 
-### 🔒 Kullanıcı Kimlik Doğrulama & Profiller
+### 🔒 Kullanıcı Kimlik Doğrulama ve Profiller
 
 * **Güvenli giriş sistemi**
 * **Kullanıcı profilleri arasında geçiş yapın**
-* **Aile erişimi ve yönetimi desteği**
+* **Aile erişimi ve yönetimi için destek**
 
 ### 📊 Kapsamlı Raporlar
 
-* **Beslenme ve vücut metrikleri için özetler oluşturun**
+* **Beslenme ve vücut ölçümleri için özetler oluşturun**
 * **Haftalar veya aylar boyunca uzun vadeli eğilimleri takip edin**
 
 ### 🎨 Özelleştirilebilir Temalar
 
-* **Aydınlık ve karanlık mod arasında geçiş yapın**
-* **Minimum ve dikkat dağıtıcı olmayan arayüz tasarımı**
+* **Açık ve koyu mod arasında geçiş yapın**
+* **Minimal, dikkat dağıtmayan bir arayüzle tasarlandı**
 
 ### Yardıma mı ihtiyacınız var?
-* **Discord’a katılın**
+* **Discord'a katılın**
   https://discord.gg/vcnMT5cPEA
-* **Tartışmalara mesaj atın**
+* **Tartışmada paylaşın**
 
 
 ![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
-
 
 ## 🚀 Başlarken
 
 SparkyFitness uygulamasını kendi bilgisayarınızda çalıştırmak için şu adımları izleyin:
 
-### Ön Koşullar
-
-*   **Supabase Projesi**: Kurulu bir Supabase projesine ihtiyacınız olacak.
-    *   **Supabase’de yeni bir proje oluşturun**: [Supabase](https://app.supabase.com/) adresine gidin ve yeni bir proje oluşturun. (İsterseniz yerel bir Supabase projesi kurmayı da deneyebilirsiniz.)
-    *   Supabase Proje URL’inizi ve Anon Anahtarınızı proje ayarlarınızın (API bölümü) içinden alın.
-    *   **Supabase Kimlik Doğrulama ile İlgili Önemli Not:** Supabase Kimlik Doğrulama ayarlarından URL Yapılandırmanızı kendi alan adınıza uygun olacak şekilde güncelleyin. Bu, alan adınızın çalışması ve kayıt için e-posta daveti alabilmeniz için gereklidir. Supabase, kapsamlı güvenlik özellikleri ve üçüncü taraf SSO seçenekleri sunar; projenizin gereksinimlerine göre yapılandırın.
-    *   Ücretsiz Supabase sürümünde, otomatik veritabanı dağıtımı IPV4 ile çalışmaz. Bu yüzden Ağınızı IPV6 bağlantısı kullanacak şekilde yapılandırmanız gerekir. Aksi halde veritabanı geçişi başarısız olur ve manuel olarak dağıtmanız gerekir.       
-
-
-    
+### Gereksinimler
 
 ### Kurulum
 
 1.  **Ortam Değişkenlerini Yapılandırın:**
-    `private` klasörü altında bir `.env` dosyası oluşturun. Eğer Portainer kullanıyorsanız, doğrudan orada da oluşturabilirsiniz. 
-    Supabase kimlik bilgilerinizi ekleyin:
-    ```
-    VITE_SUPABASE_URL="YOUR_SUPABASE_PROJECT_URL"
-    VITE_SUPABASE_ANON_KEY="YOUR_SUPABASE_ANON_KEY"
-    SUPABASE_PROJECT_REF="YOUR_SUPABASE_PROJECT_REF"    
-    ```
+
+    Kök dizinde bir `.env` dosyası oluşturun. Örnek `.env` dosyasından şablonu kopyalayın ve kendi ayarlarınızla güncelleyin. Kullandığım mevcut yapılandırma için WIKI'ye bakın. Portları değiştirmemeye çalışın, çünkü proje kararlı hale gelene kadar ilk sürümlerde düzgün çalışmayabilirler.
+
+    *   **Admin Panel URL'si:** Admin panelini etkinleştirmek ve OIDC ayarlarını yapılandırmak için, `SPARKY_FITNESS_ADMIN_EMAIL` ortam değişkeninin Admin paneliniz için uygun URL'ye ayarlandığından emin olun.
+    
 
 2.  **Docker Compose ile Çalıştırın:**
-    Docker imajlarını çekin ve servisleri başlatın:
+    Docker imajlarını çekin ve servisleri başlatın. Eğer `.env` dosyasında değişiklik yaptıysanız, yeni ortam değişkenlerinin alınmasını sağlamak için imajları yeniden oluşturmalısınız.
+
+
     ```sh
-    docker compose pull
-    docker compose up -d
+    docker-compose pull # Pull the latest Docker images
+    docker-compose up -d # Start the services in detached mode
     ```
+    Referans kurulum örneğini inceleyin
+    https://github.com/CodeWithCJ/SparkyFitness/wiki/Sample-Setup
 
 3.  **Uygulamaya Erişim:**
-    Servisler başlatıldıktan sonra, SparkyFitness uygulamasına web tarayıcınızdan şu adresten erişebilirsiniz:
-    ```
-    http://localhost:3000
-    ```
+    Servisler başlatıldıktan sonra, SparkyFitness’a web tarayıcınızdan ön uç için yapılandırılmış URL üzerinden erişin (ör. `http://localhost:3004` veya `http://your_frontend_ip_or_domain:3004`).
 
-4.  **Yapay Zeka Sohbet Botu - Opsiyonel Yapılandırma:**
-    Yapay Zeka Sohbet Botu'nun tam işlevselliğini etkinleştirmek, güvenli API anahtarı depolama ve veritabanı erişimi dahil olmak üzere, aşağıdaki adımları izleyin:
+4.  **AI Sohbet Botu - İsteğe Bağlı Yapılandırma:**
+    AI Sohbet Botu’nun tam işlevselliğini etkinleştirmek için, giriş yaptıktan sonra uygulamanın ayarlarından gerekli API anahtarlarını yapılandırmanız gerekecektir.
+  
+5.  **İlk Uygulama Kurulumu:**
+    Uygulamaya giriş yaptıktan sonra, ayarlar menüsüne giderek:
+    *   Tercih ettiğiniz yemek sağlayıcılarını ekleyin (örneğin, OpenFoodFacts ücretsiz bir seçenektir).
+    *   Tercihlerinizi ve profil ayarlarınızı düzenleyin.
 
-    *   **`AI_API_ENCRYPTION_KEY` Yapılandırması:** "Supabase -> Edge Functions" -> "Environment Variables" kısmında bir gizli anahtar oluşturun. Bu anahtar, yapay zeka anahtarlarınızı Supabase içinde saklanırken şifrelemek için kullanılır.
+### ⚠️ Bilinen Sorunlar / Beta Özellikler ⚠️
 
-    *   **`SUPABASE_ACCESS_TOKEN` Oluşturma:**
-        1.  Docker konsolunuza erişin.
-        2.  `supabase login` komutunu çalıştırın ve verilen URL ile kimlik doğrulaması yapın.
-        3.  `cat ~/.supabase/access-token` komutunu çalıştırarak erişim anahtarını alın.
-        4.  Bu anahtarı `docker-compose.yml` veya Portainer yapılandırmanıza ekleyin ve yeniden dağıtım yapın.
-        5.  Yeniden dağıtımdan sonra, SparkyFitness'a giriş yapın ve tercih ettiğiniz sağlayıcı ile AI servisini yapılandırın.
-     
+Aşağıdaki özellikler şu anda beta aşamasındadır ve tam olarak test edilmemiş olabilir. Potansiyel hatalar veya eksik işlevlerle karşılaşabilirsiniz:
 
-### Supabase'e DB & Fonksiyonların Manuel Dağıtımı
-**Yöntem 1:  
-**Eğer IPV6 ağ bağlantınız etkin değilse, veritabanı geçişi başarısız olur çünkü Supabase'in ücretsiz sürümü IPV4 doğrudan bağlantıyı desteklemez.
+*   AI Sohbet Botu
+*   Çoklu kullanıcı desteği
+*   Aile & Arkadaşlar erişimi
+*   Apple Health Verisi entegrasyonu
 
-   1. Son sürümü indirin ve bilgisayarınıza çıkarın.
-   2. Proje klasörüne gidin. Docker'ın çalışıyor olması gerekir.
-   3. Aşağıdaki komutları çalıştırın. (functions deploy sadece AI yapılandırması için gereklidir. ChatBOT'a ihtiyacınız yoksa atlayabilirsiniz)
-``
-      supabase login  
-      supabase link  
-      supabase db push  
-      supabase functions deploy chat   
-``
-Docker compose'u tekrar çalıştırın. Ön uç uygulama çalışmaya başlayacaktır.
+Bu uygulama yoğun geliştirme aşamasındadır. Supabase’den PostgreSQL’e geçiş nedeniyle bazı şeyler beklediğiniz gibi çalışmayabilir. Uygulama kararlı hale gelene kadar KIRICI DEĞİŞİKLİKLER yapılabilir.
+Yeni sürümler için Docker/çevre değişkenlerini değiştirmeniz gerekebilir. Bu nedenle, Watchtower veya benzeri uygulamalarla otomatik güncellemeler önerilmez. Herhangi bir KIRICI DEĞİŞİKLİK için sürüm notlarını okuyun.
 
-**Yöntem 2:  
-   1. Son sürümü indirin ve bilgisayarınıza çıkarın.  
-   2. Proje klasörüne gidin.  
-   3. supabase/migrations dizinine gidin. SQL ifadelerini kopyalayıp Supabase-->Proje-->SQL Editör kısmında sırayla (ASC olarak) çalıştırın.  
-   4. [Opsiyonel] AI ChatBOT'a ihtiyacınız varsa, aynı işlemi supabase/functions/chat için de yapın. index.js dosyasını kopyalayıp Supabase-->Proje-->Edge Function-->Yeni fonksiyon dağıt kısmında çalıştırın.  
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
 
 ---
