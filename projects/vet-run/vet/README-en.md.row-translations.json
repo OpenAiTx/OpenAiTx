@@ -1,1 +1,122 @@
-[]
+[
+  {
+    "row": 1,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### Options"
+  },
+  {
+    "row": 2,
+    "rowsha": "2Bn5iuhOXV834WXY54OX6nIrj3MyKlyi/osZktMBfVI=",
+    "originContent": "#### Options",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "\\-f, \\"
+  },
+  {
+    "row": 4,
+    "rowsha": "QbhFMF3mehXGKhrMfyweQHY+2pjGaXi/Y9QRhl75qF0=",
+    "originContent": "\\-f, \\--force",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Skip all interactive prompts and execute immediately. Use with caution."
+  },
+  {
+    "row": 6,
+    "rowsha": "VXvHJPI4f3KeODPehblz1UamGRQbFqyKTMXaLemxiM8=",
+    "originContent": "Skip all interactive prompts and execute immediately. Use with caution.",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "\\-h, \\--help"
+  },
+  {
+    "row": 8,
+    "rowsha": "cxOL7Z9KGVkU04Htss3XT6i4coETXQO4/XSgGEgj6HU=",
+    "originContent": "\\-h, \\--help",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Display the help message."
+  },
+  {
+    "row": 10,
+    "rowsha": "IwyvC4qekFNvJTOJjQ+4E2sYFwbBCG71lbvam4CEK/M=",
+    "originContent": "Display the help message.",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Project Philosophy & Technical Decisions"
+  },
+  {
+    "row": 12,
+    "rowsha": "HWAi62koLApV885Wg2LhQPcUVSyIn+7QXO7ZCJk4QNI=",
+    "originContent": "## Project Philosophy & Technical Decisions",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Bash 4+ is a Required Dependency"
+  },
+  {
+    "row": 14,
+    "rowsha": "vv8eaTkHR9Tc7sVl4GXjvs2x5DynMTlddcPe1L/DoJs=",
+    "originContent": "### Bash 4+ is a Required Dependency",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`vet` is intentionally written to leverage modern bash features (arrays, \\[\\[ ... \\]\\], pipefail). We believe that for a security-focused tool, sacrificing robustness and readability for POSIX sh compatibility would be a dangerous trade-off."
+  },
+  {
+    "row": 16,
+    "rowsha": "1OVB0XpgLrwvzA94HbH6Z4nXNwbrSmu1Jovp2vmtN78=",
+    "originContent": "`vet` is intentionally written to leverage modern bash features (arrays, \\[\\[ ... \\]\\], pipefail). We believe that for a security-focused tool, sacrificing robustness and readability for POSIX sh compatibility would be a dangerous trade-off.",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "The safety features provided by modern bash are non-negotiable for `vet`'s mission."
+  },
+  {
+    "row": 18,
+    "rowsha": "jqKtHdtVo6IundQ/jes5i2t9l+ubYJ4cP3TyeknAoY4=",
+    "originContent": "The safety features provided by modern bash are non-negotiable for `vet`'s mission.",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "If you are in a minimal environment (like an Alpine container), please install bash as an explicit dependency:"
+  },
+  {
+    "row": 20,
+    "rowsha": "yUH9OZf2zgwZ3fBl6J3dS8YoonVA8dL0Qtj1Lw0PksY=",
+    "originContent": "If you are in a minimal environment (like an Alpine container), please install bash as an explicit dependency:",
+    "translatedContent": ""
+  }
+]
