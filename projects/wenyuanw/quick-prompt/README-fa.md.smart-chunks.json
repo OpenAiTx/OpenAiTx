@@ -1,0 +1,98 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Quick Prompt\n\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=it\">Itapano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png\" alt=\"Quick Prompt Logo\" width=\"128\" style=\"background: transparent;\">\n</p>\n\n一个强大的浏览器扩展，专注于提示词管理与快速输入。帮助用户创建、管理和组织提示词库，并在任何网页输入框中快速插入预设的 Prompt 内容，提高工作效率。\n\n> 由于浏览器插件只能用于网页端，因此开源了一个功能相同的 [Raycast 插件](https://github.com/wenyuanw/quick-prompt-raycast)，兼容浏览器插件数据格式，支持通过相同 JSON 数据无缝迁移。\n\n## ✨ 功能特性\n\n- 📚 **提示词管理**：便捷地创建、编辑和管理你的提示词库\n- 🚀 **快速输入**：在任何网页输入框中通过 `/p` 快速触发提示词选择器\n- ⌨️ 支持配置快捷键打开提示词选择器&保存选中文本为提示词\n- 📑 支持右键菜单直接保存选中文本为提示词\n- 🎯 支持自定义提示词，包括分类、标题、内容、标签和变量\n- 🧑‍💻 **变量支持**：提示词中可以使用 `{{变量名}}` 格式的变量，使用时可以填写具体的值\n- 💾 **数据备份**：支持提示词库的导出和导入，方便跨设备迁移和备份\n- 🔗 **Notion 同步**：支持将提示词库与 Notion 数据库同步\n- 🔍 支持搜索和过滤提示词功能\n- 🌙 自动适应系统的明暗主题\n\n## ⚠️ 已知问题\n\n- 在豆包（doubao.com）网页中，使用`/p`触发提示词选择器后部分输入框会出现没有清除掉`/p`的问题。不过别担心，我和我的老搭档 Cursor 正在日以继夜地寻找解决方案，争取早日修复它！\n\n## 🚀 使用方法\n\n1. **快速触发**：在任何网页的文本输入框中输入 `/p` 以触发提示词选择器\n2. **快捷键打开选择器**：使用 `Ctrl+Shift+P`（Windows/Linux）或 `Command+Shift+P`（macOS）打开提示词选择器\n3. **选择提示词**：从弹出的选择器中点击所需的提示词，它将自动插入到当前输入框中\n4. **快速保存提示词**：选中任意文本后，使用 `Ctrl+Shift+S`（Windows/Linux）或 `Command+Shift+S`（macOS）快速保存为提示词\n5. **右键菜单保存**：选中任意文本后，右键点击并选择\"保存该提示词\"，将选中内容保存为提示词\n6. **导出提示词库**：在管理页面点击\"导出\"按钮，将所有提示词导出为JSON文件保存到本地\n7. **导入提示词库**：在管理页面点击\"导入\"按钮，从本地JSON文件中导入提示词（支持合并或覆盖现有提示词）\n\n## 📸 界面预览\n\nQuick Prompt 提供直观友好的用户界面，让你轻松管理和使用提示词。\n\n### 提示词选择器\n\n![提示词选择器](https://github.com/user-attachments/assets/41b9897c-d701-4ff0-97f7-2f1754f570a8)\n\n![提示词选择器](https://github.com/user-attachments/assets/22d9d30c-b4c3-4e34-a0a0-8ef51e2cb942)\n\n使用 `/p` 快捷指令或快捷键可以在任何输入框中快速调出提示词选择器，让你方便地挑选并插入需要的提示词。\n\n### 提示词管理页面\n\n![提示词管理](https://github.com/user-attachments/assets/371ae51e-1cee-4a66-a2a5-cca017396872)\n\n在管理页面中，你可以创建新的提示词、编辑现有提示词、添加标签以及进行分类管理。界面简洁明了，操作便捷。\n\n### 右键菜单保存\n\n![右键菜单保存](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)\n\n只需选中网页中的任何文本，右键点击即可将其快速保存为提示词，提高工作效率。\n\n### 提示词变量输入\n\n![提示词变量弹窗](https://github.com/user-attachments/assets/c91c1156-983a-454d-aad0-5698b0291b9b)\n\n提示词支持配置变量，选取之后弹窗输入相应变量值。\n\n## ⚙️ 自定义配置\n\n1. 点击扩展图标，然后点击\"管理提示词\"按钮",
+    "ContentSha": "qkBessSVcA541PDs8NG9B78lNWXRO5H2EBZ+51srfJU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# پرامپت سریع\n\n<div align=\"right\">\n  <details>\n    <summary >🌐 زبان</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=en\">انگلیسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ja\">日本ی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ko\">کره‌ای</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=hi\">هندی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=th\">تایلندی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=fr\">فرانسوی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=de\">آلمانی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=es\">اسپانیایی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=it\">ایتالیایی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ru\">روسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pt\">پرتغالی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=nl\">هلندی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pl\">لهستانی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ar\">عربی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=tr\">ترکی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=vi\">ویتنامی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=id\">اندونزیایی</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png\" alt=\"Quick Prompt Logo\" width=\"128\" style=\"background: transparent;\">\n</p>\n\nیک افزونه قدرتمند برای مرورگر که بر مدیریت و ورود سریع پرامپت‌ها تمرکز دارد. این ابزار به کاربران کمک می‌کند تا بانک پرامپت خود را ایجاد، مدیریت و سازماندهی کنند و محتوای پرامپت‌های پیش‌فرض را در هر کادر متنی وب به سرعت وارد کنند تا بهره‌وری افزایش یابد.\n\n> از آنجا که افزونه‌های مرورگر فقط در محیط وب قابل استفاده هستند، افزونه [Raycast](https://github.com/wenyuanw/quick-prompt-raycast) با عملکردی مشابه و سازگار با فرمت داده افزونه مرورگر به صورت متن‌باز ارائه شده است تا بتوان با همان داده JSON به راحتی مهاجرت کرد.\n\n## ✨ ویژگی‌های اصلی\n\n- 📚 **مدیریت پرامپت**: ایجاد، ویرایش و مدیریت آسان بانک پرامپت‌های شما\n- 🚀 **ورود سریع**: فعال‌سازی سریع انتخاب‌گر پرامپت با `/p` در هر کادر متنی وب\n- ⌨️ پشتیبانی از پیکربندی کلید میانبر برای باز کردن انتخاب‌گر پرامپت و ذخیره متن انتخابی به عنوان پرامپت\n- 📑 پشتیبانی از ذخیره مستقیم متن انتخاب‌شده به عنوان پرامپت از طریق منوی راست‌کلیک\n- 🎯 پشتیبانی از پرامپت‌های سفارشی شامل دسته‌بندی، عنوان، محتوا، برچسب و متغیرها\n- 🧑‍💻 **پشتیبانی متغیرها**: امکان استفاده از متغیر با فرمت `{{نام_متغیر}}` در پرامپت و ورود مقدار در زمان استفاده\n- 💾 **پشتیبان‌گیری داده‌ها**: امکان خروجی و ورودی گرفتن از بانک پرامپت برای مهاجرت و پشتیبان‌گیری بین دستگاه‌ها\n- 🔗 **همگام‌سازی با Notion**: پشتیبانی از همگام‌سازی بانک پرامپت با پایگاه‌داده Notion\n- 🔍 پشتیبانی از جست‌وجو و فیلتر کردن پرامپت‌ها\n- 🌙 سازگاری خودکار با تم روشن و تیره سیستم\n\n## ⚠️ مشکلات شناخته‌شده\n\n- در وب‌سایت Doubao (doubao.com)، پس از فعال‌سازی انتخاب‌گر پرامپت با `/p`، برخی کادرهای ورودی ممکن است `/p` را پاک نکنند. اما نگران نباشید، من و همکار قدیمی‌ام Cursor شبانه‌روز در حال یافتن راه‌حل هستیم و به‌زودی آن را رفع خواهیم کرد!\n\n## 🚀 روش استفاده\n\n1. **فعال‌سازی سریع**: وارد کردن `/p` در هر کادر متنی وب برای باز کردن انتخاب‌گر پرامپت\n2. **باز کردن انتخاب‌گر با کلید میانبر**: استفاده از `Ctrl+Shift+P` (ویندوز/لینوکس) یا `Command+Shift+P` (مک) برای باز کردن انتخاب‌گر پرامپت\n3. **انتخاب پرامپت**: کلیک روی پرامپت مورد نظر از انتخاب‌گر ظاهرشده تا به طور خودکار در کادر ورودی درج شود\n4. **ذخیره سریع پرامپت**: انتخاب هر متن و استفاده از `Ctrl+Shift+S` (ویندوز/لینوکس) یا `Command+Shift+S` (مک) برای ذخیره سریع آن به عنوان پرامپت\n5. **ذخیره از منوی راست‌کلیک**: انتخاب هر متن، راست‌کلیک و انتخاب \"ذخیره این پرامپت\" برای ذخیره محتوای انتخابی به عنوان پرامپت\n6. **خروجی گرفتن از بانک پرامپت**: کلیک روی دکمه \"خروجی گرفتن\" در صفحه مدیریت برای ذخیره همه پرامپت‌ها به صورت فایل JSON در دستگاه\n7. **وارد کردن بانک پرامپت**: کلیک روی دکمه \"وارد کردن\" در صفحه مدیریت و وارد کردن پرامپت‌ها از فایل JSON (پشتیبانی از ادغام یا بازنویسی پرامپت‌های موجود)\n\n## 📸 پیش‌نمایش رابط کاربری\n\nQuick Prompt رابط کاربری بصری و دوستانه‌ای ارائه می‌دهد تا مدیریت و استفاده از پرامپت‌ها را برای شما آسان کند.\n\n### انتخاب‌گر پرامپت\n\n![انتخاب‌گر پرامپت](https://github.com/user-attachments/assets/41b9897c-d701-4ff0-97f7-2f1754f570a8)\n\n![انتخاب‌گر پرامپت](https://github.com/user-attachments/assets/22d9d30c-b4c3-4e34-a0a0-8ef51e2cb942)\n\nبا دستور سریع `/p` یا کلید میانبر می‌توانید انتخاب‌گر پرامپت را در هر کادر ورودی به سرعت فراخوانی کنید و به راحتی پرامپت دلخواه را انتخاب و درج کنید.\n\n### صفحه مدیریت پرامپت\n\n![مدیریت پرامپت](https://github.com/user-attachments/assets/371ae51e-1cee-4a66-a2a5-cca017396872)\n\nدر صفحه مدیریت، می‌توانید پرامپت جدید ایجاد کنید، پرامپت‌های موجود را ویرایش کنید، برچسب اضافه نمایید و مدیریت دسته‌بندی انجام دهید. رابط کاربری ساده و استفاده آسان است.\n\n### ذخیره با منوی راست‌کلیک\n\n![ذخیره با منوی راست‌کلیک](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)\n\nکافی است هر متنی را در صفحه وب انتخاب کنید و با راست‌کلیک آن را به سرعت به عنوان پرامپت ذخیره نمایید تا بهره‌وری شما افزایش یابد.\n\n### ورودی متغیر پرامپت\n\n![پنجره متغیر پرامپت](https://github.com/user-attachments/assets/c91c1156-983a-454d-aad0-5698b0291b9b)\n\nپرامپت‌ها قابلیت پیکربندی متغیر را دارند و پس از انتخاب، پنجره‌ای برای ورود مقدار متغیر باز می‌شود.\n\n## ⚙️ پیکربندی سفارشی\n\n1. روی آیکون افزونه کلیک کنید و سپس دکمه \"مدیریت پرامپت\" را بزنید",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "2. 在管理页面，你可以:\n   - 添加新的提示词\n   - 编辑现有提示词\n   - 删除不需要的提示词\n   - 为提示词添加标签进行分类\n   - 导出提示词库进行备份\n   - 导入之前备份的提示词库\n\n## 📦 安装指南\n\n### 从应用商店安装\n\n现已上线Chrome应用商店！[点击此处下载安装](https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd)\n\n### 从 GitHub Releases 获取\n\n1. 访问 [GitHub Releases 页面](https://github.com/wenyuanw/quick-prompt/releases)\n2. 下载最新版本的构建好的插件包\n3. 解压下载的文件\n4. 按照下方的说明安装已构建的扩展\n\n### 从源码构建\n\n1. 克隆仓库",
+    "ContentSha": "1ARswl7U+9Lrq+XFcr9augknD+8nWQPjGHaN58j2XVY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. در صفحه مدیریت، می‌توانید:\n   - افزودن کلمات کلیدی جدید\n   - ویرایش کلمات کلیدی موجود\n   - حذف کلمات کلیدی غیرضروری\n   - افزودن برچسب برای طبقه‌بندی کلمات کلیدی\n   - خروجی گرفتن از بانک کلمات کلیدی برای پشتیبان‌گیری\n   - وارد کردن بانک کلمات کلیدی پشتیبان‌گیری شده قبلی\n\n## 📦 راهنمای نصب\n\n### نصب از فروشگاه افزونه‌ها\n\nهم اکنون در فروشگاه Chrome در دسترس است! [برای دانلود و نصب اینجا کلیک کنید](https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd)\n\n### دریافت از GitHub Releases\n\n1. به [صفحه GitHub Releases](https://github.com/wenyuanw/quick-prompt/releases) مراجعه کنید\n2. آخرین نسخه افزونه ساخته‌شده را دانلود کنید\n3. فایل دانلودشده را استخراج کنید\n4. مطابق دستورالعمل زیر، افزونه ساخته‌شده را نصب کنید\n\n### ساخت از روی کد منبع\n\n1. مخزن را کلون کنید",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "   ```bash\n   git clone https://github.com/wenyuanw/quick-prompt.git\n   cd quick-prompt\n   ```",
+    "ContentSha": "O1ovs5inuvoojj4GsQMosz8tvgAKE9kPWYz/IqYMp6I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   git clone https://github.com/wenyuanw/quick-prompt.git\n   cd quick-prompt\n   ```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "2. 安装依赖",
+    "ContentSha": "hMTefiNByngjppyCXaPNDp1YHpIDS8sLaEsbhq9H+DM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. نصب وابستگی‌ها",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "   ```bash\n   pnpm install\n   ```",
+    "ContentSha": "6g5QNl+ne+RF0wmUU8x3GRv4UpMu8Uxa1Lz8uKw+hbg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   pnpm install\n   ```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n3. 开发和构建",
+    "ContentSha": "GU/2NkHCenRZB6pwkAWm/OxfTSL5BsC0B8Jmfl3UgKA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. توسعه و ساخت\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "   ```bash\n   # 开发模式 (Chrome)\n   pnpm dev\n   \n   # 开发模式 (Firefox)\n   pnpm dev:firefox\n   \n   # 构建扩展 (Chrome)\n   pnpm build\n   \n   # 构建扩展 (Firefox)\n   pnpm build:firefox\n   ```",
+    "ContentSha": "dCtmit12FM1v8UrNZbZQkE2/CeiNTkytsJeWQQgeXxs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   # 开发模式 (Chrome)\n   pnpm dev\n   \n   # 开发模式 (Firefox)\n   pnpm dev:firefox\n   \n   # 构建扩展 (Chrome)\n   pnpm build\n   \n   # 构建扩展 (Firefox)\n   pnpm build:firefox\n   ```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n### 安装已构建的扩展\n\n#### Chrome / Edge\n1. 打开扩展管理页面 (`chrome://extensions` 或 `edge://extensions`)\n2. 启用\"开发者模式\"\n3. 点击\"加载已解压的扩展\"\n4. 选择项目的 `.output/chrome-mv3/` 目录\n\n#### Firefox\n1. 打开 `about:debugging`\n2. 点击\"此 Firefox\"\n3. 点击\"临时加载附加组件\"\n4. 选择项目的 `.output/firefox-mv2/` 目录中的 `manifest.json` 文件\n\n## 📄 许可证\n\nMIT\n\n## 🤝 贡献指南\n\n欢迎提交 Pull Requests 和 Issues！\n\n1. Fork 这个仓库\n2. 创建你的功能分支 (`git checkout -b feature/amazing-feature`)\n3. 提交你的更改 (`git commit -m 'Add some amazing feature'`)\n4. 推送到分支 (`git push origin feature/amazing-feature`)\n5. 打开一个 Pull Request\n\n## 👏 贡献者名单\n\n感谢所有为项目做出贡献的开发者！\n\n<a href=\"https://github.com/wenyuanw/quick-prompt/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=wenyuanw/quick-prompt\" />\n</a>\n\n\n## Star History\n\n[![Star History Chart](https://api.star-history.com/svg?repos=wenyuanw/quick-prompt&type=Date)](https://www.star-history.com/#wenyuanw/quick-prompt&Date)\n",
+    "ContentSha": "JaLVXLKVuWl4uNNfCgT4JNkM/4XPrcs4GsQI7rISTWc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### نصب افزونه ساخته‌شده\n\n#### Chrome / Edge\n1. صفحه مدیریت افزونه‌ها را باز کنید (`chrome://extensions` یا `edge://extensions`)\n2. \"حالت توسعه‌دهنده\" را فعال کنید\n3. روی \"بارگذاری افزونه بدون فشرده‌سازی\" کلیک کنید\n4. پوشه `.output/chrome-mv3/` پروژه را انتخاب کنید\n\n#### Firefox\n1. `about:debugging` را باز کنید\n2. روی \"این Firefox\" کلیک کنید\n3. روی \"بارگذاری موقت افزونه\" کلیک کنید\n4. فایل `manifest.json` موجود در پوشه `.output/firefox-mv2/` پروژه را انتخاب کنید\n\n## 📄 مجوز\n\nMIT\n\n## 🤝 راهنمای مشارکت\n\nارسال Pull Request و Issue خوش‌آمدید!\n\n1. این مخزن را Fork کنید\n2. شاخه ویژگی خود را بسازید (`git checkout -b feature/amazing-feature`)\n3. تغییرات خود را ثبت کنید (`git commit -m 'Add some amazing feature'`)\n4. به شاخه خود push کنید (`git push origin feature/amazing-feature`)\n5. یک Pull Request باز کنید\n\n## 👏 فهرست مشارکت‌کنندگان\n\nاز همه توسعه‌دهندگانی که به پروژه کمک کرده‌اند، سپاسگزاریم!\n\n<a href=\"https://github.com/wenyuanw/quick-prompt/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=wenyuanw/quick-prompt\" />\n</a>\n\n\n## تاریخچه Star\n\n[![Star History Chart](https://api.star-history.com/svg?repos=wenyuanw/quick-prompt&type=Date)](https://www.star-history.com/#wenyuanw/quick-prompt&Date)\n\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  }
+]

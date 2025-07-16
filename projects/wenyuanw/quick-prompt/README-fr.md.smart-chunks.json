@@ -1,0 +1,1117 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Quick Prompt\n\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=it\">Itapano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png\" alt=\"Quick Prompt Logo\" width=\"128\" style=\"background: transparent;\">\n</p>\n\n一个强大的浏览器扩展，专注于提示词管理与快速输入。帮助用户创建、管理和组织提示词库，并在任何网页输入框中快速插入预设的 Prompt 内容，提高工作效率。\n\n> 由于浏览器插件只能用于网页端，因此开源了一个功能相同的 [Raycast 插件](https://github.com/wenyuanw/quick-prompt-raycast)，兼容浏览器插件数据格式，支持通过相同 JSON 数据无缝迁移。\n\n## ✨ 功能特性\n\n- 📚 **提示词管理**：便捷地创建、编辑和管理你的提示词库\n- 🚀 **快速输入**：在任何网页输入框中通过 `/p` 快速触发提示词选择器\n- ⌨️ 支持配置快捷键打开提示词选择器&保存选中文本为提示词\n- 📑 支持右键菜单直接保存选中文本为提示词\n- 🎯 支持自定义提示词，包括分类、标题、内容、标签和变量\n- 🧑‍💻 **变量支持**：提示词中可以使用 `{{变量名}}` 格式的变量，使用时可以填写具体的值\n- 💾 **数据备份**：支持提示词库的导出和导入，方便跨设备迁移和备份\n- 🔗 **Notion 同步**：支持将提示词库与 Notion 数据库同步\n- 🔍 支持搜索和过滤提示词功能\n- 🌙 自动适应系统的明暗主题\n\n## ⚠️ 已知问题\n\n- 在豆包（doubao.com）网页中，使用`/p`触发提示词选择器后部分输入框会出现没有清除掉`/p`的问题。不过别担心，我和我的老搭档 Cursor 正在日以继夜地寻找解决方案，争取早日修复它！\n\n## 🚀 使用方法\n\n1. **快速触发**：在任何网页的文本输入框中输入 `/p` 以触发提示词选择器\n2. **快捷键打开选择器**：使用 `Ctrl+Shift+P`（Windows/Linux）或 `Command+Shift+P`（macOS）打开提示词选择器\n3. **选择提示词**：从弹出的选择器中点击所需的提示词，它将自动插入到当前输入框中\n4. **快速保存提示词**：选中任意文本后，使用 `Ctrl+Shift+S`（Windows/Linux）或 `Command+Shift+S`（macOS）快速保存为提示词\n5. **右键菜单保存**：选中任意文本后，右键点击并选择\"保存该提示词\"，将选中内容保存为提示词\n6. **导出提示词库**：在管理页面点击\"导出\"按钮，将所有提示词导出为JSON文件保存到本地\n7. **导入提示词库**：在管理页面点击\"导入\"按钮，从本地JSON文件中导入提示词（支持合并或覆盖现有提示词）\n\n## 📸 界面预览\n\nQuick Prompt 提供直观友好的用户界面，让你轻松管理和使用提示词。\n\n### 提示词选择器\n\n![提示词选择器](https://github.com/user-attachments/assets/41b9897c-d701-4ff0-97f7-2f1754f570a8)\n\n![提示词选择器](https://github.com/user-attachments/assets/22d9d30c-b4c3-4e34-a0a0-8ef51e2cb942)\n\n使用 `/p` 快捷指令或快捷键可以在任何输入框中快速调出提示词选择器，让你方便地挑选并插入需要的提示词。\n\n### 提示词管理页面\n\n![提示词管理](https://github.com/user-attachments/assets/371ae51e-1cee-4a66-a2a5-cca017396872)\n\n在管理页面中，你可以创建新的提示词、编辑现有提示词、添加标签以及进行分类管理。界面简洁明了，操作便捷。\n\n### 右键菜单保存\n\n![右键菜单保存](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)\n\n只需选中网页中的任何文本，右键点击即可将其快速保存为提示词，提高工作效率。\n\n### 提示词变量输入\n\n![提示词变量弹窗](https://github.com/user-attachments/assets/c91c1156-983a-454d-aad0-5698b0291b9b)\n\n提示词支持配置变量，选取之后弹窗输入相应变量值。\n\n## ⚙️ 自定义配置\n\n1. 点击扩展图标，然后点击\"管理提示词\"按钮",
+    "ContentSha": "qkBessSVcA541PDs8NG9B78lNWXRO5H2EBZ+51srfJU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Quick Prompt\n\n<div align=\"right\">\n  <details>\n    <summary >🌐 Langue</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=it\">Itapano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png\" alt=\"Logo Quick Prompt\" width=\"128\" style=\"background: transparent;\">\n</p>\n\nUne puissante extension de navigateur, axée sur la gestion des prompts et la saisie rapide. Elle aide les utilisateurs à créer, gérer et organiser une bibliothèque de prompts, et à insérer rapidement du contenu prédéfini dans n'importe quel champ de saisie sur le web, améliorant ainsi l'efficacité du travail.\n\n> Comme les extensions de navigateur ne fonctionnent que sur le web, un [plugin Raycast](https://github.com/wenyuanw/quick-prompt-raycast) open source, aux fonctionnalités identiques et compatible avec le format de données de l’extension, est également proposé. La migration sans couture via le même fichier JSON est prise en charge.\n\n## ✨ Fonctionnalités\n\n- 📚 **Gestion des prompts** : créez, éditez et gérez facilement votre bibliothèque de prompts\n- 🚀 **Saisie rapide** : déclenchez rapidement le sélecteur de prompts dans n'importe quel champ de saisie web via `/p`\n- ⌨️ Prise en charge des raccourcis clavier pour ouvrir le sélecteur de prompts & sauvegarder du texte sélectionné comme prompt\n- 📑 Prise en charge de la sauvegarde directe du texte sélectionné comme prompt via le menu contextuel\n- 🎯 Prise en charge des prompts personnalisés, incluant catégories, titres, contenu, étiquettes et variables\n- 🧑‍💻 **Variables** : utilisez des variables au format `{{nom_variable}}` dans vos prompts, à renseigner lors de l’utilisation\n- 💾 **Sauvegarde des données** : exportez et importez votre bibliothèque de prompts, pour une migration et une sauvegarde faciles entre appareils\n- 🔗 **Synchronisation Notion** : synchronisez votre bibliothèque de prompts avec une base de données Notion\n- 🔍 Prise en charge de la recherche et du filtrage des prompts\n- 🌙 S’adapte automatiquement au thème clair ou sombre du système\n\n## ⚠️ Problèmes connus\n\n- Sur le site Doubao (doubao.com), après avoir déclenché le sélecteur de prompts avec `/p`, certains champs de saisie ne suppriment pas correctement le `/p`. Mais ne vous inquiétez pas, mon fidèle acolyte Cursor et moi travaillons jour et nuit pour trouver une solution et corriger ce souci au plus vite !\n\n## 🚀 Mode d’emploi\n\n1. **Déclenchement rapide** : dans tout champ de saisie web, tapez `/p` pour ouvrir le sélecteur de prompts\n2. **Ouvrir le sélecteur via raccourci** : utilisez `Ctrl+Shift+P` (Windows/Linux) ou `Command+Shift+P` (macOS) pour ouvrir le sélecteur\n3. **Choisir un prompt** : cliquez sur le prompt souhaité dans la fenêtre, il sera inséré automatiquement dans le champ de saisie actif\n4. **Sauvegarde rapide d’un prompt** : sélectionnez du texte puis utilisez `Ctrl+Shift+S` (Windows/Linux) ou `Command+Shift+S` (macOS) pour l’enregistrer rapidement comme prompt\n5. **Sauvegarde via menu contextuel** : après avoir sélectionné du texte, faites un clic droit et choisissez \"Enregistrer ce prompt\" pour l’ajouter à votre bibliothèque\n6. **Exporter la bibliothèque** : sur la page de gestion, cliquez sur \"Exporter\" pour sauvegarder tous vos prompts dans un fichier JSON local\n7. **Importer une bibliothèque** : sur la page de gestion, cliquez sur \"Importer\" pour ajouter des prompts depuis un fichier JSON local (fusion ou remplacement des prompts existants possible)\n\n## 📸 Aperçu de l’interface\n\nQuick Prompt propose une interface utilisateur intuitive, facilitant la gestion et l’utilisation de vos prompts.\n\n### Sélecteur de prompts\n\n![Sélecteur de prompts](https://github.com/user-attachments/assets/41b9897c-d701-4ff0-97f7-2f1754f570a8)\n\n![Sélecteur de prompts](https://github.com/user-attachments/assets/22d9d30c-b4c3-4e34-a0a0-8ef51e2cb942)\n\nUtilisez la commande `/p` ou le raccourci clavier pour faire apparaître rapidement le sélecteur de prompts dans n’importe quel champ de saisie et insérer le prompt de votre choix.\n\n### Page de gestion des prompts\n\n![Gestion des prompts](https://github.com/user-attachments/assets/371ae51e-1cee-4a66-a2a5-cca017396872)\n\nDans la page de gestion, vous pouvez créer de nouveaux prompts, éditer les existants, ajouter des étiquettes et organiser vos catégories. L’interface est claire et l’utilisation aisée.\n\n### Sauvegarde via menu contextuel\n\n![Sauvegarde menu contextuel](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)\n\nSélectionnez simplement n’importe quel texte sur une page web, faites un clic droit et sauvegardez-le instantanément comme prompt pour améliorer votre productivité.\n\n### Saisie des variables du prompt\n\n![Fenêtre variable du prompt](https://github.com/user-attachments/assets/c91c1156-983a-454d-aad0-5698b0291b9b)\n\nLes prompts prennent en charge la configuration de variables, une fenêtre s’affichera pour saisir leur valeur après sélection.\n\n## ⚙️ Configuration personnalisée\n\n1. Cliquez sur l’icône de l’extension puis sur le bouton \"Gérer les prompts\"",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "BQQeVjAOlJd0dk9mqySwLJtIMzrpsaK5yvrU8irSOhE=",
+        "originContent": "# Quick Prompt",
+        "translatedContent": "# Quick Prompt"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 5,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 Langue</summary>"
+      },
+      {
+        "row": 6,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 7,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 8,
+        "rowsha": "B+clk2uK9M+20IntsQj2kuyvWPgwwERKPJY0RhkHnSk=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=en\">English</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "au7RMSzrBPVx3QGQdQ43jZOfdWL2xirBQzNpvX846mE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "RBm/cXNoayT4O4SsrZ+dFV7c9LIvh/LqHCoMK7P1mbw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "x6fYi2hNaK2dEr4miEBpQESXeuK5bo6uwxuyf166DbA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "zK3j6GqqG13sqjVeG5UwJCAxOlhvz4aLY8fpyZ0PGN8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "uxE88yHTYXB0uWg5MofdqB+T1fC06YfuYwo60zehHn8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "PURshl6wRcmIeLDy+yOkxOnnrbZrHDviusO8bwW0wKY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "qQ9rmEfIwOYn5TQuyF4f82gP+hLkuApqloduvWN5ofU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=fr\">Français</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "YiBNuHpkX4nmjA2WiE7CgdU2HWWicX2aTsY6nJncuCY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "vXuEhGZpX8A5/sJgIdRlyM4raaRpxugCLPuXs4D3g+g=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=es\">Español</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "jFc8aR7gahQpSZZEOpI6r0zAkn7YNb/3Q8QCmga7UMk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=it\">Itapano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=it\">Itapano</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "cQ4Z54SpSvWQ7rpELRxfyAYU1djVQrDzddu92UiLU48=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "aruv92YRlSq+Uz/gfFaRhYX65MyBQKfopkg9CFoLH+k=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pt\">Português</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "/ibX1HI9Hv6vz9PaL0MK1LdKlmS3mzI67gnG9Qrn9Ig=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "2YIzl47REnC3dT5OUnqypeTU0twnLyeaKXN6p85rk4s=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "TjVOz7/NslUE1861u2VAt5wEA+H8GAvHW8Cz/QFaJUc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "565QXeAnJDPCmfFnjFQ2Zxu2lAgTj1ROoWVDZeuDHag=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "Zt3bCCg/pUKW2LCaTkZEM3Pd48+hU0g1oMlIbLwAOzY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "ujiIWtxHiHLGAszeWmjFJrQ/+fzkp0C1sOHYRp8QCR4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "ex/MCBrs+kyYrLgOAgim9gLEhYtYkecRtCWCBMoxXDU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 34,
+        "rowsha": "uHbecDDMJzZ/GnDF2Fjw2R+3VQBkcIHofGR6aTKOkJ4=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png\" alt=\"Quick Prompt Logo\" width=\"128\" style=\"background: transparent;\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png\" alt=\"Logo Quick Prompt\" width=\"128\" style=\"background: transparent;\">"
+      },
+      {
+        "row": 35,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "tzWzIE/zscIsMTrtb3prOM3Nq/DWbekwLTxayt0e1Kc=",
+        "originContent": "一个强大的浏览器扩展，专注于提示词管理与快速输入。帮助用户创建、管理和组织提示词库，并在任何网页输入框中快速插入预设的 Prompt 内容，提高工作效率。",
+        "translatedContent": "Une puissante extension de navigateur, axée sur la gestion des prompts et la saisie rapide. Elle aide les utilisateurs à créer, gérer et organiser une bibliothèque de prompts, et à insérer rapidement du contenu prédéfini dans n'importe quel champ de saisie sur le web, améliorant ainsi l'efficacité du travail."
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "oXR048cKdsvIa1Pc2orjS7oa5vTNvdkzXHVUfhLNC0g=",
+        "originContent": "> 由于浏览器插件只能用于网页端，因此开源了一个功能相同的 [Raycast 插件](https://github.com/wenyuanw/quick-prompt-raycast)，兼容浏览器插件数据格式，支持通过相同 JSON 数据无缝迁移。",
+        "translatedContent": "> Comme les extensions de navigateur ne fonctionnent que sur le web, un [plugin Raycast](https://github.com/wenyuanw/quick-prompt-raycast) open source, aux fonctionnalités identiques et compatible avec le format de données de l’extension, est également proposé. La migration sans couture via le même fichier JSON est prise en charge."
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "SJCwxOFbUZJfr4zlzFvzSZ3gAxaMdZb4/pEHq4kclhk=",
+        "originContent": "## ✨ 功能特性",
+        "translatedContent": "## ✨ Fonctionnalités"
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "GtsiDhPvy+IubTQmgRWVIeDyfJff/mOy93ZADIBwIFc=",
+        "originContent": "- 📚 **提示词管理**：便捷地创建、编辑和管理你的提示词库",
+        "translatedContent": "- 📚 **Gestion des prompts** : créez, éditez et gérez facilement votre bibliothèque de prompts"
+      },
+      {
+        "row": 44,
+        "rowsha": "EEuvX2hl1Rm+AYQ2WT3Ly+AJoSJW2BzwRInpnFkpUFo=",
+        "originContent": "- 🚀 **快速输入**：在任何网页输入框中通过 `/p` 快速触发提示词选择器",
+        "translatedContent": "- 🚀 **Saisie rapide** : déclenchez rapidement le sélecteur de prompts dans n'importe quel champ de saisie web via `/p`"
+      },
+      {
+        "row": 45,
+        "rowsha": "mQl5fKcOi62+PDNXyeI3fkFly3+qfWO9/ZFYepRwtj4=",
+        "originContent": "- ⌨️ 支持配置快捷键打开提示词选择器&保存选中文本为提示词",
+        "translatedContent": "- ⌨️ Prise en charge des raccourcis clavier pour ouvrir le sélecteur de prompts & sauvegarder du texte sélectionné comme prompt"
+      },
+      {
+        "row": 46,
+        "rowsha": "70zsFFQXub7pLOZZgBBxhwNPsLhNywiZo3JcWqYe7mw=",
+        "originContent": "- 📑 支持右键菜单直接保存选中文本为提示词",
+        "translatedContent": "- 📑 Prise en charge de la sauvegarde directe du texte sélectionné comme prompt via le menu contextuel"
+      },
+      {
+        "row": 47,
+        "rowsha": "tlLFuAXqHWWiGff0CV6LGdduy0OIcTQ5A6zQ6W6tmMs=",
+        "originContent": "- 🎯 支持自定义提示词，包括分类、标题、内容、标签和变量",
+        "translatedContent": "- 🎯 Prise en charge des prompts personnalisés, incluant catégories, titres, contenu, étiquettes et variables"
+      },
+      {
+        "row": 48,
+        "rowsha": "RKL4B+C7osmFAOrOdmK3bgCmJieyHBIOKK2I/XLgVqw=",
+        "originContent": "- 🧑‍💻 **变量支持**：提示词中可以使用 `{{变量名}}` 格式的变量，使用时可以填写具体的值",
+        "translatedContent": "- 🧑‍💻 **Variables** : utilisez des variables au format `{{nom_variable}}` dans vos prompts, à renseigner lors de l’utilisation"
+      },
+      {
+        "row": 49,
+        "rowsha": "WHMVO7v96lei3fTuyXZDjLaSDC7wW5zk486vxbC0Oqs=",
+        "originContent": "- 💾 **数据备份**：支持提示词库的导出和导入，方便跨设备迁移和备份",
+        "translatedContent": "- 💾 **Sauvegarde des données** : exportez et importez votre bibliothèque de prompts, pour une migration et une sauvegarde faciles entre appareils"
+      },
+      {
+        "row": 50,
+        "rowsha": "TfSPoR9twlROSnWf20ebWsuoFzvz+1+8oZcOCeHk224=",
+        "originContent": "- 🔗 **Notion 同步**：支持将提示词库与 Notion 数据库同步",
+        "translatedContent": "- 🔗 **Synchronisation Notion** : synchronisez votre bibliothèque de prompts avec une base de données Notion"
+      },
+      {
+        "row": 51,
+        "rowsha": "JQ1O+akwOwY+KhmThPWzjdbQ9cWJLBGkeOmXogeJkUA=",
+        "originContent": "- 🔍 支持搜索和过滤提示词功能",
+        "translatedContent": "- 🔍 Prise en charge de la recherche et du filtrage des prompts"
+      },
+      {
+        "row": 52,
+        "rowsha": "EYfM28nEDhe6U2WJCpOnNqkfDqI4rO8kJL0nrskd+UI=",
+        "originContent": "- 🌙 自动适应系统的明暗主题",
+        "translatedContent": "- 🌙 S’adapte automatiquement au thème clair ou sombre du système"
+      },
+      {
+        "row": 53,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 54,
+        "rowsha": "34U4Nf6iXWVxV0gZXXHKyD5TLnJ/A/Ep8dgVcb/wD9Q=",
+        "originContent": "## ⚠️ 已知问题",
+        "translatedContent": "## ⚠️ Problèmes connus"
+      },
+      {
+        "row": 55,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 56,
+        "rowsha": "n+bKYHa5/I3tg/+GqL7iqd9N5eR0kUmUqVd32zZEhuM=",
+        "originContent": "- 在豆包（doubao.com）网页中，使用`/p`触发提示词选择器后部分输入框会出现没有清除掉`/p`的问题。不过别担心，我和我的老搭档 Cursor 正在日以继夜地寻找解决方案，争取早日修复它！",
+        "translatedContent": "- Sur le site Doubao (doubao.com), après avoir déclenché le sélecteur de prompts avec `/p`, certains champs de saisie ne suppriment pas correctement le `/p`. Mais ne vous inquiétez pas, mon fidèle acolyte Cursor et moi travaillons jour et nuit pour trouver une solution et corriger ce souci au plus vite !"
+      },
+      {
+        "row": 57,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 58,
+        "rowsha": "/xsoEXJTiBxmBpCrEyF2yobmXMlxVv/4g/PRCO83FEc=",
+        "originContent": "## 🚀 使用方法",
+        "translatedContent": "## 🚀 Mode d’emploi"
+      },
+      {
+        "row": 59,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 60,
+        "rowsha": "kA8QpMb92STm5uwesJ1qus35cfkMdGuYhJOTaBwuLjo=",
+        "originContent": "1. **快速触发**：在任何网页的文本输入框中输入 `/p` 以触发提示词选择器",
+        "translatedContent": "1. **Déclenchement rapide** : dans tout champ de saisie web, tapez `/p` pour ouvrir le sélecteur de prompts"
+      },
+      {
+        "row": 61,
+        "rowsha": "0EVD7qhEEHExTdu9+DFEbS+aLy+YlAc9wl9BH8sX5a0=",
+        "originContent": "2. **快捷键打开选择器**：使用 `Ctrl+Shift+P`（Windows/Linux）或 `Command+Shift+P`（macOS）打开提示词选择器",
+        "translatedContent": "2. **Ouvrir le sélecteur via raccourci** : utilisez `Ctrl+Shift+P` (Windows/Linux) ou `Command+Shift+P` (macOS) pour ouvrir le sélecteur"
+      },
+      {
+        "row": 62,
+        "rowsha": "z6y3B3PZNKJxe6SpTeILJ4uMt2SXJP9W25fm8UQnjMI=",
+        "originContent": "3. **选择提示词**：从弹出的选择器中点击所需的提示词，它将自动插入到当前输入框中",
+        "translatedContent": "3. **Choisir un prompt** : cliquez sur le prompt souhaité dans la fenêtre, il sera inséré automatiquement dans le champ de saisie actif"
+      },
+      {
+        "row": 63,
+        "rowsha": "ZY0xT0+hOeYGRoHK/EGf+gsO/J595r3OSCAhB6OQb+Y=",
+        "originContent": "4. **快速保存提示词**：选中任意文本后，使用 `Ctrl+Shift+S`（Windows/Linux）或 `Command+Shift+S`（macOS）快速保存为提示词",
+        "translatedContent": "4. **Sauvegarde rapide d’un prompt** : sélectionnez du texte puis utilisez `Ctrl+Shift+S` (Windows/Linux) ou `Command+Shift+S` (macOS) pour l’enregistrer rapidement comme prompt"
+      },
+      {
+        "row": 64,
+        "rowsha": "7sDt8RwWUubjFZGmmIR+dAceD9DgSzSb52tV+hsVTMc=",
+        "originContent": "5. **右键菜单保存**：选中任意文本后，右键点击并选择\"保存该提示词\"，将选中内容保存为提示词",
+        "translatedContent": "5. **Sauvegarde via menu contextuel** : après avoir sélectionné du texte, faites un clic droit et choisissez \"Enregistrer ce prompt\" pour l’ajouter à votre bibliothèque"
+      },
+      {
+        "row": 65,
+        "rowsha": "uwnfyG2RQwJFKZAHBtfFVsFmm57+J18IV6yfLiWeQJQ=",
+        "originContent": "6. **导出提示词库**：在管理页面点击\"导出\"按钮，将所有提示词导出为JSON文件保存到本地",
+        "translatedContent": "6. **Exporter la bibliothèque** : sur la page de gestion, cliquez sur \"Exporter\" pour sauvegarder tous vos prompts dans un fichier JSON local"
+      },
+      {
+        "row": 66,
+        "rowsha": "K5VbPl5eAlHkVm0ztTzWOoyhDiFTel3gjDba19h3P+c=",
+        "originContent": "7. **导入提示词库**：在管理页面点击\"导入\"按钮，从本地JSON文件中导入提示词（支持合并或覆盖现有提示词）",
+        "translatedContent": "7. **Importer une bibliothèque** : sur la page de gestion, cliquez sur \"Importer\" pour ajouter des prompts depuis un fichier JSON local (fusion ou remplacement des prompts existants possible)"
+      },
+      {
+        "row": 67,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 68,
+        "rowsha": "/ZANIWmWF4WXBgt/TFPsuDkcOeTaE3D2rr7kdq5T9gs=",
+        "originContent": "## 📸 界面预览",
+        "translatedContent": "## 📸 Aperçu de l’interface"
+      },
+      {
+        "row": 69,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 70,
+        "rowsha": "5WHK4XY/BBCceIJ+3K3lcbUB8OkFvr0v+3VqJrucnhY=",
+        "originContent": "Quick Prompt 提供直观友好的用户界面，让你轻松管理和使用提示词。",
+        "translatedContent": "Quick Prompt propose une interface utilisateur intuitive, facilitant la gestion et l’utilisation de vos prompts."
+      },
+      {
+        "row": 71,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 72,
+        "rowsha": "u73YHSn4wrl7lcwjziA2GHVB1Ra8fkBwEPwSgY8OP/M=",
+        "originContent": "### 提示词选择器",
+        "translatedContent": "### Sélecteur de prompts"
+      },
+      {
+        "row": 73,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 74,
+        "rowsha": "jb4oH2RwyCK+cQk7d99X89/pYnp6GagxrIubMWV9298=",
+        "originContent": "![提示词选择器](https://github.com/user-attachments/assets/41b9897c-d701-4ff0-97f7-2f1754f570a8)",
+        "translatedContent": "![Sélecteur de prompts](https://github.com/user-attachments/assets/41b9897c-d701-4ff0-97f7-2f1754f570a8)"
+      },
+      {
+        "row": 75,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 76,
+        "rowsha": "IvI5eALBf19NVw1GM4KzsmYGlFQZmhxhQDcJK1GAy+w=",
+        "originContent": "![提示词选择器](https://github.com/user-attachments/assets/22d9d30c-b4c3-4e34-a0a0-8ef51e2cb942)",
+        "translatedContent": "![Sélecteur de prompts](https://github.com/user-attachments/assets/22d9d30c-b4c3-4e34-a0a0-8ef51e2cb942)"
+      },
+      {
+        "row": 77,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 78,
+        "rowsha": "DcYrCg6WH1s1JDfqY+ZnSfsTkwdaMQFpJpaPZGPvJU8=",
+        "originContent": "使用 `/p` 快捷指令或快捷键可以在任何输入框中快速调出提示词选择器，让你方便地挑选并插入需要的提示词。",
+        "translatedContent": "Utilisez la commande `/p` ou le raccourci clavier pour faire apparaître rapidement le sélecteur de prompts dans n’importe quel champ de saisie et insérer le prompt de votre choix."
+      },
+      {
+        "row": 79,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 80,
+        "rowsha": "ZP06CKzRod59v5NiCtTZsf/noQ6DHcgN49oI3eMRU8U=",
+        "originContent": "### 提示词管理页面",
+        "translatedContent": "### Page de gestion des prompts"
+      },
+      {
+        "row": 81,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 82,
+        "rowsha": "XU77i86IIUT+6dATObEuq34dAUUG0zyTPuIIH81NWPA=",
+        "originContent": "![提示词管理](https://github.com/user-attachments/assets/371ae51e-1cee-4a66-a2a5-cca017396872)",
+        "translatedContent": "![Gestion des prompts](https://github.com/user-attachments/assets/371ae51e-1cee-4a66-a2a5-cca017396872)"
+      },
+      {
+        "row": 83,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 84,
+        "rowsha": "qtfzwsFCur9KPBAJwSMWGGwxunbmM+Ui1Jky2NncyEc=",
+        "originContent": "在管理页面中，你可以创建新的提示词、编辑现有提示词、添加标签以及进行分类管理。界面简洁明了，操作便捷。",
+        "translatedContent": "Dans la page de gestion, vous pouvez créer de nouveaux prompts, éditer les existants, ajouter des étiquettes et organiser vos catégories. L’interface est claire et l’utilisation aisée."
+      },
+      {
+        "row": 85,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 86,
+        "rowsha": "+JPsF7JdOcHjc3VUVFDJ9BSUD2dhy98roBSnWfOUjWI=",
+        "originContent": "### 右键菜单保存",
+        "translatedContent": "### Sauvegarde via menu contextuel"
+      },
+      {
+        "row": 87,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 88,
+        "rowsha": "A3wWHXylnqZz6gftmcvDCkXH8UroOrI0Issat7HkYsQ=",
+        "originContent": "![右键菜单保存](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)",
+        "translatedContent": "![Sauvegarde menu contextuel](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)"
+      },
+      {
+        "row": 89,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 90,
+        "rowsha": "xD405aNFKOu24valT7GPa5xgX/stL8mBsfh5yWnsGU8=",
+        "originContent": "只需选中网页中的任何文本，右键点击即可将其快速保存为提示词，提高工作效率。",
+        "translatedContent": "Sélectionnez simplement n’importe quel texte sur une page web, faites un clic droit et sauvegardez-le instantanément comme prompt pour améliorer votre productivité."
+      },
+      {
+        "row": 91,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 92,
+        "rowsha": "rnqi+oCUerXlFCj78SFtVlsUVx+hA9daK3lcvMRmsW4=",
+        "originContent": "### 提示词变量输入",
+        "translatedContent": "### Saisie des variables du prompt"
+      },
+      {
+        "row": 93,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 94,
+        "rowsha": "m9VYE8L7GSpDabBfkzLp2xjvtwWg3P6UsHU26KLVTls=",
+        "originContent": "![提示词变量弹窗](https://github.com/user-attachments/assets/c91c1156-983a-454d-aad0-5698b0291b9b)",
+        "translatedContent": "![Fenêtre variable du prompt](https://github.com/user-attachments/assets/c91c1156-983a-454d-aad0-5698b0291b9b)"
+      },
+      {
+        "row": 95,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 96,
+        "rowsha": "ElZByN8cEIaSx4BFLBEwAqtpIA1Eqx9qkwhiqrUe5ag=",
+        "originContent": "提示词支持配置变量，选取之后弹窗输入相应变量值。",
+        "translatedContent": "Les prompts prennent en charge la configuration de variables, une fenêtre s’affichera pour saisir leur valeur après sélection."
+      },
+      {
+        "row": 97,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 98,
+        "rowsha": "26hMNteQXGAS9v63++R9qpaGCKJ6OXKIPndMlLob4T0=",
+        "originContent": "## ⚙️ 自定义配置",
+        "translatedContent": "## ⚙️ Configuration personnalisée"
+      },
+      {
+        "row": 99,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 100,
+        "rowsha": "0fgHav9Bjp2GlafD/pkRbddb6Aw6B0GzXWjbse0t5us=",
+        "originContent": "1. 点击扩展图标，然后点击\"管理提示词\"按钮",
+        "translatedContent": "1. Cliquez sur l’icône de l’extension puis sur le bouton \"Gérer les prompts\""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "2. 在管理页面，你可以:\n   - 添加新的提示词\n   - 编辑现有提示词\n   - 删除不需要的提示词\n   - 为提示词添加标签进行分类\n   - 导出提示词库进行备份\n   - 导入之前备份的提示词库\n\n## 📦 安装指南\n\n### 从应用商店安装\n\n现已上线Chrome应用商店！[点击此处下载安装](https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd)\n\n### 从 GitHub Releases 获取\n\n1. 访问 [GitHub Releases 页面](https://github.com/wenyuanw/quick-prompt/releases)\n2. 下载最新版本的构建好的插件包\n3. 解压下载的文件\n4. 按照下方的说明安装已构建的扩展\n\n### 从源码构建\n\n1. 克隆仓库",
+    "ContentSha": "1ARswl7U+9Lrq+XFcr9augknD+8nWQPjGHaN58j2XVY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. Sur la page de gestion, vous pouvez :\n   - Ajouter de nouveaux prompts\n   - Modifier les prompts existants\n   - Supprimer les prompts inutiles\n   - Ajouter des étiquettes aux prompts pour les classer\n   - Exporter la bibliothèque de prompts pour sauvegarde\n   - Importer une bibliothèque de prompts sauvegardée précédemment\n\n## 📦 Guide d'installation\n\n### Installation depuis le Chrome Web Store\n\nDéjà disponible sur le Chrome Web Store ! [Cliquez ici pour télécharger et installer](https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd)\n\n### Téléchargement depuis GitHub Releases\n\n1. Rendez-vous sur la [page GitHub Releases](https://github.com/wenyuanw/quick-prompt/releases)\n2. Téléchargez le dernier paquet compilé du plugin\n3. Décompressez le fichier téléchargé\n4. Suivez les instructions ci-dessous pour installer l'extension compilée\n\n### Compilation depuis le code source\n\n1. Clonez le dépôt",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "SKWXSi8t18icm+w7JKOGNUmf7dQYKN3xJ/GdB+DPJqg=",
+        "originContent": "2. 在管理页面，你可以:",
+        "translatedContent": "2. Sur la page de gestion, vous pouvez :"
+      },
+      {
+        "row": 2,
+        "rowsha": "MkrmMAWYT80HvR7E4UEaL4d38Ngv72grNGHAwrMWFiM=",
+        "originContent": "   - 添加新的提示词",
+        "translatedContent": "   - Ajouter de nouveaux prompts"
+      },
+      {
+        "row": 3,
+        "rowsha": "hSz/GIb6Vc6LFfbqZU1DQztezZ52zUS8TZnKXD/uLTE=",
+        "originContent": "   - 编辑现有提示词",
+        "translatedContent": "   - Modifier les prompts existants"
+      },
+      {
+        "row": 4,
+        "rowsha": "HPkYha3qs8AAxo8cxv2flxxyu7139ySyK0BbibB+k5o=",
+        "originContent": "   - 删除不需要的提示词",
+        "translatedContent": "   - Supprimer les prompts inutiles"
+      },
+      {
+        "row": 5,
+        "rowsha": "bwWs2XIkS0pDVCYCqwuhztV0qsy+gsztc68zByoYStk=",
+        "originContent": "   - 为提示词添加标签进行分类",
+        "translatedContent": "   - Ajouter des étiquettes aux prompts pour les classer"
+      },
+      {
+        "row": 6,
+        "rowsha": "YN3VXx4xT5iD9m704OzG0CVctTOu4f8inymuOYrsUNU=",
+        "originContent": "   - 导出提示词库进行备份",
+        "translatedContent": "   - Exporter la bibliothèque de prompts pour sauvegarde"
+      },
+      {
+        "row": 7,
+        "rowsha": "DLTas724LHQn58LNe4wctrREJciIThE5i0wSXMqWVgo=",
+        "originContent": "   - 导入之前备份的提示词库",
+        "translatedContent": "   - Importer une bibliothèque de prompts sauvegardée précédemment"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "1AqMJ7MrJmHzRFoYw5U4ke2DiF5yXVb/9kYKXzI+9vA=",
+        "originContent": "## 📦 安装指南",
+        "translatedContent": "## 📦 Guide d'installation"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "b6xzZPnlDAx52pCdmmccDW/fav1gbRZ/ORaE/PdE1F0=",
+        "originContent": "### 从应用商店安装",
+        "translatedContent": "### Installation depuis le Chrome Web Store"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "kET8E1GdXg/gezy2taZdiBxKsI1cn63UWCPy80eDskE=",
+        "originContent": "现已上线Chrome应用商店！[点击此处下载安装](https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd)",
+        "translatedContent": "Déjà disponible sur le Chrome Web Store ! [Cliquez ici pour télécharger et installer](https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "AXgKqcjn5pwOHlTRCqoFxzE6NP/w1+PKZOfQHUVGlM0=",
+        "originContent": "### 从 GitHub Releases 获取",
+        "translatedContent": "### Téléchargement depuis GitHub Releases"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "cu+Fg0XKG23WsJq82g6MWKgLtjMJrjRVdD1C5S8P3F8=",
+        "originContent": "1. 访问 [GitHub Releases 页面](https://github.com/wenyuanw/quick-prompt/releases)",
+        "translatedContent": "1. Rendez-vous sur la [page GitHub Releases](https://github.com/wenyuanw/quick-prompt/releases)"
+      },
+      {
+        "row": 18,
+        "rowsha": "REMRI3WcDdY/0hwbrVUWnk3lRVpTgWSQmM6LCC8/+eo=",
+        "originContent": "2. 下载最新版本的构建好的插件包",
+        "translatedContent": "2. Téléchargez le dernier paquet compilé du plugin"
+      },
+      {
+        "row": 19,
+        "rowsha": "GFZxvMe1G6sCMPALSvDrV19SyA1mK73nXofvqlHYPVo=",
+        "originContent": "3. 解压下载的文件",
+        "translatedContent": "3. Décompressez le fichier téléchargé"
+      },
+      {
+        "row": 20,
+        "rowsha": "Om0erQtRPWOV5o1PeIEwWLNTguilukv2aCjEMoSSbCo=",
+        "originContent": "4. 按照下方的说明安装已构建的扩展",
+        "translatedContent": "4. Suivez les instructions ci-dessous pour installer l'extension compilée"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "spFm0LAjLFooXgztw6PzDlE8LW7AL6sVmKgaD8AHsn4=",
+        "originContent": "### 从源码构建",
+        "translatedContent": "### Compilation depuis le code source"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "ln5zdjqIHZ8gN4381XbIvMg7QGQrmeBmZon7JzCQyww=",
+        "originContent": "1. 克隆仓库",
+        "translatedContent": "1. Clonez le dépôt"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "   ```bash\n   git clone https://github.com/wenyuanw/quick-prompt.git\n   cd quick-prompt\n   ```",
+    "ContentSha": "O1ovs5inuvoojj4GsQMosz8tvgAKE9kPWYz/IqYMp6I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   git clone https://github.com/wenyuanw/quick-prompt.git\n   cd quick-prompt\n   ```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "2. 安装依赖",
+    "ContentSha": "hMTefiNByngjppyCXaPNDp1YHpIDS8sLaEsbhq9H+DM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. Installation des dépendances",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "hMTefiNByngjppyCXaPNDp1YHpIDS8sLaEsbhq9H+DM=",
+        "originContent": "2. 安装依赖",
+        "translatedContent": "2. Installation des dépendances"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "   ```bash\n   pnpm install\n   ```",
+    "ContentSha": "6g5QNl+ne+RF0wmUU8x3GRv4UpMu8Uxa1Lz8uKw+hbg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   pnpm install\n   ```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n3. 开发和构建",
+    "ContentSha": "GU/2NkHCenRZB6pwkAWm/OxfTSL5BsC0B8Jmfl3UgKA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. Développement et construction\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. Développement et construction"
+      },
+      {
+        "row": 2,
+        "rowsha": "OS2JNGjQ/NeUVSuvFxTdPayTV1mAh9yr+gvo1xuWTis=",
+        "originContent": "3. 开发和构建",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "   ```bash\n   # 开发模式 (Chrome)\n   pnpm dev\n   \n   # 开发模式 (Firefox)\n   pnpm dev:firefox\n   \n   # 构建扩展 (Chrome)\n   pnpm build\n   \n   # 构建扩展 (Firefox)\n   pnpm build:firefox\n   ```",
+    "ContentSha": "dCtmit12FM1v8UrNZbZQkE2/CeiNTkytsJeWQQgeXxs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   # 开发模式 (Chrome)\n   pnpm dev\n   \n   # 开发模式 (Firefox)\n   pnpm dev:firefox\n   \n   # 构建扩展 (Chrome)\n   pnpm build\n   \n   # 构建扩展 (Firefox)\n   pnpm build:firefox\n   ```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n### 安装已构建的扩展\n\n#### Chrome / Edge\n1. 打开扩展管理页面 (`chrome://extensions` 或 `edge://extensions`)\n2. 启用\"开发者模式\"\n3. 点击\"加载已解压的扩展\"\n4. 选择项目的 `.output/chrome-mv3/` 目录\n\n#### Firefox\n1. 打开 `about:debugging`\n2. 点击\"此 Firefox\"\n3. 点击\"临时加载附加组件\"\n4. 选择项目的 `.output/firefox-mv2/` 目录中的 `manifest.json` 文件\n\n## 📄 许可证\n\nMIT\n\n## 🤝 贡献指南\n\n欢迎提交 Pull Requests 和 Issues！\n\n1. Fork 这个仓库\n2. 创建你的功能分支 (`git checkout -b feature/amazing-feature`)\n3. 提交你的更改 (`git commit -m 'Add some amazing feature'`)\n4. 推送到分支 (`git push origin feature/amazing-feature`)\n5. 打开一个 Pull Request\n\n## 👏 贡献者名单\n\n感谢所有为项目做出贡献的开发者！\n\n<a href=\"https://github.com/wenyuanw/quick-prompt/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=wenyuanw/quick-prompt\" />\n</a>\n\n\n## Star History\n\n[![Star History Chart](https://api.star-history.com/svg?repos=wenyuanw/quick-prompt&type=Date)](https://www.star-history.com/#wenyuanw/quick-prompt&Date)\n",
+    "ContentSha": "JaLVXLKVuWl4uNNfCgT4JNkM/4XPrcs4GsQI7rISTWc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Installer l’extension construite\n\n#### Chrome / Edge\n1. Ouvrir la page de gestion des extensions (`chrome://extensions` ou `edge://extensions`)\n2. Activer le \"mode développeur\"\n3. Cliquer sur \"Charger l’extension non empaquetée\"\n4. Sélectionner le dossier `.output/chrome-mv3/` du projet\n\n#### Firefox\n1. Ouvrir `about:debugging`\n2. Cliquer sur \"Ce Firefox\"\n3. Cliquer sur \"Charger un module complémentaire temporaire\"\n4. Sélectionner le fichier `manifest.json` dans le dossier `.output/firefox-mv2/` du projet\n\n## 📄 Licence\n\nMIT\n\n## 🤝 Guide de contribution\n\nLes Pull Requests et Issues sont les bienvenus !\n\n1. Forkez ce dépôt\n2. Créez votre branche de fonctionnalité (`git checkout -b feature/amazing-feature`)\n3. Commitez vos modifications (`git commit -m 'Add some amazing feature'`)\n4. Poussez sur la branche (`git push origin feature/amazing-feature`)\n5. Ouvrez une Pull Request\n\n## 👏 Liste des contributeurs\n\nMerci à tous les développeurs ayant contribué au projet !\n\n<a href=\"https://github.com/wenyuanw/quick-prompt/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=wenyuanw/quick-prompt\" />\n</a>\n\n\n## Historique des étoiles\n\n[![Star History Chart](https://api.star-history.com/svg?repos=wenyuanw/quick-prompt&type=Date)](https://www.star-history.com/#wenyuanw/quick-prompt&Date)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Installer l’extension construite"
+      },
+      {
+        "row": 2,
+        "rowsha": "k18uxiUS9zOljlhrYgBR1AqxKTWt6oqZyO32xtvva1s=",
+        "originContent": "### 安装已构建的扩展",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### Chrome / Edge"
+      },
+      {
+        "row": 4,
+        "rowsha": "kP71zoNJJaQ+W9qPQZZ2hokTTydoYTzTU/EQEhZIJOY=",
+        "originContent": "#### Chrome / Edge",
+        "translatedContent": "1. Ouvrir la page de gestion des extensions (`chrome://extensions` ou `edge://extensions`)"
+      },
+      {
+        "row": 5,
+        "rowsha": "owWqtyBXLuTW7eUiKcASGRSvVq0klrOJvfXormnNh5s=",
+        "originContent": "1. 打开扩展管理页面 (`chrome://extensions` 或 `edge://extensions`)",
+        "translatedContent": "2. Activer le \"mode développeur\""
+      },
+      {
+        "row": 6,
+        "rowsha": "UjSxP71KBsTG1hvAzDRw6d4l8jnMeZ0Y3iCI10Kej6A=",
+        "originContent": "2. 启用\"开发者模式\"",
+        "translatedContent": "3. Cliquer sur \"Charger l’extension non empaquetée\""
+      },
+      {
+        "row": 7,
+        "rowsha": "F8cVpgd1Qph3nJo8PtK/K/53w2Ud1+R4YqLQQRkIfk8=",
+        "originContent": "3. 点击\"加载已解压的扩展\"",
+        "translatedContent": "4. Sélectionner le dossier `.output/chrome-mv3/` du projet"
+      },
+      {
+        "row": 8,
+        "rowsha": "oBUlb4+pTRotqvTZG5+9WnVnyzXcOqGCedTF9qQ56kA=",
+        "originContent": "4. 选择项目的 `.output/chrome-mv3/` 目录",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### Firefox"
+      },
+      {
+        "row": 10,
+        "rowsha": "XLjS5d6VtCACQhwFpVIevav/Brpw9GBfYaPuAkysQtY=",
+        "originContent": "#### Firefox",
+        "translatedContent": "1. Ouvrir `about:debugging`"
+      },
+      {
+        "row": 11,
+        "rowsha": "VrqwbDW/pn/mgAsjoZHPv3bdUGG8QNoDRKmV8ivkfOM=",
+        "originContent": "1. 打开 `about:debugging`",
+        "translatedContent": "2. Cliquer sur \"Ce Firefox\""
+      },
+      {
+        "row": 12,
+        "rowsha": "atgWEN5JXf4IxYy+TUj7G5AninaODp6Qs6Lx9FcQPNE=",
+        "originContent": "2. 点击\"此 Firefox\"",
+        "translatedContent": "3. Cliquer sur \"Charger un module complémentaire temporaire\""
+      },
+      {
+        "row": 13,
+        "rowsha": "P1fEUpNkfI3kjXupzDiPpBR7+fWDMqmG/jA7h0WKv88=",
+        "originContent": "3. 点击\"临时加载附加组件\"",
+        "translatedContent": "4. Sélectionner le fichier `manifest.json` dans le dossier `.output/firefox-mv2/` du projet"
+      },
+      {
+        "row": 14,
+        "rowsha": "F/AV7/erpTaWD4NOiyalBOBS0eJCHB6M4uhE5+GOYb8=",
+        "originContent": "4. 选择项目的 `.output/firefox-mv2/` 目录中的 `manifest.json` 文件",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📄 Licence"
+      },
+      {
+        "row": 16,
+        "rowsha": "nwEqNyfOjreltaIsffdOyb6iY1b+e1LVLRXlM/3MPQo=",
+        "originContent": "## 📄 许可证",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "MIT"
+      },
+      {
+        "row": 18,
+        "rowsha": "5dz/6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x+o7c=",
+        "originContent": "MIT",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🤝 Guide de contribution"
+      },
+      {
+        "row": 20,
+        "rowsha": "lMa3cc3kwz/q5DYXCb6Pfu3kcEO68WTG3gfPTU2Seyw=",
+        "originContent": "## 🤝 贡献指南",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Les Pull Requests et Issues sont les bienvenus !"
+      },
+      {
+        "row": 22,
+        "rowsha": "rHh2zW/GW4qGXASJz66Mko4U7ulStEROAZJ4ndVRpx4=",
+        "originContent": "欢迎提交 Pull Requests 和 Issues！",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. Forkez ce dépôt"
+      },
+      {
+        "row": 24,
+        "rowsha": "Hz3hbDRdRQFqo0imo8v9RWFFY7yNLwWwoCVSFdLURno=",
+        "originContent": "1. Fork 这个仓库",
+        "translatedContent": "2. Créez votre branche de fonctionnalité (`git checkout -b feature/amazing-feature`)"
+      },
+      {
+        "row": 25,
+        "rowsha": "mDql02SQPCZ426oGgBgsGCY1Px1BpKzTodrwQ3J+FJc=",
+        "originContent": "2. 创建你的功能分支 (`git checkout -b feature/amazing-feature`)",
+        "translatedContent": "3. Commitez vos modifications (`git commit -m 'Add some amazing feature'`)"
+      },
+      {
+        "row": 26,
+        "rowsha": "Kj9om8QuFChTsjdJCMpyyCf289zdMnIHtaBKZd4SiRc=",
+        "originContent": "3. 提交你的更改 (`git commit -m 'Add some amazing feature'`)",
+        "translatedContent": "4. Poussez sur la branche (`git push origin feature/amazing-feature`)"
+      },
+      {
+        "row": 27,
+        "rowsha": "F7gCd1QVgL25tjqwUkZ4dsHPCqC15vOPCymoorG7rbM=",
+        "originContent": "4. 推送到分支 (`git push origin feature/amazing-feature`)",
+        "translatedContent": "5. Ouvrez une Pull Request"
+      },
+      {
+        "row": 28,
+        "rowsha": "9nXcqnIJ2rzIWDEFKylVc0z1dze9Yby/mAil/jvHJNc=",
+        "originContent": "5. 打开一个 Pull Request",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 👏 Liste des contributeurs"
+      },
+      {
+        "row": 30,
+        "rowsha": "LtNtNmZPeU0FqxZ33FzjfH7SMxKB8/qv1dFQqxsQlSA=",
+        "originContent": "## 👏 贡献者名单",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Merci à tous les développeurs ayant contribué au projet !"
+      },
+      {
+        "row": 32,
+        "rowsha": "8WfL1VMmM+Dm/3TZ6x2cA3iCfOAMgzhadxYmGuFvFKU=",
+        "originContent": "感谢所有为项目做出贡献的开发者！",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<a href=\"https://github.com/wenyuanw/quick-prompt/graphs/contributors\">"
+      },
+      {
+        "row": 34,
+        "rowsha": "1u3qv0gFV6vbo/zd5LzxCq2rF0zdHWBtuOqM4DIln6I=",
+        "originContent": "<a href=\"https://github.com/wenyuanw/quick-prompt/graphs/contributors\">",
+        "translatedContent": "  <img src=\"https://contrib.rocks/image?repo=wenyuanw/quick-prompt\" />"
+      },
+      {
+        "row": 35,
+        "rowsha": "7TALnTUXGdf7J/DZVFXys4claPd6C56Swk9gyRDvjsc=",
+        "originContent": "  <img src=\"https://contrib.rocks/image?repo=wenyuanw/quick-prompt\" />",
+        "translatedContent": "</a>"
+      },
+      {
+        "row": 36,
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Historique des étoiles"
+      },
+      {
+        "row": 39,
+        "rowsha": "HLlFkIOChBL2XK+/4offEec901rMTtlU760d5hKrZbw=",
+        "originContent": "## Star History",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[![Star History Chart](https://api.star-history.com/svg?repos=wenyuanw/quick-prompt&type=Date)](https://www.star-history.com/#wenyuanw/quick-prompt&Date)"
+      },
+      {
+        "row": 41,
+        "rowsha": "NppnPgT9pKU38x6V8UXVuVvS0tm13FaqT8MXvMMd1Vw=",
+        "originContent": "[![Star History Chart](https://api.star-history.com/svg?repos=wenyuanw/quick-prompt&type=Date)](https://www.star-history.com/#wenyuanw/quick-prompt&Date)",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
