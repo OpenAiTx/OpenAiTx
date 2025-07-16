@@ -1,0 +1,985 @@
+[
+  {
+    "Id": 1,
+    "Content": "# FoundationChat\n\nA SwiftUI chat application built with Apple's Foundation Models framework, showcasing on-device AI capabilities with persistent conversation storage.\n\n![Preview](https://raw.githubusercontent.com/Dimillian/FoundationChat/main/Images/image.png)\n\n## Requirements\n\n- **iOS 26.0+** / iPadOS 26.0+ / macOS 26.0+ / visionOS 26.0+\n- **Xcode 26.0+** (with iOS 26 SDK)\n- Device with Apple Intelligence support\n- Apple Intelligence must be enabled in Settings\n\n## Features\n\n- ✅ **Multiple Conversations**: Create and manage multiple chat conversations\n- ✅ **Persistent Storage**: SwiftData integration for conversation history\n- ✅ **Real-time Streaming**: Live streaming responses with structured output\n- ✅ **Smart Summaries**: Automatic conversation summarization\n- ✅ **Tool Integration**: Web page analysis with metadata extraction\n- ✅ **Rich Message Display**: Support for attachments with thumbnails and descriptions\n- ✅ **Availability Checking**: Proper Foundation Models availability handling\n- ✅ **Modern SwiftUI**: Clean interface with navigation stack and swipe actions\n- ✅ **On-device AI**: No internet required, complete privacy\n- ✅ **Error Handling**: Graceful error display in the UI\n\n## Architecture\n\n### Core Components\n\n- **`ChatEngine`**: Manages Foundation Models sessions and streaming responses\n- **`Conversation`** & **`Message`**: SwiftData models for persistent storage\n- **`MessageGenerable`**: @Generable struct for structured AI responses with web metadata\n- **`ConversationsListView`**: Main interface for managing conversations\n- **`ConversationDetailView`**: Chat interface with streaming message support\n- **`WebAnalyserTool`**: Tool for extracting structured data from web pages\n\n### Data Flow\n\n1. **Conversations List**: Shows all conversations sorted by last message timestamp\n2. **Chat Interface**: Real-time streaming with SwiftData persistence\n3. **Message Streaming**: Uses `@Generable` for structured AI responses\n4. **Auto-Summarization**: Updates conversation summaries after each exchange\n\n## Getting Started\n\n1. Open `FoundationChat.xcodeproj` in Xcode\n2. Ensure your development device has Apple Intelligence enabled\n3. Build and run on a supported device (simulator not recommended for performance)\n4. Create a new conversation with the \"+\" button\n5. Start chatting with the on-device AI\n\n## Key Implementation Details\n\n### Foundation Models Integration",
+    "ContentSha": "Ey9JRlz4DTQ8B5VCqrktPK5WUaUfRYRWpJIz1vTVxtc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># FoundationChat\n\n一个基于 SwiftUI 的聊天应用，使用苹果的 Foundation Models 框架构建，展示了设备端 AI 能力和持久化对话存储。\n\n![预览](https://raw.githubusercontent.com/Dimillian/FoundationChat/main/Images/image.png)\n\n## 要求\n\n- **iOS 26.0+** / iPadOS 26.0+ / macOS 26.0+ / visionOS 26.0+\n- **Xcode 26.0+**（包含 iOS 26 SDK）\n- 支持 Apple Intelligence 的设备\n- 设备设置中需启用 Apple Intelligence\n\n## 功能\n\n- ✅ **多会话支持**：创建和管理多个聊天会话\n- ✅ **持久化存储**：集成 SwiftData 以保存会话历史\n- ✅ **实时流式**：带结构化输出的实时响应流\n- ✅ **智能摘要**：自动对话内容总结\n- ✅ **工具集成**：网页分析及元数据提取\n- ✅ **丰富信息展示**：支持带缩略图和描述的附件显示\n- ✅ **可用性检测**：合理处理 Foundation Models 的可用性\n- ✅ **现代 SwiftUI**：简洁界面，导航堆栈及滑动操作\n- ✅ **设备端 AI**：无需互联网，完全隐私保护\n- ✅ **错误处理**：UI 中优雅显示错误信息\n\n## 架构\n\n### 核心组件\n\n- **`ChatEngine`**：管理 Foundation Models 会话及流式响应\n- **`Conversation`** & **`Message`**：用于持久化存储的 SwiftData 模型\n- **`MessageGenerable`**：带网页元数据的 @Generable 结构体，用于结构化 AI 响应\n- **`ConversationsListView`**：管理会话的主界面\n- **`ConversationDetailView`**：支持消息流的聊天界面\n- **`WebAnalyserTool`**：用于从网页提取结构化数据的工具\n\n### 数据流程\n\n1. **会话列表**：按最新消息时间排序显示所有会话\n2. **聊天界面**：实时流式响应并持久化存储\n3. **消息流**：使用 `@Generable` 实现结构化 AI 响应\n4. **自动摘要**：每次交互后更新会话摘要\n\n## 快速开始\n\n1. 在 Xcode 中打开 `FoundationChat.xcodeproj`\n2. 确保开发设备已启用 Apple Intelligence\n3. 在支持的设备上构建并运行（不建议使用模拟器以保证性能）\n4. 点击“+”按钮创建新会话\n5. 开始与设备端 AI 聊天\n\n## 关键实现细节\n\n### Foundation Models 集成",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "KEgoXkTVlHo16uHbLETjgTufx06zyRb2rbBbyR5PEk8=",
+        "originContent": "# FoundationChat",
+        "translatedContent": "<translate-content># FoundationChat"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "uoYNdgAtZv3nfavSrsSUfUuwjXtFyfzyOqdTGEEBAB4=",
+        "originContent": "A SwiftUI chat application built with Apple's Foundation Models framework, showcasing on-device AI capabilities with persistent conversation storage.",
+        "translatedContent": "一个基于 SwiftUI 的聊天应用，使用苹果的 Foundation Models 框架构建，展示了设备端 AI 能力和持久化对话存储。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "BMRDUXAq3w/Oo82S0vOjltZQzm3q+kvI/vUcnM51pIs=",
+        "originContent": "![Preview](https://raw.githubusercontent.com/Dimillian/FoundationChat/main/Images/image.png)",
+        "translatedContent": "![预览](https://raw.githubusercontent.com/Dimillian/FoundationChat/main/Images/image.png)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+        "originContent": "## Requirements",
+        "translatedContent": "## 要求"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "OIp5JWhOUBc6N9crdw5cONBAROl5xG+iwVwhQwn7iJs=",
+        "originContent": "- **iOS 26.0+** / iPadOS 26.0+ / macOS 26.0+ / visionOS 26.0+",
+        "translatedContent": "- **iOS 26.0+** / iPadOS 26.0+ / macOS 26.0+ / visionOS 26.0+"
+      },
+      {
+        "row": 10,
+        "rowsha": "60vBgUsQzz0jqz6xREFz5pFBbKhfrXsrfcBfPQjgAzQ=",
+        "originContent": "- **Xcode 26.0+** (with iOS 26 SDK)",
+        "translatedContent": "- **Xcode 26.0+**（包含 iOS 26 SDK）"
+      },
+      {
+        "row": 11,
+        "rowsha": "+qMYViGo56/h6yppMm5P37tz+geibrP+uPXaGEmUmfM=",
+        "originContent": "- Device with Apple Intelligence support",
+        "translatedContent": "- 支持 Apple Intelligence 的设备"
+      },
+      {
+        "row": 12,
+        "rowsha": "sTsUDeQJiN4ASnTOZqUjmm3Ji+9L9Pi5PdWH+qJsKz0=",
+        "originContent": "- Apple Intelligence must be enabled in Settings",
+        "translatedContent": "- 设备设置中需启用 Apple Intelligence"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 功能"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "xP3BjN3mhqkFpzSZWdj5qENW9GTXFHVduK9ECGiGUGQ=",
+        "originContent": "- ✅ **Multiple Conversations**: Create and manage multiple chat conversations",
+        "translatedContent": "- ✅ **多会话支持**：创建和管理多个聊天会话"
+      },
+      {
+        "row": 17,
+        "rowsha": "AMirkOl0iBJo2/NGpX2hcAJjY4vN1MDVLx7G+T1MfHo=",
+        "originContent": "- ✅ **Persistent Storage**: SwiftData integration for conversation history",
+        "translatedContent": "- ✅ **持久化存储**：集成 SwiftData 以保存会话历史"
+      },
+      {
+        "row": 18,
+        "rowsha": "O7z9Y8XjuOO7w6epkf4Qf6XT/6zdIOm2Xg/AEveodhs=",
+        "originContent": "- ✅ **Real-time Streaming**: Live streaming responses with structured output",
+        "translatedContent": "- ✅ **实时流式**：带结构化输出的实时响应流"
+      },
+      {
+        "row": 19,
+        "rowsha": "JRWh93+IbNU59/DCJyTsnRTNOEzjjE2+Q6t+Kl591Y4=",
+        "originContent": "- ✅ **Smart Summaries**: Automatic conversation summarization",
+        "translatedContent": "- ✅ **智能摘要**：自动对话内容总结"
+      },
+      {
+        "row": 20,
+        "rowsha": "x/w99TJlzL40pS5AZ6gqPBjStSKs9wG/N2KuODOEld0=",
+        "originContent": "- ✅ **Tool Integration**: Web page analysis with metadata extraction",
+        "translatedContent": "- ✅ **工具集成**：网页分析及元数据提取"
+      },
+      {
+        "row": 21,
+        "rowsha": "SJJiGYm7Tklg0Kf0iPaP91mCfAWX+QoHW77aKdxTzVE=",
+        "originContent": "- ✅ **Rich Message Display**: Support for attachments with thumbnails and descriptions",
+        "translatedContent": "- ✅ **丰富信息展示**：支持带缩略图和描述的附件显示"
+      },
+      {
+        "row": 22,
+        "rowsha": "d6DizN9fWELPMxPh30oFYSdXiJ4rFNrv2zSS8dStFWA=",
+        "originContent": "- ✅ **Availability Checking**: Proper Foundation Models availability handling",
+        "translatedContent": "- ✅ **可用性检测**：合理处理 Foundation Models 的可用性"
+      },
+      {
+        "row": 23,
+        "rowsha": "U9xfIU5u0YOQuk/T2wi9ujFuXyy7clrAQUd/7GV/wvk=",
+        "originContent": "- ✅ **Modern SwiftUI**: Clean interface with navigation stack and swipe actions",
+        "translatedContent": "- ✅ **现代 SwiftUI**：简洁界面，导航堆栈及滑动操作"
+      },
+      {
+        "row": 24,
+        "rowsha": "mpQejYL2L8L7nmSddA1gemicLz4tFjYdkeSaL5aXJP8=",
+        "originContent": "- ✅ **On-device AI**: No internet required, complete privacy",
+        "translatedContent": "- ✅ **设备端 AI**：无需互联网，完全隐私保护"
+      },
+      {
+        "row": 25,
+        "rowsha": "EfXpjIuJIPKb90CEhzlWcDDzGbKGbsHmgl1vCq2OkqQ=",
+        "originContent": "- ✅ **Error Handling**: Graceful error display in the UI",
+        "translatedContent": "- ✅ **错误处理**：UI 中优雅显示错误信息"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "p+VkcrEb08g4vIGZYB9aVScRKgA8afv5WwErwTVzoZM=",
+        "originContent": "## Architecture",
+        "translatedContent": "## 架构"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "1eLrZUKhHuo7suNnCEhduJu3+ggoHkIsV3UgHyulrmg=",
+        "originContent": "### Core Components",
+        "translatedContent": "### 核心组件"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "2rrCbftWx8IzSA1kJ4R18hF9bJHZ8PflM4sxqjDKFes=",
+        "originContent": "- **`ChatEngine`**: Manages Foundation Models sessions and streaming responses",
+        "translatedContent": "- **`ChatEngine`**：管理 Foundation Models 会话及流式响应"
+      },
+      {
+        "row": 32,
+        "rowsha": "YYB9JnSrm2xzU5soE7ZCkNLa6R/86gbVweE/68U06AU=",
+        "originContent": "- **`Conversation`** & **`Message`**: SwiftData models for persistent storage",
+        "translatedContent": "- **`Conversation`** & **`Message`**：用于持久化存储的 SwiftData 模型"
+      },
+      {
+        "row": 33,
+        "rowsha": "GIx/4yFKrvNU1jnw3bKB08sLYk4YwdEhjJg/0E3QtYc=",
+        "originContent": "- **`MessageGenerable`**: @Generable struct for structured AI responses with web metadata",
+        "translatedContent": "- **`MessageGenerable`**：带网页元数据的 @Generable 结构体，用于结构化 AI 响应"
+      },
+      {
+        "row": 34,
+        "rowsha": "IUo6WJf+I9g6r4mm1Y0L8ju8+a/92XJE2smfT+L8fSg=",
+        "originContent": "- **`ConversationsListView`**: Main interface for managing conversations",
+        "translatedContent": "- **`ConversationsListView`**：管理会话的主界面"
+      },
+      {
+        "row": 35,
+        "rowsha": "dsMEMGkc2+DhPdM6b9Rg7+bX5HO1qp6lWJmK+7VYZ4s=",
+        "originContent": "- **`ConversationDetailView`**: Chat interface with streaming message support",
+        "translatedContent": "- **`ConversationDetailView`**：支持消息流的聊天界面"
+      },
+      {
+        "row": 36,
+        "rowsha": "+tX9C/ONLmjWATsOwiN1fnLi/ajCMV1iARO7c7YBNwg=",
+        "originContent": "- **`WebAnalyserTool`**: Tool for extracting structured data from web pages",
+        "translatedContent": "- **`WebAnalyserTool`**：用于从网页提取结构化数据的工具"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "Ayf3lWJIID4pPQmD3pt8spVHh+XHN7lMmgzdSXiaYBo=",
+        "originContent": "### Data Flow",
+        "translatedContent": "### 数据流程"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "3WwR92F6i82N8W0wYQ7NA0NFNv7L64lie+dRdYHWZkQ=",
+        "originContent": "1. **Conversations List**: Shows all conversations sorted by last message timestamp",
+        "translatedContent": "1. **会话列表**：按最新消息时间排序显示所有会话"
+      },
+      {
+        "row": 41,
+        "rowsha": "d8juk0PhtCX2v8B6dWnkuXnpAQPunjREqifvHpquj4s=",
+        "originContent": "2. **Chat Interface**: Real-time streaming with SwiftData persistence",
+        "translatedContent": "2. **聊天界面**：实时流式响应并持久化存储"
+      },
+      {
+        "row": 42,
+        "rowsha": "UoHGX3eMKvrFSfAI75pyAdy0NRkWsaiCHWudOK0Crqk=",
+        "originContent": "3. **Message Streaming**: Uses `@Generable` for structured AI responses",
+        "translatedContent": "3. **消息流**：使用 `@Generable` 实现结构化 AI 响应"
+      },
+      {
+        "row": 43,
+        "rowsha": "V6Zi0rfAaT3VLcFKlCbNFdd+fMZjGwRTAfVjDcFeztw=",
+        "originContent": "4. **Auto-Summarization**: Updates conversation summaries after each exchange",
+        "translatedContent": "4. **自动摘要**：每次交互后更新会话摘要"
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+        "originContent": "## Getting Started",
+        "translatedContent": "## 快速开始"
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "xl1M9cu/5vMVOttdnePicP26uHj4oqHlof8+F2qFWGk=",
+        "originContent": "1. Open `FoundationChat.xcodeproj` in Xcode",
+        "translatedContent": "1. 在 Xcode 中打开 `FoundationChat.xcodeproj`"
+      },
+      {
+        "row": 48,
+        "rowsha": "kVCyTMmuby6ix0O27w9AtldA9gbuWdtDhdiac94TycE=",
+        "originContent": "2. Ensure your development device has Apple Intelligence enabled",
+        "translatedContent": "2. 确保开发设备已启用 Apple Intelligence"
+      },
+      {
+        "row": 49,
+        "rowsha": "VhQijg1/qFIMQUMmzFG/LNnzT6SE5SdyFggV4L8rD0E=",
+        "originContent": "3. Build and run on a supported device (simulator not recommended for performance)",
+        "translatedContent": "3. 在支持的设备上构建并运行（不建议使用模拟器以保证性能）"
+      },
+      {
+        "row": 50,
+        "rowsha": "kS5gYx/awmwvvg9jDU+xO/ZffUwvr4vHspsTApHJghg=",
+        "originContent": "4. Create a new conversation with the \"+\" button",
+        "translatedContent": "4. 点击“+”按钮创建新会话"
+      },
+      {
+        "row": 51,
+        "rowsha": "ecPZwVQzbUXLDQbMoIPhvpiKnav55iKC+VwJ65T0H74=",
+        "originContent": "5. Start chatting with the on-device AI",
+        "translatedContent": "5. 开始与设备端 AI 聊天"
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "SJGXRPjrUhksOalRwOeqnhHLWY6EWxfNxwaHvttto6M=",
+        "originContent": "## Key Implementation Details",
+        "translatedContent": "## 关键实现细节"
+      },
+      {
+        "row": 54,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 55,
+        "rowsha": "rvKbn5NXFDakTD2FScKaL7tY/hK+cMuOyBZ0c0shhX8=",
+        "originContent": "### Foundation Models Integration",
+        "translatedContent": "### Foundation Models 集成"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```swift\n@Observable\nclass ChatEngine {\n    private let model = SystemLanguageModel.default\n    private let session: LanguageModelSession\n    \n    var isAvailable: Bool {\n        switch model.availability {\n        case .available: return true\n        default: return false\n        }\n    }\n}\n```",
+    "ContentSha": "XcIfCeA9hczFKpBFAfawYkDcv6oFmyYBWqZLzb4Fgmw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\n@Observable\nclass ChatEngine {\n    private let model = SystemLanguageModel.default\n    private let session: LanguageModelSession\n    \n    var isAvailable: Bool {\n        switch model.availability {\n        case .available: return true\n        default: return false\n        }\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "QbfC65cQoeWr6s6ym5WESwfbzIMbrzedpqOSnU4pHcE=",
+        "originContent": "@Observable",
+        "translatedContent": "@Observable"
+      },
+      {
+        "row": 3,
+        "rowsha": "yRwiqoAkwYFoS2inzlZ6sypdNeVfsea9+P0aMj5E/HQ=",
+        "originContent": "class ChatEngine {",
+        "translatedContent": "class ChatEngine {"
+      },
+      {
+        "row": 4,
+        "rowsha": "xaUAJINX9/I5gH8FvmSC0OXA8JOkb+eNWRji69HdZj4=",
+        "originContent": "    private let model = SystemLanguageModel.default",
+        "translatedContent": "    private let model = SystemLanguageModel.default"
+      },
+      {
+        "row": 5,
+        "rowsha": "RfUCFY8fULYZG/MNR2W9h1iAhdaCclWDJeh/sItefHQ=",
+        "originContent": "    private let session: LanguageModelSession",
+        "translatedContent": "    private let session: LanguageModelSession"
+      },
+      {
+        "row": 6,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 7,
+        "rowsha": "mC86Um/QQlgq085yEKxZQNk1QMVCr1ImetUawYDXLRg=",
+        "originContent": "    var isAvailable: Bool {",
+        "translatedContent": "    var isAvailable: Bool {"
+      },
+      {
+        "row": 8,
+        "rowsha": "ESLrszBFN30eq87o+HrYJLQOlCXUdwAutLY0UorbIgU=",
+        "originContent": "        switch model.availability {",
+        "translatedContent": "        switch model.availability {"
+      },
+      {
+        "row": 9,
+        "rowsha": "3KNKZa/mTdK9AlJPmTYmkgZXMom0kZf5rGyympN1OkI=",
+        "originContent": "        case .available: return true",
+        "translatedContent": "        case .available: return true"
+      },
+      {
+        "row": 10,
+        "rowsha": "gtn5JXgYsYgXmpt3ZsNRiLJswF4GoOJliArdGBw5Ii4=",
+        "originContent": "        default: return false",
+        "translatedContent": "        default: return false"
+      },
+      {
+        "row": 11,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 12,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 13,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### Structured Streaming Response",
+    "ContentSha": "qf1sPbEY4OBKYyG5cirXFFgdyfuDDlUaj10h6jv7qqA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 结构化流响应\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 结构化流响应"
+      },
+      {
+        "row": 2,
+        "rowsha": "yUlW39IpyGO56oGGjARS+m2SS88fULajO99ii9ufXlk=",
+        "originContent": "### Structured Streaming Response",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```swift\nfunc respondTo() async -> LanguageModelSession.ResponseStream<MessageGenerable>? {\n    session.streamResponse(generating: MessageGenerable.self) {\n        // Conversation context with full history\n    }\n}\n```",
+    "ContentSha": "ANNeQJ0tb1lGMC97LPWC6d0AVTysiBrWSt0U8qtez/s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\nfunc respondTo() async -> LanguageModelSession.ResponseStream<MessageGenerable>? {\n    session.streamResponse(generating: MessageGenerable.self) {\n        // Conversation context with full history\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "6LGuZnJMc2zSwkwMMsDHSQlgtp64iByU3VVNvMf8LMQ=",
+        "originContent": "func respondTo() async -> LanguageModelSession.ResponseStream<MessageGenerable>? {",
+        "translatedContent": "func respondTo() async -> LanguageModelSession.ResponseStream<MessageGenerable>? {"
+      },
+      {
+        "row": 3,
+        "rowsha": "zXhgFmZJKff+3oz7njW8pNv9PP2MRPYD6eAyQikv0bk=",
+        "originContent": "    session.streamResponse(generating: MessageGenerable.self) {",
+        "translatedContent": "    session.streamResponse(generating: MessageGenerable.self) {"
+      },
+      {
+        "row": 4,
+        "rowsha": "WrjUHmkcjMd0vVaqqi5+p9ryNrYp6z/rNhXbQTBqClg=",
+        "originContent": "        // Conversation context with full history",
+        "translatedContent": "        // Conversation context with full history"
+      },
+      {
+        "row": 5,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 6,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Tool Integration",
+    "ContentSha": "CcBNaMdPWofqpqsEpS56VEJvlYBKVoJoMbFA83seNE0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\n### 工具集成</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "95KlSegCalPdbEYG9Lt+v5OutHYFFfIkAC3Ml8i2rqY=",
+        "originContent": "### Tool Integration",
+        "translatedContent": "### 工具集成</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```swift\nstruct WebAnalyserTool: Tool {\n    let name = \"WebAnalyser\"\n    let description = \"Analyse a website and return structured content\"\n    \n    func call(arguments: Arguments) async throws -> ToolOutput {\n        // Extracts title, thumbnail, and description\n    }\n}\n```",
+    "ContentSha": "cwP0NSpSLFUmzrB+tD/I9QLZr3BBiKdtPOuFMYQP5vE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\nstruct WebAnalyserTool: Tool {\n    let name = \"WebAnalyser\"\n    let description = \"Analyse a website and return structured content\"\n    \n    func call(arguments: Arguments) async throws -> ToolOutput {\n        // Extracts title, thumbnail, and description\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "VOGaJfbDQQ2f/e+5FQIpvLLVrAXBZpp2puoPYwrVyJM=",
+        "originContent": "struct WebAnalyserTool: Tool {",
+        "translatedContent": "struct WebAnalyserTool: Tool {"
+      },
+      {
+        "row": 3,
+        "rowsha": "HoZDHjDxoqUXsuZAb2YjCkK2d2PiBulK7jxvyAHSxxY=",
+        "originContent": "    let name = \"WebAnalyser\"",
+        "translatedContent": "    let name = \"WebAnalyser\""
+      },
+      {
+        "row": 4,
+        "rowsha": "P6ePfAD2KkTV+3oby7oDjavMm0LvXJ/NfvexpBCZRvY=",
+        "originContent": "    let description = \"Analyse a website and return structured content\"",
+        "translatedContent": "    let description = \"Analyse a website and return structured content\""
+      },
+      {
+        "row": 5,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 6,
+        "rowsha": "7Gt2ijlqqac4E7pPNm9dQpDZV5/ZqSXcnOLrPWa+Lj4=",
+        "originContent": "    func call(arguments: Arguments) async throws -> ToolOutput {",
+        "translatedContent": "    func call(arguments: Arguments) async throws -> ToolOutput {"
+      },
+      {
+        "row": 7,
+        "rowsha": "WhFEPpQKCxnrQUbiqU1Trb37NU0bYeKYE8Gap85S5ew=",
+        "originContent": "        // Extracts title, thumbnail, and description",
+        "translatedContent": "        // Extracts title, thumbnail, and description"
+      },
+      {
+        "row": 8,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 9,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### SwiftData Persistence",
+    "ContentSha": "wqZmZURRIkm5Xlc/j6+sdR5XcoYDPimpOHmyOB8Oec8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### SwiftData 持久化\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### SwiftData 持久化"
+      },
+      {
+        "row": 2,
+        "rowsha": "OlSRWjT6z4rjNrWMjTnrq9roNgvVVLYnHcX9hlJFEAU=",
+        "originContent": "### SwiftData Persistence",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```swift\n@Model\nclass Conversation {\n    @Relationship(deleteRule: .cascade)\n    var messages: [Message]\n    var summary: String?\n}\n```",
+    "ContentSha": "FuzcwrlP/6nzw/jCxpYJkxoPqmPjOAhXxtYlpVE+HN0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\n@Model\nclass Conversation {\n    @Relationship(deleteRule: .cascade)\n    var messages: [Message]\n    var summary: String?\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "LlNDg1cVJy91GXhU8uDZkaTcT09FnrLJjw8fpv8M2to=",
+        "originContent": "@Model",
+        "translatedContent": "@Model"
+      },
+      {
+        "row": 3,
+        "rowsha": "jbBQVvH3AO+noQAmBDB03d2BXKV9L/J2KfXiBNwB8ME=",
+        "originContent": "class Conversation {",
+        "translatedContent": "class Conversation {"
+      },
+      {
+        "row": 4,
+        "rowsha": "9Ot4BqritRF79b2toQJUaaJ4KmM6oYpeNm8f17ta8UU=",
+        "originContent": "    @Relationship(deleteRule: .cascade)",
+        "translatedContent": "    @Relationship(deleteRule: .cascade)"
+      },
+      {
+        "row": 5,
+        "rowsha": "jImRqUBtBS5wk8bc7z3nZpNWO+V1WfjWAEt2MLos660=",
+        "originContent": "    var messages: [Message]",
+        "translatedContent": "    var messages: [Message]"
+      },
+      {
+        "row": 6,
+        "rowsha": "cLwOzrozlJc2nc+A6wNpw7gb/5EKFNo6TzfHcyDUQsU=",
+        "originContent": "    var summary: String?",
+        "translatedContent": "    var summary: String?"
+      },
+      {
+        "row": 7,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## Documentation\n\n- **[CLAUDE.md](https://raw.githubusercontent.com/Dimillian/FoundationChat/main/CLAUDE.md)** - Development guidelines and framework overview\n- **[Examples](EXAMPLES/)** - Comprehensive implementation examples:\n  - Basic Usage\n  - Structured Output\n  - Streaming Responses\n  - Tool Calling\n  - Performance & Safety\n  - Complete Chat App\n\n## Project Structure\n",
+    "ContentSha": "U/zLVulKmMiKE82+9s8Xy/RJr0a1xNxJwCXeHM7RlhQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\n## 文档\n\n- **[CLAUDE.md](https://raw.githubusercontent.com/Dimillian/FoundationChat/main/CLAUDE.md)** - 开发指南和框架概述\n- **[Examples](EXAMPLES/)** - 全面实现示例：\n  - 基本用法\n  - 结构化输出\n  - 流式响应\n  - 工具调用\n  - 性能与安全\n  - 完整聊天应用\n\n## 项目结构\n</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+        "originContent": "## Documentation",
+        "translatedContent": "## 文档"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "z/PMTlkZkHk2TS4KZF1qJp+r2JkRNHcgY8j4yU8sUlY=",
+        "originContent": "- **[CLAUDE.md](https://raw.githubusercontent.com/Dimillian/FoundationChat/main/CLAUDE.md)** - Development guidelines and framework overview",
+        "translatedContent": "- **[CLAUDE.md](https://raw.githubusercontent.com/Dimillian/FoundationChat/main/CLAUDE.md)** - 开发指南和框架概述"
+      },
+      {
+        "row": 5,
+        "rowsha": "nh90xDBXhDNlmARmgWm85RcUnp6mOwNSAhFc6L+SCa8=",
+        "originContent": "- **[Examples](EXAMPLES/)** - Comprehensive implementation examples:",
+        "translatedContent": "- **[Examples](EXAMPLES/)** - 全面实现示例："
+      },
+      {
+        "row": 6,
+        "rowsha": "fkFgiyTIFl7C0Mq+RVXjs4p234m6XR5ZHimd7YyHUns=",
+        "originContent": "  - Basic Usage",
+        "translatedContent": "  - 基本用法"
+      },
+      {
+        "row": 7,
+        "rowsha": "ySF2fLDX0LwxmSuUr4Q2ZuKbFFVLszI87qQwNhneMaY=",
+        "originContent": "  - Structured Output",
+        "translatedContent": "  - 结构化输出"
+      },
+      {
+        "row": 8,
+        "rowsha": "kUcvYlRY7lbZ3cXLMWL5dmn7j2j5ydrnDffD95720XM=",
+        "originContent": "  - Streaming Responses",
+        "translatedContent": "  - 流式响应"
+      },
+      {
+        "row": 9,
+        "rowsha": "jqbEFpZ0ywL0Vpv2faX8YDfI8fBIoVO1DsYNZNx+ugU=",
+        "originContent": "  - Tool Calling",
+        "translatedContent": "  - 工具调用"
+      },
+      {
+        "row": 10,
+        "rowsha": "wyxDxG+bJlDhEnes2gz212rVAmVmaopGi92iqv2u8N8=",
+        "originContent": "  - Performance & Safety",
+        "translatedContent": "  - 性能与安全"
+      },
+      {
+        "row": 11,
+        "rowsha": "KFHQhFP2jWMzmDqwohraaQInA8wwKxhILW9Tv5oJdDc=",
+        "originContent": "  - Complete Chat App",
+        "translatedContent": "  - 完整聊天应用"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "fgyvOUxAVQzAAJBynGYLLFVgQh7X0IXOshtNb9Ky0Sw=",
+        "originContent": "## Project Structure",
+        "translatedContent": "## 项目结构"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\nFoundationChat/\n├── Models/\n│   ├── SwiftData/          # Data persistence models\n│   └── Generable/          # Foundation Models structures\n├── Views/\n│   ├── ConversationsList/  # Main conversation list\n│   └── ConversationDetail/ # Chat interface with message views\n├── Tools/\n│   └── WebAnalyserTool.swift # Web content extraction tool\n├── Env/\n│   └── ChatEngine.swift    # Foundation Models integration\n└── FoundationChatApp.swift # App entry point\n```",
+    "ContentSha": "Z7wwb3iofs+9L9jaS9CNMOybsqSJ6396JHKa0WEfyiU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nFoundationChat/\n├── Models/\n│   ├── SwiftData/          # Data persistence models\n│   └── Generable/          # Foundation Models structures\n├── Views/\n│   ├── ConversationsList/  # Main conversation list\n│   └── ConversationDetail/ # Chat interface with message views\n├── Tools/\n│   └── WebAnalyserTool.swift # Web content extraction tool\n├── Env/\n│   └── ChatEngine.swift    # Foundation Models integration\n└── FoundationChatApp.swift # App entry point\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "aZBzJ/sKihnvZ4MQZAeUwYHVTyi0tB7MLjV85n3g8rw=",
+        "originContent": "FoundationChat/",
+        "translatedContent": "FoundationChat/"
+      },
+      {
+        "row": 3,
+        "rowsha": "057ki3VI4xP8/9eOqreAVFPLRaL0BI3BkopTlRCjzFc=",
+        "originContent": "├── Models/",
+        "translatedContent": "├── Models/"
+      },
+      {
+        "row": 4,
+        "rowsha": "Io2jnFQ+1ITRG/WhDWq1P6gG1dpjq7mj1D/2/2LzPHc=",
+        "originContent": "│   ├── SwiftData/          # Data persistence models",
+        "translatedContent": "│   ├── SwiftData/          # Data persistence models"
+      },
+      {
+        "row": 5,
+        "rowsha": "i2zFn6M9+PnFdfR4aX8fE4aWSLztL2s+wY+qFKJ4cIo=",
+        "originContent": "│   └── Generable/          # Foundation Models structures",
+        "translatedContent": "│   └── Generable/          # Foundation Models structures"
+      },
+      {
+        "row": 6,
+        "rowsha": "sHOHVEhZMsDzWqXbUETiWAaFl1kg2qseWo5y/4Ha5gc=",
+        "originContent": "├── Views/",
+        "translatedContent": "├── Views/"
+      },
+      {
+        "row": 7,
+        "rowsha": "XjFC9Q3NysLsICP4zPSdOI8n1zxD6n0+hXcz+O98GdY=",
+        "originContent": "│   ├── ConversationsList/  # Main conversation list",
+        "translatedContent": "│   ├── ConversationsList/  # Main conversation list"
+      },
+      {
+        "row": 8,
+        "rowsha": "zf9cgEzQB1vpiM0V95Y7Q9JX3J8+67cgEzJAIJwSdQI=",
+        "originContent": "│   └── ConversationDetail/ # Chat interface with message views",
+        "translatedContent": "│   └── ConversationDetail/ # Chat interface with message views"
+      },
+      {
+        "row": 9,
+        "rowsha": "OQ4gSZb+chaHEGJINDu7Xd3Om7l38Mn00jmqzkFE8Qk=",
+        "originContent": "├── Tools/",
+        "translatedContent": "├── Tools/"
+      },
+      {
+        "row": 10,
+        "rowsha": "JV+sPVweiyec29IipQwNp5LrZ8Eh1JzWjA86459WNng=",
+        "originContent": "│   └── WebAnalyserTool.swift # Web content extraction tool",
+        "translatedContent": "│   └── WebAnalyserTool.swift # Web content extraction tool"
+      },
+      {
+        "row": 11,
+        "rowsha": "K3Zgx92dD6fOls1oiyeKbuv7/tsDx02A/GEE6xNhz1Y=",
+        "originContent": "├── Env/",
+        "translatedContent": "├── Env/"
+      },
+      {
+        "row": 12,
+        "rowsha": "lf4uI4fg3wW1hClz6NW66i1AEs4jpBmdBtfLB/NwwKA=",
+        "originContent": "│   └── ChatEngine.swift    # Foundation Models integration",
+        "translatedContent": "│   └── ChatEngine.swift    # Foundation Models integration"
+      },
+      {
+        "row": 13,
+        "rowsha": "l5oOG8E6PHIcQLEnhBH1SUM5lSR+wGHCwtvjRHyRYdw=",
+        "originContent": "└── FoundationChatApp.swift # App entry point",
+        "translatedContent": "└── FoundationChatApp.swift # App entry point"
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## Contributing\n\nThis is a demonstration project showcasing Apple's Foundation Models framework. Feel free to:\n- Fork and experiment with different AI prompts\n- Extend with additional Foundation Models features\n- Add new UI components and interactions\n- Contribute improvements and bug fixes\n\n## License\n\nMIT License - See LICENSE file for details",
+    "ContentSha": "X5dxM3UhOra4sQtOAQt0MFcKoDmmuaZoqdKFU7LRamU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 贡献\n\n这是一个展示苹果Foundation Models框架的演示项目。欢迎您：\n- 分叉并尝试不同的AI提示\n- 扩展更多Foundation Models功能\n- 添加新的UI组件和交互\n- 贡献改进和错误修复\n\n## 许可证\n\nMIT许可证 - 详情请参见LICENSE文件\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 贡献"
+      },
+      {
+        "row": 2,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "这是一个展示苹果Foundation Models框架的演示项目。欢迎您："
+      },
+      {
+        "row": 4,
+        "rowsha": "mq17MzcfLNs1bSZprBI38lbMSRuMu1thQdi1mAAih3E=",
+        "originContent": "This is a demonstration project showcasing Apple's Foundation Models framework. Feel free to:",
+        "translatedContent": "- 分叉并尝试不同的AI提示"
+      },
+      {
+        "row": 5,
+        "rowsha": "+TGLhoZOPmtZ8n6flJK98UyJbuvPSLUuv+yIkaXEC9s=",
+        "originContent": "- Fork and experiment with different AI prompts",
+        "translatedContent": "- 扩展更多Foundation Models功能"
+      },
+      {
+        "row": 6,
+        "rowsha": "5ORdviKOifz+G385KBccC3k2ySjMmudacHHyLDwACdY=",
+        "originContent": "- Extend with additional Foundation Models features",
+        "translatedContent": "- 添加新的UI组件和交互"
+      },
+      {
+        "row": 7,
+        "rowsha": "OXeeY3NHCSOQKNKKlzw7W07EK6cuMQfxwhsz7LQeF5w=",
+        "originContent": "- Add new UI components and interactions",
+        "translatedContent": "- 贡献改进和错误修复"
+      },
+      {
+        "row": 8,
+        "rowsha": "Uz2vK2WTRjLcYc4bWefNS82rG1gIrHpR/ruHbu+L+F4=",
+        "originContent": "- Contribute improvements and bug fixes",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 许可证"
+      },
+      {
+        "row": 10,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "MIT许可证 - 详情请参见LICENSE文件"
+      },
+      {
+        "row": 12,
+        "rowsha": "RFAdr4sFTnQiMh4thNEOiVhtipQxzrUeSvfl7OJxe90=",
+        "originContent": "MIT License - See LICENSE file for details",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

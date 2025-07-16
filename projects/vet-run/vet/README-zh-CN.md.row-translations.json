@@ -1,0 +1,788 @@
+[
+  {
+    "row": 1,
+    "rowsha": "7MUgNfKM5eGyIA5k1IathMu2NB5MBRTxzRbJQiE3kDs=",
+    "originContent": "[![CI - Tests, Linting](https://github.com/vet-run/vet/actions/workflows/ci.yml/badge.svg)](https://github.com/vet-run/vet/actions/workflows/ci.yml)",
+    "translatedContent": "<translate-content>[![CI - 测试，代码检查](https://github.com/vet-run/vet/actions/workflows/ci.yml/badge.svg)](https://github.com/vet-run/vet/actions/workflows/ci.yml)"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "wnoxIJ2V/HbMyhRE12Fkyv4BHFfi7pZFIMfcJdQphDI=",
+    "originContent": "`vet` is a command-line tool that acts as a safety net for the common but risky `curl | bash` pattern. It lets you inspect remote scripts for changes, run them through a linter, and require your explicit approval before they can execute.",
+    "translatedContent": "`vet` 是一个命令行工具，作为常见但风险较高的 `curl | bash` 模式的安全网。它允许你检查远程脚本的更改，使用代码检查工具运行它们，并在脚本执行前要求你明确批准。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "JFJ+VbmA+p2Vr0/0dYTv/hn5/BpQ+bHWAT9tnvK9OUY=",
+    "originContent": "**Don't just run it, `vet` it.**",
+    "translatedContent": "**不要只是运行它，要用 `vet` 来检查它。**"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "lR7GTMM3zAqvnZnIsrFEy15m6S/PY8nzenXxRU1vPnA=",
+    "originContent": "## The Problem",
+    "translatedContent": "## 问题所在"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "wl2Z9OfqJjrootSyCskcbP/Y+1YqiSyavQ2cnIq6Qtw=",
+    "originContent": "We've all seen this pattern for installing software:",
+    "translatedContent": "我们都见过这种安装软件的模式："
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "</translate-content>"
+  },
+  {
+    "row": 13,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 14,
+    "rowsha": "fI7ANrvk+r7CzHkDQW+hLoc2pPU2sjx+bKycmv9Pr2Q=",
+    "originContent": "# This is convenient, but you're blindly trusting the remote script.",
+    "translatedContent": "# This is convenient, but you're blindly trusting the remote script."
+  },
+  {
+    "row": 15,
+    "rowsha": "fbStbbGKIa7n516xt67IM90JRBCx4KafytNm4Qr8/3k=",
+    "originContent": "curl -sSL https://example.com/install.sh | bash",
+    "translatedContent": "curl -sSL https://example.com/install.sh | bash"
+  },
+  {
+    "row": 16,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<translate-content>"
+  },
+  {
+    "row": 18,
+    "rowsha": "zEpbo7Bh1P9Rdx7NhkEAFWHC8w+x8EC1ux3vG34N3K4=",
+    "originContent": "This is dangerous. The script could be malicious, the server could be compromised, or a transient network error could result in executing a partial script.",
+    "translatedContent": "这是危险的。脚本可能是恶意的，服务器可能已被攻破，或者瞬时网络错误可能导致执行部分脚本。"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "DCuo3CTfVg1EvyKWYe7ZDT0fYNro8ESNQPzIkWYiVv8=",
+    "originContent": "### The Solution: vet",
+    "translatedContent": "### 解决方案：vet"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "CXIzYlQuy1VcU+390mWhUBjqeGUW2LqglI5uxWHAVlk=",
+    "originContent": "`vet` wraps this process in a secure, interactive workflow:",
+    "translatedContent": "`vet` 将此过程封装在一个安全的交互式工作流程中："
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "IYvapts9uxyy6N01kazVw20iVBGsvzwIDe59jVvkoPY=",
+    "originContent": "-   **Fetch:** It downloads the remote script to a temporary location.",
+    "translatedContent": "-   **获取：** 它将远程脚本下载到临时位置。"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "zWyPsrYV4Ea3XM339XbM+9y6h5CDKWteRNaonXbTEYc=",
+    "originContent": "-   **Diff & Review:** It shows you what, if anything, has changed since the last time you ran this script.",
+    "translatedContent": "-   **差异与审查：** 它向你展示自上次运行此脚本以来发生了什么变化（如果有的话）。"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "TW54khXP8gXC885vofe0Si50oANIc16z8G0QrcqliKo=",
+    "originContent": "-   **Lint:** If you have shellcheck installed, it automatically analyzes the script for potential bugs or malicious patterns.",
+    "translatedContent": "-   **代码检查：** 如果你安装了 shellcheck，它会自动分析脚本中的潜在错误或恶意模式。"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "gYMlzj5C01Qf9uDCgdwMuoBwSY+oo32JsnVSU7ml3E8=",
+    "originContent": "-   **Confirm:** It prompts you for explicit approval before executing anything.",
+    "translatedContent": "-   **确认：** 它在执行任何操作之前会提示你进行明确批准。"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "</translate-content>"
+  },
+  {
+    "row": 32,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 33,
+    "rowsha": "7Pfc9EhFTMCqZ1CuMjmlCpm6MPk8bgnH9jce6KgTtoE=",
+    "originContent": "# The new, safer way.",
+    "translatedContent": "# The new, safer way."
+  },
+  {
+    "row": 34,
+    "rowsha": "wOAvdXyPUEsI8b1OvEtzn3fLEF3TqocIp+9b+TsGmDk=",
+    "originContent": "vet https://example.com/install.sh",
+    "translatedContent": "vet https://example.com/install.sh"
+  },
+  {
+    "row": 35,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<translate-content>"
+  },
+  {
+    "row": 37,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 安装"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "NMOHFmVdUYtT64ubKZK70G+zAZYEO8hIcW7La+uKu1Q=",
+    "originContent": "We believe you should never blindly trust a script from the internet—not even ours. That's why `vet` exists. The installation process itself is a perfect demonstration of the problem `vet` solves.",
+    "translatedContent": "我们认为你绝不应该盲目信任来自网络的脚本——即使是我们的。这就是 `vet` 存在的原因。安装过程本身就是 `vet` 解决问题的完美示范。"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "1hMqCZfpMG9tUuTsb+vL5KEsi7sBNFUPuavvM4RPPs8=",
+    "originContent": "## Homebrew (macOS/Linux) - Recommended",
+    "translatedContent": "## Homebrew（macOS/Linux）- 推荐"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "m7oBHbN5gF4URj+78elCzIkXRPO+gvhKpSU5Rbk5UpY=",
+    "originContent": "The easiest and recommended way to install `vet` is via Homebrew.",
+    "translatedContent": "安装 `vet` 最简单且推荐的方法是通过 Homebrew。</translate-content>"
+  },
+  {
+    "row": 44,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 45,
+    "rowsha": "7Lqb6QV6JXZFpmIdRFLAaZtciHSvdIA2E+SW9gTS4NA=",
+    "originContent": "# First, tap the official repository",
+    "translatedContent": "# First, tap the official repository"
+  },
+  {
+    "row": 46,
+    "rowsha": "7ppBGFPt31PsxFTMmeQRMRZNFY0eUsQyBdM+fxxjMYg=",
+    "originContent": "brew tap vet-run/vet",
+    "translatedContent": "brew tap vet-run/vet"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "aVQnfFhGHNZdZz3Lpspcmp2SiF3VEsomBcfAo6kwwNI=",
+    "originContent": "# Now, install the formula",
+    "translatedContent": "# Now, install the formula"
+  },
+  {
+    "row": 49,
+    "rowsha": "2XKz1mfLgPvm5+eepsgxGNb4YWvHEQ6uSwL7WidjQ9U=",
+    "originContent": "brew install vet-run",
+    "translatedContent": "brew install vet-run"
+  },
+  {
+    "row": 50,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 51,
+    "rowsha": "sEtCIHhPGWW1fm1BWZCV7YM84Qwy5VKoDSktSRxGgXg=",
+    "originContent": "**Note:** The formula is named `vet-run` to avoid a conflict with another tool in the Homebrew ecosystem, but this command will correctly install the `vet` executable on your system.",
+    "translatedContent": "**注意：** 该公式命名为 `vet-run` 以避免与 Homebrew 生态系统中的另一个工具冲突，但此命令将正确地在您的系统上安装 `vet` 可执行文件。"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "laS0KIYq72pvo1+ZXwKou2XNnPzMwETqxFf1uDd9iQs=",
+    "originContent": "## Manual Installation",
+    "translatedContent": "## 手动安装"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "8f5CAHi88c8wE9cPq8ai3huoSCVvGMl1eCiIydxQEpQ=",
+    "originContent": "### The Safe Way",
+    "translatedContent": "### 安全方式"
+  },
+  {
+    "row": 56,
+    "rowsha": "a3ZykIPvIbpsykOq9u/RK5wVqXMWruuuuuVNsBrhSWs=",
+    "originContent": "If you don't use Homebrew, or if you simply wish to follow the security-first principle that `vet` champions, you can perform a manual installation. This is the two-step \"Download, then Review\" process that demonstrates exactly what `vet` automates for you.",
+    "translatedContent": "如果您不使用 Homebrew，或者您只是希望遵循 `vet` 所倡导的安全优先原则，您可以执行手动安装。这是一个两步的“下载，然后审查”过程，演示了 `vet` 为您自动完成的操作。"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "NAgNia+FMJtv0MFfg9N7oBjaezemgYOZrwocdlFn8RA=",
+    "originContent": "1. **Download the installer**:",
+    "translatedContent": "1. **下载安装程序**："
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "tU64tI3XivTHv2d9kuePqRp90gDpDX6qQcb9GpvhKTM=",
+    "originContent": "Choose one of the following sources. The first is the official project domain, and the second is a direct link to the GitHub release asset.",
+    "translatedContent": "选择以下来源之一。第一个是官方项目域名，第二个是 GitHub 发布资产的直接链接。"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "4SMGXKf3mI5rkCdgtWEDYyYxN7qlkpxWkSpKc9RK5YM=",
+    "originContent": "*Option A: Official project domain*",
+    "translatedContent": "*选项 A：官方项目域名*"
+  },
+  {
+    "row": 63,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 64,
+    "rowsha": "fn+OVcWe2ReUXqyXEzcc5CucyUgfyBJ2+81Jt2dzAOY=",
+    "originContent": "curl -o install_vet.sh https://getvet.sh/install.sh",
+    "translatedContent": "curl -o install_vet.sh https://getvet.sh/install.sh"
+  },
+  {
+    "row": 65,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 66,
+    "rowsha": "4IuUb3mmkrla+bGmvI58WeAO2Fi+Jt4mxluJT2YXmuc=",
+    "originContent": "*Option B: Direct GitHub Release Link*",
+    "translatedContent": "*选项 B：直接 GitHub 发布链接*"
+  },
+  {
+    "row": 67,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 68,
+    "rowsha": "F4nTXALSP8dt/zEl5FO7lN5bNi9U9ZWZlJWV8GSjBDw=",
+    "originContent": "curl -L -o install_vet.sh https://github.com/vet-run/vet/releases/latest/download/install.sh",
+    "translatedContent": "curl -L -o install_vet.sh https://github.com/vet-run/vet/releases/latest/download/install.sh"
+  },
+  {
+    "row": 69,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 70,
+    "rowsha": "uF6YwcukR0E+oXUbJRHUsZw8wzfeMoBp/WkOF1RH47Y=",
+    "originContent": "2. **Review the installer's code.** Open it in a text editor or use less to ensure it's not doing anything suspicious. It's a simple script that downloads the correct vet script and moves it to /usr/local/bin.",
+    "translatedContent": "2. **审查安装程序的代码。** 在文本编辑器中打开它，或使用 less 确保它没有执行任何可疑操作。它是一个简单的脚本，会下载正确的 vet 脚本并将其移动到 /usr/local/bin。"
+  },
+  {
+    "row": 71,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 72,
+    "rowsha": "klbLDIi4ZKlmEFnXOyXkmD7A6dZXesMFmc01Ji4D8BI=",
+    "originContent": "less install_vet.sh",
+    "translatedContent": "less install_vet.sh"
+  },
+  {
+    "row": 73,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 74,
+    "rowsha": "MJ46yd+6MzGUaZK7B9oYv4oesgu6FFygzTS7jLKkgRA=",
+    "originContent": "3. **Run the installer you just vetted:**",
+    "translatedContent": "3. **运行您刚刚审核过的安装程序：**"
+  },
+  {
+    "row": 75,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 76,
+    "rowsha": "43+O5fu7af0gPLmTft+YijF3+fTzL6aHyYdyyCC0iPY=",
+    "originContent": "bash install_vet.sh",
+    "translatedContent": "bash install_vet.sh"
+  },
+  {
+    "row": 77,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<translate-content>"
+  },
+  {
+    "row": 79,
+    "rowsha": "FHKs4eAkdVYxo185CNzvcZUmaWust9bOAGY2mHTol9k=",
+    "originContent": "Congratulations! You just manually performed the process that vet will now automate for you.",
+    "translatedContent": "恭喜！您刚刚手动执行了兽医现在将为您自动完成的流程。"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "In3IF8fYvk6fPPRyfRKPPaNtw9emzRtSZoGGF+lOxKc=",
+    "originContent": "### The \"Trusting\" One-Liner (The Anti-Pattern)",
+    "translatedContent": "### “信任”一行代码（反模式）</translate-content>"
+  },
+  {
+    "row": 82,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 83,
+    "rowsha": "igdfP9g14kyKqYtxWLTz3o9x0CSsY/m2+EfqTADvvMU=",
+    "originContent": "# This is the curl-to-bash pattern.",
+    "translatedContent": "# This is the curl-to-bash pattern."
+  },
+  {
+    "row": 84,
+    "rowsha": "+0mvnFR6vEyf5eYEIaM+uzY0RbAKPUwQO/NXN2U/kCM=",
+    "originContent": "# Don't actually do this. That's the whole point.",
+    "translatedContent": "# Don't actually do this. That's the whole point."
+  },
+  {
+    "row": 85,
+    "rowsha": "CQNtJqEKAozEeWyGi0nYnk8sS68TQt72rpgi3xGbt1s=",
+    "originContent": "curl -sL https://getvet.sh/install.sh | bash",
+    "translatedContent": "curl -sL https://getvet.sh/install.sh | bash"
+  },
+  {
+    "row": 86,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 87,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 88,
+    "rowsha": "elsthwRCF+vtpOBxqAWFEGuucFIX2nKj7DKSYQAuFv8=",
+    "originContent": "### Usage",
+    "translatedContent": "### 用法"
+  },
+  {
+    "row": 89,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 90,
+    "rowsha": "tubzP7r0Ok05GG68i4Ce3bfcIIwk9n4smd2fVzAOCY8=",
+    "originContent": "# Basic usage",
+    "translatedContent": "# Basic usage"
+  },
+  {
+    "row": 91,
+    "rowsha": "1jHXdhyyDGNZXSAjAr6/lxkHRgXLozDKxZYNal6BgcU=",
+    "originContent": "vet <URL>",
+    "translatedContent": "vet <URL>"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "NhdsJVSVBEciMiOyW819mLmaYkRpt4oN/D40Hk1lhs8=",
+    "originContent": "# Example with a real-world installer",
+    "translatedContent": "# Example with a real-world installer"
+  },
+  {
+    "row": 94,
+    "rowsha": "0bBLEAPmNSHiHRDRcz3hOcVFFaH/6nIZsDkJgPyTTGs=",
+    "originContent": "vet https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh",
+    "translatedContent": "vet https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "5RXkNnoa4kLPmLvAb9cQLYtbmfW34NCCQ15/ElKhG6g=",
+    "originContent": "# Pass arguments to the remote script",
+    "translatedContent": "# Pass arguments to the remote script"
+  },
+  {
+    "row": 97,
+    "rowsha": "G/ywqCRRNH7fAHN7utYNs9eGhP+d2d3hFgr2O9Mp/u8=",
+    "originContent": "# All arguments after the URL are passed directly to the script.",
+    "translatedContent": "# All arguments after the URL are passed directly to the script."
+  },
+  {
+    "row": 98,
+    "rowsha": "XCtO5deePPnf6NduPZIaW79o0uVNZYIAVOYjvRISI2w=",
+    "originContent": "vet https://example.com/setup.sh --user myuser --version latest",
+    "translatedContent": "vet https://example.com/setup.sh --user myuser --version latest"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "icr4/XjIb9Jrqawi526A++8RE8lrBKVz3JWCFafNnH0=",
+    "originContent": "# Non-interactive mode for trusted scripts in automated environments (e.g., CI/CD)",
+    "translatedContent": "# Non-interactive mode for trusted scripts in automated environments (e.g., CI/CD)"
+  },
+  {
+    "row": 101,
+    "rowsha": "8MG8GeaITD95eEJK5e3AevllagqkxVM0V5CRbUoaZ9M=",
+    "originContent": "vet --force https://my-trusted-internal-script.sh",
+    "translatedContent": "vet --force https://my-trusted-internal-script.sh"
+  },
+  {
+    "row": 102,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 103,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 104,
+    "rowsha": "1XQTRCKOXzzr7hvIyH3sHQUuvR0EZdjkmt2hk9OwzMg=",
+    "originContent": "apk add --no-cache bash",
+    "translatedContent": "apk add --no-cache bash"
+  },
+  {
+    "row": 105,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 106,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": "## 贡献"
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "wKvoUqnA7fxU5v9x9uP99gMNYeXN8CDpGi/sC+DFSok=",
+    "originContent": "Contributions are welcome! If you have an idea for a new feature or have found a bug, please open an issue. For pull requests, please ensure that your changes are covered by tests.",
+    "translatedContent": "欢迎贡献！如果您有新功能的想法或发现了错误，请打开一个问题。对于拉取请求，请确保您的更改已被测试覆盖。"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "pgPYGPf8uCJR6v+NIJ1T3QFVb8NVOplu4a5+VmxwoAI=",
+    "originContent": "-   Fork the repository.",
+    "translatedContent": "-   分叉仓库。"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "0dTzuLyojVYukqRgxICYbrQPf2PB+cchLII+XOcwR1Y=",
+    "originContent": "-   Create a new feature branch (git checkout -b feature/my-amazing-feature).",
+    "translatedContent": "-   创建一个新的功能分支（git checkout -b feature/my-amazing-feature）。"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "ypee/16fqf5afdQL6OsKO2aEfNBQVpaLy9tc/Gbs2fU=",
+    "originContent": "-   Make your changes.",
+    "translatedContent": "-   进行您的更改。"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "YybuV8501M2+5Hw0qnTxSCVcZgjGMEGHHGT7HOvpbAY=",
+    "originContent": "-   Run the tests (bats tests/).",
+    "translatedContent": "-   运行测试（bats tests/）。"
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "SE1f3GbWf/Q6TmajNbsKP2f1uKbShelwiFWw/Rcfrqg=",
+    "originContent": "-   Commit your changes (git commit -am 'Add some amazing feature').",
+    "translatedContent": "-   提交您的更改（git commit -am 'Add some amazing feature'）。"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "cDPWUR+JV3RcFMiWa9ZEj9eUKTqD9tEBqEqNfRZooVI=",
+    "originContent": "-   Push to the branch (git push origin feature/my-amazing-feature).",
+    "translatedContent": "-   推送到分支（git push origin feature/my-amazing-feature）。"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "kUT3qMS3GF/w4kX9yHC1/TYmPtHBNopwCI5LlO2LWD8=",
+    "originContent": "-   Open a new Pull Request.",
+    "translatedContent": "-   打开一个新的拉取请求。"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "HvkwNudYOlwL8j/t4djBVF3hUJwHWa2r5QjmSxgq3AA=",
+    "originContent": "## Acknowledgements",
+    "translatedContent": "## 致谢"
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "ks+HLAySIFCTwZ6MnRwBLVL2Ucl0Sx6V5v/Lmr9uzuc=",
+    "originContent": "This project is made better by its contributors. See our [Contributors](https://raw.githubusercontent.com/vet-run/vet/main/CONTRIBUTORS.md) file to recognize those who have helped shape `vet`.",
+    "translatedContent": "这个项目因其贡献者而更加完善。请参阅我们的[贡献者](https://raw.githubusercontent.com/vet-run/vet/main/CONTRIBUTORS.md)文件，以感谢那些帮助塑造`vet`的人。"
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## 许可"
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "kNN9NH8dAfif7AtklJaBP/J+1vhahvJjJNC+67Xvezk=",
+    "originContent": "This project is licensed under the MIT License - see the [LICENSE](https://spdx.org/licenses/MIT.html) file for details.",
+    "translatedContent": "本项目采用MIT许可证 - 详情请参阅[LICENSE](https://spdx.org/licenses/MIT.html)文件。"
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

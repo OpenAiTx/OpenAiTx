@@ -1,0 +1,842 @@
+[
+  {
+    "row": 1,
+    "rowsha": "KEgoXkTVlHo16uHbLETjgTufx06zyRb2rbBbyR5PEk8=",
+    "originContent": "# FoundationChat",
+    "translatedContent": "<translate-content># FoundationChat"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "uoYNdgAtZv3nfavSrsSUfUuwjXtFyfzyOqdTGEEBAB4=",
+    "originContent": "A SwiftUI chat application built with Apple's Foundation Models framework, showcasing on-device AI capabilities with persistent conversation storage.",
+    "translatedContent": "Apple의 Foundation Models 프레임워크로 구축된 SwiftUI 채팅 애플리케이션으로, 온디바이스 AI 기능과 지속적인 대화 저장을 보여줍니다."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "BMRDUXAq3w/Oo82S0vOjltZQzm3q+kvI/vUcnM51pIs=",
+    "originContent": "![Preview](https://raw.githubusercontent.com/Dimillian/FoundationChat/main/Images/image.png)",
+    "translatedContent": "![Preview](https://raw.githubusercontent.com/Dimillian/FoundationChat/main/Images/image.png)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+    "originContent": "## Requirements",
+    "translatedContent": "## 요구 사항"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "OIp5JWhOUBc6N9crdw5cONBAROl5xG+iwVwhQwn7iJs=",
+    "originContent": "- **iOS 26.0+** / iPadOS 26.0+ / macOS 26.0+ / visionOS 26.0+",
+    "translatedContent": "- **iOS 26.0+** / iPadOS 26.0+ / macOS 26.0+ / visionOS 26.0+"
+  },
+  {
+    "row": 10,
+    "rowsha": "60vBgUsQzz0jqz6xREFz5pFBbKhfrXsrfcBfPQjgAzQ=",
+    "originContent": "- **Xcode 26.0+** (with iOS 26 SDK)",
+    "translatedContent": "- **Xcode 26.0+** (iOS 26 SDK 포함)"
+  },
+  {
+    "row": 11,
+    "rowsha": "+qMYViGo56/h6yppMm5P37tz+geibrP+uPXaGEmUmfM=",
+    "originContent": "- Device with Apple Intelligence support",
+    "translatedContent": "- Apple Intelligence를 지원하는 기기"
+  },
+  {
+    "row": 12,
+    "rowsha": "sTsUDeQJiN4ASnTOZqUjmm3Ji+9L9Pi5PdWH+qJsKz0=",
+    "originContent": "- Apple Intelligence must be enabled in Settings",
+    "translatedContent": "- 설정에서 Apple Intelligence가 활성화되어야 함"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 특징"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "xP3BjN3mhqkFpzSZWdj5qENW9GTXFHVduK9ECGiGUGQ=",
+    "originContent": "- ✅ **Multiple Conversations**: Create and manage multiple chat conversations",
+    "translatedContent": "- ✅ **다중 대화**: 여러 채팅 대화 생성 및 관리"
+  },
+  {
+    "row": 17,
+    "rowsha": "AMirkOl0iBJo2/NGpX2hcAJjY4vN1MDVLx7G+T1MfHo=",
+    "originContent": "- ✅ **Persistent Storage**: SwiftData integration for conversation history",
+    "translatedContent": "- ✅ **지속 저장소**: 대화 기록을 위한 SwiftData 통합"
+  },
+  {
+    "row": 18,
+    "rowsha": "O7z9Y8XjuOO7w6epkf4Qf6XT/6zdIOm2Xg/AEveodhs=",
+    "originContent": "- ✅ **Real-time Streaming**: Live streaming responses with structured output",
+    "translatedContent": "- ✅ **실시간 스트리밍**: 구조화된 출력과 라이브 스트리밍 응답"
+  },
+  {
+    "row": 19,
+    "rowsha": "JRWh93+IbNU59/DCJyTsnRTNOEzjjE2+Q6t+Kl591Y4=",
+    "originContent": "- ✅ **Smart Summaries**: Automatic conversation summarization",
+    "translatedContent": "- ✅ **스마트 요약**: 자동 대화 요약 기능"
+  },
+  {
+    "row": 20,
+    "rowsha": "x/w99TJlzL40pS5AZ6gqPBjStSKs9wG/N2KuODOEld0=",
+    "originContent": "- ✅ **Tool Integration**: Web page analysis with metadata extraction",
+    "translatedContent": "- ✅ **도구 통합**: 메타데이터 추출과 함께 웹 페이지 분석"
+  },
+  {
+    "row": 21,
+    "rowsha": "SJJiGYm7Tklg0Kf0iPaP91mCfAWX+QoHW77aKdxTzVE=",
+    "originContent": "- ✅ **Rich Message Display**: Support for attachments with thumbnails and descriptions",
+    "translatedContent": "- ✅ **풍부한 메시지 표시**: 썸네일 및 설명이 포함된 첨부 파일 지원"
+  },
+  {
+    "row": 22,
+    "rowsha": "d6DizN9fWELPMxPh30oFYSdXiJ4rFNrv2zSS8dStFWA=",
+    "originContent": "- ✅ **Availability Checking**: Proper Foundation Models availability handling",
+    "translatedContent": "- ✅ **가용성 확인**: Foundation Models의 적절한 가용성 처리"
+  },
+  {
+    "row": 23,
+    "rowsha": "U9xfIU5u0YOQuk/T2wi9ujFuXyy7clrAQUd/7GV/wvk=",
+    "originContent": "- ✅ **Modern SwiftUI**: Clean interface with navigation stack and swipe actions",
+    "translatedContent": "- ✅ **모던 SwiftUI**: 네비게이션 스택과 스와이프 액션을 갖춘 깔끔한 인터페이스"
+  },
+  {
+    "row": 24,
+    "rowsha": "mpQejYL2L8L7nmSddA1gemicLz4tFjYdkeSaL5aXJP8=",
+    "originContent": "- ✅ **On-device AI**: No internet required, complete privacy",
+    "translatedContent": "- ✅ **온디바이스 AI**: 인터넷 불필요, 완전한 프라이버시 보장"
+  },
+  {
+    "row": 25,
+    "rowsha": "EfXpjIuJIPKb90CEhzlWcDDzGbKGbsHmgl1vCq2OkqQ=",
+    "originContent": "- ✅ **Error Handling**: Graceful error display in the UI",
+    "translatedContent": "- ✅ **오류 처리**: UI 내에서 우아한 오류 표시"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "p+VkcrEb08g4vIGZYB9aVScRKgA8afv5WwErwTVzoZM=",
+    "originContent": "## Architecture",
+    "translatedContent": "## 아키텍처"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "1eLrZUKhHuo7suNnCEhduJu3+ggoHkIsV3UgHyulrmg=",
+    "originContent": "### Core Components",
+    "translatedContent": "### 핵심 구성 요소"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "2rrCbftWx8IzSA1kJ4R18hF9bJHZ8PflM4sxqjDKFes=",
+    "originContent": "- **`ChatEngine`**: Manages Foundation Models sessions and streaming responses",
+    "translatedContent": "- **`ChatEngine`**: Foundation Models 세션 및 스트리밍 응답 관리"
+  },
+  {
+    "row": 32,
+    "rowsha": "YYB9JnSrm2xzU5soE7ZCkNLa6R/86gbVweE/68U06AU=",
+    "originContent": "- **`Conversation`** & **`Message`**: SwiftData models for persistent storage",
+    "translatedContent": "- **`Conversation`** & **`Message`**: 지속 저장을 위한 SwiftData 모델"
+  },
+  {
+    "row": 33,
+    "rowsha": "GIx/4yFKrvNU1jnw3bKB08sLYk4YwdEhjJg/0E3QtYc=",
+    "originContent": "- **`MessageGenerable`**: @Generable struct for structured AI responses with web metadata",
+    "translatedContent": "- **`MessageGenerable`**: 웹 메타데이터와 함께 구조화된 AI 응답을 위한 @Generable 구조체"
+  },
+  {
+    "row": 34,
+    "rowsha": "IUo6WJf+I9g6r4mm1Y0L8ju8+a/92XJE2smfT+L8fSg=",
+    "originContent": "- **`ConversationsListView`**: Main interface for managing conversations",
+    "translatedContent": "- **`ConversationsListView`**: 대화 관리용 메인 인터페이스"
+  },
+  {
+    "row": 35,
+    "rowsha": "dsMEMGkc2+DhPdM6b9Rg7+bX5HO1qp6lWJmK+7VYZ4s=",
+    "originContent": "- **`ConversationDetailView`**: Chat interface with streaming message support",
+    "translatedContent": "- **`ConversationDetailView`**: 스트리밍 메시지 지원 채팅 인터페이스"
+  },
+  {
+    "row": 36,
+    "rowsha": "+tX9C/ONLmjWATsOwiN1fnLi/ajCMV1iARO7c7YBNwg=",
+    "originContent": "- **`WebAnalyserTool`**: Tool for extracting structured data from web pages",
+    "translatedContent": "- **`WebAnalyserTool`**: 웹 페이지에서 구조화된 데이터 추출 도구"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "Ayf3lWJIID4pPQmD3pt8spVHh+XHN7lMmgzdSXiaYBo=",
+    "originContent": "### Data Flow",
+    "translatedContent": "### 데이터 흐름"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "3WwR92F6i82N8W0wYQ7NA0NFNv7L64lie+dRdYHWZkQ=",
+    "originContent": "1. **Conversations List**: Shows all conversations sorted by last message timestamp",
+    "translatedContent": "1. **대화 목록**: 마지막 메시지 타임스탬프 기준으로 정렬된 모든 대화 표시"
+  },
+  {
+    "row": 41,
+    "rowsha": "d8juk0PhtCX2v8B6dWnkuXnpAQPunjREqifvHpquj4s=",
+    "originContent": "2. **Chat Interface**: Real-time streaming with SwiftData persistence",
+    "translatedContent": "2. **채팅 인터페이스**: SwiftData 지속성과 실시간 스트리밍"
+  },
+  {
+    "row": 42,
+    "rowsha": "UoHGX3eMKvrFSfAI75pyAdy0NRkWsaiCHWudOK0Crqk=",
+    "originContent": "3. **Message Streaming**: Uses `@Generable` for structured AI responses",
+    "translatedContent": "3. **메시지 스트리밍**: 구조화된 AI 응답을 위한 `@Generable` 사용"
+  },
+  {
+    "row": 43,
+    "rowsha": "V6Zi0rfAaT3VLcFKlCbNFdd+fMZjGwRTAfVjDcFeztw=",
+    "originContent": "4. **Auto-Summarization**: Updates conversation summaries after each exchange",
+    "translatedContent": "4. **자동 요약**: 각 교환 후 대화 요약 업데이트"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+    "originContent": "## Getting Started",
+    "translatedContent": "## 시작하기"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "xl1M9cu/5vMVOttdnePicP26uHj4oqHlof8+F2qFWGk=",
+    "originContent": "1. Open `FoundationChat.xcodeproj` in Xcode",
+    "translatedContent": "1. Xcode에서 `FoundationChat.xcodeproj` 열기"
+  },
+  {
+    "row": 48,
+    "rowsha": "kVCyTMmuby6ix0O27w9AtldA9gbuWdtDhdiac94TycE=",
+    "originContent": "2. Ensure your development device has Apple Intelligence enabled",
+    "translatedContent": "2. 개발 기기에 Apple Intelligence가 활성화되어 있는지 확인"
+  },
+  {
+    "row": 49,
+    "rowsha": "VhQijg1/qFIMQUMmzFG/LNnzT6SE5SdyFggV4L8rD0E=",
+    "originContent": "3. Build and run on a supported device (simulator not recommended for performance)",
+    "translatedContent": "3. 지원되는 기기에서 빌드 및 실행 (성능상 시뮬레이터 권장하지 않음)"
+  },
+  {
+    "row": 50,
+    "rowsha": "kS5gYx/awmwvvg9jDU+xO/ZffUwvr4vHspsTApHJghg=",
+    "originContent": "4. Create a new conversation with the \"+\" button",
+    "translatedContent": "4. \"+\" 버튼으로 새 대화 생성"
+  },
+  {
+    "row": 51,
+    "rowsha": "ecPZwVQzbUXLDQbMoIPhvpiKnav55iKC+VwJ65T0H74=",
+    "originContent": "5. Start chatting with the on-device AI",
+    "translatedContent": "5. 온디바이스 AI와 채팅 시작"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "SJGXRPjrUhksOalRwOeqnhHLWY6EWxfNxwaHvttto6M=",
+    "originContent": "## Key Implementation Details",
+    "translatedContent": "## 주요 구현 세부 사항"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "rvKbn5NXFDakTD2FScKaL7tY/hK+cMuOyBZ0c0shhX8=",
+    "originContent": "### Foundation Models Integration",
+    "translatedContent": "### Foundation Models 통합</translate-content>"
+  },
+  {
+    "row": 56,
+    "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+    "originContent": "```swift",
+    "translatedContent": "```swift"
+  },
+  {
+    "row": 57,
+    "rowsha": "QbfC65cQoeWr6s6ym5WESwfbzIMbrzedpqOSnU4pHcE=",
+    "originContent": "@Observable",
+    "translatedContent": "@Observable"
+  },
+  {
+    "row": 58,
+    "rowsha": "yRwiqoAkwYFoS2inzlZ6sypdNeVfsea9+P0aMj5E/HQ=",
+    "originContent": "class ChatEngine {",
+    "translatedContent": "class ChatEngine {"
+  },
+  {
+    "row": 59,
+    "rowsha": "xaUAJINX9/I5gH8FvmSC0OXA8JOkb+eNWRji69HdZj4=",
+    "originContent": "    private let model = SystemLanguageModel.default",
+    "translatedContent": "    private let model = SystemLanguageModel.default"
+  },
+  {
+    "row": 60,
+    "rowsha": "RfUCFY8fULYZG/MNR2W9h1iAhdaCclWDJeh/sItefHQ=",
+    "originContent": "    private let session: LanguageModelSession",
+    "translatedContent": "    private let session: LanguageModelSession"
+  },
+  {
+    "row": 61,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 62,
+    "rowsha": "mC86Um/QQlgq085yEKxZQNk1QMVCr1ImetUawYDXLRg=",
+    "originContent": "    var isAvailable: Bool {",
+    "translatedContent": "    var isAvailable: Bool {"
+  },
+  {
+    "row": 63,
+    "rowsha": "ESLrszBFN30eq87o+HrYJLQOlCXUdwAutLY0UorbIgU=",
+    "originContent": "        switch model.availability {",
+    "translatedContent": "        switch model.availability {"
+  },
+  {
+    "row": 64,
+    "rowsha": "3KNKZa/mTdK9AlJPmTYmkgZXMom0kZf5rGyympN1OkI=",
+    "originContent": "        case .available: return true",
+    "translatedContent": "        case .available: return true"
+  },
+  {
+    "row": 65,
+    "rowsha": "gtn5JXgYsYgXmpt3ZsNRiLJswF4GoOJliArdGBw5Ii4=",
+    "originContent": "        default: return false",
+    "translatedContent": "        default: return false"
+  },
+  {
+    "row": 66,
+    "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+    "originContent": "        }",
+    "translatedContent": "        }"
+  },
+  {
+    "row": 67,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 68,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 69,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 구조화된 스트리밍 응답"
+  },
+  {
+    "row": 71,
+    "rowsha": "yUlW39IpyGO56oGGjARS+m2SS88fULajO99ii9ufXlk=",
+    "originContent": "### Structured Streaming Response",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+    "originContent": "```swift",
+    "translatedContent": "```swift"
+  },
+  {
+    "row": 73,
+    "rowsha": "6LGuZnJMc2zSwkwMMsDHSQlgtp64iByU3VVNvMf8LMQ=",
+    "originContent": "func respondTo() async -> LanguageModelSession.ResponseStream<MessageGenerable>? {",
+    "translatedContent": "func respondTo() async -> LanguageModelSession.ResponseStream<MessageGenerable>? {"
+  },
+  {
+    "row": 74,
+    "rowsha": "zXhgFmZJKff+3oz7njW8pNv9PP2MRPYD6eAyQikv0bk=",
+    "originContent": "    session.streamResponse(generating: MessageGenerable.self) {",
+    "translatedContent": "    session.streamResponse(generating: MessageGenerable.self) {"
+  },
+  {
+    "row": 75,
+    "rowsha": "WrjUHmkcjMd0vVaqqi5+p9ryNrYp6z/rNhXbQTBqClg=",
+    "originContent": "        // Conversation context with full history",
+    "translatedContent": "        // Conversation context with full history"
+  },
+  {
+    "row": 76,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 77,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 78,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 도구 통합"
+  },
+  {
+    "row": 80,
+    "rowsha": "95KlSegCalPdbEYG9Lt+v5OutHYFFfIkAC3Ml8i2rqY=",
+    "originContent": "### Tool Integration",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+    "originContent": "```swift",
+    "translatedContent": "```swift"
+  },
+  {
+    "row": 82,
+    "rowsha": "VOGaJfbDQQ2f/e+5FQIpvLLVrAXBZpp2puoPYwrVyJM=",
+    "originContent": "struct WebAnalyserTool: Tool {",
+    "translatedContent": "struct WebAnalyserTool: Tool {"
+  },
+  {
+    "row": 83,
+    "rowsha": "HoZDHjDxoqUXsuZAb2YjCkK2d2PiBulK7jxvyAHSxxY=",
+    "originContent": "    let name = \"WebAnalyser\"",
+    "translatedContent": "    let name = \"WebAnalyser\""
+  },
+  {
+    "row": 84,
+    "rowsha": "P6ePfAD2KkTV+3oby7oDjavMm0LvXJ/NfvexpBCZRvY=",
+    "originContent": "    let description = \"Analyse a website and return structured content\"",
+    "translatedContent": "    let description = \"Analyse a website and return structured content\""
+  },
+  {
+    "row": 85,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 86,
+    "rowsha": "7Gt2ijlqqac4E7pPNm9dQpDZV5/ZqSXcnOLrPWa+Lj4=",
+    "originContent": "    func call(arguments: Arguments) async throws -> ToolOutput {",
+    "translatedContent": "    func call(arguments: Arguments) async throws -> ToolOutput {"
+  },
+  {
+    "row": 87,
+    "rowsha": "WhFEPpQKCxnrQUbiqU1Trb37NU0bYeKYE8Gap85S5ew=",
+    "originContent": "        // Extracts title, thumbnail, and description",
+    "translatedContent": "        // Extracts title, thumbnail, and description"
+  },
+  {
+    "row": 88,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 89,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 90,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### SwiftData 지속성"
+  },
+  {
+    "row": 92,
+    "rowsha": "OlSRWjT6z4rjNrWMjTnrq9roNgvVVLYnHcX9hlJFEAU=",
+    "originContent": "### SwiftData Persistence",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+    "originContent": "```swift",
+    "translatedContent": "```swift"
+  },
+  {
+    "row": 94,
+    "rowsha": "LlNDg1cVJy91GXhU8uDZkaTcT09FnrLJjw8fpv8M2to=",
+    "originContent": "@Model",
+    "translatedContent": "@Model"
+  },
+  {
+    "row": 95,
+    "rowsha": "jbBQVvH3AO+noQAmBDB03d2BXKV9L/J2KfXiBNwB8ME=",
+    "originContent": "class Conversation {",
+    "translatedContent": "class Conversation {"
+  },
+  {
+    "row": 96,
+    "rowsha": "9Ot4BqritRF79b2toQJUaaJ4KmM6oYpeNm8f17ta8UU=",
+    "originContent": "    @Relationship(deleteRule: .cascade)",
+    "translatedContent": "    @Relationship(deleteRule: .cascade)"
+  },
+  {
+    "row": 97,
+    "rowsha": "jImRqUBtBS5wk8bc7z3nZpNWO+V1WfjWAEt2MLos660=",
+    "originContent": "    var messages: [Message]",
+    "translatedContent": "    var messages: [Message]"
+  },
+  {
+    "row": 98,
+    "rowsha": "cLwOzrozlJc2nc+A6wNpw7gb/5EKFNo6TzfHcyDUQsU=",
+    "originContent": "    var summary: String?",
+    "translatedContent": "    var summary: String?"
+  },
+  {
+    "row": 99,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 100,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<translate-content>"
+  },
+  {
+    "row": 102,
+    "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+    "originContent": "## Documentation",
+    "translatedContent": "## 문서"
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "z/PMTlkZkHk2TS4KZF1qJp+r2JkRNHcgY8j4yU8sUlY=",
+    "originContent": "- **[CLAUDE.md](https://raw.githubusercontent.com/Dimillian/FoundationChat/main/CLAUDE.md)** - Development guidelines and framework overview",
+    "translatedContent": "- **[CLAUDE.md](https://raw.githubusercontent.com/Dimillian/FoundationChat/main/CLAUDE.md)** - 개발 지침 및 프레임워크 개요"
+  },
+  {
+    "row": 105,
+    "rowsha": "nh90xDBXhDNlmARmgWm85RcUnp6mOwNSAhFc6L+SCa8=",
+    "originContent": "- **[Examples](EXAMPLES/)** - Comprehensive implementation examples:",
+    "translatedContent": "- **[Examples](EXAMPLES/)** - 포괄적인 구현 예제:"
+  },
+  {
+    "row": 106,
+    "rowsha": "fkFgiyTIFl7C0Mq+RVXjs4p234m6XR5ZHimd7YyHUns=",
+    "originContent": "  - Basic Usage",
+    "translatedContent": "  - 기본 사용법"
+  },
+  {
+    "row": 107,
+    "rowsha": "ySF2fLDX0LwxmSuUr4Q2ZuKbFFVLszI87qQwNhneMaY=",
+    "originContent": "  - Structured Output",
+    "translatedContent": "  - 구조화된 출력"
+  },
+  {
+    "row": 108,
+    "rowsha": "kUcvYlRY7lbZ3cXLMWL5dmn7j2j5ydrnDffD95720XM=",
+    "originContent": "  - Streaming Responses",
+    "translatedContent": "  - 스트리밍 응답"
+  },
+  {
+    "row": 109,
+    "rowsha": "jqbEFpZ0ywL0Vpv2faX8YDfI8fBIoVO1DsYNZNx+ugU=",
+    "originContent": "  - Tool Calling",
+    "translatedContent": "  - 도구 호출"
+  },
+  {
+    "row": 110,
+    "rowsha": "wyxDxG+bJlDhEnes2gz212rVAmVmaopGi92iqv2u8N8=",
+    "originContent": "  - Performance & Safety",
+    "translatedContent": "  - 성능 및 안전성"
+  },
+  {
+    "row": 111,
+    "rowsha": "KFHQhFP2jWMzmDqwohraaQInA8wwKxhILW9Tv5oJdDc=",
+    "originContent": "  - Complete Chat App",
+    "translatedContent": "  - 완전한 채팅 앱"
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "fgyvOUxAVQzAAJBynGYLLFVgQh7X0IXOshtNb9Ky0Sw=",
+    "originContent": "## Project Structure",
+    "translatedContent": "## 프로젝트 구조"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "</translate-content>"
+  },
+  {
+    "row": 115,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 116,
+    "rowsha": "aZBzJ/sKihnvZ4MQZAeUwYHVTyi0tB7MLjV85n3g8rw=",
+    "originContent": "FoundationChat/",
+    "translatedContent": "FoundationChat/"
+  },
+  {
+    "row": 117,
+    "rowsha": "057ki3VI4xP8/9eOqreAVFPLRaL0BI3BkopTlRCjzFc=",
+    "originContent": "├── Models/",
+    "translatedContent": "├── Models/"
+  },
+  {
+    "row": 118,
+    "rowsha": "Io2jnFQ+1ITRG/WhDWq1P6gG1dpjq7mj1D/2/2LzPHc=",
+    "originContent": "│   ├── SwiftData/          # Data persistence models",
+    "translatedContent": "│   ├── SwiftData/          # Data persistence models"
+  },
+  {
+    "row": 119,
+    "rowsha": "i2zFn6M9+PnFdfR4aX8fE4aWSLztL2s+wY+qFKJ4cIo=",
+    "originContent": "│   └── Generable/          # Foundation Models structures",
+    "translatedContent": "│   └── Generable/          # Foundation Models structures"
+  },
+  {
+    "row": 120,
+    "rowsha": "sHOHVEhZMsDzWqXbUETiWAaFl1kg2qseWo5y/4Ha5gc=",
+    "originContent": "├── Views/",
+    "translatedContent": "├── Views/"
+  },
+  {
+    "row": 121,
+    "rowsha": "XjFC9Q3NysLsICP4zPSdOI8n1zxD6n0+hXcz+O98GdY=",
+    "originContent": "│   ├── ConversationsList/  # Main conversation list",
+    "translatedContent": "│   ├── ConversationsList/  # Main conversation list"
+  },
+  {
+    "row": 122,
+    "rowsha": "zf9cgEzQB1vpiM0V95Y7Q9JX3J8+67cgEzJAIJwSdQI=",
+    "originContent": "│   └── ConversationDetail/ # Chat interface with message views",
+    "translatedContent": "│   └── ConversationDetail/ # Chat interface with message views"
+  },
+  {
+    "row": 123,
+    "rowsha": "OQ4gSZb+chaHEGJINDu7Xd3Om7l38Mn00jmqzkFE8Qk=",
+    "originContent": "├── Tools/",
+    "translatedContent": "├── Tools/"
+  },
+  {
+    "row": 124,
+    "rowsha": "JV+sPVweiyec29IipQwNp5LrZ8Eh1JzWjA86459WNng=",
+    "originContent": "│   └── WebAnalyserTool.swift # Web content extraction tool",
+    "translatedContent": "│   └── WebAnalyserTool.swift # Web content extraction tool"
+  },
+  {
+    "row": 125,
+    "rowsha": "K3Zgx92dD6fOls1oiyeKbuv7/tsDx02A/GEE6xNhz1Y=",
+    "originContent": "├── Env/",
+    "translatedContent": "├── Env/"
+  },
+  {
+    "row": 126,
+    "rowsha": "lf4uI4fg3wW1hClz6NW66i1AEs4jpBmdBtfLB/NwwKA=",
+    "originContent": "│   └── ChatEngine.swift    # Foundation Models integration",
+    "translatedContent": "│   └── ChatEngine.swift    # Foundation Models integration"
+  },
+  {
+    "row": 127,
+    "rowsha": "l5oOG8E6PHIcQLEnhBH1SUM5lSR+wGHCwtvjRHyRYdw=",
+    "originContent": "└── FoundationChatApp.swift # App entry point",
+    "translatedContent": "└── FoundationChatApp.swift # App entry point"
+  },
+  {
+    "row": 128,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<translate-content>"
+  },
+  {
+    "row": 130,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": "## 기여하기"
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "mq17MzcfLNs1bSZprBI38lbMSRuMu1thQdi1mAAih3E=",
+    "originContent": "This is a demonstration project showcasing Apple's Foundation Models framework. Feel free to:",
+    "translatedContent": "이 프로젝트는 Apple의 Foundation Models 프레임워크를 시연하는 데모 프로젝트입니다. 자유롭게:"
+  },
+  {
+    "row": 133,
+    "rowsha": "+TGLhoZOPmtZ8n6flJK98UyJbuvPSLUuv+yIkaXEC9s=",
+    "originContent": "- Fork and experiment with different AI prompts",
+    "translatedContent": "- 포크하여 다양한 AI 프롬프트를 실험해 보세요"
+  },
+  {
+    "row": 134,
+    "rowsha": "5ORdviKOifz+G385KBccC3k2ySjMmudacHHyLDwACdY=",
+    "originContent": "- Extend with additional Foundation Models features",
+    "translatedContent": "- 추가 Foundation Models 기능을 확장하세요"
+  },
+  {
+    "row": 135,
+    "rowsha": "OXeeY3NHCSOQKNKKlzw7W07EK6cuMQfxwhsz7LQeF5w=",
+    "originContent": "- Add new UI components and interactions",
+    "translatedContent": "- 새로운 UI 구성 요소와 상호작용을 추가하세요"
+  },
+  {
+    "row": 136,
+    "rowsha": "Uz2vK2WTRjLcYc4bWefNS82rG1gIrHpR/ruHbu+L+F4=",
+    "originContent": "- Contribute improvements and bug fixes",
+    "translatedContent": "- 개선 사항과 버그 수정을 기여하세요"
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## 라이선스"
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "RFAdr4sFTnQiMh4thNEOiVhtipQxzrUeSvfl7OJxe90=",
+    "originContent": "MIT License - See LICENSE file for details",
+    "translatedContent": "MIT 라이선스 - 자세한 내용은 LICENSE 파일을 참조하세요</translate-content>"
+  }
+]
