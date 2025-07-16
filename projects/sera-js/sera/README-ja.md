@@ -1,8 +1,39 @@
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=sera-js&project=sera&lang=en">英語</a>
+        | <a href="https://openaitx.github.io/view.html?user=sera-js&project=sera&lang=zh-CN">簡体中国語</a>
+        | <a href="https://openaitx.github.io/view.html?user=sera-js&project=sera&lang=zh-TW">繁體中国語</a>
+        | <a href="https://openaitx.github.io/view.html?user=sera-js&project=sera&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=sera-js&project=sera&lang=ko">韓国語</a>
+        | <a href="https://openaitx.github.io/view.html?user=sera-js&project=sera&lang=hi">ヒンディー語</a>
+        | <a href="https://openaitx.github.io/view.html?user=sera-js&project=sera&lang=th">タイ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=sera-js&project=sera&lang=fr">フランス語</a>
+        | <a href="https://openaitx.github.io/view.html?user=sera-js&project=sera&lang=de">ドイツ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=sera-js&project=sera&lang=es">スペイン語</a>
+        | <a href="https://openaitx.github.io/view.html?user=sera-js&project=sera&lang=it">イタリア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=sera-js&project=sera&lang=ru">ロシア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=sera-js&project=sera&lang=pt">ポルトガル語</a>
+        | <a href="https://openaitx.github.io/view.html?user=sera-js&project=sera&lang=nl">オランダ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=sera-js&project=sera&lang=pl">ポーランド語</a>
+        | <a href="https://openaitx.github.io/view.html?user=sera-js&project=sera&lang=ar">アラビア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=sera-js&project=sera&lang=fa">ペルシャ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=sera-js&project=sera&lang=tr">トルコ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=sera-js&project=sera&lang=vi">ベトナム語</a>
+        | <a href="https://openaitx.github.io/view.html?user=sera-js&project=sera&lang=id">インドネシア語</a>
+      </div>
+    </div>
+  </details>
+</div>
+
+
 ![serajs (2)](https://github.com/user-attachments/assets/7ccff260-491d-420b-8e22-4579f9bad50a)
 
 ## 📖 **はじめに**
 
-> 📚 プロジェクト — seraJs
+> 📚 プロジェクト  —  seraJs
 
 🔗(ポートフォリオ)[https://seraprogrammer.github.io/seraportfolio/] 
 
