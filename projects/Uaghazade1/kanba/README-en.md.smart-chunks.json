@@ -1,0 +1,823 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Open-source, lightweight Trello alternative designed for makers and indie hackers.\n\nFocus on simplicity, speed, and scalability.\nBuilt with modern stack: Tailwind CSS, shadcn/ui, Supabase, Stripe integration.\nSupports unlimited projects, team collaboration, dark/light mode, and seamless user experience.\nPerfect for solo devs and small teams who want full control without unnecessary complexity.\n\n## 🌟 If you find this project useful, consider giving it a star! It helps others discover it too.\n\n# Deployment Guide\n\n## Overview\nThis application now uses local Next.js API routes instead of Supabase Edge Functions for Stripe integration. This makes deployment simpler and allows you to use standard .env files for configuration.\n\n## Environment Variables Setup\n\n### 1. Create .env.local file\nCopy `.env.example` to `.env.local` and fill in your actual values:\n",
+    "ContentSha": "krelLOJz0BZjH3Y8N3ujt0aIAPIkmc1qZMb35i7YiAw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># Open-source, lightweight Trello alternative designed for makers and indie hackers.\n\nFocus on simplicity, speed, and scalability.  \nBuilt with modern stack: Tailwind CSS, shadcn/ui, Supabase, Stripe integration.  \nSupports unlimited projects, team collaboration, dark/light mode, and seamless user experience.  \nPerfect for solo devs and small teams who want full control without unnecessary complexity.\n\n## 🌟 If you find this project useful, consider giving it a star! It helps others discover it too.\n\n# Deployment Guide\n\n## Overview  \nThis application now uses local Next.js API routes instead of Supabase Edge Functions for Stripe integration. This makes deployment simpler and allows you to use standard .env files for configuration.\n\n## Environment Variables Setup\n\n### 1. Create .env.local file  \nCopy `.env.example` to `.env.local` and fill in your actual values:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "KMi8LzqGIbazkff2H1nDGSBhsbVKc4B+u/pvpN0V0Lw=",
+        "originContent": "# Open-source, lightweight Trello alternative designed for makers and indie hackers.",
+        "translatedContent": "<translate-content># Open-source, lightweight Trello alternative designed for makers and indie hackers."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "4h4+NOnoaqZfkKbx/X7BVOJ6yd201ysHosz81hkOkjs=",
+        "originContent": "Focus on simplicity, speed, and scalability.",
+        "translatedContent": "Focus on simplicity, speed, and scalability.  "
+      },
+      {
+        "row": 4,
+        "rowsha": "klbcb4ibHSRpjZdytrH/xdml+Afs4wMavkbNfUxNbE8=",
+        "originContent": "Built with modern stack: Tailwind CSS, shadcn/ui, Supabase, Stripe integration.",
+        "translatedContent": "Built with modern stack: Tailwind CSS, shadcn/ui, Supabase, Stripe integration.  "
+      },
+      {
+        "row": 5,
+        "rowsha": "LBHitYy9aHjuP/r1JTU8ru895lX2wAARVhPVz5MEqhU=",
+        "originContent": "Supports unlimited projects, team collaboration, dark/light mode, and seamless user experience.",
+        "translatedContent": "Supports unlimited projects, team collaboration, dark/light mode, and seamless user experience.  "
+      },
+      {
+        "row": 6,
+        "rowsha": "SMR8/7G23rS8KrwW2G285zjnJUHTUO37E6h6efdbTfk=",
+        "originContent": "Perfect for solo devs and small teams who want full control without unnecessary complexity.",
+        "translatedContent": "Perfect for solo devs and small teams who want full control without unnecessary complexity."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "hgz1dqyQQZABsnSjSbcQio/OnwXyj66z7yBHKqkfbBI=",
+        "originContent": "## 🌟 If you find this project useful, consider giving it a star! It helps others discover it too.",
+        "translatedContent": "## 🌟 If you find this project useful, consider giving it a star! It helps others discover it too."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "OCUJXTJDdTjkvIukhe5VUtIxFbnG9+jO5Edkc1TpniA=",
+        "originContent": "# Deployment Guide",
+        "translatedContent": "# Deployment Guide"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
+        "originContent": "## Overview",
+        "translatedContent": "## Overview  "
+      },
+      {
+        "row": 13,
+        "rowsha": "BiaZ1ygL6YDrh9LuqK/1yEm930hPf1p1S/IQz2rBw5A=",
+        "originContent": "This application now uses local Next.js API routes instead of Supabase Edge Functions for Stripe integration. This makes deployment simpler and allows you to use standard .env files for configuration.",
+        "translatedContent": "This application now uses local Next.js API routes instead of Supabase Edge Functions for Stripe integration. This makes deployment simpler and allows you to use standard .env files for configuration."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "rbZg004GhVnpJCyxoA+TEhovCBQcLtS7a/g2G3skHEg=",
+        "originContent": "## Environment Variables Setup",
+        "translatedContent": "## Environment Variables Setup"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "NhzY+MgOe8GFe5pRTVqQgsEGWbR+s7eFxLGu0VuGjyU=",
+        "originContent": "### 1. Create .env.local file",
+        "translatedContent": "### 1. Create .env.local file  "
+      },
+      {
+        "row": 18,
+        "rowsha": "I4fBsUCLqelJBqXX+mwfiBOTuFKi3fhF+HUz9wlc4t0=",
+        "originContent": "Copy `.env.example` to `.env.local` and fill in your actual values:",
+        "translatedContent": "Copy `.env.example` to `.env.local` and fill in your actual values:"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\ncp .env.example .env.local\n```",
+    "ContentSha": "HUCvWCmOyLXPArW2A+L9Jt851ewBT2SlAmSw/TpH8MQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncp .env.example .env.local\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "p+WZO+vOMpQHbz2zS3rdfhWLywdZQ0t9JtpqPZY7O5I=",
+        "originContent": "cp .env.example .env.local",
+        "translatedContent": "cp .env.example .env.local"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### 2. Required Environment Variables\n\n#### Supabase Configuration\n- `NEXT_PUBLIC_SUPABASE_URL` - Your Supabase project URL\n- `NEXT_PUBLIC_SUPABASE_ANON_KEY` - Your Supabase anonymous key\n- `SUPABASE_SERVICE_ROLE_KEY` - Your Supabase service role key (server-side only)\n\n#### Stripe Configuration (optional)\n- `STRIPE_SECRET_KEY` - Your Stripe secret key (server-side only)\n- `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` - Your Stripe publishable key\n- `STRIPE_WEBHOOK_SECRET` - Your Stripe webhook secret\n\n#### Site Configuration\n- `NEXT_PUBLIC_SITE_URL` - Your site URL (for production)\n- `NEXTAUTH_URL` - Your site URL (same as above)\n- `NEXTAUTH_SECRET` - A random secret for NextAuth\n\n## Local Development\n\n1. Install dependencies:",
+    "ContentSha": "G2WgsDvx95OrWwNjRfkK+izDb3NYFKpvT3uC8NZ6fho=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 2. Required Environment Variables\n\n#### Supabase Configuration\n- `NEXT_PUBLIC_SUPABASE_URL` - Your Supabase project URL\n- `NEXT_PUBLIC_SUPABASE_ANON_KEY` - Your Supabase anonymous key\n- `SUPABASE_SERVICE_ROLE_KEY` - Your Supabase service role key (server-side only)\n\n#### Stripe Configuration (optional)\n- `STRIPE_SECRET_KEY` - Your Stripe secret key (server-side only)\n- `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` - Your Stripe publishable key\n- `STRIPE_WEBHOOK_SECRET` - Your Stripe webhook secret\n\n#### Site Configuration\n- `NEXT_PUBLIC_SITE_URL` - Your site URL (for production)\n- `NEXTAUTH_URL` - Your site URL (same as above)\n- `NEXTAUTH_SECRET` - A random secret for NextAuth\n\n## Local Development\n\n1. Install dependencies:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 2. Required Environment Variables"
+      },
+      {
+        "row": 2,
+        "rowsha": "VHWb23mciThTEJpyiftjCevkO27pXKiJv64hZa5Cn70=",
+        "originContent": "### 2. Required Environment Variables",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### Supabase Configuration"
+      },
+      {
+        "row": 4,
+        "rowsha": "6OH8ABmtquSXOnCLWTPzqRxt2Zc6PCOBkqZgklP/9Zw=",
+        "originContent": "#### Supabase Configuration",
+        "translatedContent": "- `NEXT_PUBLIC_SUPABASE_URL` - Your Supabase project URL"
+      },
+      {
+        "row": 5,
+        "rowsha": "e69tBsPDNhAsZeyLYST0Ti3fLV8XWg40Gs1IQ0+dN6w=",
+        "originContent": "- `NEXT_PUBLIC_SUPABASE_URL` - Your Supabase project URL",
+        "translatedContent": "- `NEXT_PUBLIC_SUPABASE_ANON_KEY` - Your Supabase anonymous key"
+      },
+      {
+        "row": 6,
+        "rowsha": "A4o9iSn1+LjR4X+fp1ZaTBSJc3sgNGru4tWfu/nhSYU=",
+        "originContent": "- `NEXT_PUBLIC_SUPABASE_ANON_KEY` - Your Supabase anonymous key",
+        "translatedContent": "- `SUPABASE_SERVICE_ROLE_KEY` - Your Supabase service role key (server-side only)"
+      },
+      {
+        "row": 7,
+        "rowsha": "50SGXJ7CthCS6z8J7YEN6D+0A2uFFs8ZWlGXBDGMBLo=",
+        "originContent": "- `SUPABASE_SERVICE_ROLE_KEY` - Your Supabase service role key (server-side only)",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### Stripe Configuration (optional)"
+      },
+      {
+        "row": 9,
+        "rowsha": "Q+IEjRAr49KH7NWhJbbEnd2bi/caiSdPMK5yGm38nnM=",
+        "originContent": "#### Stripe Configuration (optional)",
+        "translatedContent": "- `STRIPE_SECRET_KEY` - Your Stripe secret key (server-side only)"
+      },
+      {
+        "row": 10,
+        "rowsha": "eQi6pdo62uv7nzoeb7hBpNH5dPag/uhull8XERB6/r4=",
+        "originContent": "- `STRIPE_SECRET_KEY` - Your Stripe secret key (server-side only)",
+        "translatedContent": "- `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` - Your Stripe publishable key"
+      },
+      {
+        "row": 11,
+        "rowsha": "saEhd8JmOoPLCQoIO8bUZUzRxRjTw8BEfe3LeweEbqA=",
+        "originContent": "- `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` - Your Stripe publishable key",
+        "translatedContent": "- `STRIPE_WEBHOOK_SECRET` - Your Stripe webhook secret"
+      },
+      {
+        "row": 12,
+        "rowsha": "VT4/6NuQ08KYfGAMRTT3g6ZNrbNKeRwMDpD5e9PZ/co=",
+        "originContent": "- `STRIPE_WEBHOOK_SECRET` - Your Stripe webhook secret",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### Site Configuration"
+      },
+      {
+        "row": 14,
+        "rowsha": "RZfkOYljYbUfW8pNCy+VxC8H5GQ0KihjxORpOvn7dMQ=",
+        "originContent": "#### Site Configuration",
+        "translatedContent": "- `NEXT_PUBLIC_SITE_URL` - Your site URL (for production)"
+      },
+      {
+        "row": 15,
+        "rowsha": "Glm5od5Y/tPJQDip6ZOMwz9SLl10ePeFMIawl/uVT9I=",
+        "originContent": "- `NEXT_PUBLIC_SITE_URL` - Your site URL (for production)",
+        "translatedContent": "- `NEXTAUTH_URL` - Your site URL (same as above)"
+      },
+      {
+        "row": 16,
+        "rowsha": "5HQaESpnnPD41kQ8zDUJD09xuGG2HdfqwjJS92JAH1A=",
+        "originContent": "- `NEXTAUTH_URL` - Your site URL (same as above)",
+        "translatedContent": "- `NEXTAUTH_SECRET` - A random secret for NextAuth"
+      },
+      {
+        "row": 17,
+        "rowsha": "tuldZD5IMfK+IeXWfaPIq3hP6DTA3EnoOj8llwL9MAg=",
+        "originContent": "- `NEXTAUTH_SECRET` - A random secret for NextAuth",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Local Development"
+      },
+      {
+        "row": 19,
+        "rowsha": "3DtVzO+cLEfwMU0TLR9x8RXIpJnui/lW1uqX93LydVI=",
+        "originContent": "## Local Development",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. Install dependencies:"
+      },
+      {
+        "row": 21,
+        "rowsha": "edu5v91xwn1E7ud3/5YQvz9BnVRQPdCZEQxe1br9pPY=",
+        "originContent": "1. Install dependencies:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nnpm install\n```",
+    "ContentSha": "61pQ/Fja9zY+MRdm6d0xrWHYXeOM3qnlkhFYQhpctLs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpm install\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Oi3AriHrVteKDra70PRRLaBPn5T27mxqM4w+TLGo/5E=",
+        "originContent": "npm install",
+        "translatedContent": "npm install"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n2. Set up your environment variables in `.env.local`\n\n3. Run the development server:",
+    "ContentSha": "4oLdKHWQwRSSM7k3BVXSQ1GVQTx4m+HqGNT0eDqqs6Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. Set up your environment variables in `.env.local`\n\n3. Run the development server:</translate-content>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. Set up your environment variables in `.env.local`"
+      },
+      {
+        "row": 2,
+        "rowsha": "FV3oDumMe6zc26KMurP7ckGYodOW5qq6KfRKRPt7Fl4=",
+        "originContent": "2. Set up your environment variables in `.env.local`",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. Run the development server:</translate-content>"
+      },
+      {
+        "row": 4,
+        "rowsha": "OdHe0QgJif7BV+Vo40qvlHoQJ783meMw1zdUS02UP7Y=",
+        "originContent": "3. Run the development server:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\nnpm run dev\n```",
+    "ContentSha": "5P9R2wA4yiKaSLfMZBkkmb+yh2bd/WD1egocQ/wrBUc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpm run dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "IfFnfI9PhCQWiefGw310ACvgFob6wDpxDKh2mTUm//c=",
+        "originContent": "npm run dev",
+        "translatedContent": "npm run dev"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n4. Test Stripe webhooks locally using Stripe CLI:",
+    "ContentSha": "s4VHh7d4eWaYXN3nfPxcXJHDKpzRuUT2+DL0BmMmUs8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "4. Test Stripe webhooks locally using Stripe CLI:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "4. Test Stripe webhooks locally using Stripe CLI:"
+      },
+      {
+        "row": 2,
+        "rowsha": "hYJ+Bo+5ivsFGxUNwgLlr0RRuIr1jpWdmzSAvPqLo8k=",
+        "originContent": "4. Test Stripe webhooks locally using Stripe CLI:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\nstripe listen --forward-to localhost:3000/api/stripe/webhook\n```",
+    "ContentSha": "k7KY19hh+pmsNE5KXJuy5LodMhM4DqIvYBjXvKMbsBU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nstripe listen --forward-to localhost:3000/api/stripe/webhook\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "BhN7Hyl2N9CYuNdnCxAL+fVCZ8iuAsD8zo1YEW8OcyI=",
+        "originContent": "stripe listen --forward-to localhost:3000/api/stripe/webhook",
+        "translatedContent": "stripe listen --forward-to localhost:3000/api/stripe/webhook"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## Production Deployment\n\n\n### Vercel Deployment\n\n1. **Deploy to Vercel:**",
+    "ContentSha": "gn/aW5dvmt8+Zo0oI6WhlcZimH2m9Ac9+2Gyq2uXnt8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Production Deployment\n\n\n### Vercel Deployment\n\n1. **Deploy to Vercel:**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Production Deployment"
+      },
+      {
+        "row": 2,
+        "rowsha": "tfXaiJ7qvaTkZXp5azeYhmiU88iPPhEvLfYayUjE5+g=",
+        "originContent": "## Production Deployment",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Vercel Deployment"
+      },
+      {
+        "row": 5,
+        "rowsha": "SXW9GIqNkFuVIG/zPl6Tp2qpgYmPqFTfPbGk7ksfW6A=",
+        "originContent": "### Vercel Deployment",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. **Deploy to Vercel:**"
+      },
+      {
+        "row": 7,
+        "rowsha": "4xPUQqaUYFV8wA+J32B6fkr8b2sQZxfQmlaXOt4h5ZA=",
+        "originContent": "1. **Deploy to Vercel:**",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\nnpx vercel\n```",
+    "ContentSha": "p0J+fZkKWiTXFeyvwV0xfxL3Sn6f/yg4J9fPsrYRwIg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpx vercel\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "r4yIlwNoYiANxu68JcUtfN4kyVwV09Ni9ZCA+XdICGk=",
+        "originContent": "npx vercel",
+        "translatedContent": "npx vercel"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n2. **Environment Variables:**\n   Add all environment variables through Vercel dashboard or CLI\n\n3. **Stripe Webhook Setup:**\n   - Point webhook to: `https://your-domain.vercel.app/api/stripe/webhook`\n\n## API Endpoints\n\nThe application now uses these local API routes:\n\n- `POST /api/stripe/checkout` - Creates Stripe checkout sessions\n- `POST /api/stripe/webhook` - Handles Stripe webhook events\n\n## Benefits of Local API Routes\n\n1. **Simpler Deployment** - No need to deploy separate edge functions\n2. **Environment Variables** - Standard .env file support\n3. **Better Debugging** - Easier to debug locally\n4. **Framework Integration** - Better integration with Next.js\n5. **No Vendor Lock-in** - Can deploy to any platform that supports Next.js\n\n## Troubleshooting\n\n1. **Webhook Issues:**\n   - Ensure `STRIPE_WEBHOOK_SECRET` matches your Stripe webhook endpoint\n   - Check webhook logs in Stripe dashboard\n   - Verify webhook URL is correct\n\n2. **Environment Variables:**\n   - Ensure all required variables are set\n   - Check for typos in variable names\n   - Verify Supabase service role key has proper permissions\n\n3. **CORS Issues:**\n   - API routes include proper CORS headers\n   - Ensure your domain is whitelisted if needed\n\n## Security Notes\n\n- Never expose `STRIPE_SECRET_KEY` or `SUPABASE_SERVICE_ROLE_KEY` to the client\n- Use `NEXT_PUBLIC_` prefix only for client-side variables\n- Regularly rotate your webhook secrets\n- Monitor webhook delivery in Stripe dashboard\n",
+    "ContentSha": "YMd7oDqSx2zvYwTHWSxUaSK1AyBvZTv1CyWC1Xwl29o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. **Environment Variables:**  \n   Add all environment variables through Vercel dashboard or CLI  \n\n3. **Stripe Webhook Setup:**  \n   - Point webhook to: `https://your-domain.vercel.app/api/stripe/webhook`  \n\n## API Endpoints  \n\nThe application now uses these local API routes:  \n\n- `POST /api/stripe/checkout` - Creates Stripe checkout sessions  \n- `POST /api/stripe/webhook` - Handles Stripe webhook events  \n\n## Benefits of Local API Routes  \n\n1. **Simpler Deployment** - No need to deploy separate edge functions  \n2. **Environment Variables** - Standard .env file support  \n3. **Better Debugging** - Easier to debug locally  \n4. **Framework Integration** - Better integration with Next.js  \n5. **No Vendor Lock-in** - Can deploy to any platform that supports Next.js  \n\n## Troubleshooting  \n\n1. **Webhook Issues:**  \n   - Ensure `STRIPE_WEBHOOK_SECRET` matches your Stripe webhook endpoint  \n   - Check webhook logs in Stripe dashboard  \n   - Verify webhook URL is correct  \n\n2. **Environment Variables:**  \n   - Ensure all required variables are set  \n   - Check for typos in variable names  \n   - Verify Supabase service role key has proper permissions  \n\n3. **CORS Issues:**  \n   - API routes include proper CORS headers  \n   - Ensure your domain is whitelisted if needed  \n\n## Security Notes  \n\n- Never expose `STRIPE_SECRET_KEY` or `SUPABASE_SERVICE_ROLE_KEY` to the client  \n- Use `NEXT_PUBLIC_` prefix only for client-side variables  \n- Regularly rotate your webhook secrets  \n- Monitor webhook delivery in Stripe dashboard  \n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. **Environment Variables:**  "
+      },
+      {
+        "row": 2,
+        "rowsha": "h9oyJRVAr6D2yvUimPnrsLayUTKdwHY+flmpDgW6e+g=",
+        "originContent": "2. **Environment Variables:**",
+        "translatedContent": "   Add all environment variables through Vercel dashboard or CLI  "
+      },
+      {
+        "row": 3,
+        "rowsha": "rkbHJMTgETVnCVv55+6o4iwLS0naJGQMrT0tjmQulD4=",
+        "originContent": "   Add all environment variables through Vercel dashboard or CLI",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. **Stripe Webhook Setup:**  "
+      },
+      {
+        "row": 5,
+        "rowsha": "NZXclFYNx4+v+9h5psvPZVUfsZ8rVvvO+F7NaiXnoZE=",
+        "originContent": "3. **Stripe Webhook Setup:**",
+        "translatedContent": "   - Point webhook to: `https://your-domain.vercel.app/api/stripe/webhook`  "
+      },
+      {
+        "row": 6,
+        "rowsha": "IN4xzwJj+lEirOArjXXS0FKByMkmlbITV0pPeXwgfC8=",
+        "originContent": "   - Point webhook to: `https://your-domain.vercel.app/api/stripe/webhook`",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## API Endpoints  "
+      },
+      {
+        "row": 8,
+        "rowsha": "UUu7gISfhH2uO3Ym4w3xfF4QZH/G9WP0TtGk+T7rv80=",
+        "originContent": "## API Endpoints",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "The application now uses these local API routes:  "
+      },
+      {
+        "row": 10,
+        "rowsha": "yRMtImoqlM4hhGcIvaaiuBEysKfR28Uuu+p8rFIJB2o=",
+        "originContent": "The application now uses these local API routes:",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `POST /api/stripe/checkout` - Creates Stripe checkout sessions  "
+      },
+      {
+        "row": 12,
+        "rowsha": "Nm8zqTRXxZfQRiz7LijpssdJ9wU/G6ou32rYRwcII9s=",
+        "originContent": "- `POST /api/stripe/checkout` - Creates Stripe checkout sessions",
+        "translatedContent": "- `POST /api/stripe/webhook` - Handles Stripe webhook events  "
+      },
+      {
+        "row": 13,
+        "rowsha": "WAUL9+K+Rve0WwZrw8sw5V86VfyCB/eSMK+X2SXgEs4=",
+        "originContent": "- `POST /api/stripe/webhook` - Handles Stripe webhook events",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Benefits of Local API Routes  "
+      },
+      {
+        "row": 15,
+        "rowsha": "5+VV0baHw6tRrR9kprzM7WQtcNaMdVlvymZ5n8QP1uM=",
+        "originContent": "## Benefits of Local API Routes",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. **Simpler Deployment** - No need to deploy separate edge functions  "
+      },
+      {
+        "row": 17,
+        "rowsha": "Vt2EdT4qfvlP38OIXvsHfexPDDFfo1u3zcxrgxY7D7A=",
+        "originContent": "1. **Simpler Deployment** - No need to deploy separate edge functions",
+        "translatedContent": "2. **Environment Variables** - Standard .env file support  "
+      },
+      {
+        "row": 18,
+        "rowsha": "jCla2lfg4HAG3ajntmjjSm65qlZ9BFbqrQdi8+82/C0=",
+        "originContent": "2. **Environment Variables** - Standard .env file support",
+        "translatedContent": "3. **Better Debugging** - Easier to debug locally  "
+      },
+      {
+        "row": 19,
+        "rowsha": "Y8UR4Qx8sBehZYGzhg+HttC/hfvREZLyQsLi7xLVY3A=",
+        "originContent": "3. **Better Debugging** - Easier to debug locally",
+        "translatedContent": "4. **Framework Integration** - Better integration with Next.js  "
+      },
+      {
+        "row": 20,
+        "rowsha": "hfaRvxNO2Tl6Rcqgc474z9jDWG680etExRr8u3j3HUM=",
+        "originContent": "4. **Framework Integration** - Better integration with Next.js",
+        "translatedContent": "5. **No Vendor Lock-in** - Can deploy to any platform that supports Next.js  "
+      },
+      {
+        "row": 21,
+        "rowsha": "zrWy7kKLQV940nRqPgitwkqdFC5THTzglEUC4m0HdcY=",
+        "originContent": "5. **No Vendor Lock-in** - Can deploy to any platform that supports Next.js",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Troubleshooting  "
+      },
+      {
+        "row": 23,
+        "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+        "originContent": "## Troubleshooting",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. **Webhook Issues:**  "
+      },
+      {
+        "row": 25,
+        "rowsha": "pot5tYrY6vWs5mT5ngxJzyahM6RO5reOJem2jECyaQY=",
+        "originContent": "1. **Webhook Issues:**",
+        "translatedContent": "   - Ensure `STRIPE_WEBHOOK_SECRET` matches your Stripe webhook endpoint  "
+      },
+      {
+        "row": 26,
+        "rowsha": "R7F8iQWfds+IwFH2uJLfvM63mPLJVmH2rHKcb8hFNu4=",
+        "originContent": "   - Ensure `STRIPE_WEBHOOK_SECRET` matches your Stripe webhook endpoint",
+        "translatedContent": "   - Check webhook logs in Stripe dashboard  "
+      },
+      {
+        "row": 27,
+        "rowsha": "P/959qQp6U4VuIbMkmYjarylRhiQ2mqMSLpIRrwCciE=",
+        "originContent": "   - Check webhook logs in Stripe dashboard",
+        "translatedContent": "   - Verify webhook URL is correct  "
+      },
+      {
+        "row": 28,
+        "rowsha": "7aXajn6q3+nLN30XV3Pxfa1wDXpcM/JxNttN2Ee934Y=",
+        "originContent": "   - Verify webhook URL is correct",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. **Environment Variables:**  "
+      },
+      {
+        "row": 30,
+        "rowsha": "h9oyJRVAr6D2yvUimPnrsLayUTKdwHY+flmpDgW6e+g=",
+        "originContent": "2. **Environment Variables:**",
+        "translatedContent": "   - Ensure all required variables are set  "
+      },
+      {
+        "row": 31,
+        "rowsha": "4wVbrxeoCLvefDw/autXXibOko7RMlVVKZL1plo/eMs=",
+        "originContent": "   - Ensure all required variables are set",
+        "translatedContent": "   - Check for typos in variable names  "
+      },
+      {
+        "row": 32,
+        "rowsha": "oCeFbPkiIqzFlvhgbo7szTwVw9ftZmPO7Bwk9zLs6/Q=",
+        "originContent": "   - Check for typos in variable names",
+        "translatedContent": "   - Verify Supabase service role key has proper permissions  "
+      },
+      {
+        "row": 33,
+        "rowsha": "OlTteNUg05ppzAld50qzAKWX6uQ9yQZMe9DvDU+/3Yw=",
+        "originContent": "   - Verify Supabase service role key has proper permissions",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. **CORS Issues:**  "
+      },
+      {
+        "row": 35,
+        "rowsha": "2IBT8/09L5Gjnc47SzDKJTuAgsH+g+uoW72VawWZu3Q=",
+        "originContent": "3. **CORS Issues:**",
+        "translatedContent": "   - API routes include proper CORS headers  "
+      },
+      {
+        "row": 36,
+        "rowsha": "AQAggv5viKLBkB8VHPDDyiqdbcsl0JVM4awArjSOHNw=",
+        "originContent": "   - API routes include proper CORS headers",
+        "translatedContent": "   - Ensure your domain is whitelisted if needed  "
+      },
+      {
+        "row": 37,
+        "rowsha": "jSd9pZOjn9fX9DLBslAU+WYM9KJB4Gs8UzsEKEdeVdM=",
+        "originContent": "   - Ensure your domain is whitelisted if needed",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Security Notes  "
+      },
+      {
+        "row": 39,
+        "rowsha": "FrSvy/jSbCk2DEl/48Zo+EEDh7Lq8/yLrn8Zu/2X2Ys=",
+        "originContent": "## Security Notes",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Never expose `STRIPE_SECRET_KEY` or `SUPABASE_SERVICE_ROLE_KEY` to the client  "
+      },
+      {
+        "row": 41,
+        "rowsha": "BoCvkJB3GUpry6y2GoAlExH5AbGAXXMJ0nFQ1L9ISsI=",
+        "originContent": "- Never expose `STRIPE_SECRET_KEY` or `SUPABASE_SERVICE_ROLE_KEY` to the client",
+        "translatedContent": "- Use `NEXT_PUBLIC_` prefix only for client-side variables  "
+      },
+      {
+        "row": 42,
+        "rowsha": "NQFFo1DydCLsb7NLwETD9+ueQZpfFoo9BPSQjvhwOks=",
+        "originContent": "- Use `NEXT_PUBLIC_` prefix only for client-side variables",
+        "translatedContent": "- Regularly rotate your webhook secrets  "
+      },
+      {
+        "row": 43,
+        "rowsha": "/nCXY3VIA0TrTIuY7tQRn9zLXJb1sbGQhPUx5WgvTaY=",
+        "originContent": "- Regularly rotate your webhook secrets",
+        "translatedContent": "- Monitor webhook delivery in Stripe dashboard  "
+      },
+      {
+        "row": 44,
+        "rowsha": "Z9c5jHtmbriOTC6vteZgK3oHGYUAHfVAPi81Ch5HPOc=",
+        "originContent": "- Monitor webhook delivery in Stripe dashboard",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
