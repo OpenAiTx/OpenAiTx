@@ -1,0 +1,970 @@
+[
+  {
+    "Id": 1,
+    "Content": "<!-- GitHub Badges -->\n<p align=\"center\">\n  <a href=\"https://github.com/oldjs/web-code-agent/stargazers\"><img src=\"https://img.shields.io/github/stars/oldjs/web-code-agent?style=social\" alt=\"GitHub stars\"></a>\n  <a href=\"https://github.com/oldjs/web-code-agent/network/members\"><img src=\"https://img.shields.io/github/forks/oldjs/web-code-agent?style=social\" alt=\"GitHub forks\"></a>\n  <a href=\"https://github.com/oldjs/web-code-agent/issues\"><img src=\"https://img.shields.io/github/issues/oldjs/web-code-agent\" alt=\"GitHub issues\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/oldjs/web-code-agent/blob/main/preview.md\">\n    <img src=\"https://img.shields.io/badge/Preview-Click%20Here-blue\" alt=\"Preview\">\n  </a>\n</p>\n\n<p align=\"center\">\n  <a href=\"#zh-cn\">简体中文</a> | <a href=\"#en-us\">English</a>\n</p>\n\n# Folda-Scan: Your Private AI Navigator & Q&A Engine for Codebases 🚀\n[![许可证: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)\n[![GitHub Repo stars](https://img.shields.io/github/stars/oldjs/web-code-agent?style=social)](https://github.com/oldjs/web-code-agent/stargazers)\n\n---\n\n<p align=\"center\">\n  <em>Unlock your codebase with AI, all locally, with your privacy intact.</em>xs\n</p>\n\n---\n\n<a name=\"en-us\"></a>\n\n**Lost in a code maze? Tired of tedious context prep for AI collaboration? Folda-Scan to the rescue!** 💡\n\n**Folda-Scan** is a revolutionary intelligent project Q&A tool that **runs entirely locally in your browser**. It transforms your codebase into a conversational partner using advanced semantic vectorization, making code comprehension and AI collaboration unprecedentedly simple and secure.\n\nFolda-Scan (as part of the [WebFS-Toolkit](https://github.com/oldjs/web-code-agent)) is built with cutting-edge web technologies and AI algorithms to offer you a smooth, efficient, and secure local code interaction experience.\n\n### ✨ Key Highlights (Why Folda-Scan?)\n\n- 🛡️ **Absolute Privacy, Local Execution**: All data processing happens locally in your browser; your code **never leaves** your machine.\n- 💬 **\"Chat\" with Code in Natural Language**: Ask questions about your codebase as if talking to a colleague and get precise answers.\n- 🧠 **Deep Semantic Understanding**: Goes beyond keywords to grasp the true intent and complex logic within your code.\n- 🎯 **Pinpoint Information Instantly**: Quickly locate relevant code snippets and files, even with vague descriptions.\n- 🤖 **LLM Collaboration Accelerator**: Generate context-aware Markdown with one click, perfectly \"feeding\" AI assistants (ChatGPT, Claude, etc.).\n- 💰 **Slash Token Costs**: Optimize LLM interactions, significantly reducing API call expenses and latency.\n- 🛠️ **Smart Config Generation**: Assists in creating project configuration files like `Dockerfile`.\n- 🚀 **Instant Onboarding**: Clear guidance to kickstart your code exploration journey quickly.\n\n### 🚀 How It Works\n\nFolda-Scan's magic comes from its innovative **semantic vectorization engine**:\n\n1.  **Local Scanning & Indexing**: Securely scans your selected local project, converting code into high-dimensional vectors via semantic analysis, building a knowledge index locally in your browser.\n2.  **Intelligent Natural Language Processing (NLP)**: Understands your natural language questions and converts them into vectors too.\n3.  **Precise Semantic Matching**: Efficiently matches question vectors with code content in the vector space to provide the most relevant answers.\n    _All done efficiently in your browser, with your data privacy fully protected._\n\n### 🛠️ Tech Unveiled (Tech Stack)\n\n- **Core Framework:** [Next.js 14](https://nextjs.org/)\n- **Local File Interaction:** [File System Access API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API)\n- **AI & NLP:** Advanced Semantic Vector Analysis, Natural Language Processing Algorithms\n- **Main Language:** [JavaScript/TypeScript - please specify]\n  ### 🏁 Getting Started\n\n#### Prerequisites\n\n- Node.js (Recommended v16+ or v18+, refer to `package.json`)\n- npm (Version per `package.json`, e.g., npm@10.x.x) / yarn / pnpm\n- A modern browser supporting File System Access API (e.g., latest Chrome, Edge)\n\n### 💡 Basic Usage\n\n1.  **Select Folder**: Authorize browser access to your local code project.\n2.  **Wait for Indexing**: Folda-Scan will quickly build a semantic index locally.\n3.  **Start Asking**: Query your codebase in natural language and unveil its secrets!\n\n### 🤝 Contribute Your Prowess (Contributing)\n\nWe enthusiastically welcome contributions of all kinds! Whether it's bug reports, feature suggestions, or code submissions, please refer to our [Contribution Guidelines](https://raw.githubusercontent.com/oldjs/web-code-agent/main/CONTRIBUTING.md) (if you have one). Let's build a better Folda-Scan together!\n\n### 📄 License\n\nThis project is licensed under the [MIT License](LICENSE).\n\n---\n\n<p align=\"center\">\n  <a href=\"#en-us\">Back to Top</a>\n</p>\n---\n\n<a name=\"zh-cn\"></a>\n\n## Chinese\n\n**代码迷宫中找不到方向？与 AI 协作时上下文准备太繁琐？ Folda-Scan 来拯救您！** 💡\n\n**Folda-Scan** 是一款革命性的智能项目问答工具，它**完全在您的浏览器本地运行**，通过先进的语义向量化技术，将您的代码库转化为可对话的智能伙伴。告别繁琐，拥抱高效，让代码理解和 AI 协作变得前所未有地简单和安全。\n",
+    "ContentSha": "Waxlo27Dnp9Kg2U6BGVKRWpAd7kUg+9cutFcTeCPT3A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content><!-- GitHub 배지 -->\n<p align=\"center\">\n  <a href=\"https://github.com/oldjs/web-code-agent/stargazers\"><img src=\"https://img.shields.io/github/stars/oldjs/web-code-agent?style=social\" alt=\"GitHub 별\"></a>\n  <a href=\"https://github.com/oldjs/web-code-agent/network/members\"><img src=\"https://img.shields.io/github/forks/oldjs/web-code-agent?style=social\" alt=\"GitHub 포크\"></a>\n  <a href=\"https://github.com/oldjs/web-code-agent/issues\"><img src=\"https://img.shields.io/github/issues/oldjs/web-code-agent\" alt=\"GitHub 이슈\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/oldjs/web-code-agent/blob/main/preview.md\">\n    <img src=\"https://img.shields.io/badge/Preview-Click%20Here-blue\" alt=\"미리보기\">\n  </a>\n</p>\n\n<p align=\"center\">\n  <a href=\"#zh-cn\">简体中文</a> | <a href=\"#en-us\">English</a>\n</p>\n\n# Folda-Scan: 코드베이스를 위한 나만의 AI 내비게이터 및 Q&A 엔진 🚀\n[![라이선스: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)\n[![GitHub 저장소 별](https://img.shields.io/github/stars/oldjs/web-code-agent?style=social)](https://github.com/oldjs/web-code-agent/stargazers)\n\n---\n\n<p align=\"center\">\n  <em>AI와 함께 코드베이스를 로컬에서, 개인정보 보호는 그대로 유지하며 잠금 해제하세요.</em>xs\n</p>\n\n---\n\n<a name=\"en-us\"></a>\n\n**코드 미로에 갇히셨나요? AI 협업을 위한 지루한 컨텍스트 준비에 지치셨나요? Folda-Scan이 해결해 드립니다!** 💡\n\n**Folda-Scan**은 혁신적인 지능형 프로젝트 Q&A 도구로, **브라우저 내에서 완전히 로컬로 실행**됩니다. 고급 의미 벡터화를 사용해 코드베이스를 대화형 파트너로 변환하여 코드 이해와 AI 협업을 전례 없이 간단하고 안전하게 만듭니다.\n\nFolda-Scan은 ([WebFS-Toolkit](https://github.com/oldjs/web-code-agent)의 일부로서) 최첨단 웹 기술과 AI 알고리즘으로 구축되어 부드럽고 효율적이며 안전한 로컬 코드 상호작용 경험을 제공합니다.\n\n### ✨ 주요 특징 (왜 Folda-Scan인가?)\n\n- 🛡️ **절대적인 개인정보 보호, 로컬 실행**: 모든 데이터 처리가 브라우저 내 로컬에서 이루어지며, 코드가 **기기 밖으로 절대 나가지 않습니다**.\n- 💬 **자연어로 코드와 '대화'하기**: 동료와 이야기하듯 코드베이스에 질문하고 정확한 답변을 받으세요.\n- 🧠 **깊은 의미 이해**: 키워드를 넘어서 코드 내 진정한 의도와 복잡한 논리를 파악합니다.\n- 🎯 **즉각적인 정보 위치 지정**: 모호한 설명에도 관련 코드 스니펫과 파일을 빠르게 찾아냅니다.\n- 🤖 **LLM 협업 가속기**: 한 번의 클릭으로 컨텍스트 인식 마크다운을 생성해 AI 비서(ChatGPT, Claude 등)에 완벽하게 '공급'합니다.\n- 💰 **토큰 비용 절감**: LLM 상호작용을 최적화해 API 호출 비용과 지연 시간을 크게 줄입니다.\n- 🛠️ **스마트 구성 생성**: `Dockerfile` 같은 프로젝트 구성 파일 생성을 지원합니다.\n- 🚀 **즉시 온보딩**: 명확한 안내로 빠르게 코드 탐색 여정을 시작할 수 있습니다.\n\n### 🚀 작동 원리\n\nFolda-Scan의 마법은 혁신적인 **의미 벡터화 엔진**에서 나옵니다:\n\n1.  **로컬 스캔 및 인덱싱**: 선택한 로컬 프로젝트를 안전하게 스캔하고 의미 분석을 통해 코드를 고차원 벡터로 변환하여 브라우저 내에서 지식 인덱스를 구축합니다.\n2.  **지능형 자연어 처리(NLP)**: 자연어 질문을 이해하고 이를 벡터로 변환합니다.\n3.  **정확한 의미 매칭**: 벡터 공간에서 질문 벡터와 코드 내용을 효율적으로 매칭해 가장 관련성 높은 답변을 제공합니다.\n    _모두 브라우저 내에서 효율적으로 수행되며, 데이터 프라이버시는 완벽히 보호됩니다._\n\n### 🛠️ 기술 공개 (기술 스택)\n\n- **핵심 프레임워크:** [Next.js 14](https://nextjs.org/)\n- **로컬 파일 상호작용:** [File System Access API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API)\n- **AI & NLP:** 고급 의미 벡터 분석, 자연어 처리 알고리즘\n- **주요 언어:** [JavaScript/TypeScript - 명시 필요]\n  ### 🏁 시작하기\n\n#### 전제 조건\n\n- Node.js (권장 v16+ 또는 v18+, `package.json` 참고)\n- npm (`package.json`에 명시된 버전 예: npm@10.x.x) / yarn / pnpm\n- File System Access API를 지원하는 최신 브라우저 (예: 최신 Chrome, Edge)\n\n### 💡 기본 사용법\n\n1.  **폴더 선택**: 브라우저가 로컬 코드 프로젝트에 접근하도록 권한 부여.\n2.  **인덱싱 대기**: Folda-Scan이 로컬에서 빠르게 의미 인덱스를 구축합니다.\n3.  **질문 시작**: 자연어로 코드베이스에 질문하며 비밀을 밝혀내세요!\n\n### 🤝 기여 안내 (기여하기)\n\n우리는 모든 종류의 기여를 열렬히 환영합니다! 버그 리포트, 기능 제안, 코드 제출 등 무엇이든 환영합니다. 자세한 내용은 [기여 가이드라인](https://raw.githubusercontent.com/oldjs/web-code-agent/main/CONTRIBUTING.md)을 참조하세요. 함께 더 나은 Folda-Scan을 만들어 갑시다!\n\n### 📄 라이선스\n\n이 프로젝트는 [MIT 라이선스](LICENSE) 하에 라이선스가 부여됩니다.\n\n---\n\n<p align=\"center\">\n  <a href=\"#en-us\">맨 위로 가기</a>\n</p>\n---\n\n<a name=\"zh-cn\"></a>\n\n## Chinese\n\n**代码迷宫中找不到方向？与 AI 协作时上下文准备太繁琐？ Folda-Scan 来拯救您！** 💡\n\n**Folda-Scan** 是一款革命性的智能项目问答工具，它**完全在您的浏览器本地运行**，通过先进的语义向量化技术，将您的代码库转化为可对话的智能伙伴。告别繁琐，拥抱高效，让代码理解和 AI 协作变得前所未有地简单和安全。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "VFKiS56wh6/XNCucAH4acmPbyTYgpwgMzeGduFMrLzY=",
+        "originContent": "<!-- GitHub Badges -->",
+        "translatedContent": "<translate-content><!-- GitHub 배지 -->"
+      },
+      {
+        "row": 2,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "1rsS642fWaIzZ3Z3oJXoOM8TUrILT7wDBRTPCO3b+Ac=",
+        "originContent": "  <a href=\"https://github.com/oldjs/web-code-agent/stargazers\"><img src=\"https://img.shields.io/github/stars/oldjs/web-code-agent?style=social\" alt=\"GitHub stars\"></a>",
+        "translatedContent": "  <a href=\"https://github.com/oldjs/web-code-agent/stargazers\"><img src=\"https://img.shields.io/github/stars/oldjs/web-code-agent?style=social\" alt=\"GitHub 별\"></a>"
+      },
+      {
+        "row": 4,
+        "rowsha": "wVvdaHCK+yFpkOKnMNIXeVZVG/2B2pYT/8PDoRqgePA=",
+        "originContent": "  <a href=\"https://github.com/oldjs/web-code-agent/network/members\"><img src=\"https://img.shields.io/github/forks/oldjs/web-code-agent?style=social\" alt=\"GitHub forks\"></a>",
+        "translatedContent": "  <a href=\"https://github.com/oldjs/web-code-agent/network/members\"><img src=\"https://img.shields.io/github/forks/oldjs/web-code-agent?style=social\" alt=\"GitHub 포크\"></a>"
+      },
+      {
+        "row": 5,
+        "rowsha": "VVhfKql6/JK+axRMJBSb/N0Nf+26F71Z3iFz9AkxLl0=",
+        "originContent": "  <a href=\"https://github.com/oldjs/web-code-agent/issues\"><img src=\"https://img.shields.io/github/issues/oldjs/web-code-agent\" alt=\"GitHub issues\"></a>",
+        "translatedContent": "  <a href=\"https://github.com/oldjs/web-code-agent/issues\"><img src=\"https://img.shields.io/github/issues/oldjs/web-code-agent\" alt=\"GitHub 이슈\"></a>"
+      },
+      {
+        "row": 6,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 9,
+        "rowsha": "O9qN50fUBHwH4Bqc8V582npbTpTzZtgRJlOsRJHVLN4=",
+        "originContent": "  <a href=\"https://github.com/oldjs/web-code-agent/blob/main/preview.md\">",
+        "translatedContent": "  <a href=\"https://github.com/oldjs/web-code-agent/blob/main/preview.md\">"
+      },
+      {
+        "row": 10,
+        "rowsha": "kV9wqMatQWmUSJ38e03CXIh+lFTAW7oBbYcr5qu+HRI=",
+        "originContent": "    <img src=\"https://img.shields.io/badge/Preview-Click%20Here-blue\" alt=\"Preview\">",
+        "translatedContent": "    <img src=\"https://img.shields.io/badge/Preview-Click%20Here-blue\" alt=\"미리보기\">"
+      },
+      {
+        "row": 11,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 15,
+        "rowsha": "OOAyM8jMt+KgNW2aPryl3yL6jvJ1LvFaYkhgrr0hAsY=",
+        "originContent": "  <a href=\"#zh-cn\">简体中文</a> | <a href=\"#en-us\">English</a>",
+        "translatedContent": "  <a href=\"#zh-cn\">简体中文</a> | <a href=\"#en-us\">English</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "biaEvgvl/TKifVBTrvyw6/PjGIgwZewCdnH7qpzQMs8=",
+        "originContent": "# Folda-Scan: Your Private AI Navigator & Q&A Engine for Codebases 🚀",
+        "translatedContent": "# Folda-Scan: 코드베이스를 위한 나만의 AI 내비게이터 및 Q&A 엔진 🚀"
+      },
+      {
+        "row": 19,
+        "rowsha": "qaUsplpK7O5l8p+LorCjBT7rBKS84T0wFPj8QrumsJ8=",
+        "originContent": "[![许可证: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)",
+        "translatedContent": "[![라이선스: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)"
+      },
+      {
+        "row": 20,
+        "rowsha": "u/aA3N5m06wn57Lg5NqD4Sw4fRXqHsUIwJIAmQZIaoU=",
+        "originContent": "[![GitHub Repo stars](https://img.shields.io/github/stars/oldjs/web-code-agent?style=social)](https://github.com/oldjs/web-code-agent/stargazers)",
+        "translatedContent": "[![GitHub 저장소 별](https://img.shields.io/github/stars/oldjs/web-code-agent?style=social)](https://github.com/oldjs/web-code-agent/stargazers)"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 25,
+        "rowsha": "Pfx57vro5o2E7IpJnRyGJVWrk8xsMJQmqIGFChmzfJs=",
+        "originContent": "  <em>Unlock your codebase with AI, all locally, with your privacy intact.</em>xs",
+        "translatedContent": "  <em>AI와 함께 코드베이스를 로컬에서, 개인정보 보호는 그대로 유지하며 잠금 해제하세요.</em>xs"
+      },
+      {
+        "row": 26,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "B9qPdAU+r9tdrOA+NACOUHSwnpJld91VlEIasDeUXJY=",
+        "originContent": "<a name=\"en-us\"></a>",
+        "translatedContent": "<a name=\"en-us\"></a>"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "UVX8pQqKkF5lJ4ATc1k36N1413bYiAx1DqbUNc4nlvE=",
+        "originContent": "**Lost in a code maze? Tired of tedious context prep for AI collaboration? Folda-Scan to the rescue!** 💡",
+        "translatedContent": "**코드 미로에 갇히셨나요? AI 협업을 위한 지루한 컨텍스트 준비에 지치셨나요? Folda-Scan이 해결해 드립니다!** 💡"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "gj3P8lqyj+c2duM869kBW09g2wnofxqlZuO88awF05U=",
+        "originContent": "**Folda-Scan** is a revolutionary intelligent project Q&A tool that **runs entirely locally in your browser**. It transforms your codebase into a conversational partner using advanced semantic vectorization, making code comprehension and AI collaboration unprecedentedly simple and secure.",
+        "translatedContent": "**Folda-Scan**은 혁신적인 지능형 프로젝트 Q&A 도구로, **브라우저 내에서 완전히 로컬로 실행**됩니다. 고급 의미 벡터화를 사용해 코드베이스를 대화형 파트너로 변환하여 코드 이해와 AI 협업을 전례 없이 간단하고 안전하게 만듭니다."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "NnozOqg9yWFktIE70YHAlAID9ymx2gHbJce2JMp49Ec=",
+        "originContent": "Folda-Scan (as part of the [WebFS-Toolkit](https://github.com/oldjs/web-code-agent)) is built with cutting-edge web technologies and AI algorithms to offer you a smooth, efficient, and secure local code interaction experience.",
+        "translatedContent": "Folda-Scan은 ([WebFS-Toolkit](https://github.com/oldjs/web-code-agent)의 일부로서) 최첨단 웹 기술과 AI 알고리즘으로 구축되어 부드럽고 효율적이며 안전한 로컬 코드 상호작용 경험을 제공합니다."
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "JBYNlnh5u5/KP/DoC11kmvn+LjQOLUglQZeTXKJtD60=",
+        "originContent": "### ✨ Key Highlights (Why Folda-Scan?)",
+        "translatedContent": "### ✨ 주요 특징 (왜 Folda-Scan인가?)"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "xgODaloz1odanB8U2MgW+H62v3SIjDSB/9GY2fRTRpI=",
+        "originContent": "- 🛡️ **Absolute Privacy, Local Execution**: All data processing happens locally in your browser; your code **never leaves** your machine.",
+        "translatedContent": "- 🛡️ **절대적인 개인정보 보호, 로컬 실행**: 모든 데이터 처리가 브라우저 내 로컬에서 이루어지며, 코드가 **기기 밖으로 절대 나가지 않습니다**."
+      },
+      {
+        "row": 41,
+        "rowsha": "Lk4rJ7EuUc+n77pPE0pNmHR5SWMhnOPr7aMUxVTiwSs=",
+        "originContent": "- 💬 **\"Chat\" with Code in Natural Language**: Ask questions about your codebase as if talking to a colleague and get precise answers.",
+        "translatedContent": "- 💬 **자연어로 코드와 '대화'하기**: 동료와 이야기하듯 코드베이스에 질문하고 정확한 답변을 받으세요."
+      },
+      {
+        "row": 42,
+        "rowsha": "4ZbGCX92TDY6r7jnchPY77xmf3W8fbQTSoffwM/1+Y4=",
+        "originContent": "- 🧠 **Deep Semantic Understanding**: Goes beyond keywords to grasp the true intent and complex logic within your code.",
+        "translatedContent": "- 🧠 **깊은 의미 이해**: 키워드를 넘어서 코드 내 진정한 의도와 복잡한 논리를 파악합니다."
+      },
+      {
+        "row": 43,
+        "rowsha": "0SZHa0KzKI+5JZCZ/xrOu0ufUd3YS0skSVjCAygPPbM=",
+        "originContent": "- 🎯 **Pinpoint Information Instantly**: Quickly locate relevant code snippets and files, even with vague descriptions.",
+        "translatedContent": "- 🎯 **즉각적인 정보 위치 지정**: 모호한 설명에도 관련 코드 스니펫과 파일을 빠르게 찾아냅니다."
+      },
+      {
+        "row": 44,
+        "rowsha": "lqQlD4fShBDLGnQxJXM089SFzntWahUFcNrT7dX5I74=",
+        "originContent": "- 🤖 **LLM Collaboration Accelerator**: Generate context-aware Markdown with one click, perfectly \"feeding\" AI assistants (ChatGPT, Claude, etc.).",
+        "translatedContent": "- 🤖 **LLM 협업 가속기**: 한 번의 클릭으로 컨텍스트 인식 마크다운을 생성해 AI 비서(ChatGPT, Claude 등)에 완벽하게 '공급'합니다."
+      },
+      {
+        "row": 45,
+        "rowsha": "JMCeibi9hlxnogq+B0PkQq7vJNVZ6JcRETdaDL+1aUI=",
+        "originContent": "- 💰 **Slash Token Costs**: Optimize LLM interactions, significantly reducing API call expenses and latency.",
+        "translatedContent": "- 💰 **토큰 비용 절감**: LLM 상호작용을 최적화해 API 호출 비용과 지연 시간을 크게 줄입니다."
+      },
+      {
+        "row": 46,
+        "rowsha": "GESosNi365Pq+h++fFMeDBBRDs5KPZtP+yDbyzX5dZE=",
+        "originContent": "- 🛠️ **Smart Config Generation**: Assists in creating project configuration files like `Dockerfile`.",
+        "translatedContent": "- 🛠️ **스마트 구성 생성**: `Dockerfile` 같은 프로젝트 구성 파일 생성을 지원합니다."
+      },
+      {
+        "row": 47,
+        "rowsha": "SHHi6ifCYtFQjYEyxxNNi7kfzPxZsBOoSZrBt0XVxv0=",
+        "originContent": "- 🚀 **Instant Onboarding**: Clear guidance to kickstart your code exploration journey quickly.",
+        "translatedContent": "- 🚀 **즉시 온보딩**: 명확한 안내로 빠르게 코드 탐색 여정을 시작할 수 있습니다."
+      },
+      {
+        "row": 48,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "1z6k82vMkqOehGSWltw6ab+SFxL4czeK6k2TU0mNZnc=",
+        "originContent": "### 🚀 How It Works",
+        "translatedContent": "### 🚀 작동 원리"
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "GmjBSA3yEc3+VAm0w5/DkCZqknr51kjbzANj1l47tW0=",
+        "originContent": "Folda-Scan's magic comes from its innovative **semantic vectorization engine**:",
+        "translatedContent": "Folda-Scan의 마법은 혁신적인 **의미 벡터화 엔진**에서 나옵니다:"
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "+CWqCtwe/vjAqdrZu8MzF0un3OwU/lfXwXG/8LMytdU=",
+        "originContent": "1.  **Local Scanning & Indexing**: Securely scans your selected local project, converting code into high-dimensional vectors via semantic analysis, building a knowledge index locally in your browser.",
+        "translatedContent": "1.  **로컬 스캔 및 인덱싱**: 선택한 로컬 프로젝트를 안전하게 스캔하고 의미 분석을 통해 코드를 고차원 벡터로 변환하여 브라우저 내에서 지식 인덱스를 구축합니다."
+      },
+      {
+        "row": 54,
+        "rowsha": "iyKpHvVDqlv+43JIPDXE7EJ5bm1zN2ug2iAXHQxU8fQ=",
+        "originContent": "2.  **Intelligent Natural Language Processing (NLP)**: Understands your natural language questions and converts them into vectors too.",
+        "translatedContent": "2.  **지능형 자연어 처리(NLP)**: 자연어 질문을 이해하고 이를 벡터로 변환합니다."
+      },
+      {
+        "row": 55,
+        "rowsha": "0YhLWrwA/DypHtp5OFf+2PA9ZahAoKXgOYD1JnnRvhw=",
+        "originContent": "3.  **Precise Semantic Matching**: Efficiently matches question vectors with code content in the vector space to provide the most relevant answers.",
+        "translatedContent": "3.  **정확한 의미 매칭**: 벡터 공간에서 질문 벡터와 코드 내용을 효율적으로 매칭해 가장 관련성 높은 답변을 제공합니다."
+      },
+      {
+        "row": 56,
+        "rowsha": "cyk1Y30i8j/yRABJZzSv7XpptiGStKmJUBMIubANmxs=",
+        "originContent": "    _All done efficiently in your browser, with your data privacy fully protected._",
+        "translatedContent": "    _모두 브라우저 내에서 효율적으로 수행되며, 데이터 프라이버시는 완벽히 보호됩니다._"
+      },
+      {
+        "row": 57,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 58,
+        "rowsha": "A+Nnn9J8oJotkuKjEPyrmG4GOI2dkU3gJXUSSoweoeg=",
+        "originContent": "### 🛠️ Tech Unveiled (Tech Stack)",
+        "translatedContent": "### 🛠️ 기술 공개 (기술 스택)"
+      },
+      {
+        "row": 59,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 60,
+        "rowsha": "oCXaxKviLD9Bu/QpLz8dnLtup/KmG7CW/vsc9Gs61sc=",
+        "originContent": "- **Core Framework:** [Next.js 14](https://nextjs.org/)",
+        "translatedContent": "- **핵심 프레임워크:** [Next.js 14](https://nextjs.org/)"
+      },
+      {
+        "row": 61,
+        "rowsha": "3lMfNoCW8olVxvfse9ZfA3gZeRTAVFTIEVV9klg1dq8=",
+        "originContent": "- **Local File Interaction:** [File System Access API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API)",
+        "translatedContent": "- **로컬 파일 상호작용:** [File System Access API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API)"
+      },
+      {
+        "row": 62,
+        "rowsha": "z63y6lAXK8FFfgi5SlbfrikOuTqYPCQY935F+wf7wH0=",
+        "originContent": "- **AI & NLP:** Advanced Semantic Vector Analysis, Natural Language Processing Algorithms",
+        "translatedContent": "- **AI & NLP:** 고급 의미 벡터 분석, 자연어 처리 알고리즘"
+      },
+      {
+        "row": 63,
+        "rowsha": "Xpj8rioRjn7GgLxdMNIsaxWT+cPgtMY9JYFi6SWpe9Y=",
+        "originContent": "- **Main Language:** [JavaScript/TypeScript - please specify]",
+        "translatedContent": "- **주요 언어:** [JavaScript/TypeScript - 명시 필요]"
+      },
+      {
+        "row": 64,
+        "rowsha": "I8E+LOMOFSOvBs4bQd5ILvYwE/VfkFmQ3PmrVit+qgE=",
+        "originContent": "  ### 🏁 Getting Started",
+        "translatedContent": "  ### 🏁 시작하기"
+      },
+      {
+        "row": 65,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 66,
+        "rowsha": "YJ9an2nCjbda0JOWCBaxTn5kBQ5lsvAwZCNxWnbuBw0=",
+        "originContent": "#### Prerequisites",
+        "translatedContent": "#### 전제 조건"
+      },
+      {
+        "row": 67,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 68,
+        "rowsha": "ye3j0qGUOO70QGTgSJB79S26GGiOMYQ+dt7NDWDJY8o=",
+        "originContent": "- Node.js (Recommended v16+ or v18+, refer to `package.json`)",
+        "translatedContent": "- Node.js (권장 v16+ 또는 v18+, `package.json` 참고)"
+      },
+      {
+        "row": 69,
+        "rowsha": "3iJWMoPbStjWcYNP3vErjMH7VHR6WFb1KsEtul9qMUc=",
+        "originContent": "- npm (Version per `package.json`, e.g., npm@10.x.x) / yarn / pnpm",
+        "translatedContent": "- npm (`package.json`에 명시된 버전 예: npm@10.x.x) / yarn / pnpm"
+      },
+      {
+        "row": 70,
+        "rowsha": "VOR5DuRJ8TcDjEkuxF2fKz7AHtcad9HSohZV/bDFG18=",
+        "originContent": "- A modern browser supporting File System Access API (e.g., latest Chrome, Edge)",
+        "translatedContent": "- File System Access API를 지원하는 최신 브라우저 (예: 최신 Chrome, Edge)"
+      },
+      {
+        "row": 71,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 72,
+        "rowsha": "UrudOjmFdbfGyJGVauTglHO6MqMRcWnJLzTORQCcgQI=",
+        "originContent": "### 💡 Basic Usage",
+        "translatedContent": "### 💡 기본 사용법"
+      },
+      {
+        "row": 73,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 74,
+        "rowsha": "gdER35Ubi/gkwXBzHRXSe2kvKrtfNY+74N6wC8so7j8=",
+        "originContent": "1.  **Select Folder**: Authorize browser access to your local code project.",
+        "translatedContent": "1.  **폴더 선택**: 브라우저가 로컬 코드 프로젝트에 접근하도록 권한 부여."
+      },
+      {
+        "row": 75,
+        "rowsha": "cca3rcVvAESLWmoEe2RDx0zALijhMSgWrSPbFRZd0eE=",
+        "originContent": "2.  **Wait for Indexing**: Folda-Scan will quickly build a semantic index locally.",
+        "translatedContent": "2.  **인덱싱 대기**: Folda-Scan이 로컬에서 빠르게 의미 인덱스를 구축합니다."
+      },
+      {
+        "row": 76,
+        "rowsha": "PFnf/8iy1xgyMjVU6Hx3EOjtHfwa4bhHs2pl3jeMvu4=",
+        "originContent": "3.  **Start Asking**: Query your codebase in natural language and unveil its secrets!",
+        "translatedContent": "3.  **질문 시작**: 자연어로 코드베이스에 질문하며 비밀을 밝혀내세요!"
+      },
+      {
+        "row": 77,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 78,
+        "rowsha": "WJgp3F5lD4aGXMYA1rj6CxV1zpC6jfdnRXRRKi6VqRM=",
+        "originContent": "### 🤝 Contribute Your Prowess (Contributing)",
+        "translatedContent": "### 🤝 기여 안내 (기여하기)"
+      },
+      {
+        "row": 79,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 80,
+        "rowsha": "aqNEo3SjuoRcmLvSHPksGPKKhNjUapsKxdrYqj/NVsY=",
+        "originContent": "We enthusiastically welcome contributions of all kinds! Whether it's bug reports, feature suggestions, or code submissions, please refer to our [Contribution Guidelines](https://raw.githubusercontent.com/oldjs/web-code-agent/main/CONTRIBUTING.md) (if you have one). Let's build a better Folda-Scan together!",
+        "translatedContent": "우리는 모든 종류의 기여를 열렬히 환영합니다! 버그 리포트, 기능 제안, 코드 제출 등 무엇이든 환영합니다. 자세한 내용은 [기여 가이드라인](https://raw.githubusercontent.com/oldjs/web-code-agent/main/CONTRIBUTING.md)을 참조하세요. 함께 더 나은 Folda-Scan을 만들어 갑시다!"
+      },
+      {
+        "row": 81,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 82,
+        "rowsha": "84uz716F4ieblKymvF822ssVZlRcjW4TtyWPNTg/GVQ=",
+        "originContent": "### 📄 License",
+        "translatedContent": "### 📄 라이선스"
+      },
+      {
+        "row": 83,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 84,
+        "rowsha": "MswBhfOOWTsjEByUXyqqJntjLaIy1mJ9TacCLm3qM3A=",
+        "originContent": "This project is licensed under the [MIT License](LICENSE).",
+        "translatedContent": "이 프로젝트는 [MIT 라이선스](LICENSE) 하에 라이선스가 부여됩니다."
+      },
+      {
+        "row": 85,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 86,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 87,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 88,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 89,
+        "rowsha": "xE1ug5Wd4ZrhlfFnSwia9pSHTWr9B96tIX+fXCMQsyg=",
+        "originContent": "  <a href=\"#en-us\">Back to Top</a>",
+        "translatedContent": "  <a href=\"#en-us\">맨 위로 가기</a>"
+      },
+      {
+        "row": 90,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 91,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 92,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 93,
+        "rowsha": "dfd4X5O8jnImRp3evDOe4uXjMp44Ks5X12KIR3FsEaM=",
+        "originContent": "<a name=\"zh-cn\"></a>",
+        "translatedContent": "<a name=\"zh-cn\"></a>"
+      },
+      {
+        "row": 94,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 95,
+        "rowsha": "DUCGS1Yndhgwg8yXtg3V7N03XAdRiqHI6ancRhVy0xM=",
+        "originContent": "## Chinese",
+        "translatedContent": "## Chinese"
+      },
+      {
+        "row": 96,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 97,
+        "rowsha": "XuaO0IhizOwtVE5cvwSaU1DnHkV4uGIV0CUi8to10+U=",
+        "originContent": "**代码迷宫中找不到方向？与 AI 协作时上下文准备太繁琐？ Folda-Scan 来拯救您！** 💡",
+        "translatedContent": "**代码迷宫中找不到方向？与 AI 协作时上下文准备太繁琐？ Folda-Scan 来拯救您！** 💡"
+      },
+      {
+        "row": 98,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 99,
+        "rowsha": "QZsaXmKS2yGa+0P97rv/9wsMuo8DTsxG89QggVFMWE4=",
+        "originContent": "**Folda-Scan** 是一款革命性的智能项目问答工具，它**完全在您的浏览器本地运行**，通过先进的语义向量化技术，将您的代码库转化为可对话的智能伙伴。告别繁琐，拥抱高效，让代码理解和 AI 协作变得前所未有地简单和安全。",
+        "translatedContent": "**Folda-Scan** 是一款革命性的智能项目问答工具，它**完全在您的浏览器本地运行**，通过先进的语义向量化技术，将您的代码库转化为可对话的智能伙伴。告别繁琐，拥抱高效，让代码理解和 AI 协作变得前所未有地简单和安全。"
+      },
+      {
+        "row": 100,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "Folda-Scan (作为 [WebFS-Toolkit](https://github.com/oldjs/web-code-agent) 的一部分) 采用尖端 Web 技术和 AI 算法，为您带来流畅、高效且安全的本地代码交互新体验。\n\n### ✨ 核心亮点 (Why Folda-Scan?)\n\n- 🛡️ **绝对隐私，本地运行**：所有数据处理均在浏览器本地完成，代码**永不离开**您的计算机。\n- 💬 **自然语言“聊”代码**：像和同事聊天一样向代码库提问，精准获取答案。\n- 🧠 **深层语义理解**：超越关键词，理解代码的真实意图和复杂逻辑。\n- 🎯 **信息秒级定位**：模糊描述也能快速定位相关代码片段和文件。\n- 🤖 **LLM 协作加速器**：一键生成上下文感知的 Markdown，为 AI 助手（ChatGPT, Claude 等）提供完美“食粮”。\n- 💰 **Token 成本骤降**：优化 LLM 交互，显著降低 API 调用成本和等待时间。\n- 🛠️ **智能配置生成**：辅助生成 `Dockerfile` 等项目配置文件。\n- 🚀 **即时上手**：清晰的项目运行指导，快速启动您的代码探索之旅。\n\n### 🚀 它是如何工作的？ (How It Works)\n\nFolda-Scan 的魔法源于其创新的**语义向量化引擎**：\n\n1.  **本地扫描与索引**：安全扫描您选定的本地项目，通过语义分析将代码转化为高维向量，在浏览器本地构建知识索引。\n2.  **智能自然语言处理 (NLP)**：理解您的自然语言提问，并将其同样向量化。\n3.  **精准语义匹配**：在向量空间中高效匹配问题与代码内容，提供最相关的答案。\n    _这一切都在保障您数据隐私的前提下，在浏览器中高效完成。_\n\n### 🛠️ 技术栈 (Tech Stack)\n\n- **核心框架:** [Next.js 14](https://nextjs.org/)\n- **本地文件交互:** [File System Access API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API)\n- **AI & NLP:** 先进语义向量分析、自然语言处理算法\n- **主要语言:** [JavaScript/TypeScript - 请指明]\n  ### 🏁 快速开始 (Getting Started)\n\n#### 环境要求 (Prerequisites)\n\n- Node.js (建议 v16+ 或 v18+, 参照 `package.json`)\n- npm (版本参照 `package.json`, 例如 npm@10.x.x) / yarn / pnpm\n- 支持 File System Access API 的现代浏览器 (如 Chrome, Edge 最新版)\n\n### 💡 基本用法 (Basic Usage)\n\n1.  **选择文件夹**：授权浏览器访问您的本地代码项目。\n2.  **等待索引**：Folda-Scan 将在本地快速构建语义索引。\n3.  **开始提问**：用自然语言向您的代码库提问，探索其奥秘！\n\n### 🤝 贡献您的力量 (Contributing)\n\n我们热烈欢迎各种形式的贡献！无论是 Bug 报告、功能建议还是代码提交，请参考我们的 [贡献指南](https://raw.githubusercontent.com/oldjs/web-code-agent/main/CONTRIBUTING.md) (如果您有的话)。期待与您共建更好的 Folda-Scan！\n\n### 📄 开源许可 (License)\n\n本项目基于 [MIT 许可证](LICENSE) 开源。\n\n---\n\n<p align=\"center\">\n  <a href=\"#zh-cn\">返回顶部 (Back to Top)</a>\n</p>\n---\n",
+    "ContentSha": "SvILpq8PZWp5PQVmiZVYGefdsPMxiaoj79TC7R2GNFM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Folda-Scan ([WebFS-Toolkit](https://github.com/oldjs/web-code-agent)의 일부로) 최첨단 웹 기술과 AI 알고리즘을 사용하여 매끄럽고 효율적이며 안전한 로컬 코드 상호작용의 새로운 경험을 제공합니다.\n\n### ✨ 핵심 하이라이트 (왜 Folda-Scan인가?)\n\n- 🛡️ **절대적인 프라이버시, 로컬 실행**: 모든 데이터 처리는 브라우저 로컬에서 이루어지며, 코드는 **절대 컴퓨터를 떠나지 않습니다**.\n- 💬 **자연어로 코드와 대화**: 동료와 대화하듯 코드베이스에 질문하여 정확한 답변을 얻습니다.\n- 🧠 **심층 의미 이해**: 키워드를 넘어서 코드의 진짜 의도와 복잡한 로직을 이해합니다.\n- 🎯 **초단위 정보 위치 지정**: 모호한 설명도 신속하게 관련 코드 조각과 파일을 찾아냅니다.\n- 🤖 **LLM 협업 가속기**: 한 번의 클릭으로 문맥 인식 Markdown을 생성해 AI 비서(ChatGPT, Claude 등)에 완벽한 ‘먹이’를 제공합니다.\n- 💰 **토큰 비용 대폭 절감**: LLM 상호작용을 최적화하여 API 호출 비용과 대기 시간을 크게 줄입니다.\n- 🛠️ **스마트 구성 생성**: `Dockerfile` 등 프로젝트 구성 파일 생성을 지원합니다.\n- 🚀 **즉시 시작 가능**: 명확한 프로젝트 실행 안내로 빠르게 코드 탐험을 시작하세요.\n\n### 🚀 작동 원리 (How It Works)\n\nFolda-Scan의 마법은 혁신적인 **의미 벡터화 엔진**에 기반합니다:\n\n1.  **로컬 스캔 및 인덱싱**: 선택한 로컬 프로젝트를 안전하게 스캔하고 의미 분석을 통해 코드를 고차원 벡터로 변환하여 브라우저 내 지식 인덱스를 구축합니다.\n2.  **지능형 자연어 처리(NLP)**: 사용자의 자연어 질문을 이해하고 같은 방식으로 벡터화합니다.\n3.  **정확한 의미 매칭**: 벡터 공간에서 질문과 코드 내용을 효율적으로 매칭하여 가장 관련성 높은 답변을 제공합니다.\n    _이 모든 과정은 데이터 프라이버시를 보장하며 브라우저 내에서 효율적으로 수행됩니다._\n\n### 🛠️ 기술 스택 (Tech Stack)\n\n- **핵심 프레임워크:** [Next.js 14](https://nextjs.org/)\n- **로컬 파일 상호작용:** [File System Access API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API)\n- **AI & NLP:** 최첨단 의미 벡터 분석 및 자연어 처리 알고리즘\n- **주요 언어:** [JavaScript/TypeScript - 명시 필요]\n  ### 🏁 빠른 시작 (Getting Started)\n\n#### 환경 요구사항 (Prerequisites)\n\n- Node.js (권장 v16+ 또는 v18+, `package.json` 참조)\n- npm (`package.json` 참조, 예: npm@10.x.x) / yarn / pnpm\n- File System Access API를 지원하는 최신 브라우저(예: 최신 버전 Chrome, Edge)\n\n### 💡 기본 사용법 (Basic Usage)\n\n1.  **폴더 선택**: 브라우저가 로컬 코드 프로젝트에 접근하도록 허용합니다.\n2.  **인덱스 대기**: Folda-Scan이 로컬에서 빠르게 의미 인덱스를 구축합니다.\n3.  **질문 시작**: 자연어로 코드베이스에 질문하며 그 비밀을 탐험하세요!\n\n### 🤝 기여하기 (Contributing)\n\n모든 형태의 기여를 환영합니다! 버그 리포트, 기능 제안, 코드 제출 등은 우리의 [기여 가이드](https://raw.githubusercontent.com/oldjs/web-code-agent/main/CONTRIBUTING.md) (있는 경우)를 참조하세요. 더 나은 Folda-Scan을 함께 만들어가길 기대합니다!\n\n### 📄 오픈 소스 라이선스 (License)\n\n본 프로젝트는 [MIT 라이선스](LICENSE)로 오픈 소스화되어 있습니다.\n\n---\n\n<p align=\"center\">\n  <a href=\"#zh-cn\">상단으로 이동 (Back to Top)</a>\n</p>\n---\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "F0pNjctudB8OXGTf80xAwcbt5seUAvXfQhW8DP3Ayp0=",
+        "originContent": "Folda-Scan (作为 [WebFS-Toolkit](https://github.com/oldjs/web-code-agent) 的一部分) 采用尖端 Web 技术和 AI 算法，为您带来流畅、高效且安全的本地代码交互新体验。",
+        "translatedContent": "Folda-Scan ([WebFS-Toolkit](https://github.com/oldjs/web-code-agent)의 일부로) 최첨단 웹 기술과 AI 알고리즘을 사용하여 매끄럽고 효율적이며 안전한 로컬 코드 상호작용의 새로운 경험을 제공합니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "9smfyuRwoKKjTl2Ow3YdKRND0u1mMbxI/B+ojLqOxo8=",
+        "originContent": "### ✨ 核心亮点 (Why Folda-Scan?)",
+        "translatedContent": "### ✨ 핵심 하이라이트 (왜 Folda-Scan인가?)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Tw01VQd/qWwtSAxA05aKFPqfILuO5A9Y7zQooS7qlxA=",
+        "originContent": "- 🛡️ **绝对隐私，本地运行**：所有数据处理均在浏览器本地完成，代码**永不离开**您的计算机。",
+        "translatedContent": "- 🛡️ **절대적인 프라이버시, 로컬 실행**: 모든 데이터 처리는 브라우저 로컬에서 이루어지며, 코드는 **절대 컴퓨터를 떠나지 않습니다**."
+      },
+      {
+        "row": 6,
+        "rowsha": "H0dvoD9C/ykC+tp5UZmU1n4GxGKJ+X40AD+KSHDdKXs=",
+        "originContent": "- 💬 **自然语言“聊”代码**：像和同事聊天一样向代码库提问，精准获取答案。",
+        "translatedContent": "- 💬 **자연어로 코드와 대화**: 동료와 대화하듯 코드베이스에 질문하여 정확한 답변을 얻습니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "DdqkLKRPTA8TBALUnPLtOr1PBryXDa3WZujc+g7n4ZU=",
+        "originContent": "- 🧠 **深层语义理解**：超越关键词，理解代码的真实意图和复杂逻辑。",
+        "translatedContent": "- 🧠 **심층 의미 이해**: 키워드를 넘어서 코드의 진짜 의도와 복잡한 로직을 이해합니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "HygqUYl7jlronMtNpd/22IzYHuMLSmOlMJnqfabDyvA=",
+        "originContent": "- 🎯 **信息秒级定位**：模糊描述也能快速定位相关代码片段和文件。",
+        "translatedContent": "- 🎯 **초단위 정보 위치 지정**: 모호한 설명도 신속하게 관련 코드 조각과 파일을 찾아냅니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "qU8J4J9Npezzh+oHKvdtYMwTbqu8306llOkjTf7ayMk=",
+        "originContent": "- 🤖 **LLM 协作加速器**：一键生成上下文感知的 Markdown，为 AI 助手（ChatGPT, Claude 等）提供完美“食粮”。",
+        "translatedContent": "- 🤖 **LLM 협업 가속기**: 한 번의 클릭으로 문맥 인식 Markdown을 생성해 AI 비서(ChatGPT, Claude 등)에 완벽한 ‘먹이’를 제공합니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "dTMuNr4/8hYcnZYpoCAUyWJm+PJ97rVM66+3Y0H+LYE=",
+        "originContent": "- 💰 **Token 成本骤降**：优化 LLM 交互，显著降低 API 调用成本和等待时间。",
+        "translatedContent": "- 💰 **토큰 비용 대폭 절감**: LLM 상호작용을 최적화하여 API 호출 비용과 대기 시간을 크게 줄입니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "5i+iFN6XuQ1fHTfFkLDenImK7uuFU7tx/aV7VYvIwzg=",
+        "originContent": "- 🛠️ **智能配置生成**：辅助生成 `Dockerfile` 等项目配置文件。",
+        "translatedContent": "- 🛠️ **스마트 구성 생성**: `Dockerfile` 등 프로젝트 구성 파일 생성을 지원합니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "lGiIM1wBBxVP/cwqx/0Bui/FbYD598Vovz+M2s+te5E=",
+        "originContent": "- 🚀 **即时上手**：清晰的项目运行指导，快速启动您的代码探索之旅。",
+        "translatedContent": "- 🚀 **즉시 시작 가능**: 명확한 프로젝트 실행 안내로 빠르게 코드 탐험을 시작하세요."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "HTk7liiFXEsPcvUCpUzVb17m5X7G//HYFDQuuCGoqu4=",
+        "originContent": "### 🚀 它是如何工作的？ (How It Works)",
+        "translatedContent": "### 🚀 작동 원리 (How It Works)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "FmPCyQAMbUtFcdY/t5gQGgTBHSotzJ3JUeknbnJCMyY=",
+        "originContent": "Folda-Scan 的魔法源于其创新的**语义向量化引擎**：",
+        "translatedContent": "Folda-Scan의 마법은 혁신적인 **의미 벡터화 엔진**에 기반합니다:"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "Liavn8B3HVHXzNLe4v+Rn9i0PEhp/ksbD87pbUzOhXA=",
+        "originContent": "1.  **本地扫描与索引**：安全扫描您选定的本地项目，通过语义分析将代码转化为高维向量，在浏览器本地构建知识索引。",
+        "translatedContent": "1.  **로컬 스캔 및 인덱싱**: 선택한 로컬 프로젝트를 안전하게 스캔하고 의미 분석을 통해 코드를 고차원 벡터로 변환하여 브라우저 내 지식 인덱스를 구축합니다."
+      },
+      {
+        "row": 19,
+        "rowsha": "XTwoPLmv9MeZEIDmW+XJWB3HKv+yB1eZwAyJtvvELJE=",
+        "originContent": "2.  **智能自然语言处理 (NLP)**：理解您的自然语言提问，并将其同样向量化。",
+        "translatedContent": "2.  **지능형 자연어 처리(NLP)**: 사용자의 자연어 질문을 이해하고 같은 방식으로 벡터화합니다."
+      },
+      {
+        "row": 20,
+        "rowsha": "Z8NYhmgSXNmfVV5XArSmBRQYqG6XI/WaVzOpTA7ln8g=",
+        "originContent": "3.  **精准语义匹配**：在向量空间中高效匹配问题与代码内容，提供最相关的答案。",
+        "translatedContent": "3.  **정확한 의미 매칭**: 벡터 공간에서 질문과 코드 내용을 효율적으로 매칭하여 가장 관련성 높은 답변을 제공합니다."
+      },
+      {
+        "row": 21,
+        "rowsha": "iqEZTHoeqR/35GcXsv7EZldwjzsbNjlZ2Z3Gjpe5+VE=",
+        "originContent": "    _这一切都在保障您数据隐私的前提下，在浏览器中高效完成。_",
+        "translatedContent": "    _이 모든 과정은 데이터 프라이버시를 보장하며 브라우저 내에서 효율적으로 수행됩니다._"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "tRo/SlQxtLKmWo4y2UhsbrW4PQWzl2tfYpEDvfG79AI=",
+        "originContent": "### 🛠️ 技术栈 (Tech Stack)",
+        "translatedContent": "### 🛠️ 기술 스택 (Tech Stack)"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "Wm4pRppg8a+HLNQN6UgbN4C4ivIFCM2F/QwHO2TP6F4=",
+        "originContent": "- **核心框架:** [Next.js 14](https://nextjs.org/)",
+        "translatedContent": "- **핵심 프레임워크:** [Next.js 14](https://nextjs.org/)"
+      },
+      {
+        "row": 26,
+        "rowsha": "T5S/TjSMA0u4xjK9rldLcX3Qf4brvgH+g2Lkcju2C4Q=",
+        "originContent": "- **本地文件交互:** [File System Access API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API)",
+        "translatedContent": "- **로컬 파일 상호작용:** [File System Access API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API)"
+      },
+      {
+        "row": 27,
+        "rowsha": "MkdMarDxlF9Q3KQRDWo9YwyRt9ndirw86Fi5iLWUcgI=",
+        "originContent": "- **AI & NLP:** 先进语义向量分析、自然语言处理算法",
+        "translatedContent": "- **AI & NLP:** 최첨단 의미 벡터 분석 및 자연어 처리 알고리즘"
+      },
+      {
+        "row": 28,
+        "rowsha": "r07OfoLPZvzzU/s+rByvvVJw9QpzebebNfG2cXPweP4=",
+        "originContent": "- **主要语言:** [JavaScript/TypeScript - 请指明]",
+        "translatedContent": "- **주요 언어:** [JavaScript/TypeScript - 명시 필요]"
+      },
+      {
+        "row": 29,
+        "rowsha": "1YuJTJV/lM4+LUYdO1lSBsAL/mioekxniYM4dwWtois=",
+        "originContent": "  ### 🏁 快速开始 (Getting Started)",
+        "translatedContent": "  ### 🏁 빠른 시작 (Getting Started)"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "IicMFt1lna77Nrb65UCK7s6YXFYh/snhhZgLz9tOvpY=",
+        "originContent": "#### 环境要求 (Prerequisites)",
+        "translatedContent": "#### 환경 요구사항 (Prerequisites)"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "gqyA2lmEeGLPkSqPmL6CYz0xm4+Ylnlsc3jp/Z67BGg=",
+        "originContent": "- Node.js (建议 v16+ 或 v18+, 参照 `package.json`)",
+        "translatedContent": "- Node.js (권장 v16+ 또는 v18+, `package.json` 참조)"
+      },
+      {
+        "row": 34,
+        "rowsha": "T6vr6oW0ls5t2+KnPwL5WHJrGxh0elq2Na0gH9yaGwo=",
+        "originContent": "- npm (版本参照 `package.json`, 例如 npm@10.x.x) / yarn / pnpm",
+        "translatedContent": "- npm (`package.json` 참조, 예: npm@10.x.x) / yarn / pnpm"
+      },
+      {
+        "row": 35,
+        "rowsha": "cdN7g9dGncCpokKX/wThXmTlHfwEkP2pZkmsaba4hMM=",
+        "originContent": "- 支持 File System Access API 的现代浏览器 (如 Chrome, Edge 最新版)",
+        "translatedContent": "- File System Access API를 지원하는 최신 브라우저(예: 최신 버전 Chrome, Edge)"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "m7QqRgf1+AohTpIGbjRpTKS5DS6DyGUSI5FG6JniCEs=",
+        "originContent": "### 💡 基本用法 (Basic Usage)",
+        "translatedContent": "### 💡 기본 사용법 (Basic Usage)"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "eaZW1dtyUKXMwougm6tYfQYsBfPF3UU94GBZJ3K0cEU=",
+        "originContent": "1.  **选择文件夹**：授权浏览器访问您的本地代码项目。",
+        "translatedContent": "1.  **폴더 선택**: 브라우저가 로컬 코드 프로젝트에 접근하도록 허용합니다."
+      },
+      {
+        "row": 40,
+        "rowsha": "XGhb6+VpIpWhYqeDaQWNFp/ODpOGKES6rK+SDx9S3Zw=",
+        "originContent": "2.  **等待索引**：Folda-Scan 将在本地快速构建语义索引。",
+        "translatedContent": "2.  **인덱스 대기**: Folda-Scan이 로컬에서 빠르게 의미 인덱스를 구축합니다."
+      },
+      {
+        "row": 41,
+        "rowsha": "LOyb3hhTZJqYffyNBYTc039k5DwTv+U+mmogJxX7tG0=",
+        "originContent": "3.  **开始提问**：用自然语言向您的代码库提问，探索其奥秘！",
+        "translatedContent": "3.  **질문 시작**: 자연어로 코드베이스에 질문하며 그 비밀을 탐험하세요!"
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "NMfHSI8qXRuw/ao0OlZbosi08HsjMOQ3D65Xz7vuYR8=",
+        "originContent": "### 🤝 贡献您的力量 (Contributing)",
+        "translatedContent": "### 🤝 기여하기 (Contributing)"
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "Orzst+OF88z2BtZQSLUiqExuw6zDC9U038IL7kgEc5o=",
+        "originContent": "我们热烈欢迎各种形式的贡献！无论是 Bug 报告、功能建议还是代码提交，请参考我们的 [贡献指南](https://raw.githubusercontent.com/oldjs/web-code-agent/main/CONTRIBUTING.md) (如果您有的话)。期待与您共建更好的 Folda-Scan！",
+        "translatedContent": "모든 형태의 기여를 환영합니다! 버그 리포트, 기능 제안, 코드 제출 등은 우리의 [기여 가이드](https://raw.githubusercontent.com/oldjs/web-code-agent/main/CONTRIBUTING.md) (있는 경우)를 참조하세요. 더 나은 Folda-Scan을 함께 만들어가길 기대합니다!"
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "PwzIeSLi/YvJG0o/yqCHfqFNxwAPxLC/6D6gGAuY3SI=",
+        "originContent": "### 📄 开源许可 (License)",
+        "translatedContent": "### 📄 오픈 소스 라이선스 (License)"
+      },
+      {
+        "row": 48,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "sBVRBTiLcRtY+j2sBZsKRA/hjs7xB+7NM/yH6o0DkW8=",
+        "originContent": "本项目基于 [MIT 许可证](LICENSE) 开源。",
+        "translatedContent": "본 프로젝트는 [MIT 라이선스](LICENSE)로 오픈 소스화되어 있습니다."
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 54,
+        "rowsha": "9oXy5rRKUF4TF+CJB1Kx3V+wcSWxJSCqhXS/Irk++YA=",
+        "originContent": "  <a href=\"#zh-cn\">返回顶部 (Back to Top)</a>",
+        "translatedContent": "  <a href=\"#zh-cn\">상단으로 이동 (Back to Top)</a>"
+      },
+      {
+        "row": 55,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 56,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 57,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

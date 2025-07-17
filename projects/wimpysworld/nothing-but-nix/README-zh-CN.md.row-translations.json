@@ -1,0 +1,902 @@
+[
+  {
+    "row": 1,
+    "rowsha": "KSi/2eQyyG9dzvFEAn9VWeEOw31oq+rdFphqalEjv34=",
+    "originContent": "# Nothing but Nix",
+    "translatedContent": "<translate-content># 只有 Nix"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "idJt7mBp/okG7S7JFgUz0UG6k0cCVKA2AvcR5Xav0JI=",
+    "originContent": "**Transform your GitHub Actions runner into a [Nix](https://zero-to-nix.com/concepts/nix/) ❄️ powerhouse by ruthlessly slashing pre-installed bloat.**",
+    "translatedContent": "**通过无情地剔除预装的臃肿软件，将你的 GitHub Actions 运行器转变为一个 [Nix](https://zero-to-nix.com/concepts/nix/) ❄️ 强力引擎。**"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "LMV74SNyOKf21xYlXSpUmduEqgCIaYUZBTuSpZ0nwpQ=",
+    "originContent": "GitHub Actions runners come with meager disk space for Nix - a mere ~20GB.",
+    "translatedContent": "GitHub Actions 运行器为 Nix 提供的磁盘空间非常有限——只有大约 20GB。"
+  },
+  {
+    "row": 6,
+    "rowsha": "2vf/O4PnYaNNzNBk5ztaPBmSvaw8oqg78/uGRIHVNds=",
+    "originContent": "*Nothing but Nix* **brutally purges** unnecessary software, giving you **65GB to 130GB** for your Nix store! 💪",
+    "translatedContent": "*只有 Nix* **残酷地清除**不必要的软件，为你的 Nix 存储腾出 **65GB 到 130GB**！💪"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "IG4TCpXpOdQhcOiQUbfoUBCG3ygm0RhmNGpTfvcRluQ=",
+    "originContent": "## Usage 🔧",
+    "translatedContent": "## 使用方法 🔧"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "tWEZ0+FESo44wbA6IEISn+oO2+7QBgQV9sCmp//k1sk=",
+    "originContent": "Add this action **before** installing Nix in your workflow:",
+    "translatedContent": "在工作流中安装 Nix 之前，先添加此操作："
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "</translate-content>"
+  },
+  {
+    "row": 12,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 13,
+    "rowsha": "MdlDD0SwaBhkENfsyIRY4M9eZ7Q5lR8Dw5HPCs4/H/4=",
+    "originContent": "jobs:",
+    "translatedContent": "jobs:"
+  },
+  {
+    "row": 14,
+    "rowsha": "e/ww1l+yNzvl2SquYFvJCfK9He5LY0AV9c0NLqEiCtk=",
+    "originContent": "  build:",
+    "translatedContent": "  build:"
+  },
+  {
+    "row": 15,
+    "rowsha": "YPX+1GfynlA/mt/uIDupjes73e4YUduCf0seCMA4BZg=",
+    "originContent": "    runs-on: ubuntu-latest",
+    "translatedContent": "    runs-on: ubuntu-latest"
+  },
+  {
+    "row": 16,
+    "rowsha": "QTcFUK5p+CdYmMF+tDG04f4Fh8jsEwgJlq0Ut9aoEx4=",
+    "originContent": "    permissions:",
+    "translatedContent": "    permissions:"
+  },
+  {
+    "row": 17,
+    "rowsha": "MywfFKb+CC7eDjxq2M6c7AisMnFcPS8hImPy0umwJA8=",
+    "originContent": "      contents: read",
+    "translatedContent": "      contents: read"
+  },
+  {
+    "row": 18,
+    "rowsha": "7qocShZykXSUx3B9znNW8EdV9Xh7OAkviN6xR0ZIjKA=",
+    "originContent": "      id-token: write",
+    "translatedContent": "      id-token: write"
+  },
+  {
+    "row": 19,
+    "rowsha": "hS4CmHrAmWwwZHAnLuwnwgytfTId/6QpTYuGJvdvdwg=",
+    "originContent": "    steps:",
+    "translatedContent": "    steps:"
+  },
+  {
+    "row": 20,
+    "rowsha": "093orPQ0+Kw0IvK38M22NtQAsF42E9tiTrpFJhAayDw=",
+    "originContent": "      - uses: actions/checkout@v4",
+    "translatedContent": "      - uses: actions/checkout@v4"
+  },
+  {
+    "row": 21,
+    "rowsha": "FAV3rjrMQwTFbUenogGIvhbqaZsmZOgZtbIMscY9IPQ=",
+    "originContent": "      - uses: wimpysworld/nothing-but-nix@main",
+    "translatedContent": "      - uses: wimpysworld/nothing-but-nix@main"
+  },
+  {
+    "row": 22,
+    "rowsha": "P1oexgvevRRWQyetmK1C9980lR56XO93u0MyNJfpSY0=",
+    "originContent": "      - name: Install Nix",
+    "translatedContent": "      - name: Install Nix"
+  },
+  {
+    "row": 23,
+    "rowsha": "pApqRsvgV02DTJzxZTKFqEDfnTuat+yz8YlAIVu9JSs=",
+    "originContent": "        uses: DeterminateSystems/nix-installer-action@main",
+    "translatedContent": "        uses: DeterminateSystems/nix-installer-action@main"
+  },
+  {
+    "row": 24,
+    "rowsha": "Idtw9lwXA569MiB4DYk/L47K5NtUv+phjm+Nju7Q22U=",
+    "originContent": "      - name: Run Nix",
+    "translatedContent": "      - name: Run Nix"
+  },
+  {
+    "row": 25,
+    "rowsha": "DOQ3SJWha68JkKp062R172o+bvEGb2I+dg3VJ6e0ZQM=",
+    "originContent": "        run: |",
+    "translatedContent": "        run: |"
+  },
+  {
+    "row": 26,
+    "rowsha": "3gAs9Ila+jszSOJAsI8fjPCZ4H/UyHhfaKn5V+VVHfM=",
+    "originContent": "          nix --version",
+    "translatedContent": "          nix --version"
+  },
+  {
+    "row": 27,
+    "rowsha": "XRG2TrwggkShZupYDsTkR7oUpHnPdCzxGX9/3yF9k0k=",
+    "originContent": "          # Your Nix-powered steps here...",
+    "translatedContent": "          # Your Nix-powered steps here..."
+  },
+  {
+    "row": 28,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 要求 ️✔️"
+  },
+  {
+    "row": 30,
+    "rowsha": "NRqSNlhdVM6I4Zq/3kST6FTed24Zt+I2Is3snpRmOR8=",
+    "originContent": "### Requirements ️✔️",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 仅支持官方 **Ubuntu** GitHub Actions 运行器"
+  },
+  {
+    "row": 32,
+    "rowsha": "3THZAJ9YM6gWmnTAOkO0YasWbrA56aZ2s6Va/IxeXuA=",
+    "originContent": "- Only supports official **Ubuntu** GitHub Actions runners",
+    "translatedContent": "- 必须在安装 Nix **之前** 运行"
+  },
+  {
+    "row": 33,
+    "rowsha": "SmRJJQYv6MN8rfnDKa+2jWRDKRWu1yqb1nFQ0ZH/51I=",
+    "originContent": "- Must run **before** Nix is installed",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 问题：为 Nix 的繁荣腾出空间 🌱"
+  },
+  {
+    "row": 35,
+    "rowsha": "n6xVd4+RD0X24+tj9GBdIapjNJuHi47SFMtLht0bDYk=",
+    "originContent": "## The Problem: Making Room for Nix to Thrive 🌱",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "标准的 GitHub Actions 运行器装满了你在 Nix 工作流中永远不会用到的*“臃肿软件”*："
+  },
+  {
+    "row": 37,
+    "rowsha": "6ORbXr5PVMEt/dQUOZMyd89PC8VfbLZqKopXyEMlvvk=",
+    "originContent": "Standard GitHub Actions runners are stuffed with *\"bloatware\"* you'll never use in a Nix workflow:",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 🌍 网络浏览器。很多。必须全部拥有！"
+  },
+  {
+    "row": 39,
+    "rowsha": "3wBaY5dn782zQg8D1eqwjELji4mubFRFGTDgdMN8uw8=",
+    "originContent": "- 🌍 Web browsers. Lots of them. Gotta have 'em all!",
+    "translatedContent": "- 🐳 占用数GB宝贵磁盘空间的 Docker 镜像"
+  },
+  {
+    "row": 40,
+    "rowsha": "m3MsKEbgzvhXMl+goQSdHG2BUus58BEir1Lsb42D4Uo=",
+    "originContent": "- 🐳 Docker images consuming gigabytes of precious disk space",
+    "translatedContent": "- 💻 不必要的语言运行时（.NET、Ruby、PHP、Java……）"
+  },
+  {
+    "row": 41,
+    "rowsha": "7P0IvNLNK90CSNLNhYKDXXo5kK1jBbQbbV+bLit8he8=",
+    "originContent": "- 💻 Unnecessary language runtimes (.NET, Ruby, PHP, Java...)",
+    "translatedContent": "- 📦 堆积数字灰尘的软件包管理器"
+  },
+  {
+    "row": 42,
+    "rowsha": "RXtEI/phmCTNK3d+DTRQKhhGfgiv16ORB+YgFodz+SQ=",
+    "originContent": "- 📦 Package managers gathering digital dust",
+    "translatedContent": "- 📚 无人阅读的文档"
+  },
+  {
+    "row": 43,
+    "rowsha": "6jQ7ePTp4UALf31rSC7Z4tUdKAhfT6+VND1INNi9LtE=",
+    "originContent": "- 📚 Documentation no one will ever read",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "这些臃肿软件只剩下大约 20GB 的空间给你的 Nix 存储——几乎不够进行严肃的 Nix 构建！😞"
+  },
+  {
+    "row": 45,
+    "rowsha": "dw/13Z16303YvzjIfJS63uc+q1NkSVgMgWD1eW+XqyA=",
+    "originContent": "This bloat leaves only ~20GB for your Nix store - barely enough for serious Nix builds! 😞",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 解决方案：唯有 Nix ️❄️"
+  },
+  {
+    "row": 47,
+    "rowsha": "HC1lA5gNs9V9IoXQZh6SVYiuazASGILbOTp/0C5lJv4=",
+    "originContent": "## The Solution: Nothing but Nix ️❄️",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**唯有 Nix** 采用焦土策略对 GitHub Actions 运行器进行无情的磁盘空间回收，采用两阶段攻势："
+  },
+  {
+    "row": 49,
+    "rowsha": "n59JLuNKw0cc1J3Y5lFKe1giPsYfU2WTsPbpZHIFV+o=",
+    "originContent": "**Nothing but Nix** takes a scorched-earth approach to GitHub Actions runners and mercilessly reclaims disk space using a two-phase attack:",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. **初步砍削：** 通过从 `/mnt` 夺取空闲空间，立即创建一个大型 `/nix` 卷（约 65GB）"
+  },
+  {
+    "row": 51,
+    "rowsha": "Ii1Rx5Y1VoOU4lNL7SPzYw3KG0ldXEFGENKfJqHWlko=",
+    "originContent": "1. **Initial Slash:** Instantly creates a large `/nix` volume (~65GB) by claiming free space from `/mnt`",
+    "translatedContent": "2. **后台狂暴：** 在你的工作流继续运行时，我们无情地清除不必要的软件，将 `/nix` 卷扩展至约 130GB"
+  },
+  {
+    "row": 52,
+    "rowsha": "7ZzRHyBEnt1dh+wWCAcNQXW/Ix5Ipc2U+Ceikp+6wfg=",
+    "originContent": "2. **Background Rampage:** While your workflow continues, we ruthlessly eliminate unnecessary software to expand your `/nix` volume up to ~130GB",
+    "translatedContent": "   - 网络浏览器？不留 ⛔"
+  },
+  {
+    "row": 53,
+    "rowsha": "aDem95hoZ876MuhXMCvmJ1LOLzfmR3zcusvTs0zRa9Y=",
+    "originContent": "   - Web browsers? Nope ⛔",
+    "translatedContent": "   - Docker 镜像？清除 🗑️"
+  },
+  {
+    "row": 54,
+    "rowsha": "w3i50B4497llY6xzm3Iv2LliVxeLPjuvE/oRFQgcUMw=",
+    "originContent": "   - Docker images? Gone 🗑️",
+    "translatedContent": "   - 语言运行时？彻底销毁 💥"
+  },
+  {
+    "row": 55,
+    "rowsha": "gb9RnoW4YbyiVe8xkUDDfnWDCf2sb9jFDYWpm419ySo=",
+    "originContent": "   - Language runtimes? Obliterated 💥",
+    "translatedContent": "   - 软件包管理器？全数消灭 💣"
+  },
+  {
+    "row": 56,
+    "rowsha": "u8ad+VsFP7rZv3BSnMufzyq8p6NU1KTVdCctG56RqwE=",
+    "originContent": "   - Package managers? Annihilated 💣",
+    "translatedContent": "   - 文档？蒸发 ️👻"
+  },
+  {
+    "row": 57,
+    "rowsha": "X+TpUxqGNKOrZ3/tnDyKeylzgavdkWKWV155v34qf0o=",
+    "originContent": "   - Documentation? Vaporized ️👻",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "文件系统清理由 `rmz`（来自 [Fast Unix Commands (FUC)](https://github.com/SUPERCILEX/fuc) 项目）驱动——这是一个高性能的 `rm` 替代品，使空间回收速度快如闪电！⚡"
+  },
+  {
+    "row": 59,
+    "rowsha": "j1RfNFr6pFux3HChK/ZIXm/IuQKbzz7JpEcnm4PWI1A=",
+    "originContent": "The file system purge is powered by `rmz` (from the [Fast Unix Commands (FUC)](https://github.com/SUPERCILEX/fuc) project) - a high-performance alternative to `rm` that makes space reclamation blazing fast! ⚡",
+    "translatedContent": "   - 性能比标准 `rm` 高一个数量级"
+  },
+  {
+    "row": 60,
+    "rowsha": "ju244fhfBvqg8jl+c/J4Lm3KKFo8nqAy5wSyQCgXID8=",
+    "originContent": "   - Outperforms standard `rm` by an order of magnitude",
+    "translatedContent": "   - 并行处理删除操作以实现最大效率"
+  },
+  {
+    "row": 61,
+    "rowsha": "dZV2LAz6JP1WGs0h3aMDPV98U98fO5SV/HCAS3l1j+k=",
+    "originContent": "   - Parallel-processes deletions for maximum efficiency",
+    "translatedContent": "   - **几秒钟内回收磁盘空间，而非几分钟！** ️⏱️"
+  },
+  {
+    "row": 62,
+    "rowsha": "q17LX2fW4WertBUZbc0nlCWm/JLXtwxau95MeSYqP9k=",
+    "originContent": "   - **Reclaims disk space in seconds rather than minutes!** ️⏱️",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "最终结果？一个拥有 **65GB 到 130GB** Nix 准备空间的 GitHub Actions 运行器！😁"
+  },
+  {
+    "row": 64,
+    "rowsha": "QeMFqVBkuQulYGH9TQ7wNrXZWVGYfm6HIWjukbI8gcA=",
+    "originContent": "The end result? A GitHub Actions runner with **65GB to 130GB** of Nix-ready space! 😁",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 动态卷增长"
+  },
+  {
+    "row": 66,
+    "rowsha": "1HfM7OPyKfyZw/OkISLfGYxKkBNQxDOzkxU3MecLbnk=",
+    "originContent": "### Dynamic Volume Growth",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "与其他方案不同，**唯有 Nix** 动态扩展你的 `/nix` 卷："
+  },
+  {
+    "row": 68,
+    "rowsha": "bYprnJdgC/bim3A3LeRY/64FpDIxGHIniyTY/R9hhhk=",
+    "originContent": "Unlike other solutions, **Nothing but Nix** grows your `/nix` volume dynamically:",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. **初始卷创建（1-10 秒）：**（*取决于 Hatchet 协议*）"
+  },
+  {
+    "row": 70,
+    "rowsha": "zeUZguyXN6rQXI+1bIYP58QGxY7WqimLjFtsb6hOvsw=",
+    "originContent": "1. **Initial Volume Creation (1-10 seconds):** (*depending on Hatchet Protocol*)",
+    "translatedContent": "   - 从 `/mnt` 空闲空间创建环回设备"
+  },
+  {
+    "row": 71,
+    "rowsha": "4VWFakHOr4IWL9T5woG8vBcUxJiYVp8cgY6zUsLBL0M=",
+    "originContent": "   - Creates a loop device from free space on `/mnt`",
+    "translatedContent": "   - 设置 RAID0 配置的 BTRFS 文件系统"
+  },
+  {
+    "row": 72,
+    "rowsha": "2311LbKkK1EPyBiY/6AAjp1R6E3wTCFhyV8z0Ananck=",
+    "originContent": "   - Sets up a BTRFS filesystem in RAID0 configuration",
+    "translatedContent": "   - 以压缩和性能调优方式挂载"
+  },
+  {
+    "row": 73,
+    "rowsha": "SP0iMFsfG1qvWRpI+B/0vHBeyxyDfzoZnwpuPAFhv6s=",
+    "originContent": "   - Mounts with compression and performance tuning",
+    "translatedContent": "   - 立即提供 65GB `/nix`，甚至在清理开始前"
+  },
+  {
+    "row": 74,
+    "rowsha": "oek7qWEB7eS91paCX4Mar1i+1O1q7Lq+PMSFugfp3Zk=",
+    "originContent": "   - Provides a 65GB `/nix` immediately, even before the purge begins",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "2. **后台扩展（30-180 秒）：**（*取决于 Hatchet 协议*）"
+  },
+  {
+    "row": 76,
+    "rowsha": "w1A0NWCdWfSstnvJwkmpt3Wthcx+DY5YVlyEzGNgCTE=",
+    "originContent": "2. **Background Expansion (30-180 seconds):** (*depending on Hatchet Protocol*)",
+    "translatedContent": "   - 执行清理操作"
+  },
+  {
+    "row": 77,
+    "rowsha": "aNZ6BUmQ2VMlX4QNlxzTJCFIOXkZfTP0lFNz/IPATQI=",
+    "originContent": "   - Executes purging operations",
+    "translatedContent": "   - 监控消除臃肿后释放的新空间"
+  },
+  {
+    "row": 78,
+    "rowsha": "GeI7Ee8nchM+FkyvfWT0jS04yilhL9sxkyQW4CtqmRQ=",
+    "originContent": "   - Monitors for newly freed space as bloat is eliminated",
+    "translatedContent": "   - 动态向 `/nix` 卷添加扩展磁盘"
+  },
+  {
+    "row": 79,
+    "rowsha": "aiANUpNVNbLmubbG8oG2FTxoICGhN+ix+1GqIqtkdUg=",
+    "originContent": "   - Dynamically adds an expansion disk to the `/nix` volume",
+    "translatedContent": "   - 重新平衡文件系统以纳入新空间"
+  },
+  {
+    "row": 80,
+    "rowsha": "dPsE+XVZqDBzIwnqoqT3IkmUw160gZ34lzPj5tGPrbM=",
+    "originContent": "   - Rebalances the filesystem to incorporate new space",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`/nix` 卷会在工作流执行期间自动**增长** 🎩🪄"
+  },
+  {
+    "row": 82,
+    "rowsha": "tSs6h4DF+pha+/jSXb6c/6gwJc3UBrCwv6rH3aW4E/c=",
+    "originContent": "The `/nix` volume automatically **grows during workflow execution** 🎩🪄",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 选择你的武器：Hatchet 协议 🪓"
+  },
+  {
+    "row": 84,
+    "rowsha": "+s+HUxVwJVqT712e6HBwHblfuiE1JfQb2ceaBz6RC3E=",
+    "originContent": "### Choose Your Weapon: The Hatchet Protocol 🪓",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "通过 `hatchet-protocol` 输入控制灭绝程度 💥："
+  },
+  {
+    "row": 86,
+    "rowsha": "7gReWjtE9vo+v/QrlSbcdOlrZBm53z+iJWKlEa5INYQ=",
+    "originContent": "Control the level of annihilation 💥 with the `hatchet-protocol` input:",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 89,
+    "rowsha": "b3AItER9R6JHnpRMEX9tUEto345WhT428Kk4q2cgT4U=",
+    "originContent": "- uses: wimpysworld/nothing-but-nix@main",
+    "translatedContent": "- uses: wimpysworld/nothing-but-nix@main"
+  },
+  {
+    "row": 90,
+    "rowsha": "PI+NwuhomK4iVx5cssnWfp+zdZq61aEbfpwurZJiEWw=",
+    "originContent": "  with:",
+    "translatedContent": "  with:"
+  },
+  {
+    "row": 91,
+    "rowsha": "Z8xlN/NwRi3whsFucbu9riA54rjcMoAsAErL5mhlvN0=",
+    "originContent": "    hatchet-protocol: 'cleave'  # Options: holster, carve, cleave (default), rampage",
+    "translatedContent": "    hatchet-protocol: 'cleave'  # Options: holster, carve, cleave (default), rampage"
+  },
+  {
+    "row": 92,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### 协议比较 ⚖️"
+  },
+  {
+    "row": 94,
+    "rowsha": "l6PP9SO6qEy3R+NiVvQIAb2tRGm6ukS+KNvGYBn8fno=",
+    "originContent": "#### Protocol Comparison ⚖️",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| 协议     | `/nix` | 描述                                             | 清理 apt   | 清理 docker | 清理 snap | 清理的文件系统          |"
+  },
+  {
+    "row": 96,
+    "rowsha": "Wch+KrzwZ8UqDJVNqY06rTb7jm4h9/taVWSzeDxmAhk=",
+    "originContent": "| Protocol | `/nix` | Description                                      | Purge apt  | Purge docker | Purge snap | Purged file systems     |",
+    "translatedContent": "|----------|--------|--------------------------------------------------|------------|--------------|------------|-------------------------|"
+  },
+  {
+    "row": 97,
+    "rowsha": "AEWNV5R1viAYWdWdLlcVHewmVYTPGJC7t2iJ1Kvmwko=",
+    "originContent": "|----------|--------|--------------------------------------------------|------------|--------------|------------|-------------------------|",
+    "translatedContent": "| Holster  | ~65GB  | 保持手斧套着，使用 `/mnt` 的空间                 | 否         | 否           | 否         | 无                      |"
+  },
+  {
+    "row": 98,
+    "rowsha": "kDbKZV/DOLuMSVNZRPFNa5gOqJk5GSeqEq8IYrYvHTI=",
+    "originContent": "| Holster  | ~65GB  | Keep the hatchet sheathed, use space from `/mnt` | No         | No           | No         | None                    |",
+    "translatedContent": "| Carve    | ~85GB  | 利用并合并 `/` 和 `/mnt` 的空闲空间              | 否         | 否           | 否         | 无                      |"
+  },
+  {
+    "row": 99,
+    "rowsha": "gXSVZd3wpQTy86cUoEz/2HGHBl7kqu8Nq7tAQedYTUY=",
+    "originContent": "| Carve    | ~85GB  | Craft and combine free space from `/` and `/mnt` | No         | No           | No         | None                    |",
+    "translatedContent": "| Cleave   | ~115GB | 对大型软件包进行有力且果断的裁剪                 | 最少       | 是           | 是         | `/opt` 和 `/usr/local`  |"
+  },
+  {
+    "row": 100,
+    "rowsha": "Lt4XWBXMSjlam37OdXVjjcfw7H9LKLAYjf57L+sFJtk=",
+    "originContent": "| Cleave   | ~115GB | Make powerful, decisive cuts to large packages   | Minimal    | Yes          | Yes        | `/opt` and `/usr/local` |",
+    "translatedContent": "| Rampage  | ~130GB | 无情、彻底地消除所有冗余                         | 激进       | 是           | 是         | 哇哈哈哈！ 🔥🌎          |"
+  },
+  {
+    "row": 101,
+    "rowsha": "4KP3eVFZUeFTh8aoT99PC8D3QuuPxNJ2STRvIa8WxDA=",
+    "originContent": "| Rampage  | ~130GB | Relentless, brutal elimination of all bloat      | Aggressive | Yes          | Yes        | Muahahaha! 🔥🌎         |",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "明智选择："
+  },
+  {
+    "row": 103,
+    "rowsha": "T1Dw0eIncwu1XXcESPiQV20AKzCA7c6P6GVrEUKFgFg=",
+    "originContent": "Choose wisely:",
+    "translatedContent": "- **Holster** 当你需要运行器工具保持完全功能时"
+  },
+  {
+    "row": 104,
+    "rowsha": "oTepoMIHuZjof5rlLG2iX7hmZA1xq9xmsgQT6IYVXL4=",
+    "originContent": "- **Holster** when you need the runner's tools to remain fully functional",
+    "translatedContent": "- **Carve** 保留功能性运行器工具，但为 Nix 争取所有空闲空间"
+  },
+  {
+    "row": 105,
+    "rowsha": "S23Ss9+WWrHkJMdy/80mJmyAgPY69JGarg7AC8BDCUU=",
+    "originContent": "- **Carve** to preserve functional runner tooling but claim all free space for Nix",
+    "translatedContent": "- **Cleave** (*默认*) 平衡空间和功能的良好选择"
+  },
+  {
+    "row": 106,
+    "rowsha": "ToYJdWpyawuLfBZisMI5ykgacvS8h5n3hhUuRy/FteU=",
+    "originContent": "- **Cleave** (*default*) for a good balance of space and functionality",
+    "translatedContent": "- **Rampage** 当你需要最大 Nix 空间且不在意什么被破坏时 `#nix-is-life`"
+  },
+  {
+    "row": 107,
+    "rowsha": "6VRW4kPIdIu29r5yxvoqmjrPcUBDWvAAtguwJ7EEjCo=",
+    "originContent": "- **Rampage** when you need maximum Nix space and don't care what breaks `#nix-is-life`",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 见证屠杀 🩸"
+  },
+  {
+    "row": 109,
+    "rowsha": "FO0GQkog1nT9eRBl10MRBftl7yeTOHvyjCQmgDnyxuo=",
+    "originContent": "### Witness The Carnage 🩸",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "默认情况下，清理过程会在后台静默执行，同时你的工作流程继续进行。但如果你想实时观看屠杀过程："
+  },
+  {
+    "row": 111,
+    "rowsha": "W2sVA3fL0Xlmmjw3DMUH2DbjWzTNkywhppaZgRNQAHc=",
+    "originContent": "By default, the purging process executes silently in the background while your workflow continues. But if you want to watch the slaughter in real-time:",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 114,
+    "rowsha": "b3AItER9R6JHnpRMEX9tUEto345WhT428Kk4q2cgT4U=",
+    "originContent": "- uses: wimpysworld/nothing-but-nix@main",
+    "translatedContent": "- uses: wimpysworld/nothing-but-nix@main"
+  },
+  {
+    "row": 115,
+    "rowsha": "PI+NwuhomK4iVx5cssnWfp+zdZq61aEbfpwurZJiEWw=",
+    "originContent": "  with:",
+    "translatedContent": "  with:"
+  },
+  {
+    "row": 116,
+    "rowsha": "J7/z0AZDoCBIvwhipaq+Xny/mHH4m2X5Ye56a7MPnpE=",
+    "originContent": "    ️hatchet-protocol: 'cleave'",
+    "translatedContent": "    ️hatchet-protocol: 'cleave'"
+  },
+  {
+    "row": 117,
+    "rowsha": "HjRTKyQoHqAg0wvqlp4ujDAC1V1jdzw1N3CBE8DBges=",
+    "originContent": "    witness-carnage: true  # Default: false",
+    "translatedContent": "    witness-carnage: true  # Default: false"
+  },
+  {
+    "row": 118,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 自定义安全区 🛡️"
+  },
+  {
+    "row": 120,
+    "rowsha": "5B/o0kqf/u3gUKqz+1Dx7e3blbLtEIggEjj1QetokHM=",
+    "originContent": "### Customize Safe Havens 🛡️",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "通过自定义安全区大小，控制从 Nix 存储区的占用空间："
+  },
+  {
+    "row": 122,
+    "rowsha": "HggAGH1LlOSgStf9GsxfrrWt4WwqJRPWt+1PAVuRi80=",
+    "originContent": "Control how much space to spare from the Nix store land grab with custom safe haven sizes:",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 125,
+    "rowsha": "b3AItER9R6JHnpRMEX9tUEto345WhT428Kk4q2cgT4U=",
+    "originContent": "- uses: wimpysworld/nothing-but-nix@main",
+    "translatedContent": "- uses: wimpysworld/nothing-but-nix@main"
+  },
+  {
+    "row": 126,
+    "rowsha": "PI+NwuhomK4iVx5cssnWfp+zdZq61aEbfpwurZJiEWw=",
+    "originContent": "  with:",
+    "translatedContent": "  with:"
+  },
+  {
+    "row": 127,
+    "rowsha": "J7/z0AZDoCBIvwhipaq+Xny/mHH4m2X5Ye56a7MPnpE=",
+    "originContent": "    ️hatchet-protocol: 'cleave'",
+    "translatedContent": "    ️hatchet-protocol: 'cleave'"
+  },
+  {
+    "row": 128,
+    "rowsha": "/GUET1YLGZcly82x7nWIUxp5Abqg55QMEf70Ph42dkM=",
+    "originContent": "    root-safe-haven: '3072'   # Reserve 3GB on the / filesystem",
+    "translatedContent": "    root-safe-haven: '3072'   # Reserve 3GB on the / filesystem"
+  },
+  {
+    "row": 129,
+    "rowsha": "8TCn6r6HqFhwPvVHPbwttW5UjMhpae0XbcKf+MxJmhM=",
+    "originContent": "    mnt-safe-haven: '2048'    # Reserve 2GB on the /mnt filesystem",
+    "translatedContent": "    mnt-safe-haven: '2048'    # Reserve 2GB on the /mnt filesystem"
+  },
+  {
+    "row": 130,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "这些安全区定义了在空间回收过程中将被宽恕保留的空间大小（以MB为单位）："
+  },
+  {
+    "row": 132,
+    "rowsha": "6MEqqyFa9IXT6G1GFhQhruqMSp/2Wk5SUI3t7iAD9+4=",
+    "originContent": "These safe havens define how much space (in MB) will be mercifully spared during space reclamation:",
+    "translatedContent": "- 默认的 `root-safe-haven` 为2048MB（2GB）"
+  },
+  {
+    "row": 133,
+    "rowsha": "L59a1X2cwVlq5Ntyuou0vWBC4SSB4oeX9amxloaBKy0=",
+    "originContent": "- Default `root-safe-haven` is 2048MB (2GB)",
+    "translatedContent": "- 默认的 `mnt-safe-haven` 为1024MB（1GB）"
+  },
+  {
+    "row": 134,
+    "rowsha": "u07IhGWkRMUVo3hWJTxx7J5Wtm1B4PiBoobPvjSKhig=",
+    "originContent": "- Default `mnt-safe-haven` is 1024MB (1GB)",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "如果您的文件系统需要更多的缓冲空间，可以增加这些值，或者减小它们以毫不留情地释放空间！😈"
+  },
+  {
+    "row": 136,
+    "rowsha": "UJb6i/jBL5xWkDFcBr9fRpEZko//EkNcqE3upE9/z+s=",
+    "originContent": "Increase these values if you need more breathing room on your filesystems, or decrease them to show no mercy! 😈",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 授予用户对 /nix 的所有权（Nix 权限法令）🧑‍⚖️"
+  },
+  {
+    "row": 138,
+    "rowsha": "sUHDODST0pUTnJNBld8whzKnnJbwSjMz8YQsi36moa8=",
+    "originContent": "### Grant User Ownership of /nix (Nix Permission Edict) 🧑‍⚖️",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "某些 Nix 安装程序或配置期望当前用户对 `/nix` 目录具有写权限。默认情况下，`/nix` 归 root 所有。如果您需要用户所有权（例如，对于某些不在 `/nix` 内所有操作都使用 `sudo` 的 Nix 安装脚本），可以启用 `nix-permission-edict`："
+  },
+  {
+    "row": 140,
+    "rowsha": "FeyQqbBGry+YcZ1vsGaq6SlwXbwxJ0Cf7zya22PO2f4=",
+    "originContent": "Some Nix installers or configurations expect the `/nix` directory to be writable by the current user. By default, `/nix` is owned by root. If you need user ownership (e.g., for certain Nix installer scripts that don't use `sudo` for all operations within `/nix`), you can enable the `nix-permission-edict`:",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 143,
+    "rowsha": "b3AItER9R6JHnpRMEX9tUEto345WhT428Kk4q2cgT4U=",
+    "originContent": "- uses: wimpysworld/nothing-but-nix@main",
+    "translatedContent": "- uses: wimpysworld/nothing-but-nix@main"
+  },
+  {
+    "row": 144,
+    "rowsha": "PI+NwuhomK4iVx5cssnWfp+zdZq61aEbfpwurZJiEWw=",
+    "originContent": "  with:",
+    "translatedContent": "  with:"
+  },
+  {
+    "row": 145,
+    "rowsha": "WOCm/5dG6mbxbM/+DT9jtArbLDZLXqWWh5spQzSv4BI=",
+    "originContent": "    nix-permission-edict: true  # Default: false",
+    "translatedContent": "    nix-permission-edict: true  # Default: false"
+  },
+  {
+    "row": 146,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "当 `nix-permission-edict` 设置为 `true` 时，操作将在挂载 `/nix` 后运行 `sudo chown -R \"$(id --user)\":\"$(id --group)\" /nix`。"
+  },
+  {
+    "row": 148,
+    "rowsha": "EFfNPdw7UaJ+hKWYUFY0iswn+0R/z8h89ttaUVqGMyM=",
+    "originContent": "When `nix-permission-edict` is set to `true`, the action will run `sudo chown -R \"$(id --user)\":\"$(id --group)\" /nix` after mounting `/nix`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "现在，利用所有那辉煌的 Nix 存储空间去构建一些惊人的东西吧！❄️"
+  },
+  {
+    "row": 150,
+    "rowsha": "AnhfEdZHiFKqdeqEc9S9EYj34xQX8pbl1kwZLge1jpk=",
+    "originContent": "Now go and build something amazing with all that glorious Nix store space! ❄️",
+    "translatedContent": ""
+  }
+]
