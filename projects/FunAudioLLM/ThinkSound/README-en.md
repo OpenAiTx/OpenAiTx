@@ -3,11 +3,11 @@
 <p align="center">
   🌐
   <a href="https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=en">English</a> |
-  <a href="https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=zh-CN">Simplified Chinese</a> |
-  <a href="https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=zh-TW">Traditional Chinese</a> |
-  <a href="https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=es">Spanish</a> |
-  <a href="https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=fr">French</a> |
-  <a href="https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=ja">Japanese</a>
+  <a href="https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=zh-CN">简体中文</a> |
+  <a href="https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=zh-TW">繁體中文</a> |
+  <a href="https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=es">Español</a> |
+  <a href="https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=fr">Français</a> |
+  <a href="https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=ja">日本語</a>
   
 </p>
 
@@ -25,7 +25,7 @@
   </a>
   &nbsp;
   <a href="https://modelscope.cn/studios/iic/ThinkSound">
-    <img src="https://img.shields.io/badge/ModelScope-Online%20Experience-green" alt="ModelScope"/>
+    <img src="https://img.shields.io/badge/ModelScope-在线体验-green" alt="ModelScope"/>
   </a>
 </p>
 
@@ -44,6 +44,7 @@ PyTorch implementation for multimodal audio generation and editing: generate or 
 ---
 
 ## 📰 News
+- **2025.07.17** &nbsp; 🧠 Finetuning enabled: training and finetuning code is now publicly available, along with clear usage instructions to help you customize and extend ThinkSound with your own data.
 - **2025.07.15** &nbsp; 📦 Simplified installation and usability: dependencies on PyPI for easy cross-platform setup; Windows `.bat` scripts automate environment creation and script running.
 - **2025.07.08** &nbsp;  🔧 Major update: model lightweighted and optimized memory and GPU usage, now supports high-throughput audio generation at scale!
 - **2025.07.01** &nbsp; 🔥Online demo on [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) and [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) for interactive experience!
@@ -158,15 +159,19 @@ For an interactive experience, launch the Gradio web interface:
 ```bash
 python app.py
 ```
+## 🏋️ Train the Model
+
+See [`Training.md`](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/docs/Training.md)
+
+
 ---
 
 ## 📝 TODO & Future Plans
-* - [ ] Release training scripts for ThinkSound models (Expected before 07/20/2025)
 * - [ ] Open-source AudioCoT dataset and automated pipeline (Expected before 07/23/2025)
-* - [ ] Provide a ready-to-use environment image (Expected before 07/23/2025)
 * - [ ] Release a more powerful foundation model covering multiple domains to provide more engaging and immersive foley creation (Expected by end of August 2025)
 * - [ ] Add support for additional modalities and downstream tasks (Expected before end of July 2025)
 * - [ ] Release models at different scales (Expected before end of July 2025)
+* - [x] Release training scripts for ThinkSound models
 * - [x] A beginner-friendly Windows quick-start README
 ---
 
@@ -206,6 +211,7 @@ For providing an easy-to-use framework for audio generation, as well as the VAE 
 If you find ThinkSound useful in your research or work, please cite our paper:
 
 
+
 ```bibtex
 @misc{liu2025thinksoundchainofthoughtreasoningmultimodal,
       title={ThinkSound: Chain-of-Thought Reasoning in Multimodal Large Language Models for Audio Generation and Editing}, 
@@ -224,9 +230,8 @@ If you find ThinkSound useful in your research or work, please cite our paper:
 ✨ Feel free to [open an issue](https://github.com/liuhuadai/ThinkSound/issues) or contact us via email ([liuhuadai@zju.edu.cn](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/mailto:liuhuadai@zju.edu.cn)) if you have any questions or suggestions!
 
 
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
 
 ---

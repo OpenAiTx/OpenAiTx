@@ -1,0 +1,457 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n# MMAR: A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix\n[**📖 arXiv**](https://arxiv.org/abs/2505.13032) | [**🎬 MMAR Demo Video**](https://www.youtube.com/watch?v=Dab13opIGqU) | [**🛠️ GitHub Code**](https://github.com/ddlBoJack/MMAR) | [**🔊 MMAR Audio Download (HuggingFace)**](https://huggingface.co/datasets/BoJack/MMAR)\n                                          \n<p align=\"center\"><img src=\"https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/logo.png\" alt=\"MMAR Benchmark Logo\" width=\"300\"/></p>\n\n## Overview of MMAR\nWe introduce MMAR, a new benchmark designed to evaluate the deep reasoning capabilities of Audio-Language Models (ALMs) across massive multi-disciplinary tasks. \nMMAR comprises 1,000 meticulously curated audio-question-answer triplets, collected from real-world internet videos and refined through iterative error corrections and quality checks to ensure high quality. \nEach item in the benchmark demands multi-step deep reasoning beyond surface-level understanding. Moreover, a part of the questions requires graduate-level perceptual and domain-specific knowledge, elevating the benchmark's difficulty and depth. \nExamples include:\n\n![Example](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/example.png)\n\nThe metadata for MMAR is available in [this file](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/MMAR-meta.json). Unlike previous benchmarks, MMAR not only covers traditional modalities such as speech, audio, and music, but also extends to their mix, collected from in-the-wild videos. The distribution of data across these modalities is illustrated in the left figure. Furthermore, each question is annotated with a designated category and sub-category, as shown in the right figure.\n\nFor each question, we also provide the URL and corresponding timestamp of the original video, as well as the spoken language (if present) in the clip. To prevent potential data leakage into training for reasoning models, we have withheld reasoning cues and chain-of-thought annotations, which will be released at an appropriate time.\n\n<p float=\"left\">\n  <img src=\"https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/modality_pie.png\" width=\"49%\" />\n  <img src=\"https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/category_sunburst.png\" width=\"49%\" />\n</p>\n\n## Benchmark Results\nWe benchmark the models on MMAR across five model categories: \n1. Large Audio Language Models (LALMs)\n2. Large Audio Reasoning Models (LARMs)\n3. Omni Language Models (OLMs)\n4. Large Language Models (LLMs) with audio captions as input\n5. Large Reasoning Models (LRMs) with audio captions as input\n\n![Pipeline](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/benchmark.png)\n\n## Dataset Creation\nThe MMAR benchmark was constructed with a comprehensive pipeline. The process includes: \n1. Brainstorming challenging questions\n2. Building a taxonomy through human-LLM collaboration\n3. Heuristic-based data collection and annotation\n4. Crawling audio data and enriching content across multiple slots\n5. Performing iterative correction and quality inspection to ensure high data fidelity\n\n![Pipeline](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/pipeline.png)\n\n## Test Your Model !\n\nTo ensure a smooth integration into existing evaluation pipelines, we adopt an evaluation methodology modified from [MMAU](https://github.com/Sakshi113/MMAU), implemented in [evaluation.py](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/code/evaluation.py). The input to the evaluation script should be the same as [MMAR-meta.json](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/MMAR-meta.json), with an additional key named `model_prediction`, which stores the model prediction for each question. \n  \nTo run the script:",
+    "ContentSha": "0WXXg03LR7T7AYyvbQ4hNiaNhD4RgWUJdzg/wwNCkCk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# MMAR：一个面向语音、音频、音乐及其混合的深度推理挑战基准\n[**📖 arXiv**](https://arxiv.org/abs/2505.13032) | [**🎬 MMAR 演示视频**](https://www.youtube.com/watch?v=Dab13opIGqU) | [**🛠️ GitHub 代码**](https://github.com/ddlBoJack/MMAR) | [**🔊 MMAR 音频下载（HuggingFace）**](https://huggingface.co/datasets/BoJack/MMAR)\n                                          \n<p align=\"center\"><img src=\"https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/logo.png\" alt=\"MMAR Benchmark Logo\" width=\"300\"/></p>\n\n## MMAR 概览\n我们推出了 MMAR，一项旨在评估音频语言模型（ALMs）在大规模多学科任务中深度推理能力的新基准。  \nMMAR 包含 1,000 个精心策划的音频-问题-答案三元组，采集自真实互联网视频，并通过反复错误修正和质量检查确保高质量。  \n基准中的每个条目都要求多步骤的深度推理，超越表层理解。此外，部分问题需要研究生级别的感知与领域知识，提升了基准的难度和深度。  \n示例如下：\n\n![Example](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/example.png)\n\nMMAR 的元数据可在[此文件](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/MMAR-meta.json)中获取。不同于以往基准，MMAR 不仅涵盖语音、音频和音乐等传统模态，还扩展至它们的混合，数据采集自野外视频。数据在各模态间的分布见左侧图。每个问题还被标注了指定的类别和子类别，如右侧图所示。\n\n对于每个问题，我们还提供了原始视频的 URL 及对应时间戳，以及片段中所说的语言（若有）。为防止推理模型训练中的潜在数据泄露，我们暂未公开推理线索和思维链注释，相关内容将在适当时机发布。\n\n<p float=\"left\">\n  <img src=\"https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/modality_pie.png\" width=\"49%\" />\n  <img src=\"https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/category_sunburst.png\" width=\"49%\" />\n</p>\n\n## 基准测试结果\n我们在 MMAR 上对五类模型进行了基准测试：  \n1. 大型音频语言模型（LALMs）  \n2. 大型音频推理模型（LARMs）  \n3. 全能语言模型（OLMs）  \n4. 以音频字幕作为输入的大型语言模型（LLMs）  \n5. 以音频字幕作为输入的大型推理模型（LRMs）  \n\n![Pipeline](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/benchmark.png)\n\n## 数据集构建\nMMAR 基准通过全面的流程构建完成。过程包括：  \n1. 头脑风暴设计挑战性问题  \n2. 通过人机协作建立分类体系  \n3. 基于启发式方法进行数据采集与标注  \n4. 抓取音频数据并在多个槽位丰富内容  \n5. 反复修正与质量检查，确保数据高保真  \n\n![Pipeline](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/pipeline.png)\n\n## 测试您的模型！\n\n为了确保顺利集成到现有评估流程，我们采用了基于 [MMAU](https://github.com/Sakshi113/MMAU) 修改的评估方法，实现于 [evaluation.py](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/code/evaluation.py)。评估脚本的输入应与 [MMAR-meta.json](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/MMAR-meta.json) 格式相同，并额外包含名为 `model_prediction` 的键，用于存储模型对每个问题的预测结果。  \n  \n运行脚本命令如下：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# MMAR：一个面向语音、音频、音乐及其混合的深度推理挑战基准"
+      },
+      {
+        "row": 2,
+        "rowsha": "aXM/4aMjuoV7zeBDSExF299gIW4ZHym5/yoFuZU3vh4=",
+        "originContent": "# MMAR: A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix",
+        "translatedContent": "[**📖 arXiv**](https://arxiv.org/abs/2505.13032) | [**🎬 MMAR 演示视频**](https://www.youtube.com/watch?v=Dab13opIGqU) | [**🛠️ GitHub 代码**](https://github.com/ddlBoJack/MMAR) | [**🔊 MMAR 音频下载（HuggingFace）**](https://huggingface.co/datasets/BoJack/MMAR)"
+      },
+      {
+        "row": 3,
+        "rowsha": "dCfqATOU1WjucDlYXVrYxKbY8+mauhe3dnIQEClsFLc=",
+        "originContent": "[**📖 arXiv**](https://arxiv.org/abs/2505.13032) | [**🎬 MMAR Demo Video**](https://www.youtube.com/watch?v=Dab13opIGqU) | [**🛠️ GitHub Code**](https://github.com/ddlBoJack/MMAR) | [**🔊 MMAR Audio Download (HuggingFace)**](https://huggingface.co/datasets/BoJack/MMAR)",
+        "translatedContent": "                                          "
+      },
+      {
+        "row": 4,
+        "rowsha": "WuCAOlrxXddGHTxJr+Yc6S9Rxii+N/y2NrmS1JPqV78=",
+        "originContent": "                                          ",
+        "translatedContent": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/logo.png\" alt=\"MMAR Benchmark Logo\" width=\"300\"/></p>"
+      },
+      {
+        "row": 5,
+        "rowsha": "epU9ZVv2k1NaoKO9ckigBLqMGTuRKyiMVeynli/TTiI=",
+        "originContent": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/logo.png\" alt=\"MMAR Benchmark Logo\" width=\"300\"/></p>",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## MMAR 概览"
+      },
+      {
+        "row": 7,
+        "rowsha": "QN6zNM/THCbcrUf5q8Nmadx/32PlbRQJITh/CNegtnE=",
+        "originContent": "## Overview of MMAR",
+        "translatedContent": "我们推出了 MMAR，一项旨在评估音频语言模型（ALMs）在大规模多学科任务中深度推理能力的新基准。  "
+      },
+      {
+        "row": 8,
+        "rowsha": "VzF0g9JZmDyYXl6g6MrO9y/fLO66zR9ZMlyqzdkPLwo=",
+        "originContent": "We introduce MMAR, a new benchmark designed to evaluate the deep reasoning capabilities of Audio-Language Models (ALMs) across massive multi-disciplinary tasks. ",
+        "translatedContent": "MMAR 包含 1,000 个精心策划的音频-问题-答案三元组，采集自真实互联网视频，并通过反复错误修正和质量检查确保高质量。  "
+      },
+      {
+        "row": 9,
+        "rowsha": "3aGz5j/WjMOhHQijj2uhGB4Q9PUlZ/IIcFfR4Y3zIyc=",
+        "originContent": "MMAR comprises 1,000 meticulously curated audio-question-answer triplets, collected from real-world internet videos and refined through iterative error corrections and quality checks to ensure high quality. ",
+        "translatedContent": "基准中的每个条目都要求多步骤的深度推理，超越表层理解。此外，部分问题需要研究生级别的感知与领域知识，提升了基准的难度和深度。  "
+      },
+      {
+        "row": 10,
+        "rowsha": "GftgAuH8ua4eoDAvdccw2LRtvuVBKWzY7OEO2X8B7DM=",
+        "originContent": "Each item in the benchmark demands multi-step deep reasoning beyond surface-level understanding. Moreover, a part of the questions requires graduate-level perceptual and domain-specific knowledge, elevating the benchmark's difficulty and depth. ",
+        "translatedContent": "示例如下："
+      },
+      {
+        "row": 11,
+        "rowsha": "7Zmdrty2OCDs56+etlgVgRIVelO//GIaD/Ce+Ndiulo=",
+        "originContent": "Examples include:",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![Example](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/example.png)"
+      },
+      {
+        "row": 13,
+        "rowsha": "9IG8u2BDWlgOhJHdJcPn8jmoJK/03X9hKaIyQv2lV9A=",
+        "originContent": "![Example](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/example.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "MMAR 的元数据可在[此文件](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/MMAR-meta.json)中获取。不同于以往基准，MMAR 不仅涵盖语音、音频和音乐等传统模态，还扩展至它们的混合，数据采集自野外视频。数据在各模态间的分布见左侧图。每个问题还被标注了指定的类别和子类别，如右侧图所示。"
+      },
+      {
+        "row": 15,
+        "rowsha": "bmFFN3HNWV9QdTpn8QT9JDY54Dk9aRUiZQOWJAsqfLQ=",
+        "originContent": "The metadata for MMAR is available in [this file](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/MMAR-meta.json). Unlike previous benchmarks, MMAR not only covers traditional modalities such as speech, audio, and music, but also extends to their mix, collected from in-the-wild videos. The distribution of data across these modalities is illustrated in the left figure. Furthermore, each question is annotated with a designated category and sub-category, as shown in the right figure.",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "对于每个问题，我们还提供了原始视频的 URL 及对应时间戳，以及片段中所说的语言（若有）。为防止推理模型训练中的潜在数据泄露，我们暂未公开推理线索和思维链注释，相关内容将在适当时机发布。"
+      },
+      {
+        "row": 17,
+        "rowsha": "IQs1WsLraNnYbgeAy+xSpbhL9oUGV/0LUQKxzonk0iM=",
+        "originContent": "For each question, we also provide the URL and corresponding timestamp of the original video, as well as the spoken language (if present) in the clip. To prevent potential data leakage into training for reasoning models, we have withheld reasoning cues and chain-of-thought annotations, which will be released at an appropriate time.",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<p float=\"left\">"
+      },
+      {
+        "row": 19,
+        "rowsha": "GUbCMidcscNwoOhSkP+X+EwL8KN6omDI0Cory0F0HZc=",
+        "originContent": "<p float=\"left\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/modality_pie.png\" width=\"49%\" />"
+      },
+      {
+        "row": 20,
+        "rowsha": "EVF61S76N795S1sL9wFos/F3UEWdyF0/gTUvwI/TPcw=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/modality_pie.png\" width=\"49%\" />",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/category_sunburst.png\" width=\"49%\" />"
+      },
+      {
+        "row": 21,
+        "rowsha": "0Bh21fPvcHnzwrHguk6aREiwnOMoxKfE+hArykysjR4=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/category_sunburst.png\" width=\"49%\" />",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 22,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 基准测试结果"
+      },
+      {
+        "row": 24,
+        "rowsha": "BzPiSdgeWwyGfxLo1IckxH2q7o+en7fQn7stJtetnMo=",
+        "originContent": "## Benchmark Results",
+        "translatedContent": "我们在 MMAR 上对五类模型进行了基准测试：  "
+      },
+      {
+        "row": 25,
+        "rowsha": "pmVpBD1MH12Ix3GKMSiOSUZCPVWvGdwcIzeAjk60xXw=",
+        "originContent": "We benchmark the models on MMAR across five model categories: ",
+        "translatedContent": "1. 大型音频语言模型（LALMs）  "
+      },
+      {
+        "row": 26,
+        "rowsha": "oR6e+Y9nPJR+DLoM/Wv9Z/yhJjaFn5eYT4JJiX3cVnc=",
+        "originContent": "1. Large Audio Language Models (LALMs)",
+        "translatedContent": "2. 大型音频推理模型（LARMs）  "
+      },
+      {
+        "row": 27,
+        "rowsha": "ypEbH8QdZZOVPpPwJIbaBqDtT5CLywbYtCRjSCE7Ti8=",
+        "originContent": "2. Large Audio Reasoning Models (LARMs)",
+        "translatedContent": "3. 全能语言模型（OLMs）  "
+      },
+      {
+        "row": 28,
+        "rowsha": "XKrTEl2oWEpyVDl5d6BrHN7xvkYhUPH5jnjaym1dcvU=",
+        "originContent": "3. Omni Language Models (OLMs)",
+        "translatedContent": "4. 以音频字幕作为输入的大型语言模型（LLMs）  "
+      },
+      {
+        "row": 29,
+        "rowsha": "hOO5atGuLPaYKqwoMe2npLG13TLyeyeKeeScXLxu6hY=",
+        "originContent": "4. Large Language Models (LLMs) with audio captions as input",
+        "translatedContent": "5. 以音频字幕作为输入的大型推理模型（LRMs）  "
+      },
+      {
+        "row": 30,
+        "rowsha": "lxzWdDIA4ZutU/hDh46rRAXL2WmTuX4KTOh2g/dIB5Q=",
+        "originContent": "5. Large Reasoning Models (LRMs) with audio captions as input",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![Pipeline](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/benchmark.png)"
+      },
+      {
+        "row": 32,
+        "rowsha": "EqwclIuAiPyH7bJxS+T3YzTT64664Xe7j3a8ZBvlEzM=",
+        "originContent": "![Pipeline](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/benchmark.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 数据集构建"
+      },
+      {
+        "row": 34,
+        "rowsha": "zoNK31UNgZFB8VvbmMZkfZLLM8sF6a3jUxCADcMcTFE=",
+        "originContent": "## Dataset Creation",
+        "translatedContent": "MMAR 基准通过全面的流程构建完成。过程包括：  "
+      },
+      {
+        "row": 35,
+        "rowsha": "jdaMPWQFgktn8Mq2Sakvd+thZUgEY0YxR/GLXawS0F8=",
+        "originContent": "The MMAR benchmark was constructed with a comprehensive pipeline. The process includes: ",
+        "translatedContent": "1. 头脑风暴设计挑战性问题  "
+      },
+      {
+        "row": 36,
+        "rowsha": "jB3vqk6+/ytb3NIoSWQCwOsmI0bCM0BJ2zx1vSz4seY=",
+        "originContent": "1. Brainstorming challenging questions",
+        "translatedContent": "2. 通过人机协作建立分类体系  "
+      },
+      {
+        "row": 37,
+        "rowsha": "jCC93EtBVh858X1WbKfFNfPsyMN8vfpqiNa06Xf74kc=",
+        "originContent": "2. Building a taxonomy through human-LLM collaboration",
+        "translatedContent": "3. 基于启发式方法进行数据采集与标注  "
+      },
+      {
+        "row": 38,
+        "rowsha": "wDHQ8jRU+f1jPvtpopuI1qnx2Nw849hygTkcT7Zkp74=",
+        "originContent": "3. Heuristic-based data collection and annotation",
+        "translatedContent": "4. 抓取音频数据并在多个槽位丰富内容  "
+      },
+      {
+        "row": 39,
+        "rowsha": "mRtVMr85bh25S9BNJLXfdG/A7D7ysz0qw9HrwlN1uUc=",
+        "originContent": "4. Crawling audio data and enriching content across multiple slots",
+        "translatedContent": "5. 反复修正与质量检查，确保数据高保真  "
+      },
+      {
+        "row": 40,
+        "rowsha": "b1g560K97AsIhgMWfm1Zn1loRSMGxhd8iOYsMWFwOfU=",
+        "originContent": "5. Performing iterative correction and quality inspection to ensure high data fidelity",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![Pipeline](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/pipeline.png)"
+      },
+      {
+        "row": 42,
+        "rowsha": "9VH0swxibKuI4kBeTL1E+yAl8Ootrqldu/TpclsTuew=",
+        "originContent": "![Pipeline](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/pipeline.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 测试您的模型！"
+      },
+      {
+        "row": 44,
+        "rowsha": "YcCut4hQV3XmsMwQ7W19jKmMmgnLPVWLZPFahSN1Hi8=",
+        "originContent": "## Test Your Model !",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "为了确保顺利集成到现有评估流程，我们采用了基于 [MMAU](https://github.com/Sakshi113/MMAU) 修改的评估方法，实现于 [evaluation.py](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/code/evaluation.py)。评估脚本的输入应与 [MMAR-meta.json](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/MMAR-meta.json) 格式相同，并额外包含名为 `model_prediction` 的键，用于存储模型对每个问题的预测结果。  "
+      },
+      {
+        "row": 46,
+        "rowsha": "Gvm/TYUrCW//dfRDlFd9m7nG2/3qEHHMDrNU9WFvGVQ=",
+        "originContent": "To ensure a smooth integration into existing evaluation pipelines, we adopt an evaluation methodology modified from [MMAU](https://github.com/Sakshi113/MMAU), implemented in [evaluation.py](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/code/evaluation.py). The input to the evaluation script should be the same as [MMAR-meta.json](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/MMAR-meta.json), with an additional key named `model_prediction`, which stores the model prediction for each question. ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 47,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "运行脚本命令如下："
+      },
+      {
+        "row": 48,
+        "rowsha": "sOVGM4X2QVAsogLVMc0exuwbmae7iVTx3YcwEQ5bVZ8=",
+        "originContent": "To run the script:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\npython evaluation.py  --input INPUT_JSON_PATH\n```",
+    "ContentSha": "/1tAnnCm4pQ5d+OkM+XVnog+9gajhR1v0gP6ezXnfh0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython evaluation.py  --input INPUT_JSON_PATH\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "w+f+DmLHWp67jFv0ZTQ7WYbafgxfhVHj+BWh3sIZ3R4=",
+        "originContent": "python evaluation.py  --input INPUT_JSON_PATH",
+        "translatedContent": "python evaluation.py  --input INPUT_JSON_PATH"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Acknowledge\nWe gratefully acknowledge that our evaluation code is modified from the official implementation of [MMAU](https://github.com/Sakshi113/MMAU). \n\n## Citation",
+    "ContentSha": "IaUHX6jbGZrgScqQsNh4qROLhDPApEn3/uCPJpM8EE0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 致谢\n我们衷心感谢我们的评估代码是基于 [MMAU](https://github.com/Sakshi113/MMAU) 官方实现进行修改的。\n\n## 引用\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 致谢"
+      },
+      {
+        "row": 2,
+        "rowsha": "xtYBNAto7c9qDmGF7v5SBnjqwPebUyaGM22mxPYxf1s=",
+        "originContent": "## Acknowledge",
+        "translatedContent": "我们衷心感谢我们的评估代码是基于 [MMAU](https://github.com/Sakshi113/MMAU) 官方实现进行修改的。"
+      },
+      {
+        "row": 3,
+        "rowsha": "oE0ZkFOmLcWy6563uXJMl0fCijIMFdN2+8Db89qw5K0=",
+        "originContent": "We gratefully acknowledge that our evaluation code is modified from the official implementation of [MMAU](https://github.com/Sakshi113/MMAU). ",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 引用"
+      },
+      {
+        "row": 5,
+        "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+        "originContent": "## Citation",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\n@article{ma2025mmar,\n  title={MMAR: A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix},\n  author={Ma, Ziyang and Ma, Yinghao and Zhu, Yanqiao and Yang, Chen and Chao, Yi-Wen and Xu, Ruiyang and others},\n  journal={arXiv preprint arXiv:2505.13032},\n  year={2025}\n}\n```",
+    "ContentSha": "f8QBDPIREeMqmGubCnVSWJNPU27YVIP/Sx/inKUaNXQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n@article{ma2025mmar,\n  title={MMAR: A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix},\n  author={Ma, Ziyang and Ma, Yinghao and Zhu, Yanqiao and Yang, Chen and Chao, Yi-Wen and Xu, Ruiyang and others},\n  journal={arXiv preprint arXiv:2505.13032},\n  year={2025}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "dchfcMbraOabyepDeLTuDiuHEiHEFxjFWiA2J0BBi/M=",
+        "originContent": "@article{ma2025mmar,",
+        "translatedContent": "@article{ma2025mmar,"
+      },
+      {
+        "row": 3,
+        "rowsha": "De1CnDsyjg0m4C7vgUJq9iDfx9aezUiGlbO/X1ZAXD0=",
+        "originContent": "  title={MMAR: A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix},",
+        "translatedContent": "  title={MMAR: A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix},"
+      },
+      {
+        "row": 4,
+        "rowsha": "GlYTmnQ1X2YGVVxUY+Cnw7Qb3dgzFSP/coLythTl0YQ=",
+        "originContent": "  author={Ma, Ziyang and Ma, Yinghao and Zhu, Yanqiao and Yang, Chen and Chao, Yi-Wen and Xu, Ruiyang and others},",
+        "translatedContent": "  author={Ma, Ziyang and Ma, Yinghao and Zhu, Yanqiao and Yang, Chen and Chao, Yi-Wen and Xu, Ruiyang and others},"
+      },
+      {
+        "row": 5,
+        "rowsha": "3x1DtdPQgWqYMZlwoe9mKZ2pEEZBuktUp7MlyCvcBug=",
+        "originContent": "  journal={arXiv preprint arXiv:2505.13032},",
+        "translatedContent": "  journal={arXiv preprint arXiv:2505.13032},"
+      },
+      {
+        "row": 6,
+        "rowsha": "6oyqJVJ20XoZhlyGjaewQyTQsSBBtVAYmqUtTwjLbAg=",
+        "originContent": "  year={2025}",
+        "translatedContent": "  year={2025}"
+      },
+      {
+        "row": 7,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

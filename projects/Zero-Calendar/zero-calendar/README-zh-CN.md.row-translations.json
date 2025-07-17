@@ -1,0 +1,998 @@
+[
+  {
+    "row": 1,
+    "rowsha": "cwR5vkrtXeRsnZAsiq0anCViJ0Onof2RZ2Py3zqRrnU=",
+    "originContent": "# Zero Calendar",
+    "translatedContent": "<translate-content># Zero Calendar"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "+waHv1ytUOWFeA6bzRsqEDyGH3fSkqgyY/9h2H4qgqk=",
+    "originContent": "[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FZero-Calendar%2Fzero-calendar)",
+    "translatedContent": "[![使用 Vercel 部署](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FZero-Calendar%2Fzero-calendar)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "1gbCs33kh8rdUJO5XXZH90o/0PwYE++OzH2tNNJ+0Uc=",
+    "originContent": "**An Open-Source AI-Powered Calendar for the Future of Scheduling**",
+    "translatedContent": "**一个面向未来调度的开源 AI 驱动日历**"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "NID9R7T55rWowB3pTCUP4nvNhUKvXJZeaWtuAyYNiBA=",
+    "originContent": "## What is Zero Calendar?",
+    "translatedContent": "## 什么是 Zero Calendar？"
+  },
+  {
+    "row": 8,
+    "rowsha": "1PRE+9AV/2vXpMVnDPDz+RsZ41mvU13eX5iU8FjoxK0=",
+    "originContent": "Zero Calendar is an open-source AI calendar solution that gives users the power to manage their schedule intelligently while integrating with external services like Google Calendar and other calendar providers. Our goal is to modernize and improve scheduling through AI agents to truly revolutionize how we manage our time.",
+    "translatedContent": "Zero Calendar 是一个开源 AI 日历解决方案，赋予用户智能管理日程的能力，同时集成 Google 日历及其他日历服务。我们的目标是通过 AI 代理现代化并改进调度，真正革新我们管理时间的方式。"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "7ZlPq0Xe8cGQml2n1tZv3URgpIBgJtiL4xrlGnHw+JQ=",
+    "originContent": "## Why Zero Calendar?",
+    "translatedContent": "## 为什么选择 Zero Calendar？"
+  },
+  {
+    "row": 11,
+    "rowsha": "NH5xeYYQA2/VmGE0nsWBkcXsrTPBJFPY4WSQzY4vor4=",
+    "originContent": "Most calendar services today are either closed-source, data-hungry, or lack intelligent features. Zero Calendar is different:",
+    "translatedContent": "如今大多数日历服务要么是闭源的、数据需求庞大，要么缺乏智能功能。Zero Calendar 与众不同："
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "oqBQ4teCk63qjyAHijMqASn3il7ammuoVTfy8AXJJWM=",
+    "originContent": "✅ **Open-Source** – No hidden agendas, fully transparent.  ",
+    "translatedContent": "✅ **开源** – 无隐藏议程，完全透明。  "
+  },
+  {
+    "row": 14,
+    "rowsha": "kxktywF8lYm+TMG9j7SVvs74+dy6F9ABWpV89guhlTI=",
+    "originContent": "🦾 **AI Driven** - Enhance your scheduling with AI assistants & LLMs.  ",
+    "translatedContent": "🦾 **AI 驱动** – 通过 AI 助手与大型语言模型提升调度体验。  "
+  },
+  {
+    "row": 15,
+    "rowsha": "XfHSLutTmS5Un7iXwfZDSqrsjZcpY0/iomvO2EZoWO8=",
+    "originContent": "🔒 **Data Privacy First** – Your schedule, your data. Zero Calendar does not track, collect, or sell your data in any way.  ",
+    "translatedContent": "🔒 **数据隐私优先** – 您的日程，您的数据。Zero Calendar 不追踪、不收集、不出售您的数据。  "
+  },
+  {
+    "row": 16,
+    "rowsha": "lLU9e0Sl9tCqzyHcOuUCz9rhThtl4fCUoGHTEhcrfp0=",
+    "originContent": "⚙️ **Self-Hosting Freedom** – Run your own calendar app with ease.  ",
+    "translatedContent": "⚙️ **自托管自由** – 轻松运行属于您自己的日历应用。  "
+  },
+  {
+    "row": 17,
+    "rowsha": "Dn3Bu03ErB+WsgERGQryknMaiV79E4YmfOseYojhnh8=",
+    "originContent": "📅 **Unified Calendar** – Connect multiple calendar providers like Google Calendar, Outlook, and more.  ",
+    "translatedContent": "📅 **统一日历** – 连接多个日历服务，如 Google 日历、Outlook 等。  "
+  },
+  {
+    "row": 18,
+    "rowsha": "UailtWeKXg02DJfxkoo1rXsJE4xIptiIW1w4GooSl+w=",
+    "originContent": "🎨 **Customizable UI & Features** – Tailor your calendar experience the way you want it.  ",
+    "translatedContent": "🎨 **可定制的界面与功能** – 按照您的需求定制日历体验。  "
+  },
+  {
+    "row": 19,
+    "rowsha": "aOrEWhDTYIQ0TbXhILmNBJ1DHanETiDpMMctefZgA4s=",
+    "originContent": "🚀 **Developer-Friendly** – Built with extensibility and integrations in mind.  ",
+    "translatedContent": "🚀 **开发者友好** – 设计时考虑到扩展性和集成能力。  "
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "XJl/FNgwR2AGsDvOaDIzGttr6EiAAyy3PJUJujZZrkw=",
+    "originContent": "## Tech Stack",
+    "translatedContent": "## 技术栈"
+  },
+  {
+    "row": 22,
+    "rowsha": "6jcgnLlTrnraotzWqNY0ih4psqnQe9DNRUxr5+9FQv0=",
+    "originContent": "Zero Calendar is built with modern and reliable technologies:",
+    "translatedContent": "Zero Calendar 采用现代且可靠的技术构建："
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "wkE8ipKvQ2QG4bWjFypSmHsRWdRlTfck9HQzUGsRAhE=",
+    "originContent": "- **Frontend**: Next.js, React, TypeScript, TailwindCSS, Shadcn UI",
+    "translatedContent": "- **前端**：Next.js、React、TypeScript、TailwindCSS、Shadcn UI  "
+  },
+  {
+    "row": 25,
+    "rowsha": "RS73RPqzS+g1LacHmzHpHgGeHU/QR21Tml+GPeWpTYE=",
+    "originContent": "- **Backend**: Next.js API Routes, Server Actions",
+    "translatedContent": "- **后端**：Next.js API 路由，Server Actions  "
+  },
+  {
+    "row": 26,
+    "rowsha": "6HGcsKRtOIdnI4NENjK/a8rCUKCKrzwRvVBX+QtACBU=",
+    "originContent": "- **Database**: Vercel KV (Redis)",
+    "translatedContent": "- **数据库**：Vercel KV（Redis）  "
+  },
+  {
+    "row": 27,
+    "rowsha": "8tRcqn5T/0Nr+TTOeHrkRkiLDD8iU/dpSrI8YrOVhTE=",
+    "originContent": "- **Authentication**: NextAuth.js, Google OAuth",
+    "translatedContent": "- **认证**：NextAuth.js，Google OAuth  "
+  },
+  {
+    "row": 28,
+    "rowsha": "tXjCoLsqvM09Vbkv9FOcyvwaObGnQR/6oj3duDVS3lw=",
+    "originContent": "- **AI**: AI SDK, Groq",
+    "translatedContent": "- **AI**：AI SDK，Groq  "
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+    "originContent": "## Getting Started",
+    "translatedContent": "## 快速开始"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+    "originContent": "### Prerequisites",
+    "translatedContent": "### 先决条件"
+  },
+  {
+    "row": 33,
+    "rowsha": "RgkI2w3RV4cMveQD8orGgv/EeLVgGkZ46aasx9GiMFo=",
+    "originContent": "Required Versions:",
+    "translatedContent": "所需版本：  "
+  },
+  {
+    "row": 34,
+    "rowsha": "tcvn2eB/RJOFxdTkm8W2GbQN/xEMqc/0RDxw68y+ukg=",
+    "originContent": "- Node.js (v18 or higher)",
+    "translatedContent": "- Node.js（v18 或更高）  "
+  },
+  {
+    "row": 35,
+    "rowsha": "kLe3YeHHBR8ckQA5k3o9Y1UxbBPV6kX1+Fa5jwi9w08=",
+    "originContent": "- npm (v9 or higher) or pnpm (v8 or higher)",
+    "translatedContent": "- npm（v9 或更高）或 pnpm（v8 或更高）  "
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "SYwGIQ5tnLDoL++UMKySmC4DmsvUwzAVdK452WoEq3E=",
+    "originContent": "Before running the application, you'll need to set up services and configure environment variables. For more details on environment variables, see the Environment Variables section.",
+    "translatedContent": "运行应用前，您需要设置服务并配置环境变量。有关环境变量的详细信息，请参见环境变量部分。"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "+ofcqZaLX9tAeNwHDtm9LR9hsEVEZk7fx6TC/28mTB0=",
+    "originContent": "### Setup Options",
+    "translatedContent": "### 安装选项"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "9q4svGNC/TTtilXpQNoS/PM/npSqRzxK10q4mQfizwc=",
+    "originContent": "#### Quick Start Guide",
+    "translatedContent": "#### 快速入门指南"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "7YdyJ3mofjjp+125cV1/q9QdP6DF7VEx/+8pE3dQfjE=",
+    "originContent": "1. **Clone and Install**",
+    "translatedContent": "1. **克隆并安装**</translate-content>"
+  },
+  {
+    "row": 44,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 45,
+    "rowsha": "EJ1kGcOyM89S1RwOEHSj/NB/bjY/T7n0DRgAblC5zSQ=",
+    "originContent": "# Clone the repository",
+    "translatedContent": "# Clone the repository"
+  },
+  {
+    "row": 46,
+    "rowsha": "RyhI5D1LU5foWOUHnNw4L51vKqdHktuuJfM6FydzL3A=",
+    "originContent": "git clone https://github.com/Zero-Calendar/zero-calendar.git",
+    "translatedContent": "git clone https://github.com/Zero-Calendar/zero-calendar.git"
+  },
+  {
+    "row": 47,
+    "rowsha": "FY7so7xXUxySOWxc02Bz9RDD6M3fnD/kTsF840SFSvA=",
+    "originContent": "cd zero-calendar",
+    "translatedContent": "cd zero-calendar"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "eZl+L3vwMSfnhJPApyjgp5MAN3lox2CikfYeIVqDi7M=",
+    "originContent": "# Install dependencies",
+    "translatedContent": "# Install dependencies"
+  },
+  {
+    "row": 50,
+    "rowsha": "Oi3AriHrVteKDra70PRRLaBPn5T27mxqM4w+TLGo/5E=",
+    "originContent": "npm install",
+    "translatedContent": "npm install"
+  },
+  {
+    "row": 51,
+    "rowsha": "aN479qeMJzSWQMGNYAknGvL7bw4bvOG2puihSc8yoE8=",
+    "originContent": "# or",
+    "translatedContent": "# or"
+  },
+  {
+    "row": 52,
+    "rowsha": "AF0LflwmHcxeL4Vo5poLMOiJoydbVbGOwgp97vAIHpA=",
+    "originContent": "pnpm install",
+    "translatedContent": "pnpm install"
+  },
+  {
+    "row": 53,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "2. **设置环境**"
+  },
+  {
+    "row": 55,
+    "rowsha": "9S+DSuFHjMIQmf8Mr2EBuSVORZRC8UL7c4ErvCRwi5A=",
+    "originContent": "2. **Set Up Environment**",
+    "translatedContent": "- 将项目根目录下的 `.env.example` 复制为 `.env.local`"
+  },
+  {
+    "row": 56,
+    "rowsha": "SbJuQzToY0J0xUB++clzvp1dNnoIYyvuELyb1fy5ncM=",
+    "originContent": "- Copy `.env.example` to `.env.local` in project root",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 58,
+    "rowsha": "p+WZO+vOMpQHbz2zS3rdfhWLywdZQ0t9JtpqPZY7O5I=",
+    "originContent": "cp .env.example .env.local",
+    "translatedContent": "cp .env.example .env.local"
+  },
+  {
+    "row": 59,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 60,
+    "rowsha": "3ZacZSXRFmAQaTHnqM4CORL1EYgDe/igbxww47k9HME=",
+    "originContent": "- Configure your environment variables (see below)",
+    "translatedContent": "- 配置您的环境变量（见下文）"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "wNGu2shlW91bjH0s+LwmMvt4kNL17/EnZhP2Cq/Dgc4=",
+    "originContent": "3. **Start the App**",
+    "translatedContent": "3. **启动应用程序**"
+  },
+  {
+    "row": 63,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 64,
+    "rowsha": "IfFnfI9PhCQWiefGw310ACvgFob6wDpxDKh2mTUm//c=",
+    "originContent": "npm run dev",
+    "translatedContent": "npm run dev"
+  },
+  {
+    "row": 65,
+    "rowsha": "aN479qeMJzSWQMGNYAknGvL7bw4bvOG2puihSc8yoE8=",
+    "originContent": "# or",
+    "translatedContent": "# or"
+  },
+  {
+    "row": 66,
+    "rowsha": "ZYvNuHAYTkCLCEkYZ1c2s8LyrrXCkHjQE4e47PWrzOI=",
+    "originContent": "pnpm dev",
+    "translatedContent": "pnpm dev"
+  },
+  {
+    "row": 67,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "4. **在浏览器中打开**  "
+  },
+  {
+    "row": 69,
+    "rowsha": "CknBCDEJEel+fPJS2F1M3s0adGvnmDIFUmumay/Bm9U=",
+    "originContent": "4. **Open in Browser**",
+    "translatedContent": "- 访问 http://localhost:3000  "
+  },
+  {
+    "row": 70,
+    "rowsha": "H5XnSgmwDWtTjWb/atuo6jtpxFZh83SxHDl9MgXeZwU=",
+    "originContent": "- Visit http://localhost:3000",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 环境变量  "
+  },
+  {
+    "row": 72,
+    "rowsha": "z0e1mPGeKrXDpgwT5hpUsqWlMTlzlzBoJvcLaIVPlLI=",
+    "originContent": "### Environment Variables",
+    "translatedContent": "在项目根目录下创建一个 `.env.local` 文件，并配置以下变量："
+  },
+  {
+    "row": 73,
+    "rowsha": "60bs48bMyn9oiPMbwfI5QAja8ZnQuui7qcbrff5Ibic=",
+    "originContent": "Create a `.env.local` file in the project root and configure the following variables:",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 76,
+    "rowsha": "stc7jsZlBDoHjBbRMQce4q4Rv4/kNzxbKNeRUOSRPps=",
+    "originContent": "# NextAuth",
+    "translatedContent": "# NextAuth"
+  },
+  {
+    "row": 77,
+    "rowsha": "ib0MEFoNEoUlMCaDS1GxBno447jl7/YOn3lo4eJu/pU=",
+    "originContent": "NEXTAUTH_SECRET=     # Required: Secret key for authentication (generate with `openssl rand -hex 32`)",
+    "translatedContent": "NEXTAUTH_SECRET=     # Required: Secret key for authentication (generate with `openssl rand -hex 32`)"
+  },
+  {
+    "row": 78,
+    "rowsha": "Vg+W7qKnwBGGxHZitP0T4tY08wGwFI2VJUoN8Lbfhb8=",
+    "originContent": "NEXTAUTH_URL=        # Required: URL of your application (http://localhost:3000 for local dev)",
+    "translatedContent": "NEXTAUTH_URL=        # Required: URL of your application (http://localhost:3000 for local dev)"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "BSu+ZnHYF+K29HAp3SnhJPevm81gQ2B7dIgJfrgZHhg=",
+    "originContent": "# Google OAuth (Required for Google Calendar integration)",
+    "translatedContent": "# Google OAuth (Required for Google Calendar integration)"
+  },
+  {
+    "row": 81,
+    "rowsha": "ew8rpnxpSr/mcCG6lkIFca81lTcICyw0iGw4/p0XIX8=",
+    "originContent": "GOOGLE_CLIENT_ID=    # Required for Google Calendar integration",
+    "translatedContent": "GOOGLE_CLIENT_ID=    # Required for Google Calendar integration"
+  },
+  {
+    "row": 82,
+    "rowsha": "zrf/CAw6UBgGr2ILxACTm5QX+ssnFnH/EDLJYjZ4SDM=",
+    "originContent": "GOOGLE_CLIENT_SECRET=# Required for Google Calendar integration",
+    "translatedContent": "GOOGLE_CLIENT_SECRET=# Required for Google Calendar integration"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "sivr0RgJIYtDnYZpYbaOBagS+xBWwgkOqij3UX59zIo=",
+    "originContent": "# Vercel KV (Redis)",
+    "translatedContent": "# Vercel KV (Redis)"
+  },
+  {
+    "row": 85,
+    "rowsha": "czy9N3INzAE5Xu5L8155vOtb9sXVE/3dqc6ZJlLuYGM=",
+    "originContent": "KV_URL=              # Required: Vercel KV URL",
+    "translatedContent": "KV_URL=              # Required: Vercel KV URL"
+  },
+  {
+    "row": 86,
+    "rowsha": "u+GiMrVQHsozg2mq1Wv/rTxT9QauVt7RvuUwNCOIojk=",
+    "originContent": "KV_REST_API_URL=     # Required: Vercel KV REST API URL",
+    "translatedContent": "KV_REST_API_URL=     # Required: Vercel KV REST API URL"
+  },
+  {
+    "row": 87,
+    "rowsha": "BsEyRVs2JhElqK/QHb41OY4Isocf5bCkTSAZwqF1SFw=",
+    "originContent": "KV_REST_API_TOKEN=   # Required: Vercel KV REST API token",
+    "translatedContent": "KV_REST_API_TOKEN=   # Required: Vercel KV REST API token"
+  },
+  {
+    "row": 88,
+    "rowsha": "vZg0f1QD2b6BdZV3e2VtGti46Mz230qXmELJ5RxbK3Q=",
+    "originContent": "KV_REST_API_READ_ONLY_TOKEN= # Required: Vercel KV REST API read-only token",
+    "translatedContent": "KV_REST_API_READ_ONLY_TOKEN= # Required: Vercel KV REST API read-only token"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "D4kEfeysL9DuIqR5dCskfKfGNH0wKwYbDK77IaeuhAw=",
+    "originContent": "# AI Integration",
+    "translatedContent": "# AI Integration"
+  },
+  {
+    "row": 91,
+    "rowsha": "nmrLcIFhUUR+55uatm+DMP5bL9ItTyQjXv8gCeWVV/E=",
+    "originContent": "GROQ_API_KEY=        # Required for AI features",
+    "translatedContent": "GROQ_API_KEY=        # Required for AI features"
+  },
+  {
+    "row": 92,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<translate-content>"
+  },
+  {
+    "row": 94,
+    "rowsha": "ysMNUyaGZIdbpdPMNz5cGQBe9+6CEJzT6AV3Sw3XDn0=",
+    "originContent": "### Google OAuth Setup (Required for Google Calendar integration)",
+    "translatedContent": "### Google OAuth 设置（Google 日历集成必需）"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "Lh+vokz5S1BzJjGYyowBfPstAZyrHQDe0Rs96/WqIrk=",
+    "originContent": "1. Go to [Google Cloud Console](https://console.cloud.google.com/)",
+    "translatedContent": "1. 访问 [Google Cloud Console](https://console.cloud.google.com/)"
+  },
+  {
+    "row": 97,
+    "rowsha": "bclJLW1lyReXxXs1Jy4Md+toK8Ur1H+as4tprKGYc3o=",
+    "originContent": "2. Create a new project",
+    "translatedContent": "2. 创建一个新项目"
+  },
+  {
+    "row": 98,
+    "rowsha": "fNvha0N9dHViHpV9in1OnQXtBcVi0+DyXpxQVre6lDg=",
+    "originContent": "3. Add the following APIs in your Google Cloud Project:",
+    "translatedContent": "3. 在您的 Google Cloud 项目中添加以下 API："
+  },
+  {
+    "row": 99,
+    "rowsha": "TXFK6y2GLgmn9k8d+wIOYFYk1EpbKa+1prZNqQkpJwA=",
+    "originContent": "   - Google Calendar API",
+    "translatedContent": "   - Google 日历 API"
+  },
+  {
+    "row": 100,
+    "rowsha": "Tyij8Ofehu0MapPP4qCqJNZecugzKA0XBnADXlokcRo=",
+    "originContent": "   - Google People API",
+    "translatedContent": "   - Google People API"
+  },
+  {
+    "row": 101,
+    "rowsha": "ehPG318D8JscRGzA1iZDbpiDwT6Xt2kqh+lhmZnj4N4=",
+    "originContent": "4. Enable the Google OAuth2 API",
+    "translatedContent": "4. 启用 Google OAuth2 API"
+  },
+  {
+    "row": 102,
+    "rowsha": "5kZYMlps0x4XLkVawy+JjQUHvD3tbo4dboXFRKCuOh4=",
+    "originContent": "5. Create OAuth 2.0 credentials (Web application type)",
+    "translatedContent": "5. 创建 OAuth 2.0 凭据（Web 应用类型）"
+  },
+  {
+    "row": 103,
+    "rowsha": "jfrAbFfqIbmEmlAso/j8hTLbE4CkX4okIW0bcDa8jzk=",
+    "originContent": "6. Add authorized redirect URIs:",
+    "translatedContent": "6. 添加授权重定向 URI："
+  },
+  {
+    "row": 104,
+    "rowsha": "VKznto+6jjFII+JnlDlLPuMgswDGzDDmH09KaAMOPm8=",
+    "originContent": "   - Development: `http://localhost:3000/api/auth/callback/google`",
+    "translatedContent": "   - 开发环境：`http://localhost:3000/api/auth/callback/google`"
+  },
+  {
+    "row": 105,
+    "rowsha": "WwBgBGCzjD1XzOWMOkfgoiJZ0F17M6hQpFFCoFhNNKc=",
+    "originContent": "   - Production: `https://your-production-url/api/auth/callback/google`",
+    "translatedContent": "   - 生产环境：`https://your-production-url/api/auth/callback/google`"
+  },
+  {
+    "row": 106,
+    "rowsha": "1vJ9H2IoOPyf9+WBtBCMWFCXIID62HrdfQK6lEJmwUY=",
+    "originContent": "7. Add to `.env.local`:",
+    "translatedContent": "7. 添加到 `.env.local`：</translate-content>"
+  },
+  {
+    "row": 107,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 108,
+    "rowsha": "1l6NGGhIft1pcgNUwCQLf77Ex3k5WHWrwB1VWi0Db00=",
+    "originContent": "GOOGLE_CLIENT_ID=your_client_id",
+    "translatedContent": "GOOGLE_CLIENT_ID=your_client_id"
+  },
+  {
+    "row": 109,
+    "rowsha": "12J0MH8PF23dDO9/x6ZkSYzWn8OKJsngUnXs4UwLKkA=",
+    "originContent": "GOOGLE_CLIENT_SECRET=your_client_secret",
+    "translatedContent": "GOOGLE_CLIENT_SECRET=your_client_secret"
+  },
+  {
+    "row": 110,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 111,
+    "rowsha": "IAFq7akVFON8dIHtTVdvirX0TMZEvaxGZy4NGNQkvG4=",
+    "originContent": "8. Add yourself as a test user:",
+    "translatedContent": "8. 将自己添加为测试用户："
+  },
+  {
+    "row": 112,
+    "rowsha": "oCCe//l8mBagslAZE7JHKlUv3V/A6QUCmjU3d6OBTI8=",
+    "originContent": "   - Go to OAuth consent screen",
+    "translatedContent": "   - 进入 OAuth 同意屏幕"
+  },
+  {
+    "row": 113,
+    "rowsha": "FjkNSpPDigN/YYP3Rz48xtLvBIGqiEdv9a/27xQbOIo=",
+    "originContent": "   - Under 'Test users' click 'Add Users'",
+    "translatedContent": "   - 在“测试用户”下点击“添加用户”"
+  },
+  {
+    "row": 114,
+    "rowsha": "vibgA/uqwRcuuB5ODqeyyqYaGms6elyZFKKPTnmgWsU=",
+    "originContent": "   - Add your email and click 'Save'",
+    "translatedContent": "   - 添加你的邮箱并点击“保存”"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "v3O9N1GvvFjCNl5tuDbAsKQHHeSRlGEcW0aNl8mtKSU=",
+    "originContent": "> **Warning**",
+    "translatedContent": "> **警告**"
+  },
+  {
+    "row": 117,
+    "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+    "originContent": ">",
+    "translatedContent": ">"
+  },
+  {
+    "row": 118,
+    "rowsha": "ZhCNL8Sok6hFUozWs/mQqZcGhh7DPXmUbRRqDkY7E08=",
+    "originContent": "> The authorized redirect URIs in Google Cloud Console must match exactly what you configure in the `.env.local`, including the protocol (http/https), domain, and path.",
+    "translatedContent": "> Google Cloud Console 中授权的重定向 URI 必须与你在 `.env.local` 中配置的完全匹配，包括协议（http/https）、域名和路径。"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "2iXqfEGfdGTzNrx0ZMrmsSK2utX3dV7i6ABtu6vCDG4=",
+    "originContent": "### Vercel KV Setup",
+    "translatedContent": "### Vercel KV 设置"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "7FP2F3/Ju1yPKskTGC9n70KJH9yj1zN3hXfTrRQLt8s=",
+    "originContent": "1. Create a Vercel account if you don't have one",
+    "translatedContent": "1. 如果没有，创建一个 Vercel 账号"
+  },
+  {
+    "row": 123,
+    "rowsha": "Jqj2BQ6MniAAKOOYT0K2gjK4ypvSuwrHyGqLcSetJYc=",
+    "originContent": "2. Install the Vercel CLI: `npm i -g vercel`",
+    "translatedContent": "2. 安装 Vercel CLI：`npm i -g vercel`"
+  },
+  {
+    "row": 124,
+    "rowsha": "iuHvv1wmhh/A9LdMny+Ow4jyCst7PCYYunmZa66RQWc=",
+    "originContent": "3. Login to Vercel: `vercel login`",
+    "translatedContent": "3. 登录 Vercel：`vercel login`"
+  },
+  {
+    "row": 125,
+    "rowsha": "8N2G1D13XI33PdIX/1zlWmjXd9qqLhLq+yoSGzbN2Qk=",
+    "originContent": "4. Link your project: `vercel link`",
+    "translatedContent": "4. 关联你的项目：`vercel link`"
+  },
+  {
+    "row": 126,
+    "rowsha": "+ZP34H40r+AkeI9mWBDILVquFVb70G5Wma8uHWa+Jwk=",
+    "originContent": "5. Create a KV database from the Vercel dashboard",
+    "translatedContent": "5. 从 Vercel 仪表盘创建一个 KV 数据库"
+  },
+  {
+    "row": 127,
+    "rowsha": "6JpjJ/2bLK2ynGJWuHMNj9/iq5DbegiJKv/UQjomwzU=",
+    "originContent": "6. Add the KV environment variables to your project: `vercel env pull .env.local`",
+    "translatedContent": "6. 将 KV 环境变量添加到项目中：`vercel env pull .env.local`"
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 功能"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "PaUdCC3vBsAu4oilp3JwOTQCIBseciWmmW2biBfFhSE=",
+    "originContent": "- 🤖 **AI Assistant**: Interact with your calendar using natural language",
+    "translatedContent": "- 🤖 **AI 助手**：使用自然语言与日历互动"
+  },
+  {
+    "row": 132,
+    "rowsha": "t7Kv5u5zSCBI1j5alZLkPEOFaQzigsmrb9FfAi60jIA=",
+    "originContent": "- 🔄 **Google Calendar Integration**: Sync with your existing Google Calendar",
+    "translatedContent": "- 🔄 **谷歌日历集成**：与现有谷歌日历同步"
+  },
+  {
+    "row": 133,
+    "rowsha": "vkzBPqjTqZrKSEqRcRRvISdeA9C/2j73SfbZiI8sHtE=",
+    "originContent": "- 🎨 **Customizable UI**: Dark mode and personalized settings",
+    "translatedContent": "- 🎨 **可定制界面**：暗模式和个性化设置"
+  },
+  {
+    "row": 134,
+    "rowsha": "AynPNd0NgyozGqYIBs9/rBUTPNjA0X0MOCy2PauFiHI=",
+    "originContent": "- 🔄 **Recurring Events**: Comprehensive support for recurring events with exceptions",
+    "translatedContent": "- 🔄 **重复事件**：全面支持带例外的重复事件"
+  },
+  {
+    "row": 135,
+    "rowsha": "938pa1tn59jCxAZxsaN6aFkfMbSR5ZWHmoM4O5nJg8Y=",
+    "originContent": "- 🌐 **Timezone Management**: Full timezone support for global scheduling",
+    "translatedContent": "- 🌐 **时区管理**：全球调度的完整时区支持"
+  },
+  {
+    "row": 136,
+    "rowsha": "waK/OawSDj11l7ZAIjLKEv2PZutFDVktrcIR5aQBffQ=",
+    "originContent": "- 📤 **Import/Export**: Import and export calendar data in ICS and CSV formats",
+    "translatedContent": "- 📤 **导入/导出**：以 ICS 和 CSV 格式导入导出日历数据"
+  },
+  {
+    "row": 137,
+    "rowsha": "lPFg+bm0n80OJXZ0FT1RMObBE40uWlvPVWVJYQSJzg4=",
+    "originContent": "- ⌨️ **Keyboard Shortcuts**: Power user shortcuts for efficient calendar management",
+    "translatedContent": "- ⌨️ **键盘快捷键**：高效日历管理的高级用户快捷键"
+  },
+  {
+    "row": 138,
+    "rowsha": "s2eJUz5s+fFr3UUHwGwGdcvIy6BLviC3ooA2dcs3+s4=",
+    "originContent": "- 🔔 **Event Management**: Create, edit, and delete events with ease",
+    "translatedContent": "- 🔔 **事件管理**：轻松创建、编辑和删除事件"
+  },
+  {
+    "row": 139,
+    "rowsha": "27sLIvCucWb7b15cXvJDRRlayTH0wr/4o15u2EsOH24=",
+    "originContent": "- 🔒 **Secure Authentication**: Login with email/password or Google OAuth",
+    "translatedContent": "- 🔒 **安全认证**：支持邮箱/密码或谷歌 OAuth 登录"
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "z7+4A5vJfMtbJg5wXr5msio01eGdcJ3aGmMQTnYEYWU=",
+    "originContent": "### Keyboard Shortcuts",
+    "translatedContent": "### 键盘快捷键"
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "kQ2BMA5/5/IMrjfzg1gq4dbytxWRoBBc016xegWqWg4=",
+    "originContent": "Zero Calendar includes keyboard shortcuts for power users:",
+    "translatedContent": "Zero Calendar 为高级用户提供键盘快捷键："
+  },
+  {
+    "row": 144,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 145,
+    "rowsha": "Qwbi7K0F0iSDNdT08Q03lVKrXfnrqe/dwf10ZxFsTB0=",
+    "originContent": "| Shortcut | Action |",
+    "translatedContent": "| 快捷键 | 操作 |"
+  },
+  {
+    "row": 146,
+    "rowsha": "J7yKnud4hoTFOFiLy9ISqK67w+LeJq9eXxdxtTyORl0=",
+    "originContent": "|----------|--------|",
+    "translatedContent": "|----------|--------|"
+  },
+  {
+    "row": 147,
+    "rowsha": "W5v5bqY8S4ZL3goyhdWXGkO0XtIoN60IsCsU6uknR70=",
+    "originContent": "| `←` | Previous month |",
+    "translatedContent": "| `←` | 上个月 |"
+  },
+  {
+    "row": 148,
+    "rowsha": "ki5+oUuHQLYKwwx6q2u8euH+8bxPsBZ7ze2N0oXurhc=",
+    "originContent": "| `→` | Next month |",
+    "translatedContent": "| `→` | 下个月 |"
+  },
+  {
+    "row": 149,
+    "rowsha": "HA+4eTFHG2Yj27bU7Bql87hvaX1F8hxJWUxmy3BjahU=",
+    "originContent": "| `T` | Go to today |",
+    "translatedContent": "| `T` | 跳转到今天 |"
+  },
+  {
+    "row": 150,
+    "rowsha": "d3p2lcg6G/Z5RAulYJ0j8GTHjIHJUebita/hn+nalho=",
+    "originContent": "| `N` | Create new event |",
+    "translatedContent": "| `N` | 新建事件 |"
+  },
+  {
+    "row": 151,
+    "rowsha": "Qjmxs5U2JJ66FnrjcJQg8Fy4ElWGsShdh6TqUk8g+Xs=",
+    "originContent": "| `?` | Show keyboard shortcuts |",
+    "translatedContent": "| `?` | 显示快捷键 |"
+  },
+  {
+    "row": 152,
+    "rowsha": "2y1hx44/WXSv6pkn6s/N3kcgc8T8aivz/EpxcaV12Jg=",
+    "originContent": "| `/` | Focus search |",
+    "translatedContent": "| `/` | 聚焦搜索 |"
+  },
+  {
+    "row": 153,
+    "rowsha": "coILv8ivlXb7WIDboFjquqfEtA4Uc+JdpA1wbzASYzs=",
+    "originContent": "| `M` | Switch to month view |",
+    "translatedContent": "| `M` | 切换到月视图 |"
+  },
+  {
+    "row": 154,
+    "rowsha": "6I31Kf06rYW+p/Dvxzyu/aEg7QyNf9lnFmKhtQC+dCc=",
+    "originContent": "| `W` | Switch to week view |",
+    "translatedContent": "| `W` | 切换到周视图 |"
+  },
+  {
+    "row": 155,
+    "rowsha": "MOuG35ErMGsjtzy/9U0CCbHb0JL5IYF5JRUUlSfXTdQ=",
+    "originContent": "| `D` | Switch to day view |",
+    "translatedContent": "| `D` | 切换到日视图 |"
+  },
+  {
+    "row": 156,
+    "rowsha": "vQGFpQ1d8kYhwXAZjJH5YiiL3j+jVTZt4lh0lFayJFk=",
+    "originContent": "| `A` | Toggle AI assistant |",
+    "translatedContent": "| `A` | 切换 AI 助手 |"
+  },
+  {
+    "row": 157,
+    "rowsha": "QX8VAv5PQyIwvRvlysVmzXvrWxEJx3Rv3fS9pWZxFPQ=",
+    "originContent": "| `S` | Go to settings |",
+    "translatedContent": "| `S` | 进入设置 |"
+  },
+  {
+    "row": 158,
+    "rowsha": "AQS+s/dfItnMmdEvF0p2vjENN6P1ZuHgjagZeS3q9/k=",
+    "originContent": "| `Esc` | Close dialogs |",
+    "translatedContent": "| `Esc` | 关闭对话框 |"
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 160,
+    "rowsha": "fMu080v6eh/hFkmstsVs1QR9bj14O7X3mMQkwTJevBw=",
+    "originContent": "## Contribute",
+    "translatedContent": "## 贡献"
+  },
+  {
+    "row": 161,
+    "rowsha": "ErUZ9aZWm8yKNVijHrexCKZp2tahrT0dUDYeex0FBNk=",
+    "originContent": "Please refer to the [contributing guide](https://raw.githubusercontent.com/Zero-Calendar/zero-calendar/main/.github/CONTRIBUTING.md).",
+    "translatedContent": "请参考[贡献指南](https://raw.githubusercontent.com/Zero-Calendar/zero-calendar/main/.github/CONTRIBUTING.md)。"
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## 许可证"
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "Pje9LwdE70iFKjmxmoHpQNxa3AMboDXqomm4i9+Uwlg=",
+    "originContent": "Zero Calendar is open-source software licensed under the [GPLv3 license](https://raw.githubusercontent.com/Zero-Calendar/zero-calendar/main/LICENSE.md).",
+    "translatedContent": "Zero Calendar 是开源软件，基于[GPLv3 许可证](https://raw.githubusercontent.com/Zero-Calendar/zero-calendar/main/LICENSE.md)授权。"
+  },
+  {
+    "row": 166,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

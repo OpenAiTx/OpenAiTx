@@ -31,49 +31,50 @@
 
 <p align="center">
   このプロジェクトが役に立った場合、<br>
-  GitHubでスター ⭐ を付けていただけると大変嬉しいです！
+  GitHubでスター ⭐ を付けていただけると嬉しいです！
 </p>
 
 ---
 
-**ThinkSound** は、Chain-of-Thought（CoT）推論によるフローマッチングを用いた統一型Any2Audio生成フレームワークです。
+**ThinkSound** は、Chain-of-Thought (CoT) 推論によるフローマッチングで統一された Any2Audio 生成フレームワークです。
 
-PyTorchによるマルチモーダル音声生成・編集の実装：動画・テキスト・音声からの生成や編集を、マルチモーダル大規模言語モデル（MLLM）による逐次推論で実現します。
+マルチモーダル音声生成および編集のための PyTorch 実装：ビデオ、テキスト、オーディオから音声を生成または編集可能で、マルチモーダル大規模言語モデル (MLLM) による段階的推論を活用しています。
 
 ![Teaser](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig1_teaser.png)
 ---
 
 ## 📰 ニュース
-- **2025.07.15** &nbsp; 📦 インストールと使いやすさを簡素化：依存関係をPyPIに集約しクロスプラットフォーム対応を実現；Windows用`.bat`スクリプトで環境構築やスクリプト実行を自動化。
-- **2025.07.08** &nbsp;  🔧 主要アップデート：モデルの軽量化・メモリおよびGPU使用量の最適化、大規模な高スループット音声生成に対応！
-- **2025.07.01** &nbsp; 🔥[Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) および [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) でのオンラインデモを公開、インタラクティブ体験が可能！
-- **2025.07.01** &nbsp; 🔥推論用スクリプトとWebインターフェースをリリース； 
-- **2025.06** &nbsp; 🔥[ThinkSound 論文](https://arxiv.org/pdf/2506.21448) がarXivで公開！
-- **2025.06** &nbsp; 🔥[オンラインデモ](http://thinksound-project.github.io/) が公開中 - ぜひお試しください！
+- **2025.07.17** &nbsp; 🧠 ファインチューニング対応：トレーニングおよびファインチューニングコードを公開。独自データでThinkSoundをカスタマイズ・拡張するための明確な利用手順を提供。
+- **2025.07.15** &nbsp; 📦 インストールと使いやすさを簡素化：PyPIによる依存関係管理でクロスプラットフォーム導入が簡単に。Windows用 `.bat` スクリプトで環境構築と実行を自動化。
+- **2025.07.08** &nbsp;  🔧 大幅アップデート：モデルの軽量化とメモリ・GPU使用最適化、大規模な高スループット音声生成に対応！
+- **2025.07.01** &nbsp; 🔥[Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) や [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) でオンラインデモ公開、インタラクティブに体験可能！
+- **2025.07.01** &nbsp; 🔥推論スクリプトおよびWebインターフェースを公開； 
+- **2025.06** &nbsp; 🔥[ThinkSound論文](https://arxiv.org/pdf/2506.21448) をarXivで公開！
+- **2025.06** &nbsp; 🔥[オンラインデモ](http://thinksound-project.github.io/) 公開中 - 今すぐお試しください！
 
 ---
 
 
 ## 🚀 特徴
 
-- **Any2Audio**：動画・テキスト・音声やその組み合わせなど、任意のモダリティから音声を生成。
-- **Video-to-Audio SOTA**：複数のV2Aベンチマークで最先端の成果を達成。
-- **CoT駆動推論**：MLLMによるChain-of-Thought推論で、構成的かつ制御可能な音声生成を実現。
-- **インタラクティブなオブジェクト中心編集**：視覚オブジェクトのクリックやテキスト指示で、特定の音イベントを洗練・編集。
-- **統一フレームワーク**：生成・編集・インタラクティブワークフローを一つの基盤モデルでサポート。
+- **Any2Audio**: 任意のモダリティ（ビデオ、テキスト、オーディオ、またはその組み合わせ）から音声を生成。
+- **ビデオ→音声 SOTA**: 複数のV2Aベンチマークで最先端の結果を達成。
+- **CoT駆動推論**: MLLMによるChain-of-Thought推論で構成的かつ制御可能な音声生成を実現。
+- **インタラクティブなオブジェクト指向編集**: 視覚オブジェクトをクリックしたりテキスト指示を使って特定のサウンドイベントを編集・洗練。
+- **統一フレームワーク**: 一つの基盤モデルで生成・編集・インタラクティブなワークフローをサポート。
 
 ---
 
-## ✨ メソッド概要
+## ✨ 手法概要
 
-ThinkSoundは音声生成・編集を、MLLMベースのChain-of-Thought（CoT）推論でガイドされる3つのインタラクティブな段階に分解します：
+ThinkSoundは、音声生成と編集をMLLMベースのChain-of-Thought（CoT）推論によって誘導される3つのインタラクティブな段階に分解します：
 
-1. **フォリー生成：** 動画から意味的・時間的に整合した基礎的なサウンドスケープを生成。
-2. **オブジェクト中心リファインメント：** 動画内のクリックや領域指定でユーザー指定オブジェクトの音を洗練・追加。
-3. **ターゲット音声編集：** 高レベルな自然言語指示で生成音声を修正。
+1. **フォーリー生成:** ビデオから意味的・時間的に整合した基盤サウンドスケープを生成。
+2. **オブジェクト指向リファインメント:** ユーザー指定オブジェクトに対し、ビデオ内のクリックや領域指定により音を追加・調整。
+3. **ターゲット音声編集:** 高次の自然言語指示によって生成音声を修正。
 
 ![ThinkSound Overview](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)
-<!-- 大規模CoTアノテーション済みデータセット（**AudioCoT**）を用いて推論モジュールと統一音声基盤モデルを学習。
+<!-- 大規模なCoTアノテーション付きデータセット（**AudioCoT**）を用いて推論モジュールと統一音声基盤モデルを訓練します。
 ![AudioCoT Pipeline](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->
 
 ---
@@ -81,7 +82,6 @@ ThinkSoundは音声生成・編集を、MLLMベースのChain-of-Thought（CoT�
 ## ⚡ クイックスタート
 
 **環境準備：**
-
 ```bash
 git clone https://github.com/liuhuadai/ThinkSound.git
 cd ThinkSound
@@ -159,52 +159,57 @@ chmod +x scripts/eval_batch.sh
 ```bash
 python app.py
 ```
+## 🏋️ モデルのトレーニング
+
+[`Training.md`](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/docs/Training.md) を参照してください。
+
 ---
 
 ## 📝 TODO & 今後の計画
-* - [ ] ThinkSoundモデルのトレーニングスクリプトを公開（2025年7月20日以前を予定）
 * - [ ] AudioCoTデータセットおよび自動化パイプラインのオープンソース化（2025年7月23日以前を予定）
-* - [ ] すぐに使用可能な環境イメージの提供（2025年7月23日以前を予定）
-* - [ ] 複数のドメインをカバーする、より強力な基盤モデルの公開。より魅力的で没入感のあるフォーリー作成を提供（2025年8月末までを予定）
-* - [ ] 追加のモダリティとダウンストリームタスクへの対応追加（2025年7月末までを予定）
-* - [ ] 異なるスケールのモデル公開（2025年7月末までを予定）
+* - [ ] より強力な基盤モデルを公開し、複数ドメインをカバーしてより魅力的で没入感のあるフォーリー作成を実現（2025年8月末までを予定）
+* - [ ] 追加のモダリティや下流タスクへの対応を追加（2025年7月末までを予定）
+* - [ ] 異なる規模のモデルの公開（2025年7月末までを予定）
+* - [x] ThinkSoundモデル用のトレーニングスクリプト公開
 * - [x] 初心者向けWindowsクイックスタートREADME
 ---
-
 
 ## 📄 ライセンス
 
 本プロジェクトはApache 2.0ライセンスの下で公開されています。
 
 > **注意:**
-> コード、モデル、データセットは**研究および教育目的のみに使用可能**です。
+> コード、モデル、およびデータセットは**研究および教育目的のみ**の利用に限られます。
 > **商用利用は禁止されています。**
-> 商用ライセンスについては著者までご連絡ください。
+> 商用ライセンスについては著者にお問い合わせください。
 
-**📦 サードパーティコンポーネント**
+**📦 サードパーティーコンポーネント**
 
 * **Stable Audio Open VAE**（Stability AI提供）:
-  このリポジトリには [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/) からファインチューニングされたVAEが含まれており、[Stability AI Community License](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md) の下でライセンスされています。
+  本リポジトリには [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/) からファインチューニングされたVAEが含まれており、[Stability AI Community License](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md)の下でライセンスされています。
   **商用利用および再配布にはStability AIの事前許可が必要です。**
 
-* 📘 **その他すべてのコードおよびモデル**はApache License 2.0の下で公開されています。
+* 📘 **その他のすべてのコードおよびモデル**はApache License 2.0で公開されています。
 
 ---
 
 ## 謝辞
 
-以下の方々に深く感謝いたします：
+多大なる感謝を捧げます:
 
 * **stable-audio-tools**（Stability AI提供）:
-オーディオ生成のための使いやすいフレームワーク、およびVAEモジュールと重みを提供していただきました。
+音声生成用の使いやすいフレームワーク、ならびにVAEモジュールとウェイトの提供に感謝します。
 * **MMAudio**:
-  オーディオ領域におけるMM-DiTバックボーンの実装を提供していただきました。
+  音声分野におけるMM-DiTバックボーンの実装に感謝します。
 
 ---
 
 ## 📖 引用
 
-ThinkSoundがあなたの研究や仕事に役立った場合は、ぜひ本論文を引用してください：
+ThinkSoundが研究や業務に役立った場合は、ぜひ論文を引用してください。
+
+
+
 
 
 ```bibtex
@@ -222,12 +227,11 @@ ThinkSoundがあなたの研究や仕事に役立った場合は、ぜひ本論�
 
 ## 📬 お問い合わせ
 
-✨ ご質問やご提案がございましたら、[Issueをオープン](https://github.com/liuhuadai/ThinkSound/issues)するか、メール（[liuhuadai@zju.edu.cn](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/mailto:liuhuadai@zju.edu.cn)）でお気軽にご連絡ください！
-
+✨ ご質問やご提案がございましたら、[Issueを開く](https://github.com/liuhuadai/ThinkSound/issues)か、メール（[liuhuadai@zju.edu.cn](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/mailto:liuhuadai@zju.edu.cn)）でお気軽にご連絡ください！
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
 
 ---

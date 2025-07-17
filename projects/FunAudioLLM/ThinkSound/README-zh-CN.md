@@ -30,47 +30,48 @@
 </p>
 
 <p align="center">
-  如果你觉得本项目有用，<br>
+  如果你觉得这个项目有用，<br>
   欢迎在 GitHub 上点个星 ⭐ 支持我们！
 </p>
 
 ---
 
-**ThinkSound** 是一个由链式思维（Chain-of-Thought, CoT）推理驱动的流匹配统一 Any2Audio 生成框架。
+**ThinkSound** 是一个统一的 Any2Audio 生成框架，采用由多模态大语言模型（MLLM）驱动的链式思维（CoT）推理进行流式匹配指导。
 
-基于 PyTorch 的多模态音频生成与编辑实现：可根据视频、文本和音频生成或编辑音频，借助多模态大语言模型（MLLMs）逐步推理。
+PyTorch 实现的多模态音频生成与编辑：可根据视频、文本、音频及其组合生成或编辑音频，依托于多模态大语言模型的逐步推理能力。
 
 ![Teaser](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig1_teaser.png)
 ---
 
 ## 📰 新闻动态
-- **2025.07.15** &nbsp; 📦 安装与易用性简化：依赖项已上架 PyPI，轻松跨平台配置；Windows `.bat` 脚本自动化环境创建与脚本运行。
-- **2025.07.08** &nbsp;  🔧 重大更新：模型瘦身并优化内存与 GPU 占用，现已支持大规模高吞吐量音频生成！
-- **2025.07.01** &nbsp; 🔥[Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) 和 [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) 在线体验正式上线！
-- **2025.07.01** &nbsp; 🔥推理脚本与网页版界面发布； 
-- **2025.06** &nbsp; 🔥[ThinkSound 论文](https://arxiv.org/pdf/2506.21448) 发布于 arXiv！
-- **2025.06** &nbsp; 🔥[在线 Demo](http://thinksound-project.github.io/) 上线，欢迎体验！
+- **2025.07.17** &nbsp; 🧠 支持微调：训练和微调代码现已公开，并提供清晰的使用说明，助你用自有数据定制和扩展 ThinkSound。
+- **2025.07.15** &nbsp; 📦 安装与易用性简化：依赖已发布在 PyPI，跨平台轻松搭建环境；Windows `.bat` 脚本自动化环境创建和脚本执行。
+- **2025.07.08** &nbsp;  🔧 重大更新：模型轻量化、内存与 GPU 优化，现支持大规模高吞吐量音频生成！
+- **2025.07.01** &nbsp; 🔥[Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) 与 [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) 上线在线体验！
+- **2025.07.01** &nbsp; 🔥推理脚本与网页界面发布； 
+- **2025.06** &nbsp; 🔥[ThinkSound 论文](https://arxiv.org/pdf/2506.21448) 已在 arXiv 发布！
+- **2025.06** &nbsp; 🔥[在线 Demo](http://thinksound-project.github.io/) 正式上线 - 立即体验！
 
 ---
 
 
 ## 🚀 主要特性
 
-- **Any2Audio**：支持任意模态（视频、文本、音频或它们的组合）生成音频。
-- **视频转音频 SOTA**：在多项 V2A 基准测试中达到最新水平。
-- **CoT 驱动推理**：基于链式思维推理，通过 MLLMs 实现可组合、可控的音频生成。
-- **交互式目标音事件编辑**：通过点击视觉对象或文本指令细化或编辑特定声音事件。
-- **统一框架**：一个基础模型即可支持音频生成、编辑与交互式工作流。
+- **Any2Audio**：可从任意模态（视频、文本、音频或其组合）生成音频。
+- **视频转音频 SOTA**：在多个 V2A 基准上取得最先进效果。
+- **CoT 驱动推理**：基于链式思维的可组合、可控音频生成，依赖多模态大模型。
+- **交互式物体中心编辑**：通过点击视觉目标或文本指令，细化或编辑特定声音事件。
+- **统一框架**：单一基础模型支持生成、编辑与交互流程。
 
 ---
 
-## ✨ 方法概览
+## ✨ 方法概述
 
-ThinkSound 将音频生成与编辑分解为三个交互阶段，均由基于 MLLM 的 CoT 推理驱动：
+ThinkSound 将音频生成与编辑分解为三个交互式阶段，全部由基于 MLLM 的链式思维（CoT）推理驱动：
 
-1. **拟音生成：** 从视频生成基础的、语义与时序对齐的声景。
-2. **目标对象细化：** 通过点击或选定视频中的区域，为用户指定对象细化或添加声音。
-3. **定向音频编辑：** 利用高级自然语言指令修改已生成的音频。
+1. **拟音生成：** 从视频生成语义与时序对齐的基础声音场景。
+2. **物体中心细化：** 通过点击或框选视频内用户指定的物体，细化或补充声音。
+3. **目标音频编辑：** 使用高阶自然语言指令修改已生成的音频。
 
 ![ThinkSound Overview](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)
 <!-- 大规模 CoT 标注数据集（**AudioCoT**）用于训练推理模块和统一音频基础模型。
@@ -158,51 +159,56 @@ chmod +x scripts/eval_batch.sh
 ```bash
 python app.py
 ```
+## 🏋️ 训练模型
+
+参见 [`Training.md`](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/docs/Training.md)
+
+
 ---
 
-## 📝 TODO & 未来计划
-* - [ ] 发布 ThinkSound 模型的训练脚本（预计 2025 年 7 月 20 日前）
-* - [ ] 开源 AudioCoT 数据集和自动化管道（预计 2025 年 7 月 23 日前）
-* - [ ] 提供可直接使用的环境镜像（预计 2025 年 7 月 23 日前）
-* - [ ] 发布更强大的多领域基础模型，以实现更具吸引力和沉浸感的拟音创作（预计 2025 年 8 月底前）
+## 📝 待办事项及未来计划
+* - [ ] 开源 AudioCoT 数据集及自动化流水线（预计 2025 年 7 月 23 日前）
+* - [ ] 发布覆盖多个领域、更强大的基础模型，以带来更具吸引力和沉浸感的拟音创作（预计 2025 年 8 月底前）
 * - [ ] 增加对更多模态和下游任务的支持（预计 2025 年 7 月底前）
 * - [ ] 发布不同规模的模型（预计 2025 年 7 月底前）
-* - [x] 面向初学者的 Windows 快速上手 README
+* - [x] 发布 ThinkSound 模型的训练脚本
+* - [x] 提供适合初学者的 Windows 快速上手 README
 ---
+
 
 ## 📄 许可证
 
-本项目基于 Apache 2.0 许可证发布。
+本项目采用 Apache 2.0 许可证开源。
 
-> **注意：**
-> 代码、模型和数据集**仅供科研和教育用途**。
+> **注意:**
+> 代码、模型和数据集**仅限科研和教育用途**。
 > **禁止商业用途。**
 > 如需商业授权，请联系作者。
 
 **📦 第三方组件**
 
-* **Stable Audio Open VAE**（由 Stability AI 提供）：
-  本仓库包含来自 [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/) 的微调 VAE，遵循 [Stability AI 社区许可证](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md)。
-  **商业用途和再分发需事先获得 Stability AI 的许可。**
+* **Stable Audio Open VAE**（Stability AI 提供）：
+  本仓库包含来自 [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/) 的微调 VAE，遵循 [Stability AI Community License](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md) 许可证。
+  **商业使用和再分发需事先获得 Stability AI 的许可。**
 
-* 📘 **其余所有代码与模型** 均遵循 Apache License 2.0 发布。
+* 📘 **所有其它代码及模型**均遵循 Apache License 2.0 许可证发布。
 
 ---
 
-## 致谢
+## 鸣谢
 
 特别感谢：
 
-* **stable-audio-tools**（由 Stability AI 提供）：
-  为音频生成提供了易用的框架，以及 VAE 模块和权重。
+* **stable-audio-tools**（Stability AI 提供）：
+提供了易于使用的音频生成框架，以及 VAE 模块和权重。
 * **MMAudio**：
-  在音频领域实现了 MM-DiT 主干网络。
+  提供了音频领域 MM-DiT 主干网络的实现。
 
 ---
 
 ## 📖 引用
 
-如果 ThinkSound 在您的研究或工作中有所帮助，请引用我们的论文：
+如果 ThinkSound 对您的科研或工作有帮助，请引用我们的论文：
 
 
 
@@ -221,12 +227,11 @@ python app.py
 
 ## 📬 联系方式
 
-✨ 如果您有任何问题或建议，欢迎[提交 Issue](https://github.com/liuhuadai/ThinkSound/issues) 或通过电子邮件与我们联系（[liuhuadai@zju.edu.cn](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/mailto:liuhuadai@zju.edu.cn)）！
-
+✨ 如果您有任何问题或建议，欢迎[提交 issue](https://github.com/liuhuadai/ThinkSound/issues)或通过电子邮件([liuhuadai@zju.edu.cn](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/mailto:liuhuadai@zju.edu.cn))联系我们！
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
 
 ---

@@ -31,49 +31,50 @@
 
 <p align="center">
   Nếu bạn thấy dự án này hữu ích,<br>
-  một ngôi sao ⭐ trên GitHub sẽ được rất trân trọng!
+  một ngôi sao ⭐ trên GitHub sẽ được đánh giá rất cao!
 </p>
 
 ---
 
-**ThinkSound** là một khuôn khổ tạo âm thanh Any2Audio hợp nhất với phương pháp khớp luồng được hướng dẫn bởi suy luận Chuỗi Suy Nghĩ (CoT).
+**ThinkSound** là một khung tạo Any2Audio hợp nhất với phương pháp flow matching được hướng dẫn bởi lý luận Chuỗi Tư Duy (Chain-of-Thought - CoT).
 
-Cài đặt PyTorch cho tạo và chỉnh sửa âm thanh đa phương tiện: tạo hoặc chỉnh sửa âm thanh từ video, văn bản và âm thanh, được thúc đẩy bởi suy luận từng bước từ các Mô hình Ngôn ngữ Lớn Đa phương tiện (MLLMs).
+Cài đặt PyTorch cho tạo và chỉnh sửa âm thanh đa phương thức: tạo hoặc chỉnh sửa âm thanh từ video, văn bản và âm thanh, được hỗ trợ bởi suy luận từng bước từ các Mô hình Ngôn ngữ Lớn Đa phương thức (MLLMs).
 
 ![Teaser](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig1_teaser.png)
 ---
 
 ## 📰 Tin tức
-- **2025.07.15** &nbsp; 📦 Đơn giản hóa cài đặt và sử dụng: các phụ thuộc trên PyPI giúp thiết lập đa nền tảng dễ dàng; script `.bat` cho Windows tự động tạo môi trường và chạy lệnh.
-- **2025.07.08** &nbsp;  🔧 Cập nhật lớn: mô hình nhẹ hơn, tối ưu hóa bộ nhớ và GPU, giờ hỗ trợ tạo âm thanh với thông lượng cao quy mô lớn!
-- **2025.07.01** &nbsp; 🔥Trình diễn trực tuyến tại [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) và [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) cho trải nghiệm tương tác!
-- **2025.07.01** &nbsp; 🔥Phát hành script suy luận và giao diện web;
+- **2025.07.17** &nbsp; 🧠 Đã bật finetuning: mã huấn luyện và tinh chỉnh hiện đã được công khai, kèm hướng dẫn sử dụng rõ ràng giúp bạn tùy chỉnh và mở rộng ThinkSound với dữ liệu của riêng bạn.
+- **2025.07.15** &nbsp; 📦 Đơn giản hóa cài đặt và sử dụng: các phụ thuộc đã có trên PyPI cho việc thiết lập đa nền tảng dễ dàng; script Windows `.bat` tự động tạo môi trường và chạy mã.
+- **2025.07.08** &nbsp;  🔧 Cập nhật lớn: nhẹ hóa mô hình và tối ưu hóa sử dụng bộ nhớ, GPU, hiện hỗ trợ tạo âm thanh tốc độ cao trên quy mô lớn!
+- **2025.07.01** &nbsp; 🔥Demo trực tuyến tại [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) và [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) cho trải nghiệm tương tác!
+- **2025.07.01** &nbsp; 🔥Phát hành script suy luận và giao diện web; 
 - **2025.06** &nbsp; 🔥[Bài báo ThinkSound](https://arxiv.org/pdf/2506.21448) đã phát hành trên arXiv!
-- **2025.06** &nbsp; 🔥[Demo trực tuyến](http://thinksound-project.github.io/) đã lên sóng - thử ngay!
+- **2025.06** &nbsp; 🔥[Demo trực tuyến](http://thinksound-project.github.io/) đã hoạt động - thử ngay!
 
 ---
 
 
 ## 🚀 Tính năng
 
-- **Any2Audio**: Tạo âm thanh từ bất kỳ phương thức nào — video, văn bản, âm thanh hoặc kết hợp chúng.
-- **Video-to-Audio SOTA**: Đạt kết quả tiên tiến trên nhiều bộ chuẩn V2A.
-- **Suy luận CoT-Driven**: Suy luận Chuỗi Suy Nghĩ cho tạo âm thanh có tính thành phần và kiểm soát, thông qua MLLMs.
-- **Chỉnh sửa tập trung vào đối tượng có tính tương tác**: Tinh chỉnh hoặc chỉnh sửa sự kiện âm thanh cụ thể bằng cách nhấp vào đối tượng hình ảnh hoặc sử dụng hướng dẫn văn bản.
-- **Khuôn khổ hợp nhất**: Một mô hình nền tảng duy nhất hỗ trợ tạo, chỉnh sửa và luồng công việc tương tác.
+- **Any2Audio**: Tạo âm thanh từ bất kỳ phương thức nào — video, văn bản, âm thanh, hoặc kết hợp chúng.
+- **Video-to-Audio SOTA**: Đạt kết quả tối tân trên nhiều bộ kiểm thử V2A.
+- **Suy luận CoT**: Chuỗi Tư Duy cho tạo âm thanh có tính cấu thành và kiểm soát nhờ MLLMs.
+- **Chỉnh sửa tập trung đối tượng tương tác**: Tinh chỉnh hoặc chỉnh sửa các sự kiện âm thanh cụ thể bằng cách nhấp vào đối tượng trong hình ảnh hoặc sử dụng hướng dẫn văn bản.
+- **Khung hợp nhất**: Một mô hình nền tảng duy nhất hỗ trợ tạo, chỉnh sửa và quy trình làm việc tương tác.
 
 ---
 
 ## ✨ Tổng quan phương pháp
 
-ThinkSound phân tách quá trình tạo và chỉnh sửa âm thanh thành ba giai đoạn tương tác, tất cả đều được dẫn dắt bởi suy luận Chuỗi Suy Nghĩ (CoT) dựa trên MLLM:
+ThinkSound phân rã quá trình tạo và chỉnh sửa âm thanh thành ba giai đoạn tương tác, tất cả đều được dẫn dắt bởi lý luận Chuỗi Tư Duy (CoT) dựa trên MLLM:
 
-1. **Tạo Foley:** Tạo cảnh âm thanh nền tảng, căn chỉnh ngữ nghĩa và thời gian từ video.
-2. **Tinh chỉnh tập trung vào đối tượng:** Tinh chỉnh hoặc thêm âm thanh cho đối tượng do người dùng chỉ định thông qua nhấp chuột hoặc vùng trên video.
-3. **Chỉnh sửa âm thanh mục tiêu:** Sửa đổi âm thanh đã tạo bằng hướng dẫn ngôn ngữ tự nhiên cấp cao.
+1. **Tạo Foley:** Tạo nền âm thanh cơ bản, phù hợp về ngữ nghĩa và thời gian từ video.
+2. **Tinh chỉnh tập trung đối tượng:** Tinh chỉnh hoặc thêm âm thanh cho các đối tượng do người dùng chỉ định thông qua nhấp chuột hoặc vùng chọn trên video.
+3. **Chỉnh sửa âm thanh mục tiêu:** Chỉnh sửa âm thanh đã tạo bằng hướng dẫn ngôn ngữ tự nhiên cấp cao.
 
 ![ThinkSound Overview](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)
-<!-- Bộ dữ liệu chú thích CoT quy mô lớn (**AudioCoT**) được sử dụng để huấn luyện cả mô-đun suy luận và mô hình nền tảng âm thanh hợp nhất.
+<!-- Một bộ dữ liệu chú thích CoT quy mô lớn (**AudioCoT**) được sử dụng để huấn luyện cả module suy luận và mô hình nền tảng âm thanh hợp nhất.
 ![AudioCoT Pipeline](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->
 
 ---
@@ -158,52 +159,57 @@ Sử dụng script `.bat` tương đương:
 ```bash
 python app.py
 ```
+## 🏋️ Huấn luyện Mô hình
+
+Xem [`Training.md`](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/docs/Training.md)
+
+
 ---
 
-## 📝 VIỆC CẦN LÀM & Kế Hoạch Tương Lai
-* - [ ] Phát hành mã huấn luyện cho các mô hình ThinkSound (Dự kiến trước 20/07/2025)
-* - [ ] Mã nguồn mở bộ dữ liệu AudioCoT và quy trình tự động (Dự kiến trước 23/07/2025)
-* - [ ] Cung cấp hình ảnh môi trường sẵn sàng sử dụng (Dự kiến trước 23/07/2025)
-* - [ ] Phát hành mô hình nền tảng mạnh mẽ hơn bao phủ nhiều lĩnh vực để tạo hiệu ứng âm thanh sống động và hấp dẫn hơn (Dự kiến cuối tháng 8 năm 2025)
-* - [ ] Thêm hỗ trợ cho nhiều kiểu dữ liệu và tác vụ hạ nguồn hơn (Dự kiến trước cuối tháng 7 năm 2025)
-* - [ ] Phát hành các mô hình với nhiều quy mô khác nhau (Dự kiến trước cuối tháng 7 năm 2025)
-* - [x] README khởi động nhanh thân thiện với người mới dùng Windows
+## 📝 KẾ HOẠCH & Dự định Tương lai
+* - [ ] Mã nguồn mở bộ dữ liệu AudioCoT và quy trình tự động hóa (Dự kiến trước 23/07/2025)
+* - [ ] Phát hành một mô hình nền tảng mạnh mẽ hơn bao phủ nhiều lĩnh vực để mang lại trải nghiệm sáng tạo foley hấp dẫn và sống động hơn (Dự kiến trước cuối tháng 8/2025)
+* - [ ] Bổ sung hỗ trợ cho các dạng dữ liệu và nhiệm vụ đầu ra khác (Dự kiến trước cuối tháng 7/2025)
+* - [ ] Phát hành mô hình ở nhiều quy mô khác nhau (Dự kiến trước cuối tháng 7/2025)
+* - [x] Phát hành mã huấn luyện cho các mô hình ThinkSound
+* - [x] README hướng dẫn nhanh cho người mới bắt đầu trên Windows
 ---
 
 
-## 📄 Giấy Phép
+## 📄 Giấy phép
 
 Dự án này được phát hành theo Giấy phép Apache 2.0.
 
 > **Lưu ý:**
-> Mã nguồn, mô hình và bộ dữ liệu chỉ dùng **cho mục đích nghiên cứu và giáo dục**.
-> **Không được phép sử dụng cho mục đích thương mại.**
-> Để xin giấy phép thương mại, vui lòng liên hệ tác giả.
+> Mã nguồn, mô hình và bộ dữ liệu **chỉ dành cho mục đích nghiên cứu và giáo dục**.
+> **KHÔNG được phép sử dụng cho mục đích thương mại.**
+> Để cấp phép thương mại, vui lòng liên hệ tác giả.
 
-**📦 Thành Phần Bên Thứ Ba**
+**📦 Thành phần bên thứ ba**
 
 * **Stable Audio Open VAE** (bởi Stability AI):
-  Kho lưu trữ này bao gồm một VAE được tinh chỉnh từ [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/), được cấp phép theo [Stability AI Community License](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md).
-  **Việc sử dụng và phân phối thương mại yêu cầu sự cho phép trước từ Stability AI.**
+  Kho lưu trữ này bao gồm một mô hình VAE được tinh chỉnh từ [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/), được cấp phép theo [Stability AI Community License](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md).
+  **Việc sử dụng cho mục đích thương mại và phân phối lại yêu cầu sự cho phép trước của Stability AI.**
 
-* 📘 **Toàn bộ mã nguồn và mô hình khác** được phát hành theo Giấy phép Apache 2.0.
+* 📘 **Tất cả các mã nguồn và mô hình khác** được phát hành theo Giấy phép Apache 2.0.
 
 ---
 
-## Lời Cảm Ơn
+## Lời cảm ơn
 
-Xin chân thành cảm ơn:
+Xin cảm ơn:
 
 * **stable-audio-tools** (bởi Stability AI):
-Đã cung cấp một framework dễ sử dụng cho việc sinh âm thanh, cũng như module VAE và trọng số.
+Đã cung cấp một framework dễ sử dụng cho việc tạo sinh âm thanh, cũng như mô-đun VAE và trọng số.
 * **MMAudio**:
   Đã triển khai backbone MM-DiT trong lĩnh vực âm thanh.
 
 ---
 
-## 📖 Trích Dẫn
+## 📖 Trích dẫn
 
 Nếu bạn thấy ThinkSound hữu ích cho nghiên cứu hoặc công việc của mình, vui lòng trích dẫn bài báo của chúng tôi:
+
 
 
 ```bibtex
@@ -221,12 +227,11 @@ Nếu bạn thấy ThinkSound hữu ích cho nghiên cứu hoặc công việc c
 
 ## 📬 Liên hệ
 
-✨ Vui lòng [mở một issue](https://github.com/liuhuadai/ThinkSound/issues) hoặc liên hệ với chúng tôi qua email ([liuhuadai@zju.edu.cn](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/mailto:liuhuadai@zju.edu.cn)) nếu bạn có bất kỳ câu hỏi hoặc góp ý nào!
-
+✨ Hãy thoải mái [mở một issue](https://github.com/liuhuadai/ThinkSound/issues) hoặc liên hệ với chúng tôi qua email ([liuhuadai@zju.edu.cn](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/mailto:liuhuadai@zju.edu.cn)) nếu bạn có bất kỳ câu hỏi hoặc đề xuất nào!
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
 
 ---

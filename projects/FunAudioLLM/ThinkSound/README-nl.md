@@ -36,16 +36,17 @@
 
 ---
 
-**ThinkSound** is een verenigd Any2Audio-generatieframework met flow matching, geleid door Chain-of-Thought (CoT)-redeneren.
+**ThinkSound** is een uniform Any2Audio-generatieframework met flow matching geleid door Chain-of-Thought (CoT) redenering.
 
-PyTorch-implementatie voor multimodale audiogeneratie en -bewerking: genereer of bewerk audio uit video, tekst en audio, aangedreven door stapsgewijze redenering van Multimodale Large Language Models (MLLMs).
+PyTorch-implementatie voor multimodale audiogeneratie en -bewerking: genereer of bewerk audio vanuit video, tekst en audio, aangedreven door stapsgewijze redenering van Multimodale Large Language Models (MLLMs).
 
 ![Teaser](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig1_teaser.png)
 ---
 
 ## 📰 Nieuws
-- **2025.07.15** &nbsp; 📦 Vereenvoudigde installatie en bruikbaarheid: afhankelijkheden op PyPI voor eenvoudige cross-platform installatie; Windows `.bat`-scripts automatiseren het aanmaken van de omgeving en het uitvoeren van scripts.
-- **2025.07.08** &nbsp;  🔧 Grote update: model is lichter gemaakt en geheugengebruik en GPU-gebruik zijn geoptimaliseerd, ondersteunt nu grootschalige, high-throughput audiogeneratie!
+- **2025.07.17** &nbsp; 🧠 Finetuning ingeschakeld: trainings- en finetuningcode is nu openbaar beschikbaar, samen met duidelijke gebruiksinstructies om ThinkSound te personaliseren en uit te breiden met je eigen data.
+- **2025.07.15** &nbsp; 📦 Vereenvoudigde installatie en gebruik: afhankelijkheden op PyPI voor eenvoudige cross-platform installatie; Windows `.bat` scripts automatiseren het aanmaken van de omgeving en het uitvoeren van scripts.
+- **2025.07.08** &nbsp;  🔧 Grote update: model is lichter gemaakt en geoptimaliseerd voor geheugen- en GPU-gebruik, ondersteunt nu grootschalige audiogeneratie!
 - **2025.07.01** &nbsp; 🔥Online demo op [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) en [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) voor interactieve ervaring!
 - **2025.07.01** &nbsp; 🔥Uitgebrachte inference-scripts en webinterface; 
 - **2025.06** &nbsp; 🔥[ThinkSound paper](https://arxiv.org/pdf/2506.21448) gepubliceerd op arXiv!
@@ -54,26 +55,26 @@ PyTorch-implementatie voor multimodale audiogeneratie en -bewerking: genereer of
 ---
 
 
-## 🚀 Functies
+## 🚀 Functionaliteiten
 
-- **Any2Audio**: Genereer audio uit willekeurige modaliteiten — video, tekst, audio of combinaties hiervan.
-- **Video-to-Audio SOTA**: Biedt state-of-the-art resultaten op meerdere V2A-benchmarks.
-- **CoT-Driven Reasoning**: Chain-of-Thought-redenering voor compositie en controleerbare audiogeneratie via MLLMs.
-- **Interactieve objectgecentreerde bewerking**: Verfijn of bewerk specifieke geluiden door op visuele objecten te klikken of tekstinstructies te gebruiken.
-- **Verenigd Framework**: Eén foundation model ondersteunt generatie, bewerking en interactieve workflow.
+- **Any2Audio**: Genereer audio vanuit willekeurige modaliteiten — video, tekst, audio, of hun combinaties.
+- **Video-naar-Audio SOTA**: Bereikt state-of-the-art resultaten op meerdere V2A benchmarks.
+- **CoT-Aangedreven Redenering**: Chain-of-Thought-redenering voor compositie- en controleerbare audiogeneratie via MLLMs.
+- **Interactieve Objectgerichte Bewerking**: Verfijn of bewerk specifieke geluidsevents door op visuele objecten te klikken of tekstinstructies te gebruiken.
+- **Uniform Framework**: Eén foundation model ondersteunt generatie, bewerking en interactieve workflow.
 
 ---
 
 ## ✨ Methode Overzicht
 
-ThinkSound splitst audiogeneratie en -bewerking op in drie interactieve fasen, allemaal geleid door MLLM-gebaseerde Chain-of-Thought (CoT)-redenering:
+ThinkSound verdeelt audiogeneratie en -bewerking in drie interactieve stadia, allemaal geleid door MLLM-gebaseerde Chain-of-Thought (CoT) redenering:
 
-1. **Foley-generatie:** Genereer fundamentele, semantisch en temporeel uitgelijnde soundscapes uit video.
-2. **Objectgecentreerde verfijning:** Verfijn of voeg geluiden toe voor door de gebruiker gespecificeerde objecten via klikken of regio's in de video.
-3. **Gerichte audiobewerking:** Pas gegenereerde audio aan met behulp van natuurlijke taalopdrachten op hoog niveau.
+1. **Foley Generatie:** Genereer fundamentele, semantisch en temporeel uitgelijnde soundscapes vanuit video.
+2. **Objectgerichte Verfijning:** Verfijn of voeg geluiden toe aan door de gebruiker gespecificeerde objecten via klikken of regio's in de video.
+3. **Gerichte Audiobewerking:** Pas gegenereerde audio aan met behulp van natuurlijke taal op hoog niveau.
 
 ![ThinkSound Overzicht](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)
-<!-- Een grootschalige CoT-geannoteerde dataset (**AudioCoT**) wordt gebruikt om zowel de reasoneringsmodule als het verenigde audio foundation model te trainen.
+<!-- Een grootschalige CoT-geannoteerde dataset (**AudioCoT**) wordt gebruikt om zowel de redeneermodule als het uniforme audiofundamentmodel te trainen.
 ![AudioCoT Pipeline](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->
 
 ---
@@ -158,27 +159,31 @@ Voor een interactieve ervaring start je de Gradio webinterface:
 ```bash
 python app.py
 ```
+## 🏋️ Train het model
+
+Zie [`Training.md`](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/docs/Training.md)
+
+
 ---
 
 ## 📝 TODO & Toekomstplannen
-* - [ ] Trainingsscripts vrijgeven voor ThinkSound-modellen (Verwacht vóór 20-07-2025)
-* - [ ] Open-source AudioCoT-dataset en geautomatiseerde pijplijn (Verwacht vóór 23-07-2025)
-* - [ ] Een kant-en-klare omgevingsimage aanbieden (Verwacht vóór 23-07-2025)
-* - [ ] Een krachtiger foundation-model uitbrengen dat meerdere domeinen dekt voor boeiendere en meeslependere foley-creatie (Verwacht eind augustus 2025)
+* - [ ] Open-source AudioCoT dataset en geautomatiseerde pijplijn (Verwacht vóór 23-07-2025)
+* - [ ] Een krachtiger foundation model uitbrengen dat meerdere domeinen bestrijkt voor boeiendere en meeslepende foley-creatie (Verwacht eind augustus 2025)
 * - [ ] Ondersteuning toevoegen voor extra modaliteiten en downstream-taken (Verwacht vóór eind juli 2025)
-* - [ ] Modellen op verschillende schalen vrijgeven (Verwacht vóór eind juli 2025)
+* - [ ] Modellen op verschillende schalen uitbrengen (Verwacht vóór eind juli 2025)
+* - [x] Trainingsscripts uitbrengen voor ThinkSound-modellen
 * - [x] Een beginnersvriendelijke Windows quick-start README
 ---
 
 
 ## 📄 Licentie
 
-Dit project wordt uitgebracht onder de Apache 2.0-licentie.
+Dit project is uitgebracht onder de Apache 2.0 Licentie.
 
-> **Let op:**
+> **Opmerking:**
 > De code, modellen en dataset zijn **alleen voor onderzoeks- en educatieve doeleinden**.
 > **Commercieel gebruik is NIET toegestaan.**
-> Neem voor commerciële licenties contact op met de auteurs.
+> Voor commerciële licenties, neem contact op met de auteurs.
 
 **📦 Componenten van derden**
 
@@ -186,7 +191,7 @@ Dit project wordt uitgebracht onder de Apache 2.0-licentie.
   Deze repository bevat een fijn-afgestelde VAE van [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/), gelicentieerd onder de [Stability AI Community License](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md).
   **Commercieel gebruik en herdistributie vereisen voorafgaande toestemming van Stability AI.**
 
-* 📘 **Alle overige code en modellen** worden vrijgegeven onder de Apache License 2.0.
+* 📘 **Alle overige code en modellen** zijn uitgebracht onder de Apache License 2.0.
 
 ---
 
@@ -197,13 +202,14 @@ Veel dank aan:
 * **stable-audio-tools** (door Stability AI):
 Voor het bieden van een gebruiksvriendelijk framework voor audiogeneratie, evenals de VAE-module en gewichten.
 * **MMAudio**:
-  Voor de implementatie van de MM-DiT-backbone in het audiodomein.
+  Voor de implementatie van de MM-DiT backbone in het audiodomein.
 
 ---
 
-## 📖 Referentie
+## 📖 Citeren
 
-Als je ThinkSound nuttig vindt in je onderzoek of werk, citeer dan ons paper:
+Als je ThinkSound nuttig vindt voor je onderzoek of werk, citeer dan ons artikel:
+
 
 
 ```bibtex
@@ -221,12 +227,11 @@ Als je ThinkSound nuttig vindt in je onderzoek of werk, citeer dan ons paper:
 
 ## 📬 Contact
 
-✨ Voel je vrij om [een issue te openen](https://github.com/liuhuadai/ThinkSound/issues) of contact met ons op te nemen via e-mail ([liuhuadai@zju.edu.cn](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/mailto:liuhuadai@zju.edu.cn)) als je vragen of suggesties hebt!
-
+✨ Neem gerust [contact met ons op via een issue](https://github.com/liuhuadai/ThinkSound/issues) of stuur ons een e-mail ([liuhuadai@zju.edu.cn](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/mailto:liuhuadai@zju.edu.cn)) als je vragen of suggesties hebt!
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
 
 ---

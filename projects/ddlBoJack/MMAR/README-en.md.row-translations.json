@@ -1,0 +1,392 @@
+[
+  {
+    "row": 1,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# MMAR: A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix"
+  },
+  {
+    "row": 2,
+    "rowsha": "aXM/4aMjuoV7zeBDSExF299gIW4ZHym5/yoFuZU3vh4=",
+    "originContent": "# MMAR: A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix",
+    "translatedContent": "[**📖 arXiv**](https://arxiv.org/abs/2505.13032) | [**🎬 MMAR Demo Video**](https://www.youtube.com/watch?v=Dab13opIGqU) | [**🛠️ GitHub Code**](https://github.com/ddlBoJack/MMAR) | [**🔊 MMAR Audio Download (HuggingFace)**](https://huggingface.co/datasets/BoJack/MMAR)"
+  },
+  {
+    "row": 3,
+    "rowsha": "dCfqATOU1WjucDlYXVrYxKbY8+mauhe3dnIQEClsFLc=",
+    "originContent": "[**📖 arXiv**](https://arxiv.org/abs/2505.13032) | [**🎬 MMAR Demo Video**](https://www.youtube.com/watch?v=Dab13opIGqU) | [**🛠️ GitHub Code**](https://github.com/ddlBoJack/MMAR) | [**🔊 MMAR Audio Download (HuggingFace)**](https://huggingface.co/datasets/BoJack/MMAR)",
+    "translatedContent": "                                          "
+  },
+  {
+    "row": 4,
+    "rowsha": "WuCAOlrxXddGHTxJr+Yc6S9Rxii+N/y2NrmS1JPqV78=",
+    "originContent": "                                          ",
+    "translatedContent": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/logo.png\" alt=\"MMAR Benchmark Logo\" width=\"300\"/></p>"
+  },
+  {
+    "row": 5,
+    "rowsha": "epU9ZVv2k1NaoKO9ckigBLqMGTuRKyiMVeynli/TTiI=",
+    "originContent": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/logo.png\" alt=\"MMAR Benchmark Logo\" width=\"300\"/></p>",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Overview of MMAR"
+  },
+  {
+    "row": 7,
+    "rowsha": "QN6zNM/THCbcrUf5q8Nmadx/32PlbRQJITh/CNegtnE=",
+    "originContent": "## Overview of MMAR",
+    "translatedContent": "We introduce MMAR, a new benchmark designed to evaluate the deep reasoning capabilities of Audio-Language Models (ALMs) across massive multi-disciplinary tasks. "
+  },
+  {
+    "row": 8,
+    "rowsha": "VzF0g9JZmDyYXl6g6MrO9y/fLO66zR9ZMlyqzdkPLwo=",
+    "originContent": "We introduce MMAR, a new benchmark designed to evaluate the deep reasoning capabilities of Audio-Language Models (ALMs) across massive multi-disciplinary tasks. ",
+    "translatedContent": "MMAR comprises 1,000 meticulously curated audio-question-answer triplets, collected from real-world internet videos and refined through iterative error corrections and quality checks to ensure high quality. "
+  },
+  {
+    "row": 9,
+    "rowsha": "3aGz5j/WjMOhHQijj2uhGB4Q9PUlZ/IIcFfR4Y3zIyc=",
+    "originContent": "MMAR comprises 1,000 meticulously curated audio-question-answer triplets, collected from real-world internet videos and refined through iterative error corrections and quality checks to ensure high quality. ",
+    "translatedContent": "Each item in the benchmark demands multi-step deep reasoning beyond surface-level understanding. Moreover, a part of the questions requires graduate-level perceptual and domain-specific knowledge, elevating the benchmark's difficulty and depth. "
+  },
+  {
+    "row": 10,
+    "rowsha": "GftgAuH8ua4eoDAvdccw2LRtvuVBKWzY7OEO2X8B7DM=",
+    "originContent": "Each item in the benchmark demands multi-step deep reasoning beyond surface-level understanding. Moreover, a part of the questions requires graduate-level perceptual and domain-specific knowledge, elevating the benchmark's difficulty and depth. ",
+    "translatedContent": "Examples include:"
+  },
+  {
+    "row": 11,
+    "rowsha": "7Zmdrty2OCDs56+etlgVgRIVelO//GIaD/Ce+Ndiulo=",
+    "originContent": "Examples include:",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![Example](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/example.png)"
+  },
+  {
+    "row": 13,
+    "rowsha": "9IG8u2BDWlgOhJHdJcPn8jmoJK/03X9hKaIyQv2lV9A=",
+    "originContent": "![Example](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/example.png)",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "The metadata for MMAR is available in [this file](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/MMAR-meta.json). Unlike previous benchmarks, MMAR not only covers traditional modalities such as speech, audio, and music, but also extends to their mix, collected from in-the-wild videos. The distribution of data across these modalities is illustrated in the left figure. Furthermore, each question is annotated with a designated category and sub-category, as shown in the right figure."
+  },
+  {
+    "row": 15,
+    "rowsha": "bmFFN3HNWV9QdTpn8QT9JDY54Dk9aRUiZQOWJAsqfLQ=",
+    "originContent": "The metadata for MMAR is available in [this file](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/MMAR-meta.json). Unlike previous benchmarks, MMAR not only covers traditional modalities such as speech, audio, and music, but also extends to their mix, collected from in-the-wild videos. The distribution of data across these modalities is illustrated in the left figure. Furthermore, each question is annotated with a designated category and sub-category, as shown in the right figure.",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "For each question, we also provide the URL and corresponding timestamp of the original video, as well as the spoken language (if present) in the clip. To prevent potential data leakage into training for reasoning models, we have withheld reasoning cues and chain-of-thought annotations, which will be released at an appropriate time."
+  },
+  {
+    "row": 17,
+    "rowsha": "IQs1WsLraNnYbgeAy+xSpbhL9oUGV/0LUQKxzonk0iM=",
+    "originContent": "For each question, we also provide the URL and corresponding timestamp of the original video, as well as the spoken language (if present) in the clip. To prevent potential data leakage into training for reasoning models, we have withheld reasoning cues and chain-of-thought annotations, which will be released at an appropriate time.",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<p float=\"left\">"
+  },
+  {
+    "row": 19,
+    "rowsha": "GUbCMidcscNwoOhSkP+X+EwL8KN6omDI0Cory0F0HZc=",
+    "originContent": "<p float=\"left\">",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/modality_pie.png\" width=\"49%\" />"
+  },
+  {
+    "row": 20,
+    "rowsha": "EVF61S76N795S1sL9wFos/F3UEWdyF0/gTUvwI/TPcw=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/modality_pie.png\" width=\"49%\" />",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/category_sunburst.png\" width=\"49%\" />"
+  },
+  {
+    "row": 21,
+    "rowsha": "0Bh21fPvcHnzwrHguk6aREiwnOMoxKfE+hArykysjR4=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/category_sunburst.png\" width=\"49%\" />",
+    "translatedContent": "</p>"
+  },
+  {
+    "row": 22,
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Benchmark Results"
+  },
+  {
+    "row": 24,
+    "rowsha": "BzPiSdgeWwyGfxLo1IckxH2q7o+en7fQn7stJtetnMo=",
+    "originContent": "## Benchmark Results",
+    "translatedContent": "We benchmark the models on MMAR across five model categories: "
+  },
+  {
+    "row": 25,
+    "rowsha": "pmVpBD1MH12Ix3GKMSiOSUZCPVWvGdwcIzeAjk60xXw=",
+    "originContent": "We benchmark the models on MMAR across five model categories: ",
+    "translatedContent": "1. Large Audio Language Models (LALMs)"
+  },
+  {
+    "row": 26,
+    "rowsha": "oR6e+Y9nPJR+DLoM/Wv9Z/yhJjaFn5eYT4JJiX3cVnc=",
+    "originContent": "1. Large Audio Language Models (LALMs)",
+    "translatedContent": "2. Large Audio Reasoning Models (LARMs)"
+  },
+  {
+    "row": 27,
+    "rowsha": "ypEbH8QdZZOVPpPwJIbaBqDtT5CLywbYtCRjSCE7Ti8=",
+    "originContent": "2. Large Audio Reasoning Models (LARMs)",
+    "translatedContent": "3. Omni Language Models (OLMs)"
+  },
+  {
+    "row": 28,
+    "rowsha": "XKrTEl2oWEpyVDl5d6BrHN7xvkYhUPH5jnjaym1dcvU=",
+    "originContent": "3. Omni Language Models (OLMs)",
+    "translatedContent": "4. Large Language Models (LLMs) with audio captions as input"
+  },
+  {
+    "row": 29,
+    "rowsha": "hOO5atGuLPaYKqwoMe2npLG13TLyeyeKeeScXLxu6hY=",
+    "originContent": "4. Large Language Models (LLMs) with audio captions as input",
+    "translatedContent": "5. Large Reasoning Models (LRMs) with audio captions as input"
+  },
+  {
+    "row": 30,
+    "rowsha": "lxzWdDIA4ZutU/hDh46rRAXL2WmTuX4KTOh2g/dIB5Q=",
+    "originContent": "5. Large Reasoning Models (LRMs) with audio captions as input",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![Pipeline](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/benchmark.png)"
+  },
+  {
+    "row": 32,
+    "rowsha": "EqwclIuAiPyH7bJxS+T3YzTT64664Xe7j3a8ZBvlEzM=",
+    "originContent": "![Pipeline](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/benchmark.png)",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Dataset Creation"
+  },
+  {
+    "row": 34,
+    "rowsha": "zoNK31UNgZFB8VvbmMZkfZLLM8sF6a3jUxCADcMcTFE=",
+    "originContent": "## Dataset Creation",
+    "translatedContent": "The MMAR benchmark was constructed with a comprehensive pipeline. The process includes: "
+  },
+  {
+    "row": 35,
+    "rowsha": "jdaMPWQFgktn8Mq2Sakvd+thZUgEY0YxR/GLXawS0F8=",
+    "originContent": "The MMAR benchmark was constructed with a comprehensive pipeline. The process includes: ",
+    "translatedContent": "1. Brainstorming challenging questions"
+  },
+  {
+    "row": 36,
+    "rowsha": "jB3vqk6+/ytb3NIoSWQCwOsmI0bCM0BJ2zx1vSz4seY=",
+    "originContent": "1. Brainstorming challenging questions",
+    "translatedContent": "2. Building a taxonomy through human-LLM collaboration"
+  },
+  {
+    "row": 37,
+    "rowsha": "jCC93EtBVh858X1WbKfFNfPsyMN8vfpqiNa06Xf74kc=",
+    "originContent": "2. Building a taxonomy through human-LLM collaboration",
+    "translatedContent": "3. Heuristic-based data collection and annotation"
+  },
+  {
+    "row": 38,
+    "rowsha": "wDHQ8jRU+f1jPvtpopuI1qnx2Nw849hygTkcT7Zkp74=",
+    "originContent": "3. Heuristic-based data collection and annotation",
+    "translatedContent": "4. Crawling audio data and enriching content across multiple slots"
+  },
+  {
+    "row": 39,
+    "rowsha": "mRtVMr85bh25S9BNJLXfdG/A7D7ysz0qw9HrwlN1uUc=",
+    "originContent": "4. Crawling audio data and enriching content across multiple slots",
+    "translatedContent": "5. Performing iterative correction and quality inspection to ensure high data fidelity"
+  },
+  {
+    "row": 40,
+    "rowsha": "b1g560K97AsIhgMWfm1Zn1loRSMGxhd8iOYsMWFwOfU=",
+    "originContent": "5. Performing iterative correction and quality inspection to ensure high data fidelity",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![Pipeline](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/pipeline.png)"
+  },
+  {
+    "row": 42,
+    "rowsha": "9VH0swxibKuI4kBeTL1E+yAl8Ootrqldu/TpclsTuew=",
+    "originContent": "![Pipeline](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/assets/pipeline.png)",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Test Your Model !"
+  },
+  {
+    "row": 44,
+    "rowsha": "YcCut4hQV3XmsMwQ7W19jKmMmgnLPVWLZPFahSN1Hi8=",
+    "originContent": "## Test Your Model !",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "To ensure a smooth integration into existing evaluation pipelines, we adopt an evaluation methodology modified from [MMAU](https://github.com/Sakshi113/MMAU), implemented in [evaluation.py](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/code/evaluation.py). The input to the evaluation script should be the same as [MMAR-meta.json](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/MMAR-meta.json), with an additional key named `model_prediction`, which stores the model prediction for each question. "
+  },
+  {
+    "row": 46,
+    "rowsha": "Gvm/TYUrCW//dfRDlFd9m7nG2/3qEHHMDrNU9WFvGVQ=",
+    "originContent": "To ensure a smooth integration into existing evaluation pipelines, we adopt an evaluation methodology modified from [MMAU](https://github.com/Sakshi113/MMAU), implemented in [evaluation.py](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/code/evaluation.py). The input to the evaluation script should be the same as [MMAR-meta.json](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/MMAR-meta.json), with an additional key named `model_prediction`, which stores the model prediction for each question. ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 47,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "To run the script:"
+  },
+  {
+    "row": 48,
+    "rowsha": "sOVGM4X2QVAsogLVMc0exuwbmae7iVTx3YcwEQ5bVZ8=",
+    "originContent": "To run the script:",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 50,
+    "rowsha": "w+f+DmLHWp67jFv0ZTQ7WYbafgxfhVHj+BWh3sIZ3R4=",
+    "originContent": "python evaluation.py  --input INPUT_JSON_PATH",
+    "translatedContent": "python evaluation.py  --input INPUT_JSON_PATH"
+  },
+  {
+    "row": 51,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Acknowledge"
+  },
+  {
+    "row": 53,
+    "rowsha": "xtYBNAto7c9qDmGF7v5SBnjqwPebUyaGM22mxPYxf1s=",
+    "originContent": "## Acknowledge",
+    "translatedContent": "We gratefully acknowledge that our evaluation code is modified from the official implementation of [MMAU](https://github.com/Sakshi113/MMAU). "
+  },
+  {
+    "row": 54,
+    "rowsha": "oE0ZkFOmLcWy6563uXJMl0fCijIMFdN2+8Db89qw5K0=",
+    "originContent": "We gratefully acknowledge that our evaluation code is modified from the official implementation of [MMAU](https://github.com/Sakshi113/MMAU). ",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Citation"
+  },
+  {
+    "row": 56,
+    "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+    "originContent": "## Citation",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 58,
+    "rowsha": "dchfcMbraOabyepDeLTuDiuHEiHEFxjFWiA2J0BBi/M=",
+    "originContent": "@article{ma2025mmar,",
+    "translatedContent": "@article{ma2025mmar,"
+  },
+  {
+    "row": 59,
+    "rowsha": "De1CnDsyjg0m4C7vgUJq9iDfx9aezUiGlbO/X1ZAXD0=",
+    "originContent": "  title={MMAR: A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix},",
+    "translatedContent": "  title={MMAR: A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix},"
+  },
+  {
+    "row": 60,
+    "rowsha": "GlYTmnQ1X2YGVVxUY+Cnw7Qb3dgzFSP/coLythTl0YQ=",
+    "originContent": "  author={Ma, Ziyang and Ma, Yinghao and Zhu, Yanqiao and Yang, Chen and Chao, Yi-Wen and Xu, Ruiyang and others},",
+    "translatedContent": "  author={Ma, Ziyang and Ma, Yinghao and Zhu, Yanqiao and Yang, Chen and Chao, Yi-Wen and Xu, Ruiyang and others},"
+  },
+  {
+    "row": 61,
+    "rowsha": "3x1DtdPQgWqYMZlwoe9mKZ2pEEZBuktUp7MlyCvcBug=",
+    "originContent": "  journal={arXiv preprint arXiv:2505.13032},",
+    "translatedContent": "  journal={arXiv preprint arXiv:2505.13032},"
+  },
+  {
+    "row": 62,
+    "rowsha": "6oyqJVJ20XoZhlyGjaewQyTQsSBBtVAYmqUtTwjLbAg=",
+    "originContent": "  year={2025}",
+    "translatedContent": "  year={2025}"
+  },
+  {
+    "row": 63,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 64,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
