@@ -1054,9 +1054,9 @@ public class Dto
     public DateTime InDate { get; set; }
 }
 ```
-รหัส
-
-
+<translate-content>
+โค้ด
+</translate-content>
 ```csharp
 var value = new Dto[] {
     new Issue241Dto{ Name="Jack",InDate=new DateTime(2021,01,04)},

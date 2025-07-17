@@ -1054,7 +1054,7 @@ public class Dto
     public DateTime InDate { get; set; }
 }
 ```
-Mã code
+Mã
 
 
 ```csharp
