@@ -1,3 +1,33 @@
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
+
 <div align="center">
 
 # ZipVoice⚡
@@ -7,17 +37,17 @@
 
 ## 概述
 
-ZipVoice 是一系列基于流匹配的快速高质量零样本文本转语音模型。
+ZipVoice 是一系列基于流匹配的快速高质量零样本 TTS（文本转语音）模型。
 
-### 1. 主要特点
+### 1. 主要特性
 
-- 小巧且快速：仅有123M参数。
+- 小巧且快速：仅有 123M 参数。
 
-- 高质量语音克隆：在说话人相似度、可懂度和自然度上达到最先进水平。
+- 高质量语音克隆：在说话人相似性、可懂度和自然度方面达到业界领先水平。
 
-- 多语言支持：支持中文和英文。
+- 多语言：支持中文和英文。
 
-- 多模式支持：支持单说话人和对话语音生成。
+- 多模式：支持单说话人和对话语音生成。
 
 ### 2. 模型变体
 
@@ -33,38 +63,39 @@ ZipVoice 是一系列基于流匹配的快速高质量零样本文本转语音�
   <tbody>
     <tr>
       <td>ZipVoice</td>
-      <td>基础模型，支持中英文零样本单说话人TTS。</td>
+      <td>基础模型，支持中英文的零样本单说话人 TTS。</td>
       <td rowspan="2"><a href="https://arxiv.org/abs/2506.13053"><img src="https://img.shields.io/badge/arXiv-Paper-COLOR.svg"></a></td>
       <td rowspan="2"><a href="https://zipvoice.github.io"><img src="https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square"></a></td>
     </tr>
     <tr>
       <td>ZipVoice-Distill</td>
-      <td>ZipVoice的蒸馏版本，速度提升且性能损失极小。</td>
+      <td>ZipVoice 的蒸馏版，在几乎无性能损失的情况下，速度更快。</td>
     </tr>
     <tr>
       <td>ZipVoice-Dialog</td>
-      <td>基于ZipVoice构建的对话生成模型，能够生成单通道双人语音对话。</td>
+      <td>基于 ZipVoice 的对话生成模型，能够生成单通道的双人语音对话。</td>
       <td rowspan="2"><a href="https://arxiv.org/abs/2507.09318"><img src="https://img.shields.io/badge/arXiv-Paper-COLOR.svg"></a></td>
       <td rowspan="2"><a href="https://zipvoice-dialog.github.io"><img src="https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square"></a></td>
     </tr>
     <tr>
       <td>ZipVoice-Dialog-Stereo</td>
-      <td>ZipVoice-Dialog的立体声版本，实现双通道对话生成，分别为不同说话人分配独立通道。</td>
+      <td>ZipVoice-Dialog 的立体声版本，实现双通道对话生成，每个说话人分配到独立通道。</td>
     </tr>
   </tbody>
 </table>
 
 ## 新闻
 
-**2025/07/14**: 发布了两款语音对话生成模型 **ZipVoice-Dialog** 和 **ZipVoice-Dialog-Stereo**。[![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice-dialog.github.io)
+**2025/07/14**：发布了两款语音对话生成模型：**ZipVoice-Dialog** 和 **ZipVoice-Dialog-Stereo**。[![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice-dialog.github.io)
 
-**2025/07/14**: 发布了包含6.8千小时语音对话数据的 **OpenDialog** 数据集。可从 [![hf](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/k2-fsa/OpenDialog) 和 [![ms](https://img.shields.io/badge/ModelScope-Dataset-blue?logo=data)](https://www.modelscope.cn/datasets/k2-fsa/OpenDialog) 下载。详情见 [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318)。
+**2025/07/14**：**OpenDialog** 数据集（6.8k 小时语音对话数据）已发布。下载地址：[![hf](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/k2-fsa/OpenDialog)、[![ms](https://img.shields.io/badge/ModelScope-Dataset-blue?logo=data)](https://www.modelscope.cn/datasets/k2-fsa/OpenDialog)。详情参见：[![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318)。
 
-**2025/06/16**: 发布了 **ZipVoice** 和 **ZipVoice-Distill**。[![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2506.13053) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice.github.io)
+**2025/06/16**：**ZipVoice** 和 **ZipVoice-Distill** 正式发布。[![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2506.13053) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice.github.io)
 
 ## 安装
 
 ### 1. 克隆 ZipVoice 仓库
+
 
 ```bash
 git clone https://github.com/k2-fsa/ZipVoice.git
@@ -226,6 +257,6 @@ python3 -m zipvoice.bin.infer_zipvoice_dialog \
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
 
 ---

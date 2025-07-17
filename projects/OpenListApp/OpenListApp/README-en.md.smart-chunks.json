@@ -1,0 +1,207 @@
+[
+  {
+    "Id": 1,
+    "Content": "# OpenList App\n### 一个AList、OpenList跨平台客户端,目前内置OpenList服务器，不需要额外连接服务器，支持iOS、macOS、Windows、Android、Linux\n\n### 内置[DDNS-GO(MIT)](https://github.com/jeessy2/ddns-go)，如果设备具**有公网IP**可以借助DDNS-GO进行远程访问,将手机当做远程服务器\n\n### 内置[GATEWAY-GO(MIT)](https://github.com/OpenIoTHub/gateway-go)，如果设备**没有公网IP**可以借助GATEWAY-GO进行远程访问,将手机当做远程服务器\n\n### 通过CI构建，本项目不提供api服务器，服务器由上游OpenList等社区提供\n### 项目提供两套UI，一套是原先的Web界面直接加载，另一套是目前已经开发完核心功能的原生界面，目前默认Linux使用原生界面其他都使用Web界面\n\n### 本项目作为前端项目参考AList前端项目以宽松的[MIT](LICENSE)代码许可证发布，欢迎改包名后发布应用市场（特别是iOS），需要始终声明基于本项目开发的项目(带本项目地址)\n\n#### 关于编译本项目：\n* 需要从[OpenListLib](https://github.com/OpenListApp/OpenListLib/releases)下载相关库进行编译\n\n### QQ群:251405953\n![QQGroup.jpg](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/contact/QQGroup.jpg)\n### 项目结构\n* [openlist](/lib/main.dart)APP入口项目\n* [openlist_api](/openlist_api)核心api封装\n* [openlist_utils](/openlist_utils)工具\n* [openlist_background_service](/openlist_background_service)openlist(AList)库封装\n* [openlist_global](/openlist_global)全局共享代码\n* [openlist_config](/openlist_config)配置文件\n* [openlist_native_ui](/openlist_native_ui) 原生界面代码\n* [openlist_web_ui](/openlist_web_ui)web界面代码(目前默认使用)\n\n![files](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/android/files.png) ![storages](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/macos/storages.png) ![files](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/macos/files.png) ![storages](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/ios/storages.png) ![files](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/ios/files.png) ![storages](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/windows/storages.png)\n\n### 注意事项：\n* 初始用户遵从上游默认权限，代表着默认webdav不开启，请注意\n* 其他",
+    "ContentSha": "g0m0CDRaYqsikU8uQ0nb61LVOXMhTvRpbhxPA4ZhVHQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># OpenList App\n### A cross-platform client for AList and OpenList, currently built-in with OpenList server, no need for additional server connection, supports iOS, macOS, Windows, Android, Linux\n\n### Built-in [DDNS-GO(MIT)](https://github.com/jeessy2/ddns-go), if the device **has a public IP**, you can use DDNS-GO for remote access, turning your phone into a remote server\n\n### Built-in [GATEWAY-GO(MIT)](https://github.com/OpenIoTHub/gateway-go), if the device **does not have a public IP**, you can use GATEWAY-GO for remote access, turning your phone into a remote server\n\n### Built via CI, this project does not provide an API server; servers are provided by upstream communities like OpenList\n### The project provides two sets of UI: one is the original web interface loaded directly, the other is the native interface with core features already developed; currently, Linux defaults to native UI while others use web UI\n\n### This project serves as a frontend reference based on the AList frontend project, released under the permissive [MIT](LICENSE) license, welcome to republish in app markets after renaming the package (especially iOS), but you must always declare that the project is developed based on this project (with this project's URL)\n\n#### About compiling this project:\n* You need to download related libraries from [OpenListLib](https://github.com/OpenListApp/OpenListLib/releases) for compilation\n\n### QQ group: 251405953\n![QQGroup.jpg](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/contact/QQGroup.jpg)\n### Project Structure\n* [openlist](/lib/main.dart) APP entry project\n* [openlist_api](/openlist_api) Core API encapsulation\n* [openlist_utils](/openlist_utils) Utilities\n* [openlist_background_service](/openlist_background_service) openlist (AList) library encapsulation\n* [openlist_global](/openlist_global) Global shared code\n* [openlist_config](/openlist_config) Configuration files\n* [openlist_native_ui](/openlist_native_ui) Native UI code\n* [openlist_web_ui](/openlist_web_ui) Web UI code (currently default)\n\n![files](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/android/files.png) ![storages](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/macos/storages.png) ![files](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/macos/files.png) ![storages](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/ios/storages.png) ![files](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/ios/files.png) ![storages](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/windows/storages.png)\n\n### Notes:\n* Initial users follow upstream default permissions, meaning default webdav is not enabled, please be aware\n* Others",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "evu7dxLzgBda8OgVlwULIj64cYR5toX/Kry3VHTwvhg=",
+        "originContent": "# OpenList App",
+        "translatedContent": "<translate-content># OpenList App"
+      },
+      {
+        "row": 2,
+        "rowsha": "yzZBA7mngXgA63QB7nYNf7ELM3xj5MrDybBi6SeZm64=",
+        "originContent": "### 一个AList、OpenList跨平台客户端,目前内置OpenList服务器，不需要额外连接服务器，支持iOS、macOS、Windows、Android、Linux",
+        "translatedContent": "### A cross-platform client for AList and OpenList, currently built-in with OpenList server, no need for additional server connection, supports iOS, macOS, Windows, Android, Linux"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "qPleUt08hDWgOWFFx19hHGEMIuYVhoa70Vffxpg+Ypg=",
+        "originContent": "### 内置[DDNS-GO(MIT)](https://github.com/jeessy2/ddns-go)，如果设备具**有公网IP**可以借助DDNS-GO进行远程访问,将手机当做远程服务器",
+        "translatedContent": "### Built-in [DDNS-GO(MIT)](https://github.com/jeessy2/ddns-go), if the device **has a public IP**, you can use DDNS-GO for remote access, turning your phone into a remote server"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "hdlLkNWwfMIRhKFLFkQBr2lriwoAAG18YtKdqL4ozqQ=",
+        "originContent": "### 内置[GATEWAY-GO(MIT)](https://github.com/OpenIoTHub/gateway-go)，如果设备**没有公网IP**可以借助GATEWAY-GO进行远程访问,将手机当做远程服务器",
+        "translatedContent": "### Built-in [GATEWAY-GO(MIT)](https://github.com/OpenIoTHub/gateway-go), if the device **does not have a public IP**, you can use GATEWAY-GO for remote access, turning your phone into a remote server"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "xF54NZzU97gANol890X4GFZE8CZ42+YqwH5XO0TyU48=",
+        "originContent": "### 通过CI构建，本项目不提供api服务器，服务器由上游OpenList等社区提供",
+        "translatedContent": "### Built via CI, this project does not provide an API server; servers are provided by upstream communities like OpenList"
+      },
+      {
+        "row": 9,
+        "rowsha": "5JnEjJSCaPXo0y4wZr4wq3SagMScX2hDT76k1OVXp+U=",
+        "originContent": "### 项目提供两套UI，一套是原先的Web界面直接加载，另一套是目前已经开发完核心功能的原生界面，目前默认Linux使用原生界面其他都使用Web界面",
+        "translatedContent": "### The project provides two sets of UI: one is the original web interface loaded directly, the other is the native interface with core features already developed; currently, Linux defaults to native UI while others use web UI"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "aQJ4QRmQ+c71ksQEr4sEzkCO6mNU+viDAUNDSVZrXRU=",
+        "originContent": "### 本项目作为前端项目参考AList前端项目以宽松的[MIT](LICENSE)代码许可证发布，欢迎改包名后发布应用市场（特别是iOS），需要始终声明基于本项目开发的项目(带本项目地址)",
+        "translatedContent": "### This project serves as a frontend reference based on the AList frontend project, released under the permissive [MIT](LICENSE) license, welcome to republish in app markets after renaming the package (especially iOS), but you must always declare that the project is developed based on this project (with this project's URL)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "IjM+bA0xDCM/8eTMZ+QWoEmJcpKb/gTbZgeamLXSU4g=",
+        "originContent": "#### 关于编译本项目：",
+        "translatedContent": "#### About compiling this project:"
+      },
+      {
+        "row": 14,
+        "rowsha": "mybBKR3XunLSetNBCubnpNj4tr1iu5R5qIF7nT7Mi7g=",
+        "originContent": "* 需要从[OpenListLib](https://github.com/OpenListApp/OpenListLib/releases)下载相关库进行编译",
+        "translatedContent": "* You need to download related libraries from [OpenListLib](https://github.com/OpenListApp/OpenListLib/releases) for compilation"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "TuW2c0ga48Eq4ViVPcNwhYJdtR4xjBURJMH5HrlA808=",
+        "originContent": "### QQ群:251405953",
+        "translatedContent": "### QQ group: 251405953"
+      },
+      {
+        "row": 17,
+        "rowsha": "+cppMoqz5O1kRgnSvCg5bSSJ60OEF8JIYxpvNTZUDvE=",
+        "originContent": "![QQGroup.jpg](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/contact/QQGroup.jpg)",
+        "translatedContent": "![QQGroup.jpg](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/contact/QQGroup.jpg)"
+      },
+      {
+        "row": 18,
+        "rowsha": "ccOXcVLxXwJ/hCCa4XG5WKBCAaoMzWYwHPVsGxsR4OQ=",
+        "originContent": "### 项目结构",
+        "translatedContent": "### Project Structure"
+      },
+      {
+        "row": 19,
+        "rowsha": "xuM7d4njIOc0bwYYAzRg0SRUCfd582BZYAnx8x51G1Q=",
+        "originContent": "* [openlist](/lib/main.dart)APP入口项目",
+        "translatedContent": "* [openlist](/lib/main.dart) APP entry project"
+      },
+      {
+        "row": 20,
+        "rowsha": "8XM2egHXrUBV7AFAKE1rFjt3eElUGhemCf8iurdQZlU=",
+        "originContent": "* [openlist_api](/openlist_api)核心api封装",
+        "translatedContent": "* [openlist_api](/openlist_api) Core API encapsulation"
+      },
+      {
+        "row": 21,
+        "rowsha": "a2EjjEkEnNR3FPY+W+HFJ8qlxMiDWopoOXMffdHpR5A=",
+        "originContent": "* [openlist_utils](/openlist_utils)工具",
+        "translatedContent": "* [openlist_utils](/openlist_utils) Utilities"
+      },
+      {
+        "row": 22,
+        "rowsha": "Uzz9e0EjB47wPT3/ia2/N96i9DVqvMX3c50D9rDqkHQ=",
+        "originContent": "* [openlist_background_service](/openlist_background_service)openlist(AList)库封装",
+        "translatedContent": "* [openlist_background_service](/openlist_background_service) openlist (AList) library encapsulation"
+      },
+      {
+        "row": 23,
+        "rowsha": "5HZSg4TdL6oVF7e6GpVKTG1DSLP6cZj/chPir7xhqt0=",
+        "originContent": "* [openlist_global](/openlist_global)全局共享代码",
+        "translatedContent": "* [openlist_global](/openlist_global) Global shared code"
+      },
+      {
+        "row": 24,
+        "rowsha": "viAJYfUMd+hyx6QK75QqflbWwQ8h7JmfMyaOB8JnJ10=",
+        "originContent": "* [openlist_config](/openlist_config)配置文件",
+        "translatedContent": "* [openlist_config](/openlist_config) Configuration files"
+      },
+      {
+        "row": 25,
+        "rowsha": "Gz2pgsvvQzob9UVJxVdIta0KZ7e7//8qZZCDJvnVMDM=",
+        "originContent": "* [openlist_native_ui](/openlist_native_ui) 原生界面代码",
+        "translatedContent": "* [openlist_native_ui](/openlist_native_ui) Native UI code"
+      },
+      {
+        "row": 26,
+        "rowsha": "LflPteGR9jGJhrCftvY9/if19lqUI0ftjbVz2DqjLZA=",
+        "originContent": "* [openlist_web_ui](/openlist_web_ui)web界面代码(目前默认使用)",
+        "translatedContent": "* [openlist_web_ui](/openlist_web_ui) Web UI code (currently default)"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "LsXucKhmR2zD/4Or1/aH4rPpjPEiqVL/Suj5tUHOEF4=",
+        "originContent": "![files](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/android/files.png) ![storages](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/macos/storages.png) ![files](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/macos/files.png) ![storages](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/ios/storages.png) ![files](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/ios/files.png) ![storages](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/windows/storages.png)",
+        "translatedContent": "![files](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/android/files.png) ![storages](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/macos/storages.png) ![files](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/macos/files.png) ![storages](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/ios/storages.png) ![files](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/ios/files.png) ![storages](https://raw.githubusercontent.com/OpenListApp/OpenListApp/main/assets/images/windows/storages.png)"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "uYU5e/b7gtkOQZIWRNWfMRJTZ3V23sPdXCn3eFWsQgQ=",
+        "originContent": "### 注意事项：",
+        "translatedContent": "### Notes:"
+      },
+      {
+        "row": 31,
+        "rowsha": "hJ8RP6lL1Kf6Uk0JOr4cwhzfL6po5vxXr1sEjT+uzzY=",
+        "originContent": "* 初始用户遵从上游默认权限，代表着默认webdav不开启，请注意",
+        "translatedContent": "* Initial users follow upstream default permissions, meaning default webdav is not enabled, please be aware"
+      },
+      {
+        "row": 32,
+        "rowsha": "F8YzcmEiuQKxugEEMAF1ltmCfqA7jLdM5lrV77gnFvQ=",
+        "originContent": "* 其他",
+        "translatedContent": "* Others"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,8 +1,38 @@
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=en">영어</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ja">일본어</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=hi">힌디어</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=th">태국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=fr">프랑스어</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=de">독일어</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=es">스페인어</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=it">이탈리아어</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ru">러시아어</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=pt">포르투갈어</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=nl">네덜란드어</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=pl">폴란드어</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ar">아랍어</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=fa">페르시아어</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=tr">터키어</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=vi">베트남어</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=id">인도네시아어</a>
+      </div>
+    </div>
+  </details>
+</div>
+
 <div align="center">
 
 # ZipVoice⚡
 
-## 플로우 매칭을 이용한 빠르고 고품질의 제로샷 텍스트-투-스피치
+## 플로우 매칭 기반의 빠르고 고품질의 제로샷 텍스트-투-스피치
 </div>
 
 ## 개요
@@ -11,15 +41,15 @@ ZipVoice는 플로우 매칭을 기반으로 한 빠르고 고품질의 제로�
 
 ### 1. 주요 특징
 
-- 작고 빠름: 단 1억 2300만 개의 파라미터.
+- 작고 빠름: 1억 2300만 파라미터만 사용.
 
-- 고품질 음성 복제: 화자 유사성, 명료성, 자연스러움에서 최첨단 성능.
+- 고품질 음성 클로닝: 화자 유사성, 명료성, 자연스러움에서 최첨단 성능.
 
 - 다국어 지원: 중국어와 영어 지원.
 
-- 다중 모드: 단일 화자 및 대화 음성 생성 모두 지원.
+- 다중 모드 지원: 단일 화자 및 대화체 음성 생성 모두 지원.
 
-### 2. 모델 변종
+### 2. 모델 변형
 
 <table>
   <thead>
@@ -33,38 +63,39 @@ ZipVoice는 플로우 매칭을 기반으로 한 빠르고 고품질의 제로�
   <tbody>
     <tr>
       <td>ZipVoice</td>
-      <td>중국어 및 영어에서 제로샷 단일 화자 TTS를 지원하는 기본 모델.</td>
+      <td>중국어와 영어 모두에서 제로샷 단일 화자 TTS를 지원하는 기본 모델입니다.</td>
       <td rowspan="2"><a href="https://arxiv.org/abs/2506.13053"><img src="https://img.shields.io/badge/arXiv-Paper-COLOR.svg"></a></td>
       <td rowspan="2"><a href="https://zipvoice.github.io"><img src="https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square"></a></td>
     </tr>
     <tr>
       <td>ZipVoice-Distill</td>
-      <td>성능 저하를 최소화하면서 속도를 향상시킨 ZipVoice의 증류 버전.</td>
+      <td>ZipVoice의 디스틸 버전으로, 성능 저하를 최소화하면서 속도를 개선했습니다.</td>
     </tr>
     <tr>
       <td>ZipVoice-Dialog</td>
-      <td>ZipVoice를 기반으로 한 대화 생성 모델로, 단일 채널에서 2자 간 음성 대화 생성 가능.</td>
+      <td>ZipVoice 기반의 대화 생성 모델로, 단일 채널 2인 대화 음성 생성을 지원합니다.</td>
       <td rowspan="2"><a href="https://arxiv.org/abs/2507.09318"><img src="https://img.shields.io/badge/arXiv-Paper-COLOR.svg"></a></td>
       <td rowspan="2"><a href="https://zipvoice-dialog.github.io"><img src="https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square"></a></td>
     </tr>
     <tr>
       <td>ZipVoice-Dialog-Stereo</td>
-      <td>각 화자별로 별도의 채널이 할당된 2채널 대화 생성을 지원하는 ZipVoice-Dialog의 스테레오 버전.</td>
+      <td>ZipVoice-Dialog의 스테레오 버전으로, 각 화자가 별도의 채널에 할당된 2채널 대화 생성을 지원합니다.</td>
     </tr>
   </tbody>
 </table>
 
-## 뉴스
+## 소식
 
-**2025/07/14**: 두 개의 음성 대화 생성 모델인 **ZipVoice-Dialog**와 **ZipVoice-Dialog-Stereo**가 공개되었습니다. [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice-dialog.github.io)
+**2025/07/14**: **ZipVoice-Dialog**와 **ZipVoice-Dialog-Stereo**, 두 가지 음성 대화 생성 모델이 공개되었습니다. [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice-dialog.github.io)
 
-**2025/07/14**: 6.8천 시간 분량의 음성 대화 데이터셋인 **OpenDialog**가 공개되었습니다. 다운로드: [![hf](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/k2-fsa/OpenDialog), [![ms](https://img.shields.io/badge/ModelScope-Dataset-blue?logo=data)](https://www.modelscope.cn/datasets/k2-fsa/OpenDialog). 자세한 내용은 [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318)에서 확인하세요.
+**2025/07/14**: **OpenDialog** 데이터셋(6.8k 시간 분량의 대화 음성 데이터셋) 공개. 다운로드: [![hf](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/k2-fsa/OpenDialog), [![ms](https://img.shields.io/badge/ModelScope-Dataset-blue?logo=data)](https://www.modelscope.cn/datasets/k2-fsa/OpenDialog). 자세한 내용은 [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318) 참고.
 
-**2025/06/16**: **ZipVoice**와 **ZipVoice-Distill**이 공개되었습니다. [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2506.13053) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice.github.io)
+**2025/06/16**: **ZipVoice** 및 **ZipVoice-Distill** 모델 공개. [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2506.13053) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice.github.io)
 
 ## 설치
 
-### 1. ZipVoice 저장소 클론하기
+### 1. ZipVoice 저장소 클론
+
 
 ```bash
 git clone https://github.com/k2-fsa/ZipVoice.git
@@ -226,6 +257,6 @@ python3 -m zipvoice.bin.infer_zipvoice_dialog \
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
 
 ---
