@@ -1,0 +1,578 @@
+[
+  {
+    "row": 1,
+    "rowsha": "DGpBbq4Xe5Ami4Bxd5aU7rOPaRT6RN8le+vMIxNugng=",
+    "originContent": "# kb",
+    "translatedContent": "# kb"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "H1GBrZhudyU8xTv53INPxSLM5inBOFHcy0PyS7Fv3lk=",
+    "originContent": "[Single-header](https://github.com/nothings/stb/blob/master/docs/stb_howto.txt) permissively-licensed libraries for C/C++.",
+    "translatedContent": "[Single-header](https://github.com/nothings/stb/blob/master/docs/stb_howto.txt) の緩やかなライセンスの C/C++ 用ライブラリ。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "4Ta1JkdmIy+/97/8top9V7u/bkQ0NxJEpR4Hr8DPA+I=",
+    "originContent": "## Libraries",
+    "translatedContent": "## ライブラリ"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "BvKfO1DbaePYarvHLrrxDHVkdAVSZZD8ZPhMFUsk5Ww=",
+    "originContent": "- [kb\\_text\\_shape.h](https://raw.githubusercontent.com/JimmyLefevre/kb/main/./kb_text_shape.h): Unicode text segmentation and OpenType shaping",
+    "translatedContent": "- [kb\\_text\\_shape.h](https://raw.githubusercontent.com/JimmyLefevre/kb/main/./kb_text_shape.h): UnicodeテキストのセグメンテーションとOpenTypeのシェーピング"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "AGB3qeL4tZFhauLKWgDuHdIOcFuBDRIi3eQqdcnKA34=",
+    "originContent": "## kb_text_shape.h",
+    "translatedContent": "## kb_text_shape.h"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "WjOagdQcx+SvSA3/fLpF4ukeL2LVUvVtv+/U28Ll0I8=",
+    "originContent": "![Example of Arabic shaping with stb_truetype](https://raw.githubusercontent.com/JimmyLefevre/kb/main/./images/arabic.png)",
+    "translatedContent": "![stb_truetypeによるアラビア語のシェーピング例](https://raw.githubusercontent.com/JimmyLefevre/kb/main/./images/arabic.png)"
+  },
+  {
+    "row": 12,
+    "rowsha": "MZLn1/aFDl9yvDXLXw9O8S8vq8Frgbsf533sljeAxAg=",
+    "originContent": "![Example of Hindi shaping with stb_truetype](https://raw.githubusercontent.com/JimmyLefevre/kb/main/./images/hindi.png)",
+    "translatedContent": "![stb_truetypeによるヒンディー語のシェーピング例](https://raw.githubusercontent.com/JimmyLefevre/kb/main/./images/hindi.png)"
+  },
+  {
+    "row": 13,
+    "rowsha": "k1ehwTWvmPCVg+5289XVEFwzJ68EBLjRS1TyYLVg8oc=",
+    "originContent": "![Example of Khmer shaping with stb_truetype](https://raw.githubusercontent.com/JimmyLefevre/kb/main/./images/khmer.png)",
+    "translatedContent": "![stb_truetypeによるクメール語のシェーピング例](https://raw.githubusercontent.com/JimmyLefevre/kb/main/./images/khmer.png)"
+  },
+  {
+    "row": 14,
+    "rowsha": "jVUccti3tIv02itbutC42YrfFtGW0mGXRVoeKVszbns=",
+    "originContent": "![Example of Myanmar shaping with stb_truetype](https://raw.githubusercontent.com/JimmyLefevre/kb/main/./images/myanmar.png)",
+    "translatedContent": "![stb_truetypeによるミャンマー語のシェーピング例](https://raw.githubusercontent.com/JimmyLefevre/kb/main/./images/myanmar.png)"
+  },
+  {
+    "row": 15,
+    "rowsha": "CfyduG1f1Pmw8VbqjCYQ6TO9WOiqdBv1nXPW/wk+5Ng=",
+    "originContent": "![Example of Gunjala Gondi shaping with stb_truetype](https://raw.githubusercontent.com/JimmyLefevre/kb/main/./images/gunjala_gondi.png)",
+    "translatedContent": "![stb_truetypeによるグンジャラ・ゴンディ語のシェーピング例](https://raw.githubusercontent.com/JimmyLefevre/kb/main/./images/gunjala_gondi.png)"
+  },
+  {
+    "row": 16,
+    "rowsha": "V+G+92SFDoY00BtUvsL/FIykR6gQocaiqlgOoZ5+qfI=",
+    "originContent": "![Example of toggling the smallcaps font feature](https://raw.githubusercontent.com/JimmyLefevre/kb/main/./images/smallcaps.png)",
+    "translatedContent": "![スモールキャップスのフォント機能切替の例](https://raw.githubusercontent.com/JimmyLefevre/kb/main/./images/smallcaps.png)"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "fMg39hBKUi1A5SMdm/jNtzPXAVq3s5/G1qJI6LoHJl8=",
+    "originContent": "[kb\\_text\\_shape.h](https://raw.githubusercontent.com/JimmyLefevre/kb/main/./kb_text_shape.h) provides ICU-like text segmentation (i.e. breaking Unicode text by direction, line, word and grapheme). It also provides Harfbuzz-like text shaping for OpenType fonts, which means it is capable of handling complex script layout and ligatures, among other things.",
+    "translatedContent": "[kb\\_text\\_shape.h](https://raw.githubusercontent.com/JimmyLefevre/kb/main/./kb_text_shape.h) は ICU のようなテキストセグメンテーション（すなわち、Unicodeテキストを方向、行、単語、グラフェムで分割）を提供します。さらに、OpenTypeフォントのための Harfbuzz のようなテキストシェーピングも提供し、複雑なスクリプトレイアウトや合字などを扱うことが可能です。"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "ZXzOfzKPq4Eczwq1NXcDnqaeiTvdlA3NsGbjT73JDpE=",
+    "originContent": "It does **not** handle rasterization. It does **not** handle paragraph layout. It will only help you know which glyphs to display where on a single, infinitely-long line!",
+    "translatedContent": "ラスタライズは**対応していません**。段落レイアウトも**対応していません**。無限に長い単一行上で、どのグリフをどこに表示するかを知る手助けだけをします！"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "GVMOMILJZbDgRzGCy81p70tE6zhneco7yjUmTGoC9h0=",
+    "originContent": "(See https://www.newroadoldway.com/text1.html for an explanation of the different steps of text processing.)",
+    "translatedContent": "（テキスト処理の各段階の説明については https://www.newroadoldway.com/text1.html を参照してください。）"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "RuuC/BIfzzGWnoOVe3nWvvgovSvOfHCkhlSCEmKmxuI=",
+    "originContent": "```c",
+    "translatedContent": "```c"
+  },
+  {
+    "row": 25,
+    "rowsha": "lAF4tNva8HHPvkoliMuURA55s+hxudHEIvWgZtUrz98=",
+    "originContent": "static kbts_font GlobalFont;",
+    "translatedContent": "static kbts_font GlobalFont;"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "MNm09uBUXWn2WrZVFsZ3YjIRcpAB6IMWmjsZ6MTk9ng=",
+    "originContent": "void RenderGlyph(kbts_glyph *Glyph, int X, int Y); // Yours to implement",
+    "translatedContent": "void RenderGlyph(kbts_glyph *Glyph, int X, int Y); // Yours to implement"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "5aq3huiVti3qEKXTK1Ib38I0iOwuSECSC4KlksvbWw0=",
+    "originContent": "void ShapeText(kbts_cursor *Cursor, uint32_t *Codepoints, size_t CodepointCount, kbts_direction MainDirection, kbts_direction Direction, kbts_script Script)",
+    "translatedContent": "void ShapeText(kbts_cursor *Cursor, uint32_t *Codepoints, size_t CodepointCount, kbts_direction MainDirection, kbts_direction Direction, kbts_script Script)"
+  },
+  {
+    "row": 30,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 31,
+    "rowsha": "xteTZhF+3Hf4rqMbTe8kI14s7aYmahKxLp2irSEEMj8=",
+    "originContent": "  kbts_glyph *Glyphs = (kbts_glyph *)malloc(sizeof(kbts_glyph) * CodepointCount);",
+    "translatedContent": "  kbts_glyph *Glyphs = (kbts_glyph *)malloc(sizeof(kbts_glyph) * CodepointCount);"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "Xi1lnd7BvWTlGYIPQsIrHJrvnt6pyLn0Ohup3bdMDAk=",
+    "originContent": "  for(size_t CodepointIndex = 0; CodepointIndex < CodepointCount; ++CodepointIndex)",
+    "translatedContent": "  for(size_t CodepointIndex = 0; CodepointIndex < CodepointCount; ++CodepointIndex)"
+  },
+  {
+    "row": 34,
+    "rowsha": "gJrwwURMWBKq4xdicV4fIJo66iI0Fo+HuK4hhGzuZFI=",
+    "originContent": "  {",
+    "translatedContent": "  {"
+  },
+  {
+    "row": 35,
+    "rowsha": "nz41BqgsLIR/vwNpcXYiqW0GL3OAJtqYUVHI+EyRtKU=",
+    "originContent": "    Glyphs[CodepointIndex] = kbts_CodepointToGlyph(&GlobalFont, Codepoints[CodepointIndex]);",
+    "translatedContent": "    Glyphs[CodepointIndex] = kbts_CodepointToGlyph(&GlobalFont, Codepoints[CodepointIndex]);"
+  },
+  {
+    "row": 36,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "91LFudvHfDVrAQMrFDDYURDHPikB9yJB3vAKP+WkEyk=",
+    "originContent": "  kbts_shape_state *State = kbts_CreateShapeState(&GlobalFont);",
+    "translatedContent": "  kbts_shape_state *State = kbts_CreateShapeState(&GlobalFont);"
+  },
+  {
+    "row": 39,
+    "rowsha": "5ugl+BNe+DuT7jQnmmW5zyj/hTS6u/hiJT0sKwV6lM8=",
+    "originContent": "  kbts_shape_config Config = kbts_ShapeConfig(&GlobalFont, Script, KBTS_LANGUAGE_DONT_KNOW);",
+    "translatedContent": "  kbts_shape_config Config = kbts_ShapeConfig(&GlobalFont, Script, KBTS_LANGUAGE_DONT_KNOW);"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "lPvWmDj6iPdPuz/gqG2t0gZtqHyO/w7LkYGijdyxKGw=",
+    "originContent": "  uint32_t GlyphCount = CodepointCount;",
+    "translatedContent": "  uint32_t GlyphCount = CodepointCount;"
+  },
+  {
+    "row": 42,
+    "rowsha": "RlUIMwwl6rbE8KwafYJwxpcbTouwPVnLWxag8BbZWfg=",
+    "originContent": "  uint32_t GlyphCapacity = GlyphCount;",
+    "translatedContent": "  uint32_t GlyphCapacity = GlyphCount;"
+  },
+  {
+    "row": 43,
+    "rowsha": "v12ESx82psdu0frnxT2HsCIVjw7cJPyrMc3DpLtzeOg=",
+    "originContent": "  while(kbts_Shape(State, &Config, MainDirection, Direction, Glyphs, &GlyphCount, GlyphCapacity))",
+    "translatedContent": "  while(kbts_Shape(State, &Config, MainDirection, Direction, Glyphs, &GlyphCount, GlyphCapacity))"
+  },
+  {
+    "row": 44,
+    "rowsha": "gJrwwURMWBKq4xdicV4fIJo66iI0Fo+HuK4hhGzuZFI=",
+    "originContent": "  {",
+    "translatedContent": "  {"
+  },
+  {
+    "row": 45,
+    "rowsha": "yrfRmwg5DQ1R6j4XlFw+BnR1ss00LjGojMebzLgZF60=",
+    "originContent": "    Glyphs = (kbts_glyph *)realloc(sizeof(kbts_glyph) * State->RequiredGlyphCapacity);",
+    "translatedContent": "    Glyphs = (kbts_glyph *)realloc(sizeof(kbts_glyph) * State->RequiredGlyphCapacity);"
+  },
+  {
+    "row": 46,
+    "rowsha": "lyxCG9tNNL+TO4n3Xq9+tPMr1UVP87ZnRhUETuKOcsI=",
+    "originContent": "    GlyphCapacity = State->RequiredGlyphCapacity;",
+    "translatedContent": "    GlyphCapacity = State->RequiredGlyphCapacity;"
+  },
+  {
+    "row": 47,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "hyqdvIps8YeHCctdkqZ7soE53SIVx8UGIfhba2KtZ4A=",
+    "originContent": "  for(size_t GlyphIndex = 0; GlyphIndex < GlyphCount; ++GlyphIndex)",
+    "translatedContent": "  for(size_t GlyphIndex = 0; GlyphIndex < GlyphCount; ++GlyphIndex)"
+  },
+  {
+    "row": 50,
+    "rowsha": "gJrwwURMWBKq4xdicV4fIJo66iI0Fo+HuK4hhGzuZFI=",
+    "originContent": "  {",
+    "translatedContent": "  {"
+  },
+  {
+    "row": 51,
+    "rowsha": "9kQl9JXVxDEuHtLgv+eQq+nscrABHm0w+EY5lXT+Oeo=",
+    "originContent": "    kbts_glyph *Glyph = &Glyphs[GlyphIndex];",
+    "translatedContent": "    kbts_glyph *Glyph = &Glyphs[GlyphIndex];"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "xpPT+g4z+Tmgpm9NIPmcyKJTGWMGHNfSWrrAN1BBILY=",
+    "originContent": "    int X, Y;",
+    "translatedContent": "    int X, Y;"
+  },
+  {
+    "row": 54,
+    "rowsha": "mvlj+23/yjBt8UHSskrBaDOUm6vV3zfHIk7d8VoW1wo=",
+    "originContent": "    kbts_PositionGlyph(Cursor, Glyph, &X, &Y);",
+    "translatedContent": "    kbts_PositionGlyph(Cursor, Glyph, &X, &Y);"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "M2PUAIJdDa+XlBQ9lecieifBzr5xvisegcfBbTQLG00=",
+    "originContent": "    RenderGlyph(Glyph, X, Y);",
+    "translatedContent": "    RenderGlyph(Glyph, X, Y);"
+  },
+  {
+    "row": 57,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "OGSuF2nWj+4UzM+fiJFYB4WuJNTj3yV2WDp7RqwBn38=",
+    "originContent": "  free(Glyphs);",
+    "translatedContent": "  free(Glyphs);"
+  },
+  {
+    "row": 60,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "9yRY2t5CfeObEhVKaNsBRKIQMsfF4jfFWKvTkAU+WqA=",
+    "originContent": "void SegmentText(uint32_t *Codepoints, size_t CodepointCount)",
+    "translatedContent": "void SegmentText(uint32_t *Codepoints, size_t CodepointCount)"
+  },
+  {
+    "row": 63,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 64,
+    "rowsha": "oI80RwJo5no2Na5vDtfFYKafaCaAnKg9iptc3sVuq6Q=",
+    "originContent": "  kbts_cursor Cursor = {0};",
+    "translatedContent": "  kbts_cursor Cursor = {0};"
+  },
+  {
+    "row": 65,
+    "rowsha": "tds5vO+8qona9ibQbS2Yb6Vqzuvx3HvKjiPeZ6fZs1w=",
+    "originContent": "  kbts_direction Direction = KBTS_DIRECTION_NONE;",
+    "translatedContent": "  kbts_direction Direction = KBTS_DIRECTION_NONE;"
+  },
+  {
+    "row": 66,
+    "rowsha": "IbpY4Qbh2iBYbXlR3YsRj/Od7fbjPtqJqVxuhVfyxmc=",
+    "originContent": "  kbts_script Script = KBTS_SCRIPT_DONT_KNOW;",
+    "translatedContent": "  kbts_script Script = KBTS_SCRIPT_DONT_KNOW;"
+  },
+  {
+    "row": 67,
+    "rowsha": "DS6hbBGqDlaR2b2EL5yd8G9Vlu1euq1huM+WD9h0gHc=",
+    "originContent": "  size_t RunStart = 0;",
+    "translatedContent": "  size_t RunStart = 0;"
+  },
+  {
+    "row": 68,
+    "rowsha": "dCQTXo2a/FkqNytym7rP936W5mzsR3F02MGy1BcEQzI=",
+    "originContent": "  kbts_break_state BreakState;",
+    "translatedContent": "  kbts_break_state BreakState;"
+  },
+  {
+    "row": 69,
+    "rowsha": "OjfSG9UEnQN9GBs8yHU/gjO4/G2kZVOybcRsCZRStQ4=",
+    "originContent": "  kbts_BeginBreak(&BreakState, KBTS_DIRECTION_NONE, KBTS_JAPANESE_LINE_BREAK_STYLE_NORMAL);",
+    "translatedContent": "  kbts_BeginBreak(&BreakState, KBTS_DIRECTION_NONE, KBTS_JAPANESE_LINE_BREAK_STYLE_NORMAL);"
+  },
+  {
+    "row": 70,
+    "rowsha": "Xi1lnd7BvWTlGYIPQsIrHJrvnt6pyLn0Ohup3bdMDAk=",
+    "originContent": "  for(size_t CodepointIndex = 0; CodepointIndex < CodepointCount; ++CodepointIndex)",
+    "translatedContent": "  for(size_t CodepointIndex = 0; CodepointIndex < CodepointCount; ++CodepointIndex)"
+  },
+  {
+    "row": 71,
+    "rowsha": "gJrwwURMWBKq4xdicV4fIJo66iI0Fo+HuK4hhGzuZFI=",
+    "originContent": "  {",
+    "translatedContent": "  {"
+  },
+  {
+    "row": 72,
+    "rowsha": "TpJRCzxIXARWi3+ICDymvtRApeDUli9wuLIWsBR4W8o=",
+    "originContent": "    kbts_BreakAddCodepoint(&BreakState, Codepoints[CodepointIndex], 1, (CodepointIndex + 1) == CodepointCount);",
+    "translatedContent": "    kbts_BreakAddCodepoint(&BreakState, Codepoints[CodepointIndex], 1, (CodepointIndex + 1) == CodepointCount);"
+  },
+  {
+    "row": 73,
+    "rowsha": "HlV83E3IYo0bBOwbqFnXMqlcl6exEDbH/K/8+dZAfQg=",
+    "originContent": "    kbts_break Break;",
+    "translatedContent": "    kbts_break Break;"
+  },
+  {
+    "row": 74,
+    "rowsha": "MdDDKRtCiXaT0+CGXBzKi6JLl2RVfmVtKzVn5Kpi374=",
+    "originContent": "    while(kbts_Break(&BreakState, &Break))",
+    "translatedContent": "    while(kbts_Break(&BreakState, &Break))"
+  },
+  {
+    "row": 75,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 76,
+    "rowsha": "GsD7nUId/UNKZstcw95bfTn7oMfW4ztcODngWDKCb2o=",
+    "originContent": "      if((Break.Position > RunStart) && (Break.Flags & (KBTS_BREAK_FLAG_DIRECTION | KBTS_BREAK_FLAG_SCRIPT | KBTS_BREAK_FLAG_LINE_HARD)))",
+    "translatedContent": "      if((Break.Position > RunStart) && (Break.Flags & (KBTS_BREAK_FLAG_DIRECTION | KBTS_BREAK_FLAG_SCRIPT | KBTS_BREAK_FLAG_LINE_HARD)))"
+  },
+  {
+    "row": 77,
+    "rowsha": "nomJGCQusBIh1hPv3RPJDeAXSCjkFHU4PKXYkjnd/gA=",
+    "originContent": "      {",
+    "translatedContent": "      {"
+  },
+  {
+    "row": 78,
+    "rowsha": "hoeCF1VALSrTpiQZ5vepk+iV+r23sb5v9wKMgpCWpyg=",
+    "originContent": "        size_t RunLength = Break.Position - RunStart;",
+    "translatedContent": "        size_t RunLength = Break.Position - RunStart;"
+  },
+  {
+    "row": 79,
+    "rowsha": "+zFNUhDH7iqTOWdwYQTnTwsshvgCl20yJvkWKuP8las=",
+    "originContent": "        ShapeText(&Cursor, Codepoints + RunStart, RunLength, BreakState.MainDirection, Direction, Script);",
+    "translatedContent": "        ShapeText(&Cursor, Codepoints + RunStart, RunLength, BreakState.MainDirection, Direction, Script);"
+  },
+  {
+    "row": 80,
+    "rowsha": "6JPmCepRW3/1dcgwsaQZ9ARIjWKw+YgYDCWrRf4ZL3E=",
+    "originContent": "        RunStart = Break.Position;",
+    "translatedContent": "        RunStart = Break.Position;"
+  },
+  {
+    "row": 81,
+    "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+    "originContent": "      }",
+    "translatedContent": "      }"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "qUfj0POdrgmJRtAWlqONDP6PlI0zD25Nwa9MiGSlSEg=",
+    "originContent": "      if(Break.Flags & KBTS_BREAK_FLAG_DIRECTION)",
+    "translatedContent": "      if(Break.Flags & KBTS_BREAK_FLAG_DIRECTION)"
+  },
+  {
+    "row": 84,
+    "rowsha": "nomJGCQusBIh1hPv3RPJDeAXSCjkFHU4PKXYkjnd/gA=",
+    "originContent": "      {",
+    "translatedContent": "      {"
+  },
+  {
+    "row": 85,
+    "rowsha": "MeDfqlJnX7ccFN23hOKgsUdNm2whfEQ9fvnehGZFgIw=",
+    "originContent": "        Direction = Break.Direction;",
+    "translatedContent": "        Direction = Break.Direction;"
+  },
+  {
+    "row": 86,
+    "rowsha": "uujplgrHrr/SvJYGxhOAIvlM29Djijg8J6bv4xkdpEU=",
+    "originContent": "        if(!Cursor.Direction) Cursor = kbts_Cursor(BreakState.MainDirection);",
+    "translatedContent": "        if(!Cursor.Direction) Cursor = kbts_Cursor(BreakState.MainDirection);"
+  },
+  {
+    "row": 87,
+    "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+    "originContent": "      }",
+    "translatedContent": "      }"
+  },
+  {
+    "row": 88,
+    "rowsha": "5BtdjWx32reuiKMmVagNnQoC2x2moZ2QHps+hiLZj0M=",
+    "originContent": "      if(Break.Flags & KBTS_BREAK_FLAG_SCRIPT)",
+    "translatedContent": "      if(Break.Flags & KBTS_BREAK_FLAG_SCRIPT)"
+  },
+  {
+    "row": 89,
+    "rowsha": "nomJGCQusBIh1hPv3RPJDeAXSCjkFHU4PKXYkjnd/gA=",
+    "originContent": "      {",
+    "translatedContent": "      {"
+  },
+  {
+    "row": 90,
+    "rowsha": "QWBJya4rNLSHiUQnnbrxkg1WS0Ps2kJbmiSgzI64Oh0=",
+    "originContent": "        Script = Break.Script;",
+    "translatedContent": "        Script = Break.Script;"
+  },
+  {
+    "row": 91,
+    "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+    "originContent": "      }",
+    "translatedContent": "      }"
+  },
+  {
+    "row": 92,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 93,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 94,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 95,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<translate-content></translate-content>"
+  }
+]

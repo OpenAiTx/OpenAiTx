@@ -1,0 +1,929 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Immich + cn-clip + RapidOCR + InsightFace\n\n<div style=\"text-align: center\"><p><a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=en\"><img src=\"https://img.shields.io/badge/EN-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=zh-CN\"><img src=\"https://img.shields.io/badge/简中-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=zh-TW\"><img src=\"https://img.shields.io/badge/繁中-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=ja\"><img src=\"https://img.shields.io/badge/日本語-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=ko\"><img src=\"https://img.shields.io/badge/한국어-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=th\"><img src=\"https://img.shields.io/badge/ไทย-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=fr\"><img src=\"https://img.shields.io/badge/Français-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=de\"><img src=\"https://img.shields.io/badge/Deutsch-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=es\"><img src=\"https://img.shields.io/badge/Español-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=it\"><img src=\"https://img.shields.io/badge/Italiano-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=ru\"><img src=\"https://img.shields.io/badge/Русский-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=pt\"><img src=\"https://img.shields.io/badge/Português-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=nl\"><img src=\"https://img.shields.io/badge/Nederlands-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=pl\"><img src=\"https://img.shields.io/badge/Polski-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=ar\"><img src=\"https://img.shields.io/badge/العربية-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=tr\"><img src=\"https://img.shields.io/badge/Türkçe-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=vi\"><img src=\"https://img.shields.io/badge/Tiếng Việt-white\" alt=\"version\"></a> </p></div>\n\n> ~~后续计划迁移到 ente-io/ente，因为我需要 s3 来存储照片~~\n> \n> ente 还是功能太少了\n> \n> 改成使用 juicedata/juicefs 挂载 s3\n\n## 项目简介\n\n本项目是 [Immich](https://github.com/immich-app/immich) 照片管理系统的 AI 能力增强解决方案。主要通过以下组件扩展了 Immich 的原生功能：\n\n- **inference-gateway**：Go 语言编写的网关服务，负责智能分流 Immich 的机器学习请求\n- **mt-photos-ai**：基于 Python 和 FastAPI 的 AI 服务，集成了 RapidOCR 和 cn-clip 模型\n- 对 Immich 的功能扩展，包括 OCR 文本识别搜索和单媒体 AI 数据重新处理，OCR 全文向量和 CLIP 向量打分混合排序\n- PostgreSQL 添加 zhparser 中文分词\n\n## 主要功能\n\n### 1. OCR 文字识别与搜索\n\n- 使用 RapidOCR 对图片中的文字进行识别\n- 支持中英文混合文本识别\n- 实现基于图片文字内容的搜索功能\n\n### 2. CLIP 图像向量处理\n\n- 基于 cn-clip 模型实现更准确的中文图像 - 文本匹配\n- 支持语义化搜索，提高搜索准确度\n\n### 3. 单媒体 AI 数据重新处理\n\n- 支持对单张图片/视频重新生成 OCR 数据\n- 支持对单张图片/视频重新生成 CLIP 向量数据\n- 针对识别结果不准确的情况提供手动刷新能力\n\n## 系统架构\n",
+    "ContentSha": "+LwL9poIerTyfITxvqhRbyVW48tvUlqhTiadiyp6viI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># Immich + cn-clip + RapidOCR + InsightFace\n\n<div style=\"text-align: center\"><p><a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=en\"><img src=\"https://img.shields.io/badge/EN-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=zh-CN\"><img src=\"https://img.shields.io/badge/简中-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=zh-TW\"><img src=\"https://img.shields.io/badge/繁中-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=ja\"><img src=\"https://img.shields.io/badge/日本語-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=ko\"><img src=\"https://img.shields.io/badge/한국어-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=th\"><img src=\"https://img.shields.io/badge/ไทย-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=fr\"><img src=\"https://img.shields.io/badge/Français-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=de\"><img src=\"https://img.shields.io/badge/Deutsch-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=es\"><img src=\"https://img.shields.io/badge/Español-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=it\"><img src=\"https://img.shields.io/badge/Italiano-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=ru\"><img src=\"https://img.shields.io/badge/Русский-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=pt\"><img src=\"https://img.shields.io/badge/Português-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=nl\"><img src=\"https://img.shields.io/badge/Nederlands-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=pl\"><img src=\"https://img.shields.io/badge/Polski-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=ar\"><img src=\"https://img.shields.io/badge/العربية-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=tr\"><img src=\"https://img.shields.io/badge/Türkçe-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=vi\"><img src=\"https://img.shields.io/badge/Tiếng Việt-white\" alt=\"version\"></a> </p></div>\n\n> ~~Docelowo planuję migrację do ente-io/ente, ponieważ potrzebuję s3 do przechowywania zdjęć~~\n> \n> ente nadal ma zbyt mało funkcji\n> \n> Zmieniono na użycie juicedata/juicefs do montowania s3\n\n## Opis projektu\n\nProjekt ten to rozwiązanie wzbogacające możliwości AI w systemie zarządzania zdjęciami [Immich](https://github.com/immich-app/immich). Rozwija natywne funkcje Immich głównie przez następujące komponenty:\n\n- **inference-gateway**: bramka napisana w Go, odpowiedzialna za inteligentne przekierowywanie żądań ML z Immich\n- **mt-photos-ai**: serwis AI oparty na Pythonie i FastAPI, integrujący modele RapidOCR i cn-clip\n- Rozszerzenia funkcjonalności Immich, w tym wyszukiwanie tekstu OCR oraz ponowne przetwarzanie danych AI dla pojedynczych mediów, mieszane sortowanie na podstawie wektorów OCR i CLIP\n- PostgreSQL z dodanym zhparser do segmentacji tekstu chińskiego\n\n## Najważniejsze funkcje\n\n### 1. Rozpoznawanie i wyszukiwanie tekstu OCR\n\n- Wykorzystanie RapidOCR do rozpoznawania tekstu na obrazach\n- Obsługa rozpoznawania tekstu w języku chińskim i angielskim\n- Możliwość wyszukiwania na podstawie tekstu znajdującego się na zdjęciu\n\n### 2. Przetwarzanie wektorów obrazów CLIP\n\n- Dokładniejsze dopasowanie obraz-tekst w języku chińskim w oparciu o model cn-clip\n- Wspiera wyszukiwanie semantyczne, zwiększając precyzję wyników\n\n### 3. Ponowne przetwarzanie danych AI dla pojedynczych mediów\n\n- Obsługa ponownego generowania danych OCR dla pojedynczego zdjęcia/wideo\n- Obsługa ponownego generowania wektorów CLIP dla pojedynczego zdjęcia/wideo\n- Możliwość ręcznego odświeżania w przypadku niedokładnych wyników rozpoznawania\n\n## Architektura systemu\n</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "HSaaAZVobooJvQMco0IWjAuQELpqyxsnz9wsEDpqeuY=",
+        "originContent": "# Immich + cn-clip + RapidOCR + InsightFace",
+        "translatedContent": "<translate-content># Immich + cn-clip + RapidOCR + InsightFace"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "tyPalcRytzwHxStem8TSBN/j7i2MKc4Y7sSUkbsLzfI=",
+        "originContent": "<div style=\"text-align: center\"><p><a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=en\"><img src=\"https://img.shields.io/badge/EN-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=zh-CN\"><img src=\"https://img.shields.io/badge/简中-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=zh-TW\"><img src=\"https://img.shields.io/badge/繁中-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=ja\"><img src=\"https://img.shields.io/badge/日本語-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=ko\"><img src=\"https://img.shields.io/badge/한국어-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=th\"><img src=\"https://img.shields.io/badge/ไทย-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=fr\"><img src=\"https://img.shields.io/badge/Français-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=de\"><img src=\"https://img.shields.io/badge/Deutsch-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=es\"><img src=\"https://img.shields.io/badge/Español-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=it\"><img src=\"https://img.shields.io/badge/Italiano-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=ru\"><img src=\"https://img.shields.io/badge/Русский-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=pt\"><img src=\"https://img.shields.io/badge/Português-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=nl\"><img src=\"https://img.shields.io/badge/Nederlands-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=pl\"><img src=\"https://img.shields.io/badge/Polski-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=ar\"><img src=\"https://img.shields.io/badge/العربية-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=tr\"><img src=\"https://img.shields.io/badge/Türkçe-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=vi\"><img src=\"https://img.shields.io/badge/Tiếng Việt-white\" alt=\"version\"></a> </p></div>",
+        "translatedContent": "<div style=\"text-align: center\"><p><a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=en\"><img src=\"https://img.shields.io/badge/EN-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=zh-CN\"><img src=\"https://img.shields.io/badge/简中-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=zh-TW\"><img src=\"https://img.shields.io/badge/繁中-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=ja\"><img src=\"https://img.shields.io/badge/日本語-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=ko\"><img src=\"https://img.shields.io/badge/한국어-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=th\"><img src=\"https://img.shields.io/badge/ไทย-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=fr\"><img src=\"https://img.shields.io/badge/Français-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=de\"><img src=\"https://img.shields.io/badge/Deutsch-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=es\"><img src=\"https://img.shields.io/badge/Español-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=it\"><img src=\"https://img.shields.io/badge/Italiano-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=ru\"><img src=\"https://img.shields.io/badge/Русский-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=pt\"><img src=\"https://img.shields.io/badge/Português-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=nl\"><img src=\"https://img.shields.io/badge/Nederlands-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=pl\"><img src=\"https://img.shields.io/badge/Polski-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=ar\"><img src=\"https://img.shields.io/badge/العربية-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=tr\"><img src=\"https://img.shields.io/badge/Türkçe-white\" alt=\"version\"></a> <a href=\"https://openaitx.github.io/view.html?user=eric-gitta-moore&project=immich-all-in-one&lang=vi\"><img src=\"https://img.shields.io/badge/Tiếng Việt-white\" alt=\"version\"></a> </p></div>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "P5W7vNrZntRzwZf/c3SYPW5CLIKelaSvm9/UOtMLYmo=",
+        "originContent": "> ~~后续计划迁移到 ente-io/ente，因为我需要 s3 来存储照片~~",
+        "translatedContent": "> ~~Docelowo planuję migrację do ente-io/ente, ponieważ potrzebuję s3 do przechowywania zdjęć~~"
+      },
+      {
+        "row": 6,
+        "rowsha": "7E+OPR98r724bpCLatg+QHrDaps++r2OJLVtgCKL5Ck=",
+        "originContent": "> ",
+        "translatedContent": "> "
+      },
+      {
+        "row": 7,
+        "rowsha": "cw4yosvuNQ2TET0x+mRh4bhe1WJ339r/W0UR/FwaPYE=",
+        "originContent": "> ente 还是功能太少了",
+        "translatedContent": "> ente nadal ma zbyt mało funkcji"
+      },
+      {
+        "row": 8,
+        "rowsha": "7E+OPR98r724bpCLatg+QHrDaps++r2OJLVtgCKL5Ck=",
+        "originContent": "> ",
+        "translatedContent": "> "
+      },
+      {
+        "row": 9,
+        "rowsha": "iFrEFBI6ZLLDRZIhV1X4xqdmon/QbtApGxDIiQ2zg2E=",
+        "originContent": "> 改成使用 juicedata/juicefs 挂载 s3",
+        "translatedContent": "> Zmieniono na użycie juicedata/juicefs do montowania s3"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "G9u+KdXQr1jrXKi7P9M3+MWkmvltCIPm/SxlOP8vw1E=",
+        "originContent": "## 项目简介",
+        "translatedContent": "## Opis projektu"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "exzIsE5oKmVKNFO0q4zww0P+DsRIL2x8CqZfHfL4yE4=",
+        "originContent": "本项目是 [Immich](https://github.com/immich-app/immich) 照片管理系统的 AI 能力增强解决方案。主要通过以下组件扩展了 Immich 的原生功能：",
+        "translatedContent": "Projekt ten to rozwiązanie wzbogacające możliwości AI w systemie zarządzania zdjęciami [Immich](https://github.com/immich-app/immich). Rozwija natywne funkcje Immich głównie przez następujące komponenty:"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "Gc7Mdh6kaoWcnq9tKKd+c/Bm5Cs4FJfuHPrSWiyqnus=",
+        "originContent": "- **inference-gateway**：Go 语言编写的网关服务，负责智能分流 Immich 的机器学习请求",
+        "translatedContent": "- **inference-gateway**: bramka napisana w Go, odpowiedzialna za inteligentne przekierowywanie żądań ML z Immich"
+      },
+      {
+        "row": 16,
+        "rowsha": "AUiyjF/DvxY+90vBz/bWWizP7mmUpSz/GwSAIviVjqI=",
+        "originContent": "- **mt-photos-ai**：基于 Python 和 FastAPI 的 AI 服务，集成了 RapidOCR 和 cn-clip 模型",
+        "translatedContent": "- **mt-photos-ai**: serwis AI oparty na Pythonie i FastAPI, integrujący modele RapidOCR i cn-clip"
+      },
+      {
+        "row": 17,
+        "rowsha": "+DLBtTr1+ZeBfJt3nv7aJ2iDzCmA/cUdaN2lOLWA35M=",
+        "originContent": "- 对 Immich 的功能扩展，包括 OCR 文本识别搜索和单媒体 AI 数据重新处理，OCR 全文向量和 CLIP 向量打分混合排序",
+        "translatedContent": "- Rozszerzenia funkcjonalności Immich, w tym wyszukiwanie tekstu OCR oraz ponowne przetwarzanie danych AI dla pojedynczych mediów, mieszane sortowanie na podstawie wektorów OCR i CLIP"
+      },
+      {
+        "row": 18,
+        "rowsha": "ypOheFccOJ908+yZwksPd/Mv5HjwTMBhi3a0dxWhHyk=",
+        "originContent": "- PostgreSQL 添加 zhparser 中文分词",
+        "translatedContent": "- PostgreSQL z dodanym zhparser do segmentacji tekstu chińskiego"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "FR/BRmK5szlqCuf9xWjIj52UuHuu7uG0o+AM8Ts++qI=",
+        "originContent": "## 主要功能",
+        "translatedContent": "## Najważniejsze funkcje"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "t1g5V2anFMZ/9qHZBOCckYyW6Y86QhYw2Wi6MsGWDw4=",
+        "originContent": "### 1. OCR 文字识别与搜索",
+        "translatedContent": "### 1. Rozpoznawanie i wyszukiwanie tekstu OCR"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "HNNESMqO1bxMrJaGkYI0BvrzwIoaTLIkpiSNkgNMcqk=",
+        "originContent": "- 使用 RapidOCR 对图片中的文字进行识别",
+        "translatedContent": "- Wykorzystanie RapidOCR do rozpoznawania tekstu na obrazach"
+      },
+      {
+        "row": 25,
+        "rowsha": "f3RlYCss5w9wrHQUFc3Sa/pajqle21EkeIDCJDczvhw=",
+        "originContent": "- 支持中英文混合文本识别",
+        "translatedContent": "- Obsługa rozpoznawania tekstu w języku chińskim i angielskim"
+      },
+      {
+        "row": 26,
+        "rowsha": "nvNChUS2Bfa+b2skL55E6+ilvUtpyp0C6tYJ/Bv9fQo=",
+        "originContent": "- 实现基于图片文字内容的搜索功能",
+        "translatedContent": "- Możliwość wyszukiwania na podstawie tekstu znajdującego się na zdjęciu"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "PlHoaiKZKKvmfQgKGPyk48GA43iK6Zd8aTA/sJ9MaNw=",
+        "originContent": "### 2. CLIP 图像向量处理",
+        "translatedContent": "### 2. Przetwarzanie wektorów obrazów CLIP"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "vlEcbRaYpeWqsmCYdRYcqJkXzvOBvx8UotV9BBi/BPU=",
+        "originContent": "- 基于 cn-clip 模型实现更准确的中文图像 - 文本匹配",
+        "translatedContent": "- Dokładniejsze dopasowanie obraz-tekst w języku chińskim w oparciu o model cn-clip"
+      },
+      {
+        "row": 31,
+        "rowsha": "VkSxey9whIyhlF0cg1GAIFVtOp30ZwvFaeAj6HMc2k0=",
+        "originContent": "- 支持语义化搜索，提高搜索准确度",
+        "translatedContent": "- Wspiera wyszukiwanie semantyczne, zwiększając precyzję wyników"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "/gQTVA32I7zb3cXkp3wetlYWbbgFtP+5mq9Kx+zY/Ls=",
+        "originContent": "### 3. 单媒体 AI 数据重新处理",
+        "translatedContent": "### 3. Ponowne przetwarzanie danych AI dla pojedynczych mediów"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "3Gt7aedCEfjeZQ/gLiG5CO7JVggfabA9bfNvKu9x+gc=",
+        "originContent": "- 支持对单张图片/视频重新生成 OCR 数据",
+        "translatedContent": "- Obsługa ponownego generowania danych OCR dla pojedynczego zdjęcia/wideo"
+      },
+      {
+        "row": 36,
+        "rowsha": "fGLQholCCe+VgytNenAw6/aZO51d9zCvmN9VTXeAC4I=",
+        "originContent": "- 支持对单张图片/视频重新生成 CLIP 向量数据",
+        "translatedContent": "- Obsługa ponownego generowania wektorów CLIP dla pojedynczego zdjęcia/wideo"
+      },
+      {
+        "row": 37,
+        "rowsha": "DACghdL4gD1btI2p9EyKTgNssx36JL7ezmca3mh8WJs=",
+        "originContent": "- 针对识别结果不准确的情况提供手动刷新能力",
+        "translatedContent": "- Możliwość ręcznego odświeżania w przypadku niedokładnych wyników rozpoznawania"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "CxTwd4KrDbegigo94Kv2sE66GZ8103K/HKaw2qeJoKU=",
+        "originContent": "## 系统架构",
+        "translatedContent": "## Architektura systemu"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\n┌─────────────┐      ┌──────────────────┐      ┌───────────────┐\n│             │      │                  │      │               │\n│   Immich    │─────▶│ inference-gateway│─────▶│  Immich ML    │\n│   Server    │      │    (Go网关)      │      │   Server      │\n│             │      │                  │      │               │\n└─────────────┘      └──────────────────┘      └───────────────┘\n                              │\n                              │ OCR/CLIP请求\n                              ▼\n                     ┌──────────────────┐\n                     │                  │\n                     │   mt-photos-ai   │\n                     │  (Python服务)    │\n                     │                  │\n                     └──────────────────┘\n```",
+    "ContentSha": "7rqA88JzCIkAp5UvMHp23SdRHMV3jCenRaSZN9iaF3E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n┌─────────────┐      ┌──────────────────┐      ┌───────────────┐\n│             │      │                  │      │               │\n│   Immich    │─────▶│ inference-gateway│─────▶│  Immich ML    │\n│   Server    │      │    (Go网关)      │      │   Server      │\n│             │      │                  │      │               │\n└─────────────┘      └──────────────────┘      └───────────────┘\n                              │\n                              │ OCR/CLIP请求\n                              ▼\n                     ┌──────────────────┐\n                     │                  │\n                     │   mt-photos-ai   │\n                     │  (Python服务)    │\n                     │                  │\n                     └──────────────────┘\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## 组件详解\n\n### inference-gateway\n\nGo 语言编写的网关服务，主要职责：\n- 接收 Immich 的机器学习请求\n- 根据请求类型将 OCR 和 CLIP 请求转发到 mt-photos-ai 服务\n- 将其他机器学习请求（如人脸识别）转发到 Immich 原生的机器学习服务\n- 处理认证和数据格式转换\n\n### mt-photos-ai\n\nPython 和 FastAPI 编写的 AI 服务，提供：\n- OCR 文字识别 API（基于 RapidOCR）\n- CLIP 向量处理 API（基于 cn-clip）\n- 支持 GPU 加速\n\n## 部署说明\n\n### 环境要求\n\n- Docker 和 Docker Compose\n- NVIDIA GPU (可选，但推荐用于加速处理)\n- 足够的存储空间\n\n### 配置说明\n\n1. **inference-gateway 配置**\n\n主要环境变量：",
+    "ContentSha": "kjIGkMEn44KitN0lEOcRmdt2X2Ph0MLy/sActsUM1Pk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Szczegółowy opis komponentów\n\n### inference-gateway\n\nUsługa bramki napisana w języku Go, główne zadania:\n- Odbieranie żądań uczenia maszynowego od Immich\n- Przekazywanie żądań OCR i CLIP do usługi mt-photos-ai w zależności od typu żądania\n- Przekazywanie innych żądań uczenia maszynowego (np. rozpoznawania twarzy) do natywnej usługi uczenia maszynowego Immich\n- Obsługa autoryzacji i konwersji formatów danych\n\n### mt-photos-ai\n\nUsługa AI napisana w Pythonie i FastAPI, oferuje:\n- API do rozpoznawania tekstu OCR (oparte na RapidOCR)\n- API do przetwarzania wektorów CLIP (oparte na cn-clip)\n- Obsługa akceleracji GPU\n\n## Instrukcja wdrożenia\n\n### Wymagania środowiskowe\n\n- Docker i Docker Compose\n- Karta NVIDIA GPU (opcjonalnie, ale zalecana do przyspieszenia przetwarzania)\n- Wystarczająca ilość miejsca na dysku\n\n### Instrukcja konfiguracji\n\n1. **Konfiguracja inference-gateway**\n\nGłówne zmienne środowiskowe:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Szczegółowy opis komponentów"
+      },
+      {
+        "row": 2,
+        "rowsha": "PJvi3Nj2gajk6pPB6GGOhoCUMbxbKn41msSuNXhOze0=",
+        "originContent": "## 组件详解",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### inference-gateway"
+      },
+      {
+        "row": 4,
+        "rowsha": "b2WOkB0Z3cDEXJhFCqrBtoDsXWalQf/XOvBjXsz0lqE=",
+        "originContent": "### inference-gateway",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Usługa bramki napisana w języku Go, główne zadania:"
+      },
+      {
+        "row": 6,
+        "rowsha": "fGvSG50vDEHddhaGI9r/UeMZWMHnewGiVTsmbaMJAPU=",
+        "originContent": "Go 语言编写的网关服务，主要职责：",
+        "translatedContent": "- Odbieranie żądań uczenia maszynowego od Immich"
+      },
+      {
+        "row": 7,
+        "rowsha": "iZH9hvbn+iwtwPT1HQjKg+0Z4bvM7g4Vd+9IWdjBDjs=",
+        "originContent": "- 接收 Immich 的机器学习请求",
+        "translatedContent": "- Przekazywanie żądań OCR i CLIP do usługi mt-photos-ai w zależności od typu żądania"
+      },
+      {
+        "row": 8,
+        "rowsha": "YtO5pfwjhSioufVMsZX9ozNq1J2rFKNH7y3Ae9dhF1A=",
+        "originContent": "- 根据请求类型将 OCR 和 CLIP 请求转发到 mt-photos-ai 服务",
+        "translatedContent": "- Przekazywanie innych żądań uczenia maszynowego (np. rozpoznawania twarzy) do natywnej usługi uczenia maszynowego Immich"
+      },
+      {
+        "row": 9,
+        "rowsha": "/oR6qpXI+zei2C8/tmMDwM7uaVkYmGISAxPmyJsKSFY=",
+        "originContent": "- 将其他机器学习请求（如人脸识别）转发到 Immich 原生的机器学习服务",
+        "translatedContent": "- Obsługa autoryzacji i konwersji formatów danych"
+      },
+      {
+        "row": 10,
+        "rowsha": "kQZ8n1zpdgnXt2QEd3kXxONYDMhlpeVudnlbqNszYVk=",
+        "originContent": "- 处理认证和数据格式转换",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### mt-photos-ai"
+      },
+      {
+        "row": 12,
+        "rowsha": "GJVj+rp3+31Zfw6Ot0qKcYdLWJgb/x6TpPLsoZ5j/Xc=",
+        "originContent": "### mt-photos-ai",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Usługa AI napisana w Pythonie i FastAPI, oferuje:"
+      },
+      {
+        "row": 14,
+        "rowsha": "i7JDfrrDLey7GsiyoZl4FtTEMdXOXlbepsSoOUlTV8Y=",
+        "originContent": "Python 和 FastAPI 编写的 AI 服务，提供：",
+        "translatedContent": "- API do rozpoznawania tekstu OCR (oparte na RapidOCR)"
+      },
+      {
+        "row": 15,
+        "rowsha": "b86x+l3p1BQ3loQmFzLgs+6H/twwFBJ8UiEFKH68MEo=",
+        "originContent": "- OCR 文字识别 API（基于 RapidOCR）",
+        "translatedContent": "- API do przetwarzania wektorów CLIP (oparte na cn-clip)"
+      },
+      {
+        "row": 16,
+        "rowsha": "Z5MV5YSrH+XgGHSRO0ECaO1SJFOKTunk7rnyf2LZDZ0=",
+        "originContent": "- CLIP 向量处理 API（基于 cn-clip）",
+        "translatedContent": "- Obsługa akceleracji GPU"
+      },
+      {
+        "row": 17,
+        "rowsha": "dE7cPjJolVxDhXsOFAAobSQkS71ENX1Tm5kageLBHhY=",
+        "originContent": "- 支持 GPU 加速",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Instrukcja wdrożenia"
+      },
+      {
+        "row": 19,
+        "rowsha": "wNceZ/iwgbsRb42P/DQktlSMRDEG1P44OkJudEDlZJo=",
+        "originContent": "## 部署说明",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Wymagania środowiskowe"
+      },
+      {
+        "row": 21,
+        "rowsha": "+r2y2uXVS4A9gUZOoxSZy1nkMpyD7saUQ4rPpon3Ucw=",
+        "originContent": "### 环境要求",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Docker i Docker Compose"
+      },
+      {
+        "row": 23,
+        "rowsha": "hUFpSEVaOr6EVPcJSTRKZ7vlwe1wdw4ofH4778P3rTk=",
+        "originContent": "- Docker 和 Docker Compose",
+        "translatedContent": "- Karta NVIDIA GPU (opcjonalnie, ale zalecana do przyspieszenia przetwarzania)"
+      },
+      {
+        "row": 24,
+        "rowsha": "5Xmi+IHdCujUzPaqPt4WVlX3PvKhbL6So7rSy9ZOVvk=",
+        "originContent": "- NVIDIA GPU (可选，但推荐用于加速处理)",
+        "translatedContent": "- Wystarczająca ilość miejsca na dysku"
+      },
+      {
+        "row": 25,
+        "rowsha": "TLEGl/Gk3iN/gPyfqTO2V1YTbR+FzbtmAPvuBE13sfg=",
+        "originContent": "- 足够的存储空间",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Instrukcja konfiguracji"
+      },
+      {
+        "row": 27,
+        "rowsha": "kbWQjGNVwf7kSAeOfj9m+RcCU1xXBPzqQmR3gnpvn/k=",
+        "originContent": "### 配置说明",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. **Konfiguracja inference-gateway**"
+      },
+      {
+        "row": 29,
+        "rowsha": "Tdfn+YYznCues+v09O+sUqjZJN1IqhIl98P1vsz5DbU=",
+        "originContent": "1. **inference-gateway 配置**",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Główne zmienne środowiskowe:"
+      },
+      {
+        "row": 31,
+        "rowsha": "z/2z15P4Mf0wYpgdW5mHxqlBtJPbz6pK9soCiw6WyjI=",
+        "originContent": "主要环境变量：",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\nIMMICH_API=http://localhost:3003  # Immich API地址\nMT_PHOTOS_API=http://localhost:8060  # mt-photos-ai服务地址\nMT_PHOTOS_API_KEY=mt_photos_ai_extra  # API密钥\nPORT=8080  # 网关监听端口\n```",
+    "ContentSha": "0U3j43j3Efz7XBxmlpmnyHnm8/5ICgsfzmKnPN8NBZA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nIMMICH_API=http://localhost:3003  # Immich API地址\nMT_PHOTOS_API=http://localhost:8060  # mt-photos-ai服务地址\nMT_PHOTOS_API_KEY=mt_photos_ai_extra  # API密钥\nPORT=8080  # 网关监听端口\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n2. **mt-photos-ai 配置**\n\n主要环境变量：",
+    "ContentSha": "zoB5SJYPMh6dCHNjixHmwTmh4EBEL90pFU/vaZMXVk8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. **mt-photos-ai konfiguracja**\n\nGłówne zmienne środowiskowe:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. **mt-photos-ai konfiguracja**"
+      },
+      {
+        "row": 2,
+        "rowsha": "H+EF7kXU+2iiZl9IaYZ5k0PpBY/V/pA1MQmWBs1Ammc=",
+        "originContent": "2. **mt-photos-ai 配置**",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Główne zmienne środowiskowe:"
+      },
+      {
+        "row": 4,
+        "rowsha": "z/2z15P4Mf0wYpgdW5mHxqlBtJPbz6pK9soCiw6WyjI=",
+        "originContent": "主要环境变量：",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\nCLIP_MODEL=ViT-B-16  # CLIP模型名称\nCLIP_DOWNLOAD_ROOT=./models/clip  # 模型下载路径\nDEVICE=cuda  # 或 cpu，推理设备\nHTTP_PORT=8060  # 服务监听端口\n```",
+    "ContentSha": "orbIYrX2VF4aD5BYrVeqg11wrQeP8pibkUyHQ3SWirU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nCLIP_MODEL=ViT-B-16  # CLIP模型名称\nCLIP_DOWNLOAD_ROOT=./models/clip  # 模型下载路径\nDEVICE=cuda  # 或 cpu，推理设备\nHTTP_PORT=8060  # 服务监听端口\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### 部署步骤\n\n1. 克隆仓库：",
+    "ContentSha": "QKalva0wkKbfFwltMWiUiSn7Ap4H2x4as/sgYhKg/is=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Kroki wdrożenia\n\n1. Sklonuj repozytorium:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Kroki wdrożenia"
+      },
+      {
+        "row": 2,
+        "rowsha": "QOYdKyMmJpy1NhQXvwxkcyQEAEtJKi1BtSjePRL5efQ=",
+        "originContent": "### 部署步骤",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. Sklonuj repozytorium:"
+      },
+      {
+        "row": 4,
+        "rowsha": "ywLnpHDoSe8vQrjI4qjLBNBJ900YbZ5974V0B5Cgsc8=",
+        "originContent": "1. 克隆仓库：",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\ngit clone https://github.com/你的用户名/immich-all-in-one.git\ncd immich-all-in-one\n```",
+    "ContentSha": "KWJj4Z9/6Or6siJf5coOqIGE8SHzqqqQjX6Ra5hBA+4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/你的用户名/immich-all-in-one.git\ncd immich-all-in-one\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n2. 启动服务：",
+    "ContentSha": "Jnc96XMinI7T697Ui+bpAk5gVjPLjtrN1hm9qtc26x0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. Uruchom usługę:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. Uruchom usługę:"
+      },
+      {
+        "row": 2,
+        "rowsha": "9tNxr12nmcg3HlLvHpGFAT15sZ6ZkjV2GuWM/7u1ezY=",
+        "originContent": "2. 启动服务：",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\ndocker-compose up -d\n```",
+    "ContentSha": "wAbkwnBVmk0j1q9Ts4EYeodUMWzefwTxyZX/8ZLWftE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ndocker-compose up -d\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## 使用说明\n\n1. **配置 Immich 使用自定义 ML 服务**\n\n在 Immich 的配置文件中，将机器学习服务地址指向 inference-gateway：",
+    "ContentSha": "mnCgJ+ZvSoIwu1OUqs8D8a1ESQsad0VRJqRh4rvuvXQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Instrukcja użytkowania\n\n1. **Konfiguracja Immich do używania niestandardowej usługi ML**\n\nW pliku konfiguracyjnym Immich ustaw adres usługi uczenia maszynowego na inference-gateway:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Instrukcja użytkowania"
+      },
+      {
+        "row": 2,
+        "rowsha": "R3/EjJjnxYNmdRG6ikBTYFybRBPyQGDIVWMxpdJsE7k=",
+        "originContent": "## 使用说明",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. **Konfiguracja Immich do używania niestandardowej usługi ML**"
+      },
+      {
+        "row": 4,
+        "rowsha": "+XuGLkHDjkBZaOV6bsblzep/VRb0TUCKJrVxxJnctU0=",
+        "originContent": "1. **配置 Immich 使用自定义 ML 服务**",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "W pliku konfiguracyjnym Immich ustaw adres usługi uczenia maszynowego na inference-gateway:"
+      },
+      {
+        "row": 6,
+        "rowsha": "kSnRgNju/INRCl6vsuJpTFQ0VquKpjMdFFH2YIRGFz8=",
+        "originContent": "在 Immich 的配置文件中，将机器学习服务地址指向 inference-gateway：",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```\nMACHINE_LEARNING_URL=http://inference-gateway:8080\n```",
+    "ContentSha": "b7TK3zqewpzd6p6GeELQ4p0e4GJGmCvmyuRG5uReAYQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nMACHINE_LEARNING_URL=http://inference-gateway:8080\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n2. **OCR 搜索使用**\n\n- 在 Immich 搜索栏中使用`ocr:`前缀进行 OCR 搜索\n- 例如：`ocr:发票` 将搜索图片中包含\"发票\"文字的照片\n\n3. **单媒体 AI 数据重新处理**\n\n- 在照片详情页面，点击菜单选项\n- 选择\"重新生成 OCR 数据\"或\"重新生成 CLIP 向量\"\n- 系统将重新处理该照片的 AI 数据\n\n## 开发指南\n\n### inference-gateway (Go)\n\n编译运行：",
+    "ContentSha": "niTKm8rA2VCGcPtGnRYliW2tXSaLjHfGbywdBLbN8hI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. **Użycie wyszukiwania OCR**\n\n- W pasku wyszukiwania Immich użyj prefiksu `ocr:` do wyszukiwania OCR\n- Na przykład: `ocr:faktura` wyszuka zdjęcia zawierające słowo \"faktura\" na obrazach\n\n3. **Ponowne przetwarzanie danych AI dla pojedynczego medium**\n\n- Na stronie szczegółów zdjęcia kliknij opcje menu\n- Wybierz \"Wygeneruj ponownie dane OCR\" lub \"Wygeneruj ponownie wektory CLIP\"\n- System ponownie przetworzy dane AI tego zdjęcia\n\n## Przewodnik dla deweloperów\n\n### inference-gateway (Go)\n\nKompilacja i uruchamianie:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. **Użycie wyszukiwania OCR**"
+      },
+      {
+        "row": 2,
+        "rowsha": "Z7I72v6AhhR9Fgc0BlkgE0C/8xjji6dedSDq6U4M9X0=",
+        "originContent": "2. **OCR 搜索使用**",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- W pasku wyszukiwania Immich użyj prefiksu `ocr:` do wyszukiwania OCR"
+      },
+      {
+        "row": 4,
+        "rowsha": "FywBNZD4mvkmA47IH5AvXFb9xOOYWwH13ZT1csCXmec=",
+        "originContent": "- 在 Immich 搜索栏中使用`ocr:`前缀进行 OCR 搜索",
+        "translatedContent": "- Na przykład: `ocr:faktura` wyszuka zdjęcia zawierające słowo \"faktura\" na obrazach"
+      },
+      {
+        "row": 5,
+        "rowsha": "SMZW/MISLa+uvcSk/PaDO99QfWCvFK3tclzFQsP+9xk=",
+        "originContent": "- 例如：`ocr:发票` 将搜索图片中包含\"发票\"文字的照片",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. **Ponowne przetwarzanie danych AI dla pojedynczego medium**"
+      },
+      {
+        "row": 7,
+        "rowsha": "4BNBYs0ac9n7X81lCM7N+r2pW7q0aERDXQsBXGM5bkM=",
+        "originContent": "3. **单媒体 AI 数据重新处理**",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Na stronie szczegółów zdjęcia kliknij opcje menu"
+      },
+      {
+        "row": 9,
+        "rowsha": "I6AgLZmgdz3TMX4sDIq0Zxpff5TrY+TWpvvIS11oTuM=",
+        "originContent": "- 在照片详情页面，点击菜单选项",
+        "translatedContent": "- Wybierz \"Wygeneruj ponownie dane OCR\" lub \"Wygeneruj ponownie wektory CLIP\""
+      },
+      {
+        "row": 10,
+        "rowsha": "EZhmi3aQBJ40Jd+5iXb5tnQ2ynMx0LIkaK5sztH8CA8=",
+        "originContent": "- 选择\"重新生成 OCR 数据\"或\"重新生成 CLIP 向量\"",
+        "translatedContent": "- System ponownie przetworzy dane AI tego zdjęcia"
+      },
+      {
+        "row": 11,
+        "rowsha": "ySZjEqavvf8N1iP5UGxw4IukQFBFBnwgI6PXvbL2QeA=",
+        "originContent": "- 系统将重新处理该照片的 AI 数据",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Przewodnik dla deweloperów"
+      },
+      {
+        "row": 13,
+        "rowsha": "t4oQEjhGnFVNhayOoVOAmMBfglIcMJsxkPHABDVAnUE=",
+        "originContent": "## 开发指南",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### inference-gateway (Go)"
+      },
+      {
+        "row": 15,
+        "rowsha": "hPz15VOwjvBGxF/3WEmZ2LvY++rapsmq0LYg30LvXF8=",
+        "originContent": "### inference-gateway (Go)",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Kompilacja i uruchamianie:"
+      },
+      {
+        "row": 17,
+        "rowsha": "zlHm65mvDbkoda74ls2hPKbX/QLYn9ytspYhyfyS9nw=",
+        "originContent": "编译运行：",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```bash\ncd inference-gateway\ngo build\n./inference-gateway\n```",
+    "ContentSha": "o7LF+gdOYN/QJ8LGzl05vq7Bd5ngyYpBY1ge+putmj8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncd inference-gateway\ngo build\n./inference-gateway\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n### mt-photos-ai (Python)\n\n开发环境设置：",
+    "ContentSha": "ScI9rCQ/bUTXhhDON2ChoUhaMM9QNGiiaZKPCuAWAH4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### mt-photos-ai (Python)\n\nUstawienia środowiska deweloperskiego:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### mt-photos-ai (Python)"
+      },
+      {
+        "row": 2,
+        "rowsha": "WWsQJn9lmeDVyV3Q2QjLVK/dENX+1eASfhjYBUEgm1k=",
+        "originContent": "### mt-photos-ai (Python)",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Ustawienia środowiska deweloperskiego:"
+      },
+      {
+        "row": 4,
+        "rowsha": "VhO9SC/PPP9+2Ng/cHQJpbr7JQcnGSLb6agUCTrl3Uc=",
+        "originContent": "开发环境设置：",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```bash\ncd mt-photos-ai\npip install -r requirements.txt\npython -m app.main\n```",
+    "ContentSha": "n913JXmsNUbN/79eUPSR5y7mKtjXuPm0TmXrkgiLq4s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncd mt-photos-ai\npip install -r requirements.txt\npython -m app.main\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n## 许可证\n\n本项目基于 MIT 许可证开源。\n\n## 鸣谢\n\n- [Immich](https://github.com/immich-app/immich) - 开源自托管照片和视频备份解决方案\n- [RapidOCR](https://github.com/RapidAI/RapidOCR) - 基于 PaddleOCR 的跨平台 OCR 库\n- [cn-clip](https://github.com/OFA-Sys/Chinese-CLIP) - 中文多模态对比学习预训练模型\n",
+    "ContentSha": "CV6uKxYdGF/Cbo92pJlTciv17SLb3NFQWtXfj+Wjv1U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Licencja\n\nTen projekt jest otwarty na licencji MIT.\n\n## Podziękowania\n\n- [Immich](https://github.com/immich-app/immich) - otwartoźródłowe, samodzielnie hostowane rozwiązanie do tworzenia kopii zapasowych zdjęć i filmów\n- [RapidOCR](https://github.com/RapidAI/RapidOCR) - wieloplatformowa biblioteka OCR oparta na PaddleOCR\n- [cn-clip](https://github.com/OFA-Sys/Chinese-CLIP) - chiński, multimodalny, wstępnie wytrenowany model uczenia przez porównanie\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Licencja"
+      },
+      {
+        "row": 2,
+        "rowsha": "l9mHJhM0bkQldVQ8sqfWeieeIFtAwhD/P/KiVcLUJww=",
+        "originContent": "## 许可证",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Ten projekt jest otwarty na licencji MIT."
+      },
+      {
+        "row": 4,
+        "rowsha": "rQStIm7R/QconZSunucjMl6QjWwNpGZ21tveoKthoVU=",
+        "originContent": "本项目基于 MIT 许可证开源。",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Podziękowania"
+      },
+      {
+        "row": 6,
+        "rowsha": "hJYUDZbTWz113hCglxe1m5lviyUCnfs+dMuPiR5Q5Og=",
+        "originContent": "## 鸣谢",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [Immich](https://github.com/immich-app/immich) - otwartoźródłowe, samodzielnie hostowane rozwiązanie do tworzenia kopii zapasowych zdjęć i filmów"
+      },
+      {
+        "row": 8,
+        "rowsha": "MEXHi2v+uYDDP4p8LegxIXaX3yJIxIwh/JpTAK0orFA=",
+        "originContent": "- [Immich](https://github.com/immich-app/immich) - 开源自托管照片和视频备份解决方案",
+        "translatedContent": "- [RapidOCR](https://github.com/RapidAI/RapidOCR) - wieloplatformowa biblioteka OCR oparta na PaddleOCR"
+      },
+      {
+        "row": 9,
+        "rowsha": "iLT6cTqfeGblG6TQEgWn5XT+cNvHyi9TAQDr/EdaxD8=",
+        "originContent": "- [RapidOCR](https://github.com/RapidAI/RapidOCR) - 基于 PaddleOCR 的跨平台 OCR 库",
+        "translatedContent": "- [cn-clip](https://github.com/OFA-Sys/Chinese-CLIP) - chiński, multimodalny, wstępnie wytrenowany model uczenia przez porównanie"
+      },
+      {
+        "row": 10,
+        "rowsha": "gVGwUJ6WvzKKUlhLNkVuPdZtpLIAJb+mpWCd7Nt4O90=",
+        "originContent": "- [cn-clip](https://github.com/OFA-Sys/Chinese-CLIP) - 中文多模态对比学习预训练模型",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
