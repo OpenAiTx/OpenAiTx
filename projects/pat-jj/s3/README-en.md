@@ -1,3 +1,33 @@
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=id">Indonesian</a>
+      </div>
+    </div>
+  </details>
+</div>
+
 <div align="center">
 
 # s3 - Efficient Yet Effective Search Agent Training via RL
@@ -40,6 +70,7 @@
 ## 📦 Installation
 
 **Searcher & Generator Environment**
+
 ```bash
 conda create -n s3 python=3.9
 # install torch [or you can skip this step and let vllm to install the correct version for you]
@@ -188,6 +219,6 @@ Thanks for your interest in our work!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
 
 ---

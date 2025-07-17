@@ -1,7 +1,37 @@
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
+
 <div align="center">
 
 # s3 - 通过强化学习实现高效且有效的搜索代理训练
-***训练搜索代理不需要那么多数据***
+***你不需要那么多数据来训练搜索代理***
 
 <p align="center">
 
@@ -25,7 +55,7 @@
 **s3 框架**
 </div>
 
-`s3` 是一个简单而强大的框架，用于训练检索增强生成（RAG）中的搜索代理。它教会语言模型如何更有效地搜索——而无需更改生成器本身。通过专注于搜索组件，`s3` 只用先前方法的一小部分数据就能在问答任务中实现强劲的性能。它模块化、高效，并设计为能无缝兼容任何黑盒大语言模型（LLM）。
+`s3` 是一个简单而强大的框架，用于在检索增强生成（RAG）中训练搜索代理。它教会语言模型如何更有效地进行搜索——而无需改变生成器本身。通过仅专注于搜索组件，`s3` 在使用远少于以往方法数据量的前提下，在问答任务上取得了强劲的表现。它模块化、高效，并设计为可与任意黑盒大语言模型无缝协作。
 
 
 
@@ -39,7 +69,8 @@
 
 ## 📦 安装
 
-**搜索器 & 生成器环境**
+**Searcher & Generator 环境**
+
 ```bash
 conda create -n s3 python=3.9
 # install torch [or you can skip this step and let vllm to install the correct version for you]
@@ -188,6 +219,6 @@ bash scripts/evaluation/run.sh
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
 
 ---

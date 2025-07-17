@@ -1,7 +1,37 @@
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
+
 <div align="center">
 
-# s3 - 効率的かつ効果的な検索エージェントの強化学習による訓練  
-***検索エージェントの訓練にそれほど多くのデータは必要ありません***
+# s3 - 効率的かつ効果的な検索エージェントのRLによるトレーニング
+***検索エージェントのトレーニングには、そんなに多くのデータは必要ありません***
 
 <p align="center">
 
@@ -11,21 +41,21 @@
 </p>
 </div>
 
-**パフォーマンス概要：**
+**パフォーマンス概要:**
 
 <img src="https://raw.githubusercontent.com/pat-jj/s3/main/images/performance_overview.png" alt="performance_overview" width="800">
 
 
 
-## s3とは何か？
+## s3とは？
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/pat-jj/s3/main/images/framework.png" alt="framework" width="800">
 
-**s3フレームワーク**
+**s3 フレームワーク**
 </div>
 
-`s3`は、検索強化生成（RAG）における検索エージェントの訓練のためのシンプルかつ強力なフレームワークです。ジェネレーター自体を変更することなく、言語モデルにより効果的な検索方法を教えます。検索コンポーネントのみに焦点を当てることで、`s3`は従来の手法のごく一部のデータ量でQAタスクにおいて高い性能を実現します。モジュラー設計で効率的、そして任意のブラックボックスLLMとシームレスに連携するよう設計されています。
+`s3`は、検索エージェントを検索強化生成（RAG）でトレーニングするための、シンプルかつ強力なフレームワークです。これは、生成器自体を変更せずに言語モデルにより効果的な検索方法を教えます。検索コンポーネントのみに焦点を当てることで、`s3`は従来手法のほんの一部のデータで、QAタスクにおいて高いパフォーマンスを実現します。モジュール型で効率的、かつどんなブラックボックス型LLMともシームレスに動作する設計です。
 
 
 
@@ -33,13 +63,14 @@
 
 - [📦 インストール](#-installation)
 - [💡 準備](#-preparation)
-- [🏋️ 訓練の実行](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-run-training)
-- [🔍 検索／取得の実行](https://github.com/pat-jj/s3?tab=readme-ov-file#-run-searchretrieval)
+- [🏋️ トレーニングの実行](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-run-training)
+- [🔍 検索/検索実行](https://github.com/pat-jj/s3?tab=readme-ov-file#-run-searchretrieval)
 - [📈 評価の実行](#-run-evaluation)
 
 ## 📦 インストール
 
-**検索エージェント & ジェネレーター環境**
+**Searcher & Generator 環境**
+
 ```bash
 conda create -n s3 python=3.9
 # install torch [or you can skip this step and let vllm to install the correct version for you]
@@ -188,6 +219,6 @@ bash scripts/evaluation/run.sh
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
 
 ---

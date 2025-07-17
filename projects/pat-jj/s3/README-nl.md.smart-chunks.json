@@ -1,0 +1,1530 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=it\">Itapano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n<div align=\"center\">\n\n# s3 - Efficient Yet Effective Search Agent Training via RL\n***You Don't Need That Much Data to Train a Search Agent***\n\n<p align=\"center\">\n\n  <a href=\"https://arxiv.org/abs/2505.14146\">\n    <img src=\"https://img.shields.io/badge/arXiv-2505.14146-b31b1b.svg\" alt=\"arXiv\">\n  </a>\n</p>\n</div>\n\n**Performance Overview:**\n\n<img src=\"https://raw.githubusercontent.com/pat-jj/s3/main/images/performance_overview.png\" alt=\"performance_overview\" width=\"800\">\n\n\n\n## What is s3?\n\n<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/pat-jj/s3/main/images/framework.png\" alt=\"framework\" width=\"800\">\n\n**s3 Framework**\n</div>\n\n`s3` is a simple yet powerful framework for training search agents in retrieval-augmented generation (RAG). It teaches language models how to search more effectively—without changing the generator itself. By focusing solely on the search component, `s3` achieves strong performance across QA tasks with just a fraction of the data used by prior methods. It's modular, efficient, and designed to work seamlessly with any black-box LLM.\n\n\n\n## Table of Contents\n\n- [📦 Installation](#-installation)\n- [💡 Preparation](#-preparation)\n- [🏋️ Run Training](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-run-training)\n- [🔍 Run Search/Retrieval](https://github.com/pat-jj/s3?tab=readme-ov-file#-run-searchretrieval)\n- [📈 Run Evaluation](#-run-evaluation)\n\n## 📦 Installation\n\n**Searcher & Generator Environment**",
+    "ContentSha": "PJISBfUOw9qglFgs6tB7lnDUZyBA88gTzFKmUzSiw04=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 Taal</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=en\">Engels</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=it\">Italiaans</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pt\">Portugees</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pl\">Pools</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=tr\">Turks</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=vi\">Vietnamees</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n<div align=\"center\">\n\n# s3 - Efficiënte maar Effectieve Search Agent Training via RL\n***Je hebt niet zoveel data nodig om een zoekagent te trainen***\n\n<p align=\"center\">\n\n  <a href=\"https://arxiv.org/abs/2505.14146\">\n    <img src=\"https://img.shields.io/badge/arXiv-2505.14146-b31b1b.svg\" alt=\"arXiv\">\n  </a>\n</p>\n</div>\n\n**Prestatieoverzicht:**\n\n<img src=\"https://raw.githubusercontent.com/pat-jj/s3/main/images/performance_overview.png\" alt=\"performance_overview\" width=\"800\">\n\n\n\n## Wat is s3?\n\n<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/pat-jj/s3/main/images/framework.png\" alt=\"framework\" width=\"800\">\n\n**s3 Framework**\n</div>\n\n`s3` is een eenvoudig maar krachtig framework voor het trainen van zoekagenten in retrieval-augmented generation (RAG). Het leert taalmodellen effectiever te zoeken—zonder de generator zelf te veranderen. Door zich uitsluitend op het zoekonderdeel te richten, behaalt `s3` sterke prestaties bij QA-taken met slechts een fractie van de data die door eerdere methoden werd gebruikt. Het is modulair, efficiënt en ontworpen om naadloos samen te werken met elke black-box LLM.\n\n\n\n## Inhoudsopgave\n\n- [📦 Installatie](#-installatie)\n- [💡 Voorbereiding](#-voorbereiding)\n- [🏋️ Training Uitvoeren](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-run-training)\n- [🔍 Search/Retrieval Uitvoeren](https://github.com/pat-jj/s3?tab=readme-ov-file#-run-searchretrieval)\n- [📈 Evaluatie Uitvoeren](#-run-evaluatie)\n\n## 📦 Installatie\n\n**Searcher & Generator Omgeving**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "    <summary >🌐 Taal</summary>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=en\">Engels</a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "+zfYR86ukfDmcbKkX1Kv4Pqi2D0+YTgHJ4Ekgr4+Z7Q=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=en\">English</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "Zy+ldvbpXv/4fNt6fC+IJ8/8GF06yryx7ov6YgrICfg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "52xMVqkiWr7DfFSgqWdPXdZ9k2h55b7/7F+QvwaS92Y=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "Vg2yIMn5RnhgztyPKJrGtvkVC/0544GVaG7dvWHF14s=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "C7jPf9MVlqahouDwsqq4D0oKoM/NiscMpvMOz5o/zkg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "AFiH53FkgD3A9p/K26HvNfiSFQqRVmbXpnw44QtonY4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "qfOttu+SpbC1teAfXyg6RfpGY8x8zOV4wYRVRdxsCyQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fr\">Français</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "Vqiuh5ddbU4vCpinyguKW3OnrQDyYGYM8j9Gpeyi/O4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "l6BhxQ3dEOegkrfywNIB7QGeyl0DmrUcJJ2cNpyTuW4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=es\">Español</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "M/3UBSKOJAe1YK6Bt7DaL8fjlZZaPTCx9poqLuZ3Fao=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=it\">Italiaans</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "84lEG7hHG3+qXvd9bkIU6Aych1QeNeG5QpbcFqbWxiE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=it\">Itapano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "Yf841quPCtajz6TpKV250pxSIejQtklUORD2PjNvdzU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pt\">Portugees</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "dOcfaR9qipWqs4k+tJQKuP4FVh7YPzjBwcRAaWCqsDI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "pAdYa1DrsX5Ob5QGmPUYDxpeVBj6QSHL+N4jYoLtHnw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pl\">Pools</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "p1IhdUljE7SNE084wwJ7lkOsFGWtpNMRg24Yn0n7MFQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "ChaScEMPMrTUre/Bi5bZt5Ux4wGjlyeX3tQ12g3Qe/Q=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "u/EF/4Xu/AJoI94tmfylO3kTlx9fm/TZTQRxomb7LCU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=tr\">Turks</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "xxuzbv1HyX85OOfPc/dXvvCGJBHQSfbljFU0FHU9Fu8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=vi\">Vietnamees</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "utg22J61f0tZkW2D8C4VLyBN/BTKzy4PROAC1t3aJRA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "jFvu8kbnGFvslzO2B03OZm476hQAvju21BHX1u/5dCU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 27,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 28,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 29,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 32,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# s3 - Efficiënte maar Effectieve Search Agent Training via RL"
+      },
+      {
+        "row": 34,
+        "rowsha": "FUjVfX9kWUp0x+UZmZEj2XvnpvZHNvA5trqpdZrVx6w=",
+        "originContent": "# s3 - Efficient Yet Effective Search Agent Training via RL",
+        "translatedContent": "***Je hebt niet zoveel data nodig om een zoekagent te trainen***"
+      },
+      {
+        "row": 35,
+        "rowsha": "E9zFEZDVDU8usKMc/9XcmRlsxp9M67XRleM6+QBMCFw=",
+        "originContent": "***You Don't Need That Much Data to Train a Search Agent***",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 37,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  <a href=\"https://arxiv.org/abs/2505.14146\">"
+      },
+      {
+        "row": 39,
+        "rowsha": "W7lZVymFAqibSre2Q1m+2/GMoZCqCT7/VKfwSrEwnRk=",
+        "originContent": "  <a href=\"https://arxiv.org/abs/2505.14146\">",
+        "translatedContent": "    <img src=\"https://img.shields.io/badge/arXiv-2505.14146-b31b1b.svg\" alt=\"arXiv\">"
+      },
+      {
+        "row": 40,
+        "rowsha": "fRizt+NYe34wcQ1B7M7zLI1UQfohEZxO2DtSn4Xu4kQ=",
+        "originContent": "    <img src=\"https://img.shields.io/badge/arXiv-2505.14146-b31b1b.svg\" alt=\"arXiv\">",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 41,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 42,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 43,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**Prestatieoverzicht:**"
+      },
+      {
+        "row": 45,
+        "rowsha": "ICL3Ex/EtLuok1U3QzveygU0nVNYVmcrwplrGuKkyP8=",
+        "originContent": "**Performance Overview:**",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/pat-jj/s3/main/images/performance_overview.png\" alt=\"performance_overview\" width=\"800\">"
+      },
+      {
+        "row": 47,
+        "rowsha": "lSd5oEAhMHsgOG58jK359N5o/djx4/BkulW586xPL5Y=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/pat-jj/s3/main/images/performance_overview.png\" alt=\"performance_overview\" width=\"800\">",
+        "translatedContent": ""
+      },
+      {
+        "row": 48,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Wat is s3?"
+      },
+      {
+        "row": 51,
+        "rowsha": "6tfcyGTb4h+QJ49R4dqHbkYADaF+xTsOijvM//IbyYs=",
+        "originContent": "## What is s3?",
+        "translatedContent": ""
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 53,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/pat-jj/s3/main/images/framework.png\" alt=\"framework\" width=\"800\">"
+      },
+      {
+        "row": 54,
+        "rowsha": "O6ANWb/xKLesMFPZv27OrH0MM+m8/CoOaz13ezBaSec=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/pat-jj/s3/main/images/framework.png\" alt=\"framework\" width=\"800\">",
+        "translatedContent": ""
+      },
+      {
+        "row": 55,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**s3 Framework**"
+      },
+      {
+        "row": 56,
+        "rowsha": "zdnPn6/fBaAiMlLjJgHHl3oSDfffnltXOQPSvaGJmag=",
+        "originContent": "**s3 Framework**",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 57,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`s3` is een eenvoudig maar krachtig framework voor het trainen van zoekagenten in retrieval-augmented generation (RAG). Het leert taalmodellen effectiever te zoeken—zonder de generator zelf te veranderen. Door zich uitsluitend op het zoekonderdeel te richten, behaalt `s3` sterke prestaties bij QA-taken met slechts een fractie van de data die door eerdere methoden werd gebruikt. Het is modulair, efficiënt en ontworpen om naadloos samen te werken met elke black-box LLM."
+      },
+      {
+        "row": 59,
+        "rowsha": "FXOz485eoQGdy4K35bNSfbqLTd+IlnH/MmlDrUNv0Rg=",
+        "originContent": "`s3` is a simple yet powerful framework for training search agents in retrieval-augmented generation (RAG). It teaches language models how to search more effectively—without changing the generator itself. By focusing solely on the search component, `s3` achieves strong performance across QA tasks with just a fraction of the data used by prior methods. It's modular, efficient, and designed to work seamlessly with any black-box LLM.",
+        "translatedContent": ""
+      },
+      {
+        "row": 60,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 61,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 62,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Inhoudsopgave"
+      },
+      {
+        "row": 63,
+        "rowsha": "j2m8/Rf4OhNBtAZdHSFuUFBE6NBtExCFuaofstzruU0=",
+        "originContent": "## Table of Contents",
+        "translatedContent": ""
+      },
+      {
+        "row": 64,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [📦 Installatie](#-installatie)"
+      },
+      {
+        "row": 65,
+        "rowsha": "ujtal2HlbiaO6Do/86433TC0SLg7eYY4b+9gZCtr0tQ=",
+        "originContent": "- [📦 Installation](#-installation)",
+        "translatedContent": "- [💡 Voorbereiding](#-voorbereiding)"
+      },
+      {
+        "row": 66,
+        "rowsha": "1795Rungeq1JcH3hsOYiK21JczuN4ecDX0LKN4Z4OuU=",
+        "originContent": "- [💡 Preparation](#-preparation)",
+        "translatedContent": "- [🏋️ Training Uitvoeren](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-run-training)"
+      },
+      {
+        "row": 67,
+        "rowsha": "1opO8OOhXjIhBOSA7o6CnLPp/Kht2hVyF41l+MpaloA=",
+        "originContent": "- [🏋️ Run Training](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-run-training)",
+        "translatedContent": "- [🔍 Search/Retrieval Uitvoeren](https://github.com/pat-jj/s3?tab=readme-ov-file#-run-searchretrieval)"
+      },
+      {
+        "row": 68,
+        "rowsha": "CVDh0+xzquXWiybi3ijPoXD9nIMXJSsFFQ24AgbArnE=",
+        "originContent": "- [🔍 Run Search/Retrieval](https://github.com/pat-jj/s3?tab=readme-ov-file#-run-searchretrieval)",
+        "translatedContent": "- [📈 Evaluatie Uitvoeren](#-run-evaluatie)"
+      },
+      {
+        "row": 69,
+        "rowsha": "EAOMI0GlglvznEAL7V4QA09V+SLPA7eGnnGFlnsO4B4=",
+        "originContent": "- [📈 Run Evaluation](#-run-evaluation)",
+        "translatedContent": ""
+      },
+      {
+        "row": 70,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📦 Installatie"
+      },
+      {
+        "row": 71,
+        "rowsha": "GTlWZnsd7EccJ2W+9zDbRE0wuS2Ycx/IC9szF0GhUfA=",
+        "originContent": "## 📦 Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 72,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**Searcher & Generator Omgeving**"
+      },
+      {
+        "row": 73,
+        "rowsha": "wegRbBlJV5Z3EcjnNCPnFj5tnqYBlDFDLbbP93kYXxw=",
+        "originContent": "**Searcher & Generator Environment**",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\nconda create -n s3 python=3.9\n# install torch [or you can skip this step and let vllm to install the correct version for you]\npip install torch==2.4.0 --index-url https://download.pytorch.org/whl/cu121\n# install vllm\npip3 install vllm==0.6.3 # or you can install 0.5.4, 0.4.2 and 0.3.1\npip3 install ray\n\n# verl\ncd code\npip install -e .\n\n# flash attention 2\npip3 install flash-attn --no-build-isolation\n\n# we use pyserini for efficient retrieval and evaluation\npip install pyserini    # the version we used is 0.22.1\n\n# quality of life\npip install wandb IPython matplotlib huggingface_hub\n```",
+    "ContentSha": "ZWi8L0tbJ7pZjL0yDqydNEJapWWQXJcZribBpsERd8k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nconda create -n s3 python=3.9\n# install torch [or you can skip this step and let vllm to install the correct version for you]\npip install torch==2.4.0 --index-url https://download.pytorch.org/whl/cu121\n# install vllm\npip3 install vllm==0.6.3 # or you can install 0.5.4, 0.4.2 and 0.3.1\npip3 install ray\n\n# verl\ncd code\npip install -e .\n\n# flash attention 2\npip3 install flash-attn --no-build-isolation\n\n# we use pyserini for efficient retrieval and evaluation\npip install pyserini    # the version we used is 0.22.1\n\n# quality of life\npip install wandb IPython matplotlib huggingface_hub\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "y+M2o9s7dsNnoO0lFj2Ml2996CGWV3AP9jz4A6ZHqtE=",
+        "originContent": "conda create -n s3 python=3.9",
+        "translatedContent": "conda create -n s3 python=3.9"
+      },
+      {
+        "row": 3,
+        "rowsha": "h5Pvdd+1pOWuRbS8TvPIPXxDazRG3SdjkDqLRG+KmX8=",
+        "originContent": "# install torch [or you can skip this step and let vllm to install the correct version for you]",
+        "translatedContent": "# install torch [or you can skip this step and let vllm to install the correct version for you]"
+      },
+      {
+        "row": 4,
+        "rowsha": "fZLzE6sNCTpaJEMkWbm9dlS469ZdXxU7FK6Cz5tXk8g=",
+        "originContent": "pip install torch==2.4.0 --index-url https://download.pytorch.org/whl/cu121",
+        "translatedContent": "pip install torch==2.4.0 --index-url https://download.pytorch.org/whl/cu121"
+      },
+      {
+        "row": 5,
+        "rowsha": "5bp4cOWyp7cpZmxxQqfWms0eVC4ARX1DxjhjUgjj3lY=",
+        "originContent": "# install vllm",
+        "translatedContent": "# install vllm"
+      },
+      {
+        "row": 6,
+        "rowsha": "48MF5UcBNsMxUrke37fsu6P4DkDztaNqceosrNA/Z5s=",
+        "originContent": "pip3 install vllm==0.6.3 # or you can install 0.5.4, 0.4.2 and 0.3.1",
+        "translatedContent": "pip3 install vllm==0.6.3 # or you can install 0.5.4, 0.4.2 and 0.3.1"
+      },
+      {
+        "row": 7,
+        "rowsha": "4jldDUhtb4j3Ati9zcxqZTvSPxdMRF3m7i0ceHrppBE=",
+        "originContent": "pip3 install ray",
+        "translatedContent": "pip3 install ray"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "NPg1R4cW1+dt+3tYfYgAy0jXFWAN2IN/r4T0xL2n2U4=",
+        "originContent": "# verl",
+        "translatedContent": "# verl"
+      },
+      {
+        "row": 10,
+        "rowsha": "+ahA05fGlhGwntqvTyEert2wt8lXVFzx4pCTgW7gOeg=",
+        "originContent": "cd code",
+        "translatedContent": "cd code"
+      },
+      {
+        "row": 11,
+        "rowsha": "knVRIKwsU4emj9biFUgJoBjbMP5EER6U5AGxS0Ix1+Y=",
+        "originContent": "pip install -e .",
+        "translatedContent": "pip install -e ."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "rmizUIWtZ/DHBRLOIR5Le89ZMxX0kQ4StWhW+Dcgd/4=",
+        "originContent": "# flash attention 2",
+        "translatedContent": "# flash attention 2"
+      },
+      {
+        "row": 14,
+        "rowsha": "T37SywokWO37g4RcbquAx5FKDnsNzd1JiPKSSC5sCDc=",
+        "originContent": "pip3 install flash-attn --no-build-isolation",
+        "translatedContent": "pip3 install flash-attn --no-build-isolation"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "K1TOaaLqi9Nn4D7uejlXne8taRgtQNBvK37Rt+OXmRo=",
+        "originContent": "# we use pyserini for efficient retrieval and evaluation",
+        "translatedContent": "# we use pyserini for efficient retrieval and evaluation"
+      },
+      {
+        "row": 17,
+        "rowsha": "ycczcDicHHRXccEfcakJUrlLJ9UbdpW22+6lYVM1NxA=",
+        "originContent": "pip install pyserini    # the version we used is 0.22.1",
+        "translatedContent": "pip install pyserini    # the version we used is 0.22.1"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "T+RPNyKSkNKcNhFx+AUKiM5JRNOy9OF2xPt6CjI9F9M=",
+        "originContent": "# quality of life",
+        "translatedContent": "# quality of life"
+      },
+      {
+        "row": 20,
+        "rowsha": "wJtoXXKGkVK1+zVTsMoL41aLpeSZbfZww9QFaERxyd4=",
+        "originContent": "pip install wandb IPython matplotlib huggingface_hub",
+        "translatedContent": "pip install wandb IPython matplotlib huggingface_hub"
+      },
+      {
+        "row": 21,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n**Retriever Environment**",
+    "ContentSha": "mUidzeeTHT315j7cBcnepu+0a+jPkJF13dyeigjFtMc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "error",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nconda create -n ret python=3.10\nconda activate ret\n\nconda install pytorch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 pytorch-cuda=12.1 -c pytorch -c nvidia\npip install transformers datasets pyserini\nconda install -c pytorch -c nvidia faiss-gpu=1.8.0\npip install uvicorn fastapi\n```",
+    "ContentSha": "BMW4A/+2+w5PFYzEH8wtAJOw9Et5kVsHiSpMfa+F51o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nconda create -n ret python=3.10\nconda activate ret\n\nconda install pytorch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 pytorch-cuda=12.1 -c pytorch -c nvidia\npip install transformers datasets pyserini\nconda install -c pytorch -c nvidia faiss-gpu=1.8.0\npip install uvicorn fastapi\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "1k1yt83ywB5qk4jeL5ou9xB14Wq/72+ys2mlAYxs4XA=",
+        "originContent": "conda create -n ret python=3.10",
+        "translatedContent": "conda create -n ret python=3.10"
+      },
+      {
+        "row": 3,
+        "rowsha": "RkWoTqeaHW/pJDdYqBA7pPgDdm4D/+MX/Pi6oeNPm1o=",
+        "originContent": "conda activate ret",
+        "translatedContent": "conda activate ret"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "5CcdMLhJyxoCWiOapRlEmWdsFP4jhnElioCp0a4QNrU=",
+        "originContent": "conda install pytorch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 pytorch-cuda=12.1 -c pytorch -c nvidia",
+        "translatedContent": "conda install pytorch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 pytorch-cuda=12.1 -c pytorch -c nvidia"
+      },
+      {
+        "row": 6,
+        "rowsha": "2f8YoAh9hJ582KOr753Lfk8I6d+qz+MlsFty/aeXoNY=",
+        "originContent": "pip install transformers datasets pyserini",
+        "translatedContent": "pip install transformers datasets pyserini"
+      },
+      {
+        "row": 7,
+        "rowsha": "bEDLsK+8CUdP1nmr4OJjlejc5PFkUnRT/LFzVmNa2f0=",
+        "originContent": "conda install -c pytorch -c nvidia faiss-gpu=1.8.0",
+        "translatedContent": "conda install -c pytorch -c nvidia faiss-gpu=1.8.0"
+      },
+      {
+        "row": 8,
+        "rowsha": "bTlEeBCBwKHjN2iZGKcmHAsdEqS7OymUfHeZlqJty1s=",
+        "originContent": "pip install uvicorn fastapi",
+        "translatedContent": "pip install uvicorn fastapi"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n\n\n## 💡 Preparation\n***Download Index & Corpus***",
+    "ContentSha": "3pAuRGOhWk1Q9BLU+5M9HFz3m1HVfsSXEVNzeybekpY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "error",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\npython scripts/download.py --save_path $save_path\ncat $save_path/part_* > $save_path/e5_Flat.index\ngzip -d $save_path/wiki-18.jsonl.gz\n```",
+    "ContentSha": "6vtBdG72Djhjm6F7/QXwEZIF71c18UjjBfwbCkW4obU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython scripts/download.py --save_path $save_path\ncat $save_path/part_* > $save_path/e5_Flat.index\ngzip -d $save_path/wiki-18.jsonl.gz\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "+mPDukFQoCb0SUmuloAMar0FUgdwXeNOKeF+dM0boyM=",
+        "originContent": "python scripts/download.py --save_path $save_path",
+        "translatedContent": "python scripts/download.py --save_path $save_path"
+      },
+      {
+        "row": 3,
+        "rowsha": "jJKKmHXbLkPnUd7F5bwizinD9LaThoPMi89LfIuB3Kc=",
+        "originContent": "cat $save_path/part_* > $save_path/e5_Flat.index",
+        "translatedContent": "cat $save_path/part_* > $save_path/e5_Flat.index"
+      },
+      {
+        "row": 4,
+        "rowsha": "o4OeFVcWZoPHujzCohS+Q60KfmS0mAWD9HgRfjDUnFo=",
+        "originContent": "gzip -d $save_path/wiki-18.jsonl.gz",
+        "translatedContent": "gzip -d $save_path/wiki-18.jsonl.gz"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n***Precompute Naïve RAG Initialization***\n",
+    "ContentSha": "ifdrd4nr7OBRFYhf7+uMaZCI6Oxsbw2oAyGH+myR3So=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "error",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\n# deploy retriever\nbash scripts/deploy_retriever/retrieval_launch.sh # or scripts/deploy_retriever/retrieval_launch_mirage.sh for MedCorp corpus.\n# deploy generator\nbash generator_llms/host.sh # modify tensor-parallel-size to the number of GPUs you use\n# run precompute\nbash scripts/precompute.sh # this step will take a while, as it will precompute the naïve RAG Cache for training\n```",
+    "ContentSha": "SuW6njz79eWLThgpg7hiqTuEZboQHd8KunYtUCO34Rk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# deploy retriever\nbash scripts/deploy_retriever/retrieval_launch.sh # or scripts/deploy_retriever/retrieval_launch_mirage.sh for MedCorp corpus.\n# deploy generator\nbash generator_llms/host.sh # modify tensor-parallel-size to the number of GPUs you use\n# run precompute\nbash scripts/precompute.sh # this step will take a while, as it will precompute the naïve RAG Cache for training\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "uHe9ULEqucCj40ZCYmobVLBnDNw8THLGMKUMWsK5iOU=",
+        "originContent": "# deploy retriever",
+        "translatedContent": "# deploy retriever"
+      },
+      {
+        "row": 3,
+        "rowsha": "IcpBjyZDZWoM3ouTn+LN8o+a9qjlEyJHuPpiVmti2ok=",
+        "originContent": "bash scripts/deploy_retriever/retrieval_launch.sh # or scripts/deploy_retriever/retrieval_launch_mirage.sh for MedCorp corpus.",
+        "translatedContent": "bash scripts/deploy_retriever/retrieval_launch.sh # or scripts/deploy_retriever/retrieval_launch_mirage.sh for MedCorp corpus."
+      },
+      {
+        "row": 4,
+        "rowsha": "DzR4d7HhxPpT/6TmIOr3h8yit8QkZ9qUUR67nuhuDdo=",
+        "originContent": "# deploy generator",
+        "translatedContent": "# deploy generator"
+      },
+      {
+        "row": 5,
+        "rowsha": "sALOVwM5Wdv/HrC94sJuJKU43hvniJY5NkZ8xsf9RCg=",
+        "originContent": "bash generator_llms/host.sh # modify tensor-parallel-size to the number of GPUs you use",
+        "translatedContent": "bash generator_llms/host.sh # modify tensor-parallel-size to the number of GPUs you use"
+      },
+      {
+        "row": 6,
+        "rowsha": "ToYehbcIYI2CxuxjkPPrMENqgRE0i0jZVPLXCahhZbo=",
+        "originContent": "# run precompute",
+        "translatedContent": "# run precompute"
+      },
+      {
+        "row": 7,
+        "rowsha": "8wxA8wH0TeytzlvOT5E/kMVB0ZZ4oYLpRdyVgnkccuQ=",
+        "originContent": "bash scripts/precompute.sh # this step will take a while, as it will precompute the naïve RAG Cache for training",
+        "translatedContent": "bash scripts/precompute.sh # this step will take a while, as it will precompute the naïve RAG Cache for training"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n\n## 🏋️ Run Training\n***This step is for the training of S3***\n",
+    "ContentSha": "5+fkisGPx78rt9dqG2tZmCeCrxPxHAh3Pe2Stzdg4/Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "error",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\n# deploy retriever\nbash scripts/deploy_retriever/retrieval_launch.sh \n# deploy generator\nbash generator_llms/host.sh\n# run training\nbash scripts/train/train_s3.sh\n```",
+    "ContentSha": "jQHjP7umwKlwRtOQwvii8AxaIkkfYM9p8E8kke7+nbg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# deploy retriever\nbash scripts/deploy_retriever/retrieval_launch.sh \n# deploy generator\nbash generator_llms/host.sh\n# run training\nbash scripts/train/train_s3.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "uHe9ULEqucCj40ZCYmobVLBnDNw8THLGMKUMWsK5iOU=",
+        "originContent": "# deploy retriever",
+        "translatedContent": "# deploy retriever"
+      },
+      {
+        "row": 3,
+        "rowsha": "s+bpZ9BV+viy3yO1ZkdVOUp2BS9KROoOD7AABiuftQ0=",
+        "originContent": "bash scripts/deploy_retriever/retrieval_launch.sh ",
+        "translatedContent": "bash scripts/deploy_retriever/retrieval_launch.sh "
+      },
+      {
+        "row": 4,
+        "rowsha": "DzR4d7HhxPpT/6TmIOr3h8yit8QkZ9qUUR67nuhuDdo=",
+        "originContent": "# deploy generator",
+        "translatedContent": "# deploy generator"
+      },
+      {
+        "row": 5,
+        "rowsha": "6RVRPzfkthMbRg4R0y+Qyn+aaT+DZsVRC+ZHlFNpmj8=",
+        "originContent": "bash generator_llms/host.sh",
+        "translatedContent": "bash generator_llms/host.sh"
+      },
+      {
+        "row": 6,
+        "rowsha": "nSg+a8n4PD7VK20IeRupHuBVRyJWac1extM5kIN7wYc=",
+        "originContent": "# run training",
+        "translatedContent": "# run training"
+      },
+      {
+        "row": 7,
+        "rowsha": "O+FI9u26ShMwvnJ7luBnbt6Bkd01IL7yaAF6QIvDCG4=",
+        "originContent": "bash scripts/train/train_s3.sh",
+        "translatedContent": "bash scripts/train/train_s3.sh"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n\n## 🔍 Run Search/Retrieval\n***This step is for the context gathering of s3 / baselines***\n\n**s3**",
+    "ContentSha": "RISkulnS1hnai4mRXhzp06bbIB00kJPIJICmA0hX6e0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "error",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\n# deploy retriever\nbash scripts/deploy_retriever/retrieval_launch.sh \n# run s3 inference\nbash scripts/s3_inference/evaluate-8-3-3.sh\n```",
+    "ContentSha": "wgf0jyEX2MKNfDa6sEHXl78emoGr9HfgI1h/HWOrv9Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# deploy retriever\nbash scripts/deploy_retriever/retrieval_launch.sh \n# run s3 inference\nbash scripts/s3_inference/evaluate-8-3-3.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "uHe9ULEqucCj40ZCYmobVLBnDNw8THLGMKUMWsK5iOU=",
+        "originContent": "# deploy retriever",
+        "translatedContent": "# deploy retriever"
+      },
+      {
+        "row": 3,
+        "rowsha": "s+bpZ9BV+viy3yO1ZkdVOUp2BS9KROoOD7AABiuftQ0=",
+        "originContent": "bash scripts/deploy_retriever/retrieval_launch.sh ",
+        "translatedContent": "bash scripts/deploy_retriever/retrieval_launch.sh "
+      },
+      {
+        "row": 4,
+        "rowsha": "RiYLMAAkKI+lV6BeG0Yc2MIUZxtBYpDDLo04pvAbwVY=",
+        "originContent": "# run s3 inference",
+        "translatedContent": "# run s3 inference"
+      },
+      {
+        "row": 5,
+        "rowsha": "njMwBTZ1/yIORS3V0LLmpdYCuiW7SyGS6MP5ZzinXJI=",
+        "originContent": "bash scripts/s3_inference/evaluate-8-3-3.sh",
+        "translatedContent": "bash scripts/s3_inference/evaluate-8-3-3.sh"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n<details>\n<summary>Baselines</summary>\n\n**RAG**",
+    "ContentSha": "Mx4wonU5bSxv6ZTzI53k/ZWky13k87EWExqEqEedR/k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<details>\n<summary>Baselines</summary>\n\n**RAG**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 2,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<summary>Baselines</summary>"
+      },
+      {
+        "row": 3,
+        "rowsha": "BhgsVUS4UK7xzwGUYmEAqu3JnK8veYZSmbMPmCOdlF4=",
+        "originContent": "<summary>Baselines</summary>",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**RAG**"
+      },
+      {
+        "row": 5,
+        "rowsha": "qRU8/aIQeNP4OfQ6x9eQ/O1p4qWAqIsvGYcODkAQHak=",
+        "originContent": "**RAG**",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```bash\nbash scripts/deploy_retriever/retrieval_launch.sh # or retrieval_launch_bm25.sh # deploy retriever\nbash scripts/baselines/rag.sh # run RAG \n```",
+    "ContentSha": "P5M3XNKoofOGxMcIU0Wm0ewsojR0jdPGW56Lbgg8GPw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nbash scripts/deploy_retriever/retrieval_launch.sh # or retrieval_launch_bm25.sh # deploy retriever\nbash scripts/baselines/rag.sh # run RAG \n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Y0lZ8ci2BbFW8+GbEP/v4vKbVLM6QoUkrMUpCHpT4/o=",
+        "originContent": "bash scripts/deploy_retriever/retrieval_launch.sh # or retrieval_launch_bm25.sh # deploy retriever",
+        "translatedContent": "bash scripts/deploy_retriever/retrieval_launch.sh # or retrieval_launch_bm25.sh # deploy retriever"
+      },
+      {
+        "row": 3,
+        "rowsha": "ZP0Q6Soi9ZHbt3M7tCDNkLqaK01cbsHNzqaBn0Ec8t8=",
+        "originContent": "bash scripts/baselines/rag.sh # run RAG ",
+        "translatedContent": "bash scripts/baselines/rag.sh # run RAG "
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n**DeepRetrieval**",
+    "ContentSha": "mVn9hKIqehv7yQMsCX/jw3dwcO+R9MjsBLyFB3Mc8fY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**DeepRetrieval**\n**DeepRetrieval**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**DeepRetrieval**"
+      },
+      {
+        "row": 2,
+        "rowsha": "w3NOkuEUQm23bXfG54AMvUUUDhfDgtQU2n6qkP8qijM=",
+        "originContent": "**DeepRetrieval**",
+        "translatedContent": "**DeepRetrieval**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```bash\nbash retrieval_launch_bm25.sh # deploy BM25 Model\nbash generator_llms/deepretrieval.sh # deploy DeepRetrieval Model\nbash scripts/baselines/deepretrieval.sh # run DeepRetrieval Query Rewriting + Retrieval\n```",
+    "ContentSha": "4HYjj/gWNsoq5bezq0HaGEQ7Lz/5qs20T82Mr2kkuNw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nbash retrieval_launch_bm25.sh # deploy BM25 Model\nbash generator_llms/deepretrieval.sh # deploy DeepRetrieval Model\nbash scripts/baselines/deepretrieval.sh # run DeepRetrieval Query Rewriting + Retrieval\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "p0/1IsXwmzdJ9ESB5tpgGGXbFSAtUVbKJ/jrTqe9ASo=",
+        "originContent": "bash retrieval_launch_bm25.sh # deploy BM25 Model",
+        "translatedContent": "bash retrieval_launch_bm25.sh # deploy BM25 Model"
+      },
+      {
+        "row": 3,
+        "rowsha": "uBRHBxG8CNibmBfjm7PByBm2JHC7ty5jXXmrlvNXGvg=",
+        "originContent": "bash generator_llms/deepretrieval.sh # deploy DeepRetrieval Model",
+        "translatedContent": "bash generator_llms/deepretrieval.sh # deploy DeepRetrieval Model"
+      },
+      {
+        "row": 4,
+        "rowsha": "X4aHhLeMsZ6ziNJpXX0doFufQlFFIsX0tQghX5u2s/4=",
+        "originContent": "bash scripts/baselines/deepretrieval.sh # run DeepRetrieval Query Rewriting + Retrieval",
+        "translatedContent": "bash scripts/baselines/deepretrieval.sh # run DeepRetrieval Query Rewriting + Retrieval"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n**Search-R1**",
+    "ContentSha": "H2ommzyBAyqb2U/CP/k6PSRVO5BgsDXr53doNd4yq/4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**Zoek-R1**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**Zoek-R1**"
+      },
+      {
+        "row": 2,
+        "rowsha": "0RUPRHvOk3illxJ6rWV293Zw9PKT06cS4VZCDrnLlmc=",
+        "originContent": "**Search-R1**",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```bash\nbash retrieval_launch.sh # deploy e5 retriever\nbash scripts/baselines/search_r1.sh # run Search-R1\n```",
+    "ContentSha": "b/JQkq/N68BEEhkBk0+f/3Ntsoy3UQ5aOD02NwaKC+E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nbash retrieval_launch.sh # deploy e5 retriever\nbash scripts/baselines/search_r1.sh # run Search-R1\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "SXXDiwXLDjWABr2p3jacYY0mbQl5WXOw6iPhr9XqpM0=",
+        "originContent": "bash retrieval_launch.sh # deploy e5 retriever",
+        "translatedContent": "bash retrieval_launch.sh # deploy e5 retriever"
+      },
+      {
+        "row": 3,
+        "rowsha": "M9ESGOUCuw/JdjC16YqvDpAZb+rHl/LgDufIKQcOMTI=",
+        "originContent": "bash scripts/baselines/search_r1.sh # run Search-R1",
+        "translatedContent": "bash scripts/baselines/search_r1.sh # run Search-R1"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n**IRCoT**",
+    "ContentSha": "5uXa3pJ4wu5yVVgpdnS/u3aavpShDky6m5UhfRsKwuE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**IRCoT**\n**IRCoT**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**IRCoT**"
+      },
+      {
+        "row": 2,
+        "rowsha": "dBPVugyzK5a03a7Qkk/TmBRe1Ak/yx62eTrPc6VPA0g=",
+        "originContent": "**IRCoT**",
+        "translatedContent": "**IRCoT**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```bash\nbash retrieval_launch.sh # deploy e5 retriever\npython scripts/baselines/ircot.py\n```",
+    "ContentSha": "DPe+WuTVj7xjlVNQw8XRWv6xUxm3KJ38c0VG4GSK1No=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nbash retrieval_launch.sh # deploy e5 retriever\npython scripts/baselines/ircot.py\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "SXXDiwXLDjWABr2p3jacYY0mbQl5WXOw6iPhr9XqpM0=",
+        "originContent": "bash retrieval_launch.sh # deploy e5 retriever",
+        "translatedContent": "bash retrieval_launch.sh # deploy e5 retriever"
+      },
+      {
+        "row": 3,
+        "rowsha": "xQfff3pV4mUBDXqKoTM3dYKlsdwqGPWBlvz7SgnW5bY=",
+        "originContent": "python scripts/baselines/ircot.py",
+        "translatedContent": "python scripts/baselines/ircot.py"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n**Search-o1**",
+    "ContentSha": "udW+fOFCX+i+CmefUlTJWnILGu+gmpF5IQQpM2HT1R8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**Zoek-o1**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**Zoek-o1**"
+      },
+      {
+        "row": 2,
+        "rowsha": "saEHwbb+S0M0ZROQBTxUXwQ3VWNnO0OaqsIC1B2nbNU=",
+        "originContent": "**Search-o1**",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```bash\nbash retrieval_launch.sh # deploy e5 retriever\nbash scripts/baselines/search_o1.sh # run Search-o1\n```",
+    "ContentSha": "ifW4GhZm2ayjPVwQsxzkOyFLkMPH1fY7WxdRoTK+bmM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nbash retrieval_launch.sh # deploy e5 retriever\nbash scripts/baselines/search_o1.sh # run Search-o1\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "SXXDiwXLDjWABr2p3jacYY0mbQl5WXOw6iPhr9XqpM0=",
+        "originContent": "bash retrieval_launch.sh # deploy e5 retriever",
+        "translatedContent": "bash retrieval_launch.sh # deploy e5 retriever"
+      },
+      {
+        "row": 3,
+        "rowsha": "rAQTMBOYLEwuiphSHHY93ujHz73tc+Gp5Dfd9i5J6aw=",
+        "originContent": "bash scripts/baselines/search_o1.sh # run Search-o1",
+        "translatedContent": "bash scripts/baselines/search_o1.sh # run Search-o1"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\n</details>\n\n\n## 📈 Run Evaluation\n***This step is for the evaluation of s3 / baselines***\n\n",
+    "ContentSha": "Rf/WT67aDrCbLOpGrctjLzS2r3arUrNXsyi1ljKxzZI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "</details>\n\n\n## 📈 Evaluatie uitvoeren\n***Deze stap is voor de evaluatie van s3 / baselines***\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 2,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📈 Evaluatie uitvoeren"
+      },
+      {
+        "row": 5,
+        "rowsha": "HtyFWcshZbpGmD18VxIsxpINSs8cAF5F1hr5d08CcDo=",
+        "originContent": "## 📈 Run Evaluation",
+        "translatedContent": "***Deze stap is voor de evaluatie van s3 / baselines***"
+      },
+      {
+        "row": 6,
+        "rowsha": "evx4ks7RBvXMDAMTa0zYad31eybw75cWjEJEYcXD4EM=",
+        "originContent": "***This step is for the evaluation of s3 / baselines***",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```bash\nbash scripts/evaluation/run.sh\n```",
+    "ContentSha": "p0OfzL01VC3g3bOEh5CutDEOCpa2/3AVm75wNoLD07c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nbash scripts/evaluation/run.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "VhUl79AHIMkZf4YJyb5UsQ6wfcV/YPPNQ/UWveZj5EA=",
+        "originContent": "bash scripts/evaluation/run.sh",
+        "translatedContent": "bash scripts/evaluation/run.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\n\n## Acknowledgement\nWe would like to thank the following projects:\n[verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).\n \n\n## Citation",
+    "ContentSha": "zalTdPWFFm7VhMg8gO96ugYWKxXyFaYTWLtRmo0+2BE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Dankbetuiging\nWij willen de volgende projecten bedanken:\n[verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).\n \n\n## Citaat\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Dankbetuiging"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Wij willen de volgende projecten bedanken:"
+      },
+      {
+        "row": 3,
+        "rowsha": "zeUL2mcUYd628fTHqknKcxv2uqjN5wj1hlMFcVnzrpU=",
+        "originContent": "## Acknowledgement",
+        "translatedContent": "[verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini)."
+      },
+      {
+        "row": 4,
+        "rowsha": "+8hV1IsdsysaymcZ+GIPTXabw/Oh/TZ65bj9iKI+h8E=",
+        "originContent": "We would like to thank the following projects:",
+        "translatedContent": " "
+      },
+      {
+        "row": 5,
+        "rowsha": "IgjkAF2U2z4EMiVb6cxLjJqFxY+roxFjqwEazhe/FM0=",
+        "originContent": "[verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+        "originContent": " ",
+        "translatedContent": "## Citaat"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+        "originContent": "## Citation",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```bibtex\n@article{jiang2025s3,\n  title={s3: You Don't Need That Much Data to Train a Search Agent via RL},\n  author={Jiang, Pengcheng and Xu, Xueqiang and Lin, Jiacheng and Xiao, Jinfeng and Wang, Zifeng and Sun, Jimeng and Han, Jiawei},\n  journal={arXiv preprint arXiv:2505.14146},\n  year={2025}\n}\n```",
+    "ContentSha": "X+sxtwQmLTGvi9/sJ9MpZTLDhjsBsp2MZXz1xYQ8V7A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@article{jiang2025s3,\n  title={s3: You Don't Need That Much Data to Train a Search Agent via RL},\n  author={Jiang, Pengcheng and Xu, Xueqiang and Lin, Jiacheng and Xiao, Jinfeng and Wang, Zifeng and Sun, Jimeng and Han, Jiawei},\n  journal={arXiv preprint arXiv:2505.14146},\n  year={2025}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
+      },
+      {
+        "row": 2,
+        "rowsha": "kZvw8u0lRiywPDbEixG0BDd5riXgWGxWYByro4cug00=",
+        "originContent": "@article{jiang2025s3,",
+        "translatedContent": "@article{jiang2025s3,"
+      },
+      {
+        "row": 3,
+        "rowsha": "wBkMUOChPKTBTCS/uPjqnSGIutnvoENADmYLBsySGCk=",
+        "originContent": "  title={s3: You Don't Need That Much Data to Train a Search Agent via RL},",
+        "translatedContent": "  title={s3: You Don't Need That Much Data to Train a Search Agent via RL},"
+      },
+      {
+        "row": 4,
+        "rowsha": "hw7J8WvHDZqu56B4hTg93FvtGVg+68Eun7E9aZDDVzU=",
+        "originContent": "  author={Jiang, Pengcheng and Xu, Xueqiang and Lin, Jiacheng and Xiao, Jinfeng and Wang, Zifeng and Sun, Jimeng and Han, Jiawei},",
+        "translatedContent": "  author={Jiang, Pengcheng and Xu, Xueqiang and Lin, Jiacheng and Xiao, Jinfeng and Wang, Zifeng and Sun, Jimeng and Han, Jiawei},"
+      },
+      {
+        "row": 5,
+        "rowsha": "ew0Qj3aZN3KAnBH/wn0Hp1jXqK/X90TrV3tBj48oc1Q=",
+        "originContent": "  journal={arXiv preprint arXiv:2505.14146},",
+        "translatedContent": "  journal={arXiv preprint arXiv:2505.14146},"
+      },
+      {
+        "row": 6,
+        "rowsha": "6oyqJVJ20XoZhlyGjaewQyTQsSBBtVAYmqUtTwjLbAg=",
+        "originContent": "  year={2025}",
+        "translatedContent": "  year={2025}"
+      },
+      {
+        "row": 7,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\nThanks for your interest in our work!\n\n\n\n",
+    "ContentSha": "cOz+HgSSTp8CSFBZLGOUSm/c9KSUCqZpJ0P7JiOZfhA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Bedankt voor uw interesse in ons werk!\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Bedankt voor uw interesse in ons werk!"
+      },
+      {
+        "row": 2,
+        "rowsha": "q13MvBlyAjVP2KcASWkzWU600wOk9T2vSZlL46nPFlw=",
+        "originContent": "Thanks for your interest in our work!",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
