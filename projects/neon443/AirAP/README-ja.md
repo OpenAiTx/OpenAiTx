@@ -1,18 +1,48 @@
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
+
 <div align="center"> 
     <br/>
     <p>
         <img src="https://github.com/neon443/AirAP/blob/main/AirAP/Assets.xcassets/AppIcon.appiconset/Icon.png?raw=true" title="cobalt" alt="cobalt logo" width="100" />
     </p>
     <p>
-        あなたのiPhoneをAirPlayレシーバーとして使う
+        iPhoneをAirPlay受信機として使おう
         <br/>
         <a href="https://neon443.github.io">
-            neon443によって作成
+            neon443 作
         </a>
     </p>
     <p>
         <a href="https://testflight.apple.com/join/8aeqD8Q2">
-            TestFlight
+            testflight
         </a>
     </p>
     <br/>
@@ -21,28 +51,29 @@
 <div align="center">
   <a href="https://shipwrecked.hackclub.com/?t=ghrm" target="_blank">
     <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/739361f1d440b17fc9e2f74e49fc185d86cbec14_badge.png" 
-         alt="このプロジェクトはShipwrecked、世界初の島で開催されるハッカソンの一部です！" 
+         alt="This project is part of Shipwrecked, the world's first hackathon on an island!" 
          style="width: 25%;">
   </a>
 </div>
 
 <br/>
 
-AirAPは、iOS向けにSwiftで書かれた完全ネイティブのAirPlayサーバーです。基本的に、AirAPを使うことで、iTunesやMac上でiPhoneをAirPlayレシーバーとして使用でき、iPhoneでデバイスの音声を再生できます。
+AirAPは、iOS向けにSwiftで書かれた完全ネイティブのAirPlayサーバーです。基本的に、AirAPを使うことでiPhoneをiTunesやMacのAirPlay受信機として利用でき、iPhoneでデバイスのサウンドを再生できます。
 
 ## AirAPとは？
 
-Mac、Apple TV、または他のiOSデバイスからiPhoneにオーディオをストリーミングしたいと思ったことはありませんか？AirAPはiOS上でネイティブに動作する完全なAirPlayサーバーを実装することで、これを可能にします。インストールすると、iPhoneはシステム環境設定のオーディオパネル、Music.app、または他のAirPlay対応アプリで利用可能なAirPlayの宛先として表示されます。
+MacやApple TV、他のiOSデバイスからiPhoneにオーディオをストリーミングしたいと思ったことはありませんか？AirAPは、iOS上でネイティブに動作する完全なAirPlayサーバーを実装することで、それを可能にします。インストールすると、iPhoneがシステム環境設定の「サウンド」ペインやMusic.app、その他のAirPlay対応アプリにAirPlayの出力先として表示されます。
 
-このコンセプトは最初は逆に感じるかもしれません。普段はiPhoneから他のデバイスへストリーミングすることに慣れているからです。しかし、実は逆の操作をしたい場面は意外と多いです。たとえば、深夜にMacで作業していて、誰も邪魔しないようにヘッドフォンを使ってiPhoneに音声を送信したい場合（こんにちは👋）。あるいは、オーディオアプリを開発中で異なる出力デバイス間を素早く切り替えたい場合。あるいは、古い有線スピーカーを再活用したい場合などです。
+最初は逆の発想に思えるかもしれません ― 通常はiPhoneから他のデバイスへストリーミングすることに慣れていますから。しかし、逆方向にしたい場面も意外と多いものです。例えば夜遅くにMacで作業していて、音声をiPhoneとヘッドホンにルーティングして誰にも迷惑をかけたくない時（こんにちは 👋）。あるいは、音声アプリケーションをテストする開発者で、すぐに出力デバイスを切り替えたい時。もしくは、古い有線スピーカーを再利用したい時などです。
 
 ## AirAPのインストール
 
-試してみたい場合は、[このTestFlightリンクを開いて](https://testflight.apple.com/join/8aeqD8Q2)、AirAPをインストールし、指示に従ってください。インストール後は、AirAPを起動し、iPhoneがストリーミング元のデバイスと同じWi-Fiネットワークに接続されていることを確認してください。iPhoneは自動的にAirPlayデバイスリストに表示され、音声を受信できるようになります。表示されない場合は、アプリを再起動してみてください。
+試してみたい場合は、[このTestFlightリンクを開いて](https://testflight.apple.com/join/8aeqD8Q2)AirAPをインストールし、手順に従ってください。インストール後は、AirAPを起動し、iPhoneがストリーミング元デバイスと同じWi-Fiネットワークに接続されていることを確認します。iPhoneはAirPlayデバイス一覧に自動的に表示され、すぐに音声を受信できるようになります ― もし表示されない場合はアプリを再起動してみてください。
 
-## コンパイル方法
+## コンパイル
 
-[homebrew](https://brew.sh)がインストールされていることを確認してください。
+[homebrew](https://brew.sh)がインストールされていることを確認してください
+
 ```
 brew install carthage
 git clone https://github.com/neon443/AirAP

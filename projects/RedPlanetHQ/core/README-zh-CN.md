@@ -1,9 +1,39 @@
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
+
 <div align="center">
   <a href="https://core.heysol.ai">
     <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logo" />
   </a>
 
-### C.O.R.E：AI时代的数字大脑
+### C.O.R.E：AI时代您的数字大脑
 
 <p align="center">
     <a href="https://docs.heysol.ai/core/overview"><b>文档</b></a> •
@@ -15,45 +45,46 @@
 
 **上下文观察与回忆引擎**
 
-C.O.R.E 是一个基于您的大型语言模型交互和个人数据构建的可移植记忆图，使您的所有上下文和工作流历史对任何AI工具都可访问，就像一个数字大脑。这消除了重复共享上下文的需要。目标是提供：
+C.O.R.E 是一个由您的LLM交互和个人数据构建的可移植记忆图谱，使您的所有上下文和工作流历史可被任何AI工具访问，就像一个数字大脑。这消除了反复共享上下文的需求。目标是提供：
 
-- **统一、可移植的记忆**：无缝添加和调用上下文，并连接您在Claude、Cursor、Windsurf等应用中的记忆。
-- **关系型，而不仅仅是扁平事实**：CORE 组织您的知识，存储事实和关系，构建如真实大脑般深度且丰富的记忆。
-- **用户所有**：您决定保留、更新或删除内容，并可在所需工具间共享记忆，摆脱供应商锁定。
+- **统一、可移植的记忆**：无缝添加和回忆上下文，并将您的记忆跨Claude、Cursor、Windsurf等应用连接。
+- **关系型，不只是平面事实**：CORE 组织您的知识，既存储事实也保存关联，打造如大脑般丰富深入的记忆。
+- **用户拥有**：您决定保留、更新或删除哪些内容，并可在所需工具间共享记忆，摆脱厂商锁定。
 
 ## 🎥 演示视频
 
-[查看 C.O.R.E 演示](https://youtu.be/iANZ32dnK60)
+[查看C.O.R.E演示](https://youtu.be/iANZ32dnK60)
 
 <img width="954" height="700" alt="Core dashboard" src="https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694" />
 
-## 🧩  主要功能
+## 🧩  主要特性
 
-- **记忆图**：可视化您的事实和偏好如何相互关联
-- **带记忆的聊天**：针对记忆提问，获得即时洞察和理解
-- **即插即用**：立即在Cursor、Claude等应用中使用CORE记忆
+- **记忆图谱**：可视化您的事实与偏好如何相互关联
+- **与记忆对话**：就记忆内容提问，获得即时见解和理解
+- **即插即用**：可在Cursor、Claude等应用中立即使用CORE记忆
 
-## ☁️ C.O.R.E 云端设置
+## ☁️ C.O.R.E 云端部署
 
-1. 注册 [Core Cloud](https://core.heysol.ai)，开始构建您的记忆图。
-2. 添加您想保存到记忆中的文本。点击 `+ 添加` 按钮后，您的记忆图将生成。
-3. [将 Core Memory MCP 连接到 Cursor](#connecting-core-mcp-with-cursor)
+1. 注册 [Core Cloud](https://core.heysol.ai) 并开始构建您的记忆图谱。
+2. 添加您想保存到记忆中的文本。点击 `+ Add` 按钮后，您的记忆图谱将被生成。
+3. [将Core Memory MCP与Cursor连接](#connecting-core-mcp-with-cursor)
 
-## 💻 C.O.R.E 本地设置
+## 💻 C.O.R.E 本地部署
 
 #### 前置条件
 
 1. Docker
-2. OpenAI API 密钥
+2. OpenAI API密钥
 
 
-> **注意：** 我们正在积极改进对Llama模型的支持。目前，C.O.R.E 对基于Llama的模型尚未提供最佳效果，但我们正努力确保未来实现更好的兼容性和输出。
+> **注意:** 我们正在积极改进对Llama模型的支持。目前，C.O.R.E与基于Llama的模型兼容性和效果还不理想，但我们正在努力提升其兼容性和输出质量。
 > 
-#### 本地运行 C.O.R.E
+#### 本地运行C.O.R.E
 
 1. **复制环境变量**
 
    将示例环境文件复制为 `.env`：
+
 
    ```bash
    cp .env.example .env

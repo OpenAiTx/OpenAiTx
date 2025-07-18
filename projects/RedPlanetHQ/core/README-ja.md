@@ -1,9 +1,39 @@
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
+
 <div align="center">
   <a href="https://core.heysol.ai">
     <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logo" />
   </a>
 
-### C.O.R.E：AI時代のためのあなたのデジタル脳
+### C.O.R.E: AI時代のあなたのデジタル脳
 
 <p align="center">
     <a href="https://docs.heysol.ai/core/overview"><b>ドキュメント</b></a> •
@@ -13,47 +43,48 @@
 
 ## 🧠 C.O.R.E.
 
-**コンテクスチュアル・オブザベーション＆リコールエンジン**
+**Contextual Observation & Recall Engine（文脈観察・想起エンジン）**
 
-C.O.R.Eは、あなたのLLMとのやり取りや個人データから構築されるポータブルなメモリーグラフで、すべてのコンテキストやワークフローヒストリーをデジタル脳のようにどのAIツールからもアクセス可能にします。これにより、繰り返しコンテキストを共有する必要がなくなります。目標は以下を提供することです：
+C.O.R.Eは、あなたのLLMとのやり取りや個人データから構築されるポータブルなメモリーグラフで、すべての文脈やワークフロー履歴を、まるでデジタル脳のように、どんなAIツールからでも利用可能にします。これにより、繰り返し文脈を共有する必要がなくなります。目指すのは以下の通りです：
 
-- **統一されたポータブルメモリー**：コンテキストをシームレスに追加・呼び出し、Claude、Cursor、Windsurfなどのアプリ間でメモリーを接続。
-- **関係性を持つ記憶**：COREは知識を整理し、事実だけでなく関係性も保存して、本物の脳のようにより深く豊かな記憶を実現。
-- **ユーザー所有**：何を保持し、更新し、削除するかはあなたが決定し、記憶を好きなツール間で共有してベンダーロックインから解放。
+- **統合されたポータブルメモリー**：シームレスに文脈を追加・想起し、Claude、Cursor、Windsurfなどのアプリ間でメモリーを接続できます。
+- **関係性を持つ、単なる平坦な事実以上**：COREは知識を整理し、事実だけでなく関係性も保存することで、本物の脳のようにより深く豊かな記憶を実現します。
+- **ユーザー所有**：保存・更新・削除する内容を自分で決め、好きなツール間でメモリーを共有でき、ベンダーロックインから解放されます。
 
 ## 🎥 デモ動画
 
-[C.O.R.Eデモを見る](https://youtu.be/iANZ32dnK60)
+[COREデモを見る](https://youtu.be/iANZ32dnK60)
 
 <img width="954" height="700" alt="Core dashboard" src="https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694" />
 
-## 🧩 主な特徴
+## 🧩  主な特徴
 
-- **メモリーグラフ**：事実や好みがどのようにリンクしているかを可視化
-- **メモリーとチャット**：メモリーに関する質問をして即座に洞察や理解を得る
-- **プラグアンドプレイ**：CursorやClaudeなどのアプリで即座にCOREメモリーを利用可能
+- **メモリーグラフ**：事実や好みがどのようにつながっているかを可視化
+- **メモリーと会話**：記憶について質問して即座に洞察や理解を得る
+- **プラグアンドプレイ**：CursorやClaudeなどのアプリですぐにCOREメモリーを利用可能
 
-## ☁️ C.O.R.Eクラウドセットアップ
+## ☁️ C.O.R.E クラウドセットアップ
 
-1. [Core Cloud](https://core.heysol.ai)にサインアップし、メモリーグラフの構築を開始。
-2. 保存したいテキストを追加。`+ Add`ボタンをクリックするとメモリーグラフが生成されます。
-3. [Core Memory MCPをCursorに接続](#connecting-core-mcp-with-cursor)
+1. [Core Cloud](https://core.heysol.ai)にサインアップし、メモリーグラフの構築を始めます。
+2. メモリーに保存したいテキストを追加します。`+ Add`ボタンをクリックすると、メモリーグラフが生成されます。
+3. [Core Memory MCPをCursorと接続](#connecting-core-mcp-with-cursor)
 
-## 💻 C.O.R.Eローカルセットアップ
+## 💻 C.O.R.E ローカルセットアップ
 
-#### 必要条件
+#### 前提条件
 
 1. Docker
 2. OpenAI APIキー
 
 
-> **注意:** Llamaモデルのサポート向上に積極的に取り組んでいます。現状ではLlamaベースのモデルでは最適な結果が得られませんが、近い将来より良い互換性と出力を実現するため進行中です。
+> **注意:** Llamaモデルのサポート強化に積極的に取り組んでいます。現時点では、C.O.R.EはLlamaベースのモデルで最適な結果を提供できませんが、近い将来より良い互換性と出力を実現するために進歩を続けています。
 > 
 #### C.O.R.Eをローカルで実行する
 
 1. **環境変数をコピー**
 
-   サンプル環境ファイルを`.env`にコピーしてください：
+   サンプルの環境ファイルを `.env` にコピーします:
+
 
    ```bash
    cp .env.example .env
