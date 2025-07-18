@@ -1,0 +1,989 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Adjoint Sampling\n\nThis repository contains the official implementation and experiments for Adjoint Sampling: Highly Scalable Diffusion\nSamplers via Adjoint Matching.\n\nAdjoint Sampling is a highly scalable diffusion-based sampling framework that learns to sample from unnormalized densities without any reference data. Adjoint Sampling is scalable with respect to the complexity of both the generative model and the energy function, allowing the use of state-of-the-art neural energy functions.\n\n**[Arxiv](https://arxiv.org/abs/2504.11713) (Accepted in ICML 2025)**  \n*Authors: _Aaron Havens, Benjamin Kurt Miller, Bing Yan, Carles Domingo-Enrich, Anuroop Sriram, Brandon Wood, Daniel Levine, Bin Hu, Brandon Amos, Brian Karrer, Xiang Fu, Guan-Horng Liu, Ricky T. Q. Chen_*\n\n![](https://raw.githubusercontent.com/facebookresearch/adjoint_sampling/main/./assets/molecule_progression.png)\n\nWe evaluate Adjoint Sampling on a new amortized conformer generation task using eSEN energy function and SPICE: A large-scale dataset of organic, drug-like molecules that provides molecular graph information—including atomic species and bond structure.\n\n## Installation\n\nInstall dependencies.",
+    "ContentSha": "UpB3q1CCutkEYd9ANKFwN9z7OYrH10SRP/WTTyZpIvQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># 伴随采样\n\n本仓库包含伴随采样：通过伴随匹配实现高度可扩展扩散采样器的官方实现和实验。\n\n伴随采样是一种高度可扩展的基于扩散的采样框架，能够在没有任何参考数据的情况下学习从未归一化的密度中采样。伴随采样在生成模型和能量函数的复杂度方面具有良好的可扩展性，允许使用最先进的神经能量函数。\n\n**[Arxiv](https://arxiv.org/abs/2504.11713)（ICML 2025 接收）**  \n*作者：_Aaron Havens, Benjamin Kurt Miller, Bing Yan, Carles Domingo-Enrich, Anuroop Sriram, Brandon Wood, Daniel Levine, Bin Hu, Brandon Amos, Brian Karrer, Xiang Fu, Guan-Horng Liu, Ricky T. Q. Chen_*\n\n![](https://raw.githubusercontent.com/facebookresearch/adjoint_sampling/main/./assets/molecule_progression.png)\n\n我们在一个新的摊销构象生成任务上评估伴随采样，使用 eSEN 能量函数和 SPICE：一个大规模的有机类药物分子数据集，提供分子图信息——包括原子种类和键结构。\n\n## 安装\n\n安装依赖项。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "VVyFW+JlupqU8lcIDv6YY//OuNz8iDcl2g3PpSIDPk8=",
+        "originContent": "# Adjoint Sampling",
+        "translatedContent": "<translate-content># 伴随采样"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "JfMMklBWda0F4BeDvFbN/aDG9BHRwFDs56ryV7bOUpE=",
+        "originContent": "This repository contains the official implementation and experiments for Adjoint Sampling: Highly Scalable Diffusion",
+        "translatedContent": "本仓库包含伴随采样：通过伴随匹配实现高度可扩展扩散采样器的官方实现和实验。"
+      },
+      {
+        "row": 4,
+        "rowsha": "2WMPkZzUCacSnM2h5LBt5RULW/eG/a9Cqg1frye4OSE=",
+        "originContent": "Samplers via Adjoint Matching.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "伴随采样是一种高度可扩展的基于扩散的采样框架，能够在没有任何参考数据的情况下学习从未归一化的密度中采样。伴随采样在生成模型和能量函数的复杂度方面具有良好的可扩展性，允许使用最先进的神经能量函数。"
+      },
+      {
+        "row": 6,
+        "rowsha": "ZhxZrP08+G2LA9MwbNjMhB2wVwb1jxCXaajPYLMLBV0=",
+        "originContent": "Adjoint Sampling is a highly scalable diffusion-based sampling framework that learns to sample from unnormalized densities without any reference data. Adjoint Sampling is scalable with respect to the complexity of both the generative model and the energy function, allowing the use of state-of-the-art neural energy functions.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**[Arxiv](https://arxiv.org/abs/2504.11713)（ICML 2025 接收）**  "
+      },
+      {
+        "row": 8,
+        "rowsha": "HOS3DiQmnOlm32G9DRuFOyL299YU8M/Hnaqc+8ekiTE=",
+        "originContent": "**[Arxiv](https://arxiv.org/abs/2504.11713) (Accepted in ICML 2025)**  ",
+        "translatedContent": "*作者：_Aaron Havens, Benjamin Kurt Miller, Bing Yan, Carles Domingo-Enrich, Anuroop Sriram, Brandon Wood, Daniel Levine, Bin Hu, Brandon Amos, Brian Karrer, Xiang Fu, Guan-Horng Liu, Ricky T. Q. Chen_*"
+      },
+      {
+        "row": 9,
+        "rowsha": "iiU8AEpslk+U6ffHAdo2JpIYsYDCUl5X6lu/UfGc8F0=",
+        "originContent": "*Authors: _Aaron Havens, Benjamin Kurt Miller, Bing Yan, Carles Domingo-Enrich, Anuroop Sriram, Brandon Wood, Daniel Levine, Bin Hu, Brandon Amos, Brian Karrer, Xiang Fu, Guan-Horng Liu, Ricky T. Q. Chen_*",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![](https://raw.githubusercontent.com/facebookresearch/adjoint_sampling/main/./assets/molecule_progression.png)"
+      },
+      {
+        "row": 11,
+        "rowsha": "w1LU7nV2A2lhI0x+lNngJd0b2HTwMAtn10S7RAQyNe0=",
+        "originContent": "![](https://raw.githubusercontent.com/facebookresearch/adjoint_sampling/main/./assets/molecule_progression.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "我们在一个新的摊销构象生成任务上评估伴随采样，使用 eSEN 能量函数和 SPICE：一个大规模的有机类药物分子数据集，提供分子图信息——包括原子种类和键结构。"
+      },
+      {
+        "row": 13,
+        "rowsha": "qxvs3VeGrllEtJp11x8Z+VVLm4VGbmBoIcXXXMDPMeo=",
+        "originContent": "We evaluate Adjoint Sampling on a new amortized conformer generation task using eSEN energy function and SPICE: A large-scale dataset of organic, drug-like molecules that provides molecular graph information—including atomic species and bond structure.",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 安装"
+      },
+      {
+        "row": 15,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "安装依赖项。"
+      },
+      {
+        "row": 17,
+        "rowsha": "q9IyJ8Iy9V5xxmMekMylAu4lw58efB82FJkY2ILsOqs=",
+        "originContent": "Install dependencies.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\nmicromamba env create -f environment.yml\nmicromamba activate adjoint_sampling\n```",
+    "ContentSha": "++8MbY+4S1WY4Bqfpy8P1scQIEH7q0Gkfwa3CLULEbU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nmicromamba env create -f environment.yml\nmicromamba activate adjoint_sampling\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "iD29onSEf6lIO9CirxUb31Ive/Deh4vA7IfKd6fcKMM=",
+        "originContent": "micromamba env create -f environment.yml",
+        "translatedContent": "micromamba env create -f environment.yml"
+      },
+      {
+        "row": 3,
+        "rowsha": "xCXAypvBv8AZAN24xAOjLNItIFi1+n3dPd3xF8zCmKQ=",
+        "originContent": "micromamba activate adjoint_sampling",
+        "translatedContent": "micromamba activate adjoint_sampling"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nTo train against an energy model, you will need the [eSEN](https://arxiv.org/abs/2502.12147) checkpoint in our [Hugging Face repository](https://huggingface.co/facebook/adjoint_sampling). This will download automatically as you run the code, as long as you provide the `huggingface-cli` with a [token](https://huggingface.co/settings/tokens). You must first [apply for access to the repo](https://huggingface.co/facebook/adjoint_sampling) before the token will work.",
+    "ContentSha": "9vceMQj5wSxbIltfy7F6iM9Ti2e8QKy+7Xys/EJnO2g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\n要针对能量模型进行训练，您需要我们[Hugging Face仓库](https://huggingface.co/facebook/adjoint_sampling)中的[eSEN](https://arxiv.org/abs/2502.12147)检查点。只要您为`huggingface-cli`提供了[令牌](https://huggingface.co/settings/tokens)，运行代码时它将自动下载。您必须先[申请访问该仓库](https://huggingface.co/facebook/adjoint_sampling)，令牌才能生效。\n</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "IicFkgCNAtT0Ds+kleGwy0GYNIFT8EczLVeQ8wvFIbI=",
+        "originContent": "To train against an energy model, you will need the [eSEN](https://arxiv.org/abs/2502.12147) checkpoint in our [Hugging Face repository](https://huggingface.co/facebook/adjoint_sampling). This will download automatically as you run the code, as long as you provide the `huggingface-cli` with a [token](https://huggingface.co/settings/tokens). You must first [apply for access to the repo](https://huggingface.co/facebook/adjoint_sampling) before the token will work.",
+        "translatedContent": "要针对能量模型进行训练，您需要我们[Hugging Face仓库](https://huggingface.co/facebook/adjoint_sampling)中的[eSEN](https://arxiv.org/abs/2502.12147)检查点。只要您为`huggingface-cli`提供了[令牌](https://huggingface.co/settings/tokens)，运行代码时它将自动下载。您必须先[申请访问该仓库](https://huggingface.co/facebook/adjoint_sampling)，令牌才能生效。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nhuggingface-cli login\n```",
+    "ContentSha": "HSaRUO4ChrcQReeQlo/IdvDHlGrs+pi1gyBdo1NNcuc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nhuggingface-cli login\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "W0Xvph8W4mkGNv9wDyTW95OKeoUVMbNfTuCBFhP7qTI=",
+        "originContent": "huggingface-cli login",
+        "translatedContent": "huggingface-cli login"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## Data\n\nThe molecules are organized into rows in `data/{drugs_test,spice_test,spice_train}.txt` with three columns: Number of rotatable bonds, SMILES string, and hash. Finding the [CREST](https://github.com/crest-lab/crest) conformers for a molecule requires the hash. For a `{drugs,spice}` molecule with a `${hash}`, the conformers are written as concatenated `.xyz` blocks in a single text file below the directory `data/{drugs,spice}_test_conformers/${hash}`.\n\nThe conformers in `drugs` are from [GEOM](https://github.com/learningmatter-mit/geom). The conformers in `spice` were computed by FAIR Chemistry.\n\n## Models\n\nAll of our models are hosted on [Hugging Face](https://huggingface.co/facebook/adjoint_sampling). We provide a script to download the files to local directory `models`. Downloading models requires you to have a [token](https://huggingface.co/settings/tokens). You must first [apply for access to the repo](https://huggingface.co/facebook/adjoint_sampling) before downloading.\n",
+    "ContentSha": "BbgahxH8+CLJ/II900UCDIZYnkSYeYtD+S2q+K3FcK8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 数据\n\n分子以行的形式组织在 `data/{drugs_test,spice_test,spice_train}.txt` 文件中，包含三列：可旋转键数量、SMILES 字符串和哈希值。查找分子的 [CREST](https://github.com/crest-lab/crest) 构象需要哈希值。对于哈希值为 `${hash}` 的 `{drugs,spice}` 分子，其构象作为拼接的 `.xyz` 块写入单个文本文件，位于目录 `data/{drugs,spice}_test_conformers/${hash}` 下。\n\n`drugs` 中的构象来自 [GEOM](https://github.com/learningmatter-mit/geom)。`spice` 中的构象由 FAIR Chemistry 计算得出。\n\n## 模型\n\n我们所有的模型均托管于 [Hugging Face](https://huggingface.co/facebook/adjoint_sampling)。我们提供了一个脚本，将文件下载到本地目录 `models`。下载模型需要您拥有一个 [令牌](https://huggingface.co/settings/tokens)。您必须先[申请访问该仓库](https://huggingface.co/facebook/adjoint_sampling)后才能下载。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 数据"
+      },
+      {
+        "row": 2,
+        "rowsha": "hk1Jxtc/6V9/nnhudfaNyNb6PnE4dXTUXsuTbsjHZVA=",
+        "originContent": "## Data",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "分子以行的形式组织在 `data/{drugs_test,spice_test,spice_train}.txt` 文件中，包含三列：可旋转键数量、SMILES 字符串和哈希值。查找分子的 [CREST](https://github.com/crest-lab/crest) 构象需要哈希值。对于哈希值为 `${hash}` 的 `{drugs,spice}` 分子，其构象作为拼接的 `.xyz` 块写入单个文本文件，位于目录 `data/{drugs,spice}_test_conformers/${hash}` 下。"
+      },
+      {
+        "row": 4,
+        "rowsha": "o2uv2SR4exn/4z/RGwaIx51P139VB+cE5MyfA7uFpQs=",
+        "originContent": "The molecules are organized into rows in `data/{drugs_test,spice_test,spice_train}.txt` with three columns: Number of rotatable bonds, SMILES string, and hash. Finding the [CREST](https://github.com/crest-lab/crest) conformers for a molecule requires the hash. For a `{drugs,spice}` molecule with a `${hash}`, the conformers are written as concatenated `.xyz` blocks in a single text file below the directory `data/{drugs,spice}_test_conformers/${hash}`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`drugs` 中的构象来自 [GEOM](https://github.com/learningmatter-mit/geom)。`spice` 中的构象由 FAIR Chemistry 计算得出。"
+      },
+      {
+        "row": 6,
+        "rowsha": "7yqRG5VrXjCJfEQVjpN0tUV9a4/AaLA9rQPoJ+ZX0V0=",
+        "originContent": "The conformers in `drugs` are from [GEOM](https://github.com/learningmatter-mit/geom). The conformers in `spice` were computed by FAIR Chemistry.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 模型"
+      },
+      {
+        "row": 8,
+        "rowsha": "AoHlaDPjZgb9nVglKkYRzMoAD9KpBtDB66w3Szti40I=",
+        "originContent": "## Models",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "我们所有的模型均托管于 [Hugging Face](https://huggingface.co/facebook/adjoint_sampling)。我们提供了一个脚本，将文件下载到本地目录 `models`。下载模型需要您拥有一个 [令牌](https://huggingface.co/settings/tokens)。您必须先[申请访问该仓库](https://huggingface.co/facebook/adjoint_sampling)后才能下载。"
+      },
+      {
+        "row": 10,
+        "rowsha": "4R2rnwF3jfuk4aaURGTHEEhiqbhqO6CG2/PCOLjfTBo=",
+        "originContent": "All of our models are hosted on [Hugging Face](https://huggingface.co/facebook/adjoint_sampling). We provide a script to download the files to local directory `models`. Downloading models requires you to have a [token](https://huggingface.co/settings/tokens). You must first [apply for access to the repo](https://huggingface.co/facebook/adjoint_sampling) before downloading.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\npython download_models.py\n```",
+    "ContentSha": "pCRFmI5LHqTrNqVj5kI41FVKEJmDYVLla02CPdWAn4Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython download_models.py\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "fDieT0ZHDBgJpiVRdOjqOsZI6eN3BiHklLXjtKNeBj4=",
+        "originContent": "python download_models.py",
+        "translatedContent": "python download_models.py"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nOnce the models are downloaded, you can copy the path for use in evaluation or for your own projects. The checkpoints can be identified:",
+    "ContentSha": "dkLBDNQK9D37+IldCE2iSRRDP+F9RUUMavS1hNRUSGE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\n模型下载完成后，您可以复制路径以用于评估或您自己的项目。检查点可以通过以下方式识别：</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "O6+sk5ZZdKOnGd5AwX+rJknMhbgQoLpCH8J84jgUHSw=",
+        "originContent": "Once the models are downloaded, you can copy the path for use in evaluation or for your own projects. The checkpoints can be identified:",
+        "translatedContent": "模型下载完成后，您可以复制路径以用于评估或您自己的项目。检查点可以通过以下方式识别：</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\nCartesian AdjSampling             -   models/am/checkpoints/checkpoint_4999.pt\nCartesian AdjSampling (+pretrain) -   models/bmam/checkpoints/checkpoint_4999.pt\nTorsional AdjSampling             -   models/torsion/checkpoints/checkpoint_3000.pt\n\nPretrained Cartesian              -   pretrain_for_bmam/checkpoints/checkpoint_2000.pt\n```",
+    "ContentSha": "paUxjOJvT4OulyVt52mDCcjuWOqUzWj+Ce1R36LbqVA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nCartesian AdjSampling             -   models/am/checkpoints/checkpoint_4999.pt\nCartesian AdjSampling (+pretrain) -   models/bmam/checkpoints/checkpoint_4999.pt\nTorsional AdjSampling             -   models/torsion/checkpoints/checkpoint_3000.pt\n\nPretrained Cartesian              -   pretrain_for_bmam/checkpoints/checkpoint_2000.pt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "gk7kOir0l5Hcux4Xiu+u7Mw+F+yia2c79lkgt5DGY4g=",
+        "originContent": "Cartesian AdjSampling             -   models/am/checkpoints/checkpoint_4999.pt",
+        "translatedContent": "Cartesian AdjSampling             -   models/am/checkpoints/checkpoint_4999.pt"
+      },
+      {
+        "row": 3,
+        "rowsha": "WKl96ecfJkt9vJSVX6/a3mes74LSkM4wtiMy3d/B6ms=",
+        "originContent": "Cartesian AdjSampling (+pretrain) -   models/bmam/checkpoints/checkpoint_4999.pt",
+        "translatedContent": "Cartesian AdjSampling (+pretrain) -   models/bmam/checkpoints/checkpoint_4999.pt"
+      },
+      {
+        "row": 4,
+        "rowsha": "8zMWAt1KKi39XBlaHcze2rMpjXaOGZ9hD2LZeYse7F8=",
+        "originContent": "Torsional AdjSampling             -   models/torsion/checkpoints/checkpoint_3000.pt",
+        "translatedContent": "Torsional AdjSampling             -   models/torsion/checkpoints/checkpoint_3000.pt"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "XK+pYd6Eavu8AZMgvSGIDlU6pGHT0n7LVy2hd9MNx/E=",
+        "originContent": "Pretrained Cartesian              -   pretrain_for_bmam/checkpoints/checkpoint_2000.pt",
+        "translatedContent": "Pretrained Cartesian              -   pretrain_for_bmam/checkpoints/checkpoint_2000.pt"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "We provide `Pretrained Cartesian` for the purposes of training `Cartesian AdjSampling (+pretrain)`.\n\n\n## Training on the SPICE datset\n\nWe trained each model using 8 gpus over 72 hours. These commands will train the corresponding model.\n\nRun the following commands on a single node with many cpus **before** starting training! The second one is only necessary if you would like to train the Torsional AdjSampling model.",
+    "ContentSha": "ZzbXW99CD+WbRz7296UEMMdn1qd+NesnqfYwzhWs99Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "我们提供了用于训练 `Cartesian AdjSampling (+pretrain)` 的 `预训练笛卡尔`。\n\n## 在 SPICE 数据集上的训练\n\n我们使用 8 个 GPU 训练每个模型，训练时间为 72 小时。以下命令将训练相应的模型。\n\n在开始训练之前，请在拥有多个 CPU 的单个节点上运行以下命令！第二个命令仅在您想训练 Torsional AdjSampling 模型时才需要。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "06GrozdNjHy89N8WQUMWaz4hTN0lTsMpKYw9N5aCNlk=",
+        "originContent": "We provide `Pretrained Cartesian` for the purposes of training `Cartesian AdjSampling (+pretrain)`.",
+        "translatedContent": "我们提供了用于训练 `Cartesian AdjSampling (+pretrain)` 的 `预训练笛卡尔`。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 在 SPICE 数据集上的训练"
+      },
+      {
+        "row": 4,
+        "rowsha": "V8+JAT3FdE243Vafk5tMoiJRvuM4Q7vltonMZKk9yFM=",
+        "originContent": "## Training on the SPICE datset",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "我们使用 8 个 GPU 训练每个模型，训练时间为 72 小时。以下命令将训练相应的模型。"
+      },
+      {
+        "row": 6,
+        "rowsha": "dmcn7YfjsKSaI/mOvX/YZP/ZJJD03IeG7dcYH/rV0DU=",
+        "originContent": "We trained each model using 8 gpus over 72 hours. These commands will train the corresponding model.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "在开始训练之前，请在拥有多个 CPU 的单个节点上运行以下命令！第二个命令仅在您想训练 Torsional AdjSampling 模型时才需要。"
+      },
+      {
+        "row": 8,
+        "rowsha": "9bi3JyW7S58F0Viq+JxDSSuXeAxZkTFvz6dPpqamDXQ=",
+        "originContent": "Run the following commands on a single node with many cpus **before** starting training! The second one is only necessary if you would like to train the Torsional AdjSampling model.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\npython cache_dataset.py\npython cache_dataset.py --learn_torsions\n```",
+    "ContentSha": "jbW6yWeihs2ZDSbSWDNGfpRKY4ZJJUCCvyiWu1eKIYs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython cache_dataset.py\npython cache_dataset.py --learn_torsions\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "FXNMzmuVUGopp0cES69CeHvftJ9SbWuNi1uw1yPxsAM=",
+        "originContent": "python cache_dataset.py",
+        "translatedContent": "python cache_dataset.py"
+      },
+      {
+        "row": 3,
+        "rowsha": "U2Y95saYXwPAH47A3bymc3vTps0vDonXw0t1bsGpZAk=",
+        "originContent": "python cache_dataset.py --learn_torsions",
+        "translatedContent": "python cache_dataset.py --learn_torsions"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nOur repository allows distributed training where shared files are put into a shared directory, known in the config as `shared_dir`. It is set as `/home/${oc.env:USER}` by default. It evaluates to `/home/${USER}` for training due to [hydra](https://hydra.cc/docs/intro/)'s variable expansion syntax.\n\n##### Cartesian AdjSampling",
+    "ContentSha": "Hx5HGTP6fr99EEN+yNY5bad2RSExQyq9FgnHwF+JLyA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "我们的代码库支持分布式训练，其中共享文件放置在配置中称为 `shared_dir` 的共享目录中。它默认设置为 `/home/${oc.env:USER}`。由于 [hydra](https://hydra.cc/docs/intro/) 的变量展开语法，训练时该路径会解析为 `/home/${USER}`。\n\n##### 笛卡尔邻域采样\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "我们的代码库支持分布式训练，其中共享文件放置在配置中称为 `shared_dir` 的共享目录中。它默认设置为 `/home/${oc.env:USER}`。由于 [hydra](https://hydra.cc/docs/intro/) 的变量展开语法，训练时该路径会解析为 `/home/${USER}`。"
+      },
+      {
+        "row": 2,
+        "rowsha": "gwmukjKLlNZe4q8bCfPyK+hnGqm1m2LYg2pkZYcAJbk=",
+        "originContent": "Our repository allows distributed training where shared files are put into a shared directory, known in the config as `shared_dir`. It is set as `/home/${oc.env:USER}` by default. It evaluates to `/home/${USER}` for training due to [hydra](https://hydra.cc/docs/intro/)'s variable expansion syntax.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "##### 笛卡尔邻域采样"
+      },
+      {
+        "row": 4,
+        "rowsha": "fcaKEg6yPapHQQxtrl7RZ3piy+ySsCRgfumJk4G1yeI=",
+        "originContent": "##### Cartesian AdjSampling",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\npython train.py experiment=spice_cartesian\n```",
+    "ContentSha": "q31HF7eVDccrsJ2My2yhacq5/95V+GC2MFkODijIZTM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython train.py experiment=spice_cartesian\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "o4hh33/rXpg20jvpTbirYWHUFlYhFfyZATR9kcSsbJg=",
+        "originContent": "python train.py experiment=spice_cartesian",
+        "translatedContent": "python train.py experiment=spice_cartesian"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n##### Cartesian AdjSampling (+pretrain)\n\nThis model requires sequential training. first you must train the \"pretrained\" model using the first command. Then, you need to direct the second model to initialize from the first model with `init_model=...` pointing to the initial checkpoint. No error is raised if you fail to point to an `init_model`, but the model will not be pretrained.\n",
+    "ContentSha": "IWwK/+4tB2JOzeATRAws71M/bQC6WJMkbH0KgqRBV6U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "##### 笛卡尔邻接采样 (+预训练)\n\n该模型需要顺序训练。首先，必须使用第一个命令训练“预训练”模型。然后，需要通过 `init_model=...` 指向初始检查点，使第二个模型从第一个模型初始化。如果未指定 `init_model`，不会报错，但模型不会进行预训练。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "##### 笛卡尔邻接采样 (+预训练)"
+      },
+      {
+        "row": 2,
+        "rowsha": "Nh7/Hl3vMdDRAmcQ3Hy4SMIMh8DtiSBZ4zWfn17UxZA=",
+        "originContent": "##### Cartesian AdjSampling (+pretrain)",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "该模型需要顺序训练。首先，必须使用第一个命令训练“预训练”模型。然后，需要通过 `init_model=...` 指向初始检查点，使第二个模型从第一个模型初始化。如果未指定 `init_model`，不会报错，但模型不会进行预训练。"
+      },
+      {
+        "row": 4,
+        "rowsha": "RQbYHvO7R++FAvWG8beBPD979H58Sy1R3b38NaOHkTo=",
+        "originContent": "This model requires sequential training. first you must train the \"pretrained\" model using the first command. Then, you need to direct the second model to initialize from the first model with `init_model=...` pointing to the initial checkpoint. No error is raised if you fail to point to an `init_model`, but the model will not be pretrained.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```bash\npython train.py experiment=spice_cartesian_pretrain_for_bmam\npython train.py experiment=spice_cartesian_bmam init_model=???\n```",
+    "ContentSha": "EtdUMUKwZgMRNM2GzvRqAn23+hVpfPJ+AIUj3TV+Z1A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython train.py experiment=spice_cartesian_pretrain_for_bmam\npython train.py experiment=spice_cartesian_bmam init_model=???\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "sCX/+ph4/tSXylbouB7JNktOmn15nvAJ5s3cFRGB5BY=",
+        "originContent": "python train.py experiment=spice_cartesian_pretrain_for_bmam",
+        "translatedContent": "python train.py experiment=spice_cartesian_pretrain_for_bmam"
+      },
+      {
+        "row": 3,
+        "rowsha": "0uycTEKOpglVDGxTojEaZstT1N2t/V38BWYTLvd5U7A=",
+        "originContent": "python train.py experiment=spice_cartesian_bmam init_model=???",
+        "translatedContent": "python train.py experiment=spice_cartesian_bmam init_model=???"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n##### Torsional AdjSampling",
+    "ContentSha": "jmSVjUuDN8u9ICdrblUpicx3iHkLYEx6hb6hkNl2d3o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "##### 扭转调整采样\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "##### 扭转调整采样"
+      },
+      {
+        "row": 2,
+        "rowsha": "Uoj9iFUtJQIsWNtGDoMEjRj+L7KcilWXtbF97fMH3Dc=",
+        "originContent": "##### Torsional AdjSampling",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```bash\npython train.py experiment=spice_torsion\n```",
+    "ContentSha": "/fHfj6HcVvMbbwbHdrL4czAQQiHl5PchRArH1hSip9o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython train.py experiment=spice_torsion\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "hwtSl+mz+9TmAuSmv1JvP9Fg34Rr/rhh1EPtK6d89fY=",
+        "originContent": "python train.py experiment=spice_torsion",
+        "translatedContent": "python train.py experiment=spice_torsion"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n\n## Evaluation\nTo evaluate the trained model, use `eval.py`. Reported results set `max_n_refs` to 512.\n",
+    "ContentSha": "hplZyT8/dNQvtFz9a+fPQVb+malBs9XRFqUnhhjwxbM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\n\n## 评估\n要评估训练好的模型，请使用 `eval.py`。报告的结果将 `max_n_refs` 设置为 512。\n</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Lls8H2uTWGb5aqbRumacEGCmILhDJm7y1QAXsnORtIg=",
+        "originContent": "## Evaluation",
+        "translatedContent": "## 评估"
+      },
+      {
+        "row": 4,
+        "rowsha": "AUThqDdkr2WNjI5sPlE+l/wMfRItzIlZaBWOvtIbaSQ=",
+        "originContent": "To evaluate the trained model, use `eval.py`. Reported results set `max_n_refs` to 512.",
+        "translatedContent": "要评估训练好的模型，请使用 `eval.py`。报告的结果将 `max_n_refs` 设置为 512。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```bash\npython eval.py \\\n--test_mols data/spice_test.txt \\\n--true_confs data/spice_test_conformers \\\n--save_path results \\\n--checkpoint_path path/to/checkpoint.pt \\\n--max_n_refs 512\n```",
+    "ContentSha": "uxOhBB68as6jkhxaiIS6KNPqj48NWP1WDb+OKLqhMZM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython eval.py \\\n--test_mols data/spice_test.txt \\\n--true_confs data/spice_test_conformers \\\n--save_path results \\\n--checkpoint_path path/to/checkpoint.pt \\\n--max_n_refs 512\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "6VCAtONJ3bRUsYBVO9agvdm75uWWYiYdA1Zi0VGgXpo=",
+        "originContent": "python eval.py \\",
+        "translatedContent": "python eval.py \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "rXDHZBmmqjcTMhiJBntpBVE2qOX0vO7RFi17gKJIFRw=",
+        "originContent": "--test_mols data/spice_test.txt \\",
+        "translatedContent": "--test_mols data/spice_test.txt \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "BLZYO1TUztHRF2BW9lXaGjvfH1svpes7S4sJmEYpG04=",
+        "originContent": "--true_confs data/spice_test_conformers \\",
+        "translatedContent": "--true_confs data/spice_test_conformers \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "uAoH+oyjpLDqW2ZGQsk+E3apXG3hXoV6MKzq3pv+Gho=",
+        "originContent": "--save_path results \\",
+        "translatedContent": "--save_path results \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "wCyB+HGs3yZqtCOExDOYlGwG3cE+qcmBxXxU/CTfka8=",
+        "originContent": "--checkpoint_path path/to/checkpoint.pt \\",
+        "translatedContent": "--checkpoint_path path/to/checkpoint.pt \\"
+      },
+      {
+        "row": 7,
+        "rowsha": "jypSZBPyl0Cm9YwGuIyU6Yiaebq8qEBrtY4sMN+cYto=",
+        "originContent": "--max_n_refs 512",
+        "translatedContent": "--max_n_refs 512"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\nIt is possible to evaluate in a distributed manner as well, check out `eval_distributed.sh`.\n\n\n## 📚 Citation\n\nIf you find this code useful in your research or projects, please consider citing our research paper:\n",
+    "ContentSha": "GGfSNszL0SdDuIE7fWqkbsNFgL55iVYiV+e8cmwS3yo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\n也可以以分布式方式进行评估，查看 `eval_distributed.sh`。\n\n\n## 📚 引用\n\n如果您在研究或项目中发现此代码有用，请考虑引用我们的研究论文：\n</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "BxeCJoK3AlIMJUu770SNwNnjeGQt1Nra5TSpHJ3vdFM=",
+        "originContent": "It is possible to evaluate in a distributed manner as well, check out `eval_distributed.sh`.",
+        "translatedContent": "也可以以分布式方式进行评估，查看 `eval_distributed.sh`。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "+Uq50qMMSSaMQjIFg9QwW/hlCfK8kXMzFuQeuRAioXU=",
+        "originContent": "## 📚 Citation",
+        "translatedContent": "## 📚 引用"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "P2QJ9jIJphBzRscNaY0Ex6Q7Ic6YMiUInYen+YlBWHk=",
+        "originContent": "If you find this code useful in your research or projects, please consider citing our research paper:",
+        "translatedContent": "如果您在研究或项目中发现此代码有用，请考虑引用我们的研究论文："
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```bibtex\n@article{adjoint_sampling,\n  title={{A}djoint {S}ampling: Highly Scalable Diffusion Samplers via {A}djoint {M}atching},\n  author={Havens, Aaron and Miller, Benjamin Kurt and Yan, Bing and Domingo-Enrich, Carles and Sriram, Anuroop and Wood, Brandon and Levine, Daniel and Hu, Bin and Amos, Brandon and Karrer, Brian and Fu, Xiang and Liu, Guan-Horng and Chen, Ricky T. Q.},\n  journal={International Conference on Machine Learning},\n  year={2025}\n}\n```",
+    "ContentSha": "ZhKCXq/RE4g80GAYXHN75RqR++beUlhjSilDwzignbo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@article{adjoint_sampling,\n  title={{A}djoint {S}ampling: Highly Scalable Diffusion Samplers via {A}djoint {M}atching},\n  author={Havens, Aaron and Miller, Benjamin Kurt and Yan, Bing and Domingo-Enrich, Carles and Sriram, Anuroop and Wood, Brandon and Levine, Daniel and Hu, Bin and Amos, Brandon and Karrer, Brian and Fu, Xiang and Liu, Guan-Horng and Chen, Ricky T. Q.},\n  journal={International Conference on Machine Learning},\n  year={2025}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
+      },
+      {
+        "row": 2,
+        "rowsha": "2DPeZHs/zWEnKgJyaVR09Er1XWBASl9ywPoPwosx7FQ=",
+        "originContent": "@article{adjoint_sampling,",
+        "translatedContent": "@article{adjoint_sampling,"
+      },
+      {
+        "row": 3,
+        "rowsha": "SkAUw+uLrMCEytLr0VftWeM3K+kmqVPBatoW57Ihf9c=",
+        "originContent": "  title={{A}djoint {S}ampling: Highly Scalable Diffusion Samplers via {A}djoint {M}atching},",
+        "translatedContent": "  title={{A}djoint {S}ampling: Highly Scalable Diffusion Samplers via {A}djoint {M}atching},"
+      },
+      {
+        "row": 4,
+        "rowsha": "vCxQP8u6YdjlQKH7GWHRRNJGPhriHCJLkWQh6fveb1k=",
+        "originContent": "  author={Havens, Aaron and Miller, Benjamin Kurt and Yan, Bing and Domingo-Enrich, Carles and Sriram, Anuroop and Wood, Brandon and Levine, Daniel and Hu, Bin and Amos, Brandon and Karrer, Brian and Fu, Xiang and Liu, Guan-Horng and Chen, Ricky T. Q.},",
+        "translatedContent": "  author={Havens, Aaron and Miller, Benjamin Kurt and Yan, Bing and Domingo-Enrich, Carles and Sriram, Anuroop and Wood, Brandon and Levine, Daniel and Hu, Bin and Amos, Brandon and Karrer, Brian and Fu, Xiang and Liu, Guan-Horng and Chen, Ricky T. Q.},"
+      },
+      {
+        "row": 5,
+        "rowsha": "0fX8nzOfIgQZfsbXzIDm0YkyyfyDCP/YYR8bSpnGWTM=",
+        "originContent": "  journal={International Conference on Machine Learning},",
+        "translatedContent": "  journal={International Conference on Machine Learning},"
+      },
+      {
+        "row": 6,
+        "rowsha": "6oyqJVJ20XoZhlyGjaewQyTQsSBBtVAYmqUtTwjLbAg=",
+        "originContent": "  year={2025}",
+        "translatedContent": "  year={2025}"
+      },
+      {
+        "row": 7,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n## License\nThis repository is licensed under the\n[CC BY-NC 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/).\n\n### Notice\nThe majority of Adjoint Sampling is licensed under CC-BY-NC, however portions of the project are available under separate license terms: [DEM](https://github.com/jarridrb/DEM), [EGNN](https://github.com/vgsatorras/egnn), [torsional-diffusion](https://github.com/gcorso/torsional-diffusion), [fairchem](https://github.com/FAIR-Chem/fairchem) are licensed under the MIT license. [SPICE](https://github.com/openmm/spice-dataset) and [GEOM](https://github.com/learningmatter-mit/geom) are licensed under the CC0 license.\n",
+    "ContentSha": "YHhkZWLmIPSXWbG8x1hC3ZQr2B8bn1C//S2I8ampK9M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 许可协议  \n本仓库采用  \n[CC BY-NC 4.0 许可协议](https://creativecommons.org/licenses/by-nc/4.0/)。  \n\n### 注意事项  \nAdjoint Sampling的大部分内容采用CC-BY-NC许可协议，但项目的部分内容采用单独的许可条款：[DEM](https://github.com/jarridrb/DEM)、[EGNN](https://github.com/vgsatorras/egnn)、[torsional-diffusion](https://github.com/gcorso/torsional-diffusion)、[fairchem](https://github.com/FAIR-Chem/fairchem)采用MIT许可协议。[SPICE](https://github.com/openmm/spice-dataset)和[GEOM](https://github.com/learningmatter-mit/geom)采用CC0许可协议。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 许可协议  "
+      },
+      {
+        "row": 2,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "本仓库采用  "
+      },
+      {
+        "row": 3,
+        "rowsha": "kvKkrEDcV3gtX/Qgig6rLYPjlcYULhXtlRYjGQEJ3Lo=",
+        "originContent": "This repository is licensed under the",
+        "translatedContent": "[CC BY-NC 4.0 许可协议](https://creativecommons.org/licenses/by-nc/4.0/)。  "
+      },
+      {
+        "row": 4,
+        "rowsha": "RRq5h7WKvDR/FgEvegXlk4XMmoKNfYG0nO2bJBNOgRY=",
+        "originContent": "[CC BY-NC 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/).",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 注意事项  "
+      },
+      {
+        "row": 6,
+        "rowsha": "qzLYHO81/p3NgqsZ9wVk5Z4QtnlVqWpxgXFBjCFUoC8=",
+        "originContent": "### Notice",
+        "translatedContent": "Adjoint Sampling的大部分内容采用CC-BY-NC许可协议，但项目的部分内容采用单独的许可条款：[DEM](https://github.com/jarridrb/DEM)、[EGNN](https://github.com/vgsatorras/egnn)、[torsional-diffusion](https://github.com/gcorso/torsional-diffusion)、[fairchem](https://github.com/FAIR-Chem/fairchem)采用MIT许可协议。[SPICE](https://github.com/openmm/spice-dataset)和[GEOM](https://github.com/learningmatter-mit/geom)采用CC0许可协议。"
+      },
+      {
+        "row": 7,
+        "rowsha": "8U2Gegu/L5dAnynCUmcuD3rpCXOe5d3c9W0jJeRgkTA=",
+        "originContent": "The majority of Adjoint Sampling is licensed under CC-BY-NC, however portions of the project are available under separate license terms: [DEM](https://github.com/jarridrb/DEM), [EGNN](https://github.com/vgsatorras/egnn), [torsional-diffusion](https://github.com/gcorso/torsional-diffusion), [fairchem](https://github.com/FAIR-Chem/fairchem) are licensed under the MIT license. [SPICE](https://github.com/openmm/spice-dataset) and [GEOM](https://github.com/learningmatter-mit/geom) are licensed under the CC0 license.",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,0 +1,219 @@
+[
+  {
+    "Id": 1,
+    "Content": "<a href=\"https://www.usebillsplit.com/\">\n<img alt=\"Self\" src=\"https://raw.githubusercontent.com/Nutlope/billsplit/main/./public/og.png\">\n</a>\n\n<div align=\"center\">\n    <h1 >BillSplit</h1>\n    <p>\n        A modern bill splitting app. Powered by Together.ai.\n    </p>\n</div>\n\n## Tech Stack\n\n- Next.js 15 with App Router for modern web development\n- Together.ai for advanced LLM capabilities\n- Helicone for LLM observability and monitoring\n- Amazon S3 for secure image storage\n- Vercel for seamless deployment and hosting\n\n## How it works\n\n1. User uploads a picture of the bill\n2. The app processes the PDF using Together.ai with Vision models and Json mode\n3. The app let the user choose how to split items and add people names\n4. The app displays the final summary with the split of the bill\n\n## Cloning & running\n\n1. Fork or clone the repo\n2. Create an account at https://togetherai.link for the LLM\n3. Create an account at https://aws.amazon.com/ for the S3 bucket\n4. Create a `.env` (use the `.example.env` for reference) and replace the API keys\n5. Run `pnpm install` and `pnpm run dev` to install dependencies and run locally\n",
+    "ContentSha": "ku1dxnNF4SPxDuru7XJEGmsg7Z2vW0ozhHW+ITS6k08=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<a href=\"https://www.usebillsplit.com/\">\n<img alt=\"Self\" src=\"https://raw.githubusercontent.com/Nutlope/billsplit/main/./public/og.png\">\n</a>\n\n<div align=\"center\">\n    <h1 >BillSplit</h1>\n    <p>\n        モダンな割り勘アプリ。Together.aiによって提供されています。\n    </p>\n</div>\n\n## 技術スタック\n\n- 最新のウェブ開発のためのNext.js 15とApp Router\n- 高度なLLM機能のためのTogether.ai\n- LLMの可視化と監視のためのHelicone\n- 安全な画像保存のためのAmazon S3\n- シームレスなデプロイとホスティングのためのVercel\n\n## 仕組み\n\n1. ユーザーが請求書の写真をアップロードします\n2. アプリがVisionモデルとJsonモードを使用してTogether.aiでPDFを処理します\n3. ユーザーがアイテムの分割方法を選び、名前を追加できます\n4. アプリが割り勘の最終集計を表示します\n\n## クローン＆実行\n\n1. リポジトリをフォークまたはクローンします\n2. LLM用に https://togetherai.link でアカウントを作成します\n3. S3バケット用に https://aws.amazon.com/ でアカウントを作成します\n4. `.env`ファイルを作成し（参考に`.example.env`を使用）、APIキーを置き換えます\n5. `pnpm install` と `pnpm run dev` を実行して依存関係をインストールし、ローカルで起動します\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Wlvj0+cRXbKR2QJ+DKQ5FZUyUxQaNPL9zikRdzFQ9H4=",
+        "originContent": "<a href=\"https://www.usebillsplit.com/\">",
+        "translatedContent": "<a href=\"https://www.usebillsplit.com/\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "Qo0ED5YWkz0T3poTtISVw/QWAZXNlHRpeXDvPOPXlsg=",
+        "originContent": "<img alt=\"Self\" src=\"https://raw.githubusercontent.com/Nutlope/billsplit/main/./public/og.png\">",
+        "translatedContent": "<img alt=\"Self\" src=\"https://raw.githubusercontent.com/Nutlope/billsplit/main/./public/og.png\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": "</a>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "2BHxGDr2mmatKNS3C1oEQ7mJzc3/K97BdedzT5LLoLw=",
+        "originContent": "    <h1 >BillSplit</h1>",
+        "translatedContent": "    <h1 >BillSplit</h1>"
+      },
+      {
+        "row": 7,
+        "rowsha": "IoyQZiOeQOZMO/MWWGoORaWO+ErGjdxMu+NsWdjXgdI=",
+        "originContent": "    <p>",
+        "translatedContent": "    <p>"
+      },
+      {
+        "row": 8,
+        "rowsha": "Rn1t837anu7zhMtmf8mWcmAvSQ9SOIIuRUI71iGu82s=",
+        "originContent": "        A modern bill splitting app. Powered by Together.ai.",
+        "translatedContent": "        モダンな割り勘アプリ。Together.aiによって提供されています。"
+      },
+      {
+        "row": 9,
+        "rowsha": "/rQRZ9mibGieY1t6hGL4zjA7A6WcR06n++W3pFg56Ko=",
+        "originContent": "    </p>",
+        "translatedContent": "    </p>"
+      },
+      {
+        "row": 10,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "XJl/FNgwR2AGsDvOaDIzGttr6EiAAyy3PJUJujZZrkw=",
+        "originContent": "## Tech Stack",
+        "translatedContent": "## 技術スタック"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "paeQ0/7ap2mO9yotQNoL0rDFEcZpHzwRwUHT3mzgmlE=",
+        "originContent": "- Next.js 15 with App Router for modern web development",
+        "translatedContent": "- 最新のウェブ開発のためのNext.js 15とApp Router"
+      },
+      {
+        "row": 15,
+        "rowsha": "AjQPxir/rVuBSm5YNEuh35zxm/+BDx4B2PE3yc+f1Cw=",
+        "originContent": "- Together.ai for advanced LLM capabilities",
+        "translatedContent": "- 高度なLLM機能のためのTogether.ai"
+      },
+      {
+        "row": 16,
+        "rowsha": "4cGhJepxSmiJ4jH7iite7k6ZHsgd7kcv/n0kOq3MFyc=",
+        "originContent": "- Helicone for LLM observability and monitoring",
+        "translatedContent": "- LLMの可視化と監視のためのHelicone"
+      },
+      {
+        "row": 17,
+        "rowsha": "7KHbwRsZbQLxg/g++C9vRUVwpBUvCBYO4LvT2rxSWyo=",
+        "originContent": "- Amazon S3 for secure image storage",
+        "translatedContent": "- 安全な画像保存のためのAmazon S3"
+      },
+      {
+        "row": 18,
+        "rowsha": "c0zynGB6uJ4t5qNknAt8aE+AIzxPUY18sTWIGfK6KwU=",
+        "originContent": "- Vercel for seamless deployment and hosting",
+        "translatedContent": "- シームレスなデプロイとホスティングのためのVercel"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "WuQ4YQzxbjHrWEpFPXb0XZT20bsUdRRGrE6Z4+N8M6g=",
+        "originContent": "## How it works",
+        "translatedContent": "## 仕組み"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "ODUytdiemp+R9hhEPN45hzYCYDH+FaOJijJ0u6/UX/I=",
+        "originContent": "1. User uploads a picture of the bill",
+        "translatedContent": "1. ユーザーが請求書の写真をアップロードします"
+      },
+      {
+        "row": 23,
+        "rowsha": "ZWmtrKqQ42b40Yc/fOK4LG/bsXEEl85zzrLAwDReG08=",
+        "originContent": "2. The app processes the PDF using Together.ai with Vision models and Json mode",
+        "translatedContent": "2. アプリがVisionモデルとJsonモードを使用してTogether.aiでPDFを処理します"
+      },
+      {
+        "row": 24,
+        "rowsha": "yCvnahqrBgoVj4DnIBQM2uUjrjew2jb3HftvxUA3Jdw=",
+        "originContent": "3. The app let the user choose how to split items and add people names",
+        "translatedContent": "3. ユーザーがアイテムの分割方法を選び、名前を追加できます"
+      },
+      {
+        "row": 25,
+        "rowsha": "OxbTuD9/uf1BxPcqnMTUFxadX8Oq3Tyw2fR6ZYgqbCw=",
+        "originContent": "4. The app displays the final summary with the split of the bill",
+        "translatedContent": "4. アプリが割り勘の最終集計を表示します"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "4HjdWwjRV8hxZ1hAYIlz5q6jDbMcDw+TpCs/60TZgrg=",
+        "originContent": "## Cloning & running",
+        "translatedContent": "## クローン＆実行"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "XB7edqT8cnjuzwYZF3v6EddRH1mm0tkFWd5tgVnvdJY=",
+        "originContent": "1. Fork or clone the repo",
+        "translatedContent": "1. リポジトリをフォークまたはクローンします"
+      },
+      {
+        "row": 30,
+        "rowsha": "q6Y9OqKOKZh5NOA8Vw2Qf5cLvZ8WbsUXH9zrJbdw314=",
+        "originContent": "2. Create an account at https://togetherai.link for the LLM",
+        "translatedContent": "2. LLM用に https://togetherai.link でアカウントを作成します"
+      },
+      {
+        "row": 31,
+        "rowsha": "LIuYg/MZNKM65nmSJmmcpF70DMJRWoG5XLWLoqTvJPs=",
+        "originContent": "3. Create an account at https://aws.amazon.com/ for the S3 bucket",
+        "translatedContent": "3. S3バケット用に https://aws.amazon.com/ でアカウントを作成します"
+      },
+      {
+        "row": 32,
+        "rowsha": "gGsY3qHRbXeGapwUhQ86d3HPYBqpU/nD+Nb2fuiv9yM=",
+        "originContent": "4. Create a `.env` (use the `.example.env` for reference) and replace the API keys",
+        "translatedContent": "4. `.env`ファイルを作成し（参考に`.example.env`を使用）、APIキーを置き換えます"
+      },
+      {
+        "row": 33,
+        "rowsha": "QZW2MeV6vpIzEgIsDuTSp7kZFExv1rknqvieO8RNwN4=",
+        "originContent": "5. Run `pnpm install` and `pnpm run dev` to install dependencies and run locally",
+        "translatedContent": "5. `pnpm install` と `pnpm run dev` を実行して依存関係をインストールし、ローカルで起動します"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

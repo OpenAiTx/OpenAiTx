@@ -1,0 +1,351 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Agent2Agent (A2A) Samples\n\n<div style=\"text-align: right;\">\n  <details>\n    <summary>🌐 Language</summary>\n    <div style=\"text-align: center;\">\n      <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=en\">English</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=zh-CN\">简体中文</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=zh-TW\">繁體中文</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=ja\">日本語</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=ko\">한국어</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=hi\">हिन्दी</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=th\">ไทย</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=fr\">Français</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=de\">Deutsch</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=es\">Español</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=it\">Italiano</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=ru\">Русский</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=pt\">Português</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=nl\">Nederlands</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=pl\">Polski</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=ar\">العربية</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=fa\">فارسی</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=tr\">Türkçe</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=vi\">Tiếng Việt</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=id\">Bahasa Indonesia</a>\n    </div>\n  </details>\n</div>\n\nThis repository contains code samples and demos which use the [Agent2Agent (A2A) Protocol](https://goo.gle/a2a).\n\n## Related Repositories\n\n- [A2A](https://github.com/a2aproject/A2A) - A2A Specification and documentation.\n- [a2a-python](https://github.com/a2aproject/a2a-python) - A2A Python SDK.\n- [a2a-inspector](https://github.com/a2aproject/a2a-inspector) - UI tool for inspecting A2A enabled agents.\n\n## Contributing\n\nContributions welcome! See the [Contributing Guide](https://raw.githubusercontent.com/a2aproject/a2a-samples/main/CONTRIBUTING.md).\n\n## Getting help\n\nPlease use the [issues page](https://github.com/a2aproject/a2a-samples/issues) to provide suggestions, feedback or submit a bug report.\n\n## Disclaimer\n\nThis repository itself is not an officially supported Google product. The code in this repository is for demonstrative purposes only.\n\nImportant: The sample code provided is for demonstration purposes and illustrates the mechanics of the Agent-to-Agent (A2A) protocol. When building production applications, it is critical to treat any agent operating outside of your direct control as a potentially untrusted entity.\n\nAll data received from an external agent—including but not limited to its AgentCard, messages, artifacts, and task statuses—should be handled as untrusted input. For example, a malicious agent could provide an AgentCard containing crafted data in its fields (e.g., description, name, skills.description). If this data is used without sanitization to construct prompts for a Large Language Model (LLM), it could expose your application to prompt injection attacks.  Failure to properly validate and sanitize this data before use can introduce security vulnerabilities into your application.\n\nDevelopers are responsible for implementing appropriate security measures, such as input validation and secure handling of credentials to protect their systems and users.\n",
+    "ContentSha": "/MP3oaInkJXS2ZWcryVFktGzrpzbEefioqJcGAkq0G4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# ตัวอย่าง Agent2Agent (A2A)\n\n<div style=\"text-align: right;\">\n  <details>\n    <summary>🌐 ภาษา</summary>\n    <div style=\"text-align: center;\">\n      <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=en\">English</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=zh-CN\">简体中文</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=zh-TW\">繁體中文</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=ja\">日本語</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=ko\">한국어</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=hi\">हिन्दी</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=th\">ไทย</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=fr\">Français</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=de\">Deutsch</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=es\">Español</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=it\">Italiano</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=ru\">Русский</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=pt\">Português</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=nl\">Nederlands</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=pl\">Polski</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=ar\">العربية</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=fa\">فارسی</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=tr\">Türkçe</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=vi\">Tiếng Việt</a>\n      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=id\">Bahasa Indonesia</a>\n    </div>\n  </details>\n</div>\n\nที่เก็บนี้มีตัวอย่างโค้ดและเดโมซึ่งใช้ [โปรโตคอล Agent2Agent (A2A)](https://goo.gle/a2a)\n\n## ที่เก็บที่เกี่ยวข้อง\n\n- [A2A](https://github.com/a2aproject/A2A) - ข้อกำหนดและเอกสารของ A2A\n- [a2a-python](https://github.com/a2aproject/a2a-python) - A2A Python SDK\n- [a2a-inspector](https://github.com/a2aproject/a2a-inspector) - เครื่องมือ UI สำหรับตรวจสอบเอเจนต์ที่เปิดใช้งาน A2A\n\n## การมีส่วนร่วม\n\nยินดีต้อนรับทุกการมีส่วนร่วม! ดู [คู่มือการมีส่วนร่วม](https://raw.githubusercontent.com/a2aproject/a2a-samples/main/CONTRIBUTING.md)\n\n## การขอความช่วยเหลือ\n\nโปรดใช้ [หน้ารายงานปัญหา](https://github.com/a2aproject/a2a-samples/issues) เพื่อให้ข้อเสนอแนะ ติชม หรือแจ้งบั๊ก\n\n## ข้อสงวนสิทธิ์\n\nที่เก็บนี้ไม่ได้เป็นผลิตภัณฑ์ที่ได้รับการสนับสนุนอย่างเป็นทางการจาก Google โค้ดในที่เก็บนี้มีไว้เพื่อวัตถุประสงค์ในการสาธิตเท่านั้น\n\nสำคัญ: โค้ดตัวอย่างที่ให้มานี้มีไว้เพื่อการสาธิตและแสดงให้เห็นกลไกของโปรโตคอล Agent-to-Agent (A2A) เมื่อสร้างแอปพลิเคชันสำหรับใช้งานจริง จำเป็นต้องถือว่าเอเจนต์ใดๆ ที่อยู่นอกเหนือการควบคุมของคุณโดยตรงเป็นสิ่งที่อาจไม่น่าเชื่อถือ\n\nข้อมูลทั้งหมดที่ได้รับจากเอเจนต์ภายนอก รวมถึงแต่ไม่จำกัดเพียง AgentCard ของเอเจนต์ ข้อความ สิ่งประดิษฐ์ และสถานะงาน ควรได้รับการจัดการในฐานะอินพุตที่ไม่น่าเชื่อถือ ตัวอย่างเช่น เอเจนต์ที่เป็นอันตรายอาจให้ AgentCard ที่มีข้อมูลที่สร้างขึ้นในฟิลด์ของตน (เช่น คำอธิบาย ชื่อ skills.description) หากนำข้อมูลนี้ไปใช้โดยไม่ผ่านกระบวนการทำความสะอาดเพื่อสร้างพรอมต์ให้กับ Large Language Model (LLM) อาจทำให้แอปพลิเคชันของคุณเสี่ยงต่อการโจมตีแบบ prompt injection การไม่ตรวจสอบและทำความสะอาดข้อมูลนี้ก่อนใช้งานอาจก่อให้เกิดช่องโหว่ด้านความปลอดภัยในแอปพลิเคชันของคุณ\n\nนักพัฒนาต้องรับผิดชอบในการใช้มาตรการรักษาความปลอดภัยที่เหมาะสม เช่น การตรวจสอบอินพุตและการจัดการข้อมูลรับรองอย่างปลอดภัยเพื่อปกป้องระบบและผู้ใช้ของตนเอง\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "u6oPStcThpuC2J4GEgIgba5rwjBf0t8IreIbqu/0GVY=",
+        "originContent": "# Agent2Agent (A2A) Samples",
+        "translatedContent": "# ตัวอย่าง Agent2Agent (A2A)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "lc3dY34TPWOITuJadxm4EynzCzPKlLsrzHz+xolItSM=",
+        "originContent": "<div style=\"text-align: right;\">",
+        "translatedContent": "<div style=\"text-align: right;\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 5,
+        "rowsha": "hz2qotf6ELLekw2B3G1TzhvBIX6Aw2TTJlwQH7FI31g=",
+        "originContent": "    <summary>🌐 Language</summary>",
+        "translatedContent": "    <summary>🌐 ภาษา</summary>"
+      },
+      {
+        "row": 6,
+        "rowsha": "+tPE3bRsqHT+/222SBwA7FAdgmkEPhaerdWL3InxBsY=",
+        "originContent": "    <div style=\"text-align: center;\">",
+        "translatedContent": "    <div style=\"text-align: center;\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "eGRRIRQs8KbWCluALGyc2hqOafzN6JIL4zabl4ewjA8=",
+        "originContent": "      <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=en\">English</a>",
+        "translatedContent": "      <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "2esYzYsWXWxdGaylxKxm5N32rI0mJad0ZtIpSw32+Do=",
+        "originContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "qPIG98Q8DnGMy4l/IR8gi/nnNz51frU6ZyvqeLCOoXM=",
+        "originContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "NKdarucggxasIyKvCYmZvszyGsmwHkkcVhnOsJMdImA=",
+        "originContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=ja\">日本語</a>",
+        "translatedContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "VqEGRZawhSRDbrIV8n5CPxOQ9we7aPSKHxokyQS08vg=",
+        "originContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=ko\">한국어</a>",
+        "translatedContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "fnNPh6LUxCCVeiziAOkSkLFo8e73y/ez9LyPT1GLBp8=",
+        "originContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=hi\">हिन्दी</a>",
+        "translatedContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "TwHVgdE4nMBZLqHn2CODn1PBYHfGS8atePb3HjmLc0k=",
+        "originContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=th\">ไทย</a>",
+        "translatedContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "7HkL7AqmKG0AqZ/fK/Yu1S6VzdyiuQ4NsSwZKbAOQJU=",
+        "originContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=fr\">Français</a>",
+        "translatedContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=fr\">Français</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "U29RIFIbFHIDXefQXXlo3kenspZwzfKoSZUNv49hZVI=",
+        "originContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=de\">Deutsch</a>",
+        "translatedContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "MbmMyZukB9/8eJcOU9ty+qRWmpo0A1z2oj+822cGo7I=",
+        "originContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=es\">Español</a>",
+        "translatedContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=es\">Español</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "+j2kJ96rxGEbqXaG13B61j0O7KqgrVrHD+IaZ/siD7s=",
+        "originContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=it\">Italiano</a>",
+        "translatedContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "9ECZeBx1smbpQ4+h2Xm0/xAd9i44uRikqCknNbLoQQ0=",
+        "originContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=ru\">Русский</a>",
+        "translatedContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "AFSgV37YzG/PvQi6M9YJRp9Mcfw38vgTIBQfg+lTfG0=",
+        "originContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=pt\">Português</a>",
+        "translatedContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=pt\">Português</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "+twF2kedMaxS4VWPmeLnGC9CP157zoDciIsCtgeokfY=",
+        "originContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=nl\">Nederlands</a>",
+        "translatedContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "54iyUvEvwbIZQTYXCB5EdyMzTvccunR8WsodVLhHw88=",
+        "originContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=pl\">Polski</a>",
+        "translatedContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "5XM5knO+u1KB6sdYDWIsQGxuZltpgDdkTPE2ewnv87w=",
+        "originContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=ar\">العربية</a>",
+        "translatedContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "5N0zSJSaS8chNOit3WZNaAbC1PWuBLdBxIda1C/diAw=",
+        "originContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=fa\">فارسی</a>",
+        "translatedContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "7mSdgVofARCDztVERntCmzOdoCyLh0EyRhLyPulL/q4=",
+        "originContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=tr\">Türkçe</a>",
+        "translatedContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "5UK6UamwBwmAfxpvBFDW4gWkY117HtA/UN3P5zAzS5g=",
+        "originContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "fg7g8ByoRHMb/9PqFVGboFMnR6xQUkOV9Xu1NF21deE=",
+        "originContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "      | <a href=\"https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 28,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 29,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "jctkIp5ocCBWtY5ePP9lJR55n7S5AZ6DsSbrMXk4dnU=",
+        "originContent": "This repository contains code samples and demos which use the [Agent2Agent (A2A) Protocol](https://goo.gle/a2a).",
+        "translatedContent": "ที่เก็บนี้มีตัวอย่างโค้ดและเดโมซึ่งใช้ [โปรโตคอล Agent2Agent (A2A)](https://goo.gle/a2a)"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "iLc3P4V8JwrokxING4BZZq887OQ5kzIH8vlr2/MId+4=",
+        "originContent": "## Related Repositories",
+        "translatedContent": "## ที่เก็บที่เกี่ยวข้อง"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "JDHlNWJcx0lDXolO8JpBfjVOHjzNs3giwTm6mJGwR4A=",
+        "originContent": "- [A2A](https://github.com/a2aproject/A2A) - A2A Specification and documentation.",
+        "translatedContent": "- [A2A](https://github.com/a2aproject/A2A) - ข้อกำหนดและเอกสารของ A2A"
+      },
+      {
+        "row": 36,
+        "rowsha": "dG0N+CmBEo1QLzlKD14PR877GlyVo8CWTe+io9CQzCs=",
+        "originContent": "- [a2a-python](https://github.com/a2aproject/a2a-python) - A2A Python SDK.",
+        "translatedContent": "- [a2a-python](https://github.com/a2aproject/a2a-python) - A2A Python SDK"
+      },
+      {
+        "row": 37,
+        "rowsha": "vWIwEbZbLJtpREanlcuyfSjZhafn/MGdLqs6NhZRYrQ=",
+        "originContent": "- [a2a-inspector](https://github.com/a2aproject/a2a-inspector) - UI tool for inspecting A2A enabled agents.",
+        "translatedContent": "- [a2a-inspector](https://github.com/a2aproject/a2a-inspector) - เครื่องมือ UI สำหรับตรวจสอบเอเจนต์ที่เปิดใช้งาน A2A"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## การมีส่วนร่วม"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "crQQ/2tI8HKcumlqOVMAqOaGiAhcmWGJ7+9hcPJSo3M=",
+        "originContent": "Contributions welcome! See the [Contributing Guide](https://raw.githubusercontent.com/a2aproject/a2a-samples/main/CONTRIBUTING.md).",
+        "translatedContent": "ยินดีต้อนรับทุกการมีส่วนร่วม! ดู [คู่มือการมีส่วนร่วม](https://raw.githubusercontent.com/a2aproject/a2a-samples/main/CONTRIBUTING.md)"
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "MWiisScdPSzx/Bkd2H8qVRhXlLCfMv/0Ma3f+jch3LE=",
+        "originContent": "## Getting help",
+        "translatedContent": "## การขอความช่วยเหลือ"
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "P6Ql962cZ6Fa4qtu7SSiW49Ti8dSOK1aSMIvpcbFX4E=",
+        "originContent": "Please use the [issues page](https://github.com/a2aproject/a2a-samples/issues) to provide suggestions, feedback or submit a bug report.",
+        "translatedContent": "โปรดใช้ [หน้ารายงานปัญหา](https://github.com/a2aproject/a2a-samples/issues) เพื่อให้ข้อเสนอแนะ ติชม หรือแจ้งบั๊ก"
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "aU2AoMUV45em9//+jYmdfv83JGc0QNF5oAwpldQ5sVo=",
+        "originContent": "## Disclaimer",
+        "translatedContent": "## ข้อสงวนสิทธิ์"
+      },
+      {
+        "row": 48,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "mouU71PAWKYw9Exl5VSoIs+WuOgQ9KoSLNDI+cUeylM=",
+        "originContent": "This repository itself is not an officially supported Google product. The code in this repository is for demonstrative purposes only.",
+        "translatedContent": "ที่เก็บนี้ไม่ได้เป็นผลิตภัณฑ์ที่ได้รับการสนับสนุนอย่างเป็นทางการจาก Google โค้ดในที่เก็บนี้มีไว้เพื่อวัตถุประสงค์ในการสาธิตเท่านั้น"
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "+yIcEDC3ykvhCZNXPR/f01sf44Byz/fkToyLYJPc7Ek=",
+        "originContent": "Important: The sample code provided is for demonstration purposes and illustrates the mechanics of the Agent-to-Agent (A2A) protocol. When building production applications, it is critical to treat any agent operating outside of your direct control as a potentially untrusted entity.",
+        "translatedContent": "สำคัญ: โค้ดตัวอย่างที่ให้มานี้มีไว้เพื่อการสาธิตและแสดงให้เห็นกลไกของโปรโตคอล Agent-to-Agent (A2A) เมื่อสร้างแอปพลิเคชันสำหรับใช้งานจริง จำเป็นต้องถือว่าเอเจนต์ใดๆ ที่อยู่นอกเหนือการควบคุมของคุณโดยตรงเป็นสิ่งที่อาจไม่น่าเชื่อถือ"
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "/yTv5ugsFaw0JKrfEYDyn/Wi3HSuGxhHZE+JzoLrJWo=",
+        "originContent": "All data received from an external agent—including but not limited to its AgentCard, messages, artifacts, and task statuses—should be handled as untrusted input. For example, a malicious agent could provide an AgentCard containing crafted data in its fields (e.g., description, name, skills.description). If this data is used without sanitization to construct prompts for a Large Language Model (LLM), it could expose your application to prompt injection attacks.  Failure to properly validate and sanitize this data before use can introduce security vulnerabilities into your application.",
+        "translatedContent": "ข้อมูลทั้งหมดที่ได้รับจากเอเจนต์ภายนอก รวมถึงแต่ไม่จำกัดเพียง AgentCard ของเอเจนต์ ข้อความ สิ่งประดิษฐ์ และสถานะงาน ควรได้รับการจัดการในฐานะอินพุตที่ไม่น่าเชื่อถือ ตัวอย่างเช่น เอเจนต์ที่เป็นอันตรายอาจให้ AgentCard ที่มีข้อมูลที่สร้างขึ้นในฟิลด์ของตน (เช่น คำอธิบาย ชื่อ skills.description) หากนำข้อมูลนี้ไปใช้โดยไม่ผ่านกระบวนการทำความสะอาดเพื่อสร้างพรอมต์ให้กับ Large Language Model (LLM) อาจทำให้แอปพลิเคชันของคุณเสี่ยงต่อการโจมตีแบบ prompt injection การไม่ตรวจสอบและทำความสะอาดข้อมูลนี้ก่อนใช้งานอาจก่อให้เกิดช่องโหว่ด้านความปลอดภัยในแอปพลิเคชันของคุณ"
+      },
+      {
+        "row": 54,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 55,
+        "rowsha": "3jSzE0FoTJp14BWaMjr3zUhUyTk6EXg3mXtt3RF5Hus=",
+        "originContent": "Developers are responsible for implementing appropriate security measures, such as input validation and secure handling of credentials to protect their systems and users.",
+        "translatedContent": "นักพัฒนาต้องรับผิดชอบในการใช้มาตรการรักษาความปลอดภัยที่เหมาะสม เช่น การตรวจสอบอินพุตและการจัดการข้อมูลรับรองอย่างปลอดภัยเพื่อปกป้องระบบและผู้ใช้ของตนเอง"
+      },
+      {
+        "row": 56,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

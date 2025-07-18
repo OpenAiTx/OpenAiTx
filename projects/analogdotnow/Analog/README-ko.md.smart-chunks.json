@@ -1,0 +1,807 @@
+[
+  {
+    "Id": 1,
+    "Content": "<p align=\"center\">\n  <h1 align=\"center\">Analog</h1>\n  <p align=\"center\">The open source calendar that changes everything</p>\n</p>\n\n## Getting Started\n\nTo get Analog up and running on your local machine, follow these steps:\n\n### Prerequisites\n\nEnsure you have the following installed:\n\n- **Bun**: A fast JavaScript runtime, package manager, bundler, and test runner.\n  - [Installation Guide](https://bun.sh/docs/installation)\n- **Docker Desktop**: For running the PostgreSQL database.\n  - [Installation Guide](https://www.docker.com/products/docker-desktop/)\n\n### Setup\n\n1.  **Clone the repository**:\n",
+    "ContentSha": "wt3sptvaus3Kjmb+FQQzpm92oZhMZwUiHVOgoGoKny8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content><p align=\"center\">\n  <h1 align=\"center\">아날로그</h1>\n  <p align=\"center\">모든 것을 바꾸는 오픈 소스 캘린더</p>\n</p>\n\n## 시작하기\n\n로컬 머신에서 Analog를 실행하려면 다음 단계를 따르세요:\n\n### 사전 요구 사항\n\n다음이 설치되어 있는지 확인하세요:\n\n- **Bun**: 빠른 자바스크립트 런타임, 패키지 관리자, 번들러 및 테스트 러너입니다.\n  - [설치 가이드](https://bun.sh/docs/installation)\n- **Docker Desktop**: PostgreSQL 데이터베이스 실행용.\n  - [설치 가이드](https://www.docker.com/products/docker-desktop/)\n\n### 설정\n\n1.  **저장소 클론하기**:\n</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<translate-content><p align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "tbcKu0ZmzHTQcIEMT84IcjZFfZ67qxaA0Z1WF4kRW8E=",
+        "originContent": "  <h1 align=\"center\">Analog</h1>",
+        "translatedContent": "  <h1 align=\"center\">아날로그</h1>"
+      },
+      {
+        "row": 3,
+        "rowsha": "TXp9wFfC+94R1TjCJW3NKTUHDPD7viLVy3Tzvrj6XH4=",
+        "originContent": "  <p align=\"center\">The open source calendar that changes everything</p>",
+        "translatedContent": "  <p align=\"center\">모든 것을 바꾸는 오픈 소스 캘린더</p>"
+      },
+      {
+        "row": 4,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+        "originContent": "## Getting Started",
+        "translatedContent": "## 시작하기"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "ze2/iIJ6qA6zGNSb+15EsyJ44EO2d7aYe2HXmQzp5Bs=",
+        "originContent": "To get Analog up and running on your local machine, follow these steps:",
+        "translatedContent": "로컬 머신에서 Analog를 실행하려면 다음 단계를 따르세요:"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+        "originContent": "### Prerequisites",
+        "translatedContent": "### 사전 요구 사항"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "IvmCQDQ9XGWpwJgdzLC7h55uMdu6YdRFeb98159nT3w=",
+        "originContent": "Ensure you have the following installed:",
+        "translatedContent": "다음이 설치되어 있는지 확인하세요:"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "3Zae8IOfQugWb50Q94ufRVHavpucM+hRiKW/tIdX1Tk=",
+        "originContent": "- **Bun**: A fast JavaScript runtime, package manager, bundler, and test runner.",
+        "translatedContent": "- **Bun**: 빠른 자바스크립트 런타임, 패키지 관리자, 번들러 및 테스트 러너입니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "mayYf6VDdi5HvgdMbTyI7h/YueXiyLe3A4trQhlFTgA=",
+        "originContent": "  - [Installation Guide](https://bun.sh/docs/installation)",
+        "translatedContent": "  - [설치 가이드](https://bun.sh/docs/installation)"
+      },
+      {
+        "row": 16,
+        "rowsha": "q15aH6DHSAvUQv0bG5d79SgcYujWuu72WFUDdVUSS+M=",
+        "originContent": "- **Docker Desktop**: For running the PostgreSQL database.",
+        "translatedContent": "- **Docker Desktop**: PostgreSQL 데이터베이스 실행용."
+      },
+      {
+        "row": 17,
+        "rowsha": "TRyh5anFkZbM/fgm2nAPEWRwYX/SgDr7NkGzkZJAxqM=",
+        "originContent": "  - [Installation Guide](https://www.docker.com/products/docker-desktop/)",
+        "translatedContent": "  - [설치 가이드](https://www.docker.com/products/docker-desktop/)"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "iJa409tTUC9P1gTULbIw6Kod+KAUdLl5kgZl7whoChE=",
+        "originContent": "### Setup",
+        "translatedContent": "### 설정"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "Y0jtuXlb8FizI6EPDA2XxQ56D1z5bWSgS2oJVak1JEI=",
+        "originContent": "1.  **Clone the repository**:",
+        "translatedContent": "1.  **저장소 클론하기**:"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "    ```bash\n    git clone https://github.com/jeanmeijer/analog.git\n    cd analog\n    ```",
+    "ContentSha": "syrHl+Da9ofkwl5jPRNedlCGO9TLDmCHKQe07+J4XpI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    git clone https://github.com/jeanmeijer/analog.git\n    cd analog\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "mWQqdPGPHAB4u/Q7r+hieJDMoi0FixXMD8gAWxAHaoA=",
+        "originContent": "    git clone https://github.com/jeanmeijer/analog.git",
+        "translatedContent": "    git clone https://github.com/jeanmeijer/analog.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "ra8QwEV8YZoi1k7au11pVHYcp2AQ7RWBLq1iWYu8vQw=",
+        "originContent": "    cd analog",
+        "translatedContent": "    cd analog"
+      },
+      {
+        "row": 4,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n2.  **Install dependencies**:\n",
+    "ContentSha": "/3J8lrMGWRuLFTo/o4FeBtAaG2Ulhe8lQOOKpwCHAaA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2.  **종속성 설치**:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2.  **종속성 설치**:"
+      },
+      {
+        "row": 2,
+        "rowsha": "YT8gnpuiNqTPL37b754RQ5v3v2/GgD4NA29GDPkpxpg=",
+        "originContent": "2.  **Install dependencies**:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "    ```bash\n    bun install\n    ```",
+    "ContentSha": "iiNgkYM0aNgly/Ra5pcy49pvI+oX+yXrrt+V8wR9AOg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    bun install\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "usJ0J/EiNpxnZCjDbpT1ylEl7QudH0RGD3P2CjB+WTI=",
+        "originContent": "    bun install",
+        "translatedContent": "    bun install"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n3.  **Configure environment variables**:\n    Copy the example environment file:\n",
+    "ContentSha": "dqYWfOLIs93itRp3Pgy4aI/B3d6hh5QUL22ZKoEmLyE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3.  **환경 변수 구성**:\n    예제 환경 파일을 복사합니다:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3.  **환경 변수 구성**:"
+      },
+      {
+        "row": 2,
+        "rowsha": "KH1kMBpeoS4QYXU5rw6H7Dg6lem0PfiLja8PVqofNjI=",
+        "originContent": "3.  **Configure environment variables**:",
+        "translatedContent": "    예제 환경 파일을 복사합니다:"
+      },
+      {
+        "row": 3,
+        "rowsha": "/bweefDka6LRr1PUEJL/L0KX+Y2BaRPfCjuG/5rzKNc=",
+        "originContent": "    Copy the example environment file:",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "    ```bash\n    cp .env.example .env\n    ```",
+    "ContentSha": "PgNg3gEnRmRXxg7s8gx2/34mqQy2mKlA2iCpWP5DGSY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    cp .env.example .env\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "5zruuHYAfIogrPcUgtiURyohEX28sDhgg6G/r0W/ZPc=",
+        "originContent": "    cp .env.example .env",
+        "translatedContent": "    cp .env.example .env"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n    Then, open the newly created `.env` file. You will find default values for `DATABASE_URL` and `BETTER_AUTH_URL`. You need to set the following:\n    - `BETTER_AUTH_SECRET`: Generate a secure secret by running `openssl rand -hex 32` in your terminal.\n      <br/><br/>\n\n4.  **Set up Google OAuth**:\n\n- `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET`:\n  1. Create a Google project in the [Google Cloud Console](https://console.cloud.google.com/).\n  2. Follow [step 1 in the Better Auth documentation](https://www.better-auth.com/docs/authentication/google) to set up Google OAuth credentials.\n  3. Enable the Google Calendar API by visiting [Google Cloud Console APIs](https://console.cloud.google.com/apis/library/calendar-json.googleapis.com) and enabling it for your project.\n  4. Add yourself as test user:\n     - Locate the Google OAuth [`Audience`](https://console.cloud.google.com/auth/audience) tab.\n     - Under 'Test users', click on 'Add Users'.\n     - Add your email(s) in the textbox and click on 'Save'.\n\n5. **Set up Microsoft OAuth** (optional):\n\n- `MICROSOFT_CLIENT_ID` and `MICROSOFT_CLIENT_SECRET`:\n  1. Go to the [Microsoft Azure Portal](https://portal.azure.com/), then navigate to Microsoft Entra ID → App registrations.\n  2. Register a new application and set the redirect URI (`http://localhost:3000/api/auth/callback/microsoft`).\n  3. Copy the Application (client) ID and create a new client secret under Certificates & secrets.\n  4. Go to API permissions, click + Add a permission, choose Microsoft Graph → Delegated permissions, and add:\n     - `Calendars.Read`, `Calendars.ReadWrite`, `User.Read`, `offline_access`\n\n### Database Setup\n\nAnalog uses PostgreSQL with Drizzle ORM. You can run the database using Docker:\n\n1.  **Start the PostgreSQL database container**:\n",
+    "ContentSha": "5UQro9jjD5AgCVySXFwur9ffaQfNYh4lO62FBK2zvF8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    그런 다음 새로 생성된 `.env` 파일을 엽니다. `DATABASE_URL` 및 `BETTER_AUTH_URL`에 대한 기본값을 찾을 수 있습니다. 다음을 설정해야 합니다:\n    - `BETTER_AUTH_SECRET`: 터미널에서 `openssl rand -hex 32`를 실행하여 안전한 비밀 키를 생성하세요.\n      <br/><br/>\n\n4.  **Google OAuth 설정**:\n\n- `GOOGLE_CLIENT_ID` 및 `GOOGLE_CLIENT_SECRET`:\n  1. [Google Cloud Console](https://console.cloud.google.com/)에서 Google 프로젝트를 생성합니다.\n  2. [Better Auth 문서의 1단계](https://www.better-auth.com/docs/authentication/google)를 따라 Google OAuth 자격 증명을 설정하세요.\n  3. [Google Cloud Console APIs](https://console.cloud.google.com/apis/library/calendar-json.googleapis.com)에서 Google Calendar API를 활성화합니다.\n  4. 테스트 사용자로 자신을 추가하세요:\n     - Google OAuth [`Audience`](https://console.cloud.google.com/auth/audience) 탭을 찾습니다.\n     - 'Test users' 아래에서 'Add Users'를 클릭합니다.\n     - 텍스트 박스에 이메일을 입력하고 'Save'를 클릭합니다.\n\n5. **Microsoft OAuth 설정** (선택 사항):\n\n- `MICROSOFT_CLIENT_ID` 및 `MICROSOFT_CLIENT_SECRET`:\n  1. [Microsoft Azure Portal](https://portal.azure.com/)로 이동한 후 Microsoft Entra ID → App registrations로 이동합니다.\n  2. 새 애플리케이션을 등록하고 리디렉션 URI를 (`http://localhost:3000/api/auth/callback/microsoft`)로 설정합니다.\n  3. 애플리케이션(클라이언트) ID를 복사하고 Certificates & secrets에서 새 클라이언트 비밀을 생성합니다.\n  4. API 권한으로 이동하여 + Add a permission을 클릭한 후 Microsoft Graph → Delegated permissions를 선택하고 다음을 추가합니다:\n     - `Calendars.Read`, `Calendars.ReadWrite`, `User.Read`, `offline_access`\n\n### 데이터베이스 설정\n\nAnalog는 Drizzle ORM과 함께 PostgreSQL을 사용합니다. Docker를 사용하여 데이터베이스를 실행할 수 있습니다:\n\n1.  **PostgreSQL 데이터베이스 컨테이너 시작**:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    그런 다음 새로 생성된 `.env` 파일을 엽니다. `DATABASE_URL` 및 `BETTER_AUTH_URL`에 대한 기본값을 찾을 수 있습니다. 다음을 설정해야 합니다:"
+      },
+      {
+        "row": 2,
+        "rowsha": "Psr1wfG2BoNxpnqvrZQMem5Bh/ye1kSJ6sswDO2/NLc=",
+        "originContent": "    Then, open the newly created `.env` file. You will find default values for `DATABASE_URL` and `BETTER_AUTH_URL`. You need to set the following:",
+        "translatedContent": "    - `BETTER_AUTH_SECRET`: 터미널에서 `openssl rand -hex 32`를 실행하여 안전한 비밀 키를 생성하세요."
+      },
+      {
+        "row": 3,
+        "rowsha": "MqDLg9ON9k0m+KNiQzd2tuWK9S+FfmEwKBNpXuLr+cQ=",
+        "originContent": "    - `BETTER_AUTH_SECRET`: Generate a secure secret by running `openssl rand -hex 32` in your terminal.",
+        "translatedContent": "      <br/><br/>"
+      },
+      {
+        "row": 4,
+        "rowsha": "a2rDs9k29b+nf8VnqXiNnisOUOcY3b3ek81kstwcdE8=",
+        "originContent": "      <br/><br/>",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "4.  **Google OAuth 설정**:"
+      },
+      {
+        "row": 6,
+        "rowsha": "Gn/E6nkqsEQwx/6GKosp8q4dK+EXf8EGRp+yXSXHHw0=",
+        "originContent": "4.  **Set up Google OAuth**:",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `GOOGLE_CLIENT_ID` 및 `GOOGLE_CLIENT_SECRET`:"
+      },
+      {
+        "row": 8,
+        "rowsha": "/InwpsEySJeMLX0G2/II1e8Zm1QHwWSTC/CbK4RNF4s=",
+        "originContent": "- `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET`:",
+        "translatedContent": "  1. [Google Cloud Console](https://console.cloud.google.com/)에서 Google 프로젝트를 생성합니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "0PRJY1vJ0wGwEry5AqViI1nkzbnNK/Q2bwc0wDa26LY=",
+        "originContent": "  1. Create a Google project in the [Google Cloud Console](https://console.cloud.google.com/).",
+        "translatedContent": "  2. [Better Auth 문서의 1단계](https://www.better-auth.com/docs/authentication/google)를 따라 Google OAuth 자격 증명을 설정하세요."
+      },
+      {
+        "row": 10,
+        "rowsha": "eye9ER2KuXoBM8ZbDuJA/MfIIL2QhgS36QviVfk0lFQ=",
+        "originContent": "  2. Follow [step 1 in the Better Auth documentation](https://www.better-auth.com/docs/authentication/google) to set up Google OAuth credentials.",
+        "translatedContent": "  3. [Google Cloud Console APIs](https://console.cloud.google.com/apis/library/calendar-json.googleapis.com)에서 Google Calendar API를 활성화합니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "CeKgV/uf8QdPNnvZ31yjJ1FFGM7/ucBmSprFDfuJvDc=",
+        "originContent": "  3. Enable the Google Calendar API by visiting [Google Cloud Console APIs](https://console.cloud.google.com/apis/library/calendar-json.googleapis.com) and enabling it for your project.",
+        "translatedContent": "  4. 테스트 사용자로 자신을 추가하세요:"
+      },
+      {
+        "row": 12,
+        "rowsha": "NsueFS2hD/pQqOk4f1MGWzGZq+dnN1MGI4aHJGExsJE=",
+        "originContent": "  4. Add yourself as test user:",
+        "translatedContent": "     - Google OAuth [`Audience`](https://console.cloud.google.com/auth/audience) 탭을 찾습니다."
+      },
+      {
+        "row": 13,
+        "rowsha": "LB9j9UEhNB+WBQgS776VgYaRBahR+DH5JSiLpQQDYLI=",
+        "originContent": "     - Locate the Google OAuth [`Audience`](https://console.cloud.google.com/auth/audience) tab.",
+        "translatedContent": "     - 'Test users' 아래에서 'Add Users'를 클릭합니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "Nf6ZXQwEGwXdY061Ajvo3gw8zQpg5MO6MkUTlaFHoOo=",
+        "originContent": "     - Under 'Test users', click on 'Add Users'.",
+        "translatedContent": "     - 텍스트 박스에 이메일을 입력하고 'Save'를 클릭합니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "b0KljIabvpejkRXR83aKgXeyveBwoA54uEGdhgyWr9E=",
+        "originContent": "     - Add your email(s) in the textbox and click on 'Save'.",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "5. **Microsoft OAuth 설정** (선택 사항):"
+      },
+      {
+        "row": 17,
+        "rowsha": "zew2ZILlsZ1HZfasdNKj360s5z9Qr8roKRqrSORSLdk=",
+        "originContent": "5. **Set up Microsoft OAuth** (optional):",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `MICROSOFT_CLIENT_ID` 및 `MICROSOFT_CLIENT_SECRET`:"
+      },
+      {
+        "row": 19,
+        "rowsha": "pq31tu0E0V/dcakG6EFgSn1u6KRqJ1OSuqePsJKElaI=",
+        "originContent": "- `MICROSOFT_CLIENT_ID` and `MICROSOFT_CLIENT_SECRET`:",
+        "translatedContent": "  1. [Microsoft Azure Portal](https://portal.azure.com/)로 이동한 후 Microsoft Entra ID → App registrations로 이동합니다."
+      },
+      {
+        "row": 20,
+        "rowsha": "7LeaB3kQaWfJBwal8rWoyJkOvu1HOKcwNDqZEUR726w=",
+        "originContent": "  1. Go to the [Microsoft Azure Portal](https://portal.azure.com/), then navigate to Microsoft Entra ID → App registrations.",
+        "translatedContent": "  2. 새 애플리케이션을 등록하고 리디렉션 URI를 (`http://localhost:3000/api/auth/callback/microsoft`)로 설정합니다."
+      },
+      {
+        "row": 21,
+        "rowsha": "V4WPEk3NOLaBObXPIkP2rVw/pdksAcusfl3+mssbLMI=",
+        "originContent": "  2. Register a new application and set the redirect URI (`http://localhost:3000/api/auth/callback/microsoft`).",
+        "translatedContent": "  3. 애플리케이션(클라이언트) ID를 복사하고 Certificates & secrets에서 새 클라이언트 비밀을 생성합니다."
+      },
+      {
+        "row": 22,
+        "rowsha": "PqR8vcdP4O+vNWz+rGan4g67vJLmZHQJSDKdjxZqHm4=",
+        "originContent": "  3. Copy the Application (client) ID and create a new client secret under Certificates & secrets.",
+        "translatedContent": "  4. API 권한으로 이동하여 + Add a permission을 클릭한 후 Microsoft Graph → Delegated permissions를 선택하고 다음을 추가합니다:"
+      },
+      {
+        "row": 23,
+        "rowsha": "CRf1Izoqbl+8GQmLTBgOBJZmQrq4AEK38C3zYmSwB+4=",
+        "originContent": "  4. Go to API permissions, click + Add a permission, choose Microsoft Graph → Delegated permissions, and add:",
+        "translatedContent": "     - `Calendars.Read`, `Calendars.ReadWrite`, `User.Read`, `offline_access`"
+      },
+      {
+        "row": 24,
+        "rowsha": "Dp9Q5UzdrHwOYMTn2WkenUX9gn0UJgY9g99pLensI7s=",
+        "originContent": "     - `Calendars.Read`, `Calendars.ReadWrite`, `User.Read`, `offline_access`",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 데이터베이스 설정"
+      },
+      {
+        "row": 26,
+        "rowsha": "TR5FanvP2ppZ//Qo+wICHEN5NB/wkgEF8J8Q2h1EXyw=",
+        "originContent": "### Database Setup",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Analog는 Drizzle ORM과 함께 PostgreSQL을 사용합니다. Docker를 사용하여 데이터베이스를 실행할 수 있습니다:"
+      },
+      {
+        "row": 28,
+        "rowsha": "FiIjn4MbSqtbaha1t0URyxtQU3QkTBr8+34DNkFlgl4=",
+        "originContent": "Analog uses PostgreSQL with Drizzle ORM. You can run the database using Docker:",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1.  **PostgreSQL 데이터베이스 컨테이너 시작**:"
+      },
+      {
+        "row": 30,
+        "rowsha": "+MXj14Bni539awjy84jF+se3nlPYKlRovl9An6ptVAs=",
+        "originContent": "1.  **Start the PostgreSQL database container**:",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "    ```bash\n    bun run docker:up\n    ```",
+    "ContentSha": "lFnKO3WQY+tjtjPlPIpyMtriOA9eaO2jYLaQ+6mD3UI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    bun run docker:up\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "qVhOndD6HBEtmipPCXChrXLi3L+LKgm513fPtKjIgSc=",
+        "originContent": "    bun run docker:up",
+        "translatedContent": "    bun run docker:up"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n    This command uses `docker-compose.yml` to spin up a PostgreSQL container.\n\n2.  **Initialize the database**:\n    Once the database container is running and healthy, initialize the database:",
+    "ContentSha": "+Ax7RqCaPf4eXkk3MTK7Rzzbq3obg7mXuOe6sOyvIWc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\n    이 명령어는 `docker-compose.yml`을 사용하여 PostgreSQL 컨테이너를 실행합니다.\n\n2.  **데이터베이스 초기화**:\n    데이터베이스 컨테이너가 실행 중이고 정상 상태가 되면, 데이터베이스를 초기화합니다:</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "c4Qs1ItxgoDCBO6mjres9E7lptInIkv1MBGL24sO4/g=",
+        "originContent": "    This command uses `docker-compose.yml` to spin up a PostgreSQL container.",
+        "translatedContent": "    이 명령어는 `docker-compose.yml`을 사용하여 PostgreSQL 컨테이너를 실행합니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "r9yL7DmMqZi/X/Lq0/SShJsHFsUN4D0U2j1LRKu4J/8=",
+        "originContent": "2.  **Initialize the database**:",
+        "translatedContent": "2.  **데이터베이스 초기화**:"
+      },
+      {
+        "row": 5,
+        "rowsha": "LdEUpz8ziXKbBLvklVc4sKzBAs84n1xBBlbE4V1+gCo=",
+        "originContent": "    Once the database container is running and healthy, initialize the database:",
+        "translatedContent": "    데이터베이스 컨테이너가 실행 중이고 정상 상태가 되면, 데이터베이스를 초기화합니다:</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "    ```bash\n    bun run db:push\n    ```",
+    "ContentSha": "vxQhf/vJvLI4eERLsAFZv6YCpN8SxrSgCrT49QMTZnk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    bun run db:push\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "86qT1uwM7dfpMrsCEttsd63iLSIAEZDUoqgz2evnm8o=",
+        "originContent": "    bun run db:push",
+        "translatedContent": "    bun run db:push"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n### Running the Application\n\nAfter setting up the environment and database, you can start the development server:\n",
+    "ContentSha": "fz06LuPi+VKPmVFbWBUj9ryzkji2nEn3rVCWsqc4p/g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 애플리케이션 실행하기\n\n환경과 데이터베이스 설정을 마친 후, 개발 서버를 시작할 수 있습니다:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 애플리케이션 실행하기"
+      },
+      {
+        "row": 2,
+        "rowsha": "2T2A9RgNH14rL/dAFZjARRtVgqfpHaF151k+roLH24M=",
+        "originContent": "### Running the Application",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "환경과 데이터베이스 설정을 마친 후, 개발 서버를 시작할 수 있습니다:"
+      },
+      {
+        "row": 4,
+        "rowsha": "x1x2y//5fyuBXGxUJmesiPLFVuumf8ewGYm1TtOX1Rs=",
+        "originContent": "After setting up the environment and database, you can start the development server:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\nbun run dev\n```",
+    "ContentSha": "SObHVb34bAy+SbJhFc2fzc0NBEbg/rwajkKrWSjMogs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nbun run dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "8WwHkmbi82OCXdfiN4/7LLEtY5NOXvhPZrvhLOhJ7eU=",
+        "originContent": "bun run dev",
+        "translatedContent": "bun run dev"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nThe application should now be accessible in your browser at [http://localhost:3000](http://localhost:3000).\n\n## Tech Stack\n\n- **Web**: Next.js, TypeScript, Tailwind v4, Bun, tRPC, TanStack Query, shadcn/ui\n- **Database**: Drizzle with PostgreSQL\n- **Authentication**: Better Auth for Google OAuth\n\n## Roadmap\n\nWIP.\n\n## Contributing\n\nPlease see [CONTRIBUTING.md](https://raw.githubusercontent.com/analogdotnow/Analog/main/./CONTRIBUTING.md) for details on how to contribute to this project.\n",
+    "ContentSha": "euUF+8MlEZ/bNOmo6BRdIvgEvAprf30NeUnN3kxokYg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\n이제 브라우저에서 [http://localhost:3000](http://localhost:3000) 에서 애플리케이션에 접근할 수 있습니다.\n\n## 기술 스택\n\n- **웹**: Next.js, TypeScript, Tailwind v4, Bun, tRPC, TanStack Query, shadcn/ui\n- **데이터베이스**: PostgreSQL과 함께 사용하는 Drizzle\n- **인증**: Google OAuth용 Better Auth\n\n## 로드맵\n\n작업 중입니다.\n\n## 기여하기\n\n이 프로젝트에 기여하는 방법에 대한 자세한 내용은 [CONTRIBUTING.md](https://raw.githubusercontent.com/analogdotnow/Analog/main/./CONTRIBUTING.md) 를 참조하세요.\n</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "2NEpX8UU3hTAcDQJP8Q+DPrsAg1bakrQUzIf4fzaUHI=",
+        "originContent": "The application should now be accessible in your browser at [http://localhost:3000](http://localhost:3000).",
+        "translatedContent": "이제 브라우저에서 [http://localhost:3000](http://localhost:3000) 에서 애플리케이션에 접근할 수 있습니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "XJl/FNgwR2AGsDvOaDIzGttr6EiAAyy3PJUJujZZrkw=",
+        "originContent": "## Tech Stack",
+        "translatedContent": "## 기술 스택"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "DNi9CYkVwiQL0rnWd6sftaJt498ktFFC2Ny0MaU1N4A=",
+        "originContent": "- **Web**: Next.js, TypeScript, Tailwind v4, Bun, tRPC, TanStack Query, shadcn/ui",
+        "translatedContent": "- **웹**: Next.js, TypeScript, Tailwind v4, Bun, tRPC, TanStack Query, shadcn/ui"
+      },
+      {
+        "row": 7,
+        "rowsha": "U29X0T0Ect4WOYqcns6DLFy0BzSSshOe+ev4z9+KQ3E=",
+        "originContent": "- **Database**: Drizzle with PostgreSQL",
+        "translatedContent": "- **데이터베이스**: PostgreSQL과 함께 사용하는 Drizzle"
+      },
+      {
+        "row": 8,
+        "rowsha": "2CQfz6BdbY0AcKtTlIHr+sSU8bekDPpw5k5+bUx1z84=",
+        "originContent": "- **Authentication**: Better Auth for Google OAuth",
+        "translatedContent": "- **인증**: Google OAuth용 Better Auth"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "uRQ4dBQEv6RHmBfuRiXr10ur0TwKlFiD+9olmuSkhDY=",
+        "originContent": "## Roadmap",
+        "translatedContent": "## 로드맵"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "ovIEmO1Lq+iO9RKNKOUCvRjPirHD61iWxA0i5UGpjCw=",
+        "originContent": "WIP.",
+        "translatedContent": "작업 중입니다."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## 기여하기"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "TZAchnBtH9T0S7E1KvplgzXdQzjeSnFIfqdrZJb3BVA=",
+        "originContent": "Please see [CONTRIBUTING.md](https://raw.githubusercontent.com/analogdotnow/Analog/main/./CONTRIBUTING.md) for details on how to contribute to this project.",
+        "translatedContent": "이 프로젝트에 기여하는 방법에 대한 자세한 내용은 [CONTRIBUTING.md](https://raw.githubusercontent.com/analogdotnow/Analog/main/./CONTRIBUTING.md) 를 참조하세요."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

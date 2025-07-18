@@ -1,0 +1,787 @@
+[
+  {
+    "Id": 1,
+    "Content": "<div align=\"center\">\n  <div>\n    <a href=\"https://strandsagents.com\">\n      <img src=\"https://strandsagents.com/latest/assets/logo-auto.svg\" alt=\"Strands Agents\" width=\"55px\" height=\"105px\">\n    </a>\n  </div>\n\n  <h1>\n    Strands Agents Samples\n  </h1>\n\n  <h2>\n    A model-driven approach to building AI agents in just a few lines of code.\n  </h2>\n\n  <div align=\"center\">\n    <a href=\"https://github.com/strands-agents/samples/graphs/commit-activity\"><img alt=\"GitHub commit activity\" src=\"https://img.shields.io/github/commit-activity/m/strands-agents/samples\"/></a>\n    <a href=\"https://github.com/strands-agents/samples/issues\"><img alt=\"GitHub open issues\" src=\"https://img.shields.io/github/issues/strands-agents/samples\"/></a>\n    <a href=\"https://github.com/strands-agents/samples/pulls\"><img alt=\"GitHub open pull requests\" src=\"https://img.shields.io/github/issues-pr/strands-agents/samples\"/></a>\n    <a href=\"https://github.com/strands-agents/samples/blob/main/LICENSE\"><img alt=\"License\" src=\"https://img.shields.io/github/license/strands-agents/samples\"/></a>\n  </div>\n  \n  <p>\n    <a href=\"https://strandsagents.com/\">Documentation</a>\n    ◆ <a href=\"https://github.com/strands-agents/samples\">Samples</a>\n    ◆ <a href=\"https://github.com/strands-agents/sdk-python\">Python SDK</a>\n    ◆ <a href=\"https://github.com/strands-agents/tools\">Tools</a>\n    ◆ <a href=\"https://github.com/strands-agents/agent-builder\">Agent Builder</a>\n    ◆ <a href=\"https://github.com/strands-agents/mcp-server\">MCP Server</a>\n  </p>\n</div>\n\nWelcome to the Strands Agents Samples repository!\n\nExplore easy-to-use examples to get started with <a href=\"https://strandsagents.com\">Strands Agents</a>.\n\nThe examples in this repository are for **demonstration and educational purposes** only. They demonstrate concepts and techniques but are **not intended for direct use in production**. Always apply proper **security** and **testing** procedures before using in production environments.\n\n## 📚 Table of Contents\n\n- [📚 Table of Contents](#-table-of-contents)\n- [🏁 Getting Started](#-getting-started)\n  - [Step 1: Install Required Packages](#step-1-install-required-packages)\n  - [Step 2: Setup Model Provider](#step-2-setup-model-provider)\n  - [Step 3: Build Your First Strands Agent](#step-3-build-your-first-strands-agent)\n  - [Step 4: Getting Started with the SDK](#step-4-getting-started-with-the-sdk)\n  - [Step 5: Explore More Samples](#step-5-explore-more-samples)\n\n## 🏁 Getting Started\n\n### Step 1: Install Required Packages\n",
+    "ContentSha": "yyOriiqYhsO+xRkaml4c+acaDGXrqzV1auMArmpVIbQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"center\">\n  <div>\n    <a href=\"https://strandsagents.com\">\n      <img src=\"https://strandsagents.com/latest/assets/logo-auto.svg\" alt=\"Strands Agents\" width=\"55px\" height=\"105px\">\n    </a>\n  </div>\n\n  <h1>\n    Strands Agents サンプル\n  </h1>\n\n  <h2>\n    数行のコードでAIエージェントを構築するモデル駆動型アプローチ。\n  </h2>\n\n  <div align=\"center\">\n    <a href=\"https://github.com/strands-agents/samples/graphs/commit-activity\"><img alt=\"GitHub commit activity\" src=\"https://img.shields.io/github/commit-activity/m/strands-agents/samples\"/></a>\n    <a href=\"https://github.com/strands-agents/samples/issues\"><img alt=\"GitHub open issues\" src=\"https://img.shields.io/github/issues/strands-agents/samples\"/></a>\n    <a href=\"https://github.com/strands-agents/samples/pulls\"><img alt=\"GitHub open pull requests\" src=\"https://img.shields.io/github/issues-pr/strands-agents/samples\"/></a>\n    <a href=\"https://github.com/strands-agents/samples/blob/main/LICENSE\"><img alt=\"License\" src=\"https://img.shields.io/github/license/strands-agents/samples\"/></a>\n  </div>\n  \n  <p>\n    <a href=\"https://strandsagents.com/\">ドキュメント</a>\n    ◆ <a href=\"https://github.com/strands-agents/samples\">サンプル</a>\n    ◆ <a href=\"https://github.com/strands-agents/sdk-python\">Python SDK</a>\n    ◆ <a href=\"https://github.com/strands-agents/tools\">ツール</a>\n    ◆ <a href=\"https://github.com/strands-agents/agent-builder\">エージェントビルダー</a>\n    ◆ <a href=\"https://github.com/strands-agents/mcp-server\">MCPサーバー</a>\n  </p>\n</div>\n\nStrands Agents サンプルリポジトリへようこそ！\n\n<a href=\"https://strandsagents.com\">Strands Agents</a> を始めるための使いやすい例を探検してください。\n\nこのリポジトリのサンプルは**デモおよび教育目的**のみです。概念や技術を示しますが、**本番環境での直接使用は意図していません**。本番環境で使用する前に、必ず適切な**セキュリティ**と**テスト**手順を適用してください。\n\n## 📚 目次\n\n- [📚 目次](#-table-of-contents)\n- [🏁 はじめに](#-getting-started)\n  - [ステップ1: 必要なパッケージをインストール](#step-1-install-required-packages)\n  - [ステップ2: モデルプロバイダーの設定](#step-2-setup-model-provider)\n  - [ステップ3: 最初のStrandsエージェントを構築](#step-3-build-your-first-strands-agent)\n  - [ステップ4: SDKの使い方](#step-4-getting-started-with-the-sdk)\n  - [ステップ5: さらにサンプルを探る](#step-5-explore-more-samples)\n\n## 🏁 はじめに\n\n### ステップ1: 必要なパッケージをインストール\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "wiE6+jWJxeFT73P55EqafPwYNbd52vNXgilScxFAB1U=",
+        "originContent": "  <div>",
+        "translatedContent": "  <div>"
+      },
+      {
+        "row": 3,
+        "rowsha": "exxmyhCyT5Ylh/4Ow+Vabn/xa5jjaZBBaCYivIxKbH8=",
+        "originContent": "    <a href=\"https://strandsagents.com\">",
+        "translatedContent": "    <a href=\"https://strandsagents.com\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "6ezMMbOkm0ghI0p8Agba9eoDl1rOlsUoDSBHEEnMLas=",
+        "originContent": "      <img src=\"https://strandsagents.com/latest/assets/logo-auto.svg\" alt=\"Strands Agents\" width=\"55px\" height=\"105px\">",
+        "translatedContent": "      <img src=\"https://strandsagents.com/latest/assets/logo-auto.svg\" alt=\"Strands Agents\" width=\"55px\" height=\"105px\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "r52QjIbZf1aIcwCydWRFx1LDX4Vc0bsXMVxnkEUrqHA=",
+        "originContent": "    </a>",
+        "translatedContent": "    </a>"
+      },
+      {
+        "row": 6,
+        "rowsha": "TFeor9sDM2gZqn6BBqB9bb7gMaKqgk0Ph1pgaT3gpaM=",
+        "originContent": "  </div>",
+        "translatedContent": "  </div>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "eZZG+Cwc4Sq3uGJiPxEp0TBCjHGq6IPOw4GBfPw95tQ=",
+        "originContent": "  <h1>",
+        "translatedContent": "  <h1>"
+      },
+      {
+        "row": 9,
+        "rowsha": "hlOEXcQ+1CoYgC+9zO4XkRJjHVdYo2KBBs1SeA18viA=",
+        "originContent": "    Strands Agents Samples",
+        "translatedContent": "    Strands Agents サンプル"
+      },
+      {
+        "row": 10,
+        "rowsha": "t0/OoxAVpApiUWk6H33woGe390eMrT/LoxK1fDQZpWY=",
+        "originContent": "  </h1>",
+        "translatedContent": "  </h1>"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "YIlAXt/b+5Vb6v7qv/oMGsLWPSZ7xbheOzAVc3U2zI0=",
+        "originContent": "  <h2>",
+        "translatedContent": "  <h2>"
+      },
+      {
+        "row": 13,
+        "rowsha": "tACOt7A8QuG2xw3+eumc0CZzMM811XPY4xFCxh57QQI=",
+        "originContent": "    A model-driven approach to building AI agents in just a few lines of code.",
+        "translatedContent": "    数行のコードでAIエージェントを構築するモデル駆動型アプローチ。"
+      },
+      {
+        "row": 14,
+        "rowsha": "z4VYK+rnLn3GEuWWiODzjL8voF7BC37Q1oaFmJ6aMvA=",
+        "originContent": "  </h2>",
+        "translatedContent": "  </h2>"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "MM+z6VEvjmBtbGEhWjxVTw38Pu5G5aO5nJUCOXgWklY=",
+        "originContent": "  <div align=\"center\">",
+        "translatedContent": "  <div align=\"center\">"
+      },
+      {
+        "row": 17,
+        "rowsha": "mmWwgUr7eK5Di0Efb1r3854R4YVJfvCN6cB35LiO4gI=",
+        "originContent": "    <a href=\"https://github.com/strands-agents/samples/graphs/commit-activity\"><img alt=\"GitHub commit activity\" src=\"https://img.shields.io/github/commit-activity/m/strands-agents/samples\"/></a>",
+        "translatedContent": "    <a href=\"https://github.com/strands-agents/samples/graphs/commit-activity\"><img alt=\"GitHub commit activity\" src=\"https://img.shields.io/github/commit-activity/m/strands-agents/samples\"/></a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "uc6qy6M3AHwk/r/lJ1e5sLXEUjbm95KU+SqaXg+5mZI=",
+        "originContent": "    <a href=\"https://github.com/strands-agents/samples/issues\"><img alt=\"GitHub open issues\" src=\"https://img.shields.io/github/issues/strands-agents/samples\"/></a>",
+        "translatedContent": "    <a href=\"https://github.com/strands-agents/samples/issues\"><img alt=\"GitHub open issues\" src=\"https://img.shields.io/github/issues/strands-agents/samples\"/></a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "vJiyfXsjTGEl7y9xv40iIXSvJmXg17lc2tr33ATTFbI=",
+        "originContent": "    <a href=\"https://github.com/strands-agents/samples/pulls\"><img alt=\"GitHub open pull requests\" src=\"https://img.shields.io/github/issues-pr/strands-agents/samples\"/></a>",
+        "translatedContent": "    <a href=\"https://github.com/strands-agents/samples/pulls\"><img alt=\"GitHub open pull requests\" src=\"https://img.shields.io/github/issues-pr/strands-agents/samples\"/></a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "nMcYv0W8xC8DNmUVPROgXEknk8X2vSP6gv0cw1bhFDk=",
+        "originContent": "    <a href=\"https://github.com/strands-agents/samples/blob/main/LICENSE\"><img alt=\"License\" src=\"https://img.shields.io/github/license/strands-agents/samples\"/></a>",
+        "translatedContent": "    <a href=\"https://github.com/strands-agents/samples/blob/main/LICENSE\"><img alt=\"License\" src=\"https://img.shields.io/github/license/strands-agents/samples\"/></a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "TFeor9sDM2gZqn6BBqB9bb7gMaKqgk0Ph1pgaT3gpaM=",
+        "originContent": "  </div>",
+        "translatedContent": "  </div>"
+      },
+      {
+        "row": 22,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 23,
+        "rowsha": "MJGi589i5tXcisTb4jgZavoENJpGLV21nMt9oHSIUc0=",
+        "originContent": "  <p>",
+        "translatedContent": "  <p>"
+      },
+      {
+        "row": 24,
+        "rowsha": "FF4AEDIHT0LMWM30e1an4gDQ4mhDcNe4uSO8x4itczc=",
+        "originContent": "    <a href=\"https://strandsagents.com/\">Documentation</a>",
+        "translatedContent": "    <a href=\"https://strandsagents.com/\">ドキュメント</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "xONI6GUx/4fjc+ckmlDglqKLKyAiIjBpE8Dj8Nr16IA=",
+        "originContent": "    ◆ <a href=\"https://github.com/strands-agents/samples\">Samples</a>",
+        "translatedContent": "    ◆ <a href=\"https://github.com/strands-agents/samples\">サンプル</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "Wyt3xH7Y+Q3Fbp1ja9kM3yPuqQFRahOYStXLkPqK5jg=",
+        "originContent": "    ◆ <a href=\"https://github.com/strands-agents/sdk-python\">Python SDK</a>",
+        "translatedContent": "    ◆ <a href=\"https://github.com/strands-agents/sdk-python\">Python SDK</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "B3ndnXKY0gKHSDTs778QW++oThwy+u933NTeBFVNjuQ=",
+        "originContent": "    ◆ <a href=\"https://github.com/strands-agents/tools\">Tools</a>",
+        "translatedContent": "    ◆ <a href=\"https://github.com/strands-agents/tools\">ツール</a>"
+      },
+      {
+        "row": 28,
+        "rowsha": "+jn2hbvoLYot3uXXTfd7DvkUU/9z4wBfpgesmSkq50s=",
+        "originContent": "    ◆ <a href=\"https://github.com/strands-agents/agent-builder\">Agent Builder</a>",
+        "translatedContent": "    ◆ <a href=\"https://github.com/strands-agents/agent-builder\">エージェントビルダー</a>"
+      },
+      {
+        "row": 29,
+        "rowsha": "2+vZkG/IYH6JEQhJrlGtA4H1yYQAVwZkadG+Gioo+TU=",
+        "originContent": "    ◆ <a href=\"https://github.com/strands-agents/mcp-server\">MCP Server</a>",
+        "translatedContent": "    ◆ <a href=\"https://github.com/strands-agents/mcp-server\">MCPサーバー</a>"
+      },
+      {
+        "row": 30,
+        "rowsha": "xekGMwR1kXr+mg5XAB6V3dYHsyhEy+YsYHHE8Tdsue4=",
+        "originContent": "  </p>",
+        "translatedContent": "  </p>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "rquAEvOrmdxGDzr0Jbd+VlCUOPOtYs9KBwwChs47ejM=",
+        "originContent": "Welcome to the Strands Agents Samples repository!",
+        "translatedContent": "Strands Agents サンプルリポジトリへようこそ！"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "exh1OrOTqqTQgunW9ga8n2y2zEROeHvU/tqcfil3a4k=",
+        "originContent": "Explore easy-to-use examples to get started with <a href=\"https://strandsagents.com\">Strands Agents</a>.",
+        "translatedContent": "<a href=\"https://strandsagents.com\">Strands Agents</a> を始めるための使いやすい例を探検してください。"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "wjwo552LtV3QAaksiFUvNGtwHgUKkXxhU5l7QcuFrOw=",
+        "originContent": "The examples in this repository are for **demonstration and educational purposes** only. They demonstrate concepts and techniques but are **not intended for direct use in production**. Always apply proper **security** and **testing** procedures before using in production environments.",
+        "translatedContent": "このリポジトリのサンプルは**デモおよび教育目的**のみです。概念や技術を示しますが、**本番環境での直接使用は意図していません**。本番環境で使用する前に、必ず適切な**セキュリティ**と**テスト**手順を適用してください。"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "E6btONeT1bT47/C6WpD0WajHWCgQmEhKgUGOvWb3Bo0=",
+        "originContent": "## 📚 Table of Contents",
+        "translatedContent": "## 📚 目次"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "1R+3ms8dYswitoM/3Z9nFTZkHHPVP4dKsJcor71PFc0=",
+        "originContent": "- [📚 Table of Contents](#-table-of-contents)",
+        "translatedContent": "- [📚 目次](#-table-of-contents)"
+      },
+      {
+        "row": 42,
+        "rowsha": "dp4dZBo7JVMxmJbmBq9s2J5MESAVTWsQZb0NyhmohVQ=",
+        "originContent": "- [🏁 Getting Started](#-getting-started)",
+        "translatedContent": "- [🏁 はじめに](#-getting-started)"
+      },
+      {
+        "row": 43,
+        "rowsha": "cKBQLpN8VPIukG3JW57U2amzVg8J61htrvteIL8oEa0=",
+        "originContent": "  - [Step 1: Install Required Packages](#step-1-install-required-packages)",
+        "translatedContent": "  - [ステップ1: 必要なパッケージをインストール](#step-1-install-required-packages)"
+      },
+      {
+        "row": 44,
+        "rowsha": "ESPoDPAPIHsK+iVo9ldqUY/omKg09RMhofI+aFtCdIg=",
+        "originContent": "  - [Step 2: Setup Model Provider](#step-2-setup-model-provider)",
+        "translatedContent": "  - [ステップ2: モデルプロバイダーの設定](#step-2-setup-model-provider)"
+      },
+      {
+        "row": 45,
+        "rowsha": "bCT8dxRRFNqHV0sYX7TaCl0acVKGDzjvZrkIHszJOlo=",
+        "originContent": "  - [Step 3: Build Your First Strands Agent](#step-3-build-your-first-strands-agent)",
+        "translatedContent": "  - [ステップ3: 最初のStrandsエージェントを構築](#step-3-build-your-first-strands-agent)"
+      },
+      {
+        "row": 46,
+        "rowsha": "4Wh17djxGAQAQ3ULBPfbe1FPT2F4fOBUGt/wSER0VOM=",
+        "originContent": "  - [Step 4: Getting Started with the SDK](#step-4-getting-started-with-the-sdk)",
+        "translatedContent": "  - [ステップ4: SDKの使い方](#step-4-getting-started-with-the-sdk)"
+      },
+      {
+        "row": 47,
+        "rowsha": "AIhIh9ZecqZuonn1ZxAllgNDtfBQMwQjF/j2bTwxgMM=",
+        "originContent": "  - [Step 5: Explore More Samples](#step-5-explore-more-samples)",
+        "translatedContent": "  - [ステップ5: さらにサンプルを探る](#step-5-explore-more-samples)"
+      },
+      {
+        "row": 48,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "3k7XhqfmdSK5qhELZP7/pqhtrYMpmqkaaQQAEAWuuUs=",
+        "originContent": "## 🏁 Getting Started",
+        "translatedContent": "## 🏁 はじめに"
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "BHiVZvR0dJU6KUMDyroqzdpGkPEGHju8fBUd6jLljM0=",
+        "originContent": "### Step 1: Install Required Packages",
+        "translatedContent": "### ステップ1: 必要なパッケージをインストール"
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\npip install strands-agents\npip install strands-agents-tools\n```",
+    "ContentSha": "/Faa3NZokGyhXevVf7ec88k4YvL4se8hRm0oA9J/VAE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npip install strands-agents\npip install strands-agents-tools\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "AzPcSSZCQSh0Im3wBIpXPaMrtkAXZLf4a+WyFf9hV64=",
+        "originContent": "pip install strands-agents",
+        "translatedContent": "pip install strands-agents"
+      },
+      {
+        "row": 3,
+        "rowsha": "nyYkRmysSTW11JURM//h53m6n63sIHmg5MGRxDgDh0o=",
+        "originContent": "pip install strands-agents-tools",
+        "translatedContent": "pip install strands-agents-tools"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### Step 2: Setup Model Provider\n\nFollow the instructions [here](https://strandsagents.com/latest/user-guide/quickstart/#model-providers) to configure your model provider and model access.\n\n### Step 3: Build Your First Strands Agent\n",
+    "ContentSha": "svFRE3Q75dPL3tvPTs2uJfEXeXW4fBe5lICgDBnlQoE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### ステップ 2: モデルプロバイダーの設定\n\nモデルプロバイダーとモデルアクセスの設定については、[こちら](https://strandsagents.com/latest/user-guide/quickstart/#model-providers)の手順に従ってください。\n\n### ステップ 3: 最初の Strands エージェントを作成する\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### ステップ 2: モデルプロバイダーの設定"
+      },
+      {
+        "row": 2,
+        "rowsha": "uos9yfwtI15GsRT3oUNs8Te/AA+H4/D08i9tS9Fm4oM=",
+        "originContent": "### Step 2: Setup Model Provider",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "モデルプロバイダーとモデルアクセスの設定については、[こちら](https://strandsagents.com/latest/user-guide/quickstart/#model-providers)の手順に従ってください。"
+      },
+      {
+        "row": 4,
+        "rowsha": "aSUNxaHW7ZSdvo3OEvPsomh6+XAXW8ONDPwp9JXtjQI=",
+        "originContent": "Follow the instructions [here](https://strandsagents.com/latest/user-guide/quickstart/#model-providers) to configure your model provider and model access.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### ステップ 3: 最初の Strands エージェントを作成する"
+      },
+      {
+        "row": 6,
+        "rowsha": "MXW1hZQAjes94u+eETjQYDmbxDvUKtlJTV2b6isFqKM=",
+        "originContent": "### Step 3: Build Your First Strands Agent",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```python\nfrom strands import Agent, tool\nfrom strands_tools import calculator, current_time, python_repl\n\n@tool\ndef letter_counter(word: str, letter: str) -> int:\n    \"\"\"\n    Count the occurrences of a specific letter in a word.\n    \"\"\"\n    if not isinstance(word, str) or not isinstance(letter, str):\n        return 0\n    if len(letter) != 1:\n        raise ValueError(\"The 'letter' parameter must be a single character\")\n    return word.lower().count(letter.lower())\n\nagent = Agent(tools=[calculator, current_time, python_repl, letter_counter])\n\nmessage = \"\"\"\nI have 4 requests:\n\n1. What is the time right now?\n2. Calculate 3111696 / 74088\n3. Tell me how many letter R's are in the word \"strawberry\" 🍓\n4. Output a script that does what we just spoke about!\n   Use your python tools to confirm that the script works before outputting it\n\"\"\"\n\nagent(message)\n```",
+    "ContentSha": "FhDvF4foUTZGYRdkTkNxjQ+u7OQLMXyVCfGK6/L53Is=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nfrom strands import Agent, tool\nfrom strands_tools import calculator, current_time, python_repl\n\n@tool\ndef letter_counter(word: str, letter: str) -> int:\n    \"\"\"\n    Count the occurrences of a specific letter in a word.\n    \"\"\"\n    if not isinstance(word, str) or not isinstance(letter, str):\n        return 0\n    if len(letter) != 1:\n        raise ValueError(\"The 'letter' parameter must be a single character\")\n    return word.lower().count(letter.lower())\n\nagent = Agent(tools=[calculator, current_time, python_repl, letter_counter])\n\nmessage = \"\"\"\nI have 4 requests:\n\n1. What is the time right now?\n2. Calculate 3111696 / 74088\n3. Tell me how many letter R's are in the word \"strawberry\" 🍓\n4. Output a script that does what we just spoke about!\n   Use your python tools to confirm that the script works before outputting it\n\"\"\"\n\nagent(message)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "yw37aP0jLHvB0ErwYaAgIQ9qFV9/uTPfTCYG+7MMqHk=",
+        "originContent": "from strands import Agent, tool",
+        "translatedContent": "from strands import Agent, tool"
+      },
+      {
+        "row": 3,
+        "rowsha": "8PnaqI3bUSpKVQwFuEv801XOgnr1USgbzrs6elxeYKk=",
+        "originContent": "from strands_tools import calculator, current_time, python_repl",
+        "translatedContent": "from strands_tools import calculator, current_time, python_repl"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "vvyM1/+3WP/B2fYRnj8V1GWis2PXshy167JtETaZ7c0=",
+        "originContent": "@tool",
+        "translatedContent": "@tool"
+      },
+      {
+        "row": 6,
+        "rowsha": "5Tp2FQUTPPMr0N1PXwEtaeADyoirhV36XPZ9bOmTHT4=",
+        "originContent": "def letter_counter(word: str, letter: str) -> int:",
+        "translatedContent": "def letter_counter(word: str, letter: str) -> int:"
+      },
+      {
+        "row": 7,
+        "rowsha": "x/7Lp0Ia/nd1qKanKoLzxPh7VXxvl4bks0KvkTA2HHM=",
+        "originContent": "    \"\"\"",
+        "translatedContent": "    \"\"\""
+      },
+      {
+        "row": 8,
+        "rowsha": "kFyvBcQyPHiOWGV5Qw8mDVYi1fKd3uwAp6Hchz/5I9M=",
+        "originContent": "    Count the occurrences of a specific letter in a word.",
+        "translatedContent": "    Count the occurrences of a specific letter in a word."
+      },
+      {
+        "row": 9,
+        "rowsha": "x/7Lp0Ia/nd1qKanKoLzxPh7VXxvl4bks0KvkTA2HHM=",
+        "originContent": "    \"\"\"",
+        "translatedContent": "    \"\"\""
+      },
+      {
+        "row": 10,
+        "rowsha": "7GaywnaFgFV9C81hiwrKWCa4KjsFFM3S5f8ysgazrWI=",
+        "originContent": "    if not isinstance(word, str) or not isinstance(letter, str):",
+        "translatedContent": "    if not isinstance(word, str) or not isinstance(letter, str):"
+      },
+      {
+        "row": 11,
+        "rowsha": "s3yQDsXe19TTzb2wxZgc0HmKHTzKoFpzxsoaZQSenY4=",
+        "originContent": "        return 0",
+        "translatedContent": "        return 0"
+      },
+      {
+        "row": 12,
+        "rowsha": "lXn+0w/sOgKs8/2NUTau7gjEDvxZPt4jDFOYPOixCx0=",
+        "originContent": "    if len(letter) != 1:",
+        "translatedContent": "    if len(letter) != 1:"
+      },
+      {
+        "row": 13,
+        "rowsha": "zmMjX0jTPPDRoOxx7jItlw8GZnDBRFW7+RYHXi9aRMQ=",
+        "originContent": "        raise ValueError(\"The 'letter' parameter must be a single character\")",
+        "translatedContent": "        raise ValueError(\"The 'letter' parameter must be a single character\")"
+      },
+      {
+        "row": 14,
+        "rowsha": "vAXzY9xsm/mW4dpNkNOmyK0M/QwPkd8nBqX/Bu/dMro=",
+        "originContent": "    return word.lower().count(letter.lower())",
+        "translatedContent": "    return word.lower().count(letter.lower())"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "jxRUJFLJwLuh1+BeVi0B751LZ08Q2jzremcDjQtfjNI=",
+        "originContent": "agent = Agent(tools=[calculator, current_time, python_repl, letter_counter])",
+        "translatedContent": "agent = Agent(tools=[calculator, current_time, python_repl, letter_counter])"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "hQVyAazxfc5U6l2tqo0l8I6gq4Ph3P9XR1lQw/PdUnA=",
+        "originContent": "message = \"\"\"",
+        "translatedContent": "message = \"\"\""
+      },
+      {
+        "row": 19,
+        "rowsha": "TpGjgLx/erS2rne9GvMkOA2MZS+LnRwAoUxVlJEevXA=",
+        "originContent": "I have 4 requests:",
+        "translatedContent": "I have 4 requests:"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "GoYWMYMvRRba/s1AVWa1e87taSxtf5EpyHxXW0K3I+4=",
+        "originContent": "1. What is the time right now?",
+        "translatedContent": "1. What is the time right now?"
+      },
+      {
+        "row": 22,
+        "rowsha": "DwZCh8jlTLFCkC2KnqLskmPsvxIswBydSadhNG8WBWs=",
+        "originContent": "2. Calculate 3111696 / 74088",
+        "translatedContent": "2. Calculate 3111696 / 74088"
+      },
+      {
+        "row": 23,
+        "rowsha": "5/RftqR024caANmkA3l80YSniT8bveQX8nEfZBVJUcI=",
+        "originContent": "3. Tell me how many letter R's are in the word \"strawberry\" 🍓",
+        "translatedContent": "3. Tell me how many letter R's are in the word \"strawberry\" 🍓"
+      },
+      {
+        "row": 24,
+        "rowsha": "UpKZL+NoF5tcU4ODNuCj3flkHrVQIhVzu+fry4LXJa8=",
+        "originContent": "4. Output a script that does what we just spoke about!",
+        "translatedContent": "4. Output a script that does what we just spoke about!"
+      },
+      {
+        "row": 25,
+        "rowsha": "ttWzwbBFvfPC8xk8z7W14rlbEqG9FMNu3ojijsg5dAo=",
+        "originContent": "   Use your python tools to confirm that the script works before outputting it",
+        "translatedContent": "   Use your python tools to confirm that the script works before outputting it"
+      },
+      {
+        "row": 26,
+        "rowsha": "ttJn7+gKPbzy8tZ+IdjBV4Oi8DFCf4J9Q7YiL+nEvwI=",
+        "originContent": "\"\"\"",
+        "translatedContent": "\"\"\""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "wx/Kl1EaCRUISiTvtlh5FVx8FwkNoORpmS2dVe8KfCU=",
+        "originContent": "agent(message)",
+        "translatedContent": "agent(message)"
+      },
+      {
+        "row": 29,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Step 4: Getting Started with the SDK\n\nStart with the [01-tutorials](./01-tutorials/) directory.\nCreate your [first agent](./01-tutorials/01-fundamentals/01-first-agent/) and explore notebook-based examples covering core functionalities.\n\n### Step 5: Explore More Samples\n\nLooking for inspiration?\nCheck out more examples in the [02-samples](./02-samples/) folder for real-world use cases.\n\n## Contributing ❤️\n\nWe welcome contributions! See our [Contributing Guide](https://raw.githubusercontent.com/strands-agents/samples/main/CONTRIBUTING.md) for details on:\n- Reporting bugs & features\n- Development setup\n- Contributing via Pull Requests\n- Code of Conduct\n- Reporting of security issues\n\n## License\n\nThis project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.\n\n## Security\n\nSee [CONTRIBUTING](https://raw.githubusercontent.com/strands-agents/samples/main/CONTRIBUTING.md#security-issue-notifications) for more information.\n",
+    "ContentSha": "obqnICWJp7g57enC5P6Vr9gMK8M5QWHPwsKIwOifxU0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### ステップ4：SDKの使い始め\n\n[01-tutorials](./01-tutorials/) ディレクトリから始めましょう。  \n[最初のエージェント](./01-tutorials/01-fundamentals/01-first-agent/)を作成し、コア機能をカバーするノートブックベースの例を探検してください。\n\n### ステップ5：さらにサンプルを探る\n\nインスピレーションをお探しですか？  \n実際のユースケースのための例は、[02-samples](./02-samples/) フォルダでご覧いただけます。\n\n## 貢献 ❤️\n\n貢献を歓迎します！詳細は[Contributing Guide](https://raw.githubusercontent.com/strands-agents/samples/main/CONTRIBUTING.md)をご覧ください：  \n- バグや機能の報告  \n- 開発環境のセットアップ  \n- プルリクエストによる貢献  \n- 行動規範  \n- セキュリティ問題の報告  \n\n## ライセンス\n\n本プロジェクトはApache License 2.0の下でライセンスされています。詳細は[LICENSE](LICENSE)ファイルをご覧ください。\n\n## セキュリティ\n\n詳細は[CONTRIBUTING](https://raw.githubusercontent.com/strands-agents/samples/main/CONTRIBUTING.md#security-issue-notifications)をご参照ください。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### ステップ4：SDKの使い始め"
+      },
+      {
+        "row": 2,
+        "rowsha": "T+hyl9sk2Qj/NBO6oNBv4gdv4SZsuLGRER5LDx0HW08=",
+        "originContent": "### Step 4: Getting Started with the SDK",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[01-tutorials](./01-tutorials/) ディレクトリから始めましょう。  "
+      },
+      {
+        "row": 4,
+        "rowsha": "AuwHLkKod8Iwx24zw/97YlS7mPy1ySW5x2fjGpq4WFw=",
+        "originContent": "Start with the [01-tutorials](./01-tutorials/) directory.",
+        "translatedContent": "[最初のエージェント](./01-tutorials/01-fundamentals/01-first-agent/)を作成し、コア機能をカバーするノートブックベースの例を探検してください。"
+      },
+      {
+        "row": 5,
+        "rowsha": "LiEQ+AQrKdLx7O1Wt9xAoBI3K6Q1En4mvdcbAr7ytdM=",
+        "originContent": "Create your [first agent](./01-tutorials/01-fundamentals/01-first-agent/) and explore notebook-based examples covering core functionalities.",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### ステップ5：さらにサンプルを探る"
+      },
+      {
+        "row": 7,
+        "rowsha": "cLzN4vnhiCGuMsHQyr3wm/BWZMk4pYsJ1DE2R9lDAEE=",
+        "originContent": "### Step 5: Explore More Samples",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "インスピレーションをお探しですか？  "
+      },
+      {
+        "row": 9,
+        "rowsha": "kKzRljKAT+nP8Lw7HjM96q4M8aj8RQBBYynsjdychEs=",
+        "originContent": "Looking for inspiration?",
+        "translatedContent": "実際のユースケースのための例は、[02-samples](./02-samples/) フォルダでご覧いただけます。"
+      },
+      {
+        "row": 10,
+        "rowsha": "zoSvlViLk2NFeYyzihC/aBihydBA0DgVr/n0Uwm1uR8=",
+        "originContent": "Check out more examples in the [02-samples](./02-samples/) folder for real-world use cases.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 貢献 ❤️"
+      },
+      {
+        "row": 12,
+        "rowsha": "z2oSbyCZVl+MZVi16HiW6jLW8+BP1HD5ifHQFd2kYQA=",
+        "originContent": "## Contributing ❤️",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "貢献を歓迎します！詳細は[Contributing Guide](https://raw.githubusercontent.com/strands-agents/samples/main/CONTRIBUTING.md)をご覧ください：  "
+      },
+      {
+        "row": 14,
+        "rowsha": "uEDg/6qu+ARz/wnLGflLfAiqtH41IDPQY9i4Ofhv6zg=",
+        "originContent": "We welcome contributions! See our [Contributing Guide](https://raw.githubusercontent.com/strands-agents/samples/main/CONTRIBUTING.md) for details on:",
+        "translatedContent": "- バグや機能の報告  "
+      },
+      {
+        "row": 15,
+        "rowsha": "CesZmVK6VacjggtZo8KEKlWFkCwN4WvHjubK1URniFI=",
+        "originContent": "- Reporting bugs & features",
+        "translatedContent": "- 開発環境のセットアップ  "
+      },
+      {
+        "row": 16,
+        "rowsha": "H17LBMs19SuX2CBP2Y3lIm8CMdsCS6OxY6E8Il4JYjQ=",
+        "originContent": "- Development setup",
+        "translatedContent": "- プルリクエストによる貢献  "
+      },
+      {
+        "row": 17,
+        "rowsha": "80grvzx1pCE4KYmEa/4eJtH8aWG6Xxz6kbnHbVl9WGs=",
+        "originContent": "- Contributing via Pull Requests",
+        "translatedContent": "- 行動規範  "
+      },
+      {
+        "row": 18,
+        "rowsha": "2BLplSkLcbBOM5zJCp7pZnr1ogM32CJnkM5RQomRIUg=",
+        "originContent": "- Code of Conduct",
+        "translatedContent": "- セキュリティ問題の報告  "
+      },
+      {
+        "row": 19,
+        "rowsha": "heXumuGS1sU1/g5NuzoJCO7peBPdDKdmOG/ij3p/BJ8=",
+        "originContent": "- Reporting of security issues",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ライセンス"
+      },
+      {
+        "row": 21,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "本プロジェクトはApache License 2.0の下でライセンスされています。詳細は[LICENSE](LICENSE)ファイルをご覧ください。"
+      },
+      {
+        "row": 23,
+        "rowsha": "CJV7ub4cVsrSYskvro4OvyOq6Q/YbvaVic4T/Hj0wrQ=",
+        "originContent": "This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## セキュリティ"
+      },
+      {
+        "row": 25,
+        "rowsha": "UlQ9upvw00moCjWDduBZqkTiv0PRDG/mYeqnsF8DP6Q=",
+        "originContent": "## Security",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "詳細は[CONTRIBUTING](https://raw.githubusercontent.com/strands-agents/samples/main/CONTRIBUTING.md#security-issue-notifications)をご参照ください。"
+      },
+      {
+        "row": 27,
+        "rowsha": "Xm11AhXLUCnKKQKy9utrQQSRtOIsvCqH7talRq0VayI=",
+        "originContent": "See [CONTRIBUTING](https://raw.githubusercontent.com/strands-agents/samples/main/CONTRIBUTING.md#security-issue-notifications) for more information.",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,28 +1,59 @@
-<translate-content># AlphaEvolve 写作
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
+
+# AlphaEvolve 写作
 
 ![AlphaEvolve 写作流程](https://raw.githubusercontent.com/tamassimonds/AlphaEvolveWriting/main/assets/AlphaWriteProcess.png)
 
-您可以在[这里](https://tobysimonds.com/research/2025/06/06/LLM-Self-Rewarding-copy.html)找到完整解释
+你可以在[这里](https://tobysimonds.com/research/2025/06/06/LLM-Self-Rewarding-copy.html)找到完整解释
 
-您可以在[这里](https://blog.reedsy.com/short-story/wo9iuy/#comments)找到提交到写作比赛的样例故事
+你可以在[这里](https://blog.reedsy.com/short-story/wo9iuy/#comments)找到提交到写作比赛的示例故事
 
-一个现代的进化写作系统，使用 AI 模型通过迭代竞赛生成、评估并进化创意故事或一般写作作品。采用简洁、模块化的 Python 架构，遵循现代设计原则构建。
-
-
+一套现代的进化写作系统，通过 AI 模型生成、评估并进化创意故事或一般写作作品，采用迭代竞赛的方式。采用干净、模块化的 Python 架构，遵循现代设计原则。
 
 
-## ✨ 特性
 
-- 🧬 **进化算法**：通过 AI 驱动的锦标赛进化故事
-- 🎯 **双写作模式**：创意讲故事与一般写作优化
-- 🏆 **ELO 锦标赛系统**：通过成对比较实现复杂排名
-- 🌐 **网页界面**：人工验证和故事比较工具
-- 🔧 **可配置**：通过 JSON 配置实现广泛定制
+
+## ✨ 功能特色
+
+- 🧬 **进化算法**：故事通过 AI 驱动的锦标赛不断进化
+- 🎯 **双写作模式**：兼具创意故事与一般写作优化
+- 🏆 **ELO 锦标赛系统**：通过两两比较实现复杂排名
+- 🌐 **网页界面**：支持人工验证与故事对比工具
+- 🔧 **可配置**：通过 JSON 配置实现高度自定义
 
 ## 🚀 快速开始
 
 ### 安装
-</translate-content>
+
+
 ```bash
 # Clone the repository
 git clone https://github.com/your-org/alphaevolve-writing
@@ -319,6 +350,6 @@ python app.py
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
 
 ---

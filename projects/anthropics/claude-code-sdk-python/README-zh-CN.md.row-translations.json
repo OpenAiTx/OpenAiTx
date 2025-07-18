@@ -1,0 +1,800 @@
+[
+  {
+    "row": 1,
+    "rowsha": "OnimvyEUdd2HzOKtGGp0PGbzTYUuJkHvlpUDWMn6PnU=",
+    "originContent": "# Claude Code SDK for Python",
+    "translatedContent": "<translate-content># Claude Code Python SDK"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "OG2aMAI3N/UpyRcpzgL9AZseC6dwbzBjnEYf0/XUBJw=",
+    "originContent": "Python SDK for Claude Code. See the [Claude Code SDK documentation](https://docs.anthropic.com/en/docs/claude-code/sdk) for more information.",
+    "translatedContent": "Claude Code 的 Python SDK。有关更多信息，请参阅 [Claude Code SDK 文档](https://docs.anthropic.com/en/docs/claude-code/sdk)。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 安装"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "</translate-content>"
+  },
+  {
+    "row": 7,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 8,
+    "rowsha": "qzcpQDMYPMAMz2uWIkzGXD2Mi5fWgXqcUZ7WtIijNag=",
+    "originContent": "pip install claude-code-sdk",
+    "translatedContent": "pip install claude-code-sdk"
+  },
+  {
+    "row": 9,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**先决条件：**"
+  },
+  {
+    "row": 11,
+    "rowsha": "xd8y9pZL25M5Wo+UnBJ6kdtPlb8PXDotpsDHAIQtVQI=",
+    "originContent": "**Prerequisites:**",
+    "translatedContent": "- Python 3.10+"
+  },
+  {
+    "row": 12,
+    "rowsha": "/Gi53J2lUHHzdn3pZYwjCeoEgaaPv/a/BQzHFO/e6uI=",
+    "originContent": "- Python 3.10+",
+    "translatedContent": "- Node.js "
+  },
+  {
+    "row": 13,
+    "rowsha": "BVXWPpF6tNuEeU5wewD/5mcTunEwkhTAhXUIh9FIJPU=",
+    "originContent": "- Node.js ",
+    "translatedContent": "- Claude 代码：`npm install -g @anthropic-ai/claude-code`"
+  },
+  {
+    "row": 14,
+    "rowsha": "vI8OmTYzxnyZrFTywYh+Mokctw+C8AZLFZdfeOhtEtA=",
+    "originContent": "- Claude Code: `npm install -g @anthropic-ai/claude-code`",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 快速开始"
+  },
+  {
+    "row": 16,
+    "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+    "originContent": "## Quick Start",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 19,
+    "rowsha": "EumUGdmE1C0yTAX/DvUI5Dg65O+B/nmxuEgCoa2gip0=",
+    "originContent": "import anyio",
+    "translatedContent": "import anyio"
+  },
+  {
+    "row": 20,
+    "rowsha": "MEmxcZV9xyfR61Tip4VUS28K1PER4ZzCWlPFjw8zR5A=",
+    "originContent": "from claude_code_sdk import query",
+    "translatedContent": "from claude_code_sdk import query"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "nrHT+CVqLOBAOS5prLC4WHgcXaZPIPykp2rG5tE8Wik=",
+    "originContent": "async def main():",
+    "translatedContent": "async def main():"
+  },
+  {
+    "row": 23,
+    "rowsha": "5F76hoWbUaLLCpR8HFXXiRnt02j6HDFZcqE4YVQtnAM=",
+    "originContent": "    async for message in query(prompt=\"What is 2 + 2?\"):",
+    "translatedContent": "    async for message in query(prompt=\"What is 2 + 2?\"):"
+  },
+  {
+    "row": 24,
+    "rowsha": "OF+k9bMGFKj/Cn0YtxwOutAR0EK4eDjOvLq+GpZ0RPA=",
+    "originContent": "        print(message)",
+    "translatedContent": "        print(message)"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "CaUFCouXg4skbKCVtgtmGl0IxvTa4FbYkEBt6Nm8Cyg=",
+    "originContent": "anyio.run(main)",
+    "translatedContent": "anyio.run(main)"
+  },
+  {
+    "row": 27,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 用法"
+  },
+  {
+    "row": 29,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 基本查询"
+  },
+  {
+    "row": 31,
+    "rowsha": "R72HvXvWerWuO1geDkQylRDQCoNVSbRatHv06l4tBEY=",
+    "originContent": "### Basic Query",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 34,
+    "rowsha": "FHg2gABPgR3NIo2aZmQt5/loT8RBw5oU7bkSzDfKLC8=",
+    "originContent": "from claude_code_sdk import query, ClaudeCodeOptions, AssistantMessage, TextBlock",
+    "translatedContent": "from claude_code_sdk import query, ClaudeCodeOptions, AssistantMessage, TextBlock"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "J2nSYkNOxj7a7NysmoSPp/bNYGYDrUPvQ3GqBCpB/LE=",
+    "originContent": "# Simple query",
+    "translatedContent": "# Simple query"
+  },
+  {
+    "row": 37,
+    "rowsha": "pK+Ulw+sBBvGa5bvlCKlUIUMxotwJBEmMTLDPrQSJBw=",
+    "originContent": "async for message in query(prompt=\"Hello Claude\"):",
+    "translatedContent": "async for message in query(prompt=\"Hello Claude\"):"
+  },
+  {
+    "row": 38,
+    "rowsha": "O8qP/GScf2O9U1ZLb8dy1YadHgLk+a38LOcw+RlzBXs=",
+    "originContent": "    if isinstance(message, AssistantMessage):",
+    "translatedContent": "    if isinstance(message, AssistantMessage):"
+  },
+  {
+    "row": 39,
+    "rowsha": "dAMM+LXKEJTbkGxAkx5aYEKC7LtXaxXuD9iUaIfvXdA=",
+    "originContent": "        for block in message.content:",
+    "translatedContent": "        for block in message.content:"
+  },
+  {
+    "row": 40,
+    "rowsha": "xujSq23WLcFWJePB+4r7H+z5SVfyuB39BBPsWuJRXh4=",
+    "originContent": "            if isinstance(block, TextBlock):",
+    "translatedContent": "            if isinstance(block, TextBlock):"
+  },
+  {
+    "row": 41,
+    "rowsha": "QBgTIjumVDwHUdrpyyqrG7sP1E74OGqkZSyHUvcckiw=",
+    "originContent": "                print(block.text)",
+    "translatedContent": "                print(block.text)"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "40ii1wPnmICUq0w0kWnCYD6vcCMQFlxOeWUoHsrvUOw=",
+    "originContent": "# With options",
+    "translatedContent": "# With options"
+  },
+  {
+    "row": 44,
+    "rowsha": "ndeho0X1OjxOzTkHfKf8BI6ztmcYxMInkNn+fBsoYKQ=",
+    "originContent": "options = ClaudeCodeOptions(",
+    "translatedContent": "options = ClaudeCodeOptions("
+  },
+  {
+    "row": 45,
+    "rowsha": "mER8uAmLTSXMg39yK9pmgZ/03G+YE++PBagTcU/Io34=",
+    "originContent": "    system_prompt=\"You are a helpful assistant\",",
+    "translatedContent": "    system_prompt=\"You are a helpful assistant\","
+  },
+  {
+    "row": 46,
+    "rowsha": "KmiB0FJyEI/d71JgTBEdajZT58hIYypC7OzpOvXVvmY=",
+    "originContent": "    max_turns=1",
+    "translatedContent": "    max_turns=1"
+  },
+  {
+    "row": 47,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "fNfxPPJndKSRvWqdI7gafuZVIQCa1SFDZkTb9ajD3SI=",
+    "originContent": "async for message in query(prompt=\"Tell me a joke\", options=options):",
+    "translatedContent": "async for message in query(prompt=\"Tell me a joke\", options=options):"
+  },
+  {
+    "row": 50,
+    "rowsha": "F28lANaqiOnggaEgPAXFmNsSMKkSgGhAelsMd0Yk7ww=",
+    "originContent": "    print(message)",
+    "translatedContent": "    print(message)"
+  },
+  {
+    "row": 51,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 使用工具"
+  },
+  {
+    "row": 53,
+    "rowsha": "gJAiRCe6ySSSwsqvbKxyvFXOpyfarZoWVm2YsMZKE8c=",
+    "originContent": "### Using Tools",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 56,
+    "rowsha": "ndeho0X1OjxOzTkHfKf8BI6ztmcYxMInkNn+fBsoYKQ=",
+    "originContent": "options = ClaudeCodeOptions(",
+    "translatedContent": "options = ClaudeCodeOptions("
+  },
+  {
+    "row": 57,
+    "rowsha": "/zM/h701dTSYxSEdhn3n1l0aEOjx6zS7KobMZsfE/1U=",
+    "originContent": "    allowed_tools=[\"Read\", \"Write\", \"Bash\"],",
+    "translatedContent": "    allowed_tools=[\"Read\", \"Write\", \"Bash\"],"
+  },
+  {
+    "row": 58,
+    "rowsha": "pGlP9VspV83OcUBtrnm6Si9lRwsCo4HHJyjv9G2l2EA=",
+    "originContent": "    permission_mode='acceptEdits'  # auto-accept file edits",
+    "translatedContent": "    permission_mode='acceptEdits'  # auto-accept file edits"
+  },
+  {
+    "row": 59,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "5dQNF6iJlSlreMpVLuCz1JqK6lF4OlhS2kP4GRuWC64=",
+    "originContent": "async for message in query(",
+    "translatedContent": "async for message in query("
+  },
+  {
+    "row": 62,
+    "rowsha": "TbDvvfHtpwv+om/Se8CVPrrLOVNKOhAr3Vp95AR1gYU=",
+    "originContent": "    prompt=\"Create a hello.py file\", ",
+    "translatedContent": "    prompt=\"Create a hello.py file\", "
+  },
+  {
+    "row": 63,
+    "rowsha": "YmeTzLXEOSjJUfOOBEYWr+d5rHnSyyJG2Dfc/2z+zz8=",
+    "originContent": "    options=options",
+    "translatedContent": "    options=options"
+  },
+  {
+    "row": 64,
+    "rowsha": "9LvY3Ao/1/Ir62x6Ri9vv26SYIFm96SV/Ye7Q76b0DQ=",
+    "originContent": "):",
+    "translatedContent": "):"
+  },
+  {
+    "row": 65,
+    "rowsha": "hZhsrtAkJ9JhJc+/jcxTU1voGhjkqoMwT/+B7LnTyPQ=",
+    "originContent": "    # Process tool use and results",
+    "translatedContent": "    # Process tool use and results"
+  },
+  {
+    "row": 66,
+    "rowsha": "4iWziNJR0JkCSIJU2lAWBfdjk1NaiDgSHswjcsVorzE=",
+    "originContent": "    pass",
+    "translatedContent": "    pass"
+  },
+  {
+    "row": 67,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 工作目录"
+  },
+  {
+    "row": 69,
+    "rowsha": "0L8Douva8K2cipN+EexvbdPH0zA658yOWFT59foBZAk=",
+    "originContent": "### Working Directory",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 72,
+    "rowsha": "bWnyrAkBe4pJ0FCrM26VO4+gKuCMJDlpFup+pCQY5ic=",
+    "originContent": "from pathlib import Path",
+    "translatedContent": "from pathlib import Path"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "ndeho0X1OjxOzTkHfKf8BI6ztmcYxMInkNn+fBsoYKQ=",
+    "originContent": "options = ClaudeCodeOptions(",
+    "translatedContent": "options = ClaudeCodeOptions("
+  },
+  {
+    "row": 75,
+    "rowsha": "C6SEFbCKdgvngDYpi8DXPeIPKvNcmvJe/P0KrZqfIfU=",
+    "originContent": "    cwd=\"/path/to/project\"  # or Path(\"/path/to/project\")",
+    "translatedContent": "    cwd=\"/path/to/project\"  # or Path(\"/path/to/project\")"
+  },
+  {
+    "row": 76,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 77,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## API 参考"
+  },
+  {
+    "row": 79,
+    "rowsha": "nvAYtiZ8HdVYa6kQLlWO++52V6Dkv1H6BZ+0YJLenok=",
+    "originContent": "## API Reference",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### `query(prompt, options=None)`"
+  },
+  {
+    "row": 81,
+    "rowsha": "eFpk9CfMRp+l/E98eGXvuglKvWgD+alMDpn8DQZcCFY=",
+    "originContent": "### `query(prompt, options=None)`",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "查询 Claude 的主要异步函数。"
+  },
+  {
+    "row": 83,
+    "rowsha": "OuZ0G1TRh3z8TqZ077N9j7sV/VSYs55M90RlK+Fcmxs=",
+    "originContent": "Main async function for querying Claude.",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**参数：**"
+  },
+  {
+    "row": 85,
+    "rowsha": "TP+/wPP2TqZ4KfVIMKmfbB9B9h4l26dtMha6vZMjnSg=",
+    "originContent": "**Parameters:**",
+    "translatedContent": "- `prompt` (str)：发送给 Claude 的提示"
+  },
+  {
+    "row": 86,
+    "rowsha": "iR6Qg0W5miRo4YN0LhdMeqioRHh91vdqXgh97rVVdmc=",
+    "originContent": "- `prompt` (str): The prompt to send to Claude",
+    "translatedContent": "- `options` (ClaudeCodeOptions)：可选配置"
+  },
+  {
+    "row": 87,
+    "rowsha": "HP1glCxOhTrnPLcu/wo61pf5eAuYxxFMUaV0nxP/35c=",
+    "originContent": "- `options` (ClaudeCodeOptions): Optional configuration",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**返回：** AsyncIterator[Message] - 响应消息流"
+  },
+  {
+    "row": 89,
+    "rowsha": "TwbvU5gE4DJPMlLufUNYTGbmg6xDGa+uPSUtmwWa+i4=",
+    "originContent": "**Returns:** AsyncIterator[Message] - Stream of response messages",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 类型"
+  },
+  {
+    "row": 91,
+    "rowsha": "e9lBTMzhgv9hrAu4jf840V0PxGWvlc8qiLyxcpvxQh4=",
+    "originContent": "### Types",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "完整类型定义请参见 [src/claude_code_sdk/types.py](https://raw.githubusercontent.com/anthropics/claude-code-sdk-python/main/src/claude_code_sdk/types.py)："
+  },
+  {
+    "row": 93,
+    "rowsha": "ZHDRm8aBhiZLZ+Zabirj3/S/ERGN/FfIx3ch2XOVC4I=",
+    "originContent": "See [src/claude_code_sdk/types.py](https://raw.githubusercontent.com/anthropics/claude-code-sdk-python/main/src/claude_code_sdk/types.py) for complete type definitions:",
+    "translatedContent": "- `ClaudeCodeOptions` - 配置选项"
+  },
+  {
+    "row": 94,
+    "rowsha": "l4k1hsT8LuazTvDYiKOabi0VIQnZW+IzXsbT+nsLdpk=",
+    "originContent": "- `ClaudeCodeOptions` - Configuration options",
+    "translatedContent": "- `AssistantMessage`、`UserMessage`、`SystemMessage`、`ResultMessage` - 消息类型"
+  },
+  {
+    "row": 95,
+    "rowsha": "/VoLGhOjbDvHfX4UD4ckPVFI2XGnbFwuQnajJ8v+7LE=",
+    "originContent": "- `AssistantMessage`, `UserMessage`, `SystemMessage`, `ResultMessage` - Message types",
+    "translatedContent": "- `TextBlock`、`ToolUseBlock`、`ToolResultBlock` - 内容块"
+  },
+  {
+    "row": 96,
+    "rowsha": "H1nXWEtQlhrdGGz5MQQSUV0zX8xAD80BsicCZluegeU=",
+    "originContent": "- `TextBlock`, `ToolUseBlock`, `ToolResultBlock` - Content blocks",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 错误处理"
+  },
+  {
+    "row": 98,
+    "rowsha": "Zg7yEomjR/QFytY2+h9LSXR37d9hdCRyh/C/rNPzgho=",
+    "originContent": "## Error Handling",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 101,
+    "rowsha": "oDQH71DgjR0uKormvUr2HrUZze1Zibk5o8tiBBi5Zjo=",
+    "originContent": "from claude_code_sdk import (",
+    "translatedContent": "from claude_code_sdk import ("
+  },
+  {
+    "row": 102,
+    "rowsha": "SLVlhuqhk0TvnCOIPuQ/6auXfk4/wTptz4hCu+XcZZw=",
+    "originContent": "    ClaudeSDKError,      # Base error",
+    "translatedContent": "    ClaudeSDKError,      # Base error"
+  },
+  {
+    "row": 103,
+    "rowsha": "Uzj4dyXKqyvNsSnhayANMPt5zpkXHUyNVo29QcBYnv8=",
+    "originContent": "    CLINotFoundError,    # Claude Code not installed",
+    "translatedContent": "    CLINotFoundError,    # Claude Code not installed"
+  },
+  {
+    "row": 104,
+    "rowsha": "8ZKVwHe+IqGzHgTb/y37VmIxp0XLZ3ISfd3hAvPiDCk=",
+    "originContent": "    CLIConnectionError,  # Connection issues",
+    "translatedContent": "    CLIConnectionError,  # Connection issues"
+  },
+  {
+    "row": 105,
+    "rowsha": "z4v6U7U3qAd5APbJVazLLRU26rSCb7JofWhtOzllmkk=",
+    "originContent": "    ProcessError,        # Process failed",
+    "translatedContent": "    ProcessError,        # Process failed"
+  },
+  {
+    "row": 106,
+    "rowsha": "heYl94Pqy4VLImpdMhuUpM51uw73gdrJ0YVgsg1wuPM=",
+    "originContent": "    CLIJSONDecodeError,  # JSON parsing issues",
+    "translatedContent": "    CLIJSONDecodeError,  # JSON parsing issues"
+  },
+  {
+    "row": 107,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "h2HC9QoFVVqfodSTBbkrg8LgzoqxS6Y8SR66jQ9S+2A=",
+    "originContent": "try:",
+    "translatedContent": "try:"
+  },
+  {
+    "row": 110,
+    "rowsha": "zzjZvBDu8oBR9SaUg1w3HnVdQom4esF+ovvQ/v3bGro=",
+    "originContent": "    async for message in query(prompt=\"Hello\"):",
+    "translatedContent": "    async for message in query(prompt=\"Hello\"):"
+  },
+  {
+    "row": 111,
+    "rowsha": "CzVHD9kOMY7VHnVNWDfr1R4a2yuxHuXE1Pt85DRddnM=",
+    "originContent": "        pass",
+    "translatedContent": "        pass"
+  },
+  {
+    "row": 112,
+    "rowsha": "XH/HTkV/bCqvLU1LwtJyCciz9v9vV1vXWEGkamqd7jM=",
+    "originContent": "except CLINotFoundError:",
+    "translatedContent": "except CLINotFoundError:"
+  },
+  {
+    "row": 113,
+    "rowsha": "LMOAnf4YQxdLTSjgyKnbg7vgg09xPrRKNncvdtE3ntY=",
+    "originContent": "    print(\"Please install Claude Code\")",
+    "translatedContent": "    print(\"Please install Claude Code\")"
+  },
+  {
+    "row": 114,
+    "rowsha": "jyDJ/dqm/i3y1my2dE1j4vEeCo1YtNPPveX34cyRwxQ=",
+    "originContent": "except ProcessError as e:",
+    "translatedContent": "except ProcessError as e:"
+  },
+  {
+    "row": 115,
+    "rowsha": "ZV1yBmflyX1FA/nJVb/BIIYl1YDDUoikWj0aTD/zUOw=",
+    "originContent": "    print(f\"Process failed with exit code: {e.exit_code}\")",
+    "translatedContent": "    print(f\"Process failed with exit code: {e.exit_code}\")"
+  },
+  {
+    "row": 116,
+    "rowsha": "pVkpP14Cp0OvgjiKgW7P8J1xUMSzYaT2mQbTNSvxwNI=",
+    "originContent": "except CLIJSONDecodeError as e:",
+    "translatedContent": "except CLIJSONDecodeError as e:"
+  },
+  {
+    "row": 117,
+    "rowsha": "aAFjZM4CvSx/c1ATsG2U0beC+yEqbYAf4VRFE5sPAck=",
+    "originContent": "    print(f\"Failed to parse response: {e}\")",
+    "translatedContent": "    print(f\"Failed to parse response: {e}\")"
+  },
+  {
+    "row": 118,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<translate-content>"
+  },
+  {
+    "row": 120,
+    "rowsha": "KWKSwMSxPCb6flE9hycio4e9j3y+GvqpJZLjW2BWHlc=",
+    "originContent": "See [src/claude_code_sdk/_errors.py](https://raw.githubusercontent.com/anthropics/claude-code-sdk-python/main/src/claude_code_sdk/_errors.py) for all error types.",
+    "translatedContent": "有关所有错误类型，请参见 [src/claude_code_sdk/_errors.py](https://raw.githubusercontent.com/anthropics/claude-code-sdk-python/main/src/claude_code_sdk/_errors.py)。"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "3p9HxS/FxYrtplhfcyaONljFJzSCmQticBC3tEpfjgo=",
+    "originContent": "## Available Tools",
+    "translatedContent": "## 可用工具"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "JWi9mLpZuCqEppGp1ZjsQvySraigJhAEul3k2UooazI=",
+    "originContent": "See the [Claude Code documentation](https://docs.anthropic.com/en/docs/claude-code/settings#tools-available-to-claude) for a complete list of available tools.",
+    "translatedContent": "完整的可用工具列表请参见 [Claude Code 文档](https://docs.anthropic.com/en/docs/claude-code/settings#tools-available-to-claude)。"
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
+    "originContent": "## Examples",
+    "translatedContent": "## 示例"
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "D+NSORs+fQ1qHuj9sOTVBb6M/Jsw0Krm3AOTvBatgLQ=",
+    "originContent": "See [examples/quick_start.py](https://raw.githubusercontent.com/anthropics/claude-code-sdk-python/main/examples/quick_start.py) for a complete working example.",
+    "translatedContent": "完整的工作示例请参见 [examples/quick_start.py](https://raw.githubusercontent.com/anthropics/claude-code-sdk-python/main/examples/quick_start.py)。"
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## 许可证"
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "5dz/6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x+o7c=",
+    "originContent": "MIT",
+    "translatedContent": "MIT"
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "</translate-content>"
+  }
+]

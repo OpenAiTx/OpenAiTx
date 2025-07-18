@@ -1,28 +1,59 @@
-<translate-content># AlphaEvolve 작성
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=tamassimonds&project=AlphaEvolveWriting&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
 
-![AlphaEvolve 작성 과정](https://raw.githubusercontent.com/tamassimonds/AlphaEvolveWriting/main/assets/AlphaWriteProcess.png)
+# AlphaEvolve Writing
+
+![AlphaEvolve Writing Process](https://raw.githubusercontent.com/tamassimonds/AlphaEvolveWriting/main/assets/AlphaWriteProcess.png)
 
 전체 설명은 [여기](https://tobysimonds.com/research/2025/06/06/LLM-Self-Rewarding-copy.html)에서 확인할 수 있습니다.
 
-작성 대회에 제출된 샘플 이야기는 [여기](https://blog.reedsy.com/short-story/wo9iuy/#comments)에서 확인할 수 있습니다.
+글쓰기 대회에 제출된 샘플 스토리는 [여기](https://blog.reedsy.com/short-story/wo9iuy/#comments)에서 볼 수 있습니다.
 
-AI 모델을 활용하여 창의적인 이야기나 일반 글을 생성, 평가, 진화시키는 현대적 진화형 작성 시스템입니다. 반복적인 경연을 통해 발전하며, 현대적 설계 원칙을 따른 깔끔하고 모듈화된 Python 아키텍처로 구축되었습니다.
-
-
+AI 모델을 사용하여 창의적인 스토리나 일반 글을 생성, 평가, 진화시키는 현대적 진화적 글쓰기 시스템입니다. 최신 설계 원칙을 따르는 깔끔하고 모듈화된 파이썬 아키텍처로 제작되었습니다.
 
 
-## ✨ 특징
 
-- 🧬 **진화 알고리즘**: AI 기반 토너먼트를 통한 이야기 진화
-- 🎯 **이중 작성 모드**: 창의적 스토리텔링과 일반 글 최적화
-- 🏆 **ELO 토너먼트 시스템**: 쌍대 비교를 통한 정교한 랭킹
-- 🌐 **웹 인터페이스**: 인간 검증 및 이야기 비교 도구
-- 🔧 **구성 가능**: JSON 구성으로 광범위한 맞춤 설정
+
+## ✨ 주요 기능
+
+- 🧬 **진화 알고리즘**: AI 기반 토너먼트로 스토리가 진화합니다
+- 🎯 **이중 작성 모드**: 창의적 스토리텔링 및 일반 글쓰기 최적화
+- 🏆 **ELO 토너먼트 시스템**: 쌍대 비교를 통한 정교한 순위 산정
+- 🌐 **웹 인터페이스**: 인간 검증 및 스토리 비교 도구 제공
+- 🔧 **설정 가능**: JSON 구성으로 폭넓은 맞춤화 가능
 
 ## 🚀 빠른 시작
 
 ### 설치
-</translate-content>
+
+
 ```bash
 # Clone the repository
 git clone https://github.com/your-org/alphaevolve-writing
@@ -319,6 +350,6 @@ http://localhost:5000 을 열어 접속하세요:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
 
 ---

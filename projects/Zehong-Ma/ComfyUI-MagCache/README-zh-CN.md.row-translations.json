@@ -1,0 +1,422 @@
+[
+  {
+    "row": 1,
+    "rowsha": "VKwzBinqhEKWCw0E+M2XRqqr3svxDcWvHbzQL1KQ5EQ=",
+    "originContent": "# ComfyUI-MagCache",
+    "translatedContent": "<translate-content># ComfyUI-MagCache"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "dzZxIlP3I9b5HwOW3jFXlU1rTM7lAMQaqWPTfkprAPM=",
+    "originContent": "## 🫖 Introduction ",
+    "translatedContent": "## 🫖 介绍"
+  },
+  {
+    "row": 4,
+    "rowsha": "cn/xhB8CYDpfSvdQvSfsqkkYF82zi3eUzezrlatjn+4=",
+    "originContent": "Magnitude-aware Cache (MagCache) is a training-free caching approach. It estimates the fluctuating differences among model outputs across timesteps based on the robust **magnitude observations**, and thereby accelerating the inference using the error modeling mechanism and adaptive cache strategy. MagCache works well for Video Diffusion Models, Image Diffusion models. For more details and results, please visit our [project page](https://zehong-ma.github.io/MagCache) and [code](https://github.com/Zehong-Ma/MagCache).",
+    "translatedContent": "Magnitude-aware Cache（MagCache）是一种无需训练的缓存方法。它基于稳健的**幅度观测**，估计模型输出在各时间步之间的波动差异，从而利用误差建模机制和自适应缓存策略加速推理。MagCache 在视频扩散模型和图像扩散模型中表现良好。更多详情和结果，请访问我们的[项目主页](https://zehong-ma.github.io/MagCache)和[代码库](https://github.com/Zehong-Ma/MagCache)。"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "1MMxp19LK/IVkcUaD69XRvwO0ZeKQQyohgHoc3lZ9h8=",
+    "originContent": "MagCache has now been integrated into ComfyUI and is compatible with the ComfyUI native nodes. ComfyUI-MagCache is easy to use, simply connect the MagCache node with the ComfyUI native nodes for seamless usage.",
+    "translatedContent": "MagCache 已集成到 ComfyUI 中，兼容 ComfyUI 原生节点。ComfyUI-MagCache 使用简便，只需将 MagCache 节点与 ComfyUI 原生节点连接，即可无缝使用。"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "vTMTlsk3/EJNsrf4kajGPOwVxrs6f2UGLTB9V1uLnrE=",
+    "originContent": "## 🔥 Latest News ",
+    "translatedContent": "## 🔥 最新动态"
+  },
+  {
+    "row": 9,
+    "rowsha": "0jOcHaItZBCgu/kA8ZoDij8pt/cebnyU/0hsw7rdMwI=",
+    "originContent": "- **If you like our project, please give us a star ⭐ on GitHub for the latest update.**",
+    "translatedContent": "- **如果您喜欢我们的项目，请在 GitHub 上给我们点⭐，以获取最新更新。**"
+  },
+  {
+    "row": 10,
+    "rowsha": "rcFwjlWq9AYn1rI3L3AZThYHLF8wyZGVJiEKj8GWIcM=",
+    "originContent": "- [2025/6/30] 🔥 Support [Flux-Kontext](https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev) with 2x speedup. Please see the demo [here](https://github.com/user-attachments/assets/79d5f654-5828-442d-b1a1-9b754c17e457).",
+    "translatedContent": "- [2025/6/30] 🔥 支持 [Flux-Kontext](https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev)，实现2倍加速。请查看演示[这里](https://github.com/user-attachments/assets/79d5f654-5828-442d-b1a1-9b754c17e457)。"
+  },
+  {
+    "row": 11,
+    "rowsha": "rVlLfUB24Wq/rlC0C30ed3GwO4lgqaaCw1I3zODci8A=",
+    "originContent": "- [2025/6/19] 🔥 Support [FramePack](https://github.com/lllyasviel/FramePack) with Gradio Demo in [MagCache-FramePack](https://github.com/Zehong-Ma/MagCache).",
+    "translatedContent": "- [2025/6/19] 🔥 支持 [FramePack](https://github.com/lllyasviel/FramePack)，并在 [MagCache-FramePack](https://github.com/Zehong-Ma/MagCache) 提供 Gradio 演示。"
+  },
+  {
+    "row": 12,
+    "rowsha": "qZuJvTEJIbbOB9VQUFTRtt0nWtOrj28p2v9CGw7X6oA=",
+    "originContent": "- [2025/6/18] 👉 We're collecting the best parameter settings from the community. <br>     👉**Open this [discussion issue](https://github.com/Zehong-Ma/ComfyUI-MagCache/issues/15) to contribute your configuration!**",
+    "translatedContent": "- [2025/6/18] 👉 我们正在收集社区最佳参数设置。<br> 👉**打开此[讨论议题](https://github.com/Zehong-Ma/ComfyUI-MagCache/issues/15)贡献您的配置！**"
+  },
+  {
+    "row": 13,
+    "rowsha": "cKaPMn8M36KU/SLmZH7JEYPszJF6a0q5olyvAVTIX90=",
+    "originContent": "- [2025/6/17] 🔥 Support [Wan2.1-VACE-1.3B](https://github.com/ali-vilab/VACE), achieving a 1.7× acceleration. ",
+    "translatedContent": "- [2025/6/17] 🔥 支持 [Wan2.1-VACE-1.3B](https://github.com/ali-vilab/VACE)，实现1.7倍加速。"
+  },
+  {
+    "row": 14,
+    "rowsha": "HsnRHemFqfIbnomVAilIausNvf9TF63acFqHVtCeqVQ=",
+    "originContent": "- [2025/6/17] 🔥 MagCache is supported by [ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper). Thanks @[kijai](https://github.com/kijai). ",
+    "translatedContent": "- [2025/6/17] 🔥 MagCache 得到 [ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper) 支持。感谢 @[kijai](https://github.com/kijai)。"
+  },
+  {
+    "row": 15,
+    "rowsha": "6zhZP0Ylymp5VGZRat/yRsRq66JzvrUVn1GOOHoDFlI=",
+    "originContent": "- [2025/6/16] 🔥 Support [Chroma](https://huggingface.co/lodestones/Chroma). Thanks @[kabachuha](https://github.com/kabachuha) for the codebase.",
+    "translatedContent": "- [2025/6/16] 🔥 支持 [Chroma](https://huggingface.co/lodestones/Chroma)。感谢 @[kabachuha](https://github.com/kabachuha) 提供代码库。"
+  },
+  {
+    "row": 16,
+    "rowsha": "5XZkAcKOd7w9JLV6tZ1B/JtuwJoRQXeIF/6GzgNNrnY=",
+    "originContent": "- [2025/6/10] 🔥 Support [Wan2.1](https://github.com/Wan-Video/Wan2.1) T2V&I2V, [HunyuanVideo](https://github.com/Tencent/HunyuanVideo) T2V, [FLUX-dev]((https://github.com/black-forest-labs/flux)) T2I",
+    "translatedContent": "- [2025/6/10] 🔥 支持 [Wan2.1](https://github.com/Wan-Video/Wan2.1) T2V&I2V，[HunyuanVideo](https://github.com/Tencent/HunyuanVideo) T2V，[FLUX-dev](https://github.com/black-forest-labs/flux) T2I。"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 安装"
+  },
+  {
+    "row": 19,
+    "rowsha": "XzXjuFKv65jgSVCc0yE0PFtWZaUMG1gWbinIY29ZLLM=",
+    "originContent": "<!-- Installation via ComfyUI-Manager is preferred. Simply search for ComfyUI-MagCache in the list of nodes and click install.",
+    "translatedContent": "<!-- 推荐通过 ComfyUI-Manager 安装。只需在节点列表中搜索 ComfyUI-MagCache 并点击安装。"
+  },
+  {
+    "row": 20,
+    "rowsha": "k795A+U8Dec9zVA2dIxBffeQDKFnQIpUacslPEm52ak=",
+    "originContent": "### Manual installation -->",
+    "translatedContent": "### 手动安装 -->"
+  },
+  {
+    "row": 21,
+    "rowsha": "P9WNwvqG1ICTkZCy3rQmjWfFcqcqEUlJHi47joJgSqs=",
+    "originContent": "1. Go to comfyUI custom_nodes folder, `ComfyUI/custom_nodes/`",
+    "translatedContent": "1. 进入 comfyUI 自定义节点文件夹，`ComfyUI/custom_nodes/`"
+  },
+  {
+    "row": 22,
+    "rowsha": "JL0l2eYIN8SU+Tx6vDg9B+2wEqGFKYAMV3vGzzQPsjg=",
+    "originContent": "2. git clone https://github.com/zehong-ma/ComfyUI-MagCache.git",
+    "translatedContent": "2. 执行 git clone https://github.com/zehong-ma/ComfyUI-MagCache.git"
+  },
+  {
+    "row": 23,
+    "rowsha": "VWT04HER8gyyeiqKxIMGg3A4IJ99pWMc8BPbBcrTQgA=",
+    "originContent": "3. Go to ComfyUI-MagCache folder, `cd ComfyUI-MagCache/`",
+    "translatedContent": "3. 进入 ComfyUI-MagCache 文件夹，`cd ComfyUI-MagCache/`"
+  },
+  {
+    "row": 24,
+    "rowsha": "00blZWCs8QRQbUuVy8z9MmR5yh1ddjaYT92K5DoWsP8=",
+    "originContent": "4. pip install -r requirements.txt",
+    "translatedContent": "4. 执行 pip install -r requirements.txt"
+  },
+  {
+    "row": 25,
+    "rowsha": "xnB47S13gP2C6r3yPo9Cx+0QB0ezLHPViG2JV3DYeh4=",
+    "originContent": "5. Go to the project folder `ComfyUI/` and run `python main.py`",
+    "translatedContent": "5. 进入项目文件夹 `ComfyUI/` 并运行 `python main.py`"
+  },
+  {
+    "row": 26,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 使用方法"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "g9bfuFY/Id4fIojbu3UQNBmVsyEW9/wMLrjYflYr7+U=",
+    "originContent": "### Download Model Weights",
+    "translatedContent": "### 下载模型权重"
+  },
+  {
+    "row": 29,
+    "rowsha": "t2WsDxnJ4OtU5b01s/Vvz2mE4x/tVHw3jfSurWkAxiw=",
+    "originContent": "Please first to prepare the model weights in ComfyUI format by referring to the follow links:",
+    "translatedContent": "请先参照以下链接准备 ComfyUI 格式的模型权重："
+  },
+  {
+    "row": 30,
+    "rowsha": "ve3ClDk9XNOCXDp0Drk8nIzBEmnUWLMAIFBSe+4jc00=",
+    "originContent": "- [Wan2.1](https://comfyanonymous.github.io/ComfyUI_examples/wan/)",
+    "translatedContent": "- [Wan2.1](https://comfyanonymous.github.io/ComfyUI_examples/wan/)"
+  },
+  {
+    "row": 31,
+    "rowsha": "JL2bmITQcMDP7IM0Sne7t7pQb+v4UnY3pAudFpo6ySo=",
+    "originContent": "- [HunyuanVideo](https://comfyanonymous.github.io/ComfyUI_examples/hunyuan_video/)",
+    "translatedContent": "- [HunyuanVideo](https://comfyanonymous.github.io/ComfyUI_examples/hunyuan_video/)"
+  },
+  {
+    "row": 32,
+    "rowsha": "yWAet9T0UvOzj3FVa6YaJ9ZfkGKKTnP15kD/dk+WQMA=",
+    "originContent": "- [FLUX](https://comfyanonymous.github.io/ComfyUI_examples/flux/)",
+    "translatedContent": "- [FLUX](https://comfyanonymous.github.io/ComfyUI_examples/flux/)"
+  },
+  {
+    "row": 33,
+    "rowsha": "0nZVwbpcjK7pSx04y343CVvEGvWk1vMlcjt16aN1ThQ=",
+    "originContent": "- [Chroma](https://huggingface.co/lodestones/Chroma)",
+    "translatedContent": "- [Chroma](https://huggingface.co/lodestones/Chroma)"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "ZhjpchwM7+wEoQE9iGwXaw+68rDbMynJs58TgrUG/+8=",
+    "originContent": "### MagCache",
+    "translatedContent": "### MagCache"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "JjDsQ6/uVoUa0ckoDOnwpJhxyeyzvb5etAtf6rHiB3E=",
+    "originContent": "**We're collecting the best parameter settings from the community. Open this [discussion issue](https://github.com/Zehong-Ma/ComfyUI-MagCache/issues/15) to contribute your configuration!**",
+    "translatedContent": "**我们正在收集社区中最佳的参数设置。打开此[讨论议题](https://github.com/Zehong-Ma/ComfyUI-MagCache/issues/15)贡献您的配置！**"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "mc3RCrsMMtJjOdJoUh8k4DKCbqJHC+bTEgsja7zUYW0=",
+    "originContent": "To use MagCache node, simply add `MagCache` node to your workflow after `Load Diffusion Model` node or `Load LoRA` node (if you need LoRA). Generally, MagCache can achieve a speedup of 2x to 3x with acceptable visual quality loss. The following table gives the recommended magcache_thresh, retention_ratio and magcache_K ​for different models:",
+    "translatedContent": "使用 MagCache 节点，只需在 `Load Diffusion Model` 节点或 `Load LoRA` 节点（如需 LoRA）之后添加 `MagCache` 节点。通常，MagCache 可实现2到3倍的加速，同时视觉质量损失可接受。下表为不同模型推荐的 magcache_thresh、retention_ratio 和 magcache_K："
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+    "originContent": "<div align=\"center\">",
+    "translatedContent": "<div align=\"center\">"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "fS0Dv4U6qNL0dKqPE2yCFjpHQE4W9hVN4a7ml8jtqT0=",
+    "originContent": "| Models                       |   magcache_thresh |   retention_ratio |    magcache_K     |  ",
+    "translatedContent": "| 模型                         |   magcache_thresh |   retention_ratio |    magcache_K     |  "
+  },
+  {
+    "row": 44,
+    "rowsha": "BS8JZtvcmz1oheOKvyjCK6maAtLSrJLEo3qdz58Uy2c=",
+    "originContent": "|:----------------------------:|:-----------------:|:-----------------:|:-----------------:|",
+    "translatedContent": "|:----------------------------:|:-----------------:|:-----------------:|:-----------------:|"
+  },
+  {
+    "row": 45,
+    "rowsha": "bcg0f7Lwe7PZcrVqGTmhOq77NftxrKuI5q4oOovvums=",
+    "originContent": "| FLUX                         |        0.24       |         0.1       |         5         |",
+    "translatedContent": "| FLUX                         |        0.24       |         0.1       |         5         |"
+  },
+  {
+    "row": 46,
+    "rowsha": "i+5/IXvJwWPNsS6bzW5/7zwFQ5VShaPKnQtvNx7/6Ho=",
+    "originContent": "| FLUX-Kontext                 |        0.05       |         0.2       |         4         |",
+    "translatedContent": "| FLUX-Kontext                 |        0.05       |         0.2       |         4         |"
+  },
+  {
+    "row": 47,
+    "rowsha": "E4Vf4ps4mg1nF4kVTc/FBZJiJUFbK+u0tB8heUjmptE=",
+    "originContent": "| Chroma                       |        0.10       |         0.25      |         2         |",
+    "translatedContent": "| Chroma                       |        0.10       |         0.25      |         2         |"
+  },
+  {
+    "row": 48,
+    "rowsha": "wWayChVOz68DLg2x9Djdl9wBnpEcQO7v+uSmdQiiD68=",
+    "originContent": "| HunyuanVideo-T2V             |        0.24       |         0.2       |         6         |",
+    "translatedContent": "| HunyuanVideo-T2V             |        0.24       |         0.2       |         6         |"
+  },
+  {
+    "row": 49,
+    "rowsha": "EN9ByoSaT3CsCILjMdxG+5bQucrIXlUnABa8NTz6fRc=",
+    "originContent": "| Wan2.1-T2V-1.3B              |        0.12       |         0.2       |         4         |",
+    "translatedContent": "| Wan2.1-T2V-1.3B              |        0.12       |         0.2       |         4         |"
+  },
+  {
+    "row": 50,
+    "rowsha": "oEHXG0xOoriHyVuTAr1111LPB56DTFjl7N6V+fczcv8=",
+    "originContent": "| Wan2.1-T2V-14B               |        0.24       |         0.2       |         6         |",
+    "translatedContent": "| Wan2.1-T2V-14B               |        0.24       |         0.2       |         6         |"
+  },
+  {
+    "row": 51,
+    "rowsha": "z1i8bVtYqt9MQVfLhozmQ+RuWoLayoPCpfr4tAC0PHE=",
+    "originContent": "| Wan2.1-I2V-480P-14B          |        0.24       |         0.2       |         6         |",
+    "translatedContent": "| Wan2.1-I2V-480P-14B          |        0.24       |         0.2       |         6         |"
+  },
+  {
+    "row": 52,
+    "rowsha": "3Hf93Hnhc0wvq+RR6zK83tgo5G39A8wmV7nTcB1yGDM=",
+    "originContent": "| Wan2.1-I2V-720P-14B          |        0.24       |         0.2       |         6         |",
+    "translatedContent": "| Wan2.1-I2V-720P-14B          |        0.24       |         0.2       |         6         |"
+  },
+  {
+    "row": 53,
+    "rowsha": "TMsp+WHInZ+XJ5e+6QSIVHy5mViMuvukBkmQWzLPpXY=",
+    "originContent": "| Wan2.1-VACE-1.3B             |        0.02       |         0.2       |         3         |",
+    "translatedContent": "| Wan2.1-VACE-1.3B             |        0.02       |         0.2       |         3         |"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "WOm37d3qXoGci6hiSzg0TA08wF6HCWvXVUh0+iI9pd8=",
+    "originContent": "**If the image/video after applying MagCache is of low quality, please decrease `magcache_thresh` and `magcache_K`**. The default parameters are configured for extremely fast inference(2x-3x), which may lead to failures in some cases.",
+    "translatedContent": "**如果应用 MagCache 后的图像/视频质量较低，请降低 `magcache_thresh` 和 `magcache_K`。** 默认参数配置为极快推理（2x-3x），可能在某些情况下导致失败。"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "cASmvjpp3L/6K6ZOTwCyQXp85qp+qHBtru7dwN/JZ5k=",
+    "originContent": "The demo workflows ([flux](https://raw.githubusercontent.com/Zehong-Ma/ComfyUI-MagCache/main/./examples/flux.json), [flux-kontext](https://raw.githubusercontent.com/Zehong-Ma/ComfyUI-MagCache/main/./examples/flux_1_kontext_dev.json), [chroma](https://raw.githubusercontent.com/Zehong-Ma/ComfyUI-MagCache/main/./examples/chroma.json), [hunyuanvideo](https://raw.githubusercontent.com/Zehong-Ma/ComfyUI-MagCache/main/./examples/hunyuanvideo.json), [wan2.1_t2v](https://raw.githubusercontent.com/Zehong-Ma/ComfyUI-MagCache/main/./examples/wan2.1_t2v.json), [wan2.1_i2v](https://raw.githubusercontent.com/Zehong-Ma/ComfyUI-MagCache/main/./examples/wan2.1_i2v.json), and [wan2.1_vace](https://raw.githubusercontent.com/Zehong-Ma/ComfyUI-MagCache/main/./examples/wan2.1_vace.json)) are placed in examples folder. The workflow [chroma_calibration](https://raw.githubusercontent.com/Zehong-Ma/ComfyUI-MagCache/main/./examples/chroma_calibration.json) is used to calibrate the `mag_ratios` for `Chroma` when the number of inference steps differs from the pre-defined value.",
+    "translatedContent": "演示工作流（[flux](https://raw.githubusercontent.com/Zehong-Ma/ComfyUI-MagCache/main/./examples/flux.json)、[flux-kontext](https://raw.githubusercontent.com/Zehong-Ma/ComfyUI-MagCache/main/./examples/flux_1_kontext_dev.json)、[chroma](https://raw.githubusercontent.com/Zehong-Ma/ComfyUI-MagCache/main/./examples/chroma.json)、[hunyuanvideo](https://raw.githubusercontent.com/Zehong-Ma/ComfyUI-MagCache/main/./examples/hunyuanvideo.json)、[wan2.1_t2v](https://raw.githubusercontent.com/Zehong-Ma/ComfyUI-MagCache/main/./examples/wan2.1_t2v.json)、[wan2.1_i2v](https://raw.githubusercontent.com/Zehong-Ma/ComfyUI-MagCache/main/./examples/wan2.1_i2v.json)、及 [wan2.1_vace](https://raw.githubusercontent.com/Zehong-Ma/ComfyUI-MagCache/main/./examples/wan2.1_vace.json)）放置于 examples 文件夹。工作流 [chroma_calibration](https://raw.githubusercontent.com/Zehong-Ma/ComfyUI-MagCache/main/./examples/chroma_calibration.json) 用于校准 `Chroma` 的 `mag_ratios`，当推理步数与预设值不同时使用。"
+  },
+  {
+    "row": 60,
+    "rowsha": "4aOhFJ9Znv0QKKF1aOaNiOVjre7tO6LactoHVRd3000=",
+    "originContent": "**In our experiments, the videos generated by Wan2.1 are not as high-quality as those produced by the [original unquantized version](https://github.com/Wan-Video/Wan2.1).**",
+    "translatedContent": "**在我们的实验中，Wan2.1 生成的视频质量不及[原始未量化版本](https://github.com/Wan-Video/Wan2.1)。**"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 编译模型"
+  },
+  {
+    "row": 63,
+    "rowsha": "WcRac1J+ITZemrFgltLxOIyCCwFFM0eeu24iQN8JV1Y=",
+    "originContent": "### Compile Model",
+    "translatedContent": "使用 Compile Model 节点，只需在 `Load Diffusion Model` 节点或 `MagCache` 节点之后添加 `Compile Model` 节点。Compile Model 使用 `torch.compile` 通过将模型编译为更高效的中间表示（IR）来提升模型性能。此编译过程利用后端编译器生成优化代码，可显著加速推理。首次运行工作流时，编译可能耗时较长，但编译完成后推理速度极快。"
+  },
+  {
+    "row": 64,
+    "rowsha": "qxcA1cS83kLsx4KDYgU3TqJoEOWN0mA6TTzre0yotWA=",
+    "originContent": "To use Compile Model node, simply add `Compile Model` node to your workflow after `Load Diffusion Model` node or `MagCache` node. Compile Model uses `torch.compile` to enhance the model performance by compiling model into more efficient intermediate representations (IRs). This compilation process leverages backend compilers to generate optimized code, which can significantly speed up inference. The compilation may take long time when you run the workflow at first, but once it is compiled, inference is extremely fast. ",
+    "translatedContent": "<!-- 使用示例如下： -->"
+  },
+  {
+    "row": 65,
+    "rowsha": "3h1azn7NPu6VhraDlFRP8Zeb5lWrgU3eSMsyDCmjb6w=",
+    "originContent": "<!-- The usage is shown below: -->",
+    "translatedContent": "<!-- ![](https://raw.githubusercontent.com/Zehong-Ma/ComfyUI-MagCache/main/./assets/compile.png) -->"
+  },
+  {
+    "row": 66,
+    "rowsha": "7mn5f5q8W+4NyhvHxYXwK+nG/PRPNhsIZsDY9RoqlnI=",
+    "originContent": "<!-- ![](https://raw.githubusercontent.com/Zehong-Ma/ComfyUI-MagCache/main/./assets/compile.png) -->",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 致谢"
+  },
+  {
+    "row": 68,
+    "rowsha": "N66ywbuGccMYNTyswaMSnFOlWqX+iaYP/myGJqr1tHo=",
+    "originContent": "## Acknowledgments",
+    "translatedContent": "感谢 [ComfyUI-TeaCache](https://github.com/welltop-cn/ComfyUI-TeaCache)、[ComfyUI](https://github.com/comfyanonymous/ComfyUI)、[ComfyUI-MagCache](https://github.com/wildminder/ComfyUI-MagCache)、[MagCache](https://github.com/Zehong-Ma/MagCache/)、[TeaCache](https://github.com/ali-vilab/TeaCache)、[HunyuanVideo](https://github.com/Tencent/HunyuanVideo)、[FLUX](https://github.com/black-forest-labs/flux)、[Chroma](https://huggingface.co/lodestones/Chroma) 以及 [Wan2.1](https://github.com/Wan-Video/Wan2.1)。"
+  },
+  {
+    "row": 69,
+    "rowsha": "EPBMRKppFPTVNMGw9DYnfVSUnH194VGQD6PW0AHJuK4=",
+    "originContent": "Thanks to [ComfyUI-TeaCache](https://github.com/welltop-cn/ComfyUI-TeaCache), [ComfyUI](https://github.com/comfyanonymous/ComfyUI), [ComfyUI-MagCache](https://github.com/wildminder/ComfyUI-MagCache), [MagCache](https://github.com/Zehong-Ma/MagCache/), [TeaCache](https://github.com/ali-vilab/TeaCache), [HunyuanVideo](https://github.com/Tencent/HunyuanVideo), [FLUX](https://github.com/black-forest-labs/flux), [Chroma](https://huggingface.co/lodestones/Chroma), and [Wan2.1](https://github.com/Wan-Video/Wan2.1).",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

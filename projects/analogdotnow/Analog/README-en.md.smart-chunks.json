@@ -1,0 +1,807 @@
+[
+  {
+    "Id": 1,
+    "Content": "<p align=\"center\">\n  <h1 align=\"center\">Analog</h1>\n  <p align=\"center\">The open source calendar that changes everything</p>\n</p>\n\n## Getting Started\n\nTo get Analog up and running on your local machine, follow these steps:\n\n### Prerequisites\n\nEnsure you have the following installed:\n\n- **Bun**: A fast JavaScript runtime, package manager, bundler, and test runner.\n  - [Installation Guide](https://bun.sh/docs/installation)\n- **Docker Desktop**: For running the PostgreSQL database.\n  - [Installation Guide](https://www.docker.com/products/docker-desktop/)\n\n### Setup\n\n1.  **Clone the repository**:\n",
+    "ContentSha": "wt3sptvaus3Kjmb+FQQzpm92oZhMZwUiHVOgoGoKny8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<p align=\"center\">\n  <h1 align=\"center\">Analog</h1>\n  <p align=\"center\">The open source calendar that changes everything</p>\n</p>\n\n## Getting Started\n\nTo get Analog up and running on your local machine, follow these steps:\n\n### Prerequisites\n\nEnsure you have the following installed:\n\n- **Bun**: A fast JavaScript runtime, package manager, bundler, and test runner.\n  - [Installation Guide](https://bun.sh/docs/installation)\n- **Docker Desktop**: For running the PostgreSQL database.\n  - [Installation Guide](https://www.docker.com/products/docker-desktop/)\n\n### Setup\n\n1.  **Clone the repository**:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "tbcKu0ZmzHTQcIEMT84IcjZFfZ67qxaA0Z1WF4kRW8E=",
+        "originContent": "  <h1 align=\"center\">Analog</h1>",
+        "translatedContent": "  <h1 align=\"center\">Analog</h1>"
+      },
+      {
+        "row": 3,
+        "rowsha": "TXp9wFfC+94R1TjCJW3NKTUHDPD7viLVy3Tzvrj6XH4=",
+        "originContent": "  <p align=\"center\">The open source calendar that changes everything</p>",
+        "translatedContent": "  <p align=\"center\">The open source calendar that changes everything</p>"
+      },
+      {
+        "row": 4,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+        "originContent": "## Getting Started",
+        "translatedContent": "## Getting Started"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "ze2/iIJ6qA6zGNSb+15EsyJ44EO2d7aYe2HXmQzp5Bs=",
+        "originContent": "To get Analog up and running on your local machine, follow these steps:",
+        "translatedContent": "To get Analog up and running on your local machine, follow these steps:"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+        "originContent": "### Prerequisites",
+        "translatedContent": "### Prerequisites"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "IvmCQDQ9XGWpwJgdzLC7h55uMdu6YdRFeb98159nT3w=",
+        "originContent": "Ensure you have the following installed:",
+        "translatedContent": "Ensure you have the following installed:"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "3Zae8IOfQugWb50Q94ufRVHavpucM+hRiKW/tIdX1Tk=",
+        "originContent": "- **Bun**: A fast JavaScript runtime, package manager, bundler, and test runner.",
+        "translatedContent": "- **Bun**: A fast JavaScript runtime, package manager, bundler, and test runner."
+      },
+      {
+        "row": 15,
+        "rowsha": "mayYf6VDdi5HvgdMbTyI7h/YueXiyLe3A4trQhlFTgA=",
+        "originContent": "  - [Installation Guide](https://bun.sh/docs/installation)",
+        "translatedContent": "  - [Installation Guide](https://bun.sh/docs/installation)"
+      },
+      {
+        "row": 16,
+        "rowsha": "q15aH6DHSAvUQv0bG5d79SgcYujWuu72WFUDdVUSS+M=",
+        "originContent": "- **Docker Desktop**: For running the PostgreSQL database.",
+        "translatedContent": "- **Docker Desktop**: For running the PostgreSQL database."
+      },
+      {
+        "row": 17,
+        "rowsha": "TRyh5anFkZbM/fgm2nAPEWRwYX/SgDr7NkGzkZJAxqM=",
+        "originContent": "  - [Installation Guide](https://www.docker.com/products/docker-desktop/)",
+        "translatedContent": "  - [Installation Guide](https://www.docker.com/products/docker-desktop/)"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "iJa409tTUC9P1gTULbIw6Kod+KAUdLl5kgZl7whoChE=",
+        "originContent": "### Setup",
+        "translatedContent": "### Setup"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "Y0jtuXlb8FizI6EPDA2XxQ56D1z5bWSgS2oJVak1JEI=",
+        "originContent": "1.  **Clone the repository**:",
+        "translatedContent": "1.  **Clone the repository**:"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "    ```bash\n    git clone https://github.com/jeanmeijer/analog.git\n    cd analog\n    ```",
+    "ContentSha": "syrHl+Da9ofkwl5jPRNedlCGO9TLDmCHKQe07+J4XpI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    git clone https://github.com/jeanmeijer/analog.git\n    cd analog\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "mWQqdPGPHAB4u/Q7r+hieJDMoi0FixXMD8gAWxAHaoA=",
+        "originContent": "    git clone https://github.com/jeanmeijer/analog.git",
+        "translatedContent": "    git clone https://github.com/jeanmeijer/analog.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "ra8QwEV8YZoi1k7au11pVHYcp2AQ7RWBLq1iWYu8vQw=",
+        "originContent": "    cd analog",
+        "translatedContent": "    cd analog"
+      },
+      {
+        "row": 4,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n2.  **Install dependencies**:\n",
+    "ContentSha": "/3J8lrMGWRuLFTo/o4FeBtAaG2Ulhe8lQOOKpwCHAaA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2.  **Install dependencies**:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2.  **Install dependencies**:"
+      },
+      {
+        "row": 2,
+        "rowsha": "YT8gnpuiNqTPL37b754RQ5v3v2/GgD4NA29GDPkpxpg=",
+        "originContent": "2.  **Install dependencies**:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "    ```bash\n    bun install\n    ```",
+    "ContentSha": "iiNgkYM0aNgly/Ra5pcy49pvI+oX+yXrrt+V8wR9AOg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    bun install\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "usJ0J/EiNpxnZCjDbpT1ylEl7QudH0RGD3P2CjB+WTI=",
+        "originContent": "    bun install",
+        "translatedContent": "    bun install"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n3.  **Configure environment variables**:\n    Copy the example environment file:\n",
+    "ContentSha": "dqYWfOLIs93itRp3Pgy4aI/B3d6hh5QUL22ZKoEmLyE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3.  **Configure environment variables**:\n    Copy the example environment file:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3.  **Configure environment variables**:"
+      },
+      {
+        "row": 2,
+        "rowsha": "KH1kMBpeoS4QYXU5rw6H7Dg6lem0PfiLja8PVqofNjI=",
+        "originContent": "3.  **Configure environment variables**:",
+        "translatedContent": "    Copy the example environment file:"
+      },
+      {
+        "row": 3,
+        "rowsha": "/bweefDka6LRr1PUEJL/L0KX+Y2BaRPfCjuG/5rzKNc=",
+        "originContent": "    Copy the example environment file:",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "    ```bash\n    cp .env.example .env\n    ```",
+    "ContentSha": "PgNg3gEnRmRXxg7s8gx2/34mqQy2mKlA2iCpWP5DGSY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    cp .env.example .env\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "5zruuHYAfIogrPcUgtiURyohEX28sDhgg6G/r0W/ZPc=",
+        "originContent": "    cp .env.example .env",
+        "translatedContent": "    cp .env.example .env"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n    Then, open the newly created `.env` file. You will find default values for `DATABASE_URL` and `BETTER_AUTH_URL`. You need to set the following:\n    - `BETTER_AUTH_SECRET`: Generate a secure secret by running `openssl rand -hex 32` in your terminal.\n      <br/><br/>\n\n4.  **Set up Google OAuth**:\n\n- `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET`:\n  1. Create a Google project in the [Google Cloud Console](https://console.cloud.google.com/).\n  2. Follow [step 1 in the Better Auth documentation](https://www.better-auth.com/docs/authentication/google) to set up Google OAuth credentials.\n  3. Enable the Google Calendar API by visiting [Google Cloud Console APIs](https://console.cloud.google.com/apis/library/calendar-json.googleapis.com) and enabling it for your project.\n  4. Add yourself as test user:\n     - Locate the Google OAuth [`Audience`](https://console.cloud.google.com/auth/audience) tab.\n     - Under 'Test users', click on 'Add Users'.\n     - Add your email(s) in the textbox and click on 'Save'.\n\n5. **Set up Microsoft OAuth** (optional):\n\n- `MICROSOFT_CLIENT_ID` and `MICROSOFT_CLIENT_SECRET`:\n  1. Go to the [Microsoft Azure Portal](https://portal.azure.com/), then navigate to Microsoft Entra ID → App registrations.\n  2. Register a new application and set the redirect URI (`http://localhost:3000/api/auth/callback/microsoft`).\n  3. Copy the Application (client) ID and create a new client secret under Certificates & secrets.\n  4. Go to API permissions, click + Add a permission, choose Microsoft Graph → Delegated permissions, and add:\n     - `Calendars.Read`, `Calendars.ReadWrite`, `User.Read`, `offline_access`\n\n### Database Setup\n\nAnalog uses PostgreSQL with Drizzle ORM. You can run the database using Docker:\n\n1.  **Start the PostgreSQL database container**:\n",
+    "ContentSha": "5UQro9jjD5AgCVySXFwur9ffaQfNYh4lO62FBK2zvF8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    Then, open the newly created `.env` file. You will find default values for `DATABASE_URL` and `BETTER_AUTH_URL`. You need to set the following:\n    - `BETTER_AUTH_SECRET`: Generate a secure secret by running `openssl rand -hex 32` in your terminal.\n      <br/><br/>\n\n4.  **Set up Google OAuth**:\n\n- `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET`:\n  1. Create a Google project in the [Google Cloud Console](https://console.cloud.google.com/).\n  2. Follow [step 1 in the Better Auth documentation](https://www.better-auth.com/docs/authentication/google) to set up Google OAuth credentials.\n  3. Enable the Google Calendar API by visiting [Google Cloud Console APIs](https://console.cloud.google.com/apis/library/calendar-json.googleapis.com) and enabling it for your project.\n  4. Add yourself as test user:\n     - Locate the Google OAuth [`Audience`](https://console.cloud.google.com/auth/audience) tab.\n     - Under 'Test users', click on 'Add Users'.\n     - Add your email(s) in the textbox and click on 'Save'.\n\n5. **Set up Microsoft OAuth** (optional):\n\n- `MICROSOFT_CLIENT_ID` and `MICROSOFT_CLIENT_SECRET`:\n  1. Go to the [Microsoft Azure Portal](https://portal.azure.com/), then navigate to Microsoft Entra ID → App registrations.\n  2. Register a new application and set the redirect URI (`http://localhost:3000/api/auth/callback/microsoft`).\n  3. Copy the Application (client) ID and create a new client secret under Certificates & secrets.\n  4. Go to API permissions, click + Add a permission, choose Microsoft Graph → Delegated permissions, and add:\n     - `Calendars.Read`, `Calendars.ReadWrite`, `User.Read`, `offline_access`\n\n### Database Setup\n\nAnalog uses PostgreSQL with Drizzle ORM. You can run the database using Docker:\n\n1.  **Start the PostgreSQL database container**:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    Then, open the newly created `.env` file. You will find default values for `DATABASE_URL` and `BETTER_AUTH_URL`. You need to set the following:"
+      },
+      {
+        "row": 2,
+        "rowsha": "Psr1wfG2BoNxpnqvrZQMem5Bh/ye1kSJ6sswDO2/NLc=",
+        "originContent": "    Then, open the newly created `.env` file. You will find default values for `DATABASE_URL` and `BETTER_AUTH_URL`. You need to set the following:",
+        "translatedContent": "    - `BETTER_AUTH_SECRET`: Generate a secure secret by running `openssl rand -hex 32` in your terminal."
+      },
+      {
+        "row": 3,
+        "rowsha": "MqDLg9ON9k0m+KNiQzd2tuWK9S+FfmEwKBNpXuLr+cQ=",
+        "originContent": "    - `BETTER_AUTH_SECRET`: Generate a secure secret by running `openssl rand -hex 32` in your terminal.",
+        "translatedContent": "      <br/><br/>"
+      },
+      {
+        "row": 4,
+        "rowsha": "a2rDs9k29b+nf8VnqXiNnisOUOcY3b3ek81kstwcdE8=",
+        "originContent": "      <br/><br/>",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "4.  **Set up Google OAuth**:"
+      },
+      {
+        "row": 6,
+        "rowsha": "Gn/E6nkqsEQwx/6GKosp8q4dK+EXf8EGRp+yXSXHHw0=",
+        "originContent": "4.  **Set up Google OAuth**:",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET`:"
+      },
+      {
+        "row": 8,
+        "rowsha": "/InwpsEySJeMLX0G2/II1e8Zm1QHwWSTC/CbK4RNF4s=",
+        "originContent": "- `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET`:",
+        "translatedContent": "  1. Create a Google project in the [Google Cloud Console](https://console.cloud.google.com/)."
+      },
+      {
+        "row": 9,
+        "rowsha": "0PRJY1vJ0wGwEry5AqViI1nkzbnNK/Q2bwc0wDa26LY=",
+        "originContent": "  1. Create a Google project in the [Google Cloud Console](https://console.cloud.google.com/).",
+        "translatedContent": "  2. Follow [step 1 in the Better Auth documentation](https://www.better-auth.com/docs/authentication/google) to set up Google OAuth credentials."
+      },
+      {
+        "row": 10,
+        "rowsha": "eye9ER2KuXoBM8ZbDuJA/MfIIL2QhgS36QviVfk0lFQ=",
+        "originContent": "  2. Follow [step 1 in the Better Auth documentation](https://www.better-auth.com/docs/authentication/google) to set up Google OAuth credentials.",
+        "translatedContent": "  3. Enable the Google Calendar API by visiting [Google Cloud Console APIs](https://console.cloud.google.com/apis/library/calendar-json.googleapis.com) and enabling it for your project."
+      },
+      {
+        "row": 11,
+        "rowsha": "CeKgV/uf8QdPNnvZ31yjJ1FFGM7/ucBmSprFDfuJvDc=",
+        "originContent": "  3. Enable the Google Calendar API by visiting [Google Cloud Console APIs](https://console.cloud.google.com/apis/library/calendar-json.googleapis.com) and enabling it for your project.",
+        "translatedContent": "  4. Add yourself as test user:"
+      },
+      {
+        "row": 12,
+        "rowsha": "NsueFS2hD/pQqOk4f1MGWzGZq+dnN1MGI4aHJGExsJE=",
+        "originContent": "  4. Add yourself as test user:",
+        "translatedContent": "     - Locate the Google OAuth [`Audience`](https://console.cloud.google.com/auth/audience) tab."
+      },
+      {
+        "row": 13,
+        "rowsha": "LB9j9UEhNB+WBQgS776VgYaRBahR+DH5JSiLpQQDYLI=",
+        "originContent": "     - Locate the Google OAuth [`Audience`](https://console.cloud.google.com/auth/audience) tab.",
+        "translatedContent": "     - Under 'Test users', click on 'Add Users'."
+      },
+      {
+        "row": 14,
+        "rowsha": "Nf6ZXQwEGwXdY061Ajvo3gw8zQpg5MO6MkUTlaFHoOo=",
+        "originContent": "     - Under 'Test users', click on 'Add Users'.",
+        "translatedContent": "     - Add your email(s) in the textbox and click on 'Save'."
+      },
+      {
+        "row": 15,
+        "rowsha": "b0KljIabvpejkRXR83aKgXeyveBwoA54uEGdhgyWr9E=",
+        "originContent": "     - Add your email(s) in the textbox and click on 'Save'.",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "5. **Set up Microsoft OAuth** (optional):"
+      },
+      {
+        "row": 17,
+        "rowsha": "zew2ZILlsZ1HZfasdNKj360s5z9Qr8roKRqrSORSLdk=",
+        "originContent": "5. **Set up Microsoft OAuth** (optional):",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `MICROSOFT_CLIENT_ID` and `MICROSOFT_CLIENT_SECRET`:"
+      },
+      {
+        "row": 19,
+        "rowsha": "pq31tu0E0V/dcakG6EFgSn1u6KRqJ1OSuqePsJKElaI=",
+        "originContent": "- `MICROSOFT_CLIENT_ID` and `MICROSOFT_CLIENT_SECRET`:",
+        "translatedContent": "  1. Go to the [Microsoft Azure Portal](https://portal.azure.com/), then navigate to Microsoft Entra ID → App registrations."
+      },
+      {
+        "row": 20,
+        "rowsha": "7LeaB3kQaWfJBwal8rWoyJkOvu1HOKcwNDqZEUR726w=",
+        "originContent": "  1. Go to the [Microsoft Azure Portal](https://portal.azure.com/), then navigate to Microsoft Entra ID → App registrations.",
+        "translatedContent": "  2. Register a new application and set the redirect URI (`http://localhost:3000/api/auth/callback/microsoft`)."
+      },
+      {
+        "row": 21,
+        "rowsha": "V4WPEk3NOLaBObXPIkP2rVw/pdksAcusfl3+mssbLMI=",
+        "originContent": "  2. Register a new application and set the redirect URI (`http://localhost:3000/api/auth/callback/microsoft`).",
+        "translatedContent": "  3. Copy the Application (client) ID and create a new client secret under Certificates & secrets."
+      },
+      {
+        "row": 22,
+        "rowsha": "PqR8vcdP4O+vNWz+rGan4g67vJLmZHQJSDKdjxZqHm4=",
+        "originContent": "  3. Copy the Application (client) ID and create a new client secret under Certificates & secrets.",
+        "translatedContent": "  4. Go to API permissions, click + Add a permission, choose Microsoft Graph → Delegated permissions, and add:"
+      },
+      {
+        "row": 23,
+        "rowsha": "CRf1Izoqbl+8GQmLTBgOBJZmQrq4AEK38C3zYmSwB+4=",
+        "originContent": "  4. Go to API permissions, click + Add a permission, choose Microsoft Graph → Delegated permissions, and add:",
+        "translatedContent": "     - `Calendars.Read`, `Calendars.ReadWrite`, `User.Read`, `offline_access`"
+      },
+      {
+        "row": 24,
+        "rowsha": "Dp9Q5UzdrHwOYMTn2WkenUX9gn0UJgY9g99pLensI7s=",
+        "originContent": "     - `Calendars.Read`, `Calendars.ReadWrite`, `User.Read`, `offline_access`",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Database Setup"
+      },
+      {
+        "row": 26,
+        "rowsha": "TR5FanvP2ppZ//Qo+wICHEN5NB/wkgEF8J8Q2h1EXyw=",
+        "originContent": "### Database Setup",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Analog uses PostgreSQL with Drizzle ORM. You can run the database using Docker:"
+      },
+      {
+        "row": 28,
+        "rowsha": "FiIjn4MbSqtbaha1t0URyxtQU3QkTBr8+34DNkFlgl4=",
+        "originContent": "Analog uses PostgreSQL with Drizzle ORM. You can run the database using Docker:",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1.  **Start the PostgreSQL database container**:"
+      },
+      {
+        "row": 30,
+        "rowsha": "+MXj14Bni539awjy84jF+se3nlPYKlRovl9An6ptVAs=",
+        "originContent": "1.  **Start the PostgreSQL database container**:",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "    ```bash\n    bun run docker:up\n    ```",
+    "ContentSha": "lFnKO3WQY+tjtjPlPIpyMtriOA9eaO2jYLaQ+6mD3UI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    bun run docker:up\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "qVhOndD6HBEtmipPCXChrXLi3L+LKgm513fPtKjIgSc=",
+        "originContent": "    bun run docker:up",
+        "translatedContent": "    bun run docker:up"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n    This command uses `docker-compose.yml` to spin up a PostgreSQL container.\n\n2.  **Initialize the database**:\n    Once the database container is running and healthy, initialize the database:",
+    "ContentSha": "+Ax7RqCaPf4eXkk3MTK7Rzzbq3obg7mXuOe6sOyvIWc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\n    This command uses `docker-compose.yml` to spin up a PostgreSQL container.\n\n2.  **Initialize the database**:\n    Once the database container is running and healthy, initialize the database:</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "c4Qs1ItxgoDCBO6mjres9E7lptInIkv1MBGL24sO4/g=",
+        "originContent": "    This command uses `docker-compose.yml` to spin up a PostgreSQL container.",
+        "translatedContent": "    This command uses `docker-compose.yml` to spin up a PostgreSQL container."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "r9yL7DmMqZi/X/Lq0/SShJsHFsUN4D0U2j1LRKu4J/8=",
+        "originContent": "2.  **Initialize the database**:",
+        "translatedContent": "2.  **Initialize the database**:"
+      },
+      {
+        "row": 5,
+        "rowsha": "LdEUpz8ziXKbBLvklVc4sKzBAs84n1xBBlbE4V1+gCo=",
+        "originContent": "    Once the database container is running and healthy, initialize the database:",
+        "translatedContent": "    Once the database container is running and healthy, initialize the database:</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "    ```bash\n    bun run db:push\n    ```",
+    "ContentSha": "vxQhf/vJvLI4eERLsAFZv6YCpN8SxrSgCrT49QMTZnk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    bun run db:push\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "86qT1uwM7dfpMrsCEttsd63iLSIAEZDUoqgz2evnm8o=",
+        "originContent": "    bun run db:push",
+        "translatedContent": "    bun run db:push"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n### Running the Application\n\nAfter setting up the environment and database, you can start the development server:\n",
+    "ContentSha": "fz06LuPi+VKPmVFbWBUj9ryzkji2nEn3rVCWsqc4p/g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Running the Application\n\nAfter setting up the environment and database, you can start the development server:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Running the Application"
+      },
+      {
+        "row": 2,
+        "rowsha": "2T2A9RgNH14rL/dAFZjARRtVgqfpHaF151k+roLH24M=",
+        "originContent": "### Running the Application",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "After setting up the environment and database, you can start the development server:"
+      },
+      {
+        "row": 4,
+        "rowsha": "x1x2y//5fyuBXGxUJmesiPLFVuumf8ewGYm1TtOX1Rs=",
+        "originContent": "After setting up the environment and database, you can start the development server:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\nbun run dev\n```",
+    "ContentSha": "SObHVb34bAy+SbJhFc2fzc0NBEbg/rwajkKrWSjMogs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nbun run dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "8WwHkmbi82OCXdfiN4/7LLEtY5NOXvhPZrvhLOhJ7eU=",
+        "originContent": "bun run dev",
+        "translatedContent": "bun run dev"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nThe application should now be accessible in your browser at [http://localhost:3000](http://localhost:3000).\n\n## Tech Stack\n\n- **Web**: Next.js, TypeScript, Tailwind v4, Bun, tRPC, TanStack Query, shadcn/ui\n- **Database**: Drizzle with PostgreSQL\n- **Authentication**: Better Auth for Google OAuth\n\n## Roadmap\n\nWIP.\n\n## Contributing\n\nPlease see [CONTRIBUTING.md](https://raw.githubusercontent.com/analogdotnow/Analog/main/./CONTRIBUTING.md) for details on how to contribute to this project.\n",
+    "ContentSha": "euUF+8MlEZ/bNOmo6BRdIvgEvAprf30NeUnN3kxokYg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "The application should now be accessible in your browser at [http://localhost:3000](http://localhost:3000).\n\n## Tech Stack\n\n- **Web**: Next.js, TypeScript, Tailwind v4, Bun, tRPC, TanStack Query, shadcn/ui\n- **Database**: Drizzle with PostgreSQL\n- **Authentication**: Better Auth for Google OAuth\n\n## Roadmap\n\nWIP.\n\n## Contributing\n\nPlease see [CONTRIBUTING.md](https://raw.githubusercontent.com/analogdotnow/Analog/main/./CONTRIBUTING.md) for details on how to contribute to this project.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "The application should now be accessible in your browser at [http://localhost:3000](http://localhost:3000)."
+      },
+      {
+        "row": 2,
+        "rowsha": "2NEpX8UU3hTAcDQJP8Q+DPrsAg1bakrQUzIf4fzaUHI=",
+        "originContent": "The application should now be accessible in your browser at [http://localhost:3000](http://localhost:3000).",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Tech Stack"
+      },
+      {
+        "row": 4,
+        "rowsha": "XJl/FNgwR2AGsDvOaDIzGttr6EiAAyy3PJUJujZZrkw=",
+        "originContent": "## Tech Stack",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **Web**: Next.js, TypeScript, Tailwind v4, Bun, tRPC, TanStack Query, shadcn/ui"
+      },
+      {
+        "row": 6,
+        "rowsha": "DNi9CYkVwiQL0rnWd6sftaJt498ktFFC2Ny0MaU1N4A=",
+        "originContent": "- **Web**: Next.js, TypeScript, Tailwind v4, Bun, tRPC, TanStack Query, shadcn/ui",
+        "translatedContent": "- **Database**: Drizzle with PostgreSQL"
+      },
+      {
+        "row": 7,
+        "rowsha": "U29X0T0Ect4WOYqcns6DLFy0BzSSshOe+ev4z9+KQ3E=",
+        "originContent": "- **Database**: Drizzle with PostgreSQL",
+        "translatedContent": "- **Authentication**: Better Auth for Google OAuth"
+      },
+      {
+        "row": 8,
+        "rowsha": "2CQfz6BdbY0AcKtTlIHr+sSU8bekDPpw5k5+bUx1z84=",
+        "originContent": "- **Authentication**: Better Auth for Google OAuth",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Roadmap"
+      },
+      {
+        "row": 10,
+        "rowsha": "uRQ4dBQEv6RHmBfuRiXr10ur0TwKlFiD+9olmuSkhDY=",
+        "originContent": "## Roadmap",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "WIP."
+      },
+      {
+        "row": 12,
+        "rowsha": "ovIEmO1Lq+iO9RKNKOUCvRjPirHD61iWxA0i5UGpjCw=",
+        "originContent": "WIP.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Contributing"
+      },
+      {
+        "row": 14,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Please see [CONTRIBUTING.md](https://raw.githubusercontent.com/analogdotnow/Analog/main/./CONTRIBUTING.md) for details on how to contribute to this project."
+      },
+      {
+        "row": 16,
+        "rowsha": "TZAchnBtH9T0S7E1KvplgzXdQzjeSnFIfqdrZJb3BVA=",
+        "originContent": "Please see [CONTRIBUTING.md](https://raw.githubusercontent.com/analogdotnow/Analog/main/./CONTRIBUTING.md) for details on how to contribute to this project.",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
