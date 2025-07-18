@@ -1,0 +1,808 @@
+[
+  {
+    "Id": 1,
+    "Content": "If you'd like to learn how to use this to make games, [go here](https://learn.randy.gg/?src=template-starter)\n\nIf you want some free value like this blueprint delivered to your inbox every now and then, checkout [my mailing list](https://path.randy.gg)\n\n---\n\nThis is practically my entire toolset that I use for no-engine game development.\n\nI used the concepts in here to make these games:\n- https://store.steampowered.com/app/2571560/ARCANA/\n- https://store.steampowered.com/app/3309460/Demon_Knives/\n- https://store.steampowered.com/app/3433610/Terrafactor/\n\nI've been iterating on these ideas for the last 5 years of learning how to program a game without an engine.\n\nThings are in various stages of completion, lots of TODOs thrown around, dumb performance bottlenecks, etc. But as it stands, it's about as production ready as I've been able to pull off so far.\n\nI'll be updating this as I continue making games and learning new things.\n\n# Features\n- Very fast pixel art asset creation & iteration pipeline with Aseprite via `asset_workbench/aseprite_asset_export.lua`\n- Shaders with a rendering system that can be completely overhauled to suit whatever VFX you need\n- A single-function entity gameplay programming workflow that scales well\n- Fully featured sound design via FMOD, with wrappers for making it feel extremely easy to program the actual sound playback hooks\n- Very tight Game_State and Entity structure that can be easily serialized\n\n## Coming One Day™️\nNo idea on an ETA for these guys. It'll happen whenever it's actually needed.\n- Controller support\n- Custom backends for console support (switch, xbox, ps5)\n- 3D rendering package & pipeline\n\n# The Structure\n\nOverview of Packages in `/sauce/bald`\n- `/draw` cross platform high performance 2D sprite rendering via Sokol\n- `/sound` easy sound playback & design system via FMOD\n- `/input` simple input abstraction\n- `/utils/shape` simple shape abstraction for collisions\n\n^ In general, these packages are made to be easily upgradable and sharable across projects.\n\n## `main.odin`  \nThis is the entrypoint and the structure of the main loop.\n\nBy default, I use a variable timestep. It works nicely in most situations for as little complexity as possible. But this can be altered to fit whatever the constraints of the game are. Maybe it's multiplayer. Maybe it needs a fixed timestep. Etc.\n\n## `game.odin`\nThis is where most of the magic happens. The intersection of all tech. A place to \"just make game\".\n\nThis is the file I spend 90% of my time in, adding in new content to whatever the game is. It gets pretty big pretty quick. It's a very cozy place for writing gameplay slop.\n\n## `entity.odin`\nThe backbone of the entity megastruct. As talked about [in here](https://randyprime.beehiiv.com/p/entity-structure-made-simple).\n\n## `bald_helpers.odin`\nThis is the intersection of the `/bald` packages and all the game-specific stuff.\n\n\n# Building\n\nIn general, development is way easier on windows since there's more tooling and it's what [~96%](https://store.steampowered.com/hwsurvey/Steam-Hardware-Software-Survey-Welcome-to-Steam) of Steam customers use, so it leads to less bugs for the majority of people because you're daily-driving the same OS and can iron out all the platform-specific kinks. If you're planning on doing game-dev full time though and targeting Steam, I'd highly recommend getting some kind of windows environment setup.\n\nI get that some people prefer to be linux or mac chads though. It's relatively simple to get working natively since Sokol is great, so I'm beginning to add in support for both.\n\n## Windows\n1. [install Odin](https://odin-lang.org/docs/install/)\n2. call `build.bat`\n3. check `build/windows_debug`\n4. see instructions below for running\n\n## Mac\n1. [install Odin](https://odin-lang.org/docs/install/)\n2. call `build_mac.sh`\n3. check `build/mac_debug`\n4. see instructions below for running\n\n## Linux\ntodo\n\n## Web\ncoming soon™️\n\n# Running\nNeeds to run from the root directory since it's accessing /res.\n\nI'd recommend setting up the [RAD Debugger](https://github.com/EpicGamesExt/raddebugger) (windows-only) for a great running & debugging experience. I always launch my game directly from there so it's easier to catch bugs on the fly.\n\n# FAQ\n## How do I use this to make a game?\nI'm focusing my efforts on teaching people how to use this via [my paid program](https://learn.randy.gg/?src=template-starter).\n\nIf you're on a budget, here's some free alternatives:\n- I do [live streams](https://www.youtube.com/@randyprime2) of development while using this\n- I make educational content for this on [my YT channel](https://www.youtube.com/@randyprime)\n\n## Why is this a \"blueprint\" (not a library)?\nGame development is complicated.\n\nI think trying to abstract everything away behind a library is a mistake. It makes things look and feel \"clean\" but sacrifices the capability, limiting what you're able to do and forcing you to use hacky workarounds instead of just doing the simplest and most direct thing possible to solve the problem.",
+    "ContentSha": "hzJKgBGB3/3HTide0LZVQCdA0tMaEusIvA6cZ51bBxs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>게임을 만드는 방법을 배우고 싶다면, [여기](https://learn.randy.gg/?src=template-starter)를 방문하세요.\n\n이와 같은 무료 블루프린트를 가끔씩 이메일로 받아보고 싶다면, [내 메일링 리스트](https://path.randy.gg)를 확인해보세요.\n\n---\n\n이것은 사실상 내가 엔진 없이 게임 개발에 사용하는 전체 툴셋입니다.\n\n여기 있는 개념들을 사용해 만든 게임들:\n- https://store.steampowered.com/app/2571560/ARCANA/\n- https://store.steampowered.com/app/3309460/Demon_Knives/\n- https://store.steampowered.com/app/3433610/Terrafactor/\n\n지난 5년간 엔진 없이 게임을 프로그래밍하는 방법을 배우며 이 아이디어들을 계속 발전시켜 왔습니다.\n\n여러 가지 완성 단계에 있으며, 해야 할 일들이 많고, 성능 병목도 존재합니다. 하지만 현재로서는 지금까지 구현해 본 것 중 가장 프로덕션에 가까운 상태입니다.\n\n게임을 계속 만들고 새로운 것을 배우면서 이 프로젝트를 업데이트할 예정입니다.\n\n# 기능\n- `asset_workbench/aseprite_asset_export.lua`를 통해 Aseprite로 매우 빠른 픽셀 아트 자산 제작 및 반복 작업 파이프라인\n- 필요한 VFX에 맞게 완전히 개조할 수 있는 렌더링 시스템과 셰이더\n- 확장성이 좋은 단일 함수 기반 엔티티 게임플레이 프로그래밍 워크플로우\n- FMOD를 활용한 완전한 사운드 디자인 기능과 실제 사운드 재생 훅을 매우 쉽게 프로그래밍할 수 있게 하는 래퍼\n- 쉽게 직렬화할 수 있는 매우 견고한 Game_State 및 엔티티 구조\n\n## 언젠가 올 기능™️\n이 기능들의 ETA는 전혀 모릅니다. 필요할 때가 되면 만들게 될 겁니다.\n- 컨트롤러 지원\n- 콘솔 지원을 위한 맞춤 백엔드 (스위치, 엑스박스, PS5)\n- 3D 렌더링 패키지 및 파이프라인\n\n# 구조\n\n`/sauce/bald` 패키지 개요\n- `/draw` Sokol을 통한 크로스 플랫폼 고성능 2D 스프라이트 렌더링\n- `/sound` FMOD를 활용한 간편한 사운드 재생 및 디자인 시스템\n- `/input` 간단한 입력 추상화\n- `/utils/shape` 충돌을 위한 간단한 도형 추상화\n\n^ 일반적으로 이 패키지들은 쉽게 업그레이드하고 프로젝트 간에 공유할 수 있도록 만들어졌습니다.\n\n## `main.odin`  \n이 파일은 진입점이며 메인 루프의 구조를 담고 있습니다.\n\n기본적으로 가변 타임스텝을 사용합니다. 대부분의 상황에서 복잡성을 최소화하면서 잘 작동합니다. 하지만 게임의 제약에 맞게 변경할 수 있습니다. 예를 들어 멀티플레이어라거나 고정 타임스텝이 필요할 수도 있겠죠.\n\n## `game.odin`\n대부분의 마법이 일어나는 곳입니다. 모든 기술이 만나는 지점. \"그냥 게임을 만드는\" 장소입니다.\n\n이 파일에 게임에 새 콘텐츠를 추가하는 데 90%의 시간을 보냅니다. 금세 꽤 커집니다. 게임플레이 코드를 작성하기에 매우 아늑한 공간입니다.\n\n## `entity.odin`\n엔티티 메가스트럭처의 중추입니다. [여기](https://randyprime.beehiiv.com/p/entity-structure-made-simple)에서 이야기한 바 있습니다.\n\n## `bald_helpers.odin`\n`/bald` 패키지와 게임 특화된 모든 것들이 만나는 지점입니다.\n\n\n# 빌드\n\n일반적으로 윈도우에서 개발하는 것이 훨씬 쉽습니다. 더 많은 도구가 있고, [~96%](https://store.steampowered.com/hwsurvey/Steam-Hardware-Software-Survey-Welcome-to-Steam)의 스팀 고객들이 사용하기 때문입니다. 같은 OS를 일상적으로 사용하면서 플랫폼별 문제를 해결할 수 있어 버그가 적습니다. 만약 게임 개발을 전업으로 하고 스팀을 목표로 한다면, 윈도우 환경을 갖추는 것을 강력히 추천합니다.\n\n리눅스나 맥을 선호하는 사람들도 이해합니다. Sokol이 좋아서 네이티브로 작동시키는 것도 비교적 간단하며, 두 플랫폼에 대한 지원도 추가하기 시작했습니다.\n\n## 윈도우\n1. [Odin 설치](https://odin-lang.org/docs/install/)\n2. `build.bat` 실행\n3. `build/windows_debug` 확인\n4. 실행 관련 지침은 아래 참조\n\n## 맥\n1. [Odin 설치](https://odin-lang.org/docs/install/)\n2. `build_mac.sh` 실행\n3. `build/mac_debug` 확인\n4. 실행 관련 지침은 아래 참조\n\n## 리눅스\n준비 중\n\n## 웹\n곧 제공 예정™️\n\n# 실행\n/`res` 경로에 접근해야 하므로 루트 디렉토리에서 실행해야 합니다.\n\n훌륭한 실행 및 디버깅 경험을 위해 [RAD Debugger](https://github.com/EpicGamesExt/raddebugger) (윈도우 전용) 설정을 추천합니다. 저는 항상 여기서 직접 게임을 실행해서 실시간으로 버그를 잡기 편합니다.\n\n# FAQ\n## 이걸로 게임을 만드는 방법은?\n이것을 사용하는 방법을 가르치는 데 집중하고 있으며, [내 유료 프로그램](https://learn.randy.gg/?src=template-starter)에서 자세히 다룹니다.\n\n예산이 부족하다면, 무료 대안은 다음과 같습니다:\n- 이걸 사용하며 개발하는 [라이브 스트림](https://www.youtube.com/@randyprime2)을 합니다.\n- [내 유튜브 채널](https://www.youtube.com/@randyprime)에서 교육 콘텐츠를 만듭니다.\n\n## 왜 이걸 \"블루프린트\"(라이브러리 아님)라고 하나요?\n게임 개발은 복잡합니다.\n\n모든 것을 라이브러리 뒤에 추상화하려는 시도는 실수라고 생각합니다. 그것은 깔끔해 보이고 느껴지게 만들지만, 기능성을 희생시켜 할 수 있는 일을 제한하고, 문제를 해결하기 위해 가장 간단하고 직접적인 방식을 쓰지 못하게 하며, 대신 엉성한 우회 방법을 사용하도록 강요합니다.</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "BBVf5bEXwtdM82k6IVbfTIANxWDKDHmri7syGdY6cOo=",
+        "originContent": "If you'd like to learn how to use this to make games, [go here](https://learn.randy.gg/?src=template-starter)",
+        "translatedContent": "<translate-content>게임을 만드는 방법을 배우고 싶다면, [여기](https://learn.randy.gg/?src=template-starter)를 방문하세요."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "5utvQ8oroafgp4vtIAmXrBf9+v9jnsqY3XMPjIeDU4g=",
+        "originContent": "If you want some free value like this blueprint delivered to your inbox every now and then, checkout [my mailing list](https://path.randy.gg)",
+        "translatedContent": "이와 같은 무료 블루프린트를 가끔씩 이메일로 받아보고 싶다면, [내 메일링 리스트](https://path.randy.gg)를 확인해보세요."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "bHC/CrFuoPhkXPNsLboKFyxqvx+VWasPNyppB38jLoo=",
+        "originContent": "This is practically my entire toolset that I use for no-engine game development.",
+        "translatedContent": "이것은 사실상 내가 엔진 없이 게임 개발에 사용하는 전체 툴셋입니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "9GyZ+fqo68vY+4W32em5E4QAm08pQY8VErqa7ssotKI=",
+        "originContent": "I used the concepts in here to make these games:",
+        "translatedContent": "여기 있는 개념들을 사용해 만든 게임들:"
+      },
+      {
+        "row": 10,
+        "rowsha": "a4bvRHi+JT6f7W5e+Jr+8f1DnUM6fR/TMpkD0Vi0qn8=",
+        "originContent": "- https://store.steampowered.com/app/2571560/ARCANA/",
+        "translatedContent": "- https://store.steampowered.com/app/2571560/ARCANA/"
+      },
+      {
+        "row": 11,
+        "rowsha": "WnukgGDHCbEDhyXwMHAH86akXBXMeAfBlWPMdgnC5So=",
+        "originContent": "- https://store.steampowered.com/app/3309460/Demon_Knives/",
+        "translatedContent": "- https://store.steampowered.com/app/3309460/Demon_Knives/"
+      },
+      {
+        "row": 12,
+        "rowsha": "UnXiuqCvVm56WdKukxPOSk/C/KxNpxpiYt+8Ss3hp5E=",
+        "originContent": "- https://store.steampowered.com/app/3433610/Terrafactor/",
+        "translatedContent": "- https://store.steampowered.com/app/3433610/Terrafactor/"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "6VGC90E86lI8SFgXK+RgdMRJKUdTGTKdtOVbDyLEk6Y=",
+        "originContent": "I've been iterating on these ideas for the last 5 years of learning how to program a game without an engine.",
+        "translatedContent": "지난 5년간 엔진 없이 게임을 프로그래밍하는 방법을 배우며 이 아이디어들을 계속 발전시켜 왔습니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "Bf+zCvdcO9pNLG9A38+Sj3Ps2bMrcjExStLMsdCk82M=",
+        "originContent": "Things are in various stages of completion, lots of TODOs thrown around, dumb performance bottlenecks, etc. But as it stands, it's about as production ready as I've been able to pull off so far.",
+        "translatedContent": "여러 가지 완성 단계에 있으며, 해야 할 일들이 많고, 성능 병목도 존재합니다. 하지만 현재로서는 지금까지 구현해 본 것 중 가장 프로덕션에 가까운 상태입니다."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "TFQasYn2JlxqOV4KlVXPV0p8GT25qcaQ0F+K/++sf14=",
+        "originContent": "I'll be updating this as I continue making games and learning new things.",
+        "translatedContent": "게임을 계속 만들고 새로운 것을 배우면서 이 프로젝트를 업데이트할 예정입니다."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "Qxdp3Hj7dWmz+GAKg4NkEzKgHfg+ZfXXUNg0RDB9+KI=",
+        "originContent": "# Features",
+        "translatedContent": "# 기능"
+      },
+      {
+        "row": 21,
+        "rowsha": "bSU2OJzvHdSASDXxsafccI95hUuCy7kcsoDNUalomk0=",
+        "originContent": "- Very fast pixel art asset creation & iteration pipeline with Aseprite via `asset_workbench/aseprite_asset_export.lua`",
+        "translatedContent": "- `asset_workbench/aseprite_asset_export.lua`를 통해 Aseprite로 매우 빠른 픽셀 아트 자산 제작 및 반복 작업 파이프라인"
+      },
+      {
+        "row": 22,
+        "rowsha": "tt/4NeoaIDUDq9KQd7t67gNhmcuRphjOSBYqaHyr/ow=",
+        "originContent": "- Shaders with a rendering system that can be completely overhauled to suit whatever VFX you need",
+        "translatedContent": "- 필요한 VFX에 맞게 완전히 개조할 수 있는 렌더링 시스템과 셰이더"
+      },
+      {
+        "row": 23,
+        "rowsha": "TIe5M78RMRtK5TLy9eW50TQDnnhFX/aBWK1PI3HmIPo=",
+        "originContent": "- A single-function entity gameplay programming workflow that scales well",
+        "translatedContent": "- 확장성이 좋은 단일 함수 기반 엔티티 게임플레이 프로그래밍 워크플로우"
+      },
+      {
+        "row": 24,
+        "rowsha": "PIi4AMQsJ+gk+uuRugh2kii4DGpgiRW4RKDK16GbbeQ=",
+        "originContent": "- Fully featured sound design via FMOD, with wrappers for making it feel extremely easy to program the actual sound playback hooks",
+        "translatedContent": "- FMOD를 활용한 완전한 사운드 디자인 기능과 실제 사운드 재생 훅을 매우 쉽게 프로그래밍할 수 있게 하는 래퍼"
+      },
+      {
+        "row": 25,
+        "rowsha": "qIkAB8k6fJTut5wxMd/bY09jAYpyS2Xwu4UElB/A09E=",
+        "originContent": "- Very tight Game_State and Entity structure that can be easily serialized",
+        "translatedContent": "- 쉽게 직렬화할 수 있는 매우 견고한 Game_State 및 엔티티 구조"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "1b+kSUrw6VczjF3WtcsUfVDqI+BYCuqaRapY8WWKenU=",
+        "originContent": "## Coming One Day™️",
+        "translatedContent": "## 언젠가 올 기능™️"
+      },
+      {
+        "row": 28,
+        "rowsha": "bZ5v7vmzXjXHKGtm0oiuNSGOxK+z7DAz3xL9bVHHENg=",
+        "originContent": "No idea on an ETA for these guys. It'll happen whenever it's actually needed.",
+        "translatedContent": "이 기능들의 ETA는 전혀 모릅니다. 필요할 때가 되면 만들게 될 겁니다."
+      },
+      {
+        "row": 29,
+        "rowsha": "D7chiHQxKmo84s+yaDEtyjMetCwvmLmxEbw0A0MnQyc=",
+        "originContent": "- Controller support",
+        "translatedContent": "- 컨트롤러 지원"
+      },
+      {
+        "row": 30,
+        "rowsha": "luHg+FI/8HOu4LOMH3cqAiC+ahUZ+18aq30txWMPAyc=",
+        "originContent": "- Custom backends for console support (switch, xbox, ps5)",
+        "translatedContent": "- 콘솔 지원을 위한 맞춤 백엔드 (스위치, 엑스박스, PS5)"
+      },
+      {
+        "row": 31,
+        "rowsha": "Vfb5VTvhoTpv02bLyaKdqz7ZKods8MOXHDgBdVf8r0U=",
+        "originContent": "- 3D rendering package & pipeline",
+        "translatedContent": "- 3D 렌더링 패키지 및 파이프라인"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "9V9LxEt9yMKwr7HiQ70Opf3/CEgEOt62HCuXjqVmYVc=",
+        "originContent": "# The Structure",
+        "translatedContent": "# 구조"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "GB4BR+GUBwtRRgjrEsfVr0PwG7B7XRMyw5TWC/1lTAs=",
+        "originContent": "Overview of Packages in `/sauce/bald`",
+        "translatedContent": "`/sauce/bald` 패키지 개요"
+      },
+      {
+        "row": 36,
+        "rowsha": "QS39b3rqpzCHX8VOvscW27tdHpGlw7a3LXZhofFgr/s=",
+        "originContent": "- `/draw` cross platform high performance 2D sprite rendering via Sokol",
+        "translatedContent": "- `/draw` Sokol을 통한 크로스 플랫폼 고성능 2D 스프라이트 렌더링"
+      },
+      {
+        "row": 37,
+        "rowsha": "2H79KZ3m4+G1NZiehO45DifKUApP1X7eZEQ6D4Q38xo=",
+        "originContent": "- `/sound` easy sound playback & design system via FMOD",
+        "translatedContent": "- `/sound` FMOD를 활용한 간편한 사운드 재생 및 디자인 시스템"
+      },
+      {
+        "row": 38,
+        "rowsha": "U4c7EnVsh4F7qZzRX1EagoWkKC4Yis7PWE8zRgLxuxs=",
+        "originContent": "- `/input` simple input abstraction",
+        "translatedContent": "- `/input` 간단한 입력 추상화"
+      },
+      {
+        "row": 39,
+        "rowsha": "1wsHuUfgIPDuVZSvwONSIlMAhFigg9xrVsltSNWsVPY=",
+        "originContent": "- `/utils/shape` simple shape abstraction for collisions",
+        "translatedContent": "- `/utils/shape` 충돌을 위한 간단한 도형 추상화"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "ykDz2SSnTXMTPAVY46fiHJ6tbk7SpP/YPGPrDCkKy4U=",
+        "originContent": "^ In general, these packages are made to be easily upgradable and sharable across projects.",
+        "translatedContent": "^ 일반적으로 이 패키지들은 쉽게 업그레이드하고 프로젝트 간에 공유할 수 있도록 만들어졌습니다."
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "Naa+ZwQZn1Ozj3v+IyWD/dLb8q/AWATFeDCOGoJeR8I=",
+        "originContent": "## `main.odin`  ",
+        "translatedContent": "## `main.odin`  "
+      },
+      {
+        "row": 44,
+        "rowsha": "6llj3mtbqpp1xR0JHRb1OCKgCueBWnxqmuM0OJM3bu8=",
+        "originContent": "This is the entrypoint and the structure of the main loop.",
+        "translatedContent": "이 파일은 진입점이며 메인 루프의 구조를 담고 있습니다."
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "ffF4indR2kfXh/IWeUp936fJPonUPAaZ25+9Did9qI4=",
+        "originContent": "By default, I use a variable timestep. It works nicely in most situations for as little complexity as possible. But this can be altered to fit whatever the constraints of the game are. Maybe it's multiplayer. Maybe it needs a fixed timestep. Etc.",
+        "translatedContent": "기본적으로 가변 타임스텝을 사용합니다. 대부분의 상황에서 복잡성을 최소화하면서 잘 작동합니다. 하지만 게임의 제약에 맞게 변경할 수 있습니다. 예를 들어 멀티플레이어라거나 고정 타임스텝이 필요할 수도 있겠죠."
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 48,
+        "rowsha": "ZCSwvq7gMSBDjWrJ3DJMX+iIMtDZnvRnqLK5UFbBmrk=",
+        "originContent": "## `game.odin`",
+        "translatedContent": "## `game.odin`"
+      },
+      {
+        "row": 49,
+        "rowsha": "gaoI8zzS3I6wigDcHBXAUTdLCKMlTc3QV/tbS7eFCgk=",
+        "originContent": "This is where most of the magic happens. The intersection of all tech. A place to \"just make game\".",
+        "translatedContent": "대부분의 마법이 일어나는 곳입니다. 모든 기술이 만나는 지점. \"그냥 게임을 만드는\" 장소입니다."
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "ch6G8tkTwzsRZfVV3ZYCKWq4OlGwEiVuKX3/yd0uc9g=",
+        "originContent": "This is the file I spend 90% of my time in, adding in new content to whatever the game is. It gets pretty big pretty quick. It's a very cozy place for writing gameplay slop.",
+        "translatedContent": "이 파일에 게임에 새 콘텐츠를 추가하는 데 90%의 시간을 보냅니다. 금세 꽤 커집니다. 게임플레이 코드를 작성하기에 매우 아늑한 공간입니다."
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "NrU+pRdXrEB//8eq+FwFzTKSJd2iFSTZC0BYFysRWGU=",
+        "originContent": "## `entity.odin`",
+        "translatedContent": "## `entity.odin`"
+      },
+      {
+        "row": 54,
+        "rowsha": "dqLQIwYdhIOrAdCIsJd10edQm2qHzHlb/j9S+rj6uuw=",
+        "originContent": "The backbone of the entity megastruct. As talked about [in here](https://randyprime.beehiiv.com/p/entity-structure-made-simple).",
+        "translatedContent": "엔티티 메가스트럭처의 중추입니다. [여기](https://randyprime.beehiiv.com/p/entity-structure-made-simple)에서 이야기한 바 있습니다."
+      },
+      {
+        "row": 55,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 56,
+        "rowsha": "HYV5jkJwKUujPiGccR+BrP42sqMufWke6zQVBZRzNF4=",
+        "originContent": "## `bald_helpers.odin`",
+        "translatedContent": "## `bald_helpers.odin`"
+      },
+      {
+        "row": 57,
+        "rowsha": "jKbOIivDgjBSEKLtEvQIA5TOaPkK9m8L4BUgMnw+Opk=",
+        "originContent": "This is the intersection of the `/bald` packages and all the game-specific stuff.",
+        "translatedContent": "`/bald` 패키지와 게임 특화된 모든 것들이 만나는 지점입니다."
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 59,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 60,
+        "rowsha": "4jMB2dnHp7eV36PlOVdpxYRbZ0vhKKOMhNSNCgr4x0c=",
+        "originContent": "# Building",
+        "translatedContent": "# 빌드"
+      },
+      {
+        "row": 61,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 62,
+        "rowsha": "Of0//ZCuZsVq2/yKUDibaGQLb4UDrmlSMJxvoeH61b4=",
+        "originContent": "In general, development is way easier on windows since there's more tooling and it's what [~96%](https://store.steampowered.com/hwsurvey/Steam-Hardware-Software-Survey-Welcome-to-Steam) of Steam customers use, so it leads to less bugs for the majority of people because you're daily-driving the same OS and can iron out all the platform-specific kinks. If you're planning on doing game-dev full time though and targeting Steam, I'd highly recommend getting some kind of windows environment setup.",
+        "translatedContent": "일반적으로 윈도우에서 개발하는 것이 훨씬 쉽습니다. 더 많은 도구가 있고, [~96%](https://store.steampowered.com/hwsurvey/Steam-Hardware-Software-Survey-Welcome-to-Steam)의 스팀 고객들이 사용하기 때문입니다. 같은 OS를 일상적으로 사용하면서 플랫폼별 문제를 해결할 수 있어 버그가 적습니다. 만약 게임 개발을 전업으로 하고 스팀을 목표로 한다면, 윈도우 환경을 갖추는 것을 강력히 추천합니다."
+      },
+      {
+        "row": 63,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 64,
+        "rowsha": "elzrsYIKHLs2TEHEljGtNbVi7wR5Yk8f5cCJwZN+Xv8=",
+        "originContent": "I get that some people prefer to be linux or mac chads though. It's relatively simple to get working natively since Sokol is great, so I'm beginning to add in support for both.",
+        "translatedContent": "리눅스나 맥을 선호하는 사람들도 이해합니다. Sokol이 좋아서 네이티브로 작동시키는 것도 비교적 간단하며, 두 플랫폼에 대한 지원도 추가하기 시작했습니다."
+      },
+      {
+        "row": 65,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 66,
+        "rowsha": "KO3+yBzH3OhdgrHtoxmgQUVjbXNJ9Nr6+yY5uIgfLtw=",
+        "originContent": "## Windows",
+        "translatedContent": "## 윈도우"
+      },
+      {
+        "row": 67,
+        "rowsha": "/KaUqsZWZ6nvZ97wFaUuY4LTJoPYXqyWZvls3WSMMkY=",
+        "originContent": "1. [install Odin](https://odin-lang.org/docs/install/)",
+        "translatedContent": "1. [Odin 설치](https://odin-lang.org/docs/install/)"
+      },
+      {
+        "row": 68,
+        "rowsha": "hkwJzQ9d7GdHqrH+UfvUusEOszOm9648L8N0SOFcW3o=",
+        "originContent": "2. call `build.bat`",
+        "translatedContent": "2. `build.bat` 실행"
+      },
+      {
+        "row": 69,
+        "rowsha": "dQwgs0qh8fFFuw3PL4D2eZt0f7ADVT2hJNZzxT2R4i0=",
+        "originContent": "3. check `build/windows_debug`",
+        "translatedContent": "3. `build/windows_debug` 확인"
+      },
+      {
+        "row": 70,
+        "rowsha": "8mFakS3jg1VIZK3YrYG6TaIuFmENijpB0xIGwa9ztDI=",
+        "originContent": "4. see instructions below for running",
+        "translatedContent": "4. 실행 관련 지침은 아래 참조"
+      },
+      {
+        "row": 71,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 72,
+        "rowsha": "YK4WScV5t/TKHrzGD8W90zJ/1SKDA+LCvNYXgtW8EaI=",
+        "originContent": "## Mac",
+        "translatedContent": "## 맥"
+      },
+      {
+        "row": 73,
+        "rowsha": "/KaUqsZWZ6nvZ97wFaUuY4LTJoPYXqyWZvls3WSMMkY=",
+        "originContent": "1. [install Odin](https://odin-lang.org/docs/install/)",
+        "translatedContent": "1. [Odin 설치](https://odin-lang.org/docs/install/)"
+      },
+      {
+        "row": 74,
+        "rowsha": "U2AIYj4U9oz1LOk53zstTbC6OIOcDLCuFsLFPX4Z91g=",
+        "originContent": "2. call `build_mac.sh`",
+        "translatedContent": "2. `build_mac.sh` 실행"
+      },
+      {
+        "row": 75,
+        "rowsha": "4izNTA+85SKoAe6RvW/SGAFIq3lzCbGjxZ5UWCpA9XA=",
+        "originContent": "3. check `build/mac_debug`",
+        "translatedContent": "3. `build/mac_debug` 확인"
+      },
+      {
+        "row": 76,
+        "rowsha": "8mFakS3jg1VIZK3YrYG6TaIuFmENijpB0xIGwa9ztDI=",
+        "originContent": "4. see instructions below for running",
+        "translatedContent": "4. 실행 관련 지침은 아래 참조"
+      },
+      {
+        "row": 77,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 78,
+        "rowsha": "IStsHN5RBQdtW9GjImd4m3sUG05UEbN/Z6nBvbKyiP0=",
+        "originContent": "## Linux",
+        "translatedContent": "## 리눅스"
+      },
+      {
+        "row": 79,
+        "rowsha": "YC+uWA9YY6v7Mb81bez9xzvxIkpiqs9rSCn/otvlg5A=",
+        "originContent": "todo",
+        "translatedContent": "준비 중"
+      },
+      {
+        "row": 80,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 81,
+        "rowsha": "OpFu4Ib/aRcLX7DGlKK5YWb9bf+3yakcmm7FubLyzkM=",
+        "originContent": "## Web",
+        "translatedContent": "## 웹"
+      },
+      {
+        "row": 82,
+        "rowsha": "MlDZFSBVOwCywKvTcxSHXmiUDw16BjtNwyQIehfJrog=",
+        "originContent": "coming soon™️",
+        "translatedContent": "곧 제공 예정™️"
+      },
+      {
+        "row": 83,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 84,
+        "rowsha": "9SORriGvvifXB338dBFob02IA2srSwYdw+UHidO7SnI=",
+        "originContent": "# Running",
+        "translatedContent": "# 실행"
+      },
+      {
+        "row": 85,
+        "rowsha": "5S4lLSAOELce0GE/dOmDPYt6+xkvumhCfXZzq2maPfA=",
+        "originContent": "Needs to run from the root directory since it's accessing /res.",
+        "translatedContent": "/`res` 경로에 접근해야 하므로 루트 디렉토리에서 실행해야 합니다."
+      },
+      {
+        "row": 86,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 87,
+        "rowsha": "7X1YItFWmlCs5PmJ8gdvEK/F4Kebj8z3A8VyPQDEiHQ=",
+        "originContent": "I'd recommend setting up the [RAD Debugger](https://github.com/EpicGamesExt/raddebugger) (windows-only) for a great running & debugging experience. I always launch my game directly from there so it's easier to catch bugs on the fly.",
+        "translatedContent": "훌륭한 실행 및 디버깅 경험을 위해 [RAD Debugger](https://github.com/EpicGamesExt/raddebugger) (윈도우 전용) 설정을 추천합니다. 저는 항상 여기서 직접 게임을 실행해서 실시간으로 버그를 잡기 편합니다."
+      },
+      {
+        "row": 88,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 89,
+        "rowsha": "OoCxyGfPN5TmdzAkaPphtPx303MJJ7vpfWbKrufGH5g=",
+        "originContent": "# FAQ",
+        "translatedContent": "# FAQ"
+      },
+      {
+        "row": 90,
+        "rowsha": "TO1blN4fLBlfYBkTySGVr408TsFWnLAaqLW4Ozhchro=",
+        "originContent": "## How do I use this to make a game?",
+        "translatedContent": "## 이걸로 게임을 만드는 방법은?"
+      },
+      {
+        "row": 91,
+        "rowsha": "221Mumyex79G9MGpSyilUoKVgzsToCmvREKZXPsspXE=",
+        "originContent": "I'm focusing my efforts on teaching people how to use this via [my paid program](https://learn.randy.gg/?src=template-starter).",
+        "translatedContent": "이것을 사용하는 방법을 가르치는 데 집중하고 있으며, [내 유료 프로그램](https://learn.randy.gg/?src=template-starter)에서 자세히 다룹니다."
+      },
+      {
+        "row": 92,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 93,
+        "rowsha": "qyT2kvDMkK7kppftFXBHe1adnWHk2013VMnJQpehekI=",
+        "originContent": "If you're on a budget, here's some free alternatives:",
+        "translatedContent": "예산이 부족하다면, 무료 대안은 다음과 같습니다:"
+      },
+      {
+        "row": 94,
+        "rowsha": "gNlzhGoVBD9ugOYKIZ8KHezvdXG5v89bBOLnWY4GoCQ=",
+        "originContent": "- I do [live streams](https://www.youtube.com/@randyprime2) of development while using this",
+        "translatedContent": "- 이걸 사용하며 개발하는 [라이브 스트림](https://www.youtube.com/@randyprime2)을 합니다."
+      },
+      {
+        "row": 95,
+        "rowsha": "Q9ncyG+KdB32+umzyL0VfpCsM2fbEqqho4tRPRyxhCU=",
+        "originContent": "- I make educational content for this on [my YT channel](https://www.youtube.com/@randyprime)",
+        "translatedContent": "- [내 유튜브 채널](https://www.youtube.com/@randyprime)에서 교육 콘텐츠를 만듭니다."
+      },
+      {
+        "row": 96,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 97,
+        "rowsha": "DQrKl5FebeCHRRx+00J9xzHJ6kCjKCSreiwsCFjiQxY=",
+        "originContent": "## Why is this a \"blueprint\" (not a library)?",
+        "translatedContent": "## 왜 이걸 \"블루프린트\"(라이브러리 아님)라고 하나요?"
+      },
+      {
+        "row": 98,
+        "rowsha": "GrVO2/zaZNj7RVmhMH6RZN1ys3M8pjxT3XfMWvxcnWM=",
+        "originContent": "Game development is complicated.",
+        "translatedContent": "게임 개발은 복잡합니다."
+      },
+      {
+        "row": 99,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 100,
+        "rowsha": "KZd9w5sVKQzM/Uh+ll36HsQhiS1irNskCEJWGLYqHpk=",
+        "originContent": "I think trying to abstract everything away behind a library is a mistake. It makes things look and feel \"clean\" but sacrifices the capability, limiting what you're able to do and forcing you to use hacky workarounds instead of just doing the simplest and most direct thing possible to solve the problem.",
+        "translatedContent": "모든 것을 라이브러리 뒤에 추상화하려는 시도는 실수라고 생각합니다. 그것은 깔끔해 보이고 느껴지게 만들지만, 기능성을 희생시켜 할 수 있는 일을 제한하고, 문제를 해결하기 위해 가장 간단하고 직접적인 방식을 쓰지 못하게 하며, 대신 엉성한 우회 방법을 사용하도록 강요합니다.</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\nold way:\n1. use library\n2. hit a wall in using it\n3. work around it in a hacky way or cut the idea\n\nnew way:\n1. use this blueprint\n2. hit a wall in using it\n3. learn the fundamental thing it's doing, then build on top of it, adjusting the source\n4. (optional) open an issue so I can consider integrating it into the blueprint\n\n> The most common example is you'll have something you want to do with the rendering. So you go off an learn graphics programming using [this](https://learnopengl.com/), maybe rewriting your own version of `/draw`, or just adjusting it to do the thing you need. (Render textures, adjusting the Vertex data, multi-stage draw passes and post-processing, etc)\n\nI tried my best to seperate the core layer `/bald` from the game specific stuff so it's easy to upgrade later on, but there's what I believe to be an unavoidable tangling of some ideas in a lot of places.\n\nI'll continue trying to simplify this and make it as readable and usable as possible, without sacrificing the full production-ready power of it.\n\n## Why Odin?\nCompared to C, it's a lot more fun to work in. Less overall typing, more safety by default, and great quality of life. Happy programming = more gameplay.\n\nCompared to Jai, it has more users and is public (Jai is still in a closed beta). So that means more stability and a better ecosystem around packages, tooling etc, (because more people use it).\n\n## Why Sokol?\nIt feels like a nice sweet spot high and low level.\n\nIt's not as high level as something like Raylib, so there's more flexibility with what you can do. But to use it, you need to learn graphics programming. And that kinda sucks for beginners. That's why I've built this blueprint. It's kinda like an all-in-one production ready suite, where you can opt-in to the finer details without changing your end gameplay programming workflow.\n\nBut it's not as low level as something like just manually writing win32 code & raw directx11 to get a triangle drawing on the screen.\n",
+    "ContentSha": "OKgOvqZYbeJLdsduSHNfobwVPikVEBuLwPpyz466vqQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "old way:\n1. 라이브러리 사용\n2. 사용 중에 벽에 부딪힘\n3. 해킹식으로 우회하거나 아이디어를 포기함\n\nnew way:\n1. 이 청사진 사용\n2. 사용 중에 벽에 부딪힘\n3. 그것이 하는 근본적인 것을 배우고, 소스를 조정하여 그 위에 구축함\n4. (선택 사항) 이슈를 열어 청사진에 통합할 수 있도록 고려하게 함\n\n> 가장 흔한 예는 렌더링과 관련하여 하고 싶은 일이 있을 때입니다. 그래서 [이것](https://learnopengl.com/)을 통해 그래픽 프로그래밍을 배우고, `/draw`의 자신의 버전을 다시 작성하거나 필요한 작업을 수행하도록 조정합니다. (렌더 텍스처, 버텍스 데이터 조정, 다단계 드로우 패스 및 후처리 등)\n\n핵심 계층 `/bald`를 게임 특정 요소와 분리하려 최선을 다했지만, 많은 곳에서 불가피한 아이디어 얽힘이 있다고 생각합니다.\n\n이것을 계속 단순화하고 완전한 제작 준비 기능을 희생하지 않으면서 가능한 한 읽기 쉽고 사용하기 쉽게 만들려고 합니다.\n\n## 왜 Odin인가?\nC와 비교했을 때 훨씬 더 재미있게 작업할 수 있습니다. 전체 타이핑이 적고 기본적으로 더 안전하며, 삶의 질이 뛰어납니다. 행복한 프로그래밍 = 더 많은 게임 플레이.\n\nJai와 비교하면 사용자 수가 더 많고 공개되어 있습니다 (Jai는 아직 비공개 베타입니다). 즉, 더 많은 사람이 사용하기 때문에 패키지, 도구 등 주변 생태계가 더 안정적이고 좋습니다.\n\n## 왜 Sokol인가?\n높고 낮은 수준에서 적절한 균형점처럼 느껴집니다.\n\nRaylib 같은 높은 수준보다는 덜 고수준이라서 더 많은 유연성을 제공합니다. 하지만 사용하려면 그래픽 프로그래밍을 배워야 합니다. 초보자에게는 다소 어렵습니다. 그래서 이 청사진을 만들었습니다. 세밀한 부분을 선택적으로 사용하면서 최종 게임 플레이 프로그래밍 워크플로우를 변경하지 않는 올인원 제작 준비 스위트 같은 것입니다.\n\n그러나 win32 코드와 직접적인 directx11 코드를 수동으로 작성해 화면에 삼각형을 그리는 것만큼 낮은 수준은 아닙니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "old way:"
+      },
+      {
+        "row": 2,
+        "rowsha": "fZK8SVfYcOGS5ZFKdtcQ6XOLa803Z2tcDGFy3tgsR7Q=",
+        "originContent": "old way:",
+        "translatedContent": "1. 라이브러리 사용"
+      },
+      {
+        "row": 3,
+        "rowsha": "5dhV1gBUhXffBQlV0jyogIchKzmNB1seMS87ENybins=",
+        "originContent": "1. use library",
+        "translatedContent": "2. 사용 중에 벽에 부딪힘"
+      },
+      {
+        "row": 4,
+        "rowsha": "yjFvSM5CG8wCo+DUgJRAlaSUbQKZyYhlTBaMLbFEv1I=",
+        "originContent": "2. hit a wall in using it",
+        "translatedContent": "3. 해킹식으로 우회하거나 아이디어를 포기함"
+      },
+      {
+        "row": 5,
+        "rowsha": "+EFF3nknCAdroMlxrGmgnWMSdAVrNk4A7qYFzDcBsqc=",
+        "originContent": "3. work around it in a hacky way or cut the idea",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "new way:"
+      },
+      {
+        "row": 7,
+        "rowsha": "d0V3Cdw7TrUhfqU8lOUbo4XtddI2G+5Qxo/yB5QRpQQ=",
+        "originContent": "new way:",
+        "translatedContent": "1. 이 청사진 사용"
+      },
+      {
+        "row": 8,
+        "rowsha": "k7fHSKl5tmsCfnG4e4xC8npE1LQQILkZftBxCEyXOrs=",
+        "originContent": "1. use this blueprint",
+        "translatedContent": "2. 사용 중에 벽에 부딪힘"
+      },
+      {
+        "row": 9,
+        "rowsha": "yjFvSM5CG8wCo+DUgJRAlaSUbQKZyYhlTBaMLbFEv1I=",
+        "originContent": "2. hit a wall in using it",
+        "translatedContent": "3. 그것이 하는 근본적인 것을 배우고, 소스를 조정하여 그 위에 구축함"
+      },
+      {
+        "row": 10,
+        "rowsha": "jxtRUSfftQRpXkePjRJdPgoIwIoXKI/eJdhzJOYJQFE=",
+        "originContent": "3. learn the fundamental thing it's doing, then build on top of it, adjusting the source",
+        "translatedContent": "4. (선택 사항) 이슈를 열어 청사진에 통합할 수 있도록 고려하게 함"
+      },
+      {
+        "row": 11,
+        "rowsha": "ZXmzOM1TFwYB07XawwReY5yy5NoA7MtuHhTGw72EJR4=",
+        "originContent": "4. (optional) open an issue so I can consider integrating it into the blueprint",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> 가장 흔한 예는 렌더링과 관련하여 하고 싶은 일이 있을 때입니다. 그래서 [이것](https://learnopengl.com/)을 통해 그래픽 프로그래밍을 배우고, `/draw`의 자신의 버전을 다시 작성하거나 필요한 작업을 수행하도록 조정합니다. (렌더 텍스처, 버텍스 데이터 조정, 다단계 드로우 패스 및 후처리 등)"
+      },
+      {
+        "row": 13,
+        "rowsha": "0bCfpNqCC4PrGxSinr0iGxZbDdA99QXUVS+9f1umnFo=",
+        "originContent": "> The most common example is you'll have something you want to do with the rendering. So you go off an learn graphics programming using [this](https://learnopengl.com/), maybe rewriting your own version of `/draw`, or just adjusting it to do the thing you need. (Render textures, adjusting the Vertex data, multi-stage draw passes and post-processing, etc)",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "핵심 계층 `/bald`를 게임 특정 요소와 분리하려 최선을 다했지만, 많은 곳에서 불가피한 아이디어 얽힘이 있다고 생각합니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "BlYN+oEBgDf/6dZzUl6zb2QLO5YoZvNrpNz0B63lZcI=",
+        "originContent": "I tried my best to seperate the core layer `/bald` from the game specific stuff so it's easy to upgrade later on, but there's what I believe to be an unavoidable tangling of some ideas in a lot of places.",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이것을 계속 단순화하고 완전한 제작 준비 기능을 희생하지 않으면서 가능한 한 읽기 쉽고 사용하기 쉽게 만들려고 합니다."
+      },
+      {
+        "row": 17,
+        "rowsha": "K6NjasqCKBdWRRC7JAWcWq8hntbXY01dw6Lg7n9ySuY=",
+        "originContent": "I'll continue trying to simplify this and make it as readable and usable as possible, without sacrificing the full production-ready power of it.",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 왜 Odin인가?"
+      },
+      {
+        "row": 19,
+        "rowsha": "hv+twNGq5c9Fb25+5ybzxvj3ot/hZCcqeHT/ltEM+S4=",
+        "originContent": "## Why Odin?",
+        "translatedContent": "C와 비교했을 때 훨씬 더 재미있게 작업할 수 있습니다. 전체 타이핑이 적고 기본적으로 더 안전하며, 삶의 질이 뛰어납니다. 행복한 프로그래밍 = 더 많은 게임 플레이."
+      },
+      {
+        "row": 20,
+        "rowsha": "ojBSIjtQ2cQGtnsy8WMjgWu9Q9FOKQmqiUMkWWFqH08=",
+        "originContent": "Compared to C, it's a lot more fun to work in. Less overall typing, more safety by default, and great quality of life. Happy programming = more gameplay.",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Jai와 비교하면 사용자 수가 더 많고 공개되어 있습니다 (Jai는 아직 비공개 베타입니다). 즉, 더 많은 사람이 사용하기 때문에 패키지, 도구 등 주변 생태계가 더 안정적이고 좋습니다."
+      },
+      {
+        "row": 22,
+        "rowsha": "0hJUJLNuZ6JNFZtFMRY+kJfkMD1H8evxQIqSOyIjj3Q=",
+        "originContent": "Compared to Jai, it has more users and is public (Jai is still in a closed beta). So that means more stability and a better ecosystem around packages, tooling etc, (because more people use it).",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 왜 Sokol인가?"
+      },
+      {
+        "row": 24,
+        "rowsha": "5Nj2vt8qJLwa/tB2OM0zMV0qfQ5XUJKHsPCRG43oZk0=",
+        "originContent": "## Why Sokol?",
+        "translatedContent": "높고 낮은 수준에서 적절한 균형점처럼 느껴집니다."
+      },
+      {
+        "row": 25,
+        "rowsha": "iz0XXN3PCq1binwE0589/ku+lYwCCZ1/FGG/RBLdULc=",
+        "originContent": "It feels like a nice sweet spot high and low level.",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Raylib 같은 높은 수준보다는 덜 고수준이라서 더 많은 유연성을 제공합니다. 하지만 사용하려면 그래픽 프로그래밍을 배워야 합니다. 초보자에게는 다소 어렵습니다. 그래서 이 청사진을 만들었습니다. 세밀한 부분을 선택적으로 사용하면서 최종 게임 플레이 프로그래밍 워크플로우를 변경하지 않는 올인원 제작 준비 스위트 같은 것입니다."
+      },
+      {
+        "row": 27,
+        "rowsha": "lNz6G/9T0535972jPB+dd/W+ugPPda5IW39JoCNsnSc=",
+        "originContent": "It's not as high level as something like Raylib, so there's more flexibility with what you can do. But to use it, you need to learn graphics programming. And that kinda sucks for beginners. That's why I've built this blueprint. It's kinda like an all-in-one production ready suite, where you can opt-in to the finer details without changing your end gameplay programming workflow.",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "그러나 win32 코드와 직접적인 directx11 코드를 수동으로 작성해 화면에 삼각형을 그리는 것만큼 낮은 수준은 아닙니다."
+      },
+      {
+        "row": 29,
+        "rowsha": "g554DdEdVEJvTbx3Qc8IiJ2OxzP6SZO8a4Q02hWkmlE=",
+        "originContent": "But it's not as low level as something like just manually writing win32 code & raw directx11 to get a triangle drawing on the screen.",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
