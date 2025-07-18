@@ -13,7 +13,7 @@
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a>
@@ -33,20 +33,20 @@
 
 
 <div align="center">
- 你的<a href="https://github.com/OpenAiTx/OpenAiTx">Star</a> 可以让 Open Ai Tx 更好
+ 你的 <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a> 可以让 Open Ai Tx 更加完善
 </div>
 
 
-## 简介
+## 介绍
 
-**OpenAiTx** 是为你的 GitHub 项目 Readme 和 Wiki 提供 20 种语言自动翻译的工具。
+**OpenAiTx** 是为你的 GitHub 项目 readme 和 wiki 提供的 20 种语言自动翻译工具。
 
-## 为什么？
+## 为什么选择我们？
 
-1. 使用高质量 LLM 一次性翻译，并让结果免费向开源社区开放。
-2. 支持 Google/Bing 多语言 SEO 搜索，客户端翻译工具无法做到。
+1. 一次性翻译，采用高质量 LLM，让开源社区免费访问翻译结果。
+2. 支持 Google/Bing 多语言 SEO 搜索，客户端翻译工具无法实现。
 3. 永久免费且开源。
-4. 只需一次提交并自动更新后续内容，如果你是项目维护者，这将为你节省大量时间。
+4. 只需提交一次，自动同步后续内容。如果你是项目维护者，这将节省你的时间。
 
 
 ## 快速开始
@@ -65,7 +65,7 @@
 
 ## 示例
 
-### 样式选项 1：
+### 样式选项1：
 
 <div align="right" >
   <details>
@@ -82,7 +82,7 @@
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a>
@@ -164,6 +164,6 @@ Fork项目 → 克隆项目 → 选择你的语言脚本 → 填写AI令牌 → 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
 
 ---

@@ -13,7 +13,7 @@
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a>
@@ -33,35 +33,35 @@
 
 
 <div align="center">
- نجمتك على <a href="https://github.com/OpenAiTx/OpenAiTx">GitHub</a>  يمكن أن تجعل Open Ai Tx أفضل
+ نجمتك <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a>  يمكن أن تجعل Open Ai Tx أفضل
 </div>
 
 
 ## المقدمة
 
-**OpenAiTx** أداة ترجمة تلقائية إلى 20 لغة لملف README وويكي مشروع GitHub الخاص بك.
+**OpenAiTx** أداة ترجمة تلقائية إلى 20 لغة لملفات readme & wiki في مشاريع GitHub الخاصة بك.
 
 ## لماذا؟
 
-1. ترجمة لمرة واحدة باستخدام نموذج لغوي كبير عالي الجودة وجعل النتيجة متاحة مجانًا لمجتمع المصادر المفتوحة.
-2. دعم البحث متعدد اللغات عبر Google/Bing SEO، وهو ما لا تستطيع أداة الترجمة على جانب العميل القيام به.
+1. ترجمة لمرة واحدة باستخدام نموذج LLM عالي الجودة وجعل النتيجة متاحة مجانًا لمجتمع المصدر المفتوح.
+2. دعم البحث في Google/Bing بلغات متعددة من خلال تحسين محركات البحث، لا يمكن لأداة الترجمة على جانب العميل القيام بذلك.
 3. مجاني ومفتوح المصدر إلى الأبد.
-4. إرسال مرة واحدة وتحديث تلقائي للمستقبل، يمكن أن يوفر وقتك إذا كنت مسؤولًا عن مشروع.
+4. تقدم مرة واحدة وتحديث تلقائي في المستقبل، هذا يوفر وقتك إذا كنت مدير مشروع.
 
 
-## ابدأ الآن
+## كيف تبدأ
 
-1. استبدل عنوان URL `GitHub` بـ `OpenAiTx`، مثال: https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+1. استبدل رابط `GitHub` بـ `OpenAiTx`، مثال: https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
 2. قدم مشروعك.
-3. انقر و انسخ شارات النمط أو النص الذي تريده.
-4. حدث ملف README الخاص بك.
+3. انقر ونسخ شارات النمط أو النص الذي تريده.
+4. حدِّث ملف readme الخاص بك.
 
 أو
 
-1. ادخل إلى https://openaitx.com
-2. قدم رابط مشروعك.
-3. انقر و انسخ شارات النمط أو النص الذي تريده.
-4. حدث ملف README الخاص بك.
+1. ادخل على https://openaitx.com
+2. أضف رابط مشروعك.
+3. انقر ونسخ شارات النمط أو النص الذي تريده.
+4. حدِّث ملف readme الخاص بك.
 
 ## مثال
 
@@ -82,7 +82,7 @@
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a>
@@ -164,6 +164,6 @@
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
 
 ---

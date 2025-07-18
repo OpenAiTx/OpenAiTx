@@ -13,7 +13,7 @@
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a>
@@ -82,7 +82,7 @@ or
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a>

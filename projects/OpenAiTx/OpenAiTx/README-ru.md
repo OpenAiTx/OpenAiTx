@@ -13,7 +13,7 @@
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a>
@@ -39,33 +39,33 @@
 
 ## Введение
 
-**OpenAiTx** — инструмент для автоматического перевода на 20 языков для вашего readme и wiki проекта на GitHub.
+**OpenAiTx** — инструмент авто-перевода на 20 языков для readme и wiki вашего проекта на GitHub.
 
 ## Почему?
 
-1. Одноразовый перевод с помощью LLM премиум-класса и свободный доступ к результату для open-source сообщества.
-2. Поддержка SEO поиска Google/Bing на разных языках, клиентские переводчики этого не умеют.
+1. Однократный перевод с использованием LLM премиум-класса и свободный доступ к результатам для сообщества open-source.
+2. Поддержка SEO поиска Google/Bing на разных языках, чего не могут клиентские переводчики.
 3. Бесплатно и с открытым исходным кодом навсегда.
-4. Один раз отправьте и автосинхронизация в будущем — экономит время для мейнтейнера проекта.
+4. Одна заявка и автоматические обновления в будущем — экономит время для мейнтейнеров проектов.
 
 
 ## Начало работы
 
-1. Замените URL `GitHub` на `OpenAiTx`, например, https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+1. Замените URL `GitHub` на `OpenAiTx`, например https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
 2. Отправьте свой проект.
-3. Нажмите и скопируйте стиль бейджика или текста, который вам нравится.
-4. Обновите свой readme файл.
+3. Нажмите и скопируйте стиль бейджа или текст, который вам нравится.
+4. Обновите свой файл readme.
 
 или
 
 1. Перейдите на https://openaitx.com
 2. Отправьте ссылку на свой проект.
-3. Нажмите и скопируйте стиль бейджика или текста, который вам нравится.
-4. Обновите свой readme файл.
+3. Нажмите и скопируйте стиль бейджа или текст, который вам нравится.
+4. Обновите свой файл readme.
 
 ## Пример
 
-### Опция стиля 1:
+### Вариант стиля 1:
 
 <div align="right" >
   <details>
@@ -82,7 +82,7 @@
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a>
@@ -164,6 +164,6 @@
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
 
 ---

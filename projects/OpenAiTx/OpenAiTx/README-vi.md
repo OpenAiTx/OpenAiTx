@@ -13,7 +13,7 @@
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a>
@@ -33,35 +33,35 @@
 
 
 <div align="center">
- Nhấn <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a> của bạn sẽ giúp Open Ai Tx phát triển tốt hơn
+ Ngôi <a href="https://github.com/OpenAiTx/OpenAiTx">sao</a> của bạn có thể giúp Open Ai Tx phát triển tốt hơn
 </div>
 
 
 ## Giới thiệu
 
-**OpenAiTx** là công cụ tự động dịch 20 ngôn ngữ cho readme & wiki dự án GitHub của bạn.
+**OpenAiTx** là công cụ tự động dịch 20 ngôn ngữ cho tài liệu readme & wiki dự án GitHub của bạn.
 
 ## Tại sao?
 
-1. Dịch một lần bằng LLM chất lượng cao và mở truy cập kết quả miễn phí cho cộng đồng mã nguồn mở.
-2. Hỗ trợ SEO đa ngôn ngữ Google/Bing, công cụ dịch phía khách hàng không làm được điều này.
-3. Miễn phí & Mã nguồn mở mãi mãi.
-4. Gửi một lần và tự động cập nhật về sau, giúp bạn tiết kiệm thời gian nếu bạn là người duy trì dự án.
+1. Dịch một lần bằng LLM chất lượng cao và cung cấp kết quả miễn phí cho cộng đồng mã nguồn mở.
+2. Hỗ trợ SEO tìm kiếm Google/Bing đa ngôn ngữ, công cụ dịch phía khách hàng không làm được điều này.
+3. Miễn phí & Mã nguồn mở vĩnh viễn.
+4. Gửi một lần và tự động cập nhật về sau, tiết kiệm thời gian cho bạn nếu bạn là quản trị viên dự án.
 
 
 ## Bắt đầu
 
-1. Thay thế URL `GitHub` bằng `OpenAiTx`, ví dụ https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+1. Thay URL `GitHub` bằng `OpenAiTx`, ví dụ https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
 2. Gửi dự án của bạn.
-3. Nhấn và sao chép kiểu huy hiệu hoặc đoạn text bạn thích.
-4. Cập nhật vào tệp readme của bạn.
+3. Nhấn và sao chép phù hiệu hoặc đoạn văn bản bạn thích.
+4. Cập nhật vào file readme của bạn.
 
 hoặc
 
 1. Truy cập https://openaitx.com
 2. Gửi liên kết dự án của bạn.
-3. Nhấn và sao chép kiểu huy hiệu hoặc đoạn text bạn thích.
-4. Cập nhật vào tệp readme của bạn.
+3. Nhấn và sao chép phù hiệu hoặc đoạn văn bản bạn thích.
+4. Cập nhật vào file readme của bạn.
 
 ## Ví dụ
 
@@ -82,7 +82,7 @@ hoặc
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a>
@@ -164,6 +164,6 @@ Fork dự án → Clone dự án → Chọn một script bằng ngôn ngữ củ
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
 
 ---

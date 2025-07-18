@@ -1,0 +1,176 @@
+<div align="center">
+  <a href="https://core.heysol.ai">
+    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logo" />
+  </a>
+
+### C.O.R.E: AI 시대를 위한 당신의 디지털 두뇌
+
+<p align="center">
+    <a href="https://docs.heysol.ai/core/overview"><b>문서</b></a> •
+    <a href="https://discord.gg/YGUZcvDjUa"><b>디스코드</b></a>
+</p>
+</div>
+
+## 🧠 C.O.R.E.
+
+**컨텍스추얼 옵저베이션 & 리콜 엔진**
+
+C.O.R.E는 여러분의 LLM 상호작용과 개인 데이터를 바탕으로 구축된 휴대용 메모리 그래프로, 모든 컨텍스트와 작업 이력을 모든 AI 도구에서 디지털 두뇌처럼 접근할 수 있게 합니다. 이를 통해 반복적인 컨텍스트 공유가 필요 없게 됩니다. 목표는 다음과 같습니다:
+
+- **통합되고 휴대 가능한 메모리**: 컨텍스트를 매끄럽게 추가하고 불러오며 Claude, Cursor, Windsurf 등 앱 간 메모리를 연결합니다.
+- **단순 사실이 아닌 관계적 기억**: CORE는 지식을 조직하여 사실과 관계 모두를 저장, 실제 두뇌처럼 더 깊고 풍부한 기억을 만듭니다.
+- **사용자 소유**: 무엇을 유지하고 업데이트하며 삭제할지 결정하고, 원하는 도구 간에 메모리를 공유하여 공급업체 종속에서 벗어납니다.
+
+## 🎥 데모 영상
+
+[C.O.R.E 데모 보기](https://youtu.be/iANZ32dnK60)
+
+<img width="954" height="700" alt="Core dashboard" src="https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694" />
+
+## 🧩 주요 기능
+
+- **메모리 그래프**: 사실과 선호가 어떻게 연결되는지 시각화
+- **메모리와 채팅**: 메모리에 대해 질문하여 즉각적인 통찰과 이해 얻기
+- **플러그 앤 플레이**: Cursor, Claude 같은 앱에서 CORE 메모리를 즉시 사용
+
+## ☁️ C.O.R.E 클라우드 설정
+
+1. [Core Cloud](https://core.heysol.ai)에 가입하고 메모리 그래프를 구축 시작하세요.
+2. 메모리에 저장할 텍스트를 추가하세요. `+ 추가` 버튼을 클릭하면 메모리 그래프가 생성됩니다.
+3. [Core Memory MCP를 Cursor와 연결하기](#connecting-core-mcp-with-cursor)
+
+## 💻 C.O.R.E 로컬 설정
+
+#### 사전 준비 사항
+
+1. 도커(Docker)
+2. OpenAI API 키
+
+
+> **참고:** Llama 모델 지원 개선 작업을 적극 진행 중입니다. 현재 C.O.R.E는 Llama 기반 모델과 최적의 결과를 제공하지 않지만, 곧 더 나은 호환성과 출력을 위해 노력하고 있습니다.
+> 
+#### C.O.R.E 로컬 실행하기
+
+1. **환경 변수 복사**
+
+   예제 환경 파일을 `.env`로 복사하세요:
+
+   ```bash
+   cp .env.example .env
+   ```
+2. **애플리케이션 시작**
+
+   Docker Compose를 사용하여 모든 필요한 서비스를 시작합니다:
+
+
+   ```bash
+   docker-compose up
+   ```
+3. **앱에 접속하기**
+
+   컨테이너가 실행되면 브라우저를 열고 [http://localhost:3000](http://localhost:3000)으로 접속하세요.
+
+4. **매직 링크로 계정 생성하기**
+
+   - 계정을 만들려면 `Continue with email` 버튼을 클릭하세요.
+
+     <img width="865" height="490" alt="Create account" src="https://github.com/user-attachments/assets/65de110b-2b1f-42a5-9b8a-954227d68d52" />
+
+   - 이메일을 입력하고 `Send a Magic Link` 버튼을 클릭하세요.
+
+     <img width="824" height="429" alt="Enter email" src="https://github.com/user-attachments/assets/76128b61-2086-48df-8332-38c2efa14087" />
+
+   - `터미널 로그에서 매직 링크를 복사`하여 브라우저에서 엽니다.
+
+     <img width="1010" height="597" alt="Magic link" src="https://github.com/user-attachments/assets/777cb4b1-bb93-4d54-b6ab-f7147e65aa5c" />
+
+
+5. **개인 공간 생성 및 데이터 추가하기**
+
+   - 대시보드 우측 상단 섹션으로 이동 → 메시지 입력란에 예: `I love playing badminton` 입력 후 `+Add` 클릭.
+   - 메모리가 처리 대기 중이며, `Logs` 섹션에서 상태를 확인할 수 있습니다.
+     
+     <img width="1496" height="691" alt="Core memory logs" src="https://github.com/user-attachments/assets/dc34a7af-fe52-4142-9ecb-49ddc4e0e854" />
+
+   - 처리가 완료되면 노드가 개인 지식 그래프에 추가되어 대시보드에 표시됩니다.
+   - 이후 이 메모리를 다른 도구와 연결하거나 비공개로 유지할 수 있습니다.
+
+6. **메모리 검색하기**
+
+   - 대시보드 검색 기능을 사용하여 개인 공간 내에 저장된 데이터를 조회하세요.
+
+
+## CORE MCP를 Cursor와 연결하기
+
+1. CORE 대시보드를 열고 API 섹션으로 이동하여 새 API 토큰을 생성합니다.
+2. Cursor에서 설정 → 도구 및 통합 → 새 MCP 서버로 이동합니다.
+3. 아래 구성 형식을 사용하여 CORE MCP 서버를 추가하세요. 1단계에서 생성한 토큰으로 API_TOKEN 값을 반드시 교체해야 합니다.
+
+   Cursor에 추가할 MCP 구성사항
+
+
+   ```json
+   {
+     "mcpServers": {
+       "memory": {
+         "command": "npx",
+         "args": ["-y", "@redplanethq/core-mcp"],
+         "env": {
+           "API_TOKEN": "YOUR_API_TOKEN_HERE",
+           "API_BASE_URL": "https://core.heysol.ai",
+           "SOURCE": "cursor"
+         }
+       }
+     }
+   }
+   ```
+4. 설정 -> 사용자 규칙 -> 새 규칙으로 이동한 후 아래 규칙을 추가하여 모든 채팅 상호작용이 CORE 메모리에 저장되도록 합니다.
+
+
+```
+After every interaction, update the memory with the user's query and the assistant's
+response to core-memory mcp. sessionId should be the uuid of the conversation
+```
+## Documentation
+
+CORE를 최대한 활용하기 위해 문서를 탐색하세요
+- [기본 개념](https://docs.heysol.ai/core/overview)
+- [API 참조](https://docs.heysol.ai/core/local-setup)
+- [Core Memory MCP와 커서 연결하기](#connecting-core-mcp-with-cursor)
+
+
+## 🧑‍💻 지원
+질문이나 피드백이 있으신가요? 저희가 도와드리겠습니다:
+- Discord: [core-support 채널 참여하기](https://discord.gg/YGUZcvDjUa)
+- 문서: [docs.heysol.ai/core](https://docs.heysol.ai/core/overview)
+- 이메일: manik@poozle.dev
+
+## 사용 지침
+
+**저장할 것:**
+
+- 대화 기록
+- 사용자 환경 설정
+- 작업 컨텍스트
+- 참고 자료
+
+**저장하지 말 것:**
+
+- 민감한 데이터(개인 식별 정보)
+- 자격 증명
+- 시스템 로그
+- 임시 데이터
+
+## 👥 기여자
+
+<a href="https://github.com/RedPlanetHQ/core/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=RedPlanetHQ/core" />
+</a>
+
+
+
+---
+
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+
+---

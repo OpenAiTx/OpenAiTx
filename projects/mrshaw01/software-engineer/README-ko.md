@@ -1,19 +1,49 @@
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
+
 <div align="center">
-  <h1>Software Engineer</h1>
+  <h1>소프트웨어 엔지니어</h1>
   <p>
-    <img src="https://img.shields.io/github/actions/workflow/status/mrshaw01/software-engineer/pre-commit.yml?branch=main&label=pre-commit&logo=pre-commit&logoColor=white" alt="pre-commit status">
+    <img src="https://img.shields.io/github/actions/workflow/status/mrshaw01/software-engineer/pre-commit.yml?branch=main&label=pre-commit&logo=pre-commit&logoColor=white" alt="pre-commit 상태">
   </p>
 
   <p>
-    <img src="https://img.shields.io/github/last-commit/mrshaw01/software-engineer" alt="Last Commit">
-    <img src="https://img.shields.io/github/issues/mrshaw01/software-engineer" alt="Issues">
-    <img src="https://img.shields.io/github/issues-pr/mrshaw01/software-engineer" alt="Pull Requests">
+    <img src="https://img.shields.io/github/last-commit/mrshaw01/software-engineer" alt="마지막 커밋">
+    <img src="https://img.shields.io/github/issues/mrshaw01/software-engineer" alt="이슈">
+    <img src="https://img.shields.io/github/issues-pr/mrshaw01/software-engineer" alt="풀 리퀘스트">
   </p>
 </div>
 
-A curated, high-quality collection of learning resources focused on **Python** and soon **C/C++**, designed to build strong software engineering foundations and system-level understanding.
+**Python** 및 곧 추가될 **C/C++**에 중점을 둔 엄선된 고품질 학습 자료 모음으로, 견고한 소프트웨어 엔지니어링 기반과 시스템 수준의 이해를 쌓기 위해 설계되었습니다.
 
-## Repository Structure
+## 저장소 구조
 
 ```text
 .

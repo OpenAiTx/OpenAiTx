@@ -1,3 +1,33 @@
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=en">英語</a>
+        | <a href="https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=zh-CN">簡体字中国語</a>
+        | <a href="https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=zh-TW">繁體字中国語</a>
+        | <a href="https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=ko">韓国語</a>
+        | <a href="https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=hi">ヒンディー語</a>
+        | <a href="https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=th">タイ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=fr">フランス語</a>
+        | <a href="https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=de">ドイツ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=es">スペイン語</a>
+        | <a href="https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=it">イタリア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=ru">ロシア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=pt">ポルトガル語</a>
+        | <a href="https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=nl">オランダ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=pl">ポーランド語</a>
+        | <a href="https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=ar">アラビア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=fa">ペルシャ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=tr">トルコ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=vi">ベトナム語</a>
+        | <a href="https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=id">インドネシア語</a>
+      </div>
+    </div>
+  </details>
+</div>
+
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
 ![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue)
 ![Component Driven](https://img.shields.io/badge/architecture-component--driven-orange)
@@ -15,101 +45,102 @@
 
 # WinUp 🚀
 
-## 最新の安定版リリース（LSR）を必ずダウンロードしてください。最新/LFRではありません！現在のLSR：2.4.9
+## 最新の安定版リリース（LSR）を必ずダウンロードしてください！最新/LFRではありません！現在のLSR: 2.4.9
 
 `pip install winup==2.4.9`
 
-**美しいデスクトップアプリケーションを構築するための、非常にPython的で強力なフレームワーク。**
+**驚くほどPythonicで強力な、美しいデスクトップアプリケーションを構築するためのフレームワークです。**
 
-WinUpはPython向けのモダンなUIフレームワークで、PySide6（Qt）のパワーをシンプルで宣言的、開発者に優しいAPIでラップしています。アプリケーションの構築をより速く、コードをよりクリーンに、開発プロセスをより楽しくするよう設計されています。
+WinUpは、PySide6（Qt）のパワーを、シンプルで宣言的かつ開発者に優しいAPIでラップした、Python向けのモダンなUIフレームワークです。アプリケーションの構築を高速化し、よりクリーンなコードを書き、開発プロセスを楽しめるよう設計されています。
 
-### ✨ 今やWebサポートも！
-WinUpは同じPython中心のコンポーネントベースアプローチを用いて、完全にインタラクティブで状態を持つWebアプリケーションの構築もサポートします。WebモジュールはFastAPIとWebSocketsを内部で使用し、WinUpのシンプルさをブラウザに持ち込みます。
+### ✨ Webサポートが追加されました！
+WinUpは、同じPython中心・コンポーネントベースのアプローチで、完全にインタラクティブかつ状態管理されたWebアプリケーションの構築もサポートします。WebモジュールはFastAPIとWebSocketsを内部で利用し、WinUpのシンプルさをブラウザにもたらします。
 
 [Webドキュメント](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/web/README.md)
 
-> **免責事項：** Webサポートはオプション機能です。使用するにはweb依存関係をインストールしてください：
+> **注意:** Webサポートはオプション機能です。使用するにはWeb依存関係のインストールが必要です:
 > ```bash
 > pip install "winup[web]"
 > ```
 
-[貢献](https://raw.githubusercontent.com/mebaadwaheed/winup/main/CONTRIBUTING.md)
-[更新履歴](https://raw.githubusercontent.com/mebaadwaheed/winup/main/CHANGELOG.md)
+[コントリビューションガイド](https://raw.githubusercontent.com/mebaadwaheed/winup/main/CONTRIBUTING.md)
+[変更履歴](https://raw.githubusercontent.com/mebaadwaheed/winup/main/CHANGELOG.md)
 [ライセンス](LICENSE)
 
 ---
 
-## なぜWinUp？（生のPySide6やTkinterの代わりに）
+## なぜWinUpなのか？（生のPySide6やTkinterではなく）
 
-Pythonでのデスクトップ開発は使いにくく感じることがあります。WinUpはそれを解決するために作られました。
+Pythonによるデスクトップ開発はぎこちなく感じることがあります。WinUpはそれを解決するために作られました。
 
-| 機能                    | WinUpの方法 ✨                                                                 | 生のPySide6 / Tkinterの方法 😟                                                             |
-| ----------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- |
-| **レイアウト**          | `ui.Column(children=[...])`, `ui.Row(children=[...])`                          | `QVBoxLayout()`, `QHBoxLayout()`, `layout.addWidget()`, `pack()`, `grid()`                  |
-| **スタイリング**        | `props={"background-color": "blue", "font-size": "16px"}`                      | 手動のQSS文字列、`widget.setStyleSheet(...)`、複雑なスタイルオブジェクト                    |
-| **状態管理**            | `state.bind(widget, "prop", "key")`                                            | 手動のコールバック関数、getter/setter、`StringVar()`, いたるところにボイラープレート        |
-| **双方向バインディング** | `state.bind_two_way(input_widget, "key")`                                      | なし。状態とUIの更新には手動の`on_change`ハンドラが必要                                   |
-| **開発者ツール**        | **組み込みのホットリロード**、コードプロファイラ、ウィンドウツールが標準装備    | なし。UI変更ごとにアプリ全体を再起動する必要がある                                         |
-| **コード構造**          | `@component`で再利用可能な自己完結型コンポーネント                              | 大きくモノリシックなクラスや手続き型スクリプトに陥りがち                                 |
+| 機能                    | WinUp流 ✨                                                                   | 生PySide6 / Tkinter流 😟                                                                |
+| ----------------------- | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| **レイアウト**          | `ui.Column(children=[...])`, `ui.Row(children=[...])`                      | `QVBoxLayout()`, `QHBoxLayout()`, `layout.addWidget()`, `pack()`, `grid()`              |
+| **スタイリング**        | `props={"background-color": "blue", "font-size": "16px"}`                 | 手動QSS文字列、`widget.setStyleSheet(...)`、複雑なスタイルオブジェクト                  |
+| **状態管理**            | `state.bind(widget, "prop", "key")`                                        | 手動コールバック関数、getter/setter、`StringVar()`、ボイラープレートだらけ             |
+| **双方向バインディング**| `state.bind_two_way(input_widget, "key")`                                  | 存在しない。状態とUIを更新するため手動で`on_change`ハンドラが必要                      |
+| **開発者ツール**        | **ビルトインホットリロード**、コードプロファイラ、ウィンドウツールを標準搭載 | 存在しない。UI変更ごとにアプリ全体を再起動する必要あり                                |
+| **コード構造**          | `@component`による再利用可能な自己完結型コンポーネント                     | 大規模なモノリシッククラスや手続き的スクリプトになりがち                              |
 
-**要するに、WinUpはデスクトップ向けにモダンWebフレームワーク（ReactやVueなど）の「キラーフィーチャー」を提供し、時間を節約し、アプリケーションのロジックに集中できるようにします。**
+**要するに、WinUpはモダンなWebフレームワーク（ReactやVueなど）の「キラーフィーチャー」をデスクトップにもたらし、時間を節約しアプリ本来のロジックに集中できます。**
 
-# 🧊 WinUp vs 🧱 PyEdifice（Redditユーザーのリクエスト）
+# 🧊 WinUp vs 🧱 PyEdifice（Redditユーザーリクエスト）
 
-| 機能                           | WinUp                                | PyEdifice                         |
-|-------------------------------|------------------------------------|----------------------------------|
-| 🧱 アーキテクチャ             | Reactスタイル + 状態                | Reactスタイル + 状態              |
-| 🌐 組み込みルーティング       | ✅ はい (`Router(routes={...})`)    | ❌ 組み込みルーティングなし        |
-| ♻️ ライフサイクルフック        | ✅ `on_mount`, `on_unmount` など     | ⚠️ 制限あり (`did_mount`など)      |
-| 🎨 テーマ / スタイリングシステム | ✅ グローバル＆スコープドテーマ       | ❌ 手動のCSS注入                  |
-| 🔲 レイアウトオプション         | ✅ Row, Column, Grid, Stack, Flexbox | ⚠️ 主にBox & HBox/VBox            |
-| 🎞️ アニメーション             | ✅ 組み込み（フェード、スケールなど） | ❌ 組み込みなし                    |
-| 🔁 ホットリロード (LHR)        | ✅ 安定かつ高速 (`loadup dev`)        | ⚠️ 実験的で限定的サポート          |
-| 📦 パッケージング             | ✅ LoadUp付き（PyInstallerベース）   | ❌ PyInstallerを手動で統合する必要あり |
-| 🧩 コンポーネントの再利用性    | ✅ 高い、宣言的                      | ✅ 高い                          |
-| 🛠 開発者向けツール           | ✅ DevTools計画中、Inspectorも近々   | ❌ まだなし                      |
-| 📱 モバイルサポート           | ❌ 未対応                          | ❌ 未対応                        |
-| 🧠 学習曲線                   | ✅ Python+Reactユーザーに易しい       | ✅ 易しいがツールは少なめ          |
+| 機能                              | WinUp      | PyEdifice                        |
+|----------------------------------|--------------------------------------|----------------------------------|
+| 🧱 アーキテクチャ                | Reactスタイル + 状態管理            | Reactスタイル + 状態管理          |
+| 🌐 ルーティング内蔵              | ✅ あり（`Router(routes={...})`）    | ❌ ルーティング内蔵なし            |
+| ♻️ ライフサイクルフック          | ✅ `on_mount`、`on_unmount`など      | ⚠️ 制限あり（`did_mount`など）     |
+| 🎨 テーマ/スタイリングシステム   | ✅ グローバル＆スコープテーマ        | ❌ 手動CSSインジェクション         |
+| 🔲 レイアウトオプション           | ✅ Row, Column, Grid, Stack, Flexbox | ⚠️ 主にBoxとHBox/VBox             |
+| 🎞️ アニメーション                | ✅ ビルトイン（フェード・スケール等）| ❌ ビルトインなし                  |
+| 🔁 ホットリロード（LHR）         | ✅ 安定＆高速（`loadup dev`）        | ⚠️ 実験的でサポート限定            |
+| 📦 パッケージング                | ✅ LoadUp（PyInstallerベース）で可能 | ❌ PyInstallerの手動統合が必要     |
+| 🧩 コンポーネント再利用性        | ✅ 高い、宣言的                      | ✅ 高い                            |
 
-> ✅ = 組み込みまたは堅牢  
+| 🛠 開発者ツール                | ✅ DevTools 計画中、Inspector 近日公開 | ❌ まだなし                        |
+| 📱 モバイル対応                | ❌ 未対応                             | ❌ 非対応                          |
+| 🧠 学習コスト                   | ✅ Python+React ユーザーに簡単         | ✅ 簡単だがツールが少ない           |
+
+> ✅ = 標準搭載または堅牢  
 > ⚠️ = 部分的または限定的  
-> ❌ = 完全に欠如
+> ❌ = 完全に未対応
 ---
 
 ## コア機能
 
-*   **宣言的でPython的なUI:** 複雑なレイアウトもシンプルな`Row`や`Column`オブジェクトで構築。面倒なボックスレイアウト不要。
-*   **コンポーネントベースのアーキテクチャ:** `@component`デコレータでモジュール化され再利用可能なUIウィジェットを簡単に作成。
-*   **強力なスタイリングシステム:** `props`を使ったシンプルなPython辞書でウィジェットをスタイリング。`style.add_style_dict`でグローバルな「CSS風」クラスも作成可能。
-*   **フルアプリケーションシェル:** `MenuBar`、`ToolBar`、`StatusBar`、`SystemTrayIcon`の宣言的APIでプロフェッショナルなアプリを構築。
-*   **非同期タスクランナー:** UIをフリーズさせずに長時間処理を実行できるシンプルな`@tasks.run`デコレータ。
-*   **デフォルトで高性能:** コンポーネントの再レンダリングをキャッシュし不要な再計算を防ぐオプトインの`@memo`デコレータを含む。
+*   **宣言的かつPythonicなUI:** 複雑なレイアウトも `Row` や `Column` オブジェクトで簡単に構築。煩雑なボックスレイアウトは不要です。
+*   **コンポーネントベース設計:** `@component` デコレーターで、シンプルな関数から再利用可能なUIウィジェットを作成できます。
+*   **強力なスタイリング:** `props` でPython辞書を使った簡単なウィジェット装飾。`style.add_style_dict` でグローバルな「CSS風」クラスも実現。
+*   **アプリケーションシェル:** `MenuBar`、`ToolBar`、`StatusBar`、`SystemTrayIcon` の宣言的APIで本格的なアプリケーションを構築。
+*   **非同期タスクランナー:** `@tasks.run` デコレーターでUIをフリーズさせずにバックグラウンドで長時間処理を実行。
+*   **標準で高パフォーマンス:** `@memo` デコレーターによる描画キャッシュで無駄な再計算を防止（任意）。
 *   **高度な拡張性:**
-    *   **ウィジェットファクトリ:** `ui.register_widget()`で任意のデフォルトウィジェットをC++ベースなどのカスタム実装に置き換え可能。
-    *   **複数ウィンドウ:** ツールパレットや音楽プレーヤーのような複雑なアプリのために複数の独立したウィンドウを作成・管理。
+    *   **ウィジェットファクトリー:** `ui.register_widget()` で任意のウィジェットを自作実装（例：C++ベース）に置き換え可能。
+    *   **複数ウィンドウ:** ツールパレットや音楽プレーヤーのような複雑アプリ向けに独立した複数ウィンドウを作成・管理。
 *   **リアクティブな状態管理:**
-    *   **一方向バインディング:** データ変更時に`state.bind()`でUIを自動更新。
-    *   **双方向バインディング:** `state.bind_two_way()`で入力ウィジェットと状態を簡単に同期。
-    *   **サブスクリプション:** 状態変化に応じて任意の関数を`state.subscribe()`でトリガー。
-*   **開発者に優しいツール:**
-    *   **ホットリロード:** アプリを再起動せずにUI変更を即座に反映。
-    *   **プロファイラ:** `@profiler.measure()`デコレータで関数のパフォーマンスを簡単に測定。
-    *   **ウィンドウツール:** アプリのウィンドウを中央に配置、点滅、管理など簡単操作。
-*   **組み込みルーティング:** 直感的で状態駆動のルーターでマルチページアプリを簡単作成。
-*   **柔軟なデータレイヤー:** SQLite、PostgreSQL、MySQL、MongoDB、Firebase向けのシンプルで一貫したコネクタを含む。
+    *   **片方向バインディング:** `state.bind()` でデータ変更に自動追従してUIを更新。
+    *   **双方向バインディング:** `state.bind_two_way()` で入力ウィジェットと状態を簡単同期。
+    *   **サブスクリプション:** `state.subscribe()` で状態変化時に任意の関数を実行。
+*   **開発者フレンドリーなツール:**
+    *   **ホットリロード:** アプリ再起動なしでUI変更を即時反映。
+    *   **プロファイラ:** `@profiler.measure()` デコレーターで任意関数のパフォーマンス計測が簡単。
+    *   **ウィンドウツール:** アプリウィンドウの中央寄せ・点滅・各種管理が簡単。
+*   **ルーティング内蔵:** 直感的で状態駆動なルーターによりマルチページアプリも簡単構築。
+*   **柔軟なデータレイヤー:** SQLite、PostgreSQL、MySQL、MongoDB、Firebase 用のシンプルで一貫したコネクタを内蔵。
 
 ---
 
 # ドキュメント
 
-WinUpの機能をさらに深く掘り下げましょう：
+WinUp の機能をさらに詳しく知る：
 
 ## コアコンセプト
 - [**コンポーネントモデルとスタイリング**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/concepts.md)
-- [**ステート管理**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/state.md)
+- [**状態管理**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/state.md)
 - [**ライフサイクルフック**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/concepts.md#component-lifecycle-hooks-on_mount-and-on_unmount)
 - [**ルーティング**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/concepts.md#routing)
-- [**絶対配置（高度）**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/absolute-layout.md)
+- [**絶対位置指定（上級）**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/absolute-layout.md)
 
 ## 開発者ツール
 - [**ライブホットリロード（LHR）**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/live-hot-reload.md)
@@ -118,20 +149,20 @@ WinUpの機能をさらに深く掘り下げましょう：
 - [**非同期タスクランナー**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/tasks.md)
 
 ## UIコンポーネント
-- [**フルコンポーネントライブラリ**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/components/README.md)
+- [**コンポーネントライブラリ全体**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/components/README.md)
 
 ---
 
 ## コントリビュート
 
-WinUpはオープンソースプロジェクトです。貢献を歓迎します！
+WinUp はオープンソースプロジェクトです。貢献は大歓迎です！
 
 ## ライセンス
 
-本プロジェクトはMITライセンスの下でライセンスされています。詳細は**LICENSE**をご覧ください。
+本プロジェクトはMITライセンスです。詳細は **LICENSE** をご覧ください。
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
 
 ---

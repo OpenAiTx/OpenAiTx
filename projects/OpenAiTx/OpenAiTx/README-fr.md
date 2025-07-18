@@ -13,7 +13,7 @@
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a>
@@ -33,34 +33,34 @@
 
 
 <div align="center">
- Votre <a href="https://github.com/OpenAiTx/OpenAiTx">Étoile</a>  peut rendre Open Ai Tx meilleur
+ Votre <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a>  peut rendre Open Ai Tx meilleur
 </div>
 
 
 ## Introduction
 
-**OpenAiTx** est un outil de traduction automatique en 20 langues pour le readme et le wiki de votre projet GitHub.
+**OpenAiTx** est un outil de traduction automatique en 20 langues pour le readme & wiki de votre projet GitHub.
 
 ## Pourquoi ?
 
-1. Traduction unique utilisant un LLM de qualité premium et rendre le résultat librement accessible à la communauté open-source.
-2. Prend en charge la recherche SEO multilingue Google/Bing, ce qu'un outil de traduction côté client ne peut pas faire.
+1. Traduction unique utilisant un LLM de qualité premium et mettez le résultat à disposition de la communauté open source.
+2. Prise en charge du référencement SEO multilingue Google/Bing, ce que les outils de traduction côté client ne peuvent pas faire.
 3. Gratuit et Open Source pour toujours.
-4. Soumettez une fois et mettez à jour automatiquement à l'avenir, cela vous fera gagner du temps si vous êtes mainteneur de projet.
+4. Soumettez une fois et mise à jour automatique à l'avenir, cela vous fait gagner du temps si vous êtes mainteneur du projet.
 
 
 ## Pour commencer
 
-1. Remplacez l'URL `GitHub` par `OpenAiTx`, par ex. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+1. Remplacez l’URL `GitHub` par `OpenAiTx`, ex. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
 2. Soumettez votre projet.
-3. Cliquez et copiez le badge de style ou le texte que vous aimez.
+3. Cliquez et copiez les badges de style ou le texte que vous préférez.
 4. Mettez à jour votre fichier readme.
 
 ou
 
 1. Accédez à https://openaitx.com
 2. Soumettez le lien de votre projet.
-3. Cliquez et copiez le badge de style ou le texte que vous aimez.
+3. Cliquez et copiez les badges de style ou le texte que vous préférez.
 4. Mettez à jour votre fichier readme.
 
 ## Exemple
@@ -82,7 +82,7 @@ ou
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a>
@@ -164,6 +164,6 @@ Forker le projet → Cloner le projet → Choisir un script dans votre langue �
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
 
 ---

@@ -14,7 +14,7 @@
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Spanisch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italienisch</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Russisch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Portugiesisch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Niederländisch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl">Polnisch</a>
@@ -22,7 +22,7 @@
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa">فارسی</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">Türkisch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">Vietnamesisch</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Indonesisch</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Bahasa Indonesia</a>
       </div>
     </div>
   </details>
@@ -33,7 +33,7 @@
 
 
 <div align="center">
- Dein <a href="https://github.com/OpenAiTx/OpenAiTx">Stern</a> kann Open Ai Tx verbessern
+ Dein <a href="https://github.com/OpenAiTx/OpenAiTx">Stern</a>  kann Open Ai Tx besser machen
 </div>
 
 
@@ -43,10 +43,10 @@
 
 ## Warum?
 
-1. Einmalige Übersetzung mit Premium-LLM und das Ergebnis frei zugänglich für die Open-Source-Community machen.
-2. Unterstützt Google/Bing Mehrsprachen-SEO-Suche, was Client-Übersetzungstools nicht können.
+1. Einmalige Übersetzung mit einem Premium-LLM und das Ergebnis der Open-Source-Community frei zugänglich machen.
+2. Unterstützt Google/Bing SEO-Suche in mehreren Sprachen, was ein Client-Übersetzungstool nicht leisten kann.
 3. Für immer kostenlos & Open Source.
-4. Einmal einreichen und automatische Aktualisierung in der Zukunft, spart Zeit für Projektbetreuer.
+4. Einmal einreichen und automatische zukünftige Updates, spart Zeit für Projektverwalter.
 
 
 ## Erste Schritte
@@ -58,8 +58,8 @@
 
 oder
 
-1. Besuche https://openaitx.com
-2. Reiche deinen Projektlink ein.
+1. Gehe zu https://openaitx.com
+2. Reiche den Link zu deinem Projekt ein.
 3. Klicke und kopiere die gewünschten Stil-Badges oder den Text.
 4. Füge es in deine Readme-Datei ein.
 
@@ -83,7 +83,7 @@ oder
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Spanisch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italienisch</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Russisch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Portugiesisch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Niederländisch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pl">Polnisch</a>
@@ -91,7 +91,7 @@ oder
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fa">فارسی</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=tr">Türkisch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=vi">Vietnamesisch</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Indonesisch</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=id">Bahasa Indonesia</a>
       </div>
     </div>
   </details>
@@ -164,6 +164,6 @@ Projekt forken → Projekt klonen → Ein Skript in Ihrer Sprache auswählen →
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
 
 ---

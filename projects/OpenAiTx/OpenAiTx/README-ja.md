@@ -13,7 +13,7 @@
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a>
@@ -33,39 +33,39 @@
 
 
 <div align="center">
- あなたの <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a> がOpen Ai Txをより良くします
+ あなたの <a href="https://github.com/OpenAiTx/OpenAiTx">スター</a> が Open Ai Tx をより良くします
 </div>
 
 
 ## はじめに
 
-**OpenAiTx** は、あなたのGitHubプロジェクトのreadmeやwikiを20言語に自動翻訳するツールです。
+**OpenAiTx** は、GitHub プロジェクトの readme や wiki 用の20言語自動翻訳ツールです。
 
 ## なぜ？
 
-1. 一度の翻訳で高品質なLLMを使用し、結果をオープンソースコミュニティに自由に提供します。
-2. Google/Bingなど複数言語のSEO検索に対応、クライアント側の翻訳ツールでは実現できません。
-3. 永久無料＆オープンソース。
-4. 一度提出すれば今後は自動で更新されるため、プロジェクト管理者の時間を大幅に節約できます。
+1. 高品質LLMを用いた一度きりの翻訳を行い、その結果をオープンソースコミュニティに無料で公開します。
+2. Google/Bingの多言語SEO検索に対応し、クライアント側の翻訳ツールでは実現できません。
+3. 永久に無料＆オープンソースです。
+4. 一度提出すれば今後は自動更新されるため、プロジェクト管理者の方の時間を節約できます。
 
 
 ## はじめ方
 
-1. URLの `GitHub` を `OpenAiTx` に置き換えます。例：https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+1. URLの `GitHub` を `OpenAiTx` に置き換えます。例: https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
 2. プロジェクトを提出します。
 3. 好きなスタイルのバッジやテキストをクリックしてコピーします。
-4. readmeファイルを更新します。
+4. readmeファイルに追加します。
 
 または
 
 1. https://openaitx.com にアクセスします
-2. プロジェクトリンクを提出します。
+2. プロジェクトのリンクを提出します。
 3. 好きなスタイルのバッジやテキストをクリックしてコピーします。
-4. readmeファイルを更新します。
+4. readmeファイルに追加します。
 
 ## 例
 
-### スタイル オプション1:
+### スタイルオプション1:
 
 <div align="right" >
   <details>
@@ -82,7 +82,7 @@
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a>
@@ -164,6 +164,6 @@
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
 
 ---

@@ -13,7 +13,7 @@
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a>
@@ -33,35 +33,35 @@
 
 
 <div align="center">
- आपका <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a>  Open Ai Tx को और बेहतर बना सकता है
+ आपका <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a>  Open Ai Tx को बेहतर बना सकता है
 </div>
 
 
 ## परिचय
 
-**OpenAiTx** आपके GitHub प्रोजेक्ट के readme और wiki के लिए 20 भाषाओं में स्वतः अनुवाद करने वाला टूल है।
+**OpenAiTx**  आपके GitHub प्रोजेक्ट की readme और wiki के लिए 20 भाषाओं में स्वतः अनुवाद उपकरण है।
 
 ## क्यों?
 
-1. एक बार प्रीमियम-ग्रेड LLM से अनुवाद करें और परिणाम को ओपन-सोर्स समुदाय के लिए निःशुल्क उपलब्ध कराएँ।
-2. Google/Bing की बहुभाषी SEO खोज का समर्थन करता है, क्लाइंट अनुवाद टूल ऐसा नहीं कर सकते।
-3. हमेशा के लिए फ्री एवं ओपन सोर्स।
-4. एक बार सबमिट करें और भविष्य में स्वतः अपडेट पाएं, यदि आप प्रोजेक्ट मेंटेनर हैं तो यह आपका समय बचा सकता है।
+1. एक बार प्रीमियम-ग्रेड LLM का उपयोग करके अनुवाद करें और परिणाम को ओपन-सोर्स समुदाय के लिए निःशुल्क उपलब्ध कराएं।
+2. Google/Bing की कई भाषाओं की SEO खोज को सपोर्ट करता है, क्लाइंट ट्रांसलेट टूल यह नहीं कर सकते।
+3. हमेशा के लिए निःशुल्क और ओपन सोर्स।
+4. एक बार सबमिट करें और भविष्य में स्वतः अपडेट हो, यदि आप प्रोजेक्ट मेंटेनर हैं तो यह आपका समय बचा सकता है।
 
 
-## शुरुआत कैसे करें
+## आरंभ करें
 
-1. URL में `GitHub` को `OpenAiTx` से बदलें, जैसे https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+1. URL में `GitHub` की जगह `OpenAiTx` लगाएँ, जैसे https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
 2. अपना प्रोजेक्ट सबमिट करें।
-3. अपनी पसंद के स्टाइल बैज या टेक्स्ट पर क्लिक करें और कॉपी करें।
-4. अपने readme फाइल में अपडेट करें।
+3. पसंद की स्टाइल बैज या टेक्स्ट पर क्लिक करें और कॉपी करें।
+4. अपनी readme फ़ाइल में अपडेट करें।
 
 या
 
-1. https://openaitx.com पर जाएं
+1. https://openaitx.com पर जाएँ
 2. अपने प्रोजेक्ट लिंक को सबमिट करें।
-3. अपनी पसंद के स्टाइल बैज या टेक्स्ट पर क्लिक करें और कॉपी करें।
-4. अपने readme फाइल में अपडेट करें।
+3. पसंद की स्टाइल बैज या टेक्स्ट पर क्लिक करें और कॉपी करें।
+4. अपनी readme फ़ाइल में अपडेट करें।
 
 ## उदाहरण
 
@@ -82,7 +82,7 @@
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a>
@@ -164,6 +164,6 @@
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
 
 ---

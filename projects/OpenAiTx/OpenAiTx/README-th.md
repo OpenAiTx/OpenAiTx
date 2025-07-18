@@ -13,7 +13,7 @@
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a>
@@ -33,39 +33,39 @@
 
 
 <div align="center">
- การ <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a> ของคุณสามารถทำให้ Open Ai Tx ดียิ่งขึ้น
+ การ <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a> ของคุณ จะช่วยให้ Open Ai Tx ดีขึ้น
 </div>
 
 
 ## บทนำ
 
-**OpenAiTx** เครื่องมือแปลอัตโนมัติ 20 ภาษา สำหรับไฟล์ readme และ wiki ของโปรเจกต์ GitHub ของคุณ
+**OpenAiTx** เครื่องมือแปลอัตโนมัติ 20 ภาษา สำหรับ README และ Wiki โครงการ GitHub ของคุณ
 
 ## ทำไม?
 
-1. แปลเพียงครั้งเดียวด้วย LLM คุณภาพสูงและเผยแพร่ผลลัพธ์ให้เข้าถึงได้ฟรีสำหรับชุมชนโอเพ่นซอร์ส
-2. รองรับ SEO ค้นหาหลายภาษาผ่าน Google/Bing ซึ่งเครื่องมือแปลฝั่งลูกค้าไม่สามารถทำได้
-3. ฟรีและโอเพ่นซอร์สตลอดไป
-4. ส่งข้อมูลเพียงครั้งเดียวและอัปเดตอัตโนมัติในอนาคต ช่วยประหยัดเวลาสำหรับผู้ดูแลโปรเจกต์
+1. แปลครั้งเดียวด้วย LLM คุณภาพพรีเมียม และให้ผลลัพธ์เข้าถึงได้ฟรีสำหรับชุมชนโอเพ่นซอร์ส
+2. รองรับการค้นหา SEO หลายภาษา Google/Bing ซึ่งเครื่องมือแปลฝั่งลูกค้าไม่สามารถทำได้
+3. ฟรี & โอเพ่นซอร์สตลอดไป
+4. ส่งครั้งเดียวและอัปเดตอัตโนมัติในอนาคต ประหยัดเวลาหากคุณเป็นผู้ดูแลโครงการ
 
 
 ## เริ่มต้นใช้งาน
 
 1. เปลี่ยน URL `GitHub` เป็น `OpenAiTx` เช่น https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
-2. ส่งโปรเจกต์ของคุณ
-3. คลิกและคัดลอกสไตล์ badge หรือข้อความที่คุณต้องการ
+2. ส่งโครงการของคุณ
+3. คลิกและคัดลอก badge หรือข้อความสไตล์ที่คุณชอบ
 4. อัปเดตลงในไฟล์ readme ของคุณ
 
 หรือ
 
 1. เข้าถึง https://openaitx.com
-2. ส่งลิงก์โปรเจกต์ของคุณ
-3. คลิกและคัดลอกสไตล์ badge หรือข้อความที่คุณต้องการ
+2. ส่งลิงก์โครงการของคุณ
+3. คลิกและคัดลอก badge หรือข้อความสไตล์ที่คุณชอบ
 4. อัปเดตลงในไฟล์ readme ของคุณ
 
 ## ตัวอย่าง
 
-### ตัวเลือกสไตล์ที่ 1:
+### ตัวเลือกสไตล์ 1:
 
 <div align="right" >
   <details>
@@ -82,7 +82,7 @@
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a>
@@ -164,6 +164,6 @@ Fork โปรเจกต์ → Clone โปรเจกต์ → เลื�
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
 
 ---

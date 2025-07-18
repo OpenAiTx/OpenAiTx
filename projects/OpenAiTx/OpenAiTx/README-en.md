@@ -46,7 +46,7 @@
 1. One-time translation using premium-grade LLM and make the result freely accessible to the open-source community.
 2. Supports Google/Bing multi-language SEO search, which client-side translation tools cannot do.
 3. Free & Open Source forever.
-4. Submit once and auto-update in the future, saving you time as a project maintainer.
+4. Submit once and future updates are automatic, saving time for project maintainers.
 
 
 ## Get Started
@@ -164,6 +164,6 @@ Fork project → Clone project → Choose a script in your language → Fill in 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
 
 ---

@@ -13,7 +13,7 @@
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a>
@@ -39,28 +39,28 @@
 
 ## Wprowadzenie
 
-**OpenAiTx** Narzędzie do automatycznego tłumaczenia na 20 języków dla plików readme i wiki w Twoim projekcie GitHub.
+**OpenAiTx** narzędzie do automatycznego tłumaczenia na 20 języków dla plików readme i wiki Twojego projektu GitHub.
 
 ## Dlaczego?
 
-1. Jednorazowe tłumaczenie przy użyciu najwyższej klasy LLM i udostępnienie wyniku społeczności open source za darmo.
-2. Obsługa wielojęzycznego SEO Google/Bing, czego nie oferuje klientskie narzędzie tłumaczeniowe.
+1. Jednorazowe tłumaczenie przy użyciu wysokiej jakości LLM i udostępnienie efektu społeczności open-source za darmo.
+2. Wsparcie dla SEO Google/Bing w wielu językach – narzędzia tłumaczące po stronie klienta tego nie potrafią.
 3. Zawsze darmowe i otwartoźródłowe.
-4. Jednorazowe zgłoszenie i automatyczna aktualizacja w przyszłości — oszczędza Twój czas, jeśli jesteś opiekunem projektu.
+4. Jednorazowe zgłoszenie i automatyczne aktualizacje w przyszłości – oszczędzasz czas, jeśli jesteś opiekunem projektu.
 
 
-## Pierwsze kroki
+## Jak zacząć
 
 1. Zamień URL `GitHub` na `OpenAiTx`, np. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
 2. Zgłoś swój projekt.
-3. Kliknij i skopiuj wybrane odznaki lub tekst.
+3. Kliknij i skopiuj wybrany styl odznaki lub tekstu.
 4. Zaktualizuj swój plik readme.
 
 lub
 
 1. Wejdź na https://openaitx.com
-2. Podaj link do swojego projektu.
-3. Kliknij i skopiuj wybrane odznaki lub tekst.
+2. Wklej link do swojego projektu.
+3. Kliknij i skopiuj wybrany styl odznaki lub tekstu.
 4. Zaktualizuj swój plik readme.
 
 ## Przykład
@@ -82,7 +82,7 @@ lub
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a>
@@ -164,6 +164,6 @@ Fork projektu → Sklonuj projekt → Wybierz skrypt w swoim języku → Wstaw s
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
 
 ---

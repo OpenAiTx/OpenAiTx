@@ -13,7 +13,7 @@
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a>
@@ -41,27 +41,27 @@
 
 **OpenAiTx** adalah alat terjemahan otomatis 20 bahasa untuk readme & wiki proyek GitHub Anda.
 
-## Mengapa?
+## Kenapa?
 
-1. Terjemahan satu kali menggunakan LLM kelas premium dan hasilnya dapat diakses secara gratis untuk komunitas open-source.
-2. Mendukung pencarian SEO multibahasa Google/Bing, alat terjemahan klien tidak dapat melakukannya.
+1. Sekali terjemah menggunakan LLM kualitas premium dan hasilnya dapat diakses bebas oleh komunitas open-source.
+2. Mendukung pencarian SEO multibahasa Google/Bing, alat terjemah klien tidak bisa melakukannya.
 3. Gratis & Sumber Terbuka selamanya.
-4. Cukup kirim satu kali dan pembaruan otomatis di masa depan, sangat menghemat waktu Anda jika Anda adalah maintainer proyek.
+4. Submit sekali dan auto-update ke depannya, sangat menghemat waktu jika Anda maintainer proyek.
 
 
-## Mulai
+## Cara Mulai
 
-1. Ganti URL `GitHub` menjadi `OpenAiTx`, misal https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
-2. Kirimkan proyek Anda.
+1. Ganti URL `GitHub` dengan `OpenAiTx`, misal https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+2. Submit proyek Anda.
 3. Klik dan salin badge atau teks gaya yang Anda suka.
-4. Perbarui ke file readme Anda.
+4. Update ke file readme Anda.
 
 atau
 
-1. Kunjungi https://openaitx.com
-2. Kirimkan tautan proyek Anda.
+1. Akses https://openaitx.com
+2. Submit tautan proyek Anda.
 3. Klik dan salin badge atau teks gaya yang Anda suka.
-4. Perbarui ke file readme Anda.
+4. Update ke file readme Anda.
 
 ## Contoh
 
@@ -82,7 +82,7 @@ atau
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a>
@@ -164,6 +164,6 @@ Fork project → Clone project → Pilih skrip dalam bahasa Anda → Isi token A
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
 
 ---

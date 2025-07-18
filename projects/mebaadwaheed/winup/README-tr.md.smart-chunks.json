@@ -1,0 +1,1000 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=it\">Itapano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)\n![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue)\n![Component Driven](https://img.shields.io/badge/architecture-component--driven-orange)\n![Desktop App](https://img.shields.io/badge/platform-desktop-lightgrey)\n![CLI Support](https://img.shields.io/badge/CLI-supported-critical)\n![Live Reload](https://img.shields.io/badge/live--reload-enabled-blue)\n\n## Image Examples\n\n![image](https://github.com/user-attachments/assets/81d016e9-e10a-4438-ab94-99b6d76b8efe)\n\n![image](https://github.com/user-attachments/assets/154dc3f4-ea8c-4f6f-84d3-88c7ab74a46f)\n\n![image](https://github.com/user-attachments/assets/2318f701-6ec8-4402-abcc-40c879bf1a10)\n\n# WinUp 🚀\n\n## Make sure to download the Latest Stable Release (LSR) and not the latest/LFR! Current LSR: 2.4.9\n\n`pip install winup==2.4.9`\n\n**A ridiculously Pythonic and powerful framework for building beautiful desktop applications.**\n\nWinUp is a modern UI framework for Python that wraps the power of PySide6 (Qt) in a simple, declarative, and developer-friendly API. It's designed to let you build applications faster, write cleaner code, and enjoy the development process.\n\n### ✨ Now with Web Support!\nWinUp now also supports building fully interactive, stateful web applications using the same Python-centric, component-based approach. The web module uses FastAPI and WebSockets under the hood to bring the simplicity of WinUp to the browser.\n\n[Web Documentation](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/web/README.md)\n\n> **Disclaimer:** Web support is an optional feature. To use it, you must install the web dependencies:\n> ```bash\n> pip install \"winup[web]\"\n> ```\n\n[Contributing](https://raw.githubusercontent.com/mebaadwaheed/winup/main/CONTRIBUTING.md)\n[Changelog](https://raw.githubusercontent.com/mebaadwaheed/winup/main/CHANGELOG.md)\n[License](LICENSE)\n\n---\n\n## Why WinUp? (Instead of raw PySide6 or Tkinter)\n\nDesktop development in Python can feel clunky. WinUp was built to fix that.\n\n| Feature                 | WinUp Way ✨                                                                   | Raw PySide6 / Tkinter Way 😟                                                                |\n| ----------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- |\n| **Layouts**             | `ui.Column(children=[...])`, `ui.Row(children=[...])`                          | `QVBoxLayout()`, `QHBoxLayout()`, `layout.addWidget()`, `pack()`, `grid()`                  |\n| **Styling**             | `props={\"background-color\": \"blue\", \"font-size\": \"16px\"}`                      | Manual QSS strings, `widget.setStyleSheet(...)`, complex style objects.                     |\n| **State Management**    | `state.bind(widget, \"prop\", \"key\")`                                            | Manual callback functions, getters/setters, `StringVar()`, boilerplate everywhere.          |\n| **Two-Way Binding**     | `state.bind_two_way(input_widget, \"key\")`                                      | Non-existent. Requires manual `on_change` handlers to update state and UI.                  |\n| **Developer Tools**     | **Built-in Hot Reloading**, code profiler, and window tools out of the box.    | Non-existent. Restart the entire app for every single UI change.                            |\n| **Code Structure**      | Reusable, self-contained components with `@component`.                         | Often leads to large, monolithic classes or procedural scripts.                             |\n\n**In short, WinUp provides the \"killer features\" of modern web frameworks (like React or Vue) for the desktop, saving you time and letting you focus on what matters: your application's logic.**\n\n# 🧊 WinUp vs 🧱 PyEdifice (Reddit User Request)\n\n| Feature                          | WinUp      | PyEdifice                        |\n|----------------------------------|--------------------------------------|----------------------------------|\n| 🧱 Architecture                  | React-style + state       | React-style + state              |\n| 🌐 Built-in Routing              | ✅ Yes (`Router(routes={...})`)      | ❌ No built-in routing            |\n| ♻️ Lifecycle Hooks               | ✅ `on_mount`, `on_unmount`, etc.    | ⚠️ Limited (`did_mount`, etc.)   |\n| 🎨 Theming / Styling System     | ✅ Global & Scoped themes             | ❌ Manual CSS injection           |\n| 🔲 Layout Options                | ✅ Row, Column, Grid, Stack, Flexbox | ⚠️ Mostly Box & HBox/VBox         |\n| 🎞️ Animations                   | ✅ Built-in (fade, scale, etc.)      | ❌ None built-in                  |\n| 🔁 Hot Reloading (LHR)          | ✅ Stable + fast (`loadup dev`)      | ⚠️ Experimental, limited support  |\n| 📦 Packaging                    | ✅ With LoadUp (PyInstaller-based)   | ❌ Must integrate PyInstaller manually |\n| 🧩 Component Reusability        | ✅ High, declarative                 | ✅ High                           |",
+    "ContentSha": "PiE9CwVD0f7OGs3s7Z5BpE/rRJzsqsT6GVSq4SiQvYk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 Dil</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=en\">İngilizce</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=ja\">Japonca</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=ko\">Korece</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=hi\">Hintçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=th\">Tayca</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=fr\">Fransızca</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=de\">Almanca</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=es\">İspanyolca</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=it\">İtalyanca</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=ru\">Rusça</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=pt\">Portekizce</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=nl\">Felemenkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=pl\">Lehçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=ar\">Arapça</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=fa\">Farsça</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=vi\">Vietnamca</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=id\">Endonezce</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n![PR'ler Hoş Geldiniz](https://img.shields.io/badge/PRs-welcome-brightgreen)\n![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue)\n![Bileşen Odaklı](https://img.shields.io/badge/architecture-component--driven-orange)\n![Masaüstü Uygulaması](https://img.shields.io/badge/platform-desktop-lightgrey)\n![CLI Desteği](https://img.shields.io/badge/CLI-supported-critical)\n![Canlı Yenileme](https://img.shields.io/badge/live--reload-enabled-blue)\n\n## Görsel Örnekler\n\n![image](https://github.com/user-attachments/assets/81d016e9-e10a-4438-ab94-99b6d76b8efe)\n\n![image](https://github.com/user-attachments/assets/154dc3f4-ea8c-4f6f-84d3-88c7ab74a46f)\n\n![image](https://github.com/user-attachments/assets/2318f701-6ec8-4402-abcc-40c879bf1a10)\n\n# WinUp 🚀\n\n## En Son Kararlı Sürüm'ü (LSR) indirdiğinizden emin olun, en son/LFR'yi değil! Mevcut LSR: 2.4.9\n\n`pip install winup==2.4.9`\n\n**Gülünç derecede Pythonik ve güçlü, güzel masaüstü uygulamaları geliştirmek için bir çerçeve.**\n\nWinUp, PySide6 (Qt) gücünü basit, deklaratif ve geliştirici dostu bir API ile saran modern bir Python UI çerçevesidir. Uygulamaları daha hızlı geliştirmeniz, daha temiz kod yazmanız ve geliştirme sürecinden keyif almanız için tasarlanmıştır.\n\n### ✨ Artık Web Desteği ile!\nWinUp artık aynı Python merkezli, bileşen tabanlı yaklaşımı kullanarak tamamen etkileşimli, durumlu web uygulamaları oluşturmayı da destekliyor. Web modülü, WinUp'ın sadeliğini tarayıcıya taşımak için arka planda FastAPI ve WebSockets kullanır.\n\n[Web Dokümantasyonu](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/web/README.md)\n\n> **Feragatname:** Web desteği isteğe bağlı bir özelliktir. Kullanmak için web bağımlılıklarını yüklemelisiniz:\n> ```bash\n> pip install \"winup[web]\"\n> ```\n\n[Katkıda Bulunma](https://raw.githubusercontent.com/mebaadwaheed/winup/main/CONTRIBUTING.md)\n[Günlükler](https://raw.githubusercontent.com/mebaadwaheed/winup/main/CHANGELOG.md)\n[Lisans](LICENSE)\n\n---\n\n## Neden WinUp? (Doğrudan PySide6 veya Tkinter yerine)\n\nPython ile masaüstü geliştirme hantal hissettirebilir. WinUp bunu düzeltmek için geliştirildi.\n\n| Özellik                  | WinUp Yolu ✨                                                                   | Ham PySide6 / Tkinter Yolu 😟                                                                 |\n| ----------------------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- |\n| **Yerleşimler**          | `ui.Column(children=[...])`, `ui.Row(children=[...])`                          | `QVBoxLayout()`, `QHBoxLayout()`, `layout.addWidget()`, `pack()`, `grid()`                    |\n| **Stil Verme**           | `props={\"background-color\": \"blue\", \"font-size\": \"16px\"}`                      | Elle QSS dizeleri, `widget.setStyleSheet(...)`, karmaşık stil nesneleri.                      |\n| **Durum Yönetimi**       | `state.bind(widget, \"prop\", \"key\")`                                            | Elle geri çağırma fonksiyonları, getter/setter, `StringVar()`, her yerde boilerplate kod.      |\n| **Çift Yönlü Bağlama**   | `state.bind_two_way(input_widget, \"key\")`                                      | Yok. Durumu ve UI'yı güncellemek için manuel `on_change` işleyicileri gerekir.                |\n| **Geliştirici Araçları** | **Dahili Canlı Yenileme**, kod profil aracı ve pencere araçları kutudan çıkar. | Yok. Her UI değişikliği için tüm uygulamayı yeniden başlatın.                                 |\n| **Kod Yapısı**           | `@component` ile tekrar kullanılabilir, kendine yeten bileşenler.              | Genellikle büyük, tek parça sınıflar veya prosedürel betiklere yol açar.                      |\n\n**Kısacası, WinUp masaüstü için modern web çerçevelerinin (React veya Vue gibi) \"öldürücü özelliklerini\" sağlar, size zaman kazandırır ve uygulamanızın mantığına odaklanmanıza olanak tanır.**\n\n# 🧊 WinUp vs 🧱 PyEdifice (Reddit Kullanıcı İsteği)\n\n| Özellik                          | WinUp      | PyEdifice                        |\n|----------------------------------|--------------------------------------|----------------------------------|\n| 🧱 Mimari                        | React tarzı + durum       | React tarzı + durum              |\n| 🌐 Dahili Yönlendirme            | ✅ Evet (`Router(routes={...})`)      | ❌ Dahili yönlendirme yok         |\n| ♻️ Yaşam Döngüsü Kancaları      | ✅ `on_mount`, `on_unmount`, vb.      | ⚠️ Sınırlı (`did_mount`, vb.)     |\n| 🎨 Tema / Stil Sistemi          | ✅ Global & Kapsamlı temalar           | ❌ Elle CSS ekleme                |\n| 🔲 Yerleşim Seçenekleri          | ✅ Satır, Sütun, Izgara, Yığın, Flexbox| ⚠️ Çoğunlukla Box & HBox/VBox     |\n| 🎞️ Animasyonlar                 | ✅ Dahili (fade, scale, vb.)           | ❌ Dahili yok                     |\n| 🔁 Canlı Yenileme (LHR)          | ✅ Kararlı + hızlı (`loadup dev`)      | ⚠️ Deneysel, sınırlı destek       |\n| 📦 Paketleme                     | ✅ LoadUp ile (PyInstaller tabanlı)    | ❌ PyInstaller'ı manuel entegre etmelisiniz |\n| 🧩 Bileşen Tekrar Kullanımı      | ✅ Yüksek, deklaratif                  | ✅ Yüksek                         |\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "    <summary >🌐 Dil</summary>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=en\">İngilizce</a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "M/QyiP2+7TKh1aoxVXiFeJYJmJB9mC45kAfAcwOQMqg=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=en\">English</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "qK6QSkMdSy4wlYLWudR+P8/ECfHGhCatNt7I1kfIJ6E=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "xW8GevMH6smgBizDM+D5AUZLyTsDYYuuF6Ddi0iEHzg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=ja\">Japonca</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "5qdHz+CONYhCyYlPx7x5he/b11D66I7WHpRjEMqJxV0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=ko\">Korece</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "a/pioxVh0nfPdR6rFVbzRL7Esqb6J7rZbSMHoUxkHik=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=hi\">Hintçe</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "4xJlOPooAf/u9bW/0suLtg7qqBS4n6hq6IsRFO8pxt4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=th\">Tayca</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "lFinyLT3pw4aZu4zylka2K3rE30KhqVUfq6ds8PvPtU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=fr\">Fransızca</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "HLJiICI8eUdanXOB0fJbY1QvI9WobBPixvtQKJfwT88=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=de\">Almanca</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "9EPgLIUX3Y+DaaMQrCevsPfeCsBfqv0DZVmgcAsErSw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=es\">İspanyolca</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "0tNr9Ks+yk9yJ6q3ybQmDIUmoLEQtdx4pgY44Dux0JY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=it\">İtalyanca</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "o2vONxN6S1+OLEXE81uemUUmazYJq9AhmuzLrW79YE8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=it\">Itapano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=ru\">Rusça</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "+66fPiUkgvN+rEAyFIG+LCuaIB3r9VXeHf1qdmY2Bog=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=pt\">Portekizce</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "GORzz7kankc9YCMb3cjgcKJE8k56plWWJKnw898d+9U=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=nl\">Felemenkçe</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "1o4XyVK3fO7YlE5pxhXZ4rsiPvsPVv2Rlqr6XCznAlo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=pl\">Lehçe</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "y2UIKS/8MZmmApl4bD1joRilIbPazxcRJHm4oUP1uCQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=ar\">Arapça</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "eqyzam6B/XiVgOPGkNgK4ly5/Yddgz676Rgwbcmy/xA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=fa\">Farsça</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "C5nTQ3JPpiLqHQ6f7PZ/zi2uYotns7Au7oXmK0zYoz4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "UzrAaqSpA48Yv+PW5sloBu6LLfGMF8i9xPK2XR9G90g=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=vi\">Vietnamca</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "EEsCRZc8YUlygbR/X5duscTDjbnXhI2izBxuY+2OStk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=id\">Endonezce</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "3TvwV0uG12ApYqXDuqcWm8I1kxyQ7gJ5VAo2gEnqmRM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mebaadwaheed&project=winup&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 27,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 28,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 29,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![PR'ler Hoş Geldiniz](https://img.shields.io/badge/PRs-welcome-brightgreen)"
+      },
+      {
+        "row": 32,
+        "rowsha": "jnst6EbmeevWWhDEkbfOMSx8W15njwEy7umodMJdfNc=",
+        "originContent": "![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)",
+        "translatedContent": "![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue)"
+      },
+      {
+        "row": 33,
+        "rowsha": "FrAqwJg+kwZcbplQpecPRXAuPaa8CfxeFQy3bb1T/bQ=",
+        "originContent": "![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue)",
+        "translatedContent": "![Bileşen Odaklı](https://img.shields.io/badge/architecture-component--driven-orange)"
+      },
+      {
+        "row": 34,
+        "rowsha": "x63ttfcKLH+IoG9nJIAnXT9XtcsK1MpjIX9zRetbwJ8=",
+        "originContent": "![Component Driven](https://img.shields.io/badge/architecture-component--driven-orange)",
+        "translatedContent": "![Masaüstü Uygulaması](https://img.shields.io/badge/platform-desktop-lightgrey)"
+      },
+      {
+        "row": 35,
+        "rowsha": "tN5xuYulzJUkweu+0CY751S9B1DkMnbsYwRl6+mqfyQ=",
+        "originContent": "![Desktop App](https://img.shields.io/badge/platform-desktop-lightgrey)",
+        "translatedContent": "![CLI Desteği](https://img.shields.io/badge/CLI-supported-critical)"
+      },
+      {
+        "row": 36,
+        "rowsha": "XL4IM3t8f2UZ3KQ1lrBf1EWKCrfsUzcJUeintJUzJTw=",
+        "originContent": "![CLI Support](https://img.shields.io/badge/CLI-supported-critical)",
+        "translatedContent": "![Canlı Yenileme](https://img.shields.io/badge/live--reload-enabled-blue)"
+      },
+      {
+        "row": 37,
+        "rowsha": "4QE/B6qp62gYQmanWVExHs4BggiGfiuWVdDbhLPPiwo=",
+        "originContent": "![Live Reload](https://img.shields.io/badge/live--reload-enabled-blue)",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Görsel Örnekler"
+      },
+      {
+        "row": 39,
+        "rowsha": "FLGQ6JdtHDk7rgBJwvd7alQ7tXCrH3be40L8EIKaIoY=",
+        "originContent": "## Image Examples",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![image](https://github.com/user-attachments/assets/81d016e9-e10a-4438-ab94-99b6d76b8efe)"
+      },
+      {
+        "row": 41,
+        "rowsha": "/7AW2Hx5YWnLb5UNIGY0Glq0uwVzPmoLHitmgC5UnJQ=",
+        "originContent": "![image](https://github.com/user-attachments/assets/81d016e9-e10a-4438-ab94-99b6d76b8efe)",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![image](https://github.com/user-attachments/assets/154dc3f4-ea8c-4f6f-84d3-88c7ab74a46f)"
+      },
+      {
+        "row": 43,
+        "rowsha": "kUudTpnqV9GeC9HQJ/+Fn4HwlQRe8LPN8Dn7W+A0j0w=",
+        "originContent": "![image](https://github.com/user-attachments/assets/154dc3f4-ea8c-4f6f-84d3-88c7ab74a46f)",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![image](https://github.com/user-attachments/assets/2318f701-6ec8-4402-abcc-40c879bf1a10)"
+      },
+      {
+        "row": 45,
+        "rowsha": "BA1bi+Fo9aMtOeioqkV7rGfM+t0XhNFvdVw/0G/MfRE=",
+        "originContent": "![image](https://github.com/user-attachments/assets/2318f701-6ec8-4402-abcc-40c879bf1a10)",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# WinUp 🚀"
+      },
+      {
+        "row": 47,
+        "rowsha": "crJNL9RYh9syt0IhT844woohBSFpLfb5l7Nof8hUPDc=",
+        "originContent": "# WinUp 🚀",
+        "translatedContent": ""
+      },
+      {
+        "row": 48,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## En Son Kararlı Sürüm'ü (LSR) indirdiğinizden emin olun, en son/LFR'yi değil! Mevcut LSR: 2.4.9"
+      },
+      {
+        "row": 49,
+        "rowsha": "PTbn1SsqjuwVbxDsp9VvKkjrL6ilJx/koz1rFIw5YLA=",
+        "originContent": "## Make sure to download the Latest Stable Release (LSR) and not the latest/LFR! Current LSR: 2.4.9",
+        "translatedContent": ""
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`pip install winup==2.4.9`"
+      },
+      {
+        "row": 51,
+        "rowsha": "S2PnPyPdjEFTgv528dB4Zqwo42JNsQ/oSJ4Ey5bcrS4=",
+        "originContent": "`pip install winup==2.4.9`",
+        "translatedContent": ""
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**Gülünç derecede Pythonik ve güçlü, güzel masaüstü uygulamaları geliştirmek için bir çerçeve.**"
+      },
+      {
+        "row": 53,
+        "rowsha": "THueTOWNrJ0UxQg1D7HTeoP7y9RI3JJ74AGiebJASV8=",
+        "originContent": "**A ridiculously Pythonic and powerful framework for building beautiful desktop applications.**",
+        "translatedContent": ""
+      },
+      {
+        "row": 54,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "WinUp, PySide6 (Qt) gücünü basit, deklaratif ve geliştirici dostu bir API ile saran modern bir Python UI çerçevesidir. Uygulamaları daha hızlı geliştirmeniz, daha temiz kod yazmanız ve geliştirme sürecinden keyif almanız için tasarlanmıştır."
+      },
+      {
+        "row": 55,
+        "rowsha": "5aVhXBQg0lDieW2tI7r0NHMn4UC7UPZ0FUjeFGpYvh4=",
+        "originContent": "WinUp is a modern UI framework for Python that wraps the power of PySide6 (Qt) in a simple, declarative, and developer-friendly API. It's designed to let you build applications faster, write cleaner code, and enjoy the development process.",
+        "translatedContent": ""
+      },
+      {
+        "row": 56,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### ✨ Artık Web Desteği ile!"
+      },
+      {
+        "row": 57,
+        "rowsha": "GEt4buRQAvEZzloy3VWen/+abSDf4BWvbkqlIvfQ5w8=",
+        "originContent": "### ✨ Now with Web Support!",
+        "translatedContent": "WinUp artık aynı Python merkezli, bileşen tabanlı yaklaşımı kullanarak tamamen etkileşimli, durumlu web uygulamaları oluşturmayı da destekliyor. Web modülü, WinUp'ın sadeliğini tarayıcıya taşımak için arka planda FastAPI ve WebSockets kullanır."
+      },
+      {
+        "row": 58,
+        "rowsha": "GHR5WPIVOdTUuT0uT378rsCV769e+28p+rxRv3kyQ3Q=",
+        "originContent": "WinUp now also supports building fully interactive, stateful web applications using the same Python-centric, component-based approach. The web module uses FastAPI and WebSockets under the hood to bring the simplicity of WinUp to the browser.",
+        "translatedContent": ""
+      },
+      {
+        "row": 59,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[Web Dokümantasyonu](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/web/README.md)"
+      },
+      {
+        "row": 60,
+        "rowsha": "JVcoKLQlsBdwUfTrHoixHyU9E99BPc1coifVuGas02Q=",
+        "originContent": "[Web Documentation](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/web/README.md)",
+        "translatedContent": ""
+      },
+      {
+        "row": 61,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> **Feragatname:** Web desteği isteğe bağlı bir özelliktir. Kullanmak için web bağımlılıklarını yüklemelisiniz:"
+      },
+      {
+        "row": 62,
+        "rowsha": "qg9ThESP/oovS1BSFdlm1t7oXPJJX8PA9L7oVKHyaiA=",
+        "originContent": "> **Disclaimer:** Web support is an optional feature. To use it, you must install the web dependencies:",
+        "translatedContent": "> ```bash"
+      },
+      {
+        "row": 63,
+        "rowsha": "wdkEOeFso6tqiT11qRgwNFig8+xjxbk3wJKCvpYihdM=",
+        "originContent": "> ```bash",
+        "translatedContent": "> pip install \"winup[web]\""
+      },
+      {
+        "row": 64,
+        "rowsha": "kVEHMdz9VIIc2isf2Ffo79SzTNEHLouv1PhVmu8GalE=",
+        "originContent": "> pip install \"winup[web]\"",
+        "translatedContent": "> ```"
+      },
+      {
+        "row": 65,
+        "rowsha": "MSWTuK53TAylT2dLwAgGiANzYPowZK3H1tOGCQeahfM=",
+        "originContent": "> ```",
+        "translatedContent": ""
+      },
+      {
+        "row": 66,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[Katkıda Bulunma](https://raw.githubusercontent.com/mebaadwaheed/winup/main/CONTRIBUTING.md)"
+      },
+      {
+        "row": 67,
+        "rowsha": "8u79hJ6MS+MgeK+gp2deSnrWlvUnaN+ev2hYWeT9uW4=",
+        "originContent": "[Contributing](https://raw.githubusercontent.com/mebaadwaheed/winup/main/CONTRIBUTING.md)",
+        "translatedContent": "[Günlükler](https://raw.githubusercontent.com/mebaadwaheed/winup/main/CHANGELOG.md)"
+      },
+      {
+        "row": 68,
+        "rowsha": "7t6PR7OeUJUpnET5mNKuW1zdjYowswO/rduWq5Tp9yQ=",
+        "originContent": "[Changelog](https://raw.githubusercontent.com/mebaadwaheed/winup/main/CHANGELOG.md)",
+        "translatedContent": "[Lisans](LICENSE)"
+      },
+      {
+        "row": 69,
+        "rowsha": "67ZCWP9e/+lsjcOvH4A4v4lIUUbW3lemk9/fRbOIrM8=",
+        "originContent": "[License](LICENSE)",
+        "translatedContent": ""
+      },
+      {
+        "row": 70,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 71,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 72,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Neden WinUp? (Doğrudan PySide6 veya Tkinter yerine)"
+      },
+      {
+        "row": 73,
+        "rowsha": "9ixXi27NsEam79TN+j89qs3QnJGlGg7AZT9kMGSuslQ=",
+        "originContent": "## Why WinUp? (Instead of raw PySide6 or Tkinter)",
+        "translatedContent": ""
+      },
+      {
+        "row": 74,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Python ile masaüstü geliştirme hantal hissettirebilir. WinUp bunu düzeltmek için geliştirildi."
+      },
+      {
+        "row": 75,
+        "rowsha": "LR658YRBCQo2bNnnUTO5JgFeOOoleVO5QBmsOsNOcFI=",
+        "originContent": "Desktop development in Python can feel clunky. WinUp was built to fix that.",
+        "translatedContent": ""
+      },
+      {
+        "row": 76,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| Özellik                  | WinUp Yolu ✨                                                                   | Ham PySide6 / Tkinter Yolu 😟                                                                 |"
+      },
+      {
+        "row": 77,
+        "rowsha": "Y1sxQFXwYgtlwKsIW40U7Dvon5/nYEqyOWhkqwICQBM=",
+        "originContent": "| Feature                 | WinUp Way ✨                                                                   | Raw PySide6 / Tkinter Way 😟                                                                |",
+        "translatedContent": "| ----------------------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- |"
+      },
+      {
+        "row": 78,
+        "rowsha": "nr3zUPxI/Z5hWQHcGKLNDokFU6x+X27+AuLTpnEORyM=",
+        "originContent": "| ----------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- |",
+        "translatedContent": "| **Yerleşimler**          | `ui.Column(children=[...])`, `ui.Row(children=[...])`                          | `QVBoxLayout()`, `QHBoxLayout()`, `layout.addWidget()`, `pack()`, `grid()`                    |"
+      },
+      {
+        "row": 79,
+        "rowsha": "hAvUHLUfI8Kk6OAb98y04bAmk7Ep3zYjscPCvN0vsBg=",
+        "originContent": "| **Layouts**             | `ui.Column(children=[...])`, `ui.Row(children=[...])`                          | `QVBoxLayout()`, `QHBoxLayout()`, `layout.addWidget()`, `pack()`, `grid()`                  |",
+        "translatedContent": "| **Stil Verme**           | `props={\"background-color\": \"blue\", \"font-size\": \"16px\"}`                      | Elle QSS dizeleri, `widget.setStyleSheet(...)`, karmaşık stil nesneleri.                      |"
+      },
+      {
+        "row": 80,
+        "rowsha": "JASk758HuNjMOQadrpSGSNb/UQCoVrEddqllNPctE/8=",
+        "originContent": "| **Styling**             | `props={\"background-color\": \"blue\", \"font-size\": \"16px\"}`                      | Manual QSS strings, `widget.setStyleSheet(...)`, complex style objects.                     |",
+        "translatedContent": "| **Durum Yönetimi**       | `state.bind(widget, \"prop\", \"key\")`                                            | Elle geri çağırma fonksiyonları, getter/setter, `StringVar()`, her yerde boilerplate kod.      |"
+      },
+      {
+        "row": 81,
+        "rowsha": "zB+cuOf5R7RjjbrpQjuZxmC7wiwjOD/5cW26YJiacHo=",
+        "originContent": "| **State Management**    | `state.bind(widget, \"prop\", \"key\")`                                            | Manual callback functions, getters/setters, `StringVar()`, boilerplate everywhere.          |",
+        "translatedContent": "| **Çift Yönlü Bağlama**   | `state.bind_two_way(input_widget, \"key\")`                                      | Yok. Durumu ve UI'yı güncellemek için manuel `on_change` işleyicileri gerekir.                |"
+      },
+      {
+        "row": 82,
+        "rowsha": "gfpJm+2AfIX/dcJ3Te9Qdb/tcwfigvEspI0AkEZqw+s=",
+        "originContent": "| **Two-Way Binding**     | `state.bind_two_way(input_widget, \"key\")`                                      | Non-existent. Requires manual `on_change` handlers to update state and UI.                  |",
+        "translatedContent": "| **Geliştirici Araçları** | **Dahili Canlı Yenileme**, kod profil aracı ve pencere araçları kutudan çıkar. | Yok. Her UI değişikliği için tüm uygulamayı yeniden başlatın.                                 |"
+      },
+      {
+        "row": 83,
+        "rowsha": "XzemkvL+k72miu9k2Cuu29twgvFkDjfDIznKg7g0Thk=",
+        "originContent": "| **Developer Tools**     | **Built-in Hot Reloading**, code profiler, and window tools out of the box.    | Non-existent. Restart the entire app for every single UI change.                            |",
+        "translatedContent": "| **Kod Yapısı**           | `@component` ile tekrar kullanılabilir, kendine yeten bileşenler.              | Genellikle büyük, tek parça sınıflar veya prosedürel betiklere yol açar.                      |"
+      },
+      {
+        "row": 84,
+        "rowsha": "1uYtX+uvHJ+KUiYD0coxNmTc4QV7cJEJHDxY/1GApXE=",
+        "originContent": "| **Code Structure**      | Reusable, self-contained components with `@component`.                         | Often leads to large, monolithic classes or procedural scripts.                             |",
+        "translatedContent": ""
+      },
+      {
+        "row": 85,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**Kısacası, WinUp masaüstü için modern web çerçevelerinin (React veya Vue gibi) \"öldürücü özelliklerini\" sağlar, size zaman kazandırır ve uygulamanızın mantığına odaklanmanıza olanak tanır.**"
+      },
+      {
+        "row": 86,
+        "rowsha": "9+t6/xXlbLzpy+aJPnlzn4QkPMqU21Hys6meGOx8ESQ=",
+        "originContent": "**In short, WinUp provides the \"killer features\" of modern web frameworks (like React or Vue) for the desktop, saving you time and letting you focus on what matters: your application's logic.**",
+        "translatedContent": ""
+      },
+      {
+        "row": 87,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# 🧊 WinUp vs 🧱 PyEdifice (Reddit Kullanıcı İsteği)"
+      },
+      {
+        "row": 88,
+        "rowsha": "rOVX/+aq6PpjH1fJhg4LPnWQAr6K7k39Vn/THvvqpn0=",
+        "originContent": "# 🧊 WinUp vs 🧱 PyEdifice (Reddit User Request)",
+        "translatedContent": ""
+      },
+      {
+        "row": 89,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| Özellik                          | WinUp      | PyEdifice                        |"
+      },
+      {
+        "row": 90,
+        "rowsha": "E2ObyiKtYq94LTmvmj2+MriCtMU25fdmSILTU7U0WUY=",
+        "originContent": "| Feature                          | WinUp      | PyEdifice                        |",
+        "translatedContent": "|----------------------------------|--------------------------------------|----------------------------------|"
+      },
+      {
+        "row": 91,
+        "rowsha": "+mn0OZBElhUrHt62FPH/ROkOhyCJdrf/nC+ye0fPbeI=",
+        "originContent": "|----------------------------------|--------------------------------------|----------------------------------|",
+        "translatedContent": "| 🧱 Mimari                        | React tarzı + durum       | React tarzı + durum              |"
+      },
+      {
+        "row": 92,
+        "rowsha": "ywMRkS8XY0NMYt6eJVUvYmb5LO7ZP/5MiHxHVIxy0oM=",
+        "originContent": "| 🧱 Architecture                  | React-style + state       | React-style + state              |",
+        "translatedContent": "| 🌐 Dahili Yönlendirme            | ✅ Evet (`Router(routes={...})`)      | ❌ Dahili yönlendirme yok         |"
+      },
+      {
+        "row": 93,
+        "rowsha": "gtC1ojTqgR4yPPmUmMIQ15RYjXsdFUCeHbc5L5TSvfg=",
+        "originContent": "| 🌐 Built-in Routing              | ✅ Yes (`Router(routes={...})`)      | ❌ No built-in routing            |",
+        "translatedContent": "| ♻️ Yaşam Döngüsü Kancaları      | ✅ `on_mount`, `on_unmount`, vb.      | ⚠️ Sınırlı (`did_mount`, vb.)     |"
+      },
+      {
+        "row": 94,
+        "rowsha": "b5BfNLr8Sx5AysZtOdOGhjzLDU0XQHbqVu8rMd5mDos=",
+        "originContent": "| ♻️ Lifecycle Hooks               | ✅ `on_mount`, `on_unmount`, etc.    | ⚠️ Limited (`did_mount`, etc.)   |",
+        "translatedContent": "| 🎨 Tema / Stil Sistemi          | ✅ Global & Kapsamlı temalar           | ❌ Elle CSS ekleme                |"
+      },
+      {
+        "row": 95,
+        "rowsha": "TU4MAR0mqp1DMRSii2bHwpZ3y+Preeiy9dvJm+QW7pk=",
+        "originContent": "| 🎨 Theming / Styling System     | ✅ Global & Scoped themes             | ❌ Manual CSS injection           |",
+        "translatedContent": "| 🔲 Yerleşim Seçenekleri          | ✅ Satır, Sütun, Izgara, Yığın, Flexbox| ⚠️ Çoğunlukla Box & HBox/VBox     |"
+      },
+      {
+        "row": 96,
+        "rowsha": "zfmpiuxd0N4FtdtJ5HqsEzosgO/3h2S9qJXfjRrIbVQ=",
+        "originContent": "| 🔲 Layout Options                | ✅ Row, Column, Grid, Stack, Flexbox | ⚠️ Mostly Box & HBox/VBox         |",
+        "translatedContent": "| 🎞️ Animasyonlar                 | ✅ Dahili (fade, scale, vb.)           | ❌ Dahili yok                     |"
+      },
+      {
+        "row": 97,
+        "rowsha": "hHtMEb7QFUqlJuuR+wEbYVMYHtXRNub/+rjxDFU5Z94=",
+        "originContent": "| 🎞️ Animations                   | ✅ Built-in (fade, scale, etc.)      | ❌ None built-in                  |",
+        "translatedContent": "| 🔁 Canlı Yenileme (LHR)          | ✅ Kararlı + hızlı (`loadup dev`)      | ⚠️ Deneysel, sınırlı destek       |"
+      },
+      {
+        "row": 98,
+        "rowsha": "pCw2ete79XzyiaasNNxWBe5CjbkB2pDpeJJ3+MjdvSI=",
+        "originContent": "| 🔁 Hot Reloading (LHR)          | ✅ Stable + fast (`loadup dev`)      | ⚠️ Experimental, limited support  |",
+        "translatedContent": "| 📦 Paketleme                     | ✅ LoadUp ile (PyInstaller tabanlı)    | ❌ PyInstaller'ı manuel entegre etmelisiniz |"
+      },
+      {
+        "row": 99,
+        "rowsha": "2nFPzMCVb2k6vbs84TeZvs8FxZ/ksTOyT2s+161DqJE=",
+        "originContent": "| 📦 Packaging                    | ✅ With LoadUp (PyInstaller-based)   | ❌ Must integrate PyInstaller manually |",
+        "translatedContent": "| 🧩 Bileşen Tekrar Kullanımı      | ✅ Yüksek, deklaratif                  | ✅ Yüksek                         |"
+      },
+      {
+        "row": 100,
+        "rowsha": "u0zduuSC2mlP211Zp9+o5RA6Es0BbLwcxcxuJsY+SuQ=",
+        "originContent": "| 🧩 Component Reusability        | ✅ High, declarative                 | ✅ High                           |",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "| 🛠 Developer Tooling            | ✅ DevTools planned, Inspector soon  | ❌ None yet                       |\n| 📱 Mobile Support               | ❌ Not yet                           | ❌ Not supported                  |\n| 🧠 Learning Curve               | ✅ Easy for Python+React users       | ✅ Easy but less tooling          |\n\n> ✅ = Built-in or robust  \n> ⚠️ = Partial or limited  \n> ❌ = Missing entirely\n---\n\n## Core Features\n\n*   **Declarative & Pythonic UI:** Build complex layouts with simple `Row` and `Column` objects instead of clunky box layouts.\n*   **Component-Based Architecture:** Use the `@component` decorator to create modular and reusable UI widgets from simple functions.\n*   **Powerful Styling System:** Style your widgets with simple Python dictionaries using `props`. Create global \"CSS-like\" classes with `style.add_style_dict`.\n*   **Full Application Shell:** Build professional applications with a declarative API for `MenuBar`, `ToolBar`, `StatusBar`, and `SystemTrayIcon`.\n*   **Asynchronous Task Runner:** Run long-running operations in the background without freezing your UI using the simple `@tasks.run` decorator.\n*   **Performance by Default:** Includes an opt-in `@memo` decorator to cache component renders and prevent needless re-computation.\n*   **Advanced Extensibility:**\n    *   **Widget Factory:** Replace any default widget with your own custom implementation (e.g., C++ based) using `ui.register_widget()`.\n    *   **Multiple Windows:** Create and manage multiple independent windows for complex applications like tool palettes or music players.\n*   **Reactive State Management:**\n    *   **One-Way Binding:** Automatically update your UI when your data changes with `state.bind()`.\n    *   **Two-Way Binding:** Effortlessly sync input widgets with your state using `state.bind_two_way()`.\n    *   **Subscriptions:** Trigger any function in response to state changes with `state.subscribe()`.\n*   **Developer-Friendly Tooling:**\n    *   **Hot Reloading:** See your UI changes instantly without restarting your app.\n    *   **Profiler:** Easily measure the performance of any function with the `@profiler.measure()` decorator.\n    *   **Window Tools:** Center, flash, or manage your application window with ease.\n*   **Built-in Routing:** Easily create multi-page applications with an intuitive, state-driven router.\n*   **Flexible Data Layer:** Includes simple, consistent connectors for SQLite, PostgreSQL, MySQL, MongoDB, and Firebase.\n\n---\n\n# Documentation\n\nDive deeper into the features of WinUp:\n\n## Core Concepts\n- [**Component Model & Styling**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/concepts.md)\n- [**State Management**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/state.md)\n- [**Lifecycle Hooks**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/concepts.md#component-lifecycle-hooks-on_mount-and-on_unmount)\n- [**Routing**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/concepts.md#routing)\n- [**Absolute Positioning (Advanced)**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/absolute-layout.md)\n\n## Developer Tools\n- [**Live Hot Reload (LHR)**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/live-hot-reload.md)\n- [**Performance Profiler**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/profiler.md)\n- [**Memoization**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/memoization.md)\n- [**Async Task Runner**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/tasks.md)\n\n## UI Components\n- [**Full Component Library**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/components/README.md)\n\n---\n\n## Contributing\n\nWinUp is an open-source project. Contributions are welcome!\n\n## License\n\nThis project is licensed under the MIT License. See **LICENSE** for more information.",
+    "ContentSha": "QFk4X8sfeQz4k3WstXe+jF4YfegL4Q6JZDwi9UXxoMA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "| 🛠 Geliştirici Araçları         | ✅ DevTools planlandı, Inspector yakında  | ❌ Henüz yok                         |\n| 📱 Mobil Desteği                | ❌ Henüz değil                          | ❌ Desteklenmiyor                    |\n| 🧠 Öğrenme Eğrisi               | ✅ Python+React kullanıcıları için kolay | ✅ Kolay ama daha az araç            |\n\n> ✅ = Dahili veya güçlü  \n> ⚠️ = Kısmi veya sınırlı  \n> ❌ = Tamamen eksik\n---\n\n## Temel Özellikler\n\n*   **Deklaratif ve Pythonik Arayüz:** Karmaşık düzenleri hantal kutu yerleşimleri yerine basit `Row` ve `Column` nesneleriyle oluşturun.\n*   **Bileşen Tabanlı Mimari:** Basit fonksiyonlardan modüler ve tekrar kullanılabilir arayüz bileşenleri oluşturmak için `@component` dekoratörünü kullanın.\n*   **Güçlü Stil Sistemi:** Bileşenlerinizi `props` ile basit Python sözlükleriyle stillendirin. `style.add_style_dict` ile global \"CSS benzeri\" sınıflar oluşturun.\n*   **Tam Uygulama Kabukları:** `MenuBar`, `ToolBar`, `StatusBar` ve `SystemTrayIcon` için deklaratif API ile profesyonel uygulamalar geliştirin.\n*   **Asenkron Görev Çalıştırıcı:** Basit `@tasks.run` dekoratörüyle uzun süren işlemleri arka planda çalıştırın, arayüzünüz donmasın.\n*   **Varsayılan Olarak Performans:** Bileşen render’larını önbelleğe almak ve gereksiz hesaplamaları önlemek için isteğe bağlı `@memo` dekoratörü içerir.\n*   **Gelişmiş Genişletilebilirlik:**\n    *   **Bileşen Fabrikası:** Varsayılan herhangi bir bileşeni (ör. C++ tabanlı) kendi özel uygulamanızla `ui.register_widget()` kullanarak değiştirin.\n    *   **Çoklu Pencereler:** Karmaşık uygulamalar için bağımsız birden fazla pencere oluşturun ve yönetin (ör. araç paletleri, müzik çalarlar).\n*   **Reaktif Durum Yönetimi:**\n    *   **Tek Yönlü Bağlama:** `state.bind()` ile veriniz değiştiğinde arayüzünüz otomatik güncellensin.\n    *   **Çift Yönlü Bağlama:** `state.bind_two_way()` ile giriş bileşenlerini durumunuzla zahmetsizce senkronize edin.\n    *   **Abonelikler:** `state.subscribe()` ile durum değişikliklerine tepki olarak herhangi bir fonksiyonu tetikleyin.\n*   **Geliştirici Dostu Araçlar:**\n    *   **Sıcak Yeniden Yükleme:** Arayüz değişikliklerinizi uygulamanızı yeniden başlatmadan anında görün.\n    *   **Profil Aracı:** Herhangi bir fonksiyonun performansını `@profiler.measure()` dekoratörüyle kolayca ölçün.\n    *   **Pencere Araçları:** Uygulamanızın penceresini kolayca ortalayın, yanıp sönmesini sağlayın veya yönetin.\n*   **Dahili Yönlendirme:** Sezgisel, duruma dayalı router ile çok sayfalı uygulamaları kolayca oluşturun.\n*   **Esnek Veri Katmanı:** SQLite, PostgreSQL, MySQL, MongoDB ve Firebase için basit, tutarlı bağlayıcılar içerir.\n\n---\n\n# Dokümantasyon\n\nWinUp’ın özelliklerini daha derinlemesine keşfedin:\n\n## Temel Kavramlar\n- [**Bileşen Modeli & Stil**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/concepts.md)\n- [**Durum Yönetimi**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/state.md)\n- [**Yaşam Döngüsü Kancaları**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/concepts.md#component-lifecycle-hooks-on_mount-and-on_unmount)\n- [**Yönlendirme**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/concepts.md#routing)\n- [**Mutlak Konumlandırma (Gelişmiş)**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/absolute-layout.md)\n\n## Geliştirici Araçları\n- [**Canlı Sıcak Yeniden Yükleme (LHR)**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/live-hot-reload.md)\n- [**Performans Profil Aracı**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/profiler.md)\n- [**Önbellekleme**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/memoization.md)\n- [**Asenkron Görev Çalıştırıcı**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/tasks.md)\n\n## Arayüz Bileşenleri\n- [**Tüm Bileşen Kütüphanesi**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/components/README.md)\n\n---\n\n## Katkıda Bulunma\n\nWinUp açık kaynaklı bir projedir. Katkılarınızı bekliyoruz!\n\n## Lisans\n\nBu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için **LICENSE** dosyasına bakınız.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Yn/SC6KvpJowP/UIDwDycsjBUT1tgTTHioTuTkfWH/w=",
+        "originContent": "| 🛠 Developer Tooling            | ✅ DevTools planned, Inspector soon  | ❌ None yet                       |",
+        "translatedContent": "| 🛠 Geliştirici Araçları         | ✅ DevTools planlandı, Inspector yakında  | ❌ Henüz yok                         |"
+      },
+      {
+        "row": 2,
+        "rowsha": "eK5kf4C2tHj6fKVQJ/tHlRlJItglQA+3fn5GlnWdcIQ=",
+        "originContent": "| 📱 Mobile Support               | ❌ Not yet                           | ❌ Not supported                  |",
+        "translatedContent": "| 📱 Mobil Desteği                | ❌ Henüz değil                          | ❌ Desteklenmiyor                    |"
+      },
+      {
+        "row": 3,
+        "rowsha": "dwPGNJCWl1qXtWIB6dHOYOwZYoAT7LMs6xKRGANTRxY=",
+        "originContent": "| 🧠 Learning Curve               | ✅ Easy for Python+React users       | ✅ Easy but less tooling          |",
+        "translatedContent": "| 🧠 Öğrenme Eğrisi               | ✅ Python+React kullanıcıları için kolay | ✅ Kolay ama daha az araç            |"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "mRV4ub1XI5Eqol31D3OSdTGBeQLOfKj6FoyCPMqnWc8=",
+        "originContent": "> ✅ = Built-in or robust  ",
+        "translatedContent": "> ✅ = Dahili veya güçlü  "
+      },
+      {
+        "row": 6,
+        "rowsha": "W3h3uh0SbNo4MF5M70KRM7tnYPgr39lh752UcIL5Vv0=",
+        "originContent": "> ⚠️ = Partial or limited  ",
+        "translatedContent": "> ⚠️ = Kısmi veya sınırlı  "
+      },
+      {
+        "row": 7,
+        "rowsha": "XR0LBPBfnnZ9hD8JSh1QClR316lh3GZDOhrDgi3zHpg=",
+        "originContent": "> ❌ = Missing entirely",
+        "translatedContent": "> ❌ = Tamamen eksik"
+      },
+      {
+        "row": 8,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "WVf4b7oPiloMhGfUEdpGDGrt4Gysb1sXIrUavFTl+N0=",
+        "originContent": "## Core Features",
+        "translatedContent": "## Temel Özellikler"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "l96kHwTz7uQP5X56m+cumlanH96PYRFA4kvtrqhN+PI=",
+        "originContent": "*   **Declarative & Pythonic UI:** Build complex layouts with simple `Row` and `Column` objects instead of clunky box layouts.",
+        "translatedContent": "*   **Deklaratif ve Pythonik Arayüz:** Karmaşık düzenleri hantal kutu yerleşimleri yerine basit `Row` ve `Column` nesneleriyle oluşturun."
+      },
+      {
+        "row": 13,
+        "rowsha": "hXNul/zZwwuzyvi0AS2SCYS5jfhTYkK42S80gGFDMn0=",
+        "originContent": "*   **Component-Based Architecture:** Use the `@component` decorator to create modular and reusable UI widgets from simple functions.",
+        "translatedContent": "*   **Bileşen Tabanlı Mimari:** Basit fonksiyonlardan modüler ve tekrar kullanılabilir arayüz bileşenleri oluşturmak için `@component` dekoratörünü kullanın."
+      },
+      {
+        "row": 14,
+        "rowsha": "7+6N5HYJ0Ir7wiTxjzwPoSaVqTYzjvZSQvV/X/VkL6g=",
+        "originContent": "*   **Powerful Styling System:** Style your widgets with simple Python dictionaries using `props`. Create global \"CSS-like\" classes with `style.add_style_dict`.",
+        "translatedContent": "*   **Güçlü Stil Sistemi:** Bileşenlerinizi `props` ile basit Python sözlükleriyle stillendirin. `style.add_style_dict` ile global \"CSS benzeri\" sınıflar oluşturun."
+      },
+      {
+        "row": 15,
+        "rowsha": "vdyHUR1QhX3Rb6aWjU3Rgz4RocsSlELufHRwMH2Q5kM=",
+        "originContent": "*   **Full Application Shell:** Build professional applications with a declarative API for `MenuBar`, `ToolBar`, `StatusBar`, and `SystemTrayIcon`.",
+        "translatedContent": "*   **Tam Uygulama Kabukları:** `MenuBar`, `ToolBar`, `StatusBar` ve `SystemTrayIcon` için deklaratif API ile profesyonel uygulamalar geliştirin."
+      },
+      {
+        "row": 16,
+        "rowsha": "P9ky3fCTnjt0fJ677fQB0hngHYLK996/2PBEir9OHes=",
+        "originContent": "*   **Asynchronous Task Runner:** Run long-running operations in the background without freezing your UI using the simple `@tasks.run` decorator.",
+        "translatedContent": "*   **Asenkron Görev Çalıştırıcı:** Basit `@tasks.run` dekoratörüyle uzun süren işlemleri arka planda çalıştırın, arayüzünüz donmasın."
+      },
+      {
+        "row": 17,
+        "rowsha": "xQneFtzr4WAaX2eMejiuiLI7koEPz2bBXKPNdoG9jcE=",
+        "originContent": "*   **Performance by Default:** Includes an opt-in `@memo` decorator to cache component renders and prevent needless re-computation.",
+        "translatedContent": "*   **Varsayılan Olarak Performans:** Bileşen render’larını önbelleğe almak ve gereksiz hesaplamaları önlemek için isteğe bağlı `@memo` dekoratörü içerir."
+      },
+      {
+        "row": 18,
+        "rowsha": "/BJBVf9mLmDjGXKmicF2e+VuP2HDUUbb5SWNcZL7bCM=",
+        "originContent": "*   **Advanced Extensibility:**",
+        "translatedContent": "*   **Gelişmiş Genişletilebilirlik:**"
+      },
+      {
+        "row": 19,
+        "rowsha": "BeNRIceq96WPHcKCkKfvBIy0Kpi4UPIbzSkFO4/86Sg=",
+        "originContent": "    *   **Widget Factory:** Replace any default widget with your own custom implementation (e.g., C++ based) using `ui.register_widget()`.",
+        "translatedContent": "    *   **Bileşen Fabrikası:** Varsayılan herhangi bir bileşeni (ör. C++ tabanlı) kendi özel uygulamanızla `ui.register_widget()` kullanarak değiştirin."
+      },
+      {
+        "row": 20,
+        "rowsha": "hW/uYblYyAbUBAN6NHHM1sK+QygbTG3xpn75dfxNhcE=",
+        "originContent": "    *   **Multiple Windows:** Create and manage multiple independent windows for complex applications like tool palettes or music players.",
+        "translatedContent": "    *   **Çoklu Pencereler:** Karmaşık uygulamalar için bağımsız birden fazla pencere oluşturun ve yönetin (ör. araç paletleri, müzik çalarlar)."
+      },
+      {
+        "row": 21,
+        "rowsha": "fQigFrYs2RypN1GpspYoXlsftwwM8JsibvXRlVKIqgw=",
+        "originContent": "*   **Reactive State Management:**",
+        "translatedContent": "*   **Reaktif Durum Yönetimi:**"
+      },
+      {
+        "row": 22,
+        "rowsha": "kwNLLac4nl0hXxyvgjTZXNluof19mGlhJelwAFbXrXQ=",
+        "originContent": "    *   **One-Way Binding:** Automatically update your UI when your data changes with `state.bind()`.",
+        "translatedContent": "    *   **Tek Yönlü Bağlama:** `state.bind()` ile veriniz değiştiğinde arayüzünüz otomatik güncellensin."
+      },
+      {
+        "row": 23,
+        "rowsha": "1P2H1GoSdr00nVpsgfM8mREWrUbZNnva3nXZtAaP9Dk=",
+        "originContent": "    *   **Two-Way Binding:** Effortlessly sync input widgets with your state using `state.bind_two_way()`.",
+        "translatedContent": "    *   **Çift Yönlü Bağlama:** `state.bind_two_way()` ile giriş bileşenlerini durumunuzla zahmetsizce senkronize edin."
+      },
+      {
+        "row": 24,
+        "rowsha": "3ZSrDYPEoVU77xOxRpTImxCVTueD4YeTbH0BVMhsrBE=",
+        "originContent": "    *   **Subscriptions:** Trigger any function in response to state changes with `state.subscribe()`.",
+        "translatedContent": "    *   **Abonelikler:** `state.subscribe()` ile durum değişikliklerine tepki olarak herhangi bir fonksiyonu tetikleyin."
+      },
+      {
+        "row": 25,
+        "rowsha": "fpIYIroVXrgi4jZUQ/1UM/YA1OzAzjTCYmFhdOG2rLk=",
+        "originContent": "*   **Developer-Friendly Tooling:**",
+        "translatedContent": "*   **Geliştirici Dostu Araçlar:**"
+      },
+      {
+        "row": 26,
+        "rowsha": "1s3vnI/taL3Jo0mmS1/sqW1h0izGG+rrRM35AdtvYDA=",
+        "originContent": "    *   **Hot Reloading:** See your UI changes instantly without restarting your app.",
+        "translatedContent": "    *   **Sıcak Yeniden Yükleme:** Arayüz değişikliklerinizi uygulamanızı yeniden başlatmadan anında görün."
+      },
+      {
+        "row": 27,
+        "rowsha": "9vVUs4saAL0/6IOL4M2ulYcnKeS09gtqJy0S76Q9w+0=",
+        "originContent": "    *   **Profiler:** Easily measure the performance of any function with the `@profiler.measure()` decorator.",
+        "translatedContent": "    *   **Profil Aracı:** Herhangi bir fonksiyonun performansını `@profiler.measure()` dekoratörüyle kolayca ölçün."
+      },
+      {
+        "row": 28,
+        "rowsha": "k4XdMDTui67H8MYCQhqzRVnH6qGgXoCoU4XufjY8/oc=",
+        "originContent": "    *   **Window Tools:** Center, flash, or manage your application window with ease.",
+        "translatedContent": "    *   **Pencere Araçları:** Uygulamanızın penceresini kolayca ortalayın, yanıp sönmesini sağlayın veya yönetin."
+      },
+      {
+        "row": 29,
+        "rowsha": "sZIP/IchmpSAnqTSrZQKfMAgaycmLz04DRIenthilNk=",
+        "originContent": "*   **Built-in Routing:** Easily create multi-page applications with an intuitive, state-driven router.",
+        "translatedContent": "*   **Dahili Yönlendirme:** Sezgisel, duruma dayalı router ile çok sayfalı uygulamaları kolayca oluşturun."
+      },
+      {
+        "row": 30,
+        "rowsha": "A4oO5GYuC66EQA/e+10YkGjkbQ7qi2JTrLhEVlOoAsQ=",
+        "originContent": "*   **Flexible Data Layer:** Includes simple, consistent connectors for SQLite, PostgreSQL, MySQL, MongoDB, and Firebase.",
+        "translatedContent": "*   **Esnek Veri Katmanı:** SQLite, PostgreSQL, MySQL, MongoDB ve Firebase için basit, tutarlı bağlayıcılar içerir."
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "4BSHWD7tzXIyr/Ccbla1RNYTdBtLtVN8mXm+xSFvLpw=",
+        "originContent": "# Documentation",
+        "translatedContent": "# Dokümantasyon"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "b/SU332fpXKR5EZ8P9h5/qQs11IriOvompvpeo22s8A=",
+        "originContent": "Dive deeper into the features of WinUp:",
+        "translatedContent": "WinUp’ın özelliklerini daha derinlemesine keşfedin:"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "tfib1pbLxCVkcIkWm1mWR3qBcqoueWNWOQ4573Lul5I=",
+        "originContent": "## Core Concepts",
+        "translatedContent": "## Temel Kavramlar"
+      },
+      {
+        "row": 39,
+        "rowsha": "Ua61hq4okzYyYoFayq7ahYqh8IdFR1Yu4yI+qJojIRI=",
+        "originContent": "- [**Component Model & Styling**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/concepts.md)",
+        "translatedContent": "- [**Bileşen Modeli & Stil**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/concepts.md)"
+      },
+      {
+        "row": 40,
+        "rowsha": "clczlcGtWe/mKrizal1NymNlzgF1Qv1tgisqbwuU2rw=",
+        "originContent": "- [**State Management**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/state.md)",
+        "translatedContent": "- [**Durum Yönetimi**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/state.md)"
+      },
+      {
+        "row": 41,
+        "rowsha": "C+d3tXqG/qvwygMBdBb04emgZZFziGgk+k7lI13tJrI=",
+        "originContent": "- [**Lifecycle Hooks**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/concepts.md#component-lifecycle-hooks-on_mount-and-on_unmount)",
+        "translatedContent": "- [**Yaşam Döngüsü Kancaları**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/concepts.md#component-lifecycle-hooks-on_mount-and-on_unmount)"
+      },
+      {
+        "row": 42,
+        "rowsha": "l7hfq/5wQ3QT/RZai0609RFwhrNgAJUUTw3dyanHkF0=",
+        "originContent": "- [**Routing**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/concepts.md#routing)",
+        "translatedContent": "- [**Yönlendirme**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/concepts.md#routing)"
+      },
+      {
+        "row": 43,
+        "rowsha": "q70F0ypSo/j75supwvXRYPViXJO40qQMc8NeP4WtIcs=",
+        "originContent": "- [**Absolute Positioning (Advanced)**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/absolute-layout.md)",
+        "translatedContent": "- [**Mutlak Konumlandırma (Gelişmiş)**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/absolute-layout.md)"
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "Mr0RmzHz4URkrgYNvK49CC3C1mEwX3iwXSHIXmSVdcE=",
+        "originContent": "## Developer Tools",
+        "translatedContent": "## Geliştirici Araçları"
+      },
+      {
+        "row": 46,
+        "rowsha": "Qng5zxZf8AAzPBG1s/giu8VH1pf8rv/jS4pHeJ/UAFU=",
+        "originContent": "- [**Live Hot Reload (LHR)**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/live-hot-reload.md)",
+        "translatedContent": "- [**Canlı Sıcak Yeniden Yükleme (LHR)**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/live-hot-reload.md)"
+      },
+      {
+        "row": 47,
+        "rowsha": "ZHoIT/HxtvAPTTIawkiTHbXV2ITt7h4nRiVSP9gUY7A=",
+        "originContent": "- [**Performance Profiler**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/profiler.md)",
+        "translatedContent": "- [**Performans Profil Aracı**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/profiler.md)"
+      },
+      {
+        "row": 48,
+        "rowsha": "2UexQlEIcmWSOfIGLV5GY53jixTqjyeKgJtQ83QhzKs=",
+        "originContent": "- [**Memoization**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/memoization.md)",
+        "translatedContent": "- [**Önbellekleme**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/memoization.md)"
+      },
+      {
+        "row": 49,
+        "rowsha": "vgFsPu4HOpkSAo2m5d7WiR1wKncRSXvF5Y4xZIWGfMQ=",
+        "originContent": "- [**Async Task Runner**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/tasks.md)",
+        "translatedContent": "- [**Asenkron Görev Çalıştırıcı**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/tasks.md)"
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "myLS6oUXaJS6tYlEk6OUww6lKMf9iMk1zN7HJlIizLY=",
+        "originContent": "## UI Components",
+        "translatedContent": "## Arayüz Bileşenleri"
+      },
+      {
+        "row": 52,
+        "rowsha": "aQRVOL8o/5XVjfDCspeq88W5T0dsaw0IayaSgex5XEI=",
+        "originContent": "- [**Full Component Library**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/components/README.md)",
+        "translatedContent": "- [**Tüm Bileşen Kütüphanesi**](https://raw.githubusercontent.com/mebaadwaheed/winup/main/docs/components/README.md)"
+      },
+      {
+        "row": 53,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 54,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 55,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 56,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## Katkıda Bulunma"
+      },
+      {
+        "row": 57,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 58,
+        "rowsha": "mHwOe7u5d7isZLkXI2hg5riWH7YQ9W9AiYEQGuXcWO4=",
+        "originContent": "WinUp is an open-source project. Contributions are welcome!",
+        "translatedContent": "WinUp açık kaynaklı bir projedir. Katkılarınızı bekliyoruz!"
+      },
+      {
+        "row": 59,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 60,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## Lisans"
+      },
+      {
+        "row": 61,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 62,
+        "rowsha": "LcmY4PN/F9w8RnHFHnT4ZFGDVLr9smu31opvlXsDTe0=",
+        "originContent": "This project is licensed under the MIT License. See **LICENSE** for more information.",
+        "translatedContent": "Bu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için **LICENSE** dosyasına bakınız."
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

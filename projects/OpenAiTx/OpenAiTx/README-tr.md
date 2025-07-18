@@ -13,7 +13,7 @@
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a>
@@ -33,39 +33,39 @@
 
 
 <div align="center">
- Sizin <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a> 'ınız Open Ai Tx'i daha iyi yapabilir
+ Sizin <a href="https://github.com/OpenAiTx/OpenAiTx">Yıldızınız</a>  Open Ai Tx'i daha iyi yapabilir
 </div>
 
 
 ## Giriş
 
-**OpenAiTx** GitHub projenizin readme ve wiki bölümü için 20 dilde otomatik çeviri aracı.
+**OpenAiTx** GitHub projenizin readme & wiki dosyaları için 20 dilde otomatik çeviri aracı.
 
 ## Neden?
 
-1. Üst düzey LLM ile tek seferlik çeviri ve sonucu açık kaynak topluluğuna ücretsiz erişilebilir kılma.
-2. Google/Bing çoklu dil SEO arama desteği, istemci çeviri aracı bunu yapamaz.
+1. Premium kalitede LLM ile tek seferlik çeviri ve sonucu açık kaynak topluluğuna ücretsiz erişilebilir kılma.
+2. Google/Bing çoklu dil SEO aramasını destekler, istemci çeviri aracı bunu yapamaz.
 3. Sonsuza kadar Ücretsiz & Açık Kaynak.
-4. Bir kere gönderin ve gelecekte otomatik güncellensin, bir proje yöneticisiyseniz zaman kazandırır.
+4. Bir kez gönderin ve gelecekte otomatik güncelleyin, eğer bir proje yöneticisiyseniz zaman kazandırır.
 
 
 ## Başlarken
 
-1. URL'de `GitHub`'ı `OpenAiTx` ile değiştirin, örn. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+1. URL'de `GitHub` yerine `OpenAiTx` yazın, örn. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
 2. Projenizi gönderin.
-3. Beğendiğiniz stil rozetlerini veya metinleri tıklayın ve kopyalayın.
+3. Beğendiğiniz stil rozetlerini veya metni tıklayıp kopyalayın.
 4. Readme dosyanıza ekleyin.
 
 veya
 
 1. https://openaitx.com adresine erişin
-2. Proje bağlantınızı gönderin.
-3. Beğendiğiniz stil rozetlerini veya metinleri tıklayın ve kopyalayın.
+2. Proje linkinizi gönderin.
+3. Beğendiğiniz stil rozetlerini veya metni tıklayıp kopyalayın.
 4. Readme dosyanıza ekleyin.
 
 ## Örnek
 
-### Stil Seçeneği 1:
+### Stil Seçenek1:
 
 <div align="right" >
   <details>
@@ -82,7 +82,7 @@ veya
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=fr">Français</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=de">Deutsch</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=es">Español</a>
-         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Itapano</a>
+         | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=it">Italiano</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=ru">Русский</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=pt">Português</a>
          | <a href="https://openaitx.github.io/view.html?user=OpenAiTx&project=OpenAiTx&lang=nl">Nederlands</a>
@@ -164,6 +164,6 @@ Projeyi çatallayın → Projeyi klonlayın → Dilinizde bir betik seçin → A
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
 
 ---

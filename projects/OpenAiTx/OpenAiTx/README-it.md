@@ -33,35 +33,35 @@
 
 
 <div align="center">
- Il tuo <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a> può rendere Open Ai Tx migliore
+ Il tuo <a href="https://github.com/OpenAiTx/OpenAiTx">Star</a>  può rendere Open Ai Tx migliore
 </div>
 
 
 ## Introduzione
 
-**OpenAiTx** è uno strumento di traduzione automatica in 20 lingue per il readme e la wiki del tuo progetto GitHub.
+**OpenAiTx** strumento di traduzione automatica in 20 lingue per il readme & wiki del tuo progetto GitHub.
 
 ## Perché?
 
-1. Traduzione una tantum utilizzando LLM di livello premium e rendi il risultato liberamente accessibile alla comunità open-source.
-2. Supporto SEO multilingua per Google/Bing, cosa che uno strumento di traduzione lato client non può fare.
-3. Gratuito e open source per sempre.
-4. Invia una sola volta e auto-aggiorna in futuro, ti fa risparmiare tempo se sei un maintainer del progetto.
+1. Traduzione unica con LLM di livello premium e risultato accessibile gratuitamente alla comunità open source.
+2. Supporta la ricerca SEO multilingue Google/Bing, cosa che gli strumenti di traduzione client non possono fare.
+3. Gratuito & Open Source per sempre.
+4. Invia una sola volta e aggiorna automaticamente in futuro, ti fa risparmiare tempo se sei un maintainer di progetto.
 
 
 ## Come iniziare
 
-1. Sostituisci l'URL `GitHub` con `OpenAiTx`, es. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
+1. Sostituisci URL `GitHub` con `OpenAiTx`, es. https://github.com/OpenAiTx/OpenAiTx → https://openaitx.com/OpenAiTx/OpenAiTx  
 2. Invia il tuo progetto.
-3. Clicca e copia i badge o il testo nello stile che preferisci.
-4. Aggiorna il file readme.
+3. Clicca e copia il badge o il testo nello stile che preferisci.
+4. Aggiorna il tuo file readme.
 
 oppure
 
 1. Accedi a https://openaitx.com
 2. Invia il link del tuo progetto.
-3. Clicca e copia i badge o il testo nello stile che preferisci.
-4. Aggiorna il file readme.
+3. Clicca e copia il badge o il testo nello stile che preferisci.
+4. Aggiorna il tuo file readme.
 
 ## Esempio
 
@@ -164,6 +164,6 @@ Forka il progetto → Clona il progetto → Scegli uno script nella tua lingua �
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
 
 ---

@@ -1,3 +1,33 @@
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=mrshaw01&project=software-engineer&lang=id">Indonesian</a>
+      </div>
+    </div>
+  </details>
+</div>
+
 <div align="center">
   <h1>Software Engineer</h1>
   <p>
