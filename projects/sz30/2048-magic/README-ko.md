@@ -1,42 +1,69 @@
+<div align="right">
+  <details>
+    <summary >🌐 다른 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
+
+
 [English](https://raw.githubusercontent.com/sz30/2048-magic/main/README.md) | [简体中文](https://raw.githubusercontent.com/sz30/2048-magic/main/README.zh-CN.md) | [繁體中文](https://raw.githubusercontent.com/sz30/2048-magic/main/README.zh-TW.md)
 
 # 🎮 2048++
 
-고전 2048 게임의 향상된 버전으로, 더욱 재미있는 기능들이 추가되었습니다! 여가 시간에 만든 작은 프로젝트인데, 여러분께 즐거움을 드리길 바랍니다!
+고전 2048 게임의 향상된 버전, 이제 더 재미있는 기능과 함께 돌아왔습니다! 이 프로젝트는 제가 여가 시간에 만든 작은 프로젝트입니다—여러분께 즐거움을 드리길 바랍니다!
 
 ## 🎯 게임 소개
 
-2048은 간단하면서도 중독성 있는 숫자 합치기 게임입니다. 4x4 격자에서 위, 아래, 왼쪽, 오른쪽으로 스와이프하여 같은 숫자의 타일을 합칩니다. 목표는? 2048에 도달하는 것(하지만 더 높은 점수를 위해 계속 플레이할 수도 있어요)!
+2048은 단순하면서도 중독성 있는 숫자 합치기 게임입니다. 4x4 그리드에서 위, 아래, 왼쪽, 오른쪽으로 스와이프해 같은 숫자의 타일을 합치세요. 목표는? 2048에 도달하는 것(물론, 더 높은 점수도 계속 도전할 수 있습니다)!
 
 **게임 방법:**
-- 화살표 키 또는 WASD 키로 타일을 이동하세요.
-- 같은 숫자의 두 타일이 충돌하면 하나로 합쳐집니다.
-- 매 이동 후 빈 칸에 2 또는 4가 무작위로 나타납니다.
+- 방향키 또는 WASD로 타일을 이동하세요.
+- 같은 숫자의 타일 두 개가 충돌하면 하나로 합쳐집니다.
+- 각 이동 후, 빈 칸에 2 또는 4가 무작위로 등장합니다.
 - 더 이상 이동할 수 없으면 게임이 종료됩니다.
 
 ## ✨ 특별 기능
 
 ### 1. 실행 취소 기능
-- 잘못된 움직임을 했나요? 걱정 마세요!
-- "Undo" 버튼을 눌러 한 단계 되돌릴 수 있습니다.
-- 시작부터 원하는 만큼 여러 번 실행 취소할 수 있습니다.
-- 손가락 실수로 게임이 망치지 않도록 하세요!
+- 잘못 움직였나요? 걱정 마세요!
+- "실행 취소" 버튼을 눌러 한 단계 이전으로 돌아갈 수 있습니다.
+- 게임 시작부터 언제든지 여러 번 실행 취소가 가능합니다.
+- 손가락 실수로 게임이 망치는 일은 이제 그만!
 
 ### 2. 비밀 치트 모드
 - 마법의 시퀀스를 입력하세요: ←←→→ →→←← (왼쪽, 왼쪽, 오른쪽, 오른쪽, 오른쪽, 오른쪽, 왼쪽, 왼쪽)
 - 모든 타일이 마법처럼 128로 변합니다!
-- 이건 재미를 위한 이스터 에그입니다.
-- 프로 팁: 치트는 재미있지만 너무 남용하지 마세요! 😉
+- 재미를 위한 이스터에그입니다.
+- 꿀팁: 치트는 재밌지만 너무 남용하지 마세요! 😉
 
 ## 🎯 데모
 
-🎯 여기서 플레이하세요: [http://2048.ct8.pl](http://2048.ct8.pl:9969/)
+🎯 여기서 플레이: [http://2048.ct8.pl](http://2048.ct8.pl:9969/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
 
 ## 📁 프로젝트 구조
-
 ```
 2048/
 ├── static/
@@ -94,6 +121,6 @@ _최종 업데이트: 2025년 6월_
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-19
 
 ---

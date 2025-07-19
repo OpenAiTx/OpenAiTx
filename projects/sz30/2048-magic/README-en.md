@@ -1,4 +1,32 @@
-[English](https://raw.githubusercontent.com/sz30/2048-magic/main/README.md) | [简体中文](https://raw.githubusercontent.com/sz30/2048-magic/main/README.zh-CN.md) | [繁體中文](https://raw.githubusercontent.com/sz30/2048-magic/main/README.zh-TW.md)
+<div align="right">
+  <details>
+    <summary >🌐 Other Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=id">Indonesian</a>
+      </div>
+    </div>
+  </details>
+</div>
+
+
+[English](https://raw.githubusercontent.com/sz30/2048-magic/main/README.md) | [Simplified Chinese](https://raw.githubusercontent.com/sz30/2048-magic/main/README.zh-CN.md) | [Traditional Chinese](https://raw.githubusercontent.com/sz30/2048-magic/main/README.zh-TW.md)
 
 # 🎮 2048++
 
@@ -36,7 +64,6 @@ An enhanced version of the classic 2048 game, now with even more fun features! T
 
 
 ## 📁 Project Structure
-
 ```
 2048/
 ├── static/
@@ -94,6 +121,6 @@ _Last updated: Jun. 2025_
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-19
 
 ---

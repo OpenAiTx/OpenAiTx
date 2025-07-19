@@ -1,0 +1,509 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 3D Model Playground\n\nControl 3D models using hand gestures and voice commands in real-time.\n\nAn interactive web app built with threejs, mediapipe computer vision, web speech API, and rosebud AI.\n\n- Say \"drag\", \"rotate\", \"scale\", or \"animate\" to change the interaction mode\n- Pinch fingers to control the 3D model\n- Drag/drop a new 3D model onto the page to import it (GLB/GLTF format)\n\n[Video](https://youtu.be/_I1E44Fp1Es?si=lR2otqR_-ZGdIGXT) | [Live Demo](https://collidingscopes.github.io/3d-model-playground/)\n\n## Requirements\n\n- Modern web browser with WebGL support\n- Camera / microphone access\n\n## Technologies\n\n- **Three.js** for 3D rendering\n- **MediaPipe** for hand tracking and gesture recognition\n- **Web Speech API** for speech recognition\n- **HTML5 Canvas** for visual feedback\n- **JavaScript** for real-time interaction\n\n## Setup for Development\n",
+    "ContentSha": "sGM/BG+3cCu3E3DLWQLsqlnZO4zzIm0wX1qtEz8w+eQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># 3D Model Playground\n\nControl 3D models using hand gestures and voice commands in real-time.\n\nAn interactive web app built with threejs, mediapipe computer vision, web speech API, and rosebud AI.\n\n- Say \"drag\", \"rotate\", \"scale\", or \"animate\" to change the interaction mode\n- Pinch fingers to control the 3D model\n- Drag/drop a new 3D model onto the page to import it (GLB/GLTF format)\n\n[Video](https://youtu.be/_I1E44Fp1Es?si=lR2otqR_-ZGdIGXT) | [Live Demo](https://collidingscopes.github.io/3d-model-playground/)\n\n## Requirements\n\n- Modern web browser with WebGL support\n- Camera / microphone access\n\n## Technologies\n\n- **Three.js** for 3D rendering\n- **MediaPipe** for hand tracking and gesture recognition\n- **Web Speech API** for speech recognition\n- **HTML5 Canvas** for visual feedback\n- **JavaScript** for real-time interaction\n\n## Setup for Development\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "VzaVSqr5F5wv7OgczunzFvMvkfeO5sVChno+ko1hqEA=",
+        "originContent": "# 3D Model Playground",
+        "translatedContent": "<translate-content># 3D Model Playground"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "TrtyFLOOjF1Lha2LVMz59xcMBH2DTgg4iPX33Wg+z1c=",
+        "originContent": "Control 3D models using hand gestures and voice commands in real-time.",
+        "translatedContent": "Control 3D models using hand gestures and voice commands in real-time."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "EFYoL4dpGKi3YtcUNh8XVRSW6rrq6mTirZOzZaMMs0Y=",
+        "originContent": "An interactive web app built with threejs, mediapipe computer vision, web speech API, and rosebud AI.",
+        "translatedContent": "An interactive web app built with threejs, mediapipe computer vision, web speech API, and rosebud AI."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "p6VPJ3fiqZnPkFBGRyd3n9rpAR4M8XMQhXQfjmzAz1Q=",
+        "originContent": "- Say \"drag\", \"rotate\", \"scale\", or \"animate\" to change the interaction mode",
+        "translatedContent": "- Say \"drag\", \"rotate\", \"scale\", or \"animate\" to change the interaction mode"
+      },
+      {
+        "row": 8,
+        "rowsha": "CtwRBrUVBQZlQCeWq3E2elMO2Q8f6e1AJrbpIDjFPsw=",
+        "originContent": "- Pinch fingers to control the 3D model",
+        "translatedContent": "- Pinch fingers to control the 3D model"
+      },
+      {
+        "row": 9,
+        "rowsha": "ufUG4/m7YjL447tz01cVfViV3oPdnaQwsuwm2cpVK+g=",
+        "originContent": "- Drag/drop a new 3D model onto the page to import it (GLB/GLTF format)",
+        "translatedContent": "- Drag/drop a new 3D model onto the page to import it (GLB/GLTF format)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Kc/XN1AYubAeeaU1x7kmIa4ngaUGL7OHf1WJR3D226M=",
+        "originContent": "[Video](https://youtu.be/_I1E44Fp1Es?si=lR2otqR_-ZGdIGXT) | [Live Demo](https://collidingscopes.github.io/3d-model-playground/)",
+        "translatedContent": "[Video](https://youtu.be/_I1E44Fp1Es?si=lR2otqR_-ZGdIGXT) | [Live Demo](https://collidingscopes.github.io/3d-model-playground/)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+        "originContent": "## Requirements",
+        "translatedContent": "## Requirements"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "oFnhN1z0w8kBQHQlQ+mz5wWjY+Nhp28CxJeXjeksekc=",
+        "originContent": "- Modern web browser with WebGL support",
+        "translatedContent": "- Modern web browser with WebGL support"
+      },
+      {
+        "row": 16,
+        "rowsha": "HLWVpyHN4M0vpvTh8Xn0H2DB4PiGjn9FFRRRkBngcHU=",
+        "originContent": "- Camera / microphone access",
+        "translatedContent": "- Camera / microphone access"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "8F3iiDGZOfkbUmWreBWg6jAbmrN3dmmDPu+obW5GkU4=",
+        "originContent": "## Technologies",
+        "translatedContent": "## Technologies"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "/YC97HYd4pEPy5xQvD5Wj5TUKjxmjCbO7eEuk6ydJAM=",
+        "originContent": "- **Three.js** for 3D rendering",
+        "translatedContent": "- **Three.js** for 3D rendering"
+      },
+      {
+        "row": 21,
+        "rowsha": "C6MbYOwHbXjumAKFhKVMKDflKlD68WPn2derCJVTTfU=",
+        "originContent": "- **MediaPipe** for hand tracking and gesture recognition",
+        "translatedContent": "- **MediaPipe** for hand tracking and gesture recognition"
+      },
+      {
+        "row": 22,
+        "rowsha": "itpuqnpvyzMNwB9/Jscwq4jxIGvVjIWPohqkxeo0/NU=",
+        "originContent": "- **Web Speech API** for speech recognition",
+        "translatedContent": "- **Web Speech API** for speech recognition"
+      },
+      {
+        "row": 23,
+        "rowsha": "MvdxZ9C0i7IxLZHPC92nMWdbZDzFCYzEyLlZzv5GvfY=",
+        "originContent": "- **HTML5 Canvas** for visual feedback",
+        "translatedContent": "- **HTML5 Canvas** for visual feedback"
+      },
+      {
+        "row": 24,
+        "rowsha": "l7gox55ruQkB5o2S/Aw95yqMSyeK+1LPJXUKd9cQKUo=",
+        "originContent": "- **JavaScript** for real-time interaction",
+        "translatedContent": "- **JavaScript** for real-time interaction"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "KXYzMHm4WhqzDfHFL5TkcXIzNPsyVStyEoH0SSeDaPk=",
+        "originContent": "## Setup for Development",
+        "translatedContent": "## Setup for Development"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\n# Clone this repository\ngit clone https://github.com/collidingScopes/3d-model-playground\n\n# Navigate to the project directory\ncd 3d-model-playground\n\n# Serve with your preferred method (example using Python)\npython -m http.server\n```",
+    "ContentSha": "vhQ6fBjs2sVgSUPAY/VJcJAzYFN/y2WYDTKpqebF8dU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Clone this repository\ngit clone https://github.com/collidingScopes/3d-model-playground\n\n# Navigate to the project directory\ncd 3d-model-playground\n\n# Serve with your preferred method (example using Python)\npython -m http.server\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "FfyxfixqwnpInq0Xfs4gMI6UD6eB3RcxOdzb5OuQkqw=",
+        "originContent": "# Clone this repository",
+        "translatedContent": "# Clone this repository"
+      },
+      {
+        "row": 3,
+        "rowsha": "pTJSFBpbXcp+cWo3Wyzr2cE8/3dFoc5Vkrgn9leJqKY=",
+        "originContent": "git clone https://github.com/collidingScopes/3d-model-playground",
+        "translatedContent": "git clone https://github.com/collidingScopes/3d-model-playground"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "oORg+DW085dQPA1iYJn2EKIlwuy1AUKWQuOHD6U849I=",
+        "originContent": "# Navigate to the project directory",
+        "translatedContent": "# Navigate to the project directory"
+      },
+      {
+        "row": 6,
+        "rowsha": "Kh9pNUFOvmYcrwFjGSn5bzh1ZQYn2yG1l8YTV6xEJ3w=",
+        "originContent": "cd 3d-model-playground",
+        "translatedContent": "cd 3d-model-playground"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "6tallz3SZg2z344KbWDNPlFMFZlopcMcIs7OgZyokv4=",
+        "originContent": "# Serve with your preferred method (example using Python)",
+        "translatedContent": "# Serve with your preferred method (example using Python)"
+      },
+      {
+        "row": 9,
+        "rowsha": "pbCYRUfb8kOHJM3iANBSVCxr9QetDFXMw+z2hWqGm4U=",
+        "originContent": "python -m http.server",
+        "translatedContent": "python -m http.server"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nThen navigate to `http://localhost:8000` in your browser.\n\n## License\n\nMIT License\n\n## Credits\n\n- Three.js - https://threejs.org/\n- MediaPipe - https://mediapipe.dev/\n- Rosebud AI - https://rosebud.ai/\n- Quaternius 3D models - https://quaternius.com/\n\n## Related Projects\n\nI've released several computer vision projects (with code + tutorials) here:\n[Fun With Computer Vision](https://www.funwithcomputervision.com/)\n\nYou can purchase lifetime access and receive the full project files and tutorials. I'm adding more content regularly :)\n\nYou might also like some of my other open source projects:\n\n- [Particular Drift](https://collidingScopes.github.io/particular-drift) - Turn photos into flowing particle animations\n- [Liquid Logo](https://collidingScopes.github.io/liquid-logo) - Transform logos and icons into liquid metal animations\n- [Video-to-ASCII](https://collidingScopes.github.io/ascii) - Convert videos into ASCII pixel art\n\n## Contact\n\n- Instagram: [@stereo.drift](https://www.instagram.com/stereo.drift/)\n- Twitter/X: [@measure_plan](https://x.com/measure_plan)\n- Email: [stereodriftvisuals@gmail.com](https://raw.githubusercontent.com/collidingScopes/3d-model-playground/main/mailto:stereodriftvisuals@gmail.com)\n- GitHub: [collidingScopes](https://github.com/collidingScopes)\n\n## Donations\n\nIf you enjoyed this, feel free to buy me a coffee.\n\nMy name is Alan, and I enjoy building open source software for computer vision, games, and more. This would be much appreciated during late-night coding sessions!\n\n[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/stereoDrift)",
+    "ContentSha": "b1asyH9/+Jc6xkRAgsYw06y0R1Fi7XoXM2gLtRLXidQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Then navigate to `http://localhost:8000` in your browser.\n\n## License\n\nMIT License\n\n## Credits\n\n- Three.js - https://threejs.org/\n- MediaPipe - https://mediapipe.dev/\n- Rosebud AI - https://rosebud.ai/\n- Quaternius 3D models - https://quaternius.com/\n\n## Related Projects\n\nI've released several computer vision projects (with code + tutorials) here:\n[Fun With Computer Vision](https://www.funwithcomputervision.com/)\n\nYou can purchase lifetime access and receive the full project files and tutorials. I'm adding more content regularly :)\n\nYou might also like some of my other open source projects:\n\n- [Particular Drift](https://collidingScopes.github.io/particular-drift) - Turn photos into flowing particle animations\n- [Liquid Logo](https://collidingScopes.github.io/liquid-logo) - Transform logos and icons into liquid metal animations\n- [Video-to-ASCII](https://collidingScopes.github.io/ascii) - Convert videos into ASCII pixel art\n\n## Contact\n\n- Instagram: [@stereo.drift](https://www.instagram.com/stereo.drift/)\n- Twitter/X: [@measure_plan](https://x.com/measure_plan)\n- Email: [stereodriftvisuals@gmail.com](https://raw.githubusercontent.com/collidingScopes/3d-model-playground/main/mailto:stereodriftvisuals@gmail.com)\n- GitHub: [collidingScopes](https://github.com/collidingScopes)\n\n## Donations\n\nIf you enjoyed this, feel free to buy me a coffee.\n\nMy name is Alan, and I enjoy building open source software for computer vision, games, and more. This would be much appreciated during late-night coding sessions!\n\n[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/stereoDrift)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Then navigate to `http://localhost:8000` in your browser."
+      },
+      {
+        "row": 2,
+        "rowsha": "BozR4ihunqaYgg6A+6RqGgU4QuKWdqVButf7+moNyWw=",
+        "originContent": "Then navigate to `http://localhost:8000` in your browser.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## License"
+      },
+      {
+        "row": 4,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "MIT License"
+      },
+      {
+        "row": 6,
+        "rowsha": "q7KJbcPCqUAvkBuI1QNc8Kg9XPfBfnNkLN9WKwudO8U=",
+        "originContent": "MIT License",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Credits"
+      },
+      {
+        "row": 8,
+        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+        "originContent": "## Credits",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Three.js - https://threejs.org/"
+      },
+      {
+        "row": 10,
+        "rowsha": "MafFbkVFgBhZmzz+ZGNslsDrkIFOLB+kMjzdkfWDaC8=",
+        "originContent": "- Three.js - https://threejs.org/",
+        "translatedContent": "- MediaPipe - https://mediapipe.dev/"
+      },
+      {
+        "row": 11,
+        "rowsha": "SNV/EEMQLnW14NsqqNDp6E3M/9z7GVfI1MP6JHB028s=",
+        "originContent": "- MediaPipe - https://mediapipe.dev/",
+        "translatedContent": "- Rosebud AI - https://rosebud.ai/"
+      },
+      {
+        "row": 12,
+        "rowsha": "FeDdU5Q8TUeVKlKBwdLoM6AY4slb89R8BS/YtAfzlRk=",
+        "originContent": "- Rosebud AI - https://rosebud.ai/",
+        "translatedContent": "- Quaternius 3D models - https://quaternius.com/"
+      },
+      {
+        "row": 13,
+        "rowsha": "47B8kqQy9CnPdbAMEQKAbJRo2v90hM50ZnNF3GMjwgE=",
+        "originContent": "- Quaternius 3D models - https://quaternius.com/",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Related Projects"
+      },
+      {
+        "row": 15,
+        "rowsha": "029pqroXXjHSLawpWTocF2CPk5dLz29+pGq/paa0amA=",
+        "originContent": "## Related Projects",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "I've released several computer vision projects (with code + tutorials) here:"
+      },
+      {
+        "row": 17,
+        "rowsha": "ZysHKamBWkgPi0c+YvstdgsSsz/Z9ZbSlChLBLmL5h4=",
+        "originContent": "I've released several computer vision projects (with code + tutorials) here:",
+        "translatedContent": "[Fun With Computer Vision](https://www.funwithcomputervision.com/)"
+      },
+      {
+        "row": 18,
+        "rowsha": "LchsSp8VsSZqP0go/jczQXPJZJnVJYK6tQWYxuPKlnM=",
+        "originContent": "[Fun With Computer Vision](https://www.funwithcomputervision.com/)",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "You can purchase lifetime access and receive the full project files and tutorials. I'm adding more content regularly :)"
+      },
+      {
+        "row": 20,
+        "rowsha": "ZrxYLM1UU8LvID3gGMw5U6nwC30kk4qt1oM7nR6iEXg=",
+        "originContent": "You can purchase lifetime access and receive the full project files and tutorials. I'm adding more content regularly :)",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "You might also like some of my other open source projects:"
+      },
+      {
+        "row": 22,
+        "rowsha": "dnf0FwgOevNcnu9jyzRzxkZ2BAAaP1lCfRdWEYV3LcM=",
+        "originContent": "You might also like some of my other open source projects:",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [Particular Drift](https://collidingScopes.github.io/particular-drift) - Turn photos into flowing particle animations"
+      },
+      {
+        "row": 24,
+        "rowsha": "wCZlaniUj8xel4fdDlKUsQ6to1KrK1x6raYY0N8pz5c=",
+        "originContent": "- [Particular Drift](https://collidingScopes.github.io/particular-drift) - Turn photos into flowing particle animations",
+        "translatedContent": "- [Liquid Logo](https://collidingScopes.github.io/liquid-logo) - Transform logos and icons into liquid metal animations"
+      },
+      {
+        "row": 25,
+        "rowsha": "VNwF4PkNURmKTnKmT97UYMWz78kxaVn1iG1PE9wLvb0=",
+        "originContent": "- [Liquid Logo](https://collidingScopes.github.io/liquid-logo) - Transform logos and icons into liquid metal animations",
+        "translatedContent": "- [Video-to-ASCII](https://collidingScopes.github.io/ascii) - Convert videos into ASCII pixel art"
+      },
+      {
+        "row": 26,
+        "rowsha": "2QfTnRITnWsRlkjjXRxZKdppfP+VOz1/oHkuJyxPUC4=",
+        "originContent": "- [Video-to-ASCII](https://collidingScopes.github.io/ascii) - Convert videos into ASCII pixel art",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Contact"
+      },
+      {
+        "row": 28,
+        "rowsha": "ZX9nbduzXgvmAaK8yTd+tNgwR7cV79HXV/+xbvL8suw=",
+        "originContent": "## Contact",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Instagram: [@stereo.drift](https://www.instagram.com/stereo.drift/)"
+      },
+      {
+        "row": 30,
+        "rowsha": "SpjHK2lmj5JiiM69CWrwqgeim0AfHP7XsYH75v86no0=",
+        "originContent": "- Instagram: [@stereo.drift](https://www.instagram.com/stereo.drift/)",
+        "translatedContent": "- Twitter/X: [@measure_plan](https://x.com/measure_plan)"
+      },
+      {
+        "row": 31,
+        "rowsha": "2NGrt5QR1OnvfPiWRROOM89DY8t1MHvv5kqw3knbiBc=",
+        "originContent": "- Twitter/X: [@measure_plan](https://x.com/measure_plan)",
+        "translatedContent": "- Email: [stereodriftvisuals@gmail.com](https://raw.githubusercontent.com/collidingScopes/3d-model-playground/main/mailto:stereodriftvisuals@gmail.com)"
+      },
+      {
+        "row": 32,
+        "rowsha": "OP2iuk3DSkKNkhmcUhhwMZjJwpSzqSBUOq8t0fCzPtY=",
+        "originContent": "- Email: [stereodriftvisuals@gmail.com](https://raw.githubusercontent.com/collidingScopes/3d-model-playground/main/mailto:stereodriftvisuals@gmail.com)",
+        "translatedContent": "- GitHub: [collidingScopes](https://github.com/collidingScopes)"
+      },
+      {
+        "row": 33,
+        "rowsha": "9dvyN1TWgFi+GdyGTWP6+mWKzoXsjSLlTlrHWuDJHeA=",
+        "originContent": "- GitHub: [collidingScopes](https://github.com/collidingScopes)",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Donations"
+      },
+      {
+        "row": 35,
+        "rowsha": "x/kHykQnDOYoMBjhKixSztWg1rO9QQXPK45W0JE9IwQ=",
+        "originContent": "## Donations",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "If you enjoyed this, feel free to buy me a coffee."
+      },
+      {
+        "row": 37,
+        "rowsha": "IVR6P/9A5GVuJQ8vFyWWYt0PrIhgeeFIa8lEH4WVpb8=",
+        "originContent": "If you enjoyed this, feel free to buy me a coffee.",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "My name is Alan, and I enjoy building open source software for computer vision, games, and more. This would be much appreciated during late-night coding sessions!"
+      },
+      {
+        "row": 39,
+        "rowsha": "vXg8eG8vjgkRLf2R0kdMHKV41ApLE5n3JZYS6aqwhjo=",
+        "originContent": "My name is Alan, and I enjoy building open source software for computer vision, games, and more. This would be much appreciated during late-night coding sessions!",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/stereoDrift)"
+      },
+      {
+        "row": 41,
+        "rowsha": "Cma8SdxjwsIP9fBdcA6vlWcFt7/AIzbbE/oI1Q+a37k=",
+        "originContent": "[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/stereoDrift)",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

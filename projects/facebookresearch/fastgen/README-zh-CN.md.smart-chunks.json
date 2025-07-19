@@ -1,0 +1,757 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Fastgen\n\n**High-throughput inference from dense transformers.**\n\nFastgen is an LLM inference library featuring state-of-the-art\ntechniques: batched inference, cuda graphs, paged attention,\nchunked prefills, host-side kv-cache, tensor parallelism,\ncpu/gpu profiling.\n\nYou can see it as a mini (~3kloc) vLLM that is easily imported\ninto larger systems such as RL loops or synthetic data generation\npipelines.\n\nThe following HuggingFace models are known to be supported:\nLlama 3.1 8B, Mistral 7B, Ministral 8B, R1-Llama 8B and 70B,\nR1-Qwen 14B, Qwen2.5 7B and 14B; more may work.\n\n## Benchmarks\n\n|                       | Fastgen      | vLLM (0.8.4) |\n| --------------------- | ------------ | -----------  |\n| Mistral 7B / 1x H100  | 3430 toks/s  | 3390 toks/s  |\n| Qwen2.5 14B / 1x H100 | 1700 toks/s  | 1700 toks/s  |\n| Llama 70B / 8x H100   | 2260 toks/s  | 2230 toks/s  |\n\nThe throughputs presented in this table were collected using\n`fgserve` (see below) and `vllm serve` with a load of 128\ndecoding steps for 512 prompts of 1024 tokens. The figure\nbelow shows more detailed results for the Mistral 7B model\nacross a range of generation loads.\n\n![Mistral 7B Benchmark](https://raw.githubusercontent.com/facebookresearch/fastgen/main/scripts/data/mistral7-perf.png)\n\n> [!NOTE]\n> When running tests against `fgserve` you might observe\n> reduced performance for short prompts. This lower\n> performance is due to the unoptimized threaded HTTP\n> serving code and causes Fastgen to run on small\n> (inefficient) batches. Production applications using\n> Fastgen should adopt process-based parallelism.\n\n## Demo Tools\n\nThe library comes with two tools: `fgchat` and `fgserve`.\nThe first tool is a basic demo implementing a command-line\nchat; the second one serves a bare-bones OpenAI chat API.\n\n### fgchat\n",
+    "ContentSha": "SPxGi4tFM9OxYuIl0+pcS+sJpXwpMzZNK3zY4FHZml0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># Fastgen\n\n**高吞吐量的稠密变换器推理。**\n\nFastgen 是一个大型语言模型推理库，具备最先进的技术：\n批量推理、CUDA 图、分页注意力、分块预填充、主机端 KV 缓存、\n张量并行、CPU/GPU 性能分析。\n\n你可以将其视为一个迷你版（约 3k 行代码）的 vLLM，\n可以轻松导入到更大的系统中，如强化学习循环或合成数据生成\n管道。\n\n以下 HuggingFace 模型已知支持：\nLlama 3.1 8B，Mistral 7B，Ministral 8B，R1-Llama 8B 和 70B，\nR1-Qwen 14B，Qwen2.5 7B 和 14B；可能还有更多。\n\n## 基准测试\n\n|                       | Fastgen      | vLLM (0.8.4) |\n| --------------------- | ------------ | -----------  |\n| Mistral 7B / 1x H100  | 3430 toks/s  | 3390 toks/s  |\n| Qwen2.5 14B / 1x H100 | 1700 toks/s  | 1700 toks/s  |\n| Llama 70B / 8x H100   | 2260 toks/s  | 2230 toks/s  |\n\n此表中展示的吞吐量数据是通过使用\n`fgserve`（见下文）和 `vllm serve`，对 512 个提示中每个\n1024 个标记进行 128 步解码负载时收集的。下图显示了\nMistral 7B 模型在不同生成负载下的更详细结果。\n\n![Mistral 7B 基准测试](https://raw.githubusercontent.com/facebookresearch/fastgen/main/scripts/data/mistral7-perf.png)\n\n> [!注意]\n> 在对 `fgserve` 进行测试时，你可能会观察到短提示的\n> 性能下降。这种性能降低是由于未优化的多线程 HTTP\n> 服务代码导致 Fastgen 在小批量（效率低下）上运行。\n> 使用 Fastgen 的生产环境应采用基于进程的并行。\n\n## 演示工具\n\n该库附带两个工具：`fgchat` 和 `fgserve`。\n第一个工具是一个基本的命令行聊天演示；第二个则提供\n一个简易的 OpenAI 聊天 API 服务。\n\n### fgchat\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "a8ydthEGSm0XHFDyZYq146d/x+vyV+590ATlbqMVTO4=",
+        "originContent": "# Fastgen",
+        "translatedContent": "<translate-content># Fastgen"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "pyIAtSLl4hMwnS7pxACOo8ckArCWDy42E5CAzgtj3/o=",
+        "originContent": "**High-throughput inference from dense transformers.**",
+        "translatedContent": "**高吞吐量的稠密变换器推理。**"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "d8qR9UmVerW9guVPmZoTWu9mzTTUVzLltYHeKUB4sKg=",
+        "originContent": "Fastgen is an LLM inference library featuring state-of-the-art",
+        "translatedContent": "Fastgen 是一个大型语言模型推理库，具备最先进的技术："
+      },
+      {
+        "row": 6,
+        "rowsha": "LLTshjhopcmG5kfaMyeaVuJnzQacgy6X479B/QY+CYU=",
+        "originContent": "techniques: batched inference, cuda graphs, paged attention,",
+        "translatedContent": "批量推理、CUDA 图、分页注意力、分块预填充、主机端 KV 缓存、"
+      },
+      {
+        "row": 7,
+        "rowsha": "TwrV9umWs96Og3RU32bAw0h+xkloO0Hx/9XYL+Okb2c=",
+        "originContent": "chunked prefills, host-side kv-cache, tensor parallelism,",
+        "translatedContent": "张量并行、CPU/GPU 性能分析。"
+      },
+      {
+        "row": 8,
+        "rowsha": "vVctB9gc1yPl1Iq8FrTZPwQNKxRdOvKhUSN+/hLZ5hI=",
+        "originContent": "cpu/gpu profiling.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "你可以将其视为一个迷你版（约 3k 行代码）的 vLLM，"
+      },
+      {
+        "row": 10,
+        "rowsha": "zNLZlISfMokh37LM0R8jLumZhK1mW1YpnyOmy2q/SMM=",
+        "originContent": "You can see it as a mini (~3kloc) vLLM that is easily imported",
+        "translatedContent": "可以轻松导入到更大的系统中，如强化学习循环或合成数据生成"
+      },
+      {
+        "row": 11,
+        "rowsha": "kotEs/BXo4LluM5bi2DCstnOl2NDbIb038NV9ddoiS0=",
+        "originContent": "into larger systems such as RL loops or synthetic data generation",
+        "translatedContent": "管道。"
+      },
+      {
+        "row": 12,
+        "rowsha": "g3NLTIq/TWN1k1K6bFotnmSgMm6q4WH2++PHb7Mx6Wg=",
+        "originContent": "pipelines.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "以下 HuggingFace 模型已知支持："
+      },
+      {
+        "row": 14,
+        "rowsha": "sVKkbptQcIJlOPLFF/Tk2DJ0nstIz4fymLNz2sUrXZQ=",
+        "originContent": "The following HuggingFace models are known to be supported:",
+        "translatedContent": "Llama 3.1 8B，Mistral 7B，Ministral 8B，R1-Llama 8B 和 70B，"
+      },
+      {
+        "row": 15,
+        "rowsha": "2QAwIWiLGIp38tffsUJ0pBaZWedmplbV+nYV1Sg6Ues=",
+        "originContent": "Llama 3.1 8B, Mistral 7B, Ministral 8B, R1-Llama 8B and 70B,",
+        "translatedContent": "R1-Qwen 14B，Qwen2.5 7B 和 14B；可能还有更多。"
+      },
+      {
+        "row": 16,
+        "rowsha": "o/i8BNnJEpILrR1lfnF7jrG3p6WtDzKHtGDS7aUULlg=",
+        "originContent": "R1-Qwen 14B, Qwen2.5 7B and 14B; more may work.",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 基准测试"
+      },
+      {
+        "row": 18,
+        "rowsha": "ZrB6WAnr2MUw+xxeGHyQMYA7Rp0gMGJzZS08QrJ5eE8=",
+        "originContent": "## Benchmarks",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "|                       | Fastgen      | vLLM (0.8.4) |"
+      },
+      {
+        "row": 20,
+        "rowsha": "qbD+O4jwO07Sc/rjeaQZ2qGbT4xUaXorz7eAuZ7s8as=",
+        "originContent": "|                       | Fastgen      | vLLM (0.8.4) |",
+        "translatedContent": "| --------------------- | ------------ | -----------  |"
+      },
+      {
+        "row": 21,
+        "rowsha": "3SKLbwFbuUPIue9KQ5NBKY+Ba2cfS9PpnApIQlOmTLQ=",
+        "originContent": "| --------------------- | ------------ | -----------  |",
+        "translatedContent": "| Mistral 7B / 1x H100  | 3430 toks/s  | 3390 toks/s  |"
+      },
+      {
+        "row": 22,
+        "rowsha": "TFc47toJmbZ5FM1LbLPlZb6QBR2anvXxjSW2UVY1FiE=",
+        "originContent": "| Mistral 7B / 1x H100  | 3430 toks/s  | 3390 toks/s  |",
+        "translatedContent": "| Qwen2.5 14B / 1x H100 | 1700 toks/s  | 1700 toks/s  |"
+      },
+      {
+        "row": 23,
+        "rowsha": "80PhQyNw/6cbBv+o2+ljZzcSNzrM4e7Q0qxXP1SJ1Uw=",
+        "originContent": "| Qwen2.5 14B / 1x H100 | 1700 toks/s  | 1700 toks/s  |",
+        "translatedContent": "| Llama 70B / 8x H100   | 2260 toks/s  | 2230 toks/s  |"
+      },
+      {
+        "row": 24,
+        "rowsha": "A5yCCPzEDMN0PkDDBxK/qVrNSKAjjie7itxEkpNtz9w=",
+        "originContent": "| Llama 70B / 8x H100   | 2260 toks/s  | 2230 toks/s  |",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "此表中展示的吞吐量数据是通过使用"
+      },
+      {
+        "row": 26,
+        "rowsha": "RdhljP0R+KOFtFGf4TORhSUTtOKqnDEI/pU9dnLyCqU=",
+        "originContent": "The throughputs presented in this table were collected using",
+        "translatedContent": "`fgserve`（见下文）和 `vllm serve`，对 512 个提示中每个"
+      },
+      {
+        "row": 27,
+        "rowsha": "j8d6bxMrqhasWQ7uwJY/Ff/SX8tkqE/bWqtC3sj1DWo=",
+        "originContent": "`fgserve` (see below) and `vllm serve` with a load of 128",
+        "translatedContent": "1024 个标记进行 128 步解码负载时收集的。下图显示了"
+      },
+      {
+        "row": 28,
+        "rowsha": "3i+0TnDFICzEpcn+5uqpQxKCTzQtXs225r3U6sdBg08=",
+        "originContent": "decoding steps for 512 prompts of 1024 tokens. The figure",
+        "translatedContent": "Mistral 7B 模型在不同生成负载下的更详细结果。"
+      },
+      {
+        "row": 29,
+        "rowsha": "BzmqKzMyRtWYNQ5IBKbr6J81CyzbtwGjcIrXNK1WU5U=",
+        "originContent": "below shows more detailed results for the Mistral 7B model",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "9J6AKD2zm6TOdhIxX6jkEB2CvHxczKj7pa9qf6+ZFEg=",
+        "originContent": "across a range of generation loads.",
+        "translatedContent": "![Mistral 7B 基准测试](https://raw.githubusercontent.com/facebookresearch/fastgen/main/scripts/data/mistral7-perf.png)"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "/sz8PMA13MHMjp8tfqHaqfNb+4GfGo8xo6dx2PvPEuQ=",
+        "originContent": "![Mistral 7B Benchmark](https://raw.githubusercontent.com/facebookresearch/fastgen/main/scripts/data/mistral7-perf.png)",
+        "translatedContent": "> [!注意]"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> 在对 `fgserve` 进行测试时，你可能会观察到短提示的"
+      },
+      {
+        "row": 34,
+        "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+        "originContent": "> [!NOTE]",
+        "translatedContent": "> 性能下降。这种性能降低是由于未优化的多线程 HTTP"
+      },
+      {
+        "row": 35,
+        "rowsha": "kOLP2JpyzmLTzn+p8sDMp2qaWOF27AxLsaM5jpKX5qk=",
+        "originContent": "> When running tests against `fgserve` you might observe",
+        "translatedContent": "> 服务代码导致 Fastgen 在小批量（效率低下）上运行。"
+      },
+      {
+        "row": 36,
+        "rowsha": "pO2nCFedQjrR95NmP0IEZPHoBCFoLYycOeTVHBTPPSg=",
+        "originContent": "> reduced performance for short prompts. This lower",
+        "translatedContent": "> 使用 Fastgen 的生产环境应采用基于进程的并行。"
+      },
+      {
+        "row": 37,
+        "rowsha": "8mCz9ZmpM7N37Ywp81Dz6eKzMJvCUqkJdhxIcBhzhyY=",
+        "originContent": "> performance is due to the unoptimized threaded HTTP",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "YKCYTUIfuwXp/dz90gbeZHxEa3mBfY/PaePs9bHLwc4=",
+        "originContent": "> serving code and causes Fastgen to run on small",
+        "translatedContent": "## 演示工具"
+      },
+      {
+        "row": 39,
+        "rowsha": "PpxEjKxSKllZUmGDsg16KP/U3HHjKzUHDGqbSFapJ4M=",
+        "originContent": "> (inefficient) batches. Production applications using",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "8pu3dR1JuAAB2utfWAc2MVT+1kXeGWXT2uSVZ1cVWuE=",
+        "originContent": "> Fastgen should adopt process-based parallelism.",
+        "translatedContent": "该库附带两个工具：`fgchat` 和 `fgserve`。"
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "第一个工具是一个基本的命令行聊天演示；第二个则提供"
+      },
+      {
+        "row": 42,
+        "rowsha": "/MtujAmkAeWxkeJbNnkOh0TIkBpM+TS1b4MlywWHdPw=",
+        "originContent": "## Demo Tools",
+        "translatedContent": "一个简易的 OpenAI 聊天 API 服务。"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "2ogQGUf2nFtLI3bQOWZjr+AtewtMircBaE8nimg1g9M=",
+        "originContent": "The library comes with two tools: `fgchat` and `fgserve`.",
+        "translatedContent": "### fgchat"
+      },
+      {
+        "row": 45,
+        "rowsha": "Dxd8O6heeAOuDFAIq9X60/B4Gjzpe29fp+PXZf+1j/Q=",
+        "originContent": "The first tool is a basic demo implementing a command-line",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "UmHf490ucQLH4YWWXcdaBcFQdwdB8Fnn1w/kIskVa48=",
+        "originContent": "chat; the second one serves a bare-bones OpenAI chat API.",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 48,
+        "rowsha": "syjw14SgfMe4oOzv5+oen57dYPNlWwhR6iwzXIqVSx8=",
+        "originContent": "### fgchat",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\n$ # on an RTX A5000\n$ # accelerate inference with '--tensor-parallel N' if you have N GPUs\n$ fgchat mistralai/Mistral-7B-Instruct-v0.3  \nloading: 100%|███████████████████████▉| 14.5G/14.5G [00:00<00:00, 75.9GB/s]\nReady to chat!\n  Available commands:\n    /r <N> -- reset conversation before round N\n    /m     -- input a multiline message, end your input\n              with a single line containing '.'\n    /q     -- quit\n\n---\n1> hello\nHello! How can I help you today? [...]\n--- [33 tokens, 26.554toks/s]\n2> can you give me some makeup advice?\nOf course! Here are some general makeup tips that might be helpful:\n\n[...]\n--- [489 tokens, 34.715toks/s]\n3> /q\n```",
+    "ContentSha": "uvWmjx7KiQCst8QXWASrXKIlxM8rNgTcZI/tk+y6ksc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n$ # on an RTX A5000\n$ # accelerate inference with '--tensor-parallel N' if you have N GPUs\n$ fgchat mistralai/Mistral-7B-Instruct-v0.3  \nloading: 100%|███████████████████████▉| 14.5G/14.5G [00:00<00:00, 75.9GB/s]\nReady to chat!\n  Available commands:\n    /r <N> -- reset conversation before round N\n    /m     -- input a multiline message, end your input\n              with a single line containing '.'\n    /q     -- quit\n\n---\n1> hello\nHello! How can I help you today? [...]\n--- [33 tokens, 26.554toks/s]\n2> can you give me some makeup advice?\nOf course! Here are some general makeup tips that might be helpful:\n\n[...]\n--- [489 tokens, 34.715toks/s]\n3> /q\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "gc7SZcYs7g3draBxWbGNr+eGkN4PMVt2gKd4VXd1vFw=",
+        "originContent": "$ # on an RTX A5000",
+        "translatedContent": "$ # on an RTX A5000"
+      },
+      {
+        "row": 3,
+        "rowsha": "UiEgL+vzGdk2qZsTDHoIjam2dNG6TH1PisUpW0W9BrQ=",
+        "originContent": "$ # accelerate inference with '--tensor-parallel N' if you have N GPUs",
+        "translatedContent": "$ # accelerate inference with '--tensor-parallel N' if you have N GPUs"
+      },
+      {
+        "row": 4,
+        "rowsha": "TK8g40++UZgC4+22/4SuEVbe0MFk1k1GL5GiaCANEP0=",
+        "originContent": "$ fgchat mistralai/Mistral-7B-Instruct-v0.3  ",
+        "translatedContent": "$ fgchat mistralai/Mistral-7B-Instruct-v0.3  "
+      },
+      {
+        "row": 5,
+        "rowsha": "Rz5TqZfCEej4otwxrbYb/4YhR46c4qpYr37ZSQb03Wc=",
+        "originContent": "loading: 100%|███████████████████████▉| 14.5G/14.5G [00:00<00:00, 75.9GB/s]",
+        "translatedContent": "loading: 100%|███████████████████████▉| 14.5G/14.5G [00:00<00:00, 75.9GB/s]"
+      },
+      {
+        "row": 6,
+        "rowsha": "B91fbaJTnaMghDNIM0CtOhEdmAWoAqfsadL2BwaP7Ys=",
+        "originContent": "Ready to chat!",
+        "translatedContent": "Ready to chat!"
+      },
+      {
+        "row": 7,
+        "rowsha": "6rtJOBVKv0mNkmchq8iUxA+dsT2Npiv/SQkadwzydMg=",
+        "originContent": "  Available commands:",
+        "translatedContent": "  Available commands:"
+      },
+      {
+        "row": 8,
+        "rowsha": "Sn8ssE4OKFTqzLSOr3IwomSISoNSQBZFOO4PnLwIXKM=",
+        "originContent": "    /r <N> -- reset conversation before round N",
+        "translatedContent": "    /r <N> -- reset conversation before round N"
+      },
+      {
+        "row": 9,
+        "rowsha": "4//Zin6SUpQ7kyegOcywl2cSNyWhh+yMXIuBdJ9dxxA=",
+        "originContent": "    /m     -- input a multiline message, end your input",
+        "translatedContent": "    /m     -- input a multiline message, end your input"
+      },
+      {
+        "row": 10,
+        "rowsha": "ts3iJX3XmosWSKm6L4M3Mr/8VaafC8WvC99pESimDLU=",
+        "originContent": "              with a single line containing '.'",
+        "translatedContent": "              with a single line containing '.'"
+      },
+      {
+        "row": 11,
+        "rowsha": "HYCODBIwenlU/J/8NOTPoVNJbHjI6mbPxBnGW5ziXQE=",
+        "originContent": "    /q     -- quit",
+        "translatedContent": "    /q     -- quit"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 14,
+        "rowsha": "3c5tDCS/N1Ja5yDCfWkCJ1OKMDhyNX/BGpZGkFDIQJ4=",
+        "originContent": "1> hello",
+        "translatedContent": "1> hello"
+      },
+      {
+        "row": 15,
+        "rowsha": "PtkL6Zngv8fea4HeU1PGjUe4oTTQXCKGJJ4YbS5kPyY=",
+        "originContent": "Hello! How can I help you today? [...]",
+        "translatedContent": "Hello! How can I help you today? [...]"
+      },
+      {
+        "row": 16,
+        "rowsha": "wSKPItRJAlLSxm17f6rsHC5frdTngNf9SthIJM6j7Go=",
+        "originContent": "--- [33 tokens, 26.554toks/s]",
+        "translatedContent": "--- [33 tokens, 26.554toks/s]"
+      },
+      {
+        "row": 17,
+        "rowsha": "39+PlbInjcpNR92yT431A8H5D9ZZGw6QMk8QgxkG3mU=",
+        "originContent": "2> can you give me some makeup advice?",
+        "translatedContent": "2> can you give me some makeup advice?"
+      },
+      {
+        "row": 18,
+        "rowsha": "r70LN/UNuhZMUIZz+Jyqi4tdrTB9eK1QnmtUq+tEO5s=",
+        "originContent": "Of course! Here are some general makeup tips that might be helpful:",
+        "translatedContent": "Of course! Here are some general makeup tips that might be helpful:"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "Vjhb+TpgFxBMAmToH8MRKNm0JkeeHMYGCN1h4WBldek=",
+        "originContent": "[...]",
+        "translatedContent": "[...]"
+      },
+      {
+        "row": 21,
+        "rowsha": "Rsp9w3lrgpZU7JfAq8jwIbeDzoF/+9nxqBxp/NaU7EI=",
+        "originContent": "--- [489 tokens, 34.715toks/s]",
+        "translatedContent": "--- [489 tokens, 34.715toks/s]"
+      },
+      {
+        "row": 22,
+        "rowsha": "el86GPDAsOUnjWcM5m5W9YqOB8YETY4DW8jrLZREEdQ=",
+        "originContent": "3> /q",
+        "translatedContent": "3> /q"
+      },
+      {
+        "row": 23,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### fgserve\n",
+    "ContentSha": "KVwEt0IXxLYfgk+95No2pf9l49jJRojN+T512gbevCg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### fgserve\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### fgserve"
+      },
+      {
+        "row": 2,
+        "rowsha": "Y+6pJF3nBraPuBhwaZPoEb4ECyr18aylq4XHTMWbAjc=",
+        "originContent": "### fgserve",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\n$ fgserve mistralai/Mistral-7B-Instruct-v0.3  \n...\n$ cat test.py\nfrom openai import OpenAI\nclient = OpenAI(base_url=\"http://localhost:5678\", api_key=\"foo\")\n\ncompletion = client.chat.completions.create(\n    model=\"gpt-4o-mini\",\n    messages=[\n        {\"role\": \"system\", \"content\": \"You are a helpful assistant.\"},\n    ] + [\n        {\n            \"role\": \"user\",\n            \"content\": \"Write a haiku about recursion in programming.\"\n        }\n    ]\n)\nprint(completion.choices[0].message.content)\n\n$ python test.py\nCode dives within,\nEchoes of self repeat,\nSolving the unseen.\n```",
+    "ContentSha": "Vs9RLrszWcBLmR7kiWzzbE6MvFFp858hZCRqouID1Hk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n$ fgserve mistralai/Mistral-7B-Instruct-v0.3  \n...\n$ cat test.py\nfrom openai import OpenAI\nclient = OpenAI(base_url=\"http://localhost:5678\", api_key=\"foo\")\n\ncompletion = client.chat.completions.create(\n    model=\"gpt-4o-mini\",\n    messages=[\n        {\"role\": \"system\", \"content\": \"You are a helpful assistant.\"},\n    ] + [\n        {\n            \"role\": \"user\",\n            \"content\": \"Write a haiku about recursion in programming.\"\n        }\n    ]\n)\nprint(completion.choices[0].message.content)\n\n$ python test.py\nCode dives within,\nEchoes of self repeat,\nSolving the unseen.\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "slM/HvhUcxczmw4Q1VWOb6a0bvzOgMrHtHWaqYTyVys=",
+        "originContent": "$ fgserve mistralai/Mistral-7B-Instruct-v0.3  ",
+        "translatedContent": "$ fgserve mistralai/Mistral-7B-Instruct-v0.3  "
+      },
+      {
+        "row": 3,
+        "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+        "originContent": "...",
+        "translatedContent": "..."
+      },
+      {
+        "row": 4,
+        "rowsha": "grBlXAEUdPwbZsxJ1PNdXESJHBWZYLtj5MVtNL/lmqc=",
+        "originContent": "$ cat test.py",
+        "translatedContent": "$ cat test.py"
+      },
+      {
+        "row": 5,
+        "rowsha": "5ynWUamFcFcIL7QCBBEEkEw2rLs0lJ3Nac/uHVS2ykk=",
+        "originContent": "from openai import OpenAI",
+        "translatedContent": "from openai import OpenAI"
+      },
+      {
+        "row": 6,
+        "rowsha": "89xmO9QZsmjqXrOZGIOR5L0Rz3ML/8+t6FeEn7fXNPM=",
+        "originContent": "client = OpenAI(base_url=\"http://localhost:5678\", api_key=\"foo\")",
+        "translatedContent": "client = OpenAI(base_url=\"http://localhost:5678\", api_key=\"foo\")"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "eheWxfLc9DBctOSDZfto9rad47rObtznPOvPp+jnNJY=",
+        "originContent": "completion = client.chat.completions.create(",
+        "translatedContent": "completion = client.chat.completions.create("
+      },
+      {
+        "row": 9,
+        "rowsha": "7NK9Ft6236TvEHIl1ql33QWjGlEodhvXshQUYYPF7w0=",
+        "originContent": "    model=\"gpt-4o-mini\",",
+        "translatedContent": "    model=\"gpt-4o-mini\","
+      },
+      {
+        "row": 10,
+        "rowsha": "Nt60wMLD6SNvv28iZas9ZiFbGs7Yyxn6lGkc76hNzQY=",
+        "originContent": "    messages=[",
+        "translatedContent": "    messages=["
+      },
+      {
+        "row": 11,
+        "rowsha": "7MwYpcTkglqlxqPnE9c3jVA3LCkcK9Ssym5dZ/IZcXw=",
+        "originContent": "        {\"role\": \"system\", \"content\": \"You are a helpful assistant.\"},",
+        "translatedContent": "        {\"role\": \"system\", \"content\": \"You are a helpful assistant.\"},"
+      },
+      {
+        "row": 12,
+        "rowsha": "cnxNVXfgYkLLmAqnZjsc7pog+knnWoHMdHUskiJugzk=",
+        "originContent": "    ] + [",
+        "translatedContent": "    ] + ["
+      },
+      {
+        "row": 13,
+        "rowsha": "qWZHcZor3nj5p5pSn5GUOY6dd3LUglu+qw7kVUQ2XhE=",
+        "originContent": "        {",
+        "translatedContent": "        {"
+      },
+      {
+        "row": 14,
+        "rowsha": "sCuJOT0H4hgRDvMaVv58bQMAJ36QhU/4peKbsTtYwrM=",
+        "originContent": "            \"role\": \"user\",",
+        "translatedContent": "            \"role\": \"user\","
+      },
+      {
+        "row": 15,
+        "rowsha": "NYpRUFUxiR7lDkXojY4+sTLQ/r3HD9xaBXBrUbd0L3s=",
+        "originContent": "            \"content\": \"Write a haiku about recursion in programming.\"",
+        "translatedContent": "            \"content\": \"Write a haiku about recursion in programming.\""
+      },
+      {
+        "row": 16,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 17,
+        "rowsha": "lVZwDnSmuzpTa/s9y8MQVA//SFx3EANoxPgHY4wlQ/o=",
+        "originContent": "    ]",
+        "translatedContent": "    ]"
+      },
+      {
+        "row": 18,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 19,
+        "rowsha": "0uNX1ZLJb4pIwAzJWYcrQuSjM+VDesDlW477JSgQkXM=",
+        "originContent": "print(completion.choices[0].message.content)",
+        "translatedContent": "print(completion.choices[0].message.content)"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "H+fLwk6MAtgvjhVG6gFmo7HPQ3JkPFNZAWnUWL/uk7U=",
+        "originContent": "$ python test.py",
+        "translatedContent": "$ python test.py"
+      },
+      {
+        "row": 22,
+        "rowsha": "TCePnV6YSuggp5VmYzi81k5oeTGn6mm93uO1nDAVJbc=",
+        "originContent": "Code dives within,",
+        "translatedContent": "Code dives within,"
+      },
+      {
+        "row": 23,
+        "rowsha": "1kl+rs3VqsJ0bRnTLg/1VWBIOo60gHwt4gU4JDh9rB0=",
+        "originContent": "Echoes of self repeat,",
+        "translatedContent": "Echoes of self repeat,"
+      },
+      {
+        "row": 24,
+        "rowsha": "n3jdXuzh/ojm2QyyOuzk7bFI90pdS0iv+GM7UY2DP1k=",
+        "originContent": "Solving the unseen.",
+        "translatedContent": "Solving the unseen."
+      },
+      {
+        "row": 25,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## Acknowledgements\n\nThanks to:\n- The [vLLM project](https://github.com/vllm-project/vllm) for\n  inspiration and for most of the innovations (paged attention,\n  chunked prefills, ...) leveraged in Fastgen.\n- Daniel Haziza ([@danthe3rd](https://github.com/danthe3rd)) for\n  constructive initial design discussions as well as continued\n  advice on achieving high GPU utilization.\n\n## License\n\nFastgen is BSD 3-Clause licensed, as found in the LICENSE file.\n",
+    "ContentSha": "qIN75Qr2Av1fxZHxyHEoPyw4AA/HdxydD5kXNvzmNH8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\n## 致谢\n\n感谢：\n- [vLLM项目](https://github.com/vllm-project/vllm)的启发及其在Fastgen中采用的大部分创新（分页注意力、分块预填充等）。\n- Daniel Haziza ([@danthe3rd](https://github.com/danthe3rd))，感谢其建设性的初始设计讨论及持续提供的高GPU利用率建议。\n\n## 许可协议\n\nFastgen采用BSD三条款许可，详见LICENSE文件。\n</translate-content>\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "HvkwNudYOlwL8j/t4djBVF3hUJwHWa2r5QjmSxgq3AA=",
+        "originContent": "## Acknowledgements",
+        "translatedContent": "## 致谢"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "WxqLD8kNjdcm0MEyM+n9oqvySU1hQdgzt2No++zmi/o=",
+        "originContent": "Thanks to:",
+        "translatedContent": "感谢："
+      },
+      {
+        "row": 5,
+        "rowsha": "4jr+pNry4iVBhDAB4i1Izgv5ekEyi8lXWSH75pGkx/E=",
+        "originContent": "- The [vLLM project](https://github.com/vllm-project/vllm) for",
+        "translatedContent": "- [vLLM项目](https://github.com/vllm-project/vllm)的启发及其在Fastgen中采用的大部分创新（分页注意力、分块预填充等）。"
+      },
+      {
+        "row": 6,
+        "rowsha": "5Fttvh/AYTZybGqvENSBUXxHpQfdwEYJMYdHnMv61Oc=",
+        "originContent": "  inspiration and for most of the innovations (paged attention,",
+        "translatedContent": "- Daniel Haziza ([@danthe3rd](https://github.com/danthe3rd))，感谢其建设性的初始设计讨论及持续提供的高GPU利用率建议。"
+      },
+      {
+        "row": 7,
+        "rowsha": "K8jyD08n2Wd+XSOmDeRwsgO0vEkrdNkARETK6uBGdJw=",
+        "originContent": "  chunked prefills, ...) leveraged in Fastgen.",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "FtTIzyA7qrX4TfkfYup3HIe3dkbgRg6NwxCc/WccTAs=",
+        "originContent": "- Daniel Haziza ([@danthe3rd](https://github.com/danthe3rd)) for",
+        "translatedContent": "## 许可协议"
+      },
+      {
+        "row": 9,
+        "rowsha": "S2CJjeSMUVzuckFlQA1D+gMb//FDo265sY9eCckYg40=",
+        "originContent": "  constructive initial design discussions as well as continued",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "LdPP1dTpgJab6yNIrnpjXfGoNIVpNYizsKrTCMZCwK8=",
+        "originContent": "  advice on achieving high GPU utilization.",
+        "translatedContent": "Fastgen采用BSD三条款许可，详见LICENSE文件。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</translate-content>"
+      },
+      {
+        "row": 12,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "zgo0nsuBNyWpX4Ro1mlKJr+E4u8LmnYh2d+rcd9MQyA=",
+        "originContent": "Fastgen is BSD 3-Clause licensed, as found in the LICENSE file.",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

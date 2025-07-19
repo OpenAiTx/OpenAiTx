@@ -1,0 +1,1781 @@
+[
+  {
+    "Id": 1,
+    "Content": "# :bulb: LaMP: Language-Motion Pretraining for Motion Generation, Retrieval, and Captioning (ICLR 2025)\n### [[Project Page]](https://aigc3d.github.io/LaMP/) [[Paper]](https://arxiv.org/abs/2410.07093)\n![teaser_image](https://github.com/gentlefress/LaMP/blob/main/teaser.png)\n\nIf you find our code or paper helpful, please consider starring our repository and citing:",
+    "ContentSha": "VXOEh4A7wHSDyqhZZzi24sZtpPOPiKZJmtSCkE414vE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# :bulb: LaMP: Language-Motion Pretraining for Motion Generation, Retrieval, and Captioning (ICLR 2025)\n### [[Project Page]](https://aigc3d.github.io/LaMP/) [[Paper]](https://arxiv.org/abs/2410.07093)\n![teaser_image](https://github.com/gentlefress/LaMP/blob/main/teaser.png)\n\nIf you find our code or paper helpful, please consider starring our repository and citing:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "hAPZ5KIfZhovM2mLrsiUdswGRb0VolW+nfenBVyryJc=",
+        "originContent": "# :bulb: LaMP: Language-Motion Pretraining for Motion Generation, Retrieval, and Captioning (ICLR 2025)",
+        "translatedContent": "# :bulb: LaMP: Language-Motion Pretraining for Motion Generation, Retrieval, and Captioning (ICLR 2025)"
+      },
+      {
+        "row": 2,
+        "rowsha": "yhz44Ok/0O53zmwp5DuE6Rh5wTKkZpGLv0vGIwyIKVQ=",
+        "originContent": "### [[Project Page]](https://aigc3d.github.io/LaMP/) [[Paper]](https://arxiv.org/abs/2410.07093)",
+        "translatedContent": "### [[Project Page]](https://aigc3d.github.io/LaMP/) [[Paper]](https://arxiv.org/abs/2410.07093)"
+      },
+      {
+        "row": 3,
+        "rowsha": "cCRXDb6EvAew4UGkGmhAg/6D5EdujFac8SbaD+z3wbs=",
+        "originContent": "![teaser_image](https://github.com/gentlefress/LaMP/blob/main/teaser.png)",
+        "translatedContent": "![teaser_image](https://github.com/gentlefress/LaMP/blob/main/teaser.png)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "51pRG8YZCjoIZFmfjOMuNxuhXDN+uUJpt9HWGQ0u8yA=",
+        "originContent": "If you find our code or paper helpful, please consider starring our repository and citing:",
+        "translatedContent": "If you find our code or paper helpful, please consider starring our repository and citing:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\n@article{li2024lamp,\n  title={LaMP: Language-Motion Pretraining for Motion Generation, Retrieval, and Captioning},\n  author={Li, Zhe and Yuan, Weihao and He, Yisheng and Qiu, Lingteng and Zhu, Shenhao and Gu, Xiaodong and Shen, Weichao and Dong, Yuan and Dong, Zilong and Yang, Laurence T},\n  journal={arXiv preprint arXiv:2410.07093},\n  year={2024}\n}\n```",
+    "ContentSha": "PXfBHIX50Ua44yJHqOhF9x+ctyZRL9AXOwvic9izm3A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n@article{li2024lamp,\n  title={LaMP: Language-Motion Pretraining for Motion Generation, Retrieval, and Captioning},\n  author={Li, Zhe and Yuan, Weihao and He, Yisheng and Qiu, Lingteng and Zhu, Shenhao and Gu, Xiaodong and Shen, Weichao and Dong, Yuan and Dong, Zilong and Yang, Laurence T},\n  journal={arXiv preprint arXiv:2410.07093},\n  year={2024}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "2ev37hkcGj//00bLict0jrEZs/Yan2Myz38fh7LLgvY=",
+        "originContent": "@article{li2024lamp,",
+        "translatedContent": "@article{li2024lamp,"
+      },
+      {
+        "row": 3,
+        "rowsha": "9LQqJo9lBogzWfNVKqSqzr9vzdMv0XNIj9j0vbTFZ8M=",
+        "originContent": "  title={LaMP: Language-Motion Pretraining for Motion Generation, Retrieval, and Captioning},",
+        "translatedContent": "  title={LaMP: Language-Motion Pretraining for Motion Generation, Retrieval, and Captioning},"
+      },
+      {
+        "row": 4,
+        "rowsha": "/3wVsgFlE1AtXpnZh3ftpNwe1G4oug6qsW46mDKPJlk=",
+        "originContent": "  author={Li, Zhe and Yuan, Weihao and He, Yisheng and Qiu, Lingteng and Zhu, Shenhao and Gu, Xiaodong and Shen, Weichao and Dong, Yuan and Dong, Zilong and Yang, Laurence T},",
+        "translatedContent": "  author={Li, Zhe and Yuan, Weihao and He, Yisheng and Qiu, Lingteng and Zhu, Shenhao and Gu, Xiaodong and Shen, Weichao and Dong, Yuan and Dong, Zilong and Yang, Laurence T},"
+      },
+      {
+        "row": 5,
+        "rowsha": "uESVP5H00pxlNGMLG5qDKWoLGXRC3iXy12vyaCnwZbs=",
+        "originContent": "  journal={arXiv preprint arXiv:2410.07093},",
+        "translatedContent": "  journal={arXiv preprint arXiv:2410.07093},"
+      },
+      {
+        "row": 6,
+        "rowsha": "9vunU7Tk7EiCUudFrq1MUG4YCfjMDMPMikZF6BT/eLU=",
+        "originContent": "  year={2024}",
+        "translatedContent": "  year={2024}"
+      },
+      {
+        "row": 7,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## :postbox: News\n📢 **2025-01-22** --- 🔥🔥🔥 Congrats! LaMP is accepted to ICLR 2025.\n\n📢 **2025-4-28** --- Release codes and models for LaMP. Including training/eval/generation scripts.\n\n📢 **2025-4-28** --- Initialized the webpage and git project.  \n\n\n## :1st_place_medal: Get You Ready\n\n<details>\n  \n### 1. Conda Environment",
+    "ContentSha": "sYOuQs6VJcO2+izbT4oF6XAzg2kTZpIRWFwQWcAnuRo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\n## :postbox: News\n📢 **2025-01-22** --- 🔥🔥🔥 Congrats! LaMP is accepted to ICLR 2025.\n\n📢 **2025-4-28** --- Released codes and models for LaMP. Including training/eval/generation scripts.\n\n📢 **2025-4-28** --- Initialized the webpage and git project.  \n\n\n## :1st_place_medal: Get You Ready\n\n<details>\n  \n### 1. Conda Environment</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "1/SAzix2oQv6TxKbXipTa9bZe0oUsHnDJXZ+mSyF0XM=",
+        "originContent": "## :postbox: News",
+        "translatedContent": "## :postbox: News"
+      },
+      {
+        "row": 3,
+        "rowsha": "RfN7UvMu6sObUWqCTLlek20W6ousWusBXhDIR5ty58Y=",
+        "originContent": "📢 **2025-01-22** --- 🔥🔥🔥 Congrats! LaMP is accepted to ICLR 2025.",
+        "translatedContent": "📢 **2025-01-22** --- 🔥🔥🔥 Congrats! LaMP is accepted to ICLR 2025."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "STvE2YiJenH9z1M/Vggt/y83A9NwzQzhgTNT/8zdtSc=",
+        "originContent": "📢 **2025-4-28** --- Release codes and models for LaMP. Including training/eval/generation scripts.",
+        "translatedContent": "📢 **2025-4-28** --- Released codes and models for LaMP. Including training/eval/generation scripts."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "dBg0ORxC7V7l/wGEez9SIQeBDfdCdjL55k6I5JpkwUQ=",
+        "originContent": "📢 **2025-4-28** --- Initialized the webpage and git project.  ",
+        "translatedContent": "📢 **2025-4-28** --- Initialized the webpage and git project.  "
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "4sHlsUZPuAzOhdjVmzdg2+JURoN0OX2AA2qg+4ig/pw=",
+        "originContent": "## :1st_place_medal: Get You Ready",
+        "translatedContent": "## :1st_place_medal: Get You Ready"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 13,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 14,
+        "rowsha": "//6JYKjD4WFB1JtVxfJCTM01p9cvFmR6Gj/iH0se7Us=",
+        "originContent": "### 1. Conda Environment",
+        "translatedContent": "### 1. Conda Environment</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\nconda env create -f environment.yml\nconda activate lamp\npip install git+https://github.com/openai/CLIP.git\n```",
+    "ContentSha": "4nk36cjxYfzME/bh3uCSUf8DtdXsPfGenjq5VwsH/3o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nconda env create -f environment.yml\nconda activate lamp\npip install git+https://github.com/openai/CLIP.git\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "I3A/ExbOxC8ZCCVG6lc7LYw0eJGRMwCPlgAQFOQeAdM=",
+        "originContent": "conda env create -f environment.yml",
+        "translatedContent": "conda env create -f environment.yml"
+      },
+      {
+        "row": 3,
+        "rowsha": "olIw7VGF0HTDdW3nuMwe702oZIVa+P8P0gGGHhExzSE=",
+        "originContent": "conda activate lamp",
+        "translatedContent": "conda activate lamp"
+      },
+      {
+        "row": 4,
+        "rowsha": "MyeITJMsPpk7gd/g213zN4g0tmZ725bERjEbEpRxDWM=",
+        "originContent": "pip install git+https://github.com/openai/CLIP.git",
+        "translatedContent": "pip install git+https://github.com/openai/CLIP.git"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "We test our code on Python 3.9.12 and PyTorch 1.12.1\n\n### 2. Models and Dependencies\n\n#### Download Pre-trained Models",
+    "ContentSha": "up1HmcTql4tTkoPEQdSv/5Fgb/hsmtVMFEY1cWN2//Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "We test our code on Python 3.9.12 and PyTorch 1.12.1\n\n### 2. Models and Dependencies\n\n#### Download Pre-trained Models",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "CWkmegq11B9Pw+Oc2fkrN18uvfl6zQOKVmK9yYqTdyY=",
+        "originContent": "We test our code on Python 3.9.12 and PyTorch 1.12.1",
+        "translatedContent": "We test our code on Python 3.9.12 and PyTorch 1.12.1"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "7JFkBrh8pSo2Se4VDOnRpm2WG3TRB0ieRRU8y/oVPAk=",
+        "originContent": "### 2. Models and Dependencies",
+        "translatedContent": "### 2. Models and Dependencies"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "3trZS5ZWNHcwCG0ixf1/7P928tPiGo1ZXahIhfnxiwA=",
+        "originContent": "#### Download Pre-trained Models",
+        "translatedContent": "#### Download Pre-trained Models"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\nbash prepare/download_models.sh\n```",
+    "ContentSha": "Zwp6ayWq6FQ72c2zEKn7DuGghQMw+DlkpEo6MlKiVHk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nbash prepare/download_models.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "OUIFe1lYZKG69KnP6cIaP4OXRn5tVnzgQRhmRgV2WvY=",
+        "originContent": "bash prepare/download_models.sh",
+        "translatedContent": "bash prepare/download_models.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n#### Download Evaluation Models and Gloves\nFor evaluation only.",
+    "ContentSha": "QIbO5eVDHkXUxbsNbvumLhTr1EDPBesYybKE9fz319I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "#### Download Evaluation Models and Gloves  \nFor evaluation only.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### Download Evaluation Models and Gloves  "
+      },
+      {
+        "row": 2,
+        "rowsha": "SgdX5xO0kbZPPJ2I1qL+yB6tNa71GNu+alfFgnFJlm0=",
+        "originContent": "#### Download Evaluation Models and Gloves",
+        "translatedContent": "For evaluation only."
+      },
+      {
+        "row": 3,
+        "rowsha": "kEm/IZxDbQyEiEyL4M5UHf0KmqQpgNZpPkf1f0iV2AY=",
+        "originContent": "For evaluation only.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\nbash prepare/download_evaluator.sh\nbash prepare/download_glove.sh\n```",
+    "ContentSha": "c4uaklcBSY2F7z3b23s2FW8XvivMnKB6+KXTicDVfjg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nbash prepare/download_evaluator.sh\nbash prepare/download_glove.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "sfgMas1gJ3vwvy4/KJvJyjNV3TnBwTfQ5NRpwro2Mu8=",
+        "originContent": "bash prepare/download_evaluator.sh",
+        "translatedContent": "bash prepare/download_evaluator.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "Z/OtdQexMsUOcW21lobBtxDlu9cCS0tyHLpx6Ofw66w=",
+        "originContent": "bash prepare/download_glove.sh",
+        "translatedContent": "bash prepare/download_glove.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n\n#### (Optional) Download Manually\n##### VQVAE Pretrained Weights:\nhttps://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/vq.tar\n##### LaMP Pretrained Weights:\nHumanML3D: https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/h3d-qformer.tar\n\nKIT-ML: https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/kit-qformer.tar\n##### LaMP-T2M Pretrained Weights:\nhttps://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/t2m.tar\n##### M2T-LaMP Pretrained Weights:\nhttps://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/m2t.pth\n### 3. Get Data\n\nYou have two options here:\n* **Skip getting data**, if you just want to generate motions using *own* descriptions.\n* **Get full data**, if you want to *re-train* and *evaluate* the model.\n\n**(a). Full data (text + motion)**\n\n**HumanML3D** - Follow the instruction in [HumanML3D](https://github.com/EricGuo5513/HumanML3D.git), then copy the result dataset to our repository:",
+    "ContentSha": "9A1fNdgDirQX6n4yFpQ+mUdZBx7fGfQCG9CxQVvnX0c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "#### (Optional) Download Manually\n##### VQVAE Pretrained Weights:\nhttps://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/vq.tar\n##### LaMP Pretrained Weights:\nHumanML3D: https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/h3d-qformer.tar\n\nKIT-ML: https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/kit-qformer.tar\n##### LaMP-T2M Pretrained Weights:\nhttps://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/t2m.tar\n##### M2T-LaMP Pretrained Weights:\nhttps://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/m2t.pth\n### 3. Get Data\n\nYou have two options here:\n* **Skip getting data**, if you just want to generate motions using *own* descriptions.\n* **Get full data**, if you want to *re-train* and *evaluate* the model.\n\n**(a). Full data (text + motion)**\n\n**HumanML3D** - Follow the instruction in [HumanML3D](https://github.com/EricGuo5513/HumanML3D.git), then copy the result dataset to our repository:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### (Optional) Download Manually"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "##### VQVAE Pretrained Weights:"
+      },
+      {
+        "row": 3,
+        "rowsha": "WsgcAN+KxUt/xhJik7sZSsvXRiUojyEQW9CpZPNeYG8=",
+        "originContent": "#### (Optional) Download Manually",
+        "translatedContent": "https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/vq.tar"
+      },
+      {
+        "row": 4,
+        "rowsha": "mjd99xwoN/c0zD1HnD26uJ6o/O8Z19sjpfB89EN5Elg=",
+        "originContent": "##### VQVAE Pretrained Weights:",
+        "translatedContent": "##### LaMP Pretrained Weights:"
+      },
+      {
+        "row": 5,
+        "rowsha": "tkrzSnBhtRfuJYazNq+gYOm/KisTRM/fR1iG/r+lVoE=",
+        "originContent": "https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/vq.tar",
+        "translatedContent": "HumanML3D: https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/h3d-qformer.tar"
+      },
+      {
+        "row": 6,
+        "rowsha": "asRbsTKdjXRuYd7X7Rnd9DbnYfzzQlEl92QUhlEXu4s=",
+        "originContent": "##### LaMP Pretrained Weights:",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "E95DAFBwTg5blxT66MZYGa+3vRtokTqKbzfOnpuL0pc=",
+        "originContent": "HumanML3D: https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/h3d-qformer.tar",
+        "translatedContent": "KIT-ML: https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/kit-qformer.tar"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "##### LaMP-T2M Pretrained Weights:"
+      },
+      {
+        "row": 9,
+        "rowsha": "LCtjEdvs1lZza49RhU/QMQLO92cdRySsD5Ogj2tF66g=",
+        "originContent": "KIT-ML: https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/kit-qformer.tar",
+        "translatedContent": "https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/t2m.tar"
+      },
+      {
+        "row": 10,
+        "rowsha": "NlqEUR7+js0KgNKSceRYgkOvEi0nVVot3ssYpKhznpA=",
+        "originContent": "##### LaMP-T2M Pretrained Weights:",
+        "translatedContent": "##### M2T-LaMP Pretrained Weights:"
+      },
+      {
+        "row": 11,
+        "rowsha": "tQ94NS0zm7/Yw4QWUOq6CiD1qEsKFLarxGHHCf1vkTE=",
+        "originContent": "https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/t2m.tar",
+        "translatedContent": "https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/m2t.pth"
+      },
+      {
+        "row": 12,
+        "rowsha": "7q3L0mSKNSUK1QRD9FTavdSl8ckXH74o41uyKpG+6ss=",
+        "originContent": "##### M2T-LaMP Pretrained Weights:",
+        "translatedContent": "### 3. Get Data"
+      },
+      {
+        "row": 13,
+        "rowsha": "/gdszFel+jkUPApPUkX9yLMtPot83UOnleppao0HrFM=",
+        "originContent": "https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/m2t.pth",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "GSG3FLJUUjxax0VWLMhstahDa4khNF1pCr2tOH+xmNA=",
+        "originContent": "### 3. Get Data",
+        "translatedContent": "You have two options here:"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* **Skip getting data**, if you just want to generate motions using *own* descriptions."
+      },
+      {
+        "row": 16,
+        "rowsha": "Gd+NThdBSSZQ6u/SPLqU+jKTjNCHUaIR8CbM9DjNTbg=",
+        "originContent": "You have two options here:",
+        "translatedContent": "* **Get full data**, if you want to *re-train* and *evaluate* the model."
+      },
+      {
+        "row": 17,
+        "rowsha": "I2UlkywDafJOK+1fc3A6AGW3gB4wzkAXjRxeNT6kv8Y=",
+        "originContent": "* **Skip getting data**, if you just want to generate motions using *own* descriptions.",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "r76xEOx9R2fgMxoVBIhUWFJPJ5YU/6FbxINV8Rvohz8=",
+        "originContent": "* **Get full data**, if you want to *re-train* and *evaluate* the model.",
+        "translatedContent": "**(a). Full data (text + motion)**"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "MRaebczVVj/9cd6mQeSCDjY6zVKgyZN4+MCDkkR9rDo=",
+        "originContent": "**(a). Full data (text + motion)**",
+        "translatedContent": "**HumanML3D** - Follow the instruction in [HumanML3D](https://github.com/EricGuo5513/HumanML3D.git), then copy the result dataset to our repository:"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "hp5sNWJNpVcAJgQAW32+0bwQ/1sNgr2JN3/6v9jA3+o=",
+        "originContent": "**HumanML3D** - Follow the instruction in [HumanML3D](https://github.com/EricGuo5513/HumanML3D.git), then copy the result dataset to our repository:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\ncp -r ../HumanML3D/HumanML3D ./dataset/HumanML3D\n```",
+    "ContentSha": "cGfmrtSJsvmeyCCpOV2Nn68PrqnHFmtqLDGW0d3+ypk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncp -r ../HumanML3D/HumanML3D ./dataset/HumanML3D\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "fGIs/6V00XAts9jgt84KTv2n+IdhPPxt4VYuUCSE9PU=",
+        "originContent": "cp -r ../HumanML3D/HumanML3D ./dataset/HumanML3D",
+        "translatedContent": "cp -r ../HumanML3D/HumanML3D ./dataset/HumanML3D"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "**KIT**-Download from [HumanML3D](https://github.com/EricGuo5513/HumanML3D.git), then place result in `./dataset/KIT-ML`\n\n#### \n\n</details>\n\n## :fire: Demo\n<details>\n\n### (a) Generate from a single prompt",
+    "ContentSha": "QwuCTp0z1CrOjweKkgWbkIB0NBdkX+PYBWpA9zP/o7w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**KIT**-Download from [HumanML3D](https://github.com/EricGuo5513/HumanML3D.git), then place result in `./dataset/KIT-ML`\n\n#### \n\n</details>\n\n## :fire: Demo\n<details>\n\n### (a) Generate from a single prompt",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "TQlBeaafvm3I2HywCj0Ql5lVr1vVp7wRU/m9l0YWXtQ=",
+        "originContent": "**KIT**-Download from [HumanML3D](https://github.com/EricGuo5513/HumanML3D.git), then place result in `./dataset/KIT-ML`",
+        "translatedContent": "**KIT**-Download from [HumanML3D](https://github.com/EricGuo5513/HumanML3D.git), then place result in `./dataset/KIT-ML`"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "+K8DAHU30kq5EDpGREVe6Hoxz9z0nvDmtjU2JFr2srg=",
+        "originContent": "#### ",
+        "translatedContent": "#### "
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "28vfLyq8/Zt18aqBdqjcF5zVvp+810/kPKEl5BPMqiA=",
+        "originContent": "## :fire: Demo",
+        "translatedContent": "## :fire: Demo"
+      },
+      {
+        "row": 8,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "BwdrJvlssEIQp6HsTq1gcMDU9H5Skn5sj+uWsErTe0M=",
+        "originContent": "### (a) Generate from a single prompt",
+        "translatedContent": "### (a) Generate from a single prompt"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```\npython gen_t2m.py --gpu_id 1 --ext exp1 --text_prompt \"A person is running on a treadmill.\"\n```",
+    "ContentSha": "mSTbc2A6lINvgsBspv6lT5SncK4LBcr3o7ui1NuPJZY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython gen_t2m.py --gpu_id 1 --ext exp1 --text_prompt \"A person is running on a treadmill.\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "AJpd1h9jplxnXCoSrmY0UYn8liBIuaXmGyFcuRKg0mU=",
+        "originContent": "python gen_t2m.py --gpu_id 1 --ext exp1 --text_prompt \"A person is running on a treadmill.\"",
+        "translatedContent": "python gen_t2m.py --gpu_id 1 --ext exp1 --text_prompt \"A person is running on a treadmill.\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "### (b) Generate from a prompt file\nAn example of prompt file is given in `./assets/text_prompt.txt`. Please follow the format of `<text description>#<motion length>` at each line. Motion length indicates the number of poses, which must be integeter and will be rounded by 4. In our work, motion is in 20 fps.\n\nIf you write `<text description>#NA`, our model will determine a length. Note once there is **one** NA, all the others will be **NA** automatically.\n",
+    "ContentSha": "Vd6TJb5FLOc+pJKjY4+Bf3jFpTTbkrt1CS+E/cvNBYk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### (b) Generate from a prompt file\nAn example of prompt file is given in `./assets/text_prompt.txt`. Please follow the format of `<text description>#<motion length>` at each line. Motion length indicates the number of poses, which must be integeter and will be rounded by 4. In our work, motion is in 20 fps.\n\nIf you write `<text description>#NA`, our model will determine a length. Note once there is **one** NA, all the others will be **NA** automatically.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "iDuWzmBDJfmc2NGg+C6tht65ghw0JLEw/nRkNzJg4dk=",
+        "originContent": "### (b) Generate from a prompt file",
+        "translatedContent": "### (b) Generate from a prompt file"
+      },
+      {
+        "row": 2,
+        "rowsha": "vtt2Y+If/9t2wKK20MED5WwRw6Ta2tFpOny5aG6MXjE=",
+        "originContent": "An example of prompt file is given in `./assets/text_prompt.txt`. Please follow the format of `<text description>#<motion length>` at each line. Motion length indicates the number of poses, which must be integeter and will be rounded by 4. In our work, motion is in 20 fps.",
+        "translatedContent": "An example of prompt file is given in `./assets/text_prompt.txt`. Please follow the format of `<text description>#<motion length>` at each line. Motion length indicates the number of poses, which must be integeter and will be rounded by 4. In our work, motion is in 20 fps."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "3pByjUgQksmDU3PGYw5JqCxY+WqPAZSkRBRHWNWg13w=",
+        "originContent": "If you write `<text description>#NA`, our model will determine a length. Note once there is **one** NA, all the others will be **NA** automatically.",
+        "translatedContent": "If you write `<text description>#NA`, our model will determine a length. Note once there is **one** NA, all the others will be **NA** automatically."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```\npython gen_t2m.py --gpu_id 1 --ext exp2 --text_path ./assets/text_prompt.txt\n```",
+    "ContentSha": "0oGq3Zgx5MGljZQSOti9paIubMlJzPlOsQ6cyIHdUrg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython gen_t2m.py --gpu_id 1 --ext exp2 --text_path ./assets/text_prompt.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "WlXhvDM8pa8RlAhA7+G2UNL60NEx+kNF7GAcdQd/qK8=",
+        "originContent": "python gen_t2m.py --gpu_id 1 --ext exp2 --text_path ./assets/text_prompt.txt",
+        "translatedContent": "python gen_t2m.py --gpu_id 1 --ext exp2 --text_path ./assets/text_prompt.txt"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n\nA few more parameters you may be interested:\n* `--repeat_times`: number of replications for generation, default `1`.\n* `--motion_length`: specify the number of poses for generation, only applicable in (a).\n\nThe output files are stored under folder `./generation/<ext>/`. They are\n* `numpy files`: generated motions with shape of (nframe, 22, 3), under subfolder `./joints`.\n* `video files`: stick figure animation in mp4 format, under subfolder `./animation`.\n* `bvh files`: bvh files of the generated motion, under subfolder `./animation`.\n\nWe also apply naive foot ik to the generated motions, see files with suffix `_ik`. It sometimes works well, but sometimes will fail.\n  \n</details>\n\n## :basketball_man: Visualization\n<details>\n\nAll the animations are manually rendered in blender. We use the characters from [mixamo](https://www.mixamo.com/#/). You need to download the characters in T-Pose with skeleton.\n\n### Retargeting\nFor retargeting, we found rokoko usually leads to large error on foot. On the other hand, [keemap.rig.transfer](https://github.com/nkeeline/Keemap-Blender-Rig-ReTargeting-Addon/releases) shows more precise retargetting. You could watch the [tutorial](https://www.youtube.com/watch?v=EG-VCMkVpxg) here.\n\nFollowing these steps:\n* Download keemap.rig.transfer from the github, and install it in blender.\n* Import both the motion files (.bvh) and character files (.fbx) in blender.\n* `Shift + Select` the both source and target skeleton. (Do not need to be Rest Position)\n* Switch to `Pose Mode`, then unfold the `KeeMapRig` tool at the top-right corner of the view window.\n* For `bone mapping file`, direct to `./assets/mapping.json`(or `mapping6.json` if it doesn't work), and click `Read In Bone Mapping File`. This file is manually made by us. It works for most characters in mixamo.\n* (Optional) You could manually fill in the bone mapping and adjust the rotations by your own, for your own character. `Save Bone Mapping File` can save the mapping configuration in local file, as specified by the mapping file path.\n* Adjust the `Number of Samples`, `Source Rig`, `Destination Rig Name`.\n* Clik `Transfer Animation from Source Destination`, wait a few seconds.\n\nWe didn't tried other retargetting tools. Welcome to comment if you find others are more useful.\n\n</details>\n\n## :flashlight: Train Your Own Models\n<details>\n\n\n**Note**: You have to train VQ-VAE **BEFORE** training masked/residual transformers. The latter two can be trained simultaneously.\n\n### Train VQ-VAE\nYou may also need to download evaluation models to run the scripts.",
+    "ContentSha": "EJFDvEPMy/bopTT5AI9gfsfpQqZRcg1fpFeZONwIh8o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "A few more parameters you may be interested:\n* `--repeat_times`: number of replications for generation, default `1`.\n* `--motion_length`: specify the number of poses for generation, only applicable in (a).\n\nThe output files are stored under folder `./generation/<ext>/`. They are\n* `numpy files`: generated motions with shape of (nframe, 22, 3), under subfolder `./joints`.\n* `video files`: stick figure animation in mp4 format, under subfolder `./animation`.\n* `bvh files`: bvh files of the generated motion, under subfolder `./animation`.\n\nWe also apply naive foot ik to the generated motions, see files with suffix `_ik`. It sometimes works well, but sometimes will fail.\n  \n</details>\n\n## :basketball_man: Visualization\n<details>\n\nAll the animations are manually rendered in blender. We use the characters from [mixamo](https://www.mixamo.com/#/). You need to download the characters in T-Pose with skeleton.\n\n### Retargeting\nFor retargeting, we found rokoko usually leads to large error on foot. On the other hand, [keemap.rig.transfer](https://github.com/nkeeline/Keemap-Blender-Rig-ReTargeting-Addon/releases) shows more precise retargetting. You could watch the [tutorial](https://www.youtube.com/watch?v=EG-VCMkVpxg) here.\n\nFollowing these steps:\n* Download keemap.rig.transfer from the github, and install it in blender.\n* Import both the motion files (.bvh) and character files (.fbx) in blender.\n* `Shift + Select` the both source and target skeleton. (Do not need to be Rest Position)\n* Switch to `Pose Mode`, then unfold the `KeeMapRig` tool at the top-right corner of the view window.\n* For `bone mapping file`, direct to `./assets/mapping.json`(or `mapping6.json` if it doesn't work), and click `Read In Bone Mapping File`. This file is manually made by us. It works for most characters in mixamo.\n* (Optional) You could manually fill in the bone mapping and adjust the rotations by your own, for your own character. `Save Bone Mapping File` can save the mapping configuration in local file, as specified by the mapping file path.\n* Adjust the `Number of Samples`, `Source Rig`, `Destination Rig Name`.\n* Clik `Transfer Animation from Source Destination`, wait a few seconds.\n\nWe didn't tried other retargetting tools. Welcome to comment if you find others are more useful.\n\n</details>\n\n## :flashlight: Train Your Own Models\n<details>\n\n\n**Note**: You have to train VQ-VAE **BEFORE** training masked/residual transformers. The latter two can be trained simultaneously.\n\n### Train VQ-VAE\nYou may also need to download evaluation models to run the scripts.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "A few more parameters you may be interested:"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* `--repeat_times`: number of replications for generation, default `1`."
+      },
+      {
+        "row": 3,
+        "rowsha": "m2KkuMquZAAMJA+i9aukydqyin+eiEr02BTSVghzRYs=",
+        "originContent": "A few more parameters you may be interested:",
+        "translatedContent": "* `--motion_length`: specify the number of poses for generation, only applicable in (a)."
+      },
+      {
+        "row": 4,
+        "rowsha": "xTnvbOoO/lVeKXVlyQB5CRBsCLJeA7o/u6myheu/uAU=",
+        "originContent": "* `--repeat_times`: number of replications for generation, default `1`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "H5x7FfjJRSa2B5WXDsDpNmIPuUCUWLR5WwJmKU7bvqg=",
+        "originContent": "* `--motion_length`: specify the number of poses for generation, only applicable in (a).",
+        "translatedContent": "The output files are stored under folder `./generation/<ext>/`. They are"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* `numpy files`: generated motions with shape of (nframe, 22, 3), under subfolder `./joints`."
+      },
+      {
+        "row": 7,
+        "rowsha": "HLMSqScpCpoGTx3U6oWNPcB9T2H4+Q+RQkf/aUewcPI=",
+        "originContent": "The output files are stored under folder `./generation/<ext>/`. They are",
+        "translatedContent": "* `video files`: stick figure animation in mp4 format, under subfolder `./animation`."
+      },
+      {
+        "row": 8,
+        "rowsha": "MhDeQd8Mxn+P1I9DbzoF1c3Tz+EBeU3skdsqGS4b8J8=",
+        "originContent": "* `numpy files`: generated motions with shape of (nframe, 22, 3), under subfolder `./joints`.",
+        "translatedContent": "* `bvh files`: bvh files of the generated motion, under subfolder `./animation`."
+      },
+      {
+        "row": 9,
+        "rowsha": "Rr07wTkIj9Ty/xIIdoZ9mLXE9JdSSEdLJoMQ2SDL/lQ=",
+        "originContent": "* `video files`: stick figure animation in mp4 format, under subfolder `./animation`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "i5dC5zvJWuYOhO/F8Q0lehs7Gu/is/uaBozlk+oreoI=",
+        "originContent": "* `bvh files`: bvh files of the generated motion, under subfolder `./animation`.",
+        "translatedContent": "We also apply naive foot ik to the generated motions, see files with suffix `_ik`. It sometimes works well, but sometimes will fail."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  "
+      },
+      {
+        "row": 12,
+        "rowsha": "aoWi0wJCxiAjpJRDLNpR9WAXmv3U8gscHpAb00n/B+c=",
+        "originContent": "We also apply naive foot ik to the generated motions, see files with suffix `_ik`. It sometimes works well, but sometimes will fail.",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 13,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "## :basketball_man: Visualization"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 16,
+        "rowsha": "Acm/sadgd45fm0KlVqgf/722mn3RqC8hdWEHr7V8MoQ=",
+        "originContent": "## :basketball_man: Visualization",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "All the animations are manually rendered in blender. We use the characters from [mixamo](https://www.mixamo.com/#/). You need to download the characters in T-Pose with skeleton."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "0cZcDbnxpnom3NKB1/XgF2l9Iwi0cYBewSq5T7T0XQM=",
+        "originContent": "All the animations are manually rendered in blender. We use the characters from [mixamo](https://www.mixamo.com/#/). You need to download the characters in T-Pose with skeleton.",
+        "translatedContent": "### Retargeting"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "For retargeting, we found rokoko usually leads to large error on foot. On the other hand, [keemap.rig.transfer](https://github.com/nkeeline/Keemap-Blender-Rig-ReTargeting-Addon/releases) shows more precise retargetting. You could watch the [tutorial](https://www.youtube.com/watch?v=EG-VCMkVpxg) here."
+      },
+      {
+        "row": 21,
+        "rowsha": "Yj1TNweNbGQPvimNYI6nRkDV5dieHf+0MsaSZpSYh6w=",
+        "originContent": "### Retargeting",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "q3jaJmyzbwI57bLDSb5oXNYAJNtRf18tGhFfq4d1sr4=",
+        "originContent": "For retargeting, we found rokoko usually leads to large error on foot. On the other hand, [keemap.rig.transfer](https://github.com/nkeeline/Keemap-Blender-Rig-ReTargeting-Addon/releases) shows more precise retargetting. You could watch the [tutorial](https://www.youtube.com/watch?v=EG-VCMkVpxg) here.",
+        "translatedContent": "Following these steps:"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* Download keemap.rig.transfer from the github, and install it in blender."
+      },
+      {
+        "row": 24,
+        "rowsha": "cBzMwvBkT/5JUDhc7QbAbzofLt2sOrD9TppJe66xRa4=",
+        "originContent": "Following these steps:",
+        "translatedContent": "* Import both the motion files (.bvh) and character files (.fbx) in blender."
+      },
+      {
+        "row": 25,
+        "rowsha": "XSJ5WskHMz35zo8SdPHiZkmhe5dCJScccxWrLWmqS/s=",
+        "originContent": "* Download keemap.rig.transfer from the github, and install it in blender.",
+        "translatedContent": "* `Shift + Select` the both source and target skeleton. (Do not need to be Rest Position)"
+      },
+      {
+        "row": 26,
+        "rowsha": "qtaLmB5agty1Z/STe6S6vYitESu8nKVXcDBDJ8p8o4o=",
+        "originContent": "* Import both the motion files (.bvh) and character files (.fbx) in blender.",
+        "translatedContent": "* Switch to `Pose Mode`, then unfold the `KeeMapRig` tool at the top-right corner of the view window."
+      },
+      {
+        "row": 27,
+        "rowsha": "wNvcQPom7AzpdayeZuEP4nTJtUUORDvPFNUH43lcQV4=",
+        "originContent": "* `Shift + Select` the both source and target skeleton. (Do not need to be Rest Position)",
+        "translatedContent": "* For `bone mapping file`, direct to `./assets/mapping.json`(or `mapping6.json` if it doesn't work), and click `Read In Bone Mapping File`. This file is manually made by us. It works for most characters in mixamo."
+      },
+      {
+        "row": 28,
+        "rowsha": "2dWhofJ+kkbD6leyy+lcgIjHc8uFkha/4UWxXgIaspw=",
+        "originContent": "* Switch to `Pose Mode`, then unfold the `KeeMapRig` tool at the top-right corner of the view window.",
+        "translatedContent": "* (Optional) You could manually fill in the bone mapping and adjust the rotations by your own, for your own character. `Save Bone Mapping File` can save the mapping configuration in local file, as specified by the mapping file path."
+      },
+      {
+        "row": 29,
+        "rowsha": "xPs741UG8JWqXUT/EyXh/l/fnK1bNdtp8H5S0NqgGOM=",
+        "originContent": "* For `bone mapping file`, direct to `./assets/mapping.json`(or `mapping6.json` if it doesn't work), and click `Read In Bone Mapping File`. This file is manually made by us. It works for most characters in mixamo.",
+        "translatedContent": "* Adjust the `Number of Samples`, `Source Rig`, `Destination Rig Name`."
+      },
+      {
+        "row": 30,
+        "rowsha": "SZ259aR9Ln5pNtkP9/b5iRvbS4jynfV+kmQ7bniNwmw=",
+        "originContent": "* (Optional) You could manually fill in the bone mapping and adjust the rotations by your own, for your own character. `Save Bone Mapping File` can save the mapping configuration in local file, as specified by the mapping file path.",
+        "translatedContent": "* Clik `Transfer Animation from Source Destination`, wait a few seconds."
+      },
+      {
+        "row": 31,
+        "rowsha": "pF+/476/oKPJj5ar01EIyLqZIZHZz3IBnVP3BA4R+IA=",
+        "originContent": "* Adjust the `Number of Samples`, `Source Rig`, `Destination Rig Name`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "ULR6ETLDY+YLOL2M5movxj4bS8en9Zdb1vWU1uyKTgw=",
+        "originContent": "* Clik `Transfer Animation from Source Destination`, wait a few seconds.",
+        "translatedContent": "We didn't tried other retargetting tools. Welcome to comment if you find others are more useful."
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "vtRKlO/kgkGKp/O0InwFtvJ5A+xBYIgKpdeUPiKjMok=",
+        "originContent": "We didn't tried other retargetting tools. Welcome to comment if you find others are more useful.",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "## :flashlight: Train Your Own Models"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 38,
+        "rowsha": "trcWwVU2bKmWN5XV/djwo+fF0Xf3eqPT2C0nfwiT5ss=",
+        "originContent": "## :flashlight: Train Your Own Models",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**Note**: You have to train VQ-VAE **BEFORE** training masked/residual transformers. The latter two can be trained simultaneously."
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "movhb14We8FKKvaNQzK8xh3ocqqF63SbW0NY1dHQSwM=",
+        "originContent": "**Note**: You have to train VQ-VAE **BEFORE** training masked/residual transformers. The latter two can be trained simultaneously.",
+        "translatedContent": "### Train VQ-VAE"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "You may also need to download evaluation models to run the scripts."
+      },
+      {
+        "row": 44,
+        "rowsha": "orxd/ai3LUQPgoks8pi9/8mhuJriHmSS+5ruvHsB8Ak=",
+        "originContent": "### Train VQ-VAE",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "LZAtuN1jyZSW8eRCxUyN0AaQzDUrMZEKxVWv3ULXRBw=",
+        "originContent": "You may also need to download evaluation models to run the scripts.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```\npython train_vq.py --name vq_name --gpu_id 1 --dataset_name t2m --batch_size 256  --max_epoch 50 --quantize_dropout_prob 0.2 --gamma 0.05\n```",
+    "ContentSha": "R3H1tlY8+0T2H9Gf6IQOjy7MAU8pNFMlh/Lmgx4pr1Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython train_vq.py --name vq_name --gpu_id 1 --dataset_name t2m --batch_size 256  --max_epoch 50 --quantize_dropout_prob 0.2 --gamma 0.05\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "/CSgxs4CoGcirw6Ujwj/8XrBM60DxSYsiv4vhxSy7jU=",
+        "originContent": "python train_vq.py --name vq_name --gpu_id 1 --dataset_name t2m --batch_size 256  --max_epoch 50 --quantize_dropout_prob 0.2 --gamma 0.05",
+        "translatedContent": "python train_vq.py --name vq_name --gpu_id 1 --dataset_name t2m --batch_size 256  --max_epoch 50 --quantize_dropout_prob 0.2 --gamma 0.05"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n### Train LaMP",
+    "ContentSha": "Mq3PjKj3xpE9xD3u4u3Mq4xEuHIbgaqzTLo6yfXaG3Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Train LaMP\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Train LaMP"
+      },
+      {
+        "row": 2,
+        "rowsha": "mUxf096DLa6ROoW0N14mrlgFB2vtgQL6eltwm0oCGxE=",
+        "originContent": "### Train LaMP",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```\npython train_lamp.py --name lamp_name --gpu_id 2 --dataset_name t2m --batch_size 64 --vq_name vq_name\n```",
+    "ContentSha": "7/2mjBIod4U/Qdc0rnMj/+t9hOxvnvivdTYCxbCWWbw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython train_lamp.py --name lamp_name --gpu_id 2 --dataset_name t2m --batch_size 64 --vq_name vq_name\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "Bmo8Co/GjT1PNn30iz65r5kNeAtNPJWBPIVkFFPowSk=",
+        "originContent": "python train_lamp.py --name lamp_name --gpu_id 2 --dataset_name t2m --batch_size 64 --vq_name vq_name",
+        "translatedContent": "python train_lamp.py --name lamp_name --gpu_id 2 --dataset_name t2m --batch_size 64 --vq_name vq_name"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n### Train Masked Transformer",
+    "ContentSha": "MauHA12yBCqkHsd3eLlR6uQ7XdhPlnc3UQwrgU9kxGY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Train Masked Transformer\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Train Masked Transformer"
+      },
+      {
+        "row": 2,
+        "rowsha": "TOi3s7M3ubifxFtJrr6Q4XGArwrBgLz+mq4148YkCfc=",
+        "originContent": "### Train Masked Transformer",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```\npython train_t2m_transformer.py --name mtrans_name --gpu_id 2 --dataset_name t2m --batch_size 64 --vq_name vq_name\n```",
+    "ContentSha": "A8s+qzujnBHRt8Loob5AtTovTLN1bTx8DDNEznhhPUE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython train_t2m_transformer.py --name mtrans_name --gpu_id 2 --dataset_name t2m --batch_size 64 --vq_name vq_name\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "6HvcY5FmS1I6bffg5VRvrj1ydAPI2raLfAXodUJATZo=",
+        "originContent": "python train_t2m_transformer.py --name mtrans_name --gpu_id 2 --dataset_name t2m --batch_size 64 --vq_name vq_name",
+        "translatedContent": "python train_t2m_transformer.py --name mtrans_name --gpu_id 2 --dataset_name t2m --batch_size 64 --vq_name vq_name"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n* `--dataset_name`: motion dataset, `t2m` for HumanML3D and `kit` for KIT-ML.  \n* `--name`: name your model. This will create to model space as `./checkpoints/<dataset_name>/<name>`\n* `--gpu_id`: GPU id.\n* `--batch_size`: we use `512` for vq training. For masked/residual transformer, we use `64` on HumanML3D and `16` for KIT-ML.\n* `--quantize_drop_prob`: quantization dropout ratio, `0.2` is used.\n* `--vq_name`: when training masked/residual transformer, you need to specify the name of vq model for tokenization.\n* `--cond_drop_prob`: condition drop ratio, for classifier-free guidance. `0.2` is used.\n\nAll the pre-trained models and intermediate results will be saved in space `./checkpoints/<dataset_name>/<name>`.\n\n### Train M2T",
+    "ContentSha": "t+m/SVDL6dWPYslKuTGhL8nJOrboYez/1h+KKIyDr4A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "* `--dataset_name`: motion dataset, `t2m` for HumanML3D and `kit` for KIT-ML.  \n* `--name`: name your model. This will create a model space as `./checkpoints/<dataset_name>/<name>`\n* `--gpu_id`: GPU id.\n* `--batch_size`: we use `512` for vq training. For masked/residual transformer, we use `64` on HumanML3D and `16` for KIT-ML.\n* `--quantize_drop_prob`: quantization dropout ratio, `0.2` is used.\n* `--vq_name`: when training masked/residual transformer, you need to specify the name of the vq model for tokenization.\n* `--cond_drop_prob`: condition drop ratio, for classifier-free guidance. `0.2` is used.\n\nAll the pre-trained models and intermediate results will be saved in the space `./checkpoints/<dataset_name>/<name>`.\n\n### Train M2T\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* `--dataset_name`: motion dataset, `t2m` for HumanML3D and `kit` for KIT-ML.  "
+      },
+      {
+        "row": 2,
+        "rowsha": "4L+5tVBzqV+POy0f3mfmadzbhDSqIyg36CqIovh6o8Q=",
+        "originContent": "* `--dataset_name`: motion dataset, `t2m` for HumanML3D and `kit` for KIT-ML.  ",
+        "translatedContent": "* `--name`: name your model. This will create a model space as `./checkpoints/<dataset_name>/<name>`"
+      },
+      {
+        "row": 3,
+        "rowsha": "JM7Fy1CRFvWFcHwj4cSHOyl1EvEb5wffoJmGEn2SEHs=",
+        "originContent": "* `--name`: name your model. This will create to model space as `./checkpoints/<dataset_name>/<name>`",
+        "translatedContent": "* `--gpu_id`: GPU id."
+      },
+      {
+        "row": 4,
+        "rowsha": "6oB6bBBRriuwFfNkseS31TYwoZfZ9fH7IYBsKw4s2BQ=",
+        "originContent": "* `--gpu_id`: GPU id.",
+        "translatedContent": "* `--batch_size`: we use `512` for vq training. For masked/residual transformer, we use `64` on HumanML3D and `16` for KIT-ML."
+      },
+      {
+        "row": 5,
+        "rowsha": "w6OV73ebp+Xw12itkeHs0ZlSftMXzQGwMzhjfdiaeF4=",
+        "originContent": "* `--batch_size`: we use `512` for vq training. For masked/residual transformer, we use `64` on HumanML3D and `16` for KIT-ML.",
+        "translatedContent": "* `--quantize_drop_prob`: quantization dropout ratio, `0.2` is used."
+      },
+      {
+        "row": 6,
+        "rowsha": "viJK0VzrsSvAmG7F+2Bi5bX4yfs5NWy8oxViy/O4sLk=",
+        "originContent": "* `--quantize_drop_prob`: quantization dropout ratio, `0.2` is used.",
+        "translatedContent": "* `--vq_name`: when training masked/residual transformer, you need to specify the name of the vq model for tokenization."
+      },
+      {
+        "row": 7,
+        "rowsha": "qdu32Q0U18TSt6V9u1nNwq1VTY6DuekN3dlnvTJmUZY=",
+        "originContent": "* `--vq_name`: when training masked/residual transformer, you need to specify the name of vq model for tokenization.",
+        "translatedContent": "* `--cond_drop_prob`: condition drop ratio, for classifier-free guidance. `0.2` is used."
+      },
+      {
+        "row": 8,
+        "rowsha": "K6ORKOrvkHowPc+R6pqOetGe49qHX3WmfpphPBYGlCQ=",
+        "originContent": "* `--cond_drop_prob`: condition drop ratio, for classifier-free guidance. `0.2` is used.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "All the pre-trained models and intermediate results will be saved in the space `./checkpoints/<dataset_name>/<name>`."
+      },
+      {
+        "row": 10,
+        "rowsha": "39ZhwA0+4FToRksD9dBq7mLJI6OHG2l3CyK81ZNIzMk=",
+        "originContent": "All the pre-trained models and intermediate results will be saved in space `./checkpoints/<dataset_name>/<name>`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Train M2T"
+      },
+      {
+        "row": 12,
+        "rowsha": "NRE0QnIHUeEvy9ogcorW9IKxLzG2lxKaMjmrMsR3gRo=",
+        "originContent": "### Train M2T",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```\npython train_m2t.py --exp-name M2T --num-layers 12 --batch-size 80 --embed-dim-gpt 1024 --nb-code 512 --n-head-gpt 16 --block-size 51 --ff-rate 4 --drop-out-rate 0.1 --resume-pth your_own_vqvae --vq-name VQVAE --out-dir ./output --total-iter 150000 --lr-scheduler 75000 --lr 0.00005 --dataname kit --down-t 2 --depth 3 --quantizer ema_reset --eval-iter 10000 --pkeep 0.5 --dilation-growth-rate 3 --vq-act relu\n```",
+    "ContentSha": "HDSx24qAHdNU9yYt/+1pgkAjK7k0UHDHlcssLIJ5p3M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython train_m2t.py --exp-name M2T --num-layers 12 --batch-size 80 --embed-dim-gpt 1024 --nb-code 512 --n-head-gpt 16 --block-size 51 --ff-rate 4 --drop-out-rate 0.1 --resume-pth your_own_vqvae --vq-name VQVAE --out-dir ./output --total-iter 150000 --lr-scheduler 75000 --lr 0.00005 --dataname kit --down-t 2 --depth 3 --quantizer ema_reset --eval-iter 10000 --pkeep 0.5 --dilation-growth-rate 3 --vq-act relu\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "iV7qTKNtUE//FLELICV4H2kp6EMUxxSIDfSv+dGw6Gg=",
+        "originContent": "python train_m2t.py --exp-name M2T --num-layers 12 --batch-size 80 --embed-dim-gpt 1024 --nb-code 512 --n-head-gpt 16 --block-size 51 --ff-rate 4 --drop-out-rate 0.1 --resume-pth your_own_vqvae --vq-name VQVAE --out-dir ./output --total-iter 150000 --lr-scheduler 75000 --lr 0.00005 --dataname kit --down-t 2 --depth 3 --quantizer ema_reset --eval-iter 10000 --pkeep 0.5 --dilation-growth-rate 3 --vq-act relu",
+        "translatedContent": "python train_m2t.py --exp-name M2T --num-layers 12 --batch-size 80 --embed-dim-gpt 1024 --nb-code 512 --n-head-gpt 16 --block-size 51 --ff-rate 4 --drop-out-rate 0.1 --resume-pth your_own_vqvae --vq-name VQVAE --out-dir ./output --total-iter 150000 --lr-scheduler 75000 --lr 0.00005 --dataname kit --down-t 2 --depth 3 --quantizer ema_reset --eval-iter 10000 --pkeep 0.5 --dilation-growth-rate 3 --vq-act relu"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\n</details>\n\n## :artist: Evaluation\n<details>\n\n### Evaluate VQ-VAE Reconstruction:\nHumanML3D:",
+    "ContentSha": "YBaJl4dUze6hBi+I722jzzNXZnzRU4nMz7wJ9DMblgM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "</details>\n\n## :artist: Evaluation\n<details>\n\n### Evaluate VQ-VAE Reconstruction:\nHumanML3D:</details>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 2,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## :artist: Evaluation"
+      },
+      {
+        "row": 4,
+        "rowsha": "6tiR6JKnnL9DM7o6iDBLi0UjQl8ZbcbGKa09WImTQ4Y=",
+        "originContent": "## :artist: Evaluation",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 5,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Evaluate VQ-VAE Reconstruction:"
+      },
+      {
+        "row": 7,
+        "rowsha": "C9WIYFOR/rw5VLQVUKJNcsMPCDBY6boCSbk+jmkFTfo=",
+        "originContent": "### Evaluate VQ-VAE Reconstruction:",
+        "translatedContent": "HumanML3D:</details>"
+      },
+      {
+        "row": 8,
+        "rowsha": "QN2VJF4dXeWtj611rSivEWpogC54Mvq46NIBjoVyNzU=",
+        "originContent": "HumanML3D:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```\npython eval_t2m_vq.py --gpu_id 0 --name  --dataset_name t2m\n\n```",
+    "ContentSha": "K07ixitaPgzCpi+grgFKdDA4Hg9WRF6WDRbjQfYqxtg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython eval_t2m_vq.py --gpu_id 0 --name  --dataset_name t2m\n\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "3qYsfleP33LjyBFQZQrWkfkPwDxSDjmb6EeYhp07dX0=",
+        "originContent": "python eval_t2m_vq.py --gpu_id 0 --name  --dataset_name t2m",
+        "translatedContent": "python eval_t2m_vq.py --gpu_id 0 --name  --dataset_name t2m"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "KIT-ML:",
+    "ContentSha": "fmTGDv2c4k7L1hCmqyAukrZYEbChzBqoQxA7o/WR13A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "KIT-ML:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "fmTGDv2c4k7L1hCmqyAukrZYEbChzBqoQxA7o/WR13A=",
+        "originContent": "KIT-ML:",
+        "translatedContent": "KIT-ML:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```\npython eval_t2m_vq.py --gpu_id 0 --name  --dataset_name kit\n```",
+    "ContentSha": "OFHZDMm3qNWpkppLuYPoTx8OmlMCiS4BynPOK6wjJ94=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython eval_t2m_vq.py --gpu_id 0 --name  --dataset_name kit\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "jpNt3CYYuZHzTt/+cHoNkTSPWl1icbwFuIwCGDkfaxc=",
+        "originContent": "python eval_t2m_vq.py --gpu_id 0 --name  --dataset_name kit",
+        "translatedContent": "python eval_t2m_vq.py --gpu_id 0 --name  --dataset_name kit"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\n### Evaluate LaMP-T2M:\nHumanML3D:",
+    "ContentSha": "f9eOO1BIK2nd2UTShqnf4qQCpti8ozFcdLAIWTqy64Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Evaluate LaMP-T2M:  \nHumanML3D:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Evaluate LaMP-T2M:  "
+      },
+      {
+        "row": 2,
+        "rowsha": "1ssven3LjTqdYiENwl9wnloBdI/GTEK9MOrcrX0jzVc=",
+        "originContent": "### Evaluate LaMP-T2M:",
+        "translatedContent": "HumanML3D:"
+      },
+      {
+        "row": 3,
+        "rowsha": "QN2VJF4dXeWtj611rSivEWpogC54Mvq46NIBjoVyNzU=",
+        "originContent": "HumanML3D:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "```\npython eval_t2m_trans_res.py --res_name mtrans_name --dataset_name t2m --name eval_name --gpu_id 1 --cond_scale 4 --time_steps 10 --ext evaluation\n```",
+    "ContentSha": "CtURd+DDlUpCZ3Sg7pjijaypme28fJCuVW4eY4OLaeo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython eval_t2m_trans_res.py --res_name mtrans_name --dataset_name t2m --name eval_name --gpu_id 1 --cond_scale 4 --time_steps 10 --ext evaluation\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "GlaTG9J3zSHtjkFmMNAghL01PTBeof35P3onBGvDcxY=",
+        "originContent": "python eval_t2m_trans_res.py --res_name mtrans_name --dataset_name t2m --name eval_name --gpu_id 1 --cond_scale 4 --time_steps 10 --ext evaluation",
+        "translatedContent": "python eval_t2m_trans_res.py --res_name mtrans_name --dataset_name t2m --name eval_name --gpu_id 1 --cond_scale 4 --time_steps 10 --ext evaluation"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 29,
+    "Content": "KIT-ML:",
+    "ContentSha": "fmTGDv2c4k7L1hCmqyAukrZYEbChzBqoQxA7o/WR13A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "KIT-ML:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "fmTGDv2c4k7L1hCmqyAukrZYEbChzBqoQxA7o/WR13A=",
+        "originContent": "KIT-ML:",
+        "translatedContent": "KIT-ML:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 30,
+    "Content": "```\npython eval_t2m_trans_res.py --res_name mtrans_name_k --dataset_name kit --name eval_name_k --gpu_id 0 --cond_scale 2 --time_steps 10 --ext evaluation\n```",
+    "ContentSha": "bE8DJNsmMLAFFgLRE/B9mkUBH/o/lXnYSVfAnH9JkK0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython eval_t2m_trans_res.py --res_name mtrans_name_k --dataset_name kit --name eval_name_k --gpu_id 0 --cond_scale 2 --time_steps 10 --ext evaluation\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "zt9NcBmWKUFY9HMjI+kvS39FnN1uvw7LXTZl98jkMg4=",
+        "originContent": "python eval_t2m_trans_res.py --res_name mtrans_name_k --dataset_name kit --name eval_name_k --gpu_id 0 --cond_scale 2 --time_steps 10 --ext evaluation",
+        "translatedContent": "python eval_t2m_trans_res.py --res_name mtrans_name_k --dataset_name kit --name eval_name_k --gpu_id 0 --cond_scale 2 --time_steps 10 --ext evaluation"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 31,
+    "Content": "\n* `--res_name`: model name of `residual transformer`.  \n* `--name`: model name of `masked transformer`.  \n* `--cond_scale`: scale of classifer-free guidance.\n* `--time_steps`: number of iterations for inference.\n* `--ext`: filename for saving evaluation results.\n* `--which_epoch`: checkpoint name of `masked transformer`.\n\nThe final evaluation results will be saved in `./checkpoints/<dataset_name>/<name>/eval/<ext>.log`\n\n### Evaluate LaMP-M2T:",
+    "ContentSha": "t+Uoix0TXnOwcq54fHaN2qy4OJ+QmfzXzj4ExVHWOIc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "* `--res_name`: model name of `residual transformer`.  \n* `--name`: model name of `masked transformer`.  \n* `--cond_scale`: scale of classifier-free guidance.  \n* `--time_steps`: number of iterations for inference.  \n* `--ext`: filename for saving evaluation results.  \n* `--which_epoch`: checkpoint name of `masked transformer`.  \n\nThe final evaluation results will be saved in `./checkpoints/<dataset_name>/<name>/eval/<ext>.log`  \n\n### Evaluate LaMP-M2T:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* `--res_name`: model name of `residual transformer`.  "
+      },
+      {
+        "row": 2,
+        "rowsha": "sVEeRgDVUDWVFt6V/NsRBbLXz2BU3LeoT2hrWF9NOgE=",
+        "originContent": "* `--res_name`: model name of `residual transformer`.  ",
+        "translatedContent": "* `--name`: model name of `masked transformer`.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "qyJ6u6P5CpEmDHoOE+4W9R3e7IJ4CRezxYtLr9rUgT0=",
+        "originContent": "* `--name`: model name of `masked transformer`.  ",
+        "translatedContent": "* `--cond_scale`: scale of classifier-free guidance.  "
+      },
+      {
+        "row": 4,
+        "rowsha": "u4lPCGF5CzGxH4xdLyboXuckkKXN9hm8Ifqvhq7dD90=",
+        "originContent": "* `--cond_scale`: scale of classifer-free guidance.",
+        "translatedContent": "* `--time_steps`: number of iterations for inference.  "
+      },
+      {
+        "row": 5,
+        "rowsha": "RoiUgLdaa5Ys0KVpXjTdJE1HBkMFIoYiZ99H7sQKjmM=",
+        "originContent": "* `--time_steps`: number of iterations for inference.",
+        "translatedContent": "* `--ext`: filename for saving evaluation results.  "
+      },
+      {
+        "row": 6,
+        "rowsha": "KQK9dsnKYVNJcRFRMMMnAjXCGWdbL5hn8wSaCHDuagQ=",
+        "originContent": "* `--ext`: filename for saving evaluation results.",
+        "translatedContent": "* `--which_epoch`: checkpoint name of `masked transformer`.  "
+      },
+      {
+        "row": 7,
+        "rowsha": "Wv3tF7DU+rwn2twHulDSuMTKGDzMGSO8X4xDk7usjy0=",
+        "originContent": "* `--which_epoch`: checkpoint name of `masked transformer`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "The final evaluation results will be saved in `./checkpoints/<dataset_name>/<name>/eval/<ext>.log`  "
+      },
+      {
+        "row": 9,
+        "rowsha": "f3Duk5pO2fQsUR82n4DjryLKSGm0xbfqJoQkUySOc1I=",
+        "originContent": "The final evaluation results will be saved in `./checkpoints/<dataset_name>/<name>/eval/<ext>.log`",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Evaluate LaMP-M2T:"
+      },
+      {
+        "row": 11,
+        "rowsha": "vaJFMweyWlL1tj/5L3hUB2+7Wz6+GjMWHAEG/RLotGU=",
+        "originContent": "### Evaluate LaMP-M2T:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 32,
+    "Content": "```\npython M2T_eval.py --exp-name Test_M2T --num-layers 9 --batch-size 1 --embed-dim-gpt 1024 --nb-code 512 --n-head-gpt 16 --block-size 51 --ff-rate 4 --drop-out-rate 0.1 --resume-pth your_own_vqvae --vq-name VQVAE --out-dir ./output --total-iter 150000 --lr-scheduler 75000 --lr 0.0001 --dataname t2m --down-t 2 --depth 3 --quantizer ema_reset --eval-iter 10000 --pkeep 0.5 --dilation-growth-rate 3 --vq-act relu --resume-trans your_own_m2t\n```",
+    "ContentSha": "RQiJGrukjK1pdEKxv+Qwh9w57INe6yHoiYydCX2TKno=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython M2T_eval.py --exp-name Test_M2T --num-layers 9 --batch-size 1 --embed-dim-gpt 1024 --nb-code 512 --n-head-gpt 16 --block-size 51 --ff-rate 4 --drop-out-rate 0.1 --resume-pth your_own_vqvae --vq-name VQVAE --out-dir ./output --total-iter 150000 --lr-scheduler 75000 --lr 0.0001 --dataname t2m --down-t 2 --depth 3 --quantizer ema_reset --eval-iter 10000 --pkeep 0.5 --dilation-growth-rate 3 --vq-act relu --resume-trans your_own_m2t\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "1ezmOefQmrfCm+N3XAfcDFQSAoS07JqUvinP3VCFtFY=",
+        "originContent": "python M2T_eval.py --exp-name Test_M2T --num-layers 9 --batch-size 1 --embed-dim-gpt 1024 --nb-code 512 --n-head-gpt 16 --block-size 51 --ff-rate 4 --drop-out-rate 0.1 --resume-pth your_own_vqvae --vq-name VQVAE --out-dir ./output --total-iter 150000 --lr-scheduler 75000 --lr 0.0001 --dataname t2m --down-t 2 --depth 3 --quantizer ema_reset --eval-iter 10000 --pkeep 0.5 --dilation-growth-rate 3 --vq-act relu --resume-trans your_own_m2t",
+        "translatedContent": "python M2T_eval.py --exp-name Test_M2T --num-layers 9 --batch-size 1 --embed-dim-gpt 1024 --nb-code 512 --n-head-gpt 16 --block-size 51 --ff-rate 4 --drop-out-rate 0.1 --resume-pth your_own_vqvae --vq-name VQVAE --out-dir ./output --total-iter 150000 --lr-scheduler 75000 --lr 0.0001 --dataname t2m --down-t 2 --depth 3 --quantizer ema_reset --eval-iter 10000 --pkeep 0.5 --dilation-growth-rate 3 --vq-act relu --resume-trans your_own_m2t"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 33,
+    "Content": "LaMP-BertScore metric is computed by first generating a textual description of the synthesized motion using LaMP-M2T, and then calculating the BertScore between the generated description and the ground-truth text.\n\n</details>\n\n## Acknowlegements\n\nWe sincerely thank the open-sourcing of these works where our code is based on: \n\n[T2M-GPT](https://github.com/Mael-zys/T2M-GPT) and [MoMask](https://github.com/EricGuo5513/momask-codes/tree/main).\n\n## License\nThis code is distributed under an [MIT LICENSE](https://github.com/gentlefress/LaMP/blob/main/LICENSE.md).\n\nNote that our code depends on other libraries, including SMPL, SMPL-X, PyTorch3D, and uses datasets which each have their own respective licenses that must also be followed.\n\n### Misc\nContact keycharon0122@gmail.com for further questions.\n\n",
+    "ContentSha": "y4o7c7hLgGJ0F4DgoUcysq5ByUhM3He1KNzpwX1sMFo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "LaMP-BertScore metric is computed by first generating a textual description of the synthesized motion using LaMP-M2T, and then calculating the BertScore between the generated description and the ground-truth text.\n\n</details>\n\n## Acknowlegements\n\nWe sincerely thank the open-sourcing of these works where our code is based on: \n\n[T2M-GPT](https://github.com/Mael-zys/T2M-GPT) and [MoMask](https://github.com/EricGuo5513/momask-codes/tree/main).\n\n## License\nThis code is distributed under an [MIT LICENSE](https://github.com/gentlefress/LaMP/blob/main/LICENSE.md).\n\nNote that our code depends on other libraries, including SMPL, SMPL-X, PyTorch3D, and uses datasets which each have their own respective licenses that must also be followed.\n\n### Misc\nContact keycharon0122@gmail.com for further questions.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ql4JOsYZ+5RH0riiO2e7pp4ZXsDGt9GLejJEfwmzGYc=",
+        "originContent": "LaMP-BertScore metric is computed by first generating a textual description of the synthesized motion using LaMP-M2T, and then calculating the BertScore between the generated description and the ground-truth text.",
+        "translatedContent": "LaMP-BertScore metric is computed by first generating a textual description of the synthesized motion using LaMP-M2T, and then calculating the BertScore between the generated description and the ground-truth text."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "FcHmtFlMLg6kiyVfsQ9wEVdoyI3qZ6jolNCNUAKYbLA=",
+        "originContent": "## Acknowlegements",
+        "translatedContent": "## Acknowlegements"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "8cMcJMXQP2pkuJlT0W5bk0E6J5pBCOUNrI56QGcZKGA=",
+        "originContent": "We sincerely thank the open-sourcing of these works where our code is based on: ",
+        "translatedContent": "We sincerely thank the open-sourcing of these works where our code is based on: "
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "UlnS5f3UlvJH6ZT3QjLls+YqKJ9ocWe0HYfn4q7hWjc=",
+        "originContent": "[T2M-GPT](https://github.com/Mael-zys/T2M-GPT) and [MoMask](https://github.com/EricGuo5513/momask-codes/tree/main).",
+        "translatedContent": "[T2M-GPT](https://github.com/Mael-zys/T2M-GPT) and [MoMask](https://github.com/EricGuo5513/momask-codes/tree/main)."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## License"
+      },
+      {
+        "row": 12,
+        "rowsha": "a6uFlDW27XFPRE7YrT70AKwUxyIX8+FDMsHkmFHoN+w=",
+        "originContent": "This code is distributed under an [MIT LICENSE](https://github.com/gentlefress/LaMP/blob/main/LICENSE.md).",
+        "translatedContent": "This code is distributed under an [MIT LICENSE](https://github.com/gentlefress/LaMP/blob/main/LICENSE.md)."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "GZe0fLb91Yxryvrqmj0LnIhLD4qqDNFZETUOKPEvFjA=",
+        "originContent": "Note that our code depends on other libraries, including SMPL, SMPL-X, PyTorch3D, and uses datasets which each have their own respective licenses that must also be followed.",
+        "translatedContent": "Note that our code depends on other libraries, including SMPL, SMPL-X, PyTorch3D, and uses datasets which each have their own respective licenses that must also be followed."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "ka08euf1fjR3pBYKZnJPJISNHCXbW0Asqlk0K1fdlvo=",
+        "originContent": "### Misc",
+        "translatedContent": "### Misc"
+      },
+      {
+        "row": 17,
+        "rowsha": "TGlDescomEGh5zcJYKoZPwuhs+bATOdZPgujQ4WQI6s=",
+        "originContent": "Contact keycharon0122@gmail.com for further questions.",
+        "translatedContent": "Contact keycharon0122@gmail.com for further questions."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

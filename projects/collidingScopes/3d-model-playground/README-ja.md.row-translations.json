@@ -1,0 +1,470 @@
+[
+  {
+    "row": 1,
+    "rowsha": "VzaVSqr5F5wv7OgczunzFvMvkfeO5sVChno+ko1hqEA=",
+    "originContent": "# 3D Model Playground",
+    "translatedContent": "<translate-content># 3Dモデル遊び場"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "TrtyFLOOjF1Lha2LVMz59xcMBH2DTgg4iPX33Wg+z1c=",
+    "originContent": "Control 3D models using hand gestures and voice commands in real-time.",
+    "translatedContent": "リアルタイムで手のジェスチャーと音声コマンドを使って3Dモデルを操作します。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "EFYoL4dpGKi3YtcUNh8XVRSW6rrq6mTirZOzZaMMs0Y=",
+    "originContent": "An interactive web app built with threejs, mediapipe computer vision, web speech API, and rosebud AI.",
+    "translatedContent": "threejs、mediapipeコンピュータビジョン、Web Speech API、rosebud AIで構築されたインタラクティブなウェブアプリ。"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "p6VPJ3fiqZnPkFBGRyd3n9rpAR4M8XMQhXQfjmzAz1Q=",
+    "originContent": "- Say \"drag\", \"rotate\", \"scale\", or \"animate\" to change the interaction mode",
+    "translatedContent": "- 「ドラッグ」「回転」「スケール」「アニメート」と言って操作モードを変更"
+  },
+  {
+    "row": 8,
+    "rowsha": "CtwRBrUVBQZlQCeWq3E2elMO2Q8f6e1AJrbpIDjFPsw=",
+    "originContent": "- Pinch fingers to control the 3D model",
+    "translatedContent": "- 指をつまんで3Dモデルを操作"
+  },
+  {
+    "row": 9,
+    "rowsha": "ufUG4/m7YjL447tz01cVfViV3oPdnaQwsuwm2cpVK+g=",
+    "originContent": "- Drag/drop a new 3D model onto the page to import it (GLB/GLTF format)",
+    "translatedContent": "- ページに新しい3Dモデルをドラッグ＆ドロップしてインポート（GLB/GLTF形式）"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "Kc/XN1AYubAeeaU1x7kmIa4ngaUGL7OHf1WJR3D226M=",
+    "originContent": "[Video](https://youtu.be/_I1E44Fp1Es?si=lR2otqR_-ZGdIGXT) | [Live Demo](https://collidingscopes.github.io/3d-model-playground/)",
+    "translatedContent": "[ビデオ](https://youtu.be/_I1E44Fp1Es?si=lR2otqR_-ZGdIGXT) | [ライブデモ](https://collidingscopes.github.io/3d-model-playground/)"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+    "originContent": "## Requirements",
+    "translatedContent": "## 必要条件"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "oFnhN1z0w8kBQHQlQ+mz5wWjY+Nhp28CxJeXjeksekc=",
+    "originContent": "- Modern web browser with WebGL support",
+    "translatedContent": "- WebGL対応の最新ウェブブラウザ"
+  },
+  {
+    "row": 16,
+    "rowsha": "HLWVpyHN4M0vpvTh8Xn0H2DB4PiGjn9FFRRRkBngcHU=",
+    "originContent": "- Camera / microphone access",
+    "translatedContent": "- カメラ／マイクへのアクセス権"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "8F3iiDGZOfkbUmWreBWg6jAbmrN3dmmDPu+obW5GkU4=",
+    "originContent": "## Technologies",
+    "translatedContent": "## 技術"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "/YC97HYd4pEPy5xQvD5Wj5TUKjxmjCbO7eEuk6ydJAM=",
+    "originContent": "- **Three.js** for 3D rendering",
+    "translatedContent": "- 3Dレンダリングに**Three.js**"
+  },
+  {
+    "row": 21,
+    "rowsha": "C6MbYOwHbXjumAKFhKVMKDflKlD68WPn2derCJVTTfU=",
+    "originContent": "- **MediaPipe** for hand tracking and gesture recognition",
+    "translatedContent": "- 手の追跡とジェスチャー認識に**MediaPipe**"
+  },
+  {
+    "row": 22,
+    "rowsha": "itpuqnpvyzMNwB9/Jscwq4jxIGvVjIWPohqkxeo0/NU=",
+    "originContent": "- **Web Speech API** for speech recognition",
+    "translatedContent": "- 音声認識に**Web Speech API**"
+  },
+  {
+    "row": 23,
+    "rowsha": "MvdxZ9C0i7IxLZHPC92nMWdbZDzFCYzEyLlZzv5GvfY=",
+    "originContent": "- **HTML5 Canvas** for visual feedback",
+    "translatedContent": "- 視覚フィードバックに**HTML5 Canvas**"
+  },
+  {
+    "row": 24,
+    "rowsha": "l7gox55ruQkB5o2S/Aw95yqMSyeK+1LPJXUKd9cQKUo=",
+    "originContent": "- **JavaScript** for real-time interaction",
+    "translatedContent": "- リアルタイムインタラクションに**JavaScript**"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "KXYzMHm4WhqzDfHFL5TkcXIzNPsyVStyEoH0SSeDaPk=",
+    "originContent": "## Setup for Development",
+    "translatedContent": "## 開発用セットアップ"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 29,
+    "rowsha": "FfyxfixqwnpInq0Xfs4gMI6UD6eB3RcxOdzb5OuQkqw=",
+    "originContent": "# Clone this repository",
+    "translatedContent": "# Clone this repository"
+  },
+  {
+    "row": 30,
+    "rowsha": "pTJSFBpbXcp+cWo3Wyzr2cE8/3dFoc5Vkrgn9leJqKY=",
+    "originContent": "git clone https://github.com/collidingScopes/3d-model-playground",
+    "translatedContent": "git clone https://github.com/collidingScopes/3d-model-playground"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "oORg+DW085dQPA1iYJn2EKIlwuy1AUKWQuOHD6U849I=",
+    "originContent": "# Navigate to the project directory",
+    "translatedContent": "# Navigate to the project directory"
+  },
+  {
+    "row": 33,
+    "rowsha": "Kh9pNUFOvmYcrwFjGSn5bzh1ZQYn2yG1l8YTV6xEJ3w=",
+    "originContent": "cd 3d-model-playground",
+    "translatedContent": "cd 3d-model-playground"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "6tallz3SZg2z344KbWDNPlFMFZlopcMcIs7OgZyokv4=",
+    "originContent": "# Serve with your preferred method (example using Python)",
+    "translatedContent": "# Serve with your preferred method (example using Python)"
+  },
+  {
+    "row": 36,
+    "rowsha": "pbCYRUfb8kOHJM3iANBSVCxr9QetDFXMw+z2hWqGm4U=",
+    "originContent": "python -m http.server",
+    "translatedContent": "python -m http.server"
+  },
+  {
+    "row": 37,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "ブラウザで `http://localhost:8000` にアクセスしてください。"
+  },
+  {
+    "row": 39,
+    "rowsha": "BozR4ihunqaYgg6A+6RqGgU4QuKWdqVButf7+moNyWw=",
+    "originContent": "Then navigate to `http://localhost:8000` in your browser.",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## ライセンス"
+  },
+  {
+    "row": 41,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "MITライセンス"
+  },
+  {
+    "row": 43,
+    "rowsha": "q7KJbcPCqUAvkBuI1QNc8Kg9XPfBfnNkLN9WKwudO8U=",
+    "originContent": "MIT License",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## クレジット"
+  },
+  {
+    "row": 45,
+    "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+    "originContent": "## Credits",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Three.js - https://threejs.org/"
+  },
+  {
+    "row": 47,
+    "rowsha": "MafFbkVFgBhZmzz+ZGNslsDrkIFOLB+kMjzdkfWDaC8=",
+    "originContent": "- Three.js - https://threejs.org/",
+    "translatedContent": "- MediaPipe - https://mediapipe.dev/"
+  },
+  {
+    "row": 48,
+    "rowsha": "SNV/EEMQLnW14NsqqNDp6E3M/9z7GVfI1MP6JHB028s=",
+    "originContent": "- MediaPipe - https://mediapipe.dev/",
+    "translatedContent": "- Rosebud AI - https://rosebud.ai/"
+  },
+  {
+    "row": 49,
+    "rowsha": "FeDdU5Q8TUeVKlKBwdLoM6AY4slb89R8BS/YtAfzlRk=",
+    "originContent": "- Rosebud AI - https://rosebud.ai/",
+    "translatedContent": "- Quaternius 3Dモデル - https://quaternius.com/"
+  },
+  {
+    "row": 50,
+    "rowsha": "47B8kqQy9CnPdbAMEQKAbJRo2v90hM50ZnNF3GMjwgE=",
+    "originContent": "- Quaternius 3D models - https://quaternius.com/",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 関連プロジェクト"
+  },
+  {
+    "row": 52,
+    "rowsha": "029pqroXXjHSLawpWTocF2CPk5dLz29+pGq/paa0amA=",
+    "originContent": "## Related Projects",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "いくつかのコンピュータビジョンプロジェクト（コード＋チュートリアル付き）をこちらで公開しています："
+  },
+  {
+    "row": 54,
+    "rowsha": "ZysHKamBWkgPi0c+YvstdgsSsz/Z9ZbSlChLBLmL5h4=",
+    "originContent": "I've released several computer vision projects (with code + tutorials) here:",
+    "translatedContent": "[Fun With Computer Vision](https://www.funwithcomputervision.com/)"
+  },
+  {
+    "row": 55,
+    "rowsha": "LchsSp8VsSZqP0go/jczQXPJZJnVJYK6tQWYxuPKlnM=",
+    "originContent": "[Fun With Computer Vision](https://www.funwithcomputervision.com/)",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "生涯アクセスを購入すると、プロジェクトの全ファイルとチュートリアルを入手できます。定期的にコンテンツを追加しています :)"
+  },
+  {
+    "row": 57,
+    "rowsha": "ZrxYLM1UU8LvID3gGMw5U6nwC30kk4qt1oM7nR6iEXg=",
+    "originContent": "You can purchase lifetime access and receive the full project files and tutorials. I'm adding more content regularly :)",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "他のオープンソースプロジェクトも気に入っていただけるかもしれません："
+  },
+  {
+    "row": 59,
+    "rowsha": "dnf0FwgOevNcnu9jyzRzxkZ2BAAaP1lCfRdWEYV3LcM=",
+    "originContent": "You might also like some of my other open source projects:",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [Particular Drift](https://collidingScopes.github.io/particular-drift) - 写真を流れるパーティクルアニメーションに変換"
+  },
+  {
+    "row": 61,
+    "rowsha": "wCZlaniUj8xel4fdDlKUsQ6to1KrK1x6raYY0N8pz5c=",
+    "originContent": "- [Particular Drift](https://collidingScopes.github.io/particular-drift) - Turn photos into flowing particle animations",
+    "translatedContent": "- [Liquid Logo](https://collidingScopes.github.io/liquid-logo) - ロゴやアイコンを液体金属のアニメーションに変換"
+  },
+  {
+    "row": 62,
+    "rowsha": "VNwF4PkNURmKTnKmT97UYMWz78kxaVn1iG1PE9wLvb0=",
+    "originContent": "- [Liquid Logo](https://collidingScopes.github.io/liquid-logo) - Transform logos and icons into liquid metal animations",
+    "translatedContent": "- [Video-to-ASCII](https://collidingScopes.github.io/ascii) - 動画をASCIIピクセルアートに変換"
+  },
+  {
+    "row": 63,
+    "rowsha": "2QfTnRITnWsRlkjjXRxZKdppfP+VOz1/oHkuJyxPUC4=",
+    "originContent": "- [Video-to-ASCII](https://collidingScopes.github.io/ascii) - Convert videos into ASCII pixel art",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 連絡先"
+  },
+  {
+    "row": 65,
+    "rowsha": "ZX9nbduzXgvmAaK8yTd+tNgwR7cV79HXV/+xbvL8suw=",
+    "originContent": "## Contact",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Instagram: [@stereo.drift](https://www.instagram.com/stereo.drift/)"
+  },
+  {
+    "row": 67,
+    "rowsha": "SpjHK2lmj5JiiM69CWrwqgeim0AfHP7XsYH75v86no0=",
+    "originContent": "- Instagram: [@stereo.drift](https://www.instagram.com/stereo.drift/)",
+    "translatedContent": "- Twitter/X: [@measure_plan](https://x.com/measure_plan)"
+  },
+  {
+    "row": 68,
+    "rowsha": "2NGrt5QR1OnvfPiWRROOM89DY8t1MHvv5kqw3knbiBc=",
+    "originContent": "- Twitter/X: [@measure_plan](https://x.com/measure_plan)",
+    "translatedContent": "- メール: [stereodriftvisuals@gmail.com](https://raw.githubusercontent.com/collidingScopes/3d-model-playground/main/mailto:stereodriftvisuals@gmail.com)"
+  },
+  {
+    "row": 69,
+    "rowsha": "OP2iuk3DSkKNkhmcUhhwMZjJwpSzqSBUOq8t0fCzPtY=",
+    "originContent": "- Email: [stereodriftvisuals@gmail.com](https://raw.githubusercontent.com/collidingScopes/3d-model-playground/main/mailto:stereodriftvisuals@gmail.com)",
+    "translatedContent": "- GitHub: [collidingScopes](https://github.com/collidingScopes)"
+  },
+  {
+    "row": 70,
+    "rowsha": "9dvyN1TWgFi+GdyGTWP6+mWKzoXsjSLlTlrHWuDJHeA=",
+    "originContent": "- GitHub: [collidingScopes](https://github.com/collidingScopes)",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 寄付"
+  },
+  {
+    "row": 72,
+    "rowsha": "x/kHykQnDOYoMBjhKixSztWg1rO9QQXPK45W0JE9IwQ=",
+    "originContent": "## Donations",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "もし気に入っていただけたら、コーヒーをおごってください。"
+  },
+  {
+    "row": 74,
+    "rowsha": "IVR6P/9A5GVuJQ8vFyWWYt0PrIhgeeFIa8lEH4WVpb8=",
+    "originContent": "If you enjoyed this, feel free to buy me a coffee.",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "私の名前はアランで、コンピュータビジョンやゲームなどのオープンソースソフトウェアを作るのが好きです。深夜のコーディングセッション中にとても励みになります！"
+  },
+  {
+    "row": 76,
+    "rowsha": "vXg8eG8vjgkRLf2R0kdMHKV41ApLE5n3JZYS6aqwhjo=",
+    "originContent": "My name is Alan, and I enjoy building open source software for computer vision, games, and more. This would be much appreciated during late-night coding sessions!",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/stereoDrift)"
+  },
+  {
+    "row": 78,
+    "rowsha": "Cma8SdxjwsIP9fBdcA6vlWcFt7/AIzbbE/oI1Q+a37k=",
+    "originContent": "[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/stereoDrift)",
+    "translatedContent": ""
+  }
+]

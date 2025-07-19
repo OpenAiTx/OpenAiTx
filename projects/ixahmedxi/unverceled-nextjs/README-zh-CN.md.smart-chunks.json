@@ -1,0 +1,237 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Unverceled Next.js\n\n> A Tooling Heavy Next.js 15 starter-kit template deployed to Cloudflare Workers using OpenNext.\n\n## What's included\n\nThis template is only a basic \"Hello World\" page, however all of the tooling that you might ever need is included, such as:\n\n- Changesets\n- Github Actions\n- Commitlint & Commitizen\n- Lefthook pre-commit & commit-msg hooks\n- Playwright E2E Tests\n- Vitest Unit & Browser Component Tests\n- Prettier, ESLint, Cspell & MarkdownLint\n- Tailwind V4 & Shadcn UI\n- Total TypeScript TS Reset\n- Strict TypeScript Configuration\n- Arktype & T3 Env\n\n## Getting Started\n\n1. Use this template to create a new repository\n2. Clone the template to your machine\n3. Run `pnpm install`\n4. Edit the `wrangler.toml` file and put your own KV namespace id and D1 Database name & id.\n5. To deploy to cloudflare, run `pnpm wrangler login` first then you can just run `pnpm run deploy`\n\nIt's that simple!\n\nReference the OpenNext Cloudflare documentation at [https://opennext.js.org/cloudflare](https://opennext.js.org/cloudflare) to extend upon the basic setup in this template.\n\n## Notes\n\n- You can use [Cloudflare Workers Builds](https://developers.cloudflare.com/workers/ci-cd/builds/) to auto deploy your application when a new commit is made to the main branch.\n- You can use Cloudflare Images as your custom loader for image optimisations [Documentation](https://opennext.js.org/cloudflare/howtos/image)\n",
+    "ContentSha": "i9lfnDk6tloaYQ5HwwfFMPmufrMrYNFBVzNPqxxEJrA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Unverceled Next.js\n\n> 一个工具链丰富的 Next.js 15 启动模板，使用 OpenNext 部署到 Cloudflare Workers。\n\n## 包含内容\n\n此模板仅为一个基础的“Hello World”页面，但包含了你可能需要的所有工具，例如：\n\n- Changesets\n- Github Actions\n- Commitlint & Commitizen\n- Lefthook 预提交 & commit-msg 钩子\n- Playwright 端到端测试\n- Vitest 单元与浏览器组件测试\n- Prettier、ESLint、Cspell & MarkdownLint\n- Tailwind V4 & Shadcn UI\n- 完全重置的 TypeScript TS\n- 严格的 TypeScript 配置\n- Arktype & T3 Env\n\n## 快速开始\n\n1. 使用此模板创建一个新仓库\n2. 将模板克隆到你的机器上\n3. 运行 `pnpm install`\n4. 编辑 `wrangler.toml` 文件，填入你自己的 KV 命名空间 ID 和 D1 数据库名称及 ID。\n5. 部署到 Cloudflare，先运行 `pnpm wrangler login`，然后运行 `pnpm run deploy`\n\n就这么简单！\n\n参考 OpenNext Cloudflare 文档 [https://opennext.js.org/cloudflare](https://opennext.js.org/cloudflare) 来扩展此模板的基础设置。\n\n## 备注\n\n- 你可以使用 [Cloudflare Workers Builds](https://developers.cloudflare.com/workers/ci-cd/builds/) 在主分支有新提交时自动部署应用。\n- 你可以使用 Cloudflare Images 作为自定义加载器进行图片优化 [文档](https://opennext.js.org/cloudflare/howtos/image)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "GaieNKtciuU/J9qBw0fGfi2er6FTzW3oeBlE2WcABgg=",
+        "originContent": "# Unverceled Next.js",
+        "translatedContent": "# Unverceled Next.js"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "1Ftk++0DyyIycKVA0gquv51nUCIZl+a1sE7SGmfJdRA=",
+        "originContent": "> A Tooling Heavy Next.js 15 starter-kit template deployed to Cloudflare Workers using OpenNext.",
+        "translatedContent": "> 一个工具链丰富的 Next.js 15 启动模板，使用 OpenNext 部署到 Cloudflare Workers。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "C8y9mL6lwR+hG1ir/5kQAlmaavB6HBec+3glOQ8e96U=",
+        "originContent": "## What's included",
+        "translatedContent": "## 包含内容"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "2+hRR9dq24AXmZk7tXDQxHR5koIyRlEG86CFP1L1gzw=",
+        "originContent": "This template is only a basic \"Hello World\" page, however all of the tooling that you might ever need is included, such as:",
+        "translatedContent": "此模板仅为一个基础的“Hello World”页面，但包含了你可能需要的所有工具，例如："
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "uyyltNydgccjG39VSGmemD+yUv96OzYXM/68F9QlqZ4=",
+        "originContent": "- Changesets",
+        "translatedContent": "- Changesets"
+      },
+      {
+        "row": 10,
+        "rowsha": "CZbz+9IZxhKdwYEvjqdt2UkTqKE3vZUmSYHcigefA8k=",
+        "originContent": "- Github Actions",
+        "translatedContent": "- Github Actions"
+      },
+      {
+        "row": 11,
+        "rowsha": "exk9vlypFT/27aejBzmHqPmrBxZD1ky+3pQ6udLcnMA=",
+        "originContent": "- Commitlint & Commitizen",
+        "translatedContent": "- Commitlint & Commitizen"
+      },
+      {
+        "row": 12,
+        "rowsha": "A+N5yuJd/rvppfSZhqx74LKpj4Zb0+G+UXhwfL0/sjY=",
+        "originContent": "- Lefthook pre-commit & commit-msg hooks",
+        "translatedContent": "- Lefthook 预提交 & commit-msg 钩子"
+      },
+      {
+        "row": 13,
+        "rowsha": "zh69h02eH07yZj/pqFMvL4BiRHfD4Jza2WD9LfmAmjY=",
+        "originContent": "- Playwright E2E Tests",
+        "translatedContent": "- Playwright 端到端测试"
+      },
+      {
+        "row": 14,
+        "rowsha": "CdeBa+NixExn49H5fYZmzvDrq/GocNzL3XQSadZjqM8=",
+        "originContent": "- Vitest Unit & Browser Component Tests",
+        "translatedContent": "- Vitest 单元与浏览器组件测试"
+      },
+      {
+        "row": 15,
+        "rowsha": "jKWVEQDs1sQKM7elJVSNqDAVjBj6XvCGLTGqnUPmkJg=",
+        "originContent": "- Prettier, ESLint, Cspell & MarkdownLint",
+        "translatedContent": "- Prettier、ESLint、Cspell & MarkdownLint"
+      },
+      {
+        "row": 16,
+        "rowsha": "dewOWeczvppCY4bzh/JNxtxYS6iqSXq8Q0PhDh/AuLM=",
+        "originContent": "- Tailwind V4 & Shadcn UI",
+        "translatedContent": "- Tailwind V4 & Shadcn UI"
+      },
+      {
+        "row": 17,
+        "rowsha": "FicAR93A2zaKzqH9HiL3OaDiVlRv6Vhhn12B9C4pygE=",
+        "originContent": "- Total TypeScript TS Reset",
+        "translatedContent": "- 完全重置的 TypeScript TS"
+      },
+      {
+        "row": 18,
+        "rowsha": "nBR9vKKFxo7F7LLGdBCWcx2doKh3oYvGmJEAJ6zipJE=",
+        "originContent": "- Strict TypeScript Configuration",
+        "translatedContent": "- 严格的 TypeScript 配置"
+      },
+      {
+        "row": 19,
+        "rowsha": "PHKV56aHNuhLIUtO5z+Sb0I4/ypO0maGlPM32SJLRgw=",
+        "originContent": "- Arktype & T3 Env",
+        "translatedContent": "- Arktype & T3 Env"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+        "originContent": "## Getting Started",
+        "translatedContent": "## 快速开始"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "/ndwJY4HG148SYHRT5y0DQrS8LwBBq5mh0HvGH3+bHg=",
+        "originContent": "1. Use this template to create a new repository",
+        "translatedContent": "1. 使用此模板创建一个新仓库"
+      },
+      {
+        "row": 24,
+        "rowsha": "G2ZVWw49fKIcWME8AWBpO6m7GUHZfEJqAb+vkTXoYCw=",
+        "originContent": "2. Clone the template to your machine",
+        "translatedContent": "2. 将模板克隆到你的机器上"
+      },
+      {
+        "row": 25,
+        "rowsha": "tINw/nKUUFaDzaA4ICN6gQT6vbONaUZh01AN+HqRbXM=",
+        "originContent": "3. Run `pnpm install`",
+        "translatedContent": "3. 运行 `pnpm install`"
+      },
+      {
+        "row": 26,
+        "rowsha": "3ANiVJ0qCo24og9ttXZEqLiDBp1F7qLMfWcA8bEYWpk=",
+        "originContent": "4. Edit the `wrangler.toml` file and put your own KV namespace id and D1 Database name & id.",
+        "translatedContent": "4. 编辑 `wrangler.toml` 文件，填入你自己的 KV 命名空间 ID 和 D1 数据库名称及 ID。"
+      },
+      {
+        "row": 27,
+        "rowsha": "bIRTy2a+41/5Tc52rc1wyTGwIXpItuuCefqUKhTh0uc=",
+        "originContent": "5. To deploy to cloudflare, run `pnpm wrangler login` first then you can just run `pnpm run deploy`",
+        "translatedContent": "5. 部署到 Cloudflare，先运行 `pnpm wrangler login`，然后运行 `pnpm run deploy`"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "/x7OIdb0qpTfJl6mGv8KvEGQzqy4aCyb7qn/t8m2U00=",
+        "originContent": "It's that simple!",
+        "translatedContent": "就这么简单！"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "dnnbbMr/k7Ov2wDhjIdw9Kbl5x2CpcjGzunT+QynisY=",
+        "originContent": "Reference the OpenNext Cloudflare documentation at [https://opennext.js.org/cloudflare](https://opennext.js.org/cloudflare) to extend upon the basic setup in this template.",
+        "translatedContent": "参考 OpenNext Cloudflare 文档 [https://opennext.js.org/cloudflare](https://opennext.js.org/cloudflare) 来扩展此模板的基础设置。"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "Y+E+h7N40ehfg46tJn25AgwUV7ERijfgr5+1+XYUT0s=",
+        "originContent": "## Notes",
+        "translatedContent": "## 备注"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "zUCKv6/UACwz/3LhbzgMuMoXDpPmXPajRkTqN3tMbOc=",
+        "originContent": "- You can use [Cloudflare Workers Builds](https://developers.cloudflare.com/workers/ci-cd/builds/) to auto deploy your application when a new commit is made to the main branch.",
+        "translatedContent": "- 你可以使用 [Cloudflare Workers Builds](https://developers.cloudflare.com/workers/ci-cd/builds/) 在主分支有新提交时自动部署应用。"
+      },
+      {
+        "row": 36,
+        "rowsha": "2ocdwYDU48YziO/As/tPxvR9UrxN7jAZrUZSsy5SAp0=",
+        "originContent": "- You can use Cloudflare Images as your custom loader for image optimisations [Documentation](https://opennext.js.org/cloudflare/howtos/image)",
+        "translatedContent": "- 你可以使用 Cloudflare Images 作为自定义加载器进行图片优化 [文档](https://opennext.js.org/cloudflare/howtos/image)"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

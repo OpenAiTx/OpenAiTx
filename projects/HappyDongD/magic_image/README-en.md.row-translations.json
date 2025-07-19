@@ -1,0 +1,1424 @@
+[
+  {
+    "row": 1,
+    "rowsha": "m6BgZgP++cQ7zMWccL6TMXn1cuWA5rrz26Nv4R6Mq+4=",
+    "originContent": "# 魔法AI绘画",
+    "translatedContent": "<translate-content># Magic AI Drawing"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "CqSHldSMr4sKoTdUGU9GhIDzG/1RS8HvzQFgeupxuRw=",
+    "originContent": "<div align=\"right\">中文 | <a href=\"README-EN.md\">English</a></div>",
+    "translatedContent": "<div align=\"right\">Chinese | <a href=\"README-EN.md\">English</a></div>"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "U0vs77tGfFYY+r4ScaOhTOZDgt8vSKCUyj59tU13ZtE=",
+    "originContent": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+    "translatedContent": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+  },
+  {
+    "row": 6,
+    "rowsha": "gl0XxfSY6kzPXFWJTz9DZJJiQpK5y8WrSo3epIZM7tU=",
+    "originContent": "[![Next.js](https://img.shields.io/badge/Next.js-14-black.svg)](https://nextjs.org/)",
+    "translatedContent": "[![Next.js](https://img.shields.io/badge/Next.js-14-black.svg)](https://nextjs.org/)"
+  },
+  {
+    "row": 7,
+    "rowsha": "W3rZO36kbzPVajE492/Slz/cT+4pSp11RN3ShUF1Dnw=",
+    "originContent": "[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)",
+    "translatedContent": "[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)"
+  },
+  {
+    "row": 8,
+    "rowsha": "mV65pG6nvPUlZG+3DpMaasUGKh2FsMUNWuoCmAEuxzQ=",
+    "originContent": "[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)",
+    "translatedContent": "[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "zaBBL85zpU4IddcrPyibs3x3LPaTQ40vMMbqt1Sei6U=",
+    "originContent": "一个基于 Next.js 开发的 AI 绘画应用，具有以下主要功能：",
+    "translatedContent": "An AI drawing application developed based on Next.js, featuring the following main functions:"
+  },
+  {
+    "row": 11,
+    "rowsha": "gq6GGmR7DArCzJ4ZOtxy2hayMq+pjHEsMTIC4zFZYU4=",
+    "originContent": "- 🎨 支持多种 AI 模型（Sora、DALL-E、GPT等）及自定义模型添加",
+    "translatedContent": "- 🎨 Supports multiple AI models (Sora, DALL-E, GPT, etc.) and custom model additions"
+  },
+  {
+    "row": 12,
+    "rowsha": "BDfBmv1c9BUXn/LZVg/GOwCCmNHsERzTV3WywMzOrnk=",
+    "originContent": "- 🖼️ 提供文生图和图生图功能，支持多图参考和区域编辑",
+    "translatedContent": "- 🖼️ Provides text-to-image and image-to-image functions, supporting multi-image references and regional editing"
+  },
+  {
+    "row": 13,
+    "rowsha": "8RxCckrm1sjmty8rjyTGw2p1dv3HmewSqg2qnKTZ+Ec=",
+    "originContent": "- 🔐 所有数据和API密钥本地存储，保障隐私安全",
+    "translatedContent": "- 🔐 All data and API keys are stored locally to ensure privacy and security"
+  },
+  {
+    "row": 14,
+    "rowsha": "Bq4BsNm4sDZ9VJCZYTwpuUyeBLCKe0T4hIdYe1294ds=",
+    "originContent": "- 💻 支持网页版及桌面应用打包，跨平台使用",
+    "translatedContent": "- 💻 Supports both web version and desktop application packaging for cross-platform use"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "ADtFWwsOGosYieBxnANTnViauY06/2da7Kotk2fSMWs=",
+    "originContent": "## 在线体验",
+    "translatedContent": "## Online Experience"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "JLtJDKwgCIPGtWvBYh9HDoiCA4aG3HC5QaM3E8MP3Hg=",
+    "originContent": "访问地址：[https://image-front-eight.vercel.app/](https://image-front-eight.vercel.app/)",
+    "translatedContent": "Access URL: [https://image-front-eight.vercel.app/](https://image-front-eight.vercel.app/)"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "Ly4pKLugkr27dRoLrHRiPvocdio1VLr0rKNFopfyh5o=",
+    "originContent": "### 应用截图",
+    "translatedContent": "### Application Screenshots"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+    "originContent": "<div align=\"center\">",
+    "translatedContent": "<div align=\"center\">"
+  },
+  {
+    "row": 23,
+    "rowsha": "HP0iMOq7nMU08chJEhLnSEgGlLAHFZ6vWM1mNRYuqMg=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/4.png\" alt=\"应用截图4\" width=\"800\" style=\"margin-bottom: 20px\"/>",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/4.png\" alt=\"App Screenshot 4\" width=\"800\" style=\"margin-bottom: 20px\"/>"
+  },
+  {
+    "row": 24,
+    "rowsha": "lsqsAVAhCmYTLBwuSJpMV8+Wr94779pLpiKAN+afex0=",
+    "originContent": "      <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/5.png\" alt=\"应用截图4\" width=\"800\" style=\"margin-bottom: 20px\"/>",
+    "translatedContent": "      <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/5.png\" alt=\"App Screenshot 4\" width=\"800\" style=\"margin-bottom: 20px\"/>"
+  },
+  {
+    "row": 25,
+    "rowsha": "i+W2cLXEFsnqB21+D5EVnnWliFnjb37iD2tUyKMahRI=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/0.png\" alt=\"应用截图1\" width=\"800\" style=\"margin-bottom: 20px\"/>",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/0.png\" alt=\"App Screenshot 1\" width=\"800\" style=\"margin-bottom: 20px\"/>"
+  },
+  {
+    "row": 26,
+    "rowsha": "Rn1iVWNDr32CfglvhsdFCZuJBTMxKiKUz2RArxt+McY=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/1.png\" alt=\"应用截图2\" width=\"800\" style=\"margin-bottom: 20px\"/>",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/1.png\" alt=\"App Screenshot 2\" width=\"800\" style=\"margin-bottom: 20px\"/>"
+  },
+  {
+    "row": 27,
+    "rowsha": "D90lgTtt9d7LbprFhvyJuVXwdssKKgKunJOTVZyOHGw=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png\" alt=\"应用截图3\" width=\"800\" style=\"margin-bottom: 20px\"/>",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png\" alt=\"App Screenshot 3\" width=\"800\" style=\"margin-bottom: 20px\"/>"
+  },
+  {
+    "row": 28,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "qD06dCf0UKo59Pu5aDftOyM9JXRfhAIcJQdWRyMPBHM=",
+    "originContent": "## 功能特点",
+    "translatedContent": "## Features"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "0yIzVK5W/ZT6z4LnZUGTx2sN40av3lRrmZtRCq++DdE=",
+    "originContent": "- 🎨 支持多种 AI 模型",
+    "translatedContent": "- 🎨 Supports multiple AI models"
+  },
+  {
+    "row": 33,
+    "rowsha": "mX33A7lyLvYYMjpQAxUxhwO8awL6R89nbB+qycCzq8Y=",
+    "originContent": "  - GPT Sora_Image 模型",
+    "translatedContent": "  - GPT Sora_Image model"
+  },
+  {
+    "row": 34,
+    "rowsha": "MMZkO6ywt98Wo68lrgz8aKidCSNsRcAo5cbu7HC74RQ=",
+    "originContent": "  - GPT 4o_Image 模型",
+    "translatedContent": "  - GPT 4o_Image model"
+  },
+  {
+    "row": 35,
+    "rowsha": "wYR4x+zeO4oqSstqfDep0Hwzgzvfyh9gThW11r0BUlY=",
+    "originContent": "  - GPT Image 1 模型",
+    "translatedContent": "  - GPT Image 1 model"
+  },
+  {
+    "row": 36,
+    "rowsha": "8JcRqBlG1Jznj+esK5VXHXdk/uoXK1X/+oFtmA4YA/w=",
+    "originContent": "  - DALL-E 3 模型",
+    "translatedContent": "  - DALL-E 3 model"
+  },
+  {
+    "row": 37,
+    "rowsha": "r9rWxJhuLDBm/8gEz1sZM3C6tm2P1r00/zgniqeLyLc=",
+    "originContent": "  - 🆕 自定义模型（支持添加私有模型）",
+    "translatedContent": "  - 🆕 Custom models (support adding private models)"
+  },
+  {
+    "row": 38,
+    "rowsha": "apb9Fzz8UyIhW3gEfJ2Wxs5lPJe4O0NvOEO6REsODak=",
+    "originContent": "- ✍️ 文生图功能",
+    "translatedContent": "- ✍️ Text-to-Image function"
+  },
+  {
+    "row": 39,
+    "rowsha": "TH9JH01H+LnFkZlZaw4CATDsI2pQzMoKWcYmfn42GN0=",
+    "originContent": "  - 支持自定义提示词",
+    "translatedContent": "  - Supports custom prompts"
+  },
+  {
+    "row": 40,
+    "rowsha": "XPKAjRmO16sk99U/tygLwltNs7TMHqEJI3wBWG/huUw=",
+    "originContent": "  - 可选择图片比例",
+    "translatedContent": "  - Supports selectable image aspect ratios"
+  },
+  {
+    "row": 41,
+    "rowsha": "7ZPXNm4tEsAxhkxXGGP/HjIVMAtPfWYlrv6fWc3vSjA=",
+    "originContent": "  - 支持多种图片尺寸",
+    "translatedContent": "  - Supports multiple image sizes"
+  },
+  {
+    "row": 42,
+    "rowsha": "DZmYsr2OuB2kW3umSTtMz9DF2hovEmkSIWxAUIpHBFM=",
+    "originContent": "- 🖼️ 图生图功能",
+    "translatedContent": "- 🖼️ Image-to-Image function"
+  },
+  {
+    "row": 43,
+    "rowsha": "QO0HbvRyY9kjhP1YQKnyz6QrRJyoo5pip9gmKr/VWuo=",
+    "originContent": "  - 支持图片编辑",
+    "translatedContent": "  - Supports image editing"
+  },
+  {
+    "row": 44,
+    "rowsha": "Vno0PFph3B0RumlQ3D0VYyfDeoU51rfWl4aOWdM9BVw=",
+    "originContent": "  - 支持区域遮罩编辑",
+    "translatedContent": "  - Supports regional mask editing"
+  },
+  {
+    "row": 45,
+    "rowsha": "QqnQwmYz9jc4yGJCUpjHwfGEh/AARZj+N2u2nZL9GeQ=",
+    "originContent": "  - 支持图片质量调整",
+    "translatedContent": "  - Supports image quality adjustment"
+  },
+  {
+    "row": 46,
+    "rowsha": "ugFVkbgCSObikwiU9hAqzo/PTyEZZesQUti1/nt5ZOg=",
+    "originContent": "  - 支持多图参考（同时上传多张图片）",
+    "translatedContent": "  - Supports multi-image references (upload multiple images simultaneously)"
+  },
+  {
+    "row": 47,
+    "rowsha": "qTA7zz8eVeonqInd0rTEbD7SeU61Ap6hd473ILT4qes=",
+    "originContent": "- 🔒 数据安全",
+    "translatedContent": "- 🔒 Data Security"
+  },
+  {
+    "row": 48,
+    "rowsha": "GTXIqoDt40lKErDgVTNtyegjuvywThBlpAKnLFVfFt0=",
+    "originContent": "  - 所有生成的图片和历史记录仅保存在本地浏览器中",
+    "translatedContent": "  - All generated images and history are saved only in the local browser"
+  },
+  {
+    "row": 49,
+    "rowsha": "S6Fd+5s4IYxiuipAGM9p1k52WLappUl28yqNNLUqUWQ=",
+    "originContent": "  - 支持自定义 API 代理地址",
+    "translatedContent": "  - Supports custom API proxy address"
+  },
+  {
+    "row": 50,
+    "rowsha": "hwqcRP93EmTgFZTS+47cONsMGi+fWj8b8sP3BII07Tc=",
+    "originContent": "  - 支持 API Key 配置",
+    "translatedContent": "  - Supports API Key configuration"
+  },
+  {
+    "row": 51,
+    "rowsha": "eQDmKa/4/kgZdv/nU1dN7LGExb2ppAisTZnY/WT8Svc=",
+    "originContent": "- 📱 UI设计",
+    "translatedContent": "- 📱 UI Design"
+  },
+  {
+    "row": 52,
+    "rowsha": "YPmQu/vNdPzW0RFua2LQrkXoBGYsqC5zdXkRlmyQPXA=",
+    "originContent": "  - 现代化的用户界面",
+    "translatedContent": "  - Modern user interface"
+  },
+  {
+    "row": 53,
+    "rowsha": "akhFrBlxPWQFnqXo9zxOPUeZceCjvvh9PissSAqeIuU=",
+    "originContent": "  - 流畅的交互体验",
+    "translatedContent": "  - Smooth interaction experience"
+  },
+  {
+    "row": 54,
+    "rowsha": "tdo7eaR9JQwGY9mFrv61nFOtzMTgcBMvmE6vujXBlUs=",
+    "originContent": "  - Markdown 格式展示",
+    "translatedContent": "  - Markdown format display"
+  },
+  {
+    "row": 55,
+    "rowsha": "IDFOtAXj+f6pI4PiudWd4e0p3OJfJw2sAULFs0T9V+Q=",
+    "originContent": "  - 代码高亮支持",
+    "translatedContent": "  - Code syntax highlighting support"
+  },
+  {
+    "row": 56,
+    "rowsha": "oKOACUAceYxTkCAjCFhAW/kseaxbxUwQVQeD9UWWEmo=",
+    "originContent": "- 🖥️ 跨平台支持",
+    "translatedContent": "- 🖥️ Cross-platform support"
+  },
+  {
+    "row": 57,
+    "rowsha": "CbbIhPLGjAIxVFsnWh3FkhRnnr95GR5aw7C6WcluUgI=",
+    "originContent": "  - 支持打包为桌面应用（Windows、macOS、Linux）",
+    "translatedContent": "  - Supports packaging as desktop applications (Windows, macOS, Linux)"
+  },
+  {
+    "row": 58,
+    "rowsha": "G0B6pCkdvne4Uv10RjRcMfa9HCoLHIWkg2AHz68tQY8=",
+    "originContent": "  - 支持离线使用（需要配置API接口）",
+    "translatedContent": "  - Supports offline use (API interface configuration required)"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "LtaCEvD8FWJfPXsJMaPE5dt0QVZ/++OpGW5pGNG3LYY=",
+    "originContent": "## 技术栈",
+    "translatedContent": "## Technology Stack"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "y13Hs0Hyp20Mw7p/3Cly0R26sgrPiCUkUt7B7cC6bBI=",
+    "originContent": "- Next.js 14",
+    "translatedContent": "- Next.js 14"
+  },
+  {
+    "row": 63,
+    "rowsha": "Rc0yZcrFyniQWeKsNnHo80KEhJZhXraNzOML8o1Qe1M=",
+    "originContent": "- TypeScript",
+    "translatedContent": "- TypeScript"
+  },
+  {
+    "row": 64,
+    "rowsha": "VyCQMiLkgBOB7FZaxxSzbEdmB98N99uttjNJKeswvKw=",
+    "originContent": "- Tailwind CSS",
+    "translatedContent": "- Tailwind CSS"
+  },
+  {
+    "row": 65,
+    "rowsha": "yOKBKINUbY7CRxXCOkz8ZPwXjVOuIOuygi5694Y0Sl4=",
+    "originContent": "- shadcn/ui",
+    "translatedContent": "- shadcn/ui"
+  },
+  {
+    "row": 66,
+    "rowsha": "YMc0xpZ5VlBC75W7el/j8SMAsdioYpgFxRLxMJtjKxA=",
+    "originContent": "- React",
+    "translatedContent": "- React"
+  },
+  {
+    "row": 67,
+    "rowsha": "Yxv5yqatMfaaqxoeapzvcNEH3MAedXc7JtjRslXnC68=",
+    "originContent": "- Tauri (桌面应用打包)",
+    "translatedContent": "- Tauri (desktop application packaging)"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "+uqWY/4/HcDaHg0AMoXNSo16ajMSAqKFzrMFUvBwbsc=",
+    "originContent": "## 本地开发",
+    "translatedContent": "## Local Development"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "SDBs0ZCzMMdL+SeKEd73V/ROao1a0NvSzvAJ8LSeAMM=",
+    "originContent": "1. 克隆项目",
+    "translatedContent": "1. Clone the project</translate-content>"
+  },
+  {
+    "row": 72,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 73,
+    "rowsha": "W8kfNUpJSqjk1ls9xPDxC0JiF/Z5bQlskE3lCJ1oB7A=",
+    "originContent": "git clone https://github.com/HappyDongD/magic_image.git",
+    "translatedContent": "git clone https://github.com/HappyDongD/magic_image.git"
+  },
+  {
+    "row": 74,
+    "rowsha": "flLbg38msiI3hF/a1pu55qHWtZzc4AQHAkXucp8Bs6k=",
+    "originContent": "cd magic_image",
+    "translatedContent": "cd magic_image"
+  },
+  {
+    "row": 75,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "2. Install Dependencies"
+  },
+  {
+    "row": 77,
+    "rowsha": "hMTefiNByngjppyCXaPNDp1YHpIDS8sLaEsbhq9H+DM=",
+    "originContent": "2. 安装依赖",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 79,
+    "rowsha": "Oi3AriHrVteKDra70PRRLaBPn5T27mxqM4w+TLGo/5E=",
+    "originContent": "npm install",
+    "translatedContent": "npm install"
+  },
+  {
+    "row": 80,
+    "rowsha": "jS420ejBNfhdQaAk7s/f+hntYVUsMtQrvI2DAvJp5hs=",
+    "originContent": "# 或",
+    "translatedContent": "# 或"
+  },
+  {
+    "row": 81,
+    "rowsha": "UWnszpf2bQa9Un4es5vKU4mcLg+R5FPsdH2U31RWLJg=",
+    "originContent": "yarn install",
+    "translatedContent": "yarn install"
+  },
+  {
+    "row": 82,
+    "rowsha": "jS420ejBNfhdQaAk7s/f+hntYVUsMtQrvI2DAvJp5hs=",
+    "originContent": "# 或",
+    "translatedContent": "# 或"
+  },
+  {
+    "row": 83,
+    "rowsha": "AF0LflwmHcxeL4Vo5poLMOiJoydbVbGOwgp97vAIHpA=",
+    "originContent": "pnpm install",
+    "translatedContent": "pnpm install"
+  },
+  {
+    "row": 84,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "3. Start the development server"
+  },
+  {
+    "row": 86,
+    "rowsha": "yzX5a39kjWmbVHIrr0+jzJ4npyuxTSYqHJNmgb5dLM4=",
+    "originContent": "3. 启动开发服务器",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 88,
+    "rowsha": "IfFnfI9PhCQWiefGw310ACvgFob6wDpxDKh2mTUm//c=",
+    "originContent": "npm run dev",
+    "translatedContent": "npm run dev"
+  },
+  {
+    "row": 89,
+    "rowsha": "jS420ejBNfhdQaAk7s/f+hntYVUsMtQrvI2DAvJp5hs=",
+    "originContent": "# 或",
+    "translatedContent": "# 或"
+  },
+  {
+    "row": 90,
+    "rowsha": "lM0LT8xyC/N1nmR6dGIgchPO+o/ETNiEEme3ay07B+4=",
+    "originContent": "yarn dev",
+    "translatedContent": "yarn dev"
+  },
+  {
+    "row": 91,
+    "rowsha": "jS420ejBNfhdQaAk7s/f+hntYVUsMtQrvI2DAvJp5hs=",
+    "originContent": "# 或",
+    "translatedContent": "# 或"
+  },
+  {
+    "row": 92,
+    "rowsha": "ZYvNuHAYTkCLCEkYZ1c2s8LyrrXCkHjQE4e47PWrzOI=",
+    "originContent": "pnpm dev",
+    "translatedContent": "pnpm dev"
+  },
+  {
+    "row": 93,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "4.  Visit [http://localhost:3000](http://localhost:3000)"
+  },
+  {
+    "row": 95,
+    "rowsha": "ZvmOfg3de7S9IomFizLq65Ip939gxaLE0Lp32/evMb0=",
+    "originContent": "4. 访问 [http://localhost:3000](http://localhost:3000)",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Desktop Application Packaging"
+  },
+  {
+    "row": 97,
+    "rowsha": "RRaaF/pkzhCdjcNrWMlDcE4ymmCcGffwayxvsyPY66U=",
+    "originContent": "## 桌面应用打包",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "This project uses Tauri for desktop application packaging, supporting Windows, macOS, and Linux systems."
+  },
+  {
+    "row": 99,
+    "rowsha": "g8Ec5O33tuG+F2P47qxMEnX2MAw4brIIStuHkaLcenw=",
+    "originContent": "本项目使用 Tauri 进行桌面应用打包，支持 Windows、macOS 和 Linux 系统。",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Environment Preparation"
+  },
+  {
+    "row": 101,
+    "rowsha": "dg2TPKxqeB4BmM5MSb8sUbevgbdduJAI5xEnFOLCUwQ=",
+    "originContent": "### 环境准备",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Before packaging the desktop application, the following dependencies need to be installed:"
+  },
+  {
+    "row": 103,
+    "rowsha": "Vz7dEAiWY2DVePscVO7w5V5UyV748MQNwPzlLO5PSII=",
+    "originContent": "在打包桌面应用前，需要安装以下依赖：",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. **Install Rust**:"
+  },
+  {
+    "row": 105,
+    "rowsha": "Is8vzFQEai00GwzwfvWaO/tyoyxns2NCrLkVTGemwiw=",
+    "originContent": "1. **安装 Rust**：",
+    "translatedContent": "   - Visit [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)"
+  },
+  {
+    "row": 106,
+    "rowsha": "swQ6Jjt+wTQOr/Z5/f3V5O4lSLx5JqfEskpv0XiVrJM=",
+    "originContent": "   - 访问 [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)",
+    "translatedContent": "   - Follow the instructions to install Rust and Cargo"
+  },
+  {
+    "row": 107,
+    "rowsha": "4CBBjLFPsTrglnK/H7ls+AL4QXc95mfQU0yvYs+a6iQ=",
+    "originContent": "   - 按照指引安装 Rust 和 Cargo",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "2. **System Dependencies**:"
+  },
+  {
+    "row": 109,
+    "rowsha": "VXfOKXhkNHPz5qSNd6Gn9wxv/bvwRnfC/mfz9NF/Biw=",
+    "originContent": "2. **系统依赖**：",
+    "translatedContent": "   - **Windows**: Install [Visual Studio C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)"
+  },
+  {
+    "row": 110,
+    "rowsha": "m8IIFRFZwYnktH1zm0L+KEsSbaipPvm3MiZUlZRHiAE=",
+    "originContent": "   - **Windows**: 安装 [Visual Studio C++ 构建工具](https://visualstudio.microsoft.com/visual-cpp-build-tools/)",
+    "translatedContent": "   - **macOS**: Install Xcode Command Line Tools (`xcode-select --install`)"
+  },
+  {
+    "row": 111,
+    "rowsha": "+GShPpRg2b8JwWREVYid5X3Oh8BG5dfeqyE/peWguEM=",
+    "originContent": "   - **macOS**: 安装 Xcode 命令行工具 (`xcode-select --install`)",
+    "translatedContent": "   - **Linux**: Install relevant dependencies, see [Tauri Documentation](https://tauri.app/v1/guides/getting-started/prerequisites)"
+  },
+  {
+    "row": 112,
+    "rowsha": "p9yTfnttoKT5dlQ7HRmm1hE1CCzX7/87Oq2yDjvN08w=",
+    "originContent": "   - **Linux**: 安装相关依赖，详见 [Tauri 文档](https://tauri.app/v1/guides/getting-started/prerequisites)",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Development Mode"
+  },
+  {
+    "row": 114,
+    "rowsha": "U+V7AVJ3Z4AQ3+OTf0flc5r/gCTcm8b3WXOfAy7XKOg=",
+    "originContent": "### 开发模式",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 117,
+    "rowsha": "hFlFaSo6d+KQHMYRR6ELOrzxv8KqpGBYmZljLE+gmc4=",
+    "originContent": "# 安装 Tauri CLI",
+    "translatedContent": "# 安装 Tauri CLI"
+  },
+  {
+    "row": 118,
+    "rowsha": "LAoa76HcbJMy3VLLIcx1GwBUVfC37MFU0ss01Rkp8oc=",
+    "originContent": "npm install -D @tauri-apps/cli",
+    "translatedContent": "npm install -D @tauri-apps/cli"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "FSMno5C/J8UFJWZWYdO3tygvp5nDUWSdPaN+J6fC3bo=",
+    "originContent": "# 启动桌面应用开发模式",
+    "translatedContent": "# 启动桌面应用开发模式"
+  },
+  {
+    "row": 121,
+    "rowsha": "R8yTguXIzVSfzMnvMEkK+RbEdR1bne80hL2s+XifqZw=",
+    "originContent": "npm run tauri:dev",
+    "translatedContent": "npm run tauri:dev"
+  },
+  {
+    "row": 122,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Building Desktop Applications"
+  },
+  {
+    "row": 124,
+    "rowsha": "DI8SoolaTwda0UAzLcTtVBj81j2p1nXq/F/zinDRQds=",
+    "originContent": "### 构建桌面应用",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 127,
+    "rowsha": "CeJpwY/8NIWj6l0flBDf15zMLKaOH1wwkaMYfl/Oa3A=",
+    "originContent": "# 构建桌面应用安装包",
+    "translatedContent": "# 构建桌面应用安装包"
+  },
+  {
+    "row": 128,
+    "rowsha": "T/m8v8msiwlqCblNFQ/3fglYDG8LWGoOzmnrJFShZH4=",
+    "originContent": "npm run desktop",
+    "translatedContent": "npm run desktop"
+  },
+  {
+    "row": 129,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "After the build is complete, you can find the installation package for the corresponding system in the `src-tauri/target/release/bundle` directory."
+  },
+  {
+    "row": 131,
+    "rowsha": "oDQjUsFsF8cJVWPdwvzXByMIBX2C6bC6srg0xfhF7d4=",
+    "originContent": "构建完成后，可以在 `src-tauri/target/release/bundle` 目录找到对应系统的安装包。",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Vercel Deployment"
+  },
+  {
+    "row": 133,
+    "rowsha": "QzhI3vC99hnUbWkxqFBZBwD26hVMStMvT+sBMeAaMGk=",
+    "originContent": "## Vercel 部署",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. Fork this project to your GitHub account"
+  },
+  {
+    "row": 135,
+    "rowsha": "UJH3dBM3KIu3YNzM41eFvr1UcJLV54LkHF2ouKoscrw=",
+    "originContent": "1. Fork 本项目到你的 GitHub 账号",
+    "translatedContent": ""
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "2. Create a new project on [Vercel](https://vercel.com)"
+  },
+  {
+    "row": 137,
+    "rowsha": "6L8k9x7L+43yKk3JUMIEuuonXHrS38jj84gnWTJp57A=",
+    "originContent": "2. 在 [Vercel](https://vercel.com) 上创建新项目",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "3. Import your GitHub repository"
+  },
+  {
+    "row": 139,
+    "rowsha": "wyY3QHYWVBHSf6vA82qpouof1Zq1fZKaJuzhUmvA8M0=",
+    "originContent": "3. 导入你的 GitHub 仓库",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "4. Click deploy"
+  },
+  {
+    "row": 141,
+    "rowsha": "9N+01Px0iX8ZLy36DlLmDx4n1PNnGgeU2JuFZZhubNg=",
+    "originContent": "4. 点击部署",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Usage Instructions"
+  },
+  {
+    "row": 143,
+    "rowsha": "R3/EjJjnxYNmdRG6ikBTYFybRBPyQGDIVWMxpdJsE7k=",
+    "originContent": "## 使用说明",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. API key configuration is required for first use"
+  },
+  {
+    "row": 145,
+    "rowsha": "0cxF2158SqACZlKP/GKcRUz6ssHAYUpKopFcDhUzEAQ=",
+    "originContent": "1. 首次使用需要配置 API 密钥",
+    "translatedContent": "   - Click \"Key Settings\" at the top right"
+  },
+  {
+    "row": 146,
+    "rowsha": "JgKGI5O9hyCXzruKNF52+hiCfQnyDsAGKbIDMNr5G5s=",
+    "originContent": "   - 点击右上角的\"密钥设置\"",
+    "translatedContent": "   - Enter the API key and base URL"
+  },
+  {
+    "row": 147,
+    "rowsha": "M+aEIt8sigH3PirskVK15mJGp8l66zN5xo+0yw35UNo=",
+    "originContent": "   - 输入 API 密钥和基础地址",
+    "translatedContent": "   - Click save"
+  },
+  {
+    "row": 148,
+    "rowsha": "BYTcaHp9ZyZphxDy0O4vQyA30gSNb1WKHKxLC7zTWe0=",
+    "originContent": "   - 点击保存",
+    "translatedContent": "   - You can also quickly configure via URL parameters:"
+  },
+  {
+    "row": 149,
+    "rowsha": "PinPTAuXMbZtbVqzf859BjDMz5/cC/6K1TY3keZ14oU=",
+    "originContent": "   - 也可以通过 URL 参数快速配置：",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "AX71I8x6lYM8m/FNyvaThp+mFC2meqVieqX2BN9yF0M=",
+    "originContent": "     ```",
+    "translatedContent": "     ```"
+  },
+  {
+    "row": 151,
+    "rowsha": "FzJO1k42J5fJpA1+oUESIpAxb9K5RbwO8oqzoQ1cdss=",
+    "originContent": "     http://localhost:3000?url=你的API地址&apikey=你的API密钥",
+    "translatedContent": "     http://localhost:3000?url=你的API地址&apikey=你的API密钥"
+  },
+  {
+    "row": 152,
+    "rowsha": "AX71I8x6lYM8m/FNyvaThp+mFC2meqVieqX2BN9yF0M=",
+    "originContent": "     ```",
+    "translatedContent": "     ```"
+  },
+  {
+    "row": 153,
+    "rowsha": "72P2ixllSLdhz4YNdSdVmp9d829k4chlfqImEBrCVpE=",
+    "originContent": "     例如：",
+    "translatedContent": "     例如："
+  },
+  {
+    "row": 154,
+    "rowsha": "AX71I8x6lYM8m/FNyvaThp+mFC2meqVieqX2BN9yF0M=",
+    "originContent": "     ```",
+    "translatedContent": "     ```"
+  },
+  {
+    "row": 155,
+    "rowsha": "tSII+2Ds49iuzU8gfue9f0X5PTiVQt5uk1YqBhXxtz8=",
+    "originContent": "     http://localhost:3000?url=https%3A%2F%2Fapi.example.com&apikey=sk-xxx",
+    "translatedContent": "     http://localhost:3000?url=https%3A%2F%2Fapi.example.com&apikey=sk-xxx"
+  },
+  {
+    "row": 156,
+    "rowsha": "AX71I8x6lYM8m/FNyvaThp+mFC2meqVieqX2BN9yF0M=",
+    "originContent": "     ```",
+    "translatedContent": "     ```"
+  },
+  {
+    "row": 157,
+    "rowsha": "SGkFtZQPv7StqO6rkrUY69bZN+WXyZuNbZoq5DmAnlI=",
+    "originContent": "     注意：URL 中的特殊字符需要进行 URL 编码",
+    "translatedContent": "     Note: Special characters in URLs need to be URL encoded"
+  },
+  {
+    "row": 158,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "mfF7Z7J/jatfgjuQNVWnPJoteWLxizQT0l5XxkYhl6I=",
+    "originContent": "2. 选择生成模式",
+    "translatedContent": "2. Select Generation Mode"
+  },
+  {
+    "row": 160,
+    "rowsha": "L3EL+IlThwVLkkmfgfulVqeRmUDnURzBhnsTrwPmIeE=",
+    "originContent": "   - 文生图：通过文字描述生成图片",
+    "translatedContent": "   - Text-to-Image: Generate images from text descriptions"
+  },
+  {
+    "row": 161,
+    "rowsha": "FDDB721iuxzLW1DhEnATVBLqTP1nPvZJ8aZ6g/Iu7kI=",
+    "originContent": "   - 图生图：上传图片进行编辑",
+    "translatedContent": "   - Image-to-Image: Upload images for editing"
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "ZU42LfSDtecN8FGNjRtKEynxqRb/khRzNHuvYCkB87k=",
+    "originContent": "3. 设置生成参数",
+    "translatedContent": "3. Set Generation Parameters"
+  },
+  {
+    "row": 164,
+    "rowsha": "uEspkJxCuvy4tsYPAtGWPTV5QrvQCdQ691QM5Wq8vzw=",
+    "originContent": "   - 选择 AI 模型（内置模型或自定义模型）",
+    "translatedContent": "   - Choose AI model (built-in or custom models)"
+  },
+  {
+    "row": 165,
+    "rowsha": "Um9MCWp2Nj0BSVfxJ6HfX6JhS1sz+npCSyRpXXcZu9c=",
+    "originContent": "   - 设置图片比例",
+    "translatedContent": "   - Set image aspect ratio"
+  },
+  {
+    "row": 166,
+    "rowsha": "VDDyTLgg1ngYI2XEhD/fbsMEWaltO0pqiL0fe75dSe4=",
+    "originContent": "   - 调整图片质量（图生图模式）",
+    "translatedContent": "   - Adjust image quality (Image-to-Image mode)"
+  },
+  {
+    "row": 167,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 168,
+    "rowsha": "xiO8UHWRo4WkhqcDeMPWWM6Gu89k4fuUQzfq0NoT+Zs=",
+    "originContent": "4. 自定义模型管理",
+    "translatedContent": "4. Custom Model Management"
+  },
+  {
+    "row": 169,
+    "rowsha": "R6SXxrKFislSDqzD2UwZlqh7KhzU0B4Qe3mZLQuhWdM=",
+    "originContent": "   - 点击模型选择框旁边的设置图标",
+    "translatedContent": "   - Click the settings icon next to the model selection box"
+  },
+  {
+    "row": 170,
+    "rowsha": "J9mkxH0jkjT9+uwmG4BFWQFpV8DeVYYsq/ufKMdVW/0=",
+    "originContent": "   - 添加新模型：输入模型名称、模型值和选择模型类型",
+    "translatedContent": "   - Add new model: enter model name, model value, and select model type"
+  },
+  {
+    "row": 171,
+    "rowsha": "3Js9gyNEd1JYSrH4rfHOxh8BvdCVC3qVwAFagWzWsW4=",
+    "originContent": "   - 编辑模型：点击已有模型的编辑按钮",
+    "translatedContent": "   - Edit model: click the edit button on an existing model"
+  },
+  {
+    "row": 172,
+    "rowsha": "rWqQvEk3hj5V58ulGPELjpbzanljcoR9Hu+erHDR6Gk=",
+    "originContent": "   - 删除模型：点击已有模型的删除按钮",
+    "translatedContent": "   - Delete model: click the delete button on an existing model"
+  },
+  {
+    "row": 173,
+    "rowsha": "fCYaHhVyoavzoZtzySN5aUcyNRexcU2BfsXEanJQL2A=",
+    "originContent": "   - 选择模型：点击模型的加号按钮立即选择使用该模型",
+    "translatedContent": "   - Select model: click the plus button on a model to immediately select it for use"
+  },
+  {
+    "row": 174,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 175,
+    "rowsha": "rTvMaxZvhlit8ng1gqgQ2Gj1HOS1Cp1elUfoSq9j+Y4=",
+    "originContent": "5. 模型类型说明",
+    "translatedContent": "5. Model Type Description"
+  },
+  {
+    "row": 176,
+    "rowsha": "3pKCKUV/kpwO+Vegwg8ACRohmcK4n2LKkK573OPLe1U=",
+    "originContent": "   - DALL-E 格式：使用图像生成接口（/v1/images/generations）",
+    "translatedContent": "   - DALL-E format: uses the image generation endpoint (/v1/images/generations)"
+  },
+  {
+    "row": 177,
+    "rowsha": "c1vlCB87zhiJ7eF3Iw3xSOeL0yzlbFZGX/2/ubmoZOY=",
+    "originContent": "   - OpenAI 格式：使用聊天接口（/v1/chat/completions）",
+    "translatedContent": "   - OpenAI format: uses the chat completion endpoint (/v1/chat/completions)"
+  },
+  {
+    "row": 178,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 179,
+    "rowsha": "XtnWrBi9EpZnAeI88fJhypMCwws9OHR61w0iqwFI0rI=",
+    "originContent": "6. 生成图片",
+    "translatedContent": "6. Generate Images"
+  },
+  {
+    "row": 180,
+    "rowsha": "RNwIRh6VF71ib3+gwXeZjhfb2t7qnfOiv9O1BmyIXcE=",
+    "originContent": "   - 输入提示词",
+    "translatedContent": "   - Enter prompt"
+  },
+  {
+    "row": 181,
+    "rowsha": "shdtvzLclESnHCjx07SESduGyjqwAc5xxqGxIL5Cy7c=",
+    "originContent": "   - 点击\"生成图片\"按钮",
+    "translatedContent": "   - Click the \"Generate Image\" button"
+  },
+  {
+    "row": 182,
+    "rowsha": "HiLydu23CPW62aEnbpWVxW/BkNUt+7DK2nIpyYpHpI0=",
+    "originContent": "   - 等待生成完成",
+    "translatedContent": "   - Wait for generation to complete"
+  },
+  {
+    "row": 183,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 184,
+    "rowsha": "C0iB2Z43P8EmStR09sIzO55G73qIEVkVpXLXDe8TeEA=",
+    "originContent": "7. 图片管理",
+    "translatedContent": "7. Image Management"
+  },
+  {
+    "row": 185,
+    "rowsha": "Lmv+wnqeY2N4bfYW3kDb21JZFj5j6+JWU253eA5dt5Q=",
+    "originContent": "   - 查看历史记录",
+    "translatedContent": "   - View history"
+  },
+  {
+    "row": 186,
+    "rowsha": "RMe5ku6tWPBweeMXWqlB9rgB1rgPUNUddoXMGANtfUw=",
+    "originContent": "   - 下载生成的图片",
+    "translatedContent": "   - Download generated images"
+  },
+  {
+    "row": 187,
+    "rowsha": "fn8zyf67AEl5/49jsW944Nuwe+Q/LNYdR30h5WckW7I=",
+    "originContent": "   - 编辑已有图片",
+    "translatedContent": "   - Edit existing images"
+  },
+  {
+    "row": 188,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 189,
+    "rowsha": "qqM9x68fli7rmqs2E7FUA7w7vxRW4wDZzEckY8TxYu8=",
+    "originContent": "## 注意事项",
+    "translatedContent": "## Notes"
+  },
+  {
+    "row": 190,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 191,
+    "rowsha": "7S51dlvyr0oN8eWWQaqSyBHIXAylg8+7CpdhBUNURMc=",
+    "originContent": "- 所有生成的图片和历史记录仅保存在本地浏览器中",
+    "translatedContent": "- All generated images and history are saved only locally in your browser"
+  },
+  {
+    "row": 192,
+    "rowsha": "NhRaZpqmKzjN+pHbZvt6pV6KETVldS0PBoTe+KfEt5c=",
+    "originContent": "- 使用隐私模式或更换设备会导致数据丢失",
+    "translatedContent": "- Using private mode or switching devices will cause data loss"
+  },
+  {
+    "row": 193,
+    "rowsha": "QoY9wZqQmp0G0y5nGGsU95piyNAgAXJbxUKKCjDQIrc=",
+    "originContent": "- 请及时下载并备份重要图片",
+    "translatedContent": "- Please download and back up important images in time"
+  },
+  {
+    "row": 194,
+    "rowsha": "+Vy6iyxWH6u/qO0rWPMdHnYZE4G+JnBFq7lxjcl6tJU=",
+    "originContent": "- API 配置将安全地存储在您的浏览器中，不会上传到服务器",
+    "translatedContent": "- API configurations are securely stored in your browser and will not be uploaded to servers"
+  },
+  {
+    "row": 195,
+    "rowsha": "bQBbsx9rMPEUvzOuuWk59Kdi9uzJQkCCfzJdab1N1Ww=",
+    "originContent": "- HTTPS 网站加载 HTTP 资源会被浏览器阻止，应用会自动将 HTTP 接口转换为 HTTPS",
+    "translatedContent": "- HTTPS websites block loading HTTP resources; the app will automatically convert HTTP endpoints to HTTPS"
+  },
+  {
+    "row": 196,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 197,
+    "rowsha": "eUO/w0wlGqcHfNbCh76p/ChN4xkbg3jdaZyHTF07Tzo=",
+    "originContent": "## 贡献指南",
+    "translatedContent": "## Contribution Guide"
+  },
+  {
+    "row": 198,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 199,
+    "rowsha": "jYJlLCeaRc3j5M42/8MydJ9M8AbP9Yz4N7BxEcFL8v4=",
+    "originContent": "欢迎提交 Issue 和 Pull Request 来帮助改进项目。",
+    "translatedContent": "Contributions via Issues and Pull Requests to improve the project are welcome."
+  },
+  {
+    "row": 200,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 201,
+    "rowsha": "l9mHJhM0bkQldVQ8sqfWeieeIFtAwhD/P/KiVcLUJww=",
+    "originContent": "## 许可证",
+    "translatedContent": "## License"
+  },
+  {
+    "row": 202,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 203,
+    "rowsha": "8GVllcuvqIalA5IqIgIH+QJMjqM/nV1kFA2/o3xIxdo=",
+    "originContent": "本项目采用 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) 许可证。",
+    "translatedContent": "This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)."
+  },
+  {
+    "row": 204,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 205,
+    "rowsha": "p9xfmXiE2wnb7mov9E7vj5WrOSQsL4ZAEJY9B8WiI8E=",
+    "originContent": "根据许可证，您可以：",
+    "translatedContent": "According to the license, you may:"
+  },
+  {
+    "row": 206,
+    "rowsha": "S7w9hqd/gSDJZk9HtTQrdZUG481Ir4fNWXYgS20U/AY=",
+    "originContent": "- ✅ 商业用途：可以将软件用于商业用途",
+    "translatedContent": "- ✅ Commercial use: use the software for commercial purposes"
+  },
+  {
+    "row": 207,
+    "rowsha": "jt5dnlgWETYLNRd87j0+0RkkdmFvGdiRNZSgO5/7FaI=",
+    "originContent": "- ✅ 修改：可以修改软件源代码",
+    "translatedContent": "- ✅ Modification: modify the source code"
+  },
+  {
+    "row": 208,
+    "rowsha": "xibk051RegG7IkkB6TT1xi+xUnXksAgRYX3lEv2fzIE=",
+    "originContent": "- ✅ 分发：可以分发软件",
+    "translatedContent": "- ✅ Distribution: distribute the software"
+  },
+  {
+    "row": 209,
+    "rowsha": "jqUbeG1cCiyLvrU3DzTHyTaVN24spUlVlOs8EZdt3hI=",
+    "originContent": "- ✅ 私人使用：可以私人使用软件",
+    "translatedContent": "- ✅ Private use: use the software privately"
+  },
+  {
+    "row": 210,
+    "rowsha": "qLfasatqp6hlE4ObgFk2iKdav1jL1C9MUr+pOrTvazk=",
+    "originContent": "- ✅ 专利授权：本许可证还提供了专利授权",
+    "translatedContent": "- ✅ Patent grant: the license also provides a patent grant"
+  },
+  {
+    "row": 211,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 212,
+    "rowsha": "pTyZxJ0vg7rkrWoBuSpImW551qHvBRxAqsVap5rvD7M=",
+    "originContent": "但必须遵守以下条件：",
+    "translatedContent": "But you must comply with the following conditions:"
+  },
+  {
+    "row": 213,
+    "rowsha": "A+sv3Atw1Z5L39iA6Ks4/fNocicHpInLgKwicctGQfo=",
+    "originContent": "- 📝 许可和版权声明：您必须包含原始的许可证和版权声明",
+    "translatedContent": "- 📝 License and copyright notice: you must include the original license and copyright notice"
+  },
+  {
+    "row": 214,
+    "rowsha": "tT8rToPBQ0ibfSmnPNPBAj6YC2P/yp/kbQ/JrEmG9ps=",
+    "originContent": "- 📝 声明更改：您必须声明对原始代码的重大更改",
+    "translatedContent": "- 📝 Statement of changes: you must state significant changes made to the original code"
+  },
+  {
+    "row": 215,
+    "rowsha": "Dm0ik8X9f+DfIflf9nb+AmMLax3oB1QNqeIMuigijek=",
+    "originContent": "- 📝 商标声明：不得使用贡献者的商标",
+    "translatedContent": "- 📝 Trademark statement: you may not use contributors' trademarks"
+  },
+  {
+    "row": 216,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 217,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 218,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 219,
+    "rowsha": "zR24+zbJqkLqQF8HhJw6m9qepHNUonckXbBkHATcZRI=",
+    "originContent": "## 请我喝杯咖啡",
+    "translatedContent": "## Buy Me a Coffee"
+  },
+  {
+    "row": 220,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 221,
+    "rowsha": "O2DEYRb6IDQNtdw1B5l1sxn85lqOJ97R7o9V3o4PbRw=",
+    "originContent": "如果这个项目对你有帮助，欢迎请我喝杯咖啡 ☕️",
+    "translatedContent": "If this project helps you, feel free to buy me a coffee ☕️"
+  },
+  {
+    "row": 222,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 223,
+    "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+    "originContent": "<div align=\"center\">",
+    "translatedContent": "<div align=\"center\">"
+  },
+  {
+    "row": 224,
+    "rowsha": "PXzr61zxU8rIxPW25xBcWsQoF8W2G4+w1B86it0BSr8=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-pay.jpg\" alt=\"微信收款码\" width=\"300\" />",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-pay.jpg\" alt=\"WeChat Pay QR Code\" width=\"300\" />"
+  },
+  {
+    "row": 225,
+    "rowsha": "OqFcAZPL+PoDn5eE0z1RLehac/Tfs1h1nbowogvPbAk=",
+    "originContent": "  <p>请我喝杯咖啡</p>",
+    "translatedContent": "  <p>Buy me a coffee</p>"
+  },
+  {
+    "row": 226,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 227,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 228,
+    "rowsha": "ZP5PHCFkp+eVb6xgZZZnWt5eG6M+An7l7JIzcdLTUSM=",
+    "originContent": "## 联系方式",
+    "translatedContent": "## Contact"
+  },
+  {
+    "row": 229,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 230,
+    "rowsha": "dLvKQ71IUpJXyF9zbPxGrwQad0pbf925GAL5VST45Qs=",
+    "originContent": "如果您有任何问题或建议，欢迎通过微信联系我：",
+    "translatedContent": "If you have any questions or suggestions, feel free to contact me via WeChat:"
+  },
+  {
+    "row": 231,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 232,
+    "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+    "originContent": "<div align=\"center\">",
+    "translatedContent": "<div align=\"center\">"
+  },
+  {
+    "row": 233,
+    "rowsha": "WuNNpEC2zholTw9UG0oWWTf6NmQ3pA067oQM/MViYik=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-connect.jpg\" alt=\"微信联系方式\" width=\"300\" />",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-connect.jpg\" alt=\"WeChat Contact\" width=\"300\" />"
+  },
+  {
+    "row": 234,
+    "rowsha": "qAVDt/WR6gBZiDGs5LXl+v5C1Z7SSZ+OuUf2oiuLcjg=",
+    "originContent": "  <p>扫描二维码添加微信</p>",
+    "translatedContent": "  <p>Scan QR code to add on WeChat</p>"
+  },
+  {
+    "row": 235,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 236,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 237,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

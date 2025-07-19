@@ -1,0 +1,1352 @@
+[
+  {
+    "row": 1,
+    "rowsha": "hAPZ5KIfZhovM2mLrsiUdswGRb0VolW+nfenBVyryJc=",
+    "originContent": "# :bulb: LaMP: Language-Motion Pretraining for Motion Generation, Retrieval, and Captioning (ICLR 2025)",
+    "translatedContent": "<translate-content># :bulb: LaMP: 動作生成、検索、キャプショニングのための言語・動作事前学習 (ICLR 2025)"
+  },
+  {
+    "row": 2,
+    "rowsha": "yhz44Ok/0O53zmwp5DuE6Rh5wTKkZpGLv0vGIwyIKVQ=",
+    "originContent": "### [[Project Page]](https://aigc3d.github.io/LaMP/) [[Paper]](https://arxiv.org/abs/2410.07093)",
+    "translatedContent": "### [[プロジェクトページ]](https://aigc3d.github.io/LaMP/) [[論文]](https://arxiv.org/abs/2410.07093)"
+  },
+  {
+    "row": 3,
+    "rowsha": "cCRXDb6EvAew4UGkGmhAg/6D5EdujFac8SbaD+z3wbs=",
+    "originContent": "![teaser_image](https://github.com/gentlefress/LaMP/blob/main/teaser.png)",
+    "translatedContent": "![teaser_image](https://github.com/gentlefress/LaMP/blob/main/teaser.png)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "51pRG8YZCjoIZFmfjOMuNxuhXDN+uUJpt9HWGQ0u8yA=",
+    "originContent": "If you find our code or paper helpful, please consider starring our repository and citing:",
+    "translatedContent": "もし本コードや論文が役立った場合は、リポジトリのスターと引用をお願いいたします：</translate-content>"
+  },
+  {
+    "row": 6,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 7,
+    "rowsha": "2ev37hkcGj//00bLict0jrEZs/Yan2Myz38fh7LLgvY=",
+    "originContent": "@article{li2024lamp,",
+    "translatedContent": "@article{li2024lamp,"
+  },
+  {
+    "row": 8,
+    "rowsha": "9LQqJo9lBogzWfNVKqSqzr9vzdMv0XNIj9j0vbTFZ8M=",
+    "originContent": "  title={LaMP: Language-Motion Pretraining for Motion Generation, Retrieval, and Captioning},",
+    "translatedContent": "  title={LaMP: Language-Motion Pretraining for Motion Generation, Retrieval, and Captioning},"
+  },
+  {
+    "row": 9,
+    "rowsha": "/3wVsgFlE1AtXpnZh3ftpNwe1G4oug6qsW46mDKPJlk=",
+    "originContent": "  author={Li, Zhe and Yuan, Weihao and He, Yisheng and Qiu, Lingteng and Zhu, Shenhao and Gu, Xiaodong and Shen, Weichao and Dong, Yuan and Dong, Zilong and Yang, Laurence T},",
+    "translatedContent": "  author={Li, Zhe and Yuan, Weihao and He, Yisheng and Qiu, Lingteng and Zhu, Shenhao and Gu, Xiaodong and Shen, Weichao and Dong, Yuan and Dong, Zilong and Yang, Laurence T},"
+  },
+  {
+    "row": 10,
+    "rowsha": "uESVP5H00pxlNGMLG5qDKWoLGXRC3iXy12vyaCnwZbs=",
+    "originContent": "  journal={arXiv preprint arXiv:2410.07093},",
+    "translatedContent": "  journal={arXiv preprint arXiv:2410.07093},"
+  },
+  {
+    "row": 11,
+    "rowsha": "9vunU7Tk7EiCUudFrq1MUG4YCfjMDMPMikZF6BT/eLU=",
+    "originContent": "  year={2024}",
+    "translatedContent": "  year={2024}"
+  },
+  {
+    "row": 12,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 13,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## :postbox: ニュース"
+  },
+  {
+    "row": 15,
+    "rowsha": "1/SAzix2oQv6TxKbXipTa9bZe0oUsHnDJXZ+mSyF0XM=",
+    "originContent": "## :postbox: News",
+    "translatedContent": "📢 **2025-01-22** --- 🔥🔥🔥 おめでとうございます！LaMPがICLR 2025に採択されました。"
+  },
+  {
+    "row": 16,
+    "rowsha": "RfN7UvMu6sObUWqCTLlek20W6ousWusBXhDIR5ty58Y=",
+    "originContent": "📢 **2025-01-22** --- 🔥🔥🔥 Congrats! LaMP is accepted to ICLR 2025.",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "📢 **2025-4-28** --- LaMPのコードとモデルをリリース。トレーニング/評価/生成スクリプトを含みます。"
+  },
+  {
+    "row": 18,
+    "rowsha": "STvE2YiJenH9z1M/Vggt/y83A9NwzQzhgTNT/8zdtSc=",
+    "originContent": "📢 **2025-4-28** --- Release codes and models for LaMP. Including training/eval/generation scripts.",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "📢 **2025-4-28** --- ウェブページとGitプロジェクトを初期化しました。  "
+  },
+  {
+    "row": 20,
+    "rowsha": "dBg0ORxC7V7l/wGEez9SIQeBDfdCdjL55k6I5JpkwUQ=",
+    "originContent": "📢 **2025-4-28** --- Initialized the webpage and git project.  ",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## :1st_place_medal: 準備を整えましょう"
+  },
+  {
+    "row": 23,
+    "rowsha": "4sHlsUZPuAzOhdjVmzdg2+JURoN0OX2AA2qg+4ig/pw=",
+    "originContent": "## :1st_place_medal: Get You Ready",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 25,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "  "
+  },
+  {
+    "row": 26,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "### 1. Conda環境</details>"
+  },
+  {
+    "row": 27,
+    "rowsha": "//6JYKjD4WFB1JtVxfJCTM01p9cvFmR6Gj/iH0se7Us=",
+    "originContent": "### 1. Conda Environment",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 29,
+    "rowsha": "I3A/ExbOxC8ZCCVG6lc7LYw0eJGRMwCPlgAQFOQeAdM=",
+    "originContent": "conda env create -f environment.yml",
+    "translatedContent": "conda env create -f environment.yml"
+  },
+  {
+    "row": 30,
+    "rowsha": "olIw7VGF0HTDdW3nuMwe702oZIVa+P8P0gGGHhExzSE=",
+    "originContent": "conda activate lamp",
+    "translatedContent": "conda activate lamp"
+  },
+  {
+    "row": 31,
+    "rowsha": "MyeITJMsPpk7gd/g213zN4g0tmZ725bERjEbEpRxDWM=",
+    "originContent": "pip install git+https://github.com/openai/CLIP.git",
+    "translatedContent": "pip install git+https://github.com/openai/CLIP.git"
+  },
+  {
+    "row": 32,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 33,
+    "rowsha": "CWkmegq11B9Pw+Oc2fkrN18uvfl6zQOKVmK9yYqTdyY=",
+    "originContent": "We test our code on Python 3.9.12 and PyTorch 1.12.1",
+    "translatedContent": "<translate-content>私たちはPython 3.9.12およびPyTorch 1.12.1でコードをテストしています"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "7JFkBrh8pSo2Se4VDOnRpm2WG3TRB0ieRRU8y/oVPAk=",
+    "originContent": "### 2. Models and Dependencies",
+    "translatedContent": "### 2. モデルと依存関係"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "3trZS5ZWNHcwCG0ixf1/7P928tPiGo1ZXahIhfnxiwA=",
+    "originContent": "#### Download Pre-trained Models",
+    "translatedContent": "#### 事前学習済みモデルのダウンロード</translate-content>"
+  },
+  {
+    "row": 38,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 39,
+    "rowsha": "OUIFe1lYZKG69KnP6cIaP4OXRn5tVnzgQRhmRgV2WvY=",
+    "originContent": "bash prepare/download_models.sh",
+    "translatedContent": "bash prepare/download_models.sh"
+  },
+  {
+    "row": 40,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### 評価モデルとグローブのダウンロード  "
+  },
+  {
+    "row": 42,
+    "rowsha": "SgdX5xO0kbZPPJ2I1qL+yB6tNa71GNu+alfFgnFJlm0=",
+    "originContent": "#### Download Evaluation Models and Gloves",
+    "translatedContent": "評価目的のみ。"
+  },
+  {
+    "row": 43,
+    "rowsha": "kEm/IZxDbQyEiEyL4M5UHf0KmqQpgNZpPkf1f0iV2AY=",
+    "originContent": "For evaluation only.",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 45,
+    "rowsha": "sfgMas1gJ3vwvy4/KJvJyjNV3TnBwTfQ5NRpwro2Mu8=",
+    "originContent": "bash prepare/download_evaluator.sh",
+    "translatedContent": "bash prepare/download_evaluator.sh"
+  },
+  {
+    "row": 46,
+    "rowsha": "Z/OtdQexMsUOcW21lobBtxDlu9cCS0tyHLpx6Ofw66w=",
+    "originContent": "bash prepare/download_glove.sh",
+    "translatedContent": "bash prepare/download_glove.sh"
+  },
+  {
+    "row": 47,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### （オプション）手動ダウンロード  "
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "##### VQVAE 事前学習済み重み：  "
+  },
+  {
+    "row": 50,
+    "rowsha": "WsgcAN+KxUt/xhJik7sZSsvXRiUojyEQW9CpZPNeYG8=",
+    "originContent": "#### (Optional) Download Manually",
+    "translatedContent": "https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/vq.tar  "
+  },
+  {
+    "row": 51,
+    "rowsha": "mjd99xwoN/c0zD1HnD26uJ6o/O8Z19sjpfB89EN5Elg=",
+    "originContent": "##### VQVAE Pretrained Weights:",
+    "translatedContent": "##### LaMP 事前学習済み重み：  "
+  },
+  {
+    "row": 52,
+    "rowsha": "tkrzSnBhtRfuJYazNq+gYOm/KisTRM/fR1iG/r+lVoE=",
+    "originContent": "https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/vq.tar",
+    "translatedContent": "HumanML3D: https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/h3d-qformer.tar  "
+  },
+  {
+    "row": 53,
+    "rowsha": "asRbsTKdjXRuYd7X7Rnd9DbnYfzzQlEl92QUhlEXu4s=",
+    "originContent": "##### LaMP Pretrained Weights:",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "E95DAFBwTg5blxT66MZYGa+3vRtokTqKbzfOnpuL0pc=",
+    "originContent": "HumanML3D: https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/h3d-qformer.tar",
+    "translatedContent": "KIT-ML: https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/kit-qformer.tar  "
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "##### LaMP-T2M 事前学習済み重み：  "
+  },
+  {
+    "row": 56,
+    "rowsha": "LCtjEdvs1lZza49RhU/QMQLO92cdRySsD5Ogj2tF66g=",
+    "originContent": "KIT-ML: https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/kit-qformer.tar",
+    "translatedContent": "https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/t2m.tar  "
+  },
+  {
+    "row": 57,
+    "rowsha": "NlqEUR7+js0KgNKSceRYgkOvEi0nVVot3ssYpKhznpA=",
+    "originContent": "##### LaMP-T2M Pretrained Weights:",
+    "translatedContent": "##### M2T-LaMP 事前学習済み重み：  "
+  },
+  {
+    "row": 58,
+    "rowsha": "tQ94NS0zm7/Yw4QWUOq6CiD1qEsKFLarxGHHCf1vkTE=",
+    "originContent": "https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/t2m.tar",
+    "translatedContent": "https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/m2t.pth  "
+  },
+  {
+    "row": 59,
+    "rowsha": "7q3L0mSKNSUK1QRD9FTavdSl8ckXH74o41uyKpG+6ss=",
+    "originContent": "##### M2T-LaMP Pretrained Weights:",
+    "translatedContent": "### 3. データ取得  "
+  },
+  {
+    "row": 60,
+    "rowsha": "/gdszFel+jkUPApPUkX9yLMtPot83UOnleppao0HrFM=",
+    "originContent": "https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/aigc3d/lamp/m2t.pth",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "GSG3FLJUUjxax0VWLMhstahDa4khNF1pCr2tOH+xmNA=",
+    "originContent": "### 3. Get Data",
+    "translatedContent": "ここで2つの選択肢があります：  "
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* **データ取得をスキップ**、自分の説明文を使ってモーションを生成したい場合。  "
+  },
+  {
+    "row": 63,
+    "rowsha": "Gd+NThdBSSZQ6u/SPLqU+jKTjNCHUaIR8CbM9DjNTbg=",
+    "originContent": "You have two options here:",
+    "translatedContent": "* **完全なデータを取得**、モデルの*再訓練*や*評価*を行いたい場合。  "
+  },
+  {
+    "row": 64,
+    "rowsha": "I2UlkywDafJOK+1fc3A6AGW3gB4wzkAXjRxeNT6kv8Y=",
+    "originContent": "* **Skip getting data**, if you just want to generate motions using *own* descriptions.",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "r76xEOx9R2fgMxoVBIhUWFJPJ5YU/6FbxINV8Rvohz8=",
+    "originContent": "* **Get full data**, if you want to *re-train* and *evaluate* the model.",
+    "translatedContent": "**(a). 完全なデータ（テキスト＋モーション）**  "
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "MRaebczVVj/9cd6mQeSCDjY6zVKgyZN4+MCDkkR9rDo=",
+    "originContent": "**(a). Full data (text + motion)**",
+    "translatedContent": "**HumanML3D** - [HumanML3D](https://github.com/EricGuo5513/HumanML3D.git) の指示に従い、結果のデータセットを当リポジトリにコピーしてください："
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "hp5sNWJNpVcAJgQAW32+0bwQ/1sNgr2JN3/6v9jA3+o=",
+    "originContent": "**HumanML3D** - Follow the instruction in [HumanML3D](https://github.com/EricGuo5513/HumanML3D.git), then copy the result dataset to our repository:",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 71,
+    "rowsha": "fGIs/6V00XAts9jgt84KTv2n+IdhPPxt4VYuUCSE9PU=",
+    "originContent": "cp -r ../HumanML3D/HumanML3D ./dataset/HumanML3D",
+    "translatedContent": "cp -r ../HumanML3D/HumanML3D ./dataset/HumanML3D"
+  },
+  {
+    "row": 72,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 73,
+    "rowsha": "TQlBeaafvm3I2HywCj0Ql5lVr1vVp7wRU/m9l0YWXtQ=",
+    "originContent": "**KIT**-Download from [HumanML3D](https://github.com/EricGuo5513/HumanML3D.git), then place result in `./dataset/KIT-ML`",
+    "translatedContent": "**KIT**-[HumanML3D](https://github.com/EricGuo5513/HumanML3D.git)からダウンロードし、結果を`./dataset/KIT-ML`に配置してください。"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "+K8DAHU30kq5EDpGREVe6Hoxz9z0nvDmtjU2JFr2srg=",
+    "originContent": "#### ",
+    "translatedContent": "#### "
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "28vfLyq8/Zt18aqBdqjcF5zVvp+810/kPKEl5BPMqiA=",
+    "originContent": "## :fire: Demo",
+    "translatedContent": "## :fire: デモ"
+  },
+  {
+    "row": 80,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "BwdrJvlssEIQp6HsTq1gcMDU9H5Skn5sj+uWsErTe0M=",
+    "originContent": "### (a) Generate from a single prompt",
+    "translatedContent": "### (a) 単一のプロンプトから生成</details>"
+  },
+  {
+    "row": 83,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 84,
+    "rowsha": "AJpd1h9jplxnXCoSrmY0UYn8liBIuaXmGyFcuRKg0mU=",
+    "originContent": "python gen_t2m.py --gpu_id 1 --ext exp1 --text_prompt \"A person is running on a treadmill.\"",
+    "translatedContent": "python gen_t2m.py --gpu_id 1 --ext exp1 --text_prompt \"A person is running on a treadmill.\""
+  },
+  {
+    "row": 85,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 86,
+    "rowsha": "iDuWzmBDJfmc2NGg+C6tht65ghw0JLEw/nRkNzJg4dk=",
+    "originContent": "### (b) Generate from a prompt file",
+    "translatedContent": "### (b) プロンプトファイルから生成する  "
+  },
+  {
+    "row": 87,
+    "rowsha": "vtt2Y+If/9t2wKK20MED5WwRw6Ta2tFpOny5aG6MXjE=",
+    "originContent": "An example of prompt file is given in `./assets/text_prompt.txt`. Please follow the format of `<text description>#<motion length>` at each line. Motion length indicates the number of poses, which must be integeter and will be rounded by 4. In our work, motion is in 20 fps.",
+    "translatedContent": "プロンプトファイルの例は `./assets/text_prompt.txt` にあります。各行は `<テキストの説明>#<モーションの長さ>` の形式に従ってください。モーションの長さはポーズ数を示し、整数でなければならず、4の倍数に丸められます。本研究ではモーションは20fpsです。  "
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "3pByjUgQksmDU3PGYw5JqCxY+WqPAZSkRBRHWNWg13w=",
+    "originContent": "If you write `<text description>#NA`, our model will determine a length. Note once there is **one** NA, all the others will be **NA** automatically.",
+    "translatedContent": "もし `<テキストの説明>#NA` と書くと、モデルが長さを決定します。一度でも **1つ** のNAがあれば、他のすべても自動的に **NA** になります。"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 92,
+    "rowsha": "WlXhvDM8pa8RlAhA7+G2UNL60NEx+kNF7GAcdQd/qK8=",
+    "originContent": "python gen_t2m.py --gpu_id 1 --ext exp2 --text_path ./assets/text_prompt.txt",
+    "translatedContent": "python gen_t2m.py --gpu_id 1 --ext exp2 --text_path ./assets/text_prompt.txt"
+  },
+  {
+    "row": 93,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "興味があるかもしれないいくつかの追加パラメータ："
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* `--repeat_times`：生成のための複製回数、デフォルトは `1`。"
+  },
+  {
+    "row": 96,
+    "rowsha": "m2KkuMquZAAMJA+i9aukydqyin+eiEr02BTSVghzRYs=",
+    "originContent": "A few more parameters you may be interested:",
+    "translatedContent": "* `--motion_length`：生成するポーズの数を指定、(a)の場合のみ適用。"
+  },
+  {
+    "row": 97,
+    "rowsha": "xTnvbOoO/lVeKXVlyQB5CRBsCLJeA7o/u6myheu/uAU=",
+    "originContent": "* `--repeat_times`: number of replications for generation, default `1`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "H5x7FfjJRSa2B5WXDsDpNmIPuUCUWLR5WwJmKU7bvqg=",
+    "originContent": "* `--motion_length`: specify the number of poses for generation, only applicable in (a).",
+    "translatedContent": "出力ファイルはフォルダ `./generation/<ext>/` に保存されます。内容は"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* `numpyファイル`：形状が (nframe, 22, 3) の生成された動作、サブフォルダ `./joints` 配下。"
+  },
+  {
+    "row": 100,
+    "rowsha": "HLMSqScpCpoGTx3U6oWNPcB9T2H4+Q+RQkf/aUewcPI=",
+    "originContent": "The output files are stored under folder `./generation/<ext>/`. They are",
+    "translatedContent": "* `動画ファイル`：スティックフィギュアアニメーションのmp4形式、サブフォルダ `./animation` 配下。"
+  },
+  {
+    "row": 101,
+    "rowsha": "MhDeQd8Mxn+P1I9DbzoF1c3Tz+EBeU3skdsqGS4b8J8=",
+    "originContent": "* `numpy files`: generated motions with shape of (nframe, 22, 3), under subfolder `./joints`.",
+    "translatedContent": "* `bvhファイル`：生成された動作のbvhファイル、サブフォルダ `./animation` 配下。"
+  },
+  {
+    "row": 102,
+    "rowsha": "Rr07wTkIj9Ty/xIIdoZ9mLXE9JdSSEdLJoMQ2SDL/lQ=",
+    "originContent": "* `video files`: stick figure animation in mp4 format, under subfolder `./animation`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "i5dC5zvJWuYOhO/F8Q0lehs7Gu/is/uaBozlk+oreoI=",
+    "originContent": "* `bvh files`: bvh files of the generated motion, under subfolder `./animation`.",
+    "translatedContent": "また、生成された動作に素朴なフットIKを適用しています。接尾辞が `_ik` のファイルをご覧ください。時にはうまく機能しますが、時には失敗します。"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "  "
+  },
+  {
+    "row": 105,
+    "rowsha": "aoWi0wJCxiAjpJRDLNpR9WAXmv3U8gscHpAb00n/B+c=",
+    "originContent": "We also apply naive foot ik to the generated motions, see files with suffix `_ik`. It sometimes works well, but sometimes will fail.",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 106,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "## :basketball_man: ビジュアライゼーション"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 109,
+    "rowsha": "Acm/sadgd45fm0KlVqgf/722mn3RqC8hdWEHr7V8MoQ=",
+    "originContent": "## :basketball_man: Visualization",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "すべてのアニメーションは手動でBlenderでレンダリングしています。[mixamo](https://www.mixamo.com/#/) のキャラクターを使用しています。スケルトン付きのTポーズでキャラクターをダウンロードする必要があります。"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "0cZcDbnxpnom3NKB1/XgF2l9Iwi0cYBewSq5T7T0XQM=",
+    "originContent": "All the animations are manually rendered in blender. We use the characters from [mixamo](https://www.mixamo.com/#/). You need to download the characters in T-Pose with skeleton.",
+    "translatedContent": "### リターゲティング"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "リターゲティングに関しては、rokokoでは足の誤差が大きくなることが多いです。一方、[keemap.rig.transfer](https://github.com/nkeeline/Keemap-Blender-Rig-ReTargeting-Addon/releases) はより正確なリターゲティングを示します。こちらの[tutorial](https://www.youtube.com/watch?v=EG-VCMkVpxg)をご覧ください。"
+  },
+  {
+    "row": 114,
+    "rowsha": "Yj1TNweNbGQPvimNYI6nRkDV5dieHf+0MsaSZpSYh6w=",
+    "originContent": "### Retargeting",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "q3jaJmyzbwI57bLDSb5oXNYAJNtRf18tGhFfq4d1sr4=",
+    "originContent": "For retargeting, we found rokoko usually leads to large error on foot. On the other hand, [keemap.rig.transfer](https://github.com/nkeeline/Keemap-Blender-Rig-ReTargeting-Addon/releases) shows more precise retargetting. You could watch the [tutorial](https://www.youtube.com/watch?v=EG-VCMkVpxg) here.",
+    "translatedContent": "以下の手順に従ってください："
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* githubからkeemap.rig.transferをダウンロードし、Blenderにインストールします。"
+  },
+  {
+    "row": 117,
+    "rowsha": "cBzMwvBkT/5JUDhc7QbAbzofLt2sOrD9TppJe66xRa4=",
+    "originContent": "Following these steps:",
+    "translatedContent": "* Blenderにモーションファイル（.bvh）とキャラクターファイル（.fbx）を両方インポートします。"
+  },
+  {
+    "row": 118,
+    "rowsha": "XSJ5WskHMz35zo8SdPHiZkmhe5dCJScccxWrLWmqS/s=",
+    "originContent": "* Download keemap.rig.transfer from the github, and install it in blender.",
+    "translatedContent": "* ソースとターゲットのスケルトンを `Shift + 選択` します。（レストポジションである必要はありません）"
+  },
+  {
+    "row": 119,
+    "rowsha": "qtaLmB5agty1Z/STe6S6vYitESu8nKVXcDBDJ8p8o4o=",
+    "originContent": "* Import both the motion files (.bvh) and character files (.fbx) in blender.",
+    "translatedContent": "* `ポーズモード`に切り替え、ビューウィンドウ右上の`KeeMapRig`ツールを展開します。"
+  },
+  {
+    "row": 120,
+    "rowsha": "wNvcQPom7AzpdayeZuEP4nTJtUUORDvPFNUH43lcQV4=",
+    "originContent": "* `Shift + Select` the both source and target skeleton. (Do not need to be Rest Position)",
+    "translatedContent": "* `bone mapping file` には `./assets/mapping.json`（動作しない場合は `mapping6.json`）を指定し、`Read In Bone Mapping File`をクリックします。このファイルは手作業で作成したもので、mixamoのほとんどのキャラクターで機能します。"
+  },
+  {
+    "row": 121,
+    "rowsha": "2dWhofJ+kkbD6leyy+lcgIjHc8uFkha/4UWxXgIaspw=",
+    "originContent": "* Switch to `Pose Mode`, then unfold the `KeeMapRig` tool at the top-right corner of the view window.",
+    "translatedContent": "* （オプション）骨マッピングを手動で入力し、回転を調整して自分のキャラクターに合わせることもできます。`Save Bone Mapping File`でマッピング設定をローカルファイルに保存可能です。ファイルパスはマッピングファイルのパスで指定します。"
+  },
+  {
+    "row": 122,
+    "rowsha": "xPs741UG8JWqXUT/EyXh/l/fnK1bNdtp8H5S0NqgGOM=",
+    "originContent": "* For `bone mapping file`, direct to `./assets/mapping.json`(or `mapping6.json` if it doesn't work), and click `Read In Bone Mapping File`. This file is manually made by us. It works for most characters in mixamo.",
+    "translatedContent": "* `Number of Samples`、`Source Rig`、`Destination Rig Name`を調整します。"
+  },
+  {
+    "row": 123,
+    "rowsha": "SZ259aR9Ln5pNtkP9/b5iRvbS4jynfV+kmQ7bniNwmw=",
+    "originContent": "* (Optional) You could manually fill in the bone mapping and adjust the rotations by your own, for your own character. `Save Bone Mapping File` can save the mapping configuration in local file, as specified by the mapping file path.",
+    "translatedContent": "* `Transfer Animation from Source Destination`をクリックし、数秒待ちます。"
+  },
+  {
+    "row": 124,
+    "rowsha": "pF+/476/oKPJj5ar01EIyLqZIZHZz3IBnVP3BA4R+IA=",
+    "originContent": "* Adjust the `Number of Samples`, `Source Rig`, `Destination Rig Name`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "ULR6ETLDY+YLOL2M5movxj4bS8en9Zdb1vWU1uyKTgw=",
+    "originContent": "* Clik `Transfer Animation from Source Destination`, wait a few seconds.",
+    "translatedContent": "他のリターゲティングツールは試していません。より有用なものを見つけたらコメントを歓迎します。"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "vtRKlO/kgkGKp/O0InwFtvJ5A+xBYIgKpdeUPiKjMok=",
+    "originContent": "We didn't tried other retargetting tools. Welcome to comment if you find others are more useful.",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "## :flashlight: 自分のモデルを訓練する"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 131,
+    "rowsha": "trcWwVU2bKmWN5XV/djwo+fF0Xf3eqPT2C0nfwiT5ss=",
+    "originContent": "## :flashlight: Train Your Own Models",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**注意**：マスクド/残差トランスフォーマーを訓練する前に、必ずVQ-VAEを訓練してください。後者2つは同時に訓練可能です。"
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "movhb14We8FKKvaNQzK8xh3ocqqF63SbW0NY1dHQSwM=",
+    "originContent": "**Note**: You have to train VQ-VAE **BEFORE** training masked/residual transformers. The latter two can be trained simultaneously.",
+    "translatedContent": "### VQ-VAEの訓練"
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "スクリプトを実行するために評価モデルをダウンロードする必要がある場合があります。"
+  },
+  {
+    "row": 137,
+    "rowsha": "orxd/ai3LUQPgoks8pi9/8mhuJriHmSS+5ruvHsB8Ak=",
+    "originContent": "### Train VQ-VAE",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "LZAtuN1jyZSW8eRCxUyN0AaQzDUrMZEKxVWv3ULXRBw=",
+    "originContent": "You may also need to download evaluation models to run the scripts.",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 140,
+    "rowsha": "/CSgxs4CoGcirw6Ujwj/8XrBM60DxSYsiv4vhxSy7jU=",
+    "originContent": "python train_vq.py --name vq_name --gpu_id 1 --dataset_name t2m --batch_size 256  --max_epoch 50 --quantize_dropout_prob 0.2 --gamma 0.05",
+    "translatedContent": "python train_vq.py --name vq_name --gpu_id 1 --dataset_name t2m --batch_size 256  --max_epoch 50 --quantize_dropout_prob 0.2 --gamma 0.05"
+  },
+  {
+    "row": 141,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### LaMPの訓練"
+  },
+  {
+    "row": 143,
+    "rowsha": "mUxf096DLa6ROoW0N14mrlgFB2vtgQL6eltwm0oCGxE=",
+    "originContent": "### Train LaMP",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 145,
+    "rowsha": "Bmo8Co/GjT1PNn30iz65r5kNeAtNPJWBPIVkFFPowSk=",
+    "originContent": "python train_lamp.py --name lamp_name --gpu_id 2 --dataset_name t2m --batch_size 64 --vq_name vq_name",
+    "translatedContent": "python train_lamp.py --name lamp_name --gpu_id 2 --dataset_name t2m --batch_size 64 --vq_name vq_name"
+  },
+  {
+    "row": 146,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### マスクドトランスフォーマーの訓練</translate-content>"
+  },
+  {
+    "row": 148,
+    "rowsha": "TOi3s7M3ubifxFtJrr6Q4XGArwrBgLz+mq4148YkCfc=",
+    "originContent": "### Train Masked Transformer",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 150,
+    "rowsha": "6HvcY5FmS1I6bffg5VRvrj1ydAPI2raLfAXodUJATZo=",
+    "originContent": "python train_t2m_transformer.py --name mtrans_name --gpu_id 2 --dataset_name t2m --batch_size 64 --vq_name vq_name",
+    "translatedContent": "python train_t2m_transformer.py --name mtrans_name --gpu_id 2 --dataset_name t2m --batch_size 64 --vq_name vq_name"
+  },
+  {
+    "row": 151,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<translate-content>"
+  },
+  {
+    "row": 153,
+    "rowsha": "4L+5tVBzqV+POy0f3mfmadzbhDSqIyg36CqIovh6o8Q=",
+    "originContent": "* `--dataset_name`: motion dataset, `t2m` for HumanML3D and `kit` for KIT-ML.  ",
+    "translatedContent": "* `--dataset_name`: モーションデータセット、HumanML3Dには`t2m`、KIT-MLには`kit`を使用します。  "
+  },
+  {
+    "row": 154,
+    "rowsha": "JM7Fy1CRFvWFcHwj4cSHOyl1EvEb5wffoJmGEn2SEHs=",
+    "originContent": "* `--name`: name your model. This will create to model space as `./checkpoints/<dataset_name>/<name>`",
+    "translatedContent": "* `--name`: モデルの名前を指定します。これにより、モデルスペースが`./checkpoints/<dataset_name>/<name>`に作成されます。"
+  },
+  {
+    "row": 155,
+    "rowsha": "6oB6bBBRriuwFfNkseS31TYwoZfZ9fH7IYBsKw4s2BQ=",
+    "originContent": "* `--gpu_id`: GPU id.",
+    "translatedContent": "* `--gpu_id`: GPUのID。"
+  },
+  {
+    "row": 156,
+    "rowsha": "w6OV73ebp+Xw12itkeHs0ZlSftMXzQGwMzhjfdiaeF4=",
+    "originContent": "* `--batch_size`: we use `512` for vq training. For masked/residual transformer, we use `64` on HumanML3D and `16` for KIT-ML.",
+    "translatedContent": "* `--batch_size`: vqトレーニングには`512`を使用します。マスクド／残差トランスフォーマーにはHumanML3Dで`64`、KIT-MLで`16`を使用します。"
+  },
+  {
+    "row": 157,
+    "rowsha": "viJK0VzrsSvAmG7F+2Bi5bX4yfs5NWy8oxViy/O4sLk=",
+    "originContent": "* `--quantize_drop_prob`: quantization dropout ratio, `0.2` is used.",
+    "translatedContent": "* `--quantize_drop_prob`: 量子化ドロップアウト率、`0.2`を使用します。"
+  },
+  {
+    "row": 158,
+    "rowsha": "qdu32Q0U18TSt6V9u1nNwq1VTY6DuekN3dlnvTJmUZY=",
+    "originContent": "* `--vq_name`: when training masked/residual transformer, you need to specify the name of vq model for tokenization.",
+    "translatedContent": "* `--vq_name`: マスクド／残差トランスフォーマーをトレーニングする際に、トークン化のためのvqモデルの名前を指定する必要があります。"
+  },
+  {
+    "row": 159,
+    "rowsha": "K6ORKOrvkHowPc+R6pqOetGe49qHX3WmfpphPBYGlCQ=",
+    "originContent": "* `--cond_drop_prob`: condition drop ratio, for classifier-free guidance. `0.2` is used.",
+    "translatedContent": "* `--cond_drop_prob`: 条件ドロップ率、分類器なしガイダンス用。`0.2`を使用します。"
+  },
+  {
+    "row": 160,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "39ZhwA0+4FToRksD9dBq7mLJI6OHG2l3CyK81ZNIzMk=",
+    "originContent": "All the pre-trained models and intermediate results will be saved in space `./checkpoints/<dataset_name>/<name>`.",
+    "translatedContent": "すべての事前学習済みモデルと中間結果は、`./checkpoints/<dataset_name>/<name>`に保存されます。"
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "NRE0QnIHUeEvy9ogcorW9IKxLzG2lxKaMjmrMsR3gRo=",
+    "originContent": "### Train M2T",
+    "translatedContent": "### M2Tのトレーニング</translate-content>"
+  },
+  {
+    "row": 164,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 165,
+    "rowsha": "iV7qTKNtUE//FLELICV4H2kp6EMUxxSIDfSv+dGw6Gg=",
+    "originContent": "python train_m2t.py --exp-name M2T --num-layers 12 --batch-size 80 --embed-dim-gpt 1024 --nb-code 512 --n-head-gpt 16 --block-size 51 --ff-rate 4 --drop-out-rate 0.1 --resume-pth your_own_vqvae --vq-name VQVAE --out-dir ./output --total-iter 150000 --lr-scheduler 75000 --lr 0.00005 --dataname kit --down-t 2 --depth 3 --quantizer ema_reset --eval-iter 10000 --pkeep 0.5 --dilation-growth-rate 3 --vq-act relu",
+    "translatedContent": "python train_m2t.py --exp-name M2T --num-layers 12 --batch-size 80 --embed-dim-gpt 1024 --nb-code 512 --n-head-gpt 16 --block-size 51 --ff-rate 4 --drop-out-rate 0.1 --resume-pth your_own_vqvae --vq-name VQVAE --out-dir ./output --total-iter 150000 --lr-scheduler 75000 --lr 0.00005 --dataname kit --down-t 2 --depth 3 --quantizer ema_reset --eval-iter 10000 --pkeep 0.5 --dilation-growth-rate 3 --vq-act relu"
+  },
+  {
+    "row": 166,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 167,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 168,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": ""
+  },
+  {
+    "row": 169,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## :artist: 評価"
+  },
+  {
+    "row": 170,
+    "rowsha": "6tiR6JKnnL9DM7o6iDBLi0UjQl8ZbcbGKa09WImTQ4Y=",
+    "originContent": "## :artist: Evaluation",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 171,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": ""
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### VQ-VAE再構築の評価："
+  },
+  {
+    "row": 173,
+    "rowsha": "C9WIYFOR/rw5VLQVUKJNcsMPCDBY6boCSbk+jmkFTfo=",
+    "originContent": "### Evaluate VQ-VAE Reconstruction:",
+    "translatedContent": "HumanML3D:</details>"
+  },
+  {
+    "row": 174,
+    "rowsha": "QN2VJF4dXeWtj611rSivEWpogC54Mvq46NIBjoVyNzU=",
+    "originContent": "HumanML3D:",
+    "translatedContent": ""
+  },
+  {
+    "row": 175,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 176,
+    "rowsha": "3qYsfleP33LjyBFQZQrWkfkPwDxSDjmb6EeYhp07dX0=",
+    "originContent": "python eval_t2m_vq.py --gpu_id 0 --name  --dataset_name t2m",
+    "translatedContent": "python eval_t2m_vq.py --gpu_id 0 --name  --dataset_name t2m"
+  },
+  {
+    "row": 177,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 178,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 179,
+    "rowsha": "fmTGDv2c4k7L1hCmqyAukrZYEbChzBqoQxA7o/WR13A=",
+    "originContent": "KIT-ML:",
+    "translatedContent": "KIT-ML:"
+  },
+  {
+    "row": 180,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 181,
+    "rowsha": "jpNt3CYYuZHzTt/+cHoNkTSPWl1icbwFuIwCGDkfaxc=",
+    "originContent": "python eval_t2m_vq.py --gpu_id 0 --name  --dataset_name kit",
+    "translatedContent": "python eval_t2m_vq.py --gpu_id 0 --name  --dataset_name kit"
+  },
+  {
+    "row": 182,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 183,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### LaMP-T2Mの評価："
+  },
+  {
+    "row": 184,
+    "rowsha": "1ssven3LjTqdYiENwl9wnloBdI/GTEK9MOrcrX0jzVc=",
+    "originContent": "### Evaluate LaMP-T2M:",
+    "translatedContent": "HumanML3D："
+  },
+  {
+    "row": 185,
+    "rowsha": "QN2VJF4dXeWtj611rSivEWpogC54Mvq46NIBjoVyNzU=",
+    "originContent": "HumanML3D:",
+    "translatedContent": ""
+  },
+  {
+    "row": 186,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 187,
+    "rowsha": "GlaTG9J3zSHtjkFmMNAghL01PTBeof35P3onBGvDcxY=",
+    "originContent": "python eval_t2m_trans_res.py --res_name mtrans_name --dataset_name t2m --name eval_name --gpu_id 1 --cond_scale 4 --time_steps 10 --ext evaluation",
+    "translatedContent": "python eval_t2m_trans_res.py --res_name mtrans_name --dataset_name t2m --name eval_name --gpu_id 1 --cond_scale 4 --time_steps 10 --ext evaluation"
+  },
+  {
+    "row": 188,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 189,
+    "rowsha": "fmTGDv2c4k7L1hCmqyAukrZYEbChzBqoQxA7o/WR13A=",
+    "originContent": "KIT-ML:",
+    "translatedContent": "KIT-ML:"
+  },
+  {
+    "row": 190,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 191,
+    "rowsha": "zt9NcBmWKUFY9HMjI+kvS39FnN1uvw7LXTZl98jkMg4=",
+    "originContent": "python eval_t2m_trans_res.py --res_name mtrans_name_k --dataset_name kit --name eval_name_k --gpu_id 0 --cond_scale 2 --time_steps 10 --ext evaluation",
+    "translatedContent": "python eval_t2m_trans_res.py --res_name mtrans_name_k --dataset_name kit --name eval_name_k --gpu_id 0 --cond_scale 2 --time_steps 10 --ext evaluation"
+  },
+  {
+    "row": 192,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 193,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<translate-content>"
+  },
+  {
+    "row": 194,
+    "rowsha": "sVEeRgDVUDWVFt6V/NsRBbLXz2BU3LeoT2hrWF9NOgE=",
+    "originContent": "* `--res_name`: model name of `residual transformer`.  ",
+    "translatedContent": "* `--res_name`: `residual transformer`のモデル名。  "
+  },
+  {
+    "row": 195,
+    "rowsha": "qyJ6u6P5CpEmDHoOE+4W9R3e7IJ4CRezxYtLr9rUgT0=",
+    "originContent": "* `--name`: model name of `masked transformer`.  ",
+    "translatedContent": "* `--name`: `masked transformer`のモデル名。  "
+  },
+  {
+    "row": 196,
+    "rowsha": "u4lPCGF5CzGxH4xdLyboXuckkKXN9hm8Ifqvhq7dD90=",
+    "originContent": "* `--cond_scale`: scale of classifer-free guidance.",
+    "translatedContent": "* `--cond_scale`: クラス分類なしガイダンスのスケール。"
+  },
+  {
+    "row": 197,
+    "rowsha": "RoiUgLdaa5Ys0KVpXjTdJE1HBkMFIoYiZ99H7sQKjmM=",
+    "originContent": "* `--time_steps`: number of iterations for inference.",
+    "translatedContent": "* `--time_steps`: 推論の反復回数。"
+  },
+  {
+    "row": 198,
+    "rowsha": "KQK9dsnKYVNJcRFRMMMnAjXCGWdbL5hn8wSaCHDuagQ=",
+    "originContent": "* `--ext`: filename for saving evaluation results.",
+    "translatedContent": "* `--ext`: 評価結果を保存するファイル名。"
+  },
+  {
+    "row": 199,
+    "rowsha": "Wv3tF7DU+rwn2twHulDSuMTKGDzMGSO8X4xDk7usjy0=",
+    "originContent": "* `--which_epoch`: checkpoint name of `masked transformer`.",
+    "translatedContent": "* `--which_epoch`: `masked transformer`のチェックポイント名。"
+  },
+  {
+    "row": 200,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 201,
+    "rowsha": "f3Duk5pO2fQsUR82n4DjryLKSGm0xbfqJoQkUySOc1I=",
+    "originContent": "The final evaluation results will be saved in `./checkpoints/<dataset_name>/<name>/eval/<ext>.log`",
+    "translatedContent": "最終評価結果は`./checkpoints/<dataset_name>/<name>/eval/<ext>.log`に保存されます。"
+  },
+  {
+    "row": 202,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 203,
+    "rowsha": "vaJFMweyWlL1tj/5L3hUB2+7Wz6+GjMWHAEG/RLotGU=",
+    "originContent": "### Evaluate LaMP-M2T:",
+    "translatedContent": "### LaMP-M2Tの評価:</translate-content>"
+  },
+  {
+    "row": 204,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 205,
+    "rowsha": "1ezmOefQmrfCm+N3XAfcDFQSAoS07JqUvinP3VCFtFY=",
+    "originContent": "python M2T_eval.py --exp-name Test_M2T --num-layers 9 --batch-size 1 --embed-dim-gpt 1024 --nb-code 512 --n-head-gpt 16 --block-size 51 --ff-rate 4 --drop-out-rate 0.1 --resume-pth your_own_vqvae --vq-name VQVAE --out-dir ./output --total-iter 150000 --lr-scheduler 75000 --lr 0.0001 --dataname t2m --down-t 2 --depth 3 --quantizer ema_reset --eval-iter 10000 --pkeep 0.5 --dilation-growth-rate 3 --vq-act relu --resume-trans your_own_m2t",
+    "translatedContent": "python M2T_eval.py --exp-name Test_M2T --num-layers 9 --batch-size 1 --embed-dim-gpt 1024 --nb-code 512 --n-head-gpt 16 --block-size 51 --ff-rate 4 --drop-out-rate 0.1 --resume-pth your_own_vqvae --vq-name VQVAE --out-dir ./output --total-iter 150000 --lr-scheduler 75000 --lr 0.0001 --dataname t2m --down-t 2 --depth 3 --quantizer ema_reset --eval-iter 10000 --pkeep 0.5 --dilation-growth-rate 3 --vq-act relu --resume-trans your_own_m2t"
+  },
+  {
+    "row": 206,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 207,
+    "rowsha": "ql4JOsYZ+5RH0riiO2e7pp4ZXsDGt9GLejJEfwmzGYc=",
+    "originContent": "LaMP-BertScore metric is computed by first generating a textual description of the synthesized motion using LaMP-M2T, and then calculating the BertScore between the generated description and the ground-truth text.",
+    "translatedContent": "LaMP-BertScore メトリックは、まず LaMP-M2T を使って合成された動作のテキスト記述を生成し、  "
+  },
+  {
+    "row": 208,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "その後、生成された記述と正解テキスト間の BertScore を計算することで算出されます。  "
+  },
+  {
+    "row": 209,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": ""
+  },
+  {
+    "row": 210,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "</details>  "
+  },
+  {
+    "row": 211,
+    "rowsha": "FcHmtFlMLg6kiyVfsQ9wEVdoyI3qZ6jolNCNUAKYbLA=",
+    "originContent": "## Acknowlegements",
+    "translatedContent": ""
+  },
+  {
+    "row": 212,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 謝辞  "
+  },
+  {
+    "row": 213,
+    "rowsha": "8cMcJMXQP2pkuJlT0W5bk0E6J5pBCOUNrI56QGcZKGA=",
+    "originContent": "We sincerely thank the open-sourcing of these works where our code is based on: ",
+    "translatedContent": ""
+  },
+  {
+    "row": 214,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "我々のコードの基盤となっている以下のオープンソース作品に心より感謝いたします：  "
+  },
+  {
+    "row": 215,
+    "rowsha": "UlnS5f3UlvJH6ZT3QjLls+YqKJ9ocWe0HYfn4q7hWjc=",
+    "originContent": "[T2M-GPT](https://github.com/Mael-zys/T2M-GPT) and [MoMask](https://github.com/EricGuo5513/momask-codes/tree/main).",
+    "translatedContent": ""
+  },
+  {
+    "row": 216,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[T2M-GPT](https://github.com/Mael-zys/T2M-GPT) および [MoMask](https://github.com/EricGuo5513/momask-codes/tree/main)。  "
+  },
+  {
+    "row": 217,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 218,
+    "rowsha": "a6uFlDW27XFPRE7YrT70AKwUxyIX8+FDMsHkmFHoN+w=",
+    "originContent": "This code is distributed under an [MIT LICENSE](https://github.com/gentlefress/LaMP/blob/main/LICENSE.md).",
+    "translatedContent": "## ライセンス  "
+  },
+  {
+    "row": 219,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "本コードは [MIT LICENSE](https://github.com/gentlefress/LaMP/blob/main/LICENSE.md) のもとで配布されています。  "
+  },
+  {
+    "row": 220,
+    "rowsha": "GZe0fLb91Yxryvrqmj0LnIhLD4qqDNFZETUOKPEvFjA=",
+    "originContent": "Note that our code depends on other libraries, including SMPL, SMPL-X, PyTorch3D, and uses datasets which each have their own respective licenses that must also be followed.",
+    "translatedContent": ""
+  },
+  {
+    "row": 221,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "本コードは SMPL、SMPL-X、PyTorch3D などの他のライブラリに依存しており、  "
+  },
+  {
+    "row": 222,
+    "rowsha": "ka08euf1fjR3pBYKZnJPJISNHCXbW0Asqlk0K1fdlvo=",
+    "originContent": "### Misc",
+    "translatedContent": "それぞれのライセンスに従う必要があるデータセットも使用しています。  "
+  },
+  {
+    "row": 223,
+    "rowsha": "TGlDescomEGh5zcJYKoZPwuhs+bATOdZPgujQ4WQI6s=",
+    "originContent": "Contact keycharon0122@gmail.com for further questions.",
+    "translatedContent": ""
+  },
+  {
+    "row": 224,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### その他  "
+  },
+  {
+    "row": 225,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "ご質問は keycharon0122@gmail.com までご連絡ください。  "
+  }
+]

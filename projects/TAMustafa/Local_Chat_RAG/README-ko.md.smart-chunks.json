@@ -1,0 +1,1329 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Local Chat RAG\n\nA **local, privacy-first Retrieval-Augmented Generation (RAG) chat app**. Upload documents, ask questions, and get answers with sources—powered by open-source LLMs running on your own machine.\n\n---\n\n## Features\n\n- **Local RAG Pipeline**: No cloud, no data leaks—everything runs on your machine.\n- **File Upload & Parsing**: Supports DOCX, PDF, and more (via `unstructured`, `python-docx`, `pdfplumber`).\n- **Modern UI**: Gemini-style, minimal, and accessible. Built with Vite, React, TypeScript, Zustand, Chakra UI.\n- **Chat with Sources**: Ask questions and see which documents/sections the answer comes from.\n- **FastAPI Backend**: Robust API, clean separation from frontend, `/api` route organization.\n- **Ollama LLM Integration**: Use open-source models (Mistral, Llama2, etc.) locally via Ollama.\n- **Extensible & Documented**: Modular, testable code with strict documentation and change management policies.\n\n---\n\n## Quick Start\n\n### 1. **Requirements**\n- Python 3.9+\n- Node.js 18+\n- [Ollama](https://ollama.com/) (for local LLMs and embeddings)\n\n---\n\n## 🚀 Quick Setup Checklist\n\n1. **Install Ollama** (for local LLM and embeddings)\n2. **Pull required models**: `mistral` (chat) and `nomic-embed-text` (embeddings)\n3. **Start the Ollama server**: `ollama serve` (must be running for backend to work)\n4. **Set up backend** (Python, FastAPI)\n5. **Set up frontend** (Node.js, Vite)\n6. **Open the app** in your browser: [http://localhost:5173](http://localhost:5173)\n\n---\n\n### 2. Install Ollama and Required Models\n- **Download Ollama:** [ollama.com/download](https://ollama.com/download) (macOS, Windows, Linux)\n- **Or via Homebrew (macOS):**",
+    "ContentSha": "G+yuJrxxPcXbz4QisVYsoGekMrr6r6Gw20lUGbWqE1A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># 로컬 챗 RAG\n\n**로컬, 프라이버시 우선 검색 증강 생성(RAG) 채팅 앱**입니다. 문서를 업로드하고 질문을 하면 출처와 함께 답변을 받을 수 있습니다—오픈 소스 LLM이 사용자의 기기에서 실행됩니다.\n\n---\n\n## 기능\n\n- **로컬 RAG 파이프라인**: 클라우드 없음, 데이터 유출 없음—모든 것이 사용자의 기기에서 실행됩니다.\n- **파일 업로드 및 파싱**: DOCX, PDF 등 지원 (`unstructured`, `python-docx`, `pdfplumber` 사용).\n- **모던 UI**: Gemini 스타일, 미니멀하고 접근성 우수. Vite, React, TypeScript, Zustand, Chakra UI로 제작됨.\n- **출처와 함께 채팅**: 질문하고 답변이 어떤 문서/섹션에서 왔는지 확인 가능.\n- **FastAPI 백엔드**: 견고한 API, 프론트엔드와 깔끔한 분리, `/api` 경로 구성.\n- **Ollama LLM 통합**: Ollama를 통해 로컬에서 오픈 소스 모델(Mistral, Llama2 등) 사용 가능.\n- **확장 가능 & 문서화됨**: 모듈화, 테스트 가능 코드와 엄격한 문서 및 변경 관리 정책.\n\n---\n\n## 빠른 시작\n\n### 1. **요구 사항**\n- Python 3.9 이상\n- Node.js 18 이상\n- [Ollama](https://ollama.com/) (로컬 LLM 및 임베딩용)\n\n---\n\n## 🚀 빠른 설정 체크리스트\n\n1. **Ollama 설치** (로컬 LLM 및 임베딩용)\n2. **필요한 모델 다운로드**: `mistral` (챗), `nomic-embed-text` (임베딩)\n3. **Ollama 서버 시작**: `ollama serve` (백엔드 작동을 위해 실행 중이어야 함)\n4. **백엔드 설정** (Python, FastAPI)\n5. **프론트엔드 설정** (Node.js, Vite)\n6. **브라우저에서 앱 열기**: [http://localhost:5173](http://localhost:5173)\n\n---\n\n### 2. Ollama 및 필수 모델 설치\n- **Ollama 다운로드:** [ollama.com/download](https://ollama.com/download) (macOS, Windows, Linux)\n- **또는 Homebrew(macos)로 설치:**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "iqEqmvK/NAkRL2EOhVBtp71PNGZpYbZHViXkxHUU2ng=",
+        "originContent": "# Local Chat RAG",
+        "translatedContent": "<translate-content># 로컬 챗 RAG"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "ZsrUiOhFGhTleST9UtkAmup5FIDO1pHXHjfSAQthGMQ=",
+        "originContent": "A **local, privacy-first Retrieval-Augmented Generation (RAG) chat app**. Upload documents, ask questions, and get answers with sources—powered by open-source LLMs running on your own machine.",
+        "translatedContent": "**로컬, 프라이버시 우선 검색 증강 생성(RAG) 채팅 앱**입니다. 문서를 업로드하고 질문을 하면 출처와 함께 답변을 받을 수 있습니다—오픈 소스 LLM이 사용자의 기기에서 실행됩니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 기능"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "zWd7tNrqbii68ZO+jAWCKRZ4eDTqsVBVubjvZEg8nb4=",
+        "originContent": "- **Local RAG Pipeline**: No cloud, no data leaks—everything runs on your machine.",
+        "translatedContent": "- **로컬 RAG 파이프라인**: 클라우드 없음, 데이터 유출 없음—모든 것이 사용자의 기기에서 실행됩니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "fZX13LqjG2E4Zvz/+cT38YX01c4Ii3o61QMHVpZ6eMM=",
+        "originContent": "- **File Upload & Parsing**: Supports DOCX, PDF, and more (via `unstructured`, `python-docx`, `pdfplumber`).",
+        "translatedContent": "- **파일 업로드 및 파싱**: DOCX, PDF 등 지원 (`unstructured`, `python-docx`, `pdfplumber` 사용)."
+      },
+      {
+        "row": 11,
+        "rowsha": "yErnaaYyfwlXOjO+feS696cwur31bBm0H1AWzMLX+xc=",
+        "originContent": "- **Modern UI**: Gemini-style, minimal, and accessible. Built with Vite, React, TypeScript, Zustand, Chakra UI.",
+        "translatedContent": "- **모던 UI**: Gemini 스타일, 미니멀하고 접근성 우수. Vite, React, TypeScript, Zustand, Chakra UI로 제작됨."
+      },
+      {
+        "row": 12,
+        "rowsha": "YiElspOmwKDSKK7xGtA2gft/seNYg4dEua2AbSusgPM=",
+        "originContent": "- **Chat with Sources**: Ask questions and see which documents/sections the answer comes from.",
+        "translatedContent": "- **출처와 함께 채팅**: 질문하고 답변이 어떤 문서/섹션에서 왔는지 확인 가능."
+      },
+      {
+        "row": 13,
+        "rowsha": "4xev852OvdIk5sbU9m25/5JirzsDv1acCTos37uSwYs=",
+        "originContent": "- **FastAPI Backend**: Robust API, clean separation from frontend, `/api` route organization.",
+        "translatedContent": "- **FastAPI 백엔드**: 견고한 API, 프론트엔드와 깔끔한 분리, `/api` 경로 구성."
+      },
+      {
+        "row": 14,
+        "rowsha": "Z/Z8g3Bj/HLl1FCZ7cUIegX7ZLe1jZKtaji/cdyt1C4=",
+        "originContent": "- **Ollama LLM Integration**: Use open-source models (Mistral, Llama2, etc.) locally via Ollama.",
+        "translatedContent": "- **Ollama LLM 통합**: Ollama를 통해 로컬에서 오픈 소스 모델(Mistral, Llama2 등) 사용 가능."
+      },
+      {
+        "row": 15,
+        "rowsha": "uUnpTD4dc9jSKcOBeUknzTYttL0CQaikrRJmj/ejxX8=",
+        "originContent": "- **Extensible & Documented**: Modular, testable code with strict documentation and change management policies.",
+        "translatedContent": "- **확장 가능 & 문서화됨**: 모듈화, 테스트 가능 코드와 엄격한 문서 및 변경 관리 정책."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": "## 빠른 시작"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "USVIJSUmLsVk0zKAtRoHz337/ro6souyKmTt8bg4nTM=",
+        "originContent": "### 1. **Requirements**",
+        "translatedContent": "### 1. **요구 사항**"
+      },
+      {
+        "row": 22,
+        "rowsha": "oao46NuvlMix1AMfHFtHBJQYkEJyzvFdSI38tpKbxFQ=",
+        "originContent": "- Python 3.9+",
+        "translatedContent": "- Python 3.9 이상"
+      },
+      {
+        "row": 23,
+        "rowsha": "PpHXprHlaONT5vl2TyEVJPsJw91z3ICknDkQ7cXxwPY=",
+        "originContent": "- Node.js 18+",
+        "translatedContent": "- Node.js 18 이상"
+      },
+      {
+        "row": 24,
+        "rowsha": "VN05UJkjcP0KvRB2p9vDJmTGB9lPH1g0K2mJwR+xbiY=",
+        "originContent": "- [Ollama](https://ollama.com/) (for local LLMs and embeddings)",
+        "translatedContent": "- [Ollama](https://ollama.com/) (로컬 LLM 및 임베딩용)"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "EZYhwkMJzf4dJ66yRx/oscEL1zgrWc+doacDhnYQaf8=",
+        "originContent": "## 🚀 Quick Setup Checklist",
+        "translatedContent": "## 🚀 빠른 설정 체크리스트"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "mInQ0cX0eKBEKfVCbvjNRfX8sTcIll4bT5gxcq81UmI=",
+        "originContent": "1. **Install Ollama** (for local LLM and embeddings)",
+        "translatedContent": "1. **Ollama 설치** (로컬 LLM 및 임베딩용)"
+      },
+      {
+        "row": 31,
+        "rowsha": "mlW+gS71g23ozNOkts1BOfOV64IVCal/QloCZFjiDA8=",
+        "originContent": "2. **Pull required models**: `mistral` (chat) and `nomic-embed-text` (embeddings)",
+        "translatedContent": "2. **필요한 모델 다운로드**: `mistral` (챗), `nomic-embed-text` (임베딩)"
+      },
+      {
+        "row": 32,
+        "rowsha": "LDV/cL6v7pCAXYzzci14qiEuFOl6qgDV08/UVfV3Peg=",
+        "originContent": "3. **Start the Ollama server**: `ollama serve` (must be running for backend to work)",
+        "translatedContent": "3. **Ollama 서버 시작**: `ollama serve` (백엔드 작동을 위해 실행 중이어야 함)"
+      },
+      {
+        "row": 33,
+        "rowsha": "Btflo0+iIF0HrWAQqRavyxXbxdgbQCKS62rJ83g0ebQ=",
+        "originContent": "4. **Set up backend** (Python, FastAPI)",
+        "translatedContent": "4. **백엔드 설정** (Python, FastAPI)"
+      },
+      {
+        "row": 34,
+        "rowsha": "l45/JoYB+xaKJkObEwpLjXhZkTUNVqV5x8q+1n3KyZk=",
+        "originContent": "5. **Set up frontend** (Node.js, Vite)",
+        "translatedContent": "5. **프론트엔드 설정** (Node.js, Vite)"
+      },
+      {
+        "row": 35,
+        "rowsha": "xhAXFvzcPQoSydc4wbQE6b3L+j9C8Bs/jjUPi8vS2NE=",
+        "originContent": "6. **Open the app** in your browser: [http://localhost:5173](http://localhost:5173)",
+        "translatedContent": "6. **브라우저에서 앱 열기**: [http://localhost:5173](http://localhost:5173)"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "QuLl1pD25um8fN02RsNNIz53OlQ2SAsvJ0hvMYL8gks=",
+        "originContent": "### 2. Install Ollama and Required Models",
+        "translatedContent": "### 2. Ollama 및 필수 모델 설치"
+      },
+      {
+        "row": 40,
+        "rowsha": "tSaq7WecTbnZ60ZqoUOwhA4nUSaAinDA8s7pI8TWaZY=",
+        "originContent": "- **Download Ollama:** [ollama.com/download](https://ollama.com/download) (macOS, Windows, Linux)",
+        "translatedContent": "- **Ollama 다운로드:** [ollama.com/download](https://ollama.com/download) (macOS, Windows, Linux)"
+      },
+      {
+        "row": 41,
+        "rowsha": "TWihULxonkQIjU8CLkL5TTYNb+PZ7nbsVM+3QNJLM7w=",
+        "originContent": "- **Or via Homebrew (macOS):**",
+        "translatedContent": "- **또는 Homebrew(macos)로 설치:**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "  ```bash\n  brew install ollama\n  ```",
+    "ContentSha": "8Fz7aWGDXDdg0YtpBz+flc8WudnhPUWMlVZ2aXvFbFA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```bash\n  brew install ollama\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "GpvjVZo/3RA4N35GHHHR64wuFGBf0VkSR291B8px6kU=",
+        "originContent": "  ```bash",
+        "translatedContent": "  ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "jDzEdvj0KcxKZmQU66JZj36ibiLxdSDbLkjnRTI/z+g=",
+        "originContent": "  brew install ollama",
+        "translatedContent": "  brew install ollama"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "- **Start the Ollama server:** (must be running for backend to work)",
+    "ContentSha": "8/1TqHWy/pS0HMIIq89Adeo6a/J7DGhgSGI9PyqN3uI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **Ollama 서버 시작:** (백엔드 작동을 위해 반드시 실행 중이어야 함)</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8/1TqHWy/pS0HMIIq89Adeo6a/J7DGhgSGI9PyqN3uI=",
+        "originContent": "- **Start the Ollama server:** (must be running for backend to work)",
+        "translatedContent": "- **Ollama 서버 시작:** (백엔드 작동을 위해 반드시 실행 중이어야 함)</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "  ```bash\n  ollama serve\n  ```",
+    "ContentSha": "hFedQLUMtZSKW7v/ctiI/oZvBW9tZfuaLmovPEvzvuU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```bash\n  ollama serve\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "GpvjVZo/3RA4N35GHHHR64wuFGBf0VkSR291B8px6kU=",
+        "originContent": "  ```bash",
+        "translatedContent": "  ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "DpgMk59Nz2v83xvtpOzOh9tHR4ZztZopSrvZQLDBIjg=",
+        "originContent": "  ollama serve",
+        "translatedContent": "  ollama serve"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "- **Pull required models:**",
+    "ContentSha": "JeqKlcA5F8PW6iuOvIPndF5A5UX9+y7RZoCTjCf4Ap4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **필요한 모델 가져오기:**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "JeqKlcA5F8PW6iuOvIPndF5A5UX9+y7RZoCTjCf4Ap4=",
+        "originContent": "- **Pull required models:**",
+        "translatedContent": "- **필요한 모델 가져오기:**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "  ```bash\n  ollama pull mistral\n  ollama pull nomic-embed-text\n  ```",
+    "ContentSha": "9UXc4vLVsEN2fjuOb4k0s/GRrssbbdJyzOzCXGtfbqM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```bash\n  ollama pull mistral\n  ollama pull nomic-embed-text\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "GpvjVZo/3RA4N35GHHHR64wuFGBf0VkSR291B8px6kU=",
+        "originContent": "  ```bash",
+        "translatedContent": "  ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "EDcQyAXa9IZr/Yow0mXAbv/sP7eDFox3bwGF/oIjpXs=",
+        "originContent": "  ollama pull mistral",
+        "translatedContent": "  ollama pull mistral"
+      },
+      {
+        "row": 3,
+        "rowsha": "jNTIB6xhjfgPO2J8yCaV4ZTu1DbdsEPwFXuV+iXGSOE=",
+        "originContent": "  ollama pull nomic-embed-text",
+        "translatedContent": "  ollama pull nomic-embed-text"
+      },
+      {
+        "row": 4,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "  - `mistral`: Used for chat and answering questions\n  - `nomic-embed-text`: Used for document embeddings\n  > You can substitute `mistral` with any compatible model (e.g. `llama3`, `llama2`), but the backend defaults to `mistral`.\n\n### 3. Backend Setup (FastAPI)\n- **Create and activate a virtual environment:**",
+    "ContentSha": "Z12KHqMfEorxHeq1O2eaSU+sFrA/d+EPNb+Ukz2NAnQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  - `mistral`: 채팅 및 질문 응답에 사용  \n  - `nomic-embed-text`: 문서 임베딩에 사용  \n  > `mistral`은 호환 가능한 다른 모델(e.g. `llama3`, `llama2`)로 대체할 수 있으나, 백엔드는 기본적으로 `mistral`을 사용합니다.  \n\n### 3. 백엔드 설정 (FastAPI)  \n- **가상 환경 생성 및 활성화:**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "/pUqu7jRjh/dEp6TSIPl/MCJoAXtkoj89qWHyYex78s=",
+        "originContent": "  - `mistral`: Used for chat and answering questions",
+        "translatedContent": "  - `mistral`: 채팅 및 질문 응답에 사용  "
+      },
+      {
+        "row": 2,
+        "rowsha": "uDpHP0ME6lySEbAu6y98hUNw1a6rNfqjPcmMV0DhtGc=",
+        "originContent": "  - `nomic-embed-text`: Used for document embeddings",
+        "translatedContent": "  - `nomic-embed-text`: 문서 임베딩에 사용  "
+      },
+      {
+        "row": 3,
+        "rowsha": "sL2KNnBeKSRQEYw5zgs2oGprC7yfG15sKYM1QGI2eN0=",
+        "originContent": "  > You can substitute `mistral` with any compatible model (e.g. `llama3`, `llama2`), but the backend defaults to `mistral`.",
+        "translatedContent": "  > `mistral`은 호환 가능한 다른 모델(e.g. `llama3`, `llama2`)로 대체할 수 있으나, 백엔드는 기본적으로 `mistral`을 사용합니다.  "
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "HnToXxLILOd1ByVOH8cGmB5QvHT/P72MCPMtP6Vc6fw=",
+        "originContent": "### 3. Backend Setup (FastAPI)",
+        "translatedContent": "### 3. 백엔드 설정 (FastAPI)  "
+      },
+      {
+        "row": 6,
+        "rowsha": "o47O7kpfR2AlhBPrG0asFGnpeK5+4lO0TuK4SYoxmXM=",
+        "originContent": "- **Create and activate a virtual environment:**",
+        "translatedContent": "- **가상 환경 생성 및 활성화:**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "  ```bash\n  cd backend\n  python -m venv .venv\n  source .venv/bin/activate\n  ```",
+    "ContentSha": "cjbRvzhq5YI8hOwjr/xgFUmBXMdpwszZDrFZe/SAXa8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```bash\n  cd backend\n  python -m venv .venv\n  source .venv/bin/activate\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "GpvjVZo/3RA4N35GHHHR64wuFGBf0VkSR291B8px6kU=",
+        "originContent": "  ```bash",
+        "translatedContent": "  ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "6U64Ga5gBP6IUdcvSI06XAQcyk3B5Nr8Scbfrsj8+0g=",
+        "originContent": "  cd backend",
+        "translatedContent": "  cd backend"
+      },
+      {
+        "row": 3,
+        "rowsha": "BGmwhO/bDvbzNa7Q9+NCdcHFvN0yrPbBWkh4ssfbh5Q=",
+        "originContent": "  python -m venv .venv",
+        "translatedContent": "  python -m venv .venv"
+      },
+      {
+        "row": 4,
+        "rowsha": "cYLN55bpXV2NJLWIK86+pMfkvU+iaS8UHX7FGzAR3jk=",
+        "originContent": "  source .venv/bin/activate",
+        "translatedContent": "  source .venv/bin/activate"
+      },
+      {
+        "row": 5,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "- **Install Python dependencies:**",
+    "ContentSha": "t5AnOwd/QJd5Zc4DQSyebRzrF1qWEvlTgkFihCH9fuE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **파이썬 의존성 설치:**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "t5AnOwd/QJd5Zc4DQSyebRzrF1qWEvlTgkFihCH9fuE=",
+        "originContent": "- **Install Python dependencies:**",
+        "translatedContent": "- **파이썬 의존성 설치:**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "  ```bash\n  pip install --upgrade pip\n  pip install -r requirements.txt\n  ```",
+    "ContentSha": "X2M6vVx8p7jJ2KXsympg7+fpohCVHT+F/RHt+u1eJ8c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```bash\n  pip install --upgrade pip\n  pip install -r requirements.txt\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "GpvjVZo/3RA4N35GHHHR64wuFGBf0VkSR291B8px6kU=",
+        "originContent": "  ```bash",
+        "translatedContent": "  ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "OoIVNnVd5vBUsHcTgRXhSOBjxzy20t3tIxaj7j2FfrQ=",
+        "originContent": "  pip install --upgrade pip",
+        "translatedContent": "  pip install --upgrade pip"
+      },
+      {
+        "row": 3,
+        "rowsha": "q3QPFnTTro2pCG+mx3mNixDdXPJPAXwgXboZd6T1XMQ=",
+        "originContent": "  pip install -r requirements.txt",
+        "translatedContent": "  pip install -r requirements.txt"
+      },
+      {
+        "row": 4,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "- **Start the backend server:**",
+    "ContentSha": "21ScigetL3UAtj7muZnnDjpwx0FKtmX9Ls3qzQaARuI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **백엔드 서버 시작:**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "21ScigetL3UAtj7muZnnDjpwx0FKtmX9Ls3qzQaARuI=",
+        "originContent": "- **Start the backend server:**",
+        "translatedContent": "- **백엔드 서버 시작:**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "  ```bash\n  uvicorn app.main:app --reload\n  ```",
+    "ContentSha": "SRxLYa0uFhvE+tNe7j+Ai4cws2LmEcSdH+ylsmLe6eA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```bash\n  uvicorn app.main:app --reload\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "GpvjVZo/3RA4N35GHHHR64wuFGBf0VkSR291B8px6kU=",
+        "originContent": "  ```bash",
+        "translatedContent": "  ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "tXBEP+Yob+2w26mfu99rbRZYKhHQGbHka4ljBftSeag=",
+        "originContent": "  uvicorn app.main:app --reload",
+        "translatedContent": "  uvicorn app.main:app --reload"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "  - The backend API will be available at: [http://localhost:8000/api](http://localhost:8000/api)\n\n### 4. Frontend Setup (Vite)\n- **Install Node.js dependencies:**",
+    "ContentSha": "bMKBv8TbQyQ4Q/nxI+SLPgR0GI8KwbSngqzbRoYPKsE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- 백엔드 API는 다음에서 사용 가능합니다: [http://localhost:8000/api](http://localhost:8000/api)\n\n### 4. 프론트엔드 설정 (Vite)\n- **Node.js 의존성 설치:**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Xh+585pSlXKscsbPKvOLpEgygjljJt7+N4N2P2r1nRM=",
+        "originContent": "  - The backend API will be available at: [http://localhost:8000/api](http://localhost:8000/api)",
+        "translatedContent": "- 백엔드 API는 다음에서 사용 가능합니다: [http://localhost:8000/api](http://localhost:8000/api)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "GqgYacDlKbQ4/wQWDLexOyasahKyKzp29Qz7jTEqCAw=",
+        "originContent": "### 4. Frontend Setup (Vite)",
+        "translatedContent": "### 4. 프론트엔드 설정 (Vite)"
+      },
+      {
+        "row": 4,
+        "rowsha": "tgh9oXN0S0tVTNjQ9ts1/7GJDPiVUUSGfNG8UgnhuUQ=",
+        "originContent": "- **Install Node.js dependencies:**",
+        "translatedContent": "- **Node.js 의존성 설치:**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "  ```bash\n  cd frontend\n  npm install\n  ```",
+    "ContentSha": "iIEeC0bNDkyDoPidil0gpQjBhYxYZQOeWOC76p7DB+A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```bash\n  cd frontend\n  npm install\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "GpvjVZo/3RA4N35GHHHR64wuFGBf0VkSR291B8px6kU=",
+        "originContent": "  ```bash",
+        "translatedContent": "  ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "uhY6nWxj2FS1PZC8tQROTVVbrQtnjgzQFdfI/6ymUQc=",
+        "originContent": "  cd frontend",
+        "translatedContent": "  cd frontend"
+      },
+      {
+        "row": 3,
+        "rowsha": "lqDaT7MX3++c1Y8jYlxj00XNKxxDIANgaxE+lVjHL9Y=",
+        "originContent": "  npm install",
+        "translatedContent": "  npm install"
+      },
+      {
+        "row": 4,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "- **Start the frontend dev server:**",
+    "ContentSha": "XkXTDeGrSIXpUJsizIJ3e94eVAWoxfbaKHe2OOcJL4Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **프론트엔드 개발 서버 시작:**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "XkXTDeGrSIXpUJsizIJ3e94eVAWoxfbaKHe2OOcJL4Y=",
+        "originContent": "- **Start the frontend dev server:**",
+        "translatedContent": "- **프론트엔드 개발 서버 시작:**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "  ```bash\n  npm run dev\n  ```",
+    "ContentSha": "2Bc+6GrhGOZHi4lAwA2Lc0QVvGkKrdjqUFCKfFEZS5E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```bash\n  npm run dev\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "GpvjVZo/3RA4N35GHHHR64wuFGBf0VkSR291B8px6kU=",
+        "originContent": "  ```bash",
+        "translatedContent": "  ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "vm2mpZnRAf9pA7bnfv5CPlP4iwmjg6vs84cQDAE+0D4=",
+        "originContent": "  npm run dev",
+        "translatedContent": "  npm run dev"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "  - The frontend app will be available at: [http://localhost:5173](http://localhost:5173)\n\n---\n\n## ✅ Quick Setup Checklist\n- [ ] Ollama installed\n- [ ] `mistral` and `nomic-embed-text` models pulled\n- [ ] `ollama serve` running\n- [ ] Backend running at [http://localhost:8000/api](http://localhost:8000/api)\n- [ ] Frontend running at [http://localhost:5173](http://localhost:5173)\n\n---\n\n## How to Use the App\n- Open [http://localhost:5173](http://localhost:5173) in your browser.\n- Upload your files using the sidebar.\n- Ask questions in the chat box; answers will cite document sources.\n- All processing is local—your data never leaves your device.\n\n---\n\n## Troubleshooting & Tips\n- **Ollama not running or model errors:**\n  - Make sure `ollama serve` is running in a terminal window **before** starting the backend.\n  - Ensure you have pulled both `llama3` and `nomic-embed-text` models.\n  - You can check running models with `ollama list`.\n- **Python dependency errors:**\n  - Make sure your virtual environment is activated and `pip` is up to date.\n- **Node/npm errors:**\n  - Use Node.js 18+ and delete/reinstall `node_modules` if issues persist.\n- **PDF/DOCX parsing errors:**\n  - Install `libmagic` and `poppler-utils` (see backend gotchas).\n- **For more help:**\n  - See [`backend/gotchas.md`](https://raw.githubusercontent.com/TAMustafa/Local_Chat_RAG/main/backend/app/gotchas.md) and [`backend/implementation_details.md`](https://raw.githubusercontent.com/TAMustafa/Local_Chat_RAG/main/backend/app/implementation_details.md).\n\n---\n\n## Usage\n- **Upload files** in the sidebar.\n- **Ask questions** in the chat—answers are generated using your documents as context.\n- **Sources** are shown for every answer (deduplicated by file).\n- **All processing is local**—your data never leaves your device.\n\n---\n\n## Architecture\n\n- **Frontend**: Vite + React + TypeScript + Zustand + Chakra UI\n- **Backend**: FastAPI + SQLAlchemy + LangChain + ChromaDB + Unstructured\n- **LLM**: Ollama (Mistral, Llama2, etc.) via `langchain-ollama`\n- **RAG Pipeline**: Chunking, embedding, retrieval, and chat with sources\n\n### Folder Structure",
+    "ContentSha": "r+dTF0igMgOuffdj8rcXHK9PoObCXns/CI2Dbm4t55Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- 프런트엔드 앱은 다음에서 사용 가능합니다: [http://localhost:5173](http://localhost:5173)\n\n---\n\n## ✅ 빠른 설정 체크리스트\n- [ ] Ollama 설치 완료\n- [ ] `mistral` 및 `nomic-embed-text` 모델 다운로드 완료\n- [ ] `ollama serve` 실행 중\n- [ ] 백엔드가 [http://localhost:8000/api](http://localhost:8000/api) 에서 실행 중\n- [ ] 프런트엔드가 [http://localhost:5173](http://localhost:5173) 에서 실행 중\n\n---\n\n## 앱 사용 방법\n- 브라우저에서 [http://localhost:5173](http://localhost:5173) 를 엽니다.\n- 사이드바를 사용해 파일을 업로드합니다.\n- 채팅 박스에 질문을 입력하세요; 답변은 문서 출처를 인용합니다.\n- 모든 처리는 로컬에서 이루어지며, 데이터가 장치를 벗어나지 않습니다.\n\n---\n\n## 문제 해결 및 팁\n- **Ollama가 실행 중이 아니거나 모델 오류 발생 시:**\n  - 백엔드를 시작하기 **전에** 터미널 창에서 `ollama serve`가 실행 중인지 확인하세요.\n  - `llama3`와 `nomic-embed-text` 모델을 모두 다운로드했는지 확인하세요.\n  - 실행 중인 모델은 `ollama list`로 확인할 수 있습니다.\n- **Python 의존성 오류:**\n  - 가상 환경이 활성화되어 있고 `pip`가 최신인지 확인하세요.\n- **Node/npm 오류:**\n  - Node.js 18 이상을 사용하고 문제가 지속되면 `node_modules`를 삭제 후 재설치하세요.\n- **PDF/DOCX 파싱 오류:**\n  - `libmagic`과 `poppler-utils`를 설치하세요 (백엔드 주의사항 참고).\n- **추가 도움말:**\n  - [`backend/gotchas.md`](https://raw.githubusercontent.com/TAMustafa/Local_Chat_RAG/main/backend/app/gotchas.md) 및 [`backend/implementation_details.md`](https://raw.githubusercontent.com/TAMustafa/Local_Chat_RAG/main/backend/app/implementation_details.md) 문서를 참고하세요.\n\n---\n\n## 사용법\n- 사이드바에서 **파일 업로드**.\n- 채팅에서 **질문하기** — 답변은 문서를 참고하여 생성됩니다.\n- 모든 답변에 **출처 표시** (파일별 중복 제거).\n- **모든 처리는 로컬에서 진행** — 데이터가 장치를 벗어나지 않습니다.\n\n---\n\n## 아키텍처\n\n- **프런트엔드**: Vite + React + TypeScript + Zustand + Chakra UI\n- **백엔드**: FastAPI + SQLAlchemy + LangChain + ChromaDB + Unstructured\n- **LLM**: Ollama (Mistral, Llama2 등) via `langchain-ollama`\n- **RAG 파이프라인**: 청킹, 임베딩, 검색 및 출처가 포함된 채팅\n\n### 폴더 구조",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ZbCaJlUQVrBIno3+G9jg3dPpfHYGCeGOKsULof0SxrE=",
+        "originContent": "  - The frontend app will be available at: [http://localhost:5173](http://localhost:5173)",
+        "translatedContent": "- 프런트엔드 앱은 다음에서 사용 가능합니다: [http://localhost:5173](http://localhost:5173)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "o2M5Zmr5YRPUf/WeqGr0AZbACWKk9tau13F6v1W7rEc=",
+        "originContent": "## ✅ Quick Setup Checklist",
+        "translatedContent": "## ✅ 빠른 설정 체크리스트"
+      },
+      {
+        "row": 6,
+        "rowsha": "p8kg0z4m4PNytt/rg8hTFhoLNUwallIQcgxIl3oaMQw=",
+        "originContent": "- [ ] Ollama installed",
+        "translatedContent": "- [ ] Ollama 설치 완료"
+      },
+      {
+        "row": 7,
+        "rowsha": "UxjfaamLHXMCY0ELumlICMxFP2U+ABxHUvFmV2Gghfs=",
+        "originContent": "- [ ] `mistral` and `nomic-embed-text` models pulled",
+        "translatedContent": "- [ ] `mistral` 및 `nomic-embed-text` 모델 다운로드 완료"
+      },
+      {
+        "row": 8,
+        "rowsha": "Fhno8AyjYTCFfXzTs5PDXaz/PMzjz8UjKOwI4eE58Ko=",
+        "originContent": "- [ ] `ollama serve` running",
+        "translatedContent": "- [ ] `ollama serve` 실행 중"
+      },
+      {
+        "row": 9,
+        "rowsha": "uPKa/HQxCuq2jxUy6ywk+hffgoCeixv4EmUS5NeagBM=",
+        "originContent": "- [ ] Backend running at [http://localhost:8000/api](http://localhost:8000/api)",
+        "translatedContent": "- [ ] 백엔드가 [http://localhost:8000/api](http://localhost:8000/api) 에서 실행 중"
+      },
+      {
+        "row": 10,
+        "rowsha": "hSqof/H0TvYzpOHZ5PGNpvm1EgCj4qneGnwNBJ3BSbg=",
+        "originContent": "- [ ] Frontend running at [http://localhost:5173](http://localhost:5173)",
+        "translatedContent": "- [ ] 프런트엔드가 [http://localhost:5173](http://localhost:5173) 에서 실행 중"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "4f3dAlCfwYKSWP7U6Qwh+hhjOv9WLHPvnzq68rRtY3c=",
+        "originContent": "## How to Use the App",
+        "translatedContent": "## 앱 사용 방법"
+      },
+      {
+        "row": 15,
+        "rowsha": "RvI0pWNEM9nB41puHE/3U6Em4wQlyGEjF5O0CK2Rc0U=",
+        "originContent": "- Open [http://localhost:5173](http://localhost:5173) in your browser.",
+        "translatedContent": "- 브라우저에서 [http://localhost:5173](http://localhost:5173) 를 엽니다."
+      },
+      {
+        "row": 16,
+        "rowsha": "a6hnNpPQi5QK9OV34hPynE+TcAOcfHoDy783VeglJyQ=",
+        "originContent": "- Upload your files using the sidebar.",
+        "translatedContent": "- 사이드바를 사용해 파일을 업로드합니다."
+      },
+      {
+        "row": 17,
+        "rowsha": "acZpLELURX+Jgzsb+H1aBQYk2Q8JLb/J3eudkicdhBE=",
+        "originContent": "- Ask questions in the chat box; answers will cite document sources.",
+        "translatedContent": "- 채팅 박스에 질문을 입력하세요; 답변은 문서 출처를 인용합니다."
+      },
+      {
+        "row": 18,
+        "rowsha": "ipeGDvwELcB7/G1QhzOq7V+G05gq5naOK47OCA2v6Ag=",
+        "originContent": "- All processing is local—your data never leaves your device.",
+        "translatedContent": "- 모든 처리는 로컬에서 이루어지며, 데이터가 장치를 벗어나지 않습니다."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "ep5hxjXHx/S20lKlLKEppXE/BJXMpK4WasR66CXve00=",
+        "originContent": "## Troubleshooting & Tips",
+        "translatedContent": "## 문제 해결 및 팁"
+      },
+      {
+        "row": 23,
+        "rowsha": "OFw7N/912fEeyMIJwKAzJcgnPZiaImuuvMZL029OIOY=",
+        "originContent": "- **Ollama not running or model errors:**",
+        "translatedContent": "- **Ollama가 실행 중이 아니거나 모델 오류 발생 시:**"
+      },
+      {
+        "row": 24,
+        "rowsha": "JSl0HMbp4W77ze9BjAyGvVS4xR4yHxjDrFqP7h4h2SI=",
+        "originContent": "  - Make sure `ollama serve` is running in a terminal window **before** starting the backend.",
+        "translatedContent": "  - 백엔드를 시작하기 **전에** 터미널 창에서 `ollama serve`가 실행 중인지 확인하세요."
+      },
+      {
+        "row": 25,
+        "rowsha": "t6resrgkdUO0KUMVjyQs6zqFHkcn8WPIqXgz+X+8cjM=",
+        "originContent": "  - Ensure you have pulled both `llama3` and `nomic-embed-text` models.",
+        "translatedContent": "  - `llama3`와 `nomic-embed-text` 모델을 모두 다운로드했는지 확인하세요."
+      },
+      {
+        "row": 26,
+        "rowsha": "CmPlpDYRQdfsac4yyY/iVG3ln43hrVru1G3p8F45TDI=",
+        "originContent": "  - You can check running models with `ollama list`.",
+        "translatedContent": "  - 실행 중인 모델은 `ollama list`로 확인할 수 있습니다."
+      },
+      {
+        "row": 27,
+        "rowsha": "0n9lYKNHRitqFWvvr9tq/0WSF1XD2X8jZA6sG1Oj9Eg=",
+        "originContent": "- **Python dependency errors:**",
+        "translatedContent": "- **Python 의존성 오류:**"
+      },
+      {
+        "row": 28,
+        "rowsha": "B88+Ip3NpKQ46cHcAJjmknEq5SD8gLsXRwq/BUghAQU=",
+        "originContent": "  - Make sure your virtual environment is activated and `pip` is up to date.",
+        "translatedContent": "  - 가상 환경이 활성화되어 있고 `pip`가 최신인지 확인하세요."
+      },
+      {
+        "row": 29,
+        "rowsha": "3YKdhFYA44n4Vg9CqKM5dhOTqnHqSqHAOJ/GBLQVRpM=",
+        "originContent": "- **Node/npm errors:**",
+        "translatedContent": "- **Node/npm 오류:**"
+      },
+      {
+        "row": 30,
+        "rowsha": "MDugLlFxHgwqyZs3mVVQeZmhRuG8UxCDdmSzfOuo4aA=",
+        "originContent": "  - Use Node.js 18+ and delete/reinstall `node_modules` if issues persist.",
+        "translatedContent": "  - Node.js 18 이상을 사용하고 문제가 지속되면 `node_modules`를 삭제 후 재설치하세요."
+      },
+      {
+        "row": 31,
+        "rowsha": "JHbqAyz5ylXIuHPtFtiDWQRJG3GxVSblMpTaKYVwqYE=",
+        "originContent": "- **PDF/DOCX parsing errors:**",
+        "translatedContent": "- **PDF/DOCX 파싱 오류:**"
+      },
+      {
+        "row": 32,
+        "rowsha": "vNj41ogQ6DuTTUw5CwLa1oYwgYcrt81y/pUuJ+zezEY=",
+        "originContent": "  - Install `libmagic` and `poppler-utils` (see backend gotchas).",
+        "translatedContent": "  - `libmagic`과 `poppler-utils`를 설치하세요 (백엔드 주의사항 참고)."
+      },
+      {
+        "row": 33,
+        "rowsha": "KgfNTsiBSqPoNluWxJAR50fuHNJDqzCTbjwUZ6H282c=",
+        "originContent": "- **For more help:**",
+        "translatedContent": "- **추가 도움말:**"
+      },
+      {
+        "row": 34,
+        "rowsha": "3jKGnNKjyNwR2AYFRLG2iKHI32h4NbiaxqLc5TEVJXM=",
+        "originContent": "  - See [`backend/gotchas.md`](https://raw.githubusercontent.com/TAMustafa/Local_Chat_RAG/main/backend/app/gotchas.md) and [`backend/implementation_details.md`](https://raw.githubusercontent.com/TAMustafa/Local_Chat_RAG/main/backend/app/implementation_details.md).",
+        "translatedContent": "  - [`backend/gotchas.md`](https://raw.githubusercontent.com/TAMustafa/Local_Chat_RAG/main/backend/app/gotchas.md) 및 [`backend/implementation_details.md`](https://raw.githubusercontent.com/TAMustafa/Local_Chat_RAG/main/backend/app/implementation_details.md) 문서를 참고하세요."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 사용법"
+      },
+      {
+        "row": 39,
+        "rowsha": "sdveFZZRljhWF9xqcpQ4Gj6RgMYNmTTjGTk5nigzKWs=",
+        "originContent": "- **Upload files** in the sidebar.",
+        "translatedContent": "- 사이드바에서 **파일 업로드**."
+      },
+      {
+        "row": 40,
+        "rowsha": "yjIVeWNHdZCI9xdP041Y6aWa2jrgnIVARYisgRSjBVI=",
+        "originContent": "- **Ask questions** in the chat—answers are generated using your documents as context.",
+        "translatedContent": "- 채팅에서 **질문하기** — 답변은 문서를 참고하여 생성됩니다."
+      },
+      {
+        "row": 41,
+        "rowsha": "DflpMee9FOtiTL6Xs41ydI8i2d6O8Kxv+o1toiX7JoY=",
+        "originContent": "- **Sources** are shown for every answer (deduplicated by file).",
+        "translatedContent": "- 모든 답변에 **출처 표시** (파일별 중복 제거)."
+      },
+      {
+        "row": 42,
+        "rowsha": "o2vKdOgbqxqQKc4fT3ar8d2fqpsvQJ4EvOQiuQjfogo=",
+        "originContent": "- **All processing is local**—your data never leaves your device.",
+        "translatedContent": "- **모든 처리는 로컬에서 진행** — 데이터가 장치를 벗어나지 않습니다."
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "p+VkcrEb08g4vIGZYB9aVScRKgA8afv5WwErwTVzoZM=",
+        "originContent": "## Architecture",
+        "translatedContent": "## 아키텍처"
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 48,
+        "rowsha": "PSOR8yplkQu8smw7tfFd/N3zL97k57u0ob8ZIgM5INA=",
+        "originContent": "- **Frontend**: Vite + React + TypeScript + Zustand + Chakra UI",
+        "translatedContent": "- **프런트엔드**: Vite + React + TypeScript + Zustand + Chakra UI"
+      },
+      {
+        "row": 49,
+        "rowsha": "8AR3j011nt00qGGRXR2ZXgzXOqs6q27ETflxZbRDQg4=",
+        "originContent": "- **Backend**: FastAPI + SQLAlchemy + LangChain + ChromaDB + Unstructured",
+        "translatedContent": "- **백엔드**: FastAPI + SQLAlchemy + LangChain + ChromaDB + Unstructured"
+      },
+      {
+        "row": 50,
+        "rowsha": "igxebmo+t0t62/KjmcR+0oQBlvhyvHPSoBofBFg2xC4=",
+        "originContent": "- **LLM**: Ollama (Mistral, Llama2, etc.) via `langchain-ollama`",
+        "translatedContent": "- **LLM**: Ollama (Mistral, Llama2 등) via `langchain-ollama`"
+      },
+      {
+        "row": 51,
+        "rowsha": "BSOdYuH6no8/36NNss+JcdpXsDKbtV+ZagDnhLxETNw=",
+        "originContent": "- **RAG Pipeline**: Chunking, embedding, retrieval, and chat with sources",
+        "translatedContent": "- **RAG 파이프라인**: 청킹, 임베딩, 검색 및 출처가 포함된 채팅"
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "o8q+HHLcvNWBWXOrY76lrp2nj7MYD52n9c9PiwojbZg=",
+        "originContent": "### Folder Structure",
+        "translatedContent": "### 폴더 구조"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```\nChatRAG/\n  backend/\n    app/\n      main.py           # FastAPI app & API endpoints\n      db/               # Database models & session\n      rag/              # RAG pipeline logic\n    requirements.txt\n    ...\n  frontend/\n    src/\n      components/       # UI components (Chat, Files, Layout)\n      state/            # Zustand stores\n      ...\n    vite.config.ts\n    ...\n```",
+    "ContentSha": "WWnvtbm3ju3ivotiBsd4IwVtopH/qjheJ3ib2wJKQNQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nChatRAG/\n  backend/\n    app/\n      main.py           # FastAPI app & API endpoints\n      db/               # Database models & session\n      rag/              # RAG pipeline logic\n    requirements.txt\n    ...\n  frontend/\n    src/\n      components/       # UI components (Chat, Files, Layout)\n      state/            # Zustand stores\n      ...\n    vite.config.ts\n    ...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "ebzaIZCA15ttO6d+7zHDdlwDxEVHkzsazy/tXE79du0=",
+        "originContent": "ChatRAG/",
+        "translatedContent": "ChatRAG/"
+      },
+      {
+        "row": 3,
+        "rowsha": "orA1ad9gmABesXjJ1BZDt4xz8zRTzzT2zq8dfr2WONo=",
+        "originContent": "  backend/",
+        "translatedContent": "  backend/"
+      },
+      {
+        "row": 4,
+        "rowsha": "6k6i6WYbsvGK5dzOAhe4nOC4YX9YAv6ymBhH7ayf3PU=",
+        "originContent": "    app/",
+        "translatedContent": "    app/"
+      },
+      {
+        "row": 5,
+        "rowsha": "4/2/5S+wfomX3YTXXa/usOITXBOXoKyyKbx1XLW9uQA=",
+        "originContent": "      main.py           # FastAPI app & API endpoints",
+        "translatedContent": "      main.py           # FastAPI app & API endpoints"
+      },
+      {
+        "row": 6,
+        "rowsha": "9W+qVXi7klmfbNM9xq4zBcs2ef3Tlp6brh48LqxH9sA=",
+        "originContent": "      db/               # Database models & session",
+        "translatedContent": "      db/               # Database models & session"
+      },
+      {
+        "row": 7,
+        "rowsha": "rMYwB89/Fdlmu6FKTyuWTDgd461puwIsv5A4yKVq92Q=",
+        "originContent": "      rag/              # RAG pipeline logic",
+        "translatedContent": "      rag/              # RAG pipeline logic"
+      },
+      {
+        "row": 8,
+        "rowsha": "05qXy9ZPGlBZ8vqwGepYryq0QRmrVe2UKzu/upb0/hk=",
+        "originContent": "    requirements.txt",
+        "translatedContent": "    requirements.txt"
+      },
+      {
+        "row": 9,
+        "rowsha": "cSkBSh/+8VaNO2UHJaYg68CvN/WJJ7Xm70obHdxoeJc=",
+        "originContent": "    ...",
+        "translatedContent": "    ..."
+      },
+      {
+        "row": 10,
+        "rowsha": "1XUmfLgECCm+dhZu7Tb5xqyfB8XV/6zO/nBalbjIZzc=",
+        "originContent": "  frontend/",
+        "translatedContent": "  frontend/"
+      },
+      {
+        "row": 11,
+        "rowsha": "C3cH0q1/MVgn1AA2r+ONtMOGipH5V9dX+fGG/FGmHeE=",
+        "originContent": "    src/",
+        "translatedContent": "    src/"
+      },
+      {
+        "row": 12,
+        "rowsha": "stZufWsnJmNEt+snD4+VrbF8f8rCriEiiKbPtATejkY=",
+        "originContent": "      components/       # UI components (Chat, Files, Layout)",
+        "translatedContent": "      components/       # UI components (Chat, Files, Layout)"
+      },
+      {
+        "row": 13,
+        "rowsha": "XaiXkBzy9VHC6Jp/JORwGWa2ZoWlscnCu0dYe+sO6FU=",
+        "originContent": "      state/            # Zustand stores",
+        "translatedContent": "      state/            # Zustand stores"
+      },
+      {
+        "row": 14,
+        "rowsha": "BDOBjhYcY91SACQdZgoH6vsw1D0J5NAETcnyR9AL45Q=",
+        "originContent": "      ...",
+        "translatedContent": "      ..."
+      },
+      {
+        "row": 15,
+        "rowsha": "BgnTnyKkObD/FbZOEhts/IymPIVz61IStA/zTQpTGjI=",
+        "originContent": "    vite.config.ts",
+        "translatedContent": "    vite.config.ts"
+      },
+      {
+        "row": 16,
+        "rowsha": "cSkBSh/+8VaNO2UHJaYg68CvN/WJJ7Xm70obHdxoeJc=",
+        "originContent": "    ...",
+        "translatedContent": "    ..."
+      },
+      {
+        "row": 17,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n---\n\n## Customization\n- **Change LLM Model:** Edit the model name in `backend/app/main.py` (`OllamaLLM(model=\"mistral\")`).\n- **Add File Types:** Extend file parsing in the backend pipeline.\n- **UI/UX:** Tweak Chakra UI theme or component structure in `frontend/src/components`.\n\n---\n\n## Documentation & Policies\n- All operational quirks, architecture decisions, and gotchas are logged in `backend/implementation_details.md`, `gotchas.md`, and `quick_reference.md`.\n- Strict documentation and code quality policies are followed—see project docs for details.\n\n---\n\n## Credits\n- Built by Tarek Adam Mustafa and contributors.\n- Powered by open-source: [Ollama](https://ollama.com/), [LangChain](https://github.com/langchain-ai/langchain), [ChromaDB](https://www.trychroma.com/), [Unstructured](https://unstructured.io/), [Chakra UI](https://chakra-ui.com/), [Vite](https://vitejs.dev/).\n\n---\n\n## License\n[MIT](LICENSE)\n",
+    "ContentSha": "/xJlON9b27c1+oh2OmiFKGzdjmObVKZSpxl/4GSPBgY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "---\n\n## 사용자 정의\n- **LLM 모델 변경:** `backend/app/main.py`에서 모델 이름을 편집하세요 (`OllamaLLM(model=\"mistral\")`).\n- **파일 유형 추가:** 백엔드 파이프라인에서 파일 파싱을 확장하세요.\n- **UI/UX:** `frontend/src/components`에서 Chakra UI 테마 또는 컴포넌트 구조를 조정하세요.\n\n---\n\n## 문서 및 정책\n- 모든 운영 특이사항, 아키텍처 결정 및 주의사항은 `backend/implementation_details.md`, `gotchas.md`, `quick_reference.md`에 기록되어 있습니다.\n- 엄격한 문서 및 코드 품질 정책을 준수합니다 — 자세한 내용은 프로젝트 문서를 참조하세요.\n\n---\n\n## 크레딧\n- Tarek Adam Mustafa 및 기여자들이 구축했습니다.\n- 오픈 소스 기반: [Ollama](https://ollama.com/), [LangChain](https://github.com/langchain-ai/langchain), [ChromaDB](https://www.trychroma.com/), [Unstructured](https://unstructured.io/), [Chakra UI](https://chakra-ui.com/), [Vite](https://vitejs.dev/).\n\n---\n\n## 라이선스\n[MIT](LICENSE)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 사용자 정의"
+      },
+      {
+        "row": 4,
+        "rowsha": "NbXdfMRtb11iLupQ1YASvOsf4ftWXSzwVw1p9cWrf+4=",
+        "originContent": "## Customization",
+        "translatedContent": "- **LLM 모델 변경:** `backend/app/main.py`에서 모델 이름을 편집하세요 (`OllamaLLM(model=\"mistral\")`)."
+      },
+      {
+        "row": 5,
+        "rowsha": "mbeO3kbhhjjtJnC+ITIwsN6K0l+cHelsId7hwt5hKFM=",
+        "originContent": "- **Change LLM Model:** Edit the model name in `backend/app/main.py` (`OllamaLLM(model=\"mistral\")`).",
+        "translatedContent": "- **파일 유형 추가:** 백엔드 파이프라인에서 파일 파싱을 확장하세요."
+      },
+      {
+        "row": 6,
+        "rowsha": "81exHhZmzzhXsjkzPwyP6x1MdjeoLkmm9FdtkxVL6Ok=",
+        "originContent": "- **Add File Types:** Extend file parsing in the backend pipeline.",
+        "translatedContent": "- **UI/UX:** `frontend/src/components`에서 Chakra UI 테마 또는 컴포넌트 구조를 조정하세요."
+      },
+      {
+        "row": 7,
+        "rowsha": "XN7C50Nd7gHEDe2qLIA/SsF7CNLsvH8pDzDtBxtPlb8=",
+        "originContent": "- **UI/UX:** Tweak Chakra UI theme or component structure in `frontend/src/components`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 9,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 문서 및 정책"
+      },
+      {
+        "row": 11,
+        "rowsha": "lnTZ2GToVGdo3BteFYp3nk647mZvwoNJPoUUgincG7g=",
+        "originContent": "## Documentation & Policies",
+        "translatedContent": "- 모든 운영 특이사항, 아키텍처 결정 및 주의사항은 `backend/implementation_details.md`, `gotchas.md`, `quick_reference.md`에 기록되어 있습니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "SuZrYsm7Y8Yi4GSKE7ZJhBgH20oULGeeX7vAZgkmqIU=",
+        "originContent": "- All operational quirks, architecture decisions, and gotchas are logged in `backend/implementation_details.md`, `gotchas.md`, and `quick_reference.md`.",
+        "translatedContent": "- 엄격한 문서 및 코드 품질 정책을 준수합니다 — 자세한 내용은 프로젝트 문서를 참조하세요."
+      },
+      {
+        "row": 13,
+        "rowsha": "oERbxmA4GIDgajGPzS1RCuIGlshRbocBlEz8gblycOU=",
+        "originContent": "- Strict documentation and code quality policies are followed—see project docs for details.",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 15,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 크레딧"
+      },
+      {
+        "row": 17,
+        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+        "originContent": "## Credits",
+        "translatedContent": "- Tarek Adam Mustafa 및 기여자들이 구축했습니다."
+      },
+      {
+        "row": 18,
+        "rowsha": "+aeq9gVk7sN+LNAyzU1RbHnLXdJbQXbT3bS/Cc4PI3o=",
+        "originContent": "- Built by Tarek Adam Mustafa and contributors.",
+        "translatedContent": "- 오픈 소스 기반: [Ollama](https://ollama.com/), [LangChain](https://github.com/langchain-ai/langchain), [ChromaDB](https://www.trychroma.com/), [Unstructured](https://unstructured.io/), [Chakra UI](https://chakra-ui.com/), [Vite](https://vitejs.dev/)."
+      },
+      {
+        "row": 19,
+        "rowsha": "VD+tXyoCD/w8Qvwje6CJfbI1xUiFUp8DVWkWIwidxt4=",
+        "originContent": "- Powered by open-source: [Ollama](https://ollama.com/), [LangChain](https://github.com/langchain-ai/langchain), [ChromaDB](https://www.trychroma.com/), [Unstructured](https://unstructured.io/), [Chakra UI](https://chakra-ui.com/), [Vite](https://vitejs.dev/).",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 21,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 라이선스"
+      },
+      {
+        "row": 23,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "[MIT](LICENSE)"
+      },
+      {
+        "row": 24,
+        "rowsha": "kZiCy3Sq1NBO31NW05EgcEcEwYNDZfbuWPQllgk2RqA=",
+        "originContent": "[MIT](LICENSE)",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

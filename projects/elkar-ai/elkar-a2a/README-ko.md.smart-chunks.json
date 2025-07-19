@@ -1,0 +1,1833 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/elkar-ai/elkar-a2a/main/./images/logo.jpeg\" alt=\"Elkar product screenshot\"\n\n**Elkar is an open-source task-management layer for AI agents** — based on Google's Agent2Agent Protocol (A2A).\n**Send, track, and orchestrate tasks** across AI agents — effortlessly.\n\n[Elkar app](https://app.elkar.co/)  &nbsp;&nbsp;&nbsp; [Website](https://elkar.co) &nbsp;&nbsp;&nbsp; [💬 Discord](https://discord.gg/f5Znhcvm) &nbsp;&nbsp;&nbsp; \n\n## ✨ What is Elkar?\n\nElkar helps developers build collaborative, autonomous multi-agent systems with A2A protocol without the complexity of managing infrastructure.\n\nElkar provides:\n\n- 🐍 A Python SDK (other languages coming soon) to build and connect AI agents using the A2A protocol with store and queue management.\n- 🖥️ An application and API to manage, monitor and debug agent tasks.\n\nForget about infrastructure concerns—Elkar handles the complexity so your agents can focus on what matters: working together.\nWhether you're debugging agent behaviors or streaming tasks — Elkar makes A2A easy.\n\n\n\n\n\n## 🔧 What can you do with Elkar?\nUnlock seamless collaboration between your AI agents, whether they're in-house or external:\nUse it to:\n- **Effortlessly track and manage** long-running tasks, with robust support for asynchronous operations via a persistent task store\n- **Browse and manage task history** for observability and debugging\n- **Stream tasks** between agents in real-time via dedicated SDKs\n- **Deeply debug agent tasks and A2A server interactions** with full visibility on task history, artifacts, and server communications\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/elkar-ai/elkar-a2a/main/./images/debugger-ui.png\" alt=\"Elkar product screenshot\"\n\n  \n**Disclaimer:** This project is still in early development.\n\n## 👩‍💻 Software Development Kits\n\nElkar offers a Python SDK (with support for other languages coming soon) that simplifies the implementation of the A2A protocol. \n\nKey features include:\n- Complete implementation of the A2A protocol\n- Task-oriented design focused on executing tasks, not managing infrastructure\n- Built-in task management with simplified queuing and storage\n- Support for streaming responses\n- Custom authentication via `RequestContext`\n\n## 🚀 Quickstart Onboarding\n\nFollow the steps below to get started with Elkar Platform:\n\n### Step 1: Sign Up & Get Your API Key\n\nFollow the steps below to get started with Elkar Platform:\n\n1. **Create an account** on the [Elkar platform](https://app.elkar.co/login).\n2. **Create a new agent**: Navigate to **Agents \\> Add a new agent**.\n3. **Generate an API Key**\n\n   ⚠️ **Copy the API key now** — it won’t be shown again.\n\n### Step 2: Install Elkar SDK\n",
+    "ContentSha": "xVOmdRF431hj+3SzF9EtIBBa5c3WV29Y/ENIvDfnsZE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/elkar-ai/elkar-a2a/main/./images/logo.jpeg\" alt=\"Elkar product screenshot\"\n\n**Elkar는 AI 에이전트를 위한 오픈 소스 작업 관리 레이어입니다** — Google의 Agent2Agent 프로토콜(A2A)을 기반으로 합니다.\n**작업을 전송, 추적 및 조율하세요** AI 에이전트 간에 — 손쉽게.\n\n[Elkar 앱](https://app.elkar.co/)  &nbsp;&nbsp;&nbsp; [웹사이트](https://elkar.co) &nbsp;&nbsp;&nbsp; [💬 Discord](https://discord.gg/f5Znhcvm) &nbsp;&nbsp;&nbsp; \n\n## ✨ Elkar란?\n\nElkar는 개발자가 인프라 관리의 복잡성 없이 A2A 프로토콜을 사용해 협력적이고 자율적인 다중 에이전트 시스템을 구축하도록 돕습니다.\n\nElkar가 제공하는 것:\n\n- 🐍 A2A 프로토콜을 사용해 AI 에이전트를 구축하고 연결할 수 있는 Python SDK (다른 언어도 곧 지원 예정)와 저장소 및 큐 관리 기능.\n- 🖥️ 에이전트 작업을 관리, 모니터링 및 디버깅할 수 있는 애플리케이션과 API.\n\n인프라 걱정은 잊으세요 — Elkar가 복잡성을 처리하니 에이전트는 중요한 일, 즉 협업에 집중할 수 있습니다.\n에이전트 동작을 디버깅하든 작업을 스트리밍하든 — Elkar가 A2A를 쉽게 만들어 줍니다.\n\n\n\n\n\n## 🔧 Elkar로 무엇을 할 수 있나요?\n내부 또는 외부 AI 에이전트 간의 원활한 협업을 활성화하세요:\n다음 용도로 사용하세요:\n- **지속적인 작업 저장소를 통한 비동기 작업 강력 지원으로** 장기 실행 작업을 손쉽게 추적 및 관리\n- **관측 및 디버깅을 위한 작업 기록 탐색 및 관리**\n- **전용 SDK를 통해 에이전트 간 실시간 작업 스트리밍**\n- **작업 기록, 산출물 및 서버 통신에 대한 완전한 가시성을 통해 에이전트 작업 및 A2A 서버 상호작용 심층 디버깅**\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/elkar-ai/elkar-a2a/main/./images/debugger-ui.png\" alt=\"Elkar product screenshot\"\n\n  \n**면책 조항:** 이 프로젝트는 아직 초기 개발 단계에 있습니다.\n\n## 👩‍💻 소프트웨어 개발 키트\n\nElkar는 A2A 프로토콜 구현을 단순화하는 Python SDK(다른 언어 지원 예정)를 제공합니다.\n\n주요 기능:\n- A2A 프로토콜의 완전한 구현\n- 인프라 관리가 아닌 작업 실행에 중점을 둔 작업 지향 설계\n- 간소화된 큐잉 및 저장소를 포함한 내장 작업 관리\n- 스트리밍 응답 지원\n- `RequestContext`를 통한 맞춤 인증 지원\n\n## 🚀 빠른 시작 안내\n\n아래 단계를 따라 Elkar 플랫폼을 시작하세요:\n\n### 1단계: 회원가입 및 API 키 받기\n\n아래 단계를 따라 Elkar 플랫폼을 시작하세요:\n\n1. [Elkar 플랫폼](https://app.elkar.co/login)에서 **계정 생성**.\n2. **새 에이전트 생성**: 메뉴에서 **Agents \\> Add a new agent**로 이동.\n3. **API 키 생성**\n\n   ⚠️ **API 키를 지금 복사하세요** — 다시는 표시되지 않습니다.\n\n### 2단계: Elkar SDK 설치\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/elkar-ai/elkar-a2a/main/./images/logo.jpeg\" alt=\"Elkar product screenshot\""
+      },
+      {
+        "row": 3,
+        "rowsha": "OtQV/Mr7cJu2OqFfyMi9bXTrZriTM8Y65PUpx+JBfCU=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/elkar-ai/elkar-a2a/main/./images/logo.jpeg\" alt=\"Elkar product screenshot\"",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**Elkar는 AI 에이전트를 위한 오픈 소스 작업 관리 레이어입니다** — Google의 Agent2Agent 프로토콜(A2A)을 기반으로 합니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "/JiLrHtWudpg74iysoeQyraBL1PkQROsGEmkfIfimo4=",
+        "originContent": "**Elkar is an open-source task-management layer for AI agents** — based on Google's Agent2Agent Protocol (A2A).",
+        "translatedContent": "**작업을 전송, 추적 및 조율하세요** AI 에이전트 간에 — 손쉽게."
+      },
+      {
+        "row": 6,
+        "rowsha": "AGX8GR5GtF4XqX44jfG80CFnDfGVzx1PKmp7klGT+5A=",
+        "originContent": "**Send, track, and orchestrate tasks** across AI agents — effortlessly.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[Elkar 앱](https://app.elkar.co/)  &nbsp;&nbsp;&nbsp; [웹사이트](https://elkar.co) &nbsp;&nbsp;&nbsp; [💬 Discord](https://discord.gg/f5Znhcvm) &nbsp;&nbsp;&nbsp; "
+      },
+      {
+        "row": 8,
+        "rowsha": "fkbCzGVZ7j8n//U9n6QB0edFECZIsbRi5u/etf/kfsg=",
+        "originContent": "[Elkar app](https://app.elkar.co/)  &nbsp;&nbsp;&nbsp; [Website](https://elkar.co) &nbsp;&nbsp;&nbsp; [💬 Discord](https://discord.gg/f5Znhcvm) &nbsp;&nbsp;&nbsp; ",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ✨ Elkar란?"
+      },
+      {
+        "row": 10,
+        "rowsha": "E023Cw0+RCUhdtgfojE1ND68LpU+Xtq9Yn3Gig1Ni/k=",
+        "originContent": "## ✨ What is Elkar?",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Elkar는 개발자가 인프라 관리의 복잡성 없이 A2A 프로토콜을 사용해 협력적이고 자율적인 다중 에이전트 시스템을 구축하도록 돕습니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "MhxyztYmp4JUh0T20ZnKuyHza69ITw7AiaASuvDPiag=",
+        "originContent": "Elkar helps developers build collaborative, autonomous multi-agent systems with A2A protocol without the complexity of managing infrastructure.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Elkar가 제공하는 것:"
+      },
+      {
+        "row": 14,
+        "rowsha": "d4WMIBQcBQHkU23Lkd1NKCPWoNIENZOFW6VQ6GFC3IA=",
+        "originContent": "Elkar provides:",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 🐍 A2A 프로토콜을 사용해 AI 에이전트를 구축하고 연결할 수 있는 Python SDK (다른 언어도 곧 지원 예정)와 저장소 및 큐 관리 기능."
+      },
+      {
+        "row": 16,
+        "rowsha": "s6VRtybDYFUQM6Cwwqr4SKYquaJY6UihiKnhc31GsKQ=",
+        "originContent": "- 🐍 A Python SDK (other languages coming soon) to build and connect AI agents using the A2A protocol with store and queue management.",
+        "translatedContent": "- 🖥️ 에이전트 작업을 관리, 모니터링 및 디버깅할 수 있는 애플리케이션과 API."
+      },
+      {
+        "row": 17,
+        "rowsha": "gwokQ3IRk46L4DkPHZHDTTnpJE9uEIRekYMf1IuUiSo=",
+        "originContent": "- 🖥️ An application and API to manage, monitor and debug agent tasks.",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "인프라 걱정은 잊으세요 — Elkar가 복잡성을 처리하니 에이전트는 중요한 일, 즉 협업에 집중할 수 있습니다."
+      },
+      {
+        "row": 19,
+        "rowsha": "fZkuZygvv4U9KcFN1L0QaEv6Ixkgi8Mwf53ua3qTUdY=",
+        "originContent": "Forget about infrastructure concerns—Elkar handles the complexity so your agents can focus on what matters: working together.",
+        "translatedContent": "에이전트 동작을 디버깅하든 작업을 스트리밍하든 — Elkar가 A2A를 쉽게 만들어 줍니다."
+      },
+      {
+        "row": 20,
+        "rowsha": "UvIQ7OafBrQN+HFiZPaHG1ofsgF8kHelDDVtrSczqF8=",
+        "originContent": "Whether you're debugging agent behaviors or streaming tasks — Elkar makes A2A easy.",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🔧 Elkar로 무엇을 할 수 있나요?"
+      },
+      {
+        "row": 26,
+        "rowsha": "U1E/EEeZmu6sDlRnMYNr22EB6x1OsGBqE6bzVAAf6fY=",
+        "originContent": "## 🔧 What can you do with Elkar?",
+        "translatedContent": "내부 또는 외부 AI 에이전트 간의 원활한 협업을 활성화하세요:"
+      },
+      {
+        "row": 27,
+        "rowsha": "Su6H9TNsV4NNUZmby17ZkywjU6H+mYQzNZug5trG608=",
+        "originContent": "Unlock seamless collaboration between your AI agents, whether they're in-house or external:",
+        "translatedContent": "다음 용도로 사용하세요:"
+      },
+      {
+        "row": 28,
+        "rowsha": "BG6Y5JN5xiA+XiIgYeflSRFt5mIHYmmp3njW8LLGERo=",
+        "originContent": "Use it to:",
+        "translatedContent": "- **지속적인 작업 저장소를 통한 비동기 작업 강력 지원으로** 장기 실행 작업을 손쉽게 추적 및 관리"
+      },
+      {
+        "row": 29,
+        "rowsha": "Yv4v+6bdCKAlWh8DKMpaMQWQAmDRLoq6t/94QmwIwXQ=",
+        "originContent": "- **Effortlessly track and manage** long-running tasks, with robust support for asynchronous operations via a persistent task store",
+        "translatedContent": "- **관측 및 디버깅을 위한 작업 기록 탐색 및 관리**"
+      },
+      {
+        "row": 30,
+        "rowsha": "/fvd8QQL9xkArYi0uBwsROgktJheNpazNefY0KzMKq8=",
+        "originContent": "- **Browse and manage task history** for observability and debugging",
+        "translatedContent": "- **전용 SDK를 통해 에이전트 간 실시간 작업 스트리밍**"
+      },
+      {
+        "row": 31,
+        "rowsha": "f16XtW7314FqMDn9C9bu3fBhFm3dyxbt3PZNQxHUb2I=",
+        "originContent": "- **Stream tasks** between agents in real-time via dedicated SDKs",
+        "translatedContent": "- **작업 기록, 산출물 및 서버 통신에 대한 완전한 가시성을 통해 에이전트 작업 및 A2A 서버 상호작용 심층 디버깅**"
+      },
+      {
+        "row": 32,
+        "rowsha": "ZqBR5gfPxxAmFEpR1wgDA+Z5DYVvCQsAgchmI9ScADM=",
+        "originContent": "- **Deeply debug agent tasks and A2A server interactions** with full visibility on task history, artifacts, and server communications",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 33,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/elkar-ai/elkar-a2a/main/./images/debugger-ui.png\" alt=\"Elkar product screenshot\""
+      },
+      {
+        "row": 34,
+        "rowsha": "reWZJMP4SDjOoUgUvG72ZJXLLBOAMtsnJhP/uh21WoM=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/elkar-ai/elkar-a2a/main/./images/debugger-ui.png\" alt=\"Elkar product screenshot\"",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  "
+      },
+      {
+        "row": 36,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "**면책 조항:** 이 프로젝트는 아직 초기 개발 단계에 있습니다."
+      },
+      {
+        "row": 37,
+        "rowsha": "QOvwNczsSROz1RqPSseZQ9cvRV4tis0z+/INW0Mg5mw=",
+        "originContent": "**Disclaimer:** This project is still in early development.",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 👩‍💻 소프트웨어 개발 키트"
+      },
+      {
+        "row": 39,
+        "rowsha": "o1FWb5Vv5fOCuKpwT2YfFiO7UaiSCFTTM2csNSwGYow=",
+        "originContent": "## 👩‍💻 Software Development Kits",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Elkar는 A2A 프로토콜 구현을 단순화하는 Python SDK(다른 언어 지원 예정)를 제공합니다."
+      },
+      {
+        "row": 41,
+        "rowsha": "atERNJ5ajzFXL6Ma+CRIaID2Ip6Q7bVdfD8Nnf9BpKs=",
+        "originContent": "Elkar offers a Python SDK (with support for other languages coming soon) that simplifies the implementation of the A2A protocol. ",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "주요 기능:"
+      },
+      {
+        "row": 43,
+        "rowsha": "Nie9G+sN01b6M0s3bYnw5+XAGn5ybUpfa2oAa8NhuX4=",
+        "originContent": "Key features include:",
+        "translatedContent": "- A2A 프로토콜의 완전한 구현"
+      },
+      {
+        "row": 44,
+        "rowsha": "ojFrVS5us4ctVU11+8OBErk+jftdXRzHpsVjXYUuBFw=",
+        "originContent": "- Complete implementation of the A2A protocol",
+        "translatedContent": "- 인프라 관리가 아닌 작업 실행에 중점을 둔 작업 지향 설계"
+      },
+      {
+        "row": 45,
+        "rowsha": "oY985WKW3L//dUgOqG6xPFzxk++ARKl3mhNGyGb58Hc=",
+        "originContent": "- Task-oriented design focused on executing tasks, not managing infrastructure",
+        "translatedContent": "- 간소화된 큐잉 및 저장소를 포함한 내장 작업 관리"
+      },
+      {
+        "row": 46,
+        "rowsha": "WP9bwyV9EGei52t1M7JLrjkMtjBYKkbTkfNX1Kw8hVw=",
+        "originContent": "- Built-in task management with simplified queuing and storage",
+        "translatedContent": "- 스트리밍 응답 지원"
+      },
+      {
+        "row": 47,
+        "rowsha": "92lQpAPvpZ88z5obLpjlyhWN8iJTA5A5dUxk9nPMl/M=",
+        "originContent": "- Support for streaming responses",
+        "translatedContent": "- `RequestContext`를 통한 맞춤 인증 지원"
+      },
+      {
+        "row": 48,
+        "rowsha": "JZo6lptjFqGCofNcsJ0YFIVQRoxKImTKcMVu9ykRaUs=",
+        "originContent": "- Custom authentication via `RequestContext`",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🚀 빠른 시작 안내"
+      },
+      {
+        "row": 50,
+        "rowsha": "6sDljSkw/aaL6NqumBFXF6hI07wcnMm3JQoIEv4sCZY=",
+        "originContent": "## 🚀 Quickstart Onboarding",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "아래 단계를 따라 Elkar 플랫폼을 시작하세요:"
+      },
+      {
+        "row": 52,
+        "rowsha": "h8MjXAqaUEJYlCTC2l3wa3b/ERRaaqEuuA+qzbVoTQs=",
+        "originContent": "Follow the steps below to get started with Elkar Platform:",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 1단계: 회원가입 및 API 키 받기"
+      },
+      {
+        "row": 54,
+        "rowsha": "KWUaQkxA4Rv2CgOftSAvPI/kvp5U+bIU1KROAkELGVY=",
+        "originContent": "### Step 1: Sign Up & Get Your API Key",
+        "translatedContent": ""
+      },
+      {
+        "row": 55,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "아래 단계를 따라 Elkar 플랫폼을 시작하세요:"
+      },
+      {
+        "row": 56,
+        "rowsha": "h8MjXAqaUEJYlCTC2l3wa3b/ERRaaqEuuA+qzbVoTQs=",
+        "originContent": "Follow the steps below to get started with Elkar Platform:",
+        "translatedContent": ""
+      },
+      {
+        "row": 57,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. [Elkar 플랫폼](https://app.elkar.co/login)에서 **계정 생성**."
+      },
+      {
+        "row": 58,
+        "rowsha": "QRzTuTTGB0KvFtiQPhpAJ3J/lQGy8hW30NSapCLQI+k=",
+        "originContent": "1. **Create an account** on the [Elkar platform](https://app.elkar.co/login).",
+        "translatedContent": "2. **새 에이전트 생성**: 메뉴에서 **Agents \\> Add a new agent**로 이동."
+      },
+      {
+        "row": 59,
+        "rowsha": "IAOBO1jKjT5sRooc66OEf5o5mobLCdvjvaXfWptYZFc=",
+        "originContent": "2. **Create a new agent**: Navigate to **Agents \\> Add a new agent**.",
+        "translatedContent": "3. **API 키 생성**"
+      },
+      {
+        "row": 60,
+        "rowsha": "R635DGAeZmmVRjOb9mga0kFbTZzrrqeeAIp7YgiTmH4=",
+        "originContent": "3. **Generate an API Key**",
+        "translatedContent": ""
+      },
+      {
+        "row": 61,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "   ⚠️ **API 키를 지금 복사하세요** — 다시는 표시되지 않습니다."
+      },
+      {
+        "row": 62,
+        "rowsha": "AhqqXA3TMX3lUcBBciLmLX4qzHmhEElGMCiJOvwE0xM=",
+        "originContent": "   ⚠️ **Copy the API key now** — it won’t be shown again.",
+        "translatedContent": ""
+      },
+      {
+        "row": 63,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 2단계: Elkar SDK 설치"
+      },
+      {
+        "row": 64,
+        "rowsha": "GpwZpHPlv6R+TE0onfJ22P2fQOfOA0lGFZehA/QY1SQ=",
+        "originContent": "### Step 2: Install Elkar SDK",
+        "translatedContent": ""
+      },
+      {
+        "row": 65,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```python\npip install elkar\n```",
+    "ContentSha": "D//Ej0lVFR+vsHweTHRZoWNasKAPJbsKe7o30jEY9Ac=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\npip install elkar\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "Bqtp7H5jkMqhulm0vBqvsg2J6IAmOvl0wo+gAQuvoyU=",
+        "originContent": "pip install elkar",
+        "translatedContent": "pip install elkar"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### Step 3: Create your Task Handler\n\nThe task handler manages a task’s status and artifacts, abstracting away the complexity of interacting with the Task Store. It supports three operations: `set_status`, `add_messages_to_history`, and `upsert_artifact`. \n\nThe task handler currently has a strict signature: `async def my_handler(task: TaskModifierBase, request_context: RequestContext) -> None.`While this signature is enforced for now, it may become more flexible in the future.\n",
+    "ContentSha": "CJNqvvWBNg2fTC7+5qsV8JsVtObSJpG/nv2LPe50QX0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 3단계: 작업 핸들러 생성하기\n\n작업 핸들러는 작업의 상태와 아티팩트를 관리하며, 작업 저장소와 상호작용하는 복잡성을 추상화합니다. 세 가지 작업을 지원합니다: `set_status`, `add_messages_to_history`, 그리고 `upsert_artifact`.\n\n작업 핸들러는 현재 엄격한 시그니처를 가지고 있습니다: `async def my_handler(task: TaskModifierBase, request_context: RequestContext) -> None.` 이 시그니처는 현재로서는 강제되지만, 앞으로 더 유연해질 수 있습니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 3단계: 작업 핸들러 생성하기"
+      },
+      {
+        "row": 2,
+        "rowsha": "mhf2E8NwUMNjwnaXyPGj4BSKKw3OEQFkV3GrAm3T6UM=",
+        "originContent": "### Step 3: Create your Task Handler",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "작업 핸들러는 작업의 상태와 아티팩트를 관리하며, 작업 저장소와 상호작용하는 복잡성을 추상화합니다. 세 가지 작업을 지원합니다: `set_status`, `add_messages_to_history`, 그리고 `upsert_artifact`."
+      },
+      {
+        "row": 4,
+        "rowsha": "Dp1odYlm8jC+TzGjgJ8rL7s+kVEUpwnyImUz2BFaRVw=",
+        "originContent": "The task handler manages a task’s status and artifacts, abstracting away the complexity of interacting with the Task Store. It supports three operations: `set_status`, `add_messages_to_history`, and `upsert_artifact`. ",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "작업 핸들러는 현재 엄격한 시그니처를 가지고 있습니다: `async def my_handler(task: TaskModifierBase, request_context: RequestContext) -> None.` 이 시그니처는 현재로서는 강제되지만, 앞으로 더 유연해질 수 있습니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "LYI3LDyi6+sbhHLII/QL5m1jfQEgelJfmA5cxktID5U=",
+        "originContent": "The task handler currently has a strict signature: `async def my_handler(task: TaskModifierBase, request_context: RequestContext) -> None.`While this signature is enforced for now, it may become more flexible in the future.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```python\nfrom elkar.a2a_types import *\nfrom elkar.server.server import A2AServer\nfrom elkar.task_manager.task_manager_base import RequestContext\nfrom elkar.task_manager.task_manager_with_task_modifier import TaskManagerWithModifier\nfrom elkar.task_modifier.base import TaskModifierBase\n\nasync def task_handler(\n    task: TaskModifierBase, request_context: RequestContext | None\n) -> None:\n\n    await task.set_status(\n        TaskStatus(\n            state=TaskState.WORKING,\n            message=Message(\n                role=\"agent\",\n                parts=[TextPart(text=\"I understand the task, I'm working on it...\")],\n            ),\n        )\n    )\n\n    await task.upsert_artifacts(\n        [\n            Artifact(\n                parts=[TextPart(text=\"I've finished the task, here is the result...\")],\n                index=0,\n            )\n        ]\n    )\n\n    await task.set_status(\n        TaskStatus(\n            state=TaskState.COMPLETED,\n            message=Message(\n                role=\"agent\",\n                parts=[TextPart(text=\"I've finished the task!\")],\n            ),\n        ),\n        is_final=True,\n    )\n```",
+    "ContentSha": "gOJVaMO6BHmNOfWZSmUkt8ZGe3nW26HCkPF9DHVxK1I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nfrom elkar.a2a_types import *\nfrom elkar.server.server import A2AServer\nfrom elkar.task_manager.task_manager_base import RequestContext\nfrom elkar.task_manager.task_manager_with_task_modifier import TaskManagerWithModifier\nfrom elkar.task_modifier.base import TaskModifierBase\n\nasync def task_handler(\n    task: TaskModifierBase, request_context: RequestContext | None\n) -> None:\n\n    await task.set_status(\n        TaskStatus(\n            state=TaskState.WORKING,\n            message=Message(\n                role=\"agent\",\n                parts=[TextPart(text=\"I understand the task, I'm working on it...\")],\n            ),\n        )\n    )\n\n    await task.upsert_artifacts(\n        [\n            Artifact(\n                parts=[TextPart(text=\"I've finished the task, here is the result...\")],\n                index=0,\n            )\n        ]\n    )\n\n    await task.set_status(\n        TaskStatus(\n            state=TaskState.COMPLETED,\n            message=Message(\n                role=\"agent\",\n                parts=[TextPart(text=\"I've finished the task!\")],\n            ),\n        ),\n        is_final=True,\n    )\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "aHlBv7YidizJ1+KmMfVKlkj42UrtxgD1rDhdrgjBbDo=",
+        "originContent": "from elkar.a2a_types import *",
+        "translatedContent": "from elkar.a2a_types import *"
+      },
+      {
+        "row": 3,
+        "rowsha": "5ESWMDpSyRhSchtNTEsGeWusr7mZPlU5HNdvMOWzX9A=",
+        "originContent": "from elkar.server.server import A2AServer",
+        "translatedContent": "from elkar.server.server import A2AServer"
+      },
+      {
+        "row": 4,
+        "rowsha": "S7Wx6GWIEbz1StRTzhpPuxqyelnpM/eIg4VvKZVzhTk=",
+        "originContent": "from elkar.task_manager.task_manager_base import RequestContext",
+        "translatedContent": "from elkar.task_manager.task_manager_base import RequestContext"
+      },
+      {
+        "row": 5,
+        "rowsha": "9NPxvAVBzvg+Xsey8J10KAHOMf63/WTNNf+tZc2Rz+8=",
+        "originContent": "from elkar.task_manager.task_manager_with_task_modifier import TaskManagerWithModifier",
+        "translatedContent": "from elkar.task_manager.task_manager_with_task_modifier import TaskManagerWithModifier"
+      },
+      {
+        "row": 6,
+        "rowsha": "IFH9FW8gBO+TmEe9daZ0hmaoFQfzChsXaX1hRIFXyik=",
+        "originContent": "from elkar.task_modifier.base import TaskModifierBase",
+        "translatedContent": "from elkar.task_modifier.base import TaskModifierBase"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "uG1yBRbgnCnvmBTUq518woilUxTG6I0dfo1LE/DTcL4=",
+        "originContent": "async def task_handler(",
+        "translatedContent": "async def task_handler("
+      },
+      {
+        "row": 9,
+        "rowsha": "YEdmEmdq7obGZ5CdecJnQI43fd+/gYGH2FlT4gyUH0k=",
+        "originContent": "    task: TaskModifierBase, request_context: RequestContext | None",
+        "translatedContent": "    task: TaskModifierBase, request_context: RequestContext | None"
+      },
+      {
+        "row": 10,
+        "rowsha": "UmavmtZr7IgYv2DinWK2SaZh6YLK+HXQG8Wsr49AgHk=",
+        "originContent": ") -> None:",
+        "translatedContent": ") -> None:"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "43ch+ZujTotz+I53yOPtU4hngqnmArFdDSIxfGRHn7o=",
+        "originContent": "    await task.set_status(",
+        "translatedContent": "    await task.set_status("
+      },
+      {
+        "row": 13,
+        "rowsha": "V8QFyduwf94xkWLWMGsA5gqoUI9IClLd2fzb+Q7IHLM=",
+        "originContent": "        TaskStatus(",
+        "translatedContent": "        TaskStatus("
+      },
+      {
+        "row": 14,
+        "rowsha": "bHZDC7swaD4yZBcvE/cpUVtFZhRh/6CwHkq3B9PRggc=",
+        "originContent": "            state=TaskState.WORKING,",
+        "translatedContent": "            state=TaskState.WORKING,"
+      },
+      {
+        "row": 15,
+        "rowsha": "XYpDiAvYgwPSA5SAa+AYvX+FHTiqgvuSSPuuOnLprcw=",
+        "originContent": "            message=Message(",
+        "translatedContent": "            message=Message("
+      },
+      {
+        "row": 16,
+        "rowsha": "rzwto8IOGbxPdIcetGRn+8EwmiyfzClLJ2QOiFgl5v4=",
+        "originContent": "                role=\"agent\",",
+        "translatedContent": "                role=\"agent\","
+      },
+      {
+        "row": 17,
+        "rowsha": "i7/sOJ5ajaKkZzV1B/j2YSfkY8P29atYht9A/R4gaJo=",
+        "originContent": "                parts=[TextPart(text=\"I understand the task, I'm working on it...\")],",
+        "translatedContent": "                parts=[TextPart(text=\"I understand the task, I'm working on it...\")],"
+      },
+      {
+        "row": 18,
+        "rowsha": "XsBKuCKDHtD3TLOLWI1fvB5oDBskbfOmWZqCXaU0yEg=",
+        "originContent": "            ),",
+        "translatedContent": "            ),"
+      },
+      {
+        "row": 19,
+        "rowsha": "qzjo1midRSsRUHKP4UDpYDctWoenaIz1GwPwmWYIuEI=",
+        "originContent": "        )",
+        "translatedContent": "        )"
+      },
+      {
+        "row": 20,
+        "rowsha": "/xlEZ1LDPBgeqSMqeVvv8VvD/u3SpYCHs/XDPuti6ZI=",
+        "originContent": "    )",
+        "translatedContent": "    )"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "G2L3WvWfQvjZ735/OouVrRoHBkGlDclLVEQEpbhNqs8=",
+        "originContent": "    await task.upsert_artifacts(",
+        "translatedContent": "    await task.upsert_artifacts("
+      },
+      {
+        "row": 23,
+        "rowsha": "tsJbOxxVtAOLyYVThsFvNyYmnubaIdUB2WkmGUtT5nU=",
+        "originContent": "        [",
+        "translatedContent": "        ["
+      },
+      {
+        "row": 24,
+        "rowsha": "5D/Ud7tWpR4oiJaWcBfCoIZxxwkc7XqS7eN/qLMhc6U=",
+        "originContent": "            Artifact(",
+        "translatedContent": "            Artifact("
+      },
+      {
+        "row": 25,
+        "rowsha": "czTg9RBEfo6atrZBwL+1Xv/oUk1Gvs3UJ08evmBe+TQ=",
+        "originContent": "                parts=[TextPart(text=\"I've finished the task, here is the result...\")],",
+        "translatedContent": "                parts=[TextPart(text=\"I've finished the task, here is the result...\")],"
+      },
+      {
+        "row": 26,
+        "rowsha": "wchdfTDx20bHBmnBDBXkMOQR5IFIg5gctrPxYHfnF0Y=",
+        "originContent": "                index=0,",
+        "translatedContent": "                index=0,"
+      },
+      {
+        "row": 27,
+        "rowsha": "jOhom+QiNwmL4CEFQXIhET9s+tla6/bQMr9KqE8jNuY=",
+        "originContent": "            )",
+        "translatedContent": "            )"
+      },
+      {
+        "row": 28,
+        "rowsha": "ygt4igTskIN0u4F3rZtYfYn6Gpy1l8PIjUuWrUd7hP0=",
+        "originContent": "        ]",
+        "translatedContent": "        ]"
+      },
+      {
+        "row": 29,
+        "rowsha": "/xlEZ1LDPBgeqSMqeVvv8VvD/u3SpYCHs/XDPuti6ZI=",
+        "originContent": "    )",
+        "translatedContent": "    )"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "43ch+ZujTotz+I53yOPtU4hngqnmArFdDSIxfGRHn7o=",
+        "originContent": "    await task.set_status(",
+        "translatedContent": "    await task.set_status("
+      },
+      {
+        "row": 32,
+        "rowsha": "V8QFyduwf94xkWLWMGsA5gqoUI9IClLd2fzb+Q7IHLM=",
+        "originContent": "        TaskStatus(",
+        "translatedContent": "        TaskStatus("
+      },
+      {
+        "row": 33,
+        "rowsha": "y0+wvUz8kzG1F7Np5GGgZLpw22pplfZu80KRMGuNhi0=",
+        "originContent": "            state=TaskState.COMPLETED,",
+        "translatedContent": "            state=TaskState.COMPLETED,"
+      },
+      {
+        "row": 34,
+        "rowsha": "XYpDiAvYgwPSA5SAa+AYvX+FHTiqgvuSSPuuOnLprcw=",
+        "originContent": "            message=Message(",
+        "translatedContent": "            message=Message("
+      },
+      {
+        "row": 35,
+        "rowsha": "rzwto8IOGbxPdIcetGRn+8EwmiyfzClLJ2QOiFgl5v4=",
+        "originContent": "                role=\"agent\",",
+        "translatedContent": "                role=\"agent\","
+      },
+      {
+        "row": 36,
+        "rowsha": "fSiVzhGKAzNSWIUroFqh/gATVrjjak1/rCnUJyxAf2g=",
+        "originContent": "                parts=[TextPart(text=\"I've finished the task!\")],",
+        "translatedContent": "                parts=[TextPart(text=\"I've finished the task!\")],"
+      },
+      {
+        "row": 37,
+        "rowsha": "XsBKuCKDHtD3TLOLWI1fvB5oDBskbfOmWZqCXaU0yEg=",
+        "originContent": "            ),",
+        "translatedContent": "            ),"
+      },
+      {
+        "row": 38,
+        "rowsha": "7C3wx4lR3xJySTfmYQo9kDvDfux+CT648CRM4i88aGk=",
+        "originContent": "        ),",
+        "translatedContent": "        ),"
+      },
+      {
+        "row": 39,
+        "rowsha": "Vs9kO5ryk7fiSAsggXV5WQW9TFQnwItEYLUfR1IwPd0=",
+        "originContent": "        is_final=True,",
+        "translatedContent": "        is_final=True,"
+      },
+      {
+        "row": 40,
+        "rowsha": "/xlEZ1LDPBgeqSMqeVvv8VvD/u3SpYCHs/XDPuti6ZI=",
+        "originContent": "    )",
+        "translatedContent": "    )"
+      },
+      {
+        "row": 41,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Step 4: Create your Agent Card\n\nYour Agent Card is defined following the requirements from A2A Protocol.\n",
+    "ContentSha": "uYf1igKhJkt8iYuXcAFjlTokbxRBBpgVX63e+I/hYFg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 4단계: 에이전트 카드 생성\n\n에이전트 카드는 A2A 프로토콜의 요구사항에 따라 정의됩니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 4단계: 에이전트 카드 생성"
+      },
+      {
+        "row": 2,
+        "rowsha": "WRqkuigHqwgc2DflFZ38yXGGBUOicF9+bDFcxXmeN7k=",
+        "originContent": "### Step 4: Create your Agent Card",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "에이전트 카드는 A2A 프로토콜의 요구사항에 따라 정의됩니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "0aDm6xmDDMVCjxNH2UN7aSAo4AS3479MHcL3kSAfs90=",
+        "originContent": "Your Agent Card is defined following the requirements from A2A Protocol.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```python\nagent_card = AgentCard(\n    name=\"Test Agent\",\n    description=\"Test Agent Description\",\n    url=\"https://example.com\",\n    provider=AgentProvider(organization=\"Elkar\", url=\"https://www.elkar.co\"),\n    documentationUrl=\"https://example.com/documentation\",\n    version=\"1.0.0\",\n    skills=[\n        AgentSkill(\n            id=\"1\",\n            name=\"Generate image\",\n            description=\"Generate images from prompt description\",\n            inputModes=[\"text\"],\n            outputModes=[\"image\"],\n        ),\n    ],\n    capabilities=AgentCapabilities(\n        streaming=True,\n        pushNotifications=True,\n        stateTransitionHistory=True,\n    ),\n)\n```",
+    "ContentSha": "TBCVzZt5mTuH+OCEr+TLtCMhUl1fl/DyGD4RDfR2wmM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nagent_card = AgentCard(\n    name=\"Test Agent\",\n    description=\"Test Agent Description\",\n    url=\"https://example.com\",\n    provider=AgentProvider(organization=\"Elkar\", url=\"https://www.elkar.co\"),\n    documentationUrl=\"https://example.com/documentation\",\n    version=\"1.0.0\",\n    skills=[\n        AgentSkill(\n            id=\"1\",\n            name=\"Generate image\",\n            description=\"Generate images from prompt description\",\n            inputModes=[\"text\"],\n            outputModes=[\"image\"],\n        ),\n    ],\n    capabilities=AgentCapabilities(\n        streaming=True,\n        pushNotifications=True,\n        stateTransitionHistory=True,\n    ),\n)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "QEZOj24dSa5jkSHJXsnQpLVCTA+JHY3vVxueM0zj+8M=",
+        "originContent": "agent_card = AgentCard(",
+        "translatedContent": "agent_card = AgentCard("
+      },
+      {
+        "row": 3,
+        "rowsha": "342POFJmuVpgn21iGHOKwUry24HJBjl7V0MtDCbBFzI=",
+        "originContent": "    name=\"Test Agent\",",
+        "translatedContent": "    name=\"Test Agent\","
+      },
+      {
+        "row": 4,
+        "rowsha": "zQLEGvSqI7TIYmefXy/UmEOuqCxqJ781gu1mdiIypb4=",
+        "originContent": "    description=\"Test Agent Description\",",
+        "translatedContent": "    description=\"Test Agent Description\","
+      },
+      {
+        "row": 5,
+        "rowsha": "NrziAgCdhwxHUaaSnC5z6alNWKzH6/i0Xw+0fVSJMYw=",
+        "originContent": "    url=\"https://example.com\",",
+        "translatedContent": "    url=\"https://example.com\","
+      },
+      {
+        "row": 6,
+        "rowsha": "V749yDqa1H4mIViBU8vS1fFasksREztrfuA3ACyXmx4=",
+        "originContent": "    provider=AgentProvider(organization=\"Elkar\", url=\"https://www.elkar.co\"),",
+        "translatedContent": "    provider=AgentProvider(organization=\"Elkar\", url=\"https://www.elkar.co\"),"
+      },
+      {
+        "row": 7,
+        "rowsha": "srqKSyYAP07RpJefyDN/fo0D14IQjcdVQRZpPyiuFQU=",
+        "originContent": "    documentationUrl=\"https://example.com/documentation\",",
+        "translatedContent": "    documentationUrl=\"https://example.com/documentation\","
+      },
+      {
+        "row": 8,
+        "rowsha": "Q5Lmlq8+8dB3//XOTsvpKhrLmTgWR4f6YZ6156UfzFg=",
+        "originContent": "    version=\"1.0.0\",",
+        "translatedContent": "    version=\"1.0.0\","
+      },
+      {
+        "row": 9,
+        "rowsha": "QCi2xRed5q5EssTKXMluFqx5nqEDN9rV5k9HIwjTue8=",
+        "originContent": "    skills=[",
+        "translatedContent": "    skills=["
+      },
+      {
+        "row": 10,
+        "rowsha": "eJMOlafI3EictFSyZ1AOW5J/gZswWVb4adYB0lbBThw=",
+        "originContent": "        AgentSkill(",
+        "translatedContent": "        AgentSkill("
+      },
+      {
+        "row": 11,
+        "rowsha": "54jfftm3gFJVHG1G5X8BqkcNB43bPZ5d9TdWmEf9rm0=",
+        "originContent": "            id=\"1\",",
+        "translatedContent": "            id=\"1\","
+      },
+      {
+        "row": 12,
+        "rowsha": "lWecrVLvKpkNzQnJQSpJEsB+LIDdRCYI2vxwJsWkFDY=",
+        "originContent": "            name=\"Generate image\",",
+        "translatedContent": "            name=\"Generate image\","
+      },
+      {
+        "row": 13,
+        "rowsha": "pvayLcsQm7nNj2bfTWDI0xYJZ5HZ/nxdDx/ZgTYXC78=",
+        "originContent": "            description=\"Generate images from prompt description\",",
+        "translatedContent": "            description=\"Generate images from prompt description\","
+      },
+      {
+        "row": 14,
+        "rowsha": "Iaf8dcAglMEVUwocspJfd33HwOXkKo0sQOb/ccbWa5M=",
+        "originContent": "            inputModes=[\"text\"],",
+        "translatedContent": "            inputModes=[\"text\"],"
+      },
+      {
+        "row": 15,
+        "rowsha": "gOALw+WiyXYmHJCRxyq7eK+OCNcTwQwEoVj8UXt+qLE=",
+        "originContent": "            outputModes=[\"image\"],",
+        "translatedContent": "            outputModes=[\"image\"],"
+      },
+      {
+        "row": 16,
+        "rowsha": "7C3wx4lR3xJySTfmYQo9kDvDfux+CT648CRM4i88aGk=",
+        "originContent": "        ),",
+        "translatedContent": "        ),"
+      },
+      {
+        "row": 17,
+        "rowsha": "/4y2mDluE/6gPlOuW99X51DJh7tetngAemmeBkzB+FY=",
+        "originContent": "    ],",
+        "translatedContent": "    ],"
+      },
+      {
+        "row": 18,
+        "rowsha": "62IK3G5vSnhLJwt+PyRpGirHu453Ht8KbPYSLoggpEw=",
+        "originContent": "    capabilities=AgentCapabilities(",
+        "translatedContent": "    capabilities=AgentCapabilities("
+      },
+      {
+        "row": 19,
+        "rowsha": "K8RX1WQpZSlJpmQOpTo8BKt5BkDePewTa0HwWZ94bjU=",
+        "originContent": "        streaming=True,",
+        "translatedContent": "        streaming=True,"
+      },
+      {
+        "row": 20,
+        "rowsha": "QCugXVagcQotbuKWsfF+aMOT20kPL1ga0n+7BRziGQ0=",
+        "originContent": "        pushNotifications=True,",
+        "translatedContent": "        pushNotifications=True,"
+      },
+      {
+        "row": 21,
+        "rowsha": "6l/qpcxtRhFrHtMLxvqhlH4cdEu5tf9DrM7sHijmidQ=",
+        "originContent": "        stateTransitionHistory=True,",
+        "translatedContent": "        stateTransitionHistory=True,"
+      },
+      {
+        "row": 22,
+        "rowsha": "giAtWJHW+ym9sipJL7D0lA4JvnZUKwuEk2BaSR8n8t0=",
+        "originContent": "    ),",
+        "translatedContent": "    ),"
+      },
+      {
+        "row": 23,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 24,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### Step 5: Create your A2A Server\n\nInstantiate your A2A Server with the Managed Service as Task Store.\n",
+    "ContentSha": "oJnXfrGzIiNNi5tEKBBqcZ7pQhY37YZC+u869nf6wqo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 5단계: A2A 서버 생성\n\n관리형 서비스를 작업 저장소로 사용하여 A2A 서버를 인스턴스화합니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 5단계: A2A 서버 생성"
+      },
+      {
+        "row": 2,
+        "rowsha": "4vCBGckCN5YBIO9uxLBTueJ2gdv79IxzYgjUTaMqAHk=",
+        "originContent": "### Step 5: Create your A2A Server",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "관리형 서비스를 작업 저장소로 사용하여 A2A 서버를 인스턴스화합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "lx4iLHlD7+gl8jQ7/souRHSVEFkOilGkqazGSuncbY0=",
+        "originContent": "Instantiate your A2A Server with the Managed Service as Task Store.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```python\napi_key = \"YOUR_ELKAR_API_KEY\"  # Replace with your actual Elkar API key\nstore = ElkarClientStore(base_url=\"https://api.elkar.co/api\", api_key=api_key)\n\ntask_manager: TaskManagerWithModifier = TaskManagerWithModifier(\n    agent_card, \n    send_task_handler=task_handler,\n    store=store\n)\n\n# Create the server instance\nserver = A2AServer(task_manager, host=\"0.0.0.0\", port=5001, endpoint=\"/\")\n\nserver.start() # This is blocking. For production, use an ASGI server like Uvicorn.\n```",
+    "ContentSha": "EtJxfoLqnrs4ZWgSrbClXhlGmVRab6g9AAoGiOsIoPo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\napi_key = \"YOUR_ELKAR_API_KEY\"  # Replace with your actual Elkar API key\nstore = ElkarClientStore(base_url=\"https://api.elkar.co/api\", api_key=api_key)\n\ntask_manager: TaskManagerWithModifier = TaskManagerWithModifier(\n    agent_card, \n    send_task_handler=task_handler,\n    store=store\n)\n\n# Create the server instance\nserver = A2AServer(task_manager, host=\"0.0.0.0\", port=5001, endpoint=\"/\")\n\nserver.start() # This is blocking. For production, use an ASGI server like Uvicorn.\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "T5HlAS0A6R6VxjzrA2XFP4IGoga5qocug+Pdb1Bs6n4=",
+        "originContent": "api_key = \"YOUR_ELKAR_API_KEY\"  # Replace with your actual Elkar API key",
+        "translatedContent": "api_key = \"YOUR_ELKAR_API_KEY\"  # Replace with your actual Elkar API key"
+      },
+      {
+        "row": 3,
+        "rowsha": "KZ1GBm5DMsLuaE8mS9Aaz3AJqIkqCNrRo1y3b3Zzt6o=",
+        "originContent": "store = ElkarClientStore(base_url=\"https://api.elkar.co/api\", api_key=api_key)",
+        "translatedContent": "store = ElkarClientStore(base_url=\"https://api.elkar.co/api\", api_key=api_key)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "H6kCa8G1soZLOEKYM1bxB2xD7HVYT3squE51CFu3tcE=",
+        "originContent": "task_manager: TaskManagerWithModifier = TaskManagerWithModifier(",
+        "translatedContent": "task_manager: TaskManagerWithModifier = TaskManagerWithModifier("
+      },
+      {
+        "row": 6,
+        "rowsha": "NAR5ztYN8PEpG1M9Cno8J8PRTaTpzFz9z/3JgQ2NwaU=",
+        "originContent": "    agent_card, ",
+        "translatedContent": "    agent_card, "
+      },
+      {
+        "row": 7,
+        "rowsha": "BATVlOXekzy1zDa85sGJXWpedHkEJCdmv13SlBRtgyc=",
+        "originContent": "    send_task_handler=task_handler,",
+        "translatedContent": "    send_task_handler=task_handler,"
+      },
+      {
+        "row": 8,
+        "rowsha": "CNotRmu5iyxiTjz+4V+zMKOaywy1e72gH4FP5Er6tOs=",
+        "originContent": "    store=store",
+        "translatedContent": "    store=store"
+      },
+      {
+        "row": 9,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Xg6X60OspaNpeZnWAMZbtNnJQQlya6tNvwpJBzwFgBo=",
+        "originContent": "# Create the server instance",
+        "translatedContent": "# Create the server instance"
+      },
+      {
+        "row": 12,
+        "rowsha": "ctf6MpvTIpbT45+zO8yVIuVJAsZV1KTwYgWSpwvBoyk=",
+        "originContent": "server = A2AServer(task_manager, host=\"0.0.0.0\", port=5001, endpoint=\"/\")",
+        "translatedContent": "server = A2AServer(task_manager, host=\"0.0.0.0\", port=5001, endpoint=\"/\")"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "kCddtL1efl9g57q//Mjj17H17ohojI/07Xm4vpyc3us=",
+        "originContent": "server.start() # This is blocking. For production, use an ASGI server like Uvicorn.",
+        "translatedContent": "server.start() # This is blocking. For production, use an ASGI server like Uvicorn."
+      },
+      {
+        "row": 15,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nTo run this example (e.g., if saved as [main.py](http://main.py) and you expose [server.app](http://server.app) as app):  uvicorn main:app --host 0.0.0.0 --port 5001\n",
+    "ContentSha": "SHHmW9DEBHKe0HEI9+1Gc6SUtCtd1UXO7xe20smSHKU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "이 예제를 실행하려면(예: [main.py](http://main.py)로 저장하고 [server.app](http://server.app)을 app으로 노출한 경우):  uvicorn main:app --host 0.0.0.0 --port 5001\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 예제를 실행하려면(예: [main.py](http://main.py)로 저장하고 [server.app](http://server.app)을 app으로 노출한 경우):  uvicorn main:app --host 0.0.0.0 --port 5001"
+      },
+      {
+        "row": 2,
+        "rowsha": "yQrhQh1U6TaOq6oHvWs/EGp05RWgO0+VerMuI1GITpc=",
+        "originContent": "To run this example (e.g., if saved as [main.py](http://main.py) and you expose [server.app](http://server.app) as app):  uvicorn main:app --host 0.0.0.0 --port 5001",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\nuvicorn main:app --host 0.0.0.0 --port 5001\n```",
+    "ContentSha": "NadJ6OX4H5FkUxmZ4zhaJ0lS8nirczmloGEdYschB8A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nuvicorn main:app --host 0.0.0.0 --port 5001\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "ljKogftpuM5aPUsTN3DqfbgKkutsDqeNd6XwRXLBmnk=",
+        "originContent": "uvicorn main:app --host 0.0.0.0 --port 5001",
+        "translatedContent": "uvicorn main:app --host 0.0.0.0 --port 5001"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## 📦 Self-Hosting Package\n\nYou can use Elkar self-hosted version as a simple library with implemented task management and streaming in local memory. Support for other task stores as PostgreSQL or Redis will come soon. \n\nFor detailed integration steps, see our [Open Source Documentation](https://docs.elkar.co/opensource/selfhost)\n\n\n## 🛠️ A2A Debugger-Only Mode\n\nIf you want to run the client purely for debugging A2A servers without setting up authentication or task management:\n\n1. **Run in debugger-only mode**",
+    "ContentSha": "DZoCcfqtpqa4Wjeu/0rkpVGQMDLnZTcl29eQLOzNh5g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 📦 셀프 호스팅 패키지\n\nElkar 셀프 호스팅 버전을 로컬 메모리에서 작업 관리 및 스트리밍이 구현된 간단한 라이브러리로 사용할 수 있습니다. PostgreSQL 또는 Redis와 같은 다른 작업 저장소 지원은 곧 제공될 예정입니다.\n\n자세한 통합 단계는 [오픈 소스 문서](https://docs.elkar.co/opensource/selfhost)를 참조하세요.\n\n\n## 🛠️ A2A 디버거 전용 모드\n\n클라이언트를 인증 설정이나 작업 관리 없이 A2A 서버 디버깅 용도로만 실행하려면:\n\n1. **디버거 전용 모드로 실행**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📦 셀프 호스팅 패키지"
+      },
+      {
+        "row": 2,
+        "rowsha": "aklCOECzAW104M+0FtHftpaXM8k447Ap8RAWmHqjqvw=",
+        "originContent": "## 📦 Self-Hosting Package",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Elkar 셀프 호스팅 버전을 로컬 메모리에서 작업 관리 및 스트리밍이 구현된 간단한 라이브러리로 사용할 수 있습니다. PostgreSQL 또는 Redis와 같은 다른 작업 저장소 지원은 곧 제공될 예정입니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "rlj8EqKP/BRkUjh3jXPLGTUSBKGkPS6lLCtwpAb+MnM=",
+        "originContent": "You can use Elkar self-hosted version as a simple library with implemented task management and streaming in local memory. Support for other task stores as PostgreSQL or Redis will come soon. ",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "자세한 통합 단계는 [오픈 소스 문서](https://docs.elkar.co/opensource/selfhost)를 참조하세요."
+      },
+      {
+        "row": 6,
+        "rowsha": "4HQldiV7mg41L7ostk4xkFd+CAuppfTfgJF2gNuE8Uc=",
+        "originContent": "For detailed integration steps, see our [Open Source Documentation](https://docs.elkar.co/opensource/selfhost)",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🛠️ A2A 디버거 전용 모드"
+      },
+      {
+        "row": 9,
+        "rowsha": "CPUPn4MDSJy98w6W2J+A+GAs8y99qOih4tGSwAAYU3c=",
+        "originContent": "## 🛠️ A2A Debugger-Only Mode",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "클라이언트를 인증 설정이나 작업 관리 없이 A2A 서버 디버깅 용도로만 실행하려면:"
+      },
+      {
+        "row": 11,
+        "rowsha": "LJRBvsj+2Yz60MfDQ1vOWcm8HVxDnLpxA4GrlFQ6KHM=",
+        "originContent": "If you want to run the client purely for debugging A2A servers without setting up authentication or task management:",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. **디버거 전용 모드로 실행**"
+      },
+      {
+        "row": 13,
+        "rowsha": "PJgzf7euWUIfu+ZSgzOOnlIWzO6TtCorO5QUhwVVW+Q=",
+        "originContent": "1. **Run in debugger-only mode**",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\ncd a2a-client\nnpm run a2adebugger\n```",
+    "ContentSha": "3grzcZ7/y/7ORgzH28e9IQ9YQLJf6aiwuLv1gfKipZk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncd a2a-client\nnpm run a2adebugger\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "MmHNU9gcF+aEfqx1H2m2Q0UeIbelYcJy4EwZy05LN/0=",
+        "originContent": "cd a2a-client",
+        "translatedContent": "cd a2a-client"
+      },
+      {
+        "row": 3,
+        "rowsha": "uhuoRHhIFxQ/NZk4RomaO7//EYHLYVyDhaJs0toVMPk=",
+        "originContent": "npm run a2adebugger",
+        "translatedContent": "npm run a2adebugger"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n2. **Open your browser** at `http://localhost:5173`\n\nThis mode provides a simplified interface focused solely on debugging A2A-compatible servers without requiring Supabase authentication or backend server integration.\n\n## ✅ Supported task updates\n\n1. **Status Update**\nDescribes the state of the task and the agent's progress. Messages in the status are appended to the task's history.\n",
+    "ContentSha": "+6aaKi5ckAC7YmCvIiXES85z3abgXcmvdXiU3V3K2ZY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. **브라우저를 열고** `http://localhost:5173` 에 접속하세요\n\n이 모드는 Supabase 인증이나 백엔드 서버 통합 없이 A2A 호환 서버 디버깅에만 집중한 간소화된 인터페이스를 제공합니다.\n\n## ✅ 지원되는 작업 업데이트\n\n1. **상태 업데이트**\n작업의 상태와 에이전트의 진행 상황을 설명합니다. 상태 메시지는 작업 기록에 추가됩니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. **브라우저를 열고** `http://localhost:5173` 에 접속하세요"
+      },
+      {
+        "row": 2,
+        "rowsha": "t1dmFUPtrZOKXHPfb/c6WiHZKJr0FA/u0YNDWMNAaBo=",
+        "originContent": "2. **Open your browser** at `http://localhost:5173`",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 모드는 Supabase 인증이나 백엔드 서버 통합 없이 A2A 호환 서버 디버깅에만 집중한 간소화된 인터페이스를 제공합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "Q5dIxH7QgY34r7wx7SbMJgRsBhOdsZ/UPEb53Zewjms=",
+        "originContent": "This mode provides a simplified interface focused solely on debugging A2A-compatible servers without requiring Supabase authentication or backend server integration.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ✅ 지원되는 작업 업데이트"
+      },
+      {
+        "row": 6,
+        "rowsha": "5DRZ1JrPEaMpbv6i3b1WTGzgijKpUdDqhNct+by6NbU=",
+        "originContent": "## ✅ Supported task updates",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. **상태 업데이트**"
+      },
+      {
+        "row": 8,
+        "rowsha": "s6UNJJPTIV+R2g4zl77H7f/FSRDu6exyC9ZF7Pnv5xc=",
+        "originContent": "1. **Status Update**",
+        "translatedContent": "작업의 상태와 에이전트의 진행 상황을 설명합니다. 상태 메시지는 작업 기록에 추가됩니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "Vk6lIKwJYIu1jMW637nviLZy0olCblku0M8fWcxb1P4=",
+        "originContent": "Describes the state of the task and the agent's progress. Messages in the status are appended to the task's history.",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```python\nawait task.set_status(\n    TaskStatus(\n        state=TaskState.COMPLETED,\n        message=Message(parts=[TextPart(text=\"I've finished the task!\")])\n    )\n)\n```",
+    "ContentSha": "+ibtDwNKPgR8JCsFmum075rjorOiww1tg/R6cZbZ47Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nawait task.set_status(\n    TaskStatus(\n        state=TaskState.COMPLETED,\n        message=Message(parts=[TextPart(text=\"I've finished the task!\")])\n    )\n)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "lZfZxkUdyJnyQzNPKhXiq1GPiVwvXeckYwo/YO4vo/M=",
+        "originContent": "await task.set_status(",
+        "translatedContent": "await task.set_status("
+      },
+      {
+        "row": 3,
+        "rowsha": "wVCtgw/fM7HBUYKfhxdUG/pAKS3Pgu3FEwEmJY2lChc=",
+        "originContent": "    TaskStatus(",
+        "translatedContent": "    TaskStatus("
+      },
+      {
+        "row": 4,
+        "rowsha": "W67kySpdi3pOb/XapZLQ+eYAUfVYyG5kwRYeSNUnt9w=",
+        "originContent": "        state=TaskState.COMPLETED,",
+        "translatedContent": "        state=TaskState.COMPLETED,"
+      },
+      {
+        "row": 5,
+        "rowsha": "llFmS7PFyPOUX7uxX93VOEcxeHVy8OM0/QgCFMYVG3w=",
+        "originContent": "        message=Message(parts=[TextPart(text=\"I've finished the task!\")])",
+        "translatedContent": "        message=Message(parts=[TextPart(text=\"I've finished the task!\")])"
+      },
+      {
+        "row": 6,
+        "rowsha": "/xlEZ1LDPBgeqSMqeVvv8VvD/u3SpYCHs/XDPuti6ZI=",
+        "originContent": "    )",
+        "translatedContent": "    )"
+      },
+      {
+        "row": 7,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "2. **Artifact Update**\n\nArtifacts represent the result of the task. Indices are used to identify artifacts within a task. Updates append to existing artifacts if the index matches and the chunk is not the last one.\n",
+    "ContentSha": "TpT9LQl4vxbmIcqGXCOPJNN762LX7Qk1iO2guBivsXU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. **아티팩트 업데이트**\n\n아티팩트는 작업의 결과를 나타냅니다. 인덱스는 작업 내에서 아티팩트를 식별하는 데 사용됩니다. 인덱스가 일치하고 청크가 마지막이 아닌 경우 업데이트가 기존 아티팩트에 추가됩니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kMN5R+PFDrnTK/1/MzUbQSK2U/IqF6ymlmvKpTVHZCY=",
+        "originContent": "2. **Artifact Update**",
+        "translatedContent": "2. **아티팩트 업데이트**"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "37U5/YJlNqUCBKolhXtHHga1sIB/w6/f6g+7txW3F3I=",
+        "originContent": "Artifacts represent the result of the task. Indices are used to identify artifacts within a task. Updates append to existing artifacts if the index matches and the chunk is not the last one.",
+        "translatedContent": "아티팩트는 작업의 결과를 나타냅니다. 인덱스는 작업 내에서 아티팩트를 식별하는 데 사용됩니다. 인덱스가 일치하고 청크가 마지막이 아닌 경우 업데이트가 기존 아티팩트에 추가됩니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```python\nawait task.upsert_artifact(\n    Artifact(parts=[TextPart(text=\"I've finished the task!\")], index=0)\n)\n```",
+    "ContentSha": "g1pD+y4d7hQW7ff3qdlWFarqHpMxGYL03UykBCnDMJo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nawait task.upsert_artifact(\n    Artifact(parts=[TextPart(text=\"I've finished the task!\")], index=0)\n)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "QE9CSSoNGbhMkqvwWadgdJenTIgApihEOOSDqXn2Yco=",
+        "originContent": "await task.upsert_artifact(",
+        "translatedContent": "await task.upsert_artifact("
+      },
+      {
+        "row": 3,
+        "rowsha": "nQtV3jkRUtfJIdyBLvyff2wSEPh/nYmpmehc6WLNg3c=",
+        "originContent": "    Artifact(parts=[TextPart(text=\"I've finished the task!\")], index=0)",
+        "translatedContent": "    Artifact(parts=[TextPart(text=\"I've finished the task!\")], index=0)"
+      },
+      {
+        "row": 4,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n3. **Append Messages to History**\n\nStores relevant information, such as thoughts or past communications, related to the task. ([elkarbackup/elkarbackup-docker - GitHub](https://github.com/elkarbackup/elkarbackup-docker?utm_source=chatgpt.com))\n",
+    "ContentSha": "X5qgu38RVKyqroAoQfH8P075n2Gnv5eHkZpffWHXRc0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. **메시지를 히스토리에 추가**\n\n작업과 관련된 생각이나 과거의 커뮤니케이션과 같은 관련 정보를 저장합니다. ([elkarbackup/elkarbackup-docker - GitHub](https://github.com/elkarbackup/elkarbackup-docker?utm_source=chatgpt.com))\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. **메시지를 히스토리에 추가**"
+      },
+      {
+        "row": 2,
+        "rowsha": "wpK+DmAYT0ahIOsVZJaCOjYF1nB3PrmnlgkEv40R86k=",
+        "originContent": "3. **Append Messages to History**",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "작업과 관련된 생각이나 과거의 커뮤니케이션과 같은 관련 정보를 저장합니다. ([elkarbackup/elkarbackup-docker - GitHub](https://github.com/elkarbackup/elkarbackup-docker?utm_source=chatgpt.com))"
+      },
+      {
+        "row": 4,
+        "rowsha": "ZDLpMZCDFs/uxcOOCXT1Tc6LG2ysF02ZIgTCDjUrlJU=",
+        "originContent": "Stores relevant information, such as thoughts or past communications, related to the task. ([elkarbackup/elkarbackup-docker - GitHub](https://github.com/elkarbackup/elkarbackup-docker?utm_source=chatgpt.com))",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```python\nawait task.add_messages_to_history(\n    [Message(parts=[TextPart(text=\"I'm working on the task...\")])]\n)\n```",
+    "ContentSha": "bQWCn7yEIvjRbiJxX2NwSy2S3Gnd1IEFUWdP/6BZmeM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nawait task.add_messages_to_history(\n    [Message(parts=[TextPart(text=\"I'm working on the task...\")])]\n)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "A9zJ1vnv2an4umo8jwaxRH4rQk1w7vjpZg5vAKvurUU=",
+        "originContent": "await task.add_messages_to_history(",
+        "translatedContent": "await task.add_messages_to_history("
+      },
+      {
+        "row": 3,
+        "rowsha": "IxEuyyMZVE9dfzARsEz8VXBiuvA5o0w+YSQD4czv+MA=",
+        "originContent": "    [Message(parts=[TextPart(text=\"I'm working on the task...\")])]",
+        "translatedContent": "    [Message(parts=[TextPart(text=\"I'm working on the task...\")])]"
+      },
+      {
+        "row": 4,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n\n\n\n### 📚 Roadmap\n- Full Documentation\n- Task stores:\n    - PostgreSQL, Redis, Hosted\n- Task queues:\n    - PostgreSQL, Redis, Hosted\n- SDKs:\n    - JavaScript/TypeScript\n    - Go\n    - Rust\n- Tests and code samples\n- Push notifications support\n- Task history search functionality\n- Integration with Model Context Protocol (MCP) for enhanced task management.\n\nCheck out our [documentation](https://docs.elkar.co/) for more details!\n\n## 💬 Community\nJoin our [Discord server](https://discord.gg/HDB4rkqn) to get help, share ideas, and get updates\n\n## 🤝 Contribute\n\nWe ❤️ feedback, PRs, and ideas! Here's how to help:\n\n- If you find Elkar useful, a GitHub ⭐️ would mean a lot! — it helps to support the project!\n- Report bugs or request features via [issues](https://github.com/elkar-ai/elkar/issues).\n- Show off what you've built with Elkar [here](https://discord.gg/HDB4rkqn)! \n- Submit [pull requests](https://github.com/elkar-ai/elkar/pulls), and we'll review it as soon as possible.\n\n## 🔒 License  \nThis project is licensed under the MIT License – see the [LICENSE](https://github.com/elkar-ai/elkar-a2a/blob/main/LICENCE) file for details.\n\n\n\n",
+    "ContentSha": "vfh7rncf/xGj6BCPkO8387V+36Mm26yu7cnJuqzfL1A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 📚 로드맵\n- 전체 문서\n- 작업 저장소:\n    - PostgreSQL, Redis, 호스팅\n- 작업 큐:\n    - PostgreSQL, Redis, 호스팅\n- SDK:\n    - JavaScript/TypeScript\n    - Go\n    - Rust\n- 테스트 및 코드 샘플\n- 푸시 알림 지원\n- 작업 이력 검색 기능\n- 향상된 작업 관리를 위한 모델 컨텍스트 프로토콜(MCP) 통합.\n\n자세한 내용은 [문서](https://docs.elkar.co/)를 확인하세요!\n\n## 💬 커뮤니티\n도움받기, 아이디어 공유, 업데이트를 위해 [디스코드 서버](https://discord.gg/HDB4rkqn)에 참여하세요\n\n## 🤝 기여하기\n\n우리는 ❤️ 피드백, PR, 아이디어를 환영합니다! 도움 주는 방법은 다음과 같습니다:\n\n- Elkar가 유용하다면, GitHub에서 ⭐️를 눌러주세요! — 프로젝트 지원에 큰 힘이 됩니다!\n- 버그 신고나 기능 요청은 [이슈](https://github.com/elkar-ai/elkar/issues)를 통해 해주세요.\n- Elkar로 만든 것을 [여기](https://discord.gg/HDB4rkqn)에서 자랑해보세요!\n- [풀 리퀘스트](https://github.com/elkar-ai/elkar/pulls)를 제출하면 가능한 빨리 검토하겠습니다.\n\n## 🔒 라이선스  \n이 프로젝트는 MIT 라이선스에 따라 배포됩니다 – 자세한 내용은 [LICENSE](https://github.com/elkar-ai/elkar-a2a/blob/main/LICENCE) 파일을 참조하세요.\n\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 📚 로드맵"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 전체 문서"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 작업 저장소:"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    - PostgreSQL, Redis, 호스팅"
+      },
+      {
+        "row": 5,
+        "rowsha": "YAp5MOyb5znnd2EEBRc4yfv6eoi+VveC0Yro90RX+Gw=",
+        "originContent": "### 📚 Roadmap",
+        "translatedContent": "- 작업 큐:"
+      },
+      {
+        "row": 6,
+        "rowsha": "imhURlD4/t8SfeJIytsbK99QSjvSpG193HjqKxSHcII=",
+        "originContent": "- Full Documentation",
+        "translatedContent": "    - PostgreSQL, Redis, 호스팅"
+      },
+      {
+        "row": 7,
+        "rowsha": "U/tEeO33hXf9o1tgZWf6RgFhDEThE3OedSrDaXY4YZg=",
+        "originContent": "- Task stores:",
+        "translatedContent": "- SDK:"
+      },
+      {
+        "row": 8,
+        "rowsha": "feOHngDrswpZ12g+IeDKnWzieZxyoosHhTn+jrPsfz0=",
+        "originContent": "    - PostgreSQL, Redis, Hosted",
+        "translatedContent": "    - JavaScript/TypeScript"
+      },
+      {
+        "row": 9,
+        "rowsha": "Tv40HMSb25hlx9V+NSfJdIcvRugDqpPWe7F/c7hBIEw=",
+        "originContent": "- Task queues:",
+        "translatedContent": "    - Go"
+      },
+      {
+        "row": 10,
+        "rowsha": "feOHngDrswpZ12g+IeDKnWzieZxyoosHhTn+jrPsfz0=",
+        "originContent": "    - PostgreSQL, Redis, Hosted",
+        "translatedContent": "    - Rust"
+      },
+      {
+        "row": 11,
+        "rowsha": "QJl7w1HsrgGbzNyhgoiTxIiOkTk8br9ega2W3y9uG9I=",
+        "originContent": "- SDKs:",
+        "translatedContent": "- 테스트 및 코드 샘플"
+      },
+      {
+        "row": 12,
+        "rowsha": "MFN088g1RKuDNLB6QGeAbqERBNNiRy1AM0YXGJGFhvo=",
+        "originContent": "    - JavaScript/TypeScript",
+        "translatedContent": "- 푸시 알림 지원"
+      },
+      {
+        "row": 13,
+        "rowsha": "9jG7PxWrM103rbRB5xJClgkA6cXrbj1Ziab/AuPUmXE=",
+        "originContent": "    - Go",
+        "translatedContent": "- 작업 이력 검색 기능"
+      },
+      {
+        "row": 14,
+        "rowsha": "muzj4eZjOeBJAkS7kc5v/G7RdnnmdSmS9/aLZVv7Ns4=",
+        "originContent": "    - Rust",
+        "translatedContent": "- 향상된 작업 관리를 위한 모델 컨텍스트 프로토콜(MCP) 통합."
+      },
+      {
+        "row": 15,
+        "rowsha": "mGtV6hUe8fOCtAp/pgCr/n9D8TzfatEl0P8jx1gsOHg=",
+        "originContent": "- Tests and code samples",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "u7nqWcMhOLXn+LhNX7RKjmlPyuonIS+jrWO8+fmT10Q=",
+        "originContent": "- Push notifications support",
+        "translatedContent": "자세한 내용은 [문서](https://docs.elkar.co/)를 확인하세요!"
+      },
+      {
+        "row": 17,
+        "rowsha": "5tPKuh8dim/bFxLlc41H6AdYt6ro4ydCmXJyeDv4LWk=",
+        "originContent": "- Task history search functionality",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "x9MW9Bxa6Go9t0zOpSKN8fYSPQtIU0blSv750rVipxA=",
+        "originContent": "- Integration with Model Context Protocol (MCP) for enhanced task management.",
+        "translatedContent": "## 💬 커뮤니티"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "도움받기, 아이디어 공유, 업데이트를 위해 [디스코드 서버](https://discord.gg/HDB4rkqn)에 참여하세요"
+      },
+      {
+        "row": 20,
+        "rowsha": "s8sC12RWlH/lyz4EFB668HOd+OYy9IBTwlLUHEID4qg=",
+        "originContent": "Check out our [documentation](https://docs.elkar.co/) for more details!",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🤝 기여하기"
+      },
+      {
+        "row": 22,
+        "rowsha": "UNdqm3RhmkoogVgEmkd0t3Aa1YDRhn6mxcV4le3we98=",
+        "originContent": "## 💬 Community",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "Tk+yJujvj5Emi/8D/nKEFY7bUB1wthTH/IsDdbT5ob4=",
+        "originContent": "Join our [Discord server](https://discord.gg/HDB4rkqn) to get help, share ideas, and get updates",
+        "translatedContent": "우리는 ❤️ 피드백, PR, 아이디어를 환영합니다! 도움 주는 방법은 다음과 같습니다:"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "oesNE2Rmwt1mK9/3N87xS/2/ahx+XtsQoBN5HLQkKyA=",
+        "originContent": "## 🤝 Contribute",
+        "translatedContent": "- Elkar가 유용하다면, GitHub에서 ⭐️를 눌러주세요! — 프로젝트 지원에 큰 힘이 됩니다!"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 버그 신고나 기능 요청은 [이슈](https://github.com/elkar-ai/elkar/issues)를 통해 해주세요."
+      },
+      {
+        "row": 27,
+        "rowsha": "2Yyg84Ccsr7RCPLVv8EACN9Uw72qw10uZz6wLi/Pu7k=",
+        "originContent": "We ❤️ feedback, PRs, and ideas! Here's how to help:",
+        "translatedContent": "- Elkar로 만든 것을 [여기](https://discord.gg/HDB4rkqn)에서 자랑해보세요!"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [풀 리퀘스트](https://github.com/elkar-ai/elkar/pulls)를 제출하면 가능한 빨리 검토하겠습니다."
+      },
+      {
+        "row": 29,
+        "rowsha": "Sw+NpNJG8pOrazvcJEw8eKnKOkJFx+iZejFWs3jkoL0=",
+        "originContent": "- If you find Elkar useful, a GitHub ⭐️ would mean a lot! — it helps to support the project!",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "HBCvLMSWnXLrDUdE31MZPxE2bPtofFAli64I67GM9RE=",
+        "originContent": "- Report bugs or request features via [issues](https://github.com/elkar-ai/elkar/issues).",
+        "translatedContent": "## 🔒 라이선스  "
+      },
+      {
+        "row": 31,
+        "rowsha": "5rQUgiowSnIwUG0TidGW2kAyFi9I9C+9vVqauRl1Wew=",
+        "originContent": "- Show off what you've built with Elkar [here](https://discord.gg/HDB4rkqn)! ",
+        "translatedContent": "이 프로젝트는 MIT 라이선스에 따라 배포됩니다 – 자세한 내용은 [LICENSE](https://github.com/elkar-ai/elkar-a2a/blob/main/LICENCE) 파일을 참조하세요."
+      },
+      {
+        "row": 32,
+        "rowsha": "TOYEIR7kzzXXWHfDYnAh6IdJj7+wI03w/6V8L/Ouwfo=",
+        "originContent": "- Submit [pull requests](https://github.com/elkar-ai/elkar/pulls), and we'll review it as soon as possible.",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "Dhoo/H5lo8FuOwNG7NOPOJaHMkzUXUZysc5ed3/UkJ4=",
+        "originContent": "## 🔒 License  ",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "x+r2pa5ZQj7NAFcMtpG17JLTHuSJ2/uQkVUmiBJlXlY=",
+        "originContent": "This project is licensed under the MIT License – see the [LICENSE](https://github.com/elkar-ai/elkar-a2a/blob/main/LICENCE) file for details.",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

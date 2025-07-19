@@ -1,0 +1,1371 @@
+[
+  {
+    "Id": 1,
+    "Content": "![icon](https://raw.githubusercontent.com/totovr46/fastdock/main/Icon2Nobg.png)\n\n# Fastdock\n\nA simple web-based Docker container management interface with a modern design. This application provides a fast and intuitive way to start and stop Docker containers on the go through a beautiful web interface.\n\n🎯 [Live Demo](https://fastdock.salvatoremusumeci.com)\n\n![Fastdock Interface](https://raw.githubusercontent.com/totovr46/fastdock/main/fast-demo.png)\n![Fastdock iOS Interface](https://raw.githubusercontent.com/totovr46/fastdock/main/iphone.png)\n\n## ⚠️ Security Notice\n\n**This application is designed for internal use only and should be deployed behind a VPN or in a secure network environment.**\n\n* No authentication or authorization mechanisms\n* Direct access to Docker daemon\n* File upload capabilities without advanced validation\n* Suitable for development/staging environments only\n\n## ✨ Features\n\n* **Real-time Container Management**: Start and stop Docker containers\n* **Multi-Server Management**: Manage Docker containers across multiple servers from a single interface\n* **Server Selector**: Quickly switch between local and remote servers\n* **Add/Edit/Delete Servers**: Configure remote servers with custom name, address, and port\n* **Server-Aware Display**: Container cards show which server they belong to\n* **Custom Container Icons**: Upload custom icons for better visual identification\n* **Container Renaming**: Assign custom names to containers\n* **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices\n\n## 🚀 Quick Start\n\n### Prerequisites\n\n* Node.js >= 16.0.0\n* Docker daemon running\n* Docker socket accessible (`/var/run/docker.sock`)\n\n### Installation\n\n1. **Clone the repository**\n",
+    "ContentSha": "4n+fJF6LdJo3IGgsD6lMM37MAuAOQ9+lFQ4i8x7V75I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "![icon](https://raw.githubusercontent.com/totovr46/fastdock/main/Icon2Nobg.png)\n\n# Fastdock\n\n一个简单的基于网页的 Docker 容器管理界面，具有现代设计风格。该应用通过美观的网页界面，提供了一种快速直观的方式来随时启动和停止 Docker 容器。\n\n🎯 [在线演示](https://fastdock.salvatoremusumeci.com)\n\n![Fastdock 界面](https://raw.githubusercontent.com/totovr46/fastdock/main/fast-demo.png)\n![Fastdock iOS 界面](https://raw.githubusercontent.com/totovr46/fastdock/main/iphone.png)\n\n## ⚠️ 安全提醒\n\n**此应用仅供内部使用，应部署在 VPN 之后或安全的网络环境中。**\n\n* 无身份验证或授权机制\n* 直接访问 Docker 守护进程\n* 文件上传功能无高级验证\n* 仅适用于开发/测试环境\n\n## ✨ 功能\n\n* **实时容器管理**：启动和停止 Docker 容器\n* **多服务器管理**：通过单一界面管理多台服务器上的 Docker 容器\n* **服务器选择器**：快速切换本地和远程服务器\n* **添加/编辑/删除服务器**：配置远程服务器的自定义名称、地址和端口\n* **服务器感知显示**：容器卡片显示所属服务器\n* **自定义容器图标**：上传自定义图标以便更好识别\n* **容器重命名**：为容器分配自定义名称\n* **响应式设计**：在桌面、平板和移动设备上无缝运行\n\n## 🚀 快速开始\n\n### 前提条件\n\n* Node.js >= 16.0.0\n* Docker 守护进程运行中\n* 可访问 Docker 套接字（`/var/run/docker.sock`）\n\n### 安装\n\n1. **克隆代码库**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "1ZkTBYCdrb77QiUeJHlk04j/Abj/tKvgVqr+DhVvJSc=",
+        "originContent": "![icon](https://raw.githubusercontent.com/totovr46/fastdock/main/Icon2Nobg.png)",
+        "translatedContent": "![icon](https://raw.githubusercontent.com/totovr46/fastdock/main/Icon2Nobg.png)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Gq2+1fMz03z5EjLByIxsLXCgbEurJfkz/QrDqdN7zIE=",
+        "originContent": "# Fastdock",
+        "translatedContent": "# Fastdock"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "zo71PMhrnbeKAYTBjmmv7l0uSC1yZ8JlK82JU01O+4s=",
+        "originContent": "A simple web-based Docker container management interface with a modern design. This application provides a fast and intuitive way to start and stop Docker containers on the go through a beautiful web interface.",
+        "translatedContent": "一个简单的基于网页的 Docker 容器管理界面，具有现代设计风格。该应用通过美观的网页界面，提供了一种快速直观的方式来随时启动和停止 Docker 容器。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "VDuL9bT+r4VYK6ZDoHQHD+CvZT8pj0UgUOBE1aMdGDI=",
+        "originContent": "🎯 [Live Demo](https://fastdock.salvatoremusumeci.com)",
+        "translatedContent": "🎯 [在线演示](https://fastdock.salvatoremusumeci.com)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "OpFpcPFK9JDvz5EPSFSnUyh1oYhiONK/dN5brGEy/KI=",
+        "originContent": "![Fastdock Interface](https://raw.githubusercontent.com/totovr46/fastdock/main/fast-demo.png)",
+        "translatedContent": "![Fastdock 界面](https://raw.githubusercontent.com/totovr46/fastdock/main/fast-demo.png)"
+      },
+      {
+        "row": 10,
+        "rowsha": "x+g9Qybq0zMEpcb3FvyimLcyUY5usmgbnAZdQqDAFq0=",
+        "originContent": "![Fastdock iOS Interface](https://raw.githubusercontent.com/totovr46/fastdock/main/iphone.png)",
+        "translatedContent": "![Fastdock iOS 界面](https://raw.githubusercontent.com/totovr46/fastdock/main/iphone.png)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "KR1ZiBO36pgPB/I7He66Vgof+2BqVsDbqhnb4yoOiXc=",
+        "originContent": "## ⚠️ Security Notice",
+        "translatedContent": "## ⚠️ 安全提醒"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "OuT8pWO5AF29NXiOOO/FFhEPaWtxuluHJ97hXMr65Q8=",
+        "originContent": "**This application is designed for internal use only and should be deployed behind a VPN or in a secure network environment.**",
+        "translatedContent": "**此应用仅供内部使用，应部署在 VPN 之后或安全的网络环境中。**"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "5ruH4zyYy9U9iMrspFwgBos8v1Q/k8r7vafi7OyASis=",
+        "originContent": "* No authentication or authorization mechanisms",
+        "translatedContent": "* 无身份验证或授权机制"
+      },
+      {
+        "row": 17,
+        "rowsha": "sIxlFFYeIMLqs7DXwGg+2KO3Q32YwUzZHUNfhylEBz4=",
+        "originContent": "* Direct access to Docker daemon",
+        "translatedContent": "* 直接访问 Docker 守护进程"
+      },
+      {
+        "row": 18,
+        "rowsha": "S/iJiPrWQ0I0anXFgFf5n4AOgq3lOeOAyABdW7a0J2Y=",
+        "originContent": "* File upload capabilities without advanced validation",
+        "translatedContent": "* 文件上传功能无高级验证"
+      },
+      {
+        "row": 19,
+        "rowsha": "+4ZEbqYQtPd5EgDLWIz3IKfO1CBIhwEewCIVwsY+0Js=",
+        "originContent": "* Suitable for development/staging environments only",
+        "translatedContent": "* 仅适用于开发/测试环境"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "VzDxHMl0vKby6BK5RJlfHxPFit1vMlpPiL5Nfi50CNE=",
+        "originContent": "## ✨ Features",
+        "translatedContent": "## ✨ 功能"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "4PP/yngdO1QrybEtbGVtADGO0QsOzt/C2fuFOOnjo9s=",
+        "originContent": "* **Real-time Container Management**: Start and stop Docker containers",
+        "translatedContent": "* **实时容器管理**：启动和停止 Docker 容器"
+      },
+      {
+        "row": 24,
+        "rowsha": "ymQf0i+vqPFDt+J5oS7ZqbxbpUb8DPkr+ylEv6+TPGg=",
+        "originContent": "* **Multi-Server Management**: Manage Docker containers across multiple servers from a single interface",
+        "translatedContent": "* **多服务器管理**：通过单一界面管理多台服务器上的 Docker 容器"
+      },
+      {
+        "row": 25,
+        "rowsha": "JcYluP84IjVonkM5fiFU6ry/Bviq776Uu2Hh1wfBAOo=",
+        "originContent": "* **Server Selector**: Quickly switch between local and remote servers",
+        "translatedContent": "* **服务器选择器**：快速切换本地和远程服务器"
+      },
+      {
+        "row": 26,
+        "rowsha": "+r0WAhJy6fra1McDHZ3Q/j/oeMEqA0FmU2QmFOokwGY=",
+        "originContent": "* **Add/Edit/Delete Servers**: Configure remote servers with custom name, address, and port",
+        "translatedContent": "* **添加/编辑/删除服务器**：配置远程服务器的自定义名称、地址和端口"
+      },
+      {
+        "row": 27,
+        "rowsha": "Rlti+cbv4stWJ0EfzqVWwUcUHI4EiZJaW2mGjqFZc6M=",
+        "originContent": "* **Server-Aware Display**: Container cards show which server they belong to",
+        "translatedContent": "* **服务器感知显示**：容器卡片显示所属服务器"
+      },
+      {
+        "row": 28,
+        "rowsha": "GhhxnXa2e2qtCRJEBfVZQfJKezmA6ZAxRD5K9EUkJxQ=",
+        "originContent": "* **Custom Container Icons**: Upload custom icons for better visual identification",
+        "translatedContent": "* **自定义容器图标**：上传自定义图标以便更好识别"
+      },
+      {
+        "row": 29,
+        "rowsha": "emRJ3H6o5o+W7jAdEhrIWo5Q+KO3aJuc0hYvJHIJJsY=",
+        "originContent": "* **Container Renaming**: Assign custom names to containers",
+        "translatedContent": "* **容器重命名**：为容器分配自定义名称"
+      },
+      {
+        "row": 30,
+        "rowsha": "VdF7AAtEX0QGNnAgwP8SOPFBMPQbDImlOPv3mb0GnDw=",
+        "originContent": "* **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices",
+        "translatedContent": "* **响应式设计**：在桌面、平板和移动设备上无缝运行"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "jsdHdcNegTOe5j0D0TqKpRz5kFDyybyTTtR/jemcS5A=",
+        "originContent": "## 🚀 Quick Start",
+        "translatedContent": "## 🚀 快速开始"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+        "originContent": "### Prerequisites",
+        "translatedContent": "### 前提条件"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "H5Fyt05qQkihxzfFPrOMjdJyVInphNAM3EjHJyIwVOA=",
+        "originContent": "* Node.js >= 16.0.0",
+        "translatedContent": "* Node.js >= 16.0.0"
+      },
+      {
+        "row": 37,
+        "rowsha": "fBTBr6LcLwvRm1MTNsB7S6eD8P8X0uA12r8J3/a3OvQ=",
+        "originContent": "* Docker daemon running",
+        "translatedContent": "* Docker 守护进程运行中"
+      },
+      {
+        "row": 38,
+        "rowsha": "B3YGTu6ZbdMh2TMqvmuohDU3KgnjDh+kIJkq8o+l4OM=",
+        "originContent": "* Docker socket accessible (`/var/run/docker.sock`)",
+        "translatedContent": "* 可访问 Docker 套接字（`/var/run/docker.sock`）"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+        "originContent": "### Installation",
+        "translatedContent": "### 安装"
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "41KRNOQjdXK2QCFG/dys2HunN8Ws5viJNOwnw9PuL2o=",
+        "originContent": "1. **Clone the repository**",
+        "translatedContent": "1. **克隆代码库**"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\ngit clone https://github.com/totovr46/fastdock.git\ncd fastdock\n```",
+    "ContentSha": "5W8x0DZ1Q/NP1LDVEUZo137+AvOQIxo/ahOiaQLWtZA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/totovr46/fastdock.git\ncd fastdock\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "OaIkqp5ZZjWyUCu9Mx2eV6wx+PiIKIJnaKf0nvYLzr8=",
+        "originContent": "git clone https://github.com/totovr46/fastdock.git",
+        "translatedContent": "git clone https://github.com/totovr46/fastdock.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "3RiH7K6ZMCKc4XprHERVtVVC+mA7QYJ+8rf8/KWeOF8=",
+        "originContent": "cd fastdock",
+        "translatedContent": "cd fastdock"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n2. **Install dependencies**\n",
+    "ContentSha": "DiTV3Ebj3JLiurp8qWtcLHHJNBpw9K0nkW5KyhjBBmw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. **安装依赖项**\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. **安装依赖项**"
+      },
+      {
+        "row": 2,
+        "rowsha": "Azx+pnnVfM7UJNGVkYBz0H+Sx3urhnNn74Ceu15YMTg=",
+        "originContent": "2. **Install dependencies**",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nnpm install\n```",
+    "ContentSha": "61pQ/Fja9zY+MRdm6d0xrWHYXeOM3qnlkhFYQhpctLs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpm install\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Oi3AriHrVteKDra70PRRLaBPn5T27mxqM4w+TLGo/5E=",
+        "originContent": "npm install",
+        "translatedContent": "npm install"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n3. **Start the application**\n",
+    "ContentSha": "6akr3rRrrC/1oOFVrVK83uo9pO6DXlaYTI3xrx87sDk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. **启动应用程序**\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. **启动应用程序**"
+      },
+      {
+        "row": 2,
+        "rowsha": "rV2MxPdU481pJ912FxlqBuRlvb1E+GzsAW+G2AP5X+Q=",
+        "originContent": "3. **Start the application**",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\nnpm start\n```",
+    "ContentSha": "gPW5O7Fwl+uhuenZ7vNAQpn6NbLpYmRRAlnUMJlpTx8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpm start\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Br9K+ZECU4r58cLP1aW0WHWQEWfcON0tS0JaPOdq3sw=",
+        "originContent": "npm start",
+        "translatedContent": "npm start"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n4. **Access the interface**\n   Open your browser and navigate to `http://serverIP:3080`\n\n## 📋 API Endpoints\n\n### Container Operations\n\n* `GET /api/containers` - List all containers on the selected server\n* `POST /api/containers/:id/start` - Start a container\n* `POST /api/containers/:id/stop` - Stop a container\n* `GET /api/containers/name/:name` - Find container by name\n\n### Container Settings\n\n* `POST /api/containers/settings/:id` - Update container settings (name, icon)\n* `GET /api/containers/settings` - Get all container settings\n\n### Server Management\n\n* `GET /api/servers` - List configured remote servers\n* `POST /api/servers` - Add a new server\n* `PUT /api/servers/:id` - Edit an existing server\n* `DELETE /api/servers/:id` - Remove a server\n\n## 🛠️ Development\n\n### Project Structure\n",
+    "ContentSha": "POVC4oo4vABpHXATji+2ZW6S7ryWZXP0oisMEzrSwdA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "4. **访问界面**  \n   打开浏览器并导航至 `http://serverIP:3080`  \n\n## 📋 API 接口  \n\n### 容器操作  \n\n* `GET /api/containers` - 列出所选服务器上的所有容器  \n* `POST /api/containers/:id/start` - 启动容器  \n* `POST /api/containers/:id/stop` - 停止容器  \n* `GET /api/containers/name/:name` - 通过名称查找容器  \n\n### 容器设置  \n\n* `POST /api/containers/settings/:id` - 更新容器设置（名称，图标）  \n* `GET /api/containers/settings` - 获取所有容器设置  \n\n### 服务器管理  \n\n* `GET /api/servers` - 列出已配置的远程服务器  \n* `POST /api/servers` - 添加新服务器  \n* `PUT /api/servers/:id` - 编辑现有服务器  \n* `DELETE /api/servers/:id` - 删除服务器  \n\n## 🛠️ 开发  \n\n### 项目结构  \n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "4. **访问界面**  "
+      },
+      {
+        "row": 2,
+        "rowsha": "lnxd/nIU/aFAikKZjXiy+iay9P56Z51bJL6+FY4/ZxE=",
+        "originContent": "4. **Access the interface**",
+        "translatedContent": "   打开浏览器并导航至 `http://serverIP:3080`  "
+      },
+      {
+        "row": 3,
+        "rowsha": "2Y5sMgcreMwL0wfozgmOwX7wSu5KiszjysAhKt1LEQw=",
+        "originContent": "   Open your browser and navigate to `http://serverIP:3080`",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📋 API 接口  "
+      },
+      {
+        "row": 5,
+        "rowsha": "DzLokWTsNYcGUTd46zlHOaj+pZFViympzkVfIS9yHi0=",
+        "originContent": "## 📋 API Endpoints",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 容器操作  "
+      },
+      {
+        "row": 7,
+        "rowsha": "QaEeyk9P02wXPO9XpvWaEd8JcZ3NjZ6U+euvEhUcO1o=",
+        "originContent": "### Container Operations",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* `GET /api/containers` - 列出所选服务器上的所有容器  "
+      },
+      {
+        "row": 9,
+        "rowsha": "Sr5ThriPT+ctHnftAt72or8INEzgNczEZFsdLsP3kc8=",
+        "originContent": "* `GET /api/containers` - List all containers on the selected server",
+        "translatedContent": "* `POST /api/containers/:id/start` - 启动容器  "
+      },
+      {
+        "row": 10,
+        "rowsha": "WOBFwmNWlyl848rKIManYpmpR2Gdrve6t9HSbavKR/E=",
+        "originContent": "* `POST /api/containers/:id/start` - Start a container",
+        "translatedContent": "* `POST /api/containers/:id/stop` - 停止容器  "
+      },
+      {
+        "row": 11,
+        "rowsha": "rrCcUmJS7f4BuK2l/c43NA0pA75wDyQV1bhmdFNF6tw=",
+        "originContent": "* `POST /api/containers/:id/stop` - Stop a container",
+        "translatedContent": "* `GET /api/containers/name/:name` - 通过名称查找容器  "
+      },
+      {
+        "row": 12,
+        "rowsha": "hwiaCD0MWCxi+WOQRpJU6lnJwv5viZFfzfi28/rJ7Fs=",
+        "originContent": "* `GET /api/containers/name/:name` - Find container by name",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 容器设置  "
+      },
+      {
+        "row": 14,
+        "rowsha": "us1dUMlHxzu4nU87GwN8/FqI2PYOVJlcyygEVjzDjhM=",
+        "originContent": "### Container Settings",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* `POST /api/containers/settings/:id` - 更新容器设置（名称，图标）  "
+      },
+      {
+        "row": 16,
+        "rowsha": "SHJrz+cVpeOtd9frQPCuBJfycbpY8euVxzvLAFaMHU8=",
+        "originContent": "* `POST /api/containers/settings/:id` - Update container settings (name, icon)",
+        "translatedContent": "* `GET /api/containers/settings` - 获取所有容器设置  "
+      },
+      {
+        "row": 17,
+        "rowsha": "gWvdpCN7FJFq6a8HX8+iWsm1Yozyk4k5TWh+T+2ZOaQ=",
+        "originContent": "* `GET /api/containers/settings` - Get all container settings",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 服务器管理  "
+      },
+      {
+        "row": 19,
+        "rowsha": "xCjIKY9HMyJHrrtK4iqvMzohiyc3yMGwUdzgpF0d94M=",
+        "originContent": "### Server Management",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* `GET /api/servers` - 列出已配置的远程服务器  "
+      },
+      {
+        "row": 21,
+        "rowsha": "8TuqnpHhfcjC7ghXSCWOS8igy9xwZ+HylZjiIIhxr0o=",
+        "originContent": "* `GET /api/servers` - List configured remote servers",
+        "translatedContent": "* `POST /api/servers` - 添加新服务器  "
+      },
+      {
+        "row": 22,
+        "rowsha": "ujXVGdkRkoZr7VZpmj3oF92fs4Bjhf1kjsLL3mrePos=",
+        "originContent": "* `POST /api/servers` - Add a new server",
+        "translatedContent": "* `PUT /api/servers/:id` - 编辑现有服务器  "
+      },
+      {
+        "row": 23,
+        "rowsha": "lvLTKAmOp/h6ewp2RA363QL2U6Ar3AlVYA50vmZNNzA=",
+        "originContent": "* `PUT /api/servers/:id` - Edit an existing server",
+        "translatedContent": "* `DELETE /api/servers/:id` - 删除服务器  "
+      },
+      {
+        "row": 24,
+        "rowsha": "MbIMonxbXy7PLa1V4+pdEckEIOPs8WX8ttMnjabR7ao=",
+        "originContent": "* `DELETE /api/servers/:id` - Remove a server",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🛠️ 开发  "
+      },
+      {
+        "row": 26,
+        "rowsha": "GYzMBSmV8e+G296EMar1d6CUbLJVjJQDEyk+TsL/c4g=",
+        "originContent": "## 🛠️ Development",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 项目结构  "
+      },
+      {
+        "row": 28,
+        "rowsha": "LhSV6uyxzWqT0ogFCmU00Wa6CfiB7nPMeRVYFMvBY0I=",
+        "originContent": "### Project Structure",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\nfastdock/\n├── server.js                  # Main server file\n├── package.json              # Dependencies and scripts\n├── public/\n│   ├── index.html            # Main web interface\n│   ├── assets/               # Uploaded container icons\n│   ├── containerSettings.json # Container customization data\n│   └── servers.json          # Stored remote server configurations\n└── README.md\n```",
+    "ContentSha": "18ssdfXsCHC7LWEwrbebiE29gF5ZobLP0gDYUL8IP0A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nfastdock/\n├── server.js                  # Main server file\n├── package.json              # Dependencies and scripts\n├── public/\n│   ├── index.html            # Main web interface\n│   ├── assets/               # Uploaded container icons\n│   ├── containerSettings.json # Container customization data\n│   └── servers.json          # Stored remote server configurations\n└── README.md\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "J78r0qfKrGe1BSxh02NzVgFw10Ldxyv4rAN3YlxWU54=",
+        "originContent": "fastdock/",
+        "translatedContent": "fastdock/"
+      },
+      {
+        "row": 3,
+        "rowsha": "vaIaSaJ46ExXCJhzMt0QSUEqwHxoceLUN/VO+xFnDrM=",
+        "originContent": "├── server.js                  # Main server file",
+        "translatedContent": "├── server.js                  # Main server file"
+      },
+      {
+        "row": 4,
+        "rowsha": "q8v9T1yzlyBNY00n459sHmEOr/9Q0w+YIVawcfZW70s=",
+        "originContent": "├── package.json              # Dependencies and scripts",
+        "translatedContent": "├── package.json              # Dependencies and scripts"
+      },
+      {
+        "row": 5,
+        "rowsha": "xtmQ8f4vSqhbaDJhquLvqBph75tjdLW4OqWRXNM1fyQ=",
+        "originContent": "├── public/",
+        "translatedContent": "├── public/"
+      },
+      {
+        "row": 6,
+        "rowsha": "i+asvs4nUb+mAoWp4dbAhcvOff1aKfqylCEV8FzvQsU=",
+        "originContent": "│   ├── index.html            # Main web interface",
+        "translatedContent": "│   ├── index.html            # Main web interface"
+      },
+      {
+        "row": 7,
+        "rowsha": "ShELBZv30/a39jMD9iz3Rs+RgQL9kAzfFp4TctigOOw=",
+        "originContent": "│   ├── assets/               # Uploaded container icons",
+        "translatedContent": "│   ├── assets/               # Uploaded container icons"
+      },
+      {
+        "row": 8,
+        "rowsha": "Qo14aJdZAeHklORLuyT+DIajRyj+amIrP8EZHGCOJwM=",
+        "originContent": "│   ├── containerSettings.json # Container customization data",
+        "translatedContent": "│   ├── containerSettings.json # Container customization data"
+      },
+      {
+        "row": 9,
+        "rowsha": "xHkwbc5749YO82iDGEyRmx5cIXApI6Agsz1Cr2K9IWQ=",
+        "originContent": "│   └── servers.json          # Stored remote server configurations",
+        "translatedContent": "│   └── servers.json          # Stored remote server configurations"
+      },
+      {
+        "row": 10,
+        "rowsha": "lngTS0luzJxE2sC89RcyxC5uoAA5tZ/vO4BNmQ7DjPY=",
+        "originContent": "└── README.md",
+        "translatedContent": "└── README.md"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## 🔧 Configuration\n\n### Environment Variables\n\n* `PORT` - Server port (default: 3080), you can change it in the server.js file as you prefer\n\n### Docker Socket\n\nThe application requires access to the Docker socket. Ensure Docker is running and the socket is accessible:\n\n**Linux/macOS:**\n",
+    "ContentSha": "3OiM9yCEu9yJ2D0Sdm1gLZaXT0aQhOC43/4PkDhpoYk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\n## 🔧 配置\n\n### 环境变量\n\n* `PORT` - 服务器端口（默认：3080），你可以在 server.js 文件中根据需要更改\n\n### Docker 套接字\n\n应用程序需要访问 Docker 套接字。确保 Docker 正在运行且套接字可访问：\n\n**Linux/macOS:**\n</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "Qrhuldxx9LaEVTFNDTzl1dnmoL/UVFF1ECqQfbiCcLI=",
+        "originContent": "## 🔧 Configuration",
+        "translatedContent": "## 🔧 配置"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "z0e1mPGeKrXDpgwT5hpUsqWlMTlzlzBoJvcLaIVPlLI=",
+        "originContent": "### Environment Variables",
+        "translatedContent": "### 环境变量"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Bw3MY5vaWgw2moNzet650Uh3MpxSCYJBXjPDtt4s678=",
+        "originContent": "* `PORT` - Server port (default: 3080), you can change it in the server.js file as you prefer",
+        "translatedContent": "* `PORT` - 服务器端口（默认：3080），你可以在 server.js 文件中根据需要更改"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "PU3Ttrmu+fTHSMhMAnCakd5beNheaGYO3zwJnSi6qe0=",
+        "originContent": "### Docker Socket",
+        "translatedContent": "### Docker 套接字"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "7DFEF4jcEod/P6xDCJgp6k5RZQer4s0Q9LeN4jfo/WU=",
+        "originContent": "The application requires access to the Docker socket. Ensure Docker is running and the socket is accessible:",
+        "translatedContent": "应用程序需要访问 Docker 套接字。确保 Docker 正在运行且套接字可访问："
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "ojmizz43O3Ee/DpHM2ii9QLQLSgDM+rlcMntOhiMlWg=",
+        "originContent": "**Linux/macOS:**",
+        "translatedContent": "**Linux/macOS:**"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\nls -la /var/run/docker.sock\n```",
+    "ContentSha": "Mo5JGfiagHC8qmw4kYNE9rDoZTXyHbNJEFXjTlKdh3g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nls -la /var/run/docker.sock\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "6lib3jJyhyZ6f0I4uEXzaddKf5cnsUuw987jckf0jfA=",
+        "originContent": "ls -la /var/run/docker.sock",
+        "translatedContent": "ls -la /var/run/docker.sock"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n**Windows (WSL):**\n",
+    "ContentSha": "hJiLBoUR4ZVw2ibzuEveVcCbJalz2qEjYeDK+Izp9FQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**Windows (WSL)：**\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**Windows (WSL)：**"
+      },
+      {
+        "row": 2,
+        "rowsha": "PRGMmq4o/8rFR7GW6dnlKLwaKJF/j5sCkXAmUAP2nKc=",
+        "originContent": "**Windows (WSL):**",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\n# Ensure Docker Desktop is running\ndocker ps\n```",
+    "ContentSha": "1D2HnQwV0nTRUHCOKUsY6HZgfj9PmJzOnXVc/d6M2iE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Ensure Docker Desktop is running\ndocker ps\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "HvZS0MQ/zEjJEqxhy6HBMgfkJYOKL/GrzZDmeUhf8P4=",
+        "originContent": "# Ensure Docker Desktop is running",
+        "translatedContent": "# Ensure Docker Desktop is running"
+      },
+      {
+        "row": 3,
+        "rowsha": "P+Vw9DlYGYmN7Lw+ilXgWXv37fSR1h+8dLQTj6qemb0=",
+        "originContent": "docker ps",
+        "translatedContent": "docker ps"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n## 🚦 Usage\n\n### Basic Operations\n\n1. **Select Server**: Use the dropdown menu to choose a local or remote server\n2. **View Containers**: See all containers for the selected server\n3. **Start/Stop**: Use the buttons to manage containers as usual\n4. **Edit Container**: Click the pencil icon to change name or icon\n\n### Container Customization\n\n1. Click the edit icon (pencil) on any container card\n2. Upload a custom icon (image files only)\n3. Set a custom name for easier identification\n4. Click \"Save\" to apply changes\n\n### Server Management\n\n1. Click the server selector dropdown\n2. Select \"Add Server\" to configure a new remote Docker server\n3. Use the edit or delete options to manage existing servers\n4. Server data is persisted and automatically loaded on startup\n\n### Status Indicators\n\n* 🟢 **Green**: Container is running\n* 🔴 **Red**: Container is stopped\n\n## 🔐 Security Considerations\n\n### Network Security\n\n* **Deploy behind VPN**: Ensure the application is only accessible through a secure VPN connection\n* **Internal Network**: Use only in trusted internal networks\n\n### File Upload Security\n\n* Only image files are accepted for container icons\n* Files are stored in the `public/assets/` directory\n\n### Docker Access\n\n* The application requires Docker socket access\n* All VPN users will have full container management capabilities\n* Consider Docker socket security best practices\n\n## 🚨 Limitations\n\n* **No User Authentication**: All users have the same access level\n* **No Audit Logging**: Container operations are not logged\n* **Local Storage**: Settings are stored in local JSON files\n* **Single Instance**: Not designed for multi-instance deployment\n\n## 🛌 Multi-Server Support\n\nAs of **v1.1.0**, FastDock supports managing containers across multiple Docker hosts. Key points:\n\n* Add servers with custom name, address, and port\n* Switch between servers using the dropdown selector\n* View and manage containers per-server\n* Each container shows the server it belongs to\n* Full backwards compatibility with single-server setups\n* Server list and settings are persisted locally\n\n## 🤝 Contributing\n\n1. Fork the repository\n2. Create a feature branch (`git checkout -b feature/amazing-feature`)\n3. Commit your changes (`git commit -m 'Add amazing feature'`)\n4. Push to the branch (`git push origin feature/amazing-feature`)\n5. Open a Pull Request\n\n---\n\n**⚠️ Important**: This application provides direct access to Docker containers. Use only in secure, controlled environments with trusted users.\n![icon](https://raw.githubusercontent.com/totovr46/fastdock/main/Icon.png)\n",
+    "ContentSha": "QHhE7s/kBGGlpd0OGwloHgyr9cehNCv67SquYozcAC0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🚦 使用说明\n\n### 基本操作\n\n1. **选择服务器**：使用下拉菜单选择本地或远程服务器\n2. **查看容器**：查看所选服务器的所有容器\n3. **启动/停止**：使用按钮按常规方式管理容器\n4. **编辑容器**：点击铅笔图标更改名称或图标\n\n### 容器自定义\n\n1. 点击任意容器卡上的编辑图标（铅笔）\n2. 上传自定义图标（仅限图像文件）\n3. 设置自定义名称以便识别\n4. 点击“保存”应用更改\n\n### 服务器管理\n\n1. 点击服务器选择下拉菜单\n2. 选择“添加服务器”配置新的远程Docker服务器\n3. 使用编辑或删除选项管理现有服务器\n4. 服务器数据被持久保存并自动加载\n\n### 状态指示\n\n* 🟢 **绿色**：容器正在运行\n* 🔴 **红色**：容器已停止\n\n## 🔐 安全注意事项\n\n### 网络安全\n\n* **部署于VPN后面**：确保应用只能通过安全VPN连接访问\n* **内部网络**：仅在可信的内部网络中使用\n\n### 文件上传安全\n\n* 仅接受容器图标的图像文件\n* 文件存储在 `public/assets/` 目录\n\n### Docker访问\n\n* 应用需要Docker socket访问权限\n* 所有VPN用户将拥有完整容器管理权限\n* 请遵循Docker socket安全最佳实践\n\n## 🚨 限制\n\n* **无用户认证**：所有用户访问权限相同\n* **无审计日志**：容器操作不记录日志\n* **本地存储**：设置存储在本地JSON文件\n* **单实例**：不支持多实例部署\n\n## 🛌 多服务器支持\n\n自 **v1.1.0** 起，FastDock 支持管理多个Docker主机上的容器。关键点：\n\n* 添加带自定义名称、地址和端口的服务器\n* 使用下拉选择器切换服务器\n* 分服务器查看和管理容器\n* 每个容器显示所属服务器\n* 完全兼容单服务器设置\n* 服务器列表和设置本地持久化\n\n## 🤝 贡献指南\n\n1. Fork 本仓库\n2. 创建功能分支（`git checkout -b feature/amazing-feature`）\n3. 提交更改（`git commit -m 'Add amazing feature'`）\n4. 推送分支（`git push origin feature/amazing-feature`）\n5. 提交 Pull Request\n\n---\n\n**⚠️ 重要**：此应用提供对Docker容器的直接访问。仅在安全、受控且可信用户环境中使用。\n![icon](https://raw.githubusercontent.com/totovr46/fastdock/main/Icon.png)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🚦 使用说明"
+      },
+      {
+        "row": 2,
+        "rowsha": "4Gg/qh5S1Eb+fHxGSWlAjB2ACDlk6Twd7TGmChSYMOE=",
+        "originContent": "## 🚦 Usage",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 基本操作"
+      },
+      {
+        "row": 4,
+        "rowsha": "CSD7Ocf63Q2fbDoygv5Uxe8n37I653bPJZzSgFfe4go=",
+        "originContent": "### Basic Operations",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. **选择服务器**：使用下拉菜单选择本地或远程服务器"
+      },
+      {
+        "row": 6,
+        "rowsha": "xuTk5g4mSVX3Wh+P6FM6nTHwQyP2H4CK6Obz/BiogdQ=",
+        "originContent": "1. **Select Server**: Use the dropdown menu to choose a local or remote server",
+        "translatedContent": "2. **查看容器**：查看所选服务器的所有容器"
+      },
+      {
+        "row": 7,
+        "rowsha": "3NVe5rGsi6VbxvJtEz/emA2G3cZjq2EKUdJ6pHGii7E=",
+        "originContent": "2. **View Containers**: See all containers for the selected server",
+        "translatedContent": "3. **启动/停止**：使用按钮按常规方式管理容器"
+      },
+      {
+        "row": 8,
+        "rowsha": "u7mZdGRJRBSAXHHly2jmE1RWzy2g9D2Iunn9gi/7I/U=",
+        "originContent": "3. **Start/Stop**: Use the buttons to manage containers as usual",
+        "translatedContent": "4. **编辑容器**：点击铅笔图标更改名称或图标"
+      },
+      {
+        "row": 9,
+        "rowsha": "gmixfVnBrGrZ+9SsqEkNxOD20lz15zO7yX1Lmi02OHA=",
+        "originContent": "4. **Edit Container**: Click the pencil icon to change name or icon",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 容器自定义"
+      },
+      {
+        "row": 11,
+        "rowsha": "BGEg1pEJqSxfd8UZLigwiSmwHwgMTUrbvX2JJTWZ8o4=",
+        "originContent": "### Container Customization",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 点击任意容器卡上的编辑图标（铅笔）"
+      },
+      {
+        "row": 13,
+        "rowsha": "2fnPdd40qQwWffsElMqdeBDrJWSHDAj+8JoQEmAA6E0=",
+        "originContent": "1. Click the edit icon (pencil) on any container card",
+        "translatedContent": "2. 上传自定义图标（仅限图像文件）"
+      },
+      {
+        "row": 14,
+        "rowsha": "WLr0aRW3LHw1tTUf3sBTEuq6B8u0exlV+8IBRocQD2k=",
+        "originContent": "2. Upload a custom icon (image files only)",
+        "translatedContent": "3. 设置自定义名称以便识别"
+      },
+      {
+        "row": 15,
+        "rowsha": "XOhr4IFavhFtcyEXQn+oDS+kef7wG6NdtjI8zu3VF3Y=",
+        "originContent": "3. Set a custom name for easier identification",
+        "translatedContent": "4. 点击“保存”应用更改"
+      },
+      {
+        "row": 16,
+        "rowsha": "h5RkUWhdh7n2pcMV6Z9HVoS8LtSXDQ+ymP2Uw13hCBo=",
+        "originContent": "4. Click \"Save\" to apply changes",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 服务器管理"
+      },
+      {
+        "row": 18,
+        "rowsha": "xCjIKY9HMyJHrrtK4iqvMzohiyc3yMGwUdzgpF0d94M=",
+        "originContent": "### Server Management",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 点击服务器选择下拉菜单"
+      },
+      {
+        "row": 20,
+        "rowsha": "RhAY7MZqxoAkZIk44la2yJ3yoiml22EiCrgYapsL3QI=",
+        "originContent": "1. Click the server selector dropdown",
+        "translatedContent": "2. 选择“添加服务器”配置新的远程Docker服务器"
+      },
+      {
+        "row": 21,
+        "rowsha": "qHBSpJhTQY+gUyryn/HWBf7JptiSS51Rr6GBKzKvX18=",
+        "originContent": "2. Select \"Add Server\" to configure a new remote Docker server",
+        "translatedContent": "3. 使用编辑或删除选项管理现有服务器"
+      },
+      {
+        "row": 22,
+        "rowsha": "GjB9cflzfqGnE52eBxdeuMjgNVfHxonIsi15x3XlQ10=",
+        "originContent": "3. Use the edit or delete options to manage existing servers",
+        "translatedContent": "4. 服务器数据被持久保存并自动加载"
+      },
+      {
+        "row": 23,
+        "rowsha": "FdKnS5MG0pM3ru5RGpDZghFCVvJDEWoWGPi28pCpE5k=",
+        "originContent": "4. Server data is persisted and automatically loaded on startup",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 状态指示"
+      },
+      {
+        "row": 25,
+        "rowsha": "BSWbNbERqQ4/IUpRy+eTJLWsk0HAGfFmkzIqSczofdU=",
+        "originContent": "### Status Indicators",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* 🟢 **绿色**：容器正在运行"
+      },
+      {
+        "row": 27,
+        "rowsha": "ao6ww0B+ZzcoAI3jev4gJjEHzyLZcis2Ha6oE/MjS2c=",
+        "originContent": "* 🟢 **Green**: Container is running",
+        "translatedContent": "* 🔴 **红色**：容器已停止"
+      },
+      {
+        "row": 28,
+        "rowsha": "HbO2ALfEFapyG0uWcas8qpAkub5uaX3SZpoKXmJkasM=",
+        "originContent": "* 🔴 **Red**: Container is stopped",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🔐 安全注意事项"
+      },
+      {
+        "row": 30,
+        "rowsha": "rfDydEtVse9mpyKG0ex3arNLBD6x0jqJXMYD8uBvuMA=",
+        "originContent": "## 🔐 Security Considerations",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 网络安全"
+      },
+      {
+        "row": 32,
+        "rowsha": "vQ/kI8ztfCEYHEEKiXUp3mQry/XzCnjRM9FrSqZ8wMk=",
+        "originContent": "### Network Security",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* **部署于VPN后面**：确保应用只能通过安全VPN连接访问"
+      },
+      {
+        "row": 34,
+        "rowsha": "TfzV5Gtap52oj6wWvH9p2mnLf4REul5Pj360WGW3+jo=",
+        "originContent": "* **Deploy behind VPN**: Ensure the application is only accessible through a secure VPN connection",
+        "translatedContent": "* **内部网络**：仅在可信的内部网络中使用"
+      },
+      {
+        "row": 35,
+        "rowsha": "J+QOP/x0pKYuwyI/AKm5yJrJ5KFJaAZTdpWybg1tMfg=",
+        "originContent": "* **Internal Network**: Use only in trusted internal networks",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 文件上传安全"
+      },
+      {
+        "row": 37,
+        "rowsha": "KVDker3slS+WQmfVO2LWfxKhNOb2g7sP+a7V8XIpxDw=",
+        "originContent": "### File Upload Security",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* 仅接受容器图标的图像文件"
+      },
+      {
+        "row": 39,
+        "rowsha": "wvDDYDItUDtQdTiVLAy0Ib8f4NqsaxB+sqKbek6j/ik=",
+        "originContent": "* Only image files are accepted for container icons",
+        "translatedContent": "* 文件存储在 `public/assets/` 目录"
+      },
+      {
+        "row": 40,
+        "rowsha": "IahF8y3k1Uai0UnbdrVA0je+tTKAtzhMaZS8hdMY9Wk=",
+        "originContent": "* Files are stored in the `public/assets/` directory",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Docker访问"
+      },
+      {
+        "row": 42,
+        "rowsha": "7mCpGL22Grf6exGked6NsWh5HqLuXmjIHLwkEg3WBWA=",
+        "originContent": "### Docker Access",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* 应用需要Docker socket访问权限"
+      },
+      {
+        "row": 44,
+        "rowsha": "rnza9GTuat+SkTdFFhDRMbWaDKbIe786f+EBgneSaHw=",
+        "originContent": "* The application requires Docker socket access",
+        "translatedContent": "* 所有VPN用户将拥有完整容器管理权限"
+      },
+      {
+        "row": 45,
+        "rowsha": "vzZxXWX0yhnxBsEpro+ZlHO8S4Uspcio17nLU1kBId4=",
+        "originContent": "* All VPN users will have full container management capabilities",
+        "translatedContent": "* 请遵循Docker socket安全最佳实践"
+      },
+      {
+        "row": 46,
+        "rowsha": "YY9utU+pesODXZ96fp497sERC0yhiMjCrZPIKQytf9s=",
+        "originContent": "* Consider Docker socket security best practices",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🚨 限制"
+      },
+      {
+        "row": 48,
+        "rowsha": "1z26XTVy+6GPG2I14zBM+sxJhPsrG6qN6ASG+WvwkUQ=",
+        "originContent": "## 🚨 Limitations",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* **无用户认证**：所有用户访问权限相同"
+      },
+      {
+        "row": 50,
+        "rowsha": "0i+RN50T3wfB4VWnN+CFAmhlS1M6TzS2HjUofyl0K3o=",
+        "originContent": "* **No User Authentication**: All users have the same access level",
+        "translatedContent": "* **无审计日志**：容器操作不记录日志"
+      },
+      {
+        "row": 51,
+        "rowsha": "3nSAtq1uZmIfAT9Yq1StDXhbtQ00JQKGwuZ5Srbw8AE=",
+        "originContent": "* **No Audit Logging**: Container operations are not logged",
+        "translatedContent": "* **本地存储**：设置存储在本地JSON文件"
+      },
+      {
+        "row": 52,
+        "rowsha": "yb91hdp4lJL3PwASmo+UMtC0ZCBhjhMRnHGID0s2Xyg=",
+        "originContent": "* **Local Storage**: Settings are stored in local JSON files",
+        "translatedContent": "* **单实例**：不支持多实例部署"
+      },
+      {
+        "row": 53,
+        "rowsha": "2oZBXHDJAleMi81V4cYiC4ykI1ZOtCg4GP+o+0AdJpY=",
+        "originContent": "* **Single Instance**: Not designed for multi-instance deployment",
+        "translatedContent": ""
+      },
+      {
+        "row": 54,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🛌 多服务器支持"
+      },
+      {
+        "row": 55,
+        "rowsha": "+vLnAbC/2YCWKNNZNthbmuPCfpk/wO57Uc5pH/yw8eE=",
+        "originContent": "## 🛌 Multi-Server Support",
+        "translatedContent": ""
+      },
+      {
+        "row": 56,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "自 **v1.1.0** 起，FastDock 支持管理多个Docker主机上的容器。关键点："
+      },
+      {
+        "row": 57,
+        "rowsha": "B0f8/bXIL3XNx7kVdpCT7aZlwQEcuAZ2tKgYKMd5FX8=",
+        "originContent": "As of **v1.1.0**, FastDock supports managing containers across multiple Docker hosts. Key points:",
+        "translatedContent": ""
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* 添加带自定义名称、地址和端口的服务器"
+      },
+      {
+        "row": 59,
+        "rowsha": "ME+nVh5/VtFZZxcqhz3d8CxObSPz6yjLt569RGeUViI=",
+        "originContent": "* Add servers with custom name, address, and port",
+        "translatedContent": "* 使用下拉选择器切换服务器"
+      },
+      {
+        "row": 60,
+        "rowsha": "GVrUTlblB6xu9raA3LVMHFMahbHTQYnMjqLkHFVUllc=",
+        "originContent": "* Switch between servers using the dropdown selector",
+        "translatedContent": "* 分服务器查看和管理容器"
+      },
+      {
+        "row": 61,
+        "rowsha": "HdHvLTE2HP4J135nhIKBTkYba6soIY08kl8mSjJuqXo=",
+        "originContent": "* View and manage containers per-server",
+        "translatedContent": "* 每个容器显示所属服务器"
+      },
+      {
+        "row": 62,
+        "rowsha": "cdwtwPw0UfqkTLChXTriZQR/iQ8Tdb28vP2Mm8oTgBY=",
+        "originContent": "* Each container shows the server it belongs to",
+        "translatedContent": "* 完全兼容单服务器设置"
+      },
+      {
+        "row": 63,
+        "rowsha": "VccdPG9XaS5VbopiSugM1Y7gHc0hDQ9iRWlOVfGt51w=",
+        "originContent": "* Full backwards compatibility with single-server setups",
+        "translatedContent": "* 服务器列表和设置本地持久化"
+      },
+      {
+        "row": 64,
+        "rowsha": "AzmRUreSYqz8BIn1VvdReSWg9M+VDyST04WWXKWAyjQ=",
+        "originContent": "* Server list and settings are persisted locally",
+        "translatedContent": ""
+      },
+      {
+        "row": 65,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🤝 贡献指南"
+      },
+      {
+        "row": 66,
+        "rowsha": "at6hrw28jajyC/COQshM9hi9BRHLqV9/VqOkVxuU1vQ=",
+        "originContent": "## 🤝 Contributing",
+        "translatedContent": ""
+      },
+      {
+        "row": 67,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. Fork 本仓库"
+      },
+      {
+        "row": 68,
+        "rowsha": "gKYrfInB5vs8/nXoZ513IRiv+2rnhN0mL7v7OAyCepM=",
+        "originContent": "1. Fork the repository",
+        "translatedContent": "2. 创建功能分支（`git checkout -b feature/amazing-feature`）"
+      },
+      {
+        "row": 69,
+        "rowsha": "/+/RrvV+Y/AzhbLf7MbUuw44XKN8dXVah5LXV0bd3Vo=",
+        "originContent": "2. Create a feature branch (`git checkout -b feature/amazing-feature`)",
+        "translatedContent": "3. 提交更改（`git commit -m 'Add amazing feature'`）"
+      },
+      {
+        "row": 70,
+        "rowsha": "2uIyUtsZeZogU1T3uoeJZSr6oNJNbPmBzHWJsfJK+/Q=",
+        "originContent": "3. Commit your changes (`git commit -m 'Add amazing feature'`)",
+        "translatedContent": "4. 推送分支（`git push origin feature/amazing-feature`）"
+      },
+      {
+        "row": 71,
+        "rowsha": "4HgXTVFvd8waLfce/euj8GkszY38X36kPp2lI+tqlrI=",
+        "originContent": "4. Push to the branch (`git push origin feature/amazing-feature`)",
+        "translatedContent": "5. 提交 Pull Request"
+      },
+      {
+        "row": 72,
+        "rowsha": "KG82QPX3QtVx4Nq3AUbZW8lzLhr+oyXux3dLBDN6RfY=",
+        "originContent": "5. Open a Pull Request",
+        "translatedContent": ""
+      },
+      {
+        "row": 73,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 74,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 75,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**⚠️ 重要**：此应用提供对Docker容器的直接访问。仅在安全、受控且可信用户环境中使用。"
+      },
+      {
+        "row": 76,
+        "rowsha": "m2IRBpP1N/gd2rusJbtWvwla6p3l3Dv4DJmMz6nvY80=",
+        "originContent": "**⚠️ Important**: This application provides direct access to Docker containers. Use only in secure, controlled environments with trusted users.",
+        "translatedContent": "![icon](https://raw.githubusercontent.com/totovr46/fastdock/main/Icon.png)"
+      },
+      {
+        "row": 77,
+        "rowsha": "xCxlgIzMM1QNoALFnhayNcMptpBanCQkX4V9dWitgDQ=",
+        "originContent": "![icon](https://raw.githubusercontent.com/totovr46/fastdock/main/Icon.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 78,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

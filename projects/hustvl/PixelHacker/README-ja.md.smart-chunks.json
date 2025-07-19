@@ -1,0 +1,833 @@
+[
+  {
+    "Id": 1,
+    "Content": "<div align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/LOGO.png\" width=\"280px\"></img>\n</div>\n<div align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Typing_re.gif\" width=\"320px\"></img>\n</div>\n\n<div align=\"center\">\n<h2>PixelHacker: Image Inpainting with Structural and Semantic Consistency</h2>\n\n**_SOTA performance on Places2, CelebA-HQ, and FFHQ & Superior structural and semantic consistency_**\n\n[Ziyang Xu](https://ziyangxu.top)<sup>1</sup>, [Kangsheng Duan](https://github.com/AnduinD)<sup>1</sup>, Xiaolei Shen<sup>2</sup>, Zhifeng Ding<sup>2</sup>, [Wenyu Liu](http://eic.hust.edu.cn/professor/liuwenyu)<sup>1</sup>, Xiaohu Ruan<sup>2</sup>,  \n[Xiaoxin Chen](https://scholar.google.com/citations?hl=zh-CN&user=SI_oBwsAAAAJ)<sup>2</sup>, [Xinggang Wang](https://xwcv.github.io)<sup>1 :email:</sup>\n\n(<sup>:email:</sup>) Corresponding Author.\n\n<sup>1</sup> Huazhong University of Science and Technology. <sup>2</sup> VIVO AI Lab.  \n\n[![arxiv](https://img.shields.io/badge/Paper-arXiv-orange)](https://arxiv.org/abs/2504.20438) [![license](https://img.shields.io/badge/License-Apache_2.0-blue)](LICENSE) [![Project](https://img.shields.io/badge/Project-https://hustvl.github.io/PixelHacker-purple)](https://hustvl.github.io/PixelHacker) [![Demo](https://img.shields.io/badge/Demo-Comming_Soon-b687f8)]()\n</div>\n\n<img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Pipeline.png\"></img>\n\n## 🌟Highlights\n* **Latent Categories Guidance (LCG)**: Simple yet effective inpainting paradigm with superior structural and semantic consistency. Let's advance inpainting research to challenge more complex scenarios!\n* **PixelHacker**: Diffusion-based inpainting model trained with LCG, outperforming SOTA performance across multiple natural-scene (Places2) and human-face (CelebA-HQ, and FFHQ) benchmarks!\n* **Comprehensive SOTA Performance**：\n    * **Places2** (Natural Scene)\n        * Evaluated at 512 resolution using 10k test set images with 40-50% masked regions, PixelHacker achieved the best performance with **FID 8.59** and **LPIPS 0.2026**.\n        * Evaluated at 512 resolution using 36.5k validation set images with large and small mask settings, PixelHacker achieved the best performance on **FID (large: 2.05, small: 0.82)** and **U-IDS (large:36.07, small:42.21)**, and the second best performance on **LPIPS (large:0.169, small:0.088)**.\n        * Evaluated at 256 and 512 resolutions using validation set images with a highly randomised masking strategy, PixelHacker achieved the best performance at 512 resolution with **FID 5.75 and LPIPS 0.305**, and the second best performance at 256 resolution with **FID 9.25 and LPIPS 0.367**.\n    * **CelebA-HQ** (Human-Face Scene)\n        * Evaluated at 512 resolution, PixelHacker achieved the best performance with **FID 4.75 and LPIPS 0.115**.\n    * **FFHQ** (Human-Face Scene)\n        * Evaluated at 256 resolution, PixelHacker achieved the best performance with **FID 6.35 and LPIPS 0.229**.\n\n## 🔥Updates\n\n* **`May 20, 2025`**: 🔥 We have released the [code](https://github.com/hustvl/PixelHacker) and [weights](https://huggingface.co/hustvl/PixelHacker/tree/main). The weights include the pretrained and all fine-tuned versions, each only 0.8B params. Feel free to play!\n* **`May 1, 2025`**: 🔥 We have released the [project page](https://hustvl.github.io/PixelHacker) with 63+ demos on natural and human-face scenes. Have fun! 🤗\n* **`April 30, 2025`:** 🔥 We have released the [arXiv paper](https://arxiv.org/abs/2504.20438) for PixelHacker. The code and project page will be released soon.\n\n## 🏕️Performance on Natural Scene\n\n<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Demo1.gif\" width=\"360px\"></img>\n</div>\n\n<img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Cover.png\"></img>\n\n<img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Natural-Scene.png\"></img>\n\n## 🤗Performance on Human-Face Scene\n<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Demo2.gif\" width=\"360px\"></img>\n</div>\n\n<img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Human-Face.png\"></img>\n\n## 📦Environment Setups\n* torch 2.3.0\n* transformers 4.40.0\n* diffusers 0.30.2\n* See 'requirements.txt' for detailed Python libraries required\n",
+    "ContentSha": "nuNxTAZQhszldz4yeCA/I1RfJzEWtmyQsdLiGI7pUD0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/LOGO.png\" width=\"280px\"></img>\n</div>\n<div align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Typing_re.gif\" width=\"320px\"></img>\n</div>\n\n<div align=\"center\">\n<h2>PixelHacker: 構造的および意味的整合性を備えた画像修復</h2>\n\n**_Places2、CelebA-HQ、およびFFHQでのSOTA性能＆優れた構造的および意味的整合性_**\n\n[Ziyang Xu](https://ziyangxu.top)<sup>1</sup>, [Kangsheng Duan](https://github.com/AnduinD)<sup>1</sup>, Xiaolei Shen<sup>2</sup>, Zhifeng Ding<sup>2</sup>, [Wenyu Liu](http://eic.hust.edu.cn/professor/liuwenyu)<sup>1</sup>, Xiaohu Ruan<sup>2</sup>,  \n[Xiaoxin Chen](https://scholar.google.com/citations?hl=zh-CN&user=SI_oBwsAAAAJ)<sup>2</sup>, [Xinggang Wang](https://xwcv.github.io)<sup>1 :email:</sup>\n\n(<sup>:email:</sup>) 対応著者.\n\n<sup>1</sup> 华中科技大学. <sup>2</sup> VIVO AIラボ.  \n\n[![arxiv](https://img.shields.io/badge/Paper-arXiv-orange)](https://arxiv.org/abs/2504.20438) [![license](https://img.shields.io/badge/License-Apache_2.0-blue)](LICENSE) [![Project](https://img.shields.io/badge/Project-https://hustvl.github.io/PixelHacker-purple)](https://hustvl.github.io/PixelHacker) [![Demo](https://img.shields.io/badge/Demo-Comming_Soon-b687f8)]()\n</div>\n\n<img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Pipeline.png\"></img>\n\n## 🌟ハイライト\n* **潜在カテゴリガイダンス（LCG）**：シンプルでありながら効果的な修復パラダイムで、優れた構造的および意味的整合性を実現。より複雑なシナリオに挑戦するために修復研究を前進させましょう！\n* **PixelHacker**：LCGで訓練された拡散ベースの修復モデルで、複数の自然シーン（Places2）および人間の顔（CelebA-HQ、FFHQ）ベンチマークでSOTA性能を凌駕！\n* **包括的なSOTA性能**：\n    * **Places2**（自然シーン）\n        * 40-50％のマスク領域を含む1万枚のテストセット画像を512解像度で評価し、PixelHackerは**FID 8.59**および**LPIPS 0.2026**で最高性能を達成。\n        * 大小のマスク設定で3.65万枚の検証セット画像を512解像度で評価し、PixelHackerは**FID（大: 2.05、小: 0.82）**と**U-IDS（大:36.07、小:42.21）**で最高性能を、**LPIPS（大:0.169、小:0.088）**で第2位の性能を達成。\n        * 高度にランダム化されたマスク戦略を用いた検証セット画像を256および512解像度で評価し、PixelHackerは512解像度で**FID 5.75 と LPIPS 0.305**で最高性能を、256解像度で**FID 9.25 と LPIPS 0.367**で第2位の性能を達成。\n    * **CelebA-HQ**（人間の顔シーン）\n        * 512解像度で評価し、PixelHackerは**FID 4.75 と LPIPS 0.115**で最高性能を達成。\n    * **FFHQ**（人間の顔シーン）\n        * 256解像度で評価し、PixelHackerは**FID 6.35 と LPIPS 0.229**で最高性能を達成。\n\n## 🔥アップデート\n\n* **`2025年5月20日`**: 🔥 [コード](https://github.com/hustvl/PixelHacker)と[重み](https://huggingface.co/hustvl/PixelHacker/tree/main)を公開しました。重みには事前学習済みおよびすべてのファインチューニング済みバージョンが含まれ、それぞれパラメータは0.8Bのみです。ぜひ試してみてください！\n* **`2025年5月1日`**: 🔥 自然シーンと人間の顔シーンに関する63以上のデモを含む[プロジェクトページ](https://hustvl.github.io/PixelHacker)を公開しました。お楽しみください！🤗\n* **`2025年4月30日`**: 🔥 PixelHackerの[arXiv論文](https://arxiv.org/abs/2504.20438)を公開しました。コードとプロジェクトページは近日公開予定です。\n\n## 🏕️自然シーンでの性能\n\n<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Demo1.gif\" width=\"360px\"></img>\n</div>\n\n<img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Cover.png\"></img>\n\n<img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Natural-Scene.png\"></img>\n\n## 🤗人間の顔シーンでの性能\n<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Demo2.gif\" width=\"360px\"></img>\n</div>\n\n<img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Human-Face.png\"></img>\n\n## 📦環境セットアップ\n* torch 2.3.0\n* transformers 4.40.0\n* diffusers 0.30.2\n* 詳細なPythonライブラリは'requirements.txt'を参照してください\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "WRUdPkXH6V9ptnnQT4/QPmni9t4bMkQ7XUi7sIdKRPY=",
+        "originContent": "    <img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/LOGO.png\" width=\"280px\"></img>",
+        "translatedContent": "    <img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/LOGO.png\" width=\"280px\"></img>"
+      },
+      {
+        "row": 3,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 4,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "zaFXU2AOqCT8u3vLP6SqoOze3WplUXbX3n7ipyAXeNQ=",
+        "originContent": "    <img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Typing_re.gif\" width=\"320px\"></img>",
+        "translatedContent": "    <img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Typing_re.gif\" width=\"320px\"></img>"
+      },
+      {
+        "row": 6,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 9,
+        "rowsha": "19h2IAcfjxT92NgyH1M12d+Vze4lsEfM+00JvU5CRrw=",
+        "originContent": "<h2>PixelHacker: Image Inpainting with Structural and Semantic Consistency</h2>",
+        "translatedContent": "<h2>PixelHacker: 構造的および意味的整合性を備えた画像修復</h2>"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "2AGkR2/JU4q31Kgiy9REHv9B997I9HSSoiUznVPrlTc=",
+        "originContent": "**_SOTA performance on Places2, CelebA-HQ, and FFHQ & Superior structural and semantic consistency_**",
+        "translatedContent": "**_Places2、CelebA-HQ、およびFFHQでのSOTA性能＆優れた構造的および意味的整合性_**"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "15J+W+MhMttBHvqZ9koT6Bmf6Wu6OB97n1OzWfg4BxY=",
+        "originContent": "[Ziyang Xu](https://ziyangxu.top)<sup>1</sup>, [Kangsheng Duan](https://github.com/AnduinD)<sup>1</sup>, Xiaolei Shen<sup>2</sup>, Zhifeng Ding<sup>2</sup>, [Wenyu Liu](http://eic.hust.edu.cn/professor/liuwenyu)<sup>1</sup>, Xiaohu Ruan<sup>2</sup>,  ",
+        "translatedContent": "[Ziyang Xu](https://ziyangxu.top)<sup>1</sup>, [Kangsheng Duan](https://github.com/AnduinD)<sup>1</sup>, Xiaolei Shen<sup>2</sup>, Zhifeng Ding<sup>2</sup>, [Wenyu Liu](http://eic.hust.edu.cn/professor/liuwenyu)<sup>1</sup>, Xiaohu Ruan<sup>2</sup>,  "
+      },
+      {
+        "row": 14,
+        "rowsha": "Lcp7QYiLRIDkrQXxJp2M2oG9QJEG4EOltOjt8HNi9B4=",
+        "originContent": "[Xiaoxin Chen](https://scholar.google.com/citations?hl=zh-CN&user=SI_oBwsAAAAJ)<sup>2</sup>, [Xinggang Wang](https://xwcv.github.io)<sup>1 :email:</sup>",
+        "translatedContent": "[Xiaoxin Chen](https://scholar.google.com/citations?hl=zh-CN&user=SI_oBwsAAAAJ)<sup>2</sup>, [Xinggang Wang](https://xwcv.github.io)<sup>1 :email:</sup>"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "hcydB0qiEgm0Cm+qPHRdx4qxmAaMyRBWPMtW54DKshw=",
+        "originContent": "(<sup>:email:</sup>) Corresponding Author.",
+        "translatedContent": "(<sup>:email:</sup>) 対応著者."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "YZEI6k9nDc29skVM2LjOTv1fUM5TyjaUVxmoY/HU6LA=",
+        "originContent": "<sup>1</sup> Huazhong University of Science and Technology. <sup>2</sup> VIVO AI Lab.  ",
+        "translatedContent": "<sup>1</sup> 华中科技大学. <sup>2</sup> VIVO AIラボ.  "
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "b7xViKeB9j1xQsXj9T2Fi6gxIpGLmiIhXEM+wT8Jj3o=",
+        "originContent": "[![arxiv](https://img.shields.io/badge/Paper-arXiv-orange)](https://arxiv.org/abs/2504.20438) [![license](https://img.shields.io/badge/License-Apache_2.0-blue)](LICENSE) [![Project](https://img.shields.io/badge/Project-https://hustvl.github.io/PixelHacker-purple)](https://hustvl.github.io/PixelHacker) [![Demo](https://img.shields.io/badge/Demo-Comming_Soon-b687f8)]()",
+        "translatedContent": "[![arxiv](https://img.shields.io/badge/Paper-arXiv-orange)](https://arxiv.org/abs/2504.20438) [![license](https://img.shields.io/badge/License-Apache_2.0-blue)](LICENSE) [![Project](https://img.shields.io/badge/Project-https://hustvl.github.io/PixelHacker-purple)](https://hustvl.github.io/PixelHacker) [![Demo](https://img.shields.io/badge/Demo-Comming_Soon-b687f8)]()"
+      },
+      {
+        "row": 21,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "V8SNxN2Os0DbSUgkGw8I+f0znvjwJC/Y4MWWF2iTLZA=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Pipeline.png\"></img>",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Pipeline.png\"></img>"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "bcUCYW4YH+2olbR9QwBeWpyw8kcpd1mOofT5NMlMYgc=",
+        "originContent": "## 🌟Highlights",
+        "translatedContent": "## 🌟ハイライト"
+      },
+      {
+        "row": 26,
+        "rowsha": "XYtw+JFFXCB9sYKWfuG8M57JNRJG8a4jXlYNsAXGTvM=",
+        "originContent": "* **Latent Categories Guidance (LCG)**: Simple yet effective inpainting paradigm with superior structural and semantic consistency. Let's advance inpainting research to challenge more complex scenarios!",
+        "translatedContent": "* **潜在カテゴリガイダンス（LCG）**：シンプルでありながら効果的な修復パラダイムで、優れた構造的および意味的整合性を実現。より複雑なシナリオに挑戦するために修復研究を前進させましょう！"
+      },
+      {
+        "row": 27,
+        "rowsha": "H5g1lELiOYDTpzB8NeFTgcU7vqNeqg/uyxqmZqhSXwU=",
+        "originContent": "* **PixelHacker**: Diffusion-based inpainting model trained with LCG, outperforming SOTA performance across multiple natural-scene (Places2) and human-face (CelebA-HQ, and FFHQ) benchmarks!",
+        "translatedContent": "* **PixelHacker**：LCGで訓練された拡散ベースの修復モデルで、複数の自然シーン（Places2）および人間の顔（CelebA-HQ、FFHQ）ベンチマークでSOTA性能を凌駕！"
+      },
+      {
+        "row": 28,
+        "rowsha": "Pc6mcFVNt54PoOEmhIfrtsCKGia0+ss3b4wwVFFiYrA=",
+        "originContent": "* **Comprehensive SOTA Performance**：",
+        "translatedContent": "* **包括的なSOTA性能**："
+      },
+      {
+        "row": 29,
+        "rowsha": "/bv+B4x7zuxeQLKoUv0SwmuLWQkVySDciSZ9bUo91vE=",
+        "originContent": "    * **Places2** (Natural Scene)",
+        "translatedContent": "    * **Places2**（自然シーン）"
+      },
+      {
+        "row": 30,
+        "rowsha": "ZPOszWybGGFtYwnsDAuEbgAvQf9DBYywmQ3YQy/JHv0=",
+        "originContent": "        * Evaluated at 512 resolution using 10k test set images with 40-50% masked regions, PixelHacker achieved the best performance with **FID 8.59** and **LPIPS 0.2026**.",
+        "translatedContent": "        * 40-50％のマスク領域を含む1万枚のテストセット画像を512解像度で評価し、PixelHackerは**FID 8.59**および**LPIPS 0.2026**で最高性能を達成。"
+      },
+      {
+        "row": 31,
+        "rowsha": "zcibvDConmm1IqxYIC5rw8+XLyfxZ6cdHvdYnOu3Bp0=",
+        "originContent": "        * Evaluated at 512 resolution using 36.5k validation set images with large and small mask settings, PixelHacker achieved the best performance on **FID (large: 2.05, small: 0.82)** and **U-IDS (large:36.07, small:42.21)**, and the second best performance on **LPIPS (large:0.169, small:0.088)**.",
+        "translatedContent": "        * 大小のマスク設定で3.65万枚の検証セット画像を512解像度で評価し、PixelHackerは**FID（大: 2.05、小: 0.82）**と**U-IDS（大:36.07、小:42.21）**で最高性能を、**LPIPS（大:0.169、小:0.088）**で第2位の性能を達成。"
+      },
+      {
+        "row": 32,
+        "rowsha": "Vt3pK5LBXGjG3kunA180S7iQPZMBdMUDKe4X9dOScMQ=",
+        "originContent": "        * Evaluated at 256 and 512 resolutions using validation set images with a highly randomised masking strategy, PixelHacker achieved the best performance at 512 resolution with **FID 5.75 and LPIPS 0.305**, and the second best performance at 256 resolution with **FID 9.25 and LPIPS 0.367**.",
+        "translatedContent": "        * 高度にランダム化されたマスク戦略を用いた検証セット画像を256および512解像度で評価し、PixelHackerは512解像度で**FID 5.75 と LPIPS 0.305**で最高性能を、256解像度で**FID 9.25 と LPIPS 0.367**で第2位の性能を達成。"
+      },
+      {
+        "row": 33,
+        "rowsha": "9YJoSzL/52xVz8OXcMicusS4b6s7R29cRXl8AZbKscQ=",
+        "originContent": "    * **CelebA-HQ** (Human-Face Scene)",
+        "translatedContent": "    * **CelebA-HQ**（人間の顔シーン）"
+      },
+      {
+        "row": 34,
+        "rowsha": "FR1smD/jThTBhmpAZIVPxs4i3k+buMUDzpqW6+1JJyY=",
+        "originContent": "        * Evaluated at 512 resolution, PixelHacker achieved the best performance with **FID 4.75 and LPIPS 0.115**.",
+        "translatedContent": "        * 512解像度で評価し、PixelHackerは**FID 4.75 と LPIPS 0.115**で最高性能を達成。"
+      },
+      {
+        "row": 35,
+        "rowsha": "AiYKASqXAyMPUqbHbskyYF0TI2VzzqL+2cTc0+mw4UU=",
+        "originContent": "    * **FFHQ** (Human-Face Scene)",
+        "translatedContent": "    * **FFHQ**（人間の顔シーン）"
+      },
+      {
+        "row": 36,
+        "rowsha": "52aGUT48RmzA/j1zLdxm9Otq+wxfllja2DA1ppL/R1M=",
+        "originContent": "        * Evaluated at 256 resolution, PixelHacker achieved the best performance with **FID 6.35 and LPIPS 0.229**.",
+        "translatedContent": "        * 256解像度で評価し、PixelHackerは**FID 6.35 と LPIPS 0.229**で最高性能を達成。"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "BJnzAtqnPn69JuOUrBNFlAuW/3CLf0T9Ah5D3cH0Zpw=",
+        "originContent": "## 🔥Updates",
+        "translatedContent": "## 🔥アップデート"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "kc8OAWcVnJkqSmCp4tjypipReQTsKyKIaJVbJ/tQ/9w=",
+        "originContent": "* **`May 20, 2025`**: 🔥 We have released the [code](https://github.com/hustvl/PixelHacker) and [weights](https://huggingface.co/hustvl/PixelHacker/tree/main). The weights include the pretrained and all fine-tuned versions, each only 0.8B params. Feel free to play!",
+        "translatedContent": "* **`2025年5月20日`**: 🔥 [コード](https://github.com/hustvl/PixelHacker)と[重み](https://huggingface.co/hustvl/PixelHacker/tree/main)を公開しました。重みには事前学習済みおよびすべてのファインチューニング済みバージョンが含まれ、それぞれパラメータは0.8Bのみです。ぜひ試してみてください！"
+      },
+      {
+        "row": 41,
+        "rowsha": "AzBjU/Ykvn+vVsU/YToagmhUyFZJXaQD3EB7SM9xYhA=",
+        "originContent": "* **`May 1, 2025`**: 🔥 We have released the [project page](https://hustvl.github.io/PixelHacker) with 63+ demos on natural and human-face scenes. Have fun! 🤗",
+        "translatedContent": "* **`2025年5月1日`**: 🔥 自然シーンと人間の顔シーンに関する63以上のデモを含む[プロジェクトページ](https://hustvl.github.io/PixelHacker)を公開しました。お楽しみください！🤗"
+      },
+      {
+        "row": 42,
+        "rowsha": "O1FlLfqQ7Jkx5XwYFs3WlCYYqX3CBmpVbktUBg4Oi60=",
+        "originContent": "* **`April 30, 2025`:** 🔥 We have released the [arXiv paper](https://arxiv.org/abs/2504.20438) for PixelHacker. The code and project page will be released soon.",
+        "translatedContent": "* **`2025年4月30日`**: 🔥 PixelHackerの[arXiv論文](https://arxiv.org/abs/2504.20438)を公開しました。コードとプロジェクトページは近日公開予定です。"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "gt+XGOskSNw+OEZP+x+chunmgu+2+IvVZmHaD2+hJ/o=",
+        "originContent": "## 🏕️Performance on Natural Scene",
+        "translatedContent": "## 🏕️自然シーンでの性能"
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 47,
+        "rowsha": "ikP7pGor5mKPfugMU9WXQ8s5vc4GFyrkNOkf3X9umKw=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Demo1.gif\" width=\"360px\"></img>",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Demo1.gif\" width=\"360px\"></img>"
+      },
+      {
+        "row": 48,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 50,
+        "rowsha": "VDW2h+iKxAXpCclp7NKi4cDP0X1kdX3By/oydpV2nZM=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Cover.png\"></img>",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Cover.png\"></img>"
+      },
+      {
+        "row": 51,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 52,
+        "rowsha": "4F9HC7FVAh5TfypKn7LuFu0iLrq5PWycFoJFcuBeoAI=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Natural-Scene.png\"></img>",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Natural-Scene.png\"></img>"
+      },
+      {
+        "row": 53,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 54,
+        "rowsha": "Nm8aUWlZJ7nvfHjEzWJImipp+K60hLi1HIB/HByl5j4=",
+        "originContent": "## 🤗Performance on Human-Face Scene",
+        "translatedContent": "## 🤗人間の顔シーンでの性能"
+      },
+      {
+        "row": 55,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 56,
+        "rowsha": "2KRq8hwvW/vnhyoFVZJdrjFsLk8DY81MV4J/aWzY0V0=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Demo2.gif\" width=\"360px\"></img>",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Demo2.gif\" width=\"360px\"></img>"
+      },
+      {
+        "row": 57,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 59,
+        "rowsha": "7WQzsx/U6HARAhLzQ5Jwp+1iCc4K7VECC4/Q56V6vcE=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Human-Face.png\"></img>",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/hustvl/PixelHacker/main/./assets/Human-Face.png\"></img>"
+      },
+      {
+        "row": 60,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 61,
+        "rowsha": "tj4f9VWCJg/Xfz46p1fEOMuuXuAOJ1da2/ixTELpCv0=",
+        "originContent": "## 📦Environment Setups",
+        "translatedContent": "## 📦環境セットアップ"
+      },
+      {
+        "row": 62,
+        "rowsha": "O6bXe64ZGJnG1FM1KiTAbU39yLvNt2T/kXcRk8qwjBE=",
+        "originContent": "* torch 2.3.0",
+        "translatedContent": "* torch 2.3.0"
+      },
+      {
+        "row": 63,
+        "rowsha": "VEQR7VAbaJOQw2T0Ly7qcXZNya3Qj4LxJi/08FYt25g=",
+        "originContent": "* transformers 4.40.0",
+        "translatedContent": "* transformers 4.40.0"
+      },
+      {
+        "row": 64,
+        "rowsha": "2LOvB7bZ+iJKUtoYmrhPN5w4sidXHWIf3NyJ3mcGUfw=",
+        "originContent": "* diffusers 0.30.2",
+        "translatedContent": "* diffusers 0.30.2"
+      },
+      {
+        "row": 65,
+        "rowsha": "kxcR8mtOhKv3G2ivc9y+fNXT+A2CYUn2pmMC6ufMWqU=",
+        "originContent": "* See 'requirements.txt' for detailed Python libraries required",
+        "translatedContent": "* 詳細なPythonライブラリは'requirements.txt'を参照してください"
+      },
+      {
+        "row": 66,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```shell\nconda create -n pixelhacker python=3.10\nconda activate pixelhacker\n# cd /xx/xx/PixelHacker\npip install -r requirements.txt\n```",
+    "ContentSha": "Sl7FoDJ2Ef8G36QjoGUbTVmUgcJ0f18JuMENw0eQlwI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nconda create -n pixelhacker python=3.10\nconda activate pixelhacker\n# cd /xx/xx/PixelHacker\npip install -r requirements.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "ADqY+uhjq8Lr66UxsTMDZpUefUm/4E6w8XO0ByFMJDc=",
+        "originContent": "conda create -n pixelhacker python=3.10",
+        "translatedContent": "conda create -n pixelhacker python=3.10"
+      },
+      {
+        "row": 3,
+        "rowsha": "dYgio4toJxvJ1h/70cT+0z6EUZQk/qvaZjm38xNszBc=",
+        "originContent": "conda activate pixelhacker",
+        "translatedContent": "conda activate pixelhacker"
+      },
+      {
+        "row": 4,
+        "rowsha": "66HbPyw426PPBR//pAXDYaosGS9E136XpB5DOFG2+js=",
+        "originContent": "# cd /xx/xx/PixelHacker",
+        "translatedContent": "# cd /xx/xx/PixelHacker"
+      },
+      {
+        "row": 5,
+        "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+        "originContent": "pip install -r requirements.txt",
+        "translatedContent": "pip install -r requirements.txt"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## 🗃️Model Checkpoints\n* Download the checkpoint of [VAE](https://huggingface.co/hustvl/PixelHacker/tree/main/vae) and put it into ../PixelHacker/vae.\n\n* Download the checkpoints of [pretrained version](https://huggingface.co/hustvl/PixelHacker/tree/main/pretrained), [fine-tuned version (places2)](https://huggingface.co/hustvl/PixelHacker/tree/main/ft_places2), [fine-tuned version (celeba-hq)](https://huggingface.co/hustvl/PixelHacker/tree/main/ft_celebahq), [fine-tuned version (ffhq)](https://huggingface.co/hustvl/PixelHacker/tree/main/ft_ffhq), and put them into ../PixelHacker/weight.\n\n* Finally, the detailed organizational form is as follows:",
+    "ContentSha": "PaZbf4gfgRU6n0hTfQ8oCNaaUO6xVPrzXC9AfRtb+F0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🗃️モデルチェックポイント\n* [VAE](https://huggingface.co/hustvl/PixelHacker/tree/main/vae) のチェックポイントをダウンロードし、../PixelHacker/vae に入れてください。\n\n* [事前学習版](https://huggingface.co/hustvl/PixelHacker/tree/main/pretrained)、[ファインチューニング版 (places2)](https://huggingface.co/hustvl/PixelHacker/tree/main/ft_places2)、[ファインチューニング版 (celeba-hq)](https://huggingface.co/hustvl/PixelHacker/tree/main/ft_celebahq)、[ファインチューニング版 (ffhq)](https://huggingface.co/hustvl/PixelHacker/tree/main/ft_ffhq) のチェックポイントをダウンロードし、../PixelHacker/weight に入れてください。\n\n* 最後に、詳細なフォルダ構成は以下の通りです：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🗃️モデルチェックポイント"
+      },
+      {
+        "row": 2,
+        "rowsha": "2mMQ6F+VutoybIOePkNgd0qf/CQMzwGr1sG6esYAjr8=",
+        "originContent": "## 🗃️Model Checkpoints",
+        "translatedContent": "* [VAE](https://huggingface.co/hustvl/PixelHacker/tree/main/vae) のチェックポイントをダウンロードし、../PixelHacker/vae に入れてください。"
+      },
+      {
+        "row": 3,
+        "rowsha": "QnwQakjjJxOkAV6lmu8HUZOO+5Mqn+PhqMqcjI/mG8s=",
+        "originContent": "* Download the checkpoint of [VAE](https://huggingface.co/hustvl/PixelHacker/tree/main/vae) and put it into ../PixelHacker/vae.",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* [事前学習版](https://huggingface.co/hustvl/PixelHacker/tree/main/pretrained)、[ファインチューニング版 (places2)](https://huggingface.co/hustvl/PixelHacker/tree/main/ft_places2)、[ファインチューニング版 (celeba-hq)](https://huggingface.co/hustvl/PixelHacker/tree/main/ft_celebahq)、[ファインチューニング版 (ffhq)](https://huggingface.co/hustvl/PixelHacker/tree/main/ft_ffhq) のチェックポイントをダウンロードし、../PixelHacker/weight に入れてください。"
+      },
+      {
+        "row": 5,
+        "rowsha": "Q5jAkimbw5agTzFWd1EvsN0veQZn0CIDzoXEdPlP2S0=",
+        "originContent": "* Download the checkpoints of [pretrained version](https://huggingface.co/hustvl/PixelHacker/tree/main/pretrained), [fine-tuned version (places2)](https://huggingface.co/hustvl/PixelHacker/tree/main/ft_places2), [fine-tuned version (celeba-hq)](https://huggingface.co/hustvl/PixelHacker/tree/main/ft_celebahq), [fine-tuned version (ffhq)](https://huggingface.co/hustvl/PixelHacker/tree/main/ft_ffhq), and put them into ../PixelHacker/weight.",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* 最後に、詳細なフォルダ構成は以下の通りです："
+      },
+      {
+        "row": 7,
+        "rowsha": "4jT9/1XPD66banH5D3V6KirYrL1Sk6fdyYt5OODp4zw=",
+        "originContent": "* Finally, the detailed organizational form is as follows:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```shell\n├── PixelHacker\n│    ├── weight\n│        ├── pretrained\n│            ├── diffusion_pytorch_model.bin\n│        ├── ft_places2\n│            ├── diffusion_pytorch_model.bin\n│        ├── ft_celebahq\n│            ├── diffusion_pytorch_model.bin\n│        ├── ft_ffhq\n│            ├── diffusion_pytorch_model.bin\n│    ├── vae\n│        ├── config.json\n│        ├── diffusion_pytorch_model.bin\n│    ├── ...\n```",
+    "ContentSha": "0OtqZNvfV3LONyNtU6l9qTO1wuzsA1oMURuJJKebcg4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\n├── PixelHacker\n│    ├── weight\n│        ├── pretrained\n│            ├── diffusion_pytorch_model.bin\n│        ├── ft_places2\n│            ├── diffusion_pytorch_model.bin\n│        ├── ft_celebahq\n│            ├── diffusion_pytorch_model.bin\n│        ├── ft_ffhq\n│            ├── diffusion_pytorch_model.bin\n│    ├── vae\n│        ├── config.json\n│        ├── diffusion_pytorch_model.bin\n│    ├── ...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "0/H67qsJMxR87N8/3jX6qvAKoV20jt1VTKK8tRbycN0=",
+        "originContent": "├── PixelHacker",
+        "translatedContent": "├── PixelHacker"
+      },
+      {
+        "row": 3,
+        "rowsha": "EO9aN7Qfc0lGShj1qpDB+QTf+x5EEY7oMJbYEqu+FLk=",
+        "originContent": "│    ├── weight",
+        "translatedContent": "│    ├── weight"
+      },
+      {
+        "row": 4,
+        "rowsha": "HeWrIglAqiOmeDbn4Gih2Md3R5Z42f9L2h/pkFeSMIQ=",
+        "originContent": "│        ├── pretrained",
+        "translatedContent": "│        ├── pretrained"
+      },
+      {
+        "row": 5,
+        "rowsha": "WdLbGqbqrSMUmCQsvWRao8/rPSO1G5Q0vjFMIjX/rXU=",
+        "originContent": "│            ├── diffusion_pytorch_model.bin",
+        "translatedContent": "│            ├── diffusion_pytorch_model.bin"
+      },
+      {
+        "row": 6,
+        "rowsha": "nZIy7GGNFbE8tS0/gKCJ3kW02wK7zza2tGB2TJVl/jM=",
+        "originContent": "│        ├── ft_places2",
+        "translatedContent": "│        ├── ft_places2"
+      },
+      {
+        "row": 7,
+        "rowsha": "WdLbGqbqrSMUmCQsvWRao8/rPSO1G5Q0vjFMIjX/rXU=",
+        "originContent": "│            ├── diffusion_pytorch_model.bin",
+        "translatedContent": "│            ├── diffusion_pytorch_model.bin"
+      },
+      {
+        "row": 8,
+        "rowsha": "rWKjJOLdAljZLHCxvM1tSQIODUvC+js792wI10rriF8=",
+        "originContent": "│        ├── ft_celebahq",
+        "translatedContent": "│        ├── ft_celebahq"
+      },
+      {
+        "row": 9,
+        "rowsha": "WdLbGqbqrSMUmCQsvWRao8/rPSO1G5Q0vjFMIjX/rXU=",
+        "originContent": "│            ├── diffusion_pytorch_model.bin",
+        "translatedContent": "│            ├── diffusion_pytorch_model.bin"
+      },
+      {
+        "row": 10,
+        "rowsha": "VlGVlHnJjwu5eSrEW42YyIPAQq91/nFTalnyimSbYQs=",
+        "originContent": "│        ├── ft_ffhq",
+        "translatedContent": "│        ├── ft_ffhq"
+      },
+      {
+        "row": 11,
+        "rowsha": "WdLbGqbqrSMUmCQsvWRao8/rPSO1G5Q0vjFMIjX/rXU=",
+        "originContent": "│            ├── diffusion_pytorch_model.bin",
+        "translatedContent": "│            ├── diffusion_pytorch_model.bin"
+      },
+      {
+        "row": 12,
+        "rowsha": "M0R3WL6k/GWWqluF9l5iOUrzRNXNDqLjcWTkyS/VFBc=",
+        "originContent": "│    ├── vae",
+        "translatedContent": "│    ├── vae"
+      },
+      {
+        "row": 13,
+        "rowsha": "T51sQbwYj+psFgHifRYzWDl9yathBhLhzTwM7BGRfsg=",
+        "originContent": "│        ├── config.json",
+        "translatedContent": "│        ├── config.json"
+      },
+      {
+        "row": 14,
+        "rowsha": "NALIjM9kxNTLs+Qnc452/o8u1elKZsj5hQOKVaWD8dQ=",
+        "originContent": "│        ├── diffusion_pytorch_model.bin",
+        "translatedContent": "│        ├── diffusion_pytorch_model.bin"
+      },
+      {
+        "row": 15,
+        "rowsha": "HT7/2XL5ri/ogL9K4tzuFJizvhziewj4b7UxCYEskdk=",
+        "originContent": "│    ├── ...",
+        "translatedContent": "│    ├── ..."
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## 🔮Inference\nYou can run the following code directly to get the inpainting result of the example image-mask pair, and the result will be generated in ../PixelHacker/outputs. If you want to infer on custom data, just place the image and mask with the same name in ../PixelHacker/imgs and ../PixelHacker/masks, respectively, then run the following code as well.",
+    "ContentSha": "tyrLjbGORNY6JTByPc/OCMvi65/sT5db98nGr5m1BO8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🔮推論  \n以下のコードを直接実行すると、例の画像とマスクのペアのインペインティング結果が得られ、結果は ../PixelHacker/outputs に生成されます。  \nカスタムデータで推論したい場合は、画像とマスクを同じ名前でそれぞれ ../PixelHacker/imgs と ../PixelHacker/masks に配置し、同様に以下のコードを実行してください。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🔮推論  "
+      },
+      {
+        "row": 2,
+        "rowsha": "eRMCg559lgtiwt1c8FdHFyjmqeoj1Wp6nhWw8TGk+Bk=",
+        "originContent": "## 🔮Inference",
+        "translatedContent": "以下のコードを直接実行すると、例の画像とマスクのペアのインペインティング結果が得られ、結果は ../PixelHacker/outputs に生成されます。  "
+      },
+      {
+        "row": 3,
+        "rowsha": "1ZbFeXZ3L2/vXAVlT1k6akH+6J8V4CpMVRUlaVh9W4w=",
+        "originContent": "You can run the following code directly to get the inpainting result of the example image-mask pair, and the result will be generated in ../PixelHacker/outputs. If you want to infer on custom data, just place the image and mask with the same name in ../PixelHacker/imgs and ../PixelHacker/masks, respectively, then run the following code as well.",
+        "translatedContent": "カスタムデータで推論したい場合は、画像とマスクを同じ名前でそれぞれ ../PixelHacker/imgs と ../PixelHacker/masks に配置し、同様に以下のコードを実行してください。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```shell\npython infer_pixelhacker.py \\\n--config config/PixelHacker_sdvae_f8d4.yaml \\\n--weight weight/ft_places/diffusion_pytorch_model.bin\n```",
+    "ContentSha": "Dft9Pnxp2a5eKM9nxqH2dzoTi7gcdZlU8QBBxo6qx/M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\npython infer_pixelhacker.py \\\n--config config/PixelHacker_sdvae_f8d4.yaml \\\n--weight weight/ft_places/diffusion_pytorch_model.bin\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "AJ9kHoAys0D6w68PmGo/uyg44fb5Pe5JpHEbmo4P914=",
+        "originContent": "python infer_pixelhacker.py \\",
+        "translatedContent": "python infer_pixelhacker.py \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "NSH+1VUwrdbDpWbwAfU2b2IQWFvNvMdFtoKFKIf9c4U=",
+        "originContent": "--config config/PixelHacker_sdvae_f8d4.yaml \\",
+        "translatedContent": "--config config/PixelHacker_sdvae_f8d4.yaml \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "WSA9JIiGfU39PLRKmOqxh8Z3JA/MjqhgC/b05m4YXKA=",
+        "originContent": "--weight weight/ft_places/diffusion_pytorch_model.bin",
+        "translatedContent": "--weight weight/ft_places/diffusion_pytorch_model.bin"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n\n## 🎓Citation\n",
+    "ContentSha": "DJ/37OJ6FfJ3Cywr6CA8bX5nwWgarm1nIu9S6pNk3/E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n\n## 🎓Citation\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "XcSb9znH9TdB99MRaj4p42IWWqMqNScbO5FtLgK5m1I=",
+        "originContent": "## 🎓Citation",
+        "translatedContent": "## 🎓Citation"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```shell\n@misc{xu2025pixelhacker,\n      title={PixelHacker: Image Inpainting with Structural and Semantic Consistency}, \n      author={Ziyang Xu and Kangsheng Duan and Xiaolei Shen and Zhifeng Ding and Wenyu Liu and Xiaohu Ruan and Xiaoxin Chen and Xinggang Wang},\n      year={2025},\n      eprint={2504.20438},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2504.20438}, \n}\n```",
+    "ContentSha": "JyZABBt/wdRFqXFawIMntbdVKc1h3xyCOtoZiJqAixA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\n@misc{xu2025pixelhacker,\n      title={PixelHacker: Image Inpainting with Structural and Semantic Consistency}, \n      author={Ziyang Xu and Kangsheng Duan and Xiaolei Shen and Zhifeng Ding and Wenyu Liu and Xiaohu Ruan and Xiaoxin Chen and Xinggang Wang},\n      year={2025},\n      eprint={2504.20438},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2504.20438}, \n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "RfSl7h0YoBeS0BTdrh/RH+M0oMwXMc6JXcpArpwq1RE=",
+        "originContent": "@misc{xu2025pixelhacker,",
+        "translatedContent": "@misc{xu2025pixelhacker,"
+      },
+      {
+        "row": 3,
+        "rowsha": "vLA1SbKnOr5pSYHKQwwsu6eCKqQFPzfhqJY2ueYsTJ4=",
+        "originContent": "      title={PixelHacker: Image Inpainting with Structural and Semantic Consistency}, ",
+        "translatedContent": "      title={PixelHacker: Image Inpainting with Structural and Semantic Consistency}, "
+      },
+      {
+        "row": 4,
+        "rowsha": "coGQo0aW9wxL5FGcWtpWxMHlemwib9U48T7ukamQ60s=",
+        "originContent": "      author={Ziyang Xu and Kangsheng Duan and Xiaolei Shen and Zhifeng Ding and Wenyu Liu and Xiaohu Ruan and Xiaoxin Chen and Xinggang Wang},",
+        "translatedContent": "      author={Ziyang Xu and Kangsheng Duan and Xiaolei Shen and Zhifeng Ding and Wenyu Liu and Xiaohu Ruan and Xiaoxin Chen and Xinggang Wang},"
+      },
+      {
+        "row": 5,
+        "rowsha": "1cuvfM9h03loQfZOlvsx9juVCvU41kevaYb2CnD9Gak=",
+        "originContent": "      year={2025},",
+        "translatedContent": "      year={2025},"
+      },
+      {
+        "row": 6,
+        "rowsha": "woKk6Km13ZW8apH5LNOg0YcfnISpFYjabRPVF7tdbC4=",
+        "originContent": "      eprint={2504.20438},",
+        "translatedContent": "      eprint={2504.20438},"
+      },
+      {
+        "row": 7,
+        "rowsha": "Fr73/KLqU4TaDaJVUDLO211nM029JE4YRpN5hXSZZqk=",
+        "originContent": "      archivePrefix={arXiv},",
+        "translatedContent": "      archivePrefix={arXiv},"
+      },
+      {
+        "row": 8,
+        "rowsha": "RPNBhgHdrY2A+XYLnuhpAr/aqag2LU2pAjasgtM0tg4=",
+        "originContent": "      primaryClass={cs.CV},",
+        "translatedContent": "      primaryClass={cs.CV},"
+      },
+      {
+        "row": 9,
+        "rowsha": "4YtxHyQlM35u01PLoTh6QjIUjC5O/aqo+Jn7v4z4gjk=",
+        "originContent": "      url={https://arxiv.org/abs/2504.20438}, ",
+        "translatedContent": "      url={https://arxiv.org/abs/2504.20438}, "
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

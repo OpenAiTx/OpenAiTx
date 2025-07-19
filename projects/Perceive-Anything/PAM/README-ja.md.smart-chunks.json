@@ -1,0 +1,991 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n<div align=\"center\">\n<h1>\nPerceive Anything: Recognize, Explain, Caption, and Segement Anything in Images and Videos (PAM)\n</h1>\n\n</div>\n\n<div align=\"center\">\n\n[Weifeng Lin](), [Xinyu Wei](), [Ruichuan An](), [Tianhe Ren](), [Tingwei Chen](), [Renrui Zhang](), [Ziyu Guo]() <br>\n[Wentao Zhang](), [Lei Zhang](), [Hongsheng Li]() <br>\nCUHK, HKU, PolyU, PekingU\n\n</div>\n\n<p align=\"center\">\n  <a href=\"https://Perceive-Anything.github.io\"><b>🌐 Project Website</b></a> |\n  <a href=\"https://arxiv.org/abs/2506.05302\"><b>📕 Paper</b></a> |\n  <a href=\"https://huggingface.co/Perceive-Anything/PAM-3B\"><b>📥 Model Download</b></a> |\n  <a href=\"https://huggingface.co/datasets/Perceive-Anything/PAM-data\"><b>🤗 Dataset</b></a> |\n  <a href=\"#quick-start\"><b>⚡Quick Start</b></a> <br>\n  <a href=\"#license\"><b>📜 License</b></a> |\n  <a href=\"#citation\"><b>📖 Citation (BibTeX)</b></a> <br>\n</p>\n\n<p align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/Perceive-Anything/PAM/main/assets/teaser_img.jpg\" width=\"95%\"> <br>\n    <img src=\"https://raw.githubusercontent.com/Perceive-Anything/PAM/main/assets/teaser_video.jpg\" width=\"95%\"> <br>\n</p>\n\n## News\n\n<!-- **2025.06.20**: Release Gradio demo ([online demo]() and [local](#gradio-demo)) -->\n\n<!-- **2025.06.05**: Evaluation code Please refer to [this link](). -->\n\n**2025.06.08**: Model weights (1.5B / 3B) and training datasets are released. Please refer to [PAM-1.5B](https://huggingface.co/Perceive-Anything/PAM-1.5B), [PAM-3B](https://huggingface.co/Perceive-Anything/PAM-3B) and [Datasets](https://huggingface.co/datasets/Perceive-Anything/PAM-data).\n\n**2025.06.08**: PAM is released, a simple end-to-end region-level VLM for object segmentation and understanding. See [paper](https://arxiv.org/abs/2506.05302)\n\n\n## Introduction\n\n**Perceive Anything Model (PAM)** is a conceptually simple and efficient framework for comprehensive region-level visual understanding in images and videos. Our approach extends SAM 2 by integrating Large Language Models (LLMs), enabling simultaneous object segmentation with the generation of diverse, region-specific semantic outputs, including categories, label definition, functional explanations, and detailed captions. We propose to efficiently transform SAM 2's rich visual features, which inherently carry general vision, localization, and semantic priors into multi-modal tokens for LLM comprehension. To support robust multi-granularity understanding, we develop a dedicated data refinement and augmentation pipeline, yielding a high-quality [**dataset**](https://huggingface.co/datasets/Perceive-Anything/PAM-data) of image and video region-semantic annotations, including novel region-level streaming video caption data.\n\n\n<p align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/Perceive-Anything/PAM/main/assets/PAM_comp.jpg\" width=\"95%\"> <br>\n    <img src=\"https://raw.githubusercontent.com/Perceive-Anything/PAM/main/assets/PAM_arch.jpg\" width=\"95%\"> <br>\n</p>\n\n## Installation\n\n1. Clone this repository and navigate to the base folder",
+    "ContentSha": "VfZXEjRnoKTfzA5Pnq0mm7hhBvRKhP/6gozAn7xvoL4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"center\">\n<h1>\n何でも認識：画像と動画のあらゆるものを認識、説明、キャプション付け、セグメント化（PAM）\n</h1>\n\n</div>\n\n<div align=\"center\">\n\n[Weifeng Lin](), [Xinyu Wei](), [Ruichuan An](), [Tianhe Ren](), [Tingwei Chen](), [Renrui Zhang](), [Ziyu Guo]() <br>\n[Wentao Zhang](), [Lei Zhang](), [Hongsheng Li]() <br>\nCUHK、HKU、PolyU、北京大学\n\n</div>\n\n<p align=\"center\">\n  <a href=\"https://Perceive-Anything.github.io\"><b>🌐 プロジェクトサイト</b></a> |\n  <a href=\"https://arxiv.org/abs/2506.05302\"><b>📕 論文</b></a> |\n  <a href=\"https://huggingface.co/Perceive-Anything/PAM-3B\"><b>📥 モデルダウンロード</b></a> |\n  <a href=\"https://huggingface.co/datasets/Perceive-Anything/PAM-data\"><b>🤗 データセット</b></a> |\n  <a href=\"#quick-start\"><b>⚡ クイックスタート</b></a> <br>\n  <a href=\"#license\"><b>📜 ライセンス</b></a> |\n  <a href=\"#citation\"><b>📖 引用 (BibTeX)</b></a> <br>\n</p>\n\n<p align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/Perceive-Anything/PAM/main/assets/teaser_img.jpg\" width=\"95%\"> <br>\n    <img src=\"https://raw.githubusercontent.com/Perceive-Anything/PAM/main/assets/teaser_video.jpg\" width=\"95%\"> <br>\n</p>\n\n## ニュース\n\n<!-- **2025.06.20**: Gradioデモ公開（[オンラインデモ]() と [ローカル](#gradio-demo)） -->\n\n<!-- **2025.06.05**: 評価コードは[こちら]()を参照してください。 -->\n\n**2025.06.08**: モデル重み（1.5B / 3B）および学習データセットを公開しました。詳細は [PAM-1.5B](https://huggingface.co/Perceive-Anything/PAM-1.5B)、[PAM-3B](https://huggingface.co/Perceive-Anything/PAM-3B)、および [データセット](https://huggingface.co/datasets/Perceive-Anything/PAM-data)をご覧ください。\n\n**2025.06.08**: PAMをリリースしました。これは物体セグメンテーションと理解のためのシンプルなエンドツーエンドの領域レベルVLMです。論文は[こちら](https://arxiv.org/abs/2506.05302)をご覧ください。\n\n\n## はじめに\n\n**Perceive Anything Model (PAM)** は、画像および動画の包括的な領域レベルの視覚理解のための、概念的にシンプルで効率的なフレームワークです。私たちのアプローチは、SAM 2を拡張し、大規模言語モデル（LLM）を統合することで、多様で領域特有のセマンティック出力（カテゴリ、ラベル定義、機能説明、詳細なキャプションなど）を生成しながら、同時に物体のセグメンテーションを可能にします。SAM 2の豊富な視覚特徴は、一般的なビジョン、位置特定、セマンティック事前知識を本質的に含んでいるため、これを効率的にマルチモーダルトークンに変換し、LLMが理解できるようにしています。堅牢な多粒度理解を支えるために、専用のデータ精製および拡張パイプラインを開発し、新しい領域レベルのストリーミング動画キャプションデータを含む高品質な[**データセット**](https://huggingface.co/datasets/Perceive-Anything/PAM-data)を生成しました。\n\n\n<p align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/Perceive-Anything/PAM/main/assets/PAM_comp.jpg\" width=\"95%\"> <br>\n    <img src=\"https://raw.githubusercontent.com/Perceive-Anything/PAM/main/assets/PAM_arch.jpg\" width=\"95%\"> <br>\n</p>\n\n## インストール\n\n1. このリポジトリをクローンし、ベースフォルダに移動します</translate-content>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<h1>"
+      },
+      {
+        "row": 3,
+        "rowsha": "Dzts6KPKpSA5sdedO9xd4B7/ZDPSjLXxN/jme5pXqnU=",
+        "originContent": "<h1>",
+        "translatedContent": "何でも認識：画像と動画のあらゆるものを認識、説明、キャプション付け、セグメント化（PAM）"
+      },
+      {
+        "row": 4,
+        "rowsha": "pfgjdvVaQ4wypc5VZ0GNuVLaL0LpY1LV4SHvu3ThA9U=",
+        "originContent": "Perceive Anything: Recognize, Explain, Caption, and Segement Anything in Images and Videos (PAM)",
+        "translatedContent": "</h1>"
+      },
+      {
+        "row": 5,
+        "rowsha": "jx7VTIaGwMtwY3ZiSh8xEG0MuMzGD34Xs/9PCAcDvw8=",
+        "originContent": "</h1>",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 7,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 9,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[Weifeng Lin](), [Xinyu Wei](), [Ruichuan An](), [Tianhe Ren](), [Tingwei Chen](), [Renrui Zhang](), [Ziyu Guo]() <br>"
+      },
+      {
+        "row": 11,
+        "rowsha": "IaQ0RSzOo0imFmlkVU+wjK5t3lchin+c/8rmpM8UeUs=",
+        "originContent": "[Weifeng Lin](), [Xinyu Wei](), [Ruichuan An](), [Tianhe Ren](), [Tingwei Chen](), [Renrui Zhang](), [Ziyu Guo]() <br>",
+        "translatedContent": "[Wentao Zhang](), [Lei Zhang](), [Hongsheng Li]() <br>"
+      },
+      {
+        "row": 12,
+        "rowsha": "l6P9U8DtLiAqDCn+M0x2kBXKDR7cUmrpjNmsKqSBL1c=",
+        "originContent": "[Wentao Zhang](), [Lei Zhang](), [Hongsheng Li]() <br>",
+        "translatedContent": "CUHK、HKU、PolyU、北京大学"
+      },
+      {
+        "row": 13,
+        "rowsha": "9Ura2GxNVQSaS/z8+5Mmzp7TlU1glEkdOZjo1MbqGFM=",
+        "originContent": "CUHK, HKU, PolyU, PekingU",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 15,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 17,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "  <a href=\"https://Perceive-Anything.github.io\"><b>🌐 プロジェクトサイト</b></a> |"
+      },
+      {
+        "row": 18,
+        "rowsha": "KmbGYC8ak9Hs+OgBqGfnmc+jbit1hTEgmyyZKXKHJI0=",
+        "originContent": "  <a href=\"https://Perceive-Anything.github.io\"><b>🌐 Project Website</b></a> |",
+        "translatedContent": "  <a href=\"https://arxiv.org/abs/2506.05302\"><b>📕 論文</b></a> |"
+      },
+      {
+        "row": 19,
+        "rowsha": "PEa6uaE+6c08jcyuVJ9SMfyMWSptPAaRdz+NLR4MB1g=",
+        "originContent": "  <a href=\"https://arxiv.org/abs/2506.05302\"><b>📕 Paper</b></a> |",
+        "translatedContent": "  <a href=\"https://huggingface.co/Perceive-Anything/PAM-3B\"><b>📥 モデルダウンロード</b></a> |"
+      },
+      {
+        "row": 20,
+        "rowsha": "dHaOl889gR0sejugmc+pvhv+mmis+fVu5xoQ/kWkJ+E=",
+        "originContent": "  <a href=\"https://huggingface.co/Perceive-Anything/PAM-3B\"><b>📥 Model Download</b></a> |",
+        "translatedContent": "  <a href=\"https://huggingface.co/datasets/Perceive-Anything/PAM-data\"><b>🤗 データセット</b></a> |"
+      },
+      {
+        "row": 21,
+        "rowsha": "+IfUJYNSrFhXIvg/vV0OyYYdrdjvP9reJ9EjqUkEQso=",
+        "originContent": "  <a href=\"https://huggingface.co/datasets/Perceive-Anything/PAM-data\"><b>🤗 Dataset</b></a> |",
+        "translatedContent": "  <a href=\"#quick-start\"><b>⚡ クイックスタート</b></a> <br>"
+      },
+      {
+        "row": 22,
+        "rowsha": "DilCNafHeWiI7o+zgDMdsmCt7EUdcZFu17pAiPo5+fk=",
+        "originContent": "  <a href=\"#quick-start\"><b>⚡Quick Start</b></a> <br>",
+        "translatedContent": "  <a href=\"#license\"><b>📜 ライセンス</b></a> |"
+      },
+      {
+        "row": 23,
+        "rowsha": "Whtcr+jlBmKMFnlmTMYPe4qYrQ8SswHSc81wwYVdk74=",
+        "originContent": "  <a href=\"#license\"><b>📜 License</b></a> |",
+        "translatedContent": "  <a href=\"#citation\"><b>📖 引用 (BibTeX)</b></a> <br>"
+      },
+      {
+        "row": 24,
+        "rowsha": "s5oMOrkixrIRvzViHZ3o9/Wuyji5PdqFUBNeEYfBOwo=",
+        "originContent": "  <a href=\"#citation\"><b>📖 Citation (BibTeX)</b></a> <br>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 25,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 27,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "    <img src=\"https://raw.githubusercontent.com/Perceive-Anything/PAM/main/assets/teaser_img.jpg\" width=\"95%\"> <br>"
+      },
+      {
+        "row": 28,
+        "rowsha": "yC3+svpuSrBNQsABTNeeMhssLYzhE9/j1dEYFKFEbk0=",
+        "originContent": "    <img src=\"https://raw.githubusercontent.com/Perceive-Anything/PAM/main/assets/teaser_img.jpg\" width=\"95%\"> <br>",
+        "translatedContent": "    <img src=\"https://raw.githubusercontent.com/Perceive-Anything/PAM/main/assets/teaser_video.jpg\" width=\"95%\"> <br>"
+      },
+      {
+        "row": 29,
+        "rowsha": "Yu12YUUrRcW54dGmy/S33FMw2OBQsiHJBhz/z8QNKVM=",
+        "originContent": "    <img src=\"https://raw.githubusercontent.com/Perceive-Anything/PAM/main/assets/teaser_video.jpg\" width=\"95%\"> <br>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 30,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ニュース"
+      },
+      {
+        "row": 32,
+        "rowsha": "4SzYJwNNDn2R2kkHsB4X4H4ZhUVuQo9QZvhInidlbxE=",
+        "originContent": "## News",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<!-- **2025.06.20**: Gradioデモ公開（[オンラインデモ]() と [ローカル](#gradio-demo)） -->"
+      },
+      {
+        "row": 34,
+        "rowsha": "DvO2mRH79y/s564QyZ2J1KNV/QF1laSqmz/YKbmYdTs=",
+        "originContent": "<!-- **2025.06.20**: Release Gradio demo ([online demo]() and [local](#gradio-demo)) -->",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<!-- **2025.06.05**: 評価コードは[こちら]()を参照してください。 -->"
+      },
+      {
+        "row": 36,
+        "rowsha": "hSacIbxwmFBK7ooEKlvh4QT0YtNYmDLLAs+FDj6qbac=",
+        "originContent": "<!-- **2025.06.05**: Evaluation code Please refer to [this link](). -->",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**2025.06.08**: モデル重み（1.5B / 3B）および学習データセットを公開しました。詳細は [PAM-1.5B](https://huggingface.co/Perceive-Anything/PAM-1.5B)、[PAM-3B](https://huggingface.co/Perceive-Anything/PAM-3B)、および [データセット](https://huggingface.co/datasets/Perceive-Anything/PAM-data)をご覧ください。"
+      },
+      {
+        "row": 38,
+        "rowsha": "TSf+7SKd1Oe09VjUnMdOMjvJEcMQT0DuHbBLR2IoyqI=",
+        "originContent": "**2025.06.08**: Model weights (1.5B / 3B) and training datasets are released. Please refer to [PAM-1.5B](https://huggingface.co/Perceive-Anything/PAM-1.5B), [PAM-3B](https://huggingface.co/Perceive-Anything/PAM-3B) and [Datasets](https://huggingface.co/datasets/Perceive-Anything/PAM-data).",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**2025.06.08**: PAMをリリースしました。これは物体セグメンテーションと理解のためのシンプルなエンドツーエンドの領域レベルVLMです。論文は[こちら](https://arxiv.org/abs/2506.05302)をご覧ください。"
+      },
+      {
+        "row": 40,
+        "rowsha": "ruwIfjYXZO0CkGbsxTJDaB7wvaBXSfLGXDYB+Po7WqM=",
+        "originContent": "**2025.06.08**: PAM is released, a simple end-to-end region-level VLM for object segmentation and understanding. See [paper](https://arxiv.org/abs/2506.05302)",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## はじめに"
+      },
+      {
+        "row": 43,
+        "rowsha": "11PvuraB+k2oJHDZqDscIC3lj5L9SY53omnBFjvEcUs=",
+        "originContent": "## Introduction",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**Perceive Anything Model (PAM)** は、画像および動画の包括的な領域レベルの視覚理解のための、概念的にシンプルで効率的なフレームワークです。私たちのアプローチは、SAM 2を拡張し、大規模言語モデル（LLM）を統合することで、多様で領域特有のセマンティック出力（カテゴリ、ラベル定義、機能説明、詳細なキャプションなど）を生成しながら、同時に物体のセグメンテーションを可能にします。SAM 2の豊富な視覚特徴は、一般的なビジョン、位置特定、セマンティック事前知識を本質的に含んでいるため、これを効率的にマルチモーダルトークンに変換し、LLMが理解できるようにしています。堅牢な多粒度理解を支えるために、専用のデータ精製および拡張パイプラインを開発し、新しい領域レベルのストリーミング動画キャプションデータを含む高品質な[**データセット**](https://huggingface.co/datasets/Perceive-Anything/PAM-data)を生成しました。"
+      },
+      {
+        "row": 45,
+        "rowsha": "Bdq1FyT78I/1pkG10SE2KIkm7FB1RB1orauszkM+h68=",
+        "originContent": "**Perceive Anything Model (PAM)** is a conceptually simple and efficient framework for comprehensive region-level visual understanding in images and videos. Our approach extends SAM 2 by integrating Large Language Models (LLMs), enabling simultaneous object segmentation with the generation of diverse, region-specific semantic outputs, including categories, label definition, functional explanations, and detailed captions. We propose to efficiently transform SAM 2's rich visual features, which inherently carry general vision, localization, and semantic priors into multi-modal tokens for LLM comprehension. To support robust multi-granularity understanding, we develop a dedicated data refinement and augmentation pipeline, yielding a high-quality [**dataset**](https://huggingface.co/datasets/Perceive-Anything/PAM-data) of image and video region-semantic annotations, including novel region-level streaming video caption data.",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 48,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "    <img src=\"https://raw.githubusercontent.com/Perceive-Anything/PAM/main/assets/PAM_comp.jpg\" width=\"95%\"> <br>"
+      },
+      {
+        "row": 49,
+        "rowsha": "ZSwTYAS1dNyDxDCS/a4EJrDpLZf4FAG+Z+S+Aw/sIXY=",
+        "originContent": "    <img src=\"https://raw.githubusercontent.com/Perceive-Anything/PAM/main/assets/PAM_comp.jpg\" width=\"95%\"> <br>",
+        "translatedContent": "    <img src=\"https://raw.githubusercontent.com/Perceive-Anything/PAM/main/assets/PAM_arch.jpg\" width=\"95%\"> <br>"
+      },
+      {
+        "row": 50,
+        "rowsha": "z9qqwvEppZK5P+b/aAfq5/QMzFxIeQfUiIqAJUU+TqA=",
+        "originContent": "    <img src=\"https://raw.githubusercontent.com/Perceive-Anything/PAM/main/assets/PAM_arch.jpg\" width=\"95%\"> <br>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 51,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": ""
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 53,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 54,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. このリポジトリをクローンし、ベースフォルダに移動します</translate-content>"
+      },
+      {
+        "row": 55,
+        "rowsha": "voiiRpesg8vjXsT8FqO8cq1sOtFtqFs41tO/WrkMBgc=",
+        "originContent": "1. Clone this repository and navigate to the base folder",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\ngit clone https://github.com/Afeng-x/PAM.git\ncd PAM\n```",
+    "ContentSha": "NALa8ikX/WzQwLRe6kf1aKU8nvIof7DYpkqkNOoD/g0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/Afeng-x/PAM.git\ncd PAM\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "mEKkmo14+SWiH+6KBI7znE6QWuGo+sg6KI+GqFs6R2Q=",
+        "originContent": "git clone https://github.com/Afeng-x/PAM.git",
+        "translatedContent": "git clone https://github.com/Afeng-x/PAM.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "jH8XNhpI4d50FKbDb66lS+RMNc94TgAGq6EMb174rmA=",
+        "originContent": "cd PAM",
+        "translatedContent": "cd PAM"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n2. Install packages",
+    "ContentSha": "1vKhC0Yj51rvqaiw3X/aMwP0lDssWfTRB0d6XACCL1k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. パッケージをインストールする\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. パッケージをインストールする"
+      },
+      {
+        "row": 2,
+        "rowsha": "YmdM1BbfXpu/69Eru9NthqOiR9jXo55stWI6bDViwCA=",
+        "originContent": "2. Install packages",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\n### packages for base\nconda create -n PAM python=3.10 -y\nconda activate PAM\npip install --upgrade pip\npip install -e \".[train]\"\n### packages for sam2\ncd sam2\npip install -e \".[notebooks]\"\n```",
+    "ContentSha": "mh/ghomUoI6BgVTh8GVecs0L/691L1SscilAPcx58Ho=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n### packages for base\nconda create -n PAM python=3.10 -y\nconda activate PAM\npip install --upgrade pip\npip install -e \".[train]\"\n### packages for sam2\ncd sam2\npip install -e \".[notebooks]\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "zEmoMt1kGX6NST6M5xp0vRRoJBDQAIj/xQzul+O2fIg=",
+        "originContent": "### packages for base",
+        "translatedContent": "### packages for base"
+      },
+      {
+        "row": 3,
+        "rowsha": "5+ULBRv+3pFYQfNHwrAPC7Yo5+Pn+NU3/p1bj9RMrA4=",
+        "originContent": "conda create -n PAM python=3.10 -y",
+        "translatedContent": "conda create -n PAM python=3.10 -y"
+      },
+      {
+        "row": 4,
+        "rowsha": "ubnXA7HQ3iPf2eW23mh9sJlez8++fzsS/vQFs2lWYaQ=",
+        "originContent": "conda activate PAM",
+        "translatedContent": "conda activate PAM"
+      },
+      {
+        "row": 5,
+        "rowsha": "4HeOXyfmyX7wD0EclkMirgRrNQ+Zcno14B5zcF529Ls=",
+        "originContent": "pip install --upgrade pip",
+        "translatedContent": "pip install --upgrade pip"
+      },
+      {
+        "row": 6,
+        "rowsha": "hAjfhuHMe5Nt5kw4qY0uNDRQWSvw4fUY40vaxOd7k1Y=",
+        "originContent": "pip install -e \".[train]\"",
+        "translatedContent": "pip install -e \".[train]\""
+      },
+      {
+        "row": 7,
+        "rowsha": "oc9kklpjmzwqajStiHR4OVVoDFIJjpPRbzToZxluuBM=",
+        "originContent": "### packages for sam2",
+        "translatedContent": "### packages for sam2"
+      },
+      {
+        "row": 8,
+        "rowsha": "H12ZPPG6i2Q9nciDWoPLP4IL25lwIucqfClSrcG3udU=",
+        "originContent": "cd sam2",
+        "translatedContent": "cd sam2"
+      },
+      {
+        "row": 9,
+        "rowsha": "8e/IIcidN+paHo5qiONUlERAjxcuh5IkLAFR3aW1Hc0=",
+        "originContent": "pip install -e \".[notebooks]\"",
+        "translatedContent": "pip install -e \".[notebooks]\""
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n3. Install Flash-Attention",
+    "ContentSha": "IYwTUHZDVcdpprOEIQH7h8iApoo52CpRZwSQLBskmz8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. Flash-Attentionのインストール\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. Flash-Attentionのインストール"
+      },
+      {
+        "row": 2,
+        "rowsha": "dcCsbI9WBUEfHDQwqHhnZ5b4WHSZMZ02bdMXjc7n30k=",
+        "originContent": "3. Install Flash-Attention",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\npip install flash-attn --no-build-isolation\n### (If the method mentioned above don’t work for you, try the following one)\ngit clone https://github.com/Dao-AILab/flash-attention.git\ncd flash-attention\npython setup.py install\n```",
+    "ContentSha": "l4yHkkdwjM+LhTASiq5SWt0TcC/cbULJS5W+rQl7KHM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npip install flash-attn --no-build-isolation\n### (If the method mentioned above don’t work for you, try the following one)\ngit clone https://github.com/Dao-AILab/flash-attention.git\ncd flash-attention\npython setup.py install\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "XUy+Rsnrdygsnp+qxpwAV8gWF2O92l0+ExXhvmi5Epw=",
+        "originContent": "pip install flash-attn --no-build-isolation",
+        "translatedContent": "pip install flash-attn --no-build-isolation"
+      },
+      {
+        "row": 3,
+        "rowsha": "rTwF83f5fOxhfZWSmEGonIElsfeoEpGXLuc3JTr4O4w=",
+        "originContent": "### (If the method mentioned above don’t work for you, try the following one)",
+        "translatedContent": "### (If the method mentioned above don’t work for you, try the following one)"
+      },
+      {
+        "row": 4,
+        "rowsha": "3HxNjYJ9tigcDs03u6J8qtVVNfekedO1kmBUji6tKes=",
+        "originContent": "git clone https://github.com/Dao-AILab/flash-attention.git",
+        "translatedContent": "git clone https://github.com/Dao-AILab/flash-attention.git"
+      },
+      {
+        "row": 5,
+        "rowsha": "utv7W/KxWJRkwdZcZVkG7j0C0RFW7LIwwqfdYGKEHYY=",
+        "originContent": "cd flash-attention",
+        "translatedContent": "cd flash-attention"
+      },
+      {
+        "row": 6,
+        "rowsha": "ZTt6UdZddAnjGeKdUdXuKvZdYhrZ72IUjn6s+Z4omHk=",
+        "originContent": "python setup.py install",
+        "translatedContent": "python setup.py install"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n4. Download the SAM2.1-h-large checkpoint:",
+    "ContentSha": "HBBXfUdaoE7QqqIO3+6nQPU0sPFEb8AIXwfdISqgU5E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "4. SAM2.1-h-large チェックポイントをダウンロードします：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "4. SAM2.1-h-large チェックポイントをダウンロードします："
+      },
+      {
+        "row": 2,
+        "rowsha": "Q5aFFrhD4gB65A4ZsTME93MqrxqdKqfZXgGRZyqUZOQ=",
+        "originContent": "4. Download the SAM2.1-h-large checkpoint:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\ncd llava/model/multimodal_encoder\nbash download_ckpts.sh\n```",
+    "ContentSha": "iZQ8QbrwW+u+cCS4yooY+JUgr03cO4ILbqhmmcZWSUk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncd llava/model/multimodal_encoder\nbash download_ckpts.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "IQB0dXX2uk5OJZOvlix0gzHTg4m6p1jvttloUjI2puU=",
+        "originContent": "cd llava/model/multimodal_encoder",
+        "translatedContent": "cd llava/model/multimodal_encoder"
+      },
+      {
+        "row": 3,
+        "rowsha": "M4skbOeEjFDq0jtmVnoVMd2EAlTaJVThk7Y3F1NxboU=",
+        "originContent": "bash download_ckpts.sh",
+        "translatedContent": "bash download_ckpts.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## Quick Start\n\n- Image: Please refer to the examples in [image_infer_example.ipynb](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/./notebooks/image_infer_example.ipynb)\n- Video: Please refer to the examples in [video_infer_example.ipynb](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/./notebooks/video_infer_example.ipynb)\n- Video Stream: Please refer to the examples in [video_stream_infer_example.ipynb](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/./notebooks/video_stream_infer_example.ipynb)\n\n## Dataset\n\nPlease refer to [this link](https://huggingface.co/datasets/Perceive-Anything/PAM-data) to download our refined and augmented data annotations.\n\n**Note:** We do not directly provide the source images. However, for each dataset, we will provide the relevant download links or official website addresses to guide users on how to download them. [DATA_README](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/data/README.md)\n\n<!-- ## Training PAM\n\nYou can train or fine-tune PAM on custom datasets of images, videos, or both. Please check the training [README](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/training/README.md) on how to get started. -->\n\n## Local Gradio Demo for PAM\nIn progress ......\n<!-- ### Simple Gradio Demo for Image\n\n[`pam_image.py`](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/pam_image.py) - Interactive Gradio web interface for drawing masks on images and getting semantics. **This demo is tested with `gradio` 5.5.0.**\n\n### Simple Gradio Demo for Video\n\n[`pam_video.py`](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/pam_video.py) - Interactive Gradio web interface for drawing masks on videos and getting semantics. **This demo is tested with `gradio` 5.5.0.** -->\n\n## License\n\nThis code repository is licensed under [Apache 2.0](./LICENSE).\n\n## Acknowledgement\nWe would like to thank the following projects for their contributions to this work:\n\n- [LLaVA-Next](https://github.com/LLaVA-VL/LLaVA-NeXT)\n- [SAM](https://github.com/facebookresearch/segment-anything)\n- [SAM 2](https://github.com/facebookresearch/sam2)\n\n## Citation\n\nIf you find PAM useful for your research and applications, or use our dataset in your research, please use the following BibTeX entry.\n",
+    "ContentSha": "o33WRMUEYlLLUAqlVzAP8Syk4iNgZb8lI3eq52aZsDA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## クイックスタート\n\n- 画像： [image_infer_example.ipynb](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/./notebooks/image_infer_example.ipynb) の例を参照してください\n- ビデオ： [video_infer_example.ipynb](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/./notebooks/video_infer_example.ipynb) の例を参照してください\n- ビデオストリーム： [video_stream_infer_example.ipynb](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/./notebooks/video_stream_infer_example.ipynb) の例を参照してください\n\n## データセット\n\n当社の洗練された拡張データ注釈をダウンロードするには、[こちらのリンク](https://huggingface.co/datasets/Perceive-Anything/PAM-data)を参照してください。\n\n**注意:** ソース画像は直接提供していません。ただし、各データセットについては、ユーザーがダウンロード方法を案内できるように、関連するダウンロードリンクまたは公式ウェブサイトのアドレスを提供します。 [DATA_README](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/data/README.md)\n\n<!-- ## PAMのトレーニング\n\n画像、ビデオ、またはその両方のカスタムデータセットでPAMをトレーニングまたはファインチューニングできます。開始方法についてはトレーニングの[README](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/training/README.md)をご確認ください。 -->\n\n## PAMのローカルGradioデモ\n進行中 ......\n\n<!-- ### 画像用シンプルGradioデモ\n\n[`pam_image.py`](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/pam_image.py) - 画像上でマスクを描画し意味情報を取得するためのインタラクティブなGradioウェブインターフェース。**このデモは `gradio` 5.5.0でテストされています。**\n\n### ビデオ用シンプルGradioデモ\n\n[`pam_video.py`](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/pam_video.py) - ビデオ上でマスクを描画し意味情報を取得するためのインタラクティブなGradioウェブインターフェース。**このデモは `gradio` 5.5.0でテストされています。** -->\n\n## ライセンス\n\nこのコードリポジトリは[Apache 2.0](./LICENSE)の下でライセンスされています。\n\n## 謝辞\nこの研究に貢献してくださった以下のプロジェクトに感謝いたします：\n\n- [LLaVA-Next](https://github.com/LLaVA-VL/LLaVA-NeXT)\n- [SAM](https://github.com/facebookresearch/segment-anything)\n- [SAM 2](https://github.com/facebookresearch/sam2)\n\n## 引用\n\nPAMがあなたの研究やアプリケーションに役立つ場合、または当社のデータセットを研究に使用する場合は、以下のBibTeXエントリをご利用ください。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## クイックスタート"
+      },
+      {
+        "row": 2,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 画像： [image_infer_example.ipynb](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/./notebooks/image_infer_example.ipynb) の例を参照してください"
+      },
+      {
+        "row": 4,
+        "rowsha": "FniYRGjdiJ8TxzAPVffTtECa2LMlASoypV4BSUbwbh4=",
+        "originContent": "- Image: Please refer to the examples in [image_infer_example.ipynb](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/./notebooks/image_infer_example.ipynb)",
+        "translatedContent": "- ビデオ： [video_infer_example.ipynb](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/./notebooks/video_infer_example.ipynb) の例を参照してください"
+      },
+      {
+        "row": 5,
+        "rowsha": "d6AB+1SBmpJkm8SH9AzEjFK+osnCrxd1JhDOusQK3j0=",
+        "originContent": "- Video: Please refer to the examples in [video_infer_example.ipynb](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/./notebooks/video_infer_example.ipynb)",
+        "translatedContent": "- ビデオストリーム： [video_stream_infer_example.ipynb](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/./notebooks/video_stream_infer_example.ipynb) の例を参照してください"
+      },
+      {
+        "row": 6,
+        "rowsha": "LGJM5HrYG1F8BVICnV5ROsj8lgmm83M506sAb8tGLgU=",
+        "originContent": "- Video Stream: Please refer to the examples in [video_stream_infer_example.ipynb](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/./notebooks/video_stream_infer_example.ipynb)",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## データセット"
+      },
+      {
+        "row": 8,
+        "rowsha": "b78xXK39qETPK4hVKtMuRkDqmW+LfM4n0ASOYbXbu9c=",
+        "originContent": "## Dataset",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "当社の洗練された拡張データ注釈をダウンロードするには、[こちらのリンク](https://huggingface.co/datasets/Perceive-Anything/PAM-data)を参照してください。"
+      },
+      {
+        "row": 10,
+        "rowsha": "6yBaKsXHT33RlIGhiUwickFdR4yptAFsaeHIiCrFMnw=",
+        "originContent": "Please refer to [this link](https://huggingface.co/datasets/Perceive-Anything/PAM-data) to download our refined and augmented data annotations.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**注意:** ソース画像は直接提供していません。ただし、各データセットについては、ユーザーがダウンロード方法を案内できるように、関連するダウンロードリンクまたは公式ウェブサイトのアドレスを提供します。 [DATA_README](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/data/README.md)"
+      },
+      {
+        "row": 12,
+        "rowsha": "6Hsur4fPrVj7Ckvg1w1qfdDbzHk2LtrQJ5YuX8eARmg=",
+        "originContent": "**Note:** We do not directly provide the source images. However, for each dataset, we will provide the relevant download links or official website addresses to guide users on how to download them. [DATA_README](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/data/README.md)",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<!-- ## PAMのトレーニング"
+      },
+      {
+        "row": 14,
+        "rowsha": "v5WqTWmYgyQWgqIbCsfVZ9upxYlL/X8cEuKg1nIuQlI=",
+        "originContent": "<!-- ## Training PAM",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "画像、ビデオ、またはその両方のカスタムデータセットでPAMをトレーニングまたはファインチューニングできます。開始方法についてはトレーニングの[README](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/training/README.md)をご確認ください。 -->"
+      },
+      {
+        "row": 16,
+        "rowsha": "13nvsuvRk2eeIidr9j3DlODt6SK8rHwVhiPF5jCqua0=",
+        "originContent": "You can train or fine-tune PAM on custom datasets of images, videos, or both. Please check the training [README](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/training/README.md) on how to get started. -->",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## PAMのローカルGradioデモ"
+      },
+      {
+        "row": 18,
+        "rowsha": "M0mxAU5cSD2o/QatE14PKkzx00xnQZJ0F+QWnhD0gfA=",
+        "originContent": "## Local Gradio Demo for PAM",
+        "translatedContent": "進行中 ......"
+      },
+      {
+        "row": 19,
+        "rowsha": "Fqq+rxZMa8/3MPUv913AwH4BuA7H5McKgo801FlJO2o=",
+        "originContent": "In progress ......",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "X7a4jS3651swy5ANmGbDUBuRWjUlDbLaqVQ/A0db38g=",
+        "originContent": "<!-- ### Simple Gradio Demo for Image",
+        "translatedContent": "<!-- ### 画像用シンプルGradioデモ"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "d+QSwhe/aMa8wJTHwqIBVqUfYF0X+CCGvuirDCk2usM=",
+        "originContent": "[`pam_image.py`](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/pam_image.py) - Interactive Gradio web interface for drawing masks on images and getting semantics. **This demo is tested with `gradio` 5.5.0.**",
+        "translatedContent": "[`pam_image.py`](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/pam_image.py) - 画像上でマスクを描画し意味情報を取得するためのインタラクティブなGradioウェブインターフェース。**このデモは `gradio` 5.5.0でテストされています。**"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "AEHzeUNa2bh4+D1Mr/H/3MRA4QmuzHsH8blIIys4Ya0=",
+        "originContent": "### Simple Gradio Demo for Video",
+        "translatedContent": "### ビデオ用シンプルGradioデモ"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "vbrnItjnReH1BKxR5/fBDoH2vtTE9mlfohi7EM/WJNY=",
+        "originContent": "[`pam_video.py`](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/pam_video.py) - Interactive Gradio web interface for drawing masks on videos and getting semantics. **This demo is tested with `gradio` 5.5.0.** -->",
+        "translatedContent": "[`pam_video.py`](https://raw.githubusercontent.com/Perceive-Anything/PAM/main/pam_video.py) - ビデオ上でマスクを描画し意味情報を取得するためのインタラクティブなGradioウェブインターフェース。**このデモは `gradio` 5.5.0でテストされています。** -->"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## ライセンス"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "AF9nb80DaT8BnpedW5RyOIKjTDw3dWBNkEhMdQv4UrA=",
+        "originContent": "This code repository is licensed under [Apache 2.0](./LICENSE).",
+        "translatedContent": "このコードリポジトリは[Apache 2.0](./LICENSE)の下でライセンスされています。"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "zeUL2mcUYd628fTHqknKcxv2uqjN5wj1hlMFcVnzrpU=",
+        "originContent": "## Acknowledgement",
+        "translatedContent": "## 謝辞"
+      },
+      {
+        "row": 33,
+        "rowsha": "rVu5UB+QsUrtMJB8OQu7ZEUX1A1ilZEU8ZA+D99SfqM=",
+        "originContent": "We would like to thank the following projects for their contributions to this work:",
+        "translatedContent": "この研究に貢献してくださった以下のプロジェクトに感謝いたします："
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "hX3rgAq0rtpM4Q4t18VEfL0stVBASB6I2FwS5heqGC0=",
+        "originContent": "- [LLaVA-Next](https://github.com/LLaVA-VL/LLaVA-NeXT)",
+        "translatedContent": "- [LLaVA-Next](https://github.com/LLaVA-VL/LLaVA-NeXT)"
+      },
+      {
+        "row": 36,
+        "rowsha": "406OoSziw7952fVcWIXGbrz86NwrAh3RYYSWBFg9YyA=",
+        "originContent": "- [SAM](https://github.com/facebookresearch/segment-anything)",
+        "translatedContent": "- [SAM](https://github.com/facebookresearch/segment-anything)"
+      },
+      {
+        "row": 37,
+        "rowsha": "6MDJdOZh1zfHl4U0dY8vU/wWsjOnSXnmGHw53OiLqlY=",
+        "originContent": "- [SAM 2](https://github.com/facebookresearch/sam2)",
+        "translatedContent": "- [SAM 2](https://github.com/facebookresearch/sam2)"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+        "originContent": "## Citation",
+        "translatedContent": "## 引用"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "IfUdVHL0Y6WthdLTe7g1FRzV2HI+6Mh2w7TxLrsTBSA=",
+        "originContent": "If you find PAM useful for your research and applications, or use our dataset in your research, please use the following BibTeX entry.",
+        "translatedContent": "PAMがあなたの研究やアプリケーションに役立つ場合、または当社のデータセットを研究に使用する場合は、以下のBibTeXエントリをご利用ください。"
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bibtex\n@misc{lin2025perceiveanythingrecognizeexplain,\n      title={Perceive Anything: Recognize, Explain, Caption, and Segment Anything in Images and Videos}, \n      author={Weifeng Lin and Xinyu Wei and Ruichuan An and Tianhe Ren and Tingwei Chen and Renrui Zhang and Ziyu Guo and Wentao Zhang and Lei Zhang and Hongsheng Li},\n      year={2025},\n      eprint={2506.05302},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2506.05302}, \n}\n```",
+    "ContentSha": "AbHuo8J6uBUkg8RXyh4LxvtRoKB1oNA3XczIq0S/Ep0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@misc{lin2025perceiveanythingrecognizeexplain,\n      title={Perceive Anything: Recognize, Explain, Caption, and Segment Anything in Images and Videos}, \n      author={Weifeng Lin and Xinyu Wei and Ruichuan An and Tianhe Ren and Tingwei Chen and Renrui Zhang and Ziyu Guo and Wentao Zhang and Lei Zhang and Hongsheng Li},\n      year={2025},\n      eprint={2506.05302},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2506.05302}, \n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
+      },
+      {
+        "row": 2,
+        "rowsha": "li5emVkiOq0Isx//nA/oz9cR5yjnaqjVVmOQs+EskJU=",
+        "originContent": "@misc{lin2025perceiveanythingrecognizeexplain,",
+        "translatedContent": "@misc{lin2025perceiveanythingrecognizeexplain,"
+      },
+      {
+        "row": 3,
+        "rowsha": "FrJtZCu3SE/fzqpptIj6tAEoqh34yPE7rhg2H4G5NA4=",
+        "originContent": "      title={Perceive Anything: Recognize, Explain, Caption, and Segment Anything in Images and Videos}, ",
+        "translatedContent": "      title={Perceive Anything: Recognize, Explain, Caption, and Segment Anything in Images and Videos}, "
+      },
+      {
+        "row": 4,
+        "rowsha": "ZYIizhu1oaj7dJG/yV351K2/vq3ghf4FR9PmkfouK6A=",
+        "originContent": "      author={Weifeng Lin and Xinyu Wei and Ruichuan An and Tianhe Ren and Tingwei Chen and Renrui Zhang and Ziyu Guo and Wentao Zhang and Lei Zhang and Hongsheng Li},",
+        "translatedContent": "      author={Weifeng Lin and Xinyu Wei and Ruichuan An and Tianhe Ren and Tingwei Chen and Renrui Zhang and Ziyu Guo and Wentao Zhang and Lei Zhang and Hongsheng Li},"
+      },
+      {
+        "row": 5,
+        "rowsha": "1cuvfM9h03loQfZOlvsx9juVCvU41kevaYb2CnD9Gak=",
+        "originContent": "      year={2025},",
+        "translatedContent": "      year={2025},"
+      },
+      {
+        "row": 6,
+        "rowsha": "62XrX8MO6yVEmpfSz9W6MlqPFggOvmVkN2p0lbF/8qM=",
+        "originContent": "      eprint={2506.05302},",
+        "translatedContent": "      eprint={2506.05302},"
+      },
+      {
+        "row": 7,
+        "rowsha": "Fr73/KLqU4TaDaJVUDLO211nM029JE4YRpN5hXSZZqk=",
+        "originContent": "      archivePrefix={arXiv},",
+        "translatedContent": "      archivePrefix={arXiv},"
+      },
+      {
+        "row": 8,
+        "rowsha": "RPNBhgHdrY2A+XYLnuhpAr/aqag2LU2pAjasgtM0tg4=",
+        "originContent": "      primaryClass={cs.CV},",
+        "translatedContent": "      primaryClass={cs.CV},"
+      },
+      {
+        "row": 9,
+        "rowsha": "8x681W0MrZUYt6PwtBSJtAEsYEjdij3GHuES+7UreY0=",
+        "originContent": "      url={https://arxiv.org/abs/2506.05302}, ",
+        "translatedContent": "      url={https://arxiv.org/abs/2506.05302}, "
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n",
+    "ContentSha": "AbpHGcgLb+kRsJGnwFEktk7uzpZOCcBY74+YBdrKVGs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

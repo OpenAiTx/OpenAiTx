@@ -1,0 +1,897 @@
+[
+  {
+    "Id": 1,
+    "Content": "# FormFactory: An Interactive Benchmarking Suite for Multimodal Form-Filling Agents\n\n![](https://raw.githubusercontent.com/formfactory-ai/formfactory/main/img/fig1v1_page_1.png)\n\n<p align=\"center\">\n  <a href=\"https://arxiv.org/abs/2506.01520\"><img src=\"https://img.shields.io/badge/arXiv-2506.01520-B31B1B.svg\" alt=\"arXiv\"></a>\n  &nbsp;\n  <a href=\"https://formfactory-ai.github.io/#demo-video\" target=\"_blank\"><img src=\"https://img.shields.io/badge/Demo-Video-orange.svg\" alt=\"Video Demo\"></a>\n  &nbsp;\n  <a href=\"https://formfactory-ai.github.io\" target=\"_blank\"><img src=\"https://img.shields.io/badge/Project_Page-Website-blue.svg\" alt=\"Project Page\"></a>\n</p>\n\n## 📖 Overview\nOnline form filling is one of the most common—yet most labor-intensive—daily tasks. Traditional automation tools are usually rule-based scripts that struggle with complex and ever-changing web layouts. With the recent rise of Multimodal Large Language Models (**MLLMs**), researchers have begun to explore vision-language agents capable of \"one-click\" form completion. However, current models still fall short in layout understanding and field–value alignment.\n\n**FormFactory** bridges this gap by providing a high-fidelity benchmark and experimentation platform for multimodal form-filling agents. The project consists of:\n\n1. 🌐 **Web Front-End** – 40+ high-fidelity HTML forms from real-world scenarios spanning eight domains (academia, business, finance, healthcare, etc.).\n2. 🗄 **Dataset** –\n   • `data1/` contains JSON **gold answers** (ground-truth field values) for each form.\n   • `data2/` stores supporting **textual materials** that can be used as additional context or prompts.\n   • `labeled-images/` provides page **screenshots** and corresponding **bbox annotations** (organized by folders A–H).\n3. ⚙️ **Back-End Service** – A lightweight Flask API that renders pages, receives submissions, and saves results automatically.\n4. 📊 **Evaluation Scripts** – Utilities for computing field-level and form-level accuracy, layout reasoning metrics, and more.\n\n---\n\n## 🚀 Quick Start\n\n### 1  Prerequisites\n\n- Python ≥ 3.8\n- Flask == 2.3.*\n- Install additional dependencies with:",
+    "ContentSha": "5odJAXymHq3lWR3GlUzoXQbWYVksofwLNO3kDAdEAz0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># FormFactory: 다중 모달 폼 작성 에이전트를 위한 인터랙티브 벤치마킹 스위트\n\n![](https://raw.githubusercontent.com/formfactory-ai/formfactory/main/img/fig1v1_page_1.png)\n\n<p align=\"center\">\n  <a href=\"https://arxiv.org/abs/2506.01520\"><img src=\"https://img.shields.io/badge/arXiv-2506.01520-B31B1B.svg\" alt=\"arXiv\"></a>\n  &nbsp;\n  <a href=\"https://formfactory-ai.github.io/#demo-video\" target=\"_blank\"><img src=\"https://img.shields.io/badge/Demo-Video-orange.svg\" alt=\"Video Demo\"></a>\n  &nbsp;\n  <a href=\"https://formfactory-ai.github.io\" target=\"_blank\"><img src=\"https://img.shields.io/badge/Project_Page-Website-blue.svg\" alt=\"Project Page\"></a>\n</p>\n\n## 📖 개요\n온라인 폼 작성은 가장 흔하면서도 가장 노동 집약적인 일상 작업 중 하나입니다. 전통적인 자동화 도구는 보통 규칙 기반 스크립트로, 복잡하고 끊임없이 변화하는 웹 레이아웃에 어려움을 겪습니다. 최근 다중 모달 대형 언어 모델(**MLLMs**)의 부상으로, 연구자들은 \"원클릭\" 폼 완성을 수행할 수 있는 비전-언어 에이전트를 탐구하기 시작했습니다. 그러나 현재 모델들은 여전히 레이아웃 이해와 필드-값 정렬에서 부족한 점이 있습니다.\n\n**FormFactory**는 다중 모달 폼 작성 에이전트를 위한 고충실도 벤치마크 및 실험 플랫폼을 제공하여 이 격차를 해소합니다. 프로젝트는 다음으로 구성됩니다:\n\n1. 🌐 **웹 프론트엔드** – 8개 도메인(학계, 비즈니스, 금융, 의료 등)에 걸친 실제 시나리오에서 수집한 40개 이상의 고충실도 HTML 폼.\n2. 🗄 **데이터셋** –\n   • `data1/`에는 각 폼에 대한 JSON **정답**(실제 필드 값)이 포함되어 있습니다.\n   • `data2/`는 추가 컨텍스트 또는 프롬프트로 사용할 수 있는 지원 **텍스트 자료**를 저장합니다.\n   • `labeled-images/`는 페이지 **스크린샷**과 해당 **bbox 주석**(폴더 A–H별로 구성)을 제공합니다.\n3. ⚙️ **백엔드 서비스** – 페이지를 렌더링하고 제출을 수신하며 결과를 자동으로 저장하는 경량 Flask API.\n4. 📊 **평가 스크립트** – 필드 수준 및 폼 수준 정확도, 레이아웃 추론 지표 등을 계산하는 유틸리티.\n\n---\n\n## 🚀 빠른 시작\n\n### 1  사전 요구 사항\n\n- Python ≥ 3.8\n- Flask == 2.3.*\n- 추가 의존성 설치 명령:</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "H3gEpRyDjkndjGyLAt1cBm+eEHchQ20yrjFUNFTJt5w=",
+        "originContent": "# FormFactory: An Interactive Benchmarking Suite for Multimodal Form-Filling Agents",
+        "translatedContent": "<translate-content># FormFactory: 다중 모달 폼 작성 에이전트를 위한 인터랙티브 벤치마킹 스위트"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "WOwTGTlXR7NnR48e3jS52/CRqiFOqS3uXx6P8Z2jk6A=",
+        "originContent": "![](https://raw.githubusercontent.com/formfactory-ai/formfactory/main/img/fig1v1_page_1.png)",
+        "translatedContent": "![](https://raw.githubusercontent.com/formfactory-ai/formfactory/main/img/fig1v1_page_1.png)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "Fa71zW6azwipfjZGw4iE/F6M6B+VlbhQJdqQufgnxBw=",
+        "originContent": "  <a href=\"https://arxiv.org/abs/2506.01520\"><img src=\"https://img.shields.io/badge/arXiv-2506.01520-B31B1B.svg\" alt=\"arXiv\"></a>",
+        "translatedContent": "  <a href=\"https://arxiv.org/abs/2506.01520\"><img src=\"https://img.shields.io/badge/arXiv-2506.01520-B31B1B.svg\" alt=\"arXiv\"></a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "robEj93GNR0ga47/E63BGVUMman0bHA00TiujTzIdqs=",
+        "originContent": "  &nbsp;",
+        "translatedContent": "  &nbsp;"
+      },
+      {
+        "row": 8,
+        "rowsha": "3suH8zmTXlNsz0k1d/3fx/2sW2DHkdxTKnfvXj7wMdk=",
+        "originContent": "  <a href=\"https://formfactory-ai.github.io/#demo-video\" target=\"_blank\"><img src=\"https://img.shields.io/badge/Demo-Video-orange.svg\" alt=\"Video Demo\"></a>",
+        "translatedContent": "  <a href=\"https://formfactory-ai.github.io/#demo-video\" target=\"_blank\"><img src=\"https://img.shields.io/badge/Demo-Video-orange.svg\" alt=\"Video Demo\"></a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "robEj93GNR0ga47/E63BGVUMman0bHA00TiujTzIdqs=",
+        "originContent": "  &nbsp;",
+        "translatedContent": "  &nbsp;"
+      },
+      {
+        "row": 10,
+        "rowsha": "ZzLBByi1yeA/Hqn9SalHNaJQJkTE1YjCGxMWM/g4aXU=",
+        "originContent": "  <a href=\"https://formfactory-ai.github.io\" target=\"_blank\"><img src=\"https://img.shields.io/badge/Project_Page-Website-blue.svg\" alt=\"Project Page\"></a>",
+        "translatedContent": "  <a href=\"https://formfactory-ai.github.io\" target=\"_blank\"><img src=\"https://img.shields.io/badge/Project_Page-Website-blue.svg\" alt=\"Project Page\"></a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "MLvv7+LWD/1IilgpxTcAJc/QIfnOBffjkjBaDYWtXY4=",
+        "originContent": "## 📖 Overview",
+        "translatedContent": "## 📖 개요"
+      },
+      {
+        "row": 14,
+        "rowsha": "XE1hX51/FckksEdqVTUeIWL7UK/Cs0bRURfKBhVukTM=",
+        "originContent": "Online form filling is one of the most common—yet most labor-intensive—daily tasks. Traditional automation tools are usually rule-based scripts that struggle with complex and ever-changing web layouts. With the recent rise of Multimodal Large Language Models (**MLLMs**), researchers have begun to explore vision-language agents capable of \"one-click\" form completion. However, current models still fall short in layout understanding and field–value alignment.",
+        "translatedContent": "온라인 폼 작성은 가장 흔하면서도 가장 노동 집약적인 일상 작업 중 하나입니다. 전통적인 자동화 도구는 보통 규칙 기반 스크립트로, 복잡하고 끊임없이 변화하는 웹 레이아웃에 어려움을 겪습니다. 최근 다중 모달 대형 언어 모델(**MLLMs**)의 부상으로, 연구자들은 \"원클릭\" 폼 완성을 수행할 수 있는 비전-언어 에이전트를 탐구하기 시작했습니다. 그러나 현재 모델들은 여전히 레이아웃 이해와 필드-값 정렬에서 부족한 점이 있습니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "GX9bPVv48bfeX9kTgtDBALXa2CmijDAz/Kx4ZSQevsM=",
+        "originContent": "**FormFactory** bridges this gap by providing a high-fidelity benchmark and experimentation platform for multimodal form-filling agents. The project consists of:",
+        "translatedContent": "**FormFactory**는 다중 모달 폼 작성 에이전트를 위한 고충실도 벤치마크 및 실험 플랫폼을 제공하여 이 격차를 해소합니다. 프로젝트는 다음으로 구성됩니다:"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "EUlomiSVmsKqN0cqlleW+Vay/QgVT3pu3UUQqXlThkQ=",
+        "originContent": "1. 🌐 **Web Front-End** – 40+ high-fidelity HTML forms from real-world scenarios spanning eight domains (academia, business, finance, healthcare, etc.).",
+        "translatedContent": "1. 🌐 **웹 프론트엔드** – 8개 도메인(학계, 비즈니스, 금융, 의료 등)에 걸친 실제 시나리오에서 수집한 40개 이상의 고충실도 HTML 폼."
+      },
+      {
+        "row": 19,
+        "rowsha": "U93GlXHJxPiGyYSJXPMsMFoUwcZZPpEWB5lfq1kNxm4=",
+        "originContent": "2. 🗄 **Dataset** –",
+        "translatedContent": "2. 🗄 **데이터셋** –"
+      },
+      {
+        "row": 20,
+        "rowsha": "BQ+iggmMLScmTu5nbzHT58HHJ+1VsZIkMcWUcX95Fg4=",
+        "originContent": "   • `data1/` contains JSON **gold answers** (ground-truth field values) for each form.",
+        "translatedContent": "   • `data1/`에는 각 폼에 대한 JSON **정답**(실제 필드 값)이 포함되어 있습니다."
+      },
+      {
+        "row": 21,
+        "rowsha": "Grh25xvscIdzHgAYz/oOZqRPwrZoH2tL5twJYJ9jkVY=",
+        "originContent": "   • `data2/` stores supporting **textual materials** that can be used as additional context or prompts.",
+        "translatedContent": "   • `data2/`는 추가 컨텍스트 또는 프롬프트로 사용할 수 있는 지원 **텍스트 자료**를 저장합니다."
+      },
+      {
+        "row": 22,
+        "rowsha": "oT54IVrb0M3NwmjqhlWJPpNyCaVGZYnRTxST2kF5bAY=",
+        "originContent": "   • `labeled-images/` provides page **screenshots** and corresponding **bbox annotations** (organized by folders A–H).",
+        "translatedContent": "   • `labeled-images/`는 페이지 **스크린샷**과 해당 **bbox 주석**(폴더 A–H별로 구성)을 제공합니다."
+      },
+      {
+        "row": 23,
+        "rowsha": "k6c3LslxeiKeOf22FuMyQ/vvsQCo2M4a2nk0kLawDm8=",
+        "originContent": "3. ⚙️ **Back-End Service** – A lightweight Flask API that renders pages, receives submissions, and saves results automatically.",
+        "translatedContent": "3. ⚙️ **백엔드 서비스** – 페이지를 렌더링하고 제출을 수신하며 결과를 자동으로 저장하는 경량 Flask API."
+      },
+      {
+        "row": 24,
+        "rowsha": "iAL7PmZcQhjguyfZ4MYde9HrwM/CJuHwWsy+WNDy3mI=",
+        "originContent": "4. 📊 **Evaluation Scripts** – Utilities for computing field-level and form-level accuracy, layout reasoning metrics, and more.",
+        "translatedContent": "4. 📊 **평가 스크립트** – 필드 수준 및 폼 수준 정확도, 레이아웃 추론 지표 등을 계산하는 유틸리티."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "jsdHdcNegTOe5j0D0TqKpRz5kFDyybyTTtR/jemcS5A=",
+        "originContent": "## 🚀 Quick Start",
+        "translatedContent": "## 🚀 빠른 시작"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "ZpegmKc4FddM2/AJdctx+0YqcOwG3YcOnSVgP6SZtzE=",
+        "originContent": "### 1  Prerequisites",
+        "translatedContent": "### 1  사전 요구 사항"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "+VAlQQ4Co6PA0ueUVeU+wniH9S2XgSdZI0BbmMPZK+4=",
+        "originContent": "- Python ≥ 3.8",
+        "translatedContent": "- Python ≥ 3.8"
+      },
+      {
+        "row": 33,
+        "rowsha": "Q9vdwBXt+aPfDogVwrBVHBPUORwHEQii6h46Nf+BfXg=",
+        "originContent": "- Flask == 2.3.*",
+        "translatedContent": "- Flask == 2.3.*"
+      },
+      {
+        "row": 34,
+        "rowsha": "gDWs272pwsspz9vjqhB4PytUGjeAhT2CU+8hY1uZCyo=",
+        "originContent": "- Install additional dependencies with:",
+        "translatedContent": "- 추가 의존성 설치 명령:</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "  ```bash\n  pip install -r requirements.txt\n  ```",
+    "ContentSha": "HrHpn7zvF4CH6PLm/8Q09TOnNrMyMmAR80370ivY1RU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```bash\n  pip install -r requirements.txt\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "GpvjVZo/3RA4N35GHHHR64wuFGBf0VkSR291B8px6kU=",
+        "originContent": "  ```bash",
+        "translatedContent": "  ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "q3QPFnTTro2pCG+mx3mNixDdXPJPAXwgXboZd6T1XMQ=",
+        "originContent": "  pip install -r requirements.txt",
+        "translatedContent": "  pip install -r requirements.txt"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### 2  Clone Repository",
+    "ContentSha": "GvisL/t0Nz+lI5jVRX3H5mCd4VZlcffC1P6K9zGQKls=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 2  저장소 복제하기\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 2  저장소 복제하기"
+      },
+      {
+        "row": 2,
+        "rowsha": "h7Fw3J05ody31juBWN0XHF9Wyyrvjl+mWIjqG+SnXbM=",
+        "originContent": "### 2  Clone Repository",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\ngit clone https://github.com/formfactory-ai/formfactory.git\ncd formfactory\n```",
+    "ContentSha": "y5J925ZgPXUSMdhyTK2UglaugJDO+h1vvLvdwDJj5NQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/formfactory-ai/formfactory.git\ncd formfactory\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "GQIOMjswGbOfnZY6xuYibzTJ5GPCOITfC8+T0mqqlyU=",
+        "originContent": "git clone https://github.com/formfactory-ai/formfactory.git",
+        "translatedContent": "git clone https://github.com/formfactory-ai/formfactory.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "3hhJ/YLz+8ZVMPWpNX/XIXTefMJusCyefPO8z75bE6c=",
+        "originContent": "cd formfactory",
+        "translatedContent": "cd formfactory"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### 3  Run Demo Server",
+    "ContentSha": "CQ7qj9hQVAtFtI4kRWARvFJSvLe23hh1/XuFPlNA964=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 3  데모 서버 실행\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 3  데모 서버 실행"
+      },
+      {
+        "row": 2,
+        "rowsha": "3e3z0hD54U+5jeqPgSK4cDG2dSPoQkHs6+J/C6n13Rc=",
+        "originContent": "### 3  Run Demo Server",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\npython app.py        # default: http://127.0.0.1:5000/\n```",
+    "ContentSha": "g3vy1b/6BQg/3+flswf2E7ssN7YZRr55iC4pZw1zuLM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython app.py        # default: http://127.0.0.1:5000/\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "DTc/IOpsXCxWvjqGQWZk41yvNdhbNUvFyjw5rw9PjEs=",
+        "originContent": "python app.py        # default: http://127.0.0.1:5000/",
+        "translatedContent": "python app.py        # default: http://127.0.0.1:5000/"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "Open the URL in your browser, pick any form from the dashboard, and start interacting.\n\n---\n\n## 🗂 Directory Layout",
+    "ContentSha": "g5DDFEYlj+Fro/u+OPx7I6TF2bv4xltHBDbJFsXHzOo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "브라우저에서 URL을 열고, 대시보드에서 아무 양식을 선택한 후 상호작용을 시작하세요.\n\n---\n\n## 🗂 디렉토리 구조</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wLGYrkGEJx3ts80wLei1ho1CvU3KytzcXZWB4ih0DVQ=",
+        "originContent": "Open the URL in your browser, pick any form from the dashboard, and start interacting.",
+        "translatedContent": "브라우저에서 URL을 열고, 대시보드에서 아무 양식을 선택한 후 상호작용을 시작하세요."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "InyxEeLZdEFg9Nr/wtR0oX580j2TVfaoRvlyOGO+dY8=",
+        "originContent": "## 🗂 Directory Layout",
+        "translatedContent": "## 🗂 디렉토리 구조</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```text\nformfactory/\n├─ app.py                # Flask back-end entry point\n├─ templates/            # 40+ HTML form templates\n├─ static/               # Stylesheets & front-end assets\n├─ data/                 # Dataset root\n│  ├─ data1/             # Gold answers in JSON format\n│  ├─ data2/             # Supporting textual materials\n│  └─ labeled-images/    # Screenshots + bbox annotations (A–H)\n├─ submission/           # Auto-generated user/model submissions\n└─ README.md             # This document\n```",
+    "ContentSha": "rLMEFf6lBsm+osy9Fq+4EUvh00zKo7IoerMheDyYdqY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```text\nformfactory/\n├─ app.py                # Flask back-end entry point\n├─ templates/            # 40+ HTML form templates\n├─ static/               # Stylesheets & front-end assets\n├─ data/                 # Dataset root\n│  ├─ data1/             # Gold answers in JSON format\n│  ├─ data2/             # Supporting textual materials\n│  └─ labeled-images/    # Screenshots + bbox annotations (A–H)\n├─ submission/           # Auto-generated user/model submissions\n└─ README.md             # This document\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tKMTeRwfvKLBQQ0dWxGQr0CHcj7BtsHEundimNbdYig=",
+        "originContent": "```text",
+        "translatedContent": "```text"
+      },
+      {
+        "row": 2,
+        "rowsha": "+aibfYAoCl/V1fMvicxGOVJz0jyRSDLfJPQnOk/rgak=",
+        "originContent": "formfactory/",
+        "translatedContent": "formfactory/"
+      },
+      {
+        "row": 3,
+        "rowsha": "+aruggNAIVEePaW+aZhVZjwMx+ftcJ8de6eq5ff1a30=",
+        "originContent": "├─ app.py                # Flask back-end entry point",
+        "translatedContent": "├─ app.py                # Flask back-end entry point"
+      },
+      {
+        "row": 4,
+        "rowsha": "WDOIc4Ux0xfURA61u1XXj99Gtuz06guMS34wn9pgYyE=",
+        "originContent": "├─ templates/            # 40+ HTML form templates",
+        "translatedContent": "├─ templates/            # 40+ HTML form templates"
+      },
+      {
+        "row": 5,
+        "rowsha": "a9bURmkCJvjpP7sucUwY/lg772lZNh1NL8GwPTx42+8=",
+        "originContent": "├─ static/               # Stylesheets & front-end assets",
+        "translatedContent": "├─ static/               # Stylesheets & front-end assets"
+      },
+      {
+        "row": 6,
+        "rowsha": "n69w+cCfD1OvkuqGz/WP+iDZwnU/YUruvlvqNtbpqf0=",
+        "originContent": "├─ data/                 # Dataset root",
+        "translatedContent": "├─ data/                 # Dataset root"
+      },
+      {
+        "row": 7,
+        "rowsha": "O2bavdUrq9aoTkp136LVIT0pxLUUv7xBbp4IIWCgZwc=",
+        "originContent": "│  ├─ data1/             # Gold answers in JSON format",
+        "translatedContent": "│  ├─ data1/             # Gold answers in JSON format"
+      },
+      {
+        "row": 8,
+        "rowsha": "glqcdlTzJwDtfsmI99M44sqwUcRZvfwEoIwcQQ4wEwU=",
+        "originContent": "│  ├─ data2/             # Supporting textual materials",
+        "translatedContent": "│  ├─ data2/             # Supporting textual materials"
+      },
+      {
+        "row": 9,
+        "rowsha": "E67ynJ0cuzQVtFwEvGPgOmbWFJVgdNHrx6eYG8AyVO8=",
+        "originContent": "│  └─ labeled-images/    # Screenshots + bbox annotations (A–H)",
+        "translatedContent": "│  └─ labeled-images/    # Screenshots + bbox annotations (A–H)"
+      },
+      {
+        "row": 10,
+        "rowsha": "tC/bMdb7bxCKqwedndLhXrAj7+e5j4Y6HMbWkcFbq7I=",
+        "originContent": "├─ submission/           # Auto-generated user/model submissions",
+        "translatedContent": "├─ submission/           # Auto-generated user/model submissions"
+      },
+      {
+        "row": 11,
+        "rowsha": "ZHF5Ng5+jkiMqLtXqeI4orCYklEkT01Ui2V1KRKAM8M=",
+        "originContent": "└─ README.md             # This document",
+        "translatedContent": "└─ README.md             # This document"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n---\n\n## ✨ Key Features\n- **Multi-Domain Coverage** – Academia, business, arts, technology, finance, healthcare, law, and manufacturing.\n- **High-Fidelity Pages** – Realistic layouts to test visual understanding and field localization.\n- **Dynamic Fields** – Groups, repeatable sections, cascading dependencies, and more.\n- **Interactive Evaluation** – Run the server to observe model behavior in real time; results are saved automatically.\n- **Easy to Extend** – Add a new form by simply providing an HTML template and a JSON answer file.\n\n---\n\n## 🧪 Evaluation\n\n![](https://raw.githubusercontent.com/formfactory-ai/formfactory/main/img/systemoverview_page_1.png)\n",
+    "ContentSha": "Qqa6nneXJK/WOvmmLuTiPCH9+aiHwDET+TqwX/1dbrU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "---\n\n## ✨ 주요 특징\n- **다중 도메인 커버리지** – 학계, 비즈니스, 예술, 기술, 금융, 의료, 법률, 제조 분야 포함.\n- **고충실도 페이지** – 시각적 이해 및 현장 현지화 테스트를 위한 현실적인 레이아웃.\n- **동적 필드** – 그룹, 반복 섹션, 계단식 종속성 등 다양한 기능.\n- **인터랙티브 평가** – 서버를 실행하여 실시간으로 모델 동작 관찰; 결과는 자동 저장.\n- **확장 용이** – HTML 템플릿과 JSON 답안 파일만 제공하면 새 양식 추가 가능.\n\n---\n\n## 🧪 평가\n\n![](https://raw.githubusercontent.com/formfactory-ai/formfactory/main/img/systemoverview_page_1.png)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ✨ 주요 특징"
+      },
+      {
+        "row": 4,
+        "rowsha": "ZqRxbjfweoei1TdplkepzaponeK/fT5zgiMOYzmuvo0=",
+        "originContent": "## ✨ Key Features",
+        "translatedContent": "- **다중 도메인 커버리지** – 학계, 비즈니스, 예술, 기술, 금융, 의료, 법률, 제조 분야 포함."
+      },
+      {
+        "row": 5,
+        "rowsha": "iArRvah5OBNihnz2oB08PT6QTHgG1MPJGDsR9hPpJOw=",
+        "originContent": "- **Multi-Domain Coverage** – Academia, business, arts, technology, finance, healthcare, law, and manufacturing.",
+        "translatedContent": "- **고충실도 페이지** – 시각적 이해 및 현장 현지화 테스트를 위한 현실적인 레이아웃."
+      },
+      {
+        "row": 6,
+        "rowsha": "1JTqudeFGOlrU5W7s5p5JK5zUB0OWHhqtkp4FJenUdk=",
+        "originContent": "- **High-Fidelity Pages** – Realistic layouts to test visual understanding and field localization.",
+        "translatedContent": "- **동적 필드** – 그룹, 반복 섹션, 계단식 종속성 등 다양한 기능."
+      },
+      {
+        "row": 7,
+        "rowsha": "QHIuqcv5zxnSfKPbAnL/eOPD0ALx4mxisp8+THsE3RA=",
+        "originContent": "- **Dynamic Fields** – Groups, repeatable sections, cascading dependencies, and more.",
+        "translatedContent": "- **인터랙티브 평가** – 서버를 실행하여 실시간으로 모델 동작 관찰; 결과는 자동 저장."
+      },
+      {
+        "row": 8,
+        "rowsha": "riaNUUwMMoIqbrDdWCI1HZ135a1es1+QYd6C+CIVAnk=",
+        "originContent": "- **Interactive Evaluation** – Run the server to observe model behavior in real time; results are saved automatically.",
+        "translatedContent": "- **확장 용이** – HTML 템플릿과 JSON 답안 파일만 제공하면 새 양식 추가 가능."
+      },
+      {
+        "row": 9,
+        "rowsha": "aNHX+KodkQF82SbnBw+xRg4fHAGL3YKoYhXiCf5MwUU=",
+        "originContent": "- **Easy to Extend** – Add a new form by simply providing an HTML template and a JSON answer file.",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 11,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🧪 평가"
+      },
+      {
+        "row": 13,
+        "rowsha": "1rTJEhkOJuttdHWmFVTQy0JQ+wg8J/Llz2GBGIV47Tk=",
+        "originContent": "## 🧪 Evaluation",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![](https://raw.githubusercontent.com/formfactory-ai/formfactory/main/img/systemoverview_page_1.png)"
+      },
+      {
+        "row": 15,
+        "rowsha": "Hy4ltXWlvawxFwHdmwiMbehNOxG5k5EYBzJVJgPjG1I=",
+        "originContent": "![](https://raw.githubusercontent.com/formfactory-ai/formfactory/main/img/systemoverview_page_1.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\n# 📁 Navigate to evaluation directory\ncd eval\n\n# 🔄 Process data with model API\npython batch_processor.py A11 json --filename Art_Exhibition_Submission_Form\n\n# 📊 Evaluate model performance  \npython evaluator.py --batch\n\n# 📋 View detailed evaluation report\ncat evaluation_results/batch_evaluation_*_report.txt\n```",
+    "ContentSha": "LPf1UCmsmtgLj55ACY9p8bW6t3pPzPytW7pv7Npqj8k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# 📁 Navigate to evaluation directory\ncd eval\n\n# 🔄 Process data with model API\npython batch_processor.py A11 json --filename Art_Exhibition_Submission_Form\n\n# 📊 Evaluate model performance  \npython evaluator.py --batch\n\n# 📋 View detailed evaluation report\ncat evaluation_results/batch_evaluation_*_report.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "q1pxe3T264y4pXK3tRQyZjsbIbZRNv52p6PF8RCRj7I=",
+        "originContent": "# 📁 Navigate to evaluation directory",
+        "translatedContent": "# 📁 Navigate to evaluation directory"
+      },
+      {
+        "row": 3,
+        "rowsha": "c0Rg52zUxMeHw3ad8YCoGX/N25bPsfgv96ZxF71+oJg=",
+        "originContent": "cd eval",
+        "translatedContent": "cd eval"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "OX+WsJb6x6vPcyryLnI7PLC61guXaQ9LFYUyRkMdAxY=",
+        "originContent": "# 🔄 Process data with model API",
+        "translatedContent": "# 🔄 Process data with model API"
+      },
+      {
+        "row": 6,
+        "rowsha": "YVTMWVI/Qy4pS/KuS/u/ZED6JW9cseSaxaUzNYJzi9o=",
+        "originContent": "python batch_processor.py A11 json --filename Art_Exhibition_Submission_Form",
+        "translatedContent": "python batch_processor.py A11 json --filename Art_Exhibition_Submission_Form"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "f19cDYcpUgt/XnrJQY1Tp6Yxtjgb/vlevGPsrfgIQ7c=",
+        "originContent": "# 📊 Evaluate model performance  ",
+        "translatedContent": "# 📊 Evaluate model performance  "
+      },
+      {
+        "row": 9,
+        "rowsha": "2m5NMgnEZ+YaCPstyK6d/dtm0sZkRpnBJRglsGNK6Co=",
+        "originContent": "python evaluator.py --batch",
+        "translatedContent": "python evaluator.py --batch"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "fPIXuQ7p66qjD9IxQAu/WTTq+0FGyxhtexqVgKiMQbE=",
+        "originContent": "# 📋 View detailed evaluation report",
+        "translatedContent": "# 📋 View detailed evaluation report"
+      },
+      {
+        "row": 12,
+        "rowsha": "h5yO7VNsUExUilQewV9mEApCxjMPAgSrU0P3K8kkZNc=",
+        "originContent": "cat evaluation_results/batch_evaluation_*_report.txt",
+        "translatedContent": "cat evaluation_results/batch_evaluation_*_report.txt"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n---\n\n> [!NOTE]\n>\n> Complete your API call in `model_call.py`, and customize your evaluation in `evaluator.py`\n\n## 📄 License\nThis project is released under the **MIT License** – see the [LICENSE](LICENSE) file for details.\n\n---\n\n## 🔗 Citation\nIf you use FormFactory in your research, please cite:",
+    "ContentSha": "0sTqXX+gFCw8FyosTVUMDLgtM2Sx5AKat7Q6JTAbThA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "---\n\n> [!NOTE]\n>\n> `model_call.py`에서 API 호출을 완료하고, `evaluator.py`에서 평가를 사용자 정의하세요.\n\n## 📄 라이선스\n이 프로젝트는 **MIT 라이선스** 하에 배포됩니다 – 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.\n\n---\n\n## 🔗 인용\n연구에 FormFactory를 사용하셨다면, 다음을 인용해 주세요:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> [!NOTE]"
+      },
+      {
+        "row": 4,
+        "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+        "originContent": "> [!NOTE]",
+        "translatedContent": ">"
+      },
+      {
+        "row": 5,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": "> `model_call.py`에서 API 호출을 완료하고, `evaluator.py`에서 평가를 사용자 정의하세요."
+      },
+      {
+        "row": 6,
+        "rowsha": "sBXl/8bPxZCqUQRM8HehPOgXlNBxitfSS9/dyCeefrU=",
+        "originContent": "> Complete your API call in `model_call.py`, and customize your evaluation in `evaluator.py`",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📄 라이선스"
+      },
+      {
+        "row": 8,
+        "rowsha": "qdzKI50RqHyAaNHbQuVekCMXyk/TfGfppMlRPvlONC4=",
+        "originContent": "## 📄 License",
+        "translatedContent": "이 프로젝트는 **MIT 라이선스** 하에 배포됩니다 – 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요."
+      },
+      {
+        "row": 9,
+        "rowsha": "3Q+Cw9FP6L7KVoZjsZZuRjfF8880QVVazU7JZwXHx4U=",
+        "originContent": "This project is released under the **MIT License** – see the [LICENSE](LICENSE) file for details.",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 11,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🔗 인용"
+      },
+      {
+        "row": 13,
+        "rowsha": "aNP5f9FONQlYAsAnj/QeNqUnknmtAd6GYu4CqYfY6sA=",
+        "originContent": "## 🔗 Citation",
+        "translatedContent": "연구에 FormFactory를 사용하셨다면, 다음을 인용해 주세요:"
+      },
+      {
+        "row": 14,
+        "rowsha": "248LoyZ+8aWPfzTJeD1uh2u9neV6f6JNWLS3cJB0igw=",
+        "originContent": "If you use FormFactory in your research, please cite:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bibtex\n@misc{li2025formfactoryinteractivebenchmarkingsuite,\n  title        = {FormFactory: An Interactive Benchmarking Suite for Multimodal Form-Filling Agents},\n  author       = {Bobo Li and Yuheng Wang and Hao Fei and Juncheng Li and Wei Ji and Mong-Li Lee and Wynne Hsu},\n  year         = {2025},\n  eprint       = {2506.01520},\n  archivePrefix= {arXiv},\n  primaryClass = {cs.CL},\n  url          = {https://arxiv.org/abs/2506.01520}\n}\n```",
+    "ContentSha": "Re7/oJtp29VBHM/i7ZGdzhZth0hGAC0phEoD11IrKPA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@misc{li2025formfactoryinteractivebenchmarkingsuite,\n  title        = {FormFactory: An Interactive Benchmarking Suite for Multimodal Form-Filling Agents},\n  author       = {Bobo Li and Yuheng Wang and Hao Fei and Juncheng Li and Wei Ji and Mong-Li Lee and Wynne Hsu},\n  year         = {2025},\n  eprint       = {2506.01520},\n  archivePrefix= {arXiv},\n  primaryClass = {cs.CL},\n  url          = {https://arxiv.org/abs/2506.01520}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
+      },
+      {
+        "row": 2,
+        "rowsha": "17EK8jL1ZxPcvdxqEFtV6gfZpIDqg1F7hKBcZrWop70=",
+        "originContent": "@misc{li2025formfactoryinteractivebenchmarkingsuite,",
+        "translatedContent": "@misc{li2025formfactoryinteractivebenchmarkingsuite,"
+      },
+      {
+        "row": 3,
+        "rowsha": "9JyH35ITJeg7dBWeiTdAJKrTbAHg6WrplQQAy0RtDTM=",
+        "originContent": "  title        = {FormFactory: An Interactive Benchmarking Suite for Multimodal Form-Filling Agents},",
+        "translatedContent": "  title        = {FormFactory: An Interactive Benchmarking Suite for Multimodal Form-Filling Agents},"
+      },
+      {
+        "row": 4,
+        "rowsha": "MfmHIq5WAg/091n+KmBF6TFUZ5Uh5t/6pk/3Uxa0akg=",
+        "originContent": "  author       = {Bobo Li and Yuheng Wang and Hao Fei and Juncheng Li and Wei Ji and Mong-Li Lee and Wynne Hsu},",
+        "translatedContent": "  author       = {Bobo Li and Yuheng Wang and Hao Fei and Juncheng Li and Wei Ji and Mong-Li Lee and Wynne Hsu},"
+      },
+      {
+        "row": 5,
+        "rowsha": "8erQRG60n0/O+mTy611TVgdvpM+SrY1Ez5oaWBPRoY0=",
+        "originContent": "  year         = {2025},",
+        "translatedContent": "  year         = {2025},"
+      },
+      {
+        "row": 6,
+        "rowsha": "lOeUe1wkpLI1wwgaO4w7o+CJQqMFxLu9U01F34ITTe4=",
+        "originContent": "  eprint       = {2506.01520},",
+        "translatedContent": "  eprint       = {2506.01520},"
+      },
+      {
+        "row": 7,
+        "rowsha": "CYeHM3pOyfj5UlUzlb1vVjRgs8RfYJA0cy6zMd8oto4=",
+        "originContent": "  archivePrefix= {arXiv},",
+        "translatedContent": "  archivePrefix= {arXiv},"
+      },
+      {
+        "row": 8,
+        "rowsha": "3UyqAR6TND0Sf1wHB3WMMWGhz53advZsAQyUh3+9vik=",
+        "originContent": "  primaryClass = {cs.CL},",
+        "translatedContent": "  primaryClass = {cs.CL},"
+      },
+      {
+        "row": 9,
+        "rowsha": "gpYYeyQlWfOXNe2Z61MoNhEZuf1X8QrAA0BehzZ0vcQ=",
+        "originContent": "  url          = {https://arxiv.org/abs/2506.01520}",
+        "translatedContent": "  url          = {https://arxiv.org/abs/2506.01520}"
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nHappy research, and let's push multimodal form-filling agents forward together!",
+    "ContentSha": "Bk6zWRZe9q647erE29Eq74kzug7QU9HG2EURF9nbZeU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "행복한 연구 되시고, 함께 멀티모달 양식 작성 에이전트를 발전시켜 나갑시다!\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "행복한 연구 되시고, 함께 멀티모달 양식 작성 에이전트를 발전시켜 나갑시다!"
+      },
+      {
+        "row": 2,
+        "rowsha": "eCYQwPS857ISuPLBOGCOf8DZEkXrqHK9c5MYRIEXkAw=",
+        "originContent": "Happy research, and let's push multimodal form-filling agents forward together!",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

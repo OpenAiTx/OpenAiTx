@@ -1,0 +1,789 @@
+[
+  {
+    "Id": 1,
+    "Content": "# ContentV: Efficient Training of Video Generation Models with Limited Compute\n\n<div align=\"center\">\n<p align=\"center\">\n  <a href=\"https://contentv.github.io\">\n    <img\n      src=\"https://img.shields.io/badge/Gallery-Project Page-0A66C2?logo=googlechrome&logoColor=blue\"\n      alt=\"Project Page\"\n    />\n  </a>\n  <a href='https://arxiv.org/abs/2506.05343'>\n    <img\n      src=\"https://img.shields.io/badge/Tech Report-ArXiv-red?logo=arxiv&logoColor=red\"\n      alt=\"Tech Report\"\n    />\n  </a>\n  <a href=\"https://huggingface.co/ByteDance/ContentV-8B\">\n    <img \n        src=\"https://img.shields.io/badge/HuggingFace-Model-yellow?logo=huggingface&logoColor=yellow\" \n        alt=\"Model\"\n    />\n  </a>\n  <a href=\"https://github.com/bytedance/ContentV\">\n    <img \n        src=\"https://img.shields.io/badge/Code-GitHub-orange?logo=github&logoColor=white\" \n        alt=\"Code\"\n    />\n  </a>\n  <a href=\"https://www.apache.org/licenses/LICENSE-2.0\">\n    <img\n      src=\"https://img.shields.io/badge/License-Apache 2.0-5865F2?logo=apache&logoColor=purple\"\n      alt=\"License\"\n    />\n  </a>\n</p>\n</div>\n\nThis project presents *ContentV*, an efficient framework for accelerating the training of DiT-based video generation models through three key innovations:\n\n- A minimalist architecture that maximizes reuse of pre-trained image generation models for video synthesis\n- A systematic multi-stage training strategy leveraging flow matching for enhanced efficiency\n- A cost-effective reinforcement learning with human feedback framework that improves generation quality without requiring additional human annotations\n\nOur open-source 8B model (based on Stable Diffusion 3.5 Large and Wan-VAE) achieves state-of-the-art result (85.14 on VBench) in only 4 weeks of training with 256×64GB NPUs.\n\n<div align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/bytedance/ContentV/main/./assets/demo.jpg\" width=\"100%\">\n    <img src=\"https://raw.githubusercontent.com/bytedance/ContentV/main/./assets/arch.jpg\" width=\"100%\">\n</div>\n\n## ⚡ Quickstart\n\n#### Recommended PyTorch Version\n\n- GPU: torch >= 2.3.1 (CUDA >= 12.2)\n\n#### Installation\n",
+    "ContentSha": "tKWiouMvyWop6FvqfHeDs3TbQhhVD2EW6cFjo00xgM0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># ContentV: Efficient Training of Video Generation Models with Limited Compute\n\n<div align=\"center\">\n<p align=\"center\">\n  <a href=\"https://contentv.github.io\">\n    <img\n      src=\"https://img.shields.io/badge/Gallery-Project Page-0A66C2?logo=googlechrome&logoColor=blue\"\n      alt=\"Project Page\"\n    />\n  </a>\n  <a href='https://arxiv.org/abs/2506.05343'>\n    <img\n      src=\"https://img.shields.io/badge/Tech Report-ArXiv-red?logo=arxiv&logoColor=red\"\n      alt=\"Tech Report\"\n    />\n  </a>\n  <a href=\"https://huggingface.co/ByteDance/ContentV-8B\">\n    <img \n        src=\"https://img.shields.io/badge/HuggingFace-Model-yellow?logo=huggingface&logoColor=yellow\" \n        alt=\"Model\"\n    />\n  </a>\n  <a href=\"https://github.com/bytedance/ContentV\">\n    <img \n        src=\"https://img.shields.io/badge/Code-GitHub-orange?logo=github&logoColor=white\" \n        alt=\"Code\"\n    />\n  </a>\n  <a href=\"https://www.apache.org/licenses/LICENSE-2.0\">\n    <img\n      src=\"https://img.shields.io/badge/License-Apache 2.0-5865F2?logo=apache&logoColor=purple\"\n      alt=\"License\"\n    />\n  </a>\n</p>\n</div>\n\nThis project presents *ContentV*, an efficient framework for accelerating the training of DiT-based video generation models through three key innovations:\n\n- A minimalist architecture that maximizes reuse of pre-trained image generation models for video synthesis\n- A systematic multi-stage training strategy leveraging flow matching for enhanced efficiency\n- A cost-effective reinforcement learning with human feedback framework that improves generation quality without requiring additional human annotations\n\nOur open-source 8B model (based on Stable Diffusion 3.5 Large and Wan-VAE) achieves state-of-the-art result (85.14 on VBench) in only 4 weeks of training with 256×64GB NPUs.\n\n<div align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/bytedance/ContentV/main/./assets/demo.jpg\" width=\"100%\">\n    <img src=\"https://raw.githubusercontent.com/bytedance/ContentV/main/./assets/arch.jpg\" width=\"100%\">\n</div>\n\n## ⚡ Quickstart\n\n#### Recommended PyTorch Version\n\n- GPU: torch >= 2.3.1 (CUDA >= 12.2)\n\n#### Installation\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "PPo+o5W1el/usWDT0aeioN4FiaJVSLktWDOZcyl7R4Y=",
+        "originContent": "# ContentV: Efficient Training of Video Generation Models with Limited Compute",
+        "translatedContent": "<translate-content># ContentV: Efficient Training of Video Generation Models with Limited Compute"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "csIIJO8izui6rBoIHsMp0TxJDTWP+dzfC7qkIyUjOeU=",
+        "originContent": "  <a href=\"https://contentv.github.io\">",
+        "translatedContent": "  <a href=\"https://contentv.github.io\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "Gr0pZELN7XcHINLmuDAsJbCMgRyGnADCGXiCrqJDlk4=",
+        "originContent": "    <img",
+        "translatedContent": "    <img"
+      },
+      {
+        "row": 7,
+        "rowsha": "4poM5BK8q+C03zxNB+ETU9JeSIPRqKdTHsVVwqZBQS4=",
+        "originContent": "      src=\"https://img.shields.io/badge/Gallery-Project Page-0A66C2?logo=googlechrome&logoColor=blue\"",
+        "translatedContent": "      src=\"https://img.shields.io/badge/Gallery-Project Page-0A66C2?logo=googlechrome&logoColor=blue\""
+      },
+      {
+        "row": 8,
+        "rowsha": "okS66gqUiYK8dg5mr7M3AHol7NFUdjJnkonho30UoEc=",
+        "originContent": "      alt=\"Project Page\"",
+        "translatedContent": "      alt=\"Project Page\""
+      },
+      {
+        "row": 9,
+        "rowsha": "t1z5EXV6ILLG9CsfTGp9vgc9Q8QGq69au2IRyL8Zpl8=",
+        "originContent": "    />",
+        "translatedContent": "    />"
+      },
+      {
+        "row": 10,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "c028pEMCdU3zvXnLkf6zg+cNQRPgp8DSVQ1LoDMM4UU=",
+        "originContent": "  <a href='https://arxiv.org/abs/2506.05343'>",
+        "translatedContent": "  <a href='https://arxiv.org/abs/2506.05343'>"
+      },
+      {
+        "row": 12,
+        "rowsha": "Gr0pZELN7XcHINLmuDAsJbCMgRyGnADCGXiCrqJDlk4=",
+        "originContent": "    <img",
+        "translatedContent": "    <img"
+      },
+      {
+        "row": 13,
+        "rowsha": "L34bg5jtmZf2X2W1fn5+Owf21NqaOTQK6pDi0KGSh5A=",
+        "originContent": "      src=\"https://img.shields.io/badge/Tech Report-ArXiv-red?logo=arxiv&logoColor=red\"",
+        "translatedContent": "      src=\"https://img.shields.io/badge/Tech Report-ArXiv-red?logo=arxiv&logoColor=red\""
+      },
+      {
+        "row": 14,
+        "rowsha": "7My+/UiBTvqG3ccZH5A3pLj+/43tvzAs6fifYpTS/yU=",
+        "originContent": "      alt=\"Tech Report\"",
+        "translatedContent": "      alt=\"Tech Report\""
+      },
+      {
+        "row": 15,
+        "rowsha": "t1z5EXV6ILLG9CsfTGp9vgc9Q8QGq69au2IRyL8Zpl8=",
+        "originContent": "    />",
+        "translatedContent": "    />"
+      },
+      {
+        "row": 16,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "GCGI1LUcnSQCR3DmVXXjAd6CYbVBTH8wNre0gbiPNkc=",
+        "originContent": "  <a href=\"https://huggingface.co/ByteDance/ContentV-8B\">",
+        "translatedContent": "  <a href=\"https://huggingface.co/ByteDance/ContentV-8B\">"
+      },
+      {
+        "row": 18,
+        "rowsha": "wRfpm5FewQDKyNdvHIOJdVMZrrbpXbGGIV+y+ay4Als=",
+        "originContent": "    <img ",
+        "translatedContent": "    <img "
+      },
+      {
+        "row": 19,
+        "rowsha": "ndhGg+dnmiecDx2qp2t74aGOd5gzstVOAAUTcz9/s64=",
+        "originContent": "        src=\"https://img.shields.io/badge/HuggingFace-Model-yellow?logo=huggingface&logoColor=yellow\" ",
+        "translatedContent": "        src=\"https://img.shields.io/badge/HuggingFace-Model-yellow?logo=huggingface&logoColor=yellow\" "
+      },
+      {
+        "row": 20,
+        "rowsha": "E2+rDArG92V6MSQcfXjWD46mgVm2ey2nNW0aZtCpcvg=",
+        "originContent": "        alt=\"Model\"",
+        "translatedContent": "        alt=\"Model\""
+      },
+      {
+        "row": 21,
+        "rowsha": "t1z5EXV6ILLG9CsfTGp9vgc9Q8QGq69au2IRyL8Zpl8=",
+        "originContent": "    />",
+        "translatedContent": "    />"
+      },
+      {
+        "row": 22,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "YX8qM7MvEb7IYVsY93ktwjPAVYp/+IBrz4jd3Agxrn4=",
+        "originContent": "  <a href=\"https://github.com/bytedance/ContentV\">",
+        "translatedContent": "  <a href=\"https://github.com/bytedance/ContentV\">"
+      },
+      {
+        "row": 24,
+        "rowsha": "wRfpm5FewQDKyNdvHIOJdVMZrrbpXbGGIV+y+ay4Als=",
+        "originContent": "    <img ",
+        "translatedContent": "    <img "
+      },
+      {
+        "row": 25,
+        "rowsha": "liqTZKn5NqEFFXaNgpQd+lMEar80TS15ZCLIoAWsdCg=",
+        "originContent": "        src=\"https://img.shields.io/badge/Code-GitHub-orange?logo=github&logoColor=white\" ",
+        "translatedContent": "        src=\"https://img.shields.io/badge/Code-GitHub-orange?logo=github&logoColor=white\" "
+      },
+      {
+        "row": 26,
+        "rowsha": "YA+p6bNEnkXvw3umXpFZcQ1CjN4uWWtbUsj5tZYHJI8=",
+        "originContent": "        alt=\"Code\"",
+        "translatedContent": "        alt=\"Code\""
+      },
+      {
+        "row": 27,
+        "rowsha": "t1z5EXV6ILLG9CsfTGp9vgc9Q8QGq69au2IRyL8Zpl8=",
+        "originContent": "    />",
+        "translatedContent": "    />"
+      },
+      {
+        "row": 28,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 29,
+        "rowsha": "uEWOKp05zVwA8aH25AepHUirN1wFkQ9NH4Z5W0EqYhU=",
+        "originContent": "  <a href=\"https://www.apache.org/licenses/LICENSE-2.0\">",
+        "translatedContent": "  <a href=\"https://www.apache.org/licenses/LICENSE-2.0\">"
+      },
+      {
+        "row": 30,
+        "rowsha": "Gr0pZELN7XcHINLmuDAsJbCMgRyGnADCGXiCrqJDlk4=",
+        "originContent": "    <img",
+        "translatedContent": "    <img"
+      },
+      {
+        "row": 31,
+        "rowsha": "YORJUO/Is8sg3p/NFs7bNeI+qwcsJBjXwBRTIeZUrZo=",
+        "originContent": "      src=\"https://img.shields.io/badge/License-Apache 2.0-5865F2?logo=apache&logoColor=purple\"",
+        "translatedContent": "      src=\"https://img.shields.io/badge/License-Apache 2.0-5865F2?logo=apache&logoColor=purple\""
+      },
+      {
+        "row": 32,
+        "rowsha": "ACNzPgZWf9gQ0jZu6jYiQRtaQzpG0nVKViAKKZOBv24=",
+        "originContent": "      alt=\"License\"",
+        "translatedContent": "      alt=\"License\""
+      },
+      {
+        "row": 33,
+        "rowsha": "t1z5EXV6ILLG9CsfTGp9vgc9Q8QGq69au2IRyL8Zpl8=",
+        "originContent": "    />",
+        "translatedContent": "    />"
+      },
+      {
+        "row": 34,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 35,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 36,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "NYh1KWOP9tlPePdRxJXfzynjocA4sWkjXa8Tw03yxgs=",
+        "originContent": "This project presents *ContentV*, an efficient framework for accelerating the training of DiT-based video generation models through three key innovations:",
+        "translatedContent": "This project presents *ContentV*, an efficient framework for accelerating the training of DiT-based video generation models through three key innovations:"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "P+rG3VLormewj/DseLVX+CL2jAi2U3Kqxa9nxPlSCd8=",
+        "originContent": "- A minimalist architecture that maximizes reuse of pre-trained image generation models for video synthesis",
+        "translatedContent": "- A minimalist architecture that maximizes reuse of pre-trained image generation models for video synthesis"
+      },
+      {
+        "row": 41,
+        "rowsha": "1uy7qeV6ruIAZwyf/PFHWI/sH55+pnDqoY2iSVns/V8=",
+        "originContent": "- A systematic multi-stage training strategy leveraging flow matching for enhanced efficiency",
+        "translatedContent": "- A systematic multi-stage training strategy leveraging flow matching for enhanced efficiency"
+      },
+      {
+        "row": 42,
+        "rowsha": "Be3EQ1p8cBJ7FJT5S1C4gsUsp5JDAoyRXlLA0hJglTw=",
+        "originContent": "- A cost-effective reinforcement learning with human feedback framework that improves generation quality without requiring additional human annotations",
+        "translatedContent": "- A cost-effective reinforcement learning with human feedback framework that improves generation quality without requiring additional human annotations"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "EV1z3pmr85lwowNK1ZRQ4M5ivHq7ZXGkj98kk4Lz+oc=",
+        "originContent": "Our open-source 8B model (based on Stable Diffusion 3.5 Large and Wan-VAE) achieves state-of-the-art result (85.14 on VBench) in only 4 weeks of training with 256×64GB NPUs.",
+        "translatedContent": "Our open-source 8B model (based on Stable Diffusion 3.5 Large and Wan-VAE) achieves state-of-the-art result (85.14 on VBench) in only 4 weeks of training with 256×64GB NPUs."
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 47,
+        "rowsha": "gWAwJxabpFMeppAHof9RzJO1bD8BkTEwLYUnw9S+hsM=",
+        "originContent": "    <img src=\"https://raw.githubusercontent.com/bytedance/ContentV/main/./assets/demo.jpg\" width=\"100%\">",
+        "translatedContent": "    <img src=\"https://raw.githubusercontent.com/bytedance/ContentV/main/./assets/demo.jpg\" width=\"100%\">"
+      },
+      {
+        "row": 48,
+        "rowsha": "OuWUqwQKiirefsqu+Ab0eadO/Pcp4pkfJSIHrJ8K5rA=",
+        "originContent": "    <img src=\"https://raw.githubusercontent.com/bytedance/ContentV/main/./assets/arch.jpg\" width=\"100%\">",
+        "translatedContent": "    <img src=\"https://raw.githubusercontent.com/bytedance/ContentV/main/./assets/arch.jpg\" width=\"100%\">"
+      },
+      {
+        "row": 49,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "O8tMD1RartbYbss7CRsbXPuZU0hs0JhtdyHJ9HDD6a4=",
+        "originContent": "## ⚡ Quickstart",
+        "translatedContent": "## ⚡ Quickstart"
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "pj008AnGRGAIcKNWG4vvmP8HhHJgtwaD8ehj8jZ1dp4=",
+        "originContent": "#### Recommended PyTorch Version",
+        "translatedContent": "#### Recommended PyTorch Version"
+      },
+      {
+        "row": 54,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 55,
+        "rowsha": "mWeiDKZcWoku17vkabCU5ld2F9azvBp4CXQxA5qzBbo=",
+        "originContent": "- GPU: torch >= 2.3.1 (CUDA >= 12.2)",
+        "translatedContent": "- GPU: torch >= 2.3.1 (CUDA >= 12.2)"
+      },
+      {
+        "row": 56,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 57,
+        "rowsha": "yWcbQw1anscOn5ORhi1Ixs0JC98uhuXUZhc/T3JN7cY=",
+        "originContent": "#### Installation",
+        "translatedContent": "#### Installation"
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\ngit clone https://github.com/bytedance/ContentV.git\ncd ContentV\npip3 install -r requirements.txt\n```",
+    "ContentSha": "8bdTUQFqTv3Rtwe/waR24IazhjYaLe/711Tf+y9lxo4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/bytedance/ContentV.git\ncd ContentV\npip3 install -r requirements.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "5g3rYsCTZ9VFzGjePHVjLLpBZUGwtSOoMHy2BwLGIxE=",
+        "originContent": "git clone https://github.com/bytedance/ContentV.git",
+        "translatedContent": "git clone https://github.com/bytedance/ContentV.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "665MD2U747t7DUXEHA6H1mvblFzG/FYWINQBHQu2oFI=",
+        "originContent": "cd ContentV",
+        "translatedContent": "cd ContentV"
+      },
+      {
+        "row": 4,
+        "rowsha": "Km1/J6fXj1R8cjM7mIyccyNotCNpyMhi2pVGSkv24s4=",
+        "originContent": "pip3 install -r requirements.txt",
+        "translatedContent": "pip3 install -r requirements.txt"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n#### T2V Generation\n",
+    "ContentSha": "Tfb8UEYWys0bia5nhYzvkGs+8+Heo5LAoEj2SqNC2x0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "#### T2V Generation\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### T2V Generation"
+      },
+      {
+        "row": 2,
+        "rowsha": "ffMYUJaXFH4iGzkpLri9Q8TieqF0pwQk+xOBzDlSUt0=",
+        "originContent": "#### T2V Generation",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\n## For GPU\npython3 demo.py\n```",
+    "ContentSha": "11kDIn61mCTG+1Tia8h1xMGQgBU15OGvrII8Nh6JP6Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n## For GPU\npython3 demo.py\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "CnqgsufEZ3qgVTnXj+nZtmW9ZrZiWrbSdTui2VrFfnI=",
+        "originContent": "## For GPU",
+        "translatedContent": "## For GPU"
+      },
+      {
+        "row": 3,
+        "rowsha": "zKHHjVLu+kl2SYjLICeHN7+730RwJjSXdw2bE5Him4A=",
+        "originContent": "python3 demo.py",
+        "translatedContent": "python3 demo.py"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## 📊 VBench\n\n| Model | Total Score | Quality Score | Semantic Score | Human Action | Scene | Dynamic Degree | Multiple Objects  | Appear. Style |\n|----------------------|--------|-------|-------|-------|-------|-------|-------|-------|\n| Wan2.1-14B           | 86.22  | 86.67 | 84.44 | 99.20 | 61.24 | 94.26 | 86.59 | 21.59 |\n| **ContentV (Long)**  | 85.14  | 86.64 | 79.12 | 96.80 | 57.38 | 83.05 | 71.41 | 23.02 |\n| Goku†                | 84.85  | 85.60 | 81.87 | 97.60 | 57.08 | 76.11 | 79.48 | 23.08 |\n| Open-Sora 2.0        | 84.34  | 85.40 | 80.12 | 95.40 | 52.71 | 71.39 | 77.72 | 22.98 |\n| Sora†                | 84.28  | 85.51 | 79.35 | 98.20 | 56.95 | 79.91 | 70.85 | 24.76 |\n| **ContentV (Short)** | 84.11  | 86.23 | 75.61 | 89.60 | 44.02 | 79.26 | 74.58 | 21.21 |\n| EasyAnimate 5.1      | 83.42  | 85.03 | 77.01 | 95.60 | 54.31 | 57.15 | 66.85 | 23.06 |\n| Kling 1.6†           | 83.40  | 85.00 | 76.99 | 96.20 | 55.57 | 62.22 | 63.99 | 20.75 |\n| HunyuanVideo         | 83.24  | 85.09 | 75.82 | 94.40 | 53.88 | 70.83 | 68.55 | 19.80 |\n| CogVideoX-5B         | 81.61  | 82.75 | 77.04 | 99.40 | 53.20 | 70.97 | 62.11 | 24.91 |\n| Pika-1.0†            | 80.69  | 82.92 | 71.77 | 86.20 | 49.83 | 47.50 | 43.08 | 22.26 |\n| VideoCrafter-2.0     | 80.44  | 82.20 | 73.42 | 95.00 | 55.29 | 42.50 | 40.66 | 25.13 |\n| AnimateDiff-V2       | 80.27  | 82.90 | 69.75 | 92.60 | 50.19 | 40.83 | 36.88 | 22.42 |\n| OpenSora 1.2         | 79.23  | 80.71 | 73.30 | 85.80 | 42.47 | 47.22 | 58.41 | 23.89 |\n\n## ✅ Todo List\n- [x] Inference code and checkpoints\n- [ ] Training code of RLHF\n\n## 🧾 License\nThis code repository and part of the model weights are licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0). Please note that:\n- MM DiT are derived from [Stable Diffusion 3.5 Large](https://huggingface.co/stabilityai/stable-diffusion-3.5-large) and trained with video samples. This Stability AI Model is licensed under the [Stability AI Community License](https://stability.ai/community-license-agreement), Copyright ©  Stability AI Ltd. All Rights Reserved\n- Video VAE from [Wan2.1](https://huggingface.co/Wan-AI/Wan2.1-T2V-14B) is licensed under [Apache 2.0 License](https://huggingface.co/Wan-AI/Wan2.1-T2V-14B/blob/main/LICENSE.txt)\n\n## ❤️ Acknowledgement\n* [Stable Diffusion 3.5 Large](https://huggingface.co/stabilityai/stable-diffusion-3.5-large)\n* [Wan2.1](https://github.com/Wan-Video/Wan2.1)\n* [Diffusers](https://github.com/huggingface/diffusers)\n* [HuggingFace](https://huggingface.co)\n\n## 🔗 Citation\n",
+    "ContentSha": "musYETANxZUkr5VFcJigTKkI9mWHc1SRD+TurLGxC90=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 📊 VBench\n\n| Model | Total Score | Quality Score | Semantic Score | Human Action | Scene | Dynamic Degree | Multiple Objects  | Appear. Style |\n|----------------------|--------|-------|-------|-------|-------|-------|-------|-------|\n| Wan2.1-14B           | 86.22  | 86.67 | 84.44 | 99.20 | 61.24 | 94.26 | 86.59 | 21.59 |\n| **ContentV (Long)**  | 85.14  | 86.64 | 79.12 | 96.80 | 57.38 | 83.05 | 71.41 | 23.02 |\n| Goku†                | 84.85  | 85.60 | 81.87 | 97.60 | 57.08 | 76.11 | 79.48 | 23.08 |\n| Open-Sora 2.0        | 84.34  | 85.40 | 80.12 | 95.40 | 52.71 | 71.39 | 77.72 | 22.98 |\n| Sora†                | 84.28  | 85.51 | 79.35 | 98.20 | 56.95 | 79.91 | 70.85 | 24.76 |\n| **ContentV (Short)** | 84.11  | 86.23 | 75.61 | 89.60 | 44.02 | 79.26 | 74.58 | 21.21 |\n| EasyAnimate 5.1      | 83.42  | 85.03 | 77.01 | 95.60 | 54.31 | 57.15 | 66.85 | 23.06 |\n| Kling 1.6†           | 83.40  | 85.00 | 76.99 | 96.20 | 55.57 | 62.22 | 63.99 | 20.75 |\n| HunyuanVideo         | 83.24  | 85.09 | 75.82 | 94.40 | 53.88 | 70.83 | 68.55 | 19.80 |\n| CogVideoX-5B         | 81.61  | 82.75 | 77.04 | 99.40 | 53.20 | 70.97 | 62.11 | 24.91 |\n| Pika-1.0†            | 80.69  | 82.92 | 71.77 | 86.20 | 49.83 | 47.50 | 43.08 | 22.26 |\n| VideoCrafter-2.0     | 80.44  | 82.20 | 73.42 | 95.00 | 55.29 | 42.50 | 40.66 | 25.13 |\n| AnimateDiff-V2       | 80.27  | 82.90 | 69.75 | 92.60 | 50.19 | 40.83 | 36.88 | 22.42 |\n| OpenSora 1.2         | 79.23  | 80.71 | 73.30 | 85.80 | 42.47 | 47.22 | 58.41 | 23.89 |\n\n## ✅ Todo List\n- [x] Inference code and checkpoints\n- [ ] Training code of RLHF\n\n## 🧾 License\nThis code repository and part of the model weights are licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0). Please note that:\n- MM DiT are derived from [Stable Diffusion 3.5 Large](https://huggingface.co/stabilityai/stable-diffusion-3.5-large) and trained with video samples. This Stability AI Model is licensed under the [Stability AI Community License](https://stability.ai/community-license-agreement), Copyright ©  Stability AI Ltd. All Rights Reserved\n- Video VAE from [Wan2.1](https://huggingface.co/Wan-AI/Wan2.1-T2V-14B) is licensed under [Apache 2.0 License](https://huggingface.co/Wan-AI/Wan2.1-T2V-14B/blob/main/LICENSE.txt)\n\n## ❤️ Acknowledgement\n* [Stable Diffusion 3.5 Large](https://huggingface.co/stabilityai/stable-diffusion-3.5-large)\n* [Wan2.1](https://github.com/Wan-Video/Wan2.1)\n* [Diffusers](https://github.com/huggingface/diffusers)\n* [HuggingFace](https://huggingface.co)\n\n## 🔗 Citation\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📊 VBench"
+      },
+      {
+        "row": 2,
+        "rowsha": "dEwe6RAEocELv8CO+23OKdmO0ijIE3607Yc7YoYDGrY=",
+        "originContent": "## 📊 VBench",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| Model | Total Score | Quality Score | Semantic Score | Human Action | Scene | Dynamic Degree | Multiple Objects  | Appear. Style |"
+      },
+      {
+        "row": 4,
+        "rowsha": "R9JCQ/YiaTlGdmkZdbLUdZPyzR5hZOAOfVpqHb9mx4A=",
+        "originContent": "| Model | Total Score | Quality Score | Semantic Score | Human Action | Scene | Dynamic Degree | Multiple Objects  | Appear. Style |",
+        "translatedContent": "|----------------------|--------|-------|-------|-------|-------|-------|-------|-------|"
+      },
+      {
+        "row": 5,
+        "rowsha": "Nc9e2/KcXe7HcjBeItSHtcKUXL8G+KrQ8pd11unXCsc=",
+        "originContent": "|----------------------|--------|-------|-------|-------|-------|-------|-------|-------|",
+        "translatedContent": "| Wan2.1-14B           | 86.22  | 86.67 | 84.44 | 99.20 | 61.24 | 94.26 | 86.59 | 21.59 |"
+      },
+      {
+        "row": 6,
+        "rowsha": "opUTtFUh7ObGWc0q7zAK2L1zf9rtZJgBDbBZEAasHzY=",
+        "originContent": "| Wan2.1-14B           | 86.22  | 86.67 | 84.44 | 99.20 | 61.24 | 94.26 | 86.59 | 21.59 |",
+        "translatedContent": "| **ContentV (Long)**  | 85.14  | 86.64 | 79.12 | 96.80 | 57.38 | 83.05 | 71.41 | 23.02 |"
+      },
+      {
+        "row": 7,
+        "rowsha": "1fBnV2Ry7lhtpS7IEKjC2/ybod7Op9pe8ZJG6PAx3hI=",
+        "originContent": "| **ContentV (Long)**  | 85.14  | 86.64 | 79.12 | 96.80 | 57.38 | 83.05 | 71.41 | 23.02 |",
+        "translatedContent": "| Goku†                | 84.85  | 85.60 | 81.87 | 97.60 | 57.08 | 76.11 | 79.48 | 23.08 |"
+      },
+      {
+        "row": 8,
+        "rowsha": "Kb6k1CnvjzFdkj9RQ4TSihz+XyNxj2Fua3frauQYHzo=",
+        "originContent": "| Goku†                | 84.85  | 85.60 | 81.87 | 97.60 | 57.08 | 76.11 | 79.48 | 23.08 |",
+        "translatedContent": "| Open-Sora 2.0        | 84.34  | 85.40 | 80.12 | 95.40 | 52.71 | 71.39 | 77.72 | 22.98 |"
+      },
+      {
+        "row": 9,
+        "rowsha": "fMV9m5RD4JaQqyK/GmQEE0tEfIwEk6HPcrTILa0+mCc=",
+        "originContent": "| Open-Sora 2.0        | 84.34  | 85.40 | 80.12 | 95.40 | 52.71 | 71.39 | 77.72 | 22.98 |",
+        "translatedContent": "| Sora†                | 84.28  | 85.51 | 79.35 | 98.20 | 56.95 | 79.91 | 70.85 | 24.76 |"
+      },
+      {
+        "row": 10,
+        "rowsha": "v7KHtvFBmxN1EUEnL9di78xicxaOLp/FVNiNYgMnd74=",
+        "originContent": "| Sora†                | 84.28  | 85.51 | 79.35 | 98.20 | 56.95 | 79.91 | 70.85 | 24.76 |",
+        "translatedContent": "| **ContentV (Short)** | 84.11  | 86.23 | 75.61 | 89.60 | 44.02 | 79.26 | 74.58 | 21.21 |"
+      },
+      {
+        "row": 11,
+        "rowsha": "Frp3OFLSPWHomqUXNPcUO2qVm8o9hwpmjks6DPdO/nI=",
+        "originContent": "| **ContentV (Short)** | 84.11  | 86.23 | 75.61 | 89.60 | 44.02 | 79.26 | 74.58 | 21.21 |",
+        "translatedContent": "| EasyAnimate 5.1      | 83.42  | 85.03 | 77.01 | 95.60 | 54.31 | 57.15 | 66.85 | 23.06 |"
+      },
+      {
+        "row": 12,
+        "rowsha": "lDaXovBNHwSFPODkkieWaScgn7W+VPNurAcf4s9k/8Y=",
+        "originContent": "| EasyAnimate 5.1      | 83.42  | 85.03 | 77.01 | 95.60 | 54.31 | 57.15 | 66.85 | 23.06 |",
+        "translatedContent": "| Kling 1.6†           | 83.40  | 85.00 | 76.99 | 96.20 | 55.57 | 62.22 | 63.99 | 20.75 |"
+      },
+      {
+        "row": 13,
+        "rowsha": "mnlmkOBCUGj43wXjZfGBLqPeC+aKX1W245rNJsZJjU0=",
+        "originContent": "| Kling 1.6†           | 83.40  | 85.00 | 76.99 | 96.20 | 55.57 | 62.22 | 63.99 | 20.75 |",
+        "translatedContent": "| HunyuanVideo         | 83.24  | 85.09 | 75.82 | 94.40 | 53.88 | 70.83 | 68.55 | 19.80 |"
+      },
+      {
+        "row": 14,
+        "rowsha": "CHXde9V64OOxG5wk7+Hb1EGHvNrMsvDXgW6y/KJbgTw=",
+        "originContent": "| HunyuanVideo         | 83.24  | 85.09 | 75.82 | 94.40 | 53.88 | 70.83 | 68.55 | 19.80 |",
+        "translatedContent": "| CogVideoX-5B         | 81.61  | 82.75 | 77.04 | 99.40 | 53.20 | 70.97 | 62.11 | 24.91 |"
+      },
+      {
+        "row": 15,
+        "rowsha": "llbr9TlO/SO5KBcK0weJ5xP4AEaRyBpBc5n75mj2DJ8=",
+        "originContent": "| CogVideoX-5B         | 81.61  | 82.75 | 77.04 | 99.40 | 53.20 | 70.97 | 62.11 | 24.91 |",
+        "translatedContent": "| Pika-1.0†            | 80.69  | 82.92 | 71.77 | 86.20 | 49.83 | 47.50 | 43.08 | 22.26 |"
+      },
+      {
+        "row": 16,
+        "rowsha": "powOu8dzGUME9mlAX+ZszoE1O99nYt40KfD57bn7vBA=",
+        "originContent": "| Pika-1.0†            | 80.69  | 82.92 | 71.77 | 86.20 | 49.83 | 47.50 | 43.08 | 22.26 |",
+        "translatedContent": "| VideoCrafter-2.0     | 80.44  | 82.20 | 73.42 | 95.00 | 55.29 | 42.50 | 40.66 | 25.13 |"
+      },
+      {
+        "row": 17,
+        "rowsha": "y4P0XQC7YgfwhHVwCeuhA9mHdcMoRv1Px1Orrw0E6k0=",
+        "originContent": "| VideoCrafter-2.0     | 80.44  | 82.20 | 73.42 | 95.00 | 55.29 | 42.50 | 40.66 | 25.13 |",
+        "translatedContent": "| AnimateDiff-V2       | 80.27  | 82.90 | 69.75 | 92.60 | 50.19 | 40.83 | 36.88 | 22.42 |"
+      },
+      {
+        "row": 18,
+        "rowsha": "uSpFlLxDI5YkQxGWS4cA9V+O7UZmJ8uQOap5KN0Nawo=",
+        "originContent": "| AnimateDiff-V2       | 80.27  | 82.90 | 69.75 | 92.60 | 50.19 | 40.83 | 36.88 | 22.42 |",
+        "translatedContent": "| OpenSora 1.2         | 79.23  | 80.71 | 73.30 | 85.80 | 42.47 | 47.22 | 58.41 | 23.89 |"
+      },
+      {
+        "row": 19,
+        "rowsha": "T+SqIyf4y2hkYVfcBSHWDKLUaylNPNbgHU+3Kn+JkNA=",
+        "originContent": "| OpenSora 1.2         | 79.23  | 80.71 | 73.30 | 85.80 | 42.47 | 47.22 | 58.41 | 23.89 |",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ✅ Todo List"
+      },
+      {
+        "row": 21,
+        "rowsha": "/rKw36Y3vL5BLDD7APHzC0e1CrPcT4MBLFwqHTaXK3I=",
+        "originContent": "## ✅ Todo List",
+        "translatedContent": "- [x] Inference code and checkpoints"
+      },
+      {
+        "row": 22,
+        "rowsha": "2TO0eZZyuj+kozjDeW07B5Q/PbLFbjsTI+qqEi8hUR8=",
+        "originContent": "- [x] Inference code and checkpoints",
+        "translatedContent": "- [ ] Training code of RLHF"
+      },
+      {
+        "row": 23,
+        "rowsha": "CjuFDrPSRPxu0tU2EV74o+8jqL4tBCpuFMsEMUpRkhA=",
+        "originContent": "- [ ] Training code of RLHF",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🧾 License"
+      },
+      {
+        "row": 25,
+        "rowsha": "gcnNdwFJEBi7HKPnv2wxCXgIOXdIDCaPA8ftivbznh4=",
+        "originContent": "## 🧾 License",
+        "translatedContent": "This code repository and part of the model weights are licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0). Please note that:"
+      },
+      {
+        "row": 26,
+        "rowsha": "P+QaQ2AdY5X4ahnLlmls9zb9XJjGXKOea3/LjTknfk0=",
+        "originContent": "This code repository and part of the model weights are licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0). Please note that:",
+        "translatedContent": "- MM DiT are derived from [Stable Diffusion 3.5 Large](https://huggingface.co/stabilityai/stable-diffusion-3.5-large) and trained with video samples. This Stability AI Model is licensed under the [Stability AI Community License](https://stability.ai/community-license-agreement), Copyright ©  Stability AI Ltd. All Rights Reserved"
+      },
+      {
+        "row": 27,
+        "rowsha": "B6Eosr6uCa2THFkXgBl+gSMNJCkndRBOyPP7MJe21RY=",
+        "originContent": "- MM DiT are derived from [Stable Diffusion 3.5 Large](https://huggingface.co/stabilityai/stable-diffusion-3.5-large) and trained with video samples. This Stability AI Model is licensed under the [Stability AI Community License](https://stability.ai/community-license-agreement), Copyright ©  Stability AI Ltd. All Rights Reserved",
+        "translatedContent": "- Video VAE from [Wan2.1](https://huggingface.co/Wan-AI/Wan2.1-T2V-14B) is licensed under [Apache 2.0 License](https://huggingface.co/Wan-AI/Wan2.1-T2V-14B/blob/main/LICENSE.txt)"
+      },
+      {
+        "row": 28,
+        "rowsha": "wOOLQGUJgZFbJInZrG8GnmHYXWwTFLh/asbel14pUFs=",
+        "originContent": "- Video VAE from [Wan2.1](https://huggingface.co/Wan-AI/Wan2.1-T2V-14B) is licensed under [Apache 2.0 License](https://huggingface.co/Wan-AI/Wan2.1-T2V-14B/blob/main/LICENSE.txt)",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ❤️ Acknowledgement"
+      },
+      {
+        "row": 30,
+        "rowsha": "CFfq57t65AAq27bLuRtoaMlzjDui9LpGXHgRuiDDay4=",
+        "originContent": "## ❤️ Acknowledgement",
+        "translatedContent": "* [Stable Diffusion 3.5 Large](https://huggingface.co/stabilityai/stable-diffusion-3.5-large)"
+      },
+      {
+        "row": 31,
+        "rowsha": "N9ZD0re6n6pw8limU+YcaMjys4FCY93CirTT65lybJ4=",
+        "originContent": "* [Stable Diffusion 3.5 Large](https://huggingface.co/stabilityai/stable-diffusion-3.5-large)",
+        "translatedContent": "* [Wan2.1](https://github.com/Wan-Video/Wan2.1)"
+      },
+      {
+        "row": 32,
+        "rowsha": "ZMSXA/OhOT5XsRbtYfVm+ekBrdl8y5W/Y52GaAKXfZA=",
+        "originContent": "* [Wan2.1](https://github.com/Wan-Video/Wan2.1)",
+        "translatedContent": "* [Diffusers](https://github.com/huggingface/diffusers)"
+      },
+      {
+        "row": 33,
+        "rowsha": "bjiOGkoctcUmvPpwdipTxayp6DNA2LVI5frAybKh49k=",
+        "originContent": "* [Diffusers](https://github.com/huggingface/diffusers)",
+        "translatedContent": "* [HuggingFace](https://huggingface.co)"
+      },
+      {
+        "row": 34,
+        "rowsha": "sU2fWMUO3EZQpnpVLHlOKHgcDXtwPHZl/6krMjKL/gI=",
+        "originContent": "* [HuggingFace](https://huggingface.co)",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🔗 Citation"
+      },
+      {
+        "row": 36,
+        "rowsha": "aNP5f9FONQlYAsAnj/QeNqUnknmtAd6GYu4CqYfY6sA=",
+        "originContent": "## 🔗 Citation",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bibtex\n@article{contentv2025,\n  title     = {ContentV: Efficient Training of Video Generation Models with Limited Compute},\n  author    = {Bytedance Douyin Content Team},\n  journal   = {arXiv preprint arXiv:2506.05343},\n  year      = {2025}\n  }\n```",
+    "ContentSha": "I1DoWXUrUgyhHsxdzEhr5SAtMoFn2H8mvt1N1JEsKkU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@article{contentv2025,\n  title     = {ContentV: Efficient Training of Video Generation Models with Limited Compute},\n  author    = {Bytedance Douyin Content Team},\n  journal   = {arXiv preprint arXiv:2506.05343},\n  year      = {2025}\n  }\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
+      },
+      {
+        "row": 2,
+        "rowsha": "1QBZki7sH0RZCyBtypWLZFtdtKpY3ECQFpYomygzf2c=",
+        "originContent": "@article{contentv2025,",
+        "translatedContent": "@article{contentv2025,"
+      },
+      {
+        "row": 3,
+        "rowsha": "2zRpLmkCFzwi5h5bM8YbFyB+ZokQKsA1L3/YU+qfiBY=",
+        "originContent": "  title     = {ContentV: Efficient Training of Video Generation Models with Limited Compute},",
+        "translatedContent": "  title     = {ContentV: Efficient Training of Video Generation Models with Limited Compute},"
+      },
+      {
+        "row": 4,
+        "rowsha": "wTOdLrf1nquFRr00WWn0OHVprvyJYJGgNkGztoneUqQ=",
+        "originContent": "  author    = {Bytedance Douyin Content Team},",
+        "translatedContent": "  author    = {Bytedance Douyin Content Team},"
+      },
+      {
+        "row": 5,
+        "rowsha": "6sSfR0O72ck9vlJwmw2AKE4RmjdFjNVddGLaRy6WHqA=",
+        "originContent": "  journal   = {arXiv preprint arXiv:2506.05343},",
+        "translatedContent": "  journal   = {arXiv preprint arXiv:2506.05343},"
+      },
+      {
+        "row": 6,
+        "rowsha": "yw9jz0jCfAFTw+xjUJg3gtVKLaVKrRnlXBd0Ra5XxAg=",
+        "originContent": "  year      = {2025}",
+        "translatedContent": "  year      = {2025}"
+      },
+      {
+        "row": 7,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
