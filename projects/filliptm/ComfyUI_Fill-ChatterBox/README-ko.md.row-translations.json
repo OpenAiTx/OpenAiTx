@@ -1,0 +1,368 @@
+[
+  {
+    "row": 1,
+    "rowsha": "WXPD90VJi8akPy8cwqK8ROdDsGGOF2zbtWqUQfXMUeE=",
+    "originContent": "# ComfyUI_Fill-ChatterBox",
+    "translatedContent": "<translate-content># ComfyUI_Fill-ChatterBox"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "qRz+qfUSfheV5cwlrrF+hozo7Q4uHYsK9oRPMpNeO5E=",
+    "originContent": "If you enjoy this project, consider supporting me on Patreon!",
+    "translatedContent": "이 프로젝트를 즐기신다면, Patreon에서 저를 지원해 주세요!"
+  },
+  {
+    "row": 4,
+    "rowsha": "Auk82msJHqE5J2c5SY+1beHllILKnmlMZAJCApM2R0k=",
+    "originContent": "<p align=\"left\">",
+    "translatedContent": "<p align=\"left\">"
+  },
+  {
+    "row": 5,
+    "rowsha": "B4vSst9ejByz6TRKJPuF5U20Ab75vZH1+i8jaUllpF0=",
+    "originContent": "  <a href=\"https://www.patreon.com/c/Machinedelusions\">",
+    "translatedContent": "  <a href=\"https://www.patreon.com/c/Machinedelusions\">"
+  },
+  {
+    "row": 6,
+    "rowsha": "sYATDarmsu7M57zL4L8kEpKl8iR4HIChWsB65Y1H2S4=",
+    "originContent": "    <img src=\"https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/assets/Patreon.png\" width=\"150px\" alt=\"Patreon\">",
+    "translatedContent": "    <img src=\"https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/assets/Patreon.png\" width=\"150px\" alt=\"Patreon\">"
+  },
+  {
+    "row": 7,
+    "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+    "originContent": "  </a>",
+    "translatedContent": "  </a>"
+  },
+  {
+    "row": 8,
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "qIHjrUkhMVXM6nah1vn89aj9b6U/SEQOe1zMUR3zqGY=",
+    "originContent": "A custom node extension for ComfyUI that adds text-to-speech (TTS) and voice conversion (VC) capabilities using the Chatterbox library.",
+    "translatedContent": "Chatterbox 라이브러리를 사용하여 텍스트-음성 변환(TTS) 및 음성 변환(VC) 기능을 추가하는 ComfyUI용 맞춤 노드 확장입니다."
+  },
+  {
+    "row": 11,
+    "rowsha": "QexQLOId2YlrEfFW7nUVxIt2eYz2gGVqyEe6Z0gG280=",
+    "originContent": "Supports a MAXIMUM of 40 seconds. Iv tried removing this limitation, but the model falls apart really badly with anything longer than that, so it remains.",
+    "translatedContent": "최대 40초까지 지원합니다. 이 제한을 제거하려고 시도했지만, 그 이상 길면 모델이 심하게 망가져서 그대로 두었습니다."
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "1jmwBaKBOwb2bOqidRkI+v48ssPsFUnmseT+yuj0ctQ=",
+    "originContent": "![ChatterBox Example](https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/web/image.png)",
+    "translatedContent": "![ChatterBox 예시](https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/web/image.png)"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 설치 방법"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "IuGZ6YSc4ROu9O+SsZdKwwiBdbdGKA5zky97mIaufK0=",
+    "originContent": "1. Clone this repository into your ComfyUI custom_nodes directory:",
+    "translatedContent": "1. 이 저장소를 ComfyUI custom_nodes 디렉터리에 클론하세요:</translate-content>"
+  },
+  {
+    "row": 18,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 19,
+    "rowsha": "ca24MC7Gs136N1CrqEHk3noaZqdIhhxetgpmYOVgvAI=",
+    "originContent": "   cd /path/to/ComfyUI/custom_nodes",
+    "translatedContent": "   cd /path/to/ComfyUI/custom_nodes"
+  },
+  {
+    "row": 20,
+    "rowsha": "4iLPuVFhroSF0eDKJA+ikYNcpduz1ZaZKbJ67fq20l8=",
+    "originContent": "   git clone https://github.com/filliptm/ComfyUI_Fill-ChatterBox.git",
+    "translatedContent": "   git clone https://github.com/filliptm/ComfyUI_Fill-ChatterBox.git"
+  },
+  {
+    "row": 21,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "2. 기본 종속성을 설치합니다:"
+  },
+  {
+    "row": 23,
+    "rowsha": "mDSn2pSiILsr1+EvNKEUeRZgMGbGq1tlehckH4W20lo=",
+    "originContent": "2. Install the base dependencies:",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 25,
+    "rowsha": "6nksGJep55vDh54SfHCQ4t9f0OP2zc4owvrTR3zx3Hw=",
+    "originContent": "   pip install -r ComfyUI_Fill-ChatterBox/requirements.txt",
+    "translatedContent": "   pip install -r ComfyUI_Fill-ChatterBox/requirements.txt"
+  },
+  {
+    "row": 26,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "3. (선택 사항) 워터마킹 지원 설치:"
+  },
+  {
+    "row": 28,
+    "rowsha": "hMCZq5HJBvY2vNcMpN5Tv8lv3+IguXueYlm5D+tom1Y=",
+    "originContent": "3. (Optional) Install watermarking support:",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 30,
+    "rowsha": "YUieExLRnw5KQH0Md9SJpTaHw9kXGVpHzbkHvNUl67Y=",
+    "originContent": "   pip install resemble-perth",
+    "translatedContent": "   pip install resemble-perth"
+  },
+  {
+    "row": 31,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 32,
+    "rowsha": "sx+JKHRqWSIaqYXECQWYXDQK/RZvXNSm/QfkApJE+gU=",
+    "originContent": "   **Note**: The `resemble-perth` package may have compatibility issues with Python 3.12+. If you encounter import errors, the nodes will still function without watermarking.",
+    "translatedContent": "<translate-content>   **참고**: `resemble-perth` 패키지는 Python 3.12 이상에서 호환성 문제가 있을 수 있습니다. 임포트 오류가 발생하더라도 노드는 워터마크 없이 작동합니다."
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 사용법"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "f8Yfr8+j0QEIcCFIlrRGl8QLpoHc7Xl2cv6L1026fuE=",
+    "originContent": "### Text-to-Speech Node (FL Chatterbox TTS)",
+    "translatedContent": "### 텍스트-음성 변환 노드 (FL Chatterbox TTS)"
+  },
+  {
+    "row": 38,
+    "rowsha": "Qd/OxygpXiqLTLFMWFdaWibDqUOiuMYsK65egE64kos=",
+    "originContent": "- Add the \"FL Chatterbox TTS\" node to your workflow",
+    "translatedContent": "- 워크플로우에 \"FL Chatterbox TTS\" 노드를 추가하세요"
+  },
+  {
+    "row": 39,
+    "rowsha": "AqENcYNMSIgs4rHw4o6Rl4mt/fB5cG/GyPkqenIV+KI=",
+    "originContent": "- Configure text input and parameters (exaggeration, cfg_weight, temperature)",
+    "translatedContent": "- 텍스트 입력 및 매개변수(과장, cfg_weight, 온도)를 설정하세요"
+  },
+  {
+    "row": 40,
+    "rowsha": "8JvzthjXI3hcPTyelvmXenuKRnjYNBmamS7M0av0dZA=",
+    "originContent": "- Optionally provide an audio prompt for voice cloning",
+    "translatedContent": "- 선택적으로 음성 클로닝을 위한 오디오 프롬프트를 제공할 수 있습니다"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "B7s0LDdV4NyuxLPHXXI7/KZqPPn0FK7zPM5q9ylILD4=",
+    "originContent": "### Voice Conversion Node (FL Chatterbox VC)",
+    "translatedContent": "### 음성 변환 노드 (FL Chatterbox VC)"
+  },
+  {
+    "row": 43,
+    "rowsha": "ER5X+WU1PrFjYfjajm2NkJdgPolX53xiYH9bIflrNCc=",
+    "originContent": "- Add the \"FL Chatterbox VC\" node to your workflow",
+    "translatedContent": "- 워크플로우에 \"FL Chatterbox VC\" 노드를 추가하세요"
+  },
+  {
+    "row": 44,
+    "rowsha": "WR9K0SxLfLYkAxPuCUAJgCW7Py+Cwy4kSj0/CR/Kk2E=",
+    "originContent": "- Connect input audio and target voice",
+    "translatedContent": "- 입력 오디오와 대상 음성을 연결하세요"
+  },
+  {
+    "row": 45,
+    "rowsha": "IRZX8RR8M535VQzRJ29cy3uOqCIix9ID2tDIgC7klhQ=",
+    "originContent": "- Both nodes support CPU fallback if CUDA errors occur",
+    "translatedContent": "- 두 노드는 CUDA 오류 발생 시 CPU 폴백을 지원합니다"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "Yy1L+liWEPiygBFNsm9+4WmZQmi0NpcYvH+ZHWiB74A=",
+    "originContent": "## Change Log",
+    "translatedContent": "## 변경 로그"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "nXTFL1jU4r5Y2G3rJOXKxEWhlGKI8pbVCeMi6VGDfMk=",
+    "originContent": "### 6/24/2025",
+    "translatedContent": "### 2025년 6월 24일"
+  },
+  {
+    "row": 50,
+    "rowsha": "gmnqXz9KxwsWpejnUjjecI3a0rRmgx+lLlnNczBKxHk=",
+    "originContent": "- Added seed parameter to both TTS and VC nodes for reproducible generation",
+    "translatedContent": "- 재현 가능한 생성을 위해 TTS 및 VC 노드에 시드 매개변수 추가"
+  },
+  {
+    "row": 51,
+    "rowsha": "hYIWPSuhpMNVOE4VqM9r9Y0DKqvn2u2D61wuz284Im8=",
+    "originContent": "- Seed range: 0 to 4,294,967,295 (32-bit integer)",
+    "translatedContent": "- 시드 범위: 0에서 4,294,967,295 (32비트 정수)"
+  },
+  {
+    "row": 52,
+    "rowsha": "kylU+FV1HXlotxzZM3h2tg1hueiuEim/GQHytklRY8Y=",
+    "originContent": "- Enables consistent audio output for debugging and workflow control",
+    "translatedContent": "- 디버깅 및 워크플로우 제어를 위한 일관된 오디오 출력 가능"
+  },
+  {
+    "row": 53,
+    "rowsha": "QRx/bVgdc0ktyUp4PH9cxCV7If757Mthf4q9E0npDLU=",
+    "originContent": "- Made Perth watermarking optional to fix Python 3.12+ compatibility issues",
+    "translatedContent": "- Python 3.12 이상 호환성 문제 해결을 위해 Perth 워터마크를 선택 사항으로 변경"
+  },
+  {
+    "row": 54,
+    "rowsha": "6QbvexiqC8ZtIVOrGItTthm0LZDCwzIX+pQA+/2zbt0=",
+    "originContent": "- Nodes now function without watermarking if resemble-perth import fails",
+    "translatedContent": "- resemble-perth 임포트 실패 시 워터마크 없이 노드 작동"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "ZIc3W5rnLqRhIimCnVxpyaFxY8NS4S7zXZVqs3LFfH0=",
+    "originContent": "### 5/31/2025",
+    "translatedContent": "### 2025년 5월 31일"
+  },
+  {
+    "row": 57,
+    "rowsha": "D1Mx8kubMbaKy9qVos7FRp8cJ2gwA620xz/z2tmUimk=",
+    "originContent": "- Added Persistent model loading, and loading bar functionality",
+    "translatedContent": "- 지속 모델 로딩 및 로딩 바 기능 추가"
+  },
+  {
+    "row": 58,
+    "rowsha": "DHQqwmIiCZRkq9JFvmm1qQV+yQOJMdNtVup4IMYQDrw=",
+    "originContent": "- Added Mac support (needs to be tested so HMU)",
+    "translatedContent": "- Mac 지원 추가 (테스트 필요하니 연락 바람)"
+  },
+  {
+    "row": 59,
+    "rowsha": "Yk+lMl65VGla3xMxxJh1FQk08t/tEfTgTgGXLUSz0s4=",
+    "originContent": "- removed the chatterbox-tts library and implemented native inference code.",
+    "translatedContent": "- chatterbox-tts 라이브러리 제거 및 네이티브 추론 코드 구현"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "</translate-content>"
+  }
+]

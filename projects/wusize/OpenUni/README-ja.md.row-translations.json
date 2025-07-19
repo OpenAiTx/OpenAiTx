@@ -1,0 +1,578 @@
+[
+  {
+    "row": 1,
+    "rowsha": "VrkxcTxFaqMzd7mCZi+3uslJrECIY9swtr9NrmuCLUk=",
+    "originContent": "# OpenUni: A Simple Baseline for Unified Multimodal Understanding and Generation",
+    "translatedContent": "<translate-content># OpenUni: 統一マルチモーダル理解と生成のためのシンプルなベースライン"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "sFIHJx7BL2Q8dAO2okSr4px14ydd/CdarWFHjSNAYnc=",
+    "originContent": "![](https://raw.githubusercontent.com/wusize/OpenUni/main/figures/teaser.png)",
+    "translatedContent": "![](https://raw.githubusercontent.com/wusize/OpenUni/main/figures/teaser.png)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "0Er3q0H1a/krVNTt7rFdokvf4rBKgWbCYZZ2tsCbEkE=",
+    "originContent": "> **[OpenUni: A Simple Baseline for Unified Multimodal Understanding and Generation](https://arxiv.org/abs/2505.23661)**",
+    "translatedContent": "> **[OpenUni: 統一マルチモーダル理解と生成のためのシンプルなベースライン](https://arxiv.org/abs/2505.23661)**"
+  },
+  {
+    "row": 6,
+    "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+    "originContent": ">",
+    "translatedContent": ">"
+  },
+  {
+    "row": 7,
+    "rowsha": "BSVzgPXx+G2TSjDQA89FeVRo8K4tHssdGVVpgXIwwug=",
+    "originContent": "> Size Wu, Zhonghua Wu, Zerui Gong, Qingyi Tao, Sheng Jin, Qinyue Li, Wei Li, Chen Change Loy",
+    "translatedContent": "> Size Wu, Zhonghua Wu, Zerui Gong, Qingyi Tao, Sheng Jin, Qinyue Li, Wei Li, Chen Change Loy"
+  },
+  {
+    "row": 8,
+    "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+    "originContent": ">",
+    "translatedContent": ">"
+  },
+  {
+    "row": 9,
+    "rowsha": "aCMD+TCf67czlCs6UtTc+lljf+n3Nb4XAEkC17HwvPw=",
+    "originContent": "> [![report](https://img.shields.io/badge/arXiv-2505.23661-b31b1b.svg)](docs/report.pdf)",
+    "translatedContent": "> [![report](https://img.shields.io/badge/arXiv-2505.23661-b31b1b.svg)](docs/report.pdf)"
+  },
+  {
+    "row": 10,
+    "rowsha": "3+jCtFMDkmARiBpqG9NMmvKb0pKRMEIaEWckClj519c=",
+    "originContent": "> [![Bibtex](https://img.shields.io/badge/Cite-BibTeX-blue)](https://github.com/wusize/OpenUni?tab=readme-ov-file#-citation)",
+    "translatedContent": "> [![Bibtex](https://img.shields.io/badge/Cite-BibTeX-blue)](https://github.com/wusize/OpenUni?tab=readme-ov-file#-citation)"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "11PvuraB+k2oJHDZqDscIC3lj5L9SY53omnBFjvEcUs=",
+    "originContent": "## Introduction",
+    "translatedContent": "## はじめに"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "FbDzTgiQlXhD/cOqlzpr40RoHN+DL7BUggbrqvE/uI8=",
+    "originContent": "This is a repo under construction, named OpenUni, an open-source version of [MetaQuery](https://xichenpan.com/metaquery) for unifying multimodal understanding and generation. With a minimalist choice of architecture, we demonstrate that OpenUni can: 1) generate high-quality and instruction-aligned images, and 2) achieve exceptional performance on standard benchmarks such as GenEval, DPG-Bench, and WISE, with only 1.1B and 3.1B activated parameters. Currently, we provide three model variants: OpenUni-B-512, OpenUni-L-512 and OpenUni-L-1024. Checkpoints from both pre-training and fine-tuning are provided.",
+    "translatedContent": "これは構築中のリポジトリで、OpenUniという名前の、マルチモーダル理解と生成を統一するための[MetaQuery](https://xichenpan.com/metaquery)のオープンソース版です。最小限のアーキテクチャ選択により、OpenUniが以下を実現できることを示します：1) 高品質で指示に沿った画像の生成、2) GenEval、DPG-Bench、WISEなどの標準ベンチマークでの卓越した性能、1.1Bおよび3.1Bの有効パラメータのみで。現在、3つのモデルバリアントを提供しています：OpenUni-B-512、OpenUni-L-512、OpenUni-L-1024。事前学習およびファインチューニングのチェックポイントも提供しています。"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "R3Ilp+G2JeGxTy701DyoDSbUhkZxrANMSA/I9IL8knE=",
+    "originContent": "## 🔥 Model Zoo",
+    "translatedContent": "## 🔥 モデルズー"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "0z/vE/YqIQKvo1KjqJzNzq854g0b3KSEHTbildpn2Uk=",
+    "originContent": "| Model Name | Image Size | MLMM Model | Diffusion Model | Pre-trained | Fine-tuned |",
+    "translatedContent": "| モデル名 | 画像サイズ | MLMMモデル | 拡散モデル | 事前学習済み | ファインチューニング済み |"
+  },
+  {
+    "row": 20,
+    "rowsha": "EywVWMVCYuiXregCfK7zCiUctgkqXhbj21T6828rbzg=",
+    "originContent": "|------------|------------|------------|-----------------|-------------|------------|",
+    "translatedContent": "|------------|------------|------------|-----------------|-------------|------------|"
+  },
+  {
+    "row": 21,
+    "rowsha": "E9DWoI2S2fOVgzsfi6xXUDbyGK0Rgi+EOudppFHYOWU=",
+    "originContent": "| OpenUni-B-512 | 512×512 | [InternVL3-1B](https://huggingface.co/OpenGVLab/InternVL3-1B) | [SANA-0.6B-512px](https://huggingface.co/Efficient-Large-Model/Sana_600M_512px_diffusers) | [Link](https://huggingface.co/wusize/openuni/blob/main/openuni_b_internvl3_1b_sana_0_6b_512_hf_text2image23m.pth) | [Link](https://huggingface.co/wusize/openuni/blob/main/openuni_b_internvl3_1b_sana_0_6b_512_hf_blip3o60k.pth) |",
+    "translatedContent": "| OpenUni-B-512 | 512×512 | [InternVL3-1B](https://huggingface.co/OpenGVLab/InternVL3-1B) | [SANA-0.6B-512px](https://huggingface.co/Efficient-Large-Model/Sana_600M_512px_diffusers) | [リンク](https://huggingface.co/wusize/openuni/blob/main/openuni_b_internvl3_1b_sana_0_6b_512_hf_text2image23m.pth) | [リンク](https://huggingface.co/wusize/openuni/blob/main/openuni_b_internvl3_1b_sana_0_6b_512_hf_blip3o60k.pth) |"
+  },
+  {
+    "row": 22,
+    "rowsha": "rKnk5vG9iyhb8kt8bsDC/awDsUDHW9kcOYBNQ+0euZY=",
+    "originContent": "| OpenUni-L-512 | 512×512 | [InternVL3-2B](https://huggingface.co/OpenGVLab/InternVL3-2B) | [SANA-1.6B-512px](https://huggingface.co/Efficient-Large-Model/Sana_1600M_512px_diffusers) | [Link](https://huggingface.co/wusize/openuni/blob/main/openuni_l_internvl3_2b_sana_1_6b_512_hf_text2image23m.pth) | [Link](https://huggingface.co/wusize/openuni/blob/main/openuni_l_internvl3_2b_sana_1_6b_512_hf_blip3o60k.pth) |",
+    "translatedContent": "| OpenUni-L-512 | 512×512 | [InternVL3-2B](https://huggingface.co/OpenGVLab/InternVL3-2B) | [SANA-1.6B-512px](https://huggingface.co/Efficient-Large-Model/Sana_1600M_512px_diffusers) | [リンク](https://huggingface.co/wusize/openuni/blob/main/openuni_l_internvl3_2b_sana_1_6b_512_hf_text2image23m.pth) | [リンク](https://huggingface.co/wusize/openuni/blob/main/openuni_l_internvl3_2b_sana_1_6b_512_hf_blip3o60k.pth) |"
+  },
+  {
+    "row": 23,
+    "rowsha": "V6eS/5rL1Hp6VYw/X9kxEy3KFSEfd5mNUKs4D39wjlA=",
+    "originContent": "| OpenUni-L-1024 | 1024×1024 | [InternVL3-2B](https://huggingface.co/OpenGVLab/InternVL3-2B) | [SANA1.5-1.6B-1024px](https://huggingface.co/Efficient-Large-Model/SANA1.5_1.6B_1024px_diffusers) | [Link](https://huggingface.co/wusize/openuni/blob/main/openuni_l_internvl3_2b_sana_1_6b_512_hf_text2image23m.pth) | [Link](https://huggingface.co/wusize/openuni/blob/main/openuni_l_internvl3_2b_sana_1_6b_1024_hf_blip3o60k.pth) |",
+    "translatedContent": "| OpenUni-L-1024 | 1024×1024 | [InternVL3-2B](https://huggingface.co/OpenGVLab/InternVL3-2B) | [SANA1.5-1.6B-1024px](https://huggingface.co/Efficient-Large-Model/SANA1.5_1.6B_1024px_diffusers) | [リンク](https://huggingface.co/wusize/openuni/blob/main/openuni_l_internvl3_2b_sana_1_6b_512_hf_text2image23m.pth) | [リンク](https://huggingface.co/wusize/openuni/blob/main/openuni_l_internvl3_2b_sana_1_6b_1024_hf_blip3o60k.pth) |"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "kVelewho4nrbWBFj27nGhD7kcC0+d1qqyBqAirOwbYg=",
+    "originContent": "## Environment",
+    "translatedContent": "## 環境</translate-content>"
+  },
+  {
+    "row": 30,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 31,
+    "rowsha": "7uF61laf2IKu8mZmQH93iA83QGiKIS9pVFBE8oQm65s=",
+    "originContent": "mmengine",
+    "translatedContent": "mmengine"
+  },
+  {
+    "row": 32,
+    "rowsha": "ZeQCZq2hTPs4Qaeom63SOGNJLTizG+MIOpTK4Hi09lc=",
+    "originContent": "xtuner",
+    "translatedContent": "xtuner"
+  },
+  {
+    "row": 33,
+    "rowsha": "rZsHArxBhJmx8vtO6j+H6arySusxXxK3ndLp76qb2iA=",
+    "originContent": "transformers",
+    "translatedContent": "transformers"
+  },
+  {
+    "row": 34,
+    "rowsha": "N79Rv7pGmalAzjE0lCKySlvFWisXnteux0RZqa6NV7c=",
+    "originContent": "torch",
+    "translatedContent": "torch"
+  },
+  {
+    "row": 35,
+    "rowsha": "/mXTZuiIVWb6adm6Iv1KBFcFbeD8m32ERqpYyAlEHB8=",
+    "originContent": "flash_attn",
+    "translatedContent": "flash_attn"
+  },
+  {
+    "row": 36,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## テキストから画像へ"
+  },
+  {
+    "row": 38,
+    "rowsha": "NWaShZDRRszUx5gT2BzHgALzvaq+xGk+mPSrX2lXtag=",
+    "originContent": "## Text-to-Image",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "リリースされたモデルの重みは🤗[wusize/openuni](https://huggingface.co/wusize/openuni)からダウンロードしてください。  "
+  },
+  {
+    "row": 40,
+    "rowsha": "NIRwUFfsIFfr1L+2pZEArYghimYJ/hmiYDxapkixRl4=",
+    "originContent": "Please download our released model weights from 🤗[wusize/openuni](https://huggingface.co/wusize/openuni). It is recommended to use the following command to download the checkpoints",
+    "translatedContent": "チェックポイントのダウンロードには以下のコマンドの使用を推奨します。"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 44,
+    "rowsha": "YvtTDNC2dnNojysp21363hMA2KZwfyjyICgPrEbHY0Y=",
+    "originContent": "# pip install -U \"huggingface_hub[cli]\"",
+    "translatedContent": "# pip install -U \"huggingface_hub[cli]\""
+  },
+  {
+    "row": 45,
+    "rowsha": "ouVW0XTxv4wUhbIxTX0sXB0GWbsb2s0HtR+pYdSbRfs=",
+    "originContent": "huggingface-cli download wusize/openuni  --local-dir checkpoints --repo-type model",
+    "translatedContent": "huggingface-cli download wusize/openuni  --local-dir checkpoints --repo-type model"
+  },
+  {
+    "row": 46,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "tKMTeRwfvKLBQQ0dWxGQr0CHcj7BtsHEundimNbdYig=",
+    "originContent": "```text",
+    "translatedContent": "```text"
+  },
+  {
+    "row": 49,
+    "rowsha": "QuBrElLj5wnmKedncg5l3sjo02TyQnsgMr/Ism2A3m8=",
+    "originContent": "OpenUni/",
+    "translatedContent": "OpenUni/"
+  },
+  {
+    "row": 50,
+    "rowsha": "lWmzDJHXRimXrBpTgVLVfTDva6c1a5QS5Gco13a1iTI=",
+    "originContent": "├── checkpoints",
+    "translatedContent": "├── checkpoints"
+  },
+  {
+    "row": 51,
+    "rowsha": "4L4yOg0sGn84kXdSNy0mRQ2ngDNPrIj6eROq0Z6Dpws=",
+    "originContent": "    ├── openuni_b_internvl3_1b_sana_0_6b_512_hf_blip3o60k.pth",
+    "translatedContent": "    ├── openuni_b_internvl3_1b_sana_0_6b_512_hf_blip3o60k.pth"
+  },
+  {
+    "row": 52,
+    "rowsha": "+QfzBTPqAYhv9VPHqAQ2Icy0Qp4DJReD5IYEnZG9kbY=",
+    "originContent": "    ├── openuni_b_internvl3_1b_sana_0_6b_512_hf_text2image23m.pth",
+    "translatedContent": "    ├── openuni_b_internvl3_1b_sana_0_6b_512_hf_text2image23m.pth"
+  },
+  {
+    "row": 53,
+    "rowsha": "UsfP5cpPGGP4PsNmHDKyj6IkWgPXfxeJhletmB66Jro=",
+    "originContent": "    ├── openuni_l_internvl3_2b_sana_1_6b_1024_hf_blip3o60k.pth",
+    "translatedContent": "    ├── openuni_l_internvl3_2b_sana_1_6b_1024_hf_blip3o60k.pth"
+  },
+  {
+    "row": 54,
+    "rowsha": "xW4bakpx7J5mZKXnH4rdAmgDQejM8EVD3l30t5JVH2o=",
+    "originContent": "    ├── openuni_l_internvl3_2b_sana_1_6b_1024_hf_text2image23m.pth",
+    "translatedContent": "    ├── openuni_l_internvl3_2b_sana_1_6b_1024_hf_text2image23m.pth"
+  },
+  {
+    "row": 55,
+    "rowsha": "NzG0YYNEzKFVBz/kk2LEi3V68rgFDYr0U/pywcKk9ac=",
+    "originContent": "    ├── openuni_l_internvl3_2b_sana_1_6b_512_hf_blip3o60k.pth",
+    "translatedContent": "    ├── openuni_l_internvl3_2b_sana_1_6b_512_hf_blip3o60k.pth"
+  },
+  {
+    "row": 56,
+    "rowsha": "z3oDE4YpXeH6w4v8QS//7oP1MZS8ZAacI/4agkJ316I=",
+    "originContent": "    ├── openuni_l_internvl3_2b_sana_1_6b_512_hf_text2image23m.pth",
+    "translatedContent": "    ├── openuni_l_internvl3_2b_sana_1_6b_512_hf_text2image23m.pth"
+  },
+  {
+    "row": 57,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 推論"
+  },
+  {
+    "row": 59,
+    "rowsha": "2SmNjqU06v1YA3xkfV0D3vipmwN42OP1QG6rSUyG2B4=",
+    "originContent": "### Inference",
+    "translatedContent": "[docs/INFERENCE.md](https://raw.githubusercontent.com/wusize/OpenUni/main/docs/INFERENCE.md) を参照してください。"
+  },
+  {
+    "row": 60,
+    "rowsha": "qEiBBdpVQbSCjZmXdqET2JtzPVZkTnHLzgH2uI/AOFs=",
+    "originContent": "Please refer to [docs/INFERENCE.md](https://raw.githubusercontent.com/wusize/OpenUni/main/docs/INFERENCE.md).",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 評価"
+  },
+  {
+    "row": 62,
+    "rowsha": "YDG+cxezaJ19ksy6T2qjd3YuZ43NpPCr5ktWHajmaBE=",
+    "originContent": "### Evaluation",
+    "translatedContent": "[docs/EVALUATION.md](https://raw.githubusercontent.com/wusize/OpenUni/main/docs/EVALUATION.md) を参照してください。"
+  },
+  {
+    "row": 63,
+    "rowsha": "NS71URaY/GVn4rubCZWDvaQtmnT3RVDi9I57MhuO2Qo=",
+    "originContent": "Please refer to [docs/EVALUATION.md](https://raw.githubusercontent.com/wusize/OpenUni/main/docs/EVALUATION.md).",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### トレーニング"
+  },
+  {
+    "row": 65,
+    "rowsha": "U9ggftLMiDE+3THEq2UG8dDSB5RRAcnCD5f2Fk0Pgx4=",
+    "originContent": "### Train",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "データセットの準備については [docs/DATASETS.md](https://raw.githubusercontent.com/wusize/OpenUni/main/docs/DATASETS.md) と [docs/datasets](docs/datasets) を参照してください。データセットを用意した後、"
+  },
+  {
+    "row": 67,
+    "rowsha": "mMFry+b+jrSCtalfOOb/FbnciSAMi6kEPzSfMWJYLJA=",
+    "originContent": "Please refer to [docs/DATASETS.md](https://raw.githubusercontent.com/wusize/OpenUni/main/docs/DATASETS.md) and [docs/datasets](docs/datasets) to prepare the datasets. After having the datasets,",
+    "translatedContent": "[docs/TRAIN.md](https://raw.githubusercontent.com/wusize/OpenUni/main/docs/TRAIN.md) の指示に従い、トレーニングスクリプトを起動してください。"
+  },
+  {
+    "row": 68,
+    "rowsha": "iIo/YVuaglBV2QveZs36i/hMoSHX00IbMkrX4xqb51M=",
+    "originContent": "please follow the instructions in [docs/TRAIN.md](https://raw.githubusercontent.com/wusize/OpenUni/main/docs/TRAIN.md) to launch training scripts.",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 📚 引用"
+  },
+  {
+    "row": 70,
+    "rowsha": "+Uq50qMMSSaMQjIFg9QwW/hlCfK8kXMzFuQeuRAioXU=",
+    "originContent": "## 📚 Citation",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "OpenUni が研究やアプリケーションに役立った場合は、以下の BibTeX を用いて論文を引用してください："
+  },
+  {
+    "row": 72,
+    "rowsha": "JA9RfNlTVu5uDwnRJ5ldcRKmyDyceSEA0ICJY9krhDo=",
+    "originContent": "If you find OpenUni useful for your research or applications, please cite our paper using the following BibTeX:",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+    "originContent": "```bibtex",
+    "translatedContent": "```bibtex"
+  },
+  {
+    "row": 75,
+    "rowsha": "QZl8x+wpqE6MzCTwjTS7kSlmpbUmArsqHjZR0jkMdLM=",
+    "originContent": "@article{wu2025openuni,",
+    "translatedContent": "@article{wu2025openuni,"
+  },
+  {
+    "row": 76,
+    "rowsha": "TA0zB9MkI7Od7LM3b2kh1agLeD68rL2tp+/4edaTC+k=",
+    "originContent": "      title={OpenUni: A Simple Baseline for Unified Multimodal Understanding and Generation}, ",
+    "translatedContent": "      title={OpenUni: A Simple Baseline for Unified Multimodal Understanding and Generation}, "
+  },
+  {
+    "row": 77,
+    "rowsha": "awV8vx1imeX51Ye6su9V53qY5L7XMKK7aUEUmaqqdOs=",
+    "originContent": "      author={Size Wu and Zhonghua Wu and Zerui Gong and Qingyi Tao and Sheng Jin and Qinyue Li and Wei Li and Chen Change Loy},",
+    "translatedContent": "      author={Size Wu and Zhonghua Wu and Zerui Gong and Qingyi Tao and Sheng Jin and Qinyue Li and Wei Li and Chen Change Loy},"
+  },
+  {
+    "row": 78,
+    "rowsha": "1cuvfM9h03loQfZOlvsx9juVCvU41kevaYb2CnD9Gak=",
+    "originContent": "      year={2025},",
+    "translatedContent": "      year={2025},"
+  },
+  {
+    "row": 79,
+    "rowsha": "4AACg9dF+kFD5MPKaZV7cevS3MwulEJFdQ8ccO+RY4Y=",
+    "originContent": "      eprint={2505.23661},",
+    "translatedContent": "      eprint={2505.23661},"
+  },
+  {
+    "row": 80,
+    "rowsha": "Fr73/KLqU4TaDaJVUDLO211nM029JE4YRpN5hXSZZqk=",
+    "originContent": "      archivePrefix={arXiv},",
+    "translatedContent": "      archivePrefix={arXiv},"
+  },
+  {
+    "row": 81,
+    "rowsha": "RPNBhgHdrY2A+XYLnuhpAr/aqag2LU2pAjasgtM0tg4=",
+    "originContent": "      primaryClass={cs.CV},",
+    "translatedContent": "      primaryClass={cs.CV},"
+  },
+  {
+    "row": 82,
+    "rowsha": "4cEN4bq+Dch3eFjoTuRSe42yPSUptxA27JS+5fcuWtQ=",
+    "originContent": "      url={https://arxiv.org/abs/2505.23661}, ",
+    "translatedContent": "      url={https://arxiv.org/abs/2505.23661}, "
+  },
+  {
+    "row": 83,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 84,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 📜 ライセンス"
+  },
+  {
+    "row": 86,
+    "rowsha": "Xg7z9THMMv8mm3IS7LJHSaXGCrZhD8D4NGbb/+/ra/Y=",
+    "originContent": "## 📜 License",
+    "translatedContent": "このプロジェクトは [NTU S-Lab License 1.0](LICENSE) のもとでライセンスされています。"
+  },
+  {
+    "row": 87,
+    "rowsha": "qeP2k6kai1Mo9BIc368xps+3tdxyVR8IT6z/EU9wE5o=",
+    "originContent": "This project is licensed under [NTU S-Lab License 1.0](LICENSE).",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🙏 謝辞"
+  },
+  {
+    "row": 90,
+    "rowsha": "Q5tmuvDmT2hZJTvu3sAfV4StROp6KqcVE2pjV5rVSjE=",
+    "originContent": "## 🙏 Acknowledgement",
+    "translatedContent": "本プロジェクトは以下の先駆的な研究を基に構築されています："
+  },
+  {
+    "row": 91,
+    "rowsha": "7fTFBzeo9Qa9MzwbSXTP27MH+sdSfThduZj9PZC6uTk=",
+    "originContent": "The project builds upon the following pioneering works:",
+    "translatedContent": "- [SANA](https://github.com/NVlabs/Sana): 効率性と高い性能を考慮し、拡散モジュールとしてSANAを使用しています。"
+  },
+  {
+    "row": 92,
+    "rowsha": "x+k+LZ/N6El9GPYf9mBrKa3Tbqm0lwNlk2UHWDNNsf0=",
+    "originContent": "- [SANA](https://github.com/NVlabs/Sana): We use SANA as our diffusion module, considering its efficiency and strong performance.",
+    "translatedContent": "- [InternVL3](https://github.com/OpenGVLab/InternVL): 最新のInternVL3をベースのマルチモーダルLLMとして使用しています。"
+  },
+  {
+    "row": 93,
+    "rowsha": "9IwKkwhm+F36l2DpJpzaqBMt1/0Ru5kszLAwNpBBOm8=",
+    "originContent": "- [InternVL3](https://github.com/OpenGVLab/InternVL): We use the latest InternVL3 as our base multimodal LLM.",
+    "translatedContent": "- [MetaQuery](https://xichenpan.com/metaquery): OpenUniはMetaQueryに触発され、この研究のオープンソース実装です。"
+  },
+  {
+    "row": 94,
+    "rowsha": "3aUtIy20N3TnL0l+vWdkzlYLlA1qP2VEWpjON6Qs1lA=",
+    "originContent": "- [MetaQuery](https://xichenpan.com/metaquery): OpenUni is inspired by MetaQuery and is an open-source implementation of this work.",
+    "translatedContent": "- [BLIP3-o](https://github.com/JiuhaiChen/BLIP3o): 貴重な高品質チューニングデータセットを公開してくださったBLIP3-oチームに感謝します。"
+  },
+  {
+    "row": 95,
+    "rowsha": "9bxdTLhggD91OHsaGd1mhRo52qC/KpjhkMJqdYJWLvc=",
+    "originContent": "- [BLIP3-o](https://github.com/JiuhaiChen/BLIP3o): We thank the BLIP3-o team for releasing the precious high-quality tuning dataset.",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

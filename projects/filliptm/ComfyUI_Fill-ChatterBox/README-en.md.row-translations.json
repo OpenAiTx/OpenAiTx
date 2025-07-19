@@ -1,0 +1,368 @@
+[
+  {
+    "row": 1,
+    "rowsha": "WXPD90VJi8akPy8cwqK8ROdDsGGOF2zbtWqUQfXMUeE=",
+    "originContent": "# ComfyUI_Fill-ChatterBox",
+    "translatedContent": "<translate-content># ComfyUI_Fill-ChatterBox"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "qRz+qfUSfheV5cwlrrF+hozo7Q4uHYsK9oRPMpNeO5E=",
+    "originContent": "If you enjoy this project, consider supporting me on Patreon!",
+    "translatedContent": "If you enjoy this project, consider supporting me on Patreon!"
+  },
+  {
+    "row": 4,
+    "rowsha": "Auk82msJHqE5J2c5SY+1beHllILKnmlMZAJCApM2R0k=",
+    "originContent": "<p align=\"left\">",
+    "translatedContent": "<p align=\"left\">"
+  },
+  {
+    "row": 5,
+    "rowsha": "B4vSst9ejByz6TRKJPuF5U20Ab75vZH1+i8jaUllpF0=",
+    "originContent": "  <a href=\"https://www.patreon.com/c/Machinedelusions\">",
+    "translatedContent": "  <a href=\"https://www.patreon.com/c/Machinedelusions\">"
+  },
+  {
+    "row": 6,
+    "rowsha": "sYATDarmsu7M57zL4L8kEpKl8iR4HIChWsB65Y1H2S4=",
+    "originContent": "    <img src=\"https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/assets/Patreon.png\" width=\"150px\" alt=\"Patreon\">",
+    "translatedContent": "    <img src=\"https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/assets/Patreon.png\" width=\"150px\" alt=\"Patreon\">"
+  },
+  {
+    "row": 7,
+    "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+    "originContent": "  </a>",
+    "translatedContent": "  </a>"
+  },
+  {
+    "row": 8,
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "qIHjrUkhMVXM6nah1vn89aj9b6U/SEQOe1zMUR3zqGY=",
+    "originContent": "A custom node extension for ComfyUI that adds text-to-speech (TTS) and voice conversion (VC) capabilities using the Chatterbox library.",
+    "translatedContent": "A custom node extension for ComfyUI that adds text-to-speech (TTS) and voice conversion (VC) capabilities using the Chatterbox library."
+  },
+  {
+    "row": 11,
+    "rowsha": "QexQLOId2YlrEfFW7nUVxIt2eYz2gGVqyEe6Z0gG280=",
+    "originContent": "Supports a MAXIMUM of 40 seconds. Iv tried removing this limitation, but the model falls apart really badly with anything longer than that, so it remains.",
+    "translatedContent": "Supports a MAXIMUM of 40 seconds. I've tried removing this limitation, but the model falls apart really badly with anything longer than that, so it remains."
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "1jmwBaKBOwb2bOqidRkI+v48ssPsFUnmseT+yuj0ctQ=",
+    "originContent": "![ChatterBox Example](https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/web/image.png)",
+    "translatedContent": "![ChatterBox Example](https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/web/image.png)"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Installation"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "IuGZ6YSc4ROu9O+SsZdKwwiBdbdGKA5zky97mIaufK0=",
+    "originContent": "1. Clone this repository into your ComfyUI custom_nodes directory:",
+    "translatedContent": "1. Clone this repository into your ComfyUI custom_nodes directory:</translate-content>"
+  },
+  {
+    "row": 18,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 19,
+    "rowsha": "ca24MC7Gs136N1CrqEHk3noaZqdIhhxetgpmYOVgvAI=",
+    "originContent": "   cd /path/to/ComfyUI/custom_nodes",
+    "translatedContent": "   cd /path/to/ComfyUI/custom_nodes"
+  },
+  {
+    "row": 20,
+    "rowsha": "4iLPuVFhroSF0eDKJA+ikYNcpduz1ZaZKbJ67fq20l8=",
+    "originContent": "   git clone https://github.com/filliptm/ComfyUI_Fill-ChatterBox.git",
+    "translatedContent": "   git clone https://github.com/filliptm/ComfyUI_Fill-ChatterBox.git"
+  },
+  {
+    "row": 21,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "2. Install the base dependencies:"
+  },
+  {
+    "row": 23,
+    "rowsha": "mDSn2pSiILsr1+EvNKEUeRZgMGbGq1tlehckH4W20lo=",
+    "originContent": "2. Install the base dependencies:",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 25,
+    "rowsha": "6nksGJep55vDh54SfHCQ4t9f0OP2zc4owvrTR3zx3Hw=",
+    "originContent": "   pip install -r ComfyUI_Fill-ChatterBox/requirements.txt",
+    "translatedContent": "   pip install -r ComfyUI_Fill-ChatterBox/requirements.txt"
+  },
+  {
+    "row": 26,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "3. (Optional) Install watermarking support:"
+  },
+  {
+    "row": 28,
+    "rowsha": "hMCZq5HJBvY2vNcMpN5Tv8lv3+IguXueYlm5D+tom1Y=",
+    "originContent": "3. (Optional) Install watermarking support:",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 30,
+    "rowsha": "YUieExLRnw5KQH0Md9SJpTaHw9kXGVpHzbkHvNUl67Y=",
+    "originContent": "   pip install resemble-perth",
+    "translatedContent": "   pip install resemble-perth"
+  },
+  {
+    "row": 31,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 32,
+    "rowsha": "sx+JKHRqWSIaqYXECQWYXDQK/RZvXNSm/QfkApJE+gU=",
+    "originContent": "   **Note**: The `resemble-perth` package may have compatibility issues with Python 3.12+. If you encounter import errors, the nodes will still function without watermarking.",
+    "translatedContent": "**Note**: The `resemble-perth` package may have compatibility issues with Python 3.12+. If you encounter import errors, the nodes will still function without watermarking."
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## Usage"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "f8Yfr8+j0QEIcCFIlrRGl8QLpoHc7Xl2cv6L1026fuE=",
+    "originContent": "### Text-to-Speech Node (FL Chatterbox TTS)",
+    "translatedContent": "### Text-to-Speech Node (FL Chatterbox TTS)"
+  },
+  {
+    "row": 38,
+    "rowsha": "Qd/OxygpXiqLTLFMWFdaWibDqUOiuMYsK65egE64kos=",
+    "originContent": "- Add the \"FL Chatterbox TTS\" node to your workflow",
+    "translatedContent": "- Add the \"FL Chatterbox TTS\" node to your workflow"
+  },
+  {
+    "row": 39,
+    "rowsha": "AqENcYNMSIgs4rHw4o6Rl4mt/fB5cG/GyPkqenIV+KI=",
+    "originContent": "- Configure text input and parameters (exaggeration, cfg_weight, temperature)",
+    "translatedContent": "- Configure text input and parameters (exaggeration, cfg_weight, temperature)"
+  },
+  {
+    "row": 40,
+    "rowsha": "8JvzthjXI3hcPTyelvmXenuKRnjYNBmamS7M0av0dZA=",
+    "originContent": "- Optionally provide an audio prompt for voice cloning",
+    "translatedContent": "- Optionally provide an audio prompt for voice cloning"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "B7s0LDdV4NyuxLPHXXI7/KZqPPn0FK7zPM5q9ylILD4=",
+    "originContent": "### Voice Conversion Node (FL Chatterbox VC)",
+    "translatedContent": "### Voice Conversion Node (FL Chatterbox VC)"
+  },
+  {
+    "row": 43,
+    "rowsha": "ER5X+WU1PrFjYfjajm2NkJdgPolX53xiYH9bIflrNCc=",
+    "originContent": "- Add the \"FL Chatterbox VC\" node to your workflow",
+    "translatedContent": "- Add the \"FL Chatterbox VC\" node to your workflow"
+  },
+  {
+    "row": 44,
+    "rowsha": "WR9K0SxLfLYkAxPuCUAJgCW7Py+Cwy4kSj0/CR/Kk2E=",
+    "originContent": "- Connect input audio and target voice",
+    "translatedContent": "- Connect input audio and target voice"
+  },
+  {
+    "row": 45,
+    "rowsha": "IRZX8RR8M535VQzRJ29cy3uOqCIix9ID2tDIgC7klhQ=",
+    "originContent": "- Both nodes support CPU fallback if CUDA errors occur",
+    "translatedContent": "- Both nodes support CPU fallback if CUDA errors occur"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "Yy1L+liWEPiygBFNsm9+4WmZQmi0NpcYvH+ZHWiB74A=",
+    "originContent": "## Change Log",
+    "translatedContent": "## Change Log"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "nXTFL1jU4r5Y2G3rJOXKxEWhlGKI8pbVCeMi6VGDfMk=",
+    "originContent": "### 6/24/2025",
+    "translatedContent": "### 6/24/2025"
+  },
+  {
+    "row": 50,
+    "rowsha": "gmnqXz9KxwsWpejnUjjecI3a0rRmgx+lLlnNczBKxHk=",
+    "originContent": "- Added seed parameter to both TTS and VC nodes for reproducible generation",
+    "translatedContent": "- Added seed parameter to both TTS and VC nodes for reproducible generation"
+  },
+  {
+    "row": 51,
+    "rowsha": "hYIWPSuhpMNVOE4VqM9r9Y0DKqvn2u2D61wuz284Im8=",
+    "originContent": "- Seed range: 0 to 4,294,967,295 (32-bit integer)",
+    "translatedContent": "- Seed range: 0 to 4,294,967,295 (32-bit integer)"
+  },
+  {
+    "row": 52,
+    "rowsha": "kylU+FV1HXlotxzZM3h2tg1hueiuEim/GQHytklRY8Y=",
+    "originContent": "- Enables consistent audio output for debugging and workflow control",
+    "translatedContent": "- Enables consistent audio output for debugging and workflow control"
+  },
+  {
+    "row": 53,
+    "rowsha": "QRx/bVgdc0ktyUp4PH9cxCV7If757Mthf4q9E0npDLU=",
+    "originContent": "- Made Perth watermarking optional to fix Python 3.12+ compatibility issues",
+    "translatedContent": "- Made Perth watermarking optional to fix Python 3.12+ compatibility issues"
+  },
+  {
+    "row": 54,
+    "rowsha": "6QbvexiqC8ZtIVOrGItTthm0LZDCwzIX+pQA+/2zbt0=",
+    "originContent": "- Nodes now function without watermarking if resemble-perth import fails",
+    "translatedContent": "- Nodes now function without watermarking if resemble-perth import fails"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "ZIc3W5rnLqRhIimCnVxpyaFxY8NS4S7zXZVqs3LFfH0=",
+    "originContent": "### 5/31/2025",
+    "translatedContent": "### 5/31/2025"
+  },
+  {
+    "row": 57,
+    "rowsha": "D1Mx8kubMbaKy9qVos7FRp8cJ2gwA620xz/z2tmUimk=",
+    "originContent": "- Added Persistent model loading, and loading bar functionality",
+    "translatedContent": "- Added Persistent model loading, and loading bar functionality"
+  },
+  {
+    "row": 58,
+    "rowsha": "DHQqwmIiCZRkq9JFvmm1qQV+yQOJMdNtVup4IMYQDrw=",
+    "originContent": "- Added Mac support (needs to be tested so HMU)",
+    "translatedContent": "- Added Mac support (needs to be tested so HMU)"
+  },
+  {
+    "row": 59,
+    "rowsha": "Yk+lMl65VGla3xMxxJh1FQk08t/tEfTgTgGXLUSz0s4=",
+    "originContent": "- removed the chatterbox-tts library and implemented native inference code.",
+    "translatedContent": "- removed the chatterbox-tts library and implemented native inference code."
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

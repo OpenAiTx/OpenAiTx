@@ -1,0 +1,531 @@
+[
+  {
+    "Id": 1,
+    "Content": "# OpenSteamDeckController (v0.1)\n\nA custom modular wireless controller inspired by the Steam Deck and Steam Controller. Features trackpads, detachable halves, and full HID support. Built from scratch using nRF52840 microcontrollers and the Enhanced ShockBurst protocol. [Video](https://youtu.be/ycMgIToLav8?si=cVztny4IiIS_V4oI) \n\nJoin the [Discord!](https://discord.gg/ZtV34Hwx7y)\n\n> **Note**  \n> This project is in an early development stage — v0.1. Expect breaking changes, bugs, and frequent updates.\n\n---\n\n## 🚀 Project Goals\n\n- 🎮 Emulate a Steam Deck-like controller with modular, wireless halves\n- 🖱️ Support mouse, keyboard, and gamepad HID modes\n- 🧲 Custom-built trackpads using the Azoteq IQS7211E sensor\n- 🔋 Magnetic pogo-pin charging and attachment system\n- 🛠️ Fully open-source hardware and firmware\n\n---\n\n## ✅ v0.1 Development Checklist\n\n### Hardware\n- [x] Left and right controller halves (nRF52840)\n- [x] USB dongle (nRF52840)\n- [x] Custom trackpad PCBs (IQS7211E)\n- [ ] 3D printable version of the Shell\n- [ ] Controller PCBs(left + right)\n- [ ] Joystick PCBs(to drive down cost)\n- [ ] gp2040ce + nrf dongle\n\n### Firmware\n- [x] ESB-based wireless communication\n- [x] Mouse + Gamepad + Keyboard HID reports\n- [x] Input parsing for trackpads and buttons\n- [ ] Haptics / rumble support\n- [ ] Gyro Support\n- [ ] Calibration routines + save to internal memory\n- [ ] Configurable modes (gesture/tap/mouse/gamepad)\n- [ ] Steam Input compatibility or XInput compatibility\n- [ ] Capacitive Joystick\n\n### Other\n- [ ] Improve documentation and diagrams\n- [ ] Design a UI or config utility(either software or adding screens)\n- [ ] Firmware migration to Zephyr (optional future)\n- [ ] Optimize latency and packet loss handling\n- [ ] Reduces costs\n\n---\n\n## 📷 Media\n\nComing soon — demo images, build progress, and gameplay tests.\n\n---\n\n## 🛠️ Build Instructions\n\n_(Coming soon)_\n\n- Schematic and board files (.zip or link)\n- Firmware flashing instructions\n- Dependency list and setup\n\n---\n\n## 🤝 Contributing\n\nContributions are welcome! Feel free to fork the repo, open issues, or submit pull requests.\n\nIf you're not sure where to start, check out the [Checklist](#-v01-development-checklist) for open tasks.\n\n---\n\n## 📄 License\n\nMIT License — see `LICENSE` file for details.\n\n---\n\n## 💬 Contact\n\nFor questions or suggestions, reach out via GitHub Issues or [YouTube](https://www.youtube.com/@TommyBee456).\n",
+    "ContentSha": "cXbkHvtRgjxbOc6dYT+Bm5UpyL8tGSYTgYC48YMbG1k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># OpenSteamDeckController (v0.1)\n\nSteam Deck과 Steam Controller에서 영감을 받은 맞춤형 모듈형 무선 컨트롤러입니다. 트랙패드, 분리 가능한 절반, 완전한 HID 지원을 특징으로 합니다. nRF52840 마이크로컨트롤러와 Enhanced ShockBurst 프로토콜을 사용하여 처음부터 제작되었습니다. [영상](https://youtu.be/ycMgIToLav8?si=cVztny4IiIS_V4oI) \n\n[Discord!](https://discord.gg/ZtV34Hwx7y)에 참여하세요!\n\n> **참고**  \n> 이 프로젝트는 초기 개발 단계인 v0.1입니다. 파괴적인 변경, 버그, 잦은 업데이트가 있을 수 있습니다.\n\n---\n\n## 🚀 프로젝트 목표\n\n- 🎮 모듈형 무선 절반을 갖춘 Steam Deck 유사 컨트롤러 에뮬레이션\n- 🖱️ 마우스, 키보드, 게임패드 HID 모드 지원\n- 🧲 Azoteq IQS7211E 센서를 사용한 맞춤형 트랙패드\n- 🔋 자석 포고핀 충전 및 부착 시스템\n- 🛠️ 완전한 오픈 소스 하드웨어 및 펌웨어\n\n---\n\n## ✅ v0.1 개발 체크리스트\n\n### 하드웨어\n- [x] 좌우 컨트롤러 절반 (nRF52840)\n- [x] USB 동글 (nRF52840)\n- [x] 맞춤형 트랙패드 PCB (IQS7211E)\n- [ ] 셸 3D 프린트 버전\n- [ ] 컨트롤러 PCB(좌 + 우)\n- [ ] 조이스틱 PCB(비용 절감을 위해)\n- [ ] gp2040ce + nrf 동글\n\n### 펌웨어\n- [x] ESB 기반 무선 통신\n- [x] 마우스 + 게임패드 + 키보드 HID 리포트\n- [x] 트랙패드 및 버튼 입력 파싱\n- [ ] 햅틱 / 진동 지원\n- [ ] 자이로 지원\n- [ ] 보정 루틴 및 내부 메모리 저장\n- [ ] 구성 가능한 모드 (제스처/탭/마우스/게임패드)\n- [ ] Steam Input 호환성 또는 XInput 호환성\n- [ ] 정전식 조이스틱\n\n### 기타\n- [ ] 문서 및 다이어그램 개선\n- [ ] UI 또는 구성 유틸리티 설계(소프트웨어 또는 화면 추가)\n- [ ] 펌웨어 Zephyr로 이전 (선택적 미래)\n- [ ] 지연 시간 및 패킷 손실 처리 최적화\n- [ ] 비용 절감\n\n---\n\n## 📷 미디어\n\n곧 공개 예정 — 데모 이미지, 제작 진행 상황, 게임플레이 테스트.\n\n---\n\n## 🛠️ 제작 지침\n\n_(곧 공개 예정)_\n\n- 회로도 및 보드 파일 (.zip 또는 링크)\n- 펌웨어 플래싱 지침\n- 의존성 목록 및 설정\n\n---\n\n## 🤝 기여\n\n기여는 환영합니다! 리포지토리를 포크하거나 이슈를 열거나 풀 리퀘스트를 제출하세요.\n\n어디서 시작할지 모르겠다면, [체크리스트](#-v01-development-checklist)를 확인해 오픈 작업을 찾아보세요.\n\n---\n\n## 📄 라이선스\n\nMIT 라이선스 — 자세한 내용은 `LICENSE` 파일 참조.\n\n---\n\n## 💬 연락처\n\n질문이나 제안은 GitHub 이슈 또는 [YouTube](https://www.youtube.com/@TommyBee456)를 통해 연락 주세요.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "fEXzstPbo2qLqRRRX50AbYafWjuLwmg82a1ATFYfXMw=",
+        "originContent": "# OpenSteamDeckController (v0.1)",
+        "translatedContent": "<translate-content># OpenSteamDeckController (v0.1)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "o7DcERMd+JQ+vPfp+2ZuywnDS3JruNeLDgVHH12JrhU=",
+        "originContent": "A custom modular wireless controller inspired by the Steam Deck and Steam Controller. Features trackpads, detachable halves, and full HID support. Built from scratch using nRF52840 microcontrollers and the Enhanced ShockBurst protocol. [Video](https://youtu.be/ycMgIToLav8?si=cVztny4IiIS_V4oI) ",
+        "translatedContent": "Steam Deck과 Steam Controller에서 영감을 받은 맞춤형 모듈형 무선 컨트롤러입니다. 트랙패드, 분리 가능한 절반, 완전한 HID 지원을 특징으로 합니다. nRF52840 마이크로컨트롤러와 Enhanced ShockBurst 프로토콜을 사용하여 처음부터 제작되었습니다. [영상](https://youtu.be/ycMgIToLav8?si=cVztny4IiIS_V4oI) "
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "pHjZCacgtSwl+gf/ASwMGGBI6CB6zVM+W79vJNiN0SY=",
+        "originContent": "Join the [Discord!](https://discord.gg/ZtV34Hwx7y)",
+        "translatedContent": "[Discord!](https://discord.gg/ZtV34Hwx7y)에 참여하세요!"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "wEng/D+SiMj5AqBXOGV2CF+oZQfCjyss6Za9pYCBqIk=",
+        "originContent": "> **Note**  ",
+        "translatedContent": "> **참고**  "
+      },
+      {
+        "row": 8,
+        "rowsha": "Ycd9RNnzaLNAzFCdNqU2TLdi1coIm8bSiunmEtzCaYk=",
+        "originContent": "> This project is in an early development stage — v0.1. Expect breaking changes, bugs, and frequent updates.",
+        "translatedContent": "> 이 프로젝트는 초기 개발 단계인 v0.1입니다. 파괴적인 변경, 버그, 잦은 업데이트가 있을 수 있습니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "fdkwn8quJY6t5fEl7hbptmje9eXQy6JonqnqFPpdHw8=",
+        "originContent": "## 🚀 Project Goals",
+        "translatedContent": "## 🚀 프로젝트 목표"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "7MT+kT5Z2IjvuED5tzgY8mwZdzRl/urlk4K67UbDz2s=",
+        "originContent": "- 🎮 Emulate a Steam Deck-like controller with modular, wireless halves",
+        "translatedContent": "- 🎮 모듈형 무선 절반을 갖춘 Steam Deck 유사 컨트롤러 에뮬레이션"
+      },
+      {
+        "row": 15,
+        "rowsha": "i8QssrpVbzWp0tt4ySlgDVHS7MQ98K1L978WRm+pzU8=",
+        "originContent": "- 🖱️ Support mouse, keyboard, and gamepad HID modes",
+        "translatedContent": "- 🖱️ 마우스, 키보드, 게임패드 HID 모드 지원"
+      },
+      {
+        "row": 16,
+        "rowsha": "RzkNem0cj57589D6B0KqXYLSU78UQo+TIC5+Idf7LIk=",
+        "originContent": "- 🧲 Custom-built trackpads using the Azoteq IQS7211E sensor",
+        "translatedContent": "- 🧲 Azoteq IQS7211E 센서를 사용한 맞춤형 트랙패드"
+      },
+      {
+        "row": 17,
+        "rowsha": "6L2n4WA9WmcUPHI3B11lT6tGQ04rJm1lN4olz1ygvYA=",
+        "originContent": "- 🔋 Magnetic pogo-pin charging and attachment system",
+        "translatedContent": "- 🔋 자석 포고핀 충전 및 부착 시스템"
+      },
+      {
+        "row": 18,
+        "rowsha": "OCGz3xF7AO4toCFaV9yNI14yp3rNzFXMXCNAM110sxc=",
+        "originContent": "- 🛠️ Fully open-source hardware and firmware",
+        "translatedContent": "- 🛠️ 완전한 오픈 소스 하드웨어 및 펌웨어"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "+QF4DbWZ+4BJkDfoj7fUDt8vPk7G6sw2FpjvGBE6Jc4=",
+        "originContent": "## ✅ v0.1 Development Checklist",
+        "translatedContent": "## ✅ v0.1 개발 체크리스트"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "W6urQUksQAGEmxhmbL8EG1dw69IrlDrG79ExcWJH3ds=",
+        "originContent": "### Hardware",
+        "translatedContent": "### 하드웨어"
+      },
+      {
+        "row": 25,
+        "rowsha": "Xdo2qtBlPJv+J2TSIKo+vAkacsxYyrVaSRYQuJkMHyk=",
+        "originContent": "- [x] Left and right controller halves (nRF52840)",
+        "translatedContent": "- [x] 좌우 컨트롤러 절반 (nRF52840)"
+      },
+      {
+        "row": 26,
+        "rowsha": "/muRhlR2RR8fKFo6Zl6mrTLGARRLpSjL2PpTLvWscBs=",
+        "originContent": "- [x] USB dongle (nRF52840)",
+        "translatedContent": "- [x] USB 동글 (nRF52840)"
+      },
+      {
+        "row": 27,
+        "rowsha": "WFBndh6/Xkvn6JyyQv5Hp5BYv4JcRTXV4a6YmKtzlNo=",
+        "originContent": "- [x] Custom trackpad PCBs (IQS7211E)",
+        "translatedContent": "- [x] 맞춤형 트랙패드 PCB (IQS7211E)"
+      },
+      {
+        "row": 28,
+        "rowsha": "a/2dW9IZDMGmfAf31Mb3TE+3IdjPH8uCzJut56pUMwA=",
+        "originContent": "- [ ] 3D printable version of the Shell",
+        "translatedContent": "- [ ] 셸 3D 프린트 버전"
+      },
+      {
+        "row": 29,
+        "rowsha": "Xd/SKMCt2fDmwh6Y98urchxXA4QthSeUYwYYYbb2zxU=",
+        "originContent": "- [ ] Controller PCBs(left + right)",
+        "translatedContent": "- [ ] 컨트롤러 PCB(좌 + 우)"
+      },
+      {
+        "row": 30,
+        "rowsha": "SsPUKc5QctP4LDNhXOwxdtMfG2Sp+yCURm5ZfHXWwLY=",
+        "originContent": "- [ ] Joystick PCBs(to drive down cost)",
+        "translatedContent": "- [ ] 조이스틱 PCB(비용 절감을 위해)"
+      },
+      {
+        "row": 31,
+        "rowsha": "4RNGQI7L3KumF4pW7MMHgt8oSx0kFJxcOGoLxVvs49w=",
+        "originContent": "- [ ] gp2040ce + nrf dongle",
+        "translatedContent": "- [ ] gp2040ce + nrf 동글"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "CJ1u3UTc+gHVdObjQkANRdbKpjESUI3pfOWpAiyN7Uo=",
+        "originContent": "### Firmware",
+        "translatedContent": "### 펌웨어"
+      },
+      {
+        "row": 34,
+        "rowsha": "/YAdAA62dwEeDvYVTG3Pe+ZCiBtgJbUWguSXYlLHxg0=",
+        "originContent": "- [x] ESB-based wireless communication",
+        "translatedContent": "- [x] ESB 기반 무선 통신"
+      },
+      {
+        "row": 35,
+        "rowsha": "VcYVJRJNAJCnQ6LgIu4V5+aT1GvXoT3juNQOuuB01I8=",
+        "originContent": "- [x] Mouse + Gamepad + Keyboard HID reports",
+        "translatedContent": "- [x] 마우스 + 게임패드 + 키보드 HID 리포트"
+      },
+      {
+        "row": 36,
+        "rowsha": "MD7cJtCVrW6kXJ2oyBmDPfCa8yCQcbrFB2exn8qZDZ0=",
+        "originContent": "- [x] Input parsing for trackpads and buttons",
+        "translatedContent": "- [x] 트랙패드 및 버튼 입력 파싱"
+      },
+      {
+        "row": 37,
+        "rowsha": "EkU//j6TXGB+OyVLKX2R6Zi5QWU8UxyTsR4DHE4vWEk=",
+        "originContent": "- [ ] Haptics / rumble support",
+        "translatedContent": "- [ ] 햅틱 / 진동 지원"
+      },
+      {
+        "row": 38,
+        "rowsha": "nq9Qi7Xeiuqow+aOv60NWvBoX1as/mm7iHWk9ENnRPE=",
+        "originContent": "- [ ] Gyro Support",
+        "translatedContent": "- [ ] 자이로 지원"
+      },
+      {
+        "row": 39,
+        "rowsha": "Ccikm9nmoK1kaSf6mslA0X1o1U3wy2VgXpy365h+Vhg=",
+        "originContent": "- [ ] Calibration routines + save to internal memory",
+        "translatedContent": "- [ ] 보정 루틴 및 내부 메모리 저장"
+      },
+      {
+        "row": 40,
+        "rowsha": "dR/nDBYAMpB6ymSYrUJ7KBvDwWD3AD9AaiGdteI8jQQ=",
+        "originContent": "- [ ] Configurable modes (gesture/tap/mouse/gamepad)",
+        "translatedContent": "- [ ] 구성 가능한 모드 (제스처/탭/마우스/게임패드)"
+      },
+      {
+        "row": 41,
+        "rowsha": "Kz3cjBDOplpHyw31QaKTD/pQKbLoSMfIqcaRtRT1VGk=",
+        "originContent": "- [ ] Steam Input compatibility or XInput compatibility",
+        "translatedContent": "- [ ] Steam Input 호환성 또는 XInput 호환성"
+      },
+      {
+        "row": 42,
+        "rowsha": "x8BxZF52LLhhlZRmMzG4r124oWGPWYQj6v71XhyvmZY=",
+        "originContent": "- [ ] Capacitive Joystick",
+        "translatedContent": "- [ ] 정전식 조이스틱"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "JdKkYUq2b81AJBVll40z2Lm3kgzRtp0TgiEiru4uTV4=",
+        "originContent": "### Other",
+        "translatedContent": "### 기타"
+      },
+      {
+        "row": 45,
+        "rowsha": "0R/VFc9214UjI0lGWyfulph6c5d9EicfKXpEMjSyzeg=",
+        "originContent": "- [ ] Improve documentation and diagrams",
+        "translatedContent": "- [ ] 문서 및 다이어그램 개선"
+      },
+      {
+        "row": 46,
+        "rowsha": "TiuIFWggmvYjG/ER8sc7BTq8d/EKBR4bHDPSxHopn2c=",
+        "originContent": "- [ ] Design a UI or config utility(either software or adding screens)",
+        "translatedContent": "- [ ] UI 또는 구성 유틸리티 설계(소프트웨어 또는 화면 추가)"
+      },
+      {
+        "row": 47,
+        "rowsha": "JIrCGMldyyM/PgVLLRxo2oWJN1CmBfnL1QyxKe3vl7k=",
+        "originContent": "- [ ] Firmware migration to Zephyr (optional future)",
+        "translatedContent": "- [ ] 펌웨어 Zephyr로 이전 (선택적 미래)"
+      },
+      {
+        "row": 48,
+        "rowsha": "5ceDktMgu09G4XF8nFvw5f0e2l9xG799k/e7xD1733M=",
+        "originContent": "- [ ] Optimize latency and packet loss handling",
+        "translatedContent": "- [ ] 지연 시간 및 패킷 손실 처리 최적화"
+      },
+      {
+        "row": 49,
+        "rowsha": "dI76roluxCCcwicJqLzWFtV8gJJCQmLZwMzXXq5Ggzw=",
+        "originContent": "- [ ] Reduces costs",
+        "translatedContent": "- [ ] 비용 절감"
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "5oB/PITAoLviAlcUViIXoXaQcs4eZ9s5zQb6IemvJ+4=",
+        "originContent": "## 📷 Media",
+        "translatedContent": "## 📷 미디어"
+      },
+      {
+        "row": 54,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 55,
+        "rowsha": "7MrsG0AgxqQuoWFozNZJgn6MA6FuOLie5j/TKSsGelI=",
+        "originContent": "Coming soon — demo images, build progress, and gameplay tests.",
+        "translatedContent": "곧 공개 예정 — 데모 이미지, 제작 진행 상황, 게임플레이 테스트."
+      },
+      {
+        "row": 56,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 57,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 59,
+        "rowsha": "o2zT02IcLeWWjarCzigrT+IK9qePhicSuumBDI0njb0=",
+        "originContent": "## 🛠️ Build Instructions",
+        "translatedContent": "## 🛠️ 제작 지침"
+      },
+      {
+        "row": 60,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 61,
+        "rowsha": "kVCeJgBGFePeqEuMvIzFlxnGVj+MW+mHYdiMd1NrUCU=",
+        "originContent": "_(Coming soon)_",
+        "translatedContent": "_(곧 공개 예정)_"
+      },
+      {
+        "row": 62,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 63,
+        "rowsha": "1jaDq/5hiu0Mn04yOIlKrJ6x9gd2tBwl5oEWHJDQhQc=",
+        "originContent": "- Schematic and board files (.zip or link)",
+        "translatedContent": "- 회로도 및 보드 파일 (.zip 또는 링크)"
+      },
+      {
+        "row": 64,
+        "rowsha": "CGYrh09nsNrSMUQuMC08Ol4tyv0/8n2QmO2/rtjcx1M=",
+        "originContent": "- Firmware flashing instructions",
+        "translatedContent": "- 펌웨어 플래싱 지침"
+      },
+      {
+        "row": 65,
+        "rowsha": "3myH7hoZkQxosRNb9zUHpcgDrh5UOA5SSE2dMAphMBA=",
+        "originContent": "- Dependency list and setup",
+        "translatedContent": "- 의존성 목록 및 설정"
+      },
+      {
+        "row": 66,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 67,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 68,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 69,
+        "rowsha": "at6hrw28jajyC/COQshM9hi9BRHLqV9/VqOkVxuU1vQ=",
+        "originContent": "## 🤝 Contributing",
+        "translatedContent": "## 🤝 기여"
+      },
+      {
+        "row": 70,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 71,
+        "rowsha": "S2wAez8Fk4z9LFRRr1O+c8swzVVlWbLplovXLrliGOU=",
+        "originContent": "Contributions are welcome! Feel free to fork the repo, open issues, or submit pull requests.",
+        "translatedContent": "기여는 환영합니다! 리포지토리를 포크하거나 이슈를 열거나 풀 리퀘스트를 제출하세요."
+      },
+      {
+        "row": 72,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 73,
+        "rowsha": "TtOdT6/bRY+M3U82cV/3fPpO5aWZT6hbnAXTums3AiY=",
+        "originContent": "If you're not sure where to start, check out the [Checklist](#-v01-development-checklist) for open tasks.",
+        "translatedContent": "어디서 시작할지 모르겠다면, [체크리스트](#-v01-development-checklist)를 확인해 오픈 작업을 찾아보세요."
+      },
+      {
+        "row": 74,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 75,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 76,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 77,
+        "rowsha": "qdzKI50RqHyAaNHbQuVekCMXyk/TfGfppMlRPvlONC4=",
+        "originContent": "## 📄 License",
+        "translatedContent": "## 📄 라이선스"
+      },
+      {
+        "row": 78,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 79,
+        "rowsha": "CHmaE27prD4ObbxWRMB0KwPcNdGaNbd0PSDBWViPOyw=",
+        "originContent": "MIT License — see `LICENSE` file for details.",
+        "translatedContent": "MIT 라이선스 — 자세한 내용은 `LICENSE` 파일 참조."
+      },
+      {
+        "row": 80,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 81,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 82,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 83,
+        "rowsha": "JfSINB3CoSFRYhrTWdDb6oatFVVKIU7Cbpaf8BIG0O4=",
+        "originContent": "## 💬 Contact",
+        "translatedContent": "## 💬 연락처"
+      },
+      {
+        "row": 84,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 85,
+        "rowsha": "c42wGtrd/4FvBlQ9BacJrW13YslcOIU6tq07HTDvp7c=",
+        "originContent": "For questions or suggestions, reach out via GitHub Issues or [YouTube](https://www.youtube.com/@TommyBee456).",
+        "translatedContent": "질문이나 제안은 GitHub 이슈 또는 [YouTube](https://www.youtube.com/@TommyBee456)를 통해 연락 주세요."
+      },
+      {
+        "row": 86,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

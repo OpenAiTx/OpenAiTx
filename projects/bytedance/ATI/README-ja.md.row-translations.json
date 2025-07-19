@@ -1,0 +1,1298 @@
+[
+  {
+    "row": 1,
+    "rowsha": "M17HO2Er8MFfg5QkcUS9pc175aaKmbCBD5IFoC7YLxA=",
+    "originContent": "# ATI: Any Trajectory Instruction for Controllable Video Generation",
+    "translatedContent": "<translate-content># ATI: 制御可能な映像生成のための任意軌道指示"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+    "originContent": "<div align=\"center\">",
+    "translatedContent": "<div align=\"center\">"
+  },
+  {
+    "row": 4,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 5,
+    "rowsha": "6SBN60dzB8vHAnb8AzKEUpUC/+bpuACh+1IslT5snL0=",
+    "originContent": "[![arXiv](https://img.shields.io/badge/arXiv%20paper-2505.22944-b31b1b.svg)](https://arxiv.org/pdf/2505.22944)&nbsp;",
+    "translatedContent": "[![arXiv](https://img.shields.io/badge/arXiv%20paper-2505.22944-b31b1b.svg)](https://arxiv.org/pdf/2505.22944)&nbsp;"
+  },
+  {
+    "row": 6,
+    "rowsha": "XBY1R9V25w43m08ZU4vuDVJ5fY/spdYNFrj3Dz/Fxps=",
+    "originContent": "[![project page](https://img.shields.io/badge/Project_page-ATI-green)](https://anytraj.github.io/)&nbsp;",
+    "translatedContent": "[![project page](https://img.shields.io/badge/Project_page-ATI-green)](https://anytraj.github.io/)&nbsp;"
+  },
+  {
+    "row": 7,
+    "rowsha": "gMi2ncY678EeyGPRgSFLjtwU/A84MY7h60Ir6zZR7n8=",
+    "originContent": "<a href=\"https://huggingface.co/bytedance-research/ATI/\"><img src=\"https://img.shields.io/static/v1?label=%F0%9F%A4%97%20Hugging%20Face&message=Model&color=orange\"></a>",
+    "translatedContent": "<a href=\"https://huggingface.co/bytedance-research/ATI/\"><img src=\"https://img.shields.io/static/v1?label=%F0%9F%A4%97%20Hugging%20Face&message=Model&color=orange\"></a>"
+  },
+  {
+    "row": 8,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "Jbrh4iAsxD6XlP1tUQqJo1SmIvOgmQg3jtbFmy0Jb1U=",
+    "originContent": "> [**ATI: Any Trajectory Instruction for Controllable Video Generation**](https://anytraj.github.io/)<br>",
+    "translatedContent": "> [**ATI: 制御可能な映像生成のための任意軌道指示**](https://anytraj.github.io/)<br>"
+  },
+  {
+    "row": 12,
+    "rowsha": "sEVWgXNtpcv7bfzXBPCKX8UL+uODpbDQOCBLvvovCjs=",
+    "originContent": "> [Angtian Wang](https://angtianwang.github.io/), [Haibin Huang](https://brotherhuang.github.io/), Jacob Zhiyuan Fang, [Yiding Yang](https://ihollywhy.github.io/), [Chongyang Ma](http://www.chongyangma.com/)",
+    "translatedContent": "> [Angtian Wang](https://angtianwang.github.io/), [Haibin Huang](https://brotherhuang.github.io/), Jacob Zhiyuan Fang, [Yiding Yang](https://ihollywhy.github.io/), [Chongyang Ma](http://www.chongyangma.com/)"
+  },
+  {
+    "row": 13,
+    "rowsha": "W8P8GMiXLdQ0XCw+e4DDUCcsgvTozeuroxZ4Vbz5i/s=",
+    "originContent": "> <br>Intelligent Creation Team, ByteDance<br>",
+    "translatedContent": "> <br>インテリジェントクリエイションチーム、ByteDance<br>"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "NrKhXJKl9DkDZya0uegZiOhp/SLLoQLyBHOTRXkGdCI=",
+    "originContent": "[![Watch the video](https://raw.githubusercontent.com/bytedance/ATI/main/assets/thumbnail.jpg)](https://youtu.be/76jjPT0f8Hs)",
+    "translatedContent": "[![動画を見る](https://raw.githubusercontent.com/bytedance/ATI/main/assets/thumbnail.jpg)](https://youtu.be/76jjPT0f8Hs)"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "GKlpG8SaLpcjUBtBJ8iaOMvYPj0xN6tpVq3iii8TYto=",
+    "originContent": "This is the repo for Wan2.1 ATI (Any Trajectory Instruction for Controllable Video Generation), a trajectory-based motion control framework that unifies object, local and camera movements in video generation. This repo is based on [Wan2.1 offical implementation](https://github.com/Wan-Video/Wan2.1).",
+    "translatedContent": "これはWan2.1 ATI（制御可能な映像生成のための任意軌道指示）のリポジトリです。物体、局所、カメラの動きを映像生成で統合する軌道ベースの動作制御フレームワークです。このリポジトリは[Wan2.1公式実装](https://github.com/Wan-Video/Wan2.1)に基づいています。"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "EV1NjLZolxYZMkJvq+6DCTyyn+QxDiZLva7lzFDKTpY=",
+    "originContent": "Compared with the original Wan2.1. We add the following files:",
+    "translatedContent": "元のWan2.1と比較して、以下のファイルを追加しました:"
+  },
+  {
+    "row": 20,
+    "rowsha": "vvQCMWKYtXxVyLSSAGtSLRvvOFkcNP4AYxPmKASCRJQ=",
+    "originContent": "- wan/modules/motion_patch.py          | Trajectory instruction kernal module",
+    "translatedContent": "- wan/modules/motion_patch.py          | 軌道指示カーネルモジュール"
+  },
+  {
+    "row": 21,
+    "rowsha": "lJ6810e6FOy2pUBoLw4b734S7TyR55/Zv2tJP6a4GBA=",
+    "originContent": "- wan/utils/motion.py                  | Inference dataloader utils",
+    "translatedContent": "- wan/utils/motion.py                  | 推論データローダーユーティリティ"
+  },
+  {
+    "row": 22,
+    "rowsha": "HXgfo9HSit69wjhWi0SaAW5mG5TsXtwjQ2VGCFEUamU=",
+    "originContent": "- tools/plot_user_inputs.py            | Visualizer for user input trajectory",
+    "translatedContent": "- tools/plot_user_inputs.py            | ユーザー入力軌道の可視化ツール"
+  },
+  {
+    "row": 23,
+    "rowsha": "i7TntKAz887kIxol8RVOhGiu7kmvYS4Q/BwMi9jYkS4=",
+    "originContent": "- tools/visualize_trajectory.py        | Visualizer for generated video",
+    "translatedContent": "- tools/visualize_trajectory.py        | 生成映像の可視化ツール"
+  },
+  {
+    "row": 24,
+    "rowsha": "TWawZcSD3Db1vt++1VMFiIgnbZoXzMh5MW1+xeF62gs=",
+    "originContent": "- tools/trajectory_editor/             | Interactive trajectory editor",
+    "translatedContent": "- tools/trajectory_editor/             | インタラクティブ軌道エディター"
+  },
+  {
+    "row": 25,
+    "rowsha": "+/Rm/ZGs18k88DwwbLjxQrRj61Pj5tjz6gZlIrSqu0I=",
+    "originContent": "- examples/                            | Test examples",
+    "translatedContent": "- examples/                            | テスト例"
+  },
+  {
+    "row": 26,
+    "rowsha": "VMs6+bKcYIevKhzNlqkOBfD1GwhGHLumT++xZjYmv7I=",
+    "originContent": "- run_example.sh                       | Easy launch script",
+    "translatedContent": "- run_example.sh                       | 簡単起動スクリプト"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "BhZ3kMFYqnppqLpHYsQWdbxQEVyAzZGB7qEOQc5iJMs=",
+    "originContent": "We modified the following files:",
+    "translatedContent": "以下のファイルを修正しました:"
+  },
+  {
+    "row": 29,
+    "rowsha": "ZXdPMO4/daq9ceiyV2HbKoFfUX8YWbgsxL5ufwAV35g=",
+    "originContent": "- wan/image2video.py                   | Add blocks to load and parse trajectory  #L256",
+    "translatedContent": "- wan/image2video.py                   | 軌道の読み込みと解析ブロック追加  #L256"
+  },
+  {
+    "row": 30,
+    "rowsha": "E5agr1Sl10Sv7ycm2axgkmRje/QFHqBjyy5Wd3+hVUU=",
+    "originContent": "- wan/configs/__init__.py              | Config the ATI etc.",
+    "translatedContent": "- wan/configs/__init__.py              | ATIなどの設定"
+  },
+  {
+    "row": 31,
+    "rowsha": "aF/W2tPm7L7AakzO8lCj+/7YJQsVVyYaJjWGx4CyeQE=",
+    "originContent": "- generate.py                          | Add an entry to load yaml format inference examples",
+    "translatedContent": "- generate.py                          | yaml形式推論例の読み込みエントリ追加"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "WFxdru/rTqzM3H4V5Q1DVaYRoOErmwTo3R5xZzG/dOA=",
+    "originContent": "## Community Works",
+    "translatedContent": "## コミュニティ作品"
+  },
+  {
+    "row": 34,
+    "rowsha": "Uh5fvr1ITkoI5d6gPpmIMB+koTwxSTCjmRH3bTUdwpU=",
+    "originContent": "### ComfyUI",
+    "translatedContent": "### ComfyUI"
+  },
+  {
+    "row": 35,
+    "rowsha": "bAMc7ChKMlXXzb92uh2DM7FMcx3/XBWQvXO0z7GhRIs=",
+    "originContent": "Thanks for Kijai develop the ComfyUI nodes for ATI:",
+    "translatedContent": "KijaiによるATI用ComfyUIノードの開発に感謝します:"
+  },
+  {
+    "row": 36,
+    "rowsha": "0RsRkvbvewTNi2DP+W1TNyIptJ47oJcwna/L3Bi9Eeo=",
+    "originContent": "[https://github.com/kijai/ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper)",
+    "translatedContent": "[https://github.com/kijai/ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper)"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "Z1uRIQk8y3FH1iM6zd+FI2sxVYi86Py6GgB27D5ZP7A=",
+    "originContent": "FP8 quant Huggingface Model: [https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-I2V-ATI-14B_fp8_e4m3fn.safetensors](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-I2V-ATI-14B_fp8_e4m3fn.safetensors)",
+    "translatedContent": "FP8量子化Huggingfaceモデル: [https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-I2V-ATI-14B_fp8_e4m3fn.safetensors](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-I2V-ATI-14B_fp8_e4m3fn.safetensors)"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "gavIPPw7Yck29FZBlvSUVRYxn8wUgcMZQb/UY4B01Ds=",
+    "originContent": "### Guideline",
+    "translatedContent": "### ガイドライン"
+  },
+  {
+    "row": 41,
+    "rowsha": "kmfDnZN/u/dEHvLssGKtqLCamJXZzv6QoXkPMod9pjQ=",
+    "originContent": "Guideline by Benji: [https://www.youtube.com/watch?v=UM35z2L1XbI](https://www.youtube.com/watch?v=UM35z2L1XbI)",
+    "translatedContent": "Benjiによるガイドライン: [https://www.youtube.com/watch?v=UM35z2L1XbI](https://www.youtube.com/watch?v=UM35z2L1XbI)"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+    "originContent": "## Install",
+    "translatedContent": "## インストール"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "A0cSSaz5t+m+7mpUqEAXK/bOihGDBtjSQ67b4blRINs=",
+    "originContent": "ATI requires a same environment as offical Wan 2.1. Follow the instruction of INSTALL.md (Wan2.1).",
+    "translatedContent": "ATIは公式Wan 2.1と同じ環境を必要とします。INSTALL.md（Wan2.1）の指示に従ってください。"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "</translate-content>"
+  },
+  {
+    "row": 47,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 48,
+    "rowsha": "3TsWLmTL5v6mjfZvv5/2Whh0tzd0alDEfF2BN08O2xk=",
+    "originContent": "git clone https://github.com/bytedance/ATI.git",
+    "translatedContent": "git clone https://github.com/bytedance/ATI.git"
+  },
+  {
+    "row": 49,
+    "rowsha": "yQFio1oZIOTbIRmW+oOk0nWMDKpdr0OqMcrrDpZmVOw=",
+    "originContent": "cd ATI",
+    "translatedContent": "cd ATI"
+  },
+  {
+    "row": 50,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "パッケージをインストールする"
+  },
+  {
+    "row": 52,
+    "rowsha": "wQ0/CVBRmCUQA06VLaeKoLEr5AaHt+nk/BNgTbX+2Hw=",
+    "originContent": "Install packages",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 55,
+    "rowsha": "k3I9coeZqczLnzk5xV6iCASIR/kOdsIaN1sm5FVLfdg=",
+    "originContent": "pip install .",
+    "translatedContent": "pip install ."
+  },
+  {
+    "row": 56,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "まず、Wan2.1の14Bオリジナルモデルをダウンロードする必要があります。"
+  },
+  {
+    "row": 58,
+    "rowsha": "cyHYH5c88CBbRCc6qLN74hiYzJaszaIVvRgF1YxQKaA=",
+    "originContent": "First you need to download the 14B original model of Wan2.1.",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 61,
+    "rowsha": "pZKtVBjXNVv5Ms22yrgIQ8vpRckDdXAvu5NN1wEQZnI=",
+    "originContent": "huggingface-cli download Wan-AI/Wan2.1-I2V-14B-480P --local-dir ./Wan2.1-I2V-14B-480P",
+    "translatedContent": "huggingface-cli download Wan-AI/Wan2.1-I2V-14B-480P --local-dir ./Wan2.1-I2V-14B-480P"
+  },
+  {
+    "row": 62,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "次に、当社のhuggingfaceリポジトリからATI-Wanモデルをダウンロードしてください。"
+  },
+  {
+    "row": 64,
+    "rowsha": "iKAlVAlomgJ5Nn5t0oM3nOrrqLwibsiEE8wvIt3g2PM=",
+    "originContent": "Then download ATI-Wan model from our huggingface repo.",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 67,
+    "rowsha": "/zJl4NtxAE0U/e4z8A/zbny6Iv+hlY4e9gs9g3+OGZk=",
+    "originContent": "huggingface-cli download bytedance-research/ATI --local-dir ./Wan2.1-ATI-14B-480P",
+    "translatedContent": "huggingface-cli download bytedance-research/ATI --local-dir ./Wan2.1-ATI-14B-480P"
+  },
+  {
+    "row": 68,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "最終的に、VAE、T5、およびその他のチェックポイントを元のWan2.1フォルダからATIチェックポイントの場所にコピーします。"
+  },
+  {
+    "row": 70,
+    "rowsha": "LXV0aeDRMAXOxQiCS8XUzVyIV5TbnprMYYYk+4ANfxQ=",
+    "originContent": "Finally, copy VAE, T5 and other misc checkpoint from origin Wan2.1 folder to ATI checkpoint location",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 73,
+    "rowsha": "QLEITzlY0pqz5ZCarvkp5f1VbwST3NabP1WJHejum2s=",
+    "originContent": "cp ./Wan2.1-I2V-14B-480P/Wan2.1_VAE.pth ./Wan2.1-ATI-14B-480P/",
+    "translatedContent": "cp ./Wan2.1-I2V-14B-480P/Wan2.1_VAE.pth ./Wan2.1-ATI-14B-480P/"
+  },
+  {
+    "row": 74,
+    "rowsha": "7tqaAbkLUZFhMrvdLaBpvkMQejY42Y2c8Imw4rQlVYk=",
+    "originContent": "cp ./Wan2.1-I2V-14B-480P/models_t5_umt5-xxl-enc-bf16.pth ./Wan2.1-ATI-14B-480P/",
+    "translatedContent": "cp ./Wan2.1-I2V-14B-480P/models_t5_umt5-xxl-enc-bf16.pth ./Wan2.1-ATI-14B-480P/"
+  },
+  {
+    "row": 75,
+    "rowsha": "ys2lIGocsPsFza5jmQFPvYhN677MeQA6RLtDbrk+XgU=",
+    "originContent": "cp ./Wan2.1-I2V-14B-480P/models_clip_open-clip-xlm-roberta-large-vit-huge-14.pth ./Wan2.1-ATI-14B-480P/",
+    "translatedContent": "cp ./Wan2.1-I2V-14B-480P/models_clip_open-clip-xlm-roberta-large-vit-huge-14.pth ./Wan2.1-ATI-14B-480P/"
+  },
+  {
+    "row": 76,
+    "rowsha": "a0hrFXpLog1oWdHkw41l8KCzrySCkU9Altu5/BWsoKQ=",
+    "originContent": "cp -r ./Wan2.1-I2V-14B-480P/xlm-roberta-large ./Wan2.1-ATI-14B-480P/",
+    "translatedContent": "cp -r ./Wan2.1-I2V-14B-480P/xlm-roberta-large ./Wan2.1-ATI-14B-480P/"
+  },
+  {
+    "row": 77,
+    "rowsha": "pXWC0byfFxbjGbABAkkOsagNz0perbLI8DmfCqyr9NU=",
+    "originContent": "cp -r ./Wan2.1-I2V-14B-480P/google ./Wan2.1-ATI-14B-480P/",
+    "translatedContent": "cp -r ./Wan2.1-I2V-14B-480P/google ./Wan2.1-ATI-14B-480P/"
+  },
+  {
+    "row": 78,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "TgJI5MZHT8as/jiwTI5LLYJkXiGH7XZkFkY9TJ3Vaso=",
+    "originContent": "## Run",
+    "translatedContent": "## Run"
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "vEJOIrSsQ/Xwxdeic2pzvsP8LFwOYu30RJkXaSlCY6o=",
+    "originContent": "We provide a demo sript to run ATI.",
+    "translatedContent": "We provide a demo sript to run ATI."
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 85,
+    "rowsha": "TD9jYpu/6RzDtZIbXTzK+Uy0lDOiom4fGRHdf38vAIw=",
+    "originContent": "bash run_example.sh -p examples/test.yaml -c ./Wan2.1-ATI-14B-480P -o samples",
+    "translatedContent": "bash run_example.sh -p examples/test.yaml -c ./Wan2.1-ATI-14B-480P -o samples"
+  },
+  {
+    "row": 86,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 87,
+    "rowsha": "V2LYUgx5JZ8NUaZfqPZc+Mkgp5AKWSEM4PvEhI2wdP0=",
+    "originContent": "where `-p` is the path to the config file, `-c` is the path to the checkpoint, `-o` is the path to the output directory, `-g` defines the number of gpus to use (if unspecificed, all avalible GPUs will be used; if `1` is given, will run on single process mode).",
+    "translatedContent": "where `-p` は設定ファイルへのパス、`-c` はチェックポイントへのパス、`-o` は出力ディレクトリへのパス、`-g` は使用するGPUの数を定義します（指定しない場合、使用可能なすべてのGPUが使用されます。`1`を指定すると、シングルプロセスモードで実行されます）。"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "INqnOel269rmn+820bdYgG7AYF1k1Sxl1XdqRxUxepY=",
+    "originContent": "Once finished, you will expect to fine:",
+    "translatedContent": "完了すると、以下のものが生成されます："
+  },
+  {
+    "row": 90,
+    "rowsha": "SgeiCfMZQi4KqDQxIsZyLJmQHC/B1XlLtMVP+aVvdnw=",
+    "originContent": "- `samples/outputs` for the raw output videos.",
+    "translatedContent": "- 生の出力動画は `samples/outputs` にあります。"
+  },
+  {
+    "row": 91,
+    "rowsha": "BdY1VABLmBH+cZyW0wKVw9tEq+SRHl88Vq5MCQvNoAc=",
+    "originContent": "- `samples/images_tracks` shows the input image togather with the user specified trajectories.",
+    "translatedContent": "- 入力画像とユーザー指定の軌跡を示すものは `samples/images_tracks` にあります。"
+  },
+  {
+    "row": 92,
+    "rowsha": "wjeEaA34+Nm1JMprqSTBTP5XNMmVzlBgtoDP2PTTZ8A=",
+    "originContent": "- `samples/outputs_vis` shows the output videos togather with the user specified trajectories.",
+    "translatedContent": "- 出力動画とユーザー指定の軌跡を示すものは `samples/outputs_vis` にあります。"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "ltOPUosbSczlzFTtvd0DmVdZeLr7DuzgDgAXcXZnGT0=",
+    "originContent": "Expected results:",
+    "translatedContent": "期待される結果："
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "7d6kdRmxZmpO8Wk1UmHYN4lzq6RWMFX867lLYPgcVMU=",
+    "originContent": "<table style=\"width: 100%; border-collapse: collapse; text-align: center; border: 1px solid #ccc;\">",
+    "translatedContent": "<table style=\"width: 100%; border-collapse: collapse; text-align: center; border: 1px solid #ccc;\">"
+  },
+  {
+    "row": 98,
+    "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+    "originContent": "  <tr>",
+    "translatedContent": "  <tr>"
+  },
+  {
+    "row": 99,
+    "rowsha": "i6bsDd3qH0cRR4wA0tCU7Yme/uijfEt8DEFttdsJJVc=",
+    "originContent": "    <th style=\"text-align: center;\">",
+    "translatedContent": "    <th style=\"text-align: center;\">"
+  },
+  {
+    "row": 100,
+    "rowsha": "KTfhw01YCOJ0uLgm5QooXvBSdlAsUWbFnPnHZV5QHYQ=",
+    "originContent": "      <strong>Input Image & Trajectory</strong>",
+    "translatedContent": "      <strong>入力画像と軌跡</strong>"
+  },
+  {
+    "row": 101,
+    "rowsha": "dZ6/t0RGJg5Qjn/doubUhqiV9HjczSIFu2IeIPIRHf0=",
+    "originContent": "    </th>",
+    "translatedContent": "    </th>"
+  },
+  {
+    "row": 102,
+    "rowsha": "i6bsDd3qH0cRR4wA0tCU7Yme/uijfEt8DEFttdsJJVc=",
+    "originContent": "    <th style=\"text-align: center;\">",
+    "translatedContent": "    <th style=\"text-align: center;\">"
+  },
+  {
+    "row": 103,
+    "rowsha": "LNLdyaLIHdL08ivnumTuUpnba6jqxqCqHKrFi9bOvPA=",
+    "originContent": "      <strong>Generated Videos (Superimposed Trajectories)</strong>",
+    "translatedContent": "      <strong>生成された動画（軌跡重ね合わせ）</strong>"
+  },
+  {
+    "row": 104,
+    "rowsha": "dZ6/t0RGJg5Qjn/doubUhqiV9HjczSIFu2IeIPIRHf0=",
+    "originContent": "    </th>",
+    "translatedContent": "    </th>"
+  },
+  {
+    "row": 105,
+    "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+    "originContent": "  </tr>",
+    "translatedContent": "  </tr>"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+    "originContent": "  <tr>",
+    "translatedContent": "  <tr>"
+  },
+  {
+    "row": 108,
+    "rowsha": "F28iZLIcC/nVQy0u3Jshkkp+5mIy+CLXPdAyuNrr3hQ=",
+    "originContent": "    <td style=\"text-align: center; vertical-align: middle;\">",
+    "translatedContent": "    <td style=\"text-align: center; vertical-align: middle;\">"
+  },
+  {
+    "row": 109,
+    "rowsha": "I/2DTCaJQX316doIh5KV15SLsijPzBq2p4IaPB2Fb+g=",
+    "originContent": "      <img src=\"https://raw.githubusercontent.com/bytedance/ATI/main/assets/examples/00.jpg\" alt=\"Image 0\" style=\"height: 240px;\">",
+    "translatedContent": "      <img src=\"https://raw.githubusercontent.com/bytedance/ATI/main/assets/examples/00.jpg\" alt=\"Image 0\" style=\"height: 240px;\">"
+  },
+  {
+    "row": 110,
+    "rowsha": "oVAjIYeEC3KIPvxPwWdjaW5GfRZXirrgYK/Z2W12ONM=",
+    "originContent": "    </td>",
+    "translatedContent": "    </td>"
+  },
+  {
+    "row": 111,
+    "rowsha": "F28iZLIcC/nVQy0u3Jshkkp+5mIy+CLXPdAyuNrr3hQ=",
+    "originContent": "    <td style=\"text-align: center; vertical-align: middle;\">",
+    "translatedContent": "    <td style=\"text-align: center; vertical-align: middle;\">"
+  },
+  {
+    "row": 112,
+    "rowsha": "6sgmczoqSio2XUVxL3UeLk+6BnYEuOVehwWvMDAvpX8=",
+    "originContent": "      <img src=\"https://raw.githubusercontent.com/bytedance/ATI/main/assets/examples/00.gif\" alt=\"Image 0\" style=\"height: 240px;\">",
+    "translatedContent": "      <img src=\"https://raw.githubusercontent.com/bytedance/ATI/main/assets/examples/00.gif\" alt=\"Image 0\" style=\"height: 240px;\">"
+  },
+  {
+    "row": 113,
+    "rowsha": "oVAjIYeEC3KIPvxPwWdjaW5GfRZXirrgYK/Z2W12ONM=",
+    "originContent": "    </td>",
+    "translatedContent": "    </td>"
+  },
+  {
+    "row": 114,
+    "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+    "originContent": "  </tr>",
+    "translatedContent": "  </tr>"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+    "originContent": "  <tr>",
+    "translatedContent": "  <tr>"
+  },
+  {
+    "row": 117,
+    "rowsha": "F28iZLIcC/nVQy0u3Jshkkp+5mIy+CLXPdAyuNrr3hQ=",
+    "originContent": "    <td style=\"text-align: center; vertical-align: middle;\">",
+    "translatedContent": "    <td style=\"text-align: center; vertical-align: middle;\">"
+  },
+  {
+    "row": 118,
+    "rowsha": "G2jkH8l+pXW/nJpPO+sWgp8m/25FR5p+hIYPVjqX55A=",
+    "originContent": "      <img src=\"https://raw.githubusercontent.com/bytedance/ATI/main/assets/examples/01.jpg\" alt=\"Image 1\" style=\"height: 240px;\">",
+    "translatedContent": "      <img src=\"https://raw.githubusercontent.com/bytedance/ATI/main/assets/examples/01.jpg\" alt=\"Image 1\" style=\"height: 240px;\">"
+  },
+  {
+    "row": 119,
+    "rowsha": "oVAjIYeEC3KIPvxPwWdjaW5GfRZXirrgYK/Z2W12ONM=",
+    "originContent": "    </td>",
+    "translatedContent": "    </td>"
+  },
+  {
+    "row": 120,
+    "rowsha": "F28iZLIcC/nVQy0u3Jshkkp+5mIy+CLXPdAyuNrr3hQ=",
+    "originContent": "    <td style=\"text-align: center; vertical-align: middle;\">",
+    "translatedContent": "    <td style=\"text-align: center; vertical-align: middle;\">"
+  },
+  {
+    "row": 121,
+    "rowsha": "vaiAlfwRORaOZ+vNPKS53AnwKF0gdZ/vUTVn8vTxsIc=",
+    "originContent": "      <img src=\"https://raw.githubusercontent.com/bytedance/ATI/main/assets/examples/01.gif\" alt=\"Image 1\" style=\"height: 240px;\">",
+    "translatedContent": "      <img src=\"https://raw.githubusercontent.com/bytedance/ATI/main/assets/examples/01.gif\" alt=\"Image 1\" style=\"height: 240px;\">"
+  },
+  {
+    "row": 122,
+    "rowsha": "oVAjIYeEC3KIPvxPwWdjaW5GfRZXirrgYK/Z2W12ONM=",
+    "originContent": "    </td>",
+    "translatedContent": "    </td>"
+  },
+  {
+    "row": 123,
+    "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+    "originContent": "  </tr>",
+    "translatedContent": "  </tr>"
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+    "originContent": "  <tr>",
+    "translatedContent": "  <tr>"
+  },
+  {
+    "row": 126,
+    "rowsha": "F28iZLIcC/nVQy0u3Jshkkp+5mIy+CLXPdAyuNrr3hQ=",
+    "originContent": "    <td style=\"text-align: center; vertical-align: middle;\">",
+    "translatedContent": "    <td style=\"text-align: center; vertical-align: middle;\">"
+  },
+  {
+    "row": 127,
+    "rowsha": "UUba9IWvv7St8dM7WDlFT6X5BlqZuKUNd3ILp3/oNKs=",
+    "originContent": "      <img src=\"https://raw.githubusercontent.com/bytedance/ATI/main/assets/examples/02.jpg\" alt=\"Image 2\" style=\"height: 160px;\">",
+    "translatedContent": "      <img src=\"https://raw.githubusercontent.com/bytedance/ATI/main/assets/examples/02.jpg\" alt=\"Image 2\" style=\"height: 160px;\">"
+  },
+  {
+    "row": 128,
+    "rowsha": "oVAjIYeEC3KIPvxPwWdjaW5GfRZXirrgYK/Z2W12ONM=",
+    "originContent": "    </td>",
+    "translatedContent": "    </td>"
+  },
+  {
+    "row": 129,
+    "rowsha": "F28iZLIcC/nVQy0u3Jshkkp+5mIy+CLXPdAyuNrr3hQ=",
+    "originContent": "    <td style=\"text-align: center; vertical-align: middle;\">",
+    "translatedContent": "    <td style=\"text-align: center; vertical-align: middle;\">"
+  },
+  {
+    "row": 130,
+    "rowsha": "rTSK4D9TuJNM9fAvyVhJ52haBDKb+eBmEYFyQPEcfBw=",
+    "originContent": "      <img src=\"https://raw.githubusercontent.com/bytedance/ATI/main/assets/examples/02.gif\" alt=\"Image 2\" style=\"height: 160px;\">",
+    "translatedContent": "      <img src=\"https://raw.githubusercontent.com/bytedance/ATI/main/assets/examples/02.gif\" alt=\"Image 2\" style=\"height: 160px;\">"
+  },
+  {
+    "row": 131,
+    "rowsha": "oVAjIYeEC3KIPvxPwWdjaW5GfRZXirrgYK/Z2W12ONM=",
+    "originContent": "    </td>",
+    "translatedContent": "    </td>"
+  },
+  {
+    "row": 132,
+    "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+    "originContent": "  </tr>",
+    "translatedContent": "  </tr>"
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+    "originContent": "  </tr>",
+    "translatedContent": "  </tr>"
+  },
+  {
+    "row": 135,
+    "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+    "originContent": "  <tr>",
+    "translatedContent": "  <tr>"
+  },
+  {
+    "row": 136,
+    "rowsha": "F28iZLIcC/nVQy0u3Jshkkp+5mIy+CLXPdAyuNrr3hQ=",
+    "originContent": "    <td style=\"text-align: center; vertical-align: middle;\">",
+    "translatedContent": "    <td style=\"text-align: center; vertical-align: middle;\">"
+  },
+  {
+    "row": 137,
+    "rowsha": "pXt9YK7GvaW3OZYVIIgBjgUevktpo/D05MBqTc8yr0E=",
+    "originContent": "      <img src=\"https://raw.githubusercontent.com/bytedance/ATI/main/assets/examples/03.jpg\" alt=\"Image 3\" style=\"height: 220px;\">",
+    "translatedContent": "      <img src=\"https://raw.githubusercontent.com/bytedance/ATI/main/assets/examples/03.jpg\" alt=\"Image 3\" style=\"height: 220px;\">"
+  },
+  {
+    "row": 138,
+    "rowsha": "oVAjIYeEC3KIPvxPwWdjaW5GfRZXirrgYK/Z2W12ONM=",
+    "originContent": "    </td>",
+    "translatedContent": "    </td>"
+  },
+  {
+    "row": 139,
+    "rowsha": "F28iZLIcC/nVQy0u3Jshkkp+5mIy+CLXPdAyuNrr3hQ=",
+    "originContent": "    <td style=\"text-align: center; vertical-align: middle;\">",
+    "translatedContent": "    <td style=\"text-align: center; vertical-align: middle;\">"
+  },
+  {
+    "row": 140,
+    "rowsha": "9py0jfqlQU6F6x0CeuVQlXQMayN6XnICk93RRjIBh40=",
+    "originContent": "      <img src=\"https://raw.githubusercontent.com/bytedance/ATI/main/assets/examples/03.gif\" alt=\"Image 3\" style=\"height: 220px;\">",
+    "translatedContent": "      <img src=\"https://raw.githubusercontent.com/bytedance/ATI/main/assets/examples/03.gif\" alt=\"Image 3\" style=\"height: 220px;\">"
+  },
+  {
+    "row": 141,
+    "rowsha": "oVAjIYeEC3KIPvxPwWdjaW5GfRZXirrgYK/Z2W12ONM=",
+    "originContent": "    </td>",
+    "translatedContent": "    </td>"
+  },
+  {
+    "row": 142,
+    "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+    "originContent": "  </tr>",
+    "translatedContent": "  </tr>"
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+    "originContent": "  <tr>",
+    "translatedContent": "  <tr>"
+  },
+  {
+    "row": 145,
+    "rowsha": "F28iZLIcC/nVQy0u3Jshkkp+5mIy+CLXPdAyuNrr3hQ=",
+    "originContent": "    <td style=\"text-align: center; vertical-align: middle;\">",
+    "translatedContent": "    <td style=\"text-align: center; vertical-align: middle;\">"
+  },
+  {
+    "row": 146,
+    "rowsha": "TeHBBHf9GmFtHtBzJrAYv1UPeoAqkF6aW06aCJ/PLlQ=",
+    "originContent": "      <img src=\"https://raw.githubusercontent.com/bytedance/ATI/main/assets/examples/04.jpg\" alt=\"Image 4\" style=\"height: 240px;\">",
+    "translatedContent": "      <img src=\"https://raw.githubusercontent.com/bytedance/ATI/main/assets/examples/04.jpg\" alt=\"Image 4\" style=\"height: 240px;\">"
+  },
+  {
+    "row": 147,
+    "rowsha": "oVAjIYeEC3KIPvxPwWdjaW5GfRZXirrgYK/Z2W12ONM=",
+    "originContent": "    </td>",
+    "translatedContent": "    </td>"
+  },
+  {
+    "row": 148,
+    "rowsha": "F28iZLIcC/nVQy0u3Jshkkp+5mIy+CLXPdAyuNrr3hQ=",
+    "originContent": "    <td style=\"text-align: center; vertical-align: middle;\">",
+    "translatedContent": "    <td style=\"text-align: center; vertical-align: middle;\">"
+  },
+  {
+    "row": 149,
+    "rowsha": "6XYNBzsan+ARxJgpvovbOMAmvo6gAruGrapvfFBgI9o=",
+    "originContent": "      <img src=\"https://raw.githubusercontent.com/bytedance/ATI/main/assets/examples/04.gif\" alt=\"Image 4\" style=\"height: 240px;\">",
+    "translatedContent": "      <img src=\"https://raw.githubusercontent.com/bytedance/ATI/main/assets/examples/04.gif\" alt=\"Image 4\" style=\"height: 240px;\">"
+  },
+  {
+    "row": 150,
+    "rowsha": "oVAjIYeEC3KIPvxPwWdjaW5GfRZXirrgYK/Z2W12ONM=",
+    "originContent": "    </td>",
+    "translatedContent": "    </td>"
+  },
+  {
+    "row": 151,
+    "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+    "originContent": "  </tr>",
+    "translatedContent": "  </tr>"
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+    "originContent": "  <tr>",
+    "translatedContent": "  <tr>"
+  },
+  {
+    "row": 154,
+    "rowsha": "F28iZLIcC/nVQy0u3Jshkkp+5mIy+CLXPdAyuNrr3hQ=",
+    "originContent": "    <td style=\"text-align: center; vertical-align: middle;\">",
+    "translatedContent": "    <td style=\"text-align: center; vertical-align: middle;\">"
+  },
+  {
+    "row": 155,
+    "rowsha": "4lutYoaAeSs/pTawfkujgvUkqQvkm7DQSXaEU1wd8F0=",
+    "originContent": "      <img src=\"https://raw.githubusercontent.com/bytedance/ATI/main/assets/examples/05.jpg\" alt=\"Image 5\" style=\"height: 160px;\">",
+    "translatedContent": "      <img src=\"https://raw.githubusercontent.com/bytedance/ATI/main/assets/examples/05.jpg\" alt=\"Image 5\" style=\"height: 160px;\">"
+  },
+  {
+    "row": 156,
+    "rowsha": "oVAjIYeEC3KIPvxPwWdjaW5GfRZXirrgYK/Z2W12ONM=",
+    "originContent": "    </td>",
+    "translatedContent": "    </td>"
+  },
+  {
+    "row": 157,
+    "rowsha": "F28iZLIcC/nVQy0u3Jshkkp+5mIy+CLXPdAyuNrr3hQ=",
+    "originContent": "    <td style=\"text-align: center; vertical-align: middle;\">",
+    "translatedContent": "    <td style=\"text-align: center; vertical-align: middle;\">"
+  },
+  {
+    "row": 158,
+    "rowsha": "esvobv/6bKs18Vo1qf4VpfuH53t9CRrI7j6Rrb8ns48=",
+    "originContent": "      <img src=\"https://raw.githubusercontent.com/bytedance/ATI/main/assets/examples/05.gif\" alt=\"Image 5\" style=\"height: 160px;\">",
+    "translatedContent": "      <img src=\"https://raw.githubusercontent.com/bytedance/ATI/main/assets/examples/05.gif\" alt=\"Image 5\" style=\"height: 160px;\">"
+  },
+  {
+    "row": 159,
+    "rowsha": "oVAjIYeEC3KIPvxPwWdjaW5GfRZXirrgYK/Z2W12ONM=",
+    "originContent": "    </td>",
+    "translatedContent": "    </td>"
+  },
+  {
+    "row": 160,
+    "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+    "originContent": "  </tr>",
+    "translatedContent": "  </tr>"
+  },
+  {
+    "row": 161,
+    "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
+    "originContent": "</table>",
+    "translatedContent": "</table>"
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 164,
+    "rowsha": "ZMap/Uh9fst2tvcETwQ1d+fn6Hs3HIfc8AbUu2Q2XHs=",
+    "originContent": "## Create You Own Trajectory",
+    "translatedContent": "## 独自の軌跡を作成する"
+  },
+  {
+    "row": 165,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 166,
+    "rowsha": "X7s8iKXePwL+OGJLIpezG9X2fOEvtn2y2IzB90sDlcM=",
+    "originContent": "We provide an interactive tool that allow users to draw and edit trajectories on their images. ",
+    "translatedContent": "ユーザーが画像上で軌跡を描画および編集できるインタラクティブなツールを提供しています。"
+  },
+  {
+    "row": 167,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 168,
+    "rowsha": "EZzBdJh74WBWq9VytRxTRFbjq+4p+J2t9LpThDbR9ps=",
+    "originContent": "1. First run:",
+    "translatedContent": "1. まず実行してください："
+  },
+  {
+    "row": 169,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 170,
+    "rowsha": "JQrmI66smOv16wibBju6nqlY8yFs57LmvPFOOhX59rc=",
+    "originContent": "cd tools/trajectory_editor",
+    "translatedContent": "cd tools/trajectory_editor"
+  },
+  {
+    "row": 171,
+    "rowsha": "Ezmjr/5byKbAP9b7LES2XtLVC9D0pVajUi3C2SQvv54=",
+    "originContent": "python3 app.py",
+    "translatedContent": "python3 app.py"
+  },
+  {
+    "row": 172,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 173,
+    "rowsha": "HUvM4nDC1NSX3ombDPP2yj1Ca3/Jyga3hGgD50LUXRY=",
+    "originContent": "then open this url [localhost:5000](http://localhost:5000/) in the browser. Note if you run the editor on the server, you need to replace `localhost` with the server's IP address.",
+    "translatedContent": "then open this url [localhost:5000](http://localhost:5000/) in the browser. Note if you run the editor on the server, you need to replace `localhost` with the server's IP address."
+  },
+  {
+    "row": 174,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 175,
+    "rowsha": "/u6CAQprOzCItZkkw4B79SKsoT1h/givxyz2OvRmPms=",
+    "originContent": "2. Get the interface shown below, then click **Choose File** to open a local image.  ",
+    "translatedContent": "2. Get the interface shown below, then click **Choose File** to open a local image.  "
+  },
+  {
+    "row": 176,
+    "rowsha": "5nhP26TN9jhHBtLp4S59OBdrZb1gnuIi+KJO/hX1Yos=",
+    "originContent": "![Interface Screenshot](https://raw.githubusercontent.com/bytedance/ATI/main/assets/editor0.PNG)",
+    "translatedContent": "![Interface Screenshot](https://raw.githubusercontent.com/bytedance/ATI/main/assets/editor0.PNG)"
+  },
+  {
+    "row": 177,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 178,
+    "rowsha": "AHhGZEXaJl01W7fbB2617cdEdoo9v/huD+YOkKgVIV0=",
+    "originContent": "3. Available trajectory functions:  ",
+    "translatedContent": "3. Available trajectory functions:  "
+  },
+  {
+    "row": 179,
+    "rowsha": "VgCs308JonBUsZOnqCqGEQXY8bt5xn2csYSMPhXAgCs=",
+    "originContent": "![Trajectory Functions](https://raw.githubusercontent.com/bytedance/ATI/main/assets/editor1.PNG)",
+    "translatedContent": "![Trajectory Functions](https://raw.githubusercontent.com/bytedance/ATI/main/assets/editor1.PNG)"
+  },
+  {
+    "row": 180,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 181,
+    "rowsha": "LxN0Os42nMYxrD4Q8AnCUPsUGQaFd4+fVlsBo1WYz2Q=",
+    "originContent": "   a. **Free Trajectory**: Click and then drag with the mouse directly on the image.  ",
+    "translatedContent": "   a. **Free Trajectory**: 画像上で直接マウスをクリックしてドラッグします。  "
+  },
+  {
+    "row": 182,
+    "rowsha": "sBMNFINySyvLv3oknIa+smrdNUGFwxI4tPJDduYbzgg=",
+    "originContent": "   b. **Circular (Camera Control)**:  ",
+    "translatedContent": "   b. **Circular (Camera Control)**:  "
+  },
+  {
+    "row": 183,
+    "rowsha": "8HI9gL3DezcDFoy1/Gd7Wb3DEJIoi/hTLeiRaeww/dc=",
+    "originContent": "      - Place a circle on the image, then drag to set its size for frame 0.  ",
+    "translatedContent": "      - 画像上に円を配置し、フレーム0のサイズをドラッグで設定します。  "
+  },
+  {
+    "row": 184,
+    "rowsha": "i0f6EpE9QM/Ii9rAzrkOZ9x6IzGYQNOIpI6EgK+sUMk=",
+    "originContent": "      - Place a few (3–4 recommended) track points on the circle.  ",
+    "translatedContent": "      - 円上にいくつか（3〜4推奨）のトラックポイントを配置します。  "
+  },
+  {
+    "row": 185,
+    "rowsha": "UM174FiWbf6JRwBf/psmpOmnkK59KueSi8SFuymQ7yM=",
+    "originContent": "      - Drag the radius control to achieve zoom-in/zoom-out effects.  ",
+    "translatedContent": "      - 半径コントロールをドラッグしてズームイン／ズームアウト効果を実現します。  "
+  },
+  {
+    "row": 186,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 187,
+    "rowsha": "dMVPRnPwGJPDSqxHxja/SLp1HDGTNtaN2Lx68bhpFbs=",
+    "originContent": "   c. **Static Point**: A point that remains stationary over time.  ",
+    "translatedContent": "   c. **Static Point**: 時間経過しても動かない固定点です。  "
+  },
+  {
+    "row": 188,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 189,
+    "rowsha": "GNfhLRuHVz2ieC/IKGRuanCw8ImTdjU2IRlpOv7/Ymg=",
+    "originContent": "   *Note:* Pay attention to the progress bar in the box to control motion speed.  ",
+    "translatedContent": "   *注意:* 動作速度を制御するためにボックス内の進捗バーに注目してください。  "
+  },
+  {
+    "row": 190,
+    "rowsha": "z5abAFtRC1Naeh+f4fD/r+rcDgAGZfQpWSoO8WGHNXU=",
+    "originContent": "   ![Progress Control](https://raw.githubusercontent.com/bytedance/ATI/main/assets/editor2.PNG)",
+    "translatedContent": "   ![Progress Control](https://raw.githubusercontent.com/bytedance/ATI/main/assets/editor2.PNG)"
+  },
+  {
+    "row": 191,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 192,
+    "rowsha": "7bPbr1DGHAA9lJA+INmRD7sMRtzLZASUKLnqnYrqRLk=",
+    "originContent": "4. **Trajectory Editing**: Select a trajectory here, then delete, edit, or copy it. In edit mode, drag the trajectory directly on the image. The selected trajectory is highlighted by color.  ",
+    "translatedContent": "4. **Trajectory Editing**: ここで軌跡を選択し、削除、編集、またはコピーします。編集モードでは、画像上で軌跡を直接ドラッグできます。選択された軌跡は色で強調表示されます。  "
+  },
+  {
+    "row": 193,
+    "rowsha": "LnTfYomndeZhcA5ZAOO25lNHoAYnhKfJLdPgbXwap/w=",
+    "originContent": "![Trajectory Editing](https://raw.githubusercontent.com/bytedance/ATI/main/assets/editor3.PNG)",
+    "translatedContent": "![Trajectory Editing](https://raw.githubusercontent.com/bytedance/ATI/main/assets/editor3.PNG)"
+  },
+  {
+    "row": 194,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 195,
+    "rowsha": "iDmeAdl+CoYNEMR+0dOoWst6uH3YQ42qgwvx0//lgSA=",
+    "originContent": "5. **Camera Pan Control**: Enter horizontal (X) or vertical (Y) speed (pixels per frame). Positive X moves right; negative X moves left. Positive Y moves down; negative Y moves up. Click **Add to Selected** to apply to the current trajectory, or **Add to All** to apply to all trajectories. The selected points will gain a constant pan motion on top of their existing movement.  ",
+    "translatedContent": "5. **Camera Pan Control**: 水平方向（X）または垂直方向（Y）の速度（ピクセル／フレーム）を入力します。正のXは右方向、負のXは左方向に移動します。正のYは下方向、負のYは上方向に移動します。**Add to Selected**をクリックして現在の軌跡に適用、または**Add to All**をクリックしてすべての軌跡に適用します。選択されたポイントは既存の動きに加えて一定のパン動作を得ます。  "
+  },
+  {
+    "row": 196,
+    "rowsha": "Eux9CWrndCmKliZZApPkk+CYKWUNn/aRCNHQ0f5JZ4g=",
+    "originContent": "![Camera Pan Control](https://raw.githubusercontent.com/bytedance/ATI/main/assets/editor4.PNG)",
+    "translatedContent": "![Camera Pan Control](https://raw.githubusercontent.com/bytedance/ATI/main/assets/editor4.PNG)"
+  },
+  {
+    "row": 197,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 198,
+    "rowsha": "+gp5VOOWOyGebFKVVAClh9a1Sz+tvV/PjVem0lKw4TQ=",
+    "originContent": "6. **Important:** After editing, click **Store Tracks** to save. Each image (not each trajectory) must be saved separately after drawing all trajectories.  ",
+    "translatedContent": "6. **重要:** 編集後は必ず**Store Tracks**をクリックして保存してください。すべての軌跡を描画した後、各画像（各軌跡ではありません）を個別に保存する必要があります。  "
+  },
+  {
+    "row": 199,
+    "rowsha": "2CKm5k1QEYMe8LYT3Jn3pZQOX54bprflu+277LPcfqI=",
+    "originContent": "![Store Tracks](https://raw.githubusercontent.com/bytedance/ATI/main/assets/editor5.PNG)",
+    "translatedContent": "![Store Tracks](https://raw.githubusercontent.com/bytedance/ATI/main/assets/editor5.PNG)"
+  },
+  {
+    "row": 200,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 201,
+    "rowsha": "kM+XDOcmVH8/tBJsMp9v3iQCNBSaCufb5oqkRAw9/Lo=",
+    "originContent": "7. Once all edits are complete, locate the `videos_example` folder in the **Trajectory Editor**.",
+    "translatedContent": "7. すべての編集が完了したら、**Trajectory Editor**内の`videos_example`フォルダを探してください。"
+  },
+  {
+    "row": 202,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 203,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 204,
+    "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+    "originContent": "## Citation",
+    "translatedContent": "## Citation"
+  },
+  {
+    "row": 205,
+    "rowsha": "/LirTFi0NbqyD1mpAtjBHAgXsOVTauPHdQf9VpW1dc0=",
+    "originContent": "Please cite our paper if you find our work useful:",
+    "translatedContent": "Please cite our paper if you find our work useful:"
+  },
+  {
+    "row": 206,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 207,
+    "rowsha": "fmzbwUCk4IdInHrFuUp4Vkwnz7DHIrFYBOdPcEKGlC8=",
+    "originContent": "@article{wang2025ati,",
+    "translatedContent": "@article{wang2025ati,"
+  },
+  {
+    "row": 208,
+    "rowsha": "UC/qXsMEILGX+AicyBrcbuNFdHIO80DH7+MnwF+wJyc=",
+    "originContent": "  title={{ATI}: Any Trajectory Instruction for Controllable Video Generation},",
+    "translatedContent": "  title={{ATI}: Any Trajectory Instruction for Controllable Video Generation},"
+  },
+  {
+    "row": 209,
+    "rowsha": "dHnDWJDyaMoDCHXCrT+WhTQgY5j1RhOsHiTnXO7Cq7o=",
+    "originContent": "  author={Wang, Angtian and Huang, Haibin and Fang, Zhiyuan and Yang, Yiding, and Ma, Chongyang}",
+    "translatedContent": "  author={Wang, Angtian and Huang, Haibin and Fang, Zhiyuan and Yang, Yiding, and Ma, Chongyang}"
+  },
+  {
+    "row": 210,
+    "rowsha": "dHsSOYDldIQzk4lq7s10FZwrWC/FuUNjb22IOnGvMeQ=",
+    "originContent": "  journal={arXiv preprint},",
+    "translatedContent": "  journal={arXiv preprint},"
+  },
+  {
+    "row": 211,
+    "rowsha": "wNY1OlmTv+qvkZsULSyUMw2DrM5J8AC3ntqsY8lcWH0=",
+    "originContent": "  volume={arXiv:2505.22944},",
+    "translatedContent": "  volume={arXiv:2505.22944},"
+  },
+  {
+    "row": 212,
+    "rowsha": "6oyqJVJ20XoZhlyGjaewQyTQsSBBtVAYmqUtTwjLbAg=",
+    "originContent": "  year={2025}",
+    "translatedContent": "  year={2025}"
+  },
+  {
+    "row": 213,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 214,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 215,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 216,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

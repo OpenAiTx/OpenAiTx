@@ -1,0 +1,518 @@
+[
+  {
+    "row": 1,
+    "rowsha": "fEXzstPbo2qLqRRRX50AbYafWjuLwmg82a1ATFYfXMw=",
+    "originContent": "# OpenSteamDeckController (v0.1)",
+    "translatedContent": "# OpenSteamDeckController (v0.1)"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "o7DcERMd+JQ+vPfp+2ZuywnDS3JruNeLDgVHH12JrhU=",
+    "originContent": "A custom modular wireless controller inspired by the Steam Deck and Steam Controller. Features trackpads, detachable halves, and full HID support. Built from scratch using nRF52840 microcontrollers and the Enhanced ShockBurst protocol. [Video](https://youtu.be/ycMgIToLav8?si=cVztny4IiIS_V4oI) ",
+    "translatedContent": "一个受 Steam Deck 和 Steam Controller 启发的定制模块化无线控制器。具有触控板、可拆卸两半和完整 HID 支持功能。使用 nRF52840 微控制器和增强型 ShockBurst 协议从零开始构建。[视频](https://youtu.be/ycMgIToLav8?si=cVztny4IiIS_V4oI) "
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "pHjZCacgtSwl+gf/ASwMGGBI6CB6zVM+W79vJNiN0SY=",
+    "originContent": "Join the [Discord!](https://discord.gg/ZtV34Hwx7y)",
+    "translatedContent": "加入 [Discord！](https://discord.gg/ZtV34Hwx7y)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "wEng/D+SiMj5AqBXOGV2CF+oZQfCjyss6Za9pYCBqIk=",
+    "originContent": "> **Note**  ",
+    "translatedContent": "> **注意**  "
+  },
+  {
+    "row": 8,
+    "rowsha": "Ycd9RNnzaLNAzFCdNqU2TLdi1coIm8bSiunmEtzCaYk=",
+    "originContent": "> This project is in an early development stage — v0.1. Expect breaking changes, bugs, and frequent updates.",
+    "translatedContent": "> 本项目处于早期开发阶段 — v0.1。请预期重大变更、漏洞和频繁更新。"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "fdkwn8quJY6t5fEl7hbptmje9eXQy6JonqnqFPpdHw8=",
+    "originContent": "## 🚀 Project Goals",
+    "translatedContent": "## 🚀 项目目标"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "7MT+kT5Z2IjvuED5tzgY8mwZdzRl/urlk4K67UbDz2s=",
+    "originContent": "- 🎮 Emulate a Steam Deck-like controller with modular, wireless halves",
+    "translatedContent": "- 🎮 模拟类似 Steam Deck 的模块化无线控制器两半"
+  },
+  {
+    "row": 15,
+    "rowsha": "i8QssrpVbzWp0tt4ySlgDVHS7MQ98K1L978WRm+pzU8=",
+    "originContent": "- 🖱️ Support mouse, keyboard, and gamepad HID modes",
+    "translatedContent": "- 🖱️ 支持鼠标、键盘和游戏手柄 HID 模式"
+  },
+  {
+    "row": 16,
+    "rowsha": "RzkNem0cj57589D6B0KqXYLSU78UQo+TIC5+Idf7LIk=",
+    "originContent": "- 🧲 Custom-built trackpads using the Azoteq IQS7211E sensor",
+    "translatedContent": "- 🧲 使用 Azoteq IQS7211E 传感器自制触控板"
+  },
+  {
+    "row": 17,
+    "rowsha": "6L2n4WA9WmcUPHI3B11lT6tGQ04rJm1lN4olz1ygvYA=",
+    "originContent": "- 🔋 Magnetic pogo-pin charging and attachment system",
+    "translatedContent": "- 🔋 磁吸 pogo 针充电和连接系统"
+  },
+  {
+    "row": 18,
+    "rowsha": "OCGz3xF7AO4toCFaV9yNI14yp3rNzFXMXCNAM110sxc=",
+    "originContent": "- 🛠️ Fully open-source hardware and firmware",
+    "translatedContent": "- 🛠️ 完全开源的硬件和固件"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "+QF4DbWZ+4BJkDfoj7fUDt8vPk7G6sw2FpjvGBE6Jc4=",
+    "originContent": "## ✅ v0.1 Development Checklist",
+    "translatedContent": "## ✅ v0.1 开发清单"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "W6urQUksQAGEmxhmbL8EG1dw69IrlDrG79ExcWJH3ds=",
+    "originContent": "### Hardware",
+    "translatedContent": "### 硬件"
+  },
+  {
+    "row": 25,
+    "rowsha": "Xdo2qtBlPJv+J2TSIKo+vAkacsxYyrVaSRYQuJkMHyk=",
+    "originContent": "- [x] Left and right controller halves (nRF52840)",
+    "translatedContent": "- [x] 左右控制器两半 (nRF52840)"
+  },
+  {
+    "row": 26,
+    "rowsha": "/muRhlR2RR8fKFo6Zl6mrTLGARRLpSjL2PpTLvWscBs=",
+    "originContent": "- [x] USB dongle (nRF52840)",
+    "translatedContent": "- [x] USB 加密狗 (nRF52840)"
+  },
+  {
+    "row": 27,
+    "rowsha": "WFBndh6/Xkvn6JyyQv5Hp5BYv4JcRTXV4a6YmKtzlNo=",
+    "originContent": "- [x] Custom trackpad PCBs (IQS7211E)",
+    "translatedContent": "- [x] 定制触控板 PCB (IQS7211E)"
+  },
+  {
+    "row": 28,
+    "rowsha": "a/2dW9IZDMGmfAf31Mb3TE+3IdjPH8uCzJut56pUMwA=",
+    "originContent": "- [ ] 3D printable version of the Shell",
+    "translatedContent": "- [ ] 外壳的 3D 打印版本"
+  },
+  {
+    "row": 29,
+    "rowsha": "Xd/SKMCt2fDmwh6Y98urchxXA4QthSeUYwYYYbb2zxU=",
+    "originContent": "- [ ] Controller PCBs(left + right)",
+    "translatedContent": "- [ ] 控制器 PCB（左右）"
+  },
+  {
+    "row": 30,
+    "rowsha": "SsPUKc5QctP4LDNhXOwxdtMfG2Sp+yCURm5ZfHXWwLY=",
+    "originContent": "- [ ] Joystick PCBs(to drive down cost)",
+    "translatedContent": "- [ ] 摇杆 PCB（以降低成本）"
+  },
+  {
+    "row": 31,
+    "rowsha": "4RNGQI7L3KumF4pW7MMHgt8oSx0kFJxcOGoLxVvs49w=",
+    "originContent": "- [ ] gp2040ce + nrf dongle",
+    "translatedContent": "- [ ] gp2040ce + nrf 加密狗"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "CJ1u3UTc+gHVdObjQkANRdbKpjESUI3pfOWpAiyN7Uo=",
+    "originContent": "### Firmware",
+    "translatedContent": "### 固件"
+  },
+  {
+    "row": 34,
+    "rowsha": "/YAdAA62dwEeDvYVTG3Pe+ZCiBtgJbUWguSXYlLHxg0=",
+    "originContent": "- [x] ESB-based wireless communication",
+    "translatedContent": "- [x] 基于 ESB 的无线通信"
+  },
+  {
+    "row": 35,
+    "rowsha": "VcYVJRJNAJCnQ6LgIu4V5+aT1GvXoT3juNQOuuB01I8=",
+    "originContent": "- [x] Mouse + Gamepad + Keyboard HID reports",
+    "translatedContent": "- [x] 鼠标 + 游戏手柄 + 键盘 HID 报告"
+  },
+  {
+    "row": 36,
+    "rowsha": "MD7cJtCVrW6kXJ2oyBmDPfCa8yCQcbrFB2exn8qZDZ0=",
+    "originContent": "- [x] Input parsing for trackpads and buttons",
+    "translatedContent": "- [x] 触控板和按钮的输入解析"
+  },
+  {
+    "row": 37,
+    "rowsha": "EkU//j6TXGB+OyVLKX2R6Zi5QWU8UxyTsR4DHE4vWEk=",
+    "originContent": "- [ ] Haptics / rumble support",
+    "translatedContent": "- [ ] 触觉 / 震动支持"
+  },
+  {
+    "row": 38,
+    "rowsha": "nq9Qi7Xeiuqow+aOv60NWvBoX1as/mm7iHWk9ENnRPE=",
+    "originContent": "- [ ] Gyro Support",
+    "translatedContent": "- [ ] 陀螺仪支持"
+  },
+  {
+    "row": 39,
+    "rowsha": "Ccikm9nmoK1kaSf6mslA0X1o1U3wy2VgXpy365h+Vhg=",
+    "originContent": "- [ ] Calibration routines + save to internal memory",
+    "translatedContent": "- [ ] 校准程序 + 保存到内部存储"
+  },
+  {
+    "row": 40,
+    "rowsha": "dR/nDBYAMpB6ymSYrUJ7KBvDwWD3AD9AaiGdteI8jQQ=",
+    "originContent": "- [ ] Configurable modes (gesture/tap/mouse/gamepad)",
+    "translatedContent": "- [ ] 可配置模式（手势/点击/鼠标/游戏手柄）"
+  },
+  {
+    "row": 41,
+    "rowsha": "Kz3cjBDOplpHyw31QaKTD/pQKbLoSMfIqcaRtRT1VGk=",
+    "originContent": "- [ ] Steam Input compatibility or XInput compatibility",
+    "translatedContent": "- [ ] Steam Input 兼容性或 XInput 兼容性"
+  },
+  {
+    "row": 42,
+    "rowsha": "x8BxZF52LLhhlZRmMzG4r124oWGPWYQj6v71XhyvmZY=",
+    "originContent": "- [ ] Capacitive Joystick",
+    "translatedContent": "- [ ] 电容式摇杆"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "JdKkYUq2b81AJBVll40z2Lm3kgzRtp0TgiEiru4uTV4=",
+    "originContent": "### Other",
+    "translatedContent": "### 其他"
+  },
+  {
+    "row": 45,
+    "rowsha": "0R/VFc9214UjI0lGWyfulph6c5d9EicfKXpEMjSyzeg=",
+    "originContent": "- [ ] Improve documentation and diagrams",
+    "translatedContent": "- [ ] 改进文档和图示"
+  },
+  {
+    "row": 46,
+    "rowsha": "TiuIFWggmvYjG/ER8sc7BTq8d/EKBR4bHDPSxHopn2c=",
+    "originContent": "- [ ] Design a UI or config utility(either software or adding screens)",
+    "translatedContent": "- [ ] 设计用户界面或配置工具（软件或添加屏幕）"
+  },
+  {
+    "row": 47,
+    "rowsha": "JIrCGMldyyM/PgVLLRxo2oWJN1CmBfnL1QyxKe3vl7k=",
+    "originContent": "- [ ] Firmware migration to Zephyr (optional future)",
+    "translatedContent": "- [ ] 固件迁移到 Zephyr（未来可选）"
+  },
+  {
+    "row": 48,
+    "rowsha": "5ceDktMgu09G4XF8nFvw5f0e2l9xG799k/e7xD1733M=",
+    "originContent": "- [ ] Optimize latency and packet loss handling",
+    "translatedContent": "- [ ] 优化延迟和丢包处理"
+  },
+  {
+    "row": 49,
+    "rowsha": "dI76roluxCCcwicJqLzWFtV8gJJCQmLZwMzXXq5Ggzw=",
+    "originContent": "- [ ] Reduces costs",
+    "translatedContent": "- [ ] 降低成本"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "5oB/PITAoLviAlcUViIXoXaQcs4eZ9s5zQb6IemvJ+4=",
+    "originContent": "## 📷 Media",
+    "translatedContent": "## 📷 媒体资料"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "7MrsG0AgxqQuoWFozNZJgn6MA6FuOLie5j/TKSsGelI=",
+    "originContent": "Coming soon — demo images, build progress, and gameplay tests.",
+    "translatedContent": "即将推出 — 演示图片、构建进度和游戏测试。"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "o2zT02IcLeWWjarCzigrT+IK9qePhicSuumBDI0njb0=",
+    "originContent": "## 🛠️ Build Instructions",
+    "translatedContent": "## 🛠️ 构建说明"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "kVCeJgBGFePeqEuMvIzFlxnGVj+MW+mHYdiMd1NrUCU=",
+    "originContent": "_(Coming soon)_",
+    "translatedContent": "_(即将推出)_"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "1jaDq/5hiu0Mn04yOIlKrJ6x9gd2tBwl5oEWHJDQhQc=",
+    "originContent": "- Schematic and board files (.zip or link)",
+    "translatedContent": "- 电路图和板文件（.zip 或链接）"
+  },
+  {
+    "row": 64,
+    "rowsha": "CGYrh09nsNrSMUQuMC08Ol4tyv0/8n2QmO2/rtjcx1M=",
+    "originContent": "- Firmware flashing instructions",
+    "translatedContent": "- 固件刷写说明"
+  },
+  {
+    "row": 65,
+    "rowsha": "3myH7hoZkQxosRNb9zUHpcgDrh5UOA5SSE2dMAphMBA=",
+    "originContent": "- Dependency list and setup",
+    "translatedContent": "- 依赖列表和设置"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "at6hrw28jajyC/COQshM9hi9BRHLqV9/VqOkVxuU1vQ=",
+    "originContent": "## 🤝 Contributing",
+    "translatedContent": "## 🤝 贡献"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "S2wAez8Fk4z9LFRRr1O+c8swzVVlWbLplovXLrliGOU=",
+    "originContent": "Contributions are welcome! Feel free to fork the repo, open issues, or submit pull requests.",
+    "translatedContent": "欢迎贡献！随时分叉仓库、提交问题或拉取请求。"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "TtOdT6/bRY+M3U82cV/3fPpO5aWZT6hbnAXTums3AiY=",
+    "originContent": "If you're not sure where to start, check out the [Checklist](#-v01-development-checklist) for open tasks.",
+    "translatedContent": "如果不确定从哪里开始，请查看[清单](#-v01-开发清单)中的未完成任务。"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "qdzKI50RqHyAaNHbQuVekCMXyk/TfGfppMlRPvlONC4=",
+    "originContent": "## 📄 License",
+    "translatedContent": "## 📄 许可证"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "CHmaE27prD4ObbxWRMB0KwPcNdGaNbd0PSDBWViPOyw=",
+    "originContent": "MIT License — see `LICENSE` file for details.",
+    "translatedContent": "MIT 许可证 — 详见 `LICENSE` 文件。"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "JfSINB3CoSFRYhrTWdDb6oatFVVKIU7Cbpaf8BIG0O4=",
+    "originContent": "## 💬 Contact",
+    "translatedContent": "## 💬 联系方式"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "c42wGtrd/4FvBlQ9BacJrW13YslcOIU6tq07HTDvp7c=",
+    "originContent": "For questions or suggestions, reach out via GitHub Issues or [YouTube](https://www.youtube.com/@TommyBee456).",
+    "translatedContent": "如有问题或建议，请通过 GitHub Issues 或 [YouTube](https://www.youtube.com/@TommyBee456) 联系。"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

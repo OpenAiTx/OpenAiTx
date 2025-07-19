@@ -1,0 +1,951 @@
+[
+  {
+    "Id": 1,
+    "Content": "<div align=\"center\">\n\n# 2D Triangle Splatting for Direct Differentiable Mesh Training\n\n[Arxiv][1] | [Project Page][4]\n\nKaifeng Sheng*, Zheng Zhou*, Yingliang Peng, Qianwei Wang (*Equal Contribution)\n\nAmap, Alibaba Group\n\n</div>\n\n## - Project Overview\n\nOfficial implementation of [2DTS][1] (2D Triangle Splatting for Direct Differentiable Mesh Training)\n\nWe provide a complete training pipeline for 2DTS, a differentiable 3D Geometric Representation adapted from [3DGS][2] (3D Gaussian Splatting) that replace the primitives from Gaussians to triangles, while retaining the full differentiability of the model.\nThe proposed method is capable of producing triangle meshes with high visual fidelity through an end-to-end training pipeline.\n\n![demo_image](https://raw.githubusercontent.com/GaodeRender/triangle-splatting/main/./assets/demo_image.png)\n\nOur method can be applied to large-scale datasets, such as MatrixCity, which contains 6000+ images. Such datasets are challenging for existing mesh reconstruction methods, but our method can handle them efficiently.\nThe reconstructed meshes can be directly used in modern game engines, such as Blender, for relighting, shadow rendering, and other advanced rendering effects. See the following image for an example of relighting effect on a reconstructed mesh from MatrixCity dataset:\n\n![relighting_image](https://raw.githubusercontent.com/GaodeRender/triangle-splatting/main/./assets/relighting_image.png)\n\n## - Abstract\n\nDifferentiable rendering with 3D Gaussian primitives has emerged as a powerful method for reconstructing high-fidelity 3D scenes from multi-view images.\nWhile it offers improvements over NeRF-based methods, this representation still encounters challenges with rendering speed and advanced rendering effects, such as relighting and shadow rendering, compared to mesh-based models.\nIn this paper, we propose 2D Triangle Splatting (2DTS), a novel method that replaces 3D Gaussian primitives with 2D triangle facelets.\nThis representation naturally forms a discrete mesh-like structure while retaining the benefits of continuous volumetric modeling.\nBy incorporating a compactness parameter into the triangle primitives, we enable direct training of photorealistic meshes.\nOur experimental results demonstrate that our triangle-based method, in its vanilla version (without compactness tuning), achieves higher fidelity compared to state-of-the-art Gaussian-based methods.\nFurthermore, our approach produces reconstructed meshes with superior visual quality compared to existing mesh reconstruction methods.\n\n## - Installation\n\n1. Install CUDA 12.4 or higher (remember to set the environment variable `CUDA_HOME` to the CUDA installation path);\n2. Clone the repository: `git clone https://github.com/GaodeRender/diff_recon.git; cd diff_recon`;\n3. Create new conda environment with Python 3.12: `conda create -n 2dts python=3.12`;\n   Activate the environment: `conda activate 2dts`;\n4. Install dependencies: `pip install -r requirements.txt --no-cache-dir`;\n5. Execute `pip install . --no-cache-dir` in the project root directory;\n\n\n## - Usage\n### Training\nExecute `run_experiments.py` to train 2DTS models on one of Mip-NeRF 360, NerfSynthetic, Tanks and Temples, DeepBlending or MatrixCity datasets by running the following command: ",
+    "ContentSha": "if/2rD7pDZp/MPzKGTqKCj9bNxecJald7M6qJStHXow=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content><div align=\"center\">\n\n# 2D三角形溅射用于直接可微网格训练\n\n[Arxiv][1] | [项目主页][4]\n\n盛凯峰*, 周正*, 彭英亮, 王乾伟 (*同等贡献)\n\n阿里巴巴集团阿地图\n\n</div>\n\n## - 项目概述\n\n[2DTS][1]（用于直接可微网格训练的2D三角形溅射）的官方实现\n\n我们提供了完整的2DTS训练流程，2DTS是一种可微分的3D几何表示，改编自[3DGS][2]（3D高斯溅射），将基本体从高斯体替换为三角形，同时保持模型的完全可微性。\n该方法能够通过端到端的训练流程生成高视觉保真度的三角形网格。\n\n![demo_image](https://raw.githubusercontent.com/GaodeRender/triangle-splatting/main/./assets/demo_image.png)\n\n我们的方法可应用于大规模数据集，如包含6000+图像的MatrixCity。这类数据集对现有网格重建方法具有挑战性，但我们的方法能够高效处理。\n重建的网格可以直接用于现代游戏引擎，如Blender，实现重光照、阴影渲染及其他高级渲染效果。以下图片展示了基于MatrixCity数据集重建网格的重光照效果示例：\n\n![relighting_image](https://raw.githubusercontent.com/GaodeRender/triangle-splatting/main/./assets/relighting_image.png)\n\n## - 摘要\n\n基于3D高斯基本体的可微渲染已成为从多视图图像重建高保真3D场景的强大方法。\n虽然相较于基于NeRF的方法有所改进，但该表示在渲染速度和高级渲染效果（如重光照和阴影渲染）方面，仍面临着相较于基于网格模型的挑战。\n本文提出了2D三角形溅射（2DTS），一种将3D高斯基本体替换为2D三角形面片的新方法。\n该表示自然形成离散的类网格结构，同时保留连续体积建模的优点。\n通过向三角形基本体引入紧凑性参数，实现了对真实感网格的直接训练。\n我们的实验结果表明，基于三角形的方法在其基础版本（未调节紧凑性）下，较现有高斯基方法实现了更高的保真度。\n此外，我们的方法在视觉质量上优于现有网格重建方法。\n\n## - 安装\n\n1. 安装CUDA 12.4或更高版本（记得将环境变量`CUDA_HOME`设置为CUDA安装路径）；\n2. 克隆代码库：`git clone https://github.com/GaodeRender/diff_recon.git; cd diff_recon`；\n3. 创建Python 3.12的conda环境：`conda create -n 2dts python=3.12`；\n   激活环境：`conda activate 2dts`；\n4. 安装依赖：`pip install -r requirements.txt --no-cache-dir`；\n5. 在项目根目录执行`pip install . --no-cache-dir`；\n\n## - 使用\n### 训练\n执行`run_experiments.py`，通过以下命令在Mip-NeRF 360、NerfSynthetic、Tanks and Temples、DeepBlending或MatrixCity数据集上训练2DTS模型：</translate-content>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<translate-content><div align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "pi3OIWEQMS64ldECVrk+mfxyScaDigRc05o7yVDQI5U=",
+        "originContent": "# 2D Triangle Splatting for Direct Differentiable Mesh Training",
+        "translatedContent": "# 2D三角形溅射用于直接可微网格训练"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "7ncplzjTvNi9tsaUkQH1rHVoCUc9ymHctBXmFU9pYvU=",
+        "originContent": "[Arxiv][1] | [Project Page][4]",
+        "translatedContent": "[Arxiv][1] | [项目主页][4]"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "xJRucS51AoqtTdD9V8aSoqclKbF+vKDQfFjRRRd4LEs=",
+        "originContent": "Kaifeng Sheng*, Zheng Zhou*, Yingliang Peng, Qianwei Wang (*Equal Contribution)",
+        "translatedContent": "盛凯峰*, 周正*, 彭英亮, 王乾伟 (*同等贡献)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "NEfSkkQ7OdNDCAyjBf6hdNeupSht/7eZKQaRNyxJ5PM=",
+        "originContent": "Amap, Alibaba Group",
+        "translatedContent": "阿里巴巴集团阿地图"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "ftIvToZsmo3VaAeWnBQwJgyNiLx4FpqvbiabDEJhh5c=",
+        "originContent": "## - Project Overview",
+        "translatedContent": "## - 项目概述"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "GQGW6SVSgeRWJKvUq8LhRiITlesJMvDQmOcR57CoajI=",
+        "originContent": "Official implementation of [2DTS][1] (2D Triangle Splatting for Direct Differentiable Mesh Training)",
+        "translatedContent": "[2DTS][1]（用于直接可微网格训练的2D三角形溅射）的官方实现"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "dvm6s+ec4AO1e8rtSu4XaoVvEv6xJLWcDUiUAn1NZu0=",
+        "originContent": "We provide a complete training pipeline for 2DTS, a differentiable 3D Geometric Representation adapted from [3DGS][2] (3D Gaussian Splatting) that replace the primitives from Gaussians to triangles, while retaining the full differentiability of the model.",
+        "translatedContent": "我们提供了完整的2DTS训练流程，2DTS是一种可微分的3D几何表示，改编自[3DGS][2]（3D高斯溅射），将基本体从高斯体替换为三角形，同时保持模型的完全可微性。"
+      },
+      {
+        "row": 18,
+        "rowsha": "TKaDdw47ShZ0jTOrVeRLjH4BdQ/EPy7qYluyIgCpaZ4=",
+        "originContent": "The proposed method is capable of producing triangle meshes with high visual fidelity through an end-to-end training pipeline.",
+        "translatedContent": "该方法能够通过端到端的训练流程生成高视觉保真度的三角形网格。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "tZWIvbrmhTZYajKu1CEkUQi+ENJeRHizG9HckjeG3/I=",
+        "originContent": "![demo_image](https://raw.githubusercontent.com/GaodeRender/triangle-splatting/main/./assets/demo_image.png)",
+        "translatedContent": "![demo_image](https://raw.githubusercontent.com/GaodeRender/triangle-splatting/main/./assets/demo_image.png)"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "6XkwdHChcuqIgBwtGn0bf/OwcntY2Ue+jiwVT4PTxmU=",
+        "originContent": "Our method can be applied to large-scale datasets, such as MatrixCity, which contains 6000+ images. Such datasets are challenging for existing mesh reconstruction methods, but our method can handle them efficiently.",
+        "translatedContent": "我们的方法可应用于大规模数据集，如包含6000+图像的MatrixCity。这类数据集对现有网格重建方法具有挑战性，但我们的方法能够高效处理。"
+      },
+      {
+        "row": 23,
+        "rowsha": "Nqm4QPov5fPhjrknd64LWzAubaMBk8ziateFZDWER5Y=",
+        "originContent": "The reconstructed meshes can be directly used in modern game engines, such as Blender, for relighting, shadow rendering, and other advanced rendering effects. See the following image for an example of relighting effect on a reconstructed mesh from MatrixCity dataset:",
+        "translatedContent": "重建的网格可以直接用于现代游戏引擎，如Blender，实现重光照、阴影渲染及其他高级渲染效果。以下图片展示了基于MatrixCity数据集重建网格的重光照效果示例："
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "8gsFtSQT/DW2TrQbW9v3MvQkLarYLgugM2pGAx3vcAY=",
+        "originContent": "![relighting_image](https://raw.githubusercontent.com/GaodeRender/triangle-splatting/main/./assets/relighting_image.png)",
+        "translatedContent": "![relighting_image](https://raw.githubusercontent.com/GaodeRender/triangle-splatting/main/./assets/relighting_image.png)"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "PKLJPUAq1+jmKyMBtFQnzFBgbeclWoshqASpjeSVkJU=",
+        "originContent": "## - Abstract",
+        "translatedContent": "## - 摘要"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "ETnlEmMCU4K4x7tLQw1Iv59jvh93qjtEA+YW/jYdg3M=",
+        "originContent": "Differentiable rendering with 3D Gaussian primitives has emerged as a powerful method for reconstructing high-fidelity 3D scenes from multi-view images.",
+        "translatedContent": "基于3D高斯基本体的可微渲染已成为从多视图图像重建高保真3D场景的强大方法。"
+      },
+      {
+        "row": 30,
+        "rowsha": "WLj/jGMHgdH1/VE7PshhT2ht/MC2QD+BZ74Nb3S0ABY=",
+        "originContent": "While it offers improvements over NeRF-based methods, this representation still encounters challenges with rendering speed and advanced rendering effects, such as relighting and shadow rendering, compared to mesh-based models.",
+        "translatedContent": "虽然相较于基于NeRF的方法有所改进，但该表示在渲染速度和高级渲染效果（如重光照和阴影渲染）方面，仍面临着相较于基于网格模型的挑战。"
+      },
+      {
+        "row": 31,
+        "rowsha": "frRD9sSPoxsQJ4G929OKxHaH98HXsLjIkxl0RvNT9h8=",
+        "originContent": "In this paper, we propose 2D Triangle Splatting (2DTS), a novel method that replaces 3D Gaussian primitives with 2D triangle facelets.",
+        "translatedContent": "本文提出了2D三角形溅射（2DTS），一种将3D高斯基本体替换为2D三角形面片的新方法。"
+      },
+      {
+        "row": 32,
+        "rowsha": "dGQqkwZ57lEqrMxXq0bxw53pD489fe+SW/1xQ0QRXOg=",
+        "originContent": "This representation naturally forms a discrete mesh-like structure while retaining the benefits of continuous volumetric modeling.",
+        "translatedContent": "该表示自然形成离散的类网格结构，同时保留连续体积建模的优点。"
+      },
+      {
+        "row": 33,
+        "rowsha": "LvIpZKlCcFoiqv/AABBP2rKURfHUmR0ZZV+37bk07qI=",
+        "originContent": "By incorporating a compactness parameter into the triangle primitives, we enable direct training of photorealistic meshes.",
+        "translatedContent": "通过向三角形基本体引入紧凑性参数，实现了对真实感网格的直接训练。"
+      },
+      {
+        "row": 34,
+        "rowsha": "GV/0nRGG+/UC2sIZXZhPGrCLe4Xc2GlqLqUcEG8gSqQ=",
+        "originContent": "Our experimental results demonstrate that our triangle-based method, in its vanilla version (without compactness tuning), achieves higher fidelity compared to state-of-the-art Gaussian-based methods.",
+        "translatedContent": "我们的实验结果表明，基于三角形的方法在其基础版本（未调节紧凑性）下，较现有高斯基方法实现了更高的保真度。"
+      },
+      {
+        "row": 35,
+        "rowsha": "/TOeV354K7qAdOtUYZpajjraMoQhiNiyW6lemaGBSdo=",
+        "originContent": "Furthermore, our approach produces reconstructed meshes with superior visual quality compared to existing mesh reconstruction methods.",
+        "translatedContent": "此外，我们的方法在视觉质量上优于现有网格重建方法。"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "m1Una/6rXYJmwyLlHLntOx9xNLszr84RcYFf+d/R6xs=",
+        "originContent": "## - Installation",
+        "translatedContent": "## - 安装"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "pw8ESFv7FeCYxTn+L24YiLwhxn5SsyWo6Ndsp6gu8QU=",
+        "originContent": "1. Install CUDA 12.4 or higher (remember to set the environment variable `CUDA_HOME` to the CUDA installation path);",
+        "translatedContent": "1. 安装CUDA 12.4或更高版本（记得将环境变量`CUDA_HOME`设置为CUDA安装路径）；"
+      },
+      {
+        "row": 40,
+        "rowsha": "MieSmatRKOYubiWoCmBMNtsnjCWr0p2uZ0acEyhTq7s=",
+        "originContent": "2. Clone the repository: `git clone https://github.com/GaodeRender/diff_recon.git; cd diff_recon`;",
+        "translatedContent": "2. 克隆代码库：`git clone https://github.com/GaodeRender/diff_recon.git; cd diff_recon`；"
+      },
+      {
+        "row": 41,
+        "rowsha": "dMMONSY4oYtgmAhBzfBBPpw5kmlfH9/WAZL/QklnP6A=",
+        "originContent": "3. Create new conda environment with Python 3.12: `conda create -n 2dts python=3.12`;",
+        "translatedContent": "3. 创建Python 3.12的conda环境：`conda create -n 2dts python=3.12`；"
+      },
+      {
+        "row": 42,
+        "rowsha": "J9dThTTiC8bq9wIPmmQUKoLWbnfsF7YTXbf7kHS3uqI=",
+        "originContent": "   Activate the environment: `conda activate 2dts`;",
+        "translatedContent": "   激活环境：`conda activate 2dts`；"
+      },
+      {
+        "row": 43,
+        "rowsha": "lio5do3A7sPTVeKiW9vQ5JGnJcBzSYd4wxiO6yzJ+nY=",
+        "originContent": "4. Install dependencies: `pip install -r requirements.txt --no-cache-dir`;",
+        "translatedContent": "4. 安装依赖：`pip install -r requirements.txt --no-cache-dir`；"
+      },
+      {
+        "row": 44,
+        "rowsha": "jTrY0df1HAZmDYKEor5u63CVj3/+kPyNDPfXKvy/eF4=",
+        "originContent": "5. Execute `pip install . --no-cache-dir` in the project root directory;",
+        "translatedContent": "5. 在项目根目录执行`pip install . --no-cache-dir`；"
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## - 使用"
+      },
+      {
+        "row": 47,
+        "rowsha": "nNAD/LU/s0yYQixj5Zlq702l1rkGpLmdZ9SslVt5ab4=",
+        "originContent": "## - Usage",
+        "translatedContent": "### 训练"
+      },
+      {
+        "row": 48,
+        "rowsha": "cNKS2XI0q3UNj4+rlFmjA0lefbWomrdh7j5BPCDMKNw=",
+        "originContent": "### Training",
+        "translatedContent": "执行`run_experiments.py`，通过以下命令在Mip-NeRF 360、NerfSynthetic、Tanks and Temples、DeepBlending或MatrixCity数据集上训练2DTS模型：</translate-content>"
+      },
+      {
+        "row": 49,
+        "rowsha": "VqTIh2b/wmtldxiUK9mKfL7uveRHn3QaX/j+nbbwUB8=",
+        "originContent": "Execute `run_experiments.py` to train 2DTS models on one of Mip-NeRF 360, NerfSynthetic, Tanks and Temples, DeepBlending or MatrixCity datasets by running the following command: ",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\npython run_experiments.py --type {experiment_type} --dataset_path /path/to/dataset --num_workers 0\n```",
+    "ContentSha": "gRyGyi8S/KFr+gNcwgxjNMQTeOWGV7kpA3tH6/SJixw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython run_experiments.py --type {experiment_type} --dataset_path /path/to/dataset --num_workers 0\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "OMIpMpqBa4e+V6ptPYvxvk09+g1shqTHIfbDrN7IKhM=",
+        "originContent": "python run_experiments.py --type {experiment_type} --dataset_path /path/to/dataset --num_workers 0",
+        "translatedContent": "python run_experiments.py --type {experiment_type} --dataset_path /path/to/dataset --num_workers 0"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "`experiment_type` can be one of `MipNerf360`, `NerfSynthetic`, `NerfSynthetic_mesh`, `TanksAndBlending` or `MatrixCity_mesh`.\n\nThe script requires the dataset to be downloaded beforehand, and the dataset path should point to the root directory of the dataset.\nFor example, if you want to train a mesh model on the NerfSynthetic dataset, and have the dataset stored in `./data/nerf_synthetic`, you can run the following command:",
+    "ContentSha": "uZdqWVoYhMW6kIAsC59YypEgksY6JuzjxbFUfk988bI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "`experiment_type` 可以是 `MipNerf360`、`NerfSynthetic`、`NerfSynthetic_mesh`、`TanksAndBlending` 或 `MatrixCity_mesh`。\n\n该脚本要求预先下载数据集，且数据集路径应指向数据集的根目录。\n例如，如果您想在 NerfSynthetic 数据集上训练一个网格模型，并且数据集存储在 `./data/nerf_synthetic`，您可以运行以下命令：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "u9PsdR/wZabcoMwVyh7VD90SSf9PnAQl+yk4ICMkPos=",
+        "originContent": "`experiment_type` can be one of `MipNerf360`, `NerfSynthetic`, `NerfSynthetic_mesh`, `TanksAndBlending` or `MatrixCity_mesh`.",
+        "translatedContent": "`experiment_type` 可以是 `MipNerf360`、`NerfSynthetic`、`NerfSynthetic_mesh`、`TanksAndBlending` 或 `MatrixCity_mesh`。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "mIm5QgKzavcwI6QiI7cJSSWAUjejs+0ZV8SUnpKuzAY=",
+        "originContent": "The script requires the dataset to be downloaded beforehand, and the dataset path should point to the root directory of the dataset.",
+        "translatedContent": "该脚本要求预先下载数据集，且数据集路径应指向数据集的根目录。"
+      },
+      {
+        "row": 4,
+        "rowsha": "jthhKXAYeFRLwOB7iIK3bHpKsUX5S2yslRbzD6nGnSw=",
+        "originContent": "For example, if you want to train a mesh model on the NerfSynthetic dataset, and have the dataset stored in `./data/nerf_synthetic`, you can run the following command:",
+        "translatedContent": "例如，如果您想在 NerfSynthetic 数据集上训练一个网格模型，并且数据集存储在 `./data/nerf_synthetic`，您可以运行以下命令："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\npython run_experiments.py --type NerfSynthetic_mesh --dataset_path ./data/nerf_synthetic --num_workers 0\n```",
+    "ContentSha": "72AQ3AbX5CjnBIgtywtI6FOWmEG0Dj/E7fw3EIO9c80=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython run_experiments.py --type NerfSynthetic_mesh --dataset_path ./data/nerf_synthetic --num_workers 0\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "niR+xRUpQOwX+xxB5XI/CRiHmauOZ/TlXTx46+x5MVE=",
+        "originContent": "python run_experiments.py --type NerfSynthetic_mesh --dataset_path ./data/nerf_synthetic --num_workers 0",
+        "translatedContent": "python run_experiments.py --type NerfSynthetic_mesh --dataset_path ./data/nerf_synthetic --num_workers 0"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Logs\nTraining logs will be saved in the `./outputs` directory. You can use TensorBoard to visualize the training process:",
+    "ContentSha": "H1kAOTuYXklyJyFV3tzFp4rLhcU1WJeywvh3ucZxo8w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 日志\n训练日志将保存在 `./outputs` 目录中。您可以使用 TensorBoard 来可视化训练过程：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 日志"
+      },
+      {
+        "row": 2,
+        "rowsha": "FYBXa26VcF7EW5sY/2bdoDcqENjbhsgMx6G8EnoinJM=",
+        "originContent": "### Logs",
+        "translatedContent": "训练日志将保存在 `./outputs` 目录中。您可以使用 TensorBoard 来可视化训练过程："
+      },
+      {
+        "row": 3,
+        "rowsha": "IrR0wfXsXatqtzYAz4wwfXSPL7lTilW5cz3JDDo3GNo=",
+        "originContent": "Training logs will be saved in the `./outputs` directory. You can use TensorBoard to visualize the training process:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\ntensorboard --logdir ./outputs\n```",
+    "ContentSha": "JxI0/a8MsWwpjJRhFwYARzBDBrw/BVkdsf+kr/jTR/w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ntensorboard --logdir ./outputs\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "eycX9Xoon6+ncB96dQZiVxIiWWSkfk8y+yEkRg04bOM=",
+        "originContent": "tensorboard --logdir ./outputs",
+        "translatedContent": "tensorboard --logdir ./outputs"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### Rendering\nWe provide an interactive web viewer based on [Viser Viewer][3] for visualizing the trained triangle splats and meshes.\nYou can run the viewer by executing the following command:",
+    "ContentSha": "9tVZdCCvUeDlcEc3HCQxDSgkyZMq5nK0NQCXs9Iz90k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 渲染\n我们提供了一个基于 [Viser Viewer][3] 的交互式网页查看器，用于可视化训练好的三角形点和网格。\n您可以通过执行以下命令来运行查看器：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 渲染"
+      },
+      {
+        "row": 2,
+        "rowsha": "FLmQ2j9tJfwebndlo3TFhP2c3ojo8T4mXhL6ISQ3Gyg=",
+        "originContent": "### Rendering",
+        "translatedContent": "我们提供了一个基于 [Viser Viewer][3] 的交互式网页查看器，用于可视化训练好的三角形点和网格。"
+      },
+      {
+        "row": 3,
+        "rowsha": "nFgDzCB5i56RkGRB4HDo+93NPPRRX5knlqLVFDlz5bc=",
+        "originContent": "We provide an interactive web viewer based on [Viser Viewer][3] for visualizing the trained triangle splats and meshes.",
+        "translatedContent": "您可以通过执行以下命令来运行查看器："
+      },
+      {
+        "row": 4,
+        "rowsha": "dANU7fJJZNM4XdF0G1HDjmJ24NdYffFpZfRfKXdJe04=",
+        "originContent": "You can run the viewer by executing the following command:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\npython viser_viewer.py --config /path/to/config --dataset_path /path/to/dataset --scene {scene_name}\n```",
+    "ContentSha": "r6bjR50Z4bbViaPW+XBQQOUjWM1zqt0HSLiZIdKaDS4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython viser_viewer.py --config /path/to/config --dataset_path /path/to/dataset --scene {scene_name}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "sbAbyjTvCgrt4/glV3/5r2jS67NahQyx11IKILCs6cw=",
+        "originContent": "python viser_viewer.py --config /path/to/config --dataset_path /path/to/dataset --scene {scene_name}",
+        "translatedContent": "python viser_viewer.py --config /path/to/config --dataset_path /path/to/dataset --scene {scene_name}"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "For example, if you ran the `NerfSynthetic_mesh` experiment and want to visualize the `ship` scene, and have the dataset stored in `./data/nerf_synthetic`, you can run the following command:",
+    "ContentSha": "Ku2eECfCfqUpIMdfJsPkVXA59nV1gCoOGEmz6qfyYsY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "例如，如果您运行了 `NerfSynthetic_mesh` 实验并想要可视化 `ship` 场景，且数据集存储在 `./data/nerf_synthetic` 中，您可以运行以下命令：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Ku2eECfCfqUpIMdfJsPkVXA59nV1gCoOGEmz6qfyYsY=",
+        "originContent": "For example, if you ran the `NerfSynthetic_mesh` experiment and want to visualize the `ship` scene, and have the dataset stored in `./data/nerf_synthetic`, you can run the following command:",
+        "translatedContent": "例如，如果您运行了 `NerfSynthetic_mesh` 实验并想要可视化 `ship` 场景，且数据集存储在 `./data/nerf_synthetic` 中，您可以运行以下命令："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\npython viser_viewer.py --config config/NerfSynthetic_VanillaTS_mesh.yaml --dataset_path ./data/nerf_synthetic --scene ship\n```",
+    "ContentSha": "JPDcjFtbqoxfxdUX9Qr+WpTWqvd3Fvc1AZC6YdJBBFo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython viser_viewer.py --config config/NerfSynthetic_VanillaTS_mesh.yaml --dataset_path ./data/nerf_synthetic --scene ship\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "MB+VS4MJRKLAXW+G/vQ1N9YszG8Wd356LpSb7LIUCUc=",
+        "originContent": "python viser_viewer.py --config config/NerfSynthetic_VanillaTS_mesh.yaml --dataset_path ./data/nerf_synthetic --scene ship",
+        "translatedContent": "python viser_viewer.py --config config/NerfSynthetic_VanillaTS_mesh.yaml --dataset_path ./data/nerf_synthetic --scene ship"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nThen, open your web browser and navigate to `http://localhost:8080` to view the rendered scene. If you are runing the viewer on a remote server, make sure to set up port forwarding or access the server's IP address directly.\n\n## - Notes\nWe provided two distinct training configurations: VanillaTS and VanillaTS_mesh.\n- VanillaTS is a close mimick of the original 3DGS method, with compactness parameter set to 1.0 and generating transparent and diffuse triangle splats (See [2DTS][1] for details).\n- VanillaTS_mesh will add opacity regularization and compactness tuning to the training process, which will produce a solid triangle mesh at the end of training. The triangle mesh is saved as a `.glb` file in output directory. Note that when **back_culling** is **disabled** for the training process, **the mesh file will contain each triangle <span style=\"color:red\">twice</span>**, once for the front face and once for the back face.\n\nThe difference between a diffuse and a solid triangle is visualized in the following image:\n\n![triangle_splatting](https://raw.githubusercontent.com/GaodeRender/triangle-splatting/main/./assets/triangle_splatting.png) \n\n## - TODO\n\n1. Our method assumes a dense point cloud initialization. The densification process like the one used in [3DGS][2] is turned off by default because of stability issues. New densification and initialization methods are being explored. Any contributions in this area are welcome.\n2. The current implementation use a single set of opacity and color/sh parameters for each triangle splat. However, it is natural to extend the model to support per-vertex color and opacity, which will enhance the expressiveness of the model. We are working on this extension.\n\n## - License\n\nThis repository contains code under **two different licenses**:\n\n- 🟥 **Gaussian Splatting Research License** — applies to components derived from the original [Gaussian Splatting][2] project:\n  - `submodules/custom-gaussian-rasterization/`\n  - `submodules/simple-knn/`\n  - These components are licensed for **non-commercial research use only**.\n  - See [LICENSE.gausplat.md](https://raw.githubusercontent.com/GaodeRender/triangle-splatting/main/./LICENSE.gausplat.md)\n\n- 🟩 **MIT License** — applies to other parts of the repository, including:\n  - `src/diff_recon/`\n  - `submodules/diff-triangle-rasterization-2D/`, `submodules/diff-triangle-rasterization-3D/`, etc.\n  - See [LICENSE](./LICENSE)\n\nPlease make sure to comply with both licenses when using this repository.\n\n## - Citation\n\nIf you find our work useful, please consider citing our paper:",
+    "ContentSha": "Q7yqR5MxAgnFQTIOehujv6a+H3jpQugWPMshcrcva2I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "然后，打开您的网页浏览器并导航到 `http://localhost:8080` 以查看渲染的场景。如果您在远程服务器上运行查看器，请确保设置端口转发或直接访问服务器的IP地址。\n\n## - 注意事项\n我们提供了两种不同的训练配置：VanillaTS 和 VanillaTS_mesh。\n- VanillaTS 是对原始 3DGS 方法的近似模仿，紧凑参数设置为 1.0，生成透明和漫反射三角形斑点（详情见 [2DTS][1]）。\n- VanillaTS_mesh 将在训练过程中添加不透明度正则化和紧凑度调节，训练结束时将生成一个实心三角形网格。三角形网格以 `.glb` 文件形式保存在输出目录中。请注意，当训练过程中 **back_culling** 被 **禁用** 时，**网格文件将包含每个三角形的 <span style=\"color:red\">两次</span>**，一次为正面，一次为背面。\n\n漫反射三角形与实心三角形的区别在下图中可见：\n\n![triangle_splatting](https://raw.githubusercontent.com/GaodeRender/triangle-splatting/main/./assets/triangle_splatting.png) \n\n## - 待办事项\n\n1. 我们的方法假设密集点云初始化。由于稳定性问题，默认关闭了像 [3DGS][2] 中使用的密集化过程。我们正在探索新的密集化和初始化方法，欢迎在该领域的任何贡献。\n2. 当前实现对每个三角形斑点使用一组不透明度和颜色/光照参数。然而，自然的扩展是支持每个顶点的颜色和不透明度，这将增强模型的表现力。我们正在开发这一扩展。\n\n## - 许可协议\n\n本仓库包含两种不同的许可证代码：\n\n- 🟥 **Gaussian Splatting 研究许可** — 适用于源自原始 [Gaussian Splatting][2] 项目的组件：\n  - `submodules/custom-gaussian-rasterization/`\n  - `submodules/simple-knn/`\n  - 这些组件仅许可用于 **非商业研究用途**。\n  - 详见 [LICENSE.gausplat.md](https://raw.githubusercontent.com/GaodeRender/triangle-splatting/main/./LICENSE.gausplat.md)\n\n- 🟩 **MIT 许可证** — 适用于仓库中的其他部分，包括：\n  - `src/diff_recon/`\n  - `submodules/diff-triangle-rasterization-2D/`、`submodules/diff-triangle-rasterization-3D/` 等。\n  - 详见 [LICENSE](./LICENSE)\n\n使用本仓库时，请确保遵守两种许可证的规定。\n\n## - 引用\n\n如果您觉得我们的工作有用，请考虑引用我们的论文：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "然后，打开您的网页浏览器并导航到 `http://localhost:8080` 以查看渲染的场景。如果您在远程服务器上运行查看器，请确保设置端口转发或直接访问服务器的IP地址。"
+      },
+      {
+        "row": 2,
+        "rowsha": "M2DVf6JD2D5GCnRkN/Y0N1Zv+d65Qq5ZG9Zw/Gn2Tyw=",
+        "originContent": "Then, open your web browser and navigate to `http://localhost:8080` to view the rendered scene. If you are runing the viewer on a remote server, make sure to set up port forwarding or access the server's IP address directly.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## - 注意事项"
+      },
+      {
+        "row": 4,
+        "rowsha": "1PRjgu+KbfjreGjZ8icJvP8YdtezULnocSl8nx1WzZw=",
+        "originContent": "## - Notes",
+        "translatedContent": "我们提供了两种不同的训练配置：VanillaTS 和 VanillaTS_mesh。"
+      },
+      {
+        "row": 5,
+        "rowsha": "Agc678CZCVG4inNMc7CTq9B+G/3wqV0DBhE5WwuaQkE=",
+        "originContent": "We provided two distinct training configurations: VanillaTS and VanillaTS_mesh.",
+        "translatedContent": "- VanillaTS 是对原始 3DGS 方法的近似模仿，紧凑参数设置为 1.0，生成透明和漫反射三角形斑点（详情见 [2DTS][1]）。"
+      },
+      {
+        "row": 6,
+        "rowsha": "cOm0tKsta4/hVhmw7q0krzkBCtH77nmeutQYBSY+/1E=",
+        "originContent": "- VanillaTS is a close mimick of the original 3DGS method, with compactness parameter set to 1.0 and generating transparent and diffuse triangle splats (See [2DTS][1] for details).",
+        "translatedContent": "- VanillaTS_mesh 将在训练过程中添加不透明度正则化和紧凑度调节，训练结束时将生成一个实心三角形网格。三角形网格以 `.glb` 文件形式保存在输出目录中。请注意，当训练过程中 **back_culling** 被 **禁用** 时，**网格文件将包含每个三角形的 <span style=\"color:red\">两次</span>**，一次为正面，一次为背面。"
+      },
+      {
+        "row": 7,
+        "rowsha": "C4xxdqoVmcOcG7KjLElNJtyuNCfcL3wX0HSewlG6Mr0=",
+        "originContent": "- VanillaTS_mesh will add opacity regularization and compactness tuning to the training process, which will produce a solid triangle mesh at the end of training. The triangle mesh is saved as a `.glb` file in output directory. Note that when **back_culling** is **disabled** for the training process, **the mesh file will contain each triangle <span style=\"color:red\">twice</span>**, once for the front face and once for the back face.",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "漫反射三角形与实心三角形的区别在下图中可见："
+      },
+      {
+        "row": 9,
+        "rowsha": "tIOheBgFh9nJAvrRMPqZRoZvCgno8eL5CL7gwnayP58=",
+        "originContent": "The difference between a diffuse and a solid triangle is visualized in the following image:",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![triangle_splatting](https://raw.githubusercontent.com/GaodeRender/triangle-splatting/main/./assets/triangle_splatting.png) "
+      },
+      {
+        "row": 11,
+        "rowsha": "G4EtcDaRDtOZbKoHAIjGSQL75b/wss3rMb7uoUDY/GM=",
+        "originContent": "![triangle_splatting](https://raw.githubusercontent.com/GaodeRender/triangle-splatting/main/./assets/triangle_splatting.png) ",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## - 待办事项"
+      },
+      {
+        "row": 13,
+        "rowsha": "/YUxcq8x1SQ354rijhAPGW502omof+qVddZ39SyekeE=",
+        "originContent": "## - TODO",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 我们的方法假设密集点云初始化。由于稳定性问题，默认关闭了像 [3DGS][2] 中使用的密集化过程。我们正在探索新的密集化和初始化方法，欢迎在该领域的任何贡献。"
+      },
+      {
+        "row": 15,
+        "rowsha": "W7UQCjd0fNlQYRfHPt8Tm1E7LPH02btK22HbO3nWyFk=",
+        "originContent": "1. Our method assumes a dense point cloud initialization. The densification process like the one used in [3DGS][2] is turned off by default because of stability issues. New densification and initialization methods are being explored. Any contributions in this area are welcome.",
+        "translatedContent": "2. 当前实现对每个三角形斑点使用一组不透明度和颜色/光照参数。然而，自然的扩展是支持每个顶点的颜色和不透明度，这将增强模型的表现力。我们正在开发这一扩展。"
+      },
+      {
+        "row": 16,
+        "rowsha": "befvbdm4ZYB7CdndXODpW0Mu2XQPBe/9XDCaGjgUZKg=",
+        "originContent": "2. The current implementation use a single set of opacity and color/sh parameters for each triangle splat. However, it is natural to extend the model to support per-vertex color and opacity, which will enhance the expressiveness of the model. We are working on this extension.",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## - 许可协议"
+      },
+      {
+        "row": 18,
+        "rowsha": "t2kB9463FxB+z/l5eaB1RpWC9LBhsH2rerU+Y4uQg2s=",
+        "originContent": "## - License",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "本仓库包含两种不同的许可证代码："
+      },
+      {
+        "row": 20,
+        "rowsha": "BpIGUO+TKw5dzTM3Z3DXOAxWcz60hOP641tFXYIUO7Y=",
+        "originContent": "This repository contains code under **two different licenses**:",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 🟥 **Gaussian Splatting 研究许可** — 适用于源自原始 [Gaussian Splatting][2] 项目的组件："
+      },
+      {
+        "row": 22,
+        "rowsha": "neizbTT+e3/uUtID96EWazCgpIIzOnSOw/eKgIfp/oc=",
+        "originContent": "- 🟥 **Gaussian Splatting Research License** — applies to components derived from the original [Gaussian Splatting][2] project:",
+        "translatedContent": "  - `submodules/custom-gaussian-rasterization/`"
+      },
+      {
+        "row": 23,
+        "rowsha": "RX0nnkdi7EjvXb6UYDIQyzB41LRaYXIBCz6mEER1+nA=",
+        "originContent": "  - `submodules/custom-gaussian-rasterization/`",
+        "translatedContent": "  - `submodules/simple-knn/`"
+      },
+      {
+        "row": 24,
+        "rowsha": "zbNbOWF1hKUiRgENivzDNVag6L8ttGGgsvPKn+lrfG8=",
+        "originContent": "  - `submodules/simple-knn/`",
+        "translatedContent": "  - 这些组件仅许可用于 **非商业研究用途**。"
+      },
+      {
+        "row": 25,
+        "rowsha": "/ElWQxW1wPIlLbIvFljHe9qnRacnOuvDuN4o56sFiAU=",
+        "originContent": "  - These components are licensed for **non-commercial research use only**.",
+        "translatedContent": "  - 详见 [LICENSE.gausplat.md](https://raw.githubusercontent.com/GaodeRender/triangle-splatting/main/./LICENSE.gausplat.md)"
+      },
+      {
+        "row": 26,
+        "rowsha": "R1SWrJkHtFqfGrE1BnLf/jegAsopnR7/ygA1KzFVDUI=",
+        "originContent": "  - See [LICENSE.gausplat.md](https://raw.githubusercontent.com/GaodeRender/triangle-splatting/main/./LICENSE.gausplat.md)",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 🟩 **MIT 许可证** — 适用于仓库中的其他部分，包括："
+      },
+      {
+        "row": 28,
+        "rowsha": "TDYjVebMi+98yLOBhyDB0gnfifP8CSI8y1rA+JDO/I0=",
+        "originContent": "- 🟩 **MIT License** — applies to other parts of the repository, including:",
+        "translatedContent": "  - `src/diff_recon/`"
+      },
+      {
+        "row": 29,
+        "rowsha": "5328vDPhQiDh4GhtjVUbbf1xsea+/nJDT7ZnU0IcifY=",
+        "originContent": "  - `src/diff_recon/`",
+        "translatedContent": "  - `submodules/diff-triangle-rasterization-2D/`、`submodules/diff-triangle-rasterization-3D/` 等。"
+      },
+      {
+        "row": 30,
+        "rowsha": "85YLR8euQ1YyCOswWhEj6n6h63BUyrNhZVpG4IFVvSs=",
+        "originContent": "  - `submodules/diff-triangle-rasterization-2D/`, `submodules/diff-triangle-rasterization-3D/`, etc.",
+        "translatedContent": "  - 详见 [LICENSE](./LICENSE)"
+      },
+      {
+        "row": 31,
+        "rowsha": "C0co1SoIhnvUBRN3iubfEbm8+fnHkZQhOcFmWM7WtTg=",
+        "originContent": "  - See [LICENSE](./LICENSE)",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "使用本仓库时，请确保遵守两种许可证的规定。"
+      },
+      {
+        "row": 33,
+        "rowsha": "J2st79LcL1De21dbj1JWwTZathQ3542U1v/MfTG3lrk=",
+        "originContent": "Please make sure to comply with both licenses when using this repository.",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## - 引用"
+      },
+      {
+        "row": 35,
+        "rowsha": "XRW7AY2+jxDERZu5vwbTTVj/RW0i57jE0tdL7dQeHfY=",
+        "originContent": "## - Citation",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "如果您觉得我们的工作有用，请考虑引用我们的论文："
+      },
+      {
+        "row": 37,
+        "rowsha": "WX+1kC/vjmrVEVRaVcEV3Gm79vvxFWC0XpYxshUlbzs=",
+        "originContent": "If you find our work useful, please consider citing our paper:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bibtex\n@misc{sheng20252dtrianglesplattingdirect,\n      title={2D Triangle Splatting for Direct Differentiable Mesh Training}, \n      author={Kaifeng Sheng and Zheng Zhou and Yingliang Peng and Qianwei Wang},\n      year={2025},\n      eprint={2506.18575},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2506.18575}, \n}\n```",
+    "ContentSha": "uQABUo7VENqZRzYUuGcCROdKvsfr9sdHsLy8JIBfwHo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@misc{sheng20252dtrianglesplattingdirect,\n      title={2D Triangle Splatting for Direct Differentiable Mesh Training}, \n      author={Kaifeng Sheng and Zheng Zhou and Yingliang Peng and Qianwei Wang},\n      year={2025},\n      eprint={2506.18575},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2506.18575}, \n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
+      },
+      {
+        "row": 2,
+        "rowsha": "kNwE6MJjF7UPl2IQAh00NQSbmIRXJ3XJ0OjxYc8iYzI=",
+        "originContent": "@misc{sheng20252dtrianglesplattingdirect,",
+        "translatedContent": "@misc{sheng20252dtrianglesplattingdirect,"
+      },
+      {
+        "row": 3,
+        "rowsha": "g4P41izsILTFvwx7W3bE+qS4X7PZJqmoiSCKsaYlqb0=",
+        "originContent": "      title={2D Triangle Splatting for Direct Differentiable Mesh Training}, ",
+        "translatedContent": "      title={2D Triangle Splatting for Direct Differentiable Mesh Training}, "
+      },
+      {
+        "row": 4,
+        "rowsha": "b5x7EGcaJfsysC14TprGUVE4zFXevYT2NSFv0Y+hohM=",
+        "originContent": "      author={Kaifeng Sheng and Zheng Zhou and Yingliang Peng and Qianwei Wang},",
+        "translatedContent": "      author={Kaifeng Sheng and Zheng Zhou and Yingliang Peng and Qianwei Wang},"
+      },
+      {
+        "row": 5,
+        "rowsha": "1cuvfM9h03loQfZOlvsx9juVCvU41kevaYb2CnD9Gak=",
+        "originContent": "      year={2025},",
+        "translatedContent": "      year={2025},"
+      },
+      {
+        "row": 6,
+        "rowsha": "C/2T6UXR7xzNND2gzjzkjynJKvX+VXu3x0CuA3TUnVc=",
+        "originContent": "      eprint={2506.18575},",
+        "translatedContent": "      eprint={2506.18575},"
+      },
+      {
+        "row": 7,
+        "rowsha": "Fr73/KLqU4TaDaJVUDLO211nM029JE4YRpN5hXSZZqk=",
+        "originContent": "      archivePrefix={arXiv},",
+        "translatedContent": "      archivePrefix={arXiv},"
+      },
+      {
+        "row": 8,
+        "rowsha": "RPNBhgHdrY2A+XYLnuhpAr/aqag2LU2pAjasgtM0tg4=",
+        "originContent": "      primaryClass={cs.CV},",
+        "translatedContent": "      primaryClass={cs.CV},"
+      },
+      {
+        "row": 9,
+        "rowsha": "CKy3QVd5V2V/y0QLSdnqIa9EEpi8gOuoED/O7ypHZXM=",
+        "originContent": "      url={https://arxiv.org/abs/2506.18575}, ",
+        "translatedContent": "      url={https://arxiv.org/abs/2506.18575}, "
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n<!-- Reference -->\n[1]: https://arxiv.org/abs/2506.18575\n[2]: https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/\n[3]: https://github.com/nerfstudio-project/viser\n[4]: https://gaoderender.github.io/triangle-splatting/",
+    "ContentSha": "EKgqiqIW2Hyt2lg7tP+JECjw7Ex5D0RGmej0BJZyA4Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\n<!-- 参考文献 -->\n[1]: https://arxiv.org/abs/2506.18575\n[2]: https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/\n[3]: https://github.com/nerfstudio-project/viser\n[4]: https://gaoderender.github.io/triangle-splatting/</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "xgLUaWkkbIalPF1gEGaNGWduZXvB44bW9TI4752hzm8=",
+        "originContent": "<!-- Reference -->",
+        "translatedContent": "<!-- 参考文献 -->"
+      },
+      {
+        "row": 3,
+        "rowsha": "mvHvZYZTgmg2Wvqo0r0183oLNBZ4McpvdVkzjz2T0ZI=",
+        "originContent": "[1]: https://arxiv.org/abs/2506.18575",
+        "translatedContent": "[1]: https://arxiv.org/abs/2506.18575"
+      },
+      {
+        "row": 4,
+        "rowsha": "omrF777IxVs8J1V6/3Yomyz2DQB3VXnaVFxBKXGSD8I=",
+        "originContent": "[2]: https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/",
+        "translatedContent": "[2]: https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/"
+      },
+      {
+        "row": 5,
+        "rowsha": "JDCIWutpLah8/rByJ7sG1WRPkNGBgvLwwtmiyK/77SM=",
+        "originContent": "[3]: https://github.com/nerfstudio-project/viser",
+        "translatedContent": "[3]: https://github.com/nerfstudio-project/viser"
+      },
+      {
+        "row": 6,
+        "rowsha": "WiXS2et8StR9TmMEFQc6OHRSlXwCHxcRUmxkUOZbFQw=",
+        "originContent": "[4]: https://gaoderender.github.io/triangle-splatting/",
+        "translatedContent": "[4]: https://gaoderender.github.io/triangle-splatting/</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

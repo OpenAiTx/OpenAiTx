@@ -1,0 +1,459 @@
+[
+  {
+    "Id": 1,
+    "Content": "# ComfyUI_Fill-ChatterBox\n\nIf you enjoy this project, consider supporting me on Patreon!\n<p align=\"left\">\n  <a href=\"https://www.patreon.com/c/Machinedelusions\">\n    <img src=\"https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/assets/Patreon.png\" width=\"150px\" alt=\"Patreon\">\n  </a>\n</p>\n\nA custom node extension for ComfyUI that adds text-to-speech (TTS) and voice conversion (VC) capabilities using the Chatterbox library.\nSupports a MAXIMUM of 40 seconds. Iv tried removing this limitation, but the model falls apart really badly with anything longer than that, so it remains.\n\n![ChatterBox Example](https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/web/image.png)\n\n## Installation\n\n1. Clone this repository into your ComfyUI custom_nodes directory:",
+    "ContentSha": "dBSlkEvJbyUuvCbKqN9AunCZHQEmmd5L541K0YyzAhY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># ComfyUI_Fill-ChatterBox\n\nこのプロジェクトを楽しんでいただけたら、Patreonでのサポートを検討してください！\n<p align=\"left\">\n  <a href=\"https://www.patreon.com/c/Machinedelusions\">\n    <img src=\"https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/assets/Patreon.png\" width=\"150px\" alt=\"Patreon\">\n  </a>\n</p>\n\nChatterboxライブラリを使用してテキスト読み上げ（TTS）と音声変換（VC）機能を追加するComfyUI用のカスタムノード拡張です。\n最大40秒まで対応しています。この制限を解除しようと試みましたが、それ以上の長さではモデルが非常に不安定になるため、この制限を維持しています。\n\n![ChatterBox Example](https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/web/image.png)\n\n## インストール\n\n1. このリポジトリをComfyUIのcustom_nodesディレクトリにクローンします:</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "WXPD90VJi8akPy8cwqK8ROdDsGGOF2zbtWqUQfXMUeE=",
+        "originContent": "# ComfyUI_Fill-ChatterBox",
+        "translatedContent": "<translate-content># ComfyUI_Fill-ChatterBox"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "qRz+qfUSfheV5cwlrrF+hozo7Q4uHYsK9oRPMpNeO5E=",
+        "originContent": "If you enjoy this project, consider supporting me on Patreon!",
+        "translatedContent": "このプロジェクトを楽しんでいただけたら、Patreonでのサポートを検討してください！"
+      },
+      {
+        "row": 4,
+        "rowsha": "Auk82msJHqE5J2c5SY+1beHllILKnmlMZAJCApM2R0k=",
+        "originContent": "<p align=\"left\">",
+        "translatedContent": "<p align=\"left\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "B4vSst9ejByz6TRKJPuF5U20Ab75vZH1+i8jaUllpF0=",
+        "originContent": "  <a href=\"https://www.patreon.com/c/Machinedelusions\">",
+        "translatedContent": "  <a href=\"https://www.patreon.com/c/Machinedelusions\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "sYATDarmsu7M57zL4L8kEpKl8iR4HIChWsB65Y1H2S4=",
+        "originContent": "    <img src=\"https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/assets/Patreon.png\" width=\"150px\" alt=\"Patreon\">",
+        "translatedContent": "    <img src=\"https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/assets/Patreon.png\" width=\"150px\" alt=\"Patreon\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "qIHjrUkhMVXM6nah1vn89aj9b6U/SEQOe1zMUR3zqGY=",
+        "originContent": "A custom node extension for ComfyUI that adds text-to-speech (TTS) and voice conversion (VC) capabilities using the Chatterbox library.",
+        "translatedContent": "Chatterboxライブラリを使用してテキスト読み上げ（TTS）と音声変換（VC）機能を追加するComfyUI用のカスタムノード拡張です。"
+      },
+      {
+        "row": 11,
+        "rowsha": "QexQLOId2YlrEfFW7nUVxIt2eYz2gGVqyEe6Z0gG280=",
+        "originContent": "Supports a MAXIMUM of 40 seconds. Iv tried removing this limitation, but the model falls apart really badly with anything longer than that, so it remains.",
+        "translatedContent": "最大40秒まで対応しています。この制限を解除しようと試みましたが、それ以上の長さではモデルが非常に不安定になるため、この制限を維持しています。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "1jmwBaKBOwb2bOqidRkI+v48ssPsFUnmseT+yuj0ctQ=",
+        "originContent": "![ChatterBox Example](https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/web/image.png)",
+        "translatedContent": "![ChatterBox Example](https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/web/image.png)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "IuGZ6YSc4ROu9O+SsZdKwwiBdbdGKA5zky97mIaufK0=",
+        "originContent": "1. Clone this repository into your ComfyUI custom_nodes directory:",
+        "translatedContent": "1. このリポジトリをComfyUIのcustom_nodesディレクトリにクローンします:</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "   ```bash\n   cd /path/to/ComfyUI/custom_nodes\n   git clone https://github.com/filliptm/ComfyUI_Fill-ChatterBox.git\n   ```",
+    "ContentSha": "SmwPmTwEq0OdXA5uJOynd2VuDckf8enRtzs0pNM/d8Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   cd /path/to/ComfyUI/custom_nodes\n   git clone https://github.com/filliptm/ComfyUI_Fill-ChatterBox.git\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "ca24MC7Gs136N1CrqEHk3noaZqdIhhxetgpmYOVgvAI=",
+        "originContent": "   cd /path/to/ComfyUI/custom_nodes",
+        "translatedContent": "   cd /path/to/ComfyUI/custom_nodes"
+      },
+      {
+        "row": 3,
+        "rowsha": "4iLPuVFhroSF0eDKJA+ikYNcpduz1ZaZKbJ67fq20l8=",
+        "originContent": "   git clone https://github.com/filliptm/ComfyUI_Fill-ChatterBox.git",
+        "translatedContent": "   git clone https://github.com/filliptm/ComfyUI_Fill-ChatterBox.git"
+      },
+      {
+        "row": 4,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n2. Install the base dependencies:",
+    "ContentSha": "YfEVSfF4snVFPZRyVP/tJE8St4hX832dq4MaRX5QByo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. 基本依存関係をインストールします:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. 基本依存関係をインストールします:"
+      },
+      {
+        "row": 2,
+        "rowsha": "mDSn2pSiILsr1+EvNKEUeRZgMGbGq1tlehckH4W20lo=",
+        "originContent": "2. Install the base dependencies:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "   ```bash\n   pip install -r ComfyUI_Fill-ChatterBox/requirements.txt\n   ```",
+    "ContentSha": "nSYIIxoxTr8onIg+YGxL+gHUeRJbbAnH+bq/YNRTnds=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   pip install -r ComfyUI_Fill-ChatterBox/requirements.txt\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "6nksGJep55vDh54SfHCQ4t9f0OP2zc4owvrTR3zx3Hw=",
+        "originContent": "   pip install -r ComfyUI_Fill-ChatterBox/requirements.txt",
+        "translatedContent": "   pip install -r ComfyUI_Fill-ChatterBox/requirements.txt"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n3. (Optional) Install watermarking support:",
+    "ContentSha": "4IkwDnvLkW24iSnCLTUJdbCuYFMgkA/7HWeYHk7VdU8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. （オプション）透かしサポートをインストールします：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. （オプション）透かしサポートをインストールします："
+      },
+      {
+        "row": 2,
+        "rowsha": "hMCZq5HJBvY2vNcMpN5Tv8lv3+IguXueYlm5D+tom1Y=",
+        "originContent": "3. (Optional) Install watermarking support:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "   ```bash\n   pip install resemble-perth\n   ```",
+    "ContentSha": "aFpq38jyOVPWyzf+0x0GLCZ/SBD1gWUll4kf/8FuFFM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   pip install resemble-perth\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "YUieExLRnw5KQH0Md9SJpTaHw9kXGVpHzbkHvNUl67Y=",
+        "originContent": "   pip install resemble-perth",
+        "translatedContent": "   pip install resemble-perth"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "   **Note**: The `resemble-perth` package may have compatibility issues with Python 3.12+. If you encounter import errors, the nodes will still function without watermarking.\n\n\n## Usage\n\n### Text-to-Speech Node (FL Chatterbox TTS)\n- Add the \"FL Chatterbox TTS\" node to your workflow\n- Configure text input and parameters (exaggeration, cfg_weight, temperature)\n- Optionally provide an audio prompt for voice cloning\n\n### Voice Conversion Node (FL Chatterbox VC)\n- Add the \"FL Chatterbox VC\" node to your workflow\n- Connect input audio and target voice\n- Both nodes support CPU fallback if CUDA errors occur\n\n## Change Log\n\n### 6/24/2025\n- Added seed parameter to both TTS and VC nodes for reproducible generation\n- Seed range: 0 to 4,294,967,295 (32-bit integer)\n- Enables consistent audio output for debugging and workflow control\n- Made Perth watermarking optional to fix Python 3.12+ compatibility issues\n- Nodes now function without watermarking if resemble-perth import fails\n\n### 5/31/2025\n- Added Persistent model loading, and loading bar functionality\n- Added Mac support (needs to be tested so HMU)\n- removed the chatterbox-tts library and implemented native inference code.\n\n",
+    "ContentSha": "tfO07lpaWDu0k10MQkx5So6Kfcuoo4XnoaUtG4wMgjQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**Note**: `resemble-perth`パッケージはPython 3.12以降で互換性の問題が発生する可能性があります。インポートエラーが発生しても、ノードはウォーターマークなしで機能します。\n\n## 使用法\n\n### テキスト読み上げノード（FL Chatterbox TTS）\n- ワークフローに「FL Chatterbox TTS」ノードを追加\n- テキスト入力とパラメータ（誇張、cfg_weight、温度）を設定\n- 音声クローン用にオーディオプロンプトを任意で提供可能\n\n### 音声変換ノード（FL Chatterbox VC）\n- ワークフローに「FL Chatterbox VC」ノードを追加\n- 入力音声とターゲット音声を接続\n- 両ノードはCUDAエラー時にCPUフォールバックをサポート\n\n## 変更履歴\n\n### 2025/6/24\n- TTSおよびVCノードに再現可能な生成用のシードパラメータを追加\n- シード範囲：0〜4,294,967,295（32ビット整数）\n- デバッグやワークフロー制御のために一貫した音声出力を可能に\n- Python 3.12以降の互換性問題を解決するためにPerthウォーターマークをオプション化\n- resemble-perthのインポート失敗時はウォーターマークなしでノードが機能\n\n### 2025/5/31\n- Persistentモデルの読み込みと読み込みバー機能を追加\n- Mac対応を追加（要テストなので連絡ください）\n- chatterbox-ttsライブラリを削除し、ネイティブ推論コードを実装\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "sx+JKHRqWSIaqYXECQWYXDQK/RZvXNSm/QfkApJE+gU=",
+        "originContent": "   **Note**: The `resemble-perth` package may have compatibility issues with Python 3.12+. If you encounter import errors, the nodes will still function without watermarking.",
+        "translatedContent": "**Note**: `resemble-perth`パッケージはPython 3.12以降で互換性の問題が発生する可能性があります。インポートエラーが発生しても、ノードはウォーターマークなしで機能します。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 使用法"
+      },
+      {
+        "row": 4,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### テキスト読み上げノード（FL Chatterbox TTS）"
+      },
+      {
+        "row": 6,
+        "rowsha": "f8Yfr8+j0QEIcCFIlrRGl8QLpoHc7Xl2cv6L1026fuE=",
+        "originContent": "### Text-to-Speech Node (FL Chatterbox TTS)",
+        "translatedContent": "- ワークフローに「FL Chatterbox TTS」ノードを追加"
+      },
+      {
+        "row": 7,
+        "rowsha": "Qd/OxygpXiqLTLFMWFdaWibDqUOiuMYsK65egE64kos=",
+        "originContent": "- Add the \"FL Chatterbox TTS\" node to your workflow",
+        "translatedContent": "- テキスト入力とパラメータ（誇張、cfg_weight、温度）を設定"
+      },
+      {
+        "row": 8,
+        "rowsha": "AqENcYNMSIgs4rHw4o6Rl4mt/fB5cG/GyPkqenIV+KI=",
+        "originContent": "- Configure text input and parameters (exaggeration, cfg_weight, temperature)",
+        "translatedContent": "- 音声クローン用にオーディオプロンプトを任意で提供可能"
+      },
+      {
+        "row": 9,
+        "rowsha": "8JvzthjXI3hcPTyelvmXenuKRnjYNBmamS7M0av0dZA=",
+        "originContent": "- Optionally provide an audio prompt for voice cloning",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 音声変換ノード（FL Chatterbox VC）"
+      },
+      {
+        "row": 11,
+        "rowsha": "B7s0LDdV4NyuxLPHXXI7/KZqPPn0FK7zPM5q9ylILD4=",
+        "originContent": "### Voice Conversion Node (FL Chatterbox VC)",
+        "translatedContent": "- ワークフローに「FL Chatterbox VC」ノードを追加"
+      },
+      {
+        "row": 12,
+        "rowsha": "ER5X+WU1PrFjYfjajm2NkJdgPolX53xiYH9bIflrNCc=",
+        "originContent": "- Add the \"FL Chatterbox VC\" node to your workflow",
+        "translatedContent": "- 入力音声とターゲット音声を接続"
+      },
+      {
+        "row": 13,
+        "rowsha": "WR9K0SxLfLYkAxPuCUAJgCW7Py+Cwy4kSj0/CR/Kk2E=",
+        "originContent": "- Connect input audio and target voice",
+        "translatedContent": "- 両ノードはCUDAエラー時にCPUフォールバックをサポート"
+      },
+      {
+        "row": 14,
+        "rowsha": "IRZX8RR8M535VQzRJ29cy3uOqCIix9ID2tDIgC7klhQ=",
+        "originContent": "- Both nodes support CPU fallback if CUDA errors occur",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 変更履歴"
+      },
+      {
+        "row": 16,
+        "rowsha": "Yy1L+liWEPiygBFNsm9+4WmZQmi0NpcYvH+ZHWiB74A=",
+        "originContent": "## Change Log",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 2025/6/24"
+      },
+      {
+        "row": 18,
+        "rowsha": "nXTFL1jU4r5Y2G3rJOXKxEWhlGKI8pbVCeMi6VGDfMk=",
+        "originContent": "### 6/24/2025",
+        "translatedContent": "- TTSおよびVCノードに再現可能な生成用のシードパラメータを追加"
+      },
+      {
+        "row": 19,
+        "rowsha": "gmnqXz9KxwsWpejnUjjecI3a0rRmgx+lLlnNczBKxHk=",
+        "originContent": "- Added seed parameter to both TTS and VC nodes for reproducible generation",
+        "translatedContent": "- シード範囲：0〜4,294,967,295（32ビット整数）"
+      },
+      {
+        "row": 20,
+        "rowsha": "hYIWPSuhpMNVOE4VqM9r9Y0DKqvn2u2D61wuz284Im8=",
+        "originContent": "- Seed range: 0 to 4,294,967,295 (32-bit integer)",
+        "translatedContent": "- デバッグやワークフロー制御のために一貫した音声出力を可能に"
+      },
+      {
+        "row": 21,
+        "rowsha": "kylU+FV1HXlotxzZM3h2tg1hueiuEim/GQHytklRY8Y=",
+        "originContent": "- Enables consistent audio output for debugging and workflow control",
+        "translatedContent": "- Python 3.12以降の互換性問題を解決するためにPerthウォーターマークをオプション化"
+      },
+      {
+        "row": 22,
+        "rowsha": "QRx/bVgdc0ktyUp4PH9cxCV7If757Mthf4q9E0npDLU=",
+        "originContent": "- Made Perth watermarking optional to fix Python 3.12+ compatibility issues",
+        "translatedContent": "- resemble-perthのインポート失敗時はウォーターマークなしでノードが機能"
+      },
+      {
+        "row": 23,
+        "rowsha": "6QbvexiqC8ZtIVOrGItTthm0LZDCwzIX+pQA+/2zbt0=",
+        "originContent": "- Nodes now function without watermarking if resemble-perth import fails",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 2025/5/31"
+      },
+      {
+        "row": 25,
+        "rowsha": "ZIc3W5rnLqRhIimCnVxpyaFxY8NS4S7zXZVqs3LFfH0=",
+        "originContent": "### 5/31/2025",
+        "translatedContent": "- Persistentモデルの読み込みと読み込みバー機能を追加"
+      },
+      {
+        "row": 26,
+        "rowsha": "D1Mx8kubMbaKy9qVos7FRp8cJ2gwA620xz/z2tmUimk=",
+        "originContent": "- Added Persistent model loading, and loading bar functionality",
+        "translatedContent": "- Mac対応を追加（要テストなので連絡ください）"
+      },
+      {
+        "row": 27,
+        "rowsha": "DHQqwmIiCZRkq9JFvmm1qQV+yQOJMdNtVup4IMYQDrw=",
+        "originContent": "- Added Mac support (needs to be tested so HMU)",
+        "translatedContent": "- chatterbox-ttsライブラリを削除し、ネイティブ推論コードを実装"
+      },
+      {
+        "row": 28,
+        "rowsha": "Yk+lMl65VGla3xMxxJh1FQk08t/tEfTgTgGXLUSz0s4=",
+        "originContent": "- removed the chatterbox-tts library and implemented native inference code.",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

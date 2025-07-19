@@ -1,0 +1,428 @@
+[
+  {
+    "row": 1,
+    "rowsha": "17UjZVjXVbrSu0h5LofD/H3pm5e2al4SpqWHJIJk2ug=",
+    "originContent": "# DreamO Comfyui",
+    "translatedContent": "<translate-content># DreamO Comfyui"
+  },
+  {
+    "row": 2,
+    "rowsha": "fFUpCAsCX9uI/czbUSj7Qjk2yTF8J0IkhPGDs5WAuZo=",
+    "originContent": "[DreamO](https://github.com/bytedance/DreamO) ComfyUI native implementation.",
+    "translatedContent": "[DreamO](https://github.com/bytedance/DreamO) ComfyUI 原生实现。"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "r/ehcfuZKq8/jKpHkXmAKImAM52zrW0IFdU7bIJGpEo=",
+    "originContent": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2504.16915) [![demo](https://img.shields.io/badge/🤗-HuggingFace_Demo-orange)](https://huggingface.co/spaces/ByteDance/DreamO) <br>",
+    "translatedContent": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2504.16915) [![demo](https://img.shields.io/badge/🤗-HuggingFace_Demo-orange)](https://huggingface.co/spaces/ByteDance/DreamO) <br>"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "8ijpkcyzx801OF8SslSi/Iivnvz+tMFfi8WvJ3NGF4Q=",
+    "originContent": "<img width=\"1485\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/0954b0bf-63db-463f-ae25-9cd983b462db\" />",
+    "translatedContent": "<img width=\"1485\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/0954b0bf-63db-463f-ae25-9cd983b462db\" />"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "ZphYP3KFdSH7l412/R3vlAxScJq3wsM96pgU85PhayY=",
+    "originContent": "> [!Important]  ",
+    "translatedContent": "> [!Important]  "
+  },
+  {
+    "row": 10,
+    "rowsha": "5gmfO2RNyJE/FWtxvw58P2Z49oYlahoyjJM1AdRUNPs=",
+    "originContent": "> **2025.06.24** - We are excited to release **DreamO v1.1** with significant improvements in image quality, reduced likelihood of body composition errors, and enhanced aesthetics. [Learn more about this model](https://github.com/bytedance/DreamO/blob/main/dreamo_v1.1.md)",
+    "translatedContent": "> **2025.06.24** - 我们很高兴发布 **DreamO v1.1**，大幅提升了图像质量，减少了人体构图错误的可能性，并增强了美学效果。 [了解更多关于此模型的信息](https://github.com/bytedance/DreamO/blob/main/dreamo_v1.1.md)"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+    "originContent": "## Install",
+    "translatedContent": "## 安装"
+  },
+  {
+    "row": 14,
+    "rowsha": "5FpJld2q40ONH0p5o0xCuQgenZp8B6pqzKDI7f0yTTU=",
+    "originContent": "This implementation is based on the 2025.5.19 version of ComfyUI (commit ID: e930a38). Compatibility issues may occur if you're using an older version.",
+    "translatedContent": "此实现基于 2025.5.19 版本的 ComfyUI（提交ID：e930a38）。如果您使用较旧版本，可能会出现兼容性问题。"
+  },
+  {
+    "row": 15,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 16,
+    "rowsha": "q/sbFsulaTxzrb59TQNaD6RQpYsMS+eNAaVd39VLNv0=",
+    "originContent": "# manual install",
+    "translatedContent": "# manual install"
+  },
+  {
+    "row": 17,
+    "rowsha": "fBKPSrUbvtk4PEDZ2I0Gsg5+MzrqVgjIB1kE4YIph30=",
+    "originContent": "cd custom_nodes",
+    "translatedContent": "cd custom_nodes"
+  },
+  {
+    "row": 18,
+    "rowsha": "pAGukGb1oCfZ4PRXFDfknrNGCOthY3HuWdAWz6sELno=",
+    "originContent": "git clone https://github.com/ToTheBeginning/ComfyUI-DreamO.git",
+    "translatedContent": "git clone https://github.com/ToTheBeginning/ComfyUI-DreamO.git"
+  },
+  {
+    "row": 19,
+    "rowsha": "cwy0McOF13WLvtJlbiPH2AQ0LC8to3dAaeAEd4hcJsk=",
+    "originContent": "# Please make sure that you have installed the forked version of facexlib, not the original facexlib. Otherwise, you may encounter face parsing errors.",
+    "translatedContent": "# Please make sure that you have installed the forked version of facexlib, not the original facexlib. Otherwise, you may encounter face parsing errors."
+  },
+  {
+    "row": 20,
+    "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+    "originContent": "pip install -r requirements.txt",
+    "translatedContent": "pip install -r requirements.txt"
+  },
+  {
+    "row": 21,
+    "rowsha": "UWIB/f0B60E6/lZVIkDmJjEuBMwNmW+LKZWD6m+xi+Q=",
+    "originContent": "# restart comfyui",
+    "translatedContent": "# restart comfyui"
+  },
+  {
+    "row": 22,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 模型"
+  },
+  {
+    "row": 24,
+    "rowsha": "AoHlaDPjZgb9nVglKkYRzMoAD9KpBtDB66w3Szti40I=",
+    "originContent": "## Models",
+    "translatedContent": "### FLUX 模型"
+  },
+  {
+    "row": 25,
+    "rowsha": "fl6vDoAGmBsNAFCm1m62ZDqhZiR+ulZhzzejq13o45Y=",
+    "originContent": "### FLUX models",
+    "translatedContent": "如果你的机器上已经下载了 FLUX 模型，可以跳过此步骤。"
+  },
+  {
+    "row": 26,
+    "rowsha": "5qZYuizI54vH0S7Y7XERd9aqVKo0xnAP5Fmxq//SbXU=",
+    "originContent": "If your machine already has FLUX models downloaded, you can skip this.",
+    "translatedContent": "- 原始 bf16 模型: [dit](https://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/flux1-dev.safetensors), [t5](https://huggingface.co/comfyanonymous/flux_text_encoders/blob/main/t5xxl_fp16.safetensors)"
+  },
+  {
+    "row": 27,
+    "rowsha": "aELhqIrQppFZgf/HNS87Co+1U3boRKSvGMzKbYV/jm4=",
+    "originContent": "- Original bf16 model: [dit](https://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/flux1-dev.safetensors), [t5](https://huggingface.co/comfyanonymous/flux_text_encoders/blob/main/t5xxl_fp16.safetensors)",
+    "translatedContent": "- 8 位 FP8: [dit](https://huggingface.co/Comfy-Org/flux1-dev/blob/main/flux1-dev-fp8.safetensors), [t5](https://huggingface.co/comfyanonymous/flux_text_encoders/blob/main/t5xxl_fp8_e4m3fn.safetensors)"
+  },
+  {
+    "row": 28,
+    "rowsha": "pzxmZFLhEng1Mc6ELO6+Wh1tU5BAGHG6kooFkAJTOtA=",
+    "originContent": "- 8 bit FP8: [dit](https://huggingface.co/Comfy-Org/flux1-dev/blob/main/flux1-dev-fp8.safetensors), [t5](https://huggingface.co/comfyanonymous/flux_text_encoders/blob/main/t5xxl_fp8_e4m3fn.safetensors)",
+    "translatedContent": "- Clip 和 VAE（适用于所有模型）: [clip](https://huggingface.co/comfyanonymous/flux_text_encoders/blob/main/clip_l.safetensors), [vae](https://huggingface.co/black-forest-labs/FLUX.1-schnell/blob/main/ae.safetensors)"
+  },
+  {
+    "row": 29,
+    "rowsha": "gMuDUcQYxZfZs4RRzQ2AS0mgvGv/P9wFM/de0Vzd/eg=",
+    "originContent": "- Clip and VAE (for all models): [clip](https://huggingface.co/comfyanonymous/flux_text_encoders/blob/main/clip_l.safetensors), [vae](https://huggingface.co/black-forest-labs/FLUX.1-schnell/blob/main/ae.safetensors)",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### DreamO 模型"
+  },
+  {
+    "row": 31,
+    "rowsha": "+uvGqWKkDnozL972APkiojKUvSwzA2xlKGEYyFf6UXg=",
+    "originContent": "### DreamO models",
+    "translatedContent": "- 下载 https://huggingface.co/ByteDance/DreamO/tree/main/comfyui 中所有以 `.safetensors` 结尾的文件 => `ComfyUI/models/loras`。"
+  },
+  {
+    "row": 32,
+    "rowsha": "CcBTSXFjXGLDtq8YAirH7ukW0wkz+CF1yviA0NguiYU=",
+    "originContent": "- Download all files ending with `.safetensors` in https://huggingface.co/ByteDance/DreamO/tree/main/comfyui => `ComfyUI/models/loras`.",
+    "translatedContent": "- 🔥🔥**v1.1**：下载 https://huggingface.co/ByteDance/DreamO/tree/main/v1.1 中所有以 `.safetensors` 结尾的文件 => `ComfyUI/models/loras`。"
+  },
+  {
+    "row": 33,
+    "rowsha": "WhDVrvCiU0qw2CG0nGVB8IJie6lBrz1aznNTz8VreIQ=",
+    "originContent": "- 🔥🔥**v1.1**: Download all files ending with `.safetensors` in https://huggingface.co/ByteDance/DreamO/tree/main/v1.1 => `ComfyUI/models/loras`.",
+    "translatedContent": "- （支持自动下载）下载 [dreamo-embedding](https://huggingface.co/ByteDance/DreamO/blob/main/embedding.safetensors) => `ComfyUI/models/dreamo`"
+  },
+  {
+    "row": 34,
+    "rowsha": "rIziEISy4mWJYUto/EO3/DDVz2Lvc7Ff/00KrRPwlGg=",
+    "originContent": "- (Support auto-download) Download [dreamo-embedding](https://huggingface.co/ByteDance/DreamO/blob/main/embedding.safetensors) => `ComfyUI/models/dreamo`",
+    "translatedContent": "- （支持自动下载）下载 [ben2](https://huggingface.co/PramaLLC/BEN2/blob/main/model.safetensors) => `ComfyUI/models/dreamo`"
+  },
+  {
+    "row": 35,
+    "rowsha": "aR3q1ob7QBpAOfmsSx8VOAQRwg4ZsEVI2MMkt5Zo9tE=",
+    "originContent": "- (Support auto-download) Download [ben2](https://huggingface.co/PramaLLC/BEN2/blob/main/model.safetensors) => `ComfyUI/models/dreamo`",
+    "translatedContent": "- 下载 [flux-turbo](https://huggingface.co/alimama-creative/FLUX.1-Turbo-Alpha/blob/main/diffusion_pytorch_model.safetensors) => `ComfyUI/models/loras`，并重命名为 `flux-turbo.safetensors`"
+  },
+  {
+    "row": 36,
+    "rowsha": "U0FdfWo3dXLjjvKpK4OpqN0N3L+Ts+9ddSGfma+8he8=",
+    "originContent": "- Download [flux-turbo](https://huggingface.co/alimama-creative/FLUX.1-Turbo-Alpha/blob/main/diffusion_pytorch_model.safetensors) => `ComfyUI/models/loras`, and rename it to `flux-turbo.safetensors`",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 工作流程"
+  },
+  {
+    "row": 38,
+    "rowsha": "MLwmMbu7mitd2Hk+dHDhIoZ0Af6IgpC1aRFmc9phlQs=",
+    "originContent": "## Workflows",
+    "translatedContent": "请在 [workflows](workflows) 文件夹中查找工作流程，[此 v1.1 工作流程](https://raw.githubusercontent.com/ToTheBeginning/ComfyUI-DreamO/main/workflows/dreamo_comfyui_v1.1.json) 是最新版本。"
+  },
+  {
+    "row": 39,
+    "rowsha": "RKKYM0bNYgPNc2p8ZAz39jzmfgF++OHebmmIg3hfE7g=",
+    "originContent": "Please fine the workflows in [workflows](workflows) folder, [this v1.1 workflow](https://raw.githubusercontent.com/ToTheBeginning/ComfyUI-DreamO/main/workflows/dreamo_comfyui_v1.1.json) is the latest version.",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "v1.1 模型结合 [Super-Realism LoRA](https://huggingface.co/strangerzonehf/Flux-Super-Realism-LoRA) 可以进一步增强真实感。但由于它是面向真实感的 LoRA，可能会影响风格迁移。根据需要使用。"
+  },
+  {
+    "row": 41,
+    "rowsha": "+RwaDhhcenqSwze7rkIfgZ6+j+WXuVjb9tfTOR9PXKU=",
+    "originContent": "The v1.1 model, when combined with the [Super-Realism LoRA](https://huggingface.co/strangerzonehf/Flux-Super-Realism-LoRA), can further enhance realism. However, since it's a realism-focused LoRA, it may affect style transfer. Use it as needed.",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 节点"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- DreamOProcessorLoader"
+  },
+  {
+    "row": 44,
+    "rowsha": "daHPBH0EPQJw1tOEeRaG1Pub2AUk3dx8+mRdPIM3PWk=",
+    "originContent": "## Nodes",
+    "translatedContent": "  - 该节点加载两个图像预处理模型：用于背景移除的 BEN2 模型和用于对齐人脸检测的 facexlib 模型。"
+  },
+  {
+    "row": 45,
+    "rowsha": "sYdXzudIA/SgMGu0JMfRBg2WwtbOYth3NPVrMIw7prg=",
+    "originContent": "- DreamOProcessorLoader",
+    "translatedContent": "- DreamORefEncode"
+  },
+  {
+    "row": 46,
+    "rowsha": "IqCFix9BHI+tG3/r1FfOnqS/RIG61BdoT/u0yZi5sX8=",
+    "originContent": "  - This node loads two image preprocessing models: the BEN2 model for background removal and the facexlib model for aligned face detection.",
+    "translatedContent": "  - 该节点根据选择的任务类型将参考图像编码为潜在表示。提供三种任务类型：ip、id 和 style。"
+  },
+  {
+    "row": 47,
+    "rowsha": "FwmANMOYIR6oz+eaEVitgQE4ErqUP4OEfXEGTNBShME=",
+    "originContent": "- DreamORefEncode",
+    "translatedContent": "    - ip：将移除参考图像的背景"
+  },
+  {
+    "row": 48,
+    "rowsha": "01Ae+ZU4kSc6DNrN7l9mnMhj7fqwNg7Luy8CqrMdn6k=",
+    "originContent": "  - This node encodes the reference image into a latent representation based on the selected task type. Three task types are available: ip, id, and style.",
+    "translatedContent": "    - id：将从参考图像中对齐并裁剪人脸，类似 PuLID"
+  },
+  {
+    "row": 49,
+    "rowsha": "vIAiHOqq/Qdld8qhill1v0dlla2QUA9rrCLgG8ofOM8=",
+    "originContent": "    - ip: will remove the backgound of the reference image",
+    "translatedContent": "    - style：将保留参考图像的背景。你仍需触发元提示以激活风格迁移任务"
+  },
+  {
+    "row": 50,
+    "rowsha": "y/9MJXCHn1FcePpF1QtSRMI0Qr+hQxmMts0Smlbgr6Q=",
+    "originContent": "    - id: will align&crop the face from the reference image, similar to PuLID",
+    "translatedContent": "- ApplyDreamO"
+  },
+  {
+    "row": 51,
+    "rowsha": "j3S/QBxnCrvutuVSrUWcfbfYvQ571JWhBwfcwwuMBdA=",
+    "originContent": "    - style: will keep the backgound of the reference image. you still need trigger meta prompt to activate the style transfer task",
+    "translatedContent": "  - 该节点为 Flux 模型添加钩子，以支持将参考潜在与噪声潜在连接。"
+  },
+  {
+    "row": 52,
+    "rowsha": "Qw5+Nm3zhIQcZJeo494fYulTr54TWLM9ErgCS2NPO40=",
+    "originContent": "- ApplyDreamO",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "i9sLCFELnoHCKWqoDbqkFTPP/6gL821V+3S6HO9iQic=",
+    "originContent": "  - This node adds a hook to the Flux model to support concatenating the reference latent with the noisy latent.",
+    "translatedContent": "## 注意"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 当前代码未实现真正的 CFG 逻辑，意味着你需要在采样器节点中将 cfg 设置为 1"
+  },
+  {
+    "row": 55,
+    "rowsha": "VYQvUTBNlrg7S7O5MUfgs2AFM5VCFr7AjtAep+bJRBw=",
+    "originContent": "## Note",
+    "translatedContent": "- 如前所述，我们是 ComfyUI 新手。如果你有更好的工作流程或建议，请告诉我们。"
+  },
+  {
+    "row": 56,
+    "rowsha": "0KKbADq4A/TBR6qcUcSDT6J5nSfi0sdKzGFMPTzpsmg=",
+    "originContent": "- The current code does not implement the logic for true CFG, which means you need to set cfg=1 in the sampler node",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "M2zqvc3aY3nA3p9Uc1ROATHGPkgMjQCDrYxtcgUmu2s=",
+    "originContent": "- As mentioned earlier, we're new to ComfyUI. If you have better workflows or suggestions, please let us know.",
+    "translatedContent": "欢迎贡献！"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "OQaVFD2/qmHd/T4z5n7rWNQQuZ1ynpDtT7DsaZDGdQE=",
+    "originContent": "Contributions are welcome!",
+    "translatedContent": "    "
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 致谢"
+  },
+  {
+    "row": 61,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "ComfyUI 插件的实现参考了 [ComfyUI_PuLID_Flux_ll](https://github.com/lldacing/ComfyUI_PuLID_Flux_ll)。"
+  },
+  {
+    "row": 62,
+    "rowsha": "zeUL2mcUYd628fTHqknKcxv2uqjN5wj1hlMFcVnzrpU=",
+    "originContent": "## Acknowledgement",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "WAXZI8UtQ+8Tb2avnF6eNOMAHcyJXOWk5uZlu9XIkaU=",
+    "originContent": "The implementation of the ComfyUI plugin refers to [ComfyUI_PuLID_Flux_ll](https://github.com/lldacing/ComfyUI_PuLID_Flux_ll).",
+    "translatedContent": "## 未来计划"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "✅ 请关注我们的基础仓库 [DreamO](https://github.com/bytedance/DreamO) —— 我们将在未来几周发布模型更新。"
+  },
+  {
+    "row": 65,
+    "rowsha": "BbJVvOf2VBYPtaTDxRZ/xPIYEdp6vJC8JNp3VdcpRzM=",
+    "originContent": "## Future Plans",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "WbTwU+xNgFJ1FvavmyF6S9Xpc7P/Aow4/tP20jLxC80=",
+    "originContent": "✅ Please follow our base repository [DreamO](https://github.com/bytedance/DreamO) — we will be releasing an update to the model in the coming weeks.",
+    "translatedContent": "## :e-mail: 联系方式"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "如有任何评论或问题，请 [创建新问题](https://github.com/xxx/xxx/issues/new/choose) 或联系 [Yanze Wu](https://tothebeginning.github.io/) 和 [Chong Mou](https://raw.githubusercontent.com/ToTheBeginning/ComfyUI-DreamO/main/mailto:eechongm@gmail.com)。"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "K5bAg1EjOpNN4wve36Z6v3sJb4XtaMFL5UG4PpfakXM=",
+    "originContent": "## :e-mail: Contact",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "bGeh6VnySscyyc9JhJlxwghDThIQ2Ml3teEkZVoHGPA=",
+    "originContent": "If you have any comments or questions, please [open a new issue](https://github.com/xxx/xxx/issues/new/choose) or contact [Yanze Wu](https://tothebeginning.github.io/) and [Chong Mou](https://raw.githubusercontent.com/ToTheBeginning/ComfyUI-DreamO/main/mailto:eechongm@gmail.com).",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

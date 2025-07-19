@@ -1,0 +1,467 @@
+[
+  {
+    "Id": 1,
+    "Content": "# DreamO Comfyui\n[DreamO](https://github.com/bytedance/DreamO) ComfyUI native implementation.\n\n[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2504.16915) [![demo](https://img.shields.io/badge/🤗-HuggingFace_Demo-orange)](https://huggingface.co/spaces/ByteDance/DreamO) <br>\n\n<img width=\"1485\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/0954b0bf-63db-463f-ae25-9cd983b462db\" />\n\n\n> [!Important]  \n> **2025.06.24** - We are excited to release **DreamO v1.1** with significant improvements in image quality, reduced likelihood of body composition errors, and enhanced aesthetics. [Learn more about this model](https://github.com/bytedance/DreamO/blob/main/dreamo_v1.1.md)\n\n\n## Install\nThis implementation is based on the 2025.5.19 version of ComfyUI (commit ID: e930a38). Compatibility issues may occur if you're using an older version.",
+    "ContentSha": "gYjlm1IxCaTKDKQU4Pnaq2i8cm7VzXYzFz7Tb1z4whs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# DreamO Comfyui\n[DreamO](https://github.com/bytedance/DreamO) ComfyUI native implementation.\n\n[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2504.16915) [![demo](https://img.shields.io/badge/🤗-HuggingFace_Demo-orange)](https://huggingface.co/spaces/ByteDance/DreamO) <br>\n\n<img width=\"1485\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/0954b0bf-63db-463f-ae25-9cd983b462db\" />\n\n\n> [!Important]  \n> **2025.06.24** - We are excited to release **DreamO v1.1** with significant improvements in image quality, reduced likelihood of body composition errors, and enhanced aesthetics. [Learn more about this model](https://github.com/bytedance/DreamO/blob/main/dreamo_v1.1.md)\n\n\n## Install\nThis implementation is based on the 2025.5.19 version of ComfyUI (commit ID: e930a38). Compatibility issues may occur if you're using an older version.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "17UjZVjXVbrSu0h5LofD/H3pm5e2al4SpqWHJIJk2ug=",
+        "originContent": "# DreamO Comfyui",
+        "translatedContent": "# DreamO Comfyui"
+      },
+      {
+        "row": 2,
+        "rowsha": "fFUpCAsCX9uI/czbUSj7Qjk2yTF8J0IkhPGDs5WAuZo=",
+        "originContent": "[DreamO](https://github.com/bytedance/DreamO) ComfyUI native implementation.",
+        "translatedContent": "[DreamO](https://github.com/bytedance/DreamO) ComfyUI native implementation."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "r/ehcfuZKq8/jKpHkXmAKImAM52zrW0IFdU7bIJGpEo=",
+        "originContent": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2504.16915) [![demo](https://img.shields.io/badge/🤗-HuggingFace_Demo-orange)](https://huggingface.co/spaces/ByteDance/DreamO) <br>",
+        "translatedContent": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2504.16915) [![demo](https://img.shields.io/badge/🤗-HuggingFace_Demo-orange)](https://huggingface.co/spaces/ByteDance/DreamO) <br>"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "8ijpkcyzx801OF8SslSi/Iivnvz+tMFfi8WvJ3NGF4Q=",
+        "originContent": "<img width=\"1485\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/0954b0bf-63db-463f-ae25-9cd983b462db\" />",
+        "translatedContent": "<img width=\"1485\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/0954b0bf-63db-463f-ae25-9cd983b462db\" />"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "ZphYP3KFdSH7l412/R3vlAxScJq3wsM96pgU85PhayY=",
+        "originContent": "> [!Important]  ",
+        "translatedContent": "> [!Important]  "
+      },
+      {
+        "row": 10,
+        "rowsha": "5gmfO2RNyJE/FWtxvw58P2Z49oYlahoyjJM1AdRUNPs=",
+        "originContent": "> **2025.06.24** - We are excited to release **DreamO v1.1** with significant improvements in image quality, reduced likelihood of body composition errors, and enhanced aesthetics. [Learn more about this model](https://github.com/bytedance/DreamO/blob/main/dreamo_v1.1.md)",
+        "translatedContent": "> **2025.06.24** - We are excited to release **DreamO v1.1** with significant improvements in image quality, reduced likelihood of body composition errors, and enhanced aesthetics. [Learn more about this model](https://github.com/bytedance/DreamO/blob/main/dreamo_v1.1.md)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+        "originContent": "## Install",
+        "translatedContent": "## Install"
+      },
+      {
+        "row": 14,
+        "rowsha": "5FpJld2q40ONH0p5o0xCuQgenZp8B6pqzKDI7f0yTTU=",
+        "originContent": "This implementation is based on the 2025.5.19 version of ComfyUI (commit ID: e930a38). Compatibility issues may occur if you're using an older version.",
+        "translatedContent": "This implementation is based on the 2025.5.19 version of ComfyUI (commit ID: e930a38). Compatibility issues may occur if you're using an older version."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```shell\n# manual install\ncd custom_nodes\ngit clone https://github.com/ToTheBeginning/ComfyUI-DreamO.git\n# Please make sure that you have installed the forked version of facexlib, not the original facexlib. Otherwise, you may encounter face parsing errors.\npip install -r requirements.txt\n# restart comfyui\n```",
+    "ContentSha": "0toeBnmcZGVFYFGa0gSJ6R8tq5eepN/f+ONVL4a9xMg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\n# manual install\ncd custom_nodes\ngit clone https://github.com/ToTheBeginning/ComfyUI-DreamO.git\n# Please make sure that you have installed the forked version of facexlib, not the original facexlib. Otherwise, you may encounter face parsing errors.\npip install -r requirements.txt\n# restart comfyui\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "q/sbFsulaTxzrb59TQNaD6RQpYsMS+eNAaVd39VLNv0=",
+        "originContent": "# manual install",
+        "translatedContent": "# manual install"
+      },
+      {
+        "row": 3,
+        "rowsha": "fBKPSrUbvtk4PEDZ2I0Gsg5+MzrqVgjIB1kE4YIph30=",
+        "originContent": "cd custom_nodes",
+        "translatedContent": "cd custom_nodes"
+      },
+      {
+        "row": 4,
+        "rowsha": "pAGukGb1oCfZ4PRXFDfknrNGCOthY3HuWdAWz6sELno=",
+        "originContent": "git clone https://github.com/ToTheBeginning/ComfyUI-DreamO.git",
+        "translatedContent": "git clone https://github.com/ToTheBeginning/ComfyUI-DreamO.git"
+      },
+      {
+        "row": 5,
+        "rowsha": "cwy0McOF13WLvtJlbiPH2AQ0LC8to3dAaeAEd4hcJsk=",
+        "originContent": "# Please make sure that you have installed the forked version of facexlib, not the original facexlib. Otherwise, you may encounter face parsing errors.",
+        "translatedContent": "# Please make sure that you have installed the forked version of facexlib, not the original facexlib. Otherwise, you may encounter face parsing errors."
+      },
+      {
+        "row": 6,
+        "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+        "originContent": "pip install -r requirements.txt",
+        "translatedContent": "pip install -r requirements.txt"
+      },
+      {
+        "row": 7,
+        "rowsha": "UWIB/f0B60E6/lZVIkDmJjEuBMwNmW+LKZWD6m+xi+Q=",
+        "originContent": "# restart comfyui",
+        "translatedContent": "# restart comfyui"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Models\n### FLUX models\nIf your machine already has FLUX models downloaded, you can skip this.\n- Original bf16 model: [dit](https://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/flux1-dev.safetensors), [t5](https://huggingface.co/comfyanonymous/flux_text_encoders/blob/main/t5xxl_fp16.safetensors)\n- 8 bit FP8: [dit](https://huggingface.co/Comfy-Org/flux1-dev/blob/main/flux1-dev-fp8.safetensors), [t5](https://huggingface.co/comfyanonymous/flux_text_encoders/blob/main/t5xxl_fp8_e4m3fn.safetensors)\n- Clip and VAE (for all models): [clip](https://huggingface.co/comfyanonymous/flux_text_encoders/blob/main/clip_l.safetensors), [vae](https://huggingface.co/black-forest-labs/FLUX.1-schnell/blob/main/ae.safetensors)\n\n### DreamO models\n- Download all files ending with `.safetensors` in https://huggingface.co/ByteDance/DreamO/tree/main/comfyui => `ComfyUI/models/loras`.\n- 🔥🔥**v1.1**: Download all files ending with `.safetensors` in https://huggingface.co/ByteDance/DreamO/tree/main/v1.1 => `ComfyUI/models/loras`.\n- (Support auto-download) Download [dreamo-embedding](https://huggingface.co/ByteDance/DreamO/blob/main/embedding.safetensors) => `ComfyUI/models/dreamo`\n- (Support auto-download) Download [ben2](https://huggingface.co/PramaLLC/BEN2/blob/main/model.safetensors) => `ComfyUI/models/dreamo`\n- Download [flux-turbo](https://huggingface.co/alimama-creative/FLUX.1-Turbo-Alpha/blob/main/diffusion_pytorch_model.safetensors) => `ComfyUI/models/loras`, and rename it to `flux-turbo.safetensors`\n\n## Workflows\nPlease fine the workflows in [workflows](workflows) folder, [this v1.1 workflow](https://raw.githubusercontent.com/ToTheBeginning/ComfyUI-DreamO/main/workflows/dreamo_comfyui_v1.1.json) is the latest version.\n\nThe v1.1 model, when combined with the [Super-Realism LoRA](https://huggingface.co/strangerzonehf/Flux-Super-Realism-LoRA), can further enhance realism. However, since it's a realism-focused LoRA, it may affect style transfer. Use it as needed.\n\n\n## Nodes\n- DreamOProcessorLoader\n  - This node loads two image preprocessing models: the BEN2 model for background removal and the facexlib model for aligned face detection.\n- DreamORefEncode\n  - This node encodes the reference image into a latent representation based on the selected task type. Three task types are available: ip, id, and style.\n    - ip: will remove the backgound of the reference image\n    - id: will align&crop the face from the reference image, similar to PuLID\n    - style: will keep the backgound of the reference image. you still need trigger meta prompt to activate the style transfer task\n- ApplyDreamO\n  - This node adds a hook to the Flux model to support concatenating the reference latent with the noisy latent.\n\n## Note\n- The current code does not implement the logic for true CFG, which means you need to set cfg=1 in the sampler node\n- As mentioned earlier, we're new to ComfyUI. If you have better workflows or suggestions, please let us know.\n\nContributions are welcome!\n\n    \n## Acknowledgement\nThe implementation of the ComfyUI plugin refers to [ComfyUI_PuLID_Flux_ll](https://github.com/lldacing/ComfyUI_PuLID_Flux_ll).\n\n## Future Plans\n✅ Please follow our base repository [DreamO](https://github.com/bytedance/DreamO) — we will be releasing an update to the model in the coming weeks.\n\n\n## :e-mail: Contact\nIf you have any comments or questions, please [open a new issue](https://github.com/xxx/xxx/issues/new/choose) or contact [Yanze Wu](https://tothebeginning.github.io/) and [Chong Mou](https://raw.githubusercontent.com/ToTheBeginning/ComfyUI-DreamO/main/mailto:eechongm@gmail.com).\n",
+    "ContentSha": "WktR3EASRfFS5x7AYXyKmCh+CB+ZevM9w1xEJmkhBzA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Models\n### FLUX models\nIf your machine already has FLUX models downloaded, you can skip this.\n- Original bf16 model: [dit](https://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/flux1-dev.safetensors), [t5](https://huggingface.co/comfyanonymous/flux_text_encoders/blob/main/t5xxl_fp16.safetensors)\n- 8 bit FP8: [dit](https://huggingface.co/Comfy-Org/flux1-dev/blob/main/flux1-dev-fp8.safetensors), [t5](https://huggingface.co/comfyanonymous/flux_text_encoders/blob/main/t5xxl_fp8_e4m3fn.safetensors)\n- Clip and VAE (for all models): [clip](https://huggingface.co/comfyanonymous/flux_text_encoders/blob/main/clip_l.safetensors), [vae](https://huggingface.co/black-forest-labs/FLUX.1-schnell/blob/main/ae.safetensors)\n\n### DreamO models\n- Download all files ending with `.safetensors` in https://huggingface.co/ByteDance/DreamO/tree/main/comfyui => `ComfyUI/models/loras`.\n- 🔥🔥**v1.1**: Download all files ending with `.safetensors` in https://huggingface.co/ByteDance/DreamO/tree/main/v1.1 => `ComfyUI/models/loras`.\n- (Support auto-download) Download [dreamo-embedding](https://huggingface.co/ByteDance/DreamO/blob/main/embedding.safetensors) => `ComfyUI/models/dreamo`\n- (Support auto-download) Download [ben2](https://huggingface.co/PramaLLC/BEN2/blob/main/model.safetensors) => `ComfyUI/models/dreamo`\n- Download [flux-turbo](https://huggingface.co/alimama-creative/FLUX.1-Turbo-Alpha/blob/main/diffusion_pytorch_model.safetensors) => `ComfyUI/models/loras`, and rename it to `flux-turbo.safetensors`\n\n## Workflows\nPlease find the workflows in [workflows](workflows) folder, [this v1.1 workflow](https://raw.githubusercontent.com/ToTheBeginning/ComfyUI-DreamO/main/workflows/dreamo_comfyui_v1.1.json) is the latest version.\n\nThe v1.1 model, when combined with the [Super-Realism LoRA](https://huggingface.co/strangerzonehf/Flux-Super-Realism-LoRA), can further enhance realism. However, since it's a realism-focused LoRA, it may affect style transfer. Use it as needed.\n\n\n## Nodes\n- DreamOProcessorLoader\n  - This node loads two image preprocessing models: the BEN2 model for background removal and the facexlib model for aligned face detection.\n- DreamORefEncode\n  - This node encodes the reference image into a latent representation based on the selected task type. Three task types are available: ip, id, and style.\n    - ip: will remove the background of the reference image\n    - id: will align & crop the face from the reference image, similar to PuLID\n    - style: will keep the background of the reference image. You still need to trigger meta prompt to activate the style transfer task\n- ApplyDreamO\n  - This node adds a hook to the Flux model to support concatenating the reference latent with the noisy latent.\n\n## Note\n- The current code does not implement the logic for true CFG, which means you need to set cfg=1 in the sampler node\n- As mentioned earlier, we're new to ComfyUI. If you have better workflows or suggestions, please let us know.\n\nContributions are welcome!\n\n    \n## Acknowledgement\nThe implementation of the ComfyUI plugin refers to [ComfyUI_PuLID_Flux_ll](https://github.com/lldacing/ComfyUI_PuLID_Flux_ll).\n\n## Future Plans\n✅ Please follow our base repository [DreamO](https://github.com/bytedance/DreamO) — we will be releasing an update to the model in the coming weeks.\n\n\n## :e-mail: Contact\nIf you have any comments or questions, please [open a new issue](https://github.com/xxx/xxx/issues/new/choose) or contact [Yanze Wu](https://tothebeginning.github.io/) and [Chong Mou](https://raw.githubusercontent.com/ToTheBeginning/ComfyUI-DreamO/main/mailto:eechongm@gmail.com).\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Models"
+      },
+      {
+        "row": 2,
+        "rowsha": "AoHlaDPjZgb9nVglKkYRzMoAD9KpBtDB66w3Szti40I=",
+        "originContent": "## Models",
+        "translatedContent": "### FLUX models"
+      },
+      {
+        "row": 3,
+        "rowsha": "fl6vDoAGmBsNAFCm1m62ZDqhZiR+ulZhzzejq13o45Y=",
+        "originContent": "### FLUX models",
+        "translatedContent": "If your machine already has FLUX models downloaded, you can skip this."
+      },
+      {
+        "row": 4,
+        "rowsha": "5qZYuizI54vH0S7Y7XERd9aqVKo0xnAP5Fmxq//SbXU=",
+        "originContent": "If your machine already has FLUX models downloaded, you can skip this.",
+        "translatedContent": "- Original bf16 model: [dit](https://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/flux1-dev.safetensors), [t5](https://huggingface.co/comfyanonymous/flux_text_encoders/blob/main/t5xxl_fp16.safetensors)"
+      },
+      {
+        "row": 5,
+        "rowsha": "aELhqIrQppFZgf/HNS87Co+1U3boRKSvGMzKbYV/jm4=",
+        "originContent": "- Original bf16 model: [dit](https://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/flux1-dev.safetensors), [t5](https://huggingface.co/comfyanonymous/flux_text_encoders/blob/main/t5xxl_fp16.safetensors)",
+        "translatedContent": "- 8 bit FP8: [dit](https://huggingface.co/Comfy-Org/flux1-dev/blob/main/flux1-dev-fp8.safetensors), [t5](https://huggingface.co/comfyanonymous/flux_text_encoders/blob/main/t5xxl_fp8_e4m3fn.safetensors)"
+      },
+      {
+        "row": 6,
+        "rowsha": "pzxmZFLhEng1Mc6ELO6+Wh1tU5BAGHG6kooFkAJTOtA=",
+        "originContent": "- 8 bit FP8: [dit](https://huggingface.co/Comfy-Org/flux1-dev/blob/main/flux1-dev-fp8.safetensors), [t5](https://huggingface.co/comfyanonymous/flux_text_encoders/blob/main/t5xxl_fp8_e4m3fn.safetensors)",
+        "translatedContent": "- Clip and VAE (for all models): [clip](https://huggingface.co/comfyanonymous/flux_text_encoders/blob/main/clip_l.safetensors), [vae](https://huggingface.co/black-forest-labs/FLUX.1-schnell/blob/main/ae.safetensors)"
+      },
+      {
+        "row": 7,
+        "rowsha": "gMuDUcQYxZfZs4RRzQ2AS0mgvGv/P9wFM/de0Vzd/eg=",
+        "originContent": "- Clip and VAE (for all models): [clip](https://huggingface.co/comfyanonymous/flux_text_encoders/blob/main/clip_l.safetensors), [vae](https://huggingface.co/black-forest-labs/FLUX.1-schnell/blob/main/ae.safetensors)",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### DreamO models"
+      },
+      {
+        "row": 9,
+        "rowsha": "+uvGqWKkDnozL972APkiojKUvSwzA2xlKGEYyFf6UXg=",
+        "originContent": "### DreamO models",
+        "translatedContent": "- Download all files ending with `.safetensors` in https://huggingface.co/ByteDance/DreamO/tree/main/comfyui => `ComfyUI/models/loras`."
+      },
+      {
+        "row": 10,
+        "rowsha": "CcBTSXFjXGLDtq8YAirH7ukW0wkz+CF1yviA0NguiYU=",
+        "originContent": "- Download all files ending with `.safetensors` in https://huggingface.co/ByteDance/DreamO/tree/main/comfyui => `ComfyUI/models/loras`.",
+        "translatedContent": "- 🔥🔥**v1.1**: Download all files ending with `.safetensors` in https://huggingface.co/ByteDance/DreamO/tree/main/v1.1 => `ComfyUI/models/loras`."
+      },
+      {
+        "row": 11,
+        "rowsha": "WhDVrvCiU0qw2CG0nGVB8IJie6lBrz1aznNTz8VreIQ=",
+        "originContent": "- 🔥🔥**v1.1**: Download all files ending with `.safetensors` in https://huggingface.co/ByteDance/DreamO/tree/main/v1.1 => `ComfyUI/models/loras`.",
+        "translatedContent": "- (Support auto-download) Download [dreamo-embedding](https://huggingface.co/ByteDance/DreamO/blob/main/embedding.safetensors) => `ComfyUI/models/dreamo`"
+      },
+      {
+        "row": 12,
+        "rowsha": "rIziEISy4mWJYUto/EO3/DDVz2Lvc7Ff/00KrRPwlGg=",
+        "originContent": "- (Support auto-download) Download [dreamo-embedding](https://huggingface.co/ByteDance/DreamO/blob/main/embedding.safetensors) => `ComfyUI/models/dreamo`",
+        "translatedContent": "- (Support auto-download) Download [ben2](https://huggingface.co/PramaLLC/BEN2/blob/main/model.safetensors) => `ComfyUI/models/dreamo`"
+      },
+      {
+        "row": 13,
+        "rowsha": "aR3q1ob7QBpAOfmsSx8VOAQRwg4ZsEVI2MMkt5Zo9tE=",
+        "originContent": "- (Support auto-download) Download [ben2](https://huggingface.co/PramaLLC/BEN2/blob/main/model.safetensors) => `ComfyUI/models/dreamo`",
+        "translatedContent": "- Download [flux-turbo](https://huggingface.co/alimama-creative/FLUX.1-Turbo-Alpha/blob/main/diffusion_pytorch_model.safetensors) => `ComfyUI/models/loras`, and rename it to `flux-turbo.safetensors`"
+      },
+      {
+        "row": 14,
+        "rowsha": "U0FdfWo3dXLjjvKpK4OpqN0N3L+Ts+9ddSGfma+8he8=",
+        "originContent": "- Download [flux-turbo](https://huggingface.co/alimama-creative/FLUX.1-Turbo-Alpha/blob/main/diffusion_pytorch_model.safetensors) => `ComfyUI/models/loras`, and rename it to `flux-turbo.safetensors`",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Workflows"
+      },
+      {
+        "row": 16,
+        "rowsha": "MLwmMbu7mitd2Hk+dHDhIoZ0Af6IgpC1aRFmc9phlQs=",
+        "originContent": "## Workflows",
+        "translatedContent": "Please find the workflows in [workflows](workflows) folder, [this v1.1 workflow](https://raw.githubusercontent.com/ToTheBeginning/ComfyUI-DreamO/main/workflows/dreamo_comfyui_v1.1.json) is the latest version."
+      },
+      {
+        "row": 17,
+        "rowsha": "RKKYM0bNYgPNc2p8ZAz39jzmfgF++OHebmmIg3hfE7g=",
+        "originContent": "Please fine the workflows in [workflows](workflows) folder, [this v1.1 workflow](https://raw.githubusercontent.com/ToTheBeginning/ComfyUI-DreamO/main/workflows/dreamo_comfyui_v1.1.json) is the latest version.",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "The v1.1 model, when combined with the [Super-Realism LoRA](https://huggingface.co/strangerzonehf/Flux-Super-Realism-LoRA), can further enhance realism. However, since it's a realism-focused LoRA, it may affect style transfer. Use it as needed."
+      },
+      {
+        "row": 19,
+        "rowsha": "+RwaDhhcenqSwze7rkIfgZ6+j+WXuVjb9tfTOR9PXKU=",
+        "originContent": "The v1.1 model, when combined with the [Super-Realism LoRA](https://huggingface.co/strangerzonehf/Flux-Super-Realism-LoRA), can further enhance realism. However, since it's a realism-focused LoRA, it may affect style transfer. Use it as needed.",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Nodes"
+      },
+      {
+        "row": 22,
+        "rowsha": "daHPBH0EPQJw1tOEeRaG1Pub2AUk3dx8+mRdPIM3PWk=",
+        "originContent": "## Nodes",
+        "translatedContent": "- DreamOProcessorLoader"
+      },
+      {
+        "row": 23,
+        "rowsha": "sYdXzudIA/SgMGu0JMfRBg2WwtbOYth3NPVrMIw7prg=",
+        "originContent": "- DreamOProcessorLoader",
+        "translatedContent": "  - This node loads two image preprocessing models: the BEN2 model for background removal and the facexlib model for aligned face detection."
+      },
+      {
+        "row": 24,
+        "rowsha": "IqCFix9BHI+tG3/r1FfOnqS/RIG61BdoT/u0yZi5sX8=",
+        "originContent": "  - This node loads two image preprocessing models: the BEN2 model for background removal and the facexlib model for aligned face detection.",
+        "translatedContent": "- DreamORefEncode"
+      },
+      {
+        "row": 25,
+        "rowsha": "FwmANMOYIR6oz+eaEVitgQE4ErqUP4OEfXEGTNBShME=",
+        "originContent": "- DreamORefEncode",
+        "translatedContent": "  - This node encodes the reference image into a latent representation based on the selected task type. Three task types are available: ip, id, and style."
+      },
+      {
+        "row": 26,
+        "rowsha": "01Ae+ZU4kSc6DNrN7l9mnMhj7fqwNg7Luy8CqrMdn6k=",
+        "originContent": "  - This node encodes the reference image into a latent representation based on the selected task type. Three task types are available: ip, id, and style.",
+        "translatedContent": "    - ip: will remove the background of the reference image"
+      },
+      {
+        "row": 27,
+        "rowsha": "vIAiHOqq/Qdld8qhill1v0dlla2QUA9rrCLgG8ofOM8=",
+        "originContent": "    - ip: will remove the backgound of the reference image",
+        "translatedContent": "    - id: will align & crop the face from the reference image, similar to PuLID"
+      },
+      {
+        "row": 28,
+        "rowsha": "y/9MJXCHn1FcePpF1QtSRMI0Qr+hQxmMts0Smlbgr6Q=",
+        "originContent": "    - id: will align&crop the face from the reference image, similar to PuLID",
+        "translatedContent": "    - style: will keep the background of the reference image. You still need to trigger meta prompt to activate the style transfer task"
+      },
+      {
+        "row": 29,
+        "rowsha": "j3S/QBxnCrvutuVSrUWcfbfYvQ571JWhBwfcwwuMBdA=",
+        "originContent": "    - style: will keep the backgound of the reference image. you still need trigger meta prompt to activate the style transfer task",
+        "translatedContent": "- ApplyDreamO"
+      },
+      {
+        "row": 30,
+        "rowsha": "Qw5+Nm3zhIQcZJeo494fYulTr54TWLM9ErgCS2NPO40=",
+        "originContent": "- ApplyDreamO",
+        "translatedContent": "  - This node adds a hook to the Flux model to support concatenating the reference latent with the noisy latent."
+      },
+      {
+        "row": 31,
+        "rowsha": "i9sLCFELnoHCKWqoDbqkFTPP/6gL821V+3S6HO9iQic=",
+        "originContent": "  - This node adds a hook to the Flux model to support concatenating the reference latent with the noisy latent.",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Note"
+      },
+      {
+        "row": 33,
+        "rowsha": "VYQvUTBNlrg7S7O5MUfgs2AFM5VCFr7AjtAep+bJRBw=",
+        "originContent": "## Note",
+        "translatedContent": "- The current code does not implement the logic for true CFG, which means you need to set cfg=1 in the sampler node"
+      },
+      {
+        "row": 34,
+        "rowsha": "0KKbADq4A/TBR6qcUcSDT6J5nSfi0sdKzGFMPTzpsmg=",
+        "originContent": "- The current code does not implement the logic for true CFG, which means you need to set cfg=1 in the sampler node",
+        "translatedContent": "- As mentioned earlier, we're new to ComfyUI. If you have better workflows or suggestions, please let us know."
+      },
+      {
+        "row": 35,
+        "rowsha": "M2zqvc3aY3nA3p9Uc1ROATHGPkgMjQCDrYxtcgUmu2s=",
+        "originContent": "- As mentioned earlier, we're new to ComfyUI. If you have better workflows or suggestions, please let us know.",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Contributions are welcome!"
+      },
+      {
+        "row": 37,
+        "rowsha": "OQaVFD2/qmHd/T4z5n7rWNQQuZ1ynpDtT7DsaZDGdQE=",
+        "originContent": "Contributions are welcome!",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    "
+      },
+      {
+        "row": 39,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "## Acknowledgement"
+      },
+      {
+        "row": 40,
+        "rowsha": "zeUL2mcUYd628fTHqknKcxv2uqjN5wj1hlMFcVnzrpU=",
+        "originContent": "## Acknowledgement",
+        "translatedContent": "The implementation of the ComfyUI plugin refers to [ComfyUI_PuLID_Flux_ll](https://github.com/lldacing/ComfyUI_PuLID_Flux_ll)."
+      },
+      {
+        "row": 41,
+        "rowsha": "WAXZI8UtQ+8Tb2avnF6eNOMAHcyJXOWk5uZlu9XIkaU=",
+        "originContent": "The implementation of the ComfyUI plugin refers to [ComfyUI_PuLID_Flux_ll](https://github.com/lldacing/ComfyUI_PuLID_Flux_ll).",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Future Plans"
+      },
+      {
+        "row": 43,
+        "rowsha": "BbJVvOf2VBYPtaTDxRZ/xPIYEdp6vJC8JNp3VdcpRzM=",
+        "originContent": "## Future Plans",
+        "translatedContent": "✅ Please follow our base repository [DreamO](https://github.com/bytedance/DreamO) — we will be releasing an update to the model in the coming weeks."
+      },
+      {
+        "row": 44,
+        "rowsha": "WbTwU+xNgFJ1FvavmyF6S9Xpc7P/Aow4/tP20jLxC80=",
+        "originContent": "✅ Please follow our base repository [DreamO](https://github.com/bytedance/DreamO) — we will be releasing an update to the model in the coming weeks.",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## :e-mail: Contact"
+      },
+      {
+        "row": 47,
+        "rowsha": "K5bAg1EjOpNN4wve36Z6v3sJb4XtaMFL5UG4PpfakXM=",
+        "originContent": "## :e-mail: Contact",
+        "translatedContent": "If you have any comments or questions, please [open a new issue](https://github.com/xxx/xxx/issues/new/choose) or contact [Yanze Wu](https://tothebeginning.github.io/) and [Chong Mou](https://raw.githubusercontent.com/ToTheBeginning/ComfyUI-DreamO/main/mailto:eechongm@gmail.com)."
+      },
+      {
+        "row": 48,
+        "rowsha": "bGeh6VnySscyyc9JhJlxwghDThIQ2Ml3teEkZVoHGPA=",
+        "originContent": "If you have any comments or questions, please [open a new issue](https://github.com/xxx/xxx/issues/new/choose) or contact [Yanze Wu](https://tothebeginning.github.io/) and [Chong Mou](https://raw.githubusercontent.com/ToTheBeginning/ComfyUI-DreamO/main/mailto:eechongm@gmail.com).",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
