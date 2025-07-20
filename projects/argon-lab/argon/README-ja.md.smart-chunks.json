@@ -1,178 +1,346 @@
 [
   {
     "Id": 1,
-    "Content": "# Argon 🚀\n\n**Git-like MongoDB Branching for ML/AI Workflows**\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![Go](https://img.shields.io/badge/Go-1.24+-00ADD8?logo=go)](https://golang.org)\n[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python)](https://python.org)\n[![MongoDB](https://img.shields.io/badge/MongoDB-7.0+-47A248?logo=mongodb)](https://mongodb.com)\n\n> **🎉 Now Available!** Argon brings enterprise-grade MongoDB branching with sub-500ms operations, ML-native features, and a hybrid Go+Python architecture.\n\n## What is Argon?\n\nArgon is a MongoDB branching system that provides Git-like database operations optimized for ML/AI workflows. Think \"Neon for MongoDB\" with first-class support for data science teams.\n\n### Key Features\n\n- **⚡ Instant Branching**: Create database branches in <500ms regardless of size\n- **🔄 Copy-on-Write**: Efficient storage with 90%+ space savings vs full copies  \n- **🧠 ML-Native**: Built-in integrations with MLflow, DVC, Weights & Biases\n- **🌐 Real-time**: Live change streams and WebSocket-based dashboard\n- **☁️ Multi-cloud**: AWS S3, Google Cloud Storage, Azure Blob support\n- **🔒 Enterprise**: Authentication, RBAC, audit logs, compliance features\n\n## Architecture\n\nArgon uses a hybrid architecture optimizing for both performance and developer productivity:\n",
-    "ContentSha": "fyNlOgL3l7IMCJKiViDxlPfErXMkh8a9XN9/pJXMi2U=",
+    "Content": "<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# Argon - MongoDB Time Machine 🚀\n\n[![Build Status](https://github.com/argon-lab/argon/actions/workflows/ci.yml/badge.svg)](https://github.com/argon-lab/argon/actions/workflows/ci.yml)\n[![Go Report](https://goreportcard.com/badge/github.com/argon-lab/argon)](https://goreportcard.com/report/github.com/argon-lab/argon)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\n[![Homebrew](https://img.shields.io/badge/Homebrew-argonctl-orange?logo=homebrew)](https://github.com/argon-lab/homebrew-tap)\n[![npm](https://img.shields.io/npm/v/argonctl?logo=npm&label=npm)](https://www.npmjs.com/package/argonctl)\n[![PyPI](https://img.shields.io/pypi/v/argon-mongodb?logo=pypi&label=PyPI)](https://pypi.org/project/argon-mongodb/)\n\n**Travel through time in your MongoDB database. Branch, restore, and experiment without fear.**\n\n## What is Argon?\n\nArgon gives MongoDB superpowers with **Git-like branching** and **time travel**. Create instant database branches, restore to any point in history, and never lose data again.\n\n### 🎯 Key Benefits\n\n- **⚡ Instant Branches** - Clone your entire database in 1ms (not hours)\n- **⏰ Time Travel** - Query your data from any point in history\n- **🔄 Safe Restore** - Preview changes before restoring\n- **💾 Zero Storage Cost** - Branches share data efficiently\n- **🔌 Drop-in Compatible** - Works with existing MongoDB code\n\n## Quick Demo\n",
+    "ContentSha": "bvOvEYvnOlaGllvANADUzCTpHHj2ZY5E9Cpf0nsjNd4=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "<translate-content># Argon 🚀\n\n**ML/AIワークフロー向けのGit風MongoDBブランチ管理**\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![Go](https://img.shields.io/badge/Go-1.24+-00ADD8?logo=go)](https://golang.org)\n[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python)](https://python.org)\n[![MongoDB](https://img.shields.io/badge/MongoDB-7.0+-47A248?logo=mongodb)](https://mongodb.com)\n\n> **🎉 今すぐ利用可能！** Argonはサブ500msの操作速度、MLネイティブ機能、GoとPythonのハイブリッドアーキテクチャを備えたエンタープライズ級MongoDBブランチ管理を提供します。\n\n## Argonとは？\n\nArgonは、ML/AIワークフローに最適化されたGit風のデータベース操作を提供するMongoDBブランチシステムです。データサイエンスチーム向けの一流サポートを備えた「MongoDB版Neon」と考えてください。\n\n### 主な特徴\n\n- **⚡ インスタントブランチ**：サイズに関わらず500ms未満でデータベースブランチを作成  \n- **🔄 コピーオンライト**：完全コピーに比べ90%以上のストレージ節約を実現  \n- **🧠 MLネイティブ**：MLflow、DVC、Weights & Biasesとの組み込み連携  \n- **🌐 リアルタイム**：ライブ変更ストリームとWebSocketベースのダッシュボード  \n- **☁️ マルチクラウド**：AWS S3、Google Cloud Storage、Azure Blob対応  \n- **🔒 エンタープライズ**：認証、RBAC、監査ログ、コンプライアンス機能\n\n## アーキテクチャ\n\nArgonはパフォーマンスと開発者生産性の両方を最適化したハイブリッドアーキテクチャを採用しています：\n",
+    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 言語</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# Argon - MongoDB タイムマシン 🚀\n\n[![Build Status](https://github.com/argon-lab/argon/actions/workflows/ci.yml/badge.svg)](https://github.com/argon-lab/argon/actions/workflows/ci.yml)\n[![Go Report](https://goreportcard.com/badge/github.com/argon-lab/argon)](https://goreportcard.com/report/github.com/argon-lab/argon)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\n[![Homebrew](https://img.shields.io/badge/Homebrew-argonctl-orange?logo=homebrew)](https://github.com/argon-lab/homebrew-tap)\n[![npm](https://img.shields.io/npm/v/argonctl?logo=npm&label=npm)](https://www.npmjs.com/package/argonctl)\n[![PyPI](https://img.shields.io/pypi/v/argon-mongodb?logo=pypi&label=PyPI)](https://pypi.org/project/argon-mongodb/)\n\n**あなたのMongoDBデータベースで時をかけよう。ブランチ作成、復元、そして安心して実験。**\n\n## Argonとは？\n\nArgonはMongoDBに**Gitのようなブランチ機能**と**タイムトラベル**機能を与えます。瞬時にデータベースブランチを作成し、任意の時点に復元、データをもう失うことはありません。\n\n### 🎯 主なメリット\n\n- **⚡ 即時ブランチ** - データベース全体を1msでクローン（数時間ではなく）\n- **⏰ タイムトラベル** - 任意の過去の時点からデータをクエリ\n- **🔄 安全な復元** - 復元前に変更内容をプレビュー\n- **💾 ストレージコストゼロ** - ブランチは効率的にデータを共有\n- **🔌 そのまま互換** - 既存のMongoDBコードでそのまま動作\n\n## クイックデモ\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "1QC7VAt/NCTFqNaQuXuDDbWa4NoTn33T43JP8KC2o+g=",
-        "originContent": "# Argon 🚀",
-        "translatedContent": "<translate-content># Argon 🚀"
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
       },
       {
         "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
       },
       {
         "row": 3,
-        "rowsha": "1pVYCsElFIedjDsvkCmGT2yuEPUX4lr3isP4OGaawaY=",
-        "originContent": "**Git-like MongoDB Branching for ML/AI Workflows**",
-        "translatedContent": "**ML/AIワークフロー向けのGit風MongoDBブランチ管理**"
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 言語</summary>"
       },
       {
         "row": 4,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 5,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "GsQklPL67BzCgbZC5eW/hnU/bx4FMJ71Enm0ZHW82A4=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=en\">English</a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "QmxYiX3atr84pcXuQJeS/4zpdEX2e08rr0l3qgWTYv8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "2FtDif6mgRlsryD0bzHLfNDOuQxUcdi4jQVfb5AFI3c=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "t31CFNeMRTKSzvfbYrTJqw/rZvCg3KVyXaOAlNP/K7w=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "Eqhds69xptF28AlKaTH5GnoDMuEUjcidIKlDPE5S+gQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "RecLauOVHrr0z4otawBTJi+zU/7JeeA+HQHqlObkfN4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "YSzolYpWhQ0rQdXE662FO/45yaHfttbq9or8dtCiHpM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "Sc5yyFtBGwRqf+49U4GGhzTWHkzDzXd6sFQVfrHzf0Q=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=fr\">Français</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "kA27d7oG+z0h920mGDrETFDS3a2Lo2DqP3MQn4GlBUk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "acScMWtHrqpMJgXuMITqGtCCgCQslOLmIucg8n4bB08=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=es\">Español</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "XjA2ISVSp7nfFQBm6P0fmLLZXHr0o/56UT191TlIjoQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "fZd5gvLtqrpdGFKwiCuH1KCi5qQFJo+WsHRytivvSww=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "XG0XjbtbYl+1rs+P92rqNhpus7wnQxiTVtvTF6aW64w=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=pt\">Português</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "ZQaG/I+mB4y0GYEYCIOFQVGyMtBgxunGIpIIoVV3Evk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "GssN5W3vO8IGxmo1i2L0bnGAeeFgYCqBq087bNco1AY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "Ha8KH3fIFU0SN6VN3jO1xSPpYPREV8wf1VUvAGtF7CA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "olp+wsplh9DLlEBpPIsWhfZeb4BioCz5bJcPV+wIL6w=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "zrIKLXy6OuSNU7oRIpl6cpxgt1T5jJ74WZk2KyB2wqE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "3Z/UBVNXN//iQekhCGVGLJDW+Q0Zwpel7nA4cV7vodg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "aQdhet+TjAsqdC2c2QOyi0Aw9RrsTxLFNUnohhMuKHw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 27,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 28,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 29,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 30,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 5,
+        "row": 31,
+        "rowsha": "z/x8UkeKTn4FR4qfyZjJWKvQ3SedH/XrdAnFHL5Zh1c=",
+        "originContent": "# Argon - MongoDB Time Machine 🚀",
+        "translatedContent": "# Argon - MongoDB タイムマシン 🚀"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "1leEnkdqfQSaxeUUhVFYmbH8fCEkkCsjIsX7VWaMw4g=",
+        "originContent": "[![Build Status](https://github.com/argon-lab/argon/actions/workflows/ci.yml/badge.svg)](https://github.com/argon-lab/argon/actions/workflows/ci.yml)",
+        "translatedContent": "[![Build Status](https://github.com/argon-lab/argon/actions/workflows/ci.yml/badge.svg)](https://github.com/argon-lab/argon/actions/workflows/ci.yml)"
+      },
+      {
+        "row": 34,
+        "rowsha": "Df/Q5U/ZWysvH6/6I031CYYE9opXOBCJ5afDupTcNDA=",
+        "originContent": "[![Go Report](https://goreportcard.com/badge/github.com/argon-lab/argon)](https://goreportcard.com/report/github.com/argon-lab/argon)",
+        "translatedContent": "[![Go Report](https://goreportcard.com/badge/github.com/argon-lab/argon)](https://goreportcard.com/report/github.com/argon-lab/argon)"
+      },
+      {
+        "row": 35,
         "rowsha": "5l9EBMX+xpg3IKegexFP4++mEhzb3dzUumoGkJ5nThc=",
         "originContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
         "translatedContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
       },
       {
-        "row": 6,
-        "rowsha": "LZjmnt2PF+duriuD5bRAqqSbvrMv14tZecbRCl7qFXc=",
-        "originContent": "[![Go](https://img.shields.io/badge/Go-1.24+-00ADD8?logo=go)](https://golang.org)",
-        "translatedContent": "[![Go](https://img.shields.io/badge/Go-1.24+-00ADD8?logo=go)](https://golang.org)"
-      },
-      {
-        "row": 7,
-        "rowsha": "xZe/wHC8pH5B3+QDhcOK2FKv/BnLZ6NuttmGLAxNgZQ=",
-        "originContent": "[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python)](https://python.org)",
-        "translatedContent": "[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python)](https://python.org)"
-      },
-      {
-        "row": 8,
-        "rowsha": "pbBU44HVqdGsErbrx45cTWMFlFjWrr2hX1Z3jPjrv+w=",
-        "originContent": "[![MongoDB](https://img.shields.io/badge/MongoDB-7.0+-47A248?logo=mongodb)](https://mongodb.com)",
-        "translatedContent": "[![MongoDB](https://img.shields.io/badge/MongoDB-7.0+-47A248?logo=mongodb)](https://mongodb.com)"
-      },
-      {
-        "row": 9,
+        "row": 36,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 10,
-        "rowsha": "rb7Cn6gpVmSYBEROywiRhABaKXJ4ZqNmlRcIqOIsNPA=",
-        "originContent": "> **🎉 Now Available!** Argon brings enterprise-grade MongoDB branching with sub-500ms operations, ML-native features, and a hybrid Go+Python architecture.",
-        "translatedContent": "> **🎉 今すぐ利用可能！** Argonはサブ500msの操作速度、MLネイティブ機能、GoとPythonのハイブリッドアーキテクチャを備えたエンタープライズ級MongoDBブランチ管理を提供します。"
+        "row": 37,
+        "rowsha": "6FtlAwkRR2vS0B6j8fWdNJ1vwp8B0xRQP0fXiHiuwUg=",
+        "originContent": "[![Homebrew](https://img.shields.io/badge/Homebrew-argonctl-orange?logo=homebrew)](https://github.com/argon-lab/homebrew-tap)",
+        "translatedContent": "[![Homebrew](https://img.shields.io/badge/Homebrew-argonctl-orange?logo=homebrew)](https://github.com/argon-lab/homebrew-tap)"
       },
       {
-        "row": 11,
+        "row": 38,
+        "rowsha": "BsD55tOh9f26kA612c5sCl+dO+6vlZ+TvbbsGTSt9IQ=",
+        "originContent": "[![npm](https://img.shields.io/npm/v/argonctl?logo=npm&label=npm)](https://www.npmjs.com/package/argonctl)",
+        "translatedContent": "[![npm](https://img.shields.io/npm/v/argonctl?logo=npm&label=npm)](https://www.npmjs.com/package/argonctl)"
+      },
+      {
+        "row": 39,
+        "rowsha": "/CUiGHaG4IOZd58SO5O6SOAnhoKl4rcnq5mkqTJrgYQ=",
+        "originContent": "[![PyPI](https://img.shields.io/pypi/v/argon-mongodb?logo=pypi&label=PyPI)](https://pypi.org/project/argon-mongodb/)",
+        "translatedContent": "[![PyPI](https://img.shields.io/pypi/v/argon-mongodb?logo=pypi&label=PyPI)](https://pypi.org/project/argon-mongodb/)"
+      },
+      {
+        "row": 40,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 12,
+        "row": 41,
+        "rowsha": "5eJt4ooUG86S0oFM7bQtJMjD9YTbAe1KnRv3uUOT75s=",
+        "originContent": "**Travel through time in your MongoDB database. Branch, restore, and experiment without fear.**",
+        "translatedContent": "**あなたのMongoDBデータベースで時をかけよう。ブランチ作成、復元、そして安心して実験。**"
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
         "rowsha": "VIiNAjtJJolwPPNVqgfMvYyXJ7CiAIjgBe5z4YVaAJI=",
         "originContent": "## What is Argon?",
         "translatedContent": "## Argonとは？"
       },
       {
-        "row": 13,
+        "row": 44,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 14,
-        "rowsha": "rUkqM3Z9/fzDVIjsU/8rg+7Nsas6VKgPOvS1Ds9Z3/s=",
-        "originContent": "Argon is a MongoDB branching system that provides Git-like database operations optimized for ML/AI workflows. Think \"Neon for MongoDB\" with first-class support for data science teams.",
-        "translatedContent": "Argonは、ML/AIワークフローに最適化されたGit風のデータベース操作を提供するMongoDBブランチシステムです。データサイエンスチーム向けの一流サポートを備えた「MongoDB版Neon」と考えてください。"
+        "row": 45,
+        "rowsha": "1wimnzVihJJBUlwSjAhkypMnY/qK3sTae/GHOWvZ6aY=",
+        "originContent": "Argon gives MongoDB superpowers with **Git-like branching** and **time travel**. Create instant database branches, restore to any point in history, and never lose data again.",
+        "translatedContent": "ArgonはMongoDBに**Gitのようなブランチ機能**と**タイムトラベル**機能を与えます。瞬時にデータベースブランチを作成し、任意の時点に復元、データをもう失うことはありません。"
       },
       {
-        "row": 15,
+        "row": 46,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 16,
-        "rowsha": "HGAGcACdLJLrmf+fiUszXTc0S4m7FYM0E8dxVJXQ0Hk=",
-        "originContent": "### Key Features",
-        "translatedContent": "### 主な特徴"
+        "row": 47,
+        "rowsha": "+k2ewva16d3XfQ7bHgyPHxPpsLiOWQ0YNQcydvAODao=",
+        "originContent": "### 🎯 Key Benefits",
+        "translatedContent": "### 🎯 主なメリット"
       },
       {
-        "row": 17,
+        "row": 48,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 18,
-        "rowsha": "9MaW/LNx5IO2tsXs6ftIA89wYKPAs+930Ig7+GzO5yw=",
-        "originContent": "- **⚡ Instant Branching**: Create database branches in <500ms regardless of size",
-        "translatedContent": "- **⚡ インスタントブランチ**：サイズに関わらず500ms未満でデータベースブランチを作成  "
+        "row": 49,
+        "rowsha": "D/ZuDj7YGJRhGfnKkl7yw01Un2CZ0heICERZqGqOtPE=",
+        "originContent": "- **⚡ Instant Branches** - Clone your entire database in 1ms (not hours)",
+        "translatedContent": "- **⚡ 即時ブランチ** - データベース全体を1msでクローン（数時間ではなく）"
       },
       {
-        "row": 19,
-        "rowsha": "C1MpxiTg6tK7gPEamB2MLrYMx7761RzuuWf0uieuwQY=",
-        "originContent": "- **🔄 Copy-on-Write**: Efficient storage with 90%+ space savings vs full copies  ",
-        "translatedContent": "- **🔄 コピーオンライト**：完全コピーに比べ90%以上のストレージ節約を実現  "
+        "row": 50,
+        "rowsha": "Wwq2qd4R9kcycnK5O3KWnw3jwJ1N2xOe0VeZWU7splI=",
+        "originContent": "- **⏰ Time Travel** - Query your data from any point in history",
+        "translatedContent": "- **⏰ タイムトラベル** - 任意の過去の時点からデータをクエリ"
       },
       {
-        "row": 20,
-        "rowsha": "kJ+eMUcrZ3NDHGazVEHwM3OKq8cgMet/yy4udXq8RcE=",
-        "originContent": "- **🧠 ML-Native**: Built-in integrations with MLflow, DVC, Weights & Biases",
-        "translatedContent": "- **🧠 MLネイティブ**：MLflow、DVC、Weights & Biasesとの組み込み連携  "
+        "row": 51,
+        "rowsha": "SWAD4HL4ZlyBZb27FX+NlO4TWQ+B6Q4t3EF/Xt7kWdA=",
+        "originContent": "- **🔄 Safe Restore** - Preview changes before restoring",
+        "translatedContent": "- **🔄 安全な復元** - 復元前に変更内容をプレビュー"
       },
       {
-        "row": 21,
-        "rowsha": "BU3whq4Z8k3nXz41ylpSbmgYZQLXRHSxs2xoU3qYKRs=",
-        "originContent": "- **🌐 Real-time**: Live change streams and WebSocket-based dashboard",
-        "translatedContent": "- **🌐 リアルタイム**：ライブ変更ストリームとWebSocketベースのダッシュボード  "
+        "row": 52,
+        "rowsha": "i8yf82NYOmQm7qxSOQlKDqf/dDKPzZ46K3IqY4ffEFo=",
+        "originContent": "- **💾 Zero Storage Cost** - Branches share data efficiently",
+        "translatedContent": "- **💾 ストレージコストゼロ** - ブランチは効率的にデータを共有"
       },
       {
-        "row": 22,
-        "rowsha": "c4NhvrSVdDWdOkL2jy7tfd82tHxkFk8IzxoC2RD8crA=",
-        "originContent": "- **☁️ Multi-cloud**: AWS S3, Google Cloud Storage, Azure Blob support",
-        "translatedContent": "- **☁️ マルチクラウド**：AWS S3、Google Cloud Storage、Azure Blob対応  "
+        "row": 53,
+        "rowsha": "eG64TULNzUfuMvmLbTrFNjpFYN8MdC2iZ5mOB3w4pdI=",
+        "originContent": "- **🔌 Drop-in Compatible** - Works with existing MongoDB code",
+        "translatedContent": "- **🔌 そのまま互換** - 既存のMongoDBコードでそのまま動作"
       },
       {
-        "row": 23,
-        "rowsha": "Ub/Ioc+nJ7zto6fxZ+k14K4bYJ33mUlCfw/uHot3PLc=",
-        "originContent": "- **🔒 Enterprise**: Authentication, RBAC, audit logs, compliance features",
-        "translatedContent": "- **🔒 エンタープライズ**：認証、RBAC、監査ログ、コンプライアンス機能"
-      },
-      {
-        "row": 24,
+        "row": 54,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 25,
-        "rowsha": "p+VkcrEb08g4vIGZYB9aVScRKgA8afv5WwErwTVzoZM=",
-        "originContent": "## Architecture",
-        "translatedContent": "## アーキテクチャ"
+        "row": 55,
+        "rowsha": "wXgAO09MfozLIs2iWDgcPCXuol2FRLyWszSLnhqpV0E=",
+        "originContent": "## Quick Demo",
+        "translatedContent": "## クイックデモ"
       },
       {
-        "row": 26,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 27,
-        "rowsha": "BIWKIp11dwhzZMEvkq3YfPK3HK2FFQzcHKliybT3bEk=",
-        "originContent": "Argon uses a hybrid architecture optimizing for both performance and developer productivity:",
-        "translatedContent": "Argonはパフォーマンスと開発者生産性の両方を最適化したハイブリッドアーキテクチャを採用しています："
-      },
-      {
-        "row": 28,
+        "row": 56,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
@@ -182,148 +350,112 @@
   },
   {
     "Id": 2,
-    "Content": "```\n┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐\n│   CLI Tool      │    │  Web Dashboard  │    │ ML Integrations │\n│   (Go Binary)   │    │   (Next.js)     │    │ (Python APIs)   │\n└─────────────────┘    └─────────────────┘    └─────────────────┘\n         │                       │                       │\n         └───────────────────────┼───────────────────────┘\n                                 │\n                    ┌─────────────────┐\n                    │  Python API     │\n                    │  (FastAPI)      │\n                    └─────────────────┘\n                                 │\n                    ┌─────────────────┐\n                    │  Go Engine      │\n                    │ (Performance)   │\n                    └─────────────────┘\n                                 │\n                    ┌─────────────────┐\n                    │    MongoDB      │\n                    │ + Change Streams│\n                    └─────────────────┘\n```",
-    "ContentSha": "xtLCXETlRjj8r7vqQVbNywHyGyoUL4+JlqcS/5GgJAw=",
+    "Content": "```bash\n# Install\nbrew install argon-lab/tap/argonctl    # macOS\nnpm install -g argonctl                 # Cross-platform\n\n# Create a time-travel enabled database\nexport ENABLE_WAL=true\nargon projects create myapp\n\n# Your app crashed after bad migration? No problem!\nargon restore preview --time \"1 hour ago\"\nargon restore reset --time \"before disaster\"\n\n# Need a test environment? Branch instantly!\nargon branches create test-env\n# Full database copy created in 1ms 🚀\n```",
+    "ContentSha": "dxP7xgyyh5AJ+FbL7idJT1VUCx0BFYMXkGHnEyxUklw=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "```\n┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐\n│   CLI Tool      │    │  Web Dashboard  │    │ ML Integrations │\n│   (Go Binary)   │    │   (Next.js)     │    │ (Python APIs)   │\n└─────────────────┘    └─────────────────┘    └─────────────────┘\n         │                       │                       │\n         └───────────────────────┼───────────────────────┘\n                                 │\n                    ┌─────────────────┐\n                    │  Python API     │\n                    │  (FastAPI)      │\n                    └─────────────────┘\n                                 │\n                    ┌─────────────────┐\n                    │  Go Engine      │\n                    │ (Performance)   │\n                    └─────────────────┘\n                                 │\n                    ┌─────────────────┐\n                    │    MongoDB      │\n                    │ + Change Streams│\n                    └─────────────────┘\n```",
+    "Translation": "```bash\n# Install\nbrew install argon-lab/tap/argonctl    # macOS\nnpm install -g argonctl                 # Cross-platform\n\n# Create a time-travel enabled database\nexport ENABLE_WAL=true\nargon projects create myapp\n\n# Your app crashed after bad migration? No problem!\nargon restore preview --time \"1 hour ago\"\nargon restore reset --time \"before disaster\"\n\n# Need a test environment? Branch instantly!\nargon branches create test-env\n# Full database copy created in 1ms 🚀\n```",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
       },
       {
         "row": 2,
-        "rowsha": "7CJXiTv6g0Qhnc78aBws0JxESXIBfSyGo424ebnB1eM=",
-        "originContent": "┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐",
-        "translatedContent": "┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐"
+        "rowsha": "LIfcujHTHgMPXtLqP+h3+M/6OPAmhQh2NVkBUIIiPFQ=",
+        "originContent": "# Install",
+        "translatedContent": "# Install"
       },
       {
         "row": 3,
-        "rowsha": "A6KJduGEqnikFZEys+/yNnnwoOVdl2l3oqr3P6vudgU=",
-        "originContent": "│   CLI Tool      │    │  Web Dashboard  │    │ ML Integrations │",
-        "translatedContent": "│   CLI Tool      │    │  Web Dashboard  │    │ ML Integrations │"
+        "rowsha": "NEsyxTiaopkmrDWeSeLYwEiFtNgUF7vmWfPfGvblrwk=",
+        "originContent": "brew install argon-lab/tap/argonctl    # macOS",
+        "translatedContent": "brew install argon-lab/tap/argonctl    # macOS"
       },
       {
         "row": 4,
-        "rowsha": "7mi7rPokKG0Z2rvc5nZt9JMIFr233D/kAfk8GKguVBM=",
-        "originContent": "│   (Go Binary)   │    │   (Next.js)     │    │ (Python APIs)   │",
-        "translatedContent": "│   (Go Binary)   │    │   (Next.js)     │    │ (Python APIs)   │"
+        "rowsha": "s/tHCGdfg8UPzQWit/7k0FDu0TCotbZMA5dRF1fp2oU=",
+        "originContent": "npm install -g argonctl                 # Cross-platform",
+        "translatedContent": "npm install -g argonctl                 # Cross-platform"
       },
       {
         "row": 5,
-        "rowsha": "VOAmfnLmcjZASQj7rkTMp7LGLsh2ppt4boOy33ylKv4=",
-        "originContent": "└─────────────────┘    └─────────────────┘    └─────────────────┘",
-        "translatedContent": "└─────────────────┘    └─────────────────┘    └─────────────────┘"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 6,
-        "rowsha": "HWHWBTp7xXO2eHyne5rUK2Xu6JU05WsuLg0K9txWcDE=",
-        "originContent": "         │                       │                       │",
-        "translatedContent": "         │                       │                       │"
+        "rowsha": "+l4lmoCyr1H7BMM1fvfpqp7R69zHmA93rHkSsXd4gSg=",
+        "originContent": "# Create a time-travel enabled database",
+        "translatedContent": "# Create a time-travel enabled database"
       },
       {
         "row": 7,
-        "rowsha": "YRfTcSpPop/I6AtNyUAsWzLO7byvw2JVbzPaluI0sg4=",
-        "originContent": "         └───────────────────────┼───────────────────────┘",
-        "translatedContent": "         └───────────────────────┼───────────────────────┘"
+        "rowsha": "IvZpiQ6MH0WYvB6uRwkPnaQm/8Q9TJ4YJXl427kH8mo=",
+        "originContent": "export ENABLE_WAL=true",
+        "translatedContent": "export ENABLE_WAL=true"
       },
       {
         "row": 8,
-        "rowsha": "QvCvXQKGgEa1fs58LnZbyl1WmA4SAGTxzmWj3ehDbPY=",
-        "originContent": "                                 │",
-        "translatedContent": "                                 │"
+        "rowsha": "I0Twh+hInM4egR7Xsf/sSIfFIuXOYJVwc47zxCWA/Bs=",
+        "originContent": "argon projects create myapp",
+        "translatedContent": "argon projects create myapp"
       },
       {
         "row": 9,
-        "rowsha": "I4HrUwPE5Rp7/xH0UKBHjXtOQessiVkbIpW76ogQElg=",
-        "originContent": "                    ┌─────────────────┐",
-        "translatedContent": "                    ┌─────────────────┐"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 10,
-        "rowsha": "CntJy1oCKC+IpPSPQVwHJz26ungag2HpsrqNVN8n5/w=",
-        "originContent": "                    │  Python API     │",
-        "translatedContent": "                    │  Python API     │"
+        "rowsha": "RVxIEZukU8GOtZWeGvLabQCWWx9jL7RcZkTM4lpavQo=",
+        "originContent": "# Your app crashed after bad migration? No problem!",
+        "translatedContent": "# Your app crashed after bad migration? No problem!"
       },
       {
         "row": 11,
-        "rowsha": "5xz99NG8ROnEdDdV+cmXERzOEfWZx86vwsb1Bi6Qo+A=",
-        "originContent": "                    │  (FastAPI)      │",
-        "translatedContent": "                    │  (FastAPI)      │"
+        "rowsha": "FkVXyqo5Ek1ynwQwCSrCXU/FJi/MKMzRdeeSCfQAeqc=",
+        "originContent": "argon restore preview --time \"1 hour ago\"",
+        "translatedContent": "argon restore preview --time \"1 hour ago\""
       },
       {
         "row": 12,
-        "rowsha": "rXwj52IVQgJtl9TQsXL9YJh+y5sgJbOxatRMvDTGyV4=",
-        "originContent": "                    └─────────────────┘",
-        "translatedContent": "                    └─────────────────┘"
+        "rowsha": "DFfjqe810lo1CyMNT3NQRajRzu5bHCPy5VzNZHXXCh0=",
+        "originContent": "argon restore reset --time \"before disaster\"",
+        "translatedContent": "argon restore reset --time \"before disaster\""
       },
       {
         "row": 13,
-        "rowsha": "QvCvXQKGgEa1fs58LnZbyl1WmA4SAGTxzmWj3ehDbPY=",
-        "originContent": "                                 │",
-        "translatedContent": "                                 │"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 14,
-        "rowsha": "I4HrUwPE5Rp7/xH0UKBHjXtOQessiVkbIpW76ogQElg=",
-        "originContent": "                    ┌─────────────────┐",
-        "translatedContent": "                    ┌─────────────────┐"
+        "rowsha": "BnIyU6mEKSdcwrjZ5PHIGde0OJNFSOmLNwD+U/ooy+M=",
+        "originContent": "# Need a test environment? Branch instantly!",
+        "translatedContent": "# Need a test environment? Branch instantly!"
       },
       {
         "row": 15,
-        "rowsha": "HkDs6O8+0hbcv+JLAS9cCN/hd6fAahT0yRRP/YQNI9g=",
-        "originContent": "                    │  Go Engine      │",
-        "translatedContent": "                    │  Go Engine      │"
+        "rowsha": "uJ0uWAyCJCxxSgBFjK/nCQE9pH0FnjCGjyYCIfyL+kw=",
+        "originContent": "argon branches create test-env",
+        "translatedContent": "argon branches create test-env"
       },
       {
         "row": 16,
-        "rowsha": "0GwjAIu3rFhMoEXc8EiIp1twzcD++UDSRb7goAUossI=",
-        "originContent": "                    │ (Performance)   │",
-        "translatedContent": "                    │ (Performance)   │"
+        "rowsha": "VzOgtUSN4rH1Bao8H0GSaDHQQAuo7JCThczSCr6eR+o=",
+        "originContent": "# Full database copy created in 1ms 🚀",
+        "translatedContent": "# Full database copy created in 1ms 🚀"
       },
       {
         "row": 17,
-        "rowsha": "rXwj52IVQgJtl9TQsXL9YJh+y5sgJbOxatRMvDTGyV4=",
-        "originContent": "                    └─────────────────┘",
-        "translatedContent": "                    └─────────────────┘"
-      },
-      {
-        "row": 18,
-        "rowsha": "QvCvXQKGgEa1fs58LnZbyl1WmA4SAGTxzmWj3ehDbPY=",
-        "originContent": "                                 │",
-        "translatedContent": "                                 │"
-      },
-      {
-        "row": 19,
-        "rowsha": "I4HrUwPE5Rp7/xH0UKBHjXtOQessiVkbIpW76ogQElg=",
-        "originContent": "                    ┌─────────────────┐",
-        "translatedContent": "                    ┌─────────────────┐"
-      },
-      {
-        "row": 20,
-        "rowsha": "FxTDbu3YwUuWJDJ1xl55RZIcuW/A14YyCPKNyu+j0Lc=",
-        "originContent": "                    │    MongoDB      │",
-        "translatedContent": "                    │    MongoDB      │"
-      },
-      {
-        "row": 21,
-        "rowsha": "3IQYaeS5dRReXMzNm1ttqrp8gnWAFyESTEXrn+fj+6Y=",
-        "originContent": "                    │ + Change Streams│",
-        "translatedContent": "                    │ + Change Streams│"
-      },
-      {
-        "row": 22,
-        "rowsha": "rXwj52IVQgJtl9TQsXL9YJh+y5sgJbOxatRMvDTGyV4=",
-        "originContent": "                    └─────────────────┘",
-        "translatedContent": "                    └─────────────────┘"
-      },
-      {
-        "row": 23,
         "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
         "originContent": "```",
         "translatedContent": "```"
@@ -333,91 +465,49 @@
   },
   {
     "Id": 3,
-    "Content": "\n**Performance Tier (Go)**: Change streams, branching engine, CLI, storage\n**Productivity Tier (Python)**: Web APIs, ML integrations, admin features\n\n## Quick Start\n\n### Installation\n\nChoose your preferred installation method:\n\n#### Quick Install (From Source)",
-    "ContentSha": "PqVeHBEjr85iWQdBeRNcIKhtouaLH2TYQCaOyv3JEM0=",
+    "Content": "\n## Real-World Use Cases\n\n### 🚨 **Disaster Recovery**",
+    "ContentSha": "k3JT9qdMSUO/WN2Wai7HCrUKWop0yHb8vK6+82tZJOA=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "<translate-content>\n**パフォーマンスタイア（Go）**: 変更ストリーム、ブランチエンジン、CLI、ストレージ  \n**生産性タイア（Python）**: Web API、ML統合、管理機能  \n\n## クイックスタート  \n\n### インストール  \n\nお好みのインストール方法を選択してください:  \n\n#### クイックインストール（ソースから）</translate-content>",
+    "Translation": "## 実際のユースケース\n\n### 🚨 **災害復旧**\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "<translate-content>"
+        "translatedContent": "## 実際のユースケース"
       },
       {
         "row": 2,
-        "rowsha": "msgFYShiX06UekYzUNQvas3WDyJTxiPz3DkmDLPPVYI=",
-        "originContent": "**Performance Tier (Go)**: Change streams, branching engine, CLI, storage",
-        "translatedContent": "**パフォーマンスタイア（Go）**: 変更ストリーム、ブランチエンジン、CLI、ストレージ  "
+        "rowsha": "JtVwOglmV3tzCl9FxLuVelyFgWg407AVcVmJWxlbT7k=",
+        "originContent": "## Real-World Use Cases",
+        "translatedContent": ""
       },
       {
         "row": 3,
-        "rowsha": "479m9L7QQnTbqZ3cX6oyluC2rRmvumBCLOJ8vB1dZ/4=",
-        "originContent": "**Productivity Tier (Python)**: Web APIs, ML integrations, admin features",
-        "translatedContent": "**生産性タイア（Python）**: Web API、ML統合、管理機能  "
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 🚨 **災害復旧**"
       },
       {
         "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "mW+XuvL3ur5tBJbRqNWyrs1zU+xZGUYYzrLTkA2aj9I=",
+        "originContent": "### 🚨 **Disaster Recovery**",
         "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
-        "originContent": "## Quick Start",
-        "translatedContent": "## クイックスタート  "
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
-        "originContent": "### Installation",
-        "translatedContent": "### インストール  "
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "LB3u73c1clFumnTZgKZmtTHxYqxmEDB+7Owl2DxuZho=",
-        "originContent": "Choose your preferred installation method:",
-        "translatedContent": "お好みのインストール方法を選択してください:  "
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "Mw1ue4TMo3Ds2n9ya8fIUtHr1x4Nsdq2c8viYPiadXc=",
-        "originContent": "#### Quick Install (From Source)",
-        "translatedContent": "#### クイックインストール（ソースから）</translate-content>"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 4,
-    "Content": "```bash\n# Clone and build latest version\ngit clone https://github.com/argon-lab/argon.git\ncd argon/cli\ngo build -o argon .\nsudo mv argon /usr/local/bin/\n```",
-    "ContentSha": "EmuVEBbKxiTlMxqCaiGNnWs8B9C/EUfBzt6krPY4qus=",
+    "Content": "```bash\n# \"Someone deleted all users!\"\nargon restore reset --time \"5 minutes ago\"\n# Crisis averted in seconds, not hours\n```",
+    "ContentSha": "W4/4JoVUfIrSaJ14OwOw8uZrfvtT3FLwZ37CUGZwSvk=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "```bash\n# Clone and build latest version\ngit clone https://github.com/argon-lab/argon.git\ncd argon/cli\ngo build -o argon .\nsudo mv argon /usr/local/bin/\n```",
+    "Translation": "```bash\n# \"Someone deleted all users!\"\nargon restore reset --time \"5 minutes ago\"\n# Crisis averted in seconds, not hours\n```",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -428,36 +518,24 @@
       },
       {
         "row": 2,
-        "rowsha": "92+aomI+z3j19HafMldkHC5n3z4AdTctmcOdiMdqkCw=",
-        "originContent": "# Clone and build latest version",
-        "translatedContent": "# Clone and build latest version"
+        "rowsha": "2OLLHJNkiqyaPq3wq6MXbiKOXGYU7KbxvoYb3FbbkgQ=",
+        "originContent": "# \"Someone deleted all users!\"",
+        "translatedContent": "# \"Someone deleted all users!\""
       },
       {
         "row": 3,
-        "rowsha": "LzkPCsljJ6TiWUmwJ/LOEpo0S/ebt1Z3xCrJsUvMs/Y=",
-        "originContent": "git clone https://github.com/argon-lab/argon.git",
-        "translatedContent": "git clone https://github.com/argon-lab/argon.git"
+        "rowsha": "9e2CmyBC3/6AbWF0ZMm3oobbtOxPccWJdm16Aow8F/4=",
+        "originContent": "argon restore reset --time \"5 minutes ago\"",
+        "translatedContent": "argon restore reset --time \"5 minutes ago\""
       },
       {
         "row": 4,
-        "rowsha": "22rZZ8O1rCQvPjaE+cHplpE8PiKLroVEm5BQTWa4K18=",
-        "originContent": "cd argon/cli",
-        "translatedContent": "cd argon/cli"
+        "rowsha": "EClrQ/fSkVr8Sae6FazqpTSRB5LyESc9VnafDMFYI2E=",
+        "originContent": "# Crisis averted in seconds, not hours",
+        "translatedContent": "# Crisis averted in seconds, not hours"
       },
       {
         "row": 5,
-        "rowsha": "INAGAh/gyxtmxfsjCrbXZqH6Nh7rclCf7jPIVIUIT4Q=",
-        "originContent": "go build -o argon .",
-        "translatedContent": "go build -o argon ."
-      },
-      {
-        "row": 6,
-        "rowsha": "QGi2pnZqL8wRyQbZsRQVYQwxrK0pUklkjvy9l9M2ANA=",
-        "originContent": "sudo mv argon /usr/local/bin/",
-        "translatedContent": "sudo mv argon /usr/local/bin/"
-      },
-      {
-        "row": 7,
         "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
         "originContent": "```",
         "translatedContent": "```"
@@ -467,24 +545,24 @@
   },
   {
     "Id": 5,
-    "Content": "\n#### Homebrew (macOS/Linux) ",
-    "ContentSha": "jfWYeaKI1L2TRpxJMi6vu6g6HJ9tDhQSxQorTvn7Vaw=",
+    "Content": "\n### 🧪 **Safe Testing**",
+    "ContentSha": "ZAk8KNMwhYZOmZEMYYf23T1o//q8s0W+lL9eWfpP3rk=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "#### Homebrew（macOS/Linux）\n",
+    "Translation": "### 🧪 **安全なテスト**\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "#### Homebrew（macOS/Linux）"
+        "translatedContent": "### 🧪 **安全なテスト**"
       },
       {
         "row": 2,
-        "rowsha": "/kyxpWVHjeWcs6lzTto/R8VrMnOvfcdX6j7tGNGU20g=",
-        "originContent": "#### Homebrew (macOS/Linux) ",
+        "rowsha": "mfR+KYY2ofP23gejb0KSrb7dAfM+i9moagNLJHuya8Y=",
+        "originContent": "### 🧪 **Safe Testing**",
         "translatedContent": ""
       }
     ],
@@ -492,12 +570,12 @@
   },
   {
     "Id": 6,
-    "Content": "```bash\nbrew install argon-lab/tap/argonctl\n```",
-    "ContentSha": "DBO3E+Wktg02cFhjnqU9flkH6kY9tz/UiJbcVOSjwG4=",
+    "Content": "```bash\n# Test with real production data\nargon branches create staging --from production\n# Run risky migrations fearlessly\n```",
+    "ContentSha": "UkcU1cACEZbqqTK0+nFrg9nSognJKZiodMWgI6svc5U=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "```bash\nbrew install argon-lab/tap/argonctl\n```",
+    "Translation": "```bash\n# Test with real production data\nargon branches create staging --from production\n# Run risky migrations fearlessly\n```",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -508,12 +586,24 @@
       },
       {
         "row": 2,
-        "rowsha": "Q1DYmyGfTT2MIEbdueX4XcBVWmdJSdpdeDtPZLaL9y4=",
-        "originContent": "brew install argon-lab/tap/argonctl",
-        "translatedContent": "brew install argon-lab/tap/argonctl"
+        "rowsha": "KEIJzrIE7CvWmZ32Fj11pFfezxZ39GMB7xiYcqJ+EqI=",
+        "originContent": "# Test with real production data",
+        "translatedContent": "# Test with real production data"
       },
       {
         "row": 3,
+        "rowsha": "QrCaSq7ylhqvTUoFgderklJlYN50WfDjmUkq1bKpb0c=",
+        "originContent": "argon branches create staging --from production",
+        "translatedContent": "argon branches create staging --from production"
+      },
+      {
+        "row": 4,
+        "rowsha": "Q9mwpW0RqMeQSlUwE0BFsE+k8DxbMQeRTgueNRfZ+1I=",
+        "originContent": "# Run risky migrations fearlessly",
+        "translatedContent": "# Run risky migrations fearlessly"
+      },
+      {
+        "row": 5,
         "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
         "originContent": "```",
         "translatedContent": "```"
@@ -523,24 +613,24 @@
   },
   {
     "Id": 7,
-    "Content": "\n#### npm (Cross-platform)",
-    "ContentSha": "L2s9CeVaKjiRKHpbiIdI+e/9fFlWY04t/x8tGUbpof4=",
+    "Content": "\n### 📊 **Data Analysis**",
+    "ContentSha": "PB6ZR/IKQneVzCr+UJwy0BQIHPCPgAEswWxXSrFehaM=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "#### npm（クロスプラットフォーム）\n",
+    "Translation": "### 📊 **データ分析**\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "#### npm（クロスプラットフォーム）"
+        "translatedContent": "### 📊 **データ分析**"
       },
       {
         "row": 2,
-        "rowsha": "izsRrtddzu7gVbuwnfvaNuC3C+fGgSnVPHOKfQR7IRs=",
-        "originContent": "#### npm (Cross-platform)",
+        "rowsha": "X1QzjIcbcL+0wjS4BfYLiRH92msRfFFYpsdK2+PzLxw=",
+        "originContent": "### 📊 **Data Analysis**",
         "translatedContent": ""
       }
     ],
@@ -548,12 +638,12 @@
   },
   {
     "Id": 8,
-    "Content": "```bash\nnpm install -g argonctl\n```",
-    "ContentSha": "yRTIh5S6ERysCYPtgroHm6hMPX3w3J7aIXWO8tPIThM=",
+    "Content": "```bash\n# Compare data across time\nargon time-travel diff --from \"last week\" --to \"today\"\n# See exactly what changed\n```",
+    "ContentSha": "9bc9gFQfdP6/3FbmIQbaKqsGOW33XPsEcopxp8lEjjw=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "```bash\nnpm install -g argonctl\n```",
+    "Translation": "```bash\n# Compare data across time\nargon time-travel diff --from \"last week\" --to \"today\"\n# See exactly what changed\n```",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -564,12 +654,24 @@
       },
       {
         "row": 2,
-        "rowsha": "g0XSMggPzOyJpDD1sC6MDVlgkBQMQGeNNKg4gnWRHs8=",
-        "originContent": "npm install -g argonctl",
-        "translatedContent": "npm install -g argonctl"
+        "rowsha": "brwWbDGpZN5++YvabcxahbNoAaSmEK/cX7CBHXQMXA4=",
+        "originContent": "# Compare data across time",
+        "translatedContent": "# Compare data across time"
       },
       {
         "row": 3,
+        "rowsha": "bdSZ6z0R5pWMuIU8l/dfZ/PuSJw+NQC6aq86F4xpXz4=",
+        "originContent": "argon time-travel diff --from \"last week\" --to \"today\"",
+        "translatedContent": "argon time-travel diff --from \"last week\" --to \"today\""
+      },
+      {
+        "row": 4,
+        "rowsha": "spxjfdrd/QCYVtujq1bekqqITDQW6fRJ5LMrDf2wm2M=",
+        "originContent": "# See exactly what changed",
+        "translatedContent": "# See exactly what changed"
+      },
+      {
+        "row": 5,
         "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
         "originContent": "```",
         "translatedContent": "```"
@@ -579,24 +681,84 @@
   },
   {
     "Id": 9,
-    "Content": "\n#### Direct Download",
-    "ContentSha": "7rMqWphb7t0kZ9gxq0qG7RRktfPN6q++SG+BCFMJ4/s=",
+    "Content": "\n## How It Works\n\nArgon intercepts MongoDB operations and logs them to a **Write-Ahead Log (WAL)**, enabling:\n- Instant branching via metadata pointers\n- Time travel by replaying operations\n- Zero-copy efficiency\n\nYour existing MongoDB code works unchanged - just add `ENABLE_WAL=true`.\n\n## Installation\n",
+    "ContentSha": "4KOdqfIicPtc2Ys2NgCYBByf2OqHDqRQQAhC+A1frpg=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "#### 直接ダウンロード\n",
+    "Translation": "## 仕組み\n\nArgonはMongoDBの操作をインターセプトし、**Write-Ahead Log（WAL）**に記録します。これにより以下が可能になります：\n- メタデータポインタによる即時ブランチ作成\n- 操作のリプレイによるタイムトラベル\n- ゼロコピーの効率性\n\n既存のMongoDBコードは変更不要で動作します - ただ `ENABLE_WAL=true` を追加するだけです。\n\n## インストール\n\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "#### 直接ダウンロード"
+        "translatedContent": "## 仕組み"
       },
       {
         "row": 2,
-        "rowsha": "2ehcbMaZZlQZG5HwuD6IrsWn/XY0BneZEShegKihrUM=",
-        "originContent": "#### Direct Download",
+        "rowsha": "8Cn7DTPwgC5TRYcpx6IHELZx2Ghn/Zy5V2CaSviu4ik=",
+        "originContent": "## How It Works",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ArgonはMongoDBの操作をインターセプトし、**Write-Ahead Log（WAL）**に記録します。これにより以下が可能になります："
+      },
+      {
+        "row": 4,
+        "rowsha": "U9NubOj04nO0jZugWCt4LONkm4slwknB2hlgTEAqzhQ=",
+        "originContent": "Argon intercepts MongoDB operations and logs them to a **Write-Ahead Log (WAL)**, enabling:",
+        "translatedContent": "- メタデータポインタによる即時ブランチ作成"
+      },
+      {
+        "row": 5,
+        "rowsha": "9uSolduXQVzQhA5zLDg3Ib+KjPbqdw+LPihGkxNo5Qo=",
+        "originContent": "- Instant branching via metadata pointers",
+        "translatedContent": "- 操作のリプレイによるタイムトラベル"
+      },
+      {
+        "row": 6,
+        "rowsha": "HKW8rkIpr/d27J6Iuevxu/3na2BZ0OjdpJeKIawMXF0=",
+        "originContent": "- Time travel by replaying operations",
+        "translatedContent": "- ゼロコピーの効率性"
+      },
+      {
+        "row": 7,
+        "rowsha": "HwUrFDAwO1Ik2Ilq3mBeS5iXPRiMYASZrKbgGGbVG+8=",
+        "originContent": "- Zero-copy efficiency",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "既存のMongoDBコードは変更不要で動作します - ただ `ENABLE_WAL=true` を追加するだけです。"
+      },
+      {
+        "row": 9,
+        "rowsha": "Hd3UvbSe/zNYR/fiABTFtRHiRE3S53fJPo0RajfJdTE=",
+        "originContent": "Your existing MongoDB code works unchanged - just add `ENABLE_WAL=true`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 11,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       }
     ],
@@ -604,12 +766,12 @@
   },
   {
     "Id": 10,
-    "Content": "```bash\n# Linux (x64)\ncurl -L https://github.com/argon-lab/argon/releases/latest/download/argon-linux-amd64 -o argon\nchmod +x argon && sudo mv argon /usr/local/bin/\n\n# macOS (Intel)\ncurl -L https://github.com/argon-lab/argon/releases/latest/download/argon-darwin-amd64 -o argon\nchmod +x argon && sudo mv argon /usr/local/bin/\n\n# macOS (Apple Silicon)\ncurl -L https://github.com/argon-lab/argon/releases/latest/download/argon-darwin-arm64 -o argon\nchmod +x argon && sudo mv argon /usr/local/bin/\n```",
-    "ContentSha": "EWn+84Lp68VxSoPY94mYHTI1mUgAIQsvlNbUQHlPmcw=",
+    "Content": "```bash\n# CLI\nbrew install argon-lab/tap/argonctl    # macOS\nnpm install -g argonctl                 # Node.js\npip install argon-mongodb               # Python SDK\n\n# From Source\ngit clone https://github.com/argon-lab/argon\ncd argon/cli && go build -o argon\n```",
+    "ContentSha": "HgeYm+hOHWKYMDnB5XNsEUokztB/RyTeY2nWTwkD0jM=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "```bash\n# Linux (x64)\ncurl -L https://github.com/argon-lab/argon/releases/latest/download/argon-linux-amd64 -o argon\nchmod +x argon && sudo mv argon /usr/local/bin/\n\n# macOS (Intel)\ncurl -L https://github.com/argon-lab/argon/releases/latest/download/argon-darwin-amd64 -o argon\nchmod +x argon && sudo mv argon /usr/local/bin/\n\n# macOS (Apple Silicon)\ncurl -L https://github.com/argon-lab/argon/releases/latest/download/argon-darwin-arm64 -o argon\nchmod +x argon && sudo mv argon /usr/local/bin/\n```",
+    "Translation": "```bash\n# CLI\nbrew install argon-lab/tap/argonctl    # macOS\nnpm install -g argonctl                 # Node.js\npip install argon-mongodb               # Python SDK\n\n# From Source\ngit clone https://github.com/argon-lab/argon\ncd argon/cli && go build -o argon\n```",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -620,72 +782,54 @@
       },
       {
         "row": 2,
-        "rowsha": "ehVjJSE9mh2MLEVDisJ6KknNr+VwYWpemr7sxl5+kT4=",
-        "originContent": "# Linux (x64)",
-        "translatedContent": "# Linux (x64)"
+        "rowsha": "bqBB22yklDBNCf2aiED+QTDfnQ8dwqLn1AWpB4tBKdM=",
+        "originContent": "# CLI",
+        "translatedContent": "# CLI"
       },
       {
         "row": 3,
-        "rowsha": "M57pM9+l2Ue5yGxEDjowKHouThJU0ISNnrVZFNH1xsw=",
-        "originContent": "curl -L https://github.com/argon-lab/argon/releases/latest/download/argon-linux-amd64 -o argon",
-        "translatedContent": "curl -L https://github.com/argon-lab/argon/releases/latest/download/argon-linux-amd64 -o argon"
+        "rowsha": "NEsyxTiaopkmrDWeSeLYwEiFtNgUF7vmWfPfGvblrwk=",
+        "originContent": "brew install argon-lab/tap/argonctl    # macOS",
+        "translatedContent": "brew install argon-lab/tap/argonctl    # macOS"
       },
       {
         "row": 4,
-        "rowsha": "nkHH1ojuUKsX/o6FGldH7P4UUg7yMxCRaTtXR3e0hW8=",
-        "originContent": "chmod +x argon && sudo mv argon /usr/local/bin/",
-        "translatedContent": "chmod +x argon && sudo mv argon /usr/local/bin/"
+        "rowsha": "OI1aMC1EjDlpKw885ke7O4n2mH4W7IP2NPSEgl4OCuo=",
+        "originContent": "npm install -g argonctl                 # Node.js",
+        "translatedContent": "npm install -g argonctl                 # Node.js"
       },
       {
         "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "5yTiREzqsWQp4V21AlEM1M3hXiwQj6Bo7I2vwDu06K4=",
+        "originContent": "pip install argon-mongodb               # Python SDK",
+        "translatedContent": "pip install argon-mongodb               # Python SDK"
       },
       {
         "row": 6,
-        "rowsha": "w8KvRlR0n4ObiiBzm8X2p451UlMv+8ufijVHxXylFbg=",
-        "originContent": "# macOS (Intel)",
-        "translatedContent": "# macOS (Intel)"
-      },
-      {
-        "row": 7,
-        "rowsha": "VAKIgTCEKHaxbZdRJKc3SfkOAITNfQuzoOTSN+HIWfg=",
-        "originContent": "curl -L https://github.com/argon-lab/argon/releases/latest/download/argon-darwin-amd64 -o argon",
-        "translatedContent": "curl -L https://github.com/argon-lab/argon/releases/latest/download/argon-darwin-amd64 -o argon"
-      },
-      {
-        "row": 8,
-        "rowsha": "nkHH1ojuUKsX/o6FGldH7P4UUg7yMxCRaTtXR3e0hW8=",
-        "originContent": "chmod +x argon && sudo mv argon /usr/local/bin/",
-        "translatedContent": "chmod +x argon && sudo mv argon /usr/local/bin/"
-      },
-      {
-        "row": 9,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 7,
+        "rowsha": "uHZt/RikcuPF1G0hHQX4Wa9fLNBdKN02ll7Pr6Wenug=",
+        "originContent": "# From Source",
+        "translatedContent": "# From Source"
+      },
+      {
+        "row": 8,
+        "rowsha": "NPkAT1PRTcnrEuKCngJs8TBaNzNuEMgPEQF9GHGonEM=",
+        "originContent": "git clone https://github.com/argon-lab/argon",
+        "translatedContent": "git clone https://github.com/argon-lab/argon"
+      },
+      {
+        "row": 9,
+        "rowsha": "nRcUJrbl+bEHE5JkYOkhzA824avYrS2Rfw00ftzt5pw=",
+        "originContent": "cd argon/cli && go build -o argon",
+        "translatedContent": "cd argon/cli && go build -o argon"
+      },
+      {
         "row": 10,
-        "rowsha": "AzlLD2pWk3POM1HrZ3E5ATnTlrLzkJYG7TSxLtTOKDw=",
-        "originContent": "# macOS (Apple Silicon)",
-        "translatedContent": "# macOS (Apple Silicon)"
-      },
-      {
-        "row": 11,
-        "rowsha": "JHAHVzXDqAw1SvN7/JNnOFwCJFHSsiXQOfjgD8oJCK4=",
-        "originContent": "curl -L https://github.com/argon-lab/argon/releases/latest/download/argon-darwin-arm64 -o argon",
-        "translatedContent": "curl -L https://github.com/argon-lab/argon/releases/latest/download/argon-darwin-arm64 -o argon"
-      },
-      {
-        "row": 12,
-        "rowsha": "nkHH1ojuUKsX/o6FGldH7P4UUg7yMxCRaTtXR3e0hW8=",
-        "originContent": "chmod +x argon && sudo mv argon /usr/local/bin/",
-        "translatedContent": "chmod +x argon && sudo mv argon /usr/local/bin/"
-      },
-      {
-        "row": 13,
         "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
         "originContent": "```",
         "translatedContent": "```"
@@ -695,1358 +839,162 @@
   },
   {
     "Id": 11,
-    "Content": "\n#### From Source",
-    "ContentSha": "l2x4+uMwn7lwUB0nsUQHnNxjNsXZz0xxEAz4z65mGOU=",
+    "Content": "\n## Documentation\n\n- 📖 [Quick Start Guide](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/QUICK_START.md)\n- 🛠️ [API Reference](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/API_REFERENCE.md)\n- 💡 [Use Cases](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/USE_CASES.md)\n- 🏗️ [Architecture](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/ARCHITECTURE.md)\n\n## Community\n\n- 🐛 [Report Issues](https://github.com/argon-lab/argon/issues)\n- 💬 [Discussions](https://github.com/argon-lab/argon/discussions)\n- 📧 [Contact](https://www.argonlabs.tech)\n\n---\n\n<div align=\"center\">\n\n**Give your MongoDB a time machine. Never lose data again.**\n\n⭐ **Star us** if Argon saves your day!\n\n[Get Started →](https://raw.githubusercontent.com/argon-lab/argon/master/docs/QUICK_START.md) | [Live Demo →](https://console.argonlabs.tech)\n\n</div>",
+    "ContentSha": "e6elu6IewB2rojV0Xu+HOIDxAm1omZjQ35CzqWGQW98=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "#### ソースから\n",
+    "Translation": "## ドキュメント\n\n- 📖 [クイックスタートガイド](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/QUICK_START.md)\n- 🛠️ [APIリファレンス](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/API_REFERENCE.md)\n- 💡 [ユースケース](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/USE_CASES.md)\n- 🏗️ [アーキテクチャ](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/ARCHITECTURE.md)\n\n## コミュニティ\n\n- 🐛 [問題を報告](https://github.com/argon-lab/argon/issues)\n- 💬 [ディスカッション](https://github.com/argon-lab/argon/discussions)\n- 📧 [連絡先](https://www.argonlabs.tech)\n\n---\n\n<div align=\"center\">\n\n**MongoDBにタイムマシンを。もうデータを失いません。**\n\n⭐ **Argonが役立ったらスターをお願いします！**\n\n[はじめる →](https://raw.githubusercontent.com/argon-lab/argon/master/docs/QUICK_START.md) | [ライブデモ →](https://console.argonlabs.tech)\n\n</div>\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "#### ソースから"
+        "translatedContent": "## ドキュメント"
       },
       {
         "row": 2,
-        "rowsha": "qV+pmT9nPjvMGN3jrqZd56GvGpyTzLPDqNh9KuecemY=",
-        "originContent": "#### From Source",
+        "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+        "originContent": "## Documentation",
         "translatedContent": ""
-      }
-    ],
-    "IsCodeBlock": false
-  },
-  {
-    "Id": 12,
-    "Content": "```bash\ngit clone https://github.com/argon-lab/argon.git\ncd argon/cli\ngo build -o argon .\n```",
-    "ContentSha": "a8L1xSaolrq6HU/iESq/KK3WPLbuniohlUzJtL1CP9g=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "```bash\ngit clone https://github.com/argon-lab/argon.git\ncd argon/cli\ngo build -o argon .\n```",
-    "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "LzkPCsljJ6TiWUmwJ/LOEpo0S/ebt1Z3xCrJsUvMs/Y=",
-        "originContent": "git clone https://github.com/argon-lab/argon.git",
-        "translatedContent": "git clone https://github.com/argon-lab/argon.git"
       },
       {
         "row": 3,
-        "rowsha": "22rZZ8O1rCQvPjaE+cHplpE8PiKLroVEm5BQTWa4K18=",
-        "originContent": "cd argon/cli",
-        "translatedContent": "cd argon/cli"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 📖 [クイックスタートガイド](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/QUICK_START.md)"
       },
       {
         "row": 4,
-        "rowsha": "INAGAh/gyxtmxfsjCrbXZqH6Nh7rclCf7jPIVIUIT4Q=",
-        "originContent": "go build -o argon .",
-        "translatedContent": "go build -o argon ."
+        "rowsha": "Dih4B3VGwR8j/cvUhnMTcbo1gDHjTDOFHMdkizfDRoI=",
+        "originContent": "- 📖 [Quick Start Guide](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/QUICK_START.md)",
+        "translatedContent": "- 🛠️ [APIリファレンス](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/API_REFERENCE.md)"
       },
       {
         "row": 5,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
-    "IsCodeBlock": true
-  },
-  {
-    "Id": 13,
-    "Content": "\n### Verify Installation",
-    "ContentSha": "guoY0+j87LTIGAGTLhnGBvm5UdEzisv+uVV4zzbpFBk=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "### インストールの確認</translate-content>\n",
-    "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### インストールの確認</translate-content>"
-      },
-      {
-        "row": 2,
-        "rowsha": "q6LUCmX8tJcOB6JLBK/113TRf3GjXXVQ8oF5vyUeiiM=",
-        "originContent": "### Verify Installation",
-        "translatedContent": ""
-      }
-    ],
-    "IsCodeBlock": false
-  },
-  {
-    "Id": 14,
-    "Content": "```bash\nargon --version\n# argon version 1.0.0\n```",
-    "ContentSha": "K+vHBEvCFnuiZhElLGklZdl7vRFH0EM6NGy1W8swNGo=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "```bash\nargon --version\n# argon version 1.0.0\n```",
-    "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "GpdHjtD8EpF4OO2Xbv/aXlQsVahPR4iViUcCo+rUw5k=",
-        "originContent": "argon --version",
-        "translatedContent": "argon --version"
-      },
-      {
-        "row": 3,
-        "rowsha": "RpGIQ4yXbcslB4FwnZjX8+e9YNtT67rgfE8D4IAC870=",
-        "originContent": "# argon version 1.0.0",
-        "translatedContent": "# argon version 1.0.0"
-      },
-      {
-        "row": 4,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
-    "IsCodeBlock": true
-  },
-  {
-    "Id": 15,
-    "Content": "\n### Development Setup (Contributors)\n",
-    "ContentSha": "qJpkqOb3qwqiGBLCdFSUiNJHKnBIEM1Z8cuXXJf7RlI=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "### 開発環境設定（コントリビューター）\n\n",
-    "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 開発環境設定（コントリビューター）"
-      },
-      {
-        "row": 2,
-        "rowsha": "WBP4bYZwUefp3nzW230eFnMzxNdqxX+RUNqyR85n3e0=",
-        "originContent": "### Development Setup (Contributors)",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
-    "IsCodeBlock": false
-  },
-  {
-    "Id": 16,
-    "Content": "```bash\n# Clone the repository\ngit clone https://github.com/argon-lab/argon.git\ncd argon\n\n# Start the development environment\ndocker compose up -d\n\n# Verify services are running\ncurl http://localhost:8080/health  # Go engine\ncurl http://localhost:3000/health  # Python API\n```",
-    "ContentSha": "PfJjoBBJtOYZyrPjEOV9cPT928HAHhO8zXQr5pLnhkM=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "```bash\n# Clone the repository\ngit clone https://github.com/argon-lab/argon.git\ncd argon\n\n# Start the development environment\ndocker compose up -d\n\n# Verify services are running\ncurl http://localhost:8080/health  # Go engine\ncurl http://localhost:3000/health  # Python API\n```",
-    "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "EJ1kGcOyM89S1RwOEHSj/NB/bjY/T7n0DRgAblC5zSQ=",
-        "originContent": "# Clone the repository",
-        "translatedContent": "# Clone the repository"
-      },
-      {
-        "row": 3,
-        "rowsha": "LzkPCsljJ6TiWUmwJ/LOEpo0S/ebt1Z3xCrJsUvMs/Y=",
-        "originContent": "git clone https://github.com/argon-lab/argon.git",
-        "translatedContent": "git clone https://github.com/argon-lab/argon.git"
-      },
-      {
-        "row": 4,
-        "rowsha": "jcxQHxQkWpgHrfhPXXrp5tc8YNto/QzAgJZlSbzcI/c=",
-        "originContent": "cd argon",
-        "translatedContent": "cd argon"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "v/3lSQ6YGtg5jnxEDTgey6uGzS/1MytZ9OG/XkY6PxU=",
+        "originContent": "- 🛠️ [API Reference](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/API_REFERENCE.md)",
+        "translatedContent": "- 💡 [ユースケース](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/USE_CASES.md)"
       },
       {
         "row": 6,
-        "rowsha": "gKEWfidgaT/S1TyQDANOD9eh5gNm3C05kfWfXC5qLAo=",
-        "originContent": "# Start the development environment",
-        "translatedContent": "# Start the development environment"
+        "rowsha": "ju/2CVX+Vhn56rANwoWEOKzGDismMQTLF1crbIEwrEs=",
+        "originContent": "- 💡 [Use Cases](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/USE_CASES.md)",
+        "translatedContent": "- 🏗️ [アーキテクチャ](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/ARCHITECTURE.md)"
       },
       {
         "row": 7,
-        "rowsha": "Mx5NzM1SvqjT2/8dFmacWsyf3foddC+jxQH2dABZqZk=",
-        "originContent": "docker compose up -d",
-        "translatedContent": "docker compose up -d"
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "5bJACId3n4hAT/h4ScHe570nW4vTqZe79nGditIGKm8=",
-        "originContent": "# Verify services are running",
-        "translatedContent": "# Verify services are running"
-      },
-      {
-        "row": 10,
-        "rowsha": "jN3AdH0A1mdAb4BXj8FFk6D0CZeiieZ0tnJt8yoRF9k=",
-        "originContent": "curl http://localhost:8080/health  # Go engine",
-        "translatedContent": "curl http://localhost:8080/health  # Go engine"
-      },
-      {
-        "row": 11,
-        "rowsha": "8sF7p9YHEk0ZUys4EbDZn4LAEnGbnkwjhuOVkWqG17E=",
-        "originContent": "curl http://localhost:3000/health  # Python API",
-        "translatedContent": "curl http://localhost:3000/health  # Python API"
-      },
-      {
-        "row": 12,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
-    "IsCodeBlock": true
-  },
-  {
-    "Id": 17,
-    "Content": "\n### Basic Usage\n",
-    "ContentSha": "4Mo6TsXMBHWydkjmhPNeEumw5LYqUZjgg3frVnFxV6g=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "### 基本的な使い方\n\n",
-    "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 基本的な使い方"
-      },
-      {
-        "row": 2,
-        "rowsha": "qwWY7P47JqonFUUvUAujmI3i0aD6KQEJ90a+gO+DuVw=",
-        "originContent": "### Basic Usage",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
-    "IsCodeBlock": false
-  },
-  {
-    "Id": 18,
-    "Content": "```bash\n# Verify installation\nargon --version\n\n# Get help\nargon --help\n\n# Create a new project (requires running services)\nargon projects create --name my-ml-project --mongodb-uri mongodb://localhost:27017\n\n# List your projects\nargon projects list\n\n# Note: Full functionality requires the Argon services to be running\n# See Development Setup below for starting the complete system\n```",
-    "ContentSha": "LeWRzTbsgbituOaNXPthA1OFFNp1F4iD5FQ0w0gxaXk=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "```bash\n# Verify installation\nargon --version\n\n# Get help\nargon --help\n\n# Create a new project (requires running services)\nargon projects create --name my-ml-project --mongodb-uri mongodb://localhost:27017\n\n# List your projects\nargon projects list\n\n# Note: Full functionality requires the Argon services to be running\n# See Development Setup below for starting the complete system\n```",
-    "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "CakGwk6bdoW7b9RCQK/HdUg3KniltbLOYl1l9m21vaY=",
-        "originContent": "# Verify installation",
-        "translatedContent": "# Verify installation"
-      },
-      {
-        "row": 3,
-        "rowsha": "GpdHjtD8EpF4OO2Xbv/aXlQsVahPR4iViUcCo+rUw5k=",
-        "originContent": "argon --version",
-        "translatedContent": "argon --version"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "+c2cw2ggt0kzx8jvs9E+FAoALwSXg1jiI86dwXiPCoc=",
-        "originContent": "# Get help",
-        "translatedContent": "# Get help"
-      },
-      {
-        "row": 6,
-        "rowsha": "D9ruGwdy6GNXGh18Zi/ataFcqUHwTF4qhAylVgZarGI=",
-        "originContent": "argon --help",
-        "translatedContent": "argon --help"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "OPe4LZNjAKYfor6AQIR7gPNwbV7ZVwik/ljrfbtp/7c=",
+        "originContent": "- 🏗️ [Architecture](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/ARCHITECTURE.md)",
         "translatedContent": ""
       },
       {
         "row": 8,
-        "rowsha": "mHQyVjPjEQ8GwWDIqh4lMYOEnOZNoY/X9cdYGsv4FJs=",
-        "originContent": "# Create a new project (requires running services)",
-        "translatedContent": "# Create a new project (requires running services)"
-      },
-      {
-        "row": 9,
-        "rowsha": "0kd/XwUy11F5ujDISsSfFOdH0nu7qfmuuj/wHjk1tVs=",
-        "originContent": "argon projects create --name my-ml-project --mongodb-uri mongodb://localhost:27017",
-        "translatedContent": "argon projects create --name my-ml-project --mongodb-uri mongodb://localhost:27017"
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "eVKki9jXYj9eTK6Xm8eD2U6EJlMln7P6Kgi9UgvKT6g=",
-        "originContent": "# List your projects",
-        "translatedContent": "# List your projects"
-      },
-      {
-        "row": 12,
-        "rowsha": "r4CGPNCvGyj7vPyMFN3RjxHaN+Uh5YzaZvmXXqhYO+c=",
-        "originContent": "argon projects list",
-        "translatedContent": "argon projects list"
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 14,
-        "rowsha": "++cCvKMLQ/CzRC+GswOpcbU4SDM9cILvn3kUG12DjIM=",
-        "originContent": "# Note: Full functionality requires the Argon services to be running",
-        "translatedContent": "# Note: Full functionality requires the Argon services to be running"
-      },
-      {
-        "row": 15,
-        "rowsha": "K4T9p50lMf7OKjfh8YjkDAXECeniMY/aqp3fTONsn4g=",
-        "originContent": "# See Development Setup below for starting the complete system",
-        "translatedContent": "# See Development Setup below for starting the complete system"
-      },
-      {
-        "row": 16,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
-    "IsCodeBlock": true
-  },
-  {
-    "Id": 19,
-    "Content": "\n## What Works Now\n\n✅ **CLI Installation** - Install `argon` command globally  \n✅ **Core Architecture** - Hybrid Go+Python system ready  \n✅ **Storage Engine** - S3 backend with 42% compression  \n✅ **Local Development** - Full Docker environment  \n\n## Coming Soon\n\n✅ **Homebrew** - `brew install argon-lab/tap/argonctl` (live now!)  \n✅ **npm Package** - `npm install -g argonctl` (live now!)  \n🚧 **Hosted Service** - Cloud-hosted Argon for instant use  \n🚧 **Web Dashboard** - Visual branch management  \n🚧 **ML Integrations** - MLflow, DVC, Weights & Biases  \n\n## Current Status\n\nThe **CLI and core system are production-ready**. The package manager distributions and hosted service are being prepared for public launch.\n\n## Performance Targets\n\n| Metric | Target | Current Status |\n|--------|--------|----------------|\n| Branch Creation | <500ms | 🟢 Implemented |\n| Change Processing | 10,000+ ops/sec | 🟢 Implemented |\n| Storage Efficiency | 40%+ compression | 🟢 Achieved (42.40%) |\n| CLI Startup | <50ms | 🟢 Achieved |\n\n## Use Cases\n\n### Data Science Teams",
-    "ContentSha": "29A6MfLxtffWGkvSeH5etVycfML0YV0tl/va2yMmVuA=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "<translate-content>\n## 現在動作しているもの\n\n✅ **CLI インストール** - `argon` コマンドをグローバルにインストール  \n✅ **コアアーキテクチャ** - ハイブリッド Go+Python システム準備完了  \n✅ **ストレージエンジン** - 42% 圧縮の S3 バックエンド  \n✅ **ローカル開発** - 完全な Docker 環境  \n\n## まもなく登場\n\n✅ **Homebrew** - `brew install argon-lab/tap/argonctl`（現在稼働中！）  \n✅ **npm パッケージ** - `npm install -g argonctl`（現在稼働中！）  \n🚧 **ホステッドサービス** - 即時利用可能なクラウドホスト Argon  \n🚧 **Web ダッシュボード** - ブランチ管理の可視化  \n🚧 **ML 統合** - MLflow、DVC、Weights & Biases  \n\n## 現在の状況\n\n**CLI とコアシステムは本番稼働準備完了**。パッケージマネージャ配布とホステッドサービスは一般公開に向けて準備中です。\n\n## パフォーマンス目標\n\n| 指標 | 目標 | 現状 |\n|--------|--------|----------------|\n| ブランチ作成 | <500ms | 🟢 実装済み |\n| 変更処理 | 10,000+ ops/sec | 🟢 実装済み |\n| ストレージ効率 | 40%以上圧縮 | 🟢 達成 (42.40%) |\n| CLI 起動時間 | <50ms | 🟢 達成 |\n\n## ユースケース\n\n### データサイエンスチーム</translate-content>",
-    "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "<translate-content>"
-      },
-      {
-        "row": 2,
-        "rowsha": "KYp9vaDB6s1UhPKNTsR24DWkZuimPY0eEPpV/QS5PSk=",
-        "originContent": "## What Works Now",
-        "translatedContent": "## 現在動作しているもの"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "wYJm9JXWEBor9IX/Q5MlDpl8gv5OQ+4eTjH4GspUIHI=",
-        "originContent": "✅ **CLI Installation** - Install `argon` command globally  ",
-        "translatedContent": "✅ **CLI インストール** - `argon` コマンドをグローバルにインストール  "
-      },
-      {
-        "row": 5,
-        "rowsha": "EXkI5euJA/+EUnovTqqZJYrOAoSGakRwgtaZADiJzhU=",
-        "originContent": "✅ **Core Architecture** - Hybrid Go+Python system ready  ",
-        "translatedContent": "✅ **コアアーキテクチャ** - ハイブリッド Go+Python システム準備完了  "
-      },
-      {
-        "row": 6,
-        "rowsha": "XHJvw/bHrPn0/ZNQgd1ERAwbynhEJb7NdIxCcRnKXO4=",
-        "originContent": "✅ **Storage Engine** - S3 backend with 42% compression  ",
-        "translatedContent": "✅ **ストレージエンジン** - 42% 圧縮の S3 バックエンド  "
-      },
-      {
-        "row": 7,
-        "rowsha": "/tfsmW8T0Uq6hchTahmSvkW71hFvkB00P5XtGW7HID4=",
-        "originContent": "✅ **Local Development** - Full Docker environment  ",
-        "translatedContent": "✅ **ローカル開発** - 完全な Docker 環境  "
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "29cDuO1/D9okX0FPgeQhta8ijeCjIlITNlDqtxo4WBI=",
-        "originContent": "## Coming Soon",
-        "translatedContent": "## まもなく登場"
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "h5dQteAY5A8nvNyg84dNdNv6M3mmXFdasoj0p4uhQk8=",
-        "originContent": "✅ **Homebrew** - `brew install argon-lab/tap/argonctl` (live now!)  ",
-        "translatedContent": "✅ **Homebrew** - `brew install argon-lab/tap/argonctl`（現在稼働中！）  "
-      },
-      {
-        "row": 12,
-        "rowsha": "wF98Kj27kPqQ2C4hv0BEKHbINEgrlWIVr390ZlTK8vM=",
-        "originContent": "✅ **npm Package** - `npm install -g argonctl` (live now!)  ",
-        "translatedContent": "✅ **npm パッケージ** - `npm install -g argonctl`（現在稼働中！）  "
-      },
-      {
-        "row": 13,
-        "rowsha": "G5vQsOYn6St8nAw6z/0LdH2UC5EDsRIMOEYDlZo1ccM=",
-        "originContent": "🚧 **Hosted Service** - Cloud-hosted Argon for instant use  ",
-        "translatedContent": "🚧 **ホステッドサービス** - 即時利用可能なクラウドホスト Argon  "
-      },
-      {
-        "row": 14,
-        "rowsha": "W7IrY2Yx0UrF3aByHMBFkc/M5fpBF7C8TDIUtoLGhoI=",
-        "originContent": "🚧 **Web Dashboard** - Visual branch management  ",
-        "translatedContent": "🚧 **Web ダッシュボード** - ブランチ管理の可視化  "
-      },
-      {
-        "row": 15,
-        "rowsha": "Jxwi2DjrL4gkZhUCmEmBzYGpwt2IwBTc06PM38W4xto=",
-        "originContent": "🚧 **ML Integrations** - MLflow, DVC, Weights & Biases  ",
-        "translatedContent": "🚧 **ML 統合** - MLflow、DVC、Weights & Biases  "
-      },
-      {
-        "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 17,
-        "rowsha": "rNXxj+rinL1Hs0JPFaVB4bBzBd35Cg/+qghQnhvhUa8=",
-        "originContent": "## Current Status",
-        "translatedContent": "## 現在の状況"
-      },
-      {
-        "row": 18,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 19,
-        "rowsha": "tzCiNije21wrE84DXXh5jO1rNWRgxScIsKtIk+9UOWc=",
-        "originContent": "The **CLI and core system are production-ready**. The package manager distributions and hosted service are being prepared for public launch.",
-        "translatedContent": "**CLI とコアシステムは本番稼働準備完了**。パッケージマネージャ配布とホステッドサービスは一般公開に向けて準備中です。"
-      },
-      {
-        "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 21,
-        "rowsha": "/VeRuAG94SRomSo49m8j37EdDZn5yohO5vEdmF8O68M=",
-        "originContent": "## Performance Targets",
-        "translatedContent": "## パフォーマンス目標"
-      },
-      {
-        "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 23,
-        "rowsha": "FEkVRGC1SKl2UcjyxDh3I8NaRxkdH5rTr+ZFZNSSWw8=",
-        "originContent": "| Metric | Target | Current Status |",
-        "translatedContent": "| 指標 | 目標 | 現状 |"
-      },
-      {
-        "row": 24,
-        "rowsha": "z2M5c2LeoNToAFOt6lJItkB205J5D0aR39cgKjrBYNI=",
-        "originContent": "|--------|--------|----------------|",
-        "translatedContent": "|--------|--------|----------------|"
-      },
-      {
-        "row": 25,
-        "rowsha": "ksFRxxg0qyFcXNkdqL+wZEIziQhELqjkgjhT1yfCJD0=",
-        "originContent": "| Branch Creation | <500ms | 🟢 Implemented |",
-        "translatedContent": "| ブランチ作成 | <500ms | 🟢 実装済み |"
-      },
-      {
-        "row": 26,
-        "rowsha": "P/Mbydp7+kVBhlKz4fNkR9kNPFcMQwtWKPTCy9oQJnY=",
-        "originContent": "| Change Processing | 10,000+ ops/sec | 🟢 Implemented |",
-        "translatedContent": "| 変更処理 | 10,000+ ops/sec | 🟢 実装済み |"
-      },
-      {
-        "row": 27,
-        "rowsha": "5c72mg7qB+VMB2kwwrh7WF+/pD+iCj/iqljrztoT7Q8=",
-        "originContent": "| Storage Efficiency | 40%+ compression | 🟢 Achieved (42.40%) |",
-        "translatedContent": "| ストレージ効率 | 40%以上圧縮 | 🟢 達成 (42.40%) |"
-      },
-      {
-        "row": 28,
-        "rowsha": "QsC07aL3EkqwqJBZnXRE/RbiclChdIIfO8pl6LlCReQ=",
-        "originContent": "| CLI Startup | <50ms | 🟢 Achieved |",
-        "translatedContent": "| CLI 起動時間 | <50ms | 🟢 達成 |"
-      },
-      {
-        "row": 29,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 30,
-        "rowsha": "4vWujHs5Ye7w1xO1jq955leyFikp9SiNLFJmgYQgCYI=",
-        "originContent": "## Use Cases",
-        "translatedContent": "## ユースケース"
-      },
-      {
-        "row": 31,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 32,
-        "rowsha": "O55x96mqfp4HeVJ18Ojp0VCgmKsysLJgTCMusARHfZs=",
-        "originContent": "### Data Science Teams",
-        "translatedContent": "### データサイエンスチーム</translate-content>"
-      }
-    ],
-    "IsCodeBlock": false
-  },
-  {
-    "Id": 20,
-    "Content": "```python\n# In Jupyter notebook\nimport argon\n\n# Create experiment branch\nargon.branch.create(\"model-v2-experiment\")\n\n# Train model with versioned data\nmodel = train_model(argon.data.get_collection(\"training_data\"))\n\n# Track experiment metadata\nargon.experiment.log(model_accuracy=0.95, dataset_version=\"v2.1\")\n\n# Merge successful experiment\nargon.branch.merge(\"model-v2-experiment\", \"main\")\n```",
-    "ContentSha": "lxSDnJeF7LX26YzDDgDoEupM9BMYwjT6B8TsAw6nInA=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "```python\n# In Jupyter notebook\nimport argon\n\n# Create experiment branch\nargon.branch.create(\"model-v2-experiment\")\n\n# Train model with versioned data\nmodel = train_model(argon.data.get_collection(\"training_data\"))\n\n# Track experiment metadata\nargon.experiment.log(model_accuracy=0.95, dataset_version=\"v2.1\")\n\n# Merge successful experiment\nargon.branch.merge(\"model-v2-experiment\", \"main\")\n```",
-    "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
-        "originContent": "```python",
-        "translatedContent": "```python"
-      },
-      {
-        "row": 2,
-        "rowsha": "6ynkl/KUqCVGFgJlzY+9xDrJgW5ZUisS4fIfFeCgPyI=",
-        "originContent": "# In Jupyter notebook",
-        "translatedContent": "# In Jupyter notebook"
-      },
-      {
-        "row": 3,
-        "rowsha": "lxo1wh4s2Zct64rF6Oym/8/dd3Olfj1+WFB/Q+U/Ud8=",
-        "originContent": "import argon",
-        "translatedContent": "import argon"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "1f2VW+9zXxVL5Ghev5GZQskMm05Jct/47/7L/4F5a8E=",
-        "originContent": "# Create experiment branch",
-        "translatedContent": "# Create experiment branch"
-      },
-      {
-        "row": 6,
-        "rowsha": "DcrnKvXdUfYEHiYnQwi5UcLhDdhrFcAxTWDvDwcdtWw=",
-        "originContent": "argon.branch.create(\"model-v2-experiment\")",
-        "translatedContent": "argon.branch.create(\"model-v2-experiment\")"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "gRXKbwYp8P5cXMlJTVlam7fRPYbLbswkRnhprA6gsi4=",
-        "originContent": "# Train model with versioned data",
-        "translatedContent": "# Train model with versioned data"
-      },
-      {
-        "row": 9,
-        "rowsha": "sXA9Y7Whj9LUUtuRfUqojuOc3xIE3qeoxWf0cueQPfw=",
-        "originContent": "model = train_model(argon.data.get_collection(\"training_data\"))",
-        "translatedContent": "model = train_model(argon.data.get_collection(\"training_data\"))"
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "Gv4v57MaUHXbw8ls5H1JBm5oi2fg57RjY6roqTtm9W0=",
-        "originContent": "# Track experiment metadata",
-        "translatedContent": "# Track experiment metadata"
-      },
-      {
-        "row": 12,
-        "rowsha": "+aEdE/N3+rbdLszdtohlK68keBYS4yeRnRXXLUg5iLs=",
-        "originContent": "argon.experiment.log(model_accuracy=0.95, dataset_version=\"v2.1\")",
-        "translatedContent": "argon.experiment.log(model_accuracy=0.95, dataset_version=\"v2.1\")"
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 14,
-        "rowsha": "s8L5/d6R9+/GZmEELjvXCn7LjMv4DtjnP0PiW3ompyI=",
-        "originContent": "# Merge successful experiment",
-        "translatedContent": "# Merge successful experiment"
-      },
-      {
-        "row": 15,
-        "rowsha": "QsIVOBZraSxOOmKFaa4VxDh6oZVTl3OvGTyVCofG82M=",
-        "originContent": "argon.branch.merge(\"model-v2-experiment\", \"main\")",
-        "translatedContent": "argon.branch.merge(\"model-v2-experiment\", \"main\")"
-      },
-      {
-        "row": 16,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
-    "IsCodeBlock": true
-  },
-  {
-    "Id": 21,
-    "Content": "\n### Development Teams",
-    "ContentSha": "4kDeUEP0UXnig2iIad1b/vy4s9S67XtGDgvzHzC+AR8=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "### 開発チーム\n",
-    "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 開発チーム"
-      },
-      {
-        "row": 2,
-        "rowsha": "wKCjalKDQRW9MjevIuTRSAIILz7vD+KsvF7dxDWKzSE=",
-        "originContent": "### Development Teams",
-        "translatedContent": ""
-      }
-    ],
-    "IsCodeBlock": false
-  },
-  {
-    "Id": 22,
-    "Content": "```bash\n# Create feature branch with production data copy\nargon branch create feature-new-analytics --from production\n\n# Develop and test against real data\n# ... make database schema changes ...\n\n# Review changes before merge\nargon diff main..feature-new-analytics\n\n# Deploy to production\nargon branch merge feature-new-analytics main\n```",
-    "ContentSha": "2iYadyJOWGJDdk2H/cdBRb1EeUbQkAHfgDbBnenuhiw=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "```bash\n# Create feature branch with production data copy\nargon branch create feature-new-analytics --from production\n\n# Develop and test against real data\n# ... make database schema changes ...\n\n# Review changes before merge\nargon diff main..feature-new-analytics\n\n# Deploy to production\nargon branch merge feature-new-analytics main\n```",
-    "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "aBgRp0mIrxumFeFoTdlzoBN1GqABmiUuvEuDXMsDd+A=",
-        "originContent": "# Create feature branch with production data copy",
-        "translatedContent": "# Create feature branch with production data copy"
-      },
-      {
-        "row": 3,
-        "rowsha": "DbEMfWOU0/rmBR16qlBu7hGx+FRaTTc70O56ca9O0GQ=",
-        "originContent": "argon branch create feature-new-analytics --from production",
-        "translatedContent": "argon branch create feature-new-analytics --from production"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "iYMkQ0pgUep/CUcnmZHSBqLAkimNEc0SInvJBXSWPXE=",
-        "originContent": "# Develop and test against real data",
-        "translatedContent": "# Develop and test against real data"
-      },
-      {
-        "row": 6,
-        "rowsha": "/AqAG1O2+5MHFoxA7PQt7AAEeRTLxifnn5NlIc9ZGy0=",
-        "originContent": "# ... make database schema changes ...",
-        "translatedContent": "# ... make database schema changes ..."
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "pA8i3FOwMVsVkOw0nUrwHAAhAbDKYdZITBmhoomZcWc=",
-        "originContent": "# Review changes before merge",
-        "translatedContent": "# Review changes before merge"
-      },
-      {
-        "row": 9,
-        "rowsha": "JGgbJSDWqoxZPjAmtytcNKFhUNMZOLyUDcaEwTNZuZ8=",
-        "originContent": "argon diff main..feature-new-analytics",
-        "translatedContent": "argon diff main..feature-new-analytics"
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "uUCU3Hi9EqDHO6sGaoTGywOcrvP7zDzQYdezbX/onh4=",
-        "originContent": "# Deploy to production",
-        "translatedContent": "# Deploy to production"
-      },
-      {
-        "row": 12,
-        "rowsha": "Uo6PXCDtu5vgPPLmEXKbdoC3NUOH749nRcV40qUdCWY=",
-        "originContent": "argon branch merge feature-new-analytics main",
-        "translatedContent": "argon branch merge feature-new-analytics main"
-      },
-      {
-        "row": 13,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
-    "IsCodeBlock": true
-  },
-  {
-    "Id": 23,
-    "Content": "\n## Contributing\n\nWe welcome contributions! This is an open-source project built for the community.\n\n### Development Workflow\n\n1. **Fork the repository**\n2. **Set up development environment**: `docker-compose up -d`\n3. **Make changes** in the appropriate service:\n   - Go engine: `services/engine/`\n   - Python API: `services/api/`\n   - Web dashboard: `services/web/`\n4. **Test your changes**: Run the test suite\n5. **Submit a pull request**\n\n### Project Structure\n",
-    "ContentSha": "3/TaJj250YTlkp5q3j/e22f7jXm9c/90E/qRifOBUAs=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "## 貢献について\n\n私たちは貢献を歓迎します！これはコミュニティのために構築されたオープンソースプロジェクトです。\n\n### 開発ワークフロー\n\n1. **リポジトリをフォークする**\n2. **開発環境をセットアップする**: `docker-compose up -d`\n3. **適切なサービスで変更を加える**:\n   - Goエンジン: `services/engine/`\n   - Python API: `services/api/`\n   - Webダッシュボード: `services/web/`\n4. **変更をテストする**: テストスイートを実行する\n5. **プルリクエストを提出する**\n\n### プロジェクト構成\n\n",
-    "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 貢献について"
-      },
-      {
-        "row": 2,
-        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
-        "originContent": "## Contributing",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "私たちは貢献を歓迎します！これはコミュニティのために構築されたオープンソースプロジェクトです。"
-      },
-      {
-        "row": 4,
-        "rowsha": "BRi/iXVe+S5h6OchBgPkso0Sh4Ntmo+5WCjhDQ7vKYI=",
-        "originContent": "We welcome contributions! This is an open-source project built for the community.",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 開発ワークフロー"
-      },
-      {
-        "row": 6,
-        "rowsha": "XfOFIXpvw0Wst+MymVSm9nkPxsDZ8DkWTek+cm82Eyc=",
-        "originContent": "### Development Workflow",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "1. **リポジトリをフォークする**"
-      },
-      {
-        "row": 8,
-        "rowsha": "ADms+LkkX43QVevy27GoluYNNlZYJOTac9wbBE5ELCk=",
-        "originContent": "1. **Fork the repository**",
-        "translatedContent": "2. **開発環境をセットアップする**: `docker-compose up -d`"
-      },
-      {
-        "row": 9,
-        "rowsha": "Hm3TAL3ke5yEoZw8aI8kBH/HLhJTzeAjgm1f4RebUA0=",
-        "originContent": "2. **Set up development environment**: `docker-compose up -d`",
-        "translatedContent": "3. **適切なサービスで変更を加える**:"
-      },
-      {
-        "row": 10,
-        "rowsha": "100VcFQViEhSTcenRkVzwiXSfJI/vN/+nZg5w4FlTzo=",
-        "originContent": "3. **Make changes** in the appropriate service:",
-        "translatedContent": "   - Goエンジン: `services/engine/`"
-      },
-      {
-        "row": 11,
-        "rowsha": "3Ehs3mm+TQx+Dhl/wzHAcgb1MroR9Xljzhe/jh7ImSQ=",
-        "originContent": "   - Go engine: `services/engine/`",
-        "translatedContent": "   - Python API: `services/api/`"
-      },
-      {
-        "row": 12,
-        "rowsha": "gy+sLB4p2sU5ATdb4VpB0RoD9Pi4m/Wmx3bOODEndv8=",
-        "originContent": "   - Python API: `services/api/`",
-        "translatedContent": "   - Webダッシュボード: `services/web/`"
-      },
-      {
-        "row": 13,
-        "rowsha": "GvGAdJDBfGo380DzBPj63JImmrPNEU+1odJXqkQ2oW0=",
-        "originContent": "   - Web dashboard: `services/web/`",
-        "translatedContent": "4. **変更をテストする**: テストスイートを実行する"
-      },
-      {
-        "row": 14,
-        "rowsha": "HRsYGdA0UQ5Vy0jGPRef1VfjS3CSpNxFek/EqHJJBY0=",
-        "originContent": "4. **Test your changes**: Run the test suite",
-        "translatedContent": "5. **プルリクエストを提出する**"
-      },
-      {
-        "row": 15,
-        "rowsha": "07kMbVsVKiwncFUeUnaKNsPKpIn2H8mLY8eRJX5oOvg=",
-        "originContent": "5. **Submit a pull request**",
-        "translatedContent": ""
-      },
-      {
-        "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### プロジェクト構成"
-      },
-      {
-        "row": 17,
-        "rowsha": "LhSV6uyxzWqT0ogFCmU00Wa6CfiB7nPMeRVYFMvBY0I=",
-        "originContent": "### Project Structure",
-        "translatedContent": ""
-      },
-      {
-        "row": 18,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
-    "IsCodeBlock": false
-  },
-  {
-    "Id": 24,
-    "Content": "```\nargon/\n├── services/\n│   ├── engine/          # Go performance engine\n│   ├── api/             # Python FastAPI service\n│   └── web/             # Next.js web dashboard\n├── docs/                # Documentation\n├── examples/            # Example usage and tutorials\n├── scripts/             # Development and deployment scripts\n└── docker-compose.yml   # Development environment\n```",
-    "ContentSha": "xgl3MebmEQPS6cZN6W7YPixs8qD6dQW8jL0fKeGakUw=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "```\nargon/\n├── services/\n│   ├── engine/          # Go performance engine\n│   ├── api/             # Python FastAPI service\n│   └── web/             # Next.js web dashboard\n├── docs/                # Documentation\n├── examples/            # Example usage and tutorials\n├── scripts/             # Development and deployment scripts\n└── docker-compose.yml   # Development environment\n```",
-    "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "FAjoysmDVEnwLb7FkGCO8UYfUBBbMfM7FIzNdl24KYc=",
-        "originContent": "argon/",
-        "translatedContent": "argon/"
-      },
-      {
-        "row": 3,
-        "rowsha": "rL6r1jugltLJZ4lKXqTOBZEFvAbtSk1cfXuwNxiM2TQ=",
-        "originContent": "├── services/",
-        "translatedContent": "├── services/"
-      },
-      {
-        "row": 4,
-        "rowsha": "mp0+tCZxWUTqSkYhKZbOKVpDZrZf2jOaQN7Tb7UvKpg=",
-        "originContent": "│   ├── engine/          # Go performance engine",
-        "translatedContent": "│   ├── engine/          # Go performance engine"
-      },
-      {
-        "row": 5,
-        "rowsha": "W13Z3BHp4JkToU9d+z1DL0ZZzwrhPNc+zkv2jmS+I7g=",
-        "originContent": "│   ├── api/             # Python FastAPI service",
-        "translatedContent": "│   ├── api/             # Python FastAPI service"
-      },
-      {
-        "row": 6,
-        "rowsha": "/OggZEM45peFuXB5mZwZv3IhlxfWNws2t5Zbqkt6HA8=",
-        "originContent": "│   └── web/             # Next.js web dashboard",
-        "translatedContent": "│   └── web/             # Next.js web dashboard"
-      },
-      {
-        "row": 7,
-        "rowsha": "SR08UBKhTeHWrbocmd4El3V6KTP9Rn+f6Odmbk6Z8IE=",
-        "originContent": "├── docs/                # Documentation",
-        "translatedContent": "├── docs/                # Documentation"
-      },
-      {
-        "row": 8,
-        "rowsha": "JUvEfFdSlpiu5cgZredeKCvxSBvCG/cGOnB5z7hLT8g=",
-        "originContent": "├── examples/            # Example usage and tutorials",
-        "translatedContent": "├── examples/            # Example usage and tutorials"
-      },
-      {
-        "row": 9,
-        "rowsha": "7LK4RUVE5uwgSuSAouwKGWpJc91JAG5F148jfrDSHCw=",
-        "originContent": "├── scripts/             # Development and deployment scripts",
-        "translatedContent": "├── scripts/             # Development and deployment scripts"
-      },
-      {
-        "row": 10,
-        "rowsha": "5RgVm6VjxwHZQV6p4ca2W0idFzC6CUve2gDSiGmMX1Q=",
-        "originContent": "└── docker-compose.yml   # Development environment",
-        "translatedContent": "└── docker-compose.yml   # Development environment"
-      },
-      {
-        "row": 11,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
-    "IsCodeBlock": true
-  },
-  {
-    "Id": 25,
-    "Content": "\n## Roadmap\n\n### v1.0 (Current) - Production Ready\n- Hybrid Go+Python architecture\n- Core branching operations\n- MongoDB change streams\n- CLI and API interface\n- S3 storage with compression\n\n### v1.1 - ML Integration\n- MLflow connector\n- DVC integration\n- Weights & Biases support\n- Jupyter notebook examples\n\n### v1.2 - Enterprise Features\n- User authentication and RBAC\n- Team collaboration features\n- Advanced branch operations\n- Performance optimization\n\n### v1.3 - Scale & Polish\n- Multi-region deployment\n- Advanced analytics\n- Plugin architecture\n- Enterprise support\n\n## Architecture Deep Dive\n\nFor detailed technical documentation, see:\n- [Architecture Overview](https://raw.githubusercontent.com/argon-lab/argon/master/docs/architecture.md)\n- [API Documentation](https://raw.githubusercontent.com/argon-lab/argon/master/docs/api.md)\n- [Development Guide](https://raw.githubusercontent.com/argon-lab/argon/master/docs/development.md)\n- [Deployment Guide](https://raw.githubusercontent.com/argon-lab/argon/master/docs/deployment.md)\n\n## Community\n\n- **GitHub Discussions**: Ask questions and share ideas\n- **Discord**: Real-time chat with the community (link coming soon)\n- **Twitter**: Follow [@argondb](https://twitter.com/argondb) for updates\n\n## License\n\nThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.\n\n## Built by MongoDB Engineers\n\nArgon is built with deep MongoDB expertise, leveraging advanced features like change streams, optimized aggregation pipelines, and performance best practices learned from production deployments.\n\n---\n\n**⭐ Star this repository if you find it useful!**\n\n[![GitHub stars](https://img.shields.io/github/stars/argon-lab/argon?style=social)](https://github.com/argon-lab/argon)",
-    "ContentSha": "EgaRe8HvDWuEDNqXJqKnDYLYvJ4uKr6LABzh44qrVhM=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "## ロードマップ\n\n### v1.0（現在）- 本番環境対応\n- ハイブリッドGo+Pythonアーキテクチャ\n- コアブランチ操作\n- MongoDBチェンジストリーム\n- CLIおよびAPIインターフェース\n- 圧縮対応S3ストレージ\n\n### v1.1 - ML統合\n- MLflowコネクタ\n- DVC統合\n- Weights & Biasesサポート\n- Jupyterノートブック例\n\n### v1.2 - エンタープライズ機能\n- ユーザー認証およびRBAC\n- チームコラボレーション機能\n- 高度なブランチ操作\n- パフォーマンス最適化\n\n### v1.3 - スケール＆ポリッシュ\n- マルチリージョン展開\n- 高度な分析機能\n- プラグインアーキテクチャ\n- エンタープライズサポート\n\n## アーキテクチャ詳細\n\n詳細な技術ドキュメントは以下をご参照ください：\n- [アーキテクチャ概要](https://raw.githubusercontent.com/argon-lab/argon/master/docs/architecture.md)\n- [APIドキュメント](https://raw.githubusercontent.com/argon-lab/argon/master/docs/api.md)\n- [開発ガイド](https://raw.githubusercontent.com/argon-lab/argon/master/docs/development.md)\n- [展開ガイド](https://raw.githubusercontent.com/argon-lab/argon/master/docs/deployment.md)\n\n## コミュニティ\n\n- **GitHub Discussions**: 質問やアイデアを共有\n- **Discord**: コミュニティとのリアルタイムチャット（リンクは近日公開予定）\n- **Twitter**: 更新情報は[@argondb](https://twitter.com/argondb)をフォロー\n\n## ライセンス\n\n本プロジェクトはMITライセンスの下で提供されています。詳細は[LICENSE](LICENSE)ファイルをご覧ください。\n\n## MongoDBエンジニアによる構築\n\nArgonはMongoDBの深い専門知識を活かして構築されており、チェンジストリームや最適化された集約パイプライン、実運用から得たパフォーマンスベストプラクティスなどの高度な機能を活用しています。\n\n---\n\n**⭐ 役に立ったらリポジトリにスターをお願いします！**\n\n[![GitHub stars](https://img.shields.io/github/stars/argon-lab/argon?style=social)](https://github.com/argon-lab/argon)\n",
-    "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## ロードマップ"
-      },
-      {
-        "row": 2,
-        "rowsha": "uRQ4dBQEv6RHmBfuRiXr10ur0TwKlFiD+9olmuSkhDY=",
-        "originContent": "## Roadmap",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### v1.0（現在）- 本番環境対応"
-      },
-      {
-        "row": 4,
-        "rowsha": "FHDo5QH62iYjcq7w6Oe3ltkTqEgm0W2Z/IqsOlQSMn0=",
-        "originContent": "### v1.0 (Current) - Production Ready",
-        "translatedContent": "- ハイブリッドGo+Pythonアーキテクチャ"
-      },
-      {
-        "row": 5,
-        "rowsha": "0MloBnloLXMTZ3FztIUgpI+LyOpcz+vCDSMCgQUl3tM=",
-        "originContent": "- Hybrid Go+Python architecture",
-        "translatedContent": "- コアブランチ操作"
-      },
-      {
-        "row": 6,
-        "rowsha": "Xs9inZ+nxeUKua7kThoeu1RFPW9UIcVopqcSNj/FSf8=",
-        "originContent": "- Core branching operations",
-        "translatedContent": "- MongoDBチェンジストリーム"
-      },
-      {
-        "row": 7,
-        "rowsha": "wZzkpD3NS8yydmwspELh1RENMijpc+MnWujpLxMLpuA=",
-        "originContent": "- MongoDB change streams",
-        "translatedContent": "- CLIおよびAPIインターフェース"
-      },
-      {
-        "row": 8,
-        "rowsha": "mwoGELJI8xudYWTOUlLXzcqGnzNMcySCeF0A2AbmU3U=",
-        "originContent": "- CLI and API interface",
-        "translatedContent": "- 圧縮対応S3ストレージ"
-      },
-      {
-        "row": 9,
-        "rowsha": "SABWn9r3w5q8bhkZmmSqyTMPvPcEStCCSEfIU0/dN0U=",
-        "originContent": "- S3 storage with compression",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### v1.1 - ML統合"
-      },
-      {
-        "row": 11,
-        "rowsha": "Jjs/LbkvaH/p4m5BvP8LCXVjCW2Wf8fRi2aWe/nlrzM=",
-        "originContent": "### v1.1 - ML Integration",
-        "translatedContent": "- MLflowコネクタ"
-      },
-      {
-        "row": 12,
-        "rowsha": "3Bj0KWP+GOLAtMyadw6RFzbtovLLNL2f9dm9Uc330sM=",
-        "originContent": "- MLflow connector",
-        "translatedContent": "- DVC統合"
-      },
-      {
-        "row": 13,
-        "rowsha": "DtKTr/XIu+mVfJuTWOcN2WV5jcKmcaE8/ksgzQJ0qcQ=",
-        "originContent": "- DVC integration",
-        "translatedContent": "- Weights & Biasesサポート"
-      },
-      {
-        "row": 14,
-        "rowsha": "Vb9A/AFnrgazGblGBOX7JIvg9qAXEhdFTPsLq3uTpTA=",
-        "originContent": "- Weights & Biases support",
-        "translatedContent": "- Jupyterノートブック例"
-      },
-      {
-        "row": 15,
-        "rowsha": "08ACimY342XGHl1NCAqCfQv24J3+e4Fig27Y3iEl5Xk=",
-        "originContent": "- Jupyter notebook examples",
-        "translatedContent": ""
-      },
-      {
-        "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### v1.2 - エンタープライズ機能"
-      },
-      {
-        "row": 17,
-        "rowsha": "UfH5nYXKRZPLCua0qpXwnHPAu6NJCYS2KEkHGvZOWKc=",
-        "originContent": "### v1.2 - Enterprise Features",
-        "translatedContent": "- ユーザー認証およびRBAC"
-      },
-      {
-        "row": 18,
-        "rowsha": "XCWReZk02p4wNNauxD1LcWBv51SXzVGEorH/Agk/EUg=",
-        "originContent": "- User authentication and RBAC",
-        "translatedContent": "- チームコラボレーション機能"
-      },
-      {
-        "row": 19,
-        "rowsha": "G8mRLVpXRAcbaTawBUUmm/DTi5GaQCdwd7ouut8aSoY=",
-        "originContent": "- Team collaboration features",
-        "translatedContent": "- 高度なブランチ操作"
-      },
-      {
-        "row": 20,
-        "rowsha": "rvA5bAhuRKITZdoglyzeV6nh909MDxnBzIXqB3qgCnE=",
-        "originContent": "- Advanced branch operations",
-        "translatedContent": "- パフォーマンス最適化"
-      },
-      {
-        "row": 21,
-        "rowsha": "Gs7Ch5zjpIswrS2Ot/lpcshN5xzpOqabmSqyownWvnw=",
-        "originContent": "- Performance optimization",
-        "translatedContent": ""
-      },
-      {
-        "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### v1.3 - スケール＆ポリッシュ"
-      },
-      {
-        "row": 23,
-        "rowsha": "qY78pEXonldURRMNOqrGGcaguiGLkF6gMKoYfDHxH6A=",
-        "originContent": "### v1.3 - Scale & Polish",
-        "translatedContent": "- マルチリージョン展開"
-      },
-      {
-        "row": 24,
-        "rowsha": "kH8a76Ep6GcKt7OMMiWbPvfi8K7OI86pdRkl8y0yK68=",
-        "originContent": "- Multi-region deployment",
-        "translatedContent": "- 高度な分析機能"
-      },
-      {
-        "row": 25,
-        "rowsha": "3dyGi/9B6+NA7N8wBeg7xVlAjqwJ2AC9sd7CeWe6qFw=",
-        "originContent": "- Advanced analytics",
-        "translatedContent": "- プラグインアーキテクチャ"
-      },
-      {
-        "row": 26,
-        "rowsha": "o7vWNXIP1JpEQCEr9CSXxRuKqBDlGIi9WMhj7zfHHuQ=",
-        "originContent": "- Plugin architecture",
-        "translatedContent": "- エンタープライズサポート"
-      },
-      {
-        "row": 27,
-        "rowsha": "ekNEhT4hNYb3f7ggpzQvecrjnHFgzWDf4BmJhRItRbs=",
-        "originContent": "- Enterprise support",
-        "translatedContent": ""
-      },
-      {
-        "row": 28,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## アーキテクチャ詳細"
-      },
-      {
-        "row": 29,
-        "rowsha": "QpkuaWoF1M6jNUfmFoXe7EmdtjaSZZJqpQW/3Y529nY=",
-        "originContent": "## Architecture Deep Dive",
-        "translatedContent": ""
-      },
-      {
-        "row": 30,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "詳細な技術ドキュメントは以下をご参照ください："
-      },
-      {
-        "row": 31,
-        "rowsha": "MFxS4DozFnvKPOSM/4XboBZdygsGxWIVs1S1UK6jsfk=",
-        "originContent": "For detailed technical documentation, see:",
-        "translatedContent": "- [アーキテクチャ概要](https://raw.githubusercontent.com/argon-lab/argon/master/docs/architecture.md)"
-      },
-      {
-        "row": 32,
-        "rowsha": "K0vy1ZVm9UT39MrmqYYG/WRPQOyuUCVvypZc0ABAdWQ=",
-        "originContent": "- [Architecture Overview](https://raw.githubusercontent.com/argon-lab/argon/master/docs/architecture.md)",
-        "translatedContent": "- [APIドキュメント](https://raw.githubusercontent.com/argon-lab/argon/master/docs/api.md)"
-      },
-      {
-        "row": 33,
-        "rowsha": "+Tt4OlBpFNUVS4S4P8xWsSE4hRAenfjm2RuM5ySJJms=",
-        "originContent": "- [API Documentation](https://raw.githubusercontent.com/argon-lab/argon/master/docs/api.md)",
-        "translatedContent": "- [開発ガイド](https://raw.githubusercontent.com/argon-lab/argon/master/docs/development.md)"
-      },
-      {
-        "row": 34,
-        "rowsha": "Ng0uWvhuydV89brvetptdl3JU1bZJfK+BzOv4mFzKiM=",
-        "originContent": "- [Development Guide](https://raw.githubusercontent.com/argon-lab/argon/master/docs/development.md)",
-        "translatedContent": "- [展開ガイド](https://raw.githubusercontent.com/argon-lab/argon/master/docs/deployment.md)"
-      },
-      {
-        "row": 35,
-        "rowsha": "tSo9Wbh0J34sshiefqIucttYsxHg7vNnwjt+FSx6OBc=",
-        "originContent": "- [Deployment Guide](https://raw.githubusercontent.com/argon-lab/argon/master/docs/deployment.md)",
-        "translatedContent": ""
-      },
-      {
-        "row": 36,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": "## コミュニティ"
       },
       {
-        "row": 37,
+        "row": 9,
         "rowsha": "vpVfa1NlR4kP0/NRL7eiXU6zj5WLWqa6scBMZmD4ye0=",
         "originContent": "## Community",
         "translatedContent": ""
       },
       {
-        "row": 38,
+        "row": 10,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "- **GitHub Discussions**: 質問やアイデアを共有"
+        "translatedContent": "- 🐛 [問題を報告](https://github.com/argon-lab/argon/issues)"
       },
       {
-        "row": 39,
-        "rowsha": "iuDaCgLWJVyJDqns5aiJzOWWAOfZDfiUJEjty9tlQSo=",
-        "originContent": "- **GitHub Discussions**: Ask questions and share ideas",
-        "translatedContent": "- **Discord**: コミュニティとのリアルタイムチャット（リンクは近日公開予定）"
+        "row": 11,
+        "rowsha": "H67cxj7b+WCv0iSZ+V4DkExoH2RFAaKquss5qp8xBiU=",
+        "originContent": "- 🐛 [Report Issues](https://github.com/argon-lab/argon/issues)",
+        "translatedContent": "- 💬 [ディスカッション](https://github.com/argon-lab/argon/discussions)"
       },
       {
-        "row": 40,
-        "rowsha": "tIdu2IuphOadVBjYffmtzwvDHqVDo/1gH/EBpPLneE8=",
-        "originContent": "- **Discord**: Real-time chat with the community (link coming soon)",
-        "translatedContent": "- **Twitter**: 更新情報は[@argondb](https://twitter.com/argondb)をフォロー"
+        "row": 12,
+        "rowsha": "9kE+QSgSAVvEa7+xWhRG4rZXAM6sf+dtS41yXdLz3nE=",
+        "originContent": "- 💬 [Discussions](https://github.com/argon-lab/argon/discussions)",
+        "translatedContent": "- 📧 [連絡先](https://www.argonlabs.tech)"
       },
       {
-        "row": 41,
-        "rowsha": "KdboyznLoCnqKlw+IyzKOriETBm9pJZUKJ12TBVE25A=",
-        "originContent": "- **Twitter**: Follow [@argondb](https://twitter.com/argondb) for updates",
+        "row": 13,
+        "rowsha": "+M1ZgDsul5eri9pA5k6b71ZarIRvV+XmKrGu8aD9f/s=",
+        "originContent": "- 📧 [Contact](https://www.argonlabs.tech)",
         "translatedContent": ""
       },
       {
-        "row": 42,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## ライセンス"
-      },
-      {
-        "row": 43,
-        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
-        "originContent": "## License",
-        "translatedContent": ""
-      },
-      {
-        "row": 44,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "本プロジェクトはMITライセンスの下で提供されています。詳細は[LICENSE](LICENSE)ファイルをご覧ください。"
-      },
-      {
-        "row": 45,
-        "rowsha": "fOZgQLjSABDxHjJbYQ1wqD20ynEX33m+IkBDktyXUqY=",
-        "originContent": "This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.",
-        "translatedContent": ""
-      },
-      {
-        "row": 46,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## MongoDBエンジニアによる構築"
-      },
-      {
-        "row": 47,
-        "rowsha": "oTIwcMQUcB9kpX3gh+PaGLgKg1w0V/x4Wl4A40DxlZU=",
-        "originContent": "## Built by MongoDB Engineers",
-        "translatedContent": ""
-      },
-      {
-        "row": 48,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "ArgonはMongoDBの深い専門知識を活かして構築されており、チェンジストリームや最適化された集約パイプライン、実運用から得たパフォーマンスベストプラクティスなどの高度な機能を活用しています。"
-      },
-      {
-        "row": 49,
-        "rowsha": "LMl+RJHxntfkLdgqnariIafvQbLPP/y3k/QFvTNc1vw=",
-        "originContent": "Argon is built with deep MongoDB expertise, leveraging advanced features like change streams, optimized aggregation pipelines, and performance best practices learned from production deployments.",
-        "translatedContent": ""
-      },
-      {
-        "row": 50,
+        "row": 14,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": "---"
       },
       {
-        "row": 51,
+        "row": 15,
         "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
         "originContent": "---",
         "translatedContent": ""
       },
       {
-        "row": 52,
+        "row": 16,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "**⭐ 役に立ったらリポジトリにスターをお願いします！**"
+        "translatedContent": "<div align=\"center\">"
       },
       {
-        "row": 53,
-        "rowsha": "yc8YLHI10Qt982QMjRge6rmA772DSgemzeWx2SaQvic=",
-        "originContent": "**⭐ Star this repository if you find it useful!**",
+        "row": 17,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
         "translatedContent": ""
       },
       {
-        "row": 54,
+        "row": 18,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "[![GitHub stars](https://img.shields.io/github/stars/argon-lab/argon?style=social)](https://github.com/argon-lab/argon)"
+        "translatedContent": "**MongoDBにタイムマシンを。もうデータを失いません。**"
       },
       {
-        "row": 55,
-        "rowsha": "TB+3p94OnlTB9X7VkndoVYieE2en8vmkFO2K9FWl4E4=",
-        "originContent": "[![GitHub stars](https://img.shields.io/github/stars/argon-lab/argon?style=social)](https://github.com/argon-lab/argon)",
+        "row": 19,
+        "rowsha": "Q43/Yo8GzlrHcWzxElhNGq6Ts/JWqb696pTCAd2wRPA=",
+        "originContent": "**Give your MongoDB a time machine. Never lose data again.**",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "⭐ **Argonが役立ったらスターをお願いします！**"
+      },
+      {
+        "row": 21,
+        "rowsha": "5JwueYzG4xuOsuT1yqEdWP6xJ03WhggykS/qnwZISws=",
+        "originContent": "⭐ **Star us** if Argon saves your day!",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[はじめる →](https://raw.githubusercontent.com/argon-lab/argon/master/docs/QUICK_START.md) | [ライブデモ →](https://console.argonlabs.tech)"
+      },
+      {
+        "row": 23,
+        "rowsha": "sqgJNPVSQ/YQ86H2AsGBXxqty7nrPRCBIwWt/tjSIYo=",
+        "originContent": "[Get Started →](https://raw.githubusercontent.com/argon-lab/argon/master/docs/QUICK_START.md) | [Live Demo →](https://console.argonlabs.tech)",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 25,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
         "translatedContent": ""
       }
     ],

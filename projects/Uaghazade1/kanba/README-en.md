@@ -1,21 +1,52 @@
-<translate-content># Open-source, lightweight Trello alternative designed for makers and indie hackers.
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=id">Indonesian</a>
+      </div>
+    </div>
+  </details>
+</div>
 
-Focus on simplicity, speed, and scalability.  
-Built with modern stack: Tailwind CSS, shadcn/ui, Supabase, Stripe integration.  
-Supports unlimited projects, team collaboration, dark/light mode, and seamless user experience.  
-Perfect for solo devs and small teams who want full control without unnecessary complexity.
+# Open-source, lightweight Trello alternative designed for makers and indie hackers.
+
+Focuses on simplicity, speed, and scalability.
+Built with a modern stack: Tailwind CSS, shadcn/ui, Supabase, Stripe integration.
+Supports unlimited projects, team collaboration, dark/light mode, and a seamless user experience.
+Perfect for solo developers and small teams who want full control without unnecessary complexity.
 
 ## 🌟 If you find this project useful, consider giving it a star! It helps others discover it too.
 
 # Deployment Guide
 
-## Overview  
+## Overview
 This application now uses local Next.js API routes instead of Supabase Edge Functions for Stripe integration. This makes deployment simpler and allows you to use standard .env files for configuration.
 
 ## Environment Variables Setup
 
-### 1. Create .env.local file  
+### 1. Create .env.local file
 Copy `.env.example` to `.env.local` and fill in your actual values:
+
 
 ```bash
 cp .env.example .env.local
@@ -114,6 +145,6 @@ The application now uses these local API routes:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
 
 ---

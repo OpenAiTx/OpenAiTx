@@ -30,35 +30,35 @@
 
 # 🎮 2048++
 
-Versi yang ditingkatkan dari game klasik 2048, kini dengan fitur-fitur seru tambahan! Ini adalah proyek kecil yang saya buat di waktu luang—semoga membawa kebahagiaan untukmu!
+Versi yang ditingkatkan dari game klasik 2048, sekarang dengan fitur-fitur yang lebih seru! Ini adalah proyek kecil yang saya buat di waktu luang—semoga bisa membawa kebahagiaan untukmu!
 
 ## 🎯 Pengantar Game
 
-2048 adalah permainan menggabungkan angka yang sederhana namun adiktif. Pada papan 4x4, geser ke atas, bawah, kiri, atau kanan untuk menggabungkan ubin dengan angka yang sama. Tujuannya? Capai 2048 (tapi kamu bisa terus bermain untuk skor yang lebih tinggi)!
+2048 adalah permainan penggabungan angka yang sederhana namun adiktif. Pada grid 4x4, geser ke atas, bawah, kiri, atau kanan untuk menggabungkan ubin dengan angka yang sama. Tujuannya? Raih 2048 (tapi kamu juga bisa lanjut untuk skor yang lebih tinggi)!
 
 **Cara bermain:**
 - Gunakan tombol panah atau WASD untuk menggerakkan ubin.
 - Ketika dua ubin dengan angka yang sama bertabrakan, mereka akan bergabung menjadi satu.
 - Setelah setiap gerakan, angka 2 atau 4 baru akan muncul secara acak di tempat kosong.
-- Permainan berakhir jika tidak ada lagi langkah yang dapat dilakukan.
+- Permainan berakhir saat tidak ada lagi langkah yang dapat dilakukan.
 
-## ✨ Fitur Khusus
+## ✨ Fitur Spesial
 
 ### 1. Fungsi Undo
-- Salah melakukan langkah? Tenang saja!
-- Cukup tekan tombol "Undo" untuk kembali ke langkah sebelumnya.
-- Kamu bisa undo sebanyak yang kamu mau, bahkan kembali ke awal.
-- Jangan biarkan kesalahan kecil merusak permainanmu lagi!
+- Salah langkah? Jangan khawatir!
+- Cukup tekan tombol "Undo" untuk kembali satu langkah.
+- Kamu bisa undo sebanyak yang kamu mau, bahkan hingga ke awal permainan.
+- Jangan biarkan satu kesalahan kecil merusak permainanmu lagi!
 
 ### 2. Mode Cheat Rahasia
 - Masukkan urutan ajaib: ←←→→ →→←← (kiri, kiri, kanan, kanan, kanan, kanan, kiri, kiri)
-- Semua ubin akan secara ajaib berubah menjadi 128!
+- Semua ubin akan berubah ajaib menjadi 128!
 - Ini adalah Easter egg, hanya untuk bersenang-senang.
-- Tips pro: Curang itu seru, tapi jangan berlebihan! 😉
+- Tips pro: Curang itu menyenangkan, tapi jangan berlebihan! 😉
 
 ## 🎯 Demo
 
-🎯 Mainkan di sini: [http://2048.ct8.pl](http://2048.ct8.pl:9969/)
+🎯 Mainkan di sini: [2048.765431.xyz](https://2048.765431.xyz/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
@@ -98,7 +98,7 @@ python 2048.py
 ```
 ## 🎨 Kustomisasi
 
-Ingin membuatnya sesuai keinginan Anda? Ubah `styles.css` untuk tampilan baru, atau jelajahi `script.js` untuk mengubah gameplay. Semua kode sudah diberi komentar dengan baik agar mudah dimodifikasi!
+Ingin membuatnya jadi milikmu sendiri? Ubah `styles.css` untuk tampilan baru, atau jelajahi `script.js` untuk mengubah gameplay. Semua kode sudah diberi komentar agar mudah dimodifikasi!
 
 ## 📝 Lisensi
 
@@ -106,12 +106,13 @@ Lisensi GPL-2.0
 
 ## 🤝 Kontribusi
 
-Masih terus diperbarui! Isu dan Pull Request sangat diterima—mari kita buat game ini jadi lebih keren bersama!
+Masih terus diperbarui! Issue dan Pull Request sangat diterima—ayo kita buat game ini jadi lebih keren bersama!
 
 
-## 🙏 Penghargaan
+## 🙏 Ucapan Terima Kasih
 
-Terima kasih kepada sponsor berikut atas dukungannya terhadap proyek ini:
+Terima kasih kepada sponsor berikut yang telah mendukung proyek ini:
+- [IDC.REST](https://idc.rest/) yang menyediakan server
 - [Serv00](https://www.serv00.com/) yang menyediakan server
 
 ---
@@ -121,6 +122,6 @@ _Terakhir diperbarui: Jun. 2025_
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
 
 ---

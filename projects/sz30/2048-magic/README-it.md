@@ -1,6 +1,6 @@
 <div align="right">
   <details>
-    <summary >🌐 Altra Lingua</summary>
+    <summary >🌐 Altre Lingue</summary>
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ja">日本語</a>
@@ -30,25 +30,25 @@
 
 # 🎮 2048++
 
-Una versione migliorata del classico gioco 2048, ora con ancora più funzioni divertenti! Questo è un piccolo progetto che ho realizzato nel tempo libero—spero ti porti un po' di gioia!
+Una versione migliorata del classico gioco 2048, ora con ancora più funzionalità divertenti! Questo è un piccolo progetto che ho realizzato nel mio tempo libero—spero che ti porti un po' di gioia!
 
 ## 🎯 Introduzione al Gioco
 
-2048 è un gioco semplice ma coinvolgente in cui si uniscono i numeri. Su una griglia 4x4, scorri verso l'alto, il basso, sinistra o destra per unire le tessere con lo stesso numero. L'obiettivo? Raggiungere 2048 (ma puoi continuare per punteggi ancora più alti)!
+2048 è un gioco semplice ma coinvolgente di fusione di numeri. Su una griglia 4x4, scorri in alto, in basso, a sinistra o a destra per unire le tessere con lo stesso numero. L'obiettivo? Raggiungere 2048 (ma puoi continuare per punteggi ancora più alti)!
 
 **Come si gioca:**
-- Usa le frecce o WASD per muovere le tessere.
-- Quando due tessere con lo stesso numero si toccano, si fondono in una sola.
-- Dopo ogni mossa, un nuovo 2 o 4 apparirà casualmente in uno spazio vuoto.
-- Il gioco finisce quando non ci sono più mosse disponibili.
+- Usa i tasti freccia o WASD per muovere le tessere.
+- Quando due tessere con lo stesso numero si scontrano, si fondono in una sola.
+- Dopo ogni mossa, apparirà casualmente un nuovo 2 o 4 in una casella vuota.
+- Il gioco termina quando non ci sono più mosse disponibili.
 
 ## ✨ Funzionalità Speciali
 
 ### 1. Funzione Annulla
 - Hai fatto una mossa sbagliata? Nessun problema!
-- Premi semplicemente il pulsante "Annulla" per tornare indietro di uno step.
-- Puoi annullare tutte le volte che vuoi, fino all'inizio.
-- Non lasciare che un errore rovini la tua partita!
+- Basta premere il pulsante "Annulla" per tornare indietro di un passo.
+- Puoi annullare tutte le volte che vuoi, fino all'inizio della partita.
+- Non lasciare mai che un errore rovini la tua partita!
 
 ### 2. Modalità Cheat Segreta
 - Inserisci la sequenza magica: ←←→→ →→←← (sinistra, sinistra, destra, destra, destra, destra, sinistra, sinistra)
@@ -58,7 +58,7 @@ Una versione migliorata del classico gioco 2048, ora con ancora più funzioni di
 
 ## 🎯 Demo
 
-🎯 Gioca qui: [http://2048.ct8.pl](http://2048.ct8.pl:9969/)
+🎯 Gioca qui: [2048.765431.xyz](https://2048.765431.xyz/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
@@ -106,12 +106,13 @@ Licenza GPL-2.0
 
 ## 🤝 Contributi
 
-Aggiornamenti in corso! Segnalazioni di problemi e Pull Request sono super benvenuti—rendiamo insieme questo gioco ancora più fantastico!
+Ancora in aggiornamento! Segnalazioni e Pull Request sono super benvenute—rendiamo insieme questo gioco ancora più fantastico!
 
 
 ## 🙏 Ringraziamenti
 
-Grazie ai seguenti sponsor per il supporto a questo progetto:
+Grazie ai seguenti sponsor per aver supportato questo progetto:
+- [IDC.REST](https://idc.rest/) che fornisce il server
 - [Serv00](https://www.serv00.com/) che fornisce il server
 
 ---
@@ -121,6 +122,6 @@ _Ultimo aggiornamento: Giu. 2025_
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
 
 ---

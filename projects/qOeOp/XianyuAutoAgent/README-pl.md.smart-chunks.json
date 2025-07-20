@@ -1,0 +1,749 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=it\">Itapano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# 🚀 Xianyu AutoAgent - 智能闲鱼客服机器人系统\n\n[![Java Version](https://img.shields.io/badge/java21%2B-blue)](https://www.python.org/) [![LLM Powered](https://img.shields.io/badge/LLM-powered-FF6F61)](https://platform.openai.com/)\n\n专为闲鱼平台打造的AI值守解决方案，实现闲鱼平台7×24小时自动化值守，支持多专家协同决策、智能议价和上下文感知对话。\n\n## 🎮 Playground - 快速体验（免配置版）\n\n无需本地环境或设置 Secrets！**直接通过 GitHub Actions 网页端传入参数**，一键启动闲鱼机器人。\n\n### 如何使用\n1. **Fork 本仓库** → 点击右上角 `Fork` 按钮\n2. **触发 Action**：\n   - 进入你的仓库 `Actions` 标签页\n   - 选择 **`🚀 Run Service`** 工作流\n   - 点击 **`Run workflow`** 按钮，填写参数：\n      - `API Key`: 粘贴你的大模型 API Key（如阿里云 DashScope）\n      - `Cookies`: 粘贴闲鱼网页端的完整 Cookie 字符串\n3. **查看运行日志**：\n   - 机器人启动后会自动监听闲鱼消息\n   - 在 Action 日志中搜索 `🤖 Reply:` 查看对话记录\n\n### 注意事项\n⚠️ 注意临时运行限制：\n- 默认运行 **30分钟**（GitHub 免费账户限制）\n- 敏感信息（如 Cookie）**不会存储**，仅当次生效\n\n<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/qOeOp/XianyuAutoAgent/main/./screenshots/workflow.png\" width=\"400px\" alt=\"workflow\">\n</div>\n\n## 🌟 核心特性\n\n### 智能对话引擎\n| 功能模块   | 技术实现            | 关键特性                                                     |\n| ---------- | ------------------- | ------------------------------------------------------------ |\n| 上下文感知 | 会话历史存储        | 轻量级对话记忆管理，完整对话历史作为LLM上下文输入            |\n| 专家路由   | LLM prompt+规则路由 | 基于提示工程的意图识别 → 专家Agent动态分发，支持议价/技术/客服多场景切换 |\n\n### 业务功能矩阵\n| 模块     | 已实现                        | 规划中                     |\n| -------- | ----------------------------- | ----------------------- |\n| 核心引擎 | ✅ LLM自动回复<br>✅ 上下文管理 | 🔄 情感分析增强               |\n| 议价系统 | ✅ 阶梯降价策略                | 🔄 市场比价功能               |\n| 技术支持 | ✅ 网络搜索整合                | 🔄 RAG知识库增强             |\n\n## 🚴 快速开始\n\n### 环境要求\n- JDK 21+\n- Maven 3.9.10+\n\n### 安装步骤",
+    "ContentSha": "yAzLjufCR2AbsjY0958Ew6BQrw1ofFaWIickv0CsO8A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 Język</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=it\">Itapano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# 🚀 Xianyu AutoAgent - Inteligentny system bota obsługi klienta Xianyu\n\n[![Java Version](https://img.shields.io/badge/java21%2B-blue)](https://www.python.org/) [![LLM Powered](https://img.shields.io/badge/LLM-powered-FF6F61)](https://platform.openai.com/)\n\nAI-owe rozwiązanie dyżuru stworzone specjalnie dla platformy Xianyu, umożliwiające 7×24 godziny automatycznego nadzoru, wspierające współpracę wielu ekspertów, inteligentne negocjacje cen i kontekstową rozmowę.\n\n## 🎮 Playground - Szybkie demo (wersja bez konfiguracji)\n\nNie potrzebujesz lokalnego środowiska ani ustawiania sekretów! **Po prostu wprowadź parametry przez interfejs webowy GitHub Actions** i uruchom bota Xianyu jednym kliknięciem.\n\n### Jak używać\n1. **Forkuj to repozytorium** → Kliknij przycisk `Fork` w prawym górnym rogu\n2. **Uruchom Action**:\n   - Przejdź do zakładki `Actions` w swoim repozytorium\n   - Wybierz workflow **`🚀 Run Service`**\n   - Kliknij przycisk **`Run workflow`** i uzupełnij parametry:\n      - `API Key`: Wklej swój klucz API dużego modelu (np. Aliyun DashScope)\n      - `Cookies`: Wklej pełny ciąg Cookie z webowej wersji Xianyu\n3. **Zobacz logi działania**:\n   - Bot po uruchomieniu automatycznie nasłuchuje wiadomości Xianyu\n   - W logach Action wyszukaj `🤖 Reply:` aby zobaczyć historię rozmów\n\n### Uwagi\n⚠️ Ograniczenia działania tymczasowego:\n- Domyślne działanie **30 minut** (ograniczenie darmowego konta GitHub)\n- Wrażliwe dane (np. Cookie) **nie są zapisywane**, obowiązują tylko w bieżącej sesji\n\n<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/qOeOp/XianyuAutoAgent/main/./screenshots/workflow.png\" width=\"400px\" alt=\"workflow\">\n</div>\n\n## 🌟 Kluczowe funkcje\n\n### Inteligentny silnik rozmów\n| Moduł        | Technologia          | Kluczowe cechy                                                        |\n| ------------ | ------------------- | --------------------------------------------------------------------- |\n| Świadomość kontekstu | Przechowywanie historii rozmów | Lekki menedżer pamięci rozmów, pełna historia jako kontekst wejściowy LLM |\n| Routing ekspertów | LLM prompt+routing regułowy     | Rozpoznawanie intencji na bazie promptów → dynamiczna dystrybucja do agentów-ekspertów, obsługa negocjacji/technicznych/klientów |\n\n### Matryca funkcji biznesowych\n| Moduł     | Zaimplementowane                 | W planach                    |\n| --------- | -------------------------------- | ---------------------------- |\n| Silnik    | ✅ Automatyczne odpowiedzi LLM<br>✅ Zarządzanie kontekstem | 🔄 Wzmocniona analiza emocji        |\n| System negocjacji | ✅ Strategia stopniowego obniżania ceny | 🔄 Funkcja porównywania cen z rynkiem |\n| Wsparcie techniczne | ✅ Integracja wyszukiwania internetowego | 🔄 Wzmocnienie bazy wiedzy RAG       |\n\n## 🚴 Szybki start\n\n### Wymagania środowiskowe\n- JDK 21+\n- Maven 3.9.10+\n\n### Kroki instalacji\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "    <summary >🌐 Język</summary>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=en\">English</a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "18/Fo1aI3/a3s/TzCjU+wChwA0vGrWveH2j9s9cGFzM=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=en\">English</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "dzl7mPigzxwqZIg9RIX+sq6TP7pw0L58I/l8ByowzT0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "3Z8eCteb5CYv7jkj6xeG+lsrTKWaDxkeSlBrCKxyQu8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "YyGSRjApPS/SNHYz18XtN5jnKwrx2ucBV7KEYuFcjsI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "IkuUvQGikYOaZK0yfTrd8SQIkYMoJtjIT0Ffub1g5ho=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "1NZ+6lvZP4pUIxcNHTMb5/UKn/vo5yauOE2zaNxgKa4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "9pjVZe1CDpkRkxitQl71zAu6NCyygU8EF71hcbYBCyQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=fr\">Français</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "fHZ8jROHv1mjvX8nPYpay28VF3Gwgo2E3UBqsTLgqDA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "Es40XEdyBXmGVAIfggYW13YoPNTo09wDiOF+q4lCtGw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=es\">Español</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "SlKqEIPB1BpQm1I5BwTOIe4W81vemxxScgUZRKUkR3Y=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=it\">Itapano</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "u9+l4RltJe9zBe7vQco/clJRGPCF6GXRGMwl3HakJcw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=it\">Itapano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "HXMu6OWXBunMlY4EMKneVZgRzd86hSjW4SGUd+8CrUU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=pt\">Português</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "SALvZ27xm1QmJP1800JPvUOydMz0+7MKgYJCq4IU7WA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "FoG5yvj85PNvANTbveyqzvjS/61NSwtCMJUXXi34usw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "IJuCghpACwDujU0q3I4iOKZwzv+ej0lkW9dWJESm7MM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "6LHT08d/B+mCnEiJllZ1BrgDYIhHHoNDe4zDAGGNqkg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "ita7HAr2JY2B7sv8I8+9X74gzoGOmxaQeVXK0OlMzP4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "TJpGUJwlbE3eIxc5iqzWAGL7bZGZwmXpSA6wLH0VbOw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "GYaoYffqcwqzY75mtc7RcxAaWawlkTC4Os2voV2hST8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "YCyPscoyAUgTtHvwhhX1RrZmgn63kWBwGCX8rXXTrks=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 27,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 28,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 29,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# 🚀 Xianyu AutoAgent - Inteligentny system bota obsługi klienta Xianyu"
+      },
+      {
+        "row": 32,
+        "rowsha": "nDF4XOIN36UCHa1t6md4snKSui/jMb9DIvhd1CIDBSg=",
+        "originContent": "# 🚀 Xianyu AutoAgent - 智能闲鱼客服机器人系统",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[![Java Version](https://img.shields.io/badge/java21%2B-blue)](https://www.python.org/) [![LLM Powered](https://img.shields.io/badge/LLM-powered-FF6F61)](https://platform.openai.com/)"
+      },
+      {
+        "row": 34,
+        "rowsha": "ko7ZbF7VJvYk2j6kM/ZulpOs5RxDwEpFJbXA9G3OXAk=",
+        "originContent": "[![Java Version](https://img.shields.io/badge/java21%2B-blue)](https://www.python.org/) [![LLM Powered](https://img.shields.io/badge/LLM-powered-FF6F61)](https://platform.openai.com/)",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "AI-owe rozwiązanie dyżuru stworzone specjalnie dla platformy Xianyu, umożliwiające 7×24 godziny automatycznego nadzoru, wspierające współpracę wielu ekspertów, inteligentne negocjacje cen i kontekstową rozmowę."
+      },
+      {
+        "row": 36,
+        "rowsha": "AAL7SxNU6dO76cSa2om/bI5LcQEuDs6hlUw7I3ScYgA=",
+        "originContent": "专为闲鱼平台打造的AI值守解决方案，实现闲鱼平台7×24小时自动化值守，支持多专家协同决策、智能议价和上下文感知对话。",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🎮 Playground - Szybkie demo (wersja bez konfiguracji)"
+      },
+      {
+        "row": 38,
+        "rowsha": "kihruixn6fJU4hu+BrLseLzUs18uZP7bgyGd/V/hXNA=",
+        "originContent": "## 🎮 Playground - 快速体验（免配置版）",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Nie potrzebujesz lokalnego środowiska ani ustawiania sekretów! **Po prostu wprowadź parametry przez interfejs webowy GitHub Actions** i uruchom bota Xianyu jednym kliknięciem."
+      },
+      {
+        "row": 40,
+        "rowsha": "U/VEkANFha8fFfZLuCoAZRfLaY6BlR3M3UlIlOthwv4=",
+        "originContent": "无需本地环境或设置 Secrets！**直接通过 GitHub Actions 网页端传入参数**，一键启动闲鱼机器人。",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Jak używać"
+      },
+      {
+        "row": 42,
+        "rowsha": "iLSilKCUFL91NJA+BAk7tmCZtBTUF2S2LwAuEloXqio=",
+        "originContent": "### 如何使用",
+        "translatedContent": "1. **Forkuj to repozytorium** → Kliknij przycisk `Fork` w prawym górnym rogu"
+      },
+      {
+        "row": 43,
+        "rowsha": "GzGwlJoOJM48TDRYaLC46RzY+pjb+xhY5aiGv7jDQNs=",
+        "originContent": "1. **Fork 本仓库** → 点击右上角 `Fork` 按钮",
+        "translatedContent": "2. **Uruchom Action**:"
+      },
+      {
+        "row": 44,
+        "rowsha": "lb9x8YnRnePy5KPgCX3oejVMMJCdHdZTKypDTQ+uErk=",
+        "originContent": "2. **触发 Action**：",
+        "translatedContent": "   - Przejdź do zakładki `Actions` w swoim repozytorium"
+      },
+      {
+        "row": 45,
+        "rowsha": "m726/VeWRgAXrj7fPXyjpHHtU5/MDsk/DJZyNLUYu84=",
+        "originContent": "   - 进入你的仓库 `Actions` 标签页",
+        "translatedContent": "   - Wybierz workflow **`🚀 Run Service`**"
+      },
+      {
+        "row": 46,
+        "rowsha": "cjR7fva1NsnWzx4mceSn+pVDZN5UDFvu/l9Ccx8aqTw=",
+        "originContent": "   - 选择 **`🚀 Run Service`** 工作流",
+        "translatedContent": "   - Kliknij przycisk **`Run workflow`** i uzupełnij parametry:"
+      },
+      {
+        "row": 47,
+        "rowsha": "ZVV63Eu9z8DAMN7foVBjybq36wOeOHYvvXJNBQLf50M=",
+        "originContent": "   - 点击 **`Run workflow`** 按钮，填写参数：",
+        "translatedContent": "      - `API Key`: Wklej swój klucz API dużego modelu (np. Aliyun DashScope)"
+      },
+      {
+        "row": 48,
+        "rowsha": "JZm4p++4Eh8c64bfGPkR2gbmbb1GUhypc0TRu1W1n48=",
+        "originContent": "      - `API Key`: 粘贴你的大模型 API Key（如阿里云 DashScope）",
+        "translatedContent": "      - `Cookies`: Wklej pełny ciąg Cookie z webowej wersji Xianyu"
+      },
+      {
+        "row": 49,
+        "rowsha": "mU/P9AUart4S56hwn8oB4a7ErXlXBr5hfQK1urHI8UM=",
+        "originContent": "      - `Cookies`: 粘贴闲鱼网页端的完整 Cookie 字符串",
+        "translatedContent": "3. **Zobacz logi działania**:"
+      },
+      {
+        "row": 50,
+        "rowsha": "ZhL9iYltkY5pq9b0UWjeIQS3kI0Im3P3alOCezWtHRs=",
+        "originContent": "3. **查看运行日志**：",
+        "translatedContent": "   - Bot po uruchomieniu automatycznie nasłuchuje wiadomości Xianyu"
+      },
+      {
+        "row": 51,
+        "rowsha": "QPRdAM/+nFGjHapddUNmvrytCjheweDDnwr9DqQTfOY=",
+        "originContent": "   - 机器人启动后会自动监听闲鱼消息",
+        "translatedContent": "   - W logach Action wyszukaj `🤖 Reply:` aby zobaczyć historię rozmów"
+      },
+      {
+        "row": 52,
+        "rowsha": "Fp9K1xtJWO7QDkW3ZnLGQdgh8XNsRUlLT6FwFk8KC9A=",
+        "originContent": "   - 在 Action 日志中搜索 `🤖 Reply:` 查看对话记录",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Uwagi"
+      },
+      {
+        "row": 54,
+        "rowsha": "8p0metIVfXUNTXKqNkzSg2OUBc7dRSDhGhCsme5WYj0=",
+        "originContent": "### 注意事项",
+        "translatedContent": "⚠️ Ograniczenia działania tymczasowego:"
+      },
+      {
+        "row": 55,
+        "rowsha": "7O1zZXj8BPRRVv6Zr9UafaqyRUFN/CNO3U+3KOXsDwY=",
+        "originContent": "⚠️ 注意临时运行限制：",
+        "translatedContent": "- Domyślne działanie **30 minut** (ograniczenie darmowego konta GitHub)"
+      },
+      {
+        "row": 56,
+        "rowsha": "ev8LC0ui44ULm+iEb0YMbm/BLa5jLq69F8wIiqa4Ar8=",
+        "originContent": "- 默认运行 **30分钟**（GitHub 免费账户限制）",
+        "translatedContent": "- Wrażliwe dane (np. Cookie) **nie są zapisywane**, obowiązują tylko w bieżącej sesji"
+      },
+      {
+        "row": 57,
+        "rowsha": "bt3SvYpcSsA40LEpMNjsxWCr52tHxDN6tPVjzPDk9go=",
+        "originContent": "- 敏感信息（如 Cookie）**不会存储**，仅当次生效",
+        "translatedContent": ""
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 59,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/qOeOp/XianyuAutoAgent/main/./screenshots/workflow.png\" width=\"400px\" alt=\"workflow\">"
+      },
+      {
+        "row": 60,
+        "rowsha": "f1fhCSXnzbfEigznIrFagXBwhy502zMjgXPlMl0LLJk=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/qOeOp/XianyuAutoAgent/main/./screenshots/workflow.png\" width=\"400px\" alt=\"workflow\">",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 61,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 62,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🌟 Kluczowe funkcje"
+      },
+      {
+        "row": 63,
+        "rowsha": "mAMzZT1MMV8tOapDAdlYKenNHKRM2vOb7DbaRJXyJ/U=",
+        "originContent": "## 🌟 核心特性",
+        "translatedContent": ""
+      },
+      {
+        "row": 64,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Inteligentny silnik rozmów"
+      },
+      {
+        "row": 65,
+        "rowsha": "gepiFvco7zPqI7iAYPAdrA+6tUycLN/Zc0GUJxuRTos=",
+        "originContent": "### 智能对话引擎",
+        "translatedContent": "| Moduł        | Technologia          | Kluczowe cechy                                                        |"
+      },
+      {
+        "row": 66,
+        "rowsha": "JfeuzEFTUtRQ58F4f9+a4CEKqueHpA3zisGQAHm437E=",
+        "originContent": "| 功能模块   | 技术实现            | 关键特性                                                     |",
+        "translatedContent": "| ------------ | ------------------- | --------------------------------------------------------------------- |"
+      },
+      {
+        "row": 67,
+        "rowsha": "xesIUUpYJ/oseHnHuG4pFbUiruwQfwQb2GoYdyfd6hY=",
+        "originContent": "| ---------- | ------------------- | ------------------------------------------------------------ |",
+        "translatedContent": "| Świadomość kontekstu | Przechowywanie historii rozmów | Lekki menedżer pamięci rozmów, pełna historia jako kontekst wejściowy LLM |"
+      },
+      {
+        "row": 68,
+        "rowsha": "+z3r787eApi6tkvfESqJV+njgyD5FlnJm+ciJLwG8tE=",
+        "originContent": "| 上下文感知 | 会话历史存储        | 轻量级对话记忆管理，完整对话历史作为LLM上下文输入            |",
+        "translatedContent": "| Routing ekspertów | LLM prompt+routing regułowy     | Rozpoznawanie intencji na bazie promptów → dynamiczna dystrybucja do agentów-ekspertów, obsługa negocjacji/technicznych/klientów |"
+      },
+      {
+        "row": 69,
+        "rowsha": "I54saBD/I1QZ03c96it2hgoWn1saktpTiDFSGKJTafo=",
+        "originContent": "| 专家路由   | LLM prompt+规则路由 | 基于提示工程的意图识别 → 专家Agent动态分发，支持议价/技术/客服多场景切换 |",
+        "translatedContent": ""
+      },
+      {
+        "row": 70,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Matryca funkcji biznesowych"
+      },
+      {
+        "row": 71,
+        "rowsha": "5igejpP4c9Pepdfz+JziJK90vgfPSszh+fLlltItu+s=",
+        "originContent": "### 业务功能矩阵",
+        "translatedContent": "| Moduł     | Zaimplementowane                 | W planach                    |"
+      },
+      {
+        "row": 72,
+        "rowsha": "3bVicclYz+xvILYa2STW8kYsnht+PW9HYphQiEkcDZc=",
+        "originContent": "| 模块     | 已实现                        | 规划中                     |",
+        "translatedContent": "| --------- | -------------------------------- | ---------------------------- |"
+      },
+      {
+        "row": 73,
+        "rowsha": "6v7b/rv+HJ8t/RHXslS5Np2q8+J23yBOdPgWyVeHYKM=",
+        "originContent": "| -------- | ----------------------------- | ----------------------- |",
+        "translatedContent": "| Silnik    | ✅ Automatyczne odpowiedzi LLM<br>✅ Zarządzanie kontekstem | 🔄 Wzmocniona analiza emocji        |"
+      },
+      {
+        "row": 74,
+        "rowsha": "03upKUttSk1+P2OPcAebRHdkDbWfJNhfGmFfya39T1s=",
+        "originContent": "| 核心引擎 | ✅ LLM自动回复<br>✅ 上下文管理 | 🔄 情感分析增强               |",
+        "translatedContent": "| System negocjacji | ✅ Strategia stopniowego obniżania ceny | 🔄 Funkcja porównywania cen z rynkiem |"
+      },
+      {
+        "row": 75,
+        "rowsha": "JZpqOLseLdFaZIW/g+VueleihQ4H0MZsIyKJ6UslOl0=",
+        "originContent": "| 议价系统 | ✅ 阶梯降价策略                | 🔄 市场比价功能               |",
+        "translatedContent": "| Wsparcie techniczne | ✅ Integracja wyszukiwania internetowego | 🔄 Wzmocnienie bazy wiedzy RAG       |"
+      },
+      {
+        "row": 76,
+        "rowsha": "bDhQ7F2M1GTtZv/CX8DpXcM94h0mIR4GGwDhr7lzqtQ=",
+        "originContent": "| 技术支持 | ✅ 网络搜索整合                | 🔄 RAG知识库增强             |",
+        "translatedContent": ""
+      },
+      {
+        "row": 77,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🚴 Szybki start"
+      },
+      {
+        "row": 78,
+        "rowsha": "YzoZJc5YLeJ0p5Q/A+Y0ex98ocLGPDsRBJXEMZ87X/o=",
+        "originContent": "## 🚴 快速开始",
+        "translatedContent": ""
+      },
+      {
+        "row": 79,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Wymagania środowiskowe"
+      },
+      {
+        "row": 80,
+        "rowsha": "+r2y2uXVS4A9gUZOoxSZy1nkMpyD7saUQ4rPpon3Ucw=",
+        "originContent": "### 环境要求",
+        "translatedContent": "- JDK 21+"
+      },
+      {
+        "row": 81,
+        "rowsha": "BnSj0qAienMwerhFE4DwiZtwEJB4JeDCvGeXMxNc//8=",
+        "originContent": "- JDK 21+",
+        "translatedContent": "- Maven 3.9.10+"
+      },
+      {
+        "row": 82,
+        "rowsha": "Wev9ntaQtQ7hiXi9SL71n9aNL+a3xDbpnXDUwojoblI=",
+        "originContent": "- Maven 3.9.10+",
+        "translatedContent": ""
+      },
+      {
+        "row": 83,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Kroki instalacji"
+      },
+      {
+        "row": 84,
+        "rowsha": "tkfuqI0cKC8ewUA9uf67O2A9oZBSjycXZ17LBrKd1dI=",
+        "originContent": "### 安装步骤",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\n1. 克隆仓库\ngit clone https://github.com/qOeOp/XianyuAutoAgent.git\ncd XianyuAutoAgent\n\n2. 配置环境变量\n- AI_DASHSCOPE_API_KEY : 阿里云大模型API-KEY\n- COOKIES_STR : 闲鱼网页端Cookie\n\n3. 执行命令\nmvn spring-boot:run\n注意：默认使用的模型是通义千问，如需使用其他API，请自行修改application.yml文件中的模型地址和模型名称；\nCOOKIES_STR自行在闲鱼网页端获取cookies(网页端F12打开控制台，选择Network，点击Fetch/XHR,点击一个请求，查看cookies)\n\n4. (可选)创建提示词文件src/main/resources/*-prompt.txt\n```",
+    "ContentSha": "lzLAsrRT2aCPJWyUg/bZvgfY9kDc6cHUP+WB267I0jY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n1. 克隆仓库\ngit clone https://github.com/qOeOp/XianyuAutoAgent.git\ncd XianyuAutoAgent\n\n2. 配置环境变量\n- AI_DASHSCOPE_API_KEY : 阿里云大模型API-KEY\n- COOKIES_STR : 闲鱼网页端Cookie\n\n3. 执行命令\nmvn spring-boot:run\n注意：默认使用的模型是通义千问，如需使用其他API，请自行修改application.yml文件中的模型地址和模型名称；\nCOOKIES_STR自行在闲鱼网页端获取cookies(网页端F12打开控制台，选择Network，点击Fetch/XHR,点击一个请求，查看cookies)\n\n4. (可选)创建提示词文件src/main/resources/*-prompt.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "ln5zdjqIHZ8gN4381XbIvMg7QGQrmeBmZon7JzCQyww=",
+        "originContent": "1. 克隆仓库",
+        "translatedContent": "1. 克隆仓库"
+      },
+      {
+        "row": 3,
+        "rowsha": "fsLDGEr54GmIes46qPvksKjBkbg+wB0OjdV/2GYnI0w=",
+        "originContent": "git clone https://github.com/qOeOp/XianyuAutoAgent.git",
+        "translatedContent": "git clone https://github.com/qOeOp/XianyuAutoAgent.git"
+      },
+      {
+        "row": 4,
+        "rowsha": "lu8Zj3WftOGIC1tLn1JV14SjXFGHvignXQoOy9iFUj4=",
+        "originContent": "cd XianyuAutoAgent",
+        "translatedContent": "cd XianyuAutoAgent"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "o0ftXlgWUdjtfMWaOLs9yIjjj1YUfFdXYkJyIoAGCpc=",
+        "originContent": "2. 配置环境变量",
+        "translatedContent": "2. 配置环境变量"
+      },
+      {
+        "row": 7,
+        "rowsha": "Z+ASxnpx/mjRwnUesg2xwyMI1M8MXsV8rdCuWaz4090=",
+        "originContent": "- AI_DASHSCOPE_API_KEY : 阿里云大模型API-KEY",
+        "translatedContent": "- AI_DASHSCOPE_API_KEY : 阿里云大模型API-KEY"
+      },
+      {
+        "row": 8,
+        "rowsha": "Minrlsm5tfDZOpdK9WVvnVdmDosIqpNicW5UISZ4kdA=",
+        "originContent": "- COOKIES_STR : 闲鱼网页端Cookie",
+        "translatedContent": "- COOKIES_STR : 闲鱼网页端Cookie"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "F6JdQNDiyfD6uKEtoRKVw6N0baK70YSDshwiDjTM8WE=",
+        "originContent": "3. 执行命令",
+        "translatedContent": "3. 执行命令"
+      },
+      {
+        "row": 11,
+        "rowsha": "ccqWKgWVvI2FMYLXKkk/z30FeBje6v8IC1bPSSxs1uI=",
+        "originContent": "mvn spring-boot:run",
+        "translatedContent": "mvn spring-boot:run"
+      },
+      {
+        "row": 12,
+        "rowsha": "+Oru3WRUVQccmfQ9uEzDJI4DDO2qHhVpaNDRNOPkkvo=",
+        "originContent": "注意：默认使用的模型是通义千问，如需使用其他API，请自行修改application.yml文件中的模型地址和模型名称；",
+        "translatedContent": "注意：默认使用的模型是通义千问，如需使用其他API，请自行修改application.yml文件中的模型地址和模型名称；"
+      },
+      {
+        "row": 13,
+        "rowsha": "JJdE3eWLWwICqgTvXD/+CS1IIUx+Z9SK7zUGFOWXB2Y=",
+        "originContent": "COOKIES_STR自行在闲鱼网页端获取cookies(网页端F12打开控制台，选择Network，点击Fetch/XHR,点击一个请求，查看cookies)",
+        "translatedContent": "COOKIES_STR自行在闲鱼网页端获取cookies(网页端F12打开控制台，选择Network，点击Fetch/XHR,点击一个请求，查看cookies)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "9fD7JQtVZcMjWeV2EDX1ayacfa/4OceUl0ptb+gQ+4U=",
+        "originContent": "4. (可选)创建提示词文件src/main/resources/*-prompt.txt",
+        "translatedContent": "4. (可选)创建提示词文件src/main/resources/*-prompt.txt"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## 🤝 参与贡献\n\n欢迎通过 Issue 提交建议或 PR 贡献代码，请遵循 [贡献指南](https://contributing.md/)\n\n\n\n## 🛡 注意事项\n\n⚠️ 注意：**本项目仅供学习与交流，如有侵权联系作者删除。**\n\n鉴于项目的特殊性，开发团队可能在任何时间**停止更新**或**删除项目**。\n\n\n## 🧸 特别鸣谢\n\n本项目基于以下开源项目重构：\n- [XianyuAutoAgent](https://github.com/shaxiu/XianyuAutoAgent) - 智能闲鱼客服机器人系统，由 [@shaxiu](https://github.com/shaxiu) 和 [@cv-cat](https://github.com/cv-cat) 开发",
+    "ContentSha": "abQQ4Sr6nG68nvgdsAuv1ZPqAg5ETgv/ucAMKPRdeV8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🤝 Udział w rozwoju\n\nZachęcamy do zgłaszania sugestii poprzez Issue lub wnoszenia kodu przez PR, prosimy o przestrzeganie [wytycznych dotyczących wkładu](https://contributing.md/).\n\n\n\n## 🛡 Uwagi\n\n⚠️ Uwaga: **Ten projekt służy wyłącznie do nauki i wymiany doświadczeń. W przypadku naruszenia praw autorskich prosimy o kontakt w celu usunięcia.**\n\nZe względu na szczególny charakter projektu, zespół deweloperski może w dowolnym momencie **zaprzestać aktualizacji** lub **usunąć projekt**.\n\n\n## 🧸 Specjalne podziękowania\n\nProjekt został zrekonstruowany na bazie poniższych projektów open source:\n- [XianyuAutoAgent](https://github.com/shaxiu/XianyuAutoAgent) - Inteligentny system obsługi klienta Xianyu, opracowany przez [@shaxiu](https://github.com/shaxiu) i [@cv-cat](https://github.com/cv-cat)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🤝 Udział w rozwoju"
+      },
+      {
+        "row": 2,
+        "rowsha": "ZxzGTYc/ScIz6VaB5KamAGfr7tHR262qsyB3vkCiRtY=",
+        "originContent": "## 🤝 参与贡献",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Zachęcamy do zgłaszania sugestii poprzez Issue lub wnoszenia kodu przez PR, prosimy o przestrzeganie [wytycznych dotyczących wkładu](https://contributing.md/)."
+      },
+      {
+        "row": 4,
+        "rowsha": "eeE0jw92Kfzf1AH1vCXS86qpDTH+xRfxGppj8VJCb5I=",
+        "originContent": "欢迎通过 Issue 提交建议或 PR 贡献代码，请遵循 [贡献指南](https://contributing.md/)",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🛡 Uwagi"
+      },
+      {
+        "row": 8,
+        "rowsha": "0hZn3OWLAmIng+n5pDuZza5uNeG6dab/uaaI1bQMVKU=",
+        "originContent": "## 🛡 注意事项",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "⚠️ Uwaga: **Ten projekt służy wyłącznie do nauki i wymiany doświadczeń. W przypadku naruszenia praw autorskich prosimy o kontakt w celu usunięcia.**"
+      },
+      {
+        "row": 10,
+        "rowsha": "Mc1wNszPQj6/c5Za+fb5PMOLeKjnWXjg0Ebmdw9Mw4E=",
+        "originContent": "⚠️ 注意：**本项目仅供学习与交流，如有侵权联系作者删除。**",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Ze względu na szczególny charakter projektu, zespół deweloperski może w dowolnym momencie **zaprzestać aktualizacji** lub **usunąć projekt**."
+      },
+      {
+        "row": 12,
+        "rowsha": "mzh2og9fOTrknqn1lg1ExnkNvWlN162XMD0ZdTJ9b40=",
+        "originContent": "鉴于项目的特殊性，开发团队可能在任何时间**停止更新**或**删除项目**。",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🧸 Specjalne podziękowania"
+      },
+      {
+        "row": 15,
+        "rowsha": "wyAJVdqscLt1gXrPiElmKTO/q1SXx0JU1Bz0IO89fmE=",
+        "originContent": "## 🧸 特别鸣谢",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Projekt został zrekonstruowany na bazie poniższych projektów open source:"
+      },
+      {
+        "row": 17,
+        "rowsha": "gGciEO8V1JjYlwwpIHQT3HbLfwYZgQ0DZYqS7AXYI00=",
+        "originContent": "本项目基于以下开源项目重构：",
+        "translatedContent": "- [XianyuAutoAgent](https://github.com/shaxiu/XianyuAutoAgent) - Inteligentny system obsługi klienta Xianyu, opracowany przez [@shaxiu](https://github.com/shaxiu) i [@cv-cat](https://github.com/cv-cat)"
+      },
+      {
+        "row": 18,
+        "rowsha": "EP1JfJ/sAklJ4kBcfeaDdlS8vrpOkbl7As7dAck1vGQ=",
+        "originContent": "- [XianyuAutoAgent](https://github.com/shaxiu/XianyuAutoAgent) - 智能闲鱼客服机器人系统，由 [@shaxiu](https://github.com/shaxiu) 和 [@cv-cat](https://github.com/cv-cat) 开发",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

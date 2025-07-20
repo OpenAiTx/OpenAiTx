@@ -1,30 +1,60 @@
-<translate-content># 마법 AI 그림
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
 
-<div align="right">중국어 | <a href="README-EN.md">영어</a></div>
+# 마법 AI 그림
+
+<div align="right">中文 | <a href="README-EN.md">English</a></div>
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black.svg)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)
 
-Next.js 기반으로 개발된 AI 그림 앱으로 다음과 같은 주요 기능을 제공합니다:
-- 🎨 다양한 AI 모델 지원(Sora, DALL-E, GPT 등) 및 사용자 정의 모델 추가 가능
-- 🖼️ 텍스트-이미지 및 이미지-이미지 기능 제공, 다중 이미지 참조 및 영역 편집 지원
-- 🔐 모든 데이터 및 API 키를 로컬에 저장하여 개인정보 보호 보장
-- 💻 웹 버전 및 데스크탑 앱 패키징 지원, 크로스 플랫폼 사용 가능
+Next.js 기반으로 개발된 AI 그림 생성 애플리케이션으로, 주요 기능은 다음과 같습니다:
+- 🎨 다양한 AI 모델 지원 (Sora, DALL-E, GPT 등) 및 커스텀 모델 추가 가능
+- 🖼️ 텍스트-이미지, 이미지-이미지 기능 제공, 다중 이미지 참고 및 영역 편집 지원
+- 🔐 모든 데이터 및 API 키는 로컬에 저장되어 개인정보 보호
+- 💻 웹버전 및 데스크톱 앱 패키징 지원, 크로스 플랫폼 사용 가능
 
 ## 온라인 체험
 
 접속 주소: [https://image-front-eight.vercel.app/](https://image-front-eight.vercel.app/)
 
-### 앱 스크린샷
+### 애플리케이션 스크린샷
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/4.png" alt="앱 스크린샷4" width="800" style="margin-bottom: 20px"/>
-      <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/5.png" alt="앱 스크린샷4" width="800" style="margin-bottom: 20px"/>
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/0.png" alt="앱 스크린샷1" width="800" style="margin-bottom: 20px"/>
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/1.png" alt="앱 스크린샷2" width="800" style="margin-bottom: 20px"/>
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png" alt="앱 스크린샷3" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/4.png" alt="애플리케이션 스크린샷4" width="800" style="margin-bottom: 20px"/>
+      <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/5.png" alt="애플리케이션 스크린샷4" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/0.png" alt="애플리케이션 스크린샷1" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/1.png" alt="애플리케이션 스크린샷2" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png" alt="애플리케이션 스크린샷3" width="800" style="margin-bottom: 20px"/>
 </div>
 
 ## 기능 특징
@@ -34,28 +64,28 @@ Next.js 기반으로 개발된 AI 그림 앱으로 다음과 같은 주요 기�
   - GPT 4o_Image 모델
   - GPT Image 1 모델
   - DALL-E 3 모델
-  - 🆕 사용자 정의 모델(개인 모델 추가 지원)
+  - 🆕 커스텀 모델(사설 모델 추가 가능)
 - ✍️ 텍스트-이미지 기능
-  - 사용자 정의 프롬프트 지원
+  - 커스텀 프롬프트 지원
   - 이미지 비율 선택 가능
   - 다양한 이미지 크기 지원
 - 🖼️ 이미지-이미지 기능
   - 이미지 편집 지원
-  - 영역 마스크 편집 지원
-  - 이미지 품질 조절 지원
-  - 다중 이미지 참조 지원(여러 이미지 동시 업로드)
+  - 영역 마스킹 편집 지원
+  - 이미지 품질 조정 지원
+  - 다중 이미지 참고(여러 이미지 동시 업로드)
 - 🔒 데이터 보안
   - 생성된 모든 이미지 및 기록은 로컬 브라우저에만 저장
-  - 사용자 정의 API 프록시 주소 지원
-  - API 키 설정 지원
+  - 커스텀 API 프록시 주소 설정 지원
+  - API Key 설정 지원
 - 📱 UI 디자인
   - 현대적인 사용자 인터페이스
   - 부드러운 인터랙션 경험
-  - Markdown 형식 표시
+  - Markdown 형식 지원
   - 코드 하이라이트 지원
 - 🖥️ 크로스 플랫폼 지원
-  - 데스크탑 앱 패키징 지원(Windows, macOS, Linux)
-  - 오프라인 사용 지원(API 인터페이스 구성 필요)
+  - 데스크톱 애플리케이션 패키징 지원(Windows, macOS, Linux)
+  - 오프라인 사용 지원(API 엔드포인트 설정 필요)
 
 ## 기술 스택
 
@@ -64,11 +94,12 @@ Next.js 기반으로 개발된 AI 그림 앱으로 다음과 같은 주요 기�
 - Tailwind CSS
 - shadcn/ui
 - React
-- Tauri (데스크탑 앱 패키징)
+- Tauri (데스크톱 앱 패키징)
 
 ## 로컬 개발
 
-1. 프로젝트 클론하기
+1. 프로젝트 클론
+
 ```bash
 git clone https://github.com/HappyDongD/magic_image.git
 cd magic_image
@@ -238,6 +269,6 @@ npm run desktop
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
 
 ---

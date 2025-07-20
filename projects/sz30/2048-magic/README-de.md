@@ -1,6 +1,6 @@
 <div align="right">
   <details>
-    <summary >🌐 Andere Sprache</summary>
+    <summary >🌐 Andere Sprachen</summary>
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ja">日本語</a>
@@ -30,35 +30,35 @@
 
 # 🎮 2048++
 
-Eine erweiterte Version des klassischen 2048-Spiels, jetzt mit noch mehr spaßigen Features! Dies ist ein kleines Projekt, das ich in meiner Freizeit entwickelt habe—ich hoffe, es bereitet dir Freude!
+Eine verbesserte Version des klassischen 2048-Spiels, jetzt mit noch mehr unterhaltsamen Features! Das ist ein kleines Projekt, das ich in meiner Freizeit erstellt habe – ich hoffe, es bringt dir Freude!
 
-## 🎯 Spieleinführung
+## 🎯 Spiel-Einführung
 
-2048 ist ein einfaches, aber süchtig machendes Zahlenschiebe-Spiel. Auf einem 4x4-Raster wische nach oben, unten, links oder rechts, um Felder mit derselben Zahl zu verschmelzen. Das Ziel? Erreiche 2048 (aber du kannst noch weiterspielen und noch höhere Punktzahlen erzielen)!
+2048 ist ein einfaches, aber süchtig machendes Zahlen-Kombinationsspiel. Auf einem 4x4-Raster schiebst du nach oben, unten, links oder rechts, um Felder mit derselben Zahl zu kombinieren. Das Ziel? Erreiche 2048 (aber du kannst auch weiterspielen und noch höhere Punktzahlen erzielen)!
 
-**So wird gespielt:**
-- Benutze die Pfeiltasten oder WASD, um die Felder zu bewegen.
-- Wenn zwei Felder mit derselben Zahl zusammenstoßen, verschmelzen sie zu einem.
-- Nach jedem Zug erscheint zufällig eine neue 2 oder 4 auf einem freien Platz.
+**So spielt man:**
+- Nutze die Pfeiltasten oder WASD, um die Felder zu bewegen.
+- Wenn zwei Felder mit derselben Zahl kollidieren, verschmelzen sie zu einem.
+- Nach jedem Zug erscheint zufällig eine neue 2 oder 4 auf einem freien Feld.
 - Das Spiel endet, wenn keine Züge mehr möglich sind.
 
 ## ✨ Besondere Funktionen
 
 ### 1. Rückgängig-Funktion
 - Einen falschen Zug gemacht? Kein Problem!
-- Drücke einfach auf den „Rückgängig“-Button, um einen Schritt zurückzugehen.
-- Du kannst so oft rückgängig machen, wie du möchtest, sogar bis zum Anfang.
-- Lass dir nie wieder durch eine kleine Unachtsamkeit das Spiel verderben!
+- Drücke einfach den „Rückgängig“-Button, um einen Schritt zurückzugehen.
+- Du kannst so oft zurückgehen, wie du möchtest – bis ganz zum Anfang.
+- Lass dir nie wieder durch einen Fingerrutscher das Spiel verderben!
 
 ### 2. Geheimer Cheat-Modus
-- Gib die magische Sequenz ein: ←←→→ →→←← (links, links, rechts, rechts,  rechts, rechts, links, links)
+- Gib die magische Sequenz ein: ←←→→ →→←← (links, links, rechts, rechts, rechts, rechts, links, links)
 - Alle Felder verwandeln sich magisch in 128!
 - Das ist ein Easter Egg, nur zum Spaß.
 - Profi-Tipp: Schummeln macht Spaß, aber übertreib es nicht! 😉
 
 ## 🎯 Demo
 
-🎯 Spiele hier: [http://2048.ct8.pl](http://2048.ct8.pl:9969/)
+🎯 Hier spielen: [2048.765431.xyz](https://2048.765431.xyz/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
@@ -98,20 +98,21 @@ python 2048.py
 ```
 ## 🎨 Anpassung
 
-Möchten Sie es anpassen? Bearbeiten Sie `styles.css` für ein neues Aussehen oder gehen Sie in `script.js`, um das Gameplay zu verändern. Der gesamte Code ist gut kommentiert und leicht anzupassen!
+Möchtest du es anpassen? Ändere `styles.css` für ein neues Aussehen oder tauche in `script.js` ein, um das Gameplay zu verändern. Der gesamte Code ist gut kommentiert und einfach zu modifizieren!
 
 ## 📝 Lizenz
 
-GPL-2.0 Lizenz
+GPL-2.0-Lizenz
 
-## 🤝 Mitwirken
+## 🤝 Beitrag
 
-Wird weiterhin aktualisiert! Issues und Pull Requests sind sehr willkommen – lassen Sie uns dieses Spiel gemeinsam noch besser machen!
+Wird weiterhin aktualisiert! Issues und Pull Requests sind sehr willkommen – lasst uns dieses Spiel gemeinsam noch besser machen!
 
 
 ## 🙏 Danksagungen
 
 Danke an die folgenden Sponsoren für die Unterstützung dieses Projekts:
+- [IDC.REST](https://idc.rest/) stellt den Server bereit
 - [Serv00](https://www.serv00.com/) stellt den Server bereit
 
 ---
@@ -121,6 +122,6 @@ _Letzte Aktualisierung: Juni 2025_
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
 
 ---

@@ -30,40 +30,40 @@
 
 # 🎮 2048++
 
-Một phiên bản nâng cấp của trò chơi 2048 cổ điển, giờ đây với nhiều tính năng thú vị hơn! Đây là một dự án nhỏ tôi thực hiện vào thời gian rảnh — mong rằng nó sẽ mang lại niềm vui cho bạn!
+Phiên bản nâng cấp của trò chơi 2048 cổ điển, giờ đây với nhiều tính năng thú vị hơn nữa! Đây là một dự án nhỏ tôi làm vào thời gian rảnh—hy vọng nó mang lại niềm vui cho bạn!
 
-## 🎯 Giới thiệu trò chơi
+## 🎯 Giới thiệu Trò chơi
 
-2048 là một trò chơi hợp nhất số đơn giản nhưng gây nghiện. Trên bàn cờ 4x4, bạn vuốt lên, xuống, trái hoặc phải để hợp nhất các ô có cùng số. Mục tiêu? Đạt đến 2048 (nhưng bạn có thể tiếp tục để đạt điểm cao hơn nữa)!
+2048 là một trò chơi ghép số đơn giản nhưng gây nghiện. Trên một bảng 4x4, vuốt lên, xuống, trái hoặc phải để hợp nhất các ô có cùng số. Mục tiêu? Đạt đến 2048 (nhưng bạn có thể tiếp tục để đạt điểm cao hơn)!
 
 **Cách chơi:**
-- Sử dụng phím mũi tên hoặc WASD để di chuyển các ô.
-- Khi hai ô có cùng số va chạm, chúng sẽ hợp nhất thành một ô.
-- Sau mỗi lần di chuyển, một số 2 hoặc 4 mới sẽ xuất hiện ngẫu nhiên ở một ô trống.
+- Sử dụng các phím mũi tên hoặc WASD để di chuyển các ô.
+- Khi hai ô có cùng số chạm nhau, chúng sẽ hợp nhất thành một.
+- Sau mỗi lượt di chuyển, một ô 2 hoặc 4 mới sẽ xuất hiện ngẫu nhiên ở một vị trí trống.
 - Trò chơi kết thúc khi không còn nước đi nào nữa.
 
 ## ✨ Tính năng đặc biệt
 
 ### 1. Chức năng Hoàn tác
-- Di chuyển sai? Đừng lo!
-- Chỉ cần nhấn nút "Hoàn tác" để quay lại một bước trước đó.
-- Bạn có thể hoàn tác bao nhiêu lần tùy thích, quay lại tận lúc bắt đầu.
-- Đừng để một cú nhấp nhầm làm hỏng ván chơi của bạn nữa!
+- Di chuyển nhầm? Đừng lo!
+- Chỉ cần nhấn nút "Hoàn tác" để quay lại một bước.
+- Bạn có thể hoàn tác bao nhiêu lần tùy ý, quay lại tận điểm xuất phát.
+- Đừng để một lần bấm nhầm làm hỏng trò chơi của bạn nữa nhé!
 
-### 2. Chế độ gian lận bí mật
-- Nhập chuỗi ma thuật: ←←→→ →→←← (trái, trái, phải, phải,  phải, phải, trái, trái)
+### 2. Chế độ Gian lận Bí mật
+- Nhập chuỗi ma thuật: ←←→→ →→←← (trái, trái, phải, phải, phải, phải, trái, trái)
 - Tất cả các ô sẽ biến thành 128 một cách kỳ diệu!
-- Đây là một Easter egg, chỉ để vui thôi.
-- Mẹo: Gian lận thì vui, nhưng đừng lạm dụng nhé! 😉
+- Đây là một quả trứng Phục sinh, chỉ để vui thôi.
+- Mẹo: Gian lận thì vui đấy, nhưng đừng lạm dụng nhé! 😉
 
 ## 🎯 Demo
 
-🎯 Chơi tại đây: [http://2048.ct8.pl](http://2048.ct8.pl:9969/)
+🎯 Chơi tại đây: [2048.765431.xyz](https://2048.765431.xyz/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
 
-## 📁 Cấu trúc dự án
+## 📁 Cấu trúc Dự án
 ```
 2048/
 ├── static/
@@ -96,9 +96,9 @@ cd 2048
 pip install flask
 python 2048.py
 ```
-## 🎨 Tuỳ chỉnh
+## 🎨 Tùy biến
 
-Muốn làm nó theo ý bạn? Hãy chỉnh sửa `styles.css` để có giao diện mới, hoặc khám phá `script.js` để thay đổi cách chơi. Tất cả mã nguồn đều có chú thích rõ ràng để dễ dàng chỉnh sửa!
+Muốn cá nhân hóa theo ý bạn? Hãy chỉnh sửa `styles.css` để thay đổi giao diện, hoặc khám phá `script.js` để thay đổi lối chơi. Toàn bộ mã nguồn đều có chú thích rõ ràng để dễ dàng chỉnh sửa!
 
 ## 📝 Giấy phép
 
@@ -106,12 +106,13 @@ Giấy phép GPL-2.0
 
 ## 🤝 Đóng góp
 
-Vẫn đang cập nhật! Các vấn đề và Pull Request luôn được hoan nghênh—hãy cùng nhau làm cho trò chơi này tuyệt vời hơn nữa!
+Vẫn đang cập nhật! Rất hoan nghênh các Issue và Pull Request—hãy cùng nhau làm cho trò chơi này tuyệt vời hơn nữa!
 
 
 ## 🙏 Lời cảm ơn
 
 Cảm ơn các nhà tài trợ sau đã hỗ trợ dự án này:
+- [IDC.REST](https://idc.rest/) cung cấp máy chủ
 - [Serv00](https://www.serv00.com/) cung cấp máy chủ
 
 ---
@@ -121,6 +122,6 @@ _Cập nhật lần cuối: Tháng 6, 2025_
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
 
 ---

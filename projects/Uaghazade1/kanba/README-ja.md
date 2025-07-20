@@ -1,22 +1,53 @@
-<translate-content># メーカーやインディハッカー向けに設計された、オープンソースの軽量Trello代替品。
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
 
-シンプルさ、速度、スケーラビリティに重点を置いています。
-モダンなスタックで構築：Tailwind CSS、shadcn/ui、Supabase、Stripe統合。
-無制限のプロジェクト、チームコラボレーション、ダーク/ライトモード、シームレスなユーザー体験をサポート。
-不要な複雑さなしに完全なコントロールを求めるソロ開発者や小規模チームに最適です。
+# オープンソースで軽量なTrello代替、メイカーやインディーハッカー向けに設計。
 
-## 🌟 このプロジェクトが役立つと思ったら、スターを付けてください！他の人が見つけやすくなります。
+シンプルさ、速度、スケーラビリティにフォーカス。
+最新のスタック（Tailwind CSS、shadcn/ui、Supabase、Stripe連携）で構築。
+無制限プロジェクト、チームコラボレーション、ダーク/ライトモード、シームレスなユーザー体験をサポート。
+不要な複雑さなく、完全なコントロールを求めるソロ開発者や小規模チームに最適。
+
+## 🌟 このプロジェクトが役立つと感じたら、ぜひスターを付けてください！他の人にも発見されやすくなります。
 
 # デプロイガイド
 
 ## 概要
-このアプリケーションは現在、Stripe統合のためにSupabase Edge Functionsの代わりにローカルのNext.js APIルートを使用しています。これによりデプロイが簡単になり、標準の.envファイルを設定に使えます。
+このアプリケーションは、Stripe連携のためにSupabase Edge Functionsの代わりにローカルのNext.js APIルートを使用するようになりました。これによりデプロイが簡単になり、標準の.envファイルで設定が可能です。
 
 ## 環境変数の設定
 
 ### 1. .env.localファイルを作成
 `.env.example`を`.env.local`にコピーし、実際の値を入力してください：
-</translate-content>
+
+
 ```bash
 cp .env.example .env.local
 ```
@@ -114,6 +145,6 @@ npx vercel
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
 
 ---

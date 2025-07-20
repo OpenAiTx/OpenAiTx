@@ -1,4 +1,34 @@
-<translate-content># 魔法AI絵画
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
+
+# 魔法AI絵画
 
 <div align="right">中文 | <a href="README-EN.md">English</a></div>
 
@@ -7,55 +37,55 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)
 
-Next.js をベースに開発された AI 絵画アプリで、以下の主要な機能を備えています：
-- 🎨 複数の AI モデル（Sora、DALL-E、GPT 等）およびカスタムモデル追加に対応
-- 🖼️ テキストから画像生成と画像から画像生成機能を提供し、複数画像参照および領域編集をサポート
-- 🔐 すべてのデータと API キーはローカルに保存され、プライバシーとセキュリティを保障
-- 💻 ウェブ版とデスクトップアプリのパッケージ化に対応し、クロスプラットフォームで使用可能
+Next.jsを基盤としたAI絵画アプリで、主な機能は以下の通りです：
+- 🎨 複数のAIモデル（Sora、DALL-E、GPTなど）およびカスタムモデルの追加に対応
+- 🖼️ テキストから画像生成と画像から画像生成機能を提供し、複数画像参照・領域編集に対応
+- 🔐 すべてのデータとAPIキーはローカルに保存し、プライバシーを保護
+- 💻 Web版およびデスクトップアプリ化に対応し、クロスプラットフォームで利用可能
 
 ## オンライン体験
 
 アクセス先：[https://image-front-eight.vercel.app/](https://image-front-eight.vercel.app/)
 
-### アプリスクリーンショット
+### アプリ画面
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/4.png" alt="アプリスクリーンショット4" width="800" style="margin-bottom: 20px"/>
-      <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/5.png" alt="アプリスクリーンショット4" width="800" style="margin-bottom: 20px"/>
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/0.png" alt="アプリスクリーンショット1" width="800" style="margin-bottom: 20px"/>
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/1.png" alt="アプリスクリーンショット2" width="800" style="margin-bottom: 20px"/>
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png" alt="アプリスクリーンショット3" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/4.png" alt="应用截图4" width="800" style="margin-bottom: 20px"/>
+      <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/5.png" alt="应用截图4" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/0.png" alt="应用截图1" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/1.png" alt="应用截图2" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png" alt="应用截图3" width="800" style="margin-bottom: 20px"/>
 </div>
 
-## 機能特徴
+## 機能の特徴
 
-- 🎨 複数の AI モデルに対応
-  - GPT Sora_Image モデル
-  - GPT 4o_Image モデル
-  - GPT Image 1 モデル
-  - DALL-E 3 モデル
-  - 🆕 カスタムモデル（プライベートモデルの追加をサポート）
+- 🎨 複数のAIモデルに対応
+  - GPT Sora_Imageモデル
+  - GPT 4o_Imageモデル
+  - GPT Image 1モデル
+  - DALL-E 3モデル
+  - 🆕 カスタムモデル（プライベートモデルの追加対応）
 - ✍️ テキストから画像生成機能
   - カスタムプロンプト対応
-  - 画像比率選択可能
-  - 複数の画像サイズ対応
+  - 画像比率の選択可能
+  - 複数の画像サイズに対応
 - 🖼️ 画像から画像生成機能
   - 画像編集対応
   - 領域マスク編集対応
-  - 画像品質調整対応
-  - 複数画像参照対応（複数画像同時アップロード可能）
+  - 画質調整対応
+  - 複数画像参照（複数画像同時アップロード）
 - 🔒 データセキュリティ
-  - 生成された画像と履歴はすべてローカルブラウザにのみ保存
-  - カスタム API プロキシアドレス対応
-  - API キー設定対応
+  - 生成した画像と履歴はすべてローカルブラウザのみに保存
+  - カスタムAPIプロキシアドレス設定可能
+  - API Key設定対応
 - 📱 UIデザイン
   - モダンなユーザーインターフェース
-  - スムーズなインタラクション体験
-  - Markdown 形式表示
+  - スムーズな操作体験
+  - Markdown形式表示
   - コードハイライト対応
 - 🖥️ クロスプラットフォーム対応
-  - デスクトップアプリ（Windows、macOS、Linux）としてのパッケージ化対応
-  - オフライン使用対応（API インターフェースの設定が必要）
+  - デスクトップアプリ（Windows、macOS、Linux）としてパッケージ化可能
+  - オフライン利用対応（API設定が必要）
 
 ## 技術スタック
 
@@ -64,11 +94,12 @@ Next.js をベースに開発された AI 絵画アプリで、以下の主要�
 - Tailwind CSS
 - shadcn/ui
 - React
-- Tauri (デスクトップアプリパッケージ化)
+- Tauri（デスクトップアプリパッケージ化）
 
 ## ローカル開発
 
 1. プロジェクトをクローンする
+
 ```bash
 git clone https://github.com/HappyDongD/magic_image.git
 cd magic_image
@@ -238,6 +269,6 @@ IssueやPull Requestの提出を歓迎し、プロジェクト改善にご協力
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
 
 ---

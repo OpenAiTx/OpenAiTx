@@ -26,39 +26,39 @@
 </div>
 
 
-[English](https://raw.githubusercontent.com/sz30/2048-magic/main/README.md) | [简体中文](https://raw.githubusercontent.com/sz30/2048-magic/main/README.zh-CN.md) | [繁體中文](https://raw.githubusercontent.com/sz30/2048-magic/main/README.zh-TW.md)
+[Inglés](https://raw.githubusercontent.com/sz30/2048-magic/main/README.md) | [简体中文](https://raw.githubusercontent.com/sz30/2048-magic/main/README.zh-CN.md) | [繁體中文](https://raw.githubusercontent.com/sz30/2048-magic/main/README.zh-TW.md)
 
 # 🎮 2048++
 
-¡Una versión mejorada del clásico juego 2048, ahora con aún más funciones divertidas! Este es un pequeño proyecto que hice en mi tiempo libre—¡espero que te traiga alegría!
+¡Una versión mejorada del clásico juego 2048, ahora con aún más funciones divertidas! Este es un pequeño proyecto que preparé en mi tiempo libre—¡espero que te saque una sonrisa!
 
-## 🎯 Introducción al juego
+## 🎯 Introducción al Juego
 
-2048 es un juego de fusión de números simple pero adictivo. En una cuadrícula de 4x4, desliza hacia arriba, abajo, izquierda o derecha para fusionar fichas con el mismo número. ¿El objetivo? ¡Alcanza 2048 (pero oye, puedes seguir jugando para obtener puntuaciones aún más altas)!
+2048 es un juego de combinar números simple pero adictivo. En una cuadrícula de 4x4, desliza hacia arriba, abajo, izquierda o derecha para combinar fichas con el mismo número. ¿El objetivo? ¡Alcanza 2048 (aunque puedes seguir jugando para lograr puntajes aún mayores)!
 
 **Cómo jugar:**
-- Usa las flechas o las teclas WASD para mover las fichas.
+- Usa las flechas del teclado o las teclas WASD para mover las fichas.
 - Cuando dos fichas con el mismo número chocan, se fusionan en una sola.
-- Después de cada movimiento, aparecerá aleatoriamente un 2 o un 4 en una casilla vacía.
+- Después de cada movimiento, aparecerá aleatoriamente un 2 o un 4 en un espacio vacío.
 - El juego termina cuando no quedan más movimientos posibles.
 
-## ✨ Características especiales
+## ✨ Funciones Especiales
 
-### 1. Función de deshacer
+### 1. Función de Deshacer
 - ¿Hiciste un movimiento equivocado? ¡No te preocupes!
-- Simplemente pulsa el botón "Deshacer" para retroceder un paso.
+- Solo pulsa el botón "Deshacer" para regresar un paso.
 - Puedes deshacer tantas veces como quieras, hasta volver al inicio.
-- ¡Nunca dejes que un desliz arruine tu partida de nuevo!
+- ¡Nunca dejes que un desliz de dedo arruine tu partida de nuevo!
 
-### 2. Modo trampa secreto
-- Ingresa la secuencia mágica: ←←→→ →→←← (izquierda, izquierda, derecha, derecha, derecha, derecha, izquierda, izquierda)
-- ¡Todas las fichas se transformarán mágicamente en 128!
+### 2. Modo Trampa Secreto
+- Introduce la secuencia mágica: ←←→→ →→←← (izquierda, izquierda, derecha, derecha,  derecha, derecha, izquierda, izquierda)
+- ¡Todas las fichas se convertirán mágicamente en 128!
 - Es un huevo de pascua, solo por diversión.
 - Consejo profesional: Hacer trampa es divertido, ¡pero no te excedas! 😉
 
 ## 🎯 Demo
 
-🎯 Juega aquí: [http://2048.ct8.pl](http://2048.ct8.pl:9969/)
+🎯 Juega aquí: [2048.765431.xyz](https://2048.765431.xyz/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
@@ -106,13 +106,14 @@ Licencia GPL-2.0
 
 ## 🤝 Contribuciones
 
-¡Aún en actualización! Los Issues y Pull Requests son más que bienvenidos—¡hagamos este juego aún más increíble juntos!
+¡Seguimos actualizando! Las incidencias y Pull Requests son muy bienvenidas—¡hagamos este juego aún más increíble juntos!
 
 
 ## 🙏 Agradecimientos
 
 Gracias a los siguientes patrocinadores por apoyar este proyecto:
-- [Serv00](https://www.serv00.com/) por proporcionar el servidor
+- [IDC.REST](https://idc.rest/) proporcionando el servidor
+- [Serv00](https://www.serv00.com/) proporcionando el servidor
 
 ---
 _Última actualización: Jun. 2025_
@@ -121,6 +122,6 @@ _Última actualización: Jun. 2025_
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
 
 ---

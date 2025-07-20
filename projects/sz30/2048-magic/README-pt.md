@@ -1,6 +1,6 @@
 <div align="right">
   <details>
-    <summary >🌐 Outro Idioma</summary>
+    <summary >🌐 Outros Idiomas</summary>
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ja">日本語</a>
@@ -30,35 +30,35 @@
 
 # 🎮 2048++
 
-Uma versão aprimorada do clássico jogo 2048, agora com ainda mais recursos divertidos! Este é um pequeno projeto que desenvolvi no meu tempo livre—espero que traga alegria para você!
+Uma versão aprimorada do clássico jogo 2048, agora com ainda mais recursos divertidos! Este é um pequeno projeto que desenvolvi no meu tempo livre — espero que traga alegria para você!
 
 ## 🎯 Introdução ao Jogo
 
-2048 é um jogo simples, porém viciante, de combinar números. Em uma grade 4x4, deslize para cima, baixo, esquerda ou direita para unir blocos com o mesmo número. O objetivo? Chegar ao 2048 (mas você pode continuar tentando pontuações ainda maiores)!
+2048 é um jogo simples, mas viciante, de combinar números. Em um tabuleiro 4x4, deslize para cima, baixo, esquerda ou direita para juntar blocos com o mesmo número. O objetivo? Chegar ao 2048 (mas você pode continuar para pontuações ainda maiores)!
 
 **Como jogar:**
-- Use as setas do teclado ou as teclas WASD para mover os blocos.
+- Use as setas do teclado ou WASD para mover os blocos.
 - Quando dois blocos com o mesmo número colidem, eles se fundem em um só.
 - Após cada movimento, um novo 2 ou 4 aparecerá aleatoriamente em um espaço vazio.
-- O jogo termina quando não houver mais movimentos possíveis.
+- O jogo termina quando não há mais movimentos possíveis.
 
 ## ✨ Recursos Especiais
 
 ### 1. Função Desfazer
-- Cometeu um erro? Sem problemas!
+- Fez um movimento errado? Sem problemas!
 - Basta clicar no botão "Desfazer" para voltar um passo.
 - Você pode desfazer quantas vezes quiser, até o início do jogo.
 - Nunca mais deixe um deslize arruinar sua partida!
 
-### 2. Modo de Trapaça Secreto
+### 2. Modo Secreto de Trapaça
 - Digite a sequência mágica: ←←→→ →→←← (esquerda, esquerda, direita, direita, direita, direita, esquerda, esquerda)
-- Todos os blocos magicamente se transformarão em 128!
-- É um Easter egg, apenas por diversão.
-- Dica: Trapacear é divertido, mas não exagere! 😉
+- Todos os blocos se transformarão magicamente em 128!
+- É um Easter egg, só para diversão.
+- Dica: Trapacear é divertido, mas não abuse! 😉
 
-## 🎯 Demo
+## 🎯 Demonstração
 
-🎯 Jogue aqui: [http://2048.ct8.pl](http://2048.ct8.pl:9969/)
+🎯 Jogue aqui: [2048.765431.xyz](https://2048.765431.xyz/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
@@ -98,7 +98,7 @@ python 2048.py
 ```
 ## 🎨 Personalização
 
-Quer deixar com a sua cara? Modifique o `styles.css` para um novo visual ou mergulhe no `script.js` para alterar a jogabilidade. Todo o código está bem comentado para facilitar a modificação!
+Quer deixar com a sua cara? Ajuste o `styles.css` para um novo visual, ou mergulhe no `script.js` para modificar a jogabilidade. Todo o código está bem comentado para facilitar a customização!
 
 ## 📝 Licença
 
@@ -106,12 +106,13 @@ Licença GPL-2.0
 
 ## 🤝 Contribuição
 
-Ainda atualizando! Relatórios de problemas e Pull Requests são super bem-vindos—vamos deixar este jogo ainda mais incrível juntos!
+Ainda em atualização! Problemas e Pull Requests são super bem-vindos—vamos tornar este jogo ainda mais incrível juntos!
 
 
 ## 🙏 Agradecimentos
 
-Obrigado aos seguintes patrocinadores por apoiar este projeto:
+Obrigado aos seguintes patrocinadores por apoiarem este projeto:
+- [IDC.REST](https://idc.rest/) fornecendo o servidor
 - [Serv00](https://www.serv00.com/) fornecendo o servidor
 
 ---
@@ -121,6 +122,6 @@ _Última atualização: jun. 2025_
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
 
 ---

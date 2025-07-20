@@ -1,29 +1,59 @@
-<translate-content># 🚀 Xianyu AutoAgent - 스마트 셴위 고객 서비스 로봇 시스템
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
+
+# 🚀 Xianyu AutoAgent - 지능형 셴위 고객센터 챗봇 시스템
 
 [![Java Version](https://img.shields.io/badge/java21%2B-blue)](https://www.python.org/) [![LLM Powered](https://img.shields.io/badge/LLM-powered-FF6F61)](https://platform.openai.com/)
 
-셴위 플랫폼 전용 AI 상주 솔루션으로, 셴위 플랫폼 7×24시간 자동 상주를 구현하며, 다중 전문가 협업 의사결정, 스마트 가격 협상 및 컨텍스트 인지 대화를 지원합니다.
+셴위 플랫폼을 위해 설계된 AI 자동 응대 솔루션으로, 셴위 플랫폼의 7×24시간 자동화 응대, 다중 전문가 협업 의사결정, 지능형 가격 제안 및 문맥 인식 대화를 지원합니다.
 
 ## 🎮 Playground - 빠른 체험 (설정 불필요 버전)
 
-로컬 환경이나 비밀 설정 없이! **GitHub Actions 웹에서 바로 파라미터 입력**으로 셴위 로봇을 원클릭 시작하세요.
+로컬 환경이나 Secrets 설정 불필요! **GitHub Actions 웹 페이지에서 바로 파라미터 입력** 후, 원클릭으로 셴위 챗봇을 시작하세요.
 
 ### 사용 방법
-1. **본 저장소 Fork** → 우측 상단 `Fork` 버튼 클릭
-2. **Action 실행**：
-   - 내 저장소 `Actions` 탭으로 이동
+1. **이 저장소 Fork** → 오른쪽 상단의 `Fork` 버튼 클릭
+2. **Action 실행**:
+   - 내 저장소의 `Actions` 탭으로 이동
    - **`🚀 Run Service`** 워크플로 선택
-   - **`Run workflow`** 버튼 클릭 후 파라미터 입력：
-      - `API Key`: 대형 모델 API Key 붙여넣기 (예: 알리바바 클라우드 DashScope)
-      - `Cookies`: 셴위 웹 쿠키 전체 문자열 붙여넣기
-3. **실행 로그 확인**：
-   - 로봇 실행 후 자동으로 셴위 메시지 청취 시작
-   - Action 로그에서 `🤖 Reply:` 검색해 대화 기록 확인
+   - **`Run workflow`** 버튼 클릭 후 파라미터 입력:
+      - `API Key`: 대형 언어모델 API Key 입력(예: 알리클라우드 DashScope)
+      - `Cookies`: 셴위 웹사이트의 전체 쿠키 문자열 입력
+3. **실행 로그 확인**:
+   - 챗봇이 시작되면 자동으로 셴위 메시지 모니터링
+   - Action 로그에서 `🤖 Reply:`로 대화 내용 검색
 
 ### 주의 사항
-⚠️ 임시 실행 제한 주의：
-- 기본 실행 시간 **30분** (GitHub 무료 계정 제한)
-- 민감 정보(예: 쿠키)는 **저장하지 않음**, 실행 시에만 유효
+⚠️ 임시 실행 제한에 유의하세요:
+- 기본 실행 시간 **30분** (GitHub 무료 계정 기준)
+- 민감 정보(쿠키 등)는 **저장되지 않으며**, 해당 실행에만 적용됩니다
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/qOeOp/XianyuAutoAgent/main/./screenshots/workflow.png" width="400px" alt="workflow">
@@ -31,18 +61,18 @@
 
 ## 🌟 핵심 특징
 
-### 스마트 대화 엔진
-| 기능 모듈   | 기술 구현            | 주요 특징                                                     |
-| ---------- | ------------------- | ------------------------------------------------------------ |
-| 컨텍스트 인지 | 대화 기록 저장        | 경량 대화 메모리 관리, 완전한 대화 기록을 LLM 컨텍스트 입력으로 사용 |
-| 전문가 라우팅 | LLM 프롬프트+규칙 라우팅 | 프롬프트 엔지니어링 기반 의도 인식 → 전문가 에이전트 동적 분배, 협상/기술지원/고객지원 다중 시나리오 전환 지원 |
+### 지능형 대화 엔진
+| 기능 모듈  | 기술 구현             | 주요 특성                                                     |
+| ---------- | --------------------- | ------------------------------------------------------------- |
+| 문맥 인식  | 대화 이력 저장        | 경량 대화 메모리 관리, 전체 대화 이력을 LLM 문맥 입력으로 활용 |
+| 전문가 라우팅 | LLM 프롬프트+규칙 라우팅 | 프롬프트 엔지니어링 기반 의도 인식 → 전문가 Agent 동적 분배, 가격협상/기술/고객센터 다중 시나리오 전환 지원 |
 
 ### 비즈니스 기능 매트릭스
-| 모듈     | 구현 완료                       | 계획 중                    |
-| -------- | ----------------------------- | ----------------------- |
-| 핵심 엔진 | ✅ LLM 자동 응답<br>✅ 컨텍스트 관리 | 🔄 감정 분석 강화             |
-| 협상 시스템 | ✅ 단계별 가격 인하 전략           | 🔄 시장 가격 비교 기능          |
-| 기술 지원 | ✅ 네트워크 검색 통합              | 🔄 RAG 지식베이스 강화         |
+| 모듈      | 구현 완료                        | 계획 중                      |
+| --------- | ------------------------------- | ------------------------- |
+| 핵심 엔진 | ✅ LLM 자동 응답<br>✅ 문맥 관리   | 🔄 감정 분석 강화                |
+| 가격 협상 | ✅ 단계별 가격 인하 전략           | 🔄 시장 가격 비교 기능            |
+| 기술 지원 | ✅ 웹 검색 통합                   | 🔄 RAG 지식베이스 강화           |
 
 ## 🚴 빠른 시작
 
@@ -50,7 +80,8 @@
 - JDK 21+
 - Maven 3.9.10+
 
-### 설치 단계</translate-content>
+### 설치 단계
+
 ```bash
 1. 克隆仓库
 git clone https://github.com/qOeOp/XianyuAutoAgent.git
@@ -88,6 +119,6 @@ Issue를 통해 제안 사항을 제출하거나 PR로 코드를 기여해 주�
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
 
 ---

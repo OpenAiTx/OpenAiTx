@@ -1,4 +1,34 @@
-<translate-content># Magic AI Drawing
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=id">Indonesian</a>
+      </div>
+    </div>
+  </details>
+</div>
+
+# Magic AI Drawing
 
 <div align="right">Chinese | <a href="README-EN.md">English</a></div>
 
@@ -7,15 +37,15 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)
 
-An AI drawing application developed based on Next.js, featuring the following main functions:
+An AI drawing application developed based on Next.js, with the following main features:
 - 🎨 Supports multiple AI models (Sora, DALL-E, GPT, etc.) and custom model additions
-- 🖼️ Provides text-to-image and image-to-image functions, supporting multi-image references and regional editing
+- 🖼️ Provides text-to-image and image-to-image functions, supporting multi-image reference and area editing
 - 🔐 All data and API keys are stored locally to ensure privacy and security
-- 💻 Supports both web version and desktop application packaging for cross-platform use
+- 💻 Supports web and desktop application packaging, cross-platform use
 
 ## Online Experience
 
-Access URL: [https://image-front-eight.vercel.app/](https://image-front-eight.vercel.app/)
+Access address: [https://image-front-eight.vercel.app/](https://image-front-eight.vercel.app/)
 
 ### Application Screenshots
 
@@ -34,27 +64,27 @@ Access URL: [https://image-front-eight.vercel.app/](https://image-front-eight.ve
   - GPT 4o_Image model
   - GPT Image 1 model
   - DALL-E 3 model
-  - 🆕 Custom models (support adding private models)
-- ✍️ Text-to-Image function
+  - 🆕 Custom models (support for adding private models)
+- ✍️ Text-to-image function
   - Supports custom prompts
-  - Supports selectable image aspect ratios
+  - Option to select image aspect ratio
   - Supports multiple image sizes
-- 🖼️ Image-to-Image function
+- 🖼️ Image-to-image function
   - Supports image editing
-  - Supports regional mask editing
+  - Supports area mask editing
   - Supports image quality adjustment
-  - Supports multi-image references (upload multiple images simultaneously)
+  - Supports multi-image reference (upload multiple images at once)
 - 🔒 Data Security
-  - All generated images and history are saved only in the local browser
+  - All generated images and history are only saved locally in the browser
   - Supports custom API proxy address
   - Supports API Key configuration
 - 📱 UI Design
   - Modern user interface
-  - Smooth interaction experience
+  - Smooth interactive experience
   - Markdown format display
-  - Code syntax highlighting support
+  - Code highlighting support
 - 🖥️ Cross-platform support
-  - Supports packaging as desktop applications (Windows, macOS, Linux)
+  - Supports packaging as a desktop application (Windows, macOS, Linux)
   - Supports offline use (API interface configuration required)
 
 ## Technology Stack
@@ -64,11 +94,12 @@ Access URL: [https://image-front-eight.vercel.app/](https://image-front-eight.ve
 - Tailwind CSS
 - shadcn/ui
 - React
-- Tauri (desktop application packaging)
+- Tauri (for desktop application packaging)
 
 ## Local Development
 
-1. Clone the project</translate-content>
+1. Clone the project
+
 ```bash
 git clone https://github.com/HappyDongD/magic_image.git
 cd magic_image
@@ -238,6 +269,6 @@ If you have any questions or suggestions, feel free to contact me via WeChat:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
 
 ---

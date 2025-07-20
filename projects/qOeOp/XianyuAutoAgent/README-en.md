@@ -1,29 +1,59 @@
-<translate-content># 🚀 Xianyu AutoAgent - Intelligent Xianyu Customer Service Robot System
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=qOeOp&project=XianyuAutoAgent&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
+
+# 🚀 Xianyu AutoAgent - Intelligent Xianyu Customer Service Bot System
 
 [![Java Version](https://img.shields.io/badge/java21%2B-blue)](https://www.python.org/) [![LLM Powered](https://img.shields.io/badge/LLM-powered-FF6F61)](https://platform.openai.com/)
 
-An AI on-duty solution specially designed for the Xianyu platform, achieving 7×24-hour automated on-duty service on Xianyu, supporting multi-expert collaborative decision-making, intelligent bargaining, and context-aware conversations.
+An AI duty solution designed specifically for the Xianyu platform, enabling 24/7 automated operation, supporting multi-expert collaborative decision-making, intelligent price negotiation, and context-aware conversations.
 
-## 🎮 Playground - Quick Experience (No Configuration Version)
+## 🎮 Playground - Quick Experience (No Configuration Needed)
 
-No local environment or Secrets setup required! **Pass parameters directly through the GitHub Actions web interface**, and start the Xianyu robot with one click.
+No need for a local environment or setting Secrets! **Directly use GitHub Actions web interface to input parameters** and start the Xianyu bot with one click.
 
 ### How to Use
-1. **Fork this repository** → Click the `Fork` button at the top right
-2. **Trigger the Action**:
+1. **Fork this repository** → Click the `Fork` button in the upper right corner
+2. **Trigger Action**:
    - Go to your repository's `Actions` tab
    - Select the **`🚀 Run Service`** workflow
    - Click the **`Run workflow`** button and fill in the parameters:
-      - `API Key`: Paste your large model API Key (e.g., Alibaba Cloud DashScope)
-      - `Cookies`: Paste the complete Cookie string from the Xianyu web client
-3. **View the running logs**:
-   - After the robot starts, it will automatically listen to Xianyu messages
+      - `API Key`: Paste your LLM API Key (e.g., Aliyun DashScope)
+      - `Cookies`: Paste the full Xianyu web cookie string
+3. **View Running Logs**:
+   - After the bot starts, it will automatically listen for Xianyu messages
    - Search for `🤖 Reply:` in the Action logs to view conversation records
 
 ### Notes
 ⚠️ Please note temporary run limitations:
-- Default runtime is **30 minutes** (GitHub free account limit)
-- Sensitive information (such as Cookies) **will not be stored**, effective only during the current run
+- Default runtime is **30 minutes** (GitHub free account limitation)
+- Sensitive information (such as Cookies) **will not be stored**, only effective for that run
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/qOeOp/XianyuAutoAgent/main/./screenshots/workflow.png" width="400px" alt="workflow">
@@ -31,18 +61,18 @@ No local environment or Secrets setup required! **Pass parameters directly throu
 
 ## 🌟 Core Features
 
-### Intelligent Dialogue Engine
-| Feature Module | Technology Implementation  | Key Features                                               |
-| -------------- | -------------------------- | ---------------------------------------------------------- |
-| Context Awareness | Session History Storage   | Lightweight dialogue memory management, complete conversation history as LLM context input |
-| Expert Routing | LLM prompt + Rule Routing  | Intent recognition based on prompt engineering → dynamic dispatch to expert Agents, supports bargaining/technical/support multi-scenario switching |
+### Intelligent Conversation Engine
+| Module      | Technical Implementation   | Key Features                                               |
+| ----------- | ------------------------- | ---------------------------------------------------------- |
+| Contextual  | Conversation history store | Lightweight conversation memory management, full chat history as LLM context input |
+| Expert Routing | LLM prompt+rule routing | Intent recognition via prompt engineering → dynamic dispatch to expert Agent, supports scenario switching for price negotiation/tech/customer service |
 
 ### Business Function Matrix
-| Module     | Implemented                  | Planned                    |
-| ---------- | ---------------------------- | -------------------------- |
-| Core Engine | ✅ LLM Auto Reply<br>✅ Context Management | 🔄 Sentiment Analysis Enhancement |
-| Bargaining System | ✅ Tiered Discount Strategy | 🔄 Market Price Comparison Feature |
-| Technical Support | ✅ Network Search Integration | 🔄 RAG Knowledge Base Enhancement |
+| Module     | Implemented                      | Planned                         |
+| ---------- | ------------------------------- | ------------------------------- |
+| Core Engine| ✅ LLM auto-reply<br>✅ Context management | 🔄 Enhanced sentiment analysis         |
+| Pricing    | ✅ Stepwise price reduction strategy     | 🔄 Market price comparison            |
+| Tech Support| ✅ Integrated web search               | 🔄 Enhanced RAG knowledge base        |
 
 ## 🚴 Quick Start
 
@@ -50,7 +80,8 @@ No local environment or Secrets setup required! **Pass parameters directly throu
 - JDK 21+
 - Maven 3.9.10+
 
-### Installation Steps</translate-content>
+### Installation Steps
+
 ```bash
 1. 克隆仓库
 git clone https://github.com/qOeOp/XianyuAutoAgent.git
@@ -88,6 +119,6 @@ This project is refactored based on the following open-source projects:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
 
 ---

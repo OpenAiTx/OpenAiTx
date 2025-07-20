@@ -30,35 +30,35 @@
 
 # 🎮 2048++
 
-Klasik 2048 oyununun geliştirilmiş versiyonu, şimdi çok daha eğlenceli özelliklerle! Bu küçük projeyi boş zamanlarımda hazırladım—umarım size de keyif verir!
+Klasik 2048 oyununun geliştirilmiş bir versiyonu, şimdi daha da eğlenceli özelliklerle! Bu, boş zamanlarımda hazırladığım küçük bir proje—umarım size de keyif verir!
 
 ## 🎯 Oyun Tanıtımı
 
-2048, basit ama bağımlılık yapan bir sayı birleştirme oyunudur. 4x4 bir ızgarada, aynı sayıya sahip kutucukları birleştirmek için yukarı, aşağı, sola veya sağa kaydırın. Amaç? 2048’e ulaşmak (ama isterseniz daha yüksek puanlar için devam edebilirsiniz)!
+2048, basit ama bağımlılık yapan bir sayı birleştirme oyunudur. 4x4 bir ızgarada, aynı sayıya sahip kutucukları birleştirmek için yukarı, aşağı, sola veya sağa kaydırın. Amaç? 2048'e ulaşmak (ama durmayın, daha yüksek puanlar için devam edebilirsiniz)!
 
 **Nasıl oynanır:**
-- Kutucukları hareket ettirmek için ok tuşlarını veya WASD’yi kullanın.
-- Aynı sayıya sahip iki kutucuk çarpıştığında, tek bir kutucuk olarak birleşirler.
-- Her hamleden sonra, rastgele boş bir yere yeni bir 2 veya 4 gelir.
-- Hamle yapacak yer kalmadığında oyun biter.
+- Kutucukları hareket ettirmek için ok tuşlarını veya WASD'yi kullanın.
+- Aynı sayıya sahip iki kutucuk çarpıştığında birleşirler.
+- Her hamleden sonra, boş bir alanda rastgele yeni bir 2 veya 4 belirir.
+- Hamle yapacak yer kalmayınca oyun sona erer.
 
 ## ✨ Özel Özellikler
 
 ### 1. Geri Alma Fonksiyonu
 - Yanlış bir hamle mi yaptınız? Sorun değil!
-- Sadece "Geri Al" butonuna basarak bir adım geriye gidebilirsiniz.
-- Başlangıca kadar istediğiniz kadar geri alabilirsiniz.
-- Artık bir parmak hatası oyununuzu mahvetmeyecek!
+- Sadece "Geri Al" butonuna basarak bir adım geri dönebilirsiniz.
+- Dilediğiniz kadar geri alabilirsiniz, ta en başa kadar.
+- Artık yanlışlıkla yaptığınız bir hareket oyununuzu mahvetmesin!
 
 ### 2. Gizli Hile Modu
 - Sihirli diziyi girin: ←←→→ →→←← (sol, sol, sağ, sağ, sağ, sağ, sol, sol)
-- Tüm kutucuklar sihirli bir şekilde 128’e dönüşecek!
+- Bütün kutucuklar sihirli bir şekilde 128'e dönüşecek!
 - Bu bir Paskalya yumurtası, sadece eğlence amaçlı.
-- İpucu: Hile yapmak eğlenceli olabilir ama abartmayın! 😉
+- İpucu: Hile yapmak eğlenceli olabilir, ama abartmayın! 😉
 
 ## 🎯 Demo
 
-🎯 Buradan oyna: [http://2048.ct8.pl](http://2048.ct8.pl:9969/)
+🎯 Buradan oynayın: [2048.765431.xyz](https://2048.765431.xyz/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
@@ -98,21 +98,22 @@ python 2048.py
 ```
 ## 🎨 Özelleştirme
 
-Kendinize göre uyarlamak mı istiyorsunuz? Yeni bir görünüm için `styles.css` dosyasını düzenleyin veya oynanışı değiştirmek için `script.js` dosyasına dalın. Tüm kodlar kolayca düzenlenebilmesi için iyi açıklanmıştır!
+Kendinize göre uyarlamak mı istiyorsunuz? Yeni bir görünüm için `styles.css` dosyasını düzenleyin veya oynanışı değiştirmek için `script.js` dosyasına dalın. Tüm kodlar kolayca düzenlenebilmesi için iyi bir şekilde yorumlanmıştır!
 
 ## 📝 Lisans
 
 GPL-2.0 lisansı
 
-## 🤝 Katkıda Bulunun
+## 🤝 Katkıda Bulunanlar
 
-Hâlâ güncelleniyor! Sorunlar ve Çekme İstekleri çok memnuniyetle karşılanır—bu oyunu birlikte daha da harika yapalım!
+Güncellenmeye devam ediyor! Sorunlar ve Çekme Talepleri çok memnuniyetle karşılanır—bu oyunu birlikte daha da harika hale getirelim!
 
 
 ## 🙏 Teşekkürler
 
-Bu projeye destek veren aşağıdaki sponsorlara teşekkürler:
-- [Serv00](https://www.serv00.com/) sunucuyu sağladığı için
+Bu projeye destek olan aşağıdaki sponsorlara teşekkürler:
+- Sunucu sağlayan [IDC.REST](https://idc.rest/)
+- Sunucu sağlayan [Serv00](https://www.serv00.com/)
 
 ---
 _Son güncelleme: Haz. 2025_
@@ -121,6 +122,6 @@ _Son güncelleme: Haz. 2025_
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
 
 ---

@@ -3,23 +3,23 @@
     <summary >🌐 Other Language</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ja">Japanese</a>
-        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ko">Korean</a>
-        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=hi">Hindi</a>
-        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=th">Thai</a>
-        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=fr">French</a>
-        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=de">German</a>
-        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=es">Spanish</a>
-        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=it">Italian</a>
-        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ru">Russian</a>
-        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=pt">Portuguese</a>
-        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=nl">Dutch</a>
-        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=pl">Polish</a>
-        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ar">Arabic</a>
-        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=fa">Persian</a>
-        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=tr">Turkish</a>
-        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=vi">Vietnamese</a>
-        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=id">Indonesian</a>
+        <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=id">Bahasa Indonesia</a>
       </div>
     </div>
   </details>
@@ -58,7 +58,7 @@ An enhanced version of the classic 2048 game, now with even more fun features! T
 
 ## 🎯 Demo
 
-🎯 Play here: [http://2048.ct8.pl](http://2048.ct8.pl:9969/)
+🎯 Play here: [2048.765431.xyz](https://2048.765431.xyz/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
@@ -112,6 +112,7 @@ Still updating! Issues and Pull Requests are super welcome—let’s make this g
 ## 🙏 Acknowledgements
 
 Thanks to the following sponsors for supporting this project:
+- [IDC.REST](https://idc.rest/) providing the server
 - [Serv00](https://www.serv00.com/) providing the server
 
 ---
@@ -121,6 +122,6 @@ _Last updated: Jun. 2025_
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
 
 ---

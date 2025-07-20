@@ -30,35 +30,35 @@
 
 # 🎮 2048++
 
-Ulepszona wersja klasycznej gry 2048, teraz z jeszcze większą liczbą fajnych funkcji! To mały projekt, który stworzyłem w wolnym czasie — mam nadzieję, że sprawi Ci radość!
+Ulepszona wersja klasycznej gry 2048, teraz z jeszcze większą ilością zabawnych funkcji! To mały projekt, który stworzyłem w wolnym czasie — mam nadzieję, że sprawi Ci radość!
 
 ## 🎯 Wprowadzenie do gry
 
-2048 to prosta, ale wciągająca gra polegająca na łączeniu liczb. Na siatce 4x4 przesuwaj w górę, w dół, w lewo lub w prawo, aby łączyć kafelki o tych samych numerach. Cel? Osiągnąć 2048 (ale hej, możesz grać dalej dla jeszcze wyższego wyniku)!
+2048 to prosta, ale wciągająca gra polegająca na łączeniu liczb. Na siatce 4x4 przesuwaj w górę, dół, w lewo lub w prawo, aby łączyć płytki o tych samych numerach. Cel? Osiągnąć 2048 (ale hej, możesz grać dalej, by zdobywać jeszcze wyższe wyniki)!
 
 **Jak grać:**
-- Użyj strzałek lub klawiszy WASD, aby przesuwać kafelki.
-- Gdy dwa kafelki z tym samym numerem się zderzą, łączą się w jeden.
-- Po każdym ruchu losowo pojawia się nowy kafelek 2 lub 4 w pustym miejscu.
-- Gra kończy się, gdy nie ma już możliwych ruchów.
+- Używaj klawiszy strzałek lub WASD, aby przesuwać płytki.
+- Gdy dwie płytki z tym samym numerem zderzą się, połączą się w jedną.
+- Po każdym ruchu w losowym wolnym miejscu pojawi się nowa 2 lub 4.
+- Gra kończy się, gdy nie można wykonać już żadnego ruchu.
 
-## ✨ Funkcje specjalne
+## ✨ Specjalne funkcje
 
-### 1. Cofanie ruchu
-- Wykonałeś zły ruch? Nie martw się!
-- Wystarczy nacisnąć przycisk "Cofnij", aby wrócić o jeden krok.
-- Możesz cofać się dowolnie wiele razy, aż do samego początku.
-- Już nigdy przypadkowe dotknięcie nie zrujnuje Twojej gry!
+### 1. Funkcja Cofnij
+- Zrobiłeś zły ruch? Bez obaw!
+- Po prostu kliknij przycisk "Cofnij", aby wrócić o jeden krok.
+- Możesz cofać tyle razy, ile chcesz, aż do początku gry.
+- Już nigdy przypadkowe kliknięcie nie zrujnuje Twojej gry!
 
-### 2. Tajny tryb oszustwa
+### 2. Sekretny Tryb Oszustwa
 - Wpisz magiczną sekwencję: ←←→→ →→←← (lewo, lewo, prawo, prawo,  prawo, prawo, lewo, lewo)
-- Wszystkie kafelki magicznie zamienią się w 128!
-- To wielkanocne jajko, tylko dla zabawy.
-- Wskazówka: Oszukiwanie jest fajne, ale nie przesadzaj! 😉
+- Wszystkie płytki magicznie zamienią się w 128!
+- To Wielkanocna niespodzianka, tylko dla zabawy.
+- Porada: Oszukiwanie jest fajne, ale nie przesadzaj! 😉
 
 ## 🎯 Demo
 
-🎯 Zagraj tutaj: [http://2048.ct8.pl](http://2048.ct8.pl:9969/)
+🎯 Graj tutaj: [2048.765431.xyz](https://2048.765431.xyz/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
@@ -96,9 +96,9 @@ cd 2048
 pip install flask
 python 2048.py
 ```
-## 🎨 Personalizacja
+## 🎨 Dostosowywanie
 
-Chcesz dostosować grę do siebie? Edytuj `styles.css`, aby zmienić wygląd, lub zagłęb się w `script.js`, aby zmodyfikować rozgrywkę. Cały kod jest szczegółowo skomentowany dla łatwego modyfikowania!
+Chcesz dostosować do własnych potrzeb? Zmień `styles.css`, aby uzyskać nowy wygląd, lub zajrzyj do `script.js`, aby zmienić rozgrywkę. Cały kod jest dobrze skomentowany, co ułatwia modyfikacje!
 
 ## 📝 Licencja
 
@@ -106,12 +106,13 @@ Licencja GPL-2.0
 
 ## 🤝 Współtworzenie
 
-Wciąż aktualizujemy! Zgłoszenia błędów i Pull Requesty są bardzo mile widziane — sprawmy, by ta gra była jeszcze lepsza razem!
+Projekt jest nadal rozwijany! Zgłaszanie błędów i Pull Requesty są mile widziane—razem możemy uczynić tę grę jeszcze lepszą!
 
 
 ## 🙏 Podziękowania
 
 Dziękujemy następującym sponsorom za wsparcie tego projektu:
+- [IDC.REST](https://idc.rest/) za udostępnienie serwera
 - [Serv00](https://www.serv00.com/) za udostępnienie serwera
 
 ---
@@ -121,6 +122,6 @@ _Ostatnia aktualizacja: czerwiec 2025_
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
 
 ---

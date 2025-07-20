@@ -1,6 +1,6 @@
 <div align="right">
   <details>
-    <summary >🌐 Andere Taal</summary>
+    <summary >🌐 Andere taal</summary>
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ja">日本語</a>
@@ -30,35 +30,35 @@
 
 # 🎮 2048++
 
-Een verbeterde versie van het klassieke 2048-spel, nu met nog meer leuke functies! Dit is een klein projectje dat ik in mijn vrije tijd heb gemaakt—hopelijk bezorgt het je wat plezier!
+Een verbeterde versie van het klassieke 2048-spel, nu met nog meer leuke functies! Dit is een klein project dat ik in mijn vrije tijd heb gemaakt – hopelijk beleef je er plezier aan!
 
-## 🎯 Introductie van het Spel
+## 🎯 Introductie van het spel
 
-2048 is een eenvoudig maar verslavend cijfer-combinatiespel. Op een 4x4 rooster veeg je omhoog, omlaag, links of rechts om tegels met hetzelfde nummer samen te voegen. Het doel? Bereik 2048 (maar je kunt doorgaan voor nog hogere scores)!
+2048 is een eenvoudig maar verslavend nummer-merge spel. Op een 4x4 raster veeg je omhoog, omlaag, naar links of naar rechts om tegels met hetzelfde getal samen te voegen. Het doel? Bereik 2048 (maar je kunt doorgaan voor nog hogere scores)!
 
 **Hoe te spelen:**
-- Gebruik de pijltjestoetsen of WASD om de tegels te verplaatsen.
-- Als twee tegels met hetzelfde nummer botsen, worden ze samengevoegd tot één.
+- Gebruik pijltjestoetsen of WASD om de tegels te bewegen.
+- Wanneer twee tegels met hetzelfde getal botsen, worden ze samengevoegd tot één.
 - Na elke zet verschijnt er willekeurig een nieuwe 2 of 4 op een lege plek.
 - Het spel eindigt als er geen zetten meer mogelijk zijn.
 
 ## ✨ Speciale Functies
 
 ### 1. Ongedaan maken-functie
-- Een verkeerde zet gemaakt? Geen zorgen!
-- Druk gewoon op de knop "Ongedaan maken" om één stap terug te gaan.
+- Een verkeerde zet gemaakt? Geen probleem!
+- Druk gewoon op de "Ongedaan maken"-knop om een stap terug te gaan.
 - Je kunt zo vaak ongedaan maken als je wilt, helemaal terug naar het begin.
-- Laat een vergissing nooit meer je spel verpesten!
+- Laat een slip van de vinger nooit meer je spel verpesten!
 
 ### 2. Geheime Cheatmodus
-- Voer de magische volgorde in: ←←→→ →→←← (links, links, rechts, rechts,  rechts, rechts, links, links)
+- Voer de magische volgorde in: ←←→→ →→←← (links, links, rechts, rechts, rechts, rechts, links, links)
 - Alle tegels veranderen magisch in 128!
 - Het is een paasei, gewoon voor de lol.
-- Tip: Cheaten is leuk, maar overdrijf het niet! 😉
+- Tip: valsspelen is leuk, maar doe het niet te vaak! 😉
 
 ## 🎯 Demo
 
-🎯 Speel hier: [http://2048.ct8.pl](http://2048.ct8.pl:9969/)
+🎯 Speel hier: [2048.765431.xyz](https://2048.765431.xyz/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
@@ -98,7 +98,7 @@ python 2048.py
 ```
 ## 🎨 Aanpassen
 
-Wil je het naar eigen wens maken? Pas `styles.css` aan voor een nieuw uiterlijk, of duik in `script.js` om de gameplay te veranderen. Alle code is voorzien van duidelijke commentaar voor eenvoudig aanpassen!
+Wil je het naar eigen wens maken? Pas `styles.css` aan voor een nieuw uiterlijk, of duik in `script.js` om de gameplay te veranderen. Alle code is goed becommentarieerd voor eenvoudig aanpassen!
 
 ## 📝 Licentie
 
@@ -106,13 +106,14 @@ GPL-2.0 licentie
 
 ## 🤝 Bijdragen
 
-Nog steeds in ontwikkeling! Issues en Pull Requests zijn van harte welkom—laten we samen dit spel nog beter maken!
+Nog steeds in ontwikkeling! Issues en Pull Requests zijn van harte welkom—laten we samen deze game nog beter maken!
 
 
 ## 🙏 Erkenningen
 
 Dank aan de volgende sponsors voor het ondersteunen van dit project:
-- [Serv00](https://www.serv00.com/) die de server levert
+- [IDC.REST](https://idc.rest/) voor het leveren van de server
+- [Serv00](https://www.serv00.com/) voor het leveren van de server
 
 ---
 _Laatst bijgewerkt: juni 2025_
@@ -121,6 +122,6 @@ _Laatst bijgewerkt: juni 2025_
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
 
 ---

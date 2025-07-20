@@ -1,0 +1,1009 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=it\">Itapano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# Open-source, lightweight Trello alternative designed for makers and indie hackers.\n\nFocus on simplicity, speed, and scalability.\nBuilt with modern stack: Tailwind CSS, shadcn/ui, Supabase, Stripe integration.\nSupports unlimited projects, team collaboration, dark/light mode, and seamless user experience.\nPerfect for solo devs and small teams who want full control without unnecessary complexity.\n\n## 🌟 If you find this project useful, consider giving it a star! It helps others discover it too.\n\n# Deployment Guide\n\n## Overview\nThis application now uses local Next.js API routes instead of Supabase Edge Functions for Stripe integration. This makes deployment simpler and allows you to use standard .env files for configuration.\n\n## Environment Variables Setup\n\n### 1. Create .env.local file\nCopy `.env.example` to `.env.local` and fill in your actual values:\n",
+    "ContentSha": "xoZBjb8xiOTmSMwyO99aP7iw3Jf0OvKvjV092c8sMKI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 語言</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=it\">Itapano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# 開源、輕量級的 Trello 替代方案，專為創客與獨立駭客設計。\n\n專注於簡單、快速與高擴展性。\n採用現代技術棧構建：Tailwind CSS、shadcn/ui、Supabase、Stripe 集成。\n支援無限專案、團隊協作、深色/淺色模式，以及流暢的用戶體驗。\n非常適合想要完全掌控且不需繁瑣功能的獨立開發者與小型團隊。\n\n## 🌟 如果你覺得這個專案有用，請考慮給它一顆星！這也能幫助更多人發現它。\n\n# 部署指南\n\n## 概覽\n本應用現在使用本地 Next.js API 路由來取代 Supabase Edge Functions 進行 Stripe 集成。這讓部署更簡單，且可直接使用標準 .env 檔案進行設定。\n\n## 環境變數設置\n\n### 1. 建立 .env.local 檔案\n複製 `.env.example` 為 `.env.local` 並填入你的實際值：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "    <summary >🌐 語言</summary>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=en\">English</a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "3/3A+dRcbRd9WhKm1apVSxgUH947ApVPUWQjLHdeokk=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=en\">English</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "8UaFSFyCXUJDR3uEO9cqvZpBx5QxLUC6xLb7DV6ALw4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "3IhFXgnylrPOu4PKybyxIokMBEmWZZplqxORLgj5z4M=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "+SLrLb4otYSZC6lQ9atcFlMSbWLU+k3HJabJ/vSq6Rw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "JtpGnxWpFOmxDQlIOCeVrPbnQ8XzT5vHPLMYTfCaKLE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "fK4VvvkkLKVus5BBO7ue0D3v+p308i+wOfL/ymGgJss=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "Z28wmkAwUbCWiPenvWc9B5mhlV7H1hNH7ZJnxM6DFNA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=fr\">Français</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "Lr9267WAJNme7SfgetqyGPLum/HKOdPyCk2nqRZwKAM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "6QC5RK7J8F2dXoNHNV1wDGxWi2DF2Tf9DoGRzc3mXfs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=es\">Español</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "Ddb+DWtU/rOOBq/r2BNFZE6KhXz33TkwDSQ545L7W9c=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=it\">Itapano</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "B98JcXko/UU3eaPr/HLjXVzMFJFWVgAblwx9yZKAakg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=it\">Itapano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "xBMa4EemxY3c7hxO1HRmtfrYJUzYUeQZSUxWsftNJkw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=pt\">Português</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "98+iD5LYwYrQ8TdSJp+fbVP9GkpYHzguGYH+7n9DFeA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "0BJlf/QhUxaK8vZw5nMXGqJ8ntpuhxrLe0m7WwpWRbQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "maMCC/gRHE6mdYLShDJg52iG4h41wE2vlSKcjC7gQfk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "ch9jLZ92Wd3imcci0/Na83GhDWzfzehWfXZkSIsCs1o=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "j3/A+P2cE8kvgTKMuhmUmlmth8h+kQbGM5Skf/cb0tA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "DVJgoNxtU+kUDJWLkmb36E8u2WC89/SY5vjfnlhRo1k=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "1vLo4vCMBoL3ayaCuTuFZN2R3gxNd9F7oxu82LdonkI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "TdIVLHiuGcnRvmqUh73vSo+HWc2sPFUGEubJkdjHJJE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 27,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 28,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 29,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# 開源、輕量級的 Trello 替代方案，專為創客與獨立駭客設計。"
+      },
+      {
+        "row": 32,
+        "rowsha": "KMi8LzqGIbazkff2H1nDGSBhsbVKc4B+u/pvpN0V0Lw=",
+        "originContent": "# Open-source, lightweight Trello alternative designed for makers and indie hackers.",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "專注於簡單、快速與高擴展性。"
+      },
+      {
+        "row": 34,
+        "rowsha": "4h4+NOnoaqZfkKbx/X7BVOJ6yd201ysHosz81hkOkjs=",
+        "originContent": "Focus on simplicity, speed, and scalability.",
+        "translatedContent": "採用現代技術棧構建：Tailwind CSS、shadcn/ui、Supabase、Stripe 集成。"
+      },
+      {
+        "row": 35,
+        "rowsha": "klbcb4ibHSRpjZdytrH/xdml+Afs4wMavkbNfUxNbE8=",
+        "originContent": "Built with modern stack: Tailwind CSS, shadcn/ui, Supabase, Stripe integration.",
+        "translatedContent": "支援無限專案、團隊協作、深色/淺色模式，以及流暢的用戶體驗。"
+      },
+      {
+        "row": 36,
+        "rowsha": "LBHitYy9aHjuP/r1JTU8ru895lX2wAARVhPVz5MEqhU=",
+        "originContent": "Supports unlimited projects, team collaboration, dark/light mode, and seamless user experience.",
+        "translatedContent": "非常適合想要完全掌控且不需繁瑣功能的獨立開發者與小型團隊。"
+      },
+      {
+        "row": 37,
+        "rowsha": "SMR8/7G23rS8KrwW2G285zjnJUHTUO37E6h6efdbTfk=",
+        "originContent": "Perfect for solo devs and small teams who want full control without unnecessary complexity.",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🌟 如果你覺得這個專案有用，請考慮給它一顆星！這也能幫助更多人發現它。"
+      },
+      {
+        "row": 39,
+        "rowsha": "hgz1dqyQQZABsnSjSbcQio/OnwXyj66z7yBHKqkfbBI=",
+        "originContent": "## 🌟 If you find this project useful, consider giving it a star! It helps others discover it too.",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# 部署指南"
+      },
+      {
+        "row": 41,
+        "rowsha": "OCUJXTJDdTjkvIukhe5VUtIxFbnG9+jO5Edkc1TpniA=",
+        "originContent": "# Deployment Guide",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 概覽"
+      },
+      {
+        "row": 43,
+        "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
+        "originContent": "## Overview",
+        "translatedContent": "本應用現在使用本地 Next.js API 路由來取代 Supabase Edge Functions 進行 Stripe 集成。這讓部署更簡單，且可直接使用標準 .env 檔案進行設定。"
+      },
+      {
+        "row": 44,
+        "rowsha": "BiaZ1ygL6YDrh9LuqK/1yEm930hPf1p1S/IQz2rBw5A=",
+        "originContent": "This application now uses local Next.js API routes instead of Supabase Edge Functions for Stripe integration. This makes deployment simpler and allows you to use standard .env files for configuration.",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 環境變數設置"
+      },
+      {
+        "row": 46,
+        "rowsha": "rbZg004GhVnpJCyxoA+TEhovCBQcLtS7a/g2G3skHEg=",
+        "originContent": "## Environment Variables Setup",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 1. 建立 .env.local 檔案"
+      },
+      {
+        "row": 48,
+        "rowsha": "NhzY+MgOe8GFe5pRTVqQgsEGWbR+s7eFxLGu0VuGjyU=",
+        "originContent": "### 1. Create .env.local file",
+        "translatedContent": "複製 `.env.example` 為 `.env.local` 並填入你的實際值："
+      },
+      {
+        "row": 49,
+        "rowsha": "I4fBsUCLqelJBqXX+mwfiBOTuFKi3fhF+HUz9wlc4t0=",
+        "originContent": "Copy `.env.example` to `.env.local` and fill in your actual values:",
+        "translatedContent": ""
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\ncp .env.example .env.local\n```",
+    "ContentSha": "HUCvWCmOyLXPArW2A+L9Jt851ewBT2SlAmSw/TpH8MQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncp .env.example .env.local\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "p+WZO+vOMpQHbz2zS3rdfhWLywdZQ0t9JtpqPZY7O5I=",
+        "originContent": "cp .env.example .env.local",
+        "translatedContent": "cp .env.example .env.local"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### 2. Required Environment Variables\n\n#### Supabase Configuration\n- `NEXT_PUBLIC_SUPABASE_URL` - Your Supabase project URL\n- `NEXT_PUBLIC_SUPABASE_ANON_KEY` - Your Supabase anonymous key\n- `SUPABASE_SERVICE_ROLE_KEY` - Your Supabase service role key (server-side only)\n\n#### Stripe Configuration (optional)\n- `STRIPE_SECRET_KEY` - Your Stripe secret key (server-side only)\n- `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` - Your Stripe publishable key\n- `STRIPE_WEBHOOK_SECRET` - Your Stripe webhook secret\n\n#### Site Configuration\n- `NEXT_PUBLIC_SITE_URL` - Your site URL (for production)\n- `NEXTAUTH_URL` - Your site URL (same as above)\n- `NEXTAUTH_SECRET` - A random secret for NextAuth\n\n## Local Development\n\n1. Install dependencies:",
+    "ContentSha": "G2WgsDvx95OrWwNjRfkK+izDb3NYFKpvT3uC8NZ6fho=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 2. 必需的環境變數\n\n#### Supabase 設定\n- `NEXT_PUBLIC_SUPABASE_URL` - 您的 Supabase 專案網址\n- `NEXT_PUBLIC_SUPABASE_ANON_KEY` - 您的 Supabase 匿名金鑰\n- `SUPABASE_SERVICE_ROLE_KEY` - 您的 Supabase 服務角色金鑰（僅限伺服器端）\n\n#### Stripe 設定（可選）\n- `STRIPE_SECRET_KEY` - 您的 Stripe 密鑰（僅限伺服器端）\n- `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` - 您的 Stripe 公開金鑰\n- `STRIPE_WEBHOOK_SECRET` - 您的 Stripe webhook 密鑰\n\n#### 網站設定\n- `NEXT_PUBLIC_SITE_URL` - 您的網站網址（用於生產環境）\n- `NEXTAUTH_URL` - 您的網站網址（與上方相同）\n- `NEXTAUTH_SECRET` - 一組隨機的 NextAuth 密鑰\n\n## 本地開發\n\n1. 安裝相依套件：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 2. 必需的環境變數"
+      },
+      {
+        "row": 2,
+        "rowsha": "VHWb23mciThTEJpyiftjCevkO27pXKiJv64hZa5Cn70=",
+        "originContent": "### 2. Required Environment Variables",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### Supabase 設定"
+      },
+      {
+        "row": 4,
+        "rowsha": "6OH8ABmtquSXOnCLWTPzqRxt2Zc6PCOBkqZgklP/9Zw=",
+        "originContent": "#### Supabase Configuration",
+        "translatedContent": "- `NEXT_PUBLIC_SUPABASE_URL` - 您的 Supabase 專案網址"
+      },
+      {
+        "row": 5,
+        "rowsha": "e69tBsPDNhAsZeyLYST0Ti3fLV8XWg40Gs1IQ0+dN6w=",
+        "originContent": "- `NEXT_PUBLIC_SUPABASE_URL` - Your Supabase project URL",
+        "translatedContent": "- `NEXT_PUBLIC_SUPABASE_ANON_KEY` - 您的 Supabase 匿名金鑰"
+      },
+      {
+        "row": 6,
+        "rowsha": "A4o9iSn1+LjR4X+fp1ZaTBSJc3sgNGru4tWfu/nhSYU=",
+        "originContent": "- `NEXT_PUBLIC_SUPABASE_ANON_KEY` - Your Supabase anonymous key",
+        "translatedContent": "- `SUPABASE_SERVICE_ROLE_KEY` - 您的 Supabase 服務角色金鑰（僅限伺服器端）"
+      },
+      {
+        "row": 7,
+        "rowsha": "50SGXJ7CthCS6z8J7YEN6D+0A2uFFs8ZWlGXBDGMBLo=",
+        "originContent": "- `SUPABASE_SERVICE_ROLE_KEY` - Your Supabase service role key (server-side only)",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### Stripe 設定（可選）"
+      },
+      {
+        "row": 9,
+        "rowsha": "Q+IEjRAr49KH7NWhJbbEnd2bi/caiSdPMK5yGm38nnM=",
+        "originContent": "#### Stripe Configuration (optional)",
+        "translatedContent": "- `STRIPE_SECRET_KEY` - 您的 Stripe 密鑰（僅限伺服器端）"
+      },
+      {
+        "row": 10,
+        "rowsha": "eQi6pdo62uv7nzoeb7hBpNH5dPag/uhull8XERB6/r4=",
+        "originContent": "- `STRIPE_SECRET_KEY` - Your Stripe secret key (server-side only)",
+        "translatedContent": "- `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` - 您的 Stripe 公開金鑰"
+      },
+      {
+        "row": 11,
+        "rowsha": "saEhd8JmOoPLCQoIO8bUZUzRxRjTw8BEfe3LeweEbqA=",
+        "originContent": "- `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` - Your Stripe publishable key",
+        "translatedContent": "- `STRIPE_WEBHOOK_SECRET` - 您的 Stripe webhook 密鑰"
+      },
+      {
+        "row": 12,
+        "rowsha": "VT4/6NuQ08KYfGAMRTT3g6ZNrbNKeRwMDpD5e9PZ/co=",
+        "originContent": "- `STRIPE_WEBHOOK_SECRET` - Your Stripe webhook secret",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### 網站設定"
+      },
+      {
+        "row": 14,
+        "rowsha": "RZfkOYljYbUfW8pNCy+VxC8H5GQ0KihjxORpOvn7dMQ=",
+        "originContent": "#### Site Configuration",
+        "translatedContent": "- `NEXT_PUBLIC_SITE_URL` - 您的網站網址（用於生產環境）"
+      },
+      {
+        "row": 15,
+        "rowsha": "Glm5od5Y/tPJQDip6ZOMwz9SLl10ePeFMIawl/uVT9I=",
+        "originContent": "- `NEXT_PUBLIC_SITE_URL` - Your site URL (for production)",
+        "translatedContent": "- `NEXTAUTH_URL` - 您的網站網址（與上方相同）"
+      },
+      {
+        "row": 16,
+        "rowsha": "5HQaESpnnPD41kQ8zDUJD09xuGG2HdfqwjJS92JAH1A=",
+        "originContent": "- `NEXTAUTH_URL` - Your site URL (same as above)",
+        "translatedContent": "- `NEXTAUTH_SECRET` - 一組隨機的 NextAuth 密鑰"
+      },
+      {
+        "row": 17,
+        "rowsha": "tuldZD5IMfK+IeXWfaPIq3hP6DTA3EnoOj8llwL9MAg=",
+        "originContent": "- `NEXTAUTH_SECRET` - A random secret for NextAuth",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 本地開發"
+      },
+      {
+        "row": 19,
+        "rowsha": "3DtVzO+cLEfwMU0TLR9x8RXIpJnui/lW1uqX93LydVI=",
+        "originContent": "## Local Development",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 安裝相依套件："
+      },
+      {
+        "row": 21,
+        "rowsha": "edu5v91xwn1E7ud3/5YQvz9BnVRQPdCZEQxe1br9pPY=",
+        "originContent": "1. Install dependencies:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nnpm install\n```",
+    "ContentSha": "61pQ/Fja9zY+MRdm6d0xrWHYXeOM3qnlkhFYQhpctLs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpm install\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Oi3AriHrVteKDra70PRRLaBPn5T27mxqM4w+TLGo/5E=",
+        "originContent": "npm install",
+        "translatedContent": "npm install"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n2. Set up your environment variables in `.env.local`\n\n3. Run the development server:",
+    "ContentSha": "4oLdKHWQwRSSM7k3BVXSQ1GVQTx4m+HqGNT0eDqqs6Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. 在 `.env.local` 中設置你的環境變數\n\n3. 啟動開發伺服器：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. 在 `.env.local` 中設置你的環境變數"
+      },
+      {
+        "row": 2,
+        "rowsha": "FV3oDumMe6zc26KMurP7ckGYodOW5qq6KfRKRPt7Fl4=",
+        "originContent": "2. Set up your environment variables in `.env.local`",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. 啟動開發伺服器："
+      },
+      {
+        "row": 4,
+        "rowsha": "OdHe0QgJif7BV+Vo40qvlHoQJ783meMw1zdUS02UP7Y=",
+        "originContent": "3. Run the development server:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\nnpm run dev\n```",
+    "ContentSha": "5P9R2wA4yiKaSLfMZBkkmb+yh2bd/WD1egocQ/wrBUc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpm run dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "IfFnfI9PhCQWiefGw310ACvgFob6wDpxDKh2mTUm//c=",
+        "originContent": "npm run dev",
+        "translatedContent": "npm run dev"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n4. Test Stripe webhooks locally using Stripe CLI:",
+    "ContentSha": "s4VHh7d4eWaYXN3nfPxcXJHDKpzRuUT2+DL0BmMmUs8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "4. 使用 Stripe CLI 在本地測試 Stripe webhook：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "4. 使用 Stripe CLI 在本地測試 Stripe webhook："
+      },
+      {
+        "row": 2,
+        "rowsha": "hYJ+Bo+5ivsFGxUNwgLlr0RRuIr1jpWdmzSAvPqLo8k=",
+        "originContent": "4. Test Stripe webhooks locally using Stripe CLI:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\nstripe listen --forward-to localhost:3000/api/stripe/webhook\n```",
+    "ContentSha": "k7KY19hh+pmsNE5KXJuy5LodMhM4DqIvYBjXvKMbsBU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nstripe listen --forward-to localhost:3000/api/stripe/webhook\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "BhN7Hyl2N9CYuNdnCxAL+fVCZ8iuAsD8zo1YEW8OcyI=",
+        "originContent": "stripe listen --forward-to localhost:3000/api/stripe/webhook",
+        "translatedContent": "stripe listen --forward-to localhost:3000/api/stripe/webhook"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## Production Deployment\n\n\n### Vercel Deployment\n\n1. **Deploy to Vercel:**",
+    "ContentSha": "gn/aW5dvmt8+Zo0oI6WhlcZimH2m9Ac9+2Gyq2uXnt8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 生產部署\n\n\n### Vercel 部署\n\n1. **部署到 Vercel：**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 生產部署"
+      },
+      {
+        "row": 2,
+        "rowsha": "tfXaiJ7qvaTkZXp5azeYhmiU88iPPhEvLfYayUjE5+g=",
+        "originContent": "## Production Deployment",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Vercel 部署"
+      },
+      {
+        "row": 5,
+        "rowsha": "SXW9GIqNkFuVIG/zPl6Tp2qpgYmPqFTfPbGk7ksfW6A=",
+        "originContent": "### Vercel Deployment",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. **部署到 Vercel：**"
+      },
+      {
+        "row": 7,
+        "rowsha": "4xPUQqaUYFV8wA+J32B6fkr8b2sQZxfQmlaXOt4h5ZA=",
+        "originContent": "1. **Deploy to Vercel:**",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\nnpx vercel\n```",
+    "ContentSha": "p0J+fZkKWiTXFeyvwV0xfxL3Sn6f/yg4J9fPsrYRwIg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpx vercel\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "r4yIlwNoYiANxu68JcUtfN4kyVwV09Ni9ZCA+XdICGk=",
+        "originContent": "npx vercel",
+        "translatedContent": "npx vercel"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n2. **Environment Variables:**\n   Add all environment variables through Vercel dashboard or CLI\n\n3. **Stripe Webhook Setup:**\n   - Point webhook to: `https://your-domain.vercel.app/api/stripe/webhook`\n\n## API Endpoints\n\nThe application now uses these local API routes:\n\n- `POST /api/stripe/checkout` - Creates Stripe checkout sessions\n- `POST /api/stripe/webhook` - Handles Stripe webhook events\n\n## Benefits of Local API Routes\n\n1. **Simpler Deployment** - No need to deploy separate edge functions\n2. **Environment Variables** - Standard .env file support\n3. **Better Debugging** - Easier to debug locally\n4. **Framework Integration** - Better integration with Next.js\n5. **No Vendor Lock-in** - Can deploy to any platform that supports Next.js\n\n## Troubleshooting\n\n1. **Webhook Issues:**\n   - Ensure `STRIPE_WEBHOOK_SECRET` matches your Stripe webhook endpoint\n   - Check webhook logs in Stripe dashboard\n   - Verify webhook URL is correct\n\n2. **Environment Variables:**\n   - Ensure all required variables are set\n   - Check for typos in variable names\n   - Verify Supabase service role key has proper permissions\n\n3. **CORS Issues:**\n   - API routes include proper CORS headers\n   - Ensure your domain is whitelisted if needed\n\n## Security Notes\n\n- Never expose `STRIPE_SECRET_KEY` or `SUPABASE_SERVICE_ROLE_KEY` to the client\n- Use `NEXT_PUBLIC_` prefix only for client-side variables\n- Regularly rotate your webhook secrets\n- Monitor webhook delivery in Stripe dashboard\n",
+    "ContentSha": "YMd7oDqSx2zvYwTHWSxUaSK1AyBvZTv1CyWC1Xwl29o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. **環境變數：**\n   透過 Vercel 儀表板或 CLI 新增所有環境變數\n\n3. **Stripe Webhook 設定：**\n   - 將 webhook 指向：`https://your-domain.vercel.app/api/stripe/webhook`\n\n## API 端點\n\n應用程式現在使用以下本地 API 路由：\n\n- `POST /api/stripe/checkout` - 建立 Stripe 結帳會話\n- `POST /api/stripe/webhook` - 處理 Stripe webhook 事件\n\n## 本地 API 路由的優點\n\n1. **更簡單的部署** - 無需部署額外的 edge functions\n2. **環境變數** - 標準 .env 檔案支援\n3. **更佳除錯** - 更容易在本地除錯\n4. **框架整合** - 與 Next.js 更好整合\n5. **無廠商綁定** - 可部署至任何支援 Next.js 的平台\n\n## 疑難排解\n\n1. **Webhook 問題：**\n   - 確保 `STRIPE_WEBHOOK_SECRET` 與你的 Stripe webhook 端點相符\n   - 檢查 Stripe 儀表板中的 webhook 日誌\n   - 確認 webhook URL 正確\n\n2. **環境變數：**\n   - 確保所有必要變數已設置\n   - 檢查變數名稱是否有拼寫錯誤\n   - 確認 Supabase 服務角色金鑰有正確權限\n\n3. **CORS 問題：**\n   - API 路由包含正確的 CORS 標頭\n   - 如有需要，確保你的網域已列入白名單\n\n## 安全注意事項\n\n- 絕對不要將 `STRIPE_SECRET_KEY` 或 `SUPABASE_SERVICE_ROLE_KEY` 暴露給前端\n- 僅對客戶端變數使用 `NEXT_PUBLIC_` 前綴\n- 定期輪替你的 webhook 密鑰\n- 在 Stripe 儀表板監控 webhook 傳送情況\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. **環境變數：**"
+      },
+      {
+        "row": 2,
+        "rowsha": "h9oyJRVAr6D2yvUimPnrsLayUTKdwHY+flmpDgW6e+g=",
+        "originContent": "2. **Environment Variables:**",
+        "translatedContent": "   透過 Vercel 儀表板或 CLI 新增所有環境變數"
+      },
+      {
+        "row": 3,
+        "rowsha": "rkbHJMTgETVnCVv55+6o4iwLS0naJGQMrT0tjmQulD4=",
+        "originContent": "   Add all environment variables through Vercel dashboard or CLI",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. **Stripe Webhook 設定：**"
+      },
+      {
+        "row": 5,
+        "rowsha": "NZXclFYNx4+v+9h5psvPZVUfsZ8rVvvO+F7NaiXnoZE=",
+        "originContent": "3. **Stripe Webhook Setup:**",
+        "translatedContent": "   - 將 webhook 指向：`https://your-domain.vercel.app/api/stripe/webhook`"
+      },
+      {
+        "row": 6,
+        "rowsha": "IN4xzwJj+lEirOArjXXS0FKByMkmlbITV0pPeXwgfC8=",
+        "originContent": "   - Point webhook to: `https://your-domain.vercel.app/api/stripe/webhook`",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## API 端點"
+      },
+      {
+        "row": 8,
+        "rowsha": "UUu7gISfhH2uO3Ym4w3xfF4QZH/G9WP0TtGk+T7rv80=",
+        "originContent": "## API Endpoints",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "應用程式現在使用以下本地 API 路由："
+      },
+      {
+        "row": 10,
+        "rowsha": "yRMtImoqlM4hhGcIvaaiuBEysKfR28Uuu+p8rFIJB2o=",
+        "originContent": "The application now uses these local API routes:",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `POST /api/stripe/checkout` - 建立 Stripe 結帳會話"
+      },
+      {
+        "row": 12,
+        "rowsha": "Nm8zqTRXxZfQRiz7LijpssdJ9wU/G6ou32rYRwcII9s=",
+        "originContent": "- `POST /api/stripe/checkout` - Creates Stripe checkout sessions",
+        "translatedContent": "- `POST /api/stripe/webhook` - 處理 Stripe webhook 事件"
+      },
+      {
+        "row": 13,
+        "rowsha": "WAUL9+K+Rve0WwZrw8sw5V86VfyCB/eSMK+X2SXgEs4=",
+        "originContent": "- `POST /api/stripe/webhook` - Handles Stripe webhook events",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 本地 API 路由的優點"
+      },
+      {
+        "row": 15,
+        "rowsha": "5+VV0baHw6tRrR9kprzM7WQtcNaMdVlvymZ5n8QP1uM=",
+        "originContent": "## Benefits of Local API Routes",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. **更簡單的部署** - 無需部署額外的 edge functions"
+      },
+      {
+        "row": 17,
+        "rowsha": "Vt2EdT4qfvlP38OIXvsHfexPDDFfo1u3zcxrgxY7D7A=",
+        "originContent": "1. **Simpler Deployment** - No need to deploy separate edge functions",
+        "translatedContent": "2. **環境變數** - 標準 .env 檔案支援"
+      },
+      {
+        "row": 18,
+        "rowsha": "jCla2lfg4HAG3ajntmjjSm65qlZ9BFbqrQdi8+82/C0=",
+        "originContent": "2. **Environment Variables** - Standard .env file support",
+        "translatedContent": "3. **更佳除錯** - 更容易在本地除錯"
+      },
+      {
+        "row": 19,
+        "rowsha": "Y8UR4Qx8sBehZYGzhg+HttC/hfvREZLyQsLi7xLVY3A=",
+        "originContent": "3. **Better Debugging** - Easier to debug locally",
+        "translatedContent": "4. **框架整合** - 與 Next.js 更好整合"
+      },
+      {
+        "row": 20,
+        "rowsha": "hfaRvxNO2Tl6Rcqgc474z9jDWG680etExRr8u3j3HUM=",
+        "originContent": "4. **Framework Integration** - Better integration with Next.js",
+        "translatedContent": "5. **無廠商綁定** - 可部署至任何支援 Next.js 的平台"
+      },
+      {
+        "row": 21,
+        "rowsha": "zrWy7kKLQV940nRqPgitwkqdFC5THTzglEUC4m0HdcY=",
+        "originContent": "5. **No Vendor Lock-in** - Can deploy to any platform that supports Next.js",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 疑難排解"
+      },
+      {
+        "row": 23,
+        "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+        "originContent": "## Troubleshooting",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. **Webhook 問題：**"
+      },
+      {
+        "row": 25,
+        "rowsha": "pot5tYrY6vWs5mT5ngxJzyahM6RO5reOJem2jECyaQY=",
+        "originContent": "1. **Webhook Issues:**",
+        "translatedContent": "   - 確保 `STRIPE_WEBHOOK_SECRET` 與你的 Stripe webhook 端點相符"
+      },
+      {
+        "row": 26,
+        "rowsha": "R7F8iQWfds+IwFH2uJLfvM63mPLJVmH2rHKcb8hFNu4=",
+        "originContent": "   - Ensure `STRIPE_WEBHOOK_SECRET` matches your Stripe webhook endpoint",
+        "translatedContent": "   - 檢查 Stripe 儀表板中的 webhook 日誌"
+      },
+      {
+        "row": 27,
+        "rowsha": "P/959qQp6U4VuIbMkmYjarylRhiQ2mqMSLpIRrwCciE=",
+        "originContent": "   - Check webhook logs in Stripe dashboard",
+        "translatedContent": "   - 確認 webhook URL 正確"
+      },
+      {
+        "row": 28,
+        "rowsha": "7aXajn6q3+nLN30XV3Pxfa1wDXpcM/JxNttN2Ee934Y=",
+        "originContent": "   - Verify webhook URL is correct",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. **環境變數：**"
+      },
+      {
+        "row": 30,
+        "rowsha": "h9oyJRVAr6D2yvUimPnrsLayUTKdwHY+flmpDgW6e+g=",
+        "originContent": "2. **Environment Variables:**",
+        "translatedContent": "   - 確保所有必要變數已設置"
+      },
+      {
+        "row": 31,
+        "rowsha": "4wVbrxeoCLvefDw/autXXibOko7RMlVVKZL1plo/eMs=",
+        "originContent": "   - Ensure all required variables are set",
+        "translatedContent": "   - 檢查變數名稱是否有拼寫錯誤"
+      },
+      {
+        "row": 32,
+        "rowsha": "oCeFbPkiIqzFlvhgbo7szTwVw9ftZmPO7Bwk9zLs6/Q=",
+        "originContent": "   - Check for typos in variable names",
+        "translatedContent": "   - 確認 Supabase 服務角色金鑰有正確權限"
+      },
+      {
+        "row": 33,
+        "rowsha": "OlTteNUg05ppzAld50qzAKWX6uQ9yQZMe9DvDU+/3Yw=",
+        "originContent": "   - Verify Supabase service role key has proper permissions",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. **CORS 問題：**"
+      },
+      {
+        "row": 35,
+        "rowsha": "2IBT8/09L5Gjnc47SzDKJTuAgsH+g+uoW72VawWZu3Q=",
+        "originContent": "3. **CORS Issues:**",
+        "translatedContent": "   - API 路由包含正確的 CORS 標頭"
+      },
+      {
+        "row": 36,
+        "rowsha": "AQAggv5viKLBkB8VHPDDyiqdbcsl0JVM4awArjSOHNw=",
+        "originContent": "   - API routes include proper CORS headers",
+        "translatedContent": "   - 如有需要，確保你的網域已列入白名單"
+      },
+      {
+        "row": 37,
+        "rowsha": "jSd9pZOjn9fX9DLBslAU+WYM9KJB4Gs8UzsEKEdeVdM=",
+        "originContent": "   - Ensure your domain is whitelisted if needed",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 安全注意事項"
+      },
+      {
+        "row": 39,
+        "rowsha": "FrSvy/jSbCk2DEl/48Zo+EEDh7Lq8/yLrn8Zu/2X2Ys=",
+        "originContent": "## Security Notes",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 絕對不要將 `STRIPE_SECRET_KEY` 或 `SUPABASE_SERVICE_ROLE_KEY` 暴露給前端"
+      },
+      {
+        "row": 41,
+        "rowsha": "BoCvkJB3GUpry6y2GoAlExH5AbGAXXMJ0nFQ1L9ISsI=",
+        "originContent": "- Never expose `STRIPE_SECRET_KEY` or `SUPABASE_SERVICE_ROLE_KEY` to the client",
+        "translatedContent": "- 僅對客戶端變數使用 `NEXT_PUBLIC_` 前綴"
+      },
+      {
+        "row": 42,
+        "rowsha": "NQFFo1DydCLsb7NLwETD9+ueQZpfFoo9BPSQjvhwOks=",
+        "originContent": "- Use `NEXT_PUBLIC_` prefix only for client-side variables",
+        "translatedContent": "- 定期輪替你的 webhook 密鑰"
+      },
+      {
+        "row": 43,
+        "rowsha": "/nCXY3VIA0TrTIuY7tQRn9zLXJb1sbGQhPUx5WgvTaY=",
+        "originContent": "- Regularly rotate your webhook secrets",
+        "translatedContent": "- 在 Stripe 儀表板監控 webhook 傳送情況"
+      },
+      {
+        "row": 44,
+        "rowsha": "Z9c5jHtmbriOTC6vteZgK3oHGYUAHfVAPi81Ch5HPOc=",
+        "originContent": "- Monitor webhook delivery in Stripe dashboard",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

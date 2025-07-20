@@ -1,22 +1,53 @@
-<translate-content># 开源、轻量级的 Trello 替代品，专为创客和独立开发者设计。
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Uaghazade1&project=kanba&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
 
-专注于简洁、速度和可扩展性。
+# 开源、轻量级的 Trello 替代方案，专为创客与独立开发者设计。
+
+专注于简洁、快速和可扩展性。
 采用现代技术栈构建：Tailwind CSS、shadcn/ui、Supabase、Stripe 集成。
-支持无限项目、团队协作、暗/亮模式及无缝用户体验。
-非常适合希望完全掌控且避免不必要复杂性的独立开发者和小型团队。
+支持无限项目、团队协作、深色/浅色模式和流畅的用户体验。
+非常适合希望拥有完全控制权、避免不必要复杂性的个人开发者和小团队。
 
-## 🌟 如果你觉得这个项目有用，欢迎点个星！这也能帮助更多人发现它。
+## 🌟 如果你觉得这个项目有用，请为它点个 star！这也有助于让更多人发现它。
 
 # 部署指南
 
 ## 概述
-该应用现使用本地 Next.js API 路由替代 Supabase Edge Functions 来集成 Stripe。
-这简化了部署流程，并允许使用标准的 .env 文件进行配置。
+本应用现已使用本地 Next.js API 路由替代 Supabase Edge Functions 进行 Stripe 集成。这样部署更简单，并允许你使用标准 .env 文件进行配置。
 
 ## 环境变量设置
 
 ### 1. 创建 .env.local 文件
-复制 `.env.example` 为 `.env.local` 并填写你的实际值：
+将 `.env.example` 复制为 `.env.local` 并填写你的实际值：
+
+
 ```bash
 cp .env.example .env.local
 ```
@@ -114,6 +145,6 @@ npx vercel
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
 
 ---

@@ -1,0 +1,1003 @@
+[
+  {
+    "Id": 1,
+    "Content": "<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# Argon - MongoDB Time Machine 🚀\n\n[![Build Status](https://github.com/argon-lab/argon/actions/workflows/ci.yml/badge.svg)](https://github.com/argon-lab/argon/actions/workflows/ci.yml)\n[![Go Report](https://goreportcard.com/badge/github.com/argon-lab/argon)](https://goreportcard.com/report/github.com/argon-lab/argon)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\n[![Homebrew](https://img.shields.io/badge/Homebrew-argonctl-orange?logo=homebrew)](https://github.com/argon-lab/homebrew-tap)\n[![npm](https://img.shields.io/npm/v/argonctl?logo=npm&label=npm)](https://www.npmjs.com/package/argonctl)\n[![PyPI](https://img.shields.io/pypi/v/argon-mongodb?logo=pypi&label=PyPI)](https://pypi.org/project/argon-mongodb/)\n\n**Travel through time in your MongoDB database. Branch, restore, and experiment without fear.**\n\n## What is Argon?\n\nArgon gives MongoDB superpowers with **Git-like branching** and **time travel**. Create instant database branches, restore to any point in history, and never lose data again.\n\n### 🎯 Key Benefits\n\n- **⚡ Instant Branches** - Clone your entire database in 1ms (not hours)\n- **⏰ Time Travel** - Query your data from any point in history\n- **🔄 Safe Restore** - Preview changes before restoring\n- **💾 Zero Storage Cost** - Branches share data efficiently\n- **🔌 Drop-in Compatible** - Works with existing MongoDB code\n\n## Quick Demo\n",
+    "ContentSha": "bvOvEYvnOlaGllvANADUzCTpHHj2ZY5E9Cpf0nsjNd4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 Ngôn ngữ</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# Argon - Cỗ máy thời gian MongoDB 🚀\n\n[![Build Status](https://github.com/argon-lab/argon/actions/workflows/ci.yml/badge.svg)](https://github.com/argon-lab/argon/actions/workflows/ci.yml)\n[![Go Report](https://goreportcard.com/badge/github.com/argon-lab/argon)](https://goreportcard.com/report/github.com/argon-lab/argon)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\n[![Homebrew](https://img.shields.io/badge/Homebrew-argonctl-orange?logo=homebrew)](https://github.com/argon-lab/homebrew-tap)\n[![npm](https://img.shields.io/npm/v/argonctl?logo=npm&label=npm)](https://www.npmjs.com/package/argonctl)\n[![PyPI](https://img.shields.io/pypi/v/argon-mongodb?logo=pypi&label=PyPI)](https://pypi.org/project/argon-mongodb/)\n\n**Du hành xuyên thời gian trong cơ sở dữ liệu MongoDB của bạn. Tạo nhánh, khôi phục và thử nghiệm mà không lo sợ.**\n\n## Argon là gì?\n\nArgon mang đến cho MongoDB sức mạnh vượt trội với **nhánh giống Git** và **du hành thời gian**. Tạo các nhánh cơ sở dữ liệu tức thì, khôi phục về bất kỳ thời điểm nào trong lịch sử, và không bao giờ mất dữ liệu nữa.\n\n### 🎯 Lợi ích chính\n\n- **⚡ Nhánh tức thì** - Sao chép toàn bộ cơ sở dữ liệu chỉ trong 1ms (không phải hàng giờ)\n- **⏰ Du hành thời gian** - Truy vấn dữ liệu ở bất kỳ thời điểm nào trong lịch sử\n- **🔄 Khôi phục an toàn** - Xem trước thay đổi trước khi khôi phục\n- **💾 Không tốn dung lượng lưu trữ** - Các nhánh chia sẻ dữ liệu hiệu quả\n- **🔌 Tương thích sẵn sàng** - Hoạt động với mã MongoDB hiện có\n\n## Demo nhanh\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 Ngôn ngữ</summary>"
+      },
+      {
+        "row": 4,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 5,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "GsQklPL67BzCgbZC5eW/hnU/bx4FMJ71Enm0ZHW82A4=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=en\">English</a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "QmxYiX3atr84pcXuQJeS/4zpdEX2e08rr0l3qgWTYv8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "2FtDif6mgRlsryD0bzHLfNDOuQxUcdi4jQVfb5AFI3c=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "t31CFNeMRTKSzvfbYrTJqw/rZvCg3KVyXaOAlNP/K7w=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "Eqhds69xptF28AlKaTH5GnoDMuEUjcidIKlDPE5S+gQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "RecLauOVHrr0z4otawBTJi+zU/7JeeA+HQHqlObkfN4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "YSzolYpWhQ0rQdXE662FO/45yaHfttbq9or8dtCiHpM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "Sc5yyFtBGwRqf+49U4GGhzTWHkzDzXd6sFQVfrHzf0Q=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=fr\">Français</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "kA27d7oG+z0h920mGDrETFDS3a2Lo2DqP3MQn4GlBUk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "acScMWtHrqpMJgXuMITqGtCCgCQslOLmIucg8n4bB08=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=es\">Español</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "XjA2ISVSp7nfFQBm6P0fmLLZXHr0o/56UT191TlIjoQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "fZd5gvLtqrpdGFKwiCuH1KCi5qQFJo+WsHRytivvSww=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "XG0XjbtbYl+1rs+P92rqNhpus7wnQxiTVtvTF6aW64w=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=pt\">Português</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "ZQaG/I+mB4y0GYEYCIOFQVGyMtBgxunGIpIIoVV3Evk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "GssN5W3vO8IGxmo1i2L0bnGAeeFgYCqBq087bNco1AY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "Ha8KH3fIFU0SN6VN3jO1xSPpYPREV8wf1VUvAGtF7CA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "olp+wsplh9DLlEBpPIsWhfZeb4BioCz5bJcPV+wIL6w=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "zrIKLXy6OuSNU7oRIpl6cpxgt1T5jJ74WZk2KyB2wqE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "3Z/UBVNXN//iQekhCGVGLJDW+Q0Zwpel7nA4cV7vodg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "aQdhet+TjAsqdC2c2QOyi0Aw9RrsTxLFNUnohhMuKHw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 27,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 28,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 29,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "z/x8UkeKTn4FR4qfyZjJWKvQ3SedH/XrdAnFHL5Zh1c=",
+        "originContent": "# Argon - MongoDB Time Machine 🚀",
+        "translatedContent": "# Argon - Cỗ máy thời gian MongoDB 🚀"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "1leEnkdqfQSaxeUUhVFYmbH8fCEkkCsjIsX7VWaMw4g=",
+        "originContent": "[![Build Status](https://github.com/argon-lab/argon/actions/workflows/ci.yml/badge.svg)](https://github.com/argon-lab/argon/actions/workflows/ci.yml)",
+        "translatedContent": "[![Build Status](https://github.com/argon-lab/argon/actions/workflows/ci.yml/badge.svg)](https://github.com/argon-lab/argon/actions/workflows/ci.yml)"
+      },
+      {
+        "row": 34,
+        "rowsha": "Df/Q5U/ZWysvH6/6I031CYYE9opXOBCJ5afDupTcNDA=",
+        "originContent": "[![Go Report](https://goreportcard.com/badge/github.com/argon-lab/argon)](https://goreportcard.com/report/github.com/argon-lab/argon)",
+        "translatedContent": "[![Go Report](https://goreportcard.com/badge/github.com/argon-lab/argon)](https://goreportcard.com/report/github.com/argon-lab/argon)"
+      },
+      {
+        "row": 35,
+        "rowsha": "5l9EBMX+xpg3IKegexFP4++mEhzb3dzUumoGkJ5nThc=",
+        "originContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+        "translatedContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "6FtlAwkRR2vS0B6j8fWdNJ1vwp8B0xRQP0fXiHiuwUg=",
+        "originContent": "[![Homebrew](https://img.shields.io/badge/Homebrew-argonctl-orange?logo=homebrew)](https://github.com/argon-lab/homebrew-tap)",
+        "translatedContent": "[![Homebrew](https://img.shields.io/badge/Homebrew-argonctl-orange?logo=homebrew)](https://github.com/argon-lab/homebrew-tap)"
+      },
+      {
+        "row": 38,
+        "rowsha": "BsD55tOh9f26kA612c5sCl+dO+6vlZ+TvbbsGTSt9IQ=",
+        "originContent": "[![npm](https://img.shields.io/npm/v/argonctl?logo=npm&label=npm)](https://www.npmjs.com/package/argonctl)",
+        "translatedContent": "[![npm](https://img.shields.io/npm/v/argonctl?logo=npm&label=npm)](https://www.npmjs.com/package/argonctl)"
+      },
+      {
+        "row": 39,
+        "rowsha": "/CUiGHaG4IOZd58SO5O6SOAnhoKl4rcnq5mkqTJrgYQ=",
+        "originContent": "[![PyPI](https://img.shields.io/pypi/v/argon-mongodb?logo=pypi&label=PyPI)](https://pypi.org/project/argon-mongodb/)",
+        "translatedContent": "[![PyPI](https://img.shields.io/pypi/v/argon-mongodb?logo=pypi&label=PyPI)](https://pypi.org/project/argon-mongodb/)"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "5eJt4ooUG86S0oFM7bQtJMjD9YTbAe1KnRv3uUOT75s=",
+        "originContent": "**Travel through time in your MongoDB database. Branch, restore, and experiment without fear.**",
+        "translatedContent": "**Du hành xuyên thời gian trong cơ sở dữ liệu MongoDB của bạn. Tạo nhánh, khôi phục và thử nghiệm mà không lo sợ.**"
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "VIiNAjtJJolwPPNVqgfMvYyXJ7CiAIjgBe5z4YVaAJI=",
+        "originContent": "## What is Argon?",
+        "translatedContent": "## Argon là gì?"
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "1wimnzVihJJBUlwSjAhkypMnY/qK3sTae/GHOWvZ6aY=",
+        "originContent": "Argon gives MongoDB superpowers with **Git-like branching** and **time travel**. Create instant database branches, restore to any point in history, and never lose data again.",
+        "translatedContent": "Argon mang đến cho MongoDB sức mạnh vượt trội với **nhánh giống Git** và **du hành thời gian**. Tạo các nhánh cơ sở dữ liệu tức thì, khôi phục về bất kỳ thời điểm nào trong lịch sử, và không bao giờ mất dữ liệu nữa."
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "+k2ewva16d3XfQ7bHgyPHxPpsLiOWQ0YNQcydvAODao=",
+        "originContent": "### 🎯 Key Benefits",
+        "translatedContent": "### 🎯 Lợi ích chính"
+      },
+      {
+        "row": 48,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "D/ZuDj7YGJRhGfnKkl7yw01Un2CZ0heICERZqGqOtPE=",
+        "originContent": "- **⚡ Instant Branches** - Clone your entire database in 1ms (not hours)",
+        "translatedContent": "- **⚡ Nhánh tức thì** - Sao chép toàn bộ cơ sở dữ liệu chỉ trong 1ms (không phải hàng giờ)"
+      },
+      {
+        "row": 50,
+        "rowsha": "Wwq2qd4R9kcycnK5O3KWnw3jwJ1N2xOe0VeZWU7splI=",
+        "originContent": "- **⏰ Time Travel** - Query your data from any point in history",
+        "translatedContent": "- **⏰ Du hành thời gian** - Truy vấn dữ liệu ở bất kỳ thời điểm nào trong lịch sử"
+      },
+      {
+        "row": 51,
+        "rowsha": "SWAD4HL4ZlyBZb27FX+NlO4TWQ+B6Q4t3EF/Xt7kWdA=",
+        "originContent": "- **🔄 Safe Restore** - Preview changes before restoring",
+        "translatedContent": "- **🔄 Khôi phục an toàn** - Xem trước thay đổi trước khi khôi phục"
+      },
+      {
+        "row": 52,
+        "rowsha": "i8yf82NYOmQm7qxSOQlKDqf/dDKPzZ46K3IqY4ffEFo=",
+        "originContent": "- **💾 Zero Storage Cost** - Branches share data efficiently",
+        "translatedContent": "- **💾 Không tốn dung lượng lưu trữ** - Các nhánh chia sẻ dữ liệu hiệu quả"
+      },
+      {
+        "row": 53,
+        "rowsha": "eG64TULNzUfuMvmLbTrFNjpFYN8MdC2iZ5mOB3w4pdI=",
+        "originContent": "- **🔌 Drop-in Compatible** - Works with existing MongoDB code",
+        "translatedContent": "- **🔌 Tương thích sẵn sàng** - Hoạt động với mã MongoDB hiện có"
+      },
+      {
+        "row": 54,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 55,
+        "rowsha": "wXgAO09MfozLIs2iWDgcPCXuol2FRLyWszSLnhqpV0E=",
+        "originContent": "## Quick Demo",
+        "translatedContent": "## Demo nhanh"
+      },
+      {
+        "row": 56,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\n# Install\nbrew install argon-lab/tap/argonctl    # macOS\nnpm install -g argonctl                 # Cross-platform\n\n# Create a time-travel enabled database\nexport ENABLE_WAL=true\nargon projects create myapp\n\n# Your app crashed after bad migration? No problem!\nargon restore preview --time \"1 hour ago\"\nargon restore reset --time \"before disaster\"\n\n# Need a test environment? Branch instantly!\nargon branches create test-env\n# Full database copy created in 1ms 🚀\n```",
+    "ContentSha": "dxP7xgyyh5AJ+FbL7idJT1VUCx0BFYMXkGHnEyxUklw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Install\nbrew install argon-lab/tap/argonctl    # macOS\nnpm install -g argonctl                 # Cross-platform\n\n# Create a time-travel enabled database\nexport ENABLE_WAL=true\nargon projects create myapp\n\n# Your app crashed after bad migration? No problem!\nargon restore preview --time \"1 hour ago\"\nargon restore reset --time \"before disaster\"\n\n# Need a test environment? Branch instantly!\nargon branches create test-env\n# Full database copy created in 1ms 🚀\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "LIfcujHTHgMPXtLqP+h3+M/6OPAmhQh2NVkBUIIiPFQ=",
+        "originContent": "# Install",
+        "translatedContent": "# Install"
+      },
+      {
+        "row": 3,
+        "rowsha": "NEsyxTiaopkmrDWeSeLYwEiFtNgUF7vmWfPfGvblrwk=",
+        "originContent": "brew install argon-lab/tap/argonctl    # macOS",
+        "translatedContent": "brew install argon-lab/tap/argonctl    # macOS"
+      },
+      {
+        "row": 4,
+        "rowsha": "s/tHCGdfg8UPzQWit/7k0FDu0TCotbZMA5dRF1fp2oU=",
+        "originContent": "npm install -g argonctl                 # Cross-platform",
+        "translatedContent": "npm install -g argonctl                 # Cross-platform"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "+l4lmoCyr1H7BMM1fvfpqp7R69zHmA93rHkSsXd4gSg=",
+        "originContent": "# Create a time-travel enabled database",
+        "translatedContent": "# Create a time-travel enabled database"
+      },
+      {
+        "row": 7,
+        "rowsha": "IvZpiQ6MH0WYvB6uRwkPnaQm/8Q9TJ4YJXl427kH8mo=",
+        "originContent": "export ENABLE_WAL=true",
+        "translatedContent": "export ENABLE_WAL=true"
+      },
+      {
+        "row": 8,
+        "rowsha": "I0Twh+hInM4egR7Xsf/sSIfFIuXOYJVwc47zxCWA/Bs=",
+        "originContent": "argon projects create myapp",
+        "translatedContent": "argon projects create myapp"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "RVxIEZukU8GOtZWeGvLabQCWWx9jL7RcZkTM4lpavQo=",
+        "originContent": "# Your app crashed after bad migration? No problem!",
+        "translatedContent": "# Your app crashed after bad migration? No problem!"
+      },
+      {
+        "row": 11,
+        "rowsha": "FkVXyqo5Ek1ynwQwCSrCXU/FJi/MKMzRdeeSCfQAeqc=",
+        "originContent": "argon restore preview --time \"1 hour ago\"",
+        "translatedContent": "argon restore preview --time \"1 hour ago\""
+      },
+      {
+        "row": 12,
+        "rowsha": "DFfjqe810lo1CyMNT3NQRajRzu5bHCPy5VzNZHXXCh0=",
+        "originContent": "argon restore reset --time \"before disaster\"",
+        "translatedContent": "argon restore reset --time \"before disaster\""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "BnIyU6mEKSdcwrjZ5PHIGde0OJNFSOmLNwD+U/ooy+M=",
+        "originContent": "# Need a test environment? Branch instantly!",
+        "translatedContent": "# Need a test environment? Branch instantly!"
+      },
+      {
+        "row": 15,
+        "rowsha": "uJ0uWAyCJCxxSgBFjK/nCQE9pH0FnjCGjyYCIfyL+kw=",
+        "originContent": "argon branches create test-env",
+        "translatedContent": "argon branches create test-env"
+      },
+      {
+        "row": 16,
+        "rowsha": "VzOgtUSN4rH1Bao8H0GSaDHQQAuo7JCThczSCr6eR+o=",
+        "originContent": "# Full database copy created in 1ms 🚀",
+        "translatedContent": "# Full database copy created in 1ms 🚀"
+      },
+      {
+        "row": 17,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Real-World Use Cases\n\n### 🚨 **Disaster Recovery**",
+    "ContentSha": "k3JT9qdMSUO/WN2Wai7HCrUKWop0yHb8vK6+82tZJOA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Trường Hợp Sử Dụng Thực Tế\n\n### 🚨 **Khôi Phục Thảm Họa**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Trường Hợp Sử Dụng Thực Tế"
+      },
+      {
+        "row": 2,
+        "rowsha": "JtVwOglmV3tzCl9FxLuVelyFgWg407AVcVmJWxlbT7k=",
+        "originContent": "## Real-World Use Cases",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 🚨 **Khôi Phục Thảm Họa**"
+      },
+      {
+        "row": 4,
+        "rowsha": "mW+XuvL3ur5tBJbRqNWyrs1zU+xZGUYYzrLTkA2aj9I=",
+        "originContent": "### 🚨 **Disaster Recovery**",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\n# \"Someone deleted all users!\"\nargon restore reset --time \"5 minutes ago\"\n# Crisis averted in seconds, not hours\n```",
+    "ContentSha": "W4/4JoVUfIrSaJ14OwOw8uZrfvtT3FLwZ37CUGZwSvk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# \"Someone deleted all users!\"\nargon restore reset --time \"5 minutes ago\"\n# Crisis averted in seconds, not hours\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "2OLLHJNkiqyaPq3wq6MXbiKOXGYU7KbxvoYb3FbbkgQ=",
+        "originContent": "# \"Someone deleted all users!\"",
+        "translatedContent": "# \"Someone deleted all users!\""
+      },
+      {
+        "row": 3,
+        "rowsha": "9e2CmyBC3/6AbWF0ZMm3oobbtOxPccWJdm16Aow8F/4=",
+        "originContent": "argon restore reset --time \"5 minutes ago\"",
+        "translatedContent": "argon restore reset --time \"5 minutes ago\""
+      },
+      {
+        "row": 4,
+        "rowsha": "EClrQ/fSkVr8Sae6FazqpTSRB5LyESc9VnafDMFYI2E=",
+        "originContent": "# Crisis averted in seconds, not hours",
+        "translatedContent": "# Crisis averted in seconds, not hours"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### 🧪 **Safe Testing**",
+    "ContentSha": "ZAk8KNMwhYZOmZEMYYf23T1o//q8s0W+lL9eWfpP3rk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 🧪 **Kiểm Tra An Toàn**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 🧪 **Kiểm Tra An Toàn**"
+      },
+      {
+        "row": 2,
+        "rowsha": "mfR+KYY2ofP23gejb0KSrb7dAfM+i9moagNLJHuya8Y=",
+        "originContent": "### 🧪 **Safe Testing**",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\n# Test with real production data\nargon branches create staging --from production\n# Run risky migrations fearlessly\n```",
+    "ContentSha": "UkcU1cACEZbqqTK0+nFrg9nSognJKZiodMWgI6svc5U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Test with real production data\nargon branches create staging --from production\n# Run risky migrations fearlessly\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "KEIJzrIE7CvWmZ32Fj11pFfezxZ39GMB7xiYcqJ+EqI=",
+        "originContent": "# Test with real production data",
+        "translatedContent": "# Test with real production data"
+      },
+      {
+        "row": 3,
+        "rowsha": "QrCaSq7ylhqvTUoFgderklJlYN50WfDjmUkq1bKpb0c=",
+        "originContent": "argon branches create staging --from production",
+        "translatedContent": "argon branches create staging --from production"
+      },
+      {
+        "row": 4,
+        "rowsha": "Q9mwpW0RqMeQSlUwE0BFsE+k8DxbMQeRTgueNRfZ+1I=",
+        "originContent": "# Run risky migrations fearlessly",
+        "translatedContent": "# Run risky migrations fearlessly"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### 📊 **Data Analysis**",
+    "ContentSha": "PB6ZR/IKQneVzCr+UJwy0BQIHPCPgAEswWxXSrFehaM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 📊 **Phân tích Dữ liệu**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 📊 **Phân tích Dữ liệu**"
+      },
+      {
+        "row": 2,
+        "rowsha": "X1QzjIcbcL+0wjS4BfYLiRH92msRfFFYpsdK2+PzLxw=",
+        "originContent": "### 📊 **Data Analysis**",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\n# Compare data across time\nargon time-travel diff --from \"last week\" --to \"today\"\n# See exactly what changed\n```",
+    "ContentSha": "9bc9gFQfdP6/3FbmIQbaKqsGOW33XPsEcopxp8lEjjw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Compare data across time\nargon time-travel diff --from \"last week\" --to \"today\"\n# See exactly what changed\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "brwWbDGpZN5++YvabcxahbNoAaSmEK/cX7CBHXQMXA4=",
+        "originContent": "# Compare data across time",
+        "translatedContent": "# Compare data across time"
+      },
+      {
+        "row": 3,
+        "rowsha": "bdSZ6z0R5pWMuIU8l/dfZ/PuSJw+NQC6aq86F4xpXz4=",
+        "originContent": "argon time-travel diff --from \"last week\" --to \"today\"",
+        "translatedContent": "argon time-travel diff --from \"last week\" --to \"today\""
+      },
+      {
+        "row": 4,
+        "rowsha": "spxjfdrd/QCYVtujq1bekqqITDQW6fRJ5LMrDf2wm2M=",
+        "originContent": "# See exactly what changed",
+        "translatedContent": "# See exactly what changed"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## How It Works\n\nArgon intercepts MongoDB operations and logs them to a **Write-Ahead Log (WAL)**, enabling:\n- Instant branching via metadata pointers\n- Time travel by replaying operations\n- Zero-copy efficiency\n\nYour existing MongoDB code works unchanged - just add `ENABLE_WAL=true`.\n\n## Installation\n",
+    "ContentSha": "4KOdqfIicPtc2Ys2NgCYBByf2OqHDqRQQAhC+A1frpg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Cách Hoạt Động\n\nArgon chặn các thao tác trên MongoDB và ghi chúng vào **Write-Ahead Log (WAL)**, cho phép:\n- Tạo nhánh tức thì thông qua con trỏ siêu dữ liệu\n- Du hành thời gian bằng cách phát lại các thao tác\n- Hiệu suất tối ưu không cần sao chép\n\nMã MongoDB hiện tại của bạn không cần thay đổi - chỉ cần thêm `ENABLE_WAL=true`.\n\n## Cài Đặt\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Cách Hoạt Động"
+      },
+      {
+        "row": 2,
+        "rowsha": "8Cn7DTPwgC5TRYcpx6IHELZx2Ghn/Zy5V2CaSviu4ik=",
+        "originContent": "## How It Works",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Argon chặn các thao tác trên MongoDB và ghi chúng vào **Write-Ahead Log (WAL)**, cho phép:"
+      },
+      {
+        "row": 4,
+        "rowsha": "U9NubOj04nO0jZugWCt4LONkm4slwknB2hlgTEAqzhQ=",
+        "originContent": "Argon intercepts MongoDB operations and logs them to a **Write-Ahead Log (WAL)**, enabling:",
+        "translatedContent": "- Tạo nhánh tức thì thông qua con trỏ siêu dữ liệu"
+      },
+      {
+        "row": 5,
+        "rowsha": "9uSolduXQVzQhA5zLDg3Ib+KjPbqdw+LPihGkxNo5Qo=",
+        "originContent": "- Instant branching via metadata pointers",
+        "translatedContent": "- Du hành thời gian bằng cách phát lại các thao tác"
+      },
+      {
+        "row": 6,
+        "rowsha": "HKW8rkIpr/d27J6Iuevxu/3na2BZ0OjdpJeKIawMXF0=",
+        "originContent": "- Time travel by replaying operations",
+        "translatedContent": "- Hiệu suất tối ưu không cần sao chép"
+      },
+      {
+        "row": 7,
+        "rowsha": "HwUrFDAwO1Ik2Ilq3mBeS5iXPRiMYASZrKbgGGbVG+8=",
+        "originContent": "- Zero-copy efficiency",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Mã MongoDB hiện tại của bạn không cần thay đổi - chỉ cần thêm `ENABLE_WAL=true`."
+      },
+      {
+        "row": 9,
+        "rowsha": "Hd3UvbSe/zNYR/fiABTFtRHiRE3S53fJPo0RajfJdTE=",
+        "originContent": "Your existing MongoDB code works unchanged - just add `ENABLE_WAL=true`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Cài Đặt"
+      },
+      {
+        "row": 11,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\n# CLI\nbrew install argon-lab/tap/argonctl    # macOS\nnpm install -g argonctl                 # Node.js\npip install argon-mongodb               # Python SDK\n\n# From Source\ngit clone https://github.com/argon-lab/argon\ncd argon/cli && go build -o argon\n```",
+    "ContentSha": "HgeYm+hOHWKYMDnB5XNsEUokztB/RyTeY2nWTwkD0jM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# CLI\nbrew install argon-lab/tap/argonctl    # macOS\nnpm install -g argonctl                 # Node.js\npip install argon-mongodb               # Python SDK\n\n# From Source\ngit clone https://github.com/argon-lab/argon\ncd argon/cli && go build -o argon\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "bqBB22yklDBNCf2aiED+QTDfnQ8dwqLn1AWpB4tBKdM=",
+        "originContent": "# CLI",
+        "translatedContent": "# CLI"
+      },
+      {
+        "row": 3,
+        "rowsha": "NEsyxTiaopkmrDWeSeLYwEiFtNgUF7vmWfPfGvblrwk=",
+        "originContent": "brew install argon-lab/tap/argonctl    # macOS",
+        "translatedContent": "brew install argon-lab/tap/argonctl    # macOS"
+      },
+      {
+        "row": 4,
+        "rowsha": "OI1aMC1EjDlpKw885ke7O4n2mH4W7IP2NPSEgl4OCuo=",
+        "originContent": "npm install -g argonctl                 # Node.js",
+        "translatedContent": "npm install -g argonctl                 # Node.js"
+      },
+      {
+        "row": 5,
+        "rowsha": "5yTiREzqsWQp4V21AlEM1M3hXiwQj6Bo7I2vwDu06K4=",
+        "originContent": "pip install argon-mongodb               # Python SDK",
+        "translatedContent": "pip install argon-mongodb               # Python SDK"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "uHZt/RikcuPF1G0hHQX4Wa9fLNBdKN02ll7Pr6Wenug=",
+        "originContent": "# From Source",
+        "translatedContent": "# From Source"
+      },
+      {
+        "row": 8,
+        "rowsha": "NPkAT1PRTcnrEuKCngJs8TBaNzNuEMgPEQF9GHGonEM=",
+        "originContent": "git clone https://github.com/argon-lab/argon",
+        "translatedContent": "git clone https://github.com/argon-lab/argon"
+      },
+      {
+        "row": 9,
+        "rowsha": "nRcUJrbl+bEHE5JkYOkhzA824avYrS2Rfw00ftzt5pw=",
+        "originContent": "cd argon/cli && go build -o argon",
+        "translatedContent": "cd argon/cli && go build -o argon"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## Documentation\n\n- 📖 [Quick Start Guide](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/QUICK_START.md)\n- 🛠️ [API Reference](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/API_REFERENCE.md)\n- 💡 [Use Cases](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/USE_CASES.md)\n- 🏗️ [Architecture](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/ARCHITECTURE.md)\n\n## Community\n\n- 🐛 [Report Issues](https://github.com/argon-lab/argon/issues)\n- 💬 [Discussions](https://github.com/argon-lab/argon/discussions)\n- 📧 [Contact](https://www.argonlabs.tech)\n\n---\n\n<div align=\"center\">\n\n**Give your MongoDB a time machine. Never lose data again.**\n\n⭐ **Star us** if Argon saves your day!\n\n[Get Started →](https://raw.githubusercontent.com/argon-lab/argon/master/docs/QUICK_START.md) | [Live Demo →](https://console.argonlabs.tech)\n\n</div>",
+    "ContentSha": "e6elu6IewB2rojV0Xu+HOIDxAm1omZjQ35CzqWGQW98=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Tài liệu\n\n- 📖 [Hướng Dẫn Bắt Đầu Nhanh](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/QUICK_START.md)\n- 🛠️ [Tham Khảo API](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/API_REFERENCE.md)\n- 💡 [Trường Hợp Sử Dụng](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/USE_CASES.md)\n- 🏗️ [Kiến Trúc](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/ARCHITECTURE.md)\n\n## Cộng đồng\n\n- 🐛 [Báo Cáo Vấn Đề](https://github.com/argon-lab/argon/issues)\n- 💬 [Thảo Luận](https://github.com/argon-lab/argon/discussions)\n- 📧 [Liên Hệ](https://www.argonlabs.tech)\n\n---\n\n<div align=\"center\">\n\n**Hãy biến MongoDB của bạn thành cỗ máy thời gian. Không bao giờ mất dữ liệu nữa.**\n\n⭐ **Hãy gắn sao cho chúng tôi** nếu Argon đã giúp bạn!\n\n[Bắt Đầu →](https://raw.githubusercontent.com/argon-lab/argon/master/docs/QUICK_START.md) | [Dùng Thử Trực Tiếp →](https://console.argonlabs.tech)\n\n</div>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Tài liệu"
+      },
+      {
+        "row": 2,
+        "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+        "originContent": "## Documentation",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 📖 [Hướng Dẫn Bắt Đầu Nhanh](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/QUICK_START.md)"
+      },
+      {
+        "row": 4,
+        "rowsha": "Dih4B3VGwR8j/cvUhnMTcbo1gDHjTDOFHMdkizfDRoI=",
+        "originContent": "- 📖 [Quick Start Guide](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/QUICK_START.md)",
+        "translatedContent": "- 🛠️ [Tham Khảo API](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/API_REFERENCE.md)"
+      },
+      {
+        "row": 5,
+        "rowsha": "v/3lSQ6YGtg5jnxEDTgey6uGzS/1MytZ9OG/XkY6PxU=",
+        "originContent": "- 🛠️ [API Reference](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/API_REFERENCE.md)",
+        "translatedContent": "- 💡 [Trường Hợp Sử Dụng](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/USE_CASES.md)"
+      },
+      {
+        "row": 6,
+        "rowsha": "ju/2CVX+Vhn56rANwoWEOKzGDismMQTLF1crbIEwrEs=",
+        "originContent": "- 💡 [Use Cases](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/USE_CASES.md)",
+        "translatedContent": "- 🏗️ [Kiến Trúc](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/ARCHITECTURE.md)"
+      },
+      {
+        "row": 7,
+        "rowsha": "OPe4LZNjAKYfor6AQIR7gPNwbV7ZVwik/ljrfbtp/7c=",
+        "originContent": "- 🏗️ [Architecture](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/ARCHITECTURE.md)",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Cộng đồng"
+      },
+      {
+        "row": 9,
+        "rowsha": "vpVfa1NlR4kP0/NRL7eiXU6zj5WLWqa6scBMZmD4ye0=",
+        "originContent": "## Community",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 🐛 [Báo Cáo Vấn Đề](https://github.com/argon-lab/argon/issues)"
+      },
+      {
+        "row": 11,
+        "rowsha": "H67cxj7b+WCv0iSZ+V4DkExoH2RFAaKquss5qp8xBiU=",
+        "originContent": "- 🐛 [Report Issues](https://github.com/argon-lab/argon/issues)",
+        "translatedContent": "- 💬 [Thảo Luận](https://github.com/argon-lab/argon/discussions)"
+      },
+      {
+        "row": 12,
+        "rowsha": "9kE+QSgSAVvEa7+xWhRG4rZXAM6sf+dtS41yXdLz3nE=",
+        "originContent": "- 💬 [Discussions](https://github.com/argon-lab/argon/discussions)",
+        "translatedContent": "- 📧 [Liên Hệ](https://www.argonlabs.tech)"
+      },
+      {
+        "row": 13,
+        "rowsha": "+M1ZgDsul5eri9pA5k6b71ZarIRvV+XmKrGu8aD9f/s=",
+        "originContent": "- 📧 [Contact](https://www.argonlabs.tech)",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 15,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 17,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**Hãy biến MongoDB của bạn thành cỗ máy thời gian. Không bao giờ mất dữ liệu nữa.**"
+      },
+      {
+        "row": 19,
+        "rowsha": "Q43/Yo8GzlrHcWzxElhNGq6Ts/JWqb696pTCAd2wRPA=",
+        "originContent": "**Give your MongoDB a time machine. Never lose data again.**",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "⭐ **Hãy gắn sao cho chúng tôi** nếu Argon đã giúp bạn!"
+      },
+      {
+        "row": 21,
+        "rowsha": "5JwueYzG4xuOsuT1yqEdWP6xJ03WhggykS/qnwZISws=",
+        "originContent": "⭐ **Star us** if Argon saves your day!",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[Bắt Đầu →](https://raw.githubusercontent.com/argon-lab/argon/master/docs/QUICK_START.md) | [Dùng Thử Trực Tiếp →](https://console.argonlabs.tech)"
+      },
+      {
+        "row": 23,
+        "rowsha": "sqgJNPVSQ/YQ86H2AsGBXxqty7nrPRCBIwWt/tjSIYo=",
+        "originContent": "[Get Started →](https://raw.githubusercontent.com/argon-lab/argon/master/docs/QUICK_START.md) | [Live Demo →](https://console.argonlabs.tech)",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 25,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
