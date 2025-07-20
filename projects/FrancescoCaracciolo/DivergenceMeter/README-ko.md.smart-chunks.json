@@ -1,0 +1,766 @@
+[
+  {
+    "Id": 1,
+    "Content": "# DivergenceMeter\nAnalyzing real-world news, tries to estimate the current divergence value of the world in Steins;Gate terms.\n<div id=\"divergence-meter\" style=\"cursor: pointer;\">\n  <img alt=\"Digit 0\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/11.gif\" width=\"10%\">\n  <img alt=\"Digit 1\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/12.gif\" width=\"10%\">\n  <img alt=\"Digit 2\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/11.gif\" width=\"10%\">\n  <img alt=\"Digit 3\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/12.gif\" width=\"10%\">\n  <img alt=\"Digit 4\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/11.gif\" width=\"10%\">\n  <img alt=\"Digit 5\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/12.gif\" width=\"10%\">\n  <img alt=\"Digit 6\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/11.gif\" width=\"10%\">\n  <img alt=\"Digit 7\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/12.gif\" width=\"10%\">\n</div>\n\n- [Website](https://divergence.nyarchlinux.moe)\n- [API Documentation](https://divergence.nyarchlinux.moe/docs.html)\n- [Features](#features)\n- [Screenshots](#screenshots)\n- [Worldline Calculation](#worldline-calculation)\n- [Python Example](https://github.com/FrancescoCaracciolo/DivergenceMeter/blob/main/src/client/client.py)\n- [Credits](#credits)\n\n## Features\n\n- <img alt=\"Digit 0\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/11.gif\" width=\"5px\" /> <img alt=\"Digit 0\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/12.gif\" width=\"5px\" /> The website can be visited at <a href=\"https://divergence.nyarchlinux.moe\">https://divergence.nyarchlinux.moe</a>. \n- 🔄 **Auto Updated**: the counter updates itself every 15 minutes\n- 🗞 **News Table**: see how our world news affect the timeline\n- 📊 **Plot**: displaying the estimations of the worldline over time\n- 🔉 **Sound**: Sound from the VN is played when the estimation of the worldline is changed\n- 🪶 **Lite mode**: <a href=\"https://divergence.nyarchlinux.moe/lite.html\">a lite mode is available</a>, not displaying the plot that takes resources\n- 🛠 **Free & Public API**: Integrate our mesurements in your projects. Create custom widgets, real world divergence meter, apps and much more with it!  \nThe divergence counter refreshes automatically every 15 minutes. <a href=\"https://divergence.nyarchlinux.moe/docs.html\">API Docs</a>\n- ⏳ **Analysis interval**: every 15 minutes, the current world news are analyzed in order to estimate the current worldline divergence\n\n## Screenshots\n**Divergence Meter**\n![image](https://github.com/user-attachments/assets/4dfacc07-6d5e-4e66-9450-ada057e17725)\n\n**Worldline Status Report**\n![image](https://github.com/user-attachments/assets/2ee7c178-d182-4075-a9be-5e298bf83dbb)\n\n**Divergence Plot**\n![image](https://github.com/user-attachments/assets/abe100b6-4d88-46de-838a-f2a8227be1aa)\n\n## Worldline calculation\nIn Steins;Gate, the divergence is calculated using the difference in gravity value between worldlines.\nSince I don't have the Reading Steiner (at least to my knowledge), and I have not travelled to any worldline yet, the worldline is **estimated** using \nworld news. The news are taken from multiple RSS feeds featuring world news, science news and local news.\n\n**Spoiler Alert**: The equations you are going to see are based on an interpretation on some equations given in Chaos;Head. The equations per-se are not a spoiler, but searching them might result in spoilers to the Chaos;Head Visual Novel. Also, some of these concepts might be lite spoilers to Steins;Gate VNs.\n\n**Note**: some of the theories here are made up in a way that they are coherent with the SciAdv series.\n\n#### Base Theory\n**Assumption**: every event $e$ has an independent divergence $d$. It is the worldline in which event $e$ has the strongest attractor. Minor events do not have a proper attractor field, but they influence other worldlines.\nFor example, in Steins;Gate, the Sern dystopia has an independent divergence of 0. The nearest a worldline is to 0, the quicker it gets to that result.\n\n#### News Analysis\nEach news documents that an event $e$ happened. (The fact that a news has been published, can be considered by itself an event $e$).\nEach news is categorized in an attractor field (for example $\\alpha$, $\\beta$,...) based on what is the most likely attractor field it beongs to. Also, to each news is given an impact $Im$, that states how impactful is a news for its attractor field, and a Field attraction $Fa$, that states how near it is to the center of the attraction field.\n\n#### Independent Divergence Calculation\n1. In order to calculate the independent divergence of an event $e$, we start from the $Ir2$ equation:\n\n$$Ir2 = fun^{10}*int^{40}$$\n\nThat, form Chaos;Head, is the bases equation that causes the world to diverge.\nIn the VN, the meaning of this equation is not explained (except for the fact that Ir2 means \"eyes are two\"). Considering that it is related to the Dirac Sea, a possible explaination is the following:\n- $Ir$ is the Information Rate of the Vacuum region. Higher information rate implies a more complex and dynamic vacuum structure.\n- $fun$ is the Field Uniformity Number. A less uniform field could mean more gradients, potentials, and thus, more energy available for particle creation and interactions. \n- $int$ is the Interconnectedness of Dirac Sea states. This represents the degree to which the negative energy states within the Dirac Sea are linked or correlated. \n\nWe can assume that the divergence $d$ is the result of a change in the vacuum's Information state, since also gravity is affected.\nTherefore, we might assume that $d \\propto Ir$. There exists some constant $k_1$ such that:\n\n$$d = k_1 * Ir2$$\n\n2. We substitute the given expression for $Ir2$ into our definition of $d$:\n\n  $$d = k_1 \\cdot (fun^{10} * int^{40})$$\n\n3. Now, we assume the following relations:\n    *   **Impact (`Im`) and Uniformity (`fun`):** A highly impactful news event ($Im$) would disrupt the local vacuum field, decreasing its uniformity ($fun$). We can model this as an inverse relationship:\n\n        $$fun = \\frac{C_f}{Im}$$\n\n        Where $C_f$ is a constant.\n    *   **Field Attraction ($Fa$) and Interconnectedness ($int$):** A strong attraction ($Fa$) towards the attractor center implies the event $e$ is creating efficient pathways within the Dirac Sea states along that direction, increasing local interconnectedness ($int$). We model this as a direct relationship:\n\n        $$int = C_i \\cdot Fa$$\n\n        Where $C_i$ is a constant\n\n4. We substitute the formulas above in the expression\n    Substitute the expressions for $fun$ and $int$ (from step 3) into the formula for $d$ (from step 2):\n   \n    $$d = k_1 \\cdot \\left( \\left( \\frac{C_f}{Im} \\right)^{10} \\cdot (C_i \\cdot Fa)^{40} \\right)$$\n\n5. In the end, we simplify the expression combining the constants:\n\n    $$d = k_1 \\cdot \\left( \\frac{C_f^{10}}{Im^{10}} \\cdot C_i^{40} \\cdot Fa^{40} \\right)$$",
+    "ContentSha": "2ajMhG6XhB/O+Yr6uYdey3Z913a0TjCN2UPFCnAic9Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># 다이버전스미터\n실제 세계 뉴스를 분석하여 Steins;Gate 용어로 현재 세계의 다이버전스 값을 추정하려고 합니다.\n<div id=\"divergence-meter\" style=\"cursor: pointer;\">\n  <img alt=\"Digit 0\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/11.gif\" width=\"10%\">\n  <img alt=\"Digit 1\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/12.gif\" width=\"10%\">\n  <img alt=\"Digit 2\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/11.gif\" width=\"10%\">\n  <img alt=\"Digit 3\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/12.gif\" width=\"10%\">\n  <img alt=\"Digit 4\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/11.gif\" width=\"10%\">\n  <img alt=\"Digit 5\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/12.gif\" width=\"10%\">\n  <img alt=\"Digit 6\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/11.gif\" width=\"10%\">\n  <img alt=\"Digit 7\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/12.gif\" width=\"10%\">\n</div>\n\n- [웹사이트](https://divergence.nyarchlinux.moe)\n- [API 문서](https://divergence.nyarchlinux.moe/docs.html)\n- [기능](#features)\n- [스크린샷](#screenshots)\n- [세계선 계산](#worldline-calculation)\n- [파이썬 예제](https://github.com/FrancescoCaracciolo/DivergenceMeter/blob/main/src/client/client.py)\n- [크레딧](#credits)\n\n## 기능\n\n- <img alt=\"Digit 0\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/11.gif\" width=\"5px\" /> <img alt=\"Digit 0\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/12.gif\" width=\"5px\" /> 웹사이트는 <a href=\"https://divergence.nyarchlinux.moe\">https://divergence.nyarchlinux.moe</a> 에서 방문할 수 있습니다. \n- 🔄 **자동 업데이트**: 카운터가 15분마다 자동으로 갱신됩니다\n- 🗞 **뉴스 테이블**: 세계 뉴스가 타임라인에 어떻게 영향을 미치는지 확인할 수 있습니다\n- 📊 **그래프**: 시간에 따른 세계선 추정을 표시합니다\n- 🔉 **사운드**: 세계선 추정치가 변경될 때 VN에서 사운드가 재생됩니다\n- 🪶 **라이트 모드**: <a href=\"https://divergence.nyarchlinux.moe/lite.html\">라이트 모드가 제공됩니다</a>, 리소스를 많이 소모하는 그래프를 표시하지 않습니다\n- 🛠 **무료 및 공개 API**: 우리 측정값을 프로젝트에 통합하세요. 맞춤 위젯, 실제 세계 다이버전스 미터, 앱 등 다양한 용도로 활용할 수 있습니다!  \n다이버전스 카운터는 15분마다 자동으로 새로고침됩니다. <a href=\"https://divergence.nyarchlinux.moe/docs.html\">API 문서</a>\n- ⏳ **분석 간격**: 15분마다 현재 세계 뉴스를 분석하여 현재 세계선 다이버전스를 추정합니다\n\n## 스크린샷\n**다이버전스 미터**\n![image](https://github.com/user-attachments/assets/4dfacc07-6d5e-4e66-9450-ada057e17725)\n\n**세계선 상태 보고서**\n![image](https://github.com/user-attachments/assets/2ee7c178-d182-4075-a9be-5e298bf83dbb)\n\n**다이버전스 그래프**\n![image](https://github.com/user-attachments/assets/abe100b6-4d88-46de-838a-f2a8227be1aa)\n\n## 세계선 계산\nSteins;Gate에서 다이버전스는 세계선 간 중력 값의 차이를 사용하여 계산됩니다.\n나는 리딩 슈타이너가 없고(적어도 내가 아는 한), 아직 어떤 세계선에도 여행하지 않았기 때문에, 세계선은 \n세계 뉴스를 사용하여 **추정**됩니다. 뉴스는 세계 뉴스, 과학 뉴스, 지역 뉴스를 포함하는 여러 RSS 피드에서 가져옵니다.\n\n**스포일러 경고**: 다음에 볼 방정식은 Chaos;Head에 나온 일부 방정식을 해석한 것입니다. 방정식 자체는 스포일러가 아니지만, 검색 시 Chaos;Head 비주얼 노벨에 대한 스포일러가 있을 수 있습니다. 또한, 이 개념들 중 일부는 Steins;Gate VN에 대한 가벼운 스포일러일 수 있습니다.\n\n**참고**: 여기 있는 일부 이론은 SciAdv 시리즈와 일관되도록 만들어진 것입니다.\n\n#### 기본 이론\n**가정**: 모든 사건 $e$는 독립적인 다이버전스 $d$를 가집니다. 이것은 사건 $e$가 가장 강한 어트랙터를 가지는 세계선입니다. 사소한 사건은 적절한 어트랙터 필드를 가지지 않지만, 다른 세계선에 영향을 미칩니다.\n예를 들어, Steins;Gate에서 Sern 디스토피아는 독립적인 다이버전스가 0입니다. 세계선이 0에 가까울수록 더 빨리 그 결과에 도달합니다.\n\n#### 뉴스 분석\n각 뉴스는 사건 $e$가 발생했음을 문서화합니다. (뉴스가 발행된 사실 자체도 사건 $e$로 간주될 수 있습니다.)\n각 뉴스는 가장 가능성 높은 어트랙터 필드(예: $\\alpha$, $\\beta$ ...)에 따라 분류됩니다. 또한, 각 뉴스에는 그 어트랙터 필드에 미치는 영향력 $Im$과, 어트랙터 필드 중심과의 근접도를 나타내는 필드 인력 $Fa$가 부여됩니다.\n\n#### 독립 다이버전스 계산\n1. 사건 $e$의 독립 다이버전스를 계산하기 위해 $Ir2$ 방정식에서 시작합니다:\n\n$$Ir2 = fun^{10}*int^{40}$$\n\nChaos;Head에서, 이것은 세계가 분기하는 기본 방정식입니다.\nVN에서는 이 방정식의 의미가 설명되지 않았습니다(단, Ir2가 \"눈이 두 개\"를 의미한다는 점만).\nDirac Sea와 관련 있다고 가정하면 가능한 설명은 다음과 같습니다:\n- $Ir$는 진공 영역의 정보율(Information Rate)입니다. 정보율이 높을수록 더 복잡하고 역동적인 진공 구조를 의미합니다.\n- $fun$은 필드 균일성 수(Field Uniformity Number)입니다. 덜 균일한 필드는 더 많은 그래디언트, 퍼텐셜, 즉 입자 생성과 상호작용을 위한 더 많은 에너지를 의미할 수 있습니다.\n- $int$는 Dirac Sea 상태들의 상호연결성(Interconnectedness)입니다. 이는 Dirac Sea 내 음의 에너지 상태들이 얼마나 연결되어 있는지를 나타냅니다.\n\n우리는 다이버전스 $d$가 진공의 정보 상태 변화의 결과라고 가정할 수 있으며, 중력도 영향을 받습니다.\n따라서 $d \\propto Ir$라고 가정할 수 있습니다. 어떤 상수 $k_1$가 존재하여:\n\n$$d = k_1 * Ir2$$\n\n2. $Ir2$의 주어진 식을 $d$의 정의에 대입합니다:\n\n  $$d = k_1 \\cdot (fun^{10} * int^{40})$$\n\n3. 이제 다음 관계를 가정합니다:\n    *   **영향력 (`Im`)과 균일성 (`fun`)**: 영향력이 큰 뉴스 이벤트 ($Im$)는 지역 진공 필드를 교란하여 균일성 ($fun$)을 감소시킵니다. 이것을 역비례 관계로 모델링할 수 있습니다:\n\n        $$fun = \\frac{C_f}{Im}$$\n\n        여기서 $C_f$는 상수입니다.\n    *   **필드 인력 ($Fa$)과 상호연결성 ($int$)**: 강한 인력 ($Fa$)은 사건 $e$가 Dirac Sea 상태 내에서 효율적인 경로를 생성하여 지역 상호연결성 ($int$)을 증가시킴을 의미합니다. 이것을 정비례 관계로 모델링합니다:\n\n        $$int = C_i \\cdot Fa$$\n\n        여기서 $C_i$는 상수입니다.\n\n4. 위의 공식을 식에 대입합니다.\n    3단계에서 구한 $fun$과 $int$의 식을 2단계의 $d$ 식에 대입합니다:\n   \n    $$d = k_1 \\cdot \\left( \\left( \\frac{C_f}{Im} \\right)^{10} \\cdot (C_i \\cdot Fa)^{40} \\right)$$\n\n5. 마지막으로 상수들을 결합하여 식을 단순화합니다:\n\n    $$d = k_1 \\cdot \\left( \\frac{C_f^{10}}{Im^{10}} \\cdot C_i^{40} \\cdot Fa^{40} \\right)$$",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "2r8StrNKR/LToPtgs3aStV2MCxlDs0L25vcv2KwRLN8=",
+        "originContent": "# DivergenceMeter",
+        "translatedContent": "<translate-content># 다이버전스미터"
+      },
+      {
+        "row": 2,
+        "rowsha": "0kMgbm4Ypf4zbKLOZolFgn6rlRomcPCY+gdFq80aQQ0=",
+        "originContent": "Analyzing real-world news, tries to estimate the current divergence value of the world in Steins;Gate terms.",
+        "translatedContent": "실제 세계 뉴스를 분석하여 Steins;Gate 용어로 현재 세계의 다이버전스 값을 추정하려고 합니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "Y1jjVe2hNsNAr6y9vA7ls55+HcpkDp2y8k4b920QiZM=",
+        "originContent": "<div id=\"divergence-meter\" style=\"cursor: pointer;\">",
+        "translatedContent": "<div id=\"divergence-meter\" style=\"cursor: pointer;\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "jwTfgR3G9d37TBLD7XQxIGAFA6c3KanmaLqGGEWgkcY=",
+        "originContent": "  <img alt=\"Digit 0\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/11.gif\" width=\"10%\">",
+        "translatedContent": "  <img alt=\"Digit 0\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/11.gif\" width=\"10%\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "1OqJTVK2f9cZoEJPZo2TIE8qT1MZ1bTdX032U1+gkok=",
+        "originContent": "  <img alt=\"Digit 1\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/12.gif\" width=\"10%\">",
+        "translatedContent": "  <img alt=\"Digit 1\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/12.gif\" width=\"10%\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "FY6A9dMXLohDd/0FPe6zy7GVWJrv9Hbh3XYFGsyX2iM=",
+        "originContent": "  <img alt=\"Digit 2\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/11.gif\" width=\"10%\">",
+        "translatedContent": "  <img alt=\"Digit 2\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/11.gif\" width=\"10%\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "H9Yw/G/yjo0IKEGQseMNTJ/1z1xne+ab64gowv1fkFU=",
+        "originContent": "  <img alt=\"Digit 3\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/12.gif\" width=\"10%\">",
+        "translatedContent": "  <img alt=\"Digit 3\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/12.gif\" width=\"10%\">"
+      },
+      {
+        "row": 8,
+        "rowsha": "yyF+lSo/junrdZ1EaoBz7JdweNyxtRkI9B6Gfj+2kyQ=",
+        "originContent": "  <img alt=\"Digit 4\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/11.gif\" width=\"10%\">",
+        "translatedContent": "  <img alt=\"Digit 4\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/11.gif\" width=\"10%\">"
+      },
+      {
+        "row": 9,
+        "rowsha": "B7E1mKyW/oQkL7vX9HlqlE/3JIJGkqOHAhdeQjVq92I=",
+        "originContent": "  <img alt=\"Digit 5\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/12.gif\" width=\"10%\">",
+        "translatedContent": "  <img alt=\"Digit 5\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/12.gif\" width=\"10%\">"
+      },
+      {
+        "row": 10,
+        "rowsha": "iys8qf7bQMB3u4pvQ2YtrkykVUOLQatGb8WQ4vY3FFI=",
+        "originContent": "  <img alt=\"Digit 6\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/11.gif\" width=\"10%\">",
+        "translatedContent": "  <img alt=\"Digit 6\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/11.gif\" width=\"10%\">"
+      },
+      {
+        "row": 11,
+        "rowsha": "d9gCfuupilWZc4F/l7yFQGrYiMwoyMDNTyXrOfFP5NQ=",
+        "originContent": "  <img alt=\"Digit 7\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/12.gif\" width=\"10%\">",
+        "translatedContent": "  <img alt=\"Digit 7\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/12.gif\" width=\"10%\">"
+      },
+      {
+        "row": 12,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "+AHHSeEO8ZxCA17xNL6G3ati2D2pEbO2yLbFwD0SSv0=",
+        "originContent": "- [Website](https://divergence.nyarchlinux.moe)",
+        "translatedContent": "- [웹사이트](https://divergence.nyarchlinux.moe)"
+      },
+      {
+        "row": 15,
+        "rowsha": "CpUAuyEOpRkDugj9ek3X0SzOoaONB0w76wKGD/vjY0E=",
+        "originContent": "- [API Documentation](https://divergence.nyarchlinux.moe/docs.html)",
+        "translatedContent": "- [API 문서](https://divergence.nyarchlinux.moe/docs.html)"
+      },
+      {
+        "row": 16,
+        "rowsha": "BI+Zz2NbZ0AX7YgD9EjinH4VCYulypQnBww5RTqTSDI=",
+        "originContent": "- [Features](#features)",
+        "translatedContent": "- [기능](#features)"
+      },
+      {
+        "row": 17,
+        "rowsha": "0+KUDrloA3bDnIILx8rLgTLgt/tgBRLMz30GHbgGncA=",
+        "originContent": "- [Screenshots](#screenshots)",
+        "translatedContent": "- [스크린샷](#screenshots)"
+      },
+      {
+        "row": 18,
+        "rowsha": "8xlytD88ab4+4XoZMc32+VbPQUpJVO2Mm4ADbqBzwnc=",
+        "originContent": "- [Worldline Calculation](#worldline-calculation)",
+        "translatedContent": "- [세계선 계산](#worldline-calculation)"
+      },
+      {
+        "row": 19,
+        "rowsha": "B8vUVnTEyBbcVAEl0Glmtd6CKp+SMPUWihkL4/yp65Y=",
+        "originContent": "- [Python Example](https://github.com/FrancescoCaracciolo/DivergenceMeter/blob/main/src/client/client.py)",
+        "translatedContent": "- [파이썬 예제](https://github.com/FrancescoCaracciolo/DivergenceMeter/blob/main/src/client/client.py)"
+      },
+      {
+        "row": 20,
+        "rowsha": "lQGUCOQ/xOEbYz+qSEoqBl0sddngw6cTjfCUohSdCl4=",
+        "originContent": "- [Credits](#credits)",
+        "translatedContent": "- [크레딧](#credits)"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 기능"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "fwuWFbI/iF6tzQDZVBCoAPzPiwfvBcsQv4B0ghSyQ5M=",
+        "originContent": "- <img alt=\"Digit 0\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/11.gif\" width=\"5px\" /> <img alt=\"Digit 0\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/12.gif\" width=\"5px\" /> The website can be visited at <a href=\"https://divergence.nyarchlinux.moe\">https://divergence.nyarchlinux.moe</a>. ",
+        "translatedContent": "- <img alt=\"Digit 0\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/11.gif\" width=\"5px\" /> <img alt=\"Digit 0\" class=\"digit\" src=\"https://divergence.nyarchlinux.moe/images/12.gif\" width=\"5px\" /> 웹사이트는 <a href=\"https://divergence.nyarchlinux.moe\">https://divergence.nyarchlinux.moe</a> 에서 방문할 수 있습니다. "
+      },
+      {
+        "row": 25,
+        "rowsha": "zrCgPk7td2CzGsA8uWLp1VRDdtFrPoXGBHALgEYvsXw=",
+        "originContent": "- 🔄 **Auto Updated**: the counter updates itself every 15 minutes",
+        "translatedContent": "- 🔄 **자동 업데이트**: 카운터가 15분마다 자동으로 갱신됩니다"
+      },
+      {
+        "row": 26,
+        "rowsha": "DQYDK0LaU0AhoSBkpGdewyLSSEfhsEge4l51NiRE438=",
+        "originContent": "- 🗞 **News Table**: see how our world news affect the timeline",
+        "translatedContent": "- 🗞 **뉴스 테이블**: 세계 뉴스가 타임라인에 어떻게 영향을 미치는지 확인할 수 있습니다"
+      },
+      {
+        "row": 27,
+        "rowsha": "vaXHilzviFHpb4/vfpmD7HxouRGwAngiSN3L2o7Rv3g=",
+        "originContent": "- 📊 **Plot**: displaying the estimations of the worldline over time",
+        "translatedContent": "- 📊 **그래프**: 시간에 따른 세계선 추정을 표시합니다"
+      },
+      {
+        "row": 28,
+        "rowsha": "DCNQmIbrbfkFkNveRYeQ/6UKMaWDY0rKCVgg6upNTJ8=",
+        "originContent": "- 🔉 **Sound**: Sound from the VN is played when the estimation of the worldline is changed",
+        "translatedContent": "- 🔉 **사운드**: 세계선 추정치가 변경될 때 VN에서 사운드가 재생됩니다"
+      },
+      {
+        "row": 29,
+        "rowsha": "jIb+RZGOsAC3cnyK6Dd9nxMTo4SNltdiPxGYjXW9+9w=",
+        "originContent": "- 🪶 **Lite mode**: <a href=\"https://divergence.nyarchlinux.moe/lite.html\">a lite mode is available</a>, not displaying the plot that takes resources",
+        "translatedContent": "- 🪶 **라이트 모드**: <a href=\"https://divergence.nyarchlinux.moe/lite.html\">라이트 모드가 제공됩니다</a>, 리소스를 많이 소모하는 그래프를 표시하지 않습니다"
+      },
+      {
+        "row": 30,
+        "rowsha": "hHYMn14pmsUvZn18yDhUEhRM/oxAfNYUsJVvjPRxPuY=",
+        "originContent": "- 🛠 **Free & Public API**: Integrate our mesurements in your projects. Create custom widgets, real world divergence meter, apps and much more with it!  ",
+        "translatedContent": "- 🛠 **무료 및 공개 API**: 우리 측정값을 프로젝트에 통합하세요. 맞춤 위젯, 실제 세계 다이버전스 미터, 앱 등 다양한 용도로 활용할 수 있습니다!  "
+      },
+      {
+        "row": 31,
+        "rowsha": "CJCCGnRbHDzphqasbYMJh9NYvGAJ2imrIYWvN0WL1kk=",
+        "originContent": "The divergence counter refreshes automatically every 15 minutes. <a href=\"https://divergence.nyarchlinux.moe/docs.html\">API Docs</a>",
+        "translatedContent": "다이버전스 카운터는 15분마다 자동으로 새로고침됩니다. <a href=\"https://divergence.nyarchlinux.moe/docs.html\">API 문서</a>"
+      },
+      {
+        "row": 32,
+        "rowsha": "s5hV+9xqPemr1ZIkUdgDaVOg6L1Eb8Kn2drW405jnOM=",
+        "originContent": "- ⏳ **Analysis interval**: every 15 minutes, the current world news are analyzed in order to estimate the current worldline divergence",
+        "translatedContent": "- ⏳ **분석 간격**: 15분마다 현재 세계 뉴스를 분석하여 현재 세계선 다이버전스를 추정합니다"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "CrQ1XO/et1agLOmJnlaLYfcfQdvL77gCZWQqAUysVwM=",
+        "originContent": "## Screenshots",
+        "translatedContent": "## 스크린샷"
+      },
+      {
+        "row": 35,
+        "rowsha": "LjdvSEYZhKaVR0PSWqsKSUUfYNghd5A3bai2wXeSS0o=",
+        "originContent": "**Divergence Meter**",
+        "translatedContent": "**다이버전스 미터**"
+      },
+      {
+        "row": 36,
+        "rowsha": "m78pSFg4foAuVPm+nJDzChtKr7WJqGS4LHS9RqtgWm8=",
+        "originContent": "![image](https://github.com/user-attachments/assets/4dfacc07-6d5e-4e66-9450-ada057e17725)",
+        "translatedContent": "![image](https://github.com/user-attachments/assets/4dfacc07-6d5e-4e66-9450-ada057e17725)"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "t+UBUtV83c39sa4GmEJRaG2s0Bele/eKZhwCmkeSLtc=",
+        "originContent": "**Worldline Status Report**",
+        "translatedContent": "**세계선 상태 보고서**"
+      },
+      {
+        "row": 39,
+        "rowsha": "rjwVSoYx9CX23KmUiT2OPAuni1IpsJcSD7M+fkrF19I=",
+        "originContent": "![image](https://github.com/user-attachments/assets/2ee7c178-d182-4075-a9be-5e298bf83dbb)",
+        "translatedContent": "![image](https://github.com/user-attachments/assets/2ee7c178-d182-4075-a9be-5e298bf83dbb)"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "Xn6s9RU97dvK+7Ua/VJX3ZbDy507FqM1/qdsHmXkR2c=",
+        "originContent": "**Divergence Plot**",
+        "translatedContent": "**다이버전스 그래프**"
+      },
+      {
+        "row": 42,
+        "rowsha": "YNu/8KN98hnPXBZqaoela61e/lUnHCFu7WhFwhagEc8=",
+        "originContent": "![image](https://github.com/user-attachments/assets/abe100b6-4d88-46de-838a-f2a8227be1aa)",
+        "translatedContent": "![image](https://github.com/user-attachments/assets/abe100b6-4d88-46de-838a-f2a8227be1aa)"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "INHkJBspp1oMW9ON4rt4vH/fZcgggKTmj/xDzjvbw4Q=",
+        "originContent": "## Worldline calculation",
+        "translatedContent": "## 세계선 계산"
+      },
+      {
+        "row": 45,
+        "rowsha": "mkQ5Xhv30xJD71XQS/1kaFgZcsiZuaDJUCLRUMkeHCM=",
+        "originContent": "In Steins;Gate, the divergence is calculated using the difference in gravity value between worldlines.",
+        "translatedContent": "Steins;Gate에서 다이버전스는 세계선 간 중력 값의 차이를 사용하여 계산됩니다."
+      },
+      {
+        "row": 46,
+        "rowsha": "0jE4py6ZYutEJv/xVAAfSrfQ0sX+D0fdmxLhsvDZ0Lk=",
+        "originContent": "Since I don't have the Reading Steiner (at least to my knowledge), and I have not travelled to any worldline yet, the worldline is **estimated** using ",
+        "translatedContent": "나는 리딩 슈타이너가 없고(적어도 내가 아는 한), 아직 어떤 세계선에도 여행하지 않았기 때문에, 세계선은 "
+      },
+      {
+        "row": 47,
+        "rowsha": "j/mdee3k8vXvLlJ5j4hNQfFryb2y2UGcp5vkwdPkVOQ=",
+        "originContent": "world news. The news are taken from multiple RSS feeds featuring world news, science news and local news.",
+        "translatedContent": "세계 뉴스를 사용하여 **추정**됩니다. 뉴스는 세계 뉴스, 과학 뉴스, 지역 뉴스를 포함하는 여러 RSS 피드에서 가져옵니다."
+      },
+      {
+        "row": 48,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "BxlR7okPkHojBYsbW5UOJnoKLmUQseqtu5RXLgQ9ptA=",
+        "originContent": "**Spoiler Alert**: The equations you are going to see are based on an interpretation on some equations given in Chaos;Head. The equations per-se are not a spoiler, but searching them might result in spoilers to the Chaos;Head Visual Novel. Also, some of these concepts might be lite spoilers to Steins;Gate VNs.",
+        "translatedContent": "**스포일러 경고**: 다음에 볼 방정식은 Chaos;Head에 나온 일부 방정식을 해석한 것입니다. 방정식 자체는 스포일러가 아니지만, 검색 시 Chaos;Head 비주얼 노벨에 대한 스포일러가 있을 수 있습니다. 또한, 이 개념들 중 일부는 Steins;Gate VN에 대한 가벼운 스포일러일 수 있습니다."
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "jK93wNvVfxi/3+yh4/ByDlawvG+7NTipZEypub17OlA=",
+        "originContent": "**Note**: some of the theories here are made up in a way that they are coherent with the SciAdv series.",
+        "translatedContent": "**참고**: 여기 있는 일부 이론은 SciAdv 시리즈와 일관되도록 만들어진 것입니다."
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "wd3kplFhfvF6DVTZ8o8P4EXcwaYyIGlurj9Wkj3ICvs=",
+        "originContent": "#### Base Theory",
+        "translatedContent": "#### 기본 이론"
+      },
+      {
+        "row": 54,
+        "rowsha": "hFQMyYLC0yx57rFZdMzQg7BCauSkbWCBO/MO6qEqeHM=",
+        "originContent": "**Assumption**: every event $e$ has an independent divergence $d$. It is the worldline in which event $e$ has the strongest attractor. Minor events do not have a proper attractor field, but they influence other worldlines.",
+        "translatedContent": "**가정**: 모든 사건 $e$는 독립적인 다이버전스 $d$를 가집니다. 이것은 사건 $e$가 가장 강한 어트랙터를 가지는 세계선입니다. 사소한 사건은 적절한 어트랙터 필드를 가지지 않지만, 다른 세계선에 영향을 미칩니다."
+      },
+      {
+        "row": 55,
+        "rowsha": "Qll7HvWjpQSWHKyeb/vfZ0iJchQIjRM0ttcruXnUI/k=",
+        "originContent": "For example, in Steins;Gate, the Sern dystopia has an independent divergence of 0. The nearest a worldline is to 0, the quicker it gets to that result.",
+        "translatedContent": "예를 들어, Steins;Gate에서 Sern 디스토피아는 독립적인 다이버전스가 0입니다. 세계선이 0에 가까울수록 더 빨리 그 결과에 도달합니다."
+      },
+      {
+        "row": 56,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 57,
+        "rowsha": "LEH8XaW1sfVSWbOeAeGHw/3Dqr8qiL5JjHK9LEh7w1s=",
+        "originContent": "#### News Analysis",
+        "translatedContent": "#### 뉴스 분석"
+      },
+      {
+        "row": 58,
+        "rowsha": "NIsRNAULYBQbssPC/5zUXzGeJ1mdOXILfq06w1hHmjo=",
+        "originContent": "Each news documents that an event $e$ happened. (The fact that a news has been published, can be considered by itself an event $e$).",
+        "translatedContent": "각 뉴스는 사건 $e$가 발생했음을 문서화합니다. (뉴스가 발행된 사실 자체도 사건 $e$로 간주될 수 있습니다.)"
+      },
+      {
+        "row": 59,
+        "rowsha": "SsK6G77Qa8S1Gp9Dt62TtlbrYDbBN4gsidN1sBNFPa8=",
+        "originContent": "Each news is categorized in an attractor field (for example $\\alpha$, $\\beta$,...) based on what is the most likely attractor field it beongs to. Also, to each news is given an impact $Im$, that states how impactful is a news for its attractor field, and a Field attraction $Fa$, that states how near it is to the center of the attraction field.",
+        "translatedContent": "각 뉴스는 가장 가능성 높은 어트랙터 필드(예: $\\alpha$, $\\beta$ ...)에 따라 분류됩니다. 또한, 각 뉴스에는 그 어트랙터 필드에 미치는 영향력 $Im$과, 어트랙터 필드 중심과의 근접도를 나타내는 필드 인력 $Fa$가 부여됩니다."
+      },
+      {
+        "row": 60,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 61,
+        "rowsha": "jFPFz5vfaBlE7+n3rdgRzm6zh032xxuJbokFfNeQmy8=",
+        "originContent": "#### Independent Divergence Calculation",
+        "translatedContent": "#### 독립 다이버전스 계산"
+      },
+      {
+        "row": 62,
+        "rowsha": "rKkj9/1lHUoo87/xPon86Cc2bAsAAgORp6MilzmW1PY=",
+        "originContent": "1. In order to calculate the independent divergence of an event $e$, we start from the $Ir2$ equation:",
+        "translatedContent": "1. 사건 $e$의 독립 다이버전스를 계산하기 위해 $Ir2$ 방정식에서 시작합니다:"
+      },
+      {
+        "row": 63,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 64,
+        "rowsha": "uEZ9teS14qbCoYv96gfDCbIJA3YRj6lKAp9xDYpubb0=",
+        "originContent": "$$Ir2 = fun^{10}*int^{40}$$",
+        "translatedContent": "$$Ir2 = fun^{10}*int^{40}$$"
+      },
+      {
+        "row": 65,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 66,
+        "rowsha": "3jjLaFXOeZBmQMA/+zvEK14qqp26lmgqoVmFUjo8Ewk=",
+        "originContent": "That, form Chaos;Head, is the bases equation that causes the world to diverge.",
+        "translatedContent": "Chaos;Head에서, 이것은 세계가 분기하는 기본 방정식입니다."
+      },
+      {
+        "row": 67,
+        "rowsha": "Md/J4gQ6k1PrqBYLFBaYGcKDyITq8j0EAGkacHKlW/k=",
+        "originContent": "In the VN, the meaning of this equation is not explained (except for the fact that Ir2 means \"eyes are two\"). Considering that it is related to the Dirac Sea, a possible explaination is the following:",
+        "translatedContent": "VN에서는 이 방정식의 의미가 설명되지 않았습니다(단, Ir2가 \"눈이 두 개\"를 의미한다는 점만)."
+      },
+      {
+        "row": 68,
+        "rowsha": "Mi3sQKRS1Cr1Ya3+NCNFyHb+1AxfdeJX3jsgDHXIh5c=",
+        "originContent": "- $Ir$ is the Information Rate of the Vacuum region. Higher information rate implies a more complex and dynamic vacuum structure.",
+        "translatedContent": "Dirac Sea와 관련 있다고 가정하면 가능한 설명은 다음과 같습니다:"
+      },
+      {
+        "row": 69,
+        "rowsha": "KTjlkTwAW/P6ZDUNmYv2XHHgBnpIeDTvI2blNpQPwQY=",
+        "originContent": "- $fun$ is the Field Uniformity Number. A less uniform field could mean more gradients, potentials, and thus, more energy available for particle creation and interactions. ",
+        "translatedContent": "- $Ir$는 진공 영역의 정보율(Information Rate)입니다. 정보율이 높을수록 더 복잡하고 역동적인 진공 구조를 의미합니다."
+      },
+      {
+        "row": 70,
+        "rowsha": "sl+agqiKKnul/jMzQeu/5NIH6Qu20lF0SQV4on/hV5E=",
+        "originContent": "- $int$ is the Interconnectedness of Dirac Sea states. This represents the degree to which the negative energy states within the Dirac Sea are linked or correlated. ",
+        "translatedContent": "- $fun$은 필드 균일성 수(Field Uniformity Number)입니다. 덜 균일한 필드는 더 많은 그래디언트, 퍼텐셜, 즉 입자 생성과 상호작용을 위한 더 많은 에너지를 의미할 수 있습니다."
+      },
+      {
+        "row": 71,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- $int$는 Dirac Sea 상태들의 상호연결성(Interconnectedness)입니다. 이는 Dirac Sea 내 음의 에너지 상태들이 얼마나 연결되어 있는지를 나타냅니다."
+      },
+      {
+        "row": 72,
+        "rowsha": "+t36+MxhBoUiHDUM266uPLtpK+UpQMKkO8KWsL1iLv4=",
+        "originContent": "We can assume that the divergence $d$ is the result of a change in the vacuum's Information state, since also gravity is affected.",
+        "translatedContent": ""
+      },
+      {
+        "row": 73,
+        "rowsha": "iv4gVlZBgUgdReo2bC4xNEga5xo9IKLROS09H6lOj9U=",
+        "originContent": "Therefore, we might assume that $d \\propto Ir$. There exists some constant $k_1$ such that:",
+        "translatedContent": "우리는 다이버전스 $d$가 진공의 정보 상태 변화의 결과라고 가정할 수 있으며, 중력도 영향을 받습니다."
+      },
+      {
+        "row": 74,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "따라서 $d \\propto Ir$라고 가정할 수 있습니다. 어떤 상수 $k_1$가 존재하여:"
+      },
+      {
+        "row": 75,
+        "rowsha": "RTIZeN8SNi5vUdSgk8Ty5oySGODS44lKbi3RGHMTL0Q=",
+        "originContent": "$$d = k_1 * Ir2$$",
+        "translatedContent": ""
+      },
+      {
+        "row": 76,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "$$d = k_1 * Ir2$$"
+      },
+      {
+        "row": 77,
+        "rowsha": "76QqbbIfpT/1VOlNXGSeIAFI0f64ZFG1Wn8cVFZZ6Rg=",
+        "originContent": "2. We substitute the given expression for $Ir2$ into our definition of $d$:",
+        "translatedContent": ""
+      },
+      {
+        "row": 78,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. $Ir2$의 주어진 식을 $d$의 정의에 대입합니다:"
+      },
+      {
+        "row": 79,
+        "rowsha": "OJ1AYR8ppWVplXgwRs/RBurshlzoXpDyfXuXISzAu/Q=",
+        "originContent": "  $$d = k_1 \\cdot (fun^{10} * int^{40})$$",
+        "translatedContent": ""
+      },
+      {
+        "row": 80,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  $$d = k_1 \\cdot (fun^{10} * int^{40})$$"
+      },
+      {
+        "row": 81,
+        "rowsha": "yb4XlhUcFR/vgN6w+FzJyDAtwI5gk8/n0wH4j9J4/p4=",
+        "originContent": "3. Now, we assume the following relations:",
+        "translatedContent": ""
+      },
+      {
+        "row": 82,
+        "rowsha": "wjwdWjgCptWWrff8kZI8MhGGtNC81oMZKGYs7IKjsBc=",
+        "originContent": "    *   **Impact (`Im`) and Uniformity (`fun`):** A highly impactful news event ($Im$) would disrupt the local vacuum field, decreasing its uniformity ($fun$). We can model this as an inverse relationship:",
+        "translatedContent": "3. 이제 다음 관계를 가정합니다:"
+      },
+      {
+        "row": 83,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    *   **영향력 (`Im`)과 균일성 (`fun`)**: 영향력이 큰 뉴스 이벤트 ($Im$)는 지역 진공 필드를 교란하여 균일성 ($fun$)을 감소시킵니다. 이것을 역비례 관계로 모델링할 수 있습니다:"
+      },
+      {
+        "row": 84,
+        "rowsha": "N0KUaZVICR3QURMIeRKlWpsvdh4sZn4x2nERDbP2sv8=",
+        "originContent": "        $$fun = \\frac{C_f}{Im}$$",
+        "translatedContent": ""
+      },
+      {
+        "row": 85,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "        $$fun = \\frac{C_f}{Im}$$"
+      },
+      {
+        "row": 86,
+        "rowsha": "prRBswJ6VDQF2usCa3yGBAb3YsSKxTcZuLzCjGfbXqQ=",
+        "originContent": "        Where $C_f$ is a constant.",
+        "translatedContent": ""
+      },
+      {
+        "row": 87,
+        "rowsha": "3QHjAnvalHY/O8Ckgz3EpVHBUoDbSssxd8AKIZsWtoU=",
+        "originContent": "    *   **Field Attraction ($Fa$) and Interconnectedness ($int$):** A strong attraction ($Fa$) towards the attractor center implies the event $e$ is creating efficient pathways within the Dirac Sea states along that direction, increasing local interconnectedness ($int$). We model this as a direct relationship:",
+        "translatedContent": "        여기서 $C_f$는 상수입니다."
+      },
+      {
+        "row": 88,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    *   **필드 인력 ($Fa$)과 상호연결성 ($int$)**: 강한 인력 ($Fa$)은 사건 $e$가 Dirac Sea 상태 내에서 효율적인 경로를 생성하여 지역 상호연결성 ($int$)을 증가시킴을 의미합니다. 이것을 정비례 관계로 모델링합니다:"
+      },
+      {
+        "row": 89,
+        "rowsha": "x7wnyLJ1TwTuGyV40eMGTk7kYWoAGbXwO/U9dSm1Bqk=",
+        "originContent": "        $$int = C_i \\cdot Fa$$",
+        "translatedContent": ""
+      },
+      {
+        "row": 90,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "        $$int = C_i \\cdot Fa$$"
+      },
+      {
+        "row": 91,
+        "rowsha": "e0eRu2wyr5sqTABtXcAmEQjGk0daC5wXl065i6s6uPE=",
+        "originContent": "        Where $C_i$ is a constant",
+        "translatedContent": ""
+      },
+      {
+        "row": 92,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "        여기서 $C_i$는 상수입니다."
+      },
+      {
+        "row": 93,
+        "rowsha": "r8gZaxfuY6/Ddk4PbUkTTipAbrRHL7p6oFTNvgnyWqM=",
+        "originContent": "4. We substitute the formulas above in the expression",
+        "translatedContent": ""
+      },
+      {
+        "row": 94,
+        "rowsha": "O9CnU1GDo0PQrV6xynHxWesBwRYFuDeh+QIiJDZgNls=",
+        "originContent": "    Substitute the expressions for $fun$ and $int$ (from step 3) into the formula for $d$ (from step 2):",
+        "translatedContent": "4. 위의 공식을 식에 대입합니다."
+      },
+      {
+        "row": 95,
+        "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
+        "originContent": "   ",
+        "translatedContent": "    3단계에서 구한 $fun$과 $int$의 식을 2단계의 $d$ 식에 대입합니다:"
+      },
+      {
+        "row": 96,
+        "rowsha": "qcsV5PuSESC6wYMb2TNUpWpIeIno+K2055XEenbyM5M=",
+        "originContent": "    $$d = k_1 \\cdot \\left( \\left( \\frac{C_f}{Im} \\right)^{10} \\cdot (C_i \\cdot Fa)^{40} \\right)$$",
+        "translatedContent": "   "
+      },
+      {
+        "row": 97,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    $$d = k_1 \\cdot \\left( \\left( \\frac{C_f}{Im} \\right)^{10} \\cdot (C_i \\cdot Fa)^{40} \\right)$$"
+      },
+      {
+        "row": 98,
+        "rowsha": "9cYPCn4R8IwCBayANfFk93LbW+2zVLpWE/Z2fsXd9rI=",
+        "originContent": "5. In the end, we simplify the expression combining the constants:",
+        "translatedContent": ""
+      },
+      {
+        "row": 99,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "5. 마지막으로 상수들을 결합하여 식을 단순화합니다:"
+      },
+      {
+        "row": 100,
+        "rowsha": "WBTpK7E67xsmbQ9xBo5P4c4j94cQqQ49qTOeGHCbNcc=",
+        "originContent": "    $$d = k_1 \\cdot \\left( \\frac{C_f^{10}}{Im^{10}} \\cdot C_i^{40} \\cdot Fa^{40} \\right)$$",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n    $$d = (k_1 \\cdot C_f^{10} \\cdot C_i^{40}) \\cdot \\frac{Fa^{40}}{Im^{10}}$$\n\n6. We create a new constant, called Divergence Constant $K_d = k_1 \\cdot C_f^{10} \\cdot C_i^{40}$\n    The final formula for calculating the independent divergence $d$ is:\n   \n    $$d = K_d \\frac{Fa^{40}}{Im^{10}}$$\n\n#### Worldline Update\nIn order to estimate the current worldline, we have to analyze news as soon as they arrive, and update the current divergence based on the independent divergence of those news.\nFor this purpose, a modified version of Weighted Online Gradient Descent is used.\n\n$$d(t) = d(t-1) - Im * \\eta \\nabla L(d(t-1))$$\n\n## Credits\n- [Steins;Gate Wiki](https://steins-gate.fandom.com/wiki/Steins;Gate_Wiki) for some informations about divergence\n- [LuqueDaniel/Divergence-Meter](https://github.com/LuqueDaniel/Divergence-Meter/tree/master) for images and gifs\n- [SciAdv Series](https://wikipedia.org/wiki/Science_Adventure) for being peak\n\nIf you want to support the project, leave a ⭐️\n\nMade with ❤️ by <a href=\"https://nyarchlinux.moe\">Nyarch Linux</a> lead developer\n",
+    "ContentSha": "Sa6sMf5JgJez57urCQT5hWwoILnaI2wXq2xwlRiq2fE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    $$d = (k_1 \\cdot C_f^{10} \\cdot C_i^{40}) \\cdot \\frac{Fa^{40}}{Im^{10}}$$\n\n6. 우리는 발산 상수 $K_d = k_1 \\cdot C_f^{10} \\cdot C_i^{40}$ 라는 새로운 상수를 생성합니다.\n    독립 발산 $d$를 계산하는 최종 공식은 다음과 같습니다:\n   \n    $$d = K_d \\frac{Fa^{40}}{Im^{10}}$$\n\n#### 세계선 업데이트\n현재 세계선을 추정하기 위해서는 뉴스가 도착하는 즉시 이를 분석하고, 해당 뉴스의 독립 발산을 기반으로 현재 발산을 업데이트해야 합니다.\n이를 위해 가중치 온라인 경사 하강법(Weighted Online Gradient Descent)의 수정된 버전이 사용됩니다.\n\n$$d(t) = d(t-1) - Im * \\eta \\nabla L(d(t-1))$$\n\n## 출처\n- 발산에 관한 정보는 [Steins;Gate Wiki](https://steins-gate.fandom.com/wiki/Steins;Gate_Wiki) 참조\n- 이미지 및 GIF는 [LuqueDaniel/Divergence-Meter](https://github.com/LuqueDaniel/Divergence-Meter/tree/master) 제공\n- [SciAdv Series](https://wikipedia.org/wiki/Science_Adventure) 에서 영감을 받음\n\n프로젝트를 지원하고 싶다면 ⭐️를 남겨주세요\n\n<a href=\"https://nyarchlinux.moe\">Nyarch Linux</a> 수석 개발자가 ❤️를 담아 제작했습니다\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    $$d = (k_1 \\cdot C_f^{10} \\cdot C_i^{40}) \\cdot \\frac{Fa^{40}}{Im^{10}}$$"
+      },
+      {
+        "row": 2,
+        "rowsha": "lPRO0nJs+JxBf0D2JU8SwF0PJn/I08fdzn/uP6P6Apc=",
+        "originContent": "    $$d = (k_1 \\cdot C_f^{10} \\cdot C_i^{40}) \\cdot \\frac{Fa^{40}}{Im^{10}}$$",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "6. 우리는 발산 상수 $K_d = k_1 \\cdot C_f^{10} \\cdot C_i^{40}$ 라는 새로운 상수를 생성합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "kWsFSYpEoKJ4+M2YkqAbBrwHgiDLb0NZ3pqDJQAxSd4=",
+        "originContent": "6. We create a new constant, called Divergence Constant $K_d = k_1 \\cdot C_f^{10} \\cdot C_i^{40}$",
+        "translatedContent": "    독립 발산 $d$를 계산하는 최종 공식은 다음과 같습니다:"
+      },
+      {
+        "row": 5,
+        "rowsha": "UJ4kSV7OveNCljG0HA+iTyyQ/HxYzoHhQQypS515jYo=",
+        "originContent": "    The final formula for calculating the independent divergence $d$ is:",
+        "translatedContent": "   "
+      },
+      {
+        "row": 6,
+        "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
+        "originContent": "   ",
+        "translatedContent": "    $$d = K_d \\frac{Fa^{40}}{Im^{10}}$$"
+      },
+      {
+        "row": 7,
+        "rowsha": "GupmnIzUbYxWEZxMnSC2kYM9sgAd3RkJDoo81HRVXGo=",
+        "originContent": "    $$d = K_d \\frac{Fa^{40}}{Im^{10}}$$",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### 세계선 업데이트"
+      },
+      {
+        "row": 9,
+        "rowsha": "BlNcKmNiSFAMWeWKnHgH1DtXrvQKsc3nCBwYN/z41LM=",
+        "originContent": "#### Worldline Update",
+        "translatedContent": "현재 세계선을 추정하기 위해서는 뉴스가 도착하는 즉시 이를 분석하고, 해당 뉴스의 독립 발산을 기반으로 현재 발산을 업데이트해야 합니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "MZTDIDkwDq1LQ9nxTOenV1CBhQWu3spYv7z30S1giyI=",
+        "originContent": "In order to estimate the current worldline, we have to analyze news as soon as they arrive, and update the current divergence based on the independent divergence of those news.",
+        "translatedContent": "이를 위해 가중치 온라인 경사 하강법(Weighted Online Gradient Descent)의 수정된 버전이 사용됩니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "pYPFrueKqbjKfhsrq6WhUpXIvTBJjVmxJj2oUv8xsCc=",
+        "originContent": "For this purpose, a modified version of Weighted Online Gradient Descent is used.",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "$$d(t) = d(t-1) - Im * \\eta \\nabla L(d(t-1))$$"
+      },
+      {
+        "row": 13,
+        "rowsha": "OG66kaNsZj7Kercw2DQ4wJWyb6TyXIwR61eGLeIdLTc=",
+        "originContent": "$$d(t) = d(t-1) - Im * \\eta \\nabla L(d(t-1))$$",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 출처"
+      },
+      {
+        "row": 15,
+        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+        "originContent": "## Credits",
+        "translatedContent": "- 발산에 관한 정보는 [Steins;Gate Wiki](https://steins-gate.fandom.com/wiki/Steins;Gate_Wiki) 참조"
+      },
+      {
+        "row": 16,
+        "rowsha": "80Q6MpEZBuAl8WbqLPt7F7CJnBBnWJQLT493bd/8XN4=",
+        "originContent": "- [Steins;Gate Wiki](https://steins-gate.fandom.com/wiki/Steins;Gate_Wiki) for some informations about divergence",
+        "translatedContent": "- 이미지 및 GIF는 [LuqueDaniel/Divergence-Meter](https://github.com/LuqueDaniel/Divergence-Meter/tree/master) 제공"
+      },
+      {
+        "row": 17,
+        "rowsha": "okNzGVJEtV7Q0rQhRtvfLHWluAvcdItg/sq3ZuXqmuM=",
+        "originContent": "- [LuqueDaniel/Divergence-Meter](https://github.com/LuqueDaniel/Divergence-Meter/tree/master) for images and gifs",
+        "translatedContent": "- [SciAdv Series](https://wikipedia.org/wiki/Science_Adventure) 에서 영감을 받음"
+      },
+      {
+        "row": 18,
+        "rowsha": "w6MM36HmF5xjwifcI2bQsUhOb5uWvgfH53x3RVfFJSc=",
+        "originContent": "- [SciAdv Series](https://wikipedia.org/wiki/Science_Adventure) for being peak",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "프로젝트를 지원하고 싶다면 ⭐️를 남겨주세요"
+      },
+      {
+        "row": 20,
+        "rowsha": "4XcMF13VFj1I1jFEnpmFmQY0/h8c1W29DNLQApoUETs=",
+        "originContent": "If you want to support the project, leave a ⭐️",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<a href=\"https://nyarchlinux.moe\">Nyarch Linux</a> 수석 개발자가 ❤️를 담아 제작했습니다"
+      },
+      {
+        "row": 22,
+        "rowsha": "946GhFqMy9+c47ZhmqKBulPp7wLEqSgTXSPODlv9HFE=",
+        "originContent": "Made with ❤️ by <a href=\"https://nyarchlinux.moe\">Nyarch Linux</a> lead developer",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

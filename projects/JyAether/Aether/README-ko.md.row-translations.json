@@ -1,0 +1,194 @@
+[
+  {
+    "row": 1,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**일, 소개**"
+  },
+  {
+    "row": 2,
+    "rowsha": "lgo6i4+KFHT6AWoAcyN85WT//+gw9WoLYlFZIfBerlU=",
+    "originContent": "**一、介绍**",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* **Aether**: 업계 최초로 AST + Runtime 기반으로 KMP + CMP의 동적화 솔루션을 구축하여 논리 페이지의 동적 하달을 실현."
+  },
+  {
+    "row": 4,
+    "rowsha": "XI/z464TXbYX+eszrQ2trUiiN6XAxXbsCLeC3WgsXiE=",
+    "originContent": "* **Aether**：业内首次创新性基于 AST + Runtime 构建 KMP + CMP 的动态化方案，实现逻辑页面动态下发。",
+    "translatedContent": "* 개발부터 운영까지 전 프로세스 커버. 릴리즈 효율과 핫픽스 능력 향상, KMP에서 부족한 동적화를 효과적으로 완화하며, Android KMP 생태계 발전에 넓은 범위로 기여."
+  },
+  {
+    "row": 5,
+    "rowsha": "nY/MHpa/7+ppvQ4PKH52oVxehfW3goMAk928JBxunRw=",
+    "originContent": "* 全流程覆盖开发至运维。提升发版效率与热修复能力，有效缓解 KMP 缺失的动态化，可大范围推动 Android KMP 的生态发展。",
+    "translatedContent": "* 개인 역량이 한정되어 많은 엔지니어링 역량 구축이 필요하며, 커뮤니티와 함께 복잡한 문법 지원과 생태계 구축을 강화하여 개발 비용 절감, 경험 최적화 및 비즈니스 범위 확대를 기대; 대프론트 통합 추진으로 크로스 플랫폼 일관된 경험 실현."
+  },
+  {
+    "row": 6,
+    "rowsha": "cORuOfc+M2JUUJIfE6wkqIkdMcbnl5SgM9TEUG/Y51Q=",
+    "originContent": "* 但因为个人精力有限，还有很多工程化的能力需要建设，期待社区一起未来后续将强化复杂语法支持与生态建设，降低开发成本、优化体验并扩大业务覆盖；推进大前端融合，实现跨终端一致性体验。",
+    "translatedContent": "* 현재 가장 작은 실험 프로토타입 구현, 향후 커뮤니티와 함께 구축 예정."
+  },
+  {
+    "row": 7,
+    "rowsha": "DxyaKnqQVTzYYXkSnvEZDNKn+4YWINM9wxD4FcT4cgY=",
+    "originContent": "* 目前实现最小的实验原型，后续依赖于社区一起建设。",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 9,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**이, 프로젝트 구조**"
+  },
+  {
+    "row": 11,
+    "rowsha": "bj9oXkHIax8gHwdUhavy+Ws0iiD3+Jpn9wi+w+KKRFY=",
+    "originContent": "**二、项目结构**",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* `/composeApp`는 Compose Multiplatform 애플리케이션 간 코드 공유용 부분."
+  },
+  {
+    "row": 13,
+    "rowsha": "TLs/lyoiYVUYKzlHRdAKe/w15fm7qGWDbJEOTsDLzXo=",
+    "originContent": "* `/composeApp` 是用于在 Compose Multiplatform 应用程序之间共享代码的部分。",
+    "translatedContent": "  다음과 같은 하위 폴더 포함:"
+  },
+  {
+    "row": 14,
+    "rowsha": "zFkHKanglZcs1cLdA/0QYeioWkgbxRUA+mFrZ5w8X9c=",
+    "originContent": "  它包含以下几个子文件夹：",
+    "translatedContent": "  - `commonMain`은 모든 대상 플랫폼 공통 코드."
+  },
+  {
+    "row": 15,
+    "rowsha": "0kB8H0Pn6s+CyZzO/Hu6+WelTxagBrcw3t/5Y1AQjM8=",
+    "originContent": "  - `commonMain` 用于所有目标平台通用的代码。",
+    "translatedContent": "  - 기타 폴더는 특정 플랫폼용 Kotlin 코드 컴파일 대상. 예를 들어 iOS 부분에서 Apple의 CoreCrypto를 사용하려면,"
+  },
+  {
+    "row": 16,
+    "rowsha": "8Mu34A9ugtiCrTIv7AB7pyC00aa1J/kmQMupLQeg0B4=",
+    "originContent": "  - 其他文件夹是针对特定平台编译的 Kotlin 代码。例如，如果你想在 iOS 部分使用 Apple 的 CoreCrypto，",
+    "translatedContent": "    `iosMain` 폴더에서 관련 호출을 작성해야 함."
+  },
+  {
+    "row": 17,
+    "rowsha": "7xcmaUykYUg757c8kTqa5fa4fiSOPRWpcfHjyPwXDQE=",
+    "originContent": "    则应该在 `iosMain` 文件夹中编写相关调用。",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* `/iosApp`는 iOS 애플리케이션 포함. Compose Multiplatform으로 UI를 공유해도"
+  },
+  {
+    "row": 19,
+    "rowsha": "Ixwes+HSB18yk1pz6jm/MTeG0IsUcrAfnpj90X/FOzw=",
+    "originContent": "* `/iosApp` 包含 iOS 应用程序。即使你通过 Compose Multiplatform 共享 UI，",
+    "translatedContent": "  iOS 앱 시작을 위한 진입점이 여전히 필요하며, SwiftUI 코드를 추가하는 장소이기도 함."
+  },
+  {
+    "row": 20,
+    "rowsha": "ApcBY/kRPujz3QooIHKfS4FOqVNv7TmCCUP3qqyGXs8=",
+    "originContent": "  你仍然需要这个入口点来启动你的 iOS 应用。这也是你添加 SwiftUI 代码的地方。",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* `/core` 모듈은 Aether의 핵심 모듈."
+  },
+  {
+    "row": 22,
+    "rowsha": "+Aeh9It7pzN21X81cSyl1xmLALUX8TGm/MNtlqldrnA=",
+    "originContent": "* `/core` 模块是 Aether 的核心模块。",
+    "translatedContent": "git "
+  },
+  {
+    "row": 23,
+    "rowsha": "DU6XHjeTpyWBFabsHuAv9ZkxnirNef9Tj2FwpJ8x6zs=",
+    "originContent": "git ",
+    "translatedContent": "---"
+  },
+  {
+    "row": 24,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**삼, 도전 과제**"
+  },
+  {
+    "row": 26,
+    "rowsha": "0XtJfaFDAm0S8esbaFS73/GzmW9yLouLZahwmL/h6zM=",
+    "originContent": "**三、挑战**",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* 작업량이 방대하여 인내심 필요, 필자는 여가 시간에 탐구하며 거의 모든 시간을 투자."
+  },
+  {
+    "row": 28,
+    "rowsha": "TevdKvWYWp107/GZYbxhgMmLrB+8YwhM4iobIaQePZA=",
+    "originContent": "* 工作量巨大，需要保持耐心，笔者在业余时间进行探索，几乎已经投入全部时间。",
+    "translatedContent": "* 프로젝트가 복잡하며 핵심 경로는 작동하나 일부 복잡 문법 미지원, 일정 인내심을 갖고 호환 필요. 오픈 소스 공개 이유는 커뮤니티 참여 기대 때문."
+  },
+  {
+    "row": 29,
+    "rowsha": "4/lTzZMHm+wiTQk3ZKPjGenh7sjiiXlOk1sewcHVyx0=",
+    "originContent": "* 项目较为复杂，核心链路虽然跑通了，但是一些复杂的语法还未支持，需要保持一定耐心去兼容。之所以开源出来也是希望依赖于社区同学一起投入进来。",
+    "translatedContent": "* AST 및 DSL 변환과 해석 실행 가상머신 로드 관련되어 문제 해결에 일정 장벽 존재, 경계 예외 로직 처리는 후속 작업자가 더욱 주의 필요."
+  },
+  {
+    "row": 30,
+    "rowsha": "QVCyg4vR5MxNVzOdl0R+OLi/cSJPY0mYCE8gmz7tExQ=",
+    "originContent": "* 因为牵扯到 AST 和 DSL 的转换和解析执行虚拟机的加载，对于排查问题有一定的门槛，边界异常逻辑处理需要后继者更为注意。",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---</translate-content>"
+  },
+  {
+    "row": 32,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  }
+]

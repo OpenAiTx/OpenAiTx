@@ -1,0 +1,646 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Signal Android\n\nSignal is a simple, powerful, and secure messenger.\n\nSignal uses your phone's data connection (WiFi/3G/4G/5G) to communicate securely. Millions of people use Signal every day for free and instantaneous communication anywhere in the world. Send and receive high-fidelity messages, participate in HD voice/video calls, and explore a growing set of new features that help you stay connected. Signal’s advanced privacy-preserving technology is always enabled, so you can focus on sharing the moments that matter with the people who matter to you.\n\nCurrently available on the Play Store and [signal.org](https://signal.org/android/apk/).\n\n<a href='https://play.google.com/store/apps/details?id=org.tm.archive&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height='80px'/></a>\n\n## Contributing Bug reports\nWe use GitHub for bug tracking. Please search the existing issues for your bug and create a new one if the issue is not yet tracked!\n\nhttps://github.com/signalapp/Signal-Android/issues\n\n## Joining the Beta\nWant to live life on the bleeding edge and help out with testing?\n\nYou can subscribe to Signal Android Beta releases here:\nhttps://play.google.com/apps/testing/org.tm.archive\n\nIf you're interested in a life of peace and tranquility, stick with the standard releases.\n\n## Contributing Code\n\nIf you're new to the Signal codebase, we recommend going through our issues and picking out a simple bug to fix (check the \"easy\" label in our issues) in order to get yourself familiar. Also please have a look at the [CONTRIBUTING.md](https://github.com/signalapp/Signal-Android/blob/main/CONTRIBUTING.md), that might answer some of your questions.\n\nFor larger changes and feature ideas, we ask that you propose it on the [unofficial Community Forum](https://community.signalusers.org) for a high-level discussion with the wider community before implementation.\n\n## Contributing Ideas\nHave something you want to say about Signal projects or want to be part of the conversation? Get involved in the [community forum](https://community.signalusers.org).\n\nHelp\n====\n## Support\nFor troubleshooting and questions, please visit our support center!\n\nhttps://support.signal.org/\n\n## Documentation\nLooking for documentation? Check out the wiki!\n\nhttps://github.com/signalapp/Signal-Android/wiki\n\n# Legal things\n## Cryptography Notice\n\nThis distribution includes cryptographic software. The country in which you currently reside may have restrictions on the import, possession, use, and/or re-export to another country, of encryption software.\nBEFORE using any encryption software, please check your country's laws, regulations and policies concerning the import, possession, or use, and re-export of encryption software, to see if this is permitted.\nSee <http://www.wassenaar.org/> for more information.\n\nThe U.S. Government Department of Commerce, Bureau of Industry and Security (BIS), has classified this software as Export Commodity Control Number (ECCN) 5D002.C.1, which includes information security software using or performing cryptographic functions with asymmetric algorithms.\nThe form and manner of this distribution makes it eligible for export under the License Exception ENC Technology Software Unrestricted (TSU) exception (see the BIS Export Administration Regulations, Section 740.13) for both object code and source code.\n\n## License\n\nCopyright 2013-2024 Signal Messenger, LLC\n\nLicensed under the GNU AGPLv3: https://www.gnu.org/licenses/agpl-3.0.html\n\nGoogle Play and the Google Play logo are trademarks of Google LLC.\n\n\n//**TM_SA**//\nSignal – New Base-line\n1.\tDownload the Signal official open source from this link:\n      https://github.com/signalapp/Signal-Android\n\n2.\tRename each folder at the next order:\n      a.\tthoughtcrime  tm\n      b.\tsecuresms  archive\n3.\tReplace all old package mentions vie “replace all” function (Ctrl +Shift + R)\n      a.\torg.tm.archive -> org.tm.archive\n4.\tAdd our archiver SDK and Common library to new folder “libs” and compile them via dependencies.\n5.\tAdd archiver,intune,selfauthentication folders with all archiving class with util etc. (Take them from src->main->java->org)\n6.\tSearch “ArchiveLogger.Companion.sendArchiveLog” in the current project and add all those mentions to the updated project.\n7.\tAdd launcher icon app and change the round icon path in the manifest\n8.\tAdd proguard-event_bus from the current project to the updated one.\n9.\tGo to the current TeleMessage Signal project and search via ctrl+alt+F : //**TM_SA**//\n\nThere are dozens of references to this string please move on the result one by one and replace or add the code with this string ( //**TM_SA**//, in order to create continuation to baseline updating method)\n\n\nintune\n\n1. add dependencies using //**TM_SA**//\n2. add MAMSDK folder with aar and jar\n3. 1. register the app to intune server\n2. https://aad.portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview3. Azure Active Directory > App registrations > New Registration\n3. Authentication, add platform -> add uri -> package name.\n4. then add auth-config file using the View button that show it. put it in resource-> raw\n5. API permissions...\n\n4. 1. https://aad.portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/RegisteredApps\n2. then, App configuration policies -> create app configuration policy -> manage apps -> Settings -> add the values(managerID etc)\n3. Then, Assignments -> include groups you want or assign everyone.\n\n5. http://everythingaboutintune.com/2021/07/guide-for-integrating-intune-sdk-and-msal-to-lob-application/\n\nhttps://www.youtube.com/watch?v=1AyGpcdDRkY&t=741s&ab_channel=EverythingAboutIntune",
+    "ContentSha": "BB9vINon/87mpef1oEHQlNqN1+y69vi9gzQ811to0Js=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Signal Android\n\nSignal 是一款简单、强大且安全的通讯软件。\n\nSignal 使用您的手机数据连接（WiFi/3G/4G/5G）进行安全通信。每天都有数百万人免费且即时地使用 Signal 在世界任何地方进行交流。发送和接收高保真消息，参与高清语音/视频通话，并探索一系列不断增长的新功能，帮助您保持联系。Signal 的先进隐私保护技术始终开启，让您专注于与重要的人分享重要时刻。\n\n目前可在 Play 商店和 [signal.org](https://signal.org/android/apk/) 获取。\n\n<a href='https://play.google.com/store/apps/details?id=org.tm.archive&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height='80px'/></a>\n\n## 贡献 Bug 报告\n我们使用 GitHub 进行 Bug 跟踪。请先搜索现有问题以确认您的 Bug 是否已被记录，若未记录请新建一个问题！\n\nhttps://github.com/signalapp/Signal-Android/issues\n\n## 加入测试版\n想体验最新功能并帮助测试吗？\n\n您可以在这里订阅 Signal Android 测试版发布：\nhttps://play.google.com/apps/testing/org.tm.archive\n\n如果您喜欢安稳平和的生活，请继续使用正式版。\n\n## 贡献代码\n\n如果您是 Signal 代码库的新手，建议先浏览我们的问题列表，挑选一个简单的 Bug 修复（查看问题中的“easy”标签），以便熟悉项目。同时请查看 [CONTRIBUTING.md](https://github.com/signalapp/Signal-Android/blob/main/CONTRIBUTING.md)，它可能解答您的部分疑问。\n\n对于较大的改动和新功能建议，请先在 [非官方社区论坛](https://community.signalusers.org) 提出，与更广泛的社区进行高层次讨论后再实现。\n\n## 贡献想法\n有关于 Signal 项目想要发表意见或参与讨论？请加入 [社区论坛](https://community.signalusers.org)。\n\n帮助\n====\n## 支持\n如需故障排查和提问，请访问我们的支持中心！\n\nhttps://support.signal.org/\n\n## 文档\n寻找文档？请查看维基！\n\nhttps://github.com/signalapp/Signal-Android/wiki\n\n# 法律事项\n## 加密声明\n\n本发行版包含加密软件。您当前所在国家可能对加密软件的进口、持有、使用和/或向他国再出口有限制。\n在使用任何加密软件前，请务必查阅您国家关于加密软件进口、持有、使用及再出口的法律、法规和政策，确认是否允许。\n详见 <http://www.wassenaar.org/>。\n\n美国商务部工业与安全局（BIS）将本软件归类为出口商品控制编号（ECCN）5D002.C.1，包含使用非对称算法执行加密功能的信息安全软件。\n本发行方式符合“加密技术软件无限制许可例外（TSU）”（参见 BIS 出口管理条例第740.13节）条件，适用于对象代码和源代码的出口。\n\n## 许可协议\n\n版权所有 2013-2024 Signal Messenger, LLC\n\n基于 GNU AGPLv3 许可：https://www.gnu.org/licenses/agpl-3.0.html\n\nGoogle Play 及 Google Play 标志为 Google LLC 的商标。\n\n\n//**TM_SA**//\nSignal – 新基线\n1.\t从以下链接下载 Signal 官方开源版本：\n      https://github.com/signalapp/Signal-Android\n\n2.\t按以下顺序重命名每个文件夹：\n      a.\tthoughtcrime  tm\n      b.\tsecuresms  archive\n3.\t使用“全部替换”功能（Ctrl +Shift + R）替换所有旧的包名引用\n      a.\torg.tm.archive -> org.tm.archive\n4.\t将我们的 archiver SDK 和 Common 库添加到新建的 “libs” 文件夹，并通过依赖编译它们。\n5.\t添加 archiver、intune、selfauthentication 文件夹，包含所有归档类及工具等（从 src->main->java->org 获取）\n6.\t在当前项目中搜索 “ArchiveLogger.Companion.sendArchiveLog”，将所有相关引用添加到更新后的项目中。\n7.\t添加启动器图标应用，并更改清单中的圆形图标路径\n8.\t将当前项目中的 proguard-event_bus 添加到更新后的项目。\n9.\t进入当前的 TeleMessage Signal 项目，使用 ctrl+alt+F 搜索：//**TM_SA**//\n\n此字符串有数十处引用，请逐一处理搜索结果，替换或添加包含该字符串的代码（//**TM_SA**//），以便实现基线更新方法的连续性。\n\n\nintune\n\n1. 使用 //**TM_SA**// 添加依赖\n2. 添加包含 aar 和 jar 的 MAMSDK 文件夹\n3. 1. 在 intune 服务器注册应用\n2. https://aad.portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview\n3. Azure Active Directory > 应用注册 > 新注册\n3. 认证，添加平台 -> 添加 URI -> 包名。\n4. 然后使用显示的查看按钮添加 auth-config 文件，放入 resource-> raw 文件夹\n5. API 权限...\n\n4. 1. https://aad.portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/RegisteredApps\n2. 接着，应用配置策略 -> 创建应用配置策略 -> 管理应用 -> 设置 -> 添加值（managerID 等）\n3. 然后，分配 -> 包含你想要的组或分配给所有人。\n\n5. http://everythingaboutintune.com/2021/07/guide-for-integrating-intune-sdk-and-msal-to-lob-application/\n\nhttps://www.youtube.com/watch?v=1AyGpcdDRkY&t=741s&ab_channel=EverythingAboutIntune",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "HC2Ar0ECNo6GnY3/i1/LIyln6HvNlgiehxlkleewTO4=",
+        "originContent": "# Signal Android",
+        "translatedContent": "# Signal Android"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "z7MlfiaztoL87L6Vs1DAlXeNovr75QDCeX/JvkSTInY=",
+        "originContent": "Signal is a simple, powerful, and secure messenger.",
+        "translatedContent": "Signal 是一款简单、强大且安全的通讯软件。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "xiTqWZl3+CSmyko3wPVFTLxReSExnX3usk4fvsgnEy8=",
+        "originContent": "Signal uses your phone's data connection (WiFi/3G/4G/5G) to communicate securely. Millions of people use Signal every day for free and instantaneous communication anywhere in the world. Send and receive high-fidelity messages, participate in HD voice/video calls, and explore a growing set of new features that help you stay connected. Signal’s advanced privacy-preserving technology is always enabled, so you can focus on sharing the moments that matter with the people who matter to you.",
+        "translatedContent": "Signal 使用您的手机数据连接（WiFi/3G/4G/5G）进行安全通信。每天都有数百万人免费且即时地使用 Signal 在世界任何地方进行交流。发送和接收高保真消息，参与高清语音/视频通话，并探索一系列不断增长的新功能，帮助您保持联系。Signal 的先进隐私保护技术始终开启，让您专注于与重要的人分享重要时刻。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "3n8FT20D7FXRCvg2cZxtdFEDsFkZeNs75tcpuj7Ut48=",
+        "originContent": "Currently available on the Play Store and [signal.org](https://signal.org/android/apk/).",
+        "translatedContent": "目前可在 Play 商店和 [signal.org](https://signal.org/android/apk/) 获取。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "BIF/nM2NeEtZuCJTneOWnm8xdAOSaq6UBlB9iqzlaOM=",
+        "originContent": "<a href='https://play.google.com/store/apps/details?id=org.tm.archive&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height='80px'/></a>",
+        "translatedContent": "<a href='https://play.google.com/store/apps/details?id=org.tm.archive&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height='80px'/></a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "ACqAqamaJm/5b5eXlom6uK/LAe5B80QBztaODe7pWW8=",
+        "originContent": "## Contributing Bug reports",
+        "translatedContent": "## 贡献 Bug 报告"
+      },
+      {
+        "row": 12,
+        "rowsha": "nuD07Sxf9itUiVoN28bxkQwQOGjrA/oYnvG3pbYibTY=",
+        "originContent": "We use GitHub for bug tracking. Please search the existing issues for your bug and create a new one if the issue is not yet tracked!",
+        "translatedContent": "我们使用 GitHub 进行 Bug 跟踪。请先搜索现有问题以确认您的 Bug 是否已被记录，若未记录请新建一个问题！"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "dzf3553P71C74k0FhAXnsZ+ZvELr3cOhph+YDbZ+ubU=",
+        "originContent": "https://github.com/signalapp/Signal-Android/issues",
+        "translatedContent": "https://github.com/signalapp/Signal-Android/issues"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "8EZKrAALVO9vvYSHdSfZCaYEdvaYviO/TaucRYxS2Dk=",
+        "originContent": "## Joining the Beta",
+        "translatedContent": "## 加入测试版"
+      },
+      {
+        "row": 17,
+        "rowsha": "DMY+CU1DtUgdqp63uxureLsKJ8MRekh50S0GWvAQGpQ=",
+        "originContent": "Want to live life on the bleeding edge and help out with testing?",
+        "translatedContent": "想体验最新功能并帮助测试吗？"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "bJvLpe1ODFJ1peMnwCZEFKcPFojjvAddaEdQblZ2RVs=",
+        "originContent": "You can subscribe to Signal Android Beta releases here:",
+        "translatedContent": "您可以在这里订阅 Signal Android 测试版发布："
+      },
+      {
+        "row": 20,
+        "rowsha": "fd4ct52us7pktDAUqHZB8jyagUaVIylVQnmIIAE4GrE=",
+        "originContent": "https://play.google.com/apps/testing/org.tm.archive",
+        "translatedContent": "https://play.google.com/apps/testing/org.tm.archive"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "+0jO9iPz2r4/A6n8Ljb0PIB06HHMF1YsKNsvX6Lwq7g=",
+        "originContent": "If you're interested in a life of peace and tranquility, stick with the standard releases.",
+        "translatedContent": "如果您喜欢安稳平和的生活，请继续使用正式版。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "6PiiMXu/AFkuRmtN4DDpxYnzsay7lWNgYEfJkzqjelE=",
+        "originContent": "## Contributing Code",
+        "translatedContent": "## 贡献代码"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "wvQvoBoct1ycm4RX1hojQ8FxfIhOHi+dOhY7nz6nDTQ=",
+        "originContent": "If you're new to the Signal codebase, we recommend going through our issues and picking out a simple bug to fix (check the \"easy\" label in our issues) in order to get yourself familiar. Also please have a look at the [CONTRIBUTING.md](https://github.com/signalapp/Signal-Android/blob/main/CONTRIBUTING.md), that might answer some of your questions.",
+        "translatedContent": "如果您是 Signal 代码库的新手，建议先浏览我们的问题列表，挑选一个简单的 Bug 修复（查看问题中的“easy”标签），以便熟悉项目。同时请查看 [CONTRIBUTING.md](https://github.com/signalapp/Signal-Android/blob/main/CONTRIBUTING.md)，它可能解答您的部分疑问。"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "LyeDZJZ+Bv7cVzn6o15K/L1YG25zQLUZGRr4ay/sTu8=",
+        "originContent": "For larger changes and feature ideas, we ask that you propose it on the [unofficial Community Forum](https://community.signalusers.org) for a high-level discussion with the wider community before implementation.",
+        "translatedContent": "对于较大的改动和新功能建议，请先在 [非官方社区论坛](https://community.signalusers.org) 提出，与更广泛的社区进行高层次讨论后再实现。"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "GiZgLxcYgSsvyG9YQ0QjvQF2VMhN+bL8xT7iFnqNQVw=",
+        "originContent": "## Contributing Ideas",
+        "translatedContent": "## 贡献想法"
+      },
+      {
+        "row": 31,
+        "rowsha": "H+qXKMIsHuABkMsiReVgQVUXeWpviUxpZtZKY6Id0F0=",
+        "originContent": "Have something you want to say about Signal projects or want to be part of the conversation? Get involved in the [community forum](https://community.signalusers.org).",
+        "translatedContent": "有关于 Signal 项目想要发表意见或参与讨论？请加入 [社区论坛](https://community.signalusers.org)。"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "t5yskm4LLjR+csyR1RdAN8nheudzP9e9tXD3GxDNe/w=",
+        "originContent": "Help",
+        "translatedContent": "帮助"
+      },
+      {
+        "row": 34,
+        "rowsha": "zUBkNm7bzS5dP1+5UNLqD8aFUuPqruzcSHF2cGGfC60=",
+        "originContent": "====",
+        "translatedContent": "===="
+      },
+      {
+        "row": 35,
+        "rowsha": "IomX/Z8fZRvFPjDCjVVFhdA00U2wXcfNBs9BCtGX13M=",
+        "originContent": "## Support",
+        "translatedContent": "## 支持"
+      },
+      {
+        "row": 36,
+        "rowsha": "Y+e1AZJjgf8knN44GFuH6mIzQ3yAiKlzflyYJgdRi8Y=",
+        "originContent": "For troubleshooting and questions, please visit our support center!",
+        "translatedContent": "如需故障排查和提问，请访问我们的支持中心！"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "a66qmYnzJVG4SW1w8SYcsXwh47GjWamHrftafkjbOJE=",
+        "originContent": "https://support.signal.org/",
+        "translatedContent": "https://support.signal.org/"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+        "originContent": "## Documentation",
+        "translatedContent": "## 文档"
+      },
+      {
+        "row": 41,
+        "rowsha": "Q3N2t9x+adrInHG4iESd58kj9Iz0suL2AGH0qywrSfE=",
+        "originContent": "Looking for documentation? Check out the wiki!",
+        "translatedContent": "寻找文档？请查看维基！"
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "8i7FuOI7FJKF7xXqvJ5yv427e0sdDEMMO8z613GBtJg=",
+        "originContent": "https://github.com/signalapp/Signal-Android/wiki",
+        "translatedContent": "https://github.com/signalapp/Signal-Android/wiki"
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "sp5vxKZnX5vfZjSFIbRI1pb+Tx2BIpzqrwZEnzgfg5Q=",
+        "originContent": "# Legal things",
+        "translatedContent": "# 法律事项"
+      },
+      {
+        "row": 46,
+        "rowsha": "xpCRSnwjs9o2t/5WB6F9isRiEcmbJSlfNO79Pj5Fl74=",
+        "originContent": "## Cryptography Notice",
+        "translatedContent": "## 加密声明"
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 48,
+        "rowsha": "MNgvvPFOOMdK4J9pwyN6SnBSqZwQz9RW4dDc6XdEg54=",
+        "originContent": "This distribution includes cryptographic software. The country in which you currently reside may have restrictions on the import, possession, use, and/or re-export to another country, of encryption software.",
+        "translatedContent": "本发行版包含加密软件。您当前所在国家可能对加密软件的进口、持有、使用和/或向他国再出口有限制。"
+      },
+      {
+        "row": 49,
+        "rowsha": "ycVOdPE2D1va+0iLZlVQAx22FWJF1qWN0ovZf3JQI3I=",
+        "originContent": "BEFORE using any encryption software, please check your country's laws, regulations and policies concerning the import, possession, or use, and re-export of encryption software, to see if this is permitted.",
+        "translatedContent": "在使用任何加密软件前，请务必查阅您国家关于加密软件进口、持有、使用及再出口的法律、法规和政策，确认是否允许。"
+      },
+      {
+        "row": 50,
+        "rowsha": "t7wN06hsV/lVXMZxweagB9pV7ttMKDfoxnsXEo5Zu6A=",
+        "originContent": "See <http://www.wassenaar.org/> for more information.",
+        "translatedContent": "详见 <http://www.wassenaar.org/>。"
+      },
+      {
+        "row": 51,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 52,
+        "rowsha": "+L0KFfkRhIrUnukkfyf/8uBC/SZImk5ldB4+vp9fDy4=",
+        "originContent": "The U.S. Government Department of Commerce, Bureau of Industry and Security (BIS), has classified this software as Export Commodity Control Number (ECCN) 5D002.C.1, which includes information security software using or performing cryptographic functions with asymmetric algorithms.",
+        "translatedContent": "美国商务部工业与安全局（BIS）将本软件归类为出口商品控制编号（ECCN）5D002.C.1，包含使用非对称算法执行加密功能的信息安全软件。"
+      },
+      {
+        "row": 53,
+        "rowsha": "XmD+r0SC3l+3Fp1bzcEs3pz3Q4DNCCeSOx7jtQJv8NM=",
+        "originContent": "The form and manner of this distribution makes it eligible for export under the License Exception ENC Technology Software Unrestricted (TSU) exception (see the BIS Export Administration Regulations, Section 740.13) for both object code and source code.",
+        "translatedContent": "本发行方式符合“加密技术软件无限制许可例外（TSU）”（参见 BIS 出口管理条例第740.13节）条件，适用于对象代码和源代码的出口。"
+      },
+      {
+        "row": 54,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 55,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 许可协议"
+      },
+      {
+        "row": 56,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 57,
+        "rowsha": "3lXy+eR9OyBvlMekdXou4P2FmU0yTzAJgJ4uPO1LJEY=",
+        "originContent": "Copyright 2013-2024 Signal Messenger, LLC",
+        "translatedContent": "版权所有 2013-2024 Signal Messenger, LLC"
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 59,
+        "rowsha": "d6Lf+sn4wypA/VbP2zi6wY7/gRX5YH82JbRaLePezX8=",
+        "originContent": "Licensed under the GNU AGPLv3: https://www.gnu.org/licenses/agpl-3.0.html",
+        "translatedContent": "基于 GNU AGPLv3 许可：https://www.gnu.org/licenses/agpl-3.0.html"
+      },
+      {
+        "row": 60,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 61,
+        "rowsha": "Ltghl7gZKJdZD1zBdk2MWUcl2irE6TkWTDe3rMlfbek=",
+        "originContent": "Google Play and the Google Play logo are trademarks of Google LLC.",
+        "translatedContent": "Google Play 及 Google Play 标志为 Google LLC 的商标。"
+      },
+      {
+        "row": 62,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 63,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 64,
+        "rowsha": "3EmjWlxtaoSR3hEnPZ0U1J6uuZgwhAP2BmWwl7+Tiac=",
+        "originContent": "//**TM_SA**//",
+        "translatedContent": "//**TM_SA**//"
+      },
+      {
+        "row": 65,
+        "rowsha": "hBFJfSQp9CvGiRYkr12iI0+jv0bz6urFo7jRED7PLJQ=",
+        "originContent": "Signal – New Base-line",
+        "translatedContent": "Signal – 新基线"
+      },
+      {
+        "row": 66,
+        "rowsha": "WDVTynsWHeajP84b2oiLQcRHMd+eNTPBjuy4EqxqoOI=",
+        "originContent": "1.\tDownload the Signal official open source from this link:",
+        "translatedContent": "1.\t从以下链接下载 Signal 官方开源版本："
+      },
+      {
+        "row": 67,
+        "rowsha": "rMgaM8Sx/qQseCSpzAAJQyG81Bnu3E5jASe5mDtWcKA=",
+        "originContent": "      https://github.com/signalapp/Signal-Android",
+        "translatedContent": "      https://github.com/signalapp/Signal-Android"
+      },
+      {
+        "row": 68,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 69,
+        "rowsha": "d3ksVd8vimfrdb/GYJbxeAZ3tnJ+IQ6XKCLamEOR8JQ=",
+        "originContent": "2.\tRename each folder at the next order:",
+        "translatedContent": "2.\t按以下顺序重命名每个文件夹："
+      },
+      {
+        "row": 70,
+        "rowsha": "Hjanm4lIMu9VoNCIb2MtUvh2/FXqd1u3rijY+Z2no2o=",
+        "originContent": "      a.\tthoughtcrime  tm",
+        "translatedContent": "      a.\tthoughtcrime  tm"
+      },
+      {
+        "row": 71,
+        "rowsha": "W9H2bczVhlzO/Dh3MAWqlHzD8ZfR8OQQMt84iiubFq4=",
+        "originContent": "      b.\tsecuresms  archive",
+        "translatedContent": "      b.\tsecuresms  archive"
+      },
+      {
+        "row": 72,
+        "rowsha": "eKHVvxmGszB0Qz10UknF1oxPHe9Q/RT4dQwyuzngObQ=",
+        "originContent": "3.\tReplace all old package mentions vie “replace all” function (Ctrl +Shift + R)",
+        "translatedContent": "3.\t使用“全部替换”功能（Ctrl +Shift + R）替换所有旧的包名引用"
+      },
+      {
+        "row": 73,
+        "rowsha": "6qGAJRJ8cPUgjiKPNxisp3cJUS+rtGmo2fxwtVYbLYo=",
+        "originContent": "      a.\torg.tm.archive -> org.tm.archive",
+        "translatedContent": "      a.\torg.tm.archive -> org.tm.archive"
+      },
+      {
+        "row": 74,
+        "rowsha": "4TdnrxV0ell43NiRMOO3Rw4JrFaS1iZkxYYOeuUewpw=",
+        "originContent": "4.\tAdd our archiver SDK and Common library to new folder “libs” and compile them via dependencies.",
+        "translatedContent": "4.\t将我们的 archiver SDK 和 Common 库添加到新建的 “libs” 文件夹，并通过依赖编译它们。"
+      },
+      {
+        "row": 75,
+        "rowsha": "e/h9FpKxo7cVDq8oM3NTmFRg7XGG25LAnH1iSJFLDTM=",
+        "originContent": "5.\tAdd archiver,intune,selfauthentication folders with all archiving class with util etc. (Take them from src->main->java->org)",
+        "translatedContent": "5.\t添加 archiver、intune、selfauthentication 文件夹，包含所有归档类及工具等（从 src->main->java->org 获取）"
+      },
+      {
+        "row": 76,
+        "rowsha": "JD0AtAuDKnKhw4rZUacR1buEWLw2PTvqZMxS2Gt26ZE=",
+        "originContent": "6.\tSearch “ArchiveLogger.Companion.sendArchiveLog” in the current project and add all those mentions to the updated project.",
+        "translatedContent": "6.\t在当前项目中搜索 “ArchiveLogger.Companion.sendArchiveLog”，将所有相关引用添加到更新后的项目中。"
+      },
+      {
+        "row": 77,
+        "rowsha": "bvEsUiv35OjEAkGvAoI8a2ehobl4a3i2vNT8y0GiMZo=",
+        "originContent": "7.\tAdd launcher icon app and change the round icon path in the manifest",
+        "translatedContent": "7.\t添加启动器图标应用，并更改清单中的圆形图标路径"
+      },
+      {
+        "row": 78,
+        "rowsha": "wtPciCGioaSpLPxBJyYmDS7KMtRAJKo5R5YrVAtRVDM=",
+        "originContent": "8.\tAdd proguard-event_bus from the current project to the updated one.",
+        "translatedContent": "8.\t将当前项目中的 proguard-event_bus 添加到更新后的项目。"
+      },
+      {
+        "row": 79,
+        "rowsha": "OkyCsjB3kKR+VFS6Yi8I0CLT3apiQV6If2Tx0HhDOFE=",
+        "originContent": "9.\tGo to the current TeleMessage Signal project and search via ctrl+alt+F : //**TM_SA**//",
+        "translatedContent": "9.\t进入当前的 TeleMessage Signal 项目，使用 ctrl+alt+F 搜索：//**TM_SA**//"
+      },
+      {
+        "row": 80,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 81,
+        "rowsha": "i7unN9ISCkV900RryNrGvw+/GH4sbhTXEaoWflTybaI=",
+        "originContent": "There are dozens of references to this string please move on the result one by one and replace or add the code with this string ( //**TM_SA**//, in order to create continuation to baseline updating method)",
+        "translatedContent": "此字符串有数十处引用，请逐一处理搜索结果，替换或添加包含该字符串的代码（//**TM_SA**//），以便实现基线更新方法的连续性。"
+      },
+      {
+        "row": 82,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 83,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 84,
+        "rowsha": "8X2Dw5qbiRh3MIFhyxIT1LiBDjYNlG8Q8KkErYQJCh8=",
+        "originContent": "intune",
+        "translatedContent": "intune"
+      },
+      {
+        "row": 85,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 86,
+        "rowsha": "+OVY/9p5pmoRNpv9jrfu4avqgm4nc2dtr9acuLBbBpM=",
+        "originContent": "1. add dependencies using //**TM_SA**//",
+        "translatedContent": "1. 使用 //**TM_SA**// 添加依赖"
+      },
+      {
+        "row": 87,
+        "rowsha": "h9jrSFLy788L+TjFFrETX+V5kh2KY3RMf4gSAjWgNwo=",
+        "originContent": "2. add MAMSDK folder with aar and jar",
+        "translatedContent": "2. 添加包含 aar 和 jar 的 MAMSDK 文件夹"
+      },
+      {
+        "row": 88,
+        "rowsha": "+Y8wqv4TwfV9pWoWk4YIKrgfgxMC0ye50nNf1LrSjTU=",
+        "originContent": "3. 1. register the app to intune server",
+        "translatedContent": "3. 1. 在 intune 服务器注册应用"
+      },
+      {
+        "row": 89,
+        "rowsha": "JRFPA5ohIN++Swo+xLCtVretSYgFI4B9efe8Bmfed7M=",
+        "originContent": "2. https://aad.portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview3. Azure Active Directory > App registrations > New Registration",
+        "translatedContent": "2. https://aad.portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview"
+      },
+      {
+        "row": 90,
+        "rowsha": "yPGPC7hXYsycnX7/Y4MIZARdv38JNTOskQJrAeFPemw=",
+        "originContent": "3. Authentication, add platform -> add uri -> package name.",
+        "translatedContent": "3. Azure Active Directory > 应用注册 > 新注册"
+      },
+      {
+        "row": 91,
+        "rowsha": "PTDgjpHIoovkOgG73lAPgeeonxupBXnwWxZVgAI00dM=",
+        "originContent": "4. then add auth-config file using the View button that show it. put it in resource-> raw",
+        "translatedContent": "3. 认证，添加平台 -> 添加 URI -> 包名。"
+      },
+      {
+        "row": 92,
+        "rowsha": "yhxRnIKfWp2KCuKC87yC6aVpJdetTYxiIMlTvzSBRJs=",
+        "originContent": "5. API permissions...",
+        "translatedContent": "4. 然后使用显示的查看按钮添加 auth-config 文件，放入 resource-> raw 文件夹"
+      },
+      {
+        "row": 93,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "5. API 权限..."
+      },
+      {
+        "row": 94,
+        "rowsha": "E0BTZG11WmJy85Yx4I+idnVNjEILajig/+ifaJqp2Pw=",
+        "originContent": "4. 1. https://aad.portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/RegisteredApps",
+        "translatedContent": ""
+      },
+      {
+        "row": 95,
+        "rowsha": "TkypSsE5VWj5O3r3QPWt5mY2S+UBnmj/pLfB0ZcCYOI=",
+        "originContent": "2. then, App configuration policies -> create app configuration policy -> manage apps -> Settings -> add the values(managerID etc)",
+        "translatedContent": "4. 1. https://aad.portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/RegisteredApps"
+      },
+      {
+        "row": 96,
+        "rowsha": "6reG8sIh+/Hry8D7WFGj7XvXMudoevxacdO/bD7p3QA=",
+        "originContent": "3. Then, Assignments -> include groups you want or assign everyone.",
+        "translatedContent": "2. 接着，应用配置策略 -> 创建应用配置策略 -> 管理应用 -> 设置 -> 添加值（managerID 等）"
+      },
+      {
+        "row": 97,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. 然后，分配 -> 包含你想要的组或分配给所有人。"
+      },
+      {
+        "row": 98,
+        "rowsha": "iFxoIF7W6SvjJ0pvlKMTczu6ZpGOv7Spom6ERghPA7Y=",
+        "originContent": "5. http://everythingaboutintune.com/2021/07/guide-for-integrating-intune-sdk-and-msal-to-lob-application/",
+        "translatedContent": ""
+      },
+      {
+        "row": 99,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "5. http://everythingaboutintune.com/2021/07/guide-for-integrating-intune-sdk-and-msal-to-lob-application/"
+      },
+      {
+        "row": 100,
+        "rowsha": "WNlJCte9Hq/aJdDhgmWMvv+UAsfasZPQjWZA7Nmc6aA=",
+        "originContent": "https://www.youtube.com/watch?v=1AyGpcdDRkY&t=741s&ab_channel=EverythingAboutIntune",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\nhttps://github.com/msintuneappsdk/Taskr-Sample-Intune-Android-App#readme\n//**TM_SA**//",
+    "ContentSha": "0+uePrCHCcF33h76+L3eDGqfph9YOaGbOud3FdgpXmk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "https://github.com/msintuneappsdk/Taskr-Sample-Intune-Android-App#readme\n//**TM_SA**//\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "https://github.com/msintuneappsdk/Taskr-Sample-Intune-Android-App#readme"
+      },
+      {
+        "row": 2,
+        "rowsha": "AAEf3fMttUvvdt+6gX66a40hp/U6cZ0YdinxntDI7X8=",
+        "originContent": "https://github.com/msintuneappsdk/Taskr-Sample-Intune-Android-App#readme",
+        "translatedContent": "//**TM_SA**//"
+      },
+      {
+        "row": 3,
+        "rowsha": "3EmjWlxtaoSR3hEnPZ0U1J6uuZgwhAP2BmWwl7+Tiac=",
+        "originContent": "//**TM_SA**//",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

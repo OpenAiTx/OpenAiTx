@@ -1,0 +1,459 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Netflix Household No More 🚫\n\nA browser extension aiming to bypass the Netflix household verification prompts by employing different strategies depending on the page context.\n\n**Supports:** `Chrome` (and Chromium-based browsers like Edge) | `Firefox`\n\n---\n\n## Features\n\n*   **Blocks Verification Request on `/watch`:** Prevents the specific GraphQL network request associated with the household check from running when you are on a video watching page (`/watch/`).\n*   **Hides Verification Modal on `/browse` (and others):** On pages *other* than `/watch/` (like the main browse page), it hides the household verification modal popup if it appears.\n*   **Target:** Only affects `netflix.com` domains.\n\n\n---\n\n## Installation (Official)\n\n**Mozilla Firefox:** https://addons.mozilla.org/cs/firefox/addon/netflix-household-no-more/\n\n**Google Chrome / Microsoft Edge / Chromium Browsers:** Extension not published yet.\n\n\n## Installation (Local Development/Testing)\n\nAs this extension is not published yet on chrome store, you need to load it manually.\n\n**Google Chrome / Microsoft Edge / Chromium Browsers:**\n\n1.  Download or clone this repository to your local machine.\n2.  Open your browser and navigate to `chrome://extensions` (or `edge://extensions`).\n3.  Enable **Developer mode** (usually a toggle in the top-right corner).\n4.  Click the **Load unpacked** button.\n5.  Select the directory where you saved the extension files (the folder containing `manifest.json`).\n6.  The extension should now be loaded and active.\n\n**Mozilla Firefox:**\n\n1.  Download or clone this repository to your local machine.\n2.  Open Firefox and navigate to `about:debugging`.\n3.  Click on **This Firefox** in the left sidebar.\n4.  Click the **Load Temporary Add-on...** button.\n5.  Navigate to the directory where you saved the extension files.\n6.  Select the **`manifest.json`** file itself.\n7.  The extension should now be loaded and active for the current browser session.\n    *   **Note:** Firefox temporary add-ons are removed when you close the browser. You will need to reload it each time you restart Firefox.\n\n---\n\n## Caveats & Known Issues\n\n*   **Netflix Video player UI is not visible:** If u dont see the video player UI, just refresh the page. that should fix it for you.\n\n*   **Netflix Updates:** Netflix frequently updates its website and internal APIs. Any changes to the GraphQL endpoint URL, the request structure, the page structure (`/watch/` path), or the modal's CSS selectors/HTML structure could break this extension partially or completely.\n*   **Console Errors:** When on a `/watch/` page, you **will** see network errors (often CORS-related) in the browser's developer console. This is an expected side effect of the extension successfully blocking the network request. While visually noisy, it generally does not impact performance.\n*   **Fragile css:** The modal hiding relies on specific CSS class names and `data-uia` attributes. These might change without notice.\n\n---\n\n## Disclaimer\n\n*   This extension is not endorsed by or affiliated with Netflix in any way.\n*   Use this extension at your own risk. The developers assume no liability.\n*   Modifying network requests or the DOM on third-party websites might violate their Terms of Service. Be aware of the potential consequences.\n\n---\n\n## License\n\nCopyright [Amachi] - All Rights Reserved.\n\nPermission is granted to download and use this software for personal, non-commercial purposes only. Redistribution, modification, or commercial use of this software, in whole or in part, is strictly prohibited without the express written permission of the copyright holder.\n",
+    "ContentSha": "QsOmTPRSitAJDigvwh5wjO+XeQOCOYdU5sW63nubaLQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Netflix 家庭账户验证终结 🚫\n\n一个浏览器扩展，旨在通过根据页面上下文采用不同策略，绕过 Netflix 的家庭账户验证提示。\n\n**支持：** `Chrome`（及基于 Chromium 的浏览器如 Edge） | `Firefox`\n\n---\n\n## 功能\n\n*   **阻止 `/watch` 页面上的验证请求：** 在视频播放页面（`/watch/`）阻止与家庭验证相关的特定 GraphQL 网络请求。\n*   **隐藏 `/browse`（及其他）页面上的验证弹窗：** 在除 `/watch/` 以外的页面（如主浏览页面）隐藏出现的家庭验证弹窗。\n*   **目标：** 仅影响 `netflix.com` 域名。\n\n---\n\n## 安装（官方）\n\n**Mozilla Firefox：** https://addons.mozilla.org/cs/firefox/addon/netflix-household-no-more/\n\n**Google Chrome / Microsoft Edge / Chromium 浏览器：** 扩展尚未发布。\n\n## 安装（本地开发/测试）\n\n由于该扩展尚未在 Chrome 商店发布，您需要手动加载。\n\n**Google Chrome / Microsoft Edge / Chromium 浏览器：**\n\n1.  下载或克隆此仓库到本地。\n2.  打开浏览器，访问 `chrome://extensions`（或 `edge://extensions`）。\n3.  启用 **开发者模式**（通常位于右上角的开关）。\n4.  点击 **加载已解压的扩展程序** 按钮。\n5.  选择保存扩展文件的目录（包含 `manifest.json` 的文件夹）。\n6.  扩展程序现在应已加载并生效。\n\n**Mozilla Firefox：**\n\n1.  下载或克隆此仓库到本地。\n2.  打开 Firefox，访问 `about:debugging`。\n3.  点击左侧边栏的 **此 Firefox**。\n4.  点击 **加载临时附加组件...** 按钮。\n5.  定位到保存扩展文件的目录。\n6.  选择 **`manifest.json`** 文件。\n7.  扩展程序现在应已加载并在当前浏览器会话中生效。\n    *   **注意：** Firefox 的临时附加组件在关闭浏览器时会被移除。每次重启 Firefox 时需重新加载。\n\n---\n\n## 注意事项与已知问题\n\n*   **Netflix 视频播放器界面不可见：** 若看不到视频播放器界面，请刷新页面，通常可以解决。\n*   **Netflix 更新：** Netflix 经常更新其网站和内部 API。对 GraphQL 端点 URL、请求结构、页面结构（`/watch/` 路径）或弹窗的 CSS 选择器/HTML 结构的任何更改，可能会部分或完全导致此扩展失效。\n*   **控制台错误：** 在 `/watch/` 页面时，浏览器开发者控制台中会出现网络错误（通常是 CORS 相关）。这是扩展成功阻止网络请求的预期副作用。虽然视觉上有些杂乱，但通常不会影响性能。\n*   **脆弱的 CSS：** 弹窗隐藏依赖特定的 CSS 类名和 `data-uia` 属性，这些可能随时更改且无预警。\n\n---\n\n## 免责声明\n\n*   本扩展与 Netflix 无任何官方关联或认可。\n*   使用本扩展风险自负。开发者不承担任何责任。\n*   修改第三方网站的网络请求或 DOM 可能违反其服务条款，请注意潜在后果。\n\n---\n\n## 许可协议\n\n版权所有 [Amachi] - 保留所有权利。\n\n仅授权下载并个人非商业用途使用本软件。未经版权所有者明确书面许可，严禁全部或部分转载、修改或商业使用本软件。\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "u4T24xIQEaeIkTQEfXivbWOl7lg+YBH1aPESdfVKKKk=",
+        "originContent": "# Netflix Household No More 🚫",
+        "translatedContent": "# Netflix 家庭账户验证终结 🚫"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "aRkc2M9B72aJYdv20kcGw3cwbZwJGhagQRl+E4/mToI=",
+        "originContent": "A browser extension aiming to bypass the Netflix household verification prompts by employing different strategies depending on the page context.",
+        "translatedContent": "一个浏览器扩展，旨在通过根据页面上下文采用不同策略，绕过 Netflix 的家庭账户验证提示。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "7b5ReFvSRfDpCyWYFaxsSDvlVEzxl9SW9rVA8L2pQaQ=",
+        "originContent": "**Supports:** `Chrome` (and Chromium-based browsers like Edge) | `Firefox`",
+        "translatedContent": "**支持：** `Chrome`（及基于 Chromium 的浏览器如 Edge） | `Firefox`"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 功能"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Bw+QbVqhLdIHSh33lcLsw0ksxsN5hxKFU46u/qmkAb4=",
+        "originContent": "*   **Blocks Verification Request on `/watch`:** Prevents the specific GraphQL network request associated with the household check from running when you are on a video watching page (`/watch/`).",
+        "translatedContent": "*   **阻止 `/watch` 页面上的验证请求：** 在视频播放页面（`/watch/`）阻止与家庭验证相关的特定 GraphQL 网络请求。"
+      },
+      {
+        "row": 12,
+        "rowsha": "NDHyF07KuKi8x08gUwBOiMPN5SSuj55ZaEkDUP96If0=",
+        "originContent": "*   **Hides Verification Modal on `/browse` (and others):** On pages *other* than `/watch/` (like the main browse page), it hides the household verification modal popup if it appears.",
+        "translatedContent": "*   **隐藏 `/browse`（及其他）页面上的验证弹窗：** 在除 `/watch/` 以外的页面（如主浏览页面）隐藏出现的家庭验证弹窗。"
+      },
+      {
+        "row": 13,
+        "rowsha": "X8JrWaGPyQWPvYieW5yBL+ByMQlcA2KRL2EW8d1UopM=",
+        "originContent": "*   **Target:** Only affects `netflix.com` domains.",
+        "translatedContent": "*   **目标：** 仅影响 `netflix.com` 域名。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 16,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 安装（官方）"
+      },
+      {
+        "row": 18,
+        "rowsha": "hTWVCs3Em5QTGswqR3oj7XvzR9oTp/pu96ge8TAm/So=",
+        "originContent": "## Installation (Official)",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**Mozilla Firefox：** https://addons.mozilla.org/cs/firefox/addon/netflix-household-no-more/"
+      },
+      {
+        "row": 20,
+        "rowsha": "eCy53kU1qZJZmzErkiqE6HS1F9FFJtNq/v3TGDz//sM=",
+        "originContent": "**Mozilla Firefox:** https://addons.mozilla.org/cs/firefox/addon/netflix-household-no-more/",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**Google Chrome / Microsoft Edge / Chromium 浏览器：** 扩展尚未发布。"
+      },
+      {
+        "row": 22,
+        "rowsha": "Bkxm41Cap9dhDo4xU3KcLvlQY1KHJ8MnID3L+JzzBHo=",
+        "originContent": "**Google Chrome / Microsoft Edge / Chromium Browsers:** Extension not published yet.",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 安装（本地开发/测试）"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "cPYVLnmukTCY8IzEVbuDBhhQb+mSP0qvv/ajNHWhSsg=",
+        "originContent": "## Installation (Local Development/Testing)",
+        "translatedContent": "由于该扩展尚未在 Chrome 商店发布，您需要手动加载。"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "fjQL7P9Fuw58WqaqGrYTLmWwpTxBgdXYJSsHXCbPfQ4=",
+        "originContent": "As this extension is not published yet on chrome store, you need to load it manually.",
+        "translatedContent": "**Google Chrome / Microsoft Edge / Chromium 浏览器：**"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "MTzb28PNivZgpHxYvNihKRnPuo1RPRkas/uOnr2kdXQ=",
+        "originContent": "**Google Chrome / Microsoft Edge / Chromium Browsers:**",
+        "translatedContent": "1.  下载或克隆此仓库到本地。"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2.  打开浏览器，访问 `chrome://extensions`（或 `edge://extensions`）。"
+      },
+      {
+        "row": 31,
+        "rowsha": "mwyFfSaekgf1Z1BBepvvTBUCHl/nxWGsrF3hGz9xLwo=",
+        "originContent": "1.  Download or clone this repository to your local machine.",
+        "translatedContent": "3.  启用 **开发者模式**（通常位于右上角的开关）。"
+      },
+      {
+        "row": 32,
+        "rowsha": "4enqFbxtDu+PPMGxrdDY8pQOz8TzPquGdSjCIKbNE5g=",
+        "originContent": "2.  Open your browser and navigate to `chrome://extensions` (or `edge://extensions`).",
+        "translatedContent": "4.  点击 **加载已解压的扩展程序** 按钮。"
+      },
+      {
+        "row": 33,
+        "rowsha": "Z4+YpiNeAByr4HN5SpUSie1AHUFiSIFddXJI8ARN6r0=",
+        "originContent": "3.  Enable **Developer mode** (usually a toggle in the top-right corner).",
+        "translatedContent": "5.  选择保存扩展文件的目录（包含 `manifest.json` 的文件夹）。"
+      },
+      {
+        "row": 34,
+        "rowsha": "l9PqR3ohiwzS3JY2raOBFW8g2Z0l1w1rnkmuLONAxV0=",
+        "originContent": "4.  Click the **Load unpacked** button.",
+        "translatedContent": "6.  扩展程序现在应已加载并生效。"
+      },
+      {
+        "row": 35,
+        "rowsha": "OEzl8zvM8lJQfssu1EXPra3Yu6hWIE9mVcTX1nu4HFI=",
+        "originContent": "5.  Select the directory where you saved the extension files (the folder containing `manifest.json`).",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "5UlanC/SJqbNSbedVaUfc0YJqJUBoyoZNXwXW4MWjSc=",
+        "originContent": "6.  The extension should now be loaded and active.",
+        "translatedContent": "**Mozilla Firefox：**"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "PIDsxDvRZrpj+iSA7TxRVrBpB/VobECsOSYxqgbjKrU=",
+        "originContent": "**Mozilla Firefox:**",
+        "translatedContent": "1.  下载或克隆此仓库到本地。"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2.  打开 Firefox，访问 `about:debugging`。"
+      },
+      {
+        "row": 40,
+        "rowsha": "mwyFfSaekgf1Z1BBepvvTBUCHl/nxWGsrF3hGz9xLwo=",
+        "originContent": "1.  Download or clone this repository to your local machine.",
+        "translatedContent": "3.  点击左侧边栏的 **此 Firefox**。"
+      },
+      {
+        "row": 41,
+        "rowsha": "ho3SR4Txag5kPSK62QNjfWjRLvEFBqNgtPADim19Y08=",
+        "originContent": "2.  Open Firefox and navigate to `about:debugging`.",
+        "translatedContent": "4.  点击 **加载临时附加组件...** 按钮。"
+      },
+      {
+        "row": 42,
+        "rowsha": "aXOHnvDzlhUk/gHQ3COWXKdhmqk5zszZ2eUxsos88ys=",
+        "originContent": "3.  Click on **This Firefox** in the left sidebar.",
+        "translatedContent": "5.  定位到保存扩展文件的目录。"
+      },
+      {
+        "row": 43,
+        "rowsha": "Xl3Rl+KKtrcVV5ORfYL8Y/anY0KisSXktQIpw6Zrs0M=",
+        "originContent": "4.  Click the **Load Temporary Add-on...** button.",
+        "translatedContent": "6.  选择 **`manifest.json`** 文件。"
+      },
+      {
+        "row": 44,
+        "rowsha": "PFnUBTN5CZC2ND1av4Ne9o/y/sjA1aykYLXz33AfnvM=",
+        "originContent": "5.  Navigate to the directory where you saved the extension files.",
+        "translatedContent": "7.  扩展程序现在应已加载并在当前浏览器会话中生效。"
+      },
+      {
+        "row": 45,
+        "rowsha": "y/ydC5BzPIfwNSAsjPYr7yPyvZAsgYh5nOOjBvKXWtM=",
+        "originContent": "6.  Select the **`manifest.json`** file itself.",
+        "translatedContent": "    *   **注意：** Firefox 的临时附加组件在关闭浏览器时会被移除。每次重启 Firefox 时需重新加载。"
+      },
+      {
+        "row": 46,
+        "rowsha": "nhsfvMMpibYHLsblBOQ9WuCiX3p34xGLiQ5DiJ5qDmQ=",
+        "originContent": "7.  The extension should now be loaded and active for the current browser session.",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "7f6196E1Q7qS7xYoXuLiy6itK5N8bKtwfBIsMyIVx5o=",
+        "originContent": "    *   **Note:** Firefox temporary add-ons are removed when you close the browser. You will need to reload it each time you restart Firefox.",
+        "translatedContent": "---"
+      },
+      {
+        "row": 48,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "## 注意事项与已知问题"
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "jrUE6hUlGv3emYpTfRs69kzk7H713+a14ALe/XqRVRw=",
+        "originContent": "## Caveats & Known Issues",
+        "translatedContent": "*   **Netflix 视频播放器界面不可见：** 若看不到视频播放器界面，请刷新页面，通常可以解决。"
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **Netflix 更新：** Netflix 经常更新其网站和内部 API。对 GraphQL 端点 URL、请求结构、页面结构（`/watch/` 路径）或弹窗的 CSS 选择器/HTML 结构的任何更改，可能会部分或完全导致此扩展失效。"
+      },
+      {
+        "row": 53,
+        "rowsha": "Cxc8ZQ0PLScAzOzBvfoiKDySj5VUjTFqnp5drnapHqg=",
+        "originContent": "*   **Netflix Video player UI is not visible:** If u dont see the video player UI, just refresh the page. that should fix it for you.",
+        "translatedContent": "*   **控制台错误：** 在 `/watch/` 页面时，浏览器开发者控制台中会出现网络错误（通常是 CORS 相关）。这是扩展成功阻止网络请求的预期副作用。虽然视觉上有些杂乱，但通常不会影响性能。"
+      },
+      {
+        "row": 54,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   **脆弱的 CSS：** 弹窗隐藏依赖特定的 CSS 类名和 `data-uia` 属性，这些可能随时更改且无预警。"
+      },
+      {
+        "row": 55,
+        "rowsha": "Gt+Aj8YG3bv4YrFl5uOP/Q0vbhNQER+UFUi4mSUXUO0=",
+        "originContent": "*   **Netflix Updates:** Netflix frequently updates its website and internal APIs. Any changes to the GraphQL endpoint URL, the request structure, the page structure (`/watch/` path), or the modal's CSS selectors/HTML structure could break this extension partially or completely.",
+        "translatedContent": ""
+      },
+      {
+        "row": 56,
+        "rowsha": "tRW6AGR7+u9TxePh5I9PNZR8TETM7cggjC5oWAkHojE=",
+        "originContent": "*   **Console Errors:** When on a `/watch/` page, you **will** see network errors (often CORS-related) in the browser's developer console. This is an expected side effect of the extension successfully blocking the network request. While visually noisy, it generally does not impact performance.",
+        "translatedContent": "---"
+      },
+      {
+        "row": 57,
+        "rowsha": "jgaymEbGbRNZlvtcniWW3GJCyiNYsLnqshGlDt5TmVw=",
+        "originContent": "*   **Fragile css:** The modal hiding relies on specific CSS class names and `data-uia` attributes. These might change without notice.",
+        "translatedContent": ""
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 免责声明"
+      },
+      {
+        "row": 59,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 60,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   本扩展与 Netflix 无任何官方关联或认可。"
+      },
+      {
+        "row": 61,
+        "rowsha": "aU2AoMUV45em9//+jYmdfv83JGc0QNF5oAwpldQ5sVo=",
+        "originContent": "## Disclaimer",
+        "translatedContent": "*   使用本扩展风险自负。开发者不承担任何责任。"
+      },
+      {
+        "row": 62,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*   修改第三方网站的网络请求或 DOM 可能违反其服务条款，请注意潜在后果。"
+      },
+      {
+        "row": 63,
+        "rowsha": "fEvpk+5YqTcjR9c/dXm7e8mudF0Lda0Ex/UyUnnRDew=",
+        "originContent": "*   This extension is not endorsed by or affiliated with Netflix in any way.",
+        "translatedContent": ""
+      },
+      {
+        "row": 64,
+        "rowsha": "J9HiWIkj/Xdd/nAQT2E7bWua8oMfPWz2yP7XeZsb7xI=",
+        "originContent": "*   Use this extension at your own risk. The developers assume no liability.",
+        "translatedContent": "---"
+      },
+      {
+        "row": 65,
+        "rowsha": "BexIfO1O8yfkwi2CPQtRihilLYAzmTcppKYt/OTwt+Y=",
+        "originContent": "*   Modifying network requests or the DOM on third-party websites might violate their Terms of Service. Be aware of the potential consequences.",
+        "translatedContent": ""
+      },
+      {
+        "row": 66,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 许可协议"
+      },
+      {
+        "row": 67,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 68,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "版权所有 [Amachi] - 保留所有权利。"
+      },
+      {
+        "row": 69,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 70,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "仅授权下载并个人非商业用途使用本软件。未经版权所有者明确书面许可，严禁全部或部分转载、修改或商业使用本软件。"
+      },
+      {
+        "row": 71,
+        "rowsha": "gX5d2oTb4HgcLu93lYT0F2IWV4TZEyQ7dddjqAci/xA=",
+        "originContent": "Copyright [Amachi] - All Rights Reserved.",
+        "translatedContent": ""
+      },
+      {
+        "row": 72,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 73,
+        "rowsha": "n2sAPHCNTfrHQAVI3qBRjgvVSpzBhZaT3Ys9HmbdF7o=",
+        "originContent": "Permission is granted to download and use this software for personal, non-commercial purposes only. Redistribution, modification, or commercial use of this software, in whole or in part, is strictly prohibited without the express written permission of the copyright holder.",
+        "translatedContent": ""
+      },
+      {
+        "row": 74,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

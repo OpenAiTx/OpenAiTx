@@ -1,0 +1,572 @@
+[
+  {
+    "row": 1,
+    "rowsha": "re25b1/AsVvkGcjPmitUvdEQjXbD3M1O4pzFBGIu6Gk=",
+    "originContent": "# FastVLM: Efficient Vision Encoding for Vision Language Models",
+    "translatedContent": "<translate-content># FastVLM: Efficient Vision Encoding for Vision Language Models"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "g2344bef599vjW/bUbjaxuux4Z1PJZBH3XIqUI9oCEE=",
+    "originContent": "This is the official repository of",
+    "translatedContent": "This is the official repository of"
+  },
+  {
+    "row": 4,
+    "rowsha": "K71zo6Tiv5ua2mrdvDXM95P+lAzeSQcl1i7M49zJsdY=",
+    "originContent": "**[FastVLM: Efficient Vision Encoding for Vision Language Models](https://www.arxiv.org/abs/2412.13303). (CVPR 2025)**",
+    "translatedContent": "**[FastVLM: Efficient Vision Encoding for Vision Language Models](https://www.arxiv.org/abs/2412.13303). (CVPR 2025)**"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "mDPE1ZCMkbjTAn1dDxuhruAQmZ+lxOPvH7Z0xwAaZEM=",
+    "originContent": "[//]: # (![FastViTHD Performance]&#40;docs/acc_vs_latency_qwen-2.png&#41;)",
+    "translatedContent": "[//]: # (![FastViTHD Performance]&#40;docs/acc_vs_latency_qwen-2.png&#41;)"
+  },
+  {
+    "row": 7,
+    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+    "originContent": "<p align=\"center\">",
+    "translatedContent": "<p align=\"center\">"
+  },
+  {
+    "row": 8,
+    "rowsha": "SKvwjmW9xaytX3oHDq5Dg4sD4JuHSXJbqucBWd84C+8=",
+    "originContent": "<img src=\"https://raw.githubusercontent.com/apple/ml-fastvlm/main/docs/acc_vs_latency_qwen-2.png\" alt=\"Accuracy vs latency figure.\" width=\"400\"/>",
+    "translatedContent": "<img src=\"https://raw.githubusercontent.com/apple/ml-fastvlm/main/docs/acc_vs_latency_qwen-2.png\" alt=\"Accuracy vs latency figure.\" width=\"400\"/>"
+  },
+  {
+    "row": 9,
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "cxAIGfEA3El60/qMS6EjCVQ8S9ibfnDqCalf5nlplPo=",
+    "originContent": "### Highlights",
+    "translatedContent": "### Highlights"
+  },
+  {
+    "row": 12,
+    "rowsha": "Qbjy7m9z961IGQTLEjGRiq+qIL4qsOZ2Np9RDk1Or3k=",
+    "originContent": "* We introduce FastViTHD, a novel hybrid vision encoder designed to output fewer tokens and significantly reduce encoding time for high-resolution images.  ",
+    "translatedContent": "* We introduce FastViTHD, a novel hybrid vision encoder designed to output fewer tokens and significantly reduce encoding time for high-resolution images.  "
+  },
+  {
+    "row": 13,
+    "rowsha": "tnIqJOspZu3EY7LtIeWupio5uTzaKW2HZLZJSPH26PQ=",
+    "originContent": "* Our smallest variant outperforms LLaVA-OneVision-0.5B with 85x faster Time-to-First-Token (TTFT) and 3.4x smaller vision encoder.",
+    "translatedContent": "* Our smallest variant outperforms LLaVA-OneVision-0.5B with 85x faster Time-to-First-Token (TTFT) and 3.4x smaller vision encoder."
+  },
+  {
+    "row": 14,
+    "rowsha": "3LbcpEdVpjhUHayEQCb2uNiAORybizFDqCociFBcvDg=",
+    "originContent": "* Our larger variants using Qwen2-7B LLM outperform recent works like Cambrian-1-8B while using a single image encoder with a 7.9x faster TTFT.",
+    "translatedContent": "* Our larger variants using Qwen2-7B LLM outperform recent works like Cambrian-1-8B while using a single image encoder with a 7.9x faster TTFT."
+  },
+  {
+    "row": 15,
+    "rowsha": "GYySOSL4l7fvEzVxm+pbPTq+oZHONw2OYeWH0ZRbmoQ=",
+    "originContent": "* Demo iOS app to demonstrate the performance of our model on a mobile device.",
+    "translatedContent": "* Demo iOS app to demonstrate the performance of our model on a mobile device."
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
+    "originContent": "<table>",
+    "translatedContent": "<table>"
+  },
+  {
+    "row": 18,
+    "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
+    "originContent": "<tr>",
+    "translatedContent": "<tr>"
+  },
+  {
+    "row": 19,
+    "rowsha": "AWO5iLlAetK3Nmw3rahwZC52gF+8V4NXryHosnjw0as=",
+    "originContent": "    <td><img src=\"https://raw.githubusercontent.com/apple/ml-fastvlm/main/docs/fastvlm-counting.gif\" alt=\"FastVLM - Counting\"></td>",
+    "translatedContent": "    <td><img src=\"https://raw.githubusercontent.com/apple/ml-fastvlm/main/docs/fastvlm-counting.gif\" alt=\"FastVLM - Counting\"></td>"
+  },
+  {
+    "row": 20,
+    "rowsha": "t2vGd7sN0ktBcHjog+r0mrZQ6j58MpHFhIsxkTxMKb8=",
+    "originContent": "    <td><img src=\"https://raw.githubusercontent.com/apple/ml-fastvlm/main/docs/fastvlm-handwriting.gif\" alt=\"FastVLM - Handwriting\"></td>",
+    "translatedContent": "    <td><img src=\"https://raw.githubusercontent.com/apple/ml-fastvlm/main/docs/fastvlm-handwriting.gif\" alt=\"FastVLM - Handwriting\"></td>"
+  },
+  {
+    "row": 21,
+    "rowsha": "UX8W4w2W19v7FCBTtFmRpQ6G0eJwYjHFCAAY9TyNDyM=",
+    "originContent": "    <td><img src=\"https://raw.githubusercontent.com/apple/ml-fastvlm/main/docs/fastvlm-emoji.gif\" alt=\"FastVLM - Emoji\"></td>",
+    "translatedContent": "    <td><img src=\"https://raw.githubusercontent.com/apple/ml-fastvlm/main/docs/fastvlm-emoji.gif\" alt=\"FastVLM - Emoji\"></td>"
+  },
+  {
+    "row": 22,
+    "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
+    "originContent": "</tr>",
+    "translatedContent": "</tr>"
+  },
+  {
+    "row": 23,
+    "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
+    "originContent": "</table>",
+    "translatedContent": "</table>"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+    "originContent": "## Getting Started",
+    "translatedContent": "## Getting Started"
+  },
+  {
+    "row": 26,
+    "rowsha": "UZ1F0QmkQoxf5S8hzS+qlRRTzbJgr+1whEHuq3/FbQQ=",
+    "originContent": "We use LLaVA codebase to train FastVLM variants. In order to train or finetune your own variants, ",
+    "translatedContent": "We use LLaVA codebase to train FastVLM variants. In order to train or finetune your own variants, "
+  },
+  {
+    "row": 27,
+    "rowsha": "vXpfCE1cQ3SrbfrjVKdhNXcRnuNIAuC1ODYjmFfvEAU=",
+    "originContent": "please follow instructions provided in [LLaVA](https://github.com/haotian-liu/LLaVA) codebase. ",
+    "translatedContent": "please follow instructions provided in [LLaVA](https://github.com/haotian-liu/LLaVA) codebase. "
+  },
+  {
+    "row": 28,
+    "rowsha": "lInJjWomOVM0sJWaujawC9DYrHOJ3dZ00dRFm0rFLVw=",
+    "originContent": "We provide instructions for running inference with our models.   ",
+    "translatedContent": "We provide instructions for running inference with our models.   "
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "iJa409tTUC9P1gTULbIw6Kod+KAUdLl5kgZl7whoChE=",
+    "originContent": "### Setup",
+    "translatedContent": "### Setup</translate-content>"
+  },
+  {
+    "row": 31,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 32,
+    "rowsha": "CsFYljSuqOAMOoSwDtAMwiwovcx2tjD/nemFG7SA8zA=",
+    "originContent": "conda create -n fastvlm python=3.10",
+    "translatedContent": "conda create -n fastvlm python=3.10"
+  },
+  {
+    "row": 33,
+    "rowsha": "uXK2931BK8Xf8HOVjoQ3QWVdxUDSP91w+UuHGRiUvXo=",
+    "originContent": "conda activate fastvlm",
+    "translatedContent": "conda activate fastvlm"
+  },
+  {
+    "row": 34,
+    "rowsha": "knVRIKwsU4emj9biFUgJoBjbMP5EER6U5AGxS0Ix1+Y=",
+    "originContent": "pip install -e .",
+    "translatedContent": "pip install -e ."
+  },
+  {
+    "row": 35,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Model Zoo"
+  },
+  {
+    "row": 37,
+    "rowsha": "AokGAShXuFoP04pgNTbDQs5ciOX7z/y7ej0I58mh7AQ=",
+    "originContent": "### Model Zoo",
+    "translatedContent": "For detailed information on various evaluations, please refer to our [paper](https://www.arxiv.org/abs/2412.13303)."
+  },
+  {
+    "row": 38,
+    "rowsha": "uwk92fgLGMykcUcd5kDa6goQiOvzCdLchBj+LPa5/QU=",
+    "originContent": "For detailed information on various evaluations, please refer to our [paper](https://www.arxiv.org/abs/2412.13303).",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| Model        | Stage |                                            Pytorch Checkpoint (url)                                             |"
+  },
+  {
+    "row": 40,
+    "rowsha": "DR6HZSMrk0OE7uAclXxCnKuYwZMSJFR4DT6FQSQ4Kko=",
+    "originContent": "| Model        | Stage |                                            Pytorch Checkpoint (url)                                             |",
+    "translatedContent": "|:-------------|:-----:|:---------------------------------------------------------------------------------------------------------------:|"
+  },
+  {
+    "row": 41,
+    "rowsha": "zJtCBnmPbITmWDOpHm4ezWeHgMj4Dtv1bd1qZfUtkU4=",
+    "originContent": "|:-------------|:-----:|:---------------------------------------------------------------------------------------------------------------:|",
+    "translatedContent": "| FastVLM-0.5B |   2   | [fastvlm_0.5b_stage2](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_0.5b_stage2.zip) |"
+  },
+  {
+    "row": 42,
+    "rowsha": "JRTQjuGPaigBfFOg0/qoT1Q4EvxI+72rF9fgTMnEGxM=",
+    "originContent": "| FastVLM-0.5B |   2   | [fastvlm_0.5b_stage2](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_0.5b_stage2.zip) |",
+    "translatedContent": "|              |   3   | [fastvlm_0.5b_stage3](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_0.5b_stage3.zip) |"
+  },
+  {
+    "row": 43,
+    "rowsha": "gV4nJ6znWZjfHJTMVQbvZ/QkswvsJAFVTbJf0eKontE=",
+    "originContent": "|              |   3   | [fastvlm_0.5b_stage3](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_0.5b_stage3.zip) |",
+    "translatedContent": "| FastVLM-1.5B |   2   | [fastvlm_1.5b_stage2](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_1.5b_stage2.zip) |"
+  },
+  {
+    "row": 44,
+    "rowsha": "Hc8XA1uORzx/pJ15qJ2d9IXn9Lzlkqd8cDXN8V96JNI=",
+    "originContent": "| FastVLM-1.5B |   2   | [fastvlm_1.5b_stage2](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_1.5b_stage2.zip) |",
+    "translatedContent": "|              |   3   | [fastvlm_1.5b_stage3](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_1.5b_stage3.zip)  |"
+  },
+  {
+    "row": 45,
+    "rowsha": "jiyV8Ah5kdBZdLaW+ILbKd6jbNFuimpXFzHnBFMZrw0=",
+    "originContent": "|              |   3   | [fastvlm_1.5b_stage3](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_1.5b_stage3.zip)  |",
+    "translatedContent": "| FastVLM-7B   |   2   | [fastvlm_7b_stage2](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_7b_stage2.zip)  |"
+  },
+  {
+    "row": 46,
+    "rowsha": "tf+47x25kBNqna36a5PtOQTPr1AER36VLiUOCtPG1qA=",
+    "originContent": "| FastVLM-7B   |   2   | [fastvlm_7b_stage2](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_7b_stage2.zip)  |",
+    "translatedContent": "|              |   3   | [fastvlm_7b_stage3](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_7b_stage3.zip)  |"
+  },
+  {
+    "row": 47,
+    "rowsha": "Qeue66CqMjKJnPUqJJGTtv0Ta/MACAP3EUXnIbKjZ9w=",
+    "originContent": "|              |   3   | [fastvlm_7b_stage3](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_7b_stage3.zip)  |",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "To download all the pretrained checkpoints run the command below (note that this might take some time depending on your connection so might be good to grab ☕️ while you wait)."
+  },
+  {
+    "row": 49,
+    "rowsha": "k6ffSX+Nds0X2lXPlofrwas27Z3d51ct+GLCk9FYik0=",
+    "originContent": "To download all the pretrained checkpoints run the command below (note that this might take some time depending on your connection so might be good to grab ☕️ while you wait).",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 52,
+    "rowsha": "yk9h1Ruku5QmQQGZU6ywdPUVw1B+CaOe8gsdlnzVwIs=",
+    "originContent": "bash get_models.sh   # Files will be downloaded to `checkpoints` directory.",
+    "translatedContent": "bash get_models.sh   # Files will be downloaded to `checkpoints` directory."
+  },
+  {
+    "row": 53,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Usage Example  "
+  },
+  {
+    "row": 55,
+    "rowsha": "VL2pmH7xD+uBhvgpZPXwHbQ7euVDY/RuQBxlpsRCABU=",
+    "originContent": "### Usage Example",
+    "translatedContent": "To run inference of PyTorch checkpoint, follow the instruction below"
+  },
+  {
+    "row": 56,
+    "rowsha": "6P2D/aZp3l5rnwQFu/X9PvnjletR47x2ynoDLVsJm+4=",
+    "originContent": "To run inference of PyTorch checkpoint, follow the instruction below",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 58,
+    "rowsha": "8bwtPdi5Yqezu6w3Yu7fl8ywcXJBnH85aS8WBrC2zfE=",
+    "originContent": "python predict.py --model-path /path/to/checkpoint-dir \\",
+    "translatedContent": "python predict.py --model-path /path/to/checkpoint-dir \\"
+  },
+  {
+    "row": 59,
+    "rowsha": "81x/XUTKjINZI0XteFbhg5+P9gJLhiiz+Keu2NgCiaE=",
+    "originContent": "                  --image-file /path/to/image.png \\",
+    "translatedContent": "                  --image-file /path/to/image.png \\"
+  },
+  {
+    "row": 60,
+    "rowsha": "6l8MkyWqk1EnxXDjC3BiVh5uyxPpuGs54mcf3kvZ7ws=",
+    "originContent": "                  --prompt \"Describe the image.\"",
+    "translatedContent": "                  --prompt \"Describe the image.\""
+  },
+  {
+    "row": 61,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Inference on Apple Silicon"
+  },
+  {
+    "row": 63,
+    "rowsha": "NXa++l2NDMJL0bGTnvmmwTraFGTC1we15uahI5MTsa4=",
+    "originContent": "### Inference on Apple Silicon",
+    "translatedContent": "To run inference on Apple Silicon, pytorch checkpoints have to be exported to format "
+  },
+  {
+    "row": 64,
+    "rowsha": "UdRodf8F0dw+XJHY8/jS68PtY0p5MyLWD3nZzAbD+Ts=",
+    "originContent": "To run inference on Apple Silicon, pytorch checkpoints have to be exported to format ",
+    "translatedContent": "suitable for running on Apple Silicon, detailed instructions and code can be found [`model_export`](model_export/) subfolder."
+  },
+  {
+    "row": 65,
+    "rowsha": "v7gTQhg9cNGz5e28hvwaQy3A13t56wEmY64NhIyTq9I=",
+    "originContent": "suitable for running on Apple Silicon, detailed instructions and code can be found [`model_export`](model_export/) subfolder.",
+    "translatedContent": "Please see the README there for more details."
+  },
+  {
+    "row": 66,
+    "rowsha": "RNkN4dwSh5GjEvk1L1Icnt4FR6ZnHeukNimIPGh4kSI=",
+    "originContent": "Please see the README there for more details.",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "For convenience, we provide 3 models that are in Apple Silicon compatible format: [fastvlm_0.5b_stage3](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_0.5b_stage3_llm.fp16.zip), "
+  },
+  {
+    "row": 68,
+    "rowsha": "pUoTkqMVYHXTjqfSLPPDvSmtyNmXX2FF6n0qi8AKkRg=",
+    "originContent": "For convenience, we provide 3 models that are in Apple Silicon compatible format: [fastvlm_0.5b_stage3](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_0.5b_stage3_llm.fp16.zip), ",
+    "translatedContent": "[fastvlm_1.5b_stage3](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_1.5b_stage3_llm.int8.zip), "
+  },
+  {
+    "row": 69,
+    "rowsha": "6irmAf7U+H5zk4YPqiiF4OUQ6gFcheOlYtKFcTiAeoI=",
+    "originContent": "[fastvlm_1.5b_stage3](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_1.5b_stage3_llm.int8.zip), ",
+    "translatedContent": "[fastvlm_7b_stage3](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_7b_stage3_llm.int4.zip). "
+  },
+  {
+    "row": 70,
+    "rowsha": "CXIKRsCIo8caPfEvC3afUo8GblRYobfw6kJq+Tl5vm4=",
+    "originContent": "[fastvlm_7b_stage3](https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_7b_stage3_llm.int4.zip). ",
+    "translatedContent": "We encourage developers to export the model of their choice with the appropriate quantization levels following "
+  },
+  {
+    "row": 71,
+    "rowsha": "64H2/wWYBaNOTsYAYpyBiAffep//2RUKJXNz/kk5weg=",
+    "originContent": "We encourage developers to export the model of their choice with the appropriate quantization levels following ",
+    "translatedContent": "the instructions in [`model_export`](model_export/)."
+  },
+  {
+    "row": 72,
+    "rowsha": "e/Y/2hGlJSZ+bWvzHbDJXap2BEpKLTiKSDNegATyt+o=",
+    "originContent": "the instructions in [`model_export`](model_export/).",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Inference on Apple Devices"
+  },
+  {
+    "row": 74,
+    "rowsha": "9+g0tQT/UWocVywJcp84359W/nnFHw6+VD0RsxFPU0o=",
+    "originContent": "### Inference on Apple Devices",
+    "translatedContent": "To run inference on Apple devices like iPhone, iPad or Mac, see [`app`](app/) subfolder for more details."
+  },
+  {
+    "row": 75,
+    "rowsha": "rSoAI+6XgZgckIbxQItfXdm1ZsSyjeBToTOTgma/Ey4=",
+    "originContent": "To run inference on Apple devices like iPhone, iPad or Mac, see [`app`](app/) subfolder for more details.",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Citation"
+  },
+  {
+    "row": 77,
+    "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+    "originContent": "## Citation",
+    "translatedContent": "If you found this code useful, please cite the following paper:"
+  },
+  {
+    "row": 78,
+    "rowsha": "D241nVniXLP9c8MNkhjVIWtN79G45BL9pkEXHf5ROkE=",
+    "originContent": "If you found this code useful, please cite the following paper:",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 80,
+    "rowsha": "PJ+Dbzx1scBgzlQ/eMIJeIoUZHibH7qdlpq1YiJXLIo=",
+    "originContent": "@InProceedings{fastvlm2025,",
+    "translatedContent": "@InProceedings{fastvlm2025,"
+  },
+  {
+    "row": 81,
+    "rowsha": "bxsxnQ41EAsvGU7G989ZnfY3L7+J2SzSL1Ib724RvMI=",
+    "originContent": "  author = {Pavan Kumar Anasosalu Vasu, Fartash Faghri, Chun-Liang Li, Cem Koc, Nate True, Albert Antony, Gokul Santhanam, James Gabriel, Peter Grasch, Oncel Tuzel, Hadi Pouransari},",
+    "translatedContent": "  author = {Pavan Kumar Anasosalu Vasu, Fartash Faghri, Chun-Liang Li, Cem Koc, Nate True, Albert Antony, Gokul Santhanam, James Gabriel, Peter Grasch, Oncel Tuzel, Hadi Pouransari},"
+  },
+  {
+    "row": 82,
+    "rowsha": "GqdE3lse1CZavRo9ckXarVhfHGIasKwi8iILuoFynTg=",
+    "originContent": "  title = {FastVLM: Efficient Vision Encoding for Vision Language Models},",
+    "translatedContent": "  title = {FastVLM: Efficient Vision Encoding for Vision Language Models},"
+  },
+  {
+    "row": 83,
+    "rowsha": "0cefqeJxOVmeOvCIZkK7RTs/2p5+7jncPiDhs6G0p7M=",
+    "originContent": "  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},",
+    "translatedContent": "  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},"
+  },
+  {
+    "row": 84,
+    "rowsha": "U1Izw4geK+wX4RkAbLnK9NT0MBNGq5VLS9uL46bPZVs=",
+    "originContent": "  month = {June},",
+    "translatedContent": "  month = {June},"
+  },
+  {
+    "row": 85,
+    "rowsha": "IbKbfF34UsZcnQSCU7je3bJsvgw8HBWO8MxHAycUz7M=",
+    "originContent": "  year = {2025},",
+    "translatedContent": "  year = {2025},"
+  },
+  {
+    "row": 86,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 87,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Acknowledgements"
+  },
+  {
+    "row": 89,
+    "rowsha": "HvkwNudYOlwL8j/t4djBVF3hUJwHWa2r5QjmSxgq3AA=",
+    "originContent": "## Acknowledgements",
+    "translatedContent": "Our codebase is built using multiple open source contributions, please see [ACKNOWLEDGEMENTS](ACKNOWLEDGEMENTS) for more details. "
+  },
+  {
+    "row": 90,
+    "rowsha": "RJXd3com8bsu7kR/bmE4eqzaQpI0iRS5V+1VRag/Leo=",
+    "originContent": "Our codebase is built using multiple opensource contributions, please see [ACKNOWLEDGEMENTS](ACKNOWLEDGEMENTS) for more details. ",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## License"
+  },
+  {
+    "row": 92,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "Please check out the repository [LICENSE](LICENSE) before using the provided code and"
+  },
+  {
+    "row": 93,
+    "rowsha": "H+kY5xnGhZR4AP8HXEBrI5pJl2u2T6PRw9DgjCUq7pc=",
+    "originContent": "Please check out the repository [LICENSE](LICENSE) before using the provided code and",
+    "translatedContent": "[LICENSE_MODEL](LICENSE_MODEL) for the released models."
+  },
+  {
+    "row": 94,
+    "rowsha": "zuOf0YpuoKYLTi5hsnbW2+hldgBXg2bI7qG+fu8b8Pc=",
+    "originContent": "[LICENSE_MODEL](LICENSE_MODEL) for the released models.",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
