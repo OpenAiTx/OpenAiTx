@@ -1,0 +1,597 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Vietnam Administrative Data 🇻🇳\n\n[![License](https://img.shields.io/badge/License-VietMap-blue.svg)](LICENSE)\n[![Data Format](https://img.shields.io/badge/Format-JSON-green.svg)](.)\n[![Administrative Level](https://img.shields.io/badge/Level-Province%2FWard-orange.svg)](.)\n[![GitHub Pages](https://img.shields.io/badge/Demo-GitHub%20Pages-brightgreen.svg)](https://vietmap-company.github.io/vietnam_administrative_address/)\n\n🌐 **Live Demo chọn địa chỉ (dropdown)**: [Vietmap pick address live demo](https://vietmap-company.github.io/vietnam_administrative_address/)\n\n🌐 **Live Demo tìm kiếm với địa chỉ hybrid (cũ & mới)**: [Vietmap search live demo](https://tools.vietmap.vn/staging/)\n\n🌐 **Chuyển đổi địa chỉ cũ <-> mới miễn phí (excel support)**: [Vietmap address converter live demo](https://tools.vietmap.vn/staging/convert-address)\n\n![Preview](https://raw.githubusercontent.com/vietmap-company/vietnam_administrative_address/main/./images/new_boundary.png)\n\n\n\nDữ liệu hành chính Việt Nam đầy đủ với format JSON chuẩn, bao gồm thông tin tỉnh/thành phố và xã/phường/thị trấn.\n\n## 📊 Tổng quan dữ liệu\n\n- **📍 Tỉnh/Thành phố**: 34 tỉnh thành\n- **🏘️ Xã/Phường/Thị trấn**: 3.321 đơn vị hành chính cấp xã\n- **🔄 Định dạng**: JSON với slug, type và path đầy đủ\n- **🌐 Ngôn ngữ**: Tiếng Việt có dấu và không dấu (slug)\n\n## �🌐 VietMap Address Migration API\n\n### 🚀 Giới thiệu\n\nSau khi Việt Nam thực hiện cải cách hành chính và sáp nhập tỉnh, **VietMap** cung cấp bộ **Address Migration APIs** toàn diện giúp developers chuyển đổi từ cơ cấu hành chính cũ sang mới một cách liền mạch.\n\n### 🎯 4 Tính năng chính\n\n#### 1. 🔍 Legacy Address Search\nTìm kiếm địa chỉ sử dụng cơ cấu hành chính cũ (trước sáp nhập tỉnh)\n\n**Use Cases:**\n- Tích hợp legacy system\n- Truy xuất dữ liệu tìm kiếm cũ & mới\n- Hỗ trợ user quen thuộc với format địa chỉ cũ\n- Validation data migration\n\n#### 2. 🆕 Current Address Search  \nTìm kiếm địa chỉ sử dụng cơ cấu hành chính mới (sau sáp nhập tỉnh)\n\n**Use Cases:**\n- Phát triển hệ thống mới\n- Government compliance\n- Ứng dụng mapping được cập nhật theo dữ liệu mới nhất\n\n#### 3. 🔄 Hybrid Address Search\nTìm kiếm đồng thời trên cả format địa chỉ cũ và mới\n\n**Use Cases:**\n- Hỗ trợ trước, trong và sau quá trình chuyển đổi\n- User-friendly applications\n- Comprehensive data coverage\n- Flexible search capabilities\n\n#### 4. 🔀 Address Conversion\nConvert địa chỉ từ cơ cấu hành chính cũ sang format mới, hỗ trợ chuyển đổi dữ liệu hàng loạt.\n\n\n## 🔑 Yêu cầu truy cập API\n\nĐể bắt đầu với Address Migration APIs, liên hệ:\n\n### 📞 Thông tin liên hệ\n\n- 💬 **Zalo OA**: [Vietmap Solutions](https://zalo.me/vietmapmapsapi)\n- 📧 **Email**: [maps.info@vietmap.vn](https://raw.githubusercontent.com/vietmap-company/vietnam_administrative_address/main/mailto:maps.info@vietmap.vn)  \n- 🌐 **Website**: [https://maps.vietmap.vn](https://maps.vietmap.vn/)\n\n### 🎁 VietMap sẽ cung cấp:\n\n✅ Custom API endpoints cho từng use case của bạn  \n✅ Tải liệu kỹ thuật và hướng dẫn tích hợp  \n✅ Hỗ trợ tích hợp, có kỹ thuật viên hỗ trợ trong suốt quá trình tích hợp và triển khai  \n✅ Truy cập môi trường testing trong suốt quá trình phát triển</br>\n✅ Hỗ trợ trong suốt quá trình triển khai production\n\n## 📄 License\n\nDữ liệu này được cung cấp theo **VietMap Administrative Data License**. Xem file [LICENSE](LICENSE) để biết chi tiết.\n\n## 📞 Liên hệ\n\n**VietMap Team**\n- 💬 **Zalo OA**: [Vietmap Solutions](https://zalo.me/vietmapmapsapi)\n- 📧 **Email**: [maps.info@vietmap.vn](https://raw.githubusercontent.com/vietmap-company/vietnam_administrative_address/main/mailto:maps.info@vietmap.vn)\n- 🌐 **Website**: [https://maps.vietmap.vn](https://maps.vietmap.vn/)\n\n---\n\nMade with ❤️ by [VietMap](https://www.vietmap.vn/) - Vietnam's Leading Provider of Mapping Solutions\n",
+    "ContentSha": "L5ivMLFEmFqox20+9J7aZOYVglq3JZTJE/b3uhUm4Ac=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 越南行政数据 🇻🇳\n\n[![许可证](https://img.shields.io/badge/License-VietMap-blue.svg)](LICENSE)\n[![数据格式](https://img.shields.io/badge/Format-JSON-green.svg)](.)\n[![行政级别](https://img.shields.io/badge/Level-Province%2FWard-orange.svg)](.)\n[![GitHub Pages](https://img.shields.io/badge/Demo-GitHub%20Pages-brightgreen.svg)](https://vietmap-company.github.io/vietnam_administrative_address/)\n\n🌐 **现场演示选择地址（下拉菜单）**: [Vietmap 选址现场演示](https://vietmap-company.github.io/vietnam_administrative_address/)\n\n🌐 **现场演示使用混合地址搜索（旧 & 新）**: [Vietmap 搜索现场演示](https://tools.vietmap.vn/staging/)\n\n🌐 **旧地址 <-> 新地址 免费转换（支持 Excel）**: [Vietmap 地址转换器现场演示](https://tools.vietmap.vn/staging/convert-address)\n\n![预览](https://raw.githubusercontent.com/vietmap-company/vietnam_administrative_address/main/./images/new_boundary.png)\n\n\n\n越南完整行政数据，采用标准 JSON 格式，包含省/市及乡/坊/镇信息。\n\n## 📊 数据概览\n\n- **📍 省/市**: 34 个省市\n- **🏘️ 乡/坊/镇**: 3,321 个乡级行政单位\n- **🔄 格式**: JSON，含 slug、type 和完整 path\n- **🌐 语言**: 有声调和无声调（slug）的越南语\n\n## �🌐 VietMap 地址迁移 API\n\n### 🚀 介绍\n\n在越南实施行政改革和省级合并后，**VietMap** 提供全面的 **地址迁移 API**，帮助开发者无缝地将旧行政结构转换为新结构。\n\n### 🎯 四大主要功能\n\n#### 1. 🔍 旧地址搜索\n使用旧行政结构（省合并前）进行地址搜索\n\n**使用场景:**\n- 集成旧系统\n- 访问旧 & 新搜索数据\n- 支持习惯旧地址格式的用户\n- 数据迁移验证\n\n#### 2. 🆕 当前地址搜索  \n使用新行政结构（省合并后）进行地址搜索\n\n**使用场景:**\n- 开发新系统\n- 政府合规\n- 地图应用更新最新数据\n\n#### 3. 🔄 混合地址搜索\n同时支持旧地址和新地址格式搜索\n\n**使用场景:**\n- 支持迁移前、中、后的使用\n- 用户友好应用\n- 全面数据覆盖\n- 灵活搜索功能\n\n#### 4. 🔀 地址转换\n将旧行政结构地址转换为新格式，支持批量数据转换。\n\n\n## 🔑 API 访问要求\n\n开始使用地址迁移 API，请联系：\n\n### 📞 联系信息\n\n- 💬 **Zalo 公众号**: [Vietmap Solutions](https://zalo.me/vietmapmapsapi)\n- 📧 **邮箱**: [maps.info@vietmap.vn](https://raw.githubusercontent.com/vietmap-company/vietnam_administrative_address/main/mailto:maps.info@vietmap.vn)  \n- 🌐 **官网**: [https://maps.vietmap.vn](https://maps.vietmap.vn/)\n\n### 🎁 VietMap 提供：\n\n✅ 针对每个用例的定制 API 端点  \n✅ 技术资料和集成指南  \n✅ 集成支持，配备技术人员全程协助集成与部署  \n✅ 开发期间的测试环境访问</br>\n✅ 生产部署全程支持\n\n## 📄 许可证\n\n本数据依据 **VietMap 行政数据许可证** 提供。详情请参阅 [LICENSE](LICENSE) 文件。\n\n## 📞 联系方式\n\n**VietMap 团队**\n- 💬 **Zalo 公众号**: [Vietmap Solutions](https://zalo.me/vietmapmapsapi)\n- 📧 **邮箱**: [maps.info@vietmap.vn](https://raw.githubusercontent.com/vietmap-company/vietnam_administrative_address/main/mailto:maps.info@vietmap.vn)\n- 🌐 **官网**: [https://maps.vietmap.vn](https://maps.vietmap.vn/)\n\n---\n\n由 [VietMap](https://www.vietmap.vn/) 用 ❤️ 制作 - 越南领先的地图解决方案提供商\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "0+DZlhkD1wATqBFUQ3e2sI526SpTj7qdpEUmBCnd0xY=",
+        "originContent": "# Vietnam Administrative Data 🇻🇳",
+        "translatedContent": "# 越南行政数据 🇻🇳"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Wbujs2ldMyoKplWFFo4Nc9AR4GWKw978PqKXmPtp7Ks=",
+        "originContent": "[![License](https://img.shields.io/badge/License-VietMap-blue.svg)](LICENSE)",
+        "translatedContent": "[![许可证](https://img.shields.io/badge/License-VietMap-blue.svg)](LICENSE)"
+      },
+      {
+        "row": 4,
+        "rowsha": "B9OO1WGNZ5ss1VfjxOnnhK3dpFJuRHi/bY3r3J/UfOQ=",
+        "originContent": "[![Data Format](https://img.shields.io/badge/Format-JSON-green.svg)](.)",
+        "translatedContent": "[![数据格式](https://img.shields.io/badge/Format-JSON-green.svg)](.)"
+      },
+      {
+        "row": 5,
+        "rowsha": "s6zs5N7oeprzbVopUxJoVmFBeBj7QxagL9azMfTiL4c=",
+        "originContent": "[![Administrative Level](https://img.shields.io/badge/Level-Province%2FWard-orange.svg)](.)",
+        "translatedContent": "[![行政级别](https://img.shields.io/badge/Level-Province%2FWard-orange.svg)](.)"
+      },
+      {
+        "row": 6,
+        "rowsha": "i2aJJnV4gojwS2i++xtApM0OVQqT04COw8e7LoAL8l0=",
+        "originContent": "[![GitHub Pages](https://img.shields.io/badge/Demo-GitHub%20Pages-brightgreen.svg)](https://vietmap-company.github.io/vietnam_administrative_address/)",
+        "translatedContent": "[![GitHub Pages](https://img.shields.io/badge/Demo-GitHub%20Pages-brightgreen.svg)](https://vietmap-company.github.io/vietnam_administrative_address/)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "KXbD8sE4TLsZT8ve+wmP72EHt3+MkJaq0lZuml9pSMU=",
+        "originContent": "🌐 **Live Demo chọn địa chỉ (dropdown)**: [Vietmap pick address live demo](https://vietmap-company.github.io/vietnam_administrative_address/)",
+        "translatedContent": "🌐 **现场演示选择地址（下拉菜单）**: [Vietmap 选址现场演示](https://vietmap-company.github.io/vietnam_administrative_address/)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "OPHnZBW4kM3i3bcSmFskpgtcWLcO4umMrSQfEOoOIsM=",
+        "originContent": "🌐 **Live Demo tìm kiếm với địa chỉ hybrid (cũ & mới)**: [Vietmap search live demo](https://tools.vietmap.vn/staging/)",
+        "translatedContent": "🌐 **现场演示使用混合地址搜索（旧 & 新）**: [Vietmap 搜索现场演示](https://tools.vietmap.vn/staging/)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "ldU7OxX0AHYZ/pGhYh2ObD/ztDb6dzqSThEXhpFLiKA=",
+        "originContent": "🌐 **Chuyển đổi địa chỉ cũ <-> mới miễn phí (excel support)**: [Vietmap address converter live demo](https://tools.vietmap.vn/staging/convert-address)",
+        "translatedContent": "🌐 **旧地址 <-> 新地址 免费转换（支持 Excel）**: [Vietmap 地址转换器现场演示](https://tools.vietmap.vn/staging/convert-address)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "1oIGapdm9Fi366v2WdVqwjeakL6n4ZTuegV9AuGsRvU=",
+        "originContent": "![Preview](https://raw.githubusercontent.com/vietmap-company/vietnam_administrative_address/main/./images/new_boundary.png)",
+        "translatedContent": "![预览](https://raw.githubusercontent.com/vietmap-company/vietnam_administrative_address/main/./images/new_boundary.png)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "8u/UdprthS5HnAeOmgFLTTziFwBK1xabIfnL0Rv/GIk=",
+        "originContent": "Dữ liệu hành chính Việt Nam đầy đủ với format JSON chuẩn, bao gồm thông tin tỉnh/thành phố và xã/phường/thị trấn.",
+        "translatedContent": "越南完整行政数据，采用标准 JSON 格式，包含省/市及乡/坊/镇信息。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "3LDQVny7HcKpacYCK3gSrIoDznxYz8LZdRBD2ZsPHic=",
+        "originContent": "## 📊 Tổng quan dữ liệu",
+        "translatedContent": "## 📊 数据概览"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "kPu9ZtCosF7owiVHJSfOpBvfhzVZpgi6cXK5qoBxqto=",
+        "originContent": "- **📍 Tỉnh/Thành phố**: 34 tỉnh thành",
+        "translatedContent": "- **📍 省/市**: 34 个省市"
+      },
+      {
+        "row": 23,
+        "rowsha": "nk3HhaH7Bk1RdZ+9MxBoXxbe6IQz2qbbgAunNf1gi1Y=",
+        "originContent": "- **🏘️ Xã/Phường/Thị trấn**: 3.321 đơn vị hành chính cấp xã",
+        "translatedContent": "- **🏘️ 乡/坊/镇**: 3,321 个乡级行政单位"
+      },
+      {
+        "row": 24,
+        "rowsha": "1AWjSqEq/ndn+M2fBDcI69cgdYfe2XUwn0vhwmKwq+c=",
+        "originContent": "- **🔄 Định dạng**: JSON với slug, type và path đầy đủ",
+        "translatedContent": "- **🔄 格式**: JSON，含 slug、type 和完整 path"
+      },
+      {
+        "row": 25,
+        "rowsha": "uIVjNd8HWTZQTTCf8KKl5PJC4f8fCJKQRBi2pVIOWps=",
+        "originContent": "- **🌐 Ngôn ngữ**: Tiếng Việt có dấu và không dấu (slug)",
+        "translatedContent": "- **🌐 语言**: 有声调和无声调（slug）的越南语"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "gi1J+EWLAuwcn8LBUKPWIcXUjAM6fH/9PItMB9XgJGs=",
+        "originContent": "## �🌐 VietMap Address Migration API",
+        "translatedContent": "## �🌐 VietMap 地址迁移 API"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "DepMfyWUOxHe+IsV+ByY4Sc0HVrdi+gpr8V6ZvnzCjo=",
+        "originContent": "### 🚀 Giới thiệu",
+        "translatedContent": "### 🚀 介绍"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "qs5C41ceTfcK1OCscJEWXC4I1E/mK5G3KWseYc0W2KM=",
+        "originContent": "Sau khi Việt Nam thực hiện cải cách hành chính và sáp nhập tỉnh, **VietMap** cung cấp bộ **Address Migration APIs** toàn diện giúp developers chuyển đổi từ cơ cấu hành chính cũ sang mới một cách liền mạch.",
+        "translatedContent": "在越南实施行政改革和省级合并后，**VietMap** 提供全面的 **地址迁移 API**，帮助开发者无缝地将旧行政结构转换为新结构。"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "bo+FtbZKbSEx1AWfTo8G5ovnMjUdHGZEqhvZqfhrzMU=",
+        "originContent": "### 🎯 4 Tính năng chính",
+        "translatedContent": "### 🎯 四大主要功能"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "AceRdkkOUsyoC9hLNp5A/mYZ7vfhJ6VBh9zCfWf4QBk=",
+        "originContent": "#### 1. 🔍 Legacy Address Search",
+        "translatedContent": "#### 1. 🔍 旧地址搜索"
+      },
+      {
+        "row": 36,
+        "rowsha": "wjbDq9xKtQJDWuH7uOi73aAzuK7tQ5r64R3I/BDEGcY=",
+        "originContent": "Tìm kiếm địa chỉ sử dụng cơ cấu hành chính cũ (trước sáp nhập tỉnh)",
+        "translatedContent": "使用旧行政结构（省合并前）进行地址搜索"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "Eb2ntnL4eCnK6rdItJoMM+uw3+qbPTN5BqrXTeppI24=",
+        "originContent": "**Use Cases:**",
+        "translatedContent": "**使用场景:**"
+      },
+      {
+        "row": 39,
+        "rowsha": "DSgbE/Bp2UnVuAtwipL079N74VnQS1NB3DXcdEI+PFk=",
+        "originContent": "- Tích hợp legacy system",
+        "translatedContent": "- 集成旧系统"
+      },
+      {
+        "row": 40,
+        "rowsha": "dMOM3u42mSJdLEobtFGG70GUNb/GLkSS3ZrG1qU078o=",
+        "originContent": "- Truy xuất dữ liệu tìm kiếm cũ & mới",
+        "translatedContent": "- 访问旧 & 新搜索数据"
+      },
+      {
+        "row": 41,
+        "rowsha": "r0ApdISHTcTVDpSoLl98K/zY6KyNKiQNw5hekSU8zjI=",
+        "originContent": "- Hỗ trợ user quen thuộc với format địa chỉ cũ",
+        "translatedContent": "- 支持习惯旧地址格式的用户"
+      },
+      {
+        "row": 42,
+        "rowsha": "Ryc0RH1f2GXd7x/b/hCYzgk/fHEK034UXzL4dIXWHpE=",
+        "originContent": "- Validation data migration",
+        "translatedContent": "- 数据迁移验证"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "m0N5EMn0Qa3QWPr2ncnolqP/PrqsXTMNWjwTNQUhFIY=",
+        "originContent": "#### 2. 🆕 Current Address Search  ",
+        "translatedContent": "#### 2. 🆕 当前地址搜索  "
+      },
+      {
+        "row": 45,
+        "rowsha": "BUd7QAflZJ0y6qNNQ34Th6cBzFsLCw3Iatz7tuQ3WAE=",
+        "originContent": "Tìm kiếm địa chỉ sử dụng cơ cấu hành chính mới (sau sáp nhập tỉnh)",
+        "translatedContent": "使用新行政结构（省合并后）进行地址搜索"
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "Eb2ntnL4eCnK6rdItJoMM+uw3+qbPTN5BqrXTeppI24=",
+        "originContent": "**Use Cases:**",
+        "translatedContent": "**使用场景:**"
+      },
+      {
+        "row": 48,
+        "rowsha": "/jUELNNrk8VipDb7Xu7N9hjHN/5feEyC8Ky+AF713Q0=",
+        "originContent": "- Phát triển hệ thống mới",
+        "translatedContent": "- 开发新系统"
+      },
+      {
+        "row": 49,
+        "rowsha": "FUgNoTqa68xO0iWhD3SPoicaMSdFQ//TnnhkVdMulfY=",
+        "originContent": "- Government compliance",
+        "translatedContent": "- 政府合规"
+      },
+      {
+        "row": 50,
+        "rowsha": "q8/arBL9EC3JKESpqSXZpGFNkkPUZ9jYP7Hjnf+IyGo=",
+        "originContent": "- Ứng dụng mapping được cập nhật theo dữ liệu mới nhất",
+        "translatedContent": "- 地图应用更新最新数据"
+      },
+      {
+        "row": 51,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 52,
+        "rowsha": "NbwG2Qh9J2hNSdohiDZPlIPm2tUDDP5G9hXocKzLX/M=",
+        "originContent": "#### 3. 🔄 Hybrid Address Search",
+        "translatedContent": "#### 3. 🔄 混合地址搜索"
+      },
+      {
+        "row": 53,
+        "rowsha": "EsQGcYbaL3MeyB2xOl9PrB3t1Q6uBIy+TTQz9eUtM0s=",
+        "originContent": "Tìm kiếm đồng thời trên cả format địa chỉ cũ và mới",
+        "translatedContent": "同时支持旧地址和新地址格式搜索"
+      },
+      {
+        "row": 54,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 55,
+        "rowsha": "Eb2ntnL4eCnK6rdItJoMM+uw3+qbPTN5BqrXTeppI24=",
+        "originContent": "**Use Cases:**",
+        "translatedContent": "**使用场景:**"
+      },
+      {
+        "row": 56,
+        "rowsha": "xiZTZycvun41zPPLFFw40WmqZw/HO4XoxwUxcsjw7l4=",
+        "originContent": "- Hỗ trợ trước, trong và sau quá trình chuyển đổi",
+        "translatedContent": "- 支持迁移前、中、后的使用"
+      },
+      {
+        "row": 57,
+        "rowsha": "7/gUf6YkSqJKYsPFXmBHD9TYmBUPvPiA68Np/sq+ZfE=",
+        "originContent": "- User-friendly applications",
+        "translatedContent": "- 用户友好应用"
+      },
+      {
+        "row": 58,
+        "rowsha": "2K4SAi+94rjx+gQvfqHobTwnu1v95apaj6EMaqRAOak=",
+        "originContent": "- Comprehensive data coverage",
+        "translatedContent": "- 全面数据覆盖"
+      },
+      {
+        "row": 59,
+        "rowsha": "V/iwyip+BTvPL2lDwkpu2jRBkPJEteCySIdJlMhoyf4=",
+        "originContent": "- Flexible search capabilities",
+        "translatedContent": "- 灵活搜索功能"
+      },
+      {
+        "row": 60,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 61,
+        "rowsha": "tycJYCBQAQbsP9U6apjA5nWPejrm6/0RzhuhGpQa9dc=",
+        "originContent": "#### 4. 🔀 Address Conversion",
+        "translatedContent": "#### 4. 🔀 地址转换"
+      },
+      {
+        "row": 62,
+        "rowsha": "04m2VtU0f7fMYsUVzTxRIcj4GbdnQAHvXfBSV8kKyHQ=",
+        "originContent": "Convert địa chỉ từ cơ cấu hành chính cũ sang format mới, hỗ trợ chuyển đổi dữ liệu hàng loạt.",
+        "translatedContent": "将旧行政结构地址转换为新格式，支持批量数据转换。"
+      },
+      {
+        "row": 63,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 64,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 65,
+        "rowsha": "TEIpnxuw2LQ5e41h6PPXr0pu5117jZ5HeHy9riDomVM=",
+        "originContent": "## 🔑 Yêu cầu truy cập API",
+        "translatedContent": "## 🔑 API 访问要求"
+      },
+      {
+        "row": 66,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 67,
+        "rowsha": "1eIMk3zGxZneNIssKTE9+It1WiqR3TPTajBp47nSpsY=",
+        "originContent": "Để bắt đầu với Address Migration APIs, liên hệ:",
+        "translatedContent": "开始使用地址迁移 API，请联系："
+      },
+      {
+        "row": 68,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 69,
+        "rowsha": "YKqOxUhwVgfZa0H/4sCef2+S7FKyeqmc3WUXOwATFWw=",
+        "originContent": "### 📞 Thông tin liên hệ",
+        "translatedContent": "### 📞 联系信息"
+      },
+      {
+        "row": 70,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 71,
+        "rowsha": "CMvZ8itiZ9O/HSfnD8MfK/OYALLz2yGcIoo0AjjvOFY=",
+        "originContent": "- 💬 **Zalo OA**: [Vietmap Solutions](https://zalo.me/vietmapmapsapi)",
+        "translatedContent": "- 💬 **Zalo 公众号**: [Vietmap Solutions](https://zalo.me/vietmapmapsapi)"
+      },
+      {
+        "row": 72,
+        "rowsha": "woZmJ9KEjbsqTEOh2qyr7+5BR4ZM1phB/NYZmbCc1FU=",
+        "originContent": "- 📧 **Email**: [maps.info@vietmap.vn](https://raw.githubusercontent.com/vietmap-company/vietnam_administrative_address/main/mailto:maps.info@vietmap.vn)  ",
+        "translatedContent": "- 📧 **邮箱**: [maps.info@vietmap.vn](https://raw.githubusercontent.com/vietmap-company/vietnam_administrative_address/main/mailto:maps.info@vietmap.vn)  "
+      },
+      {
+        "row": 73,
+        "rowsha": "Sk7gi0TCmfgic/z+joa9Woxb6Yw0jyq131ALntHbVdU=",
+        "originContent": "- 🌐 **Website**: [https://maps.vietmap.vn](https://maps.vietmap.vn/)",
+        "translatedContent": "- 🌐 **官网**: [https://maps.vietmap.vn](https://maps.vietmap.vn/)"
+      },
+      {
+        "row": 74,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 75,
+        "rowsha": "lenZlOb8q1Lz8vVSFzgayu/GyerBRP9IlG9BFyQDIVQ=",
+        "originContent": "### 🎁 VietMap sẽ cung cấp:",
+        "translatedContent": "### 🎁 VietMap 提供："
+      },
+      {
+        "row": 76,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 77,
+        "rowsha": "0tNNTzVkJO6Vb5aESEybITpOymrAFKqvqHvu8pjhFig=",
+        "originContent": "✅ Custom API endpoints cho từng use case của bạn  ",
+        "translatedContent": "✅ 针对每个用例的定制 API 端点  "
+      },
+      {
+        "row": 78,
+        "rowsha": "pzVzjJrLgxlPAl3rXdDL1vcCJ3tx4WYa4yTsxBS5Sas=",
+        "originContent": "✅ Tải liệu kỹ thuật và hướng dẫn tích hợp  ",
+        "translatedContent": "✅ 技术资料和集成指南  "
+      },
+      {
+        "row": 79,
+        "rowsha": "ZgVh9YbjMXZ45fzBNGI0ZlHLCwSTOCyHX5WeYgXxy1s=",
+        "originContent": "✅ Hỗ trợ tích hợp, có kỹ thuật viên hỗ trợ trong suốt quá trình tích hợp và triển khai  ",
+        "translatedContent": "✅ 集成支持，配备技术人员全程协助集成与部署  "
+      },
+      {
+        "row": 80,
+        "rowsha": "KS25k/5PgSj5tGNmXi2jvt0+qc14I4Zs59ihsYhMHSM=",
+        "originContent": "✅ Truy cập môi trường testing trong suốt quá trình phát triển</br>",
+        "translatedContent": "✅ 开发期间的测试环境访问</br>"
+      },
+      {
+        "row": 81,
+        "rowsha": "9IX4FWEsMtoVZRHx5lwHkNzvwRtR8H3U9kV59tFOy18=",
+        "originContent": "✅ Hỗ trợ trong suốt quá trình triển khai production",
+        "translatedContent": "✅ 生产部署全程支持"
+      },
+      {
+        "row": 82,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 83,
+        "rowsha": "qdzKI50RqHyAaNHbQuVekCMXyk/TfGfppMlRPvlONC4=",
+        "originContent": "## 📄 License",
+        "translatedContent": "## 📄 许可证"
+      },
+      {
+        "row": 84,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 85,
+        "rowsha": "PZaysp7DesRZW1JDDJAsLM2/iXqLol5wjfeJrffl8lo=",
+        "originContent": "Dữ liệu này được cung cấp theo **VietMap Administrative Data License**. Xem file [LICENSE](LICENSE) để biết chi tiết.",
+        "translatedContent": "本数据依据 **VietMap 行政数据许可证** 提供。详情请参阅 [LICENSE](LICENSE) 文件。"
+      },
+      {
+        "row": 86,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 87,
+        "rowsha": "eTkiuPk+CDGa4HUmvfhF7VfvGPQa5X/fWxQIZ504ClA=",
+        "originContent": "## 📞 Liên hệ",
+        "translatedContent": "## 📞 联系方式"
+      },
+      {
+        "row": 88,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 89,
+        "rowsha": "1PTwdoHpExXdNSsVSykQPIxgnCCMXoho6lTuI4+q+xg=",
+        "originContent": "**VietMap Team**",
+        "translatedContent": "**VietMap 团队**"
+      },
+      {
+        "row": 90,
+        "rowsha": "CMvZ8itiZ9O/HSfnD8MfK/OYALLz2yGcIoo0AjjvOFY=",
+        "originContent": "- 💬 **Zalo OA**: [Vietmap Solutions](https://zalo.me/vietmapmapsapi)",
+        "translatedContent": "- 💬 **Zalo 公众号**: [Vietmap Solutions](https://zalo.me/vietmapmapsapi)"
+      },
+      {
+        "row": 91,
+        "rowsha": "n1PO+pIncrZLBGqJkAk9MeShHdNLenYSLOY/f5wkhGw=",
+        "originContent": "- 📧 **Email**: [maps.info@vietmap.vn](https://raw.githubusercontent.com/vietmap-company/vietnam_administrative_address/main/mailto:maps.info@vietmap.vn)",
+        "translatedContent": "- 📧 **邮箱**: [maps.info@vietmap.vn](https://raw.githubusercontent.com/vietmap-company/vietnam_administrative_address/main/mailto:maps.info@vietmap.vn)"
+      },
+      {
+        "row": 92,
+        "rowsha": "Sk7gi0TCmfgic/z+joa9Woxb6Yw0jyq131ALntHbVdU=",
+        "originContent": "- 🌐 **Website**: [https://maps.vietmap.vn](https://maps.vietmap.vn/)",
+        "translatedContent": "- 🌐 **官网**: [https://maps.vietmap.vn](https://maps.vietmap.vn/)"
+      },
+      {
+        "row": 93,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 94,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 95,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 96,
+        "rowsha": "jT5T/dUlYKD6dgnBrJfYy73bjc82fN4UaTfGdv/GVvY=",
+        "originContent": "Made with ❤️ by [VietMap](https://www.vietmap.vn/) - Vietnam's Leading Provider of Mapping Solutions",
+        "translatedContent": "由 [VietMap](https://www.vietmap.vn/) 用 ❤️ 制作 - 越南领先的地图解决方案提供商"
+      },
+      {
+        "row": 97,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

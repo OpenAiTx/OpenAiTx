@@ -1,0 +1,1216 @@
+[
+  {
+    "Id": 1,
+    "Content": "Project is licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)\n\n\nMechanical design is licensed under a :\n[Creative Commons Attribution 4.0 International License][cc-by].\n[![CC BY 4.0][cc-by-image]][cc-by]\n[![CC BY 4.0][cc-by-shield]][cc-by]\n\n[cc-by]: http://creativecommons.org/licenses/by/4.0/\n[cc-by-image]: https://licensebuttons.net/l/by/4.0/88x31.png\n[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY-lightgrey.svg\n\n\n\n# Amazing Hand project\n\n![Patterns](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/Patterns_Overview.jpg)\n\nRobotic hands are often very expensive and not so expressive. More dexterous often needs cables and deported actuators in forearm i.e..\n\nAim of this project is to be able to explore humanoid hand possibilities on a real robot (and Reachy2 is the perfect candidate for that !) with moderate cost.\n=> Wrist interface is designed for Reachy2's wrist (Orbita 3D), but it can be easily adapted to other robot's wrist...\n\n![Reachy](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/Reachy.jpg)\n\nAmazing Hand is :\n- 8 dofs humanoid hand with 4 fingers\n- 2 phalanxes per finger articulated together\n- flexible shells allmost everywhere\n- All actuators inside the hand, without any cables\n- 3D printable\n- 400g weight\n- low-cost (<200€)\n- open-source\n\n[AmazingHand_Overview](/docs/AmazingHand_Overview.pdf)\n\n![Hand Overview](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/Hand_Overview.jpg)\nEach finger is driven by parallel mechanism. \nThat means 2x small Feetech SCS0009 servos are used to move each finger in flexion / extension & Abduction / Adduction\n\n![Finger Overview](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/Finger_Overview.jpg)\n\n\n2 ways of control are available :\n- Use a Serial bus driver (waveshare i.e.) + Python script\n- Use an Arduino + feetech TTL Linker\n\nDetailed explaination are available for both ways and Basic demo software is available also.\nUp to you !\n\n\n## Table of contents\n\n- [Build Resources](#build-resources)\n    - [BOM (Bill Of Materials)](#bom-bill-of-materials)\n    - [CAD Files and Onshape document](#CAD-files-and-onshape-document)\n    - [Assembly Guide](#assembly-guide)\n    - [Run_basic_Demo](#Run-basic-Demo)\n- [Disclaimer](#disclaimer)\n- [AmazingHand_tracking Demo](#AmazingHand_tracking_Demo) \n- [Project Updates & Community](#project-updates--community)\n    - [Updates history](#updates-history)\n    - [Project posts](#project-posts)\n    - [To Do List](#to-do-list)\n    - [FAQ](#faq)\n    - [Contact](#contact)\n    - [Thank you](#thank-you)\n\n\n# Build Resources\n## BOM (Bill Of Materials)\nList of all needed components is available here:  \n[AmazingHand BOM](https://docs.google.com/spreadsheets/d/1QH2ePseqXjAhkWdS9oBYAcHPrxaxkSRCgM_kOK0m52E/edit?gid=1269903342#gid=1269903342)  \n![BOM](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/BOM.jpg)\n\nAnd remember to add control choice cost (2 options detailed previously)\n\n\nDetailed for custom 3D printed parts are here : \n[3Dprinted parts](https://docs.google.com/spreadsheets/d/1QH2ePseqXjAhkWdS9oBYAcHPrxaxkSRCgM_kOK0m52E/edit?gid=2050623549#gid=2050623549)\n\n![3Dparts](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/3Dparts.jpg)\n\nHere is guide to explain how to print all the needed custom parts :\n[=> 3D Printing Guide](/docs/AmazingHand_3DprintingTips.pdf)\n![3DPrint_example](/assets/3DPrint.jpg) \n\n\n\n## CAD Files and Onshape document\nSTL and Steps files can be found [here](https://github.com/pollen-robotics/AmazingHand/tree/main/cad) \n\nNote that Fingers are the same if you want to build a left hand, but some parts are symetrical. Specific right hand parts are preceded by an \"R\", and other of the left hand parts by an \"L\".\n\n![Heart](/assets/Heart.jpg)\n\nEveryone can access the Onshape document too:   \n[Link Onshape](https://cad.onshape.com/documents/430ff184cf3dd9557aaff2be/w/e3658b7152c139971d22c688/e/bd399bf1860732c6c6a2ee45?renderMode=0&uiState=6867fd3ef773466d059edf0c)  \n",
+    "ContentSha": "iYLvAaz87LJ+kgGvFHC4kx8xh+BiNzEkzFGjwRd2Vck=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Project is licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)\n\n\nMechanical design is licensed under a :\n[Creative Commons Attribution 4.0 International License][cc-by].\n[![CC BY 4.0][cc-by-image]][cc-by]\n[![CC BY 4.0][cc-by-shield]][cc-by]\n\n[cc-by]: http://creativecommons.org/licenses/by/4.0/\n[cc-by-image]: https://licensebuttons.net/l/by/4.0/88x31.png\n[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY-lightgrey.svg\n\n\n\n# Amazing Hand project\n\n![Patterns](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/Patterns_Overview.jpg)\n\nRobotic hands are often very expensive and not so expressive. More dexterous often needs cables and deported actuators in forearm i.e..\n\nAim of this project is to be able to explore humanoid hand possibilities on a real robot (and Reachy2 is the perfect candidate for that !) with moderate cost.\n=> Wrist interface is designed for Reachy2's wrist (Orbita 3D), but it can be easily adapted to other robot's wrist...\n\n![Reachy](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/Reachy.jpg)\n\nAmazing Hand is :\n- 8 dofs humanoid hand with 4 fingers\n- 2 phalanxes per finger articulated together\n- flexible shells allmost everywhere\n- All actuators inside the hand, without any cables\n- 3D printable\n- 400g weight\n- low-cost (<200€)\n- open-source\n\n[AmazingHand_Overview](/docs/AmazingHand_Overview.pdf)\n\n![Hand Overview](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/Hand_Overview.jpg)\nEach finger is driven by parallel mechanism. \nThat means 2x small Feetech SCS0009 servos are used to move each finger in flexion / extension & Abduction / Adduction\n\n![Finger Overview](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/Finger_Overview.jpg)\n\n\n2 ways of control are available :\n- Use a Serial bus driver (waveshare i.e.) + Python script\n- Use an Arduino + feetech TTL Linker\n\nDetailed explaination are available for both ways and Basic demo software is available also.\nUp to you !\n\n\n## Table of contents\n\n- [Build Resources](#build-resources)\n    - [BOM (Bill Of Materials)](#bom-bill-of-materials)\n    - [CAD Files and Onshape document](#CAD-files-and-onshape-document)\n    - [Assembly Guide](#assembly-guide)\n    - [Run_basic_Demo](#Run-basic-Demo)\n- [Disclaimer](#disclaimer)\n- [AmazingHand_tracking Demo](#AmazingHand_tracking_Demo) \n- [Project Updates & Community](#project-updates--community)\n    - [Updates history](#updates-history)\n    - [Project posts](#project-posts)\n    - [To Do List](#to-do-list)\n    - [FAQ](#faq)\n    - [Contact](#contact)\n    - [Thank you](#thank-you)\n\n\n# Build Resources\n## BOM (Bill Of Materials)\nList of all needed components is available here:  \n[AmazingHand BOM](https://docs.google.com/spreadsheets/d/1QH2ePseqXjAhkWdS9oBYAcHPrxaxkSRCgM_kOK0m52E/edit?gid=1269903342#gid=1269903342)  \n![BOM](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/BOM.jpg)\n\nAnd remember to add control choice cost (2 options detailed previously)\n\n\nDetailed for custom 3D printed parts are here : \n[3Dprinted parts](https://docs.google.com/spreadsheets/d/1QH2ePseqXjAhkWdS9oBYAcHPrxaxkSRCgM_kOK0m52E/edit?gid=2050623549#gid=2050623549)\n\n![3Dparts](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/3Dparts.jpg)\n\nHere is guide to explain how to print all the needed custom parts :\n[=> 3D Printing Guide](/docs/AmazingHand_3DprintingTips.pdf)\n![3DPrint_example](/assets/3DPrint.jpg) \n\n\n\n## CAD Files and Onshape document\nSTL and Steps files can be found [here](https://github.com/pollen-robotics/AmazingHand/tree/main/cad) \n\nNote that Fingers are the same if you want to build a left hand, but some parts are symetrical. Specific right hand parts are preceded by an \"R\", and other of the left hand parts by an \"L\".\n\n![Heart](/assets/Heart.jpg)\n\nEveryone can access the Onshape document too:   \n[Link Onshape](https://cad.onshape.com/documents/430ff184cf3dd9557aaff2be/w/e3658b7152c139971d22c688/e/bd399bf1860732c6c6a2ee45?renderMode=0&uiState=6867fd3ef773466d059edf0c)  \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "iinn45kUNv5H5k0tCTv+WNymmHd+U/Gde0iX2v3Pw6Y=",
+        "originContent": "Project is licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)",
+        "translatedContent": "Project is licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "wDEzG5AG2xWS1pnNnF/ji/TL6GfDiiLRWgNYavtUM8g=",
+        "originContent": "Mechanical design is licensed under a :",
+        "translatedContent": "Mechanical design is licensed under a :"
+      },
+      {
+        "row": 5,
+        "rowsha": "6QfF0f9s+McSsILKbshe2cC1CYO71Am8WSzecAR5D2Q=",
+        "originContent": "[Creative Commons Attribution 4.0 International License][cc-by].",
+        "translatedContent": "[Creative Commons Attribution 4.0 International License][cc-by]."
+      },
+      {
+        "row": 6,
+        "rowsha": "MMnsmt38fen1wgSYIdGWtEBmzpghbXUfhlrmB5ou3dg=",
+        "originContent": "[![CC BY 4.0][cc-by-image]][cc-by]",
+        "translatedContent": "[![CC BY 4.0][cc-by-image]][cc-by]"
+      },
+      {
+        "row": 7,
+        "rowsha": "RAs8aBNABgM/LDwbPmecReQNFkNXdzpA4WHU30vLHjc=",
+        "originContent": "[![CC BY 4.0][cc-by-shield]][cc-by]",
+        "translatedContent": "[![CC BY 4.0][cc-by-shield]][cc-by]"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "dtcqKXgyTFYsfz18+nyYJnoMsGbXt3n0/L/xPCZ/AYs=",
+        "originContent": "[cc-by]: http://creativecommons.org/licenses/by/4.0/",
+        "translatedContent": "[cc-by]: http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "row": 10,
+        "rowsha": "po8iInLntmR44ng8Cl4zG0+9pTgNiQGD4E6mZU+Edmo=",
+        "originContent": "[cc-by-image]: https://licensebuttons.net/l/by/4.0/88x31.png",
+        "translatedContent": "[cc-by-image]: https://licensebuttons.net/l/by/4.0/88x31.png"
+      },
+      {
+        "row": 11,
+        "rowsha": "CeVv3v+aXaCQqhknXOnrKSst8/SSKHVWrhFh2x/bCm0=",
+        "originContent": "[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY-lightgrey.svg",
+        "translatedContent": "[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY-lightgrey.svg"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "RycVJPVnVIrou65qWoebrnJAKz6UO0zCgOWVO3GhXGw=",
+        "originContent": "# Amazing Hand project",
+        "translatedContent": "# Amazing Hand project"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "x+KbHmfhrgi28GTQU5/8BtHxNY6OVFi1QJYt+5AvcPg=",
+        "originContent": "![Patterns](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/Patterns_Overview.jpg)",
+        "translatedContent": "![Patterns](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/Patterns_Overview.jpg)"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "jufBi67PchESrl9sRe8veK+8DbQdnUCTBshvvU4YYE8=",
+        "originContent": "Robotic hands are often very expensive and not so expressive. More dexterous often needs cables and deported actuators in forearm i.e..",
+        "translatedContent": "Robotic hands are often very expensive and not so expressive. More dexterous often needs cables and deported actuators in forearm i.e.."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "+HjgQIEO07d2UL3VMLx1/18AE3wljr4isQjNFv5SqBE=",
+        "originContent": "Aim of this project is to be able to explore humanoid hand possibilities on a real robot (and Reachy2 is the perfect candidate for that !) with moderate cost.",
+        "translatedContent": "Aim of this project is to be able to explore humanoid hand possibilities on a real robot (and Reachy2 is the perfect candidate for that !) with moderate cost."
+      },
+      {
+        "row": 22,
+        "rowsha": "OQL39gG5QpFgwaexbHLy+8qcM43REysUB2M/9GNCW6o=",
+        "originContent": "=> Wrist interface is designed for Reachy2's wrist (Orbita 3D), but it can be easily adapted to other robot's wrist...",
+        "translatedContent": "=> Wrist interface is designed for Reachy2's wrist (Orbita 3D), but it can be easily adapted to other robot's wrist..."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "ePkSNrQ2MNss/nGWEYEi4h1fYQFweJd6gp1+wYdzO3I=",
+        "originContent": "![Reachy](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/Reachy.jpg)",
+        "translatedContent": "![Reachy](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/Reachy.jpg)"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "9uTyOG/WpNDmCkzHTf3r3KqICZ512HDG8MAHuPWk4l4=",
+        "originContent": "Amazing Hand is :",
+        "translatedContent": "Amazing Hand is :"
+      },
+      {
+        "row": 27,
+        "rowsha": "tsaRlJVbHo7l6ZyUXR7EMpphYX78SX8ZAlWcknvUWHU=",
+        "originContent": "- 8 dofs humanoid hand with 4 fingers",
+        "translatedContent": "- 8 dofs humanoid hand with 4 fingers"
+      },
+      {
+        "row": 28,
+        "rowsha": "ck9H92lPgZt8+xI0Af2QgqneXY0pvd5f8Y7uSgqNGSc=",
+        "originContent": "- 2 phalanxes per finger articulated together",
+        "translatedContent": "- 2 phalanxes per finger articulated together"
+      },
+      {
+        "row": 29,
+        "rowsha": "u/FPQpUxgHNpW79ZYZOVhdReF4kmMguh0AQzmeiyNB8=",
+        "originContent": "- flexible shells allmost everywhere",
+        "translatedContent": "- flexible shells allmost everywhere"
+      },
+      {
+        "row": 30,
+        "rowsha": "N1qDxW+phyzMnQbiBpJus059YhEgY769Cr4H+1oZ0RE=",
+        "originContent": "- All actuators inside the hand, without any cables",
+        "translatedContent": "- All actuators inside the hand, without any cables"
+      },
+      {
+        "row": 31,
+        "rowsha": "s19g8ZDeCsE5dOYuSM93kpIKhD5PyEuCqPHiWA5cMZE=",
+        "originContent": "- 3D printable",
+        "translatedContent": "- 3D printable"
+      },
+      {
+        "row": 32,
+        "rowsha": "RZjNC0NhSdd0wignIu8VFnaG5byVxxEFrbcKe2gCztw=",
+        "originContent": "- 400g weight",
+        "translatedContent": "- 400g weight"
+      },
+      {
+        "row": 33,
+        "rowsha": "R8KyPRby/t/K77lVulzBMalqcfAFvGon2LQWnt/uLdo=",
+        "originContent": "- low-cost (<200€)",
+        "translatedContent": "- low-cost (<200€)"
+      },
+      {
+        "row": 34,
+        "rowsha": "jTILA0uULTEetwvLw2Ck4xmbmukMRWeI8lroCxmdaI8=",
+        "originContent": "- open-source",
+        "translatedContent": "- open-source"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "A/SyyF/CXVWTKY8uNSmeUt66WQTxx8qfqRsufEoan1s=",
+        "originContent": "[AmazingHand_Overview](/docs/AmazingHand_Overview.pdf)",
+        "translatedContent": "[AmazingHand_Overview](/docs/AmazingHand_Overview.pdf)"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "TrlRcPm7QPdeeUDKF6qV3Y+3of57fTW4nL7eiYg5O2I=",
+        "originContent": "![Hand Overview](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/Hand_Overview.jpg)",
+        "translatedContent": "![Hand Overview](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/Hand_Overview.jpg)"
+      },
+      {
+        "row": 39,
+        "rowsha": "Qv5xc+N+EcPF0TotMqe6ZIuNtWoaMcNksmsys02zUNM=",
+        "originContent": "Each finger is driven by parallel mechanism. ",
+        "translatedContent": "Each finger is driven by parallel mechanism. "
+      },
+      {
+        "row": 40,
+        "rowsha": "e6FSnUp3GgUn+q995+NnEh7mrkBH4wiJWR5drOUspfE=",
+        "originContent": "That means 2x small Feetech SCS0009 servos are used to move each finger in flexion / extension & Abduction / Adduction",
+        "translatedContent": "That means 2x small Feetech SCS0009 servos are used to move each finger in flexion / extension & Abduction / Adduction"
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "n0Nezq54O+IcJmOu0lX9hb6/H0cDx6M5JUAmki9JORQ=",
+        "originContent": "![Finger Overview](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/Finger_Overview.jpg)",
+        "translatedContent": "![Finger Overview](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/Finger_Overview.jpg)"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "BrO9layl4J/FHJyxUamNPl+UPfLkBlqfabBjJZo+It8=",
+        "originContent": "2 ways of control are available :",
+        "translatedContent": "2 ways of control are available :"
+      },
+      {
+        "row": 46,
+        "rowsha": "0pN98nSk+mCpf8k5q4cbPdU0RJO2oAA2kAf+WMrWzq4=",
+        "originContent": "- Use a Serial bus driver (waveshare i.e.) + Python script",
+        "translatedContent": "- Use a Serial bus driver (waveshare i.e.) + Python script"
+      },
+      {
+        "row": 47,
+        "rowsha": "Q5HGSBuqLQDmVDjV2qwLqUKeFGTxDkkxD9kdtaoViVw=",
+        "originContent": "- Use an Arduino + feetech TTL Linker",
+        "translatedContent": "- Use an Arduino + feetech TTL Linker"
+      },
+      {
+        "row": 48,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "wsUuyrFSml/o0OCisrqd19Ca1+Q5DG1T9vJAplk2N4Q=",
+        "originContent": "Detailed explaination are available for both ways and Basic demo software is available also.",
+        "translatedContent": "Detailed explaination are available for both ways and Basic demo software is available also."
+      },
+      {
+        "row": 50,
+        "rowsha": "XKWF8h7T4hYIJwBh5yB41XVMnFyp5si19d0iLfhyjck=",
+        "originContent": "Up to you !",
+        "translatedContent": "Up to you !"
+      },
+      {
+        "row": 51,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "6zV3B2XA9xxg8fn1U1mBnEdZHXm91nNo4NI69Fqpeio=",
+        "originContent": "## Table of contents",
+        "translatedContent": "## Table of contents"
+      },
+      {
+        "row": 54,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 55,
+        "rowsha": "uCPg5h9vweUQh/EbiyVgvWGcnEucaD97sHi+pTGftGA=",
+        "originContent": "- [Build Resources](#build-resources)",
+        "translatedContent": "- [Build Resources](#build-resources)"
+      },
+      {
+        "row": 56,
+        "rowsha": "eDTzb/WN/zWqPEopoGgdWL6NC8racLBD9e7rIO5Xc4g=",
+        "originContent": "    - [BOM (Bill Of Materials)](#bom-bill-of-materials)",
+        "translatedContent": "    - [BOM (Bill Of Materials)](#bom-bill-of-materials)"
+      },
+      {
+        "row": 57,
+        "rowsha": "7lAIwe0vzexM4pcntxHCgBNg0+ESiBZ/wblTCUC3Mdw=",
+        "originContent": "    - [CAD Files and Onshape document](#CAD-files-and-onshape-document)",
+        "translatedContent": "    - [CAD Files and Onshape document](#CAD-files-and-onshape-document)"
+      },
+      {
+        "row": 58,
+        "rowsha": "P8xsgKWT6LfXRdtJYnuvjP7MLLW+mZNnz1d6/ahXu/o=",
+        "originContent": "    - [Assembly Guide](#assembly-guide)",
+        "translatedContent": "    - [Assembly Guide](#assembly-guide)"
+      },
+      {
+        "row": 59,
+        "rowsha": "bLzn1dxrg2z3o6nygnLp49FLUVQFrwkymmUz1HUh6js=",
+        "originContent": "    - [Run_basic_Demo](#Run-basic-Demo)",
+        "translatedContent": "    - [Run_basic_Demo](#Run-basic-Demo)"
+      },
+      {
+        "row": 60,
+        "rowsha": "3EaxIYIuYcoDcesmHexkWC0urLbzuIe1Y1vwdJXvYU8=",
+        "originContent": "- [Disclaimer](#disclaimer)",
+        "translatedContent": "- [Disclaimer](#disclaimer)"
+      },
+      {
+        "row": 61,
+        "rowsha": "EFky4lJESGH7KHundzplb2RlTLyykxyHKkXwiT471T8=",
+        "originContent": "- [AmazingHand_tracking Demo](#AmazingHand_tracking_Demo) ",
+        "translatedContent": "- [AmazingHand_tracking Demo](#AmazingHand_tracking_Demo) "
+      },
+      {
+        "row": 62,
+        "rowsha": "bPpn91jtiJVYw0RrAtF0WFozx2ZLvCJHERVVg9jx3FQ=",
+        "originContent": "- [Project Updates & Community](#project-updates--community)",
+        "translatedContent": "- [Project Updates & Community](#project-updates--community)"
+      },
+      {
+        "row": 63,
+        "rowsha": "OOSOIAAKIaeJViZmoGueF1a0vXvF6OEr0CpXl8ev25M=",
+        "originContent": "    - [Updates history](#updates-history)",
+        "translatedContent": "    - [Updates history](#updates-history)"
+      },
+      {
+        "row": 64,
+        "rowsha": "vpmJRPAJcLE902gluJN2LmXC9iKABtIEaCGB+Zubnj0=",
+        "originContent": "    - [Project posts](#project-posts)",
+        "translatedContent": "    - [Project posts](#project-posts)"
+      },
+      {
+        "row": 65,
+        "rowsha": "3k7lfnhlUL7D+fNEcSlsEbO6nv97h3vDsgV6E6AxocY=",
+        "originContent": "    - [To Do List](#to-do-list)",
+        "translatedContent": "    - [To Do List](#to-do-list)"
+      },
+      {
+        "row": 66,
+        "rowsha": "LK8o8mZ5UzWNa9iAPRPb1kQVWh2cnS2pN2/Zf9niw4E=",
+        "originContent": "    - [FAQ](#faq)",
+        "translatedContent": "    - [FAQ](#faq)"
+      },
+      {
+        "row": 67,
+        "rowsha": "20+QUGIDHkH2hqZppk3+cUrpXqID0j9MaosS+Nhxs+w=",
+        "originContent": "    - [Contact](#contact)",
+        "translatedContent": "    - [Contact](#contact)"
+      },
+      {
+        "row": 68,
+        "rowsha": "CrDe7iGoQD57vflMihMkQFqEHaqSsXvFJc2FfTAFE7o=",
+        "originContent": "    - [Thank you](#thank-you)",
+        "translatedContent": "    - [Thank you](#thank-you)"
+      },
+      {
+        "row": 69,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 70,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 71,
+        "rowsha": "0stI4j3tUGQCwcVAvUU5AFj3FmflmI7YWzHZrKGtX3o=",
+        "originContent": "# Build Resources",
+        "translatedContent": "# Build Resources"
+      },
+      {
+        "row": 72,
+        "rowsha": "2TWlKTwEPIrb3WgsGpx9OEdpAyGNmJpRi/kI4zVC3cA=",
+        "originContent": "## BOM (Bill Of Materials)",
+        "translatedContent": "## BOM (Bill Of Materials)"
+      },
+      {
+        "row": 73,
+        "rowsha": "ZYNnK/DF0zUhuswQNrV69XfYvaEgelx5lBzFel9BrCg=",
+        "originContent": "List of all needed components is available here:  ",
+        "translatedContent": "List of all needed components is available here:  "
+      },
+      {
+        "row": 74,
+        "rowsha": "JksNMeFnjKBoGehE4gaNAE9Psx0az12geZ9bGjlW+MQ=",
+        "originContent": "[AmazingHand BOM](https://docs.google.com/spreadsheets/d/1QH2ePseqXjAhkWdS9oBYAcHPrxaxkSRCgM_kOK0m52E/edit?gid=1269903342#gid=1269903342)  ",
+        "translatedContent": "[AmazingHand BOM](https://docs.google.com/spreadsheets/d/1QH2ePseqXjAhkWdS9oBYAcHPrxaxkSRCgM_kOK0m52E/edit?gid=1269903342#gid=1269903342)  "
+      },
+      {
+        "row": 75,
+        "rowsha": "/2K+T4TAKjyJqHb9N4gNsOfFWMYDdJc+K5dsG3oE7FE=",
+        "originContent": "![BOM](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/BOM.jpg)",
+        "translatedContent": "![BOM](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/BOM.jpg)"
+      },
+      {
+        "row": 76,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 77,
+        "rowsha": "0CyYbz5+mU1f6YZ+xIFwQSGpuubbboBbvKjgy1edZaA=",
+        "originContent": "And remember to add control choice cost (2 options detailed previously)",
+        "translatedContent": "And remember to add control choice cost (2 options detailed previously)"
+      },
+      {
+        "row": 78,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 79,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 80,
+        "rowsha": "Sg+ZHImkO5j3v4WgiCPD8xsug+FR4NxZz6/hWb6R7qw=",
+        "originContent": "Detailed for custom 3D printed parts are here : ",
+        "translatedContent": "Detailed for custom 3D printed parts are here : "
+      },
+      {
+        "row": 81,
+        "rowsha": "8yzvuiabD0uJJIL7wzIYe6hnK8GMe1euR/lhHkJ95yI=",
+        "originContent": "[3Dprinted parts](https://docs.google.com/spreadsheets/d/1QH2ePseqXjAhkWdS9oBYAcHPrxaxkSRCgM_kOK0m52E/edit?gid=2050623549#gid=2050623549)",
+        "translatedContent": "[3Dprinted parts](https://docs.google.com/spreadsheets/d/1QH2ePseqXjAhkWdS9oBYAcHPrxaxkSRCgM_kOK0m52E/edit?gid=2050623549#gid=2050623549)"
+      },
+      {
+        "row": 82,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 83,
+        "rowsha": "6n1Fs3r6Ejr/kLB55yFR0S26cndHsgC6OqIe3Vzt1Qk=",
+        "originContent": "![3Dparts](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/3Dparts.jpg)",
+        "translatedContent": "![3Dparts](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/3Dparts.jpg)"
+      },
+      {
+        "row": 84,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 85,
+        "rowsha": "HxDq9AUSyjA0ijC68NdzM6rACew9YaTbuqqH9i9ATMA=",
+        "originContent": "Here is guide to explain how to print all the needed custom parts :",
+        "translatedContent": "Here is guide to explain how to print all the needed custom parts :"
+      },
+      {
+        "row": 86,
+        "rowsha": "JNoocpICbYkPAaF9HR4CIIm8MQBqPK9qpFRMMkdo9t8=",
+        "originContent": "[=> 3D Printing Guide](/docs/AmazingHand_3DprintingTips.pdf)",
+        "translatedContent": "[=> 3D Printing Guide](/docs/AmazingHand_3DprintingTips.pdf)"
+      },
+      {
+        "row": 87,
+        "rowsha": "qcxizOkW40C1z7s+0USmqhtdS3NfFmx4++MeCdYTCTk=",
+        "originContent": "![3DPrint_example](/assets/3DPrint.jpg) ",
+        "translatedContent": "![3DPrint_example](/assets/3DPrint.jpg) "
+      },
+      {
+        "row": 88,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 89,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 90,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 91,
+        "rowsha": "hABYSbsr85s6f2Ur3Bd5rukRHZS7WfASNdEdsfyXIuQ=",
+        "originContent": "## CAD Files and Onshape document",
+        "translatedContent": "## CAD Files and Onshape document"
+      },
+      {
+        "row": 92,
+        "rowsha": "h9ORPknrvWqZ0DsCiMf1mm45hIcqvl62bYOWjo6Kj7A=",
+        "originContent": "STL and Steps files can be found [here](https://github.com/pollen-robotics/AmazingHand/tree/main/cad) ",
+        "translatedContent": "STL and Steps files can be found [here](https://github.com/pollen-robotics/AmazingHand/tree/main/cad) "
+      },
+      {
+        "row": 93,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 94,
+        "rowsha": "fS+Z6HR2ChZeB0Y/iLDyRpjrJF7Kcmt5UQvwSNXtIBE=",
+        "originContent": "Note that Fingers are the same if you want to build a left hand, but some parts are symetrical. Specific right hand parts are preceded by an \"R\", and other of the left hand parts by an \"L\".",
+        "translatedContent": "Note that Fingers are the same if you want to build a left hand, but some parts are symetrical. Specific right hand parts are preceded by an \"R\", and other of the left hand parts by an \"L\"."
+      },
+      {
+        "row": 95,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 96,
+        "rowsha": "9C+lrd/jfPbG3ecMmJdZ3V+3hsqJWMqmMRkhCSoHAMM=",
+        "originContent": "![Heart](/assets/Heart.jpg)",
+        "translatedContent": "![Heart](/assets/Heart.jpg)"
+      },
+      {
+        "row": 97,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 98,
+        "rowsha": "tjupIyF45Vc7Dlih6zBivJstqZxQH7ukQR/VaHo77xQ=",
+        "originContent": "Everyone can access the Onshape document too:   ",
+        "translatedContent": "Everyone can access the Onshape document too:   "
+      },
+      {
+        "row": 99,
+        "rowsha": "4dWTmBRgWQyxrKqA3WWHCV8tOmFi0z49QYqN34fbWDA=",
+        "originContent": "[Link Onshape](https://cad.onshape.com/documents/430ff184cf3dd9557aaff2be/w/e3658b7152c139971d22c688/e/bd399bf1860732c6c6a2ee45?renderMode=0&uiState=6867fd3ef773466d059edf0c)  ",
+        "translatedContent": "[Link Onshape](https://cad.onshape.com/documents/430ff184cf3dd9557aaff2be/w/e3658b7152c139971d22c688/e/bd399bf1860732c6c6a2ee45?renderMode=0&uiState=6867fd3ef773466d059edf0c)  "
+      },
+      {
+        "row": 100,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "Note that predefined position are available in \"named position\" tooling, with corresponding servos angles\n\n![Onshape&Named_Pos](/assets/Named_Pos.jpg)  \n\n## Assembly Guide\n\nAssembly guide for the Amazing Hand in combination with standards components in the BOM is here :  \n[=> Assembly Guide](/docs/AmazingHand_Assembly.pdf)  \n![Assembly_example](/assets/Assembly.jpg)  \n\nYou will need simple program / script to calibrate each fingers, available here :\n- With Python & Waveshare serial bus driver : [here](https://github.com/pollen-robotics/AmazingHand/tree/main/PythonExample)\n- With Arduino & TTLinker : [here](https://github.com/pollen-robotics/AmazingHand/tree/main/ArduinoExample)\n\n\nNote that this assembly guide is for a standalone Right hand.\n\nIf you need to build a standalone Left hand, you can keep the sames IDs for servos location, and select if it's a right or left hand in the software.\n\nBUT, if you need to build both right and left hands to plug them on a robot, you will have to attribute differents IDs for right and left hands. You can't have same ID for different servos on the same serial bus...\n\n## Run basic Demo\n\nBasic Demo which is available with both Python & Arduino.\n\nYou will need external power supply to be able to power the 8 actuators inside the hand.\n\nIf you don't have one already, simple external power supply could be a DC/DC 220V -> 5V / 2A adapter with jack connector.\nCheck on the Bom List :\n[AmazingHand BOM](https://docs.google.com/spreadsheets/d/1QH2ePseqXjAhkWdS9oBYAcHPrxaxkSRCgM_kOK0m52E/edit?gid=1269903342#gid=1269903342) \n\n- Python script : \"AmazingHand_Demo.py\" [here](https://github.com/pollen-robotics/AmazingHand/tree/main/ArduinoExample)\n  \n- Arduino program : \"AmazingHand_Demo.ino\" [here](https://github.com/pollen-robotics/AmazingHand/tree/main/PythonExample)\n\n\nhttps://github.com/user-attachments/assets/485fc1f4-cc57-4e59-90b5-e84518b9fed0\n\n\n# Disclaimer\n\nI noticed some variations between theorical angles for Flexion / Extension, Abduction / Adduction and angles in real life prototypes. This is probably due to several sources of variation (3D printed parts are not perfect, balljoint rods are manually adjusted one by one, esrvo horn rework, flexibility of plastic parts...).\n\nThis design has not yet bene tested for long and complex prehensive tasks. Before to be able to grasp objetcs safely (that means without damaging servos or mehanical parts), kind of smart software need to be build.\nSCS0009 servos have smart capaibilities as:\n- Torque enable / disable\n- Torque feedback\n- Current position sensor\n- Heat temperature feedback\n- ...\n\n\n# AmazingHand advanced Demo\n[![Tracking demo](https://img.youtube.com/vi/U0TfeG3ZUto/maxresdefault.jpg)](https://www.youtube.com/watch?v=U0TfeG3ZUto)\n\nFor more advanced usage using inverse/forward kinematics there are several examples in the [Demo](Demo) directory along with some useful tools to test/configure the motors.\n\n\n# Project Updates & Community\n## Updates from community\n\nAmazing Base for the amazing hand : \n![Base](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/Base.jpg)\nSTL or Step file can be found [here](https://github.com/pollen-robotics/AmazingHand/tree/main/cad) \n\nSpecific Chinese BOM available here :\n[Chinese BOM](https://docs.google.com/spreadsheets/d/1fHZiTky79vyZwICj5UGP2c_RiuLLm89K8HrB3vpb2h4/edit?gid=837395814#gid=837395814)\n\nThanks to Jianliang Shen !\n\n## To Do List\n- Design small custom pcb with serial hub and power supply functions, to fit everything in the hand\n- Test with prehensive tasks \n      => Add smarter behaviour for closing hand, based on available motors feedbacks\n- Study possibility to have 4 different fingers length, or add a 5th finger\n- Study possibility to use STS3032 feetedch motors instead of SCS0009\n      => Stronger for quite the same volume, but servo horn is different\n- Study possibility to add compliancy by replacing rigid links to springs\n- Add fingertip sensor to push one step higher smart control\n\n\n## FAQ\nWIP\n\n## Contact\n\nYou can reach public discord channel here : \n[Discord AmazingHand](https://discord.com/channels/519098054377340948/1395021147346698300)\n\nOr \n[Contact me or Pollen Robotics](/docs/contact.md)\n\n## Thank you\nHuge thanks to those who have contributed to this project so far:\n- [Steve N'Guyen](https://github.com/SteveNguyen) for beta testing, Feetech motors integration in Rustypot, Mujoco/Mink and hand tracking demo\n- [Pierre Rouanet](https://github.com/pierre-rouanet) for Feetech motors integration in pypot  \n- [Augustin Crampette](https://fr.linkedin.com/in/augustin-crampette) & [Matthieu Lapeyre](https://www.linkedin.com/in/matthieulapeyre/) for open discussions and mechanical advices\n",
+    "ContentSha": "QdFG48IX4Li8e9xfQyZHMGk217sWiumzE+TjcWMIGMI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Note that predefined position are available in \"named position\" tooling, with corresponding servos angles\n\n![Onshape&Named_Pos](/assets/Named_Pos.jpg)  \n\n## Assembly Guide\n\nAssembly guide for the Amazing Hand in combination with standard components in the BOM is here :  \n[=> Assembly Guide](/docs/AmazingHand_Assembly.pdf)  \n![Assembly_example](/assets/Assembly.jpg)  \n\nYou will need simple program / script to calibrate each finger, available here :\n- With Python & Waveshare serial bus driver : [here](https://github.com/pollen-robotics/AmazingHand/tree/main/PythonExample)\n- With Arduino & TTLinker : [here](https://github.com/pollen-robotics/AmazingHand/tree/main/ArduinoExample)\n\n\nNote that this assembly guide is for a standalone Right hand.\n\nIf you need to build a standalone Left hand, you can keep the same IDs for servos location, and select if it's a right or left hand in the software.\n\nBUT, if you need to build both right and left hands to plug them on a robot, you will have to attribute different IDs for right and left hands. You can't have same ID for different servos on the same serial bus...\n\n## Run basic Demo\n\nBasic Demo which is available with both Python & Arduino.\n\nYou will need external power supply to be able to power the 8 actuators inside the hand.\n\nIf you don't have one already, simple external power supply could be a DC/DC 220V -> 5V / 2A adapter with jack connector.\nCheck on the BOM List :\n[AmazingHand BOM](https://docs.google.com/spreadsheets/d/1QH2ePseqXjAhkWdS9oBYAcHPrxaxkSRCgM_kOK0m52E/edit?gid=1269903342#gid=1269903342) \n\n- Python script : \"AmazingHand_Demo.py\" [here](https://github.com/pollen-robotics/AmazingHand/tree/main/ArduinoExample)\n  \n- Arduino program : \"AmazingHand_Demo.ino\" [here](https://github.com/pollen-robotics/AmazingHand/tree/main/PythonExample)\n\n\nhttps://github.com/user-attachments/assets/485fc1f4-cc57-4e59-90b5-e84518b9fed0\n\n\n# Disclaimer\n\nI noticed some variations between theoretical angles for Flexion / Extension, Abduction / Adduction and angles in real life prototypes. This is probably due to several sources of variation (3D printed parts are not perfect, balljoint rods are manually adjusted one by one, servo horn rework, flexibility of plastic parts...).\n\nThis design has not yet been tested for long and complex prehensile tasks. Before being able to grasp objects safely (that means without damaging servos or mechanical parts), kind of smart software needs to be built.\nSCS0009 servos have smart capabilities such as:\n- Torque enable / disable\n- Torque feedback\n- Current position sensor\n- Heat temperature feedback\n- ...\n\n\n# AmazingHand advanced Demo\n[![Tracking demo](https://img.youtube.com/vi/U0TfeG3ZUto/maxresdefault.jpg)](https://www.youtube.com/watch?v=U0TfeG3ZUto)\n\nFor more advanced usage using inverse/forward kinematics there are several examples in the [Demo](Demo) directory along with some useful tools to test/configure the motors.\n\n\n# Project Updates & Community\n## Updates from community\n\nAmazing Base for the amazing hand : \n![Base](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/Base.jpg)\nSTL or Step file can be found [here](https://github.com/pollen-robotics/AmazingHand/tree/main/cad) \n\nSpecific Chinese BOM available here :\n[Chinese BOM](https://docs.google.com/spreadsheets/d/1fHZiTky79vyZwICj5UGP2c_RiuLLm89K8HrB3vpb2h4/edit?gid=837395814#gid=837395814)\n\nThanks to Jianliang Shen !\n\n## To Do List\n- Design small custom pcb with serial hub and power supply functions, to fit everything in the hand\n- Test with prehensile tasks \n      => Add smarter behaviour for closing hand, based on available motors feedbacks\n- Study possibility to have 4 different finger lengths, or add a 5th finger\n- Study possibility to use STS3032 feetedch motors instead of SCS0009\n      => Stronger for quite the same volume, but servo horn is different\n- Study possibility to add compliancy by replacing rigid links with springs\n- Add fingertip sensor to push one step higher smart control\n\n\n## FAQ\nWIP\n\n## Contact\n\nYou can reach public discord channel here : \n[Discord AmazingHand](https://discord.com/channels/519098054377340948/1395021147346698300)\n\nOr \n[Contact me or Pollen Robotics](/docs/contact.md)\n\n## Thank you\nHuge thanks to those who have contributed to this project so far:\n- [Steve N'Guyen](https://github.com/SteveNguyen) for beta testing, Feetech motors integration in Rustypot, Mujoco/Mink and hand tracking demo\n- [Pierre Rouanet](https://github.com/pierre-rouanet) for Feetech motors integration in pypot  \n- [Augustin Crampette](https://fr.linkedin.com/in/augustin-crampette) & [Matthieu Lapeyre](https://www.linkedin.com/in/matthieulapeyre/) for open discussions and mechanical advice\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "sxkM8qBQw+VK0+OniCEdpLqWEByLhD/cNkrlz/GS69Y=",
+        "originContent": "Note that predefined position are available in \"named position\" tooling, with corresponding servos angles",
+        "translatedContent": "Note that predefined position are available in \"named position\" tooling, with corresponding servos angles"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "8K8/a2yNNrthz9BbG3EiicnKXd5+zZ9v4gDGDS9qi94=",
+        "originContent": "![Onshape&Named_Pos](/assets/Named_Pos.jpg)  ",
+        "translatedContent": "![Onshape&Named_Pos](/assets/Named_Pos.jpg)  "
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "H8onnf3QRCWLHhu1cEXQhYrB/62JetQLpo43ZT60Js4=",
+        "originContent": "## Assembly Guide",
+        "translatedContent": "## Assembly Guide"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "BYka9YXxpL3M9llVkinz3dV5oupAPPxk/3od7KsB34U=",
+        "originContent": "Assembly guide for the Amazing Hand in combination with standards components in the BOM is here :  ",
+        "translatedContent": "Assembly guide for the Amazing Hand in combination with standard components in the BOM is here :  "
+      },
+      {
+        "row": 8,
+        "rowsha": "wIO4whoIN6VvQPx1WdsN0azQKq02C1Z0dcrEDbk5d8o=",
+        "originContent": "[=> Assembly Guide](/docs/AmazingHand_Assembly.pdf)  ",
+        "translatedContent": "[=> Assembly Guide](/docs/AmazingHand_Assembly.pdf)  "
+      },
+      {
+        "row": 9,
+        "rowsha": "6ysTNi1ukUigrEB/WS7gsC9qd2e5BSarb+Qfju18x4M=",
+        "originContent": "![Assembly_example](/assets/Assembly.jpg)  ",
+        "translatedContent": "![Assembly_example](/assets/Assembly.jpg)  "
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "3LSUqd3SO84LE74BBR9gCpbqlgu79JfRzoFJzHuYxH0=",
+        "originContent": "You will need simple program / script to calibrate each fingers, available here :",
+        "translatedContent": "You will need simple program / script to calibrate each finger, available here :"
+      },
+      {
+        "row": 12,
+        "rowsha": "E060APO+tufPaeqOshTtqr7HtSnKatZii+nzGF4sKOk=",
+        "originContent": "- With Python & Waveshare serial bus driver : [here](https://github.com/pollen-robotics/AmazingHand/tree/main/PythonExample)",
+        "translatedContent": "- With Python & Waveshare serial bus driver : [here](https://github.com/pollen-robotics/AmazingHand/tree/main/PythonExample)"
+      },
+      {
+        "row": 13,
+        "rowsha": "vO9tsyjQrXIer+Z9rIpfd7AnLOMmNkoq2v1xdphVvq8=",
+        "originContent": "- With Arduino & TTLinker : [here](https://github.com/pollen-robotics/AmazingHand/tree/main/ArduinoExample)",
+        "translatedContent": "- With Arduino & TTLinker : [here](https://github.com/pollen-robotics/AmazingHand/tree/main/ArduinoExample)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "QCFzyMz/Z5ZmTTs8daiJMmm/TL9lAWySG6vDMV/w4hA=",
+        "originContent": "Note that this assembly guide is for a standalone Right hand.",
+        "translatedContent": "Note that this assembly guide is for a standalone Right hand."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "pu7ANre69MiAaujCkLYA0nDGHtflMx4Lu4UAk2xoM+A=",
+        "originContent": "If you need to build a standalone Left hand, you can keep the sames IDs for servos location, and select if it's a right or left hand in the software.",
+        "translatedContent": "If you need to build a standalone Left hand, you can keep the same IDs for servos location, and select if it's a right or left hand in the software."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "fDPNfbk/YrWu1ES+Zl3/xCy8KC14wZTsPArKFfnW/2I=",
+        "originContent": "BUT, if you need to build both right and left hands to plug them on a robot, you will have to attribute differents IDs for right and left hands. You can't have same ID for different servos on the same serial bus...",
+        "translatedContent": "BUT, if you need to build both right and left hands to plug them on a robot, you will have to attribute different IDs for right and left hands. You can't have same ID for different servos on the same serial bus..."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "v+QxKRlz8rKA30IOWG/QqDZw/fRiQfEMbZ+97UycDr4=",
+        "originContent": "## Run basic Demo",
+        "translatedContent": "## Run basic Demo"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "lK7odOcfM0rahPMXXBciIHZG+YgVv6oaVpZKDZyZdLk=",
+        "originContent": "Basic Demo which is available with both Python & Arduino.",
+        "translatedContent": "Basic Demo which is available with both Python & Arduino."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "TNRGPkNlcDSeGw+V/kDZR5JEWkJE7OEGqFzy6jKznQU=",
+        "originContent": "You will need external power supply to be able to power the 8 actuators inside the hand.",
+        "translatedContent": "You will need external power supply to be able to power the 8 actuators inside the hand."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "cZwsJgQq4uG3eDF8apiI9Mza6/pR+v1Br/s2vaQUr2E=",
+        "originContent": "If you don't have one already, simple external power supply could be a DC/DC 220V -> 5V / 2A adapter with jack connector.",
+        "translatedContent": "If you don't have one already, simple external power supply could be a DC/DC 220V -> 5V / 2A adapter with jack connector."
+      },
+      {
+        "row": 29,
+        "rowsha": "2r8Rw5NO77TnQ8DRl9eT4SA2V7irfAJH84oGoUSZgRs=",
+        "originContent": "Check on the Bom List :",
+        "translatedContent": "Check on the BOM List :"
+      },
+      {
+        "row": 30,
+        "rowsha": "MHFvjEy+5XPa0pCYkZysB4/so69vwhSgRcH/LHfL9xA=",
+        "originContent": "[AmazingHand BOM](https://docs.google.com/spreadsheets/d/1QH2ePseqXjAhkWdS9oBYAcHPrxaxkSRCgM_kOK0m52E/edit?gid=1269903342#gid=1269903342) ",
+        "translatedContent": "[AmazingHand BOM](https://docs.google.com/spreadsheets/d/1QH2ePseqXjAhkWdS9oBYAcHPrxaxkSRCgM_kOK0m52E/edit?gid=1269903342#gid=1269903342) "
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "qMb60SrSznDo3ZcacXVpCTSUbFZDH3VeBKsJA4O7uno=",
+        "originContent": "- Python script : \"AmazingHand_Demo.py\" [here](https://github.com/pollen-robotics/AmazingHand/tree/main/ArduinoExample)",
+        "translatedContent": "- Python script : \"AmazingHand_Demo.py\" [here](https://github.com/pollen-robotics/AmazingHand/tree/main/ArduinoExample)"
+      },
+      {
+        "row": 33,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 34,
+        "rowsha": "Os8yGSMia7WCV0nxmVu8LBUHNbGnizsBiRGor0Wc3xM=",
+        "originContent": "- Arduino program : \"AmazingHand_Demo.ino\" [here](https://github.com/pollen-robotics/AmazingHand/tree/main/PythonExample)",
+        "translatedContent": "- Arduino program : \"AmazingHand_Demo.ino\" [here](https://github.com/pollen-robotics/AmazingHand/tree/main/PythonExample)"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "rn3g8NfkumvCsNpv4nqYULA2aHzy6JS1wulhQMIlGLE=",
+        "originContent": "https://github.com/user-attachments/assets/485fc1f4-cc57-4e59-90b5-e84518b9fed0",
+        "translatedContent": "https://github.com/user-attachments/assets/485fc1f4-cc57-4e59-90b5-e84518b9fed0"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "wqGKUVB0KxrcrjF89etFwTXJsq8VgZLDHQAaG1Kl0ug=",
+        "originContent": "# Disclaimer",
+        "translatedContent": "# Disclaimer"
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "VGbe0zi9KGyQypfeo33014OvCS93OlwsYT2wmic9Z2g=",
+        "originContent": "I noticed some variations between theorical angles for Flexion / Extension, Abduction / Adduction and angles in real life prototypes. This is probably due to several sources of variation (3D printed parts are not perfect, balljoint rods are manually adjusted one by one, esrvo horn rework, flexibility of plastic parts...).",
+        "translatedContent": "I noticed some variations between theoretical angles for Flexion / Extension, Abduction / Adduction and angles in real life prototypes. This is probably due to several sources of variation (3D printed parts are not perfect, balljoint rods are manually adjusted one by one, servo horn rework, flexibility of plastic parts...)."
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "tRkVa5wCqmbuayyVU4aIHKklZzZQcJK3sW2p7ofsV6A=",
+        "originContent": "This design has not yet bene tested for long and complex prehensive tasks. Before to be able to grasp objetcs safely (that means without damaging servos or mehanical parts), kind of smart software need to be build.",
+        "translatedContent": "This design has not yet been tested for long and complex prehensile tasks. Before being able to grasp objects safely (that means without damaging servos or mechanical parts), kind of smart software needs to be built."
+      },
+      {
+        "row": 45,
+        "rowsha": "c1AsMtaqtBQrF2Atbgkra+xK2raTPf/8YvdC7QE8DXs=",
+        "originContent": "SCS0009 servos have smart capaibilities as:",
+        "translatedContent": "SCS0009 servos have smart capabilities such as:"
+      },
+      {
+        "row": 46,
+        "rowsha": "DoPlUtRbODUvNhTFkNNKjUmHzoMCYMHRHUfJtNnTZK0=",
+        "originContent": "- Torque enable / disable",
+        "translatedContent": "- Torque enable / disable"
+      },
+      {
+        "row": 47,
+        "rowsha": "gyB+MVk1lvvMZNVb+6QTsROxLoWowfU/SGFtDovfacw=",
+        "originContent": "- Torque feedback",
+        "translatedContent": "- Torque feedback"
+      },
+      {
+        "row": 48,
+        "rowsha": "Avw/fPgwnoDsYcWaa7bFuIESiCSZ//9WsTCzVnSGSL0=",
+        "originContent": "- Current position sensor",
+        "translatedContent": "- Current position sensor"
+      },
+      {
+        "row": 49,
+        "rowsha": "0yurH4OohQTUVdJVDMUw5t/kthr47ElDPdt3knSx5pk=",
+        "originContent": "- Heat temperature feedback",
+        "translatedContent": "- Heat temperature feedback"
+      },
+      {
+        "row": 50,
+        "rowsha": "jcACPo2UZ3Q4HTY4py+O9VmXuwuo8Ne2FOBPfQZ04GI=",
+        "originContent": "- ...",
+        "translatedContent": "- ..."
+      },
+      {
+        "row": 51,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "sRoh1YbSD3FyTVK4wL/0kjHl077tqVPynILl33TAJ7g=",
+        "originContent": "# AmazingHand advanced Demo",
+        "translatedContent": "# AmazingHand advanced Demo"
+      },
+      {
+        "row": 54,
+        "rowsha": "0OXgSyd5NiIxCGSO1Fx8IZNPqtnlYmdZ8wA+BnyrOw4=",
+        "originContent": "[![Tracking demo](https://img.youtube.com/vi/U0TfeG3ZUto/maxresdefault.jpg)](https://www.youtube.com/watch?v=U0TfeG3ZUto)",
+        "translatedContent": "[![Tracking demo](https://img.youtube.com/vi/U0TfeG3ZUto/maxresdefault.jpg)](https://www.youtube.com/watch?v=U0TfeG3ZUto)"
+      },
+      {
+        "row": 55,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 56,
+        "rowsha": "npURU7fGbMZdKh9vxehKJK15HDcvOGtKSHpLT0KpHt8=",
+        "originContent": "For more advanced usage using inverse/forward kinematics there are several examples in the [Demo](Demo) directory along with some useful tools to test/configure the motors.",
+        "translatedContent": "For more advanced usage using inverse/forward kinematics there are several examples in the [Demo](Demo) directory along with some useful tools to test/configure the motors."
+      },
+      {
+        "row": 57,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 59,
+        "rowsha": "hZmXoPN35iPkD+FC/R8/Fp0sftvanS4y+y0LmeGJ4zk=",
+        "originContent": "# Project Updates & Community",
+        "translatedContent": "# Project Updates & Community"
+      },
+      {
+        "row": 60,
+        "rowsha": "QXST7o4kzarF7HiV7Jo5OHlq9241ZDjvq+v9cYTyRDg=",
+        "originContent": "## Updates from community",
+        "translatedContent": "## Updates from community"
+      },
+      {
+        "row": 61,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 62,
+        "rowsha": "DOZ9eFdalO0UMF3RyZm+IVC3Fnkj9nPLwB2Tau7SMRo=",
+        "originContent": "Amazing Base for the amazing hand : ",
+        "translatedContent": "Amazing Base for the amazing hand : "
+      },
+      {
+        "row": 63,
+        "rowsha": "nNPe07DEpWD1cSQAsHJAENNJeXTH952hJtihJ07fMgc=",
+        "originContent": "![Base](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/Base.jpg)",
+        "translatedContent": "![Base](https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/assets/Base.jpg)"
+      },
+      {
+        "row": 64,
+        "rowsha": "phWdi8wEkILlhnTrgPJNwqQ+GyC9HlfUEnWzinO/rRg=",
+        "originContent": "STL or Step file can be found [here](https://github.com/pollen-robotics/AmazingHand/tree/main/cad) ",
+        "translatedContent": "STL or Step file can be found [here](https://github.com/pollen-robotics/AmazingHand/tree/main/cad) "
+      },
+      {
+        "row": 65,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 66,
+        "rowsha": "4vF+cSM7lE/vJWbOsaTwj8JRm8GNq6fF5HKT2d5wWGk=",
+        "originContent": "Specific Chinese BOM available here :",
+        "translatedContent": "Specific Chinese BOM available here :"
+      },
+      {
+        "row": 67,
+        "rowsha": "VFPDXv8DI1tro6ABRK32YDC777pCn4BOV6VuXWQnetw=",
+        "originContent": "[Chinese BOM](https://docs.google.com/spreadsheets/d/1fHZiTky79vyZwICj5UGP2c_RiuLLm89K8HrB3vpb2h4/edit?gid=837395814#gid=837395814)",
+        "translatedContent": "[Chinese BOM](https://docs.google.com/spreadsheets/d/1fHZiTky79vyZwICj5UGP2c_RiuLLm89K8HrB3vpb2h4/edit?gid=837395814#gid=837395814)"
+      },
+      {
+        "row": 68,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 69,
+        "rowsha": "EnUpWkG+OvenD5Xtqz8aSOmUMMcvtbHxb8+GgHejFr8=",
+        "originContent": "Thanks to Jianliang Shen !",
+        "translatedContent": "Thanks to Jianliang Shen !"
+      },
+      {
+        "row": 70,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 71,
+        "rowsha": "qzEpkzVH76cXlEvb4unaESZ2O5RP4U6tsYEczuEL4rg=",
+        "originContent": "## To Do List",
+        "translatedContent": "## To Do List"
+      },
+      {
+        "row": 72,
+        "rowsha": "6dPXgmALx+Un4hFtJRanGsId9/z5Q9eB+XhWtpydJkY=",
+        "originContent": "- Design small custom pcb with serial hub and power supply functions, to fit everything in the hand",
+        "translatedContent": "- Design small custom pcb with serial hub and power supply functions, to fit everything in the hand"
+      },
+      {
+        "row": 73,
+        "rowsha": "lNZ0TZm5Dvr6xiyFr/g/1p7clecoQegcoEFo5//SxE4=",
+        "originContent": "- Test with prehensive tasks ",
+        "translatedContent": "- Test with prehensile tasks "
+      },
+      {
+        "row": 74,
+        "rowsha": "nRdjk72uRnAMwPo1VBmqlJpt7JWQF8A2lLfkVzT/r28=",
+        "originContent": "      => Add smarter behaviour for closing hand, based on available motors feedbacks",
+        "translatedContent": "      => Add smarter behaviour for closing hand, based on available motors feedbacks"
+      },
+      {
+        "row": 75,
+        "rowsha": "5ryOJ+aDRoBCH5U6/ap4s8Vtg1BngBqXOXyraEZ+mxo=",
+        "originContent": "- Study possibility to have 4 different fingers length, or add a 5th finger",
+        "translatedContent": "- Study possibility to have 4 different finger lengths, or add a 5th finger"
+      },
+      {
+        "row": 76,
+        "rowsha": "vFyJycMpPuOMsLcKd0mrl1UBljkm4fcHxjMwcuD8u08=",
+        "originContent": "- Study possibility to use STS3032 feetedch motors instead of SCS0009",
+        "translatedContent": "- Study possibility to use STS3032 feetedch motors instead of SCS0009"
+      },
+      {
+        "row": 77,
+        "rowsha": "CRN4ODRohMmnbUHKzi/8K+ZzDPahfaKbeOniWmJ/ZZk=",
+        "originContent": "      => Stronger for quite the same volume, but servo horn is different",
+        "translatedContent": "      => Stronger for quite the same volume, but servo horn is different"
+      },
+      {
+        "row": 78,
+        "rowsha": "zXkKFXe48vpIjWwdM0cm3/+ATd7c1gAWJxyxBCx/vw4=",
+        "originContent": "- Study possibility to add compliancy by replacing rigid links to springs",
+        "translatedContent": "- Study possibility to add compliancy by replacing rigid links with springs"
+      },
+      {
+        "row": 79,
+        "rowsha": "91EiwF4YrYuaa+8eT977Gx9HxrsG90JU7dl4VJLljok=",
+        "originContent": "- Add fingertip sensor to push one step higher smart control",
+        "translatedContent": "- Add fingertip sensor to push one step higher smart control"
+      },
+      {
+        "row": 80,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 81,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 82,
+        "rowsha": "sH7VUgPw2I6+13pp6nUDM/T2LsOBk7Micqophzdve4Y=",
+        "originContent": "## FAQ",
+        "translatedContent": "## FAQ"
+      },
+      {
+        "row": 83,
+        "rowsha": "qeC6SbAD4cxAt/mptV8Mh5koWK63v0E22mOjwt3bmKA=",
+        "originContent": "WIP",
+        "translatedContent": "WIP"
+      },
+      {
+        "row": 84,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 85,
+        "rowsha": "ZX9nbduzXgvmAaK8yTd+tNgwR7cV79HXV/+xbvL8suw=",
+        "originContent": "## Contact",
+        "translatedContent": "## Contact"
+      },
+      {
+        "row": 86,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 87,
+        "rowsha": "nz/p97ToqT0Lfp5QWUILoDoXDPckhErCH51MmIH9iys=",
+        "originContent": "You can reach public discord channel here : ",
+        "translatedContent": "You can reach public discord channel here : "
+      },
+      {
+        "row": 88,
+        "rowsha": "8QliKuL79hhwIVGJnYAGi6daE86k1JRKy6InkT2V1Fw=",
+        "originContent": "[Discord AmazingHand](https://discord.com/channels/519098054377340948/1395021147346698300)",
+        "translatedContent": "[Discord AmazingHand](https://discord.com/channels/519098054377340948/1395021147346698300)"
+      },
+      {
+        "row": 89,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 90,
+        "rowsha": "CngYU5IvnMIjvZsjdG8OEbGH7uYlxKpctzkzkwRXef4=",
+        "originContent": "Or ",
+        "translatedContent": "Or "
+      },
+      {
+        "row": 91,
+        "rowsha": "OoYem24hX1YysZyocdFD+h1YJtAYeLTvao5x9n9hIgA=",
+        "originContent": "[Contact me or Pollen Robotics](/docs/contact.md)",
+        "translatedContent": "[Contact me or Pollen Robotics](/docs/contact.md)"
+      },
+      {
+        "row": 92,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 93,
+        "rowsha": "z0n9t8hmBr2c3h459U4Z1AfPmcflewzb17AYjy4OzCQ=",
+        "originContent": "## Thank you",
+        "translatedContent": "## Thank you"
+      },
+      {
+        "row": 94,
+        "rowsha": "xoIeAeHpHZ9Zl3GaW403FIL5D8CjVdhKllnYEr2NDto=",
+        "originContent": "Huge thanks to those who have contributed to this project so far:",
+        "translatedContent": "Huge thanks to those who have contributed to this project so far:"
+      },
+      {
+        "row": 95,
+        "rowsha": "dW1+suDaDkIRLwSZdI15JZdHERcgdVgfJUEtQdvMO58=",
+        "originContent": "- [Steve N'Guyen](https://github.com/SteveNguyen) for beta testing, Feetech motors integration in Rustypot, Mujoco/Mink and hand tracking demo",
+        "translatedContent": "- [Steve N'Guyen](https://github.com/SteveNguyen) for beta testing, Feetech motors integration in Rustypot, Mujoco/Mink and hand tracking demo"
+      },
+      {
+        "row": 96,
+        "rowsha": "rNFw2gFiayzvZm6J6LlCEUFAlzDsNE8z985dB3p+lPQ=",
+        "originContent": "- [Pierre Rouanet](https://github.com/pierre-rouanet) for Feetech motors integration in pypot  ",
+        "translatedContent": "- [Pierre Rouanet](https://github.com/pierre-rouanet) for Feetech motors integration in pypot  "
+      },
+      {
+        "row": 97,
+        "rowsha": "7XrI4HGYwh2c3w4ZBolpbOkwvWTznZQ1gUcB4dhx5YQ=",
+        "originContent": "- [Augustin Crampette](https://fr.linkedin.com/in/augustin-crampette) & [Matthieu Lapeyre](https://www.linkedin.com/in/matthieulapeyre/) for open discussions and mechanical advices",
+        "translatedContent": "- [Augustin Crampette](https://fr.linkedin.com/in/augustin-crampette) & [Matthieu Lapeyre](https://www.linkedin.com/in/matthieulapeyre/) for open discussions and mechanical advice"
+      },
+      {
+        "row": 98,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

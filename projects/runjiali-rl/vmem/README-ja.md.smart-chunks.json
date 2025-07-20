@@ -1,0 +1,593 @@
+[
+  {
+    "Id": 1,
+    "Content": "<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/runjiali-rl/vmem/main/assets/title_logo.png\" width=\"200\" alt=\"VMem Logo\"/>\n<h1>VMem: Consistent Interactive Video Scene Generation with Surfel-Indexed View Memory</h1>\n\n<p align=\"center\">ICCV 2025</p>\n\n\n<a href=\"https://v-mem.github.io/\"><img src=\"https://img.shields.io/badge/%F0%9F%8F%A0%20Project%20Page-gray.svg\"></a>\n<a href=\"http://arxiv.org/abs/2506.18903\"><img src=\"https://img.shields.io/badge/%F0%9F%93%84%20arXiv-2506.18903-B31B1B.svg\"></a>\n<a href=\"https://huggingface.co/liguang0115/vmem\"><img src=\"https://img.shields.io/badge/%F0%9F%A4%97%20Model_Card-Huggingface-orange\"></a>\n<a href=\"https://huggingface.co/spaces/liguang0115/vmem\"><img src=\"https://img.shields.io/badge/%F0%9F%9A%80%20Gradio%20Demo-Huggingface-orange\"></a>\n\n[Runjia Li](https://runjiali-rl.github.io/), [Philip Torr](https://www.robots.ox.ac.uk/~phst/), [Andrea Vedaldi](https://www.robots.ox.ac.uk/~vedaldi/), [Tomas Jakab](https://www.robots.ox.ac.uk/~tomj/)\n<br>\n<br>\n[University of Oxford](https://www.robots.ox.ac.uk/~vgg/)\n</div>\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/runjiali-rl/vmem/main/assets/demo_teaser.gif\" width=\"100%\" alt=\"Teaser\" style=\"border-radius:10px;\"/>\n</p>\n\n<!-- <p align=\"center\" border-radius=\"10px\">\n  <img src=\"https://raw.githubusercontent.com/runjiali-rl/vmem/main/assets/benchmark.png\" width=\"100%\" alt=\"teaser_page1\"/>\n</p> -->\n\n# Overview\n\n`VMem` is a plug-and-play memory mechanism of image-set models for consistent scene generation.\nExisting methods either rely on inpainting with explicit geometry estimation, which suffers from inaccuracies, or use limited context windows in video-based approaches, leading to poor long-term coherence. To overcome these issues, we introduce Surfel Memory of Views (VMem), which anchors past views to surface elements (surfels) they observed. This enables conditioning novel view generation on the most relevant past views rather than just the most recent ones, enhancing long-term scene consistency while reducing computational cost.\n\n\n# :wrench: Installation\n",
+    "ContentSha": "DPdLqeh2MubQ7TQVe2B9bd7Zliw+EB9dV79ea5nWI8M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/runjiali-rl/vmem/main/assets/title_logo.png\" width=\"200\" alt=\"VMem Logo\"/>\n<h1>VMem: サーフェルインデックス付きビュー・メモリによる一貫したインタラクティブ動画シーン生成</h1>\n\n<p align=\"center\">ICCV 2025</p>\n\n\n<a href=\"https://v-mem.github.io/\"><img src=\"https://img.shields.io/badge/%F0%9F%8F%A0%20Project%20Page-gray.svg\"></a>\n<a href=\"http://arxiv.org/abs/2506.18903\"><img src=\"https://img.shields.io/badge/%F0%9F%93%84%20arXiv-2506.18903-B31B1B.svg\"></a>\n<a href=\"https://huggingface.co/liguang0115/vmem\"><img src=\"https://img.shields.io/badge/%F0%9F%A4%97%20Model_Card-Huggingface-orange\"></a>\n<a href=\"https://huggingface.co/spaces/liguang0115/vmem\"><img src=\"https://img.shields.io/badge/%F0%9F%9A%80%20Gradio%20Demo-Huggingface-orange\"></a>\n\n[Runjia Li](https://runjiali-rl.github.io/), [Philip Torr](https://www.robots.ox.ac.uk/~phst/), [Andrea Vedaldi](https://www.robots.ox.ac.uk/~vedaldi/), [Tomas Jakab](https://www.robots.ox.ac.uk/~tomj/)\n<br>\n<br>\n[オックスフォード大学](https://www.robots.ox.ac.uk/~vgg/)\n</div>\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/runjiali-rl/vmem/main/assets/demo_teaser.gif\" width=\"100%\" alt=\"Teaser\" style=\"border-radius:10px;\"/>\n</p>\n\n<!-- <p align=\"center\" border-radius=\"10px\">\n  <img src=\"https://raw.githubusercontent.com/runjiali-rl/vmem/main/assets/benchmark.png\" width=\"100%\" alt=\"teaser_page1\"/>\n</p> -->\n\n# 概要\n\n`VMem` は、一貫したシーン生成のための画像セットモデルのプラグアンドプレイメモリ機構です。\n既存の手法は、精度の問題を抱える明示的な幾何推定を伴うインペインティングに依存するか、動画ベースのアプローチで限定的なコンテキストウィンドウを使用し、長期的な一貫性が低下します。これらの問題を克服するために、我々は過去のビューを観測したサーフェル（表面要素）に固定するサーフェルメモリ・オブ・ビュー（VMem）を導入します。これにより、最新のビューだけでなく最も関連性の高い過去のビューを条件として新規ビュー生成が可能となり、長期的なシーンの一貫性が向上し、計算コストも削減されます。\n\n\n# :wrench: インストール\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "HXGMi/BlHhF785AkPq6n/sdBZRQWAwbdzKAuOEmnfxc=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/runjiali-rl/vmem/main/assets/title_logo.png\" width=\"200\" alt=\"VMem Logo\"/>",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/runjiali-rl/vmem/main/assets/title_logo.png\" width=\"200\" alt=\"VMem Logo\"/>"
+      },
+      {
+        "row": 3,
+        "rowsha": "Oh9WXFDCECzrhNuY8DDok4OhRihMqVwOCbAGAz7K+fA=",
+        "originContent": "<h1>VMem: Consistent Interactive Video Scene Generation with Surfel-Indexed View Memory</h1>",
+        "translatedContent": "<h1>VMem: サーフェルインデックス付きビュー・メモリによる一貫したインタラクティブ動画シーン生成</h1>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "IXWkT6rBcrOFJYE9okPnTOLgEz4uGKEAWiWfVbaaKIg=",
+        "originContent": "<p align=\"center\">ICCV 2025</p>",
+        "translatedContent": "<p align=\"center\">ICCV 2025</p>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "12H8xP2ERMBSUma8Ep9/mh0W+yY0sUf9kdCj5yW5Tqg=",
+        "originContent": "<a href=\"https://v-mem.github.io/\"><img src=\"https://img.shields.io/badge/%F0%9F%8F%A0%20Project%20Page-gray.svg\"></a>",
+        "translatedContent": "<a href=\"https://v-mem.github.io/\"><img src=\"https://img.shields.io/badge/%F0%9F%8F%A0%20Project%20Page-gray.svg\"></a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "iuL3AYwhx7kYbS+oKUQNxrgBiuQuduBvi+4mj9qC4es=",
+        "originContent": "<a href=\"http://arxiv.org/abs/2506.18903\"><img src=\"https://img.shields.io/badge/%F0%9F%93%84%20arXiv-2506.18903-B31B1B.svg\"></a>",
+        "translatedContent": "<a href=\"http://arxiv.org/abs/2506.18903\"><img src=\"https://img.shields.io/badge/%F0%9F%93%84%20arXiv-2506.18903-B31B1B.svg\"></a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "9AaOSopZSzMN9eEnp+2Glvj6g4Pjp2qaJ4Ymp6UWnDg=",
+        "originContent": "<a href=\"https://huggingface.co/liguang0115/vmem\"><img src=\"https://img.shields.io/badge/%F0%9F%A4%97%20Model_Card-Huggingface-orange\"></a>",
+        "translatedContent": "<a href=\"https://huggingface.co/liguang0115/vmem\"><img src=\"https://img.shields.io/badge/%F0%9F%A4%97%20Model_Card-Huggingface-orange\"></a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "A0bxHNjVrfeeKltpLK+LZaSzXBqTaOazSfm95/N9b0U=",
+        "originContent": "<a href=\"https://huggingface.co/spaces/liguang0115/vmem\"><img src=\"https://img.shields.io/badge/%F0%9F%9A%80%20Gradio%20Demo-Huggingface-orange\"></a>",
+        "translatedContent": "<a href=\"https://huggingface.co/spaces/liguang0115/vmem\"><img src=\"https://img.shields.io/badge/%F0%9F%9A%80%20Gradio%20Demo-Huggingface-orange\"></a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "DdBsNt97Zo4Araion13v3IdA82RffKKWg+mdy2P8uFI=",
+        "originContent": "[Runjia Li](https://runjiali-rl.github.io/), [Philip Torr](https://www.robots.ox.ac.uk/~phst/), [Andrea Vedaldi](https://www.robots.ox.ac.uk/~vedaldi/), [Tomas Jakab](https://www.robots.ox.ac.uk/~tomj/)",
+        "translatedContent": "[Runjia Li](https://runjiali-rl.github.io/), [Philip Torr](https://www.robots.ox.ac.uk/~phst/), [Andrea Vedaldi](https://www.robots.ox.ac.uk/~vedaldi/), [Tomas Jakab](https://www.robots.ox.ac.uk/~tomj/)"
+      },
+      {
+        "row": 14,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 15,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 16,
+        "rowsha": "c8LWwduu9Cvp0hE86ux6OyVOMbypVAbyz1DWJZ1N4tE=",
+        "originContent": "[University of Oxford](https://www.robots.ox.ac.uk/~vgg/)",
+        "translatedContent": "[オックスフォード大学](https://www.robots.ox.ac.uk/~vgg/)"
+      },
+      {
+        "row": 17,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 20,
+        "rowsha": "FwzIJyIYswPMfEnd3Heg332yCjCuTikk4a9YLts2Yk0=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/runjiali-rl/vmem/main/assets/demo_teaser.gif\" width=\"100%\" alt=\"Teaser\" style=\"border-radius:10px;\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/runjiali-rl/vmem/main/assets/demo_teaser.gif\" width=\"100%\" alt=\"Teaser\" style=\"border-radius:10px;\"/>"
+      },
+      {
+        "row": 21,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "iCHSnG58DdUTrQ5+w4Y18uxD4/VHfAMo1CTptoujA44=",
+        "originContent": "<!-- <p align=\"center\" border-radius=\"10px\">",
+        "translatedContent": "<!-- <p align=\"center\" border-radius=\"10px\">"
+      },
+      {
+        "row": 24,
+        "rowsha": "+OoHYcat/fu97Dt9BHZja+BbyoJYt2JK6Dg8w39kJi4=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/runjiali-rl/vmem/main/assets/benchmark.png\" width=\"100%\" alt=\"teaser_page1\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/runjiali-rl/vmem/main/assets/benchmark.png\" width=\"100%\" alt=\"teaser_page1\"/>"
+      },
+      {
+        "row": 25,
+        "rowsha": "bqXhAqBeGFOcy+yMM61cF0cF1HZoWS7rvEH5O6+MLgo=",
+        "originContent": "</p> -->",
+        "translatedContent": "</p> -->"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "4ct9hhrs3178ur7dMe6XCFewLuyUDXLAhXSnsbO99YA=",
+        "originContent": "# Overview",
+        "translatedContent": "# 概要"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "EyJ4wfSQAsxxidpu/6LBK2ny1jxsoNGK5KOuttS1YfM=",
+        "originContent": "`VMem` is a plug-and-play memory mechanism of image-set models for consistent scene generation.",
+        "translatedContent": "`VMem` は、一貫したシーン生成のための画像セットモデルのプラグアンドプレイメモリ機構です。"
+      },
+      {
+        "row": 30,
+        "rowsha": "tHu7HEwxMYJA8y2koQvb3nlM737c5g94T1eV6OAYUwM=",
+        "originContent": "Existing methods either rely on inpainting with explicit geometry estimation, which suffers from inaccuracies, or use limited context windows in video-based approaches, leading to poor long-term coherence. To overcome these issues, we introduce Surfel Memory of Views (VMem), which anchors past views to surface elements (surfels) they observed. This enables conditioning novel view generation on the most relevant past views rather than just the most recent ones, enhancing long-term scene consistency while reducing computational cost.",
+        "translatedContent": "既存の手法は、精度の問題を抱える明示的な幾何推定を伴うインペインティングに依存するか、動画ベースのアプローチで限定的なコンテキストウィンドウを使用し、長期的な一貫性が低下します。これらの問題を克服するために、我々は過去のビューを観測したサーフェル（表面要素）に固定するサーフェルメモリ・オブ・ビュー（VMem）を導入します。これにより、最新のビューだけでなく最も関連性の高い過去のビューを条件として新規ビュー生成が可能となり、長期的なシーンの一貫性が向上し、計算コストも削減されます。"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "L2KKcuhmRd4fOoDQBvx+2rI2fwKm/AWInWRH66e3f2M=",
+        "originContent": "# :wrench: Installation",
+        "translatedContent": "# :wrench: インストール"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\nconda create -n vmem python=3.10\nconda activate vmem\npip install -r requirements.txt\n```",
+    "ContentSha": "yOFM7iCaVWn8rwLyEoeKtmkPKk/6YHMkkFz4xKQblHc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nconda create -n vmem python=3.10\nconda activate vmem\npip install -r requirements.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "iUPTbDaxaofGuKiKLY0GRq4rmvzbN8GstklSkhNCTSQ=",
+        "originContent": "conda create -n vmem python=3.10",
+        "translatedContent": "conda create -n vmem python=3.10"
+      },
+      {
+        "row": 3,
+        "rowsha": "n1WJZUPh5CqLPg9vEgiqq++l15iVg6jiWWCQi4p/BWY=",
+        "originContent": "conda activate vmem",
+        "translatedContent": "conda activate vmem"
+      },
+      {
+        "row": 4,
+        "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+        "originContent": "pip install -r requirements.txt",
+        "translatedContent": "pip install -r requirements.txt"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n\n# :rocket: Usage\n\nYou need to properly authenticate with Hugging Face to download our model weights. Once set up, our code will handle it automatically at your first run. You can authenticate by running\n",
+    "ContentSha": "C5lB7GGxtaVbGVbjw75qAfl7npbv3oU3Ij2eKIX7Hho=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\n\n# :rocket: 使用方法\n\nモデルの重みをダウンロードするには、Hugging Faceで適切に認証する必要があります。設定が完了すると、コードは初回実行時に自動的に処理します。認証は次のコマンドで行えます\n</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "oD+UYKo3KLdZLcg1NFXuAiFGxirQczPKjK1R8h0kBKU=",
+        "originContent": "# :rocket: Usage",
+        "translatedContent": "# :rocket: 使用方法"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "4Cnb/40Ezn1qUIogpAlKp88OsdDt0q7XwB4y0R4qfUc=",
+        "originContent": "You need to properly authenticate with Hugging Face to download our model weights. Once set up, our code will handle it automatically at your first run. You can authenticate by running",
+        "translatedContent": "モデルの重みをダウンロードするには、Hugging Faceで適切に認証する必要があります。設定が完了すると、コードは初回実行時に自動的に処理します。認証は次のコマンドで行えます"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\n# This will prompt you to enter your Hugging Face credentials.\nhuggingface-cli login\n```",
+    "ContentSha": "gBgmsoghsldG6mWEbvEn1TVhipZe/yLMSS44CRxLSs0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# This will prompt you to enter your Hugging Face credentials.\nhuggingface-cli login\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "h2FWd/Ag+8MetQ1w0y0iclYT0wVhaF7kRj9uol/3HIk=",
+        "originContent": "# This will prompt you to enter your Hugging Face credentials.",
+        "translatedContent": "# This will prompt you to enter your Hugging Face credentials."
+      },
+      {
+        "row": 3,
+        "rowsha": "W0Xvph8W4mkGNv9wDyTW95OKeoUVMbNfTuCBFhP7qTI=",
+        "originContent": "huggingface-cli login",
+        "translatedContent": "huggingface-cli login"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nOnce authenticated, go to our model card [here](https://huggingface.co/liguang0115/vmem) and enter your information for access.\n\nWe provide a demo for you to interact with `VMem`. Simply run\n",
+    "ContentSha": "5g2I4ViZe3yYUG3+vS788TwI2iIAbZywIsDf8WvMiEk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "認証が完了したら、当社のモデルカードの[こちら](https://huggingface.co/liguang0115/vmem)にアクセスし、アクセスのための情報を入力してください。\n\n`VMem`と対話するためのデモを提供しています。単に実行してください。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "認証が完了したら、当社のモデルカードの[こちら](https://huggingface.co/liguang0115/vmem)にアクセスし、アクセスのための情報を入力してください。"
+      },
+      {
+        "row": 2,
+        "rowsha": "Xb6YoVP6k0gGPTIHKQA+nscILMcRBus23+qwAtkCP7c=",
+        "originContent": "Once authenticated, go to our model card [here](https://huggingface.co/liguang0115/vmem) and enter your information for access.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`VMem`と対話するためのデモを提供しています。単に実行してください。"
+      },
+      {
+        "row": 4,
+        "rowsha": "CjkWYJLsvQe4wHF61QzJ2vCQin+/gFjbvCgkIKayEuo=",
+        "originContent": "We provide a demo for you to interact with `VMem`. Simply run",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\npython app.py\n```",
+    "ContentSha": "2nQFYMHYtsOO4+egbu20DhxqoaxfzoH8CneeM8qTEb0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython app.py\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "yTP73cr3O39gKLRUBLHoG37pGRVYjUGUDuod1taGRp8=",
+        "originContent": "python app.py",
+        "translatedContent": "python app.py"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n\n## :heart: Acknowledgement\nThis work is built on top of [CUT3R](https://github.com/CUT3R/CUT3R), [DUSt3R](https://github.com/naver/dust3r) and [Stable Virtual Camera](https://github.com/stability-ai/stable-virtual-camera). We thank them for their great works.\n\n\n\n\n\n# :books: Citing\n\nIf you find this repository useful, please consider giving a star :star: and citation.\n",
+    "ContentSha": "HraNSDfNIxUyvZiMxhqtAG3mF02ZzqbnHUURxQu/Fzg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\n\n## :heart: 謝辞\n本研究は[ CUT3R ](https://github.com/CUT3R/CUT3R)、[ DUSt3R ](https://github.com/naver/dust3r)、および[ Stable Virtual Camera ](https://github.com/stability-ai/stable-virtual-camera)を基に構築されています。これらの素晴らしい作品に感謝します。\n\n\n\n\n\n# :books: 引用\n\nこのリポジトリが役に立った場合は、スター :star: および引用をご検討ください。\n</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "LmoVqWzcuWsqk67d8jb+aWXliPDfeHhCH2KGp1Ogth8=",
+        "originContent": "## :heart: Acknowledgement",
+        "translatedContent": "## :heart: 謝辞"
+      },
+      {
+        "row": 4,
+        "rowsha": "plqXWgA/jm1Djbw2V0DDE7X4yX/OTCUcWSmpDBj1SuQ=",
+        "originContent": "This work is built on top of [CUT3R](https://github.com/CUT3R/CUT3R), [DUSt3R](https://github.com/naver/dust3r) and [Stable Virtual Camera](https://github.com/stability-ai/stable-virtual-camera). We thank them for their great works.",
+        "translatedContent": "本研究は[ CUT3R ](https://github.com/CUT3R/CUT3R)、[ DUSt3R ](https://github.com/naver/dust3r)、および[ Stable Virtual Camera ](https://github.com/stability-ai/stable-virtual-camera)を基に構築されています。これらの素晴らしい作品に感謝します。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "aOLWq4SSnCjXEAuaKaueljmL5b5p5SD4QhOLxoM2N+Q=",
+        "originContent": "# :books: Citing",
+        "translatedContent": "# :books: 引用"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "Ic0NUNdNRxBdpGU7VHESzEsn6sHjqA0RGH/1fE/5RUM=",
+        "originContent": "If you find this repository useful, please consider giving a star :star: and citation.",
+        "translatedContent": "このリポジトリが役に立った場合は、スター :star: および引用をご検討ください。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\n@article{li2025vmem,\n  title={VMem: Consistent Interactive Video Scene Generation with Surfel-Indexed View Memory},\n  author={Li, Runjia and Torr, Philip and Vedaldi, Andrea and Jakab, Tomas},\n  journal={arXiv preprint arXiv:2506.18903},\n  year={2025}\n}\n```",
+    "ContentSha": "9BIXjxPXKAEWuNGcaGAQzNzw+hFnLNHP4rouH1gW384=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n@article{li2025vmem,\n  title={VMem: Consistent Interactive Video Scene Generation with Surfel-Indexed View Memory},\n  author={Li, Runjia and Torr, Philip and Vedaldi, Andrea and Jakab, Tomas},\n  journal={arXiv preprint arXiv:2506.18903},\n  year={2025}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "9XqiMsGCnqSvk7rrteZBZQuM6MEUfuHIvsNNWuc2hOE=",
+        "originContent": "@article{li2025vmem,",
+        "translatedContent": "@article{li2025vmem,"
+      },
+      {
+        "row": 3,
+        "rowsha": "3C2/64hi97/wG002PgsjZw6hQRGlGImURj2XA+rF1c4=",
+        "originContent": "  title={VMem: Consistent Interactive Video Scene Generation with Surfel-Indexed View Memory},",
+        "translatedContent": "  title={VMem: Consistent Interactive Video Scene Generation with Surfel-Indexed View Memory},"
+      },
+      {
+        "row": 4,
+        "rowsha": "pLZ9bAizHEWU9iJ1bD10X1cSAKg1TYOxypr9hwMpFJM=",
+        "originContent": "  author={Li, Runjia and Torr, Philip and Vedaldi, Andrea and Jakab, Tomas},",
+        "translatedContent": "  author={Li, Runjia and Torr, Philip and Vedaldi, Andrea and Jakab, Tomas},"
+      },
+      {
+        "row": 5,
+        "rowsha": "6gN7J38G7mazvkw7cLNXpKGvxHtA1V2uKodvacPrUNQ=",
+        "originContent": "  journal={arXiv preprint arXiv:2506.18903},",
+        "translatedContent": "  journal={arXiv preprint arXiv:2506.18903},"
+      },
+      {
+        "row": 6,
+        "rowsha": "6oyqJVJ20XoZhlyGjaewQyTQsSBBtVAYmqUtTwjLbAg=",
+        "originContent": "  year={2025}",
+        "translatedContent": "  year={2025}"
+      },
+      {
+        "row": 7,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

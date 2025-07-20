@@ -1,0 +1,1594 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 🛡️ Azure & Office 365 Security Report\n\n> **A comprehensive PowerShell 7 security auditing tool for Azure and Office 365 environments**\n\nThis project provides a modular, read-only security assessment script to help organizations identify security gaps, compliance issues, and cost optimization opportunities across Azure and Office 365 infrastructure.\n\n<div align=\"center\">\n  \n![Menu Layout Demo](https://raw.githubusercontent.com/SteffMet/Azure-Office365-Security-Reporting/main/MenuLayout.gif)\n  \n</div>\n\n### 🛡️ New Security Reporting Modules\n| Module | Description |\n|--------|-------------|\n| **Azure Storage Security** | Detects public blob containers, validates encryption, checks HTTPS enforcement, and analyzes network access rules. |\n| **Azure Key Vault Security** | Monitors certificate expiration, analyzes access policies, validates network restrictions, and checks soft delete/purge protection. |\n| **Network Security Groups (NSG)** | Identifies dangerous firewall rules, internet-exposed services, SSH/RDP exposure, and database port security. |\n| **SharePoint & OneDrive Security** | Analyzes external sharing, OneDrive usage, Data Loss Prevention (DLP) policies, and guest access. |\n| **Configuration Management** | Supports encrypted credential storage, auto-connect, customizable export paths, and configuration backup/restore. |\n| **Teams Channel Membership Changes** | Reports current membership of all Teams channels, including users and guests. |\n| **SharePoint Site Storage Usage** | Reports storage usage for all SharePoint sites, highlighting quota and usage trends. |\n| **Azure Resource Tag Compliance** | Audits Azure resources for required tags and compliance with tagging policies. |\n| **OneDrive Sharing Links Audit** | Audits OneDrive sharing links, reporting on externally shared files and access levels. |\n\n### 📈 Enhanced Reporting\n- 5 new timestamped CSV reports.\n- Risk-based scoring (Critical/High/Medium/Low).\n- Security recommendations for each finding.\n- Executive summary dashboards.\n\n  \n## 🌟 Key Features\n\n### 🔐 Azure Security Auditing\n- **Identity & Access Management (IAM)**\n  - Multi-Factor Authentication (MFA) status analysis\n  - Guest user access review and reporting\n  - Password expiry policy assessment\n  - Conditional Access policy evaluation\n\n- **🛡️ Data Protection**\n  - Azure VM TLS configuration analysis (Azure Resource Graph)\n  - Virtual Machine disk encryption status\n  - Security compliance reporting\n\n- **🏗️ Infrastructure Security**\n  - Azure Storage Account security configuration\n  - Public blob container detection\n  - Azure Key Vault security assessment\n  - Certificate expiration monitoring\n  - Network Security Group (NSG) analysis\n  - Dangerous firewall rules detection\n  - Azure Resource Tag Compliance: Audit resources for required tags and compliance\n\n### ☁️ Office 365 Security Auditing\n- **📊 License Management**\n  - Comprehensive license usage analysis\n  - Cost optimization recommendations\n  - Unassigned license detection and reporting\n\n- **👤 User Account Security**\n  - Inactive account detection (90+ days)\n  - Licensed but inactive account identification\n  - Security risk assessment\n\n- **📧 Email Security**\n  - Mailbox forwarding rule analysis\n  - External email forwarding detection\n  - Exchange Online security assessment\n\n- **👥 Microsoft Teams Security**\n  - External access configuration review\n  - Teams with external users/guests reporting\n  - Teams security posture assessment\n  - Teams Channel Membership Changes: Report current membership of all Teams channels\n\n- **📁 SharePoint & OneDrive Security**\n  - SharePoint sharing settings analysis\n  - SharePoint Site Storage Usage: Report storage usage for all SharePoint sites\n  - OneDrive usage and security monitoring\n  - Data Loss Prevention (DLP) policy guidance\n  - External sharing detection\n  - OneDrive Sharing Links Audit: Audit externally shared files and access levels\n\n### ⚙️ Configuration Management\n- **Settings & Credential Storage**\n  - Azure Service Principal configuration\n  - Secure credential storage for automation\n  - Auto-connect functionality\n  - Customizable export paths\n  - Configuration management\n\n---\n### Read-Only Operations\n- ✅ **No modifications** to any Azure or Office 365 configurations\n- ✅ **Audit trail** - All actions logged with timestamps\n- ✅ **Secure authentication** using modern authentication flows\n- ✅ **Least privilege** - Only requires read permissions\n",
+    "ContentSha": "3SGz9iRWVIxhweRHE5Pn4tbSbNKdnaBN93M7L8DvrYg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># 🛡️ Azure 및 Office 365 보안 보고서\n\n> **Azure 및 Office 365 환경을 위한 종합 PowerShell 7 보안 감사 도구**\n\n이 프로젝트는 Azure 및 Office 365 인프라 전반의 보안 격차, 컴플라이언스 문제 및 비용 최적화 기회를 식별하는 데 도움을 주는 모듈식 읽기 전용 보안 평가 스크립트를 제공합니다.\n\n<div align=\"center\">\n  \n![메뉴 레이아웃 데모](https://raw.githubusercontent.com/SteffMet/Azure-Office365-Security-Reporting/main/MenuLayout.gif)\n  \n</div>\n\n### 🛡️ 새로운 보안 보고 모듈\n| 모듈 | 설명 |\n|--------|-------------|\n| **Azure Storage 보안** | 공개 블롭 컨테이너 감지, 암호화 검증, HTTPS 적용 확인 및 네트워크 접근 규칙 분석을 수행합니다. |\n| **Azure Key Vault 보안** | 인증서 만료 모니터링, 접근 정책 분석, 네트워크 제한 검증 및 소프트 삭제/영구 삭제 보호 확인을 수행합니다. |\n| **네트워크 보안 그룹 (NSG)** | 위험한 방화벽 규칙, 인터넷 노출 서비스, SSH/RDP 노출 및 데이터베이스 포트 보안을 식별합니다. |\n| **SharePoint 및 OneDrive 보안** | 외부 공유, OneDrive 사용 현황, 데이터 손실 방지(DLP) 정책 및 게스트 접근을 분석합니다. |\n| **구성 관리** | 암호화된 자격 증명 저장, 자동 연결, 맞춤형 내보내기 경로 및 구성 백업/복원을 지원합니다. |\n| **Teams 채널 멤버십 변경** | 모든 Teams 채널의 현재 멤버십(사용자 및 게스트 포함)을 보고합니다. |\n| **SharePoint 사이트 저장소 사용량** | 모든 SharePoint 사이트의 저장소 사용량을 보고하며 할당량 및 사용 추세를 강조합니다. |\n| **Azure 리소스 태그 컴플라이언스** | 필수 태그 및 태그 정책 준수 여부에 대해 Azure 리소스를 감사합니다. |\n| **OneDrive 공유 링크 감사** | OneDrive 공유 링크를 감사하며 외부 공유 파일 및 접근 수준을 보고합니다. |\n\n### 📈 향상된 보고\n- 5개의 새로운 타임스탬프가 포함된 CSV 보고서\n- 위험 기반 점수 매기기 (치명적/높음/중간/낮음)\n- 각 발견 사항에 대한 보안 권고사항\n- 경영진 요약 대시보드\n\n  \n## 🌟 주요 기능\n\n### 🔐 Azure 보안 감사\n- **아이덴티티 및 접근 관리 (IAM)**\n  - 다중 인증(MFA) 상태 분석\n  - 게스트 사용자 접근 검토 및 보고\n  - 비밀번호 만료 정책 평가\n  - 조건부 접근 정책 평가\n\n- **🛡️ 데이터 보호**\n  - Azure VM TLS 구성 분석 (Azure Resource Graph)\n  - 가상 머신 디스크 암호화 상태\n  - 보안 컴플라이언스 보고\n\n- **🏗️ 인프라 보안**\n  - Azure 저장소 계정 보안 구성\n  - 공개 블롭 컨테이너 감지\n  - Azure Key Vault 보안 평가\n  - 인증서 만료 모니터링\n  - 네트워크 보안 그룹(NSG) 분석\n  - 위험한 방화벽 규칙 탐지\n  - Azure 리소스 태그 컴플라이언스: 필수 태그 및 준수 여부 감사\n\n### ☁️ Office 365 보안 감사\n- **📊 라이선스 관리**\n  - 종합 라이선스 사용 분석\n  - 비용 최적화 권고\n  - 미할당 라이선스 탐지 및 보고\n\n- **👤 사용자 계정 보안**\n  - 비활성 계정 탐지 (90일 이상)\n  - 라이선스 보유 비활성 계정 식별\n  - 보안 위험 평가\n\n- **📧 이메일 보안**\n  - 사서함 전달 규칙 분석\n  - 외부 이메일 전달 탐지\n  - Exchange Online 보안 평가\n\n- **👥 Microsoft Teams 보안**\n  - 외부 접근 구성 검토\n  - 외부 사용자/게스트가 있는 Teams 보고\n  - Teams 보안 상태 평가\n  - Teams 채널 멤버십 변경: 모든 Teams 채널의 현재 멤버십 보고\n\n- **📁 SharePoint 및 OneDrive 보안**\n  - SharePoint 공유 설정 분석\n  - SharePoint 사이트 저장소 사용량: 모든 SharePoint 사이트 저장소 사용량 보고\n  - OneDrive 사용 및 보안 모니터링\n  - 데이터 손실 방지(DLP) 정책 안내\n  - 외부 공유 탐지\n  - OneDrive 공유 링크 감사: 외부 공유 파일 및 접근 수준 감사\n\n### ⚙️ 구성 관리\n- **설정 및 자격 증명 저장**\n  - Azure 서비스 주체 구성\n  - 자동화를 위한 안전한 자격 증명 저장\n  - 자동 연결 기능\n  - 맞춤형 내보내기 경로\n  - 구성 관리\n\n---\n### 읽기 전용 작업\n- ✅ Azure 또는 Office 365 구성에 **전혀 변경 없음**\n- ✅ **감사 추적** - 모든 작업은 타임스탬프와 함께 기록됨\n- ✅ **안전한 인증** - 최신 인증 흐름 사용\n- ✅ **최소 권한** - 읽기 권한만 필요함\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "gsY9X3JDr6FXCbEAahFvs6a/vB77uhSQU6zPYO4LIxI=",
+        "originContent": "# 🛡️ Azure & Office 365 Security Report",
+        "translatedContent": "<translate-content># 🛡️ Azure 및 Office 365 보안 보고서"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "p+GslDw2yweOR/Pk90yp9QnEaOZ1EuKnTXSc59YgWl8=",
+        "originContent": "> **A comprehensive PowerShell 7 security auditing tool for Azure and Office 365 environments**",
+        "translatedContent": "> **Azure 및 Office 365 환경을 위한 종합 PowerShell 7 보안 감사 도구**"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "RZg0Q4z0Xrss1hpy+I4GZYd21PkkwsQtn58fde+avag=",
+        "originContent": "This project provides a modular, read-only security assessment script to help organizations identify security gaps, compliance issues, and cost optimization opportunities across Azure and Office 365 infrastructure.",
+        "translatedContent": "이 프로젝트는 Azure 및 Office 365 인프라 전반의 보안 격차, 컴플라이언스 문제 및 비용 최적화 기회를 식별하는 데 도움을 주는 모듈식 읽기 전용 보안 평가 스크립트를 제공합니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 8,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 9,
+        "rowsha": "23CIQe6NPnlNqccl9aR2vVgDqQjb20R8ucRUEsGORSM=",
+        "originContent": "![Menu Layout Demo](https://raw.githubusercontent.com/SteffMet/Azure-Office365-Security-Reporting/main/MenuLayout.gif)",
+        "translatedContent": "![메뉴 레이아웃 데모](https://raw.githubusercontent.com/SteffMet/Azure-Office365-Security-Reporting/main/MenuLayout.gif)"
+      },
+      {
+        "row": 10,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 11,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "/zxLnsSSo7SXm7Y4AA01AmHDICcyDLPoc5wSaPHW/+U=",
+        "originContent": "### 🛡️ New Security Reporting Modules",
+        "translatedContent": "### 🛡️ 새로운 보안 보고 모듈"
+      },
+      {
+        "row": 14,
+        "rowsha": "rpVSX9uR3toFUvbr5tbnbiZlXo5wjmjBMWJ77BQOH7E=",
+        "originContent": "| Module | Description |",
+        "translatedContent": "| 모듈 | 설명 |"
+      },
+      {
+        "row": 15,
+        "rowsha": "ZqcitLEDVJCsaateC1TsrZJjRd8T8FmDq8vfQcWHwsw=",
+        "originContent": "|--------|-------------|",
+        "translatedContent": "|--------|-------------|"
+      },
+      {
+        "row": 16,
+        "rowsha": "yGPMB3AgV1ivGpInIjg77FL0oXYcUBFNf5L5VyMg9fg=",
+        "originContent": "| **Azure Storage Security** | Detects public blob containers, validates encryption, checks HTTPS enforcement, and analyzes network access rules. |",
+        "translatedContent": "| **Azure Storage 보안** | 공개 블롭 컨테이너 감지, 암호화 검증, HTTPS 적용 확인 및 네트워크 접근 규칙 분석을 수행합니다. |"
+      },
+      {
+        "row": 17,
+        "rowsha": "TzVSsIDeZhrynztJtELlUMVhnNbin4zNMBMhQ/gO2VU=",
+        "originContent": "| **Azure Key Vault Security** | Monitors certificate expiration, analyzes access policies, validates network restrictions, and checks soft delete/purge protection. |",
+        "translatedContent": "| **Azure Key Vault 보안** | 인증서 만료 모니터링, 접근 정책 분석, 네트워크 제한 검증 및 소프트 삭제/영구 삭제 보호 확인을 수행합니다. |"
+      },
+      {
+        "row": 18,
+        "rowsha": "VJsSigZegfI4MrTbTkt0KY8WSqeTExg1rF612Z0TIqo=",
+        "originContent": "| **Network Security Groups (NSG)** | Identifies dangerous firewall rules, internet-exposed services, SSH/RDP exposure, and database port security. |",
+        "translatedContent": "| **네트워크 보안 그룹 (NSG)** | 위험한 방화벽 규칙, 인터넷 노출 서비스, SSH/RDP 노출 및 데이터베이스 포트 보안을 식별합니다. |"
+      },
+      {
+        "row": 19,
+        "rowsha": "FTDQ25h2oIrXzNkhv8IoFu3xIHxvupWwo2KGlcq0GII=",
+        "originContent": "| **SharePoint & OneDrive Security** | Analyzes external sharing, OneDrive usage, Data Loss Prevention (DLP) policies, and guest access. |",
+        "translatedContent": "| **SharePoint 및 OneDrive 보안** | 외부 공유, OneDrive 사용 현황, 데이터 손실 방지(DLP) 정책 및 게스트 접근을 분석합니다. |"
+      },
+      {
+        "row": 20,
+        "rowsha": "XYwvnQgZlmozjj2wZPnedsimeJkBm2uHau/nshnCfnE=",
+        "originContent": "| **Configuration Management** | Supports encrypted credential storage, auto-connect, customizable export paths, and configuration backup/restore. |",
+        "translatedContent": "| **구성 관리** | 암호화된 자격 증명 저장, 자동 연결, 맞춤형 내보내기 경로 및 구성 백업/복원을 지원합니다. |"
+      },
+      {
+        "row": 21,
+        "rowsha": "SKgoygT81Lsl+iy6xYHx41hAieLK9kMDu/n1aO/ym64=",
+        "originContent": "| **Teams Channel Membership Changes** | Reports current membership of all Teams channels, including users and guests. |",
+        "translatedContent": "| **Teams 채널 멤버십 변경** | 모든 Teams 채널의 현재 멤버십(사용자 및 게스트 포함)을 보고합니다. |"
+      },
+      {
+        "row": 22,
+        "rowsha": "CaWg8KyA6PbvgGJL1Okec3oHxseD8AjV/mybSpTkB7c=",
+        "originContent": "| **SharePoint Site Storage Usage** | Reports storage usage for all SharePoint sites, highlighting quota and usage trends. |",
+        "translatedContent": "| **SharePoint 사이트 저장소 사용량** | 모든 SharePoint 사이트의 저장소 사용량을 보고하며 할당량 및 사용 추세를 강조합니다. |"
+      },
+      {
+        "row": 23,
+        "rowsha": "QHYno4RNzIhVksDN4vjDNj7/7UwWWiczNCOVpSsm/XU=",
+        "originContent": "| **Azure Resource Tag Compliance** | Audits Azure resources for required tags and compliance with tagging policies. |",
+        "translatedContent": "| **Azure 리소스 태그 컴플라이언스** | 필수 태그 및 태그 정책 준수 여부에 대해 Azure 리소스를 감사합니다. |"
+      },
+      {
+        "row": 24,
+        "rowsha": "TEMz1e1scpUhjIk02qeKjBIe5cMAOnxQ3UzWYxg1XfM=",
+        "originContent": "| **OneDrive Sharing Links Audit** | Audits OneDrive sharing links, reporting on externally shared files and access levels. |",
+        "translatedContent": "| **OneDrive 공유 링크 감사** | OneDrive 공유 링크를 감사하며 외부 공유 파일 및 접근 수준을 보고합니다. |"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "wK+oIXPI7TM75hnbo0IFvcwROfMeldaw+i1nBl1WZXE=",
+        "originContent": "### 📈 Enhanced Reporting",
+        "translatedContent": "### 📈 향상된 보고"
+      },
+      {
+        "row": 27,
+        "rowsha": "C6o+3cOHVZ/BfIQeNNrAaHA/bnX09Fk7IiVQP3nLnRg=",
+        "originContent": "- 5 new timestamped CSV reports.",
+        "translatedContent": "- 5개의 새로운 타임스탬프가 포함된 CSV 보고서"
+      },
+      {
+        "row": 28,
+        "rowsha": "bSwPoa1pIKAN1YvAFnVtuPwvuA20TkbXaXO0oNh/0wc=",
+        "originContent": "- Risk-based scoring (Critical/High/Medium/Low).",
+        "translatedContent": "- 위험 기반 점수 매기기 (치명적/높음/중간/낮음)"
+      },
+      {
+        "row": 29,
+        "rowsha": "P8tYv0haE9LqH7thHzkNJk8z9UViNp9NsfhS04bUPQk=",
+        "originContent": "- Security recommendations for each finding.",
+        "translatedContent": "- 각 발견 사항에 대한 보안 권고사항"
+      },
+      {
+        "row": 30,
+        "rowsha": "y6UmKWxOrzPXNA4p5TpekuoOK58q26Ohre0xjcRPrCs=",
+        "originContent": "- Executive summary dashboards.",
+        "translatedContent": "- 경영진 요약 대시보드"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 33,
+        "rowsha": "DDt4SHPnZlOckYigaUkYidMzs/bV3zfEZWwXUpsSN0U=",
+        "originContent": "## 🌟 Key Features",
+        "translatedContent": "## 🌟 주요 기능"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "mqoVGhvwxGAyke3iFKcdMvRs1Pk44epZmfE05t95+8U=",
+        "originContent": "### 🔐 Azure Security Auditing",
+        "translatedContent": "### 🔐 Azure 보안 감사"
+      },
+      {
+        "row": 36,
+        "rowsha": "CTOdTgeLci7wSl04u1MZha3Lq9ByIIhGMsDpZvmMTZs=",
+        "originContent": "- **Identity & Access Management (IAM)**",
+        "translatedContent": "- **아이덴티티 및 접근 관리 (IAM)**"
+      },
+      {
+        "row": 37,
+        "rowsha": "opkurevGgdNkFphKD32TmMxWJbpoQH8ZLEl2+J72LPE=",
+        "originContent": "  - Multi-Factor Authentication (MFA) status analysis",
+        "translatedContent": "  - 다중 인증(MFA) 상태 분석"
+      },
+      {
+        "row": 38,
+        "rowsha": "baBI2ptPj2/jg0IYkeEUm0x/IRuqTw3ri5mbkNwceeI=",
+        "originContent": "  - Guest user access review and reporting",
+        "translatedContent": "  - 게스트 사용자 접근 검토 및 보고"
+      },
+      {
+        "row": 39,
+        "rowsha": "LP6nwQQg46fpHXum3A0r3r/eXM25zsUdH0EcNOvypCo=",
+        "originContent": "  - Password expiry policy assessment",
+        "translatedContent": "  - 비밀번호 만료 정책 평가"
+      },
+      {
+        "row": 40,
+        "rowsha": "N3oL6gKLE3XStzW5oOHMlGWFzGmDa3MK5Pyl+nqe3MA=",
+        "originContent": "  - Conditional Access policy evaluation",
+        "translatedContent": "  - 조건부 접근 정책 평가"
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "EqG+VCV+ZXBtWaJcuv0KCNhuiB8q3MT5+QjXbAh+kng=",
+        "originContent": "- **🛡️ Data Protection**",
+        "translatedContent": "- **🛡️ 데이터 보호**"
+      },
+      {
+        "row": 43,
+        "rowsha": "bdcDGf1P8eFDMdu15DmjeyJqp9BiIgdP6ari5+xGq+4=",
+        "originContent": "  - Azure VM TLS configuration analysis (Azure Resource Graph)",
+        "translatedContent": "  - Azure VM TLS 구성 분석 (Azure Resource Graph)"
+      },
+      {
+        "row": 44,
+        "rowsha": "/XW5MIVbbUCeB9xNfOwjm7dhTc5CyFHy140YR1gSHEM=",
+        "originContent": "  - Virtual Machine disk encryption status",
+        "translatedContent": "  - 가상 머신 디스크 암호화 상태"
+      },
+      {
+        "row": 45,
+        "rowsha": "wPxhkci0TCrXgq0B/+xvJo1bw8ou5UftOtnsMK+AvlI=",
+        "originContent": "  - Security compliance reporting",
+        "translatedContent": "  - 보안 컴플라이언스 보고"
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "PtAeuCyFoFz4LDy92UF8QI0hohAj6XKKMKf+pQgt3OE=",
+        "originContent": "- **🏗️ Infrastructure Security**",
+        "translatedContent": "- **🏗️ 인프라 보안**"
+      },
+      {
+        "row": 48,
+        "rowsha": "ZU0VPepb4OcrMTKbqEetvjX4lZBDkNqBcFK3vbRI0Kg=",
+        "originContent": "  - Azure Storage Account security configuration",
+        "translatedContent": "  - Azure 저장소 계정 보안 구성"
+      },
+      {
+        "row": 49,
+        "rowsha": "Jeigwcj4daxpU1/YzHm69J4IAFXdKQGwO5c5w8GPv6Q=",
+        "originContent": "  - Public blob container detection",
+        "translatedContent": "  - 공개 블롭 컨테이너 감지"
+      },
+      {
+        "row": 50,
+        "rowsha": "5pMAmW+UU55S1ZNzwVOkLdcJo3d+oSjhZLHcId7LuBY=",
+        "originContent": "  - Azure Key Vault security assessment",
+        "translatedContent": "  - Azure Key Vault 보안 평가"
+      },
+      {
+        "row": 51,
+        "rowsha": "W1QU+k/Rv/QNsxRJKF2wWIGDxB6Wub2gGwQJ89NqSO4=",
+        "originContent": "  - Certificate expiration monitoring",
+        "translatedContent": "  - 인증서 만료 모니터링"
+      },
+      {
+        "row": 52,
+        "rowsha": "mjm599M0ypM7/JhYkhHkKxQGV4DNovQQTLlc5+LCyuw=",
+        "originContent": "  - Network Security Group (NSG) analysis",
+        "translatedContent": "  - 네트워크 보안 그룹(NSG) 분석"
+      },
+      {
+        "row": 53,
+        "rowsha": "HVA+x8M0YqYHSgn4CIQvBZ7acsJf1ejxq6ez3tgkJIQ=",
+        "originContent": "  - Dangerous firewall rules detection",
+        "translatedContent": "  - 위험한 방화벽 규칙 탐지"
+      },
+      {
+        "row": 54,
+        "rowsha": "7COIpF4YenpKdbqVpsKYK2ohNBt3kbZvgDT31Qvqkok=",
+        "originContent": "  - Azure Resource Tag Compliance: Audit resources for required tags and compliance",
+        "translatedContent": "  - Azure 리소스 태그 컴플라이언스: 필수 태그 및 준수 여부 감사"
+      },
+      {
+        "row": 55,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 56,
+        "rowsha": "g31GqKQByuRHVZ1op5yj1nPD3gFKzuuLrBmz5vjw+uE=",
+        "originContent": "### ☁️ Office 365 Security Auditing",
+        "translatedContent": "### ☁️ Office 365 보안 감사"
+      },
+      {
+        "row": 57,
+        "rowsha": "oZ2+wIeAL5so/LLNc6i9+ucuNx9Go55WLBFE0T0jYVw=",
+        "originContent": "- **📊 License Management**",
+        "translatedContent": "- **📊 라이선스 관리**"
+      },
+      {
+        "row": 58,
+        "rowsha": "GG7Zds8lVA8EnGckMpqHMKAK15u+MNmOfafm3Xuh4gU=",
+        "originContent": "  - Comprehensive license usage analysis",
+        "translatedContent": "  - 종합 라이선스 사용 분석"
+      },
+      {
+        "row": 59,
+        "rowsha": "GwQgU0o5+R3+h5rQchAcEnWFsaRNvqQs9uBujsjn8vE=",
+        "originContent": "  - Cost optimization recommendations",
+        "translatedContent": "  - 비용 최적화 권고"
+      },
+      {
+        "row": 60,
+        "rowsha": "5Yiuoev+S4admHRZ/FyRWTuVRJMUqQi2nZM503xC0d8=",
+        "originContent": "  - Unassigned license detection and reporting",
+        "translatedContent": "  - 미할당 라이선스 탐지 및 보고"
+      },
+      {
+        "row": 61,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 62,
+        "rowsha": "ByxPP3GIbeCRGoHCmtjUJJ3+327rt6mzQtz4MYS8AFE=",
+        "originContent": "- **👤 User Account Security**",
+        "translatedContent": "- **👤 사용자 계정 보안**"
+      },
+      {
+        "row": 63,
+        "rowsha": "YTDq6jAbrgaA/2ORlJU9SUw4s1U/cda+ml6xgj54KkM=",
+        "originContent": "  - Inactive account detection (90+ days)",
+        "translatedContent": "  - 비활성 계정 탐지 (90일 이상)"
+      },
+      {
+        "row": 64,
+        "rowsha": "YWwUSlcciq4zkAkpDi+00IyoxtFwipI1S79j0/ZlCfQ=",
+        "originContent": "  - Licensed but inactive account identification",
+        "translatedContent": "  - 라이선스 보유 비활성 계정 식별"
+      },
+      {
+        "row": 65,
+        "rowsha": "oX5rZFzZup1g/4xt0gEhFCHmFKc2kDe6ssuYkLqEh0I=",
+        "originContent": "  - Security risk assessment",
+        "translatedContent": "  - 보안 위험 평가"
+      },
+      {
+        "row": 66,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 67,
+        "rowsha": "U/2fPvmKtVb5KidpU11VDdPtIqC0RJSWqUsPMRcJBgo=",
+        "originContent": "- **📧 Email Security**",
+        "translatedContent": "- **📧 이메일 보안**"
+      },
+      {
+        "row": 68,
+        "rowsha": "HqlaJ/Zy8yXSBxNNQ3As11Nljr97p7vft0deak1Ltr8=",
+        "originContent": "  - Mailbox forwarding rule analysis",
+        "translatedContent": "  - 사서함 전달 규칙 분석"
+      },
+      {
+        "row": 69,
+        "rowsha": "CHEJBSYRuI5gn6FJyuiBN5REHS+BFm4/27byD+N5Agk=",
+        "originContent": "  - External email forwarding detection",
+        "translatedContent": "  - 외부 이메일 전달 탐지"
+      },
+      {
+        "row": 70,
+        "rowsha": "H2fvoqEzyTLoxwkYFy0Kd0GLEVSVUzvID0t0iCWz+8A=",
+        "originContent": "  - Exchange Online security assessment",
+        "translatedContent": "  - Exchange Online 보안 평가"
+      },
+      {
+        "row": 71,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 72,
+        "rowsha": "GD5MaD4MWdnl/7FXy2agIAZduMsg/z7oK8oUPKXwj8w=",
+        "originContent": "- **👥 Microsoft Teams Security**",
+        "translatedContent": "- **👥 Microsoft Teams 보안**"
+      },
+      {
+        "row": 73,
+        "rowsha": "bV/nu6nLztyAQ5/nwLgd6miEQbxilRvkCf0mdgygFQo=",
+        "originContent": "  - External access configuration review",
+        "translatedContent": "  - 외부 접근 구성 검토"
+      },
+      {
+        "row": 74,
+        "rowsha": "ylIgFQTUzN3rszJlU7N1p+y6MMEJAo9o5QGv9UQ5ZxY=",
+        "originContent": "  - Teams with external users/guests reporting",
+        "translatedContent": "  - 외부 사용자/게스트가 있는 Teams 보고"
+      },
+      {
+        "row": 75,
+        "rowsha": "/g5u2kcd/Yn7JkD3BkzDW4CBH5aZ3fxc/58QmmxshrY=",
+        "originContent": "  - Teams security posture assessment",
+        "translatedContent": "  - Teams 보안 상태 평가"
+      },
+      {
+        "row": 76,
+        "rowsha": "pqRL1iEIDALANUwp2q4fIlqEiox1tEuMDrlvdTR6XBk=",
+        "originContent": "  - Teams Channel Membership Changes: Report current membership of all Teams channels",
+        "translatedContent": "  - Teams 채널 멤버십 변경: 모든 Teams 채널의 현재 멤버십 보고"
+      },
+      {
+        "row": 77,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 78,
+        "rowsha": "7MaXc+u0snbbMzTZnYdfcu/qQS7AjPwvzE8bHka00Cc=",
+        "originContent": "- **📁 SharePoint & OneDrive Security**",
+        "translatedContent": "- **📁 SharePoint 및 OneDrive 보안**"
+      },
+      {
+        "row": 79,
+        "rowsha": "7Qvv/rEXDi+KU/0ot8HLs31s8c6Z/4nvMD41S//y65A=",
+        "originContent": "  - SharePoint sharing settings analysis",
+        "translatedContent": "  - SharePoint 공유 설정 분석"
+      },
+      {
+        "row": 80,
+        "rowsha": "EG89uyi0NUgEq0UhnqGI8XQYNCFJOKMv0JMdiRreOZw=",
+        "originContent": "  - SharePoint Site Storage Usage: Report storage usage for all SharePoint sites",
+        "translatedContent": "  - SharePoint 사이트 저장소 사용량: 모든 SharePoint 사이트 저장소 사용량 보고"
+      },
+      {
+        "row": 81,
+        "rowsha": "ZW1z9/fwe0JSncIBbmLnRyTT2wt0tyxAoRelgPfK16c=",
+        "originContent": "  - OneDrive usage and security monitoring",
+        "translatedContent": "  - OneDrive 사용 및 보안 모니터링"
+      },
+      {
+        "row": 82,
+        "rowsha": "NGTfb4X2G4/JxYsh2S2ZcuwZl2lxm/HT2td1ovXtx08=",
+        "originContent": "  - Data Loss Prevention (DLP) policy guidance",
+        "translatedContent": "  - 데이터 손실 방지(DLP) 정책 안내"
+      },
+      {
+        "row": 83,
+        "rowsha": "Fi5EkMfm+XLq5sqF3LuefQJpEaFOu1MBYuSFO0nlRZs=",
+        "originContent": "  - External sharing detection",
+        "translatedContent": "  - 외부 공유 탐지"
+      },
+      {
+        "row": 84,
+        "rowsha": "fowKmLznqog/n+9xfPjlP40mGrxpjx7tcZ3FgyV1XQg=",
+        "originContent": "  - OneDrive Sharing Links Audit: Audit externally shared files and access levels",
+        "translatedContent": "  - OneDrive 공유 링크 감사: 외부 공유 파일 및 접근 수준 감사"
+      },
+      {
+        "row": 85,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 86,
+        "rowsha": "fco/rWBhqgm8GipD6u+Aehdl86zfEGHOJs+6J6+9U18=",
+        "originContent": "### ⚙️ Configuration Management",
+        "translatedContent": "### ⚙️ 구성 관리"
+      },
+      {
+        "row": 87,
+        "rowsha": "bDFRs9UESgVptUTLUlhfJMXuQ1X413oKzhOGV20EP6w=",
+        "originContent": "- **Settings & Credential Storage**",
+        "translatedContent": "- **설정 및 자격 증명 저장**"
+      },
+      {
+        "row": 88,
+        "rowsha": "UqtvOSCpmqkaBqntDDoqGCLkEQ/ktRt1rZtSZInMuBw=",
+        "originContent": "  - Azure Service Principal configuration",
+        "translatedContent": "  - Azure 서비스 주체 구성"
+      },
+      {
+        "row": 89,
+        "rowsha": "nJQ8Jac7MYM0lIZdXdDBzIZqaUHCdXfExml49b7a/P0=",
+        "originContent": "  - Secure credential storage for automation",
+        "translatedContent": "  - 자동화를 위한 안전한 자격 증명 저장"
+      },
+      {
+        "row": 90,
+        "rowsha": "4tvt/rUkNyfgOzvzNvEP7gKoCPxKIjVWzQdS1qdduwc=",
+        "originContent": "  - Auto-connect functionality",
+        "translatedContent": "  - 자동 연결 기능"
+      },
+      {
+        "row": 91,
+        "rowsha": "aMPEqSTQ5/Y1aEFqGxxe7Gox3ui1itlC/tsUk+2yo+o=",
+        "originContent": "  - Customizable export paths",
+        "translatedContent": "  - 맞춤형 내보내기 경로"
+      },
+      {
+        "row": 92,
+        "rowsha": "brY6q5zShSj3SqGCBvBb1BOtWM5UD/O0+cxJo8BRMbU=",
+        "originContent": "  - Configuration management",
+        "translatedContent": "  - 구성 관리"
+      },
+      {
+        "row": 93,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 94,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 95,
+        "rowsha": "vhICSlwojlyXoFSfgZN68wsTfuoDq2nUXqEJ+M5mYKU=",
+        "originContent": "### Read-Only Operations",
+        "translatedContent": "### 읽기 전용 작업"
+      },
+      {
+        "row": 96,
+        "rowsha": "nzMMtbWtKlBTd8Yh8JFwP3Q52cgv8CKXW/KcayQ9krY=",
+        "originContent": "- ✅ **No modifications** to any Azure or Office 365 configurations",
+        "translatedContent": "- ✅ Azure 또는 Office 365 구성에 **전혀 변경 없음**"
+      },
+      {
+        "row": 97,
+        "rowsha": "aFFrTBkc/LsRPynAKAnIpmsrpZqh8pHfuHEG/p366Pg=",
+        "originContent": "- ✅ **Audit trail** - All actions logged with timestamps",
+        "translatedContent": "- ✅ **감사 추적** - 모든 작업은 타임스탬프와 함께 기록됨"
+      },
+      {
+        "row": 98,
+        "rowsha": "McRn9tvkOadywJoR1zP32ah7xC4QhHHNR4RtxNH36c8=",
+        "originContent": "- ✅ **Secure authentication** using modern authentication flows",
+        "translatedContent": "- ✅ **안전한 인증** - 최신 인증 흐름 사용"
+      },
+      {
+        "row": 99,
+        "rowsha": "LS7jE5GPQEr2vm5ngm2fm0t9HvizYNoQsvNXwYB96Vs=",
+        "originContent": "- ✅ **Least privilege** - Only requires read permissions",
+        "translatedContent": "- ✅ **최소 권한** - 읽기 권한만 필요함"
+      },
+      {
+        "row": 100,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "### Data Privacy\n- 🔒 No sensitive data stored or transmitted\n- 🔒 Local CSV exports with configurable file paths\n- 🔒 Comprehensive logging for compliance auditing\n## 🚀 Quick Start\n\n---\n### Prerequisites\n\nEnsure you have PowerShell 7.0+ installed:",
+    "ContentSha": "8TZ6oTzsPoaXcC+00NiJvhs97iSxST0KqxNBkeiSgLM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 데이터 프라이버시\n- 🔒 민감한 데이터 저장 또는 전송 없음\n- 🔒 구성 가능한 파일 경로를 가진 로컬 CSV 내보내기\n- 🔒 컴플라이언스 감사를 위한 종합 로깅\n## 🚀 빠른 시작\n\n---\n### 사전 요구 사항\n\nPowerShell 7.0 이상이 설치되어 있는지 확인하세요:</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ERUX2SXFBx81sDaReto2G01AuWfjuvI4T2AxGF82X5w=",
+        "originContent": "### Data Privacy",
+        "translatedContent": "### 데이터 프라이버시"
+      },
+      {
+        "row": 2,
+        "rowsha": "7Q9/g1VdxA5wS9PLB7TzDgDNuwAKVAkv2Y8fKJMTFN8=",
+        "originContent": "- 🔒 No sensitive data stored or transmitted",
+        "translatedContent": "- 🔒 민감한 데이터 저장 또는 전송 없음"
+      },
+      {
+        "row": 3,
+        "rowsha": "4FcPWmDwAol5ac3ZLmKln3aYNUXyxF0fbrl07qb9wR0=",
+        "originContent": "- 🔒 Local CSV exports with configurable file paths",
+        "translatedContent": "- 🔒 구성 가능한 파일 경로를 가진 로컬 CSV 내보내기"
+      },
+      {
+        "row": 4,
+        "rowsha": "b7CyS3CeAEH8PQWQ9f8kESwWoQBuGmWO11Gf2WbfsL8=",
+        "originContent": "- 🔒 Comprehensive logging for compliance auditing",
+        "translatedContent": "- 🔒 컴플라이언스 감사를 위한 종합 로깅"
+      },
+      {
+        "row": 5,
+        "rowsha": "jsdHdcNegTOe5j0D0TqKpRz5kFDyybyTTtR/jemcS5A=",
+        "originContent": "## 🚀 Quick Start",
+        "translatedContent": "## 🚀 빠른 시작"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 8,
+        "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+        "originContent": "### Prerequisites",
+        "translatedContent": "### 사전 요구 사항"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "Gf/lfZ08qwRyOOxmnGIJfyIWvfEFtmFJJs11x0CpbuU=",
+        "originContent": "Ensure you have PowerShell 7.0+ installed:",
+        "translatedContent": "PowerShell 7.0 이상이 설치되어 있는지 확인하세요:</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```powershell\n# Check PowerShell version\n$PSVersionTable.PSVersion\n```",
+    "ContentSha": "jt1kYshZJRQ18M5HXxGSKJqLZyOBXnBExFOICYpViW4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```powershell\n# Check PowerShell version\n$PSVersionTable.PSVersion\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rdXRxgQRkjxaPscLX0ZwQGKPEZiP5ZYntSpPc/7KWO4=",
+        "originContent": "```powershell",
+        "translatedContent": "```powershell"
+      },
+      {
+        "row": 2,
+        "rowsha": "XUYcMHh2c7e99RjUQg/mCP/czi3quW2p/k6gfCYNMPw=",
+        "originContent": "# Check PowerShell version",
+        "translatedContent": "# Check PowerShell version"
+      },
+      {
+        "row": 3,
+        "rowsha": "CLr1YafL2+ZkemUYJMETkAFnhw109LmkVyC6Z6hh8lc=",
+        "originContent": "$PSVersionTable.PSVersion",
+        "translatedContent": "$PSVersionTable.PSVersion"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n### Installation\n\n1. **Clone the repository:**",
+    "ContentSha": "9nuClBNd45GB+WgJ2WvbRMF8MTCuZWpuQfi3faUAcnc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 설치\n\n1. **저장소 복제:**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 설치"
+      },
+      {
+        "row": 2,
+        "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+        "originContent": "### Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. **저장소 복제:**"
+      },
+      {
+        "row": 4,
+        "rowsha": "wIBqlrCPkz6Y++GMa2I2AHCeUMNZest7L9EoBdnTcoo=",
+        "originContent": "1. **Clone the repository:**",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "   ```bash\n   git clone https://github.com/SteffMet/Azure-Office365-Security-Reporting.git\n   cd Azure-Office365-Security-Reporting\n   ```",
+    "ContentSha": "TzvYUxTD/6ede12gc5q3Oi9Wk4mX/duc+UK/Ww+ux1c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   git clone https://github.com/SteffMet/Azure-Office365-Security-Reporting.git\n   cd Azure-Office365-Security-Reporting\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "jlIJZUnuaGg8CXnCsbSLglUCJf+JIxr1ZURZxHlnr1M=",
+        "originContent": "   git clone https://github.com/SteffMet/Azure-Office365-Security-Reporting.git",
+        "translatedContent": "   git clone https://github.com/SteffMet/Azure-Office365-Security-Reporting.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "ahM3xi157cnIOi86k6GtUNx6xBQ69CZEI69VYoWCilw=",
+        "originContent": "   cd Azure-Office365-Security-Reporting",
+        "translatedContent": "   cd Azure-Office365-Security-Reporting"
+      },
+      {
+        "row": 4,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n2. **Run the launcher script (Recommended):**",
+    "ContentSha": "tLmcykh0BhcT4/PwQAbEMgngJcCHmnhE27pGtTWOMo0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. **런처 스크립트 실행 (권장):**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. **런처 스크립트 실행 (권장):**"
+      },
+      {
+        "row": 2,
+        "rowsha": "wOvcVjwEyzhEGk/UkVcuVrjgFkYdIHOs9CXsoBCTPjo=",
+        "originContent": "2. **Run the launcher script (Recommended):**",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "   ```powershell\n   .\\Start-AzureSecurityReport.ps1\n   ```",
+    "ContentSha": "Nxz65ODilL/h91Ev1f6kiBqLBJmINLYYJAinOGNe8K8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```powershell\n   .\\Start-AzureSecurityReport.ps1\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tthEApzYPy9uNnbMiWi2oZj2TTRjd16sLnZhQIAF1iY=",
+        "originContent": "   ```powershell",
+        "translatedContent": "   ```powershell"
+      },
+      {
+        "row": 2,
+        "rowsha": "uoHMngZmS0vsrNv55cX/CJhZ0oY1RsjIa2gPJ5zMhq4=",
+        "originContent": "   .\\Start-AzureSecurityReport.ps1",
+        "translatedContent": "   .\\Start-AzureSecurityReport.ps1"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "   \n   **Or run directly:**",
+    "ContentSha": "/u7vOnCYprNppG42AICir5IjPKXEFBdNDZ3UeBCueNI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>   \n   **또는 직접 실행:**</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
+        "originContent": "   ",
+        "translatedContent": "<translate-content>   "
+      },
+      {
+        "row": 2,
+        "rowsha": "ei4WuBs2Q5SL7tqsG3c+VPiPkvWkYOqoH1MgEv/p2Aw=",
+        "originContent": "   **Or run directly:**",
+        "translatedContent": "   **또는 직접 실행:**</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "   ```powershell\n   # Modular version (recommended)\n   .\\AzureSecurityReport-Modular.ps1\n   ```",
+    "ContentSha": "oXM/DOIJ/Vc8snX7jbV4m3dwvLQlI8BlwwW6PeZwo/Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```powershell\n   # Modular version (recommended)\n   .\\AzureSecurityReport-Modular.ps1\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tthEApzYPy9uNnbMiWi2oZj2TTRjd16sLnZhQIAF1iY=",
+        "originContent": "   ```powershell",
+        "translatedContent": "   ```powershell"
+      },
+      {
+        "row": 2,
+        "rowsha": "LqgqbuZGCh1iZjkAAE5l+df1BqQ2TmdNUDDlTTxXYYs=",
+        "originContent": "   # Modular version (recommended)",
+        "translatedContent": "   # Modular version (recommended)"
+      },
+      {
+        "row": 3,
+        "rowsha": "DW+j7CkGr2SP01Q7rv+69fqEzOrxi0ormJlAvV5eyW8=",
+        "originContent": "   .\\AzureSecurityReport-Modular.ps1",
+        "translatedContent": "   .\\AzureSecurityReport-Modular.ps1"
+      },
+      {
+        "row": 4,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n## 🔑 Required Permissions\n\n### Azure AD Roles\n- **Recommended**: Global Reader or Security Reader\n- **Minimum**: Directory Readers + specific object permissions\n\n### Azure Subscription Permissions\n- **Storage Security**: Storage Account Contributor (read-only)\n- **Key Vault Security**: Key Vault Reader\n- **Network Security**: Network Contributor (read-only)\n- **VM Security**: Virtual Machine Contributor (read-only)\n\n### Microsoft Graph API Permissions",
+    "ContentSha": "2Ke7xu+RI7U9H60AhU6PTUdGA6GkMrGIEulbG5XmcXc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🔑 필수 권한\n\n### Azure AD 역할\n- **권장**: 전체 관리자 읽기 권한 또는 보안 읽기 권한\n- **최소**: 디렉터리 읽기 권한 + 특정 객체 권한\n\n### Azure 구독 권한\n- **스토리지 보안**: 스토리지 계정 기여자 (읽기 전용)\n- **키 자격 증명 보안**: 키 자격 증명 읽기 권한자\n- **네트워크 보안**: 네트워크 기여자 (읽기 전용)\n- **가상 머신 보안**: 가상 머신 기여자 (읽기 전용)\n\n### Microsoft Graph API 권한\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🔑 필수 권한"
+      },
+      {
+        "row": 2,
+        "rowsha": "mxshE97Ufbh4/5VPU/FpYIEleotTpvpCaeg5B3rUalc=",
+        "originContent": "## 🔑 Required Permissions",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Azure AD 역할"
+      },
+      {
+        "row": 4,
+        "rowsha": "Tm2nvlgoxbYoij4c8rcFjP5P/CS0/ogG+iehiM5V3Eg=",
+        "originContent": "### Azure AD Roles",
+        "translatedContent": "- **권장**: 전체 관리자 읽기 권한 또는 보안 읽기 권한"
+      },
+      {
+        "row": 5,
+        "rowsha": "UZ1yEVkh4NM7Yd/FJKyXThNnGCUb67PvUrujpTFALPQ=",
+        "originContent": "- **Recommended**: Global Reader or Security Reader",
+        "translatedContent": "- **최소**: 디렉터리 읽기 권한 + 특정 객체 권한"
+      },
+      {
+        "row": 6,
+        "rowsha": "TdJnAteDTQV51DZddCKj0BNajpLIbUtZFAlC1aKKM+I=",
+        "originContent": "- **Minimum**: Directory Readers + specific object permissions",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Azure 구독 권한"
+      },
+      {
+        "row": 8,
+        "rowsha": "5MpV54qSdRmaCvN/OAfJsOZ0fHc+P3phlHhPHVvfXTM=",
+        "originContent": "### Azure Subscription Permissions",
+        "translatedContent": "- **스토리지 보안**: 스토리지 계정 기여자 (읽기 전용)"
+      },
+      {
+        "row": 9,
+        "rowsha": "tSs6luMvbUQzu81m6YaAnb2jK7XI1VPooXIf3TpTb5c=",
+        "originContent": "- **Storage Security**: Storage Account Contributor (read-only)",
+        "translatedContent": "- **키 자격 증명 보안**: 키 자격 증명 읽기 권한자"
+      },
+      {
+        "row": 10,
+        "rowsha": "wTknD0P5AELCqD1qaHx//Yypc0mSTL3qE7YCeH8vI0A=",
+        "originContent": "- **Key Vault Security**: Key Vault Reader",
+        "translatedContent": "- **네트워크 보안**: 네트워크 기여자 (읽기 전용)"
+      },
+      {
+        "row": 11,
+        "rowsha": "Of1Z1Yd7G18xPuG/KYgQOIkX6eMb6xotirF3qLMZhHw=",
+        "originContent": "- **Network Security**: Network Contributor (read-only)",
+        "translatedContent": "- **가상 머신 보안**: 가상 머신 기여자 (읽기 전용)"
+      },
+      {
+        "row": 12,
+        "rowsha": "7OPhtyazpfXf3dzG/BNE5vn13qUP8hNsptbebyMAtIE=",
+        "originContent": "- **VM Security**: Virtual Machine Contributor (read-only)",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Microsoft Graph API 권한"
+      },
+      {
+        "row": 14,
+        "rowsha": "MFGvyXIrllyDFZ1bU5ttxsqSyxzyLBlfohXTZjTmcWY=",
+        "originContent": "### Microsoft Graph API Permissions",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```\nUser.Read.All\nDirectory.Read.All\nPolicy.Read.ConditionalAccess\nUserAuthenticationMethod.Read.All\nOrganization.Read.All\nReports.Read.All\nAuditLog.Read.All\nSites.Read.All\n```",
+    "ContentSha": "jyU2YXoYHBgi1EP1nkWzmzMRufKgP/SD2TNfjK5MFEk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nUser.Read.All\nDirectory.Read.All\nPolicy.Read.ConditionalAccess\nUserAuthenticationMethod.Read.All\nOrganization.Read.All\nReports.Read.All\nAuditLog.Read.All\nSites.Read.All\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "/R/ovxVNujEE9TJ3DSYeXfCh6V69c7Np/R4PWmnjkMw=",
+        "originContent": "User.Read.All",
+        "translatedContent": "User.Read.All"
+      },
+      {
+        "row": 3,
+        "rowsha": "dIu8YbGlc2H1zcbFRwpGIfYD4ZuXDLHXs8onyeY3CYY=",
+        "originContent": "Directory.Read.All",
+        "translatedContent": "Directory.Read.All"
+      },
+      {
+        "row": 4,
+        "rowsha": "Iu2CYGMU/o/Xm9k79PpgUsEtG/OmpaNlGgLCLcSYfug=",
+        "originContent": "Policy.Read.ConditionalAccess",
+        "translatedContent": "Policy.Read.ConditionalAccess"
+      },
+      {
+        "row": 5,
+        "rowsha": "MqIRMhJrlmw3zZ+LGtILK7r4IRUBo8KOaoxKkzkfUlc=",
+        "originContent": "UserAuthenticationMethod.Read.All",
+        "translatedContent": "UserAuthenticationMethod.Read.All"
+      },
+      {
+        "row": 6,
+        "rowsha": "c7jMA+ZfmrBhkTEhrPMmm0KOhqUoxsGR4jdjiI0OrtU=",
+        "originContent": "Organization.Read.All",
+        "translatedContent": "Organization.Read.All"
+      },
+      {
+        "row": 7,
+        "rowsha": "7B2voyyWoRnqAPbYcsv9AmGHhkihNpL+ncXR7dnjSE8=",
+        "originContent": "Reports.Read.All",
+        "translatedContent": "Reports.Read.All"
+      },
+      {
+        "row": 8,
+        "rowsha": "6zDeUXmp1EcaI6dUPQt/R4JgDi8E6AnHu42zKNyH5vI=",
+        "originContent": "AuditLog.Read.All",
+        "translatedContent": "AuditLog.Read.All"
+      },
+      {
+        "row": 9,
+        "rowsha": "joTAMwSGgvVaBt4FPed+dkp8lusFcOvPU8pbfmf7fVs=",
+        "originContent": "Sites.Read.All",
+        "translatedContent": "Sites.Read.All"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\n### Office 365 Permissions\n- **Exchange Online**: View-Only Organization Management\n- **Microsoft Teams**: Teams Administrator (read-only operations)\n- **SharePoint Online**: SharePoint Administrator (read-only operations)\n\n--- \n## 🛠️ Troubleshooting\n\n### Microsoft Graph Assembly Conflicts\nIf you encounter \"Assembly with same name is already loaded\" errors:\n\n**🔧 Quick Fix Options:**\n\n1. **Use the launcher script (Recommended)**:",
+    "ContentSha": "btdkw33EXTvgbxLhXwxAEYyK3xmuZzKgzOEyeMHj+eU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Office 365 권한\n- **Exchange Online**: 보기 전용 조직 관리\n- **Microsoft Teams**: 팀 관리자 (읽기 전용 작업)\n- **SharePoint Online**: SharePoint 관리자 (읽기 전용 작업)\n\n--- \n## 🛠️ 문제 해결\n\n### Microsoft Graph 어셈블리 충돌\n\"동일한 이름의 어셈블리가 이미 로드되었습니다\" 오류가 발생하면:\n\n**🔧 빠른 해결 방법:**\n\n1. **런처 스크립트 사용 (권장)**:</translate-content>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Office 365 권한"
+      },
+      {
+        "row": 2,
+        "rowsha": "+Z6OhvaS+3vfr8OcbzGDwSXslr5iai3caJJWIMqRihs=",
+        "originContent": "### Office 365 Permissions",
+        "translatedContent": "- **Exchange Online**: 보기 전용 조직 관리"
+      },
+      {
+        "row": 3,
+        "rowsha": "GRvuOkOHas2m6ergQ3Amd3aiM9k/81hkutXGuNXTxqY=",
+        "originContent": "- **Exchange Online**: View-Only Organization Management",
+        "translatedContent": "- **Microsoft Teams**: 팀 관리자 (읽기 전용 작업)"
+      },
+      {
+        "row": 4,
+        "rowsha": "Tx0HLnbasuQ/xSWIbbGaCblESI2/B4iBejXelSYwKTo=",
+        "originContent": "- **Microsoft Teams**: Teams Administrator (read-only operations)",
+        "translatedContent": "- **SharePoint Online**: SharePoint 관리자 (읽기 전용 작업)"
+      },
+      {
+        "row": 5,
+        "rowsha": "jexWeSYUiesRzF1548qspFtXtLdpfDr1NS6z81ezeSY=",
+        "originContent": "- **SharePoint Online**: SharePoint Administrator (read-only operations)",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "--- "
+      },
+      {
+        "row": 7,
+        "rowsha": "GR0YXDEhVN+5+P91XCePfGcJ1aQOVsevil0GK1JUpF4=",
+        "originContent": "--- ",
+        "translatedContent": "## 🛠️ 문제 해결"
+      },
+      {
+        "row": 8,
+        "rowsha": "x+i3BEGez8aakNa9A1s9HBxYzGI925jQ55PUrSV8Vkc=",
+        "originContent": "## 🛠️ Troubleshooting",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Microsoft Graph 어셈블리 충돌"
+      },
+      {
+        "row": 10,
+        "rowsha": "CW3X14bKGD3xM2R+rBGnpgw2beStqM6fksUO/Fxq1wk=",
+        "originContent": "### Microsoft Graph Assembly Conflicts",
+        "translatedContent": "\"동일한 이름의 어셈블리가 이미 로드되었습니다\" 오류가 발생하면:"
+      },
+      {
+        "row": 11,
+        "rowsha": "V1LbuhW57SRhhwoo34gbKjiauqEXu0j/ixluyfT66yM=",
+        "originContent": "If you encounter \"Assembly with same name is already loaded\" errors:",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**🔧 빠른 해결 방법:**"
+      },
+      {
+        "row": 13,
+        "rowsha": "QBj+VJDr/0U6omzrAQXnK0rTQ/R09pgtP6Bwln3KNYo=",
+        "originContent": "**🔧 Quick Fix Options:**",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. **런처 스크립트 사용 (권장)**:</translate-content>"
+      },
+      {
+        "row": 15,
+        "rowsha": "Ok1q7YW2vg3shrjWA7XyM8qa6U1wcGUUxoOfy0YE9qs=",
+        "originContent": "1. **Use the launcher script (Recommended)**:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "   ```powershell\n   .\\Start-AzureSecurityReport.ps1\n   ```",
+    "ContentSha": "Nxz65ODilL/h91Ev1f6kiBqLBJmINLYYJAinOGNe8K8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```powershell\n   .\\Start-AzureSecurityReport.ps1\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tthEApzYPy9uNnbMiWi2oZj2TTRjd16sLnZhQIAF1iY=",
+        "originContent": "   ```powershell",
+        "translatedContent": "   ```powershell"
+      },
+      {
+        "row": 2,
+        "rowsha": "uoHMngZmS0vsrNv55cX/CJhZ0oY1RsjIa2gPJ5zMhq4=",
+        "originContent": "   .\\Start-AzureSecurityReport.ps1",
+        "translatedContent": "   .\\Start-AzureSecurityReport.ps1"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\n2. **Use the fix script**:",
+    "ContentSha": "VRy2A0sfVzxXpR25v4EnmcDsjYUPztgOf70/1qSMbB0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. **수정 스크립트를 사용하세요**:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. **수정 스크립트를 사용하세요**:"
+      },
+      {
+        "row": 2,
+        "rowsha": "BoR6G0JRAo500GTZVy6eOJ7wAsENzC7hy0iJIcdcmIU=",
+        "originContent": "2. **Use the fix script**:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "   ```powershell\n   .\\Fix-GraphModules.ps1\n   ```",
+    "ContentSha": "0HrowcTKipPVxm9/M/NTQbjjqwyR08iEpc7QBh8qaGM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```powershell\n   .\\Fix-GraphModules.ps1\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tthEApzYPy9uNnbMiWi2oZj2TTRjd16sLnZhQIAF1iY=",
+        "originContent": "   ```powershell",
+        "translatedContent": "   ```powershell"
+      },
+      {
+        "row": 2,
+        "rowsha": "c05p2JAymKXhhb8rDyhrKroe1hq0VoqNIYctnsM5vak=",
+        "originContent": "   .\\Fix-GraphModules.ps1",
+        "translatedContent": "   .\\Fix-GraphModules.ps1"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "\n3. **Manual session restart**:",
+    "ContentSha": "3th0VEK18De9nMvSZW4Ovr5+BrRo4sP8bbNjYGSKHoQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. **수동 세션 재시작**:</translate-content>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. **수동 세션 재시작**:</translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "rxwq45h3en8keABTbyuVp+ciM01coZF8fU3aMRBk9jM=",
+        "originContent": "3. **Manual session restart**:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "   ```powershell\n   # Exit PowerShell completely\n   exit\n   \n   # Start fresh PowerShell 7 session\n   pwsh\n   cd \"path\\to\\Azure-Office365-Security-Reporting\"\n   .\\AzureSecurityReport-Modular.ps1\n   ```",
+    "ContentSha": "6O32Vn/L8+Qw2VO5vREFfxZu+fd2U6gkSwHDq/oP6W8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```powershell\n   # Exit PowerShell completely\n   exit\n   \n   # Start fresh PowerShell 7 session\n   pwsh\n   cd \"path\\to\\Azure-Office365-Security-Reporting\"\n   .\\AzureSecurityReport-Modular.ps1\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tthEApzYPy9uNnbMiWi2oZj2TTRjd16sLnZhQIAF1iY=",
+        "originContent": "   ```powershell",
+        "translatedContent": "   ```powershell"
+      },
+      {
+        "row": 2,
+        "rowsha": "ylAyU2Ctp63EACesrRzYt9V8yPX8kVvzLZ7y8XGW4Ic=",
+        "originContent": "   # Exit PowerShell completely",
+        "translatedContent": "   # Exit PowerShell completely"
+      },
+      {
+        "row": 3,
+        "rowsha": "xMbJSBRXtXWs9dsbCk+K/yI685nigg+FURpFV32x+hA=",
+        "originContent": "   exit",
+        "translatedContent": "   exit"
+      },
+      {
+        "row": 4,
+        "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
+        "originContent": "   ",
+        "translatedContent": "   "
+      },
+      {
+        "row": 5,
+        "rowsha": "TBG9ocNVBJuj2CzPLjkQSxTTw5oGdsDC3KGmFR/tYYE=",
+        "originContent": "   # Start fresh PowerShell 7 session",
+        "translatedContent": "   # Start fresh PowerShell 7 session"
+      },
+      {
+        "row": 6,
+        "rowsha": "L1AxIlSs5aVC6WghxDAFWhsq2LyuZRwxjHE+MzjepFo=",
+        "originContent": "   pwsh",
+        "translatedContent": "   pwsh"
+      },
+      {
+        "row": 7,
+        "rowsha": "ucGYujQgR61buPMTDx48LIEyCFYJRWENTa73r3rfxGo=",
+        "originContent": "   cd \"path\\to\\Azure-Office365-Security-Reporting\"",
+        "translatedContent": "   cd \"path\\to\\Azure-Office365-Security-Reporting\""
+      },
+      {
+        "row": 8,
+        "rowsha": "DW+j7CkGr2SP01Q7rv+69fqEzOrxi0ormJlAvV5eyW8=",
+        "originContent": "   .\\AzureSecurityReport-Modular.ps1",
+        "translatedContent": "   .\\AzureSecurityReport-Modular.ps1"
+      },
+      {
+        "row": 9,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "\n4. **Automatic restart helper**:",
+    "ContentSha": "MfFMhCk+JYBSgNLM0oHNXB+wiuyzDPN9q4s/KQlnjHs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "4. **자동 재시작 도우미**:</assistant__(/*!markdown\n4. **자동 재시작 도우미**:</markdown>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "4. **자동 재시작 도우미**:</assistant__(/*!markdown"
+      },
+      {
+        "row": 2,
+        "rowsha": "mZwufF/VS+o8G+3hIlrKj2so0WIik6g7ZFQsLQwQPMk=",
+        "originContent": "4. **Automatic restart helper**:",
+        "translatedContent": "4. **자동 재시작 도우미**:</markdown>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 19,
+    "Content": "   ```powershell\n   .\\Restart-PowerShellSession.ps1\n   ```",
+    "ContentSha": "pmuOKe+ID+9SGRCLVI3tZ3Ip3a1BwRXyWoKRhxbID4M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```powershell\n   .\\Restart-PowerShellSession.ps1\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tthEApzYPy9uNnbMiWi2oZj2TTRjd16sLnZhQIAF1iY=",
+        "originContent": "   ```powershell",
+        "translatedContent": "   ```powershell"
+      },
+      {
+        "row": 2,
+        "rowsha": "YTCpnl/+5eL2PVZNSw2PvAEDCs8lLoL+to3XOrYU1K8=",
+        "originContent": "   .\\Restart-PowerShellSession.ps1",
+        "translatedContent": "   .\\Restart-PowerShellSession.ps1"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 20,
+    "Content": "\n**🔍 Why This Happens:**\nMicrosoft Graph PowerShell modules use .NET assemblies that can conflict when loaded multiple times in the same session. This is a known limitation of the Microsoft Graph SDK.\n\n### Common Issues\n\n| Issue | Solution |\n|-------|----------|\n| Module import errors | Run `Install-Module` as Administrator |\n| Authentication failures | Verify account permissions and retry |\n| CSV export errors | Check file path permissions |\n| Graph API rate limits | Wait and retry after a few minutes |\n\n---\n<div align=\"center\">\n\n**⭐ If this project helps you, please consider giving it a star! ⭐**\n\nMade with ❤️ by [SteffMet](https://github.com/SteffMet)\n\n*Last Updated: June 28, 2025*\n\n</div>\n\n\n",
+    "ContentSha": "lmGQ4Ej/+TYK3heFoh8dNAm/qbAnoc1aVCzZKGGpBvs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**🔍 이런 현상이 발생하는 이유:**\nMicrosoft Graph PowerShell 모듈은 동일 세션에서 여러 번 로드될 때 충돌할 수 있는 .NET 어셈블리를 사용합니다. 이는 Microsoft Graph SDK의 알려진 제한 사항입니다.\n\n### 일반적인 문제\n\n| 문제 | 해결책 |\n|-------|----------|\n| 모듈 가져오기 오류 | `Install-Module`을 관리자 권한으로 실행 |\n| 인증 실패 | 계정 권한을 확인하고 다시 시도 |\n| CSV 내보내기 오류 | 파일 경로 권한 확인 |\n| Graph API 호출 제한 | 몇 분 후 대기 후 재시도 |\n\n---\n<div align=\"center\">\n\n**⭐ 이 프로젝트가 도움이 되었다면, 별을 눌러주세요! ⭐**\n\n❤️ [SteffMet](https://github.com/SteffMet)이 제작\n\n*최종 업데이트: 2025년 6월 28일*\n\n</div>\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**🔍 이런 현상이 발생하는 이유:**"
+      },
+      {
+        "row": 2,
+        "rowsha": "saG+KCIMX00UXhkacR97XGFcvNPSUA0ZcFM2BnwCoNQ=",
+        "originContent": "**🔍 Why This Happens:**",
+        "translatedContent": "Microsoft Graph PowerShell 모듈은 동일 세션에서 여러 번 로드될 때 충돌할 수 있는 .NET 어셈블리를 사용합니다. 이는 Microsoft Graph SDK의 알려진 제한 사항입니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "TCyVnDegMVsYl4JT5l2w1EFB6B5ZX//IXACoX/iT5ok=",
+        "originContent": "Microsoft Graph PowerShell modules use .NET assemblies that can conflict when loaded multiple times in the same session. This is a known limitation of the Microsoft Graph SDK.",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 일반적인 문제"
+      },
+      {
+        "row": 5,
+        "rowsha": "RkRAwQVP7sn7/Owemvt8kSXbJ+bqNfpGvNpbr3Nkbgc=",
+        "originContent": "### Common Issues",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 문제 | 해결책 |"
+      },
+      {
+        "row": 7,
+        "rowsha": "vy5/n4mLkZstdw9nxzLERGTJ2PXbm9ukyU1bfijEufY=",
+        "originContent": "| Issue | Solution |",
+        "translatedContent": "|-------|----------|"
+      },
+      {
+        "row": 8,
+        "rowsha": "VrcvHfBoYZlEUKHJam+3APwPoSzS88S7lp+DKwj4lA0=",
+        "originContent": "|-------|----------|",
+        "translatedContent": "| 모듈 가져오기 오류 | `Install-Module`을 관리자 권한으로 실행 |"
+      },
+      {
+        "row": 9,
+        "rowsha": "UZO4S9kcU7wZEyBYglu9stNFZU75tIwdIEK1m+GsiaA=",
+        "originContent": "| Module import errors | Run `Install-Module` as Administrator |",
+        "translatedContent": "| 인증 실패 | 계정 권한을 확인하고 다시 시도 |"
+      },
+      {
+        "row": 10,
+        "rowsha": "pzjDapP7WIJ+G4uXtBj+3IigqUadOLblhxWwBVIJ9/k=",
+        "originContent": "| Authentication failures | Verify account permissions and retry |",
+        "translatedContent": "| CSV 내보내기 오류 | 파일 경로 권한 확인 |"
+      },
+      {
+        "row": 11,
+        "rowsha": "m2DYz8EKz6DYDZfleooEJbgH7lM8cchahrNITCi7Jo0=",
+        "originContent": "| CSV export errors | Check file path permissions |",
+        "translatedContent": "| Graph API 호출 제한 | 몇 분 후 대기 후 재시도 |"
+      },
+      {
+        "row": 12,
+        "rowsha": "C0XjI9cN0oZxuCBRWyIS4oAuOePgoC48AfoC6fVd2pM=",
+        "originContent": "| Graph API rate limits | Wait and retry after a few minutes |",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 14,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 15,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**⭐ 이 프로젝트가 도움이 되었다면, 별을 눌러주세요! ⭐**"
+      },
+      {
+        "row": 17,
+        "rowsha": "fMH4U+2gRe6zzquuBLNUqNKAKfn60DIh5s/stD39Tmc=",
+        "originContent": "**⭐ If this project helps you, please consider giving it a star! ⭐**",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "❤️ [SteffMet](https://github.com/SteffMet)이 제작"
+      },
+      {
+        "row": 19,
+        "rowsha": "NqAnjPH9KxP1iYZ5eekMpVpBQHtdXU1IgR3bFR74zws=",
+        "originContent": "Made with ❤️ by [SteffMet](https://github.com/SteffMet)",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*최종 업데이트: 2025년 6월 28일*"
+      },
+      {
+        "row": 21,
+        "rowsha": "VzgoTv81HqPB/mcp6potCCI9rIDS12GQYuULICfe3kI=",
+        "originContent": "*Last Updated: June 28, 2025*",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 23,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
