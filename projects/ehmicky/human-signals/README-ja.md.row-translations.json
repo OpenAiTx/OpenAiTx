@@ -1,0 +1,1034 @@
+[
+  {
+    "row": 1,
+    "rowsha": "K4czNjIb3/ujRGGPAh78OeqpT7ccxMVBYlzLUEV3kTc=",
+    "originContent": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/human-signals)",
+    "translatedContent": "<translate-content>[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/human-signals)"
+  },
+  {
+    "row": 2,
+    "rowsha": "tF+x2IfeGFlZfAJgytSXRBCGZVzb/tREQ5EdL0gZ2QY=",
+    "originContent": "[![TypeScript](https://img.shields.io/badge/-Typed-808080?logo=typescript&colorA=404040&logoColor=0096ff)](/src/main.d.ts)",
+    "translatedContent": "[![TypeScript](https://img.shields.io/badge/-Typed-808080?logo=typescript&colorA=404040&logoColor=0096ff)](/src/main.d.ts)"
+  },
+  {
+    "row": 3,
+    "rowsha": "Uh1btHxLQ+Oxr7aelGkFfjrIWajvIBBkyy5k7rbjIVQ=",
+    "originContent": "[![Codecov](https://img.shields.io/badge/-Tested%20100%25-808080?logo=codecov&colorA=404040)](https://codecov.io/gh/ehmicky/human-signals)",
+    "translatedContent": "[![Codecov](https://img.shields.io/badge/-Tested%20100%25-808080?logo=codecov&colorA=404040)](https://codecov.io/gh/ehmicky/human-signals)"
+  },
+  {
+    "row": 4,
+    "rowsha": "JEzMmKwurHuCW9idSyLWG0OvqrciRfVXcAuS2wlVTa8=",
+    "originContent": "[![Mastodon](https://img.shields.io/badge/-Mastodon-808080.svg?logo=mastodon&colorA=404040&logoColor=9590F9)](https://fosstodon.org/@ehmicky)",
+    "translatedContent": "[![Mastodon](https://img.shields.io/badge/-Mastodon-808080.svg?logo=mastodon&colorA=404040&logoColor=9590F9)](https://fosstodon.org/@ehmicky)"
+  },
+  {
+    "row": 5,
+    "rowsha": "pAFOEtZ7Hrcdro0GvdXE268HshxprjM42haHIbPD1Yw=",
+    "originContent": "[![Medium](https://img.shields.io/badge/-Medium-808080.svg?logo=medium&colorA=404040)](https://medium.com/@ehmicky)",
+    "translatedContent": "[![Medium](https://img.shields.io/badge/-Medium-808080.svg?logo=medium&colorA=404040)](https://medium.com/@ehmicky)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "55bGW61S29KpHItNyBhQXKn3LZgwsWJal7Eas6ujvx4=",
+    "originContent": "Human-friendly process signals.",
+    "translatedContent": "人に優しいプロセスシグナル。"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "vzFqGPev6KAKkG9A5Qqm9AlmQlnuxlMNvX9KxBefqVY=",
+    "originContent": "This is a map of known process signals with some information about each signal.",
+    "translatedContent": "これは、各シグナルに関する情報を含む既知のプロセスシグナルのマップです。"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "6qiBw1nPyD2bFIR3g735y7TqYDYPQZiwUSBoHp6iVpg=",
+    "originContent": "Unlike",
+    "translatedContent": "[`os.constants.signals`](https://nodejs.org/api/os.html#os_signal_constants)とは異なり、"
+  },
+  {
+    "row": 12,
+    "rowsha": "VRJ24CVAqQr7MXeE4x5pQv3rQ1paWmwyC908B9c//zI=",
+    "originContent": "[`os.constants.signals`](https://nodejs.org/api/os.html#os_signal_constants)",
+    "translatedContent": "以下を含みます："
+  },
+  {
+    "row": 13,
+    "rowsha": "T2J5bUNc7PbmwROpzezwBcwFfezVTbS5QK7CmdWoLq4=",
+    "originContent": "this includes:",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 人に優しい[説明](#description)"
+  },
+  {
+    "row": 15,
+    "rowsha": "IiOdGQ8zsFVm4I9ydkf6jkzA0cQrFlLChiI7qNm/ato=",
+    "originContent": "- human-friendly [descriptions](#description)",
+    "translatedContent": "- [デフォルトの動作](#action)、およびそれが[防止可能かどうか](#forced)"
+  },
+  {
+    "row": 16,
+    "rowsha": "X2zxARR5lc2aTt9wNoKkdrHN/eDlkMkt14ik0okAJUU=",
+    "originContent": "- [default actions](#action), including whether they [can be prevented](#forced)",
+    "translatedContent": "- 現在のOSで[サポートされているか](#supported)"
+  },
+  {
+    "row": 17,
+    "rowsha": "ak+vHA0upfjhb6dfT+8KK7tmyao75QQBAw8lNwUejuU=",
+    "originContent": "- whether the signal is [supported](#supported) by the current OS",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# 例"
+  },
+  {
+    "row": 19,
+    "rowsha": "jAuV4Rs+hAWSY5USk2TgsNtuipQPP9Kh1UufvhKY/7M=",
+    "originContent": "# Example",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 22,
+    "rowsha": "QvmbgZuY3R0zSdiXfTUQvSeDninWtXmqMuJznFVcVs0=",
+    "originContent": "import { signalsByName, signalsByNumber } from 'human-signals'",
+    "translatedContent": "import { signalsByName, signalsByNumber } from 'human-signals'"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "gg/fgQYG2tixTo5myG0HovW+Ot5LwSSTUdDr3MB59Vg=",
+    "originContent": "console.log(signalsByName.SIGINT)",
+    "translatedContent": "console.log(signalsByName.SIGINT)"
+  },
+  {
+    "row": 25,
+    "rowsha": "6NJ2mBMZw4YFbepBqPbgCztPzyg7Ksj68Z8+NtRoPjA=",
+    "originContent": "// {",
+    "translatedContent": "// {"
+  },
+  {
+    "row": 26,
+    "rowsha": "ibqemRehg3ro6xG83IKVQ744LGKbdB4FXtLTqfUMGmM=",
+    "originContent": "//   name: 'SIGINT',",
+    "translatedContent": "//   name: 'SIGINT',"
+  },
+  {
+    "row": 27,
+    "rowsha": "BOQHqjmGA0qezs0OLIJLfH1loqm5ufXMwHuCkXq4rqw=",
+    "originContent": "//   number: 2,",
+    "translatedContent": "//   number: 2,"
+  },
+  {
+    "row": 28,
+    "rowsha": "cKhTr5XogVKGdU7pXiDvs9+zu6Xv7XwlMXt+45JFF9U=",
+    "originContent": "//   description: 'User interruption with CTRL-C',",
+    "translatedContent": "//   description: 'User interruption with CTRL-C',"
+  },
+  {
+    "row": 29,
+    "rowsha": "K8qF7fFAgVC3PeVR0PPx0ZNADMPRXdTZnuMEYwQNUkY=",
+    "originContent": "//   supported: true,",
+    "translatedContent": "//   supported: true,"
+  },
+  {
+    "row": 30,
+    "rowsha": "mZDPI4GliySNIOrgBHJasR7XnYUIgp+z9X0hZ8tCvFw=",
+    "originContent": "//   action: 'terminate',",
+    "translatedContent": "//   action: 'terminate',"
+  },
+  {
+    "row": 31,
+    "rowsha": "/zkrBx3FykAJ3FNeS76LnXfFX11roe5JvcwjCoOwCBk=",
+    "originContent": "//   forced: false,",
+    "translatedContent": "//   forced: false,"
+  },
+  {
+    "row": 32,
+    "rowsha": "pHib12PZtmysUWRY6ZXEIegJmyB4omBzapgdqPHxqfA=",
+    "originContent": "//   standard: 'ansi'",
+    "translatedContent": "//   standard: 'ansi'"
+  },
+  {
+    "row": 33,
+    "rowsha": "BthH6+Zs+Ah0l2SRyj9yhndHF6h3sFH47QdcpAXsC8s=",
+    "originContent": "// }",
+    "translatedContent": "// }"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "KBp0LZepKmsYJ3V3DcvvG4Z5oY4KDbxWwBczy+PCChA=",
+    "originContent": "console.log(signalsByNumber[8])",
+    "translatedContent": "console.log(signalsByNumber[8])"
+  },
+  {
+    "row": 36,
+    "rowsha": "6NJ2mBMZw4YFbepBqPbgCztPzyg7Ksj68Z8+NtRoPjA=",
+    "originContent": "// {",
+    "translatedContent": "// {"
+  },
+  {
+    "row": 37,
+    "rowsha": "WGeYJd2Ekj53Ft2z0TkZ5r3HithpQcs1ocGpyFdIyrQ=",
+    "originContent": "//   name: 'SIGFPE',",
+    "translatedContent": "//   name: 'SIGFPE',"
+  },
+  {
+    "row": 38,
+    "rowsha": "kzezHS0w7f5IR2Yc599gfWhMdKUafO9bmXHgpP3yjMs=",
+    "originContent": "//   number: 8,",
+    "translatedContent": "//   number: 8,"
+  },
+  {
+    "row": 39,
+    "rowsha": "9l1NE8aKDNA9H26zVpZ5U0/PEVtskbqvjluiRMM8MlI=",
+    "originContent": "//   description: 'Floating point arithmetic error',",
+    "translatedContent": "//   description: 'Floating point arithmetic error',"
+  },
+  {
+    "row": 40,
+    "rowsha": "K8qF7fFAgVC3PeVR0PPx0ZNADMPRXdTZnuMEYwQNUkY=",
+    "originContent": "//   supported: true,",
+    "translatedContent": "//   supported: true,"
+  },
+  {
+    "row": 41,
+    "rowsha": "mb5ZCpu2vHU8YgfbU2XfUD3wsdhPghW/w0W9VtwyuBE=",
+    "originContent": "//   action: 'core',",
+    "translatedContent": "//   action: 'core',"
+  },
+  {
+    "row": 42,
+    "rowsha": "/zkrBx3FykAJ3FNeS76LnXfFX11roe5JvcwjCoOwCBk=",
+    "originContent": "//   forced: false,",
+    "translatedContent": "//   forced: false,"
+  },
+  {
+    "row": 43,
+    "rowsha": "pHib12PZtmysUWRY6ZXEIegJmyB4omBzapgdqPHxqfA=",
+    "originContent": "//   standard: 'ansi'",
+    "translatedContent": "//   standard: 'ansi'"
+  },
+  {
+    "row": 44,
+    "rowsha": "BthH6+Zs+Ah0l2SRyj9yhndHF6h3sFH47QdcpAXsC8s=",
+    "originContent": "// }",
+    "translatedContent": "// }"
+  },
+  {
+    "row": 45,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# インストール"
+  },
+  {
+    "row": 47,
+    "rowsha": "LIfcujHTHgMPXtLqP+h3+M/6OPAmhQh2NVkBUIIiPFQ=",
+    "originContent": "# Install",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 50,
+    "rowsha": "oyAzREwJuum9tQQsHnC3mCiGXOZyex+6eWGzVL5M1Co=",
+    "originContent": "npm install human-signals",
+    "translatedContent": "npm install human-signals"
+  },
+  {
+    "row": 51,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "このパッケージは Node.js >=18.18.0 で動作します。"
+  },
+  {
+    "row": 53,
+    "rowsha": "gGcjV8np22Hd8TWLvX1KeCZUzZlp7wk8C5Y0Dsr7ACA=",
+    "originContent": "This package works in Node.js >=18.18.0.",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "これは ES モジュールです。  "
+  },
+  {
+    "row": 55,
+    "rowsha": "EJjvrfw5ozGTQHSlGpE3WcXEljhNdorXJgF+uYBq/TQ=",
+    "originContent": "This is an ES module. It must be loaded using",
+    "translatedContent": "[ `import` または `import()` 文](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c)を使用して読み込む必要があり、  "
+  },
+  {
+    "row": 56,
+    "rowsha": "IpXksRDUwyWZkI1/FD0n/AQK6GIxj+Oq2lkv730avMU=",
+    "originContent": "[an `import` or `import()` statement](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c),",
+    "translatedContent": "`require()` ではありません。TypeScript を使用する場合は、  "
+  },
+  {
+    "row": 57,
+    "rowsha": "TKhuBb+kPNgZb4evWye6bH6kauadS4nuYHzNzd/v7u4=",
+    "originContent": "not `require()`. If TypeScript is used, it must be configured to",
+    "translatedContent": "[ES モジュールを出力するように設定](https://www.typescriptlang.org/docs/handbook/esm-node.html)し、  "
+  },
+  {
+    "row": 58,
+    "rowsha": "XU2pdDH3w8juXQ/xdi3p0cv5fi/MnjTdhp8FQwxfMfw=",
+    "originContent": "[output ES modules](https://www.typescriptlang.org/docs/handbook/esm-node.html),",
+    "translatedContent": "CommonJS ではないようにしてください。"
+  },
+  {
+    "row": 59,
+    "rowsha": "91589lSEz6YeDl/rTTA94hogFHO35KZ5YuTR7gmumjg=",
+    "originContent": "not CommonJS.",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# 使用方法"
+  },
+  {
+    "row": 61,
+    "rowsha": "VQl64phXBjjplyWiGKNjjWZLPM0chOlnOxoC73zDU/k=",
+    "originContent": "# Usage",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## signalsByName"
+  },
+  {
+    "row": 63,
+    "rowsha": "NzdBkxDsZSEUGd7H1ZsvBu3jtilhPV1cFDeeLJzqFe0=",
+    "originContent": "## signalsByName",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "_型_: `object`"
+  },
+  {
+    "row": 65,
+    "rowsha": "Y0bC6hlKOXwfwfzyuT+KJOvN/ACibA+k+bqcyxIR44g=",
+    "originContent": "_Type_: `object`",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "キーがシグナルの[名前](#name)、値が  "
+  },
+  {
+    "row": 67,
+    "rowsha": "cIKlremwPpJSknXOIMREiBFewv9H1kS9QDzgWexklfE=",
+    "originContent": "Object whose keys are signal [names](#name) and values are",
+    "translatedContent": "[シグナルオブジェクト](#signal)であるオブジェクト。"
+  },
+  {
+    "row": 68,
+    "rowsha": "VsXePHOPwLcOI23wXcInAkvmXBaGrfGv2Jt8AgqSg5w=",
+    "originContent": "[signal objects](#signal).",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## signalsByNumber"
+  },
+  {
+    "row": 70,
+    "rowsha": "5XPMaFnxYm7gLDuuDFV4oALlOPchvJgr4PRPVb4DNZI=",
+    "originContent": "## signalsByNumber",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "_型_: `object`"
+  },
+  {
+    "row": 72,
+    "rowsha": "Y0bC6hlKOXwfwfzyuT+KJOvN/ACibA+k+bqcyxIR44g=",
+    "originContent": "_Type_: `object`",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "キーがシグナルの[番号](#number)、値が  "
+  },
+  {
+    "row": 74,
+    "rowsha": "XTj53iAeGialmaR3StTN2/l29lKRKhow/OsQrZf2XjY=",
+    "originContent": "Object whose keys are signal [numbers](#number) and values are",
+    "translatedContent": "[シグナルオブジェクト](#signal)であるオブジェクト。"
+  },
+  {
+    "row": 75,
+    "rowsha": "VsXePHOPwLcOI23wXcInAkvmXBaGrfGv2Jt8AgqSg5w=",
+    "originContent": "[signal objects](#signal).",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## signal"
+  },
+  {
+    "row": 77,
+    "rowsha": "Mo0dI/TvQDX6rudxStxBBZvqHuqgC2yzKGfdPlglwXk=",
+    "originContent": "## signal",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "_型_: `object`"
+  },
+  {
+    "row": 79,
+    "rowsha": "Y0bC6hlKOXwfwfzyuT+KJOvN/ACibA+k+bqcyxIR44g=",
+    "originContent": "_Type_: `object`",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "以下のプロパティを持つシグナルオブジェクト。"
+  },
+  {
+    "row": 81,
+    "rowsha": "mk2YN2aIrCVWDnd2PUy9iOmqQXOHqQtIPN0xeWwM4KU=",
+    "originContent": "Signal object with the following properties.",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### name"
+  },
+  {
+    "row": 83,
+    "rowsha": "QePPVhqPQWwaoe/stv39rNRpkTl9IojguUNtxOeNdZ4=",
+    "originContent": "### name",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "_型_: `string`"
+  },
+  {
+    "row": 85,
+    "rowsha": "I7FqEE03ZXAJI6U92n0YHNoWz0rFgx2eXm7iORduBNM=",
+    "originContent": "_Type_: `string`",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "シグナルの標準名。例：`'SIGINT'`。"
+  },
+  {
+    "row": 87,
+    "rowsha": "fL9R/Q+6W2e+pNelkRpP0xuCdIe7yQg6q3rG9NAr8zE=",
+    "originContent": "Standard name of the signal, for example `'SIGINT'`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### number"
+  },
+  {
+    "row": 89,
+    "rowsha": "coqWCCXwzx0l36M0TIC19tGiMRy6Y5bNR3HkJzoL1Bs=",
+    "originContent": "### number",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "_型_: `number`"
+  },
+  {
+    "row": 91,
+    "rowsha": "avGBqLDbegOIdjGXgkIWYyDsm8XRkxtj7ZokIeC1iKA=",
+    "originContent": "_Type_: `number`",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "シグナルのコード番号。例：`2`。ほとんどの `number` は  "
+  },
+  {
+    "row": 93,
+    "rowsha": "RleTmumvzDaZClbXMp5T/7u76xZwbv8hu8sEDQLs6XM=",
+    "originContent": "Code number of the signal, for example `2`. While most `number` are",
+    "translatedContent": "クロスプラットフォームですが、OSによって異なる場合があります。"
+  },
+  {
+    "row": 94,
+    "rowsha": "tocomnMVvbr+M9t0CP8NgVgSG5MAlccAvjzhsw/vXiQ=",
+    "originContent": "cross-platform, some are different between different OS.",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### description"
+  },
+  {
+    "row": 96,
+    "rowsha": "nse4U8AE+nHCDY5TbmW7ooOQpJOyFGbvqIeNfaqmWZM=",
+    "originContent": "### description",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "_型_: `string`"
+  },
+  {
+    "row": 98,
+    "rowsha": "I7FqEE03ZXAJI6U92n0YHNoWz0rFgx2eXm7iORduBNM=",
+    "originContent": "_Type_: `string`",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "シグナルのわかりやすい説明。例：  "
+  },
+  {
+    "row": 100,
+    "rowsha": "OjP5ZutNF+mUDX9UQZ1EJnqjhznO3AqocCECmNM5EhA=",
+    "originContent": "Human-friendly description for the signal, for example",
+    "translatedContent": "`'User interruption with CTRL-C'`。"
+  },
+  {
+    "row": 101,
+    "rowsha": "e4RpaKfUaonG+VhBpc0uJRcohPnTelC5bvUpADyUizc=",
+    "originContent": "`'User interruption with CTRL-C'`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### supported"
+  },
+  {
+    "row": 103,
+    "rowsha": "FdRGecBWhpja9ISRIyEvZFgCBKYj+ozzkbmhv4xfvJg=",
+    "originContent": "### supported",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "_型_: `boolean`"
+  },
+  {
+    "row": 105,
+    "rowsha": "eWnZR7V7/kYP0C/s2T2fh8sh7I+iogiiJnvexfYLtRE=",
+    "originContent": "_Type_: `boolean`",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "現在の OS が Node.js でこのシグナルを  "
+  },
+  {
+    "row": 107,
+    "rowsha": "EXjBt/DV4+ib2BcSgobQI6Iz9sfAwP3TeMzjtLmdkdk=",
+    "originContent": "Whether the current OS can handle this signal in Node.js using",
+    "translatedContent": "[`process.on(name, handler)`](https://nodejs.org/api/process.html#process_signal_events)を使って処理可能かどうか。"
+  },
+  {
+    "row": 108,
+    "rowsha": "v6N/G4qMMGbkSJAzMMQv24ga/rLPP2cf5gwO+sCeS9Q=",
+    "originContent": "[`process.on(name, handler)`](https://nodejs.org/api/process.html#process_signal_events).",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "対応しているシグナルの一覧は  "
+  },
+  {
+    "row": 110,
+    "rowsha": "GwNcsgr9/1pmjcUXWr8jQmRm9U8VEYk4zIulRAtakaU=",
+    "originContent": "The list of supported signals",
+    "translatedContent": "[OSごとに異なります](https://github.com/ehmicky/cross-platform-node-guide/blob/main/docs/6_networking_ipc/signals.md#cross-platform-signals)。"
+  },
+  {
+    "row": 111,
+    "rowsha": "O0Yjxw0b7Yo+69LG4DiIPcDj/mqo9hHtNjKpciMw9nI=",
+    "originContent": "[is OS-specific](https://github.com/ehmicky/cross-platform-node-guide/blob/main/docs/6_networking_ipc/signals.md#cross-platform-signals).",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### action"
+  },
+  {
+    "row": 113,
+    "rowsha": "DAWGdQz5IruDf04t5k+gwv6knH+HVXucDJ5pdsKldg8=",
+    "originContent": "### action",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "_型_: `string`\\"
+  },
+  {
+    "row": 115,
+    "rowsha": "29tNaaNrt5y5MNybHV6m/alWobVqjpsvzm361y2nXdg=",
+    "originContent": "_Type_: `string`\\",
+    "translatedContent": "_列挙型_: `'terminate'`, `'core'`, `'ignore'`, `'pause'`, `'unpause'`"
+  },
+  {
+    "row": 116,
+    "rowsha": "YIysbCvCb1jzcn/wkXwtOj9i2DbHmArbuX4gbVbtP3w=",
+    "originContent": "_Enum_: `'terminate'`, `'core'`, `'ignore'`, `'pause'`, `'unpause'`",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "ハンドルされていない場合のこのシグナルのデフォルトの動作。"
+  },
+  {
+    "row": 118,
+    "rowsha": "Awkm/7KX4QQA+/SekfHDPtoK0O2H+bgcjjwbpiof1g0=",
+    "originContent": "What is the default action for this signal when it is not handled.",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### forced"
+  },
+  {
+    "row": 120,
+    "rowsha": "MHsm53Q4xWq4RVXI74CmtPwAOjIhrluDGnfcoK76d6w=",
+    "originContent": "### forced",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "_型_: `boolean`"
+  },
+  {
+    "row": 122,
+    "rowsha": "eWnZR7V7/kYP0C/s2T2fh8sh7I+iogiiJnvexfYLtRE=",
+    "originContent": "_Type_: `boolean`",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "シグナルのデフォルト動作を防止できないかどうか。  "
+  },
+  {
+    "row": 124,
+    "rowsha": "Fs7AFd9YQXrbFkyBoYncSsEv3DtXqjfuq1jnhapiu6M=",
+    "originContent": "Whether the signal's default action cannot be prevented. This is `true` for",
+    "translatedContent": "`SIGTERM`、`SIGKILL`、`SIGSTOP` はこれが `true` です。"
+  },
+  {
+    "row": 125,
+    "rowsha": "md15frM9mw+0yLHu0jOH3dO/HVt5tpVsA48bxwcIdvY=",
+    "originContent": "`SIGTERM`, `SIGKILL` and `SIGSTOP`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### standard"
+  },
+  {
+    "row": 127,
+    "rowsha": "xgaCDX7PQ+WQCbbQeSRJPnjLSDqp1Fd3WHnKWSqMcWg=",
+    "originContent": "### standard",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "_型_: `string`\\"
+  },
+  {
+    "row": 129,
+    "rowsha": "29tNaaNrt5y5MNybHV6m/alWobVqjpsvzm361y2nXdg=",
+    "originContent": "_Type_: `string`\\",
+    "translatedContent": "_列挙型_: `'ansi'`, `'posix'`, `'bsd'`, `'systemv'`, `'other'`"
+  },
+  {
+    "row": 130,
+    "rowsha": "893KOvaZEsn+HgFJElKHeQAMvbB4Q4p/gGqe9A0gHes=",
+    "originContent": "_Enum_: `'ansi'`, `'posix'`, `'bsd'`, `'systemv'`, `'other'`",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "どの標準がこのシグナルを定義したか。"
+  },
+  {
+    "row": 132,
+    "rowsha": "EoWkPjRJKhQW5sg6uWLmp5ik+V2gLCfzqUJnsgiJRw0=",
+    "originContent": "Which standard defined that signal.",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# サポート"
+  },
+  {
+    "row": 134,
+    "rowsha": "iM16mjyZ3xeRaVa1NhFyJcWFcvJpXxx6k+FCBbbFR1o=",
+    "originContent": "# Support",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "質問があれば、_遠慮なく_ [GitHubでIssueを提出してください](../../issues)。"
+  },
+  {
+    "row": 136,
+    "rowsha": "e5zyBPlQl/9CIdkWVoMxFxIUODcb+7aDQ0mSgs/GycE=",
+    "originContent": "For any question, _don't hesitate_ to [submit an issue on GitHub](../../issues).",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "個人の背景に関係なく誰でも歓迎します。  "
+  },
+  {
+    "row": 138,
+    "rowsha": "f+yh87wagwni0kWIWl5/fspYi3OBRP1BGC6qlHC0rtI=",
+    "originContent": "Everyone is welcome regardless of personal background. We enforce a",
+    "translatedContent": "前向きで包括的な環境を促進するために  "
+  },
+  {
+    "row": 139,
+    "rowsha": "LiGwlsG04+SEdRDCM8/S5/zP9iLG9bYHlDv4kCdUAtU=",
+    "originContent": "[Code of conduct](https://raw.githubusercontent.com/ehmicky/human-signals/main/CODE_OF_CONDUCT.md) in order to promote a positive and",
+    "translatedContent": "[行動規範](https://raw.githubusercontent.com/ehmicky/human-signals/main/CODE_OF_CONDUCT.md)を適用しています。"
+  },
+  {
+    "row": 140,
+    "rowsha": "tZneIDZGZvquno0MBzgp3wgz8zY6y6FHoMJh4+klkC0=",
+    "originContent": "inclusive environment.",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# コントリビュート"
+  },
+  {
+    "row": 142,
+    "rowsha": "1yCoKNoREHM/a6qGHb4WHakxWqjS55ccm8ypI1TWTPM=",
+    "originContent": "# Contributing",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "このプロジェクトは ❤️ を込めて作られました。  "
+  },
+  {
+    "row": 144,
+    "rowsha": "J8DWwCzmQMbDyGva0e7cIUAG/grmK3TRQTLwzMsVruQ=",
+    "originContent": "This project was made with ❤️. The simplest way to give back is by starring and",
+    "translatedContent": "最も簡単な支援方法はスターをつけてオンラインで共有することです。"
+  },
+  {
+    "row": 145,
+    "rowsha": "Y8T65o4qXZd9dl0q6USlTEkCRKLxJYmpruHbgcjQyuQ=",
+    "originContent": "sharing it online.",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "ドキュメントが不明瞭または誤字があれば、ページの `Edit` ボタン（鉛筆アイコン）をクリックして修正案を提案してください。"
+  },
+  {
+    "row": 147,
+    "rowsha": "aWyB7Hhs8VmpTPcGmn/KQ9MOyGWepTWj1xUIJp5MbOk=",
+    "originContent": "If the documentation is unclear or has a typo, please click on the page's `Edit`",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "UQsSGhHkssjrv8wDTbGGf0iaqksvMWFDkj0bn5u1Exc=",
+    "originContent": "button (pencil icon) and suggest a correction.",
+    "translatedContent": "バグ修正や新機能追加で協力してくださる場合は、  "
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[ガイドライン](https://raw.githubusercontent.com/ehmicky/human-signals/main/CONTRIBUTING.md)をご確認ください。プルリクエストは歓迎します！"
+  },
+  {
+    "row": 150,
+    "rowsha": "LBmkeunXvEEHG0lfGuM3OX76vc99ZJbw/5jDCmowhDY=",
+    "originContent": "If you would like to help us fix a bug or add a new feature, please check our",
+    "translatedContent": ""
+  },
+  {
+    "row": 151,
+    "rowsha": "HZO89yO+gBUpvbgROkVjn9JxQezxjxmygiGz6IBdDRI=",
+    "originContent": "[guidelines](https://raw.githubusercontent.com/ehmicky/human-signals/main/CONTRIBUTING.md). Pull requests are welcome!",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "ありがとうございます、素晴らしい貢献者の皆様へ："
+  },
+  {
+    "row": 153,
+    "rowsha": "YyEIl2ZkwTTwFuchLblxxQLM1tpFcQi8LYScs5Bcm8s=",
+    "originContent": "Thanks go to our wonderful contributors:",
+    "translatedContent": ""
+  },
+  {
+    "row": 154,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<!-- ALL-CONTRIBUTORS-LIST:START -->"
+  },
+  {
+    "row": 155,
+    "rowsha": "tmWmIbQ7Pc8jUf7CRJhbqLIRSy2UB92/QNNIB2Y06Xw=",
+    "originContent": "<!-- ALL-CONTRIBUTORS-LIST:START -->",
+    "translatedContent": "<!-- prettier-ignore-start -->"
+  },
+  {
+    "row": 156,
+    "rowsha": "ssBZLSFuOsdKP9W+2/fEk9sDQsat3rzvieRJY0pb6XI=",
+    "originContent": "<!-- prettier-ignore-start -->",
+    "translatedContent": "<!-- markdownlint-disable -->"
+  },
+  {
+    "row": 157,
+    "rowsha": "Uq4gYRcFQPJh4caBj95VqxfkTUTIPccyTSTcv4x6XkI=",
+    "originContent": "<!-- markdownlint-disable -->",
+    "translatedContent": "<table>"
+  },
+  {
+    "row": 158,
+    "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
+    "originContent": "<table>",
+    "translatedContent": "  <tbody>"
+  },
+  {
+    "row": 159,
+    "rowsha": "V8SoadU3qlQEyQXfcDO5Evu+vSduzv+IQXpGHlNEQ4M=",
+    "originContent": "  <tbody>",
+    "translatedContent": "    <tr>"
+  },
+  {
+    "row": 160,
+    "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+    "originContent": "    <tr>",
+    "translatedContent": "      <td align=\"center\" valign=\"top\" width=\"14.28%\"><a href=\"https://fosstodon.org/@ehmicky\"><img src=\"https://avatars2.githubusercontent.com/u/8136211?v=4?s=100\" width=\"100px;\" alt=\"ehmicky\"/><br /><sub><b>ehmicky</b></sub></a><br /><a href=\"https://github.com/ehmicky/human-signals/commits?author=ehmicky\" title=\"Code\">💻</a> <a href=\"#design-ehmicky\" title=\"Design\">🎨</a> <a href=\"#ideas-ehmicky\" title=\"Ideas, Planning, & Feedback\">🤔</a> <a href=\"https://github.com/ehmicky/human-signals/commits?author=ehmicky\" title=\"Documentation\">📖</a></td>"
+  },
+  {
+    "row": 161,
+    "rowsha": "TSIUHsw1dBbxn8Z96VGBK0u3t35EWceLqUwAPzff0Bc=",
+    "originContent": "      <td align=\"center\" valign=\"top\" width=\"14.28%\"><a href=\"https://fosstodon.org/@ehmicky\"><img src=\"https://avatars2.githubusercontent.com/u/8136211?v=4?s=100\" width=\"100px;\" alt=\"ehmicky\"/><br /><sub><b>ehmicky</b></sub></a><br /><a href=\"https://github.com/ehmicky/human-signals/commits?author=ehmicky\" title=\"Code\">💻</a> <a href=\"#design-ehmicky\" title=\"Design\">🎨</a> <a href=\"#ideas-ehmicky\" title=\"Ideas, Planning, & Feedback\">🤔</a> <a href=\"https://github.com/ehmicky/human-signals/commits?author=ehmicky\" title=\"Documentation\">📖</a></td>",
+    "translatedContent": "      <td align=\"center\" valign=\"top\" width=\"14.28%\"><a href=\"http://www.electrovir.com\"><img src=\"https://avatars0.githubusercontent.com/u/1205860?v=4?s=100\" width=\"100px;\" alt=\"electrovir\"/><br /><sub><b>electrovir</b></sub></a><br /><a href=\"https://github.com/ehmicky/human-signals/commits?author=electrovir\" title=\"Code\">💻</a></td>"
+  },
+  {
+    "row": 162,
+    "rowsha": "MKWhandQHW4FpdJOLjMeEf7uW/VonVlY0TcQ59TRowI=",
+    "originContent": "      <td align=\"center\" valign=\"top\" width=\"14.28%\"><a href=\"http://www.electrovir.com\"><img src=\"https://avatars0.githubusercontent.com/u/1205860?v=4?s=100\" width=\"100px;\" alt=\"electrovir\"/><br /><sub><b>electrovir</b></sub></a><br /><a href=\"https://github.com/ehmicky/human-signals/commits?author=electrovir\" title=\"Code\">💻</a></td>",
+    "translatedContent": "      <td align=\"center\" valign=\"top\" width=\"14.28%\"><a href=\"https://fzy.se\"><img src=\"https://avatars.githubusercontent.com/u/2656517?v=4?s=100\" width=\"100px;\" alt=\"Felix Zedén Yverås\"/><br /><sub><b>Felix Zedén Yverås</b></sub></a><br /><a href=\"https://github.com/ehmicky/human-signals/commits?author=FelixZY\" title=\"Code\">💻</a> <a href=\"https://github.com/ehmicky/human-signals/commits?author=FelixZY\" title=\"Tests\">⚠️</a></td>"
+  },
+  {
+    "row": 163,
+    "rowsha": "BS39arjYWJx2yeT2KEzJu7rByKMkGKLH92pvLsZW/Zc=",
+    "originContent": "      <td align=\"center\" valign=\"top\" width=\"14.28%\"><a href=\"https://fzy.se\"><img src=\"https://avatars.githubusercontent.com/u/2656517?v=4?s=100\" width=\"100px;\" alt=\"Felix Zedén Yverås\"/><br /><sub><b>Felix Zedén Yverås</b></sub></a><br /><a href=\"https://github.com/ehmicky/human-signals/commits?author=FelixZY\" title=\"Code\">💻</a> <a href=\"https://github.com/ehmicky/human-signals/commits?author=FelixZY\" title=\"Tests\">⚠️</a></td>",
+    "translatedContent": "    </tr>"
+  },
+  {
+    "row": 164,
+    "rowsha": "qMXSfcecmgpTcWjU4/DonhxZrtbJe20/4kuvSQqv9HU=",
+    "originContent": "    </tr>",
+    "translatedContent": "  </tbody>"
+  },
+  {
+    "row": 165,
+    "rowsha": "HgAQR47u7qD0p8NwuwwZJ7dDJg35+B/lslvDHWuZaBU=",
+    "originContent": "  </tbody>",
+    "translatedContent": "</table>"
+  },
+  {
+    "row": 166,
+    "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
+    "originContent": "</table>",
+    "translatedContent": ""
+  },
+  {
+    "row": 167,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<!-- markdownlint-restore -->"
+  },
+  {
+    "row": 168,
+    "rowsha": "cFtS5GYwps9NFypKs40FXkQdunEAJwu6EnVKr/Ig5UU=",
+    "originContent": "<!-- markdownlint-restore -->",
+    "translatedContent": "<!-- prettier-ignore-end -->"
+  },
+  {
+    "row": 169,
+    "rowsha": "uRGuAVjSn+ih9TVnJ+opFObRVCI0lBdGCudHerNNMaw=",
+    "originContent": "<!-- prettier-ignore-end -->",
+    "translatedContent": ""
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<!-- ALL-CONTRIBUTORS-LIST:END -->"
+  },
+  {
+    "row": 171,
+    "rowsha": "PA4edqu68ibCSQIPyfaWL2I5i8BzGjPaOD/SAQL9CKg=",
+    "originContent": "<!-- ALL-CONTRIBUTORS-LIST:END -->",
+    "translatedContent": ""
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -1,0 +1,1364 @@
+[
+  {
+    "row": 1,
+    "rowsha": "DmlefAtuppBgLnp/6undjKPNqJ8BL2fhS2FjWgWRP5Y=",
+    "originContent": "# acme-tiny",
+    "translatedContent": "<translate-content># acme-tiny"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "cA4mL+F5XPFPqXpWp8yPVYLYicXWXRllIvd5/b1k0/Y=",
+    "originContent": "[![Tests](https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml/badge.svg?branch=main)](https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml)",
+    "translatedContent": "[![Tests](https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml/badge.svg?branch=main)](https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml)"
+  },
+  {
+    "row": 4,
+    "rowsha": "uDgJD/l3gCwSv+0Zw82nYB6ba5blRaPVb2wQ7jnsw2U=",
+    "originContent": "[![Coverage Status](https://coveralls.io/repos/github/diafygi/acme-tiny/badge.svg?branch=main)](https://coveralls.io/github/diafygi/acme-tiny?branch=main)",
+    "translatedContent": "[![Coverage Status](https://coveralls.io/repos/github/diafygi/acme-tiny/badge.svg?branch=main)](https://coveralls.io/github/diafygi/acme-tiny?branch=main)"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "AWKRbEcNqBsq4xz5oMnABgUYOnxRp40WoN3lkQeOtgk=",
+    "originContent": "This is a tiny, auditable script that you can throw on your server to issue",
+    "translatedContent": "これはサーバー上で動作させて[Let's Encrypt](https://letsencrypt.org/)の証明書を発行および更新するための"
+  },
+  {
+    "row": 7,
+    "rowsha": "t3zgOxnIIRitx65PC+cGjyf1Y1i5THR3JPdOI/XbhJM=",
+    "originContent": "and renew [Let's Encrypt](https://letsencrypt.org/) certificates. Since it has",
+    "translatedContent": "非常に小さく監査可能なスクリプトです。サーバー上で実行し、"
+  },
+  {
+    "row": 8,
+    "rowsha": "hhFRfqhOd5yeDFVSpdEHdFbNOA+9ZcSKhbz2EmC9vTE=",
+    "originContent": "to be run on your server and have access to your private Let's Encrypt account",
+    "translatedContent": "あなたのプライベートなLet's Encryptアカウントキーにアクセスできる必要があるため、"
+  },
+  {
+    "row": 9,
+    "rowsha": "THAYTbaHHjzPDVTai0fZwYz/AsPUca0pWroGRyYQzEw=",
+    "originContent": "key, I tried to make it as tiny as possible (currently less than 200 lines).",
+    "translatedContent": "できるだけ小さく（現在200行未満）しようとしました。"
+  },
+  {
+    "row": 10,
+    "rowsha": "h8psHfp+QWmJ8TKhmDT3Ytg6b7z/TQuMuWBwKPOJmes=",
+    "originContent": "The only prerequisites are python and openssl.",
+    "translatedContent": "必要条件はpythonとopensslだけです。"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "Fs6hYXS6GY1DxHv8hFWBJ7SxyaUsmEV7ea/YqdN0Un8=",
+    "originContent": "**PLEASE READ THE SOURCE CODE! YOU MUST TRUST IT WITH YOUR PRIVATE ACCOUNT KEY!**",
+    "translatedContent": "**必ずソースコードを読んでください！あなたのプライベートアカウントキーを信頼する必要があります！**"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "FNvaJIRsvZSjSfd1AKN5t1DSohP4YV++BeEW/C1EOJY=",
+    "originContent": "## Donate",
+    "translatedContent": "## 寄付"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "hQImBRpkDSLdWvseyEH5iHGN/0qWdTzSn+WikhwS4vc=",
+    "originContent": "If this script is useful to you, please donate to the EFF. I don't work there,",
+    "translatedContent": "このスクリプトが役に立ったら、ぜひEFFに寄付してください。私はそこでは働いていませんが、"
+  },
+  {
+    "row": 17,
+    "rowsha": "5i8toinVS84N1z94Vx75JPdx79JX6JZKLzQs7f45a7M=",
+    "originContent": "but they do fantastic work.",
+    "translatedContent": "彼らは素晴らしい仕事をしています。"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "Oo++vnu9Lra8O3uibE5jlQy0LeHoXzS1yL3sci05Q9w=",
+    "originContent": "[https://eff.org/donate/](https://eff.org/donate/)",
+    "translatedContent": "[https://eff.org/donate/](https://eff.org/donate/)"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "8LqRwR5xPi6TNykCgjacJMsUmVQKVcLmHS/4FP4LYBc=",
+    "originContent": "## How to use this script",
+    "translatedContent": "## このスクリプトの使い方"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "XH/tP8PfpXbk0raisrByZwlbBbM+jhA14QaYwZYXQ90=",
+    "originContent": "If you already have a Let's Encrypt issued certificate and just want to renew,",
+    "translatedContent": "すでにLet's Encryptで発行された証明書を持っていて更新だけしたい場合は、"
+  },
+  {
+    "row": 24,
+    "rowsha": "CBLYpDC/6578r00mmaCnDAh9czbTwQeGnXzjDYE1xuw=",
+    "originContent": "you should only have to do Steps 3 and 6.",
+    "translatedContent": "ステップ3と6だけを実行すればよいです。"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "IVDglroyN2y8SDyZ3B13hk0kRSq95Cbc9W9n+qP44mY=",
+    "originContent": "### Step 1: Create a Let's Encrypt account private key (if you haven't already)",
+    "translatedContent": "### ステップ1：Let's Encryptアカウントの秘密鍵を作成する（まだ作成していない場合）"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "usjLWP9PpdEq/PruADJmoHFvF0gIMz4kLEPyM/dC+U4=",
+    "originContent": "You must have a public key registered with Let's Encrypt and sign your requests",
+    "translatedContent": "Let's Encryptに登録された公開鍵を持ち、対応する秘密鍵でリクエストに署名する必要があります。"
+  },
+  {
+    "row": 29,
+    "rowsha": "7CTy4bhfTaWV0WHxmYKRuIyFDIZ3HLiTVk/FJsy+pHM=",
+    "originContent": "with the corresponding private key. If you don't understand what I just said,",
+    "translatedContent": "もし上記の内容がよくわからない場合は、このスクリプトはあなた向きではない可能性が高いです！"
+  },
+  {
+    "row": 30,
+    "rowsha": "35/+8S2Utps+JVKS7yRokAb4DWgYE2hVFWKOs8Ssg/s=",
+    "originContent": "this script likely isn't for you! Please use the official Let's Encrypt",
+    "translatedContent": "公式のLet's Encrypt[クライアント](https://github.com/letsencrypt/letsencrypt)を使用してください。"
+  },
+  {
+    "row": 31,
+    "rowsha": "y49exrFlgoqNXEktvNNG3tWN99wccHyut9Fj8nGHwKk=",
+    "originContent": "[client](https://github.com/letsencrypt/letsencrypt).",
+    "translatedContent": "これを実現するために、acme-tinyが使用できるキーを最初に作成し、"
+  },
+  {
+    "row": 32,
+    "rowsha": "HUNuS0xGRa+Tcs7FYT8SmA2SSGwl0AdW0nMquKoWlMs=",
+    "originContent": "To accomplish this you need to initially create a key, that can be used by",
+    "translatedContent": "アカウントを登録し、以降の全てのリクエストに署名します。"
+  },
+  {
+    "row": 33,
+    "rowsha": "zTt2wAGo5TasGhsH/9Sf2VxIymzO3Z6Xsie4ITXaGJo=",
+    "originContent": "acme-tiny, to register an account for you and sign all following requests.",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 36,
+    "rowsha": "zMv/7mg7Sd+BGSI8glk5vtt/BX8aO4SsVKDckZ+ZUR4=",
+    "originContent": "openssl genrsa 4096 > account.key",
+    "translatedContent": "openssl genrsa 4096 > account.key"
+  },
+  {
+    "row": 37,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### 既存の Let's Encrypt キーを使用する"
+  },
+  {
+    "row": 39,
+    "rowsha": "MjamqRCV2c3yenmFFRLGN5i0HOuyzBb6pOBAZuw8low=",
+    "originContent": "#### Use existing Let's Encrypt key",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "あるいは、元の Let's Encrypt クライアントで以前に生成したキーを変換することもできます。"
+  },
+  {
+    "row": 41,
+    "rowsha": "OP3Br82XWdo5/yleewF7a4O2fzVQ5jlej7y5ink81IE=",
+    "originContent": "Alternatively you can convert your key, previously generated by the original",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "ZKZkbkXcuI5gP38gnu7PVcT0q8ctDnZpyFE/QyAQK5Q=",
+    "originContent": "Let's Encrypt client.",
+    "translatedContent": "Let's Encrypt クライアントのプライベートアカウントキーは"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[JWK](https://tools.ietf.org/html/rfc7517) 形式で保存されています。`acme-tiny` は PEM"
+  },
+  {
+    "row": 44,
+    "rowsha": "aMeY6+bjPoIL5hl02XoLzilNujYl5FznPeaycDO0o5w=",
+    "originContent": "The private account key from the Let's Encrypt client is saved in the",
+    "translatedContent": "キー形式を使用しています。キーを変換するには、JonLundy による"
+  },
+  {
+    "row": 45,
+    "rowsha": "6p0eWN8H1GyGRAdRNIOOTfDP8J3cQXF2XukP5t1c3xc=",
+    "originContent": "[JWK](https://tools.ietf.org/html/rfc7517) format. `acme-tiny` is using the PEM",
+    "translatedContent": "[変換スクリプト](https://gist.github.com/JonLundy/f25c99ee0770e19dc595) ツールを使用できます："
+  },
+  {
+    "row": 46,
+    "rowsha": "Kr6llqM5E2/yRPY5rRE2XW8ktA4VUmPeZpYjBJycwkE=",
+    "originContent": "key format. To convert the key, you can use the tool",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "IBEX8A2nc/lpkzwqn3t8DNEJjjIdkd4xZZ3cm6i6Qi4=",
+    "originContent": "[conversion script](https://gist.github.com/JonLundy/f25c99ee0770e19dc595) by JonLundy:",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 50,
+    "rowsha": "C52eZIrDNIY/Iu1yzqudDjJWR3I5dt9h1jFkhIOB1eU=",
+    "originContent": "# Download the script",
+    "translatedContent": "# Download the script"
+  },
+  {
+    "row": 51,
+    "rowsha": "MA9jbYjwf+uBW8k6pS7uhcxsbiNLrnaXAuCEuFxZ/Dk=",
+    "originContent": "wget -O - \"https://gist.githubusercontent.com/JonLundy/f25c99ee0770e19dc595/raw/6035c1c8938fae85810de6aad1ecf6e2db663e26/conv.py\" > conv.py",
+    "translatedContent": "wget -O - \"https://gist.githubusercontent.com/JonLundy/f25c99ee0770e19dc595/raw/6035c1c8938fae85810de6aad1ecf6e2db663e26/conv.py\" > conv.py"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "R/3yCcj0Ylwc6CXyVjP4JEaGCa7ZFq7wYtWa7VC3tYI=",
+    "originContent": "# Copy your private key to your working directory",
+    "translatedContent": "# Copy your private key to your working directory"
+  },
+  {
+    "row": 54,
+    "rowsha": "LigU+gMay8E9RtVt8vQPBvJzAh+KobF/A+UEn4w8Xcc=",
+    "originContent": "cp /etc/letsencrypt/accounts/acme-v01.api.letsencrypt.org/directory/<id>/private_key.json private_key.json",
+    "translatedContent": "cp /etc/letsencrypt/accounts/acme-v01.api.letsencrypt.org/directory/<id>/private_key.json private_key.json"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "A34ASeQ91kEMxTXm8b4R5V30v5K2Vmpje7C5pEuzv1E=",
+    "originContent": "# Create a DER encoded private key",
+    "translatedContent": "# Create a DER encoded private key"
+  },
+  {
+    "row": 57,
+    "rowsha": "GPqPq3CXrf7GZDTWwN2QKcz+JZsgev69zXRZdEzmMUk=",
+    "originContent": "openssl asn1parse -noout -out private_key.der -genconf <(python2 conv.py private_key.json)",
+    "translatedContent": "openssl asn1parse -noout -out private_key.der -genconf <(python2 conv.py private_key.json)"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "ZCec4FBsCQN73YRtL18WL9vz0qzv5WSEpZjXc9YTlVA=",
+    "originContent": "# Convert to PEM",
+    "translatedContent": "# Convert to PEM"
+  },
+  {
+    "row": 60,
+    "rowsha": "50SRjCCMyDUDz9PvJ1EWlHV1wIVTl+4ZCc5/PHkidtE=",
+    "originContent": "openssl rsa -in private_key.der -inform der > account.key",
+    "translatedContent": "openssl rsa -in private_key.der -inform der > account.key"
+  },
+  {
+    "row": 61,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### ステップ 2: ドメイン用の証明書署名要求（CSR）を作成します。"
+  },
+  {
+    "row": 63,
+    "rowsha": "VMilB2B9CO54VFiBMgbZr1uLW6MkO5fi2UENSdGh2yQ=",
+    "originContent": "### Step 2: Create a certificate signing request (CSR) for your domains.",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "ACMEプロトコル（Let's Encryptが使用するもの）は、更新の場合でもCSRファイルの提出を"
+  },
+  {
+    "row": 65,
+    "rowsha": "P71buASwvz1pxPvvUcPeVr+4X1+mzgpHQbAAICxuvLs=",
+    "originContent": "The ACME protocol (what Let's Encrypt uses) requires a CSR file to be submitted",
+    "translatedContent": "要求します。同じCSRを複数回の更新に使用できます。注意："
+  },
+  {
+    "row": 66,
+    "rowsha": "ZrKySk2J7heqN6yoc45StfSLk6Gn0/w61M8SrzhZx/w=",
+    "originContent": "to it, even for renewals. You can use the same CSR for multiple renewals. NOTE:",
+    "translatedContent": "アカウントの秘密鍵をドメインの秘密鍵として使用することはできません！"
+  },
+  {
+    "row": 67,
+    "rowsha": "/L/TldhJ37XhImGhAkugvT636eWrZLRakv/r5Vmu+0s=",
+    "originContent": "you can't use your account private key as your domain private key!",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 70,
+    "rowsha": "YI4eqsQ/Slz6nLhtWLbHhBlF4RHGk+S4MFd2RDVdJwI=",
+    "originContent": "# Generate a domain private key (if you haven't already)",
+    "translatedContent": "# Generate a domain private key (if you haven't already)"
+  },
+  {
+    "row": 71,
+    "rowsha": "4kkjILvILR1qPecHuMcgr+vAvFzu7luZffRb+x+rRNU=",
+    "originContent": "openssl genrsa 4096 > domain.key",
+    "translatedContent": "openssl genrsa 4096 > domain.key"
+  },
+  {
+    "row": 72,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 75,
+    "rowsha": "osqe60TuV5RyE8xK7CC/6O8mSzBiXCGmHmB1Zc72+hQ=",
+    "originContent": "# For a single domain",
+    "translatedContent": "# For a single domain"
+  },
+  {
+    "row": 76,
+    "rowsha": "D7lfjbVOwzKAuoxOnMdnp/kVFem0xqVb0Kc40CDNeIc=",
+    "originContent": "openssl req -new -sha256 -key domain.key -subj \"/CN=yoursite.com\" > domain.csr",
+    "translatedContent": "openssl req -new -sha256 -key domain.key -subj \"/CN=yoursite.com\" > domain.csr"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "ldcVsC7oZKZPaoCA+0XqNB1vJEZxxm1t+w+RPtLPMJM=",
+    "originContent": "# For multiple domains (use this one if you want both www.yoursite.com and yoursite.com)",
+    "translatedContent": "# For multiple domains (use this one if you want both www.yoursite.com and yoursite.com)"
+  },
+  {
+    "row": 79,
+    "rowsha": "96whouZGcWvuzYSj7sTSV0ySXOnk/gtUmxUVu2wafdE=",
+    "originContent": "openssl req -new -sha256 -key domain.key -subj \"/\" -addext \"subjectAltName = DNS:yoursite.com, DNS:www.yoursite.com\" > domain.csr",
+    "translatedContent": "openssl req -new -sha256 -key domain.key -subj \"/\" -addext \"subjectAltName = DNS:yoursite.com, DNS:www.yoursite.com\" > domain.csr"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "n9wfeAt3O72n3FLJfR+kxMSHy37EZn0g94qRze7SSV0=",
+    "originContent": "# For multiple domains (same as above but works with openssl < 1.1.1)",
+    "translatedContent": "# For multiple domains (same as above but works with openssl < 1.1.1)"
+  },
+  {
+    "row": 82,
+    "rowsha": "XLyhxbThKb8RvSK0+W1Ndu40Y0KTr5j1WKDk0xXSoTo=",
+    "originContent": "openssl req -new -sha256 -key domain.key -subj \"/\" -reqexts SAN -config <(cat /etc/ssl/openssl.cnf <(printf \"[SAN]\\nsubjectAltName=DNS:yoursite.com,DNS:www.yoursite.com\")) > domain.csr",
+    "translatedContent": "openssl req -new -sha256 -key domain.key -subj \"/\" -reqexts SAN -config <(cat /etc/ssl/openssl.cnf <(printf \"[SAN]\\nsubjectAltName=DNS:yoursite.com,DNS:www.yoursite.com\")) > domain.csr"
+  },
+  {
+    "row": 83,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### ステップ3: ウェブサイトにチャレンジファイルを配置する"
+  },
+  {
+    "row": 85,
+    "rowsha": "aXZU483dnxRcRQxfWui4C2yRIZQqDWUqZfzMToCIYh8=",
+    "originContent": "### Step 3: Make your website host challenge files",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "証明書を取得したいドメインの所有権を証明する必要があるため、Let's Encrypt"
+  },
+  {
+    "row": 87,
+    "rowsha": "VIn0vpbiA4SZvydbpZuN/gMaoYwku3ogx7xYS/bb7O8=",
+    "originContent": "You must prove you own the domains you want a certificate for, so Let's Encrypt",
+    "translatedContent": "ではそれらのドメインにファイルをホストすることを要求します。このスクリプトは、"
+  },
+  {
+    "row": 88,
+    "rowsha": "myGJgKmzrGG5y9nEptN7Vd4yud6y9SYxvi7tU9ruwwM=",
+    "originContent": "requires you host some files on them. This script will generate and write those",
+    "translatedContent": "指定したフォルダにそれらのファイルを生成して書き込むので、あなたがするべきことは"
+  },
+  {
+    "row": 89,
+    "rowsha": "YCRumzsSuyGuV6ltIHSE7KFAb+CD9SxIVjhQ9GXKlDk=",
+    "originContent": "files in the folder you specify, so all you need to do is make sure that this",
+    "translatedContent": "このフォルダが\".well-known/acme-challenge/\"のURLパスで提供されていることを確認することです。注意: Let's"
+  },
+  {
+    "row": 90,
+    "rowsha": "8lbbAyy1kO6uojAcJCA4B+zk6bIwFIO3uspWwtom2kU=",
+    "originContent": "folder is served under the \".well-known/acme-challenge/\" url path. NOTE: Let's",
+    "translatedContent": "Encryptはサーバーのポート80に対してプレーンなHTTPリクエストを行うため、"
+  },
+  {
+    "row": 91,
+    "rowsha": "erkLGE73WmopG43UUS1xGMIPoTw3R91s5MnumN87cVc=",
+    "originContent": "Encrypt will perform a plain HTTP request to port 80 on your server, so you",
+    "translatedContent": "チャレンジファイルはHTTP経由で提供する必要があります（HTTPSへのリダイレクトでも問題ありません）。"
+  },
+  {
+    "row": 92,
+    "rowsha": "JDjJqsXiKv3+UwkwCn/XOZBoXGZLdVRjCWOenEWs5Jk=",
+    "originContent": "must serve the challenge files via HTTP (a redirect to HTTPS is fine too).",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 95,
+    "rowsha": "sAoFqh2PUsLtLouUt4qhir4Uf29AIXn5GbhTnqk7B/U=",
+    "originContent": "# Make some challenge folder (modify to suit your needs)",
+    "translatedContent": "# Make some challenge folder (modify to suit your needs)"
+  },
+  {
+    "row": 96,
+    "rowsha": "Y17+QfRyXOk+AyEAG82KktdG6zsq4+gzmihWLlv4NZM=",
+    "originContent": "mkdir -p /var/www/challenges/",
+    "translatedContent": "mkdir -p /var/www/challenges/"
+  },
+  {
+    "row": 97,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "h2c6dO6I1699FQWDd4mE57p/WRMdtsxwFI5oxZloIaQ=",
+    "originContent": "```nginx",
+    "translatedContent": "```nginx"
+  },
+  {
+    "row": 100,
+    "rowsha": "zRr1v0Tl4DxdfjySToQGieScWvhNwk/+ImIs3X321qE=",
+    "originContent": "# Example for nginx",
+    "translatedContent": "# Example for nginx"
+  },
+  {
+    "row": 101,
+    "rowsha": "AxCotRd0ZdTTaLiiqDRKszdJJ4svGTdVf6Cpgiw1rxg=",
+    "originContent": "server {",
+    "translatedContent": "server {"
+  },
+  {
+    "row": 102,
+    "rowsha": "QxDnEpfi7en4ZKwtHVM9iaUa8VSP3W89MecrWS8uMbU=",
+    "originContent": "    listen 80;",
+    "translatedContent": "    listen 80;"
+  },
+  {
+    "row": 103,
+    "rowsha": "xffKroDXi3EY+EGYp0Az7/jK0vRMIJCqoBfQpHxl1Sw=",
+    "originContent": "    server_name yoursite.com www.yoursite.com;",
+    "translatedContent": "    server_name yoursite.com www.yoursite.com;"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "2xW96HjKRUllc1irtgpO14P8D0fdZ0Yon1VwAZLkGYU=",
+    "originContent": "    location /.well-known/acme-challenge/ {",
+    "translatedContent": "    location /.well-known/acme-challenge/ {"
+  },
+  {
+    "row": 106,
+    "rowsha": "H9AyC9xNqzBpLjhMWnf8DeBJcRVnhkkHx6+GT7x3cYw=",
+    "originContent": "        alias /var/www/challenges/;",
+    "translatedContent": "        alias /var/www/challenges/;"
+  },
+  {
+    "row": 107,
+    "rowsha": "+rqKcyKcdOK2uLXStJQgp8gthdwYr8Fh75IQqA4fQS0=",
+    "originContent": "        try_files $uri =404;",
+    "translatedContent": "        try_files $uri =404;"
+  },
+  {
+    "row": 108,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "NwqmS9/WN8cYqc76XcvJbx7HlRxg/XHNGVZtusSsjFg=",
+    "originContent": "    ...the rest of your config",
+    "translatedContent": "    ...the rest of your config"
+  },
+  {
+    "row": 111,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 112,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### ステップ4：署名済み証明書を取得しましょう！"
+  },
+  {
+    "row": 114,
+    "rowsha": "McXY04yyG4TaWBti1Du+gmWZDhfxsfd4TJWME9XnPOs=",
+    "originContent": "### Step 4: Get a signed certificate!",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "サーバーの設定と必要なファイルの生成が完了したら、"
+  },
+  {
+    "row": 116,
+    "rowsha": "IAai5n8b2yZrIG8Ff8CYIgOV9JQaukkqFEE+Ri619hg=",
+    "originContent": "Now that you have setup your server and generated all the needed files, run this",
+    "translatedContent": "上記のフォルダーに書き込みができ、アカウントの秘密鍵とCSRを読み取る権限を持つ状態で、"
+  },
+  {
+    "row": 117,
+    "rowsha": "Sflht0QMJ36EZ6/oOzhuyapAzyyAeRSbeKCf6r3+D08=",
+    "originContent": "script on your server with the permissions needed to write to the above folder",
+    "translatedContent": "サーバー上でこのスクリプトを実行してください。"
+  },
+  {
+    "row": 118,
+    "rowsha": "/RLgSFxParqzUqKNp9rSOFNQvybiJsqJezRaV/JauWA=",
+    "originContent": "and read your private account key and CSR.",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 121,
+    "rowsha": "to534HE7Evv7TacjZW1Q3aDEpbT75WGw5yjqZ3C4RFE=",
+    "originContent": "# Run the script on your server",
+    "translatedContent": "# Run the script on your server"
+  },
+  {
+    "row": 122,
+    "rowsha": "YwXc+mLSBR0j1HVYms50jSeXvbM7dZQNzKQJCLrE4Wk=",
+    "originContent": "python acme_tiny.py --account-key ./account.key --csr ./domain.csr --acme-dir /var/www/challenges/ > ./signed_chain.crt",
+    "translatedContent": "python acme_tiny.py --account-key ./account.key --csr ./domain.csr --acme-dir /var/www/challenges/ > ./signed_chain.crt"
+  },
+  {
+    "row": 123,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### ステップ5：証明書のインストール"
+  },
+  {
+    "row": 125,
+    "rowsha": "IgnfUsqLdZlhsZBW6LzCrfQzGOR0DrZF2jQh2MY3smY=",
+    "originContent": "### Step 5: Install the certificate",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "このスクリプトによって出力される署名済みのhttps証明書チェーンは、"
+  },
+  {
+    "row": 127,
+    "rowsha": "6ezABkFwzwInnpOOLVst93FFlu8giCcMlAV1qqgaa5Q=",
+    "originContent": "The signed https certificate chain that is output by this script can be used along",
+    "translatedContent": "秘密鍵とともにhttpsサーバーを実行するために使用できます。これらを"
+  },
+  {
+    "row": 128,
+    "rowsha": "1QPvgHYl3XD7T5cHayi8eTKsPr4T6+9aLKpyaNqai5E=",
+    "originContent": "with your private key to run an https server. You need to include them in the",
+    "translatedContent": "ウェブサーバーの設定のhttps設定に含める必要があります。nginxサーバーの"
+  },
+  {
+    "row": 129,
+    "rowsha": "aSwdSBoenAeeeCvcrU5hdcuAx8ANS8wZRCSzTaZsn1U=",
+    "originContent": "https settings in your web server's configuration. Here's an example on how to",
+    "translatedContent": "設定例は以下の通りです："
+  },
+  {
+    "row": 130,
+    "rowsha": "RMX1PYLtRNI6x59QPR/lqUd+ZaxRRQlmOW14xziYVz4=",
+    "originContent": "configure an nginx server:",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "h2c6dO6I1699FQWDd4mE57p/WRMdtsxwFI5oxZloIaQ=",
+    "originContent": "```nginx",
+    "translatedContent": "```nginx"
+  },
+  {
+    "row": 133,
+    "rowsha": "AxCotRd0ZdTTaLiiqDRKszdJJ4svGTdVf6Cpgiw1rxg=",
+    "originContent": "server {",
+    "translatedContent": "server {"
+  },
+  {
+    "row": 134,
+    "rowsha": "yjcB1Y+nYGSpdx1yjo7JNJLWAtUesFBrR9UHYr2uk3c=",
+    "originContent": "    listen 443 ssl;",
+    "translatedContent": "    listen 443 ssl;"
+  },
+  {
+    "row": 135,
+    "rowsha": "xffKroDXi3EY+EGYp0Az7/jK0vRMIJCqoBfQpHxl1Sw=",
+    "originContent": "    server_name yoursite.com www.yoursite.com;",
+    "translatedContent": "    server_name yoursite.com www.yoursite.com;"
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "Sm81z1A1+x6AyfY+i3R9LHqpL3j70MpaWifdVffueuc=",
+    "originContent": "    ssl_certificate /path/to/signed_chain.crt;",
+    "translatedContent": "    ssl_certificate /path/to/signed_chain.crt;"
+  },
+  {
+    "row": 138,
+    "rowsha": "Ywr2nS4FdiDRagEeErxDgkY9gTF6cQiboV7vjZVI4pE=",
+    "originContent": "    ssl_certificate_key /path/to/domain.key;",
+    "translatedContent": "    ssl_certificate_key /path/to/domain.key;"
+  },
+  {
+    "row": 139,
+    "rowsha": "gMtmxFFz+kju15vbAUNbfBWY7zjY6F//mmOXkyjvLJM=",
+    "originContent": "    ssl_session_timeout 5m;",
+    "translatedContent": "    ssl_session_timeout 5m;"
+  },
+  {
+    "row": 140,
+    "rowsha": "YHNYsODJ3yU25eKo3EA+oqV6X8ydASbSVS/IsthN73c=",
+    "originContent": "    ssl_protocols TLSv1.2;",
+    "translatedContent": "    ssl_protocols TLSv1.2;"
+  },
+  {
+    "row": 141,
+    "rowsha": "TncrFunmbVMaiSprzeOkXaTT80aA0IhHqG6lvl39M4U=",
+    "originContent": "    ssl_ciphers ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384;",
+    "translatedContent": "    ssl_ciphers ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384;"
+  },
+  {
+    "row": 142,
+    "rowsha": "VOIc41xqygpo6SvcyK2sNJ7iO7ghXltv9ANVdKQc610=",
+    "originContent": "    ssl_session_cache shared:SSL:50m;",
+    "translatedContent": "    ssl_session_cache shared:SSL:50m;"
+  },
+  {
+    "row": 143,
+    "rowsha": "g9KfNDYJYtUHVRRUJREAtkTNtue/Bs6hBQe5rQDdm74=",
+    "originContent": "    ssl_dhparam /path/to/server.dhparam;",
+    "translatedContent": "    ssl_dhparam /path/to/server.dhparam;"
+  },
+  {
+    "row": 144,
+    "rowsha": "FZz9tH/2mPVCt6uja22SdUGCK1+yK0vTzBsAbkKv89o=",
+    "originContent": "    ssl_prefer_server_ciphers on;",
+    "translatedContent": "    ssl_prefer_server_ciphers on;"
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "NwqmS9/WN8cYqc76XcvJbx7HlRxg/XHNGVZtusSsjFg=",
+    "originContent": "    ...the rest of your config",
+    "translatedContent": "    ...the rest of your config"
+  },
+  {
+    "row": 147,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "AxCotRd0ZdTTaLiiqDRKszdJJ4svGTdVf6Cpgiw1rxg=",
+    "originContent": "server {",
+    "translatedContent": "server {"
+  },
+  {
+    "row": 150,
+    "rowsha": "QxDnEpfi7en4ZKwtHVM9iaUa8VSP3W89MecrWS8uMbU=",
+    "originContent": "    listen 80;",
+    "translatedContent": "    listen 80;"
+  },
+  {
+    "row": 151,
+    "rowsha": "xffKroDXi3EY+EGYp0Az7/jK0vRMIJCqoBfQpHxl1Sw=",
+    "originContent": "    server_name yoursite.com www.yoursite.com;",
+    "translatedContent": "    server_name yoursite.com www.yoursite.com;"
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "2xW96HjKRUllc1irtgpO14P8D0fdZ0Yon1VwAZLkGYU=",
+    "originContent": "    location /.well-known/acme-challenge/ {",
+    "translatedContent": "    location /.well-known/acme-challenge/ {"
+  },
+  {
+    "row": 154,
+    "rowsha": "H9AyC9xNqzBpLjhMWnf8DeBJcRVnhkkHx6+GT7x3cYw=",
+    "originContent": "        alias /var/www/challenges/;",
+    "translatedContent": "        alias /var/www/challenges/;"
+  },
+  {
+    "row": 155,
+    "rowsha": "+rqKcyKcdOK2uLXStJQgp8gthdwYr8Fh75IQqA4fQS0=",
+    "originContent": "        try_files $uri =404;",
+    "translatedContent": "        try_files $uri =404;"
+  },
+  {
+    "row": 156,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 158,
+    "rowsha": "NwqmS9/WN8cYqc76XcvJbx7HlRxg/XHNGVZtusSsjFg=",
+    "originContent": "    ...the rest of your config",
+    "translatedContent": "    ...the rest of your config"
+  },
+  {
+    "row": 159,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 160,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### ステップ6: 自動更新のcronジョブ設定"
+  },
+  {
+    "row": 162,
+    "rowsha": "ou3ceDbJfV2BbpY79UQZMhvy1LqZkWts9pZBnqVmwFY=",
+    "originContent": "### Step 6: Setup an auto-renew cronjob",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "おめでとうございます！あなたのウェブサイトは今やhttpsを使用しています！残念ながら、Let's Encryptの"
+  },
+  {
+    "row": 164,
+    "rowsha": "XiSMcP0j7M2MO9vE6Fq1YPsJISBJSK91FnZ4b+YjCNw=",
+    "originContent": "Congrats! Your website is now using https! Unfortunately, Let's Encrypt",
+    "translatedContent": "証明書は90日間しか有効ではないため、頻繁に更新する必要があります。心配いりません！"
+  },
+  {
+    "row": 165,
+    "rowsha": "t8Ydlp/Xu74ui9mvO/ssRuvlstIrBMYmITEK4gTSIA0=",
+    "originContent": "certificates only last for 90 days, so you need to renew them often. No worries!",
+    "translatedContent": "自動化されています！bashスクリプトを作成し、それをcrontabに追加するだけです（以下に"
+  },
+  {
+    "row": 166,
+    "rowsha": "xNFhkAg5IW1SiSETZhq2TdMgDv02s2ISq0amYXzE0+E=",
+    "originContent": "It's automated! Just make a bash script and add it to your crontab (see below",
+    "translatedContent": "例のスクリプトを示します）。"
+  },
+  {
+    "row": 167,
+    "rowsha": "K4m1p2lCDhYbZb/CP4pC/lGn36cDGzdERPmRFkGXnRs=",
+    "originContent": "for example script).",
+    "translatedContent": ""
+  },
+  {
+    "row": 168,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`renew_cert.sh` の例："
+  },
+  {
+    "row": 169,
+    "rowsha": "EIRrzKtZrgEl0jrRK1Hua9FfK7dcE3JZ7oHWGmJnNqY=",
+    "originContent": "Example of a `renew_cert.sh`:",
+    "translatedContent": ""
+  },
+  {
+    "row": 170,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 171,
+    "rowsha": "DYTjsrbqABMuQY0qVR2yNh4CjB7Dd67ctgCmskDJSfY=",
+    "originContent": "#!/usr/bin/sh",
+    "translatedContent": "#!/usr/bin/sh"
+  },
+  {
+    "row": 172,
+    "rowsha": "gCKmuoH6O/OVDLLIBvhRN+tSzuFkrI0nxecRiP3czt4=",
+    "originContent": "python /path/to/acme_tiny.py --account-key /path/to/account.key --csr /path/to/domain.csr --acme-dir /var/www/challenges/ > /path/to/signed_chain.crt.tmp || exit",
+    "translatedContent": "python /path/to/acme_tiny.py --account-key /path/to/account.key --csr /path/to/domain.csr --acme-dir /var/www/challenges/ > /path/to/signed_chain.crt.tmp || exit"
+  },
+  {
+    "row": 173,
+    "rowsha": "D5hFPGQbSxXCPr10m71GF7565CYVYTPCTezzpgNvevE=",
+    "originContent": "mv /path/to/signed_chain.crt.tmp /path/to/signed_chain.crt",
+    "translatedContent": "mv /path/to/signed_chain.crt.tmp /path/to/signed_chain.crt"
+  },
+  {
+    "row": 174,
+    "rowsha": "W9jRVoaScftTCZkitcl1a1actPkD1ZEoOTZWEqXudOk=",
+    "originContent": "service nginx reload",
+    "translatedContent": "service nginx reload"
+  },
+  {
+    "row": 175,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 176,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 177,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 178,
+    "rowsha": "aeF2c4SggIjSoA3yFw6M5cJQukvx73vGIAiGmBQox6w=",
+    "originContent": "# Example line in your crontab (runs once per month)",
+    "translatedContent": "# Example line in your crontab (runs once per month)"
+  },
+  {
+    "row": 179,
+    "rowsha": "9lmfs/ANefNW+PpCiM1/w0yV+lTMMb+TKrmfVIfTDa8=",
+    "originContent": "0 0 1 * * /path/to/renew_cert.sh 2>> /var/log/acme_tiny.log",
+    "translatedContent": "0 0 1 * * /path/to/renew_cert.sh 2>> /var/log/acme_tiny.log"
+  },
+  {
+    "row": 180,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 181,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**注意:** Let's EncryptのACME v2リリース（acme-tiny 4.0.0以降）により、中間証明書は発行された証明書のダウンロードに含まれるようになったため、  "
+  },
+  {
+    "row": 182,
+    "rowsha": "MA8NhCryTKOuM7c+ZMXYmjdxzT30w5k6m7/9xDlGrhI=",
+    "originContent": "**NOTE:** Since Let's Encrypt's ACME v2 release (acme-tiny 4.0.0+), the intermediate",
+    "translatedContent": "中間証明書を独立してダウンロードし、署名済み証明書に連結する必要はなくなりました。もしacme-tiny 4.0未満（例: 2018-03-17以前）を使ったシェルスクリプトやMakefileがあり、  "
+  },
+  {
+    "row": 183,
+    "rowsha": "EkdD6ukF7tZnjMC7ARsti67fnx7DaeXDrEdWWdTJ7WQ=",
+    "originContent": "certificate is included in the issued certificate download, so you no longer have",
+    "translatedContent": "acme-tiny 4.0.0以降で使用している場合、中間証明書をsigned_chain.crtに二重に追加してしまっている可能性があります（これにより  "
+  },
+  {
+    "row": 184,
+    "rowsha": "WmleS3aSuXd3coKoWMvNguYskQBrqP3lB4yo9Ah0ftU=",
+    "originContent": "to independently download the intermediate certificate and concatenate it to your",
+    "translatedContent": "[少なくともGnuTLS 3.7.0で問題が発生します](https://gitlab.com/gnutls/gnutls/-/issues/1131)し、証明書のサイズも必要以上に大きくなります）。  "
+  },
+  {
+    "row": 185,
+    "rowsha": "UMVCkXnGPXoNBbAhpqX9x7jq5JYGXvZxJlZ/d1zHCxM=",
+    "originContent": "signed certificate. If you have an shell script or Makefile using acme-tiny &lt;4.0 (e.g. before",
+    "translatedContent": "修正するには、中間証明書をダウンロードしacme-tinyの証明書出力に追加しているbashコードを単純に削除してください。"
+  },
+  {
+    "row": 186,
+    "rowsha": "LnZvhT0l10/pV2k8B0hB9numT2ddZDVF+QhT4XvQ4Ko=",
+    "originContent": "2018-03-17) with acme-tiny 4.0.0+, then you may be adding the intermediate",
+    "translatedContent": ""
+  },
+  {
+    "row": 187,
+    "rowsha": "2/vJfUVPMzjASSa0LmJSSPCtHreHZYs/vqs3ybXCpR0=",
+    "originContent": "certificate to your signed_chain.crt twice (which",
+    "translatedContent": "## パーミッション"
+  },
+  {
+    "row": 188,
+    "rowsha": "t3UG1R1FBBWZNIYe87FHLS2YkgkzF5HA3Fa38jyeh7E=",
+    "originContent": "[causes issues with at least GnuTLS 3.7.0](https://gitlab.com/gnutls/gnutls/-/issues/1131)",
+    "translatedContent": ""
+  },
+  {
+    "row": 189,
+    "rowsha": "HYGrznsatAbHb1A5wyy9ORFakvKv9KGxudVP82ddk7c=",
+    "originContent": "besides making the certificate slightly larger than it needs to be). To fix,",
+    "translatedContent": "このスクリプトのセットアップや実行時に最も遭遇する問題はパーミッションです。アカウントの秘密鍵やチャレンジ用ウェブフォルダへのアクセスを  "
+  },
+  {
+    "row": 190,
+    "rowsha": "xq6Fa54u0WZYJXVX0vNank+QIEPe2XlxKtmLX9Vhb38=",
+    "originContent": "simply remove the bash code where you're downloading the intermediate and adding",
+    "translatedContent": "可能な限り制限したいでしょう。特にこのスクリプト、アカウント秘密鍵、チャレンジフォルダを扱う専用ユーザーを作成することをお勧めします。  "
+  },
+  {
+    "row": 191,
+    "rowsha": "02tEPZGOv4P+KUN3m0QKdV1cAgW1h5tMjpKyX/mW6a8=",
+    "originContent": "it to the acme-tiny certificate output.",
+    "translatedContent": "そしてそのユーザーにインストール済み証明書ファイル（例: `/path/to/signed_chain.crt`）への書き込み権限とウェブサーバのリロード権限を付与してください。  "
+  },
+  {
+    "row": 192,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "こうすることで、cronスクリプトは必要な処理を実行し、古い証明書を上書きし、ウェブサーバをリロードしますが、それ以外の操作権限は持ちません。"
+  },
+  {
+    "row": 193,
+    "rowsha": "pkb0aA3qFXj8Un+oWucSi33Aga9CvIY5BKZAd4ofCik=",
+    "originContent": "## Permissions",
+    "translatedContent": ""
+  },
+  {
+    "row": 194,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**必ず行うこと:**"
+  },
+  {
+    "row": 195,
+    "rowsha": "vS2CtToRhvDxSdnGEpaxO103NmK3Y3iE5vMAk1ENtLc=",
+    "originContent": "The biggest problem you'll likely come across while setting up and running this",
+    "translatedContent": "* アカウント秘密鍵（例: `account.key`）のバックアップを取ること"
+  },
+  {
+    "row": 196,
+    "rowsha": "B51AhahRG9j6AKkI3FjoUTb3dlHdPV334g/Hfpb6SUY=",
+    "originContent": "script is permissions. You want to limit access to your account private key and",
+    "translatedContent": "* このスクリプトにドメイン秘密鍵を読み取る権限を与えないこと！"
+  },
+  {
+    "row": 197,
+    "rowsha": "wy30l25OYtHwiwsgrgVME26mbrjfp1PXDR6j0VUNOYw=",
+    "originContent": "challenge web folder as much as possible. I'd recommend creating a user",
+    "translatedContent": "* このスクリプトをrootで実行しないこと！"
+  },
+  {
+    "row": 198,
+    "rowsha": "nrMtpL5HjoA1XOLPfNTeHfWcYceEd0XUgEJFivqeSOQ=",
+    "originContent": "specifically for handling this script, the account private key, and the",
+    "translatedContent": ""
+  },
+  {
+    "row": 199,
+    "rowsha": "YgLaKAb+rXUKFwwt9tIEWfDI2NMIrU2emZvO7rg4bFA=",
+    "originContent": "challenge folder. Then add the ability for that user to write to your installed",
+    "translatedContent": "## ステージング環境"
+  },
+  {
+    "row": 200,
+    "rowsha": "PKLD1MmH2aUzthZCbT/JBmcRNRnGeRbFGWpAUcSRIRI=",
+    "originContent": "certificate file (e.g. `/path/to/signed_chain.crt`) and reload your webserver. That",
+    "translatedContent": ""
+  },
+  {
+    "row": 201,
+    "rowsha": "GfmlaA/fJDYLhX2151cgBSqvuw3EGdWLvn28PJ2w3cg=",
+    "originContent": "way, the cron script will do its thing, overwrite your old certificate, and",
+    "translatedContent": "Let's Encryptは新しい設定をステージングサーバーでテストすることを推奨しています。  "
+  },
+  {
+    "row": 202,
+    "rowsha": "ngMX+6cgJuI0fTcHjWIcZYNm4/rsBcTOA+/7JuzHNdg=",
+    "originContent": "reload your webserver without having permission to do anything else.",
+    "translatedContent": "新しい設定を試す際は、`--directory-url https://acme-staging-v02.api.letsencrypt.org/directory` を使用して、  "
+  },
+  {
+    "row": 203,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "本番のLet's Encryptサーバーではなくテスト用の偽証明書を発行できます。詳細は  "
+  },
+  {
+    "row": 204,
+    "rowsha": "61DY+GePaN1jAxhkR4igXow+CHLGCLgiuvbRH6ps+64=",
+    "originContent": "**BE SURE TO:**",
+    "translatedContent": "[https://letsencrypt.org/docs/staging-environment/](https://letsencrypt.org/docs/staging-environment/) をご参照ください。"
+  },
+  {
+    "row": 205,
+    "rowsha": "9S6uHjm5tag37qeNmuQaVO0ysNl754xxVrUbdCCHHAw=",
+    "originContent": "* Backup your account private key (e.g. `account.key`)",
+    "translatedContent": ""
+  },
+  {
+    "row": 206,
+    "rowsha": "ordQMZbMZ7ehI4t70C8q/bP/MDHcXT5pca4nu3m1vyo=",
+    "originContent": "* Don't allow this script to be able to read your domain private key!",
+    "translatedContent": "## フィードバック／貢献"
+  },
+  {
+    "row": 207,
+    "rowsha": "Ug7jPL83+cMc4FMbgms7nu4stPfae1CFns611KrER6U=",
+    "originContent": "* Don't allow this script to be run as root!",
+    "translatedContent": ""
+  },
+  {
+    "row": 208,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "このプロジェクトは非常に限定的な範囲とコードベースを持っています。バグ報告やプルリクエストは歓迎しますが、新機能の追加はご遠慮ください。  "
+  },
+  {
+    "row": 209,
+    "rowsha": "5T+QFJwQIdlcSLO2VK4S+ngSCFuMAsXoYLJym3L/QSM=",
+    "originContent": "## Staging Environment",
+    "translatedContent": "このスクリプトは200行未満に保ち、誰でも簡単に監査できるようにする必要があります。"
+  },
+  {
+    "row": 210,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 211,
+    "rowsha": "D9Izp/Lx9I9Go0hB5frKqervYVcuMBUpUGrKgY+14Nc=",
+    "originContent": "Let's Encrypt recommends testing new configurations against their staging servers,",
+    "translatedContent": "ご自身の環境で使いやすくするために機能追加をしたい場合は、どうぞご自由に！オープンソースですので、フォークして必要に応じて修正してください。"
+  },
+  {
+    "row": 212,
+    "rowsha": "dgDJxhqkFmskBRYPs0Yem8gIythMQ49ierdG2tPx5xM=",
+    "originContent": "so when testing out your new setup, you can use",
+    "translatedContent": ""
+  },
+  {
+    "row": 213,
+    "rowsha": "BNETsYtQymwMcIQxEY2Z0g5lKM8WyuDYSQgKmjTpHo0=",
+    "originContent": "`--directory-url https://acme-staging-v02.api.letsencrypt.org/directory`",
+    "translatedContent": ""
+  },
+  {
+    "row": 214,
+    "rowsha": "8loWxfbI88SkL0bcVJAVcTPcaGOih7s/35Lv7arrfoo=",
+    "originContent": "to issue fake test certificates instead of real ones from Let's Encrypt's production servers.",
+    "translatedContent": ""
+  },
+  {
+    "row": 215,
+    "rowsha": "YQQjonlUKzFQIxtKKJfVLP7t08LlvW3/3Vh5n4vmtPw=",
+    "originContent": "See [https://letsencrypt.org/docs/staging-environment/](https://letsencrypt.org/docs/staging-environment/)",
+    "translatedContent": ""
+  },
+  {
+    "row": 216,
+    "rowsha": "HbW/z7Q+bnBbvqY9uASDZbgcNBobDtNeBlArhnqL8sc=",
+    "originContent": "for more details.",
+    "translatedContent": ""
+  },
+  {
+    "row": 217,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 218,
+    "rowsha": "HnZ6TE5c0ZDpzZdubuUu4A6Y9VtQyhM2TozFIWsIgnw=",
+    "originContent": "## Feedback/Contributing",
+    "translatedContent": ""
+  },
+  {
+    "row": 219,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 220,
+    "rowsha": "glq0+7r2knrHo03Xdc/L7MtqX0bBh36DxwjyhUHlZlg=",
+    "originContent": "This project has a very, very limited scope and codebase. I'm happy to receive",
+    "translatedContent": ""
+  },
+  {
+    "row": 221,
+    "rowsha": "yNSmadEUQ50p37N7wYL93nETkbKxk5mMsnG0214FozM=",
+    "originContent": "bug reports and pull requests, but please don't add any new features. This",
+    "translatedContent": ""
+  },
+  {
+    "row": 222,
+    "rowsha": "9a5m96UjyfiRnB4Ml07esTXsBgg1zRqaQ2Q7cC+JdhM=",
+    "originContent": "script must stay under 200 lines of code to ensure it can be easily audited by",
+    "translatedContent": ""
+  },
+  {
+    "row": 223,
+    "rowsha": "Vnl0xN4lnjILdZK0nrnwFiVGlh4gKPWoRGjVes79aYI=",
+    "originContent": "anyone who wants to run it.",
+    "translatedContent": ""
+  },
+  {
+    "row": 224,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 225,
+    "rowsha": "GJwPs3j/L6ZgFNgWqwdFtMw5VDHT1h5m8+Rcu2/HLHQ=",
+    "originContent": "If you want to add features for your own setup to make things easier for you,",
+    "translatedContent": ""
+  },
+  {
+    "row": 226,
+    "rowsha": "uT/a4BV61Fou/h6Uq16AJcigf58Eu3OnnQBZYbQ7Jq0=",
+    "originContent": "please do! It's open source, so feel free to fork it and modify as necessary.",
+    "translatedContent": ""
+  },
+  {
+    "row": 227,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

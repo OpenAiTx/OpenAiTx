@@ -1,0 +1,679 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Introduction\n\nThis GitHub repository dives into fundamental concepts I believe are important for understanding debugging and troubleshooting complex issues on Windows. I'm not referring to issues like AD Replication or printer malfunctions but problems that are related to things such as crash dumps, hangs, performance issues, and memory leaks.\n\nI initially created this as a personal reference when I was (and still) learning more about this topic. Over time, I decided to consolidate these resources and make them publicly available, hoping they could assist others who are keen to explore this topic and learn more about it. The audience of this content should be people that are looking to get started, and might come from an IT Pro background. This GitHub repository may be pre-requisite for future content.\n\nThe content is organized into various sections, each designed to be as hands-on as possible. I believe that practice is the key to mastery. Therefore, each section goes beyond just the theory aspects, emphasizing practical examples using tools like Visual Studio, Process Explorer, and WinDbg. Click on **'Debugging 101'** to get started.\n\nIf you like my content and want to support me with a coffee:\n\n<a href=\"https://www.buymeacoffee.com/debugprivilege\" target=\"_blank\"><img src=\"https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png\" alt=\"Buy Me A Coffee\" style=\"height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;\" ></a>\n\n# Topics\n\nThe following topics will be covered:\n\n**Debugging 101**\n",
+    "ContentSha": "8Eu31JsfdeyLGrV0NeZRYsMHKNL8fP2WpzUjE2itSJM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># はじめに\n\nこのGitHubリポジトリは、Windows上での複雑な問題のデバッグとトラブルシューティングを理解するために重要だと考える基本的な概念に深く踏み込んでいます。ここで扱うのは、ADレプリケーションやプリンターの不具合のような問題ではなく、クラッシュダンプ、ハング、パフォーマンス問題、メモリーリークなどに関連する問題です。\n\n私は当初、このトピックについて学び始めた（そして今も学んでいる）際の個人的なリファレンスとしてこの資料を作成しました。時間が経つにつれて、これらのリソースをまとめて公開し、このトピックに興味を持ち、より深く学びたい方の助けになればと思うようになりました。このコンテンツの対象読者は、これから始めようとしているITプロフェッショナルの方々です。このGitHubリポジトリは将来的なコンテンツの前提条件となるかもしれません。\n\n内容は複数のセクションに分かれており、それぞれできるだけ実践的になるよう設計されています。私は練習が習得への鍵だと信じています。したがって、各セクションは理論だけでなく、Visual Studio、Process Explorer、WinDbgなどのツールを使った実例を重視しています。始めるには**「Debugging 101」**をクリックしてください。\n\nもし私のコンテンツを気に入っていただけたら、コーヒーで応援してください：\n\n<a href=\"https://www.buymeacoffee.com/debugprivilege\" target=\"_blank\"><img src=\"https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png\" alt=\"Buy Me A Coffee\" style=\"height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;\" ></a>\n\n# トピック\n\n以下のトピックを扱います：\n\n**Debugging 101**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "HPq7n79kJyIQ9GDdoug4SfyHFTzXjyqYNQf8jDMuGf0=",
+        "originContent": "# Introduction",
+        "translatedContent": "<translate-content># はじめに"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "xiKePFWEOj9BAMH/ouxqTJ2P5+9Pkw4MDc3AOPEwq64=",
+        "originContent": "This GitHub repository dives into fundamental concepts I believe are important for understanding debugging and troubleshooting complex issues on Windows. I'm not referring to issues like AD Replication or printer malfunctions but problems that are related to things such as crash dumps, hangs, performance issues, and memory leaks.",
+        "translatedContent": "このGitHubリポジトリは、Windows上での複雑な問題のデバッグとトラブルシューティングを理解するために重要だと考える基本的な概念に深く踏み込んでいます。ここで扱うのは、ADレプリケーションやプリンターの不具合のような問題ではなく、クラッシュダンプ、ハング、パフォーマンス問題、メモリーリークなどに関連する問題です。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "g2x0bobQqS9U1sv1+oIflJwAZopdZRYUJWvQI1jY47s=",
+        "originContent": "I initially created this as a personal reference when I was (and still) learning more about this topic. Over time, I decided to consolidate these resources and make them publicly available, hoping they could assist others who are keen to explore this topic and learn more about it. The audience of this content should be people that are looking to get started, and might come from an IT Pro background. This GitHub repository may be pre-requisite for future content.",
+        "translatedContent": "私は当初、このトピックについて学び始めた（そして今も学んでいる）際の個人的なリファレンスとしてこの資料を作成しました。時間が経つにつれて、これらのリソースをまとめて公開し、このトピックに興味を持ち、より深く学びたい方の助けになればと思うようになりました。このコンテンツの対象読者は、これから始めようとしているITプロフェッショナルの方々です。このGitHubリポジトリは将来的なコンテンツの前提条件となるかもしれません。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "lonputu/5DU0paNA+6QpgKw79lV+L4VFQWDB/Ue3l/A=",
+        "originContent": "The content is organized into various sections, each designed to be as hands-on as possible. I believe that practice is the key to mastery. Therefore, each section goes beyond just the theory aspects, emphasizing practical examples using tools like Visual Studio, Process Explorer, and WinDbg. Click on **'Debugging 101'** to get started.",
+        "translatedContent": "内容は複数のセクションに分かれており、それぞれできるだけ実践的になるよう設計されています。私は練習が習得への鍵だと信じています。したがって、各セクションは理論だけでなく、Visual Studio、Process Explorer、WinDbgなどのツールを使った実例を重視しています。始めるには**「Debugging 101」**をクリックしてください。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "xB4kUT0/Ny7VxoW/WLE+95a/IUYBpY3I8hTh0Ekhyfo=",
+        "originContent": "If you like my content and want to support me with a coffee:",
+        "translatedContent": "もし私のコンテンツを気に入っていただけたら、コーヒーで応援してください："
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "B6jV1+NaE+5RzIYZ1jU11Av/7Hpb19QtQz7sgLhcfZg=",
+        "originContent": "<a href=\"https://www.buymeacoffee.com/debugprivilege\" target=\"_blank\"><img src=\"https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png\" alt=\"Buy Me A Coffee\" style=\"height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;\" ></a>",
+        "translatedContent": "<a href=\"https://www.buymeacoffee.com/debugprivilege\" target=\"_blank\"><img src=\"https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png\" alt=\"Buy Me A Coffee\" style=\"height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;\" ></a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "Jg7x+OlwzDD3HTnL+qfXHRg7roJs9iaNWSg21AxkCdY=",
+        "originContent": "# Topics",
+        "translatedContent": "# トピック"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "9KYW+F/CB8ziXBJLDsFwFrlHBFWggVTUjPCCw5qrbQw=",
+        "originContent": "The following topics will be covered:",
+        "translatedContent": "以下のトピックを扱います："
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "bCD0byAkzeXTQduPQGlOF6ge2kdOIQ822hfim7+x8LE=",
+        "originContent": "**Debugging 101**",
+        "translatedContent": "**Debugging 101**"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\n- Section 0: How to get started?\n- Section 1: Introduction to MEX Extension\n- Section 2: Enable Postmortem Debugging\n- Section 3: Access Violation\n- Section 4: Setup and Create First Driver\n- Section 5: Code Defect\n- Section 6: Handles\n- Section 7: Debug Diag\n- Section 8: Introduction to Windows Performance Toolkit\n- Section 9: Triaging a Crash Dump\n```",
+    "ContentSha": "GhZT9BTmOliK4fTMa8mY3mbcBSx0wRjzIUDm5SUkIf4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n- Section 0: How to get started?\n- Section 1: Introduction to MEX Extension\n- Section 2: Enable Postmortem Debugging\n- Section 3: Access Violation\n- Section 4: Setup and Create First Driver\n- Section 5: Code Defect\n- Section 6: Handles\n- Section 7: Debug Diag\n- Section 8: Introduction to Windows Performance Toolkit\n- Section 9: Triaging a Crash Dump\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "LjHroQSYcQcUxiVPjuEtD9A6V2yg1BUuzTwPDCp7i/Q=",
+        "originContent": "- Section 0: How to get started?",
+        "translatedContent": "- Section 0: How to get started?"
+      },
+      {
+        "row": 3,
+        "rowsha": "PncSbJ/ZB2E7USAcCAFGI9ztDb8DOtehSrPTJVJUIHk=",
+        "originContent": "- Section 1: Introduction to MEX Extension",
+        "translatedContent": "- Section 1: Introduction to MEX Extension"
+      },
+      {
+        "row": 4,
+        "rowsha": "mvmed8Mp/0YG2M3PFOkkFZURGA280Uo8EigDT8pa49E=",
+        "originContent": "- Section 2: Enable Postmortem Debugging",
+        "translatedContent": "- Section 2: Enable Postmortem Debugging"
+      },
+      {
+        "row": 5,
+        "rowsha": "amH9Qn5jzQtqsnzXjFQS5PTNBRTooVtY90T/sGe+VRU=",
+        "originContent": "- Section 3: Access Violation",
+        "translatedContent": "- Section 3: Access Violation"
+      },
+      {
+        "row": 6,
+        "rowsha": "xmTI54vA5/78y9rcFJJEIF4BLJvcj1NUjgMvK2DEOhw=",
+        "originContent": "- Section 4: Setup and Create First Driver",
+        "translatedContent": "- Section 4: Setup and Create First Driver"
+      },
+      {
+        "row": 7,
+        "rowsha": "xFo2UFZehr6UTNOtrloOnPe5Fp/t0YlZPASa29b8x88=",
+        "originContent": "- Section 5: Code Defect",
+        "translatedContent": "- Section 5: Code Defect"
+      },
+      {
+        "row": 8,
+        "rowsha": "yjDN4KLRDsHQdbJECPMOQOhKF227XgmFEs/sMT3jUss=",
+        "originContent": "- Section 6: Handles",
+        "translatedContent": "- Section 6: Handles"
+      },
+      {
+        "row": 9,
+        "rowsha": "sZRL0ItI86bE05vcIPBT5FbGMoToalhi5rMCkSIN+LM=",
+        "originContent": "- Section 7: Debug Diag",
+        "translatedContent": "- Section 7: Debug Diag"
+      },
+      {
+        "row": 10,
+        "rowsha": "30RXUCRfb0I/+1WWhV/PBWsgzCkEWjXdeI3gxRCVKLI=",
+        "originContent": "- Section 8: Introduction to Windows Performance Toolkit",
+        "translatedContent": "- Section 8: Introduction to Windows Performance Toolkit"
+      },
+      {
+        "row": 11,
+        "rowsha": "WYQM1VoR5KSn1dBdJqPu08D11UhOPMKOsOWlb0/8zX8=",
+        "originContent": "- Section 9: Triaging a Crash Dump",
+        "translatedContent": "- Section 9: Triaging a Crash Dump"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n**Coding Fundamentals**\n\nC Code Language:\n",
+    "ContentSha": "kMUT3+NywFmtcKvGhIrE5bz4WrNpOBHe9IhGAcs1ZWY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**コーディングの基本**\n\nC言語:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**コーディングの基本**"
+      },
+      {
+        "row": 2,
+        "rowsha": "IYvW4lZcdnak2sevp4eY+cBxiZmNNSta76HfZkJFyqo=",
+        "originContent": "**Coding Fundamentals**",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "C言語:"
+      },
+      {
+        "row": 4,
+        "rowsha": "4i9XPa5OrW7xkXV5Fe7HGInLidRGHFarWI2xI+gvDAE=",
+        "originContent": "C Code Language:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\n- Section 1: Variables\n- Section 2: Operators\n- Section 3: Control Flow\n- Section 4: Pointers, Arrays and Strings\n- Section 5: Structures\n- Section 6: Input & Output\n- Section 7: Command Line Arguments\n- Section 8: Memory Allocation\n- Section 9: Linked List\n```",
+    "ContentSha": "eTPoQFA1uhT0mVsijzARiOA94r/f9V2HjMzKgMlcumM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n- Section 1: Variables\n- Section 2: Operators\n- Section 3: Control Flow\n- Section 4: Pointers, Arrays and Strings\n- Section 5: Structures\n- Section 6: Input & Output\n- Section 7: Command Line Arguments\n- Section 8: Memory Allocation\n- Section 9: Linked List\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "CLXJbQbYy0riK2lDbbaTRR2jEf3ot4vNOxF0wTRVKs0=",
+        "originContent": "- Section 1: Variables",
+        "translatedContent": "- Section 1: Variables"
+      },
+      {
+        "row": 3,
+        "rowsha": "NxKDtEShUPfsKmS2JwGUVTo2lwYfMhWY3al1HoD8hA8=",
+        "originContent": "- Section 2: Operators",
+        "translatedContent": "- Section 2: Operators"
+      },
+      {
+        "row": 4,
+        "rowsha": "3Bg2b19mSkD2JwKDZMKBXLMjoM8vXI3Cqz0yRiXVIr0=",
+        "originContent": "- Section 3: Control Flow",
+        "translatedContent": "- Section 3: Control Flow"
+      },
+      {
+        "row": 5,
+        "rowsha": "AoL/w90PNpdbo4mpWxoDZ3E+Ti4Pnx7TrkAAnWPty5Y=",
+        "originContent": "- Section 4: Pointers, Arrays and Strings",
+        "translatedContent": "- Section 4: Pointers, Arrays and Strings"
+      },
+      {
+        "row": 6,
+        "rowsha": "ImaEOFEmsbXfUf0NUwHyXjcLNQg79DglC8uYgKic6mg=",
+        "originContent": "- Section 5: Structures",
+        "translatedContent": "- Section 5: Structures"
+      },
+      {
+        "row": 7,
+        "rowsha": "uJMrV3zjFm4Q+6Pwb8VCVZVkNYIez9eWQDBTF+SW+VE=",
+        "originContent": "- Section 6: Input & Output",
+        "translatedContent": "- Section 6: Input & Output"
+      },
+      {
+        "row": 8,
+        "rowsha": "EolMXOwyVPDxdGi/M0QU6jhyUJqd7X/0p40Pdj/0ANo=",
+        "originContent": "- Section 7: Command Line Arguments",
+        "translatedContent": "- Section 7: Command Line Arguments"
+      },
+      {
+        "row": 9,
+        "rowsha": "kLtKg8gAfcbp+c8LblHlF7v2jsdy/+GgXUWZi4K15KM=",
+        "originContent": "- Section 8: Memory Allocation",
+        "translatedContent": "- Section 8: Memory Allocation"
+      },
+      {
+        "row": 10,
+        "rowsha": "7d6V1qw9/wuZaNJF0cEfmYlEpi4kkcDH/7ymXIfYG4o=",
+        "originContent": "- Section 9: Linked List",
+        "translatedContent": "- Section 9: Linked List"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nC++ Code Language:\n",
+    "ContentSha": "xdmlO8M8UBhBco++BZytn8hmisqOcSlhq9cZ6uxDY4g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "C++ コード言語：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "C++ コード言語："
+      },
+      {
+        "row": 2,
+        "rowsha": "mu69j72NGzytj/HHFpIMkkQf5rQs3AEPdvGRh937grk=",
+        "originContent": "C++ Code Language:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\n- Section 1: Classes\n- Section 2: Initializer Lists\n- Section 3: Function Overloading and Templates\n- Section 4: Copy and Move Constructors\n- Section 5: Inheritance\n- Section 6: Smart Pointers\n- Section 7: Standard Libraries\n```",
+    "ContentSha": "QLwi4H9zZfCapBFA8fkI4K5n4z9x75C3Zb4MjngvnMA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n- Section 1: Classes\n- Section 2: Initializer Lists\n- Section 3: Function Overloading and Templates\n- Section 4: Copy and Move Constructors\n- Section 5: Inheritance\n- Section 6: Smart Pointers\n- Section 7: Standard Libraries\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "i5P5NdUbSB/Hi+JHirBsHUIBjC9rN2aTkQxY9g9ffJc=",
+        "originContent": "- Section 1: Classes",
+        "translatedContent": "- Section 1: Classes"
+      },
+      {
+        "row": 3,
+        "rowsha": "pollsa2e7ZfeT8bIH0bkK+npqMumd5RAQ/DrdMq+thg=",
+        "originContent": "- Section 2: Initializer Lists",
+        "translatedContent": "- Section 2: Initializer Lists"
+      },
+      {
+        "row": 4,
+        "rowsha": "+bS2wBz7FDGy1fcpKpCtMgArR91LH0hJagbP2EWQq3I=",
+        "originContent": "- Section 3: Function Overloading and Templates",
+        "translatedContent": "- Section 3: Function Overloading and Templates"
+      },
+      {
+        "row": 5,
+        "rowsha": "tiQhaUlprmYAimaumrrhlbRwcB0lhCF7EldEsQoo+tA=",
+        "originContent": "- Section 4: Copy and Move Constructors",
+        "translatedContent": "- Section 4: Copy and Move Constructors"
+      },
+      {
+        "row": 6,
+        "rowsha": "oErVvP+MQxpPUERf6FF/KD1RQnClNLhNVdsCPpYMb5s=",
+        "originContent": "- Section 5: Inheritance",
+        "translatedContent": "- Section 5: Inheritance"
+      },
+      {
+        "row": 7,
+        "rowsha": "iRxhCmQ6Ovfi1bWWqkxNg9Rz6tgMG2D67DK0/7XONdU=",
+        "originContent": "- Section 6: Smart Pointers",
+        "translatedContent": "- Section 6: Smart Pointers"
+      },
+      {
+        "row": 8,
+        "rowsha": "YW1MB4kZLVzlgCw6ANX+7qVXXXPZQ5Pm2Ng3spybxZk=",
+        "originContent": "- Section 7: Standard Libraries",
+        "translatedContent": "- Section 7: Standard Libraries"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n**Windows API**\n",
+    "ContentSha": "9f0mfBzYjeFtr6S0UCfGsEM4g7S9jbGiLGazTA21O7k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**Windows API**\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**Windows API**"
+      },
+      {
+        "row": 2,
+        "rowsha": "JfOYFjOCToDGnSXrbf4ojb/1Q8dgNfd9Wx4nztHNldA=",
+        "originContent": "**Windows API**",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\n- Section 1: Threads\n- Section 2: Critical Section\n- Section 3: Conditional Variables\n- Section 4: Interlocked Functions\n- Section 5: Wait Functions and Signaling\n- Section 6: Event Signaling\n- Section 7: Mutex\n- Section 8: Semaphore\n- Section 9: Slim Reader/Writer Locks\n```",
+    "ContentSha": "y4hgMej/GZQUiARcdvQvsH4WAzIhp3IfBIhpJpgmCqs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n- Section 1: Threads\n- Section 2: Critical Section\n- Section 3: Conditional Variables\n- Section 4: Interlocked Functions\n- Section 5: Wait Functions and Signaling\n- Section 6: Event Signaling\n- Section 7: Mutex\n- Section 8: Semaphore\n- Section 9: Slim Reader/Writer Locks\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "xOoszzdZ3z/K1LicZmsf/6iWFRo+RydFQb/XZ1DU2h8=",
+        "originContent": "- Section 1: Threads",
+        "translatedContent": "- Section 1: Threads"
+      },
+      {
+        "row": 3,
+        "rowsha": "LtDh0m5ZrqPqpCafjOvX+x/7tVSbeMyX8INLwY5Hb2Y=",
+        "originContent": "- Section 2: Critical Section",
+        "translatedContent": "- Section 2: Critical Section"
+      },
+      {
+        "row": 4,
+        "rowsha": "7v/LSltEC6ae2zDRMzVdjLX0pGU/QqUz4sIVJ/zIuqY=",
+        "originContent": "- Section 3: Conditional Variables",
+        "translatedContent": "- Section 3: Conditional Variables"
+      },
+      {
+        "row": 5,
+        "rowsha": "Sgj3trFT0LsUagzsKMBgToDAv0asm0W4nG1+DS5FiLo=",
+        "originContent": "- Section 4: Interlocked Functions",
+        "translatedContent": "- Section 4: Interlocked Functions"
+      },
+      {
+        "row": 6,
+        "rowsha": "ZqsdLnTh9aHautwjG58uHWpryxJWdrPsXHEz4LCpcyg=",
+        "originContent": "- Section 5: Wait Functions and Signaling",
+        "translatedContent": "- Section 5: Wait Functions and Signaling"
+      },
+      {
+        "row": 7,
+        "rowsha": "TlXKV5fbw/d+I/WnzwHV4OTW6rhOAMyrsuZPLn43zFk=",
+        "originContent": "- Section 6: Event Signaling",
+        "translatedContent": "- Section 6: Event Signaling"
+      },
+      {
+        "row": 8,
+        "rowsha": "42+9EJMhZNcdSm2fsB7acZbPcY+/orLeqfJyJ14LdQo=",
+        "originContent": "- Section 7: Mutex",
+        "translatedContent": "- Section 7: Mutex"
+      },
+      {
+        "row": 9,
+        "rowsha": "OtWSCfGLu1NhnGKAumxqdicxApHH6aeA4on/r8wfyso=",
+        "originContent": "- Section 8: Semaphore",
+        "translatedContent": "- Section 8: Semaphore"
+      },
+      {
+        "row": 10,
+        "rowsha": "19we8klH2C4X5FOz8tvdg9JOt88DcF4dfY25JofmEuc=",
+        "originContent": "- Section 9: Slim Reader/Writer Locks",
+        "translatedContent": "- Section 9: Slim Reader/Writer Locks"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n**Kernel Forensics**\n",
+    "ContentSha": "WsW4YFK4ZqAd9ZksMZdZdxlu/pm02R/fGBEdze92uZ4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**カーネルフォレンジクス**\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**カーネルフォレンジクス**"
+      },
+      {
+        "row": 2,
+        "rowsha": "HNA+YqCA89SmcrQ5idg0fSYRMX14d8JOh7Ag+oADUYo=",
+        "originContent": "**Kernel Forensics**",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\n- Section 1: Kernel Pool Memory\n- Section 2: ERESOURCE\n- Section 3: KMUTEX\n- Section 4: Fast Mutex\n- Section 5: Interrupt Request Levels (IRQL)\n- Section 6: Guarded Mutex\n- Section 7: Event Signaling\n- Section 8: Semaphore\n- Section 9: Pushlock\n- Section 10: Spinlock\n- Section 11: Kernel Callbacks\n```",
+    "ContentSha": "mPILkUv6su/JQzX9Ym4jqmjz+wq+8SWyNwfnFp81hZ4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n- Section 1: Kernel Pool Memory\n- Section 2: ERESOURCE\n- Section 3: KMUTEX\n- Section 4: Fast Mutex\n- Section 5: Interrupt Request Levels (IRQL)\n- Section 6: Guarded Mutex\n- Section 7: Event Signaling\n- Section 8: Semaphore\n- Section 9: Pushlock\n- Section 10: Spinlock\n- Section 11: Kernel Callbacks\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "Td5Htql7H8uMEBE+wVuq5gONjMa6nDUf8mchByDKCu8=",
+        "originContent": "- Section 1: Kernel Pool Memory",
+        "translatedContent": "- Section 1: Kernel Pool Memory"
+      },
+      {
+        "row": 3,
+        "rowsha": "JjTSjuBdyMufy/TkBSGlCkcVYeceuHwd39hpZgt0JwY=",
+        "originContent": "- Section 2: ERESOURCE",
+        "translatedContent": "- Section 2: ERESOURCE"
+      },
+      {
+        "row": 4,
+        "rowsha": "q89MnF+x15kBvEIT8hqpfqN7zXP9VxaPF6RmzFq7WRc=",
+        "originContent": "- Section 3: KMUTEX",
+        "translatedContent": "- Section 3: KMUTEX"
+      },
+      {
+        "row": 5,
+        "rowsha": "9zfIAdI6p6cn55nANVfQP6G1ybulnWFSudbL3Hpv8wU=",
+        "originContent": "- Section 4: Fast Mutex",
+        "translatedContent": "- Section 4: Fast Mutex"
+      },
+      {
+        "row": 6,
+        "rowsha": "Z/m7aXb5O3zc2/h7s3RZLMlZCIInDoP+QymdmR74fZ4=",
+        "originContent": "- Section 5: Interrupt Request Levels (IRQL)",
+        "translatedContent": "- Section 5: Interrupt Request Levels (IRQL)"
+      },
+      {
+        "row": 7,
+        "rowsha": "2aSwWSN9sNYNnGdU1HyBO6jNAIXS/zQRse8zV30wjm4=",
+        "originContent": "- Section 6: Guarded Mutex",
+        "translatedContent": "- Section 6: Guarded Mutex"
+      },
+      {
+        "row": 8,
+        "rowsha": "74NNEjjoBlvooXt1Ilis9I5GsG7jP3jWNV807aEg6Qo=",
+        "originContent": "- Section 7: Event Signaling",
+        "translatedContent": "- Section 7: Event Signaling"
+      },
+      {
+        "row": 9,
+        "rowsha": "OtWSCfGLu1NhnGKAumxqdicxApHH6aeA4on/r8wfyso=",
+        "originContent": "- Section 8: Semaphore",
+        "translatedContent": "- Section 8: Semaphore"
+      },
+      {
+        "row": 10,
+        "rowsha": "mhlVjjY1u+Dd3d41K4ugVXQpbBi7Elmo1Ki7VYXvWi0=",
+        "originContent": "- Section 9: Pushlock",
+        "translatedContent": "- Section 9: Pushlock"
+      },
+      {
+        "row": 11,
+        "rowsha": "kvFyUu81erGdZJow077UahoW8leOEmWe1pghztIx698=",
+        "originContent": "- Section 10: Spinlock",
+        "translatedContent": "- Section 10: Spinlock"
+      },
+      {
+        "row": 12,
+        "rowsha": "KLgUCv/AeZVxkmIxL6JhpaGcfl4RJ78CMsr5i2yOn1Q=",
+        "originContent": "- Section 11: Kernel Callbacks",
+        "translatedContent": "- Section 11: Kernel Callbacks"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

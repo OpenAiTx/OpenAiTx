@@ -1,0 +1,536 @@
+[
+  {
+    "row": 1,
+    "rowsha": "HPq7n79kJyIQ9GDdoug4SfyHFTzXjyqYNQf8jDMuGf0=",
+    "originContent": "# Introduction",
+    "translatedContent": "<translate-content># 소개"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "xiKePFWEOj9BAMH/ouxqTJ2P5+9Pkw4MDc3AOPEwq64=",
+    "originContent": "This GitHub repository dives into fundamental concepts I believe are important for understanding debugging and troubleshooting complex issues on Windows. I'm not referring to issues like AD Replication or printer malfunctions but problems that are related to things such as crash dumps, hangs, performance issues, and memory leaks.",
+    "translatedContent": "이 GitHub 저장소는 Windows에서 복잡한 문제를 디버깅하고 문제를 해결하는 데 중요한 기본 개념들을 다룹니다. 여기서 말하는 문제는 AD 복제나 프린터 고장 같은 문제가 아니라 크래시 덤프, 정지, 성능 문제, 메모리 누수와 관련된 문제들입니다."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "g2x0bobQqS9U1sv1+oIflJwAZopdZRYUJWvQI1jY47s=",
+    "originContent": "I initially created this as a personal reference when I was (and still) learning more about this topic. Over time, I decided to consolidate these resources and make them publicly available, hoping they could assist others who are keen to explore this topic and learn more about it. The audience of this content should be people that are looking to get started, and might come from an IT Pro background. This GitHub repository may be pre-requisite for future content.",
+    "translatedContent": "처음에는 이 주제에 대해 배우면서 개인 참고용으로 만들었고, 지금도 배우고 있습니다. 시간이 지나면서 이 자료들을 통합해 공개하기로 결정했으며, 이 주제에 관심 있고 더 배우고자 하는 다른 사람들에게 도움이 되길 바랍니다. 이 콘텐츠의 대상은 시작하려는 사람들로, IT 전문가 배경을 가진 분들이 될 수 있습니다. 이 GitHub 저장소는 향후 콘텐츠의 전제 조건일 수 있습니다."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "lonputu/5DU0paNA+6QpgKw79lV+L4VFQWDB/Ue3l/A=",
+    "originContent": "The content is organized into various sections, each designed to be as hands-on as possible. I believe that practice is the key to mastery. Therefore, each section goes beyond just the theory aspects, emphasizing practical examples using tools like Visual Studio, Process Explorer, and WinDbg. Click on **'Debugging 101'** to get started.",
+    "translatedContent": "내용은 다양한 섹션으로 구성되어 있으며, 가능한 한 실습 중심으로 설계되었습니다. 연습이 숙달의 열쇠라고 믿습니다. 따라서 각 섹션은 이론을 넘어서 Visual Studio, Process Explorer, WinDbg 같은 도구를 활용한 실용적인 예제를 강조합니다. 시작하려면 **'Debugging 101'**을 클릭하세요."
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "xB4kUT0/Ny7VxoW/WLE+95a/IUYBpY3I8hTh0Ekhyfo=",
+    "originContent": "If you like my content and want to support me with a coffee:",
+    "translatedContent": "제 콘텐츠가 마음에 들고 커피 한 잔으로 응원하고 싶다면:"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "B6jV1+NaE+5RzIYZ1jU11Av/7Hpb19QtQz7sgLhcfZg=",
+    "originContent": "<a href=\"https://www.buymeacoffee.com/debugprivilege\" target=\"_blank\"><img src=\"https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png\" alt=\"Buy Me A Coffee\" style=\"height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;\" ></a>",
+    "translatedContent": "<a href=\"https://www.buymeacoffee.com/debugprivilege\" target=\"_blank\"><img src=\"https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png\" alt=\"Buy Me A Coffee\" style=\"height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;\" ></a>"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "Jg7x+OlwzDD3HTnL+qfXHRg7roJs9iaNWSg21AxkCdY=",
+    "originContent": "# Topics",
+    "translatedContent": "# 주제"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "9KYW+F/CB8ziXBJLDsFwFrlHBFWggVTUjPCCw5qrbQw=",
+    "originContent": "The following topics will be covered:",
+    "translatedContent": "다음 주제들이 다뤄질 예정입니다:"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "bCD0byAkzeXTQduPQGlOF6ge2kdOIQ822hfim7+x8LE=",
+    "originContent": "**Debugging 101**",
+    "translatedContent": "**Debugging 101**"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 20,
+    "rowsha": "LjHroQSYcQcUxiVPjuEtD9A6V2yg1BUuzTwPDCp7i/Q=",
+    "originContent": "- Section 0: How to get started?",
+    "translatedContent": "- Section 0: How to get started?"
+  },
+  {
+    "row": 21,
+    "rowsha": "PncSbJ/ZB2E7USAcCAFGI9ztDb8DOtehSrPTJVJUIHk=",
+    "originContent": "- Section 1: Introduction to MEX Extension",
+    "translatedContent": "- Section 1: Introduction to MEX Extension"
+  },
+  {
+    "row": 22,
+    "rowsha": "mvmed8Mp/0YG2M3PFOkkFZURGA280Uo8EigDT8pa49E=",
+    "originContent": "- Section 2: Enable Postmortem Debugging",
+    "translatedContent": "- Section 2: Enable Postmortem Debugging"
+  },
+  {
+    "row": 23,
+    "rowsha": "amH9Qn5jzQtqsnzXjFQS5PTNBRTooVtY90T/sGe+VRU=",
+    "originContent": "- Section 3: Access Violation",
+    "translatedContent": "- Section 3: Access Violation"
+  },
+  {
+    "row": 24,
+    "rowsha": "xmTI54vA5/78y9rcFJJEIF4BLJvcj1NUjgMvK2DEOhw=",
+    "originContent": "- Section 4: Setup and Create First Driver",
+    "translatedContent": "- Section 4: Setup and Create First Driver"
+  },
+  {
+    "row": 25,
+    "rowsha": "xFo2UFZehr6UTNOtrloOnPe5Fp/t0YlZPASa29b8x88=",
+    "originContent": "- Section 5: Code Defect",
+    "translatedContent": "- Section 5: Code Defect"
+  },
+  {
+    "row": 26,
+    "rowsha": "yjDN4KLRDsHQdbJECPMOQOhKF227XgmFEs/sMT3jUss=",
+    "originContent": "- Section 6: Handles",
+    "translatedContent": "- Section 6: Handles"
+  },
+  {
+    "row": 27,
+    "rowsha": "sZRL0ItI86bE05vcIPBT5FbGMoToalhi5rMCkSIN+LM=",
+    "originContent": "- Section 7: Debug Diag",
+    "translatedContent": "- Section 7: Debug Diag"
+  },
+  {
+    "row": 28,
+    "rowsha": "30RXUCRfb0I/+1WWhV/PBWsgzCkEWjXdeI3gxRCVKLI=",
+    "originContent": "- Section 8: Introduction to Windows Performance Toolkit",
+    "translatedContent": "- Section 8: Introduction to Windows Performance Toolkit"
+  },
+  {
+    "row": 29,
+    "rowsha": "WYQM1VoR5KSn1dBdJqPu08D11UhOPMKOsOWlb0/8zX8=",
+    "originContent": "- Section 9: Triaging a Crash Dump",
+    "translatedContent": "- Section 9: Triaging a Crash Dump"
+  },
+  {
+    "row": 30,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**코딩 기초**"
+  },
+  {
+    "row": 32,
+    "rowsha": "IYvW4lZcdnak2sevp4eY+cBxiZmNNSta76HfZkJFyqo=",
+    "originContent": "**Coding Fundamentals**",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "C 코드 언어:"
+  },
+  {
+    "row": 34,
+    "rowsha": "4i9XPa5OrW7xkXV5Fe7HGInLidRGHFarWI2xI+gvDAE=",
+    "originContent": "C Code Language:",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 37,
+    "rowsha": "CLXJbQbYy0riK2lDbbaTRR2jEf3ot4vNOxF0wTRVKs0=",
+    "originContent": "- Section 1: Variables",
+    "translatedContent": "- Section 1: Variables"
+  },
+  {
+    "row": 38,
+    "rowsha": "NxKDtEShUPfsKmS2JwGUVTo2lwYfMhWY3al1HoD8hA8=",
+    "originContent": "- Section 2: Operators",
+    "translatedContent": "- Section 2: Operators"
+  },
+  {
+    "row": 39,
+    "rowsha": "3Bg2b19mSkD2JwKDZMKBXLMjoM8vXI3Cqz0yRiXVIr0=",
+    "originContent": "- Section 3: Control Flow",
+    "translatedContent": "- Section 3: Control Flow"
+  },
+  {
+    "row": 40,
+    "rowsha": "AoL/w90PNpdbo4mpWxoDZ3E+Ti4Pnx7TrkAAnWPty5Y=",
+    "originContent": "- Section 4: Pointers, Arrays and Strings",
+    "translatedContent": "- Section 4: Pointers, Arrays and Strings"
+  },
+  {
+    "row": 41,
+    "rowsha": "ImaEOFEmsbXfUf0NUwHyXjcLNQg79DglC8uYgKic6mg=",
+    "originContent": "- Section 5: Structures",
+    "translatedContent": "- Section 5: Structures"
+  },
+  {
+    "row": 42,
+    "rowsha": "uJMrV3zjFm4Q+6Pwb8VCVZVkNYIez9eWQDBTF+SW+VE=",
+    "originContent": "- Section 6: Input & Output",
+    "translatedContent": "- Section 6: Input & Output"
+  },
+  {
+    "row": 43,
+    "rowsha": "EolMXOwyVPDxdGi/M0QU6jhyUJqd7X/0p40Pdj/0ANo=",
+    "originContent": "- Section 7: Command Line Arguments",
+    "translatedContent": "- Section 7: Command Line Arguments"
+  },
+  {
+    "row": 44,
+    "rowsha": "kLtKg8gAfcbp+c8LblHlF7v2jsdy/+GgXUWZi4K15KM=",
+    "originContent": "- Section 8: Memory Allocation",
+    "translatedContent": "- Section 8: Memory Allocation"
+  },
+  {
+    "row": 45,
+    "rowsha": "7d6V1qw9/wuZaNJF0cEfmYlEpi4kkcDH/7ymXIfYG4o=",
+    "originContent": "- Section 9: Linked List",
+    "translatedContent": "- Section 9: Linked List"
+  },
+  {
+    "row": 46,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "C++ 코드 언어:"
+  },
+  {
+    "row": 48,
+    "rowsha": "mu69j72NGzytj/HHFpIMkkQf5rQs3AEPdvGRh937grk=",
+    "originContent": "C++ Code Language:",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 51,
+    "rowsha": "i5P5NdUbSB/Hi+JHirBsHUIBjC9rN2aTkQxY9g9ffJc=",
+    "originContent": "- Section 1: Classes",
+    "translatedContent": "- Section 1: Classes"
+  },
+  {
+    "row": 52,
+    "rowsha": "pollsa2e7ZfeT8bIH0bkK+npqMumd5RAQ/DrdMq+thg=",
+    "originContent": "- Section 2: Initializer Lists",
+    "translatedContent": "- Section 2: Initializer Lists"
+  },
+  {
+    "row": 53,
+    "rowsha": "+bS2wBz7FDGy1fcpKpCtMgArR91LH0hJagbP2EWQq3I=",
+    "originContent": "- Section 3: Function Overloading and Templates",
+    "translatedContent": "- Section 3: Function Overloading and Templates"
+  },
+  {
+    "row": 54,
+    "rowsha": "tiQhaUlprmYAimaumrrhlbRwcB0lhCF7EldEsQoo+tA=",
+    "originContent": "- Section 4: Copy and Move Constructors",
+    "translatedContent": "- Section 4: Copy and Move Constructors"
+  },
+  {
+    "row": 55,
+    "rowsha": "oErVvP+MQxpPUERf6FF/KD1RQnClNLhNVdsCPpYMb5s=",
+    "originContent": "- Section 5: Inheritance",
+    "translatedContent": "- Section 5: Inheritance"
+  },
+  {
+    "row": 56,
+    "rowsha": "iRxhCmQ6Ovfi1bWWqkxNg9Rz6tgMG2D67DK0/7XONdU=",
+    "originContent": "- Section 6: Smart Pointers",
+    "translatedContent": "- Section 6: Smart Pointers"
+  },
+  {
+    "row": 57,
+    "rowsha": "YW1MB4kZLVzlgCw6ANX+7qVXXXPZQ5Pm2Ng3spybxZk=",
+    "originContent": "- Section 7: Standard Libraries",
+    "translatedContent": "- Section 7: Standard Libraries"
+  },
+  {
+    "row": 58,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**윈도우 API**"
+  },
+  {
+    "row": 60,
+    "rowsha": "JfOYFjOCToDGnSXrbf4ojb/1Q8dgNfd9Wx4nztHNldA=",
+    "originContent": "**Windows API**",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 63,
+    "rowsha": "xOoszzdZ3z/K1LicZmsf/6iWFRo+RydFQb/XZ1DU2h8=",
+    "originContent": "- Section 1: Threads",
+    "translatedContent": "- Section 1: Threads"
+  },
+  {
+    "row": 64,
+    "rowsha": "LtDh0m5ZrqPqpCafjOvX+x/7tVSbeMyX8INLwY5Hb2Y=",
+    "originContent": "- Section 2: Critical Section",
+    "translatedContent": "- Section 2: Critical Section"
+  },
+  {
+    "row": 65,
+    "rowsha": "7v/LSltEC6ae2zDRMzVdjLX0pGU/QqUz4sIVJ/zIuqY=",
+    "originContent": "- Section 3: Conditional Variables",
+    "translatedContent": "- Section 3: Conditional Variables"
+  },
+  {
+    "row": 66,
+    "rowsha": "Sgj3trFT0LsUagzsKMBgToDAv0asm0W4nG1+DS5FiLo=",
+    "originContent": "- Section 4: Interlocked Functions",
+    "translatedContent": "- Section 4: Interlocked Functions"
+  },
+  {
+    "row": 67,
+    "rowsha": "ZqsdLnTh9aHautwjG58uHWpryxJWdrPsXHEz4LCpcyg=",
+    "originContent": "- Section 5: Wait Functions and Signaling",
+    "translatedContent": "- Section 5: Wait Functions and Signaling"
+  },
+  {
+    "row": 68,
+    "rowsha": "TlXKV5fbw/d+I/WnzwHV4OTW6rhOAMyrsuZPLn43zFk=",
+    "originContent": "- Section 6: Event Signaling",
+    "translatedContent": "- Section 6: Event Signaling"
+  },
+  {
+    "row": 69,
+    "rowsha": "42+9EJMhZNcdSm2fsB7acZbPcY+/orLeqfJyJ14LdQo=",
+    "originContent": "- Section 7: Mutex",
+    "translatedContent": "- Section 7: Mutex"
+  },
+  {
+    "row": 70,
+    "rowsha": "OtWSCfGLu1NhnGKAumxqdicxApHH6aeA4on/r8wfyso=",
+    "originContent": "- Section 8: Semaphore",
+    "translatedContent": "- Section 8: Semaphore"
+  },
+  {
+    "row": 71,
+    "rowsha": "19we8klH2C4X5FOz8tvdg9JOt88DcF4dfY25JofmEuc=",
+    "originContent": "- Section 9: Slim Reader/Writer Locks",
+    "translatedContent": "- Section 9: Slim Reader/Writer Locks"
+  },
+  {
+    "row": 72,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**커널 포렌식**"
+  },
+  {
+    "row": 74,
+    "rowsha": "HNA+YqCA89SmcrQ5idg0fSYRMX14d8JOh7Ag+oADUYo=",
+    "originContent": "**Kernel Forensics**",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 77,
+    "rowsha": "Td5Htql7H8uMEBE+wVuq5gONjMa6nDUf8mchByDKCu8=",
+    "originContent": "- Section 1: Kernel Pool Memory",
+    "translatedContent": "- Section 1: Kernel Pool Memory"
+  },
+  {
+    "row": 78,
+    "rowsha": "JjTSjuBdyMufy/TkBSGlCkcVYeceuHwd39hpZgt0JwY=",
+    "originContent": "- Section 2: ERESOURCE",
+    "translatedContent": "- Section 2: ERESOURCE"
+  },
+  {
+    "row": 79,
+    "rowsha": "q89MnF+x15kBvEIT8hqpfqN7zXP9VxaPF6RmzFq7WRc=",
+    "originContent": "- Section 3: KMUTEX",
+    "translatedContent": "- Section 3: KMUTEX"
+  },
+  {
+    "row": 80,
+    "rowsha": "9zfIAdI6p6cn55nANVfQP6G1ybulnWFSudbL3Hpv8wU=",
+    "originContent": "- Section 4: Fast Mutex",
+    "translatedContent": "- Section 4: Fast Mutex"
+  },
+  {
+    "row": 81,
+    "rowsha": "Z/m7aXb5O3zc2/h7s3RZLMlZCIInDoP+QymdmR74fZ4=",
+    "originContent": "- Section 5: Interrupt Request Levels (IRQL)",
+    "translatedContent": "- Section 5: Interrupt Request Levels (IRQL)"
+  },
+  {
+    "row": 82,
+    "rowsha": "2aSwWSN9sNYNnGdU1HyBO6jNAIXS/zQRse8zV30wjm4=",
+    "originContent": "- Section 6: Guarded Mutex",
+    "translatedContent": "- Section 6: Guarded Mutex"
+  },
+  {
+    "row": 83,
+    "rowsha": "74NNEjjoBlvooXt1Ilis9I5GsG7jP3jWNV807aEg6Qo=",
+    "originContent": "- Section 7: Event Signaling",
+    "translatedContent": "- Section 7: Event Signaling"
+  },
+  {
+    "row": 84,
+    "rowsha": "OtWSCfGLu1NhnGKAumxqdicxApHH6aeA4on/r8wfyso=",
+    "originContent": "- Section 8: Semaphore",
+    "translatedContent": "- Section 8: Semaphore"
+  },
+  {
+    "row": 85,
+    "rowsha": "mhlVjjY1u+Dd3d41K4ugVXQpbBi7Elmo1Ki7VYXvWi0=",
+    "originContent": "- Section 9: Pushlock",
+    "translatedContent": "- Section 9: Pushlock"
+  },
+  {
+    "row": 86,
+    "rowsha": "kvFyUu81erGdZJow077UahoW8leOEmWe1pghztIx698=",
+    "originContent": "- Section 10: Spinlock",
+    "translatedContent": "- Section 10: Spinlock"
+  },
+  {
+    "row": 87,
+    "rowsha": "KLgUCv/AeZVxkmIxL6JhpaGcfl4RJ78CMsr5i2yOn1Q=",
+    "originContent": "- Section 11: Kernel Callbacks",
+    "translatedContent": "- Section 11: Kernel Callbacks"
+  },
+  {
+    "row": 88,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -1,0 +1,1387 @@
+[
+  {
+    "Id": 1,
+    "Content": "<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/ehmicky/design/main/log-process-errors/log-process-errors_dark.svg\"/>\n  <img alt=\"log-process-errors logo\" src=\"https://raw.githubusercontent.com/ehmicky/design/main/log-process-errors/log-process-errors.svg\" width=\"500\"/>\n</picture>\n\n[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/log-process-errors)\n[![TypeScript](https://img.shields.io/badge/-Typed-808080?logo=typescript&colorA=404040&logoColor=0096ff)](/src/main.d.ts)\n[![Codecov](https://img.shields.io/badge/-Tested%20100%25-808080?logo=codecov&colorA=404040)](https://codecov.io/gh/ehmicky/log-process-errors)\n[![Mastodon](https://img.shields.io/badge/-Mastodon-808080.svg?logo=mastodon&colorA=404040&logoColor=9590F9)](https://fosstodon.org/@ehmicky)\n[![Medium](https://img.shields.io/badge/-Medium-808080.svg?logo=medium&colorA=404040)](https://medium.com/@ehmicky)\n\n[📰 Medium article.](https://medium.com/@ehmicky/node-js-process-errors-are-broken-193980f0a77b)\n\nShow some ❤️ to Node.js process errors.\n\nThis improves process errors:\n[uncaught](https://nodejs.org/api/process.html#process_event_uncaughtexception)\nexceptions,\n[unhandled](https://nodejs.org/api/process.html#process_event_unhandledrejection)\npromises, promises\n[handled too late](https://nodejs.org/api/process.html#process_event_rejectionhandled)\nand [warnings](https://nodejs.org/api/process.html#process_event_warning).\n\n# Features\n\n- Stack traces for warnings and\n  [`rejectionHandled`](https://nodejs.org/api/process.html#process_event_rejectionhandled)\n- [Single event handler](#onerror) for all process errors\n- Ignore [duplicate](#onerror) process errors\n- [Normalize](#error) invalid errors\n- [Process exit](#exit) is graceful and can be prevented\n\n# Install\n\nProduction code (e.g. a server) can install this either as a production or\ndevelopment dependency:\n",
+    "ContentSha": "kT9jvMz9xAhmxwV6zGGjKdMOqyiSE8u8MFTTnrKL438=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/ehmicky/design/main/log-process-errors/log-process-errors_dark.svg\"/>\n  <img alt=\"log-process-errors ロゴ\" src=\"https://raw.githubusercontent.com/ehmicky/design/main/log-process-errors/log-process-errors.svg\" width=\"500\"/>\n</picture>\n\n[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/log-process-errors)\n[![TypeScript](https://img.shields.io/badge/-Typed-808080?logo=typescript&colorA=404040&logoColor=0096ff)](/src/main.d.ts)\n[![Codecov](https://img.shields.io/badge/-Tested%20100%25-808080?logo=codecov&colorA=404040)](https://codecov.io/gh/ehmicky/log-process-errors)\n[![Mastodon](https://img.shields.io/badge/-Mastodon-808080.svg?logo=mastodon&colorA=404040&logoColor=9590F9)](https://fosstodon.org/@ehmicky)\n[![Medium](https://img.shields.io/badge/-Medium-808080.svg?logo=medium&colorA=404040)](https://medium.com/@ehmicky)\n\n[📰 Medium記事.](https://medium.com/@ehmicky/node-js-process-errors-are-broken-193980f0a77b)\n\nNode.jsのプロセスエラーに❤️を。\n\nこれはプロセスエラーを改善します：\n[未捕捉](https://nodejs.org/api/process.html#process_event_uncaughtexception)\n例外、\n[未処理](https://nodejs.org/api/process.html#process_event_unhandledrejection)\nのプロミス、遅れて\n[処理された](https://nodejs.org/api/process.html#process_event_rejectionhandled)\nプロミス、および[警告](https://nodejs.org/api/process.html#process_event_warning)。\n\n# 特徴\n\n- 警告および\n  [`rejectionHandled`](https://nodejs.org/api/process.html#process_event_rejectionhandled)\n  のスタックトレース\n- すべてのプロセスエラーに対する[単一のイベントハンドラ](#onerror)\n- [重複](#onerror)したプロセスエラーの無視\n- 無効なエラーの[正規化](#error)\n- [プロセス終了](#exit)は優雅に行われ、防止可能\n\n# インストール\n\n本番コード（例：サーバー）は、本番依存関係または\n開発依存関係のいずれかとしてこれをインストールできます：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "e/EMiq0wEwC6z5ypRmro6x+Ln2VwaUIirlhG4tMgm/E=",
+        "originContent": "<picture>",
+        "translatedContent": "<picture>"
+      },
+      {
+        "row": 2,
+        "rowsha": "F8e5GsNB9Y1mHKSy7nsbPBgAInVrSG2Gtf6BvcnnADU=",
+        "originContent": "  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/ehmicky/design/main/log-process-errors/log-process-errors_dark.svg\"/>",
+        "translatedContent": "  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/ehmicky/design/main/log-process-errors/log-process-errors_dark.svg\"/>"
+      },
+      {
+        "row": 3,
+        "rowsha": "RB5WN2FwRorUKOnWihMNsuPRuVvvyLNoKlGEL95a9Ik=",
+        "originContent": "  <img alt=\"log-process-errors logo\" src=\"https://raw.githubusercontent.com/ehmicky/design/main/log-process-errors/log-process-errors.svg\" width=\"500\"/>",
+        "translatedContent": "  <img alt=\"log-process-errors ロゴ\" src=\"https://raw.githubusercontent.com/ehmicky/design/main/log-process-errors/log-process-errors.svg\" width=\"500\"/>"
+      },
+      {
+        "row": 4,
+        "rowsha": "hZTTctF/RX64iDLXMWyPifafmJmLfZFAnCkn7yHq8HU=",
+        "originContent": "</picture>",
+        "translatedContent": "</picture>"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "AgojeB/DzqkN28nXMrroxfi88+UXnNoeAViiHFad5Bk=",
+        "originContent": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/log-process-errors)",
+        "translatedContent": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/log-process-errors)"
+      },
+      {
+        "row": 7,
+        "rowsha": "tF+x2IfeGFlZfAJgytSXRBCGZVzb/tREQ5EdL0gZ2QY=",
+        "originContent": "[![TypeScript](https://img.shields.io/badge/-Typed-808080?logo=typescript&colorA=404040&logoColor=0096ff)](/src/main.d.ts)",
+        "translatedContent": "[![TypeScript](https://img.shields.io/badge/-Typed-808080?logo=typescript&colorA=404040&logoColor=0096ff)](/src/main.d.ts)"
+      },
+      {
+        "row": 8,
+        "rowsha": "HDApSUjTve+WoD2wCYj+sRlXqx6v+KxIc5v7Y4OmgS8=",
+        "originContent": "[![Codecov](https://img.shields.io/badge/-Tested%20100%25-808080?logo=codecov&colorA=404040)](https://codecov.io/gh/ehmicky/log-process-errors)",
+        "translatedContent": "[![Codecov](https://img.shields.io/badge/-Tested%20100%25-808080?logo=codecov&colorA=404040)](https://codecov.io/gh/ehmicky/log-process-errors)"
+      },
+      {
+        "row": 9,
+        "rowsha": "JEzMmKwurHuCW9idSyLWG0OvqrciRfVXcAuS2wlVTa8=",
+        "originContent": "[![Mastodon](https://img.shields.io/badge/-Mastodon-808080.svg?logo=mastodon&colorA=404040&logoColor=9590F9)](https://fosstodon.org/@ehmicky)",
+        "translatedContent": "[![Mastodon](https://img.shields.io/badge/-Mastodon-808080.svg?logo=mastodon&colorA=404040&logoColor=9590F9)](https://fosstodon.org/@ehmicky)"
+      },
+      {
+        "row": 10,
+        "rowsha": "pAFOEtZ7Hrcdro0GvdXE268HshxprjM42haHIbPD1Yw=",
+        "originContent": "[![Medium](https://img.shields.io/badge/-Medium-808080.svg?logo=medium&colorA=404040)](https://medium.com/@ehmicky)",
+        "translatedContent": "[![Medium](https://img.shields.io/badge/-Medium-808080.svg?logo=medium&colorA=404040)](https://medium.com/@ehmicky)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "sl7YquyE7e6AeIVcWcp1oD+T+CQ38PS6eWlBqLEZyhY=",
+        "originContent": "[📰 Medium article.](https://medium.com/@ehmicky/node-js-process-errors-are-broken-193980f0a77b)",
+        "translatedContent": "[📰 Medium記事.](https://medium.com/@ehmicky/node-js-process-errors-are-broken-193980f0a77b)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "8sTXFId1dzRENEMruhh9YinEVG2sKmtYM7RO1V6VibE=",
+        "originContent": "Show some ❤️ to Node.js process errors.",
+        "translatedContent": "Node.jsのプロセスエラーに❤️を。"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "WDdf6a0yDxWeYC7MrdRaqF0FPums2QF1L/PCxMLGGYo=",
+        "originContent": "This improves process errors:",
+        "translatedContent": "これはプロセスエラーを改善します："
+      },
+      {
+        "row": 17,
+        "rowsha": "OREE/nERV6Fqx2O9WUI4L1TArK6FlR6FO4LUU+HZyB0=",
+        "originContent": "[uncaught](https://nodejs.org/api/process.html#process_event_uncaughtexception)",
+        "translatedContent": "[未捕捉](https://nodejs.org/api/process.html#process_event_uncaughtexception)"
+      },
+      {
+        "row": 18,
+        "rowsha": "mUF1QV1m9Mxx1aL6TsEvW5U+hYELpYsQNqwAWY/AHRo=",
+        "originContent": "exceptions,",
+        "translatedContent": "例外、"
+      },
+      {
+        "row": 19,
+        "rowsha": "06yu24sG6nLvppY1Xel5YKuDz5p/bjov0s+eS/yEt2U=",
+        "originContent": "[unhandled](https://nodejs.org/api/process.html#process_event_unhandledrejection)",
+        "translatedContent": "[未処理](https://nodejs.org/api/process.html#process_event_unhandledrejection)"
+      },
+      {
+        "row": 20,
+        "rowsha": "eMJ6yoGt91I4ZK5PeCrXcJV0tQO4dxWPii/wh1q7Unw=",
+        "originContent": "promises, promises",
+        "translatedContent": "のプロミス、遅れて"
+      },
+      {
+        "row": 21,
+        "rowsha": "HRm2t4am+GaqYHoBjiL1PlhyxRQ/A7F7ny4JyrxLKNQ=",
+        "originContent": "[handled too late](https://nodejs.org/api/process.html#process_event_rejectionhandled)",
+        "translatedContent": "[処理された](https://nodejs.org/api/process.html#process_event_rejectionhandled)"
+      },
+      {
+        "row": 22,
+        "rowsha": "aJGoZZ5/7zFe7dvrucm31deI7BW4SjvdCaPT2lZfyYI=",
+        "originContent": "and [warnings](https://nodejs.org/api/process.html#process_event_warning).",
+        "translatedContent": "プロミス、および[警告](https://nodejs.org/api/process.html#process_event_warning)。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "Qxdp3Hj7dWmz+GAKg4NkEzKgHfg+ZfXXUNg0RDB9+KI=",
+        "originContent": "# Features",
+        "translatedContent": "# 特徴"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "ABp0uDcI2pNaEDFQRYlhLWnxae6/dlbdYzQ7qKV8E8I=",
+        "originContent": "- Stack traces for warnings and",
+        "translatedContent": "- 警告および"
+      },
+      {
+        "row": 27,
+        "rowsha": "cg/Tg6Nda4P05Iug4HGHd3WJUKmndyJwKxq3+jJSEY8=",
+        "originContent": "  [`rejectionHandled`](https://nodejs.org/api/process.html#process_event_rejectionhandled)",
+        "translatedContent": "  [`rejectionHandled`](https://nodejs.org/api/process.html#process_event_rejectionhandled)"
+      },
+      {
+        "row": 28,
+        "rowsha": "lALFszJee0/s3YBDFh+5DwRp/QS6nYv5sQ2AJCJKSf8=",
+        "originContent": "- [Single event handler](#onerror) for all process errors",
+        "translatedContent": "  のスタックトレース"
+      },
+      {
+        "row": 29,
+        "rowsha": "eOMGwzNohNFVLeAr0c6xL8fqbCUPVI3KdfD6Vki12qo=",
+        "originContent": "- Ignore [duplicate](#onerror) process errors",
+        "translatedContent": "- すべてのプロセスエラーに対する[単一のイベントハンドラ](#onerror)"
+      },
+      {
+        "row": 30,
+        "rowsha": "zuq1sBVvliWcFtLFQg4vy1s3Pd8x5cKqPnezBhLVggo=",
+        "originContent": "- [Normalize](#error) invalid errors",
+        "translatedContent": "- [重複](#onerror)したプロセスエラーの無視"
+      },
+      {
+        "row": 31,
+        "rowsha": "aiqTW6AWvBQkCB2no7vE55+7NOZyh+OidX7HPjzQriA=",
+        "originContent": "- [Process exit](#exit) is graceful and can be prevented",
+        "translatedContent": "- 無効なエラーの[正規化](#error)"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [プロセス終了](#exit)は優雅に行われ、防止可能"
+      },
+      {
+        "row": 33,
+        "rowsha": "LIfcujHTHgMPXtLqP+h3+M/6OPAmhQh2NVkBUIIiPFQ=",
+        "originContent": "# Install",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# インストール"
+      },
+      {
+        "row": 35,
+        "rowsha": "a0fLI6pQkF36W6HDVUIZEG0YrwSl060tr/06FGVCBVk=",
+        "originContent": "Production code (e.g. a server) can install this either as a production or",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "kwVKgdmKPtVwrXVmfA5SyRBDjgnMtGOqU+VqN/1aAeQ=",
+        "originContent": "development dependency:",
+        "translatedContent": "本番コード（例：サーバー）は、本番依存関係または"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "開発依存関係のいずれかとしてこれをインストールできます："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\nnpm install log-process-errors\n```",
+    "ContentSha": "ijufF6H3eor1RC0dNtl2V8sNFRfoOvBdN1xdAHZe148=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpm install log-process-errors\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "2Mv89HkLpithNu18/nFX1DtY0vbTN58m59iHvWyiSJ0=",
+        "originContent": "npm install log-process-errors",
+        "translatedContent": "npm install log-process-errors"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nHowever, libraries should install this as a development dependency:\n",
+    "ContentSha": "+zztOepFMgRKnLfGlt+inI7pFGoUxx2y73hazwpZdOQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "しかし、ライブラリはこれを開発依存としてインストールするべきです：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "しかし、ライブラリはこれを開発依存としてインストールするべきです："
+      },
+      {
+        "row": 2,
+        "rowsha": "xv9LwifXfzYifs0a2N0AYYcs2g9tVfYpk/54Ue8yOs8=",
+        "originContent": "However, libraries should install this as a development dependency:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nnpm install -D log-process-errors\n```",
+    "ContentSha": "/lxSp2P0p5XZ8XEEf5F0q1e+FlQcPgEVA8mdUUYmCms=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpm install -D log-process-errors\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "fDDl6quc0F7lHKXkZE8jh4qhWVNuTEPh1KpKvqJFqjc=",
+        "originContent": "npm install -D log-process-errors",
+        "translatedContent": "npm install -D log-process-errors"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nThis is because logging is modified globally and libraries users might not\nexpect this side-effect. Also, this might lead to conflicts between libraries.\n\nThis package works in Node.js >=18.18.0.\n\nThis is an ES module. It must be loaded using\n[an `import` or `import()` statement](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c),\nnot `require()`. If TypeScript is used, it must be configured to\n[output ES modules](https://www.typescriptlang.org/docs/handbook/esm-node.html),\nnot CommonJS.\n\n# API\n\n## logProcessErrors(options?)\n\n[`options`](#options) `object?`\\\n_Return value_: `() => void`\n\nStart handling process errors.\n",
+    "ContentSha": "e6HM+lA5o3OAJ5DMwij1RpwtvaAwsNMS83KPqXMVBPE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\nこれはログ記録がグローバルに変更され、ライブラリの利用者がこの副作用を予期しない可能性があるためです。 また、これによりライブラリ間での競合が発生する可能性があります。\n\nこのパッケージは Node.js >=18.18.0 で動作します。\n\nこれは ES モジュールです。  \n[ `import` または `import()` 文](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c) を使って読み込む必要があり、  \n`require()` は使えません。TypeScript を使用する場合は、  \n[ES モジュールを出力するように設定](https://www.typescriptlang.org/docs/handbook/esm-node.html) し、  \nCommonJS ではないようにしてください。\n\n# API\n\n## logProcessErrors(options?)\n\n[`options`](#options) `オブジェクト?`\\\n_戻り値_: `() => void`\n\nプロセスエラーの処理を開始します。\n</translate-content>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "L5qMwItfp4Ak0uN2fgVXLacNZpOVBGls6oTf0GYmheU=",
+        "originContent": "This is because logging is modified globally and libraries users might not",
+        "translatedContent": "これはログ記録がグローバルに変更され、ライブラリの利用者がこの副作用を予期しない可能性があるためです。 また、これによりライブラリ間での競合が発生する可能性があります。"
+      },
+      {
+        "row": 3,
+        "rowsha": "7tqG7syMvVUKoyEjnCe/tzCy8quENBvujcZQMUnuDRw=",
+        "originContent": "expect this side-effect. Also, this might lead to conflicts between libraries.",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "このパッケージは Node.js >=18.18.0 で動作します。"
+      },
+      {
+        "row": 5,
+        "rowsha": "gGcjV8np22Hd8TWLvX1KeCZUzZlp7wk8C5Y0Dsr7ACA=",
+        "originContent": "This package works in Node.js >=18.18.0.",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "これは ES モジュールです。  "
+      },
+      {
+        "row": 7,
+        "rowsha": "EJjvrfw5ozGTQHSlGpE3WcXEljhNdorXJgF+uYBq/TQ=",
+        "originContent": "This is an ES module. It must be loaded using",
+        "translatedContent": "[ `import` または `import()` 文](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c) を使って読み込む必要があり、  "
+      },
+      {
+        "row": 8,
+        "rowsha": "IpXksRDUwyWZkI1/FD0n/AQK6GIxj+Oq2lkv730avMU=",
+        "originContent": "[an `import` or `import()` statement](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c),",
+        "translatedContent": "`require()` は使えません。TypeScript を使用する場合は、  "
+      },
+      {
+        "row": 9,
+        "rowsha": "TKhuBb+kPNgZb4evWye6bH6kauadS4nuYHzNzd/v7u4=",
+        "originContent": "not `require()`. If TypeScript is used, it must be configured to",
+        "translatedContent": "[ES モジュールを出力するように設定](https://www.typescriptlang.org/docs/handbook/esm-node.html) し、  "
+      },
+      {
+        "row": 10,
+        "rowsha": "XU2pdDH3w8juXQ/xdi3p0cv5fi/MnjTdhp8FQwxfMfw=",
+        "originContent": "[output ES modules](https://www.typescriptlang.org/docs/handbook/esm-node.html),",
+        "translatedContent": "CommonJS ではないようにしてください。"
+      },
+      {
+        "row": 11,
+        "rowsha": "91589lSEz6YeDl/rTTA94hogFHO35KZ5YuTR7gmumjg=",
+        "originContent": "not CommonJS.",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# API"
+      },
+      {
+        "row": 13,
+        "rowsha": "sNZ6RmazlSrnPfvS8OvxN4mmJw0CtbJAZs9+tTpZQ94=",
+        "originContent": "# API",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## logProcessErrors(options?)"
+      },
+      {
+        "row": 15,
+        "rowsha": "Ecu6xC7G9B5pkngHJoc31vtUPr+tsU6pDwvOLAE/+Zg=",
+        "originContent": "## logProcessErrors(options?)",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[`options`](#options) `オブジェクト?`\\"
+      },
+      {
+        "row": 17,
+        "rowsha": "7PUEEtNkHc5gFwLpvKwZE+tuHegQ+vqHJTWKN60CpyI=",
+        "originContent": "[`options`](#options) `object?`\\",
+        "translatedContent": "_戻り値_: `() => void`"
+      },
+      {
+        "row": 18,
+        "rowsha": "78Q8if59C+vomQf5H3kpq1YSOm2Z+mKHaeSS+aNrxJs=",
+        "originContent": "_Return value_: `() => void`",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "プロセスエラーの処理を開始します。"
+      },
+      {
+        "row": 20,
+        "rowsha": "9Wgsil2JyaMpn+ZI+t1NKzBljMU1Yk1loS8PmmGoJuk=",
+        "originContent": "Start handling process errors.",
+        "translatedContent": "</translate-content>"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```js\nimport logProcessErrors from 'log-process-errors'\nlogProcessErrors(options)\n```",
+    "ContentSha": "hREVUCyHRNX90591ZtJ/MGjTf2CWdILXaG3UzUMsmE0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\nimport logProcessErrors from 'log-process-errors'\nlogProcessErrors(options)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "rfj+oQNSo45Re6MLELrCXs/irQHmdIRAmAwVW9YURTs=",
+        "originContent": "import logProcessErrors from 'log-process-errors'",
+        "translatedContent": "import logProcessErrors from 'log-process-errors'"
+      },
+      {
+        "row": 3,
+        "rowsha": "T90FheNdPYnVb6uFrHlDjHzsNAqmksUNKEXZ4uAJi0o=",
+        "originContent": "logProcessErrors(options)",
+        "translatedContent": "logProcessErrors(options)"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nThe return value restores Node.js default behavior.\n",
+    "ContentSha": "qyjKLwqPnhkGDSxyGjeHpaVxg4fUJwCCtJn/jCOfSdc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\n戻り値はNode.jsのデフォルトの動作を復元します。\n</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "ikCqkmyEU8ztMp99+yZjXW3RQY450z1wwlh6LXTAnUA=",
+        "originContent": "The return value restores Node.js default behavior.",
+        "translatedContent": "戻り値はNode.jsのデフォルトの動作を復元します。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```js\nconst restore = logProcessErrors(options)\nrestore()\n```",
+    "ContentSha": "K3TR644lTXftUYJuUz6Lis06jyl47jh3KQ9Re0kLcSg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\nconst restore = logProcessErrors(options)\nrestore()\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "Pc0cxzj6YmUAac68oJbg15M/x+CcnGzmGi+nieYIpHA=",
+        "originContent": "const restore = logProcessErrors(options)",
+        "translatedContent": "const restore = logProcessErrors(options)"
+      },
+      {
+        "row": 3,
+        "rowsha": "EoUMJ1N0UeS0PotgyS8ubCR85yLUh6raeVgeklR6K0c=",
+        "originContent": "restore()",
+        "translatedContent": "restore()"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## Options\n\n### exit\n\n_Type_: `boolean`\n\nWhether to exit the process on\n[uncaught exceptions](https://nodejs.org/api/process.html#process_event_uncaughtexception)\nor\n[unhandled promises](https://nodejs.org/api/process.html#process_event_unhandledrejection).\n\nThis is `false` by default if other libraries are listening to those events, so\nthey can perform the exit instead. Otherwise, this is `true`.\n\nIf some tasks are still ongoing, the exit waits for them to complete up to 3\nseconds.\n\n### onError\n\n_Type_: `(error, event) => Promise<void> | void`\\\n_Default_: `console.error(error)`\n\nFunction called once per process error. Duplicate process errors are ignored.\n",
+    "ContentSha": "LgfzNenwmX2fa6xX7Yd6YuK+yV8gODmuNH3kjcLdEQ0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## オプション\n\n### exit\n\n_型_: `boolean`\n\n[キャッチされない例外](https://nodejs.org/api/process.html#process_event_uncaughtexception)\nや\n[未処理のプロミス](https://nodejs.org/api/process.html#process_event_unhandledrejection)\nでプロセスを終了するかどうか。\n\n他のライブラリがこれらのイベントを監視している場合はデフォルトで `false` で、\n代わりにそれらが終了処理を行えます。そうでなければ `true` です。\n\n一部のタスクがまだ実行中の場合、終了は最大3秒間それらの完了を待ちます。\n\n### onError\n\n_型_: `(error, event) => Promise<void> | void`\\\n_デフォルト_: `console.error(error)`\n\nプロセスエラーごとに1回呼び出される関数。重複したプロセスエラーは無視されます。\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## オプション"
+      },
+      {
+        "row": 2,
+        "rowsha": "061veB7IsP6MLX2VaAsyznYrdLIx3av88lknlRwMrww=",
+        "originContent": "## Options",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### exit"
+      },
+      {
+        "row": 4,
+        "rowsha": "vm2e0Uh0c/b+H2X8mKWlrz/h04koFMuX8o6cpnwuTuA=",
+        "originContent": "### exit",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "_型_: `boolean`"
+      },
+      {
+        "row": 6,
+        "rowsha": "eWnZR7V7/kYP0C/s2T2fh8sh7I+iogiiJnvexfYLtRE=",
+        "originContent": "_Type_: `boolean`",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[キャッチされない例外](https://nodejs.org/api/process.html#process_event_uncaughtexception)"
+      },
+      {
+        "row": 8,
+        "rowsha": "HWlbjJ1gHJgCHJfJ2CgV1y90tOtV7JtiNFm2PA9849o=",
+        "originContent": "Whether to exit the process on",
+        "translatedContent": "や"
+      },
+      {
+        "row": 9,
+        "rowsha": "f2qdskjqtkhZPVueBOBqFxWlJbrQqoNlxOTyfgJQi+0=",
+        "originContent": "[uncaught exceptions](https://nodejs.org/api/process.html#process_event_uncaughtexception)",
+        "translatedContent": "[未処理のプロミス](https://nodejs.org/api/process.html#process_event_unhandledrejection)"
+      },
+      {
+        "row": 10,
+        "rowsha": "cXVRejcLXNLmZOP9KcTqnbXOFwWOuXcv4JClSF5J2tY=",
+        "originContent": "or",
+        "translatedContent": "でプロセスを終了するかどうか。"
+      },
+      {
+        "row": 11,
+        "rowsha": "6WeoTL1a0A4f2V+DJi/2Ar0MJIn+M3v4t36y5tgQjxo=",
+        "originContent": "[unhandled promises](https://nodejs.org/api/process.html#process_event_unhandledrejection).",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "他のライブラリがこれらのイベントを監視している場合はデフォルトで `false` で、"
+      },
+      {
+        "row": 13,
+        "rowsha": "veB6LoNKCm8lsmlqYOeE3F3EcGYy82M+pk90ETThfiI=",
+        "originContent": "This is `false` by default if other libraries are listening to those events, so",
+        "translatedContent": "代わりにそれらが終了処理を行えます。そうでなければ `true` です。"
+      },
+      {
+        "row": 14,
+        "rowsha": "KnW21ueAhqWW5onrElOptg6zS8CAEj7xnHM6crL4KyM=",
+        "originContent": "they can perform the exit instead. Otherwise, this is `true`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "一部のタスクがまだ実行中の場合、終了は最大3秒間それらの完了を待ちます。"
+      },
+      {
+        "row": 16,
+        "rowsha": "3Obg0oFsl4j9KBdmKUX8wX+FPvBooZjMpwphySp+eBg=",
+        "originContent": "If some tasks are still ongoing, the exit waits for them to complete up to 3",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "XZkmZ/cHXFPZtudyA2o0B90xEm8IBJkrW3AiUEA67N8=",
+        "originContent": "seconds.",
+        "translatedContent": "### onError"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "zIhqjs8wrPY2tfFM5dyogPePQkGBb3I8+ZvsHqBbVNk=",
+        "originContent": "### onError",
+        "translatedContent": "_型_: `(error, event) => Promise<void> | void`\\"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "_デフォルト_: `console.error(error)`"
+      },
+      {
+        "row": 21,
+        "rowsha": "+AIbqJ9bt39jKoRtMDikOdkIu9SkC3Isg+baNMzzs0Q=",
+        "originContent": "_Type_: `(error, event) => Promise<void> | void`\\",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "1izhRRX4/3toIEY05YBHv5BLiTGgcQvglvFgLSvwJCY=",
+        "originContent": "_Default_: `console.error(error)`",
+        "translatedContent": "プロセスエラーごとに1回呼び出される関数。重複したプロセスエラーは無視されます。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "6drTxvtOvXoge8+/eZl1vGy0q2rTIHqLOmsVBWNq8Xs=",
+        "originContent": "Function called once per process error. Duplicate process errors are ignored.",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```js\n// Log process errors with Winston instead\nlogProcessErrors({\n  onError: (error, event) => {\n    winstonLogger.error(error.stack)\n  },\n})\n```",
+    "ContentSha": "AO3QzcRKckOn7GFpUpRgk3jzKLm+0/bk1aUoulVGw+Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\n// Log process errors with Winston instead\nlogProcessErrors({\n  onError: (error, event) => {\n    winstonLogger.error(error.stack)\n  },\n})\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "Zlx53TJybXa+1yL88iLdcDvpLqpu73B5DsBTgIVv1VU=",
+        "originContent": "// Log process errors with Winston instead",
+        "translatedContent": "// Log process errors with Winston instead"
+      },
+      {
+        "row": 3,
+        "rowsha": "GGz5cZEAbFAP5u110Rnh8iyTDDPc2V4dm3oBNK/meVU=",
+        "originContent": "logProcessErrors({",
+        "translatedContent": "logProcessErrors({"
+      },
+      {
+        "row": 4,
+        "rowsha": "y/VGyXQcGuy7k9V6RtnxsA1lFk7jMiR008njwbpY8uw=",
+        "originContent": "  onError: (error, event) => {",
+        "translatedContent": "  onError: (error, event) => {"
+      },
+      {
+        "row": 5,
+        "rowsha": "/eLBnW1so5glEjbWdDmrJVED6SboH3JWSP3qObkLdH8=",
+        "originContent": "    winstonLogger.error(error.stack)",
+        "translatedContent": "    winstonLogger.error(error.stack)"
+      },
+      {
+        "row": 6,
+        "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+        "originContent": "  },",
+        "translatedContent": "  },"
+      },
+      {
+        "row": 7,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n#### error\n\n_Type_: `Error`\n\nThe process error. This is guaranteed to be a\n[normalized](https://github.com/ehmicky/normalize-exception) error instance. A\nshort description of the [event](#event) is also appended to its message.\n\n#### event\n\n_Type_: `Event`\n\nProcess event name among:\n[`'uncaughtException'`](https://nodejs.org/api/process.html#process_event_uncaughtexception),\n[`'unhandledRejection'`](https://nodejs.org/api/process.html#process_event_unhandledrejection),\n[`'rejectionHandled'`](https://nodejs.org/api/process.html#process_event_rejectionhandled),\n[`'warning'`](https://nodejs.org/api/process.html#process_event_warning).\n\n# Related projects\n\n- [`modern-errors`](https://github.com/ehmicky/modern-errors): Handle errors in\n  a simple, stable, consistent way\n- [`modern-errors-process`](https://github.com/ehmicky/modern-errors-process):\n  Handle process errors\n- [`error-custom-class`](https://github.com/ehmicky/error-custom-class): Create\n  one error class\n- [`error-class-utils`](https://github.com/ehmicky/error-class-utils): Utilities\n  to properly create error classes\n- [`error-serializer`](https://github.com/ehmicky/error-serializer): Convert\n  errors to/from plain objects\n- [`normalize-exception`](https://github.com/ehmicky/normalize-exception):\n  Normalize exceptions/errors\n- [`is-error-instance`](https://github.com/ehmicky/is-error-instance): Check if\n  a value is an `Error` instance\n- [`merge-error-cause`](https://github.com/ehmicky/merge-error-cause): Merge an\n  error with its `cause`\n- [`set-error-class`](https://github.com/ehmicky/set-error-class): Properly\n  update an error's class\n- [`set-error-message`](https://github.com/ehmicky/set-error-message): Properly\n  update an error's message\n- [`wrap-error-message`](https://github.com/ehmicky/wrap-error-message):\n  Properly wrap an error's message\n- [`set-error-props`](https://github.com/ehmicky/set-error-props): Properly\n  update an error's properties\n- [`set-error-stack`](https://github.com/ehmicky/set-error-stack): Properly\n  update an error's stack\n- [`error-cause-polyfill`](https://github.com/ehmicky/error-cause-polyfill):\n  Polyfill `error.cause`\n- [`handle-cli-error`](https://github.com/ehmicky/handle-cli-error): 💣 Error\n  handler for CLI applications 💥\n- [`beautiful-error`](https://github.com/ehmicky/beautiful-error): Prettify\n  error messages and stacks\n- [`error-http-response`](https://github.com/ehmicky/error-http-response):\n  Create HTTP error responses\n- [`winston-error-format`](https://github.com/ehmicky/winston-error-format): Log\n  errors with Winston\n\n# Support\n\nFor any question, _don't hesitate_ to [submit an issue on GitHub](../../issues).\n\nEveryone is welcome regardless of personal background. We enforce a\n[Code of conduct](https://raw.githubusercontent.com/ehmicky/log-process-errors/main/CODE_OF_CONDUCT.md) in order to promote a positive and\ninclusive environment.\n\n# Contributing\n\nThis project was made with ❤️. The simplest way to give back is by starring and\nsharing it online.\n\nIf the documentation is unclear or has a typo, please click on the page's `Edit`\nbutton (pencil icon) and suggest a correction.\n\nIf you would like to help us fix a bug or add a new feature, please check our\n[guidelines](https://raw.githubusercontent.com/ehmicky/log-process-errors/main/CONTRIBUTING.md). Pull requests are welcome!\n\nThanks go to our wonderful contributors:\n\n<!-- ALL-CONTRIBUTORS-LIST:START -->\n<!-- prettier-ignore-start -->\n<!-- markdownlint-disable -->\n<table>\n  <tr>\n    <td align=\"center\"><a href=\"https://fosstodon.org/@ehmicky\"><img src=\"https://avatars2.githubusercontent.com/u/8136211?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>ehmicky</b></sub></a><br /><a href=\"https://github.com/ehmicky/log-process-errors/commits?author=ehmicky\" title=\"Code\">💻</a> <a href=\"#design-ehmicky\" title=\"Design\">🎨</a> <a href=\"#ideas-ehmicky\" title=\"Ideas, Planning, & Feedback\">🤔</a> <a href=\"https://github.com/ehmicky/log-process-errors/commits?author=ehmicky\" title=\"Documentation\">📖</a></td>\n    <td align=\"center\"><a href=\"https://svachon.com\"><img src=\"https://avatars0.githubusercontent.com/u/170197?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>Steven Vachon</b></sub></a><br /><a href=\"#question-stevenvachon\" title=\"Answering Questions\">💬</a></td>\n    <td align=\"center\"><a href=\"https://github.com/Hongarc\"><img src=\"https://avatars1.githubusercontent.com/u/19208123?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>Hongarc</b></sub></a><br /><a href=\"https://github.com/ehmicky/log-process-errors/commits?author=Hongarc\" title=\"Documentation\">📖</a> <a href=\"https://github.com/ehmicky/log-process-errors/commits?author=Hongarc\" title=\"Code\">💻</a></td>\n    <td align=\"center\"><a href=\"https://github.com/abrenneke\"><img src=\"https://avatars0.githubusercontent.com/u/342540?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>Andy Brenneke</b></sub></a><br /><a href=\"https://github.com/ehmicky/log-process-errors/issues?q=author%3Aabrenneke\" title=\"Bug reports\">🐛</a></td>\n  </tr>\n</table>\n\n<!-- markdownlint-enable -->\n<!-- prettier-ignore-end -->\n\n<!-- ALL-CONTRIBUTORS-LIST:END -->\n",
+    "ContentSha": "OFCxcoIVAh3cv5Vgne7gHcHmsj6kVrOaYyPDdN3UDbo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "#### error\n\n_Type_: `Error`\n\nプロセスエラーです。これは\n[正規化](https://github.com/ehmicky/normalize-exception)されたエラーインスタンスであることが保証されています。\n[イベント](#event)の簡単な説明もメッセージに付加されています。\n\n#### event\n\n_Type_: `Event`\n\n以下のいずれかのプロセスイベント名:\n[`'uncaughtException'`](https://nodejs.org/api/process.html#process_event_uncaughtexception),\n[`'unhandledRejection'`](https://nodejs.org/api/process.html#process_event_unhandledrejection),\n[`'rejectionHandled'`](https://nodejs.org/api/process.html#process_event_rejectionhandled),\n[`'warning'`](https://nodejs.org/api/process.html#process_event_warning)。\n\n# 関連プロジェクト\n\n- [`modern-errors`](https://github.com/ehmicky/modern-errors): シンプルで安定した一貫性のあるエラー処理\n- [`modern-errors-process`](https://github.com/ehmicky/modern-errors-process):\n  プロセスエラーの処理\n- [`error-custom-class`](https://github.com/ehmicky/error-custom-class): 単一のエラークラスの作成\n- [`error-class-utils`](https://github.com/ehmicky/error-class-utils): エラークラスを適切に作成するユーティリティ\n- [`error-serializer`](https://github.com/ehmicky/error-serializer): エラーをプレーンオブジェクトに変換/復元\n- [`normalize-exception`](https://github.com/ehmicky/normalize-exception):\n  例外/エラーを正規化\n- [`is-error-instance`](https://github.com/ehmicky/is-error-instance): 値が`Error`インスタンスかをチェック\n- [`merge-error-cause`](https://github.com/ehmicky/merge-error-cause): エラーとその`cause`をマージ\n- [`set-error-class`](https://github.com/ehmicky/set-error-class): エラーのクラスを適切に更新\n- [`set-error-message`](https://github.com/ehmicky/set-error-message): エラーメッセージを適切に更新\n- [`wrap-error-message`](https://github.com/ehmicky/wrap-error-message):\n  エラーメッセージを適切にラップ\n- [`set-error-props`](https://github.com/ehmicky/set-error-props): エラーのプロパティを適切に更新\n- [`set-error-stack`](https://github.com/ehmicky/set-error-stack): エラースタックを適切に更新\n- [`error-cause-polyfill`](https://github.com/ehmicky/error-cause-polyfill):\n  `error.cause`のポリフィル\n- [`handle-cli-error`](https://github.com/ehmicky/handle-cli-error): 💣 CLIアプリケーション用のエラーハンドラ 💥\n- [`beautiful-error`](https://github.com/ehmicky/beautiful-error): エラーメッセージとスタックの美化\n- [`error-http-response`](https://github.com/ehmicky/error-http-response):\n  HTTPエラー応答の作成\n- [`winston-error-format`](https://github.com/ehmicky/winston-error-format): Winstonでのエラーログ記録\n\n# サポート\n\nご質問があれば、_遠慮なく_ [GitHubでIssueを提出してください](../../issues)。\n\n個人の背景に関係なく誰でも歓迎します。ポジティブで包括的な環境を促進するために\n[行動規範](https://raw.githubusercontent.com/ehmicky/log-process-errors/main/CODE_OF_CONDUCT.md)を施行しています。\n\n# コントリビュート\n\nこのプロジェクトは❤️で作られています。スターを付けたりオンラインで共有することが最も簡単な支援方法です。\n\nドキュメントが不明瞭または誤字があれば、ページの`Edit`ボタン（鉛筆アイコン）をクリックして修正提案をしてください。\n\nバグ修正や新機能の追加をお手伝いいただける場合は、当社の\n[ガイドライン](https://raw.githubusercontent.com/ehmicky/log-process-errors/main/CONTRIBUTING.md)をご覧ください。プルリクエストは歓迎です！\n\n素晴らしいコントリビューターに感謝します：\n\n<!-- ALL-CONTRIBUTORS-LIST:START -->\n<!-- prettier-ignore-start -->\n<!-- markdownlint-disable -->\n<table>\n  <tr>\n    <td align=\"center\"><a href=\"https://fosstodon.org/@ehmicky\"><img src=\"https://avatars2.githubusercontent.com/u/8136211?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>ehmicky</b></sub></a><br /><a href=\"https://github.com/ehmicky/log-process-errors/commits?author=ehmicky\" title=\"Code\">💻</a> <a href=\"#design-ehmicky\" title=\"Design\">🎨</a> <a href=\"#ideas-ehmicky\" title=\"Ideas, Planning, & Feedback\">🤔</a> <a href=\"https://github.com/ehmicky/log-process-errors/commits?author=ehmicky\" title=\"Documentation\">📖</a></td>\n    <td align=\"center\"><a href=\"https://svachon.com\"><img src=\"https://avatars0.githubusercontent.com/u/170197?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>Steven Vachon</b></sub></a><br /><a href=\"#question-stevenvachon\" title=\"Answering Questions\">💬</a></td>\n    <td align=\"center\"><a href=\"https://github.com/Hongarc\"><img src=\"https://avatars1.githubusercontent.com/u/19208123?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>Hongarc</b></sub></a><br /><a href=\"https://github.com/ehmicky/log-process-errors/commits?author=Hongarc\" title=\"Documentation\">📖</a> <a href=\"https://github.com/ehmicky/log-process-errors/commits?author=Hongarc\" title=\"Code\">💻</a></td>\n    <td align=\"center\"><a href=\"https://github.com/abrenneke\"><img src=\"https://avatars0.githubusercontent.com/u/342540?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>Andy Brenneke</b></sub></a><br /><a href=\"https://github.com/ehmicky/log-process-errors/issues?q=author%3Aabrenneke\" title=\"Bug reports\">🐛</a></td>\n  </tr>\n</table>\n\n<!-- markdownlint-enable -->\n<!-- prettier-ignore-end -->\n\n<!-- ALL-CONTRIBUTORS-LIST:END -->\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### error"
+      },
+      {
+        "row": 2,
+        "rowsha": "dyCcJ5PfcN0Km/+AFaAy3lIPc8Njr7ncIKc44ClwBb0=",
+        "originContent": "#### error",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "_Type_: `Error`"
+      },
+      {
+        "row": 4,
+        "rowsha": "HdL/LZ6Cfusrd/xE6LT91bY5CSFhkPTbmWx8cY5DXzU=",
+        "originContent": "_Type_: `Error`",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "プロセスエラーです。これは"
+      },
+      {
+        "row": 6,
+        "rowsha": "CBopz6KKSa7iNXtgcJq2QcMJZWtGyioAW3eatF9qVtY=",
+        "originContent": "The process error. This is guaranteed to be a",
+        "translatedContent": "[正規化](https://github.com/ehmicky/normalize-exception)されたエラーインスタンスであることが保証されています。"
+      },
+      {
+        "row": 7,
+        "rowsha": "NHei07FgzflJw5aoPZmAxxsvTndR21Zmm6/v2ZKDrsA=",
+        "originContent": "[normalized](https://github.com/ehmicky/normalize-exception) error instance. A",
+        "translatedContent": "[イベント](#event)の簡単な説明もメッセージに付加されています。"
+      },
+      {
+        "row": 8,
+        "rowsha": "J0mxmnfDL5cajsVAjwWSsx5qZ21Ai/7rdc/zAw6HL5w=",
+        "originContent": "short description of the [event](#event) is also appended to its message.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### event"
+      },
+      {
+        "row": 10,
+        "rowsha": "icN4p/FyH2YzDc8Oqa7BUmVAWwOIPcAMVxy9WMIBcOs=",
+        "originContent": "#### event",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "_Type_: `Event`"
+      },
+      {
+        "row": 12,
+        "rowsha": "8K59tyO7U0+b7C/9xzDRlcd9EIe2x+q/aZdn8UNMmcg=",
+        "originContent": "_Type_: `Event`",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "以下のいずれかのプロセスイベント名:"
+      },
+      {
+        "row": 14,
+        "rowsha": "ey5sUV6nZE85f3vC24DgxXBMOdt3mOX+HZiKAjUwaOg=",
+        "originContent": "Process event name among:",
+        "translatedContent": "[`'uncaughtException'`](https://nodejs.org/api/process.html#process_event_uncaughtexception),"
+      },
+      {
+        "row": 15,
+        "rowsha": "17Vw7sKpcpo1jpW7z66sIjt6zWYfxQ9bYmSh+LHt2hU=",
+        "originContent": "[`'uncaughtException'`](https://nodejs.org/api/process.html#process_event_uncaughtexception),",
+        "translatedContent": "[`'unhandledRejection'`](https://nodejs.org/api/process.html#process_event_unhandledrejection),"
+      },
+      {
+        "row": 16,
+        "rowsha": "iNSNTd3fqn2YlfOIHFByUNiZ3KGO+0mBRRZH8UDoyQM=",
+        "originContent": "[`'unhandledRejection'`](https://nodejs.org/api/process.html#process_event_unhandledrejection),",
+        "translatedContent": "[`'rejectionHandled'`](https://nodejs.org/api/process.html#process_event_rejectionhandled),"
+      },
+      {
+        "row": 17,
+        "rowsha": "7Kc+39RAIT/l4NMjOypUinl02z+ZlDBQ8F9xAnMuJFo=",
+        "originContent": "[`'rejectionHandled'`](https://nodejs.org/api/process.html#process_event_rejectionhandled),",
+        "translatedContent": "[`'warning'`](https://nodejs.org/api/process.html#process_event_warning)。"
+      },
+      {
+        "row": 18,
+        "rowsha": "q2uKpxsaCjEPqRcXnK2hWqE3j4UFcejVVPmArUF1jAM=",
+        "originContent": "[`'warning'`](https://nodejs.org/api/process.html#process_event_warning).",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# 関連プロジェクト"
+      },
+      {
+        "row": 20,
+        "rowsha": "5Wrmxl8EFPPsz+nI8IX+raLjZiLdfUMh7vsgq32PlWo=",
+        "originContent": "# Related projects",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [`modern-errors`](https://github.com/ehmicky/modern-errors): シンプルで安定した一貫性のあるエラー処理"
+      },
+      {
+        "row": 22,
+        "rowsha": "EwAIQ8QCOEWinq+wMJPhn5njvj0XqLiPB8/KzvbnstA=",
+        "originContent": "- [`modern-errors`](https://github.com/ehmicky/modern-errors): Handle errors in",
+        "translatedContent": "- [`modern-errors-process`](https://github.com/ehmicky/modern-errors-process):"
+      },
+      {
+        "row": 23,
+        "rowsha": "LX9TB+9LuHa/u08aODmyRbUIjXMMYT4hIAPmPxLC2w4=",
+        "originContent": "  a simple, stable, consistent way",
+        "translatedContent": "  プロセスエラーの処理"
+      },
+      {
+        "row": 24,
+        "rowsha": "bTpV+k1DmBtkG17vDTpLcuCx5PkHXDxAWs2RkUWIt+Q=",
+        "originContent": "- [`modern-errors-process`](https://github.com/ehmicky/modern-errors-process):",
+        "translatedContent": "- [`error-custom-class`](https://github.com/ehmicky/error-custom-class): 単一のエラークラスの作成"
+      },
+      {
+        "row": 25,
+        "rowsha": "D6WpdWKxuYgIo6b/w12Ou8lrRE8ng060RxQ4CoNu4mU=",
+        "originContent": "  Handle process errors",
+        "translatedContent": "- [`error-class-utils`](https://github.com/ehmicky/error-class-utils): エラークラスを適切に作成するユーティリティ"
+      },
+      {
+        "row": 26,
+        "rowsha": "saBnzsKGyfT/+sWhAgwLdYvPilQp7iZjSzdHZAMhyKk=",
+        "originContent": "- [`error-custom-class`](https://github.com/ehmicky/error-custom-class): Create",
+        "translatedContent": "- [`error-serializer`](https://github.com/ehmicky/error-serializer): エラーをプレーンオブジェクトに変換/復元"
+      },
+      {
+        "row": 27,
+        "rowsha": "ru1eIynpf+MEIPlt/q7ZRzFZ55nVE7bU12a1j+m7gOk=",
+        "originContent": "  one error class",
+        "translatedContent": "- [`normalize-exception`](https://github.com/ehmicky/normalize-exception):"
+      },
+      {
+        "row": 28,
+        "rowsha": "HSqfDZ8ZsypMr9ndfeY3DZpdZkkdO7Tns5oDfimrpDs=",
+        "originContent": "- [`error-class-utils`](https://github.com/ehmicky/error-class-utils): Utilities",
+        "translatedContent": "  例外/エラーを正規化"
+      },
+      {
+        "row": 29,
+        "rowsha": "1PUfiRREJxzNLI/AsFvdJLlk460sxR92Gob8O9xPXzI=",
+        "originContent": "  to properly create error classes",
+        "translatedContent": "- [`is-error-instance`](https://github.com/ehmicky/is-error-instance): 値が`Error`インスタンスかをチェック"
+      },
+      {
+        "row": 30,
+        "rowsha": "XEuMzt41xnITXaxkNZVPkAB8FrnkTcv0Nwulx0tPuAI=",
+        "originContent": "- [`error-serializer`](https://github.com/ehmicky/error-serializer): Convert",
+        "translatedContent": "- [`merge-error-cause`](https://github.com/ehmicky/merge-error-cause): エラーとその`cause`をマージ"
+      },
+      {
+        "row": 31,
+        "rowsha": "OKjfuCZgkq6bQNGZODARqKAobrsdQ/DYzIn0rDCJouU=",
+        "originContent": "  errors to/from plain objects",
+        "translatedContent": "- [`set-error-class`](https://github.com/ehmicky/set-error-class): エラーのクラスを適切に更新"
+      },
+      {
+        "row": 32,
+        "rowsha": "kEkFFy1El9y+ffa7LN3VC8B8HNG/uvGn5JsiEgEBIKY=",
+        "originContent": "- [`normalize-exception`](https://github.com/ehmicky/normalize-exception):",
+        "translatedContent": "- [`set-error-message`](https://github.com/ehmicky/set-error-message): エラーメッセージを適切に更新"
+      },
+      {
+        "row": 33,
+        "rowsha": "Hnf66AN/CJUqu1FEjRFIycN5gYphWZsO2D7pKJbVhhk=",
+        "originContent": "  Normalize exceptions/errors",
+        "translatedContent": "- [`wrap-error-message`](https://github.com/ehmicky/wrap-error-message):"
+      },
+      {
+        "row": 34,
+        "rowsha": "lWNWqO50LN+Fs70pkB8v48yFPD2z0GanzQU5VE8cM/M=",
+        "originContent": "- [`is-error-instance`](https://github.com/ehmicky/is-error-instance): Check if",
+        "translatedContent": "  エラーメッセージを適切にラップ"
+      },
+      {
+        "row": 35,
+        "rowsha": "pNT1ASAnHczxjBEpfOyDVRI82qcJniXhvLFXvFIsZZg=",
+        "originContent": "  a value is an `Error` instance",
+        "translatedContent": "- [`set-error-props`](https://github.com/ehmicky/set-error-props): エラーのプロパティを適切に更新"
+      },
+      {
+        "row": 36,
+        "rowsha": "NuCuO1ad23Qt+MaIsHiOzdx+fl1V2bfmm+bX9+JaVfI=",
+        "originContent": "- [`merge-error-cause`](https://github.com/ehmicky/merge-error-cause): Merge an",
+        "translatedContent": "- [`set-error-stack`](https://github.com/ehmicky/set-error-stack): エラースタックを適切に更新"
+      },
+      {
+        "row": 37,
+        "rowsha": "qwhOUTGTY86iVwTViB1jiOXqEdlgnaWinTlYS4fNYiE=",
+        "originContent": "  error with its `cause`",
+        "translatedContent": "- [`error-cause-polyfill`](https://github.com/ehmicky/error-cause-polyfill):"
+      },
+      {
+        "row": 38,
+        "rowsha": "WpJfytGOM6nwWaRBzxRXtQYTOatflKkAk7zqUZsQ2fU=",
+        "originContent": "- [`set-error-class`](https://github.com/ehmicky/set-error-class): Properly",
+        "translatedContent": "  `error.cause`のポリフィル"
+      },
+      {
+        "row": 39,
+        "rowsha": "BNx685iNkMGZK1nc1wiAWeC+UqRlOHfuNNQZ4LSp3Zc=",
+        "originContent": "  update an error's class",
+        "translatedContent": "- [`handle-cli-error`](https://github.com/ehmicky/handle-cli-error): 💣 CLIアプリケーション用のエラーハンドラ 💥"
+      },
+      {
+        "row": 40,
+        "rowsha": "fSQt0ImMv/X64qdP4W6X1Ct43dIYywD3JULDpI7nGH4=",
+        "originContent": "- [`set-error-message`](https://github.com/ehmicky/set-error-message): Properly",
+        "translatedContent": "- [`beautiful-error`](https://github.com/ehmicky/beautiful-error): エラーメッセージとスタックの美化"
+      },
+      {
+        "row": 41,
+        "rowsha": "dHYTbNkoEmB1exHTEsgJOyvPBItZjoQSnSZjFADww8I=",
+        "originContent": "  update an error's message",
+        "translatedContent": "- [`error-http-response`](https://github.com/ehmicky/error-http-response):"
+      },
+      {
+        "row": 42,
+        "rowsha": "cjmUKZwZdQWDbQNT9DYsK8oxuK3YZ9xVTcJmIHQZkXg=",
+        "originContent": "- [`wrap-error-message`](https://github.com/ehmicky/wrap-error-message):",
+        "translatedContent": "  HTTPエラー応答の作成"
+      },
+      {
+        "row": 43,
+        "rowsha": "NLqo9gL1cliZuXbT04x9PAlNxviNdsqxOTf5Z25AIHs=",
+        "originContent": "  Properly wrap an error's message",
+        "translatedContent": "- [`winston-error-format`](https://github.com/ehmicky/winston-error-format): Winstonでのエラーログ記録"
+      },
+      {
+        "row": 44,
+        "rowsha": "XWzqahtwIXUoRQg0S7rIcbnSTcLqo2BcDfaF8Sv7+Gw=",
+        "originContent": "- [`set-error-props`](https://github.com/ehmicky/set-error-props): Properly",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "rMI6EpCIEsEL9ye+sVzkl+Lz5ftdiUQdzMQ/Re68I6o=",
+        "originContent": "  update an error's properties",
+        "translatedContent": "# サポート"
+      },
+      {
+        "row": 46,
+        "rowsha": "/94fHSgP0VMgAuG6C/hB21nmocP9Sw0HgMarsH95RVU=",
+        "originContent": "- [`set-error-stack`](https://github.com/ehmicky/set-error-stack): Properly",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "5qjuzKe9sPcvcotGlxC5Tcpk0bLhn4EqdFYdMsau8CE=",
+        "originContent": "  update an error's stack",
+        "translatedContent": "ご質問があれば、_遠慮なく_ [GitHubでIssueを提出してください](../../issues)。"
+      },
+      {
+        "row": 48,
+        "rowsha": "NaqsSjxU3YwRY5auTM8OBd5DJmdxLL1IIJmA83b9Hd4=",
+        "originContent": "- [`error-cause-polyfill`](https://github.com/ehmicky/error-cause-polyfill):",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "ECgWo96oQ6t9eHwzrGvpQVwk7yB1LWDSHEaO982c704=",
+        "originContent": "  Polyfill `error.cause`",
+        "translatedContent": "個人の背景に関係なく誰でも歓迎します。ポジティブで包括的な環境を促進するために"
+      },
+      {
+        "row": 50,
+        "rowsha": "rQUiXxZ87xnzCYca3smX4lbB/xnqBKvj9i08xeW9pkE=",
+        "originContent": "- [`handle-cli-error`](https://github.com/ehmicky/handle-cli-error): 💣 Error",
+        "translatedContent": "[行動規範](https://raw.githubusercontent.com/ehmicky/log-process-errors/main/CODE_OF_CONDUCT.md)を施行しています。"
+      },
+      {
+        "row": 51,
+        "rowsha": "5riHImelcZeTWxqFAE2eg+5r3L2oivgiGXgiFV9nzC4=",
+        "originContent": "  handler for CLI applications 💥",
+        "translatedContent": ""
+      },
+      {
+        "row": 52,
+        "rowsha": "hmee/urf7hY+uTtsrE3GVk7+H19oAjv0PcDBfVe0AXE=",
+        "originContent": "- [`beautiful-error`](https://github.com/ehmicky/beautiful-error): Prettify",
+        "translatedContent": "# コントリビュート"
+      },
+      {
+        "row": 53,
+        "rowsha": "Yn7suVEzfviB25GM52FrY45tOpLUoHAcQkFtDoJOz8I=",
+        "originContent": "  error messages and stacks",
+        "translatedContent": ""
+      },
+      {
+        "row": 54,
+        "rowsha": "0sfvc9ROZdLBtMgpiOPddhVwHNmVKl1RnQhOhQADROg=",
+        "originContent": "- [`error-http-response`](https://github.com/ehmicky/error-http-response):",
+        "translatedContent": "このプロジェクトは❤️で作られています。スターを付けたりオンラインで共有することが最も簡単な支援方法です。"
+      },
+      {
+        "row": 55,
+        "rowsha": "rt+8cEV8VoLqGFJXtewtIrNGQs9p6ttI3pC90Ipz6Ok=",
+        "originContent": "  Create HTTP error responses",
+        "translatedContent": ""
+      },
+      {
+        "row": 56,
+        "rowsha": "iDLPKsi/Kx07YAH4Pn5y1a1WChjA49qtRuZO+rQg3fI=",
+        "originContent": "- [`winston-error-format`](https://github.com/ehmicky/winston-error-format): Log",
+        "translatedContent": "ドキュメントが不明瞭または誤字があれば、ページの`Edit`ボタン（鉛筆アイコン）をクリックして修正提案をしてください。"
+      },
+      {
+        "row": 57,
+        "rowsha": "z1DANpCzE4JtWEDvm9zRCiT0XzaZkuTItVLjnP1AFpQ=",
+        "originContent": "  errors with Winston",
+        "translatedContent": ""
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "バグ修正や新機能の追加をお手伝いいただける場合は、当社の"
+      },
+      {
+        "row": 59,
+        "rowsha": "iM16mjyZ3xeRaVa1NhFyJcWFcvJpXxx6k+FCBbbFR1o=",
+        "originContent": "# Support",
+        "translatedContent": "[ガイドライン](https://raw.githubusercontent.com/ehmicky/log-process-errors/main/CONTRIBUTING.md)をご覧ください。プルリクエストは歓迎です！"
+      },
+      {
+        "row": 60,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 61,
+        "rowsha": "e5zyBPlQl/9CIdkWVoMxFxIUODcb+7aDQ0mSgs/GycE=",
+        "originContent": "For any question, _don't hesitate_ to [submit an issue on GitHub](../../issues).",
+        "translatedContent": "素晴らしいコントリビューターに感謝します："
+      },
+      {
+        "row": 62,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 63,
+        "rowsha": "f+yh87wagwni0kWIWl5/fspYi3OBRP1BGC6qlHC0rtI=",
+        "originContent": "Everyone is welcome regardless of personal background. We enforce a",
+        "translatedContent": "<!-- ALL-CONTRIBUTORS-LIST:START -->"
+      },
+      {
+        "row": 64,
+        "rowsha": "r7sl/sah5bOJg2xvg21wxcmYissRgCOuTCdKnsQYr5k=",
+        "originContent": "[Code of conduct](https://raw.githubusercontent.com/ehmicky/log-process-errors/main/CODE_OF_CONDUCT.md) in order to promote a positive and",
+        "translatedContent": "<!-- prettier-ignore-start -->"
+      },
+      {
+        "row": 65,
+        "rowsha": "tZneIDZGZvquno0MBzgp3wgz8zY6y6FHoMJh4+klkC0=",
+        "originContent": "inclusive environment.",
+        "translatedContent": "<!-- markdownlint-disable -->"
+      },
+      {
+        "row": 66,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<table>"
+      },
+      {
+        "row": 67,
+        "rowsha": "1yCoKNoREHM/a6qGHb4WHakxWqjS55ccm8ypI1TWTPM=",
+        "originContent": "# Contributing",
+        "translatedContent": "  <tr>"
+      },
+      {
+        "row": 68,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    <td align=\"center\"><a href=\"https://fosstodon.org/@ehmicky\"><img src=\"https://avatars2.githubusercontent.com/u/8136211?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>ehmicky</b></sub></a><br /><a href=\"https://github.com/ehmicky/log-process-errors/commits?author=ehmicky\" title=\"Code\">💻</a> <a href=\"#design-ehmicky\" title=\"Design\">🎨</a> <a href=\"#ideas-ehmicky\" title=\"Ideas, Planning, & Feedback\">🤔</a> <a href=\"https://github.com/ehmicky/log-process-errors/commits?author=ehmicky\" title=\"Documentation\">📖</a></td>"
+      },
+      {
+        "row": 69,
+        "rowsha": "J8DWwCzmQMbDyGva0e7cIUAG/grmK3TRQTLwzMsVruQ=",
+        "originContent": "This project was made with ❤️. The simplest way to give back is by starring and",
+        "translatedContent": "    <td align=\"center\"><a href=\"https://svachon.com\"><img src=\"https://avatars0.githubusercontent.com/u/170197?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>Steven Vachon</b></sub></a><br /><a href=\"#question-stevenvachon\" title=\"Answering Questions\">💬</a></td>"
+      },
+      {
+        "row": 70,
+        "rowsha": "Y8T65o4qXZd9dl0q6USlTEkCRKLxJYmpruHbgcjQyuQ=",
+        "originContent": "sharing it online.",
+        "translatedContent": "    <td align=\"center\"><a href=\"https://github.com/Hongarc\"><img src=\"https://avatars1.githubusercontent.com/u/19208123?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>Hongarc</b></sub></a><br /><a href=\"https://github.com/ehmicky/log-process-errors/commits?author=Hongarc\" title=\"Documentation\">📖</a> <a href=\"https://github.com/ehmicky/log-process-errors/commits?author=Hongarc\" title=\"Code\">💻</a></td>"
+      },
+      {
+        "row": 71,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    <td align=\"center\"><a href=\"https://github.com/abrenneke\"><img src=\"https://avatars0.githubusercontent.com/u/342540?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>Andy Brenneke</b></sub></a><br /><a href=\"https://github.com/ehmicky/log-process-errors/issues?q=author%3Aabrenneke\" title=\"Bug reports\">🐛</a></td>"
+      },
+      {
+        "row": 72,
+        "rowsha": "aWyB7Hhs8VmpTPcGmn/KQ9MOyGWepTWj1xUIJp5MbOk=",
+        "originContent": "If the documentation is unclear or has a typo, please click on the page's `Edit`",
+        "translatedContent": "  </tr>"
+      },
+      {
+        "row": 73,
+        "rowsha": "UQsSGhHkssjrv8wDTbGGf0iaqksvMWFDkj0bn5u1Exc=",
+        "originContent": "button (pencil icon) and suggest a correction.",
+        "translatedContent": "</table>"
+      },
+      {
+        "row": 74,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 75,
+        "rowsha": "LBmkeunXvEEHG0lfGuM3OX76vc99ZJbw/5jDCmowhDY=",
+        "originContent": "If you would like to help us fix a bug or add a new feature, please check our",
+        "translatedContent": "<!-- markdownlint-enable -->"
+      },
+      {
+        "row": 76,
+        "rowsha": "NcP+8IQknyrfCCl5x0UntJykCJPz19NHkC9SDCF+tyg=",
+        "originContent": "[guidelines](https://raw.githubusercontent.com/ehmicky/log-process-errors/main/CONTRIBUTING.md). Pull requests are welcome!",
+        "translatedContent": "<!-- prettier-ignore-end -->"
+      },
+      {
+        "row": 77,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 78,
+        "rowsha": "YyEIl2ZkwTTwFuchLblxxQLM1tpFcQi8LYScs5Bcm8s=",
+        "originContent": "Thanks go to our wonderful contributors:",
+        "translatedContent": "<!-- ALL-CONTRIBUTORS-LIST:END -->"
+      },
+      {
+        "row": 79,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 80,
+        "rowsha": "tmWmIbQ7Pc8jUf7CRJhbqLIRSy2UB92/QNNIB2Y06Xw=",
+        "originContent": "<!-- ALL-CONTRIBUTORS-LIST:START -->",
+        "translatedContent": ""
+      },
+      {
+        "row": 81,
+        "rowsha": "ssBZLSFuOsdKP9W+2/fEk9sDQsat3rzvieRJY0pb6XI=",
+        "originContent": "<!-- prettier-ignore-start -->",
+        "translatedContent": ""
+      },
+      {
+        "row": 82,
+        "rowsha": "Uq4gYRcFQPJh4caBj95VqxfkTUTIPccyTSTcv4x6XkI=",
+        "originContent": "<!-- markdownlint-disable -->",
+        "translatedContent": ""
+      },
+      {
+        "row": 83,
+        "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
+        "originContent": "<table>",
+        "translatedContent": ""
+      },
+      {
+        "row": 84,
+        "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+        "originContent": "  <tr>",
+        "translatedContent": ""
+      },
+      {
+        "row": 85,
+        "rowsha": "ygo0Gm4pTY059nBM0aCIybRx+E6hGXnSjF3JuDj0jw0=",
+        "originContent": "    <td align=\"center\"><a href=\"https://fosstodon.org/@ehmicky\"><img src=\"https://avatars2.githubusercontent.com/u/8136211?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>ehmicky</b></sub></a><br /><a href=\"https://github.com/ehmicky/log-process-errors/commits?author=ehmicky\" title=\"Code\">💻</a> <a href=\"#design-ehmicky\" title=\"Design\">🎨</a> <a href=\"#ideas-ehmicky\" title=\"Ideas, Planning, & Feedback\">🤔</a> <a href=\"https://github.com/ehmicky/log-process-errors/commits?author=ehmicky\" title=\"Documentation\">📖</a></td>",
+        "translatedContent": ""
+      },
+      {
+        "row": 86,
+        "rowsha": "deFrIHAjTjdj9NCZKG7YfxBmlB5t8wohjeYtaoalHZ4=",
+        "originContent": "    <td align=\"center\"><a href=\"https://svachon.com\"><img src=\"https://avatars0.githubusercontent.com/u/170197?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>Steven Vachon</b></sub></a><br /><a href=\"#question-stevenvachon\" title=\"Answering Questions\">💬</a></td>",
+        "translatedContent": ""
+      },
+      {
+        "row": 87,
+        "rowsha": "y2NAuL1rE4jcD3mVmWRSr6EtSrdOe1rRq3kctxt8G04=",
+        "originContent": "    <td align=\"center\"><a href=\"https://github.com/Hongarc\"><img src=\"https://avatars1.githubusercontent.com/u/19208123?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>Hongarc</b></sub></a><br /><a href=\"https://github.com/ehmicky/log-process-errors/commits?author=Hongarc\" title=\"Documentation\">📖</a> <a href=\"https://github.com/ehmicky/log-process-errors/commits?author=Hongarc\" title=\"Code\">💻</a></td>",
+        "translatedContent": ""
+      },
+      {
+        "row": 88,
+        "rowsha": "oJ0yogfq2eI9MpKlRdIFL9x6CLg2GM6DPBfWy+wltpY=",
+        "originContent": "    <td align=\"center\"><a href=\"https://github.com/abrenneke\"><img src=\"https://avatars0.githubusercontent.com/u/342540?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>Andy Brenneke</b></sub></a><br /><a href=\"https://github.com/ehmicky/log-process-errors/issues?q=author%3Aabrenneke\" title=\"Bug reports\">🐛</a></td>",
+        "translatedContent": ""
+      },
+      {
+        "row": 89,
+        "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+        "originContent": "  </tr>",
+        "translatedContent": ""
+      },
+      {
+        "row": 90,
+        "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
+        "originContent": "</table>",
+        "translatedContent": ""
+      },
+      {
+        "row": 91,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 92,
+        "rowsha": "St3F7fgIp3CrvjXNAn4n3mHDHawRGNdUMz95sVtz+Q8=",
+        "originContent": "<!-- markdownlint-enable -->",
+        "translatedContent": ""
+      },
+      {
+        "row": 93,
+        "rowsha": "uRGuAVjSn+ih9TVnJ+opFObRVCI0lBdGCudHerNNMaw=",
+        "originContent": "<!-- prettier-ignore-end -->",
+        "translatedContent": ""
+      },
+      {
+        "row": 94,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 95,
+        "rowsha": "PA4edqu68ibCSQIPyfaWL2I5i8BzGjPaOD/SAQL9CKg=",
+        "originContent": "<!-- ALL-CONTRIBUTORS-LIST:END -->",
+        "translatedContent": ""
+      },
+      {
+        "row": 96,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

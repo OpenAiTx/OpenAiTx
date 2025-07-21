@@ -1,0 +1,1271 @@
+[
+  {
+    "Id": 1,
+    "Content": "# nanoMODBUS - A compact MODBUS RTU/TCP C library for embedded/microcontrollers\n\n**If you found this library useful, buy me a coffee on**\n[<img src='https://storage.ko-fi.com/cdn/brandasset/logo_white_stroke.png' width='80'>](https://ko-fi.com/B0B2LK779)\n\nnanoMODBUS is a small C library that implements the Modbus protocol. It is especially useful in embedded and\nresource-constrained systems like microcontrollers.  \nIts main features are:\n\n- Compact size\n    - Only ~2000 lines of code\n    - Client and server code can be disabled, if not needed\n- No dynamic memory allocations\n- Transports:\n    - RTU\n    - TCP\n- Roles:\n    - Client\n    - Server\n- Function codes:\n    - 01 (0x01) Read Coils\n    - 02 (0x02) Read Discrete Inputs\n    - 03 (0x03) Read Holding Registers\n    - 04 (0x04) Read Input Registers\n    - 05 (0x05) Write Single Coil\n    - 06 (0x06) Write Single Register\n    - 15 (0x0F) Write Multiple Coils\n    - 16 (0x10) Write Multiple registers\n    - 20 (0x14) Read File Record\n    - 21 (0x15) Write File Record\n    - 23 (0x17) Read/Write Multiple registers\n    - 43/14 (0x2B/0x0E) Read Device Identification\n- Platform-agnostic\n    - Requires only C99 and its standard library\n    - Data transport read/write functions are implemented by the user\n- User-definable CRC function for better performance\n- Broadcast requests and responses\n\n## At a glance\n",
+    "ContentSha": "5u+rKTXFhbRwz/oM6+T7ogh/Ly6X0orD9quuhaUO0Wc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># nanoMODBUS - 組み込み/マイコン向けのコンパクトなMODBUS RTU/TCP Cライブラリ\n\n**このライブラリが役に立ったら、コーヒーをおごってください**\n[<img src='https://storage.ko-fi.com/cdn/brandasset/logo_white_stroke.png' width='80'>](https://ko-fi.com/B0B2LK779)\n\nnanoMODBUSはModbusプロトコルを実装した小さなCライブラリです。特に組み込みや\nリソース制約のあるマイコンのようなシステムで有用です。  \n主な特徴は以下の通りです：\n\n- コンパクトなサイズ\n    - 約2000行のコードのみ\n    - 必要に応じてクライアントとサーバーのコードを無効化可能\n- 動的メモリアロケーションなし\n- トランスポート：\n    - RTU\n    - TCP\n- 役割：\n    - クライアント\n    - サーバー\n- ファンクションコード：\n    - 01 (0x01) コイルの読み取り\n    - 02 (0x02) 離散入力の読み取り\n    - 03 (0x03) ホールディングレジスタの読み取り\n    - 04 (0x04) 入力レジスタの読み取り\n    - 05 (0x05) 単一コイルの書き込み\n    - 06 (0x06) 単一レジスタの書き込み\n    - 15 (0x0F) 複数コイルの書き込み\n    - 16 (0x10) 複数レジスタの書き込み\n    - 20 (0x14) ファイルレコードの読み取り\n    - 21 (0x15) ファイルレコードの書き込み\n    - 23 (0x17) 複数レジスタの読み書き\n    - 43/14 (0x2B/0x0E) デバイス識別情報の読み取り\n- プラットフォーム非依存\n    - C99と標準ライブラリのみを必要とする\n    - データトランスポートの読み書き関数はユーザー実装\n- 高速化のためのユーザー定義CRC関数対応\n- ブロードキャスト要求および応答対応\n\n## 一目でわかる特徴\n</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "SQ5Dqu3acJgXCDEhg7tiiBBGP17sd3f0NA6kHVLqdFE=",
+        "originContent": "# nanoMODBUS - A compact MODBUS RTU/TCP C library for embedded/microcontrollers",
+        "translatedContent": "<translate-content># nanoMODBUS - 組み込み/マイコン向けのコンパクトなMODBUS RTU/TCP Cライブラリ"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "q29H5TedUvkqIa3PS2pnwbuRh+mvhkqcac1+AxgC5/U=",
+        "originContent": "**If you found this library useful, buy me a coffee on**",
+        "translatedContent": "**このライブラリが役に立ったら、コーヒーをおごってください**"
+      },
+      {
+        "row": 4,
+        "rowsha": "Hhl9/gDT3/hWSZZG6PVmRyPsx3xchkkW1LN02nnarVQ=",
+        "originContent": "[<img src='https://storage.ko-fi.com/cdn/brandasset/logo_white_stroke.png' width='80'>](https://ko-fi.com/B0B2LK779)",
+        "translatedContent": "[<img src='https://storage.ko-fi.com/cdn/brandasset/logo_white_stroke.png' width='80'>](https://ko-fi.com/B0B2LK779)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "4ec2HYurDpng7IKOqXJEKFTxTRyVPHK+Sk/77+tIWek=",
+        "originContent": "nanoMODBUS is a small C library that implements the Modbus protocol. It is especially useful in embedded and",
+        "translatedContent": "nanoMODBUSはModbusプロトコルを実装した小さなCライブラリです。特に組み込みや"
+      },
+      {
+        "row": 7,
+        "rowsha": "ZQR8lrtv2CfRfKkTjX6Og3xuV9KBIsXZRNkI/bU1+q4=",
+        "originContent": "resource-constrained systems like microcontrollers.  ",
+        "translatedContent": "リソース制約のあるマイコンのようなシステムで有用です。  "
+      },
+      {
+        "row": 8,
+        "rowsha": "Cm14uZ/D5IGzDUVRsFJSHoIUicUljOAO0pwDJc71IHQ=",
+        "originContent": "Its main features are:",
+        "translatedContent": "主な特徴は以下の通りです："
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "pw4FZbzv0vskAyd8hoQVLEIpRTwqaA7T2Xj8DDCfChs=",
+        "originContent": "- Compact size",
+        "translatedContent": "- コンパクトなサイズ"
+      },
+      {
+        "row": 11,
+        "rowsha": "S9MuQWhF84fWiE6hC2NYwoBSj8znx1tg2vmOpvzUeYQ=",
+        "originContent": "    - Only ~2000 lines of code",
+        "translatedContent": "    - 約2000行のコードのみ"
+      },
+      {
+        "row": 12,
+        "rowsha": "zVRWMqpAGeXggJdJKbXJIADsP76xXpefyZS1ApO0VKI=",
+        "originContent": "    - Client and server code can be disabled, if not needed",
+        "translatedContent": "    - 必要に応じてクライアントとサーバーのコードを無効化可能"
+      },
+      {
+        "row": 13,
+        "rowsha": "Fond6rbZfzPktYlgf0R+DgC06N6pUvonbJ5NO4bjU5M=",
+        "originContent": "- No dynamic memory allocations",
+        "translatedContent": "- 動的メモリアロケーションなし"
+      },
+      {
+        "row": 14,
+        "rowsha": "b4W7RXgnIKdupxB7Rs/hk1zgQrSYoDWXRDPhjOIU9hM=",
+        "originContent": "- Transports:",
+        "translatedContent": "- トランスポート："
+      },
+      {
+        "row": 15,
+        "rowsha": "8toO0YWDb+LOeQf/CkzNTH5oMUtZzVtt6+ZWPUCvA9M=",
+        "originContent": "    - RTU",
+        "translatedContent": "    - RTU"
+      },
+      {
+        "row": 16,
+        "rowsha": "tJRlE25L6dCU4LN7Pf1QcH7inM31UL92Z3LLSMy0MLE=",
+        "originContent": "    - TCP",
+        "translatedContent": "    - TCP"
+      },
+      {
+        "row": 17,
+        "rowsha": "xQmmrG64qyPsGOIHN9N10yk2D/ZwbZht+FSBRwWYmis=",
+        "originContent": "- Roles:",
+        "translatedContent": "- 役割："
+      },
+      {
+        "row": 18,
+        "rowsha": "Bu0Q/EYMSS3+DYwDdNn9OKsyAKfFwPUkIMlvfQjCL98=",
+        "originContent": "    - Client",
+        "translatedContent": "    - クライアント"
+      },
+      {
+        "row": 19,
+        "rowsha": "3p4XPZFXX4cwge3knk1qPZhR2rPwoFWFjme3G8oA4V8=",
+        "originContent": "    - Server",
+        "translatedContent": "    - サーバー"
+      },
+      {
+        "row": 20,
+        "rowsha": "yipN5pgGbZq1i1rWEcPNX79xWbaFnoOH8dUZ2Ohod/k=",
+        "originContent": "- Function codes:",
+        "translatedContent": "- ファンクションコード："
+      },
+      {
+        "row": 21,
+        "rowsha": "GpJo9PwRCh3Z8ubxkqpcA5W2zhWiuUIP4KPgF+1Jkcc=",
+        "originContent": "    - 01 (0x01) Read Coils",
+        "translatedContent": "    - 01 (0x01) コイルの読み取り"
+      },
+      {
+        "row": 22,
+        "rowsha": "PKJ8RPm6BWl0rDg3hmDeAOdegEnUWw0WNOBa5foDtP8=",
+        "originContent": "    - 02 (0x02) Read Discrete Inputs",
+        "translatedContent": "    - 02 (0x02) 離散入力の読み取り"
+      },
+      {
+        "row": 23,
+        "rowsha": "iAXlKczjzYLHTQAER8GK7bnjmRm1iVEBGSRcB5gU4oY=",
+        "originContent": "    - 03 (0x03) Read Holding Registers",
+        "translatedContent": "    - 03 (0x03) ホールディングレジスタの読み取り"
+      },
+      {
+        "row": 24,
+        "rowsha": "zKZA/xN2v0XVQfU5FtNhTmtyNndwK/oa7IZXB0SOcrw=",
+        "originContent": "    - 04 (0x04) Read Input Registers",
+        "translatedContent": "    - 04 (0x04) 入力レジスタの読み取り"
+      },
+      {
+        "row": 25,
+        "rowsha": "taikb+lCjNYWRuVA7r1D/xBFuY2FpOlSWypX7lw5/wE=",
+        "originContent": "    - 05 (0x05) Write Single Coil",
+        "translatedContent": "    - 05 (0x05) 単一コイルの書き込み"
+      },
+      {
+        "row": 26,
+        "rowsha": "BnMlcCchHio+YOALsagTaiTBPWb6CmESQjnZ3rcvbQg=",
+        "originContent": "    - 06 (0x06) Write Single Register",
+        "translatedContent": "    - 06 (0x06) 単一レジスタの書き込み"
+      },
+      {
+        "row": 27,
+        "rowsha": "SymDsLnZimkhjNG0eBEaY431qXk2m7AH6hixJI2IbNI=",
+        "originContent": "    - 15 (0x0F) Write Multiple Coils",
+        "translatedContent": "    - 15 (0x0F) 複数コイルの書き込み"
+      },
+      {
+        "row": 28,
+        "rowsha": "w/yluIyPdYC5ZuMo9IzcIgDfF3t+FE8eTfdDxd4A+jY=",
+        "originContent": "    - 16 (0x10) Write Multiple registers",
+        "translatedContent": "    - 16 (0x10) 複数レジスタの書き込み"
+      },
+      {
+        "row": 29,
+        "rowsha": "4Rc0VHUtd2v8JkBf+un8OBXhTv+tVcrs8yE+Gu+bcG0=",
+        "originContent": "    - 20 (0x14) Read File Record",
+        "translatedContent": "    - 20 (0x14) ファイルレコードの読み取り"
+      },
+      {
+        "row": 30,
+        "rowsha": "sjce1HAx5GxEv1G6p6HUhco1t/0uJLDbU3QPKeqti3I=",
+        "originContent": "    - 21 (0x15) Write File Record",
+        "translatedContent": "    - 21 (0x15) ファイルレコードの書き込み"
+      },
+      {
+        "row": 31,
+        "rowsha": "DF4NuUKXfF/DsAK65ZVl6zYnRFXfgy841j78THNmCuM=",
+        "originContent": "    - 23 (0x17) Read/Write Multiple registers",
+        "translatedContent": "    - 23 (0x17) 複数レジスタの読み書き"
+      },
+      {
+        "row": 32,
+        "rowsha": "9L6eIgR5w61JMtByYIpUX7gAquhaJYETP46sTCDDFJo=",
+        "originContent": "    - 43/14 (0x2B/0x0E) Read Device Identification",
+        "translatedContent": "    - 43/14 (0x2B/0x0E) デバイス識別情報の読み取り"
+      },
+      {
+        "row": 33,
+        "rowsha": "QM263UdoxiQtvtMgp2n9ctad5KnAk4L8hvGHT8hcnCQ=",
+        "originContent": "- Platform-agnostic",
+        "translatedContent": "- プラットフォーム非依存"
+      },
+      {
+        "row": 34,
+        "rowsha": "qO5pftfU92kDyuzdFh/g4GbwlmkRwdfxqcPm5u5E5+E=",
+        "originContent": "    - Requires only C99 and its standard library",
+        "translatedContent": "    - C99と標準ライブラリのみを必要とする"
+      },
+      {
+        "row": 35,
+        "rowsha": "R/qSIAcpB4EokDkwzXR5nd85jfTxaJvDZdwLjYsjLTE=",
+        "originContent": "    - Data transport read/write functions are implemented by the user",
+        "translatedContent": "    - データトランスポートの読み書き関数はユーザー実装"
+      },
+      {
+        "row": 36,
+        "rowsha": "E9YoroAnGaQweXM0OE9/PKA1dy/CyQKJCa2PB2Dt/Ps=",
+        "originContent": "- User-definable CRC function for better performance",
+        "translatedContent": "- 高速化のためのユーザー定義CRC関数対応"
+      },
+      {
+        "row": 37,
+        "rowsha": "PvLn3rxUfGPli7/fP1zgaAI06UhNGnH+BvQT4bPpA1w=",
+        "originContent": "- Broadcast requests and responses",
+        "translatedContent": "- ブロードキャスト要求および応答対応"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "1QFag4yX5vPb3ir+STHwqAQeykwQx4OwUmT3HMzrMAs=",
+        "originContent": "## At a glance",
+        "translatedContent": "## 一目でわかる特徴"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```C\n#include <stdio.h>\n\n#include \"nanomodbus.h\"\n#include \"my_platform_stuff.h\"\n\nint main(int argc, char* argv[]) {\n    // Set up the TCP connection\n    void* conn = my_connect_tcp(argv[1], argv[2]);\n    if (!conn) {\n        fprintf(stderr, \"Error connecting to server\\n\");\n        return 1;\n    }\n\n    // my_transport_read() and my_transport_write() are implemented by the user \n    nmbs_platform_conf platform_conf;\n    nmbs_platform_conf_create(&platform_conf);\n    platform_conf.transport = NMBS_TRANSPORT_TCP;\n    platform_conf.read = my_transport_read;\n    platform_conf.write = my_transport_write;\n    platform_conf.arg = conn;    // Passing our TCP connection handle to the read/write functions\n\n    // Create the modbus client\n    nmbs_t nmbs;\n    nmbs_error err = nmbs_client_create(&nmbs, &platform_conf);\n    if (err != NMBS_ERROR_NONE) {\n        fprintf(stderr, \"Error creating modbus client\\n\");\n        return 1;\n    }\n\n    // Set only the response timeout. Byte timeout will be handled by the TCP connection\n    nmbs_set_read_timeout(&nmbs, 1000);\n\n    // Write 2 holding registers at address 26\n    uint16_t w_regs[2] = {123, 124};\n    err = nmbs_write_multiple_registers(&nmbs, 26, 2, w_regs);\n    if (err != NMBS_ERROR_NONE) {\n        fprintf(stderr, \"Error writing register at address 26 - %s\", nmbs_strerror(err));\n        return 1;\n    }\n\n    // Read 2 holding registers from address 26\n    uint16_t r_regs[2];\n    err = nmbs_read_holding_registers(&nmbs, 26, 2, r_regs);\n    if (err != NMBS_ERROR_NONE) {\n        fprintf(stderr, \"Error reading 2 holding registers at address 26 - %s\\n\", nmbs_strerror(err));\n        return 1;\n    }\n    \n    // Close the TCP connection\n    my_disconnect(conn);\n    \n    return 0;\n}\n```",
+    "ContentSha": "19HoKNsyjtDLPzetv6G57Tup1JshHgVbLRcuP+Ozhsw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```C\n#include <stdio.h>\n\n#include \"nanomodbus.h\"\n#include \"my_platform_stuff.h\"\n\nint main(int argc, char* argv[]) {\n    // Set up the TCP connection\n    void* conn = my_connect_tcp(argv[1], argv[2]);\n    if (!conn) {\n        fprintf(stderr, \"Error connecting to server\\n\");\n        return 1;\n    }\n\n    // my_transport_read() and my_transport_write() are implemented by the user \n    nmbs_platform_conf platform_conf;\n    nmbs_platform_conf_create(&platform_conf);\n    platform_conf.transport = NMBS_TRANSPORT_TCP;\n    platform_conf.read = my_transport_read;\n    platform_conf.write = my_transport_write;\n    platform_conf.arg = conn;    // Passing our TCP connection handle to the read/write functions\n\n    // Create the modbus client\n    nmbs_t nmbs;\n    nmbs_error err = nmbs_client_create(&nmbs, &platform_conf);\n    if (err != NMBS_ERROR_NONE) {\n        fprintf(stderr, \"Error creating modbus client\\n\");\n        return 1;\n    }\n\n    // Set only the response timeout. Byte timeout will be handled by the TCP connection\n    nmbs_set_read_timeout(&nmbs, 1000);\n\n    // Write 2 holding registers at address 26\n    uint16_t w_regs[2] = {123, 124};\n    err = nmbs_write_multiple_registers(&nmbs, 26, 2, w_regs);\n    if (err != NMBS_ERROR_NONE) {\n        fprintf(stderr, \"Error writing register at address 26 - %s\", nmbs_strerror(err));\n        return 1;\n    }\n\n    // Read 2 holding registers from address 26\n    uint16_t r_regs[2];\n    err = nmbs_read_holding_registers(&nmbs, 26, 2, r_regs);\n    if (err != NMBS_ERROR_NONE) {\n        fprintf(stderr, \"Error reading 2 holding registers at address 26 - %s\\n\", nmbs_strerror(err));\n        return 1;\n    }\n    \n    // Close the TCP connection\n    my_disconnect(conn);\n    \n    return 0;\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "HJAT3LC2oOIvzk2XOKsKclL/l5Flx3BMOS4um1Bhqho=",
+        "originContent": "```C",
+        "translatedContent": "```C"
+      },
+      {
+        "row": 2,
+        "rowsha": "HoOeMmhdUl1MGWX5upkmdYK7Viy7HZ66lLHIBYzeLy4=",
+        "originContent": "#include <stdio.h>",
+        "translatedContent": "#include <stdio.h>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "kVxel+8+lrap99tRghoIqyGvupjOCrHj5ygUWX10y/A=",
+        "originContent": "#include \"nanomodbus.h\"",
+        "translatedContent": "#include \"nanomodbus.h\""
+      },
+      {
+        "row": 5,
+        "rowsha": "gO3Vb9H5uRzP30rbTSdbof3RB5oni4JHY+dmlWyddi4=",
+        "originContent": "#include \"my_platform_stuff.h\"",
+        "translatedContent": "#include \"my_platform_stuff.h\""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "U4QxgqoMBW/nyA98JtORS2p1JiS7kI+61V0CcgE75Z0=",
+        "originContent": "int main(int argc, char* argv[]) {",
+        "translatedContent": "int main(int argc, char* argv[]) {"
+      },
+      {
+        "row": 8,
+        "rowsha": "QHwhIwES76lk+7hGYat9Q+rZcZfL+sPQG3uEPQIov/k=",
+        "originContent": "    // Set up the TCP connection",
+        "translatedContent": "    // Set up the TCP connection"
+      },
+      {
+        "row": 9,
+        "rowsha": "JYPaLktIAP6ExyBp9rA8onEVTwUQSYQ52oBaTptq8/I=",
+        "originContent": "    void* conn = my_connect_tcp(argv[1], argv[2]);",
+        "translatedContent": "    void* conn = my_connect_tcp(argv[1], argv[2]);"
+      },
+      {
+        "row": 10,
+        "rowsha": "Oqdq4SivX/Kwv8Orqx20Ut/mAtkYfKBvyFc8FFy8Nqw=",
+        "originContent": "    if (!conn) {",
+        "translatedContent": "    if (!conn) {"
+      },
+      {
+        "row": 11,
+        "rowsha": "w3s61MWeoXLwQrB7WEbg17Hsa9UfD+LxCBDP8z7YJ70=",
+        "originContent": "        fprintf(stderr, \"Error connecting to server\\n\");",
+        "translatedContent": "        fprintf(stderr, \"Error connecting to server\\n\");"
+      },
+      {
+        "row": 12,
+        "rowsha": "o8zr4dGQtO098OL/QTAI/Vxj/sReSOIkx4wA8Dvb6P0=",
+        "originContent": "        return 1;",
+        "translatedContent": "        return 1;"
+      },
+      {
+        "row": 13,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "acKxt5s7ROEXIPsIkPVR7vPaKMOUNNLC2w2FvzGLRA0=",
+        "originContent": "    // my_transport_read() and my_transport_write() are implemented by the user ",
+        "translatedContent": "    // my_transport_read() and my_transport_write() are implemented by the user "
+      },
+      {
+        "row": 16,
+        "rowsha": "j3sqvMn2BlLeiC2ibRxv8M/QKzWnzD254onZL/urqvs=",
+        "originContent": "    nmbs_platform_conf platform_conf;",
+        "translatedContent": "    nmbs_platform_conf platform_conf;"
+      },
+      {
+        "row": 17,
+        "rowsha": "N9XDPoIp9QYTzNiT29o/yo7n1EUrQi7t1JSGEnSgIjM=",
+        "originContent": "    nmbs_platform_conf_create(&platform_conf);",
+        "translatedContent": "    nmbs_platform_conf_create(&platform_conf);"
+      },
+      {
+        "row": 18,
+        "rowsha": "LyfyXaZxDOz3319HORbFw8Lov69gqsTXbZ+/vuwp0pg=",
+        "originContent": "    platform_conf.transport = NMBS_TRANSPORT_TCP;",
+        "translatedContent": "    platform_conf.transport = NMBS_TRANSPORT_TCP;"
+      },
+      {
+        "row": 19,
+        "rowsha": "GK4IUcpOqRaXHsANzkb9frhZCr/ixSeUf6v3R2fQAZQ=",
+        "originContent": "    platform_conf.read = my_transport_read;",
+        "translatedContent": "    platform_conf.read = my_transport_read;"
+      },
+      {
+        "row": 20,
+        "rowsha": "1SPzIsoXxNI/XnetfM02noWbBABwypd+01Z7zIWrLWY=",
+        "originContent": "    platform_conf.write = my_transport_write;",
+        "translatedContent": "    platform_conf.write = my_transport_write;"
+      },
+      {
+        "row": 21,
+        "rowsha": "EZFaOKgEp4Ia9xhbuM4iCy3Qpm/WzPLHkkXJhrx2B04=",
+        "originContent": "    platform_conf.arg = conn;    // Passing our TCP connection handle to the read/write functions",
+        "translatedContent": "    platform_conf.arg = conn;    // Passing our TCP connection handle to the read/write functions"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "UhBHxDFk4hgx8aqvI3RiywBqTF66PURleaNdzFc4A2Q=",
+        "originContent": "    // Create the modbus client",
+        "translatedContent": "    // Create the modbus client"
+      },
+      {
+        "row": 24,
+        "rowsha": "w7+CbF6IUCD4sVoKn1BPxHs8vbDAXBMG8nVRsuanwJs=",
+        "originContent": "    nmbs_t nmbs;",
+        "translatedContent": "    nmbs_t nmbs;"
+      },
+      {
+        "row": 25,
+        "rowsha": "XmkHwLY63h7CYNNQp9uj1tstQtvxFvnYLhDHZFyfZ68=",
+        "originContent": "    nmbs_error err = nmbs_client_create(&nmbs, &platform_conf);",
+        "translatedContent": "    nmbs_error err = nmbs_client_create(&nmbs, &platform_conf);"
+      },
+      {
+        "row": 26,
+        "rowsha": "g7uAZNm7v6WmbSALoSgCh351uUoEW97YlmIV0nVwd+c=",
+        "originContent": "    if (err != NMBS_ERROR_NONE) {",
+        "translatedContent": "    if (err != NMBS_ERROR_NONE) {"
+      },
+      {
+        "row": 27,
+        "rowsha": "dAO/6hwK7kJo04U5ZI9RDMfD8NOFKRZeOv0LNYiCVCo=",
+        "originContent": "        fprintf(stderr, \"Error creating modbus client\\n\");",
+        "translatedContent": "        fprintf(stderr, \"Error creating modbus client\\n\");"
+      },
+      {
+        "row": 28,
+        "rowsha": "o8zr4dGQtO098OL/QTAI/Vxj/sReSOIkx4wA8Dvb6P0=",
+        "originContent": "        return 1;",
+        "translatedContent": "        return 1;"
+      },
+      {
+        "row": 29,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "UXWOGZK1oHeOYTQD6TkpCa8GTsbYO8Mefs98dBzWO1A=",
+        "originContent": "    // Set only the response timeout. Byte timeout will be handled by the TCP connection",
+        "translatedContent": "    // Set only the response timeout. Byte timeout will be handled by the TCP connection"
+      },
+      {
+        "row": 32,
+        "rowsha": "mGJf8TBtSFTalnjt1XtRHjWgASYyFHR7l/iRGyMtNfo=",
+        "originContent": "    nmbs_set_read_timeout(&nmbs, 1000);",
+        "translatedContent": "    nmbs_set_read_timeout(&nmbs, 1000);"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "0EPvn/eS7VUVFQa2pDv9GTCCEU+8qOi4/H69ELdY9KM=",
+        "originContent": "    // Write 2 holding registers at address 26",
+        "translatedContent": "    // Write 2 holding registers at address 26"
+      },
+      {
+        "row": 35,
+        "rowsha": "FNppQEcGSkD63IHkbsKW6noRZ6zAUu+7ICWvsVG0GWg=",
+        "originContent": "    uint16_t w_regs[2] = {123, 124};",
+        "translatedContent": "    uint16_t w_regs[2] = {123, 124};"
+      },
+      {
+        "row": 36,
+        "rowsha": "lOglaqqkfq3I/77x1WgxV0uNLNU+o/kXMl71BkW1pk0=",
+        "originContent": "    err = nmbs_write_multiple_registers(&nmbs, 26, 2, w_regs);",
+        "translatedContent": "    err = nmbs_write_multiple_registers(&nmbs, 26, 2, w_regs);"
+      },
+      {
+        "row": 37,
+        "rowsha": "g7uAZNm7v6WmbSALoSgCh351uUoEW97YlmIV0nVwd+c=",
+        "originContent": "    if (err != NMBS_ERROR_NONE) {",
+        "translatedContent": "    if (err != NMBS_ERROR_NONE) {"
+      },
+      {
+        "row": 38,
+        "rowsha": "xio408H6agmOdPlZwOSCOMqiWxnLLS8keu+4iqRj+4g=",
+        "originContent": "        fprintf(stderr, \"Error writing register at address 26 - %s\", nmbs_strerror(err));",
+        "translatedContent": "        fprintf(stderr, \"Error writing register at address 26 - %s\", nmbs_strerror(err));"
+      },
+      {
+        "row": 39,
+        "rowsha": "o8zr4dGQtO098OL/QTAI/Vxj/sReSOIkx4wA8Dvb6P0=",
+        "originContent": "        return 1;",
+        "translatedContent": "        return 1;"
+      },
+      {
+        "row": 40,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "cQ/wLbgL3fCdrJ9z28xSLDHfolibYrzMdazDlzlzxlQ=",
+        "originContent": "    // Read 2 holding registers from address 26",
+        "translatedContent": "    // Read 2 holding registers from address 26"
+      },
+      {
+        "row": 43,
+        "rowsha": "w60i8uwM5BE2n9D7SIbgJOrDlZytcL5MiQ3E633Gs4A=",
+        "originContent": "    uint16_t r_regs[2];",
+        "translatedContent": "    uint16_t r_regs[2];"
+      },
+      {
+        "row": 44,
+        "rowsha": "AE9/UYYn9h8/4A0OrjHwv8mkuhqO9/rTsyJYQSI7u3U=",
+        "originContent": "    err = nmbs_read_holding_registers(&nmbs, 26, 2, r_regs);",
+        "translatedContent": "    err = nmbs_read_holding_registers(&nmbs, 26, 2, r_regs);"
+      },
+      {
+        "row": 45,
+        "rowsha": "g7uAZNm7v6WmbSALoSgCh351uUoEW97YlmIV0nVwd+c=",
+        "originContent": "    if (err != NMBS_ERROR_NONE) {",
+        "translatedContent": "    if (err != NMBS_ERROR_NONE) {"
+      },
+      {
+        "row": 46,
+        "rowsha": "sb1gElCakPRS/3GR4wq0nk0Uzrm/MO+xC0UNejEeZbs=",
+        "originContent": "        fprintf(stderr, \"Error reading 2 holding registers at address 26 - %s\\n\", nmbs_strerror(err));",
+        "translatedContent": "        fprintf(stderr, \"Error reading 2 holding registers at address 26 - %s\\n\", nmbs_strerror(err));"
+      },
+      {
+        "row": 47,
+        "rowsha": "o8zr4dGQtO098OL/QTAI/Vxj/sReSOIkx4wA8Dvb6P0=",
+        "originContent": "        return 1;",
+        "translatedContent": "        return 1;"
+      },
+      {
+        "row": 48,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 49,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 50,
+        "rowsha": "zEq/vCeGC6JC1vfLVurRMArdyxo/uSqeuXrF4SGyA/k=",
+        "originContent": "    // Close the TCP connection",
+        "translatedContent": "    // Close the TCP connection"
+      },
+      {
+        "row": 51,
+        "rowsha": "ys3BMvrV1ecVjx/ovM4RVTKxsZg2OYE85mX3nHqH10I=",
+        "originContent": "    my_disconnect(conn);",
+        "translatedContent": "    my_disconnect(conn);"
+      },
+      {
+        "row": 52,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 53,
+        "rowsha": "8pHc/FvRZDBIWcWWwH1A5WovfJ9PNWM+KWmFZTQ5CMc=",
+        "originContent": "    return 0;",
+        "translatedContent": "    return 0;"
+      },
+      {
+        "row": 54,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 55,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Installation\n\n### Manual\n\nJust copy `nanomodbus.c` and `nanomodbus.h` inside your application codebase.\n\n### CMake project\n\nnanomodbus supports library linking by using CMake.\n",
+    "ContentSha": "hfyCX1pPA2L1bI4Uom9FJ3Y/ALqHzBZ7hLLGIeWgud0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## インストール\n\n### 手動\n\n`nanomodbus.c` と `nanomodbus.h` をアプリケーションのコードベース内にコピーしてください。\n\n### CMake プロジェクト\n\nnanomodbus は CMake を使用したライブラリリンクをサポートしています。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 2,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 手動"
+      },
+      {
+        "row": 4,
+        "rowsha": "9OG0gmh7hn/goGKXiq1OEJ97bhWCg/x49US2cADdZYc=",
+        "originContent": "### Manual",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`nanomodbus.c` と `nanomodbus.h` をアプリケーションのコードベース内にコピーしてください。"
+      },
+      {
+        "row": 6,
+        "rowsha": "LmpBXqbdySXmUlHYN3VYBKdKt5Y6m+74vVIxoPHp24Q=",
+        "originContent": "Just copy `nanomodbus.c` and `nanomodbus.h` inside your application codebase.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### CMake プロジェクト"
+      },
+      {
+        "row": 8,
+        "rowsha": "52wrgLwHrMO5XPAN3d/05hOsM/DU/gOXeEEk9ltNvYU=",
+        "originContent": "### CMake project",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "nanomodbus は CMake を使用したライブラリリンクをサポートしています。"
+      },
+      {
+        "row": 10,
+        "rowsha": "dAquRKiWYv/xYMxkP8F8O6Re9oVpXuKOjKOXPBdeFA0=",
+        "originContent": "nanomodbus supports library linking by using CMake.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```cmake\nFetchContent_Declare(\n        nanomodbus\n        GIT_REPOSITORY https://github.com/debevv/nanoMODBUS\n        GIT_TAG master # or the version you want\n        GIT_SHALLOW TRUE\n)\n\nFetchContent_MakeAvailable(nanomodbus)\n\n#...\n\nadd_executable(your_program source_codes)\ntarget_link_libraries(your_program nanomodbus)\n```",
+    "ContentSha": "Exejdc+f1dsZ5EDtZOuSVzMwibejtWCDtfWXuln1SCY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```cmake\nFetchContent_Declare(\n        nanomodbus\n        GIT_REPOSITORY https://github.com/debevv/nanoMODBUS\n        GIT_TAG master # or the version you want\n        GIT_SHALLOW TRUE\n)\n\nFetchContent_MakeAvailable(nanomodbus)\n\n#...\n\nadd_executable(your_program source_codes)\ntarget_link_libraries(your_program nanomodbus)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "W+63107Hl+0X81S5ZFRqZTkxe8HKRP2Gy4902QKz6jo=",
+        "originContent": "```cmake",
+        "translatedContent": "```cmake"
+      },
+      {
+        "row": 2,
+        "rowsha": "ISJ8pKXlZjJrx9raVh4j6FUjlHghsgG9uCzwMUtJbpI=",
+        "originContent": "FetchContent_Declare(",
+        "translatedContent": "FetchContent_Declare("
+      },
+      {
+        "row": 3,
+        "rowsha": "DHQUhGq5XJ1Mkvkd+CBHT9oLXqfWCkmABktwMOVKnpk=",
+        "originContent": "        nanomodbus",
+        "translatedContent": "        nanomodbus"
+      },
+      {
+        "row": 4,
+        "rowsha": "VTQcV8h6anHkbpoWtxSrMl+UQlaUMbdd5XELfOfHvrk=",
+        "originContent": "        GIT_REPOSITORY https://github.com/debevv/nanoMODBUS",
+        "translatedContent": "        GIT_REPOSITORY https://github.com/debevv/nanoMODBUS"
+      },
+      {
+        "row": 5,
+        "rowsha": "yFv3CeTfrKX+4gFwArdgY5l94KOjgFy2FKCtxBTO2bo=",
+        "originContent": "        GIT_TAG master # or the version you want",
+        "translatedContent": "        GIT_TAG master # or the version you want"
+      },
+      {
+        "row": 6,
+        "rowsha": "N+BUgwhosNQG4lzgw8oswShZ28Kvuk8F3vgqpCRfLgc=",
+        "originContent": "        GIT_SHALLOW TRUE",
+        "translatedContent": "        GIT_SHALLOW TRUE"
+      },
+      {
+        "row": 7,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "5GC38dvgIWLVklMO3bxdCFzLh88NcKqWWZPfCfRbO8Y=",
+        "originContent": "FetchContent_MakeAvailable(nanomodbus)",
+        "translatedContent": "FetchContent_MakeAvailable(nanomodbus)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "ZJfMdXb+ObSx5VZ6wiiUl8b1nzTTLjXdCQdrY0VtYVY=",
+        "originContent": "#...",
+        "translatedContent": "#..."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "gV2cn99njL4NsJn3/fmeTf9OIcsLHlzQ2RIYvhYQ5w4=",
+        "originContent": "add_executable(your_program source_codes)",
+        "translatedContent": "add_executable(your_program source_codes)"
+      },
+      {
+        "row": 14,
+        "rowsha": "jq4kd3gZkji8j8mDFfdBp+GrgxG5mzFfvybjpUEUL+s=",
+        "originContent": "target_link_libraries(your_program nanomodbus)",
+        "translatedContent": "target_link_libraries(your_program nanomodbus)"
+      },
+      {
+        "row": 15,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## API reference\n\nAPI reference is available in the repository's [GitHub Pages](https://debevv.github.io/nanoMODBUS/nanomodbus_8h.html).\n\n## Platform functions\n\nnanoMODBUS requires the implementation of 2 platform-specific functions, defined as function pointers when creating a\nclient/server instance.\n\n### Transport read/write\n",
+    "ContentSha": "QSsEoEeKNJmC74pixlZ7btQe2iXYFaXny4/rSmWd2AY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## API リファレンス\n\nAPI リファレンスはリポジトリの[GitHub Pages](https://debevv.github.io/nanoMODBUS/nanomodbus_8h.html)で利用可能です。\n\n## プラットフォーム関数\n\nnanoMODBUS はクライアント/サーバーインスタンス作成時に関数ポインタとして定義される\nプラットフォーム固有の2つの関数の実装を必要とします。\n\n### トランスポートの読み書き\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## API リファレンス"
+      },
+      {
+        "row": 2,
+        "rowsha": "ytzNsUSnjKDluY5AI5VcWEEWsr2RCjDj2xW7AMsNbvo=",
+        "originContent": "## API reference",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "API リファレンスはリポジトリの[GitHub Pages](https://debevv.github.io/nanoMODBUS/nanomodbus_8h.html)で利用可能です。"
+      },
+      {
+        "row": 4,
+        "rowsha": "KNw6F9Z605lJCpHWXKPbtn1eGpyrCr+WRsWsVqZJBow=",
+        "originContent": "API reference is available in the repository's [GitHub Pages](https://debevv.github.io/nanoMODBUS/nanomodbus_8h.html).",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## プラットフォーム関数"
+      },
+      {
+        "row": 6,
+        "rowsha": "Uc0+IAB8SkAOttZtfzTywnQb7tv8ki5uNsaWwpXtNcM=",
+        "originContent": "## Platform functions",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "nanoMODBUS はクライアント/サーバーインスタンス作成時に関数ポインタとして定義される"
+      },
+      {
+        "row": 8,
+        "rowsha": "nh1uNSNDTg2RC80YNqTO4PrmZK13Ga81hXaJlGXs9b0=",
+        "originContent": "nanoMODBUS requires the implementation of 2 platform-specific functions, defined as function pointers when creating a",
+        "translatedContent": "プラットフォーム固有の2つの関数の実装を必要とします。"
+      },
+      {
+        "row": 9,
+        "rowsha": "7lzZC76f5Ki/Xh23Fv0JpiNXRh6+1Xt4LpT9Q0r0Vb0=",
+        "originContent": "client/server instance.",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### トランスポートの読み書き"
+      },
+      {
+        "row": 11,
+        "rowsha": "4xZPbCtVi1P8iLFWmDXKlLgAj8jq/sKDjL0HHWEQhXc=",
+        "originContent": "### Transport read/write",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```C\nint32_t read(uint8_t* buf, uint16_t count, int32_t byte_timeout_ms, void* arg);\nint32_t write(const uint8_t* buf, uint16_t count, int32_t byte_timeout_ms, void* arg);\n```",
+    "ContentSha": "zQQg6XBe7Or4d4dnsUSn/e9EJd2nIsG9qXxhTczGYRM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```C\nint32_t read(uint8_t* buf, uint16_t count, int32_t byte_timeout_ms, void* arg);\nint32_t write(const uint8_t* buf, uint16_t count, int32_t byte_timeout_ms, void* arg);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "HJAT3LC2oOIvzk2XOKsKclL/l5Flx3BMOS4um1Bhqho=",
+        "originContent": "```C",
+        "translatedContent": "```C"
+      },
+      {
+        "row": 2,
+        "rowsha": "syTBTcArwtJTt0jliIJGC0e0XwfC/IFzV6FZRH6Xd98=",
+        "originContent": "int32_t read(uint8_t* buf, uint16_t count, int32_t byte_timeout_ms, void* arg);",
+        "translatedContent": "int32_t read(uint8_t* buf, uint16_t count, int32_t byte_timeout_ms, void* arg);"
+      },
+      {
+        "row": 3,
+        "rowsha": "ZSgqHTpJCYgF4Xv6ZB6EwjB1jrlXkYzWLPq9aLbV9kg=",
+        "originContent": "int32_t write(const uint8_t* buf, uint16_t count, int32_t byte_timeout_ms, void* arg);",
+        "translatedContent": "int32_t write(const uint8_t* buf, uint16_t count, int32_t byte_timeout_ms, void* arg);"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nThese are your platform-specific functions that read/write data to/from a serial port or a TCP connection.  \nBoth methods should block until either:\n\n- `count` bytes of data are read/written\n- the byte timeout, with `byte_timeout_ms >= 0`, expires\n\nA value `< 0` for `byte_timeout_ms` means infinite timeout.  \nWith a value `== 0` for `byte_timeout_ms`, the method should read/write once in a non-blocking fashion and return\nimmediately.\n\nTheir return value should be the number of bytes actually read/written, or `< 0` in case of error.  \nA return value between `0` and `count - 1` will be treated as if a timeout occurred on the transport side. All other\nvalues will be treated as transport errors.\n\n### Callbacks and platform functions arguments\n\nServer callbacks and platform functions can access arbitrary user data through their `void* arg` argument. The argument\nis useful, for example, to pass the connection a function should operate on.  \nTheir initial values can be set via the `nmbs_set_callbacks_arg` and `nmbs_set_platform_arg` API methods.\n\n## Tests and examples\n\nTests and examples can be built and run on Linux with CMake:\n",
+    "ContentSha": "QUAbdBsaItyKmiFoHJlFE9jQOTNAdhyw1EmF0/+7SpQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "これらはシリアルポートまたはTCP接続からデータを読み書きするプラットフォーム固有の関数です。  \n両方のメソッドは次のいずれかが発生するまでブロックする必要があります:\n\n- `count` バイトのデータが読み書きされる\n- `byte_timeout_ms >= 0` のバイトタイムアウトが切れる\n\n`byte_timeout_ms` に `< 0` の値は無限タイムアウトを意味します。  \n`byte_timeout_ms` に `== 0` の値の場合、メソッドは非ブロッキング方式で一度だけ読み書きし、即座に返ります。\n\n戻り値は実際に読み書きされたバイト数、またはエラー時に `< 0` であるべきです。  \n`0` から `count - 1` の範囲の戻り値は、トランスポート側でタイムアウトが発生したものとして扱われます。  \nその他の値はトランスポートエラーとして扱われます。\n\n### コールバックとプラットフォーム関数の引数\n\nサーバーのコールバックとプラットフォーム関数は `void* arg` 引数を通じて任意のユーザーデータにアクセスできます。  \nこの引数は、例えば関数が操作すべき接続を渡すのに便利です。  \n初期値は `nmbs_set_callbacks_arg` および `nmbs_set_platform_arg` API メソッドで設定できます。\n\n## テストと例\n\nテストと例はCMakeを使ってLinux上でビルド・実行できます:\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "これらはシリアルポートまたはTCP接続からデータを読み書きするプラットフォーム固有の関数です。  "
+      },
+      {
+        "row": 2,
+        "rowsha": "UwoneFPYUbtOo2FlxugAVIyl7u2U3LfD4VIpGLwOLLI=",
+        "originContent": "These are your platform-specific functions that read/write data to/from a serial port or a TCP connection.  ",
+        "translatedContent": "両方のメソッドは次のいずれかが発生するまでブロックする必要があります:"
+      },
+      {
+        "row": 3,
+        "rowsha": "GlHQPEuCasl7x2vq32eL8B3uCDZiLTFy7pFb/tNkoc8=",
+        "originContent": "Both methods should block until either:",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `count` バイトのデータが読み書きされる"
+      },
+      {
+        "row": 5,
+        "rowsha": "Mt2/4Kf8Bgr3YVQ6wO0bOn7IZYeWQdrbE6s4kf0Vr9Q=",
+        "originContent": "- `count` bytes of data are read/written",
+        "translatedContent": "- `byte_timeout_ms >= 0` のバイトタイムアウトが切れる"
+      },
+      {
+        "row": 6,
+        "rowsha": "U946ujWm0ce78PmXP2b1sW2KH9E8edZFYB9ehwkZGg4=",
+        "originContent": "- the byte timeout, with `byte_timeout_ms >= 0`, expires",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`byte_timeout_ms` に `< 0` の値は無限タイムアウトを意味します。  "
+      },
+      {
+        "row": 8,
+        "rowsha": "8B6wp8LR9MefTh7y2HpRnED84d/c0+t8YpOB53eR20Q=",
+        "originContent": "A value `< 0` for `byte_timeout_ms` means infinite timeout.  ",
+        "translatedContent": "`byte_timeout_ms` に `== 0` の値の場合、メソッドは非ブロッキング方式で一度だけ読み書きし、即座に返ります。"
+      },
+      {
+        "row": 9,
+        "rowsha": "L2s2uwrY8p43oNd8oIgilfX6GzRa6evAsY2H/QEToJI=",
+        "originContent": "With a value `== 0` for `byte_timeout_ms`, the method should read/write once in a non-blocking fashion and return",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "uUIHcDkCnricwLm4PMh6o7+o/LTq6IYBiTTeN6I/G8w=",
+        "originContent": "immediately.",
+        "translatedContent": "戻り値は実際に読み書きされたバイト数、またはエラー時に `< 0` であるべきです。  "
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`0` から `count - 1` の範囲の戻り値は、トランスポート側でタイムアウトが発生したものとして扱われます。  "
+      },
+      {
+        "row": 12,
+        "rowsha": "remzs+ekCOkqHYRIfNXVP9bb1HJODh7aGbcAFnQQsZM=",
+        "originContent": "Their return value should be the number of bytes actually read/written, or `< 0` in case of error.  ",
+        "translatedContent": "その他の値はトランスポートエラーとして扱われます。"
+      },
+      {
+        "row": 13,
+        "rowsha": "HfD+A16dvrbeIwq314WyEwvETuMbq+kVlKa9BWCY2xs=",
+        "originContent": "A return value between `0` and `count - 1` will be treated as if a timeout occurred on the transport side. All other",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "pRDRJfAdrvP6jNYCITdIyhj+0nTE5OoihiWGyk7BniI=",
+        "originContent": "values will be treated as transport errors.",
+        "translatedContent": "### コールバックとプラットフォーム関数の引数"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "uN5JPJc5n5z7qnroluMI8I/+eqA5Gb7dmX9Us1mkw0k=",
+        "originContent": "### Callbacks and platform functions arguments",
+        "translatedContent": "サーバーのコールバックとプラットフォーム関数は `void* arg` 引数を通じて任意のユーザーデータにアクセスできます。  "
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "この引数は、例えば関数が操作すべき接続を渡すのに便利です。  "
+      },
+      {
+        "row": 18,
+        "rowsha": "4/zmQvUF6Gj3jLDELfab9mqMembyWx7/9DORmtUSkwk=",
+        "originContent": "Server callbacks and platform functions can access arbitrary user data through their `void* arg` argument. The argument",
+        "translatedContent": "初期値は `nmbs_set_callbacks_arg` および `nmbs_set_platform_arg` API メソッドで設定できます。"
+      },
+      {
+        "row": 19,
+        "rowsha": "QS0WGdWb/qYohIRgwz28GUMwJkDqZckzsptzq/SnLag=",
+        "originContent": "is useful, for example, to pass the connection a function should operate on.  ",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "AzK7c/Irwc9SFvzJ13jNvQs/wVgE/iqccQ8RofaAKOQ=",
+        "originContent": "Their initial values can be set via the `nmbs_set_callbacks_arg` and `nmbs_set_platform_arg` API methods.",
+        "translatedContent": "## テストと例"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "jb/zgqoDtzC27OTu6zbsj0rb7Txv/sdwNX4NofHs6DQ=",
+        "originContent": "## Tests and examples",
+        "translatedContent": "テストと例はCMakeを使ってLinux上でビルド・実行できます:"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "ycDZl8rO/x1bbkG3zmmFyYWamkuIbhZ5qYiDMenpEww=",
+        "originContent": "Tests and examples can be built and run on Linux with CMake:",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```sh\nmkdir build && cd build\ncmake ..\nmake\n```",
+    "ContentSha": "vPDSCfitGA4LmpNjGU/YLbX9f5KwILRaPQr5TluNgYA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nmkdir build && cd build\ncmake ..\nmake\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "/ij4nXADubLfmHtzOAT6hQUJOJtaNpy3lGYNFT5zcdc=",
+        "originContent": "mkdir build && cd build",
+        "translatedContent": "mkdir build && cd build"
+      },
+      {
+        "row": 3,
+        "rowsha": "V0mtka5lCsTxBGRpE4a14WQSlTI4WajbzQahr8N2sKQ=",
+        "originContent": "cmake ..",
+        "translatedContent": "cmake .."
+      },
+      {
+        "row": 4,
+        "rowsha": "0FqioV+zxA7+6wO+xEU5PwAHRITPAcj7LakMpmlaVTE=",
+        "originContent": "make",
+        "translatedContent": "make"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nPlease refer to `examples/arduino/README.md` for more info about building and running Arduino examples.\n\n## Misc\n\n- To reduce code size, you can define the following `#define`s:\n    - `NMBS_CLIENT_DISABLED` to disable all client code\n    - `NMBS_SERVER_DISABLED` to disable all server code\n    - To disable individual server callbacks, define the following:\n        - `NMBS_SERVER_READ_COILS_DISABLED`\n        - `NMBS_SERVER_READ_DISCRETE_INPUTS_DISABLED`\n        - `NMBS_SERVER_READ_HOLDING_REGISTERS_DISABLED`\n        - `NMBS_SERVER_READ_INPUT_REGISTERS_DISABLED`\n        - `NMBS_SERVER_WRITE_SINGLE_COIL_DISABLED`\n        - `NMBS_SERVER_WRITE_SINGLE_REGISTER_DISABLED`\n        - `NMBS_SERVER_WRITE_MULTIPLE_COILS_DISABLED`\n        - `NMBS_SERVER_WRITE_MULTIPLE_REGISTERS_DISABLED`\n        - `NMBS_SERVER_READ_FILE_RECORD_DISABLED`\n        - `NMBS_SERVER_WRITE_FILE_RECORD_DISABLED`\n        - `NMBS_SERVER_READ_WRITE_REGISTERS_DISABLED`\n        - `NMBS_SERVER_READ_DEVICE_IDENTIFICATION_DISABLED`\n    - `NMBS_STRERROR_DISABLED` to disable the code that converts `nmbs_error`s to strings\n    - `NMBS_BITFIELD_MAX` to set the size of the `nmbs_bitfield` type, used to store coil values (default is `2000`)\n- Debug prints about received and sent messages can be enabled by defining `NMBS_DEBUG`\n",
+    "ContentSha": "P2sOxhVLqH+JwZMc5smbrcp/QZD3al5tiY4dX0KdGO8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "`examples/arduino/README.md` を参照して、Arduinoのサンプルのビルドと実行に関する詳細情報をご確認ください。\n\n## その他\n\n- コードサイズを削減するために、以下の `#define` を定義できます：\n    - すべてのクライアントコードを無効にするには `NMBS_CLIENT_DISABLED`\n    - すべてのサーバーコードを無効にするには `NMBS_SERVER_DISABLED`\n    - 個別のサーバーコールバックを無効にするには、以下を定義してください：\n        - `NMBS_SERVER_READ_COILS_DISABLED`\n        - `NMBS_SERVER_READ_DISCRETE_INPUTS_DISABLED`\n        - `NMBS_SERVER_READ_HOLDING_REGISTERS_DISABLED`\n        - `NMBS_SERVER_READ_INPUT_REGISTERS_DISABLED`\n        - `NMBS_SERVER_WRITE_SINGLE_COIL_DISABLED`\n        - `NMBS_SERVER_WRITE_SINGLE_REGISTER_DISABLED`\n        - `NMBS_SERVER_WRITE_MULTIPLE_COILS_DISABLED`\n        - `NMBS_SERVER_WRITE_MULTIPLE_REGISTERS_DISABLED`\n        - `NMBS_SERVER_READ_FILE_RECORD_DISABLED`\n        - `NMBS_SERVER_WRITE_FILE_RECORD_DISABLED`\n        - `NMBS_SERVER_READ_WRITE_REGISTERS_DISABLED`\n        - `NMBS_SERVER_READ_DEVICE_IDENTIFICATION_DISABLED`\n    - `nmbs_error` を文字列に変換するコードを無効にするには `NMBS_STRERROR_DISABLED`\n    - コイルの値を格納するために使用される `nmbs_bitfield` 型のサイズを設定するには `NMBS_BITFIELD_MAX` （デフォルトは `2000`）\n- 受信および送信メッセージに関するデバッグ出力は `NMBS_DEBUG` を定義することで有効にできます\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`examples/arduino/README.md` を参照して、Arduinoのサンプルのビルドと実行に関する詳細情報をご確認ください。"
+      },
+      {
+        "row": 2,
+        "rowsha": "3g06K0qSMCT4yb/FGCWM0EwULFldcCWFm4HiXTJOxJg=",
+        "originContent": "Please refer to `examples/arduino/README.md` for more info about building and running Arduino examples.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## その他"
+      },
+      {
+        "row": 4,
+        "rowsha": "IDl7IVTeldq+zk09MQBtmdLtaugodLNVSOpRc2CwBAI=",
+        "originContent": "## Misc",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- コードサイズを削減するために、以下の `#define` を定義できます："
+      },
+      {
+        "row": 6,
+        "rowsha": "9zoRvUmLbKxzm/K+td9LEuZ6Z4cgN9wkFwjez3jQq/c=",
+        "originContent": "- To reduce code size, you can define the following `#define`s:",
+        "translatedContent": "    - すべてのクライアントコードを無効にするには `NMBS_CLIENT_DISABLED`"
+      },
+      {
+        "row": 7,
+        "rowsha": "Ww++aF1/DaECxeYr9jSud+dSECDs2iSo2J5xPwSWyaM=",
+        "originContent": "    - `NMBS_CLIENT_DISABLED` to disable all client code",
+        "translatedContent": "    - すべてのサーバーコードを無効にするには `NMBS_SERVER_DISABLED`"
+      },
+      {
+        "row": 8,
+        "rowsha": "RXNi13tebjlcCUOU9h0OgasUYxHFmBi2Z/QIKAbPi30=",
+        "originContent": "    - `NMBS_SERVER_DISABLED` to disable all server code",
+        "translatedContent": "    - 個別のサーバーコールバックを無効にするには、以下を定義してください："
+      },
+      {
+        "row": 9,
+        "rowsha": "fjKY6G+x7/NHHP1mjpcTCRWd3dC1dMRcyu+DPCJMyRE=",
+        "originContent": "    - To disable individual server callbacks, define the following:",
+        "translatedContent": "        - `NMBS_SERVER_READ_COILS_DISABLED`"
+      },
+      {
+        "row": 10,
+        "rowsha": "H03buPIYTGPnC1Zf9iRNXWSiRNIaKL4AdsL/tM6pid8=",
+        "originContent": "        - `NMBS_SERVER_READ_COILS_DISABLED`",
+        "translatedContent": "        - `NMBS_SERVER_READ_DISCRETE_INPUTS_DISABLED`"
+      },
+      {
+        "row": 11,
+        "rowsha": "xa+00FSXQFdFVqASZUUHTv+yVE+uRuJYXN3gOvpLCVw=",
+        "originContent": "        - `NMBS_SERVER_READ_DISCRETE_INPUTS_DISABLED`",
+        "translatedContent": "        - `NMBS_SERVER_READ_HOLDING_REGISTERS_DISABLED`"
+      },
+      {
+        "row": 12,
+        "rowsha": "KF47WkfWL1wlwOJr0inF4upKDtShURxXAmBuezP4Dtg=",
+        "originContent": "        - `NMBS_SERVER_READ_HOLDING_REGISTERS_DISABLED`",
+        "translatedContent": "        - `NMBS_SERVER_READ_INPUT_REGISTERS_DISABLED`"
+      },
+      {
+        "row": 13,
+        "rowsha": "hf+PrfbkOfxNBLCTL60YX0ed2jdaYhWliVvjmd+XVx4=",
+        "originContent": "        - `NMBS_SERVER_READ_INPUT_REGISTERS_DISABLED`",
+        "translatedContent": "        - `NMBS_SERVER_WRITE_SINGLE_COIL_DISABLED`"
+      },
+      {
+        "row": 14,
+        "rowsha": "8clx/JF4Uj7GrYhmlkx7CH7fubVzeuVfysljTx+GXaE=",
+        "originContent": "        - `NMBS_SERVER_WRITE_SINGLE_COIL_DISABLED`",
+        "translatedContent": "        - `NMBS_SERVER_WRITE_SINGLE_REGISTER_DISABLED`"
+      },
+      {
+        "row": 15,
+        "rowsha": "/nGVEpuk0PGszfLAz7f+XmYPGTl4cBV6rAirFsJlSfM=",
+        "originContent": "        - `NMBS_SERVER_WRITE_SINGLE_REGISTER_DISABLED`",
+        "translatedContent": "        - `NMBS_SERVER_WRITE_MULTIPLE_COILS_DISABLED`"
+      },
+      {
+        "row": 16,
+        "rowsha": "Tl1N/iVZtHphSedMitky97MI6bonWbcnX4Aw0Ybdyxc=",
+        "originContent": "        - `NMBS_SERVER_WRITE_MULTIPLE_COILS_DISABLED`",
+        "translatedContent": "        - `NMBS_SERVER_WRITE_MULTIPLE_REGISTERS_DISABLED`"
+      },
+      {
+        "row": 17,
+        "rowsha": "BxM9OUmVGJxUbkm2i7kUTs97Dr2Dhu6Ua6jLS9kvEak=",
+        "originContent": "        - `NMBS_SERVER_WRITE_MULTIPLE_REGISTERS_DISABLED`",
+        "translatedContent": "        - `NMBS_SERVER_READ_FILE_RECORD_DISABLED`"
+      },
+      {
+        "row": 18,
+        "rowsha": "zuaS9w4K1qQ0vKDyDocjlYFtPq844qNASxWQ92Gy1cM=",
+        "originContent": "        - `NMBS_SERVER_READ_FILE_RECORD_DISABLED`",
+        "translatedContent": "        - `NMBS_SERVER_WRITE_FILE_RECORD_DISABLED`"
+      },
+      {
+        "row": 19,
+        "rowsha": "pbnFsdlhmYvoyXglD0m3RzaYiSN4rmA94bQuSJJ8HPY=",
+        "originContent": "        - `NMBS_SERVER_WRITE_FILE_RECORD_DISABLED`",
+        "translatedContent": "        - `NMBS_SERVER_READ_WRITE_REGISTERS_DISABLED`"
+      },
+      {
+        "row": 20,
+        "rowsha": "Q2U8SwJkqUjhfP9Pg4A1QyhkP/qCbNx7IXe0hZuO5Ko=",
+        "originContent": "        - `NMBS_SERVER_READ_WRITE_REGISTERS_DISABLED`",
+        "translatedContent": "        - `NMBS_SERVER_READ_DEVICE_IDENTIFICATION_DISABLED`"
+      },
+      {
+        "row": 21,
+        "rowsha": "fWVvXMP4dwrSmeY1DewIAhm3PZ8Fffw0I+cw4uEQcfM=",
+        "originContent": "        - `NMBS_SERVER_READ_DEVICE_IDENTIFICATION_DISABLED`",
+        "translatedContent": "    - `nmbs_error` を文字列に変換するコードを無効にするには `NMBS_STRERROR_DISABLED`"
+      },
+      {
+        "row": 22,
+        "rowsha": "EYmsNyFwccV9gNY8rasapekJmGRNfCMBOIoTHmTCsT8=",
+        "originContent": "    - `NMBS_STRERROR_DISABLED` to disable the code that converts `nmbs_error`s to strings",
+        "translatedContent": "    - コイルの値を格納するために使用される `nmbs_bitfield` 型のサイズを設定するには `NMBS_BITFIELD_MAX` （デフォルトは `2000`）"
+      },
+      {
+        "row": 23,
+        "rowsha": "wYekoLDPobWH0SxYcp/0ruK+UR0/ZomSxAggN+xWnl8=",
+        "originContent": "    - `NMBS_BITFIELD_MAX` to set the size of the `nmbs_bitfield` type, used to store coil values (default is `2000`)",
+        "translatedContent": "- 受信および送信メッセージに関するデバッグ出力は `NMBS_DEBUG` を定義することで有効にできます"
+      },
+      {
+        "row": 24,
+        "rowsha": "rz4zxF0ktaBHRkzqoOoSUM/+KYzNJY0N/yDFfA3bDgc=",
+        "originContent": "- Debug prints about received and sent messages can be enabled by defining `NMBS_DEBUG`",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

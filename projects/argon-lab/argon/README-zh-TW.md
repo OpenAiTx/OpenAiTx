@@ -4,7 +4,7 @@
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=zh-CN">簡體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=zh-TW">繁體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ja">日本語</a>
         | <a href="https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=ko">한국어</a>
@@ -38,19 +38,22 @@
 [![npm](https://img.shields.io/npm/v/argonctl?logo=npm&label=npm)](https://www.npmjs.com/package/argonctl)
 [![PyPI](https://img.shields.io/pypi/v/argon-mongodb?logo=pypi&label=PyPI)](https://pypi.org/project/argon-mongodb/)
 
-**在你的 MongoDB 數據庫中穿梭時空。分支、還原、盡情實驗，無需擔心資料遺失。**
+**在你的 MongoDB 資料庫中穿越時空。分支、還原、勇敢實驗無所畏懼。**
 
 ## 什麼是 Argon？
 
-Argon 為 MongoDB 賦予 **類 Git 分支** 與 **時光穿梭** 超能力。即時建立資料庫分支，隨時還原到歷史任意時刻，數據永不丟失。
+Argon 為 MongoDB 帶來了 **類 Git 分支** 與 **時光旅行** 的超能力。即時建立資料庫分支，還原到任意歷史時間點，數據永不遺失。
 
 ### 🎯 主要優勢
 
-- **⚡ 即時分支** - 1 毫秒內克隆整個資料庫（不是幾小時）
-- **⏰ 時光穿梭** - 查詢任何歷史時刻的數據
-- **🔄 安全還原** - 還原前可預覽變更
-- **💾 零儲存成本** - 分支高效共用資料
-- **🔌 無縫兼容** - 可直接用於現有 MongoDB 專案
+- **⚡ 即時分支** - 1 毫秒內克隆整個資料庫（而不是幾小時）
+- **⏰ 時光旅行** - 以 **22 萬+ 查詢/秒** 從任意歷史時刻查詢資料
+- **🔄 安全還原** - 還原前可預覽變更內容
+- **💾 零存儲成本** - 分支高效共用資料，壓縮率達 90%
+- **🔌 即插即用** - 完美兼容現有 MongoDB 程式碼
+- **🚀 企業級效能** - 最新優化後時光查詢快 26 倍
+- **✅ 完整測試** - 全面測試覆蓋確保可靠性
+- **🗜️ 智慧壓縮** - 自動 WAL 壓縮減少 80-90% 儲存空間
 
 ## 快速演示
 
@@ -59,40 +62,50 @@ Argon 為 MongoDB 賦予 **類 Git 分支** 與 **時光穿梭** 超能力。即
 brew install argon-lab/tap/argonctl    # macOS
 npm install -g argonctl                 # Cross-platform
 
-# Create a time-travel enabled database
-export ENABLE_WAL=true
-argon projects create myapp
+# Step 1: Import your existing MongoDB (like "git clone")
+argon import database --uri "mongodb://localhost:27017" --database myapp --project myapp
+# ✅ Your data now has time travel capabilities!
 
-# Your app crashed after bad migration? No problem!
+# Step 2: Use Argon like Git for your database
+argon branches create test-env           # Branch like "git checkout -b"
+argon time-travel query --project myapp --branch main --lsn 1000
+
+# Step 3: Disaster recovery made simple
 argon restore preview --time "1 hour ago"
 argon restore reset --time "before disaster"
-
-# Need a test environment? Branch instantly!
-argon branches create test-env
-# Full database copy created in 1ms 🚀
 ```
-## 真實世界的應用案例
+## 類似 Git 的 MongoDB 工作流程
 
-### 🚨 **災難恢復**
+### 🔄 **步驟 1：導入（資料庫的 "git clone"）**
+
+```bash
+# Bring your existing MongoDB into Argon
+argon import preview --uri "mongodb://localhost:27017" --database myapp
+argon import database --uri "mongodb://localhost:27017" --database myapp --project myapp
+# ✅ Your existing data now has time travel capabilities!
+```
+### 🧪 **步驟 2：分支（"git checkout -b"）**
+
+```bash
+# Create branches for testing, staging, experiments
+argon branches create staging --project myapp
+argon branches create experiment-v2 --project myapp
+# Full database copies created instantly 🚀
+```
+### 📊 **步驟 3：時光旅行（用 "git log" 查看資料）**
+
+```bash
+# See your data's history
+argon time-travel info --project myapp --branch main
+argon time-travel query --project myapp --branch main --lsn 1000
+# Compare data across time like Git commits
+```
+### 🚨 **步驟 4：還原（災難時使用 "git reset"）**
 
 ```bash
 # "Someone deleted all users!"
 argon restore reset --time "5 minutes ago"
 # Crisis averted in seconds, not hours
-```
-### 🧪 **安全測試**
-
-```bash
-# Test with real production data
-argon branches create staging --from production
-# Run risky migrations fearlessly
-```
-### 📊 **資料分析**
-
-```bash
-# Compare data across time
-argon time-travel diff --from "last week" --to "today"
-# See exactly what changed
 ```
 ## 運作原理
 
@@ -119,21 +132,24 @@ cd argon/cli && go build -o argon
 ## 文件說明
 
 - 📖 [快速入門指南](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/QUICK_START.md)
-- 🛠️ [API 參考](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/API_REFERENCE.md)
-- 💡 [應用案例](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/USE_CASES.md)
+- 🛠️ [API 參考文件](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/API_REFERENCE.md)
+- 💡 [使用案例](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/USE_CASES.md)
 - 🏗️ [架構說明](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/ARCHITECTURE.md)
 
 ## 社群
 
+- 🤝 [社群指南](https://raw.githubusercontent.com/argon-lab/argon/master/./COMMUNITY.md) - 歡迎參與！
+- 📋 [發展藍圖](https://raw.githubusercontent.com/argon-lab/argon/master/./ROADMAP.md) - 查看未來規劃
 - 🐛 [回報問題](https://github.com/argon-lab/argon/issues)
 - 💬 [討論區](https://github.com/argon-lab/argon/discussions)
+- 🏗️ [貢獻指南](https://raw.githubusercontent.com/argon-lab/argon/master/./CONTRIBUTING.md) - 一起打造 Argon
 - 📧 [聯絡我們](https://www.argonlabs.tech)
 
 ---
 
 <div align="center">
 
-**讓你的 MongoDB 擁有時光機。從此不再遺失資料。**
+**讓你的 MongoDB 擁有時光機。再也不會遺失資料。**
 
 ⭐ **如果 Argon 幫助了你，請給我們一顆星！**
 
@@ -144,6 +160,6 @@ cd argon/cli && go build -o argon
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-21
 
 ---

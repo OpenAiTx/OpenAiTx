@@ -38,19 +38,22 @@
 [![npm](https://img.shields.io/npm/v/argonctl?logo=npm&label=npm)](https://www.npmjs.com/package/argonctl)
 [![PyPI](https://img.shields.io/pypi/v/argon-mongodb?logo=pypi&label=PyPI)](https://pypi.org/project/argon-mongodb/)
 
-**Путешествуйте во времени в вашей базе данных MongoDB. Ветвитесь, восстанавливайте и экспериментируйте без страха.**
+**Путешествуйте во времени по вашей базе данных MongoDB. Ветвитесь, восстанавливайте и экспериментируйте без страха.**
 
 ## Что такое Argon?
 
-Argon наделяет MongoDB сверхспособностями с помощью **ветвления как в Git** и **путешествий во времени**. Мгновенно создавайте ветки базы данных, восстанавливайтесь в любой момент истории и никогда не теряйте данные.
+Argon наделяет MongoDB суперспособностями с помощью **ветвления в стиле Git** и **путешествий во времени**. Создавайте мгновенные ветки базы данных, восстанавливайтесь в любой момент истории и больше никогда не теряйте данные.
 
-### 🎯 Основные преимущества
+### 🎯 Ключевые преимущества
 
-- **⚡ Мгновенные ветки** — Клонируйте всю базу данных за 1 мс (а не за часы)
-- **⏰ Путешествие во времени** — Запрашивайте данные из любой точки в прошлом
-- **🔄 Безопасное восстановление** — Просматривайте изменения перед восстановлением
-- **💾 Нулевая стоимость хранения** — Ветки эффективно разделяют данные
-- **🔌 Полная совместимость** — Работает с существующим кодом MongoDB
+- **⚡ Мгновенные ветки** — Клонируйте всю вашу базу данных за 1 мс (а не часы)
+- **⏰ Путешествия во времени** — Запрашивайте данные в любой момент истории с **220 000+ запросов/сек**
+- **🔄 Безопасное восстановление** — Предварительный просмотр изменений перед восстановлением
+- **💾 Нулевая стоимость хранения** — Ветки эффективно разделяют данные с 90% сжатием
+- **🔌 Совместимость без изменений** — Работает с существующим кодом MongoDB
+- **🚀 Корпоративная производительность** — В 26 раз быстрее запросы во времени после последних оптимизаций
+- **✅ Комплексное тестирование** — Обширное покрытие тестами для надежности
+- **🗜️ Умное сжатие** — Автоматическое сжатие WAL сокращает хранение на 80-90%
 
 ## Быстрая демонстрация
 
@@ -59,40 +62,50 @@ Argon наделяет MongoDB сверхспособностями с помо�
 brew install argon-lab/tap/argonctl    # macOS
 npm install -g argonctl                 # Cross-platform
 
-# Create a time-travel enabled database
-export ENABLE_WAL=true
-argon projects create myapp
+# Step 1: Import your existing MongoDB (like "git clone")
+argon import database --uri "mongodb://localhost:27017" --database myapp --project myapp
+# ✅ Your data now has time travel capabilities!
 
-# Your app crashed after bad migration? No problem!
+# Step 2: Use Argon like Git for your database
+argon branches create test-env           # Branch like "git checkout -b"
+argon time-travel query --project myapp --branch main --lsn 1000
+
+# Step 3: Disaster recovery made simple
 argon restore preview --time "1 hour ago"
 argon restore reset --time "before disaster"
-
-# Need a test environment? Branch instantly!
-argon branches create test-env
-# Full database copy created in 1ms 🚀
 ```
-## Реальные примеры использования
+## Git-подобный рабочий процесс для MongoDB
 
-### 🚨 **Восстановление после сбоев**
+### 🔄 **Шаг 1: Импорт (аналог "git clone" для баз данных)**
+
+```bash
+# Bring your existing MongoDB into Argon
+argon import preview --uri "mongodb://localhost:27017" --database myapp
+argon import database --uri "mongodb://localhost:27017" --database myapp --project myapp
+# ✅ Your existing data now has time travel capabilities!
+```
+### 🧪 **Шаг 2: Ветка ("git checkout -b")**
+
+```bash
+# Create branches for testing, staging, experiments
+argon branches create staging --project myapp
+argon branches create experiment-v2 --project myapp
+# Full database copies created instantly 🚀
+```
+### 📊 **Шаг 3: Путешествие во времени ("git log" для данных)**
+
+```bash
+# See your data's history
+argon time-travel info --project myapp --branch main
+argon time-travel query --project myapp --branch main --lsn 1000
+# Compare data across time like Git commits
+```
+### 🚨 **Шаг 4: Восстановление (git reset для катастроф)**
 
 ```bash
 # "Someone deleted all users!"
 argon restore reset --time "5 minutes ago"
 # Crisis averted in seconds, not hours
-```
-### 🧪 **Безопасное тестирование**
-
-```bash
-# Test with real production data
-argon branches create staging --from production
-# Run risky migrations fearlessly
-```
-### 📊 **Анализ данных**
-
-```bash
-# Compare data across time
-argon time-travel diff --from "last week" --to "today"
-# See exactly what changed
 ```
 ## Как это работает
 
@@ -125,25 +138,28 @@ cd argon/cli && go build -o argon
 
 ## Сообщество
 
+- 🤝 [Руководство для сообщества](https://raw.githubusercontent.com/argon-lab/argon/master/./COMMUNITY.md) — Присоединяйтесь!
+- 📋 [Дорожная карта](https://raw.githubusercontent.com/argon-lab/argon/master/./ROADMAP.md) — Узнайте о планах
 - 🐛 [Сообщить о проблеме](https://github.com/argon-lab/argon/issues)
 - 💬 [Обсуждения](https://github.com/argon-lab/argon/discussions)
+- 🏗️ [Внесите свой вклад](https://raw.githubusercontent.com/argon-lab/argon/master/./CONTRIBUTING.md) — Помогите развивать Argon
 - 📧 [Контакты](https://www.argonlabs.tech)
 
 ---
 
 <div align="center">
 
-**Дайте вашей MongoDB машину времени. Никогда больше не теряйте данные.**
+**Дайте вашей MongoDB машину времени. Больше никогда не теряйте данные.**
 
-⭐ **Поставьте нам звезду**, если Argon помог вам!
+⭐ **Поставьте звезду**, если Argon помог вам!
 
-[Начать работу →](https://raw.githubusercontent.com/argon-lab/argon/master/docs/QUICK_START.md) | [Демо вживую →](https://console.argonlabs.tech)
+[Начать →](https://raw.githubusercontent.com/argon-lab/argon/master/docs/QUICK_START.md) | [Демо-версия →](https://console.argonlabs.tech)
 
 </div>
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-21
 
 ---

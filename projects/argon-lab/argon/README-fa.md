@@ -38,19 +38,22 @@
 [![npm](https://img.shields.io/npm/v/argonctl?logo=npm&label=npm)](https://www.npmjs.com/package/argonctl)
 [![PyPI](https://img.shields.io/pypi/v/argon-mongodb?logo=pypi&label=PyPI)](https://pypi.org/project/argon-mongodb/)
 
-**در پایگاه داده MongoDB خود در زمان سفر کنید. بدون نگرانی شاخه بسازید، بازیابی کنید و آزمایش نمایید.**
+**در پایگاه داده MongoDB خود در زمان سفر کنید. شاخه بسازید، بازیابی کنید و بدون ترس آزمایش کنید.**
 
 ## آرگون چیست؟
 
-آرگون به MongoDB قدرت‌های ویژه‌ای می‌دهد با **شاخه‌بندی شبیه گیت** و **سفر در زمان**. شاخه‌های پایگاه داده را به‌صورت فوری بسازید، به هر نقطه‌ای از تاریخ بازگردید و هرگز داده‌ای را از دست ندهید.
+آرگون قابلیت‌های فراوانی به MongoDB می‌دهد با **انشعاب شبیه به گیت** و **سفر در زمان**. به سرعت شاخه‌های پایگاه داده بسازید، به هر نقطه‌ای در تاریخ بازگردید و هرگز داده‌ای را از دست ندهید.
 
 ### 🎯 مزایای کلیدی
 
-- **⚡ شاخه‌های فوری** - کل پایگاه داده خود را در ۱ میلی‌ثانیه (نه ساعت‌ها) کلون کنید
-- **⏰ سفر در زمان** - داده‌های خود را از هر نقطه‌ای در گذشته بازیابی کنید
-- **🔄 بازیابی امن** - قبل از بازیابی تغییرات را پیش‌نمایش کنید
-- **💾 بدون هزینه ذخیره‌سازی** - شاخه‌ها داده را به‌صورت بهینه به اشتراک می‌گذارند
-- **🔌 سازگاری کامل** - با کدهای فعلی MongoDB شما کار می‌کند
+- **⚡ شاخه‌های فوری** - پایگاه داده خود را تنها در ۱ میلی‌ثانیه شبیه‌سازی کنید (نه چند ساعت)
+- **⏰ سفر در زمان** - داده‌های خود را از هر نقطه‌ای در تاریخ با **بیش از ۲۲۰,۰۰۰ کوئری در ثانیه** مشاهده کنید
+- **🔄 بازیابی امن** - پیش‌نمایش تغییرات پیش از بازگردانی
+- **💾 بدون هزینه ذخیره‌سازی** - شاخه‌ها داده‌ها را با فشرده‌سازی ۹۰٪ به اشتراک می‌گذارند
+- **🔌 سازگار با کد موجود** - با کد فعلی MongoDB شما کار می‌کند
+- **🚀 عملکرد سازمانی** - ۲۶ برابر سریع‌تر در کوئری‌های سفر در زمان پس از بهینه‌سازی‌های اخیر
+- **✅ تست جامع** - پوشش تست گسترده برای اطمینان از قابلیت اطمینان
+- **🗜️ فشرده‌سازی هوشمند** - فشرده‌سازی خودکار WAL باعث کاهش حجم ذخیره‌سازی تا ۸۰-۹۰٪ می‌شود
 
 ## نمایش سریع
 
@@ -59,40 +62,50 @@
 brew install argon-lab/tap/argonctl    # macOS
 npm install -g argonctl                 # Cross-platform
 
-# Create a time-travel enabled database
-export ENABLE_WAL=true
-argon projects create myapp
+# Step 1: Import your existing MongoDB (like "git clone")
+argon import database --uri "mongodb://localhost:27017" --database myapp --project myapp
+# ✅ Your data now has time travel capabilities!
 
-# Your app crashed after bad migration? No problem!
+# Step 2: Use Argon like Git for your database
+argon branches create test-env           # Branch like "git checkout -b"
+argon time-travel query --project myapp --branch main --lsn 1000
+
+# Step 3: Disaster recovery made simple
 argon restore preview --time "1 hour ago"
 argon restore reset --time "before disaster"
-
-# Need a test environment? Branch instantly!
-argon branches create test-env
-# Full database copy created in 1ms 🚀
 ```
-## موارد استفاده در دنیای واقعی
+## گردش کار شبیه به Git برای MongoDB
 
-### 🚨 **بازیابی پس از فاجعه**
+### 🔄 **گام ۱: وارد کردن (معادل "git clone" برای پایگاه‌های داده)**
+
+```bash
+# Bring your existing MongoDB into Argon
+argon import preview --uri "mongodb://localhost:27017" --database myapp
+argon import database --uri "mongodb://localhost:27017" --database myapp --project myapp
+# ✅ Your existing data now has time travel capabilities!
+```
+### 🧪 **گام ۲: شاخه ("git checkout -b")**
+
+```bash
+# Create branches for testing, staging, experiments
+argon branches create staging --project myapp
+argon branches create experiment-v2 --project myapp
+# Full database copies created instantly 🚀
+```
+### 📊 **گام ۳: سفر در زمان ("git log" برای داده‌ها)**
+
+```bash
+# See your data's history
+argon time-travel info --project myapp --branch main
+argon time-travel query --project myapp --branch main --lsn 1000
+# Compare data across time like Git commits
+```
+### 🚨 **گام ۴: بازیابی ("git reset" برای مواقع بحرانی)**
 
 ```bash
 # "Someone deleted all users!"
 argon restore reset --time "5 minutes ago"
 # Crisis averted in seconds, not hours
-```
-### 🧪 **تست ایمن**
-
-```bash
-# Test with real production data
-argon branches create staging --from production
-# Run risky migrations fearlessly
-```
-### 📊 **تحلیل داده‌ها**
-
-```bash
-# Compare data across time
-argon time-travel diff --from "last week" --to "today"
-# See exactly what changed
 ```
 ## نحوه کار
 
@@ -125,17 +138,20 @@ cd argon/cli && go build -o argon
 
 ## جامعه
 
+- 🤝 [راهنمای جامعه](https://raw.githubusercontent.com/argon-lab/argon/master/./COMMUNITY.md) - مشارکت کنید!
+- 📋 [نقشه راه](https://raw.githubusercontent.com/argon-lab/argon/master/./ROADMAP.md) - ببینید چه چیزی در راه است
 - 🐛 [گزارش مشکلات](https://github.com/argon-lab/argon/issues)
 - 💬 [بحث‌ها](https://github.com/argon-lab/argon/discussions)
-- 📧 [تماس](https://www.argonlabs.tech)
+- 🏗️ [مشارکت در توسعه](https://raw.githubusercontent.com/argon-lab/argon/master/./CONTRIBUTING.md) - به ساخت Argon کمک کنید
+- 📧 [تماس با ما](https://www.argonlabs.tech)
 
 ---
 
 <div align="center">
 
-**به MongoDB خود یک ماشین زمان بدهید. دیگر هرگز داده‌ای را از دست ندهید.**
+**به MongoDB خود یک ماشین زمان بدهید. هرگز داده‌ای را از دست ندهید.**
 
-⭐ **اگر Argon به شما کمک کرد، ما را ستاره‌دار کنید!**
+⭐ **اگر Argon روز شما را نجات داد، به ما ستاره بدهید!**
 
 [شروع کنید →](https://raw.githubusercontent.com/argon-lab/argon/master/docs/QUICK_START.md) | [دموی زنده →](https://console.argonlabs.tech)
 
@@ -144,6 +160,6 @@ cd argon/cli && go build -o argon
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-21
 
 ---

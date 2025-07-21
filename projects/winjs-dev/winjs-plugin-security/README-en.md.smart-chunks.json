@@ -1,0 +1,781 @@
+[
+  {
+    "Id": 1,
+    "Content": "# winjs-plugin-security\n\n一个为 WinJS 项目提供安全增强功能的插件，主要用于生成 SRI（Subresource Integrity）属性。\n\n## 功能特性\n\n- 自动为 HTML 文件中的 `<script>` 和 `<link>` 标签生成 SRI 属性\n- 支持 SHA-256、SHA-384、SHA-512 哈希算法（可配置）\n- 自动添加 `crossorigin=\"anonymous\"` 属性以确保 SRI 正常工作\n- 仅在生产环境下生效，开发环境自动跳过\n\n## 安装\n",
+    "ContentSha": "Pen7kNcAg5pY8wxppjvAmdRVj5t9ROeC+QRsVsrSQf0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># winjs-plugin-security\n\nA plugin that provides security enhancements for WinJS projects, primarily used to generate SRI (Subresource Integrity) attributes.\n\n## Features\n\n- Automatically generates SRI attributes for `<script>` and `<link>` tags in HTML files\n- Supports SHA-256, SHA-384, and SHA-512 hash algorithms (configurable)\n- Automatically adds the `crossorigin=\"anonymous\"` attribute to ensure proper SRI functionality\n- Only effective in production environments; automatically skipped in development\n\n## Installation\n</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wFccN2CM0J1YGLUiozHToWkjA2gmNRfxbbrQEmDcyYE=",
+        "originContent": "# winjs-plugin-security",
+        "translatedContent": "<translate-content># winjs-plugin-security"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "W6XH1qokxgeRVySx5wekOBmO9i21cwvumKVSXoEdB/8=",
+        "originContent": "一个为 WinJS 项目提供安全增强功能的插件，主要用于生成 SRI（Subresource Integrity）属性。",
+        "translatedContent": "A plugin that provides security enhancements for WinJS projects, primarily used to generate SRI (Subresource Integrity) attributes."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "hcZsKlpSPkTFpH/QegoKHGVWmJDSH48IDfZVw6T3YEk=",
+        "originContent": "## 功能特性",
+        "translatedContent": "## Features"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "h/LHtXvd3J90P5WxCfQGsrvQZNJrv61OLPCX3L/cR2E=",
+        "originContent": "- 自动为 HTML 文件中的 `<script>` 和 `<link>` 标签生成 SRI 属性",
+        "translatedContent": "- Automatically generates SRI attributes for `<script>` and `<link>` tags in HTML files"
+      },
+      {
+        "row": 8,
+        "rowsha": "9QgnEULa7mBvIZMKR5W0CywDhB1/sxmFtWHGNi+0uB4=",
+        "originContent": "- 支持 SHA-256、SHA-384、SHA-512 哈希算法（可配置）",
+        "translatedContent": "- Supports SHA-256, SHA-384, and SHA-512 hash algorithms (configurable)"
+      },
+      {
+        "row": 9,
+        "rowsha": "aVx9xL3fzzP2Kb3vPf02QOp6FWSRGdFd6v+NjTGwDpU=",
+        "originContent": "- 自动添加 `crossorigin=\"anonymous\"` 属性以确保 SRI 正常工作",
+        "translatedContent": "- Automatically adds the `crossorigin=\"anonymous\"` attribute to ensure proper SRI functionality"
+      },
+      {
+        "row": 10,
+        "rowsha": "4eU52SYjvW1DV4luukN4GM88LynWouSWAwMRpJO2qsg=",
+        "originContent": "- 仅在生产环境下生效，开发环境自动跳过",
+        "translatedContent": "- Only effective in production environments; automatically skipped in development"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "UMqC31ngvFKTTTEuKqsTk79HILGU8WWgF72p6TJJqbg=",
+        "originContent": "## 安装",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\npnpm add @winner-fed/plugin-security\n```",
+    "ContentSha": "pNpG+ZCZlTPoEPdOAr+WK2AjEKY2bqVCq+gnKLvvcH8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npnpm add @winner-fed/plugin-security\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "lQT4Ep89ssMw3lU5fMhTiv7MxtG1HMvzFK46wyIuS5k=",
+        "originContent": "pnpm add @winner-fed/plugin-security",
+        "translatedContent": "pnpm add @winner-fed/plugin-security"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## 使用方法\n\n在你的 `.winrc.ts` 配置文件中添加插件配置：\n",
+    "ContentSha": "IXXydgf+Vib+ERz0vN0tOmkx9jxvXI/Yu4It8HLgpT4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Usage\n\nAdd the plugin configuration in your `.winrc.ts` configuration file:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Usage"
+      },
+      {
+        "row": 2,
+        "rowsha": "6MQVJlN8pzS/JKFAmEsF+fGPpVBhkqKXd7kJyIXtGEg=",
+        "originContent": "## 使用方法",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Add the plugin configuration in your `.winrc.ts` configuration file:"
+      },
+      {
+        "row": 4,
+        "rowsha": "z84ZEb0mqviZa31XKB0L4okW3ydR6PRYJLqgFjPy8vw=",
+        "originContent": "在你的 `.winrc.ts` 配置文件中添加插件配置：",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```typescript\nimport { defineConfig } from '@winner-fed/winjs';\n\nexport default defineConfig({\n  plugins: ['@winner-fed/plugin-security'],\n  security: {\n    sri: true // 启用 SRI 功能\n  },\n});\n```",
+    "ContentSha": "bpzlp+m4jwNyaWTH0ATtg/hROQbp1+pbqHj16GZwQvY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```typescript\nimport { defineConfig } from '@winner-fed/winjs';\n\nexport default defineConfig({\n  plugins: ['@winner-fed/plugin-security'],\n  security: {\n    sri: true // 启用 SRI 功能\n  },\n});\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+        "originContent": "```typescript",
+        "translatedContent": "```typescript"
+      },
+      {
+        "row": 2,
+        "rowsha": "VrRv1tO3P+KnbHG2uXaebKEIRTzDpoNzFYu3og/T5pc=",
+        "originContent": "import { defineConfig } from '@winner-fed/winjs';",
+        "translatedContent": "import { defineConfig } from '@winner-fed/winjs';"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "pxlmGtYe1w1KMBva5rp+lHF+7Z+LH5UVh4Ii/ZGTQo8=",
+        "originContent": "export default defineConfig({",
+        "translatedContent": "export default defineConfig({"
+      },
+      {
+        "row": 5,
+        "rowsha": "+Ulo3AcPGAqbhJBPdZbe56Pk4RDOX1LK4EvZRsZP10A=",
+        "originContent": "  plugins: ['@winner-fed/plugin-security'],",
+        "translatedContent": "  plugins: ['@winner-fed/plugin-security'],"
+      },
+      {
+        "row": 6,
+        "rowsha": "mtf2IE4CyXrpAtGnQI978Wwairr5FYeIs/9naHf4f4U=",
+        "originContent": "  security: {",
+        "translatedContent": "  security: {"
+      },
+      {
+        "row": 7,
+        "rowsha": "hYpnz9z7iAL31ON3iPX+oZb4zzXHUDBBV/VpaXxB8VI=",
+        "originContent": "    sri: true // 启用 SRI 功能",
+        "translatedContent": "    sri: true // 启用 SRI 功能"
+      },
+      {
+        "row": 8,
+        "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+        "originContent": "  },",
+        "translatedContent": "  },"
+      },
+      {
+        "row": 9,
+        "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+        "originContent": "});",
+        "translatedContent": "});"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## 配置选项\n\n### `sri`\n\n- **类型**: `boolean | { algorithm: 'sha256' | 'sha384' | 'sha512' }`\n- **默认值**: 需要手动设置\n- **描述**: 是否启用 SRI（子资源完整性）功能，以及可选的哈希算法配置\n\n当设置为 `true` 或 `{}` 时，插件会：\n\n1. 扫描构建后的 HTML 文件\n2. 为所有带有 `src` 属性的 `<script>` 标签添加 `integrity` 属性\n3. 为所有带有 `href` 属性的 `<link>` 标签添加 `integrity` 属性\n4. 自动添加 `crossorigin=\"anonymous\"` 属性（如果不存在）\n\n你也可以通过对象方式指定哈希算法：\n",
+    "ContentSha": "8hapV6tWfuWVuyHG4jE2pkKaou/S8gCCmL10ZteP9DU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Configuration Options\n\n### `sri`\n\n- **Type**: `boolean | { algorithm: 'sha256' | 'sha384' | 'sha512' }`\n- **Default**: Must be set manually\n- **Description**: Whether to enable SRI (Subresource Integrity) functionality and optional hash algorithm configuration\n\nWhen set to `true` or `{}`, the plugin will:\n\n1. Scan the built HTML files\n2. Add `integrity` attributes to all `<script>` tags with a `src` attribute\n3. Add `integrity` attributes to all `<link>` tags with a `href` attribute\n4. Automatically add `crossorigin=\"anonymous\"` attribute (if not present)\n\nYou can also specify the hash algorithm via an object:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Configuration Options"
+      },
+      {
+        "row": 2,
+        "rowsha": "3o/Wsh1RUgTopKL+S0IEtQNF5+R3Mgx61rbm6aa3as0=",
+        "originContent": "## 配置选项",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### `sri`"
+      },
+      {
+        "row": 4,
+        "rowsha": "Mw6vkObnXxsIe6UPyvI1FUrDL6je4De8JG7sMzRzcYk=",
+        "originContent": "### `sri`",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **Type**: `boolean | { algorithm: 'sha256' | 'sha384' | 'sha512' }`"
+      },
+      {
+        "row": 6,
+        "rowsha": "7XYwnmbJSU8RkYjrvq4rQHgi4Dw5mjtKG8gfmQIJ9G8=",
+        "originContent": "- **类型**: `boolean | { algorithm: 'sha256' | 'sha384' | 'sha512' }`",
+        "translatedContent": "- **Default**: Must be set manually"
+      },
+      {
+        "row": 7,
+        "rowsha": "AUC6yWosefwhUxXmNTfKzhNJRXykQdNvxhpYBBXWg3M=",
+        "originContent": "- **默认值**: 需要手动设置",
+        "translatedContent": "- **Description**: Whether to enable SRI (Subresource Integrity) functionality and optional hash algorithm configuration"
+      },
+      {
+        "row": 8,
+        "rowsha": "DCl+Vo3csh9yNNZTAwZv1bnm98PQOsiqIhn4wTxLoPQ=",
+        "originContent": "- **描述**: 是否启用 SRI（子资源完整性）功能，以及可选的哈希算法配置",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "When set to `true` or `{}`, the plugin will:"
+      },
+      {
+        "row": 10,
+        "rowsha": "ZZb2GJlHREb0+2jSP+LzYl/sWdoRJAST+bhPNGbT744=",
+        "originContent": "当设置为 `true` 或 `{}` 时，插件会：",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. Scan the built HTML files"
+      },
+      {
+        "row": 12,
+        "rowsha": "JgK7kG7aoMI8ka96Z9aHfdSsDdAYkR0YeuidMHjM3rw=",
+        "originContent": "1. 扫描构建后的 HTML 文件",
+        "translatedContent": "2. Add `integrity` attributes to all `<script>` tags with a `src` attribute"
+      },
+      {
+        "row": 13,
+        "rowsha": "3UIkS86baTkWden+NhmAnSqjmjJptnUt66edv19Jito=",
+        "originContent": "2. 为所有带有 `src` 属性的 `<script>` 标签添加 `integrity` 属性",
+        "translatedContent": "3. Add `integrity` attributes to all `<link>` tags with a `href` attribute"
+      },
+      {
+        "row": 14,
+        "rowsha": "/GkpucG4GliyzjUL3Vt16ZsQHlPRxi2dOQWkQ6t7zvw=",
+        "originContent": "3. 为所有带有 `href` 属性的 `<link>` 标签添加 `integrity` 属性",
+        "translatedContent": "4. Automatically add `crossorigin=\"anonymous\"` attribute (if not present)"
+      },
+      {
+        "row": 15,
+        "rowsha": "BRKqirDL6c1MrENA8XMwsjloMJUKE1yTPEZiX/NaNAs=",
+        "originContent": "4. 自动添加 `crossorigin=\"anonymous\"` 属性（如果不存在）",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "You can also specify the hash algorithm via an object:"
+      },
+      {
+        "row": 17,
+        "rowsha": "f/37+nE3PYnJcvBa+ACiE0w3/RcklUUiyztSZzLCy4Q=",
+        "originContent": "你也可以通过对象方式指定哈希算法：",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```typescript\nsecurity: {\n  sri: {\n    algorithm: 'sha512' // 可选 'sha256' | 'sha384' | 'sha512'，默认 'sha512'\n  }\n}\n```",
+    "ContentSha": "EdTGQzwOxCKLp+jES98K84XvZYRkrSI1x1YMT2bcNtI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```typescript\nsecurity: {\n  sri: {\n    algorithm: 'sha512' // 可选 'sha256' | 'sha384' | 'sha512'，默认 'sha512'\n  }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+        "originContent": "```typescript",
+        "translatedContent": "```typescript"
+      },
+      {
+        "row": 2,
+        "rowsha": "SjmpL8QPZX42bc21EBkk+xEAiqVyun/F0k7Evrx4tbM=",
+        "originContent": "security: {",
+        "translatedContent": "security: {"
+      },
+      {
+        "row": 3,
+        "rowsha": "/OK5Zkx9kuLYmN6+C8AcvPqm78NcjjgstVCMnXccKu0=",
+        "originContent": "  sri: {",
+        "translatedContent": "  sri: {"
+      },
+      {
+        "row": 4,
+        "rowsha": "6buhl5ms6cJ1/AhIcXv+GE23IhxlCpFl0ZaqD3rQMQw=",
+        "originContent": "    algorithm: 'sha512' // 可选 'sha256' | 'sha384' | 'sha512'，默认 'sha512'",
+        "translatedContent": "    algorithm: 'sha512' // 可选 'sha256' | 'sha384' | 'sha512'，默认 'sha512'"
+      },
+      {
+        "row": 5,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 6,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n## 示例\n\n### 输入 HTML\n",
+    "ContentSha": "08pj2ieEttMSoon7AiB/2oUxwwhyTBoSlKCumvBo+PA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 示例\n\n### 输入 HTML\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Mspu+F8Wki3qcL0N8ckWALeMPzsl1rqTPEgKP3Zgtko=",
+        "originContent": "## 示例",
+        "translatedContent": "## 示例"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "fjqsVljxRgNJca8K78HVdkyrojSLpj+cxU0xyyjEzSs=",
+        "originContent": "### 输入 HTML",
+        "translatedContent": "### 输入 HTML"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```html\n<!DOCTYPE html>\n<html>\n<head>\n  <link rel=\"stylesheet\" href=\"/assets/app.css\">\n</head>\n<body>\n  <script src=\"/assets/app.js\"></script>\n</body>\n</html>\n```",
+    "ContentSha": "YxjKM8D/q+WpdhEB6Mp44gq1rjKhjM7c1gTjSWlLb2o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```html\n<!DOCTYPE html>\n<html>\n<head>\n  <link rel=\"stylesheet\" href=\"/assets/app.css\">\n</head>\n<body>\n  <script src=\"/assets/app.js\"></script>\n</body>\n</html>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+        "originContent": "```html",
+        "translatedContent": "```html"
+      },
+      {
+        "row": 2,
+        "rowsha": "x35RaN/9pmuNwT8UJbTTYwpmVqPlrPcH9Dkyd7o8i14=",
+        "originContent": "<!DOCTYPE html>",
+        "translatedContent": "<!DOCTYPE html>"
+      },
+      {
+        "row": 3,
+        "rowsha": "t9CC7hLpG3Vuoi6FE7hZTuvPXTn6uBPaPLVXlNyIitc=",
+        "originContent": "<html>",
+        "translatedContent": "<html>"
+      },
+      {
+        "row": 4,
+        "rowsha": "zlGczMOM8ivYJXmRDd/csA9XJjc9rlr4cEixVzA+jyc=",
+        "originContent": "<head>",
+        "translatedContent": "<head>"
+      },
+      {
+        "row": 5,
+        "rowsha": "d+HQWM4RhmqMKwz2Dh0z21gEGCUf12QGNTTriX9Zp3s=",
+        "originContent": "  <link rel=\"stylesheet\" href=\"/assets/app.css\">",
+        "translatedContent": "  <link rel=\"stylesheet\" href=\"/assets/app.css\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "aesxEatlAAiLzA9csEP0Ur17eAG9zXsOR4wvxFT9ugo=",
+        "originContent": "</head>",
+        "translatedContent": "</head>"
+      },
+      {
+        "row": 7,
+        "rowsha": "mqv9Flz7lvxeFwhi5P2ckM+ipXBa9AFhfINvFSOY/OE=",
+        "originContent": "<body>",
+        "translatedContent": "<body>"
+      },
+      {
+        "row": 8,
+        "rowsha": "aZ89HtL+HkHb0RkjGBnBqqHBn0mjaD3obPTzYWII95o=",
+        "originContent": "  <script src=\"/assets/app.js\"></script>",
+        "translatedContent": "  <script src=\"/assets/app.js\"></script>"
+      },
+      {
+        "row": 9,
+        "rowsha": "EkIH2EvcihB8vMBCEqCR6FFX4J178gj3r7SDlJj+8IM=",
+        "originContent": "</body>",
+        "translatedContent": "</body>"
+      },
+      {
+        "row": 10,
+        "rowsha": "/f4Jk+bp6ZF1VLuVsRN69YcBRv042l8TvqG1MKwFspY=",
+        "originContent": "</html>",
+        "translatedContent": "</html>"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n### 输出 HTML（启用 SRI 后）\n",
+    "ContentSha": "xrr6/b+nT9YegVFd7XjzoeRgdKG8bQI4o6AUS17PHlM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Output HTML (After Enabling SRI)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Output HTML (After Enabling SRI)"
+      },
+      {
+        "row": 2,
+        "rowsha": "Mgc6qMD++2d9NUsijoa3IRPv8zz2J/GxhUQey8hPvKg=",
+        "originContent": "### 输出 HTML（启用 SRI 后）",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```html\n<!DOCTYPE html>\n<html>\n<head>\n  <link rel=\"stylesheet\" href=\"/assets/app.css\" integrity=\"sha512-ABC123...\" crossorigin=\"anonymous\">\n</head>\n<body>\n  <script src=\"/assets/app.js\" integrity=\"sha512-XYZ789...\" crossorigin=\"anonymous\"></script>\n</body>\n</html>\n```",
+    "ContentSha": "XwfJnOyGOkva6G7f5jwXBLHN4YD95CcMLsL/fGrUFpU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```html\n<!DOCTYPE html>\n<html>\n<head>\n  <link rel=\"stylesheet\" href=\"/assets/app.css\" integrity=\"sha512-ABC123...\" crossorigin=\"anonymous\">\n</head>\n<body>\n  <script src=\"/assets/app.js\" integrity=\"sha512-XYZ789...\" crossorigin=\"anonymous\"></script>\n</body>\n</html>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+        "originContent": "```html",
+        "translatedContent": "```html"
+      },
+      {
+        "row": 2,
+        "rowsha": "x35RaN/9pmuNwT8UJbTTYwpmVqPlrPcH9Dkyd7o8i14=",
+        "originContent": "<!DOCTYPE html>",
+        "translatedContent": "<!DOCTYPE html>"
+      },
+      {
+        "row": 3,
+        "rowsha": "t9CC7hLpG3Vuoi6FE7hZTuvPXTn6uBPaPLVXlNyIitc=",
+        "originContent": "<html>",
+        "translatedContent": "<html>"
+      },
+      {
+        "row": 4,
+        "rowsha": "zlGczMOM8ivYJXmRDd/csA9XJjc9rlr4cEixVzA+jyc=",
+        "originContent": "<head>",
+        "translatedContent": "<head>"
+      },
+      {
+        "row": 5,
+        "rowsha": "TDG9GL45B5zDaTU21BS2n8xgXFX5xcqBD99/Drn1E9A=",
+        "originContent": "  <link rel=\"stylesheet\" href=\"/assets/app.css\" integrity=\"sha512-ABC123...\" crossorigin=\"anonymous\">",
+        "translatedContent": "  <link rel=\"stylesheet\" href=\"/assets/app.css\" integrity=\"sha512-ABC123...\" crossorigin=\"anonymous\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "aesxEatlAAiLzA9csEP0Ur17eAG9zXsOR4wvxFT9ugo=",
+        "originContent": "</head>",
+        "translatedContent": "</head>"
+      },
+      {
+        "row": 7,
+        "rowsha": "mqv9Flz7lvxeFwhi5P2ckM+ipXBa9AFhfINvFSOY/OE=",
+        "originContent": "<body>",
+        "translatedContent": "<body>"
+      },
+      {
+        "row": 8,
+        "rowsha": "K1blMbRFdDt5CxNhTezme7CfXULhzyxtxwJSrODvpEI=",
+        "originContent": "  <script src=\"/assets/app.js\" integrity=\"sha512-XYZ789...\" crossorigin=\"anonymous\"></script>",
+        "translatedContent": "  <script src=\"/assets/app.js\" integrity=\"sha512-XYZ789...\" crossorigin=\"anonymous\"></script>"
+      },
+      {
+        "row": 9,
+        "rowsha": "EkIH2EvcihB8vMBCEqCR6FFX4J178gj3r7SDlJj+8IM=",
+        "originContent": "</body>",
+        "translatedContent": "</body>"
+      },
+      {
+        "row": 10,
+        "rowsha": "/f4Jk+bp6ZF1VLuVsRN69YcBRv042l8TvqG1MKwFspY=",
+        "originContent": "</html>",
+        "translatedContent": "</html>"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## 安全说明\n\nSRI（子资源完整性）是一种安全特性，允许浏览器验证获取的资源（例如从 CDN 获取的资源）没有被恶意修改。当浏览器加载资源时，会计算资源的哈希值并与 `integrity` 属性中指定的哈希值进行比较。如果哈希值不匹配，浏览器将拒绝加载该资源。\n\n对于 `<script>` 标签来说，结果为拒绝执行其中的代码；对于 CSS links 来说，结果为不加载其中的样式。\n\n关于 SRI 的更多内容，可以查看 [Subresource Integrity - MDN](https://developer.mozilla.org/zh-CN/docs/Web/Security/Subresource_Integrity)。\n\n## 注意事项\n\n1. 此插件仅在生产构建时生效，开发环境会自动跳过\n2. 需要确保资源文件在构建输出目录中可访问\n3. `integrity` 属性必须与 `crossorigin` 属性配合使用才能正常工作\n\n## 许可证\n\nMIT\n\n",
+    "ContentSha": "XbRzMZbzA/T+dT/swl0ViVo+c4DzZoUTRYvwMt05hog=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Safety Instructions\n\nSRI (Subresource Integrity) is a security feature that allows browsers to verify that fetched resources (such as those from a CDN) have not been maliciously altered. When the browser loads a resource, it calculates the resource's hash and compares it with the hash specified in the `integrity` attribute. If the hashes do not match, the browser will refuse to load the resource.\n\nFor `<script>` tags, this results in refusal to execute the code; for CSS links, it results in not loading the styles.\n\nFor more information about SRI, see [Subresource Integrity - MDN](https://developer.mozilla.org/zh-CN/docs/Web/Security/Subresource_Integrity).\n\n## Notes\n\n1. This plugin only takes effect during production builds; it is automatically skipped in the development environment  \n2. Ensure that resource files are accessible in the build output directory  \n3. The `integrity` attribute must be used together with the `crossorigin` attribute to work properly\n\n## License\n\nMIT\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Safety Instructions"
+      },
+      {
+        "row": 2,
+        "rowsha": "hFkU+xwEkGdR15DNOYee0H91jrAlZxegW90yawvQMb0=",
+        "originContent": "## 安全说明",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "SRI (Subresource Integrity) is a security feature that allows browsers to verify that fetched resources (such as those from a CDN) have not been maliciously altered. When the browser loads a resource, it calculates the resource's hash and compares it with the hash specified in the `integrity` attribute. If the hashes do not match, the browser will refuse to load the resource."
+      },
+      {
+        "row": 4,
+        "rowsha": "7ltTZ+3FvFet+IdkUMdXogRpsZ7gc4eaS3ByS4DfBRo=",
+        "originContent": "SRI（子资源完整性）是一种安全特性，允许浏览器验证获取的资源（例如从 CDN 获取的资源）没有被恶意修改。当浏览器加载资源时，会计算资源的哈希值并与 `integrity` 属性中指定的哈希值进行比较。如果哈希值不匹配，浏览器将拒绝加载该资源。",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "For `<script>` tags, this results in refusal to execute the code; for CSS links, it results in not loading the styles."
+      },
+      {
+        "row": 6,
+        "rowsha": "hSOCkD79KbpO38JZ6NQxjWe0iDTMwdaGXoFPWi7gyBI=",
+        "originContent": "对于 `<script>` 标签来说，结果为拒绝执行其中的代码；对于 CSS links 来说，结果为不加载其中的样式。",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "For more information about SRI, see [Subresource Integrity - MDN](https://developer.mozilla.org/zh-CN/docs/Web/Security/Subresource_Integrity)."
+      },
+      {
+        "row": 8,
+        "rowsha": "befyLLkRRI07hOcKnBO1ZvGjYcB6jfziwiE0l/VI0JI=",
+        "originContent": "关于 SRI 的更多内容，可以查看 [Subresource Integrity - MDN](https://developer.mozilla.org/zh-CN/docs/Web/Security/Subresource_Integrity)。",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Notes"
+      },
+      {
+        "row": 10,
+        "rowsha": "qqM9x68fli7rmqs2E7FUA7w7vxRW4wDZzEckY8TxYu8=",
+        "originContent": "## 注意事项",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. This plugin only takes effect during production builds; it is automatically skipped in the development environment  "
+      },
+      {
+        "row": 12,
+        "rowsha": "IDD5ur7STO8JqxnodDOWdS9MNSZHHMPED8FjTIpqq7I=",
+        "originContent": "1. 此插件仅在生产构建时生效，开发环境会自动跳过",
+        "translatedContent": "2. Ensure that resource files are accessible in the build output directory  "
+      },
+      {
+        "row": 13,
+        "rowsha": "4vkWWdTOlV1+x6Brdx4s1VJ47XzF7bhGsL6++Razv2Y=",
+        "originContent": "2. 需要确保资源文件在构建输出目录中可访问",
+        "translatedContent": "3. The `integrity` attribute must be used together with the `crossorigin` attribute to work properly"
+      },
+      {
+        "row": 14,
+        "rowsha": "bNA4I6PMk6esGcCYMvew0eBmhmwmBMWc7QYwO/rTviY=",
+        "originContent": "3. `integrity` 属性必须与 `crossorigin` 属性配合使用才能正常工作",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## License"
+      },
+      {
+        "row": 16,
+        "rowsha": "l9mHJhM0bkQldVQ8sqfWeieeIFtAwhD/P/KiVcLUJww=",
+        "originContent": "## 许可证",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "MIT"
+      },
+      {
+        "row": 18,
+        "rowsha": "5dz/6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x+o7c=",
+        "originContent": "MIT",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

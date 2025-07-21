@@ -38,19 +38,22 @@
 [![npm](https://img.shields.io/npm/v/argonctl?logo=npm&label=npm)](https://www.npmjs.com/package/argonctl)
 [![PyPI](https://img.shields.io/pypi/v/argon-mongodb?logo=pypi&label=PyPI)](https://pypi.org/project/argon-mongodb/)
 
-**MongoDB veritabanınızda zamanda yolculuk yapın. Dallanın, geri yükleyin ve korkmadan deneyin.**
+**MongoDB veritabanınızda zamanda yolculuk yapın. Dallan, geri yükle ve korkmadan deneme yap.**
 
 ## Argon Nedir?
 
-Argon, MongoDB'ye **Git benzeri dallanma** ve **zaman yolculuğu** ile süper güçler kazandırır. Anında veritabanı dalları oluşturun, geçmişteki herhangi bir noktaya geri yükleyin ve artık veri kaybetmeyin.
+Argon, MongoDB'ye **Git benzeri dallanma** ve **zaman yolculuğu** gibi süper güçler kazandırır. Anında veritabanı dalları oluştur, geçmişteki herhangi bir noktaya geri yükle ve asla veri kaybetme.
 
-### 🎯 Temel Faydalar
+### 🎯 Temel Avantajlar
 
-- **⚡ Anında Dallar** - Tüm veritabanınızı 1 ms'de klonlayın (saatler değil)
-- **⏰ Zaman Yolculuğu** - Verilerinizi geçmişteki herhangi bir noktadan sorgulayın
+- **⚡ Anında Dallar** - Tüm veritabanınızı 1ms'de kopyalayın (saatler değil)
+- **⏰ Zaman Yolculuğu** - **220.000+ sorgu/sn** ile geçmişin herhangi bir noktasından verinizi sorgulayın
 - **🔄 Güvenli Geri Yükleme** - Geri yüklemeden önce değişiklikleri önizleyin
-- **💾 Sıfır Depolama Maliyeti** - Dallar verileri verimli şekilde paylaşır
-- **🔌 Kolay Entegrasyon** - Mevcut MongoDB kodunuzla çalışır
+- **💾 Sıfır Depolama Maliyeti** - Dallar veriyi %90 sıkıştırma ile verimli şekilde paylaşır
+- **🔌 Tak-Çalıştır Uyumluluğu** - Mevcut MongoDB kodunuzla çalışır
+- **🚀 Kurumsal Performans** - Son optimizasyonlar sonrası zaman yolculuğu sorguları 26 kat daha hızlı
+- **✅ Kapsamlı Test** - Güvenilirliği sağlayan geniş test kapsamı
+- **🗜️ Akıllı Sıkıştırma** - Otomatik WAL sıkıştırma ile depolama %80-90 azalır
 
 ## Hızlı Demo
 
@@ -59,40 +62,50 @@ Argon, MongoDB'ye **Git benzeri dallanma** ve **zaman yolculuğu** ile süper g�
 brew install argon-lab/tap/argonctl    # macOS
 npm install -g argonctl                 # Cross-platform
 
-# Create a time-travel enabled database
-export ENABLE_WAL=true
-argon projects create myapp
+# Step 1: Import your existing MongoDB (like "git clone")
+argon import database --uri "mongodb://localhost:27017" --database myapp --project myapp
+# ✅ Your data now has time travel capabilities!
 
-# Your app crashed after bad migration? No problem!
+# Step 2: Use Argon like Git for your database
+argon branches create test-env           # Branch like "git checkout -b"
+argon time-travel query --project myapp --branch main --lsn 1000
+
+# Step 3: Disaster recovery made simple
 argon restore preview --time "1 hour ago"
 argon restore reset --time "before disaster"
-
-# Need a test environment? Branch instantly!
-argon branches create test-env
-# Full database copy created in 1ms 🚀
 ```
-## Gerçek Dünya Kullanım Durumları
+## MongoDB için Git Benzeri İş Akışı
 
-### 🚨 **Felaket Kurtarma**
+### 🔄 **Adım 1: İçe Aktar (veritabanları için "git clone")**
+
+```bash
+# Bring your existing MongoDB into Argon
+argon import preview --uri "mongodb://localhost:27017" --database myapp
+argon import database --uri "mongodb://localhost:27017" --database myapp --project myapp
+# ✅ Your existing data now has time travel capabilities!
+```
+### 🧪 **Adım 2: Dal ("git checkout -b")**
+
+```bash
+# Create branches for testing, staging, experiments
+argon branches create staging --project myapp
+argon branches create experiment-v2 --project myapp
+# Full database copies created instantly 🚀
+```
+### 📊 **Adım 3: Zaman Yolculuğu ("git log" ile veri geçmişi)**
+
+```bash
+# See your data's history
+argon time-travel info --project myapp --branch main
+argon time-travel query --project myapp --branch main --lsn 1000
+# Compare data across time like Git commits
+```
+### 🚨 **Adım 4: Geri Yükle ("git reset" felaketler için)**
 
 ```bash
 # "Someone deleted all users!"
 argon restore reset --time "5 minutes ago"
 # Crisis averted in seconds, not hours
-```
-### 🧪 **Güvenli Test**
-
-```bash
-# Test with real production data
-argon branches create staging --from production
-# Run risky migrations fearlessly
-```
-### 📊 **Veri Analizi**
-
-```bash
-# Compare data across time
-argon time-travel diff --from "last week" --to "today"
-# See exactly what changed
 ```
 ## Nasıl Çalışır
 
@@ -120,20 +133,23 @@ cd argon/cli && go build -o argon
 
 - 📖 [Hızlı Başlangıç Kılavuzu](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/QUICK_START.md)
 - 🛠️ [API Referansı](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/API_REFERENCE.md)
-- 💡 [Kullanım Senaryoları](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/USE_CASES.md)
+- 💡 [Kullanım Durumları](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/USE_CASES.md)
 - 🏗️ [Mimari](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/ARCHITECTURE.md)
 
 ## Topluluk
 
+- 🤝 [Topluluk Rehberi](https://raw.githubusercontent.com/argon-lab/argon/master/./COMMUNITY.md) - Katılın!
+- 📋 [Yol Haritası](https://raw.githubusercontent.com/argon-lab/argon/master/./ROADMAP.md) - Yaklaşanları görün
 - 🐛 [Sorun Bildir](https://github.com/argon-lab/argon/issues)
 - 💬 [Tartışmalar](https://github.com/argon-lab/argon/discussions)
+- 🏗️ [Katkıda Bulunun](https://raw.githubusercontent.com/argon-lab/argon/master/./CONTRIBUTING.md) - Argon'u birlikte geliştirelim
 - 📧 [İletişim](https://www.argonlabs.tech)
 
 ---
 
 <div align="center">
 
-**MongoDB'nize bir zaman makinesi kazandırın. Artık asla veri kaybetmeyin.**
+**MongoDB'nize bir zaman makinesi kazandırın. Artık veri kaybetmeyin.**
 
 ⭐ **Bize yıldız verin** eğer Argon gününüzü kurtardıysa!
 
@@ -144,6 +160,6 @@ cd argon/cli && go build -o argon
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-21
 
 ---

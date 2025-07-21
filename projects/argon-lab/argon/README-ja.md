@@ -38,19 +38,22 @@
 [![npm](https://img.shields.io/npm/v/argonctl?logo=npm&label=npm)](https://www.npmjs.com/package/argonctl)
 [![PyPI](https://img.shields.io/pypi/v/argon-mongodb?logo=pypi&label=PyPI)](https://pypi.org/project/argon-mongodb/)
 
-**あなたのMongoDBデータベースで時をかけよう。ブランチ作成、復元、そして安心して実験。**
+**MongoDBデータベースで時空を旅しよう。ブランチ作成、リストア、そして安心して実験できます。**
 
 ## Argonとは？
 
-ArgonはMongoDBに**Gitのようなブランチ機能**と**タイムトラベル**機能を与えます。瞬時にデータベースブランチを作成し、任意の時点に復元、データをもう失うことはありません。
+ArgonはMongoDBに**Gitのようなブランチ機能**と**タイムトラベル機能**というスーパーパワーを付与します。瞬時にデータベースのブランチを作成し、あらゆる過去の時点にリストアし、データを失う心配がなくなります。
 
-### 🎯 主なメリット
+### 🎯 主な利点
 
-- **⚡ 即時ブランチ** - データベース全体を1msでクローン（数時間ではなく）
-- **⏰ タイムトラベル** - 任意の過去の時点からデータをクエリ
-- **🔄 安全な復元** - 復元前に変更内容をプレビュー
-- **💾 ストレージコストゼロ** - ブランチは効率的にデータを共有
-- **🔌 そのまま互換** - 既存のMongoDBコードでそのまま動作
+- **⚡ 即時ブランチ** - データベース全体を1msでクローン（従来は数時間）
+- **⏰ タイムトラベル** - **1秒あたり22万件超**のクエリで任意の時点のデータを取得
+- **🔄 安全なリストア** - リストア前に変更内容をプレビュー可能
+- **💾 ゼロストレージコスト** - ブランチ間でデータを効率的に共有し、90%圧縮
+- **🔌 既存コードにそのまま対応** - 既存のMongoDBコードでそのまま動作
+- **🚀 エンタープライズ性能** - 最新の最適化でタイムトラベルクエリが26倍高速化
+- **✅ 徹底したテスト** - 信頼性を担保する広範なテストカバレッジ
+- **🗜️ スマート圧縮** - 自動WAL圧縮によりストレージを80～90%削減
 
 ## クイックデモ
 
@@ -59,40 +62,50 @@ ArgonはMongoDBに**Gitのようなブランチ機能**と**タイムトラベ�
 brew install argon-lab/tap/argonctl    # macOS
 npm install -g argonctl                 # Cross-platform
 
-# Create a time-travel enabled database
-export ENABLE_WAL=true
-argon projects create myapp
+# Step 1: Import your existing MongoDB (like "git clone")
+argon import database --uri "mongodb://localhost:27017" --database myapp --project myapp
+# ✅ Your data now has time travel capabilities!
 
-# Your app crashed after bad migration? No problem!
+# Step 2: Use Argon like Git for your database
+argon branches create test-env           # Branch like "git checkout -b"
+argon time-travel query --project myapp --branch main --lsn 1000
+
+# Step 3: Disaster recovery made simple
 argon restore preview --time "1 hour ago"
 argon restore reset --time "before disaster"
-
-# Need a test environment? Branch instantly!
-argon branches create test-env
-# Full database copy created in 1ms 🚀
 ```
-## 実際のユースケース
+## MongoDBのためのGitライクなワークフロー
 
-### 🚨 **災害復旧**
+### 🔄 **ステップ1: インポート（データベースの「git clone」）**
+
+```bash
+# Bring your existing MongoDB into Argon
+argon import preview --uri "mongodb://localhost:27017" --database myapp
+argon import database --uri "mongodb://localhost:27017" --database myapp --project myapp
+# ✅ Your existing data now has time travel capabilities!
+```
+### 🧪 **ステップ 2: ブランチ（"git checkout -b"）**
+
+```bash
+# Create branches for testing, staging, experiments
+argon branches create staging --project myapp
+argon branches create experiment-v2 --project myapp
+# Full database copies created instantly 🚀
+```
+### 📊 **ステップ3: タイムトラベル（データの "git log"）**
+
+```bash
+# See your data's history
+argon time-travel info --project myapp --branch main
+argon time-travel query --project myapp --branch main --lsn 1000
+# Compare data across time like Git commits
+```
+### 🚨 **ステップ4: 復元（災害時の "git reset"）**
 
 ```bash
 # "Someone deleted all users!"
 argon restore reset --time "5 minutes ago"
 # Crisis averted in seconds, not hours
-```
-### 🧪 **安全なテスト**
-
-```bash
-# Test with real production data
-argon branches create staging --from production
-# Run risky migrations fearlessly
-```
-### 📊 **データ分析**
-
-```bash
-# Compare data across time
-argon time-travel diff --from "last week" --to "today"
-# See exactly what changed
 ```
 ## 仕組み
 
@@ -125,25 +138,28 @@ cd argon/cli && go build -o argon
 
 ## コミュニティ
 
+- 🤝 [コミュニティガイド](https://raw.githubusercontent.com/argon-lab/argon/master/./COMMUNITY.md) - 参加しよう！
+- 📋 [ロードマップ](https://raw.githubusercontent.com/argon-lab/argon/master/./ROADMAP.md) - 今後の予定を見る
 - 🐛 [問題を報告](https://github.com/argon-lab/argon/issues)
 - 💬 [ディスカッション](https://github.com/argon-lab/argon/discussions)
-- 📧 [連絡先](https://www.argonlabs.tech)
+- 🏗️ [コントリビュート](https://raw.githubusercontent.com/argon-lab/argon/master/./CONTRIBUTING.md) - Argonの開発に参加
+- 📧 [お問い合わせ](https://www.argonlabs.tech)
 
 ---
 
 <div align="center">
 
-**MongoDBにタイムマシンを。もうデータを失いません。**
+**MongoDBにタイムマシンを。もうデータを失わない。**
 
-⭐ **Argonが役立ったらスターをお願いします！**
+⭐ **Argonが役立ったらスターを付けてください！**
 
-[はじめる →](https://raw.githubusercontent.com/argon-lab/argon/master/docs/QUICK_START.md) | [ライブデモ →](https://console.argonlabs.tech)
+[始める →](https://raw.githubusercontent.com/argon-lab/argon/master/docs/QUICK_START.md) | [ライブデモ →](https://console.argonlabs.tech)
 
 </div>
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-21
 
 ---

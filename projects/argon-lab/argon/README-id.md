@@ -38,61 +38,74 @@
 [![npm](https://img.shields.io/npm/v/argonctl?logo=npm&label=npm)](https://www.npmjs.com/package/argonctl)
 [![PyPI](https://img.shields.io/pypi/v/argon-mongodb?logo=pypi&label=PyPI)](https://pypi.org/project/argon-mongodb/)
 
-**Menjelajah waktu di database MongoDB Anda. Buat cabang, pulihkan, dan bereksperimen tanpa rasa takut.**
+**Menjelajahi waktu di database MongoDB Anda. Membuat cabang, mengembalikan, dan bereksperimen tanpa rasa takut.**
 
 ## Apa itu Argon?
 
-Argon memberikan kekuatan super pada MongoDB dengan **branching seperti Git** dan **perjalanan waktu**. Buat cabang database instan, pulihkan ke titik mana pun dalam sejarah, dan jangan pernah kehilangan data lagi.
+Argon memberikan kekuatan super pada MongoDB dengan **branching seperti Git** dan **perjalanan waktu**. Buat cabang database secara instan, kembalikan ke titik mana pun dalam sejarah, dan jangan pernah kehilangan data lagi.
 
-### 🎯 Manfaat Utama
+### 🎯 Keuntungan Utama
 
 - **⚡ Cabang Instan** - Kloning seluruh database Anda dalam 1ms (bukan jam)
-- **⏰ Perjalanan Waktu** - Query data Anda dari titik mana pun dalam sejarah
-- **🔄 Pemulihan Aman** - Pratinjau perubahan sebelum memulihkan
-- **💾 Biaya Penyimpanan Nol** - Cabang berbagi data secara efisien
-- **🔌 Kompatibel Langsung** - Bekerja dengan kode MongoDB yang sudah ada
+- **⏰ Perjalanan Waktu** - Query data Anda dari titik mana saja dalam sejarah dengan **220.000+ query/detik**
+- **🔄 Pemulihan Aman** - Pratinjau perubahan sebelum mengembalikan
+- **💾 Tanpa Biaya Penyimpanan** - Cabang berbagi data secara efisien dengan kompresi 90%
+- **🔌 Kompatibel Plug-and-Play** - Bekerja dengan kode MongoDB yang sudah ada
+- **🚀 Performa Enterprise** - Query perjalanan waktu 26x lebih cepat setelah optimasi terbaru
+- **✅ Pengujian Komprehensif** - Cakupan pengujian luas untuk memastikan keandalan
+- **🗜️ Kompresi Cerdas** - Kompresi WAL otomatis mengurangi penyimpanan 80-90%
 
-## Demo Singkat
+## Demo Cepat
 
 ```bash
 # Install
 brew install argon-lab/tap/argonctl    # macOS
 npm install -g argonctl                 # Cross-platform
 
-# Create a time-travel enabled database
-export ENABLE_WAL=true
-argon projects create myapp
+# Step 1: Import your existing MongoDB (like "git clone")
+argon import database --uri "mongodb://localhost:27017" --database myapp --project myapp
+# ✅ Your data now has time travel capabilities!
 
-# Your app crashed after bad migration? No problem!
+# Step 2: Use Argon like Git for your database
+argon branches create test-env           # Branch like "git checkout -b"
+argon time-travel query --project myapp --branch main --lsn 1000
+
+# Step 3: Disaster recovery made simple
 argon restore preview --time "1 hour ago"
 argon restore reset --time "before disaster"
-
-# Need a test environment? Branch instantly!
-argon branches create test-env
-# Full database copy created in 1ms 🚀
 ```
-## Kasus Penggunaan di Dunia Nyata
+## Alur Kerja Mirip Git untuk MongoDB
 
-### 🚨 **Pemulihan Bencana**
+### 🔄 **Langkah 1: Impor ("git clone" untuk basis data)**
+
+```bash
+# Bring your existing MongoDB into Argon
+argon import preview --uri "mongodb://localhost:27017" --database myapp
+argon import database --uri "mongodb://localhost:27017" --database myapp --project myapp
+# ✅ Your existing data now has time travel capabilities!
+```
+### 🧪 **Langkah 2: Cabang ("git checkout -b")**
+
+```bash
+# Create branches for testing, staging, experiments
+argon branches create staging --project myapp
+argon branches create experiment-v2 --project myapp
+# Full database copies created instantly 🚀
+```
+### 📊 **Langkah 3: Perjalanan Waktu ("git log" untuk data)**
+
+```bash
+# See your data's history
+argon time-travel info --project myapp --branch main
+argon time-travel query --project myapp --branch main --lsn 1000
+# Compare data across time like Git commits
+```
+### 🚨 **Langkah 4: Pulihkan ("git reset" untuk bencana)**
 
 ```bash
 # "Someone deleted all users!"
 argon restore reset --time "5 minutes ago"
 # Crisis averted in seconds, not hours
-```
-### 🧪 **Pengujian Aman**
-
-```bash
-# Test with real production data
-argon branches create staging --from production
-# Run risky migrations fearlessly
-```
-### 📊 **Analisis Data**
-
-```bash
-# Compare data across time
-argon time-travel diff --from "last week" --to "today"
-# See exactly what changed
 ```
 ## Cara Kerjanya
 
@@ -120,22 +133,25 @@ cd argon/cli && go build -o argon
 
 - 📖 [Panduan Mulai Cepat](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/QUICK_START.md)
 - 🛠️ [Referensi API](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/API_REFERENCE.md)
-- 💡 [Studi Kasus](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/USE_CASES.md)
+- 💡 [Kasus Penggunaan](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/USE_CASES.md)
 - 🏗️ [Arsitektur](https://raw.githubusercontent.com/argon-lab/argon/master/./docs/ARCHITECTURE.md)
 
 ## Komunitas
 
+- 🤝 [Panduan Komunitas](https://raw.githubusercontent.com/argon-lab/argon/master/./COMMUNITY.md) - Bergabunglah!
+- 📋 [Peta Jalan](https://raw.githubusercontent.com/argon-lab/argon/master/./ROADMAP.md) - Lihat yang akan datang
 - 🐛 [Laporkan Masalah](https://github.com/argon-lab/argon/issues)
 - 💬 [Diskusi](https://github.com/argon-lab/argon/discussions)
+- 🏗️ [Berkontribusi](https://raw.githubusercontent.com/argon-lab/argon/master/./CONTRIBUTING.md) - Bantu bangun Argon
 - 📧 [Kontak](https://www.argonlabs.tech)
 
 ---
 
 <div align="center">
 
-**Beri MongoDB Anda mesin waktu. Tidak pernah kehilangan data lagi.**
+**Beri MongoDB Anda mesin waktu. Jangan pernah kehilangan data lagi.**
 
-⭐ **Beri bintang** jika Argon menyelamatkan hari Anda!
+⭐ **Beri bintang** jika Argon membantu Anda hari ini!
 
 [Mulai Sekarang →](https://raw.githubusercontent.com/argon-lab/argon/master/docs/QUICK_START.md) | [Demo Langsung →](https://console.argonlabs.tech)
 
@@ -144,6 +160,6 @@ cd argon/cli && go build -o argon
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-21
 
 ---

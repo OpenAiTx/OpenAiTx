@@ -1,0 +1,730 @@
+[
+  {
+    "Id": 1,
+    "Content": "<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/ehmicky/design/main/cross-platform-nodejs/cross-platform-nodejs_dark.svg\"/>\n  <img alt=\"cross-platform-nodejs logo\" src=\"https://raw.githubusercontent.com/ehmicky/design/main/cross-platform-nodejs/cross-platform-nodejs.svg\" width=\"500\"/>\n</picture>\n\n[![License](https://img.shields.io/badge/-CC%20BY%204.0-808080?logo=creativecommons&colorA=404040&logoColor=66cc33)](https://creativecommons.org/licenses/by/4.0/)\n[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/cross-platform-node-guide)\n[![Mastodon](https://img.shields.io/badge/-Mastodon-808080.svg?logo=mastodon&colorA=404040&logoColor=9590F9)](https://fosstodon.org/@ehmicky)\n[![Medium](https://img.shields.io/badge/-Medium-808080.svg?logo=medium&colorA=404040)](https://medium.com/@ehmicky)\n\nHow to write cross-platform Node.js code.\n\n**Why you should care**: according to the\n[2018 Node.js](https://nodejs.org/en/user-survey-report/#Primary-OS-Distro)\n[user survey](https://nodejs.org/en/user-survey-report/2018-nodejs-user-survey-raw-data.xlsx),\n24% of Node.js developers use Windows locally and 41% use Mac. In production 85%\nuse Linux and 1% use BSD.\n\n# Table of contents\n\n[Summary](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/summary.md)\n\n## 🤖 [Development environment](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/1_development_environment/README.md)\n\n- [Node setup](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/1_development_environment/node_setup.md)\n- [Core utilities](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/1_development_environment/core_utilities.md)\n- [Testing](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/1_development_environment/testing.md)\n\n## 📝 [File encoding](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/2_file_encoding/README.md)\n\n- [Character encoding](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/2_file_encoding/character_encoding.md)\n- [Newlines](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/2_file_encoding/newlines.md)\n- [EOF and BOM](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/2_file_encoding/eof_bom.md)\n\n## 📂 [Filesystem](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/3_filesystem/README.md)\n\n- [Directory locations](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/3_filesystem/directory_locations.md)\n- [File paths](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/3_filesystem/file_paths.md)\n- [Filenames](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/3_filesystem/filenames.md)\n- [Symlinks](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/3_filesystem/symlinks.md)\n- [File metadata](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/3_filesystem/file_metadata.md)\n\n## 💻 [Terminal](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/4_terminal/README.md)\n\n- [Shell](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/4_terminal/shell.md)\n- [File execution](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/4_terminal/file_execution.md)\n- [Package binaries](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/4_terminal/package_binaries.md)\n- [Environment variables](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/4_terminal/environment_variables.md)\n\n## 🔒 [Security](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/5_security/README.md)\n\n- [Permissions](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/5_security/permissions.md)\n- [Users](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/5_security/users.md)\n\n## 📡 [Networking / IPC](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/6_networking_ipc/README.md)\n\n- [Networking](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/6_networking_ipc/networking.md)\n- [Processes](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/6_networking_ipc/processes.md)\n- [Signals](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/6_networking_ipc/signals.md)\n- [Errors](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/6_networking_ipc/errors.md)\n\n## 🎛️ [System](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/7_system/README.md)\n\n- [OS identification](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/7_system/os_identification.md)\n- [System configuration](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/7_system/system_configuration.md)\n- [Hardware](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/7_system/hardware.md)\n- [Time](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/7_system/time.md)\n\n# See also\n\n- [cross-platform-terminal-characters](https://github.com/ehmicky/cross-platform-terminal-characters):\n  All the characters that work on most terminals\n- https://github.com/bcoe/awesome-cross-platform-nodejs\n- https://github.com/Microsoft/nodejs-guidelines\n- https://shapeshed.com/writing-cross-platform-node/\n\n# Support\n\nFor any question, _don't hesitate_ to [submit an issue on GitHub](../../issues).\n\nEveryone is welcome regardless of personal background. We enforce a\n[Code of conduct](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/CODE_OF_CONDUCT.md) in order to promote a positive and\ninclusive environment.\n\n# Contributing\n\nThis project was made with ❤️. The simplest way to give back is by starring and\nsharing it online.\n\nIf the documentation is unclear or has a typo, please click on the page's `Edit`\nbutton (pencil icon) and suggest a correction.\n\nIf you would like to help us fix an error or add more information, please check\nour [guidelines](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/CONTRIBUTING.md). Pull requests are welcome!\n\nThanks go to these wonderful people:\n\n<!-- ALL-CONTRIBUTORS-LIST:START -->\n<!-- prettier-ignore -->\n<table>",
+    "ContentSha": "xxoA3Quq6AKZ7jEqyzwlX+jswNjQgp9xr2dmuxosr44=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/ehmicky/design/main/cross-platform-nodejs/cross-platform-nodejs_dark.svg\"/>\n  <img alt=\"cross-platform-nodejs logo\" src=\"https://raw.githubusercontent.com/ehmicky/design/main/cross-platform-nodejs/cross-platform-nodejs.svg\" width=\"500\"/>\n</picture>\n\n[![License](https://img.shields.io/badge/-CC%20BY%204.0-808080?logo=creativecommons&colorA=404040&logoColor=66cc33)](https://creativecommons.org/licenses/by/4.0/)\n[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/cross-platform-node-guide)\n[![Mastodon](https://img.shields.io/badge/-Mastodon-808080.svg?logo=mastodon&colorA=404040&logoColor=9590F9)](https://fosstodon.org/@ehmicky)\n[![Medium](https://img.shields.io/badge/-Medium-808080.svg?logo=medium&colorA=404040)](https://medium.com/@ehmicky)\n\nHow to write cross-platform Node.js code.\n\n**Why you should care**: according to the\n[2018 Node.js](https://nodejs.org/en/user-survey-report/#Primary-OS-Distro)\n[user survey](https://nodejs.org/en/user-survey-report/2018-nodejs-user-survey-raw-data.xlsx),\n24% of Node.js developers use Windows locally and 41% use Mac. In production 85%\nuse Linux and 1% use BSD.\n\n# Table of contents\n\n[Summary](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/summary.md)\n\n## 🤖 [Development environment](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/1_development_environment/README.md)\n\n- [Node setup](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/1_development_environment/node_setup.md)\n- [Core utilities](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/1_development_environment/core_utilities.md)\n- [Testing](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/1_development_environment/testing.md)\n\n## 📝 [File encoding](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/2_file_encoding/README.md)\n\n- [Character encoding](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/2_file_encoding/character_encoding.md)\n- [Newlines](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/2_file_encoding/newlines.md)\n- [EOF and BOM](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/2_file_encoding/eof_bom.md)\n\n## 📂 [Filesystem](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/3_filesystem/README.md)\n\n- [Directory locations](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/3_filesystem/directory_locations.md)\n- [File paths](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/3_filesystem/file_paths.md)\n- [Filenames](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/3_filesystem/filenames.md)\n- [Symlinks](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/3_filesystem/symlinks.md)\n- [File metadata](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/3_filesystem/file_metadata.md)\n\n## 💻 [Terminal](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/4_terminal/README.md)\n\n- [Shell](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/4_terminal/shell.md)\n- [File execution](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/4_terminal/file_execution.md)\n- [Package binaries](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/4_terminal/package_binaries.md)\n- [Environment variables](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/4_terminal/environment_variables.md)\n\n## 🔒 [Security](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/5_security/README.md)\n\n- [Permissions](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/5_security/permissions.md)\n- [Users](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/5_security/users.md)\n\n## 📡 [Networking / IPC](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/6_networking_ipc/README.md)\n\n- [Networking](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/6_networking_ipc/networking.md)\n- [Processes](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/6_networking_ipc/processes.md)\n- [Signals](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/6_networking_ipc/signals.md)\n- [Errors](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/6_networking_ipc/errors.md)\n\n## 🎛️ [System](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/7_system/README.md)\n\n- [OS identification](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/7_system/os_identification.md)\n- [System configuration](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/7_system/system_configuration.md)\n- [Hardware](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/7_system/hardware.md)\n- [Time](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/7_system/time.md)\n\n# See also\n\n- [cross-platform-terminal-characters](https://github.com/ehmicky/cross-platform-terminal-characters):\n  All the characters that work on most terminals\n- https://github.com/bcoe/awesome-cross-platform-nodejs\n- https://github.com/Microsoft/nodejs-guidelines\n- https://shapeshed.com/writing-cross-platform-node/\n\n# Support\n\nFor any question, _don't hesitate_ to [submit an issue on GitHub](../../issues).\n\nEveryone is welcome regardless of personal background. We enforce a\n[Code of conduct](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/CODE_OF_CONDUCT.md) in order to promote a positive and\ninclusive environment.\n\n# Contributing\n\nThis project was made with ❤️. The simplest way to give back is by starring and\nsharing it online.\n\nIf the documentation is unclear or has a typo, please click on the page's `Edit`\nbutton (pencil icon) and suggest a correction.\n\nIf you would like to help us fix an error or add more information, please check\nour [guidelines](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/CONTRIBUTING.md). Pull requests are welcome!\n\nThanks go to these wonderful people:\n\n<!-- ALL-CONTRIBUTORS-LIST:START -->\n<!-- prettier-ignore -->\n<table>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "e/EMiq0wEwC6z5ypRmro6x+Ln2VwaUIirlhG4tMgm/E=",
+        "originContent": "<picture>",
+        "translatedContent": "<picture>"
+      },
+      {
+        "row": 2,
+        "rowsha": "x9u/1soLFacJZvYw+khkWxsWMRGAdJMPSj8SZpqpDNA=",
+        "originContent": "  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/ehmicky/design/main/cross-platform-nodejs/cross-platform-nodejs_dark.svg\"/>",
+        "translatedContent": "  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/ehmicky/design/main/cross-platform-nodejs/cross-platform-nodejs_dark.svg\"/>"
+      },
+      {
+        "row": 3,
+        "rowsha": "vq+bySGQEsKxpxx0xMC66MCjOdyBDkNGn5XxJRUJVMU=",
+        "originContent": "  <img alt=\"cross-platform-nodejs logo\" src=\"https://raw.githubusercontent.com/ehmicky/design/main/cross-platform-nodejs/cross-platform-nodejs.svg\" width=\"500\"/>",
+        "translatedContent": "  <img alt=\"cross-platform-nodejs logo\" src=\"https://raw.githubusercontent.com/ehmicky/design/main/cross-platform-nodejs/cross-platform-nodejs.svg\" width=\"500\"/>"
+      },
+      {
+        "row": 4,
+        "rowsha": "hZTTctF/RX64iDLXMWyPifafmJmLfZFAnCkn7yHq8HU=",
+        "originContent": "</picture>",
+        "translatedContent": "</picture>"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "71i2l/Ki7QwEJysGG+fBw2qp8m2ClFIoEHRsPERouUU=",
+        "originContent": "[![License](https://img.shields.io/badge/-CC%20BY%204.0-808080?logo=creativecommons&colorA=404040&logoColor=66cc33)](https://creativecommons.org/licenses/by/4.0/)",
+        "translatedContent": "[![License](https://img.shields.io/badge/-CC%20BY%204.0-808080?logo=creativecommons&colorA=404040&logoColor=66cc33)](https://creativecommons.org/licenses/by/4.0/)"
+      },
+      {
+        "row": 7,
+        "rowsha": "MNwEfzTRiADD4Yz1hz6W7i0CRecDueu5ddTmK1ROsn8=",
+        "originContent": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/cross-platform-node-guide)",
+        "translatedContent": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/cross-platform-node-guide)"
+      },
+      {
+        "row": 8,
+        "rowsha": "JEzMmKwurHuCW9idSyLWG0OvqrciRfVXcAuS2wlVTa8=",
+        "originContent": "[![Mastodon](https://img.shields.io/badge/-Mastodon-808080.svg?logo=mastodon&colorA=404040&logoColor=9590F9)](https://fosstodon.org/@ehmicky)",
+        "translatedContent": "[![Mastodon](https://img.shields.io/badge/-Mastodon-808080.svg?logo=mastodon&colorA=404040&logoColor=9590F9)](https://fosstodon.org/@ehmicky)"
+      },
+      {
+        "row": 9,
+        "rowsha": "pAFOEtZ7Hrcdro0GvdXE268HshxprjM42haHIbPD1Yw=",
+        "originContent": "[![Medium](https://img.shields.io/badge/-Medium-808080.svg?logo=medium&colorA=404040)](https://medium.com/@ehmicky)",
+        "translatedContent": "[![Medium](https://img.shields.io/badge/-Medium-808080.svg?logo=medium&colorA=404040)](https://medium.com/@ehmicky)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "/XvT0Rxfca96ZQDlDd0EPzkl/eboZHR6fuIyiEd6dzk=",
+        "originContent": "How to write cross-platform Node.js code.",
+        "translatedContent": "How to write cross-platform Node.js code."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "M0X4AGR2yMDbQJLu9M9r3jW40IDBA4q1q7Kvf0hn08I=",
+        "originContent": "**Why you should care**: according to the",
+        "translatedContent": "**Why you should care**: according to the"
+      },
+      {
+        "row": 14,
+        "rowsha": "nnI82raAkLdfpfNWk5Fr7f8n8YUJv2QF2c1219vBarc=",
+        "originContent": "[2018 Node.js](https://nodejs.org/en/user-survey-report/#Primary-OS-Distro)",
+        "translatedContent": "[2018 Node.js](https://nodejs.org/en/user-survey-report/#Primary-OS-Distro)"
+      },
+      {
+        "row": 15,
+        "rowsha": "fRLtDzAsW4bSlMf3/vg2KuyqpERuS7SkhRNPfls6NP0=",
+        "originContent": "[user survey](https://nodejs.org/en/user-survey-report/2018-nodejs-user-survey-raw-data.xlsx),",
+        "translatedContent": "[user survey](https://nodejs.org/en/user-survey-report/2018-nodejs-user-survey-raw-data.xlsx),"
+      },
+      {
+        "row": 16,
+        "rowsha": "1SwHzmvdSp6tQ44yNdidgWXlQT9wvZWk6BASKezkTCM=",
+        "originContent": "24% of Node.js developers use Windows locally and 41% use Mac. In production 85%",
+        "translatedContent": "24% of Node.js developers use Windows locally and 41% use Mac. In production 85%"
+      },
+      {
+        "row": 17,
+        "rowsha": "jX3oZYfenR8R0Q7Ezge90sCsQxTTxepKIVEq+xa0oQc=",
+        "originContent": "use Linux and 1% use BSD.",
+        "translatedContent": "use Linux and 1% use BSD."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "dGpd11aG1Pt1m6HD6mvsHwA65K2TPh7Oc54HOWQh2SM=",
+        "originContent": "# Table of contents",
+        "translatedContent": "# Table of contents"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "1EyI7p2TPPAzh/dccum9gPh2D3bWGT3lZr3HbYbKvAE=",
+        "originContent": "[Summary](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/summary.md)",
+        "translatedContent": "[Summary](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/summary.md)"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "WQPq4N1vK7pSomKZD3R4haA0PBPWkHbxk+dQV1pWFsg=",
+        "originContent": "## 🤖 [Development environment](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/1_development_environment/README.md)",
+        "translatedContent": "## 🤖 [Development environment](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/1_development_environment/README.md)"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "3vDhYiGXAYxUsBDQej4JsWqMAWjeiWo/u3S/azIBvY8=",
+        "originContent": "- [Node setup](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/1_development_environment/node_setup.md)",
+        "translatedContent": "- [Node setup](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/1_development_environment/node_setup.md)"
+      },
+      {
+        "row": 26,
+        "rowsha": "cj5q7vi1nO4qCpNwUA03qad/1tdh1iJxRdyr46YOV7o=",
+        "originContent": "- [Core utilities](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/1_development_environment/core_utilities.md)",
+        "translatedContent": "- [Core utilities](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/1_development_environment/core_utilities.md)"
+      },
+      {
+        "row": 27,
+        "rowsha": "+j4RmOHglDxv19hY59zQLPeLRHN8svZ10KSJvVJ7b3A=",
+        "originContent": "- [Testing](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/1_development_environment/testing.md)",
+        "translatedContent": "- [Testing](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/1_development_environment/testing.md)"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "h76csJibElbEllL+zvE1oo7SM3O40lGzMNqUbHQHYYQ=",
+        "originContent": "## 📝 [File encoding](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/2_file_encoding/README.md)",
+        "translatedContent": "## 📝 [File encoding](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/2_file_encoding/README.md)"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "zB+zSqEdiZSEPu8LYEaPZtkGFYBrxa4NKzwErQRtjrw=",
+        "originContent": "- [Character encoding](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/2_file_encoding/character_encoding.md)",
+        "translatedContent": "- [Character encoding](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/2_file_encoding/character_encoding.md)"
+      },
+      {
+        "row": 32,
+        "rowsha": "b8A51BBSp7cxnnQkvJeNeK6xiHmDtnW9+zZs7uAHPug=",
+        "originContent": "- [Newlines](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/2_file_encoding/newlines.md)",
+        "translatedContent": "- [Newlines](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/2_file_encoding/newlines.md)"
+      },
+      {
+        "row": 33,
+        "rowsha": "vPscdfIX7v+9CH4nxVVNvRtMsS4XLeIwDz2WXZC6hW8=",
+        "originContent": "- [EOF and BOM](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/2_file_encoding/eof_bom.md)",
+        "translatedContent": "- [EOF and BOM](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/2_file_encoding/eof_bom.md)"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "98RW82WTYXebNYemMgqgk9+p0+kscoEr93WDO/1sXjw=",
+        "originContent": "## 📂 [Filesystem](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/3_filesystem/README.md)",
+        "translatedContent": "## 📂 [Filesystem](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/3_filesystem/README.md)"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "pIc8LvBSTTJK2gFKsvAuq8Dnb7aY+p6ZOway0SLI3no=",
+        "originContent": "- [Directory locations](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/3_filesystem/directory_locations.md)",
+        "translatedContent": "- [Directory locations](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/3_filesystem/directory_locations.md)"
+      },
+      {
+        "row": 38,
+        "rowsha": "QYURfj1DrQkvsjjVTTtQSuPH5mVXes3Yr/GQ8fiQdB8=",
+        "originContent": "- [File paths](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/3_filesystem/file_paths.md)",
+        "translatedContent": "- [File paths](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/3_filesystem/file_paths.md)"
+      },
+      {
+        "row": 39,
+        "rowsha": "eI9GlHbtVEFqNY1BCs+j/EdWqpmicRQTn29kvaPXO3c=",
+        "originContent": "- [Filenames](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/3_filesystem/filenames.md)",
+        "translatedContent": "- [Filenames](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/3_filesystem/filenames.md)"
+      },
+      {
+        "row": 40,
+        "rowsha": "Ipp7whqX24qEy6TP45IptM/0SjEaYZcDwe1JN1ovI5M=",
+        "originContent": "- [Symlinks](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/3_filesystem/symlinks.md)",
+        "translatedContent": "- [Symlinks](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/3_filesystem/symlinks.md)"
+      },
+      {
+        "row": 41,
+        "rowsha": "sEkDVkNnAmlAn1Wo4YvRUGSGqn5TJTdqmLgRKYMxaAo=",
+        "originContent": "- [File metadata](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/3_filesystem/file_metadata.md)",
+        "translatedContent": "- [File metadata](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/3_filesystem/file_metadata.md)"
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "CX8m+9093TuCjF/V7TiKlzzrnZDwaJHZBYzelyPQdQI=",
+        "originContent": "## 💻 [Terminal](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/4_terminal/README.md)",
+        "translatedContent": "## 💻 [Terminal](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/4_terminal/README.md)"
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "wwwn8rYtECviPZixfMXZr2o+4rWGEE6c35ID5HRZ3mI=",
+        "originContent": "- [Shell](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/4_terminal/shell.md)",
+        "translatedContent": "- [Shell](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/4_terminal/shell.md)"
+      },
+      {
+        "row": 46,
+        "rowsha": "TrvsPXpuNio3ZzhxL7IEnubOjX59P4LCG1ppvjgTn3A=",
+        "originContent": "- [File execution](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/4_terminal/file_execution.md)",
+        "translatedContent": "- [File execution](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/4_terminal/file_execution.md)"
+      },
+      {
+        "row": 47,
+        "rowsha": "g1o6PDwoWrbBMCJM0z862HnV9aqAVy4QpX8b6baOmP4=",
+        "originContent": "- [Package binaries](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/4_terminal/package_binaries.md)",
+        "translatedContent": "- [Package binaries](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/4_terminal/package_binaries.md)"
+      },
+      {
+        "row": 48,
+        "rowsha": "fbE5me6MvTaMxfIBalLwKXCLsPt+bzrXJhdpWxEuhIg=",
+        "originContent": "- [Environment variables](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/4_terminal/environment_variables.md)",
+        "translatedContent": "- [Environment variables](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/4_terminal/environment_variables.md)"
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 50,
+        "rowsha": "tixe12CxQJrLBD8oAHRNTm6j9X8vnAvIeZ8PYKaHrQw=",
+        "originContent": "## 🔒 [Security](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/5_security/README.md)",
+        "translatedContent": "## 🔒 [Security](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/5_security/README.md)"
+      },
+      {
+        "row": 51,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 52,
+        "rowsha": "gUg7ikCko8u/EeHlqom4O/tB5Ts699aC5TV1Kg3yk3U=",
+        "originContent": "- [Permissions](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/5_security/permissions.md)",
+        "translatedContent": "- [Permissions](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/5_security/permissions.md)"
+      },
+      {
+        "row": 53,
+        "rowsha": "PU7s9SixzBiQ9jNaOmfL1U9uMF+K6P7rJ7HNFLrmyv0=",
+        "originContent": "- [Users](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/5_security/users.md)",
+        "translatedContent": "- [Users](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/5_security/users.md)"
+      },
+      {
+        "row": 54,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 55,
+        "rowsha": "YHklqmC7Q6nYgQyq0ej2iwl2aJN8yJ3iqVJ/yx23Xe8=",
+        "originContent": "## 📡 [Networking / IPC](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/6_networking_ipc/README.md)",
+        "translatedContent": "## 📡 [Networking / IPC](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/6_networking_ipc/README.md)"
+      },
+      {
+        "row": 56,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 57,
+        "rowsha": "7cYdCYbUhgBoH2LPrKeKwddD8ebcwK140U1PJ4tNfQs=",
+        "originContent": "- [Networking](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/6_networking_ipc/networking.md)",
+        "translatedContent": "- [Networking](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/6_networking_ipc/networking.md)"
+      },
+      {
+        "row": 58,
+        "rowsha": "h5rUvIUPSj0+DDoxR5XwzmEKU/+/208GcgzKE7PU3TM=",
+        "originContent": "- [Processes](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/6_networking_ipc/processes.md)",
+        "translatedContent": "- [Processes](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/6_networking_ipc/processes.md)"
+      },
+      {
+        "row": 59,
+        "rowsha": "ZuJjafWdya0QFzaIb9OFvUp5NRbEuh4dUJlKYvF/Xqo=",
+        "originContent": "- [Signals](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/6_networking_ipc/signals.md)",
+        "translatedContent": "- [Signals](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/6_networking_ipc/signals.md)"
+      },
+      {
+        "row": 60,
+        "rowsha": "3eIcYtR1ZOzhR1ijQreoGtfeii7SY/D7Qyuxds0u0Hk=",
+        "originContent": "- [Errors](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/6_networking_ipc/errors.md)",
+        "translatedContent": "- [Errors](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/6_networking_ipc/errors.md)"
+      },
+      {
+        "row": 61,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 62,
+        "rowsha": "TqYz+r7SlH11F3ii0+pEp9qOy+uCH46nkFyBXsGmSHk=",
+        "originContent": "## 🎛️ [System](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/7_system/README.md)",
+        "translatedContent": "## 🎛️ [System](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/7_system/README.md)"
+      },
+      {
+        "row": 63,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 64,
+        "rowsha": "vudmf5vZZaOk4Qj+scy3soidym7WG8a1I/RN4cbkhS4=",
+        "originContent": "- [OS identification](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/7_system/os_identification.md)",
+        "translatedContent": "- [OS identification](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/7_system/os_identification.md)"
+      },
+      {
+        "row": 65,
+        "rowsha": "gDOmCQKPW2HruoOEWunaBRcPPhKd+yWPvG1s5BNueQo=",
+        "originContent": "- [System configuration](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/7_system/system_configuration.md)",
+        "translatedContent": "- [System configuration](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/7_system/system_configuration.md)"
+      },
+      {
+        "row": 66,
+        "rowsha": "QW9BANtjjU8NRatN50XYMaVrJ5jVVDZVOPLxgkVUZKA=",
+        "originContent": "- [Hardware](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/7_system/hardware.md)",
+        "translatedContent": "- [Hardware](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/7_system/hardware.md)"
+      },
+      {
+        "row": 67,
+        "rowsha": "ERyUUkdDhguk12vY1UPSf85ZjO/kyBKJrY1GlSFSuSo=",
+        "originContent": "- [Time](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/7_system/time.md)",
+        "translatedContent": "- [Time](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/docs/7_system/time.md)"
+      },
+      {
+        "row": 68,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 69,
+        "rowsha": "h1iNKxBnGYUlBoM7kf5OoLIfbT3wWn0F/l1k1/x285w=",
+        "originContent": "# See also",
+        "translatedContent": "# See also"
+      },
+      {
+        "row": 70,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 71,
+        "rowsha": "O0sTIzhqWmzQV/HE+p8WOsd5TBQv6t4lpFXMuRF8tsI=",
+        "originContent": "- [cross-platform-terminal-characters](https://github.com/ehmicky/cross-platform-terminal-characters):",
+        "translatedContent": "- [cross-platform-terminal-characters](https://github.com/ehmicky/cross-platform-terminal-characters):"
+      },
+      {
+        "row": 72,
+        "rowsha": "lTIrrO05pjaimV0QofXpJ2ySaxWtqmvEYIBAW88RaGc=",
+        "originContent": "  All the characters that work on most terminals",
+        "translatedContent": "  All the characters that work on most terminals"
+      },
+      {
+        "row": 73,
+        "rowsha": "ReZl0aGnS3T1KDDOQSEiYXKBHfuMvVAJms6Q3mMm9wQ=",
+        "originContent": "- https://github.com/bcoe/awesome-cross-platform-nodejs",
+        "translatedContent": "- https://github.com/bcoe/awesome-cross-platform-nodejs"
+      },
+      {
+        "row": 74,
+        "rowsha": "Ct/OJxF+OemIrVYCoTabooR+t+7LJ5HPJOlA4id6/KA=",
+        "originContent": "- https://github.com/Microsoft/nodejs-guidelines",
+        "translatedContent": "- https://github.com/Microsoft/nodejs-guidelines"
+      },
+      {
+        "row": 75,
+        "rowsha": "vulN0hlVRzRkzB6BkaCtrvTSXWEgQl8gpZue1E0sHQ8=",
+        "originContent": "- https://shapeshed.com/writing-cross-platform-node/",
+        "translatedContent": "- https://shapeshed.com/writing-cross-platform-node/"
+      },
+      {
+        "row": 76,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 77,
+        "rowsha": "iM16mjyZ3xeRaVa1NhFyJcWFcvJpXxx6k+FCBbbFR1o=",
+        "originContent": "# Support",
+        "translatedContent": "# Support"
+      },
+      {
+        "row": 78,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 79,
+        "rowsha": "e5zyBPlQl/9CIdkWVoMxFxIUODcb+7aDQ0mSgs/GycE=",
+        "originContent": "For any question, _don't hesitate_ to [submit an issue on GitHub](../../issues).",
+        "translatedContent": "For any question, _don't hesitate_ to [submit an issue on GitHub](../../issues)."
+      },
+      {
+        "row": 80,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 81,
+        "rowsha": "f+yh87wagwni0kWIWl5/fspYi3OBRP1BGC6qlHC0rtI=",
+        "originContent": "Everyone is welcome regardless of personal background. We enforce a",
+        "translatedContent": "Everyone is welcome regardless of personal background. We enforce a"
+      },
+      {
+        "row": 82,
+        "rowsha": "vPCBMI/r2I64EXxblRT2gPLphmE++OlP34Cqa43nm60=",
+        "originContent": "[Code of conduct](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/CODE_OF_CONDUCT.md) in order to promote a positive and",
+        "translatedContent": "[Code of conduct](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/CODE_OF_CONDUCT.md) in order to promote a positive and"
+      },
+      {
+        "row": 83,
+        "rowsha": "tZneIDZGZvquno0MBzgp3wgz8zY6y6FHoMJh4+klkC0=",
+        "originContent": "inclusive environment.",
+        "translatedContent": "inclusive environment."
+      },
+      {
+        "row": 84,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 85,
+        "rowsha": "1yCoKNoREHM/a6qGHb4WHakxWqjS55ccm8ypI1TWTPM=",
+        "originContent": "# Contributing",
+        "translatedContent": "# Contributing"
+      },
+      {
+        "row": 86,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 87,
+        "rowsha": "J8DWwCzmQMbDyGva0e7cIUAG/grmK3TRQTLwzMsVruQ=",
+        "originContent": "This project was made with ❤️. The simplest way to give back is by starring and",
+        "translatedContent": "This project was made with ❤️. The simplest way to give back is by starring and"
+      },
+      {
+        "row": 88,
+        "rowsha": "Y8T65o4qXZd9dl0q6USlTEkCRKLxJYmpruHbgcjQyuQ=",
+        "originContent": "sharing it online.",
+        "translatedContent": "sharing it online."
+      },
+      {
+        "row": 89,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 90,
+        "rowsha": "aWyB7Hhs8VmpTPcGmn/KQ9MOyGWepTWj1xUIJp5MbOk=",
+        "originContent": "If the documentation is unclear or has a typo, please click on the page's `Edit`",
+        "translatedContent": "If the documentation is unclear or has a typo, please click on the page's `Edit`"
+      },
+      {
+        "row": 91,
+        "rowsha": "UQsSGhHkssjrv8wDTbGGf0iaqksvMWFDkj0bn5u1Exc=",
+        "originContent": "button (pencil icon) and suggest a correction.",
+        "translatedContent": "button (pencil icon) and suggest a correction."
+      },
+      {
+        "row": 92,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 93,
+        "rowsha": "uPLYTCwQr5CBIQqB3EdrssprNg4XlpltJ+BKKg9x38c=",
+        "originContent": "If you would like to help us fix an error or add more information, please check",
+        "translatedContent": "If you would like to help us fix an error or add more information, please check"
+      },
+      {
+        "row": 94,
+        "rowsha": "tcEemV22mRdtXWQjrWhtDxyQqMCCNZ3Fg2EQTc2A81o=",
+        "originContent": "our [guidelines](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/CONTRIBUTING.md). Pull requests are welcome!",
+        "translatedContent": "our [guidelines](https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/CONTRIBUTING.md). Pull requests are welcome!"
+      },
+      {
+        "row": 95,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 96,
+        "rowsha": "wB/G+XT7KdxdBw1g9qHgmOQO7I89f6k5VUkMAfZuP9A=",
+        "originContent": "Thanks go to these wonderful people:",
+        "translatedContent": "Thanks go to these wonderful people:"
+      },
+      {
+        "row": 97,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 98,
+        "rowsha": "tmWmIbQ7Pc8jUf7CRJhbqLIRSy2UB92/QNNIB2Y06Xw=",
+        "originContent": "<!-- ALL-CONTRIBUTORS-LIST:START -->",
+        "translatedContent": "<!-- ALL-CONTRIBUTORS-LIST:START -->"
+      },
+      {
+        "row": 99,
+        "rowsha": "qU7uoSFUmSmI6ohWfu2FUGo10fg+Q5qRLiP6/WUZH0c=",
+        "originContent": "<!-- prettier-ignore -->",
+        "translatedContent": "<!-- prettier-ignore -->"
+      },
+      {
+        "row": 100,
+        "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
+        "originContent": "<table>",
+        "translatedContent": "<table>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "  <tr>\n    <td align=\"center\"><a href=\"https://fosstodon.org/@ehmicky\"><img src=\"https://avatars2.githubusercontent.com/u/8136211?v=4\" width=\"100px;\" alt=\"ehmicky\"/><br /><sub><b>ehmicky</b></sub></a><br /><a href=\"https://github.com/ehmicky/cross-platform-node-guide/commits?author=ehmicky\" title=\"Code\">💻</a> <a href=\"#design-ehmicky\" title=\"Design\">🎨</a> <a href=\"#ideas-ehmicky\" title=\"Ideas, Planning, & Feedback\">🤔</a> <a href=\"https://github.com/ehmicky/cross-platform-node-guide/commits?author=ehmicky\" title=\"Documentation\">📖</a></td>\n    <td align=\"center\"><a href=\"https://github.com/thatalextaylor\"><img src=\"https://avatars3.githubusercontent.com/u/1481643?v=4\" width=\"100px;\" alt=\"thatalextaylor\"/><br /><sub><b>thatalextaylor</b></sub></a><br /><a href=\"#ideas-thatalextaylor\" title=\"Ideas, Planning, & Feedback\">🤔</a> <a href=\"https://github.com/ehmicky/cross-platform-node-guide/commits?author=thatalextaylor\" title=\"Documentation\">📖</a></td>\n    <td align=\"center\"><a href=\"https://github.com/bnoordhuis\"><img src=\"https://avatars0.githubusercontent.com/u/275871?v=4\" width=\"100px;\" alt=\"Ben Noordhuis\"/><br /><sub><b>Ben Noordhuis</b></sub></a><br /><a href=\"#ideas-bnoordhuis\" title=\"Ideas, Planning, & Feedback\">🤔</a> <a href=\"https://github.com/ehmicky/cross-platform-node-guide/commits?author=bnoordhuis\" title=\"Documentation\">📖</a></td>\n    <td align=\"center\"><a href=\"https://github.com/OpenDirective\"><img src=\"https://avatars2.githubusercontent.com/u/618922?v=4\" width=\"100px;\" alt=\"Steve Lee\"/><br /><sub><b>Steve Lee</b></sub></a><br /><a href=\"#ideas-SteveALee\" title=\"Ideas, Planning, & Feedback\">🤔</a> <a href=\"#talk-SteveALee\" title=\"Talks\">📢</a></td>\n    <td align=\"center\"><a href=\"http://tracker1.info/\"><img src=\"https://avatars3.githubusercontent.com/u/444316?v=4\" width=\"100px;\" alt=\"Michael J. Ryan\"/><br /><sub><b>Michael J. Ryan</b></sub></a><br /><a href=\"#ideas-tracker1\" title=\"Ideas, Planning, & Feedback\">🤔</a></td>\n    <td align=\"center\"><a href=\"http://twitter.com/fabiospampinato\"><img src=\"https://avatars1.githubusercontent.com/u/1812093?v=4\" width=\"100px;\" alt=\"Fabio Spampinato\"/><br /><sub><b>Fabio Spampinato</b></sub></a><br /><a href=\"#ideas-fabiospampinato\" title=\"Ideas, Planning, & Feedback\">🤔</a></td>\n    <td align=\"center\"><a href=\"https://github.com/AyrA\"><img src=\"https://avatars0.githubusercontent.com/u/1301960?v=4\" width=\"100px;\" alt=\"AyrA\"/><br /><sub><b>AyrA</b></sub></a><br /><a href=\"#ideas-AyrA\" title=\"Ideas, Planning, & Feedback\">🤔</a></td>\n  </tr>\n  <tr>\n    <td align=\"center\"><a href=\"https://twitter.com/felixfbecker\"><img src=\"https://avatars0.githubusercontent.com/u/10532611?v=4\" width=\"100px;\" alt=\"Felix Becker\"/><br /><sub><b>Felix Becker</b></sub></a><br /><a href=\"https://github.com/ehmicky/cross-platform-node-guide/commits?author=felixfbecker\" title=\"Documentation\">📖</a> <a href=\"#ideas-felixfbecker\" title=\"Ideas, Planning, & Feedback\">🤔</a></td>\n    <td align=\"center\"><a href=\"https://github.com/niktekusho\"><img src=\"https://avatars1.githubusercontent.com/u/18280135?v=4\" width=\"100px;\" alt=\"Nicola Dal Maso\"/><br /><sub><b>Nicola Dal Maso</b></sub></a><br /><a href=\"#ideas-niktekusho\" title=\"Ideas, Planning, & Feedback\">🤔</a></td>\n  </tr>\n</table>\n\n<!-- ALL-CONTRIBUTORS-LIST:END -->\n",
+    "ContentSha": "pwn3bQrPeSV1fNndN8BDUzqUn78toUbyxEs5+cDj3w4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<tr>\n    <td align=\"center\"><a href=\"https://fosstodon.org/@ehmicky\"><img src=\"https://avatars2.githubusercontent.com/u/8136211?v=4\" width=\"100px;\" alt=\"ehmicky\"/><br /><sub><b>ehmicky</b></sub></a><br /><a href=\"https://github.com/ehmicky/cross-platform-node-guide/commits?author=ehmicky\" title=\"Code\">💻</a> <a href=\"#design-ehmicky\" title=\"Design\">🎨</a> <a href=\"#ideas-ehmicky\" title=\"Ideas, Planning, & Feedback\">🤔</a> <a href=\"https://github.com/ehmicky/cross-platform-node-guide/commits?author=ehmicky\" title=\"Documentation\">📖</a></td>\n    <td align=\"center\"><a href=\"https://github.com/thatalextaylor\"><img src=\"https://avatars3.githubusercontent.com/u/1481643?v=4\" width=\"100px;\" alt=\"thatalextaylor\"/><br /><sub><b>thatalextaylor</b></sub></a><br /><a href=\"#ideas-thatalextaylor\" title=\"Ideas, Planning, & Feedback\">🤔</a> <a href=\"https://github.com/ehmicky/cross-platform-node-guide/commits?author=thatalextaylor\" title=\"Documentation\">📖</a></td>\n    <td align=\"center\"><a href=\"https://github.com/bnoordhuis\"><img src=\"https://avatars0.githubusercontent.com/u/275871?v=4\" width=\"100px;\" alt=\"Ben Noordhuis\"/><br /><sub><b>Ben Noordhuis</b></sub></a><br /><a href=\"#ideas-bnoordhuis\" title=\"Ideas, Planning, & Feedback\">🤔</a> <a href=\"https://github.com/ehmicky/cross-platform-node-guide/commits?author=bnoordhuis\" title=\"Documentation\">📖</a></td>\n    <td align=\"center\"><a href=\"https://github.com/OpenDirective\"><img src=\"https://avatars2.githubusercontent.com/u/618922?v=4\" width=\"100px;\" alt=\"Steve Lee\"/><br /><sub><b>Steve Lee</b></sub></a><br /><a href=\"#ideas-SteveALee\" title=\"Ideas, Planning, & Feedback\">🤔</a> <a href=\"#talk-SteveALee\" title=\"Talks\">📢</a></td>\n    <td align=\"center\"><a href=\"http://tracker1.info/\"><img src=\"https://avatars3.githubusercontent.com/u/444316?v=4\" width=\"100px;\" alt=\"Michael J. Ryan\"/><br /><sub><b>Michael J. Ryan</b></sub></a><br /><a href=\"#ideas-tracker1\" title=\"Ideas, Planning, & Feedback\">🤔</a></td>\n    <td align=\"center\"><a href=\"http://twitter.com/fabiospampinato\"><img src=\"https://avatars1.githubusercontent.com/u/1812093?v=4\" width=\"100px;\" alt=\"Fabio Spampinato\"/><br /><sub><b>Fabio Spampinato</b></sub></a><br /><a href=\"#ideas-fabiospampinato\" title=\"Ideas, Planning, & Feedback\">🤔</a></td>\n    <td align=\"center\"><a href=\"https://github.com/AyrA\"><img src=\"https://avatars0.githubusercontent.com/u/1301960?v=4\" width=\"100px;\" alt=\"AyrA\"/><br /><sub><b>AyrA</b></sub></a><br /><a href=\"#ideas-AyrA\" title=\"Ideas, Planning, & Feedback\">🤔</a></td>\n  </tr>\n  <tr>\n    <td align=\"center\"><a href=\"https://twitter.com/felixfbecker\"><img src=\"https://avatars0.githubusercontent.com/u/10532611?v=4\" width=\"100px;\" alt=\"Felix Becker\"/><br /><sub><b>Felix Becker</b></sub></a><br /><a href=\"https://github.com/ehmicky/cross-platform-node-guide/commits?author=felixfbecker\" title=\"Documentation\">📖</a> <a href=\"#ideas-felixfbecker\" title=\"Ideas, Planning, & Feedback\">🤔</a></td>\n    <td align=\"center\"><a href=\"https://github.com/niktekusho\"><img src=\"https://avatars1.githubusercontent.com/u/18280135?v=4\" width=\"100px;\" alt=\"Nicola Dal Maso\"/><br /><sub><b>Nicola Dal Maso</b></sub></a><br /><a href=\"#ideas-niktekusho\" title=\"Ideas, Planning, & Feedback\">🤔</a></td>\n  </tr>\n</table>\n\n<!-- ALL-CONTRIBUTORS-LIST:END -->\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+        "originContent": "  <tr>",
+        "translatedContent": "<tr>"
+      },
+      {
+        "row": 2,
+        "rowsha": "uhbo+cfBTRxaHgBzR6rGCCaRtrKI4oF6FEsiDTPKc7U=",
+        "originContent": "    <td align=\"center\"><a href=\"https://fosstodon.org/@ehmicky\"><img src=\"https://avatars2.githubusercontent.com/u/8136211?v=4\" width=\"100px;\" alt=\"ehmicky\"/><br /><sub><b>ehmicky</b></sub></a><br /><a href=\"https://github.com/ehmicky/cross-platform-node-guide/commits?author=ehmicky\" title=\"Code\">💻</a> <a href=\"#design-ehmicky\" title=\"Design\">🎨</a> <a href=\"#ideas-ehmicky\" title=\"Ideas, Planning, & Feedback\">🤔</a> <a href=\"https://github.com/ehmicky/cross-platform-node-guide/commits?author=ehmicky\" title=\"Documentation\">📖</a></td>",
+        "translatedContent": "    <td align=\"center\"><a href=\"https://fosstodon.org/@ehmicky\"><img src=\"https://avatars2.githubusercontent.com/u/8136211?v=4\" width=\"100px;\" alt=\"ehmicky\"/><br /><sub><b>ehmicky</b></sub></a><br /><a href=\"https://github.com/ehmicky/cross-platform-node-guide/commits?author=ehmicky\" title=\"Code\">💻</a> <a href=\"#design-ehmicky\" title=\"Design\">🎨</a> <a href=\"#ideas-ehmicky\" title=\"Ideas, Planning, & Feedback\">🤔</a> <a href=\"https://github.com/ehmicky/cross-platform-node-guide/commits?author=ehmicky\" title=\"Documentation\">📖</a></td>"
+      },
+      {
+        "row": 3,
+        "rowsha": "65IFx+PAzwvRuQO4QmI4bRAX4UYnEY3MX5OHleFZTGo=",
+        "originContent": "    <td align=\"center\"><a href=\"https://github.com/thatalextaylor\"><img src=\"https://avatars3.githubusercontent.com/u/1481643?v=4\" width=\"100px;\" alt=\"thatalextaylor\"/><br /><sub><b>thatalextaylor</b></sub></a><br /><a href=\"#ideas-thatalextaylor\" title=\"Ideas, Planning, & Feedback\">🤔</a> <a href=\"https://github.com/ehmicky/cross-platform-node-guide/commits?author=thatalextaylor\" title=\"Documentation\">📖</a></td>",
+        "translatedContent": "    <td align=\"center\"><a href=\"https://github.com/thatalextaylor\"><img src=\"https://avatars3.githubusercontent.com/u/1481643?v=4\" width=\"100px;\" alt=\"thatalextaylor\"/><br /><sub><b>thatalextaylor</b></sub></a><br /><a href=\"#ideas-thatalextaylor\" title=\"Ideas, Planning, & Feedback\">🤔</a> <a href=\"https://github.com/ehmicky/cross-platform-node-guide/commits?author=thatalextaylor\" title=\"Documentation\">📖</a></td>"
+      },
+      {
+        "row": 4,
+        "rowsha": "byKWv76WLtfeA7jBfGUaYIgi6DRJaB6wXbw3boSz7BE=",
+        "originContent": "    <td align=\"center\"><a href=\"https://github.com/bnoordhuis\"><img src=\"https://avatars0.githubusercontent.com/u/275871?v=4\" width=\"100px;\" alt=\"Ben Noordhuis\"/><br /><sub><b>Ben Noordhuis</b></sub></a><br /><a href=\"#ideas-bnoordhuis\" title=\"Ideas, Planning, & Feedback\">🤔</a> <a href=\"https://github.com/ehmicky/cross-platform-node-guide/commits?author=bnoordhuis\" title=\"Documentation\">📖</a></td>",
+        "translatedContent": "    <td align=\"center\"><a href=\"https://github.com/bnoordhuis\"><img src=\"https://avatars0.githubusercontent.com/u/275871?v=4\" width=\"100px;\" alt=\"Ben Noordhuis\"/><br /><sub><b>Ben Noordhuis</b></sub></a><br /><a href=\"#ideas-bnoordhuis\" title=\"Ideas, Planning, & Feedback\">🤔</a> <a href=\"https://github.com/ehmicky/cross-platform-node-guide/commits?author=bnoordhuis\" title=\"Documentation\">📖</a></td>"
+      },
+      {
+        "row": 5,
+        "rowsha": "E0zhI8svk92kS28n8H3a2+MbB/NEG5ybzi+uSMpAihc=",
+        "originContent": "    <td align=\"center\"><a href=\"https://github.com/OpenDirective\"><img src=\"https://avatars2.githubusercontent.com/u/618922?v=4\" width=\"100px;\" alt=\"Steve Lee\"/><br /><sub><b>Steve Lee</b></sub></a><br /><a href=\"#ideas-SteveALee\" title=\"Ideas, Planning, & Feedback\">🤔</a> <a href=\"#talk-SteveALee\" title=\"Talks\">📢</a></td>",
+        "translatedContent": "    <td align=\"center\"><a href=\"https://github.com/OpenDirective\"><img src=\"https://avatars2.githubusercontent.com/u/618922?v=4\" width=\"100px;\" alt=\"Steve Lee\"/><br /><sub><b>Steve Lee</b></sub></a><br /><a href=\"#ideas-SteveALee\" title=\"Ideas, Planning, & Feedback\">🤔</a> <a href=\"#talk-SteveALee\" title=\"Talks\">📢</a></td>"
+      },
+      {
+        "row": 6,
+        "rowsha": "5m/oLIszSl25kCx//jHkeJeEIfL3gNUOmYeZXBFcm0c=",
+        "originContent": "    <td align=\"center\"><a href=\"http://tracker1.info/\"><img src=\"https://avatars3.githubusercontent.com/u/444316?v=4\" width=\"100px;\" alt=\"Michael J. Ryan\"/><br /><sub><b>Michael J. Ryan</b></sub></a><br /><a href=\"#ideas-tracker1\" title=\"Ideas, Planning, & Feedback\">🤔</a></td>",
+        "translatedContent": "    <td align=\"center\"><a href=\"http://tracker1.info/\"><img src=\"https://avatars3.githubusercontent.com/u/444316?v=4\" width=\"100px;\" alt=\"Michael J. Ryan\"/><br /><sub><b>Michael J. Ryan</b></sub></a><br /><a href=\"#ideas-tracker1\" title=\"Ideas, Planning, & Feedback\">🤔</a></td>"
+      },
+      {
+        "row": 7,
+        "rowsha": "Jjo1gihO8nVPw4P1EtrN+rtahDFAzD4STGUoEE+Zv8U=",
+        "originContent": "    <td align=\"center\"><a href=\"http://twitter.com/fabiospampinato\"><img src=\"https://avatars1.githubusercontent.com/u/1812093?v=4\" width=\"100px;\" alt=\"Fabio Spampinato\"/><br /><sub><b>Fabio Spampinato</b></sub></a><br /><a href=\"#ideas-fabiospampinato\" title=\"Ideas, Planning, & Feedback\">🤔</a></td>",
+        "translatedContent": "    <td align=\"center\"><a href=\"http://twitter.com/fabiospampinato\"><img src=\"https://avatars1.githubusercontent.com/u/1812093?v=4\" width=\"100px;\" alt=\"Fabio Spampinato\"/><br /><sub><b>Fabio Spampinato</b></sub></a><br /><a href=\"#ideas-fabiospampinato\" title=\"Ideas, Planning, & Feedback\">🤔</a></td>"
+      },
+      {
+        "row": 8,
+        "rowsha": "Bu3e2zcWOETFJCNbjUbtAdlh+e8BP4wSeiV0E+O3ex0=",
+        "originContent": "    <td align=\"center\"><a href=\"https://github.com/AyrA\"><img src=\"https://avatars0.githubusercontent.com/u/1301960?v=4\" width=\"100px;\" alt=\"AyrA\"/><br /><sub><b>AyrA</b></sub></a><br /><a href=\"#ideas-AyrA\" title=\"Ideas, Planning, & Feedback\">🤔</a></td>",
+        "translatedContent": "    <td align=\"center\"><a href=\"https://github.com/AyrA\"><img src=\"https://avatars0.githubusercontent.com/u/1301960?v=4\" width=\"100px;\" alt=\"AyrA\"/><br /><sub><b>AyrA</b></sub></a><br /><a href=\"#ideas-AyrA\" title=\"Ideas, Planning, & Feedback\">🤔</a></td>"
+      },
+      {
+        "row": 9,
+        "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+        "originContent": "  </tr>",
+        "translatedContent": "  </tr>"
+      },
+      {
+        "row": 10,
+        "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+        "originContent": "  <tr>",
+        "translatedContent": "  <tr>"
+      },
+      {
+        "row": 11,
+        "rowsha": "hU17GwaVF6CFulXUFeV5xWyp8aiYWiJkRTIcjichyuU=",
+        "originContent": "    <td align=\"center\"><a href=\"https://twitter.com/felixfbecker\"><img src=\"https://avatars0.githubusercontent.com/u/10532611?v=4\" width=\"100px;\" alt=\"Felix Becker\"/><br /><sub><b>Felix Becker</b></sub></a><br /><a href=\"https://github.com/ehmicky/cross-platform-node-guide/commits?author=felixfbecker\" title=\"Documentation\">📖</a> <a href=\"#ideas-felixfbecker\" title=\"Ideas, Planning, & Feedback\">🤔</a></td>",
+        "translatedContent": "    <td align=\"center\"><a href=\"https://twitter.com/felixfbecker\"><img src=\"https://avatars0.githubusercontent.com/u/10532611?v=4\" width=\"100px;\" alt=\"Felix Becker\"/><br /><sub><b>Felix Becker</b></sub></a><br /><a href=\"https://github.com/ehmicky/cross-platform-node-guide/commits?author=felixfbecker\" title=\"Documentation\">📖</a> <a href=\"#ideas-felixfbecker\" title=\"Ideas, Planning, & Feedback\">🤔</a></td>"
+      },
+      {
+        "row": 12,
+        "rowsha": "+wKnqD8+pXfEOTZkkZEPNSIcrRDrgUfXerlbVzpUnJU=",
+        "originContent": "    <td align=\"center\"><a href=\"https://github.com/niktekusho\"><img src=\"https://avatars1.githubusercontent.com/u/18280135?v=4\" width=\"100px;\" alt=\"Nicola Dal Maso\"/><br /><sub><b>Nicola Dal Maso</b></sub></a><br /><a href=\"#ideas-niktekusho\" title=\"Ideas, Planning, & Feedback\">🤔</a></td>",
+        "translatedContent": "    <td align=\"center\"><a href=\"https://github.com/niktekusho\"><img src=\"https://avatars1.githubusercontent.com/u/18280135?v=4\" width=\"100px;\" alt=\"Nicola Dal Maso\"/><br /><sub><b>Nicola Dal Maso</b></sub></a><br /><a href=\"#ideas-niktekusho\" title=\"Ideas, Planning, & Feedback\">🤔</a></td>"
+      },
+      {
+        "row": 13,
+        "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+        "originContent": "  </tr>",
+        "translatedContent": "  </tr>"
+      },
+      {
+        "row": 14,
+        "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
+        "originContent": "</table>",
+        "translatedContent": "</table>"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "PA4edqu68ibCSQIPyfaWL2I5i8BzGjPaOD/SAQL9CKg=",
+        "originContent": "<!-- ALL-CONTRIBUTORS-LIST:END -->",
+        "translatedContent": "<!-- ALL-CONTRIBUTORS-LIST:END -->"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

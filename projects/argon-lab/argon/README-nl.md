@@ -22,7 +22,7 @@
         | <a href="https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=fa">فارسی</a>
         | <a href="https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=tr">Turks</a>
         | <a href="https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=vi">Vietnamees</a>
-        | <a href="https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=argon-lab&project=argon&lang=id">Bahasa Indonesisch</a>
       </div>
     </div>
   </details>
@@ -38,19 +38,22 @@
 [![npm](https://img.shields.io/npm/v/argonctl?logo=npm&label=npm)](https://www.npmjs.com/package/argonctl)
 [![PyPI](https://img.shields.io/pypi/v/argon-mongodb?logo=pypi&label=PyPI)](https://pypi.org/project/argon-mongodb/)
 
-**Reis door de tijd in je MongoDB-database. Maak vertakkingen, herstel, en experimenteer zonder angst.**
+**Reis door de tijd in je MongoDB-database. Vertak, herstel en experimenteer zonder angst.**
 
 ## Wat is Argon?
 
-Argon geeft MongoDB superkrachten met **Git-achtige vertakkingen** en **tijdreizen**. Maak direct databasevertakkingen, herstel naar elk punt in de geschiedenis, en verlies nooit meer data.
+Argon geeft MongoDB superkrachten met **Git-achtige vertakkingen** en **tijdreizen**. Maak directe databasevertakkingen, herstel naar elk moment in de geschiedenis, en verlies nooit meer data.
 
 ### 🎯 Belangrijkste Voordelen
 
-- **⚡ Directe Vertakkingen** - Clone je hele database in 1ms (niet in uren)
-- **⏰ Tijdreizen** - Raadpleeg je data vanuit elk moment in de geschiedenis
-- **🔄 Veilig Herstel** - Bekijk wijzigingen vooraf voordat je herstelt
-- **💾 Geen Opslagkosten** - Vertakkingen delen efficiënt data
-- **🔌 Direct Compatibel** - Werkt met bestaande MongoDB-code
+- **⚡ Directe Vertakkingen** - Kloon je volledige database in 1 ms (niet uren)
+- **⏰ Tijdreizen** - Raadpleeg je data van elk moment in de geschiedenis met **220.000+ queries/sec**
+- **🔄 Veilig Herstellen** - Bekijk wijzigingen voorafgaand aan herstel
+- **💾 Geen Opslagkosten** - Vertakkingen delen data efficiënt met 90% compressie
+- **🔌 Naadloos Inzetbaar** - Werkt met bestaande MongoDB-code
+- **🚀 Enterprise Prestaties** - 26x snellere tijdreizen-queries na de laatste optimalisaties
+- **✅ Uitgebreide Tests** - Grondige testdekking voor betrouwbaarheid
+- **🗜️ Slimme Compressie** - Automatische WAL-compressie vermindert opslag met 80-90%
 
 ## Snelle Demo
 
@@ -59,40 +62,50 @@ Argon geeft MongoDB superkrachten met **Git-achtige vertakkingen** en **tijdreiz
 brew install argon-lab/tap/argonctl    # macOS
 npm install -g argonctl                 # Cross-platform
 
-# Create a time-travel enabled database
-export ENABLE_WAL=true
-argon projects create myapp
+# Step 1: Import your existing MongoDB (like "git clone")
+argon import database --uri "mongodb://localhost:27017" --database myapp --project myapp
+# ✅ Your data now has time travel capabilities!
 
-# Your app crashed after bad migration? No problem!
+# Step 2: Use Argon like Git for your database
+argon branches create test-env           # Branch like "git checkout -b"
+argon time-travel query --project myapp --branch main --lsn 1000
+
+# Step 3: Disaster recovery made simple
 argon restore preview --time "1 hour ago"
 argon restore reset --time "before disaster"
-
-# Need a test environment? Branch instantly!
-argon branches create test-env
-# Full database copy created in 1ms 🚀
 ```
-## Praktijkvoorbeelden
+## Git-achtige workflow voor MongoDB
 
-### 🚨 **Rampenherstel**
+### 🔄 **Stap 1: Importeren ("git clone" voor databases)**
+
+```bash
+# Bring your existing MongoDB into Argon
+argon import preview --uri "mongodb://localhost:27017" --database myapp
+argon import database --uri "mongodb://localhost:27017" --database myapp --project myapp
+# ✅ Your existing data now has time travel capabilities!
+```
+### 🧪 **Stap 2: Branch ("git checkout -b")**
+
+```bash
+# Create branches for testing, staging, experiments
+argon branches create staging --project myapp
+argon branches create experiment-v2 --project myapp
+# Full database copies created instantly 🚀
+```
+### 📊 **Stap 3: Tijdreizen ("git log" voor data)**
+
+```bash
+# See your data's history
+argon time-travel info --project myapp --branch main
+argon time-travel query --project myapp --branch main --lsn 1000
+# Compare data across time like Git commits
+```
+### 🚨 **Stap 4: Herstellen ("git reset" voor rampen)**
 
 ```bash
 # "Someone deleted all users!"
 argon restore reset --time "5 minutes ago"
 # Crisis averted in seconds, not hours
-```
-### 🧪 **Veilig Testen**
-
-```bash
-# Test with real production data
-argon branches create staging --from production
-# Run risky migrations fearlessly
-```
-### 📊 **Gegevensanalyse**
-
-```bash
-# Compare data across time
-argon time-travel diff --from "last week" --to "today"
-# See exactly what changed
 ```
 ## Hoe het werkt
 
@@ -125,8 +138,11 @@ cd argon/cli && go build -o argon
 
 ## Community
 
+- 🤝 [Community Gids](https://raw.githubusercontent.com/argon-lab/argon/master/./COMMUNITY.md) - Doe mee!
+- 📋 [Roadmap](https://raw.githubusercontent.com/argon-lab/argon/master/./ROADMAP.md) - Zie wat er aankomt
 - 🐛 [Meld Problemen](https://github.com/argon-lab/argon/issues)
 - 💬 [Discussies](https://github.com/argon-lab/argon/discussions)
+- 🏗️ [Bijdragen](https://raw.githubusercontent.com/argon-lab/argon/master/./CONTRIBUTING.md) - Help Argon ontwikkelen
 - 📧 [Contact](https://www.argonlabs.tech)
 
 ---
@@ -137,13 +153,13 @@ cd argon/cli && go build -o argon
 
 ⭐ **Geef ons een ster** als Argon je dag redt!
 
-[Begin direct →](https://raw.githubusercontent.com/argon-lab/argon/master/docs/QUICK_START.md) | [Live Demo →](https://console.argonlabs.tech)
+[Begin nu →](https://raw.githubusercontent.com/argon-lab/argon/master/docs/QUICK_START.md) | [Live Demo →](https://console.argonlabs.tech)
 
 </div>
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-21
 
 ---

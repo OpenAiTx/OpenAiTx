@@ -1,0 +1,427 @@
+[
+  {
+    "Id": 1,
+    "Content": "<img src=\"https://raw.githubusercontent.com/obsidianforensics/hindsight/main/./pyhindsight/static/h.png\" height=\"100px\"/> Hindsight\n=========\n\nInternet history forensics for Google Chrome/Chromium\n\nHindsight is a free tool for analyzing web artifacts. It started with the browsing history of the Google Chrome web browser and has expanded to support other Chromium-based applications (with more to come!). Hindsight can parse a number of different types of web artifacts, including URLs, download history, cache records, bookmarks, autofill records, saved passwords, preferences, browser extensions, HTTP cookies, and Local Storage records (HTML5 cookies). Once the data is extracted from each file, it is correlated with data from other history files and placed in a timeline.\n\nIt has a simple web UI - to start it, run \"hindsight_gui.py\" (or on Windows, the packaged \"hindsight_gui.exe\") and visit http://localhost:8080 in a browser:  \n\n<img src=\"https://raw.githubusercontent.com/obsidianforensics/hindsight/main/documentation/interface-v2.gif\"/>\n\nThe only field you are required to complete is \"Profile Path\". This is the location of the Chrome profile you want to analyze (the default profile paths for different OSes is listed at the bottom of this page). Click \"Run\" and you'll be taken to the results page in where you can save the results to a spreadsheet (or other formats). \n\n## Manual Installation\n\nTo install Hindsight (both the command line tool and the web interface), do:",
+    "ContentSha": "FYvONiHLtgPO1+SXam0rYeN4zhtAHcAi1umav203RMk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<img src=\"https://raw.githubusercontent.com/obsidianforensics/hindsight/main/./pyhindsight/static/h.png\" height=\"100px\"/> Hindsight\n=========\n\nGoogle Chrome/Chromiumのインターネット履歴フォレンジック\n\nHindsightはウェブアーティファクトを解析する無料ツールです。Google Chromeウェブブラウザの閲覧履歴から始まり、他のChromiumベースのアプリケーションもサポートするよう拡張されています（今後さらに対応予定！）。HindsightはURL、ダウンロード履歴、キャッシュ記録、ブックマーク、自動入力記録、保存パスワード、設定、ブラウザ拡張機能、HTTPクッキー、ローカルストレージ記録（HTML5クッキー）など、さまざまな種類のウェブアーティファクトを解析できます。各ファイルからデータを抽出した後、他の履歴ファイルのデータと相関付けされ、タイムラインに配置されます。\n\nシンプルなウェブUIを備えており、起動するには \"hindsight_gui.py\"（Windowsではパッケージ化された \"hindsight_gui.exe\"）を実行し、ブラウザで http://localhost:8080 にアクセスしてください：\n\n<img src=\"https://raw.githubusercontent.com/obsidianforensics/hindsight/main/documentation/interface-v2.gif\"/>\n\n必須入力フィールドは「Profile Path」のみです。これは解析したいChromeプロファイルの場所です（異なるOSのデフォルトプロファイルパスはこのページ下部に記載）。「Run」をクリックすると結果ページに移動し、結果をスプレッドシート（または他の形式）で保存できます。\n\n## 手動インストール\n\nHindsight（コマンドラインツールとウェブインターフェイスの両方）をインストールするには、以下を実行してください：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "t/zvkMCg+GYb+sfQvIJksljYWoelturUKHT83556gSg=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/obsidianforensics/hindsight/main/./pyhindsight/static/h.png\" height=\"100px\"/> Hindsight",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/obsidianforensics/hindsight/main/./pyhindsight/static/h.png\" height=\"100px\"/> Hindsight"
+      },
+      {
+        "row": 2,
+        "rowsha": "ax38DHMNOA32K4DoS5jEqsGKaoRA9AxldMdSDO1OxNA=",
+        "originContent": "=========",
+        "translatedContent": "========="
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "LBu7/Zab3PwYjAXZTpUO1nTseeBuli11X7cL+q7ZfE0=",
+        "originContent": "Internet history forensics for Google Chrome/Chromium",
+        "translatedContent": "Google Chrome/Chromiumのインターネット履歴フォレンジック"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "ME82GsUNqfwo4fLPigwE12+Oy0ZBnVOgVpnXfQGQIfo=",
+        "originContent": "Hindsight is a free tool for analyzing web artifacts. It started with the browsing history of the Google Chrome web browser and has expanded to support other Chromium-based applications (with more to come!). Hindsight can parse a number of different types of web artifacts, including URLs, download history, cache records, bookmarks, autofill records, saved passwords, preferences, browser extensions, HTTP cookies, and Local Storage records (HTML5 cookies). Once the data is extracted from each file, it is correlated with data from other history files and placed in a timeline.",
+        "translatedContent": "Hindsightはウェブアーティファクトを解析する無料ツールです。Google Chromeウェブブラウザの閲覧履歴から始まり、他のChromiumベースのアプリケーションもサポートするよう拡張されています（今後さらに対応予定！）。HindsightはURL、ダウンロード履歴、キャッシュ記録、ブックマーク、自動入力記録、保存パスワード、設定、ブラウザ拡張機能、HTTPクッキー、ローカルストレージ記録（HTML5クッキー）など、さまざまな種類のウェブアーティファクトを解析できます。各ファイルからデータを抽出した後、他の履歴ファイルのデータと相関付けされ、タイムラインに配置されます。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "dE6XghpbGovG+YzBcmgMNF5wczsd5ImyddLSk+SpOeQ=",
+        "originContent": "It has a simple web UI - to start it, run \"hindsight_gui.py\" (or on Windows, the packaged \"hindsight_gui.exe\") and visit http://localhost:8080 in a browser:  ",
+        "translatedContent": "シンプルなウェブUIを備えており、起動するには \"hindsight_gui.py\"（Windowsではパッケージ化された \"hindsight_gui.exe\"）を実行し、ブラウザで http://localhost:8080 にアクセスしてください："
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "wyRm4d0hOlHnvOL2cCXi3Nd1x0dDmOh3M5WOuEegM2Q=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/obsidianforensics/hindsight/main/documentation/interface-v2.gif\"/>",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/obsidianforensics/hindsight/main/documentation/interface-v2.gif\"/>"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "VzMRPuMobTxj/6ZCp4jAXm3xWIo9Rw2D5AEwZOFPndc=",
+        "originContent": "The only field you are required to complete is \"Profile Path\". This is the location of the Chrome profile you want to analyze (the default profile paths for different OSes is listed at the bottom of this page). Click \"Run\" and you'll be taken to the results page in where you can save the results to a spreadsheet (or other formats). ",
+        "translatedContent": "必須入力フィールドは「Profile Path」のみです。これは解析したいChromeプロファイルの場所です（異なるOSのデフォルトプロファイルパスはこのページ下部に記載）。「Run」をクリックすると結果ページに移動し、結果をスプレッドシート（または他の形式）で保存できます。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "laS0KIYq72pvo1+ZXwKou2XNnPzMwETqxFf1uDd9iQs=",
+        "originContent": "## Manual Installation",
+        "translatedContent": "## 手動インストール"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "zlOKxurkwGD7pFxDVrbrwl/8ytL259W0E0RToQNcx5c=",
+        "originContent": "To install Hindsight (both the command line tool and the web interface), do:",
+        "translatedContent": "Hindsight（コマンドラインツールとウェブインターフェイスの両方）をインストールするには、以下を実行してください："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```sh\npip install pyhindsight\npip install git+https://github.com/cclgroupltd/ccl_chromium_reader.git\n```",
+    "ContentSha": "EBgexg5KX1ZZ07RAx8SWPTWJxK1Iy+Y8lDBZaZwj64I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\npip install pyhindsight\npip install git+https://github.com/cclgroupltd/ccl_chromium_reader.git\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "0bY9t7UEJ3W6d+sTLQnq9wRSgupAvmBgkDttz1ruzoI=",
+        "originContent": "pip install pyhindsight",
+        "translatedContent": "pip install pyhindsight"
+      },
+      {
+        "row": 3,
+        "rowsha": "uWURPmF6qz82b2uQB8IWTiHJsxdfVFWsMHZHGVcf6PM=",
+        "originContent": "pip install git+https://github.com/cclgroupltd/ccl_chromium_reader.git",
+        "translatedContent": "pip install git+https://github.com/cclgroupltd/ccl_chromium_reader.git"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nIf you'd like to use the \"View SQLite DB in Browser\" feature in the Hindsight web interface, you'll need to run another install command:",
+    "ContentSha": "qYf9M1T6bxJbZDl6Ig3rF+nWR3NLhL/D9ZKiyUaYTzM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\nHindsightのウェブインターフェースで「ブラウザでSQLite DBを見る」機能を使用したい場合は、別のインストールコマンドを実行する必要があります：</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "UT3xL9nkIRbjRKfhgsRbDLBQsYaZM1XPESB+Oo+qwx4=",
+        "originContent": "If you'd like to use the \"View SQLite DB in Browser\" feature in the Hindsight web interface, you'll need to run another install command:",
+        "translatedContent": "Hindsightのウェブインターフェースで「ブラウザでSQLite DBを見る」機能を使用したい場合は、別のインストールコマンドを実行する必要があります：</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```sh\ncurl -sSL https://raw.githubusercontent.com/obsidianforensics/hindsight/master/install-js.sh | sh\n```",
+    "ContentSha": "32Oy3vgvrOqbo3gkO3f8Zdht7/eq9KpKIQNm+/i5++8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\ncurl -sSL https://raw.githubusercontent.com/obsidianforensics/hindsight/master/install-js.sh | sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "Dy3j57X50kMb5ds+C19fea80+iMoRYnNOUn7bKs5/II=",
+        "originContent": "curl -sSL https://raw.githubusercontent.com/obsidianforensics/hindsight/master/install-js.sh | sh",
+        "translatedContent": "curl -sSL https://raw.githubusercontent.com/obsidianforensics/hindsight/master/install-js.sh | sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## Command Line\n\nThere also is command line version of Hindsight - hindsight.py or hindsight.exe. The user guide in the documentation folder covers many topics, but the info below should get you started with the command line version:\n\nExample usage:  \\> C:\\\\hindsight.py -i \"C:\\Users\\Ryan\\AppData\\Local\\Google\\Chrome\\User Data\\Default\" -o test_case\n\nCommand Line Options:\n\n| Option         | Description                                             |\n| -------------- | ------------------------------------------------------- |\n| -i or --input  | Path to the Chrome(ium) \"Default\" directory |\n| -o or --output | Name of the output file (without extension) |\n| -f or --format | Output format (default is XLSX, other options are SQLite and JSONL) |\n| -c or --cache  | Path to the cache directory; only needed if the directory is outside the given \"input\" directory. Mac systems are setup this way by default. |\n| -b or --browser_type | The type of browser the input files belong to. Supported options are Chrome (default) and Brave.\n| -l or --log\t | Location Hindsight should log to (will append if exists) |\n| -h or --help   | Shows these options and the default Chrome data locations |\n| -t or --timezone | Display timezone for the timestamps in XLSX output |\n\n## Default Profile Paths\n\nThe Chrome default profile folder default locations are:\n* WinXP:   \\[userdir\\]\\Local Settings\\Application Data\\Google\\Chrome\\User Data\\Default\n* Vista/7/8/10: \\[userdir\\]\\AppData\\Local\\Google\\Chrome\\User Data\\Default\n* Linux:   \\[userdir\\]/.config/google-chrome/Default\n* OS X:    \\[userdir\\]/Library/Application Support/Google/Chrome/Default\n* iOS:   \\Applications\\com.google.chrome.ios\\Library\\Application Support\\Google\\Chrome\\Default\n* Android: /userdata/data/com.android.chrome/app_chrome/Default\n* CrOS: \\home\\user\\\\<GUID\\>\n\n## Feature Requests\n\nPlease [file an issue](https://github.com/obsidianforensics/hindsight/issues/new/choose) if you have an idea for a new feature (or spotted something broken).\n",
+    "ContentSha": "UAKK8AxMTXSdQr9Ull/If/cvnsaDPALYm5a84TQ0hdw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## コマンドライン\n\nHindsightにはコマンドライン版もあります - hindsight.py または hindsight.exeです。ドキュメントフォルダ内のユーザーガイドには多くのトピックが含まれていますが、以下の情報がコマンドライン版の開始に役立つはずです：\n\n使用例:  \\> C:\\\\hindsight.py -i \"C:\\Users\\Ryan\\AppData\\Local\\Google\\Chrome\\User Data\\Default\" -o test_case\n\nコマンドラインオプション:\n\n| オプション         | 説明                                               |\n| -------------- | -------------------------------------------------- |\n| -i または --input  | Chrome(ium)の「Default」ディレクトリへのパス |\n| -o または --output | 出力ファイル名（拡張子なし） |\n| -f または --format | 出力形式（デフォルトはXLSX、他の選択肢はSQLiteおよびJSONL） |\n| -c または --cache  | キャッシュディレクトリへのパス；指定された「input」ディレクトリ外にある場合のみ必要。Macシステムはデフォルトでこの設定です。 |\n| -b または --browser_type | 入力ファイルが属するブラウザの種類。対応しているのはChrome（デフォルト）とBraveです。 |\n| -l または --log\t | Hindsightがログを記録する場所（存在する場合は追記されます） |\n| -h または --help   | これらのオプションとデフォルトのChromeデータの場所を表示 |\n| -t または --timezone | XLSX出力のタイムスタンプに表示するタイムゾーン |\n\n## デフォルトプロファイルパス\n\nChromeのデフォルトプロファイルフォルダのデフォルト場所は以下の通りです：\n* WinXP:   \\[userdir\\]\\Local Settings\\Application Data\\Google\\Chrome\\User Data\\Default\n* Vista/7/8/10: \\[userdir\\]\\AppData\\Local\\Google\\Chrome\\User Data\\Default\n* Linux:   \\[userdir\\]/.config/google-chrome/Default\n* OS X:    \\[userdir\\]/Library/Application Support/Google/Chrome/Default\n* iOS:   \\Applications\\com.google.chrome.ios\\Library\\Application Support\\Google\\Chrome\\Default\n* Android: /userdata/data/com.android.chrome/app_chrome/Default\n* CrOS: \\home\\user\\\\<GUID\\>\n\n## 機能リクエスト\n\n新機能のアイデアがある場合（または何か問題を見つけた場合）は、[issueを提出してください](https://github.com/obsidianforensics/hindsight/issues/new/choose)。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## コマンドライン"
+      },
+      {
+        "row": 2,
+        "rowsha": "AqX+GgsfU8HUdJ5qBDm2rA8/inF/vHjD8381PKP/IE8=",
+        "originContent": "## Command Line",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Hindsightにはコマンドライン版もあります - hindsight.py または hindsight.exeです。ドキュメントフォルダ内のユーザーガイドには多くのトピックが含まれていますが、以下の情報がコマンドライン版の開始に役立つはずです："
+      },
+      {
+        "row": 4,
+        "rowsha": "Jh0MpO+G9MEDnQi0aK7pTclGLxSs2uF6qihXrOJPZbk=",
+        "originContent": "There also is command line version of Hindsight - hindsight.py or hindsight.exe. The user guide in the documentation folder covers many topics, but the info below should get you started with the command line version:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "使用例:  \\> C:\\\\hindsight.py -i \"C:\\Users\\Ryan\\AppData\\Local\\Google\\Chrome\\User Data\\Default\" -o test_case"
+      },
+      {
+        "row": 6,
+        "rowsha": "41widBw9XKPShNEOBXcumIeCPbqemp8P3f32q/6aAOQ=",
+        "originContent": "Example usage:  \\> C:\\\\hindsight.py -i \"C:\\Users\\Ryan\\AppData\\Local\\Google\\Chrome\\User Data\\Default\" -o test_case",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "コマンドラインオプション:"
+      },
+      {
+        "row": 8,
+        "rowsha": "elIMGKlN/0ydqYn8hYccpssahFs22PALiD/epaDc2R0=",
+        "originContent": "Command Line Options:",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| オプション         | 説明                                               |"
+      },
+      {
+        "row": 10,
+        "rowsha": "0SVnI7L2gC1einDtHks7HoQR0OpmPdySbmQNhMvwYO4=",
+        "originContent": "| Option         | Description                                             |",
+        "translatedContent": "| -------------- | -------------------------------------------------- |"
+      },
+      {
+        "row": 11,
+        "rowsha": "IkKuNAHKqpGWChjab38X+8tFn/L53qvUkN2zUuiTAPU=",
+        "originContent": "| -------------- | ------------------------------------------------------- |",
+        "translatedContent": "| -i または --input  | Chrome(ium)の「Default」ディレクトリへのパス |"
+      },
+      {
+        "row": 12,
+        "rowsha": "L+0tbtDp6P6WWtfpi4JfPqA3xX1oX+Vfp199HtleU9o=",
+        "originContent": "| -i or --input  | Path to the Chrome(ium) \"Default\" directory |",
+        "translatedContent": "| -o または --output | 出力ファイル名（拡張子なし） |"
+      },
+      {
+        "row": 13,
+        "rowsha": "31i1rXBgPxPrl0+Pa5gNwQ+thPBlA8Ku5E+kLLKJWnc=",
+        "originContent": "| -o or --output | Name of the output file (without extension) |",
+        "translatedContent": "| -f または --format | 出力形式（デフォルトはXLSX、他の選択肢はSQLiteおよびJSONL） |"
+      },
+      {
+        "row": 14,
+        "rowsha": "HTM7OJIbxcv8QvgAZ73mmsdBSz3mcgw9EFjSCmR0bxI=",
+        "originContent": "| -f or --format | Output format (default is XLSX, other options are SQLite and JSONL) |",
+        "translatedContent": "| -c または --cache  | キャッシュディレクトリへのパス；指定された「input」ディレクトリ外にある場合のみ必要。Macシステムはデフォルトでこの設定です。 |"
+      },
+      {
+        "row": 15,
+        "rowsha": "eOmUT87izBfJ4PtVetkIZzA9vTmwXES+G1Vkj4gS898=",
+        "originContent": "| -c or --cache  | Path to the cache directory; only needed if the directory is outside the given \"input\" directory. Mac systems are setup this way by default. |",
+        "translatedContent": "| -b または --browser_type | 入力ファイルが属するブラウザの種類。対応しているのはChrome（デフォルト）とBraveです。 |"
+      },
+      {
+        "row": 16,
+        "rowsha": "D1+yfMLa+7zDNIh4jJEOJiIzudS8/qgVZSXc5KdEJe0=",
+        "originContent": "| -b or --browser_type | The type of browser the input files belong to. Supported options are Chrome (default) and Brave.",
+        "translatedContent": "| -l または --log\t | Hindsightがログを記録する場所（存在する場合は追記されます） |"
+      },
+      {
+        "row": 17,
+        "rowsha": "J52ODyFNtnD8P2cJgczELm0VcaexIvdnUBBgmdOGHOw=",
+        "originContent": "| -l or --log\t | Location Hindsight should log to (will append if exists) |",
+        "translatedContent": "| -h または --help   | これらのオプションとデフォルトのChromeデータの場所を表示 |"
+      },
+      {
+        "row": 18,
+        "rowsha": "Igusq4KGEMif8NhSzA34NUf+nB8BhEQEpvNze3JKkII=",
+        "originContent": "| -h or --help   | Shows these options and the default Chrome data locations |",
+        "translatedContent": "| -t または --timezone | XLSX出力のタイムスタンプに表示するタイムゾーン |"
+      },
+      {
+        "row": 19,
+        "rowsha": "QT+jnonGcYdpksrFcRFwLUNohaU5K1qnCy+tvDx5Bkk=",
+        "originContent": "| -t or --timezone | Display timezone for the timestamps in XLSX output |",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## デフォルトプロファイルパス"
+      },
+      {
+        "row": 21,
+        "rowsha": "ghTsxOSuuPn/VWIiOyUGmnmpefK5niVnlSIZbbL9DWQ=",
+        "originContent": "## Default Profile Paths",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Chromeのデフォルトプロファイルフォルダのデフォルト場所は以下の通りです："
+      },
+      {
+        "row": 23,
+        "rowsha": "qm1fEtKqUvlaXdTe58liQuBlDlmeoeGQ82i4gshYop0=",
+        "originContent": "The Chrome default profile folder default locations are:",
+        "translatedContent": "* WinXP:   \\[userdir\\]\\Local Settings\\Application Data\\Google\\Chrome\\User Data\\Default"
+      },
+      {
+        "row": 24,
+        "rowsha": "IHz+OLGoStpiDiXt6WkfY/iFD17eH9HzEbp+67VsfK8=",
+        "originContent": "* WinXP:   \\[userdir\\]\\Local Settings\\Application Data\\Google\\Chrome\\User Data\\Default",
+        "translatedContent": "* Vista/7/8/10: \\[userdir\\]\\AppData\\Local\\Google\\Chrome\\User Data\\Default"
+      },
+      {
+        "row": 25,
+        "rowsha": "BEVoV9lwITz14tLa+VGAgMKoti6tMmy1S5Rn0dzq4Xo=",
+        "originContent": "* Vista/7/8/10: \\[userdir\\]\\AppData\\Local\\Google\\Chrome\\User Data\\Default",
+        "translatedContent": "* Linux:   \\[userdir\\]/.config/google-chrome/Default"
+      },
+      {
+        "row": 26,
+        "rowsha": "k7rwxUmy0jCgj4iGe82/dNNXbHKGgDix8u2amr/gYuc=",
+        "originContent": "* Linux:   \\[userdir\\]/.config/google-chrome/Default",
+        "translatedContent": "* OS X:    \\[userdir\\]/Library/Application Support/Google/Chrome/Default"
+      },
+      {
+        "row": 27,
+        "rowsha": "KZZTZmwfVveFX8coGXe46R5tKx/o9ydbzcRfPPAzsyM=",
+        "originContent": "* OS X:    \\[userdir\\]/Library/Application Support/Google/Chrome/Default",
+        "translatedContent": "* iOS:   \\Applications\\com.google.chrome.ios\\Library\\Application Support\\Google\\Chrome\\Default"
+      },
+      {
+        "row": 28,
+        "rowsha": "Gz/3rFY+1gjPpXOhlnbPPcWj00X3036Q2b1U6+QDTu8=",
+        "originContent": "* iOS:   \\Applications\\com.google.chrome.ios\\Library\\Application Support\\Google\\Chrome\\Default",
+        "translatedContent": "* Android: /userdata/data/com.android.chrome/app_chrome/Default"
+      },
+      {
+        "row": 29,
+        "rowsha": "WKJ5L9oiCKtpX2u4nPEtPxGPMNMAm3igZFQ+mayr0GM=",
+        "originContent": "* Android: /userdata/data/com.android.chrome/app_chrome/Default",
+        "translatedContent": "* CrOS: \\home\\user\\\\<GUID\\>"
+      },
+      {
+        "row": 30,
+        "rowsha": "w2+38wFWRp0644A+gsYC/+hVrBJVJ/DS5mMa04MUeH8=",
+        "originContent": "* CrOS: \\home\\user\\\\<GUID\\>",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 機能リクエスト"
+      },
+      {
+        "row": 32,
+        "rowsha": "4JldOX3TjsRQ+SsrIKi1bQl5yglC/orkaIH3PSpfi1k=",
+        "originContent": "## Feature Requests",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "新機能のアイデアがある場合（または何か問題を見つけた場合）は、[issueを提出してください](https://github.com/obsidianforensics/hindsight/issues/new/choose)。"
+      },
+      {
+        "row": 34,
+        "rowsha": "ppQ40ulmgTY4cDq/ruqXLB05yV9UnrpuygdaTIPr2sY=",
+        "originContent": "Please [file an issue](https://github.com/obsidianforensics/hindsight/issues/new/choose) if you have an idea for a new feature (or spotted something broken).",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

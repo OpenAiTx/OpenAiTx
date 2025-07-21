@@ -1,0 +1,638 @@
+[
+  {
+    "row": 1,
+    "rowsha": "wFccN2CM0J1YGLUiozHToWkjA2gmNRfxbbrQEmDcyYE=",
+    "originContent": "# winjs-plugin-security",
+    "translatedContent": "<translate-content># winjs-plugin-security"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "W6XH1qokxgeRVySx5wekOBmO9i21cwvumKVSXoEdB/8=",
+    "originContent": "一个为 WinJS 项目提供安全增强功能的插件，主要用于生成 SRI（Subresource Integrity）属性。",
+    "translatedContent": "WinJS 프로젝트에 보안 강화 기능을 제공하는 플러그인으로, 주로 SRI(하위 리소스 무결성) 속성 생성을 위해 사용됩니다."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "hcZsKlpSPkTFpH/QegoKHGVWmJDSH48IDfZVw6T3YEk=",
+    "originContent": "## 功能特性",
+    "translatedContent": "## 기능 특성"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "h/LHtXvd3J90P5WxCfQGsrvQZNJrv61OLPCX3L/cR2E=",
+    "originContent": "- 自动为 HTML 文件中的 `<script>` 和 `<link>` 标签生成 SRI 属性",
+    "translatedContent": "- HTML 파일 내의 `<script>` 및 `<link>` 태그에 자동으로 SRI 속성 생성"
+  },
+  {
+    "row": 8,
+    "rowsha": "9QgnEULa7mBvIZMKR5W0CywDhB1/sxmFtWHGNi+0uB4=",
+    "originContent": "- 支持 SHA-256、SHA-384、SHA-512 哈希算法（可配置）",
+    "translatedContent": "- SHA-256, SHA-384, SHA-512 해시 알고리즘 지원(구성 가능)"
+  },
+  {
+    "row": 9,
+    "rowsha": "aVx9xL3fzzP2Kb3vPf02QOp6FWSRGdFd6v+NjTGwDpU=",
+    "originContent": "- 自动添加 `crossorigin=\"anonymous\"` 属性以确保 SRI 正常工作",
+    "translatedContent": "- SRI가 정상 작동하도록 자동으로 `crossorigin=\"anonymous\"` 속성 추가"
+  },
+  {
+    "row": 10,
+    "rowsha": "4eU52SYjvW1DV4luukN4GM88LynWouSWAwMRpJO2qsg=",
+    "originContent": "- 仅在生产环境下生效，开发环境自动跳过",
+    "translatedContent": "- 프로덕션 환경에서만 활성화되며, 개발 환경에서는 자동으로 건너뜀"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "UMqC31ngvFKTTTEuKqsTk79HILGU8WWgF72p6TJJqbg=",
+    "originContent": "## 安装",
+    "translatedContent": "## 설치"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "</translate-content>"
+  },
+  {
+    "row": 14,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 15,
+    "rowsha": "lQT4Ep89ssMw3lU5fMhTiv7MxtG1HMvzFK46wyIuS5k=",
+    "originContent": "pnpm add @winner-fed/plugin-security",
+    "translatedContent": "pnpm add @winner-fed/plugin-security"
+  },
+  {
+    "row": 16,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 사용 방법"
+  },
+  {
+    "row": 18,
+    "rowsha": "6MQVJlN8pzS/JKFAmEsF+fGPpVBhkqKXd7kJyIXtGEg=",
+    "originContent": "## 使用方法",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "당신의 `.winrc.ts` 구성 파일에 플러그인 구성을 추가하세요:"
+  },
+  {
+    "row": 20,
+    "rowsha": "z84ZEb0mqviZa31XKB0L4okW3ydR6PRYJLqgFjPy8vw=",
+    "originContent": "在你的 `.winrc.ts` 配置文件中添加插件配置：",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 23,
+    "rowsha": "VrRv1tO3P+KnbHG2uXaebKEIRTzDpoNzFYu3og/T5pc=",
+    "originContent": "import { defineConfig } from '@winner-fed/winjs';",
+    "translatedContent": "import { defineConfig } from '@winner-fed/winjs';"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "pxlmGtYe1w1KMBva5rp+lHF+7Z+LH5UVh4Ii/ZGTQo8=",
+    "originContent": "export default defineConfig({",
+    "translatedContent": "export default defineConfig({"
+  },
+  {
+    "row": 26,
+    "rowsha": "+Ulo3AcPGAqbhJBPdZbe56Pk4RDOX1LK4EvZRsZP10A=",
+    "originContent": "  plugins: ['@winner-fed/plugin-security'],",
+    "translatedContent": "  plugins: ['@winner-fed/plugin-security'],"
+  },
+  {
+    "row": 27,
+    "rowsha": "mtf2IE4CyXrpAtGnQI978Wwairr5FYeIs/9naHf4f4U=",
+    "originContent": "  security: {",
+    "translatedContent": "  security: {"
+  },
+  {
+    "row": 28,
+    "rowsha": "hYpnz9z7iAL31ON3iPX+oZb4zzXHUDBBV/VpaXxB8VI=",
+    "originContent": "    sri: true // 启用 SRI 功能",
+    "translatedContent": "    sri: true // 启用 SRI 功能"
+  },
+  {
+    "row": 29,
+    "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+    "originContent": "  },",
+    "translatedContent": "  },"
+  },
+  {
+    "row": 30,
+    "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+    "originContent": "});",
+    "translatedContent": "});"
+  },
+  {
+    "row": 31,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 구성 옵션"
+  },
+  {
+    "row": 33,
+    "rowsha": "3o/Wsh1RUgTopKL+S0IEtQNF5+R3Mgx61rbm6aa3as0=",
+    "originContent": "## 配置选项",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### `sri`"
+  },
+  {
+    "row": 35,
+    "rowsha": "Mw6vkObnXxsIe6UPyvI1FUrDL6je4De8JG7sMzRzcYk=",
+    "originContent": "### `sri`",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **유형**: `boolean | { algorithm: 'sha256' | 'sha384' | 'sha512' }`"
+  },
+  {
+    "row": 37,
+    "rowsha": "7XYwnmbJSU8RkYjrvq4rQHgi4Dw5mjtKG8gfmQIJ9G8=",
+    "originContent": "- **类型**: `boolean | { algorithm: 'sha256' | 'sha384' | 'sha512' }`",
+    "translatedContent": "- **기본값**: 수동 설정 필요"
+  },
+  {
+    "row": 38,
+    "rowsha": "AUC6yWosefwhUxXmNTfKzhNJRXykQdNvxhpYBBXWg3M=",
+    "originContent": "- **默认值**: 需要手动设置",
+    "translatedContent": "- **설명**: SRI(서브리소스 무결성) 기능 활성화 여부 및 선택적 해시 알고리즘 설정"
+  },
+  {
+    "row": 39,
+    "rowsha": "DCl+Vo3csh9yNNZTAwZv1bnm98PQOsiqIhn4wTxLoPQ=",
+    "originContent": "- **描述**: 是否启用 SRI（子资源完整性）功能，以及可选的哈希算法配置",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`true` 또는 `{}`로 설정하면, 플러그인은:"
+  },
+  {
+    "row": 41,
+    "rowsha": "ZZb2GJlHREb0+2jSP+LzYl/sWdoRJAST+bhPNGbT744=",
+    "originContent": "当设置为 `true` 或 `{}` 时，插件会：",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. 빌드된 HTML 파일을 스캔합니다"
+  },
+  {
+    "row": 43,
+    "rowsha": "JgK7kG7aoMI8ka96Z9aHfdSsDdAYkR0YeuidMHjM3rw=",
+    "originContent": "1. 扫描构建后的 HTML 文件",
+    "translatedContent": "2. `src` 속성이 있는 모든 `<script>` 태그에 `integrity` 속성을 추가합니다"
+  },
+  {
+    "row": 44,
+    "rowsha": "3UIkS86baTkWden+NhmAnSqjmjJptnUt66edv19Jito=",
+    "originContent": "2. 为所有带有 `src` 属性的 `<script>` 标签添加 `integrity` 属性",
+    "translatedContent": "3. `href` 속성이 있는 모든 `<link>` 태그에 `integrity` 속성을 추가합니다"
+  },
+  {
+    "row": 45,
+    "rowsha": "/GkpucG4GliyzjUL3Vt16ZsQHlPRxi2dOQWkQ6t7zvw=",
+    "originContent": "3. 为所有带有 `href` 属性的 `<link>` 标签添加 `integrity` 属性",
+    "translatedContent": "4. `crossorigin=\"anonymous\"` 속성이 없으면 자동으로 추가합니다"
+  },
+  {
+    "row": 46,
+    "rowsha": "BRKqirDL6c1MrENA8XMwsjloMJUKE1yTPEZiX/NaNAs=",
+    "originContent": "4. 自动添加 `crossorigin=\"anonymous\"` 属性（如果不存在）",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "객체 방식으로 해시 알고리즘을 지정할 수도 있습니다:"
+  },
+  {
+    "row": 48,
+    "rowsha": "f/37+nE3PYnJcvBa+ACiE0w3/RcklUUiyztSZzLCy4Q=",
+    "originContent": "你也可以通过对象方式指定哈希算法：",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 51,
+    "rowsha": "SjmpL8QPZX42bc21EBkk+xEAiqVyun/F0k7Evrx4tbM=",
+    "originContent": "security: {",
+    "translatedContent": "security: {"
+  },
+  {
+    "row": 52,
+    "rowsha": "/OK5Zkx9kuLYmN6+C8AcvPqm78NcjjgstVCMnXccKu0=",
+    "originContent": "  sri: {",
+    "translatedContent": "  sri: {"
+  },
+  {
+    "row": 53,
+    "rowsha": "6buhl5ms6cJ1/AhIcXv+GE23IhxlCpFl0ZaqD3rQMQw=",
+    "originContent": "    algorithm: 'sha512' // 可选 'sha256' | 'sha384' | 'sha512'，默认 'sha512'",
+    "translatedContent": "    algorithm: 'sha512' // 可选 'sha256' | 'sha384' | 'sha512'，默认 'sha512'"
+  },
+  {
+    "row": 54,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 55,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 56,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "Mspu+F8Wki3qcL0N8ckWALeMPzsl1rqTPEgKP3Zgtko=",
+    "originContent": "## 示例",
+    "translatedContent": "## 示例"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "fjqsVljxRgNJca8K78HVdkyrojSLpj+cxU0xyyjEzSs=",
+    "originContent": "### 输入 HTML",
+    "translatedContent": "### 输入 HTML"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+    "originContent": "```html",
+    "translatedContent": "```html"
+  },
+  {
+    "row": 63,
+    "rowsha": "x35RaN/9pmuNwT8UJbTTYwpmVqPlrPcH9Dkyd7o8i14=",
+    "originContent": "<!DOCTYPE html>",
+    "translatedContent": "<!DOCTYPE html>"
+  },
+  {
+    "row": 64,
+    "rowsha": "t9CC7hLpG3Vuoi6FE7hZTuvPXTn6uBPaPLVXlNyIitc=",
+    "originContent": "<html>",
+    "translatedContent": "<html>"
+  },
+  {
+    "row": 65,
+    "rowsha": "zlGczMOM8ivYJXmRDd/csA9XJjc9rlr4cEixVzA+jyc=",
+    "originContent": "<head>",
+    "translatedContent": "<head>"
+  },
+  {
+    "row": 66,
+    "rowsha": "d+HQWM4RhmqMKwz2Dh0z21gEGCUf12QGNTTriX9Zp3s=",
+    "originContent": "  <link rel=\"stylesheet\" href=\"/assets/app.css\">",
+    "translatedContent": "  <link rel=\"stylesheet\" href=\"/assets/app.css\">"
+  },
+  {
+    "row": 67,
+    "rowsha": "aesxEatlAAiLzA9csEP0Ur17eAG9zXsOR4wvxFT9ugo=",
+    "originContent": "</head>",
+    "translatedContent": "</head>"
+  },
+  {
+    "row": 68,
+    "rowsha": "mqv9Flz7lvxeFwhi5P2ckM+ipXBa9AFhfINvFSOY/OE=",
+    "originContent": "<body>",
+    "translatedContent": "<body>"
+  },
+  {
+    "row": 69,
+    "rowsha": "aZ89HtL+HkHb0RkjGBnBqqHBn0mjaD3obPTzYWII95o=",
+    "originContent": "  <script src=\"/assets/app.js\"></script>",
+    "translatedContent": "  <script src=\"/assets/app.js\"></script>"
+  },
+  {
+    "row": 70,
+    "rowsha": "EkIH2EvcihB8vMBCEqCR6FFX4J178gj3r7SDlJj+8IM=",
+    "originContent": "</body>",
+    "translatedContent": "</body>"
+  },
+  {
+    "row": 71,
+    "rowsha": "/f4Jk+bp6ZF1VLuVsRN69YcBRv042l8TvqG1MKwFspY=",
+    "originContent": "</html>",
+    "translatedContent": "</html>"
+  },
+  {
+    "row": 72,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### HTML 출력 (SRI 활성화 후)"
+  },
+  {
+    "row": 74,
+    "rowsha": "Mgc6qMD++2d9NUsijoa3IRPv8zz2J/GxhUQey8hPvKg=",
+    "originContent": "### 输出 HTML（启用 SRI 后）",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+    "originContent": "```html",
+    "translatedContent": "```html"
+  },
+  {
+    "row": 77,
+    "rowsha": "x35RaN/9pmuNwT8UJbTTYwpmVqPlrPcH9Dkyd7o8i14=",
+    "originContent": "<!DOCTYPE html>",
+    "translatedContent": "<!DOCTYPE html>"
+  },
+  {
+    "row": 78,
+    "rowsha": "t9CC7hLpG3Vuoi6FE7hZTuvPXTn6uBPaPLVXlNyIitc=",
+    "originContent": "<html>",
+    "translatedContent": "<html>"
+  },
+  {
+    "row": 79,
+    "rowsha": "zlGczMOM8ivYJXmRDd/csA9XJjc9rlr4cEixVzA+jyc=",
+    "originContent": "<head>",
+    "translatedContent": "<head>"
+  },
+  {
+    "row": 80,
+    "rowsha": "TDG9GL45B5zDaTU21BS2n8xgXFX5xcqBD99/Drn1E9A=",
+    "originContent": "  <link rel=\"stylesheet\" href=\"/assets/app.css\" integrity=\"sha512-ABC123...\" crossorigin=\"anonymous\">",
+    "translatedContent": "  <link rel=\"stylesheet\" href=\"/assets/app.css\" integrity=\"sha512-ABC123...\" crossorigin=\"anonymous\">"
+  },
+  {
+    "row": 81,
+    "rowsha": "aesxEatlAAiLzA9csEP0Ur17eAG9zXsOR4wvxFT9ugo=",
+    "originContent": "</head>",
+    "translatedContent": "</head>"
+  },
+  {
+    "row": 82,
+    "rowsha": "mqv9Flz7lvxeFwhi5P2ckM+ipXBa9AFhfINvFSOY/OE=",
+    "originContent": "<body>",
+    "translatedContent": "<body>"
+  },
+  {
+    "row": 83,
+    "rowsha": "K1blMbRFdDt5CxNhTezme7CfXULhzyxtxwJSrODvpEI=",
+    "originContent": "  <script src=\"/assets/app.js\" integrity=\"sha512-XYZ789...\" crossorigin=\"anonymous\"></script>",
+    "translatedContent": "  <script src=\"/assets/app.js\" integrity=\"sha512-XYZ789...\" crossorigin=\"anonymous\"></script>"
+  },
+  {
+    "row": 84,
+    "rowsha": "EkIH2EvcihB8vMBCEqCR6FFX4J178gj3r7SDlJj+8IM=",
+    "originContent": "</body>",
+    "translatedContent": "</body>"
+  },
+  {
+    "row": 85,
+    "rowsha": "/f4Jk+bp6ZF1VLuVsRN69YcBRv042l8TvqG1MKwFspY=",
+    "originContent": "</html>",
+    "translatedContent": "</html>"
+  },
+  {
+    "row": 86,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 안전 설명"
+  },
+  {
+    "row": 88,
+    "rowsha": "hFkU+xwEkGdR15DNOYee0H91jrAlZxegW90yawvQMb0=",
+    "originContent": "## 安全说明",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "SRI(서브리소스 무결성)는 브라우저가 가져온 리소스(예: CDN에서 가져온 리소스)가 악의적으로 변경되지 않았는지 검증할 수 있게 하는 보안 기능입니다. 브라우저가 리소스를 로드할 때 리소스의 해시 값을 계산하고 `integrity` 속성에 지정된 해시 값과 비교합니다. 해시 값이 일치하지 않으면 브라우저는 해당 리소스의 로드를 거부합니다."
+  },
+  {
+    "row": 90,
+    "rowsha": "7ltTZ+3FvFet+IdkUMdXogRpsZ7gc4eaS3ByS4DfBRo=",
+    "originContent": "SRI（子资源完整性）是一种安全特性，允许浏览器验证获取的资源（例如从 CDN 获取的资源）没有被恶意修改。当浏览器加载资源时，会计算资源的哈希值并与 `integrity` 属性中指定的哈希值进行比较。如果哈希值不匹配，浏览器将拒绝加载该资源。",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`<script>` 태그의 경우, 해당 코드 실행을 거부하며; CSS 링크의 경우, 스타일 로드를 하지 않습니다."
+  },
+  {
+    "row": 92,
+    "rowsha": "hSOCkD79KbpO38JZ6NQxjWe0iDTMwdaGXoFPWi7gyBI=",
+    "originContent": "对于 `<script>` 标签来说，结果为拒绝执行其中的代码；对于 CSS links 来说，结果为不加载其中的样式。",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "SRI에 대한 자세한 내용은 [Subresource Integrity - MDN](https://developer.mozilla.org/zh-CN/docs/Web/Security/Subresource_Integrity)을 참조하세요."
+  },
+  {
+    "row": 94,
+    "rowsha": "befyLLkRRI07hOcKnBO1ZvGjYcB6jfziwiE0l/VI0JI=",
+    "originContent": "关于 SRI 的更多内容，可以查看 [Subresource Integrity - MDN](https://developer.mozilla.org/zh-CN/docs/Web/Security/Subresource_Integrity)。",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 주의 사항"
+  },
+  {
+    "row": 96,
+    "rowsha": "qqM9x68fli7rmqs2E7FUA7w7vxRW4wDZzEckY8TxYu8=",
+    "originContent": "## 注意事项",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. 이 플러그인은 프로덕션 빌드에서만 작동하며, 개발 환경에서는 자동으로 건너뜁니다."
+  },
+  {
+    "row": 98,
+    "rowsha": "IDD5ur7STO8JqxnodDOWdS9MNSZHHMPED8FjTIpqq7I=",
+    "originContent": "1. 此插件仅在生产构建时生效，开发环境会自动跳过",
+    "translatedContent": "2. 리소스 파일이 빌드 출력 디렉터리에서 접근 가능해야 합니다."
+  },
+  {
+    "row": 99,
+    "rowsha": "4vkWWdTOlV1+x6Brdx4s1VJ47XzF7bhGsL6++Razv2Y=",
+    "originContent": "2. 需要确保资源文件在构建输出目录中可访问",
+    "translatedContent": "3. `integrity` 속성은 정상 작동을 위해 `crossorigin` 속성과 함께 사용해야 합니다."
+  },
+  {
+    "row": 100,
+    "rowsha": "bNA4I6PMk6esGcCYMvew0eBmhmwmBMWc7QYwO/rTviY=",
+    "originContent": "3. `integrity` 属性必须与 `crossorigin` 属性配合使用才能正常工作",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 라이선스"
+  },
+  {
+    "row": 102,
+    "rowsha": "l9mHJhM0bkQldVQ8sqfWeieeIFtAwhD/P/KiVcLUJww=",
+    "originContent": "## 许可证",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "MIT"
+  },
+  {
+    "row": 104,
+    "rowsha": "5dz/6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x+o7c=",
+    "originContent": "MIT",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

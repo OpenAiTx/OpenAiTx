@@ -1,0 +1,664 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Vimb - the Vim-like browser\n\n[![Build Status](https://travis-ci.com/fanglingsu/vimb.svg?branch=master)](https://travis-ci.com/fanglingsu/vimb)\n[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)\n[![Latest Release](https://img.shields.io/github/release/fanglingsu/vimb.svg?style=flat)](https://github.com/fanglingsu/vimb/releases/latest)\n\nVimb is a Vim-like web browser that is inspired by Pentadactyl and Vimprobable.\nThe goal of Vimb is to build a completely keyboard-driven, efficient and\npleasurable browsing-experience with low memory and CPU usage that is\nintuitive to use for Vim users.\n\nMore information and some screenshots of Vimb browser in action can be found on\nthe project page of [Vimb][].\n\n## Features\n\n- it's modal like Vim\n- Vim like keybindings - assignable for each browser mode\n- nearly every configuration can be changed at runtime with Vim like set syntax\n- history for `ex` commands, search queries, URLs\n- completions for: commands, URLs, bookmarked URLs, variable names of settings, search-queries\n- hinting - marks links, form fields and other clickable elements to\n  be clicked, opened or inspected\n- SSL validation against ca-certificate file\n- user defined URL-shortcuts with placeholders\n- read it later queue to collect URIs for later use\n- multiple yank/paste registers\n- Vim like autocmd - execute commands automatically after an event on specific URIs\n\n## Packages\n\n- Arch Linux: [extra/vimb][], [aur/vimb-git][], [aur/vimb-gtk2][]\n- Fedora: [fedora/vimb][],\n- Gentoo: [tharvik overlay][], [jjakob overlay][]\n- openSUSE: [network/vimb][]\n- pkgsrc: [pkgsrc/www/vimb][], [pkgsrc/wip/vimb-git][]\n- Slackware: [slackbuild/vimb][]\n\n## dependencies\n\n- gtk+-3.0\n- webkit2gtk-4.1\n- gst-libav, gst-plugins-good (optional, for media decoding among other things)\n\n## Install\n\nEdit `config.mk` to match your local setup. You might need to do this if \nyou use another compiler, like tcc. Most people, however, will almost never \nneed to do this on systems like Ubuntu or Debian.\n\nEdit `src/config.h` to match your personal preferences, like changing the\ncharacters used in the loading bar, or the font.\n\nThe default `Makefile` will not overwrite your customised `config.h` with the\ncontents of `config.def.h`, even if it was updated in the latest git pull.\nTherefore, you should always compare your customised `config.h` with\n`config.def.h` and make sure you include any changes to the latter in your\n`config.h`.\n\nRun the following commands to compile and install Vimb (if necessary, the last one as\nroot). If you want to change the `PREFIX`, note that it's required to give it on both stages, build and install.\n\n    make PREFIX=/usr\n    make PREFIX=/usr install\n\nTo run vimb without installation for testing it out use the 'runsandbox' make\ntarget.\n\n    make runsandbox\n\n## Mailing list\n\n- feature requests, issues and patches can be discussed on the [mailing list][mail] ([list archive][mail-archive])\n\n## Similar projects\n\n- [luakit](https://luakit.github.io/)\n- [qutebrowser](https://www.qutebrowser.org/)\n- [surf](https://surf.suckless.org/)\n- [uzbl](https://www.uzbl.org/)\n- [wyeb](https://github.com/jun7/wyeb)\n\n## license\n\nInformation about the license are found in the file LICENSE.\n\n## about\n\n- https://en.wikipedia.org/wiki/Vimb\n- http://thedarnedestthing.com/vimb\n- https://blog.jeaye.com/2015/08/23/vimb/\n\n[aur/vimb-git]:        https://aur.archlinux.org/packages/vimb-git\n[aur/vimb-gtk2]:       https://aur.archlinux.org/packages/vimb-gtk2/\n[extra/vimb]:          https://www.archlinux.org/packages/extra/x86_64/vimb/\n[fedora/vimb]:         https://src.fedoraproject.org/rpms/vimb\n[tharvik overlay]:     https://github.com/tharvik/overlay/tree/master/www-client/vimb\n[jjakob overlay]:      https://github.com/jjakob/gentoo-overlay/tree/master/www-client/vimb\n[mail-archive]:        https://sourceforge.net/p/vimb/vimb/vimb-users/ \"vimb - mailing list archive\"\n[mail]:                https://lists.sourceforge.net/lists/listinfo/vimb-users \"vimb - mailing list\"",
+    "ContentSha": "YpPPoZdvnFo+FQ1Cu+E8vj6bDyaPvngz1Yh7ol5qFKo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># Vimb - 类 Vim 浏览器\n\n[![构建状态](https://travis-ci.com/fanglingsu/vimb.svg?branch=master)](https://travis-ci.com/fanglingsu/vimb)\n[![许可证: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)\n[![最新发布](https://img.shields.io/github/release/fanglingsu/vimb.svg?style=flat)](https://github.com/fanglingsu/vimb/releases/latest)\n\nVimb 是一款类 Vim 的网页浏览器，灵感来自 Pentadactyl 和 Vimprobable。\nVimb 的目标是构建一个完全键盘驱动、高效且愉悦的浏览体验，\n占用低内存和 CPU，且对 Vim 用户直观易用。\n\n更多信息以及 Vimb 浏览器运行时的截图可在\n[Vimb][] 项目页面找到。\n\n## 特性\n\n- 它是类似 Vim 的模式化浏览器\n- 类 Vim 的键绑定 - 可为每个浏览器模式分配\n- 几乎所有配置都可在运行时用 Vim 风格的 set 语法修改\n- `ex` 命令、搜索查询、URL 的历史记录\n- 自动补全：命令、URL、书签 URL、设置的变量名、搜索查询\n- 提示功能 - 标记链接、表单字段及其他可点击元素以\n  供点击、打开或检查\n- 使用 CA 证书文件进行 SSL 验证\n- 用户自定义带占位符的 URL 快捷方式\n- 稍后阅读队列，用于收集 URI 以备后用\n- 多个剪切板寄存器\n- 类 Vim 的 autocmd - 在特定 URI 事件后自动执行命令\n\n## 软件包\n\n- Arch Linux: [extra/vimb][], [aur/vimb-git][], [aur/vimb-gtk2][]\n- Fedora: [fedora/vimb][],\n- Gentoo: [tharvik overlay][], [jjakob overlay][]\n- openSUSE: [network/vimb][]\n- pkgsrc: [pkgsrc/www/vimb][], [pkgsrc/wip/vimb-git][]\n- Slackware: [slackbuild/vimb][]\n\n## 依赖项\n\n- gtk+-3.0\n- webkit2gtk-4.1\n- gst-libav, gst-plugins-good（可选，用于媒体解码等）\n\n## 安装\n\n编辑 `config.mk` 以匹配您的本地设置。如果使用其他编译器，比如 tcc，\n可能需要这样做。不过大多数人在 Ubuntu 或 Debian 等系统上几乎无需修改。\n\n编辑 `src/config.h` 以符合您的个人偏好，比如更改加载条中使用的字符或字体。\n\n默认的 `Makefile` 不会用 `config.def.h` 的内容覆盖您自定义的 `config.h`，\n即使在最新的 git 拉取中有更新。\n因此，您应始终将自定义的 `config.h` 与 `config.def.h` 进行比较，\n确保将后者的更改合并到您的 `config.h` 中。\n\n运行以下命令编译并安装 Vimb（如有必要，最后一条命令需以 root 身份执行）。\n如果想更改 `PREFIX`，请注意构建和安装阶段都需要指定。\n\n    make PREFIX=/usr\n    make PREFIX=/usr install\n\n若想不安装直接运行 vimb 进行测试，可使用 'runsandbox' make 目标。\n\n    make runsandbox\n\n## 邮件列表\n\n- 功能请求、问题和补丁可在[邮件列表][mail]中讨论（[列表归档][mail-archive]）\n\n## 类似项目\n\n- [luakit](https://luakit.github.io/)\n- [qutebrowser](https://www.qutebrowser.org/)\n- [surf](https://surf.suckless.org/)\n- [uzbl](https://www.uzbl.org/)\n- [wyeb](https://github.com/jun7/wyeb)\n\n## 许可证\n\n许可证信息见 LICENSE 文件。\n\n## 关于\n\n- https://en.wikipedia.org/wiki/Vimb\n- http://thedarnedestthing.com/vimb\n- https://blog.jeaye.com/2015/08/23/vimb/\n\n[aur/vimb-git]:        https://aur.archlinux.org/packages/vimb-git\n[aur/vimb-gtk2]:       https://aur.archlinux.org/packages/vimb-gtk2/\n[extra/vimb]:          https://www.archlinux.org/packages/extra/x86_64/vimb/\n[fedora/vimb]:         https://src.fedoraproject.org/rpms/vimb\n[tharvik overlay]:     https://github.com/tharvik/overlay/tree/master/www-client/vimb\n[jjakob overlay]:      https://github.com/jjakob/gentoo-overlay/tree/master/www-client/vimb\n[mail-archive]:        https://sourceforge.net/p/vimb/vimb/vimb-users/ \"vimb - mailing list archive\"\n[mail]:                https://lists.sourceforge.net/lists/listinfo/vimb-users \"vimb - mailing list\"</translate-content>\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jkWaHPNalZS8Q1Syq1mjpTybqyOasaXsIZiDf8YLl5k=",
+        "originContent": "# Vimb - the Vim-like browser",
+        "translatedContent": "<translate-content># Vimb - 类 Vim 浏览器"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "7zwylnxsoyICKeK8b4M4On3xBiuvggL/DeDPX4lKJ2E=",
+        "originContent": "[![Build Status](https://travis-ci.com/fanglingsu/vimb.svg?branch=master)](https://travis-ci.com/fanglingsu/vimb)",
+        "translatedContent": "[![构建状态](https://travis-ci.com/fanglingsu/vimb.svg?branch=master)](https://travis-ci.com/fanglingsu/vimb)"
+      },
+      {
+        "row": 4,
+        "rowsha": "jtRUYubXG6BNbjsbzB1YQnb6g3oO4n76q8cqf4EwC24=",
+        "originContent": "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
+        "translatedContent": "[![许可证: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
+      },
+      {
+        "row": 5,
+        "rowsha": "D9nWFXND6wmLrYUdYCiwPkzwJQ7wRaJghVDr8Z0YmpE=",
+        "originContent": "[![Latest Release](https://img.shields.io/github/release/fanglingsu/vimb.svg?style=flat)](https://github.com/fanglingsu/vimb/releases/latest)",
+        "translatedContent": "[![最新发布](https://img.shields.io/github/release/fanglingsu/vimb.svg?style=flat)](https://github.com/fanglingsu/vimb/releases/latest)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "ATjm/2EiUpSzsbi/1HaVoEMteGFSbMfpt0xj0yrb/Lo=",
+        "originContent": "Vimb is a Vim-like web browser that is inspired by Pentadactyl and Vimprobable.",
+        "translatedContent": "Vimb 是一款类 Vim 的网页浏览器，灵感来自 Pentadactyl 和 Vimprobable。"
+      },
+      {
+        "row": 8,
+        "rowsha": "B+mWMdASuFxrIf0PTJr+kQCgydcft1aOEp4zS/glHXc=",
+        "originContent": "The goal of Vimb is to build a completely keyboard-driven, efficient and",
+        "translatedContent": "Vimb 的目标是构建一个完全键盘驱动、高效且愉悦的浏览体验，"
+      },
+      {
+        "row": 9,
+        "rowsha": "s6BrUuJ3F2dZCTwvujFxSHdr06V1WrmVCuTDD4EpxRg=",
+        "originContent": "pleasurable browsing-experience with low memory and CPU usage that is",
+        "translatedContent": "占用低内存和 CPU，且对 Vim 用户直观易用。"
+      },
+      {
+        "row": 10,
+        "rowsha": "EglGidXxLYki+NAMI6tfKm5/jIZ0kp0zsDTNs8XFSiM=",
+        "originContent": "intuitive to use for Vim users.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "更多信息以及 Vimb 浏览器运行时的截图可在"
+      },
+      {
+        "row": 12,
+        "rowsha": "aXSj8gLN1u3BblX+xyDlzs0uyJHZVPgbd+P8Ck7XsD0=",
+        "originContent": "More information and some screenshots of Vimb browser in action can be found on",
+        "translatedContent": "[Vimb][] 项目页面找到。"
+      },
+      {
+        "row": 13,
+        "rowsha": "KR4dwGXs8vlZOmaHrTzsr3jWPLr5LRK46HzbXViMo3A=",
+        "originContent": "the project page of [Vimb][].",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 特性"
+      },
+      {
+        "row": 15,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 它是类似 Vim 的模式化浏览器"
+      },
+      {
+        "row": 17,
+        "rowsha": "tK0vGuLJtxHVPGGToj3lGJIJNA+BhwP1sURNfQNVW0o=",
+        "originContent": "- it's modal like Vim",
+        "translatedContent": "- 类 Vim 的键绑定 - 可为每个浏览器模式分配"
+      },
+      {
+        "row": 18,
+        "rowsha": "rauS1z7pDq64zdxhvKcqrXw607AbXrmiqSN683jdIOI=",
+        "originContent": "- Vim like keybindings - assignable for each browser mode",
+        "translatedContent": "- 几乎所有配置都可在运行时用 Vim 风格的 set 语法修改"
+      },
+      {
+        "row": 19,
+        "rowsha": "CMoJmcb2Mtmtqo6LEZly+1wZTkGORuNgROEwOpKtha4=",
+        "originContent": "- nearly every configuration can be changed at runtime with Vim like set syntax",
+        "translatedContent": "- `ex` 命令、搜索查询、URL 的历史记录"
+      },
+      {
+        "row": 20,
+        "rowsha": "6p+DiAv5zHJAqHpCIBWbcGWf10n3gEwsKMFvfU1D2iA=",
+        "originContent": "- history for `ex` commands, search queries, URLs",
+        "translatedContent": "- 自动补全：命令、URL、书签 URL、设置的变量名、搜索查询"
+      },
+      {
+        "row": 21,
+        "rowsha": "2W/NpLGk1YNI5wGJOVZ6Xf4KQAQ1Dv2jG7X////v23c=",
+        "originContent": "- completions for: commands, URLs, bookmarked URLs, variable names of settings, search-queries",
+        "translatedContent": "- 提示功能 - 标记链接、表单字段及其他可点击元素以"
+      },
+      {
+        "row": 22,
+        "rowsha": "AC1M6YxzakmaVVusFfx8B7ZKOeQRm+Bl8Gzj+Fb1n+U=",
+        "originContent": "- hinting - marks links, form fields and other clickable elements to",
+        "translatedContent": "  供点击、打开或检查"
+      },
+      {
+        "row": 23,
+        "rowsha": "G8xDCYLVyf7Hg3HJGnsNKKMhcr+2RpvnfTJErhFAMGw=",
+        "originContent": "  be clicked, opened or inspected",
+        "translatedContent": "- 使用 CA 证书文件进行 SSL 验证"
+      },
+      {
+        "row": 24,
+        "rowsha": "S6uTFbMbvF+MlqUT/E2oZPNwwyP+6BA7z+Yq6N3zxZo=",
+        "originContent": "- SSL validation against ca-certificate file",
+        "translatedContent": "- 用户自定义带占位符的 URL 快捷方式"
+      },
+      {
+        "row": 25,
+        "rowsha": "JXnvFV8t4hEseHpExnLNIJqe6KXCA+16wy45RcRG6uI=",
+        "originContent": "- user defined URL-shortcuts with placeholders",
+        "translatedContent": "- 稍后阅读队列，用于收集 URI 以备后用"
+      },
+      {
+        "row": 26,
+        "rowsha": "NhKhzr8EsrecBi/jKizWhdt3MfOhruHZAIHi0RWlab8=",
+        "originContent": "- read it later queue to collect URIs for later use",
+        "translatedContent": "- 多个剪切板寄存器"
+      },
+      {
+        "row": 27,
+        "rowsha": "MusMb01EkPIRtHrZhZ4MrALxrLBsrDfXQ9p4wAYXUhI=",
+        "originContent": "- multiple yank/paste registers",
+        "translatedContent": "- 类 Vim 的 autocmd - 在特定 URI 事件后自动执行命令"
+      },
+      {
+        "row": 28,
+        "rowsha": "0xEx1pYnTos7nZwU5rn5A+GgWZ0pBOZbsGNf1q5hRi8=",
+        "originContent": "- Vim like autocmd - execute commands automatically after an event on specific URIs",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 软件包"
+      },
+      {
+        "row": 30,
+        "rowsha": "i3hUM5m7uCwHdklUdyPGIbtbXPzAvcVWYU2SSu8hPuc=",
+        "originContent": "## Packages",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Arch Linux: [extra/vimb][], [aur/vimb-git][], [aur/vimb-gtk2][]"
+      },
+      {
+        "row": 32,
+        "rowsha": "w7qq4iJQz+Q1puXcexObFVZOmeTVMRntPRgomq8itq4=",
+        "originContent": "- Arch Linux: [extra/vimb][], [aur/vimb-git][], [aur/vimb-gtk2][]",
+        "translatedContent": "- Fedora: [fedora/vimb][],"
+      },
+      {
+        "row": 33,
+        "rowsha": "n/ME6gLl8p8S9mK1zPLi8/TkgWfp4u9VLcpNWqUJ62E=",
+        "originContent": "- Fedora: [fedora/vimb][],",
+        "translatedContent": "- Gentoo: [tharvik overlay][], [jjakob overlay][]"
+      },
+      {
+        "row": 34,
+        "rowsha": "nXwKI2b2ABaeT7/pokoCdfmFkM4rlieer6T3zPgIwBc=",
+        "originContent": "- Gentoo: [tharvik overlay][], [jjakob overlay][]",
+        "translatedContent": "- openSUSE: [network/vimb][]"
+      },
+      {
+        "row": 35,
+        "rowsha": "+qr2sJrR+712o9SyosHT+fnkeJNsDxY1JJov6jx0C4M=",
+        "originContent": "- openSUSE: [network/vimb][]",
+        "translatedContent": "- pkgsrc: [pkgsrc/www/vimb][], [pkgsrc/wip/vimb-git][]"
+      },
+      {
+        "row": 36,
+        "rowsha": "zREJzorFTCBn7gt0I3uS+4TrZsuhPxtjdf35sKFK7wg=",
+        "originContent": "- pkgsrc: [pkgsrc/www/vimb][], [pkgsrc/wip/vimb-git][]",
+        "translatedContent": "- Slackware: [slackbuild/vimb][]"
+      },
+      {
+        "row": 37,
+        "rowsha": "ry8tikCnG5kfSmXM4D+VQhrlRx0f+HZw//nNBT6QjU8=",
+        "originContent": "- Slackware: [slackbuild/vimb][]",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 依赖项"
+      },
+      {
+        "row": 39,
+        "rowsha": "2RTafvlAtil32C2j3UnfZbYfNFem8fA+Cv3DQYW/30M=",
+        "originContent": "## dependencies",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- gtk+-3.0"
+      },
+      {
+        "row": 41,
+        "rowsha": "rhSRXFT/xZ+Tjz7VVQbtjxVkTppxF2Yisw9MO0zNqxI=",
+        "originContent": "- gtk+-3.0",
+        "translatedContent": "- webkit2gtk-4.1"
+      },
+      {
+        "row": 42,
+        "rowsha": "kKpAWCHJq2aStmmGHdq+rF2Wj+PQiigPopFO7b4UWEk=",
+        "originContent": "- webkit2gtk-4.1",
+        "translatedContent": "- gst-libav, gst-plugins-good（可选，用于媒体解码等）"
+      },
+      {
+        "row": 43,
+        "rowsha": "ibjsuCUByeM2UUF12DYAgBQDcoYLLKcmR6pcmhP8v0c=",
+        "originContent": "- gst-libav, gst-plugins-good (optional, for media decoding among other things)",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 安装"
+      },
+      {
+        "row": 45,
+        "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+        "originContent": "## Install",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "编辑 `config.mk` 以匹配您的本地设置。如果使用其他编译器，比如 tcc，"
+      },
+      {
+        "row": 47,
+        "rowsha": "h+Ai0mW/Pn44MJ7MjDvN5l8dRLKsLXC/Lbqq/ggRkt0=",
+        "originContent": "Edit `config.mk` to match your local setup. You might need to do this if ",
+        "translatedContent": "可能需要这样做。不过大多数人在 Ubuntu 或 Debian 等系统上几乎无需修改。"
+      },
+      {
+        "row": 48,
+        "rowsha": "05VTSbNWWxIBqYi2RQok7Ohkye9PqH+OMFKTKX84z9E=",
+        "originContent": "you use another compiler, like tcc. Most people, however, will almost never ",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "vwPOb8aHXxkox2qiDpmNq8xaErLwTwgZddie+QlRQIw=",
+        "originContent": "need to do this on systems like Ubuntu or Debian.",
+        "translatedContent": "编辑 `src/config.h` 以符合您的个人偏好，比如更改加载条中使用的字符或字体。"
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "awkv8MfYZWcbiQ0rvhqtzsqtkgf114j16CbaVea9ONw=",
+        "originContent": "Edit `src/config.h` to match your personal preferences, like changing the",
+        "translatedContent": "默认的 `Makefile` 不会用 `config.def.h` 的内容覆盖您自定义的 `config.h`，"
+      },
+      {
+        "row": 52,
+        "rowsha": "9BM3V6YbSJgE0pj+iBT7yBJ+bihlewlaRLNYVYyevtw=",
+        "originContent": "characters used in the loading bar, or the font.",
+        "translatedContent": "即使在最新的 git 拉取中有更新。"
+      },
+      {
+        "row": 53,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "因此，您应始终将自定义的 `config.h` 与 `config.def.h` 进行比较，"
+      },
+      {
+        "row": 54,
+        "rowsha": "Zbr1wbk1S9fbMv2fyVjhXEL+G4ONWVdGlCFWooZ4CLQ=",
+        "originContent": "The default `Makefile` will not overwrite your customised `config.h` with the",
+        "translatedContent": "确保将后者的更改合并到您的 `config.h` 中。"
+      },
+      {
+        "row": 55,
+        "rowsha": "FAkiVsHuyFhEUzbddL44dWVn60+YaciwR4RGLa6Efl4=",
+        "originContent": "contents of `config.def.h`, even if it was updated in the latest git pull.",
+        "translatedContent": ""
+      },
+      {
+        "row": 56,
+        "rowsha": "40GrUNoBpWy37XROEEZLZJHENkDjSLhbgRMHNMNT+Zs=",
+        "originContent": "Therefore, you should always compare your customised `config.h` with",
+        "translatedContent": "运行以下命令编译并安装 Vimb（如有必要，最后一条命令需以 root 身份执行）。"
+      },
+      {
+        "row": 57,
+        "rowsha": "XsixG8iVNQjQIHFYdehUkf8wLxXgG8LfI14JB2dZzKo=",
+        "originContent": "`config.def.h` and make sure you include any changes to the latter in your",
+        "translatedContent": "如果想更改 `PREFIX`，请注意构建和安装阶段都需要指定。"
+      },
+      {
+        "row": 58,
+        "rowsha": "Jk2TW4XoSbc9KynmiY+1eteFsQpr+8nxiKLNfl5wvro=",
+        "originContent": "`config.h`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 59,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    make PREFIX=/usr"
+      },
+      {
+        "row": 60,
+        "rowsha": "1Vm6jn5qOTQ9YN0ztYjISnfmiFkPwDScDyNMYdUsVHk=",
+        "originContent": "Run the following commands to compile and install Vimb (if necessary, the last one as",
+        "translatedContent": "    make PREFIX=/usr install"
+      },
+      {
+        "row": 61,
+        "rowsha": "dupu2h22rkUnbBFNuS5fr5iL1ScZenvCb4scFD7yzUU=",
+        "originContent": "root). If you want to change the `PREFIX`, note that it's required to give it on both stages, build and install.",
+        "translatedContent": ""
+      },
+      {
+        "row": 62,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "若想不安装直接运行 vimb 进行测试，可使用 'runsandbox' make 目标。"
+      },
+      {
+        "row": 63,
+        "rowsha": "11J1sODqJ6PvAx4FhyB87YRCG0ZiRs0zoYCHKhtjmnY=",
+        "originContent": "    make PREFIX=/usr",
+        "translatedContent": ""
+      },
+      {
+        "row": 64,
+        "rowsha": "LbPz+oWC+9cdL97Imt9kGfLUsshWUjjiPRZlaWHNhpM=",
+        "originContent": "    make PREFIX=/usr install",
+        "translatedContent": "    make runsandbox"
+      },
+      {
+        "row": 65,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 66,
+        "rowsha": "YcRestqFnOcufKcTfapauI6o2zu/UpZroc9piWup/sc=",
+        "originContent": "To run vimb without installation for testing it out use the 'runsandbox' make",
+        "translatedContent": "## 邮件列表"
+      },
+      {
+        "row": 67,
+        "rowsha": "qF+qCeQ9ZFEVy9TSJn1R0riVThF8fPaD0Dcm8fPHUjg=",
+        "originContent": "target.",
+        "translatedContent": ""
+      },
+      {
+        "row": 68,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 功能请求、问题和补丁可在[邮件列表][mail]中讨论（[列表归档][mail-archive]）"
+      },
+      {
+        "row": 69,
+        "rowsha": "W2kq/bVa+oaepZ5d0aWhYuHUHtiHOcie9GkR/5QyYQU=",
+        "originContent": "    make runsandbox",
+        "translatedContent": ""
+      },
+      {
+        "row": 70,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 类似项目"
+      },
+      {
+        "row": 71,
+        "rowsha": "xi4mB2lu/AhuyhJLllcjFhAFQ+GHMfHjHMO9WjTfQL0=",
+        "originContent": "## Mailing list",
+        "translatedContent": ""
+      },
+      {
+        "row": 72,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [luakit](https://luakit.github.io/)"
+      },
+      {
+        "row": 73,
+        "rowsha": "dpJ9CCi3rLVpbvqK0g2RfVOeGOf1yLgAaO6Cev/akXw=",
+        "originContent": "- feature requests, issues and patches can be discussed on the [mailing list][mail] ([list archive][mail-archive])",
+        "translatedContent": "- [qutebrowser](https://www.qutebrowser.org/)"
+      },
+      {
+        "row": 74,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [surf](https://surf.suckless.org/)"
+      },
+      {
+        "row": 75,
+        "rowsha": "wBn+tp5rOeBG2NIs6oEL1suWkw1GUBdDNXH0fvs+gqI=",
+        "originContent": "## Similar projects",
+        "translatedContent": "- [uzbl](https://www.uzbl.org/)"
+      },
+      {
+        "row": 76,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [wyeb](https://github.com/jun7/wyeb)"
+      },
+      {
+        "row": 77,
+        "rowsha": "E5hhOH3I79QsilAqZlkp1lNlB38Y/Kc5duvz4l/OQKU=",
+        "originContent": "- [luakit](https://luakit.github.io/)",
+        "translatedContent": ""
+      },
+      {
+        "row": 78,
+        "rowsha": "CPccMjwMHytI1vkrXzewEu3umonJqFKJM97rilhnCvw=",
+        "originContent": "- [qutebrowser](https://www.qutebrowser.org/)",
+        "translatedContent": "## 许可证"
+      },
+      {
+        "row": 79,
+        "rowsha": "MeNNEuaQVorzk5uOqIWa015Ec6GAQe1ZSUDURHxcueY=",
+        "originContent": "- [surf](https://surf.suckless.org/)",
+        "translatedContent": ""
+      },
+      {
+        "row": 80,
+        "rowsha": "jqFNx+kqMrzF338zF+HWWkShnsSGnVhpTs5NdOUDiKw=",
+        "originContent": "- [uzbl](https://www.uzbl.org/)",
+        "translatedContent": "许可证信息见 LICENSE 文件。"
+      },
+      {
+        "row": 81,
+        "rowsha": "5io4BUV6fi/iZKFt1zOp5SBjiYGxnQL8DVMeELD3fT8=",
+        "originContent": "- [wyeb](https://github.com/jun7/wyeb)",
+        "translatedContent": ""
+      },
+      {
+        "row": 82,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 关于"
+      },
+      {
+        "row": 83,
+        "rowsha": "xfcDd0MsU7dGpnKWNhO6IJAeDcUX+6qVNdRprL2GZuk=",
+        "originContent": "## license",
+        "translatedContent": ""
+      },
+      {
+        "row": 84,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- https://en.wikipedia.org/wiki/Vimb"
+      },
+      {
+        "row": 85,
+        "rowsha": "qhMjn++aMhihF9elliTL+BHfWffVZSwPl2IdY6xfCY4=",
+        "originContent": "Information about the license are found in the file LICENSE.",
+        "translatedContent": "- http://thedarnedestthing.com/vimb"
+      },
+      {
+        "row": 86,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- https://blog.jeaye.com/2015/08/23/vimb/"
+      },
+      {
+        "row": 87,
+        "rowsha": "5USinJUpAxfneuXXXsTV+8slj+VOgAuC5e2rwvfexY0=",
+        "originContent": "## about",
+        "translatedContent": ""
+      },
+      {
+        "row": 88,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[aur/vimb-git]:        https://aur.archlinux.org/packages/vimb-git"
+      },
+      {
+        "row": 89,
+        "rowsha": "qpxry2PdCuQIyLZsWSMiVi9jURQin9HDC9nahPJtoGU=",
+        "originContent": "- https://en.wikipedia.org/wiki/Vimb",
+        "translatedContent": "[aur/vimb-gtk2]:       https://aur.archlinux.org/packages/vimb-gtk2/"
+      },
+      {
+        "row": 90,
+        "rowsha": "v6GAxbP5901aWcG9sd/OQPAeOc433ARmmJ2DREmDHxI=",
+        "originContent": "- http://thedarnedestthing.com/vimb",
+        "translatedContent": "[extra/vimb]:          https://www.archlinux.org/packages/extra/x86_64/vimb/"
+      },
+      {
+        "row": 91,
+        "rowsha": "JgflFYpWkPtwOQg4TjD+VJum+vkHPhL2xD1SpWzoBJk=",
+        "originContent": "- https://blog.jeaye.com/2015/08/23/vimb/",
+        "translatedContent": "[fedora/vimb]:         https://src.fedoraproject.org/rpms/vimb"
+      },
+      {
+        "row": 92,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[tharvik overlay]:     https://github.com/tharvik/overlay/tree/master/www-client/vimb"
+      },
+      {
+        "row": 93,
+        "rowsha": "eWAWzBQvQms7Cqtn3PXJe+UXUXzCmO7H6cBWKhBMN5g=",
+        "originContent": "[aur/vimb-git]:        https://aur.archlinux.org/packages/vimb-git",
+        "translatedContent": "[jjakob overlay]:      https://github.com/jjakob/gentoo-overlay/tree/master/www-client/vimb"
+      },
+      {
+        "row": 94,
+        "rowsha": "W9fLWy21oKEWA04s3I34OwQxpfqtn4Sr4Pz2il3WrCg=",
+        "originContent": "[aur/vimb-gtk2]:       https://aur.archlinux.org/packages/vimb-gtk2/",
+        "translatedContent": "[mail-archive]:        https://sourceforge.net/p/vimb/vimb/vimb-users/ \"vimb - mailing list archive\""
+      },
+      {
+        "row": 95,
+        "rowsha": "eDxK02JEFH8VTtlK3/O0iHWzxTINQCcm9xcba2kI010=",
+        "originContent": "[extra/vimb]:          https://www.archlinux.org/packages/extra/x86_64/vimb/",
+        "translatedContent": "[mail]:                https://lists.sourceforge.net/lists/listinfo/vimb-users \"vimb - mailing list\"</translate-content>"
+      },
+      {
+        "row": 96,
+        "rowsha": "QIR9bTDqRcTYMPmy9G0wAAWY67xkF7/pjT4ADikkOQQ=",
+        "originContent": "[fedora/vimb]:         https://src.fedoraproject.org/rpms/vimb",
+        "translatedContent": ""
+      },
+      {
+        "row": 97,
+        "rowsha": "LpvNe6mIdiNFOzvi3tMABRn72ci4f0HrHJGNpu3/B7c=",
+        "originContent": "[tharvik overlay]:     https://github.com/tharvik/overlay/tree/master/www-client/vimb",
+        "translatedContent": ""
+      },
+      {
+        "row": 98,
+        "rowsha": "LxubNvraxcDTlQkBsf1dlajG2YwxzrkaGsXl/Py5fng=",
+        "originContent": "[jjakob overlay]:      https://github.com/jjakob/gentoo-overlay/tree/master/www-client/vimb",
+        "translatedContent": ""
+      },
+      {
+        "row": 99,
+        "rowsha": "TCx9ZbbC2OGLcPJiUFgWZ2rgAHGRtkvKNJo6vpoQsPo=",
+        "originContent": "[mail-archive]:        https://sourceforge.net/p/vimb/vimb/vimb-users/ \"vimb - mailing list archive\"",
+        "translatedContent": ""
+      },
+      {
+        "row": 100,
+        "rowsha": "ZkXzG3eUS9ajQ802mBZ+MVKAKXaaOL6YR10hzBdTU9g=",
+        "originContent": "[mail]:                https://lists.sourceforge.net/lists/listinfo/vimb-users \"vimb - mailing list\"",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "[network/vimb]:        https://build.opensuse.org/package/show/network/vimb\n[pkgsrc/wip/vimb-git]: http://pkgsrc.se/wip/vimb-git\n[pkgsrc/www/vimb]:     http://pkgsrc.se/www/vimb\n[slackbuild/vimb]:     https://slackbuilds.org/repository/14.2/network/vimb/\n[vimb]:                https://fanglingsu.github.io/vimb/ \"Vimb - Vim like browser project page\"\n",
+    "ContentSha": "PVS2SVRZPsg77zvOoVXkkJsbIquFV4xT5hx4vk90nHU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>[network/vimb]:        https://build.opensuse.org/package/show/network/vimb\n[pkgsrc/wip/vimb-git]: http://pkgsrc.se/wip/vimb-git\n[pkgsrc/www/vimb]:     http://pkgsrc.se/www/vimb\n[slackbuild/vimb]:     https://slackbuilds.org/repository/14.2/network/vimb/\n[vimb]:                https://fanglingsu.github.io/vimb/ \"Vimb - 类 Vim 浏览器项目主页\"\n</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "03lf1EQ+ap2E6+RbNx3A/brSe8ipRXsOGtf/SwQ8Erk=",
+        "originContent": "[network/vimb]:        https://build.opensuse.org/package/show/network/vimb",
+        "translatedContent": "<translate-content>[network/vimb]:        https://build.opensuse.org/package/show/network/vimb"
+      },
+      {
+        "row": 2,
+        "rowsha": "V2Qhuz0BiLvg/tAifDO+ZDkxrflRhMgoVwW4stWVfJg=",
+        "originContent": "[pkgsrc/wip/vimb-git]: http://pkgsrc.se/wip/vimb-git",
+        "translatedContent": "[pkgsrc/wip/vimb-git]: http://pkgsrc.se/wip/vimb-git"
+      },
+      {
+        "row": 3,
+        "rowsha": "WOZB4C4eeOy3jJsMULjPsXsmG4Kpd/emfzISh8nRkIg=",
+        "originContent": "[pkgsrc/www/vimb]:     http://pkgsrc.se/www/vimb",
+        "translatedContent": "[pkgsrc/www/vimb]:     http://pkgsrc.se/www/vimb"
+      },
+      {
+        "row": 4,
+        "rowsha": "uOPSgpdHW70+bMIhXIGJcoJMd2bjn3PftlRlfXh9WII=",
+        "originContent": "[slackbuild/vimb]:     https://slackbuilds.org/repository/14.2/network/vimb/",
+        "translatedContent": "[slackbuild/vimb]:     https://slackbuilds.org/repository/14.2/network/vimb/"
+      },
+      {
+        "row": 5,
+        "rowsha": "LBclTmrB3I9+2VH7/Mq1ZSCivpyEYT/MkbNFhaqOxdQ=",
+        "originContent": "[vimb]:                https://fanglingsu.github.io/vimb/ \"Vimb - Vim like browser project page\"",
+        "translatedContent": "[vimb]:                https://fanglingsu.github.io/vimb/ \"Vimb - 类 Vim 浏览器项目主页\""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

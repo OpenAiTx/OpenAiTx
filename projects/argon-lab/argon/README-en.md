@@ -47,10 +47,13 @@ Argon gives MongoDB superpowers with **Git-like branching** and **time travel**.
 ### 🎯 Key Benefits
 
 - **⚡ Instant Branches** - Clone your entire database in 1ms (not hours)
-- **⏰ Time Travel** - Query your data from any point in history
+- **⏰ Time Travel** - Query your data from any point in history with **220,000+ queries/sec**
 - **🔄 Safe Restore** - Preview changes before restoring
-- **💾 Zero Storage Cost** - Branches share data efficiently
+- **💾 Zero Storage Cost** - Branches share data efficiently with 90% compression
 - **🔌 Drop-in Compatible** - Works with existing MongoDB code
+- **🚀 Enterprise Performance** - 26x faster time travel queries after latest optimizations
+- **✅ Comprehensive Testing** - Extensive test coverage ensuring reliability
+- **🗜️ Smart Compression** - Automatic WAL compression reduces storage by 80-90%
 
 ## Quick Demo
 
@@ -59,40 +62,50 @@ Argon gives MongoDB superpowers with **Git-like branching** and **time travel**.
 brew install argon-lab/tap/argonctl    # macOS
 npm install -g argonctl                 # Cross-platform
 
-# Create a time-travel enabled database
-export ENABLE_WAL=true
-argon projects create myapp
+# Step 1: Import your existing MongoDB (like "git clone")
+argon import database --uri "mongodb://localhost:27017" --database myapp --project myapp
+# ✅ Your data now has time travel capabilities!
 
-# Your app crashed after bad migration? No problem!
+# Step 2: Use Argon like Git for your database
+argon branches create test-env           # Branch like "git checkout -b"
+argon time-travel query --project myapp --branch main --lsn 1000
+
+# Step 3: Disaster recovery made simple
 argon restore preview --time "1 hour ago"
 argon restore reset --time "before disaster"
-
-# Need a test environment? Branch instantly!
-argon branches create test-env
-# Full database copy created in 1ms 🚀
 ```
-## Real-World Use Cases
+## Git-Like Workflow for MongoDB
 
-### 🚨 **Disaster Recovery**
+### 🔄 **Step 1: Import ("git clone" for databases)**
+
+```bash
+# Bring your existing MongoDB into Argon
+argon import preview --uri "mongodb://localhost:27017" --database myapp
+argon import database --uri "mongodb://localhost:27017" --database myapp --project myapp
+# ✅ Your existing data now has time travel capabilities!
+```
+### 🧪 **Step 2: Branch ("git checkout -b")**
+
+```bash
+# Create branches for testing, staging, experiments
+argon branches create staging --project myapp
+argon branches create experiment-v2 --project myapp
+# Full database copies created instantly 🚀
+```
+### 📊 **Step 3: Time Travel ("git log" for data)**
+
+```bash
+# See your data's history
+argon time-travel info --project myapp --branch main
+argon time-travel query --project myapp --branch main --lsn 1000
+# Compare data across time like Git commits
+```
+### 🚨 **Step 4: Restore ("git reset" for disasters)**
 
 ```bash
 # "Someone deleted all users!"
 argon restore reset --time "5 minutes ago"
 # Crisis averted in seconds, not hours
-```
-### 🧪 **Safe Testing**
-
-```bash
-# Test with real production data
-argon branches create staging --from production
-# Run risky migrations fearlessly
-```
-### 📊 **Data Analysis**
-
-```bash
-# Compare data across time
-argon time-travel diff --from "last week" --to "today"
-# See exactly what changed
 ```
 ## How It Works
 
@@ -125,8 +138,11 @@ cd argon/cli && go build -o argon
 
 ## Community
 
+- 🤝 [Community Guide](https://raw.githubusercontent.com/argon-lab/argon/master/./COMMUNITY.md) - Get involved!
+- 📋 [Roadmap](https://raw.githubusercontent.com/argon-lab/argon/master/./ROADMAP.md) - See what's coming
 - 🐛 [Report Issues](https://github.com/argon-lab/argon/issues)
 - 💬 [Discussions](https://github.com/argon-lab/argon/discussions)
+- 🏗️ [Contributing](https://raw.githubusercontent.com/argon-lab/argon/master/./CONTRIBUTING.md) - Help build Argon
 - 📧 [Contact](https://www.argonlabs.tech)
 
 ---
@@ -144,6 +160,6 @@ cd argon/cli && go build -o argon
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-21
 
 ---

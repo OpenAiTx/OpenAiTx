@@ -1,0 +1,638 @@
+[
+  {
+    "row": 1,
+    "rowsha": "jkWaHPNalZS8Q1Syq1mjpTybqyOasaXsIZiDf8YLl5k=",
+    "originContent": "# Vimb - the Vim-like browser",
+    "translatedContent": "<translate-content># Vimb - Vim과 유사한 브라우저"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "7zwylnxsoyICKeK8b4M4On3xBiuvggL/DeDPX4lKJ2E=",
+    "originContent": "[![Build Status](https://travis-ci.com/fanglingsu/vimb.svg?branch=master)](https://travis-ci.com/fanglingsu/vimb)",
+    "translatedContent": "[![Build Status](https://travis-ci.com/fanglingsu/vimb.svg?branch=master)](https://travis-ci.com/fanglingsu/vimb)"
+  },
+  {
+    "row": 4,
+    "rowsha": "jtRUYubXG6BNbjsbzB1YQnb6g3oO4n76q8cqf4EwC24=",
+    "originContent": "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
+    "translatedContent": "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
+  },
+  {
+    "row": 5,
+    "rowsha": "D9nWFXND6wmLrYUdYCiwPkzwJQ7wRaJghVDr8Z0YmpE=",
+    "originContent": "[![Latest Release](https://img.shields.io/github/release/fanglingsu/vimb.svg?style=flat)](https://github.com/fanglingsu/vimb/releases/latest)",
+    "translatedContent": "[![Latest Release](https://img.shields.io/github/release/fanglingsu/vimb.svg?style=flat)](https://github.com/fanglingsu/vimb/releases/latest)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "ATjm/2EiUpSzsbi/1HaVoEMteGFSbMfpt0xj0yrb/Lo=",
+    "originContent": "Vimb is a Vim-like web browser that is inspired by Pentadactyl and Vimprobable.",
+    "translatedContent": "Vimb는 Pentadactyl과 Vimprobable에서 영감을 받은 Vim과 유사한 웹 브라우저입니다."
+  },
+  {
+    "row": 8,
+    "rowsha": "B+mWMdASuFxrIf0PTJr+kQCgydcft1aOEp4zS/glHXc=",
+    "originContent": "The goal of Vimb is to build a completely keyboard-driven, efficient and",
+    "translatedContent": "Vimb의 목표는 완전히 키보드 중심적이고 효율적이며"
+  },
+  {
+    "row": 9,
+    "rowsha": "s6BrUuJ3F2dZCTwvujFxSHdr06V1WrmVCuTDD4EpxRg=",
+    "originContent": "pleasurable browsing-experience with low memory and CPU usage that is",
+    "translatedContent": "메모리와 CPU 사용량이 적은 쾌적한 브라우징 경험을 제공하는 것으로,"
+  },
+  {
+    "row": 10,
+    "rowsha": "EglGidXxLYki+NAMI6tfKm5/jIZ0kp0zsDTNs8XFSiM=",
+    "originContent": "intuitive to use for Vim users.",
+    "translatedContent": "Vim 사용자에게 직관적으로 사용 가능하도록 하는 것입니다."
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "aXSj8gLN1u3BblX+xyDlzs0uyJHZVPgbd+P8Ck7XsD0=",
+    "originContent": "More information and some screenshots of Vimb browser in action can be found on",
+    "translatedContent": "더 많은 정보와 Vimb 브라우저의 실행 화면은"
+  },
+  {
+    "row": 13,
+    "rowsha": "KR4dwGXs8vlZOmaHrTzsr3jWPLr5LRK46HzbXViMo3A=",
+    "originContent": "the project page of [Vimb][].",
+    "translatedContent": "[Vimb][] 프로젝트 페이지에서 확인할 수 있습니다."
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 기능"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "tK0vGuLJtxHVPGGToj3lGJIJNA+BhwP1sURNfQNVW0o=",
+    "originContent": "- it's modal like Vim",
+    "translatedContent": "- Vim처럼 모달 방식"
+  },
+  {
+    "row": 18,
+    "rowsha": "rauS1z7pDq64zdxhvKcqrXw607AbXrmiqSN683jdIOI=",
+    "originContent": "- Vim like keybindings - assignable for each browser mode",
+    "translatedContent": "- 각 브라우저 모드별로 할당 가능한 Vim 스타일 키 바인딩"
+  },
+  {
+    "row": 19,
+    "rowsha": "CMoJmcb2Mtmtqo6LEZly+1wZTkGORuNgROEwOpKtha4=",
+    "originContent": "- nearly every configuration can be changed at runtime with Vim like set syntax",
+    "translatedContent": "- 거의 모든 설정을 Vim의 set 문법으로 런타임에 변경 가능"
+  },
+  {
+    "row": 20,
+    "rowsha": "6p+DiAv5zHJAqHpCIBWbcGWf10n3gEwsKMFvfU1D2iA=",
+    "originContent": "- history for `ex` commands, search queries, URLs",
+    "translatedContent": "- `ex` 명령, 검색 쿼리, URL의 히스토리"
+  },
+  {
+    "row": 21,
+    "rowsha": "2W/NpLGk1YNI5wGJOVZ6Xf4KQAQ1Dv2jG7X////v23c=",
+    "originContent": "- completions for: commands, URLs, bookmarked URLs, variable names of settings, search-queries",
+    "translatedContent": "- 명령, URL, 북마크된 URL, 설정 변수명, 검색 쿼리에 대한 완성 기능"
+  },
+  {
+    "row": 22,
+    "rowsha": "AC1M6YxzakmaVVusFfx8B7ZKOeQRm+Bl8Gzj+Fb1n+U=",
+    "originContent": "- hinting - marks links, form fields and other clickable elements to",
+    "translatedContent": "- 힌팅 - 링크, 폼 필드 및 다른 클릭 가능한 요소에 마크를 표시하여"
+  },
+  {
+    "row": 23,
+    "rowsha": "G8xDCYLVyf7Hg3HJGnsNKKMhcr+2RpvnfTJErhFAMGw=",
+    "originContent": "  be clicked, opened or inspected",
+    "translatedContent": "  클릭, 열기 또는 검사 가능"
+  },
+  {
+    "row": 24,
+    "rowsha": "S6uTFbMbvF+MlqUT/E2oZPNwwyP+6BA7z+Yq6N3zxZo=",
+    "originContent": "- SSL validation against ca-certificate file",
+    "translatedContent": "- ca-인증서 파일을 통한 SSL 검증"
+  },
+  {
+    "row": 25,
+    "rowsha": "JXnvFV8t4hEseHpExnLNIJqe6KXCA+16wy45RcRG6uI=",
+    "originContent": "- user defined URL-shortcuts with placeholders",
+    "translatedContent": "- 자리 표시자가 포함된 사용자 정의 URL 단축키"
+  },
+  {
+    "row": 26,
+    "rowsha": "NhKhzr8EsrecBi/jKizWhdt3MfOhruHZAIHi0RWlab8=",
+    "originContent": "- read it later queue to collect URIs for later use",
+    "translatedContent": "- 나중에 읽기용 URI 수집 큐"
+  },
+  {
+    "row": 27,
+    "rowsha": "MusMb01EkPIRtHrZhZ4MrALxrLBsrDfXQ9p4wAYXUhI=",
+    "originContent": "- multiple yank/paste registers",
+    "translatedContent": "- 다중 얀크/붙여넣기 레지스터"
+  },
+  {
+    "row": 28,
+    "rowsha": "0xEx1pYnTos7nZwU5rn5A+GgWZ0pBOZbsGNf1q5hRi8=",
+    "originContent": "- Vim like autocmd - execute commands automatically after an event on specific URIs",
+    "translatedContent": "- Vim과 유사한 autocmd - 특정 URI에서 이벤트 후 자동으로 명령 실행"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "i3hUM5m7uCwHdklUdyPGIbtbXPzAvcVWYU2SSu8hPuc=",
+    "originContent": "## Packages",
+    "translatedContent": "## 패키지"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "w7qq4iJQz+Q1puXcexObFVZOmeTVMRntPRgomq8itq4=",
+    "originContent": "- Arch Linux: [extra/vimb][], [aur/vimb-git][], [aur/vimb-gtk2][]",
+    "translatedContent": "- Arch Linux: [extra/vimb][], [aur/vimb-git][], [aur/vimb-gtk2][]"
+  },
+  {
+    "row": 33,
+    "rowsha": "n/ME6gLl8p8S9mK1zPLi8/TkgWfp4u9VLcpNWqUJ62E=",
+    "originContent": "- Fedora: [fedora/vimb][],",
+    "translatedContent": "- Fedora: [fedora/vimb][],"
+  },
+  {
+    "row": 34,
+    "rowsha": "nXwKI2b2ABaeT7/pokoCdfmFkM4rlieer6T3zPgIwBc=",
+    "originContent": "- Gentoo: [tharvik overlay][], [jjakob overlay][]",
+    "translatedContent": "- Gentoo: [tharvik overlay][], [jjakob overlay][]"
+  },
+  {
+    "row": 35,
+    "rowsha": "+qr2sJrR+712o9SyosHT+fnkeJNsDxY1JJov6jx0C4M=",
+    "originContent": "- openSUSE: [network/vimb][]",
+    "translatedContent": "- openSUSE: [network/vimb][]"
+  },
+  {
+    "row": 36,
+    "rowsha": "zREJzorFTCBn7gt0I3uS+4TrZsuhPxtjdf35sKFK7wg=",
+    "originContent": "- pkgsrc: [pkgsrc/www/vimb][], [pkgsrc/wip/vimb-git][]",
+    "translatedContent": "- pkgsrc: [pkgsrc/www/vimb][], [pkgsrc/wip/vimb-git][]"
+  },
+  {
+    "row": 37,
+    "rowsha": "ry8tikCnG5kfSmXM4D+VQhrlRx0f+HZw//nNBT6QjU8=",
+    "originContent": "- Slackware: [slackbuild/vimb][]",
+    "translatedContent": "- Slackware: [slackbuild/vimb][]"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "2RTafvlAtil32C2j3UnfZbYfNFem8fA+Cv3DQYW/30M=",
+    "originContent": "## dependencies",
+    "translatedContent": "## 의존성"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "rhSRXFT/xZ+Tjz7VVQbtjxVkTppxF2Yisw9MO0zNqxI=",
+    "originContent": "- gtk+-3.0",
+    "translatedContent": "- gtk+-3.0"
+  },
+  {
+    "row": 42,
+    "rowsha": "kKpAWCHJq2aStmmGHdq+rF2Wj+PQiigPopFO7b4UWEk=",
+    "originContent": "- webkit2gtk-4.1",
+    "translatedContent": "- webkit2gtk-4.1"
+  },
+  {
+    "row": 43,
+    "rowsha": "ibjsuCUByeM2UUF12DYAgBQDcoYLLKcmR6pcmhP8v0c=",
+    "originContent": "- gst-libav, gst-plugins-good (optional, for media decoding among other things)",
+    "translatedContent": "- gst-libav, gst-plugins-good (선택 사항, 미디어 디코딩 등용)"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+    "originContent": "## Install",
+    "translatedContent": "## 설치"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "h+Ai0mW/Pn44MJ7MjDvN5l8dRLKsLXC/Lbqq/ggRkt0=",
+    "originContent": "Edit `config.mk` to match your local setup. You might need to do this if ",
+    "translatedContent": "`config.mk`를 로컬 설정에 맞게 수정하세요. "
+  },
+  {
+    "row": 48,
+    "rowsha": "05VTSbNWWxIBqYi2RQok7Ohkye9PqH+OMFKTKX84z9E=",
+    "originContent": "you use another compiler, like tcc. Most people, however, will almost never ",
+    "translatedContent": "tcc 같은 다른 컴파일러를 사용하는 경우 이 작업이 필요할 수 있습니다. "
+  },
+  {
+    "row": 49,
+    "rowsha": "vwPOb8aHXxkox2qiDpmNq8xaErLwTwgZddie+QlRQIw=",
+    "originContent": "need to do this on systems like Ubuntu or Debian.",
+    "translatedContent": "하지만 대부분의 사용자는 Ubuntu나 Debian 같은 시스템에서는 거의 필요하지 않습니다."
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "awkv8MfYZWcbiQ0rvhqtzsqtkgf114j16CbaVea9ONw=",
+    "originContent": "Edit `src/config.h` to match your personal preferences, like changing the",
+    "translatedContent": "`src/config.h`를 개인 취향에 맞게 수정하세요, 예를 들어"
+  },
+  {
+    "row": 52,
+    "rowsha": "9BM3V6YbSJgE0pj+iBT7yBJ+bihlewlaRLNYVYyevtw=",
+    "originContent": "characters used in the loading bar, or the font.",
+    "translatedContent": "로딩 바에 사용되는 문자나 폰트를 변경하는 식으로요."
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "Zbr1wbk1S9fbMv2fyVjhXEL+G4ONWVdGlCFWooZ4CLQ=",
+    "originContent": "The default `Makefile` will not overwrite your customised `config.h` with the",
+    "translatedContent": "기본 `Makefile`은 최신 git pull로 업데이트되어도"
+  },
+  {
+    "row": 55,
+    "rowsha": "FAkiVsHuyFhEUzbddL44dWVn60+YaciwR4RGLa6Efl4=",
+    "originContent": "contents of `config.def.h`, even if it was updated in the latest git pull.",
+    "translatedContent": "사용자 맞춤 `config.h`를 `config.def.h` 내용으로 덮어쓰지 않습니다."
+  },
+  {
+    "row": 56,
+    "rowsha": "40GrUNoBpWy37XROEEZLZJHENkDjSLhbgRMHNMNT+Zs=",
+    "originContent": "Therefore, you should always compare your customised `config.h` with",
+    "translatedContent": "따라서, 항상 맞춤 `config.h`와 `config.def.h`를 비교하여"
+  },
+  {
+    "row": 57,
+    "rowsha": "XsixG8iVNQjQIHFYdehUkf8wLxXgG8LfI14JB2dZzKo=",
+    "originContent": "`config.def.h` and make sure you include any changes to the latter in your",
+    "translatedContent": "후자의 변경사항을 `config.h`에 반영해야 합니다."
+  },
+  {
+    "row": 58,
+    "rowsha": "Jk2TW4XoSbc9KynmiY+1eteFsQpr+8nxiKLNfl5wvro=",
+    "originContent": "`config.h`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "다음 명령으로 Vimb를 컴파일하고 설치하세요 (필요 시 마지막 명령은 root 권한으로)."
+  },
+  {
+    "row": 60,
+    "rowsha": "1Vm6jn5qOTQ9YN0ztYjISnfmiFkPwDScDyNMYdUsVHk=",
+    "originContent": "Run the following commands to compile and install Vimb (if necessary, the last one as",
+    "translatedContent": "`PREFIX`를 변경하려면 빌드와 설치 두 단계 모두에서 지정해야 합니다."
+  },
+  {
+    "row": 61,
+    "rowsha": "dupu2h22rkUnbBFNuS5fr5iL1ScZenvCb4scFD7yzUU=",
+    "originContent": "root). If you want to change the `PREFIX`, note that it's required to give it on both stages, build and install.",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    make PREFIX=/usr"
+  },
+  {
+    "row": 63,
+    "rowsha": "11J1sODqJ6PvAx4FhyB87YRCG0ZiRs0zoYCHKhtjmnY=",
+    "originContent": "    make PREFIX=/usr",
+    "translatedContent": "    make PREFIX=/usr install"
+  },
+  {
+    "row": 64,
+    "rowsha": "LbPz+oWC+9cdL97Imt9kGfLUsshWUjjiPRZlaWHNhpM=",
+    "originContent": "    make PREFIX=/usr install",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "설치 없이 vimb를 실행하여 테스트하려면 'runsandbox' make 타겟을 사용하세요."
+  },
+  {
+    "row": 66,
+    "rowsha": "YcRestqFnOcufKcTfapauI6o2zu/UpZroc9piWup/sc=",
+    "originContent": "To run vimb without installation for testing it out use the 'runsandbox' make",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "qF+qCeQ9ZFEVy9TSJn1R0riVThF8fPaD0Dcm8fPHUjg=",
+    "originContent": "target.",
+    "translatedContent": "    make runsandbox"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "W2kq/bVa+oaepZ5d0aWhYuHUHtiHOcie9GkR/5QyYQU=",
+    "originContent": "    make runsandbox",
+    "translatedContent": "## 메일링 리스트"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "xi4mB2lu/AhuyhJLllcjFhAFQ+GHMfHjHMO9WjTfQL0=",
+    "originContent": "## Mailing list",
+    "translatedContent": "- 기능 요청, 이슈 및 패치는 [메일링 리스트][mail]에서 논의할 수 있습니다 ([리스트 아카이브][mail-archive])"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "dpJ9CCi3rLVpbvqK0g2RfVOeGOf1yLgAaO6Cev/akXw=",
+    "originContent": "- feature requests, issues and patches can be discussed on the [mailing list][mail] ([list archive][mail-archive])",
+    "translatedContent": "## 유사 프로젝트"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "wBn+tp5rOeBG2NIs6oEL1suWkw1GUBdDNXH0fvs+gqI=",
+    "originContent": "## Similar projects",
+    "translatedContent": "- [luakit](https://luakit.github.io/)"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [qutebrowser](https://www.qutebrowser.org/)"
+  },
+  {
+    "row": 77,
+    "rowsha": "E5hhOH3I79QsilAqZlkp1lNlB38Y/Kc5duvz4l/OQKU=",
+    "originContent": "- [luakit](https://luakit.github.io/)",
+    "translatedContent": "- [surf](https://surf.suckless.org/)"
+  },
+  {
+    "row": 78,
+    "rowsha": "CPccMjwMHytI1vkrXzewEu3umonJqFKJM97rilhnCvw=",
+    "originContent": "- [qutebrowser](https://www.qutebrowser.org/)",
+    "translatedContent": "- [uzbl](https://www.uzbl.org/)"
+  },
+  {
+    "row": 79,
+    "rowsha": "MeNNEuaQVorzk5uOqIWa015Ec6GAQe1ZSUDURHxcueY=",
+    "originContent": "- [surf](https://surf.suckless.org/)",
+    "translatedContent": "- [wyeb](https://github.com/jun7/wyeb)"
+  },
+  {
+    "row": 80,
+    "rowsha": "jqFNx+kqMrzF338zF+HWWkShnsSGnVhpTs5NdOUDiKw=",
+    "originContent": "- [uzbl](https://www.uzbl.org/)",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "5io4BUV6fi/iZKFt1zOp5SBjiYGxnQL8DVMeELD3fT8=",
+    "originContent": "- [wyeb](https://github.com/jun7/wyeb)",
+    "translatedContent": "## 라이선스"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "xfcDd0MsU7dGpnKWNhO6IJAeDcUX+6qVNdRprL2GZuk=",
+    "originContent": "## license",
+    "translatedContent": "라이선스 정보는 LICENSE 파일에서 확인할 수 있습니다."
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "qhMjn++aMhihF9elliTL+BHfWffVZSwPl2IdY6xfCY4=",
+    "originContent": "Information about the license are found in the file LICENSE.",
+    "translatedContent": "## 정보"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "5USinJUpAxfneuXXXsTV+8slj+VOgAuC5e2rwvfexY0=",
+    "originContent": "## about",
+    "translatedContent": "- https://en.wikipedia.org/wiki/Vimb"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- http://thedarnedestthing.com/vimb"
+  },
+  {
+    "row": 89,
+    "rowsha": "qpxry2PdCuQIyLZsWSMiVi9jURQin9HDC9nahPJtoGU=",
+    "originContent": "- https://en.wikipedia.org/wiki/Vimb",
+    "translatedContent": "- https://blog.jeaye.com/2015/08/23/vimb/"
+  },
+  {
+    "row": 90,
+    "rowsha": "v6GAxbP5901aWcG9sd/OQPAeOc433ARmmJ2DREmDHxI=",
+    "originContent": "- http://thedarnedestthing.com/vimb",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "JgflFYpWkPtwOQg4TjD+VJum+vkHPhL2xD1SpWzoBJk=",
+    "originContent": "- https://blog.jeaye.com/2015/08/23/vimb/",
+    "translatedContent": "[aur/vimb-git]:        https://aur.archlinux.org/packages/vimb-git"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[aur/vimb-gtk2]:       https://aur.archlinux.org/packages/vimb-gtk2/"
+  },
+  {
+    "row": 93,
+    "rowsha": "eWAWzBQvQms7Cqtn3PXJe+UXUXzCmO7H6cBWKhBMN5g=",
+    "originContent": "[aur/vimb-git]:        https://aur.archlinux.org/packages/vimb-git",
+    "translatedContent": "[extra/vimb]:          https://www.archlinux.org/packages/extra/x86_64/vimb/"
+  },
+  {
+    "row": 94,
+    "rowsha": "W9fLWy21oKEWA04s3I34OwQxpfqtn4Sr4Pz2il3WrCg=",
+    "originContent": "[aur/vimb-gtk2]:       https://aur.archlinux.org/packages/vimb-gtk2/",
+    "translatedContent": "[fedora/vimb]:         https://src.fedoraproject.org/rpms/vimb"
+  },
+  {
+    "row": 95,
+    "rowsha": "eDxK02JEFH8VTtlK3/O0iHWzxTINQCcm9xcba2kI010=",
+    "originContent": "[extra/vimb]:          https://www.archlinux.org/packages/extra/x86_64/vimb/",
+    "translatedContent": "[tharvik overlay]:     https://github.com/tharvik/overlay/tree/master/www-client/vimb"
+  },
+  {
+    "row": 96,
+    "rowsha": "QIR9bTDqRcTYMPmy9G0wAAWY67xkF7/pjT4ADikkOQQ=",
+    "originContent": "[fedora/vimb]:         https://src.fedoraproject.org/rpms/vimb",
+    "translatedContent": "[jjakob overlay]:      https://github.com/jjakob/gentoo-overlay/tree/master/www-client/vimb"
+  },
+  {
+    "row": 97,
+    "rowsha": "LpvNe6mIdiNFOzvi3tMABRn72ci4f0HrHJGNpu3/B7c=",
+    "originContent": "[tharvik overlay]:     https://github.com/tharvik/overlay/tree/master/www-client/vimb",
+    "translatedContent": "[mail-archive]:        https://sourceforge.net/p/vimb/vimb/vimb-users/ \"vimb - mailing list archive\""
+  },
+  {
+    "row": 98,
+    "rowsha": "LxubNvraxcDTlQkBsf1dlajG2YwxzrkaGsXl/Py5fng=",
+    "originContent": "[jjakob overlay]:      https://github.com/jjakob/gentoo-overlay/tree/master/www-client/vimb",
+    "translatedContent": "[mail]:                https://lists.sourceforge.net/lists/listinfo/vimb-users \"vimb - mailing list\"</translate-content>"
+  },
+  {
+    "row": 99,
+    "rowsha": "TCx9ZbbC2OGLcPJiUFgWZ2rgAHGRtkvKNJo6vpoQsPo=",
+    "originContent": "[mail-archive]:        https://sourceforge.net/p/vimb/vimb/vimb-users/ \"vimb - mailing list archive\"",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "ZkXzG3eUS9ajQ802mBZ+MVKAKXaaOL6YR10hzBdTU9g=",
+    "originContent": "[mail]:                https://lists.sourceforge.net/lists/listinfo/vimb-users \"vimb - mailing list\"",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "03lf1EQ+ap2E6+RbNx3A/brSe8ipRXsOGtf/SwQ8Erk=",
+    "originContent": "[network/vimb]:        https://build.opensuse.org/package/show/network/vimb",
+    "translatedContent": "[network/vimb]:        https://build.opensuse.org/package/show/network/vimb"
+  },
+  {
+    "row": 102,
+    "rowsha": "V2Qhuz0BiLvg/tAifDO+ZDkxrflRhMgoVwW4stWVfJg=",
+    "originContent": "[pkgsrc/wip/vimb-git]: http://pkgsrc.se/wip/vimb-git",
+    "translatedContent": "[pkgsrc/wip/vimb-git]: http://pkgsrc.se/wip/vimb-git"
+  },
+  {
+    "row": 103,
+    "rowsha": "WOZB4C4eeOy3jJsMULjPsXsmG4Kpd/emfzISh8nRkIg=",
+    "originContent": "[pkgsrc/www/vimb]:     http://pkgsrc.se/www/vimb",
+    "translatedContent": "[pkgsrc/www/vimb]:     http://pkgsrc.se/www/vimb"
+  },
+  {
+    "row": 104,
+    "rowsha": "uOPSgpdHW70+bMIhXIGJcoJMd2bjn3PftlRlfXh9WII=",
+    "originContent": "[slackbuild/vimb]:     https://slackbuilds.org/repository/14.2/network/vimb/",
+    "translatedContent": "[slackbuild/vimb]:     https://slackbuilds.org/repository/14.2/network/vimb/"
+  },
+  {
+    "row": 105,
+    "rowsha": "LBclTmrB3I9+2VH7/Mq1ZSCivpyEYT/MkbNFhaqOxdQ=",
+    "originContent": "[vimb]:                https://fanglingsu.github.io/vimb/ \"Vimb - Vim like browser project page\"",
+    "translatedContent": "[vimb]:                https://fanglingsu.github.io/vimb/ \"Vimb - Vim과 유사한 브라우저 프로젝트 페이지\""
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

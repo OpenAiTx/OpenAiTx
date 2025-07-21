@@ -1,0 +1,1637 @@
+[
+  {
+    "Id": 1,
+    "Content": "# acme-tiny\n\n[![Tests](https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml/badge.svg?branch=main)](https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml)\n[![Coverage Status](https://coveralls.io/repos/github/diafygi/acme-tiny/badge.svg?branch=main)](https://coveralls.io/github/diafygi/acme-tiny?branch=main)\n\nThis is a tiny, auditable script that you can throw on your server to issue\nand renew [Let's Encrypt](https://letsencrypt.org/) certificates. Since it has\nto be run on your server and have access to your private Let's Encrypt account\nkey, I tried to make it as tiny as possible (currently less than 200 lines).\nThe only prerequisites are python and openssl.\n\n**PLEASE READ THE SOURCE CODE! YOU MUST TRUST IT WITH YOUR PRIVATE ACCOUNT KEY!**\n\n## Donate\n\nIf this script is useful to you, please donate to the EFF. I don't work there,\nbut they do fantastic work.\n\n[https://eff.org/donate/](https://eff.org/donate/)\n\n## How to use this script\n\nIf you already have a Let's Encrypt issued certificate and just want to renew,\nyou should only have to do Steps 3 and 6.\n\n### Step 1: Create a Let's Encrypt account private key (if you haven't already)\n\nYou must have a public key registered with Let's Encrypt and sign your requests\nwith the corresponding private key. If you don't understand what I just said,\nthis script likely isn't for you! Please use the official Let's Encrypt\n[client](https://github.com/letsencrypt/letsencrypt).\nTo accomplish this you need to initially create a key, that can be used by\nacme-tiny, to register an account for you and sign all following requests.\n",
+    "ContentSha": "9g4I9OCse0H73RegEIefPzie9hwH1rwthC59oN/bRMM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># acme-tiny\n\n[![测试](https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml/badge.svg?branch=main)](https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml)\n[![覆盖率状态](https://coveralls.io/repos/github/diafygi/acme-tiny/badge.svg?branch=main)](https://coveralls.io/github/diafygi/acme-tiny?branch=main)\n\n这是一个非常小且可审计的脚本，你可以将其放到服务器上用来签发\n和续订 [Let's Encrypt](https://letsencrypt.org/) 证书。由于它必须\n在你的服务器上运行并访问你的私有 Let's Encrypt 账户密钥，\n我尽量让它尽可能小（目前不到 200 行）。唯一的前提条件是安装 python 和 openssl。\n\n**请务必阅读源代码！你必须信任它使用你的私有账户密钥！**\n\n## 捐赠\n\n如果这个脚本对你有用，请向 EFF 捐赠。我不在那工作，\n但他们做的工作非常出色。\n\n[https://eff.org/donate/](https://eff.org/donate/)\n\n## 如何使用这个脚本\n\n如果你已经有一个由 Let's Encrypt 签发的证书，只想续订，\n你只需执行步骤 3 和步骤 6。\n\n### 第1步：创建一个 Let's Encrypt 账户私钥（如果你还没有）\n\n你必须有一个注册到 Let's Encrypt 的公钥，并用对应的私钥\n对你的请求进行签名。如果你不理解我刚才说的内容，\n这个脚本可能不适合你！请使用官方的 Let's Encrypt\n[客户端](https://github.com/letsencrypt/letsencrypt)。\n为此，你需要最初创建一个密钥，acme-tiny 可以使用该密钥\n为你注册账户并签署所有后续请求。\n</translate-content>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "DmlefAtuppBgLnp/6undjKPNqJ8BL2fhS2FjWgWRP5Y=",
+        "originContent": "# acme-tiny",
+        "translatedContent": "<translate-content># acme-tiny"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "cA4mL+F5XPFPqXpWp8yPVYLYicXWXRllIvd5/b1k0/Y=",
+        "originContent": "[![Tests](https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml/badge.svg?branch=main)](https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml)",
+        "translatedContent": "[![测试](https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml/badge.svg?branch=main)](https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml)"
+      },
+      {
+        "row": 4,
+        "rowsha": "uDgJD/l3gCwSv+0Zw82nYB6ba5blRaPVb2wQ7jnsw2U=",
+        "originContent": "[![Coverage Status](https://coveralls.io/repos/github/diafygi/acme-tiny/badge.svg?branch=main)](https://coveralls.io/github/diafygi/acme-tiny?branch=main)",
+        "translatedContent": "[![覆盖率状态](https://coveralls.io/repos/github/diafygi/acme-tiny/badge.svg?branch=main)](https://coveralls.io/github/diafygi/acme-tiny?branch=main)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "AWKRbEcNqBsq4xz5oMnABgUYOnxRp40WoN3lkQeOtgk=",
+        "originContent": "This is a tiny, auditable script that you can throw on your server to issue",
+        "translatedContent": "这是一个非常小且可审计的脚本，你可以将其放到服务器上用来签发"
+      },
+      {
+        "row": 7,
+        "rowsha": "t3zgOxnIIRitx65PC+cGjyf1Y1i5THR3JPdOI/XbhJM=",
+        "originContent": "and renew [Let's Encrypt](https://letsencrypt.org/) certificates. Since it has",
+        "translatedContent": "和续订 [Let's Encrypt](https://letsencrypt.org/) 证书。由于它必须"
+      },
+      {
+        "row": 8,
+        "rowsha": "hhFRfqhOd5yeDFVSpdEHdFbNOA+9ZcSKhbz2EmC9vTE=",
+        "originContent": "to be run on your server and have access to your private Let's Encrypt account",
+        "translatedContent": "在你的服务器上运行并访问你的私有 Let's Encrypt 账户密钥，"
+      },
+      {
+        "row": 9,
+        "rowsha": "THAYTbaHHjzPDVTai0fZwYz/AsPUca0pWroGRyYQzEw=",
+        "originContent": "key, I tried to make it as tiny as possible (currently less than 200 lines).",
+        "translatedContent": "我尽量让它尽可能小（目前不到 200 行）。唯一的前提条件是安装 python 和 openssl。"
+      },
+      {
+        "row": 10,
+        "rowsha": "h8psHfp+QWmJ8TKhmDT3Ytg6b7z/TQuMuWBwKPOJmes=",
+        "originContent": "The only prerequisites are python and openssl.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**请务必阅读源代码！你必须信任它使用你的私有账户密钥！**"
+      },
+      {
+        "row": 12,
+        "rowsha": "Fs6hYXS6GY1DxHv8hFWBJ7SxyaUsmEV7ea/YqdN0Un8=",
+        "originContent": "**PLEASE READ THE SOURCE CODE! YOU MUST TRUST IT WITH YOUR PRIVATE ACCOUNT KEY!**",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 捐赠"
+      },
+      {
+        "row": 14,
+        "rowsha": "FNvaJIRsvZSjSfd1AKN5t1DSohP4YV++BeEW/C1EOJY=",
+        "originContent": "## Donate",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "如果这个脚本对你有用，请向 EFF 捐赠。我不在那工作，"
+      },
+      {
+        "row": 16,
+        "rowsha": "hQImBRpkDSLdWvseyEH5iHGN/0qWdTzSn+WikhwS4vc=",
+        "originContent": "If this script is useful to you, please donate to the EFF. I don't work there,",
+        "translatedContent": "但他们做的工作非常出色。"
+      },
+      {
+        "row": 17,
+        "rowsha": "5i8toinVS84N1z94Vx75JPdx79JX6JZKLzQs7f45a7M=",
+        "originContent": "but they do fantastic work.",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[https://eff.org/donate/](https://eff.org/donate/)"
+      },
+      {
+        "row": 19,
+        "rowsha": "Oo++vnu9Lra8O3uibE5jlQy0LeHoXzS1yL3sci05Q9w=",
+        "originContent": "[https://eff.org/donate/](https://eff.org/donate/)",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 如何使用这个脚本"
+      },
+      {
+        "row": 21,
+        "rowsha": "8LqRwR5xPi6TNykCgjacJMsUmVQKVcLmHS/4FP4LYBc=",
+        "originContent": "## How to use this script",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "如果你已经有一个由 Let's Encrypt 签发的证书，只想续订，"
+      },
+      {
+        "row": 23,
+        "rowsha": "XH/tP8PfpXbk0raisrByZwlbBbM+jhA14QaYwZYXQ90=",
+        "originContent": "If you already have a Let's Encrypt issued certificate and just want to renew,",
+        "translatedContent": "你只需执行步骤 3 和步骤 6。"
+      },
+      {
+        "row": 24,
+        "rowsha": "CBLYpDC/6578r00mmaCnDAh9czbTwQeGnXzjDYE1xuw=",
+        "originContent": "you should only have to do Steps 3 and 6.",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 第1步：创建一个 Let's Encrypt 账户私钥（如果你还没有）"
+      },
+      {
+        "row": 26,
+        "rowsha": "IVDglroyN2y8SDyZ3B13hk0kRSq95Cbc9W9n+qP44mY=",
+        "originContent": "### Step 1: Create a Let's Encrypt account private key (if you haven't already)",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "你必须有一个注册到 Let's Encrypt 的公钥，并用对应的私钥"
+      },
+      {
+        "row": 28,
+        "rowsha": "usjLWP9PpdEq/PruADJmoHFvF0gIMz4kLEPyM/dC+U4=",
+        "originContent": "You must have a public key registered with Let's Encrypt and sign your requests",
+        "translatedContent": "对你的请求进行签名。如果你不理解我刚才说的内容，"
+      },
+      {
+        "row": 29,
+        "rowsha": "7CTy4bhfTaWV0WHxmYKRuIyFDIZ3HLiTVk/FJsy+pHM=",
+        "originContent": "with the corresponding private key. If you don't understand what I just said,",
+        "translatedContent": "这个脚本可能不适合你！请使用官方的 Let's Encrypt"
+      },
+      {
+        "row": 30,
+        "rowsha": "35/+8S2Utps+JVKS7yRokAb4DWgYE2hVFWKOs8Ssg/s=",
+        "originContent": "this script likely isn't for you! Please use the official Let's Encrypt",
+        "translatedContent": "[客户端](https://github.com/letsencrypt/letsencrypt)。"
+      },
+      {
+        "row": 31,
+        "rowsha": "y49exrFlgoqNXEktvNNG3tWN99wccHyut9Fj8nGHwKk=",
+        "originContent": "[client](https://github.com/letsencrypt/letsencrypt).",
+        "translatedContent": "为此，你需要最初创建一个密钥，acme-tiny 可以使用该密钥"
+      },
+      {
+        "row": 32,
+        "rowsha": "HUNuS0xGRa+Tcs7FYT8SmA2SSGwl0AdW0nMquKoWlMs=",
+        "originContent": "To accomplish this you need to initially create a key, that can be used by",
+        "translatedContent": "为你注册账户并签署所有后续请求。"
+      },
+      {
+        "row": 33,
+        "rowsha": "zTt2wAGo5TasGhsH/9Sf2VxIymzO3Z6Xsie4ITXaGJo=",
+        "originContent": "acme-tiny, to register an account for you and sign all following requests.",
+        "translatedContent": "</translate-content>"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\nopenssl genrsa 4096 > account.key\n```",
+    "ContentSha": "UCjHIUhY8T7jfPniUYwV2XMUL+1U3Gk22ZEKJrYKsjw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nopenssl genrsa 4096 > account.key\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "zMv/7mg7Sd+BGSI8glk5vtt/BX8aO4SsVKDckZ+ZUR4=",
+        "originContent": "openssl genrsa 4096 > account.key",
+        "translatedContent": "openssl genrsa 4096 > account.key"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n#### Use existing Let's Encrypt key\n\nAlternatively you can convert your key, previously generated by the original\nLet's Encrypt client.\n\nThe private account key from the Let's Encrypt client is saved in the\n[JWK](https://tools.ietf.org/html/rfc7517) format. `acme-tiny` is using the PEM\nkey format. To convert the key, you can use the tool\n[conversion script](https://gist.github.com/JonLundy/f25c99ee0770e19dc595) by JonLundy:\n",
+    "ContentSha": "U8Q6w4FRVvbmw8XO9EPuZ4jgDQ/XxEuI/WHt9/G046M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "#### 使用现有的 Let's Encrypt 密钥\n\n或者你可以转换之前由原始\nLet's Encrypt 客户端生成的密钥。\n\nLet's Encrypt 客户端的私有账户密钥以\n[JWK](https://tools.ietf.org/html/rfc7517) 格式保存。`acme-tiny` 使用的是 PEM\n密钥格式。要转换密钥，你可以使用 JonLundy 的工具\n[转换脚本](https://gist.github.com/JonLundy/f25c99ee0770e19dc595)：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### 使用现有的 Let's Encrypt 密钥"
+      },
+      {
+        "row": 2,
+        "rowsha": "MjamqRCV2c3yenmFFRLGN5i0HOuyzBb6pOBAZuw8low=",
+        "originContent": "#### Use existing Let's Encrypt key",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "或者你可以转换之前由原始"
+      },
+      {
+        "row": 4,
+        "rowsha": "OP3Br82XWdo5/yleewF7a4O2fzVQ5jlej7y5ink81IE=",
+        "originContent": "Alternatively you can convert your key, previously generated by the original",
+        "translatedContent": "Let's Encrypt 客户端生成的密钥。"
+      },
+      {
+        "row": 5,
+        "rowsha": "ZKZkbkXcuI5gP38gnu7PVcT0q8ctDnZpyFE/QyAQK5Q=",
+        "originContent": "Let's Encrypt client.",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Let's Encrypt 客户端的私有账户密钥以"
+      },
+      {
+        "row": 7,
+        "rowsha": "aMeY6+bjPoIL5hl02XoLzilNujYl5FznPeaycDO0o5w=",
+        "originContent": "The private account key from the Let's Encrypt client is saved in the",
+        "translatedContent": "[JWK](https://tools.ietf.org/html/rfc7517) 格式保存。`acme-tiny` 使用的是 PEM"
+      },
+      {
+        "row": 8,
+        "rowsha": "6p0eWN8H1GyGRAdRNIOOTfDP8J3cQXF2XukP5t1c3xc=",
+        "originContent": "[JWK](https://tools.ietf.org/html/rfc7517) format. `acme-tiny` is using the PEM",
+        "translatedContent": "密钥格式。要转换密钥，你可以使用 JonLundy 的工具"
+      },
+      {
+        "row": 9,
+        "rowsha": "Kr6llqM5E2/yRPY5rRE2XW8ktA4VUmPeZpYjBJycwkE=",
+        "originContent": "key format. To convert the key, you can use the tool",
+        "translatedContent": "[转换脚本](https://gist.github.com/JonLundy/f25c99ee0770e19dc595)："
+      },
+      {
+        "row": 10,
+        "rowsha": "IBEX8A2nc/lpkzwqn3t8DNEJjjIdkd4xZZ3cm6i6Qi4=",
+        "originContent": "[conversion script](https://gist.github.com/JonLundy/f25c99ee0770e19dc595) by JonLundy:",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```sh\n# Download the script\nwget -O - \"https://gist.githubusercontent.com/JonLundy/f25c99ee0770e19dc595/raw/6035c1c8938fae85810de6aad1ecf6e2db663e26/conv.py\" > conv.py\n\n# Copy your private key to your working directory\ncp /etc/letsencrypt/accounts/acme-v01.api.letsencrypt.org/directory/<id>/private_key.json private_key.json\n\n# Create a DER encoded private key\nopenssl asn1parse -noout -out private_key.der -genconf <(python2 conv.py private_key.json)\n\n# Convert to PEM\nopenssl rsa -in private_key.der -inform der > account.key\n```",
+    "ContentSha": "tJMWMmy8gqRoZD+AKgBzWkgjwX32VOtt5SvTx0nPgG8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\n# Download the script\nwget -O - \"https://gist.githubusercontent.com/JonLundy/f25c99ee0770e19dc595/raw/6035c1c8938fae85810de6aad1ecf6e2db663e26/conv.py\" > conv.py\n\n# Copy your private key to your working directory\ncp /etc/letsencrypt/accounts/acme-v01.api.letsencrypt.org/directory/<id>/private_key.json private_key.json\n\n# Create a DER encoded private key\nopenssl asn1parse -noout -out private_key.der -genconf <(python2 conv.py private_key.json)\n\n# Convert to PEM\nopenssl rsa -in private_key.der -inform der > account.key\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "C52eZIrDNIY/Iu1yzqudDjJWR3I5dt9h1jFkhIOB1eU=",
+        "originContent": "# Download the script",
+        "translatedContent": "# Download the script"
+      },
+      {
+        "row": 3,
+        "rowsha": "MA9jbYjwf+uBW8k6pS7uhcxsbiNLrnaXAuCEuFxZ/Dk=",
+        "originContent": "wget -O - \"https://gist.githubusercontent.com/JonLundy/f25c99ee0770e19dc595/raw/6035c1c8938fae85810de6aad1ecf6e2db663e26/conv.py\" > conv.py",
+        "translatedContent": "wget -O - \"https://gist.githubusercontent.com/JonLundy/f25c99ee0770e19dc595/raw/6035c1c8938fae85810de6aad1ecf6e2db663e26/conv.py\" > conv.py"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "R/3yCcj0Ylwc6CXyVjP4JEaGCa7ZFq7wYtWa7VC3tYI=",
+        "originContent": "# Copy your private key to your working directory",
+        "translatedContent": "# Copy your private key to your working directory"
+      },
+      {
+        "row": 6,
+        "rowsha": "LigU+gMay8E9RtVt8vQPBvJzAh+KobF/A+UEn4w8Xcc=",
+        "originContent": "cp /etc/letsencrypt/accounts/acme-v01.api.letsencrypt.org/directory/<id>/private_key.json private_key.json",
+        "translatedContent": "cp /etc/letsencrypt/accounts/acme-v01.api.letsencrypt.org/directory/<id>/private_key.json private_key.json"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "A34ASeQ91kEMxTXm8b4R5V30v5K2Vmpje7C5pEuzv1E=",
+        "originContent": "# Create a DER encoded private key",
+        "translatedContent": "# Create a DER encoded private key"
+      },
+      {
+        "row": 9,
+        "rowsha": "GPqPq3CXrf7GZDTWwN2QKcz+JZsgev69zXRZdEzmMUk=",
+        "originContent": "openssl asn1parse -noout -out private_key.der -genconf <(python2 conv.py private_key.json)",
+        "translatedContent": "openssl asn1parse -noout -out private_key.der -genconf <(python2 conv.py private_key.json)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "ZCec4FBsCQN73YRtL18WL9vz0qzv5WSEpZjXc9YTlVA=",
+        "originContent": "# Convert to PEM",
+        "translatedContent": "# Convert to PEM"
+      },
+      {
+        "row": 12,
+        "rowsha": "50SRjCCMyDUDz9PvJ1EWlHV1wIVTl+4ZCc5/PHkidtE=",
+        "originContent": "openssl rsa -in private_key.der -inform der > account.key",
+        "translatedContent": "openssl rsa -in private_key.der -inform der > account.key"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Step 2: Create a certificate signing request (CSR) for your domains.\n\nThe ACME protocol (what Let's Encrypt uses) requires a CSR file to be submitted\nto it, even for renewals. You can use the same CSR for multiple renewals. NOTE:\nyou can't use your account private key as your domain private key!\n",
+    "ContentSha": "0uiw6TkLiLu/5wwrEPyAeu80mk+Q4g0jlrGDY6MLjwQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 第2步：为您的域创建证书签名请求（CSR）。\n\nACME协议（Let's Encrypt使用的协议）要求提交CSR文件，\n即使是续订也需要。您可以为多次续订使用相同的CSR。注意：\n您不能将您的账户私钥用作域的私钥！\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 第2步：为您的域创建证书签名请求（CSR）。"
+      },
+      {
+        "row": 2,
+        "rowsha": "VMilB2B9CO54VFiBMgbZr1uLW6MkO5fi2UENSdGh2yQ=",
+        "originContent": "### Step 2: Create a certificate signing request (CSR) for your domains.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ACME协议（Let's Encrypt使用的协议）要求提交CSR文件，"
+      },
+      {
+        "row": 4,
+        "rowsha": "P71buASwvz1pxPvvUcPeVr+4X1+mzgpHQbAAICxuvLs=",
+        "originContent": "The ACME protocol (what Let's Encrypt uses) requires a CSR file to be submitted",
+        "translatedContent": "即使是续订也需要。您可以为多次续订使用相同的CSR。注意："
+      },
+      {
+        "row": 5,
+        "rowsha": "ZrKySk2J7heqN6yoc45StfSLk6Gn0/w61M8SrzhZx/w=",
+        "originContent": "to it, even for renewals. You can use the same CSR for multiple renewals. NOTE:",
+        "translatedContent": "您不能将您的账户私钥用作域的私钥！"
+      },
+      {
+        "row": 6,
+        "rowsha": "/L/TldhJ37XhImGhAkugvT636eWrZLRakv/r5Vmu+0s=",
+        "originContent": "you can't use your account private key as your domain private key!",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\n# Generate a domain private key (if you haven't already)\nopenssl genrsa 4096 > domain.key\n```",
+    "ContentSha": "YVj1F5qlf7mElxediS3LZ0Ywa7xf1ic4PTmsXZkiIVA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n# Generate a domain private key (if you haven't already)\nopenssl genrsa 4096 > domain.key\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "YI4eqsQ/Slz6nLhtWLbHhBlF4RHGk+S4MFd2RDVdJwI=",
+        "originContent": "# Generate a domain private key (if you haven't already)",
+        "translatedContent": "# Generate a domain private key (if you haven't already)"
+      },
+      {
+        "row": 3,
+        "rowsha": "4kkjILvILR1qPecHuMcgr+vAvFzu7luZffRb+x+rRNU=",
+        "originContent": "openssl genrsa 4096 > domain.key",
+        "translatedContent": "openssl genrsa 4096 > domain.key"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\n# For a single domain\nopenssl req -new -sha256 -key domain.key -subj \"/CN=yoursite.com\" > domain.csr\n\n# For multiple domains (use this one if you want both www.yoursite.com and yoursite.com)\nopenssl req -new -sha256 -key domain.key -subj \"/\" -addext \"subjectAltName = DNS:yoursite.com, DNS:www.yoursite.com\" > domain.csr\n\n# For multiple domains (same as above but works with openssl < 1.1.1)\nopenssl req -new -sha256 -key domain.key -subj \"/\" -reqexts SAN -config <(cat /etc/ssl/openssl.cnf <(printf \"[SAN]\\nsubjectAltName=DNS:yoursite.com,DNS:www.yoursite.com\")) > domain.csr\n```",
+    "ContentSha": "OaaM91rgxJbxLEkiQwqErnRb0Qy9uK8BDvZDMPFNv4o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n# For a single domain\nopenssl req -new -sha256 -key domain.key -subj \"/CN=yoursite.com\" > domain.csr\n\n# For multiple domains (use this one if you want both www.yoursite.com and yoursite.com)\nopenssl req -new -sha256 -key domain.key -subj \"/\" -addext \"subjectAltName = DNS:yoursite.com, DNS:www.yoursite.com\" > domain.csr\n\n# For multiple domains (same as above but works with openssl < 1.1.1)\nopenssl req -new -sha256 -key domain.key -subj \"/\" -reqexts SAN -config <(cat /etc/ssl/openssl.cnf <(printf \"[SAN]\\nsubjectAltName=DNS:yoursite.com,DNS:www.yoursite.com\")) > domain.csr\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "osqe60TuV5RyE8xK7CC/6O8mSzBiXCGmHmB1Zc72+hQ=",
+        "originContent": "# For a single domain",
+        "translatedContent": "# For a single domain"
+      },
+      {
+        "row": 3,
+        "rowsha": "D7lfjbVOwzKAuoxOnMdnp/kVFem0xqVb0Kc40CDNeIc=",
+        "originContent": "openssl req -new -sha256 -key domain.key -subj \"/CN=yoursite.com\" > domain.csr",
+        "translatedContent": "openssl req -new -sha256 -key domain.key -subj \"/CN=yoursite.com\" > domain.csr"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "ldcVsC7oZKZPaoCA+0XqNB1vJEZxxm1t+w+RPtLPMJM=",
+        "originContent": "# For multiple domains (use this one if you want both www.yoursite.com and yoursite.com)",
+        "translatedContent": "# For multiple domains (use this one if you want both www.yoursite.com and yoursite.com)"
+      },
+      {
+        "row": 6,
+        "rowsha": "96whouZGcWvuzYSj7sTSV0ySXOnk/gtUmxUVu2wafdE=",
+        "originContent": "openssl req -new -sha256 -key domain.key -subj \"/\" -addext \"subjectAltName = DNS:yoursite.com, DNS:www.yoursite.com\" > domain.csr",
+        "translatedContent": "openssl req -new -sha256 -key domain.key -subj \"/\" -addext \"subjectAltName = DNS:yoursite.com, DNS:www.yoursite.com\" > domain.csr"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "n9wfeAt3O72n3FLJfR+kxMSHy37EZn0g94qRze7SSV0=",
+        "originContent": "# For multiple domains (same as above but works with openssl < 1.1.1)",
+        "translatedContent": "# For multiple domains (same as above but works with openssl < 1.1.1)"
+      },
+      {
+        "row": 9,
+        "rowsha": "XLyhxbThKb8RvSK0+W1Ndu40Y0KTr5j1WKDk0xXSoTo=",
+        "originContent": "openssl req -new -sha256 -key domain.key -subj \"/\" -reqexts SAN -config <(cat /etc/ssl/openssl.cnf <(printf \"[SAN]\\nsubjectAltName=DNS:yoursite.com,DNS:www.yoursite.com\")) > domain.csr",
+        "translatedContent": "openssl req -new -sha256 -key domain.key -subj \"/\" -reqexts SAN -config <(cat /etc/ssl/openssl.cnf <(printf \"[SAN]\\nsubjectAltName=DNS:yoursite.com,DNS:www.yoursite.com\")) > domain.csr"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n### Step 3: Make your website host challenge files\n\nYou must prove you own the domains you want a certificate for, so Let's Encrypt\nrequires you host some files on them. This script will generate and write those\nfiles in the folder you specify, so all you need to do is make sure that this\nfolder is served under the \".well-known/acme-challenge/\" url path. NOTE: Let's\nEncrypt will perform a plain HTTP request to port 80 on your server, so you\nmust serve the challenge files via HTTP (a redirect to HTTPS is fine too).\n",
+    "ContentSha": "udOiki800YpPLwWawvoNP/v5f20tZUomcxCXzE+4hWo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 第3步：让您的网站托管挑战文件\n\n您必须证明您拥有想要申请证书的域名，因此Let's Encrypt\n要求您在这些域名上托管一些文件。该脚本将生成并写入这些\n文件到您指定的文件夹中，因此您只需确保该\n文件夹在“.well-known/acme-challenge/”的URL路径下被访问。注意：Let's\nEncrypt会对您的服务器80端口执行普通的HTTP请求，所以您\n必须通过HTTP提供挑战文件（重定向到HTTPS也可以）。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 第3步：让您的网站托管挑战文件"
+      },
+      {
+        "row": 2,
+        "rowsha": "aXZU483dnxRcRQxfWui4C2yRIZQqDWUqZfzMToCIYh8=",
+        "originContent": "### Step 3: Make your website host challenge files",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "您必须证明您拥有想要申请证书的域名，因此Let's Encrypt"
+      },
+      {
+        "row": 4,
+        "rowsha": "VIn0vpbiA4SZvydbpZuN/gMaoYwku3ogx7xYS/bb7O8=",
+        "originContent": "You must prove you own the domains you want a certificate for, so Let's Encrypt",
+        "translatedContent": "要求您在这些域名上托管一些文件。该脚本将生成并写入这些"
+      },
+      {
+        "row": 5,
+        "rowsha": "myGJgKmzrGG5y9nEptN7Vd4yud6y9SYxvi7tU9ruwwM=",
+        "originContent": "requires you host some files on them. This script will generate and write those",
+        "translatedContent": "文件到您指定的文件夹中，因此您只需确保该"
+      },
+      {
+        "row": 6,
+        "rowsha": "YCRumzsSuyGuV6ltIHSE7KFAb+CD9SxIVjhQ9GXKlDk=",
+        "originContent": "files in the folder you specify, so all you need to do is make sure that this",
+        "translatedContent": "文件夹在“.well-known/acme-challenge/”的URL路径下被访问。注意：Let's"
+      },
+      {
+        "row": 7,
+        "rowsha": "8lbbAyy1kO6uojAcJCA4B+zk6bIwFIO3uspWwtom2kU=",
+        "originContent": "folder is served under the \".well-known/acme-challenge/\" url path. NOTE: Let's",
+        "translatedContent": "Encrypt会对您的服务器80端口执行普通的HTTP请求，所以您"
+      },
+      {
+        "row": 8,
+        "rowsha": "erkLGE73WmopG43UUS1xGMIPoTw3R91s5MnumN87cVc=",
+        "originContent": "Encrypt will perform a plain HTTP request to port 80 on your server, so you",
+        "translatedContent": "必须通过HTTP提供挑战文件（重定向到HTTPS也可以）。"
+      },
+      {
+        "row": 9,
+        "rowsha": "JDjJqsXiKv3+UwkwCn/XOZBoXGZLdVRjCWOenEWs5Jk=",
+        "originContent": "must serve the challenge files via HTTP (a redirect to HTTPS is fine too).",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\n# Make some challenge folder (modify to suit your needs)\nmkdir -p /var/www/challenges/\n```",
+    "ContentSha": "GJnE6AGK2xXAct3VwAbnp485JfRqw9tfHUAygXRyy6o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n# Make some challenge folder (modify to suit your needs)\nmkdir -p /var/www/challenges/\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "sAoFqh2PUsLtLouUt4qhir4Uf29AIXn5GbhTnqk7B/U=",
+        "originContent": "# Make some challenge folder (modify to suit your needs)",
+        "translatedContent": "# Make some challenge folder (modify to suit your needs)"
+      },
+      {
+        "row": 3,
+        "rowsha": "Y17+QfRyXOk+AyEAG82KktdG6zsq4+gzmihWLlv4NZM=",
+        "originContent": "mkdir -p /var/www/challenges/",
+        "translatedContent": "mkdir -p /var/www/challenges/"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```nginx\n# Example for nginx\nserver {\n    listen 80;\n    server_name yoursite.com www.yoursite.com;\n\n    location /.well-known/acme-challenge/ {\n        alias /var/www/challenges/;\n        try_files $uri =404;\n    }\n\n    ...the rest of your config\n}\n```",
+    "ContentSha": "K3Mqs7JWT+8JRzR+8YgOvTiK/8pAdNYsU9T28LdpaA4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```nginx\n# Example for nginx\nserver {\n    listen 80;\n    server_name yoursite.com www.yoursite.com;\n\n    location /.well-known/acme-challenge/ {\n        alias /var/www/challenges/;\n        try_files $uri =404;\n    }\n\n    ...the rest of your config\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "h2c6dO6I1699FQWDd4mE57p/WRMdtsxwFI5oxZloIaQ=",
+        "originContent": "```nginx",
+        "translatedContent": "```nginx"
+      },
+      {
+        "row": 2,
+        "rowsha": "zRr1v0Tl4DxdfjySToQGieScWvhNwk/+ImIs3X321qE=",
+        "originContent": "# Example for nginx",
+        "translatedContent": "# Example for nginx"
+      },
+      {
+        "row": 3,
+        "rowsha": "AxCotRd0ZdTTaLiiqDRKszdJJ4svGTdVf6Cpgiw1rxg=",
+        "originContent": "server {",
+        "translatedContent": "server {"
+      },
+      {
+        "row": 4,
+        "rowsha": "QxDnEpfi7en4ZKwtHVM9iaUa8VSP3W89MecrWS8uMbU=",
+        "originContent": "    listen 80;",
+        "translatedContent": "    listen 80;"
+      },
+      {
+        "row": 5,
+        "rowsha": "xffKroDXi3EY+EGYp0Az7/jK0vRMIJCqoBfQpHxl1Sw=",
+        "originContent": "    server_name yoursite.com www.yoursite.com;",
+        "translatedContent": "    server_name yoursite.com www.yoursite.com;"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "2xW96HjKRUllc1irtgpO14P8D0fdZ0Yon1VwAZLkGYU=",
+        "originContent": "    location /.well-known/acme-challenge/ {",
+        "translatedContent": "    location /.well-known/acme-challenge/ {"
+      },
+      {
+        "row": 8,
+        "rowsha": "H9AyC9xNqzBpLjhMWnf8DeBJcRVnhkkHx6+GT7x3cYw=",
+        "originContent": "        alias /var/www/challenges/;",
+        "translatedContent": "        alias /var/www/challenges/;"
+      },
+      {
+        "row": 9,
+        "rowsha": "+rqKcyKcdOK2uLXStJQgp8gthdwYr8Fh75IQqA4fQS0=",
+        "originContent": "        try_files $uri =404;",
+        "translatedContent": "        try_files $uri =404;"
+      },
+      {
+        "row": 10,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "NwqmS9/WN8cYqc76XcvJbx7HlRxg/XHNGVZtusSsjFg=",
+        "originContent": "    ...the rest of your config",
+        "translatedContent": "    ...the rest of your config"
+      },
+      {
+        "row": 13,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n### Step 4: Get a signed certificate!\n\nNow that you have setup your server and generated all the needed files, run this\nscript on your server with the permissions needed to write to the above folder\nand read your private account key and CSR.\n",
+    "ContentSha": "k6JO5S7OKOFn3kHTGOsloDmoVTTt9Maf1MSJ4BeRfKs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 第4步：获取签名证书！\n\n现在您已经设置好服务器并生成了所有必要的文件，运行此\n脚本于您的服务器上，确保具有写入上述文件夹以及读取您的私有账户密钥和CSR的权限。\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 第4步：获取签名证书！"
+      },
+      {
+        "row": 2,
+        "rowsha": "McXY04yyG4TaWBti1Du+gmWZDhfxsfd4TJWME9XnPOs=",
+        "originContent": "### Step 4: Get a signed certificate!",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "现在您已经设置好服务器并生成了所有必要的文件，运行此"
+      },
+      {
+        "row": 4,
+        "rowsha": "IAai5n8b2yZrIG8Ff8CYIgOV9JQaukkqFEE+Ri619hg=",
+        "originContent": "Now that you have setup your server and generated all the needed files, run this",
+        "translatedContent": "脚本于您的服务器上，确保具有写入上述文件夹以及读取您的私有账户密钥和CSR的权限。"
+      },
+      {
+        "row": 5,
+        "rowsha": "Sflht0QMJ36EZ6/oOzhuyapAzyyAeRSbeKCf6r3+D08=",
+        "originContent": "script on your server with the permissions needed to write to the above folder",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "/RLgSFxParqzUqKNp9rSOFNQvybiJsqJezRaV/JauWA=",
+        "originContent": "and read your private account key and CSR.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```\n# Run the script on your server\npython acme_tiny.py --account-key ./account.key --csr ./domain.csr --acme-dir /var/www/challenges/ > ./signed_chain.crt\n```",
+    "ContentSha": "D7sAKLqA0nTS7glFc270bKj1KtuM7VtWq4WyZF8/1Mc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n# Run the script on your server\npython acme_tiny.py --account-key ./account.key --csr ./domain.csr --acme-dir /var/www/challenges/ > ./signed_chain.crt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "to534HE7Evv7TacjZW1Q3aDEpbT75WGw5yjqZ3C4RFE=",
+        "originContent": "# Run the script on your server",
+        "translatedContent": "# Run the script on your server"
+      },
+      {
+        "row": 3,
+        "rowsha": "YwXc+mLSBR0j1HVYms50jSeXvbM7dZQNzKQJCLrE4Wk=",
+        "originContent": "python acme_tiny.py --account-key ./account.key --csr ./domain.csr --acme-dir /var/www/challenges/ > ./signed_chain.crt",
+        "translatedContent": "python acme_tiny.py --account-key ./account.key --csr ./domain.csr --acme-dir /var/www/challenges/ > ./signed_chain.crt"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n### Step 5: Install the certificate\n\nThe signed https certificate chain that is output by this script can be used along\nwith your private key to run an https server. You need to include them in the\nhttps settings in your web server's configuration. Here's an example on how to\nconfigure an nginx server:\n",
+    "ContentSha": "4SVgKBmIijvj/xS/hAcXDXMKTylKM3v1u/75tpQX134=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\n### 第5步：安装证书\n\n此脚本输出的已签名https证书链可与您的私钥一起使用，\n以运行https服务器。您需要将它们包含在\n您的网页服务器配置中的https设置中。以下是\n配置nginx服务器的示例：\n</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "IgnfUsqLdZlhsZBW6LzCrfQzGOR0DrZF2jQh2MY3smY=",
+        "originContent": "### Step 5: Install the certificate",
+        "translatedContent": "### 第5步：安装证书"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "6ezABkFwzwInnpOOLVst93FFlu8giCcMlAV1qqgaa5Q=",
+        "originContent": "The signed https certificate chain that is output by this script can be used along",
+        "translatedContent": "此脚本输出的已签名https证书链可与您的私钥一起使用，"
+      },
+      {
+        "row": 5,
+        "rowsha": "1QPvgHYl3XD7T5cHayi8eTKsPr4T6+9aLKpyaNqai5E=",
+        "originContent": "with your private key to run an https server. You need to include them in the",
+        "translatedContent": "以运行https服务器。您需要将它们包含在"
+      },
+      {
+        "row": 6,
+        "rowsha": "aSwdSBoenAeeeCvcrU5hdcuAx8ANS8wZRCSzTaZsn1U=",
+        "originContent": "https settings in your web server's configuration. Here's an example on how to",
+        "translatedContent": "您的网页服务器配置中的https设置中。以下是"
+      },
+      {
+        "row": 7,
+        "rowsha": "RMX1PYLtRNI6x59QPR/lqUd+ZaxRRQlmOW14xziYVz4=",
+        "originContent": "configure an nginx server:",
+        "translatedContent": "配置nginx服务器的示例："
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```nginx\nserver {\n    listen 443 ssl;\n    server_name yoursite.com www.yoursite.com;\n\n    ssl_certificate /path/to/signed_chain.crt;\n    ssl_certificate_key /path/to/domain.key;\n    ssl_session_timeout 5m;\n    ssl_protocols TLSv1.2;\n    ssl_ciphers ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384;\n    ssl_session_cache shared:SSL:50m;\n    ssl_dhparam /path/to/server.dhparam;\n    ssl_prefer_server_ciphers on;\n\n    ...the rest of your config\n}\n\nserver {\n    listen 80;\n    server_name yoursite.com www.yoursite.com;\n\n    location /.well-known/acme-challenge/ {\n        alias /var/www/challenges/;\n        try_files $uri =404;\n    }\n\n    ...the rest of your config\n}\n```",
+    "ContentSha": "gpMHOxbCsoocjdyuMiJ+KZgJczSY4RCv2DO9S7eZ2eA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```nginx\nserver {\n    listen 443 ssl;\n    server_name yoursite.com www.yoursite.com;\n\n    ssl_certificate /path/to/signed_chain.crt;\n    ssl_certificate_key /path/to/domain.key;\n    ssl_session_timeout 5m;\n    ssl_protocols TLSv1.2;\n    ssl_ciphers ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384;\n    ssl_session_cache shared:SSL:50m;\n    ssl_dhparam /path/to/server.dhparam;\n    ssl_prefer_server_ciphers on;\n\n    ...the rest of your config\n}\n\nserver {\n    listen 80;\n    server_name yoursite.com www.yoursite.com;\n\n    location /.well-known/acme-challenge/ {\n        alias /var/www/challenges/;\n        try_files $uri =404;\n    }\n\n    ...the rest of your config\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "h2c6dO6I1699FQWDd4mE57p/WRMdtsxwFI5oxZloIaQ=",
+        "originContent": "```nginx",
+        "translatedContent": "```nginx"
+      },
+      {
+        "row": 2,
+        "rowsha": "AxCotRd0ZdTTaLiiqDRKszdJJ4svGTdVf6Cpgiw1rxg=",
+        "originContent": "server {",
+        "translatedContent": "server {"
+      },
+      {
+        "row": 3,
+        "rowsha": "yjcB1Y+nYGSpdx1yjo7JNJLWAtUesFBrR9UHYr2uk3c=",
+        "originContent": "    listen 443 ssl;",
+        "translatedContent": "    listen 443 ssl;"
+      },
+      {
+        "row": 4,
+        "rowsha": "xffKroDXi3EY+EGYp0Az7/jK0vRMIJCqoBfQpHxl1Sw=",
+        "originContent": "    server_name yoursite.com www.yoursite.com;",
+        "translatedContent": "    server_name yoursite.com www.yoursite.com;"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Sm81z1A1+x6AyfY+i3R9LHqpL3j70MpaWifdVffueuc=",
+        "originContent": "    ssl_certificate /path/to/signed_chain.crt;",
+        "translatedContent": "    ssl_certificate /path/to/signed_chain.crt;"
+      },
+      {
+        "row": 7,
+        "rowsha": "Ywr2nS4FdiDRagEeErxDgkY9gTF6cQiboV7vjZVI4pE=",
+        "originContent": "    ssl_certificate_key /path/to/domain.key;",
+        "translatedContent": "    ssl_certificate_key /path/to/domain.key;"
+      },
+      {
+        "row": 8,
+        "rowsha": "gMtmxFFz+kju15vbAUNbfBWY7zjY6F//mmOXkyjvLJM=",
+        "originContent": "    ssl_session_timeout 5m;",
+        "translatedContent": "    ssl_session_timeout 5m;"
+      },
+      {
+        "row": 9,
+        "rowsha": "YHNYsODJ3yU25eKo3EA+oqV6X8ydASbSVS/IsthN73c=",
+        "originContent": "    ssl_protocols TLSv1.2;",
+        "translatedContent": "    ssl_protocols TLSv1.2;"
+      },
+      {
+        "row": 10,
+        "rowsha": "TncrFunmbVMaiSprzeOkXaTT80aA0IhHqG6lvl39M4U=",
+        "originContent": "    ssl_ciphers ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384;",
+        "translatedContent": "    ssl_ciphers ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384;"
+      },
+      {
+        "row": 11,
+        "rowsha": "VOIc41xqygpo6SvcyK2sNJ7iO7ghXltv9ANVdKQc610=",
+        "originContent": "    ssl_session_cache shared:SSL:50m;",
+        "translatedContent": "    ssl_session_cache shared:SSL:50m;"
+      },
+      {
+        "row": 12,
+        "rowsha": "g9KfNDYJYtUHVRRUJREAtkTNtue/Bs6hBQe5rQDdm74=",
+        "originContent": "    ssl_dhparam /path/to/server.dhparam;",
+        "translatedContent": "    ssl_dhparam /path/to/server.dhparam;"
+      },
+      {
+        "row": 13,
+        "rowsha": "FZz9tH/2mPVCt6uja22SdUGCK1+yK0vTzBsAbkKv89o=",
+        "originContent": "    ssl_prefer_server_ciphers on;",
+        "translatedContent": "    ssl_prefer_server_ciphers on;"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "NwqmS9/WN8cYqc76XcvJbx7HlRxg/XHNGVZtusSsjFg=",
+        "originContent": "    ...the rest of your config",
+        "translatedContent": "    ...the rest of your config"
+      },
+      {
+        "row": 16,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "AxCotRd0ZdTTaLiiqDRKszdJJ4svGTdVf6Cpgiw1rxg=",
+        "originContent": "server {",
+        "translatedContent": "server {"
+      },
+      {
+        "row": 19,
+        "rowsha": "QxDnEpfi7en4ZKwtHVM9iaUa8VSP3W89MecrWS8uMbU=",
+        "originContent": "    listen 80;",
+        "translatedContent": "    listen 80;"
+      },
+      {
+        "row": 20,
+        "rowsha": "xffKroDXi3EY+EGYp0Az7/jK0vRMIJCqoBfQpHxl1Sw=",
+        "originContent": "    server_name yoursite.com www.yoursite.com;",
+        "translatedContent": "    server_name yoursite.com www.yoursite.com;"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "2xW96HjKRUllc1irtgpO14P8D0fdZ0Yon1VwAZLkGYU=",
+        "originContent": "    location /.well-known/acme-challenge/ {",
+        "translatedContent": "    location /.well-known/acme-challenge/ {"
+      },
+      {
+        "row": 23,
+        "rowsha": "H9AyC9xNqzBpLjhMWnf8DeBJcRVnhkkHx6+GT7x3cYw=",
+        "originContent": "        alias /var/www/challenges/;",
+        "translatedContent": "        alias /var/www/challenges/;"
+      },
+      {
+        "row": 24,
+        "rowsha": "+rqKcyKcdOK2uLXStJQgp8gthdwYr8Fh75IQqA4fQS0=",
+        "originContent": "        try_files $uri =404;",
+        "translatedContent": "        try_files $uri =404;"
+      },
+      {
+        "row": 25,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "NwqmS9/WN8cYqc76XcvJbx7HlRxg/XHNGVZtusSsjFg=",
+        "originContent": "    ...the rest of your config",
+        "translatedContent": "    ...the rest of your config"
+      },
+      {
+        "row": 28,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 29,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n### Step 6: Setup an auto-renew cronjob\n\nCongrats! Your website is now using https! Unfortunately, Let's Encrypt\ncertificates only last for 90 days, so you need to renew them often. No worries!\nIt's automated! Just make a bash script and add it to your crontab (see below\nfor example script).\n\nExample of a `renew_cert.sh`:",
+    "ContentSha": "VE13Kon7QeV6H6whYj0aPGJx2GhfrWoGrbMRDKGnq8w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\n### 步骤6：设置自动续期的定时任务\n\n恭喜！您的网站现在已使用https！不幸的是，Let's Encrypt\n证书仅有效90天，因此您需要经常续期。别担心！\n这已自动化！只需制作一个bash脚本并将其添加到crontab中（下面\n有示例脚本）。\n\n`renew_cert.sh`示例：</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "ou3ceDbJfV2BbpY79UQZMhvy1LqZkWts9pZBnqVmwFY=",
+        "originContent": "### Step 6: Setup an auto-renew cronjob",
+        "translatedContent": "### 步骤6：设置自动续期的定时任务"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "XiSMcP0j7M2MO9vE6Fq1YPsJISBJSK91FnZ4b+YjCNw=",
+        "originContent": "Congrats! Your website is now using https! Unfortunately, Let's Encrypt",
+        "translatedContent": "恭喜！您的网站现在已使用https！不幸的是，Let's Encrypt"
+      },
+      {
+        "row": 5,
+        "rowsha": "t8Ydlp/Xu74ui9mvO/ssRuvlstIrBMYmITEK4gTSIA0=",
+        "originContent": "certificates only last for 90 days, so you need to renew them often. No worries!",
+        "translatedContent": "证书仅有效90天，因此您需要经常续期。别担心！"
+      },
+      {
+        "row": 6,
+        "rowsha": "xNFhkAg5IW1SiSETZhq2TdMgDv02s2ISq0amYXzE0+E=",
+        "originContent": "It's automated! Just make a bash script and add it to your crontab (see below",
+        "translatedContent": "这已自动化！只需制作一个bash脚本并将其添加到crontab中（下面"
+      },
+      {
+        "row": 7,
+        "rowsha": "K4m1p2lCDhYbZb/CP4pC/lGn36cDGzdERPmRFkGXnRs=",
+        "originContent": "for example script).",
+        "translatedContent": "有示例脚本）。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "EIRrzKtZrgEl0jrRK1Hua9FfK7dcE3JZ7oHWGmJnNqY=",
+        "originContent": "Example of a `renew_cert.sh`:",
+        "translatedContent": "`renew_cert.sh`示例：</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```sh\n#!/usr/bin/sh\npython /path/to/acme_tiny.py --account-key /path/to/account.key --csr /path/to/domain.csr --acme-dir /var/www/challenges/ > /path/to/signed_chain.crt.tmp || exit\nmv /path/to/signed_chain.crt.tmp /path/to/signed_chain.crt\nservice nginx reload\n```",
+    "ContentSha": "Yux3gCLMTSWiS4ZMRMiuodCibNk9gtXl6Ms85K7AX30=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\n#!/usr/bin/sh\npython /path/to/acme_tiny.py --account-key /path/to/account.key --csr /path/to/domain.csr --acme-dir /var/www/challenges/ > /path/to/signed_chain.crt.tmp || exit\nmv /path/to/signed_chain.crt.tmp /path/to/signed_chain.crt\nservice nginx reload\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "DYTjsrbqABMuQY0qVR2yNh4CjB7Dd67ctgCmskDJSfY=",
+        "originContent": "#!/usr/bin/sh",
+        "translatedContent": "#!/usr/bin/sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "gCKmuoH6O/OVDLLIBvhRN+tSzuFkrI0nxecRiP3czt4=",
+        "originContent": "python /path/to/acme_tiny.py --account-key /path/to/account.key --csr /path/to/domain.csr --acme-dir /var/www/challenges/ > /path/to/signed_chain.crt.tmp || exit",
+        "translatedContent": "python /path/to/acme_tiny.py --account-key /path/to/account.key --csr /path/to/domain.csr --acme-dir /var/www/challenges/ > /path/to/signed_chain.crt.tmp || exit"
+      },
+      {
+        "row": 4,
+        "rowsha": "D5hFPGQbSxXCPr10m71GF7565CYVYTPCTezzpgNvevE=",
+        "originContent": "mv /path/to/signed_chain.crt.tmp /path/to/signed_chain.crt",
+        "translatedContent": "mv /path/to/signed_chain.crt.tmp /path/to/signed_chain.crt"
+      },
+      {
+        "row": 5,
+        "rowsha": "W9jRVoaScftTCZkitcl1a1actPkD1ZEoOTZWEqXudOk=",
+        "originContent": "service nginx reload",
+        "translatedContent": "service nginx reload"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```\n# Example line in your crontab (runs once per month)\n0 0 1 * * /path/to/renew_cert.sh 2>> /var/log/acme_tiny.log\n```",
+    "ContentSha": "Rx5OkKaqal1oFBJxhci4a0dd0yk7W1BcShVQHgLG5+o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n# Example line in your crontab (runs once per month)\n0 0 1 * * /path/to/renew_cert.sh 2>> /var/log/acme_tiny.log\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "aeF2c4SggIjSoA3yFw6M5cJQukvx73vGIAiGmBQox6w=",
+        "originContent": "# Example line in your crontab (runs once per month)",
+        "translatedContent": "# Example line in your crontab (runs once per month)"
+      },
+      {
+        "row": 3,
+        "rowsha": "9lmfs/ANefNW+PpCiM1/w0yV+lTMMb+TKrmfVIfTDa8=",
+        "originContent": "0 0 1 * * /path/to/renew_cert.sh 2>> /var/log/acme_tiny.log",
+        "translatedContent": "0 0 1 * * /path/to/renew_cert.sh 2>> /var/log/acme_tiny.log"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n**NOTE:** Since Let's Encrypt's ACME v2 release (acme-tiny 4.0.0+), the intermediate\ncertificate is included in the issued certificate download, so you no longer have\nto independently download the intermediate certificate and concatenate it to your\nsigned certificate. If you have an shell script or Makefile using acme-tiny &lt;4.0 (e.g. before\n2018-03-17) with acme-tiny 4.0.0+, then you may be adding the intermediate\ncertificate to your signed_chain.crt twice (which\n[causes issues with at least GnuTLS 3.7.0](https://gitlab.com/gnutls/gnutls/-/issues/1131)\nbesides making the certificate slightly larger than it needs to be). To fix,\nsimply remove the bash code where you're downloading the intermediate and adding\nit to the acme-tiny certificate output.\n\n## Permissions\n\nThe biggest problem you'll likely come across while setting up and running this\nscript is permissions. You want to limit access to your account private key and\nchallenge web folder as much as possible. I'd recommend creating a user\nspecifically for handling this script, the account private key, and the\nchallenge folder. Then add the ability for that user to write to your installed\ncertificate file (e.g. `/path/to/signed_chain.crt`) and reload your webserver. That\nway, the cron script will do its thing, overwrite your old certificate, and\nreload your webserver without having permission to do anything else.\n\n**BE SURE TO:**\n* Backup your account private key (e.g. `account.key`)\n* Don't allow this script to be able to read your domain private key!\n* Don't allow this script to be run as root!\n\n## Staging Environment\n\nLet's Encrypt recommends testing new configurations against their staging servers,\nso when testing out your new setup, you can use\n`--directory-url https://acme-staging-v02.api.letsencrypt.org/directory`\nto issue fake test certificates instead of real ones from Let's Encrypt's production servers.\nSee [https://letsencrypt.org/docs/staging-environment/](https://letsencrypt.org/docs/staging-environment/)\nfor more details.\n\n## Feedback/Contributing\n\nThis project has a very, very limited scope and codebase. I'm happy to receive\nbug reports and pull requests, but please don't add any new features. This\nscript must stay under 200 lines of code to ensure it can be easily audited by\nanyone who wants to run it.\n\nIf you want to add features for your own setup to make things easier for you,\nplease do! It's open source, so feel free to fork it and modify as necessary.\n",
+    "ContentSha": "84TYdcrdv2vcElvw3D6mE5LF6zrohdLiZYhDyk62ToE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**注意：**自 Let's Encrypt 发布 ACME v2（acme-tiny 4.0.0+）以来，中间证书已包含在颁发的证书下载中，\n因此您不再需要单独下载中间证书并将其与您的签名证书连接起来。如果您有一个使用 acme-tiny &lt;4.0（例如\n2018-03-17 之前）的 shell 脚本或 Makefile，但使用了 acme-tiny 4.0.0+，那么您可能会将中间\n证书添加到您的 signed_chain.crt 两次（这不仅\n[导致至少 GnuTLS 3.7.0 出现问题](https://gitlab.com/gnutls/gnutls/-/issues/1131)，\n还会使证书体积比实际需要的大）。要修复此问题，只需删除下载中间证书并将其添加\n到 acme-tiny 证书输出的 bash 代码即可。\n\n## 权限\n\n在设置和运行此脚本时，您最可能遇到的最大问题是权限。您需要尽可能限制对账户私钥和\n挑战网页文件夹的访问。我建议创建一个专门处理此脚本、账户私钥和\n挑战文件夹的用户。然后赋予该用户写入您已安装\n证书文件（例如 `/path/to/signed_chain.crt`）的权限，并能重新加载您的 Web 服务器。这样，\ncron 脚本就可以完成它的工作，覆盖旧证书，并\n重新加载 Web 服务器，而不会有执行其他操作的权限。\n\n**务必确保：**\n* 备份您的账户私钥（例如 `account.key`）\n* 不要让此脚本能够读取您的域私钥！\n* 不要以 root 身份运行此脚本！\n\n## 测试环境\n\nLet's Encrypt 建议针对其测试服务器测试新的配置，\n因此在测试您的新设置时，您可以使用\n`--directory-url https://acme-staging-v02.api.letsencrypt.org/directory`\n来颁发假测试证书，而不是从 Let's Encrypt 的生产服务器颁发真实证书。\n详情请参见 [https://letsencrypt.org/docs/staging-environment/](https://letsencrypt.org/docs/staging-environment/)。\n\n## 反馈/贡献\n\n本项目的范围和代码库非常有限。我很乐意接受\n错误报告和拉取请求，但请不要添加任何新功能。此\n脚本必须保持在 200 行代码以内，以确保任何想运行它的人都能轻松审核。\n\n如果您想为自己的设置添加功能以简化操作，\n请随意！这是开源的，您可以自由地 fork 并根据需要修改。\n\n\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**注意：**自 Let's Encrypt 发布 ACME v2（acme-tiny 4.0.0+）以来，中间证书已包含在颁发的证书下载中，"
+      },
+      {
+        "row": 2,
+        "rowsha": "MA8NhCryTKOuM7c+ZMXYmjdxzT30w5k6m7/9xDlGrhI=",
+        "originContent": "**NOTE:** Since Let's Encrypt's ACME v2 release (acme-tiny 4.0.0+), the intermediate",
+        "translatedContent": "因此您不再需要单独下载中间证书并将其与您的签名证书连接起来。如果您有一个使用 acme-tiny &lt;4.0（例如"
+      },
+      {
+        "row": 3,
+        "rowsha": "EkdD6ukF7tZnjMC7ARsti67fnx7DaeXDrEdWWdTJ7WQ=",
+        "originContent": "certificate is included in the issued certificate download, so you no longer have",
+        "translatedContent": "2018-03-17 之前）的 shell 脚本或 Makefile，但使用了 acme-tiny 4.0.0+，那么您可能会将中间"
+      },
+      {
+        "row": 4,
+        "rowsha": "WmleS3aSuXd3coKoWMvNguYskQBrqP3lB4yo9Ah0ftU=",
+        "originContent": "to independently download the intermediate certificate and concatenate it to your",
+        "translatedContent": "证书添加到您的 signed_chain.crt 两次（这不仅"
+      },
+      {
+        "row": 5,
+        "rowsha": "UMVCkXnGPXoNBbAhpqX9x7jq5JYGXvZxJlZ/d1zHCxM=",
+        "originContent": "signed certificate. If you have an shell script or Makefile using acme-tiny &lt;4.0 (e.g. before",
+        "translatedContent": "[导致至少 GnuTLS 3.7.0 出现问题](https://gitlab.com/gnutls/gnutls/-/issues/1131)，"
+      },
+      {
+        "row": 6,
+        "rowsha": "LnZvhT0l10/pV2k8B0hB9numT2ddZDVF+QhT4XvQ4Ko=",
+        "originContent": "2018-03-17) with acme-tiny 4.0.0+, then you may be adding the intermediate",
+        "translatedContent": "还会使证书体积比实际需要的大）。要修复此问题，只需删除下载中间证书并将其添加"
+      },
+      {
+        "row": 7,
+        "rowsha": "2/vJfUVPMzjASSa0LmJSSPCtHreHZYs/vqs3ybXCpR0=",
+        "originContent": "certificate to your signed_chain.crt twice (which",
+        "translatedContent": "到 acme-tiny 证书输出的 bash 代码即可。"
+      },
+      {
+        "row": 8,
+        "rowsha": "t3UG1R1FBBWZNIYe87FHLS2YkgkzF5HA3Fa38jyeh7E=",
+        "originContent": "[causes issues with at least GnuTLS 3.7.0](https://gitlab.com/gnutls/gnutls/-/issues/1131)",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "HYGrznsatAbHb1A5wyy9ORFakvKv9KGxudVP82ddk7c=",
+        "originContent": "besides making the certificate slightly larger than it needs to be). To fix,",
+        "translatedContent": "## 权限"
+      },
+      {
+        "row": 10,
+        "rowsha": "xq6Fa54u0WZYJXVX0vNank+QIEPe2XlxKtmLX9Vhb38=",
+        "originContent": "simply remove the bash code where you're downloading the intermediate and adding",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "02tEPZGOv4P+KUN3m0QKdV1cAgW1h5tMjpKyX/mW6a8=",
+        "originContent": "it to the acme-tiny certificate output.",
+        "translatedContent": "在设置和运行此脚本时，您最可能遇到的最大问题是权限。您需要尽可能限制对账户私钥和"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "挑战网页文件夹的访问。我建议创建一个专门处理此脚本、账户私钥和"
+      },
+      {
+        "row": 13,
+        "rowsha": "pkb0aA3qFXj8Un+oWucSi33Aga9CvIY5BKZAd4ofCik=",
+        "originContent": "## Permissions",
+        "translatedContent": "挑战文件夹的用户。然后赋予该用户写入您已安装"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "证书文件（例如 `/path/to/signed_chain.crt`）的权限，并能重新加载您的 Web 服务器。这样，"
+      },
+      {
+        "row": 15,
+        "rowsha": "vS2CtToRhvDxSdnGEpaxO103NmK3Y3iE5vMAk1ENtLc=",
+        "originContent": "The biggest problem you'll likely come across while setting up and running this",
+        "translatedContent": "cron 脚本就可以完成它的工作，覆盖旧证书，并"
+      },
+      {
+        "row": 16,
+        "rowsha": "B51AhahRG9j6AKkI3FjoUTb3dlHdPV334g/Hfpb6SUY=",
+        "originContent": "script is permissions. You want to limit access to your account private key and",
+        "translatedContent": "重新加载 Web 服务器，而不会有执行其他操作的权限。"
+      },
+      {
+        "row": 17,
+        "rowsha": "wy30l25OYtHwiwsgrgVME26mbrjfp1PXDR6j0VUNOYw=",
+        "originContent": "challenge web folder as much as possible. I'd recommend creating a user",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "nrMtpL5HjoA1XOLPfNTeHfWcYceEd0XUgEJFivqeSOQ=",
+        "originContent": "specifically for handling this script, the account private key, and the",
+        "translatedContent": "**务必确保：**"
+      },
+      {
+        "row": 19,
+        "rowsha": "YgLaKAb+rXUKFwwt9tIEWfDI2NMIrU2emZvO7rg4bFA=",
+        "originContent": "challenge folder. Then add the ability for that user to write to your installed",
+        "translatedContent": "* 备份您的账户私钥（例如 `account.key`）"
+      },
+      {
+        "row": 20,
+        "rowsha": "PKLD1MmH2aUzthZCbT/JBmcRNRnGeRbFGWpAUcSRIRI=",
+        "originContent": "certificate file (e.g. `/path/to/signed_chain.crt`) and reload your webserver. That",
+        "translatedContent": "* 不要让此脚本能够读取您的域私钥！"
+      },
+      {
+        "row": 21,
+        "rowsha": "GfmlaA/fJDYLhX2151cgBSqvuw3EGdWLvn28PJ2w3cg=",
+        "originContent": "way, the cron script will do its thing, overwrite your old certificate, and",
+        "translatedContent": "* 不要以 root 身份运行此脚本！"
+      },
+      {
+        "row": 22,
+        "rowsha": "ngMX+6cgJuI0fTcHjWIcZYNm4/rsBcTOA+/7JuzHNdg=",
+        "originContent": "reload your webserver without having permission to do anything else.",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 测试环境"
+      },
+      {
+        "row": 24,
+        "rowsha": "61DY+GePaN1jAxhkR4igXow+CHLGCLgiuvbRH6ps+64=",
+        "originContent": "**BE SURE TO:**",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "9S6uHjm5tag37qeNmuQaVO0ysNl754xxVrUbdCCHHAw=",
+        "originContent": "* Backup your account private key (e.g. `account.key`)",
+        "translatedContent": "Let's Encrypt 建议针对其测试服务器测试新的配置，"
+      },
+      {
+        "row": 26,
+        "rowsha": "ordQMZbMZ7ehI4t70C8q/bP/MDHcXT5pca4nu3m1vyo=",
+        "originContent": "* Don't allow this script to be able to read your domain private key!",
+        "translatedContent": "因此在测试您的新设置时，您可以使用"
+      },
+      {
+        "row": 27,
+        "rowsha": "Ug7jPL83+cMc4FMbgms7nu4stPfae1CFns611KrER6U=",
+        "originContent": "* Don't allow this script to be run as root!",
+        "translatedContent": "`--directory-url https://acme-staging-v02.api.letsencrypt.org/directory`"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "来颁发假测试证书，而不是从 Let's Encrypt 的生产服务器颁发真实证书。"
+      },
+      {
+        "row": 29,
+        "rowsha": "5T+QFJwQIdlcSLO2VK4S+ngSCFuMAsXoYLJym3L/QSM=",
+        "originContent": "## Staging Environment",
+        "translatedContent": "详情请参见 [https://letsencrypt.org/docs/staging-environment/](https://letsencrypt.org/docs/staging-environment/)。"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "D9Izp/Lx9I9Go0hB5frKqervYVcuMBUpUGrKgY+14Nc=",
+        "originContent": "Let's Encrypt recommends testing new configurations against their staging servers,",
+        "translatedContent": "## 反馈/贡献"
+      },
+      {
+        "row": 32,
+        "rowsha": "dgDJxhqkFmskBRYPs0Yem8gIythMQ49ierdG2tPx5xM=",
+        "originContent": "so when testing out your new setup, you can use",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "BNETsYtQymwMcIQxEY2Z0g5lKM8WyuDYSQgKmjTpHo0=",
+        "originContent": "`--directory-url https://acme-staging-v02.api.letsencrypt.org/directory`",
+        "translatedContent": "本项目的范围和代码库非常有限。我很乐意接受"
+      },
+      {
+        "row": 34,
+        "rowsha": "8loWxfbI88SkL0bcVJAVcTPcaGOih7s/35Lv7arrfoo=",
+        "originContent": "to issue fake test certificates instead of real ones from Let's Encrypt's production servers.",
+        "translatedContent": "错误报告和拉取请求，但请不要添加任何新功能。此"
+      },
+      {
+        "row": 35,
+        "rowsha": "YQQjonlUKzFQIxtKKJfVLP7t08LlvW3/3Vh5n4vmtPw=",
+        "originContent": "See [https://letsencrypt.org/docs/staging-environment/](https://letsencrypt.org/docs/staging-environment/)",
+        "translatedContent": "脚本必须保持在 200 行代码以内，以确保任何想运行它的人都能轻松审核。"
+      },
+      {
+        "row": 36,
+        "rowsha": "HbW/z7Q+bnBbvqY9uASDZbgcNBobDtNeBlArhnqL8sc=",
+        "originContent": "for more details.",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "如果您想为自己的设置添加功能以简化操作，"
+      },
+      {
+        "row": 38,
+        "rowsha": "HnZ6TE5c0ZDpzZdubuUu4A6Y9VtQyhM2TozFIWsIgnw=",
+        "originContent": "## Feedback/Contributing",
+        "translatedContent": "请随意！这是开源的，您可以自由地 fork 并根据需要修改。"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "glq0+7r2knrHo03Xdc/L7MtqX0bBh36DxwjyhUHlZlg=",
+        "originContent": "This project has a very, very limited scope and codebase. I'm happy to receive",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "yNSmadEUQ50p37N7wYL93nETkbKxk5mMsnG0214FozM=",
+        "originContent": "bug reports and pull requests, but please don't add any new features. This",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "9a5m96UjyfiRnB4Ml07esTXsBgg1zRqaQ2Q7cC+JdhM=",
+        "originContent": "script must stay under 200 lines of code to ensure it can be easily audited by",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "Vnl0xN4lnjILdZK0nrnwFiVGlh4gKPWoRGjVes79aYI=",
+        "originContent": "anyone who wants to run it.",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "GJwPs3j/L6ZgFNgWqwdFtMw5VDHT1h5m8+Rcu2/HLHQ=",
+        "originContent": "If you want to add features for your own setup to make things easier for you,",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "uT/a4BV61Fou/h6Uq16AJcigf58Eu3OnnQBZYbQ7Jq0=",
+        "originContent": "please do! It's open source, so feel free to fork it and modify as necessary.",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

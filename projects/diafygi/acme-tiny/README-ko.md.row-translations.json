@@ -1,0 +1,1364 @@
+[
+  {
+    "row": 1,
+    "rowsha": "DmlefAtuppBgLnp/6undjKPNqJ8BL2fhS2FjWgWRP5Y=",
+    "originContent": "# acme-tiny",
+    "translatedContent": "<translate-content># acme-tiny"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "cA4mL+F5XPFPqXpWp8yPVYLYicXWXRllIvd5/b1k0/Y=",
+    "originContent": "[![Tests](https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml/badge.svg?branch=main)](https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml)",
+    "translatedContent": "[![Tests](https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml/badge.svg?branch=main)](https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml)"
+  },
+  {
+    "row": 4,
+    "rowsha": "uDgJD/l3gCwSv+0Zw82nYB6ba5blRaPVb2wQ7jnsw2U=",
+    "originContent": "[![Coverage Status](https://coveralls.io/repos/github/diafygi/acme-tiny/badge.svg?branch=main)](https://coveralls.io/github/diafygi/acme-tiny?branch=main)",
+    "translatedContent": "[![Coverage Status](https://coveralls.io/repos/github/diafygi/acme-tiny/badge.svg?branch=main)](https://coveralls.io/github/diafygi/acme-tiny?branch=main)"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "AWKRbEcNqBsq4xz5oMnABgUYOnxRp40WoN3lkQeOtgk=",
+    "originContent": "This is a tiny, auditable script that you can throw on your server to issue",
+    "translatedContent": "이 스크립트는 서버에 올려서 [Let's Encrypt](https://letsencrypt.org/) 인증서를 발급"
+  },
+  {
+    "row": 7,
+    "rowsha": "t3zgOxnIIRitx65PC+cGjyf1Y1i5THR3JPdOI/XbhJM=",
+    "originContent": "and renew [Let's Encrypt](https://letsencrypt.org/) certificates. Since it has",
+    "translatedContent": "및 갱신할 수 있는 작고 검증 가능한 스크립트입니다. 서버에서 실행되어야 하고"
+  },
+  {
+    "row": 8,
+    "rowsha": "hhFRfqhOd5yeDFVSpdEHdFbNOA+9ZcSKhbz2EmC9vTE=",
+    "originContent": "to be run on your server and have access to your private Let's Encrypt account",
+    "translatedContent": "개인 Let's Encrypt 계정 키에 접근할 수 있어야 하기 때문에 최대한 작게 만들었습니다"
+  },
+  {
+    "row": 9,
+    "rowsha": "THAYTbaHHjzPDVTai0fZwYz/AsPUca0pWroGRyYQzEw=",
+    "originContent": "key, I tried to make it as tiny as possible (currently less than 200 lines).",
+    "translatedContent": "(현재 200줄 미만). 필요한 것은 python과 openssl뿐입니다."
+  },
+  {
+    "row": 10,
+    "rowsha": "h8psHfp+QWmJ8TKhmDT3Ytg6b7z/TQuMuWBwKPOJmes=",
+    "originContent": "The only prerequisites are python and openssl.",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**소스 코드를 꼭 읽어보세요! 개인 계정 키를 신뢰해야 합니다!**"
+  },
+  {
+    "row": 12,
+    "rowsha": "Fs6hYXS6GY1DxHv8hFWBJ7SxyaUsmEV7ea/YqdN0Un8=",
+    "originContent": "**PLEASE READ THE SOURCE CODE! YOU MUST TRUST IT WITH YOUR PRIVATE ACCOUNT KEY!**",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 기부"
+  },
+  {
+    "row": 14,
+    "rowsha": "FNvaJIRsvZSjSfd1AKN5t1DSohP4YV++BeEW/C1EOJY=",
+    "originContent": "## Donate",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 스크립트가 유용하다면 EFF에 기부해 주세요. 저는 거기서 일하지 않지만,"
+  },
+  {
+    "row": 16,
+    "rowsha": "hQImBRpkDSLdWvseyEH5iHGN/0qWdTzSn+WikhwS4vc=",
+    "originContent": "If this script is useful to you, please donate to the EFF. I don't work there,",
+    "translatedContent": "그들은 훌륭한 일을 하고 있습니다."
+  },
+  {
+    "row": 17,
+    "rowsha": "5i8toinVS84N1z94Vx75JPdx79JX6JZKLzQs7f45a7M=",
+    "originContent": "but they do fantastic work.",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[https://eff.org/donate/](https://eff.org/donate/)"
+  },
+  {
+    "row": 19,
+    "rowsha": "Oo++vnu9Lra8O3uibE5jlQy0LeHoXzS1yL3sci05Q9w=",
+    "originContent": "[https://eff.org/donate/](https://eff.org/donate/)",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 이 스크립트 사용법"
+  },
+  {
+    "row": 21,
+    "rowsha": "8LqRwR5xPi6TNykCgjacJMsUmVQKVcLmHS/4FP4LYBc=",
+    "originContent": "## How to use this script",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이미 Let's Encrypt에서 발급받은 인증서가 있고 단지 갱신만 원한다면,"
+  },
+  {
+    "row": 23,
+    "rowsha": "XH/tP8PfpXbk0raisrByZwlbBbM+jhA14QaYwZYXQ90=",
+    "originContent": "If you already have a Let's Encrypt issued certificate and just want to renew,",
+    "translatedContent": "3단계와 6단계만 수행하면 됩니다."
+  },
+  {
+    "row": 24,
+    "rowsha": "CBLYpDC/6578r00mmaCnDAh9czbTwQeGnXzjDYE1xuw=",
+    "originContent": "you should only have to do Steps 3 and 6.",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 1단계: Let's Encrypt 계정 개인 키 생성 (아직 없다면)"
+  },
+  {
+    "row": 26,
+    "rowsha": "IVDglroyN2y8SDyZ3B13hk0kRSq95Cbc9W9n+qP44mY=",
+    "originContent": "### Step 1: Create a Let's Encrypt account private key (if you haven't already)",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Let's Encrypt에 공개 키가 등록되어 있어야 하며, 요청에 대응하는 개인 키로"
+  },
+  {
+    "row": 28,
+    "rowsha": "usjLWP9PpdEq/PruADJmoHFvF0gIMz4kLEPyM/dC+U4=",
+    "originContent": "You must have a public key registered with Let's Encrypt and sign your requests",
+    "translatedContent": "서명해야 합니다. 방금 말한 내용을 이해하지 못한다면,"
+  },
+  {
+    "row": 29,
+    "rowsha": "7CTy4bhfTaWV0WHxmYKRuIyFDIZ3HLiTVk/FJsy+pHM=",
+    "originContent": "with the corresponding private key. If you don't understand what I just said,",
+    "translatedContent": "이 스크립트는 아마 적합하지 않을 것입니다! 공식 Let's Encrypt"
+  },
+  {
+    "row": 30,
+    "rowsha": "35/+8S2Utps+JVKS7yRokAb4DWgYE2hVFWKOs8Ssg/s=",
+    "originContent": "this script likely isn't for you! Please use the official Let's Encrypt",
+    "translatedContent": "[클라이언트](https://github.com/letsencrypt/letsencrypt)를 사용하세요."
+  },
+  {
+    "row": 31,
+    "rowsha": "y49exrFlgoqNXEktvNNG3tWN99wccHyut9Fj8nGHwKk=",
+    "originContent": "[client](https://github.com/letsencrypt/letsencrypt).",
+    "translatedContent": "이를 위해 처음에 acme-tiny가 사용할 수 있는 키를 생성하여"
+  },
+  {
+    "row": 32,
+    "rowsha": "HUNuS0xGRa+Tcs7FYT8SmA2SSGwl0AdW0nMquKoWlMs=",
+    "originContent": "To accomplish this you need to initially create a key, that can be used by",
+    "translatedContent": "계정을 등록하고 이후 모든 요청에 서명할 수 있도록 해야 합니다."
+  },
+  {
+    "row": 33,
+    "rowsha": "zTt2wAGo5TasGhsH/9Sf2VxIymzO3Z6Xsie4ITXaGJo=",
+    "originContent": "acme-tiny, to register an account for you and sign all following requests.",
+    "translatedContent": "</translate-content>"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 36,
+    "rowsha": "zMv/7mg7Sd+BGSI8glk5vtt/BX8aO4SsVKDckZ+ZUR4=",
+    "originContent": "openssl genrsa 4096 > account.key",
+    "translatedContent": "openssl genrsa 4096 > account.key"
+  },
+  {
+    "row": 37,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### 기존 Let's Encrypt 키 사용"
+  },
+  {
+    "row": 39,
+    "rowsha": "MjamqRCV2c3yenmFFRLGN5i0HOuyzBb6pOBAZuw8low=",
+    "originContent": "#### Use existing Let's Encrypt key",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "또는 이전에 원래의 Let's Encrypt 클라이언트로 생성한 키를 변환할 수 있습니다."
+  },
+  {
+    "row": 41,
+    "rowsha": "OP3Br82XWdo5/yleewF7a4O2fzVQ5jlej7y5ink81IE=",
+    "originContent": "Alternatively you can convert your key, previously generated by the original",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "ZKZkbkXcuI5gP38gnu7PVcT0q8ctDnZpyFE/QyAQK5Q=",
+    "originContent": "Let's Encrypt client.",
+    "translatedContent": "Let's Encrypt 클라이언트의 개인 계정 키는"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[JWK](https://tools.ietf.org/html/rfc7517) 형식으로 저장됩니다. `acme-tiny`는 PEM"
+  },
+  {
+    "row": 44,
+    "rowsha": "aMeY6+bjPoIL5hl02XoLzilNujYl5FznPeaycDO0o5w=",
+    "originContent": "The private account key from the Let's Encrypt client is saved in the",
+    "translatedContent": "키 형식을 사용합니다. 키를 변환하려면 JonLundy의 도구"
+  },
+  {
+    "row": 45,
+    "rowsha": "6p0eWN8H1GyGRAdRNIOOTfDP8J3cQXF2XukP5t1c3xc=",
+    "originContent": "[JWK](https://tools.ietf.org/html/rfc7517) format. `acme-tiny` is using the PEM",
+    "translatedContent": "[변환 스크립트](https://gist.github.com/JonLundy/f25c99ee0770e19dc595)를 사용할 수 있습니다:"
+  },
+  {
+    "row": 46,
+    "rowsha": "Kr6llqM5E2/yRPY5rRE2XW8ktA4VUmPeZpYjBJycwkE=",
+    "originContent": "key format. To convert the key, you can use the tool",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "IBEX8A2nc/lpkzwqn3t8DNEJjjIdkd4xZZ3cm6i6Qi4=",
+    "originContent": "[conversion script](https://gist.github.com/JonLundy/f25c99ee0770e19dc595) by JonLundy:",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 50,
+    "rowsha": "C52eZIrDNIY/Iu1yzqudDjJWR3I5dt9h1jFkhIOB1eU=",
+    "originContent": "# Download the script",
+    "translatedContent": "# Download the script"
+  },
+  {
+    "row": 51,
+    "rowsha": "MA9jbYjwf+uBW8k6pS7uhcxsbiNLrnaXAuCEuFxZ/Dk=",
+    "originContent": "wget -O - \"https://gist.githubusercontent.com/JonLundy/f25c99ee0770e19dc595/raw/6035c1c8938fae85810de6aad1ecf6e2db663e26/conv.py\" > conv.py",
+    "translatedContent": "wget -O - \"https://gist.githubusercontent.com/JonLundy/f25c99ee0770e19dc595/raw/6035c1c8938fae85810de6aad1ecf6e2db663e26/conv.py\" > conv.py"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "R/3yCcj0Ylwc6CXyVjP4JEaGCa7ZFq7wYtWa7VC3tYI=",
+    "originContent": "# Copy your private key to your working directory",
+    "translatedContent": "# Copy your private key to your working directory"
+  },
+  {
+    "row": 54,
+    "rowsha": "LigU+gMay8E9RtVt8vQPBvJzAh+KobF/A+UEn4w8Xcc=",
+    "originContent": "cp /etc/letsencrypt/accounts/acme-v01.api.letsencrypt.org/directory/<id>/private_key.json private_key.json",
+    "translatedContent": "cp /etc/letsencrypt/accounts/acme-v01.api.letsencrypt.org/directory/<id>/private_key.json private_key.json"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "A34ASeQ91kEMxTXm8b4R5V30v5K2Vmpje7C5pEuzv1E=",
+    "originContent": "# Create a DER encoded private key",
+    "translatedContent": "# Create a DER encoded private key"
+  },
+  {
+    "row": 57,
+    "rowsha": "GPqPq3CXrf7GZDTWwN2QKcz+JZsgev69zXRZdEzmMUk=",
+    "originContent": "openssl asn1parse -noout -out private_key.der -genconf <(python2 conv.py private_key.json)",
+    "translatedContent": "openssl asn1parse -noout -out private_key.der -genconf <(python2 conv.py private_key.json)"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "ZCec4FBsCQN73YRtL18WL9vz0qzv5WSEpZjXc9YTlVA=",
+    "originContent": "# Convert to PEM",
+    "translatedContent": "# Convert to PEM"
+  },
+  {
+    "row": 60,
+    "rowsha": "50SRjCCMyDUDz9PvJ1EWlHV1wIVTl+4ZCc5/PHkidtE=",
+    "originContent": "openssl rsa -in private_key.der -inform der > account.key",
+    "translatedContent": "openssl rsa -in private_key.der -inform der > account.key"
+  },
+  {
+    "row": 61,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 2단계: 도메인용 인증서 서명 요청(CSR) 생성하기."
+  },
+  {
+    "row": 63,
+    "rowsha": "VMilB2B9CO54VFiBMgbZr1uLW6MkO5fi2UENSdGh2yQ=",
+    "originContent": "### Step 2: Create a certificate signing request (CSR) for your domains.",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "ACME 프로토콜(Let's Encrypt가 사용하는 프로토콜)은 갱신 시에도"
+  },
+  {
+    "row": 65,
+    "rowsha": "P71buASwvz1pxPvvUcPeVr+4X1+mzgpHQbAAICxuvLs=",
+    "originContent": "The ACME protocol (what Let's Encrypt uses) requires a CSR file to be submitted",
+    "translatedContent": "CSR 파일 제출을 요구합니다. 여러 번의 갱신에 동일한 CSR을 사용할 수 있습니다. 참고:"
+  },
+  {
+    "row": 66,
+    "rowsha": "ZrKySk2J7heqN6yoc45StfSLk6Gn0/w61M8SrzhZx/w=",
+    "originContent": "to it, even for renewals. You can use the same CSR for multiple renewals. NOTE:",
+    "translatedContent": "계정 개인 키를 도메인 개인 키로 사용할 수 없습니다!"
+  },
+  {
+    "row": 67,
+    "rowsha": "/L/TldhJ37XhImGhAkugvT636eWrZLRakv/r5Vmu+0s=",
+    "originContent": "you can't use your account private key as your domain private key!",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 70,
+    "rowsha": "YI4eqsQ/Slz6nLhtWLbHhBlF4RHGk+S4MFd2RDVdJwI=",
+    "originContent": "# Generate a domain private key (if you haven't already)",
+    "translatedContent": "# Generate a domain private key (if you haven't already)"
+  },
+  {
+    "row": 71,
+    "rowsha": "4kkjILvILR1qPecHuMcgr+vAvFzu7luZffRb+x+rRNU=",
+    "originContent": "openssl genrsa 4096 > domain.key",
+    "translatedContent": "openssl genrsa 4096 > domain.key"
+  },
+  {
+    "row": 72,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 75,
+    "rowsha": "osqe60TuV5RyE8xK7CC/6O8mSzBiXCGmHmB1Zc72+hQ=",
+    "originContent": "# For a single domain",
+    "translatedContent": "# For a single domain"
+  },
+  {
+    "row": 76,
+    "rowsha": "D7lfjbVOwzKAuoxOnMdnp/kVFem0xqVb0Kc40CDNeIc=",
+    "originContent": "openssl req -new -sha256 -key domain.key -subj \"/CN=yoursite.com\" > domain.csr",
+    "translatedContent": "openssl req -new -sha256 -key domain.key -subj \"/CN=yoursite.com\" > domain.csr"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "ldcVsC7oZKZPaoCA+0XqNB1vJEZxxm1t+w+RPtLPMJM=",
+    "originContent": "# For multiple domains (use this one if you want both www.yoursite.com and yoursite.com)",
+    "translatedContent": "# For multiple domains (use this one if you want both www.yoursite.com and yoursite.com)"
+  },
+  {
+    "row": 79,
+    "rowsha": "96whouZGcWvuzYSj7sTSV0ySXOnk/gtUmxUVu2wafdE=",
+    "originContent": "openssl req -new -sha256 -key domain.key -subj \"/\" -addext \"subjectAltName = DNS:yoursite.com, DNS:www.yoursite.com\" > domain.csr",
+    "translatedContent": "openssl req -new -sha256 -key domain.key -subj \"/\" -addext \"subjectAltName = DNS:yoursite.com, DNS:www.yoursite.com\" > domain.csr"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "n9wfeAt3O72n3FLJfR+kxMSHy37EZn0g94qRze7SSV0=",
+    "originContent": "# For multiple domains (same as above but works with openssl < 1.1.1)",
+    "translatedContent": "# For multiple domains (same as above but works with openssl < 1.1.1)"
+  },
+  {
+    "row": 82,
+    "rowsha": "XLyhxbThKb8RvSK0+W1Ndu40Y0KTr5j1WKDk0xXSoTo=",
+    "originContent": "openssl req -new -sha256 -key domain.key -subj \"/\" -reqexts SAN -config <(cat /etc/ssl/openssl.cnf <(printf \"[SAN]\\nsubjectAltName=DNS:yoursite.com,DNS:www.yoursite.com\")) > domain.csr",
+    "translatedContent": "openssl req -new -sha256 -key domain.key -subj \"/\" -reqexts SAN -config <(cat /etc/ssl/openssl.cnf <(printf \"[SAN]\\nsubjectAltName=DNS:yoursite.com,DNS:www.yoursite.com\")) > domain.csr"
+  },
+  {
+    "row": 83,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 3단계: 웹사이트 호스트 챌린지 파일 만들기"
+  },
+  {
+    "row": 85,
+    "rowsha": "aXZU483dnxRcRQxfWui4C2yRIZQqDWUqZfzMToCIYh8=",
+    "originContent": "### Step 3: Make your website host challenge files",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "인증서를 발급받고자 하는 도메인의 소유권을 증명해야 하므로, Let's Encrypt는"
+  },
+  {
+    "row": 87,
+    "rowsha": "VIn0vpbiA4SZvydbpZuN/gMaoYwku3ogx7xYS/bb7O8=",
+    "originContent": "You must prove you own the domains you want a certificate for, so Let's Encrypt",
+    "translatedContent": "해당 도메인에 파일을 호스팅할 것을 요구합니다. 이 스크립트는 지정한 폴더에"
+  },
+  {
+    "row": 88,
+    "rowsha": "myGJgKmzrGG5y9nEptN7Vd4yud6y9SYxvi7tU9ruwwM=",
+    "originContent": "requires you host some files on them. This script will generate and write those",
+    "translatedContent": "해당 파일들을 생성하고 작성하므로, 이 폴더가 \".well-known/acme-challenge/\""
+  },
+  {
+    "row": 89,
+    "rowsha": "YCRumzsSuyGuV6ltIHSE7KFAb+CD9SxIVjhQ9GXKlDk=",
+    "originContent": "files in the folder you specify, so all you need to do is make sure that this",
+    "translatedContent": "URL 경로 아래에서 서비스되는지만 확인하면 됩니다. 참고: Let's Encrypt는"
+  },
+  {
+    "row": 90,
+    "rowsha": "8lbbAyy1kO6uojAcJCA4B+zk6bIwFIO3uspWwtom2kU=",
+    "originContent": "folder is served under the \".well-known/acme-challenge/\" url path. NOTE: Let's",
+    "translatedContent": "서버의 80번 포트로 평문 HTTP 요청을 수행하므로, 챌린지 파일은 HTTP를 통해"
+  },
+  {
+    "row": 91,
+    "rowsha": "erkLGE73WmopG43UUS1xGMIPoTw3R91s5MnumN87cVc=",
+    "originContent": "Encrypt will perform a plain HTTP request to port 80 on your server, so you",
+    "translatedContent": "서비스해야 합니다(HTTPS로 리디렉션해도 무방합니다)."
+  },
+  {
+    "row": 92,
+    "rowsha": "JDjJqsXiKv3+UwkwCn/XOZBoXGZLdVRjCWOenEWs5Jk=",
+    "originContent": "must serve the challenge files via HTTP (a redirect to HTTPS is fine too).",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 95,
+    "rowsha": "sAoFqh2PUsLtLouUt4qhir4Uf29AIXn5GbhTnqk7B/U=",
+    "originContent": "# Make some challenge folder (modify to suit your needs)",
+    "translatedContent": "# Make some challenge folder (modify to suit your needs)"
+  },
+  {
+    "row": 96,
+    "rowsha": "Y17+QfRyXOk+AyEAG82KktdG6zsq4+gzmihWLlv4NZM=",
+    "originContent": "mkdir -p /var/www/challenges/",
+    "translatedContent": "mkdir -p /var/www/challenges/"
+  },
+  {
+    "row": 97,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "h2c6dO6I1699FQWDd4mE57p/WRMdtsxwFI5oxZloIaQ=",
+    "originContent": "```nginx",
+    "translatedContent": "```nginx"
+  },
+  {
+    "row": 100,
+    "rowsha": "zRr1v0Tl4DxdfjySToQGieScWvhNwk/+ImIs3X321qE=",
+    "originContent": "# Example for nginx",
+    "translatedContent": "# Example for nginx"
+  },
+  {
+    "row": 101,
+    "rowsha": "AxCotRd0ZdTTaLiiqDRKszdJJ4svGTdVf6Cpgiw1rxg=",
+    "originContent": "server {",
+    "translatedContent": "server {"
+  },
+  {
+    "row": 102,
+    "rowsha": "QxDnEpfi7en4ZKwtHVM9iaUa8VSP3W89MecrWS8uMbU=",
+    "originContent": "    listen 80;",
+    "translatedContent": "    listen 80;"
+  },
+  {
+    "row": 103,
+    "rowsha": "xffKroDXi3EY+EGYp0Az7/jK0vRMIJCqoBfQpHxl1Sw=",
+    "originContent": "    server_name yoursite.com www.yoursite.com;",
+    "translatedContent": "    server_name yoursite.com www.yoursite.com;"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "2xW96HjKRUllc1irtgpO14P8D0fdZ0Yon1VwAZLkGYU=",
+    "originContent": "    location /.well-known/acme-challenge/ {",
+    "translatedContent": "    location /.well-known/acme-challenge/ {"
+  },
+  {
+    "row": 106,
+    "rowsha": "H9AyC9xNqzBpLjhMWnf8DeBJcRVnhkkHx6+GT7x3cYw=",
+    "originContent": "        alias /var/www/challenges/;",
+    "translatedContent": "        alias /var/www/challenges/;"
+  },
+  {
+    "row": 107,
+    "rowsha": "+rqKcyKcdOK2uLXStJQgp8gthdwYr8Fh75IQqA4fQS0=",
+    "originContent": "        try_files $uri =404;",
+    "translatedContent": "        try_files $uri =404;"
+  },
+  {
+    "row": 108,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "NwqmS9/WN8cYqc76XcvJbx7HlRxg/XHNGVZtusSsjFg=",
+    "originContent": "    ...the rest of your config",
+    "translatedContent": "    ...the rest of your config"
+  },
+  {
+    "row": 111,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 112,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 4단계: 서명된 인증서 받기!"
+  },
+  {
+    "row": 114,
+    "rowsha": "McXY04yyG4TaWBti1Du+gmWZDhfxsfd4TJWME9XnPOs=",
+    "originContent": "### Step 4: Get a signed certificate!",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "서버를 설정하고 필요한 모든 파일을 생성했으므로,"
+  },
+  {
+    "row": 116,
+    "rowsha": "IAai5n8b2yZrIG8Ff8CYIgOV9JQaukkqFEE+Ri619hg=",
+    "originContent": "Now that you have setup your server and generated all the needed files, run this",
+    "translatedContent": "위 폴더에 쓸 수 있는 권한과 개인 계정 키 및 CSR을 읽을 수 있는 권한으로"
+  },
+  {
+    "row": 117,
+    "rowsha": "Sflht0QMJ36EZ6/oOzhuyapAzyyAeRSbeKCf6r3+D08=",
+    "originContent": "script on your server with the permissions needed to write to the above folder",
+    "translatedContent": "서버에서 이 스크립트를 실행하세요."
+  },
+  {
+    "row": 118,
+    "rowsha": "/RLgSFxParqzUqKNp9rSOFNQvybiJsqJezRaV/JauWA=",
+    "originContent": "and read your private account key and CSR.",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 121,
+    "rowsha": "to534HE7Evv7TacjZW1Q3aDEpbT75WGw5yjqZ3C4RFE=",
+    "originContent": "# Run the script on your server",
+    "translatedContent": "# Run the script on your server"
+  },
+  {
+    "row": 122,
+    "rowsha": "YwXc+mLSBR0j1HVYms50jSeXvbM7dZQNzKQJCLrE4Wk=",
+    "originContent": "python acme_tiny.py --account-key ./account.key --csr ./domain.csr --acme-dir /var/www/challenges/ > ./signed_chain.crt",
+    "translatedContent": "python acme_tiny.py --account-key ./account.key --csr ./domain.csr --acme-dir /var/www/challenges/ > ./signed_chain.crt"
+  },
+  {
+    "row": 123,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 5단계: 인증서 설치"
+  },
+  {
+    "row": 125,
+    "rowsha": "IgnfUsqLdZlhsZBW6LzCrfQzGOR0DrZF2jQh2MY3smY=",
+    "originContent": "### Step 5: Install the certificate",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 스크립트가 출력하는 서명된 https 인증서 체인은"
+  },
+  {
+    "row": 127,
+    "rowsha": "6ezABkFwzwInnpOOLVst93FFlu8giCcMlAV1qqgaa5Q=",
+    "originContent": "The signed https certificate chain that is output by this script can be used along",
+    "translatedContent": "개인 키와 함께 https 서버를 실행하는 데 사용할 수 있습니다. 이를"
+  },
+  {
+    "row": 128,
+    "rowsha": "1QPvgHYl3XD7T5cHayi8eTKsPr4T6+9aLKpyaNqai5E=",
+    "originContent": "with your private key to run an https server. You need to include them in the",
+    "translatedContent": "웹 서버 설정의 https 설정에 포함시켜야 합니다. nginx 서버를"
+  },
+  {
+    "row": 129,
+    "rowsha": "aSwdSBoenAeeeCvcrU5hdcuAx8ANS8wZRCSzTaZsn1U=",
+    "originContent": "https settings in your web server's configuration. Here's an example on how to",
+    "translatedContent": "설정하는 방법의 예는 다음과 같습니다:"
+  },
+  {
+    "row": 130,
+    "rowsha": "RMX1PYLtRNI6x59QPR/lqUd+ZaxRRQlmOW14xziYVz4=",
+    "originContent": "configure an nginx server:",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "h2c6dO6I1699FQWDd4mE57p/WRMdtsxwFI5oxZloIaQ=",
+    "originContent": "```nginx",
+    "translatedContent": "```nginx"
+  },
+  {
+    "row": 133,
+    "rowsha": "AxCotRd0ZdTTaLiiqDRKszdJJ4svGTdVf6Cpgiw1rxg=",
+    "originContent": "server {",
+    "translatedContent": "server {"
+  },
+  {
+    "row": 134,
+    "rowsha": "yjcB1Y+nYGSpdx1yjo7JNJLWAtUesFBrR9UHYr2uk3c=",
+    "originContent": "    listen 443 ssl;",
+    "translatedContent": "    listen 443 ssl;"
+  },
+  {
+    "row": 135,
+    "rowsha": "xffKroDXi3EY+EGYp0Az7/jK0vRMIJCqoBfQpHxl1Sw=",
+    "originContent": "    server_name yoursite.com www.yoursite.com;",
+    "translatedContent": "    server_name yoursite.com www.yoursite.com;"
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "Sm81z1A1+x6AyfY+i3R9LHqpL3j70MpaWifdVffueuc=",
+    "originContent": "    ssl_certificate /path/to/signed_chain.crt;",
+    "translatedContent": "    ssl_certificate /path/to/signed_chain.crt;"
+  },
+  {
+    "row": 138,
+    "rowsha": "Ywr2nS4FdiDRagEeErxDgkY9gTF6cQiboV7vjZVI4pE=",
+    "originContent": "    ssl_certificate_key /path/to/domain.key;",
+    "translatedContent": "    ssl_certificate_key /path/to/domain.key;"
+  },
+  {
+    "row": 139,
+    "rowsha": "gMtmxFFz+kju15vbAUNbfBWY7zjY6F//mmOXkyjvLJM=",
+    "originContent": "    ssl_session_timeout 5m;",
+    "translatedContent": "    ssl_session_timeout 5m;"
+  },
+  {
+    "row": 140,
+    "rowsha": "YHNYsODJ3yU25eKo3EA+oqV6X8ydASbSVS/IsthN73c=",
+    "originContent": "    ssl_protocols TLSv1.2;",
+    "translatedContent": "    ssl_protocols TLSv1.2;"
+  },
+  {
+    "row": 141,
+    "rowsha": "TncrFunmbVMaiSprzeOkXaTT80aA0IhHqG6lvl39M4U=",
+    "originContent": "    ssl_ciphers ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384;",
+    "translatedContent": "    ssl_ciphers ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384;"
+  },
+  {
+    "row": 142,
+    "rowsha": "VOIc41xqygpo6SvcyK2sNJ7iO7ghXltv9ANVdKQc610=",
+    "originContent": "    ssl_session_cache shared:SSL:50m;",
+    "translatedContent": "    ssl_session_cache shared:SSL:50m;"
+  },
+  {
+    "row": 143,
+    "rowsha": "g9KfNDYJYtUHVRRUJREAtkTNtue/Bs6hBQe5rQDdm74=",
+    "originContent": "    ssl_dhparam /path/to/server.dhparam;",
+    "translatedContent": "    ssl_dhparam /path/to/server.dhparam;"
+  },
+  {
+    "row": 144,
+    "rowsha": "FZz9tH/2mPVCt6uja22SdUGCK1+yK0vTzBsAbkKv89o=",
+    "originContent": "    ssl_prefer_server_ciphers on;",
+    "translatedContent": "    ssl_prefer_server_ciphers on;"
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "NwqmS9/WN8cYqc76XcvJbx7HlRxg/XHNGVZtusSsjFg=",
+    "originContent": "    ...the rest of your config",
+    "translatedContent": "    ...the rest of your config"
+  },
+  {
+    "row": 147,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "AxCotRd0ZdTTaLiiqDRKszdJJ4svGTdVf6Cpgiw1rxg=",
+    "originContent": "server {",
+    "translatedContent": "server {"
+  },
+  {
+    "row": 150,
+    "rowsha": "QxDnEpfi7en4ZKwtHVM9iaUa8VSP3W89MecrWS8uMbU=",
+    "originContent": "    listen 80;",
+    "translatedContent": "    listen 80;"
+  },
+  {
+    "row": 151,
+    "rowsha": "xffKroDXi3EY+EGYp0Az7/jK0vRMIJCqoBfQpHxl1Sw=",
+    "originContent": "    server_name yoursite.com www.yoursite.com;",
+    "translatedContent": "    server_name yoursite.com www.yoursite.com;"
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "2xW96HjKRUllc1irtgpO14P8D0fdZ0Yon1VwAZLkGYU=",
+    "originContent": "    location /.well-known/acme-challenge/ {",
+    "translatedContent": "    location /.well-known/acme-challenge/ {"
+  },
+  {
+    "row": 154,
+    "rowsha": "H9AyC9xNqzBpLjhMWnf8DeBJcRVnhkkHx6+GT7x3cYw=",
+    "originContent": "        alias /var/www/challenges/;",
+    "translatedContent": "        alias /var/www/challenges/;"
+  },
+  {
+    "row": 155,
+    "rowsha": "+rqKcyKcdOK2uLXStJQgp8gthdwYr8Fh75IQqA4fQS0=",
+    "originContent": "        try_files $uri =404;",
+    "translatedContent": "        try_files $uri =404;"
+  },
+  {
+    "row": 156,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 158,
+    "rowsha": "NwqmS9/WN8cYqc76XcvJbx7HlRxg/XHNGVZtusSsjFg=",
+    "originContent": "    ...the rest of your config",
+    "translatedContent": "    ...the rest of your config"
+  },
+  {
+    "row": 159,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 160,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<translate-content>"
+  },
+  {
+    "row": 162,
+    "rowsha": "ou3ceDbJfV2BbpY79UQZMhvy1LqZkWts9pZBnqVmwFY=",
+    "originContent": "### Step 6: Setup an auto-renew cronjob",
+    "translatedContent": "### 6단계: 자동 갱신 크론잡 설정"
+  },
+  {
+    "row": 163,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 164,
+    "rowsha": "XiSMcP0j7M2MO9vE6Fq1YPsJISBJSK91FnZ4b+YjCNw=",
+    "originContent": "Congrats! Your website is now using https! Unfortunately, Let's Encrypt",
+    "translatedContent": "축하합니다! 이제 귀하의 웹사이트가 https를 사용하고 있습니다! 불행히도, Let's Encrypt"
+  },
+  {
+    "row": 165,
+    "rowsha": "t8Ydlp/Xu74ui9mvO/ssRuvlstIrBMYmITEK4gTSIA0=",
+    "originContent": "certificates only last for 90 days, so you need to renew them often. No worries!",
+    "translatedContent": "인증서는 90일 동안만 유효하므로 자주 갱신해야 합니다. 걱정 마세요!"
+  },
+  {
+    "row": 166,
+    "rowsha": "xNFhkAg5IW1SiSETZhq2TdMgDv02s2ISq0amYXzE0+E=",
+    "originContent": "It's automated! Just make a bash script and add it to your crontab (see below",
+    "translatedContent": "자동화되어 있습니다! 간단한 bash 스크립트를 작성하고 크론탭에 추가하세요 (아래의"
+  },
+  {
+    "row": 167,
+    "rowsha": "K4m1p2lCDhYbZb/CP4pC/lGn36cDGzdERPmRFkGXnRs=",
+    "originContent": "for example script).",
+    "translatedContent": "예시 스크립트를 참조하세요)."
+  },
+  {
+    "row": 168,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 169,
+    "rowsha": "EIRrzKtZrgEl0jrRK1Hua9FfK7dcE3JZ7oHWGmJnNqY=",
+    "originContent": "Example of a `renew_cert.sh`:",
+    "translatedContent": "`renew_cert.sh` 예시:</translate-content>"
+  },
+  {
+    "row": 170,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 171,
+    "rowsha": "DYTjsrbqABMuQY0qVR2yNh4CjB7Dd67ctgCmskDJSfY=",
+    "originContent": "#!/usr/bin/sh",
+    "translatedContent": "#!/usr/bin/sh"
+  },
+  {
+    "row": 172,
+    "rowsha": "gCKmuoH6O/OVDLLIBvhRN+tSzuFkrI0nxecRiP3czt4=",
+    "originContent": "python /path/to/acme_tiny.py --account-key /path/to/account.key --csr /path/to/domain.csr --acme-dir /var/www/challenges/ > /path/to/signed_chain.crt.tmp || exit",
+    "translatedContent": "python /path/to/acme_tiny.py --account-key /path/to/account.key --csr /path/to/domain.csr --acme-dir /var/www/challenges/ > /path/to/signed_chain.crt.tmp || exit"
+  },
+  {
+    "row": 173,
+    "rowsha": "D5hFPGQbSxXCPr10m71GF7565CYVYTPCTezzpgNvevE=",
+    "originContent": "mv /path/to/signed_chain.crt.tmp /path/to/signed_chain.crt",
+    "translatedContent": "mv /path/to/signed_chain.crt.tmp /path/to/signed_chain.crt"
+  },
+  {
+    "row": 174,
+    "rowsha": "W9jRVoaScftTCZkitcl1a1actPkD1ZEoOTZWEqXudOk=",
+    "originContent": "service nginx reload",
+    "translatedContent": "service nginx reload"
+  },
+  {
+    "row": 175,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 176,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 177,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 178,
+    "rowsha": "aeF2c4SggIjSoA3yFw6M5cJQukvx73vGIAiGmBQox6w=",
+    "originContent": "# Example line in your crontab (runs once per month)",
+    "translatedContent": "# Example line in your crontab (runs once per month)"
+  },
+  {
+    "row": 179,
+    "rowsha": "9lmfs/ANefNW+PpCiM1/w0yV+lTMMb+TKrmfVIfTDa8=",
+    "originContent": "0 0 1 * * /path/to/renew_cert.sh 2>> /var/log/acme_tiny.log",
+    "translatedContent": "0 0 1 * * /path/to/renew_cert.sh 2>> /var/log/acme_tiny.log"
+  },
+  {
+    "row": 180,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 181,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**참고:** Let's Encrypt의 ACME v2 릴리스(acme-tiny 4.0.0 이상) 이후로, 중간"
+  },
+  {
+    "row": 182,
+    "rowsha": "MA8NhCryTKOuM7c+ZMXYmjdxzT30w5k6m7/9xDlGrhI=",
+    "originContent": "**NOTE:** Since Let's Encrypt's ACME v2 release (acme-tiny 4.0.0+), the intermediate",
+    "translatedContent": "인증서는 발급된 인증서 다운로드에 포함되어 있으므로 더 이상"
+  },
+  {
+    "row": 183,
+    "rowsha": "EkdD6ukF7tZnjMC7ARsti67fnx7DaeXDrEdWWdTJ7WQ=",
+    "originContent": "certificate is included in the issued certificate download, so you no longer have",
+    "translatedContent": "중간 인증서를 별도로 다운로드하여 서명된 인증서에 이어 붙일 필요가 없습니다."
+  },
+  {
+    "row": 184,
+    "rowsha": "WmleS3aSuXd3coKoWMvNguYskQBrqP3lB4yo9Ah0ftU=",
+    "originContent": "to independently download the intermediate certificate and concatenate it to your",
+    "translatedContent": "만약 acme-tiny &lt;4.0 (예: 2018-03-17 이전) 버전과 함께 사용하는"
+  },
+  {
+    "row": 185,
+    "rowsha": "UMVCkXnGPXoNBbAhpqX9x7jq5JYGXvZxJlZ/d1zHCxM=",
+    "originContent": "signed certificate. If you have an shell script or Makefile using acme-tiny &lt;4.0 (e.g. before",
+    "translatedContent": "쉘 스크립트나 Makefile이 있고, acme-tiny 4.0.0+를 사용한다면,"
+  },
+  {
+    "row": 186,
+    "rowsha": "LnZvhT0l10/pV2k8B0hB9numT2ddZDVF+QhT4XvQ4Ko=",
+    "originContent": "2018-03-17) with acme-tiny 4.0.0+, then you may be adding the intermediate",
+    "translatedContent": "중간 인증서를 signed_chain.crt에 두 번 추가하고 있을 수 있습니다(이는"
+  },
+  {
+    "row": 187,
+    "rowsha": "2/vJfUVPMzjASSa0LmJSSPCtHreHZYs/vqs3ybXCpR0=",
+    "originContent": "certificate to your signed_chain.crt twice (which",
+    "translatedContent": "[최소한 GnuTLS 3.7.0에서 문제를 일으킵니다](https://gitlab.com/gnutls/gnutls/-/issues/1131)"
+  },
+  {
+    "row": 188,
+    "rowsha": "t3UG1R1FBBWZNIYe87FHLS2YkgkzF5HA3Fa38jyeh7E=",
+    "originContent": "[causes issues with at least GnuTLS 3.7.0](https://gitlab.com/gnutls/gnutls/-/issues/1131)",
+    "translatedContent": "그리고 인증서 크기가 불필요하게 커지는 원인이 됩니다). 이를 해결하려면,"
+  },
+  {
+    "row": 189,
+    "rowsha": "HYGrznsatAbHb1A5wyy9ORFakvKv9KGxudVP82ddk7c=",
+    "originContent": "besides making the certificate slightly larger than it needs to be). To fix,",
+    "translatedContent": "중간 인증서를 다운로드하고 acme-tiny 인증서 출력에 추가하는 bash 코드를"
+  },
+  {
+    "row": 190,
+    "rowsha": "xq6Fa54u0WZYJXVX0vNank+QIEPe2XlxKtmLX9Vhb38=",
+    "originContent": "simply remove the bash code where you're downloading the intermediate and adding",
+    "translatedContent": "그냥 제거하세요."
+  },
+  {
+    "row": 191,
+    "rowsha": "02tEPZGOv4P+KUN3m0QKdV1cAgW1h5tMjpKyX/mW6a8=",
+    "originContent": "it to the acme-tiny certificate output.",
+    "translatedContent": ""
+  },
+  {
+    "row": 192,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 권한"
+  },
+  {
+    "row": 193,
+    "rowsha": "pkb0aA3qFXj8Un+oWucSi33Aga9CvIY5BKZAd4ofCik=",
+    "originContent": "## Permissions",
+    "translatedContent": ""
+  },
+  {
+    "row": 194,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 스크립트를 설정하고 실행할 때 가장 많이 겪게 될 문제는 권한입니다."
+  },
+  {
+    "row": 195,
+    "rowsha": "vS2CtToRhvDxSdnGEpaxO103NmK3Y3iE5vMAk1ENtLc=",
+    "originContent": "The biggest problem you'll likely come across while setting up and running this",
+    "translatedContent": "계정 개인키와 챌린지 웹 폴더에 대한 접근을 최대한 제한하는 것이 좋습니다."
+  },
+  {
+    "row": 196,
+    "rowsha": "B51AhahRG9j6AKkI3FjoUTb3dlHdPV334g/Hfpb6SUY=",
+    "originContent": "script is permissions. You want to limit access to your account private key and",
+    "translatedContent": "이 스크립트, 계정 개인키, 챌린지 폴더를 처리할 전용 사용자를 만드는 것을 권장합니다."
+  },
+  {
+    "row": 197,
+    "rowsha": "wy30l25OYtHwiwsgrgVME26mbrjfp1PXDR6j0VUNOYw=",
+    "originContent": "challenge web folder as much as possible. I'd recommend creating a user",
+    "translatedContent": "그 후, 그 사용자에게 설치된 인증서 파일(e.g. `/path/to/signed_chain.crt`)에 쓰기 권한과"
+  },
+  {
+    "row": 198,
+    "rowsha": "nrMtpL5HjoA1XOLPfNTeHfWcYceEd0XUgEJFivqeSOQ=",
+    "originContent": "specifically for handling this script, the account private key, and the",
+    "translatedContent": "웹서버 재시작 권한을 부여하세요. 이렇게 하면 크론 스크립트가"
+  },
+  {
+    "row": 199,
+    "rowsha": "YgLaKAb+rXUKFwwt9tIEWfDI2NMIrU2emZvO7rg4bFA=",
+    "originContent": "challenge folder. Then add the ability for that user to write to your installed",
+    "translatedContent": "작동하여 기존 인증서를 덮어쓰고 웹서버를 재시작하지만 다른 작업은 할 수 없게 됩니다."
+  },
+  {
+    "row": 200,
+    "rowsha": "PKLD1MmH2aUzthZCbT/JBmcRNRnGeRbFGWpAUcSRIRI=",
+    "originContent": "certificate file (e.g. `/path/to/signed_chain.crt`) and reload your webserver. That",
+    "translatedContent": ""
+  },
+  {
+    "row": 201,
+    "rowsha": "GfmlaA/fJDYLhX2151cgBSqvuw3EGdWLvn28PJ2w3cg=",
+    "originContent": "way, the cron script will do its thing, overwrite your old certificate, and",
+    "translatedContent": "**반드시 해야 할 것:**"
+  },
+  {
+    "row": 202,
+    "rowsha": "ngMX+6cgJuI0fTcHjWIcZYNm4/rsBcTOA+/7JuzHNdg=",
+    "originContent": "reload your webserver without having permission to do anything else.",
+    "translatedContent": "* 계정 개인키(e.g. `account.key`)를 백업하세요"
+  },
+  {
+    "row": 203,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* 이 스크립트가 도메인 개인키를 읽을 수 없게 하세요!"
+  },
+  {
+    "row": 204,
+    "rowsha": "61DY+GePaN1jAxhkR4igXow+CHLGCLgiuvbRH6ps+64=",
+    "originContent": "**BE SURE TO:**",
+    "translatedContent": "* 이 스크립트를 root 권한으로 실행하지 마세요!"
+  },
+  {
+    "row": 205,
+    "rowsha": "9S6uHjm5tag37qeNmuQaVO0ysNl754xxVrUbdCCHHAw=",
+    "originContent": "* Backup your account private key (e.g. `account.key`)",
+    "translatedContent": ""
+  },
+  {
+    "row": 206,
+    "rowsha": "ordQMZbMZ7ehI4t70C8q/bP/MDHcXT5pca4nu3m1vyo=",
+    "originContent": "* Don't allow this script to be able to read your domain private key!",
+    "translatedContent": "## 스테이징 환경"
+  },
+  {
+    "row": 207,
+    "rowsha": "Ug7jPL83+cMc4FMbgms7nu4stPfae1CFns611KrER6U=",
+    "originContent": "* Don't allow this script to be run as root!",
+    "translatedContent": ""
+  },
+  {
+    "row": 208,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Let's Encrypt는 새로운 설정을 스테이징 서버에서 테스트할 것을 권장합니다."
+  },
+  {
+    "row": 209,
+    "rowsha": "5T+QFJwQIdlcSLO2VK4S+ngSCFuMAsXoYLJym3L/QSM=",
+    "originContent": "## Staging Environment",
+    "translatedContent": "새 설정을 시험할 때는"
+  },
+  {
+    "row": 210,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`--directory-url https://acme-staging-v02.api.letsencrypt.org/directory`"
+  },
+  {
+    "row": 211,
+    "rowsha": "D9Izp/Lx9I9Go0hB5frKqervYVcuMBUpUGrKgY+14Nc=",
+    "originContent": "Let's Encrypt recommends testing new configurations against their staging servers,",
+    "translatedContent": "를 사용하여 Let's Encrypt의 운영 서버 대신 가짜 테스트 인증서를 발급할 수 있습니다."
+  },
+  {
+    "row": 212,
+    "rowsha": "dgDJxhqkFmskBRYPs0Yem8gIythMQ49ierdG2tPx5xM=",
+    "originContent": "so when testing out your new setup, you can use",
+    "translatedContent": "자세한 내용은 [https://letsencrypt.org/docs/staging-environment/](https://letsencrypt.org/docs/staging-environment/)"
+  },
+  {
+    "row": 213,
+    "rowsha": "BNETsYtQymwMcIQxEY2Z0g5lKM8WyuDYSQgKmjTpHo0=",
+    "originContent": "`--directory-url https://acme-staging-v02.api.letsencrypt.org/directory`",
+    "translatedContent": "를 참조하세요."
+  },
+  {
+    "row": 214,
+    "rowsha": "8loWxfbI88SkL0bcVJAVcTPcaGOih7s/35Lv7arrfoo=",
+    "originContent": "to issue fake test certificates instead of real ones from Let's Encrypt's production servers.",
+    "translatedContent": ""
+  },
+  {
+    "row": 215,
+    "rowsha": "YQQjonlUKzFQIxtKKJfVLP7t08LlvW3/3Vh5n4vmtPw=",
+    "originContent": "See [https://letsencrypt.org/docs/staging-environment/](https://letsencrypt.org/docs/staging-environment/)",
+    "translatedContent": "## 피드백/기여"
+  },
+  {
+    "row": 216,
+    "rowsha": "HbW/z7Q+bnBbvqY9uASDZbgcNBobDtNeBlArhnqL8sc=",
+    "originContent": "for more details.",
+    "translatedContent": ""
+  },
+  {
+    "row": 217,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 프로젝트는 매우 제한된 범위와 코드베이스를 가지고 있습니다. 버그 신고와"
+  },
+  {
+    "row": 218,
+    "rowsha": "HnZ6TE5c0ZDpzZdubuUu4A6Y9VtQyhM2TozFIWsIgnw=",
+    "originContent": "## Feedback/Contributing",
+    "translatedContent": "풀 리퀘스트는 환영하지만 새로운 기능 추가는 자제해 주세요."
+  },
+  {
+    "row": 219,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 스크립트는 200줄 미만의 코드로 유지되어야 하며, 쉽게 검토할 수 있어야 합니다."
+  },
+  {
+    "row": 220,
+    "rowsha": "glq0+7r2knrHo03Xdc/L7MtqX0bBh36DxwjyhUHlZlg=",
+    "originContent": "This project has a very, very limited scope and codebase. I'm happy to receive",
+    "translatedContent": ""
+  },
+  {
+    "row": 221,
+    "rowsha": "yNSmadEUQ50p37N7wYL93nETkbKxk5mMsnG0214FozM=",
+    "originContent": "bug reports and pull requests, but please don't add any new features. This",
+    "translatedContent": "자신의 환경에 맞게 기능을 추가하고 싶다면 얼마든지 하세요!"
+  },
+  {
+    "row": 222,
+    "rowsha": "9a5m96UjyfiRnB4Ml07esTXsBgg1zRqaQ2Q7cC+JdhM=",
+    "originContent": "script must stay under 200 lines of code to ensure it can be easily audited by",
+    "translatedContent": "오픈소스이므로 자유롭게 포크하여 필요에 맞게 수정해도 됩니다."
+  },
+  {
+    "row": 223,
+    "rowsha": "Vnl0xN4lnjILdZK0nrnwFiVGlh4gKPWoRGjVes79aYI=",
+    "originContent": "anyone who wants to run it.",
+    "translatedContent": ""
+  },
+  {
+    "row": 224,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 225,
+    "rowsha": "GJwPs3j/L6ZgFNgWqwdFtMw5VDHT1h5m8+Rcu2/HLHQ=",
+    "originContent": "If you want to add features for your own setup to make things easier for you,",
+    "translatedContent": ""
+  },
+  {
+    "row": 226,
+    "rowsha": "uT/a4BV61Fou/h6Uq16AJcigf58Eu3OnnQBZYbQ7Jq0=",
+    "originContent": "please do! It's open source, so feel free to fork it and modify as necessary.",
+    "translatedContent": ""
+  },
+  {
+    "row": 227,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
