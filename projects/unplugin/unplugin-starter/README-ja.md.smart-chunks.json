@@ -1,0 +1,961 @@
+[
+  {
+    "Id": 1,
+    "Content": "# unplugin-starter\n\n[![NPM version](https://img.shields.io/npm/v/unplugin-starter?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-starter)\n\nStarter template for [unplugin](https://github.com/unjs/unplugin).\n\n## Template Usage\n\nTo use this template, clone it down using:\n",
+    "ContentSha": "HqFQYB9es07jPQ4Y5q2acmku5Oat8wI8YHvFNsKrfwc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># unplugin-starter\n\n[![NPM version](https://img.shields.io/npm/v/unplugin-starter?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-starter)\n\n[unplugin](https://github.com/unjs/unplugin) のスターターテンプレート。\n\n## テンプレートの使用方法\n\nこのテンプレートを使用するには、次のコマンドでクローンしてください：\n</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "IsbO0BFP+vwtS+JTpN762D5GJ07abua1RsueiWlWYgw=",
+        "originContent": "# unplugin-starter",
+        "translatedContent": "<translate-content># unplugin-starter"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "igFs92PSgl3xsnPpx1BhMOx5cDGFAA8jxEgKJRYrlgo=",
+        "originContent": "[![NPM version](https://img.shields.io/npm/v/unplugin-starter?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-starter)",
+        "translatedContent": "[![NPM version](https://img.shields.io/npm/v/unplugin-starter?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-starter)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "XXfBPR6JruCrwSF8pAGxrRf9OMWWXaUczD/8D/qbn/I=",
+        "originContent": "Starter template for [unplugin](https://github.com/unjs/unplugin).",
+        "translatedContent": "[unplugin](https://github.com/unjs/unplugin) のスターターテンプレート。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "jgUXW6jgEIEQpVfYEb9Xym12EtX/N6Nn+X5JCIwQxig=",
+        "originContent": "## Template Usage",
+        "translatedContent": "## テンプレートの使用方法"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "dgreKgmEOlEmmIsulqyxAa9VQdpH+17aZQl2L7r/0v8=",
+        "originContent": "To use this template, clone it down using:",
+        "translatedContent": "このテンプレートを使用するには、次のコマンドでクローンしてください："
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\nnpx degit unplugin/unplugin-starter my-unplugin\n```",
+    "ContentSha": "LLlIJd4/XhFevM3MXgpv/55FeHUySwk6+sa84XrK+Gs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpx degit unplugin/unplugin-starter my-unplugin\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "uZTHNl9hRezk+RnmJ+wekXTozmigEHY5+aWXAyVHYpQ=",
+        "originContent": "npx degit unplugin/unplugin-starter my-unplugin",
+        "translatedContent": "npx degit unplugin/unplugin-starter my-unplugin"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nAnd do a global replacement of `unplugin-starter` with your plugin name.\n\nThen you can start developing your unplugin 🔥\n\nTo test your plugin, run: `pnpm run dev`\nTo release a new version, run: `pnpm run release`\n\n## Install\n",
+    "ContentSha": "e8pCelDfsqem4+ebKwjtNbcHijW9WNYMhD2USlOYhCM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\nそして、`unplugin-starter` をあなたのプラグイン名にグローバル置換してください。\n\nこれで unplugin の開発を始めることができます 🔥\n\nプラグインをテストするには、`pnpm run dev` を実行します\n新しいバージョンをリリースするには、`pnpm run release` を実行します\n\n## インストール\n</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "3nGOzitbu7N9o1bOZM8sVoCwC0pYyL8HWugcD4Icgzk=",
+        "originContent": "And do a global replacement of `unplugin-starter` with your plugin name.",
+        "translatedContent": "そして、`unplugin-starter` をあなたのプラグイン名にグローバル置換してください。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "1rf+CDnuju6A4L9u2J/86ZVkeOy1tJeUjh+Tut1GnX8=",
+        "originContent": "Then you can start developing your unplugin 🔥",
+        "translatedContent": "これで unplugin の開発を始めることができます 🔥"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "QSuhp/Xo0ATobbLjIsPjPYa9VwRstKtENMowCz/2Py0=",
+        "originContent": "To test your plugin, run: `pnpm run dev`",
+        "translatedContent": "プラグインをテストするには、`pnpm run dev` を実行します"
+      },
+      {
+        "row": 7,
+        "rowsha": "aWVLP7XMaD3cB0u5l0yRDvlvxU3tatbcl2YCKvjyxH8=",
+        "originContent": "To release a new version, run: `pnpm run release`",
+        "translatedContent": "新しいバージョンをリリースするには、`pnpm run release` を実行します"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+        "originContent": "## Install",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nnpm i unplugin-starter\n```",
+    "ContentSha": "M/E3ynE7x10SfNNHM3PEhAggVyUul1iZRDe+M/oIVB0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpm i unplugin-starter\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "WiYEEcOkoe0L8mIvwpuGqNt6kZ9Rgqwnd+ZXzPSowg8=",
+        "originContent": "npm i unplugin-starter",
+        "translatedContent": "npm i unplugin-starter"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n<details>\n<summary>Vite</summary><br>\n",
+    "ContentSha": "esmlYjEIRm3fjt4wAcl6Um2ubDppuvPzejp15YlClLY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\n<details>\n<summary>Vite</summary><br>\n</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "zXJK0im5PW3xX+s8q6R/zrzp+Z3Nx7tS7TB9yk8dz/0=",
+        "originContent": "<summary>Vite</summary><br>",
+        "translatedContent": "<summary>Vite</summary><br>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```ts\n// vite.config.ts\nimport Starter from 'unplugin-starter/vite'\n\nexport default defineConfig({\n  plugins: [\n    Starter({ /* options */ }),\n  ],\n})\n```",
+    "ContentSha": "hxuuW+T8xsZlMWU6uMXONvNcsEd5bi3H/At5wOxaup0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ts\n// vite.config.ts\nimport Starter from 'unplugin-starter/vite'\n\nexport default defineConfig({\n  plugins: [\n    Starter({ /* options */ }),\n  ],\n})\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+        "originContent": "```ts",
+        "translatedContent": "```ts"
+      },
+      {
+        "row": 2,
+        "rowsha": "Fyw+JDO2OmALqtkA1t4LkqO6Vb6cDL5Y23CgrJDsY6w=",
+        "originContent": "// vite.config.ts",
+        "translatedContent": "// vite.config.ts"
+      },
+      {
+        "row": 3,
+        "rowsha": "EEjWF1OjmUotS5kAJD+LHdGiw4OPLrEFB+QrOXLtFDU=",
+        "originContent": "import Starter from 'unplugin-starter/vite'",
+        "translatedContent": "import Starter from 'unplugin-starter/vite'"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "pxlmGtYe1w1KMBva5rp+lHF+7Z+LH5UVh4Ii/ZGTQo8=",
+        "originContent": "export default defineConfig({",
+        "translatedContent": "export default defineConfig({"
+      },
+      {
+        "row": 6,
+        "rowsha": "xi3phYtpenrywBPZ1rVUToaSjseiAa+2Qybr4vAXDN4=",
+        "originContent": "  plugins: [",
+        "translatedContent": "  plugins: ["
+      },
+      {
+        "row": 7,
+        "rowsha": "iTeYnr/z6Sw5HsvTflw163Vy9+Xlx6cU14c0N4YEUS4=",
+        "originContent": "    Starter({ /* options */ }),",
+        "translatedContent": "    Starter({ /* options */ }),"
+      },
+      {
+        "row": 8,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 9,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nExample: [`playground/`](./playground/)\n\n<br></details>\n\n<details>\n<summary>Rollup</summary><br>\n",
+    "ContentSha": "AKUDk76ZSo3yO3evc/TJMZgcxFRa447cCMp7uJ0lT38=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Example: [`playground/`](./playground/)\n\n<br></details>\n\n<details>\n<summary>Rollup</summary><br>\n</details>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Example: [`playground/`](./playground/)"
+      },
+      {
+        "row": 2,
+        "rowsha": "5Ha/KkRtp+HVtsPTunvPPaEUBjI0mmyq4kZGtxBBp1A=",
+        "originContent": "Example: [`playground/`](./playground/)",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<br></details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "74ifRsY6O5OYCOEE14BvfmitDjKFw+v0FJSx1TzRr5U=",
+        "originContent": "<br></details>",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 6,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<summary>Rollup</summary><br>"
+      },
+      {
+        "row": 7,
+        "rowsha": "GYpNPsLA6H0PxceWrRfrigCM4a9E38oOPRSCG3pI3gM=",
+        "originContent": "<summary>Rollup</summary><br>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```ts\n// rollup.config.js\nimport Starter from 'unplugin-starter/rollup'\n\nexport default {\n  plugins: [\n    Starter({ /* options */ }),\n  ],\n}\n```",
+    "ContentSha": "ptgCliHNW/SLvvm6o96HoTIZHOrvGytORmgY9fy1y9I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ts\n// rollup.config.js\nimport Starter from 'unplugin-starter/rollup'\n\nexport default {\n  plugins: [\n    Starter({ /* options */ }),\n  ],\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+        "originContent": "```ts",
+        "translatedContent": "```ts"
+      },
+      {
+        "row": 2,
+        "rowsha": "KeA4IrmionlTVA2q+ztNkJet7/EQMLFY9AVScChAvgM=",
+        "originContent": "// rollup.config.js",
+        "translatedContent": "// rollup.config.js"
+      },
+      {
+        "row": 3,
+        "rowsha": "XMAMdiSgDsGVVkscPEj+t8PLbcGGx2looGOG6l0MpaY=",
+        "originContent": "import Starter from 'unplugin-starter/rollup'",
+        "translatedContent": "import Starter from 'unplugin-starter/rollup'"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "ikHhPmgNY52/Y57QX+s+O3S6qF684Au/Zj4aR1NY1n4=",
+        "originContent": "export default {",
+        "translatedContent": "export default {"
+      },
+      {
+        "row": 6,
+        "rowsha": "xi3phYtpenrywBPZ1rVUToaSjseiAa+2Qybr4vAXDN4=",
+        "originContent": "  plugins: [",
+        "translatedContent": "  plugins: ["
+      },
+      {
+        "row": 7,
+        "rowsha": "iTeYnr/z6Sw5HsvTflw163Vy9+Xlx6cU14c0N4YEUS4=",
+        "originContent": "    Starter({ /* options */ }),",
+        "translatedContent": "    Starter({ /* options */ }),"
+      },
+      {
+        "row": 8,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 9,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n<br></details>\n\n<details>\n<summary>Webpack</summary><br>\n",
+    "ContentSha": "QstnfzfToIWvmNOrPdZAh760yA4xAiwpA/iXKwdwH0c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<br></details>\n\n<details>\n<summary>Webpack</summary><br>\n</details>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<br></details>"
+      },
+      {
+        "row": 2,
+        "rowsha": "74ifRsY6O5OYCOEE14BvfmitDjKFw+v0FJSx1TzRr5U=",
+        "originContent": "<br></details>",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<summary>Webpack</summary><br>"
+      },
+      {
+        "row": 5,
+        "rowsha": "s/rzDyXdbm7EaTBdfexJizhG61QrFBbKijWVq7RItD4=",
+        "originContent": "<summary>Webpack</summary><br>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```ts\n// webpack.config.js\nmodule.exports = {\n  /* ... */\n  plugins: [\n    require('unplugin-starter/webpack')({ /* options */ })\n  ]\n}\n```",
+    "ContentSha": "JKGMtx7Oh04SHcGoaUvRh3DisFwP/kicOd5RlZRe69k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ts\n// webpack.config.js\nmodule.exports = {\n  /* ... */\n  plugins: [\n    require('unplugin-starter/webpack')({ /* options */ })\n  ]\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+        "originContent": "```ts",
+        "translatedContent": "```ts"
+      },
+      {
+        "row": 2,
+        "rowsha": "S+ZY5IGOrj/BS/gzavfI4ew8zdPnPe03UwXEyx7xG4k=",
+        "originContent": "// webpack.config.js",
+        "translatedContent": "// webpack.config.js"
+      },
+      {
+        "row": 3,
+        "rowsha": "yV9r7cMJPhVqNFKdjJLCUTFm4FMKideAIShppxAvnCk=",
+        "originContent": "module.exports = {",
+        "translatedContent": "module.exports = {"
+      },
+      {
+        "row": 4,
+        "rowsha": "TRvcdD/X0/bLO7e40/Y67R3pSqnTCqu/aK5L+L80XXg=",
+        "originContent": "  /* ... */",
+        "translatedContent": "  /* ... */"
+      },
+      {
+        "row": 5,
+        "rowsha": "xi3phYtpenrywBPZ1rVUToaSjseiAa+2Qybr4vAXDN4=",
+        "originContent": "  plugins: [",
+        "translatedContent": "  plugins: ["
+      },
+      {
+        "row": 6,
+        "rowsha": "HIwYhkq8G/xeT39KEceBznNkO9AxFvMTpphTNBhxOe0=",
+        "originContent": "    require('unplugin-starter/webpack')({ /* options */ })",
+        "translatedContent": "    require('unplugin-starter/webpack')({ /* options */ })"
+      },
+      {
+        "row": 7,
+        "rowsha": "Z+kA9vmM2PlCZvTIXMNBvSyUEN4PZY97Bt49YhDsI98=",
+        "originContent": "  ]",
+        "translatedContent": "  ]"
+      },
+      {
+        "row": 8,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n<br></details>\n\n<details>\n<summary>Nuxt</summary><br>\n",
+    "ContentSha": "2STX43kpg3WZ8aQvQPBk04d5fvcIj2CpQ3hVW3W+uL0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<br></details>\n\n<details>\n<summary>Nuxt</summary><br>\n</details>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<br></details>"
+      },
+      {
+        "row": 2,
+        "rowsha": "74ifRsY6O5OYCOEE14BvfmitDjKFw+v0FJSx1TzRr5U=",
+        "originContent": "<br></details>",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<summary>Nuxt</summary><br>"
+      },
+      {
+        "row": 5,
+        "rowsha": "akAzaCwGlXV7U0X/Ph+irdhM/gw4ycHso1E8hwo3scs=",
+        "originContent": "<summary>Nuxt</summary><br>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```ts\n// nuxt.config.js\nexport default defineNuxtConfig({\n  modules: [\n    ['unplugin-starter/nuxt', { /* options */ }],\n  ],\n})\n```",
+    "ContentSha": "3aeofChhZ92dkaDT5+dW/CtRblVbZvO68GAmkLP2AGE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ts\n// nuxt.config.js\nexport default defineNuxtConfig({\n  modules: [\n    ['unplugin-starter/nuxt', { /* options */ }],\n  ],\n})\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+        "originContent": "```ts",
+        "translatedContent": "```ts"
+      },
+      {
+        "row": 2,
+        "rowsha": "hjELdDbSPBXB4/1htr7F1/IWk5/F68rrCL+5OMJx7f0=",
+        "originContent": "// nuxt.config.js",
+        "translatedContent": "// nuxt.config.js"
+      },
+      {
+        "row": 3,
+        "rowsha": "plggI8b0H5Gt1ii9y08mpsW+CWCXmLInjO2n8oH20cY=",
+        "originContent": "export default defineNuxtConfig({",
+        "translatedContent": "export default defineNuxtConfig({"
+      },
+      {
+        "row": 4,
+        "rowsha": "ky17xkAW8nmRBLWRXRJWLmuOAYuacXY6bCwmLJuTY04=",
+        "originContent": "  modules: [",
+        "translatedContent": "  modules: ["
+      },
+      {
+        "row": 5,
+        "rowsha": "vLiFcWTYWqLfIDY6I31W+u9T/1n64qKYUOXNQLWF7eM=",
+        "originContent": "    ['unplugin-starter/nuxt', { /* options */ }],",
+        "translatedContent": "    ['unplugin-starter/nuxt', { /* options */ }],"
+      },
+      {
+        "row": 6,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 7,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n> This module works for both Nuxt 2 and [Nuxt Vite](https://github.com/nuxt/vite)\n\n<br></details>\n\n<details>\n<summary>Vue CLI</summary><br>\n",
+    "ContentSha": "1rcSSIv6ffXkmmwOnXaW/9r5PxY38hk0IgefmlpRs8o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> このモジュールは Nuxt 2 と [Nuxt Vite](https://github.com/nuxt/vite) の両方で動作します\n\n<br></details>\n\n<details>\n<summary>Vue CLI</summary><br>\n</details>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> このモジュールは Nuxt 2 と [Nuxt Vite](https://github.com/nuxt/vite) の両方で動作します"
+      },
+      {
+        "row": 2,
+        "rowsha": "M7eCtiJD8xJCck6vsTlxErdfHz467TDIGLI7hDTxq0I=",
+        "originContent": "> This module works for both Nuxt 2 and [Nuxt Vite](https://github.com/nuxt/vite)",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<br></details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "74ifRsY6O5OYCOEE14BvfmitDjKFw+v0FJSx1TzRr5U=",
+        "originContent": "<br></details>",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 6,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<summary>Vue CLI</summary><br>"
+      },
+      {
+        "row": 7,
+        "rowsha": "jasyqIrBiP6gtbXgGwxMR18Cd5DTIqkLWL39ImVCMq4=",
+        "originContent": "<summary>Vue CLI</summary><br>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```ts\n// vue.config.js\nmodule.exports = {\n  configureWebpack: {\n    plugins: [\n      require('unplugin-starter/webpack')({ /* options */ }),\n    ],\n  },\n}\n```",
+    "ContentSha": "eHEYTTM6wgQkxVTRwk2pNyumVXw6clYjg2ZuM1LqcBg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ts\n// vue.config.js\nmodule.exports = {\n  configureWebpack: {\n    plugins: [\n      require('unplugin-starter/webpack')({ /* options */ }),\n    ],\n  },\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+        "originContent": "```ts",
+        "translatedContent": "```ts"
+      },
+      {
+        "row": 2,
+        "rowsha": "+DVPetpVTSLAT/b1e+PpY3ykiJ4nEvyPJ2OPpXNwylQ=",
+        "originContent": "// vue.config.js",
+        "translatedContent": "// vue.config.js"
+      },
+      {
+        "row": 3,
+        "rowsha": "yV9r7cMJPhVqNFKdjJLCUTFm4FMKideAIShppxAvnCk=",
+        "originContent": "module.exports = {",
+        "translatedContent": "module.exports = {"
+      },
+      {
+        "row": 4,
+        "rowsha": "LD07djoUlOtl9dKgYTLq0x7/5BjihmYfvjpz8WKfD3E=",
+        "originContent": "  configureWebpack: {",
+        "translatedContent": "  configureWebpack: {"
+      },
+      {
+        "row": 5,
+        "rowsha": "PSCMY/KQyTwdsYWRtxwjPr3bAVK4d0UqLXheEzI8wAA=",
+        "originContent": "    plugins: [",
+        "translatedContent": "    plugins: ["
+      },
+      {
+        "row": 6,
+        "rowsha": "QRBLQsyAvXg+YD+0o16CrhmBV0VO9NuF/xwNoxT8AMY=",
+        "originContent": "      require('unplugin-starter/webpack')({ /* options */ }),",
+        "translatedContent": "      require('unplugin-starter/webpack')({ /* options */ }),"
+      },
+      {
+        "row": 7,
+        "rowsha": "/4y2mDluE/6gPlOuW99X51DJh7tetngAemmeBkzB+FY=",
+        "originContent": "    ],",
+        "translatedContent": "    ],"
+      },
+      {
+        "row": 8,
+        "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+        "originContent": "  },",
+        "translatedContent": "  },"
+      },
+      {
+        "row": 9,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n<br></details>\n\n<details>\n<summary>esbuild</summary><br>\n",
+    "ContentSha": "vGxljq4KHrEE9doWLQILqZCaWcp+RL4p04fpss20K7A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<br></details>\n\n<details>\n<summary>esbuild</summary><br>\n</details>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<br></details>"
+      },
+      {
+        "row": 2,
+        "rowsha": "74ifRsY6O5OYCOEE14BvfmitDjKFw+v0FJSx1TzRr5U=",
+        "originContent": "<br></details>",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<summary>esbuild</summary><br>"
+      },
+      {
+        "row": 5,
+        "rowsha": "bGMwPbMmuCOroskrcMWDaYkHNGMqHfy6K4cLmcAtl2c=",
+        "originContent": "<summary>esbuild</summary><br>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```ts\n// esbuild.config.js\nimport { build } from 'esbuild'\nimport Starter from 'unplugin-starter/esbuild'\n\nbuild({\n  plugins: [Starter()],\n})\n```",
+    "ContentSha": "bGi4dpuwFO8rdltsP5hZpPUYCK3uiS5+E9zv3sY4IQ0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ts\n// esbuild.config.js\nimport { build } from 'esbuild'\nimport Starter from 'unplugin-starter/esbuild'\n\nbuild({\n  plugins: [Starter()],\n})\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+        "originContent": "```ts",
+        "translatedContent": "```ts"
+      },
+      {
+        "row": 2,
+        "rowsha": "Oh92HLrVNTwJxdTsrLSYTkylnHmQf17cagcxLPerw3w=",
+        "originContent": "// esbuild.config.js",
+        "translatedContent": "// esbuild.config.js"
+      },
+      {
+        "row": 3,
+        "rowsha": "uxZaSWzVK/uYUVEH7My1G5+SJyTFPhmGTfhM28spj7I=",
+        "originContent": "import { build } from 'esbuild'",
+        "translatedContent": "import { build } from 'esbuild'"
+      },
+      {
+        "row": 4,
+        "rowsha": "DMLgbZHvrp4V9ARYQBtFILWqXTck3FhhipUvWdqL+yM=",
+        "originContent": "import Starter from 'unplugin-starter/esbuild'",
+        "translatedContent": "import Starter from 'unplugin-starter/esbuild'"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "E5yDVavwSJXO/M+bnddAmUBWN87Hn6SmLqCaFXqjbDU=",
+        "originContent": "build({",
+        "translatedContent": "build({"
+      },
+      {
+        "row": 7,
+        "rowsha": "tRCGJ6Z4B+OqF6fu5g6uv/z5EGqRyMuq3FNC97HplNo=",
+        "originContent": "  plugins: [Starter()],",
+        "translatedContent": "  plugins: [Starter()],"
+      },
+      {
+        "row": 8,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n<br></details>\n",
+    "ContentSha": "pTM54wp09PywVgWLNvXWedwkFcx7CTHLszw4+LmSx5w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<br></details>\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<br></details>"
+      },
+      {
+        "row": 2,
+        "rowsha": "74ifRsY6O5OYCOEE14BvfmitDjKFw+v0FJSx1TzRr5U=",
+        "originContent": "<br></details>",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
