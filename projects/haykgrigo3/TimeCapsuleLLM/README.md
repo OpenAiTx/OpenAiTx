@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-CN">简体中文</a>
+        | <a href="#" title="Coming soon">繁體中文 (coming soon)</a> |
+        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko">한국어</a>
+        | <a href="#" title="Coming soon">हिन्दी (coming soon)</a> |
+        | <a href="#" title="Coming soon">ไทย (coming soon)</a> |
+        | <a href="#" title="Coming soon">Français (coming soon)</a>
+        | <a href="#" title="Coming soon">Deutsch (coming soon)</a>
+        | <a href="#" title="Coming soon">Español (coming soon)</a>
+        | <a href="#" title="Coming soon">Italiano (coming soon)</a>
+        | <a href="#" title="Coming soon">Русский (coming soon)</a>
+        | <a href="#" title="Coming soon">Português (coming soon)</a>
+        | <a href="#" title="Coming soon">Nederlands (coming soon)</a>
+        | <a href="#" title="Coming soon">Polski (coming soon)</a>
+        | <a href="#" title="Coming soon">العربية (coming soon)</a>
+        | <a href="#" title="Coming soon">فارسی (coming soon)</a>
+        | <a href="#" title="Coming soon">Türkçe (coming soon)</a>
+        | <a href="#" title="Coming soon">Tiếng Việt (coming soon)</a>
+        | <a href="#" title="Coming soon">Bahasa Indonesia (coming soon)</a>
+
+      </div>
+    </div>
+  </details>
+</div>
+
 # TimeCapsule LLM
 An LLM trained only on data from certain time periods to reduce modern bias.
 
@@ -79,7 +111,9 @@ I'm learning a lot and will start figuring out what I need to do better in the c
 
 # Upcoming Plans 
 
-I'm going to start work on version 1, instead of training using 50 books, I'll train using ideally 500-600. Right now I'm training nanoGPT using books from 1800-1850 and specifically from London. There is some challeneges like making sure the books I find are not updated or have modern interpretations but untouched books published withtin my chosen time period.
+(Completed) I'm going to start work on version 0.5 , instead of training using 50 books, I'll train using ideally 500-600. Right now I'm training nanoGPT using books from 1800-1850 and specifically from London. There is some challeneges like making sure the books I find are not updated or have modern interpretations but untouched books published withtin my chosen time period.
+
+I want to train a new model (v1) with a much larger corpus, maybe 5-10x larger than the one I used for v0.5. My goal is to see if I can get reasoning abilities to emerge from Selective Temporal Training alone, this will be a more difficult task and I'm not even entirely sure if it's possible due to the fact that there is historical data limitations. In the upcoming weeks I will try to curate enough data for a 5-10GB corpus. I believe If I can get clean clean high quality data and rent a GPU, there will be progress.
 
 # How to Use This Project 
 
@@ -109,6 +143,10 @@ Refer to [nanoGPT by Andrej Karpathy](https://github.com/karpathy/nanoGPT) for t
 You can train a different LLM if you want, but I used nanoGPT 
 
 # FAQ
+
+## What is Selective Temporal Training ?
+
+Selective Temporal Training (STT) is a machine learning methodology where all training data is specifically curated to fall within a specific historical time period. It's done in order to model the language and knowledge of that era without influence from modern concepts. For example, the current model I have now (v0.5) is trained on data exclusively from 1800-1875, it's not fine tuned but trained from scratch resulting in output that reflects the linguistic style and historical context of that time period.
 
 ## Why not just use fine-tuning or LoRA?
 

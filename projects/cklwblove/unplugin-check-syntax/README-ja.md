@@ -1,19 +1,50 @@
-<translate-content># unplugin-check-syntax
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
+
+# unplugin-check-syntax
 
 [![npm version](https://badge.fury.io/js/@winner-fed%2Funplugin-check-syntax.svg)](https://badge.fury.io/js/@winner-fed%2Funplugin-check-syntax)
 
-汎用の構文チェックプラグインで、複数のビルドツール（Webpack、Vite、Rollup、esbuild、Rspack など）をサポートし、JavaScript および HTML ファイル内の ECMAScript 構文互換性をチェックします。このプラグインは [rsbuild-plugin-check-syntax](https://github.com/rspack-contrib/rsbuild-plugin-check-syntax) を参考にしています。
+さまざまなビルドツール（Webpack、Vite、Rollup、esbuild、Rspack など）をサポートする汎用的な構文チェックプラグインで、JavaScript および HTML ファイル内の ECMAScript 構文の互換性をチェックします。本プラグインは [rsbuild-plugin-check-syntax](https://github.com/rspack-contrib/rsbuild-plugin-check-syntax) を参考にしています。
 
-## 機能特徴
+## 機能特長
 
-- 🔧 **複数ビルドツール対応**: Webpack、Vite、Rollup、esbuild、Rspack などをサポート
-- 📝 **複数ファイルタイプ**: JavaScript ファイルと HTML ファイル内のインラインスクリプトに対応
-- 🎯 **正確な位置特定**: sourcemap をサポートし、ソースファイルの位置を追跡可能
-- ⚙️ **柔軟な設定**: ファイル除外、手動インクルード、エラータイプフィルターなどのオプション対応
-- 📁 **スマートファイル検出**: glob パターンで追加の JS/HTML ファイルを手動でインクルード可能
-- 🌐 **Browserslist 統合**: browserslist 設定を自動で ECMAScript バージョンに変換対応
+- 🔧 **マルチビルドツール対応**: Webpack、Vite、Rollup、esbuild、Rspack などに対応
+- 📝 **複数ファイルタイプ対応**: JavaScript ファイルおよび HTML ファイル内のインラインスクリプトに対応
+- 🎯 **正確な位置特定**: ソースマップ対応で、元ファイルの位置まで追跡可能
+- ⚙️ **柔軟な設定**: ファイル除外、手動追加、エラータイプのフィルタリング等のオプションに対応
+- 📁 **スマートなファイル検出**: glob パターンで追加の JS/HTML ファイルを手動で含めることが可能
+- 🌐 **Browserslist 統合**: browserslist 設定から ECMAScript バージョンへ自動変換対応
 
 ## インストール
+
 
 ```bash
 npm install @winner-fed/unplugin-check-syntax --save-dev

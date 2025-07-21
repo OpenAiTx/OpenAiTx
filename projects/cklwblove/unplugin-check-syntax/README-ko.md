@@ -1,19 +1,50 @@
-<translate-content># unplugin-check-syntax
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
+
+# unplugin-check-syntax
 
 [![npm version](https://badge.fury.io/js/@winner-fed%2Funplugin-check-syntax.svg)](https://badge.fury.io/js/@winner-fed%2Funplugin-check-syntax)
 
-범용 문법 검사 플러그인으로, Webpack, Vite, Rollup, esbuild, Rspack 등 다양한 빌드 도구를 지원하며 JavaScript와 HTML 파일 내 ECMAScript 문법 호환성을 검사합니다. 이 플러그인은 [rsbuild-plugin-check-syntax](https://github.com/rspack-contrib/rsbuild-plugin-check-syntax)를 참고하였습니다.
+다양한 빌드 도구(Webpack, Vite, Rollup, esbuild, Rspack 등)를 지원하는 범용 구문 검사 플러그인으로, JavaScript와 HTML 파일 내 ECMAScript 구문 호환성을 검사합니다. 이 플러그인은 [rsbuild-plugin-check-syntax](https://github.com/rspack-contrib/rsbuild-plugin-check-syntax)를 참고하였습니다.
 
-## 기능 특징
+## 기능 특성
 
 - 🔧 **다중 빌드 도구 지원**: Webpack, Vite, Rollup, esbuild, Rspack 등 지원
-- 📝 **다중 파일 유형**: JavaScript 파일 및 HTML 파일 내 인라인 스크립트 지원
-- 🎯 **정확한 위치 지정**: sourcemap 지원으로 소스 파일 위치 추적 가능
-- ⚙️ **유연한 구성**: 파일 제외, 수동 포함, 오류 유형 필터링 등의 옵션 지원
-- 📁 **스마트 파일 탐색**: glob 패턴으로 추가 JS/HTML 파일 수동 포함 지원
-- 🌐 **Browserslist 통합**: browserslist 설정을 자동으로 ECMAScript 버전으로 변환 지원
+- 📝 **다중 파일 유형**: JavaScript 파일과 HTML 파일의 인라인 스크립트 지원
+- 🎯 **정확한 위치 표시**: sourcemap 지원으로 소스 파일 위치 추적 가능
+- ⚙️ **유연한 구성**: 파일 제외, 수동 포함, 오류 유형 필터링 등 옵션 지원
+- 📁 **지능형 파일 탐색**: glob 패턴으로 추가 JS/HTML 파일 수동 포함 지원
+- 🌐 **Browserslist 통합**: browserslist 설정을 ECMAScript 버전으로 자동 변환 지원
 
 ## 설치
+
 
 ```bash
 npm install @winner-fed/unplugin-check-syntax --save-dev

@@ -1,19 +1,50 @@
-<translate-content># unplugin-check-syntax
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
+
+# unplugin-check-syntax
 
 [![npm version](https://badge.fury.io/js/@winner-fed%2Funplugin-check-syntax.svg)](https://badge.fury.io/js/@winner-fed%2Funplugin-check-syntax)
 
-A universal syntax checking plugin that supports multiple build tools (Webpack, Vite, Rollup, esbuild, Rspack, etc.) for checking ECMAScript syntax compatibility in JavaScript and HTML files. This plugin references [rsbuild-plugin-check-syntax](https://github.com/rspack-contrib/rsbuild-plugin-check-syntax).
+A universal syntax checking plugin supporting multiple build tools (Webpack, Vite, Rollup, esbuild, Rspack, etc.), for checking ECMAScript syntax compatibility in JavaScript and HTML files. This plugin is inspired by [rsbuild-plugin-check-syntax](https://github.com/rspack-contrib/rsbuild-plugin-check-syntax).
 
-## Features
+## 功能特性
 
-- 🔧 **Multi-build tool support**: Supports Webpack, Vite, Rollup, esbuild, Rspack, etc.
-- 📝 **Multiple file types**: Supports inline scripts in JavaScript and HTML files
-- 🎯 **Precise location**: Supports sourcemaps to trace back to the source file location
-- ⚙️ **Flexible configuration**: Supports file exclusion, manual inclusion, error type filtering, and other options
-- 📁 **Smart file discovery**: Supports glob patterns to manually include additional JS/HTML files
-- 🌐 **Browserslist integration**: Supports browserslist configuration to automatically convert to ECMAScript versions
+- 🔧 **多构建工具支持**: 支持 Webpack、Vite、Rollup、esbuild、Rspack 等
+- 📝 **多文件类型**: 支持 JavaScript 文件和 HTML 文件中的内联脚本
+- 🎯 **精确定位**: 支持 sourcemap，可以追溯到源文件位置
+- ⚙️ **灵活配置**: 支持文件排除、手动包含、错误类型过滤等选项
+- 📁 **智能文件发现**: 支持 glob 模式手动包含额外的 JS/HTML 文件
+- 🌐 **Browserslist 集成**: 支持 browserslist 配置自动转换为 ECMAScript 版本
 
-## Installation
+## 安装
+
 
 ```bash
 npm install @winner-fed/unplugin-check-syntax --save-dev

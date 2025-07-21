@@ -1,137 +1,175 @@
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=en">英語</a>
+        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-CN">簡体字中国語</a>
+        | <a href="#" title="Coming soon">繁体字中国語 (近日公開)</a> |
+        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko">韓国語</a>
+        | <a href="#" title="Coming soon">ヒンディー語 (近日公開)</a> |
+        | <a href="#" title="Coming soon">タイ語 (近日公開)</a> |
+        | <a href="#" title="Coming soon">フランス語 (近日公開)</a>
+        | <a href="#" title="Coming soon">ドイツ語 (近日公開)</a>
+        | <a href="#" title="Coming soon">スペイン語 (近日公開)</a>
+        | <a href="#" title="Coming soon">イタリア語 (近日公開)</a>
+        | <a href="#" title="Coming soon">ロシア語 (近日公開)</a>
+        | <a href="#" title="Coming soon">ポルトガル語 (近日公開)</a>
+        | <a href="#" title="Coming soon">オランダ語 (近日公開)</a>
+        | <a href="#" title="Coming soon">ポーランド語 (近日公開)</a>
+        | <a href="#" title="Coming soon">アラビア語 (近日公開)</a>
+        | <a href="#" title="Coming soon">ペルシア語 (近日公開)</a>
+        | <a href="#" title="Coming soon">トルコ語 (近日公開)</a>
+        | <a href="#" title="Coming soon">ベトナム語 (近日公開)</a>
+        | <a href="#" title="Coming soon">インドネシア語 (近日公開)</a>
+
+      </div>
+    </div>
+  </details>
+</div>
+
 # TimeCapsule LLM
-特定の時代のデータのみで訓練されたLLMで、現代のバイアスを軽減します。
+特定の時代のデータのみで訓練されたLLM。現代的なバイアスを減らすことを目指します。
 
-AIモデルが単に歴史的なふりをするだけでなく、実際にそうであったと想像してみてください。
+AIモデルが歴史的なふりをするだけでなく、本当にその時代のものだったらどうなるか想像してみてください。
 
-[Andrej KarpathyのnanoGPT](https://github.com/karpathy/nanoGPT)を基に構築。コアのトレーニングスクリプトとモデルアーキテクチャは彼の作品です。
+[nanoGPT by Andrej Karpathy](https://github.com/karpathy/nanoGPT) をベースに構築。コアの訓練スクリプトとモデルアーキテクチャは彼の功績です。
 
-# プロジェクトの目標
+# プロジェクトの目的
 
-TimeCapsule LLMは、特定の時代に書かれたテキストのみで訓練される実験的プロジェクトです。目的は特定の歴史的時代の世界観と言語をシミュレートすることです。
+TimeCapsule LLMは、特定の時代に書かれたテキストのみで訓練される実験的プロジェクトです。特定の歴史的時代の世界観や言語を再現することを目指します。
 
-# なぜファインチューニングだけでは不十分か
+# ファインチューニングだけでは不十分な理由
 
-既に訓練されたモデルをファインチューニングするだけでは、LLMは現代の概念を依然として知っています。もちろん、現代のバイアスをゼロにするのは難しいですが、できるだけ近づけたいです。現代のバイアスを完全になくすには、モデルをスクラッチから訓練する必要があります。
+既存のモデルをファインチューニングしただけでは、LLMは現代の概念を知ったままです。もちろん完全に現代的バイアスをゼロにするのは難しいですが、私はこれにできるだけ近づきたいと考えています。現代的バイアスを完全になくすには、モデルを一から訓練する必要があります。
 
 # 期待される成果
 
-完成すれば、このモデルは現代の概念を知らず、訓練された範囲を超えて推論できないはずです。現代の概念や語彙を認識せず、現代の知識を幻覚しないことを望んでいます。
+最終的には、このモデルが現代の概念を知らず、訓練された範囲を超えて推論できなくなることを期待しています。現代的な単語や概念を認識せず、現代知識を幻覚として生成しないことを望んでいます。
 
-# 進捗報告
+# 進捗状況
 
 ## 2025年7月9日
 
-期間は1800年から1850年、地域はロンドンに設定しました。
+対象時代を1800～1850年、地域をロンドンに設定しました。
 
-テキスト、書籍、文書のリストを収集しました。
+テキスト、書籍、文書のリストを集めました。
 
-現在50ファイルをテキスト形式で取得し、間もなくNanoGPTの訓練を開始します。
+現在50件をテキストファイルとして入手し、間もなくNanoGPTの訓練を開始します。
 
-進捗があれば更新します。
+進展がある限り、このページを更新していきます。
 
 ## 2025年7月13日
 
-187MBの歴史的テキストデータでnanoGPTを訓練しました。
+NanoGPTを歴史的テキストデータ187MBで訓練しました。
 
 ## 2025年7月15日
 
-2回目の訓練用にテキストをダウンロードし始めました。すべてInternet Archiveから取得し、期間を1800年から1875年に拡大しました。多様なテキストを得るために、Internet Archiveの出版場所、期間、主題の検索フィルターを使うことができます。
+2回目の訓練用にテキストのダウンロードを開始しました。Internet Archiveから全て取得し、対象時代を1800～1875年まで拡大しました。多様なテキストを得るため、Internet Archiveでは出版場所や時代、主題で検索フィルターを活用できます。
 
-![Search Filters](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/searchfilter.jpg)
+![検索フィルター](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/searchfilter.jpg)
 
 ## 2025年7月16日
 
-Internet Archiveから約500のテキストファイルをダウンロードし、空白やGutenbergのヘッダーなどを削除してクリーンアップした後、約500MBのデータが得られました。非常に小さなデータセットですが、前回は187MBで訓練したため、2回目のモデル訓練後には何らかの違いが出るはずです。少なくともより一貫性のある意味の通った文章を生成できることを期待しています。もちろん保証はできませんが、前回よりは多いデータ量です。
+Internet Archiveから約500のテキストファイルをダウンロードし、不要な空白やGutenbergヘッダー等を削除してクリーンアップした結果、約500MBのデータになりました。これは小規模なデータセットですが、前回は187MBで訓練したので、2回目のモデルを訓練すれば出力に少なくとも何らかの違いが現れるはずです。今回のモデルがもう少し意味の通る文章を出力できることを期待しています。もちろん、これもまだ非常に小さいデータセットなので保証はありませんが、前回よりは多いです。
 
-これは自分のハードウェアで可能で、GPUをレンタルする前に改善が見られるか確認できるのは良いことです。GPUレンタルは予定していますが、その前にデータセットをできるだけきれいにキュレーションしたいです。問題の一つはクリーンアップで、多くのテキストファイルに意味不明な文字列が混じっています。使用したスクリプトは機能しますが、完全ではありません。
+自分のハードウェアでも処理できるはずですし、より大きなデータセットでGPUを借りる前に改善が見られるかもしれないので良いと思います。もちろんGPUをレンタルする計画もありますが、その前にデータセットをできるだけ厳選しクリーンにしたいです。課題の一つはクリーンアップで、多くのテキストファイルに意味不明な文字列が混じっています。クリーンアップ用スクリプトは機能しますが、完璧ではありません。
 
-このデータセットで今日訓練を開始し、4～5時間かかる予定です。完了しテストしたら更新します。プロジェクトを見てくれている皆さん、OCRリソースのリンクを提供してくれた方もいてありがとうございます！もっと多くの人が独自のデータセットで試して実験してほしいです。
+本日このデータセットで訓練を行い、4～5時間程度かかる予定です。完了しテスト次第、また進捗を報告します。プロジェクトを見てくださっている皆さん、OCRリソースのリンクを提供してくれた方々、本当にありがとうございます！もっと多くの方が自身のデータセットで試してみてくれることを願っています。
 
-### 訓練状況報告
+### 訓練状況の更新
 
-435MB（1億800万トークン）のコーパスで訓練を開始し、順調に進んでいます。2800イテレーションでトレインロスは10.9から4.9に下がりました。完了まで8～9時間かかる見込みです。完了後に再度報告します。
+435MB（1億800万トークン）のコーパスで訓練を開始し、今のところ順調です。訓練損失は最初の2,800イテレーションで10.9から4.9に下がりました。完了までに8～9時間かかる見込みです。終わったらまた更新します。
 
 ## 2025年7月17日 午前2:13
 
-2回目のモデルの訓練が完了しました。4060で約8時間40分（3,900イテレーション/時間）、合計33,000イテレーション（5エポック）かかりました。最終トレインロスは3.73でした。出力は驚くほど良く、19世紀風のまとまった文章を生成します。
+2回目のモデルの訓練が終了しました。4060（GPU）で約8時間40分（3,900イテレーション/時）、合計33,000イテレーション（5エポック）かかりました。最終的な訓練損失は3.73でした。出力は驚くほど良く、19世紀風の意味が通る文章を生成できるようになりました。
 
 # V0モデルの挙動と制限
 
-初期のプロンプトでは、モデルは1800年代の言語と振る舞いで応答します。例えば「Who art Henry?」と聞くと「I know that man, I have did not a black, the storm.」と返します。この文章は意味不明ですが、LLMが人について尋ねられていると認識していることがわかります。
+初期のプロンプトではモデルが1800年代の言語や挙動で応答しています。例えば「Who art Henry?」と入力すると、「I know that man, I have did not a black, the storm.」と返答しました。意味は通りませんが、人物について尋ねていることは認識しています。
 
-![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
+![TimeLockLLM サンプル出力](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
-現代の概念は一切出てこず、出力は主に1800年代の単語や表現で構成されています。
+現代的な概念は一切登場せず、出力は主に1800年代の単語や言い回しで構成されています。
 
-まだ多くの改善が必要で、187MBのデータ量では複雑な推論を行うテキスト生成はできません。
+まだ多くの作業が必要で、187MBでの訓練では複雑な推論を伴うテキストを生成するモデルにはなりません。
 
-現状では文法的に不完全で意味をなさない文章が多いですが、これは訓練データ量が少ないため通常のことです。
+現状では完全な文の構造を持たず、全体的に意味不明な文章を生成しますが、この訓練データのサイズでは正常な挙動です。
 
 # V0.5モデルの挙動と制限
 
-前モデルからの大きな改善です。文体と言葉遣いはヴィクトリア朝風で、ほぼすべての文が文法的に正しく、適切な句読点が使われています。スクラッチで訓練しているため1800年代の話題に忠実です。
+前回のモデルと比べて大きな改善が見られます。文体や語彙はヴィクトリア朝風で、ほぼすべての文が文法的に正しく、句読点も適切です。そして今回もゼロから学習しているため、1800年代のテーマに忠実です。
 
-![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
+![TimeLockLLM サンプル出力](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
-多くの事実的な幻覚があります。日付、出来事、歴史上の人物などの詳細はほぼ100%作り話です。また文同士のつながりが乏しく、2文程度が関連することはありますがそれ以上はありません。さらに時折「Digitized by Google」のフッターが混入することがあり、次回の訓練ではテキストのクリーンアップを徹底する必要があります。全体的には満足しています。まだLLMとは言えませんが、確実に文生成器です。
+事実に基づかない生成（ハルシネーション）が多く見られます。詳細（日時、出来事、歴史上の人物など）はほぼ100%架空です。また、文同士のつながりもほとんどなく、2文程度が関連することはあってもそれ以上はありません。もう一つの問題として、時々“Digitized by Google”のフッターが混入することがありますので、次回の学習時はテキストのクリーニングを徹底する必要があります。全体的には結果にとても満足しています。LLMには程遠いですが、確実に文生成器にはなっています。
 
-多くを学んでおり、今後数週間で改善点を模索していきます。ファイルも近日アップロード予定です！
+多くのことを学んでおり、今後数週間で改善点を探っていく予定です。ファイルも近日中にアップロードします！
 
 # 今後の計画
 
-バージョン1の作業を開始します。50冊の本で訓練する代わりに、理想的には500～600冊で訓練します。現在は1800～1850年のロンドンの本でnanoGPTを訓練中です。課題としては、見つけた本が改訂されていないことや現代の解釈が入っていないこと、選んだ期間内に出版された未加工の本であることを確認する点があります。
+（完了）バージョン0.5の作業を開始します。今回は50冊ではなく理想的には500～600冊を使って学習します。現在はnanoGPTを用い、1800～1850年のロンドンの本を使って学習しています。課題としては、見つけた本が改訂されたものや現代的な解釈が含まれていないか確認し、選んだ期間に出版された未改訂の本を集めることです。
+
+新しいモデル（v1）をより大規模なコーパス、できればv0.5の5～10倍のデータで学習したいと考えています。選択的時代別学習だけで推論能力を引き出せるかどうかを試したいのですが、歴史データの制約もあり、実現可能かはまだ分かりません。今後数週間で5～10GBのコーパス分のデータを厳選する予定です。もし高品質なデータを揃えてGPUをレンタルできれば、進展が期待できると考えています。
 
 # このプロジェクトの使い方
 
-このプロジェクトは主に歴史的データの収集、訓練用準備、トークナイザーの構築に焦点を当てています。完全なLLM訓練プロセスはカバーしません。詳しくはAndrej KarpathyのnanoGPTを参照してください。
+このプロジェクトは主に歴史的データの収集・整理、学習用の準備、トークナイザーの構築に焦点を当てています。完全なLLMの学習手順は取り上げませんので、詳しくはAndrej Karpathy氏のnanoGPTをご参照ください。
 
 # ステップ1: 歴史的テキストの収集と準備
 
-選んだ時代（例：ロンドン1800-1850年）のパブリックドメインの書籍や文書の.txtファイルを集めます。
+選んだ時代のパブリックドメインの書籍や文書などの.txtファイルを集めます（例：ロンドン1800～1850年）
 
-必要であればdownload_texts_improved.pyを使って書籍をダウンロードできます。
+必要に応じてdownload_texts_improved.pyを使えば書籍を自動でダウンロードできます。
 
-Project Gutenbergのヘッダーやフッター、現代の注釈、OCRエラーなどをスクリプトや手動で除去してテキストファイルをクリーンアップします。
+スクリプトや手動で、Project Gutenbergのヘッダーやフッター、現代の注釈、OCRエラーなどを削除しテキストをクリーンアップします。
 
-prepare_dataset.pyが正常に動作します。
+prepare_dataset.pyは問題なく動作するはずです。
 
 # ステップ2: カスタムトークナイザーの構築
 
-クリーンアップ済みデータに対してtrain_tokenizer.pyまたはtrain_tokenizer_hf.pyを実行します。
-This will give you vocab.json and merges.txt
+クリーンなデータでtrain_tokenizer.pyまたはtrain_tokenizer_hf.pyを実行します。
+これによりvocab.jsonとmerges.txtが生成されます。
 
-Thes files define vocab and merge rules for your model
+これらのファイルがモデル用の語彙と結合ルールを定義します。
 
-# Step 3: Train Your Model (nanoGPT) 
+# ステップ3: モデルの学習（nanoGPT）
 
-Refer to [nanoGPT by Andrej Karpathy](https://github.com/karpathy/nanoGPT) for the training process.
+学習手順は [Andrej Karpathy氏のnanoGPT](https://github.com/karpathy/nanoGPT) を参照してください。
 
-You can train a different LLM if you want, but I used nanoGPT 
+他のLLMで学習しても構いませんが、私はnanoGPTを使いました。
 
 # FAQ
 
-## Why not just use fine-tuning or LoRA?
+## 選択的時代別学習（Selective Temporal Training）とは？
 
-For this project I'm trying to create a language model that is unclouded from modern bias. If I fine-tune something like GPT-2, it's already pre-trained and that information won't go away. If I train from scratch the language model won't pretend to be old, it just will be. The Goal for this project right now is to create something can reason exclusively using knowledge from London books published between 1800 and 1850.
+選択的時代別学習（STT）は、すべての学習データを特定の歴史的な時代に限定して厳選する機械学習の方法論です。これは、その時代の言語や知識を現代的な概念から隔離して再現するために行います。例えば、現行のモデル（v0.5）は1800～1875年のデータのみでゼロから学習しており、その時代の言語スタイルや歴史的文脈を反映した出力になります。
 
-## What kind of data did you use for training?
+## なぜファインチューニングやLoRAを使わないのですか？
 
-I'm using books, legal documents, newspapers, and other writings from 1800–1850 London. The list I linked has like 200 but for the first training I just used 50 files about ~187 MB. You can view a list of the documents:
+このプロジェクトでは、現代のバイアスに影響されない言語モデルの作成を目指しています。GPT-2のようなモデルをファインチューニングしても、既に事前学習済みなので古い情報を装うだけで完全には除去できません。ゼロから学習すれば、単に「古風なふり」をするのではなく本当にその時代のモデルとなります。現時点での目標は、1800～1850年にロンドンで出版された本の知識だけで推論できるものを作ることです。
+
+## 学習にはどのようなデータを使いましたか？
+
+1800～1850年ロンドンの書籍、法的文書、新聞、その他の文書を使用しています。リンクしたリストには約200件載せていますが、初回の学習では約50ファイル、約187MB分だけ使いました。ドキュメントの一覧はこちらからご覧いただけます：
 https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt
 
-## How large is the Version 0 model ?
+## バージョン0モデルの規模は？
 
-This model is very small right now, I'm just doing this for fun and following a strict training rule of no modern sources. It has almost 16 million parameters but I'm gonna start gathering more old texts to begin another model training. Will give updates as I go.
+このモデルは現状非常に小規模で、あくまで趣味と「現代ソース一切不使用」の厳格なルールで進めています。パラメータ数は約1600万ですが、さらに古いテキストを集めて次のモデル学習を始める予定です。進捗があれば随時報告します。
 
-## Training Specs ? 
+## 学習スペックは？
 
 GPU: Geforce rtx 4060
 CPU: i5-13400F 
 Ram: 16GB DDR5.
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-21
 
 ---

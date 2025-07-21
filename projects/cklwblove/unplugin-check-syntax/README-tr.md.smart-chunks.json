@@ -1,0 +1,1869 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# unplugin-check-syntax\n\n[![npm version](https://badge.fury.io/js/@winner-fed%2Funplugin-check-syntax.svg)](https://badge.fury.io/js/@winner-fed%2Funplugin-check-syntax)\n\n一个通用的语法检查插件，支持多种构建工具（Webpack、Vite、Rollup、esbuild、Rspack 等），用于检查 JavaScript 和 HTML 文件中的 ECMAScript 语法兼容性。该插件参考了 [rsbuild-plugin-check-syntax](https://github.com/rspack-contrib/rsbuild-plugin-check-syntax)。\n\n## 功能特性\n\n- 🔧 **多构建工具支持**: 支持 Webpack、Vite、Rollup、esbuild、Rspack 等\n- 📝 **多文件类型**: 支持 JavaScript 文件和 HTML 文件中的内联脚本\n- 🎯 **精确定位**: 支持 sourcemap，可以追溯到源文件位置\n- ⚙️ **灵活配置**: 支持文件排除、手动包含、错误类型过滤等选项\n- 📁 **智能文件发现**: 支持 glob 模式手动包含额外的 JS/HTML 文件\n- 🌐 **Browserslist 集成**: 支持 browserslist 配置自动转换为 ECMAScript 版本\n\n## 安装\n",
+    "ContentSha": "Y976bWZ/7iRZl+AHro7t0uPZHhFMLRdjtuGPUcNHyHc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 Dil</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# unplugin-check-syntax\n\n[![npm version](https://badge.fury.io/js/@winner-fed%2Funplugin-check-syntax.svg)](https://badge.fury.io/js/@winner-fed%2Funplugin-check-syntax)\n\nBirden çok derleme aracını destekleyen (Webpack, Vite, Rollup, esbuild, Rspack vb.) genel amaçlı bir sözdizimi kontrol eklentisidir. JavaScript ve HTML dosyalarındaki ECMAScript sözdizimi uyumluluğunu kontrol etmek için kullanılır. Bu eklenti, [rsbuild-plugin-check-syntax](https://github.com/rspack-contrib/rsbuild-plugin-check-syntax) temel alınarak geliştirilmiştir.\n\n## Özellikler\n\n- 🔧 **Çoklu derleyici desteği**: Webpack, Vite, Rollup, esbuild, Rspack vb. destekler\n- 📝 **Çoklu dosya türü**: JavaScript dosyalarını ve HTML dosyalarındaki gömülü scriptleri destekler\n- 🎯 **Kesin konumlandırma**: Sourcemap desteğiyle, kaynak dosya konumuna geri izlenebilir\n- ⚙️ **Esnek yapılandırma**: Dosya hariç tutma, manuel dahil etme, hata türü filtreleme gibi seçenekleri destekler\n- 📁 **Akıllı dosya bulma**: Ek JS/HTML dosyalarını manuel olarak dahil etmek için glob desenini destekler\n- 🌐 **Browserslist entegrasyonu**: browserslist yapılandırmasını otomatik olarak ECMAScript sürümüne dönüştürmeyi destekler\n\n## Kurulum\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "    <summary >🌐 Dil</summary>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=en\">English</a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "l6Qi0ezU+eDvVhKt8a+4ApuEAHciQ2PN1lnmiT/DoKw=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=en\">English</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "9M6JHxgVotYtiUPaw3Mnp7xiPktPqIPWiSjDlcNy0CY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "hTFW2nP5FL7VqDwbbRiSyjp9WSagRi76cia6gNYXXWI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "FnXiM05ldN80oaAmtMsilIt83nrKSM5CoFLv6lrRaQI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "wrWzOsuOcll3XmGPZigM9jaFWK22/M2SzxzkTrgn76w=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "Y21f0BPnfSRUNCNJ95BtmiupBCATt9hjUQ2226nUTq8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "Za61eli7BjTQunCpS6Y67+ZzJaW2jiJOXOc/U1bxVFw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=fr\">Français</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "bIxYs/vtyngGE4y53Wxjhzz0+zCalRoi0P25TbjWwIo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "wKsWdNJ+Y3GUKHnoGE0Mo41MILKY1vSDSj8O44DKizs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=es\">Español</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "21zhBwIQ7+g0YF3CJ0hk8zfBF4CBUB2FardF8jXx8QI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "iNNIzt2OwLWphQzDYE77xGyV8Qxv7grbAcZ44kSBjzs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "eGSAfUaQKWC363YQ2U6bFw2xPQejq0hCFwV73VSwXyc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=pt\">Português</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "h7g0ZscfmvRiRQVquRNVlwOQank4V6+Bre+7B04oQwE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "+h+m01OM5KyqRPEYD1/xeTZA8jFg6EbKmvLg/W8E1b0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "aayxq4EDXFRfEW80UxjLGoMOJvwVT58xJC62Ejnd7f0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "M1sFArzwYsS5dCtoEaeyZ4hFp8VrOQb9MonePR1tlPI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "v4L48kEpzSj7NwAhniyRYgFCkKDWoEWbwPcH2K9hPDU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "b0vnbpVyh8mlbuYnK1+ZSwZCunVJxLSeWrKWc7iNUtU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "lSP/Bm4lxziPmSdo02UEyP736/K+ZZvUOouozD7Zozk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "TM8yCdyP4JYEbwtX81Vf1bI3qKEzXM8CNxB3DgDxOZE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=cklwblove&project=unplugin-check-syntax&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 27,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 28,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 29,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# unplugin-check-syntax"
+      },
+      {
+        "row": 32,
+        "rowsha": "VMUMiUrk/iEa2ijy+SP4v3Kytniu9z54PccMxrLLU8E=",
+        "originContent": "# unplugin-check-syntax",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[![npm version](https://badge.fury.io/js/@winner-fed%2Funplugin-check-syntax.svg)](https://badge.fury.io/js/@winner-fed%2Funplugin-check-syntax)"
+      },
+      {
+        "row": 34,
+        "rowsha": "dgBK27P9rUPre4Y7iWFl4CbmE1xbWP81QSvBf8NIaME=",
+        "originContent": "[![npm version](https://badge.fury.io/js/@winner-fed%2Funplugin-check-syntax.svg)](https://badge.fury.io/js/@winner-fed%2Funplugin-check-syntax)",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Birden çok derleme aracını destekleyen (Webpack, Vite, Rollup, esbuild, Rspack vb.) genel amaçlı bir sözdizimi kontrol eklentisidir. JavaScript ve HTML dosyalarındaki ECMAScript sözdizimi uyumluluğunu kontrol etmek için kullanılır. Bu eklenti, [rsbuild-plugin-check-syntax](https://github.com/rspack-contrib/rsbuild-plugin-check-syntax) temel alınarak geliştirilmiştir."
+      },
+      {
+        "row": 36,
+        "rowsha": "DC1Nb98Lme7LcEhYYpYJVXjMt1CHQvisbt36kux0K+M=",
+        "originContent": "一个通用的语法检查插件，支持多种构建工具（Webpack、Vite、Rollup、esbuild、Rspack 等），用于检查 JavaScript 和 HTML 文件中的 ECMAScript 语法兼容性。该插件参考了 [rsbuild-plugin-check-syntax](https://github.com/rspack-contrib/rsbuild-plugin-check-syntax)。",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Özellikler"
+      },
+      {
+        "row": 38,
+        "rowsha": "hcZsKlpSPkTFpH/QegoKHGVWmJDSH48IDfZVw6T3YEk=",
+        "originContent": "## 功能特性",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 🔧 **Çoklu derleyici desteği**: Webpack, Vite, Rollup, esbuild, Rspack vb. destekler"
+      },
+      {
+        "row": 40,
+        "rowsha": "P/kJbWA1jW8UHAGkMgKYCCz4dvlKdVrpsLjxLEByZUM=",
+        "originContent": "- 🔧 **多构建工具支持**: 支持 Webpack、Vite、Rollup、esbuild、Rspack 等",
+        "translatedContent": "- 📝 **Çoklu dosya türü**: JavaScript dosyalarını ve HTML dosyalarındaki gömülü scriptleri destekler"
+      },
+      {
+        "row": 41,
+        "rowsha": "2paS6wVCELWovYYxl3VhL04D63MvNZP0bDeJbaov+eU=",
+        "originContent": "- 📝 **多文件类型**: 支持 JavaScript 文件和 HTML 文件中的内联脚本",
+        "translatedContent": "- 🎯 **Kesin konumlandırma**: Sourcemap desteğiyle, kaynak dosya konumuna geri izlenebilir"
+      },
+      {
+        "row": 42,
+        "rowsha": "WKJeMYO6xV63bFTMcTvntSmZWRMHZN/a97u1I7W3yc0=",
+        "originContent": "- 🎯 **精确定位**: 支持 sourcemap，可以追溯到源文件位置",
+        "translatedContent": "- ⚙️ **Esnek yapılandırma**: Dosya hariç tutma, manuel dahil etme, hata türü filtreleme gibi seçenekleri destekler"
+      },
+      {
+        "row": 43,
+        "rowsha": "rbfC5bsKAHp3Ezplbteqrlt7zMTab0hicECWe4a/+DY=",
+        "originContent": "- ⚙️ **灵活配置**: 支持文件排除、手动包含、错误类型过滤等选项",
+        "translatedContent": "- 📁 **Akıllı dosya bulma**: Ek JS/HTML dosyalarını manuel olarak dahil etmek için glob desenini destekler"
+      },
+      {
+        "row": 44,
+        "rowsha": "TCQlumB7sLNX9eKgEP2yEgFXPwl6zz3r27mM9I8ujyQ=",
+        "originContent": "- 📁 **智能文件发现**: 支持 glob 模式手动包含额外的 JS/HTML 文件",
+        "translatedContent": "- 🌐 **Browserslist entegrasyonu**: browserslist yapılandırmasını otomatik olarak ECMAScript sürümüne dönüştürmeyi destekler"
+      },
+      {
+        "row": 45,
+        "rowsha": "j52rRKXC8lExl67E63R+Zga5fMn/UWxyWVvT1+mcRso=",
+        "originContent": "- 🌐 **Browserslist 集成**: 支持 browserslist 配置自动转换为 ECMAScript 版本",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Kurulum"
+      },
+      {
+        "row": 47,
+        "rowsha": "UMqC31ngvFKTTTEuKqsTk79HILGU8WWgF72p6TJJqbg=",
+        "originContent": "## 安装",
+        "translatedContent": ""
+      },
+      {
+        "row": 48,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\nnpm install @winner-fed/unplugin-check-syntax --save-dev\n```",
+    "ContentSha": "pSG/oc9gJqpArkX4q9NFnV0mV0YO4Uz/w3pQyd4qTlg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpm install @winner-fed/unplugin-check-syntax --save-dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "1dZ+9uZma7UOCgKioZXx8q/BmifXUxelee1cPEI0mWU=",
+        "originContent": "npm install @winner-fed/unplugin-check-syntax --save-dev",
+        "translatedContent": "npm install @winner-fed/unplugin-check-syntax --save-dev"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## 使用方法\n\n### Vite\n",
+    "ContentSha": "yHcvAADWTQdPsQNsa3n718iBX+NZP3+AqqpvFS/ukSE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Kullanım Yöntemi\n\n### Vite\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Kullanım Yöntemi"
+      },
+      {
+        "row": 2,
+        "rowsha": "6MQVJlN8pzS/JKFAmEsF+fGPpVBhkqKXd7kJyIXtGEg=",
+        "originContent": "## 使用方法",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Vite"
+      },
+      {
+        "row": 4,
+        "rowsha": "16n04ApRc3vnHmzZQerD9tw9AFFScbSFscCFGvVjRRM=",
+        "originContent": "### Vite",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```ts\n// vite.config.ts\nimport { defineConfig } from 'vite'\nimport checkSyntax from '@winner-fed/unplugin-check-syntax/vite'\n\nexport default defineConfig({\n  plugins: [\n    checkSyntax({\n      targets: ['> 1%', 'last 2 versions'],\n      // 或者直接指定 ECMAScript 版本\n      // ecmaVersion: 'es2015'\n    }),\n  ],\n})\n```",
+    "ContentSha": "I9fpdEhiCEziDqcM6vSin0v7UAPlMVpLXzB/mRJxcBI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ts\n// vite.config.ts\nimport { defineConfig } from 'vite'\nimport checkSyntax from '@winner-fed/unplugin-check-syntax/vite'\n\nexport default defineConfig({\n  plugins: [\n    checkSyntax({\n      targets: ['> 1%', 'last 2 versions'],\n      // 或者直接指定 ECMAScript 版本\n      // ecmaVersion: 'es2015'\n    }),\n  ],\n})\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+        "originContent": "```ts",
+        "translatedContent": "```ts"
+      },
+      {
+        "row": 2,
+        "rowsha": "Fyw+JDO2OmALqtkA1t4LkqO6Vb6cDL5Y23CgrJDsY6w=",
+        "originContent": "// vite.config.ts",
+        "translatedContent": "// vite.config.ts"
+      },
+      {
+        "row": 3,
+        "rowsha": "EMhz4X57NfZNwbmovB2UqPzoKSGomATrMeSrxNtpUGo=",
+        "originContent": "import { defineConfig } from 'vite'",
+        "translatedContent": "import { defineConfig } from 'vite'"
+      },
+      {
+        "row": 4,
+        "rowsha": "ufg0vNnOnk3O5UGO/2rw8AKaj92ZieagmiqLPEcUhxQ=",
+        "originContent": "import checkSyntax from '@winner-fed/unplugin-check-syntax/vite'",
+        "translatedContent": "import checkSyntax from '@winner-fed/unplugin-check-syntax/vite'"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "pxlmGtYe1w1KMBva5rp+lHF+7Z+LH5UVh4Ii/ZGTQo8=",
+        "originContent": "export default defineConfig({",
+        "translatedContent": "export default defineConfig({"
+      },
+      {
+        "row": 7,
+        "rowsha": "xi3phYtpenrywBPZ1rVUToaSjseiAa+2Qybr4vAXDN4=",
+        "originContent": "  plugins: [",
+        "translatedContent": "  plugins: ["
+      },
+      {
+        "row": 8,
+        "rowsha": "yoGJiVDMjHyiQRyYoAVzdI+axx4lI7HBnOxUVACHW10=",
+        "originContent": "    checkSyntax({",
+        "translatedContent": "    checkSyntax({"
+      },
+      {
+        "row": 9,
+        "rowsha": "xFK3b/ZkTv5ZMaHUdtw/cuO2NFhlSfcR+pE/1FX942Q=",
+        "originContent": "      targets: ['> 1%', 'last 2 versions'],",
+        "translatedContent": "      targets: ['> 1%', 'last 2 versions'],"
+      },
+      {
+        "row": 10,
+        "rowsha": "uhgOKBT8PL4bZwma4gib9vYY9kJhYjmlznKst8M1d1w=",
+        "originContent": "      // 或者直接指定 ECMAScript 版本",
+        "translatedContent": "      // 或者直接指定 ECMAScript 版本"
+      },
+      {
+        "row": 11,
+        "rowsha": "Yhuwyhc1ZsehuO9nxmcsoiUa9poY0lZ4ZKNmnmExrrE=",
+        "originContent": "      // ecmaVersion: 'es2015'",
+        "translatedContent": "      // ecmaVersion: 'es2015'"
+      },
+      {
+        "row": 12,
+        "rowsha": "IDY8H84q0W3iMAsgCGggJ1TJIMyTqMKPxACM1e4EE50=",
+        "originContent": "    }),",
+        "translatedContent": "    }),"
+      },
+      {
+        "row": 13,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 14,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 15,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Webpack\n",
+    "ContentSha": "6hzpWebCCQJ0RKRAxlttZ5IJqLyisby8Q1cxFSlR1qY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Webpack\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Webpack"
+      },
+      {
+        "row": 2,
+        "rowsha": "F+GmV4ecVGd398Cjx1evS+fVAhD1cq/FAiO7oIUBzyg=",
+        "originContent": "### Webpack",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```js\n// webpack.config.js\nconst checkSyntax = require('@winner-fed/unplugin-check-syntax/webpack')\n\nmodule.exports = {\n  plugins: [\n    checkSyntax({\n      targets: ['> 1%', 'last 2 versions'],\n    }),\n  ],\n}\n```",
+    "ContentSha": "1gbqH5uB9egeO7r44dyJqyPTiW+An9qkfNtcoQ4TAb8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\n// webpack.config.js\nconst checkSyntax = require('@winner-fed/unplugin-check-syntax/webpack')\n\nmodule.exports = {\n  plugins: [\n    checkSyntax({\n      targets: ['> 1%', 'last 2 versions'],\n    }),\n  ],\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "S+ZY5IGOrj/BS/gzavfI4ew8zdPnPe03UwXEyx7xG4k=",
+        "originContent": "// webpack.config.js",
+        "translatedContent": "// webpack.config.js"
+      },
+      {
+        "row": 3,
+        "rowsha": "oNQ4c7pzWuDkauBQ+bi/nFcnP+FqLPoyJeiaoARdd/M=",
+        "originContent": "const checkSyntax = require('@winner-fed/unplugin-check-syntax/webpack')",
+        "translatedContent": "const checkSyntax = require('@winner-fed/unplugin-check-syntax/webpack')"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "yV9r7cMJPhVqNFKdjJLCUTFm4FMKideAIShppxAvnCk=",
+        "originContent": "module.exports = {",
+        "translatedContent": "module.exports = {"
+      },
+      {
+        "row": 6,
+        "rowsha": "xi3phYtpenrywBPZ1rVUToaSjseiAa+2Qybr4vAXDN4=",
+        "originContent": "  plugins: [",
+        "translatedContent": "  plugins: ["
+      },
+      {
+        "row": 7,
+        "rowsha": "yoGJiVDMjHyiQRyYoAVzdI+axx4lI7HBnOxUVACHW10=",
+        "originContent": "    checkSyntax({",
+        "translatedContent": "    checkSyntax({"
+      },
+      {
+        "row": 8,
+        "rowsha": "xFK3b/ZkTv5ZMaHUdtw/cuO2NFhlSfcR+pE/1FX942Q=",
+        "originContent": "      targets: ['> 1%', 'last 2 versions'],",
+        "translatedContent": "      targets: ['> 1%', 'last 2 versions'],"
+      },
+      {
+        "row": 9,
+        "rowsha": "IDY8H84q0W3iMAsgCGggJ1TJIMyTqMKPxACM1e4EE50=",
+        "originContent": "    }),",
+        "translatedContent": "    }),"
+      },
+      {
+        "row": 10,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 11,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### Rollup\n",
+    "ContentSha": "lTvkVaOumrssi+8iMDBr1GEEtqJWWyJfipEgMl+Bwu4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Rollup\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Rollup"
+      },
+      {
+        "row": 2,
+        "rowsha": "7FOEYjcTd5guQP0D9Rx8A1s4xgrajxbIXJx0OrL732g=",
+        "originContent": "### Rollup",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```js\n// rollup.config.js\nimport checkSyntax from '@winner-fed/unplugin-check-syntax/rollup'\n\nexport default {\n  plugins: [\n    checkSyntax({\n      targets: ['> 1%', 'last 2 versions'],\n    }),\n  ],\n}\n```",
+    "ContentSha": "vlQbfOywnCD0kXdWg3tWqXuIWQ8e66c3FhoIUmgqtp0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\n// rollup.config.js\nimport checkSyntax from '@winner-fed/unplugin-check-syntax/rollup'\n\nexport default {\n  plugins: [\n    checkSyntax({\n      targets: ['> 1%', 'last 2 versions'],\n    }),\n  ],\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "KeA4IrmionlTVA2q+ztNkJet7/EQMLFY9AVScChAvgM=",
+        "originContent": "// rollup.config.js",
+        "translatedContent": "// rollup.config.js"
+      },
+      {
+        "row": 3,
+        "rowsha": "rX50i5MPrrQ3FdHw3nP9XfFin+GBytKxhdUE2bKL2EY=",
+        "originContent": "import checkSyntax from '@winner-fed/unplugin-check-syntax/rollup'",
+        "translatedContent": "import checkSyntax from '@winner-fed/unplugin-check-syntax/rollup'"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "ikHhPmgNY52/Y57QX+s+O3S6qF684Au/Zj4aR1NY1n4=",
+        "originContent": "export default {",
+        "translatedContent": "export default {"
+      },
+      {
+        "row": 6,
+        "rowsha": "xi3phYtpenrywBPZ1rVUToaSjseiAa+2Qybr4vAXDN4=",
+        "originContent": "  plugins: [",
+        "translatedContent": "  plugins: ["
+      },
+      {
+        "row": 7,
+        "rowsha": "yoGJiVDMjHyiQRyYoAVzdI+axx4lI7HBnOxUVACHW10=",
+        "originContent": "    checkSyntax({",
+        "translatedContent": "    checkSyntax({"
+      },
+      {
+        "row": 8,
+        "rowsha": "xFK3b/ZkTv5ZMaHUdtw/cuO2NFhlSfcR+pE/1FX942Q=",
+        "originContent": "      targets: ['> 1%', 'last 2 versions'],",
+        "translatedContent": "      targets: ['> 1%', 'last 2 versions'],"
+      },
+      {
+        "row": 9,
+        "rowsha": "IDY8H84q0W3iMAsgCGggJ1TJIMyTqMKPxACM1e4EE50=",
+        "originContent": "    }),",
+        "translatedContent": "    }),"
+      },
+      {
+        "row": 10,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 11,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n### esbuild\n",
+    "ContentSha": "FVXHcooAE9zUpTdtHuO38/YlbAFZlrkk91pslNMhBJI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### esbuild\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### esbuild"
+      },
+      {
+        "row": 2,
+        "rowsha": "PboQIwAZkSfOgaBd95m8Zcfhra4Djcj/ZdOXQkgKWuo=",
+        "originContent": "### esbuild",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```js\n// esbuild.config.js\nconst { build } = require('esbuild')\nconst checkSyntax = require('@winner-fed/unplugin-check-syntax/esbuild')\n\nbuild({\n  plugins: [\n    checkSyntax({\n      targets: ['> 1%', 'last 2 versions'],\n    }),\n  ],\n})\n```",
+    "ContentSha": "pv0JfcmEwC7yHgQ6gODaaJ9TnlGq0CDfpTb7ZVuhcMU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\n// esbuild.config.js\nconst { build } = require('esbuild')\nconst checkSyntax = require('@winner-fed/unplugin-check-syntax/esbuild')\n\nbuild({\n  plugins: [\n    checkSyntax({\n      targets: ['> 1%', 'last 2 versions'],\n    }),\n  ],\n})\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "Oh92HLrVNTwJxdTsrLSYTkylnHmQf17cagcxLPerw3w=",
+        "originContent": "// esbuild.config.js",
+        "translatedContent": "// esbuild.config.js"
+      },
+      {
+        "row": 3,
+        "rowsha": "mjs6e+yRyRw7cyt4MaURzPVDw+G9H0QxdSh0qH7H7c8=",
+        "originContent": "const { build } = require('esbuild')",
+        "translatedContent": "const { build } = require('esbuild')"
+      },
+      {
+        "row": 4,
+        "rowsha": "kF8pwlhnz4lUfokrjsonRRjrii70u/tCM09YQ8uwEtE=",
+        "originContent": "const checkSyntax = require('@winner-fed/unplugin-check-syntax/esbuild')",
+        "translatedContent": "const checkSyntax = require('@winner-fed/unplugin-check-syntax/esbuild')"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "E5yDVavwSJXO/M+bnddAmUBWN87Hn6SmLqCaFXqjbDU=",
+        "originContent": "build({",
+        "translatedContent": "build({"
+      },
+      {
+        "row": 7,
+        "rowsha": "xi3phYtpenrywBPZ1rVUToaSjseiAa+2Qybr4vAXDN4=",
+        "originContent": "  plugins: [",
+        "translatedContent": "  plugins: ["
+      },
+      {
+        "row": 8,
+        "rowsha": "yoGJiVDMjHyiQRyYoAVzdI+axx4lI7HBnOxUVACHW10=",
+        "originContent": "    checkSyntax({",
+        "translatedContent": "    checkSyntax({"
+      },
+      {
+        "row": 9,
+        "rowsha": "xFK3b/ZkTv5ZMaHUdtw/cuO2NFhlSfcR+pE/1FX942Q=",
+        "originContent": "      targets: ['> 1%', 'last 2 versions'],",
+        "translatedContent": "      targets: ['> 1%', 'last 2 versions'],"
+      },
+      {
+        "row": 10,
+        "rowsha": "IDY8H84q0W3iMAsgCGggJ1TJIMyTqMKPxACM1e4EE50=",
+        "originContent": "    }),",
+        "translatedContent": "    }),"
+      },
+      {
+        "row": 11,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 12,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n### Rspack\n",
+    "ContentSha": "HUJUoOgdYDQm2TkqjjcWvH9mh9k/Hnr/mP7v3hUE+a8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Rspack\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Rspack"
+      },
+      {
+        "row": 2,
+        "rowsha": "/WxUulbX3sdzcaN2vt3q+DLAYtM6aHzTlPndjJ7/1qk=",
+        "originContent": "### Rspack",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```js\n// rspack.config.js\nconst checkSyntax = require('@winner-fed/unplugin-check-syntax/rspack')\n\nmodule.exports = {\n  plugins: [\n    checkSyntax({\n      targets: ['> 1%', 'last 2 versions'],\n    }),\n  ],\n}\n```",
+    "ContentSha": "yr7dNTM+SZwqZnDK3ZRayRokP8900Ny7C4bICNPulHA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\n// rspack.config.js\nconst checkSyntax = require('@winner-fed/unplugin-check-syntax/rspack')\n\nmodule.exports = {\n  plugins: [\n    checkSyntax({\n      targets: ['> 1%', 'last 2 versions'],\n    }),\n  ],\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "lOFBClAbTLffiHXeNLwanAESiBLkuRPA9i0qFimX23c=",
+        "originContent": "// rspack.config.js",
+        "translatedContent": "// rspack.config.js"
+      },
+      {
+        "row": 3,
+        "rowsha": "j+Kxn5lcqdWJhXMV+iRpdKx+bQDr6rHqDXgb+pT18Ww=",
+        "originContent": "const checkSyntax = require('@winner-fed/unplugin-check-syntax/rspack')",
+        "translatedContent": "const checkSyntax = require('@winner-fed/unplugin-check-syntax/rspack')"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "yV9r7cMJPhVqNFKdjJLCUTFm4FMKideAIShppxAvnCk=",
+        "originContent": "module.exports = {",
+        "translatedContent": "module.exports = {"
+      },
+      {
+        "row": 6,
+        "rowsha": "xi3phYtpenrywBPZ1rVUToaSjseiAa+2Qybr4vAXDN4=",
+        "originContent": "  plugins: [",
+        "translatedContent": "  plugins: ["
+      },
+      {
+        "row": 7,
+        "rowsha": "yoGJiVDMjHyiQRyYoAVzdI+axx4lI7HBnOxUVACHW10=",
+        "originContent": "    checkSyntax({",
+        "translatedContent": "    checkSyntax({"
+      },
+      {
+        "row": 8,
+        "rowsha": "xFK3b/ZkTv5ZMaHUdtw/cuO2NFhlSfcR+pE/1FX942Q=",
+        "originContent": "      targets: ['> 1%', 'last 2 versions'],",
+        "translatedContent": "      targets: ['> 1%', 'last 2 versions'],"
+      },
+      {
+        "row": 9,
+        "rowsha": "IDY8H84q0W3iMAsgCGggJ1TJIMyTqMKPxACM1e4EE50=",
+        "originContent": "    }),",
+        "translatedContent": "    }),"
+      },
+      {
+        "row": 10,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 11,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n## 配置选项\n",
+    "ContentSha": "sdIV2enzK9jdFJyAc846rdXRysGOhDlLCCDh0dUN64E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Yapılandırma Seçenekleri\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Yapılandırma Seçenekleri"
+      },
+      {
+        "row": 2,
+        "rowsha": "3o/Wsh1RUgTopKL+S0IEtQNF5+R3Mgx61rbm6aa3as0=",
+        "originContent": "## 配置选项",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```ts\ninterface CheckSyntaxOptions {\n  /**\n   * 目标浏览器范围，使用 browserslist 格式\n   */\n  targets?: string[];\n  \n  /**\n   * 直接指定 ECMAScript 版本（优先级高于 targets）\n   */\n  ecmaVersion?: 'es3' | 'es5' | 'es2015' | 'es2016' | 'es2017' | 'es2018' | 'es2019' | 'es2020' | 'es2021' | 'es2022' | 'latest';\n  \n  /**\n   * 排除源文件检查，支持正则表达式\n   */\n  exclude?: RegExp | RegExp[];\n  \n  /**\n   * 排除输出文件检查，支持正则表达式  \n   */\n  excludeOutput?: RegExp | RegExp[];\n  \n  /**\n   * 手动包含额外的 JS 或 HTML 文件进行语法检查\n   * 支持文件路径（相对于项目根目录）或 glob 模式\n   */\n  include?: string[];\n  \n  /**\n   * 排除特定的错误日志类型\n   */\n  excludeErrorLogs?: ('source' | 'output' | 'reason' | 'code')[];\n}\n```",
+    "ContentSha": "QBDyNjHbuY1/jvFchViTddXFQeuQdT1OUV55Fta9/Jk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ts\ninterface CheckSyntaxOptions {\n  /**\n   * 目标浏览器范围，使用 browserslist 格式\n   */\n  targets?: string[];\n  \n  /**\n   * 直接指定 ECMAScript 版本（优先级高于 targets）\n   */\n  ecmaVersion?: 'es3' | 'es5' | 'es2015' | 'es2016' | 'es2017' | 'es2018' | 'es2019' | 'es2020' | 'es2021' | 'es2022' | 'latest';\n  \n  /**\n   * 排除源文件检查，支持正则表达式\n   */\n  exclude?: RegExp | RegExp[];\n  \n  /**\n   * 排除输出文件检查，支持正则表达式  \n   */\n  excludeOutput?: RegExp | RegExp[];\n  \n  /**\n   * 手动包含额外的 JS 或 HTML 文件进行语法检查\n   * 支持文件路径（相对于项目根目录）或 glob 模式\n   */\n  include?: string[];\n  \n  /**\n   * 排除特定的错误日志类型\n   */\n  excludeErrorLogs?: ('source' | 'output' | 'reason' | 'code')[];\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+        "originContent": "```ts",
+        "translatedContent": "```ts"
+      },
+      {
+        "row": 2,
+        "rowsha": "8p+2MNkN2+UqrK2tEv3zENs39tvkX4g991ubXDE6YeY=",
+        "originContent": "interface CheckSyntaxOptions {",
+        "translatedContent": "interface CheckSyntaxOptions {"
+      },
+      {
+        "row": 3,
+        "rowsha": "4nqH8TMpMwm167HjFOd5VKLCIxGFrInFV/6OprV2dio=",
+        "originContent": "  /**",
+        "translatedContent": "  /**"
+      },
+      {
+        "row": 4,
+        "rowsha": "M9lDxNhK5pYJiPnN3NFScNhyJjjTtbzNyTmL3me9uC4=",
+        "originContent": "   * 目标浏览器范围，使用 browserslist 格式",
+        "translatedContent": "   * 目标浏览器范围，使用 browserslist 格式"
+      },
+      {
+        "row": 5,
+        "rowsha": "VS6HMaxvdH8CQx/WPXNxcCOmSB2mE6PmtnxO8rQ1LGI=",
+        "originContent": "   */",
+        "translatedContent": "   */"
+      },
+      {
+        "row": 6,
+        "rowsha": "B6p0bR+b6/a/KBkmCSpskAh3io0AOltzYF0teSruT2E=",
+        "originContent": "  targets?: string[];",
+        "translatedContent": "  targets?: string[];"
+      },
+      {
+        "row": 7,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 8,
+        "rowsha": "4nqH8TMpMwm167HjFOd5VKLCIxGFrInFV/6OprV2dio=",
+        "originContent": "  /**",
+        "translatedContent": "  /**"
+      },
+      {
+        "row": 9,
+        "rowsha": "9Wpec/4HB4jJVW3VjUtIOPST8QzcoRaM1BULyOL0MM4=",
+        "originContent": "   * 直接指定 ECMAScript 版本（优先级高于 targets）",
+        "translatedContent": "   * 直接指定 ECMAScript 版本（优先级高于 targets）"
+      },
+      {
+        "row": 10,
+        "rowsha": "VS6HMaxvdH8CQx/WPXNxcCOmSB2mE6PmtnxO8rQ1LGI=",
+        "originContent": "   */",
+        "translatedContent": "   */"
+      },
+      {
+        "row": 11,
+        "rowsha": "+sGdbv3nfnQUclohl1ySZYqblkHjegMSjC200N0Omv8=",
+        "originContent": "  ecmaVersion?: 'es3' | 'es5' | 'es2015' | 'es2016' | 'es2017' | 'es2018' | 'es2019' | 'es2020' | 'es2021' | 'es2022' | 'latest';",
+        "translatedContent": "  ecmaVersion?: 'es3' | 'es5' | 'es2015' | 'es2016' | 'es2017' | 'es2018' | 'es2019' | 'es2020' | 'es2021' | 'es2022' | 'latest';"
+      },
+      {
+        "row": 12,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 13,
+        "rowsha": "4nqH8TMpMwm167HjFOd5VKLCIxGFrInFV/6OprV2dio=",
+        "originContent": "  /**",
+        "translatedContent": "  /**"
+      },
+      {
+        "row": 14,
+        "rowsha": "E35bR+0MV5nj/dhtOGgnhDKdjcTY/3qlh3XAxu6fZVY=",
+        "originContent": "   * 排除源文件检查，支持正则表达式",
+        "translatedContent": "   * 排除源文件检查，支持正则表达式"
+      },
+      {
+        "row": 15,
+        "rowsha": "VS6HMaxvdH8CQx/WPXNxcCOmSB2mE6PmtnxO8rQ1LGI=",
+        "originContent": "   */",
+        "translatedContent": "   */"
+      },
+      {
+        "row": 16,
+        "rowsha": "0TM5XIW9vyKjkNF/ptb6P1Ktx9Y4YZr7uQCVncJRAW0=",
+        "originContent": "  exclude?: RegExp | RegExp[];",
+        "translatedContent": "  exclude?: RegExp | RegExp[];"
+      },
+      {
+        "row": 17,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 18,
+        "rowsha": "4nqH8TMpMwm167HjFOd5VKLCIxGFrInFV/6OprV2dio=",
+        "originContent": "  /**",
+        "translatedContent": "  /**"
+      },
+      {
+        "row": 19,
+        "rowsha": "JzgYA/ChkIeZqYZLt2uoh3EA9fE7xCzDnqkuFl7RqiA=",
+        "originContent": "   * 排除输出文件检查，支持正则表达式  ",
+        "translatedContent": "   * 排除输出文件检查，支持正则表达式  "
+      },
+      {
+        "row": 20,
+        "rowsha": "VS6HMaxvdH8CQx/WPXNxcCOmSB2mE6PmtnxO8rQ1LGI=",
+        "originContent": "   */",
+        "translatedContent": "   */"
+      },
+      {
+        "row": 21,
+        "rowsha": "94lMdwHHcqScYpmLNg1p8nmaqkqXuBKK9biBEofnHAI=",
+        "originContent": "  excludeOutput?: RegExp | RegExp[];",
+        "translatedContent": "  excludeOutput?: RegExp | RegExp[];"
+      },
+      {
+        "row": 22,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 23,
+        "rowsha": "4nqH8TMpMwm167HjFOd5VKLCIxGFrInFV/6OprV2dio=",
+        "originContent": "  /**",
+        "translatedContent": "  /**"
+      },
+      {
+        "row": 24,
+        "rowsha": "VFtZv0868aibbEkRjaC/bnulmt+foJE7G/7hpumnfsw=",
+        "originContent": "   * 手动包含额外的 JS 或 HTML 文件进行语法检查",
+        "translatedContent": "   * 手动包含额外的 JS 或 HTML 文件进行语法检查"
+      },
+      {
+        "row": 25,
+        "rowsha": "6ryucXM8p4ehRwV7MpIJ0Ax/Ig0Q6yhocn1LyDbRgF4=",
+        "originContent": "   * 支持文件路径（相对于项目根目录）或 glob 模式",
+        "translatedContent": "   * 支持文件路径（相对于项目根目录）或 glob 模式"
+      },
+      {
+        "row": 26,
+        "rowsha": "VS6HMaxvdH8CQx/WPXNxcCOmSB2mE6PmtnxO8rQ1LGI=",
+        "originContent": "   */",
+        "translatedContent": "   */"
+      },
+      {
+        "row": 27,
+        "rowsha": "l1qWbGm3yr5SC31sHhTB+CzK2e/YiVDDezRk0ov0JYg=",
+        "originContent": "  include?: string[];",
+        "translatedContent": "  include?: string[];"
+      },
+      {
+        "row": 28,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 29,
+        "rowsha": "4nqH8TMpMwm167HjFOd5VKLCIxGFrInFV/6OprV2dio=",
+        "originContent": "  /**",
+        "translatedContent": "  /**"
+      },
+      {
+        "row": 30,
+        "rowsha": "Ihsy+OuskyNIhX4pEcJhPrWspgsVYgv5mCJ4Qgqxup8=",
+        "originContent": "   * 排除特定的错误日志类型",
+        "translatedContent": "   * 排除特定的错误日志类型"
+      },
+      {
+        "row": 31,
+        "rowsha": "VS6HMaxvdH8CQx/WPXNxcCOmSB2mE6PmtnxO8rQ1LGI=",
+        "originContent": "   */",
+        "translatedContent": "   */"
+      },
+      {
+        "row": 32,
+        "rowsha": "wAHFSs5Uaj2ZRfhCiYeVPns/ngj0luAeH1m5MP+Jr0c=",
+        "originContent": "  excludeErrorLogs?: ('source' | 'output' | 'reason' | 'code')[];",
+        "translatedContent": "  excludeErrorLogs?: ('source' | 'output' | 'reason' | 'code')[];"
+      },
+      {
+        "row": 33,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 34,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n## 使用示例\n\n### 基础配置\n",
+    "ContentSha": "aUZgaLpOYftfxVZxULgGQheDQRKXhXvzuJuHdSGXKyw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Kullanım Örneği\n\n### Temel Yapılandırma\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Kullanım Örneği"
+      },
+      {
+        "row": 2,
+        "rowsha": "5hqelaTTDGeEmboDsBRgiR1wgUAZlzxaX5FSJn1DwiM=",
+        "originContent": "## 使用示例",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Temel Yapılandırma"
+      },
+      {
+        "row": 4,
+        "rowsha": "ePAnVZnascApXLNnCEHL0vGbGx8zYu72/Jl6PZJ0Ydo=",
+        "originContent": "### 基础配置",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```ts\n// 使用 browserslist 配置\ncheckSyntax({\n  targets: ['> 1%', 'last 2 versions', 'not dead'],\n})\n\n// 直接指定 ECMAScript 版本\ncheckSyntax({\n  ecmaVersion: 'es2015',\n})\n```",
+    "ContentSha": "trNr1uFglfOy8tsIBM+wW4XpfyF8UtOEQPvGc1/eopI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ts\n// 使用 browserslist 配置\ncheckSyntax({\n  targets: ['> 1%', 'last 2 versions', 'not dead'],\n})\n\n// 直接指定 ECMAScript 版本\ncheckSyntax({\n  ecmaVersion: 'es2015',\n})\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+        "originContent": "```ts",
+        "translatedContent": "```ts"
+      },
+      {
+        "row": 2,
+        "rowsha": "4Wqv89MQ+p65ZB2bT4uicyzf/Gi40JLyI4o7tDMpXT4=",
+        "originContent": "// 使用 browserslist 配置",
+        "translatedContent": "// 使用 browserslist 配置"
+      },
+      {
+        "row": 3,
+        "rowsha": "nDQwltbk8tn4GTrRQjHlnMx3VBvGqV/WUegrjEuI/UU=",
+        "originContent": "checkSyntax({",
+        "translatedContent": "checkSyntax({"
+      },
+      {
+        "row": 4,
+        "rowsha": "reI3jE/MSm3k/QTPlBBSi/2kHyke6LhYbVTTCvX/PK0=",
+        "originContent": "  targets: ['> 1%', 'last 2 versions', 'not dead'],",
+        "translatedContent": "  targets: ['> 1%', 'last 2 versions', 'not dead'],"
+      },
+      {
+        "row": 5,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "OP39GzdiFO8+Ij1v5qJFrxDXUTCTbqrJOQMSa334S0Y=",
+        "originContent": "// 直接指定 ECMAScript 版本",
+        "translatedContent": "// 直接指定 ECMAScript 版本"
+      },
+      {
+        "row": 8,
+        "rowsha": "nDQwltbk8tn4GTrRQjHlnMx3VBvGqV/WUegrjEuI/UU=",
+        "originContent": "checkSyntax({",
+        "translatedContent": "checkSyntax({"
+      },
+      {
+        "row": 9,
+        "rowsha": "PBSDWah9M8Ku8hw8qoxPSPMBFkhfeHdG//TfmqstPDY=",
+        "originContent": "  ecmaVersion: 'es2015',",
+        "translatedContent": "  ecmaVersion: 'es2015',"
+      },
+      {
+        "row": 10,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n### 排除文件\n",
+    "ContentSha": "Nmbh+gprTI7h4ig1U/DDm/uIIQMJXtcK3Kq4UTK03Zk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Hariç Tutulan Dosyalar\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Hariç Tutulan Dosyalar"
+      },
+      {
+        "row": 2,
+        "rowsha": "PCJ5Ifuj4FR17oA/cEU3WwiWoOMu7hCQ2+D55qtuPcw=",
+        "originContent": "### 排除文件",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```ts\ncheckSyntax({\n  targets: ['> 1%', 'last 2 versions'],\n  // 排除 node_modules 和测试文件\n  exclude: [/node_modules/, /\\.test\\.js$/],\n  // 排除特定输出文件\n  excludeOutput: [/vendor\\.js$/],\n})\n```",
+    "ContentSha": "hufe77d8ItYGoPYiQygbtDGaNJ65caqweIIUosJM/BI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ts\ncheckSyntax({\n  targets: ['> 1%', 'last 2 versions'],\n  // 排除 node_modules 和测试文件\n  exclude: [/node_modules/, /\\.test\\.js$/],\n  // 排除特定输出文件\n  excludeOutput: [/vendor\\.js$/],\n})\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+        "originContent": "```ts",
+        "translatedContent": "```ts"
+      },
+      {
+        "row": 2,
+        "rowsha": "nDQwltbk8tn4GTrRQjHlnMx3VBvGqV/WUegrjEuI/UU=",
+        "originContent": "checkSyntax({",
+        "translatedContent": "checkSyntax({"
+      },
+      {
+        "row": 3,
+        "rowsha": "xAIuPN5JNRi3rmiI8goDvihGnFVOwtkOlK7Pe+e3Ing=",
+        "originContent": "  targets: ['> 1%', 'last 2 versions'],",
+        "translatedContent": "  targets: ['> 1%', 'last 2 versions'],"
+      },
+      {
+        "row": 4,
+        "rowsha": "OqLuUQeAQWbKHcMvMJWZO91DFRWxRspWY26GCJ1RGKU=",
+        "originContent": "  // 排除 node_modules 和测试文件",
+        "translatedContent": "  // 排除 node_modules 和测试文件"
+      },
+      {
+        "row": 5,
+        "rowsha": "SwUvKKZJZBsKzyWOypzq61zH58mawuQ3YVGEiXYhmMU=",
+        "originContent": "  exclude: [/node_modules/, /\\.test\\.js$/],",
+        "translatedContent": "  exclude: [/node_modules/, /\\.test\\.js$/],"
+      },
+      {
+        "row": 6,
+        "rowsha": "fO+bS9Rw1Exn6HJFs4ZYp3lzMWNTmpPJJceSxKKR3k0=",
+        "originContent": "  // 排除特定输出文件",
+        "translatedContent": "  // 排除特定输出文件"
+      },
+      {
+        "row": 7,
+        "rowsha": "BSln0nVsE42FmejT1ctxWrWOTFmFUqw34QsS+oRw78E=",
+        "originContent": "  excludeOutput: [/vendor\\.js$/],",
+        "translatedContent": "  excludeOutput: [/vendor\\.js$/],"
+      },
+      {
+        "row": 8,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n### 包含额外文件\n",
+    "ContentSha": "bBfXEiO6B/x1Xf7emMf92gp7MOZcXdnTbdvDcUrJ4fo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Ek Dosyaları Dahil Etme\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Ek Dosyaları Dahil Etme"
+      },
+      {
+        "row": 2,
+        "rowsha": "2tZ5W6UpXmrlzQuvGqGYam9vjsm/rBGnV8wGkH0qr4o=",
+        "originContent": "### 包含额外文件",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```ts\ncheckSyntax({\n  targets: ['> 1%', 'last 2 versions'],\n  // 手动包含额外的文件进行检查\n  include: [\n    'src/legacy/**/*.js',        // 包含 legacy 目录下的所有 JS 文件\n    'public/scripts/app.js',     // 包含特定的公共脚本文件\n    'docs/**/*.html',            // 包含文档中的 HTML 文件\n    '/absolute/path/to/file.js'  // 支持绝对路径\n  ],\n})\n```",
+    "ContentSha": "TPPOM4CwZByWBYflgv/TUbTdqUvqw1leVHaw2dn3u5A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ts\ncheckSyntax({\n  targets: ['> 1%', 'last 2 versions'],\n  // 手动包含额外的文件进行检查\n  include: [\n    'src/legacy/**/*.js',        // 包含 legacy 目录下的所有 JS 文件\n    'public/scripts/app.js',     // 包含特定的公共脚本文件\n    'docs/**/*.html',            // 包含文档中的 HTML 文件\n    '/absolute/path/to/file.js'  // 支持绝对路径\n  ],\n})\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+        "originContent": "```ts",
+        "translatedContent": "```ts"
+      },
+      {
+        "row": 2,
+        "rowsha": "nDQwltbk8tn4GTrRQjHlnMx3VBvGqV/WUegrjEuI/UU=",
+        "originContent": "checkSyntax({",
+        "translatedContent": "checkSyntax({"
+      },
+      {
+        "row": 3,
+        "rowsha": "xAIuPN5JNRi3rmiI8goDvihGnFVOwtkOlK7Pe+e3Ing=",
+        "originContent": "  targets: ['> 1%', 'last 2 versions'],",
+        "translatedContent": "  targets: ['> 1%', 'last 2 versions'],"
+      },
+      {
+        "row": 4,
+        "rowsha": "fIT7c2PzpTY+pxwPyBdLMmik6+Bok7lnGnuZjdaAcao=",
+        "originContent": "  // 手动包含额外的文件进行检查",
+        "translatedContent": "  // 手动包含额外的文件进行检查"
+      },
+      {
+        "row": 5,
+        "rowsha": "mvEoDYPM4jTYoOCs2/DybWDxtBMDjTru4XitWAhWCyI=",
+        "originContent": "  include: [",
+        "translatedContent": "  include: ["
+      },
+      {
+        "row": 6,
+        "rowsha": "3dypRgTriw+/uFuQRl8NWqCOnU7UKU+mOCaDTdWw3h4=",
+        "originContent": "    'src/legacy/**/*.js',        // 包含 legacy 目录下的所有 JS 文件",
+        "translatedContent": "    'src/legacy/**/*.js',        // 包含 legacy 目录下的所有 JS 文件"
+      },
+      {
+        "row": 7,
+        "rowsha": "pM6nF2qsy3J+KSuSkTImMxlesWp0pfsLc05PGwp8JkU=",
+        "originContent": "    'public/scripts/app.js',     // 包含特定的公共脚本文件",
+        "translatedContent": "    'public/scripts/app.js',     // 包含特定的公共脚本文件"
+      },
+      {
+        "row": 8,
+        "rowsha": "LOB8jSuJCbubUm0qax6YU3MoTZZvQCsGkFPnA4+zfso=",
+        "originContent": "    'docs/**/*.html',            // 包含文档中的 HTML 文件",
+        "translatedContent": "    'docs/**/*.html',            // 包含文档中的 HTML 文件"
+      },
+      {
+        "row": 9,
+        "rowsha": "XJ/7PX3dknvDmtA2EodXIllF7XNOURYJG23AqcisOJQ=",
+        "originContent": "    '/absolute/path/to/file.js'  // 支持绝对路径",
+        "translatedContent": "    '/absolute/path/to/file.js'  // 支持绝对路径"
+      },
+      {
+        "row": 10,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 11,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n### 自定义错误输出\n",
+    "ContentSha": "lWAlax+2Lyan3AWXaUcQNAXTKvizYD2uoLncIouDtU4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Özel Hata Çıktısı\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Özel Hata Çıktısı"
+      },
+      {
+        "row": 2,
+        "rowsha": "uSh2dLyYVFt/QWe7tiQMyvVAk5VcO6H4sAVUuankxwE=",
+        "originContent": "### 自定义错误输出",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```ts\ncheckSyntax({\n  targets: ['> 1%', 'last 2 versions'],\n  // 只显示错误原因，不显示代码片段\n  excludeErrorLogs: ['code', 'output'],\n})\n```",
+    "ContentSha": "HsxmD5YQTAdI/SmpDwVa5rXplZzJ2eg5xAKW9j+syJ8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ts\ncheckSyntax({\n  targets: ['> 1%', 'last 2 versions'],\n  // 只显示错误原因，不显示代码片段\n  excludeErrorLogs: ['code', 'output'],\n})\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+        "originContent": "```ts",
+        "translatedContent": "```ts"
+      },
+      {
+        "row": 2,
+        "rowsha": "nDQwltbk8tn4GTrRQjHlnMx3VBvGqV/WUegrjEuI/UU=",
+        "originContent": "checkSyntax({",
+        "translatedContent": "checkSyntax({"
+      },
+      {
+        "row": 3,
+        "rowsha": "xAIuPN5JNRi3rmiI8goDvihGnFVOwtkOlK7Pe+e3Ing=",
+        "originContent": "  targets: ['> 1%', 'last 2 versions'],",
+        "translatedContent": "  targets: ['> 1%', 'last 2 versions'],"
+      },
+      {
+        "row": 4,
+        "rowsha": "T0vY3WgA0eoU88Iq4vT7n7kE1iAZMP4gZoPBEudY4N0=",
+        "originContent": "  // 只显示错误原因，不显示代码片段",
+        "translatedContent": "  // 只显示错误原因，不显示代码片段"
+      },
+      {
+        "row": 5,
+        "rowsha": "HUbw2z7w3fk9ABBsaMCHfZcyDCA0evBFJkf+4WcSyPA=",
+        "originContent": "  excludeErrorLogs: ['code', 'output'],",
+        "translatedContent": "  excludeErrorLogs: ['code', 'output'],"
+      },
+      {
+        "row": 6,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\n## 迁移指南\n\n如果你正在从 `@rsbuild/plugin-check-syntax` 迁移：\n",
+    "ContentSha": "YyxxfMivP0WQnIbT7unv3ThYSkjlu2APaDUlNx5VMD8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Geçiş Rehberi\n\nEğer `@rsbuild/plugin-check-syntax` eklentisinden geçiş yapıyorsanız:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Geçiş Rehberi"
+      },
+      {
+        "row": 2,
+        "rowsha": "ozkN3ntTgMi8Up9mpNdIr/cuADSvNDISwFhYaHpyDy4=",
+        "originContent": "## 迁移指南",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Eğer `@rsbuild/plugin-check-syntax` eklentisinden geçiş yapıyorsanız:"
+      },
+      {
+        "row": 4,
+        "rowsha": "d+78dgwjTANaoXWFkXS6jszjSXbDIMJwFyKma+TkThg=",
+        "originContent": "如果你正在从 `@rsbuild/plugin-check-syntax` 迁移：",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```diff\n- import { pluginCheckSyntax } from '@rsbuild/plugin-check-syntax'\n+ import checkSyntax from '@winner-fed/unplugin-check-syntax/vite' // 或其他构建工具\n\nexport default defineConfig({\n  plugins: [\n-   pluginCheckSyntax({\n+   checkSyntax({\n      targets: ['> 1%', 'last 2 versions'],\n    }),\n  ],\n})\n```",
+    "ContentSha": "oRtVOCRkXpPXxt8TgCA4WxkUuNffuvITtrD435uWlCo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```diff\n- import { pluginCheckSyntax } from '@rsbuild/plugin-check-syntax'\n+ import checkSyntax from '@winner-fed/unplugin-check-syntax/vite' // 或其他构建工具\n\nexport default defineConfig({\n  plugins: [\n-   pluginCheckSyntax({\n+   checkSyntax({\n      targets: ['> 1%', 'last 2 versions'],\n    }),\n  ],\n})\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "WxLtLKSSgbzkYV/VlabfZ+fzdHTHZQVuS0THi3FxsNk=",
+        "originContent": "```diff",
+        "translatedContent": "```diff"
+      },
+      {
+        "row": 2,
+        "rowsha": "/o6n09UvVO7EWWm9hF92V3SFcoL4hZyhfGjwOys8l+Y=",
+        "originContent": "- import { pluginCheckSyntax } from '@rsbuild/plugin-check-syntax'",
+        "translatedContent": "- import { pluginCheckSyntax } from '@rsbuild/plugin-check-syntax'"
+      },
+      {
+        "row": 3,
+        "rowsha": "2SUoYM83t299+vkGGsQyjzIsH4Ma3VXC1+s4AbPe2XU=",
+        "originContent": "+ import checkSyntax from '@winner-fed/unplugin-check-syntax/vite' // 或其他构建工具",
+        "translatedContent": "+ import checkSyntax from '@winner-fed/unplugin-check-syntax/vite' // 或其他构建工具"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "pxlmGtYe1w1KMBva5rp+lHF+7Z+LH5UVh4Ii/ZGTQo8=",
+        "originContent": "export default defineConfig({",
+        "translatedContent": "export default defineConfig({"
+      },
+      {
+        "row": 6,
+        "rowsha": "xi3phYtpenrywBPZ1rVUToaSjseiAa+2Qybr4vAXDN4=",
+        "originContent": "  plugins: [",
+        "translatedContent": "  plugins: ["
+      },
+      {
+        "row": 7,
+        "rowsha": "oxk9e6cTKH27zW8JlO2NNmNF5sB+SYMUfuapeIE3WNw=",
+        "originContent": "-   pluginCheckSyntax({",
+        "translatedContent": "-   pluginCheckSyntax({"
+      },
+      {
+        "row": 8,
+        "rowsha": "aLWH9Izid8KAOGu4TEMBfY/fqW4jmq2+SXWNZyZtne0=",
+        "originContent": "+   checkSyntax({",
+        "translatedContent": "+   checkSyntax({"
+      },
+      {
+        "row": 9,
+        "rowsha": "xFK3b/ZkTv5ZMaHUdtw/cuO2NFhlSfcR+pE/1FX942Q=",
+        "originContent": "      targets: ['> 1%', 'last 2 versions'],",
+        "translatedContent": "      targets: ['> 1%', 'last 2 versions'],"
+      },
+      {
+        "row": 10,
+        "rowsha": "IDY8H84q0W3iMAsgCGggJ1TJIMyTqMKPxACM1e4EE50=",
+        "originContent": "    }),",
+        "translatedContent": "    }),"
+      },
+      {
+        "row": 11,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 12,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\n## 工作原理\n\n1. **构建后检查**: 插件在构建完成后检查输出文件\n2. **语法解析**: 使用 Acorn 解析器检查 JavaScript 语法\n3. **兼容性验证**: 根据配置的 ECMAScript 版本验证语法兼容性\n4. **错误报告**: 提供详细的错误信息，包括文件位置和源码片段\n5. **Sourcemap 支持**: 如果存在 sourcemap，会追溯到原始源文件\n\n## 许可证\n\nMIT License\n\n## 贡献\n\n欢迎提交 Issue 和 Pull Request！\n",
+    "ContentSha": "dmT+6vrnRvVM1EaATkSF9LCScwQy4VaqLDi7nKyE12Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Çalışma Prensibi\n\n1. **Yapıdan Sonra Kontrol**: Eklenti, yapı tamamlandıktan sonra çıktı dosyalarını kontrol eder\n2. **Sözdizimi Analizi**: JavaScript sözdizimini kontrol etmek için Acorn ayrıştırıcısı kullanılır\n3. **Uyumluluk Doğrulaması**: Yapılandırılan ECMAScript sürümüne göre sözdizimi uyumluluğu doğrulanır\n4. **Hata Raporlama**: Dosya konumu ve kaynak kod parçası dahil olmak üzere ayrıntılı hata bilgisi sağlar\n5. **Sourcemap Desteği**: Sourcemap varsa, orijinal kaynak dosyaya kadar izler\n\n## Lisans\n\nMIT Lisansı\n\n## Katkı\n\nIssue ve Pull Request göndermeye hoş geldiniz!\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Çalışma Prensibi"
+      },
+      {
+        "row": 2,
+        "rowsha": "XearC+MOqvi4aBXgJQX8NtFfBjcLyXC4ftPSskJigR8=",
+        "originContent": "## 工作原理",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. **Yapıdan Sonra Kontrol**: Eklenti, yapı tamamlandıktan sonra çıktı dosyalarını kontrol eder"
+      },
+      {
+        "row": 4,
+        "rowsha": "9ZyXZXo+ibl8b425WiLN4o0HT6w2GR3hhE3WyfLibxk=",
+        "originContent": "1. **构建后检查**: 插件在构建完成后检查输出文件",
+        "translatedContent": "2. **Sözdizimi Analizi**: JavaScript sözdizimini kontrol etmek için Acorn ayrıştırıcısı kullanılır"
+      },
+      {
+        "row": 5,
+        "rowsha": "Y2ai2kauM4MW569dMeaclAvoqGwNcNYm3VTb8y+NYb0=",
+        "originContent": "2. **语法解析**: 使用 Acorn 解析器检查 JavaScript 语法",
+        "translatedContent": "3. **Uyumluluk Doğrulaması**: Yapılandırılan ECMAScript sürümüne göre sözdizimi uyumluluğu doğrulanır"
+      },
+      {
+        "row": 6,
+        "rowsha": "26UJSkAwxCX2KM4JOIF4dygWH7ayzSGbfQqnVPsBjFM=",
+        "originContent": "3. **兼容性验证**: 根据配置的 ECMAScript 版本验证语法兼容性",
+        "translatedContent": "4. **Hata Raporlama**: Dosya konumu ve kaynak kod parçası dahil olmak üzere ayrıntılı hata bilgisi sağlar"
+      },
+      {
+        "row": 7,
+        "rowsha": "6ofhhJ6rvkPjepf055d6ZLmRDdsw7OXZJVl5qJpBPYo=",
+        "originContent": "4. **错误报告**: 提供详细的错误信息，包括文件位置和源码片段",
+        "translatedContent": "5. **Sourcemap Desteği**: Sourcemap varsa, orijinal kaynak dosyaya kadar izler"
+      },
+      {
+        "row": 8,
+        "rowsha": "++G5PQRKs56Sc7WpskKmJNHO4c5HKPhvzdQCYtRZnxU=",
+        "originContent": "5. **Sourcemap 支持**: 如果存在 sourcemap，会追溯到原始源文件",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Lisans"
+      },
+      {
+        "row": 10,
+        "rowsha": "l9mHJhM0bkQldVQ8sqfWeieeIFtAwhD/P/KiVcLUJww=",
+        "originContent": "## 许可证",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "MIT Lisansı"
+      },
+      {
+        "row": 12,
+        "rowsha": "q7KJbcPCqUAvkBuI1QNc8Kg9XPfBfnNkLN9WKwudO8U=",
+        "originContent": "MIT License",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Katkı"
+      },
+      {
+        "row": 14,
+        "rowsha": "n21AaWzPVnDL+9B1KLgyhXMhxcK1qNwq+SAny7Nifa4=",
+        "originContent": "## 贡献",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Issue ve Pull Request göndermeye hoş geldiniz!"
+      },
+      {
+        "row": 16,
+        "rowsha": "lPlLLdeZnGUoaPMxhA+KRib/VjC5fvSmvVl15TfooU8=",
+        "originContent": "欢迎提交 Issue 和 Pull Request！",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
