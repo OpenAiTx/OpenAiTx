@@ -1,46 +1,77 @@
-<translate-content># ユニバーサルツール呼び出しプロトコル（UTCP）仕様書
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
 
-このリポジトリは、ユニバーサルツール呼び出しプロトコル（UTCP）の公式仕様ドキュメントを含んでいます。UTCPは、さまざまな通信プロトコルにわたってツールを定義し、対話するための最新で柔軟かつスケーラブルな標準です。
+# Universal Tool Calling Protocol (UTCP) 仕様書
+
+このリポジトリには Universal Tool Calling Protocol (UTCP) の公式仕様書が含まれています。UTCPは、さまざまな通信プロトコル間でツールを定義し操作するための、現代的で柔軟かつスケーラブルな標準規格です。
 
 ## UTCPとは何か？
 
-UTCPは、AIシステムやその他のクライアントが、基盤となるプロトコル（HTTP、WebSocket、CLIなど）に関係なく、異なるプロバイダーのツールを発見し呼び出すための標準化された方法を提供します。この仕様では以下を定義しています：
+UTCPは、AIシステムや他のクライアントが異なるプロバイダーのツールを、基盤となるプロトコル（HTTP、WebSocket、CLIなど）に関係なく発見し呼び出すための標準化された方法を提供します。この仕様書では以下を定義しています：
 
 - ツール発見メカニズム
 - ツール呼び出しフォーマット
 - プロバイダー設定
-- 認証方法
+- 認証方式
 - レスポンス処理
 
-## 仕様への貢献
+## 仕様書への貢献
 
-UTCP仕様への貢献を歓迎します！貢献方法は以下の通りです：
+UTCP仕様書への貢献を歓迎します！貢献の方法は以下の通りです：
 
-1. **リポジトリをフォークする**：仕様リポジトリを自分のフォークとして作成
-2. **変更を行う**：必要に応じてドキュメントを更新または追加
-3. **プルリクエストを提出する**：変更内容をレビュー用にPRとして開く
-4. **ディスカッションに参加する**：提案された変更について議論に参加
+1. **リポジトリをフォークする**: 仕様書リポジトリの自分用フォークを作成
+2. **変更を加える**: 必要に応じてドキュメントを更新または追加
+3. **プルリクエストを送る**: 変更内容をレビューのためにPRとして提出
+4. **議論に参加する**: 提案された変更についての議論に参加
 
-貢献の際は、以下のガイドラインに従ってください：
+貢献時は以下のガイドラインを守ってください：
 
-- 変更がUTCPの全体的なビジョンと目標に沿っていることを確認
+- 変更がUTCPの全体的なビジョンや目標に沿っていることを確認
 - 既存のドキュメント構造とフォーマットを遵守
-- 新機能や概念を追加する際は例を含める
-- ドキュメント全体の一貫性を保つため関連セクションを更新
+- 新機能や概念の追加時には例を含める
+- ドキュメント全体の整合性を保つため関連するセクションを更新
 
-## ローカルでのドキュメントビルド
+## ドキュメントをローカルでビルドする
 
 ### 前提条件
 
-ドキュメントサイトをローカルでビルドおよびプレビューするには、以下が必要です：
+ドキュメントサイトをローカルでビルドしプレビューするには以下が必要です：
 
-- Ruby バージョン2.5.0以上
+- Ruby バージョン 2.5.0 以上
 - RubyGems
 - Bundler
 
 ### セットアップ
 
-1. リポジトリをクローンする：</translate-content>
+1. リポジトリをクローンする：
+
    ```bash
    git clone https://github.com/universal-tool-calling-protocol/utcp-specification.git
    cd utcp-specification
@@ -119,6 +150,6 @@ This specification is distributed under the Mozilla Public License 2.0 (MPL-2.0)
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-21
 
 ---
