@@ -113,11 +113,11 @@ source zipvoice/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-### 4. (Tùy chọn) Cài đặt k2 để huấn luyện hoặc suy luận hiệu quả
+### 4. Cài đặt k2 để huấn luyện hoặc suy luận hiệu quả
 
-k2 là cần thiết cho việc huấn luyện và có thể tăng tốc độ suy luận. Tuy nhiên, bạn vẫn có thể sử dụng chế độ suy luận của ZipVoice mà không cần cài đặt k2.
+**k2 là cần thiết cho việc huấn luyện** và có thể tăng tốc quá trình suy luận. Tuy nhiên, bạn vẫn có thể sử dụng chế độ suy luận của ZipVoice mà không cần cài đặt k2.
 
-> **Lưu ý:** Hãy đảm bảo rằng bạn cài đặt phiên bản k2 phù hợp với phiên bản PyTorch và CUDA của bạn. Ví dụ, nếu bạn đang sử dụng pytorch 2.5.1 và CUDA 12.1, bạn có thể cài đặt k2 như sau:
+> **Lưu ý:** Đảm bảo cài đặt phiên bản k2 phù hợp với phiên bản PyTorch và CUDA của bạn. Ví dụ, nếu bạn đang sử dụng pytorch 2.5.1 và CUDA 12.1, bạn có thể cài đặt k2 như sau:
 
 
 ```bash
@@ -126,13 +126,19 @@ pip install k2==1.24.4.dev20250208+cuda12.1.torch2.5.1 -f https://k2-fsa.github.
 Vui lòng tham khảo https://k2-fsa.org/get-started/k2/ để biết chi tiết.
 Người dùng tại Trung Quốc đại lục có thể tham khảo https://k2-fsa.org/zh-CN/get-started/k2/.
 
+- Để kiểm tra cài đặt k2:
+
+
+```
+python3 -c "import k2; print(k2.__file__)"
+```
 ## Sử dụng
 
-### 1. Tạo giọng nói một người
+### 1. Tạo giọng nói một người nói
 
-Để tạo giọng nói một người với các mô hình ZipVoice hoặc ZipVoice-Distill đã huấn luyện trước của chúng tôi, hãy sử dụng các lệnh sau (các mô hình cần thiết sẽ được tải về từ HuggingFace):
+Để tạo giọng nói một người nói với các mô hình ZipVoice hoặc ZipVoice-Distill đã được huấn luyện trước của chúng tôi, hãy sử dụng các lệnh sau (Các mô hình cần thiết sẽ được tải xuống từ HuggingFace):
 
-#### 1.1 Suy luận một câu duy nhất
+#### 1.1 Suy luận một câu đơn lẻ
 
 
 ```bash
@@ -163,11 +169,11 @@ python3 -m zipvoice.bin.infer_zipvoice \
 ```
 - Mỗi dòng của `test.tsv` có định dạng `{wav_name}\t{prompt_transcription}\t{prompt_wav}\t{text}`.
 
-### 2. Tạo hội thoại nói
+### 2. Tạo sinh lời thoại
 
 #### 2.1 Lệnh suy luận
 
-Để tạo hội thoại nói hai bên với các mô hình ZipVoice-Dialogue hoặc ZipVoice-Dialogue-Stereo đã được huấn luyện sẵn của chúng tôi, hãy sử dụng các lệnh sau (Các mô hình cần thiết sẽ được tải về từ HuggingFace):
+Để tạo sinh các cuộc hội thoại hai người nói với các mô hình ZipVoice-Dialogue hoặc ZipVoice-Dialogue-Stereo đã được huấn luyện trước của chúng tôi, hãy sử dụng các lệnh sau (Các mô hình cần thiết sẽ được tải xuống từ HuggingFace):
 
 
 ```bash
@@ -199,31 +205,31 @@ Mỗi dòng của `test.tsv` sẽ thuộc một trong các định dạng sau:
 ```
 {wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}'
 ```
-- `wav_name` là tên của file wav đầu ra.
-- `spk1_prompt_transcription` là bản phiên âm của file wav nhắc lời của người nói thứ nhất, ví dụ, "Hello"
-- `spk2_prompt_transcription` là bản phiên âm của file wav nhắc lời của người nói thứ hai, ví dụ, "How are you?"
-- `spk1_prompt_wav` là đường dẫn đến file wav nhắc lời của người nói thứ nhất.
-- `spk2_prompt_wav` là đường dẫn đến file wav nhắc lời của người nói thứ hai.
-- `text` là đoạn văn bản cần tổng hợp, ví dụ: "[S1] I'm fine. [S2] What's your name?"
+- `wav_name` là tên của tệp wav đầu ra.
+- `spk1_prompt_transcription` là bản phiên âm của tệp wav nhắc của người nói thứ nhất, ví dụ, "Hello"
+- `spk2_prompt_transcription` là bản phiên âm của tệp wav nhắc của người nói thứ hai, ví dụ, "How are you?"
+- `spk1_prompt_wav` là đường dẫn tới tệp wav nhắc của người nói thứ nhất.
+- `spk2_prompt_wav` là đường dẫn tới tệp wav nhắc của người nói thứ hai.
+- `text` là văn bản cần tổng hợp, ví dụ: "[S1] I'm fine. [S2] What's your name?"
 
 ### 3. Các tính năng khác
 
 #### 3.1 Sửa lỗi phát âm sai các ký tự đa âm trong tiếng Trung
 
-Chúng tôi sử dụng [pypinyin](https://github.com/mozillazg/python-pinyin) để chuyển đổi ký tự tiếng Trung thành pinyin. Tuy nhiên, đôi khi nó có thể phát âm sai các **ký tự đa âm** (多音字).
+Chúng tôi sử dụng [pypinyin](https://github.com/mozillazg/python-pinyin) để chuyển đổi ký tự tiếng Trung sang pinyin. Tuy nhiên, đôi khi nó có thể phát âm sai các **ký tự đa âm** (多音字).
 
-Để tự chỉnh sửa các lỗi phát âm này, hãy đặt **pinyin đã chỉnh sửa** vào trong dấu ngoặc nhọn `< >` và kèm theo **dấu thanh**.
+Để sửa thủ công các lỗi phát âm này, hãy đặt **pinyin đã chỉnh sửa** trong dấu ngoặc nhọn `< >` và bao gồm cả **dấu thanh**.
 
 **Ví dụ:**
 
 - Văn bản gốc: `这把剑长三十公分`
 - Sửa pinyin của `长`:  `这把剑<chang2>三十公分`
 
-> **Lưu ý:** Nếu bạn muốn gán nhiều pinyin thủ công, hãy đặt mỗi pinyin vào trong `<>`, ví dụ: `这把<jian4><chang2><san1>十公分`
+> **Lưu ý:** Nếu bạn muốn gán nhiều pinyin thủ công, hãy đặt mỗi pinyin trong `<>`, ví dụ: `这把<jian4><chang2><san1>十公分`
 
-## Tự huấn luyện mô hình của bạn
+## Huấn luyện mô hình của riêng bạn
 
-Xem thư mục [egs](egs) để biết các ví dụ về huấn luyện và tinh chỉnh.
+Xem thư mục [egs](egs) để biết các ví dụ về huấn luyện, tinh chỉnh và đánh giá.
 
 ## Thảo luận & Giao tiếp
 
@@ -257,6 +263,6 @@ Bạn cũng có thể quét mã QR để tham gia nhóm wechat của chúng tôi
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

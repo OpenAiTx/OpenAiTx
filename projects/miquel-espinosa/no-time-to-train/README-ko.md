@@ -1,12 +1,42 @@
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
+
 <div align="center">
 
-# 🚀 훈련할 시간 없다!  
+# 🚀 훈련할 시간 없어!  
 ### 훈련 없는 참조 기반 인스턴스 분할  
 [![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)
 [![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)
 
-**최신 기술 (Papers with Code)**
+**최신 성능 (Papers with Code)**
 
 [**_1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
@@ -18,13 +48,13 @@
 
 ---
 
-> 🔔 **업데이트 (2025년 7월):** 코드가 업데이트되어 사용법이 추가되었습니다!
+> 🔔 **업데이트 (2025년 7월):** 코드가 지침과 함께 업데이트되었습니다!
 
 ---
 
 ## 📋 목차
 
-- [🎯 주요 내용](#-highlights)
+- [🎯 주요 특징](#-highlights)
 - [📜 초록](#-abstract)
 - [🧠 아키텍처](#-architecture)
 - [🛠️ 설치 안내](#️-installation-instructions)
@@ -35,17 +65,17 @@
   - [5. SAM2 및 DinoV2 체크포인트 다운로드](#5-download-sam2-and-dinov2-checkpoints)
 - [📊 추론 코드: Few-shot COCO에서 30-shot SOTA 결과 재현](#-inference-code)
   - [0. 참조 세트 생성](#0-create-reference-set)
-  - [1. 메모리에 참조 채우기](#1-fill-memory-with-references)
+  - [1. 참조로 메모리 채우기](#1-fill-memory-with-references)
   - [2. 메모리 뱅크 후처리](#2-post-process-memory-bank)
-  - [3. 대상 이미지 추론](#3-inference-on-target-images)
+  - [3. 대상 이미지에서 추론](#3-inference-on-target-images)
   - [결과](#results)
 - [🔍 인용](#-citation)
 
 
-## 🎯 주요 내용
-- 💡 **훈련 불필요**: 미세조정 없이, 프롬프트 설계 없이—오직 참조 이미지만으로.  
-- 🖼️ **참조 기반**: 몇 개의 예시만으로 새로운 객체 분할.  
-- 🔥 **최신 성능**: COCO, PASCAL VOC, Cross-Domain FSOD에서 기존 훈련 없는 방법들보다 뛰어난 성능.
+## 🎯 주요 특징
+- 💡 **훈련 필요 없음**: 파인튜닝이나 프롬프트 엔지니어링 없이, 참조 이미지만 사용  
+- 🖼️ **참조 기반**: 몇 개의 예시로 새로운 객체 분할  
+- 🔥 **최신 성능**: COCO, PASCAL VOC, Cross-Domain FSOD에서 기존 훈련 없는 방법보다 우수한 성능
 
 **링크:**
 - 🧾 [**arXiv 논문**](https://arxiv.org/abs/2507.02798)  
@@ -54,7 +84,7 @@
 
 ## 📜 초록
 
-> 이미지 분할 모델의 성능은 역사적으로 대규모 주석 데이터 수집의 높은 비용에 의해 제한되어 왔습니다. Segment Anything Model (SAM)은 프롬프트 가능하고 의미론에 무관한 분할 패러다임을 통해 이 문제를 완화하지만, 여전히 새로운 이미지를 처리할 때 수동 시각 프롬프트나 복잡한 도메인 의존적 프롬프트 생성 규칙이 필요합니다. 이러한 부담을 줄이기 위해, 본 연구는 소량의 참조 이미지 세트만 제공되는 경우 객체 분할 작업을 조사합니다. 우리의 핵심 통찰은 파운데이션 모델이 학습한 강력한 의미론적 사전지식을 활용하여 참조 이미지와 대상 이미지 사이의 대응 영역을 식별하는 것입니다. 대응 관계를 통해 다운스트림 작업을 위한 인스턴스 수준 분할 마스크를 자동으로 생성할 수 있음을 발견했고, 이를 다단계 훈련 불필요 방법으로 구현했습니다: (1) 메모리 뱅크 구축; (2) 표현 집계; (3) 의미 인지 특징 매칭. 실험 결과, COCO FSOD (36.8% nAP), PASCAL VOC Few-Shot (71.2% nAP50)에서 상당한 분할 지표 개선을 보였으며, Cross-Domain FSOD 벤치마크에서 기존 훈련 불필요 접근법을 능가하는 성과(22.4% nAP)를 달성했습니다.
+> 이미지 분할 모델의 성능은 대규모 주석 데이터 수집의 높은 비용에 의해 역사적으로 제한되어 왔습니다. Segment Anything Model(SAM)은 프롬프트 기반, 의미 불가지론적 분할 패러다임을 통해 이 문제를 완화하지만 여전히 새로운 이미지를 처리하기 위해 수동 시각 프롬프트나 복잡한 도메인 종속 프롬프트 생성 규칙이 필요합니다. 이 새로운 부담을 줄이기 위해, 본 연구는 소수의 참조 이미지만 제공되는 객체 분할 작업을 탐구합니다. 우리의 핵심 통찰은 파운데이션 모델이 학습한 강력한 의미론적 사전 지식을 활용하여 참조 이미지와 대상 이미지 간의 대응 영역을 식별하는 것입니다. 이러한 대응은 다운스트림 작업을 위한 인스턴스 수준 분할 마스크의 자동 생성을 가능하게 하며, (1) 메모리 뱅크 구축, (2) 표현 집계, (3) 의미 인식 특성 매칭을 통합한 다단계 훈련 없는 방법으로 구현됩니다. 실험 결과, COCO FSOD(36.8% nAP), PASCAL VOC Few-Shot(71.2% nAP50), Cross-Domain FSOD 벤치마크(22.4% nAP)에서 최신 성능을 달성하며 분할 지표에서 상당한 개선을 보였습니다.
 
 ![cdfsod-results-final-comic-sans-min](https://github.com/user-attachments/assets/ab302c02-c080-4042-99fc-0e181ba8abb9)
 
@@ -67,6 +97,7 @@
 ## 🛠️ 설치 안내
 
 ### 1. 저장소 복제
+
 
 ```bash
 git clone https://github.com/miquel-espinosa/no-time-to-train.git
@@ -214,6 +245,6 @@ If you use this work, please cite us:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

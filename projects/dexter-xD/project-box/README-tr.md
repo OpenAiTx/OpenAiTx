@@ -13,7 +13,7 @@
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fr">Français</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=de">Deutsch</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Italiano</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ru">Русский</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pt">Português</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=nl">Nederlands</a>
@@ -30,14 +30,14 @@
 
 # C Programlama Projeleri Koleksiyonu
 
-[![Bana Bir Kahve Ismarla](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)
+[![Bana Bir Kahve Al](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)
 
-Başlangıç seviyesindeki kullanıcıların temel algoritmalardan ağ programlamaya kadar çeşitli programlama kavramlarını öğrenip uygulayabilmeleri için tasarlanmış C programlama projeleri koleksiyonu. Her proje kendi dökümantasyonuna ve derleme sistemine sahiptir.
+Başlangıç seviyesindeki kullanıcıların temel algoritmalardan ağ programlamaya kadar çeşitli programlama kavramlarını öğrenmeleri ve pratik yapmaları için tasarlanmış C programlama projeleri koleksiyonu. Her proje bağımsızdır ve kendi dokümantasyonu ile derleme sistemine sahiptir.
 
-## Projelerin Genel Bakışı
+## Proje Genel Bakışları
 
 ### 1. [SHA-512 Uygulaması](SHA-512/)
-Aşağıdakileri gösteren kriptografik bir özet fonksiyonu uygulaması:
+Bir kriptografik özet fonksiyonu uygulaması; aşağıdakileri gösterir:
 - Bit manipülasyonu
 - Karmaşık algoritmalar
 - Bellek yönetimi
@@ -58,17 +58,17 @@ Aşağıdakileri öğreten basit bir UDP tabanlı iletişim sistemi:
 - Mesaj alışverişi
 
 ### 4. [Port Tarayıcı](port-scanner/)
-Aşağıdakileri gösteren bir ağ teşhis aracı:
+Aşağıdakileri gösteren bir ağ tanı aracı:
 - TCP soket programlama
 - Ağ tarama teknikleri
 - Hata yönetimi
-- Komut satırı argüman ayrıştırma
+- Komut satırı argümanlarının ayrıştırılması
 
 ### 5. [Ping Uygulaması](ping/)
 Aşağıdakileri kapsayan özel bir ping aracı:
 - ICMP protokolü
 - Ham soket programlama
-- Ağ teşhisi
+- Ağ tanılama
 - Zaman ölçümü
 
 ### 6. [Tic-Tac-Toe](tic-tac-toe/)
@@ -81,22 +81,22 @@ Aşağıdakileri öğreten klasik bir oyun uygulaması:
 ### 7. [Sohbet Sistemi](chat-system/)
 Aşağıdakileri gösteren gerçek zamanlı bir sohbet uygulaması:
 - TCP soket programlama
-- Çoklu iş parçacığı
+- Çoklu iş parçacığı (multi-threading)
 - Gerçek zamanlı iletişim
 - İstemci-sunucu mimarisi
 
-### 8. [Leksik Analizör](lexical-analyser/)
+### 8. [Lexical Analyzer](lexical-analyser/)
 Aşağıdakileri gösteren basit bir derleyici ön uç bileşeni:
-- Kaynak kodun belirteçlere ayrılması
+- Kaynak kodun token'lara ayrılması
 - Ayrıştırma teknikleri
-- Derleyici tasarım ilkeleri
+- Derleyici tasarımı prensipleri
 - Dize manipülasyonu
 
 ### 9. [Aritmetik Derleyici](arithmetic-compiler/)
-Aritmetik ifadeleri giriş olarak alıp, montaj benzeri kod üreten basit bir derleyici:
-- Leksik analiz (belirteçleme)
+Aritmetik ifadeleri girdi olarak alıp assembly benzeri kod üreten basit bir derleyici:
+- Lexical analiz (tokenleştirme)
 - İfadelerin ayrıştırılması ve değerlendirilmesi
-- Montaj kodu üretimi
+- Assembly kodu üretimi
 
 - Derleyici yapımı temelleri
 
@@ -167,6 +167,6 @@ Ağ ile ilgili bazı projeler (Port Tarayıcı, Ping), ham soketlerin kullanım�
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

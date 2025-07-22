@@ -28,75 +28,75 @@
   </details>
 </div>
 
-# Collezione di Progetti in C
+# Raccolta di Progetti in Linguaggio C
 
 [![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)
 
-Una raccolta di progetti in C progettati per principianti che vogliono imparare e praticare vari concetti di programmazione, dagli algoritmi di base alla programmazione di rete. Ogni progetto è autonomo e include la propria documentazione e sistema di build.
+Una raccolta di progetti in linguaggio C pensata per principianti, per imparare e praticare vari concetti di programmazione, dagli algoritmi di base alla programmazione di rete. Ogni progetto è autonomo e include la propria documentazione e sistema di build.
 
 ## Panoramica dei Progetti
 
 ### 1. [Implementazione SHA-512](SHA-512/)
-Un'implementazione della funzione di hash crittografica che mostra:
-- Manipolazione dei bit
+Un'implementazione di funzione hash crittografica che mostra:
+- Manipolazione di bit
 - Algoritmi complessi
 - Gestione della memoria
 - Operazioni di I/O su file
 
 ### 2. [Server HTTP](http-server/)
-Un'implementazione base di un server HTTP che copre:
-- Programmazione socket
-- Basi del protocollo HTTP
+Una semplice implementazione di server HTTP che tratta:
+- Programmazione di socket
+- Fondamenti del protocollo HTTP
 - Servizio di file
 - Comunicazione di rete
 
 ### 3. [Server-Client UDP](udp-server-client/)
 Un semplice sistema di comunicazione basato su UDP che insegna:
-- Programmazione socket UDP
+- Programmazione di socket UDP
 - Architettura client-server
 - Protocolli di rete
 - Scambio di messaggi
 
 ### 4. [Port Scanner](port-scanner/)
 Uno strumento diagnostico di rete che mostra:
-- Programmazione socket TCP
+- Programmazione di socket TCP
 - Tecniche di scansione di rete
 - Gestione degli errori
-- Parsing degli argomenti da linea di comando
+- Analisi degli argomenti da riga di comando
 
 ### 5. [Implementazione Ping](ping/)
-Una utility ping personalizzata che copre:
+Un'utility ping personalizzata che tratta:
 - Protocollo ICMP
-- Programmazione socket raw
+- Programmazione di socket raw
 - Diagnostica di rete
 - Misurazione del tempo
 
 ### 6. [Tris (Tic-Tac-Toe)](tic-tac-toe/)
-Un'implementazione del gioco classico che insegna:
-- Server di gioco multiplayer 
--Programmazione socket
+Implementazione del classico gioco che insegna:
+- Server di gioco multiplayer
+-Programmazione di socket
 - Logica di gioco
 - Gestione dell'input utente
 
 ### 7. [Sistema di Chat](chat-system/)
 Un'applicazione di chat in tempo reale che mostra:
-- Programmazione socket TCP
-- Multi-threading
+- Programmazione di socket TCP
+- Multithreading
 - Comunicazione in tempo reale
 - Architettura client-server
 
 ### 8. [Analizzatore Lessicale](lexical-analyser/)
-Un semplice componente front-end di un compilatore che mostra:
+Un semplice componente front-end di compilatore che mostra:
 - Tokenizzazione del codice sorgente
 - Tecniche di parsing
-- Principi di progettazione dei compilatori
+- Principi di progettazione di compilatori
 - Manipolazione di stringhe
 
 ### 9. [Compilatore Aritmetico](arithmetic-compiler/)
-Un semplice compilatore che accetta espressioni aritmetiche come input e genera codice in stile assembly:
+Un semplice compilatore che prende espressioni aritmetiche come input e genera codice simile all'assembly:
 - Analisi lessicale (tokenizzazione)
 - Parsing e valutazione delle espressioni
-- Generazione del codice assembly
+- Generazione di codice assembly
 
 - Fondamenti di costruzione di compilatori
 
@@ -167,6 +167,6 @@ Alcuni progetti relativi alla rete (Port Scanner, Ping) richiedono privilegi di 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

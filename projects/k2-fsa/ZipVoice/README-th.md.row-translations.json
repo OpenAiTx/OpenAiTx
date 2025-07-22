@@ -3,1536 +3,438 @@
     "row": 1,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "<div align=\"right\">"
+    "translatedContent": "### 4. ติดตั้ง k2 สำหรับการฝึกหรือการอนุมานที่มีประสิทธิภาพ"
   },
   {
     "row": 2,
-    "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
-    "originContent": "<div align=\"right\">",
-    "translatedContent": "  <details>"
+    "rowsha": "qwKY3J6LIDPN5bvfNcsfa7HzlDfSC8pp1zLydrb31ow=",
+    "originContent": "### 4. Install k2 for training or efficient inference",
+    "translatedContent": ""
   },
   {
     "row": 3,
-    "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
-    "originContent": "  <details>",
-    "translatedContent": "    <summary >🌐 ภาษา</summary>"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**k2 จำเป็นสำหรับการฝึก** และสามารถเพิ่มความเร็วในการอนุมานได้ อย่างไรก็ตาม คุณยังสามารถใช้โหมดอนุมานของ ZipVoice ได้โดยไม่ต้องติดตั้ง k2"
   },
   {
     "row": 4,
-    "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
-    "originContent": "    <summary >🌐 Language</summary>",
-    "translatedContent": "    <div>"
+    "rowsha": "PnE26/HhKrLBlqwOytzo8AXDMZltiqCBhDPquqlBz1Q=",
+    "originContent": "**k2 is necessary for training** and can speed up inference. Nevertheless, you can still use the inference mode of ZipVoice without installing k2.",
+    "translatedContent": ""
   },
   {
     "row": 5,
-    "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
-    "originContent": "    <div>",
-    "translatedContent": "      <div align=\"center\">"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "> **หมายเหตุ:** โปรดตรวจสอบให้แน่ใจว่าคุณติดตั้ง k2 เวอร์ชันที่ตรงกับเวอร์ชันของ PyTorch และ CUDA ของคุณ ตัวอย่างเช่น หากคุณใช้ pytorch 2.5.1 และ CUDA 12.1 คุณสามารถติดตั้ง k2 ได้ดังนี้:"
   },
   {
     "row": 6,
-    "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
-    "originContent": "      <div align=\"center\">",
-    "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=en\">English</a>"
+    "rowsha": "0o8wvlsFqH2ISITN/AfAXfphj/eMJ25P5fCr9RdsQLc=",
+    "originContent": "> **Note:**  Make sure to install the k2 version that matches your PyTorch and CUDA version. For example, if you are using pytorch 2.5.1 and CUDA 12.1, you can install k2 as follows:",
+    "translatedContent": ""
   },
   {
     "row": 7,
-    "rowsha": "CcXpQm1/9iKvN+A/uJNpETB0rQK265sk/3d1b8LJQvw=",
-    "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=en\">English</a>",
-    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=zh-CN\">简体中文</a>"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 8,
-    "rowsha": "2ehWvRtwvqGgM54qlLoitqATfwSTpMIFoXVVk/tTbZk=",
-    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=zh-CN\">简体中文</a>",
-    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=zh-TW\">繁體中文</a>"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "โปรดดูรายละเอียดได้ที่ https://k2-fsa.org/get-started/k2/"
   },
   {
     "row": 9,
-    "rowsha": "1Tvr2tQAiIWOxk8K1sahQkXFaTfirEHUjC6CllQsguU=",
-    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=zh-TW\">繁體中文</a>",
-    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ja\">日本語</a>"
+    "rowsha": "fQFpgsJ7mNlMNjhxTiYJs1Z/7sz/HT0cJBgpwPNTWmI=",
+    "originContent": "Please refer to https://k2-fsa.org/get-started/k2/ for details.",
+    "translatedContent": "ผู้ใช้ในจีนแผ่นดินใหญ่สามารถดูได้ที่ https://k2-fsa.org/zh-CN/get-started/k2/"
   },
   {
     "row": 10,
-    "rowsha": "viezuYRV23r39DGnn2fqOoF8t4QQbZ3lGyQ4E/gKw50=",
-    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ja\">日本語</a>",
-    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ko\">한국어</a>"
+    "rowsha": "4kaasrII6Lz/xQvY7Es2gbLgiz7hFJSQblnvV1ie+Ow=",
+    "originContent": "Users in China mainland can refer to https://k2-fsa.org/zh-CN/get-started/k2/.",
+    "translatedContent": ""
   },
   {
     "row": 11,
-    "rowsha": "58406DeYvrKlvqudebrWq+GPeIz8UsbceVEMZSbjPfo=",
-    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ko\">한국어</a>",
-    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=hi\">हिन्दी</a>"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- เพื่อตรวจสอบการติดตั้ง k2:"
   },
   {
     "row": 12,
-    "rowsha": "v5RXbnVfWV0Tg1ipPFatAoRHQuK6otAxURhh9EL6oDI=",
-    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=hi\">हिन्दी</a>",
-    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=th\">ไทย</a>"
+    "rowsha": "TK216NwSS6FDBRTvEinT+anoHssluQypjpVPkdbA8Yk=",
+    "originContent": "- To check the k2 installation:",
+    "translatedContent": ""
   },
   {
     "row": 13,
-    "rowsha": "WDhcLwM8wmfLsLyFOnzsTQ4H2X2S7KkNz897OsHtDa4=",
-    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=th\">ไทย</a>",
-    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=fr\">Français</a>"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 14,
-    "rowsha": "720JVKr0dHx3FSQCXiSfarWZShlzQL9HzYaW4cRQOSE=",
-    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=fr\">Français</a>",
-    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=de\">Deutsch</a>"
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
   },
   {
     "row": 15,
-    "rowsha": "1DtWHtMk7/aAwtrrxeFamTGgcASobQlMfFoWQwsVKgc=",
-    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=de\">Deutsch</a>",
-    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=es\">Español</a>"
+    "rowsha": "7yHd9AwCS2R/DPcwaogfIhkKXz9t9u3yeddGTQpSgnE=",
+    "originContent": "python3 -c \"import k2; print(k2.__file__)\"",
+    "translatedContent": "python3 -c \"import k2; print(k2.__file__)\""
   },
   {
     "row": 16,
-    "rowsha": "H+5dK1gegkmcz74mwWxfH0NM5j9vtNmcVh9n3bhYBZs=",
-    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=es\">Español</a>",
-    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=it\">Itapano</a>"
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
   },
   {
     "row": 17,
-    "rowsha": "f3xikpvVpOqPqS0kyScUlycc8Zt+diO9Zsw9FgLmd/Q=",
-    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=it\">Itapano</a>",
-    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ru\">Русский</a>"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## วิธีการใช้งาน"
   },
   {
     "row": 18,
-    "rowsha": "1+LH4k3BSN/Gkx95+faUF9zhlMy65p97wcjIXEw4dUg=",
-    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ru\">Русский</a>",
-    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=pt\">Português</a>"
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": ""
   },
   {
     "row": 19,
-    "rowsha": "JwE8Np2ImgiLGwhoGlsXFKpsgI9EU68Mjs8pysrvz9s=",
-    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=pt\">Português</a>",
-    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=nl\">Nederlands</a>"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 1. การสร้างเสียงพูดจากผู้พูดเดียว"
   },
   {
     "row": 20,
-    "rowsha": "0eaTuNvMrL1d1tHfXDuGbl4NwHpIqSCOYgyWn+DeCd8=",
-    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=nl\">Nederlands</a>",
-    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=pl\">Polski</a>"
+    "rowsha": "nYUkNidMAwY0rOZOPCjiBmmdqfUjG8WhERZjR4/0KYE=",
+    "originContent": "### 1. Single-speaker speech generation",
+    "translatedContent": ""
   },
   {
     "row": 21,
-    "rowsha": "OD8ikjviedFkX4Kx5kNhXmU45dL9qIxmcf2cgTGhqlM=",
-    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=pl\">Polski</a>",
-    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ar\">العربية</a>"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "เพื่อสร้างเสียงพูดจากผู้พูดเดียวด้วยโมเดล ZipVoice หรือ ZipVoice-Distill ที่ผ่านการฝึกมาแล้ว กรุณาใช้คำสั่งต่อไปนี้ (โมเดลที่จำเป็นจะถูกดาวน์โหลดจาก HuggingFace):"
   },
   {
     "row": 22,
-    "rowsha": "iYQFhiOJcKRK727JftPgQg0wEibC4UGYoysohgY4ZkE=",
-    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ar\">العربية</a>",
-    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=fa\">فارسی</a>"
+    "rowsha": "P9InJLuCjXsRXnIqzXrzTLGFxdKU/ix347WZtNhmgWs=",
+    "originContent": "To generate single-speaker speech with our pre-trained ZipVoice or ZipVoice-Distill models, use the following commands (Required models will be downloaded from HuggingFace):",
+    "translatedContent": ""
   },
   {
     "row": 23,
-    "rowsha": "bZuriOvMlwwmbrlK623agOuY9pyTAfsswef0LRsT3tU=",
-    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=fa\">فارسی</a>",
-    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=tr\">Türkçe</a>"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### 1.1 การทำนายผลของประโยคเดียว"
   },
   {
     "row": 24,
-    "rowsha": "b7kL+KXfHE4Tqjt5V/TAEJQhMqU1SNWf9VVdfYkTrWY=",
-    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=tr\">Türkçe</a>",
-    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=vi\">Tiếng Việt</a>"
+    "rowsha": "EHn70pw6zQn4Rlh44saEbf07w9vL1G089E1jcoF/mh0=",
+    "originContent": "#### 1.1 Inference of a single sentence",
+    "translatedContent": ""
   },
   {
     "row": 25,
-    "rowsha": "j0cS+2vemRltrd4DFNjdvu5Ad+ZpSR763x+uEnlcxks=",
-    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=vi\">Tiếng Việt</a>",
-    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=id\">Bahasa Indonesia</a>"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 26,
-    "rowsha": "BI82Vx/H9f+weopSKKN3mOM7UAihcqzf7CfJbkigJ2A=",
-    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=id\">Bahasa Indonesia</a>",
-    "translatedContent": "      </div>"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- แต่ละบรรทัดของ `test.tsv` อยู่ในรูปแบบ `{wav_name}\\t{prompt_transcription}\\t{prompt_wav}\\t{text}`"
   },
   {
     "row": 27,
-    "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
-    "originContent": "      </div>",
-    "translatedContent": "    </div>"
+    "rowsha": "kxdv3BjjUgNnuZKZ/3FvXTMF1EE7frXvLVqJUlAcwV0=",
+    "originContent": "- Each line of `test.tsv` is in the format of `{wav_name}\\t{prompt_transcription}\\t{prompt_wav}\\t{text}`.",
+    "translatedContent": ""
   },
   {
     "row": 28,
-    "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
-    "originContent": "    </div>",
-    "translatedContent": "  </details>"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 2. การสร้างเสียงสนทนา"
   },
   {
     "row": 29,
-    "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
-    "originContent": "  </details>",
-    "translatedContent": "</div>"
+    "rowsha": "bvcLOhmoedTyLZfj2JhiFWHLaVG/oixY/37D6xadfYc=",
+    "originContent": "### 2. Dialogue speech generation",
+    "translatedContent": ""
   },
   {
     "row": 30,
-    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
-    "originContent": "</div>",
-    "translatedContent": ""
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### 2.1 คำสั่งสำหรับการอนุมาน"
   },
   {
     "row": 31,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "<div align=\"center\">"
-  },
-  {
-    "row": 32,
-    "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
-    "originContent": "<div align=\"center\">",
+    "rowsha": "SSCcvT3TkdgOK/lPlidT5W4KUx0rdPdikJqjEI6F7Bs=",
+    "originContent": "#### 2.1 Inference command",
     "translatedContent": ""
   },
   {
-    "row": 33,
+    "row": 32,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "# ZipVoice⚡"
+    "translatedContent": "เพื่อสร้างเสียงสนทนาแบบสองฝ่ายด้วยโมเดล ZipVoice-Dialogue หรือ ZipVoice-Dialogue-Stereo ที่ฝึกมาแล้วของเรา ให้ใช้คำสั่งดังต่อไปนี้ (โมเดลที่จำเป็นจะถูกดาวน์โหลดจาก HuggingFace):"
+  },
+  {
+    "row": 33,
+    "rowsha": "VQWeYFjmrejLDTvLE1dLDgVDTrkGgbT9dVjCuEGdOVs=",
+    "originContent": "To generate two-party spoken dialogues with our pre-trained ZipVoice-Dialogue or ZipVoice-Dialogue-Stereo models, use the following commands (Required models will be downloaded from HuggingFace):",
+    "translatedContent": ""
   },
   {
     "row": 34,
-    "rowsha": "43x8VXS2NIrGxEvJGcd03L2DM5gZshFS9vGXAT/nWoY=",
-    "originContent": "# ZipVoice⚡",
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
     "translatedContent": ""
   },
   {
     "row": 35,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "## ระบบแปลงข้อความเป็นเสียงความเร็วสูงคุณภาพสูงแบบ Zero-Shot ด้วย Flow Matching"
+    "translatedContent": "- `wav_name` คือชื่อไฟล์ wav ที่จะส่งออก"
   },
   {
     "row": 36,
-    "rowsha": "8cGkXE2E2Lj/nZFTwxIMm6gFZ5z+nFFHUz8ryL9qi64=",
-    "originContent": "## Fast and High-Quality Zero-Shot Text-to-Speech with Flow Matching",
-    "translatedContent": "</div>"
+    "rowsha": "6vgIR6WfUAFmULhn8LhxFttPwZEo/YwGhN1DAECwHCQ=",
+    "originContent": "- `wav_name` is the name of the output wav file.",
+    "translatedContent": "- `spk1_prompt_transcription` คือข้อความถอดเสียงของไฟล์ตัวอย่างเสียงของผู้พูดคนแรก เช่น \"Hello\""
   },
   {
     "row": 37,
-    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
-    "originContent": "</div>",
-    "translatedContent": ""
+    "rowsha": "7BNq8UaBvTut4Ow/oJBAgIDTn3EwEZXK7mlUaYdFwqw=",
+    "originContent": "- `spk1_prompt_transcription` is the transcription of the first speaker's prompt wav, e.g, \"Hello\"",
+    "translatedContent": "- `spk2_prompt_transcription` คือข้อความถอดเสียงของไฟล์ตัวอย่างเสียงของผู้พูดคนที่สอง เช่น \"How are you?\""
   },
   {
     "row": 38,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "## ภาพรวม"
+    "rowsha": "CES8w9dqVdkdJyOJBUVP282aaKeevVWB3d/+59TEsuk=",
+    "originContent": "- `spk2_prompt_transcription` is the transcription of the second speaker's prompt wav, e.g, \"How are you?\"",
+    "translatedContent": "- `spk1_prompt_wav` คือพาธไปยังไฟล์ตัวอย่างเสียงของผู้พูดคนแรก"
   },
   {
     "row": 39,
-    "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
-    "originContent": "## Overview",
-    "translatedContent": ""
+    "rowsha": "gXLLRf4BR7Xko2q2l4nK04KIs/L8CjvZ/UBQaP1+vck=",
+    "originContent": "- `spk1_prompt_wav` is the path to the first speaker's prompt wav file.",
+    "translatedContent": "- `spk2_prompt_wav` คือพาธไปยังไฟล์ตัวอย่างเสียงของผู้พูดคนที่สอง"
   },
   {
     "row": 40,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "ZipVoice เป็นชุดโมเดล TTS แบบ zero-shot ที่รวดเร็วและคุณภาพสูงโดยอิงกับ flow matching"
+    "rowsha": "oS1+heJwBnnDtA57WYtG6LbzxK79DOIeb8hwhZQwcDg=",
+    "originContent": "- `spk2_prompt_wav` is the path to the second speaker's prompt wav file.",
+    "translatedContent": "- `text` คือข้อความที่ต้องการสังเคราะห์เสียง เช่น \"[S1] I'm fine. [S2] What's your name?\""
   },
   {
     "row": 41,
-    "rowsha": "nQS2T1vCMqJruAgLkxb46w0hSAkEn/IM3WAyxZjZ41Q=",
-    "originContent": "ZipVoice is a series of fast and high-quality zero-shot TTS models based on flow matching.",
+    "rowsha": "bllORZskiCR9fU5bX9yk0xZyqribcNFIl5OGst+H9hs=",
+    "originContent": "- `text` is the text to be synthesized, e.g. \"[S1] I'm fine. [S2] What's your name?\"",
     "translatedContent": ""
   },
   {
     "row": 42,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "### 1. คุณสมบัติเด่น"
+    "translatedContent": "### 3. ฟีเจอร์อื่นๆ"
   },
   {
     "row": 43,
-    "rowsha": "ucC7hUEIiT/76texV2ocUEuEh3ipUzSv7QRGCII6ZzM=",
-    "originContent": "### 1. Key features",
+    "rowsha": "+vzcq8TvUX4BjMVko7bsMy3OssEdCDf3naG5aF1NHpU=",
+    "originContent": "### 3. Other features",
     "translatedContent": ""
   },
   {
     "row": 44,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "- ขนาดเล็กและรวดเร็ว: มีเพียง 123M พารามิเตอร์"
+    "translatedContent": "#### 3.1 การแก้ไขการออกเสียงผิดของตัวอักษรจีนพหุเสียง"
   },
   {
     "row": 45,
-    "rowsha": "mnMSMs6GmKRNnNbe05VmoRtRBkZF0/KoDIo2RGx2miQ=",
-    "originContent": "- Small and fast: only 123M parameters.",
+    "rowsha": "QGugzKoPQgvq7BRzlyCe2HPMZG0+T/EtMivjaWTAk7M=",
+    "originContent": "#### 3.1 Correcting mispronounced chinese polyphone characters",
     "translatedContent": ""
   },
   {
     "row": 46,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "- โคลนเสียงคุณภาพสูง: ให้ประสิทธิภาพระดับแนวหน้าในด้านความคล้ายคลึงของผู้พูด ความเข้าใจง่าย และความเป็นธรรมชาติ"
+    "translatedContent": "เราใช้ [pypinyin](https://github.com/mozillazg/python-pinyin) เพื่อแปลงตัวอักษรจีนเป็น pinyin อย่างไรก็ตาม อาจมีบางกรณีที่ออกเสียง **ตัวอักษรพหุเสียง** (多音字) ผิด"
   },
   {
     "row": 47,
-    "rowsha": "DTc6Shc7YIXhauUP00lzZgJfeGsA8b/7jnpoWq4PK0U=",
-    "originContent": "- High-quality voice cloning: state-of-the-art performance in speaker similarity, intelligibility, and naturalness.",
+    "rowsha": "hF52KZEnGKLuaot2w0AmXt52eB6Y3adYIo2qMJSMx5o=",
+    "originContent": "We use [pypinyin](https://github.com/mozillazg/python-pinyin) to convert Chinese characters to pinyin. However, it can occasionally mispronounce **polyphone characters** (多音字).",
     "translatedContent": ""
   },
   {
     "row": 48,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "- รองรับหลายภาษา: รองรับภาษาจีนและภาษาอังกฤษ"
+    "translatedContent": "หากต้องการแก้ไขการออกเสียงผิดเหล่านี้ด้วยตนเอง ให้ใส่ **pinyin ที่ถูกต้อง** ไว้ในวงเล็บเหลี่ยม `< >` และระบุ **วรรณยุกต์** ด้วย"
   },
   {
     "row": 49,
-    "rowsha": "yt9ntJffC7kC7o3urvP30pUjjiFSCTNvFa2IsukbVDE=",
-    "originContent": "- Multi-lingual: support Chinese and English.",
+    "rowsha": "h6Qq8AvUPYme90k2BWG054cVE6RHNflr0OwdnKA4BEE=",
+    "originContent": "To manually correct these mispronunciations, enclose the **corrected pinyin** in angle brackets `< >` and include the **tone mark**.",
     "translatedContent": ""
   },
   {
     "row": 50,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "- หลายโหมด: รองรับทั้งการสร้างเสียงผู้พูดเดียวและบทสนทนา"
+    "translatedContent": "**ตัวอย่าง:**"
   },
   {
     "row": 51,
-    "rowsha": "zxFH2T15/GT24QXdR/3+MTlLcndjhW81in4fA6q/NqI=",
-    "originContent": "- Multi-mode: support both single-speaker and dialogue speech generation.",
+    "rowsha": "fP4bnCe7+qhcgDDajGMIv4obksa4WSdUp3hExEbpci0=",
+    "originContent": "**Example:**",
     "translatedContent": ""
   },
   {
     "row": 52,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "### 2. รุ่นของโมเดล"
+    "translatedContent": "- ข้อความต้นฉบับ: `这把剑长三十公分`"
   },
   {
     "row": 53,
-    "rowsha": "euhnPJYVS9UO65MqpSJ6SGItveAQx/PEyxlOhvoL7gQ=",
-    "originContent": "### 2. Model variants",
-    "translatedContent": ""
+    "rowsha": "ntwz9/IQqGC1ThJXQn9D83h+54cDriyg2snkkrk0KoI=",
+    "originContent": "- Original text: `这把剑长三十公分`",
+    "translatedContent": "- แก้ไข pinyin ของ `长`:  `这把剑<chang2>三十公分`"
   },
   {
     "row": 54,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "<table>"
-  },
-  {
-    "row": 55,
-    "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
-    "originContent": "<table>",
-    "translatedContent": "  <thead>"
-  },
-  {
-    "row": 56,
-    "rowsha": "fVeZa2zHTj+GejNZeOMEq73p8lrPy91L7a2SAORQGww=",
-    "originContent": "  <thead>",
-    "translatedContent": "    <tr>"
-  },
-  {
-    "row": 57,
-    "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
-    "originContent": "    <tr>",
-    "translatedContent": "      <th>ชื่อโมเดล</th>"
-  },
-  {
-    "row": 58,
-    "rowsha": "z4Rwl4uu63uzLboduV7OD40QtA50BzuyfDCtbD3ZuGA=",
-    "originContent": "      <th>Model Name</th>",
-    "translatedContent": "      <th>คำอธิบาย</th>"
-  },
-  {
-    "row": 59,
-    "rowsha": "O/DS90B9w8GpepemJkQp634TTVY3fEDiLIPL5Ltaq78=",
-    "originContent": "      <th>Description</th>",
-    "translatedContent": "      <th>เอกสาร</th>"
-  },
-  {
-    "row": 60,
-    "rowsha": "YGp5skEXJ0tuyZL/KspO3fgVUV+H1ijs8hRaS27I9zg=",
-    "originContent": "      <th>Paper</th>",
-    "translatedContent": "      <th>เดโม</th>"
-  },
-  {
-    "row": 61,
-    "rowsha": "nq0QdUA8EPB/UZOofw7s5hdITABnq7ZhH3chJk3iFow=",
-    "originContent": "      <th>Demo</th>",
-    "translatedContent": "    </tr>"
-  },
-  {
-    "row": 62,
-    "rowsha": "qMXSfcecmgpTcWjU4/DonhxZrtbJe20/4kuvSQqv9HU=",
-    "originContent": "    </tr>",
-    "translatedContent": "  </thead>"
-  },
-  {
-    "row": 63,
-    "rowsha": "QAgj2Ue5ZqUAelXIN3OwGwnCFXD2scHVIkAz9iHowbw=",
-    "originContent": "  </thead>",
-    "translatedContent": "  <tbody>"
-  },
-  {
-    "row": 64,
-    "rowsha": "V8SoadU3qlQEyQXfcDO5Evu+vSduzv+IQXpGHlNEQ4M=",
-    "originContent": "  <tbody>",
-    "translatedContent": "    <tr>"
-  },
-  {
-    "row": 65,
-    "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
-    "originContent": "    <tr>",
-    "translatedContent": "      <td>ZipVoice</td>"
-  },
-  {
-    "row": 66,
-    "rowsha": "ndVKgIyPesKKyqCb1fPiiBsMn4f9r+E9zy2h+rEQMEg=",
-    "originContent": "      <td>ZipVoice</td>",
-    "translatedContent": "      <td>โมเดลพื้นฐานรองรับ TTS แบบ zero-shot สำหรับผู้พูดเดียวทั้งภาษาจีนและอังกฤษ</td>"
-  },
-  {
-    "row": 67,
-    "rowsha": "V4nOcrSY1j7m4uPd0Q3jKJV5OYsg3vveAhj2uXuDYpo=",
-    "originContent": "      <td>The basic model supporting zero-shot single-speaker TTS in both Chinese and English.</td>",
-    "translatedContent": "      <td rowspan=\"2\"><a href=\"https://arxiv.org/abs/2506.13053\"><img src=\"https://img.shields.io/badge/arXiv-Paper-COLOR.svg\"></a></td>"
-  },
-  {
-    "row": 68,
-    "rowsha": "oYsdnyALg8AzIa9SQc6g12SHxZsEaAnuMNKRixdVEOI=",
-    "originContent": "      <td rowspan=\"2\"><a href=\"https://arxiv.org/abs/2506.13053\"><img src=\"https://img.shields.io/badge/arXiv-Paper-COLOR.svg\"></a></td>",
-    "translatedContent": "      <td rowspan=\"2\"><a href=\"https://zipvoice.github.io\"><img src=\"https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square\"></a></td>"
-  },
-  {
-    "row": 69,
-    "rowsha": "D4+fblzP0Ay8rjWW7tpMeTQtV1brxxngEj2VRAwXeG4=",
-    "originContent": "      <td rowspan=\"2\"><a href=\"https://zipvoice.github.io\"><img src=\"https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square\"></a></td>",
-    "translatedContent": "    </tr>"
-  },
-  {
-    "row": 70,
-    "rowsha": "qMXSfcecmgpTcWjU4/DonhxZrtbJe20/4kuvSQqv9HU=",
-    "originContent": "    </tr>",
-    "translatedContent": "    <tr>"
-  },
-  {
-    "row": 71,
-    "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
-    "originContent": "    <tr>",
-    "translatedContent": "      <td>ZipVoice-Distill</td>"
-  },
-  {
-    "row": 72,
-    "rowsha": "O5M2zS2wTgQ/tb2NGv9Zwg2M/p4ap3H3QEscfDprkLY=",
-    "originContent": "      <td>ZipVoice-Distill</td>",
-    "translatedContent": "      <td>เวอร์ชั่นกลั่นของ ZipVoice ที่เร็วขึ้นโดยประสิทธิภาพลดลงเพียงเล็กน้อย</td>"
-  },
-  {
-    "row": 73,
-    "rowsha": "+GY4P77oZKf2OE98WJt+uHde+9Pfx5adwPX/hgBXv/0=",
-    "originContent": "      <td>The distilled version of ZipVoice, featuring improved speed with minimal performance degradation.</td>",
-    "translatedContent": "    </tr>"
-  },
-  {
-    "row": 74,
-    "rowsha": "qMXSfcecmgpTcWjU4/DonhxZrtbJe20/4kuvSQqv9HU=",
-    "originContent": "    </tr>",
-    "translatedContent": "    <tr>"
-  },
-  {
-    "row": 75,
-    "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
-    "originContent": "    <tr>",
-    "translatedContent": "      <td>ZipVoice-Dialog</td>"
-  },
-  {
-    "row": 76,
-    "rowsha": "AokiHqhaQvuU9KuEm8+8XFm12AAfehl/iUS5IKh25hg=",
-    "originContent": "      <td>ZipVoice-Dialog</td>",
-    "translatedContent": "      <td>โมเดลสร้างบทสนทนาที่พัฒนาบน ZipVoice สามารถสร้างบทสนทนาเสียงสองฝ่ายในช่องสัญญาณเดียว</td>"
-  },
-  {
-    "row": 77,
-    "rowsha": "VyLj//yzuicS9drxTtHyEb23TlyYimyWqSLjKnhiPRI=",
-    "originContent": "      <td>A dialogue generation model built on ZipVoice, capable of generating single-channel two-party spoken dialogues.</td>",
-    "translatedContent": "      <td rowspan=\"2\"><a href=\"https://arxiv.org/abs/2507.09318\"><img src=\"https://img.shields.io/badge/arXiv-Paper-COLOR.svg\"></a></td>"
-  },
-  {
-    "row": 78,
-    "rowsha": "52missEFmjbF4iX2P0jQNQNcxMRdvKLCWURi53zHj9c=",
-    "originContent": "      <td rowspan=\"2\"><a href=\"https://arxiv.org/abs/2507.09318\"><img src=\"https://img.shields.io/badge/arXiv-Paper-COLOR.svg\"></a></td>",
-    "translatedContent": "      <td rowspan=\"2\"><a href=\"https://zipvoice-dialog.github.io\"><img src=\"https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square\"></a></td>"
-  },
-  {
-    "row": 79,
-    "rowsha": "cDPQ2lSV0MvAN7W5vsgpUGdH0r3KovLhGy8iNUb891g=",
-    "originContent": "      <td rowspan=\"2\"><a href=\"https://zipvoice-dialog.github.io\"><img src=\"https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square\"></a></td>",
-    "translatedContent": "    </tr>"
-  },
-  {
-    "row": 80,
-    "rowsha": "qMXSfcecmgpTcWjU4/DonhxZrtbJe20/4kuvSQqv9HU=",
-    "originContent": "    </tr>",
-    "translatedContent": "    <tr>"
-  },
-  {
-    "row": 81,
-    "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
-    "originContent": "    <tr>",
-    "translatedContent": "      <td>ZipVoice-Dialog-Stereo</td>"
-  },
-  {
-    "row": 82,
-    "rowsha": "5wxh9pzh0ath/did6Y4bnHT5G0oknzB4REIMmmpbrWc=",
-    "originContent": "      <td>ZipVoice-Dialog-Stereo</td>",
-    "translatedContent": "      <td>เวอร์ชั่นสเตอริโอของ ZipVoice-Dialog รองรับการสร้างบทสนทนาแบบสองช่องโดยแต่ละผู้พูดอยู่คนละช่อง</td>"
-  },
-  {
-    "row": 83,
-    "rowsha": "4zPgKHyoRGqee2hEpKE1kawe5id33R887ovyXGFAikU=",
-    "originContent": "      <td>The stereo variant of ZipVoice-Dialog, enabling two-channel dialogue generation with each speaker assigned to a distinct channel.</td>",
-    "translatedContent": "    </tr>"
-  },
-  {
-    "row": 84,
-    "rowsha": "qMXSfcecmgpTcWjU4/DonhxZrtbJe20/4kuvSQqv9HU=",
-    "originContent": "    </tr>",
-    "translatedContent": "  </tbody>"
-  },
-  {
-    "row": 85,
-    "rowsha": "HgAQR47u7qD0p8NwuwwZJ7dDJg35+B/lslvDHWuZaBU=",
-    "originContent": "  </tbody>",
-    "translatedContent": "</table>"
-  },
-  {
-    "row": 86,
-    "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
-    "originContent": "</table>",
-    "translatedContent": ""
-  },
-  {
-    "row": 87,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "## ข่าวสาร"
-  },
-  {
-    "row": 88,
-    "rowsha": "4SzYJwNNDn2R2kkHsB4X4H4ZhUVuQo9QZvhInidlbxE=",
-    "originContent": "## News",
-    "translatedContent": ""
-  },
-  {
-    "row": 89,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "**2025/07/14**: **ZipVoice-Dialog** และ **ZipVoice-Dialog-Stereo** โมเดลสร้างบทสนทนาเสียงสองรุ่น ได้รับการเปิดตัว [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice-dialog.github.io)"
-  },
-  {
-    "row": 90,
-    "rowsha": "DfOZSiFY93Zgx5ovWAl3CGk0WussCMIUOrJfiCw6Ul0=",
-    "originContent": "**2025/07/14**: **ZipVoice-Dialog** and **ZipVoice-Dialog-Stereo**, two spoken dialogue generation models, are released. [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice-dialog.github.io)",
-    "translatedContent": ""
-  },
-  {
-    "row": 91,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "**2025/07/14**: ชุดข้อมูล **OpenDialog** ซึ่งเป็นชุดข้อมูลบทสนทนาเสียง 6.8k ชั่วโมง ได้รับการปล่อยให้ดาวน์โหลดที่ [![hf](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/k2-fsa/OpenDialog), [![ms](https://img.shields.io/badge/ModelScope-Dataset-blue?logo=data)](https://www.modelscope.cn/datasets/k2-fsa/OpenDialog) ดูรายละเอียดที่ [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318)"
-  },
-  {
-    "row": 92,
-    "rowsha": "wfJgDxeKxMnLl7A8dgq85DYDIJZz2h5uq8GNw/nj5RU=",
-    "originContent": "**2025/07/14**: **OpenDialog** dataset, a 6.8k-hour spoken dialogue dataset, is realeased. Download at [![hf](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/k2-fsa/OpenDialog), [![ms](https://img.shields.io/badge/ModelScope-Dataset-blue?logo=data)](https://www.modelscope.cn/datasets/k2-fsa/OpenDialog). Check details at [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318).",
-    "translatedContent": ""
-  },
-  {
-    "row": 93,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "**2025/06/16**: **ZipVoice** และ **ZipVoice-Distill** ได้รับการเปิดตัว [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2506.13053) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice.github.io)"
-  },
-  {
-    "row": 94,
-    "rowsha": "0OIq3Ae2KEaqpQCFjIP/3rxyTxS6RICMJWSmPyeMdA8=",
-    "originContent": "**2025/06/16**: **ZipVoice** and **ZipVoice-Distill** are released. [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2506.13053) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice.github.io)",
-    "translatedContent": ""
-  },
-  {
-    "row": 95,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "## การติดตั้ง"
-  },
-  {
-    "row": 96,
-    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
-    "originContent": "## Installation",
-    "translatedContent": ""
-  },
-  {
-    "row": 97,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "### 1. โคลนที่เก็บ ZipVoice"
-  },
-  {
-    "row": 98,
-    "rowsha": "3s/0urTHhRlVIuxHnj5ytcB39gCSsfn6y5cYocnuTIs=",
-    "originContent": "### 1. Clone the ZipVoice repository",
-    "translatedContent": ""
-  },
-  {
-    "row": 99,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 100,
-    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-    "originContent": "```bash",
-    "translatedContent": "```bash"
-  },
-  {
-    "row": 101,
-    "rowsha": "4TFRN/HDpvsjUjETbQagnfY4ufmltknVgcLhC5vBuwo=",
-    "originContent": "git clone https://github.com/k2-fsa/ZipVoice.git",
-    "translatedContent": "git clone https://github.com/k2-fsa/ZipVoice.git"
-  },
-  {
-    "row": 102,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 103,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "### 2. (ไม่บังคับ) สร้างสภาพแวดล้อมเสมือนของ Python"
-  },
-  {
-    "row": 104,
-    "rowsha": "LaZSeJbm0w8AfPf8sX4i/zX8Bg7xA6TfIa0QQLRSo/8=",
-    "originContent": "### 2. (Optional) Create a Python virtual environment",
-    "translatedContent": ""
-  },
-  {
-    "row": 105,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 106,
-    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-    "originContent": "```bash",
-    "translatedContent": "```bash"
-  },
-  {
-    "row": 107,
-    "rowsha": "0OOEw0t4On+2u6e5VlHqRXbEAlFO9KTyEcX9SR+BUxE=",
-    "originContent": "python3 -m venv zipvoice",
-    "translatedContent": "python3 -m venv zipvoice"
-  },
-  {
-    "row": 108,
-    "rowsha": "sZsjr3WcZubO7FxgGMzbp4j+5OGyHdXgQT2e2yTdT20=",
-    "originContent": "source zipvoice/bin/activate",
-    "translatedContent": "source zipvoice/bin/activate"
-  },
-  {
-    "row": 109,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 110,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "### 3. ติดตั้งแพ็กเกจที่จำเป็น"
-  },
-  {
-    "row": 111,
-    "rowsha": "i0Hi9l/RsRz6kbwMZWv+Sl+W2CQIAyheoFGEMRgD2SU=",
-    "originContent": "### 3. Install the required packages",
-    "translatedContent": ""
-  },
-  {
-    "row": 112,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 113,
-    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-    "originContent": "```bash",
-    "translatedContent": "```bash"
-  },
-  {
-    "row": 114,
-    "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
-    "originContent": "pip install -r requirements.txt",
-    "translatedContent": "pip install -r requirements.txt"
-  },
-  {
-    "row": 115,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 116,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "### 4. (ตัวเลือก) ติดตั้ง k2 สำหรับการฝึกหรือการอนุมานที่มีประสิทธิภาพ"
-  },
-  {
-    "row": 117,
-    "rowsha": "MuHmtLjWwNmR29qXoq6+lxk13xxvNkeL4WcoWqxoyFc=",
-    "originContent": "### 4. (Optional) Install k2 for training or efficient inference",
-    "translatedContent": ""
-  },
-  {
-    "row": 118,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "k2 จำเป็นสำหรับการฝึกและสามารถเพิ่มความเร็วในการอนุมาน อย่างไรก็ตาม คุณยังคงสามารถใช้โหมดอนุมานของ ZipVoice ได้โดยไม่ต้องติดตั้ง k2"
-  },
-  {
-    "row": 119,
-    "rowsha": "xr8/qQmMp1YkltoSnHMzUmUKcE57e8xhc2Y1o3Ymft0=",
-    "originContent": "k2 is necessary for training and can speed up inference. Nevertheless, you can still use the inference mode of ZipVoice without installing k2.",
-    "translatedContent": ""
-  },
-  {
-    "row": 120,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "> **หมายเหตุ:** โปรดตรวจสอบให้แน่ใจว่าคุณติดตั้ง k2 เวอร์ชันที่ตรงกับ PyTorch และ CUDA ของคุณ ตัวอย่างเช่น หากคุณใช้ pytorch 2.5.1 และ CUDA 12.1 คุณสามารถติดตั้ง k2 ได้ดังนี้:"
-  },
-  {
-    "row": 121,
-    "rowsha": "0o8wvlsFqH2ISITN/AfAXfphj/eMJ25P5fCr9RdsQLc=",
-    "originContent": "> **Note:**  Make sure to install the k2 version that matches your PyTorch and CUDA version. For example, if you are using pytorch 2.5.1 and CUDA 12.1, you can install k2 as follows:",
-    "translatedContent": ""
-  },
-  {
-    "row": 122,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 123,
-    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-    "originContent": "```bash",
-    "translatedContent": "```bash"
-  },
-  {
-    "row": 124,
-    "rowsha": "1MQu0ANtRvHMOiF5ytM71XUIdS9PGAJSxaTMJ6MhcPI=",
-    "originContent": "pip install k2==1.24.4.dev20250208+cuda12.1.torch2.5.1 -f https://k2-fsa.github.io/k2/cuda.html",
-    "translatedContent": "pip install k2==1.24.4.dev20250208+cuda12.1.torch2.5.1 -f https://k2-fsa.github.io/k2/cuda.html"
-  },
-  {
-    "row": 125,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 126,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "โปรดดูรายละเอียดได้ที่ https://k2-fsa.org/get-started/k2/"
-  },
-  {
-    "row": 127,
-    "rowsha": "fQFpgsJ7mNlMNjhxTiYJs1Z/7sz/HT0cJBgpwPNTWmI=",
-    "originContent": "Please refer to https://k2-fsa.org/get-started/k2/ for details.",
-    "translatedContent": "ผู้ใช้ในจีนแผ่นดินใหญ่สามารถดูข้อมูลได้ที่ https://k2-fsa.org/zh-CN/get-started/k2/"
-  },
-  {
-    "row": 128,
-    "rowsha": "4kaasrII6Lz/xQvY7Es2gbLgiz7hFJSQblnvV1ie+Ow=",
-    "originContent": "Users in China mainland can refer to https://k2-fsa.org/zh-CN/get-started/k2/.",
-    "translatedContent": ""
-  },
-  {
-    "row": 129,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "## การใช้งาน"
-  },
-  {
-    "row": 130,
-    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
-    "originContent": "## Usage",
-    "translatedContent": ""
-  },
-  {
-    "row": 131,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "### 1. การสร้างเสียงพูดผู้พูดเดียว"
-  },
-  {
-    "row": 132,
-    "rowsha": "nYUkNidMAwY0rOZOPCjiBmmdqfUjG8WhERZjR4/0KYE=",
-    "originContent": "### 1. Single-speaker speech generation",
-    "translatedContent": ""
-  },
-  {
-    "row": 133,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "หากต้องการสร้างเสียงพูดผู้พูดเดียวด้วยโมเดล ZipVoice หรือ ZipVoice-Distill ที่เราได้ฝึกไว้ล่วงหน้า ให้ใช้คำสั่งต่อไปนี้ (โมเดลที่จำเป็นจะถูกดาวน์โหลดจาก HuggingFace):"
-  },
-  {
-    "row": 134,
-    "rowsha": "P9InJLuCjXsRXnIqzXrzTLGFxdKU/ix347WZtNhmgWs=",
-    "originContent": "To generate single-speaker speech with our pre-trained ZipVoice or ZipVoice-Distill models, use the following commands (Required models will be downloaded from HuggingFace):",
-    "translatedContent": ""
-  },
-  {
-    "row": 135,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "#### 1.1 การอินเฟอเรนซ์ประโยคเดียว"
-  },
-  {
-    "row": 136,
-    "rowsha": "EHn70pw6zQn4Rlh44saEbf07w9vL1G089E1jcoF/mh0=",
-    "originContent": "#### 1.1 Inference of a single sentence",
-    "translatedContent": ""
-  },
-  {
-    "row": 137,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 138,
-    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-    "originContent": "```bash",
-    "translatedContent": "```bash"
-  },
-  {
-    "row": 139,
-    "rowsha": "5LdycAFdcQwuhewgqaw7/qMEpPApn8QmSD+BPOU3C6A=",
-    "originContent": "python3 -m zipvoice.bin.infer_zipvoice \\",
-    "translatedContent": "python3 -m zipvoice.bin.infer_zipvoice \\"
-  },
-  {
-    "row": 140,
-    "rowsha": "zFHtgr5VnRTMh9MTaeXwJ2eRS+EV7SlFisJRX/bkPyo=",
-    "originContent": "    --model-name zipvoice \\",
-    "translatedContent": "    --model-name zipvoice \\"
-  },
-  {
-    "row": 141,
-    "rowsha": "YSOCBdT+3vjkglQmCoD0EaQGlRKIMnIHF8oFPzewxIg=",
-    "originContent": "    --prompt-wav prompt.wav \\",
-    "translatedContent": "    --prompt-wav prompt.wav \\"
-  },
-  {
-    "row": 142,
-    "rowsha": "rjzYoGCQuTKgyc8PD8fCe7T1FFSO8K93XVmMFzQ1sww=",
-    "originContent": "    --prompt-text \"I am the transcription of the prompt wav.\" \\",
-    "translatedContent": "    --prompt-text \"I am the transcription of the prompt wav.\" \\"
-  },
-  {
-    "row": 143,
-    "rowsha": "9k8eTttpcL0LG5asxyfMVysYS+N1isHlsrlduS9s+Vg=",
-    "originContent": "    --text \"I am the text to be synthesized.\" \\",
-    "translatedContent": "    --text \"I am the text to be synthesized.\" \\"
-  },
-  {
-    "row": 144,
-    "rowsha": "9ZlszmYCtHtiSIYmtIzwO6atabFPUNUVgbcxTcDEs+4=",
-    "originContent": "    --res-wav-path result.wav",
-    "translatedContent": "    --res-wav-path result.wav"
-  },
-  {
-    "row": 145,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 146,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "- `--model-name` สามารถเป็น `zipvoice` หรือ `zipvoice_distill` ซึ่งเป็นโมเดลก่อนและหลังการกลั่น ตามลำดับ"
-  },
-  {
-    "row": 147,
-    "rowsha": "Vk0m6NrE3gMzFw6jIUmVS2xf8e53UPorfjw3hnyoR8g=",
-    "originContent": "- `--model-name` can be `zipvoice` or `zipvoice_distill`, which are models before and after distillation, respectively.",
-    "translatedContent": "- หากปรากฏ `<>` หรือ `[]` ในข้อความ สตริงที่อยู่ภายในจะถูกจัดการเป็นโทเคนพิเศษ โดย `<>` หมายถึงพินอินภาษาจีน และ `[]` หมายถึงแท็กพิเศษอื่น ๆ"
-  },
-  {
-    "row": 148,
-    "rowsha": "l7kUz5yeNN2aq8iILGY4UuGx9dvsTL+VIkCcGFxqaHc=",
-    "originContent": "- If `<>` or `[]` appear in the text, strings enclosed by them will be treated as special tokens. `<>` denotes Chinese pinyin and `[]` denotes other special tags.",
-    "translatedContent": "- สามารถรันโมเดล ONNX บน CPU ได้เร็วขึ้นด้วย `zipvoice.bin.infer_zipvoice_onnx`"
-  },
-  {
-    "row": 149,
-    "rowsha": "xtSgjxlYDTKa6TjWGyaxmkEx3A6qmhKIU+4WU+1W5Rw=",
-    "originContent": "- Could run ONNX models on CPU faster with `zipvoice.bin.infer_zipvoice_onnx`.",
-    "translatedContent": ""
-  },
-  {
-    "row": 150,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "> **หมายเหตุ:** หากคุณมีปัญหาในการเชื่อมต่อกับ HuggingFace ให้ลองทำดังนี้:"
-  },
-  {
-    "row": 151,
-    "rowsha": "9PIvxzIKuTA9H/nzbpHeSgJKeqzmPgg2RfMiVUoXpks=",
-    "originContent": "> **Note:** If you have trouble connecting to HuggingFace, try:",
-    "translatedContent": "> ```bash"
-  },
-  {
-    "row": 152,
-    "rowsha": "wdkEOeFso6tqiT11qRgwNFig8+xjxbk3wJKCvpYihdM=",
-    "originContent": "> ```bash",
-    "translatedContent": "> export HF_ENDPOINT=https://hf-mirror.com"
-  },
-  {
-    "row": 153,
-    "rowsha": "Fh3l2tm7u/FmmCHFN9V3Y/zJWCDEMcC3Bx7Vij2BQqM=",
-    "originContent": "> export HF_ENDPOINT=https://hf-mirror.com",
-    "translatedContent": "> ```"
-  },
-  {
-    "row": 154,
-    "rowsha": "MSWTuK53TAylT2dLwAgGiANzYPowZK3H1tOGCQeahfM=",
-    "originContent": "> ```",
-    "translatedContent": ""
-  },
-  {
-    "row": 155,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "#### 1.2 การอินเฟอเรนซ์รายการประโยค"
-  },
-  {
-    "row": 156,
-    "rowsha": "8zUs0xdKItgiKM1ReiXt8Pbmo0PrH0yE33PZ24pLLIw=",
-    "originContent": "#### 1.2 Inference of a list of sentences",
-    "translatedContent": ""
-  },
-  {
-    "row": 157,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 158,
-    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-    "originContent": "```bash",
-    "translatedContent": "```bash"
-  },
-  {
-    "row": 159,
-    "rowsha": "5LdycAFdcQwuhewgqaw7/qMEpPApn8QmSD+BPOU3C6A=",
-    "originContent": "python3 -m zipvoice.bin.infer_zipvoice \\",
-    "translatedContent": "python3 -m zipvoice.bin.infer_zipvoice \\"
-  },
-  {
-    "row": 160,
-    "rowsha": "zFHtgr5VnRTMh9MTaeXwJ2eRS+EV7SlFisJRX/bkPyo=",
-    "originContent": "    --model-name zipvoice \\",
-    "translatedContent": "    --model-name zipvoice \\"
-  },
-  {
-    "row": 161,
-    "rowsha": "D5+l+x4feOqp7oGIjjcTZgwDvsFKfePUlMADLvNkUac=",
-    "originContent": "    --test-list test.tsv \\",
-    "translatedContent": "    --test-list test.tsv \\"
-  },
-  {
-    "row": 162,
-    "rowsha": "w9VwI2xzL8mzYrhdSUdf7RlT8eV6nbqfz1JKKK4logo=",
-    "originContent": "    --res-dir results",
-    "translatedContent": "    --res-dir results"
-  },
-  {
-    "row": 163,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 164,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "- แต่ละบรรทัดของ `test.tsv` อยู่ในรูปแบบ `{wav_name}\\t{prompt_transcription}\\t{prompt_wav}\\t{text}`"
-  },
-  {
-    "row": 165,
-    "rowsha": "kxdv3BjjUgNnuZKZ/3FvXTMF1EE7frXvLVqJUlAcwV0=",
-    "originContent": "- Each line of `test.tsv` is in the format of `{wav_name}\\t{prompt_transcription}\\t{prompt_wav}\\t{text}`.",
-    "translatedContent": ""
-  },
-  {
-    "row": 166,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "### 2. การสร้างบทสนทนาแบบพูดคุย"
-  },
-  {
-    "row": 167,
-    "rowsha": "Zdd2Sfo7m97Uvp4vpRWnek6NBUjrt8BK30IfSi54XO0=",
-    "originContent": "### 2. Spoken dialogue generation",
-    "translatedContent": ""
-  },
-  {
-    "row": 168,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "#### 2.1 คำสั่งสำหรับการอนุมาน"
-  },
-  {
-    "row": 169,
-    "rowsha": "SSCcvT3TkdgOK/lPlidT5W4KUx0rdPdikJqjEI6F7Bs=",
-    "originContent": "#### 2.1 Inference command",
-    "translatedContent": ""
-  },
-  {
-    "row": 170,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "เพื่อสร้างบทสนทนาแบบพูดคุยสองฝ่ายด้วยโมเดล ZipVoice-Dialogue หรือ ZipVoice-Dialogue-Stereo ที่ผ่านการฝึกฝนล่วงหน้าของเรา ให้ใช้คำสั่งดังต่อไปนี้ (โมเดลที่จำเป็นจะถูกดาวน์โหลดจาก HuggingFace):"
-  },
-  {
-    "row": 171,
-    "rowsha": "VQWeYFjmrejLDTvLE1dLDgVDTrkGgbT9dVjCuEGdOVs=",
-    "originContent": "To generate two-party spoken dialogues with our pre-trained ZipVoice-Dialogue or ZipVoice-Dialogue-Stereo models, use the following commands (Required models will be downloaded from HuggingFace):",
-    "translatedContent": ""
-  },
-  {
-    "row": 172,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 173,
-    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-    "originContent": "```bash",
-    "translatedContent": "```bash"
-  },
-  {
-    "row": 174,
-    "rowsha": "02EGjjb3FkRwD02iqCnPSs/zM1/1b05/tK3bUw/WhTY=",
-    "originContent": "python3 -m zipvoice.bin.infer_zipvoice_dialog \\",
-    "translatedContent": "python3 -m zipvoice.bin.infer_zipvoice_dialog \\"
-  },
-  {
-    "row": 175,
-    "rowsha": "/Jt4LOTqysYQkCuxz7XqVaf9zK3l1MUfnP/4yz3NGis=",
-    "originContent": "    --model-name \"zipvoice_dialog\" \\",
-    "translatedContent": "    --model-name \"zipvoice_dialog\" \\"
-  },
-  {
-    "row": 176,
-    "rowsha": "D5+l+x4feOqp7oGIjjcTZgwDvsFKfePUlMADLvNkUac=",
-    "originContent": "    --test-list test.tsv \\",
-    "translatedContent": "    --test-list test.tsv \\"
-  },
-  {
-    "row": 177,
-    "rowsha": "w9VwI2xzL8mzYrhdSUdf7RlT8eV6nbqfz1JKKK4logo=",
-    "originContent": "    --res-dir results",
-    "translatedContent": "    --res-dir results"
-  },
-  {
-    "row": 178,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 179,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "- `--model-name` สามารถเป็น `zipvoice_dialog` หรือ `zipvoice_dialog_stereo` ซึ่งจะสร้างบทสนทนาแบบโมโนและสเตอริโอตามลำดับ"
-  },
-  {
-    "row": 180,
-    "rowsha": "efh94tjBUiXMg0iW3tm91TgIqk27vEyT7K+gz45o3U4=",
-    "originContent": "- `--model-name` can be `zipvoice_dialog` or `zipvoice_dialog_stereo`,",
-    "translatedContent": ""
-  },
-  {
-    "row": 181,
-    "rowsha": "sUUSv5131XkbpDplToFxeh7bVYEmhMfG38JwjC/rblY=",
-    "originContent": "    which generate mono and stereo dialogues, respectively.",
-    "translatedContent": "#### 2.2 รูปแบบอินพุต"
-  },
-  {
-    "row": 182,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 183,
-    "rowsha": "yzCUfUaMYIGbSrIVGSWh9AMuAUnBOji9wge+e4P5Iho=",
-    "originContent": "#### 2.2 Input formats",
-    "translatedContent": "แต่ละบรรทัดของ `test.tsv` จะอยู่ในหนึ่งในรูปแบบต่อไปนี้:"
-  },
-  {
-    "row": 184,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 185,
-    "rowsha": "b/hsuW3fFq0H1K5EyhZXl9BISFwdeJqFFf7u5KikMRs=",
-    "originContent": "Each line of `test.tsv` is in one of the following formats:",
-    "translatedContent": "(1) **รูปแบบพรอมต์รวม** ซึ่งไฟล์เสียงและข้อความถอดเสียงของผู้พูดสองคนจะถูกรวมเป็นไฟล์พรอมต์ wav เดียว:"
-  },
-  {
-    "row": 186,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 187,
-    "rowsha": "shpGzzPLHdPJNlYKJr9kia6At5Ep6PzMs5wuBpwhv34=",
-    "originContent": "(1) **Merged prompt format** where the audios and transcriptions of two speakers prompts are merged into one prompt wav file:",
-    "translatedContent": ""
-  },
-  {
-    "row": 188,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 189,
-    "rowsha": "PU3UqBigF3r7Xjbl9g2CTgEa4WeuSaz/upD7vuF8+Us=",
-    "originContent": "{wav_name}\\t{prompt_transcription}\\t{prompt_wav}\\t{text}",
-    "translatedContent": "{wav_name}\\t{prompt_transcription}\\t{prompt_wav}\\t{text}"
-  },
-  {
-    "row": 190,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 191,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "- `wav_name` คือชื่อของไฟล์ wav ที่จะส่งออก"
-  },
-  {
-    "row": 192,
-    "rowsha": "6vgIR6WfUAFmULhn8LhxFttPwZEo/YwGhN1DAECwHCQ=",
-    "originContent": "- `wav_name` is the name of the output wav file.",
-    "translatedContent": "- `prompt_transcription` คือข้อความถอดเสียงของไฟล์ wav ที่เป็นบทสนทนา เช่น \"[S1] สวัสดีค่ะ [S2] สบายดีไหม?\""
-  },
-  {
-    "row": 193,
-    "rowsha": "8kGHHZ7ObsZ8uyIBm+8FSBfPWSNEFzO6a4avI5fvxU8=",
-    "originContent": "- `prompt_transcription` is the transcription of the conversational prompt wav, e.g, \"[S1] Hello. [S2] How are you?\"",
-    "translatedContent": "- `prompt_wav` คือพาธไปยังไฟล์ wav ที่เป็นพรอมต์"
-  },
-  {
-    "row": 194,
-    "rowsha": "49ZQfEoq6fSJWYpjq6scIFSZl4p3azUAuAfh/UGDXoQ=",
-    "originContent": "- `prompt_wav` is the path to the prompt wav.",
-    "translatedContent": "- `text` คือข้อความที่ต้องการสังเคราะห์เสียง เช่น \"[S1] ฉันสบายดี [S2] คุณชื่ออะไร?\""
-  },
-  {
-    "row": 195,
-    "rowsha": "bllORZskiCR9fU5bX9yk0xZyqribcNFIl5OGst+H9hs=",
-    "originContent": "- `text` is the text to be synthesized, e.g. \"[S1] I'm fine. [S2] What's your name?\"",
-    "translatedContent": ""
-  },
-  {
-    "row": 196,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "(2) **รูปแบบพรอมต์แยกไฟล์** ซึ่งไฟล์เสียงและไฟล์ถอดเสียงของผู้พูดทั้งสองจะถูกแยกเก็บไว้ในไฟล์ต่างหาก:"
-  },
-  {
-    "row": 197,
-    "rowsha": "cDDd56+0WMPRH7CargkOcXZpCX+wGZvzj4Pws7l8G8M=",
-    "originContent": "(2) **Splitted prompt format** where the audios and transciptions of two speakers exist in separate files:",
-    "translatedContent": ""
-  },
-  {
-    "row": 198,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 199,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 200,
-    "rowsha": "VFi21YJECz9ZlEVrJTuBKRACy4qCFuQ1tBIIgF9To1w=",
-    "originContent": "{wav_name}\\t{spk1_prompt_transcription}\\t{spk2_prompt_transcription}\\t{spk1_prompt_wav}\\t{spk2_prompt_wav}\\t{text}'",
-    "translatedContent": "{wav_name}\\t{spk1_prompt_transcription}\\t{spk2_prompt_transcription}\\t{spk1_prompt_wav}\\t{spk2_prompt_wav}\\t{text}'"
-  },
-  {
-    "row": 201,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 202,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "- `wav_name` คือชื่อของไฟล์ wav ที่จะสร้างขึ้น"
-  },
-  {
-    "row": 203,
-    "rowsha": "6vgIR6WfUAFmULhn8LhxFttPwZEo/YwGhN1DAECwHCQ=",
-    "originContent": "- `wav_name` is the name of the output wav file.",
-    "translatedContent": "- `spk1_prompt_transcription` คือข้อความถอดเสียงของไฟล์ wav ตัวอย่างเสียงผู้พูดคนแรก เช่น \"สวัสดี\""
-  },
-  {
-    "row": 204,
-    "rowsha": "7BNq8UaBvTut4Ow/oJBAgIDTn3EwEZXK7mlUaYdFwqw=",
-    "originContent": "- `spk1_prompt_transcription` is the transcription of the first speaker's prompt wav, e.g, \"Hello\"",
-    "translatedContent": "- `spk2_prompt_transcription` คือข้อความถอดเสียงของไฟล์ wav ตัวอย่างเสียงผู้พูดคนที่สอง เช่น \"สบายดีไหม?\""
-  },
-  {
-    "row": 205,
-    "rowsha": "CES8w9dqVdkdJyOJBUVP282aaKeevVWB3d/+59TEsuk=",
-    "originContent": "- `spk2_prompt_transcription` is the transcription of the second speaker's prompt wav, e.g, \"How are you?\"",
-    "translatedContent": "- `spk1_prompt_wav` คือพาธของไฟล์ wav ตัวอย่างเสียงผู้พูดคนแรก"
-  },
-  {
-    "row": 206,
-    "rowsha": "gXLLRf4BR7Xko2q2l4nK04KIs/L8CjvZ/UBQaP1+vck=",
-    "originContent": "- `spk1_prompt_wav` is the path to the first speaker's prompt wav file.",
-    "translatedContent": "- `spk2_prompt_wav` คือพาธของไฟล์ wav ตัวอย่างเสียงผู้พูดคนที่สอง"
-  },
-  {
-    "row": 207,
-    "rowsha": "oS1+heJwBnnDtA57WYtG6LbzxK79DOIeb8hwhZQwcDg=",
-    "originContent": "- `spk2_prompt_wav` is the path to the second speaker's prompt wav file.",
-    "translatedContent": "- `text` คือข้อความที่ต้องการสังเคราะห์ เช่น \"[S1] ฉันสบายดี [S2] คุณชื่ออะไร?\""
-  },
-  {
-    "row": 208,
-    "rowsha": "bllORZskiCR9fU5bX9yk0xZyqribcNFIl5OGst+H9hs=",
-    "originContent": "- `text` is the text to be synthesized, e.g. \"[S1] I'm fine. [S2] What's your name?\"",
-    "translatedContent": ""
-  },
-  {
-    "row": 209,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "### 3. ฟีเจอร์อื่น ๆ"
-  },
-  {
-    "row": 210,
-    "rowsha": "+vzcq8TvUX4BjMVko7bsMy3OssEdCDf3naG5aF1NHpU=",
-    "originContent": "### 3. Other features",
-    "translatedContent": ""
-  },
-  {
-    "row": 211,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "#### 3.1 การแก้ไขการออกเสียงผิดของอักขระจีนที่มีหลายเสียง"
-  },
-  {
-    "row": 212,
-    "rowsha": "QGugzKoPQgvq7BRzlyCe2HPMZG0+T/EtMivjaWTAk7M=",
-    "originContent": "#### 3.1 Correcting mispronounced chinese polyphone characters",
-    "translatedContent": ""
-  },
-  {
-    "row": 213,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "เราใช้ [pypinyin](https://github.com/mozillazg/python-pinyin) เพื่อแปลงอักขระจีนเป็นพินอิน อย่างไรก็ตาม บางครั้งอาจออกเสียง **อักขระหลายเสียง** (多音字) ผิดได้"
-  },
-  {
-    "row": 214,
-    "rowsha": "hF52KZEnGKLuaot2w0AmXt52eB6Y3adYIo2qMJSMx5o=",
-    "originContent": "We use [pypinyin](https://github.com/mozillazg/python-pinyin) to convert Chinese characters to pinyin. However, it can occasionally mispronounce **polyphone characters** (多音字).",
-    "translatedContent": ""
-  },
-  {
-    "row": 215,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "หากต้องการแก้ไขการออกเสียงผิดด้วยตนเอง ให้ใส่ **พินอินที่ถูกต้อง** ไว้ในเครื่องหมายมุมเหลี่ยม `< >` และใส่ **เครื่องหมายโทนเสียง**"
-  },
-  {
-    "row": 216,
-    "rowsha": "h6Qq8AvUPYme90k2BWG054cVE6RHNflr0OwdnKA4BEE=",
-    "originContent": "To manually correct these mispronunciations, enclose the **corrected pinyin** in angle brackets `< >` and include the **tone mark**.",
-    "translatedContent": ""
-  },
-  {
-    "row": 217,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "**ตัวอย่าง:**"
-  },
-  {
-    "row": 218,
-    "rowsha": "fP4bnCe7+qhcgDDajGMIv4obksa4WSdUp3hExEbpci0=",
-    "originContent": "**Example:**",
-    "translatedContent": ""
-  },
-  {
-    "row": 219,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "- ข้อความเดิม: `这把剑长三十公分`"
-  },
-  {
-    "row": 220,
-    "rowsha": "ntwz9/IQqGC1ThJXQn9D83h+54cDriyg2snkkrk0KoI=",
-    "originContent": "- Original text: `这把剑长三十公分`",
-    "translatedContent": "- แก้ไขพินอินของ `长`:  `这把剑<chang2>三十公分`"
-  },
-  {
-    "row": 221,
     "rowsha": "sfnMRvscnvdKs1fvbVePwH0RpAikXkFIi9i7HZK7D9w=",
     "originContent": "- Correct the pinyin of `长`:  `这把剑<chang2>三十公分`",
     "translatedContent": ""
   },
   {
-    "row": 222,
+    "row": 55,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "> **หมายเหตุ:** หากต้องการกำหนดหลายพินอินด้วยตนเอง ให้ใส่แต่ละพินอินด้วย `<>` เช่น `这把<jian4><chang2><san1>十公分`"
+    "translatedContent": "> **หมายเหตุ:** หากต้องการกำหนด pinyin หลายตัวด้วยตนเอง ให้ใส่แต่ละ pinyin ไว้ใน `< >` เช่น `这把<jian4><chang2><san1>十公分`"
   },
   {
-    "row": 223,
+    "row": 56,
     "rowsha": "7f45Y23fyK7AQrUO7HdTtPZZzoyRkW6WwoznauYmQew=",
     "originContent": "> **Note:** If you want to manually assign multiple pinyins, enclose each pinyin with `<>`, e.g., `这把<jian4><chang2><san1>十公分`",
     "translatedContent": ""
   },
   {
-    "row": 224,
+    "row": 57,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": "## ฝึกโมเดลของคุณเอง"
   },
   {
-    "row": 225,
+    "row": 58,
     "rowsha": "SEsrfyGZhBYqHMMdMldgN+tSz6ynJT5BVJeLrTV5lHw=",
     "originContent": "## Train Your Own Model",
     "translatedContent": ""
   },
   {
-    "row": 226,
+    "row": 59,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "ดูตัวอย่างการฝึกและปรับจูนได้ที่ไดเรกทอรี [egs](egs)"
+    "translatedContent": "ดูตัวอย่างการฝึก ปรับแต่ง และประเมินผลได้ที่ไดเรกทอรี [egs](egs)"
   },
   {
-    "row": 227,
-    "rowsha": "ZGCE1jWTXW0xbHbucVHeEBUrHSBzgsSaPyISECzVTnI=",
-    "originContent": "See the [egs](egs) directory for training and fine-tuning examples.",
+    "row": 60,
+    "rowsha": "XaSJNyFaxQRx1Xc0mphwUGAxovKELo/54WkMCnFDLyE=",
+    "originContent": "See the [egs](egs) directory for training, fine-tuning and evaluation examples.",
     "translatedContent": ""
   },
   {
-    "row": 228,
+    "row": 61,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "## การพูดคุย & สื่อสาร"
+    "translatedContent": "## พูดคุย & ติดต่อสื่อสาร"
   },
   {
-    "row": 229,
+    "row": 62,
     "rowsha": "dEqRbPItUt3FEp1iC+8Ww+A6L57yd6oGeXfxSn5BYzs=",
     "originContent": "## Discussion & Communication",
     "translatedContent": ""
   },
   {
-    "row": 230,
+    "row": 63,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "คุณสามารถพูดคุยได้โดยตรงที่ [Github Issues](https://github.com/k2-fsa/ZipVoice/issues)"
+    "translatedContent": "คุณสามารถพูดคุยโดยตรงได้ที่ [Github Issues](https://github.com/k2-fsa/ZipVoice/issues)"
   },
   {
-    "row": 231,
+    "row": 64,
     "rowsha": "wjQUwaDgSP1a6ggLgGx8TWt44Dxu5IlJytNwCAlzZKg=",
     "originContent": "You can directly discuss on [Github Issues](https://github.com/k2-fsa/ZipVoice/issues).",
     "translatedContent": ""
   },
   {
-    "row": 232,
+    "row": 65,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "คุณยังสามารถสแกน QR code เพื่อเข้าร่วมกลุ่ม wechat ของเราหรือกดติดตามบัญชีทางการ wechat ของเราได้เช่นกัน"
+    "translatedContent": "หรือสแกน QR code เพื่อเข้าร่วมกลุ่ม wechat หรือกดติดตาม official account ของเรา"
   },
   {
-    "row": 233,
+    "row": 66,
     "rowsha": "WLbsT+slCE72T0wpzVIN8KFxhP+RAw29VxFhJcBEEIo=",
     "originContent": "You can also scan the QR code to join our wechat group or follow our wechat official account.",
     "translatedContent": ""
   },
   {
-    "row": 234,
+    "row": 67,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "| กลุ่ม Wechat | บัญชีทางการ Wechat |"
+    "translatedContent": "| กลุ่ม Wechat | Wechat Official Account |"
   },
   {
-    "row": 235,
+    "row": 68,
     "rowsha": "XMNeg//PyHlCkY1XlL7caNd2vlVOKKoslrNeasADjMY=",
     "originContent": "| Wechat Group | Wechat Official Account |",
     "translatedContent": "| ------------ | ----------------------- |"
   },
   {
-    "row": 236,
+    "row": 69,
     "rowsha": "jdP52Pdk9hJ4eEQC1YzC887/bGdD6V25zHK1FxUbFjM=",
     "originContent": "| ------------ | ----------------------- |",
     "translatedContent": "|![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |"
   },
   {
-    "row": 237,
+    "row": 70,
     "rowsha": "Q6eYrtLPPuG0fiZxZqhYquTYNk0vlyIOh+CRuwGZVk4=",
     "originContent": "|![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |",
     "translatedContent": ""
   },
   {
-    "row": 238,
+    "row": 71,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": "## การอ้างอิง"
   },
   {
-    "row": 239,
+    "row": 72,
     "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
     "originContent": "## Citation",
     "translatedContent": ""
   },
   {
-    "row": 240,
+    "row": 73,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
-  },
-  {
-    "row": 241,
-    "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
-    "originContent": "```bibtex",
-    "translatedContent": "```bibtex"
-  },
-  {
-    "row": 242,
-    "rowsha": "RE2Kcti+ufeE8yfJj+346nWo1bMqUDNFKrKesr+bmg0=",
-    "originContent": "@article{zhu2025zipvoice,",
-    "translatedContent": "@article{zhu2025zipvoice,"
-  },
-  {
-    "row": 243,
-    "rowsha": "VQybKNg8P9fnj0U2AJFozYiQFpit5CENL4VuPhNAw7Y=",
-    "originContent": "      title={ZipVoice: Fast and High-Quality Zero-Shot Text-to-Speech with Flow Matching},",
-    "translatedContent": "      title={ZipVoice: Fast and High-Quality Zero-Shot Text-to-Speech with Flow Matching},"
-  },
-  {
-    "row": 244,
-    "rowsha": "PbkJMimWSkwo41nok0n9FbjMvhB3UWQUdCUiLt81DSg=",
-    "originContent": "      author={Zhu, Han and Kang, Wei and Yao, Zengwei and Guo, Liyong and Kuang, Fangjun and Li, Zhaoqing and Zhuang, Weiji and Lin, Long and Povey, Daniel},",
-    "translatedContent": "      author={Zhu, Han and Kang, Wei and Yao, Zengwei and Guo, Liyong and Kuang, Fangjun and Li, Zhaoqing and Zhuang, Weiji and Lin, Long and Povey, Daniel},"
-  },
-  {
-    "row": 245,
-    "rowsha": "eeKTxU+TVEdBaQEqKBgL8wLT+1TUc7V44gB0BhN8spI=",
-    "originContent": "      journal={arXiv preprint arXiv:2506.13053},",
-    "translatedContent": "      journal={arXiv preprint arXiv:2506.13053},"
-  },
-  {
-    "row": 246,
-    "rowsha": "9pSf9rDXTgTI9F1n7As4xQHzrnpzkqq+DsBUQOju52w=",
-    "originContent": "      year={2025}",
-    "translatedContent": "      year={2025}"
-  },
-  {
-    "row": 247,
-    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-    "originContent": "}",
-    "translatedContent": "}"
-  },
-  {
-    "row": 248,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 249,
-    "rowsha": "5cYmCbe04b8MIKugX1fG6pfI9kjPU8mXI6+MYxE0yYE=",
-    "originContent": "@article{zhu2025zipvoicedialog,",
-    "translatedContent": "@article{zhu2025zipvoicedialog,"
-  },
-  {
-    "row": 250,
-    "rowsha": "I1NS6m+Fef1AMUupkLt1/SWoaHvaLp/EhiTi2BLU1EQ=",
-    "originContent": "      title={ZipVoice-Dialog: Non-Autoregressive Spoken Dialogue Generation with Flow Matching},",
-    "translatedContent": "      title={ZipVoice-Dialog: Non-Autoregressive Spoken Dialogue Generation with Flow Matching},"
-  },
-  {
-    "row": 251,
-    "rowsha": "0C1tDS3PM21TkXPP1QDKLMImQLHaEb05rIODrwrZiXE=",
-    "originContent": "      author={Zhu, Han and Kang, Wei and Guo, Liyong and Yao, Zengwei and Kuang, Fangjun and Zhuang, Weiji and Li, Zhaoqing and Han, Zhifeng and Zhang, Dong and Zhang, Xin and Song, Xingchen and Lin, Long and Povey, Daniel},",
-    "translatedContent": "      author={Zhu, Han and Kang, Wei and Guo, Liyong and Yao, Zengwei and Kuang, Fangjun and Zhuang, Weiji and Li, Zhaoqing and Han, Zhifeng and Zhang, Dong and Zhang, Xin and Song, Xingchen and Lin, Long and Povey, Daniel},"
-  },
-  {
-    "row": 252,
-    "rowsha": "4AKpEFRUnLgdh6w4Tf+7ksFpVgPmUt7VanuktnrEh/s=",
-    "originContent": "      journal={arXiv preprint arXiv:2507.09318},",
-    "translatedContent": "      journal={arXiv preprint arXiv:2507.09318},"
-  },
-  {
-    "row": 253,
-    "rowsha": "9pSf9rDXTgTI9F1n7As4xQHzrnpzkqq+DsBUQOju52w=",
-    "originContent": "      year={2025}",
-    "translatedContent": "      year={2025}"
-  },
-  {
-    "row": 254,
-    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-    "originContent": "}",
-    "translatedContent": "}"
-  },
-  {
-    "row": 255,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 256,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "<translate-content></translate-content>"
   }
 ]

@@ -1,0 +1,967 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# winjs-plugin-security\n\n一个为 WinJS 项目提供安全增强功能的插件，主要用于生成 SRI（Subresource Integrity）属性。\n\n## 功能特性\n\n- 自动为 HTML 文件中的 `<script>` 和 `<link>` 标签生成 SRI 属性\n- 支持 SHA-256、SHA-384、SHA-512 哈希算法（可配置）\n- 自动添加 `crossorigin=\"anonymous\"` 属性以确保 SRI 正常工作\n- 仅在生产环境下生效，开发环境自动跳过\n\n## 安装\n",
+    "ContentSha": "iy10XPaDlRB2BuMuCKbj8luuXv6Xg31I3tVBF5IfLKg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 Язык</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# winjs-plugin-security\n\nПлагин, обеспечивающий дополнительные функции безопасности для проектов WinJS, предназначен в первую очередь для генерации атрибута SRI (Subresource Integrity).\n\n## Особенности\n\n- Автоматическая генерация атрибута SRI для тегов `<script>` и `<link>` в HTML-файлах\n- Поддержка хеш-алгоритмов SHA-256, SHA-384, SHA-512 (настраиваемо)\n- Автоматическое добавление атрибута `crossorigin=\"anonymous\"` для корректной работы SRI\n- Работает только в производственной среде, в режиме разработки автоматически пропускается\n\n## Установка\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "    <summary >🌐 Язык</summary>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=en\">English</a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "VXm11CFCU6c0P00V1MJtgDXSA1qx23s38fl7YY2lj2k=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=en\">English</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "n07VmR7JGemSMw0GmCty7quk8NKxcpeG6AhpOShcqyo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "8okMnK4NaawOuw3Vf9BHeAZFAxWCnMoL2LtjG2gGixI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "P32Zjpgzs3dURjiUcsi/GqV27GBcvZ0/4wB4qmorEz8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "XF0gtdd8j+Yp0vzvsH1vG3I4KHQyyAPggymyWst64K0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "1EoiZ/HAUfuV4EP+cr/4YLnaw6uDOIWaQValOVJCGoA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "YoExaeF6hyZquxSVLQ7ycjptEpf+Oi6p638oc5D7k0Y=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=fr\">Français</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "TQu+UsHE4S0TekaltqMybuHkhM8XpdssfV2wMcTD02Y=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "5DNW0C0vLtFSyxTFCjxYcrzhKiZ9U9qA+Hq2I0cED0k=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=es\">Español</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "8X7zX3/U7yROMzybANO4S5CqbqnULwwHa1zHAk1TB3c=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "8SCJRos1QKFf1TGrBNtSB5TJ3pfhcQ67CXv+vrIg19A=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "hHrPzTzvOsHEV7hq+3alGihPOHzjgArP73421WSzHYc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=pt\">Português</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "ozdgCrFL5iTL4ZB1IVjQ39yvsjKzHITpVZYjlLF9u84=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "y1M47oYrxVfDX9GhOSIzV5ZCTBX4WXCgU1o7XkFrDfk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "Ec4W0LfYmt1/UFBTGPRxPhHU5mNABFClSg+sBCIjL/o=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "tKH+ybQn3l7Wb4ndsxT9yEkvv/HCSW8zV9iG8atTdZg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "G4g6SLVDICJ6c/IQQLJBMknQaoNOEPaMUTi9rDQqGBc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "WmX4LF5jrIM8cAyjwBxwjiaJ6NxAcTBAC5AHsLDzxUk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "5Tv8ILDBo4PUEsUChwbp5eHBXm1tFFbZxzTh3WRkMlg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "Xf1v/zHahQpxefrnVB1N2ZpW7y+0otS9DdKPZDYJ/ro=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 27,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 28,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 29,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# winjs-plugin-security"
+      },
+      {
+        "row": 32,
+        "rowsha": "wFccN2CM0J1YGLUiozHToWkjA2gmNRfxbbrQEmDcyYE=",
+        "originContent": "# winjs-plugin-security",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Плагин, обеспечивающий дополнительные функции безопасности для проектов WinJS, предназначен в первую очередь для генерации атрибута SRI (Subresource Integrity)."
+      },
+      {
+        "row": 34,
+        "rowsha": "W6XH1qokxgeRVySx5wekOBmO9i21cwvumKVSXoEdB/8=",
+        "originContent": "一个为 WinJS 项目提供安全增强功能的插件，主要用于生成 SRI（Subresource Integrity）属性。",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Особенности"
+      },
+      {
+        "row": 36,
+        "rowsha": "hcZsKlpSPkTFpH/QegoKHGVWmJDSH48IDfZVw6T3YEk=",
+        "originContent": "## 功能特性",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Автоматическая генерация атрибута SRI для тегов `<script>` и `<link>` в HTML-файлах"
+      },
+      {
+        "row": 38,
+        "rowsha": "h/LHtXvd3J90P5WxCfQGsrvQZNJrv61OLPCX3L/cR2E=",
+        "originContent": "- 自动为 HTML 文件中的 `<script>` 和 `<link>` 标签生成 SRI 属性",
+        "translatedContent": "- Поддержка хеш-алгоритмов SHA-256, SHA-384, SHA-512 (настраиваемо)"
+      },
+      {
+        "row": 39,
+        "rowsha": "9QgnEULa7mBvIZMKR5W0CywDhB1/sxmFtWHGNi+0uB4=",
+        "originContent": "- 支持 SHA-256、SHA-384、SHA-512 哈希算法（可配置）",
+        "translatedContent": "- Автоматическое добавление атрибута `crossorigin=\"anonymous\"` для корректной работы SRI"
+      },
+      {
+        "row": 40,
+        "rowsha": "aVx9xL3fzzP2Kb3vPf02QOp6FWSRGdFd6v+NjTGwDpU=",
+        "originContent": "- 自动添加 `crossorigin=\"anonymous\"` 属性以确保 SRI 正常工作",
+        "translatedContent": "- Работает только в производственной среде, в режиме разработки автоматически пропускается"
+      },
+      {
+        "row": 41,
+        "rowsha": "4eU52SYjvW1DV4luukN4GM88LynWouSWAwMRpJO2qsg=",
+        "originContent": "- 仅在生产环境下生效，开发环境自动跳过",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Установка"
+      },
+      {
+        "row": 43,
+        "rowsha": "UMqC31ngvFKTTTEuKqsTk79HILGU8WWgF72p6TJJqbg=",
+        "originContent": "## 安装",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\npnpm add @winner-fed/plugin-security\n```",
+    "ContentSha": "pNpG+ZCZlTPoEPdOAr+WK2AjEKY2bqVCq+gnKLvvcH8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npnpm add @winner-fed/plugin-security\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "lQT4Ep89ssMw3lU5fMhTiv7MxtG1HMvzFK46wyIuS5k=",
+        "originContent": "pnpm add @winner-fed/plugin-security",
+        "translatedContent": "pnpm add @winner-fed/plugin-security"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## 使用方法\n\n在你的 `.winrc.ts` 配置文件中添加插件配置：\n",
+    "ContentSha": "IXXydgf+Vib+ERz0vN0tOmkx9jxvXI/Yu4It8HLgpT4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Способ использования\n\nДобавьте конфигурацию плагина в ваш файл настроек `.winrc.ts`:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Способ использования"
+      },
+      {
+        "row": 2,
+        "rowsha": "6MQVJlN8pzS/JKFAmEsF+fGPpVBhkqKXd7kJyIXtGEg=",
+        "originContent": "## 使用方法",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Добавьте конфигурацию плагина в ваш файл настроек `.winrc.ts`:"
+      },
+      {
+        "row": 4,
+        "rowsha": "z84ZEb0mqviZa31XKB0L4okW3ydR6PRYJLqgFjPy8vw=",
+        "originContent": "在你的 `.winrc.ts` 配置文件中添加插件配置：",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```typescript\nimport { defineConfig } from '@winner-fed/winjs';\n\nexport default defineConfig({\n  plugins: ['@winner-fed/plugin-security'],\n  security: {\n    sri: true // 启用 SRI 功能\n  },\n});\n```",
+    "ContentSha": "bpzlp+m4jwNyaWTH0ATtg/hROQbp1+pbqHj16GZwQvY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```typescript\nimport { defineConfig } from '@winner-fed/winjs';\n\nexport default defineConfig({\n  plugins: ['@winner-fed/plugin-security'],\n  security: {\n    sri: true // 启用 SRI 功能\n  },\n});\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+        "originContent": "```typescript",
+        "translatedContent": "```typescript"
+      },
+      {
+        "row": 2,
+        "rowsha": "VrRv1tO3P+KnbHG2uXaebKEIRTzDpoNzFYu3og/T5pc=",
+        "originContent": "import { defineConfig } from '@winner-fed/winjs';",
+        "translatedContent": "import { defineConfig } from '@winner-fed/winjs';"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "pxlmGtYe1w1KMBva5rp+lHF+7Z+LH5UVh4Ii/ZGTQo8=",
+        "originContent": "export default defineConfig({",
+        "translatedContent": "export default defineConfig({"
+      },
+      {
+        "row": 5,
+        "rowsha": "+Ulo3AcPGAqbhJBPdZbe56Pk4RDOX1LK4EvZRsZP10A=",
+        "originContent": "  plugins: ['@winner-fed/plugin-security'],",
+        "translatedContent": "  plugins: ['@winner-fed/plugin-security'],"
+      },
+      {
+        "row": 6,
+        "rowsha": "mtf2IE4CyXrpAtGnQI978Wwairr5FYeIs/9naHf4f4U=",
+        "originContent": "  security: {",
+        "translatedContent": "  security: {"
+      },
+      {
+        "row": 7,
+        "rowsha": "hYpnz9z7iAL31ON3iPX+oZb4zzXHUDBBV/VpaXxB8VI=",
+        "originContent": "    sri: true // 启用 SRI 功能",
+        "translatedContent": "    sri: true // 启用 SRI 功能"
+      },
+      {
+        "row": 8,
+        "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+        "originContent": "  },",
+        "translatedContent": "  },"
+      },
+      {
+        "row": 9,
+        "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+        "originContent": "});",
+        "translatedContent": "});"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## 配置选项\n\n### `sri`\n\n- **类型**: `boolean | { algorithm: 'sha256' | 'sha384' | 'sha512' }`\n- **默认值**: 需要手动设置\n- **描述**: 是否启用 SRI（子资源完整性）功能，以及可选的哈希算法配置\n\n当设置为 `true` 或 `{}` 时，插件会：\n\n1. 扫描构建后的 HTML 文件\n2. 为所有带有 `src` 属性的 `<script>` 标签添加 `integrity` 属性\n3. 为所有带有 `href` 属性的 `<link>` 标签添加 `integrity` 属性\n4. 自动添加 `crossorigin=\"anonymous\"` 属性（如果不存在）\n\n你也可以通过对象方式指定哈希算法：\n",
+    "ContentSha": "8hapV6tWfuWVuyHG4jE2pkKaou/S8gCCmL10ZteP9DU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Опции конфигурации\n\n### `sri`\n\n- **Тип**: `boolean | { algorithm: 'sha256' | 'sha384' | 'sha512' }`\n- **Значение по умолчанию**: требуется ручная настройка\n- **Описание**: включает или отключает функцию SRI (целостность подресурсов), а также позволяет выбрать алгоритм хеширования\n\nЕсли указано значение `true` или `{}`, плагин выполнит следующие действия:\n\n1. Сканирует сгенерированные HTML-файлы\n2. Добавляет атрибут `integrity` ко всем тегам `<script>` с атрибутом `src`\n3. Добавляет атрибут `integrity` ко всем тегам `<link>` с атрибутом `href`\n4. Автоматически добавляет атрибут `crossorigin=\"anonymous\"` (если он отсутствует)\n\nТакже можно явно указать алгоритм хеширования через объект:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Опции конфигурации"
+      },
+      {
+        "row": 2,
+        "rowsha": "3o/Wsh1RUgTopKL+S0IEtQNF5+R3Mgx61rbm6aa3as0=",
+        "originContent": "## 配置选项",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### `sri`"
+      },
+      {
+        "row": 4,
+        "rowsha": "Mw6vkObnXxsIe6UPyvI1FUrDL6je4De8JG7sMzRzcYk=",
+        "originContent": "### `sri`",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **Тип**: `boolean | { algorithm: 'sha256' | 'sha384' | 'sha512' }`"
+      },
+      {
+        "row": 6,
+        "rowsha": "7XYwnmbJSU8RkYjrvq4rQHgi4Dw5mjtKG8gfmQIJ9G8=",
+        "originContent": "- **类型**: `boolean | { algorithm: 'sha256' | 'sha384' | 'sha512' }`",
+        "translatedContent": "- **Значение по умолчанию**: требуется ручная настройка"
+      },
+      {
+        "row": 7,
+        "rowsha": "AUC6yWosefwhUxXmNTfKzhNJRXykQdNvxhpYBBXWg3M=",
+        "originContent": "- **默认值**: 需要手动设置",
+        "translatedContent": "- **Описание**: включает или отключает функцию SRI (целостность подресурсов), а также позволяет выбрать алгоритм хеширования"
+      },
+      {
+        "row": 8,
+        "rowsha": "DCl+Vo3csh9yNNZTAwZv1bnm98PQOsiqIhn4wTxLoPQ=",
+        "originContent": "- **描述**: 是否启用 SRI（子资源完整性）功能，以及可选的哈希算法配置",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Если указано значение `true` или `{}`, плагин выполнит следующие действия:"
+      },
+      {
+        "row": 10,
+        "rowsha": "ZZb2GJlHREb0+2jSP+LzYl/sWdoRJAST+bhPNGbT744=",
+        "originContent": "当设置为 `true` 或 `{}` 时，插件会：",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. Сканирует сгенерированные HTML-файлы"
+      },
+      {
+        "row": 12,
+        "rowsha": "JgK7kG7aoMI8ka96Z9aHfdSsDdAYkR0YeuidMHjM3rw=",
+        "originContent": "1. 扫描构建后的 HTML 文件",
+        "translatedContent": "2. Добавляет атрибут `integrity` ко всем тегам `<script>` с атрибутом `src`"
+      },
+      {
+        "row": 13,
+        "rowsha": "3UIkS86baTkWden+NhmAnSqjmjJptnUt66edv19Jito=",
+        "originContent": "2. 为所有带有 `src` 属性的 `<script>` 标签添加 `integrity` 属性",
+        "translatedContent": "3. Добавляет атрибут `integrity` ко всем тегам `<link>` с атрибутом `href`"
+      },
+      {
+        "row": 14,
+        "rowsha": "/GkpucG4GliyzjUL3Vt16ZsQHlPRxi2dOQWkQ6t7zvw=",
+        "originContent": "3. 为所有带有 `href` 属性的 `<link>` 标签添加 `integrity` 属性",
+        "translatedContent": "4. Автоматически добавляет атрибут `crossorigin=\"anonymous\"` (если он отсутствует)"
+      },
+      {
+        "row": 15,
+        "rowsha": "BRKqirDL6c1MrENA8XMwsjloMJUKE1yTPEZiX/NaNAs=",
+        "originContent": "4. 自动添加 `crossorigin=\"anonymous\"` 属性（如果不存在）",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Также можно явно указать алгоритм хеширования через объект:"
+      },
+      {
+        "row": 17,
+        "rowsha": "f/37+nE3PYnJcvBa+ACiE0w3/RcklUUiyztSZzLCy4Q=",
+        "originContent": "你也可以通过对象方式指定哈希算法：",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```typescript\nsecurity: {\n  sri: {\n    algorithm: 'sha512' // 可选 'sha256' | 'sha384' | 'sha512'，默认 'sha512'\n  }\n}\n```",
+    "ContentSha": "EdTGQzwOxCKLp+jES98K84XvZYRkrSI1x1YMT2bcNtI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```typescript\nsecurity: {\n  sri: {\n    algorithm: 'sha512' // 可选 'sha256' | 'sha384' | 'sha512'，默认 'sha512'\n  }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+        "originContent": "```typescript",
+        "translatedContent": "```typescript"
+      },
+      {
+        "row": 2,
+        "rowsha": "SjmpL8QPZX42bc21EBkk+xEAiqVyun/F0k7Evrx4tbM=",
+        "originContent": "security: {",
+        "translatedContent": "security: {"
+      },
+      {
+        "row": 3,
+        "rowsha": "/OK5Zkx9kuLYmN6+C8AcvPqm78NcjjgstVCMnXccKu0=",
+        "originContent": "  sri: {",
+        "translatedContent": "  sri: {"
+      },
+      {
+        "row": 4,
+        "rowsha": "6buhl5ms6cJ1/AhIcXv+GE23IhxlCpFl0ZaqD3rQMQw=",
+        "originContent": "    algorithm: 'sha512' // 可选 'sha256' | 'sha384' | 'sha512'，默认 'sha512'",
+        "translatedContent": "    algorithm: 'sha512' // 可选 'sha256' | 'sha384' | 'sha512'，默认 'sha512'"
+      },
+      {
+        "row": 5,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 6,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n## 示例\n\n### 输入 HTML\n",
+    "ContentSha": "08pj2ieEttMSoon7AiB/2oUxwwhyTBoSlKCumvBo+PA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 示例\n\n### 输入 HTML\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Mspu+F8Wki3qcL0N8ckWALeMPzsl1rqTPEgKP3Zgtko=",
+        "originContent": "## 示例",
+        "translatedContent": "## 示例"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "fjqsVljxRgNJca8K78HVdkyrojSLpj+cxU0xyyjEzSs=",
+        "originContent": "### 输入 HTML",
+        "translatedContent": "### 输入 HTML"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```html\n<!DOCTYPE html>\n<html>\n<head>\n  <link rel=\"stylesheet\" href=\"/assets/app.css\">\n</head>\n<body>\n  <script src=\"/assets/app.js\"></script>\n</body>\n</html>\n```",
+    "ContentSha": "YxjKM8D/q+WpdhEB6Mp44gq1rjKhjM7c1gTjSWlLb2o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```html\n<!DOCTYPE html>\n<html>\n<head>\n  <link rel=\"stylesheet\" href=\"/assets/app.css\">\n</head>\n<body>\n  <script src=\"/assets/app.js\"></script>\n</body>\n</html>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+        "originContent": "```html",
+        "translatedContent": "```html"
+      },
+      {
+        "row": 2,
+        "rowsha": "x35RaN/9pmuNwT8UJbTTYwpmVqPlrPcH9Dkyd7o8i14=",
+        "originContent": "<!DOCTYPE html>",
+        "translatedContent": "<!DOCTYPE html>"
+      },
+      {
+        "row": 3,
+        "rowsha": "t9CC7hLpG3Vuoi6FE7hZTuvPXTn6uBPaPLVXlNyIitc=",
+        "originContent": "<html>",
+        "translatedContent": "<html>"
+      },
+      {
+        "row": 4,
+        "rowsha": "zlGczMOM8ivYJXmRDd/csA9XJjc9rlr4cEixVzA+jyc=",
+        "originContent": "<head>",
+        "translatedContent": "<head>"
+      },
+      {
+        "row": 5,
+        "rowsha": "d+HQWM4RhmqMKwz2Dh0z21gEGCUf12QGNTTriX9Zp3s=",
+        "originContent": "  <link rel=\"stylesheet\" href=\"/assets/app.css\">",
+        "translatedContent": "  <link rel=\"stylesheet\" href=\"/assets/app.css\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "aesxEatlAAiLzA9csEP0Ur17eAG9zXsOR4wvxFT9ugo=",
+        "originContent": "</head>",
+        "translatedContent": "</head>"
+      },
+      {
+        "row": 7,
+        "rowsha": "mqv9Flz7lvxeFwhi5P2ckM+ipXBa9AFhfINvFSOY/OE=",
+        "originContent": "<body>",
+        "translatedContent": "<body>"
+      },
+      {
+        "row": 8,
+        "rowsha": "aZ89HtL+HkHb0RkjGBnBqqHBn0mjaD3obPTzYWII95o=",
+        "originContent": "  <script src=\"/assets/app.js\"></script>",
+        "translatedContent": "  <script src=\"/assets/app.js\"></script>"
+      },
+      {
+        "row": 9,
+        "rowsha": "EkIH2EvcihB8vMBCEqCR6FFX4J178gj3r7SDlJj+8IM=",
+        "originContent": "</body>",
+        "translatedContent": "</body>"
+      },
+      {
+        "row": 10,
+        "rowsha": "/f4Jk+bp6ZF1VLuVsRN69YcBRv042l8TvqG1MKwFspY=",
+        "originContent": "</html>",
+        "translatedContent": "</html>"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n### 输出 HTML（启用 SRI 后）\n",
+    "ContentSha": "xrr6/b+nT9YegVFd7XjzoeRgdKG8bQI4o6AUS17PHlM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Вывод HTML (после включения SRI)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Вывод HTML (после включения SRI)"
+      },
+      {
+        "row": 2,
+        "rowsha": "Mgc6qMD++2d9NUsijoa3IRPv8zz2J/GxhUQey8hPvKg=",
+        "originContent": "### 输出 HTML（启用 SRI 后）",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```html\n<!DOCTYPE html>\n<html>\n<head>\n  <link rel=\"stylesheet\" href=\"/assets/app.css\" integrity=\"sha512-ABC123...\" crossorigin=\"anonymous\">\n</head>\n<body>\n  <script src=\"/assets/app.js\" integrity=\"sha512-XYZ789...\" crossorigin=\"anonymous\"></script>\n</body>\n</html>\n```",
+    "ContentSha": "XwfJnOyGOkva6G7f5jwXBLHN4YD95CcMLsL/fGrUFpU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```html\n<!DOCTYPE html>\n<html>\n<head>\n  <link rel=\"stylesheet\" href=\"/assets/app.css\" integrity=\"sha512-ABC123...\" crossorigin=\"anonymous\">\n</head>\n<body>\n  <script src=\"/assets/app.js\" integrity=\"sha512-XYZ789...\" crossorigin=\"anonymous\"></script>\n</body>\n</html>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+        "originContent": "```html",
+        "translatedContent": "```html"
+      },
+      {
+        "row": 2,
+        "rowsha": "x35RaN/9pmuNwT8UJbTTYwpmVqPlrPcH9Dkyd7o8i14=",
+        "originContent": "<!DOCTYPE html>",
+        "translatedContent": "<!DOCTYPE html>"
+      },
+      {
+        "row": 3,
+        "rowsha": "t9CC7hLpG3Vuoi6FE7hZTuvPXTn6uBPaPLVXlNyIitc=",
+        "originContent": "<html>",
+        "translatedContent": "<html>"
+      },
+      {
+        "row": 4,
+        "rowsha": "zlGczMOM8ivYJXmRDd/csA9XJjc9rlr4cEixVzA+jyc=",
+        "originContent": "<head>",
+        "translatedContent": "<head>"
+      },
+      {
+        "row": 5,
+        "rowsha": "TDG9GL45B5zDaTU21BS2n8xgXFX5xcqBD99/Drn1E9A=",
+        "originContent": "  <link rel=\"stylesheet\" href=\"/assets/app.css\" integrity=\"sha512-ABC123...\" crossorigin=\"anonymous\">",
+        "translatedContent": "  <link rel=\"stylesheet\" href=\"/assets/app.css\" integrity=\"sha512-ABC123...\" crossorigin=\"anonymous\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "aesxEatlAAiLzA9csEP0Ur17eAG9zXsOR4wvxFT9ugo=",
+        "originContent": "</head>",
+        "translatedContent": "</head>"
+      },
+      {
+        "row": 7,
+        "rowsha": "mqv9Flz7lvxeFwhi5P2ckM+ipXBa9AFhfINvFSOY/OE=",
+        "originContent": "<body>",
+        "translatedContent": "<body>"
+      },
+      {
+        "row": 8,
+        "rowsha": "K1blMbRFdDt5CxNhTezme7CfXULhzyxtxwJSrODvpEI=",
+        "originContent": "  <script src=\"/assets/app.js\" integrity=\"sha512-XYZ789...\" crossorigin=\"anonymous\"></script>",
+        "translatedContent": "  <script src=\"/assets/app.js\" integrity=\"sha512-XYZ789...\" crossorigin=\"anonymous\"></script>"
+      },
+      {
+        "row": 9,
+        "rowsha": "EkIH2EvcihB8vMBCEqCR6FFX4J178gj3r7SDlJj+8IM=",
+        "originContent": "</body>",
+        "translatedContent": "</body>"
+      },
+      {
+        "row": 10,
+        "rowsha": "/f4Jk+bp6ZF1VLuVsRN69YcBRv042l8TvqG1MKwFspY=",
+        "originContent": "</html>",
+        "translatedContent": "</html>"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## 安全说明\n\nSRI（子资源完整性）是一种安全特性，允许浏览器验证获取的资源（例如从 CDN 获取的资源）没有被恶意修改。当浏览器加载资源时，会计算资源的哈希值并与 `integrity` 属性中指定的哈希值进行比较。如果哈希值不匹配，浏览器将拒绝加载该资源。\n\n对于 `<script>` 标签来说，结果为拒绝执行其中的代码；对于 CSS links 来说，结果为不加载其中的样式。\n\n关于 SRI 的更多内容，可以查看 [Subresource Integrity - MDN](https://developer.mozilla.org/zh-CN/docs/Web/Security/Subresource_Integrity)。\n\n## 注意事项\n\n1. 此插件仅在生产构建时生效，开发环境会自动跳过\n2. 需要确保资源文件在构建输出目录中可访问\n3. `integrity` 属性必须与 `crossorigin` 属性配合使用才能正常工作\n\n## 许可证\n\nMIT\n\n",
+    "ContentSha": "XbRzMZbzA/T+dT/swl0ViVo+c4DzZoUTRYvwMt05hog=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Инструкции по безопасности\n\nSRI (целостность подресурсов) — это функция безопасности, которая позволяет браузеру проверять, не были ли загруженные ресурсы (например, ресурсы, полученные с CDN) злонамеренно изменены. Когда браузер загружает ресурс, он вычисляет хэш ресурса и сравнивает его с хэшем, указанным в атрибуте `integrity`. Если хэши не совпадают, браузер откажется загружать данный ресурс.\n\nДля тега `<script>` это приводит к отказу в выполнении кода внутри; для CSS-ссылок — к отказу в загрузке соответствующих стилей.\n\nПодробнее о SRI см. на странице [Subresource Integrity - MDN](https://developer.mozilla.org/zh-CN/docs/Web/Security/Subresource_Integrity).\n\n## Важные замечания\n\n1. Этот плагин работает только при продакшн-сборке, в режиме разработки он будет автоматически пропущен\n2. Необходимо убедиться, что файлы ресурсов доступны в выходном каталоге сборки\n3. Атрибут `integrity` должен использоваться совместно с атрибутом `crossorigin`, чтобы работать корректно\n\n## Лицензия\n\nMIT\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Инструкции по безопасности"
+      },
+      {
+        "row": 2,
+        "rowsha": "hFkU+xwEkGdR15DNOYee0H91jrAlZxegW90yawvQMb0=",
+        "originContent": "## 安全说明",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "SRI (целостность подресурсов) — это функция безопасности, которая позволяет браузеру проверять, не были ли загруженные ресурсы (например, ресурсы, полученные с CDN) злонамеренно изменены. Когда браузер загружает ресурс, он вычисляет хэш ресурса и сравнивает его с хэшем, указанным в атрибуте `integrity`. Если хэши не совпадают, браузер откажется загружать данный ресурс."
+      },
+      {
+        "row": 4,
+        "rowsha": "7ltTZ+3FvFet+IdkUMdXogRpsZ7gc4eaS3ByS4DfBRo=",
+        "originContent": "SRI（子资源完整性）是一种安全特性，允许浏览器验证获取的资源（例如从 CDN 获取的资源）没有被恶意修改。当浏览器加载资源时，会计算资源的哈希值并与 `integrity` 属性中指定的哈希值进行比较。如果哈希值不匹配，浏览器将拒绝加载该资源。",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Для тега `<script>` это приводит к отказу в выполнении кода внутри; для CSS-ссылок — к отказу в загрузке соответствующих стилей."
+      },
+      {
+        "row": 6,
+        "rowsha": "hSOCkD79KbpO38JZ6NQxjWe0iDTMwdaGXoFPWi7gyBI=",
+        "originContent": "对于 `<script>` 标签来说，结果为拒绝执行其中的代码；对于 CSS links 来说，结果为不加载其中的样式。",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Подробнее о SRI см. на странице [Subresource Integrity - MDN](https://developer.mozilla.org/zh-CN/docs/Web/Security/Subresource_Integrity)."
+      },
+      {
+        "row": 8,
+        "rowsha": "befyLLkRRI07hOcKnBO1ZvGjYcB6jfziwiE0l/VI0JI=",
+        "originContent": "关于 SRI 的更多内容，可以查看 [Subresource Integrity - MDN](https://developer.mozilla.org/zh-CN/docs/Web/Security/Subresource_Integrity)。",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Важные замечания"
+      },
+      {
+        "row": 10,
+        "rowsha": "qqM9x68fli7rmqs2E7FUA7w7vxRW4wDZzEckY8TxYu8=",
+        "originContent": "## 注意事项",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. Этот плагин работает только при продакшн-сборке, в режиме разработки он будет автоматически пропущен"
+      },
+      {
+        "row": 12,
+        "rowsha": "IDD5ur7STO8JqxnodDOWdS9MNSZHHMPED8FjTIpqq7I=",
+        "originContent": "1. 此插件仅在生产构建时生效，开发环境会自动跳过",
+        "translatedContent": "2. Необходимо убедиться, что файлы ресурсов доступны в выходном каталоге сборки"
+      },
+      {
+        "row": 13,
+        "rowsha": "4vkWWdTOlV1+x6Brdx4s1VJ47XzF7bhGsL6++Razv2Y=",
+        "originContent": "2. 需要确保资源文件在构建输出目录中可访问",
+        "translatedContent": "3. Атрибут `integrity` должен использоваться совместно с атрибутом `crossorigin`, чтобы работать корректно"
+      },
+      {
+        "row": 14,
+        "rowsha": "bNA4I6PMk6esGcCYMvew0eBmhmwmBMWc7QYwO/rTviY=",
+        "originContent": "3. `integrity` 属性必须与 `crossorigin` 属性配合使用才能正常工作",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Лицензия"
+      },
+      {
+        "row": 16,
+        "rowsha": "l9mHJhM0bkQldVQ8sqfWeieeIFtAwhD/P/KiVcLUJww=",
+        "originContent": "## 许可证",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "MIT"
+      },
+      {
+        "row": 18,
+        "rowsha": "5dz/6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x+o7c=",
+        "originContent": "MIT",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -3,65 +3,66 @@
     <summary >🌐 Dil</summary>
     <div>
       <div align="right">
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=en">English</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=en">İngilizce</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-CN">简体中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-TW">繁體中文</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ja">日本語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ko">한국어</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=hi">हिन्दी</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=th">ไทย</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr">Français</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de">Deutsch</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es">Español</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">Itapano</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru">Русский</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt">Português</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl">Nederlands</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pl">Polski</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ar">العربية</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fa">فارسی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ja">Japonca</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ko">Korece</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=hi">Hintçe</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=th">Tayca</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr">Fransızca</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de">Almanca</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es">İspanyolca</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">İtalyanca</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru">Rusça</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt">Portekizce</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl">Felemenkçe</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pl">Lehçe</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ar">Arapça</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fa">Farsça</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=tr">Türkçe</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=vi">Tiếng Việt</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=id">Bahasa Indonesia</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=vi">Vietnamca</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=id">Endonezce</a></p>
       </div>
     </div>
   </details>
 </div>
 
-# SparkyFitness - MyFitnessPal'a Kendi Sunucunda Alternatif
+# SparkyFitness - MyFitnessPal için Self-Hosted Alternatif
 
-SparkyFitness, kullanıcıların beslenme, egzersiz ve vücut ölçümlerini takip etmelerine yardımcı olmak için tasarlanmış kapsamlı bir fitness takip ve yönetim uygulamasıdır. Günlük ilerleme takibi, hedef belirleme ve sağlıklı yaşam tarzını destekleyen anlamlı raporlar sunar.
+SparkyFitness, kullanıcıların beslenme, egzersiz ve vücut ölçümlerini takip etmelerine yardımcı olmak için tasarlanmış kapsamlı bir fitness izleme ve yönetim uygulamasıdır. Günlük ilerleme takibi, hedef belirleme ve sağlıklı yaşamı destekleyici bilgilendirici raporlar sunar.
 
+Dokümantasyon: https://codewithcj.github.io/SparkyFitness
 
 ## ✨ Özellikler
 
 ### 🍎 Beslenme Takibi
 
 * **Günlük öğünlerinizi kaydedin**
-* **Özel yiyecek ve kategori oluşturup yönetin**
+* **Özel yiyecekler ve kategoriler oluşturun ve yönetin**
 * **Etkileşimli grafiklerle özetleri görüntüleyin ve eğilimleri analiz edin**
 
 ### 💪 Egzersiz Kaydı
 
 * **Antrenmanlarınızı kaydedin**
-* **Kapsamlı egzersiz veritabanında gezinin ve arama yapın**
-* **Zamanla fitness ilerlemenizi izleyin**
+* **Kapsamlı egzersiz veritabanına göz atın ve arama yapın**
+* **Zaman içindeki fitness ilerlemenizi takip edin**
 
 ### 💧 Su Tüketimi Takibi
 
-* **Günlük su hedeflerinizi takip edin**
-* **Basit ve hızlı su kaydı**
+* **Günlük su tüketimi hedeflerinizi izleyin**
+* **Hızlı ve kolay su kaydı**
 
 ### 📏 Vücut Ölçümleri
 
-* **Vücut ölçülerinizi kaydedin** (ör. kilo, bel, kol)
+* **Vücut ölçümlerinizi kaydedin** (örn. kilo, bel, kollar)
 * **Özel ölçüm türleri ekleyin**
 * **Grafiklerle ilerlemenizi görselleştirin**
 
 ### 🎯 Hedef Belirleme
 
-* **Fitness ve beslenme hedefleri oluşturup yönetin**
-* **Zamanla ilerlemeyi takip edin**
+* **Fitness ve beslenme hedefleri belirleyin ve yönetin**
+* **Zaman içindeki ilerlemenizi takip edin**
 
 ### 🗓️ Günlük Kontroller
 
@@ -70,15 +71,15 @@ SparkyFitness, kullanıcıların beslenme, egzersiz ve vücut ölçümlerini tak
 
 ### 🤖 AI Beslenme Koçu (SparkyAI)
 
-* **Sohbetle yemek, egzersiz, vücut istatistikleri ve adım kaydı yapın**
-* **Yemekleri otomatik kaydetmek için yemek fotoğrafı yükleyin**
-* **Sohbet geçmişi ve kişiselleştirilmiş rehberlik içerir**
+* **Sohbet yoluyla yemek, egzersiz, vücut istatistikleri ve adım kaydı yapın**
+* **Yemeklerinizi otomatik kaydetmek için yemek fotoğrafı yükleyin**
+* **Sohbet geçmişi ve kişiselleştirilmiş rehberlik dahildir**
 
-### 🔒 Kullanıcı Kimlik Doğrulama ve Profiller
+### 🔒 Kullanıcı Kimlik Doğrulama & Profiller
 
 * **Güvenli giriş sistemi**
 * **Kullanıcı profilleri arasında geçiş yapın**
-* **Aile erişimi ve yönetimi için destek**
+* **Aile erişimi ve yönetimi desteği**
 
 ### 📊 Kapsamlı Raporlar
 
@@ -88,70 +89,84 @@ SparkyFitness, kullanıcıların beslenme, egzersiz ve vücut ölçümlerini tak
 ### 🎨 Özelleştirilebilir Temalar
 
 * **Açık ve koyu mod arasında geçiş yapın**
-* **Minimal, dikkat dağıtmayan bir arayüzle tasarlandı**
+* **Minimal ve dikkat dağıtmayan bir arayüz ile tasarlanmıştır**
 
 ### Yardıma mı ihtiyacınız var?
 * **Discord'a katılın**
   https://discord.gg/vcnMT5cPEA
-* **Tartışmada paylaşın**
+* **Tartışma bölümünde paylaşın**
+
 
 
 ![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
 
-## 🚀 Başlarken
+## 🚀 Hızlı Başlangıç
 
-SparkyFitness uygulamasını kendi bilgisayarınızda çalıştırmak için şu adımları izleyin:
+SparkyFitness'i dakikalar içinde çalıştırın:
 
-### Gereksinimler
+```bash
+# Clone the repository
+git clone https://github.com/CodeWithCJ/SparkyFitness.git
+cd SparkyFitness
 
-### Kurulum
+# Copy environment template and edit as needed
+cp docker/.env.example .env
 
-1.  **Ortam Değişkenlerini Yapılandırın:**
+# Start development environment (with live reloading)
+./docker/docker-helper.sh dev up
 
-    Kök dizinde bir `.env` dosyası oluşturun. Örnek `.env` dosyasından şablonu kopyalayın ve kendi ayarlarınızla güncelleyin. Kullandığım mevcut yapılandırma için WIKI'ye bakın. Portları değiştirmemeye çalışın, çünkü proje kararlı hale gelene kadar ilk sürümlerde düzgün çalışmayabilirler.
+# Access application at http://localhost:8080
+```
+## 📖 Dokümantasyon
 
-    *   **Admin Panel URL'si:** Admin panelini etkinleştirmek ve OIDC ayarlarını yapılandırmak için, `SPARKY_FITNESS_ADMIN_EMAIL` ortam değişkeninin Admin paneliniz için uygun URL'ye ayarlandığından emin olun.
-    
+Tam kurulum rehberleri, geliştirme kurulumu ve kullanım talimatları için kapsamlı dokümantasyonumuzu ziyaret edin:
 
-2.  **Docker Compose ile Çalıştırın:**
-    Docker imajlarını çekin ve servisleri başlatın. Eğer `.env` dosyasında değişiklik yaptıysanız, yeni ortam değişkenlerinin alınmasını sağlamak için imajları yeniden oluşturmalısınız.
+**👉 [SparkyFitness Dokümantasyon Sitesi](https://codewithcj.github.io/SparkyFitness)**
 
+### Hızlı Bağlantılar
 
-    ```sh
-    docker-compose pull # Pull the latest Docker images
-    docker-compose up -d # Start the services in detached mode
-    ```
-    Referans kurulum örneğini inceleyin
-    https://github.com/CodeWithCJ/SparkyFitness/wiki/Sample-Setup
+- **[🚀 Başlarken](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Geliştirme ve üretim için eksiksiz kurulum rehberi
+- **[🐳 Docker Rehberi](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Docker ile dağıtım ve yapılandırma
+- **[🔧 Geliştirme İş Akışı](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - Geliştirici rehberi ve katkı süreci  
+- **[📊 Özellikler Genel Bakış](https://codewithcj.github.io/SparkyFitness/features/)** - Tüm özelliklerin dokümantasyonu
+- **[🏗️ Mimari](https://codewithcj.github.io/SparkyFitness/app-overview)** - Teknik mimari ve tasarım
 
-3.  **Uygulamaya Erişim:**
-    Servisler başlatıldıktan sonra, SparkyFitness’a web tarayıcınızdan ön uç için yapılandırılmış URL üzerinden erişin (ör. `http://localhost:3004` veya `http://your_frontend_ip_or_domain:3004`).
+## 🐳 Docker Dağıtımı
 
-4.  **AI Sohbet Botu - İsteğe Bağlı Yapılandırma:**
-    AI Sohbet Botu’nun tam işlevselliğini etkinleştirmek için, giriş yaptıktan sonra uygulamanın ayarlarından gerekli API anahtarlarını yapılandırmanız gerekecektir.
-  
-5.  **İlk Uygulama Kurulumu:**
-    Uygulamaya giriş yaptıktan sonra, ayarlar menüsüne giderek:
-    *   Tercih ettiğiniz yemek sağlayıcılarını ekleyin (örneğin, OpenFoodFacts ücretsiz bir seçenektir).
-    *   Tercihlerinizi ve profil ayarlarınızı düzenleyin.
+**Üretim (önerilir):**
+
+```bash
+cp docker/.env.example .env  # Edit as needed
+./docker/docker-helper.sh prod up
+# Access at http://localhost:3004
+```
+**Geliştirme:**
+
+```bash
+cp docker/.env.example .env  # Edit as needed  
+./docker/docker-helper.sh dev up
+# Access at http://localhost:8080 (live reloading)
+```
+Ayrıntılı kurulum talimatları, ortam yapılandırması ve sorun giderme için [tam dokümantasyona](https://codewithcj.github.io/SparkyFitness/developer/getting-started) bakın.
 
 ### ⚠️ Bilinen Sorunlar / Beta Özellikler ⚠️
 
-Aşağıdaki özellikler şu anda beta aşamasındadır ve tam olarak test edilmemiş olabilir. Potansiyel hatalar veya eksik işlevlerle karşılaşabilirsiniz:
+Aşağıdaki özellikler şu anda beta aşamasındadır ve kapsamlı şekilde test edilmemiş olabilir. Potansiyel hatalar veya eksik işlevsellik bekleyin:
 
 *   AI Sohbet Botu
 *   Çoklu kullanıcı desteği
 *   Aile & Arkadaşlar erişimi
-*   Apple Health Verisi entegrasyonu
+*   Apple Health Data entegrasyonu
 
-Bu uygulama yoğun geliştirme aşamasındadır. Supabase’den PostgreSQL’e geçiş nedeniyle bazı şeyler beklediğiniz gibi çalışmayabilir. Uygulama kararlı hale gelene kadar KIRICI DEĞİŞİKLİKLER yapılabilir.
-Yeni sürümler için Docker/çevre değişkenlerini değiştirmeniz gerekebilir. Bu nedenle, Watchtower veya benzeri uygulamalarla otomatik güncellemeler önerilmez. Herhangi bir KIRICI DEĞİŞİKLİK için sürüm notlarını okuyun.
+Bu uygulama yoğun bir şekilde geliştirilmektedir. Supabase'den PostgreSQL'e geçiş nedeniyle beklenmeyen durumlar oluşabilir. Uygulama kararlı hale gelene kadar KIRICI DEĞİŞİKLİKLER yapılabilir.
+Yeni sürümler için Docker/ortam değişkenlerini değiştirmeniz gerekebilir. Bu nedenle, Watchtower veya benzeri uygulamalarla otomatik yükseltmeler önerilmez. Herhangi bir KIRICI DEĞİŞİKLİK için sürüm notlarını okuyun.
+
 
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

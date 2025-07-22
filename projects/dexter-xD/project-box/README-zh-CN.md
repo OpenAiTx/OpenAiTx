@@ -13,7 +13,7 @@
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fr">Français</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=de">Deutsch</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Italiano</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ru">Русский</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pt">Português</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=nl">Nederlands</a>
@@ -28,17 +28,17 @@
   </details>
 </div>
 
-# C语言编程项目集
+# C语言项目集锦
 
-[![请我喝咖啡](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)
+[![请我喝杯咖啡](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)
 
-本项目集包含了为初学者设计的C语言编程项目，用于学习和练习各种编程概念，从基础算法到网络编程。每个项目都是独立的，并配有详细文档和构建系统。
+本项目集包含了为初学者设计的C语言项目，旨在帮助学习和实践各种编程概念，从基础算法到网络编程。每个项目均为独立模块，并配有相应的文档和构建系统。
 
 ## 项目概览
 
 ### 1. [SHA-512 实现](SHA-512/)
 一个加密哈希函数实现，展示了：
-- 位运算
+- 位操作
 - 复杂算法
 - 内存管理
 - 文件I/O操作
@@ -50,52 +50,52 @@
 - 文件服务
 - 网络通信
 
-### 3. [UDP服务端-客户端](udp-server-client/)
-一个简单的基于UDP的通信系统，教学内容包括：
+### 3. [UDP服务器-客户端](udp-server-client/)
+一个简单的基于UDP的通信系统，内容包括：
 - UDP套接字编程
 - 客户端-服务器架构
 - 网络协议
 - 消息交换
 
 ### 4. [端口扫描器](port-scanner/)
-一个网络诊断工具，展示了：
+一个网络诊断工具，演示：
 - TCP套接字编程
 - 网络扫描技术
 - 错误处理
 - 命令行参数解析
 
-### 5. [Ping 实现](ping/)
-自定义ping工具，涵盖：
+### 5. [Ping实现](ping/)
+自定义Ping工具，涵盖：
 - ICMP协议
 - 原始套接字编程
 - 网络诊断
 - 时间测量
 
 ### 6. [井字棋](tic-tac-toe/)
-一个经典游戏实现，教学内容包括：
-- 多人游戏服务器 
--套接字编程
+一个经典游戏实现，教学：
+- 多人游戏服务器
+- 套接字编程
 - 游戏逻辑
 - 用户输入处理
 
 ### 7. [聊天系统](chat-system/)
-一个实时聊天应用，展示了：
+一个实时聊天应用，演示：
 - TCP套接字编程
 - 多线程
 - 实时通信
 - 客户端-服务器架构
 
 ### 8. [词法分析器](lexical-analyser/)
-一个简单的编译器前端组件，展示了：
+一个简单的编译器前端组件，演示：
 - 源代码分词
 - 解析技术
 - 编译器设计原理
 - 字符串处理
 
 ### 9. [算术编译器](arithmetic-compiler/)
-一个简单的编译器，输入算术表达式并生成类似汇编的代码：
+一个简单的编译器，输入算术表达式并生成类汇编代码：
 - 词法分析（分词）
-- 表达式解析与计算
+- 表达式解析与求值
 - 汇编代码生成
 
 - 编译器构建基础
@@ -167,6 +167,6 @@
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

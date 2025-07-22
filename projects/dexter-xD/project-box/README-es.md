@@ -13,7 +13,7 @@
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fr">Français</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=de">Deutsch</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Italiano</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ru">Русский</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pt">Português</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=nl">Nederlands</a>
@@ -28,15 +28,15 @@
   </details>
 </div>
 
-# Colección de Proyectos de Programación en C
+# Colección de Proyectos en C
 
-[![Cómprame un café](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)
+[![Cómprame un Café](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)
 
-Una colección de proyectos de programación en C diseñados para que los principiantes aprendan y practiquen varios conceptos de programación, desde algoritmos básicos hasta programación de redes. Cada proyecto es autónomo e incluye su propia documentación y sistema de construcción.
+Una colección de proyectos de programación en C diseñados para principiantes que desean aprender y practicar varios conceptos de programación, desde algoritmos básicos hasta programación de redes. Cada proyecto es autónomo e incluye su propia documentación y sistema de construcción.
 
 ## Resumen de Proyectos
 
-### 1. [Implementación SHA-512](SHA-512/)
+### 1. [Implementación de SHA-512](SHA-512/)
 Una implementación de función hash criptográfica que demuestra:
 - Manipulación de bits
 - Algoritmos complejos
@@ -46,8 +46,8 @@ Una implementación de función hash criptográfica que demuestra:
 ### 2. [Servidor HTTP](http-server/)
 Una implementación básica de un servidor HTTP que cubre:
 - Programación de sockets
-- Conceptos básicos del protocolo HTTP
-- Servicio de archivos
+- Fundamentos del protocolo HTTP
+- Servir archivos
 - Comunicación en red
 
 ### 3. [Servidor-Cliente UDP](udp-server-client/)
@@ -67,7 +67,7 @@ Una herramienta de diagnóstico de red que demuestra:
 ### 5. [Implementación de Ping](ping/)
 Una utilidad ping personalizada que cubre:
 - Protocolo ICMP
-- Programación de sockets raw
+- Programación de sockets sin procesar (raw)
 - Diagnóstico de red
 - Medición de tiempo
 
@@ -75,7 +75,7 @@ Una utilidad ping personalizada que cubre:
 Una implementación del clásico juego que enseña:
 - Servidor de juego multijugador 
 -Programación de sockets
-- Lógica de juego
+- Lógica del juego
 - Manejo de entrada del usuario
 
 ### 7. [Sistema de Chat](chat-system/)
@@ -93,7 +93,7 @@ Un componente simple de front-end de compilador que demuestra:
 - Manipulación de cadenas
 
 ### 9. [Compilador Aritmético](arithmetic-compiler/)
-Un compilador sencillo que toma expresiones aritméticas como entrada y genera código similar al ensamblador:
+Un compilador simple que toma expresiones aritméticas como entrada y genera código similar a ensamblador:
 - Análisis léxico (tokenización)
 - Análisis y evaluación de expresiones
 - Generación de código ensamblador
@@ -167,6 +167,6 @@ Algunos proyectos relacionados con redes (Escáner de Puertos, Ping) requieren p
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

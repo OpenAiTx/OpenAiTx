@@ -113,28 +113,34 @@ source zipvoice/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-### 4. （オプション）トレーニングや効率的な推論のために k2 をインストールする
+### 4. 学習または効率的な推論のためにk2をインストールする
 
-k2 はトレーニングに必要であり、推論を高速化できます。それでも、k2 をインストールせずに ZipVoice の推論モードを使用することは可能です。
+**k2は学習に必要**であり、推論も高速化できます。ただし、k2をインストールしなくてもZipVoiceの推論モードは利用可能です。
 
-> **注意：** PyTorch と CUDA のバージョンに合った k2 のバージョンを必ずインストールしてください。例えば、pytorch 2.5.1 と CUDA 12.1 を使用している場合、次のように k2 をインストールできます：
+> **注意:** PyTorchとCUDAのバージョンに合ったk2を必ずインストールしてください。例えば、pytorch 2.5.1とCUDA 12.1を使用している場合、以下のようにk2をインストールできます。
 
 
 ```bash
 pip install k2==1.24.4.dev20250208+cuda12.1.torch2.5.1 -f https://k2-fsa.github.io/k2/cuda.html
 ```
-<translate-content>
-詳細については https://k2-fsa.org/get-started/k2/ を参照してください。  
-中国本土のユーザーは https://k2-fsa.org/zh-CN/get-started/k2/ を参照できます。  
+詳細については、https://k2-fsa.org/get-started/k2/ を参照してください。
+中国本土のユーザーは https://k2-fsa.org/zh-CN/get-started/k2/ を参照してください。
 
-## 使い方  
+- k2 のインストールを確認するには:
 
-### 1. 単一話者の音声生成  
 
-事前学習済みのZipVoiceまたはZipVoice-Distillモデルを使用して単一話者の音声を生成するには、以下のコマンドを使用してください（必要なモデルはHuggingFaceからダウンロードされます）：  
+```
+python3 -c "import k2; print(k2.__file__)"
+```
+## 使用方法
 
-#### 1.1 単一文の推論  
-</translate-content>
+### 1. 単一話者音声生成
+
+事前学習済みのZipVoiceまたはZipVoice-Distillモデルを使用して単一話者の音声を生成するには、以下のコマンドを使用します（必要なモデルはHuggingFaceからダウンロードされます）:
+
+#### 1.1 単一文の推論
+
+
 ```bash
 python3 -m zipvoice.bin.infer_zipvoice \
     --model-name zipvoice \
@@ -161,13 +167,13 @@ python3 -m zipvoice.bin.infer_zipvoice \
     --test-list test.tsv \
     --res-dir results
 ```
-- `test.tsv` の各行は `{wav_name}\t{prompt_transcription}\t{prompt_wav}\t{text}` の形式です。
+- `test.tsv` の各行は `{wav_name}\t{prompt_transcription}\t{prompt_wav}\t{text}` の形式になっています。
 
-### 2. 会話音声生成
+### 2. 対話音声生成
 
 #### 2.1 推論コマンド
 
-事前学習済みの ZipVoice-Dialogue または ZipVoice-Dialogue-Stereo モデルを使用して二者間の会話音声を生成するには、以下のコマンドを使用してください（必要なモデルは HuggingFace からダウンロードされます）：
+事前学習済みの ZipVoice-Dialogue または ZipVoice-Dialogue-Stereo モデルを使用して二者間の対話音声を生成するには、以下のコマンドを使用します（必要なモデルは HuggingFace からダウンロードされます）：
 
 
 ```bash
@@ -200,39 +206,39 @@ python3 -m zipvoice.bin.infer_zipvoice_dialog \
 {wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}'
 ```
 - `wav_name` は出力されるwavファイルの名前です。
-- `spk1_prompt_transcription` は第一話者のプロンプトwavの文字起こし、例："Hello"
-- `spk2_prompt_transcription` は第二話者のプロンプトwavの文字起こし、例："How are you?"
-- `spk1_prompt_wav` は第一話者のプロンプトwavファイルのパスです。
-- `spk2_prompt_wav` は第二話者のプロンプトwavファイルのパスです。
-- `text` は合成するテキスト、例："[S1] I'm fine. [S2] What's your name?"
+- `spk1_prompt_transcription` は最初の話者のプロンプトwavの書き起こしです。例:「Hello」
+- `spk2_prompt_transcription` は2番目の話者のプロンプトwavの書き起こしです。例:「How are you?」
+- `spk1_prompt_wav` は最初の話者のプロンプトwavファイルのパスです。
+- `spk2_prompt_wav` は2番目の話者のプロンプトwavファイルのパスです。
+- `text` は合成するテキストです。例:「[S1] I'm fine. [S2] What's your name?」
 
 ### 3. その他の機能
 
-#### 3.1 中国語の多音字の発音訂正
+#### 3.1 中国語多音字の誤発音修正
 
-中国語の漢字をピンインに変換するために[pypinyin](https://github.com/mozillazg/python-pinyin)を使用しています。しかし、多音字を誤って発音することがあります。
+中国語の文字をピンインに変換するために [pypinyin](https://github.com/mozillazg/python-pinyin) を使用しています。ただし、**多音字**（多音節文字）を誤って発音する場合があります。
 
-これらの誤った発音を手動で訂正するには、**正しいピンイン**を山括弧 `< >` で囲み、**声調記号**を含めてください。
+これらの誤発音を手動で修正するには、**修正したピンイン**を山括弧 `< >` で囲み、**声調記号**も含めます。
 
-**例：**
+**例:**
 
-- 元のテキスト：`这把剑长三十公分`
-- `长` のピンインを訂正：`这把剑<chang2>三十公分`
+- 元のテキスト: `这把剑长三十公分`
+- `长` のピンインを修正:  `这把剑<chang2>三十公分`
 
-> **注意：** 複数のピンインを手動で指定したい場合は、それぞれのピンインを `<>` で囲んでください。例：`这把<jian4><chang2><san1>十公分`
+> **注意:** 複数のピンインを手動で割り当てたい場合は、それぞれのピンインを `<>` で囲みます。例: `这把<jian4><chang2><san1>十公分`
 
-## 独自モデルのトレーニング
+## 独自モデルの学習
 
-トレーニングおよびファインチューニングの例については [egs](egs) ディレクトリを参照してください。
+トレーニング、ファインチューニング、および評価の例については [egs](egs) ディレクトリを参照してください。
 
 ## 議論とコミュニケーション
 
 [Github Issues](https://github.com/k2-fsa/ZipVoice/issues) で直接議論できます。
 
-また、QRコードをスキャンしてWeChatグループに参加するか、WeChat公式アカウントをフォローしてください。
+また、QRコードをスキャンしてWeChatグループに参加したり、WeChat公式アカウントをフォローしたりできます。
 
 | Wechatグループ | Wechat公式アカウント |
-| -------------- | --------------------- |
+| ------------ | ----------------------- |
 |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |
 
 ## 引用
@@ -257,6 +263,6 @@ python3 -m zipvoice.bin.infer_zipvoice_dialog \
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

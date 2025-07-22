@@ -34,7 +34,7 @@
   </a>
 </h1>
 
-<p align="center">İngilizce | <a href="./docs/README.zh.md">中文</a> | <a href="https://cherry-ai.com">Resmi Site</a> | <a href="https://docs.cherry-ai.com/cherry-studio-wen-dang/en-us">Dokümantasyon</a> | <a href="./docs/dev.md">Geliştirme</a> | <a href="https://github.com/CherryHQ/cherry-studio/issues">Geri Bildirim</a><br></p>
+<p align="center">İngilizce | <a href="./docs/README.zh.md">中文</a> | <a href="https://cherry-ai.com">Resmi Site</a> | <a href="https://docs.cherry-ai.com/cherry-studio-wen-dang/en-us">Dokümanlar</a> | <a href="./docs/dev.md">Geliştirme</a> | <a href="https://github.com/CherryHQ/cherry-studio/issues">Geri Bildirim</a><br></p>
 
 <div align="center">
   
@@ -63,11 +63,11 @@
 
 # 🍒 Cherry Studio
 
-Cherry Studio, birden fazla LLM sağlayıcısını destekleyen, Windows, Mac ve Linux'ta kullanılabilen bir masaüstü istemcisidir.
+Cherry Studio, birden fazla LLM sağlayıcısını destekleyen ve Windows, Mac ve Linux'ta kullanılabilen bir masaüstü istemcisidir.
 
-👏 [Telegram Grubu](https://t.me/CherryStudioAI)｜[Discord](https://discord.gg/wez8HtpxqQ) | [QQ Grubu(575014769)](https://qm.qq.com/q/lo0D4qVZKi) topluluğuna katılın
+👏 [Telegram Grubuna Katılın](https://t.me/CherryStudioAI)｜[Discord](https://discord.gg/wez8HtpxqQ) | [QQ Grubu(575014769)](https://qm.qq.com/q/lo0D4qVZKi)
 
-❤️ Cherry Studio'yu beğendiniz mi? Gelişimi desteklemek için bir yıldız 🌟 verin veya [Sponsor olun](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/sponsor.md)!
+❤️ Cherry Studio'yu beğendiniz mi? Gelişimi desteklemek için bir yıldız 🌟 verin ya da [Sponsor olun](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/sponsor.md)!
 
 # 🌠 Ekran Görüntüsü
 
@@ -87,58 +87,58 @@ Cherry Studio, birden fazla LLM sağlayıcısını destekleyen, Windows, Mac ve 
 
 2. **AI Asistanları & Sohbetler**:
 
-- 📚 300+ Önceden yapılandırılmış AI Asistanı
+- 📚 300+ Önceden Yapılandırılmış AI Asistanı
 - 🤖 Özel Asistan Oluşturma
-- 💬 Çoklu model ile eşzamanlı sohbetler
+- 💬 Çoklu Model ile Eşzamanlı Sohbetler
 
 3. **Belge & Veri İşleme**:
 
-- 📄 Metin, Görsel, Ofis, PDF ve daha fazlası için destek
+- 📄 Metin, Görüntü, Office, PDF ve daha fazlasını destekler
 - ☁️ WebDAV Dosya Yönetimi ve Yedekleme
 - 📊 Mermaid Grafik Görselleştirme
-- 💻 Kod Söz Dizimi Vurgulama
+- 💻 Kod Sözdizimi Vurgulama
 
-4. **Pratik Araçlar Entegrasyonu**:
+4. **Pratik Araç Entegrasyonu**:
 
 - 🔍 Global Arama Fonksiyonu
 - 📝 Konu Yönetim Sistemi
 - 🔤 Yapay Zeka Destekli Çeviri
-- 🎯 Sürükle-bırak Sıralama
+- 🎯 Sürükle ve Bırak ile Sıralama
 - 🔌 Mini Program Desteği
-- ⚙️ MCP(Model Context Protocol) Sunucusu
+- ⚙️ MCP(Model Bağlam Protokolü) Sunucusu
 
 5. **Gelişmiş Kullanıcı Deneyimi**:
 
-- 🖥️ Windows, Mac ve Linux için Çapraz Platform Desteği
-- 📦 Hazır Kullanım, Ortam Kurulumu Gerekmez
+- 🖥️ Windows, Mac ve Linux için Platformlar Arası Destek
+- 📦 Kullanıma Hazır - Ortam Kurulumu Gerekmez
 - 🎨 Açık/Koyu Temalar ve Şeffaf Pencere
-- 📝 Tam Markdown İşleme
+- 📝 Tam Markdown Görüntüleme
 - 🤲 Kolay İçerik Paylaşımı
 
 # 📝 Yol Haritası
 
 Aşağıdaki özellikler ve iyileştirmeler üzerinde aktif olarak çalışıyoruz:
 
-1. 🎯 **Çekirdek Özellikler**
+1. 🎯 **Temel Özellikler**
 
-- Seçim Asistanı - Akıllı içerik seçimi geliştirmesi
-- Derin Araştırma - Gelişmiş araştırma yetenekleri
-- Hafıza Sistemi - Global bağlam farkındalığı
-- Doküman Ön İşleme - Gelişmiş doküman yönetimi
-- MCP Pazaryeri - Model Context Protocol ekosistemi
+- Akıllı içerik seçimi geliştirmesine sahip Seçim Asistanı
+- Gelişmiş araştırma yetenekleriyle Derin Araştırma
+- Global bağlam farkındalığı ile Hafıza Sistemi
+- Geliştirilmiş belge işleme ile Belge Ön İşleme
+- Model Bağlam Protokolü ekosistemi için MCP Pazaryeri
 
 2. 🗂 **Bilgi Yönetimi**
 
 - Notlar ve Koleksiyonlar
 - Dinamik Tuval görselleştirme
 - OCR yetenekleri
-- TTS (Metinden Konuşmaya) desteği
+- TTS (Metinden Sese) desteği
 
 3. 📱 **Platform Desteği**
 
 - HarmonyOS Sürümü (PC)
-- Android Uygulaması (1. Aşama)
-- iOS Uygulaması (1. Aşama)
+- Android Uygulaması (Aşama 1)
+- iOS Uygulaması (Aşama 1)
 - Çoklu Pencere desteği
 - Pencere Sabitleme fonksiyonu
 
@@ -146,123 +146,123 @@ Aşağıdaki özellikler ve iyileştirmeler üzerinde aktif olarak çalışıyor
 
 - Eklenti Sistemi
 - ASR (Otomatik Konuşma Tanıma)
-- Asistan ve Konu Etkileşimi Yeniden Yapılandırma
+- Asistan ve Konu Etkileşimi Yeniden Düzenlemesi
 
-İlerlememizi takip edin ve [proje panomuzda](https://github.com/orgs/CherryHQ/projects/7) katkıda bulunun.
+Gelişimimizi takip edin ve [proje panomuzda](https://github.com/orgs/CherryHQ/projects/7) katkıda bulunun.
 
-Yol haritamızı şekillendirmek ister misiniz? Fikirlerinizi ve geri bildirimlerinizi paylaşmak için [GitHub Tartışmaları](https://github.com/CherryHQ/cherry-studio/discussions) bölümüne katılın!
+Yol haritamızı etkilemek ister misiniz? Fikirlerinizi ve geri bildirimlerinizi paylaşmak için [GitHub Tartışmalarımıza](https://github.com/CherryHQ/cherry-studio/discussions) katılın!
 
 # 🌈 Tema
 
 - Tema Galerisi: <https://cherrycss.com>
-- Aero Tema: <https://github.com/hakadao/CherryStudio-Aero>
-- PaperMaterial Tema: <https://github.com/rainoffallingstar/CherryStudio-PaperMaterial>
+- Aero Teması: <https://github.com/hakadao/CherryStudio-Aero>
+- PaperMaterial Teması: <https://github.com/rainoffallingstar/CherryStudio-PaperMaterial>
 - Claude dinamik-stil: <https://github.com/bjl101501/CherryStudio-Claudestyle-dynamic>
-- Maple Neon Tema: <https://github.com/BoningtonChen/CherryStudio_themes>
+- Maple Neon Teması: <https://github.com/BoningtonChen/CherryStudio_themes>
 
-Daha fazla tema için PR'larınızı bekliyoruz
+Daha fazla tema için PR bekliyoruz
 
 # 🤝 Katkıda Bulunma
 
-Cherry Studio'ya katkıda bulunmaktan memnuniyet duyarız! Katkıda bulunabileceğiniz yollar şunlardır:
+Cherry Studio'ya katkıda bulunmaktan memnuniyet duyarız! İşte katkıda bulunabileceğiniz bazı yollar:
 
 1. **Kod Katkısı**: Yeni özellikler geliştirin veya mevcut kodu optimize edin.
-2. **Hata Düzeltme**: Bulduğunuz hataları bildirin ve düzeltin.
-3. **Sorunları Yönetin**: GitHub sorunlarını yönetmeye yardımcı olun.
+2. **Hata Düzeltme**: Bulduğunuz hataları düzeltin.
+3. **Sorunları Yönetin**: GitHub sorunlarının yönetimine yardımcı olun.
 4. **Ürün Tasarımı**: Tasarım tartışmalarına katılın.
-5. **Dokümantasyon Yazımı**: Kullanıcı kılavuzlarını ve rehberlerini geliştirin.
+5. **Dokümantasyon Yazma**: Kullanıcı kılavuzlarını ve rehberleri geliştirin.
 6. **Topluluk Katılımı**: Tartışmalara katılın ve kullanıcılara yardımcı olun.
-7. **Kullanımı Tanıtın**: Cherry Studio'yu yaygınlaştırın.
+7. **Kullanımı Teşvik Et**: Cherry Studio'yu tanıtın.
 
-Katkı kuralları için [Dallanma Stratejisi](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/branching-strategy-en.md) belgesine bakınız
+Katkı kuralları için [Dallanma Stratejisi](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/branching-strategy-en.md) belgesine bakın
 
 ## Başlarken
 
-1. **Depoyu Çatallayın**: Çatallayın ve yerel makinenize klonlayın.
-2. **Dal Oluşturun**: Değişiklikleriniz için.
-3. **Değişiklikleri Gönderin**: Değişikliklerinizi commit ve push edin.
-4. **Çekme İsteği Açın**: Yaptığınız değişiklikleri ve nedenlerini açıklayın.
+1. **Depoyu Çatalla**: Forklayın ve kendi bilgisayarınıza klonlayın.
+2. **Bir Dal Oluşturun**: Değişiklikleriniz için.
+3. **Değişiklikleri Gönderin**: Değişikliklerinizi commitleyin ve push edin.
+4. **Pull Request Açın**: Değişikliklerinizi ve nedenlerini açıklayın.
 
-Daha ayrıntılı yönergeler için [Katkıda Bulunma Rehberi](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/CONTRIBUTING.md)'mize bakınız.
+Daha ayrıntılı yönergeler için [Katkı Rehberimize](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/CONTRIBUTING.md) bakın.
 
-Desteğiniz ve katkılarınız için teşekkür ederiz!
+Desteğiniz ve katkılarınız için teşekkürler!
 
 # 🔧 Geliştirici Ortak Yaratım Programı
 
-Cherry Studio Geliştirici Ortak Yaratım Programı'nı başlatarak açık kaynak ekosisteminde sağlıklı ve olumlu bir geri bildirim döngüsü oluşturmayı hedefliyoruz. Büyük yazılımların işbirliğiyle geliştirildiğine ve her birleştirilen çekme isteğinin projeye yeni bir hayat kattığına inanıyoruz.
+Cherry Studio Geliştirici Ortak Yaratım Programı'nı başlatarak açık kaynak ekosistemi içinde sağlıklı ve pozitif bir geri besleme döngüsü oluşturmak istiyoruz. Büyük yazılımların işbirliğiyle inşa edildiğine ve her birleşen pull request’in projeye yeni bir hayat kattığına inanıyoruz.
 
-Sizi katkıda bulunanlar arasına katılmaya ve Cherry Studio'nun geleceğini birlikte şekillendirmeye içtenlikle davet ediyoruz.
+Katkıcılarımız arasına katılmanız ve Cherry Studio'nun geleceğini bizimle şekillendirmeniz için sizi samimiyetle davet ediyoruz.
 
-## Katkı Ödülleri Programı
+## Katkıcı Ödülleri Programı
 
-Çekirdek katkıcılarımıza teşekkür etmek ve erdemli bir döngü yaratmak için aşağıdaki uzun vadeli teşvik planını oluşturduk.
+Çekirdek katkıcılarımıza geri dönüş sağlamak ve erdemli bir döngü yaratmak için aşağıdaki uzun vadeli teşvik planını oluşturduk.
 
-**Bu programın ilk takip dönemi 2025 3. Çeyrek (Temmuz, Ağustos, Eylül) olacaktır. Bu dönemin ödülleri 1 Ekim'de dağıtılacaktır.**
-Herhangi bir takip döneminde (ör. ilk döngü için 1 Temmuz - 30 Eylül arası), Cherry Studio'nun GitHub'daki açık kaynak projelerine **30'dan fazla anlamlı commit** katkısı sağlayan her geliştirici aşağıdaki avantajlara hak kazanır:
+**Bu programın ilk izleme dönemi 2025 3. Çeyrek (Temmuz, Ağustos, Eylül) olacaktır. Bu döngüdeki ödüller 1 Ekim'de dağıtılacaktır.**
+Herhangi bir takip dönemi içinde (ör. ilk döngü için 1 Temmuz - 30 Eylül arası), Cherry Studio'nun GitHub'daki açık kaynak projelerine **30'dan fazla anlamlı commit** katkısı yapan herhangi bir geliştirici aşağıdaki avantajlardan yararlanabilir:
 
-- **Cursor Abonelik Sponsorluğu**: [Cursor](https://cursor.sh/) aboneliğiniz için **70 USD** kredi veya geri ödeme alın, böylece yapay zeka en verimli kodlama ortağınız olur.
-- **Sınırsız Model Erişimi**: **DeepSeek** ve **Qwen** modelleri için **sınırsız** API çağrısı hakkı elde edin.
-- **En Yeni Teknolojiye Erişim**: **Claude**, **Gemini** ve **OpenAI** gibi modellere API erişimi gibi dönemsel ayrıcalıkların keyfini çıkarın, teknolojinin en önünde olun.
+- **Cursor Abonelik Sponsorluğu**: [Cursor](https://cursor.sh/) aboneliğiniz için **70 USD** kredi veya geri ödeme alın, yapay zekayı en verimli kodlama ortağınız haline getirin.
+- **Sınırsız Model Erişimi**: **DeepSeek** ve **Qwen** modelleri için **sınırsız** API çağrısı hakkı kazanın.
+- **En Yeni Teknolojiye Erişim**: **Claude**, **Gemini** ve **OpenAI** gibi modellere API erişimi dahil olmak üzere dönemsel ayrıcalıklar elde edin, teknoloji dünyasının önünde olun.
 
 ## Birlikte Büyümek & Gelecek Planları
 
-Canlı bir topluluk, sürdürülebilir herhangi bir açık kaynak projesinin itici gücüdür. Cherry Studio büyüdükçe, ödül programımız da büyüyecek. Avantajlarımızı sektördeki en iyi araçlar ve kaynaklarla sürekli olarak uyumlu hale getirmeye kararlıyız. Bu sayede, ana katkıcılarımıza anlamlı bir destek sunuyor, geliştiricilerin, topluluğun ve projenin birlikte büyüdüğü olumlu bir döngü yaratıyoruz.
+Canlı bir topluluk, sürdürülebilir bir açık kaynak projesinin itici gücüdür. Cherry Studio büyüdükçe, ödül programımız da gelişecek. Faydalarımızı sektörün en iyi araç ve kaynaklarıyla sürekli olarak uyumlu tutmaya kararlıyız. Bu sayede ana katkıcılarımıza anlamlı destek sunup, geliştiriciler, topluluk ve projenin birlikte büyüdüğü olumlu bir döngü yaratıyoruz.
 
-**İlerleyen dönemde, proje tüm açık kaynak topluluğuna katkı sağlayacak şekilde daha açık bir duruş benimseyecektir.**
+**İlerleyen dönemde proje, tüm açık kaynak topluluğuna katkı sağlamak için daha da açık bir yaklaşımı benimseyecek.**
 
 ## Nasıl Başlanır?
 
-İlk Pull Request'inizi dört gözle bekliyoruz!
+İlk Pull Request'inizi sabırsızlıkla bekliyoruz!
 
-Depolarımızı keşfederek, bir `good first issue` seçerek veya kendi geliştirmelerinizi önererek başlayabilirsiniz. Her commit, açık kaynak ruhunun bir kanıtıdır.
+Depolarımızı inceleyerek, bir `good first issue` seçerek veya kendi geliştirmelerinizi önererek başlayabilirsiniz. Her commit, açık kaynak ruhunun bir kanıtıdır.
 
 İlginiz ve katkılarınız için teşekkür ederiz.
 
-Birlikte inşa edelim.
+Haydi birlikte inşa edelim.
 
 # 🏢 Kurumsal Sürüm
 
-Topluluk Sürümü'nün üzerine inşa edilen **Cherry Studio Kurumsal Sürüm**'ü tanıtmaktan gurur duyuyoruz—modern ekipler ve işletmeler için özel olarak kurulabilen bir yapay zeka verimlilik ve yönetim platformu.
+Topluluk Sürümü'nün üzerine inşa ederek, modern ekipler ve işletmeler için özel olarak dağıtılabilen bir yapay zeka verimlilik ve yönetim platformu olan **Cherry Studio Kurumsal Sürüm**'ünü tanıtmaktan gurur duyuyoruz.
 
-Kurumsal Sürüm, ekip işbirliğindeki temel zorluklara odaklanarak yapay zeka kaynaklarının, bilginin ve verilerin merkezi olarak yönetilmesini sağlar. Kuruluşların verimliliği artırmasına, yeniliği teşvik etmesine ve uyumluluğu sağlamasına olanak tanır; tüm bunları güvenli bir ortamda verilerinin %100 kontrolünü ellerinde tutarak yapar.
+Kurumsal Sürüm, ekip iş birliğinde temel zorlukları, yapay zeka kaynakları, bilgi ve veri yönetimini merkezileştirerek çözer. Kuruluşların verimliliği artırmasını, inovasyonu teşvik etmesini ve uyumluluğu sağlamasını mümkün kılar; tüm bunları güvenli bir ortamda verileriniz üzerinde %100 kontrol sağlayarak gerçekleştirir.
 
 ## Temel Avantajlar
 
-- **Birleşik Model Yönetimi**: Çeşitli bulut tabanlı LLM'leri (ör. OpenAI, Anthropic, Google Gemini) ve yerelde kurulu özel modelleri merkezi olarak entegre edin ve yönetin. Çalışanlar, bireysel ayarlama gerekmeksizin bu modelleri doğrudan kullanabilir.
-- **Kurumsal Düzeyde Bilgi Tabanı**: Ekip genelinde bilgi tabanları oluşturun, yönetin ve paylaşın. Bilginin kalıcılığını ve tutarlılığını sağlayarak ekip üyelerinin yapay zeka ile doğru ve birleşik bilgi üzerinden etkileşimde bulunmasını mümkün kılın.
-- **Ayrıntılı Erişim Kontrolü**: Çalışan hesaplarını kolayca yönetin ve farklı modeller, bilgi tabanları ve özellikler için rol tabanlı izinleri birleşik bir yönetici paneli üzerinden atayın.
-- **Tamamen Özel Kurulum**: Tüm arka uç servisini kendi sunucularınızda veya özel bulutunuzda kurun, böylece verileriniz %100 gizli ve kontrolünüzde kalır, en katı güvenlik ve uyumluluk standartlarını karşılar.
-- **Güvenilir Arka Uç Servisleri**: Kararlı API servisleri, kurumsal düzeyde veri yedekleme ve kurtarma mekanizmaları sunarak iş sürekliliğini garanti eder.
+- **Birleşik Model Yönetimi**: Farklı bulut tabanlı LLM'leri (örn. OpenAI, Anthropic, Google Gemini) ve yerel özel modelleri merkezi şekilde entegre edin ve yönetin. Çalışanlar, bireysel ayar gerekmeden doğrudan kullanabilir.
+- **Kurumsal Düzeyde Bilgi Tabanı**: Ekip genelinde bilgi tabanları oluşturun, yönetin ve paylaşın. Bilgi tutarlılığı ve kalıcılığı sağlar, ekip üyeleri yapay zekayla doğru ve birleşik bilgi üzerinden etkileşime geçebilir.
+- **Ayrıntılı Erişim Kontrolü**: Çalışan hesaplarını kolayca yönetin; farklı model, bilgi tabanı ve özellikler için rol tabanlı izinleri merkezi yönetici paneli üzerinden atayın.
+- **Tamamen Özel Dağıtım**: Tüm arka uç servisini kendi sunucularınıza veya özel bulutunuza dağıtarak verilerinizin %100 gizli ve kontrolünüzde kalmasını, en sıkı güvenlik ve uyumluluk standartlarını karşılamasını sağlayın.
+- **Güvenilir Arka Uç Servisleri**: Kesintisiz iş sürekliliği için istikrarlı API servisleri ve kurumsal düzeyde veri yedekleme/geri yükleme mekanizmaları sunar.
 
 ## ✨ Çevrimiçi Demo
 
-> 🚧 **Açık Beta Duyurusu**
+> 🚧 **Açık Beta Bilgilendirmesi**
 >
-> Kurumsal Sürüm şu anda erken aşama açık beta sürecindedir ve özelliklerini aktif olarak geliştirip iyileştiriyoruz. Henüz tamamen kararlı olmayabileceğinin farkındayız. Deneme sırasında herhangi bir sorunla karşılaşırsanız veya değerli önerileriniz olursa, lütfen bizimle e-posta yoluyla iletişime geçip geri bildirimde bulunun, çok minnettar oluruz.
+> Kurumsal Sürüm şu anda açık beta aşamasının başlarındadır ve özellikleri üzerinde aktif olarak geliştirme ve iyileştirme çalışmaları sürmektedir. Henüz tam olarak stabil olmayabileceğinin farkındayız. Deneme sürecinizde herhangi bir sorunla karşılaşırsanız veya değerli önerileriniz olursa, bize e-posta yoluyla geri bildirimde bulunmanızdan büyük memnuniyet duyarız.
 
 **🔗 [Cherry Studio Enterprise](https://www.cherry-ai.com/enterprise)**
 
 ## Sürüm Karşılaştırması
 
-| Özellik           | Topluluk Sürümü                            | Kurumsal Sürüm                                                                                                                         |
-| :---------------- | :----------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
-| **Açık Kaynak**   | ✅ Evet                                    | ⭕️ kısmen. müş. ile payl.                                                                                                              |
-| **Maliyet**       | Kişisel Kullanımda Ücretsiz / Ticari Lisans| Satın alma / Abonelik Ücreti                                                                                                            |
-| **Yönetici Paneli**| —                                         | ● Merkezi **Model** Erişimi<br>● **Çalışan** Yönetimi<br>● Paylaşılan **Bilgi Tabanı**<br>● **Erişim** Kontrolü<br>● **Veri** Yedekleme|
-| **Sunucu**        | —                                          | ✅ Özel Ayrı Kurulum                                                                                                                    |
+| Özellik           | Topluluk Sürümü                          | Kurumsal Sürüm                                                                                                                      |
+| :---------------- | :--------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------- |
+| **Açık Kaynak**   | ✅ Evet                                  | ⭕️ Müşterilere kısmen açıklandı                                                                                                             |
+| **Maliyet**       | Kişisel Kullanım İçin Ücretsiz / Ticari Lisans | Satın alma / Abonelik Ücreti                                                                                                         |
+| **Yönetici Paneli**| —                                       | ● Merkezi **Model** Erişimi<br>● **Çalışan** Yönetimi<br>● Paylaşılan **Bilgi Tabanı**<br>● **Erişim** Kontrolü<br>● **Veri** Yedekleme |
+| **Sunucu**        | —                                       | ✅ Özel Dağıtım                                                                                                                      |
 
 ## Kurumsal Sürümü Edinin
 
-Kurumsal Sürüm'ün ekibinizin yapay zeka verimlilik motoru olacağına inanıyoruz. Cherry Studio Kurumsal Sürümü ile ilgileniyorsanız, daha fazla bilgi almak, teklif istemek veya demo planlamak için lütfen bizimle iletişime geçin.
+Kurumsal Sürüm'ün ekibinizin yapay zeka verimlilik motoru olacağına inanıyoruz. Cherry Studio Kurumsal Sürüm ile ilgileniyorsanız ve daha fazla bilgi almak, fiyat teklifi istemek veya bir demo planlamak istiyorsanız lütfen bizimle iletişime geçmekten çekinmeyin.
 
-- **Ticari Soru ve Satın Alma İçin**:
+- **Ticari Talepler & Satın Alma için**:
   **📧 [bd@cherry-ai.com](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/mailto:bd@cherry-ai.com)**
 
 # 🔗 İlgili Projeler
 
-- [one-api](https://github.com/songquanpeng/one-api):LLM API yönetim ve dağıtım sistemi; OpenAI, Azure, Anthropic gibi yaygın modelleri destekler. Birleşik API arayüzü sunar, anahtar yönetimi ve ikincil dağıtım için uygundur.
+- [one-api](https://github.com/songquanpeng/one-api): OpenAI, Azure ve Anthropic gibi ana akım modelleri destekleyen LLM API yönetim ve dağıtım sistemi. Birleşik API arayüzü ile anahtar yönetimi ve ikincil dağıtım için uygundur.
 
-- [ublacklist](https://github.com/iorate/ublacklist):Google arama sonuçlarında belirli sitelerin çıkmasını engeller
+- [ublacklist](https://github.com/iorate/ublacklist): Belirli sitelerin Google arama sonuçlarında görünmesini engeller
 
 # 🚀 Katkıda Bulunanlar
 
@@ -318,6 +318,6 @@ Kurumsal Sürüm'ün ekibinizin yapay zeka verimlilik motoru olacağına inanıy
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

@@ -13,7 +13,7 @@
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fr">Français</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=de">Deutsch</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Italiano</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ru">Русский</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pt">Português</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=nl">Nederlands</a>
@@ -28,30 +28,30 @@
   </details>
 </div>
 
-# คลังโปรเจกต์ภาษา C
+# รวมโปรเจกต์ภาษา C
 
 [![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)
 
-รวมโปรเจกต์ภาษา C สำหรับผู้เริ่มต้นเพื่อเรียนรู้และฝึกฝนแนวคิดการเขียนโปรแกรมต่างๆ ตั้งแต่ขั้นพื้นฐานจนถึงการเขียนโปรแกรมเครือข่าย โดยแต่ละโปรเจกต์จะเป็นอิสระและมีเอกสารประกอบรวมถึงระบบ build ของตัวเอง
+ชุดโปรเจกต์ภาษา C สำหรับผู้เริ่มต้นเพื่อเรียนรู้และฝึกฝนแนวคิดการเขียนโปรแกรมต่าง ๆ ตั้งแต่ขั้นพื้นฐานจนถึงการเขียนโปรแกรมเครือข่าย แต่ละโปรเจกต์จะแยกจากกันและมีเอกสารพร้อมระบบ build ของตัวเอง
 
-## ภาพรวมโปรเจกต์
+## ภาพรวมของโปรเจกต์
 
-### 1. [SHA-512 Implementation](SHA-512/)
-ตัวอย่างการทำงานของฟังก์ชันแฮชเข้ารหัส ที่แสดงให้เห็นถึง:
+### 1. [การติดตั้ง SHA-512](SHA-512/)
+ตัวอย่างการใช้งานฟังก์ชันแฮชเข้ารหัสที่แสดงให้เห็นถึง:
 - การจัดการบิต
 - อัลกอริทึมที่ซับซ้อน
 - การจัดการหน่วยความจำ
-- การทำงาน I/O กับไฟล์
+- การอ่านเขียนไฟล์
 
 ### 2. [HTTP Server](http-server/)
-ตัวอย่างการสร้างเซิร์ฟเวอร์ HTTP เบื้องต้นที่ครอบคลุม:
+ตัวอย่างการเขียน HTTP Server เบื้องต้นที่ครอบคลุม:
 - การเขียนโปรแกรมซ็อกเก็ต
-- พื้นฐานของโปรโตคอล HTTP
+- พื้นฐานโปรโตคอล HTTP
 - การให้บริการไฟล์
 - การสื่อสารผ่านเครือข่าย
 
 ### 3. [UDP Server-Client](udp-server-client/)
-ระบบสื่อสารแบบ UDP ง่ายๆ เพื่อสอน:
+ระบบสื่อสารแบบ UDP อย่างง่ายที่ช่วยสอนเรื่อง:
 - การเขียนโปรแกรมซ็อกเก็ต UDP
 - สถาปัตยกรรม client-server
 - โปรโตคอลเครือข่าย
@@ -60,43 +60,43 @@
 ### 4. [Port Scanner](port-scanner/)
 เครื่องมือวิเคราะห์เครือข่ายที่แสดงให้เห็นถึง:
 - การเขียนโปรแกรมซ็อกเก็ต TCP
-- เทคนิคการสแกนพอร์ตบนเครือข่าย
+- เทคนิคการสแกนพอร์ต
 - การจัดการข้อผิดพลาด
-- การแยกวิเคราะห์อาร์กิวเมนต์บรรทัดคำสั่ง
+- การแยกวิเคราะห์ arguments จากคอมมานด์ไลน์
 
 ### 5. [Ping Implementation](ping/)
-เครื่องมือ ping แบบ custom ที่ครอบคลุม:
+ยูทิลิตี้ ping ที่ปรับแต่งเอง ครอบคลุม:
 - โปรโตคอล ICMP
 - การเขียนโปรแกรม raw socket
 - การวิเคราะห์เครือข่าย
 - การวัดเวลา
 
 ### 6. [Tic-Tac-Toe](tic-tac-toe/)
-ตัวอย่างเกมคลาสสิกที่สอนเรื่อง:
-- เซิร์ฟเวอร์เกมผู้เล่นหลายคน
-- การเขียนโปรแกรมซ็อกเก็ต
-- ตรรกะของเกม
+ตัวอย่างเกมคลาสสิคที่ช่วยสอนเรื่อง:
+- เซิร์ฟเวอร์เกมผู้เล่นหลายคน 
+-การเขียนโปรแกรมซ็อกเก็ต
+- ตรรกะเกม
 - การจัดการอินพุตของผู้ใช้
 
 ### 7. [Chat System](chat-system/)
 แอปพลิเคชันแชทแบบเรียลไทม์ที่แสดงให้เห็นถึง:
 - การเขียนโปรแกรมซ็อกเก็ต TCP
-- การทำงานแบบมัลติเธรด
+- มัลติเธรดดิ้ง
 - การสื่อสารแบบเรียลไทม์
 - สถาปัตยกรรม client-server
 
 ### 8. [Lexical Analyzer](lexical-analyser/)
-คอมโพเนนต์ส่วนหน้าของคอมไพเลอร์อย่างง่ายที่แสดงให้เห็นถึง:
+ส่วนประกอบหน้าบ้านของคอมไพเลอร์อย่างง่ายที่แสดงให้เห็นถึง:
 - การแยกโทเคนของซอร์สโค้ด
-- เทคนิคการแยกวิเคราะห์
+- เทคนิคการพาร์ส
 - หลักการออกแบบคอมไพเลอร์
 - การจัดการสตริง
 
 ### 9. [Arithmetic Compiler](arithmetic-compiler/)
-คอมไพเลอร์อย่างง่ายที่รับนิพจน์คณิตศาสตร์เป็นอินพุตและสร้างโค้ดคล้าย assembly:
-- วิเคราะห์ทางไวยากรณ์ (tokenization)
-- การแยกวิเคราะห์และประเมินนิพจน์
-- การสร้างโค้ด assembly
+คอมไพเลอร์อย่างง่ายที่รับนิพจน์คณิตศาสตร์เป็นอินพุตและสร้างโค้ดแบบ assembly:
+- การวิเคราะห์ทางไวยากรณ์ (tokenization)
+- การพาร์สและประเมินนิพจน์
+- การสร้างโค้ดแบบ assembly
 
 - พื้นฐานการสร้างคอมไพเลอร์
 
@@ -167,6 +167,6 @@
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

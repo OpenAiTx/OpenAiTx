@@ -1,16 +1,47 @@
-<translate-content># winjs-plugin-security
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
 
-WinJS プロジェクトにセキュリティ強化機能を提供するプラグインで、主に SRI（Subresource Integrity）属性の生成に使用されます。
+# winjs-plugin-security
 
-## 機能特徴
+WinJS プロジェクト向けにセキュリティを強化する機能を提供するプラグインで、主に SRI（Subresource Integrity）属性の生成に使用されます。
 
-- HTML ファイル内の `<script>` および `<link>` タグに自動で SRI 属性を生成
-- SHA-256、SHA-384、SHA-512 ハッシュアルゴリズムをサポート（設定可能）
-- SRI を正常に機能させるために自動で `crossorigin="anonymous"` 属性を追加
-- 本番環境のみ有効で、開発環境では自動的にスキップ
+## 機能
+
+- HTML ファイル内の `<script>` および `<link>` タグに SRI 属性を自動生成
+- SHA-256、SHA-384、SHA-512 のハッシュアルゴリズムをサポート（設定可能）
+- SRI が正常に動作するように `crossorigin="anonymous"` 属性を自動追加
+- 本番環境でのみ有効、開発環境では自動的にスキップ
 
 ## インストール
-</translate-content>
+
+
 ```bash
 pnpm add @winner-fed/plugin-security
 ```
@@ -107,6 +138,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

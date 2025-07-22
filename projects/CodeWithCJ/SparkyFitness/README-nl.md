@@ -30,8 +30,9 @@
 
 # SparkyFitness - Zelfgehost alternatief voor MyFitnessPal
 
-SparkyFitness is een uitgebreide applicatie voor fitness tracking en -beheer, ontworpen om gebruikers te helpen hun voeding, oefeningen en lichaamsmetingen te monitoren. Het biedt tools voor dagelijkse voortgangscontrole, doelen stellen en inzichtelijke rapportages ter ondersteuning van een gezonde levensstijl.
+SparkyFitness is een uitgebreide fitness tracking en beheer applicatie ontworpen om gebruikers te helpen hun voeding, oefeningen en lichaamsmetingen te monitoren. Het biedt tools voor dagelijkse voortgangsregistratie, het stellen van doelen en inzichtelijke rapporten ter ondersteuning van een gezonde levensstijl.
 
+Docs: https://codewithcj.github.io/SparkyFitness
 
 ## ✨ Functies
 
@@ -41,48 +42,48 @@ SparkyFitness is een uitgebreide applicatie voor fitness tracking en -beheer, on
 * **Maak en beheer aangepaste voedingsmiddelen en categorieën**
 * **Bekijk samenvattingen en analyseer trends met interactieve grafieken**
 
-### 💪 Oefeningen Loggen
+### 💪 Oefeningslogboek
 
 * **Registreer je trainingen**
 * **Blader en zoek in een uitgebreide oefeningendatabase**
-* **Volg je fitnessvoortgang in de tijd**
+* **Volg fitnessvoortgang in de tijd**
 
 ### 💧 Waterinname Monitoren
 
-* **Houd dagelijkse hydratatiedoelen bij**
-* **Eenvoudig en snel water loggen**
+* **Volg dagelijkse hydratatiedoelen**
+* **Eenvoudig en snel waterinname registreren**
 
 ### 📏 Lichaamsmetingen
 
 * **Registreer lichaamsmetingen** (bijv. gewicht, taille, armen)
-* **Voeg aangepaste meettypen toe**
+* **Voeg aangepaste metingstypen toe**
 * **Visualiseer voortgang via grafieken**
 
-### 🎯 Doelen Stellen
+### 🎯 Doelstellingen Instellen
 
-* **Stel fitness- en voedingsdoelen in en beheer ze**
+* **Stel fitness- en voedingsdoelen in en beheer deze**
 * **Volg voortgang in de tijd**
 
-### 🗓️ Dagelijkse Check-Ins
+### 🗓️ Dagelijkse Check-ins
 
 * **Monitor dagelijkse activiteit**
-* **Blijf consequent met gewoonte-tracking**
+* **Blijf consistent met gewoonte-tracking**
 
 ### 🤖 AI Voedingscoach (SparkyAI)
 
 * **Registreer voeding, oefeningen, lichaamsstatistieken en stappen via chat**
-* **Upload foto's van eten om maaltijden automatisch te loggen**
+* **Upload voedselafbeeldingen om maaltijden automatisch te registreren**
 * **Inclusief chatgeschiedenis en persoonlijke begeleiding**
 
 ### 🔒 Gebruikersauthenticatie & Profielen
 
 * **Veilig inlogsysteem**
-* **Wissel tussen gebruikersprofielen**
-* **Ondersteuning voor gezinsgebruik en -beheer**
+* **Schakel tussen gebruikersprofielen**
+* **Ondersteuning voor gezinsbeheer en toegang**
 
-### 📊 Uitgebreide Rapportages
+### 📊 Uitgebreide Rapporten
 
-* **Genereer samenvattingen voor voeding en lichaamsmetingen**
+* **Genereer samenvattingen van voeding en lichaamsmetingen**
 * **Volg langetermijntrends over weken of maanden**
 
 ### 🎨 Aanpasbare Thema's
@@ -91,67 +92,81 @@ SparkyFitness is een uitgebreide applicatie voor fitness tracking en -beheer, on
 * **Ontworpen met een minimalistische, afleidingsvrije interface**
 
 ### Hulp Nodig?
-* **Word lid van Discord**
+* **Word lid van discord**
   https://discord.gg/vcnMT5cPEA
-* **Plaats een bericht in de discussie**
+* **Plaats in discussie**
 
+</translate-content>
 
 ![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
 
-## 🚀 Aan de slag
+## 🚀 Snel starten
 
-Volg deze stappen om de SparkyFitness-applicatie op je lokale machine te laten draaien:
+Laat SparkyFitness binnen enkele minuten draaien:
 
-### Vereisten
+```bash
+# Clone the repository
+git clone https://github.com/CodeWithCJ/SparkyFitness.git
+cd SparkyFitness
 
-### Installatie
+# Copy environment template and edit as needed
+cp docker/.env.example .env
 
-1.  **Omgevingsvariabelen configureren:**
+# Start development environment (with live reloading)
+./docker/docker-helper.sh dev up
 
-    Maak een `.env`-bestand aan in de hoofdmap. Kopieer de sjabloon uit het voorbeeld `.env`-bestand en werk deze bij met jouw instellingen. Raadpleeg de WIKI voor de bestaande configuratie die ik heb gebruikt. Probeer de poort niet te wijzigen, aangezien dit mogelijk niet goed werkt met de eerste releases tot het project stabiel is.
+# Access application at http://localhost:8080
+```
+## 📖 Documentatie
 
-    *   **Admin Panel URL:** Om het Admin paneel te activeren en OIDC-instellingen te configureren, zorg ervoor dat de omgevingsvariabele `SPARKY_FITNESS_ADMIN_EMAIL` is ingesteld op de juiste URL voor je Admin paneel.
-    
+Voor volledige installatiehandleidingen, ontwikkelsetup en gebruiksinstructies, bezoek onze uitgebreide documentatie:
 
-2.  **Starten met Docker Compose:**
-    Haal de Docker-images op en start de services. Als je wijzigingen hebt aangebracht in het `.env`-bestand, moet je de images opnieuw bouwen zodat de nieuwe omgevingsvariabelen worden opgepikt.
+**👉 [SparkyFitness Documentatiesite](https://codewithcj.github.io/SparkyFitness)**
 
+### Snelle links
 
-    ```sh
-    docker-compose pull # Pull the latest Docker images
-    docker-compose up -d # Start the services in detached mode
-    ```
-    Raadpleeg de voorbeeldinstallatie als referentie
-    https://github.com/CodeWithCJ/SparkyFitness/wiki/Sample-Setup
+- **[🚀 Aan de slag](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Complete setupgids voor ontwikkeling en productie
+- **[🐳 Docker Gids](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Docker implementatie en configuratie
+- **[🔧 Ontwikkelworkflow](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - Gids voor ontwikkelaars en bijdrageproces  
+- **[📊 Functieoverzicht](https://codewithcj.github.io/SparkyFitness/features/)** - Volledige documentatie van functies
+- **[🏗️ Architectuur](https://codewithcj.github.io/SparkyFitness/app-overview)** - Technische architectuur en ontwerp
 
-3.  **Toegang tot de applicatie:**
-    Zodra de services actief zijn, open SparkyFitness in je webbrowser via de URL die is geconfigureerd voor je frontend (bijv. `http://localhost:3004` of `http://je_frontend_ip_of_domein:3004`).
+## 🐳 Docker-implementatie
 
-4.  **AI Chatbot - Optionele Configuratie:**
-    Om de volledige functionaliteit van de AI Chatbot te activeren, moet je de benodigde API-sleutels instellen binnen de applicatie-instellingen nadat je bent ingelogd.
-  
-5.  **Initiële applicatieconfiguratie:**
-    Na inloggen in de applicatie, ga naar het instellingenmenu om:
-    *   Je favoriete voedselproviders toe te voegen (bijv. OpenFoodFacts is een gratis optie).
-    *   Je voorkeuren en profielinstellingen aan te passen.
+**Productie (aanbevolen):**
 
-### ⚠️ Bekende problemen / Bètafuncties ⚠️
+```bash
+cp docker/.env.example .env  # Edit as needed
+./docker/docker-helper.sh prod up
+# Access at http://localhost:3004
+```
+**Ontwikkeling:**
 
-De volgende functies bevinden zich momenteel in bèta en zijn mogelijk nog niet grondig getest. Verwacht mogelijke bugs of onvolledige functionaliteit:
+```bash
+cp docker/.env.example .env  # Edit as needed  
+./docker/docker-helper.sh dev up
+# Access at http://localhost:8080 (live reloading)
+```
+Voor gedetailleerde installatie-instructies, omgevingsconfiguratie en probleemoplossing, zie de [volledige documentatie](https://codewithcj.github.io/SparkyFitness/developer/getting-started).
+
+### ⚠️ Bekende Problemen / Bètafuncties ⚠️
+
+De volgende functies zijn momenteel in bèta en zijn mogelijk niet grondig getest. Verwacht mogelijke bugs of onvolledige functionaliteit:
 
 *   AI Chatbot
-*   Multi-gebruikersondersteuning
-*   Toegang voor Familie & Vrienden
-*   Integratie met Apple Health Data
+*   Ondersteuning voor meerdere gebruikers
+*   Toegang voor familie & vrienden
+*   Integratie met Apple Health-gegevens
 
-Deze applicatie is volop in ontwikkeling. Dingen kunnen mogelijk niet werken zoals verwacht door de migratie van Supabase naar PostgreSQL. INGRIJPENDE WIJZIGINGEN kunnen worden doorgevoerd totdat de applicatie stabiel is.
-Het kan nodig zijn om Docker-/omgevingsvariabelen te wijzigen bij nieuwe releases. Daarom worden automatische upgrades met Watchtower of soortgelijke apps niet aanbevolen. Lees de release-opmerkingen voor eventuele INGRIJPENDE WIJZIGINGEN.
+Deze applicatie is volop in ontwikkeling. Dingen kunnen mogelijk niet werken zoals verwacht vanwege de migratie van Supabase naar PostgreSQL. DOORBRAKENDE WIJZIGINGEN kunnen worden doorgevoerd totdat de applicatie stabiel is.
+Het kan nodig zijn om Docker-/omgevingsvariabelen te wijzigen voor nieuwe releases. Daarom worden automatische upgrades met Watchtower of soortgelijke apps niet aanbevolen. Lees de releasenotes voor eventuele DOORBRAKENDE WIJZIGINGEN.
+
 
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

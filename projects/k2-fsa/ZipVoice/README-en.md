@@ -113,9 +113,9 @@ source zipvoice/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-### 4. (Optional) Install k2 for training or efficient inference
+### 4. Install k2 for training or efficient inference
 
-k2 is necessary for training and can speed up inference. Nevertheless, you can still use the inference mode of ZipVoice without installing k2.
+**k2 is necessary for training** and can speed up inference. Nevertheless, you can still use the inference mode of ZipVoice without installing k2.
 
 > **Note:**  Make sure to install the k2 version that matches your PyTorch and CUDA version. For example, if you are using pytorch 2.5.1 and CUDA 12.1, you can install k2 as follows:
 
@@ -126,6 +126,12 @@ pip install k2==1.24.4.dev20250208+cuda12.1.torch2.5.1 -f https://k2-fsa.github.
 Please refer to https://k2-fsa.org/get-started/k2/ for details.
 Users in China mainland can refer to https://k2-fsa.org/zh-CN/get-started/k2/.
 
+- To check the k2 installation:
+
+
+```
+python3 -c "import k2; print(k2.__file__)"
+```
 ## Usage
 
 ### 1. Single-speaker speech generation
@@ -163,7 +169,7 @@ python3 -m zipvoice.bin.infer_zipvoice \
 ```
 - Each line of `test.tsv` is in the format of `{wav_name}\t{prompt_transcription}\t{prompt_wav}\t{text}`.
 
-### 2. Spoken dialogue generation
+### 2. Dialogue speech generation
 
 #### 2.1 Inference command
 
@@ -208,7 +214,7 @@ Each line of `test.tsv` is in one of the following formats:
 
 ### 3. Other features
 
-#### 3.1 Correcting mispronounced chinese polyphone characters
+#### 3.1 Correcting mispronounced Chinese polyphone characters
 
 We use [pypinyin](https://github.com/mozillazg/python-pinyin) to convert Chinese characters to pinyin. However, it can occasionally mispronounce **polyphone characters** (多音字).
 
@@ -223,15 +229,15 @@ To manually correct these mispronunciations, enclose the **corrected pinyin** in
 
 ## Train Your Own Model
 
-See the [egs](egs) directory for training and fine-tuning examples.
+See the [egs](egs) directory for training, fine-tuning and evaluation examples.
 
 ## Discussion & Communication
 
 You can directly discuss on [Github Issues](https://github.com/k2-fsa/ZipVoice/issues).
 
-You can also scan the QR code to join our wechat group or follow our wechat official account.
+You can also scan the QR code to join our WeChat group or follow our WeChat official account.
 
-| Wechat Group | Wechat Official Account |
+| WeChat Group | WeChat Official Account |
 | ------------ | ----------------------- |
 |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |
 
@@ -257,6 +263,6 @@ You can also scan the QR code to join our wechat group or follow our wechat offi
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

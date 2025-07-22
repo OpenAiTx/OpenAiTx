@@ -113,11 +113,11 @@ source zipvoice/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-### 4. (Opcional) Instale o k2 para treinamento ou inferência eficiente
+### 4. Instale o k2 para treinamento ou inferência eficiente
 
-k2 é necessário para o treinamento e pode acelerar a inferência. No entanto, você ainda pode usar o modo de inferência do ZipVoice sem instalar o k2.
+**k2 é necessário para o treinamento** e pode acelerar a inferência. No entanto, você ainda pode usar o modo de inferência do ZipVoice sem instalar o k2.
 
-> **Nota:**  Certifique-se de instalar a versão do k2 que corresponda à sua versão do PyTorch e CUDA. Por exemplo, se você estiver usando pytorch 2.5.1 e CUDA 12.1, poderá instalar o k2 da seguinte forma:
+> **Nota:** Certifique-se de instalar a versão do k2 que corresponde à sua versão do PyTorch e do CUDA. Por exemplo, se você estiver usando pytorch 2.5.1 e CUDA 12.1, você pode instalar o k2 da seguinte forma:
 
 
 ```bash
@@ -126,6 +126,12 @@ pip install k2==1.24.4.dev20250208+cuda12.1.torch2.5.1 -f https://k2-fsa.github.
 Consulte https://k2-fsa.org/get-started/k2/ para mais detalhes.
 Usuários na China continental podem consultar https://k2-fsa.org/zh-CN/get-started/k2/.
 
+- Para verificar a instalação do k2:
+
+
+```
+python3 -c "import k2; print(k2.__file__)"
+```
 ## Uso
 
 ### 1. Geração de fala de um único locutor
@@ -161,13 +167,13 @@ python3 -m zipvoice.bin.infer_zipvoice \
     --test-list test.tsv \
     --res-dir results
 ```
-- Cada linha do `test.tsv` está no formato `{wav_name}\t{prompt_transcription}\t{prompt_wav}\t{text}`.
+- Cada linha de `test.tsv` está no formato `{wav_name}\t{prompt_transcription}\t{prompt_wav}\t{text}`.
 
-### 2. Geração de diálogo falado
+### 2. Geração de fala em diálogo
 
 #### 2.1 Comando de inferência
 
-Para gerar diálogos falados de duas partes com nossos modelos pré-treinados ZipVoice-Dialogue ou ZipVoice-Dialogue-Stereo, use os seguintes comandos (Os modelos necessários serão baixados do HuggingFace):
+Para gerar diálogos falados entre duas pessoas com nossos modelos pré-treinados ZipVoice-Dialogue ou ZipVoice-Dialogue-Stereo, use os seguintes comandos (Os modelos necessários serão baixados do HuggingFace):
 
 
 ```bash
@@ -200,39 +206,39 @@ Cada linha do `test.tsv` está em um dos seguintes formatos:
 {wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}'
 ```
 - `wav_name` é o nome do arquivo wav de saída.
-- `spk1_prompt_transcription` é a transcrição do arquivo wav de prompt do primeiro falante, por exemplo, "Olá"
-- `spk2_prompt_transcription` é a transcrição do arquivo wav de prompt do segundo falante, por exemplo, "Como vai você?"
-- `spk1_prompt_wav` é o caminho para o arquivo wav de prompt do primeiro falante.
-- `spk2_prompt_wav` é o caminho para o arquivo wav de prompt do segundo falante.
+- `spk1_prompt_transcription` é a transcrição do prompt wav do primeiro falante, por exemplo, "Olá"
+- `spk2_prompt_transcription` é a transcrição do prompt wav do segundo falante, por exemplo, "Como vai você?"
+- `spk1_prompt_wav` é o caminho para o arquivo wav do prompt do primeiro falante.
+- `spk2_prompt_wav` é o caminho para o arquivo wav do prompt do segundo falante.
 - `text` é o texto a ser sintetizado, por exemplo, "[S1] Estou bem. [S2] Qual é o seu nome?"
 
 ### 3. Outras funcionalidades
 
 #### 3.1 Corrigindo caracteres polifônicos chineses pronunciados incorretamente
 
-Usamos [pypinyin](https://github.com/mozillazg/python-pinyin) para converter caracteres chineses em pinyin. No entanto, ele pode ocasionalmente pronunciar incorretamente **caracteres polifônicos** (多音字).
+Usamos [pypinyin](https://github.com/mozillazg/python-pinyin) para converter caracteres chineses em pinyin. No entanto, ocasionalmente pode pronunciar incorretamente **caracteres polifônicos** (多音字).
 
-Para corrigir manualmente essas pronúncias, coloque o **pinyin corrigido** entre colchetes angulares `< >` e inclua a **marca de tom**.
+Para corrigir manualmente essas pronúncias, coloque o **pinyin corrigido** entre sinais de menor e maior `< >` e inclua o **marcador de tom**.
 
 **Exemplo:**
 
 - Texto original: `这把剑长三十公分`
 - Corrija o pinyin de `长`:  `这把剑<chang2>三十公分`
 
-> **Nota:** Se quiser atribuir manualmente múltiplos pinyins, coloque cada pinyin entre `<>`, por exemplo, `这把<jian4><chang2><san1>十公分`
+> **Nota:** Se quiser atribuir manualmente vários pinyins, coloque cada pinyin entre `<>`, por exemplo, `这把<jian4><chang2><san1>十公分`
 
 ## Treine Seu Próprio Modelo
 
-Veja o diretório [egs](egs) para exemplos de treinamento e ajuste fino.
+Veja o diretório [egs](egs) para exemplos de treinamento, ajuste fino e avaliação.
 
 ## Discussão & Comunicação
 
 Você pode discutir diretamente em [Github Issues](https://github.com/k2-fsa/ZipVoice/issues).
 
-Você também pode escanear o código QR para entrar no nosso grupo do WeChat ou seguir nossa conta oficial do WeChat.
+Você também pode escanear o QR code para entrar no nosso grupo do WeChat ou seguir nossa conta oficial no WeChat.
 
 | Grupo WeChat | Conta Oficial WeChat |
-| ------------ | ------------------- |
+| ------------ | ----------------------- |
 |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |
 
 ## Citação
@@ -257,6 +263,6 @@ Você também pode escanear o código QR para entrar no nosso grupo do WeChat ou
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

@@ -13,7 +13,7 @@
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fr">Français</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=de">Deutsch</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Italiano</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ru">Русский</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pt">Português</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=nl">Nederlands</a>
@@ -32,62 +32,62 @@
 
 [![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)
 
-초보자를 위한 다양한 프로그래밍 개념 학습과 연습을 위한 C 프로그래밍 프로젝트 모음입니다. 각 프로젝트는 독립적으로 구성되어 있으며, 자체 문서와 빌드 시스템을 포함합니다.
+초보자를 위한 다양한 프로그래밍 개념 학습 및 연습을 위한 C 프로그래밍 프로젝트 모음입니다. 각 프로젝트는 독립적으로 구성되어 있으며 자체 문서와 빌드 시스템을 포함하고 있습니다.
 
 ## 프로젝트 개요
 
 ### 1. [SHA-512 구현](SHA-512/)
-암호화 해시 함수 구현으로 다음을 보여줍니다:
+암호화 해시 함수 구현 예제:
 - 비트 조작
 - 복잡한 알고리즘
 - 메모리 관리
 - 파일 I/O 작업
 
 ### 2. [HTTP 서버](http-server/)
-기본 HTTP 서버 구현으로 다음을 다룹니다:
+기본 HTTP 서버 구현 예제:
 - 소켓 프로그래밍
 - HTTP 프로토콜 기초
 - 파일 제공
 - 네트워크 통신
 
 ### 3. [UDP 서버-클라이언트](udp-server-client/)
-간단한 UDP 기반 통신 시스템으로 다음을 학습합니다:
+간단한 UDP 기반 통신 시스템 예제:
 - UDP 소켓 프로그래밍
-- 클라이언트-서버 구조
+- 클라이언트-서버 아키텍처
 - 네트워크 프로토콜
 - 메시지 교환
 
 ### 4. [포트 스캐너](port-scanner/)
-네트워크 진단 도구로 다음을 보여줍니다:
+네트워크 진단 도구 예제:
 - TCP 소켓 프로그래밍
-- 네트워크 스캔 기법
+- 네트워크 스캐닝 기법
 - 오류 처리
-- 명령줄 인자 파싱
+- 커맨드라인 인자 파싱
 
-### 5. [핑 구현](ping/)
-사용자 정의 핑 유틸리티로 다음을 다룹니다:
+### 5. [Ping 구현](ping/)
+사용자 정의 ping 유틸리티 예제:
 - ICMP 프로토콜
 - Raw 소켓 프로그래밍
 - 네트워크 진단
 - 시간 측정
 
 ### 6. [틱택토](tic-tac-toe/)
-고전 게임 구현으로 다음을 학습합니다:
+고전 게임 구현 예제:
 - 멀티플레이어 게임 서버 
 -소켓 프로그래밍
 - 게임 로직
 - 사용자 입력 처리
 
 ### 7. [채팅 시스템](chat-system/)
-실시간 채팅 애플리케이션으로 다음을 보여줍니다:
+실시간 채팅 애플리케이션 예제:
 - TCP 소켓 프로그래밍
 - 멀티스레딩
 - 실시간 통신
-- 클라이언트-서버 구조
+- 클라이언트-서버 아키텍처
 
 ### 8. [어휘 분석기](lexical-analyser/)
-간단한 컴파일러 프론트엔드 컴포넌트로 다음을 보여줍니다:
-- 소스 코드의 토큰화
+간단한 컴파일러 프론트엔드 컴포넌트 예제:
+- 소스 코드 토큰화
 - 파싱 기법
 - 컴파일러 설계 원칙
 - 문자열 조작
@@ -167,6 +167,6 @@ C 프로그래밍을 시작하려면 이 포괄적인 책을 추천합니다:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

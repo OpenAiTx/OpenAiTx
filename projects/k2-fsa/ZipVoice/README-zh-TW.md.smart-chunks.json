@@ -8,602 +8,7 @@
     "EndLine": 0,
     "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 語言</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=it\">Itapano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n<div align=\"center\">\n\n# ZipVoice⚡\n\n## 基於流匹配的快速高品質零樣本文字轉語音模型\n</div>\n\n## 簡介\n\nZipVoice 是一系列基於流匹配的快速且高品質零樣本 TTS（文字轉語音）模型。\n\n### 1. 主要特點\n\n- 小巧且快速：僅有 123M 參數。\n\n- 高品質語音克隆：在說話人相似度、可懂度和自然度上達到業界先進表現。\n\n- 多語言支持：支援中文與英文。\n\n- 多模式：支援單說話人與對話語音生成。\n\n### 2. 模型變體\n\n<table>\n  <thead>\n    <tr>\n      <th>模型名稱</th>\n      <th>簡介</th>\n      <th>論文</th>\n      <th>演示</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>ZipVoice</td>\n      <td>基礎模型，支援中英文零樣本單說話人 TTS。</td>\n      <td rowspan=\"2\"><a href=\"https://arxiv.org/abs/2506.13053\"><img src=\"https://img.shields.io/badge/arXiv-Paper-COLOR.svg\"></a></td>\n      <td rowspan=\"2\"><a href=\"https://zipvoice.github.io\"><img src=\"https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square\"></a></td>\n    </tr>\n    <tr>\n      <td>ZipVoice-Distill</td>\n      <td>ZipVoice 的蒸餾版，速度更快且性能下降極小。</td>\n    </tr>\n    <tr>\n      <td>ZipVoice-Dialog</td>\n      <td>基於 ZipVoice 的對話生成模型，能生成單聲道雙方對話語音。</td>\n      <td rowspan=\"2\"><a href=\"https://arxiv.org/abs/2507.09318\"><img src=\"https://img.shields.io/badge/arXiv-Paper-COLOR.svg\"></a></td>\n      <td rowspan=\"2\"><a href=\"https://zipvoice-dialog.github.io\"><img src=\"https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square\"></a></td>\n    </tr>\n    <tr>\n      <td>ZipVoice-Dialog-Stereo</td>\n      <td>ZipVoice-Dialog 的立體聲變體，可生成雙聲道對話，讓每位說話人分配在不同聲道。</td>\n    </tr>\n  </tbody>\n</table>\n\n## 最新消息\n\n**2025/07/14**：**ZipVoice-Dialog** 與 **ZipVoice-Dialog-Stereo** 兩種對話語音生成模型正式發布。[![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice-dialog.github.io)\n\n**2025/07/14**：**OpenDialog** 數據集——一個 6.8k 小時的對話語音數據集——已發布。下載地址：[![hf](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/k2-fsa/OpenDialog)，[![ms](https://img.shields.io/badge/ModelScope-Dataset-blue?logo=data)](https://www.modelscope.cn/datasets/k2-fsa/OpenDialog)。詳細資訊：[![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318)。\n\n**2025/06/16**：**ZipVoice** 與 **ZipVoice-Distill** 正式發布。[![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2506.13053) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice.github.io)\n\n## 安裝教學\n\n### 1. 複製 ZipVoice 程式庫\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "<div align=\"right\">"
-      },
-      {
-        "row": 2,
-        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
-        "originContent": "<div align=\"right\">",
-        "translatedContent": "  <details>"
-      },
-      {
-        "row": 3,
-        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
-        "originContent": "  <details>",
-        "translatedContent": "    <summary >🌐 語言</summary>"
-      },
-      {
-        "row": 4,
-        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
-        "originContent": "    <summary >🌐 Language</summary>",
-        "translatedContent": "    <div>"
-      },
-      {
-        "row": 5,
-        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
-        "originContent": "    <div>",
-        "translatedContent": "      <div align=\"center\">"
-      },
-      {
-        "row": 6,
-        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
-        "originContent": "      <div align=\"center\">",
-        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=en\">English</a>"
-      },
-      {
-        "row": 7,
-        "rowsha": "CcXpQm1/9iKvN+A/uJNpETB0rQK265sk/3d1b8LJQvw=",
-        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=en\">English</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=zh-CN\">简体中文</a>"
-      },
-      {
-        "row": 8,
-        "rowsha": "2ehWvRtwvqGgM54qlLoitqATfwSTpMIFoXVVk/tTbZk=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=zh-CN\">简体中文</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=zh-TW\">繁體中文</a>"
-      },
-      {
-        "row": 9,
-        "rowsha": "1Tvr2tQAiIWOxk8K1sahQkXFaTfirEHUjC6CllQsguU=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=zh-TW\">繁體中文</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ja\">日本語</a>"
-      },
-      {
-        "row": 10,
-        "rowsha": "viezuYRV23r39DGnn2fqOoF8t4QQbZ3lGyQ4E/gKw50=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ja\">日本語</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ko\">한국어</a>"
-      },
-      {
-        "row": 11,
-        "rowsha": "58406DeYvrKlvqudebrWq+GPeIz8UsbceVEMZSbjPfo=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ko\">한국어</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=hi\">हिन्दी</a>"
-      },
-      {
-        "row": 12,
-        "rowsha": "v5RXbnVfWV0Tg1ipPFatAoRHQuK6otAxURhh9EL6oDI=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=hi\">हिन्दी</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=th\">ไทย</a>"
-      },
-      {
-        "row": 13,
-        "rowsha": "WDhcLwM8wmfLsLyFOnzsTQ4H2X2S7KkNz897OsHtDa4=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=th\">ไทย</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=fr\">Français</a>"
-      },
-      {
-        "row": 14,
-        "rowsha": "720JVKr0dHx3FSQCXiSfarWZShlzQL9HzYaW4cRQOSE=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=fr\">Français</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=de\">Deutsch</a>"
-      },
-      {
-        "row": 15,
-        "rowsha": "1DtWHtMk7/aAwtrrxeFamTGgcASobQlMfFoWQwsVKgc=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=de\">Deutsch</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=es\">Español</a>"
-      },
-      {
-        "row": 16,
-        "rowsha": "H+5dK1gegkmcz74mwWxfH0NM5j9vtNmcVh9n3bhYBZs=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=es\">Español</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=it\">Itapano</a>"
-      },
-      {
-        "row": 17,
-        "rowsha": "f3xikpvVpOqPqS0kyScUlycc8Zt+diO9Zsw9FgLmd/Q=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=it\">Itapano</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ru\">Русский</a>"
-      },
-      {
-        "row": 18,
-        "rowsha": "1+LH4k3BSN/Gkx95+faUF9zhlMy65p97wcjIXEw4dUg=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ru\">Русский</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=pt\">Português</a>"
-      },
-      {
-        "row": 19,
-        "rowsha": "JwE8Np2ImgiLGwhoGlsXFKpsgI9EU68Mjs8pysrvz9s=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=pt\">Português</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=nl\">Nederlands</a>"
-      },
-      {
-        "row": 20,
-        "rowsha": "0eaTuNvMrL1d1tHfXDuGbl4NwHpIqSCOYgyWn+DeCd8=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=nl\">Nederlands</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=pl\">Polski</a>"
-      },
-      {
-        "row": 21,
-        "rowsha": "OD8ikjviedFkX4Kx5kNhXmU45dL9qIxmcf2cgTGhqlM=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=pl\">Polski</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ar\">العربية</a>"
-      },
-      {
-        "row": 22,
-        "rowsha": "iYQFhiOJcKRK727JftPgQg0wEibC4UGYoysohgY4ZkE=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ar\">العربية</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=fa\">فارسی</a>"
-      },
-      {
-        "row": 23,
-        "rowsha": "bZuriOvMlwwmbrlK623agOuY9pyTAfsswef0LRsT3tU=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=fa\">فارسی</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=tr\">Türkçe</a>"
-      },
-      {
-        "row": 24,
-        "rowsha": "b7kL+KXfHE4Tqjt5V/TAEJQhMqU1SNWf9VVdfYkTrWY=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=tr\">Türkçe</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=vi\">Tiếng Việt</a>"
-      },
-      {
-        "row": 25,
-        "rowsha": "j0cS+2vemRltrd4DFNjdvu5Ad+ZpSR763x+uEnlcxks=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=vi\">Tiếng Việt</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=id\">Bahasa Indonesia</a>"
-      },
-      {
-        "row": 26,
-        "rowsha": "BI82Vx/H9f+weopSKKN3mOM7UAihcqzf7CfJbkigJ2A=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=id\">Bahasa Indonesia</a>",
-        "translatedContent": "      </div>"
-      },
-      {
-        "row": 27,
-        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
-        "originContent": "      </div>",
-        "translatedContent": "    </div>"
-      },
-      {
-        "row": 28,
-        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
-        "originContent": "    </div>",
-        "translatedContent": "  </details>"
-      },
-      {
-        "row": 29,
-        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
-        "originContent": "  </details>",
-        "translatedContent": "</div>"
-      },
-      {
-        "row": 30,
-        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
-        "originContent": "</div>",
-        "translatedContent": ""
-      },
-      {
-        "row": 31,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "<div align=\"center\">"
-      },
-      {
-        "row": 32,
-        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
-        "originContent": "<div align=\"center\">",
-        "translatedContent": ""
-      },
-      {
-        "row": 33,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "# ZipVoice⚡"
-      },
-      {
-        "row": 34,
-        "rowsha": "43x8VXS2NIrGxEvJGcd03L2DM5gZshFS9vGXAT/nWoY=",
-        "originContent": "# ZipVoice⚡",
-        "translatedContent": ""
-      },
-      {
-        "row": 35,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 基於流匹配的快速高品質零樣本文字轉語音模型"
-      },
-      {
-        "row": 36,
-        "rowsha": "8cGkXE2E2Lj/nZFTwxIMm6gFZ5z+nFFHUz8ryL9qi64=",
-        "originContent": "## Fast and High-Quality Zero-Shot Text-to-Speech with Flow Matching",
-        "translatedContent": "</div>"
-      },
-      {
-        "row": 37,
-        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
-        "originContent": "</div>",
-        "translatedContent": ""
-      },
-      {
-        "row": 38,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 簡介"
-      },
-      {
-        "row": 39,
-        "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
-        "originContent": "## Overview",
-        "translatedContent": ""
-      },
-      {
-        "row": 40,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "ZipVoice 是一系列基於流匹配的快速且高品質零樣本 TTS（文字轉語音）模型。"
-      },
-      {
-        "row": 41,
-        "rowsha": "nQS2T1vCMqJruAgLkxb46w0hSAkEn/IM3WAyxZjZ41Q=",
-        "originContent": "ZipVoice is a series of fast and high-quality zero-shot TTS models based on flow matching.",
-        "translatedContent": ""
-      },
-      {
-        "row": 42,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 1. 主要特點"
-      },
-      {
-        "row": 43,
-        "rowsha": "ucC7hUEIiT/76texV2ocUEuEh3ipUzSv7QRGCII6ZzM=",
-        "originContent": "### 1. Key features",
-        "translatedContent": ""
-      },
-      {
-        "row": 44,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- 小巧且快速：僅有 123M 參數。"
-      },
-      {
-        "row": 45,
-        "rowsha": "mnMSMs6GmKRNnNbe05VmoRtRBkZF0/KoDIo2RGx2miQ=",
-        "originContent": "- Small and fast: only 123M parameters.",
-        "translatedContent": ""
-      },
-      {
-        "row": 46,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- 高品質語音克隆：在說話人相似度、可懂度和自然度上達到業界先進表現。"
-      },
-      {
-        "row": 47,
-        "rowsha": "DTc6Shc7YIXhauUP00lzZgJfeGsA8b/7jnpoWq4PK0U=",
-        "originContent": "- High-quality voice cloning: state-of-the-art performance in speaker similarity, intelligibility, and naturalness.",
-        "translatedContent": ""
-      },
-      {
-        "row": 48,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- 多語言支持：支援中文與英文。"
-      },
-      {
-        "row": 49,
-        "rowsha": "yt9ntJffC7kC7o3urvP30pUjjiFSCTNvFa2IsukbVDE=",
-        "originContent": "- Multi-lingual: support Chinese and English.",
-        "translatedContent": ""
-      },
-      {
-        "row": 50,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- 多模式：支援單說話人與對話語音生成。"
-      },
-      {
-        "row": 51,
-        "rowsha": "zxFH2T15/GT24QXdR/3+MTlLcndjhW81in4fA6q/NqI=",
-        "originContent": "- Multi-mode: support both single-speaker and dialogue speech generation.",
-        "translatedContent": ""
-      },
-      {
-        "row": 52,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 2. 模型變體"
-      },
-      {
-        "row": 53,
-        "rowsha": "euhnPJYVS9UO65MqpSJ6SGItveAQx/PEyxlOhvoL7gQ=",
-        "originContent": "### 2. Model variants",
-        "translatedContent": ""
-      },
-      {
-        "row": 54,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "<table>"
-      },
-      {
-        "row": 55,
-        "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
-        "originContent": "<table>",
-        "translatedContent": "  <thead>"
-      },
-      {
-        "row": 56,
-        "rowsha": "fVeZa2zHTj+GejNZeOMEq73p8lrPy91L7a2SAORQGww=",
-        "originContent": "  <thead>",
-        "translatedContent": "    <tr>"
-      },
-      {
-        "row": 57,
-        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
-        "originContent": "    <tr>",
-        "translatedContent": "      <th>模型名稱</th>"
-      },
-      {
-        "row": 58,
-        "rowsha": "z4Rwl4uu63uzLboduV7OD40QtA50BzuyfDCtbD3ZuGA=",
-        "originContent": "      <th>Model Name</th>",
-        "translatedContent": "      <th>簡介</th>"
-      },
-      {
-        "row": 59,
-        "rowsha": "O/DS90B9w8GpepemJkQp634TTVY3fEDiLIPL5Ltaq78=",
-        "originContent": "      <th>Description</th>",
-        "translatedContent": "      <th>論文</th>"
-      },
-      {
-        "row": 60,
-        "rowsha": "YGp5skEXJ0tuyZL/KspO3fgVUV+H1ijs8hRaS27I9zg=",
-        "originContent": "      <th>Paper</th>",
-        "translatedContent": "      <th>演示</th>"
-      },
-      {
-        "row": 61,
-        "rowsha": "nq0QdUA8EPB/UZOofw7s5hdITABnq7ZhH3chJk3iFow=",
-        "originContent": "      <th>Demo</th>",
-        "translatedContent": "    </tr>"
-      },
-      {
-        "row": 62,
-        "rowsha": "qMXSfcecmgpTcWjU4/DonhxZrtbJe20/4kuvSQqv9HU=",
-        "originContent": "    </tr>",
-        "translatedContent": "  </thead>"
-      },
-      {
-        "row": 63,
-        "rowsha": "QAgj2Ue5ZqUAelXIN3OwGwnCFXD2scHVIkAz9iHowbw=",
-        "originContent": "  </thead>",
-        "translatedContent": "  <tbody>"
-      },
-      {
-        "row": 64,
-        "rowsha": "V8SoadU3qlQEyQXfcDO5Evu+vSduzv+IQXpGHlNEQ4M=",
-        "originContent": "  <tbody>",
-        "translatedContent": "    <tr>"
-      },
-      {
-        "row": 65,
-        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
-        "originContent": "    <tr>",
-        "translatedContent": "      <td>ZipVoice</td>"
-      },
-      {
-        "row": 66,
-        "rowsha": "ndVKgIyPesKKyqCb1fPiiBsMn4f9r+E9zy2h+rEQMEg=",
-        "originContent": "      <td>ZipVoice</td>",
-        "translatedContent": "      <td>基礎模型，支援中英文零樣本單說話人 TTS。</td>"
-      },
-      {
-        "row": 67,
-        "rowsha": "V4nOcrSY1j7m4uPd0Q3jKJV5OYsg3vveAhj2uXuDYpo=",
-        "originContent": "      <td>The basic model supporting zero-shot single-speaker TTS in both Chinese and English.</td>",
-        "translatedContent": "      <td rowspan=\"2\"><a href=\"https://arxiv.org/abs/2506.13053\"><img src=\"https://img.shields.io/badge/arXiv-Paper-COLOR.svg\"></a></td>"
-      },
-      {
-        "row": 68,
-        "rowsha": "oYsdnyALg8AzIa9SQc6g12SHxZsEaAnuMNKRixdVEOI=",
-        "originContent": "      <td rowspan=\"2\"><a href=\"https://arxiv.org/abs/2506.13053\"><img src=\"https://img.shields.io/badge/arXiv-Paper-COLOR.svg\"></a></td>",
-        "translatedContent": "      <td rowspan=\"2\"><a href=\"https://zipvoice.github.io\"><img src=\"https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square\"></a></td>"
-      },
-      {
-        "row": 69,
-        "rowsha": "D4+fblzP0Ay8rjWW7tpMeTQtV1brxxngEj2VRAwXeG4=",
-        "originContent": "      <td rowspan=\"2\"><a href=\"https://zipvoice.github.io\"><img src=\"https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square\"></a></td>",
-        "translatedContent": "    </tr>"
-      },
-      {
-        "row": 70,
-        "rowsha": "qMXSfcecmgpTcWjU4/DonhxZrtbJe20/4kuvSQqv9HU=",
-        "originContent": "    </tr>",
-        "translatedContent": "    <tr>"
-      },
-      {
-        "row": 71,
-        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
-        "originContent": "    <tr>",
-        "translatedContent": "      <td>ZipVoice-Distill</td>"
-      },
-      {
-        "row": 72,
-        "rowsha": "O5M2zS2wTgQ/tb2NGv9Zwg2M/p4ap3H3QEscfDprkLY=",
-        "originContent": "      <td>ZipVoice-Distill</td>",
-        "translatedContent": "      <td>ZipVoice 的蒸餾版，速度更快且性能下降極小。</td>"
-      },
-      {
-        "row": 73,
-        "rowsha": "+GY4P77oZKf2OE98WJt+uHde+9Pfx5adwPX/hgBXv/0=",
-        "originContent": "      <td>The distilled version of ZipVoice, featuring improved speed with minimal performance degradation.</td>",
-        "translatedContent": "    </tr>"
-      },
-      {
-        "row": 74,
-        "rowsha": "qMXSfcecmgpTcWjU4/DonhxZrtbJe20/4kuvSQqv9HU=",
-        "originContent": "    </tr>",
-        "translatedContent": "    <tr>"
-      },
-      {
-        "row": 75,
-        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
-        "originContent": "    <tr>",
-        "translatedContent": "      <td>ZipVoice-Dialog</td>"
-      },
-      {
-        "row": 76,
-        "rowsha": "AokiHqhaQvuU9KuEm8+8XFm12AAfehl/iUS5IKh25hg=",
-        "originContent": "      <td>ZipVoice-Dialog</td>",
-        "translatedContent": "      <td>基於 ZipVoice 的對話生成模型，能生成單聲道雙方對話語音。</td>"
-      },
-      {
-        "row": 77,
-        "rowsha": "VyLj//yzuicS9drxTtHyEb23TlyYimyWqSLjKnhiPRI=",
-        "originContent": "      <td>A dialogue generation model built on ZipVoice, capable of generating single-channel two-party spoken dialogues.</td>",
-        "translatedContent": "      <td rowspan=\"2\"><a href=\"https://arxiv.org/abs/2507.09318\"><img src=\"https://img.shields.io/badge/arXiv-Paper-COLOR.svg\"></a></td>"
-      },
-      {
-        "row": 78,
-        "rowsha": "52missEFmjbF4iX2P0jQNQNcxMRdvKLCWURi53zHj9c=",
-        "originContent": "      <td rowspan=\"2\"><a href=\"https://arxiv.org/abs/2507.09318\"><img src=\"https://img.shields.io/badge/arXiv-Paper-COLOR.svg\"></a></td>",
-        "translatedContent": "      <td rowspan=\"2\"><a href=\"https://zipvoice-dialog.github.io\"><img src=\"https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square\"></a></td>"
-      },
-      {
-        "row": 79,
-        "rowsha": "cDPQ2lSV0MvAN7W5vsgpUGdH0r3KovLhGy8iNUb891g=",
-        "originContent": "      <td rowspan=\"2\"><a href=\"https://zipvoice-dialog.github.io\"><img src=\"https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square\"></a></td>",
-        "translatedContent": "    </tr>"
-      },
-      {
-        "row": 80,
-        "rowsha": "qMXSfcecmgpTcWjU4/DonhxZrtbJe20/4kuvSQqv9HU=",
-        "originContent": "    </tr>",
-        "translatedContent": "    <tr>"
-      },
-      {
-        "row": 81,
-        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
-        "originContent": "    <tr>",
-        "translatedContent": "      <td>ZipVoice-Dialog-Stereo</td>"
-      },
-      {
-        "row": 82,
-        "rowsha": "5wxh9pzh0ath/did6Y4bnHT5G0oknzB4REIMmmpbrWc=",
-        "originContent": "      <td>ZipVoice-Dialog-Stereo</td>",
-        "translatedContent": "      <td>ZipVoice-Dialog 的立體聲變體，可生成雙聲道對話，讓每位說話人分配在不同聲道。</td>"
-      },
-      {
-        "row": 83,
-        "rowsha": "4zPgKHyoRGqee2hEpKE1kawe5id33R887ovyXGFAikU=",
-        "originContent": "      <td>The stereo variant of ZipVoice-Dialog, enabling two-channel dialogue generation with each speaker assigned to a distinct channel.</td>",
-        "translatedContent": "    </tr>"
-      },
-      {
-        "row": 84,
-        "rowsha": "qMXSfcecmgpTcWjU4/DonhxZrtbJe20/4kuvSQqv9HU=",
-        "originContent": "    </tr>",
-        "translatedContent": "  </tbody>"
-      },
-      {
-        "row": 85,
-        "rowsha": "HgAQR47u7qD0p8NwuwwZJ7dDJg35+B/lslvDHWuZaBU=",
-        "originContent": "  </tbody>",
-        "translatedContent": "</table>"
-      },
-      {
-        "row": 86,
-        "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
-        "originContent": "</table>",
-        "translatedContent": ""
-      },
-      {
-        "row": 87,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 最新消息"
-      },
-      {
-        "row": 88,
-        "rowsha": "4SzYJwNNDn2R2kkHsB4X4H4ZhUVuQo9QZvhInidlbxE=",
-        "originContent": "## News",
-        "translatedContent": ""
-      },
-      {
-        "row": 89,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "**2025/07/14**：**ZipVoice-Dialog** 與 **ZipVoice-Dialog-Stereo** 兩種對話語音生成模型正式發布。[![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice-dialog.github.io)"
-      },
-      {
-        "row": 90,
-        "rowsha": "DfOZSiFY93Zgx5ovWAl3CGk0WussCMIUOrJfiCw6Ul0=",
-        "originContent": "**2025/07/14**: **ZipVoice-Dialog** and **ZipVoice-Dialog-Stereo**, two spoken dialogue generation models, are released. [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice-dialog.github.io)",
-        "translatedContent": ""
-      },
-      {
-        "row": 91,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "**2025/07/14**：**OpenDialog** 數據集——一個 6.8k 小時的對話語音數據集——已發布。下載地址：[![hf](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/k2-fsa/OpenDialog)，[![ms](https://img.shields.io/badge/ModelScope-Dataset-blue?logo=data)](https://www.modelscope.cn/datasets/k2-fsa/OpenDialog)。詳細資訊：[![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318)。"
-      },
-      {
-        "row": 92,
-        "rowsha": "wfJgDxeKxMnLl7A8dgq85DYDIJZz2h5uq8GNw/nj5RU=",
-        "originContent": "**2025/07/14**: **OpenDialog** dataset, a 6.8k-hour spoken dialogue dataset, is realeased. Download at [![hf](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/k2-fsa/OpenDialog), [![ms](https://img.shields.io/badge/ModelScope-Dataset-blue?logo=data)](https://www.modelscope.cn/datasets/k2-fsa/OpenDialog). Check details at [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318).",
-        "translatedContent": ""
-      },
-      {
-        "row": 93,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "**2025/06/16**：**ZipVoice** 與 **ZipVoice-Distill** 正式發布。[![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2506.13053) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice.github.io)"
-      },
-      {
-        "row": 94,
-        "rowsha": "0OIq3Ae2KEaqpQCFjIP/3rxyTxS6RICMJWSmPyeMdA8=",
-        "originContent": "**2025/06/16**: **ZipVoice** and **ZipVoice-Distill** are released. [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2506.13053) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice.github.io)",
-        "translatedContent": ""
-      },
-      {
-        "row": 95,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 安裝教學"
-      },
-      {
-        "row": 96,
-        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
-        "originContent": "## Installation",
-        "translatedContent": ""
-      },
-      {
-        "row": 97,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 1. 複製 ZipVoice 程式庫"
-      },
-      {
-        "row": 98,
-        "rowsha": "3s/0urTHhRlVIuxHnj5ytcB39gCSsfn6y5cYocnuTIs=",
-        "originContent": "### 1. Clone the ZipVoice repository",
-        "translatedContent": ""
-      },
-      {
-        "row": 99,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -615,26 +20,7 @@
     "EndLine": 0,
     "Translation": "```bash\ngit clone https://github.com/k2-fsa/ZipVoice.git\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "4TFRN/HDpvsjUjETbQagnfY4ufmltknVgcLhC5vBuwo=",
-        "originContent": "git clone https://github.com/k2-fsa/ZipVoice.git",
-        "translatedContent": "git clone https://github.com/k2-fsa/ZipVoice.git"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -646,26 +32,7 @@
     "EndLine": 0,
     "Translation": "### 2.（可選）建立 Python 虛擬環境\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 2.（可選）建立 Python 虛擬環境"
-      },
-      {
-        "row": 2,
-        "rowsha": "LaZSeJbm0w8AfPf8sX4i/zX8Bg7xA6TfIa0QQLRSo/8=",
-        "originContent": "### 2. (Optional) Create a Python virtual environment",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -677,32 +44,7 @@
     "EndLine": 0,
     "Translation": "```bash\npython3 -m venv zipvoice\nsource zipvoice/bin/activate\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "0OOEw0t4On+2u6e5VlHqRXbEAlFO9KTyEcX9SR+BUxE=",
-        "originContent": "python3 -m venv zipvoice",
-        "translatedContent": "python3 -m venv zipvoice"
-      },
-      {
-        "row": 3,
-        "rowsha": "sZsjr3WcZubO7FxgGMzbp4j+5OGyHdXgQT2e2yTdT20=",
-        "originContent": "source zipvoice/bin/activate",
-        "translatedContent": "source zipvoice/bin/activate"
-      },
-      {
-        "row": 4,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -714,26 +56,7 @@
     "EndLine": 0,
     "Translation": "### 3. 安裝所需的套件\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 3. 安裝所需的套件"
-      },
-      {
-        "row": 2,
-        "rowsha": "i0Hi9l/RsRz6kbwMZWv+Sl+W2CQIAyheoFGEMRgD2SU=",
-        "originContent": "### 3. Install the required packages",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -745,67 +68,48 @@
     "EndLine": 0,
     "Translation": "```bash\npip install -r requirements.txt\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
-        "originContent": "pip install -r requirements.txt",
-        "translatedContent": "pip install -r requirements.txt"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
     "Id": 7,
-    "Content": "\n### 4. (Optional) Install k2 for training or efficient inference\n\nk2 is necessary for training and can speed up inference. Nevertheless, you can still use the inference mode of ZipVoice without installing k2.\n\n> **Note:**  Make sure to install the k2 version that matches your PyTorch and CUDA version. For example, if you are using pytorch 2.5.1 and CUDA 12.1, you can install k2 as follows:\n",
-    "ContentSha": "AunCh5RWbDdOEBV4dplnnzVPQO5JFqFz2U9sV3G36yE=",
+    "Content": "\n### 4. Install k2 for training or efficient inference\n\n**k2 is necessary for training** and can speed up inference. Nevertheless, you can still use the inference mode of ZipVoice without installing k2.\n\n> **Note:**  Make sure to install the k2 version that matches your PyTorch and CUDA version. For example, if you are using pytorch 2.5.1 and CUDA 12.1, you can install k2 as follows:\n",
+    "ContentSha": "it0kOYkTtKi6ipV/r+Px+BHDpullJx7ZxRNyR9UNc40=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "### 4.（選用）安裝 k2 以進行訓練或高效推理\n\nk2 是訓練所必需的，並且可以加速推理。不過，即使不安裝 k2，您仍然可以使用 ZipVoice 的推理模式。\n\n> **注意：**請確保安裝與您的 PyTorch 和 CUDA 版本相符的 k2 版本。例如，如果您使用的是 pytorch 2.5.1 和 CUDA 12.1，您可以按照以下方式安裝 k2：\n\n",
+    "Translation": "### 4. 安裝 k2 以進行訓練或高效推理\n\n**k2 是訓練所必需的**，並且可以加速推理。然而，即使不安裝 k2，你仍然可以使用 ZipVoice 的推理模式。\n\n> **注意：** 請確保安裝與你的 PyTorch 和 CUDA 版本相符的 k2 版本。例如，如果你使用的是 pytorch 2.5.1 和 CUDA 12.1，你可以按照以下方式安裝 k2：\n\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "### 4.（選用）安裝 k2 以進行訓練或高效推理"
+        "translatedContent": "### 4. 安裝 k2 以進行訓練或高效推理"
       },
       {
         "row": 2,
-        "rowsha": "MuHmtLjWwNmR29qXoq6+lxk13xxvNkeL4WcoWqxoyFc=",
-        "originContent": "### 4. (Optional) Install k2 for training or efficient inference",
+        "rowsha": "qwKY3J6LIDPN5bvfNcsfa7HzlDfSC8pp1zLydrb31ow=",
+        "originContent": "### 4. Install k2 for training or efficient inference",
         "translatedContent": ""
       },
       {
         "row": 3,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "k2 是訓練所必需的，並且可以加速推理。不過，即使不安裝 k2，您仍然可以使用 ZipVoice 的推理模式。"
+        "translatedContent": "**k2 是訓練所必需的**，並且可以加速推理。然而，即使不安裝 k2，你仍然可以使用 ZipVoice 的推理模式。"
       },
       {
         "row": 4,
-        "rowsha": "xr8/qQmMp1YkltoSnHMzUmUKcE57e8xhc2Y1o3Ymft0=",
-        "originContent": "k2 is necessary for training and can speed up inference. Nevertheless, you can still use the inference mode of ZipVoice without installing k2.",
+        "rowsha": "PnE26/HhKrLBlqwOytzo8AXDMZltiqCBhDPquqlBz1Q=",
+        "originContent": "**k2 is necessary for training** and can speed up inference. Nevertheless, you can still use the inference mode of ZipVoice without installing k2.",
         "translatedContent": ""
       },
       {
         "row": 5,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "> **注意：**請確保安裝與您的 PyTorch 和 CUDA 版本相符的 k2 版本。例如，如果您使用的是 pytorch 2.5.1 和 CUDA 12.1，您可以按照以下方式安裝 k2："
+        "translatedContent": "> **注意：** 請確保安裝與你的 PyTorch 和 CUDA 版本相符的 k2 版本。例如，如果你使用的是 pytorch 2.5.1 和 CUDA 12.1，你可以按照以下方式安裝 k2："
       },
       {
         "row": 6,
@@ -831,49 +135,30 @@
     "EndLine": 0,
     "Translation": "```bash\npip install k2==1.24.4.dev20250208+cuda12.1.torch2.5.1 -f https://k2-fsa.github.io/k2/cuda.html\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "1MQu0ANtRvHMOiF5ytM71XUIdS9PGAJSxaTMJ6MhcPI=",
-        "originContent": "pip install k2==1.24.4.dev20250208+cuda12.1.torch2.5.1 -f https://k2-fsa.github.io/k2/cuda.html",
-        "translatedContent": "pip install k2==1.24.4.dev20250208+cuda12.1.torch2.5.1 -f https://k2-fsa.github.io/k2/cuda.html"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
     "Id": 9,
-    "Content": "\nPlease refer to https://k2-fsa.org/get-started/k2/ for details.\nUsers in China mainland can refer to https://k2-fsa.org/zh-CN/get-started/k2/.\n\n## Usage\n\n### 1. Single-speaker speech generation\n\nTo generate single-speaker speech with our pre-trained ZipVoice or ZipVoice-Distill models, use the following commands (Required models will be downloaded from HuggingFace):\n\n#### 1.1 Inference of a single sentence\n",
-    "ContentSha": "r0+hRcWUQcEvBHSLnQnkENTtNINsaHWjU/kKiDlaTBY=",
+    "Content": "\nPlease refer to https://k2-fsa.org/get-started/k2/ for details.\nUsers in China mainland can refer to https://k2-fsa.org/zh-CN/get-started/k2/.\n\n- To check the k2 installation:\n",
+    "ContentSha": "rY1Zhq3aduWMw4XQSft+r2qBy7l8kqnHBs8cs4FGpZ4=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "請參考 https://k2-fsa.org/get-started/k2/ 以獲取詳細資訊。\n中國大陸的用戶可以參考 https://k2-fsa.org/zh-CN/get-started/k2/。\n\n## 使用方法\n\n### 1. 單一說話者語音生成\n\n要使用我們預訓練的 ZipVoice 或 ZipVoice-Distill 模型生成單一說話者語音，請使用以下指令（所需模型將自 HuggingFace 下載）：\n\n#### 1.1 單句推理\n\n",
+    "Translation": "請參閱 https://k2-fsa.org/get-started/k2/ 以了解詳情。\n中國大陸用戶可參考 https://k2-fsa.org/zh-CN/get-started/k2/。\n\n- 檢查 k2 是否安裝：\n\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "請參考 https://k2-fsa.org/get-started/k2/ 以獲取詳細資訊。"
+        "translatedContent": "請參閱 https://k2-fsa.org/get-started/k2/ 以了解詳情。"
       },
       {
         "row": 2,
         "rowsha": "fQFpgsJ7mNlMNjhxTiYJs1Z/7sz/HT0cJBgpwPNTWmI=",
         "originContent": "Please refer to https://k2-fsa.org/get-started/k2/ for details.",
-        "translatedContent": "中國大陸的用戶可以參考 https://k2-fsa.org/zh-CN/get-started/k2/。"
+        "translatedContent": "中國大陸用戶可參考 https://k2-fsa.org/zh-CN/get-started/k2/。"
       },
       {
         "row": 3,
@@ -885,52 +170,16 @@
         "row": 4,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## 使用方法"
+        "translatedContent": "- 檢查 k2 是否安裝："
       },
       {
         "row": 5,
-        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
-        "originContent": "## Usage",
+        "rowsha": "TK216NwSS6FDBRTvEinT+anoHssluQypjpVPkdbA8Yk=",
+        "originContent": "- To check the k2 installation:",
         "translatedContent": ""
       },
       {
         "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 1. 單一說話者語音生成"
-      },
-      {
-        "row": 7,
-        "rowsha": "nYUkNidMAwY0rOZOPCjiBmmdqfUjG8WhERZjR4/0KYE=",
-        "originContent": "### 1. Single-speaker speech generation",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "要使用我們預訓練的 ZipVoice 或 ZipVoice-Distill 模型生成單一說話者語音，請使用以下指令（所需模型將自 HuggingFace 下載）："
-      },
-      {
-        "row": 9,
-        "rowsha": "P9InJLuCjXsRXnIqzXrzTLGFxdKU/ix347WZtNhmgWs=",
-        "originContent": "To generate single-speaker speech with our pre-trained ZipVoice or ZipVoice-Distill models, use the following commands (Required models will be downloaded from HuggingFace):",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "#### 1.1 單句推理"
-      },
-      {
-        "row": 11,
-        "rowsha": "EHn70pw6zQn4Rlh44saEbf07w9vL1G089E1jcoF/mh0=",
-        "originContent": "#### 1.1 Inference of a single sentence",
-        "translatedContent": ""
-      },
-      {
-        "row": 12,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
@@ -940,58 +189,28 @@
   },
   {
     "Id": 10,
-    "Content": "```bash\npython3 -m zipvoice.bin.infer_zipvoice \\\n    --model-name zipvoice \\\n    --prompt-wav prompt.wav \\\n    --prompt-text \"I am the transcription of the prompt wav.\" \\\n    --text \"I am the text to be synthesized.\" \\\n    --res-wav-path result.wav\n```",
-    "ContentSha": "s3L0IUGcm9ppsQesBx8AKaxAjpRhRDaqb8rE/HLRinc=",
+    "Content": "```\npython3 -c \"import k2; print(k2.__file__)\"\n```",
+    "ContentSha": "ANBInWuMF6f8U3Ern+vXgJsPY6heEQDzrpLQwWst+/Y=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "```bash\npython3 -m zipvoice.bin.infer_zipvoice \\\n    --model-name zipvoice \\\n    --prompt-wav prompt.wav \\\n    --prompt-text \"I am the transcription of the prompt wav.\" \\\n    --text \"I am the text to be synthesized.\" \\\n    --res-wav-path result.wav\n```",
+    "Translation": "```\npython3 -c \"import k2; print(k2.__file__)\"\n```",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
       },
       {
         "row": 2,
-        "rowsha": "5LdycAFdcQwuhewgqaw7/qMEpPApn8QmSD+BPOU3C6A=",
-        "originContent": "python3 -m zipvoice.bin.infer_zipvoice \\",
-        "translatedContent": "python3 -m zipvoice.bin.infer_zipvoice \\"
+        "rowsha": "7yHd9AwCS2R/DPcwaogfIhkKXz9t9u3yeddGTQpSgnE=",
+        "originContent": "python3 -c \"import k2; print(k2.__file__)\"",
+        "translatedContent": "python3 -c \"import k2; print(k2.__file__)\""
       },
       {
         "row": 3,
-        "rowsha": "zFHtgr5VnRTMh9MTaeXwJ2eRS+EV7SlFisJRX/bkPyo=",
-        "originContent": "    --model-name zipvoice \\",
-        "translatedContent": "    --model-name zipvoice \\"
-      },
-      {
-        "row": 4,
-        "rowsha": "YSOCBdT+3vjkglQmCoD0EaQGlRKIMnIHF8oFPzewxIg=",
-        "originContent": "    --prompt-wav prompt.wav \\",
-        "translatedContent": "    --prompt-wav prompt.wav \\"
-      },
-      {
-        "row": 5,
-        "rowsha": "rjzYoGCQuTKgyc8PD8fCe7T1FFSO8K93XVmMFzQ1sww=",
-        "originContent": "    --prompt-text \"I am the transcription of the prompt wav.\" \\",
-        "translatedContent": "    --prompt-text \"I am the transcription of the prompt wav.\" \\"
-      },
-      {
-        "row": 6,
-        "rowsha": "9k8eTttpcL0LG5asxyfMVysYS+N1isHlsrlduS9s+Vg=",
-        "originContent": "    --text \"I am the text to be synthesized.\" \\",
-        "translatedContent": "    --text \"I am the text to be synthesized.\" \\"
-      },
-      {
-        "row": 7,
-        "rowsha": "9ZlszmYCtHtiSIYmtIzwO6atabFPUNUVgbcxTcDEs+4=",
-        "originContent": "    --res-wav-path result.wav",
-        "translatedContent": "    --res-wav-path result.wav"
-      },
-      {
-        "row": 8,
         "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
         "originContent": "```",
         "translatedContent": "```"
@@ -1001,82 +220,64 @@
   },
   {
     "Id": 11,
-    "Content": "\n- `--model-name` can be `zipvoice` or `zipvoice_distill`, which are models before and after distillation, respectively.\n- If `<>` or `[]` appear in the text, strings enclosed by them will be treated as special tokens. `<>` denotes Chinese pinyin and `[]` denotes other special tags.\n- Could run ONNX models on CPU faster with `zipvoice.bin.infer_zipvoice_onnx`.\n\n> **Note:** If you have trouble connecting to HuggingFace, try:\n> ```bash\n> export HF_ENDPOINT=https://hf-mirror.com\n> ```\n\n#### 1.2 Inference of a list of sentences\n",
-    "ContentSha": "Vumq5D+pC+8EhfN7hqWz4R4OvZRh+cnBXbyMF5CYM9g=",
+    "Content": "\n## Usage\n\n### 1. Single-speaker speech generation\n\nTo generate single-speaker speech with our pre-trained ZipVoice or ZipVoice-Distill models, use the following commands (Required models will be downloaded from HuggingFace):\n\n#### 1.1 Inference of a single sentence\n",
+    "ContentSha": "B4h5YyIywYfr2neMM1PwmS6nY8/eY48N4jkDeP3wG+Y=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "- `--model-name` 可以是 `zipvoice` 或 `zipvoice_distill`，分別代表蒸餾前與蒸餾後的模型。\n- 如果文本中出現 `<>` 或 `[]`，被它們包住的字串將會被視為特殊標記。`<>` 代表中文拼音，`[]` 代表其他特殊標籤。\n- 可以用 `zipvoice.bin.infer_zipvoice_onnx` 在 CPU 上更快地運行 ONNX 模型。\n\n> **注意：**如果連接 HuggingFace 有困難，請嘗試：\n> ```bash\n> export HF_ENDPOINT=https://hf-mirror.com\n> ```\n\n#### 1.2 一組句子的推理\n\n",
+    "Translation": "## 使用方式\n\n### 1. 單一說話者語音生成\n\n要使用我們預訓練的 ZipVoice 或 ZipVoice-Distill 模型生成單一說話者語音，請使用以下指令（所需模型將自 HuggingFace 下載）：\n\n#### 1.1 單句推論\n\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "- `--model-name` 可以是 `zipvoice` 或 `zipvoice_distill`，分別代表蒸餾前與蒸餾後的模型。"
+        "translatedContent": "## 使用方式"
       },
       {
         "row": 2,
-        "rowsha": "Vk0m6NrE3gMzFw6jIUmVS2xf8e53UPorfjw3hnyoR8g=",
-        "originContent": "- `--model-name` can be `zipvoice` or `zipvoice_distill`, which are models before and after distillation, respectively.",
-        "translatedContent": "- 如果文本中出現 `<>` 或 `[]`，被它們包住的字串將會被視為特殊標記。`<>` 代表中文拼音，`[]` 代表其他特殊標籤。"
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": ""
       },
       {
         "row": 3,
-        "rowsha": "l7kUz5yeNN2aq8iILGY4UuGx9dvsTL+VIkCcGFxqaHc=",
-        "originContent": "- If `<>` or `[]` appear in the text, strings enclosed by them will be treated as special tokens. `<>` denotes Chinese pinyin and `[]` denotes other special tags.",
-        "translatedContent": "- 可以用 `zipvoice.bin.infer_zipvoice_onnx` 在 CPU 上更快地運行 ONNX 模型。"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 1. 單一說話者語音生成"
       },
       {
         "row": 4,
-        "rowsha": "xtSgjxlYDTKa6TjWGyaxmkEx3A6qmhKIU+4WU+1W5Rw=",
-        "originContent": "- Could run ONNX models on CPU faster with `zipvoice.bin.infer_zipvoice_onnx`.",
+        "rowsha": "nYUkNidMAwY0rOZOPCjiBmmdqfUjG8WhERZjR4/0KYE=",
+        "originContent": "### 1. Single-speaker speech generation",
         "translatedContent": ""
       },
       {
         "row": 5,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "> **注意：**如果連接 HuggingFace 有困難，請嘗試："
+        "translatedContent": "要使用我們預訓練的 ZipVoice 或 ZipVoice-Distill 模型生成單一說話者語音，請使用以下指令（所需模型將自 HuggingFace 下載）："
       },
       {
         "row": 6,
-        "rowsha": "9PIvxzIKuTA9H/nzbpHeSgJKeqzmPgg2RfMiVUoXpks=",
-        "originContent": "> **Note:** If you have trouble connecting to HuggingFace, try:",
-        "translatedContent": "> ```bash"
+        "rowsha": "P9InJLuCjXsRXnIqzXrzTLGFxdKU/ix347WZtNhmgWs=",
+        "originContent": "To generate single-speaker speech with our pre-trained ZipVoice or ZipVoice-Distill models, use the following commands (Required models will be downloaded from HuggingFace):",
+        "translatedContent": ""
       },
       {
         "row": 7,
-        "rowsha": "wdkEOeFso6tqiT11qRgwNFig8+xjxbk3wJKCvpYihdM=",
-        "originContent": "> ```bash",
-        "translatedContent": "> export HF_ENDPOINT=https://hf-mirror.com"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### 1.1 單句推論"
       },
       {
         "row": 8,
-        "rowsha": "Fh3l2tm7u/FmmCHFN9V3Y/zJWCDEMcC3Bx7Vij2BQqM=",
-        "originContent": "> export HF_ENDPOINT=https://hf-mirror.com",
-        "translatedContent": "> ```"
+        "rowsha": "EHn70pw6zQn4Rlh44saEbf07w9vL1G089E1jcoF/mh0=",
+        "originContent": "#### 1.1 Inference of a single sentence",
+        "translatedContent": ""
       },
       {
         "row": 9,
-        "rowsha": "MSWTuK53TAylT2dLwAgGiANzYPowZK3H1tOGCQeahfM=",
-        "originContent": "> ```",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "#### 1.2 一組句子的推理"
-      },
-      {
-        "row": 11,
-        "rowsha": "8zUs0xdKItgiKM1ReiXt8Pbmo0PrH0yE33PZ24pLLIw=",
-        "originContent": "#### 1.2 Inference of a list of sentences",
-        "translatedContent": ""
-      },
-      {
-        "row": 12,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
@@ -1086,6 +287,30 @@
   },
   {
     "Id": 12,
+    "Content": "```bash\npython3 -m zipvoice.bin.infer_zipvoice \\\n    --model-name zipvoice \\\n    --prompt-wav prompt.wav \\\n    --prompt-text \"I am the transcription of the prompt wav.\" \\\n    --text \"I am the text to be synthesized.\" \\\n    --res-wav-path result.wav\n```",
+    "ContentSha": "s3L0IUGcm9ppsQesBx8AKaxAjpRhRDaqb8rE/HLRinc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython3 -m zipvoice.bin.infer_zipvoice \\\n    --model-name zipvoice \\\n    --prompt-wav prompt.wav \\\n    --prompt-text \"I am the transcription of the prompt wav.\" \\\n    --text \"I am the text to be synthesized.\" \\\n    --res-wav-path result.wav\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n- `--model-name` can be `zipvoice` or `zipvoice_distill`, which are models before and after distillation, respectively.\n- If `<>` or `[]` appear in the text, strings enclosed by them will be treated as special tokens. `<>` denotes Chinese pinyin and `[]` denotes other special tags.\n- Could run ONNX models on CPU faster with `zipvoice.bin.infer_zipvoice_onnx`.\n\n> **Note:** If you have trouble connecting to HuggingFace, try:\n> ```bash\n> export HF_ENDPOINT=https://hf-mirror.com\n> ```\n\n#### 1.2 Inference of a list of sentences\n",
+    "ContentSha": "Vumq5D+pC+8EhfN7hqWz4R4OvZRh+cnBXbyMF5CYM9g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- `--model-name` 可以是 `zipvoice` 或 `zipvoice_distill`，分別代表蒸餾前與蒸餾後的模型。\n- 如果文本中出現 `<>` 或 `[]`，被它們包住的字串將會被視為特殊標記。`<>` 代表中文拼音，`[]` 代表其他特殊標籤。\n- 可以用 `zipvoice.bin.infer_zipvoice_onnx` 在 CPU 上更快地運行 ONNX 模型。\n\n> **注意：**如果連接 HuggingFace 有困難，請嘗試：\n> ```bash\n> export HF_ENDPOINT=https://hf-mirror.com\n> ```\n\n#### 1.2 一組句子的推理\n\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
     "Content": "```bash\npython3 -m zipvoice.bin.infer_zipvoice \\\n    --model-name zipvoice \\\n    --test-list test.tsv \\\n    --res-dir results\n```",
     "ContentSha": "wVKNQBx9Qf3wuIvCUTrQwDyZzDuqDpC7W9a1psJg5Ds=",
     "SectionType": "",
@@ -1093,54 +318,17 @@
     "EndLine": 0,
     "Translation": "```bash\npython3 -m zipvoice.bin.infer_zipvoice \\\n    --model-name zipvoice \\\n    --test-list test.tsv \\\n    --res-dir results\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "5LdycAFdcQwuhewgqaw7/qMEpPApn8QmSD+BPOU3C6A=",
-        "originContent": "python3 -m zipvoice.bin.infer_zipvoice \\",
-        "translatedContent": "python3 -m zipvoice.bin.infer_zipvoice \\"
-      },
-      {
-        "row": 3,
-        "rowsha": "zFHtgr5VnRTMh9MTaeXwJ2eRS+EV7SlFisJRX/bkPyo=",
-        "originContent": "    --model-name zipvoice \\",
-        "translatedContent": "    --model-name zipvoice \\"
-      },
-      {
-        "row": 4,
-        "rowsha": "D5+l+x4feOqp7oGIjjcTZgwDvsFKfePUlMADLvNkUac=",
-        "originContent": "    --test-list test.tsv \\",
-        "translatedContent": "    --test-list test.tsv \\"
-      },
-      {
-        "row": 5,
-        "rowsha": "w9VwI2xzL8mzYrhdSUdf7RlT8eV6nbqfz1JKKK4logo=",
-        "originContent": "    --res-dir results",
-        "translatedContent": "    --res-dir results"
-      },
-      {
-        "row": 6,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 13,
-    "Content": "\n- Each line of `test.tsv` is in the format of `{wav_name}\\t{prompt_transcription}\\t{prompt_wav}\\t{text}`.\n\n### 2. Spoken dialogue generation\n\n#### 2.1 Inference command\n\nTo generate two-party spoken dialogues with our pre-trained ZipVoice-Dialogue or ZipVoice-Dialogue-Stereo models, use the following commands (Required models will be downloaded from HuggingFace):\n",
-    "ContentSha": "Y1jOHU4hLHL9ya91H7Aq2t2hV9ndeX8swoNVOPeLilg=",
+    "Id": 15,
+    "Content": "\n- Each line of `test.tsv` is in the format of `{wav_name}\\t{prompt_transcription}\\t{prompt_wav}\\t{text}`.\n\n### 2. Dialogue speech generation\n\n#### 2.1 Inference command\n\nTo generate two-party spoken dialogues with our pre-trained ZipVoice-Dialogue or ZipVoice-Dialogue-Stereo models, use the following commands (Required models will be downloaded from HuggingFace):\n",
+    "ContentSha": "bkRixLiKF8JLzfAqriyk1UZSkb5qCPhJVvI3VACgZos=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "- `test.tsv` 的每一行格式為 `{wav_name}\\t{prompt_transcription}\\t{prompt_wav}\\t{text}`。\n\n### 2. 語音對話生成\n\n#### 2.1 推論指令\n\n要使用我們預訓練的 ZipVoice-Dialogue 或 ZipVoice-Dialogue-Stereo 模型生成雙方語音對話，請使用以下指令（所需模型將從 HuggingFace 下載）：\n\n",
+    "Translation": "- `test.tsv` 的每一行格式為 `{wav_name}\\t{prompt_transcription}\\t{prompt_wav}\\t{text}`。\n\n### 2. 對話語音生成\n\n#### 2.1 推論指令\n\n要使用我們預訓練的 ZipVoice-Dialogue 或 ZipVoice-Dialogue-Stereo 模型生成雙方對話語音，請使用以下指令（所需模型將從 HuggingFace 下載）：\n\n",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -1159,12 +347,12 @@
         "row": 3,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "### 2. 語音對話生成"
+        "translatedContent": "### 2. 對話語音生成"
       },
       {
         "row": 4,
-        "rowsha": "Zdd2Sfo7m97Uvp4vpRWnek6NBUjrt8BK30IfSi54XO0=",
-        "originContent": "### 2. Spoken dialogue generation",
+        "rowsha": "bvcLOhmoedTyLZfj2JhiFWHLaVG/oixY/37D6xadfYc=",
+        "originContent": "### 2. Dialogue speech generation",
         "translatedContent": ""
       },
       {
@@ -1183,7 +371,7 @@
         "row": 7,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "要使用我們預訓練的 ZipVoice-Dialogue 或 ZipVoice-Dialogue-Stereo 模型生成雙方語音對話，請使用以下指令（所需模型將從 HuggingFace 下載）："
+        "translatedContent": "要使用我們預訓練的 ZipVoice-Dialogue 或 ZipVoice-Dialogue-Stereo 模型生成雙方對話語音，請使用以下指令（所需模型將從 HuggingFace 下載）："
       },
       {
         "row": 8,
@@ -1201,7 +389,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 14,
+    "Id": 16,
     "Content": "```bash\npython3 -m zipvoice.bin.infer_zipvoice_dialog \\\n    --model-name \"zipvoice_dialog\" \\\n    --test-list test.tsv \\\n    --res-dir results\n```",
     "ContentSha": "SmNrjO7IvCsVTs0ROGG3evCMgCtj54DYGkGCZbRdz8k=",
     "SectionType": "",
@@ -1209,48 +397,11 @@
     "EndLine": 0,
     "Translation": "```bash\npython3 -m zipvoice.bin.infer_zipvoice_dialog \\\n    --model-name \"zipvoice_dialog\" \\\n    --test-list test.tsv \\\n    --res-dir results\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "02EGjjb3FkRwD02iqCnPSs/zM1/1b05/tK3bUw/WhTY=",
-        "originContent": "python3 -m zipvoice.bin.infer_zipvoice_dialog \\",
-        "translatedContent": "python3 -m zipvoice.bin.infer_zipvoice_dialog \\"
-      },
-      {
-        "row": 3,
-        "rowsha": "/Jt4LOTqysYQkCuxz7XqVaf9zK3l1MUfnP/4yz3NGis=",
-        "originContent": "    --model-name \"zipvoice_dialog\" \\",
-        "translatedContent": "    --model-name \"zipvoice_dialog\" \\"
-      },
-      {
-        "row": 4,
-        "rowsha": "D5+l+x4feOqp7oGIjjcTZgwDvsFKfePUlMADLvNkUac=",
-        "originContent": "    --test-list test.tsv \\",
-        "translatedContent": "    --test-list test.tsv \\"
-      },
-      {
-        "row": 5,
-        "rowsha": "w9VwI2xzL8mzYrhdSUdf7RlT8eV6nbqfz1JKKK4logo=",
-        "originContent": "    --res-dir results",
-        "translatedContent": "    --res-dir results"
-      },
-      {
-        "row": 6,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 15,
+    "Id": 17,
     "Content": "\n- `--model-name` can be `zipvoice_dialog` or `zipvoice_dialog_stereo`,\n    which generate mono and stereo dialogues, respectively.\n\n#### 2.2 Input formats\n\nEach line of `test.tsv` is in one of the following formats:\n\n(1) **Merged prompt format** where the audios and transcriptions of two speakers prompts are merged into one prompt wav file:",
     "ContentSha": "e336Qt1qFvFmNefniyPEWJue5A1mLBZUSlD6p1+H8To=",
     "SectionType": "",
@@ -1258,66 +409,11 @@
     "EndLine": 0,
     "Translation": "- `--model-name` 可以是 `zipvoice_dialog` 或 `zipvoice_dialog_stereo`，\n    分別產生單聲道和立體聲對話。\n\n#### 2.2 輸入格式\n\n`test.tsv` 的每一行都是以下格式之一：\n\n(1) **合併提示格式**，其中兩位說話者的提示音訊和轉錄被合併為一個提示 wav 檔案：\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- `--model-name` 可以是 `zipvoice_dialog` 或 `zipvoice_dialog_stereo`，"
-      },
-      {
-        "row": 2,
-        "rowsha": "efh94tjBUiXMg0iW3tm91TgIqk27vEyT7K+gz45o3U4=",
-        "originContent": "- `--model-name` can be `zipvoice_dialog` or `zipvoice_dialog_stereo`,",
-        "translatedContent": "    分別產生單聲道和立體聲對話。"
-      },
-      {
-        "row": 3,
-        "rowsha": "sUUSv5131XkbpDplToFxeh7bVYEmhMfG38JwjC/rblY=",
-        "originContent": "    which generate mono and stereo dialogues, respectively.",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "#### 2.2 輸入格式"
-      },
-      {
-        "row": 5,
-        "rowsha": "yzCUfUaMYIGbSrIVGSWh9AMuAUnBOji9wge+e4P5Iho=",
-        "originContent": "#### 2.2 Input formats",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "`test.tsv` 的每一行都是以下格式之一："
-      },
-      {
-        "row": 7,
-        "rowsha": "b/hsuW3fFq0H1K5EyhZXl9BISFwdeJqFFf7u5KikMRs=",
-        "originContent": "Each line of `test.tsv` is in one of the following formats:",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "(1) **合併提示格式**，其中兩位說話者的提示音訊和轉錄被合併為一個提示 wav 檔案："
-      },
-      {
-        "row": 9,
-        "rowsha": "shpGzzPLHdPJNlYKJr9kia6At5Ep6PzMs5wuBpwhv34=",
-        "originContent": "(1) **Merged prompt format** where the audios and transcriptions of two speakers prompts are merged into one prompt wav file:",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 16,
+    "Id": 18,
     "Content": "```\n{wav_name}\\t{prompt_transcription}\\t{prompt_wav}\\t{text}\n```",
     "ContentSha": "F8c2S4lpByZ5Nhd693ESYvOeDT7lT7vF2Txm3q64ync=",
     "SectionType": "",
@@ -1325,30 +421,11 @@
     "EndLine": 0,
     "Translation": "```\n{wav_name}\\t{prompt_transcription}\\t{prompt_wav}\\t{text}\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "PU3UqBigF3r7Xjbl9g2CTgEa4WeuSaz/upD7vuF8+Us=",
-        "originContent": "{wav_name}\\t{prompt_transcription}\\t{prompt_wav}\\t{text}",
-        "translatedContent": "{wav_name}\\t{prompt_transcription}\\t{prompt_wav}\\t{text}"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 17,
+    "Id": 19,
     "Content": "\n- `wav_name` is the name of the output wav file.\n- `prompt_transcription` is the transcription of the conversational prompt wav, e.g, \"[S1] Hello. [S2] How are you?\"\n- `prompt_wav` is the path to the prompt wav.\n- `text` is the text to be synthesized, e.g. \"[S1] I'm fine. [S2] What's your name?\"\n\n(2) **Splitted prompt format** where the audios and transciptions of two speakers exist in separate files:\n",
     "ContentSha": "TBRCtw89LyrvgbFLTn2V5gCeA8mTF6rda1jpE44BfzQ=",
     "SectionType": "",
@@ -1356,60 +433,11 @@
     "EndLine": 0,
     "Translation": "- `wav_name` 是輸出 wav 檔案的名稱。\n- `prompt_transcription` 是對話提示 wav 的文字記錄，例如：「[S1] 你好。[S2] 你好嗎？」\n- `prompt_wav` 是提示 wav 的路徑。\n- `text` 是要合成的文字，例如：「[S1] 我很好。[S2] 你叫什麼名字？」\n\n(2) **分割提示格式**，即兩位說話者的音訊與文字記錄分別存在不同檔案中：\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- `wav_name` 是輸出 wav 檔案的名稱。"
-      },
-      {
-        "row": 2,
-        "rowsha": "6vgIR6WfUAFmULhn8LhxFttPwZEo/YwGhN1DAECwHCQ=",
-        "originContent": "- `wav_name` is the name of the output wav file.",
-        "translatedContent": "- `prompt_transcription` 是對話提示 wav 的文字記錄，例如：「[S1] 你好。[S2] 你好嗎？」"
-      },
-      {
-        "row": 3,
-        "rowsha": "8kGHHZ7ObsZ8uyIBm+8FSBfPWSNEFzO6a4avI5fvxU8=",
-        "originContent": "- `prompt_transcription` is the transcription of the conversational prompt wav, e.g, \"[S1] Hello. [S2] How are you?\"",
-        "translatedContent": "- `prompt_wav` 是提示 wav 的路徑。"
-      },
-      {
-        "row": 4,
-        "rowsha": "49ZQfEoq6fSJWYpjq6scIFSZl4p3azUAuAfh/UGDXoQ=",
-        "originContent": "- `prompt_wav` is the path to the prompt wav.",
-        "translatedContent": "- `text` 是要合成的文字，例如：「[S1] 我很好。[S2] 你叫什麼名字？」"
-      },
-      {
-        "row": 5,
-        "rowsha": "bllORZskiCR9fU5bX9yk0xZyqribcNFIl5OGst+H9hs=",
-        "originContent": "- `text` is the text to be synthesized, e.g. \"[S1] I'm fine. [S2] What's your name?\"",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "(2) **分割提示格式**，即兩位說話者的音訊與文字記錄分別存在不同檔案中："
-      },
-      {
-        "row": 7,
-        "rowsha": "cDDd56+0WMPRH7CargkOcXZpCX+wGZvzj4Pws7l8G8M=",
-        "originContent": "(2) **Splitted prompt format** where the audios and transciptions of two speakers exist in separate files:",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 18,
+    "Id": 20,
     "Content": "```\n{wav_name}\\t{spk1_prompt_transcription}\\t{spk2_prompt_transcription}\\t{spk1_prompt_wav}\\t{spk2_prompt_wav}\\t{text}'\n```",
     "ContentSha": "8abqUXM7QkQlDEHBZFgyWhBL8Q9g5cBW+peshcgqbdE=",
     "SectionType": "",
@@ -1417,36 +445,17 @@
     "EndLine": 0,
     "Translation": "```\n{wav_name}\\t{spk1_prompt_transcription}\\t{spk2_prompt_transcription}\\t{spk1_prompt_wav}\\t{spk2_prompt_wav}\\t{text}'\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "VFi21YJECz9ZlEVrJTuBKRACy4qCFuQ1tBIIgF9To1w=",
-        "originContent": "{wav_name}\\t{spk1_prompt_transcription}\\t{spk2_prompt_transcription}\\t{spk1_prompt_wav}\\t{spk2_prompt_wav}\\t{text}'",
-        "translatedContent": "{wav_name}\\t{spk1_prompt_transcription}\\t{spk2_prompt_transcription}\\t{spk1_prompt_wav}\\t{spk2_prompt_wav}\\t{text}'"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 19,
-    "Content": "\n- `wav_name` is the name of the output wav file.\n- `spk1_prompt_transcription` is the transcription of the first speaker's prompt wav, e.g, \"Hello\"\n- `spk2_prompt_transcription` is the transcription of the second speaker's prompt wav, e.g, \"How are you?\"\n- `spk1_prompt_wav` is the path to the first speaker's prompt wav file.\n- `spk2_prompt_wav` is the path to the second speaker's prompt wav file.\n- `text` is the text to be synthesized, e.g. \"[S1] I'm fine. [S2] What's your name?\"\n\n### 3. Other features\n\n#### 3.1 Correcting mispronounced chinese polyphone characters\n\nWe use [pypinyin](https://github.com/mozillazg/python-pinyin) to convert Chinese characters to pinyin. However, it can occasionally mispronounce **polyphone characters** (多音字).\n\nTo manually correct these mispronunciations, enclose the **corrected pinyin** in angle brackets `< >` and include the **tone mark**.\n\n**Example:**\n\n- Original text: `这把剑长三十公分`\n- Correct the pinyin of `长`:  `这把剑<chang2>三十公分`\n\n> **Note:** If you want to manually assign multiple pinyins, enclose each pinyin with `<>`, e.g., `这把<jian4><chang2><san1>十公分`\n\n## Train Your Own Model\n\nSee the [egs](egs) directory for training and fine-tuning examples.\n\n## Discussion & Communication\n\nYou can directly discuss on [Github Issues](https://github.com/k2-fsa/ZipVoice/issues).\n\nYou can also scan the QR code to join our wechat group or follow our wechat official account.\n\n| Wechat Group | Wechat Official Account |\n| ------------ | ----------------------- |\n|![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |\n\n## Citation\n",
-    "ContentSha": "PBd+I1clzgHsRDhwZaDOD3OqLsFEA4HGDvXZadPlBlM=",
+    "Id": 21,
+    "Content": "\n- `wav_name` is the name of the output wav file.\n- `spk1_prompt_transcription` is the transcription of the first speaker's prompt wav, e.g, \"Hello\"\n- `spk2_prompt_transcription` is the transcription of the second speaker's prompt wav, e.g, \"How are you?\"\n- `spk1_prompt_wav` is the path to the first speaker's prompt wav file.\n- `spk2_prompt_wav` is the path to the second speaker's prompt wav file.\n- `text` is the text to be synthesized, e.g. \"[S1] I'm fine. [S2] What's your name?\"\n\n### 3. Other features\n\n#### 3.1 Correcting mispronounced chinese polyphone characters\n\nWe use [pypinyin](https://github.com/mozillazg/python-pinyin) to convert Chinese characters to pinyin. However, it can occasionally mispronounce **polyphone characters** (多音字).\n\nTo manually correct these mispronunciations, enclose the **corrected pinyin** in angle brackets `< >` and include the **tone mark**.\n\n**Example:**\n\n- Original text: `这把剑长三十公分`\n- Correct the pinyin of `长`:  `这把剑<chang2>三十公分`\n\n> **Note:** If you want to manually assign multiple pinyins, enclose each pinyin with `<>`, e.g., `这把<jian4><chang2><san1>十公分`\n\n## Train Your Own Model\n\nSee the [egs](egs) directory for training, fine-tuning and evaluation examples.\n\n## Discussion & Communication\n\nYou can directly discuss on [Github Issues](https://github.com/k2-fsa/ZipVoice/issues).\n\nYou can also scan the QR code to join our wechat group or follow our wechat official account.\n\n| Wechat Group | Wechat Official Account |\n| ------------ | ----------------------- |\n|![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |\n\n## Citation\n",
+    "ContentSha": "/LS3gvdPdMzlHSPEpvFMbWw4k50ufMpVkq9GYClPmR8=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "- `wav_name` 是輸出 wav 檔案的名稱。\n- `spk1_prompt_transcription` 是第一位說話者提示 wav 的轉錄內容，例如 \"Hello\"\n- `spk2_prompt_transcription` 是第二位說話者提示 wav 的轉錄內容，例如 \"How are you?\"\n- `spk1_prompt_wav` 是第一位說話者提示 wav 檔案的路徑。\n- `spk2_prompt_wav` 是第二位說話者提示 wav 檔案的路徑。\n- `text` 是要合成的文本，例如 \"[S1] I'm fine. [S2] What's your name?\"\n\n### 3. 其他功能\n\n#### 3.1 修正中文多音字發音錯誤\n\n我們使用 [pypinyin](https://github.com/mozillazg/python-pinyin) 將中文字符轉換為拼音。然而，它有時會將**多音字**發音錯誤。\n\n若要手動修正這些發音錯誤，請將**正確的拼音**用尖括號 `< >` 括起，並包含**聲調標記**。\n\n**例子：**\n\n- 原文：`这把剑长三十公分`\n- 修正 `长` 的拼音：`这把剑<chang2>三十公分`\n\n> **注意：** 如果想手動指定多個拼音，請用 `<>` 包住每個拼音，例如：`这把<jian4><chang2><san1>十公分`\n\n## 訓練您自己的模型\n\n請參閱 [egs](egs) 目錄以獲取訓練和微調範例。\n\n## 討論與交流\n\n您可以直接在 [Github Issues](https://github.com/k2-fsa/ZipVoice/issues) 上討論。\n\n您也可以掃描二維碼加入我們的微信交流群，或關注我們的微信公眾號。\n\n| 微信交流群 | 微信公眾號 |\n| ------------ | ----------------------- |\n|![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |\n\n## 引用\n\n",
+    "Translation": "- `wav_name` 是輸出 wav 檔案的名稱。\n- `spk1_prompt_transcription` 是第一位說話者提示音檔的文字轉寫，例如 \"Hello\"\n- `spk2_prompt_transcription` 是第二位說話者提示音檔的文字轉寫，例如 \"How are you?\"\n- `spk1_prompt_wav` 是第一位說話者提示音檔的路徑。\n- `spk2_prompt_wav` 是第二位說話者提示音檔的路徑。\n- `text` 是要合成的文本，例如 \"[S1] I'm fine. [S2] What's your name?\"\n\n### 3. 其他功能\n\n#### 3.1 修正中文多音字發音錯誤\n\n我們使用 [pypinyin](https://github.com/mozillazg/python-pinyin) 將中文字符轉換為拼音。然而，它有時會將**多音字**讀錯。\n\n要手動修正這些錯誤發音，請將**正確的拼音**用尖括號 `< >` 括起來，並標註**聲調**。\n\n**範例：**\n\n- 原文：`这把剑长三十公分`\n- 修正 `长` 的拼音：`这把剑<chang2>三十公分`\n\n> **注意：** 如果你想手動指定多個拼音，請將每個拼音用 `<>` 括起，例如 `这把<jian4><chang2><san1>十公分`\n\n## 訓練你自己的模型\n\n請參閱 [egs](egs) 目錄中的訓練、微調與評估範例。\n\n## 討論與交流\n\n你可以直接在 [Github Issues](https://github.com/k2-fsa/ZipVoice/issues) 上進行討論。\n\n你也可以掃描 QR 碼加入我們的微信交流群或關注我們的微信公眾號。\n\n| 微信交流群 | 微信公眾號 |\n| ------------ | ----------------------- |\n|![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |\n\n## 引用\n\n",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -1459,25 +468,25 @@
         "row": 2,
         "rowsha": "6vgIR6WfUAFmULhn8LhxFttPwZEo/YwGhN1DAECwHCQ=",
         "originContent": "- `wav_name` is the name of the output wav file.",
-        "translatedContent": "- `spk1_prompt_transcription` 是第一位說話者提示 wav 的轉錄內容，例如 \"Hello\""
+        "translatedContent": "- `spk1_prompt_transcription` 是第一位說話者提示音檔的文字轉寫，例如 \"Hello\""
       },
       {
         "row": 3,
         "rowsha": "7BNq8UaBvTut4Ow/oJBAgIDTn3EwEZXK7mlUaYdFwqw=",
         "originContent": "- `spk1_prompt_transcription` is the transcription of the first speaker's prompt wav, e.g, \"Hello\"",
-        "translatedContent": "- `spk2_prompt_transcription` 是第二位說話者提示 wav 的轉錄內容，例如 \"How are you?\""
+        "translatedContent": "- `spk2_prompt_transcription` 是第二位說話者提示音檔的文字轉寫，例如 \"How are you?\""
       },
       {
         "row": 4,
         "rowsha": "CES8w9dqVdkdJyOJBUVP282aaKeevVWB3d/+59TEsuk=",
         "originContent": "- `spk2_prompt_transcription` is the transcription of the second speaker's prompt wav, e.g, \"How are you?\"",
-        "translatedContent": "- `spk1_prompt_wav` 是第一位說話者提示 wav 檔案的路徑。"
+        "translatedContent": "- `spk1_prompt_wav` 是第一位說話者提示音檔的路徑。"
       },
       {
         "row": 5,
         "rowsha": "gXLLRf4BR7Xko2q2l4nK04KIs/L8CjvZ/UBQaP1+vck=",
         "originContent": "- `spk1_prompt_wav` is the path to the first speaker's prompt wav file.",
-        "translatedContent": "- `spk2_prompt_wav` 是第二位說話者提示 wav 檔案的路徑。"
+        "translatedContent": "- `spk2_prompt_wav` 是第二位說話者提示音檔的路徑。"
       },
       {
         "row": 6,
@@ -1519,7 +528,7 @@
         "row": 12,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "我們使用 [pypinyin](https://github.com/mozillazg/python-pinyin) 將中文字符轉換為拼音。然而，它有時會將**多音字**發音錯誤。"
+        "translatedContent": "我們使用 [pypinyin](https://github.com/mozillazg/python-pinyin) 將中文字符轉換為拼音。然而，它有時會將**多音字**讀錯。"
       },
       {
         "row": 13,
@@ -1531,7 +540,7 @@
         "row": 14,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "若要手動修正這些發音錯誤，請將**正確的拼音**用尖括號 `< >` 括起，並包含**聲調標記**。"
+        "translatedContent": "要手動修正這些錯誤發音，請將**正確的拼音**用尖括號 `< >` 括起來，並標註**聲調**。"
       },
       {
         "row": 15,
@@ -1543,7 +552,7 @@
         "row": 16,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "**例子：**"
+        "translatedContent": "**範例：**"
       },
       {
         "row": 17,
@@ -1573,7 +582,7 @@
         "row": 21,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "> **注意：** 如果想手動指定多個拼音，請用 `<>` 包住每個拼音，例如：`这把<jian4><chang2><san1>十公分`"
+        "translatedContent": "> **注意：** 如果你想手動指定多個拼音，請將每個拼音用 `<>` 括起，例如 `这把<jian4><chang2><san1>十公分`"
       },
       {
         "row": 22,
@@ -1585,7 +594,7 @@
         "row": 23,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## 訓練您自己的模型"
+        "translatedContent": "## 訓練你自己的模型"
       },
       {
         "row": 24,
@@ -1597,12 +606,12 @@
         "row": 25,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "請參閱 [egs](egs) 目錄以獲取訓練和微調範例。"
+        "translatedContent": "請參閱 [egs](egs) 目錄中的訓練、微調與評估範例。"
       },
       {
         "row": 26,
-        "rowsha": "ZGCE1jWTXW0xbHbucVHeEBUrHSBzgsSaPyISECzVTnI=",
-        "originContent": "See the [egs](egs) directory for training and fine-tuning examples.",
+        "rowsha": "XaSJNyFaxQRx1Xc0mphwUGAxovKELo/54WkMCnFDLyE=",
+        "originContent": "See the [egs](egs) directory for training, fine-tuning and evaluation examples.",
         "translatedContent": ""
       },
       {
@@ -1621,7 +630,7 @@
         "row": 29,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "您可以直接在 [Github Issues](https://github.com/k2-fsa/ZipVoice/issues) 上討論。"
+        "translatedContent": "你可以直接在 [Github Issues](https://github.com/k2-fsa/ZipVoice/issues) 上進行討論。"
       },
       {
         "row": 30,
@@ -1633,7 +642,7 @@
         "row": 31,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "您也可以掃描二維碼加入我們的微信交流群，或關注我們的微信公眾號。"
+        "translatedContent": "你也可以掃描 QR 碼加入我們的微信交流群或關注我們的微信公眾號。"
       },
       {
         "row": 32,
@@ -1687,7 +696,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 20,
+    "Id": 22,
     "Content": "```bibtex\n@article{zhu2025zipvoice,\n      title={ZipVoice: Fast and High-Quality Zero-Shot Text-to-Speech with Flow Matching},\n      author={Zhu, Han and Kang, Wei and Yao, Zengwei and Guo, Liyong and Kuang, Fangjun and Li, Zhaoqing and Zhuang, Weiji and Lin, Long and Povey, Daniel},\n      journal={arXiv preprint arXiv:2506.13053},\n      year={2025}\n}\n\n@article{zhu2025zipvoicedialog,\n      title={ZipVoice-Dialog: Non-Autoregressive Spoken Dialogue Generation with Flow Matching},\n      author={Zhu, Han and Kang, Wei and Guo, Liyong and Yao, Zengwei and Kuang, Fangjun and Zhuang, Weiji and Li, Zhaoqing and Han, Zhifeng and Zhang, Dong and Zhang, Xin and Song, Xingchen and Lin, Long and Povey, Daniel},\n      journal={arXiv preprint arXiv:2507.09318},\n      year={2025}\n}\n```",
     "ContentSha": "4y5htVtgE8qDxiQNpfNmGGVhWO4hKo26DrPCI9N/e9E=",
     "SectionType": "",
@@ -1695,102 +704,11 @@
     "EndLine": 0,
     "Translation": "```bibtex\n@article{zhu2025zipvoice,\n      title={ZipVoice: Fast and High-Quality Zero-Shot Text-to-Speech with Flow Matching},\n      author={Zhu, Han and Kang, Wei and Yao, Zengwei and Guo, Liyong and Kuang, Fangjun and Li, Zhaoqing and Zhuang, Weiji and Lin, Long and Povey, Daniel},\n      journal={arXiv preprint arXiv:2506.13053},\n      year={2025}\n}\n\n@article{zhu2025zipvoicedialog,\n      title={ZipVoice-Dialog: Non-Autoregressive Spoken Dialogue Generation with Flow Matching},\n      author={Zhu, Han and Kang, Wei and Guo, Liyong and Yao, Zengwei and Kuang, Fangjun and Zhuang, Weiji and Li, Zhaoqing and Han, Zhifeng and Zhang, Dong and Zhang, Xin and Song, Xingchen and Lin, Long and Povey, Daniel},\n      journal={arXiv preprint arXiv:2507.09318},\n      year={2025}\n}\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
-        "originContent": "```bibtex",
-        "translatedContent": "```bibtex"
-      },
-      {
-        "row": 2,
-        "rowsha": "RE2Kcti+ufeE8yfJj+346nWo1bMqUDNFKrKesr+bmg0=",
-        "originContent": "@article{zhu2025zipvoice,",
-        "translatedContent": "@article{zhu2025zipvoice,"
-      },
-      {
-        "row": 3,
-        "rowsha": "VQybKNg8P9fnj0U2AJFozYiQFpit5CENL4VuPhNAw7Y=",
-        "originContent": "      title={ZipVoice: Fast and High-Quality Zero-Shot Text-to-Speech with Flow Matching},",
-        "translatedContent": "      title={ZipVoice: Fast and High-Quality Zero-Shot Text-to-Speech with Flow Matching},"
-      },
-      {
-        "row": 4,
-        "rowsha": "PbkJMimWSkwo41nok0n9FbjMvhB3UWQUdCUiLt81DSg=",
-        "originContent": "      author={Zhu, Han and Kang, Wei and Yao, Zengwei and Guo, Liyong and Kuang, Fangjun and Li, Zhaoqing and Zhuang, Weiji and Lin, Long and Povey, Daniel},",
-        "translatedContent": "      author={Zhu, Han and Kang, Wei and Yao, Zengwei and Guo, Liyong and Kuang, Fangjun and Li, Zhaoqing and Zhuang, Weiji and Lin, Long and Povey, Daniel},"
-      },
-      {
-        "row": 5,
-        "rowsha": "eeKTxU+TVEdBaQEqKBgL8wLT+1TUc7V44gB0BhN8spI=",
-        "originContent": "      journal={arXiv preprint arXiv:2506.13053},",
-        "translatedContent": "      journal={arXiv preprint arXiv:2506.13053},"
-      },
-      {
-        "row": 6,
-        "rowsha": "9pSf9rDXTgTI9F1n7As4xQHzrnpzkqq+DsBUQOju52w=",
-        "originContent": "      year={2025}",
-        "translatedContent": "      year={2025}"
-      },
-      {
-        "row": 7,
-        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-        "originContent": "}",
-        "translatedContent": "}"
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "5cYmCbe04b8MIKugX1fG6pfI9kjPU8mXI6+MYxE0yYE=",
-        "originContent": "@article{zhu2025zipvoicedialog,",
-        "translatedContent": "@article{zhu2025zipvoicedialog,"
-      },
-      {
-        "row": 10,
-        "rowsha": "I1NS6m+Fef1AMUupkLt1/SWoaHvaLp/EhiTi2BLU1EQ=",
-        "originContent": "      title={ZipVoice-Dialog: Non-Autoregressive Spoken Dialogue Generation with Flow Matching},",
-        "translatedContent": "      title={ZipVoice-Dialog: Non-Autoregressive Spoken Dialogue Generation with Flow Matching},"
-      },
-      {
-        "row": 11,
-        "rowsha": "0C1tDS3PM21TkXPP1QDKLMImQLHaEb05rIODrwrZiXE=",
-        "originContent": "      author={Zhu, Han and Kang, Wei and Guo, Liyong and Yao, Zengwei and Kuang, Fangjun and Zhuang, Weiji and Li, Zhaoqing and Han, Zhifeng and Zhang, Dong and Zhang, Xin and Song, Xingchen and Lin, Long and Povey, Daniel},",
-        "translatedContent": "      author={Zhu, Han and Kang, Wei and Guo, Liyong and Yao, Zengwei and Kuang, Fangjun and Zhuang, Weiji and Li, Zhaoqing and Han, Zhifeng and Zhang, Dong and Zhang, Xin and Song, Xingchen and Lin, Long and Povey, Daniel},"
-      },
-      {
-        "row": 12,
-        "rowsha": "4AKpEFRUnLgdh6w4Tf+7ksFpVgPmUt7VanuktnrEh/s=",
-        "originContent": "      journal={arXiv preprint arXiv:2507.09318},",
-        "translatedContent": "      journal={arXiv preprint arXiv:2507.09318},"
-      },
-      {
-        "row": 13,
-        "rowsha": "9pSf9rDXTgTI9F1n7As4xQHzrnpzkqq+DsBUQOju52w=",
-        "originContent": "      year={2025}",
-        "translatedContent": "      year={2025}"
-      },
-      {
-        "row": 14,
-        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-        "originContent": "}",
-        "translatedContent": "}"
-      },
-      {
-        "row": 15,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 21,
+    "Id": 23,
     "Content": "",
     "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "SectionType": "",
@@ -1798,14 +716,7 @@
     "EndLine": 0,
     "Translation": "<translate-content></translate-content>",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "<translate-content></translate-content>"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]

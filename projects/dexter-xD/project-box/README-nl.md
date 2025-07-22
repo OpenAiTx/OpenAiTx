@@ -18,8 +18,8 @@
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pt">Portugees</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=nl">Nederlands</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pl">Pools</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ar">Arabisch</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fa">Perzisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fa">فارسی</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=tr">Turks</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=vi">Vietnamees</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=id">Bahasa Indonesia</a>
@@ -32,71 +32,71 @@
 
 [![Koop Een Koffie Voor Mij](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)
 
-Een verzameling van C programmeerprojecten ontworpen voor beginners om diverse programmeerconcepten te leren en te oefenen, van basisalgoritmen tot netwerkprogrammering. Elk project is zelfstandig en bevat eigen documentatie en build-systeem.
+Een verzameling van C programmeerprojecten, ontworpen voor beginners om diverse programmeerconcepten te leren en te oefenen, van basisalgoritmes tot netwerkprogrammering. Elk project is zelfstandig en bevat eigen documentatie en build-systeem.
 
-## Projecten Overzicht
+## Overzicht van Projecten
 
 ### 1. [SHA-512 Implementatie](SHA-512/)
-Een implementatie van een cryptografische hashfunctie die laat zien:
+Een implementatie van een cryptografische hashfunctie die het volgende demonstreert:
 - Bitmanipulatie
 - Complexe algoritmen
 - Geheugenbeheer
-- Bestand I/O-bewerkingen
+- Bestandsinvoer/-uitvoer
 
 ### 2. [HTTP Server](http-server/)
-Een basale HTTP-serverimplementatie die behandelt:
+Een basis HTTP-serverimplementatie die het volgende behandelt:
 - Socketprogrammering
-- HTTP protocol basisprincipes
-- Bestandsbediening
+- Basisprincipes van het HTTP-protocol
+- Bestanden serveren
 - Netwerkcommunicatie
 
 ### 3. [UDP Server-Client](udp-server-client/)
-Een eenvoudig UDP-gebaseerd communicatiesysteem dat leert:
-- UDP socketprogrammering
+Een eenvoudig UDP-gebaseerd communicatiesysteem dat het volgende leert:
+- UDP-socketprogrammering
 - Client-serverarchitectuur
 - Netwerkprotocollen
 - Berichtuitwisseling
 
 ### 4. [Poortscanner](port-scanner/)
-Een netwerkdiagnosetool die laat zien:
-- TCP socketprogrammering
+Een netwerkdiagnosetool die het volgende demonstreert:
+- TCP-socketprogrammering
 - Netwerkscantechnieken
 - Foutafhandeling
 - Commandoregelargumenten parsen
 
 ### 5. [Ping Implementatie](ping/)
-Een aangepaste ping-tool die behandelt:
-- ICMP protocol
-- Raw socket programmering
-- Netwerkdiagnostiek
-- Tijdsmeting
+Een aangepaste ping-tool die het volgende behandelt:
+- ICMP-protocol
+- Rawsocket-programmering
+- Netwerkdiagnose
+- Tijdmeting
 
 ### 6. [Tic-Tac-Toe](tic-tac-toe/)
-Een klassieke spelimplementatie die leert:
-- Multiplayer spelserver 
+Een klassieke spelimplementatie die het volgende leert:
+- Multiplayer game server 
 -Socketprogrammering
 - Spellogica
-- Afhandeling van gebruikersinvoer
+- Gebruikersinvoer afhandelen
 
 ### 7. [Chatsysteem](chat-system/)
-Een real-time chatapplicatie die laat zien:
-- TCP socketprogrammering
+Een real-time chatapplicatie die het volgende demonstreert:
+- TCP-socketprogrammering
 - Multithreading
 - Real-time communicatie
 - Client-serverarchitectuur
 
-### 8. [Lexicale Analyser](lexical-analyser/)
-Een eenvoudige compiler front-end component die demonstreert:
+### 8. [Lexicale Analyzer](lexical-analyser/)
+Een eenvoudige compiler front-end component die het volgende demonstreert:
 - Tokenisatie van broncode
 - Parseertechnieken
-- Compiler ontwerpprincipes
+- Compilerontwerpprincipes
 - Stringmanipulatie
 
 ### 9. [Rekenkundige Compiler](arithmetic-compiler/)
 Een eenvoudige compiler die rekenkundige expressies als invoer neemt en assembly-achtige code genereert:
 - Lexicale analyse (tokenisatie)
-- Parseer- en evaluatie van expressies
-- Assembly code generatie
+- Paren en evalueren van expressies
+- Genereren van assemblycode
 
 - Grondbeginselen van compilerconstructie
 
@@ -167,6 +167,6 @@ Sommige netwerkgerelateerde projecten (Poortscanner, Ping) vereisen root-/beheer
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

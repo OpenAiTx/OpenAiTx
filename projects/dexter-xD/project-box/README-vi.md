@@ -13,7 +13,7 @@
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fr">Français</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=de">Deutsch</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Italiano</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ru">Русский</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pt">Português</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=nl">Nederlands</a>
@@ -30,9 +30,9 @@
 
 # Bộ Sưu Tập Dự Án Lập Trình C
 
-[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)
+[![Mua cho tôi một ly cà phê](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)
 
-Một bộ sưu tập các dự án lập trình C được thiết kế cho người mới bắt đầu để học và thực hành các khái niệm lập trình khác nhau, từ thuật toán cơ bản đến lập trình mạng. Mỗi dự án là độc lập và đi kèm tài liệu cũng như hệ thống build riêng.
+Một bộ sưu tập các dự án lập trình C được thiết kế cho người mới bắt đầu để học và thực hành các khái niệm lập trình khác nhau, từ thuật toán cơ bản đến lập trình mạng. Mỗi dự án là độc lập và bao gồm tài liệu cũng như hệ thống build riêng.
 
 ## Tổng Quan Dự Án
 
@@ -41,7 +41,7 @@ Một triển khai hàm băm mật mã minh họa:
 - Xử lý bit
 - Thuật toán phức tạp
 - Quản lý bộ nhớ
-- Thao tác nhập/xuất tệp
+- Thao tác file I/O
 
 ### 2. [Máy Chủ HTTP](http-server/)
 Một triển khai máy chủ HTTP cơ bản bao gồm:
@@ -50,30 +50,30 @@ Một triển khai máy chủ HTTP cơ bản bao gồm:
 - Phục vụ tệp tin
 - Giao tiếp mạng
 
-### 3. [Máy Chủ-Khách UDP](udp-server-client/)
-Một hệ thống giao tiếp đơn giản dựa trên UDP giúp học:
+### 3. [UDP Server-Client](udp-server-client/)
+Hệ thống giao tiếp dựa trên UDP đơn giản giúp học:
 - Lập trình socket UDP
 - Kiến trúc client-server
 - Giao thức mạng
 - Trao đổi tin nhắn
 
-### 4. [Trình Quét Cổng](port-scanner/)
+### 4. [Công Cụ Quét Cổng](port-scanner/)
 Một công cụ chẩn đoán mạng minh họa:
 - Lập trình socket TCP
 - Kỹ thuật quét mạng
 - Xử lý lỗi
 - Phân tích đối số dòng lệnh
 
-### 5. [Triển Khai Lệnh Ping](ping/)
-Một tiện ích ping tùy chỉnh bao gồm:
+### 5. [Triển Khai Ping](ping/)
+Tiện ích ping tùy chỉnh bao gồm:
 - Giao thức ICMP
-- Lập trình socket thô (raw socket)
+- Lập trình socket raw
 - Chẩn đoán mạng
 - Đo thời gian
 
-### 6. [Tic-Tac-Toe](tic-tac-toe/)
-Một triển khai trò chơi kinh điển giúp học:
-- Máy chủ game nhiều người chơi 
+### 6. [Cờ Ca-rô](tic-tac-toe/)
+Một bản triển khai trò chơi cổ điển giúp học:
+- Máy chủ trò chơi nhiều người chơi 
 -Lập trình socket
 - Logic trò chơi
 - Xử lý nhập liệu người dùng
@@ -86,14 +86,14 @@ Một ứng dụng chat thời gian thực minh họa:
 - Kiến trúc client-server
 
 ### 8. [Bộ Phân Tích Từ Vựng](lexical-analyser/)
-Một thành phần front-end trình biên dịch đơn giản minh họa:
-- Phân tách token từ mã nguồn
+Một thành phần đầu vào trình biên dịch đơn giản minh họa:
+- Phân tách mã nguồn thành token
 - Kỹ thuật phân tích cú pháp
 - Nguyên lý thiết kế trình biên dịch
 - Xử lý chuỗi
 
 ### 9. [Trình Biên Dịch Số Học](arithmetic-compiler/)
-Một trình biên dịch đơn giản nhận biểu thức số học làm đầu vào và sinh mã dạng hợp ngữ:
+Trình biên dịch đơn giản nhận biểu thức số học làm đầu vào và sinh mã dạng hợp ngữ:
 - Phân tích từ vựng (tokenization)
 - Phân tích cú pháp và đánh giá biểu thức
 - Sinh mã hợp ngữ
@@ -167,6 +167,6 @@ Một số dự án liên quan đến mạng (Port Scanner, Ping) yêu cầu quy
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

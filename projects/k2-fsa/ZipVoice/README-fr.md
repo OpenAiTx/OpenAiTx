@@ -113,11 +113,11 @@ source zipvoice/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-### 4. (Optionnel) Installer k2 pour l'entraînement ou une inférence efficace
+### 4. Installer k2 pour l'entraînement ou l'inférence efficace
 
-k2 est nécessaire pour l'entraînement et peut accélérer l'inférence. Néanmoins, vous pouvez toujours utiliser le mode inférence de ZipVoice sans installer k2.
+**k2 est nécessaire pour l'entraînement** et peut accélérer l'inférence. Néanmoins, vous pouvez toujours utiliser le mode inférence de ZipVoice sans installer k2.
 
-> **Remarque :** Assurez-vous d’installer la version de k2 correspondant à votre version de PyTorch et CUDA. Par exemple, si vous utilisez pytorch 2.5.1 et CUDA 12.1, vous pouvez installer k2 comme suit :
+> **Remarque :** Assurez-vous d'installer la version de k2 qui correspond à votre version de PyTorch et CUDA. Par exemple, si vous utilisez pytorch 2.5.1 et CUDA 12.1, vous pouvez installer k2 comme suit :
 
 
 ```bash
@@ -126,11 +126,17 @@ pip install k2==1.24.4.dev20250208+cuda12.1.torch2.5.1 -f https://k2-fsa.github.
 Veuillez consulter https://k2-fsa.org/get-started/k2/ pour plus de détails.
 Les utilisateurs en Chine continentale peuvent consulter https://k2-fsa.org/zh-CN/get-started/k2/.
 
+- Pour vérifier l'installation de k2 :
+
+
+```
+python3 -c "import k2; print(k2.__file__)"
+```
 ## Utilisation
 
 ### 1. Génération de parole à un seul locuteur
 
-Pour générer de la parole à un seul locuteur avec nos modèles pré-entraînés ZipVoice ou ZipVoice-Distill, utilisez les commandes suivantes (les modèles requis seront téléchargés depuis HuggingFace) :
+Pour générer de la parole à un seul locuteur avec nos modèles ZipVoice ou ZipVoice-Distill pré-entraînés, utilisez les commandes suivantes (Les modèles requis seront téléchargés depuis HuggingFace) :
 
 #### 1.1 Inférence d'une seule phrase
 
@@ -163,11 +169,11 @@ python3 -m zipvoice.bin.infer_zipvoice \
 ```
 - Chaque ligne de `test.tsv` est au format `{wav_name}\t{prompt_transcription}\t{prompt_wav}\t{text}`.
 
-### 2. Génération de dialogue parlé
+### 2. Génération de la parole en dialogue
 
 #### 2.1 Commande d'inférence
 
-Pour générer des dialogues parlés à deux personnes avec nos modèles pré-entraînés ZipVoice-Dialogue ou ZipVoice-Dialogue-Stereo, utilisez les commandes suivantes (les modèles requis seront téléchargés depuis HuggingFace) :
+Pour générer des dialogues parlés à deux voix avec nos modèles pré-entraînés ZipVoice-Dialogue ou ZipVoice-Dialogue-Stereo, utilisez les commandes suivantes (les modèles requis seront téléchargés depuis HuggingFace) :
 
 
 ```bash
@@ -200,10 +206,10 @@ Chaque ligne de `test.tsv` est dans l'un des formats suivants :
 {wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}'
 ```
 - `wav_name` est le nom du fichier wav de sortie.
-- `spk1_prompt_transcription` est la transcription du fichier wav de la première intervention, par exemple, "Bonjour"
-- `spk2_prompt_transcription` est la transcription du fichier wav de la seconde intervention, par exemple, "Comment ça va ?"
-- `spk1_prompt_wav` est le chemin du fichier wav de la première intervention.
-- `spk2_prompt_wav` est le chemin du fichier wav de la seconde intervention.
+- `spk1_prompt_transcription` est la transcription du prompt wav du premier locuteur, par exemple, "Bonjour"
+- `spk2_prompt_transcription` est la transcription du prompt wav du deuxième locuteur, par exemple, "Comment ça va ?"
+- `spk1_prompt_wav` est le chemin du fichier wav du prompt du premier locuteur.
+- `spk2_prompt_wav` est le chemin du fichier wav du prompt du deuxième locuteur.
 - `text` est le texte à synthétiser, par exemple, "[S1] Je vais bien. [S2] Comment tu t'appelles ?"
 
 ### 3. Autres fonctionnalités
@@ -212,18 +218,18 @@ Chaque ligne de `test.tsv` est dans l'un des formats suivants :
 
 Nous utilisons [pypinyin](https://github.com/mozillazg/python-pinyin) pour convertir les caractères chinois en pinyin. Cependant, il peut parfois mal prononcer les **caractères polyphoniques** (多音字).
 
-Pour corriger manuellement ces erreurs de prononciation, encadrez le **pinyin corrigé** par des chevrons `< >` et incluez la **marque de ton**.
+Pour corriger manuellement ces erreurs de prononciation, entourez le **pinyin corrigé** avec des chevrons `< >` et incluez la **marque de ton**.
 
 **Exemple :**
 
 - Texte original : `这把剑长三十公分`
-- Correction du pinyin de `长` :  `这把剑<chang2>三十公分`
+- Corrigez le pinyin de `长` :  `这把剑<chang2>三十公分`
 
-> **Remarque :** Si vous souhaitez attribuer manuellement plusieurs pinyins, encadrez chaque pinyin par `<>`, par exemple, `这把<jian4><chang2><san1>十公分`
+> **Remarque :** Si vous souhaitez attribuer manuellement plusieurs pinyins, entourez chaque pinyin avec `<>`, par exemple, `这把<jian4><chang2><san1>十公分`
 
 ## Entraînez votre propre modèle
 
-Voir le répertoire [egs](egs) pour des exemples d'entraînement et de fine-tuning.
+Consultez le répertoire [egs](egs) pour des exemples d'entraînement, de fine-tuning et d'évaluation.
 
 ## Discussion & Communication
 
@@ -231,8 +237,8 @@ Vous pouvez discuter directement sur [Github Issues](https://github.com/k2-fsa/Z
 
 Vous pouvez également scanner le code QR pour rejoindre notre groupe wechat ou suivre notre compte officiel wechat.
 
-| Groupe Wechat | Compte Officiel Wechat |
-| ------------- | --------------------- |
+| Groupe Wechat | Compte officiel Wechat |
+| ------------- | ---------------------- |
 |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |
 
 ## Citation
@@ -257,6 +263,6 @@ Vous pouvez également scanner le code QR pour rejoindre notre groupe wechat ou 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

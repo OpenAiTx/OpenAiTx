@@ -113,9 +113,9 @@ source zipvoice/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-### 4. (Opsional) Instal k2 untuk pelatihan atau inferensi yang efisien
+### 4. Instal k2 untuk pelatihan atau inferensi efisien
 
-k2 diperlukan untuk pelatihan dan dapat mempercepat proses inferensi. Namun demikian, Anda masih dapat menggunakan mode inferensi ZipVoice tanpa menginstal k2.
+**k2 diperlukan untuk pelatihan** dan dapat mempercepat inferensi. Namun demikian, Anda masih dapat menggunakan mode inferensi ZipVoice tanpa menginstal k2.
 
 > **Catatan:** Pastikan untuk menginstal versi k2 yang sesuai dengan versi PyTorch dan CUDA Anda. Sebagai contoh, jika Anda menggunakan pytorch 2.5.1 dan CUDA 12.1, Anda dapat menginstal k2 sebagai berikut:
 
@@ -126,11 +126,17 @@ pip install k2==1.24.4.dev20250208+cuda12.1.torch2.5.1 -f https://k2-fsa.github.
 Silakan merujuk ke https://k2-fsa.org/get-started/k2/ untuk detailnya.
 Pengguna di Tiongkok daratan dapat merujuk ke https://k2-fsa.org/zh-CN/get-started/k2/.
 
+- Untuk memeriksa instalasi k2:
+
+
+```
+python3 -c "import k2; print(k2.__file__)"
+```
 ## Penggunaan
 
-### 1. Pembuatan ucapan satu pembicara
+### 1. Pembuatan Ucapan Satu Pembicara
 
-Untuk menghasilkan ucapan satu pembicara dengan model ZipVoice atau ZipVoice-Distill yang sudah dilatih sebelumnya, gunakan perintah berikut (Model yang diperlukan akan diunduh dari HuggingFace):
+Untuk menghasilkan ucapan satu pembicara dengan model pra-latih ZipVoice atau ZipVoice-Distill kami, gunakan perintah berikut (Model yang diperlukan akan diunduh dari HuggingFace):
 
 #### 1.1 Inferensi satu kalimat
 
@@ -163,11 +169,11 @@ python3 -m zipvoice.bin.infer_zipvoice \
 ```
 - Setiap baris dari `test.tsv` memiliki format `{wav_name}\t{prompt_transcription}\t{prompt_wav}\t{text}`.
 
-### 2. Generasi dialog lisan
+### 2. Generasi Ucapan Dialog
 
-#### 2.1 Perintah inferensi
+#### 2.1 Perintah Inferensi
 
-Untuk menghasilkan dialog lisan dua pihak dengan model pra-latih ZipVoice-Dialogue atau ZipVoice-Dialogue-Stereo kami, gunakan perintah berikut (Model yang diperlukan akan diunduh dari HuggingFace):
+Untuk menghasilkan dialog lisan dua pihak dengan model ZipVoice-Dialogue atau ZipVoice-Dialogue-Stereo pra-latih kami, gunakan perintah berikut (Model yang diperlukan akan diunduh dari HuggingFace):
 
 
 ```bash
@@ -200,30 +206,30 @@ Setiap baris dari `test.tsv` menggunakan salah satu format berikut:
 {wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}'
 ```
 - `wav_name` adalah nama file wav keluaran.
-- `spk1_prompt_transcription` adalah transkripsi dari wav prompt pembicara pertama, misalnya, "Hello"
-- `spk2_prompt_transcription` adalah transkripsi dari wav prompt pembicara kedua, misalnya, "How are you?"
+- `spk1_prompt_transcription` adalah transkripsi dari prompt wav pembicara pertama, misalnya, "Hello"
+- `spk2_prompt_transcription` adalah transkripsi dari prompt wav pembicara kedua, misalnya, "How are you?"
 - `spk1_prompt_wav` adalah path ke file wav prompt pembicara pertama.
 - `spk2_prompt_wav` adalah path ke file wav prompt pembicara kedua.
-- `text` adalah teks yang akan disintesis, misalnya. "[S1] I'm fine. [S2] What's your name?"
+- `text` adalah teks yang akan disintesis, misalnya, "[S1] I'm fine. [S2] What's your name?"
 
 ### 3. Fitur lainnya
 
-#### 3.1 Mengoreksi pelafalan karakter polifonik Tionghoa yang salah
+#### 3.1 Mengoreksi karakter polifon China yang salah diucapkan
 
-Kami menggunakan [pypinyin](https://github.com/mozillazg/python-pinyin) untuk mengonversi karakter Tionghoa ke pinyin. Namun, kadang-kadang dapat salah melafalkan **karakter polifonik** (多音字).
+Kami menggunakan [pypinyin](https://github.com/mozillazg/python-pinyin) untuk mengonversi karakter China ke pinyin. Namun, terkadang dapat salah mengucapkan **karakter polifon** (多音字).
 
-Untuk mengoreksi pelafalan ini secara manual, sertakan **pinyin yang benar** dalam tanda kurung sudut `< >` dan tambahkan **tanda nada**.
+Untuk mengoreksi kesalahan pelafalan ini secara manual, sertakan **pinyin yang telah dikoreksi** dalam tanda kurung sudut `< >` dan sertakan **tanda nada**.
 
 **Contoh:**
 
 - Teks asli: `这把剑长三十公分`
 - Koreksi pinyin dari `长`:  `这把剑<chang2>三十公分`
 
-> **Catatan:** Jika Anda ingin menetapkan beberapa pinyin secara manual, sertakan setiap pinyin dengan `<>`, misalnya, `这把<jian4><chang2><san1>十公分`
+> **Catatan:** Jika Anda ingin menetapkan beberapa pinyin secara manual, sertakan masing-masing pinyin dengan `<>`, misalnya, `这把<jian4><chang2><san1>十公分`
 
-## Melatih Model Anda Sendiri
+## Latih Model Anda Sendiri
 
-Lihat direktori [egs](egs) untuk contoh pelatihan dan fine-tuning.
+Lihat direktori [egs](egs) untuk contoh pelatihan, fine-tuning, dan evaluasi.
 
 ## Diskusi & Komunikasi
 
@@ -257,6 +263,6 @@ Anda juga dapat memindai kode QR untuk bergabung dengan grup wechat kami atau me
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

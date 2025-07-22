@@ -113,9 +113,9 @@ source zipvoice/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-### 4. (Optioneel) Installeer k2 voor training of efficiënte inferentie
+### 4. Installeer k2 voor training of efficiënte inferentie
 
-k2 is noodzakelijk voor training en kan inferentie versnellen. Toch kun je de inferentiemodus van ZipVoice gebruiken zonder k2 te installeren.
+**k2 is noodzakelijk voor training** en kan de inferentie versnellen. Toch kun je de inferentiemodus van ZipVoice gebruiken zonder k2 te installeren.
 
 > **Opmerking:** Zorg ervoor dat je de k2-versie installeert die overeenkomt met jouw PyTorch- en CUDA-versie. Bijvoorbeeld, als je pytorch 2.5.1 en CUDA 12.1 gebruikt, kun je k2 als volgt installeren:
 
@@ -123,14 +123,20 @@ k2 is noodzakelijk voor training en kan inferentie versnellen. Toch kun je de in
 ```bash
 pip install k2==1.24.4.dev20250208+cuda12.1.torch2.5.1 -f https://k2-fsa.github.io/k2/cuda.html
 ```
-Raadpleeg https://k2-fsa.org/get-started/k2/ voor meer details.
-Gebruikers op het vasteland van China kunnen terecht op https://k2-fsa.org/zh-CN/get-started/k2/.
+Raadpleeg https://k2-fsa.org/get-started/k2/ voor meer informatie.
+Gebruikers op het Chinese vasteland kunnen terecht op https://k2-fsa.org/zh-CN/get-started/k2/.
 
+- Om de installatie van k2 te controleren:
+
+
+```
+python3 -c "import k2; print(k2.__file__)"
+```
 ## Gebruik
 
-### 1. Spraakgeneratie met één spreker
+### 1. Enkelspreker spraakgeneratie
 
-Om spraak met één spreker te genereren met onze voorgetrainde ZipVoice- of ZipVoice-Distill-modellen, gebruikt u de volgende commando's (Vereiste modellen worden gedownload van HuggingFace):
+Om enkelspreker spraak te genereren met onze voorgetrainde ZipVoice of ZipVoice-Distill modellen, gebruikt u de volgende commando's (Vereiste modellen worden gedownload van HuggingFace):
 
 #### 1.1 Inferentie van een enkele zin
 
@@ -163,11 +169,11 @@ python3 -m zipvoice.bin.infer_zipvoice \
 ```
 - Elke regel van `test.tsv` heeft het formaat `{wav_name}\t{prompt_transcription}\t{prompt_wav}\t{text}`.
 
-### 2. Gesproken dialooggeneratie
+### 2. Dialoogspraakgeneratie
 
 #### 2.1 Inferentiecommando
 
-Om tweepartijdialogen te genereren met onze voorgetrainde ZipVoice-Dialogue of ZipVoice-Dialogue-Stereo modellen, gebruik de volgende commando's (Vereiste modellen worden gedownload van HuggingFace):
+Om tweepartijgesprekken te genereren met onze voorgetrainde ZipVoice-Dialogue of ZipVoice-Dialogue-Stereo modellen, gebruikt u de volgende commando's (Benodigde modellen worden gedownload van HuggingFace):
 
 
 ```bash
@@ -200,39 +206,39 @@ Elke regel van `test.tsv` is in een van de volgende formaten:
 {wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}'
 ```
 - `wav_name` is de naam van het uitvoer-wav-bestand.
-- `spk1_prompt_transcription` is de transcriptie van het prompt-wav-bestand van de eerste spreker, bijvoorbeeld "Hallo"
-- `spk2_prompt_transcription` is de transcriptie van het prompt-wav-bestand van de tweede spreker, bijvoorbeeld "Hoe gaat het?"
-- `spk1_prompt_wav` is het pad naar het prompt-wav-bestand van de eerste spreker.
-- `spk2_prompt_wav` is het pad naar het prompt-wav-bestand van de tweede spreker.
+- `spk1_prompt_transcription` is de transcriptie van het prompt-wav-bestand van spreker 1, bijvoorbeeld "Hallo"
+- `spk2_prompt_transcription` is de transcriptie van het prompt-wav-bestand van spreker 2, bijvoorbeeld "Hoe gaat het?"
+- `spk1_prompt_wav` is het pad naar het prompt-wav-bestand van spreker 1.
+- `spk2_prompt_wav` is het pad naar het prompt-wav-bestand van spreker 2.
 - `text` is de te synthetiseren tekst, bijvoorbeeld "[S1] Het gaat goed. [S2] Hoe heet je?"
 
 ### 3. Overige functies
 
 #### 3.1 Corrigeren van verkeerd uitgesproken Chinese polyfone karakters
 
-We gebruiken [pypinyin](https://github.com/mozillazg/python-pinyin) om Chinese karakters naar pinyin om te zetten. Het kan echter soms **polyfone karakters** (多音字) verkeerd uitspreken.
+We gebruiken [pypinyin](https://github.com/mozillazg/python-pinyin) om Chinese karakters om te zetten naar pinyin. Soms kan het echter **polyfone karakters** (多音字) verkeerd uitspreken.
 
-Om deze verkeerde uitspraken handmatig te corrigeren, zet je de **gecorrigeerde pinyin** tussen punthaken `< >` en voeg je het **toonteken** toe.
+Om deze uitspraakfouten handmatig te corrigeren, plaats de **gecorrigeerde pinyin** tussen punthaken `< >` en voeg het **toonteken** toe.
 
 **Voorbeeld:**
 
 - Originele tekst: `这把剑长三十公分`
 - Corrigeer de pinyin van `长`:  `这把剑<chang2>三十公分`
 
-> **Let op:** Als je handmatig meerdere pinyins wilt toewijzen, zet je elke pinyin tussen `<>`, bijvoorbeeld `这把<jian4><chang2><san1>十公分`
+> **Let op:** Als je handmatig meerdere pinyins wilt toewijzen, zet elke pinyin tussen `<>`, bijvoorbeeld `这把<jian4><chang2><san1>十公分`
 
 ## Train je eigen model
 
-Zie de [egs](egs) map voor voorbeelden van trainen en fine-tunen.
+Zie de [egs](egs) directory voor voorbeelden van training, fine-tuning en evaluatie.
 
 ## Discussie & Communicatie
 
 Je kunt direct discussiëren op [Github Issues](https://github.com/k2-fsa/ZipVoice/issues).
 
-Je kunt ook de QR-code scannen om lid te worden van onze wechat-groep of ons officiële wechat-account te volgen.
+Je kunt ook de QR-code scannen om lid te worden van onze Wechat-groep of ons Wechat-officiële account te volgen.
 
-| Wechat Groep | Officieel Wechat-account |
-| ------------ | ----------------------- |
+| Wechat Groep | Wechat Officieel Account |
+| ------------ | ------------------------ |
 |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |
 
 ## Referentie
@@ -257,6 +263,6 @@ Je kunt ook de QR-code scannen om lid te worden van onze wechat-groep of ons off
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

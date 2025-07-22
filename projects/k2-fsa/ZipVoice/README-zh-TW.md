@@ -113,26 +113,32 @@ source zipvoice/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-### 4.（選用）安裝 k2 以進行訓練或高效推理
+### 4. 安裝 k2 以進行訓練或高效推理
 
-k2 是訓練所必需的，並且可以加速推理。不過，即使不安裝 k2，您仍然可以使用 ZipVoice 的推理模式。
+**k2 是訓練所必需的**，並且可以加速推理。然而，即使不安裝 k2，你仍然可以使用 ZipVoice 的推理模式。
 
-> **注意：**請確保安裝與您的 PyTorch 和 CUDA 版本相符的 k2 版本。例如，如果您使用的是 pytorch 2.5.1 和 CUDA 12.1，您可以按照以下方式安裝 k2：
+> **注意：** 請確保安裝與你的 PyTorch 和 CUDA 版本相符的 k2 版本。例如，如果你使用的是 pytorch 2.5.1 和 CUDA 12.1，你可以按照以下方式安裝 k2：
 
 
 ```bash
 pip install k2==1.24.4.dev20250208+cuda12.1.torch2.5.1 -f https://k2-fsa.github.io/k2/cuda.html
 ```
-請參考 https://k2-fsa.org/get-started/k2/ 以獲取詳細資訊。
-中國大陸的用戶可以參考 https://k2-fsa.org/zh-CN/get-started/k2/。
+請參閱 https://k2-fsa.org/get-started/k2/ 以了解詳情。
+中國大陸用戶可參考 https://k2-fsa.org/zh-CN/get-started/k2/。
 
-## 使用方法
+- 檢查 k2 是否安裝：
+
+
+```
+python3 -c "import k2; print(k2.__file__)"
+```
+## 使用方式
 
 ### 1. 單一說話者語音生成
 
 要使用我們預訓練的 ZipVoice 或 ZipVoice-Distill 模型生成單一說話者語音，請使用以下指令（所需模型將自 HuggingFace 下載）：
 
-#### 1.1 單句推理
+#### 1.1 單句推論
 
 
 ```bash
@@ -163,11 +169,11 @@ python3 -m zipvoice.bin.infer_zipvoice \
 ```
 - `test.tsv` 的每一行格式為 `{wav_name}\t{prompt_transcription}\t{prompt_wav}\t{text}`。
 
-### 2. 語音對話生成
+### 2. 對話語音生成
 
 #### 2.1 推論指令
 
-要使用我們預訓練的 ZipVoice-Dialogue 或 ZipVoice-Dialogue-Stereo 模型生成雙方語音對話，請使用以下指令（所需模型將從 HuggingFace 下載）：
+要使用我們預訓練的 ZipVoice-Dialogue 或 ZipVoice-Dialogue-Stereo 模型生成雙方對話語音，請使用以下指令（所需模型將從 HuggingFace 下載）：
 
 
 ```bash
@@ -200,36 +206,36 @@ python3 -m zipvoice.bin.infer_zipvoice_dialog \
 {wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}'
 ```
 - `wav_name` 是輸出 wav 檔案的名稱。
-- `spk1_prompt_transcription` 是第一位說話者提示 wav 的轉錄內容，例如 "Hello"
-- `spk2_prompt_transcription` 是第二位說話者提示 wav 的轉錄內容，例如 "How are you?"
-- `spk1_prompt_wav` 是第一位說話者提示 wav 檔案的路徑。
-- `spk2_prompt_wav` 是第二位說話者提示 wav 檔案的路徑。
+- `spk1_prompt_transcription` 是第一位說話者提示音檔的文字轉寫，例如 "Hello"
+- `spk2_prompt_transcription` 是第二位說話者提示音檔的文字轉寫，例如 "How are you?"
+- `spk1_prompt_wav` 是第一位說話者提示音檔的路徑。
+- `spk2_prompt_wav` 是第二位說話者提示音檔的路徑。
 - `text` 是要合成的文本，例如 "[S1] I'm fine. [S2] What's your name?"
 
 ### 3. 其他功能
 
 #### 3.1 修正中文多音字發音錯誤
 
-我們使用 [pypinyin](https://github.com/mozillazg/python-pinyin) 將中文字符轉換為拼音。然而，它有時會將**多音字**發音錯誤。
+我們使用 [pypinyin](https://github.com/mozillazg/python-pinyin) 將中文字符轉換為拼音。然而，它有時會將**多音字**讀錯。
 
-若要手動修正這些發音錯誤，請將**正確的拼音**用尖括號 `< >` 括起，並包含**聲調標記**。
+要手動修正這些錯誤發音，請將**正確的拼音**用尖括號 `< >` 括起來，並標註**聲調**。
 
-**例子：**
+**範例：**
 
 - 原文：`这把剑长三十公分`
 - 修正 `长` 的拼音：`这把剑<chang2>三十公分`
 
-> **注意：** 如果想手動指定多個拼音，請用 `<>` 包住每個拼音，例如：`这把<jian4><chang2><san1>十公分`
+> **注意：** 如果你想手動指定多個拼音，請將每個拼音用 `<>` 括起，例如 `这把<jian4><chang2><san1>十公分`
 
-## 訓練您自己的模型
+## 訓練你自己的模型
 
-請參閱 [egs](egs) 目錄以獲取訓練和微調範例。
+請參閱 [egs](egs) 目錄中的訓練、微調與評估範例。
 
 ## 討論與交流
 
-您可以直接在 [Github Issues](https://github.com/k2-fsa/ZipVoice/issues) 上討論。
+你可以直接在 [Github Issues](https://github.com/k2-fsa/ZipVoice/issues) 上進行討論。
 
-您也可以掃描二維碼加入我們的微信交流群，或關注我們的微信公眾號。
+你也可以掃描 QR 碼加入我們的微信交流群或關注我們的微信公眾號。
 
 | 微信交流群 | 微信公眾號 |
 | ------------ | ----------------------- |
@@ -257,6 +263,6 @@ python3 -m zipvoice.bin.infer_zipvoice_dialog \
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

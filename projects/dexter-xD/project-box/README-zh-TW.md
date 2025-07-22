@@ -4,7 +4,7 @@
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=zh-CN">簡體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=zh-TW">繁體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ja">日本語</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ko">한국어</a>
@@ -13,7 +13,7 @@
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fr">Français</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=de">Deutsch</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Italiano</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ru">Русский</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pt">Português</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=nl">Nederlands</a>
@@ -28,75 +28,75 @@
   </details>
 </div>
 
-# C 語言專案集
+# C 語言程式設計專案集
 
-[![請我喝杯咖啡](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)
+[![請我喝咖啡](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)
 
-本專案收錄多個為初學者設計的 C 語言練習專案，涵蓋從基礎演算法到網路程式設計等多元主題。每個專案皆為獨立單元，附有完整說明文件與建置系統。
+一套為初學者設計的 C 語言程式專案集合，涵蓋從基本演算法到網路程式設計等各種程式概念的學習與練習。每個專案均為獨立模組，內含專屬說明文件與建構系統。
 
 ## 專案總覽
 
 ### 1. [SHA-512 實作](SHA-512/)
-一個密碼雜湊函數實作，展示：
+一個密碼學雜湊函式的實作，展示：
 - 位元操作
 - 複雜演算法
 - 記憶體管理
 - 檔案 I/O 操作
 
 ### 2. [HTTP 伺服器](http-server/)
-一個基礎 HTTP 伺服器實作，涵蓋：
+一個基本 HTTP 伺服器的實作，涵蓋：
 - Socket 程式設計
 - HTTP 協定基礎
-- 檔案服務
+- 檔案傳送
 - 網路通訊
 
 ### 3. [UDP 伺服器-客戶端](udp-server-client/)
-一個簡單的 UDP 通訊系統，教學內容包括：
-- UDP Socket 程式設計
+一個簡易 UDP 通訊系統，教學內容包括：
+- UDP socket 程式設計
 - 客戶端-伺服器架構
 - 網路協定
 - 訊息交換
 
 ### 4. [連接埠掃描器](port-scanner/)
 一個網路診斷工具，展示：
-- TCP Socket 程式設計
+- TCP socket 程式設計
 - 網路掃描技術
 - 錯誤處理
 - 命令列參數解析
 
 ### 5. [Ping 實作](ping/)
-自訂 ping 工具，涵蓋：
+自訂的 ping 工具，涵蓋：
 - ICMP 協定
-- 原始 Socket 程式設計
+- 原始 socket 程式設計
 - 網路診斷
 - 時間量測
 
-### 6. [井字遊戲](tic-tac-toe/)
+### 6. [井字棋](tic-tac-toe/)
 經典遊戲實作，教學內容包括：
 - 多人遊戲伺服器 
 -Socket 程式設計
 - 遊戲邏輯
 - 使用者輸入處理
 
-### 7. [即時聊天系統](chat-system/)
-一個即時聊天應用程式，展示：
-- TCP Socket 程式設計
+### 7. [聊天室系統](chat-system/)
+即時聊天應用程式，展示：
+- TCP socket 程式設計
 - 多執行緒
 - 即時通訊
 - 客戶端-伺服器架構
 
-### 8. [詞彙分析器](lexical-analyser/)
-一個簡易編譯器前端元件，展示：
-- 原始碼的詞彙切割
+### 8. [詞法分析器](lexical-analyser/)
+簡單的編譯器前端組件，展示：
+- 原始碼分詞
 - 剖析技術
 - 編譯器設計原則
 - 字串處理
 
-### 9. [算術編譯器](arithmetic-compiler/)
-一個可將算術運算式作為輸入並產生類組合語言程式碼的簡易編譯器：
-- 詞彙分析（切割）
+### 9. [運算式編譯器](arithmetic-compiler/)
+一個簡易編譯器，將算術運算式作為輸入並產生類組合語言的程式碼：
+- 詞法分析（分詞）
 - 運算式剖析與評估
-- 組合語言產生
+- 組合語言程式碼產生
 
 - 編譯器建構基礎
 
@@ -167,6 +167,6 @@
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

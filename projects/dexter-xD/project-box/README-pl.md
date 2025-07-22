@@ -13,7 +13,7 @@
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fr">Français</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=de">Deutsch</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Italiano</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ru">Русский</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pt">Português</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=nl">Nederlands</a>
@@ -28,72 +28,72 @@
   </details>
 </div>
 
-# Kolekcja Projektów Programistycznych w C
+# Kolekcja Projektów w C
 
 [![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)
 
-Kolekcja projektów w języku C zaprojektowanych dla początkujących do nauki i ćwiczenia różnych koncepcji programowania, od podstawowych algorytmów po programowanie sieciowe. Każdy projekt jest samodzielny i zawiera własną dokumentację oraz system budowania.
+Kolekcja projektów w języku C, zaprojektowana dla początkujących, aby uczyć się i ćwiczyć różne koncepcje programistyczne, od podstawowych algorytmów po programowanie sieciowe. Każdy projekt jest samodzielny i zawiera własną dokumentację oraz system budowania.
 
 ## Przegląd Projektów
 
 ### 1. [Implementacja SHA-512](SHA-512/)
 Implementacja kryptograficznej funkcji skrótu, która demonstruje:
-- Operacje na bitach
+- Manipulację bitami
 - Złożone algorytmy
 - Zarządzanie pamięcią
 - Operacje wejścia/wyjścia na plikach
 
 ### 2. [Serwer HTTP](http-server/)
 Podstawowa implementacja serwera HTTP, obejmująca:
-- Programowanie gniazd
+- Programowanie gniazd (socketów)
 - Podstawy protokołu HTTP
 - Serwowanie plików
-- Komunikacja sieciowa
+- Komunikację sieciową
 
 ### 3. [Serwer-Klient UDP](udp-server-client/)
 Prosty system komunikacji oparty na UDP, uczący:
-- Programowanie gniazd UDP
-- Architektura klient-serwer
-- Protokoły sieciowe
-- Wymiana wiadomości
+- Programowania gniazd UDP
+- Architektury klient-serwer
+- Protokołów sieciowych
+- Wymiany komunikatów
 
 ### 4. [Skaner Portów](port-scanner/)
 Narzędzie diagnostyczne sieci, które demonstruje:
 - Programowanie gniazd TCP
 - Techniki skanowania sieci
-- Obsługa błędów
+- Obsługę błędów
 - Parsowanie argumentów wiersza poleceń
 
 ### 5. [Implementacja Ping](ping/)
-Niestandardowe narzędzie ping, obejmujące:
+Niestandardowy program ping, obejmujący:
 - Protokół ICMP
-- Programowanie gniazd surowych
-- Diagnostyka sieciowa
+- Programowanie surowych gniazd
+- Diagnostykę sieciową
 - Pomiar czasu
 
-### 6. [Kółko i Krzyżyk](tic-tac-toe/)
-Implementacja klasycznej gry, ucząca:
-- Serwer gry wieloosobowej 
--Programowanie gniazd
-- Logika gry
-- Obsługa wejścia użytkownika
+### 6. [Kółko-krzyżyk](tic-tac-toe/)
+Klasyczna implementacja gry ucząca:
+- Serwera gry wieloosobowej
+- Programowania gniazd
+- Logiki gry
+- Obsługi wejścia użytkownika
 
-### 7. [System Czatu](chat-system/)
-Aplikacja czatu w czasie rzeczywistym, demonstrująca:
+### 7. [System Czatowy](chat-system/)
+Aplikacja czatu w czasie rzeczywistym, która demonstruje:
 - Programowanie gniazd TCP
-- Wielowątkowość
+- Programowanie wielowątkowe
 - Komunikację w czasie rzeczywistym
 - Architektura klient-serwer
 
 ### 8. [Analizator Leksykalny](lexical-analyser/)
-Prosty komponent front-end kompilatora, demonstrujący:
+Prosty komponent front-end kompilatora, który demonstruje:
 - Tokenizację kodu źródłowego
 - Techniki parsowania
-- Zasady projektowania kompilatora
-- Operacje na ciągach znaków
+- Zasady projektowania kompilatorów
+- Manipulację łańcuchami znaków
 
 ### 9. [Kompilator Arytmetyczny](arithmetic-compiler/)
-Prosty kompilator, który przyjmuje wyrażenia arytmetyczne jako dane wejściowe i generuje kod podobny do asemblera:
+Prosty kompilator, który przyjmuje wyrażenia arytmetyczne jako wejście i generuje kod podobny do asemblera:
 - Analiza leksykalna (tokenizacja)
 - Parsowanie i ewaluacja wyrażeń
 - Generowanie kodu asemblerowego
@@ -167,6 +167,6 @@ Niektóre projekty związane z siecią (Skaner Portów, Ping) wymagają uprawnie
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

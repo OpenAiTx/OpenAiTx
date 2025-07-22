@@ -13,7 +13,7 @@
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fr">Français</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=de">Deutsch</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Italiano</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ru">Русский</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pt">Português</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=nl">Nederlands</a>
@@ -32,7 +32,7 @@
 
 [![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)
 
-Uma coleção de projetos em C projetados para iniciantes aprenderem e praticarem diversos conceitos de programação, desde algoritmos básicos até programação de redes. Cada projeto é autônomo e inclui sua própria documentação e sistema de build.
+Uma coleção de projetos em linguagem C projetados para iniciantes aprenderem e praticarem vários conceitos de programação, desde algoritmos básicos até programação de redes. Cada projeto é independente e inclui sua própria documentação e sistema de build.
 
 ## Visão Geral dos Projetos
 
@@ -44,44 +44,44 @@ Uma implementação de função hash criptográfica que demonstra:
 - Operações de E/S de arquivos
 
 ### 2. [Servidor HTTP](http-server/)
-Uma implementação básica de servidor HTTP que cobre:
+Uma implementação básica de um servidor HTTP que abrange:
 - Programação de sockets
-- Noções básicas do protocolo HTTP
+- Conceitos básicos do protocolo HTTP
 - Servir arquivos
 - Comunicação em rede
 
 ### 3. [Servidor-Cliente UDP](udp-server-client/)
-Um sistema simples de comunicação baseada em UDP que ensina:
-- Programação de sockets UDP
+Um sistema de comunicação simples baseado em UDP que ensina:
+- Programação de socket UDP
 - Arquitetura cliente-servidor
 - Protocolos de rede
 - Troca de mensagens
 
 ### 4. [Scanner de Portas](port-scanner/)
 Uma ferramenta de diagnóstico de rede que demonstra:
-- Programação de sockets TCP
+- Programação de socket TCP
 - Técnicas de varredura de rede
 - Tratamento de erros
-- Análise de argumentos de linha de comando
+- Análise de argumentos da linha de comando
 
 ### 5. [Implementação do Ping](ping/)
-Uma utilidade ping personalizada que cobre:
+Uma utilidade ping personalizada que abrange:
 - Protocolo ICMP
-- Programação de sockets raw
+- Programação de socket raw
 - Diagnóstico de rede
 - Medição de tempo
 
 ### 6. [Jogo da Velha](tic-tac-toe/)
-Uma implementação clássica do jogo que ensina:
-- Servidor de jogo multiplayer 
--Programação de sockets
+Uma implementação do clássico jogo que ensina:
+- Servidor de jogo para múltiplos jogadores
+- Programação de sockets
 - Lógica de jogo
-- Tratamento de entrada do usuário
+- Manipulação de entrada do usuário
 
 ### 7. [Sistema de Chat](chat-system/)
 Uma aplicação de chat em tempo real que demonstra:
-- Programação de sockets TCP
-- Multi-threading
+- Programação de socket TCP
+- Multithreading
 - Comunicação em tempo real
 - Arquitetura cliente-servidor
 
@@ -93,9 +93,9 @@ Um componente simples de front-end de compilador que demonstra:
 - Manipulação de strings
 
 ### 9. [Compilador Aritmético](arithmetic-compiler/)
-Um compilador simples que recebe expressões aritméticas como entrada e gera código similar a assembly:
+Um compilador simples que recebe expressões aritméticas como entrada e gera um código semelhante a assembly:
 - Análise léxica (tokenização)
-- Análise sintática e avaliação de expressões
+- Análise e avaliação de expressões
 - Geração de código assembly
 
 - Fundamentos da construção de compiladores
@@ -167,6 +167,6 @@ Alguns projetos relacionados à rede (Scanner de Portas, Ping) exigem privilégi
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

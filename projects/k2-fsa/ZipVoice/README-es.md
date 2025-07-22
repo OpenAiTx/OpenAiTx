@@ -113,24 +113,30 @@ source zipvoice/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-### 4. (Opcional) Instalar k2 para entrenamiento o inferencia eficiente
+### 4. Instala k2 para entrenamiento o inferencia eficiente
 
-k2 es necesario para el entrenamiento y puede acelerar la inferencia. Sin embargo, aún puede usar el modo de inferencia de ZipVoice sin instalar k2.
+**k2 es necesario para el entrenamiento** y puede acelerar la inferencia. Sin embargo, aún puedes usar el modo de inferencia de ZipVoice sin instalar k2.
 
-> **Nota:** Asegúrese de instalar la versión de k2 que coincida con su versión de PyTorch y CUDA. Por ejemplo, si está usando pytorch 2.5.1 y CUDA 12.1, puede instalar k2 de la siguiente manera:
+> **Nota:** Asegúrate de instalar la versión de k2 que coincida con tu versión de PyTorch y CUDA. Por ejemplo, si estás usando pytorch 2.5.1 y CUDA 12.1, puedes instalar k2 de la siguiente manera:
 
 
 ```bash
 pip install k2==1.24.4.dev20250208+cuda12.1.torch2.5.1 -f https://k2-fsa.github.io/k2/cuda.html
 ```
-Consulte https://k2-fsa.org/get-started/k2/ para más detalles.
+Por favor, consulte https://k2-fsa.org/get-started/k2/ para más detalles.
 Los usuarios en China continental pueden consultar https://k2-fsa.org/zh-CN/get-started/k2/.
 
+- Para comprobar la instalación de k2:
+
+
+```
+python3 -c "import k2; print(k2.__file__)"
+```
 ## Uso
 
 ### 1. Generación de voz de un solo hablante
 
-Para generar voz de un solo hablante con nuestros modelos preentrenados ZipVoice o ZipVoice-Distill, utilice los siguientes comandos (los modelos requeridos se descargarán desde HuggingFace):
+Para generar voz de un solo hablante con nuestros modelos preentrenados ZipVoice o ZipVoice-Distill, utilice los siguientes comandos (los modelos necesarios se descargarán desde HuggingFace):
 
 #### 1.1 Inferencia de una sola oración
 
@@ -163,11 +169,11 @@ python3 -m zipvoice.bin.infer_zipvoice \
 ```
 - Cada línea de `test.tsv` tiene el formato `{wav_name}\t{prompt_transcription}\t{prompt_wav}\t{text}`.
 
-### 2. Generación de diálogo hablado
+### 2. Generación de habla en diálogo
 
 #### 2.1 Comando de inferencia
 
-Para generar diálogos hablados de dos participantes con nuestros modelos preentrenados ZipVoice-Dialogue o ZipVoice-Dialogue-Stereo, use los siguientes comandos (los modelos requeridos se descargarán desde HuggingFace):
+Para generar diálogos hablados de dos partes con nuestros modelos preentrenados ZipVoice-Dialogue o ZipVoice-Dialogue-Stereo, utilice los siguientes comandos (los modelos requeridos se descargarán desde HuggingFace):
 
 
 ```bash
@@ -200,7 +206,7 @@ Cada línea de `test.tsv` está en uno de los siguientes formatos:
 {wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}'
 ```
 - `wav_name` es el nombre del archivo wav de salida.
-- `spk1_prompt_transcription` es la transcripción del archivo wav de la indicación del primer hablante, por ejemplo, "Hola"
+- `spk1_prompt_transcription` es la transcripción del archivo wav de la indicación del primer hablante, por ejemplo, "Hola".
 - `spk2_prompt_transcription` es la transcripción del archivo wav de la indicación del segundo hablante, por ejemplo, "¿Cómo estás?"
 - `spk1_prompt_wav` es la ruta al archivo wav de la indicación del primer hablante.
 - `spk2_prompt_wav` es la ruta al archivo wav de la indicación del segundo hablante.
@@ -210,9 +216,9 @@ Cada línea de `test.tsv` está en uno de los siguientes formatos:
 
 #### 3.1 Corrección de caracteres chinos polifónicos mal pronunciados
 
-Usamos [pypinyin](https://github.com/mozillazg/python-pinyin) para convertir caracteres chinos a pinyin. Sin embargo, ocasionalmente puede pronunciar incorrectamente **caracteres polifónicos** (多音字).
+Utilizamos [pypinyin](https://github.com/mozillazg/python-pinyin) para convertir caracteres chinos a pinyin. Sin embargo, ocasionalmente puede pronunciar mal **caracteres polifónicos** (多音字).
 
-Para corregir manualmente estas malas pronunciaciones, encierre el **pinyin corregido** entre signos de menor y mayor `< >` e incluya la **marca de tono**.
+Para corregir manualmente estas malas pronunciaciones, encierre el **pinyin corregido** entre paréntesis angulares `< >` e incluya la **marca de tono**.
 
 **Ejemplo:**
 
@@ -223,16 +229,16 @@ Para corregir manualmente estas malas pronunciaciones, encierre el **pinyin corr
 
 ## Entrena tu propio modelo
 
-Consulte el directorio [egs](egs) para ejemplos de entrenamiento y ajuste fino.
+Consulte el directorio [egs](egs) para ejemplos de entrenamiento, ajuste fino y evaluación.
 
 ## Discusión y comunicación
 
 Puede discutir directamente en [Github Issues](https://github.com/k2-fsa/ZipVoice/issues).
 
-También puede escanear el código QR para unirse a nuestro grupo de wechat o seguir nuestra cuenta oficial de wechat.
+También puede escanear el código QR para unirse a nuestro grupo de WeChat o seguir nuestra cuenta oficial de WeChat.
 
-| Grupo de Wechat | Cuenta Oficial de Wechat |
-| --------------- | ------------------------ |
+| Grupo de WeChat | Cuenta Oficial de WeChat |
+| --------------- | ----------------------- |
 |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |
 
 ## Citación
@@ -257,6 +263,6 @@ También puede escanear el código QR para unirse a nuestro grupo de wechat o se
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

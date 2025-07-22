@@ -113,26 +113,32 @@ source zipvoice/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-### 4. （可选）安装 k2 以进行训练或高效推理
+### 4. 安装 k2 以进行训练或高效推理
 
-k2 是训练所必需的，并且可以加速推理。尽管如此，您仍然可以在不安装 k2 的情况下使用 ZipVoice 的推理模式。
+**k2 是训练所必需的**，并且可以加快推理速度。不过，即使不安装 k2，你仍然可以使用 ZipVoice 的推理模式。
 
-> **注意：** 请确保安装与您的 PyTorch 和 CUDA 版本匹配的 k2 版本。例如，如果您使用的是 pytorch 2.5.1 和 CUDA 12.1，可以按如下方式安装 k2：
+> **注意：** 请确保安装与你的 PyTorch 和 CUDA 版本相匹配的 k2 版本。例如，如果你使用的是 pytorch 2.5.1 和 CUDA 12.1，可以按如下方式安装 k2：
 
 
 ```bash
 pip install k2==1.24.4.dev20250208+cuda12.1.torch2.5.1 -f https://k2-fsa.github.io/k2/cuda.html
 ```
-请参考 https://k2-fsa.org/get-started/k2/ 了解详情。  
-中国大陆用户可参考 https://k2-fsa.org/zh-CN/get-started/k2/。  
+请参阅 https://k2-fsa.org/get-started/k2/ 获取详细信息。
+中国大陆用户可参阅 https://k2-fsa.org/zh-CN/get-started/k2/。
 
-## 使用方法  
+- 检查 k2 是否已安装：
 
-### 1. 单说话人语音生成  
 
-使用我们预训练的 ZipVoice 或 ZipVoice-Distill 模型生成单说话人语音，请使用以下命令（所需模型将从 HuggingFace 下载）：  
+```
+python3 -c "import k2; print(k2.__file__)"
+```
+## 用法
 
-#### 1.1 单句推理  
+### 1. 单说话人语音生成
+
+要使用我们预训练的 ZipVoice 或 ZipVoice-Distill 模型生成单说话人语音，请使用以下命令（所需模型将从 HuggingFace 下载）：
+
+#### 1.1 单句推理
 
 
 ```bash
@@ -161,13 +167,13 @@ python3 -m zipvoice.bin.infer_zipvoice \
     --test-list test.tsv \
     --res-dir results
 ```
-- `test.tsv` 文件的每一行格式为 `{wav_name}\t{prompt_transcription}\t{prompt_wav}\t{text}`。
+- `test.tsv` 的每一行格式为 `{wav_name}\t{prompt_transcription}\t{prompt_wav}\t{text}`。
 
-### 2. 口语对话生成
+### 2. 对话语音生成
 
 #### 2.1 推理命令
 
-要使用我们预训练的 ZipVoice-Dialogue 或 ZipVoice-Dialogue-Stereo 模型生成双人语音对话，请使用以下命令（所需模型将从 HuggingFace 下载）：
+要使用我们预训练的 ZipVoice-Dialogue 或 ZipVoice-Dialogue-Stereo 模型生成双人对话语音，请使用以下命令（所需模型将从 HuggingFace 下载）：
 
 
 ```bash
@@ -199,43 +205,43 @@ python3 -m zipvoice.bin.infer_zipvoice_dialog \
 ```
 {wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}'
 ```
-- `wav_name` 是输出 wav 文件的名称。  
-- `spk1_prompt_transcription` 是第一位说话者提示音的转录文本，例如，“Hello”  
-- `spk2_prompt_transcription` 是第二位说话者提示音的转录文本，例如，“How are you?”  
-- `spk1_prompt_wav` 是第一位说话者提示音 wav 文件的路径。  
-- `spk2_prompt_wav` 是第二位说话者提示音 wav 文件的路径。  
-- `text` 是要合成的文本，例如 “[S1] 我很好。[S2] 你叫什么名字？”  
+- `wav_name` 是输出 wav 文件的名称。
+- `spk1_prompt_transcription` 是第一个说话人提示 wav 的转录内容，例如，“Hello”
+- `spk2_prompt_transcription` 是第二个说话人提示 wav 的转录内容，例如，“How are you?”
+- `spk1_prompt_wav` 是第一个说话人提示 wav 文件的路径。
+- `spk2_prompt_wav` 是第二个说话人提示 wav 文件的路径。
+- `text` 是要合成的文本，例如，“[S1] I'm fine. [S2] What's your name?”
 
-### 3. 其他功能  
+### 3. 其他功能
 
-#### 3.1 纠正汉语多音字的错误发音  
+#### 3.1 修正中文多音字发音错误
 
-我们使用 [pypinyin](https://github.com/mozillazg/python-pinyin) 将汉字转换为拼音。但它有时会错误地发音**多音字**。  
+我们使用 [pypinyin](https://github.com/mozillazg/python-pinyin) 将中文字符转换为拼音。然而，它有时会将**多音字**发音错误。
 
-为手动纠正这些错误发音，请将**正确的拼音**用尖括号 `< >` 括起来，并包括**声调符号**。  
+要手动纠正这些发音错误，请将**纠正后的拼音**用尖括号 `< >` 括起来，并包含**声调标记**。
 
-**示例：**  
+**示例：**
 
-- 原文：`这把剑长三十公分`  
-- 纠正 `长` 的拼音：`这把剑<chang2>三十公分`  
+- 原文：`这把剑长三十公分`
+- 修正 `长` 的拼音：  `这把剑<chang2>三十公分`
 
-> **注意：** 如果想手动指定多个拼音，请用 `<>` 括起每个拼音，例如，`这把<jian4><chang2><san1>十公分`  
+> **注意：** 如果你想手动指定多个拼音，用 `<>` 括住每个拼音，例如，`这把<jian4><chang2><san1>十公分`
 
-## 训练您自己的模型  
+## 训练你自己的模型
 
-请参阅 [egs](egs) 目录，了解训练和微调示例。  
+有关训练、微调和评估的示例，请参见 [egs](egs) 目录。
 
-## 讨论与交流  
+## 讨论与交流
 
-您可以直接在 [Github Issues](https://github.com/k2-fsa/ZipVoice/issues) 上讨论。  
+你可以直接在 [Github Issues](https://github.com/k2-fsa/ZipVoice/issues) 上讨论。
 
-您也可以扫描二维码加入我们的微信群或关注我们的微信公众账号。  
+你也可以扫码加入我们的微信群或关注我们的微信公众号。
 
-| 微信群       | 微信公众号              |  
-| ------------ | ----------------------- |  
-|![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |  
+| 微信群 | 微信公众号 |
+| ------------ | ----------------------- |
+|![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |
 
-## 参考文献
+## 引用
 
 
 ```bibtex
@@ -257,6 +263,6 @@ python3 -m zipvoice.bin.infer_zipvoice_dialog \
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

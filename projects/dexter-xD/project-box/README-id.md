@@ -13,7 +13,7 @@
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fr">Français</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=de">Deutsch</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Italiano</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ru">Русский</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pt">Português</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=nl">Nederlands</a>
@@ -28,16 +28,16 @@
   </details>
 </div>
 
-# Kumpulan Proyek Pemrograman C
+# Koleksi Proyek Pemrograman C
 
 [![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)
 
-Kumpulan proyek pemrograman C yang dirancang untuk pemula agar dapat belajar dan berlatih berbagai konsep pemrograman, mulai dari algoritma dasar hingga pemrograman jaringan. Setiap proyek bersifat mandiri dan mencakup dokumentasi serta sistem build-nya sendiri.
+Koleksi proyek pemrograman C yang dirancang untuk pemula agar dapat belajar dan berlatih berbagai konsep pemrograman, mulai dari algoritma dasar hingga pemrograman jaringan. Setiap proyek bersifat mandiri dan dilengkapi dengan dokumentasi serta sistem build masing-masing.
 
 ## Ikhtisar Proyek
 
 ### 1. [Implementasi SHA-512](SHA-512/)
-Implementasi fungsi hash kriptografi yang menunjukkan:
+Implementasi fungsi hash kriptografi yang mendemonstrasikan:
 - Manipulasi bit
 - Algoritma kompleks
 - Manajemen memori
@@ -45,55 +45,55 @@ Implementasi fungsi hash kriptografi yang menunjukkan:
 
 ### 2. [Server HTTP](http-server/)
 Implementasi server HTTP dasar yang mencakup:
-- Pemrograman socket
+- Pemrograman soket
 - Dasar-dasar protokol HTTP
 - Penyajian file
 - Komunikasi jaringan
 
-### 3. [UDP Server-Client](udp-server-client/)
+### 3. [Server-Client UDP](udp-server-client/)
 Sistem komunikasi sederhana berbasis UDP yang mengajarkan:
-- Pemrograman socket UDP
+- Pemrograman soket UDP
 - Arsitektur client-server
 - Protokol jaringan
 - Pertukaran pesan
 
 ### 4. [Port Scanner](port-scanner/)
-Alat diagnostik jaringan yang menunjukkan:
-- Pemrograman socket TCP
+Alat diagnostik jaringan yang mendemonstrasikan:
+- Pemrograman soket TCP
 - Teknik pemindaian jaringan
 - Penanganan error
-- Parsing argumen command-line
+- Parsing argumen baris perintah
 
 ### 5. [Implementasi Ping](ping/)
 Utilitas ping kustom yang mencakup:
 - Protokol ICMP
-- Pemrograman raw socket
+- Pemrograman soket mentah
 - Diagnostik jaringan
 - Pengukuran waktu
 
 ### 6. [Tic-Tac-Toe](tic-tac-toe/)
 Implementasi permainan klasik yang mengajarkan:
-- Server game multiplayer 
-- Pemrograman socket
+- Server game multipemain 
+- Pemrograman soket
 - Logika permainan
 - Penanganan input pengguna
 
 ### 7. [Sistem Chat](chat-system/)
-Aplikasi chat real-time yang menunjukkan:
-- Pemrograman socket TCP
+Aplikasi chat real-time yang mendemonstrasikan:
+- Pemrograman soket TCP
 - Multi-threading
 - Komunikasi real-time
 - Arsitektur client-server
 
-### 8. [Analisis Leksikal](lexical-analyser/)
-Komponen front-end kompilator sederhana yang menunjukkan:
+### 8. [Analisa Leksikal](lexical-analyser/)
+Komponen front-end kompiler sederhana yang mendemonstrasikan:
 - Tokenisasi kode sumber
 - Teknik parsing
-- Prinsip desain kompilator
+- Prinsip desain kompiler
 - Manipulasi string
 
-### 9. [Kompilator Aritmatika](arithmetic-compiler/)
-Kompilator sederhana yang menerima ekspresi aritmatika sebagai input dan menghasilkan kode mirip assembly:
+### 9. [Kompiler Aritmatika](arithmetic-compiler/)
+Kompiler sederhana yang menerima ekspresi aritmatika sebagai masukan dan menghasilkan kode mirip assembly:
 - Analisis leksikal (tokenisasi)
 - Parsing dan evaluasi ekspresi
 - Generasi kode assembly
@@ -167,6 +167,6 @@ Beberapa proyek terkait jaringan (Port Scanner, Ping) memerlukan hak akses root/
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

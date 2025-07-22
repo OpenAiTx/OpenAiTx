@@ -3,7 +3,7 @@
     <summary >🌐 Ngôn ngữ</summary>
     <div>
       <div align="right">
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=en">Tiếng Anh</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=en">English</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-CN">简体中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-TW">繁體中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ja">日本語</a></p>
@@ -30,62 +30,63 @@
 
 # SparkyFitness - Giải pháp tự lưu trữ thay thế MyFitnessPal
 
-SparkyFitness là một ứng dụng quản lý và theo dõi sức khỏe toàn diện, giúp người dùng giám sát dinh dưỡng, tập luyện và các chỉ số cơ thể. Ứng dụng cung cấp các công cụ để theo dõi tiến trình hàng ngày, đặt mục tiêu và báo cáo chi tiết nhằm hỗ trợ lối sống lành mạnh.
+SparkyFitness là một ứng dụng quản lý và theo dõi sức khỏe toàn diện, giúp người dùng kiểm soát dinh dưỡng, tập luyện và các chỉ số cơ thể. Ứng dụng cung cấp công cụ theo dõi tiến trình hàng ngày, đặt mục tiêu và báo cáo chuyên sâu để hỗ trợ lối sống lành mạnh.
 
+Tài liệu: https://codewithcj.github.io/SparkyFitness
 
 ## ✨ Tính năng
 
-### 🍎 Theo dõi Dinh dưỡng
+### 🍎 Theo dõi dinh dưỡng
 
-* **Ghi nhật ký bữa ăn hàng ngày**
+* **Ghi lại bữa ăn hàng ngày của bạn**
 * **Tạo và quản lý thực phẩm, danh mục tùy chỉnh**
-* **Xem tóm tắt và phân tích xu hướng qua biểu đồ tương tác**
+* **Xem tóm tắt và phân tích xu hướng với biểu đồ tương tác**
 
-### 💪 Ghi nhật ký Tập luyện
+### 💪 Ghi chép tập luyện
 
-* **Ghi lại các buổi tập luyện**
-* **Duyệt và tìm kiếm cơ sở dữ liệu bài tập phong phú**
-* **Theo dõi tiến độ tập luyện theo thời gian**
+* **Ghi lại các buổi tập của bạn**
+* **Duyệt và tìm kiếm cơ sở dữ liệu bài tập toàn diện**
+* **Theo dõi tiến trình thể chất theo thời gian**
 
-### 💧 Giám sát Lượng nước Uống
+### 💧 Theo dõi lượng nước uống
 
 * **Theo dõi mục tiêu uống nước mỗi ngày**
-* **Nhật ký uống nước đơn giản, nhanh chóng**
+* **Ghi nhanh lượng nước uống một cách đơn giản**
 
-### 📏 Đo lường Cơ thể
+### 📏 Đo lường cơ thể
 
-* **Ghi nhận chỉ số cơ thể** (vd: cân nặng, eo, tay)
-* **Thêm loại đo lường tùy chỉnh**
-* **Trực quan hóa tiến trình qua biểu đồ**
+* **Ghi lại chỉ số cơ thể** (ví dụ: cân nặng, eo, tay)
+* **Thêm loại đo tùy chỉnh**
+* **Hình dung tiến trình qua biểu đồ**
 
-### 🎯 Đặt Mục tiêu
+### 🎯 Đặt mục tiêu
 
-* **Đặt và quản lý mục tiêu dinh dưỡng, thể chất**
-* **Theo dõi tiến trình theo thời gian**
+* **Đặt và quản lý mục tiêu thể chất, dinh dưỡng**
+* **Theo dõi tiến độ theo thời gian**
 
-### 🗓️ Điểm danh Hàng ngày
+### 🗓️ Báo cáo hoạt động hàng ngày
 
-* **Giám sát hoạt động hàng ngày**
-* **Duy trì thói quen qua theo dõi hành vi**
+* **Theo dõi hoạt động mỗi ngày**
+* **Giữ thói quen nhất quán nhờ theo dõi thói quen**
 
-### 🤖 Huấn luyện viên Dinh dưỡng AI (SparkyAI)
+### 🤖 Huấn luyện viên dinh dưỡng AI (SparkyAI)
 
-* **Nhật ký thực phẩm, tập luyện, chỉ số cơ thể, bước chân qua chat**
-* **Tải ảnh món ăn để ghi nhật ký bữa ăn tự động**
-* **Bao gồm lịch sử trò chuyện và hướng dẫn cá nhân hóa**
+* **Ghi thực phẩm, tập luyện, chỉ số cơ thể, số bước qua trò chuyện**
+* **Tải ảnh món ăn để ghi nhận bữa ăn tự động**
+* **Bao gồm lịch sử chat và hướng dẫn cá nhân hóa**
 
-### 🔒 Xác thực & Hồ sơ Người dùng
+### 🔒 Xác thực người dùng & Hồ sơ
 
-* **Hệ thống đăng nhập bảo mật**
+* **Hệ thống đăng nhập an toàn**
 * **Chuyển đổi giữa các hồ sơ người dùng**
 * **Hỗ trợ truy cập và quản lý cho gia đình**
 
-### 📊 Báo cáo Toàn diện
+### 📊 Báo cáo tổng hợp
 
 * **Tạo tóm tắt cho dinh dưỡng và chỉ số cơ thể**
 * **Theo dõi xu hướng dài hạn theo tuần hoặc tháng**
 
-### 🎨 Chủ đề Tùy chỉnh
+### 🎨 Chủ đề tuỳ chỉnh
 
 * **Chuyển đổi giữa chế độ sáng và tối**
 * **Thiết kế tối giản, không gây xao nhãng**
@@ -93,65 +94,79 @@ SparkyFitness là một ứng dụng quản lý và theo dõi sức khỏe toàn
 ### Cần hỗ trợ?
 * **Tham gia discord**
   https://discord.gg/vcnMT5cPEA
-* **Đăng câu hỏi thảo luận**
+* **Đăng bài trong phần thảo luận**
 
+</translate-content>
 
 ![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
 
-## 🚀 Bắt đầu
+## 🚀 Khởi động nhanh
 
-Để chạy ứng dụng SparkyFitness trên máy tính của bạn, hãy làm theo các bước sau:
+Khởi chạy SparkyFitness chỉ trong vài phút:
 
-### Yêu cầu tiên quyết
+```bash
+# Clone the repository
+git clone https://github.com/CodeWithCJ/SparkyFitness.git
+cd SparkyFitness
 
-### Cài đặt
+# Copy environment template and edit as needed
+cp docker/.env.example .env
 
-1.  **Cấu hình biến môi trường:**
+# Start development environment (with live reloading)
+./docker/docker-helper.sh dev up
 
-    Tạo một tệp `.env` trong thư mục gốc. Sao chép mẫu từ tệp `.env` ví dụ và cập nhật với các thiết lập của bạn. Tham khảo WIKI để xem cấu hình hiện tại mà tôi đã sử dụng. Cố gắng không thay đổi cổng vì chúng có thể không hoạt động đúng với các bản phát hành ban đầu cho đến khi dự án ổn định.
+# Access application at http://localhost:8080
+```
+## 📖 Tài liệu
 
-    *   **URL Bảng quản trị:** Để kích hoạt bảng quản trị và cấu hình các thiết lập OIDC, đảm bảo biến môi trường `SPARKY_FITNESS_ADMIN_EMAIL` được đặt đúng URL cho bảng quản trị của bạn.
-    
+Để có hướng dẫn cài đặt đầy đủ, thiết lập phát triển và hướng dẫn sử dụng, hãy truy cập vào tài liệu chi tiết của chúng tôi:
 
-2.  **Chạy với Docker Compose:**
-    Kéo các image Docker và khởi động các dịch vụ. Nếu bạn đã thay đổi tệp `.env`, bạn nên build lại các image để đảm bảo các biến môi trường mới được áp dụng.
+**👉 [Trang Tài liệu SparkyFitness](https://codewithcj.github.io/SparkyFitness)**
 
+### Liên kết nhanh
 
-    ```sh
-    docker-compose pull # Pull the latest Docker images
-    docker-compose up -d # Start the services in detached mode
-    ```
-    Tham khảo thiết lập mẫu tại
-    https://github.com/CodeWithCJ/SparkyFitness/wiki/Sample-Setup
+- **[🚀 Bắt đầu](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Hướng dẫn thiết lập đầy đủ cho phát triển và sản xuất
+- **[🐳 Hướng dẫn Docker](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Triển khai và cấu hình Docker
+- **[🔧 Quy trình Phát triển](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - Hướng dẫn phát triển và quy trình đóng góp  
+- **[📊 Tổng quan Tính năng](https://codewithcj.github.io/SparkyFitness/features/)** - Tài liệu chi tiết về tính năng
+- **[🏗️ Kiến trúc](https://codewithcj.github.io/SparkyFitness/app-overview)** - Kiến trúc kỹ thuật và thiết kế
 
-3.  **Truy cập Ứng dụng:**
-    Sau khi các dịch vụ đã được khởi động, truy cập SparkyFitness trên trình duyệt web của bạn tại URL đã cấu hình cho frontend (ví dụ: `http://localhost:3004` hoặc `http://your_frontend_ip_or_domain:3004`).
+## 🐳 Triển khai Docker
 
-4.  **Cấu hình Chatbot AI - Tùy chọn:**
-    Để kích hoạt đầy đủ chức năng của Chatbot AI, bạn cần cấu hình các khóa API cần thiết trong phần cài đặt ứng dụng sau khi đăng nhập.
-  
-5.  **Thiết lập Ứng dụng Ban đầu:**
-    Sau khi đăng nhập vào ứng dụng, hãy điều hướng tới menu cài đặt để:
-    *   Thêm nhà cung cấp thực phẩm ưa thích của bạn (ví dụ: OpenFoodFacts là một lựa chọn miễn phí).
-    *   Điều chỉnh các tuỳ chọn và cài đặt hồ sơ cá nhân của bạn.
+**Sản xuất (khuyến nghị):**
 
-### ⚠️ Các Vấn Đề Đã Biết / Tính Năng Beta ⚠️
+```bash
+cp docker/.env.example .env  # Edit as needed
+./docker/docker-helper.sh prod up
+# Access at http://localhost:3004
+```
+**Phát triển:**
 
-Các tính năng sau hiện đang ở giai đoạn beta và có thể chưa được kiểm thử đầy đủ. Có thể xuất hiện lỗi hoặc chức năng chưa hoàn thiện:
+```bash
+cp docker/.env.example .env  # Edit as needed  
+./docker/docker-helper.sh dev up
+# Access at http://localhost:8080 (live reloading)
+```
+Để biết hướng dẫn cài đặt chi tiết, cấu hình môi trường và xử lý sự cố, hãy xem [tài liệu đầy đủ](https://codewithcj.github.io/SparkyFitness/developer/getting-started).
+
+### ⚠️ Các vấn đề đã biết / Tính năng Beta ⚠️
+
+Các tính năng sau hiện đang ở chế độ beta và có thể chưa được kiểm thử kỹ lưỡng. Có thể gặp lỗi hoặc chức năng chưa hoàn chỉnh:
 
 *   Chatbot AI
 *   Hỗ trợ nhiều người dùng
-*   Truy cập Gia đình & Bạn bè
+*   Quyền truy cập Gia đình & Bạn bè
 *   Tích hợp dữ liệu Apple Health
 
-Ứng dụng này đang được phát triển mạnh mẽ. Một số chức năng có thể không hoạt động như mong đợi do quá trình chuyển đổi từ Supabase sang PostgreSQL. CÓ THỂ CÓ NHỮNG THAY ĐỔI LỚN cho đến khi ứng dụng ổn định.
-Bạn có thể cần thay đổi các biến Docker/môi trường khi có phiên bản mới. Do đó, không khuyến nghị tự động nâng cấp bằng Watchtower hoặc các ứng dụng tương tự. Hãy đọc ghi chú phát hành cho bất kỳ THAY ĐỔI LỚN nào.
+Ứng dụng này đang được phát triển mạnh mẽ. Một số chức năng có thể không hoạt động như mong đợi do quá trình chuyển đổi từ Supabase sang PostgreSQL. Thay đổi lớn (BREAKING CHANGES) có thể được áp dụng cho đến khi ứng dụng ổn định.
+Bạn có thể cần thay đổi biến Docker/môi trường cho các bản phát hành mới. Do đó, không nên sử dụng tự động nâng cấp bằng Watchtower hoặc các ứng dụng tương tự. Hãy đọc ghi chú phát hành cho bất kỳ THAY ĐỔI LỚN nào.
+
 
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

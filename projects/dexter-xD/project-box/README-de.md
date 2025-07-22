@@ -13,8 +13,8 @@
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fr">Französisch</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=de">Deutsch</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=es">Spanisch</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Itapano</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Italienisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ru">Russisch</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pt">Portugiesisch</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=nl">Niederländisch</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pl">Polnisch</a>
@@ -30,53 +30,53 @@
 
 # Sammlung von C-Programmierprojekten
 
-[![Kauf mir einen Kaffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)
+[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)
 
-Eine Sammlung von C-Programmierprojekten, die für Anfänger konzipiert sind, um verschiedene Programmierkonzepte zu erlernen und zu üben, von grundlegenden Algorithmen bis zur Netzwerkprogrammierung. Jedes Projekt ist eigenständig und enthält eigene Dokumentation und Build-System.
+Eine Sammlung von C-Programmierprojekten, die für Anfänger entwickelt wurden, um verschiedene Programmierkonzepte zu erlernen und zu üben – von grundlegenden Algorithmen bis hin zur Netzwerkprogrammierung. Jedes Projekt ist eigenständig und enthält eigene Dokumentation sowie ein eigenes Build-System.
 
 ## Projektübersicht
 
 ### 1. [SHA-512 Implementierung](SHA-512/)
-Eine Implementierung einer kryptografischen Hashfunktion, die Folgendes demonstriert:
+Eine Implementierung einer kryptographischen Hashfunktion, die zeigt:
 - Bitmanipulation
 - Komplexe Algorithmen
 - Speicherverwaltung
 - Datei-I/O-Operationen
 
 ### 2. [HTTP-Server](http-server/)
-Eine einfache Implementierung eines HTTP-Servers, die behandelt:
+Eine einfache HTTP-Server-Implementierung, die abdeckt:
 - Socket-Programmierung
-- Grundlagen des HTTP-Protokolls
-- Dateiauslieferung
-- Netzkommunikation
+- HTTP-Protokollgrundlagen
+- Dateiserver
+- Netzwerkkommunikation
 
 ### 3. [UDP Server-Client](udp-server-client/)
-Ein einfaches UDP-basiertes Kommunikationssystem, das Folgendes vermittelt:
+Ein einfaches, auf UDP basierendes Kommunikationssystem, das vermittelt:
 - UDP-Socket-Programmierung
 - Client-Server-Architektur
 - Netzwerkprotokolle
 - Nachrichtenaustausch
 
-### 4. [Port Scanner](port-scanner/)
+### 4. [Port-Scanner](port-scanner/)
 Ein Netzwerkdiagnosetool, das Folgendes demonstriert:
 - TCP-Socket-Programmierung
-- Netzwerkscantechniken
+- Netzwerkscan-Techniken
 - Fehlerbehandlung
-- Parsen von Kommandozeilenargumenten
+- Kommandozeilen-Argumenten-Parsing
 
 ### 5. [Ping-Implementierung](ping/)
-Ein eigenes Ping-Dienstprogramm, das behandelt:
+Ein benutzerdefiniertes Ping-Dienstprogramm, das abdeckt:
 - ICMP-Protokoll
 - Raw-Socket-Programmierung
 - Netzwerkanalyse
 - Zeitmessung
 
 ### 6. [Tic-Tac-Toe](tic-tac-toe/)
-Eine klassische Spielimplementierung, die Folgendes vermittelt:
+Eine klassische Spielimplementierung, die vermittelt:
 - Multiplayer-Spielserver 
 -Socket-Programmierung
 - Spiellogik
-- Benutzereingabeverarbeitung
+- Verarbeitung von Benutzereingaben
 
 ### 7. [Chat-System](chat-system/)
 Eine Echtzeit-Chat-Anwendung, die Folgendes demonstriert:
@@ -86,17 +86,17 @@ Eine Echtzeit-Chat-Anwendung, die Folgendes demonstriert:
 - Client-Server-Architektur
 
 ### 8. [Lexikalischer Analysator](lexical-analyser/)
-Eine einfache Kompilervorderendkomponente, die Folgendes demonstriert:
+Eine einfache Frontend-Komponente eines Compilers, die zeigt:
 - Tokenisierung von Quellcode
-- Parsen-Techniken
-- Prinzipien des Compiler-Designs
+- Parsing-Techniken
+- Compiler-Design-Prinzipien
 - Zeichenkettenmanipulation
 
-### 9. [Arithmetischer Compiler](arithmetic-compiler/)
-Ein einfacher Compiler, der arithmetische Ausdrücke als Eingabe nimmt und Assembly-ähnlichen Code generiert:
+### 9. [Arithmetik-Compiler](arithmetic-compiler/)
+Ein einfacher Compiler, der arithmetische Ausdrücke als Eingabe nimmt und Assembler-ähnlichen Code generiert:
 - Lexikalische Analyse (Tokenisierung)
 - Parsen und Auswertung von Ausdrücken
-- Assembly-Code-Generierung
+- Assemblierungscode-Generierung
 
 - Grundlagen des Compilerbaus
 
@@ -167,6 +167,6 @@ Einige netzwerkbezogene Projekte (Port Scanner, Ping) erfordern zum Ausführen R
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

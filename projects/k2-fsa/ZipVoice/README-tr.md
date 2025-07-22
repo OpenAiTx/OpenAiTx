@@ -113,19 +113,25 @@ source zipvoice/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-### 4. (Opsiyonel) k2'yi eğitim veya verimli çıkarım için kurun
+### 4. Eğitim veya verimli çıkarım için k2'yi kurun
 
-k2, eğitim için gereklidir ve çıkarımı hızlandırabilir. Yine de, k2 kurmadan ZipVoice'un çıkarım modunu kullanabilirsiniz.
+**k2 eğitim için gereklidir** ve çıkarımı hızlandırabilir. Yine de, k2 yüklemeden ZipVoice'ın çıkarım modunu kullanabilirsiniz.
 
-> **Not:**  Kullandığınız PyTorch ve CUDA sürümüne uygun k2 sürümünü kurduğunuzdan emin olun. Örneğin, pytorch 2.5.1 ve CUDA 12.1 kullanıyorsanız, k2'yi aşağıdaki gibi kurabilirsiniz:
+> **Not:**  Kullandığınız PyTorch ve CUDA sürümüne uygun k2 sürümünü kurduğunuzdan emin olun. Örneğin, eğer pytorch 2.5.1 ve CUDA 12.1 kullanıyorsanız, k2'yi şu şekilde kurabilirsiniz:
 
 
 ```bash
 pip install k2==1.24.4.dev20250208+cuda12.1.torch2.5.1 -f https://k2-fsa.github.io/k2/cuda.html
 ```
 Lütfen ayrıntılar için https://k2-fsa.org/get-started/k2/ adresine bakınız.
-Çin ana karasındaki kullanıcılar https://k2-fsa.org/zh-CN/get-started/k2/ adresine başvurabilirler.
+Çin anakarasındaki kullanıcılar https://k2-fsa.org/zh-CN/get-started/k2/ adresine başvurabilirler.
 
+- k2 kurulumunu kontrol etmek için:
+
+
+```
+python3 -c "import k2; print(k2.__file__)"
+```
 ## Kullanım
 
 ### 1. Tek konuşmacılı konuşma üretimi
@@ -163,7 +169,7 @@ python3 -m zipvoice.bin.infer_zipvoice \
 ```
 - `test.tsv` dosyasının her satırı `{wav_name}\t{prompt_transcription}\t{prompt_wav}\t{text}` formatındadır.
 
-### 2. Konuşmalı diyalog oluşturma
+### 2. Diyalog konuşma üretimi
 
 #### 2.1 Çıkarım komutu
 
@@ -199,37 +205,37 @@ python3 -m zipvoice.bin.infer_zipvoice_dialog \
 ```
 {wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}'
 ```
-- `wav_name` çıktı wav dosyasının adıdır.
-- `spk1_prompt_transcription` birinci konuşmacının prompt wav dosyasının transkripsiyonudur, örn. "Merhaba"
-- `spk2_prompt_transcription` ikinci konuşmacının prompt wav dosyasının transkripsiyonudur, örn. "Nasılsın?"
-- `spk1_prompt_wav` birinci konuşmacının prompt wav dosyasının yoludur.
-- `spk2_prompt_wav` ikinci konuşmacının prompt wav dosyasının yoludur.
-- `text` sentezlenecek metindir, örn. "[S1] İyiyim. [S2] Adın ne?"
+- `wav_name`, çıktı wav dosyasının adıdır.
+- `spk1_prompt_transcription`, birinci konuşmacının prompt wav dosyasının transkripsiyonudur, örneğin, "Merhaba"
+- `spk2_prompt_transcription`, ikinci konuşmacının prompt wav dosyasının transkripsiyonudur, örneğin, "Nasılsın?"
+- `spk1_prompt_wav`, birinci konuşmacının prompt wav dosyasının yoludur.
+- `spk2_prompt_wav`, ikinci konuşmacının prompt wav dosyasının yoludur.
+- `text`, sentezlenecek metindir, örneğin: "[S1] İyiyim. [S2] Adın ne?"
 
 ### 3. Diğer özellikler
 
 #### 3.1 Yanlış telaffuz edilen Çince çok sesli karakterlerin düzeltilmesi
 
-Çince karakterleri pinyin'e dönüştürmek için [pypinyin](https://github.com/mozillazg/python-pinyin) kullanıyoruz. Ancak, bazen **çok sesli karakterler** (多音字) yanlış telaffuz edilebiliyor.
+Çince karakterleri pinyin'e çevirmek için [pypinyin](https://github.com/mozillazg/python-pinyin) kullanıyoruz. Ancak, bazen **çok sesli karakterleri** (多音字) yanlış telaffuz edebilir.
 
-Bu yanlış telaffuzları elle düzeltmek için, **düzeltilmiş pinyin**'i köşeli parantez `< >` içine alın ve **ton işaretini** ekleyin.
+Bu yanlış telaffuzları manuel olarak düzeltmek için, **düzeltilmiş pinyin'i** açılı ayraçlar `< >` içine alın ve **ton işaretini** ekleyin.
 
 **Örnek:**
 
 - Orijinal metin: `这把剑长三十公分`
 - `长` karakterinin pinyin'ini düzeltin:  `这把剑<chang2>三十公分`
 
-> **Not:** Eğer elle birden fazla pinyin atamak isterseniz, her pinyin'i ayrı ayrı `<>` ile çerçeveleyin, örn. `这把<jian4><chang2><san1>十公分`
+> **Not:** Eğer manuel olarak birden fazla pinyin atamak isterseniz, her pinyin'i `<>` ile sarın, örneğin, `这把<jian4><chang2><san1>十公分`
 
 ## Kendi Modelinizi Eğitin
 
-Eğitim ve ince ayar örnekleri için [egs](egs) dizinine bakınız.
+Eğitim, ince ayar ve değerlendirme örnekleri için [egs](egs) dizinine bakınız.
 
 ## Tartışma & İletişim
 
 Doğrudan [Github Issues](https://github.com/k2-fsa/ZipVoice/issues) üzerinden tartışabilirsiniz.
 
-Ayrıca, QR kodunu tarayarak wechat grubumuza katılabilir veya resmi wechat hesabımızı takip edebilirsiniz.
+Ayrıca, QR kodunu tarayarak wechat grubumuza katılabilir veya wechat resmi hesabımızı takip edebilirsiniz.
 
 | Wechat Grubu | Wechat Resmi Hesabı |
 | ------------ | ------------------- |
@@ -257,6 +263,6 @@ Ayrıca, QR kodunu tarayarak wechat grubumuza katılabilir veya resmi wechat hes
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

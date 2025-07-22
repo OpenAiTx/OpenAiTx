@@ -13,7 +13,7 @@
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fr">Français</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=de">Deutsch</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Italiano</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ru">Русский</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pt">Português</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=nl">Nederlands</a>
@@ -28,75 +28,75 @@
   </details>
 </div>
 
-# مجموعة مشاريع برمجة بلغة C
+# مجموعة مشاريع البرمجة بلغة C
 
-[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)
+[![اشتر لي قهوة](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)
 
-مجموعة من مشاريع البرمجة بلغة C صممت خصيصًا للمبتدئين لتعلم وممارسة مختلف مفاهيم البرمجة، من الخوارزميات الأساسية إلى برمجة الشبكات. كل مشروع مستقل بذاته ويحتوي على وثائقه ونظام بناء خاص به.
+مجموعة من مشاريع البرمجة بلغة C صممت للمبتدئين لتعلم وممارسة مفاهيم البرمجة المختلفة، بدءًا من الخوارزميات الأساسية إلى برمجة الشبكات. كل مشروع مستقل ويحتوي على وثائقه ونظام البناء الخاص به.
 
 ## نظرة عامة على المشاريع
 
 ### 1. [تنفيذ SHA-512](SHA-512/)
 تنفيذ دالة تجزئة تشفيرية يوضح:
-- التلاعب بالبتات
+- معالجة البتات
 - الخوارزميات المعقدة
 - إدارة الذاكرة
-- عمليات إدخال/إخراج الملفات
+- عمليات الإدخال/الإخراج للملفات
 
 ### 2. [خادم HTTP](http-server/)
 تنفيذ خادم HTTP أساسي يغطي:
-- برمجة المقابس (Sockets)
+- برمجة المقابس
 - أساسيات بروتوكول HTTP
-- تقديم الملفات
-- التواصل عبر الشبكة
+- خدمة الملفات
+- الاتصال الشبكي
 
 ### 3. [خادم-عميل UDP](udp-server-client/)
-نظام تواصل بسيط يعتمد على UDP يعلم:
+نظام اتصال بسيط يعتمد على UDP يعلم:
 - برمجة مقبس UDP
 - بنية العميل-الخادم
 - بروتوكولات الشبكة
 - تبادل الرسائل
 
-### 4. [أداة فحص المنافذ](port-scanner/)
-أداة تشخيص للشبكات توضح:
+### 4. [ماسح المنافذ](port-scanner/)
+أداة تشخيصية للشبكة توضح:
 - برمجة مقبس TCP
-- تقنيات فحص الشبكة
+- تقنيات مسح الشبكة
 - معالجة الأخطاء
-- تحليل معاملات سطر الأوامر
+- تحليل وسيطات سطر الأوامر
 
-### 5. [تنفيذ أمر Ping](ping/)
+### 5. [تنفيذ Ping](ping/)
 أداة Ping مخصصة تغطي:
 - بروتوكول ICMP
-- برمجة المقابس الخام (Raw Sockets)
-- تشخيص الشبكة
+- برمجة المقبس الخام
+- تشخيصات الشبكة
 - قياس الوقت
 
-### 6. [لعبة إكس-أو (Tic-Tac-Toe)](tic-tac-toe/)
-تنفيذ للعبة الكلاسيكية يعلم:
+### 6. [لعبة إكس-أو](tic-tac-toe/)
+تنفيذ لعبة كلاسيكية يعلم:
 - خادم ألعاب متعدد اللاعبين
-- برمجة المقابس (Sockets)
+- برمجة المقابس
 - منطق اللعبة
-- التعامل مع إدخال المستخدم
+- معالجة إدخال المستخدم
 
 ### 7. [نظام الدردشة](chat-system/)
 تطبيق دردشة في الوقت الحقيقي يوضح:
 - برمجة مقبس TCP
-- البرمجة متعددة الخيوط
-- التواصل في الوقت الفعلي
+- تعدد الخيوط
+- الاتصال الفوري
 - بنية العميل-الخادم
 
-### 8. [محلل لغوي (Lexical Analyzer)](lexical-analyser/)
-مكون أمامي بسيط للمترجم يوضح:
-- تقطيع الشيفرة المصدرية إلى رموز (Tokens)
-- تقنيات التحليل اللغوي
+### 8. [محلل لغوي](lexical-analyser/)
+مكون بسيط للواجهة الأمامية للمترجم يوضح:
+- تجزئة كود المصدر
+- تقنيات التحليل
 - مبادئ تصميم المترجمات
 - معالجة السلاسل النصية
 
-### 9. [مترجم حسابي (Arithmetic Compiler)](arithmetic-compiler/)
-مترجم بسيط يأخذ تعبيرات حسابية كمدخل وينتج كود شبيه بالتجميع:
-- التحليل المعجمي (تقطيع الرموز)
-- تحليل وتقييم التعابير
-- توليد كود تجميعي
+### 9. [مترجم الحسابيات](arithmetic-compiler/)
+مترجم بسيط يأخذ تعبيرات حسابية كمدخل ويولد كود شبيه بالتجميع:
+- التحليل اللغوي (تجزئة)
+- تحليل وتقييم التعبيرات
+- توليد كود التجميع
 
 - أساسيات بناء المترجم
 
@@ -167,6 +167,6 @@
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

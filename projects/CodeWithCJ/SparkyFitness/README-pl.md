@@ -30,128 +30,143 @@
 
 # SparkyFitness - Samohostowana alternatywa dla MyFitnessPal
 
-SparkyFitness to kompleksowa aplikacja do śledzenia i zarządzania kondycją, zaprojektowana, aby pomóc użytkownikom monitorować odżywianie, ćwiczenia i pomiary ciała. Oferuje narzędzia do codziennego śledzenia postępów, wyznaczania celów oraz przejrzyste raporty wspierające zdrowy styl życia.
+SparkyFitness to kompleksowa aplikacja do monitorowania i zarządzania aktywnością fizyczną, zaprojektowana, aby pomóc użytkownikom śledzić odżywianie, ćwiczenia i pomiary ciała. Zapewnia narzędzia do codziennego śledzenia postępów, wyznaczania celów oraz szczegółowych raportów wspierających zdrowy styl życia.
 
+Dokumentacja: https://codewithcj.github.io/SparkyFitness
 
 ## ✨ Funkcje
 
 ### 🍎 Monitorowanie odżywiania
 
-* **Rejestruj swoje codzienne posiłki**
-* **Twórz i zarządzaj własnymi produktami i kategoriami**
-* **Przeglądaj podsumowania i analizuj trendy na interaktywnych wykresach**
+* **Rejestruj codzienne posiłki**
+* **Twórz i zarządzaj własnymi produktami oraz kategoriami**
+* **Przeglądaj podsumowania i analizuj trendy dzięki interaktywnym wykresom**
 
 ### 💪 Rejestrowanie ćwiczeń
 
 * **Zapisuj swoje treningi**
-* **Przeglądaj i wyszukuj w rozbudowanej bazie ćwiczeń**
+* **Przeglądaj i wyszukuj w obszernej bazie ćwiczeń**
 * **Śledź postępy w kondycji na przestrzeni czasu**
 
-### 💧 Monitorowanie nawodnienia
+### 💧 Monitorowanie spożycia wody
 
 * **Śledź dzienne cele nawodnienia**
-* **Szybkie i proste logowanie spożycia wody**
+* **Proste i szybkie logowanie wypitej wody**
 
 ### 📏 Pomiary ciała
 
 * **Rejestruj parametry ciała** (np. waga, talia, ramiona)
 * **Dodawaj własne typy pomiarów**
-* **Wizualizuj postępy za pomocą wykresów**
+* **Wizualizuj postępy na wykresach**
 
-### 🎯 Ustalanie celów
+### 🎯 Wyznaczanie celów
 
-* **Ustalaj i zarządzaj celami dotyczącymi kondycji i odżywiania**
-* **Śledź postępy na przestrzeni czasu**
+* **Ustalaj i zarządzaj celami fitness i żywieniowymi**
+* **Monitoruj postępy w czasie**
 
-### 🗓️ Codzienne odprawy
+### 🗓️ Codzienne meldunki
 
 * **Monitoruj codzienną aktywność**
-* **Dbaj o regularność dzięki śledzeniu nawyków**
+* **Utrzymuj regularność dzięki śledzeniu nawyków**
 
-### 🤖 AI Trener żywieniowy (SparkyAI)
+### 🤖 AI Trener Żywieniowy (SparkyAI)
 
-* **Rejestruj jedzenie, ćwiczenia, statystyki ciała i kroki przez czat**
-* **Wgrywaj zdjęcia posiłków, by automatycznie je zapisać**
-* **Zawiera historię czatów i spersonalizowane wskazówki**
+* **Rejestruj posiłki, ćwiczenia, parametry ciała i kroki przez czat**
+* **Przesyłaj zdjęcia posiłków, aby automatycznie je rejestrować**
+* **Zawiera historię czatu i spersonalizowane porady**
 
-### 🔒 Uwierzytelnianie użytkowników i profile
+### 🔒 Uwierzytelnianie i profile użytkowników
 
 * **Bezpieczny system logowania**
-* **Przełączaj się między profilami użytkowników**
-* **Wsparcie dla dostępu rodzinnego i zarządzania**
+* **Możliwość przełączania się między profilami użytkowników**
+* **Wsparcie dla dostępu i zarządzania rodziną**
 
-### 📊 Rozbudowane raporty
+### 📊 Szczegółowe raporty
 
-* **Twórz podsumowania dla odżywiania i parametrów ciała**
-* **Śledź długoterminowe trendy na przestrzeni tygodni i miesięcy**
+* **Generuj podsumowania dotyczące odżywiania i parametrów ciała**
+* **Śledź długoterminowe trendy tygodniami lub miesiącami**
 
-### 🎨 Personalizacja motywów
+### 🎨 Personalizowane motywy
 
-* **Przełączaj między trybem jasnym i ciemnym**
-* **Minimalistyczny interfejs bez rozpraszaczy**
+* **Przełączaj się między trybem jasnym i ciemnym**
+* **Minimalistyczny, wolny od rozpraszaczy interfejs**
 
 ### Potrzebujesz pomocy?
 * **Dołącz do Discorda**
   https://discord.gg/vcnMT5cPEA
-* **Zadaj pytanie na forum**
+* **Napisz na forum dyskusyjnym**
+
 
 
 ![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
 
-## 🚀 Rozpoczęcie pracy
+## 🚀 Szybki start
 
-Aby uruchomić aplikację SparkyFitness na swoim lokalnym komputerze, wykonaj następujące kroki:
+Uruchom SparkyFitness w kilka minut:
 
-### Wymagania wstępne
+```bash
+# Clone the repository
+git clone https://github.com/CodeWithCJ/SparkyFitness.git
+cd SparkyFitness
 
-### Instalacja
+# Copy environment template and edit as needed
+cp docker/.env.example .env
 
-1.  **Skonfiguruj zmienne środowiskowe:**
+# Start development environment (with live reloading)
+./docker/docker-helper.sh dev up
 
-    Utwórz plik `.env` w katalogu głównym. Skopiuj szablon z przykładowego pliku `.env` i zaktualizuj go swoimi ustawieniami. Zajrzyj do WIKI, aby zobaczyć istniejącą konfigurację, którą wykorzystałem. Staraj się nie zmieniać portu, ponieważ mogą nie działać prawidłowo z początkowymi wersjami, dopóki projekt nie będzie stabilny.
+# Access application at http://localhost:8080
+```
+## 📖 Dokumentacja
 
-    *   **URL Panelu Administratora:** Aby włączyć panel Administratora i skonfigurować ustawienia OIDC, upewnij się, że zmienna środowiskowa `SPARKY_FITNESS_ADMIN_EMAIL` jest ustawiona na odpowiedni adres URL Twojego panelu Administratora.
-    
+Aby uzyskać pełne przewodniki instalacyjne, konfigurację środowiska deweloperskiego i instrukcje użytkowania, odwiedź naszą kompleksową dokumentację:
 
-2.  **Uruchom z Docker Compose:**
-    Pobierz obrazy Dockera i uruchom usługi. Jeśli wprowadziłeś zmiany w pliku `.env`, powinieneś przebudować obrazy, aby nowe zmienne środowiskowe zostały uwzględnione.
+**👉 [Strona Dokumentacji SparkyFitness](https://codewithcj.github.io/SparkyFitness)**
 
+### Szybkie linki
 
-    ```sh
-    docker-compose pull # Pull the latest Docker images
-    docker-compose up -d # Start the services in detached mode
-    ```
-    Odnieś się do przykładowej konfiguracji jako odniesienia
-    https://github.com/CodeWithCJ/SparkyFitness/wiki/Sample-Setup
+- **[🚀 Pierwsze Kroki](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Kompletny przewodnik po konfiguracji środowiska deweloperskiego i produkcyjnego
+- **[🐳 Przewodnik Docker](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Wdrażanie i konfiguracja w środowisku Docker
+- **[🔧 Przepływ pracy Dewelopera](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - Przewodnik dla deweloperów i proces współtworzenia  
+- **[📊 Przegląd Funkcji](https://codewithcj.github.io/SparkyFitness/features/)** - Pełna dokumentacja funkcjonalności
+- **[🏗️ Architektura](https://codewithcj.github.io/SparkyFitness/app-overview)** - Architektura techniczna i projekt
 
-3.  **Uzyskaj dostęp do aplikacji:**
-    Gdy usługi zostaną uruchomione, uzyskaj dostęp do SparkyFitness w przeglądarce internetowej pod adresem URL skonfigurowanym dla Twojego frontendu (np. `http://localhost:3004` lub `http://twoj_frontend_ip_lub_domena:3004`).
+## 🐳 Wdrażanie przez Docker
 
-4.  **AI Chatbot – opcjonalna konfiguracja:**
-    Aby włączyć pełną funkcjonalność AI Chatbota, musisz skonfigurować wymagane klucze API w ustawieniach aplikacji po zalogowaniu się.
-  
-5.  **Wstępna konfiguracja aplikacji:**
-    Po zalogowaniu do aplikacji przejdź do menu ustawień, aby:
-    *   Dodać preferowanych dostawców żywności (np. OpenFoodFacts to darmowa opcja).
-    *   Dostosować preferencje i ustawienia profilu.
+**Produkcja (zalecane):**
+
+```bash
+cp docker/.env.example .env  # Edit as needed
+./docker/docker-helper.sh prod up
+# Access at http://localhost:3004
+```
+**Rozwój:**
+
+```bash
+cp docker/.env.example .env  # Edit as needed  
+./docker/docker-helper.sh dev up
+# Access at http://localhost:8080 (live reloading)
+```
+Aby uzyskać szczegółowe instrukcje dotyczące konfiguracji, ustawienia środowiska i rozwiązywania problemów, zobacz [pełną dokumentację](https://codewithcj.github.io/SparkyFitness/developer/getting-started).
 
 ### ⚠️ Znane problemy / Funkcje beta ⚠️
 
-Poniższe funkcje są obecnie w fazie beta i mogą nie być dokładnie przetestowane. Należy spodziewać się potencjalnych błędów lub niekompletnej funkcjonalności:
+Poniższe funkcje są obecnie w fazie beta i mogą nie być dokładnie przetestowane. Oczekuj potencjalnych błędów lub niepełnej funkcjonalności:
 
-*   AI Chatbot
-*   Obsługa wielu użytkowników
+*   Chatbot AI
+*   Wsparcie dla wielu użytkowników
 *   Dostęp dla rodziny i znajomych
 *   Integracja z danymi Apple Health
 
-Ta aplikacja jest intensywnie rozwijana. Rzeczy mogą nie działać zgodnie z oczekiwaniami ze względu na migrację z Supabase do PostgreSQL. DO CZASU USTABILIZOWANIA aplikacji mogą być wprowadzane ZMIANY NIEKOMPATYBILNE WSTECZNIE.
-Może być konieczna zmiana zmiennych Docker/środowiskowych przy nowych wydaniach. Dlatego automatyczne aktualizacje za pomocą Watchtower lub podobnych aplikacji NIE są zalecane. Przeczytaj informacje o wydaniu dotyczące wszelkich ZMIAN NIEKOMPATYBILNYCH WSTECZNIE.
+Ta aplikacja jest intensywnie rozwijana. Rzeczy mogą nie działać zgodnie z oczekiwaniami z powodu migracji z Supabase do PostgreSQL. MOGĄ POJAWIĆ SIĘ KRYTYCZNE ZMIANY aż do osiągnięcia stabilnej wersji.
+Może być konieczna zmiana zmiennych Docker/środowiskowych przy nowych wydaniach. Dlatego automatyczne aktualizacje przez Watchtower lub podobne aplikacje nie są zalecane. Przeczytaj notatki o wydaniu w poszukiwaniu KRYTYCZNYCH ZMIAN.
+
 
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

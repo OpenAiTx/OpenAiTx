@@ -33,6 +33,7 @@
 
 SparkyFitness is a comprehensive fitness tracking and management application designed to help users monitor their nutrition, exercise, and body measurements. It provides tools for daily progress tracking, goal setting, and insightful reports to support a healthy lifestyle.
 
+Docs: https://codewithcj.github.io/SparkyFitness
 
 ## ✨ Features
 
@@ -99,41 +100,55 @@ SparkyFitness is a comprehensive fitness tracking and management application des
 
 ![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
 
+## 🚀 Quick Start
 
-## 🚀 Getting Started
+Get SparkyFitness running in minutes:
 
-To get the SparkyFitness application running on your local machine, follow these steps:
+```bash
+# Clone the repository
+git clone https://github.com/CodeWithCJ/SparkyFitness.git
+cd SparkyFitness
 
-### Prerequisites
+# Copy environment template and edit as needed
+cp docker/.env.example .env
 
-### Installation
+# Start development environment (with live reloading)
+./docker/docker-helper.sh dev up
 
-1.  **Configure Environment Variables:**
+# Access application at http://localhost:8080
+```
 
-    Create a `.env` file in the root directory. Copy the template from the example `.env` file and update it with your settings. Refer to the WIKI for the existing configuration that I used. Try not to change the port as they may not work properly with initial releases until the project is stable.
+## 📖 Documentation
 
-    *   **Admin Panel URL:** To enable the Admin panel and configure OIDC settings, ensure the `SPARKY_FITNESS_ADMIN_EMAIL` environment variable is set to the appropriate URL for your Admin panel.
-    
+For complete installation guides, development setup, and usage instructions, visit our comprehensive documentation:
 
-2.  **Run with Docker Compose:**
-    Pull the Docker images and start the services. If you've made changes to the `.env` file, you should rebuild the images to ensure the new environment variables are picked up.
-    ```sh
-    docker-compose pull # Pull the latest Docker images
-    docker-compose up -d # Start the services in detached mode
-    ```
-    Refer sample setup as reference
-    https://github.com/CodeWithCJ/SparkyFitness/wiki/Sample-Setup
+**👉 [SparkyFitness Documentation Site](https://codewithcj.github.io/SparkyFitness)**
 
-3.  **Access the Application:**
-    Once the services are up and running, access SparkyFitness in your web browser at the URL configured for your frontend (e.g., `http://localhost:3004` or `http://your_frontend_ip_or_domain:3004`).
+### Quick Links
 
-4.  **AI Chatbot - Optional Configuration:**
-    To enable the AI Chatbot's full functionality, you will need to configure the necessary API keys within the application's settings after logging in.
-  
-5.  **Initial Application Setup:**
-    After logging into the application, navigate to the settings menu to:
-    *   Add your preferred food providers (e.g., OpenFoodFacts is a free option).
-    *   Adjust your preferences and profile settings.
+- **[🚀 Getting Started](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Complete setup guide for development and production
+- **[🐳 Docker Guide](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Docker deployment and configuration
+- **[🔧 Development Workflow](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - Developer guide and contribution process  
+- **[📊 Features Overview](https://codewithcj.github.io/SparkyFitness/features/)** - Complete feature documentation
+- **[🏗️ Architecture](https://codewithcj.github.io/SparkyFitness/app-overview)** - Technical architecture and design
+
+## 🐳 Docker Deployment
+
+**Production (recommended):**
+```bash
+cp docker/.env.example .env  # Edit as needed
+./docker/docker-helper.sh prod up
+# Access at http://localhost:3004
+```
+
+**Development:**
+```bash
+cp docker/.env.example .env  # Edit as needed  
+./docker/docker-helper.sh dev up
+# Access at http://localhost:8080 (live reloading)
+```
+
+For detailed setup instructions, environment configuration, and troubleshooting, see the [complete documentation](https://codewithcj.github.io/SparkyFitness/developer/getting-started).
 
 ### ⚠️ Known Issues / Beta Features ⚠️
 

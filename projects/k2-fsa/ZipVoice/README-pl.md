@@ -113,24 +113,30 @@ source zipvoice/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-### 4. (Opcjonalnie) Zainstaluj k2 do treningu lub wydajnego wnioskowania
+### 4. Zainstaluj k2 do treningu lub wydajnego wnioskowania
 
-k2 jest wymagane do treningu i może przyspieszyć wnioskowanie. Niemniej jednak, możesz nadal korzystać z trybu wnioskowania ZipVoice bez instalowania k2.
+**k2 jest niezbędne do treningu** i może przyspieszyć wnioskowanie. Niemniej jednak, możesz korzystać z trybu wnioskowania ZipVoice bez instalowania k2.
 
-> **Uwaga:**  Upewnij się, że instalujesz wersję k2 odpowiadającą Twojej wersji PyTorch i CUDA. Na przykład, jeśli używasz pytorch 2.5.1 i CUDA 12.1, możesz zainstalować k2 w następujący sposób:
+> **Uwaga:** Upewnij się, że instalujesz wersję k2 pasującą do Twojej wersji PyTorch i CUDA. Na przykład, jeśli używasz pytorch 2.5.1 i CUDA 12.1, możesz zainstalować k2 w następujący sposób:
 
 
 ```bash
 pip install k2==1.24.4.dev20250208+cuda12.1.torch2.5.1 -f https://k2-fsa.github.io/k2/cuda.html
 ```
 Proszę zapoznać się ze stroną https://k2-fsa.org/get-started/k2/ po szczegóły.
-Użytkownicy z Chin kontynentalnych mogą skorzystać z https://k2-fsa.org/zh-CN/get-started/k2/.
+Użytkownicy z Chin kontynentalnych mogą zapoznać się ze stroną https://k2-fsa.org/zh-CN/get-started/k2/.
 
+- Aby sprawdzić instalację k2:
+
+
+```
+python3 -c "import k2; print(k2.__file__)"
+```
 ## Użytkowanie
 
 ### 1. Generowanie mowy jednego mówcy
 
-Aby wygenerować mowę jednego mówcy za pomocą naszych wytrenowanych modeli ZipVoice lub ZipVoice-Distill, użyj poniższych poleceń (Wymagane modele zostaną pobrane z HuggingFace):
+Aby wygenerować mowę jednego mówcy przy użyciu naszych wytrenowanych modeli ZipVoice lub ZipVoice-Distill, użyj następujących poleceń (wymagane modele zostaną pobrane z HuggingFace):
 
 #### 1.1 Wnioskowanie dla pojedynczego zdania
 
@@ -163,11 +169,11 @@ python3 -m zipvoice.bin.infer_zipvoice \
 ```
 - Każda linia pliku `test.tsv` ma format `{wav_name}\t{prompt_transcription}\t{prompt_wav}\t{text}`.
 
-### 2. Generowanie dialogów mówionych
+### 2. Generowanie mowy dialogowej
 
-#### 2.1 Komenda do wnioskowania
+#### 2.1 Polecenie inferencji
 
-Aby wygenerować dwupartyjne dialogi mówione za pomocą naszych wytrenowanych modeli ZipVoice-Dialogue lub ZipVoice-Dialogue-Stereo, użyj poniższych poleceń (Wymagane modele zostaną pobrane z HuggingFace):
+Aby wygenerować dwuosobowe dialogi mówione za pomocą naszych wytrenowanych modeli ZipVoice-Dialogue lub ZipVoice-Dialogue-Stereo, użyj następujących poleceń (Wymagane modele zostaną pobrane z HuggingFace):
 
 
 ```bash
@@ -200,38 +206,38 @@ Każda linia w pliku `test.tsv` ma jeden z poniższych formatów:
 {wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}'
 ```
 - `wav_name` to nazwa wyjściowego pliku wav.
-- `spk1_prompt_transcription` to transkrypcja wypowiedzi pierwszego mówcy, np. "Hello"
-- `spk2_prompt_transcription` to transkrypcja wypowiedzi drugiego mówcy, np. "How are you?"
-- `spk1_prompt_wav` to ścieżka do pliku wav z wypowiedzią pierwszego mówcy.
-- `spk2_prompt_wav` to ścieżka do pliku wav z wypowiedzią drugiego mówcy.
+- `spk1_prompt_transcription` to transkrypcja próbki wav pierwszego mówcy, np. "Hello"
+- `spk2_prompt_transcription` to transkrypcja próbki wav drugiego mówcy, np. "How are you?"
+- `spk1_prompt_wav` to ścieżka do próbki wav pierwszego mówcy.
+- `spk2_prompt_wav` to ścieżka do próbki wav drugiego mówcy.
 - `text` to tekst do syntezy, np. "[S1] I'm fine. [S2] What's your name?"
 
 ### 3. Inne funkcje
 
-#### 3.1 Poprawianie błędnie wymawianych chińskich znaków polifonicznych
+#### 3.1 Poprawianie błędnie wymawianych chińskich znaków wieloznacznych
 
-Używamy [pypinyin](https://github.com/mozillazg/python-pinyin) do konwersji chińskich znaków na pinyin. Jednakże, czasami może błędnie wymawiać **znaki polifoniczne** (多音字).
+Używamy [pypinyin](https://github.com/mozillazg/python-pinyin) do konwersji chińskich znaków na pinyin. Jednak czasami może błędnie wymówić **znaki wieloznaczne** (多音字).
 
-Aby ręcznie poprawić te błędne wymowy, umieść **poprawny pinyin** w nawiasach ostrych `< >` i dołącz **znak tonu**.
+Aby ręcznie poprawić te błędy wymowy, należy umieścić **poprawny pinyin** w nawiasach ostrych `< >` i dodać **znak tonu**.
 
 **Przykład:**
 
 - Oryginalny tekst: `这把剑长三十公分`
-- Popraw pinyin dla `长`:  `这把剑<chang2>三十公分`
+- Popraw pinyin znaku `长`: `这把剑<chang2>三十公分`
 
 > **Uwaga:** Jeśli chcesz ręcznie przypisać kilka pinyinów, umieść każdy pinyin w `<>`, np. `这把<jian4><chang2><san1>十公分`
 
-## Trenuj Swój Własny Model
+## Trenuj swój własny model
 
-Zobacz katalog [egs](egs) po przykłady treningu i dostrajania.
+Zobacz katalog [egs](egs) po przykłady trenowania, fine-tuningu i ewaluacji.
 
 ## Dyskusja i komunikacja
 
 Możesz bezpośrednio dyskutować na [Github Issues](https://github.com/k2-fsa/ZipVoice/issues).
 
-Możesz też zeskanować kod QR, aby dołączyć do naszej grupy wechat lub śledzić nasze oficjalne konto wechat.
+Możesz także zeskanować kod QR, aby dołączyć do naszej grupy na WeChat lub obserwować nasze oficjalne konto WeChat.
 
-| Grupa Wechat | Oficjalne konto Wechat |
+| Grupa WeChat | Oficjalne konto WeChat |
 | ------------ | ---------------------- |
 |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |
 
@@ -257,6 +263,6 @@ Możesz też zeskanować kod QR, aby dołączyć do naszej grupy wechat lub śle
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

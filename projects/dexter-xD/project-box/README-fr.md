@@ -13,7 +13,7 @@
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=fr">Français</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=de">Deutsch</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=it">Italiano</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=ru">Русский</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=pt">Português</a>
         | <a href="https://openaitx.github.io/view.html?user=dexter-xD&project=project-box&lang=nl">Nederlands</a>
@@ -28,41 +28,41 @@
   </details>
 </div>
 
-# Collection de Projets en Langage C
+# Collection de projets en langage C
 
 [![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/trish07)
 
-Une collection de projets en langage C conçue pour les débutants afin d'apprendre et de pratiquer divers concepts de programmation, des algorithmes de base à la programmation réseau. Chaque projet est autonome et comprend sa propre documentation et son système de compilation.
+Une collection de projets en langage C conçus pour les débutants afin d'apprendre et de pratiquer divers concepts de programmation, des algorithmes de base à la programmation réseau. Chaque projet est autonome et inclut sa propre documentation et son propre système de compilation.
 
-## Aperçu des Projets
+## Aperçu des projets
 
 ### 1. [Implémentation SHA-512](SHA-512/)
 Une implémentation de fonction de hachage cryptographique qui démontre :
-- Manipulation des bits
+- Manipulation de bits
 - Algorithmes complexes
 - Gestion de la mémoire
-- Opérations d'entrée/sortie sur fichiers
+- Opérations d'E/S sur fichiers
 
 ### 2. [Serveur HTTP](http-server/)
 Une implémentation basique d'un serveur HTTP qui couvre :
-- Programmation des sockets
-- Notions de base du protocole HTTP
-- Distribution de fichiers
+- Programmation de sockets
+- Bases du protocole HTTP
+- Service de fichiers
 - Communication réseau
 
 ### 3. [Serveur-Client UDP](udp-server-client/)
 Un système de communication simple basé sur UDP qui enseigne :
-- Programmation des sockets UDP
+- Programmation de sockets UDP
 - Architecture client-serveur
 - Protocoles réseau
 - Échange de messages
 
-### 4. [Scanner de Ports](port-scanner/)
+### 4. [Scanner de ports](port-scanner/)
 Un outil de diagnostic réseau qui démontre :
-- Programmation des sockets TCP
+- Programmation de sockets TCP
 - Techniques de scan réseau
 - Gestion des erreurs
-- Analyse des arguments de la ligne de commande
+- Analyse des arguments en ligne de commande
 
 ### 5. [Implémentation Ping](ping/)
 Un utilitaire ping personnalisé qui couvre :
@@ -72,28 +72,28 @@ Un utilitaire ping personnalisé qui couvre :
 - Mesure du temps
 
 ### 6. [Morpion (Tic-Tac-Toe)](tic-tac-toe/)
-Une implémentation du jeu classique qui enseigne :
+Une implémentation classique du jeu qui enseigne :
 - Serveur de jeu multijoueur 
--Programmation des sockets
+-Programmation de sockets
 - Logique de jeu
-- Gestion des entrées utilisateur
+- Gestion de l'entrée utilisateur
 
-### 7. [Système de Chat](chat-system/)
+### 7. [Système de chat](chat-system/)
 Une application de chat en temps réel qui démontre :
-- Programmation des sockets TCP
-- Multithreading
+- Programmation de sockets TCP
+- Multi-threading
 - Communication en temps réel
 - Architecture client-serveur
 
-### 8. [Analyseur Lexical](lexical-analyser/)
+### 8. [Analyseur lexical](lexical-analyser/)
 Un composant simple de front-end de compilateur qui démontre :
 - Tokenisation du code source
 - Techniques d'analyse syntaxique
-- Principes de conception des compilateurs
+- Principes de conception de compilateur
 - Manipulation de chaînes
 
-### 9. [Compilateur Arithmétique](arithmetic-compiler/)
-Un compilateur simple qui prend des expressions arithmétiques en entrée et génère un code de type assembleur :
+### 9. [Compilateur arithmétique](arithmetic-compiler/)
+Un compilateur simple qui prend des expressions arithmétiques en entrée et génère un code proche de l'assembleur :
 - Analyse lexicale (tokenisation)
 - Analyse et évaluation des expressions
 - Génération de code assembleur
@@ -167,6 +167,6 @@ Certains projets liés au réseau (Scanner de ports, Ping) nécessitent des priv
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

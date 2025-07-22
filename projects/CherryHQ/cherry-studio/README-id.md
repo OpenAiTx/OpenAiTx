@@ -13,7 +13,7 @@
         <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=fr">Français</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=de">Deutsch</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=es">Español</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=it">Itapano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=it">Italiano</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ru">Русский</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=pt">Português</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=nl">Nederlands</a></p>
@@ -34,7 +34,7 @@
   </a>
 </h1>
 
-<p align="center">English | <a href="./docs/README.zh.md">中文</a> | <a href="https://cherry-ai.com">Situs Resmi</a> | <a href="https://docs.cherry-ai.com/cherry-studio-wen-dang/en-us">Dokumen</a> | <a href="./docs/dev.md">Pengembangan</a> | <a href="https://github.com/CherryHQ/cherry-studio/issues">Masukan</a><br></p>
+<p align="center">English | <a href="./docs/README.zh.md">中文</a> | <a href="https://cherry-ai.com">Situs Resmi</a> | <a href="https://docs.cherry-ai.com/cherry-studio-wen-dang/en-us">Dokumentasi</a> | <a href="./docs/dev.md">Pengembangan</a> | <a href="https://github.com/CherryHQ/cherry-studio/issues">Masukan</a><br></p>
 
 <div align="center">
   
@@ -63,9 +63,9 @@
 
 # 🍒 Cherry Studio
 
-Cherry Studio adalah klien desktop yang mendukung banyak penyedia LLM, tersedia di Windows, Mac, dan Linux.
+Cherry Studio adalah klien desktop yang mendukung berbagai penyedia LLM, tersedia di Windows, Mac, dan Linux.
 
-👏 Bergabung dengan [Grup Telegram](https://t.me/CherryStudioAI)｜[Discord](https://discord.gg/wez8HtpxqQ) | [Grup QQ(575014769)](https://qm.qq.com/q/lo0D4qVZKi)
+👏 Bergabunglah dengan [Grup Telegram](https://t.me/CherryStudioAI)｜[Discord](https://discord.gg/wez8HtpxqQ) | [Grup QQ(575014769)](https://qm.qq.com/q/lo0D4qVZKi)
 
 ❤️ Suka Cherry Studio? Beri bintang 🌟 atau [Sponsor](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/sponsor.md) untuk mendukung pengembangan!
 
@@ -82,7 +82,7 @@ Cherry Studio adalah klien desktop yang mendukung banyak penyedia LLM, tersedia 
 1. **Dukungan Beragam Penyedia LLM**:
 
 - ☁️ Layanan Cloud LLM Utama: OpenAI, Gemini, Anthropic, dan lainnya
-- 🔗 Integrasi Layanan Web AI: Claude, Peplexity, Poe, dan lain-lain
+- 🔗 Integrasi Layanan Web AI: Claude, Peplexity, Poe, dan lainnya
 - 💻 Dukungan Model Lokal dengan Ollama, LM Studio
 
 2. **Asisten AI & Percakapan**:
@@ -91,29 +91,29 @@ Cherry Studio adalah klien desktop yang mendukung banyak penyedia LLM, tersedia 
 - 🤖 Pembuatan Asisten Kustom
 - 💬 Percakapan Multi-model Secara Bersamaan
 
-3. **Pengolahan Dokumen & Data**:
+3. **Pemrosesan Dokumen & Data**:
 
-- 📄 Dukungan untuk Teks, Gambar, Office, PDF, dan lainnya
-- ☁️ Manajemen File dan Cadangan WebDAV
+- 📄 Mendukung Teks, Gambar, Office, PDF, dan lainnya
+- ☁️ Manajemen File WebDAV dan Backup
 - 📊 Visualisasi Diagram Mermaid
 - 💻 Penyorotan Sintaks Kode
 
 4. **Integrasi Alat Praktis**:
 
-- 🔍 Fitur Pencarian Global
+- 🔍 Fungsionalitas Pencarian Global
 - 📝 Sistem Manajemen Topik
-- 🔤 Penerjemahan Berbasis AI
-- 🎯 Penyusunan Drag-and-drop
+- 🔤 Terjemahan Berbasis AI
+- 🎯 Penyusunan dengan Drag-and-drop
 - 🔌 Dukungan Mini Program
 - ⚙️ Server MCP (Model Context Protocol)
 
 5. **Pengalaman Pengguna yang Ditingkatkan**:
 
 - 🖥️ Dukungan lintas platform untuk Windows, Mac, dan Linux
-- 📦 Siap Pakai, Tanpa Perlu Pengaturan Lingkungan
+- 📦 Siap Digunakan - Tidak Perlu Penyiapan Lingkungan
 - 🎨 Tema Terang/Gelap dan Jendela Transparan
 - 📝 Rendering Markdown Lengkap
-- 🤲 Berbagi Konten dengan Mudah
+- 🤲 Berbagi Konten yang Mudah
 
 # 📝 Roadmap
 
@@ -121,24 +121,24 @@ Kami sedang aktif mengerjakan fitur dan peningkatan berikut:
 
 1. 🎯 **Fitur Inti**
 
-- Asisten Seleksi - Peningkatan seleksi konten cerdas
-- Riset Mendalam - Kapabilitas riset lanjutan
-- Sistem Memori - Kesadaran konteks global
-- Pradokumentasi - Penanganan dokumen yang lebih baik
-- MCP Marketplace - Ekosistem Model Context Protocol
+- Asisten Seleksi dengan peningkatan pemilihan konten cerdas
+- Riset Mendalam dengan kemampuan riset tingkat lanjut
+- Sistem Memori dengan kesadaran konteks global
+- Pra-pemrosesan Dokumen dengan penanganan dokumen yang lebih baik
+- MCP Marketplace untuk ekosistem Model Context Protocol
 
 2. 🗂 **Manajemen Pengetahuan**
 
 - Catatan dan Koleksi
-- Visualisasi Canvas Dinamis
-- Kapabilitas OCR
+- Visualisasi Kanvas Dinamis
+- Kemampuan OCR
 - Dukungan TTS (Text-to-Speech)
 
 3. 📱 **Dukungan Platform**
 
 - Edisi HarmonyOS (PC)
-- Aplikasi Android (Tahap 1)
-- Aplikasi iOS (Tahap 1)
+- Aplikasi Android (Fase 1)
+- Aplikasi iOS (Fase 1)
 - Dukungan Multi-Jendela
 - Fungsionalitas Pin Jendela
 
@@ -146,11 +146,11 @@ Kami sedang aktif mengerjakan fitur dan peningkatan berikut:
 
 - Sistem Plugin
 - ASR (Automatic Speech Recognition)
-- Refaktorisasi Interaksi Asisten dan Topik
+- Refactoring Interaksi Asisten dan Topik
 
-Lacak kemajuan kami dan berkontribusi di [project board](https://github.com/orgs/CherryHQ/projects/7).
+Pantau kemajuan kami dan berkontribusilah di [project board](https://github.com/orgs/CherryHQ/projects/7) kami.
 
-Ingin memengaruhi roadmap kami? Bergabunglah di [GitHub Discussions](https://github.com/CherryHQ/cherry-studio/discussions) untuk berbagi ide dan masukan Anda!
+Ingin mempengaruhi roadmap kami? Bergabunglah dengan [GitHub Discussions](https://github.com/CherryHQ/cherry-studio/discussions) untuk berbagi ide dan masukan Anda!
 
 # 🌈 Tema
 
@@ -158,27 +158,27 @@ Ingin memengaruhi roadmap kami? Bergabunglah di [GitHub Discussions](https://git
 - Tema Aero: <https://github.com/hakadao/CherryStudio-Aero>
 - Tema PaperMaterial: <https://github.com/rainoffallingstar/CherryStudio-PaperMaterial>
 - Claude dynamic-style: <https://github.com/bjl101501/CherryStudio-Claudestyle-dynamic>
-- Maple Neon Theme: <https://github.com/BoningtonChen/CherryStudio_themes>
+- Tema Maple Neon: <https://github.com/BoningtonChen/CherryStudio_themes>
 
-PR untuk tema tambahan sangat disambut
+PR untuk tema baru sangat diterima
 
-# 🤝 Kontribusi
+# 🤝 Berkontribusi
 
-Kami menyambut kontribusi untuk Cherry Studio! Berikut beberapa cara Anda bisa berkontribusi:
+Kami menyambut kontribusi untuk Cherry Studio! Berikut beberapa cara Anda dapat berkontribusi:
 
 1. **Kontribusi Kode**: Kembangkan fitur baru atau optimalkan kode yang ada.
 2. **Perbaiki Bug**: Kirimkan perbaikan untuk bug yang Anda temukan.
-3. **Kelola Isu**: Bantu mengelola isu GitHub.
+3. **Kelola Isu**: Bantu mengelola isu di GitHub.
 4. **Desain Produk**: Ikut serta dalam diskusi desain.
-5. **Menulis Dokumentasi**: Tingkatkan manual dan panduan pengguna.
-6. **Keterlibatan Komunitas**: Bergabung dalam diskusi dan bantu pengguna lain.
+5. **Tulis Dokumentasi**: Tingkatkan manual dan panduan pengguna.
+6. **Keterlibatan Komunitas**: Ikut diskusi dan bantu pengguna lain.
 7. **Promosikan Penggunaan**: Sebarkan informasi tentang Cherry Studio.
 
 Lihat [Strategi Branching](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/branching-strategy-en.md) untuk panduan kontribusi
 
 ## Memulai
 
-1. **Fork Repository**: Fork dan clone ke mesin lokal Anda.
+1. **Fork Repository**: Fork dan clone ke komputer lokal Anda.
 2. **Buat Branch**: Untuk perubahan Anda.
 3. **Kirim Perubahan**: Commit dan push perubahan Anda.
 4. **Buka Pull Request**: Jelaskan perubahan dan alasannya.
@@ -187,82 +187,82 @@ Untuk panduan lebih detail, silakan lihat [Panduan Kontribusi](https://raw.githu
 
 Terima kasih atas dukungan dan kontribusi Anda!
 
-# 🔧 Program Koperasi Developer
+# 🔧 Program Kolaborasi Pengembang
 
-Kami meluncurkan Program Koperasi Developer Cherry Studio untuk membangun ekosistem open-source yang sehat dan umpan balik positif. Kami percaya perangkat lunak hebat dibangun secara kolaboratif, dan setiap pull request yang digabungkan memberi kehidupan baru pada proyek.
+Kami meluncurkan Program Kolaborasi Pengembang Cherry Studio untuk menciptakan ekosistem open-source yang sehat dan positif. Kami percaya perangkat lunak hebat dibangun secara kolaboratif, dan setiap pull request yang digabungkan membawa kehidupan baru ke proyek ini.
 
-Kami mengundang Anda untuk bergabung dalam barisan kontributor dan membentuk masa depan Cherry Studio bersama kami.
+Kami sungguh mengundang Anda untuk bergabung sebagai kontributor dan membentuk masa depan Cherry Studio bersama kami.
 
 ## Program Penghargaan Kontributor
 
-Untuk memberikan apresiasi kepada kontributor inti dan menciptakan siklus yang baik, kami telah menetapkan rencana insentif jangka panjang berikut.
+Untuk memberikan apresiasi kepada kontributor inti dan menciptakan siklus positif, kami telah menetapkan rencana insentif jangka panjang berikut.
 
 **Periode pelacakan perdana untuk program ini adalah Q3 2025 (Juli, Agustus, September). Penghargaan untuk siklus ini akan didistribusikan pada 1 Oktober.**
-Dalam periode pelacakan apa pun (misalnya, 1 Juli hingga 30 September untuk siklus pertama), setiap pengembang yang berkontribusi lebih dari **30 commit bermakna** ke proyek open-source Cherry Studio di GitHub berhak mendapatkan manfaat berikut:
+Dalam periode pelacakan apa pun (misalnya, 1 Juli hingga 30 September untuk siklus pertama), setiap pengembang yang berkontribusi lebih dari **30 commit bermakna** ke salah satu proyek open-source Cherry Studio di GitHub akan memenuhi syarat untuk manfaat berikut:
 
-- **Sponsor Langganan Cursor**: Dapatkan kredit atau penggantian biaya sebesar **$70 USD** untuk langganan [Cursor](https://cursor.sh/) Anda, menjadikan AI sebagai mitra coding Anda yang paling efisien.
-- **Akses Model Tanpa Batas**: Dapatkan panggilan API **tanpa batas** untuk model **DeepSeek** dan **Qwen**.
-- **Akses Teknologi Terkini**: Nikmati keuntungan tambahan seperti akses API ke model **Claude**, **Gemini**, dan **OpenAI**, menjaga Anda tetap di garis depan teknologi.
+- **Sponsor Langganan Cursor**: Dapatkan kredit atau penggantian sebesar **$70 USD** untuk langganan [Cursor](https://cursor.sh/) Anda, menjadikan AI sebagai partner coding paling efisien.
+- **Akses Model Tanpa Batas**: Dapatkan **panggilan API tak terbatas** untuk model **DeepSeek** dan **Qwen**.
+- **Akses Teknologi Terkini**: Nikmati berbagai keuntungan, termasuk akses API ke model seperti **Claude**, **Gemini**, dan **OpenAI**, menjaga Anda di garis depan teknologi.
 
 ## Tumbuh Bersama & Rencana Masa Depan
 
-Komunitas yang dinamis adalah kekuatan pendorong di balik setiap proyek open-source yang berkelanjutan. Seiring pertumbuhan Cherry Studio, program penghargaan kami pun akan berkembang. Kami berkomitmen untuk terus menyelaraskan manfaat kami dengan alat dan sumber daya terbaik di industri. Ini memastikan kontributor inti kami mendapatkan dukungan bermakna, menciptakan siklus positif di mana pengembang, komunitas, dan proyek tumbuh bersama.
+Komunitas yang dinamis adalah kekuatan pendorong di balik proyek open-source yang berkelanjutan. Seiring Cherry Studio berkembang, begitu juga dengan program penghargaan kami. Kami berkomitmen untuk terus menyelaraskan manfaat dengan alat dan sumber daya terbaik di industri. Ini memastikan kontributor inti kami menerima dukungan yang berarti, menciptakan siklus positif di mana pengembang, komunitas, dan proyek tumbuh bersama.
 
-**Ke depan, proyek ini juga akan semakin terbuka untuk memberikan kembali kepada seluruh komunitas open-source.**
+**Ke depan, proyek ini juga akan semakin terbuka untuk memberikan kontribusi kembali ke seluruh komunitas open-source.**
 
 ## Bagaimana Cara Memulai?
 
 Kami menantikan Pull Request pertama Anda!
 
-Anda dapat memulai dengan menjelajahi repository kami, mengambil `good first issue`, atau mengusulkan peningkatan Anda sendiri. Setiap commit adalah bukti semangat open source.
+Anda bisa mulai dengan menjelajahi repositori kami, mengambil `good first issue`, atau mengusulkan peningkatan Anda sendiri. Setiap commit adalah bukti semangat open source.
 
 Terima kasih atas minat dan kontribusi Anda.
 
-Mari membangun bersama.
+Mari kita bangun bersama.
 
 # 🏢 Enterprise Edition
 
-Berdasarkan Community Edition, kami dengan bangga memperkenalkan **Cherry Studio Enterprise Edition**—platform produktivitas dan manajemen AI yang dapat di-deploy secara privat, dirancang untuk tim dan perusahaan modern.
+Berdasarkan Community Edition, kami dengan bangga memperkenalkan **Cherry Studio Enterprise Edition**—platform AI produktivitas dan manajemen yang dapat di-deploy secara privat, dirancang untuk tim dan perusahaan modern.
 
-Enterprise Edition mengatasi tantangan utama kolaborasi tim dengan memusatkan pengelolaan sumber daya AI, pengetahuan, dan data. Ini memberdayakan organisasi untuk meningkatkan efisiensi, mendorong inovasi, dan memastikan kepatuhan, sembari menjaga kendali 100% atas data mereka dalam lingkungan yang aman.
+Enterprise Edition menjawab tantangan utama kolaborasi tim dengan memusatkan manajemen sumber daya AI, pengetahuan, dan data. Ini memberdayakan organisasi untuk meningkatkan efisiensi, mendorong inovasi, dan memastikan kepatuhan, sekaligus menjaga 100% kendali atas data Anda di lingkungan yang aman.
 
 ## Keunggulan Utama
 
-- **Manajemen Model Terpadu**: Integrasi dan kelola berbagai LLM berbasis cloud (mis. OpenAI, Anthropic, Google Gemini) dan model privat yang di-deploy secara lokal. Karyawan dapat langsung menggunakannya tanpa konfigurasi individu.
-- **Basis Pengetahuan Kelas Perusahaan**: Bangun, kelola, dan bagikan basis pengetahuan tim. Pastikan pengetahuan tetap tersimpan dan konsisten, memungkinkan anggota tim berinteraksi dengan AI berdasarkan informasi yang terintegrasi dan akurat.
-- **Kontrol Akses Granular**: Kelola akun karyawan dan tetapkan izin berbasis peran untuk model, basis pengetahuan, dan fitur yang berbeda melalui backend admin terpusat.
-- **Deploy Sepenuhnya Privat**: Deploy seluruh layanan backend di server lokal atau cloud privat Anda, memastikan data Anda 100% privat dan berada di bawah kendali Anda untuk memenuhi standar keamanan dan kepatuhan paling ketat.
-- **Layanan Backend Andal**: Menyediakan layanan API stabil, mekanisme backup dan pemulihan data kelas perusahaan untuk memastikan kelangsungan bisnis.
+- **Manajemen Model Terpadu**: Integrasi dan kelola berbagai LLM berbasis cloud (misal: OpenAI, Anthropic, Google Gemini) dan model privat lokal secara terpusat. Karyawan dapat langsung menggunakannya tanpa konfigurasi individu.
+- **Basis Pengetahuan Kelas Perusahaan**: Bangun, kelola, dan bagikan basis pengetahuan tim. Menjamin retensi dan konsistensi pengetahuan, memungkinkan anggota tim berinteraksi dengan AI berdasarkan informasi yang terpadu dan akurat.
+- **Kontrol Akses Terperinci**: Kelola akun karyawan dan tetapkan izin berbasis peran untuk model, basis pengetahuan, dan fitur melalui backend admin terpadu.
+- **Deploy Privat Sepenuhnya**: Deploy seluruh layanan backend di server lokal atau cloud privat Anda, memastikan data Anda tetap 100% privat dan di bawah kontrol Anda untuk memenuhi standar keamanan dan kepatuhan paling ketat.
+- **Layanan Backend Andal**: Menyediakan layanan API stabil dan mekanisme backup serta pemulihan data kelas perusahaan untuk memastikan kelangsungan bisnis.
 
 ## ✨ Demo Online
 
 > 🚧 **Pengumuman Beta Publik**
 >
-> Enterprise Edition saat ini berada pada tahap beta publik awal, dan kami sedang aktif melakukan iterasi dan optimasi fitur-fiturnya. Kami menyadari mungkin belum sepenuhnya stabil. Jika Anda menemukan masalah atau memiliki saran berharga selama uji coba, kami sangat menghargai jika Anda dapat menghubungi kami melalui email untuk memberikan masukan.
+> Enterprise Edition saat ini berada dalam tahap beta publik awal, dan kami terus melakukan iterasi serta optimasi fitur-fiturnya. Kami sadar mungkin belum sepenuhnya stabil. Jika Anda menemukan masalah atau memiliki saran berharga selama uji coba, kami sangat menghargai jika Anda dapat menghubungi kami melalui email untuk memberikan masukan.
 
 **🔗 [Cherry Studio Enterprise](https://www.cherry-ai.com/enterprise)**
 
 ## Perbandingan Versi
 
-| Fitur              | Community Edition                          | Enterprise Edition                                                                                                                      |
-| :----------------- | :----------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
-| **Open Source**    | ✅ Ya                                      | ⭕️ sebagian dirilis ke pelanggan                                                                                                        |
-| **Biaya**          | Gratis untuk Pribadi / Lisensi Komersial   | Sekali Beli / Biaya Berlangganan                                                                                                       |
-| **Backend Admin**  | —                                          | ● Akses **Model** Terpusat<br>● Manajemen **Karyawan**<br>● **Basis Pengetahuan** Bersama<br>● Kontrol **Akses**<br>● **Backup Data**  |
-| **Server**         | —                                          | ✅ Deploy Privat Khusus                                                                                                                 |
+| Fitur             | Community Edition                          | Enterprise Edition                                                                                                                      |
+| :---------------- | :----------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| **Open Source**   | ✅ Ya                                      | ⭕️ Sebagian dirilis untuk pelanggan                                                                                                     |
+| **Biaya**         | Gratis untuk Pribadi / Lisensi Komersial   | Pembelian / Biaya Langganan                                                                                                             |
+| **Admin Backend** | —                                          | ● Akses **Model** Terpusat<br>● Manajemen **Karyawan**<br>● **Basis Pengetahuan** Bersama<br>● Kontrol **Akses**<br>● Backup **Data**   |
+| **Server**        | —                                          | ✅ Deploy Privat Khusus                                                                                                                 |
 
 ## Dapatkan Enterprise Edition
 
-Kami yakin Enterprise Edition akan menjadi mesin produktivitas AI tim Anda. Jika Anda tertarik dengan Cherry Studio Enterprise Edition dan ingin tahu lebih lanjut, meminta penawaran harga, atau menjadwalkan demo, silakan hubungi kami.
+Kami percaya Enterprise Edition akan menjadi mesin produktivitas AI untuk tim Anda. Jika Anda tertarik dengan Cherry Studio Enterprise Edition dan ingin mengetahui lebih lanjut, meminta penawaran, atau menjadwalkan demo, silakan hubungi kami.
 
-- **Untuk Pertanyaan Bisnis & Pembelian**:
+- **Untuk Permintaan Bisnis & Pembelian**:
   **📧 [bd@cherry-ai.com](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/mailto:bd@cherry-ai.com)**
 
 # 🔗 Proyek Terkait
 
-- [one-api](https://github.com/songquanpeng/one-api):Sistem manajemen dan distribusi API LLM, mendukung model utama seperti OpenAI, Azure, dan Anthropic. Fitur antarmuka API terpadu, cocok untuk manajemen kunci dan distribusi sekunder.
+- [one-api](https://github.com/songquanpeng/one-api): Sistem manajemen dan distribusi API LLM yang mendukung model utama seperti OpenAI, Azure, dan Anthropic. Menyediakan antarmuka API terpadu, cocok untuk manajemen kunci dan distribusi sekunder.
 
-- [ublacklist](https://github.com/iorate/ublacklist):Memblokir situs tertentu agar tidak muncul di hasil pencarian Google
+- [ublacklist](https://github.com/iorate/ublacklist): Memblokir situs tertentu agar tidak muncul di hasil pencarian Google
 
 # 🚀 Kontributor
 
@@ -318,6 +318,6 @@ Kami yakin Enterprise Edition akan menjadi mesin produktivitas AI tim Anda. Jika
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---

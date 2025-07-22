@@ -113,24 +113,30 @@ source zipvoice/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-### 4. (Optional) Installieren Sie k2 für das Training oder effizientes Inferenzieren
+### 4. Installieren Sie k2 für das Training oder effizientes Inferenzieren
 
-k2 ist für das Training notwendig und kann die Inferenz beschleunigen. Dennoch können Sie den Inferenzmodus von ZipVoice auch ohne die Installation von k2 verwenden.
+**k2 ist für das Training notwendig** und kann die Inferenz beschleunigen. Dennoch können Sie den Inferenzmodus von ZipVoice auch ohne die Installation von k2 verwenden.
 
-> **Hinweis:**  Stellen Sie sicher, dass Sie die k2-Version installieren, die zu Ihrer PyTorch- und CUDA-Version passt. Wenn Sie zum Beispiel pytorch 2.5.1 und CUDA 12.1 verwenden, können Sie k2 wie folgt installieren:
+> **Hinweis:** Stellen Sie sicher, dass Sie die k2-Version installieren, die zu Ihrer PyTorch- und CUDA-Version passt. Wenn Sie beispielsweise pytorch 2.5.1 und CUDA 12.1 verwenden, können Sie k2 wie folgt installieren:
 
 
 ```bash
 pip install k2==1.24.4.dev20250208+cuda12.1.torch2.5.1 -f https://k2-fsa.github.io/k2/cuda.html
 ```
 Bitte beachten Sie https://k2-fsa.org/get-started/k2/ für weitere Details.
-Benutzer auf dem chinesischen Festland können https://k2-fsa.org/zh-CN/get-started/k2/ konsultieren.
+Nutzer in Festlandchina können https://k2-fsa.org/zh-CN/get-started/k2/ nutzen.
 
+- Um die k2-Installation zu überprüfen:
+
+
+```
+python3 -c "import k2; print(k2.__file__)"
+```
 ## Verwendung
 
-### 1. Einzelsprecher-Sprachsynthese
+### 1. Sprachgenerierung mit einem Sprecher
 
-Um Einzelsprecher-Sprachsynthese mit unseren vortrainierten ZipVoice- oder ZipVoice-Distill-Modellen zu erzeugen, verwenden Sie die folgenden Befehle (erforderliche Modelle werden von HuggingFace heruntergeladen):
+Um Sprachaufnahmen mit nur einem Sprecher mithilfe unserer vortrainierten ZipVoice- oder ZipVoice-Distill-Modelle zu erzeugen, verwenden Sie die folgenden Befehle (Erforderliche Modelle werden von HuggingFace heruntergeladen):
 
 #### 1.1 Inferenz eines einzelnen Satzes
 
@@ -163,11 +169,11 @@ python3 -m zipvoice.bin.infer_zipvoice \
 ```
 - Jede Zeile von `test.tsv` hat das Format `{wav_name}\t{prompt_transcription}\t{prompt_wav}\t{text}`.
 
-### 2. Generierung gesprochener Dialoge
+### 2. Dialog-Sprachgenerierung
 
 #### 2.1 Inferenzbefehl
 
-Um gesprochene Dialoge zwischen zwei Parteien mit unseren vortrainierten ZipVoice-Dialogue- oder ZipVoice-Dialogue-Stereo-Modellen zu erzeugen, verwenden Sie die folgenden Befehle (Erforderliche Modelle werden von HuggingFace heruntergeladen):
+Um Zwei-Parteien-Dialoge mit unseren vortrainierten ZipVoice-Dialogue oder ZipVoice-Dialogue-Stereo Modellen zu generieren, verwenden Sie die folgenden Befehle (Die benötigten Modelle werden von HuggingFace heruntergeladen):
 
 
 ```bash
@@ -200,30 +206,30 @@ Jede Zeile in `test.tsv` hat eines der folgenden Formate:
 {wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}'
 ```
 - `wav_name` ist der Name der Ausgabedatei im wav-Format.
-- `spk1_prompt_transcription` ist die Transkription des Prompt-wav des ersten Sprechers, z. B. "Hallo"
-- `spk2_prompt_transcription` ist die Transkription des Prompt-wav des zweiten Sprechers, z. B. "Wie geht's?"
+- `spk1_prompt_transcription` ist die Transkription der Prompt-wav des ersten Sprechers, z. B. "Hallo"
+- `spk2_prompt_transcription` ist die Transkription der Prompt-wav des zweiten Sprechers, z. B. "Wie geht's?"
 - `spk1_prompt_wav` ist der Pfad zur Prompt-wav-Datei des ersten Sprechers.
 - `spk2_prompt_wav` ist der Pfad zur Prompt-wav-Datei des zweiten Sprechers.
 - `text` ist der zu synthetisierende Text, z. B. "[S1] Mir geht's gut. [S2] Wie heißt du?"
 
 ### 3. Weitere Funktionen
 
-#### 3.1 Korrektur von falsch ausgesprochenen chinesischen Polyphonen
+#### 3.1 Korrektur falsch ausgesprochener chinesischer Polyphon-Zeichen
 
-Wir verwenden [pypinyin](https://github.com/mozillazg/python-pinyin), um chinesische Schriftzeichen in Pinyin umzuwandeln. Gelegentlich kann es jedoch **Polyphone Zeichen** (多音字) falsch aussprechen.
+Wir verwenden [pypinyin](https://github.com/mozillazg/python-pinyin), um chinesische Zeichen in Pinyin umzuwandeln. Allerdings kann es gelegentlich **Polyphon-Zeichen** (多音字) falsch aussprechen.
 
-Um diese Falschaussprache manuell zu korrigieren, setzen Sie das **korrigierte Pinyin** in spitze Klammern `< >` und geben Sie das **Tonzeichen** an.
+Um diese Fehlinterpretationen manuell zu korrigieren, setzen Sie das **korrigierte Pinyin** in spitze Klammern `< >` und fügen Sie die **Tonmarkierung** hinzu.
 
 **Beispiel:**
 
 - Originaltext: `这把剑长三十公分`
-- Korrigieren Sie das Pinyin von `长`:  `这把剑<chang2>三十公分`
+- Korrigiere das Pinyin von `长`:  `这把剑<chang2>三十公分`
 
-> **Hinweis:** Wenn Sie mehrere Pinyins manuell zuweisen möchten, setzen Sie jedes Pinyin in `<>`, z. B. `这把<jian4><chang2><san1>十公分`
+> **Hinweis:** Wenn Sie mehreren Zeichen manuell Pinyin zuweisen möchten, setzen Sie jedes Pinyin in `<>`, z. B. `这把<jian4><chang2><san1>十公分`
 
 ## Eigenes Modell trainieren
 
-Siehe das Verzeichnis [egs](egs) für Trainings- und Fine-Tuning-Beispiele.
+Siehe das Verzeichnis [egs](egs) für Trainings-, Feinabstimmungs- und Bewertungsbeispiele.
 
 ## Diskussion & Kommunikation
 
@@ -257,6 +263,6 @@ Sie können auch den QR-Code scannen, um unserer WeChat-Gruppe beizutreten oder 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
 
 ---
