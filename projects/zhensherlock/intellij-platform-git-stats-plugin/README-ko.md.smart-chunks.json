@@ -1,0 +1,327 @@
+[
+  {
+    "Id": 1,
+    "Content": "# intellij-platform-git-stats-plugin\n\n![Build](https://github.com/zhensherlock/intellij-platform-git-stats-plugin/workflows/Build/badge.svg)\n[![Version](https://img.shields.io/jetbrains/plugin/v/com.huayi.intellijplatform.gitstats.svg)](https://plugins.jetbrains.com/plugin/com.huayi.intellijplatform.gitstats)\n[![Downloads](https://img.shields.io/jetbrains/plugin/d/com.huayi.intellijplatform.gitstats.svg)](https://plugins.jetbrains.com/plugin/com.huayi.intellijplatform.gitstats)\n\n[//]: # (## Template ToDo list)\n\n[//]: # (- [x] Create a new [IntelliJ Platform Plugin Template][template] project.)\n\n[//]: # (- [ ] Get familiar with the [template documentation][template].)\n\n[//]: # (- [ ] Adjust the [pluginGroup]&#40;./gradle.properties&#41;, [plugin ID]&#40;./src/main/resources/META-INF/plugin.xml&#41; and [sources package]&#40;./src/main/kotlin&#41;.)\n\n[//]: # (- [ ] Adjust the plugin description in `README` &#40;see [Tips][docs:plugin-description]&#41;)\n\n[//]: # (- [ ] Review the [Legal Agreements]&#40;https://plugins.jetbrains.com/docs/marketplace/legal-agreements.html?from=IJPluginTemplate&#41;.)\n\n[//]: # (- [ ] [Publish a plugin manually]&#40;https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate&#41; for the first time.)\n\n[//]: # (- [ ] Set the `PLUGIN_ID` in the above README badges.)\n\n[//]: # (- [ ] Set the [Plugin Signing]&#40;https://plugins.jetbrains.com/docs/intellij/plugin-signing.html?from=IJPluginTemplate&#41; related [secrets]&#40;https://github.com/JetBrains/intellij-platform-plugin-template#environment-variables&#41;.)\n\n[//]: # (- [ ] Set the [Deployment Token]&#40;https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html?from=IJPluginTemplate&#41;.)\n\n[//]: # (- [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.)\n\n<!-- Plugin description -->\nThis plugin aims to help users better understand their code writing by counting the modifications of the source code in the project directory opened by the current IDE. It groups and counts the number of added lines of code, deleted lines of code, and modified files within a certain time period, and finally presents the results in a list form, allowing users to have a clear understanding of the overall code writing situation of their projects.\n\n本插件旨在通过统计当前IDE打开的项目目录中的源代码修改情况，帮助用户更好地了解自己的代码编写情况。通过分组统计某个时间段内的添加代码行数、删除代码行数、修改文件数量，最后用列表形式展现，让用户清晰地了解自己项目的整体编写情况。\n<!-- Plugin description end -->\n\n## Installation\n\n- Using IDE built-in plugin system:\n  \n  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for \"intellij-platform-git-stats-plugin\"</kbd> >\n  <kbd>Install Plugin</kbd>\n  \n- Manually:\n\n  Download the [latest release](https://github.com/zhensherlock/intellij-platform-git-stats-plugin/releases/latest) and install it manually using\n  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>\n\n\n---\nPlugin based on the [IntelliJ Platform Plugin Template][template].\n\n[template]: https://github.com/JetBrains/intellij-platform-plugin-template\n[docs:plugin-description]: https://plugins.jetbrains.com/docs/intellij/plugin-user-experience.html#plugin-description-and-presentation",
+    "ContentSha": "odFwJeGhZzl9TV43oG5M5DrRXVGLI0oSGOegq+Ts+KQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># intellij-platform-git-stats-plugin\n\n![Build](https://github.com/zhensherlock/intellij-platform-git-stats-plugin/workflows/Build/badge.svg)\n[![Version](https://img.shields.io/jetbrains/plugin/v/com.huayi.intellijplatform.gitstats.svg)](https://plugins.jetbrains.com/plugin/com.huayi.intellijplatform.gitstats)\n[![Downloads](https://img.shields.io/jetbrains/plugin/d/com.huayi.intellijplatform.gitstats.svg)](https://plugins.jetbrains.com/plugin/com.huayi.intellijplatform.gitstats)\n\n[//]: # (## Template ToDo list)\n\n[//]: # (- [x] Create a new [IntelliJ Platform Plugin Template][template] project.)\n\n[//]: # (- [ ] Get familiar with the [template documentation][template].)\n\n[//]: # (- [ ] Adjust the [pluginGroup]&#40;./gradle.properties&#41;, [plugin ID]&#40;./src/main/resources/META-INF/plugin.xml&#41; and [sources package]&#40;./src/main/kotlin&#41;.)\n\n[//]: # (- [ ] Adjust the plugin description in `README` &#40;see [Tips][docs:plugin-description]&#41;)\n\n[//]: # (- [ ] Review the [Legal Agreements]&#40;https://plugins.jetbrains.com/docs/marketplace/legal-agreements.html?from=IJPluginTemplate&#41;.)\n\n[//]: # (- [ ] [Publish a plugin manually]&#40;https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate&#41; for the first time.)\n\n[//]: # (- [ ] Set the `PLUGIN_ID` in the above README badges.)\n\n[//]: # (- [ ] Set the [Plugin Signing]&#40;https://plugins.jetbrains.com/docs/intellij/plugin-signing.html?from=IJPluginTemplate&#41; related [secrets]&#40;https://github.com/JetBrains/intellij-platform-plugin-template#environment-variables&#41;.)\n\n[//]: # (- [ ] Set the [Deployment Token]&#40;https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html?from=IJPluginTemplate&#41;.)\n\n[//]: # (- [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.)\n\n<!-- Plugin description -->\n이 플러그인은 현재 IDE에서 열린 프로젝트 디렉토리 내 소스 코드의 수정 내역을 집계하여 사용자가 자신의 코드 작성 현황을 더 잘 이해할 수 있도록 돕는 것을 목표로 합니다. 일정 기간 내에 추가된 코드 라인 수, 삭제된 코드 라인 수, 수정된 파일 수를 그룹별로 집계한 후 결과를 리스트 형태로 보여주어, 사용자가 자신의 프로젝트 전반적인 코드 작성 상황을 명확히 파악할 수 있도록 합니다.\n本插件旨在通过统计当前IDE打开的项目目录中的源代码修改情况，帮助用户更好地了解自己的代码编写情况。通过分组统计某个时间段内的添加代码行数、删除代码行数、修改文件数量，最后用列表形式展现，让用户清晰地了解自己项目的整体编写情况。\n<!-- Plugin description end -->\n\n## 설치\n\n- IDE 내장 플러그인 시스템 사용:\n  \n  <kbd>설정/환경설정</kbd> > <kbd>플러그인</kbd> > <kbd>마켓플레이스</kbd> > <kbd>\"intellij-platform-git-stats-plugin\" 검색</kbd> >\n  <kbd>플러그인 설치</kbd>\n  \n- 수동 설치:\n\n  [최신 릴리스](https://github.com/zhensherlock/intellij-platform-git-stats-plugin/releases/latest)를 다운로드한 후\n  <kbd>설정/환경설정</kbd> > <kbd>플러그인</kbd> > <kbd>⚙️</kbd> > <kbd>디스크에서 플러그인 설치...</kbd>를 사용하여 수동으로 설치하세요.\n\n\n---\n이 플러그인은 [IntelliJ Platform Plugin Template][template]을 기반으로 합니다.\n\n[template]: https://github.com/JetBrains/intellij-platform-plugin-template\n[docs:plugin-description]: https://plugins.jetbrains.com/docs/intellij/plugin-user-experience.html#plugin-description-and-presentation</translate-content>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qaZ2Gm5lYGM3LwSWzb8LwvAint92B3NTB5Sr4EdaiUA=",
+        "originContent": "# intellij-platform-git-stats-plugin",
+        "translatedContent": "<translate-content># intellij-platform-git-stats-plugin"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "LnHYw/CGbGu969N8tvxqJbm7wGJfeH5yIgsSHp0AL5c=",
+        "originContent": "![Build](https://github.com/zhensherlock/intellij-platform-git-stats-plugin/workflows/Build/badge.svg)",
+        "translatedContent": "![Build](https://github.com/zhensherlock/intellij-platform-git-stats-plugin/workflows/Build/badge.svg)"
+      },
+      {
+        "row": 4,
+        "rowsha": "8NERgY+XJYYxIr94kxTMO0a7EJ6SQLGWo6DZj/EARLs=",
+        "originContent": "[![Version](https://img.shields.io/jetbrains/plugin/v/com.huayi.intellijplatform.gitstats.svg)](https://plugins.jetbrains.com/plugin/com.huayi.intellijplatform.gitstats)",
+        "translatedContent": "[![Version](https://img.shields.io/jetbrains/plugin/v/com.huayi.intellijplatform.gitstats.svg)](https://plugins.jetbrains.com/plugin/com.huayi.intellijplatform.gitstats)"
+      },
+      {
+        "row": 5,
+        "rowsha": "EGAMrGhEHhGXFpsWR3i4AbkSlzVpkOI+w/IDqTn/JpY=",
+        "originContent": "[![Downloads](https://img.shields.io/jetbrains/plugin/d/com.huayi.intellijplatform.gitstats.svg)](https://plugins.jetbrains.com/plugin/com.huayi.intellijplatform.gitstats)",
+        "translatedContent": "[![Downloads](https://img.shields.io/jetbrains/plugin/d/com.huayi.intellijplatform.gitstats.svg)](https://plugins.jetbrains.com/plugin/com.huayi.intellijplatform.gitstats)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "G0qfYQK029DEza95KDcSkRNXPzMrRPEunPqdh8FaMBM=",
+        "originContent": "[//]: # (## Template ToDo list)",
+        "translatedContent": "[//]: # (## Template ToDo list)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "x7FeH9iS7whX9w+SRAA9as1M+pcBAoRCUH0Z+FkJtRw=",
+        "originContent": "[//]: # (- [x] Create a new [IntelliJ Platform Plugin Template][template] project.)",
+        "translatedContent": "[//]: # (- [x] Create a new [IntelliJ Platform Plugin Template][template] project.)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "tH/POK+w8EgCmRSQiat3fdX4akFb6cmZ6RfLJUgqNjI=",
+        "originContent": "[//]: # (- [ ] Get familiar with the [template documentation][template].)",
+        "translatedContent": "[//]: # (- [ ] Get familiar with the [template documentation][template].)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "qR4zUgSIL+RvTYBPTnSAEwRh/BjgZ6tB8mn7uPXV0UU=",
+        "originContent": "[//]: # (- [ ] Adjust the [pluginGroup]&#40;./gradle.properties&#41;, [plugin ID]&#40;./src/main/resources/META-INF/plugin.xml&#41; and [sources package]&#40;./src/main/kotlin&#41;.)",
+        "translatedContent": "[//]: # (- [ ] Adjust the [pluginGroup]&#40;./gradle.properties&#41;, [plugin ID]&#40;./src/main/resources/META-INF/plugin.xml&#41; and [sources package]&#40;./src/main/kotlin&#41;.)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "GSxw3DtoleGT9wSp3z1ZCzeKDoDA9VT5tuvq/aszGsA=",
+        "originContent": "[//]: # (- [ ] Adjust the plugin description in `README` &#40;see [Tips][docs:plugin-description]&#41;)",
+        "translatedContent": "[//]: # (- [ ] Adjust the plugin description in `README` &#40;see [Tips][docs:plugin-description]&#41;)"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "KU3lhb2IN7Eajyr2Dj/eMbGD/OLkd5BvUgPXc8w7RLQ=",
+        "originContent": "[//]: # (- [ ] Review the [Legal Agreements]&#40;https://plugins.jetbrains.com/docs/marketplace/legal-agreements.html?from=IJPluginTemplate&#41;.)",
+        "translatedContent": "[//]: # (- [ ] Review the [Legal Agreements]&#40;https://plugins.jetbrains.com/docs/marketplace/legal-agreements.html?from=IJPluginTemplate&#41;.)"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "QcuXf6bPHo3HnpB49MY6mpeYIKz3uESH5TKw0fjE5N8=",
+        "originContent": "[//]: # (- [ ] [Publish a plugin manually]&#40;https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate&#41; for the first time.)",
+        "translatedContent": "[//]: # (- [ ] [Publish a plugin manually]&#40;https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate&#41; for the first time.)"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "4KXdQDHeME8zGl1McTxUfeLGEO8PGDAkil6TL4pzPlM=",
+        "originContent": "[//]: # (- [ ] Set the `PLUGIN_ID` in the above README badges.)",
+        "translatedContent": "[//]: # (- [ ] Set the `PLUGIN_ID` in the above README badges.)"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "3qDbEUzGXjegXzbCLOiepYPhVVzoThQKOxpxusTaHYI=",
+        "originContent": "[//]: # (- [ ] Set the [Plugin Signing]&#40;https://plugins.jetbrains.com/docs/intellij/plugin-signing.html?from=IJPluginTemplate&#41; related [secrets]&#40;https://github.com/JetBrains/intellij-platform-plugin-template#environment-variables&#41;.)",
+        "translatedContent": "[//]: # (- [ ] Set the [Plugin Signing]&#40;https://plugins.jetbrains.com/docs/intellij/plugin-signing.html?from=IJPluginTemplate&#41; related [secrets]&#40;https://github.com/JetBrains/intellij-platform-plugin-template#environment-variables&#41;.)"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "/zWlFtW+Asa7uCuuoQwAKEseQT4XbxEVzFqENyeNbdE=",
+        "originContent": "[//]: # (- [ ] Set the [Deployment Token]&#40;https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html?from=IJPluginTemplate&#41;.)",
+        "translatedContent": "[//]: # (- [ ] Set the [Deployment Token]&#40;https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html?from=IJPluginTemplate&#41;.)"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "CgCs59pqMPKSD6kDJs37XnXGWOzh60q8TlceaaqK1ac=",
+        "originContent": "[//]: # (- [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.)",
+        "translatedContent": "[//]: # (- [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.)"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "ceX8udrmR9X6gOhtJlB5YCuJ2U8jaldZ38FkVPO3FZk=",
+        "originContent": "<!-- Plugin description -->",
+        "translatedContent": "<!-- Plugin description -->"
+      },
+      {
+        "row": 30,
+        "rowsha": "V8zJF6xmTF3dFFbcIsoAsxnkmJCIRdgRLgxZhKIyrR0=",
+        "originContent": "This plugin aims to help users better understand their code writing by counting the modifications of the source code in the project directory opened by the current IDE. It groups and counts the number of added lines of code, deleted lines of code, and modified files within a certain time period, and finally presents the results in a list form, allowing users to have a clear understanding of the overall code writing situation of their projects.",
+        "translatedContent": "이 플러그인은 현재 IDE에서 열린 프로젝트 디렉토리 내 소스 코드의 수정 내역을 집계하여 사용자가 자신의 코드 작성 현황을 더 잘 이해할 수 있도록 돕는 것을 목표로 합니다. 일정 기간 내에 추가된 코드 라인 수, 삭제된 코드 라인 수, 수정된 파일 수를 그룹별로 집계한 후 결과를 리스트 형태로 보여주어, 사용자가 자신의 프로젝트 전반적인 코드 작성 상황을 명확히 파악할 수 있도록 합니다."
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "本插件旨在通过统计当前IDE打开的项目目录中的源代码修改情况，帮助用户更好地了解自己的代码编写情况。通过分组统计某个时间段内的添加代码行数、删除代码行数、修改文件数量，最后用列表形式展现，让用户清晰地了解自己项目的整体编写情况。"
+      },
+      {
+        "row": 32,
+        "rowsha": "VjE+5KOGadzt1o5oNB4SOeA/wcUxdiwudYK8aAp+A6U=",
+        "originContent": "本插件旨在通过统计当前IDE打开的项目目录中的源代码修改情况，帮助用户更好地了解自己的代码编写情况。通过分组统计某个时间段内的添加代码行数、删除代码行数、修改文件数量，最后用列表形式展现，让用户清晰地了解自己项目的整体编写情况。",
+        "translatedContent": "<!-- Plugin description end -->"
+      },
+      {
+        "row": 33,
+        "rowsha": "oGdGfEGzeGZf711WmHL5mav86UBpVhJ6zF6Ubku80YI=",
+        "originContent": "<!-- Plugin description end -->",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 35,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- IDE 내장 플러그인 시스템 사용:"
+      },
+      {
+        "row": 37,
+        "rowsha": "GfWCRsBL2JkZHVKcP59R8WuK3J/+F5LfKXvKX3S947Y=",
+        "originContent": "- Using IDE built-in plugin system:",
+        "translatedContent": "  "
+      },
+      {
+        "row": 38,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  <kbd>설정/환경설정</kbd> > <kbd>플러그인</kbd> > <kbd>마켓플레이스</kbd> > <kbd>\"intellij-platform-git-stats-plugin\" 검색</kbd> >"
+      },
+      {
+        "row": 39,
+        "rowsha": "Bwt4RjWkCb309xsUBVU9oOREXp4rMFQ1xvTULJQsojc=",
+        "originContent": "  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for \"intellij-platform-git-stats-plugin\"</kbd> >",
+        "translatedContent": "  <kbd>플러그인 설치</kbd>"
+      },
+      {
+        "row": 40,
+        "rowsha": "q+62uggJTixZ8BWZjYQuxeANy+WRpvhcEmkXh32lNAc=",
+        "originContent": "  <kbd>Install Plugin</kbd>",
+        "translatedContent": "  "
+      },
+      {
+        "row": 41,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "- 수동 설치:"
+      },
+      {
+        "row": 42,
+        "rowsha": "4xgSd/MEw2j5pdXfypWs9KMECJD1yVtCOd1TE3VgASw=",
+        "originContent": "- Manually:",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  [최신 릴리스](https://github.com/zhensherlock/intellij-platform-git-stats-plugin/releases/latest)를 다운로드한 후"
+      },
+      {
+        "row": 44,
+        "rowsha": "+eYS4Lmg93qvGeonkeuhm1co7a1TeuqXqFiBfhlfSIA=",
+        "originContent": "  Download the [latest release](https://github.com/zhensherlock/intellij-platform-git-stats-plugin/releases/latest) and install it manually using",
+        "translatedContent": "  <kbd>설정/환경설정</kbd> > <kbd>플러그인</kbd> > <kbd>⚙️</kbd> > <kbd>디스크에서 플러그인 설치...</kbd>를 사용하여 수동으로 설치하세요."
+      },
+      {
+        "row": 45,
+        "rowsha": "IPRPVRRqo/FSxY8CavVZCS1YWefUbKekPfOlEdao/Ls=",
+        "originContent": "  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 48,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "이 플러그인은 [IntelliJ Platform Plugin Template][template]을 기반으로 합니다."
+      },
+      {
+        "row": 49,
+        "rowsha": "fRr+vjmZwOdx4Wm2sWlOfzrpLjWLQMatkS2YAVe9ys4=",
+        "originContent": "Plugin based on the [IntelliJ Platform Plugin Template][template].",
+        "translatedContent": ""
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[template]: https://github.com/JetBrains/intellij-platform-plugin-template"
+      },
+      {
+        "row": 51,
+        "rowsha": "DMdWitMkQdLeWJYkdKQMW/JmqQZwnvBYvUwaEUXiMGU=",
+        "originContent": "[template]: https://github.com/JetBrains/intellij-platform-plugin-template",
+        "translatedContent": "[docs:plugin-description]: https://plugins.jetbrains.com/docs/intellij/plugin-user-experience.html#plugin-description-and-presentation</translate-content>"
+      },
+      {
+        "row": 52,
+        "rowsha": "Wp9VoTMZSWZWeH2oQWL7cdJGc0oNgIniDquwFyHKvbo=",
+        "originContent": "[docs:plugin-description]: https://plugins.jetbrains.com/docs/intellij/plugin-user-experience.html#plugin-description-and-presentation",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

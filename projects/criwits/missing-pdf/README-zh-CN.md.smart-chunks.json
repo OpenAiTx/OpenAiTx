@@ -1,0 +1,272 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 《你缺失的那门计算机课》开源 PDF 版\n\n> [!important]\n> 《你缺失的那门计算机课》开源 PDF 版并不是由 [网页版](https://www.criwits.top/missing) 自动生成的，而是手工排版制作的。因此，开源 PDF 版在内容上落后于网页版，并可能存在缺漏或错误。\n\n这是《你缺失的那门计算机课》的开源 PDF 版 LaTeX 源代码，最新发布的 PDF 由 TeX Live 2025 排版。请按照以下步骤来生成 PDF：\n\n> [!warning]\n> 请使用本地 TeX 环境编译。不要使用 Overleaf。\n\n0. 正确安装如下字体（不要使用可变字体），并确保 XeLaTeX 可以找到它们：\n   1. [Inter](https://rsms.me/inter/)；\n   2. [思源黑体](https://github.com/adobe-fonts/source-han-sans/)（不是「Noto Sans SC」，也不是「思源黑体 CN」）；\n   3. [等距更纱黑体 Slab SC](https://github.com/be5invis/Sarasa-Gothic)；\n   4. [Noto Serif Tibetan](https://fonts.google.com/noto/specimen/Noto+Serif+Tibetan)。\n1. 克隆本仓库到你喜欢的地方；\n2. 将 `resource/quote.zip` 中的两个标点映射文件放到**用户 TEXMF 树**下的 `fonts/misc/xetex/fontmapping/xecjk` 目录中；\n3. 刷新 TeX 发行版的文件名数据库，TeX Live 用户执行",
+    "ContentSha": "iJq9niQj/D16qtzwcAj48w14hVJQKbmav64shAuS/AY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># 《你缺失的那门计算机课》开源 PDF 版\n\n> [!important]\n> 《你缺失的那门计算机课》开源 PDF 版并不是由 [网页版](https://www.criwits.top/missing) 自动生成的，而是手工排版制作的。因此，开源 PDF 版在内容上落后于网页版，并可能存在缺漏或错误。\n\n这是《你缺失的那门计算机课》的开源 PDF 版 LaTeX 源代码，最新发布的 PDF 由 TeX Live 2025 排版。请按照以下步骤来生成 PDF：\n\n> [!warning]\n> 请使用本地 TeX 环境编译。不要使用 Overleaf。\n\n0. 正确安装如下字体（不要使用可变字体），并确保 XeLaTeX 可以找到它们：\n   1. [Inter](https://rsms.me/inter/)；\n   2. [思源黑体](https://github.com/adobe-fonts/source-han-sans/)（不是「Noto Sans SC」，也不是「思源黑体 CN」）；\n   3. [等距更纱黑体 Slab SC](https://github.com/be5invis/Sarasa-Gothic)；\n   4. [Noto Serif Tibetan](https://fonts.google.com/noto/specimen/Noto+Serif+Tibetan)。\n1. 克隆本仓库到你喜欢的地方；\n2. 将 `resource/quote.zip` 中的两个标点映射文件放到**用户 TEXMF 树**下的 `fonts/misc/xetex/fontmapping/xecjk` 目录中；\n3. 刷新 TeX 发行版的文件名数据库，TeX Live 用户执行</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "nn31TGW8vKCPSM3mnTPHdqLLwUafqiHO2HCAyTe1z+Y=",
+        "originContent": "# 《你缺失的那门计算机课》开源 PDF 版",
+        "translatedContent": "<translate-content># 《你缺失的那门计算机课》开源 PDF 版"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "D9Jr9mxynTO1YoMUn6CjhIkjS3tofIgNxGWkRUBh3Xk=",
+        "originContent": "> [!important]",
+        "translatedContent": "> [!important]"
+      },
+      {
+        "row": 4,
+        "rowsha": "7SHhQxY7kCebUMXWDEUDywYPEEeM+YmSrvOLOVZLljI=",
+        "originContent": "> 《你缺失的那门计算机课》开源 PDF 版并不是由 [网页版](https://www.criwits.top/missing) 自动生成的，而是手工排版制作的。因此，开源 PDF 版在内容上落后于网页版，并可能存在缺漏或错误。",
+        "translatedContent": "> 《你缺失的那门计算机课》开源 PDF 版并不是由 [网页版](https://www.criwits.top/missing) 自动生成的，而是手工排版制作的。因此，开源 PDF 版在内容上落后于网页版，并可能存在缺漏或错误。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "1nWYkWiD3TCzTwId5nrSKnUtTHVr/IrlJUsdpLXoaQs=",
+        "originContent": "这是《你缺失的那门计算机课》的开源 PDF 版 LaTeX 源代码，最新发布的 PDF 由 TeX Live 2025 排版。请按照以下步骤来生成 PDF：",
+        "translatedContent": "这是《你缺失的那门计算机课》的开源 PDF 版 LaTeX 源代码，最新发布的 PDF 由 TeX Live 2025 排版。请按照以下步骤来生成 PDF："
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "lsrZnZFBuymF998FWxHxawNtDJPaE37GYs5mI627u4k=",
+        "originContent": "> [!warning]",
+        "translatedContent": "> [!warning]"
+      },
+      {
+        "row": 9,
+        "rowsha": "HWp7lBAbYepGby56lTAJgoQ0UFnJBQrj/vowzclhyj0=",
+        "originContent": "> 请使用本地 TeX 环境编译。不要使用 Overleaf。",
+        "translatedContent": "> 请使用本地 TeX 环境编译。不要使用 Overleaf。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "++fTqlzmkg8USrO/5rfIrQ13NJ16JHCVMMJv6hX8/Qg=",
+        "originContent": "0. 正确安装如下字体（不要使用可变字体），并确保 XeLaTeX 可以找到它们：",
+        "translatedContent": "0. 正确安装如下字体（不要使用可变字体），并确保 XeLaTeX 可以找到它们："
+      },
+      {
+        "row": 12,
+        "rowsha": "j7rZJWOUfB6z/xs65E3MlxyZ3mP2VFk0MR9vFJM2Kp8=",
+        "originContent": "   1. [Inter](https://rsms.me/inter/)；",
+        "translatedContent": "   1. [Inter](https://rsms.me/inter/)；"
+      },
+      {
+        "row": 13,
+        "rowsha": "CVX0iGlq7BIs0Qytazgx4C91ZvqKbsW++Ksp6F5VJ+8=",
+        "originContent": "   2. [思源黑体](https://github.com/adobe-fonts/source-han-sans/)（不是「Noto Sans SC」，也不是「思源黑体 CN」）；",
+        "translatedContent": "   2. [思源黑体](https://github.com/adobe-fonts/source-han-sans/)（不是「Noto Sans SC」，也不是「思源黑体 CN」）；"
+      },
+      {
+        "row": 14,
+        "rowsha": "ef40PY0U9+cYhOeNus4dLlXYO3Vt0K5um+0KNjAig88=",
+        "originContent": "   3. [等距更纱黑体 Slab SC](https://github.com/be5invis/Sarasa-Gothic)；",
+        "translatedContent": "   3. [等距更纱黑体 Slab SC](https://github.com/be5invis/Sarasa-Gothic)；"
+      },
+      {
+        "row": 15,
+        "rowsha": "No2L91tXBhLAgx6jvavcN2QQvS4n8pbX97nkAaJatxc=",
+        "originContent": "   4. [Noto Serif Tibetan](https://fonts.google.com/noto/specimen/Noto+Serif+Tibetan)。",
+        "translatedContent": "   4. [Noto Serif Tibetan](https://fonts.google.com/noto/specimen/Noto+Serif+Tibetan)。"
+      },
+      {
+        "row": 16,
+        "rowsha": "cY9BzhAmeDnYua3R/GXjzrR2yKGug86ng1AuBnwA0DI=",
+        "originContent": "1. 克隆本仓库到你喜欢的地方；",
+        "translatedContent": "1. 克隆本仓库到你喜欢的地方；"
+      },
+      {
+        "row": 17,
+        "rowsha": "iT5aJgnG/hYfcYqOKtfsMqwTuh5xja2rcTKxAu+V/L4=",
+        "originContent": "2. 将 `resource/quote.zip` 中的两个标点映射文件放到**用户 TEXMF 树**下的 `fonts/misc/xetex/fontmapping/xecjk` 目录中；",
+        "translatedContent": "2. 将 `resource/quote.zip` 中的两个标点映射文件放到**用户 TEXMF 树**下的 `fonts/misc/xetex/fontmapping/xecjk` 目录中；"
+      },
+      {
+        "row": 18,
+        "rowsha": "tB+4wD4aEN3Fmc+ibC3ZJQDhd+HHKizU2Wl8yzveRcE=",
+        "originContent": "3. 刷新 TeX 发行版的文件名数据库，TeX Live 用户执行",
+        "translatedContent": "3. 刷新 TeX 发行版的文件名数据库，TeX Live 用户执行</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "   ```shell\n   mktexlsr\n   ```",
+    "ContentSha": "atRcIRTbah8GGXOtfLfcXTjGYFT+SJsDp6yLumy6ehw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```shell\n   mktexlsr\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7Zf0weddgCKY9JIe5blkcUKQbc7QUUErQJ2rGCljuFc=",
+        "originContent": "   ```shell",
+        "translatedContent": "   ```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "SY5r6Nr5P7uBniLykulnl794PBc7wF+7PhlFs+qV1+8=",
+        "originContent": "   mktexlsr",
+        "translatedContent": "   mktexlsr"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "   MiKTeX 用户执行",
+    "ContentSha": "bQ3fdx2j4dwUOvSs1VyNdDGesV53GSCih51A8z8ZUSo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   MiKTeX 用户执行",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "bQ3fdx2j4dwUOvSs1VyNdDGesV53GSCih51A8z8ZUSo=",
+        "originContent": "   MiKTeX 用户执行",
+        "translatedContent": "   MiKTeX 用户执行"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "   ```shell\n   initexmf --update-fndb\n   ```",
+    "ContentSha": "3GW9T53WVAb5gGkWrfA2snOQL3njDRTVn6PWbN1elKQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```shell\n   initexmf --update-fndb\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7Zf0weddgCKY9JIe5blkcUKQbc7QUUErQJ2rGCljuFc=",
+        "originContent": "   ```shell",
+        "translatedContent": "   ```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "MAmInkOWfx6WcP39xn4nuF35bFgWTR/BvQaMlYQLpck=",
+        "originContent": "   initexmf --update-fndb",
+        "translatedContent": "   initexmf --update-fndb"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "4. 重复执行两遍",
+    "ContentSha": "4bvJD0OxKlvawgdoP3LGhiXvUk1HTzP4CutGSqf0oEo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "error",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "   ```shell\n   xelatex --shell-escape -output-driver=\"xdvipdfmx -i dvipdfmx-unsafe.cfg -q -E\" missing.tex\n   ```",
+    "ContentSha": "kbmey+7J+m4mAkCYdY41pviyi0dofTCDFn+8lWurln0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```shell\n   xelatex --shell-escape -output-driver=\"xdvipdfmx -i dvipdfmx-unsafe.cfg -q -E\" missing.tex\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7Zf0weddgCKY9JIe5blkcUKQbc7QUUErQJ2rGCljuFc=",
+        "originContent": "   ```shell",
+        "translatedContent": "   ```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "2KddxCJnK+jgtVTIIAkUTVJ4aLrq8V2fN69Ax7LEl3s=",
+        "originContent": "   xelatex --shell-escape -output-driver=\"xdvipdfmx -i dvipdfmx-unsafe.cfg -q -E\" missing.tex",
+        "translatedContent": "   xelatex --shell-escape -output-driver=\"xdvipdfmx -i dvipdfmx-unsafe.cfg -q -E\" missing.tex"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "   Windows 用户也可以直接双击 `make.bat` 来生成 PDF 文件。整个构建脚本持续约 4 分钟 ~~，在此期间不妨听首歌~~。\n",
+    "ContentSha": "xbwPdCUL37y+HFvFYUBTTOK7Rf/okvysVJnsW8UjnKg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   Windows 用户也可以直接双击 `make.bat` 来生成 PDF 文件。整个构建脚本持续约 4 分钟 ~~，在此期间不妨听首歌~~。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "3agEo+Dil5VgIdZHwdc1FyZRRMFDnKaoHa9sFRDAfX0=",
+        "originContent": "   Windows 用户也可以直接双击 `make.bat` 来生成 PDF 文件。整个构建脚本持续约 4 分钟 ~~，在此期间不妨听首歌~~。",
+        "translatedContent": "   Windows 用户也可以直接双击 `make.bat` 来生成 PDF 文件。整个构建脚本持续约 4 分钟 ~~，在此期间不妨听首歌~~。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

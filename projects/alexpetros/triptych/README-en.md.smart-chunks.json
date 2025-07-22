@@ -1,0 +1,973 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Triptych - New Attributes for HTML\n\n[Triptych](https://alexanderpetros.com/triptych) is a polyfill for three small HTML proposals:\n\n1. [Support PUT, PATCH, and DELETE on forms](https://alexanderpetros.com/triptych/form-http-methods) ([WHATWG issue](https://github.com/whatwg/html/issues/3577#issuecomment-2294931398))\n2. [Enable buttons to make HTTP requests without being wrapped in forms](https://alexanderpetros.com/triptych/button-actions)\n3. Enable links, forms, and buttons to target a part of the DOM for replacement\n\nWork on these proposals is in progress: we've put out the first one and the next two are coming soon.\nIf you're interested in working on that, reach out to me!\n\nStatus updates at: [https://alexanderpetros.com/triptych#status](https://alexanderpetros.com/triptych#status)\n\n## Examples\n\nWhen the link is clicked, replace `<main>` with the result of `GET /home:`\n",
+    "ContentSha": "MJo/xt55h2IfldFkddF9HC/n5Hn8o0b6Mjft683D4i4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Triptych - New Attributes for HTML\n\n[Triptych](https://alexanderpetros.com/triptych) is a polyfill for three small HTML proposals:\n\n1. [Support PUT, PATCH, and DELETE on forms](https://alexanderpetros.com/triptych/form-http-methods) ([WHATWG issue](https://github.com/whatwg/html/issues/3577#issuecomment-2294931398))\n2. [Enable buttons to make HTTP requests without being wrapped in forms](https://alexanderpetros.com/triptych/button-actions)\n3. Enable links, forms, and buttons to target a part of the DOM for replacement\n\nWork on these proposals is in progress: we've put out the first one and the next two are coming soon.\nIf you're interested in working on that, reach out to me!\n\nStatus updates at: [https://alexanderpetros.com/triptych#status](https://alexanderpetros.com/triptych#status)\n\n## Examples\n\nWhen the link is clicked, replace `<main>` with the result of `GET /home:`\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "KJTOqwqpCH4CADKgT++gi6xt33IuoVt9qdJ/SILO2aU=",
+        "originContent": "# Triptych - New Attributes for HTML",
+        "translatedContent": "# Triptych - New Attributes for HTML"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "nfod4wGtsFvSJmZ0IxNMxj8VNeGosFVeCLoablS9VpI=",
+        "originContent": "[Triptych](https://alexanderpetros.com/triptych) is a polyfill for three small HTML proposals:",
+        "translatedContent": "[Triptych](https://alexanderpetros.com/triptych) is a polyfill for three small HTML proposals:"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "JHK8yoo5pBa7vY7Hdt3ZXcMwLtlXdb+1kUpDDEzuIFc=",
+        "originContent": "1. [Support PUT, PATCH, and DELETE on forms](https://alexanderpetros.com/triptych/form-http-methods) ([WHATWG issue](https://github.com/whatwg/html/issues/3577#issuecomment-2294931398))",
+        "translatedContent": "1. [Support PUT, PATCH, and DELETE on forms](https://alexanderpetros.com/triptych/form-http-methods) ([WHATWG issue](https://github.com/whatwg/html/issues/3577#issuecomment-2294931398))"
+      },
+      {
+        "row": 6,
+        "rowsha": "r+4oQaqWu3wk73j+kvhzfNEexpf9n6/hDb1vD/jfl9A=",
+        "originContent": "2. [Enable buttons to make HTTP requests without being wrapped in forms](https://alexanderpetros.com/triptych/button-actions)",
+        "translatedContent": "2. [Enable buttons to make HTTP requests without being wrapped in forms](https://alexanderpetros.com/triptych/button-actions)"
+      },
+      {
+        "row": 7,
+        "rowsha": "0p+Z7ydhyGnbDxM755vFfCRf18q5RfWYekup2yktMkM=",
+        "originContent": "3. Enable links, forms, and buttons to target a part of the DOM for replacement",
+        "translatedContent": "3. Enable links, forms, and buttons to target a part of the DOM for replacement"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "ocIqjSkZ7C3bY/a1qubIA/J+/RWUa/Xm5LJ4x86xW24=",
+        "originContent": "Work on these proposals is in progress: we've put out the first one and the next two are coming soon.",
+        "translatedContent": "Work on these proposals is in progress: we've put out the first one and the next two are coming soon."
+      },
+      {
+        "row": 10,
+        "rowsha": "mwWBKDd9FX443vbQoncis06wCCW4oZLwB8rOfQvdihw=",
+        "originContent": "If you're interested in working on that, reach out to me!",
+        "translatedContent": "If you're interested in working on that, reach out to me!"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "MnsqS7tt4J+RwySdTw4rNfuYxoeye0K1QosxHKS/s6s=",
+        "originContent": "Status updates at: [https://alexanderpetros.com/triptych#status](https://alexanderpetros.com/triptych#status)",
+        "translatedContent": "Status updates at: [https://alexanderpetros.com/triptych#status](https://alexanderpetros.com/triptych#status)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
+        "originContent": "## Examples",
+        "translatedContent": "## Examples"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "pplGOFwT4vWdqv+hX0qf1im0yDAelXV5Z2c/tvtd9sc=",
+        "originContent": "When the link is clicked, replace `<main>` with the result of `GET /home:`",
+        "translatedContent": "When the link is clicked, replace `<main>` with the result of `GET /home:`"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```html\n<a href=\"/home\" target=\"main\">Home</a>\n<main> <!-- Existing page content --> </main>\n```",
+    "ContentSha": "aWTPyg6jryS7DCzE16299/3a/hQieBjjw3mndlj8M7U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```html\n<a href=\"/home\" target=\"main\">Home</a>\n<main> <!-- Existing page content --> </main>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+        "originContent": "```html",
+        "translatedContent": "```html"
+      },
+      {
+        "row": 2,
+        "rowsha": "8o4W8kKiT9DTy5N9vjWWG1Lh4n385Iq32qmO0j0P7mA=",
+        "originContent": "<a href=\"/home\" target=\"main\">Home</a>",
+        "translatedContent": "<a href=\"/home\" target=\"main\">Home</a>"
+      },
+      {
+        "row": 3,
+        "rowsha": "xKflNqT0KiwLn2NLOUkOz08sCQZDojqYGeRD9VuE2SQ=",
+        "originContent": "<main> <!-- Existing page content --> </main>",
+        "translatedContent": "<main> <!-- Existing page content --> </main>"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nWhen the button is clicked, replace the whole page with the result of `DELETE /users/354`:",
+    "ContentSha": "rcOK657y0nyD9oMve5kgRY6IFFAKmX0k4D5KU4ch2Eg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "When the button is clicked, replace the whole page with the result of `DELETE /users/354`:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "When the button is clicked, replace the whole page with the result of `DELETE /users/354`:"
+      },
+      {
+        "row": 2,
+        "rowsha": "Vt8MgWcn29hzvBxuSCOtCF0LfFsQl6NC159uy83ovqA=",
+        "originContent": "When the button is clicked, replace the whole page with the result of `DELETE /users/354`:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```html\n<button action=\"/users/354\" method=\"DELETE\"></button>\n```",
+    "ContentSha": "pqADws+7z0yGevBxA9SoETXmJhgcgPNIEKCFIEG7YjM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```html\n<button action=\"/users/354\" method=\"DELETE\"></button>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+        "originContent": "```html",
+        "translatedContent": "```html"
+      },
+      {
+        "row": 2,
+        "rowsha": "9rLKxZ5MT1LWE4zD76XcR/H/JeGxZv4+uhIkkS05CK0=",
+        "originContent": "<button action=\"/users/354\" method=\"DELETE\"></button>",
+        "translatedContent": "<button action=\"/users/354\" method=\"DELETE\"></button>"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nWhen the button is clicked, replace the button with the result of `DELETE /users/354`",
+    "ContentSha": "/dhKBtmNaSypa9hkhKDjsTVQdoar6rbSGwEsFk/miC0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "When the button is clicked, replace the button with the result of `DELETE /users/354`\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "When the button is clicked, replace the button with the result of `DELETE /users/354`"
+      },
+      {
+        "row": 2,
+        "rowsha": "utZ1R3cyv60cloDSy6WJouIYXT/wYyO1azVi1GcbDfk=",
+        "originContent": "When the button is clicked, replace the button with the result of `DELETE /users/354`",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```html\n<button action=\"/users/354\" method=\"DELETE\" target=\"_this\"></button>\n```",
+    "ContentSha": "OcLAoJIeLdX0hKoB2DQJNWNhQrsxaJFI/FUIHZoTeW4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```html\n<button action=\"/users/354\" method=\"DELETE\" target=\"_this\"></button>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+        "originContent": "```html",
+        "translatedContent": "```html"
+      },
+      {
+        "row": 2,
+        "rowsha": "8HY4Pv8Iym7T/hbsmkWoEZZLKF3oS5EcLVqgiWe60Lg=",
+        "originContent": "<button action=\"/users/354\" method=\"DELETE\" target=\"_this\"></button>",
+        "translatedContent": "<button action=\"/users/354\" method=\"DELETE\" target=\"_this\"></button>"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nWhen the form is submitted, replace `<div id=user-info>` with the result of `PUT /users/354`",
+    "ContentSha": "rEGD6thm7E2le3/4B92MO7qxsUXf4MK8i9wG1hhi4d8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "When the form is submitted, replace `<div id=user-info>` with the result of `PUT /users/354`\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "When the form is submitted, replace `<div id=user-info>` with the result of `PUT /users/354`"
+      },
+      {
+        "row": 2,
+        "rowsha": "mpZfi7h7xKez0DAqxhS4aBUKXHhRB2XtPl3wCPHmGtQ=",
+        "originContent": "When the form is submitted, replace `<div id=user-info>` with the result of `PUT /users/354`",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```html\n<div id=\"user-info\"></div>\n<form action=\"/users/354\" method=\"PUT\" target=\"#user-info\">\n  <input type=\"text\" name=\"name\">\n  <input type=\"text\" name=\"bio\">\n  <button>Submit</button>\n</form>\n```",
+    "ContentSha": "V4YAfD7OEw4a4kxTA/wpmqE5Lh6ZHXvj7yflKHLFndY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```html\n<div id=\"user-info\"></div>\n<form action=\"/users/354\" method=\"PUT\" target=\"#user-info\">\n  <input type=\"text\" name=\"name\">\n  <input type=\"text\" name=\"bio\">\n  <button>Submit</button>\n</form>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+        "originContent": "```html",
+        "translatedContent": "```html"
+      },
+      {
+        "row": 2,
+        "rowsha": "oWJCjDVlq0/RwGrq6RkShqbXQPGqF7OVbdQpgfyfh2s=",
+        "originContent": "<div id=\"user-info\"></div>",
+        "translatedContent": "<div id=\"user-info\"></div>"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rb7SS0AxUVaFIpcOPLe3jDVEUSuOOUNaxoTfjmWWKUQ=",
+        "originContent": "<form action=\"/users/354\" method=\"PUT\" target=\"#user-info\">",
+        "translatedContent": "<form action=\"/users/354\" method=\"PUT\" target=\"#user-info\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "leKgnQDI7BYvCN1y+Lbz4A8F4bt4u51297ywTxuMvbM=",
+        "originContent": "  <input type=\"text\" name=\"name\">",
+        "translatedContent": "  <input type=\"text\" name=\"name\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "R4djggW76puGL2g5VkYHkC4pO7UkNlL+b+lSAwxQ3/0=",
+        "originContent": "  <input type=\"text\" name=\"bio\">",
+        "translatedContent": "  <input type=\"text\" name=\"bio\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "zJzXWBiM0X3U7C2O3o2S4tq9VkaFbRSPZOvzuRNS93k=",
+        "originContent": "  <button>Submit</button>",
+        "translatedContent": "  <button>Submit</button>"
+      },
+      {
+        "row": 7,
+        "rowsha": "4Me7e3Lu7PwHNA9rzlh0F2ri6dE1UdLWpvNAnmbC+Mk=",
+        "originContent": "</form>",
+        "translatedContent": "</form>"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## Background and Design Goals\n\nTriptych is a standards-compatible implementation of a featureset that is both core to HTML, and has a lot of recent traction in the library ecosystem: declarative HTTP requests and partial page replacement.\nI outline the rationale for these proposals in [this talk I gave at Big Sky Dev Con 2024](https://unplannedobsolescence.com/blog/life-and-death-of-htmx/).\n\nHTML has always supported declarative requests.\nThe hyperlink is fundamental to the grammar of the web, and the `<a>` tag lets developers specify an HTTP request and subsequent page navigation.\nHTML 2.0 introduced `<form>` elements, which lets developers specify an alternate HTTP Method (`POST`) and take user input either via URL query parameters or request bodies.\n\nThe existing semantics for declarative HTTP requests have two major missing pieces: they do not support the full set of HTTP Methods (specifically `PUT`, `PATCH`, and `DELETE`), and they only support the relatively strict paradigms of navigation and form submission.\n\nThe library ecosystem shows significant demand for these two features, as well as a third: partial replacement of the DOM with the results of that network request.\nThe [buzziest](https://risingstars.js.org/2023/en#section-framework) library that supports these features is [htmx](https://htmx.org/), but it is far from alone.\n37Signals (which invented Ruby on Rails) maintains [Hotwired](https://hotwired.dev/), an HTML-over-the-wire framework with an HTML interface, [Turbo](https://turbo.hotwired.dev/), for partial page replacement.\n[Unpoly](https://unpoly.com/) adds attributes that let you target fragments of the page to get replaced, and supports the full range of HTTP methods.\n\nTriptych is an attempt to incorporate in attributed-based DOM replacement into the HTML standard, in\na manner that best fits existing HTML semantics. It aims to demonstrate the efficacy of these\nproposals, to advocate for their addition to the HTML standard, and to provide that functionality as\na polyfill until then. Its design is primarily inspired by [htmx](https://htmx.org/) and\n[htmz](https://leanrada.com/htmz/).\n\nBecause the goal of Triptych is to be incorporated into the HTML standard, it does not use namespaced custom attributes (like `ng-*`, `hx-*`, and so on), but instead uses existing (or plausible) HTML standard attributes in a backwards compatible manner.\nMuch of the script's complexity results from the need to not break existing uses of attributes like `target` or `method`.\n\n\n## Installation\n\nThere is no CDN yet, but even if I upload it to one, [you probably shouldn't use it](https://blog.wesleyac.com/posts/why-not-javascript-cdn).\n\nInstead, install it like this:\n\n1. Copy `triptych.js` to a folder in your project, i.e. `/vendor/triptych-0.1.0.js`\n1. Serve it at that URL with a really long cache time (I usually set it to a year)\n1. Include it in your document like this:\n",
+    "ContentSha": "ckPp5v5/rXJFtCmAbct5EE6uEIDID/mH00h2qL5Q7JQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Background and Design Goals\n\nTriptych is a standards-compatible implementation of a featureset that is both core to HTML, and has a lot of recent traction in the library ecosystem: declarative HTTP requests and partial page replacement.  \nI outline the rationale for these proposals in [this talk I gave at Big Sky Dev Con 2024](https://unplannedobsolescence.com/blog/life-and-death-of-htmx/).\n\nHTML has always supported declarative requests.  \nThe hyperlink is fundamental to the grammar of the web, and the `<a>` tag lets developers specify an HTTP request and subsequent page navigation.  \nHTML 2.0 introduced `<form>` elements, which lets developers specify an alternate HTTP Method (`POST`) and take user input either via URL query parameters or request bodies.\n\nThe existing semantics for declarative HTTP requests have two major missing pieces: they do not support the full set of HTTP Methods (specifically `PUT`, `PATCH`, and `DELETE`), and they only support the relatively strict paradigms of navigation and form submission.\n\nThe library ecosystem shows significant demand for these two features, as well as a third: partial replacement of the DOM with the results of that network request.  \nThe [buzziest](https://risingstars.js.org/2023/en#section-framework) library that supports these features is [htmx](https://htmx.org/), but it is far from alone.  \n37Signals (which invented Ruby on Rails) maintains [Hotwired](https://hotwired.dev/), an HTML-over-the-wire framework with an HTML interface, [Turbo](https://turbo.hotwired.dev/), for partial page replacement.  \n[Unpoly](https://unpoly.com/) adds attributes that let you target fragments of the page to get replaced, and supports the full range of HTTP methods.\n\nTriptych is an attempt to incorporate in attributed-based DOM replacement into the HTML standard, in  \na manner that best fits existing HTML semantics. It aims to demonstrate the efficacy of these  \nproposals, to advocate for their addition to the HTML standard, and to provide that functionality as  \na polyfill until then. Its design is primarily inspired by [htmx](https://htmx.org/) and  \n[htmz](https://leanrada.com/htmz/).\n\nBecause the goal of Triptych is to be incorporated into the HTML standard, it does not use namespaced custom attributes (like `ng-*`, `hx-*`, and so on), but instead uses existing (or plausible) HTML standard attributes in a backwards compatible manner.  \nMuch of the script's complexity results from the need to not break existing uses of attributes like `target` or `method`.\n\n\n## Installation\n\nThere is no CDN yet, but even if I upload it to one, [you probably shouldn't use it](https://blog.wesleyac.com/posts/why-not-javascript-cdn).\n\nInstead, install it like this:\n\n1. Copy `triptych.js` to a folder in your project, i.e. `/vendor/triptych-0.1.0.js`  \n1. Serve it at that URL with a really long cache time (I usually set it to a year)  \n1. Include it in your document like this:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Background and Design Goals"
+      },
+      {
+        "row": 2,
+        "rowsha": "uoBg33suUBQ2cpn+yKvMZxSqRC+yozyYPC2CRIN4fA8=",
+        "originContent": "## Background and Design Goals",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Triptych is a standards-compatible implementation of a featureset that is both core to HTML, and has a lot of recent traction in the library ecosystem: declarative HTTP requests and partial page replacement.  "
+      },
+      {
+        "row": 4,
+        "rowsha": "u6qZ1MMQhCOctYtapy8O34/2JAiHmqS5Y+kHV7lCoRY=",
+        "originContent": "Triptych is a standards-compatible implementation of a featureset that is both core to HTML, and has a lot of recent traction in the library ecosystem: declarative HTTP requests and partial page replacement.",
+        "translatedContent": "I outline the rationale for these proposals in [this talk I gave at Big Sky Dev Con 2024](https://unplannedobsolescence.com/blog/life-and-death-of-htmx/)."
+      },
+      {
+        "row": 5,
+        "rowsha": "SARpMfReCZ3g6xRkF7JrO/La+weFNoFlhnjkbQN+4Nw=",
+        "originContent": "I outline the rationale for these proposals in [this talk I gave at Big Sky Dev Con 2024](https://unplannedobsolescence.com/blog/life-and-death-of-htmx/).",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "HTML has always supported declarative requests.  "
+      },
+      {
+        "row": 7,
+        "rowsha": "/ir6PKbXqhI1FPQt1Q6d+cf88vTxltFF2f/lDR7kwOc=",
+        "originContent": "HTML has always supported declarative requests.",
+        "translatedContent": "The hyperlink is fundamental to the grammar of the web, and the `<a>` tag lets developers specify an HTTP request and subsequent page navigation.  "
+      },
+      {
+        "row": 8,
+        "rowsha": "k/t6HY/4on+Jbdm5xauFhw5qL2jWQ0gaqqOJ2aDe/AQ=",
+        "originContent": "The hyperlink is fundamental to the grammar of the web, and the `<a>` tag lets developers specify an HTTP request and subsequent page navigation.",
+        "translatedContent": "HTML 2.0 introduced `<form>` elements, which lets developers specify an alternate HTTP Method (`POST`) and take user input either via URL query parameters or request bodies."
+      },
+      {
+        "row": 9,
+        "rowsha": "+eh1JVJ9J6ddleWdcppFYQzZ34PXHqP8pkNc/IFsJbQ=",
+        "originContent": "HTML 2.0 introduced `<form>` elements, which lets developers specify an alternate HTTP Method (`POST`) and take user input either via URL query parameters or request bodies.",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "The existing semantics for declarative HTTP requests have two major missing pieces: they do not support the full set of HTTP Methods (specifically `PUT`, `PATCH`, and `DELETE`), and they only support the relatively strict paradigms of navigation and form submission."
+      },
+      {
+        "row": 11,
+        "rowsha": "9IjpW995stF9H9To0cwdhMWWYS+bJYHz9M8DjzYfUEg=",
+        "originContent": "The existing semantics for declarative HTTP requests have two major missing pieces: they do not support the full set of HTTP Methods (specifically `PUT`, `PATCH`, and `DELETE`), and they only support the relatively strict paradigms of navigation and form submission.",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "The library ecosystem shows significant demand for these two features, as well as a third: partial replacement of the DOM with the results of that network request.  "
+      },
+      {
+        "row": 13,
+        "rowsha": "2ktDY5E/K1oAXbOvWvD534rsUjxtHghLK2eYZrdzyZw=",
+        "originContent": "The library ecosystem shows significant demand for these two features, as well as a third: partial replacement of the DOM with the results of that network request.",
+        "translatedContent": "The [buzziest](https://risingstars.js.org/2023/en#section-framework) library that supports these features is [htmx](https://htmx.org/), but it is far from alone.  "
+      },
+      {
+        "row": 14,
+        "rowsha": "pWvVtz8BYaY6Ajnt6dmOdiLYy4/WZlckDW2arDZvaMM=",
+        "originContent": "The [buzziest](https://risingstars.js.org/2023/en#section-framework) library that supports these features is [htmx](https://htmx.org/), but it is far from alone.",
+        "translatedContent": "37Signals (which invented Ruby on Rails) maintains [Hotwired](https://hotwired.dev/), an HTML-over-the-wire framework with an HTML interface, [Turbo](https://turbo.hotwired.dev/), for partial page replacement.  "
+      },
+      {
+        "row": 15,
+        "rowsha": "6wsjZPsOkUyEDVvt4r/QNFq0//Zby9j18rpBANxPxrE=",
+        "originContent": "37Signals (which invented Ruby on Rails) maintains [Hotwired](https://hotwired.dev/), an HTML-over-the-wire framework with an HTML interface, [Turbo](https://turbo.hotwired.dev/), for partial page replacement.",
+        "translatedContent": "[Unpoly](https://unpoly.com/) adds attributes that let you target fragments of the page to get replaced, and supports the full range of HTTP methods."
+      },
+      {
+        "row": 16,
+        "rowsha": "avDHV5tyJfkH/iy8I/hPnVH9k1KxoObCuuQ/X9yGWzI=",
+        "originContent": "[Unpoly](https://unpoly.com/) adds attributes that let you target fragments of the page to get replaced, and supports the full range of HTTP methods.",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Triptych is an attempt to incorporate in attributed-based DOM replacement into the HTML standard, in  "
+      },
+      {
+        "row": 18,
+        "rowsha": "kHVnmp4H2J4GfmDdOitTToVYjShKVcgZFqov9c3xmM4=",
+        "originContent": "Triptych is an attempt to incorporate in attributed-based DOM replacement into the HTML standard, in",
+        "translatedContent": "a manner that best fits existing HTML semantics. It aims to demonstrate the efficacy of these  "
+      },
+      {
+        "row": 19,
+        "rowsha": "jlBoUN3YO5qwUuN+XLEa0kyKQIGtbgNNc8ZMzv1dhy0=",
+        "originContent": "a manner that best fits existing HTML semantics. It aims to demonstrate the efficacy of these",
+        "translatedContent": "proposals, to advocate for their addition to the HTML standard, and to provide that functionality as  "
+      },
+      {
+        "row": 20,
+        "rowsha": "kgFTqdk0GmU3LUpBhgWaqPMgWIw2xTgtwK5ly+8U7T0=",
+        "originContent": "proposals, to advocate for their addition to the HTML standard, and to provide that functionality as",
+        "translatedContent": "a polyfill until then. Its design is primarily inspired by [htmx](https://htmx.org/) and  "
+      },
+      {
+        "row": 21,
+        "rowsha": "KuQfV6rYKEleH6WRbQVxzfl41o86OHsTNpGiv627+lM=",
+        "originContent": "a polyfill until then. Its design is primarily inspired by [htmx](https://htmx.org/) and",
+        "translatedContent": "[htmz](https://leanrada.com/htmz/)."
+      },
+      {
+        "row": 22,
+        "rowsha": "mjKWNy6qhQdNn0crdnK+gHsvezVyuWY57Mu5S4t/I9k=",
+        "originContent": "[htmz](https://leanrada.com/htmz/).",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Because the goal of Triptych is to be incorporated into the HTML standard, it does not use namespaced custom attributes (like `ng-*`, `hx-*`, and so on), but instead uses existing (or plausible) HTML standard attributes in a backwards compatible manner.  "
+      },
+      {
+        "row": 24,
+        "rowsha": "yB1hZbD0veXXDv3bxKlFGTsMwABoxeRY87Qi8E82Ark=",
+        "originContent": "Because the goal of Triptych is to be incorporated into the HTML standard, it does not use namespaced custom attributes (like `ng-*`, `hx-*`, and so on), but instead uses existing (or plausible) HTML standard attributes in a backwards compatible manner.",
+        "translatedContent": "Much of the script's complexity results from the need to not break existing uses of attributes like `target` or `method`."
+      },
+      {
+        "row": 25,
+        "rowsha": "7dE66Qgsn71plJJ60qi7dag7oIQAi1lWjlBSk7BIq2A=",
+        "originContent": "Much of the script's complexity results from the need to not break existing uses of attributes like `target` or `method`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 28,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "There is no CDN yet, but even if I upload it to one, [you probably shouldn't use it](https://blog.wesleyac.com/posts/why-not-javascript-cdn)."
+      },
+      {
+        "row": 30,
+        "rowsha": "9topiBSxMFuSYH7KTZM7T3p59/Ps3/oKoQQBjIoLJmc=",
+        "originContent": "There is no CDN yet, but even if I upload it to one, [you probably shouldn't use it](https://blog.wesleyac.com/posts/why-not-javascript-cdn).",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Instead, install it like this:"
+      },
+      {
+        "row": 32,
+        "rowsha": "GzCwBWVeJeuBCrRq3YPOIkHdwu+W0hPCFfqE3D2xPJc=",
+        "originContent": "Instead, install it like this:",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. Copy `triptych.js` to a folder in your project, i.e. `/vendor/triptych-0.1.0.js`  "
+      },
+      {
+        "row": 34,
+        "rowsha": "wzNHHVtRenVgnsc4531BBwA+MhH1+8S2qvyefDBQbbs=",
+        "originContent": "1. Copy `triptych.js` to a folder in your project, i.e. `/vendor/triptych-0.1.0.js`",
+        "translatedContent": "1. Serve it at that URL with a really long cache time (I usually set it to a year)  "
+      },
+      {
+        "row": 35,
+        "rowsha": "d1w7p35SXLsYHA7zY0lGGWvdjUrr5b/NpbPHzSppwVQ=",
+        "originContent": "1. Serve it at that URL with a really long cache time (I usually set it to a year)",
+        "translatedContent": "1. Include it in your document like this:"
+      },
+      {
+        "row": 36,
+        "rowsha": "xfL8ciLJd2FI+rQN06Cacp0orPE3guHQhB349TfWPL4=",
+        "originContent": "1. Include it in your document like this:",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```html\n<script src=\"/vendor/triptych-0.1-0.js\"></script>\n```",
+    "ContentSha": "g1iR3M3xCA2KJtjl34BMSvVsvTnKDVYT9iZbR0dq6g4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```html\n<script src=\"/vendor/triptych-0.1-0.js\"></script>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+        "originContent": "```html",
+        "translatedContent": "```html"
+      },
+      {
+        "row": 2,
+        "rowsha": "t2mDnLsz10yS4Uy5IRw6NnKYozTimxBI/qdMvlr/vWg=",
+        "originContent": "<script src=\"/vendor/triptych-0.1-0.js\"></script>",
+        "translatedContent": "<script src=\"/vendor/triptych-0.1-0.js\"></script>"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nMake sure to include the version number in the file name so that if/when you update it, the users who have it cached will download the new version.\n\nI will upload it to `npm` soon, so you can include it as a dependency and serve it straight from node modules (instead of copying).\n\n## Limitations\n\nBecause these features are meant to be incorporated into the standard, they simulate the desired browser behavior, up to the limit of JavaScript's ability.\n\nThe main limitation involves full page navigation.\nWhen submitting a POST form, the default behavior is to push that URL onto the URL bar and displays the resulting HTML from the form;\nclicking the refresh button resubmits the POST request—after the user confirms that they intended this.\n\nWhen `target`s are not supplied on buttons and forms, Triptych simulates the full-page behavior to the best of its ability.\nIt replaces the entire document and uses the [history API](https://developer.mozilla.org/en-US/docs/Web/API/History) to update the browser URL\nand history.\nClicking \"back\" should basically work as expected.\n\nHowever, because of (very reasonable) limitations in JavaScript, Triptych cannot alter the behavior of the refresh button to make it resubmit a PUT, as proposed.\nNor can it simulate one of the primary benefit of doing a POST-redirect pattern—that it resets the current JS environment.\n\nAlso, for all of these requests, the browser should show a loading bar, the same way that clicking on a link does.\nThis behavior is impossible to simulate in JavaScript but would significantly benefit the user if incorporated into the browser—it's one of the main things lacking from *all* JavaScript frameworks.\n\n## Development\n\nThe entire source is in `./triptych.js`.\n\nTo run the tests, first install the dev dependencies with `npm install`.\nThen, run the tests by opening `./test/index.html` in your browser.\n\nYou can also play around with manual tests by running `npm run dev`\n\n### To-do\n\n* Add full-page tests that verify existing GET/POST forms are not affected\n* Investigate server-side re-targeting controls (probably headers)\n* Investigate CSS attributes for in-progress requests\n\n## FAQ\n\n### Should I use this in my project?\n\nYes and no.\n\nThe traditional purpose of a polyfill is to provide functionality to webpages before that functionality becomes standard.\nIn the case of Triptych, some of that functionality cannot be simulated in JavaScript (see the Limitations section, above).\n\nThe purpose of this \"polyfill\" is to provide a demonstration of how these proposals would transform the capabilities of basic HTML.\nThis library's featureset will track the proposals that it is supporting, which will have to incporate feedback, and thus cannot provide strong backwards compatibility guarantees at the start.\nBut you should definitely use it to get a sense of what authoring HTML could be like.\n\n### What if multiple elements match the target?\n\nTargeting is done using the [querySelector API](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector), which performs a depth-first pre-order traversal of the document's nodes.\nThe target will be the first matching element found, per that algorithm.\n",
+    "ContentSha": "lwsQ6BqN1AnJBupHmHiSbe9/K0BLaYw55IkJdr33Hb8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Make sure to include the version number in the file name so that if/when you update it, the users who have it cached will download the new version.\n\nI will upload it to `npm` soon, so you can include it as a dependency and serve it straight from node modules (instead of copying).\n\n## Limitations\n\nBecause these features are meant to be incorporated into the standard, they simulate the desired browser behavior, up to the limit of JavaScript's ability.\n\nThe main limitation involves full page navigation.\nWhen submitting a POST form, the default behavior is to push that URL onto the URL bar and displays the resulting HTML from the form;\nclicking the refresh button resubmits the POST request—after the user confirms that they intended this.\n\nWhen `target`s are not supplied on buttons and forms, Triptych simulates the full-page behavior to the best of its ability.\nIt replaces the entire document and uses the [history API](https://developer.mozilla.org/en-US/docs/Web/API/History) to update the browser URL\nand history.\nClicking \"back\" should basically work as expected.\n\nHowever, because of (very reasonable) limitations in JavaScript, Triptych cannot alter the behavior of the refresh button to make it resubmit a PUT, as proposed.\nNor can it simulate one of the primary benefit of doing a POST-redirect pattern—that it resets the current JS environment.\n\nAlso, for all of these requests, the browser should show a loading bar, the same way that clicking on a link does.\nThis behavior is impossible to simulate in JavaScript but would significantly benefit the user if incorporated into the browser—it's one of the main things lacking from *all* JavaScript frameworks.\n\n## Development\n\nThe entire source is in `./triptych.js`.\n\nTo run the tests, first install the dev dependencies with `npm install`.\nThen, run the tests by opening `./test/index.html` in your browser.\n\nYou can also play around with manual tests by running `npm run dev`\n\n### To-do\n\n* Add full-page tests that verify existing GET/POST forms are not affected\n* Investigate server-side re-targeting controls (probably headers)\n* Investigate CSS attributes for in-progress requests\n\n## FAQ\n\n### Should I use this in my project?\n\nYes and no.\n\nThe traditional purpose of a polyfill is to provide functionality to webpages before that functionality becomes standard.\nIn the case of Triptych, some of that functionality cannot be simulated in JavaScript (see the Limitations section, above).\n\nThe purpose of this \"polyfill\" is to provide a demonstration of how these proposals would transform the capabilities of basic HTML.\nThis library's featureset will track the proposals that it is supporting, which will have to incporate feedback, and thus cannot provide strong backwards compatibility guarantees at the start.\nBut you should definitely use it to get a sense of what authoring HTML could be like.\n\n### What if multiple elements match the target?\n\nTargeting is done using the [querySelector API](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector), which performs a depth-first pre-order traversal of the document's nodes.\nThe target will be the first matching element found, per that algorithm.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Make sure to include the version number in the file name so that if/when you update it, the users who have it cached will download the new version."
+      },
+      {
+        "row": 2,
+        "rowsha": "wiwoxJzPh+hYO3jRKdb1mMYiaHXKgJl0AL+9+wPvI1s=",
+        "originContent": "Make sure to include the version number in the file name so that if/when you update it, the users who have it cached will download the new version.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "I will upload it to `npm` soon, so you can include it as a dependency and serve it straight from node modules (instead of copying)."
+      },
+      {
+        "row": 4,
+        "rowsha": "rQFeat73hi1e+s99Sx2JOiNBpZMdsK860m9rzCuqSSA=",
+        "originContent": "I will upload it to `npm` soon, so you can include it as a dependency and serve it straight from node modules (instead of copying).",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Limitations"
+      },
+      {
+        "row": 6,
+        "rowsha": "Y51epMDrwmz/jYfs51pwyOiZomkP6vqj3r54yR/Mvp4=",
+        "originContent": "## Limitations",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Because these features are meant to be incorporated into the standard, they simulate the desired browser behavior, up to the limit of JavaScript's ability."
+      },
+      {
+        "row": 8,
+        "rowsha": "d9X5iGPHrPghdnxlPvWwj3u2naMDR0BSjJjOm38z0sY=",
+        "originContent": "Because these features are meant to be incorporated into the standard, they simulate the desired browser behavior, up to the limit of JavaScript's ability.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "The main limitation involves full page navigation."
+      },
+      {
+        "row": 10,
+        "rowsha": "9yyu3F/pCVLDZPzvcanqk9T0x2eGFOYZnoRORdBwoMA=",
+        "originContent": "The main limitation involves full page navigation.",
+        "translatedContent": "When submitting a POST form, the default behavior is to push that URL onto the URL bar and displays the resulting HTML from the form;"
+      },
+      {
+        "row": 11,
+        "rowsha": "pMKWIpxzY4HdgEFAKYIx+ZiWIEPEedNOdQgDN7/D7L4=",
+        "originContent": "When submitting a POST form, the default behavior is to push that URL onto the URL bar and displays the resulting HTML from the form;",
+        "translatedContent": "clicking the refresh button resubmits the POST request—after the user confirms that they intended this."
+      },
+      {
+        "row": 12,
+        "rowsha": "0IM4RKUr13T/u/AK3y/qUB00drnnLNkkQ8n2lVpyxUQ=",
+        "originContent": "clicking the refresh button resubmits the POST request—after the user confirms that they intended this.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "When `target`s are not supplied on buttons and forms, Triptych simulates the full-page behavior to the best of its ability."
+      },
+      {
+        "row": 14,
+        "rowsha": "3lcRIABAonf9AAAqL67qTIOBREBdokpf4llJ7eLLLhw=",
+        "originContent": "When `target`s are not supplied on buttons and forms, Triptych simulates the full-page behavior to the best of its ability.",
+        "translatedContent": "It replaces the entire document and uses the [history API](https://developer.mozilla.org/en-US/docs/Web/API/History) to update the browser URL"
+      },
+      {
+        "row": 15,
+        "rowsha": "JY6vIj/QJgMO+SMAQZfctnf5yWXjRx5QULLSe6HQ8g4=",
+        "originContent": "It replaces the entire document and uses the [history API](https://developer.mozilla.org/en-US/docs/Web/API/History) to update the browser URL",
+        "translatedContent": "and history."
+      },
+      {
+        "row": 16,
+        "rowsha": "tIZI8voE8czEjqYOpn8xkoJ32qTvSnqjbb1cps2Bmgg=",
+        "originContent": "and history.",
+        "translatedContent": "Clicking \"back\" should basically work as expected."
+      },
+      {
+        "row": 17,
+        "rowsha": "D3lJpre7O26YjglN83vneAyWrKZvaP/7I8rbZ2ShOd0=",
+        "originContent": "Clicking \"back\" should basically work as expected.",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "However, because of (very reasonable) limitations in JavaScript, Triptych cannot alter the behavior of the refresh button to make it resubmit a PUT, as proposed."
+      },
+      {
+        "row": 19,
+        "rowsha": "U7wLzBz2gHi5eVhG+nXAp/hj5iBhdLNhur60QntjJDg=",
+        "originContent": "However, because of (very reasonable) limitations in JavaScript, Triptych cannot alter the behavior of the refresh button to make it resubmit a PUT, as proposed.",
+        "translatedContent": "Nor can it simulate one of the primary benefit of doing a POST-redirect pattern—that it resets the current JS environment."
+      },
+      {
+        "row": 20,
+        "rowsha": "XGna6R4EbYQTEwQ+fhVafQWfXyndXkcsIfpFQxAfuYc=",
+        "originContent": "Nor can it simulate one of the primary benefit of doing a POST-redirect pattern—that it resets the current JS environment.",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Also, for all of these requests, the browser should show a loading bar, the same way that clicking on a link does."
+      },
+      {
+        "row": 22,
+        "rowsha": "NjJkYLSBkRjOdaVJrXBnc2kbkgEhNE4TkIDkjhB9UPU=",
+        "originContent": "Also, for all of these requests, the browser should show a loading bar, the same way that clicking on a link does.",
+        "translatedContent": "This behavior is impossible to simulate in JavaScript but would significantly benefit the user if incorporated into the browser—it's one of the main things lacking from *all* JavaScript frameworks."
+      },
+      {
+        "row": 23,
+        "rowsha": "qIjbHFMfmE3UzSfnXFwsJdGLdodBeCBSpUGh2l3xbgA=",
+        "originContent": "This behavior is impossible to simulate in JavaScript but would significantly benefit the user if incorporated into the browser—it's one of the main things lacking from *all* JavaScript frameworks.",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Development"
+      },
+      {
+        "row": 25,
+        "rowsha": "CLSMPQsYmPJH1xU0AtLw67b6Gv/bSXYVNK4RD/B1r9M=",
+        "originContent": "## Development",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "The entire source is in `./triptych.js`."
+      },
+      {
+        "row": 27,
+        "rowsha": "XocHKK0wKgxRDf/pvOrM65rNqnig1TBIz2MK7GC3dJQ=",
+        "originContent": "The entire source is in `./triptych.js`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "To run the tests, first install the dev dependencies with `npm install`."
+      },
+      {
+        "row": 29,
+        "rowsha": "zLV59mv90d2gXHOeUI8r+fcGGrOfe2rrbY/pfxgYWww=",
+        "originContent": "To run the tests, first install the dev dependencies with `npm install`.",
+        "translatedContent": "Then, run the tests by opening `./test/index.html` in your browser."
+      },
+      {
+        "row": 30,
+        "rowsha": "0EZdLtVA4lG0N7rfeb08ni1uAeyu+UK8IMJl50baZXI=",
+        "originContent": "Then, run the tests by opening `./test/index.html` in your browser.",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "You can also play around with manual tests by running `npm run dev`"
+      },
+      {
+        "row": 32,
+        "rowsha": "ueI0Q5l05oaNIKLrat+o10sIzN/l1PcjvL7Byug8QAk=",
+        "originContent": "You can also play around with manual tests by running `npm run dev`",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### To-do"
+      },
+      {
+        "row": 34,
+        "rowsha": "RKEqjRuUAxyvrHwRSG4bwkwkuuxig9jCJGikXSo81zw=",
+        "originContent": "### To-do",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* Add full-page tests that verify existing GET/POST forms are not affected"
+      },
+      {
+        "row": 36,
+        "rowsha": "w5GvQJJ2cK1EI8/1rtG+iv/hArQd4S1nMj9mtG42X74=",
+        "originContent": "* Add full-page tests that verify existing GET/POST forms are not affected",
+        "translatedContent": "* Investigate server-side re-targeting controls (probably headers)"
+      },
+      {
+        "row": 37,
+        "rowsha": "g92E6balhXQ3noGmuifd8C7yumKokhZ2OMnmwrUUM3E=",
+        "originContent": "* Investigate server-side re-targeting controls (probably headers)",
+        "translatedContent": "* Investigate CSS attributes for in-progress requests"
+      },
+      {
+        "row": 38,
+        "rowsha": "CrWGLmexspe7pX43q+Zk8Jnx+GhyenUlNUSF+QDBU2M=",
+        "originContent": "* Investigate CSS attributes for in-progress requests",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## FAQ"
+      },
+      {
+        "row": 40,
+        "rowsha": "sH7VUgPw2I6+13pp6nUDM/T2LsOBk7Micqophzdve4Y=",
+        "originContent": "## FAQ",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Should I use this in my project?"
+      },
+      {
+        "row": 42,
+        "rowsha": "QupDaFNyxkIAtNPPp73laQFgvRtX3XKbLwNGZ1cREto=",
+        "originContent": "### Should I use this in my project?",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Yes and no."
+      },
+      {
+        "row": 44,
+        "rowsha": "b0/FWXueqgBdDiL+HjyFoAfPZdCxdROskcbKajwEAp4=",
+        "originContent": "Yes and no.",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "The traditional purpose of a polyfill is to provide functionality to webpages before that functionality becomes standard."
+      },
+      {
+        "row": 46,
+        "rowsha": "EPkxpydtmWuMh+lR98Xtzp3R0mX4TTO20GX9VBfvHbc=",
+        "originContent": "The traditional purpose of a polyfill is to provide functionality to webpages before that functionality becomes standard.",
+        "translatedContent": "In the case of Triptych, some of that functionality cannot be simulated in JavaScript (see the Limitations section, above)."
+      },
+      {
+        "row": 47,
+        "rowsha": "dSoczFKmv2NdzknnDEnd5pG2xuTRTLyyC35fFLdBmjE=",
+        "originContent": "In the case of Triptych, some of that functionality cannot be simulated in JavaScript (see the Limitations section, above).",
+        "translatedContent": ""
+      },
+      {
+        "row": 48,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "The purpose of this \"polyfill\" is to provide a demonstration of how these proposals would transform the capabilities of basic HTML."
+      },
+      {
+        "row": 49,
+        "rowsha": "QxusCMiLJ8x7YuuB6Kp9bKXNdF1jOr0XHneqBCyI02Y=",
+        "originContent": "The purpose of this \"polyfill\" is to provide a demonstration of how these proposals would transform the capabilities of basic HTML.",
+        "translatedContent": "This library's featureset will track the proposals that it is supporting, which will have to incporate feedback, and thus cannot provide strong backwards compatibility guarantees at the start."
+      },
+      {
+        "row": 50,
+        "rowsha": "w/p/rgIKqcLSleO14M+28/sUgi8X8cgQCPBMBYGO37k=",
+        "originContent": "This library's featureset will track the proposals that it is supporting, which will have to incporate feedback, and thus cannot provide strong backwards compatibility guarantees at the start.",
+        "translatedContent": "But you should definitely use it to get a sense of what authoring HTML could be like."
+      },
+      {
+        "row": 51,
+        "rowsha": "yKN1P8loFjUJDdFD0iAgvqvgUbMYnmYUExwBOzHSd8g=",
+        "originContent": "But you should definitely use it to get a sense of what authoring HTML could be like.",
+        "translatedContent": ""
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### What if multiple elements match the target?"
+      },
+      {
+        "row": 53,
+        "rowsha": "T6HDjI/xaw/c1tKOjqxGEE93e1cCRT67UFRROEwxZ2k=",
+        "originContent": "### What if multiple elements match the target?",
+        "translatedContent": ""
+      },
+      {
+        "row": 54,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Targeting is done using the [querySelector API](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector), which performs a depth-first pre-order traversal of the document's nodes."
+      },
+      {
+        "row": 55,
+        "rowsha": "ad7X/V4uXUIEtflq34TAjc7UJQovS6Lsfg5fqH2Q2Zg=",
+        "originContent": "Targeting is done using the [querySelector API](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector), which performs a depth-first pre-order traversal of the document's nodes.",
+        "translatedContent": "The target will be the first matching element found, per that algorithm."
+      },
+      {
+        "row": 56,
+        "rowsha": "sEtP0cyXKPQnlcEQc/QMmNhf+ZgyPvF7zQo46xiUTV0=",
+        "originContent": "The target will be the first matching element found, per that algorithm.",
+        "translatedContent": ""
+      },
+      {
+        "row": 57,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

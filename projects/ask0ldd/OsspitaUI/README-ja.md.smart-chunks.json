@@ -1,0 +1,880 @@
+[
+  {
+    "Id": 1,
+    "Content": "Release : Alpha 1.0.5\n\n<div style=\"display:flex; width:100%; column-gap:16px; margin-bottom:12px;\">\n    <span>Compatibility :</span>\n    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/windows.png\">\n    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/chrome.png\">\n    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/firefox.png\">\n    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/brave.png\">\n    <span style=\"display:flex; height:100%;\">&</span>\n    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/ubuntu.png\">\n    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/chrome.png\">\n    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/firefox.png\">\n    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/brave.png\">\n</div>\n\n# OSSPITA : Run your AI assistant locally and experience an intuitive interface that allows you to tune all your agents with just a few clicks. Enjoy guaranteed privacy at no cost.\n\nOSSPITA is a lightweight, fully local, open-source desktop interface that enables users to interact for free and in real time with various Open-Source LLMs. Leveraging the [Ollama API](https://github.com/ollama/ollama), OSSPITA provides a user-friendly experience for engaging with cutting-edge AI technology.\n\n![osspita main](https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/screenshot2.png \"osspita main\")\n\nVideo demo of the alpha 1.0.1 release, more up-to-date videos coming soon :\n\n[![OSspita Video Demo](https://img.youtube.com/vi/zKxcANYu-9I/0.jpg)](https://www.youtube.com/watch?v=zKxcANYu-9I \"OSspita Video Demo\")<br>\n_Click the image above to watch the video on YouTube_\n\n## I - Features\n\n- **Real-time interactions** with most Open-Source AI models.\n- Lightweight and **fully local** operations.\n- **Beginner-friendly** installation process.\n- Multi-context agent tuning.\n- **Llama Vision** support.\n- Chat functionality with various historical figures.\n- **Agent chaining** for complex task resolution.\n- Retrieval Augmented Generation so you can probe your own documents while **preserving your privacy**.\n- Web Search functionality for the integration of more **up-to-date information**.\n- Comprehensive inference stats.\n- Memory allocation tracking for **context length tuning**.\n- **Prompt library** with (versioning coming).\n- Easy access to the most **common LLM settings**.\n\n## II - Coming Next\n\n- **Responsive** design.\n- **Parallel processing** added to Agent chaining.\n- Improved Web Search algorithm with enhanced options.\n- Online domain names ranking.\n- Improved RAG algorithm with enhanced options.\n- Online prompt and agent sharing platform.\n- Prompt versioning system.\n- Dedicated coding agent.\n- Code syntax highlighting.\n- A **Dark mode** theme.\n- Charts generation.\n- Voice mode.\n- Context autosizing option.\n- In-depth RAG stats & data.\n- In-depth Web Search stats & data.\n\n## III - Screenshots\n\n![osspita main](https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/screenshot1.png \"osspita main\")\n\n## IV - Getting Started\n\n### Prerequisites\n\n- Node.js (v22.11.0 or higher) : https://nodejs.org/en/\n- npm (10.9.0 or higher)\n- Ollama (installed and running locally) : https://ollama.com/download\n- The OSspita backend running.\n- At least one open source model.\n- Nvidia CUDA if needed : https://developer.nvidia.com/cuda-downloads\n\nModels Recommandations :\n\n| GPU VRAM   | Model            | Purpose        | Link                                                                 |\n| ---------- | ---------------- | -------------- | -------------------------------------------------------------------- |\n| 4GB        | Llama 3.2:3b     | Conversational | [Llama 3.2 on Ollama](https://ollama.com/library/llama3.2:3b)              |\n| 8GB        | Aya Expanse:8b   | Conversational | [Aya Expanse on Ollama](https://ollama.com/library/aya-expanse:8b)   |\n| 12GB       | Mistral Nemo:12b | Conversational | [Mistal Nemo on Ollama](https://ollama.com/library/mistral-nemo:12b)           |\n| 4GB        | starcoder2:3b    | Coding         | [StarCoder2 on Ollama](https://ollama.com/library/starcoder2)        |\n| 8GB & 12GB | qwen2.5-coder:7b | Coding         | [Qwen 2.5 Coder on Ollama](https://ollama.com/library/qwen2.5-coder) |\n\n### Installation\n\nClone the repository :\n\n> git clone https://github.com/ask0ldd/OsspitaUI.git\n\nNavigate to the project directory:\n\n> cd OsspitaUI\n\n#### Frontend\n\n> cd front\n\nInstall dependencies:",
+    "ContentSha": "6Nlo7adGWWeH0dJTtQcVnuP7ABGxvygjOK3XYsy4MHk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Release : Alpha 1.0.5\n\n<div style=\"display:flex; width:100%; column-gap:16px; margin-bottom:12px;\">\n    <span>対応環境 :</span>\n    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/windows.png\">\n    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/chrome.png\">\n    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/firefox.png\">\n    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/brave.png\">\n    <span style=\"display:flex; height:100%;\">&</span>\n    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/ubuntu.png\">\n    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/chrome.png\">\n    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/firefox.png\">\n    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/brave.png\">\n</div>\n\n# OSSPITA : あなたのAIアシスタントをローカルで実行し、直感的なインターフェースでエージェントを数クリックでチューニングできます。プライバシーは保証され、費用はかかりません。\n\nOSSPITAは軽量で完全ローカルなオープンソースのデスクトップインターフェースで、ユーザーが様々なオープンソースLLMとリアルタイムで無料に対話できるようにします。[Ollama API](https://github.com/ollama/ollama)を活用し、最先端AI技術との親しみやすい体験を提供します。\n\n![osspita main](https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/screenshot2.png \"osspita main\")\n\nアルファ1.0.1リリースのビデオデモ、より最新の動画はまもなく公開予定：\n\n[![OSspita Video Demo](https://img.youtube.com/vi/zKxcANYu-9I/0.jpg)](https://www.youtube.com/watch?v=zKxcANYu-9I \"OSspita Video Demo\")<br>\n_上記の画像をクリックするとYouTubeで動画を視聴できます_\n\n## I - 特徴\n\n- ほとんどのオープンソースAIモデルとの**リアルタイム対話**。\n- 軽量で**完全ローカル**動作。\n- **初心者に優しい**インストールプロセス。\n- マルチコンテキストエージェントチューニング。\n- **Llama Vision**対応。\n- 様々な歴史的人物とのチャット機能。\n- 複雑なタスク解決のための**エージェントチェーン**。\n- **プライバシーを保護しながら**独自のドキュメントを調査できるRetrieval Augmented Generation。\n- より**最新の情報**を統合するためのWeb検索機能。\n- 包括的な推論統計。\n- **コンテキスト長チューニング**のためのメモリアロケーション追跡。\n- (バージョニング対応予定の) **プロンプトライブラリ**。\n- 最も**一般的なLLM設定**への簡単アクセス。\n\n## II - 次に予定していること\n\n- **レスポンシブ**デザイン。\n- エージェントチェーンへの**並列処理**追加。\n- 強化されたオプションを備えたWeb検索アルゴリズムの改善。\n- オンラインドメイン名ランキング。\n- 強化されたオプションを備えたRAGアルゴリズムの改善。\n- オンラインプロンプトおよびエージェント共有プラットフォーム。\n- プロンプトバージョニングシステム。\n- 専用コーディングエージェント。\n- コード構文ハイライト。\n- **ダークモード**テーマ。\n- グラフ生成。\n- 音声モード。\n- コンテキスト自動サイズ調整オプション。\n- 詳細なRAG統計とデータ。\n- 詳細なWeb検索統計とデータ。\n\n## III - スクリーンショット\n\n![osspita main](https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/screenshot1.png \"osspita main\")\n\n## IV - はじめに\n\n### 前提条件\n\n- Node.js (v22.11.0以上) : https://nodejs.org/en/\n- npm (10.9.0以上)\n- Ollama (ローカルにインストールして起動していること) : https://ollama.com/download\n- OSspitaバックエンドが起動していること。\n- 少なくとも一つのオープンソースモデル。\n- 必要に応じてNvidia CUDA : https://developer.nvidia.com/cuda-downloads\n\nモデル推奨：\n\n| GPU VRAM   | モデル           | 用途           | リンク                                                               |\n| ---------- | ---------------- | -------------- | -------------------------------------------------------------------- |\n| 4GB        | Llama 3.2:3b     | 会話用         | [OllamaのLlama 3.2](https://ollama.com/library/llama3.2:3b)          |\n| 8GB        | Aya Expanse:8b   | 会話用         | [OllamaのAya Expanse](https://ollama.com/library/aya-expanse:8b)     |\n| 12GB       | Mistral Nemo:12b | 会話用         | [OllamaのMistral Nemo](https://ollama.com/library/mistral-nemo:12b)  |\n| 4GB        | starcoder2:3b    | コーディング用 | [OllamaのStarCoder2](https://ollama.com/library/starcoder2)          |\n| 8GB & 12GB | qwen2.5-coder:7b | コーディング用 | [OllamaのQwen 2.5 Coder](https://ollama.com/library/qwen2.5-coder)    |\n\n### インストール\n\nリポジトリをクローン：\n\n> git clone https://github.com/ask0ldd/OsspitaUI.git\n\nプロジェクトディレクトリに移動：\n\n> cd OsspitaUI\n\n#### フロントエンド\n\n> cd front\n\n依存関係をインストール：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Fw51NucbGX+BhoqRA8lA4HTRYLaoFI0LCkp+guA257M=",
+        "originContent": "Release : Alpha 1.0.5",
+        "translatedContent": "Release : Alpha 1.0.5"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "g5bz2hc1RLQkb21wDzxSKOEYjQjzNzDLoI5Kg8yQtCY=",
+        "originContent": "<div style=\"display:flex; width:100%; column-gap:16px; margin-bottom:12px;\">",
+        "translatedContent": "<div style=\"display:flex; width:100%; column-gap:16px; margin-bottom:12px;\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "q+PpZ0d+7fsVTOqK3G8E2EGum/qXWjrcE/hAYZ2HyVA=",
+        "originContent": "    <span>Compatibility :</span>",
+        "translatedContent": "    <span>対応環境 :</span>"
+      },
+      {
+        "row": 5,
+        "rowsha": "DceBED24pvil3rzqB7w5VoZcUvfxGCKs0kmNo63i4fM=",
+        "originContent": "    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/windows.png\">",
+        "translatedContent": "    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/windows.png\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "ivi9a3l16W0BLY+YhiIjdZOxgS/nZcmVsyJMAI17JuU=",
+        "originContent": "    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/chrome.png\">",
+        "translatedContent": "    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/chrome.png\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "YNRGzwWFOLa/6yut3Wfe4Uiqfa6946HPQgBJg+JevJw=",
+        "originContent": "    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/firefox.png\">",
+        "translatedContent": "    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/firefox.png\">"
+      },
+      {
+        "row": 8,
+        "rowsha": "b/R/6vVGKQJovBTQ8P8uDnbXqOpxLnHR4wO6B4EoU+w=",
+        "originContent": "    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/brave.png\">",
+        "translatedContent": "    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/brave.png\">"
+      },
+      {
+        "row": 9,
+        "rowsha": "UwdtaDBTDYGWuJXTOeYpfvdJVbqjBn4ckdWnwWPv76o=",
+        "originContent": "    <span style=\"display:flex; height:100%;\">&</span>",
+        "translatedContent": "    <span style=\"display:flex; height:100%;\">&</span>"
+      },
+      {
+        "row": 10,
+        "rowsha": "RHwnT3DnmNkhbsOrUptE71E0h9z6z7BMRayvsU1wxF0=",
+        "originContent": "    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/ubuntu.png\">",
+        "translatedContent": "    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/ubuntu.png\">"
+      },
+      {
+        "row": 11,
+        "rowsha": "ivi9a3l16W0BLY+YhiIjdZOxgS/nZcmVsyJMAI17JuU=",
+        "originContent": "    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/chrome.png\">",
+        "translatedContent": "    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/chrome.png\">"
+      },
+      {
+        "row": 12,
+        "rowsha": "YNRGzwWFOLa/6yut3Wfe4Uiqfa6946HPQgBJg+JevJw=",
+        "originContent": "    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/firefox.png\">",
+        "translatedContent": "    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/firefox.png\">"
+      },
+      {
+        "row": 13,
+        "rowsha": "b/R/6vVGKQJovBTQ8P8uDnbXqOpxLnHR4wO6B4EoU+w=",
+        "originContent": "    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/brave.png\">",
+        "translatedContent": "    <img style=\"width:24px; height:24px;\" src=\"https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/brave.png\">"
+      },
+      {
+        "row": 14,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "u/kjTxOFosIIBZRfOTpAXP07EAceRAxWESgQL2rB6sc=",
+        "originContent": "# OSSPITA : Run your AI assistant locally and experience an intuitive interface that allows you to tune all your agents with just a few clicks. Enjoy guaranteed privacy at no cost.",
+        "translatedContent": "# OSSPITA : あなたのAIアシスタントをローカルで実行し、直感的なインターフェースでエージェントを数クリックでチューニングできます。プライバシーは保証され、費用はかかりません。"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "0XbuY1J1lC90GERpnUx/dSXBf9aG4o9oCq4mfNQPW68=",
+        "originContent": "OSSPITA is a lightweight, fully local, open-source desktop interface that enables users to interact for free and in real time with various Open-Source LLMs. Leveraging the [Ollama API](https://github.com/ollama/ollama), OSSPITA provides a user-friendly experience for engaging with cutting-edge AI technology.",
+        "translatedContent": "OSSPITAは軽量で完全ローカルなオープンソースのデスクトップインターフェースで、ユーザーが様々なオープンソースLLMとリアルタイムで無料に対話できるようにします。[Ollama API](https://github.com/ollama/ollama)を活用し、最先端AI技術との親しみやすい体験を提供します。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "2FIbJItxwJw2RzSbCxGyfR6ug1mq2u3rZSEjdQ66Blc=",
+        "originContent": "![osspita main](https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/screenshot2.png \"osspita main\")",
+        "translatedContent": "![osspita main](https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/screenshot2.png \"osspita main\")"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "zJ/OjREeIjhpoxcD0hwURISMMn6wzlUQYqFRIMIOHaU=",
+        "originContent": "Video demo of the alpha 1.0.1 release, more up-to-date videos coming soon :",
+        "translatedContent": "アルファ1.0.1リリースのビデオデモ、より最新の動画はまもなく公開予定："
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "Cvt3NfyYrvNIPGroLNZgbfOenPZ3HCFpFAmiCRKx+hE=",
+        "originContent": "[![OSspita Video Demo](https://img.youtube.com/vi/zKxcANYu-9I/0.jpg)](https://www.youtube.com/watch?v=zKxcANYu-9I \"OSspita Video Demo\")<br>",
+        "translatedContent": "[![OSspita Video Demo](https://img.youtube.com/vi/zKxcANYu-9I/0.jpg)](https://www.youtube.com/watch?v=zKxcANYu-9I \"OSspita Video Demo\")<br>"
+      },
+      {
+        "row": 25,
+        "rowsha": "InsiCW3sq/FmmEbxlx85E1fnGnJmUq/fbIztNRpekQo=",
+        "originContent": "_Click the image above to watch the video on YouTube_",
+        "translatedContent": "_上記の画像をクリックするとYouTubeで動画を視聴できます_"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "x810WfDLD+1tZKW4D9Gr+4ISw1/3M5BLcFMEKIoxXEw=",
+        "originContent": "## I - Features",
+        "translatedContent": "## I - 特徴"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "+FWPgqypBImhvY21sR7QbccsJEpe1hH44makHOLDTVM=",
+        "originContent": "- **Real-time interactions** with most Open-Source AI models.",
+        "translatedContent": "- ほとんどのオープンソースAIモデルとの**リアルタイム対話**。"
+      },
+      {
+        "row": 30,
+        "rowsha": "zDltRXSnbCbS3MkZvqW/iOpFjMJXp0AwQ8KZSgoXDdE=",
+        "originContent": "- Lightweight and **fully local** operations.",
+        "translatedContent": "- 軽量で**完全ローカル**動作。"
+      },
+      {
+        "row": 31,
+        "rowsha": "VRwD5d1uzTBHFJamdX+nrAmYIMTAv2vUVP92UnX4uao=",
+        "originContent": "- **Beginner-friendly** installation process.",
+        "translatedContent": "- **初心者に優しい**インストールプロセス。"
+      },
+      {
+        "row": 32,
+        "rowsha": "YIuSepEWHy6D4bh8307hWG1qZMt+VrQOdNMjNJmR4bM=",
+        "originContent": "- Multi-context agent tuning.",
+        "translatedContent": "- マルチコンテキストエージェントチューニング。"
+      },
+      {
+        "row": 33,
+        "rowsha": "PPdr0NL1L7M8NZvqRgPoIKxqRgCWdWlMmCSZVj5JOGY=",
+        "originContent": "- **Llama Vision** support.",
+        "translatedContent": "- **Llama Vision**対応。"
+      },
+      {
+        "row": 34,
+        "rowsha": "dsX84A+bXjWfs67XRhPeC+2fikJPfqJpO+GPGx1s9Ec=",
+        "originContent": "- Chat functionality with various historical figures.",
+        "translatedContent": "- 様々な歴史的人物とのチャット機能。"
+      },
+      {
+        "row": 35,
+        "rowsha": "1O0XLZZwQGngtR5ox/Ts3pjZsHbYN7hRkloCO1tyQsQ=",
+        "originContent": "- **Agent chaining** for complex task resolution.",
+        "translatedContent": "- 複雑なタスク解決のための**エージェントチェーン**。"
+      },
+      {
+        "row": 36,
+        "rowsha": "8cajKkZnWLmbb0yupjuw+UXm8RRRZCz3dJkHdsAx+c0=",
+        "originContent": "- Retrieval Augmented Generation so you can probe your own documents while **preserving your privacy**.",
+        "translatedContent": "- **プライバシーを保護しながら**独自のドキュメントを調査できるRetrieval Augmented Generation。"
+      },
+      {
+        "row": 37,
+        "rowsha": "A9+sW/RPZXhnyVmX3uBR2CtwcvYh2vcN3BMzTjXn/xs=",
+        "originContent": "- Web Search functionality for the integration of more **up-to-date information**.",
+        "translatedContent": "- より**最新の情報**を統合するためのWeb検索機能。"
+      },
+      {
+        "row": 38,
+        "rowsha": "RajUhMMbw7FXV7EtIq5UQcTd1E+7u6YU5kSVbbepFhw=",
+        "originContent": "- Comprehensive inference stats.",
+        "translatedContent": "- 包括的な推論統計。"
+      },
+      {
+        "row": 39,
+        "rowsha": "oeRMRGxsMb6FhEUF4p4Tqkm/eckmoUlz/4ewmw3h5FQ=",
+        "originContent": "- Memory allocation tracking for **context length tuning**.",
+        "translatedContent": "- **コンテキスト長チューニング**のためのメモリアロケーション追跡。"
+      },
+      {
+        "row": 40,
+        "rowsha": "60CDHy5L+bcdMjBn9NKQI31RZxeuorG4woqvuBbG7yc=",
+        "originContent": "- **Prompt library** with (versioning coming).",
+        "translatedContent": "- (バージョニング対応予定の) **プロンプトライブラリ**。"
+      },
+      {
+        "row": 41,
+        "rowsha": "mqU/1PXLRoqKsqJR3JVmZGZ9Fc7Ix+9mzxQ/ycp7GcM=",
+        "originContent": "- Easy access to the most **common LLM settings**.",
+        "translatedContent": "- 最も**一般的なLLM設定**への簡単アクセス。"
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "2h/qLwykDlR7frpYXwdrFjjLNNlxMqcVjuoGdF2AvrQ=",
+        "originContent": "## II - Coming Next",
+        "translatedContent": "## II - 次に予定していること"
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "Rw8aAQTxI69Ua1fjpS7hrqQULybGegoHrRJbG5tHThM=",
+        "originContent": "- **Responsive** design.",
+        "translatedContent": "- **レスポンシブ**デザイン。"
+      },
+      {
+        "row": 46,
+        "rowsha": "lfIeJQE0YNOuEFV2yyPovKFeiLp1oj2j82TPRHY7hq0=",
+        "originContent": "- **Parallel processing** added to Agent chaining.",
+        "translatedContent": "- エージェントチェーンへの**並列処理**追加。"
+      },
+      {
+        "row": 47,
+        "rowsha": "ZnVNDtCWemhQmhcmrzY/fc8yhMLstlTDc2O0lTLRz1M=",
+        "originContent": "- Improved Web Search algorithm with enhanced options.",
+        "translatedContent": "- 強化されたオプションを備えたWeb検索アルゴリズムの改善。"
+      },
+      {
+        "row": 48,
+        "rowsha": "DBacL1qFPqVNbFj94zlMQ+741H9MKng7sTZ8fb5MQ4w=",
+        "originContent": "- Online domain names ranking.",
+        "translatedContent": "- オンラインドメイン名ランキング。"
+      },
+      {
+        "row": 49,
+        "rowsha": "nxl+u5bO6S7qUb8KzW8TdR6lXfdPc9YAYTHWZP7/XCo=",
+        "originContent": "- Improved RAG algorithm with enhanced options.",
+        "translatedContent": "- 強化されたオプションを備えたRAGアルゴリズムの改善。"
+      },
+      {
+        "row": 50,
+        "rowsha": "Ob4ujdjQWWfVHOGKIXz/J2p7cKUNJo6G/DRIPdzeqZ0=",
+        "originContent": "- Online prompt and agent sharing platform.",
+        "translatedContent": "- オンラインプロンプトおよびエージェント共有プラットフォーム。"
+      },
+      {
+        "row": 51,
+        "rowsha": "D1izMGgA2R1ISMpaVcESDhoViQOKWcrSsIIUpy/To+8=",
+        "originContent": "- Prompt versioning system.",
+        "translatedContent": "- プロンプトバージョニングシステム。"
+      },
+      {
+        "row": 52,
+        "rowsha": "HH/BGhWuGqRGvdAtpMLx7oH1Hm6qJ9gSwwVWqzfHp80=",
+        "originContent": "- Dedicated coding agent.",
+        "translatedContent": "- 専用コーディングエージェント。"
+      },
+      {
+        "row": 53,
+        "rowsha": "iE3hiktE/f+Ubv0TrNAZBWuGDaEVQL7AN32FFQ7wJpo=",
+        "originContent": "- Code syntax highlighting.",
+        "translatedContent": "- コード構文ハイライト。"
+      },
+      {
+        "row": 54,
+        "rowsha": "KUrsORAa7IOPc0SL3tAHcfVQGaDkBU+pswUDR1b6M0g=",
+        "originContent": "- A **Dark mode** theme.",
+        "translatedContent": "- **ダークモード**テーマ。"
+      },
+      {
+        "row": 55,
+        "rowsha": "f4zTuNsRZosOK+R0J5UtPm3/hnFoorHRnITFdgC/glY=",
+        "originContent": "- Charts generation.",
+        "translatedContent": "- グラフ生成。"
+      },
+      {
+        "row": 56,
+        "rowsha": "XnrxuL9mQ8W0U9fZS6ei3p4AvldS+RZPrEjPxUJXUT0=",
+        "originContent": "- Voice mode.",
+        "translatedContent": "- 音声モード。"
+      },
+      {
+        "row": 57,
+        "rowsha": "puPHr3YWbvA9+S2BKgM8r4x+8/wZlMZD2Tj++5VP1Yo=",
+        "originContent": "- Context autosizing option.",
+        "translatedContent": "- コンテキスト自動サイズ調整オプション。"
+      },
+      {
+        "row": 58,
+        "rowsha": "rSvknVUCWMOFEHpV8zXXiRO1VHsGdHBU4X1XSOtN77c=",
+        "originContent": "- In-depth RAG stats & data.",
+        "translatedContent": "- 詳細なRAG統計とデータ。"
+      },
+      {
+        "row": 59,
+        "rowsha": "X+GqUBOIwBWH61gSDNyrTxBiSrcngY2hG2R6Hn0zNKw=",
+        "originContent": "- In-depth Web Search stats & data.",
+        "translatedContent": "- 詳細なWeb検索統計とデータ。"
+      },
+      {
+        "row": 60,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 61,
+        "rowsha": "AT9YDEuwC7THGQUHET/UgiDAYezVeaw4YwXZsK3fWW0=",
+        "originContent": "## III - Screenshots",
+        "translatedContent": "## III - スクリーンショット"
+      },
+      {
+        "row": 62,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 63,
+        "rowsha": "4DwFn/W0AVcPeQ3WLmIDpUcxnqLgGzF5ddxxJpDZYfc=",
+        "originContent": "![osspita main](https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/screenshot1.png \"osspita main\")",
+        "translatedContent": "![osspita main](https://github.com/ask0ldd/OsspitaUI/blob/main/Front/src/assets/screenshot1.png \"osspita main\")"
+      },
+      {
+        "row": 64,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 65,
+        "rowsha": "QA7p8AVvaTjAEVUFedlT//VhSQzlovsrIyWI/LGgMTA=",
+        "originContent": "## IV - Getting Started",
+        "translatedContent": "## IV - はじめに"
+      },
+      {
+        "row": 66,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 67,
+        "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+        "originContent": "### Prerequisites",
+        "translatedContent": "### 前提条件"
+      },
+      {
+        "row": 68,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 69,
+        "rowsha": "JE6S1GPEIuZR9s76KXZBTYi/u4J/PbjSx0Z+oxJwjxw=",
+        "originContent": "- Node.js (v22.11.0 or higher) : https://nodejs.org/en/",
+        "translatedContent": "- Node.js (v22.11.0以上) : https://nodejs.org/en/"
+      },
+      {
+        "row": 70,
+        "rowsha": "NEAPsDCX0U9SeXp+vrUdHbYGIVU2rR2j2OwhYmHlm50=",
+        "originContent": "- npm (10.9.0 or higher)",
+        "translatedContent": "- npm (10.9.0以上)"
+      },
+      {
+        "row": 71,
+        "rowsha": "758OdExjDHJNfoymjwJzD8GsmwUkfXWdmUBcUHNdp9w=",
+        "originContent": "- Ollama (installed and running locally) : https://ollama.com/download",
+        "translatedContent": "- Ollama (ローカルにインストールして起動していること) : https://ollama.com/download"
+      },
+      {
+        "row": 72,
+        "rowsha": "lE/UtZNO7h1dfv7euGfR4Lo59rymyeK6eh9EOQ4U8RA=",
+        "originContent": "- The OSspita backend running.",
+        "translatedContent": "- OSspitaバックエンドが起動していること。"
+      },
+      {
+        "row": 73,
+        "rowsha": "ogp6en9DVUrkyhRmwoUaFWK7rLJKRWSOE/aC/GfCz/8=",
+        "originContent": "- At least one open source model.",
+        "translatedContent": "- 少なくとも一つのオープンソースモデル。"
+      },
+      {
+        "row": 74,
+        "rowsha": "G7DnWExuyHaRE2a4PZp04puRZn1srU7mke96g+iQka8=",
+        "originContent": "- Nvidia CUDA if needed : https://developer.nvidia.com/cuda-downloads",
+        "translatedContent": "- 必要に応じてNvidia CUDA : https://developer.nvidia.com/cuda-downloads"
+      },
+      {
+        "row": 75,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 76,
+        "rowsha": "9VhV+aK5WmWfB+f8bclk4eYZdr/ZuwrGNxSuqj3KTUo=",
+        "originContent": "Models Recommandations :",
+        "translatedContent": "モデル推奨："
+      },
+      {
+        "row": 77,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 78,
+        "rowsha": "7FV0b58UHmv23wh+AJqVSN+/+YIcH9o0uAZbFQz+28Q=",
+        "originContent": "| GPU VRAM   | Model            | Purpose        | Link                                                                 |",
+        "translatedContent": "| GPU VRAM   | モデル           | 用途           | リンク                                                               |"
+      },
+      {
+        "row": 79,
+        "rowsha": "cLcPLHE6/CGaI0VUoSv1JBD1Oc1gSImouZfSlsHXB/w=",
+        "originContent": "| ---------- | ---------------- | -------------- | -------------------------------------------------------------------- |",
+        "translatedContent": "| ---------- | ---------------- | -------------- | -------------------------------------------------------------------- |"
+      },
+      {
+        "row": 80,
+        "rowsha": "Dh5mS0B8IA3t+6pPi5afLBG4p5AF0xEyx8pDqlbjA9E=",
+        "originContent": "| 4GB        | Llama 3.2:3b     | Conversational | [Llama 3.2 on Ollama](https://ollama.com/library/llama3.2:3b)              |",
+        "translatedContent": "| 4GB        | Llama 3.2:3b     | 会話用         | [OllamaのLlama 3.2](https://ollama.com/library/llama3.2:3b)          |"
+      },
+      {
+        "row": 81,
+        "rowsha": "aq5dkIunkFQ3lyHaxLTqnFsBvljm0TLojhCKYrQPLgI=",
+        "originContent": "| 8GB        | Aya Expanse:8b   | Conversational | [Aya Expanse on Ollama](https://ollama.com/library/aya-expanse:8b)   |",
+        "translatedContent": "| 8GB        | Aya Expanse:8b   | 会話用         | [OllamaのAya Expanse](https://ollama.com/library/aya-expanse:8b)     |"
+      },
+      {
+        "row": 82,
+        "rowsha": "WMMO8blfYcc6BUhJU7IVTqOAZSDTGGCZp7LIPIhMAMg=",
+        "originContent": "| 12GB       | Mistral Nemo:12b | Conversational | [Mistal Nemo on Ollama](https://ollama.com/library/mistral-nemo:12b)           |",
+        "translatedContent": "| 12GB       | Mistral Nemo:12b | 会話用         | [OllamaのMistral Nemo](https://ollama.com/library/mistral-nemo:12b)  |"
+      },
+      {
+        "row": 83,
+        "rowsha": "8e4c0pHBCJf9J+s3hzdj0K3YmW0BEA2iU1JL6gdk03U=",
+        "originContent": "| 4GB        | starcoder2:3b    | Coding         | [StarCoder2 on Ollama](https://ollama.com/library/starcoder2)        |",
+        "translatedContent": "| 4GB        | starcoder2:3b    | コーディング用 | [OllamaのStarCoder2](https://ollama.com/library/starcoder2)          |"
+      },
+      {
+        "row": 84,
+        "rowsha": "UMxulXmAXNhQH0HqEnWt9XToBv1KRYXXA8vD5NSqH84=",
+        "originContent": "| 8GB & 12GB | qwen2.5-coder:7b | Coding         | [Qwen 2.5 Coder on Ollama](https://ollama.com/library/qwen2.5-coder) |",
+        "translatedContent": "| 8GB & 12GB | qwen2.5-coder:7b | コーディング用 | [OllamaのQwen 2.5 Coder](https://ollama.com/library/qwen2.5-coder)    |"
+      },
+      {
+        "row": 85,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 86,
+        "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+        "originContent": "### Installation",
+        "translatedContent": "### インストール"
+      },
+      {
+        "row": 87,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 88,
+        "rowsha": "cFCSxO6CBy1wyFmnjI6ZaznisgFZZHLi3QvZTyFVdW8=",
+        "originContent": "Clone the repository :",
+        "translatedContent": "リポジトリをクローン："
+      },
+      {
+        "row": 89,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 90,
+        "rowsha": "rziDY8B8o+LECFEMo9Pxal/+e99YGIPqtt28cyPK/G4=",
+        "originContent": "> git clone https://github.com/ask0ldd/OsspitaUI.git",
+        "translatedContent": "> git clone https://github.com/ask0ldd/OsspitaUI.git"
+      },
+      {
+        "row": 91,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 92,
+        "rowsha": "TFNN0uGEOoyQJgoVCmW93JyVsfxF9saYhMjd9hTNMFY=",
+        "originContent": "Navigate to the project directory:",
+        "translatedContent": "プロジェクトディレクトリに移動："
+      },
+      {
+        "row": 93,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 94,
+        "rowsha": "klXnyMK9VoilLmSpzwqrDEcovpfF5FWqLYc0vCkOegk=",
+        "originContent": "> cd OsspitaUI",
+        "translatedContent": "> cd OsspitaUI"
+      },
+      {
+        "row": 95,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 96,
+        "rowsha": "/xS0oU93Jp5lvhj4S+u0gWHdk/SrVBakgeWAouIpVEM=",
+        "originContent": "#### Frontend",
+        "translatedContent": "#### フロントエンド"
+      },
+      {
+        "row": 97,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 98,
+        "rowsha": "L1393iKqNQ8Vvz8EWHFLefeOvJYhspy71o1mpn6/VN8=",
+        "originContent": "> cd front",
+        "translatedContent": "> cd front"
+      },
+      {
+        "row": 99,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 100,
+        "rowsha": "gj9rwiUP+NaaVsLgKZNKu9Cr690sv2eQVJnNdev5Hcc=",
+        "originContent": "Install dependencies:",
+        "translatedContent": "依存関係をインストール："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n> npm install\n\nStart the development server:\n\n> npm run dev\n\nOpen your browser and visit http://localhost:5173 so that you can be guided through the rest of the installation process.\n\n## V - Usage\n\nVideo demo :\n\n## VI - Technologies Used\n\n- React 18.3.1\n- Vite\n- Ollama API\n- ExpressJS\n- LokiJS\n- Zustand\n- Duck-duck-scrape\n- Cheerio\n- React-pdftotext\n- Marked 14.1.1\n- Turndown\n- Cors\n- BodyParser\n\n## VII - Contributing\n\nIf you face any bug or if you want me to add / improve any functionality, open an issue with your request. Thanks a lot for your help.\n\n## VIII - Acknowledgments\n\n- Georgi Gerganov and all associated contributors for llama.cpp.\n- The Ollama team for providing the API used for inference.\n- React and Vite communities for their excellent tools.\n- All contributors and supporters of the project.\n- Everybody producing GGUF models.\n- And finally, all the people that worked on any of the libraries I used.\n",
+    "ContentSha": "KLkLfIWR78X+Tg5sAQnyVAqpdOYu4ehEK5/HT+/11hs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> npm install\n\n開発サーバーを起動します：\n\n> npm run dev\n\nブラウザを開き、http://localhost:5173 にアクセスすると、インストールプロセスの残りの手順が案内されます。\n\n## V - 使用方法\n\nビデオデモ：\n\n## VI - 使用技術\n\n- React 18.3.1\n- Vite\n- Ollama API\n- ExpressJS\n- LokiJS\n- Zustand\n- Duck-duck-scrape\n- Cheerio\n- React-pdftotext\n- Marked 14.1.1\n- Turndown\n- Cors\n- BodyParser\n\n## VII - 貢献について\n\nバグが発生した場合や機能の追加・改善を希望される場合は、ご要望を記載してIssueを開いてください。ご協力ありがとうございます。\n\n## VIII - 謝辞\n\n- llama.cppのGeorgi Gerganov氏および関係するすべての貢献者の皆様。\n- 推論に使用したAPIを提供しているOllamaチーム。\n- ReactおよびViteコミュニティの優れたツールに感謝します。\n- プロジェクトに貢献し支援してくださったすべての方々。\n- GGUFモデルを制作している皆様。\n- 最後に、私が使用したライブラリに関わったすべての方々。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> npm install"
+      },
+      {
+        "row": 2,
+        "rowsha": "QhT9aWaFj1Nf+N+FUBZR7RucbvhgLdeHSrNm5vdK7Ss=",
+        "originContent": "> npm install",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "開発サーバーを起動します："
+      },
+      {
+        "row": 4,
+        "rowsha": "dkb302nb4VfxtfPf+iIz3SfoFeLOqK1jBBQVMX62suw=",
+        "originContent": "Start the development server:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> npm run dev"
+      },
+      {
+        "row": 6,
+        "rowsha": "fImQDBRNRalT6uLlfwWNxrZf5y6WtomKis2ly2zCv8s=",
+        "originContent": "> npm run dev",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ブラウザを開き、http://localhost:5173 にアクセスすると、インストールプロセスの残りの手順が案内されます。"
+      },
+      {
+        "row": 8,
+        "rowsha": "WvwbeTu8uhvZnkcPCUl6NACC+KNYIiTDYREptav0SPg=",
+        "originContent": "Open your browser and visit http://localhost:5173 so that you can be guided through the rest of the installation process.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## V - 使用方法"
+      },
+      {
+        "row": 10,
+        "rowsha": "wVk11bmF8E323oi0XPv9cvGZ12mXosNFnBOkQMY2mQY=",
+        "originContent": "## V - Usage",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ビデオデモ："
+      },
+      {
+        "row": 12,
+        "rowsha": "siseQnwM/Z8jjmaaVxxuQkZiy3UCqdjBtUQ5q3ImpJc=",
+        "originContent": "Video demo :",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## VI - 使用技術"
+      },
+      {
+        "row": 14,
+        "rowsha": "eVjJs9qvuNANR1G2xsykyGemjhhvH8mFBnWL+dDeeWQ=",
+        "originContent": "## VI - Technologies Used",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- React 18.3.1"
+      },
+      {
+        "row": 16,
+        "rowsha": "D7MhvKQhTXgAJkYyYpxJ3Xkmmj6+avwjYOwh68eKOms=",
+        "originContent": "- React 18.3.1",
+        "translatedContent": "- Vite"
+      },
+      {
+        "row": 17,
+        "rowsha": "qtmd5ElVDdOM2nAl67Nkv0PRZXs3cWVc9WttNUV3QME=",
+        "originContent": "- Vite",
+        "translatedContent": "- Ollama API"
+      },
+      {
+        "row": 18,
+        "rowsha": "ALgOMzbXDzHtoe14cGAMV315gpBQJpsAaQXlLozwfcw=",
+        "originContent": "- Ollama API",
+        "translatedContent": "- ExpressJS"
+      },
+      {
+        "row": 19,
+        "rowsha": "uSTiDe+7rri05Llklqte7jZRB75R9MkWPKD68VxayNI=",
+        "originContent": "- ExpressJS",
+        "translatedContent": "- LokiJS"
+      },
+      {
+        "row": 20,
+        "rowsha": "JL1di273t++x/RuvEtm0+CJ+moYFR2AhBYumdJGKNT0=",
+        "originContent": "- LokiJS",
+        "translatedContent": "- Zustand"
+      },
+      {
+        "row": 21,
+        "rowsha": "L1Y8FUHFFFNKFWJ4AzGzP0GtqNRG+TY57YdqCW2s6a0=",
+        "originContent": "- Zustand",
+        "translatedContent": "- Duck-duck-scrape"
+      },
+      {
+        "row": 22,
+        "rowsha": "/gU+itV4PfRyKdRp/AgbtyrIKC3kg8/OOB0DRVQm6kI=",
+        "originContent": "- Duck-duck-scrape",
+        "translatedContent": "- Cheerio"
+      },
+      {
+        "row": 23,
+        "rowsha": "XgMfeZm3c7fz+9zIugmulqAY85JyLkrb/U5QTXvrze4=",
+        "originContent": "- Cheerio",
+        "translatedContent": "- React-pdftotext"
+      },
+      {
+        "row": 24,
+        "rowsha": "4nsrATJmsdNo5aQdZPsVU2aKbxwLThOThMk2iEsU2X4=",
+        "originContent": "- React-pdftotext",
+        "translatedContent": "- Marked 14.1.1"
+      },
+      {
+        "row": 25,
+        "rowsha": "0xMxZCNiLueDXkUVCeKY15y+1W9zc0Ne488p+rHz4Tc=",
+        "originContent": "- Marked 14.1.1",
+        "translatedContent": "- Turndown"
+      },
+      {
+        "row": 26,
+        "rowsha": "zvXpcDS4Ehkt2NXwAamp8JCqCMN7n8tpuQlUOsFzu4Y=",
+        "originContent": "- Turndown",
+        "translatedContent": "- Cors"
+      },
+      {
+        "row": 27,
+        "rowsha": "lU24E0ZhpnydUjkBiu/E8g1b9uiu/LxNzOO6MYbwS80=",
+        "originContent": "- Cors",
+        "translatedContent": "- BodyParser"
+      },
+      {
+        "row": 28,
+        "rowsha": "Cvx2fByBEtVPoEhwTEGNuff0qa6FLRLf7j9H9pty7hg=",
+        "originContent": "- BodyParser",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## VII - 貢献について"
+      },
+      {
+        "row": 30,
+        "rowsha": "4nxCvwQWHz6jqArgFo4GIBhMChsKfVFR4c9nZCKPHU8=",
+        "originContent": "## VII - Contributing",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "バグが発生した場合や機能の追加・改善を希望される場合は、ご要望を記載してIssueを開いてください。ご協力ありがとうございます。"
+      },
+      {
+        "row": 32,
+        "rowsha": "pKv92bQfZkgGvU8IRNeoNvSSfTL7hsLihL4Nk633XmE=",
+        "originContent": "If you face any bug or if you want me to add / improve any functionality, open an issue with your request. Thanks a lot for your help.",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## VIII - 謝辞"
+      },
+      {
+        "row": 34,
+        "rowsha": "i3c1z1kpevsqd40WFLrT6rOPamTLX9m9BXbjM0prjAc=",
+        "originContent": "## VIII - Acknowledgments",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- llama.cppのGeorgi Gerganov氏および関係するすべての貢献者の皆様。"
+      },
+      {
+        "row": 36,
+        "rowsha": "sploh9fscjxJlCjzlvZ9BGsP9yKv4LX/y7gf97b0qzc=",
+        "originContent": "- Georgi Gerganov and all associated contributors for llama.cpp.",
+        "translatedContent": "- 推論に使用したAPIを提供しているOllamaチーム。"
+      },
+      {
+        "row": 37,
+        "rowsha": "7itbBC0KJLGOLii2cab46Xy6PiuDONF3j1DcHi9spA4=",
+        "originContent": "- The Ollama team for providing the API used for inference.",
+        "translatedContent": "- ReactおよびViteコミュニティの優れたツールに感謝します。"
+      },
+      {
+        "row": 38,
+        "rowsha": "rV4xReNhKTSU6pwglaHvDrWmQs2QGqSl7xjIeQhRXSc=",
+        "originContent": "- React and Vite communities for their excellent tools.",
+        "translatedContent": "- プロジェクトに貢献し支援してくださったすべての方々。"
+      },
+      {
+        "row": 39,
+        "rowsha": "ru2/a0grzxffA21pwoDy0mm/sCiCgn5DnzNkZin6VUE=",
+        "originContent": "- All contributors and supporters of the project.",
+        "translatedContent": "- GGUFモデルを制作している皆様。"
+      },
+      {
+        "row": 40,
+        "rowsha": "m0hqVEnTpwq9Fx0mxULsFkIXGYsCE4npYnClEmcS1Z0=",
+        "originContent": "- Everybody producing GGUF models.",
+        "translatedContent": "- 最後に、私が使用したライブラリに関わったすべての方々。"
+      },
+      {
+        "row": 41,
+        "rowsha": "XNXBfVzchgW+WxkmAw5l1wMVF6PlGnc6kXuiBdgEQqg=",
+        "originContent": "- And finally, all the people that worked on any of the libraries I used.",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

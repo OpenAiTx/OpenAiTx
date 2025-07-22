@@ -1,0 +1,819 @@
+[
+  {
+    "Id": 1,
+    "Content": "# pods4k\n\n[![Maven Central][maven-central-badge]][maven-central-url]\n[![Licence][license-badge]][license-url]\n![Top language][top-language-badge]\n![Build Status][build-status-badge]\n[![Stargazers][stars-badge]][stars-url]\n\n## Performance-oriented data structures for Kotlin\n\nA collection of performance-oriented data structures providing performance and efficiency that might appear to be\nimpossible at first glance.\n\nIf you find this library useful, please consider giving it\na [![GitHub stars](https://img.shields.io/github/stars/daniel-rusu/pods4k?label=Star)](https://github.com/daniel-rusu/pods4k)\non [GitHub](https://github.com/daniel-rusu/pods4k) and sharing it with others.\n\n## Installation\n\n[![Latest Version][latest-version-shield]][maven-central-url] available on Maven Central:\n\n**Gradle:**\n",
+    "ContentSha": "ZTIc4FkgqpR+BoMxlxz18PQBObY3NxcCvGCZ9yB+FOs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># pods4k\n\n[![Maven Central][maven-central-badge]][maven-central-url]\n[![Licence][license-badge]][license-url]\n![Top language][top-language-badge]\n![Build Status][build-status-badge]\n[![Stargazers][stars-badge]][stars-url]\n\n## 面向性能的 Kotlin 数据结构\n\n一组面向性能的数据结构，提供乍看之下似乎不可能实现的性能和效率。\n\n如果您觉得这个库有用，请考虑在\n[GitHub](https://github.com/daniel-rusu/pods4k)上给它\n一个[![GitHub stars](https://img.shields.io/github/stars/daniel-rusu/pods4k?label=Star)](https://github.com/daniel-rusu/pods4k)的星标并分享给他人。\n\n## 安装\n\n[![最新版本][latest-version-shield]][maven-central-url] 可在 Maven Central 获取：\n\n**Gradle:**\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jA6wa/kmJcQ9fExNL4rTDQ/V5wGNgRU+uXFMG52wzlw=",
+        "originContent": "# pods4k",
+        "translatedContent": "<translate-content># pods4k"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "dZDW81UUYPy1F+25ipQoDRKM4ZrDe5f0DV1gjvjWPd4=",
+        "originContent": "[![Maven Central][maven-central-badge]][maven-central-url]",
+        "translatedContent": "[![Maven Central][maven-central-badge]][maven-central-url]"
+      },
+      {
+        "row": 4,
+        "rowsha": "pGuq61YxALRFmUUrfGKi2e/logpTtOhDqszod2iDxi4=",
+        "originContent": "[![Licence][license-badge]][license-url]",
+        "translatedContent": "[![Licence][license-badge]][license-url]"
+      },
+      {
+        "row": 5,
+        "rowsha": "8BSxTUrtZHNz636MxmwN62BR8+0Kge6FdhAWsdj94ek=",
+        "originContent": "![Top language][top-language-badge]",
+        "translatedContent": "![Top language][top-language-badge]"
+      },
+      {
+        "row": 6,
+        "rowsha": "q0yLQI35E48VnPQ8jiKw7U+ouUDvk4nZJtQ6eo2MKKo=",
+        "originContent": "![Build Status][build-status-badge]",
+        "translatedContent": "![Build Status][build-status-badge]"
+      },
+      {
+        "row": 7,
+        "rowsha": "+99Cyg41Mwj67iV53GX4LqWzqH6ZIZzYcNPdJh9cZcY=",
+        "originContent": "[![Stargazers][stars-badge]][stars-url]",
+        "translatedContent": "[![Stargazers][stars-badge]][stars-url]"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "0h8QnVh5vyQklRu3yfZE+EbEbvU/Segshx1F1Q/0UUw=",
+        "originContent": "## Performance-oriented data structures for Kotlin",
+        "translatedContent": "## 面向性能的 Kotlin 数据结构"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "zPaJB+cWgE3xzl8qhIO800v7n0w86VGKT46IvHtPZBQ=",
+        "originContent": "A collection of performance-oriented data structures providing performance and efficiency that might appear to be",
+        "translatedContent": "一组面向性能的数据结构，提供乍看之下似乎不可能实现的性能和效率。"
+      },
+      {
+        "row": 12,
+        "rowsha": "IfNDNWDxdN78OIhhdqPSmDV3QW5C30kgMtC8xESIMc8=",
+        "originContent": "impossible at first glance.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "如果您觉得这个库有用，请考虑在"
+      },
+      {
+        "row": 14,
+        "rowsha": "U3ZiAgSksrG79c9VA6+UG0Q6GAqWuQXhYa3rN0uu4HU=",
+        "originContent": "If you find this library useful, please consider giving it",
+        "translatedContent": "[GitHub](https://github.com/daniel-rusu/pods4k)上给它"
+      },
+      {
+        "row": 15,
+        "rowsha": "BJUBvXZB2eddQsEfed5av3xZ+skEHqKd618616E0Btc=",
+        "originContent": "a [![GitHub stars](https://img.shields.io/github/stars/daniel-rusu/pods4k?label=Star)](https://github.com/daniel-rusu/pods4k)",
+        "translatedContent": "一个[![GitHub stars](https://img.shields.io/github/stars/daniel-rusu/pods4k?label=Star)](https://github.com/daniel-rusu/pods4k)的星标并分享给他人。"
+      },
+      {
+        "row": 16,
+        "rowsha": "mU/x9Xj8riF6+t8QCmAwbv3nft8eljPJ8jXbFWZZrL4=",
+        "originContent": "on [GitHub](https://github.com/daniel-rusu/pods4k) and sharing it with others.",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 安装"
+      },
+      {
+        "row": 18,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[![最新版本][latest-version-shield]][maven-central-url] 可在 Maven Central 获取："
+      },
+      {
+        "row": 20,
+        "rowsha": "yvyO0AIBEAA9s0F8P7su/9JMpDxSHKUP6NpThIpKq24=",
+        "originContent": "[![Latest Version][latest-version-shield]][maven-central-url] available on Maven Central:",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**Gradle:**"
+      },
+      {
+        "row": 22,
+        "rowsha": "jM0UR4a8wAxGrT8HfM+VcSV5ppabP4HvVCm5IzbvlQg=",
+        "originContent": "**Gradle:**",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```kotlin\nrepositories {\n    mavenCentral()\n}\ndependencies {\n    implementation(\"com.danrusu.pods4k:pods4k:<latest_version>\")\n}\n```",
+    "ContentSha": "VdQNK3vAdUt8QTh6CIX9uGjflNS1Ia1ZtSyqLN5P5+E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```kotlin\nrepositories {\n    mavenCentral()\n}\ndependencies {\n    implementation(\"com.danrusu.pods4k:pods4k:<latest_version>\")\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+        "originContent": "```kotlin",
+        "translatedContent": "```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "TvBbktu5UvgB5/q5LAiHoocG1fD5JwV9oTX2FLNJr8Y=",
+        "originContent": "repositories {",
+        "translatedContent": "repositories {"
+      },
+      {
+        "row": 3,
+        "rowsha": "SscqkqDemGP/N8uqAMFAW5/pfAwynaeOa/0YyTfIRSA=",
+        "originContent": "    mavenCentral()",
+        "translatedContent": "    mavenCentral()"
+      },
+      {
+        "row": 4,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 5,
+        "rowsha": "YiU0BYrj6/iCE+VQzVtTmQYPeT0yaMuVWxaQJ1+t/zA=",
+        "originContent": "dependencies {",
+        "translatedContent": "dependencies {"
+      },
+      {
+        "row": 6,
+        "rowsha": "0WoH1QMf32ogKuBdDc0w3+u52upbe7sw367QUosmhkQ=",
+        "originContent": "    implementation(\"com.danrusu.pods4k:pods4k:<latest_version>\")",
+        "translatedContent": "    implementation(\"com.danrusu.pods4k:pods4k:<latest_version>\")"
+      },
+      {
+        "row": 7,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n**Maven:**\n",
+    "ContentSha": "mLZfSkHisdkZTUfiSNwQ1mfroQ499+gJ30vR18r9ED8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\n**Maven：**\n</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "J55Ai0wOqYn2nVpYAcszZlzgTh/h4DCrP8zNX7l3OrU=",
+        "originContent": "**Maven:**",
+        "translatedContent": "**Maven：**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```xml\n\n<dependency>\n    <groupId>com.danrusu.pods4k</groupId>\n    <artifactId>pods4k</artifactId>\n    <version>latest_version</version>\n</dependency>\n```",
+    "ContentSha": "1wo/dz/tKelhaHXTRsbV7GZxMm164OLaVoLl6AQ+VYU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```xml\n\n<dependency>\n    <groupId>com.danrusu.pods4k</groupId>\n    <artifactId>pods4k</artifactId>\n    <version>latest_version</version>\n</dependency>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "t8tiRzaNtUnLbiIQGiHIAAk1ELMO6fTRRvBkkpFEsR4=",
+        "originContent": "```xml",
+        "translatedContent": "```xml"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "v7nyWQMb1qauIPODGUlQbnSwfWPz/hjeIQkU9GturX8=",
+        "originContent": "<dependency>",
+        "translatedContent": "<dependency>"
+      },
+      {
+        "row": 4,
+        "rowsha": "+19wvREutvC+hJ7Zu5cU8Z/m+WBNZvHBMfjAqzA6XKk=",
+        "originContent": "    <groupId>com.danrusu.pods4k</groupId>",
+        "translatedContent": "    <groupId>com.danrusu.pods4k</groupId>"
+      },
+      {
+        "row": 5,
+        "rowsha": "2XaJBJD6Y1Ozrecbsugoxkex00cTcbjKGzAV4RXCQCY=",
+        "originContent": "    <artifactId>pods4k</artifactId>",
+        "translatedContent": "    <artifactId>pods4k</artifactId>"
+      },
+      {
+        "row": 6,
+        "rowsha": "Y4vsKG0LQtEhdCJDUmmZBPMESKnrg8KEV1CLDLWZIuU=",
+        "originContent": "    <version>latest_version</version>",
+        "translatedContent": "    <version>latest_version</version>"
+      },
+      {
+        "row": 7,
+        "rowsha": "xu7jPaG6V+TqDyDLNYPZdxZkaNxyWzP83/S8E74Pe4k=",
+        "originContent": "</dependency>",
+        "translatedContent": "</dependency>"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nAlternatively, you can [pick & choose](https://raw.githubusercontent.com/daniel-rusu/pods4k/main/publishing/bom/README.md) individual components of this library.\n\n## Immutable Arrays\n\n[Immutable Arrays](https://raw.githubusercontent.com/daniel-rusu/pods4k/main/immutable-arrays/README.md) offer a safer, faster, and more efficient alternative to lists while\nmaintaining familiar syntax.\n\n#### Key Benefits\n\n* ![Fast][fast-shield] [2 to 8 times faster than lists](https://raw.githubusercontent.com/daniel-rusu/pods4k/main/immutable-arrays/BENCHMARKS.md) for most operations.\n* ![Efficient][efficient-shield] [Over 4X memory reduction](https://raw.githubusercontent.com/daniel-rusu/pods4k/main/immutable-arrays/README.md#-efficiency) in many common\n  scenarios.\n* ![Immutable][immutable-shield] Cannot be modified, even with casting.\n* ![Type Safe][type-safe-shield] Prevents accidental mutation attempts at compile time.\n* ![Efficient Builders][efficient-builders-shield] Gather elements more efficiently than mutable lists.\n\n#### Intuitive list-like syntax\n",
+    "ContentSha": "edw1L//49n6kikAYYhTw/UudL1yV/CtT03XUwRMqWds=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "或者，您可以[选择和挑选](https://raw.githubusercontent.com/daniel-rusu/pods4k/main/publishing/bom/README.md)该库的单个组件。\n\n## 不可变数组\n\n[不可变数组](https://raw.githubusercontent.com/daniel-rusu/pods4k/main/immutable-arrays/README.md)提供了一种更安全、更快速且更高效的列表替代方案，同时\n保持了熟悉的语法。\n\n#### 主要优点\n\n* ![快速][fast-shield] 对大多数操作而言，[比列表快2到8倍](https://raw.githubusercontent.com/daniel-rusu/pods4k/main/immutable-arrays/BENCHMARKS.md)。\n* ![高效][efficient-shield] 在许多常见场景中，[内存减少超过4倍](https://raw.githubusercontent.com/daniel-rusu/pods4k/main/immutable-arrays/README.md#-efficiency)。\n* ![不可变][immutable-shield] 不能被修改，即使使用强制转换。\n* ![类型安全][type-safe-shield] 在编译时防止意外的变异尝试。\n* ![高效构建器][efficient-builders-shield] 比可变列表更高效地收集元素。\n\n#### 直观的类似列表语法\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "或者，您可以[选择和挑选](https://raw.githubusercontent.com/daniel-rusu/pods4k/main/publishing/bom/README.md)该库的单个组件。"
+      },
+      {
+        "row": 2,
+        "rowsha": "Z6yYhhevfirDVNjGGoQ1GP55AEauYn3plphD04glmBM=",
+        "originContent": "Alternatively, you can [pick & choose](https://raw.githubusercontent.com/daniel-rusu/pods4k/main/publishing/bom/README.md) individual components of this library.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 不可变数组"
+      },
+      {
+        "row": 4,
+        "rowsha": "ew21ekfTNSdPvNKuNJC1lrcn97/EEtx/ygGgJ00m6yE=",
+        "originContent": "## Immutable Arrays",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[不可变数组](https://raw.githubusercontent.com/daniel-rusu/pods4k/main/immutable-arrays/README.md)提供了一种更安全、更快速且更高效的列表替代方案，同时"
+      },
+      {
+        "row": 6,
+        "rowsha": "o7BtNEKfDnFle27XSyaeP7UslHmIiswztwudhUuTYjo=",
+        "originContent": "[Immutable Arrays](https://raw.githubusercontent.com/daniel-rusu/pods4k/main/immutable-arrays/README.md) offer a safer, faster, and more efficient alternative to lists while",
+        "translatedContent": "保持了熟悉的语法。"
+      },
+      {
+        "row": 7,
+        "rowsha": "hBgCwhOU+f73iEoN+PH6uKJv+SP1oKheeCdtjy/Sqq0=",
+        "originContent": "maintaining familiar syntax.",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### 主要优点"
+      },
+      {
+        "row": 9,
+        "rowsha": "+BP07L8beTKyfyjbKmYmyCzEPlRstyRyyvfKwuA91mQ=",
+        "originContent": "#### Key Benefits",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* ![快速][fast-shield] 对大多数操作而言，[比列表快2到8倍](https://raw.githubusercontent.com/daniel-rusu/pods4k/main/immutable-arrays/BENCHMARKS.md)。"
+      },
+      {
+        "row": 11,
+        "rowsha": "5u45zMPA5sRvT+SyWF5VbN/Z8UwHWMWTImV5ltUvnbc=",
+        "originContent": "* ![Fast][fast-shield] [2 to 8 times faster than lists](https://raw.githubusercontent.com/daniel-rusu/pods4k/main/immutable-arrays/BENCHMARKS.md) for most operations.",
+        "translatedContent": "* ![高效][efficient-shield] 在许多常见场景中，[内存减少超过4倍](https://raw.githubusercontent.com/daniel-rusu/pods4k/main/immutable-arrays/README.md#-efficiency)。"
+      },
+      {
+        "row": 12,
+        "rowsha": "sjihNRzQOuBfr9DaeAlkjLcuJ5s/HKL7nH5qsjwVZ8s=",
+        "originContent": "* ![Efficient][efficient-shield] [Over 4X memory reduction](https://raw.githubusercontent.com/daniel-rusu/pods4k/main/immutable-arrays/README.md#-efficiency) in many common",
+        "translatedContent": "* ![不可变][immutable-shield] 不能被修改，即使使用强制转换。"
+      },
+      {
+        "row": 13,
+        "rowsha": "Z5j8x8R+TEMmgRVtNoHEFUQXyvFbPZ19gvRKazS9ySs=",
+        "originContent": "  scenarios.",
+        "translatedContent": "* ![类型安全][type-safe-shield] 在编译时防止意外的变异尝试。"
+      },
+      {
+        "row": 14,
+        "rowsha": "9bazt60cpouo1vg1NrUgdfWpRDTt2qE8pJHoIr3nQcY=",
+        "originContent": "* ![Immutable][immutable-shield] Cannot be modified, even with casting.",
+        "translatedContent": "* ![高效构建器][efficient-builders-shield] 比可变列表更高效地收集元素。"
+      },
+      {
+        "row": 15,
+        "rowsha": "X+TvYlntzKjq728Q2Y4NaoWO77x7eGri4yjJRO8ItJA=",
+        "originContent": "* ![Type Safe][type-safe-shield] Prevents accidental mutation attempts at compile time.",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "sDI7YqA1VwHjuUvz8cHsK6sp6/OG5Zfi6ZS7mOD7fww=",
+        "originContent": "* ![Efficient Builders][efficient-builders-shield] Gather elements more efficiently than mutable lists.",
+        "translatedContent": "#### 直观的类似列表语法"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "Mr76onEYC6Sz1s4cclPOSjZLiZfgBz64AJNIXKPjBgk=",
+        "originContent": "#### Intuitive list-like syntax",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```kotlin\nval people = immutableArrayOf(dan, jill, bobby)\n\n// Iterate naturally\nfor (person in people) {\n    sendMarketingEmailTo(person)\n}\n// All the usual operations\nval employedPeople = people.filter { it.isEmployed() }\nval salaries = employedPeople.map { it.salary }\n```",
+    "ContentSha": "IkTtelEcDiKdfgIS9t0kgDz0zmSCz2YXOdOjJtdjO7M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```kotlin\nval people = immutableArrayOf(dan, jill, bobby)\n\n// Iterate naturally\nfor (person in people) {\n    sendMarketingEmailTo(person)\n}\n// All the usual operations\nval employedPeople = people.filter { it.isEmployed() }\nval salaries = employedPeople.map { it.salary }\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+        "originContent": "```kotlin",
+        "translatedContent": "```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "kvBqWhGVnRx5XrerhDId0Kd0vGimt/nfrZpLCu4J8cE=",
+        "originContent": "val people = immutableArrayOf(dan, jill, bobby)",
+        "translatedContent": "val people = immutableArrayOf(dan, jill, bobby)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "mB62OMrQVvjBw+4uXuQ5WYJgCl4MofTY9kImEVR0If8=",
+        "originContent": "// Iterate naturally",
+        "translatedContent": "// Iterate naturally"
+      },
+      {
+        "row": 5,
+        "rowsha": "TdZmYBGaPf7u7Ixe/Vg/5M9oZFAwh1IvSIHAgeRaQKQ=",
+        "originContent": "for (person in people) {",
+        "translatedContent": "for (person in people) {"
+      },
+      {
+        "row": 6,
+        "rowsha": "yk1XNEhmqbiVga5IKW7dOZFoRYuJnVc5BzkAIO9sylo=",
+        "originContent": "    sendMarketingEmailTo(person)",
+        "translatedContent": "    sendMarketingEmailTo(person)"
+      },
+      {
+        "row": 7,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 8,
+        "rowsha": "zKo7Myz0jq0KbzquUU8u7+remYJyqX+rRjL2/7hkQbc=",
+        "originContent": "// All the usual operations",
+        "translatedContent": "// All the usual operations"
+      },
+      {
+        "row": 9,
+        "rowsha": "d5F1SgBRBZDHP8mclgp78Be1TxP3oDqiOiCbB2FmXNw=",
+        "originContent": "val employedPeople = people.filter { it.isEmployed() }",
+        "translatedContent": "val employedPeople = people.filter { it.isEmployed() }"
+      },
+      {
+        "row": 10,
+        "rowsha": "8FL0YF75xkhm2fMXiLLjy2ldWRw37vuXNdRVudE96xA=",
+        "originContent": "val salaries = employedPeople.map { it.salary }",
+        "translatedContent": "val salaries = employedPeople.map { it.salary }"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nSee [Immutable Arrays](https://raw.githubusercontent.com/daniel-rusu/pods4k/main/immutable-arrays/README.md) for more specifics along with detailed comparisons against regular\narrays, read-only lists, and immutable lists.\n\n## Minimum Requirements\n\n* Kotlin 1.9.25\n    * This library is K2 compatible as it's used in other projects that use Kotlin 2.1 etc.\n* JDK 11\n    * Automated tests are run on JDK LTS releases 11, 17, & 21\n\n## Java Compatibility\n\nSome data structures use techniques which are only supported by the Kotlin compiler. While they can be used in a mixed\nJava & Kotlin codebase to store one of these data structures in a Java-defined collection, referencing these data\nstructures by their class name is only supported within Kotlin files.\n\n\n[maven-central-badge]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdaniel-rusu%2Fpods4k%2Frefs%2Fheads%2Fmain%2Flatest_version.json&query=version&style=for-the-badge&label=maven-central&color=orange\n\n[license-badge]: https://img.shields.io/github/license/daniel-rusu/pods4k?style=for-the-badge\n\n[top-language-badge]: https://img.shields.io/github/languages/top/daniel-rusu/pods4k?style=for-the-badge\n\n[build-status-badge]: https://img.shields.io/github/actions/workflow/status/daniel-rusu/pods4k/ci.yml?style=for-the-badge&label=CI\n\n[stars-badge]: https://img.shields.io/github/stars/daniel-rusu/pods4k?style=for-the-badge\n\n\n[fast-shield]: https://img.shields.io/badge/Blazing_Fast-blue\n\n[efficient-shield]: https://img.shields.io/badge/Memory_Efficient-blue\n\n[immutable-shield]: https://img.shields.io/badge/True_Immutability-blue\n\n[type-safe-shield]: https://img.shields.io/badge/Type_Safety-blue\n\n[efficient-builders-shield]: https://img.shields.io/badge/Efficient_Builders-blue\n\n[github-stars-shield]: https://img.shields.io/github/stars/daniel-rusu/pods4k?label=Star\n\n[latest-version-shield]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdaniel-rusu%2Fpods4k%2Frefs%2Fheads%2Fmain%2Flatest_version.json&query=version&label=Latest%20Version&color=orange\n\n\n[stars-url]: https://github.com/daniel-rusu/pods4k/stargazers\n\n[maven-central-url]: https://central.sonatype.com/artifact/com.danrusu.pods4k/pods4k\n\n[license-url]: https://github.com/daniel-rusu/pods4k/blob/main/LICENSE",
+    "ContentSha": "26GeRMsArjkgYhtv3PI5YIlSSSp8eOPcKRQ5A0W7PnQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "参见 [不可变数组](https://raw.githubusercontent.com/daniel-rusu/pods4k/main/immutable-arrays/README.md) 了解更多细节，以及与普通数组、只读列表和不可变列表的详细比较。\n\n## 最低要求\n\n* Kotlin 1.9.25\n    * 该库兼容 K2，因为它被用于其他使用 Kotlin 2.1 等版本的项目。\n* JDK 11\n    * 自动化测试在 JDK LTS 版本 11、17 和 21 上运行。\n\n## Java 兼容性\n\n某些数据结构使用的技术仅受 Kotlin 编译器支持。虽然它们可以在混合的 Java 和 Kotlin 代码库中使用，以在 Java 定义的集合中存储这些数据结构之一，但通过类名引用这些数据结构仅在 Kotlin 文件中受支持。\n\n\n[maven-central-badge]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdaniel-rusu%2Fpods4k%2Frefs%2Fheads%2Fmain%2Flatest_version.json&query=version&style=for-the-badge&label=maven-central&color=orange\n\n[license-badge]: https://img.shields.io/github/license/daniel-rusu/pods4k?style=for-the-badge\n\n[top-language-badge]: https://img.shields.io/github/languages/top/daniel-rusu/pods4k?style=for-the-badge\n\n[build-status-badge]: https://img.shields.io/github/actions/workflow/status/daniel-rusu/pods4k/ci.yml?style=for-the-badge&label=CI\n\n[stars-badge]: https://img.shields.io/github/stars/daniel-rusu/pods4k?style=for-the-badge\n\n\n[fast-shield]: https://img.shields.io/badge/Blazing_Fast-blue\n\n[efficient-shield]: https://img.shields.io/badge/Memory_Efficient-blue\n\n[immutable-shield]: https://img.shields.io/badge/True_Immutability-blue\n\n[type-safe-shield]: https://img.shields.io/badge/Type_Safety-blue\n\n[efficient-builders-shield]: https://img.shields.io/badge/Efficient_Builders-blue\n\n[github-stars-shield]: https://img.shields.io/github/stars/daniel-rusu/pods4k?label=Star\n\n[latest-version-shield]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdaniel-rusu%2Fpods4k%2Frefs%2Fheads%2Fmain%2Flatest_version.json&query=version&label=Latest%20Version&color=orange\n\n\n[stars-url]: https://github.com/daniel-rusu/pods4k/stargazers\n\n[maven-central-url]: https://central.sonatype.com/artifact/com.danrusu.pods4k/pods4k\n\n[license-url]: https://github.com/daniel-rusu/pods4k/blob/main/LICENSE\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "参见 [不可变数组](https://raw.githubusercontent.com/daniel-rusu/pods4k/main/immutable-arrays/README.md) 了解更多细节，以及与普通数组、只读列表和不可变列表的详细比较。"
+      },
+      {
+        "row": 2,
+        "rowsha": "+YuBCvsS7I5imoPGfLh0sY4nLijUuSCMq6kIrnMsj94=",
+        "originContent": "See [Immutable Arrays](https://raw.githubusercontent.com/daniel-rusu/pods4k/main/immutable-arrays/README.md) for more specifics along with detailed comparisons against regular",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "A8Fgsc9ld/zRPG/ehpg9XJZgnMgKrmJRvUppEKMzGQ8=",
+        "originContent": "arrays, read-only lists, and immutable lists.",
+        "translatedContent": "## 最低要求"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "MZ/j6rhCYzb+9bIWkFNUc+/Tz55PLR3+coeVg85xPnY=",
+        "originContent": "## Minimum Requirements",
+        "translatedContent": "* Kotlin 1.9.25"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    * 该库兼容 K2，因为它被用于其他使用 Kotlin 2.1 等版本的项目。"
+      },
+      {
+        "row": 7,
+        "rowsha": "hTtvPUOf4wDoL9P3l9U1boTMbDLdvtNuXWkn/uax0QA=",
+        "originContent": "* Kotlin 1.9.25",
+        "translatedContent": "* JDK 11"
+      },
+      {
+        "row": 8,
+        "rowsha": "SjSXmAsawl9XHeVvnTsY8ruQZYQ763j+Vr6s1ZIh7jQ=",
+        "originContent": "    * This library is K2 compatible as it's used in other projects that use Kotlin 2.1 etc.",
+        "translatedContent": "    * 自动化测试在 JDK LTS 版本 11、17 和 21 上运行。"
+      },
+      {
+        "row": 9,
+        "rowsha": "dUUjxKNu5dt873g4Sr9ChO1JqfyZPEflew2gOVGczGA=",
+        "originContent": "* JDK 11",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "hDT6Wcbs7SUzOKLP2725gk33Ec4pF6lZyXxQOnRLsNQ=",
+        "originContent": "    * Automated tests are run on JDK LTS releases 11, 17, & 21",
+        "translatedContent": "## Java 兼容性"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "u9kSXH4+G6/3Jkj/al/2FRNcuGloPRBQqbr5FTRzFnw=",
+        "originContent": "## Java Compatibility",
+        "translatedContent": "某些数据结构使用的技术仅受 Kotlin 编译器支持。虽然它们可以在混合的 Java 和 Kotlin 代码库中使用，以在 Java 定义的集合中存储这些数据结构之一，但通过类名引用这些数据结构仅在 Kotlin 文件中受支持。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "n5Q2K5wQquJ7dt6riY4pI2ZuOB0dTEqeprLyHsIjRsU=",
+        "originContent": "Some data structures use techniques which are only supported by the Kotlin compiler. While they can be used in a mixed",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "yhAGz2IG7+CcFpqn/cdGjy5lmywXGx2h1uKnEvlbLW0=",
+        "originContent": "Java & Kotlin codebase to store one of these data structures in a Java-defined collection, referencing these data",
+        "translatedContent": "[maven-central-badge]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdaniel-rusu%2Fpods4k%2Frefs%2Fheads%2Fmain%2Flatest_version.json&query=version&style=for-the-badge&label=maven-central&color=orange"
+      },
+      {
+        "row": 16,
+        "rowsha": "a2TuGLUDaI2Vjh0Q/CT/2Kj5cg2ta3hcvaOZpLaaRkU=",
+        "originContent": "structures by their class name is only supported within Kotlin files.",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[license-badge]: https://img.shields.io/github/license/daniel-rusu/pods4k?style=for-the-badge"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "BiAJ3vneqwbaU/M+9azgSBaZHPz1G7HwvyO4kepfw78=",
+        "originContent": "[maven-central-badge]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdaniel-rusu%2Fpods4k%2Frefs%2Fheads%2Fmain%2Flatest_version.json&query=version&style=for-the-badge&label=maven-central&color=orange",
+        "translatedContent": "[top-language-badge]: https://img.shields.io/github/languages/top/daniel-rusu/pods4k?style=for-the-badge"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "GR2oUxHI8SvEut1lEXtI14cuawy3wuGyW9pvSuILjRw=",
+        "originContent": "[license-badge]: https://img.shields.io/github/license/daniel-rusu/pods4k?style=for-the-badge",
+        "translatedContent": "[build-status-badge]: https://img.shields.io/github/actions/workflow/status/daniel-rusu/pods4k/ci.yml?style=for-the-badge&label=CI"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "GsnJ4Hx/QeXKKyfPHiLvflKQAPA9+BR6i7Lyws1hvM8=",
+        "originContent": "[top-language-badge]: https://img.shields.io/github/languages/top/daniel-rusu/pods4k?style=for-the-badge",
+        "translatedContent": "[stars-badge]: https://img.shields.io/github/stars/daniel-rusu/pods4k?style=for-the-badge"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "ZhBJWdXXregQvDIOAaALfj6whlbUG2EuBOlMY+CXKVs=",
+        "originContent": "[build-status-badge]: https://img.shields.io/github/actions/workflow/status/daniel-rusu/pods4k/ci.yml?style=for-the-badge&label=CI",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[fast-shield]: https://img.shields.io/badge/Blazing_Fast-blue"
+      },
+      {
+        "row": 27,
+        "rowsha": "zj8nZ1q28mrI0KWekjF7+lgVQcfWydeWGBmviBNif7w=",
+        "originContent": "[stars-badge]: https://img.shields.io/github/stars/daniel-rusu/pods4k?style=for-the-badge",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[efficient-shield]: https://img.shields.io/badge/Memory_Efficient-blue"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "rlkSdpAQ2KA7b/VTIh0yA5U0brszkLXZ9EEmRPhzOxU=",
+        "originContent": "[fast-shield]: https://img.shields.io/badge/Blazing_Fast-blue",
+        "translatedContent": "[immutable-shield]: https://img.shields.io/badge/True_Immutability-blue"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "a7TAoLX0ai8DwWQei5kliRbzrpbOEmEWAIC5x/o29DE=",
+        "originContent": "[efficient-shield]: https://img.shields.io/badge/Memory_Efficient-blue",
+        "translatedContent": "[type-safe-shield]: https://img.shields.io/badge/Type_Safety-blue"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "5bppuBDLzp7mGTnxzbzNHAbpIYta/oeN3dM4hYWc438=",
+        "originContent": "[immutable-shield]: https://img.shields.io/badge/True_Immutability-blue",
+        "translatedContent": "[efficient-builders-shield]: https://img.shields.io/badge/Efficient_Builders-blue"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "ph+rUxO3dVLQzHLPXp1TkTbxN2qpM37sAVQTjKSK3GE=",
+        "originContent": "[type-safe-shield]: https://img.shields.io/badge/Type_Safety-blue",
+        "translatedContent": "[github-stars-shield]: https://img.shields.io/github/stars/daniel-rusu/pods4k?label=Star"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "pObSo6TgwAfCav7Y6D/QkjL7Fpt21ArTgKgvAP0Y7yo=",
+        "originContent": "[efficient-builders-shield]: https://img.shields.io/badge/Efficient_Builders-blue",
+        "translatedContent": "[latest-version-shield]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdaniel-rusu%2Fpods4k%2Frefs%2Fheads%2Fmain%2Flatest_version.json&query=version&label=Latest%20Version&color=orange"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "7mRXzRO1eDfLVCK73OtfE2uAxK3+zx4rpxm3fOY6+TE=",
+        "originContent": "[github-stars-shield]: https://img.shields.io/github/stars/daniel-rusu/pods4k?label=Star",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[stars-url]: https://github.com/daniel-rusu/pods4k/stargazers"
+      },
+      {
+        "row": 42,
+        "rowsha": "FGljTw4WAj8PTi71MtaotPuecWgaGbXQoiTlHimGyNU=",
+        "originContent": "[latest-version-shield]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdaniel-rusu%2Fpods4k%2Frefs%2Fheads%2Fmain%2Flatest_version.json&query=version&label=Latest%20Version&color=orange",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[maven-central-url]: https://central.sonatype.com/artifact/com.danrusu.pods4k/pods4k"
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "AhJLZ0qYeAFEn14Oj92PloTgAmnurDZO5GByFt0Xjp0=",
+        "originContent": "[stars-url]: https://github.com/daniel-rusu/pods4k/stargazers",
+        "translatedContent": "[license-url]: https://github.com/daniel-rusu/pods4k/blob/main/LICENSE"
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "2M0AKC+hqyakfUXcI0O+OFvheZ24PW0N+okdEFniXp4=",
+        "originContent": "[maven-central-url]: https://central.sonatype.com/artifact/com.danrusu.pods4k/pods4k",
+        "translatedContent": ""
+      },
+      {
+        "row": 48,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "mNIIi9DeLSAFYwuKFP5QAMKOW4jZJPYEMF8zXIEznh0=",
+        "originContent": "[license-url]: https://github.com/daniel-rusu/pods4k/blob/main/LICENSE",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
