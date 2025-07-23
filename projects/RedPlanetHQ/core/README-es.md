@@ -36,6 +36,11 @@
 ### C.O.R.E: Tu cerebro digital para la era de la IA
 
 <p align="center">
+    <a href="https://deepwiki.com/RedPlanetHQ/core">
+        <img src="https://deepwiki.com/badge.svg" alt="DeepWiki Badge" />
+    </a>
+</p>
+<p align="center">
     <a href="https://docs.heysol.ai/core/overview"><b>Documentación</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
 </p>
@@ -47,26 +52,26 @@
 
 C.O.R.E es un grafo de memoria portátil construido a partir de tus interacciones con LLM y datos personales, haciendo que todo tu contexto e historial de trabajo estén accesibles para cualquier herramienta de IA, como un cerebro digital. Esto elimina la necesidad de compartir contexto repetidamente. El objetivo es proporcionar:
 
-- **Memoria unificada y portátil**: Añade y recupera contexto sin interrupciones, y conecta tu memoria entre aplicaciones como Claude, Cursor, Windsurf y más.
-- **Relacional, no solo hechos planos**: CORE organiza tu conocimiento, almacenando tanto hechos como relaciones para una memoria más profunda y rica, como un cerebro real.
-- **Propiedad del usuario**: Tú decides qué conservar, actualizar o eliminar y compartes tu memoria entre las herramientas que quieras, liberándote del bloqueo de proveedor.
+- **Memoria Unificada y Portátil**: Agrega y recupera contexto fácilmente, y conecta tu memoria entre apps como Claude, Cursor, Windsurf y más.
+- **Relacional, No solo Hechos Planos**: CORE organiza tu conocimiento, almacenando tanto hechos como relaciones para una memoria más profunda y rica como un cerebro real.
+- **Propiedad del Usuario**: Tú decides qué conservar, actualizar o eliminar y compartes tu memoria con la herramienta que desees, liberándote del bloqueo de proveedor.
 
 ## 🎥 Video Demostrativo
 
-[Ver Demo de C.O.R.E](https://youtu.be/iANZ32dnK60)
+[Mira la Demostración de C.O.R.E](https://youtu.be/iANZ32dnK60)
 
-<img width="954" height="700" alt="Panel principal de Core" src="https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694" />
+<img width="954" height="700" alt="Core dashboard" src="https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694" />
 
-## 🧩  Funcionalidades Clave
+## 🧩  Funciones Clave
 
-- **Grafo de Memoria**: Visualiza cómo se enlazan tus hechos y preferencias
-- **Chat con Memoria**: Haz preguntas sobre la memoria para obtener información y comprensión instantánea
-- **Plug n Play**: Usa instantáneamente la memoria de CORE en aplicaciones como Cursor, Claude
+- **Grafo de Memoria**: Visualiza cómo se conectan tus hechos y preferencias
+- **Chatea con la Memoria**: Haz preguntas sobre tu memoria para obtener información y comprensión instantánea
+- **Plug n Play**: Usa instantáneamente la memoria CORE en apps como Cursor, Claude
 
-## ☁️ Configuración en la Nube de C.O.R.E
+## ☁️ Configuración de C.O.R.E Cloud
 
 1. Regístrate en [Core Cloud](https://core.heysol.ai) y comienza a construir tu grafo de memoria.
-2. Añade el texto que quieras guardar en la memoria. Una vez hagas clic en el botón `+ Add` se generará tu grafo de memoria.
+2. Añade el texto que quieras guardar en memoria. Al hacer clic en el botón `+ Add` se generará tu grafo de memoria.
 3. [Conecta Core Memory MCP con Cursor](#connecting-core-mcp-with-cursor)
 
 ## 💻 Configuración Local de C.O.R.E
@@ -74,16 +79,16 @@ C.O.R.E es un grafo de memoria portátil construido a partir de tus interaccione
 #### Requisitos Previos
 
 1. Docker
-2. Clave API de OpenAI
+2. Clave de API de OpenAI
 
 
-> **Nota:** Estamos trabajando activamente para mejorar el soporte de los modelos Llama. Por el momento, C.O.R.E no proporciona resultados óptimos con modelos basados en Llama, pero estamos progresando para asegurar una mejor compatibilidad y rendimiento en un futuro cercano.
+> **Nota:** Estamos trabajando activamente en mejorar el soporte para modelos Llama. Actualmente, C.O.R.E no proporciona resultados óptimos con modelos basados en Llama, pero estamos avanzando para asegurar una mejor compatibilidad y resultados en un futuro cercano.
 > 
 #### Ejecutar C.O.R.E localmente
 
-1. **Copiar Variables de Entorno**
+1. **Copia las Variables de Entorno**
 
-   Copia el archivo de entorno de ejemplo a `.env`:
+   Copia el archivo de ejemplo de entorno a `.env`:
 
 
    ```bash
@@ -202,6 +207,6 @@ Explora nuestra documentación para sacar el máximo provecho de CORE
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
 
 ---

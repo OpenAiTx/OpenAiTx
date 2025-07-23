@@ -1,0 +1,687 @@
+[
+  {
+    "Id": 1,
+    "Content": "# WebSerial for Firefox\n\nWebSerial API Polyfill for Mozilla Firefox browser\n\n## Introduction\n\nThis add-on allows to use the WebSerial API in Firefox.\n\nIt uses a native application to communicate with serial ports.\n\n**NOTE:** Currently, the add-on only works on Windows and Linux (x86-64).\n\n## Installation\n\nThe add-on is available for download from Mozilla Addons:\n[WebSerial for Firefox](https://addons.mozilla.org/pl/firefox/addon/webserial-for-firefox/).\n\nThe native application needs to be installed on the computer first. The GUI will offer to download the\nnative application when you first try to open a serial port.\n\n### Installation on Windows\n\nThe .exe file is an installer - just open it and install the native application.\n\n### Installation on Linux\n\nRun script:\n",
+    "ContentSha": "bRGGrIRe8bixfjtHJ8UJ4Bfy4wQNYY09hYcRXlXz9U4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># Firefox 的 WebSerial\n\n适用于 Mozilla Firefox 浏览器的 WebSerial API 补充插件\n\n## 介绍\n\n此插件允许在 Firefox 中使用 WebSerial API。\n\n它使用本地应用程序与串口通信。\n\n**注意：** 目前，该插件仅支持 Windows 和 Linux（x86-64）。\n\n## 安装\n\n该插件可从 Mozilla 附加组件下载：\n[Firefox 的 WebSerial](https://addons.mozilla.org/pl/firefox/addon/webserial-for-firefox/)。\n\n本地应用程序需要先安装在计算机上。首次尝试打开串口时，GUI 会提示下载\n本地应用程序。\n\n### Windows 安装\n\n.exe 文件是安装程序 - 只需打开它并安装本地应用程序。\n\n### Linux 安装\n\n运行脚本：\n</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "yujenlNrZnhpMJdenGLbA8YhI8FK7dohz6bIW6r1qyI=",
+        "originContent": "# WebSerial for Firefox",
+        "translatedContent": "<translate-content># Firefox 的 WebSerial"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "D1ZWCn/jFd/bW92VUnBnn+3bm0r+8iuWugZzMyBvK8I=",
+        "originContent": "WebSerial API Polyfill for Mozilla Firefox browser",
+        "translatedContent": "适用于 Mozilla Firefox 浏览器的 WebSerial API 补充插件"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "11PvuraB+k2oJHDZqDscIC3lj5L9SY53omnBFjvEcUs=",
+        "originContent": "## Introduction",
+        "translatedContent": "## 介绍"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "4u5x+xEEEJMD5Q7fAJhKPcNVMhOprrkSPcUANGhj2Bo=",
+        "originContent": "This add-on allows to use the WebSerial API in Firefox.",
+        "translatedContent": "此插件允许在 Firefox 中使用 WebSerial API。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "5Q19CgXMBasdnjZJX8PakphlUfbgdtTCvM04i52R5Sk=",
+        "originContent": "It uses a native application to communicate with serial ports.",
+        "translatedContent": "它使用本地应用程序与串口通信。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "abIvgMg6J7VztxekTjGVdrPzhUtS61sAPcM4ZVnBEmY=",
+        "originContent": "**NOTE:** Currently, the add-on only works on Windows and Linux (x86-64).",
+        "translatedContent": "**注意：** 目前，该插件仅支持 Windows 和 Linux（x86-64）。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## 安装"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "VD8vg2D0SBT2ql+F482BvYej6m3fEFFQkPnLZK+3UXk=",
+        "originContent": "The add-on is available for download from Mozilla Addons:",
+        "translatedContent": "该插件可从 Mozilla 附加组件下载："
+      },
+      {
+        "row": 16,
+        "rowsha": "OsgKnw0WHqIONKb1Bs9kP9pggprY+tSlltPNwhiJOQ0=",
+        "originContent": "[WebSerial for Firefox](https://addons.mozilla.org/pl/firefox/addon/webserial-for-firefox/).",
+        "translatedContent": "[Firefox 的 WebSerial](https://addons.mozilla.org/pl/firefox/addon/webserial-for-firefox/)。"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "AmQ9eXIe/6bJ9tvCgUaqcTnyE6w0vxcRjYf10xSgLZ4=",
+        "originContent": "The native application needs to be installed on the computer first. The GUI will offer to download the",
+        "translatedContent": "本地应用程序需要先安装在计算机上。首次尝试打开串口时，GUI 会提示下载"
+      },
+      {
+        "row": 19,
+        "rowsha": "kM6JScM/QK6NlL+ePdhnNXhkwQuDHqN1SammjMJgAws=",
+        "originContent": "native application when you first try to open a serial port.",
+        "translatedContent": "本地应用程序。"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "a/vb377OqXk/EHtsHKkxBFaoiGjDkpCGcNVaBXfVnpg=",
+        "originContent": "### Installation on Windows",
+        "translatedContent": "### Windows 安装"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "DRCvVGmOWsg/0drhww8y3leG7urYN38+BXNBTOZE0So=",
+        "originContent": "The .exe file is an installer - just open it and install the native application.",
+        "translatedContent": ".exe 文件是安装程序 - 只需打开它并安装本地应用程序。"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "5Bdt+d/TtBH1OFN2/u8nwSR3pWNKiL6rSj/HJqrgowo=",
+        "originContent": "### Installation on Linux",
+        "translatedContent": "### Linux 安装"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "mzgZ4IbYe0Tl/ZQYDOKV/VXzS91VOjyZ61DW9jI1qwQ=",
+        "originContent": "Run script:",
+        "translatedContent": "运行脚本："
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```sh\ncurl -s -L https://raw.githubusercontent.com/kuba2k2/firefox-webserial/master/native/install/linux_x86_64.sh | bash\n```",
+    "ContentSha": "5cSbIi7dYDdjoW9GfGq0697jKwTImL1IRxdq+1wg1Xc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\ncurl -s -L https://raw.githubusercontent.com/kuba2k2/firefox-webserial/master/native/install/linux_x86_64.sh | bash\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "IyG34d3E1R5Bni/9OnPuW+V5w2+dRi1dDXBB9NXZeMM=",
+        "originContent": "curl -s -L https://raw.githubusercontent.com/kuba2k2/firefox-webserial/master/native/install/linux_x86_64.sh | bash",
+        "translatedContent": "curl -s -L https://raw.githubusercontent.com/kuba2k2/firefox-webserial/master/native/install/linux_x86_64.sh | bash"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n#### or install manually\n\n1. Put the downloaded file in `~/.mozilla/native-messaging-hosts`\n2. Rename it to just `firefox-webserial`.\n3. Make it executable: `chmod +x ~/.mozilla/native-messaging-hosts/firefox-webserial`.\n4. Create a file named `io.github.kuba2k2.webserial.json` in the same directory, with this content:",
+    "ContentSha": "iTM0inoAaYN4jgqYRVUVXQk0xNFmC4H37O5/ZVFHR7Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "#### 或手动安装\n\n1. 将下载的文件放入 `~/.mozilla/native-messaging-hosts`\n2. 重命名为 `firefox-webserial`。\n3. 使其可执行：`chmod +x ~/.mozilla/native-messaging-hosts/firefox-webserial`。\n4. 在同一目录下创建一个名为 `io.github.kuba2k2.webserial.json` 的文件，内容如下：</translate-content>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### 或手动安装"
+      },
+      {
+        "row": 2,
+        "rowsha": "CjLaIvXlh+SEN58oHU3880s8Bf8hqW8gjIJ+eKMKNPE=",
+        "originContent": "#### or install manually",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 将下载的文件放入 `~/.mozilla/native-messaging-hosts`"
+      },
+      {
+        "row": 4,
+        "rowsha": "iu2dNGtxhYFm50rfZ/GCJu/oZHLgx+njVyda1Haea8I=",
+        "originContent": "1. Put the downloaded file in `~/.mozilla/native-messaging-hosts`",
+        "translatedContent": "2. 重命名为 `firefox-webserial`。"
+      },
+      {
+        "row": 5,
+        "rowsha": "4nQYsFCT85hfbnCYp5Sfhxq3xXIF2zJ7TkB0Tc7s9fg=",
+        "originContent": "2. Rename it to just `firefox-webserial`.",
+        "translatedContent": "3. 使其可执行：`chmod +x ~/.mozilla/native-messaging-hosts/firefox-webserial`。"
+      },
+      {
+        "row": 6,
+        "rowsha": "VoET3sRMNkFWxljfkz1bJ+JDy8/I43nOp9S0KcJu5S4=",
+        "originContent": "3. Make it executable: `chmod +x ~/.mozilla/native-messaging-hosts/firefox-webserial`.",
+        "translatedContent": "4. 在同一目录下创建一个名为 `io.github.kuba2k2.webserial.json` 的文件，内容如下：</translate-content>"
+      },
+      {
+        "row": 7,
+        "rowsha": "ETGYzOtr5kblia3Y0xTKO3JhNEqFjVT251snd3VySTo=",
+        "originContent": "4. Create a file named `io.github.kuba2k2.webserial.json` in the same directory, with this content:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "\t```json\n\t{\n\t\t\"name\": \"io.github.kuba2k2.webserial\",\n\t\t\"description\": \"WebSerial for Firefox\",\n\t\t\"path\": \"/home/USER/.mozilla/native-messaging-hosts/firefox-webserial\",\n\t\t\"type\": \"stdio\",\n\t\t\"allowed_extensions\": [\"webserial@kuba2k2.github.io\"]\n\t}\n\t```",
+    "ContentSha": "LV7pxPDQJC2yRGAoCGwIPh2aJ0f3uqI48dxomsZHzyA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\t```json\n\t{\n\t\t\"name\": \"io.github.kuba2k2.webserial\",\n\t\t\"description\": \"WebSerial for Firefox\",\n\t\t\"path\": \"/home/USER/.mozilla/native-messaging-hosts/firefox-webserial\",\n\t\t\"type\": \"stdio\",\n\t\t\"allowed_extensions\": [\"webserial@kuba2k2.github.io\"]\n\t}\n\t```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "/k7DbcWoTkmBwac1/3SMUwwRsAwgE6pTprMivO5LFg4=",
+        "originContent": "\t```json",
+        "translatedContent": "\t```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "BLJ76osRU0xszqc4/BAddiCzyRV2bF0XEgfStvT/u0w=",
+        "originContent": "\t{",
+        "translatedContent": "\t{"
+      },
+      {
+        "row": 3,
+        "rowsha": "hEufryVf2OcmYziVEut24JiUZeeyxT4fQsiSZ1Xm0N4=",
+        "originContent": "\t\t\"name\": \"io.github.kuba2k2.webserial\",",
+        "translatedContent": "\t\t\"name\": \"io.github.kuba2k2.webserial\","
+      },
+      {
+        "row": 4,
+        "rowsha": "6hoxuBeChYSm0nncv8rP7TWhcdNNxXju26HtD46pKCc=",
+        "originContent": "\t\t\"description\": \"WebSerial for Firefox\",",
+        "translatedContent": "\t\t\"description\": \"WebSerial for Firefox\","
+      },
+      {
+        "row": 5,
+        "rowsha": "Z+X53PMftA9OOs6PyX4q5InPel5SnEJgSQHNQgzPtn0=",
+        "originContent": "\t\t\"path\": \"/home/USER/.mozilla/native-messaging-hosts/firefox-webserial\",",
+        "translatedContent": "\t\t\"path\": \"/home/USER/.mozilla/native-messaging-hosts/firefox-webserial\","
+      },
+      {
+        "row": 6,
+        "rowsha": "NJzHyWi0Ut4DAXOFdl4V0fic7Tn02mJMppVocfIZz/s=",
+        "originContent": "\t\t\"type\": \"stdio\",",
+        "translatedContent": "\t\t\"type\": \"stdio\","
+      },
+      {
+        "row": 7,
+        "rowsha": "pV+rS1goTuLI0+3neFcGFsx+OMnDJETLP/qd6Xcd33w=",
+        "originContent": "\t\t\"allowed_extensions\": [\"webserial@kuba2k2.github.io\"]",
+        "translatedContent": "\t\t\"allowed_extensions\": [\"webserial@kuba2k2.github.io\"]"
+      },
+      {
+        "row": 8,
+        "rowsha": "oyo7txIUhevLwaK2r1hczF9qTEvB6ZeRH824leZpJhE=",
+        "originContent": "\t}",
+        "translatedContent": "\t}"
+      },
+      {
+        "row": 9,
+        "rowsha": "gH9ZpgMUP6qXHSM3luPtxtRpTR8ATfPHKXUWI8uc+Aw=",
+        "originContent": "\t```",
+        "translatedContent": "\t```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\tAdjust `/home/USER` to match your username.\n5. Restart the browser and use the extension.\n\n**NOTE:** On Alpine Linux (or other musl-based distros) you will need to have `gcompat` installed.\n\n## Usage\n\nSome applications that can work on Firefox with this add-on:\n\n- [Spacehuhn Serial Terminal](https://serial.huhn.me/)\n- [Google Chrome Labs Serial Terminal](https://googlechromelabs.github.io/serial-terminal/)\n- [ESPWebTool by Spacehuhn](https://esp.huhn.me/)\n- [ESP Tool by Espressif](https://espressif.github.io/esptool-js/)\n- [ESPHome Web](https://web.esphome.io/)\n- [ESP Web Tools by ESPHome](https://esphome.github.io/esp-web-tools/)\n- [NinjaTerm by Geoffrey Hunter](https://ninjaterm.mbedded.ninja/)\n\n## Debugging\n\nTo view logs produced by the extension for debugging purposes:\n\n- Open [about:debugging](about:debugging), click `This Firefox`\n- Find `WebSerial for Firefox`, click `Inspect`\n- Type in the console: `window.wsdebug = true`\n- Go to a website of choice, try connecting to a serial port - the console should show extension logs.\n\n## License\n",
+    "ContentSha": "a4TDxFGsMJXxQso+aFPYV2/snb4CHSBkvDUhcICsigE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\t调整 `/home/USER` 以匹配您的用户名。\n5. 重启浏览器并使用该扩展。\n\n**注意：** 在 Alpine Linux（或其他基于 musl 的发行版）上，您需要安装 `gcompat`。\n\n## 使用方法\n\n一些可在 Firefox 上通过此附加组件运行的应用程序：\n\n- [Spacehuhn 串口终端](https://serial.huhn.me/)\n- [Google Chrome Labs 串口终端](https://googlechromelabs.github.io/serial-terminal/)\n- [Spacehuhn 的 ESPWebTool](https://esp.huhn.me/)\n- [Espressif 的 ESP 工具](https://espressif.github.io/esptool-js/)\n- [ESPHome Web](https://web.esphome.io/)\n- [ESPHome 的 ESP Web 工具](https://esphome.github.io/esp-web-tools/)\n- [Geoffrey Hunter 的 NinjaTerm](https://ninjaterm.mbedded.ninja/)\n\n## 调试\n\n查看扩展产生的日志以进行调试：\n\n- 打开 [about:debugging](about:debugging)，点击 `This Firefox`\n- 找到 `WebSerial for Firefox`，点击 `Inspect`\n- 在控制台输入：`window.wsdebug = true`\n- 访问任意网站，尝试连接串口——控制台应显示扩展日志。\n\n## 许可证\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "hDeBSPMkegHUnRHQ6Rii0Z4mANtpCxVjQXrV34oWYJY=",
+        "originContent": "\tAdjust `/home/USER` to match your username.",
+        "translatedContent": "\t调整 `/home/USER` 以匹配您的用户名。"
+      },
+      {
+        "row": 2,
+        "rowsha": "QTaYno5QaIbp8WDwynirW1FJjxk7dnM1u+5R2WtKRNs=",
+        "originContent": "5. Restart the browser and use the extension.",
+        "translatedContent": "5. 重启浏览器并使用该扩展。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "YVShSMAQ04yK2/+KHGsFUFTDHhx+TLA4GRNOwbBpxe8=",
+        "originContent": "**NOTE:** On Alpine Linux (or other musl-based distros) you will need to have `gcompat` installed.",
+        "translatedContent": "**注意：** 在 Alpine Linux（或其他基于 musl 的发行版）上，您需要安装 `gcompat`。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 使用方法"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "+rvAEFJjn8kvZI7Mg32tRZHqTBRHK6qR77CktbCcx0g=",
+        "originContent": "Some applications that can work on Firefox with this add-on:",
+        "translatedContent": "一些可在 Firefox 上通过此附加组件运行的应用程序："
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "ZqolJ5yQnVcEw3x/Et6V0+rwxvXMo8i1TtjdaUW8ZtA=",
+        "originContent": "- [Spacehuhn Serial Terminal](https://serial.huhn.me/)",
+        "translatedContent": "- [Spacehuhn 串口终端](https://serial.huhn.me/)"
+      },
+      {
+        "row": 11,
+        "rowsha": "FTw6tbfuQXxRcv3+/Hc3eU4MFTev/DKt+gWpobBy0WU=",
+        "originContent": "- [Google Chrome Labs Serial Terminal](https://googlechromelabs.github.io/serial-terminal/)",
+        "translatedContent": "- [Google Chrome Labs 串口终端](https://googlechromelabs.github.io/serial-terminal/)"
+      },
+      {
+        "row": 12,
+        "rowsha": "A4MgYIGKuMqSUTJpghBvhpabtEdR5Jz1zcY+o316QbU=",
+        "originContent": "- [ESPWebTool by Spacehuhn](https://esp.huhn.me/)",
+        "translatedContent": "- [Spacehuhn 的 ESPWebTool](https://esp.huhn.me/)"
+      },
+      {
+        "row": 13,
+        "rowsha": "CAg7a/8o9fPuFg3gs7E5aSKB+DdjJYQHLT6K/S4USM0=",
+        "originContent": "- [ESP Tool by Espressif](https://espressif.github.io/esptool-js/)",
+        "translatedContent": "- [Espressif 的 ESP 工具](https://espressif.github.io/esptool-js/)"
+      },
+      {
+        "row": 14,
+        "rowsha": "z1hBH24Uq8EOHmaxCbuWV/2kK+3VZUnHYFK40VgIEOw=",
+        "originContent": "- [ESPHome Web](https://web.esphome.io/)",
+        "translatedContent": "- [ESPHome Web](https://web.esphome.io/)"
+      },
+      {
+        "row": 15,
+        "rowsha": "y+b2dp31H4jiZcKm9w9J+Rh8pxmYXtVHuGR8PLXbPVc=",
+        "originContent": "- [ESP Web Tools by ESPHome](https://esphome.github.io/esp-web-tools/)",
+        "translatedContent": "- [ESPHome 的 ESP Web 工具](https://esphome.github.io/esp-web-tools/)"
+      },
+      {
+        "row": 16,
+        "rowsha": "YoioTrUP5xAnSLWGNhkRMbQ90nLP+0SrqsPNMHflcJM=",
+        "originContent": "- [NinjaTerm by Geoffrey Hunter](https://ninjaterm.mbedded.ninja/)",
+        "translatedContent": "- [Geoffrey Hunter 的 NinjaTerm](https://ninjaterm.mbedded.ninja/)"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "huEdaXmYq5P7w0j7EmXyZL0EJ7lvE9edl8jstEYZ8xo=",
+        "originContent": "## Debugging",
+        "translatedContent": "## 调试"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "DombWicSccOCpvnUDyln4p1ZV9NW5MNd8NXaamEAfPY=",
+        "originContent": "To view logs produced by the extension for debugging purposes:",
+        "translatedContent": "查看扩展产生的日志以进行调试："
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "esdcVArjZNvZGRnesM9/Ts65cY9lZqRMus0PQPfvApY=",
+        "originContent": "- Open [about:debugging](about:debugging), click `This Firefox`",
+        "translatedContent": "- 打开 [about:debugging](about:debugging)，点击 `This Firefox`"
+      },
+      {
+        "row": 23,
+        "rowsha": "K5Js+Q5AOQ6W2peC62eqAm2lOX4YHLF4r/ZWrJtVrdU=",
+        "originContent": "- Find `WebSerial for Firefox`, click `Inspect`",
+        "translatedContent": "- 找到 `WebSerial for Firefox`，点击 `Inspect`"
+      },
+      {
+        "row": 24,
+        "rowsha": "GSMT3ymwtPra7ho7FZCofMMNdWQjgIU74jAuLybfoDg=",
+        "originContent": "- Type in the console: `window.wsdebug = true`",
+        "translatedContent": "- 在控制台输入：`window.wsdebug = true`"
+      },
+      {
+        "row": 25,
+        "rowsha": "lg0ybMqsHJIMpsid5q42DeG41Axcl4pfTTHV4ufeAmU=",
+        "originContent": "- Go to a website of choice, try connecting to a serial port - the console should show extension logs.",
+        "translatedContent": "- 访问任意网站，尝试连接串口——控制台应显示扩展日志。"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 许可证"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\nMIT License\n\nCopyright (c) 2023 Kuba Szczodrzyński\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n```",
+    "ContentSha": "UQKqCVcNsAzFPUORZmd+la+DD4wR2uff2kVNGS8n5KU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nMIT License\n\nCopyright (c) 2023 Kuba Szczodrzyński\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "q7KJbcPCqUAvkBuI1QNc8Kg9XPfBfnNkLN9WKwudO8U=",
+        "originContent": "MIT License",
+        "translatedContent": "MIT License"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "KZj54fxa8V6V5TI8/di0ay9It4tjMfVsYkYLj9XBJcQ=",
+        "originContent": "Copyright (c) 2023 Kuba Szczodrzyński",
+        "translatedContent": "Copyright (c) 2023 Kuba Szczodrzyński"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "6ygdewCoVnearKfR7FGXp2NGz0d0vZZ/lMRTkwkHaog=",
+        "originContent": "Permission is hereby granted, free of charge, to any person obtaining a copy",
+        "translatedContent": "Permission is hereby granted, free of charge, to any person obtaining a copy"
+      },
+      {
+        "row": 7,
+        "rowsha": "tB6IBZRBlGdDbRUpcPNnEASfdOCGi6OVvavIByTSt9Q=",
+        "originContent": "of this software and associated documentation files (the \"Software\"), to deal",
+        "translatedContent": "of this software and associated documentation files (the \"Software\"), to deal"
+      },
+      {
+        "row": 8,
+        "rowsha": "qVeJMVdSBNt5caouhRNwg0dCuXZ0vq5F3wtlaAWeffI=",
+        "originContent": "in the Software without restriction, including without limitation the rights",
+        "translatedContent": "in the Software without restriction, including without limitation the rights"
+      },
+      {
+        "row": 9,
+        "rowsha": "cQWjY7xQ66jpP2dtuwvRRWSnldQwGLaGMNrpD3N/1bU=",
+        "originContent": "to use, copy, modify, merge, publish, distribute, sublicense, and/or sell",
+        "translatedContent": "to use, copy, modify, merge, publish, distribute, sublicense, and/or sell"
+      },
+      {
+        "row": 10,
+        "rowsha": "EOduAtLdwPqRWQ5lJJ27tXL9njInefim7qIo7ykIfDw=",
+        "originContent": "copies of the Software, and to permit persons to whom the Software is",
+        "translatedContent": "copies of the Software, and to permit persons to whom the Software is"
+      },
+      {
+        "row": 11,
+        "rowsha": "yyuTUVyg3VCFD9PhSRvwbDI1IZwo8VyU39LMiocdVvs=",
+        "originContent": "furnished to do so, subject to the following conditions:",
+        "translatedContent": "furnished to do so, subject to the following conditions:"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "2T6mDcJBdisYMKaqGZeyXXtS+TBSXP5ga9O4qrwlGJM=",
+        "originContent": "The above copyright notice and this permission notice shall be included in all",
+        "translatedContent": "The above copyright notice and this permission notice shall be included in all"
+      },
+      {
+        "row": 14,
+        "rowsha": "WF2w9fp99xXGvWkAfCZJ48tiQQ27cd4jLoOV2W/ii7s=",
+        "originContent": "copies or substantial portions of the Software.",
+        "translatedContent": "copies or substantial portions of the Software."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "WNq4iXJWd93FonCgffg5XjP0LHjB005/rO7dHFEfBMQ=",
+        "originContent": "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR",
+        "translatedContent": "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR"
+      },
+      {
+        "row": 17,
+        "rowsha": "tH5wC51OBORnBEi7OQZ+0siGPIrV5z8Dfde/mrDydOA=",
+        "originContent": "IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,",
+        "translatedContent": "IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+      },
+      {
+        "row": 18,
+        "rowsha": "/1019OAyTISZuBmAx9pLfEMX++Qj8KPJPK5Et6pnBb8=",
+        "originContent": "FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE",
+        "translatedContent": "FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE"
+      },
+      {
+        "row": 19,
+        "rowsha": "bcSYy9bifbENokMc/MMukEKKUvAifo52S48A8MxW5Bs=",
+        "originContent": "AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER",
+        "translatedContent": "AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER"
+      },
+      {
+        "row": 20,
+        "rowsha": "y2S6grz9x1yNaNplcVngDXV/K+rs8D8qzCg7BrK/i0s=",
+        "originContent": "LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,",
+        "translatedContent": "LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,"
+      },
+      {
+        "row": 21,
+        "rowsha": "FEQpFvEsO27s3/hIhTddi6j1At/huhtAF8dpa3LcOaE=",
+        "originContent": "OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE",
+        "translatedContent": "OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE"
+      },
+      {
+        "row": 22,
+        "rowsha": "2EKUEweHqGAPrmh06ntaxm75mKmb6Jasj34Acdz+wGM=",
+        "originContent": "SOFTWARE.",
+        "translatedContent": "SOFTWARE."
+      },
+      {
+        "row": 23,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

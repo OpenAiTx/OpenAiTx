@@ -36,6 +36,11 @@
 ### C.O.R.E: Otak digital Anda untuk era AI
 
 <p align="center">
+    <a href="https://deepwiki.com/RedPlanetHQ/core">
+        <img src="https://deepwiki.com/badge.svg" alt="DeepWiki Badge" />
+    </a>
+</p>
+<p align="center">
     <a href="https://docs.heysol.ai/core/overview"><b>Dokumentasi</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
 </p>
@@ -45,11 +50,11 @@
 
 **Contextual Observation & Recall Engine**
 
-C.O.R.E adalah grafik memori portabel yang dibangun dari interaksi llm dan data pribadi Anda, membuat semua konteks dan riwayat alur kerja Anda dapat diakses oleh alat AI mana pun, layaknya otak digital. Ini menghilangkan kebutuhan untuk berbagi konteks berulang kali. Tujuannya adalah untuk menyediakan:
+C.O.R.E adalah grafik memori portabel yang dibangun dari interaksi LLM dan data pribadi Anda, membuat semua konteks dan riwayat alur kerja Anda dapat diakses oleh alat AI mana pun, layaknya otak digital. Ini menghilangkan kebutuhan untuk berbagi konteks berulang kali. Tujuannya adalah untuk menyediakan:
 
-- **Memori Terpadu & Portabel**: Tambahkan dan ingat konteks dengan mulus, serta hubungkan memori Anda di aplikasi seperti Claude, Cursor, Windsurf dan lainnya.
-- **Relasional, Bukan Hanya Fakta Datar**: CORE mengatur pengetahuan Anda, menyimpan fakta sekaligus hubungan untuk memori yang lebih dalam dan kaya layaknya otak sungguhan.
-- **Dimiliki Pengguna**: Anda yang memutuskan apa yang ingin disimpan, diperbarui atau dihapus, serta membagikan memori Anda ke alat mana pun yang diinginkan tanpa terikat vendor.
+- **Memori Terpadu dan Portabel**: Tambahkan dan panggil kembali konteks secara mulus, serta hubungkan memori Anda di aplikasi seperti Claude, Cursor, Windsurf dan lainnya.
+- **Relasional, Bukan Hanya Fakta Datar**: CORE mengorganisasi pengetahuan Anda, menyimpan fakta sekaligus hubungan untuk memori yang lebih dalam dan kaya seperti otak nyata.
+- **Dimiliki Pengguna**: Anda yang menentukan apa yang disimpan, diperbarui, dihapus, dan membagikan memori Anda ke alat yang diinginkan tanpa terikat vendor.
 
 ## 🎥 Video Demo
 
@@ -59,17 +64,17 @@ C.O.R.E adalah grafik memori portabel yang dibangun dari interaksi llm dan data 
 
 ## 🧩  Fitur Utama
 
-- **Memory Graph**: Visualisasikan bagaimana fakta dan preferensi Anda saling terhubung
+- **Grafik Memori**: Visualisasikan bagaimana fakta dan preferensi Anda saling terhubung
 - **Chat dengan Memori**: Ajukan pertanyaan tentang memori untuk wawasan dan pemahaman instan
 - **Plug n Play**: Langsung gunakan memori CORE di aplikasi seperti Cursor, Claude
 
 ## ☁️ Pengaturan C.O.R.E Cloud
 
-1. Daftar ke [Core Cloud](https://core.heysol.ai) dan mulai membangun memory graph Anda.
-2. Tambahkan teks yang ingin Anda simpan dalam memori. Setelah klik tombol `+ Add`, grafik memori Anda akan dibuat.
+1. Daftar ke [Core Cloud](https://core.heysol.ai) dan mulai bangun grafik memori Anda.
+2. Tambahkan teks yang ingin Anda simpan di memori. Setelah mengklik tombol `+ Add`, grafik memori Anda akan dihasilkan.
 3. [Hubungkan Core Memory MCP dengan Cursor](#connecting-core-mcp-with-cursor)
 
-## 💻 Pengaturan C.O.R.E Lokal
+## 💻 Pengaturan Lokal C.O.R.E
 
 #### Prasyarat
 
@@ -77,13 +82,13 @@ C.O.R.E adalah grafik memori portabel yang dibangun dari interaksi llm dan data 
 2. OpenAI API Key
 
 
-> **Catatan:** Kami terus bekerja untuk meningkatkan dukungan model Llama. Saat ini, C.O.R.E belum memberikan hasil optimal dengan model berbasis Llama, namun kami sedang berprogres untuk memastikan kompatibilitas dan output yang lebih baik di waktu mendatang.
+> **Catatan:** Kami sedang aktif meningkatkan dukungan untuk model Llama. Saat ini, C.O.R.E belum memberikan hasil optimal dengan model berbasis Llama, namun kami terus berupaya agar kompatibilitas dan output-nya semakin baik dalam waktu dekat.
 > 
 #### Jalankan C.O.R.E secara lokal
 
 1. **Salin Variabel Lingkungan**
 
-   Salin file contoh environment ke `.env`:
+   Salin file environment contoh ke `.env`:
 
 
    ```bash
@@ -202,6 +207,6 @@ Punya pertanyaan atau masukan? Kami siap membantu:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
 
 ---

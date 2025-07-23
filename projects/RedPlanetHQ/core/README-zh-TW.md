@@ -30,13 +30,18 @@
 
 <div align="center">
   <a href="https://core.heysol.ai">
-    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE 標誌" />
+    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logo" />
   </a>
 
-### C.O.R.E：AI時代的數位大腦
+### C.O.R.E: AI時代的數位大腦
 
 <p align="center">
-    <a href="https://docs.heysol.ai/core/overview"><b>文件說明</b></a> •
+    <a href="https://deepwiki.com/RedPlanetHQ/core">
+        <img src="https://deepwiki.com/badge.svg" alt="DeepWiki Badge" />
+    </a>
+</p>
+<p align="center">
+    <a href="https://docs.heysol.ai/core/overview"><b>文件</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
 </p>
 </div>
@@ -45,31 +50,31 @@
 
 **情境觀察與回憶引擎**
 
-C.O.R.E 是一個可攜式的記憶圖譜，由您的 LLM 互動和個人數據構建而成，讓所有的情境與工作流程歷史都能被任何 AI 工具存取，就像一個數位大腦。這可消除重複分享背景資訊的需求。目標是提供：
+C.O.R.E 是一套可攜式記憶圖譜，根據您的 LLM 互動與個人資料構建，讓所有情境與工作流程歷史都能供任何 AI 工具存取，就像一顆數位大腦。這消除了重複分享上下文的需求。其目標是提供：
 
-- **統一且可攜的記憶體**：無縫新增與回憶情境，並在如 Claude、Cursor、Windsurf 等應用間連接您的記憶。
-- **關聯式，而非僅僅是平面事實**：CORE 組織您的知識，同時儲存事實與關係，打造更深層、更豐富的記憶，如同真實大腦。
-- **用戶自有**：您決定保留、更新或刪除什麼，並可在您想要的工具間分享記憶，擺脫供應商綁定。
+- **統一且可攜式的記憶**：無縫新增與回憶情境，並可將您的記憶串接至如 Claude、Cursor、Windsurf 等多款應用。
+- **關聯式而非僅平面事實**：CORE 組織您的知識，儲存事實與關係，打造如同大腦般更深層且豐富的記憶。
+- **用戶擁有**：您可自行決定保留、更新、刪除哪些記憶，並能於所需工具間分享，擺脫廠商綁定。
 
 ## 🎥 示範影片
 
 [觀看 C.O.R.E 示範](https://youtu.be/iANZ32dnK60)
 
-<img width="954" height="700" alt="Core 控制面板" src="https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694" />
+<img width="954" height="700" alt="Core dashboard" src="https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694" />
 
 ## 🧩  主要功能
 
-- **記憶圖譜**：可視化您的事實與偏好如何相互連結
-- **與記憶對話**：詢問關於記憶的問題，立即獲得見解與理解
+- **記憶圖譜**：可視化您的事實和偏好如何相互串連
+- **記憶對話**：詢問記憶內容，立即獲得洞察與理解
 - **即插即用**：可立即於 Cursor、Claude 等應用中使用 CORE 記憶
 
-## ☁️ C.O.R.E 雲端安裝
+## ☁️ C.O.R.E 雲端安裝指南
 
-1. 註冊 [Core Cloud](https://core.heysol.ai) 並開始建立您的記憶圖譜。
-2. 新增您想儲存於記憶中的文字。點擊 `+ Add` 按鈕後，您的記憶圖譜即會生成。
-3. [將 Core Memory MCP 連接到 Cursor](#connecting-core-mcp-with-cursor)
+1. 註冊 [Core Cloud](https://core.heysol.ai)，開始建立您的記憶圖譜。
+2. 新增您想儲存在記憶中的文本。點擊 `+ Add` 按鈕後將自動生成記憶圖譜。
+3. [將 Core 記憶 MCP 與 Cursor 連接](#connecting-core-mcp-with-cursor)
 
-## 💻 C.O.R.E 本地安裝
+## 💻 C.O.R.E 本地安裝指南
 
 #### 先決條件
 
@@ -77,13 +82,13 @@ C.O.R.E 是一個可攜式的記憶圖譜，由您的 LLM 互動和個人數據�
 2. OpenAI API 金鑰
 
 
-> **注意：**我們正積極提升對 Llama 模型的支援。目前 C.O.R.E 與 Llama 模型搭配時效果尚未最佳，但我們正努力提升相容性及結果，敬請期待未來更新。
+> **注意：**我們正積極改進對 Llama 模型的支援。目前 C.O.R.E 與 Llama 基礎模型尚未達到最佳效果，但我們正努力提升相容性與未來輸出品質。
 > 
-#### 在本地執行 C.O.R.E
+#### 本地執行 C.O.R.E
 
-1. **複製環境變數檔**
+1. **複製環境變數**
 
-   將範例環境檔複製為 `.env`：
+   將範例環境檔案複製為 `.env`：
 
 
    ```bash
@@ -202,6 +207,6 @@ response to core-memory mcp. sessionId should be the uuid of the conversation
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
 
 ---

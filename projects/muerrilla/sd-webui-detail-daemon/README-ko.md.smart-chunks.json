@@ -1,0 +1,513 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Detail Daemon\nThis is an extension for [Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui), which allows users to adjust the amount of detail/smoothness in an image, during the sampling steps. \n\nIt uses no LORAs, ControlNets, etc., and as a result its performance is not biased towards any certain style and it introduces no new stylistic or semantic features of its own into the generation. This also means that it can work with any model and on any type of image.\n\n<sub>*Model: SSD-1B*<br></sub>\n![a close up portrait of a cyberpunk knight-1Lv-0](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/561c33d9-9a5d-4cfc-bee8-de9126b280c1)\n*Left: Less detail, Middle: Original, Right: More detail*<br>\n\n<sub>*Model: SD 1.5 (finetuned)*<br></sub>\n![face of a cute cat love heart symbol-Zn6-0](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/9fbfb39f-81fb-4951-8f32-20eab410020a)\n*Left: Less detail, Middle: Original, Right: More detail*<br>\n\n\n## How It Works\nDetail Daemon works by manipulating the original noise levels at every sampling step, according to a customizable schedule. \n\n### In Theory\nThe noise levels (sigmas, i.e. the standard deviation of the noise) tell the model how much noise it should expect, and try to remove, at each denoising step. A higher sigma value at a certain denoising step tells the model to denoise more aggressively at that step and vice versa. \n\nWith a common sigmas schedule, the sigmas start at very high values at the beginning of the denoising process, then quickly fall to low values in the middle, and to very low values towards the end of the process. This curve (along with the timesteps schedule, but that's a story for another day) is what makes it so that larger features (low frequencies) of the image are defined at the earlier steps, and towards the end of the process you can only see minor changes in the smaller features (high frequencies). We'll get back to this later.\n\nNow, if we pass the model a sigmas schedule with values lower than the original, at each step the model will denoise less, resulting a noisier output latent at that step. But then in the steps after that, the model does its best to make sense of this extra noise and turn it into image features. So in theory, *when done in modesty*, this would result in a more detailed image. If you push it too hard, the model won't be able to handle the extra noise added at each step and the end result will devolve into pure noise. So modesty is key. \n\n### But in Practice\nModesty only gets you so far! Also, wtf are those? As the examples below show, you can't really add that much detail to the image before it either breaks down, and/or becomes a totally different thing. \n\n<sub>*SD 1.5*<br></sub>\n![Modesty](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/2f011a28-0948-48f8-b171-350add6fdd67)\nOriginal sigmas (left) multiplied by .9, .85, .8<br>\n\n<sub>*SDXL*<br></sub>\n![1](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/eff2356e-a6dd-4a4e-9c7e-861dec7713eb)\nOriginal sigmas (left) multiplied by .95, .9, .85, .875, .8<br>\n\nThat's because: \n1. We're constantly adding noise and not giving the model enough time to deal with it\n2. We are manipulating the early steps where the low frequency features of the image (color, composition, etc.) are defined\n\n### Enter the Schedule\nWhat we usually mean by \"detail\" falls within the mid to high frequency range, which correspond to the middle to late steps in the sampling process. So if we skip the early steps to leave the main features of the image intact, and the late steps to give the model some time to turn the extra noise into useful detail, we'll have something like this:\n\n![3](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/cd47e882-8b56-4321-8c47-c0d689562780)\n\nThen we could make our schedule a bit fancier and have it target specific steps corresponding to different sized details:\n\n![4](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/ea5027d2-3359-4733-afb4-5ae4a1218f38)\n\nWhich steps correspond to which exact frequency range depends on the model you're using, the sampler, your prompt (specially if you're using Prompt Editing and stuff), and probably a bunch of other things. There are also fancier things you can (and should) do with the schedule, like pushing the sigmas too low for some heavy extra noise and then too high to clean up the excess and leave some nice details. So you need to do some tweaking to figure out the best schedule for each image you generate, or at least the ones that need their level of detail adjusted. But ideally you should be spending countless hours of your life sculpting the perfect detail adjustment schedule for every image, cuz that's why we're here.\n\nI'll soon provide specific examples addressing different scenarios and some of the techniques I've come up with. (note to self: move these to the wiki page)\n\n## Installation\nOpen SD WebUI > Go to Extensions tab > Go to Available tab > Click Load from: > Find Detail Daemon > Click Install\n\nOr Go to Install from URL tab > Paste this repo's URL into the first field > Click Install\n\nOr go to your WebUI folder and manually clone this repo into your extensions folder:\n\n`git clone \"https://github.com/muerrilla/sd-webui-detail-daemon\" extensions/sd-webui-detail-daemon`\n\n## Getting Started\nAfter installation you can find the extension in your txt2img and img2img tabs. \n![2024-07-08 01_43_21-011366](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/045574cb-465c-4991-83c4-d02f803a330b)\n### Sliders:\nThe sliders (and that one checkbox) set the amount of adjustment (positive values → add detail, negative values → remove detail) and the sampling steps during which it is applied (i.e. the schedule). So the X axis of the graph is your sampling steps, normalized to the (0,1) range, and the Y axis is the amount of adjustment. The rest is pretty self-explanatory I think. Just drag things and look at the graph for changes.\n### Numbers:\nThe three number inputs at the buttom are provided because sometimes the slider max/mins are too limiting.\n### Modes:\nThe `cond` and `uncond` modes affect only their respective latents, while `both` affects both (duh!). The `cond` and `uncond` modes are less intense and also allow changes to be applied at earlier steps without diverging too far from the original generation, since the other latent stays intact. \n\nThere's also a minor twist: in the `both` mode if `detail amount` is positive both cond and uncond latents become more detailed. So the more detailed cond latent will try to push the generation towards more detail, while the more detailed uncond latent will try to push towards less detail. This causes more new features/artifacts to pop into the image in this mode.\n\n### Tips:\nI'll write up some proper docs on how best to set the parameters, as soon as possible. For now you gotta play around with the sliders and figure out how the shape of the schedule affects the image. I suggest you set your live preview update period to every frame, or every other frame, so you could see clearly what's going on at every step of the sampling process and how Detail Daemon affects it, till you get a good grasp of how this thing works.\n\n## Notes:\n- Doesn't support Compositional Diffusion (i.e. the AND syntax) properly. Specially if you have a batch size > 1 or negative weights in your prompts, and the mode is set to `cond` or `uncond`.\n- It's probably impossible to use or very hard to control with few-step models (Turbo, Lightning, etc.). Edit: It's managable.\n- It works with Forge (`cond` and `uncond` modes are not supported).\n- It's not the same as AlignYourSteps, FreeU, etc.\n- It is similar (in what it sets out to do, not in how it does it) to the [ReSharpen Extension](https://github.com/Haoming02/sd-webui-resharpen) by Haoming.\n",
+    "ContentSha": "E5otC8UdRDbEz1yd4X8taHsiqz0i7jBn9vUFzw+YYLc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># 디테일 데몬\n이것은 [Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)를 위한 확장 기능으로, 사용자가 샘플링 단계 동안 이미지의 디테일/부드러움 정도를 조정할 수 있게 해줍니다.\n\nLORA, ControlNet 등을 사용하지 않으며, 그 결과 특정 스타일에 편향되지 않고 생성 과정에 새로운 스타일적 혹은 의미적 특성을 도입하지 않습니다. 이는 어떤 모델이나 이미지 유형에도 작동할 수 있음을 의미합니다.\n\n<sub>*모델: SSD-1B*<br></sub>\n![a close up portrait of a cyberpunk knight-1Lv-0](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/561c33d9-9a5d-4cfc-bee8-de9126b280c1)\n*왼쪽: 디테일 감소, 가운데: 원본, 오른쪽: 디테일 증가*<br>\n\n<sub>*모델: SD 1.5 (파인튜닝됨)*<br></sub>\n![face of a cute cat love heart symbol-Zn6-0](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/9fbfb39f-81fb-4951-8f32-20eab410020a)\n*왼쪽: 디테일 감소, 가운데: 원본, 오른쪽: 디테일 증가*<br>\n\n## 작동 원리\n디테일 데몬은 사용자 정의 가능한 스케줄에 따라 매 샘플링 단계에서 원래 노이즈 레벨을 조작하여 작동합니다.\n\n### 이론적 배경\n노이즈 레벨(시그마, 즉 노이즈의 표준 편차)은 모델에게 각 디노이징 단계에서 예상하고 제거해야 할 노이즈 양을 알려줍니다. 특정 단계에서 시그마 값이 높으면 모델은 해당 단계에서 더 적극적으로 노이즈를 제거하려 하고, 반대의 경우 덜 제거하려 합니다.\n\n일반적인 시그마 스케줄에서는 디노이징 과정 초반에 시그마 값이 매우 높다가 중간에 급격히 낮아지고, 과정 끝무렵에는 매우 낮은 값이 됩니다. 이 곡선(타임스텝 스케줄과 함께, 그러나 그것은 나중에 이야기할 주제입니다)이 이미지의 큰 특징(저주파)이 초반 단계에서 정의되고, 과정 끝에는 작은 특징(고주파)에서만 미세한 변화가 일어나도록 만듭니다. 이 부분은 나중에 다시 다루겠습니다.\n\n이제 원본보다 낮은 시그마 값 스케줄을 모델에 전달하면, 각 단계에서 모델은 덜 디노이징하고 그 단계에서 더 노이즈가 많은 잠재 공간을 출력합니다. 그러나 이후 단계에서 모델은 이 추가 노이즈를 이해하고 이미지 특징으로 변환하려 최선을 다합니다. 따라서 이론상 *적당히 할 경우* 더 디테일한 이미지를 얻을 수 있습니다. 너무 강하게 하면 모델이 추가된 노이즈를 처리하지 못해 최종 결과가 순수 노이즈로 변질됩니다. 그러므로 적당함이 중요합니다.\n\n### 그러나 실제로는\n적당함만으로는 한계가 있습니다! 그리고 저게 뭐야? 아래 예시들이 보여주듯, 이미지에 너무 많은 디테일을 추가하려 하면 이미지가 깨지거나 전혀 다른 것으로 변합니다.\n\n<sub>*SD 1.5*<br></sub>\n![Modesty](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/2f011a28-0948-48f8-b171-350add6fdd67)\n원본 시그마 (왼쪽) 에 0.9, 0.85, 0.8 곱함<br>\n\n<sub>*SDXL*<br></sub>\n![1](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/eff2356e-a6dd-4a4e-9c7e-861dec7713eb)\n원본 시그마 (왼쪽) 에 0.95, 0.9, 0.85, 0.875, 0.8 곱함<br>\n\n그 이유는:\n1. 우리는 계속해서 노이즈를 추가하지만 모델이 그것을 처리할 충분한 시간을 주지 않고,\n2. 이미지의 저주파 특징(색상, 구성 등)이 정의되는 초기 단계를 조작하기 때문입니다.\n\n### 스케줄 도입\n일반적으로 \"디테일\"이라 할 때는 중고주파 영역에 속하며, 이는 샘플링 과정의 중후반 단계에 해당합니다. 따라서 초기 단계를 건너뛰어 이미지의 주요 특징을 그대로 두고, 후반 단계를 남겨 모델이 추가 노이즈를 유용한 디테일로 변환할 시간을 주면 아래와 같은 스케줄을 만들 수 있습니다:\n\n![3](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/cd47e882-8b56-4321-8c47-c0d689562780)\n\n그리고 스케줄을 좀 더 정교하게 만들어 크기가 다른 디테일에 대응하는 특정 단계를 타겟팅할 수도 있습니다:\n\n![4](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/ea5027d2-3359-4733-afb4-5ae4a1218f38)\n\n어떤 단계가 어떤 주파수 범위에 해당하는지는 사용하는 모델, 샘플러, 프롬프트(특히 프롬프트 편집 등 사용 시), 그리고 아마도 여러 다른 요소에 따라 다릅니다. 또한 시그마를 너무 낮게 설정해 많은 노이즈를 추가했다가 다시 높여서 과잉 노이즈를 정리하고 멋진 디테일을 남기는 등, 스케줄로 할 수 있는(그리고 해야 하는) 더 정교한 작업들도 있습니다. 따라서 생성하는 각 이미지 또는 디테일 수준 조정이 필요한 이미지에 최적의 스케줄을 찾기 위해 조정이 필요합니다. 이상적으로는 모든 이미지에 완벽한 디테일 조정 스케줄을 만들기 위해 수많은 시간을 투자해야 합니다. 그것이 바로 우리가 이곳에 있는 이유입니다.\n\n곧 다양한 시나리오에 대응하는 구체적인 예제와 제가 생각해낸 기법들을 제공할 예정입니다. (자기 메모: 이 내용을 위키 페이지로 옮기기)\n\n## 설치 방법\nSD WebUI를 열고 > Extensions 탭으로 이동 > Available 탭으로 이동 > Load from: 클릭 > Detail Daemon 찾아 설치\n\n또는 Install from URL 탭으로 가서 > 이 저장소의 URL을 첫 번째 입력란에 붙여넣고 > 설치 클릭\n\n또는 WebUI 폴더로 가서 수동으로 이 저장소를 extensions 폴더에 클론:\n\n`git clone \"https://github.com/muerrilla/sd-webui-detail-daemon\" extensions/sd-webui-detail-daemon`\n\n## 시작하기\n설치 후 txt2img 및 img2img 탭에서 확장 기능을 찾을 수 있습니다.\n![2024-07-08 01_43_21-011366](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/045574cb-465c-4991-83c4-d02f803a330b)\n### 슬라이더:\n슬라이더(및 체크박스 하나)는 조정량(양수 → 디테일 추가, 음수 → 디테일 감소)과 적용할 샘플링 단계(즉, 스케줄)를 설정합니다. 그래프의 X축은 (0,1) 범위로 정규화된 샘플링 단계이고, Y축은 조정량입니다. 나머지는 설명이 필요 없을 정도로 직관적입니다. 그냥 드래그하며 그래프 변화를 보세요.\n### 숫자 입력:\n아래 세 숫자 입력란은 때때로 슬라이더의 최대/최소 한계가 너무 제한적일 때 사용하도록 제공됩니다.\n### 모드:\n`cond`와 `uncond` 모드는 각각 해당 잠재 공간에만 영향을 주며, `both`는 둘 다에 영향을 줍니다(당연하죠!). `cond`와 `uncond` 모드는 강도가 낮고, 다른 잠재 공간이 그대로 유지되므로 더 이른 단계에서도 원본 생성과 크게 벗어나지 않는 변화를 허용합니다.\n\n약간의 꼬임도 있습니다: `both` 모드에서 `detail amount`가 양수일 때, cond와 uncond 잠재 공간 모두 더 디테일해집니다. 따라서 더 디테일한 cond 잠재 공간은 생성물을 더 디테일하게 만들려 하고, 더 디테일한 uncond 잠재 공간은 디테일을 줄이려 시도합니다. 이로 인해 이 모드에서는 이미지에 더 많은 새로운 특징/아티팩트가 나타납니다.\n\n### 팁:\n가능한 한 빨리 최적의 매개변수 설정법에 관한 정식 문서를 작성할 예정입니다. 지금은 슬라이더를 조작하며 스케줄 모양이 이미지에 어떻게 영향을 주는지 직접 경험해 보세요. 라이브 미리보기 업데이트 주기를 매 프레임 또는 두 프레임마다로 설정해, 샘플링 과정 각 단계에서 무슨 일이 일어나는지, 디테일 데몬이 어떻게 영향을 주는지 명확히 볼 수 있도록 하는 것을 추천합니다.\n\n## 참고 사항:\n- Compositional Diffusion(즉, AND 구문)을 제대로 지원하지 않습니다. 특히 배치 크기가 1 초과이거나 프롬프트에 음수 가중치가 있을 때, 모드가 `cond` 또는 `uncond`로 설정되어 있으면 그렇습니다.\n- 적은 단계 모델(Turbo, Lightning 등)과는 사용이 불가능하거나 매우 어렵습니다. 수정: 관리 가능합니다.\n- Forge와 함께 작동합니다(`cond`와 `uncond` 모드는 지원되지 않음).\n- AlignYourSteps, FreeU 등과는 다릅니다.\n- Haoming의 [ReSharpen Extension](https://github.com/Haoming02/sd-webui-resharpen)과 비슷한 목적을 가졌으나(방법은 다름) 유사합니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTCqobOrIZtdRmFbMImLn1vHp3nElu7xeY7yzra3REg=",
+        "originContent": "# Detail Daemon",
+        "translatedContent": "<translate-content># 디테일 데몬"
+      },
+      {
+        "row": 2,
+        "rowsha": "fs6QMIppFUvmlQu8tGOHY2B4tnNKm1zhULTDNozw3jU=",
+        "originContent": "This is an extension for [Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui), which allows users to adjust the amount of detail/smoothness in an image, during the sampling steps. ",
+        "translatedContent": "이것은 [Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)를 위한 확장 기능으로, 사용자가 샘플링 단계 동안 이미지의 디테일/부드러움 정도를 조정할 수 있게 해줍니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "1ajxlAOFn4cOCnGroM24ko1H9KviSFs1CDRQwPQTh5M=",
+        "originContent": "It uses no LORAs, ControlNets, etc., and as a result its performance is not biased towards any certain style and it introduces no new stylistic or semantic features of its own into the generation. This also means that it can work with any model and on any type of image.",
+        "translatedContent": "LORA, ControlNet 등을 사용하지 않으며, 그 결과 특정 스타일에 편향되지 않고 생성 과정에 새로운 스타일적 혹은 의미적 특성을 도입하지 않습니다. 이는 어떤 모델이나 이미지 유형에도 작동할 수 있음을 의미합니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "dn+nVPKeM2SEANsZ5ahplhAZQhNBpb/+xvjYJh063AY=",
+        "originContent": "<sub>*Model: SSD-1B*<br></sub>",
+        "translatedContent": "<sub>*모델: SSD-1B*<br></sub>"
+      },
+      {
+        "row": 7,
+        "rowsha": "wzdtlYI289i2te6cWXFbX6oEaQ8+lEKQMnOA9VfKWkc=",
+        "originContent": "![a close up portrait of a cyberpunk knight-1Lv-0](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/561c33d9-9a5d-4cfc-bee8-de9126b280c1)",
+        "translatedContent": "![a close up portrait of a cyberpunk knight-1Lv-0](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/561c33d9-9a5d-4cfc-bee8-de9126b280c1)"
+      },
+      {
+        "row": 8,
+        "rowsha": "HKNHyemcg5P0dfD6W4xefCdwu6H/27nYE2VD2vnhPVs=",
+        "originContent": "*Left: Less detail, Middle: Original, Right: More detail*<br>",
+        "translatedContent": "*왼쪽: 디테일 감소, 가운데: 원본, 오른쪽: 디테일 증가*<br>"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "6GFIk0I/lwC/qbfHv+/gudUc5+6erMXKJAdqJHtoYe8=",
+        "originContent": "<sub>*Model: SD 1.5 (finetuned)*<br></sub>",
+        "translatedContent": "<sub>*모델: SD 1.5 (파인튜닝됨)*<br></sub>"
+      },
+      {
+        "row": 11,
+        "rowsha": "zUSL/VoTPTHrINgs9gxmIc4xeex8aTckvESdKLrFYNs=",
+        "originContent": "![face of a cute cat love heart symbol-Zn6-0](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/9fbfb39f-81fb-4951-8f32-20eab410020a)",
+        "translatedContent": "![face of a cute cat love heart symbol-Zn6-0](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/9fbfb39f-81fb-4951-8f32-20eab410020a)"
+      },
+      {
+        "row": 12,
+        "rowsha": "HKNHyemcg5P0dfD6W4xefCdwu6H/27nYE2VD2vnhPVs=",
+        "originContent": "*Left: Less detail, Middle: Original, Right: More detail*<br>",
+        "translatedContent": "*왼쪽: 디테일 감소, 가운데: 원본, 오른쪽: 디테일 증가*<br>"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 작동 원리"
+      },
+      {
+        "row": 15,
+        "rowsha": "8Cn7DTPwgC5TRYcpx6IHELZx2Ghn/Zy5V2CaSviu4ik=",
+        "originContent": "## How It Works",
+        "translatedContent": "디테일 데몬은 사용자 정의 가능한 스케줄에 따라 매 샘플링 단계에서 원래 노이즈 레벨을 조작하여 작동합니다."
+      },
+      {
+        "row": 16,
+        "rowsha": "paHwWuh2557mYgoDXPSSDGyPH2XeHYEtSI0SdehaQOE=",
+        "originContent": "Detail Daemon works by manipulating the original noise levels at every sampling step, according to a customizable schedule. ",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 이론적 배경"
+      },
+      {
+        "row": 18,
+        "rowsha": "3/WH3Nt6zxpRDOT7OSslX9cR7Es+EQuKCpMOIGZF8Xo=",
+        "originContent": "### In Theory",
+        "translatedContent": "노이즈 레벨(시그마, 즉 노이즈의 표준 편차)은 모델에게 각 디노이징 단계에서 예상하고 제거해야 할 노이즈 양을 알려줍니다. 특정 단계에서 시그마 값이 높으면 모델은 해당 단계에서 더 적극적으로 노이즈를 제거하려 하고, 반대의 경우 덜 제거하려 합니다."
+      },
+      {
+        "row": 19,
+        "rowsha": "GWnYIW5n/pYngGT5pvcsFwSxnkvxEfhb8oqvutevKU8=",
+        "originContent": "The noise levels (sigmas, i.e. the standard deviation of the noise) tell the model how much noise it should expect, and try to remove, at each denoising step. A higher sigma value at a certain denoising step tells the model to denoise more aggressively at that step and vice versa. ",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "일반적인 시그마 스케줄에서는 디노이징 과정 초반에 시그마 값이 매우 높다가 중간에 급격히 낮아지고, 과정 끝무렵에는 매우 낮은 값이 됩니다. 이 곡선(타임스텝 스케줄과 함께, 그러나 그것은 나중에 이야기할 주제입니다)이 이미지의 큰 특징(저주파)이 초반 단계에서 정의되고, 과정 끝에는 작은 특징(고주파)에서만 미세한 변화가 일어나도록 만듭니다. 이 부분은 나중에 다시 다루겠습니다."
+      },
+      {
+        "row": 21,
+        "rowsha": "t+/ljYHqHGRd/pH0Wvs4cw3CSJKzVjhUk3LIW34ipCA=",
+        "originContent": "With a common sigmas schedule, the sigmas start at very high values at the beginning of the denoising process, then quickly fall to low values in the middle, and to very low values towards the end of the process. This curve (along with the timesteps schedule, but that's a story for another day) is what makes it so that larger features (low frequencies) of the image are defined at the earlier steps, and towards the end of the process you can only see minor changes in the smaller features (high frequencies). We'll get back to this later.",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이제 원본보다 낮은 시그마 값 스케줄을 모델에 전달하면, 각 단계에서 모델은 덜 디노이징하고 그 단계에서 더 노이즈가 많은 잠재 공간을 출력합니다. 그러나 이후 단계에서 모델은 이 추가 노이즈를 이해하고 이미지 특징으로 변환하려 최선을 다합니다. 따라서 이론상 *적당히 할 경우* 더 디테일한 이미지를 얻을 수 있습니다. 너무 강하게 하면 모델이 추가된 노이즈를 처리하지 못해 최종 결과가 순수 노이즈로 변질됩니다. 그러므로 적당함이 중요합니다."
+      },
+      {
+        "row": 23,
+        "rowsha": "VWB0Zhy8UoQ9zWKnJv+W+AjE9z0AWit2kvhbamiT2Sg=",
+        "originContent": "Now, if we pass the model a sigmas schedule with values lower than the original, at each step the model will denoise less, resulting a noisier output latent at that step. But then in the steps after that, the model does its best to make sense of this extra noise and turn it into image features. So in theory, *when done in modesty*, this would result in a more detailed image. If you push it too hard, the model won't be able to handle the extra noise added at each step and the end result will devolve into pure noise. So modesty is key. ",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 그러나 실제로는"
+      },
+      {
+        "row": 25,
+        "rowsha": "fCL9E8UdmX0K/D5yMo6NGeLxsCX73785bbJQ4gTRUoo=",
+        "originContent": "### But in Practice",
+        "translatedContent": "적당함만으로는 한계가 있습니다! 그리고 저게 뭐야? 아래 예시들이 보여주듯, 이미지에 너무 많은 디테일을 추가하려 하면 이미지가 깨지거나 전혀 다른 것으로 변합니다."
+      },
+      {
+        "row": 26,
+        "rowsha": "UprCydj1sFLH6KNHSbKTFEs/GTF+/bZNTSCE0gm3QhI=",
+        "originContent": "Modesty only gets you so far! Also, wtf are those? As the examples below show, you can't really add that much detail to the image before it either breaks down, and/or becomes a totally different thing. ",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<sub>*SD 1.5*<br></sub>"
+      },
+      {
+        "row": 28,
+        "rowsha": "ms0RTJJmD7BCcVJsVHZUlCELCN4rakeDI6SThid8zMg=",
+        "originContent": "<sub>*SD 1.5*<br></sub>",
+        "translatedContent": "![Modesty](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/2f011a28-0948-48f8-b171-350add6fdd67)"
+      },
+      {
+        "row": 29,
+        "rowsha": "zoSeRuPBSDxzNLL9YuoffzwG+Ta5O2UL0uWe/X7RWsE=",
+        "originContent": "![Modesty](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/2f011a28-0948-48f8-b171-350add6fdd67)",
+        "translatedContent": "원본 시그마 (왼쪽) 에 0.9, 0.85, 0.8 곱함<br>"
+      },
+      {
+        "row": 30,
+        "rowsha": "Y/K6k6Edo545hLZhE/B3h4bmuf3lzF0MHf3K+Fx49Nk=",
+        "originContent": "Original sigmas (left) multiplied by .9, .85, .8<br>",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<sub>*SDXL*<br></sub>"
+      },
+      {
+        "row": 32,
+        "rowsha": "10MmrPhmsMwxlls5FHBZWTRmYWtzhC29BqhCsf/piIM=",
+        "originContent": "<sub>*SDXL*<br></sub>",
+        "translatedContent": "![1](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/eff2356e-a6dd-4a4e-9c7e-861dec7713eb)"
+      },
+      {
+        "row": 33,
+        "rowsha": "BGKgvEBBgAMzUgl6qNt856HG15sOepeLyX1iz5aBfyQ=",
+        "originContent": "![1](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/eff2356e-a6dd-4a4e-9c7e-861dec7713eb)",
+        "translatedContent": "원본 시그마 (왼쪽) 에 0.95, 0.9, 0.85, 0.875, 0.8 곱함<br>"
+      },
+      {
+        "row": 34,
+        "rowsha": "+Vm6BcAa8uFftouzvjZQqpHTq1eMkSMEhOsqxPK6vU0=",
+        "originContent": "Original sigmas (left) multiplied by .95, .9, .85, .875, .8<br>",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "그 이유는:"
+      },
+      {
+        "row": 36,
+        "rowsha": "sMd3La6BAiM3vIlNvGDAZedUJgdsmchueU1Bw87VUpc=",
+        "originContent": "That's because: ",
+        "translatedContent": "1. 우리는 계속해서 노이즈를 추가하지만 모델이 그것을 처리할 충분한 시간을 주지 않고,"
+      },
+      {
+        "row": 37,
+        "rowsha": "Bv5rQArrVi4VcG7pme2XaePf+j4sEn9nzMCu7v66pOs=",
+        "originContent": "1. We're constantly adding noise and not giving the model enough time to deal with it",
+        "translatedContent": "2. 이미지의 저주파 특징(색상, 구성 등)이 정의되는 초기 단계를 조작하기 때문입니다."
+      },
+      {
+        "row": 38,
+        "rowsha": "vipu9h5Cd9dTjSzujix3rBzAwGyTkOYDyaMdr6RseuU=",
+        "originContent": "2. We are manipulating the early steps where the low frequency features of the image (color, composition, etc.) are defined",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 스케줄 도입"
+      },
+      {
+        "row": 40,
+        "rowsha": "gSx3VBfAzAtRcGx3ogn5Bphd/XHR627uipD6lEi/hXY=",
+        "originContent": "### Enter the Schedule",
+        "translatedContent": "일반적으로 \"디테일\"이라 할 때는 중고주파 영역에 속하며, 이는 샘플링 과정의 중후반 단계에 해당합니다. 따라서 초기 단계를 건너뛰어 이미지의 주요 특징을 그대로 두고, 후반 단계를 남겨 모델이 추가 노이즈를 유용한 디테일로 변환할 시간을 주면 아래와 같은 스케줄을 만들 수 있습니다:"
+      },
+      {
+        "row": 41,
+        "rowsha": "tE5sC3n5pvdGDPC4fGq+ed+2x5PzIM+fMXV0K+KqvJU=",
+        "originContent": "What we usually mean by \"detail\" falls within the mid to high frequency range, which correspond to the middle to late steps in the sampling process. So if we skip the early steps to leave the main features of the image intact, and the late steps to give the model some time to turn the extra noise into useful detail, we'll have something like this:",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![3](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/cd47e882-8b56-4321-8c47-c0d689562780)"
+      },
+      {
+        "row": 43,
+        "rowsha": "i2lAkfC+BmWAyYB6R1S5/pzoJRInsJoEASCgw+k6I28=",
+        "originContent": "![3](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/cd47e882-8b56-4321-8c47-c0d689562780)",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "그리고 스케줄을 좀 더 정교하게 만들어 크기가 다른 디테일에 대응하는 특정 단계를 타겟팅할 수도 있습니다:"
+      },
+      {
+        "row": 45,
+        "rowsha": "iui9L9G09FbwJx4Wbp1HNvafRtkTy5ewCjfln+L701c=",
+        "originContent": "Then we could make our schedule a bit fancier and have it target specific steps corresponding to different sized details:",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![4](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/ea5027d2-3359-4733-afb4-5ae4a1218f38)"
+      },
+      {
+        "row": 47,
+        "rowsha": "27/YMYKfAUJk8WLYdMqIPEa3M+blMo+dqBzHSp8Ad0k=",
+        "originContent": "![4](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/ea5027d2-3359-4733-afb4-5ae4a1218f38)",
+        "translatedContent": ""
+      },
+      {
+        "row": 48,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "어떤 단계가 어떤 주파수 범위에 해당하는지는 사용하는 모델, 샘플러, 프롬프트(특히 프롬프트 편집 등 사용 시), 그리고 아마도 여러 다른 요소에 따라 다릅니다. 또한 시그마를 너무 낮게 설정해 많은 노이즈를 추가했다가 다시 높여서 과잉 노이즈를 정리하고 멋진 디테일을 남기는 등, 스케줄로 할 수 있는(그리고 해야 하는) 더 정교한 작업들도 있습니다. 따라서 생성하는 각 이미지 또는 디테일 수준 조정이 필요한 이미지에 최적의 스케줄을 찾기 위해 조정이 필요합니다. 이상적으로는 모든 이미지에 완벽한 디테일 조정 스케줄을 만들기 위해 수많은 시간을 투자해야 합니다. 그것이 바로 우리가 이곳에 있는 이유입니다."
+      },
+      {
+        "row": 49,
+        "rowsha": "rg0T29ed48xqp0RTXWV5GwRDAQRnM0FSji2eP+pc6sw=",
+        "originContent": "Which steps correspond to which exact frequency range depends on the model you're using, the sampler, your prompt (specially if you're using Prompt Editing and stuff), and probably a bunch of other things. There are also fancier things you can (and should) do with the schedule, like pushing the sigmas too low for some heavy extra noise and then too high to clean up the excess and leave some nice details. So you need to do some tweaking to figure out the best schedule for each image you generate, or at least the ones that need their level of detail adjusted. But ideally you should be spending countless hours of your life sculpting the perfect detail adjustment schedule for every image, cuz that's why we're here.",
+        "translatedContent": ""
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "곧 다양한 시나리오에 대응하는 구체적인 예제와 제가 생각해낸 기법들을 제공할 예정입니다. (자기 메모: 이 내용을 위키 페이지로 옮기기)"
+      },
+      {
+        "row": 51,
+        "rowsha": "6UNqxHCO69Gun8XyQdqSng3DWYbowM1Ds3z23BgD3Z4=",
+        "originContent": "I'll soon provide specific examples addressing different scenarios and some of the techniques I've come up with. (note to self: move these to the wiki page)",
+        "translatedContent": ""
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 설치 방법"
+      },
+      {
+        "row": 53,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "SD WebUI를 열고 > Extensions 탭으로 이동 > Available 탭으로 이동 > Load from: 클릭 > Detail Daemon 찾아 설치"
+      },
+      {
+        "row": 54,
+        "rowsha": "HDZcnBLO9tO2tiIrbUDFf7bDik8LI40Wc58tzfois1s=",
+        "originContent": "Open SD WebUI > Go to Extensions tab > Go to Available tab > Click Load from: > Find Detail Daemon > Click Install",
+        "translatedContent": ""
+      },
+      {
+        "row": 55,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "또는 Install from URL 탭으로 가서 > 이 저장소의 URL을 첫 번째 입력란에 붙여넣고 > 설치 클릭"
+      },
+      {
+        "row": 56,
+        "rowsha": "CmJOHSYmnmsscS09Wt2Em6dP9mMKV7XsglBGK4vMgbc=",
+        "originContent": "Or Go to Install from URL tab > Paste this repo's URL into the first field > Click Install",
+        "translatedContent": ""
+      },
+      {
+        "row": 57,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "또는 WebUI 폴더로 가서 수동으로 이 저장소를 extensions 폴더에 클론:"
+      },
+      {
+        "row": 58,
+        "rowsha": "/C2twZ8HYJZ6rFovHLHH70AcQhDoDY6kZQKda3YhNPk=",
+        "originContent": "Or go to your WebUI folder and manually clone this repo into your extensions folder:",
+        "translatedContent": ""
+      },
+      {
+        "row": 59,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`git clone \"https://github.com/muerrilla/sd-webui-detail-daemon\" extensions/sd-webui-detail-daemon`"
+      },
+      {
+        "row": 60,
+        "rowsha": "ayBH5SC8VZrwmKuCJUmpx9htqxgmDNRsMxd0xLAxkuM=",
+        "originContent": "`git clone \"https://github.com/muerrilla/sd-webui-detail-daemon\" extensions/sd-webui-detail-daemon`",
+        "translatedContent": ""
+      },
+      {
+        "row": 61,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 시작하기"
+      },
+      {
+        "row": 62,
+        "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+        "originContent": "## Getting Started",
+        "translatedContent": "설치 후 txt2img 및 img2img 탭에서 확장 기능을 찾을 수 있습니다."
+      },
+      {
+        "row": 63,
+        "rowsha": "kNJzfw+3OjIMe0uxm0EVjkjGzWwntELUEwS+lSDTlH8=",
+        "originContent": "After installation you can find the extension in your txt2img and img2img tabs. ",
+        "translatedContent": "![2024-07-08 01_43_21-011366](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/045574cb-465c-4991-83c4-d02f803a330b)"
+      },
+      {
+        "row": 64,
+        "rowsha": "DAgLy+Ffuekns0CIOVOwbUedx78ks1f1pxtIcTp/Big=",
+        "originContent": "![2024-07-08 01_43_21-011366](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/045574cb-465c-4991-83c4-d02f803a330b)",
+        "translatedContent": "### 슬라이더:"
+      },
+      {
+        "row": 65,
+        "rowsha": "hedtJtJ4jn8WHIkvVyYL+KQP3S62xl9D2uVhmQDjviE=",
+        "originContent": "### Sliders:",
+        "translatedContent": "슬라이더(및 체크박스 하나)는 조정량(양수 → 디테일 추가, 음수 → 디테일 감소)과 적용할 샘플링 단계(즉, 스케줄)를 설정합니다. 그래프의 X축은 (0,1) 범위로 정규화된 샘플링 단계이고, Y축은 조정량입니다. 나머지는 설명이 필요 없을 정도로 직관적입니다. 그냥 드래그하며 그래프 변화를 보세요."
+      },
+      {
+        "row": 66,
+        "rowsha": "M37dCMrTB3RNapwHN1y2i4mbMSksxGUwbnUahMvswtc=",
+        "originContent": "The sliders (and that one checkbox) set the amount of adjustment (positive values → add detail, negative values → remove detail) and the sampling steps during which it is applied (i.e. the schedule). So the X axis of the graph is your sampling steps, normalized to the (0,1) range, and the Y axis is the amount of adjustment. The rest is pretty self-explanatory I think. Just drag things and look at the graph for changes.",
+        "translatedContent": "### 숫자 입력:"
+      },
+      {
+        "row": 67,
+        "rowsha": "xwLlOlLmu3X+tjWeClm3UMA0acBS8tX39T7lIlNga14=",
+        "originContent": "### Numbers:",
+        "translatedContent": "아래 세 숫자 입력란은 때때로 슬라이더의 최대/최소 한계가 너무 제한적일 때 사용하도록 제공됩니다."
+      },
+      {
+        "row": 68,
+        "rowsha": "WLP9aTPA5H0dXx4lBqQByVswZXVTY5e1vijXZvTMTuU=",
+        "originContent": "The three number inputs at the buttom are provided because sometimes the slider max/mins are too limiting.",
+        "translatedContent": "### 모드:"
+      },
+      {
+        "row": 69,
+        "rowsha": "MFRyqqXPYFbinILXZmkDm8kPpHowUjSNGOKcQagzkic=",
+        "originContent": "### Modes:",
+        "translatedContent": "`cond`와 `uncond` 모드는 각각 해당 잠재 공간에만 영향을 주며, `both`는 둘 다에 영향을 줍니다(당연하죠!). `cond`와 `uncond` 모드는 강도가 낮고, 다른 잠재 공간이 그대로 유지되므로 더 이른 단계에서도 원본 생성과 크게 벗어나지 않는 변화를 허용합니다."
+      },
+      {
+        "row": 70,
+        "rowsha": "6/E+U3Q11j/4DtqkLSkt8I5MmYaNGNiXyF432wLTjqY=",
+        "originContent": "The `cond` and `uncond` modes affect only their respective latents, while `both` affects both (duh!). The `cond` and `uncond` modes are less intense and also allow changes to be applied at earlier steps without diverging too far from the original generation, since the other latent stays intact. ",
+        "translatedContent": ""
+      },
+      {
+        "row": 71,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "약간의 꼬임도 있습니다: `both` 모드에서 `detail amount`가 양수일 때, cond와 uncond 잠재 공간 모두 더 디테일해집니다. 따라서 더 디테일한 cond 잠재 공간은 생성물을 더 디테일하게 만들려 하고, 더 디테일한 uncond 잠재 공간은 디테일을 줄이려 시도합니다. 이로 인해 이 모드에서는 이미지에 더 많은 새로운 특징/아티팩트가 나타납니다."
+      },
+      {
+        "row": 72,
+        "rowsha": "J8Fb//l+QzeyujIPxuKtTU/M0nBedc+gpB0DZLlL5Zo=",
+        "originContent": "There's also a minor twist: in the `both` mode if `detail amount` is positive both cond and uncond latents become more detailed. So the more detailed cond latent will try to push the generation towards more detail, while the more detailed uncond latent will try to push towards less detail. This causes more new features/artifacts to pop into the image in this mode.",
+        "translatedContent": ""
+      },
+      {
+        "row": 73,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 팁:"
+      },
+      {
+        "row": 74,
+        "rowsha": "2IuedbniQQLT5pOtAjS9g87M+u8tFmTG/wN5JnXOTLk=",
+        "originContent": "### Tips:",
+        "translatedContent": "가능한 한 빨리 최적의 매개변수 설정법에 관한 정식 문서를 작성할 예정입니다. 지금은 슬라이더를 조작하며 스케줄 모양이 이미지에 어떻게 영향을 주는지 직접 경험해 보세요. 라이브 미리보기 업데이트 주기를 매 프레임 또는 두 프레임마다로 설정해, 샘플링 과정 각 단계에서 무슨 일이 일어나는지, 디테일 데몬이 어떻게 영향을 주는지 명확히 볼 수 있도록 하는 것을 추천합니다."
+      },
+      {
+        "row": 75,
+        "rowsha": "KMDY9GKFmE9HLvcK6qFesSKNZ6w9qBjVAmsLa+Fxa/0=",
+        "originContent": "I'll write up some proper docs on how best to set the parameters, as soon as possible. For now you gotta play around with the sliders and figure out how the shape of the schedule affects the image. I suggest you set your live preview update period to every frame, or every other frame, so you could see clearly what's going on at every step of the sampling process and how Detail Daemon affects it, till you get a good grasp of how this thing works.",
+        "translatedContent": ""
+      },
+      {
+        "row": 76,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 참고 사항:"
+      },
+      {
+        "row": 77,
+        "rowsha": "29s+C5aCSHi/mb1RM/pEAhs442d1j3MBg+qTX1HxxOs=",
+        "originContent": "## Notes:",
+        "translatedContent": "- Compositional Diffusion(즉, AND 구문)을 제대로 지원하지 않습니다. 특히 배치 크기가 1 초과이거나 프롬프트에 음수 가중치가 있을 때, 모드가 `cond` 또는 `uncond`로 설정되어 있으면 그렇습니다."
+      },
+      {
+        "row": 78,
+        "rowsha": "q6xksBMQX+Dexfgc0eTAoa569xfzSlfYPKpjY9Hm1zc=",
+        "originContent": "- Doesn't support Compositional Diffusion (i.e. the AND syntax) properly. Specially if you have a batch size > 1 or negative weights in your prompts, and the mode is set to `cond` or `uncond`.",
+        "translatedContent": "- 적은 단계 모델(Turbo, Lightning 등)과는 사용이 불가능하거나 매우 어렵습니다. 수정: 관리 가능합니다."
+      },
+      {
+        "row": 79,
+        "rowsha": "SrI+7C4el2ayAkdFZdiJTIyiOZ8ijv6nuxHO0Dc/OJg=",
+        "originContent": "- It's probably impossible to use or very hard to control with few-step models (Turbo, Lightning, etc.). Edit: It's managable.",
+        "translatedContent": "- Forge와 함께 작동합니다(`cond`와 `uncond` 모드는 지원되지 않음)."
+      },
+      {
+        "row": 80,
+        "rowsha": "gIFJgplIPRpcxPWRPXgpF8vCASy045nmpzVesKbrXuc=",
+        "originContent": "- It works with Forge (`cond` and `uncond` modes are not supported).",
+        "translatedContent": "- AlignYourSteps, FreeU 등과는 다릅니다."
+      },
+      {
+        "row": 81,
+        "rowsha": "txj2JRsf6ePbvQjTDWt0i3VxY2l+PUVbDmpOQDMiCRU=",
+        "originContent": "- It's not the same as AlignYourSteps, FreeU, etc.",
+        "translatedContent": "- Haoming의 [ReSharpen Extension](https://github.com/Haoming02/sd-webui-resharpen)과 비슷한 목적을 가졌으나(방법은 다름) 유사합니다."
+      },
+      {
+        "row": 82,
+        "rowsha": "B3n7a9vgur/iO4yh0JPN6gGt8iMLSJ+gDUUl9mfXvLM=",
+        "originContent": "- It is similar (in what it sets out to do, not in how it does it) to the [ReSharpen Extension](https://github.com/Haoming02/sd-webui-resharpen) by Haoming.",
+        "translatedContent": ""
+      },
+      {
+        "row": 83,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,0 +1,634 @@
+[
+  {
+    "Id": 1,
+    "Content": "<h1 align=\"center\">\n  <br>\n  OpenSuperClone\n  <br>\n</h1>\n\n<div align=\"center\">\n\n  [![Commits](https://badgen.net/github/commits/ispillmydrink/opensuperclone/main)](https://github.com/ISpillMyDrink/OpenSuperClone/commits/main)\n  [![Last Commit](https://badgen.net/github/last-commit/ispillmydrink/opensuperclone/main)](https://github.com/ISpillMyDrink/OpenSuperClone/commits/main)\n  [![Release](https://badgen.net/github/release/ispillmydrink/opensuperclone)](https://github.com/ISpillMyDrink/OpenSuperClone/releases)\n  [![License](https://badgen.net/github/license/ispillmydrink/opensuperclone)](https://github.com/ISpillMyDrink/OpenSuperClone/blob/main/LICENSE)\n  \n</div>\n\n<h4 align=\"center\">\n  A powerful data recovery utility for Linux with many advanced features based on <a href=\"https://www.hddsuperclone.com/\">Scott Dwyer's HDDSuperClone</a>.\n</h4>\n\n<p align=\"center\">\n  <a href=\"#-features\">✨ Features</a> •\n  <a href=\"#-installation\">💾 Installation</a> •\n  <a href=\"#-documentation\">📖 Documentation</a> •\n  <a href=\"#%EF%B8%8F-changelog\">✏️ Changelog</a> •\n  <a href=\"#-credits\">💵 Credits</a> •\n  <a href=\"#-license\">📄 License</a>\n</p>\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/ISpillMyDrink/OpenSuperClone/main/./doc/opensuperclone.gif\" alt=\"Size Limit CLI\" width=\"738\">\n</p>\n\n## ✨ Features\n\n* Advanced drive <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/wiki/Clone-Mode\">cloning</a> capability akin to that of ddrescue\n* <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/wiki/Virtual-Disk-Mode\">Virtual Disk Mode</a> for targeted data extraction\n* <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/wiki/Direct-Modes\">Direct AHCI/IDE</a> capability to circumvent OS drivers\n* <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/wiki/Relay-Operation\">USB Relay Control</a> for automatic power cycling of drives\n\n#### 📋 Planned Changes\n\nSee the <a href=\"https://github.com/users/ISpillMyDrink/projects/2\">Roadmap</a> for a list of planned changes.\n\n## 💾 Installation\n\nPre-built DEB and RPM packages for OpenSuperClone can be found on the <a href=https://github.com/ISpillMyDrink/OpenSuperClone/releases>Release</a> page.\n\nInstructions for installing OpenSuperClone from source can be found on the <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/wiki/Compiling-from-Source\">Wiki</a>.\n\nAlternatively to installing OpenSuperClone, a <a href=\"https://sourceforge.net/projects/opensuperclone-live/\">Linux Live ISO</a> containing the project is now provided by <a href=\"https://sourceforge.net/u/xak77/profile/\">xak77</a>.\n\n## 📖 Documentation\n\nDocumentation for OpenSuperClone can be found on the <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/wiki\">Wiki</a>.\nNote that the Wiki is currently a work-in-progress and incomplete.\n\n## ✏️ Changelog\n\n#### OpenSuperClone 2.5.1 (Work-In-Progress)\n\n* OSCDriver 2.6.7: add support up to kernel 6.14.0 (thanks to <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/pull/25\">piernov</a>)\n\n#### OpenSuperClone 2.5\n\n* Implemented DKMS for driver installation\n* OSCDriver 2.6.6: add support up to kernel 6.11.0 (thanks to <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/pull/19\">piernov</a>)\n* Disabling the USB Mass Storage driver now also disables the USB Attached SCSI driver\n* Various UI improvements including tooltips for most controls and improved SMART, Analysis, and Identify views\n* Added some more known SMART attributes and Identify flags\n* Increased the maximum amount of retry runs from 8 to 1000 (useful for solid state recovery)\n\n#### OpenSuperClone 2.4.1\n\n* Fixed a bug where the UI labels would show bogus strings\n\n#### OpenSuperClone 2.4\n\n* Removal of licensing related code\n* Implemented CMake as build system\n* Switched from GTK2 to GTK3\n* Replaced localization system with gettext\n* OSCDriver 2.6.1: add support up to kernel 5.19.11 (thanks to <a href=\"https://github.com/piernov/\">piernov</a>)\n* Minor improvements to OSCViewer (color picker, minor graphical changes)\n\n## 💵 Credits\n\nCredit belongs to Scott Dwyer for his excellent work on <a href=\"https://www.hddsuperclone.com/\">HDDSuperClone</a>,\nand <a href=\"https://github.com/piernov/\">piernov</a> for his work on updating the kernel module.\n\nThis project makes use of the following libraries/programs:\n* GLADE (https://glade.gnome.org/)\n* GTK (https://www.gtk.org/)\n* libconfig (https://hyperrealm.github.io/libconfig/)\n* libintl (https://www.gnu.org/software/gettext/)\n* libusb (https://libusb.info/)\n* Font Awesome (https://fontawesome.com/)\n\n## 📄 License\n\nThis software is licensed under the [GPLv2](LICENSE).",
+    "ContentSha": "s+49bTNdsWojUUhm8uoemYLQwblA2FVfhz3GCSg7Kho=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<h1 align=\"center\">\n  <br>\n  OpenSuperClone\n  <br>\n</h1>\n\n<div align=\"center\">\n\n  [![Commits](https://badgen.net/github/commits/ispillmydrink/opensuperclone/main)](https://github.com/ISpillMyDrink/OpenSuperClone/commits/main)\n  [![Last Commit](https://badgen.net/github/last-commit/ispillmydrink/opensuperclone/main)](https://github.com/ISpillMyDrink/OpenSuperClone/commits/main)\n  [![Release](https://badgen.net/github/release/ispillmydrink/opensuperclone)](https://github.com/ISpillMyDrink/OpenSuperClone/releases)\n  [![License](https://badgen.net/github/license/ispillmydrink/opensuperclone)](https://github.com/ISpillMyDrink/OpenSuperClone/blob/main/LICENSE)\n  \n</div>\n\n<h4 align=\"center\">\n  A powerful data recovery utility for Linux with many advanced features based on <a href=\"https://www.hddsuperclone.com/\">Scott Dwyer's HDDSuperClone</a>.\n</h4>\n\n<p align=\"center\">\n  <a href=\"#-features\">✨ Features</a> •\n  <a href=\"#-installation\">💾 Installation</a> •\n  <a href=\"#-documentation\">📖 Documentation</a> •\n  <a href=\"#%EF%B8%8F-changelog\">✏️ Changelog</a> •\n  <a href=\"#-credits\">💵 Credits</a> •\n  <a href=\"#-license\">📄 License</a>\n</p>\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/ISpillMyDrink/OpenSuperClone/main/./doc/opensuperclone.gif\" alt=\"Size Limit CLI\" width=\"738\">\n</p>\n\n## ✨ Features\n\n* Advanced drive <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/wiki/Clone-Mode\">cloning</a> capability akin to that of ddrescue\n* <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/wiki/Virtual-Disk-Mode\">Virtual Disk Mode</a> for targeted data extraction\n* <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/wiki/Direct-Modes\">Direct AHCI/IDE</a> capability to circumvent OS drivers\n* <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/wiki/Relay-Operation\">USB Relay Control</a> for automatic power cycling of drives\n\n#### 📋 Planned Changes\n\nSee the <a href=\"https://github.com/users/ISpillMyDrink/projects/2\">Roadmap</a> for a list of planned changes.\n\n## 💾 Installation\n\nPre-built DEB and RPM packages for OpenSuperClone can be found on the <a href=https://github.com/ISpillMyDrink/OpenSuperClone/releases>Release</a> page.\n\nInstructions for installing OpenSuperClone from source can be found on the <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/wiki/Compiling-from-Source\">Wiki</a>.\n\nAlternatively to installing OpenSuperClone, a <a href=\"https://sourceforge.net/projects/opensuperclone-live/\">Linux Live ISO</a> containing the project is now provided by <a href=\"https://sourceforge.net/u/xak77/profile/\">xak77</a>.\n\n## 📖 Documentation\n\nDocumentation for OpenSuperClone can be found on the <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/wiki\">Wiki</a>.\nNote that the Wiki is currently a work-in-progress and incomplete.\n\n## ✏️ Changelog\n\n#### OpenSuperClone 2.5.1 (Work-In-Progress)\n\n* OSCDriver 2.6.7: add support up to kernel 6.14.0 (thanks to <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/pull/25\">piernov</a>)\n\n#### OpenSuperClone 2.5\n\n* Implemented DKMS for driver installation\n* OSCDriver 2.6.6: add support up to kernel 6.11.0 (thanks to <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/pull/19\">piernov</a>)\n* Disabling the USB Mass Storage driver now also disables the USB Attached SCSI driver\n* Various UI improvements including tooltips for most controls and improved SMART, Analysis, and Identify views\n* Added some more known SMART attributes and Identify flags\n* Increased the maximum amount of retry runs from 8 to 1000 (useful for solid state recovery)\n\n#### OpenSuperClone 2.4.1\n\n* Fixed a bug where the UI labels would show bogus strings\n\n#### OpenSuperClone 2.4\n\n* Removal of licensing related code\n* Implemented CMake as build system\n* Switched from GTK2 to GTK3\n* Replaced localization system with gettext\n* OSCDriver 2.6.1: add support up to kernel 5.19.11 (thanks to <a href=\"https://github.com/piernov/\">piernov</a>)\n* Minor improvements to OSCViewer (color picker, minor graphical changes)\n\n## 💵 Credits\n\nCredit belongs to Scott Dwyer for his excellent work on <a href=\"https://www.hddsuperclone.com/\">HDDSuperClone</a>,\nand <a href=\"https://github.com/piernov/\">piernov</a> for his work on updating the kernel module.\n\nThis project makes use of the following libraries/programs:\n* GLADE (https://glade.gnome.org/)\n* GTK (https://www.gtk.org/)\n* libconfig (https://hyperrealm.github.io/libconfig/)\n* libintl (https://www.gnu.org/software/gettext/)\n* libusb (https://libusb.info/)\n* Font Awesome (https://fontawesome.com/)\n\n## 📄 License\n\nThis software is licensed under the [GPLv2](LICENSE).",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "KxBpkukaXgEZWw7xxhGlTSRDVJakr4sBw+2/l9R7Xgs=",
+        "originContent": "<h1 align=\"center\">",
+        "translatedContent": "<h1 align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "9LaBX1pLj0uNH7jpkfGU+pcX+uzIPdfr4/tPIT1shWQ=",
+        "originContent": "  <br>",
+        "translatedContent": "  <br>"
+      },
+      {
+        "row": 3,
+        "rowsha": "thhn89EofEfdrWQEJ9d6xmjpOshG2G7MQC8cW+Kr4I8=",
+        "originContent": "  OpenSuperClone",
+        "translatedContent": "  OpenSuperClone"
+      },
+      {
+        "row": 4,
+        "rowsha": "9LaBX1pLj0uNH7jpkfGU+pcX+uzIPdfr4/tPIT1shWQ=",
+        "originContent": "  <br>",
+        "translatedContent": "  <br>"
+      },
+      {
+        "row": 5,
+        "rowsha": "jx7VTIaGwMtwY3ZiSh8xEG0MuMzGD34Xs/9PCAcDvw8=",
+        "originContent": "</h1>",
+        "translatedContent": "</h1>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "+p3fBZFrXbubTy6DKOyUDyZZTyHRVLnZpp2TcUprYtc=",
+        "originContent": "  [![Commits](https://badgen.net/github/commits/ispillmydrink/opensuperclone/main)](https://github.com/ISpillMyDrink/OpenSuperClone/commits/main)",
+        "translatedContent": "  [![Commits](https://badgen.net/github/commits/ispillmydrink/opensuperclone/main)](https://github.com/ISpillMyDrink/OpenSuperClone/commits/main)"
+      },
+      {
+        "row": 10,
+        "rowsha": "dsczwHU3PhDlNPnLITWDYF1PbVSO+9Feo2VlPBw7NkI=",
+        "originContent": "  [![Last Commit](https://badgen.net/github/last-commit/ispillmydrink/opensuperclone/main)](https://github.com/ISpillMyDrink/OpenSuperClone/commits/main)",
+        "translatedContent": "  [![Last Commit](https://badgen.net/github/last-commit/ispillmydrink/opensuperclone/main)](https://github.com/ISpillMyDrink/OpenSuperClone/commits/main)"
+      },
+      {
+        "row": 11,
+        "rowsha": "lzZ5UbDlPRFR9blS74v5o9BwfJX1bloRr2UOT1DVu2A=",
+        "originContent": "  [![Release](https://badgen.net/github/release/ispillmydrink/opensuperclone)](https://github.com/ISpillMyDrink/OpenSuperClone/releases)",
+        "translatedContent": "  [![Release](https://badgen.net/github/release/ispillmydrink/opensuperclone)](https://github.com/ISpillMyDrink/OpenSuperClone/releases)"
+      },
+      {
+        "row": 12,
+        "rowsha": "ncwiHSKKPos5pC2l+mHTgUjnA6u9BEDU3I2V1HRt9TA=",
+        "originContent": "  [![License](https://badgen.net/github/license/ispillmydrink/opensuperclone)](https://github.com/ISpillMyDrink/OpenSuperClone/blob/main/LICENSE)",
+        "translatedContent": "  [![License](https://badgen.net/github/license/ispillmydrink/opensuperclone)](https://github.com/ISpillMyDrink/OpenSuperClone/blob/main/LICENSE)"
+      },
+      {
+        "row": 13,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 14,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "ZvNDQ6eV7WtHsauYMl09L+zCMNITg5YOs6TmMw7ARkM=",
+        "originContent": "<h4 align=\"center\">",
+        "translatedContent": "<h4 align=\"center\">"
+      },
+      {
+        "row": 17,
+        "rowsha": "b7qfU2F6uQulJqdlTU0ly+jJTrbcp7edC0MU63BfEYY=",
+        "originContent": "  A powerful data recovery utility for Linux with many advanced features based on <a href=\"https://www.hddsuperclone.com/\">Scott Dwyer's HDDSuperClone</a>.",
+        "translatedContent": "  A powerful data recovery utility for Linux with many advanced features based on <a href=\"https://www.hddsuperclone.com/\">Scott Dwyer's HDDSuperClone</a>."
+      },
+      {
+        "row": 18,
+        "rowsha": "FnJBuW8rB3wCcxHtlboGmmZWA0qlbY/eROaMi6Hfbis=",
+        "originContent": "</h4>",
+        "translatedContent": "</h4>"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 21,
+        "rowsha": "fD34T+0YbXE9C4k2We+EWo6xNia6rTARDlKUfhlEkKA=",
+        "originContent": "  <a href=\"#-features\">✨ Features</a> •",
+        "translatedContent": "  <a href=\"#-features\">✨ Features</a> •"
+      },
+      {
+        "row": 22,
+        "rowsha": "P5BdSELXkij1UGu8Pwq7KGkf5t5cIOY8SLLuhJ41jfM=",
+        "originContent": "  <a href=\"#-installation\">💾 Installation</a> •",
+        "translatedContent": "  <a href=\"#-installation\">💾 Installation</a> •"
+      },
+      {
+        "row": 23,
+        "rowsha": "iWLOX3nCGqcFv55ZP8RrGyjCYq3xIaVh2HK89bavces=",
+        "originContent": "  <a href=\"#-documentation\">📖 Documentation</a> •",
+        "translatedContent": "  <a href=\"#-documentation\">📖 Documentation</a> •"
+      },
+      {
+        "row": 24,
+        "rowsha": "u0ldL3InYy0Y7R0WDLWhSBOtcDIbbCc9wN3uUcGZgn0=",
+        "originContent": "  <a href=\"#%EF%B8%8F-changelog\">✏️ Changelog</a> •",
+        "translatedContent": "  <a href=\"#%EF%B8%8F-changelog\">✏️ Changelog</a> •"
+      },
+      {
+        "row": 25,
+        "rowsha": "VJfYSch1dvm6CQp6OW2cp+9vlcNN2Nhr7C4m5xzAs7I=",
+        "originContent": "  <a href=\"#-credits\">💵 Credits</a> •",
+        "translatedContent": "  <a href=\"#-credits\">💵 Credits</a> •"
+      },
+      {
+        "row": 26,
+        "rowsha": "0PBbVQm00AJ7FjHw3ndxI1vU40oI7+zETQ4B49DX56Q=",
+        "originContent": "  <a href=\"#-license\">📄 License</a>",
+        "translatedContent": "  <a href=\"#-license\">📄 License</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 30,
+        "rowsha": "iUHeuiU9TcpTferaKcbyztIgf+ydya++HGwOXJE0klk=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/ISpillMyDrink/OpenSuperClone/main/./doc/opensuperclone.gif\" alt=\"Size Limit CLI\" width=\"738\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ISpillMyDrink/OpenSuperClone/main/./doc/opensuperclone.gif\" alt=\"Size Limit CLI\" width=\"738\">"
+      },
+      {
+        "row": 31,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "VzDxHMl0vKby6BK5RJlfHxPFit1vMlpPiL5Nfi50CNE=",
+        "originContent": "## ✨ Features",
+        "translatedContent": "## ✨ Features"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "tFSVeiwlUz8IdztCVeE8gNmrJ7PW0Yziufn+ClCPwp0=",
+        "originContent": "* Advanced drive <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/wiki/Clone-Mode\">cloning</a> capability akin to that of ddrescue",
+        "translatedContent": "* Advanced drive <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/wiki/Clone-Mode\">cloning</a> capability akin to that of ddrescue"
+      },
+      {
+        "row": 36,
+        "rowsha": "2RuoV51emkerWXjurAKl/IYozacGuNFDexCFxBqkkbs=",
+        "originContent": "* <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/wiki/Virtual-Disk-Mode\">Virtual Disk Mode</a> for targeted data extraction",
+        "translatedContent": "* <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/wiki/Virtual-Disk-Mode\">Virtual Disk Mode</a> for targeted data extraction"
+      },
+      {
+        "row": 37,
+        "rowsha": "o5mngdaIopcxA9jc1sLZqV3yQEqxkoVN9hewFeZamjU=",
+        "originContent": "* <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/wiki/Direct-Modes\">Direct AHCI/IDE</a> capability to circumvent OS drivers",
+        "translatedContent": "* <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/wiki/Direct-Modes\">Direct AHCI/IDE</a> capability to circumvent OS drivers"
+      },
+      {
+        "row": 38,
+        "rowsha": "GJbScq8ipgizKhUyswSCwgVtreA1YdOB62vcusI8g/g=",
+        "originContent": "* <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/wiki/Relay-Operation\">USB Relay Control</a> for automatic power cycling of drives",
+        "translatedContent": "* <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/wiki/Relay-Operation\">USB Relay Control</a> for automatic power cycling of drives"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "iltDOjEa0o0QLkX+DDGFIYjkAl0ioCORPK48+3LNync=",
+        "originContent": "#### 📋 Planned Changes",
+        "translatedContent": "#### 📋 Planned Changes"
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "8wO0iX507ULq8FEMn5t7VCqkitwUYsplPEV8SolM+1U=",
+        "originContent": "See the <a href=\"https://github.com/users/ISpillMyDrink/projects/2\">Roadmap</a> for a list of planned changes.",
+        "translatedContent": "See the <a href=\"https://github.com/users/ISpillMyDrink/projects/2\">Roadmap</a> for a list of planned changes."
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "m3Lz09y+FgjbuC7QS7fbCVIQFo7Lgh4vUB++4Sv65ik=",
+        "originContent": "## 💾 Installation",
+        "translatedContent": "## 💾 Installation"
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "k5Ilims4L+aX9QB0wzKze4YZbtL967WPcBbD/73CDls=",
+        "originContent": "Pre-built DEB and RPM packages for OpenSuperClone can be found on the <a href=https://github.com/ISpillMyDrink/OpenSuperClone/releases>Release</a> page.",
+        "translatedContent": "Pre-built DEB and RPM packages for OpenSuperClone can be found on the <a href=https://github.com/ISpillMyDrink/OpenSuperClone/releases>Release</a> page."
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 48,
+        "rowsha": "Kw3IZtJXyyP0kOjJhIvMlMsGClijH5+s0GmcX/8uqJI=",
+        "originContent": "Instructions for installing OpenSuperClone from source can be found on the <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/wiki/Compiling-from-Source\">Wiki</a>.",
+        "translatedContent": "Instructions for installing OpenSuperClone from source can be found on the <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/wiki/Compiling-from-Source\">Wiki</a>."
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 50,
+        "rowsha": "ZMiPaViYWN3aVmVZo7B/2i+U5Pb/xDjXvexJ9ORiJXs=",
+        "originContent": "Alternatively to installing OpenSuperClone, a <a href=\"https://sourceforge.net/projects/opensuperclone-live/\">Linux Live ISO</a> containing the project is now provided by <a href=\"https://sourceforge.net/u/xak77/profile/\">xak77</a>.",
+        "translatedContent": "Alternatively to installing OpenSuperClone, a <a href=\"https://sourceforge.net/projects/opensuperclone-live/\">Linux Live ISO</a> containing the project is now provided by <a href=\"https://sourceforge.net/u/xak77/profile/\">xak77</a>."
+      },
+      {
+        "row": 51,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 52,
+        "rowsha": "SoE0pvlABUY6UusrLcAgNz4PkoTle0JWWhESnRMZ7Es=",
+        "originContent": "## 📖 Documentation",
+        "translatedContent": "## 📖 Documentation"
+      },
+      {
+        "row": 53,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 54,
+        "rowsha": "VomrywAB/r9MZjpzvP6B4TzqnsbngoQxHJEFsCAh0FY=",
+        "originContent": "Documentation for OpenSuperClone can be found on the <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/wiki\">Wiki</a>.",
+        "translatedContent": "Documentation for OpenSuperClone can be found on the <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/wiki\">Wiki</a>."
+      },
+      {
+        "row": 55,
+        "rowsha": "bDB42NqNLlKXxP8J0Gakn1GQliElZbUcn0NSF/SqAuw=",
+        "originContent": "Note that the Wiki is currently a work-in-progress and incomplete.",
+        "translatedContent": "Note that the Wiki is currently a work-in-progress and incomplete."
+      },
+      {
+        "row": 56,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 57,
+        "rowsha": "U4HeKQJbcZB+nIzIH8T4CRcJEf/pdVCVJvUMS7GJuu4=",
+        "originContent": "## ✏️ Changelog",
+        "translatedContent": "## ✏️ Changelog"
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 59,
+        "rowsha": "zuv9E1Tv+KT4VfUtEJBDbJqjYGvE7pTO8boHlB7CcC8=",
+        "originContent": "#### OpenSuperClone 2.5.1 (Work-In-Progress)",
+        "translatedContent": "#### OpenSuperClone 2.5.1 (Work-In-Progress)"
+      },
+      {
+        "row": 60,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 61,
+        "rowsha": "5doYgi7dgzAR+7pz1OI4yUu6oz+IPwthKLf9dUDzrwc=",
+        "originContent": "* OSCDriver 2.6.7: add support up to kernel 6.14.0 (thanks to <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/pull/25\">piernov</a>)",
+        "translatedContent": "* OSCDriver 2.6.7: add support up to kernel 6.14.0 (thanks to <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/pull/25\">piernov</a>)"
+      },
+      {
+        "row": 62,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 63,
+        "rowsha": "7dLa4ovv0osR7HtGYQLwqLwNNKDJN+gfhccUnuhkZKI=",
+        "originContent": "#### OpenSuperClone 2.5",
+        "translatedContent": "#### OpenSuperClone 2.5"
+      },
+      {
+        "row": 64,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 65,
+        "rowsha": "mWKlDpCjD0TZqJlzSTvdOAngW8OLcDE57p598uT2Kyw=",
+        "originContent": "* Implemented DKMS for driver installation",
+        "translatedContent": "* Implemented DKMS for driver installation"
+      },
+      {
+        "row": 66,
+        "rowsha": "fwy6N9QujOqN7gtUejDkW4jTF9qvi46SCsdo1nTtPD8=",
+        "originContent": "* OSCDriver 2.6.6: add support up to kernel 6.11.0 (thanks to <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/pull/19\">piernov</a>)",
+        "translatedContent": "* OSCDriver 2.6.6: add support up to kernel 6.11.0 (thanks to <a href=\"https://github.com/ISpillMyDrink/OpenSuperClone/pull/19\">piernov</a>)"
+      },
+      {
+        "row": 67,
+        "rowsha": "zzycFCD9FaSs0kwe+X1XN1v8iC1x1uz398mBYuAIvuk=",
+        "originContent": "* Disabling the USB Mass Storage driver now also disables the USB Attached SCSI driver",
+        "translatedContent": "* Disabling the USB Mass Storage driver now also disables the USB Attached SCSI driver"
+      },
+      {
+        "row": 68,
+        "rowsha": "2jWwfdBDcQrh9MRyjRuyJmYiTWscb0fEawpqMCIS+3c=",
+        "originContent": "* Various UI improvements including tooltips for most controls and improved SMART, Analysis, and Identify views",
+        "translatedContent": "* Various UI improvements including tooltips for most controls and improved SMART, Analysis, and Identify views"
+      },
+      {
+        "row": 69,
+        "rowsha": "JizymIwEwfyjKwzDXrHS2BMUNa1LI0EYmwDogSI4yQU=",
+        "originContent": "* Added some more known SMART attributes and Identify flags",
+        "translatedContent": "* Added some more known SMART attributes and Identify flags"
+      },
+      {
+        "row": 70,
+        "rowsha": "4y1I7Tlj53H0EaPny24Vcvj57iTwIL64V49p3xH8DY8=",
+        "originContent": "* Increased the maximum amount of retry runs from 8 to 1000 (useful for solid state recovery)",
+        "translatedContent": "* Increased the maximum amount of retry runs from 8 to 1000 (useful for solid state recovery)"
+      },
+      {
+        "row": 71,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 72,
+        "rowsha": "iV+Aq4nk59lTvQV2p+WUp2tV67u0KD87I4bdse3+ZY0=",
+        "originContent": "#### OpenSuperClone 2.4.1",
+        "translatedContent": "#### OpenSuperClone 2.4.1"
+      },
+      {
+        "row": 73,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 74,
+        "rowsha": "up8MiAiJBhC3rEpsEMirFTbONhLF/g5C6XA2EKOphZU=",
+        "originContent": "* Fixed a bug where the UI labels would show bogus strings",
+        "translatedContent": "* Fixed a bug where the UI labels would show bogus strings"
+      },
+      {
+        "row": 75,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 76,
+        "rowsha": "A6F2W7RJ+dlynoAHxadI8+qDjhXUhKOViGc7E0Ye0KM=",
+        "originContent": "#### OpenSuperClone 2.4",
+        "translatedContent": "#### OpenSuperClone 2.4"
+      },
+      {
+        "row": 77,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 78,
+        "rowsha": "8AFabMXGl1lg5MLsyYoRXPlcBfBCH0B9h66tdfbFNZY=",
+        "originContent": "* Removal of licensing related code",
+        "translatedContent": "* Removal of licensing related code"
+      },
+      {
+        "row": 79,
+        "rowsha": "nopoJ34dY/eFzEHSI4MVRDJzphGG1mAAvXuQwtL+IoI=",
+        "originContent": "* Implemented CMake as build system",
+        "translatedContent": "* Implemented CMake as build system"
+      },
+      {
+        "row": 80,
+        "rowsha": "5CEYmt8hIPhnSgiLkx1Xcxt241zh1s+ZwpNyw4zEQyU=",
+        "originContent": "* Switched from GTK2 to GTK3",
+        "translatedContent": "* Switched from GTK2 to GTK3"
+      },
+      {
+        "row": 81,
+        "rowsha": "eTQlAiOpuDocdUG8Lu9poJj+ks+LNWgiAxSWcm9duy4=",
+        "originContent": "* Replaced localization system with gettext",
+        "translatedContent": "* Replaced localization system with gettext"
+      },
+      {
+        "row": 82,
+        "rowsha": "5MZdvHZKxDJ5R1f/z6KOo7cnSLYgcrVegVbHAjyef3c=",
+        "originContent": "* OSCDriver 2.6.1: add support up to kernel 5.19.11 (thanks to <a href=\"https://github.com/piernov/\">piernov</a>)",
+        "translatedContent": "* OSCDriver 2.6.1: add support up to kernel 5.19.11 (thanks to <a href=\"https://github.com/piernov/\">piernov</a>)"
+      },
+      {
+        "row": 83,
+        "rowsha": "aCwvUbuDLkUPP5bFmEcONJD6PJRSUQgaLY+Toixn5d4=",
+        "originContent": "* Minor improvements to OSCViewer (color picker, minor graphical changes)",
+        "translatedContent": "* Minor improvements to OSCViewer (color picker, minor graphical changes)"
+      },
+      {
+        "row": 84,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 85,
+        "rowsha": "Kld1z78/WaYTmPLZY2ma6baJ44RF4dzTPK5LJWRLUBc=",
+        "originContent": "## 💵 Credits",
+        "translatedContent": "## 💵 Credits"
+      },
+      {
+        "row": 86,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 87,
+        "rowsha": "fiJG05hs5JUIDjZQENUxJOSxsbAC/6cJm0RMcpChCeg=",
+        "originContent": "Credit belongs to Scott Dwyer for his excellent work on <a href=\"https://www.hddsuperclone.com/\">HDDSuperClone</a>,",
+        "translatedContent": "Credit belongs to Scott Dwyer for his excellent work on <a href=\"https://www.hddsuperclone.com/\">HDDSuperClone</a>,"
+      },
+      {
+        "row": 88,
+        "rowsha": "0JeZVsiOAsoLnJvejjXKOBrOqjIILj8knpapY/toEKM=",
+        "originContent": "and <a href=\"https://github.com/piernov/\">piernov</a> for his work on updating the kernel module.",
+        "translatedContent": "and <a href=\"https://github.com/piernov/\">piernov</a> for his work on updating the kernel module."
+      },
+      {
+        "row": 89,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 90,
+        "rowsha": "ymmA4XmiYpoIwn1kYlbuVFWnwgnSkOZSOFBIEJNx1UI=",
+        "originContent": "This project makes use of the following libraries/programs:",
+        "translatedContent": "This project makes use of the following libraries/programs:"
+      },
+      {
+        "row": 91,
+        "rowsha": "KfBmZMPKbsui8kS8Cm4erKclBXiZ/tN2INvRBpA7QKU=",
+        "originContent": "* GLADE (https://glade.gnome.org/)",
+        "translatedContent": "* GLADE (https://glade.gnome.org/)"
+      },
+      {
+        "row": 92,
+        "rowsha": "rWS0rHFwuwbAoYTwAXk69azD6K1bP9XJ7q1M/NHa5J4=",
+        "originContent": "* GTK (https://www.gtk.org/)",
+        "translatedContent": "* GTK (https://www.gtk.org/)"
+      },
+      {
+        "row": 93,
+        "rowsha": "VFTlJgDtbomKMe629Zh88AQ7SixcXP/RkSSbzOtoRw4=",
+        "originContent": "* libconfig (https://hyperrealm.github.io/libconfig/)",
+        "translatedContent": "* libconfig (https://hyperrealm.github.io/libconfig/)"
+      },
+      {
+        "row": 94,
+        "rowsha": "sdvpzrKuAJQX78WywVDIIxq8Pw7xg/1wIy9ZCDg2LT0=",
+        "originContent": "* libintl (https://www.gnu.org/software/gettext/)",
+        "translatedContent": "* libintl (https://www.gnu.org/software/gettext/)"
+      },
+      {
+        "row": 95,
+        "rowsha": "lHf2KuJhQuYJPfAQlf2NmidKOPFTFPpIt9SwmKEM8Ns=",
+        "originContent": "* libusb (https://libusb.info/)",
+        "translatedContent": "* libusb (https://libusb.info/)"
+      },
+      {
+        "row": 96,
+        "rowsha": "J66X9TPafIeu/I6Cb5TZuJOeorG0E9+vnFyJUvMBMZ8=",
+        "originContent": "* Font Awesome (https://fontawesome.com/)",
+        "translatedContent": "* Font Awesome (https://fontawesome.com/)"
+      },
+      {
+        "row": 97,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 98,
+        "rowsha": "qdzKI50RqHyAaNHbQuVekCMXyk/TfGfppMlRPvlONC4=",
+        "originContent": "## 📄 License",
+        "translatedContent": "## 📄 License"
+      },
+      {
+        "row": 99,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 100,
+        "rowsha": "Lu4D4qATaYwKj63Bp4ThCi8DMbQ6MySfPfS6DKx33MI=",
+        "originContent": "This software is licensed under the [GPLv2](LICENSE).",
+        "translatedContent": "This software is licensed under the [GPLv2](LICENSE)."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

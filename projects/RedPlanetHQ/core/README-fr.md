@@ -30,11 +30,16 @@
 
 <div align="center">
   <a href="https://core.heysol.ai">
-    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="logo CORE" />
+    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="Logo CORE" />
   </a>
 
 ### C.O.R.E : Votre cerveau numérique pour l’ère de l’IA
 
+<p align="center">
+    <a href="https://deepwiki.com/RedPlanetHQ/core">
+        <img src="https://deepwiki.com/badge.svg" alt="Badge DeepWiki" />
+    </a>
+</p>
 <p align="center">
     <a href="https://docs.heysol.ai/core/overview"><b>Documentation</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
@@ -43,13 +48,13 @@
 
 ## 🧠 C.O.R.E.
 
-**Contextual Observation & Recall Engine**
+**Moteur d’Observation Contextuelle et de Rappel**
 
-C.O.R.E est un graphe de mémoire portable construit à partir de vos interactions LLM et de vos données personnelles, rendant tout votre contexte et l’historique de vos workflows accessibles à n’importe quel outil d’IA, comme un cerveau numérique. Cela élimine le besoin de partager à nouveau le contexte à chaque fois. L’objectif est de fournir :
+C.O.R.E est un graphe de mémoire portable construit à partir de vos interactions avec les LLM et de vos données personnelles, rendant tout votre contexte et l’historique de vos flux de travail accessibles à n’importe quel outil d’IA, comme un cerveau numérique. Cela élimine le besoin de partager sans cesse le contexte. L’objectif est de fournir :
 
-- **Mémoire unifiée et portable** : Ajoutez et rappelez du contexte sans effort, et connectez votre mémoire entre des applications comme Claude, Cursor, Windsurf et plus encore.
-- **Relationnel, pas seulement des faits plats** : CORE organise vos connaissances, stockant à la fois les faits et les relations pour une mémoire plus profonde et riche, à la manière d’un vrai cerveau.
-- **Propriété utilisateur** : Vous décidez quoi garder, mettre à jour ou supprimer et partagez votre mémoire dans l’outil de votre choix, sans dépendre d’un fournisseur.
+- **Mémoire unifiée et portable** : Ajoutez et retrouvez du contexte sans effort, et reliez votre mémoire à des applications comme Claude, Cursor, Windsurf, etc.
+- **Relationnel, pas seulement des faits isolés** : CORE organise votre connaissance, stockant les faits et leurs relations pour une mémoire plus riche et profonde, comme un vrai cerveau.
+- **Propriété utilisateur** : Vous décidez quoi conserver, mettre à jour ou supprimer et partagez votre mémoire avec l’outil de votre choix, sans dépendance à un fournisseur.
 
 ## 🎥 Vidéo de démonstration
 
@@ -57,19 +62,19 @@ C.O.R.E est un graphe de mémoire portable construit à partir de vos interactio
 
 <img width="954" height="700" alt="Tableau de bord Core" src="https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694" />
 
-## 🧩  Fonctionnalités clés
+## 🧩  Fonctionnalités principales
 
-- **Graphe de mémoire** : Visualisez comment vos faits et préférences sont liés entre eux
-- **Discuter avec la mémoire** : Posez des questions sur votre mémoire pour obtenir des informations et des compréhensions instantanées
+- **Graphe de mémoire** : Visualisez les liens entre vos faits et préférences
+- **Chat avec la mémoire** : Posez des questions à la mémoire pour des réponses et une compréhension instantanées
 - **Plug n Play** : Utilisez instantanément la mémoire CORE dans des applications comme Cursor, Claude
 
-## ☁️ Installation C.O.R.E Cloud
+## ☁️ Configuration Cloud C.O.R.E
 
 1. Inscrivez-vous à [Core Cloud](https://core.heysol.ai) et commencez à construire votre graphe de mémoire.
-2. Ajoutez votre texte à sauvegarder en mémoire. Après avoir cliqué sur le bouton `+ Ajouter`, votre graphe de mémoire sera généré.
-3. [Connectez la mémoire Core MCP avec Cursor](#connecting-core-mcp-with-cursor)
+2. Ajoutez le texte que vous souhaitez enregistrer dans la mémoire. En cliquant sur le bouton `+ Ajouter`, votre graphe de mémoire sera généré.
+3. [Connectez la mémoire Core MCP à Cursor](#connecting-core-mcp-with-cursor)
 
-## 💻 Installation locale de C.O.R.E
+## 💻 Configuration locale de C.O.R.E
 
 #### Prérequis
 
@@ -77,13 +82,13 @@ C.O.R.E est un graphe de mémoire portable construit à partir de vos interactio
 2. Clé API OpenAI
 
 
-> **Remarque :** Nous travaillons activement à l’amélioration de la prise en charge des modèles Llama. Pour l’instant, C.O.R.E ne fournit pas de résultats optimaux avec les modèles basés sur Llama, mais nous faisons des progrès pour assurer une meilleure compatibilité et des résultats dans un avenir proche.
+> **Remarque :** Nous travaillons activement à l’amélioration de la prise en charge des modèles Llama. À l’heure actuelle, C.O.R.E ne fournit pas de résultats optimaux avec les modèles basés sur Llama, mais nous progressons afin d’assurer une meilleure compatibilité et de meilleurs résultats prochainement.
 > 
 #### Exécuter C.O.R.E en local
 
-1. **Copier les variables d’environnement**
+1. **Copiez les variables d’environnement**
 
-   Copiez le fichier d’environnement d’exemple vers `.env` :
+   Copiez le fichier d’exemple d’environnement vers `.env` :
 
 
    ```bash
@@ -202,6 +207,6 @@ Vous avez des questions ou des commentaires ? Nous sommes là pour vous aider :
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
 
 ---

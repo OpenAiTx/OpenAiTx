@@ -1,0 +1,969 @@
+[
+  {
+    "Id": 1,
+    "Content": "📘 中文 | [English](https://raw.githubusercontent.com/jhlucc/pokemon-chat/main/./README.en.md)\n\n<img src=\"https://raw.githubusercontent.com/jhlucc/pokemon-chat/main/resources/picture/11.png\" alt=\"图标\" style=\"width: 27%;\" />\n\n# 「可萌」 <img src=\"https://raw.githubusercontent.com/jhlucc/pokemon-chat/main/resources/picture/brain-removebg-preview.png\" alt=\"图标\" style=\"width: 11%;\" /> 基于知识库与知识图谱的专域聊天助手\n\n![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat&logo=python)\n![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)\n![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=ffffff)\n![LangGraph](https://img.shields.io/badge/LangGraph-Flow-green?style=flat&logo=databricks)\n![GraphRAG](https://img.shields.io/badge/GraphRAG-KG-blueviolet?style=flat)\n![Agent](https://img.shields.io/badge/Agent-System-orange?style=flat)\n![Vue3](https://img.shields.io/badge/Vue-3.0-4FC08D?style=flat&logo=vue.js)\n![License](https://img.shields.io/github/license/bitcookies/winrar-keygen.svg?logo=github)\n\n\n\n<img src=\"https://raw.githubusercontent.com/jhlucc/pokemon-chat/main/resources/picture/img.png\" alt=\"图标\" style=\"width: 90%;\" />\n\n\n\n---\n\n## 📝 项目介绍\n\n宝可梦（Pokémon）作为全球最具影响力的 IP 之一，拥有庞大的世界观设定与海量角色数据。在游戏、动画、卡牌、电影等多领域的多年积累下，其知识体系庞杂且高度结构化，非常适合应用于知识图谱建模与智能问答场景。\n\n随着大语言模型（LLM）与知识增强技术的发展，将宝可梦宇宙构建为一个**多模态、结构化、可交互的 AI 系统**成为可能。本项目以 百度贴吧 与维基百科等数据源为基础，构建出覆盖宝可梦角色、属性、技能、地区、演化路径等元素的知识图谱，并结合大模型能力，打造一个**专属宝可梦世界的智能对话助手** ——「可萌」。\n\n在此基础上，我们融合了 **LangGraph 推理流程编排**、 **GraphRAG 检索增强技术**，以及**知识图谱可视化探索能力**，使用户不仅可以通过自然语言提问获得精确答案，还能以图谱形式直观探索宝可梦世界。同时支持基于地理位置的地图定位功能，将宝可梦世界与真实世界坐标一一映射，实现 **宝可梦地点知识的空间可视化** :earth_asia: 。\n\n​        本项目致力于打造一个可迁移、可扩展、面向爱好者的**专域智能助手模板系统**，你可以轻松将其迁移至其他角色（如「苏轼」、「金融」、「 政务服务」等）中打造专域的智能助手，仅需更换知识源与图谱结构，即可实现高质量的语义问答与可视化知识探索体验。\n\n---\n\n## 🎯系统架构\n\n通过本项目的实施，我们不仅完成了vue3+fastapi的一个完整项目，同时构建了一个基于宝可梦知识图谱的智能问答系统。积累了语义结构建模如bert+tf-idf+规则匹配机制、以及图谱融合与生成式问答的丰富实践经验。系统支持对宝可梦的进化关系、属性克制、技能特征、地理分布等内容进行精准问答，极大提升了用户在交互式探索中的体验感。\n\n未来，我们将持续优化系统在多轮问答、复杂图谱推理、地图导航等场景下的表现，并扩展更多支持任务类型，如：基于图谱的推理问答、Pokédex 自动补全、角色对战策略建议等。同时，知识图谱将持续更新和扩展，以确保其**时效性、完整性与一致性**，助力宝可梦领域的智能系统构建与 AI 应用拓展。\n\n以下是本项目的核心技术架构图：\n\n\n\n <img src=\"https://raw.githubusercontent.com/jhlucc/pokemon-chat/main/resources/picture/now.png\" alt=\"图标\" style=\"width: 100%;\" />\n\n##  🎯项目特色\n\n1. 基于爬取的数据微调了基于宝可梦的专域大模型——[可萌](https://huggingface.co/qwqqwq/qwen2.5-14b-instruct-pokemon-int4) 。\n2. 基于爬取数据构建了宝可梦知识图谱（维基百科）。\n3. 自动化标注训练NER数据，使用roberta+TF-IDF+规则匹配来命中图谱中的实体与属性。\n4. 使用whisper来实现ASR功能\n5. 实现MCP服务，如获取宝可梦世界地点、宝可梦在对应真实世界的经纬度坐标显示在前端上。\n6. 抽取RAGflow中的deepdoc来强化知识库的解析和抽取能力。\n7. 使用Langraph框架基于自己的数据实现graphrag+ web searcher + 知识库 智能体。\n8. 封装agent 基类实现多智能体功能。\n9. 支持知识图谱搜索、网络搜索、知识库搜索、MCP搜索、语音搜索，可以同时集成也可以任选其一。\n\n---\n\n## 🚀 快速开始\n\n> **前置要求**：已安装 Docker / Docker Compose、Node.js ≥ 18、Python ≥ 3.11\n\n1. 把数据放到[resources](https://pan.baidu.com/s/1o48ankI6l9jaky5MeRqgYw?pwd=rkdy)文件夹下\n\n2. **克隆仓库 & 配置环境变量**\n",
+    "ContentSha": "zdpqoFVXoJqg23hZ3ZISt5mwxpK1lZD89Z3Mibf89Po=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "📘 中文 | [English](https://raw.githubusercontent.com/jhlucc/pokemon-chat/main/./README.en.md)\n\n<img src=\"https://raw.githubusercontent.com/jhlucc/pokemon-chat/main/resources/picture/11.png\" alt=\"图标\" style=\"width: 27%;\" />\n\n# 「可萌」 <img src=\"https://raw.githubusercontent.com/jhlucc/pokemon-chat/main/resources/picture/brain-removebg-preview.png\" alt=\"图标\" style=\"width: 11%;\" /> 지식베이스 및 지식 그래프 기반 전용 대화 보조 도구\n\n![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat&logo=python)\n![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)\n![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=ffffff)\n![LangGraph](https://img.shields.io/badge/LangGraph-Flow-green?style=flat&logo=databricks)\n![GraphRAG](https://img.shields.io/badge/GraphRAG-KG-blueviolet?style=flat)\n![Agent](https://img.shields.io/badge/Agent-System-orange?style=flat)\n![Vue3](https://img.shields.io/badge/Vue-3.0-4FC08D?style=flat&logo=vue.js)\n![License](https://img.shields.io/github/license/bitcookies/winrar-keygen.svg?logo=github)\n\n\n\n<img src=\"https://raw.githubusercontent.com/jhlucc/pokemon-chat/main/resources/picture/img.png\" alt=\"图标\" style=\"width: 90%;\" />\n\n\n\n---\n\n## 📝 프로젝트 소개\n\n포켓몬(Pokémon)은 전 세계에서 가장 영향력 있는 IP 중 하나로, 방대한 세계관 설정과 수많은 캐릭터 데이터를 보유하고 있습니다. 게임, 애니메이션, 카드, 영화 등 다양한 분야에서 쌓인 다년간의 축적으로, 그 지식 체계는 방대하고 고도로 구조화되어 있어 지식 그래프 모델링과 지능형 질의응답 시나리오에 매우 적합합니다.\n\n대형 언어 모델(LLM)과 지식 강화 기술의 발전과 함께, 포켓몬 우주를 **멀티모달, 구조화, 상호작용 가능한 AI 시스템**으로 구축하는 것이 가능해졌습니다. 본 프로젝트는 바이두 게시판과 위키피디아 등의 데이터 소스를 기반으로 포켓몬 캐릭터, 속성, 기술, 지역, 진화 경로 등의 요소를 아우르는 지식 그래프를 구축하고, 대형 모델 능력을 결합하여 **전용 포켓몬 세계 지능형 대화 보조 도구**인 「可萌」을 만들었습니다.\n\n이를 토대로, 우리는 **LangGraph 추론 흐름 편집**, **GraphRAG 검색 강화 기술**, 그리고 **지식 그래프 시각화 탐색 기능**을 융합하여 사용자가 자연어 질문을 통해 정확한 답변을 얻을 수 있을 뿐만 아니라 그래프 형태로 포켓몬 세계를 직관적으로 탐색할 수 있도록 했습니다. 또한 위치 기반 지도 위치 지정 기능을 지원하여 포켓몬 세계와 현실 세계 좌표를 일대일로 매핑해 **포켓몬 장소 지식의 공간 시각화**를 구현했습니다 :earth_asia: .\n\n​        본 프로젝트는 전이 가능하고 확장 가능한, 애호가를 위한 **전용 지능형 보조 도구 템플릿 시스템**을 구축하는 데 주력하고 있으며, 지식 출처와 그래프 구조만 교체하면 다른 캐릭터(예: 「소식(苏轼)」, 「금융」, 「정무 서비스」 등)에도 쉽게 이식하여 고품질 의미 기반 질의응답과 시각화 지식 탐색 경험을 제공할 수 있습니다.\n\n---\n\n## 🎯 시스템 아키텍처\n\n본 프로젝트를 구현함으로써 우리는 vue3+fastapi 기반의 완전한 프로젝트를 완성했을 뿐만 아니라 포켓몬 지식 그래프 기반의 지능형 질의응답 시스템을 구축했습니다. bert+tf-idf+규칙 매칭 메커니즘과 그래프 융합, 생성형 질의응답 등 의미 구조 모델링에 대한 풍부한 실무 경험을 축적했습니다. 시스템은 포켓몬의 진화 관계, 속성 상성, 기술 특성, 지리 분포 등 내용을 정밀하게 질의할 수 있어 대화형 탐색에서 사용자 경험을 크게 향상시킵니다.\n\n앞으로 우리는 다중 대화, 복잡한 그래프 추론, 지도 내비게이션 등 시나리오에서 시스템 성능을 지속적으로 최적화하고, 그래프 기반 추론 질의응답, Pokédex 자동 완성, 캐릭터 전투 전략 제안 등 더 많은 지원 작업 유형을 확장할 예정입니다. 또한 지식 그래프는 **시의성, 완전성, 일관성**을 보장하기 위해 지속적으로 업데이트 및 확장되어 포켓몬 분야의 지능형 시스템 구축 및 AI 응용 확장에 기여할 것입니다.\n\n아래는 본 프로젝트의 핵심 기술 아키텍처 도면입니다:\n\n\n\n <img src=\"https://raw.githubusercontent.com/jhlucc/pokemon-chat/main/resources/picture/now.png\" alt=\"图标\" style=\"width: 100%;\" />\n\n##  🎯 프로젝트 특징\n\n1. 크롤링한 데이터를 기반으로 포켓몬 전용 대형 모델인 — [可萌](https://huggingface.co/qwqqwq/qwen2.5-14b-instruct-pokemon-int4) 을 미세 조정했습니다.\n2. 크롤링한 데이터를 기반으로 포켓몬 지식 그래프(위키피디아)를 구축했습니다.\n3. 자동화된 NER 데이터 라벨링을 수행하며 roberta+TF-IDF+규칙 매칭을 사용해 그래프 내 엔티티와 속성을 명중시켰습니다.\n4. whisper를 사용하여 ASR 기능을 구현했습니다.\n5. MCP 서비스를 구현하여 포켓몬 세계 장소를 얻고, 실제 세계 좌표에 대응하는 위도경도 좌표를 프론트엔드에 표시합니다.\n6. RAGflow의 deepdoc을 추출하여 지식베이스의 분석 및 추출 능력을 강화했습니다.\n7. LangGraph 프레임워크를 사용해 자체 데이터를 기반으로 graphrag+ 웹 검색기 + 지식베이스 지능형 에이전트를 구현했습니다.\n8. 에이전트 기본 클래스를 캡슐화하여 다중 에이전트 기능을 구현했습니다.\n9. 지식 그래프 검색, 네트워크 검색, 지식베이스 검색, MCP 검색, 음성 검색을 지원하며, 동시에 통합하거나 선택적으로 사용할 수 있습니다.\n\n---\n\n## 🚀 빠른 시작\n\n> **사전 요구사항**: Docker / Docker Compose, Node.js ≥ 18, Python ≥ 3.11 설치 완료\n\n1. 데이터를 [resources](https://pan.baidu.com/s/1o48ankI6l9jaky5MeRqgYw?pwd=rkdy) 폴더에 넣으세요\n\n2. **저장소 클론 및 환경 변수 설정**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "t2QRedueWUU+rx3xrtvuI5J1uLHID40sJaDxhtWOR7c=",
+        "originContent": "📘 中文 | [English](https://raw.githubusercontent.com/jhlucc/pokemon-chat/main/./README.en.md)",
+        "translatedContent": "📘 中文 | [English](https://raw.githubusercontent.com/jhlucc/pokemon-chat/main/./README.en.md)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "HWfz67qytOUMgmD9h57mBfhkBxv8F2PjLBdhQJs20yo=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/jhlucc/pokemon-chat/main/resources/picture/11.png\" alt=\"图标\" style=\"width: 27%;\" />",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/jhlucc/pokemon-chat/main/resources/picture/11.png\" alt=\"图标\" style=\"width: 27%;\" />"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "DZ/cTKLpu+oTxvhp7CzPqWkeBaeHtVwuGOS9/CD33qw=",
+        "originContent": "# 「可萌」 <img src=\"https://raw.githubusercontent.com/jhlucc/pokemon-chat/main/resources/picture/brain-removebg-preview.png\" alt=\"图标\" style=\"width: 11%;\" /> 基于知识库与知识图谱的专域聊天助手",
+        "translatedContent": "# 「可萌」 <img src=\"https://raw.githubusercontent.com/jhlucc/pokemon-chat/main/resources/picture/brain-removebg-preview.png\" alt=\"图标\" style=\"width: 11%;\" /> 지식베이스 및 지식 그래프 기반 전용 대화 보조 도구"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "ZRnOizsXcphMWn4edo0Hjw9h6wFYUs3/E0XG3ZJmBL4=",
+        "originContent": "![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat&logo=python)",
+        "translatedContent": "![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat&logo=python)"
+      },
+      {
+        "row": 8,
+        "rowsha": "JBiija8hZQ7stabdmorp1y0DEz3qeS0Gg4B2WegRyJo=",
+        "originContent": "![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)",
+        "translatedContent": "![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)"
+      },
+      {
+        "row": 9,
+        "rowsha": "WBsZY8EgKDNEkltslQc2YbmrvflRTdeFJQwjz9Z6kYg=",
+        "originContent": "![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=ffffff)",
+        "translatedContent": "![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=ffffff)"
+      },
+      {
+        "row": 10,
+        "rowsha": "mQJdthNuv521R8UAMWIZ8pX9VqOX8vRK8wHEGbOokg0=",
+        "originContent": "![LangGraph](https://img.shields.io/badge/LangGraph-Flow-green?style=flat&logo=databricks)",
+        "translatedContent": "![LangGraph](https://img.shields.io/badge/LangGraph-Flow-green?style=flat&logo=databricks)"
+      },
+      {
+        "row": 11,
+        "rowsha": "HJJnSDEGsgosZ6y3vDMM6744SaXl/4NX13btbKRgIQ4=",
+        "originContent": "![GraphRAG](https://img.shields.io/badge/GraphRAG-KG-blueviolet?style=flat)",
+        "translatedContent": "![GraphRAG](https://img.shields.io/badge/GraphRAG-KG-blueviolet?style=flat)"
+      },
+      {
+        "row": 12,
+        "rowsha": "ie9QoxQh63lfKyCce5E3OJdRGQ4YXg+qrNbKO8f7Smk=",
+        "originContent": "![Agent](https://img.shields.io/badge/Agent-System-orange?style=flat)",
+        "translatedContent": "![Agent](https://img.shields.io/badge/Agent-System-orange?style=flat)"
+      },
+      {
+        "row": 13,
+        "rowsha": "x9ZLsvStuj/kT3Fwcnh6rKHeZdqAKbwsItpS+vBGs3s=",
+        "originContent": "![Vue3](https://img.shields.io/badge/Vue-3.0-4FC08D?style=flat&logo=vue.js)",
+        "translatedContent": "![Vue3](https://img.shields.io/badge/Vue-3.0-4FC08D?style=flat&logo=vue.js)"
+      },
+      {
+        "row": 14,
+        "rowsha": "iG7s3rDP4Mu6bfdIJEsgPuua7owQmo37L/zuDZ0VQv4=",
+        "originContent": "![License](https://img.shields.io/github/license/bitcookies/winrar-keygen.svg?logo=github)",
+        "translatedContent": "![License](https://img.shields.io/github/license/bitcookies/winrar-keygen.svg?logo=github)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "4bzEk0k1NhjGduJpT440DCWA5ykTmwVtAz8pJVzwrvw=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/jhlucc/pokemon-chat/main/resources/picture/img.png\" alt=\"图标\" style=\"width: 90%;\" />",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/jhlucc/pokemon-chat/main/resources/picture/img.png\" alt=\"图标\" style=\"width: 90%;\" />"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "2LkFoz2GyZn3YWVn+ZDUJIlqq7z6kEYTDi0OUsZaHNk=",
+        "originContent": "## 📝 项目介绍",
+        "translatedContent": "## 📝 프로젝트 소개"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "lhGFDv2VW0q12K5+a+gRTiM6SWHN+yqbHmVBPGH70Tg=",
+        "originContent": "宝可梦（Pokémon）作为全球最具影响力的 IP 之一，拥有庞大的世界观设定与海量角色数据。在游戏、动画、卡牌、电影等多领域的多年积累下，其知识体系庞杂且高度结构化，非常适合应用于知识图谱建模与智能问答场景。",
+        "translatedContent": "포켓몬(Pokémon)은 전 세계에서 가장 영향력 있는 IP 중 하나로, 방대한 세계관 설정과 수많은 캐릭터 데이터를 보유하고 있습니다. 게임, 애니메이션, 카드, 영화 등 다양한 분야에서 쌓인 다년간의 축적으로, 그 지식 체계는 방대하고 고도로 구조화되어 있어 지식 그래프 모델링과 지능형 질의응답 시나리오에 매우 적합합니다."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "7dmyXoHVN+fH/C4EXoHu/aySJ+QfsMeCeJUHulRBf2E=",
+        "originContent": "随着大语言模型（LLM）与知识增强技术的发展，将宝可梦宇宙构建为一个**多模态、结构化、可交互的 AI 系统**成为可能。本项目以 百度贴吧 与维基百科等数据源为基础，构建出覆盖宝可梦角色、属性、技能、地区、演化路径等元素的知识图谱，并结合大模型能力，打造一个**专属宝可梦世界的智能对话助手** ——「可萌」。",
+        "translatedContent": "대형 언어 모델(LLM)과 지식 강화 기술의 발전과 함께, 포켓몬 우주를 **멀티모달, 구조화, 상호작용 가능한 AI 시스템**으로 구축하는 것이 가능해졌습니다. 본 프로젝트는 바이두 게시판과 위키피디아 등의 데이터 소스를 기반으로 포켓몬 캐릭터, 속성, 기술, 지역, 진화 경로 등의 요소를 아우르는 지식 그래프를 구축하고, 대형 모델 능력을 결합하여 **전용 포켓몬 세계 지능형 대화 보조 도구**인 「可萌」을 만들었습니다."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "1vfMl2R2V80OufyaHpoEx6YkQC45xhugp8+8xa6pIe8=",
+        "originContent": "在此基础上，我们融合了 **LangGraph 推理流程编排**、 **GraphRAG 检索增强技术**，以及**知识图谱可视化探索能力**，使用户不仅可以通过自然语言提问获得精确答案，还能以图谱形式直观探索宝可梦世界。同时支持基于地理位置的地图定位功能，将宝可梦世界与真实世界坐标一一映射，实现 **宝可梦地点知识的空间可视化** :earth_asia: 。",
+        "translatedContent": "이를 토대로, 우리는 **LangGraph 추론 흐름 편집**, **GraphRAG 검색 강화 기술**, 그리고 **지식 그래프 시각화 탐색 기능**을 융합하여 사용자가 자연어 질문을 통해 정확한 답변을 얻을 수 있을 뿐만 아니라 그래프 형태로 포켓몬 세계를 직관적으로 탐색할 수 있도록 했습니다. 또한 위치 기반 지도 위치 지정 기능을 지원하여 포켓몬 세계와 현실 세계 좌표를 일대일로 매핑해 **포켓몬 장소 지식의 공간 시각화**를 구현했습니다 :earth_asia: ."
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "tILeNUCCSWU4tcPDMD9vl9PagjbB98AzUJyms8jhhFk=",
+        "originContent": "​        本项目致力于打造一个可迁移、可扩展、面向爱好者的**专域智能助手模板系统**，你可以轻松将其迁移至其他角色（如「苏轼」、「金融」、「 政务服务」等）中打造专域的智能助手，仅需更换知识源与图谱结构，即可实现高质量的语义问答与可视化知识探索体验。",
+        "translatedContent": "​        본 프로젝트는 전이 가능하고 확장 가능한, 애호가를 위한 **전용 지능형 보조 도구 템플릿 시스템**을 구축하는 데 주력하고 있으며, 지식 출처와 그래프 구조만 교체하면 다른 캐릭터(예: 「소식(苏轼)」, 「금융」, 「정무 서비스」 등)에도 쉽게 이식하여 고품질 의미 기반 질의응답과 시각화 지식 탐색 경험을 제공할 수 있습니다."
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "RBp2ixEgiqN5DFYNyIuwPj+jFdJWF52bi7wmVjBGcms=",
+        "originContent": "## 🎯系统架构",
+        "translatedContent": "## 🎯 시스템 아키텍처"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "clzjqBUkm+pR75pLSqFFvnrEFtiILjl783eIcmLlNGM=",
+        "originContent": "通过本项目的实施，我们不仅完成了vue3+fastapi的一个完整项目，同时构建了一个基于宝可梦知识图谱的智能问答系统。积累了语义结构建模如bert+tf-idf+规则匹配机制、以及图谱融合与生成式问答的丰富实践经验。系统支持对宝可梦的进化关系、属性克制、技能特征、地理分布等内容进行精准问答，极大提升了用户在交互式探索中的体验感。",
+        "translatedContent": "본 프로젝트를 구현함으로써 우리는 vue3+fastapi 기반의 완전한 프로젝트를 완성했을 뿐만 아니라 포켓몬 지식 그래프 기반의 지능형 질의응답 시스템을 구축했습니다. bert+tf-idf+규칙 매칭 메커니즘과 그래프 융합, 생성형 질의응답 등 의미 구조 모델링에 대한 풍부한 실무 경험을 축적했습니다. 시스템은 포켓몬의 진화 관계, 속성 상성, 기술 특성, 지리 분포 등 내용을 정밀하게 질의할 수 있어 대화형 탐색에서 사용자 경험을 크게 향상시킵니다."
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "LatO/5V7WITsmK//yum10g0jWV81GLHqeZ0UXznJxnE=",
+        "originContent": "未来，我们将持续优化系统在多轮问答、复杂图谱推理、地图导航等场景下的表现，并扩展更多支持任务类型，如：基于图谱的推理问答、Pokédex 自动补全、角色对战策略建议等。同时，知识图谱将持续更新和扩展，以确保其**时效性、完整性与一致性**，助力宝可梦领域的智能系统构建与 AI 应用拓展。",
+        "translatedContent": "앞으로 우리는 다중 대화, 복잡한 그래프 추론, 지도 내비게이션 등 시나리오에서 시스템 성능을 지속적으로 최적화하고, 그래프 기반 추론 질의응답, Pokédex 자동 완성, 캐릭터 전투 전략 제안 등 더 많은 지원 작업 유형을 확장할 예정입니다. 또한 지식 그래프는 **시의성, 완전성, 일관성**을 보장하기 위해 지속적으로 업데이트 및 확장되어 포켓몬 분야의 지능형 시스템 구축 및 AI 응용 확장에 기여할 것입니다."
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "jmqWJvLDvMVY0VwTjFb8hM5lASkEH5v8lFiTGbGdErE=",
+        "originContent": "以下是本项目的核心技术架构图：",
+        "translatedContent": "아래는 본 프로젝트의 핵심 기술 아키텍처 도면입니다:"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "3hcgX+8/bI/YAoW6PnlafTf7crLp9VvP6Bj11n2rh50=",
+        "originContent": " <img src=\"https://raw.githubusercontent.com/jhlucc/pokemon-chat/main/resources/picture/now.png\" alt=\"图标\" style=\"width: 100%;\" />",
+        "translatedContent": " <img src=\"https://raw.githubusercontent.com/jhlucc/pokemon-chat/main/resources/picture/now.png\" alt=\"图标\" style=\"width: 100%;\" />"
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 48,
+        "rowsha": "lETKobit4u35YiV2oUgVFXB4BAlr+iqmSPNH1B/5FtU=",
+        "originContent": "##  🎯项目特色",
+        "translatedContent": "##  🎯 프로젝트 특징"
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 50,
+        "rowsha": "7fd+7CPmaXA4+HnlAnJUxL9uug2sbyFgzpj/dBBvHOw=",
+        "originContent": "1. 基于爬取的数据微调了基于宝可梦的专域大模型——[可萌](https://huggingface.co/qwqqwq/qwen2.5-14b-instruct-pokemon-int4) 。",
+        "translatedContent": "1. 크롤링한 데이터를 기반으로 포켓몬 전용 대형 모델인 — [可萌](https://huggingface.co/qwqqwq/qwen2.5-14b-instruct-pokemon-int4) 을 미세 조정했습니다."
+      },
+      {
+        "row": 51,
+        "rowsha": "jtOmaR9nh+FwkgLZv4PencTH+xybjxI7Flnza+t2ufE=",
+        "originContent": "2. 基于爬取数据构建了宝可梦知识图谱（维基百科）。",
+        "translatedContent": "2. 크롤링한 데이터를 기반으로 포켓몬 지식 그래프(위키피디아)를 구축했습니다."
+      },
+      {
+        "row": 52,
+        "rowsha": "PpO0S4eXIY66ldyzbGryfzf5gJeDBV/zMpdeJL3a/OM=",
+        "originContent": "3. 自动化标注训练NER数据，使用roberta+TF-IDF+规则匹配来命中图谱中的实体与属性。",
+        "translatedContent": "3. 자동화된 NER 데이터 라벨링을 수행하며 roberta+TF-IDF+규칙 매칭을 사용해 그래프 내 엔티티와 속성을 명중시켰습니다."
+      },
+      {
+        "row": 53,
+        "rowsha": "gIxZwnp+H4GLUFjbkyparePARmy7uUGX1fayS2JxQec=",
+        "originContent": "4. 使用whisper来实现ASR功能",
+        "translatedContent": "4. whisper를 사용하여 ASR 기능을 구현했습니다."
+      },
+      {
+        "row": 54,
+        "rowsha": "6bxBv33JXtjO5ycqnUjG4gOaBbh3AHJCGDIJfc+blQY=",
+        "originContent": "5. 实现MCP服务，如获取宝可梦世界地点、宝可梦在对应真实世界的经纬度坐标显示在前端上。",
+        "translatedContent": "5. MCP 서비스를 구현하여 포켓몬 세계 장소를 얻고, 실제 세계 좌표에 대응하는 위도경도 좌표를 프론트엔드에 표시합니다."
+      },
+      {
+        "row": 55,
+        "rowsha": "S15dWBPGNC7LEc39QNV+uZGn9jcc6rRp8+enXJcrPi4=",
+        "originContent": "6. 抽取RAGflow中的deepdoc来强化知识库的解析和抽取能力。",
+        "translatedContent": "6. RAGflow의 deepdoc을 추출하여 지식베이스의 분석 및 추출 능력을 강화했습니다."
+      },
+      {
+        "row": 56,
+        "rowsha": "Y/pJTM6uvV+lillElXDKSq50r/TnYBkHEgPzQUdyDMo=",
+        "originContent": "7. 使用Langraph框架基于自己的数据实现graphrag+ web searcher + 知识库 智能体。",
+        "translatedContent": "7. LangGraph 프레임워크를 사용해 자체 데이터를 기반으로 graphrag+ 웹 검색기 + 지식베이스 지능형 에이전트를 구현했습니다."
+      },
+      {
+        "row": 57,
+        "rowsha": "iKREJhmbPaIElv4Oc8TjaJdTaGCODQggvUNTnAZaDTM=",
+        "originContent": "8. 封装agent 基类实现多智能体功能。",
+        "translatedContent": "8. 에이전트 기본 클래스를 캡슐화하여 다중 에이전트 기능을 구현했습니다."
+      },
+      {
+        "row": 58,
+        "rowsha": "MGL0peFjxdLVMZGqqyXhNchXFGsKI9HCv5wUXr2awtY=",
+        "originContent": "9. 支持知识图谱搜索、网络搜索、知识库搜索、MCP搜索、语音搜索，可以同时集成也可以任选其一。",
+        "translatedContent": "9. 지식 그래프 검색, 네트워크 검색, 지식베이스 검색, MCP 검색, 음성 검색을 지원하며, 동시에 통합하거나 선택적으로 사용할 수 있습니다."
+      },
+      {
+        "row": 59,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 60,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 61,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 62,
+        "rowsha": "BB3mtM1ND4EO+Ss1aYQr5lcAQqrCYFMGvmfTf2Uyrh8=",
+        "originContent": "## 🚀 快速开始",
+        "translatedContent": "## 🚀 빠른 시작"
+      },
+      {
+        "row": 63,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 64,
+        "rowsha": "KLDC3P/8q1Me8aYVzGXcJdPkirTB7kXKf3bu+6vseLI=",
+        "originContent": "> **前置要求**：已安装 Docker / Docker Compose、Node.js ≥ 18、Python ≥ 3.11",
+        "translatedContent": "> **사전 요구사항**: Docker / Docker Compose, Node.js ≥ 18, Python ≥ 3.11 설치 완료"
+      },
+      {
+        "row": 65,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 66,
+        "rowsha": "EBH+MC1NziIIVX7xcUlWXTRjUAlMaFHGQlzWG4y1J5o=",
+        "originContent": "1. 把数据放到[resources](https://pan.baidu.com/s/1o48ankI6l9jaky5MeRqgYw?pwd=rkdy)文件夹下",
+        "translatedContent": "1. 데이터를 [resources](https://pan.baidu.com/s/1o48ankI6l9jaky5MeRqgYw?pwd=rkdy) 폴더에 넣으세요"
+      },
+      {
+        "row": 67,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 68,
+        "rowsha": "dF3nqL7AFs3yLK/X5Sit/N9v3mS4I5wUd9LdNVsD5vE=",
+        "originContent": "2. **克隆仓库 & 配置环境变量**",
+        "translatedContent": "2. **저장소 클론 및 환경 변수 설정**"
+      },
+      {
+        "row": 69,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "   ```bash\n   git clone \n   cd Smart-Assistant\n   cp src/.env.template src/.env   # 按需填写 API-KEY，可留空\n   cp Smart-Assistant/config/settings_example.py  config/settings.py  # 填写 \n   ```",
+    "ContentSha": "B+vbxBrYdHy2NBGEPfTALpKEIS1YYx/K4OleqCELJ5Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   git clone \n   cd Smart-Assistant\n   cp src/.env.template src/.env   # 按需填写 API-KEY，可留空\n   cp Smart-Assistant/config/settings_example.py  config/settings.py  # 填写 \n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "lYbgWQ2YRl0KjjzUhC0FhHr671fFJV1bT2OkgtHB0mo=",
+        "originContent": "   git clone ",
+        "translatedContent": "   git clone "
+      },
+      {
+        "row": 3,
+        "rowsha": "gCeavtGPkzKvy4IAGU2DQUCX9a7yKRD5r1yA9dDsFqM=",
+        "originContent": "   cd Smart-Assistant",
+        "translatedContent": "   cd Smart-Assistant"
+      },
+      {
+        "row": 4,
+        "rowsha": "5Iq7zF/03V9izD1s4Bb4QfbJsx7wBBN+hl1cocoNlHA=",
+        "originContent": "   cp src/.env.template src/.env   # 按需填写 API-KEY，可留空",
+        "translatedContent": "   cp src/.env.template src/.env   # 按需填写 API-KEY，可留空"
+      },
+      {
+        "row": 5,
+        "rowsha": "ww+AJo9pXLCKLe/AG62CbsI+fi6Hv0PDmQun/AeCT1w=",
+        "originContent": "   cp Smart-Assistant/config/settings_example.py  config/settings.py  # 填写 ",
+        "translatedContent": "   cp Smart-Assistant/config/settings_example.py  config/settings.py  # 填写 "
+      },
+      {
+        "row": 6,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n3. **安装依赖**\n",
+    "ContentSha": "VEs34fVNXR0U53fu1JB6kbj0Xqz7ZxW82IZpNyqfm4Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. **의존성 설치**\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. **의존성 설치**"
+      },
+      {
+        "row": 2,
+        "rowsha": "1dN7S0boxEP9vq6OMOqqZsO/cc7peqH5rxhIR497z+U=",
+        "originContent": "3. **安装依赖**",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "   ```bash\n   pip install -r requirements.txt\n   ```",
+    "ContentSha": "vPTEjA7vB1Y6ZmRn9OrxWVvD+PlIgnmo/9sRb/u1wbg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   pip install -r requirements.txt\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "gtki7VrXs9PZiEAYN9eZp74oLBFOSDhTkGvRXMnXkAc=",
+        "originContent": "   pip install -r requirements.txt",
+        "translatedContent": "   pip install -r requirements.txt"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n4. **启动核心服务**\n",
+    "ContentSha": "gO6+mJgePUErttLEIpiPRT4YU3HBzN3YNVdc+bNHywY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "4. **핵심 서비스 시작**\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "4. **핵심 서비스 시작**"
+      },
+      {
+        "row": 2,
+        "rowsha": "COqzAQKXb2aFj6sRuAynE+WZBVFPXkeQ+TzL+Lcghn0=",
+        "originContent": "4. **启动核心服务**",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "   ```bash\n   cd docker\n   docker compose up -d            # Neo4j · Milvus · Whisper · MySQL 等\n   ```",
+    "ContentSha": "BfgCQY2DRclCoRr225m07QuxQBC6iQepARovTxuSf5g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   cd docker\n   docker compose up -d            # Neo4j · Milvus · Whisper · MySQL 等\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "jSNZ3MdUANRfzr3OJmtrXLpFLkfELZMZn9r2ljEiOQ0=",
+        "originContent": "   cd docker",
+        "translatedContent": "   cd docker"
+      },
+      {
+        "row": 3,
+        "rowsha": "ZaRK9qcy7U3Ij36I1ZMVJeX2QSczyAuwCzcol465xVI=",
+        "originContent": "   docker compose up -d            # Neo4j · Milvus · Whisper · MySQL 等",
+        "translatedContent": "   docker compose up -d            # Neo4j · Milvus · Whisper · MySQL 等"
+      },
+      {
+        "row": 4,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n5. **导入图谱与地图数据**\n",
+    "ContentSha": "LmPkT0bhuj73L3MEexDyRSfjGPi8zwtaPYo8JcMXR4w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "5. **그래프 및 지도 데이터 가져오기**\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "5. **그래프 및 지도 데이터 가져오기**"
+      },
+      {
+        "row": 2,
+        "rowsha": "fskQziiUTYQgH+o8p2JTqdyU5EBxo3zv8mMsvALO7UI=",
+        "originContent": "5. **导入图谱与地图数据**",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "   ```bash\n   cd scripts\n   python import_graph.py          # 写入 Neo4j\n   python import_pokemon_map.py    # 写入 MySQL\n   ```",
+    "ContentSha": "rCvntNB38ZioOoQCtusrCctzynmJaZLv3wKiCyOfnHc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   cd scripts\n   python import_graph.py          # 写入 Neo4j\n   python import_pokemon_map.py    # 写入 MySQL\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "oM/E4JMldMoDHwEKJ7oboMkfN6Qtlw3KG0bAk5wwfRE=",
+        "originContent": "   cd scripts",
+        "translatedContent": "   cd scripts"
+      },
+      {
+        "row": 3,
+        "rowsha": "Y5Bkwule3giXd746sWiCkN1aXxC/k5FXmnYCE6Mtynk=",
+        "originContent": "   python import_graph.py          # 写入 Neo4j",
+        "translatedContent": "   python import_graph.py          # 写入 Neo4j"
+      },
+      {
+        "row": 4,
+        "rowsha": "j4MDey8B6EtJf3D6tib80C9mxIcMJhoZF3bO906BzBk=",
+        "originContent": "   python import_pokemon_map.py    # 写入 MySQL",
+        "translatedContent": "   python import_pokemon_map.py    # 写入 MySQL"
+      },
+      {
+        "row": 5,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n   \n\n6. **启动后端服务**\n",
+    "ContentSha": "s5e5qz+qaqqbu5kta570h3KJUtM/5L83I5M/1K/58NI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n   \n\n6. **启动后端服务**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
+        "originContent": "   ",
+        "translatedContent": "   "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "3OFYW3JbJVozqg8ekdGrTre6zBcYz8jNSzubCfdl3W4=",
+        "originContent": "6. **启动后端服务**",
+        "translatedContent": "6. **启动后端服务**"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "   ```bash\n   cd server\n   python main.py                  # FastAPI + LangGraph\n   cd ../src/mcp\n   python mcp_server.py            # SSE 模式示例\n   ```",
+    "ContentSha": "PK/w732uUva+pyG21FscYz6IViYAARD+I7ZpHouS0/A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   cd server\n   python main.py                  # FastAPI + LangGraph\n   cd ../src/mcp\n   python mcp_server.py            # SSE 模式示例\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "+9DqIJS3iOlVo2rTlm9bKLYhUlsG2Feu7NOeZoQNDns=",
+        "originContent": "   cd server",
+        "translatedContent": "   cd server"
+      },
+      {
+        "row": 3,
+        "rowsha": "9RpT/akAjTzwILEilOF05XDXpa/+/o4ZboUEDEq5n1E=",
+        "originContent": "   python main.py                  # FastAPI + LangGraph",
+        "translatedContent": "   python main.py                  # FastAPI + LangGraph"
+      },
+      {
+        "row": 4,
+        "rowsha": "u+jWbf7OdnO+f71G/DWFrUu3X3sSJBSQ/nmx5jS93mw=",
+        "originContent": "   cd ../src/mcp",
+        "translatedContent": "   cd ../src/mcp"
+      },
+      {
+        "row": 5,
+        "rowsha": "iElW0UfNxlX/bF2hvbe/FKGeBz1GrY4lCZuIBjMG1Sc=",
+        "originContent": "   python mcp_server.py            # SSE 模式示例",
+        "translatedContent": "   python mcp_server.py            # SSE 模式示例"
+      },
+      {
+        "row": 6,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n7. **启动前端**\n",
+    "ContentSha": "GddrMFtbykUsA4qTjIb4NY/hiXiOJPjrZlBoTZYdzVY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "7. **프론트엔드 시작하기**\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "7. **프론트엔드 시작하기**"
+      },
+      {
+        "row": 2,
+        "rowsha": "zhVBC7iwkMJ9+oJbvQuqljvw6v4doZBUH0YBeBlyZ14=",
+        "originContent": "7. **启动前端**",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "   ```bash\n   cd web\n   npm install\n   npm run dev\n   # 浏览器访问 http://localhost:3100/\n   ```",
+    "ContentSha": "29gl4mbeogZMMEVqz1trhe06mSHz9jHeM+pB6T0rWHU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   cd web\n   npm install\n   npm run dev\n   # 浏览器访问 http://localhost:3100/\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "BrR4FUBzShyGE3o/QsB7ESFs/vs4gy+RraSQcfGAo7Q=",
+        "originContent": "   cd web",
+        "translatedContent": "   cd web"
+      },
+      {
+        "row": 3,
+        "rowsha": "vL8BhPjyB/zDBV86sjJRWERo3LQsvb84xA8TswysvN0=",
+        "originContent": "   npm install",
+        "translatedContent": "   npm install"
+      },
+      {
+        "row": 4,
+        "rowsha": "jpTVQEQJssgEMpBk9yv3LDrV/THaMODy0a1aLMkysrU=",
+        "originContent": "   npm run dev",
+        "translatedContent": "   npm run dev"
+      },
+      {
+        "row": 5,
+        "rowsha": "rTVFlnVBYkiNEMVTttVU4xUnkGaX+msR0LxEpS0cLZI=",
+        "originContent": "   # 浏览器访问 http://localhost:3100/",
+        "translatedContent": "   # 浏览器访问 http://localhost:3100/"
+      },
+      {
+        "row": 6,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n---\n\n## 🔭 参考项目\n\n- https://github.com/xerrors/Yuxi-Know\n\n- https://github.com/BinNong/meet-libai\n\n  \n\n---\n\n## 📄 License\n\n本项目遵循 **MIT License**，可自由用于商业或个人项目。二次开发请保留原作者与来源信息。\n",
+    "ContentSha": "4I+VdPENhvmF4pa9oGldrBXLhOatynw5sneJOy/xaC8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## 🔭 参考项目\n\n- https://github.com/xerrors/Yuxi-Know\n\n- https://github.com/BinNong/meet-libai\n\n  \n\n---\n\n## 📄 License\n\n本项目遵循 **MIT License**，可自由用于商业或个人项目。二次开发请保留原作者与来源信息。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "A2K6ESsjRdSRfvGWBoIY/c5gWJWDs1/ZafX1XinCGms=",
+        "originContent": "## 🔭 参考项目",
+        "translatedContent": "## 🔭 参考项目"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "L9nSNY1Mve4nrAetMzs+MN1OfoElFYxCKd0ja1bms1Q=",
+        "originContent": "- https://github.com/xerrors/Yuxi-Know",
+        "translatedContent": "- https://github.com/xerrors/Yuxi-Know"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "D7ik5XNWdeqg/5URyKtL0ZcGahgc+RE7nW4CjnTprQA=",
+        "originContent": "- https://github.com/BinNong/meet-libai",
+        "translatedContent": "- https://github.com/BinNong/meet-libai"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "qdzKI50RqHyAaNHbQuVekCMXyk/TfGfppMlRPvlONC4=",
+        "originContent": "## 📄 License",
+        "translatedContent": "## 📄 License"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "XEq2fPZib6Tr/I4gTZO0IHkF/2sQ4R8wZ/qO4htdHJk=",
+        "originContent": "本项目遵循 **MIT License**，可自由用于商业或个人项目。二次开发请保留原作者与来源信息。",
+        "translatedContent": "本项目遵循 **MIT License**，可自由用于商业或个人项目。二次开发请保留原作者与来源信息。"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,18 +1,49 @@
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=mswnlz&project=mswnlz.github.io&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=mswnlz&project=mswnlz.github.io&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=mswnlz&project=mswnlz.github.io&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=mswnlz&project=mswnlz.github.io&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=mswnlz&project=mswnlz.github.io&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=mswnlz&project=mswnlz.github.io&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=mswnlz&project=mswnlz.github.io&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=mswnlz&project=mswnlz.github.io&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=mswnlz&project=mswnlz.github.io&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=mswnlz&project=mswnlz.github.io&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=mswnlz&project=mswnlz.github.io&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=mswnlz&project=mswnlz.github.io&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=mswnlz&project=mswnlz.github.io&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=mswnlz&project=mswnlz.github.io&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=mswnlz&project=mswnlz.github.io&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=mswnlz&project=mswnlz.github.io&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=mswnlz&project=mswnlz.github.io&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=mswnlz&project=mswnlz.github.io&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=mswnlz&project=mswnlz.github.io&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=mswnlz&project=mswnlz.github.io&lang=id">Indonesian</a>
+      </div>
+    </div>
+  </details>
+</div>
 
-# 大坝的资源收集站
-## AI, 书籍, 跨境, 自媒体, 教育, 健康, 影视, 工具
-## 超过 100T+ 的资源
+# Dam Resource Collection Station
+## AI, Books, Cross-border, Self-media, Education, Health, Film & TV, Tools
+## Over 100T+ of Resources
 
 ## https://doc.869hr.uk/
 
-[English](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=en) | [简体中文](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=zh-CN) | [繁體中文](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=zh-TW) | [日本語](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=ja) | [한국어](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=ko) | [हिन्दी](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=hi) | [ไทย](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=th) | [Français](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=fr) | [Deutsch](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=de) | [Español](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=es) | [Italiano](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=it) | [Русский](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=ru) | [Português](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=pt) | [Nederlands](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=nl) | [Polski](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=pl) | [العربية](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=ar) | [فارسی](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=fa) | [Türkçe](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=tr) | [Tiếng Việt](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=id)
+[English](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=en) | [Simplified Chinese](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=zh-CN) | [Traditional Chinese](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=zh-TW) | [Japanese](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=ja) | [Korean](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=ko) | [Hindi](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=hi) | [Thai](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=th) | [French](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=fr) | [German](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=de) | [Spanish](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=es) | [Italian](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=it) | [Russian](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=ru) | [Portuguese](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=pt) | [Dutch](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=nl) | [Polish](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=pl) | [Arabic](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=ar) | [Persian](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=fa) | [Turkish](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=tr) | [Vietnamese](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=vi) | [Indonesian](https://openaitx.github.io/#/view?user=mswnlz&project=mswnlz.github.io&lang=id)
 
 
 <!-- Last updated: 2025-07-11 -->
 
 
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
 
 ---

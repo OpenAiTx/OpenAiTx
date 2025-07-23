@@ -1,0 +1,500 @@
+[
+  {
+    "row": 1,
+    "rowsha": "rTCqobOrIZtdRmFbMImLn1vHp3nElu7xeY7yzra3REg=",
+    "originContent": "# Detail Daemon",
+    "translatedContent": "<translate-content># Detail Daemon"
+  },
+  {
+    "row": 2,
+    "rowsha": "fs6QMIppFUvmlQu8tGOHY2B4tnNKm1zhULTDNozw3jU=",
+    "originContent": "This is an extension for [Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui), which allows users to adjust the amount of detail/smoothness in an image, during the sampling steps. ",
+    "translatedContent": "これは[Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)の拡張機能で、ユーザーがサンプリングステップ中に画像のディテールや滑らかさの量を調整できるようにします。"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "1ajxlAOFn4cOCnGroM24ko1H9KviSFs1CDRQwPQTh5M=",
+    "originContent": "It uses no LORAs, ControlNets, etc., and as a result its performance is not biased towards any certain style and it introduces no new stylistic or semantic features of its own into the generation. This also means that it can work with any model and on any type of image.",
+    "translatedContent": "LORAやControlNetなどは一切使用しておらず、その結果、特定のスタイルに偏らず、生成に新たなスタイリッシュまたは意味的特徴を導入しません。つまり、どのモデルやどのタイプの画像でも動作可能です。"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "dn+nVPKeM2SEANsZ5ahplhAZQhNBpb/+xvjYJh063AY=",
+    "originContent": "<sub>*Model: SSD-1B*<br></sub>",
+    "translatedContent": "<sub>*モデル: SSD-1B*<br></sub>"
+  },
+  {
+    "row": 7,
+    "rowsha": "wzdtlYI289i2te6cWXFbX6oEaQ8+lEKQMnOA9VfKWkc=",
+    "originContent": "![a close up portrait of a cyberpunk knight-1Lv-0](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/561c33d9-9a5d-4cfc-bee8-de9126b280c1)",
+    "translatedContent": "![a close up portrait of a cyberpunk knight-1Lv-0](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/561c33d9-9a5d-4cfc-bee8-de9126b280c1)"
+  },
+  {
+    "row": 8,
+    "rowsha": "HKNHyemcg5P0dfD6W4xefCdwu6H/27nYE2VD2vnhPVs=",
+    "originContent": "*Left: Less detail, Middle: Original, Right: More detail*<br>",
+    "translatedContent": "*左: ディテール少なめ、中央: オリジナル、右: ディテール多め*<br>"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "6GFIk0I/lwC/qbfHv+/gudUc5+6erMXKJAdqJHtoYe8=",
+    "originContent": "<sub>*Model: SD 1.5 (finetuned)*<br></sub>",
+    "translatedContent": "<sub>*モデル: SD 1.5 (ファインチューニング済み)*<br></sub>"
+  },
+  {
+    "row": 11,
+    "rowsha": "zUSL/VoTPTHrINgs9gxmIc4xeex8aTckvESdKLrFYNs=",
+    "originContent": "![face of a cute cat love heart symbol-Zn6-0](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/9fbfb39f-81fb-4951-8f32-20eab410020a)",
+    "translatedContent": "![face of a cute cat love heart symbol-Zn6-0](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/9fbfb39f-81fb-4951-8f32-20eab410020a)"
+  },
+  {
+    "row": 12,
+    "rowsha": "HKNHyemcg5P0dfD6W4xefCdwu6H/27nYE2VD2vnhPVs=",
+    "originContent": "*Left: Less detail, Middle: Original, Right: More detail*<br>",
+    "translatedContent": "*左: ディテール少なめ、中央: オリジナル、右: ディテール多め*<br>"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 動作原理"
+  },
+  {
+    "row": 15,
+    "rowsha": "8Cn7DTPwgC5TRYcpx6IHELZx2Ghn/Zy5V2CaSviu4ik=",
+    "originContent": "## How It Works",
+    "translatedContent": "Detail Daemonは、カスタマイズ可能なスケジュールに従い、各サンプリングステップで元のノイズレベルを操作することで動作します。"
+  },
+  {
+    "row": 16,
+    "rowsha": "paHwWuh2557mYgoDXPSSDGyPH2XeHYEtSI0SdehaQOE=",
+    "originContent": "Detail Daemon works by manipulating the original noise levels at every sampling step, according to a customizable schedule. ",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 理論的には"
+  },
+  {
+    "row": 18,
+    "rowsha": "3/WH3Nt6zxpRDOT7OSslX9cR7Es+EQuKCpMOIGZF8Xo=",
+    "originContent": "### In Theory",
+    "translatedContent": "ノイズレベル（シグマ、すなわちノイズの標準偏差）は、モデルに対し各デノイズステップでどの程度のノイズを想定し除去すべきかを指示します。あるデノイズステップでのシグマ値が高いほど、そのステップでモデルはより強くノイズを除去し、逆もまた同様です。"
+  },
+  {
+    "row": 19,
+    "rowsha": "GWnYIW5n/pYngGT5pvcsFwSxnkvxEfhb8oqvutevKU8=",
+    "originContent": "The noise levels (sigmas, i.e. the standard deviation of the noise) tell the model how much noise it should expect, and try to remove, at each denoising step. A higher sigma value at a certain denoising step tells the model to denoise more aggressively at that step and vice versa. ",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "一般的なシグマスケジュールでは、デノイズ開始時は非常に高い値から始まり、その後中盤で急速に低くなり、終了に近づくにつれて非常に低い値に落ち着きます。この曲線（タイムステップのスケジュールも関係しますが、それはまた別の話です）が、大きな特徴（低周波数）が初期のステップで定義され、終了間際には小さな特徴（高周波数）の微細な変化しか見られなくなる理由です。これについては後ほど詳述します。"
+  },
+  {
+    "row": 21,
+    "rowsha": "t+/ljYHqHGRd/pH0Wvs4cw3CSJKzVjhUk3LIW34ipCA=",
+    "originContent": "With a common sigmas schedule, the sigmas start at very high values at the beginning of the denoising process, then quickly fall to low values in the middle, and to very low values towards the end of the process. This curve (along with the timesteps schedule, but that's a story for another day) is what makes it so that larger features (low frequencies) of the image are defined at the earlier steps, and towards the end of the process you can only see minor changes in the smaller features (high frequencies). We'll get back to this later.",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "さて、もし元のスケジュールよりも低い値のシグマスケジュールをモデルに渡すと、各ステップでモデルはノイズを除去する量が減り、そのステップの潜在表現はよりノイジーになります。しかしその後のステップで、モデルはこの余分なノイズを意味のある画像特徴へと変換しようとします。理論上、*控えめに行えば*より詳細な画像が得られるはずです。過度に行うと、モデルは各ステップで加えられた余分なノイズに対処できず、結果が純粋なノイズに堕ちます。つまり控えめが鍵です。"
+  },
+  {
+    "row": 23,
+    "rowsha": "VWB0Zhy8UoQ9zWKnJv+W+AjE9z0AWit2kvhbamiT2Sg=",
+    "originContent": "Now, if we pass the model a sigmas schedule with values lower than the original, at each step the model will denoise less, resulting a noisier output latent at that step. But then in the steps after that, the model does its best to make sense of this extra noise and turn it into image features. So in theory, *when done in modesty*, this would result in a more detailed image. If you push it too hard, the model won't be able to handle the extra noise added at each step and the end result will devolve into pure noise. So modesty is key. ",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### しかし実際には"
+  },
+  {
+    "row": 25,
+    "rowsha": "fCL9E8UdmX0K/D5yMo6NGeLxsCX73785bbJQ4gTRUoo=",
+    "originContent": "### But in Practice",
+    "translatedContent": "控えめでは限界があります！また、これは何だ？以下の例のように、画像にそれほど多くのディテールを加えることはできず、破綻したり全く別のものになったりします。"
+  },
+  {
+    "row": 26,
+    "rowsha": "UprCydj1sFLH6KNHSbKTFEs/GTF+/bZNTSCE0gm3QhI=",
+    "originContent": "Modesty only gets you so far! Also, wtf are those? As the examples below show, you can't really add that much detail to the image before it either breaks down, and/or becomes a totally different thing. ",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<sub>*SD 1.5*<br></sub>"
+  },
+  {
+    "row": 28,
+    "rowsha": "ms0RTJJmD7BCcVJsVHZUlCELCN4rakeDI6SThid8zMg=",
+    "originContent": "<sub>*SD 1.5*<br></sub>",
+    "translatedContent": "![Modesty](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/2f011a28-0948-48f8-b171-350add6fdd67)"
+  },
+  {
+    "row": 29,
+    "rowsha": "zoSeRuPBSDxzNLL9YuoffzwG+Ta5O2UL0uWe/X7RWsE=",
+    "originContent": "![Modesty](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/2f011a28-0948-48f8-b171-350add6fdd67)",
+    "translatedContent": "元のシグマ（左）に0.9、0.85、0.8を掛けた例<br>"
+  },
+  {
+    "row": 30,
+    "rowsha": "Y/K6k6Edo545hLZhE/B3h4bmuf3lzF0MHf3K+Fx49Nk=",
+    "originContent": "Original sigmas (left) multiplied by .9, .85, .8<br>",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<sub>*SDXL*<br></sub>"
+  },
+  {
+    "row": 32,
+    "rowsha": "10MmrPhmsMwxlls5FHBZWTRmYWtzhC29BqhCsf/piIM=",
+    "originContent": "<sub>*SDXL*<br></sub>",
+    "translatedContent": "![1](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/eff2356e-a6dd-4a4e-9c7e-861dec7713eb)"
+  },
+  {
+    "row": 33,
+    "rowsha": "BGKgvEBBgAMzUgl6qNt856HG15sOepeLyX1iz5aBfyQ=",
+    "originContent": "![1](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/eff2356e-a6dd-4a4e-9c7e-861dec7713eb)",
+    "translatedContent": "元のシグマ（左）に0.95、0.9、0.85、0.875、0.8を掛けた例<br>"
+  },
+  {
+    "row": 34,
+    "rowsha": "+Vm6BcAa8uFftouzvjZQqpHTq1eMkSMEhOsqxPK6vU0=",
+    "originContent": "Original sigmas (left) multiplied by .95, .9, .85, .875, .8<br>",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "理由は以下の通りです："
+  },
+  {
+    "row": 36,
+    "rowsha": "sMd3La6BAiM3vIlNvGDAZedUJgdsmchueU1Bw87VUpc=",
+    "originContent": "That's because: ",
+    "translatedContent": "1. 常にノイズを追加し続け、モデルに対処する時間を十分与えていない"
+  },
+  {
+    "row": 37,
+    "rowsha": "Bv5rQArrVi4VcG7pme2XaePf+j4sEn9nzMCu7v66pOs=",
+    "originContent": "1. We're constantly adding noise and not giving the model enough time to deal with it",
+    "translatedContent": "2. 画像の低周波数特徴（色、構図など）が定義される初期ステップを操作している"
+  },
+  {
+    "row": 38,
+    "rowsha": "vipu9h5Cd9dTjSzujix3rBzAwGyTkOYDyaMdr6RseuU=",
+    "originContent": "2. We are manipulating the early steps where the low frequency features of the image (color, composition, etc.) are defined",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### スケジュールの登場"
+  },
+  {
+    "row": 40,
+    "rowsha": "gSx3VBfAzAtRcGx3ogn5Bphd/XHR627uipD6lEi/hXY=",
+    "originContent": "### Enter the Schedule",
+    "translatedContent": "「ディテール」と呼ばれるものは通常、中〜高周波数領域にあり、これはサンプリング過程の中盤〜後半のステップに対応します。したがって、初期ステップをスキップして画像の主要特徴を保持し、後期ステップでモデルに余分なノイズを有用なディテールに変換する時間を与えると、次のようになります："
+  },
+  {
+    "row": 41,
+    "rowsha": "tE5sC3n5pvdGDPC4fGq+ed+2x5PzIM+fMXV0K+KqvJU=",
+    "originContent": "What we usually mean by \"detail\" falls within the mid to high frequency range, which correspond to the middle to late steps in the sampling process. So if we skip the early steps to leave the main features of the image intact, and the late steps to give the model some time to turn the extra noise into useful detail, we'll have something like this:",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![3](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/cd47e882-8b56-4321-8c47-c0d689562780)"
+  },
+  {
+    "row": 43,
+    "rowsha": "i2lAkfC+BmWAyYB6R1S5/pzoJRInsJoEASCgw+k6I28=",
+    "originContent": "![3](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/cd47e882-8b56-4321-8c47-c0d689562780)",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "さらにスケジュールを洗練し、異なるサイズのディテールに対応する特定のステップをターゲットにすることも可能です："
+  },
+  {
+    "row": 45,
+    "rowsha": "iui9L9G09FbwJx4Wbp1HNvafRtkTy5ewCjfln+L701c=",
+    "originContent": "Then we could make our schedule a bit fancier and have it target specific steps corresponding to different sized details:",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![4](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/ea5027d2-3359-4733-afb4-5ae4a1218f38)"
+  },
+  {
+    "row": 47,
+    "rowsha": "27/YMYKfAUJk8WLYdMqIPEa3M+blMo+dqBzHSp8Ad0k=",
+    "originContent": "![4](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/ea5027d2-3359-4733-afb4-5ae4a1218f38)",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "どのステップがどの周波数範囲に対応するかは、使用しているモデル、サンプラー、プロンプト（特にプロンプト編集などを使う場合）、その他多くの要因によって異なります。また、スケジュールでできることはもっと高度で、例えばシグマを極端に低くして強い余分ノイズを加え、その後高くして余分なノイズを除去しつつ良いディテールを残すなどです。したがって、それぞれの画像やディテール調整が必要な画像に最適なスケジュールを見つけるために微調整が必要です。しかし理想的には、ここにいる理由は全ての画像の完璧なディテール調整スケジュールを何時間もかけて作り上げるためでしょう。"
+  },
+  {
+    "row": 49,
+    "rowsha": "rg0T29ed48xqp0RTXWV5GwRDAQRnM0FSji2eP+pc6sw=",
+    "originContent": "Which steps correspond to which exact frequency range depends on the model you're using, the sampler, your prompt (specially if you're using Prompt Editing and stuff), and probably a bunch of other things. There are also fancier things you can (and should) do with the schedule, like pushing the sigmas too low for some heavy extra noise and then too high to clean up the excess and leave some nice details. So you need to do some tweaking to figure out the best schedule for each image you generate, or at least the ones that need their level of detail adjusted. But ideally you should be spending countless hours of your life sculpting the perfect detail adjustment schedule for every image, cuz that's why we're here.",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "近いうちに、様々なシナリオに対応した具体的な例や私が考案した手法を提供します。（自分メモ：これらをWikiページに移すこと）"
+  },
+  {
+    "row": 51,
+    "rowsha": "6UNqxHCO69Gun8XyQdqSng3DWYbowM1Ds3z23BgD3Z4=",
+    "originContent": "I'll soon provide specific examples addressing different scenarios and some of the techniques I've come up with. (note to self: move these to the wiki page)",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## インストール"
+  },
+  {
+    "row": 53,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "SD WebUIを開く > Extensionsタブへ > Availableタブへ > Load from:をクリック > Detail Daemonを探す > Installをクリック"
+  },
+  {
+    "row": 54,
+    "rowsha": "HDZcnBLO9tO2tiIrbUDFf7bDik8LI40Wc58tzfois1s=",
+    "originContent": "Open SD WebUI > Go to Extensions tab > Go to Available tab > Click Load from: > Find Detail Daemon > Click Install",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "またはInstall from URLタブへ > このリポジトリのURLを最初のフィールドに貼り付け > Installをクリック"
+  },
+  {
+    "row": 56,
+    "rowsha": "CmJOHSYmnmsscS09Wt2Em6dP9mMKV7XsglBGK4vMgbc=",
+    "originContent": "Or Go to Install from URL tab > Paste this repo's URL into the first field > Click Install",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "またはWebUIフォルダに移動し、このリポジトリをextensionsフォルダに手動でクローン："
+  },
+  {
+    "row": 58,
+    "rowsha": "/C2twZ8HYJZ6rFovHLHH70AcQhDoDY6kZQKda3YhNPk=",
+    "originContent": "Or go to your WebUI folder and manually clone this repo into your extensions folder:",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`git clone \"https://github.com/muerrilla/sd-webui-detail-daemon\" extensions/sd-webui-detail-daemon`"
+  },
+  {
+    "row": 60,
+    "rowsha": "ayBH5SC8VZrwmKuCJUmpx9htqxgmDNRsMxd0xLAxkuM=",
+    "originContent": "`git clone \"https://github.com/muerrilla/sd-webui-detail-daemon\" extensions/sd-webui-detail-daemon`",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## はじめに"
+  },
+  {
+    "row": 62,
+    "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+    "originContent": "## Getting Started",
+    "translatedContent": "インストール後、txt2imgおよびimg2imgタブで拡張機能を見つけられます。"
+  },
+  {
+    "row": 63,
+    "rowsha": "kNJzfw+3OjIMe0uxm0EVjkjGzWwntELUEwS+lSDTlH8=",
+    "originContent": "After installation you can find the extension in your txt2img and img2img tabs. ",
+    "translatedContent": "![2024-07-08 01_43_21-011366](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/045574cb-465c-4991-83c4-d02f803a330b)"
+  },
+  {
+    "row": 64,
+    "rowsha": "DAgLy+Ffuekns0CIOVOwbUedx78ks1f1pxtIcTp/Big=",
+    "originContent": "![2024-07-08 01_43_21-011366](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/045574cb-465c-4991-83c4-d02f803a330b)",
+    "translatedContent": "### スライダー："
+  },
+  {
+    "row": 65,
+    "rowsha": "hedtJtJ4jn8WHIkvVyYL+KQP3S62xl9D2uVhmQDjviE=",
+    "originContent": "### Sliders:",
+    "translatedContent": "スライダー（と1つのチェックボックス）は調整量（正の値→ディテール追加、負の値→ディテール削減）と適用されるサンプリングステップ（スケジュール）を設定します。グラフのX軸は正規化されたサンプリングステップ（0〜1）、Y軸は調整量です。あとは説明不要かと思います。ドラッグしてグラフの変化を見てください。"
+  },
+  {
+    "row": 66,
+    "rowsha": "M37dCMrTB3RNapwHN1y2i4mbMSksxGUwbnUahMvswtc=",
+    "originContent": "The sliders (and that one checkbox) set the amount of adjustment (positive values → add detail, negative values → remove detail) and the sampling steps during which it is applied (i.e. the schedule). So the X axis of the graph is your sampling steps, normalized to the (0,1) range, and the Y axis is the amount of adjustment. The rest is pretty self-explanatory I think. Just drag things and look at the graph for changes.",
+    "translatedContent": "### 数値入力："
+  },
+  {
+    "row": 67,
+    "rowsha": "xwLlOlLmu3X+tjWeClm3UMA0acBS8tX39T7lIlNga14=",
+    "originContent": "### Numbers:",
+    "translatedContent": "スライダーの最大・最小値が制限的な場合があるため、下の3つの数値入力が用意されています。"
+  },
+  {
+    "row": 68,
+    "rowsha": "WLP9aTPA5H0dXx4lBqQByVswZXVTY5e1vijXZvTMTuU=",
+    "originContent": "The three number inputs at the buttom are provided because sometimes the slider max/mins are too limiting.",
+    "translatedContent": "### モード："
+  },
+  {
+    "row": 69,
+    "rowsha": "MFRyqqXPYFbinILXZmkDm8kPpHowUjSNGOKcQagzkic=",
+    "originContent": "### Modes:",
+    "translatedContent": "`cond`と`uncond`モードはそれぞれの潜在表現にのみ影響し、`both`は両方に影響します（当然！）。`cond`と`uncond`は強度が低く、もう一方の潜在表現が変わらないため、初期ステップにも変化を加えやすく元の生成から大きく逸脱しにくいです。"
+  },
+  {
+    "row": 70,
+    "rowsha": "6/E+U3Q11j/4DtqkLSkt8I5MmYaNGNiXyF432wLTjqY=",
+    "originContent": "The `cond` and `uncond` modes affect only their respective latents, while `both` affects both (duh!). The `cond` and `uncond` modes are less intense and also allow changes to be applied at earlier steps without diverging too far from the original generation, since the other latent stays intact. ",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "また少し複雑なのは、`both`モードで`detail amount`が正の場合、condとuncondの両方の潜在がより詳細になります。詳細なcond潜在は生成をより詳細に押し進め、詳細なuncond潜在は逆に詳細を減らそうとします。このため、このモードでは新しい特徴やアーティファクトがより多く画像に現れます。"
+  },
+  {
+    "row": 72,
+    "rowsha": "J8Fb//l+QzeyujIPxuKtTU/M0nBedc+gpB0DZLlL5Zo=",
+    "originContent": "There's also a minor twist: in the `both` mode if `detail amount` is positive both cond and uncond latents become more detailed. So the more detailed cond latent will try to push the generation towards more detail, while the more detailed uncond latent will try to push towards less detail. This causes more new features/artifacts to pop into the image in this mode.",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### コツ："
+  },
+  {
+    "row": 74,
+    "rowsha": "2IuedbniQQLT5pOtAjS9g87M+u8tFmTG/wN5JnXOTLk=",
+    "originContent": "### Tips:",
+    "translatedContent": "パラメータの最適な設定方法については近日中に正式なドキュメントを書きます。今のところはスライダーをいじってスケジュールの形状が画像にどう影響するかを試してください。ライブプレビューの更新周期を毎フレームか1フレームおきに設定すると、サンプリング過程の各ステップで何が起きているか、Detail Daemonの効果がどうかをはっきり見られ、理解が深まります。"
+  },
+  {
+    "row": 75,
+    "rowsha": "KMDY9GKFmE9HLvcK6qFesSKNZ6w9qBjVAmsLa+Fxa/0=",
+    "originContent": "I'll write up some proper docs on how best to set the parameters, as soon as possible. For now you gotta play around with the sliders and figure out how the shape of the schedule affects the image. I suggest you set your live preview update period to every frame, or every other frame, so you could see clearly what's going on at every step of the sampling process and how Detail Daemon affects it, till you get a good grasp of how this thing works.",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 注意事項："
+  },
+  {
+    "row": 77,
+    "rowsha": "29s+C5aCSHi/mb1RM/pEAhs442d1j3MBg+qTX1HxxOs=",
+    "originContent": "## Notes:",
+    "translatedContent": "- Compositional Diffusion（AND構文）には完全対応していません。特にバッチサイズ > 1やプロンプト内の負の重みがある場合、モードが`cond`または`uncond`だと問題があります。"
+  },
+  {
+    "row": 78,
+    "rowsha": "q6xksBMQX+Dexfgc0eTAoa569xfzSlfYPKpjY9Hm1zc=",
+    "originContent": "- Doesn't support Compositional Diffusion (i.e. the AND syntax) properly. Specially if you have a batch size > 1 or negative weights in your prompts, and the mode is set to `cond` or `uncond`.",
+    "translatedContent": "- 少数ステップのモデル（Turbo、Lightningなど）では使用が困難または制御が非常に難しいです。追記：扱えます。"
+  },
+  {
+    "row": 79,
+    "rowsha": "SrI+7C4el2ayAkdFZdiJTIyiOZ8ijv6nuxHO0Dc/OJg=",
+    "originContent": "- It's probably impossible to use or very hard to control with few-step models (Turbo, Lightning, etc.). Edit: It's managable.",
+    "translatedContent": "- Forgeと動作可能（`cond`と`uncond`モードは非対応）。"
+  },
+  {
+    "row": 80,
+    "rowsha": "gIFJgplIPRpcxPWRPXgpF8vCASy045nmpzVesKbrXuc=",
+    "originContent": "- It works with Forge (`cond` and `uncond` modes are not supported).",
+    "translatedContent": "- AlignYourSteps、FreeUなどとは異なります。"
+  },
+  {
+    "row": 81,
+    "rowsha": "txj2JRsf6ePbvQjTDWt0i3VxY2l+PUVbDmpOQDMiCRU=",
+    "originContent": "- It's not the same as AlignYourSteps, FreeU, etc.",
+    "translatedContent": "- Haomingによる[ReSharpen Extension](https://github.com/Haoming02/sd-webui-resharpen)と似ています（目的は似ているが手法は異なる）。"
+  },
+  {
+    "row": 82,
+    "rowsha": "B3n7a9vgur/iO4yh0JPN6gGt8iMLSJ+gDUUl9mfXvLM=",
+    "originContent": "- It is similar (in what it sets out to do, not in how it does it) to the [ReSharpen Extension](https://github.com/Haoming02/sd-webui-resharpen) by Haoming.",
+    "translatedContent": "</translate-content>"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

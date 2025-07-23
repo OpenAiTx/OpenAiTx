@@ -30,11 +30,16 @@
 
 <div align="center">
   <a href="https://core.heysol.ai">
-    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE Logo" />
+    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logo" />
   </a>
 
 ### C.O.R.E: Dein digitales Gehirn für das KI-Zeitalter
 
+<p align="center">
+    <a href="https://deepwiki.com/RedPlanetHQ/core">
+        <img src="https://deepwiki.com/badge.svg" alt="DeepWiki Badge" />
+    </a>
+</p>
 <p align="center">
     <a href="https://docs.heysol.ai/core/overview"><b>Dokumentation</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
@@ -45,31 +50,31 @@
 
 **Contextual Observation & Recall Engine**
 
-C.O.R.E ist ein portabler Gedächtnisgraph, der aus deinen LLM-Interaktionen und persönlichen Daten aufgebaut wird und sämtlichen Kontext sowie den Verlauf deiner Arbeitsabläufe jedem KI-Tool zugänglich macht – wie ein digitales Gehirn. Das macht wiederholtes Teilen von Kontext überflüssig. Ziel ist es, Folgendes zu bieten:
+C.O.R.E ist ein portabler Memory-Graph, aufgebaut aus deinen LLM-Interaktionen und persönlichen Daten, der deinen gesamten Kontext und Workflow-Verlauf jedem KI-Tool zugänglich macht – wie ein digitales Gehirn. Das macht wiederholtes Teilen von Kontext überflüssig. Ziel ist es, Folgendes bereitzustellen:
 
-- **Vereinheitlichtes, portables Gedächtnis**: Füge Kontext nahtlos hinzu und rufe ihn ab, verbinde dein Gedächtnis mit Apps wie Claude, Cursor, Windsurf und mehr.
+- **Vereinheitlichtes, portables Gedächtnis**: Füge Kontext nahtlos hinzu und rufe ihn ab, verbinde dein Gedächtnis über Apps wie Claude, Cursor, Windsurf und mehr hinweg.
 - **Relational, nicht nur flache Fakten**: CORE organisiert dein Wissen, speichert sowohl Fakten als auch Beziehungen für ein tieferes, reichhaltigeres Gedächtnis wie ein echtes Gehirn.
-- **Vom Nutzer kontrolliert**: Du entscheidest, was behalten, aktualisiert oder gelöscht wird, teilst dein Gedächtnis über die gewünschten Tools und bist nicht an Anbieter gebunden.
+- **Vom Nutzer kontrolliert**: Du entscheidest, was du behalten, aktualisieren oder löschen möchtest, teilst dein Gedächtnis über die gewünschten Tools und bist frei von Anbieter-Bindung.
 
 ## 🎥 Demo-Video
 
-[Sieh dir die C.O.R.E-Demo an](https://youtu.be/iANZ32dnK60)
+[Schaue dir die C.O.R.E-Demo an](https://youtu.be/iANZ32dnK60)
 
-<img width="954" height="700" alt="Core Dashboard" src="https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694" />
+<img width="954" height="700" alt="Core dashboard" src="https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694" />
 
 ## 🧩  Hauptfunktionen
 
-- **Gedächtnisgraph**: Visualisiere, wie deine Fakten und Präferenzen miteinander verknüpft sind
-- **Chat mit Gedächtnis**: Stelle Fragen zum Gedächtnis für sofortige Einblicke und Verständnis
-- **Plug n Play**: Nutze das CORE-Gedächtnis sofort in Apps wie Cursor, Claude
+- **Memory-Graph**: Visualisiere, wie deine Fakten und Präferenzen miteinander verbunden sind
+- **Chat mit dem Gedächtnis**: Stelle Fragen zum Gedächtnis für sofortige Erkenntnisse und Verständnis
+- **Plug n Play**: Nutze CORE-Gedächtnis sofort in Apps wie Cursor, Claude
 
-## ☁️ C.O.R.E Cloud-Setup
+## ☁️ C.O.R.E Cloud-Einrichtung
 
-1. Registriere dich bei [Core Cloud](https://core.heysol.ai) und beginne, deinen Gedächtnisgraphen zu erstellen.
-2. Füge deinen Text hinzu, den du im Gedächtnis speichern möchtest. Nach dem Klick auf die Schaltfläche `+ Add` wird dein Gedächtnisgraph erstellt.
+1. Registriere dich bei [Core Cloud](https://core.heysol.ai) und beginne mit dem Aufbau deines Memory-Graphs.
+2. Füge deinen Text hinzu, den du im Gedächtnis speichern möchtest. Nach dem Klick auf den Button `+ Add` wird dein Memory-Graph generiert.
 3. [Verbinde Core Memory MCP mit Cursor](#connecting-core-mcp-with-cursor)
 
-## 💻 C.O.R.E Lokale Installation
+## 💻 C.O.R.E Lokale Einrichtung
 
 #### Voraussetzungen
 
@@ -77,7 +82,7 @@ C.O.R.E ist ein portabler Gedächtnisgraph, der aus deinen LLM-Interaktionen und
 2. OpenAI API-Schlüssel
 
 
-> **Hinweis:** Wir arbeiten aktiv daran, die Unterstützung für Llama-Modelle zu verbessern. Derzeit liefert C.O.R.E mit Llama-basierten Modellen noch keine optimalen Ergebnisse, aber wir machen Fortschritte, um in naher Zukunft eine bessere Kompatibilität und Ausgabe zu gewährleisten.
+> **Hinweis:** Wir arbeiten aktiv daran, die Unterstützung für Llama-Modelle zu verbessern. Momentan liefert C.O.R.E mit Llama-basierten Modellen noch keine optimalen Ergebnisse, aber wir machen Fortschritte, um in naher Zukunft bessere Kompatibilität und Resultate zu gewährleisten.
 > 
 #### C.O.R.E lokal ausführen
 
@@ -202,6 +207,6 @@ Haben Sie Fragen oder Feedback? Wir sind für Sie da:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
 
 ---

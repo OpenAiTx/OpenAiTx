@@ -1,0 +1,321 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n# Ethereum Staking Guides #\n\n## Introduction ##\n\nWelcome!\n\nIf you would like to become a solo staker, the **gold standard** for staking on the Ethereum network, then these guides are for you! \n\nRequired is a machine running Ubuntu (22.04 LTS or newer) with a modern CPU, 16GB RAM (32GB is better) and a good quality 2TB SSD (4TB is better).\n\nTo get started, go to one of the [**Mainnet Staking Guides**](https://github.com/SomerEsat/ethereum-staking-guides#mainnet-staking-guides) below.\n\nIf you're not sure which client to use, go with the one that has the lowest share. See here: https://clientdiversity.org. The guides below are named after the major **Consensus Clients** (Lighthouse, Lodestar, Prysm, Nimbus, and Teku) so you'll have to choose that one first. Each guide then contains instructions for installing an **Execution Client** which is required for staking as well. Again, it is recommended that you choose the one with the lowest share.\n\nFinally, be aware that there may be a queue to start validating on the mainnet. Check here: https://validator-queue-monitoring.vercel.app.\n\nSomer Esat \n\n<br/>\n\n## Mainnet Staking Guides ##\n\nUse these guides for staking on the Ethereum mainnet.\n\n| Guide <img width=150/> | Change Log *(dd-mm-yy)* <img width=450/> |\n| :--------- | :---------- |\n| [Lighthouse](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-lighthouse-773f5d982e03) | <br> *20-08-24* - Added Reth Execution Client. <br> *18-08-24* - Updated Lighthouse client to 5.3.0. <br> *19-06-24* - Updated Lighthouse client to 5.2.0. <br> *18-06-24* - Updated Besu client to 24.5.4. <br> *09-06-24* - Updated Nethermind config to add Pruning flags. <br> *09-06-24* - Updated Nethermind config to remove Sync.AncientBodies/Receipts flags. <br> *09-06-24* - Updated Nethermind client to 1.26.0. <br> *09-06-24* - Updated Geth client to 1.14.5. <br> *09-06-24* - Updated Erigon client to 2.6.1. <br> *02-06-24* - Updated Erigon client to 2.6.0. <br> *02-06-24* - Removed Erigon deprecated config flag --externalcl per [Issue 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13). <br> *02-06-24* - Updated Erigon config to use the prebuilt binary. <br> *02-06-24* - Removed redundant Erigon prerequisites. <br> *30-05-24* - Updated Besu client to 24.5.2 and fixed broken links in Besu config flags section. <br> *30-05-24* - Updated Besu config to rename X_SNAP to SNAP per [#6405](https://github.com/hyperledger/besu/pull/6405). <br> *30-05-24* - Updated Besu prerequisites to require Java Runtime v21 (headless). <br> *14-04-24* - Added table of contents. <br> *14-04-24* - Increased Ubuntu Server Version to 22.04. <br> See [Change Log Archive](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md). |\n| [Lodestar](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-lodestar-193a2553a161) | <br> *20-08-24* - Added Reth Execution Client. <br> *11-08-24* - Fixed incorrect link to Lodestar releases. <br> *18-06-24* - Removed redundant Lodestar prerequisites (NodeJS and build-essential). <br> *18-06-24* - Updated Lodestar config to use the prebuilt binary. <br> *18-06-24* - Updated Lodestar client to 1.19.0. <br> *18-06-24* - Updated Besu client to 24.5.4. <br> *18-06-24* - Updated Nethermind config to add Pruning flags. <br> *18-06-24* - Updated Nethermind config to remove Sync.AncientBodies/Receipts flags. <br> *18-06-24* - Updated Nethermind client to 1.26.0. <br> *18-06-24* - Updated Geth client to 1.14.5. <br> *18-06-24* - Updated Erigon client to 2.6.1. <br> *02-06-24* - Updated Erigon client to 2.6.0. <br> *02-06-24* - Removed Erigon deprecated config flag --externalcl per [Issue 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13). <br> *02-06-24* - Updated Erigon config to use the prebuilt binary. <br> *02-06-24* - Removed redundant Erigon prerequisites. <br> *30-05-24* - Updated Besu client to 24.5.2 and fixed broken links in Besu config flags section. <br> *30-05-24* - Updated Besu config to rename X_SNAP to SNAP per [#6405](https://github.com/hyperledger/besu/pull/6405). <br> *30-05-24* - Updated Besu prerequisites to require Java Runtime v21 (headless). <br> *27-04-24* - Added table of contents. <br> *27-04-24* - Increased Ubuntu Server Version to 22.04. <br> See [Change Log Archive](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md). |\n| [Prysm](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-prysm-581fb1969460) | <br> *20-08-24* - Added Reth Execution Client. <br> *24-06-24* - Updated Prysm client to 5.0.4. <br> *19-06-24* - Updated Prysm client to 5.0.3. <br> *18-06-24* - Updated Besu client to 24.5.4. <br> *18-06-24* - Updated Nethermind config to add Pruning flags. <br> *18-06-24* - Updated Nethermind config to remove Sync.AncientBodies/Receipts flags. <br> *18-06-24* - Updated Nethermind client to 1.26.0. <br> *18-06-24* - Updated Geth client to 1.14.5. <br> *18-06-24* - Updated Erigon client to 2.6.1. <br> *02-06-24* - Updated Erigon client to 2.6.0. <br> *02-06-24* - Removed Erigon deprecated config flag --externalcl per [Issue 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13). <br> *02-06-24* - Updated Erigon config to use the prebuilt binary. <br> *02-06-24* - Removed redundant Erigon prerequisites. <br> *30-05-24* - Updated Besu client to 24.5.2 and fixed broken links in Besu config flags section. <br> *30-05-24* - Updated Besu config to rename X_SNAP to SNAP per [#6405](https://github.com/hyperledger/besu/pull/6405). <br> *30-05-24* - Updated Besu prerequisites to require Java Runtime v21 (headless). <br> *27-04-24* - Added table of contents. <br> *27-04-24* - Increased Ubuntu Server Version to 22.04. <br> See [Change Log Archive](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md). |\n| [Nimbus](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-nimbus-31f56657ea8f) | <br> *20-08-24* - Added Reth Execution Client. <br> *24-06-24* - Updated Nimbus client to 24.6.0. <br> *19-06-24* - Updated Nimbus client to 24.5.0. <br> *18-06-24* - Updated Besu client to 24.5.4. <br> *18-06-24* - Updated Nethermind config to add Pruning flags. <br> *18-06-24* - Updated Nethermind config to remove Sync.AncientBodies/Receipts flags. <br> *18-06-24* - Updated Nethermind client to 1.26.0. <br> *18-06-24* - Updated Geth client to 1.14.5. <br> *18-06-24* - Updated Erigon client to 2.6.1. <br> *02-06-24* - Updated Erigon client to 2.6.0. <br> *02-06-24* - Removed Erigon deprecated config flag --externalcl per [Issue 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13). <br> *02-06-24* - Updated Erigon config to use the prebuilt binary. <br> *02-06-24* - Removed redundant Erigon prerequisites. <br> *30-05-24* - Updated Besu client to 24.5.2 and fixed broken links in Besu config flags section. <br> *30-05-24* - Updated Besu config to rename X_SNAP to SNAP per [#6405](https://github.com/hyperledger/besu/pull/6405). <br> *30-05-24* - Updated Besu prerequisites to require Java Runtime v21 (headless). <br> *27-04-24* - Added table of contents. <br> *27-04-24* - Increased Ubuntu Server Version to 22.04. <br> See [Change Log Archive](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md). |\n| [Teku](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-teku-f09ecd9ef2ee) | <br> *20-08-24* - Added Reth Execution Client. <br> *19-06-24* - Updated Teku prerequisites to require Java Runtime v21 (headless). <br> *19-06-24* - Updated Teku client to 24.6.0. <br> *18-06-24* - Updated Besu client to 24.5.4. <br> *18-06-24* - Updated Nethermind config to add Pruning flags. <br> *18-06-24* - Updated Nethermind config to remove Sync.AncientBodies/Receipts flags. <br> *18-06-24* - Updated Nethermind client to 1.26.0. <br> *18-06-24* - Updated Geth client to 1.14.5. <br> *18-06-24* - Updated Erigon client to 2.6.1. <br> *02-06-24* - Updated Erigon client to 2.6.0. <br> *02-06-24* - Removed Erigon deprecated config flag --externalcl per [Issue 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13). <br> *02-06-24* - Updated Erigon config to use the prebuilt binary. <br> *02-06-24* - Removed redundant Erigon prerequisites. <br> *30-05-24* - Updated Besu client to 24.5.2 and fixed broken links in Besu config flags section. <br> *30-05-24* - Updated Besu config to rename X_SNAP to SNAP per [#6405](https://github.com/hyperledger/besu/pull/6405). <br> *30-05-24* - Updated Besu prerequisites to require Java Runtime v21 (headless). <br> *18-05-24* - Added table of contents. <br> *18-05-24* - Increased Ubuntu Server Version to 22.04. <br> See [Change Log Archive](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md). |\n\n<br/>\n\n## Update Withdrawal Credentials Guide ##\n\nStakers may use this guide to update withdrawal credentials on their validator(s) from 0x00 to 0x01.\n\n| Guide | Change Log *(dd-mm-yy)* <img width=450/> |\n| :--------- | :---------- |\n| [Guide to Configuring <br> Withdrawal Credentials <br> on Ethereum](https://someresat.medium.com/guide-to-configuring-withdrawal-credentials-on-ethereum-812dce3193a) | <br> *14-04-24* - Added table of contents. <br> *12-11-23* - Fixed various broken links. <br> *16-04-23* - Fix typo & add extra warning prior to Submit & Broadcast. <br> *13-04-23* - Various updates to improve readability. <br> *12-04-23* - Added example Beaconcha.in submit success message. <br> *11-04-23* - Published. |\n\n<br/>\n\n## Donations Appreciated ##\n\nSomer.eth (0x32B74B90407309F6637245292cd90347DE658A37)\n\n<br/>\n",
+    "ContentSha": "B9Z6nzU2roMK/w+pucvf9lmFLmTIhIvIrNhLMDAIUOM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 以太坊质押指南 #\n\n## 介绍 ##\n\n欢迎！\n\n如果您想成为一名独立质押者，即以太坊网络上质押的**黄金标准**，那么这些指南适合您！\n\n所需设备是一台运行 Ubuntu（22.04 LTS 或更高版本）的机器，配备现代 CPU、16GB 内存（32GB 更佳）和高质量的 2TB SSD（4TB 更佳）。\n\n开始之前，请访问以下[**主网质押指南**](https://github.com/SomerEsat/ethereum-staking-guides#mainnet-staking-guides)。\n\n如果您不确定使用哪个客户端，请选择份额最低的那个。详见：https://clientdiversity.org。下面的指南以主要的**共识客户端**（Lighthouse、Lodestar、Prysm、Nimbus 和 Teku）命名，因此您需要先选择其中一个。每个指南中都包含安装**执行客户端**的说明，质押时也需要执行客户端。建议同样选择份额最低的执行客户端。\n\n最后，请注意主网上可能存在排队验证的情况。查看此处：https://validator-queue-monitoring.vercel.app。\n\nSomer Esat\n\n<br/>\n\n## 主网质押指南 ##\n\n使用这些指南进行以太坊主网质押。\n\n| 指南 <img width=150/> | 更新日志 *(日-月-年)* <img width=450/> |\n| :--------- | :---------- |\n| [Lighthouse](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-lighthouse-773f5d982e03) | <br> *20-08-24* - 添加了 Reth 执行客户端。 <br> *18-08-24* - 更新 Lighthouse 客户端至 5.3.0。 <br> *19-06-24* - 更新 Lighthouse 客户端至 5.2.0。 <br> *18-06-24* - 更新 Besu 客户端至 24.5.4。 <br> *09-06-24* - 更新 Nethermind 配置，添加修剪标志。 <br> *09-06-24* - 更新 Nethermind 配置，移除 Sync.AncientBodies/Receipts 标志。 <br> *09-06-24* - 更新 Nethermind 客户端至 1.26.0。 <br> *09-06-24* - 更新 Geth 客户端至 1.14.5。 <br> *09-06-24* - 更新 Erigon 客户端至 2.6.1。 <br> *02-06-24* - 更新 Erigon 客户端至 2.6.0。 <br> *02-06-24* - 根据[问题 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13)移除 Erigon 已弃用配置标志 --externalcl。 <br> *02-06-24* - 更新 Erigon 配置，使用预编译二进制文件。 <br> *02-06-24* - 移除冗余的 Erigon 先决条件。 <br> *30-05-24* - 更新 Besu 客户端至 24.5.2 并修复 Besu 配置标志部分的断链。 <br> *30-05-24* - 更新 Besu 配置，根据[#6405](https://github.com/hyperledger/besu/pull/6405)将 X_SNAP 重命名为 SNAP。 <br> *30-05-24* - 更新 Besu 先决条件，要求 Java Runtime v21（无头）。 <br> *14-04-24* - 添加目录。 <br> *14-04-24* - Ubuntu 服务器版本升级至 22.04。 <br> 参见 [更新日志存档](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md)。 |\n| [Lodestar](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-lodestar-193a2553a161) | <br> *20-08-24* - 添加了 Reth 执行客户端。 <br> *11-08-24* - 修正 Lodestar 版本发布链接错误。 <br> *18-06-24* - 移除冗余的 Lodestar 先决条件（NodeJS 和 build-essential）。 <br> *18-06-24* - 更新 Lodestar 配置，使用预编译二进制文件。 <br> *18-06-24* - 更新 Lodestar 客户端至 1.19.0。 <br> *18-06-24* - 更新 Besu 客户端至 24.5.4。 <br> *18-06-24* - 更新 Nethermind 配置，添加修剪标志。 <br> *18-06-24* - 更新 Nethermind 配置，移除 Sync.AncientBodies/Receipts 标志。 <br> *18-06-24* - 更新 Nethermind 客户端至 1.26.0。 <br> *18-06-24* - 更新 Geth 客户端至 1.14.5。 <br> *18-06-24* - 更新 Erigon 客户端至 2.6.1。 <br> *02-06-24* - 更新 Erigon 客户端至 2.6.0。 <br> *02-06-24* - 根据[问题 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13)移除 Erigon 已弃用配置标志 --externalcl。 <br> *02-06-24* - 更新 Erigon 配置，使用预编译二进制文件。 <br> *02-06-24* - 移除冗余的 Erigon 先决条件。 <br> *30-05-24* - 更新 Besu 客户端至 24.5.2 并修复 Besu 配置标志部分的断链。 <br> *30-05-24* - 更新 Besu 配置，根据[#6405](https://github.com/hyperledger/besu/pull/6405)将 X_SNAP 重命名为 SNAP。 <br> *30-05-24* - 更新 Besu 先决条件，要求 Java Runtime v21（无头）。 <br> *27-04-24* - 添加目录。 <br> *27-04-24* - Ubuntu 服务器版本升级至 22.04。 <br> 参见 [更新日志存档](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md)。 |\n| [Prysm](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-prysm-581fb1969460) | <br> *20-08-24* - 添加了 Reth 执行客户端。 <br> *24-06-24* - 更新 Prysm 客户端至 5.0.4。 <br> *19-06-24* - 更新 Prysm 客户端至 5.0.3。 <br> *18-06-24* - 更新 Besu 客户端至 24.5.4。 <br> *18-06-24* - 更新 Nethermind 配置，添加修剪标志。 <br> *18-06-24* - 更新 Nethermind 配置，移除 Sync.AncientBodies/Receipts 标志。 <br> *18-06-24* - 更新 Nethermind 客户端至 1.26.0。 <br> *18-06-24* - 更新 Geth 客户端至 1.14.5。 <br> *18-06-24* - 更新 Erigon 客户端至 2.6.1。 <br> *02-06-24* - 更新 Erigon 客户端至 2.6.0。 <br> *02-06-24* - 根据[问题 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13)移除 Erigon 已弃用配置标志 --externalcl。 <br> *02-06-24* - 更新 Erigon 配置，使用预编译二进制文件。 <br> *02-06-24* - 移除冗余的 Erigon 先决条件。 <br> *30-05-24* - 更新 Besu 客户端至 24.5.2 并修复 Besu 配置标志部分的断链。 <br> *30-05-24* - 更新 Besu 配置，根据[#6405](https://github.com/hyperledger/besu/pull/6405)将 X_SNAP 重命名为 SNAP。 <br> *30-05-24* - 更新 Besu 先决条件，要求 Java Runtime v21（无头）。 <br> *27-04-24* - 添加目录。 <br> *27-04-24* - Ubuntu 服务器版本升级至 22.04。 <br> 参见 [更新日志存档](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md)。 |\n| [Nimbus](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-nimbus-31f56657ea8f) | <br> *20-08-24* - 添加了 Reth 执行客户端。 <br> *24-06-24* - 更新 Nimbus 客户端至 24.6.0。 <br> *19-06-24* - 更新 Nimbus 客户端至 24.5.0。 <br> *18-06-24* - 更新 Besu 客户端至 24.5.4。 <br> *18-06-24* - 更新 Nethermind 配置，添加修剪标志。 <br> *18-06-24* - 更新 Nethermind 配置，移除 Sync.AncientBodies/Receipts 标志。 <br> *18-06-24* - 更新 Nethermind 客户端至 1.26.0。 <br> *18-06-24* - 更新 Geth 客户端至 1.14.5。 <br> *18-06-24* - 更新 Erigon 客户端至 2.6.1。 <br> *02-06-24* - 更新 Erigon 客户端至 2.6.0。 <br> *02-06-24* - 根据[问题 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13)移除 Erigon 已弃用配置标志 --externalcl。 <br> *02-06-24* - 更新 Erigon 配置，使用预编译二进制文件。 <br> *02-06-24* - 移除冗余的 Erigon 先决条件。 <br> *30-05-24* - 更新 Besu 客户端至 24.5.2 并修复 Besu 配置标志部分的断链。 <br> *30-05-24* - 更新 Besu 配置，根据[#6405](https://github.com/hyperledger/besu/pull/6405)将 X_SNAP 重命名为 SNAP。 <br> *30-05-24* - 更新 Besu 先决条件，要求 Java Runtime v21（无头）。 <br> *27-04-24* - 添加目录。 <br> *27-04-24* - Ubuntu 服务器版本升级至 22.04。 <br> 参见 [更新日志存档](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md)。 |\n| [Teku](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-teku-f09ecd9ef2ee) | <br> *20-08-24* - 添加了 Reth 执行客户端。 <br> *19-06-24* - 更新 Teku 先决条件，要求 Java Runtime v21（无头）。 <br> *19-06-24* - 更新 Teku 客户端至 24.6.0。 <br> *18-06-24* - 更新 Besu 客户端至 24.5.4。 <br> *18-06-24* - 更新 Nethermind 配置，添加修剪标志。 <br> *18-06-24* - 更新 Nethermind 配置，移除 Sync.AncientBodies/Receipts 标志。 <br> *18-06-24* - 更新 Nethermind 客户端至 1.26.0。 <br> *18-06-24* - 更新 Geth 客户端至 1.14.5。 <br> *18-06-24* - 更新 Erigon 客户端至 2.6.1。 <br> *02-06-24* - 更新 Erigon 客户端至 2.6.0。 <br> *02-06-24* - 根据[问题 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13)移除 Erigon 已弃用配置标志 --externalcl。 <br> *02-06-24* - 更新 Erigon 配置，使用预编译二进制文件。 <br> *02-06-24* - 移除冗余的 Erigon 先决条件。 <br> *30-05-24* - 更新 Besu 客户端至 24.5.2 并修复 Besu 配置标志部分的断链。 <br> *30-05-24* - 更新 Besu 配置，根据[#6405](https://github.com/hyperledger/besu/pull/6405)将 X_SNAP 重命名为 SNAP。 <br> *30-05-24* - 更新 Besu 先决条件，要求 Java Runtime v21（无头）。 <br> *18-05-24* - 添加目录。 <br> *18-05-24* - Ubuntu 服务器版本升级至 22.04。 <br> 参见 [更新日志存档](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md)。 |\n\n<br/>\n\n## 更新提现凭证指南 ##\n\n质押者可使用此指南将其验证者的提现凭证从 0x00 更新为 0x01。\n\n| 指南 | 更新日志 *(日-月-年)* <img width=450/> |\n| :--------- | :---------- |\n| [以太坊提现凭证配置指南](https://someresat.medium.com/guide-to-configuring-withdrawal-credentials-on-ethereum-812dce3193a) | <br> *14-04-24* - 添加目录。 <br> *12-11-23* - 修复多个断链。 <br> *16-04-23* - 修正拼写错误并在提交和广播前添加额外警告。 <br> *13-04-23* - 多项更新以提升可读性。 <br> *12-04-23* - 添加 Beaconcha.in 提交成功示例消息。 <br> *11-04-23* - 发布。 |\n\n<br/>\n\n## 感谢捐赠 ##\n\nSomer.eth (0x32B74B90407309F6637245292cd90347DE658A37)\n\n<br/>\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# 以太坊质押指南 #"
+      },
+      {
+        "row": 2,
+        "rowsha": "FpDbLfVQZUiKicY/nn2J5KFaz8GF6UPoYXBkS2ZAXbg=",
+        "originContent": "# Ethereum Staking Guides #",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 介绍 ##"
+      },
+      {
+        "row": 4,
+        "rowsha": "YoVNwHXpR5YPeu0cHD3mEW60H1L+jfSLEd3kfwx7HlY=",
+        "originContent": "## Introduction ##",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "欢迎！"
+      },
+      {
+        "row": 6,
+        "rowsha": "zI/Z63+VmxPzamViV5bQs1nOW85VUdFZo6kg9ByzQe4=",
+        "originContent": "Welcome!",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "如果您想成为一名独立质押者，即以太坊网络上质押的**黄金标准**，那么这些指南适合您！"
+      },
+      {
+        "row": 8,
+        "rowsha": "YFIs/aAfdwLmeW5o4R2re0ICiLL/nJxtFiwPVDBvrQ0=",
+        "originContent": "If you would like to become a solo staker, the **gold standard** for staking on the Ethereum network, then these guides are for you! ",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "所需设备是一台运行 Ubuntu（22.04 LTS 或更高版本）的机器，配备现代 CPU、16GB 内存（32GB 更佳）和高质量的 2TB SSD（4TB 更佳）。"
+      },
+      {
+        "row": 10,
+        "rowsha": "RSxJyBaNNABkreLhaxh22McbRoRKJuGCHQZ+cSFjvy8=",
+        "originContent": "Required is a machine running Ubuntu (22.04 LTS or newer) with a modern CPU, 16GB RAM (32GB is better) and a good quality 2TB SSD (4TB is better).",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "开始之前，请访问以下[**主网质押指南**](https://github.com/SomerEsat/ethereum-staking-guides#mainnet-staking-guides)。"
+      },
+      {
+        "row": 12,
+        "rowsha": "dX7YPif1Ld04rks8v1UgbEi0x0vWqQD02C8EA4kAxgM=",
+        "originContent": "To get started, go to one of the [**Mainnet Staking Guides**](https://github.com/SomerEsat/ethereum-staking-guides#mainnet-staking-guides) below.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "如果您不确定使用哪个客户端，请选择份额最低的那个。详见：https://clientdiversity.org。下面的指南以主要的**共识客户端**（Lighthouse、Lodestar、Prysm、Nimbus 和 Teku）命名，因此您需要先选择其中一个。每个指南中都包含安装**执行客户端**的说明，质押时也需要执行客户端。建议同样选择份额最低的执行客户端。"
+      },
+      {
+        "row": 14,
+        "rowsha": "l2s83mgmzgjCWoTD2w83i+GsbnlxPEZhLvlV3x9qlzg=",
+        "originContent": "If you're not sure which client to use, go with the one that has the lowest share. See here: https://clientdiversity.org. The guides below are named after the major **Consensus Clients** (Lighthouse, Lodestar, Prysm, Nimbus, and Teku) so you'll have to choose that one first. Each guide then contains instructions for installing an **Execution Client** which is required for staking as well. Again, it is recommended that you choose the one with the lowest share.",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "最后，请注意主网上可能存在排队验证的情况。查看此处：https://validator-queue-monitoring.vercel.app。"
+      },
+      {
+        "row": 16,
+        "rowsha": "9QBeLBUoQKeCjuQEAPDQwFQ7rUU/NxAksPRKmcQA7II=",
+        "originContent": "Finally, be aware that there may be a queue to start validating on the mainnet. Check here: https://validator-queue-monitoring.vercel.app.",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Somer Esat"
+      },
+      {
+        "row": 18,
+        "rowsha": "EiRbyHqhbtZdfI0NFvi4/UYCXLHdL7Y+MN8jWIMGIn8=",
+        "originContent": "Somer Esat ",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<br/>"
+      },
+      {
+        "row": 20,
+        "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+        "originContent": "<br/>",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 主网质押指南 ##"
+      },
+      {
+        "row": 22,
+        "rowsha": "CBoHEZPxNBnMzh1c24LBZRWDB3LK1BvPDzAJ2EzujYI=",
+        "originContent": "## Mainnet Staking Guides ##",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "使用这些指南进行以太坊主网质押。"
+      },
+      {
+        "row": 24,
+        "rowsha": "orhdi5Tva+N4/HA+CjDN+dtOsauOW/d1/yyr8oMPbVI=",
+        "originContent": "Use these guides for staking on the Ethereum mainnet.",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 指南 <img width=150/> | 更新日志 *(日-月-年)* <img width=450/> |"
+      },
+      {
+        "row": 26,
+        "rowsha": "mPfLSZSOlReZNPa8gjQyjD3NgcVw+ZOo8DZkLaHgSTo=",
+        "originContent": "| Guide <img width=150/> | Change Log *(dd-mm-yy)* <img width=450/> |",
+        "translatedContent": "| :--------- | :---------- |"
+      },
+      {
+        "row": 27,
+        "rowsha": "VvsCaiKtvJefv2tS40mOx8ITniSi4lkvJLQjtoyaHP0=",
+        "originContent": "| :--------- | :---------- |",
+        "translatedContent": "| [Lighthouse](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-lighthouse-773f5d982e03) | <br> *20-08-24* - 添加了 Reth 执行客户端。 <br> *18-08-24* - 更新 Lighthouse 客户端至 5.3.0。 <br> *19-06-24* - 更新 Lighthouse 客户端至 5.2.0。 <br> *18-06-24* - 更新 Besu 客户端至 24.5.4。 <br> *09-06-24* - 更新 Nethermind 配置，添加修剪标志。 <br> *09-06-24* - 更新 Nethermind 配置，移除 Sync.AncientBodies/Receipts 标志。 <br> *09-06-24* - 更新 Nethermind 客户端至 1.26.0。 <br> *09-06-24* - 更新 Geth 客户端至 1.14.5。 <br> *09-06-24* - 更新 Erigon 客户端至 2.6.1。 <br> *02-06-24* - 更新 Erigon 客户端至 2.6.0。 <br> *02-06-24* - 根据[问题 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13)移除 Erigon 已弃用配置标志 --externalcl。 <br> *02-06-24* - 更新 Erigon 配置，使用预编译二进制文件。 <br> *02-06-24* - 移除冗余的 Erigon 先决条件。 <br> *30-05-24* - 更新 Besu 客户端至 24.5.2 并修复 Besu 配置标志部分的断链。 <br> *30-05-24* - 更新 Besu 配置，根据[#6405](https://github.com/hyperledger/besu/pull/6405)将 X_SNAP 重命名为 SNAP。 <br> *30-05-24* - 更新 Besu 先决条件，要求 Java Runtime v21（无头）。 <br> *14-04-24* - 添加目录。 <br> *14-04-24* - Ubuntu 服务器版本升级至 22.04。 <br> 参见 [更新日志存档](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md)。 |"
+      },
+      {
+        "row": 28,
+        "rowsha": "Dx8ewe5OqLybJwJf3oA85tm1G24BKg6CMQzPzGpMhcg=",
+        "originContent": "| [Lighthouse](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-lighthouse-773f5d982e03) | <br> *20-08-24* - Added Reth Execution Client. <br> *18-08-24* - Updated Lighthouse client to 5.3.0. <br> *19-06-24* - Updated Lighthouse client to 5.2.0. <br> *18-06-24* - Updated Besu client to 24.5.4. <br> *09-06-24* - Updated Nethermind config to add Pruning flags. <br> *09-06-24* - Updated Nethermind config to remove Sync.AncientBodies/Receipts flags. <br> *09-06-24* - Updated Nethermind client to 1.26.0. <br> *09-06-24* - Updated Geth client to 1.14.5. <br> *09-06-24* - Updated Erigon client to 2.6.1. <br> *02-06-24* - Updated Erigon client to 2.6.0. <br> *02-06-24* - Removed Erigon deprecated config flag --externalcl per [Issue 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13). <br> *02-06-24* - Updated Erigon config to use the prebuilt binary. <br> *02-06-24* - Removed redundant Erigon prerequisites. <br> *30-05-24* - Updated Besu client to 24.5.2 and fixed broken links in Besu config flags section. <br> *30-05-24* - Updated Besu config to rename X_SNAP to SNAP per [#6405](https://github.com/hyperledger/besu/pull/6405). <br> *30-05-24* - Updated Besu prerequisites to require Java Runtime v21 (headless). <br> *14-04-24* - Added table of contents. <br> *14-04-24* - Increased Ubuntu Server Version to 22.04. <br> See [Change Log Archive](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md). |",
+        "translatedContent": "| [Lodestar](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-lodestar-193a2553a161) | <br> *20-08-24* - 添加了 Reth 执行客户端。 <br> *11-08-24* - 修正 Lodestar 版本发布链接错误。 <br> *18-06-24* - 移除冗余的 Lodestar 先决条件（NodeJS 和 build-essential）。 <br> *18-06-24* - 更新 Lodestar 配置，使用预编译二进制文件。 <br> *18-06-24* - 更新 Lodestar 客户端至 1.19.0。 <br> *18-06-24* - 更新 Besu 客户端至 24.5.4。 <br> *18-06-24* - 更新 Nethermind 配置，添加修剪标志。 <br> *18-06-24* - 更新 Nethermind 配置，移除 Sync.AncientBodies/Receipts 标志。 <br> *18-06-24* - 更新 Nethermind 客户端至 1.26.0。 <br> *18-06-24* - 更新 Geth 客户端至 1.14.5。 <br> *18-06-24* - 更新 Erigon 客户端至 2.6.1。 <br> *02-06-24* - 更新 Erigon 客户端至 2.6.0。 <br> *02-06-24* - 根据[问题 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13)移除 Erigon 已弃用配置标志 --externalcl。 <br> *02-06-24* - 更新 Erigon 配置，使用预编译二进制文件。 <br> *02-06-24* - 移除冗余的 Erigon 先决条件。 <br> *30-05-24* - 更新 Besu 客户端至 24.5.2 并修复 Besu 配置标志部分的断链。 <br> *30-05-24* - 更新 Besu 配置，根据[#6405](https://github.com/hyperledger/besu/pull/6405)将 X_SNAP 重命名为 SNAP。 <br> *30-05-24* - 更新 Besu 先决条件，要求 Java Runtime v21（无头）。 <br> *27-04-24* - 添加目录。 <br> *27-04-24* - Ubuntu 服务器版本升级至 22.04。 <br> 参见 [更新日志存档](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md)。 |"
+      },
+      {
+        "row": 29,
+        "rowsha": "YBSwyGK1KNaiccNR3lv56nOOIIRZJQoEhuT0Zm3Z+2Q=",
+        "originContent": "| [Lodestar](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-lodestar-193a2553a161) | <br> *20-08-24* - Added Reth Execution Client. <br> *11-08-24* - Fixed incorrect link to Lodestar releases. <br> *18-06-24* - Removed redundant Lodestar prerequisites (NodeJS and build-essential). <br> *18-06-24* - Updated Lodestar config to use the prebuilt binary. <br> *18-06-24* - Updated Lodestar client to 1.19.0. <br> *18-06-24* - Updated Besu client to 24.5.4. <br> *18-06-24* - Updated Nethermind config to add Pruning flags. <br> *18-06-24* - Updated Nethermind config to remove Sync.AncientBodies/Receipts flags. <br> *18-06-24* - Updated Nethermind client to 1.26.0. <br> *18-06-24* - Updated Geth client to 1.14.5. <br> *18-06-24* - Updated Erigon client to 2.6.1. <br> *02-06-24* - Updated Erigon client to 2.6.0. <br> *02-06-24* - Removed Erigon deprecated config flag --externalcl per [Issue 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13). <br> *02-06-24* - Updated Erigon config to use the prebuilt binary. <br> *02-06-24* - Removed redundant Erigon prerequisites. <br> *30-05-24* - Updated Besu client to 24.5.2 and fixed broken links in Besu config flags section. <br> *30-05-24* - Updated Besu config to rename X_SNAP to SNAP per [#6405](https://github.com/hyperledger/besu/pull/6405). <br> *30-05-24* - Updated Besu prerequisites to require Java Runtime v21 (headless). <br> *27-04-24* - Added table of contents. <br> *27-04-24* - Increased Ubuntu Server Version to 22.04. <br> See [Change Log Archive](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md). |",
+        "translatedContent": "| [Prysm](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-prysm-581fb1969460) | <br> *20-08-24* - 添加了 Reth 执行客户端。 <br> *24-06-24* - 更新 Prysm 客户端至 5.0.4。 <br> *19-06-24* - 更新 Prysm 客户端至 5.0.3。 <br> *18-06-24* - 更新 Besu 客户端至 24.5.4。 <br> *18-06-24* - 更新 Nethermind 配置，添加修剪标志。 <br> *18-06-24* - 更新 Nethermind 配置，移除 Sync.AncientBodies/Receipts 标志。 <br> *18-06-24* - 更新 Nethermind 客户端至 1.26.0。 <br> *18-06-24* - 更新 Geth 客户端至 1.14.5。 <br> *18-06-24* - 更新 Erigon 客户端至 2.6.1。 <br> *02-06-24* - 更新 Erigon 客户端至 2.6.0。 <br> *02-06-24* - 根据[问题 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13)移除 Erigon 已弃用配置标志 --externalcl。 <br> *02-06-24* - 更新 Erigon 配置，使用预编译二进制文件。 <br> *02-06-24* - 移除冗余的 Erigon 先决条件。 <br> *30-05-24* - 更新 Besu 客户端至 24.5.2 并修复 Besu 配置标志部分的断链。 <br> *30-05-24* - 更新 Besu 配置，根据[#6405](https://github.com/hyperledger/besu/pull/6405)将 X_SNAP 重命名为 SNAP。 <br> *30-05-24* - 更新 Besu 先决条件，要求 Java Runtime v21（无头）。 <br> *27-04-24* - 添加目录。 <br> *27-04-24* - Ubuntu 服务器版本升级至 22.04。 <br> 参见 [更新日志存档](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md)。 |"
+      },
+      {
+        "row": 30,
+        "rowsha": "x4bQ99XFcKJae3HGBm4ZIaXB2HS1AM88tVmmtoFsS+c=",
+        "originContent": "| [Prysm](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-prysm-581fb1969460) | <br> *20-08-24* - Added Reth Execution Client. <br> *24-06-24* - Updated Prysm client to 5.0.4. <br> *19-06-24* - Updated Prysm client to 5.0.3. <br> *18-06-24* - Updated Besu client to 24.5.4. <br> *18-06-24* - Updated Nethermind config to add Pruning flags. <br> *18-06-24* - Updated Nethermind config to remove Sync.AncientBodies/Receipts flags. <br> *18-06-24* - Updated Nethermind client to 1.26.0. <br> *18-06-24* - Updated Geth client to 1.14.5. <br> *18-06-24* - Updated Erigon client to 2.6.1. <br> *02-06-24* - Updated Erigon client to 2.6.0. <br> *02-06-24* - Removed Erigon deprecated config flag --externalcl per [Issue 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13). <br> *02-06-24* - Updated Erigon config to use the prebuilt binary. <br> *02-06-24* - Removed redundant Erigon prerequisites. <br> *30-05-24* - Updated Besu client to 24.5.2 and fixed broken links in Besu config flags section. <br> *30-05-24* - Updated Besu config to rename X_SNAP to SNAP per [#6405](https://github.com/hyperledger/besu/pull/6405). <br> *30-05-24* - Updated Besu prerequisites to require Java Runtime v21 (headless). <br> *27-04-24* - Added table of contents. <br> *27-04-24* - Increased Ubuntu Server Version to 22.04. <br> See [Change Log Archive](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md). |",
+        "translatedContent": "| [Nimbus](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-nimbus-31f56657ea8f) | <br> *20-08-24* - 添加了 Reth 执行客户端。 <br> *24-06-24* - 更新 Nimbus 客户端至 24.6.0。 <br> *19-06-24* - 更新 Nimbus 客户端至 24.5.0。 <br> *18-06-24* - 更新 Besu 客户端至 24.5.4。 <br> *18-06-24* - 更新 Nethermind 配置，添加修剪标志。 <br> *18-06-24* - 更新 Nethermind 配置，移除 Sync.AncientBodies/Receipts 标志。 <br> *18-06-24* - 更新 Nethermind 客户端至 1.26.0。 <br> *18-06-24* - 更新 Geth 客户端至 1.14.5。 <br> *18-06-24* - 更新 Erigon 客户端至 2.6.1。 <br> *02-06-24* - 更新 Erigon 客户端至 2.6.0。 <br> *02-06-24* - 根据[问题 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13)移除 Erigon 已弃用配置标志 --externalcl。 <br> *02-06-24* - 更新 Erigon 配置，使用预编译二进制文件。 <br> *02-06-24* - 移除冗余的 Erigon 先决条件。 <br> *30-05-24* - 更新 Besu 客户端至 24.5.2 并修复 Besu 配置标志部分的断链。 <br> *30-05-24* - 更新 Besu 配置，根据[#6405](https://github.com/hyperledger/besu/pull/6405)将 X_SNAP 重命名为 SNAP。 <br> *30-05-24* - 更新 Besu 先决条件，要求 Java Runtime v21（无头）。 <br> *27-04-24* - 添加目录。 <br> *27-04-24* - Ubuntu 服务器版本升级至 22.04。 <br> 参见 [更新日志存档](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md)。 |"
+      },
+      {
+        "row": 31,
+        "rowsha": "JK65rwApoIJndA3jZkzWSEahpj8veoanmRodhURecRo=",
+        "originContent": "| [Nimbus](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-nimbus-31f56657ea8f) | <br> *20-08-24* - Added Reth Execution Client. <br> *24-06-24* - Updated Nimbus client to 24.6.0. <br> *19-06-24* - Updated Nimbus client to 24.5.0. <br> *18-06-24* - Updated Besu client to 24.5.4. <br> *18-06-24* - Updated Nethermind config to add Pruning flags. <br> *18-06-24* - Updated Nethermind config to remove Sync.AncientBodies/Receipts flags. <br> *18-06-24* - Updated Nethermind client to 1.26.0. <br> *18-06-24* - Updated Geth client to 1.14.5. <br> *18-06-24* - Updated Erigon client to 2.6.1. <br> *02-06-24* - Updated Erigon client to 2.6.0. <br> *02-06-24* - Removed Erigon deprecated config flag --externalcl per [Issue 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13). <br> *02-06-24* - Updated Erigon config to use the prebuilt binary. <br> *02-06-24* - Removed redundant Erigon prerequisites. <br> *30-05-24* - Updated Besu client to 24.5.2 and fixed broken links in Besu config flags section. <br> *30-05-24* - Updated Besu config to rename X_SNAP to SNAP per [#6405](https://github.com/hyperledger/besu/pull/6405). <br> *30-05-24* - Updated Besu prerequisites to require Java Runtime v21 (headless). <br> *27-04-24* - Added table of contents. <br> *27-04-24* - Increased Ubuntu Server Version to 22.04. <br> See [Change Log Archive](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md). |",
+        "translatedContent": "| [Teku](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-teku-f09ecd9ef2ee) | <br> *20-08-24* - 添加了 Reth 执行客户端。 <br> *19-06-24* - 更新 Teku 先决条件，要求 Java Runtime v21（无头）。 <br> *19-06-24* - 更新 Teku 客户端至 24.6.0。 <br> *18-06-24* - 更新 Besu 客户端至 24.5.4。 <br> *18-06-24* - 更新 Nethermind 配置，添加修剪标志。 <br> *18-06-24* - 更新 Nethermind 配置，移除 Sync.AncientBodies/Receipts 标志。 <br> *18-06-24* - 更新 Nethermind 客户端至 1.26.0。 <br> *18-06-24* - 更新 Geth 客户端至 1.14.5。 <br> *18-06-24* - 更新 Erigon 客户端至 2.6.1。 <br> *02-06-24* - 更新 Erigon 客户端至 2.6.0。 <br> *02-06-24* - 根据[问题 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13)移除 Erigon 已弃用配置标志 --externalcl。 <br> *02-06-24* - 更新 Erigon 配置，使用预编译二进制文件。 <br> *02-06-24* - 移除冗余的 Erigon 先决条件。 <br> *30-05-24* - 更新 Besu 客户端至 24.5.2 并修复 Besu 配置标志部分的断链。 <br> *30-05-24* - 更新 Besu 配置，根据[#6405](https://github.com/hyperledger/besu/pull/6405)将 X_SNAP 重命名为 SNAP。 <br> *30-05-24* - 更新 Besu 先决条件，要求 Java Runtime v21（无头）。 <br> *18-05-24* - 添加目录。 <br> *18-05-24* - Ubuntu 服务器版本升级至 22.04。 <br> 参见 [更新日志存档](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md)。 |"
+      },
+      {
+        "row": 32,
+        "rowsha": "yBdFjHEsO+tOfgoE70FFs/Y7KzJ3YsZL8nyEcuXU5vc=",
+        "originContent": "| [Teku](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-teku-f09ecd9ef2ee) | <br> *20-08-24* - Added Reth Execution Client. <br> *19-06-24* - Updated Teku prerequisites to require Java Runtime v21 (headless). <br> *19-06-24* - Updated Teku client to 24.6.0. <br> *18-06-24* - Updated Besu client to 24.5.4. <br> *18-06-24* - Updated Nethermind config to add Pruning flags. <br> *18-06-24* - Updated Nethermind config to remove Sync.AncientBodies/Receipts flags. <br> *18-06-24* - Updated Nethermind client to 1.26.0. <br> *18-06-24* - Updated Geth client to 1.14.5. <br> *18-06-24* - Updated Erigon client to 2.6.1. <br> *02-06-24* - Updated Erigon client to 2.6.0. <br> *02-06-24* - Removed Erigon deprecated config flag --externalcl per [Issue 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13). <br> *02-06-24* - Updated Erigon config to use the prebuilt binary. <br> *02-06-24* - Removed redundant Erigon prerequisites. <br> *30-05-24* - Updated Besu client to 24.5.2 and fixed broken links in Besu config flags section. <br> *30-05-24* - Updated Besu config to rename X_SNAP to SNAP per [#6405](https://github.com/hyperledger/besu/pull/6405). <br> *30-05-24* - Updated Besu prerequisites to require Java Runtime v21 (headless). <br> *18-05-24* - Added table of contents. <br> *18-05-24* - Increased Ubuntu Server Version to 22.04. <br> See [Change Log Archive](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md). |",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<br/>"
+      },
+      {
+        "row": 34,
+        "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+        "originContent": "<br/>",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 更新提现凭证指南 ##"
+      },
+      {
+        "row": 36,
+        "rowsha": "yHtpt3QU+in89hRDn2g6C9kLnz+nWsaJlL9Gcje4VOQ=",
+        "originContent": "## Update Withdrawal Credentials Guide ##",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "质押者可使用此指南将其验证者的提现凭证从 0x00 更新为 0x01。"
+      },
+      {
+        "row": 38,
+        "rowsha": "TbL2cCmAJNv0OwAeMQQnw5tUEJWoaZmV/kRFaPdhFOg=",
+        "originContent": "Stakers may use this guide to update withdrawal credentials on their validator(s) from 0x00 to 0x01.",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 指南 | 更新日志 *(日-月-年)* <img width=450/> |"
+      },
+      {
+        "row": 40,
+        "rowsha": "I2CuP6ERWLfANPg+kwsAFTExYYF73f1fmboRCaw6dhw=",
+        "originContent": "| Guide | Change Log *(dd-mm-yy)* <img width=450/> |",
+        "translatedContent": "| :--------- | :---------- |"
+      },
+      {
+        "row": 41,
+        "rowsha": "VvsCaiKtvJefv2tS40mOx8ITniSi4lkvJLQjtoyaHP0=",
+        "originContent": "| :--------- | :---------- |",
+        "translatedContent": "| [以太坊提现凭证配置指南](https://someresat.medium.com/guide-to-configuring-withdrawal-credentials-on-ethereum-812dce3193a) | <br> *14-04-24* - 添加目录。 <br> *12-11-23* - 修复多个断链。 <br> *16-04-23* - 修正拼写错误并在提交和广播前添加额外警告。 <br> *13-04-23* - 多项更新以提升可读性。 <br> *12-04-23* - 添加 Beaconcha.in 提交成功示例消息。 <br> *11-04-23* - 发布。 |"
+      },
+      {
+        "row": 42,
+        "rowsha": "XvhHQCZ/9n4JlgV96Pv7IqvlqmZBIOEp3lLUf46BHXY=",
+        "originContent": "| [Guide to Configuring <br> Withdrawal Credentials <br> on Ethereum](https://someresat.medium.com/guide-to-configuring-withdrawal-credentials-on-ethereum-812dce3193a) | <br> *14-04-24* - Added table of contents. <br> *12-11-23* - Fixed various broken links. <br> *16-04-23* - Fix typo & add extra warning prior to Submit & Broadcast. <br> *13-04-23* - Various updates to improve readability. <br> *12-04-23* - Added example Beaconcha.in submit success message. <br> *11-04-23* - Published. |",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<br/>"
+      },
+      {
+        "row": 44,
+        "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+        "originContent": "<br/>",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 感谢捐赠 ##"
+      },
+      {
+        "row": 46,
+        "rowsha": "V1UfFGGDuWE4kfwpwQXfvDoi2U4Ychp5ZllbRg+X5jw=",
+        "originContent": "## Donations Appreciated ##",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Somer.eth (0x32B74B90407309F6637245292cd90347DE658A37)"
+      },
+      {
+        "row": 48,
+        "rowsha": "BBJ3Hgz+vsvEu7PJj9H9ZSH7hxwzEuqqz9V+JLpl9Cg=",
+        "originContent": "Somer.eth (0x32B74B90407309F6637245292cd90347DE658A37)",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<br/>"
+      },
+      {
+        "row": 50,
+        "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+        "originContent": "<br/>",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

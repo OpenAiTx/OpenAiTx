@@ -30,11 +30,16 @@
 
 <div align="center">
   <a href="https://core.heysol.ai">
-    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logo" />
+    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="LOGO CORE" />
   </a>
 
 ### C.O.R.E: Seu cérebro digital para a era da IA
 
+<p align="center">
+    <a href="https://deepwiki.com/RedPlanetHQ/core">
+        <img src="https://deepwiki.com/badge.svg" alt="DeepWiki Badge" />
+    </a>
+</p>
 <p align="center">
     <a href="https://docs.heysol.ai/core/overview"><b>Documentação</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
@@ -45,39 +50,39 @@
 
 **Contextual Observation & Recall Engine**
 
-C.O.R.E é um grafo de memória portátil construído a partir de suas interações com LLM e dados pessoais, tornando todo o seu contexto e histórico de fluxo de trabalho acessíveis a qualquer ferramenta de IA, como um cérebro digital. Isso elimina a necessidade de compartilhar contexto repetidamente. O objetivo é fornecer:
+C.O.R.E é um grafo de memória portátil criado a partir das suas interações com LLM e dados pessoais, tornando todo o seu contexto e histórico de trabalho acessíveis a qualquer ferramenta de IA, como um cérebro digital. Isso elimina a necessidade de compartilhar contexto repetidamente. O objetivo é fornecer:
 
-- **Memória Unificada e Portátil**: Adicione e recupere contexto de forma transparente, conectando sua memória entre aplicativos como Claude, Cursor, Windsurf e outros.
-- **Relacional, Não Apenas Fatos Isolados**: O CORE organiza seu conhecimento, armazenando fatos e relações para uma memória mais profunda e rica como um cérebro real.
-- **Propriedade do Usuário**: Você decide o que manter, atualizar ou excluir e compartilha sua memória nas ferramentas que quiser, ficando livre do aprisionamento por fornecedores.
+- **Memória Unificada e Portátil**: Adicione e recupere contexto facilmente, conectando sua memória entre aplicativos como Claude, Cursor, Windsurf e outros.
+- **Relacional, Não Apenas Fatos Isolados**: O CORE organiza seu conhecimento, armazenando fatos e relações para uma memória mais profunda e rica, como um cérebro real.
+- **Propriedade do Usuário**: Você decide o que manter, atualizar ou excluir, e compartilha sua memória nas ferramentas que quiser, livre de aprisionamento por fornecedores.
 
-## 🎥 Vídeo Demonstrativo
+## 🎥 Vídeo de Demonstração
 
-[Veja a Demo do C.O.R.E](https://youtu.be/iANZ32dnK60)
+[Veja a Demonstração do C.O.R.E](https://youtu.be/iANZ32dnK60)
 
-<img width="954" height="700" alt="Core dashboard" src="https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694" />
+<img width="954" height="700" alt="Painel do Core" src="https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694" />
 
-## 🧩  Principais Funcionalidades
+## 🧩  Funcionalidades Principais
 
 - **Grafo de Memória**: Visualize como seus fatos e preferências estão conectados
-- **Converse com a Memória**: Faça perguntas sobre a memória para insights e entendimento instantâneos
+- **Converse com a Memória**: Faça perguntas sobre a memória para obter insights e compreensão instantâneos
 - **Plug n Play**: Use instantaneamente a memória CORE em aplicativos como Cursor, Claude
 
-## ☁️ Configuração C.O.R.E Cloud
+## ☁️ Configuração do C.O.R.E Cloud
 
 1. Cadastre-se no [Core Cloud](https://core.heysol.ai) e comece a construir seu grafo de memória.
-2. Adicione o texto que deseja salvar na memória. Após clicar no botão `+ Add` seu grafo de memória será gerado.
-3. [Conecte a Memória Core MCP com o Cursor](#connecting-core-mcp-with-cursor)
+2. Adicione o texto que deseja salvar na memória. Ao clicar no botão `+ Add`, seu grafo de memória será gerado.
+3. [Conecte o Core Memory MCP com o Cursor](#connecting-core-mcp-with-cursor)
 
 ## 💻 Configuração Local do C.O.R.E
 
 #### Pré-requisitos
 
 1. Docker
-2. Chave de API da OpenAI
+2. Chave de API OpenAI
 
 
-> **Nota:** Estamos trabalhando ativamente para melhorar o suporte para modelos Llama. No momento, o C.O.R.E não fornece resultados ideais com modelos baseados em Llama, mas estamos avançando para garantir melhor compatibilidade e desempenho em breve.
+> **Nota:** Estamos trabalhando ativamente para melhorar o suporte a modelos Llama. No momento, o C.O.R.E não fornece resultados ideais com modelos baseados em Llama, mas estamos progredindo para garantir melhor compatibilidade e resultados em breve.
 > 
 #### Execute o C.O.R.E localmente
 
@@ -202,6 +207,6 @@ Tem dúvidas ou feedback? Estamos aqui para ajudar:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
 
 ---

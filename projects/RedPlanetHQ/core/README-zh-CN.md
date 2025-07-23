@@ -33,8 +33,13 @@
     <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logo" />
   </a>
 
-### C.O.R.E：AI时代您的数字大脑
+### C.O.R.E：AI 时代的你的数字大脑
 
+<p align="center">
+    <a href="https://deepwiki.com/RedPlanetHQ/core">
+        <img src="https://deepwiki.com/badge.svg" alt="DeepWiki Badge" />
+    </a>
+</p>
 <p align="center">
     <a href="https://docs.heysol.ai/core/overview"><b>文档</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
@@ -45,45 +50,45 @@
 
 **上下文观察与回忆引擎**
 
-C.O.R.E 是一个由您的LLM交互和个人数据构建的可移植记忆图谱，使您的所有上下文和工作流历史可被任何AI工具访问，就像一个数字大脑。这消除了反复共享上下文的需求。目标是提供：
+C.O.R.E 是一个便携式记忆图谱，由你的 LLM 交互和个人数据构建而成，让你的全部上下文和工作流历史对任意 AI 工具可访问，就像一个数字大脑。这消除了反复共享上下文的需求。目标是提供：
 
-- **统一、可移植的记忆**：无缝添加和回忆上下文，并将您的记忆跨Claude、Cursor、Windsurf等应用连接。
-- **关系型，不只是平面事实**：CORE 组织您的知识，既存储事实也保存关联，打造如大脑般丰富深入的记忆。
-- **用户拥有**：您决定保留、更新或删除哪些内容，并可在所需工具间共享记忆，摆脱厂商锁定。
+- **统一、便携的记忆**：无缝添加和回忆上下文，并在 Claude、Cursor、Windsurf 等应用间连接你的记忆。
+- **关系型，不仅仅是平面事实**：CORE 组织你的知识，既存储事实也存储关系，实现更深层、更丰富的记忆，像真正的大脑一样。
+- **用户所有**：你决定保留、更新或删除哪些内容，并可在你想要的工具间共享你的记忆，摆脱厂商锁定。
 
 ## 🎥 演示视频
 
-[查看C.O.R.E演示](https://youtu.be/iANZ32dnK60)
+[查看 C.O.R.E 演示](https://youtu.be/iANZ32dnK60)
 
 <img width="954" height="700" alt="Core dashboard" src="https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694" />
 
 ## 🧩  主要特性
 
-- **记忆图谱**：可视化您的事实与偏好如何相互关联
-- **与记忆对话**：就记忆内容提问，获得即时见解和理解
-- **即插即用**：可在Cursor、Claude等应用中立即使用CORE记忆
+- **记忆图谱**：可视化你的事实和偏好之间的关联
+- **与记忆对话**：向记忆提问，获取即时洞察和理解
+- **即插即用**：可直接在 Cursor、Claude 等应用中使用 CORE 记忆
 
 ## ☁️ C.O.R.E 云端部署
 
-1. 注册 [Core Cloud](https://core.heysol.ai) 并开始构建您的记忆图谱。
-2. 添加您想保存到记忆中的文本。点击 `+ Add` 按钮后，您的记忆图谱将被生成。
-3. [将Core Memory MCP与Cursor连接](#connecting-core-mcp-with-cursor)
+1. 注册 [Core Cloud](https://core.heysol.ai) 并开始构建你的记忆图谱。
+2. 添加你想要保存到记忆中的文本。点击 `+ Add` 按钮后你的记忆图谱将被生成。
+3. [将 Core Memory MCP 连接到 Cursor](#connecting-core-mcp-with-cursor)
 
 ## 💻 C.O.R.E 本地部署
 
 #### 前置条件
 
 1. Docker
-2. OpenAI API密钥
+2. OpenAI API Key
 
 
-> **注意:** 我们正在积极改进对Llama模型的支持。目前，C.O.R.E与基于Llama的模型兼容性和效果还不理想，但我们正在努力提升其兼容性和输出质量。
+> **注意：** 我们正在积极改进对 Llama 模型的支持。目前，C.O.R.E 在基于 Llama 的模型上效果尚未最佳，但我们正在努力提升兼容性和输出质量，敬请期待后续更新。
 > 
-#### 本地运行C.O.R.E
+#### 本地运行 C.O.R.E
 
 1. **复制环境变量**
 
-   将示例环境文件复制为 `.env`：
+   将示例环境文件复制到 `.env`：
 
 
    ```bash
@@ -202,6 +207,6 @@ response to core-memory mcp. sessionId should be the uuid of the conversation
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
 
 ---

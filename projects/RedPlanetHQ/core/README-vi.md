@@ -36,40 +36,45 @@
 ### C.O.R.E: Bộ não số của bạn cho kỷ nguyên AI
 
 <p align="center">
-    <a href="https://docs.heysol.ai/core/overview"><b>Tài liệu hướng dẫn</b></a> •
+    <a href="https://deepwiki.com/RedPlanetHQ/core">
+        <img src="https://deepwiki.com/badge.svg" alt="DeepWiki Badge" />
+    </a>
+</p>
+<p align="center">
+    <a href="https://docs.heysol.ai/core/overview"><b>Tài liệu</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
 </p>
 </div>
 
 ## 🧠 C.O.R.E.
 
-**Bộ Máy Quan Sát & Ghi Nhớ Ngữ Cảnh**
+**Bộ máy Quan sát & Ghi nhớ Ngữ cảnh**
 
-C.O.R.E là một đồ thị bộ nhớ di động được xây dựng từ các tương tác llm và dữ liệu cá nhân của bạn, giúp mọi ngữ cảnh và lịch sử quy trình làm việc của bạn luôn sẵn sàng cho bất kỳ công cụ AI nào, giống như một bộ não số. Điều này loại bỏ nhu cầu chia sẻ lại ngữ cảnh nhiều lần. Mục tiêu là cung cấp:
+C.O.R.E là một đồ thị ghi nhớ di động được xây dựng từ các tương tác llm và dữ liệu cá nhân của bạn, giúp tất cả ngữ cảnh và lịch sử quy trình làm việc của bạn có thể truy cập từ bất kỳ công cụ AI nào, giống như một bộ não số. Điều này loại bỏ nhu cầu phải lặp lại việc chia sẻ ngữ cảnh. Mục tiêu là cung cấp:
 
-- **Bộ nhớ hợp nhất, di động**: Thêm và truy xuất ngữ cảnh liền mạch, kết nối bộ nhớ của bạn giữa các ứng dụng như Claude, Cursor, Windsurf và nhiều ứng dụng khác.
-- **Quan hệ, không chỉ là các sự kiện rời rạc**: CORE tổ chức kiến thức của bạn, lưu trữ cả sự kiện và mối quan hệ để có bộ nhớ sâu sắc hơn như một bộ não thực sự.
-- **Người dùng sở hữu**: Bạn quyết định giữ, cập nhật, xóa hoặc chia sẻ bộ nhớ với công cụ mong muốn và không bị khóa bởi nhà cung cấp.
+- **Bộ nhớ hợp nhất, di động**: Thêm và truy xuất ngữ cảnh liền mạch, kết nối bộ nhớ của bạn giữa các ứng dụng như Claude, Cursor, Windsurf và nhiều hơn nữa.
+- **Mối quan hệ, không chỉ là dữ kiện rời rạc**: CORE tổ chức kiến thức của bạn, lưu trữ cả dữ kiện lẫn mối quan hệ để tạo ra bộ nhớ sâu sắc và phong phú hơn giống như một bộ não thật sự.
+- **Người dùng sở hữu**: Bạn quyết định lưu giữ, cập nhật, xóa và chia sẻ bộ nhớ của mình qua các công cụ mong muốn, không bị phụ thuộc nhà cung cấp.
 
 ## 🎥 Video Demo
 
-[Xem demo C.O.R.E](https://youtu.be/iANZ32dnK60)
+[Xem Demo C.O.R.E](https://youtu.be/iANZ32dnK60)
 
 <img width="954" height="700" alt="Core dashboard" src="https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694" />
 
 ## 🧩  Tính năng chính
 
-- **Đồ thị bộ nhớ**: Hình dung cách các sự kiện và sở thích của bạn liên kết với nhau
-- **Trò chuyện với bộ nhớ**: Đặt câu hỏi về bộ nhớ để có ngay những hiểu biết và nhận thức
-- **Cắm và chạy**: Sử dụng bộ nhớ CORE ngay tức thì trong các ứng dụng như Cursor, Claude
+- **Đồ thị bộ nhớ**: Hình dung cách các dữ kiện và sở thích của bạn liên kết với nhau
+- **Trò chuyện với bộ nhớ**: Đặt câu hỏi về bộ nhớ để có cái nhìn và hiểu biết tức thì
+- **Cắm và chạy**: Sử dụng bộ nhớ CORE ngay lập tức trong các ứng dụng như Cursor, Claude
 
-## ☁️ Thiết lập C.O.R.E Cloud
+## ☁️ Cài đặt C.O.R.E Cloud
 
 1. Đăng ký [Core Cloud](https://core.heysol.ai) và bắt đầu xây dựng đồ thị bộ nhớ của bạn.
-2. Thêm văn bản mà bạn muốn lưu vào bộ nhớ. Sau khi bấm nút `+ Add`, đồ thị bộ nhớ của bạn sẽ được tạo ra.
+2. Thêm văn bản bạn muốn lưu vào bộ nhớ. Sau khi nhấn nút `+ Add`, đồ thị bộ nhớ của bạn sẽ được tạo ra.
 3. [Kết nối Core Memory MCP với Cursor](#connecting-core-mcp-with-cursor)
 
-## 💻 Thiết lập C.O.R.E Local
+## 💻 Cài đặt C.O.R.E Local
 
 #### Yêu cầu trước
 
@@ -77,13 +82,13 @@ C.O.R.E là một đồ thị bộ nhớ di động được xây dựng từ c�
 2. OpenAI API Key
 
 
-> **Lưu ý:** Chúng tôi đang tích cực cải thiện hỗ trợ cho các mô hình Llama. Hiện tại, C.O.R.E chưa mang lại kết quả tối ưu với các mô hình dựa trên Llama, nhưng chúng tôi đang nỗ lực để đảm bảo khả năng tương thích và đầu ra tốt hơn trong tương lai gần.
+> **Lưu ý:** Chúng tôi đang tích cực cải thiện hỗ trợ cho các mô hình Llama. Hiện tại, C.O.R.E chưa cung cấp kết quả tối ưu với các mô hình dựa trên Llama, nhưng chúng tôi đang tiến triển để đảm bảo khả năng tương thích và kết quả tốt hơn trong tương lai gần.
 > 
-#### Chạy C.O.R.E tại máy cục bộ
+#### Chạy C.O.R.E trên máy cục bộ
 
 1. **Sao chép biến môi trường**
 
-   Sao chép file biến môi trường mẫu sang `.env`:
+   Sao chép file môi trường mẫu sang `.env`:
 
 
    ```bash
@@ -202,6 +207,6 @@ Có câu hỏi hoặc góp ý? Chúng tôi luôn sẵn sàng hỗ trợ:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
 
 ---

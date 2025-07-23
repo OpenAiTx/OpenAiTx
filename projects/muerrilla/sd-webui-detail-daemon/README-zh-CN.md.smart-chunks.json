@@ -1,0 +1,513 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Detail Daemon\nThis is an extension for [Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui), which allows users to adjust the amount of detail/smoothness in an image, during the sampling steps. \n\nIt uses no LORAs, ControlNets, etc., and as a result its performance is not biased towards any certain style and it introduces no new stylistic or semantic features of its own into the generation. This also means that it can work with any model and on any type of image.\n\n<sub>*Model: SSD-1B*<br></sub>\n![a close up portrait of a cyberpunk knight-1Lv-0](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/561c33d9-9a5d-4cfc-bee8-de9126b280c1)\n*Left: Less detail, Middle: Original, Right: More detail*<br>\n\n<sub>*Model: SD 1.5 (finetuned)*<br></sub>\n![face of a cute cat love heart symbol-Zn6-0](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/9fbfb39f-81fb-4951-8f32-20eab410020a)\n*Left: Less detail, Middle: Original, Right: More detail*<br>\n\n\n## How It Works\nDetail Daemon works by manipulating the original noise levels at every sampling step, according to a customizable schedule. \n\n### In Theory\nThe noise levels (sigmas, i.e. the standard deviation of the noise) tell the model how much noise it should expect, and try to remove, at each denoising step. A higher sigma value at a certain denoising step tells the model to denoise more aggressively at that step and vice versa. \n\nWith a common sigmas schedule, the sigmas start at very high values at the beginning of the denoising process, then quickly fall to low values in the middle, and to very low values towards the end of the process. This curve (along with the timesteps schedule, but that's a story for another day) is what makes it so that larger features (low frequencies) of the image are defined at the earlier steps, and towards the end of the process you can only see minor changes in the smaller features (high frequencies). We'll get back to this later.\n\nNow, if we pass the model a sigmas schedule with values lower than the original, at each step the model will denoise less, resulting a noisier output latent at that step. But then in the steps after that, the model does its best to make sense of this extra noise and turn it into image features. So in theory, *when done in modesty*, this would result in a more detailed image. If you push it too hard, the model won't be able to handle the extra noise added at each step and the end result will devolve into pure noise. So modesty is key. \n\n### But in Practice\nModesty only gets you so far! Also, wtf are those? As the examples below show, you can't really add that much detail to the image before it either breaks down, and/or becomes a totally different thing. \n\n<sub>*SD 1.5*<br></sub>\n![Modesty](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/2f011a28-0948-48f8-b171-350add6fdd67)\nOriginal sigmas (left) multiplied by .9, .85, .8<br>\n\n<sub>*SDXL*<br></sub>\n![1](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/eff2356e-a6dd-4a4e-9c7e-861dec7713eb)\nOriginal sigmas (left) multiplied by .95, .9, .85, .875, .8<br>\n\nThat's because: \n1. We're constantly adding noise and not giving the model enough time to deal with it\n2. We are manipulating the early steps where the low frequency features of the image (color, composition, etc.) are defined\n\n### Enter the Schedule\nWhat we usually mean by \"detail\" falls within the mid to high frequency range, which correspond to the middle to late steps in the sampling process. So if we skip the early steps to leave the main features of the image intact, and the late steps to give the model some time to turn the extra noise into useful detail, we'll have something like this:\n\n![3](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/cd47e882-8b56-4321-8c47-c0d689562780)\n\nThen we could make our schedule a bit fancier and have it target specific steps corresponding to different sized details:\n\n![4](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/ea5027d2-3359-4733-afb4-5ae4a1218f38)\n\nWhich steps correspond to which exact frequency range depends on the model you're using, the sampler, your prompt (specially if you're using Prompt Editing and stuff), and probably a bunch of other things. There are also fancier things you can (and should) do with the schedule, like pushing the sigmas too low for some heavy extra noise and then too high to clean up the excess and leave some nice details. So you need to do some tweaking to figure out the best schedule for each image you generate, or at least the ones that need their level of detail adjusted. But ideally you should be spending countless hours of your life sculpting the perfect detail adjustment schedule for every image, cuz that's why we're here.\n\nI'll soon provide specific examples addressing different scenarios and some of the techniques I've come up with. (note to self: move these to the wiki page)\n\n## Installation\nOpen SD WebUI > Go to Extensions tab > Go to Available tab > Click Load from: > Find Detail Daemon > Click Install\n\nOr Go to Install from URL tab > Paste this repo's URL into the first field > Click Install\n\nOr go to your WebUI folder and manually clone this repo into your extensions folder:\n\n`git clone \"https://github.com/muerrilla/sd-webui-detail-daemon\" extensions/sd-webui-detail-daemon`\n\n## Getting Started\nAfter installation you can find the extension in your txt2img and img2img tabs. \n![2024-07-08 01_43_21-011366](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/045574cb-465c-4991-83c4-d02f803a330b)\n### Sliders:\nThe sliders (and that one checkbox) set the amount of adjustment (positive values → add detail, negative values → remove detail) and the sampling steps during which it is applied (i.e. the schedule). So the X axis of the graph is your sampling steps, normalized to the (0,1) range, and the Y axis is the amount of adjustment. The rest is pretty self-explanatory I think. Just drag things and look at the graph for changes.\n### Numbers:\nThe three number inputs at the buttom are provided because sometimes the slider max/mins are too limiting.\n### Modes:\nThe `cond` and `uncond` modes affect only their respective latents, while `both` affects both (duh!). The `cond` and `uncond` modes are less intense and also allow changes to be applied at earlier steps without diverging too far from the original generation, since the other latent stays intact. \n\nThere's also a minor twist: in the `both` mode if `detail amount` is positive both cond and uncond latents become more detailed. So the more detailed cond latent will try to push the generation towards more detail, while the more detailed uncond latent will try to push towards less detail. This causes more new features/artifacts to pop into the image in this mode.\n\n### Tips:\nI'll write up some proper docs on how best to set the parameters, as soon as possible. For now you gotta play around with the sliders and figure out how the shape of the schedule affects the image. I suggest you set your live preview update period to every frame, or every other frame, so you could see clearly what's going on at every step of the sampling process and how Detail Daemon affects it, till you get a good grasp of how this thing works.\n\n## Notes:\n- Doesn't support Compositional Diffusion (i.e. the AND syntax) properly. Specially if you have a batch size > 1 or negative weights in your prompts, and the mode is set to `cond` or `uncond`.\n- It's probably impossible to use or very hard to control with few-step models (Turbo, Lightning, etc.). Edit: It's managable.\n- It works with Forge (`cond` and `uncond` modes are not supported).\n- It's not the same as AlignYourSteps, FreeU, etc.\n- It is similar (in what it sets out to do, not in how it does it) to the [ReSharpen Extension](https://github.com/Haoming02/sd-webui-resharpen) by Haoming.\n",
+    "ContentSha": "E5otC8UdRDbEz1yd4X8taHsiqz0i7jBn9vUFzw+YYLc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># Detail Daemon\n这是[Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)的一个扩展，允许用户在采样步骤中调整图像的细节/平滑度。\n\n它不使用LORA、ControlNet等，因此其性能不会偏向任何特定风格，也不会在生成中引入新的风格或语义特征。这也意味着它可以与任何模型和任何类型的图像一起使用。\n\n<sub>*模型：SSD-1B*<br></sub>\n![a close up portrait of a cyberpunk knight-1Lv-0](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/561c33d9-9a5d-4cfc-bee8-de9126b280c1)\n*左：细节较少，中间：原图，右：细节更多*<br>\n\n<sub>*模型：SD 1.5（微调版）*<br></sub>\n![face of a cute cat love heart symbol-Zn6-0](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/9fbfb39f-81fb-4951-8f32-20eab410020a)\n*左：细节较少，中间：原图，右：细节更多*<br>\n\n\n## 工作原理\nDetail Daemon通过根据可自定义的时间表，在每个采样步骤中调整原始噪声水平来工作。\n\n### 理论上\n噪声水平（sigmas，即噪声的标准差）告诉模型在每个去噪步骤中应预期多少噪声并尝试去除。某一步骤的较高sigma值意味着模型将在该步骤更积极地去噪，反之亦然。\n\n使用常见的sigmas时间表，sigmas在去噪过程开始时非常高，然后快速下降到中间的低值，最后趋向非常低的值。这个曲线（以及时间步长时间表，另一个话题）使得图像的较大特征（低频）在较早步骤被定义，而过程结束时只能看到较小特征（高频）的细微变化。稍后我们会详细讲。\n\n现在，如果我们传递一个比原始值更低的sigmas时间表，模型在每一步的去噪会减少，导致该步骤输出的潜变量更嘈杂。但随后模型会尽力将这额外噪声转换为图像特征。因此理论上，*适度进行*时，这会产生更细节丰富的图像。如果推得太过，模型将无法处理每步增加的额外噪声，最终结果会退化成纯噪声。所以适度是关键。\n\n### 但实际上\n适度只能走到一定程度！还有，图中那些是啥？如下面例子所示，你不可能在图像中添加太多细节，否则它要么崩溃，要么变成完全不同的东西。\n\n<sub>*SD 1.5*<br></sub>\n![Modesty](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/2f011a28-0948-48f8-b171-350add6fdd67)\n原始sigmas（左）乘以0.9、0.85、0.8<br>\n\n<sub>*SDXL*<br></sub>\n![1](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/eff2356e-a6dd-4a4e-9c7e-861dec7713eb)\n原始sigmas（左）乘以0.95、0.9、0.85、0.875、0.8<br>\n\n这是因为：\n1. 我们不断添加噪声，而不给模型足够时间去处理\n2. 我们操纵的是早期步骤，那时图像的低频特征（颜色、构图等）正在定义\n\n### 时间表登场\n我们通常所说的“细节”属于中高频范围，分别对应采样过程的中后期步骤。所以如果我们跳过早期步骤以保持图像主要特征完整，再跳过后期步骤给模型时间将额外噪声转化为有用细节，我们会得到类似这样的效果：\n\n![3](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/cd47e882-8b56-4321-8c47-c0d689562780)\n\n然后我们可以让时间表更复杂一些，针对不同大小细节的特定步骤：\n\n![4](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/ea5027d2-3359-4733-afb4-5ae4a1218f38)\n\n哪个步骤对应哪个精确频率范围取决于你使用的模型、采样器、提示词（特别是如果使用提示词编辑等），可能还有其他很多因素。时间表还可以做更复杂的操作，比如将sigmas推得很低以添加大量额外噪声，再推得很高以清理多余噪声并留下漂亮细节。因此，你需要不断调整，找出每张生成图像的最佳时间表，或者至少针对需要调整细节级别的图像这样做。理想情况下，你应该花费无数小时为每张图像雕刻完美的细节调整时间表，因为这正是我们存在的意义。\n\n我很快会提供针对不同场景的具体示例和一些我总结的技巧。（给自己记个笔记：把这些搬到wiki页面）\n\n## 安装\n打开SD WebUI > 进入扩展标签页 > 进入可用扩展标签页 > 点击加载来源： > 找到Detail Daemon > 点击安装\n\n或者进入从URL安装标签页 > 在第一个输入框粘贴本仓库URL > 点击安装\n\n或者进入你的WebUI文件夹，手动将本仓库克隆到extensions文件夹：\n\n`git clone \"https://github.com/muerrilla/sd-webui-detail-daemon\" extensions/sd-webui-detail-daemon`\n\n## 入门\n安装后，你可以在txt2img和img2img标签页中找到该扩展。\n![2024-07-08 01_43_21-011366](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/045574cb-465c-4991-83c4-d02f803a330b)\n### 滑块：\n滑块（还有那个复选框）设置调整幅度（正值→增加细节，负值→减少细节）以及应用调整的采样步骤（即时间表）。图表的X轴是采样步骤，归一化到(0,1)范围，Y轴是调整幅度。其他部分应该很直观。只需拖动滑块，观察图表变化即可。\n### 数字输入：\n底部的三个数字输入框提供了滑块最大/最小值有时过于限制时的调整手段。\n### 模式：\n`cond`和`uncond`模式仅影响各自的潜变量，而`both`模式同时影响两者（废话！）。`cond`和`uncond`模式强度较低，且允许在较早步骤应用调整而不会偏离原始生成太远，因为另一个潜变量保持不变。\n\n还有一个小变化：在`both`模式下，如果“细节量”是正值，cond和uncond潜变量都会变得更细节化。更细节的cond潜变量会推动生成更细节化，而更细节的uncond潜变量会推动更少细节。这导致该模式下图像中出现更多新的特征/伪影。\n\n### 提示：\n我会尽快写些正式文档说明如何最佳设置参数。目前你需要自行调试滑块，了解时间表形状如何影响图像。我建议将实时预览更新周期设置为每帧或隔帧更新，这样你可以清楚看到采样过程每一步发生了什么，Detail Daemon如何影响它，直到你完全掌握它的工作原理。\n\n## 注意事项：\n- 不支持组合扩散（即AND语法）正确工作。特别是当批量大小>1或提示词中有负权重，且模式设置为`cond`或`uncond`时。\n- 可能无法使用或难以控制少步模型（Turbo、Lightning等）。编辑：可以控制。\n- 支持Forge（不支持`cond`和`uncond`模式）。\n- 不同于AlignYourSteps、FreeU等。\n- 功能类似于Haoming的[ReSharpen Extension](https://github.com/Haoming02/sd-webui-resharpen)（目的相似，方法不同）。\n</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTCqobOrIZtdRmFbMImLn1vHp3nElu7xeY7yzra3REg=",
+        "originContent": "# Detail Daemon",
+        "translatedContent": "<translate-content># Detail Daemon"
+      },
+      {
+        "row": 2,
+        "rowsha": "fs6QMIppFUvmlQu8tGOHY2B4tnNKm1zhULTDNozw3jU=",
+        "originContent": "This is an extension for [Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui), which allows users to adjust the amount of detail/smoothness in an image, during the sampling steps. ",
+        "translatedContent": "这是[Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)的一个扩展，允许用户在采样步骤中调整图像的细节/平滑度。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "1ajxlAOFn4cOCnGroM24ko1H9KviSFs1CDRQwPQTh5M=",
+        "originContent": "It uses no LORAs, ControlNets, etc., and as a result its performance is not biased towards any certain style and it introduces no new stylistic or semantic features of its own into the generation. This also means that it can work with any model and on any type of image.",
+        "translatedContent": "它不使用LORA、ControlNet等，因此其性能不会偏向任何特定风格，也不会在生成中引入新的风格或语义特征。这也意味着它可以与任何模型和任何类型的图像一起使用。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "dn+nVPKeM2SEANsZ5ahplhAZQhNBpb/+xvjYJh063AY=",
+        "originContent": "<sub>*Model: SSD-1B*<br></sub>",
+        "translatedContent": "<sub>*模型：SSD-1B*<br></sub>"
+      },
+      {
+        "row": 7,
+        "rowsha": "wzdtlYI289i2te6cWXFbX6oEaQ8+lEKQMnOA9VfKWkc=",
+        "originContent": "![a close up portrait of a cyberpunk knight-1Lv-0](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/561c33d9-9a5d-4cfc-bee8-de9126b280c1)",
+        "translatedContent": "![a close up portrait of a cyberpunk knight-1Lv-0](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/561c33d9-9a5d-4cfc-bee8-de9126b280c1)"
+      },
+      {
+        "row": 8,
+        "rowsha": "HKNHyemcg5P0dfD6W4xefCdwu6H/27nYE2VD2vnhPVs=",
+        "originContent": "*Left: Less detail, Middle: Original, Right: More detail*<br>",
+        "translatedContent": "*左：细节较少，中间：原图，右：细节更多*<br>"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "6GFIk0I/lwC/qbfHv+/gudUc5+6erMXKJAdqJHtoYe8=",
+        "originContent": "<sub>*Model: SD 1.5 (finetuned)*<br></sub>",
+        "translatedContent": "<sub>*模型：SD 1.5（微调版）*<br></sub>"
+      },
+      {
+        "row": 11,
+        "rowsha": "zUSL/VoTPTHrINgs9gxmIc4xeex8aTckvESdKLrFYNs=",
+        "originContent": "![face of a cute cat love heart symbol-Zn6-0](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/9fbfb39f-81fb-4951-8f32-20eab410020a)",
+        "translatedContent": "![face of a cute cat love heart symbol-Zn6-0](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/9fbfb39f-81fb-4951-8f32-20eab410020a)"
+      },
+      {
+        "row": 12,
+        "rowsha": "HKNHyemcg5P0dfD6W4xefCdwu6H/27nYE2VD2vnhPVs=",
+        "originContent": "*Left: Less detail, Middle: Original, Right: More detail*<br>",
+        "translatedContent": "*左：细节较少，中间：原图，右：细节更多*<br>"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "8Cn7DTPwgC5TRYcpx6IHELZx2Ghn/Zy5V2CaSviu4ik=",
+        "originContent": "## How It Works",
+        "translatedContent": "## 工作原理"
+      },
+      {
+        "row": 16,
+        "rowsha": "paHwWuh2557mYgoDXPSSDGyPH2XeHYEtSI0SdehaQOE=",
+        "originContent": "Detail Daemon works by manipulating the original noise levels at every sampling step, according to a customizable schedule. ",
+        "translatedContent": "Detail Daemon通过根据可自定义的时间表，在每个采样步骤中调整原始噪声水平来工作。"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "3/WH3Nt6zxpRDOT7OSslX9cR7Es+EQuKCpMOIGZF8Xo=",
+        "originContent": "### In Theory",
+        "translatedContent": "### 理论上"
+      },
+      {
+        "row": 19,
+        "rowsha": "GWnYIW5n/pYngGT5pvcsFwSxnkvxEfhb8oqvutevKU8=",
+        "originContent": "The noise levels (sigmas, i.e. the standard deviation of the noise) tell the model how much noise it should expect, and try to remove, at each denoising step. A higher sigma value at a certain denoising step tells the model to denoise more aggressively at that step and vice versa. ",
+        "translatedContent": "噪声水平（sigmas，即噪声的标准差）告诉模型在每个去噪步骤中应预期多少噪声并尝试去除。某一步骤的较高sigma值意味着模型将在该步骤更积极地去噪，反之亦然。"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "t+/ljYHqHGRd/pH0Wvs4cw3CSJKzVjhUk3LIW34ipCA=",
+        "originContent": "With a common sigmas schedule, the sigmas start at very high values at the beginning of the denoising process, then quickly fall to low values in the middle, and to very low values towards the end of the process. This curve (along with the timesteps schedule, but that's a story for another day) is what makes it so that larger features (low frequencies) of the image are defined at the earlier steps, and towards the end of the process you can only see minor changes in the smaller features (high frequencies). We'll get back to this later.",
+        "translatedContent": "使用常见的sigmas时间表，sigmas在去噪过程开始时非常高，然后快速下降到中间的低值，最后趋向非常低的值。这个曲线（以及时间步长时间表，另一个话题）使得图像的较大特征（低频）在较早步骤被定义，而过程结束时只能看到较小特征（高频）的细微变化。稍后我们会详细讲。"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "VWB0Zhy8UoQ9zWKnJv+W+AjE9z0AWit2kvhbamiT2Sg=",
+        "originContent": "Now, if we pass the model a sigmas schedule with values lower than the original, at each step the model will denoise less, resulting a noisier output latent at that step. But then in the steps after that, the model does its best to make sense of this extra noise and turn it into image features. So in theory, *when done in modesty*, this would result in a more detailed image. If you push it too hard, the model won't be able to handle the extra noise added at each step and the end result will devolve into pure noise. So modesty is key. ",
+        "translatedContent": "现在，如果我们传递一个比原始值更低的sigmas时间表，模型在每一步的去噪会减少，导致该步骤输出的潜变量更嘈杂。但随后模型会尽力将这额外噪声转换为图像特征。因此理论上，*适度进行*时，这会产生更细节丰富的图像。如果推得太过，模型将无法处理每步增加的额外噪声，最终结果会退化成纯噪声。所以适度是关键。"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "fCL9E8UdmX0K/D5yMo6NGeLxsCX73785bbJQ4gTRUoo=",
+        "originContent": "### But in Practice",
+        "translatedContent": "### 但实际上"
+      },
+      {
+        "row": 26,
+        "rowsha": "UprCydj1sFLH6KNHSbKTFEs/GTF+/bZNTSCE0gm3QhI=",
+        "originContent": "Modesty only gets you so far! Also, wtf are those? As the examples below show, you can't really add that much detail to the image before it either breaks down, and/or becomes a totally different thing. ",
+        "translatedContent": "适度只能走到一定程度！还有，图中那些是啥？如下面例子所示，你不可能在图像中添加太多细节，否则它要么崩溃，要么变成完全不同的东西。"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "ms0RTJJmD7BCcVJsVHZUlCELCN4rakeDI6SThid8zMg=",
+        "originContent": "<sub>*SD 1.5*<br></sub>",
+        "translatedContent": "<sub>*SD 1.5*<br></sub>"
+      },
+      {
+        "row": 29,
+        "rowsha": "zoSeRuPBSDxzNLL9YuoffzwG+Ta5O2UL0uWe/X7RWsE=",
+        "originContent": "![Modesty](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/2f011a28-0948-48f8-b171-350add6fdd67)",
+        "translatedContent": "![Modesty](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/2f011a28-0948-48f8-b171-350add6fdd67)"
+      },
+      {
+        "row": 30,
+        "rowsha": "Y/K6k6Edo545hLZhE/B3h4bmuf3lzF0MHf3K+Fx49Nk=",
+        "originContent": "Original sigmas (left) multiplied by .9, .85, .8<br>",
+        "translatedContent": "原始sigmas（左）乘以0.9、0.85、0.8<br>"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "10MmrPhmsMwxlls5FHBZWTRmYWtzhC29BqhCsf/piIM=",
+        "originContent": "<sub>*SDXL*<br></sub>",
+        "translatedContent": "<sub>*SDXL*<br></sub>"
+      },
+      {
+        "row": 33,
+        "rowsha": "BGKgvEBBgAMzUgl6qNt856HG15sOepeLyX1iz5aBfyQ=",
+        "originContent": "![1](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/eff2356e-a6dd-4a4e-9c7e-861dec7713eb)",
+        "translatedContent": "![1](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/eff2356e-a6dd-4a4e-9c7e-861dec7713eb)"
+      },
+      {
+        "row": 34,
+        "rowsha": "+Vm6BcAa8uFftouzvjZQqpHTq1eMkSMEhOsqxPK6vU0=",
+        "originContent": "Original sigmas (left) multiplied by .95, .9, .85, .875, .8<br>",
+        "translatedContent": "原始sigmas（左）乘以0.95、0.9、0.85、0.875、0.8<br>"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "sMd3La6BAiM3vIlNvGDAZedUJgdsmchueU1Bw87VUpc=",
+        "originContent": "That's because: ",
+        "translatedContent": "这是因为："
+      },
+      {
+        "row": 37,
+        "rowsha": "Bv5rQArrVi4VcG7pme2XaePf+j4sEn9nzMCu7v66pOs=",
+        "originContent": "1. We're constantly adding noise and not giving the model enough time to deal with it",
+        "translatedContent": "1. 我们不断添加噪声，而不给模型足够时间去处理"
+      },
+      {
+        "row": 38,
+        "rowsha": "vipu9h5Cd9dTjSzujix3rBzAwGyTkOYDyaMdr6RseuU=",
+        "originContent": "2. We are manipulating the early steps where the low frequency features of the image (color, composition, etc.) are defined",
+        "translatedContent": "2. 我们操纵的是早期步骤，那时图像的低频特征（颜色、构图等）正在定义"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "gSx3VBfAzAtRcGx3ogn5Bphd/XHR627uipD6lEi/hXY=",
+        "originContent": "### Enter the Schedule",
+        "translatedContent": "### 时间表登场"
+      },
+      {
+        "row": 41,
+        "rowsha": "tE5sC3n5pvdGDPC4fGq+ed+2x5PzIM+fMXV0K+KqvJU=",
+        "originContent": "What we usually mean by \"detail\" falls within the mid to high frequency range, which correspond to the middle to late steps in the sampling process. So if we skip the early steps to leave the main features of the image intact, and the late steps to give the model some time to turn the extra noise into useful detail, we'll have something like this:",
+        "translatedContent": "我们通常所说的“细节”属于中高频范围，分别对应采样过程的中后期步骤。所以如果我们跳过早期步骤以保持图像主要特征完整，再跳过后期步骤给模型时间将额外噪声转化为有用细节，我们会得到类似这样的效果："
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "i2lAkfC+BmWAyYB6R1S5/pzoJRInsJoEASCgw+k6I28=",
+        "originContent": "![3](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/cd47e882-8b56-4321-8c47-c0d689562780)",
+        "translatedContent": "![3](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/cd47e882-8b56-4321-8c47-c0d689562780)"
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "iui9L9G09FbwJx4Wbp1HNvafRtkTy5ewCjfln+L701c=",
+        "originContent": "Then we could make our schedule a bit fancier and have it target specific steps corresponding to different sized details:",
+        "translatedContent": "然后我们可以让时间表更复杂一些，针对不同大小细节的特定步骤："
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "27/YMYKfAUJk8WLYdMqIPEa3M+blMo+dqBzHSp8Ad0k=",
+        "originContent": "![4](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/ea5027d2-3359-4733-afb4-5ae4a1218f38)",
+        "translatedContent": "![4](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/ea5027d2-3359-4733-afb4-5ae4a1218f38)"
+      },
+      {
+        "row": 48,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "rg0T29ed48xqp0RTXWV5GwRDAQRnM0FSji2eP+pc6sw=",
+        "originContent": "Which steps correspond to which exact frequency range depends on the model you're using, the sampler, your prompt (specially if you're using Prompt Editing and stuff), and probably a bunch of other things. There are also fancier things you can (and should) do with the schedule, like pushing the sigmas too low for some heavy extra noise and then too high to clean up the excess and leave some nice details. So you need to do some tweaking to figure out the best schedule for each image you generate, or at least the ones that need their level of detail adjusted. But ideally you should be spending countless hours of your life sculpting the perfect detail adjustment schedule for every image, cuz that's why we're here.",
+        "translatedContent": "哪个步骤对应哪个精确频率范围取决于你使用的模型、采样器、提示词（特别是如果使用提示词编辑等），可能还有其他很多因素。时间表还可以做更复杂的操作，比如将sigmas推得很低以添加大量额外噪声，再推得很高以清理多余噪声并留下漂亮细节。因此，你需要不断调整，找出每张生成图像的最佳时间表，或者至少针对需要调整细节级别的图像这样做。理想情况下，你应该花费无数小时为每张图像雕刻完美的细节调整时间表，因为这正是我们存在的意义。"
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "6UNqxHCO69Gun8XyQdqSng3DWYbowM1Ds3z23BgD3Z4=",
+        "originContent": "I'll soon provide specific examples addressing different scenarios and some of the techniques I've come up with. (note to self: move these to the wiki page)",
+        "translatedContent": "我很快会提供针对不同场景的具体示例和一些我总结的技巧。（给自己记个笔记：把这些搬到wiki页面）"
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## 安装"
+      },
+      {
+        "row": 54,
+        "rowsha": "HDZcnBLO9tO2tiIrbUDFf7bDik8LI40Wc58tzfois1s=",
+        "originContent": "Open SD WebUI > Go to Extensions tab > Go to Available tab > Click Load from: > Find Detail Daemon > Click Install",
+        "translatedContent": "打开SD WebUI > 进入扩展标签页 > 进入可用扩展标签页 > 点击加载来源： > 找到Detail Daemon > 点击安装"
+      },
+      {
+        "row": 55,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 56,
+        "rowsha": "CmJOHSYmnmsscS09Wt2Em6dP9mMKV7XsglBGK4vMgbc=",
+        "originContent": "Or Go to Install from URL tab > Paste this repo's URL into the first field > Click Install",
+        "translatedContent": "或者进入从URL安装标签页 > 在第一个输入框粘贴本仓库URL > 点击安装"
+      },
+      {
+        "row": 57,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 58,
+        "rowsha": "/C2twZ8HYJZ6rFovHLHH70AcQhDoDY6kZQKda3YhNPk=",
+        "originContent": "Or go to your WebUI folder and manually clone this repo into your extensions folder:",
+        "translatedContent": "或者进入你的WebUI文件夹，手动将本仓库克隆到extensions文件夹："
+      },
+      {
+        "row": 59,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 60,
+        "rowsha": "ayBH5SC8VZrwmKuCJUmpx9htqxgmDNRsMxd0xLAxkuM=",
+        "originContent": "`git clone \"https://github.com/muerrilla/sd-webui-detail-daemon\" extensions/sd-webui-detail-daemon`",
+        "translatedContent": "`git clone \"https://github.com/muerrilla/sd-webui-detail-daemon\" extensions/sd-webui-detail-daemon`"
+      },
+      {
+        "row": 61,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 62,
+        "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+        "originContent": "## Getting Started",
+        "translatedContent": "## 入门"
+      },
+      {
+        "row": 63,
+        "rowsha": "kNJzfw+3OjIMe0uxm0EVjkjGzWwntELUEwS+lSDTlH8=",
+        "originContent": "After installation you can find the extension in your txt2img and img2img tabs. ",
+        "translatedContent": "安装后，你可以在txt2img和img2img标签页中找到该扩展。"
+      },
+      {
+        "row": 64,
+        "rowsha": "DAgLy+Ffuekns0CIOVOwbUedx78ks1f1pxtIcTp/Big=",
+        "originContent": "![2024-07-08 01_43_21-011366](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/045574cb-465c-4991-83c4-d02f803a330b)",
+        "translatedContent": "![2024-07-08 01_43_21-011366](https://github.com/muerrilla/sd-webui-detail-daemon/assets/48160881/045574cb-465c-4991-83c4-d02f803a330b)"
+      },
+      {
+        "row": 65,
+        "rowsha": "hedtJtJ4jn8WHIkvVyYL+KQP3S62xl9D2uVhmQDjviE=",
+        "originContent": "### Sliders:",
+        "translatedContent": "### 滑块："
+      },
+      {
+        "row": 66,
+        "rowsha": "M37dCMrTB3RNapwHN1y2i4mbMSksxGUwbnUahMvswtc=",
+        "originContent": "The sliders (and that one checkbox) set the amount of adjustment (positive values → add detail, negative values → remove detail) and the sampling steps during which it is applied (i.e. the schedule). So the X axis of the graph is your sampling steps, normalized to the (0,1) range, and the Y axis is the amount of adjustment. The rest is pretty self-explanatory I think. Just drag things and look at the graph for changes.",
+        "translatedContent": "滑块（还有那个复选框）设置调整幅度（正值→增加细节，负值→减少细节）以及应用调整的采样步骤（即时间表）。图表的X轴是采样步骤，归一化到(0,1)范围，Y轴是调整幅度。其他部分应该很直观。只需拖动滑块，观察图表变化即可。"
+      },
+      {
+        "row": 67,
+        "rowsha": "xwLlOlLmu3X+tjWeClm3UMA0acBS8tX39T7lIlNga14=",
+        "originContent": "### Numbers:",
+        "translatedContent": "### 数字输入："
+      },
+      {
+        "row": 68,
+        "rowsha": "WLP9aTPA5H0dXx4lBqQByVswZXVTY5e1vijXZvTMTuU=",
+        "originContent": "The three number inputs at the buttom are provided because sometimes the slider max/mins are too limiting.",
+        "translatedContent": "底部的三个数字输入框提供了滑块最大/最小值有时过于限制时的调整手段。"
+      },
+      {
+        "row": 69,
+        "rowsha": "MFRyqqXPYFbinILXZmkDm8kPpHowUjSNGOKcQagzkic=",
+        "originContent": "### Modes:",
+        "translatedContent": "### 模式："
+      },
+      {
+        "row": 70,
+        "rowsha": "6/E+U3Q11j/4DtqkLSkt8I5MmYaNGNiXyF432wLTjqY=",
+        "originContent": "The `cond` and `uncond` modes affect only their respective latents, while `both` affects both (duh!). The `cond` and `uncond` modes are less intense and also allow changes to be applied at earlier steps without diverging too far from the original generation, since the other latent stays intact. ",
+        "translatedContent": "`cond`和`uncond`模式仅影响各自的潜变量，而`both`模式同时影响两者（废话！）。`cond`和`uncond`模式强度较低，且允许在较早步骤应用调整而不会偏离原始生成太远，因为另一个潜变量保持不变。"
+      },
+      {
+        "row": 71,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 72,
+        "rowsha": "J8Fb//l+QzeyujIPxuKtTU/M0nBedc+gpB0DZLlL5Zo=",
+        "originContent": "There's also a minor twist: in the `both` mode if `detail amount` is positive both cond and uncond latents become more detailed. So the more detailed cond latent will try to push the generation towards more detail, while the more detailed uncond latent will try to push towards less detail. This causes more new features/artifacts to pop into the image in this mode.",
+        "translatedContent": "还有一个小变化：在`both`模式下，如果“细节量”是正值，cond和uncond潜变量都会变得更细节化。更细节的cond潜变量会推动生成更细节化，而更细节的uncond潜变量会推动更少细节。这导致该模式下图像中出现更多新的特征/伪影。"
+      },
+      {
+        "row": 73,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 74,
+        "rowsha": "2IuedbniQQLT5pOtAjS9g87M+u8tFmTG/wN5JnXOTLk=",
+        "originContent": "### Tips:",
+        "translatedContent": "### 提示："
+      },
+      {
+        "row": 75,
+        "rowsha": "KMDY9GKFmE9HLvcK6qFesSKNZ6w9qBjVAmsLa+Fxa/0=",
+        "originContent": "I'll write up some proper docs on how best to set the parameters, as soon as possible. For now you gotta play around with the sliders and figure out how the shape of the schedule affects the image. I suggest you set your live preview update period to every frame, or every other frame, so you could see clearly what's going on at every step of the sampling process and how Detail Daemon affects it, till you get a good grasp of how this thing works.",
+        "translatedContent": "我会尽快写些正式文档说明如何最佳设置参数。目前你需要自行调试滑块，了解时间表形状如何影响图像。我建议将实时预览更新周期设置为每帧或隔帧更新，这样你可以清楚看到采样过程每一步发生了什么，Detail Daemon如何影响它，直到你完全掌握它的工作原理。"
+      },
+      {
+        "row": 76,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 77,
+        "rowsha": "29s+C5aCSHi/mb1RM/pEAhs442d1j3MBg+qTX1HxxOs=",
+        "originContent": "## Notes:",
+        "translatedContent": "## 注意事项："
+      },
+      {
+        "row": 78,
+        "rowsha": "q6xksBMQX+Dexfgc0eTAoa569xfzSlfYPKpjY9Hm1zc=",
+        "originContent": "- Doesn't support Compositional Diffusion (i.e. the AND syntax) properly. Specially if you have a batch size > 1 or negative weights in your prompts, and the mode is set to `cond` or `uncond`.",
+        "translatedContent": "- 不支持组合扩散（即AND语法）正确工作。特别是当批量大小>1或提示词中有负权重，且模式设置为`cond`或`uncond`时。"
+      },
+      {
+        "row": 79,
+        "rowsha": "SrI+7C4el2ayAkdFZdiJTIyiOZ8ijv6nuxHO0Dc/OJg=",
+        "originContent": "- It's probably impossible to use or very hard to control with few-step models (Turbo, Lightning, etc.). Edit: It's managable.",
+        "translatedContent": "- 可能无法使用或难以控制少步模型（Turbo、Lightning等）。编辑：可以控制。"
+      },
+      {
+        "row": 80,
+        "rowsha": "gIFJgplIPRpcxPWRPXgpF8vCASy045nmpzVesKbrXuc=",
+        "originContent": "- It works with Forge (`cond` and `uncond` modes are not supported).",
+        "translatedContent": "- 支持Forge（不支持`cond`和`uncond`模式）。"
+      },
+      {
+        "row": 81,
+        "rowsha": "txj2JRsf6ePbvQjTDWt0i3VxY2l+PUVbDmpOQDMiCRU=",
+        "originContent": "- It's not the same as AlignYourSteps, FreeU, etc.",
+        "translatedContent": "- 不同于AlignYourSteps、FreeU等。"
+      },
+      {
+        "row": 82,
+        "rowsha": "B3n7a9vgur/iO4yh0JPN6gGt8iMLSJ+gDUUl9mfXvLM=",
+        "originContent": "- It is similar (in what it sets out to do, not in how it does it) to the [ReSharpen Extension](https://github.com/Haoming02/sd-webui-resharpen) by Haoming.",
+        "translatedContent": "- 功能类似于Haoming的[ReSharpen Extension](https://github.com/Haoming02/sd-webui-resharpen)（目的相似，方法不同）。"
+      },
+      {
+        "row": 83,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

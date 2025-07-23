@@ -36,6 +36,11 @@
 ### C.O.R.E: AI時代のあなたのデジタル脳
 
 <p align="center">
+    <a href="https://deepwiki.com/RedPlanetHQ/core">
+        <img src="https://deepwiki.com/badge.svg" alt="DeepWiki Badge" />
+    </a>
+</p>
+<p align="center">
     <a href="https://docs.heysol.ai/core/overview"><b>ドキュメント</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
 </p>
@@ -43,47 +48,47 @@
 
 ## 🧠 C.O.R.E.
 
-**Contextual Observation & Recall Engine（文脈観察・想起エンジン）**
+**Contextual Observation & Recall Engine（文脈観察・リコールエンジン）**
 
-C.O.R.Eは、あなたのLLMとのやり取りや個人データから構築されるポータブルなメモリーグラフで、すべての文脈やワークフロー履歴を、まるでデジタル脳のように、どんなAIツールからでも利用可能にします。これにより、繰り返し文脈を共有する必要がなくなります。目指すのは以下の通りです：
+C.O.R.Eは、あなたのLLM対話や個人データから構築されるポータブルなメモリーグラフであり、全ての文脈やワークフロー履歴をどんなAIツールからもアクセスできるようにします。これはまるでデジタル脳のようです。繰り返し文脈を共有する必要がなくなります。目的は以下の通りです：
 
-- **統合されたポータブルメモリー**：シームレスに文脈を追加・想起し、Claude、Cursor、Windsurfなどのアプリ間でメモリーを接続できます。
-- **関係性を持つ、単なる平坦な事実以上**：COREは知識を整理し、事実だけでなく関係性も保存することで、本物の脳のようにより深く豊かな記憶を実現します。
-- **ユーザー所有**：保存・更新・削除する内容を自分で決め、好きなツール間でメモリーを共有でき、ベンダーロックインから解放されます。
+- **統合・ポータブルメモリー**：シームレスに文脈を追加・リコールし、Claude、Cursor、Windsurfなどのアプリ間であなたの記憶をつなげます。
+- **関係的、単なるフラットな事実ではない**：COREは知識を整理し、事実とそれらの関係の両方を保存して、本物の脳のようにより深く豊かな記憶を実現します。
+- **ユーザー所有**：何を保持・更新・削除するかはあなたが決め、好きなツール間で記憶を共有でき、ベンダーロックインから解放されます。
 
 ## 🎥 デモ動画
 
-[COREデモを見る](https://youtu.be/iANZ32dnK60)
+[C.O.R.Eデモをチェック](https://youtu.be/iANZ32dnK60)
 
 <img width="954" height="700" alt="Core dashboard" src="https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694" />
 
-## 🧩  主な特徴
+## 🧩  主な機能
 
 - **メモリーグラフ**：事実や好みがどのようにつながっているかを可視化
-- **メモリーと会話**：記憶について質問して即座に洞察や理解を得る
-- **プラグアンドプレイ**：CursorやClaudeなどのアプリですぐにCOREメモリーを利用可能
+- **メモリーとの対話**：記憶について質問し、即座に洞察や理解を得る
+- **Plug n Play**：CursorやClaudeなどのアプリで即座にCOREメモリーを利用
 
 ## ☁️ C.O.R.E クラウドセットアップ
 
-1. [Core Cloud](https://core.heysol.ai)にサインアップし、メモリーグラフの構築を始めます。
-2. メモリーに保存したいテキストを追加します。`+ Add`ボタンをクリックすると、メモリーグラフが生成されます。
-3. [Core Memory MCPをCursorと接続](#connecting-core-mcp-with-cursor)
+1. [Core Cloud](https://core.heysol.ai)にサインアップし、メモリーグラフの構築を開始します。
+2. 保存したいテキストを追加します。`+ Add`ボタンをクリックすると、あなたのメモリーグラフが生成されます。
+3. [Core Memory MCPをCursorと連携](#connecting-core-mcp-with-cursor)
 
 ## 💻 C.O.R.E ローカルセットアップ
 
-#### 前提条件
+#### 必要条件
 
 1. Docker
 2. OpenAI APIキー
 
 
-> **注意:** Llamaモデルのサポート強化に積極的に取り組んでいます。現時点では、C.O.R.EはLlamaベースのモデルで最適な結果を提供できませんが、近い将来より良い互換性と出力を実現するために進歩を続けています。
+> **注:** 私たちはLlamaモデルのサポート向上に積極的に取り組んでいます。現時点では、C.O.R.EはLlamaベースのモデルでは最適な結果を提供しませんが、今後より良い互換性と出力を実現できるよう進行中です。
 > 
-#### C.O.R.Eをローカルで実行する
+#### C.O.R.Eをローカルで実行
 
-1. **環境変数をコピー**
+1. **環境変数のコピー**
 
-   サンプルの環境ファイルを `.env` にコピーします:
+   サンプル環境ファイルを`.env`にコピーしてください：
 
 
    ```bash
@@ -202,6 +207,6 @@ COREを最大限に活用するためにドキュメントを参照してくだ�
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
 
 ---

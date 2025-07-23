@@ -1,0 +1,308 @@
+[
+  {
+    "row": 1,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# 이더리움 스테이킹 가이드 #"
+  },
+  {
+    "row": 2,
+    "rowsha": "FpDbLfVQZUiKicY/nn2J5KFaz8GF6UPoYXBkS2ZAXbg=",
+    "originContent": "# Ethereum Staking Guides #",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 소개 ##"
+  },
+  {
+    "row": 4,
+    "rowsha": "YoVNwHXpR5YPeu0cHD3mEW60H1L+jfSLEd3kfwx7HlY=",
+    "originContent": "## Introduction ##",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "환영합니다!"
+  },
+  {
+    "row": 6,
+    "rowsha": "zI/Z63+VmxPzamViV5bQs1nOW85VUdFZo6kg9ByzQe4=",
+    "originContent": "Welcome!",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이더리움 네트워크에서 스테이킹의 **골드 스탠다드**인 솔로 스테이커가 되고 싶다면, 이 가이드가 도움이 될 것입니다!"
+  },
+  {
+    "row": 8,
+    "rowsha": "YFIs/aAfdwLmeW5o4R2re0ICiLL/nJxtFiwPVDBvrQ0=",
+    "originContent": "If you would like to become a solo staker, the **gold standard** for staking on the Ethereum network, then these guides are for you! ",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "필요한 사양은 Ubuntu (22.04 LTS 이상) 운영체제를 실행하는 머신이며, 최신 CPU, 16GB RAM (32GB가 더 좋음), 고품질 2TB SSD (4TB가 더 좋음)가 필요합니다."
+  },
+  {
+    "row": 10,
+    "rowsha": "RSxJyBaNNABkreLhaxh22McbRoRKJuGCHQZ+cSFjvy8=",
+    "originContent": "Required is a machine running Ubuntu (22.04 LTS or newer) with a modern CPU, 16GB RAM (32GB is better) and a good quality 2TB SSD (4TB is better).",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "시작하려면 아래의 [**메인넷 스테이킹 가이드**](https://github.com/SomerEsat/ethereum-staking-guides#mainnet-staking-guides) 중 하나를 참조하세요."
+  },
+  {
+    "row": 12,
+    "rowsha": "dX7YPif1Ld04rks8v1UgbEi0x0vWqQD02C8EA4kAxgM=",
+    "originContent": "To get started, go to one of the [**Mainnet Staking Guides**](https://github.com/SomerEsat/ethereum-staking-guides#mainnet-staking-guides) below.",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "어떤 클라이언트를 사용할지 잘 모를 경우, 가장 낮은 점유율을 가진 클라이언트를 선택하세요. 여기에서 확인할 수 있습니다: https://clientdiversity.org. 아래 가이드들은 주요 **컨센서스 클라이언트**(Lighthouse, Lodestar, Prysm, Nimbus, Teku) 이름을 따서 작성되었으므로 먼저 하나를 선택해야 합니다. 각 가이드는 스테이킹에 필요한 **실행 클라이언트** 설치 지침도 포함하고 있습니다. 마찬가지로 가장 낮은 점유율을 가진 실행 클라이언트를 선택하는 것이 권장됩니다."
+  },
+  {
+    "row": 14,
+    "rowsha": "l2s83mgmzgjCWoTD2w83i+GsbnlxPEZhLvlV3x9qlzg=",
+    "originContent": "If you're not sure which client to use, go with the one that has the lowest share. See here: https://clientdiversity.org. The guides below are named after the major **Consensus Clients** (Lighthouse, Lodestar, Prysm, Nimbus, and Teku) so you'll have to choose that one first. Each guide then contains instructions for installing an **Execution Client** which is required for staking as well. Again, it is recommended that you choose the one with the lowest share.",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "마지막으로, 메인넷에서 검증자 활동을 시작하려면 대기열이 있을 수 있으니 확인하세요: https://validator-queue-monitoring.vercel.app."
+  },
+  {
+    "row": 16,
+    "rowsha": "9QBeLBUoQKeCjuQEAPDQwFQ7rUU/NxAksPRKmcQA7II=",
+    "originContent": "Finally, be aware that there may be a queue to start validating on the mainnet. Check here: https://validator-queue-monitoring.vercel.app.",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Somer Esat"
+  },
+  {
+    "row": 18,
+    "rowsha": "EiRbyHqhbtZdfI0NFvi4/UYCXLHdL7Y+MN8jWIMGIn8=",
+    "originContent": "Somer Esat ",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<br/>"
+  },
+  {
+    "row": 20,
+    "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+    "originContent": "<br/>",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 메인넷 스테이킹 가이드 ##"
+  },
+  {
+    "row": 22,
+    "rowsha": "CBoHEZPxNBnMzh1c24LBZRWDB3LK1BvPDzAJ2EzujYI=",
+    "originContent": "## Mainnet Staking Guides ##",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 가이드는 이더리움 메인넷에서 스테이킹할 때 사용합니다."
+  },
+  {
+    "row": 24,
+    "rowsha": "orhdi5Tva+N4/HA+CjDN+dtOsauOW/d1/yyr8oMPbVI=",
+    "originContent": "Use these guides for staking on the Ethereum mainnet.",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| 가이드 <img width=150/> | 변경 로그 *(dd-mm-yy)* <img width=450/> |"
+  },
+  {
+    "row": 26,
+    "rowsha": "mPfLSZSOlReZNPa8gjQyjD3NgcVw+ZOo8DZkLaHgSTo=",
+    "originContent": "| Guide <img width=150/> | Change Log *(dd-mm-yy)* <img width=450/> |",
+    "translatedContent": "| :--------- | :---------- |"
+  },
+  {
+    "row": 27,
+    "rowsha": "VvsCaiKtvJefv2tS40mOx8ITniSi4lkvJLQjtoyaHP0=",
+    "originContent": "| :--------- | :---------- |",
+    "translatedContent": "| [Lighthouse](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-lighthouse-773f5d982e03) | <br> *20-08-24* - Reth 실행 클라이언트 추가. <br> *18-08-24* - Lighthouse 클라이언트를 5.3.0으로 업데이트. <br> *19-06-24* - Lighthouse 클라이언트를 5.2.0으로 업데이트. <br> *18-06-24* - Besu 클라이언트를 24.5.4로 업데이트. <br> *09-06-24* - Nethermind 설정에 가지치기(Pruning) 플래그 추가. <br> *09-06-24* - Nethermind 설정에서 Sync.AncientBodies/Receipts 플래그 제거. <br> *09-06-24* - Nethermind 클라이언트를 1.26.0으로 업데이트. <br> *09-06-24* - Geth 클라이언트를 1.14.5로 업데이트. <br> *09-06-24* - Erigon 클라이언트를 2.6.1로 업데이트. <br> *02-06-24* - Erigon 클라이언트를 2.6.0으로 업데이트. <br> *02-06-24* - [이슈 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13)에 따라 Erigon의 사용 중단된 설정 플래그 --externalcl 제거. <br> *02-06-24* - Erigon 설정을 사전 빌드된 바이너리 사용으로 업데이트. <br> *02-06-24* - 불필요한 Erigon 필수 항목 제거. <br> *30-05-24* - Besu 클라이언트를 24.5.2로 업데이트하고 Besu 설정 플래그 섹션의 깨진 링크 수정. <br> *30-05-24* - [#6405](https://github.com/hyperledger/besu/pull/6405)에 따라 Besu 설정에서 X_SNAP을 SNAP으로 이름 변경. <br> *30-05-24* - Besu 필수 항목을 Java Runtime v21 (헤드리스) 필요로 업데이트. <br> *14-04-24* - 목차 추가. <br> *14-04-24* - Ubuntu 서버 버전을 22.04로 상향 조정. <br> 변경 로그 아카이브 보기: [Change Log Archive](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md). |"
+  },
+  {
+    "row": 28,
+    "rowsha": "Dx8ewe5OqLybJwJf3oA85tm1G24BKg6CMQzPzGpMhcg=",
+    "originContent": "| [Lighthouse](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-lighthouse-773f5d982e03) | <br> *20-08-24* - Added Reth Execution Client. <br> *18-08-24* - Updated Lighthouse client to 5.3.0. <br> *19-06-24* - Updated Lighthouse client to 5.2.0. <br> *18-06-24* - Updated Besu client to 24.5.4. <br> *09-06-24* - Updated Nethermind config to add Pruning flags. <br> *09-06-24* - Updated Nethermind config to remove Sync.AncientBodies/Receipts flags. <br> *09-06-24* - Updated Nethermind client to 1.26.0. <br> *09-06-24* - Updated Geth client to 1.14.5. <br> *09-06-24* - Updated Erigon client to 2.6.1. <br> *02-06-24* - Updated Erigon client to 2.6.0. <br> *02-06-24* - Removed Erigon deprecated config flag --externalcl per [Issue 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13). <br> *02-06-24* - Updated Erigon config to use the prebuilt binary. <br> *02-06-24* - Removed redundant Erigon prerequisites. <br> *30-05-24* - Updated Besu client to 24.5.2 and fixed broken links in Besu config flags section. <br> *30-05-24* - Updated Besu config to rename X_SNAP to SNAP per [#6405](https://github.com/hyperledger/besu/pull/6405). <br> *30-05-24* - Updated Besu prerequisites to require Java Runtime v21 (headless). <br> *14-04-24* - Added table of contents. <br> *14-04-24* - Increased Ubuntu Server Version to 22.04. <br> See [Change Log Archive](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md). |",
+    "translatedContent": "| [Lodestar](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-lodestar-193a2553a161) | <br> *20-08-24* - Reth 실행 클라이언트 추가. <br> *11-08-24* - Lodestar 릴리스 링크 오류 수정. <br> *18-06-24* - Lodestar 불필요한 필수 항목(NodeJS 및 build-essential) 제거. <br> *18-06-24* - Lodestar 설정을 사전 빌드된 바이너리 사용으로 업데이트. <br> *18-06-24* - Lodestar 클라이언트를 1.19.0으로 업데이트. <br> *18-06-24* - Besu 클라이언트를 24.5.4로 업데이트. <br> *18-06-24* - Nethermind 설정에 가지치기 플래그 추가. <br> *18-06-24* - Nethermind 설정에서 Sync.AncientBodies/Receipts 플래그 제거. <br> *18-06-24* - Nethermind 클라이언트를 1.26.0으로 업데이트. <br> *18-06-24* - Geth 클라이언트를 1.14.5로 업데이트. <br> *18-06-24* - Erigon 클라이언트를 2.6.1로 업데이트. <br> *02-06-24* - Erigon 클라이언트를 2.6.0으로 업데이트. <br> *02-06-24* - [이슈 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13)에 따라 Erigon의 사용 중단된 설정 플래그 --externalcl 제거. <br> *02-06-24* - Erigon 설정을 사전 빌드된 바이너리 사용으로 업데이트. <br> *02-06-24* - 불필요한 Erigon 필수 항목 제거. <br> *30-05-24* - Besu 클라이언트를 24.5.2로 업데이트하고 Besu 설정 플래그 섹션의 깨진 링크 수정. <br> *30-05-24* - [#6405](https://github.com/hyperledger/besu/pull/6405)에 따라 Besu 설정에서 X_SNAP을 SNAP으로 이름 변경. <br> *30-05-24* - Besu 필수 항목을 Java Runtime v21 (헤드리스) 필요로 업데이트. <br> *27-04-24* - 목차 추가. <br> *27-04-24* - Ubuntu 서버 버전을 22.04로 상향 조정. <br> 변경 로그 아카이브 보기: [Change Log Archive](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md). |"
+  },
+  {
+    "row": 29,
+    "rowsha": "YBSwyGK1KNaiccNR3lv56nOOIIRZJQoEhuT0Zm3Z+2Q=",
+    "originContent": "| [Lodestar](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-lodestar-193a2553a161) | <br> *20-08-24* - Added Reth Execution Client. <br> *11-08-24* - Fixed incorrect link to Lodestar releases. <br> *18-06-24* - Removed redundant Lodestar prerequisites (NodeJS and build-essential). <br> *18-06-24* - Updated Lodestar config to use the prebuilt binary. <br> *18-06-24* - Updated Lodestar client to 1.19.0. <br> *18-06-24* - Updated Besu client to 24.5.4. <br> *18-06-24* - Updated Nethermind config to add Pruning flags. <br> *18-06-24* - Updated Nethermind config to remove Sync.AncientBodies/Receipts flags. <br> *18-06-24* - Updated Nethermind client to 1.26.0. <br> *18-06-24* - Updated Geth client to 1.14.5. <br> *18-06-24* - Updated Erigon client to 2.6.1. <br> *02-06-24* - Updated Erigon client to 2.6.0. <br> *02-06-24* - Removed Erigon deprecated config flag --externalcl per [Issue 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13). <br> *02-06-24* - Updated Erigon config to use the prebuilt binary. <br> *02-06-24* - Removed redundant Erigon prerequisites. <br> *30-05-24* - Updated Besu client to 24.5.2 and fixed broken links in Besu config flags section. <br> *30-05-24* - Updated Besu config to rename X_SNAP to SNAP per [#6405](https://github.com/hyperledger/besu/pull/6405). <br> *30-05-24* - Updated Besu prerequisites to require Java Runtime v21 (headless). <br> *27-04-24* - Added table of contents. <br> *27-04-24* - Increased Ubuntu Server Version to 22.04. <br> See [Change Log Archive](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md). |",
+    "translatedContent": "| [Prysm](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-prysm-581fb1969460) | <br> *20-08-24* - Reth 실행 클라이언트 추가. <br> *24-06-24* - Prysm 클라이언트를 5.0.4로 업데이트. <br> *19-06-24* - Prysm 클라이언트를 5.0.3으로 업데이트. <br> *18-06-24* - Besu 클라이언트를 24.5.4로 업데이트. <br> *18-06-24* - Nethermind 설정에 가지치기 플래그 추가. <br> *18-06-24* - Nethermind 설정에서 Sync.AncientBodies/Receipts 플래그 제거. <br> *18-06-24* - Nethermind 클라이언트를 1.26.0으로 업데이트. <br> *18-06-24* - Geth 클라이언트를 1.14.5로 업데이트. <br> *18-06-24* - Erigon 클라이언트를 2.6.1로 업데이트. <br> *02-06-24* - Erigon 클라이언트를 2.6.0으로 업데이트. <br> *02-06-24* - [이슈 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13)에 따라 Erigon의 사용 중단된 설정 플래그 --externalcl 제거. <br> *02-06-24* - Erigon 설정을 사전 빌드된 바이너리 사용으로 업데이트. <br> *02-06-24* - 불필요한 Erigon 필수 항목 제거. <br> *30-05-24* - Besu 클라이언트를 24.5.2로 업데이트하고 Besu 설정 플래그 섹션의 깨진 링크 수정. <br> *30-05-24* - [#6405](https://github.com/hyperledger/besu/pull/6405)에 따라 Besu 설정에서 X_SNAP을 SNAP으로 이름 변경. <br> *30-05-24* - Besu 필수 항목을 Java Runtime v21 (헤드리스) 필요로 업데이트. <br> *27-04-24* - 목차 추가. <br> *27-04-24* - Ubuntu 서버 버전을 22.04로 상향 조정. <br> 변경 로그 아카이브 보기: [Change Log Archive](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md). |"
+  },
+  {
+    "row": 30,
+    "rowsha": "x4bQ99XFcKJae3HGBm4ZIaXB2HS1AM88tVmmtoFsS+c=",
+    "originContent": "| [Prysm](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-prysm-581fb1969460) | <br> *20-08-24* - Added Reth Execution Client. <br> *24-06-24* - Updated Prysm client to 5.0.4. <br> *19-06-24* - Updated Prysm client to 5.0.3. <br> *18-06-24* - Updated Besu client to 24.5.4. <br> *18-06-24* - Updated Nethermind config to add Pruning flags. <br> *18-06-24* - Updated Nethermind config to remove Sync.AncientBodies/Receipts flags. <br> *18-06-24* - Updated Nethermind client to 1.26.0. <br> *18-06-24* - Updated Geth client to 1.14.5. <br> *18-06-24* - Updated Erigon client to 2.6.1. <br> *02-06-24* - Updated Erigon client to 2.6.0. <br> *02-06-24* - Removed Erigon deprecated config flag --externalcl per [Issue 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13). <br> *02-06-24* - Updated Erigon config to use the prebuilt binary. <br> *02-06-24* - Removed redundant Erigon prerequisites. <br> *30-05-24* - Updated Besu client to 24.5.2 and fixed broken links in Besu config flags section. <br> *30-05-24* - Updated Besu config to rename X_SNAP to SNAP per [#6405](https://github.com/hyperledger/besu/pull/6405). <br> *30-05-24* - Updated Besu prerequisites to require Java Runtime v21 (headless). <br> *27-04-24* - Added table of contents. <br> *27-04-24* - Increased Ubuntu Server Version to 22.04. <br> See [Change Log Archive](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md). |",
+    "translatedContent": "| [Nimbus](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-nimbus-31f56657ea8f) | <br> *20-08-24* - Reth 실행 클라이언트 추가. <br> *24-06-24* - Nimbus 클라이언트를 24.6.0으로 업데이트. <br> *19-06-24* - Nimbus 클라이언트를 24.5.0으로 업데이트. <br> *18-06-24* - Besu 클라이언트를 24.5.4로 업데이트. <br> *18-06-24* - Nethermind 설정에 가지치기 플래그 추가. <br> *18-06-24* - Nethermind 설정에서 Sync.AncientBodies/Receipts 플래그 제거. <br> *18-06-24* - Nethermind 클라이언트를 1.26.0으로 업데이트. <br> *18-06-24* - Geth 클라이언트를 1.14.5로 업데이트. <br> *18-06-24* - Erigon 클라이언트를 2.6.1로 업데이트. <br> *02-06-24* - Erigon 클라이언트를 2.6.0으로 업데이트. <br> *02-06-24* - [이슈 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13)에 따라 Erigon의 사용 중단된 설정 플래그 --externalcl 제거. <br> *02-06-24* - Erigon 설정을 사전 빌드된 바이너리 사용으로 업데이트. <br> *02-06-24* - 불필요한 Erigon 필수 항목 제거. <br> *30-05-24* - Besu 클라이언트를 24.5.2로 업데이트하고 Besu 설정 플래그 섹션의 깨진 링크 수정. <br> *30-05-24* - [#6405](https://github.com/hyperledger/besu/pull/6405)에 따라 Besu 설정에서 X_SNAP을 SNAP으로 이름 변경. <br> *30-05-24* - Besu 필수 항목을 Java Runtime v21 (헤드리스) 필요로 업데이트. <br> *27-04-24* - 목차 추가. <br> *27-04-24* - Ubuntu 서버 버전을 22.04로 상향 조정. <br> 변경 로그 아카이브 보기: [Change Log Archive](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md). |"
+  },
+  {
+    "row": 31,
+    "rowsha": "JK65rwApoIJndA3jZkzWSEahpj8veoanmRodhURecRo=",
+    "originContent": "| [Nimbus](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-nimbus-31f56657ea8f) | <br> *20-08-24* - Added Reth Execution Client. <br> *24-06-24* - Updated Nimbus client to 24.6.0. <br> *19-06-24* - Updated Nimbus client to 24.5.0. <br> *18-06-24* - Updated Besu client to 24.5.4. <br> *18-06-24* - Updated Nethermind config to add Pruning flags. <br> *18-06-24* - Updated Nethermind config to remove Sync.AncientBodies/Receipts flags. <br> *18-06-24* - Updated Nethermind client to 1.26.0. <br> *18-06-24* - Updated Geth client to 1.14.5. <br> *18-06-24* - Updated Erigon client to 2.6.1. <br> *02-06-24* - Updated Erigon client to 2.6.0. <br> *02-06-24* - Removed Erigon deprecated config flag --externalcl per [Issue 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13). <br> *02-06-24* - Updated Erigon config to use the prebuilt binary. <br> *02-06-24* - Removed redundant Erigon prerequisites. <br> *30-05-24* - Updated Besu client to 24.5.2 and fixed broken links in Besu config flags section. <br> *30-05-24* - Updated Besu config to rename X_SNAP to SNAP per [#6405](https://github.com/hyperledger/besu/pull/6405). <br> *30-05-24* - Updated Besu prerequisites to require Java Runtime v21 (headless). <br> *27-04-24* - Added table of contents. <br> *27-04-24* - Increased Ubuntu Server Version to 22.04. <br> See [Change Log Archive](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md). |",
+    "translatedContent": "| [Teku](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-teku-f09ecd9ef2ee) | <br> *20-08-24* - Reth 실행 클라이언트 추가. <br> *19-06-24* - Teku 필수 항목을 Java Runtime v21 (헤드리스) 필요로 업데이트. <br> *19-06-24* - Teku 클라이언트를 24.6.0으로 업데이트. <br> *18-06-24* - Besu 클라이언트를 24.5.4로 업데이트. <br> *18-06-24* - Nethermind 설정에 가지치기 플래그 추가. <br> *18-06-24* - Nethermind 설정에서 Sync.AncientBodies/Receipts 플래그 제거. <br> *18-06-24* - Nethermind 클라이언트를 1.26.0으로 업데이트. <br> *18-06-24* - Geth 클라이언트를 1.14.5로 업데이트. <br> *18-06-24* - Erigon 클라이언트를 2.6.1로 업데이트. <br> *02-06-24* - Erigon 클라이언트를 2.6.0으로 업데이트. <br> *02-06-24* - [이슈 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13)에 따라 Erigon의 사용 중단된 설정 플래그 --externalcl 제거. <br> *02-06-24* - Erigon 설정을 사전 빌드된 바이너리 사용으로 업데이트. <br> *02-06-24* - 불필요한 Erigon 필수 항목 제거. <br> *30-05-24* - Besu 클라이언트를 24.5.2로 업데이트하고 Besu 설정 플래그 섹션의 깨진 링크 수정. <br> *30-05-24* - [#6405](https://github.com/hyperledger/besu/pull/6405)에 따라 Besu 설정에서 X_SNAP을 SNAP으로 이름 변경. <br> *30-05-24* - Besu 필수 항목을 Java Runtime v21 (헤드리스) 필요로 업데이트. <br> *18-05-24* - 목차 추가. <br> *18-05-24* - Ubuntu 서버 버전을 22.04로 상향 조정. <br> 변경 로그 아카이브 보기: [Change Log Archive](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md). |"
+  },
+  {
+    "row": 32,
+    "rowsha": "yBdFjHEsO+tOfgoE70FFs/Y7KzJ3YsZL8nyEcuXU5vc=",
+    "originContent": "| [Teku](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-teku-f09ecd9ef2ee) | <br> *20-08-24* - Added Reth Execution Client. <br> *19-06-24* - Updated Teku prerequisites to require Java Runtime v21 (headless). <br> *19-06-24* - Updated Teku client to 24.6.0. <br> *18-06-24* - Updated Besu client to 24.5.4. <br> *18-06-24* - Updated Nethermind config to add Pruning flags. <br> *18-06-24* - Updated Nethermind config to remove Sync.AncientBodies/Receipts flags. <br> *18-06-24* - Updated Nethermind client to 1.26.0. <br> *18-06-24* - Updated Geth client to 1.14.5. <br> *18-06-24* - Updated Erigon client to 2.6.1. <br> *02-06-24* - Updated Erigon client to 2.6.0. <br> *02-06-24* - Removed Erigon deprecated config flag --externalcl per [Issue 13](https://github.com/SomerEsat/ethereum-staking-guides/issues/13). <br> *02-06-24* - Updated Erigon config to use the prebuilt binary. <br> *02-06-24* - Removed redundant Erigon prerequisites. <br> *30-05-24* - Updated Besu client to 24.5.2 and fixed broken links in Besu config flags section. <br> *30-05-24* - Updated Besu config to rename X_SNAP to SNAP per [#6405](https://github.com/hyperledger/besu/pull/6405). <br> *30-05-24* - Updated Besu prerequisites to require Java Runtime v21 (headless). <br> *18-05-24* - Added table of contents. <br> *18-05-24* - Increased Ubuntu Server Version to 22.04. <br> See [Change Log Archive](https://github.com/SomerEsat/ethereum-staking-guides/blob/master/ChangeLogArchive.md). |",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<br/>"
+  },
+  {
+    "row": 34,
+    "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+    "originContent": "<br/>",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 출금 자격 증명 업데이트 가이드 ##"
+  },
+  {
+    "row": 36,
+    "rowsha": "yHtpt3QU+in89hRDn2g6C9kLnz+nWsaJlL9Gcje4VOQ=",
+    "originContent": "## Update Withdrawal Credentials Guide ##",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "스테이커는 이 가이드를 사용하여 검증자의 출금 자격 증명을 0x00에서 0x01로 업데이트할 수 있습니다."
+  },
+  {
+    "row": 38,
+    "rowsha": "TbL2cCmAJNv0OwAeMQQnw5tUEJWoaZmV/kRFaPdhFOg=",
+    "originContent": "Stakers may use this guide to update withdrawal credentials on their validator(s) from 0x00 to 0x01.",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| 가이드 | 변경 로그 *(dd-mm-yy)* <img width=450/> |"
+  },
+  {
+    "row": 40,
+    "rowsha": "I2CuP6ERWLfANPg+kwsAFTExYYF73f1fmboRCaw6dhw=",
+    "originContent": "| Guide | Change Log *(dd-mm-yy)* <img width=450/> |",
+    "translatedContent": "| :--------- | :---------- |"
+  },
+  {
+    "row": 41,
+    "rowsha": "VvsCaiKtvJefv2tS40mOx8ITniSi4lkvJLQjtoyaHP0=",
+    "originContent": "| :--------- | :---------- |",
+    "translatedContent": "| [이더리움에서 출금 자격 증명 설정 가이드](https://someresat.medium.com/guide-to-configuring-withdrawal-credentials-on-ethereum-812dce3193a) | <br> *14-04-24* - 목차 추가. <br> *12-11-23* - 여러 깨진 링크 수정. <br> *16-04-23* - 오타 수정 및 제출 및 방송 전 추가 경고 문구 삽입. <br> *13-04-23* - 가독성 향상을 위한 다양한 업데이트. <br> *12-04-23* - 예시 Beaconcha.in 제출 성공 메시지 추가. <br> *11-04-23* - 공개. |"
+  },
+  {
+    "row": 42,
+    "rowsha": "XvhHQCZ/9n4JlgV96Pv7IqvlqmZBIOEp3lLUf46BHXY=",
+    "originContent": "| [Guide to Configuring <br> Withdrawal Credentials <br> on Ethereum](https://someresat.medium.com/guide-to-configuring-withdrawal-credentials-on-ethereum-812dce3193a) | <br> *14-04-24* - Added table of contents. <br> *12-11-23* - Fixed various broken links. <br> *16-04-23* - Fix typo & add extra warning prior to Submit & Broadcast. <br> *13-04-23* - Various updates to improve readability. <br> *12-04-23* - Added example Beaconcha.in submit success message. <br> *11-04-23* - Published. |",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<br/>"
+  },
+  {
+    "row": 44,
+    "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+    "originContent": "<br/>",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 기부 감사드립니다 ##"
+  },
+  {
+    "row": 46,
+    "rowsha": "V1UfFGGDuWE4kfwpwQXfvDoi2U4Ychp5ZllbRg+X5jw=",
+    "originContent": "## Donations Appreciated ##",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Somer.eth (0x32B74B90407309F6637245292cd90347DE658A37)"
+  },
+  {
+    "row": 48,
+    "rowsha": "BBJ3Hgz+vsvEu7PJj9H9ZSH7hxwzEuqqz9V+JLpl9Cg=",
+    "originContent": "Somer.eth (0x32B74B90407309F6637245292cd90347DE658A37)",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<br/>"
+  },
+  {
+    "row": 50,
+    "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+    "originContent": "<br/>",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

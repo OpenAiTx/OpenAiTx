@@ -36,6 +36,11 @@
 ### C.O.R.E: Jouw digitale brein voor het AI-tijdperk
 
 <p align="center">
+    <a href="https://deepwiki.com/RedPlanetHQ/core">
+        <img src="https://deepwiki.com/badge.svg" alt="DeepWiki Badge" />
+    </a>
+</p>
+<p align="center">
     <a href="https://docs.heysol.ai/core/overview"><b>Documentatie</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
 </p>
@@ -45,28 +50,28 @@
 
 **Contextual Observation & Recall Engine**
 
-C.O.R.E is een draagbare geheugen-grafiek opgebouwd uit je llm-interacties en persoonlijke data, waardoor al je context en workflowgeschiedenis toegankelijk wordt voor elke AI-tool, net als een digitaal brein. Dit elimineert de noodzaak om context steeds opnieuw te delen. Het doel is om te voorzien in:
+C.O.R.E is een draagbare geheugen grafiek opgebouwd uit je llm-interacties en persoonlijke data, waardoor al je context en workflowgeschiedenis toegankelijk is voor elk AI-hulpmiddel, net als een digitaal brein. Dit elimineert de noodzaak voor herhaalde contextdeling. Het doel is om te voorzien in:
 
-- **Uniform, Draagbaar Geheugen**: Voeg context naadloos toe en haal het op, en verbind je geheugen tussen apps als Claude, Cursor, Windsurf en meer.
-- **Relationeel, Niet Alleen Platte Feiten**: CORE organiseert je kennis, slaat zowel feiten als relaties op voor een dieper, rijker geheugen zoals een echt brein.
-- **Gebruiker Eigendom**: Jij beslist wat je bewaart, bijwerkt of verwijdert en deelt je geheugen met de tools die jij wilt, zodat je niet vastzit aan één leverancier.
+- **Geünificeerd, Draagbaar Geheugen**: Voeg context toe en haal deze naadloos op, en verbind je geheugen tussen apps zoals Claude, Cursor, Windsurf en meer.
+- **Relationeel, Niet Alleen Losse Feiten**: CORE organiseert je kennis, slaat feiten én relaties op voor een dieper, rijker geheugen, net als een echt brein.
+- **Gebruikerseigendom**: Jij bepaalt wat je bewaart, bijwerkt of verwijdert en deelt je geheugen tussen de tools die je wilt, zodat je niet vastzit aan één leverancier.
 
 ## 🎥 Demo Video
 
-[Bekijk de C.O.R.E Demo](https://youtu.be/iANZ32dnK60)
+[Bekijk C.O.R.E Demo](https://youtu.be/iANZ32dnK60)
 
 <img width="954" height="700" alt="Core dashboard" src="https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694" />
 
 ## 🧩  Belangrijkste Kenmerken
 
-- **Geheugen Grafiek**: Visualiseer hoe je feiten en voorkeuren met elkaar verbonden zijn
+- **Geheugen Grafiek**: Visualiseer hoe jouw feiten en voorkeuren met elkaar verbonden zijn
 - **Chatten met Geheugen**: Stel vragen over het geheugen voor directe inzichten en begrip
-- **Plug n Play**: Gebruik CORE-geheugen direct in apps als Cursor, Claude
+- **Plug n Play**: Gebruik CORE-geheugen direct in apps zoals Cursor, Claude
 
 ## ☁️ C.O.R.E Cloud Installatie
 
-1. Meld je aan bij [Core Cloud](https://core.heysol.ai) en begin met het opbouwen van je geheugen-grafiek.
-2. Voeg je tekst toe die je in het geheugen wilt opslaan. Zodra je op de knop `+ Add` klikt, wordt je geheugen-grafiek gegenereerd.
+1. Meld je aan bij [Core Cloud](https://core.heysol.ai) en begin met het bouwen van je geheugen grafiek.
+2. Voeg je tekst toe die je in het geheugen wilt opslaan. Na het klikken op de knop `+ Add` wordt je geheugengrafiek gegenereerd.
 3. [Verbind Core Memory MCP met Cursor](#connecting-core-mcp-with-cursor)
 
 ## 💻 C.O.R.E Lokale Installatie
@@ -77,13 +82,13 @@ C.O.R.E is een draagbare geheugen-grafiek opgebouwd uit je llm-interacties en pe
 2. OpenAI API Sleutel
 
 
-> **Let op:** We werken actief aan het verbeteren van de ondersteuning voor Llama-modellen. Op dit moment levert C.O.R.E nog geen optimale resultaten met Llama-gebaseerde modellen, maar we boeken vooruitgang om in de nabije toekomst betere compatibiliteit en output te garanderen.
+> **Let op:** We werken actief aan het verbeteren van de ondersteuning voor Llama-modellen. Op dit moment biedt C.O.R.E geen optimale resultaten met Llama-gebaseerde modellen, maar we boeken vooruitgang om betere compatibiliteit en output te garanderen in de nabije toekomst.
 > 
-#### C.O.R.E lokaal uitvoeren
+#### Voer C.O.R.E lokaal uit
 
 1. **Kopieer Omgevingsvariabelen**
 
-   Kopieer het voorbeeldbestand met omgevingsvariabelen naar `.env`:
+   Kopieer het voorbeeld omgevingsbestand naar `.env`:
 
 
    ```bash
@@ -202,6 +207,6 @@ Heb je vragen of feedback? Wij staan klaar om te helpen:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
 
 ---

@@ -33,8 +33,13 @@
     <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logosu" />
   </a>
 
-### C.O.R.E: Yapay Zeka Çağı için dijital beyniniz
+### C.O.R.E: Yapay Zeka çağı için dijital beyniniz
 
+<p align="center">
+    <a href="https://deepwiki.com/RedPlanetHQ/core">
+        <img src="https://deepwiki.com/badge.svg" alt="DeepWiki Rozeti" />
+    </a>
+</p>
 <p align="center">
     <a href="https://docs.heysol.ai/core/overview"><b>Dokümantasyon</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
@@ -43,43 +48,43 @@
 
 ## 🧠 C.O.R.E.
 
-**Bağlamsal Gözlem ve Hatırlama Motoru**
+**Bağlamsal Gözlem & Hatırlama Motoru**
 
-C.O.R.E, llm etkileşimlerinizden ve kişisel verilerinizden oluşturulan taşınabilir bir hafıza grafiğidir; tüm bağlam ve iş akışı geçmişinizi herhangi bir yapay zeka aracına erişilebilir hale getirir, tıpkı dijital bir beyin gibi. Bu, tekrar tekrar bağlam paylaşımı ihtiyacını ortadan kaldırır. Amaç:
+C.O.R.E, llm etkileşimlerinizden ve kişisel verilerinizden oluşturulan taşınabilir bir hafıza grafiğidir. Tüm bağlam ve iş akışı geçmişinizi tıpkı dijital bir beyin gibi herhangi bir yapay zeka aracına erişilebilir hale getirir. Bu, tekrar tekrar bağlam paylaşma ihtiyacını ortadan kaldırır. Amaç şunları sağlamaktır:
 
-- **Birleşik, Taşınabilir Hafıza**: Bağlamı sorunsuzca ekleyin ve hatırlayın; hafızanızı Claude, Cursor, Windsurf ve daha fazlası gibi uygulamalar arasında bağlayın.
-- **İlişkisel, Sadece Düz Gerçekler Değil**: CORE bilginizi düzenler, hem gerçekleri hem de ilişkileri saklar; tıpkı gerçek bir beyin gibi daha derin ve zengin bir hafıza sağlar.
-- **Kullanıcıya Ait**: Ne tutacağınıza, güncelleyeceğinize veya sileceğinize siz karar verirsiniz; hafızanızı istediğiniz araçta paylaşın ve tedarikçi bağımlılığından kurtulun.
+- **Birleşik, Taşınabilir Hafıza**: Bağlamı sorunsuzca ekleyin ve hatırlayın, hafızanızı Claude, Cursor, Windsurf ve daha birçok uygulamada birbirine bağlayın.
+- **İlişkisel, Sadece Düz Gerçekler Değil**: CORE, bilginizi düzenler, hem gerçekleri hem de ilişkileri saklar ve gerçek bir beyin gibi daha derin, zengin bir hafıza sunar.
+- **Kullanıcıya Ait**: Ne saklayacağınıza, güncelleyeceğinize veya sileceğinize siz karar verirsiniz ve hafızanızı istediğiniz araca aktarabilir, tedarikçi kilidinden kurtulursunuz.
 
-## 🎥 Demo Video
+## 🎥 Tanıtım Videosu
 
-[C.O.R.E Demo'yu İzleyin](https://youtu.be/iANZ32dnK60)
+[C.O.R.E Demo’yu İzleyin](https://youtu.be/iANZ32dnK60)
 
 <img width="954" height="700" alt="Core kontrol paneli" src="https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694" />
 
 ## 🧩  Temel Özellikler
 
-- **Hafıza Grafiği**: Gerçeklerinizin ve tercihlerinizi nasıl birbirine bağlandığını görselleştirin
-- **Hafıza ile Sohbet**: Hafızanız hakkında sorular sorun, anında içgörü ve anlayış kazanın
-- **Tak-Çalıştır**: CORE hafızasını anında Cursor, Claude gibi uygulamalarda kullanın
+- **Hafıza Grafiği**: Gerçeklerinizin ve tercihlerin birbirine nasıl bağlandığını görselleştirin
+- **Hafıza ile Sohbet**: Anında içgörü ve anlayış için hafıza hakkında sorular sorun
+- **Tak-Çalıştır**: CORE hafızasını Cursor, Claude gibi uygulamalarda anında kullanın
 
 ## ☁️ C.O.R.E Bulut Kurulumu
 
-1. [Core Cloud](https://core.heysol.ai)'a kaydolun ve hafıza grafiğinizi oluşturmaya başlayın.
-2. Hafızada saklamak istediğiniz metni ekleyin. `+ Ekle` butonuna tıkladığınızda hafıza grafiğiniz oluşturulacaktır.
-3. [Core Memory MCP'yi Cursor ile Bağlayın](#connecting-core-mcp-with-cursor)
+1. [Core Cloud](https://core.heysol.ai) adresine kaydolun ve hafıza grafiğinizi oluşturmaya başlayın.
+2. Hafızada saklamak istediğiniz metni ekleyin. `+ Ekle` butonuna tıkladıktan sonra hafıza grafiğiniz oluşturulacaktır.
+3. [Core Memory MCP’yi Cursor ile Bağlayın](#connecting-core-mcp-with-cursor)
 
 ## 💻 C.O.R.E Yerel Kurulum
 
-#### Ön Koşullar
+#### Önkoşullar
 
 1. Docker
 2. OpenAI API Anahtarı
 
 
-> **Not:** Llama modelleri için desteği geliştirmek için aktif olarak çalışıyoruz. Şu anda, C.O.R.E Llama tabanlı modellerle en iyi sonucu vermemektedir, ancak yakın gelecekte daha iyi uyumluluk ve çıktı için ilerleme kaydediyoruz.
+> **Not:** Llama modelleri için desteği geliştirmek için aktif olarak çalışıyoruz. Şu anda, C.O.R.E Llama tabanlı modeller ile en iyi sonuçları vermemektedir, ancak yakın gelecekte daha iyi uyumluluk ve çıktı sağlamak için ilerleme kaydediyoruz.
 > 
-#### C.O.R.E'yi yerel olarak çalıştırın
+#### C.O.R.E’u yerelde çalıştırın
 
 1. **Ortam Değişkenlerini Kopyalayın**
 
@@ -202,6 +207,6 @@ Sorularınız veya geri bildiriminiz mi var? Yardımcı olmak için buradayız:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
 
 ---

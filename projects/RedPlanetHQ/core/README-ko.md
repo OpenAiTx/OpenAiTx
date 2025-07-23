@@ -30,11 +30,16 @@
 
 <div align="center">
   <a href="https://core.heysol.ai">
-    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logo" />
+    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE 로고" />
   </a>
 
-### C.O.R.E: AI 시대를 위한 당신의 디지털 두뇌
+### C.O.R.E: AI 시대를 위한 당신의 디지털 브레인
 
+<p align="center">
+    <a href="https://deepwiki.com/RedPlanetHQ/core">
+        <img src="https://deepwiki.com/badge.svg" alt="DeepWiki 배지" />
+    </a>
+</p>
 <p align="center">
     <a href="https://docs.heysol.ai/core/overview"><b>문서</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>디스코드</b></a>
@@ -45,31 +50,31 @@
 
 **Contextual Observation & Recall Engine**
 
-C.O.R.E는 당신의 LLM 상호작용 및 개인 데이터를 기반으로 구축된 휴대형 메모리 그래프로, 모든 컨텍스트와 작업 이력에 어떤 AI 툴에서도 접근할 수 있게 해줍니다. 이는 반복적인 컨텍스트 공유의 필요성을 없앱니다. 목표는 다음과 같습니다:
+C.O.R.E는 llm 상호작용 및 개인 데이터로부터 구축된 휴대용 메모리 그래프로, 모든 컨텍스트와 워크플로우 이력을 AI 도구에서 언제든지 접근할 수 있도록 해줍니다. 디지털 브레인처럼 반복적으로 컨텍스트를 공유할 필요가 없어집니다. 주요 목표는 다음과 같습니다:
 
-- **통합형, 휴대용 메모리**: 컨텍스트를 원활하게 추가·조회하고, Claude, Cursor, Windsurf 등 다양한 앱에서 메모리를 연결하세요.
-- **관계형, 단순한 사실 이상의 기억**: CORE는 당신의 지식을 조직하여 사실과 관계 모두를 저장함으로써 진짜 두뇌처럼 더 깊고 풍부한 기억을 제공합니다.
-- **사용자 소유권**: 무엇을 보관·수정·삭제할지 결정하고, 원하는 도구에서 메모리를 공유하며 벤더 종속에서 벗어나세요.
+- **통합된 휴대용 메모리**: 컨텍스트를 원활하게 추가하고 불러오며, Claude, Cursor, Windsurf 등 다양한 앱에서 메모리를 연결할 수 있습니다.
+- **관계형, 단순한 사실 이상의 정보**: CORE는 지식을 조직적으로 저장하여, 사실뿐 아니라 관계까지 보관해 실제 뇌와 같은 깊고 풍부한 메모리를 제공합니다.
+- **사용자 소유**: 무엇을 저장, 갱신, 삭제할지 사용자가 직접 결정하며, 원하는 도구에서 메모리를 공유하고 벤더 종속에서 벗어날 수 있습니다.
 
 ## 🎥 데모 영상
 
-[C.O.R.E 데모 보기](https://youtu.be/iANZ32dnK60)
+[C.O.R.E 데모 확인](https://youtu.be/iANZ32dnK60)
 
-<img width="954" height="700" alt="Core dashboard" src="https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694" />
+<img width="954" height="700" alt="Core 대시보드" src="https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694" />
 
 ## 🧩  주요 기능
 
-- **메모리 그래프**: 사실과 선호도가 어떻게 연결되는지 시각화
-- **메모리와 대화하기**: 메모리에 대해 질문하여 즉각적인 인사이트와 이해 얻기
+- **메모리 그래프**: 당신의 사실과 선호도가 어떻게 연결되는지 시각화
+- **메모리와 대화**: 메모리에 대해 질문하여 즉각적으로 인사이트와 이해 제공
 - **플러그 앤 플레이**: Cursor, Claude 등 앱에서 CORE 메모리를 즉시 사용
 
 ## ☁️ C.O.R.E 클라우드 설정
 
-1. [Core Cloud](https://core.heysol.ai)에 가입하고 메모리 그래프를 구축하세요.
-2. 메모리에 저장하고 싶은 텍스트를 추가하세요. `+ Add` 버튼을 클릭하면 메모리 그래프가 생성됩니다.
-3. [Cursor와 Core Memory MCP 연결](#connecting-core-mcp-with-cursor)
+1. [Core Cloud](https://core.heysol.ai)에 가입하고 당신만의 메모리 그래프를 구축하세요.
+2. 저장하고 싶은 텍스트를 추가합니다. `+ Add` 버튼을 클릭하면 메모리 그래프가 생성됩니다.
+3. [Core Memory MCP를 Cursor와 연결하기](#connecting-core-mcp-with-cursor)
 
-## 💻 C.O.R.E 로컬 설정
+## 💻 C.O.R.E 로컬 설치
 
 #### 사전 준비 사항
 
@@ -77,13 +82,13 @@ C.O.R.E는 당신의 LLM 상호작용 및 개인 데이터를 기반으로 구�
 2. OpenAI API 키
 
 
-> **참고:** 우리는 Llama 모델 지원 개선을 위해 활발히 작업 중입니다. 현재 C.O.R.E는 Llama 기반 모델에서 최적의 결과를 제공하지 않지만, 곧 더 나은 호환성과 출력을 위해 노력하고 있습니다.
+> **참고:** 현재 Llama 모델 지원 개선을 위해 활발히 작업 중입니다. 현재로서는 C.O.R.E가 Llama 기반 모델에서 최적의 결과를 제공하지 않으나, 곧 더 나은 호환성과 출력 결과를 제공할 수 있도록 노력 중입니다.
 > 
 #### C.O.R.E를 로컬에서 실행하기
 
 1. **환경 변수 복사**
 
-   예시 환경 파일을 `.env`로 복사하세요:
+   예시 환경 파일을 `.env`로 복사합니다:
 
 
    ```bash
@@ -202,6 +207,6 @@ CORE를 최대한 활용하기 위해 문서를 탐색하세요
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
 
 ---

@@ -36,6 +36,11 @@
 ### C.O.R.E: Your digital brain for the AI era
 
 <p align="center">
+    <a href="https://deepwiki.com/RedPlanetHQ/core">
+        <img src="https://deepwiki.com/badge.svg" alt="DeepWiki Badge" />
+    </a>
+</p>
+<p align="center">
     <a href="https://docs.heysol.ai/core/overview"><b>Documentation</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
 </p>
@@ -45,7 +50,7 @@
 
 **Contextual Observation & Recall Engine**
 
-C.O.R.E is a portable memory graph built from your llm interactions and personal data, making all your context and workflow history accessible to any AI tool, just like a digital brain. This eliminates the need for repeated context sharing . The aim is to provide:
+C.O.R.E is a portable memory graph built from your LLM interactions and personal data, making all your context and workflow history accessible to any AI tool, just like a digital brain. This eliminates the need for repeated context sharing. The aim is to provide:
 
 - **Unified, Portable Memory**: Add and recall context seamlessly, and connect your memory across apps like Claude, Cursor, Windsurf and more.
 - **Relational, Not just Flat Facts**: CORE organizes your knowledge, storing both facts and relationships for a deeper richer memory like a real brain.
@@ -202,6 +207,6 @@ Have questions or feedback? We're here to help:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
 
 ---
