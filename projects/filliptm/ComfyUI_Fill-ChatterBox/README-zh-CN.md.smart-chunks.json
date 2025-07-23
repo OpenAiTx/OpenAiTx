@@ -1,115 +1,301 @@
 [
   {
     "Id": 1,
-    "Content": "# ComfyUI_Fill-ChatterBox\n\nIf you enjoy this project, consider supporting me on Patreon!\n<p align=\"left\">\n  <a href=\"https://www.patreon.com/c/Machinedelusions\">\n    <img src=\"https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/assets/Patreon.png\" width=\"150px\" alt=\"Patreon\">\n  </a>\n</p>\n\nA custom node extension for ComfyUI that adds text-to-speech (TTS) and voice conversion (VC) capabilities using the Chatterbox library.\nSupports a MAXIMUM of 40 seconds. Iv tried removing this limitation, but the model falls apart really badly with anything longer than that, so it remains.\n\n![ChatterBox Example](https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/web/image.png)\n\n## Installation\n\n1. Clone this repository into your ComfyUI custom_nodes directory:",
-    "ContentSha": "dBSlkEvJbyUuvCbKqN9AunCZHQEmmd5L541K0YyzAhY=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# ComfyUI_Fill-ChatterBox\n\nIf you enjoy this project, consider supporting me on Patreon!\n<p align=\"left\">\n  <a href=\"https://www.patreon.com/c/Machinedelusions\">\n    <img src=\"https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/assets/Patreon.png\" width=\"150px\" alt=\"Patreon\">\n  </a>\n</p>\n\nA custom node extension for ComfyUI that adds text-to-speech (TTS) and voice conversion (VC) capabilities using the Chatterbox library.\nSupports a MAXIMUM of 40 seconds. Iv tried removing this limitation, but the model falls apart really badly with anything longer than that, so it remains.\n\n![ChatterBox Example](https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/web/image.png)\n\n## Installation\n\n1. Clone this repository into your ComfyUI custom_nodes directory:",
+    "ContentSha": "Pjmu25du0KrMuPYWd3LWcN4WyQ5RAmf85xh8mPVqhHA=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "<translate-content># ComfyUI_Fill-ChatterBox\n\n如果您喜欢这个项目，考虑在 Patreon 上支持我！\n<p align=\"left\">\n  <a href=\"https://www.patreon.com/c/Machinedelusions\">\n    <img src=\"https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/assets/Patreon.png\" width=\"150px\" alt=\"Patreon\">\n  </a>\n</p>\n\n这是一个为 ComfyUI 定制的节点扩展，使用 Chatterbox 库添加文本转语音（TTS）和语音转换（VC）功能。\n支持最长 40 秒。我尝试过取消这个限制，但模型在超过该时长时表现非常糟糕，所以限制依旧存在。\n\n![ChatterBox 示例](https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/web/image.png)\n\n## 安装\n\n1. 将本仓库克隆到您的 ComfyUI custom_nodes 目录：",
+    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 语言</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# ComfyUI_Fill-ChatterBox\n\n如果你喜欢这个项目，欢迎在 Patreon 上支持我！\n<p align=\"left\">\n  <a href=\"https://www.patreon.com/c/Machinedelusions\">\n    <img src=\"https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/assets/Patreon.png\" width=\"150px\" alt=\"Patreon\">\n  </a>\n</p>\n\n这是一个为 ComfyUI 提供自定义节点扩展的插件，利用 Chatterbox 库增加了文本转语音（TTS）和语音转换（VC）功能。\n最长支持 40 秒。我曾尝试移除此限制，但模型在更长音频时表现非常差，所以目前仍然保留此限制。\n\n![ChatterBox 示例](https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/web/image.png)\n\n## 安装\n\n1. 将本仓库克隆到你的 ComfyUI custom_nodes 目录下：\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "WXPD90VJi8akPy8cwqK8ROdDsGGOF2zbtWqUQfXMUeE=",
-        "originContent": "# ComfyUI_Fill-ChatterBox",
-        "translatedContent": "<translate-content># ComfyUI_Fill-ChatterBox"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"right\">"
       },
       {
         "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "  <details>"
       },
       {
         "row": 3,
-        "rowsha": "qRz+qfUSfheV5cwlrrF+hozo7Q4uHYsK9oRPMpNeO5E=",
-        "originContent": "If you enjoy this project, consider supporting me on Patreon!",
-        "translatedContent": "如果您喜欢这个项目，考虑在 Patreon 上支持我！"
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "    <summary >🌐 语言</summary>"
       },
       {
         "row": 4,
-        "rowsha": "Auk82msJHqE5J2c5SY+1beHllILKnmlMZAJCApM2R0k=",
-        "originContent": "<p align=\"left\">",
-        "translatedContent": "<p align=\"left\">"
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <div>"
       },
       {
         "row": 5,
-        "rowsha": "B4vSst9ejByz6TRKJPuF5U20Ab75vZH1+i8jaUllpF0=",
-        "originContent": "  <a href=\"https://www.patreon.com/c/Machinedelusions\">",
-        "translatedContent": "  <a href=\"https://www.patreon.com/c/Machinedelusions\">"
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "      <div align=\"center\">"
       },
       {
         "row": 6,
-        "rowsha": "sYATDarmsu7M57zL4L8kEpKl8iR4HIChWsB65Y1H2S4=",
-        "originContent": "    <img src=\"https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/assets/Patreon.png\" width=\"150px\" alt=\"Patreon\">",
-        "translatedContent": "    <img src=\"https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/assets/Patreon.png\" width=\"150px\" alt=\"Patreon\">"
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=en\">English</a>"
       },
       {
         "row": 7,
-        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
-        "originContent": "  </a>",
-        "translatedContent": "  </a>"
+        "rowsha": "+y5SdwTWTpWfW/F5pNh6aODzkvpesvpnmBcQN8Cmwds=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=en\">English</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=zh-CN\">简体中文</a>"
       },
       {
         "row": 8,
-        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
-        "originContent": "</p>",
-        "translatedContent": "</p>"
+        "rowsha": "Lm/LwOquHJdkrPxlfeljbaWobybC+onW8+7/CSWkMz0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=zh-TW\">繁體中文</a>"
       },
       {
         "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "m25aYhoLDn8U2CrU7jfy+myYbKMliZMSxdiaIg7JAzY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=ja\">日本語</a>"
       },
       {
         "row": 10,
-        "rowsha": "qIHjrUkhMVXM6nah1vn89aj9b6U/SEQOe1zMUR3zqGY=",
-        "originContent": "A custom node extension for ComfyUI that adds text-to-speech (TTS) and voice conversion (VC) capabilities using the Chatterbox library.",
-        "translatedContent": "这是一个为 ComfyUI 定制的节点扩展，使用 Chatterbox 库添加文本转语音（TTS）和语音转换（VC）功能。"
+        "rowsha": "g23EOi/kNC78QKVOeBtrqNHodUqQWDMwuyxnpVAfTpU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=ko\">한국어</a>"
       },
       {
         "row": 11,
-        "rowsha": "QexQLOId2YlrEfFW7nUVxIt2eYz2gGVqyEe6Z0gG280=",
-        "originContent": "Supports a MAXIMUM of 40 seconds. Iv tried removing this limitation, but the model falls apart really badly with anything longer than that, so it remains.",
-        "translatedContent": "支持最长 40 秒。我尝试过取消这个限制，但模型在超过该时长时表现非常糟糕，所以限制依旧存在。"
+        "rowsha": "brrA10LIhSQXxPwFagT6plJHb1JeaRMeYhTE8J6mlKk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=hi\">हिन्दी</a>"
       },
       {
         "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "qKG6II7eagXbD/Sq/nKzCETIWf3VPzNkJ2DaO8Adz38=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=th\">ไทย</a>"
       },
       {
         "row": 13,
-        "rowsha": "1jmwBaKBOwb2bOqidRkI+v48ssPsFUnmseT+yuj0ctQ=",
-        "originContent": "![ChatterBox Example](https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/web/image.png)",
-        "translatedContent": "![ChatterBox 示例](https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/web/image.png)"
+        "rowsha": "nF0GtFQ6gEMj8nR2oaqfm+l+FNMgoW5ZHLM8EeWFHbY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=fr\">Français</a>"
       },
       {
         "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "1QFbnWLMwbM2aV6NEPvehi8+2KmbOthVP2AvCws1XL4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=de\">Deutsch</a>"
       },
       {
         "row": 15,
-        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
-        "originContent": "## Installation",
-        "translatedContent": "## 安装"
+        "rowsha": "TCXFwMyhwOCey0Y8tRXm4u4/c7+Xh0FZqk6A4Wq6WJ8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=es\">Español</a>"
       },
       {
         "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "BjDLXRvGiudnwwKe/w/9PqQFsAmBXr2KctfWPfIvl9w=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=it\">Italiano</a>"
       },
       {
         "row": 17,
+        "rowsha": "ps/S9szzCWYjlcMbaxpC1r2R+B+u/gAKHDnobqD9BAc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "TLFyo2ioWurb+AjKUbsWnSrQYRfzFyqgzqG4eC2t/+o=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=pt\">Português</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "040sTfessbbe9VE1EUcZjtU4GKtGvsoWvb7Cvj3zXQo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "iyhI1R4j62Zg3sC60+imX++gF4csDttnrhP9zvHFPEk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "N9oVuve5hNxeiAHHYQYxQ77mImBAOSEDzTly5nxEwJE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "eoElZV172V2IW1cs7YlRy9plcVxBRZ2VIHpXZ/dpQaM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "GtVnlfLRKK0m3vIzPAZHDQFFgnjJEcG6DDQskmK8jH4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "VC//16OqzKGLPBILVi1sIyVRmUxlyRdWOGvHNJ6jXw0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "cplFkHRZpYwpDxeiTNxyexAWpxOx0445Y8bMB8eUHus=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "HrUqQo/d1K1WTpt5kHEw45KoK4XRJe+SZgvJpF4IzBY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=filliptm&project=ComfyUI_Fill-ChatterBox&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 27,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 28,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 29,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# ComfyUI_Fill-ChatterBox"
+      },
+      {
+        "row": 32,
+        "rowsha": "WXPD90VJi8akPy8cwqK8ROdDsGGOF2zbtWqUQfXMUeE=",
+        "originContent": "# ComfyUI_Fill-ChatterBox",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "如果你喜欢这个项目，欢迎在 Patreon 上支持我！"
+      },
+      {
+        "row": 34,
+        "rowsha": "qRz+qfUSfheV5cwlrrF+hozo7Q4uHYsK9oRPMpNeO5E=",
+        "originContent": "If you enjoy this project, consider supporting me on Patreon!",
+        "translatedContent": "<p align=\"left\">"
+      },
+      {
+        "row": 35,
+        "rowsha": "Auk82msJHqE5J2c5SY+1beHllILKnmlMZAJCApM2R0k=",
+        "originContent": "<p align=\"left\">",
+        "translatedContent": "  <a href=\"https://www.patreon.com/c/Machinedelusions\">"
+      },
+      {
+        "row": 36,
+        "rowsha": "B4vSst9ejByz6TRKJPuF5U20Ab75vZH1+i8jaUllpF0=",
+        "originContent": "  <a href=\"https://www.patreon.com/c/Machinedelusions\">",
+        "translatedContent": "    <img src=\"https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/assets/Patreon.png\" width=\"150px\" alt=\"Patreon\">"
+      },
+      {
+        "row": 37,
+        "rowsha": "sYATDarmsu7M57zL4L8kEpKl8iR4HIChWsB65Y1H2S4=",
+        "originContent": "    <img src=\"https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/assets/Patreon.png\" width=\"150px\" alt=\"Patreon\">",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 38,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 39,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "这是一个为 ComfyUI 提供自定义节点扩展的插件，利用 Chatterbox 库增加了文本转语音（TTS）和语音转换（VC）功能。"
+      },
+      {
+        "row": 41,
+        "rowsha": "qIHjrUkhMVXM6nah1vn89aj9b6U/SEQOe1zMUR3zqGY=",
+        "originContent": "A custom node extension for ComfyUI that adds text-to-speech (TTS) and voice conversion (VC) capabilities using the Chatterbox library.",
+        "translatedContent": "最长支持 40 秒。我曾尝试移除此限制，但模型在更长音频时表现非常差，所以目前仍然保留此限制。"
+      },
+      {
+        "row": 42,
+        "rowsha": "QexQLOId2YlrEfFW7nUVxIt2eYz2gGVqyEe6Z0gG280=",
+        "originContent": "Supports a MAXIMUM of 40 seconds. Iv tried removing this limitation, but the model falls apart really badly with anything longer than that, so it remains.",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![ChatterBox 示例](https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/web/image.png)"
+      },
+      {
+        "row": 44,
+        "rowsha": "1jmwBaKBOwb2bOqidRkI+v48ssPsFUnmseT+yuj0ctQ=",
+        "originContent": "![ChatterBox Example](https://raw.githubusercontent.com/filliptm/ComfyUI_Fill-ChatterBox/main/web/image.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 安装"
+      },
+      {
+        "row": 46,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 将本仓库克隆到你的 ComfyUI custom_nodes 目录下："
+      },
+      {
+        "row": 48,
         "rowsha": "IuGZ6YSc4ROu9O+SsZdKwwiBdbdGKA5zky97mIaufK0=",
         "originContent": "1. Clone this repository into your ComfyUI custom_nodes directory:",
-        "translatedContent": "1. 将本仓库克隆到您的 ComfyUI custom_nodes 目录："
+        "translatedContent": ""
       }
     ],
     "IsCodeBlock": false
@@ -123,32 +309,7 @@
     "EndLine": 0,
     "Translation": "   ```bash\n   cd /path/to/ComfyUI/custom_nodes\n   git clone https://github.com/filliptm/ComfyUI_Fill-ChatterBox.git\n   ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
-        "originContent": "   ```bash",
-        "translatedContent": "   ```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "ca24MC7Gs136N1CrqEHk3noaZqdIhhxetgpmYOVgvAI=",
-        "originContent": "   cd /path/to/ComfyUI/custom_nodes",
-        "translatedContent": "   cd /path/to/ComfyUI/custom_nodes"
-      },
-      {
-        "row": 3,
-        "rowsha": "4iLPuVFhroSF0eDKJA+ikYNcpduz1ZaZKbJ67fq20l8=",
-        "originContent": "   git clone https://github.com/filliptm/ComfyUI_Fill-ChatterBox.git",
-        "translatedContent": "   git clone https://github.com/filliptm/ComfyUI_Fill-ChatterBox.git"
-      },
-      {
-        "row": 4,
-        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
-        "originContent": "   ```",
-        "translatedContent": "   ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -160,20 +321,7 @@
     "EndLine": 0,
     "Translation": "2. 安装基础依赖项：\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "2. 安装基础依赖项："
-      },
-      {
-        "row": 2,
-        "rowsha": "mDSn2pSiILsr1+EvNKEUeRZgMGbGq1tlehckH4W20lo=",
-        "originContent": "2. Install the base dependencies:",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -185,26 +333,7 @@
     "EndLine": 0,
     "Translation": "   ```bash\n   pip install -r ComfyUI_Fill-ChatterBox/requirements.txt\n   ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
-        "originContent": "   ```bash",
-        "translatedContent": "   ```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "6nksGJep55vDh54SfHCQ4t9f0OP2zc4owvrTR3zx3Hw=",
-        "originContent": "   pip install -r ComfyUI_Fill-ChatterBox/requirements.txt",
-        "translatedContent": "   pip install -r ComfyUI_Fill-ChatterBox/requirements.txt"
-      },
-      {
-        "row": 3,
-        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
-        "originContent": "   ```",
-        "translatedContent": "   ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -216,20 +345,7 @@
     "EndLine": 0,
     "Translation": "3.（可选）安装水印支持：\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "3.（可选）安装水印支持："
-      },
-      {
-        "row": 2,
-        "rowsha": "hMCZq5HJBvY2vNcMpN5Tv8lv3+IguXueYlm5D+tom1Y=",
-        "originContent": "3. (Optional) Install watermarking support:",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -241,26 +357,7 @@
     "EndLine": 0,
     "Translation": "   ```bash\n   pip install resemble-perth\n   ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
-        "originContent": "   ```bash",
-        "translatedContent": "   ```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "YUieExLRnw5KQH0Md9SJpTaHw9kXGVpHzbkHvNUl67Y=",
-        "originContent": "   pip install resemble-perth",
-        "translatedContent": "   pip install resemble-perth"
-      },
-      {
-        "row": 3,
-        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
-        "originContent": "   ```",
-        "translatedContent": "   ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -272,188 +369,7 @@
     "EndLine": 0,
     "Translation": "<translate-content>   **注意**：`resemble-perth` 包可能与 Python 3.12+ 存在兼容性问题。若遇到导入错误，节点仍可正常工作，但不带水印。\n\n\n## 使用说明\n\n### 文本转语音节点（FL Chatterbox TTS）\n- 将“FL Chatterbox TTS”节点添加到工作流中\n- 配置文本输入和参数（夸张度、cfg_weight、温度）\n- 可选提供音频提示以进行语音克隆\n\n### 语音转换节点（FL Chatterbox VC）\n- 将“FL Chatterbox VC”节点添加到工作流中\n- 连接输入音频和目标语音\n- 两个节点均支持在发生 CUDA 错误时回退到 CPU\n\n## 更新日志\n\n### 2025年6月24日\n- 为 TTS 和 VC 节点添加了种子参数以实现可复现生成\n- 种子范围：0 到 4,294,967,295（32位整数）\n- 支持调试和工作流控制时生成一致的音频输出\n- 将 Perth 水印设为可选，修复了 Python 3.12+ 兼容性问题\n- 若 resemble-perth 导入失败，节点将无水印运行\n\n### 2025年5月31日\n- 添加了持久化模型加载和加载条功能\n- 添加了 Mac 支持（需测试，欢迎联系）\n- 移除了 chatterbox-tts 库，改用原生推理代码实现。\n</translate-content>\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "sx+JKHRqWSIaqYXECQWYXDQK/RZvXNSm/QfkApJE+gU=",
-        "originContent": "   **Note**: The `resemble-perth` package may have compatibility issues with Python 3.12+. If you encounter import errors, the nodes will still function without watermarking.",
-        "translatedContent": "<translate-content>   **注意**：`resemble-perth` 包可能与 Python 3.12+ 存在兼容性问题。若遇到导入错误，节点仍可正常工作，但不带水印。"
-      },
-      {
-        "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
-        "originContent": "## Usage",
-        "translatedContent": "## 使用说明"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "f8Yfr8+j0QEIcCFIlrRGl8QLpoHc7Xl2cv6L1026fuE=",
-        "originContent": "### Text-to-Speech Node (FL Chatterbox TTS)",
-        "translatedContent": "### 文本转语音节点（FL Chatterbox TTS）"
-      },
-      {
-        "row": 7,
-        "rowsha": "Qd/OxygpXiqLTLFMWFdaWibDqUOiuMYsK65egE64kos=",
-        "originContent": "- Add the \"FL Chatterbox TTS\" node to your workflow",
-        "translatedContent": "- 将“FL Chatterbox TTS”节点添加到工作流中"
-      },
-      {
-        "row": 8,
-        "rowsha": "AqENcYNMSIgs4rHw4o6Rl4mt/fB5cG/GyPkqenIV+KI=",
-        "originContent": "- Configure text input and parameters (exaggeration, cfg_weight, temperature)",
-        "translatedContent": "- 配置文本输入和参数（夸张度、cfg_weight、温度）"
-      },
-      {
-        "row": 9,
-        "rowsha": "8JvzthjXI3hcPTyelvmXenuKRnjYNBmamS7M0av0dZA=",
-        "originContent": "- Optionally provide an audio prompt for voice cloning",
-        "translatedContent": "- 可选提供音频提示以进行语音克隆"
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "B7s0LDdV4NyuxLPHXXI7/KZqPPn0FK7zPM5q9ylILD4=",
-        "originContent": "### Voice Conversion Node (FL Chatterbox VC)",
-        "translatedContent": "### 语音转换节点（FL Chatterbox VC）"
-      },
-      {
-        "row": 12,
-        "rowsha": "ER5X+WU1PrFjYfjajm2NkJdgPolX53xiYH9bIflrNCc=",
-        "originContent": "- Add the \"FL Chatterbox VC\" node to your workflow",
-        "translatedContent": "- 将“FL Chatterbox VC”节点添加到工作流中"
-      },
-      {
-        "row": 13,
-        "rowsha": "WR9K0SxLfLYkAxPuCUAJgCW7Py+Cwy4kSj0/CR/Kk2E=",
-        "originContent": "- Connect input audio and target voice",
-        "translatedContent": "- 连接输入音频和目标语音"
-      },
-      {
-        "row": 14,
-        "rowsha": "IRZX8RR8M535VQzRJ29cy3uOqCIix9ID2tDIgC7klhQ=",
-        "originContent": "- Both nodes support CPU fallback if CUDA errors occur",
-        "translatedContent": "- 两个节点均支持在发生 CUDA 错误时回退到 CPU"
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 16,
-        "rowsha": "Yy1L+liWEPiygBFNsm9+4WmZQmi0NpcYvH+ZHWiB74A=",
-        "originContent": "## Change Log",
-        "translatedContent": "## 更新日志"
-      },
-      {
-        "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 18,
-        "rowsha": "nXTFL1jU4r5Y2G3rJOXKxEWhlGKI8pbVCeMi6VGDfMk=",
-        "originContent": "### 6/24/2025",
-        "translatedContent": "### 2025年6月24日"
-      },
-      {
-        "row": 19,
-        "rowsha": "gmnqXz9KxwsWpejnUjjecI3a0rRmgx+lLlnNczBKxHk=",
-        "originContent": "- Added seed parameter to both TTS and VC nodes for reproducible generation",
-        "translatedContent": "- 为 TTS 和 VC 节点添加了种子参数以实现可复现生成"
-      },
-      {
-        "row": 20,
-        "rowsha": "hYIWPSuhpMNVOE4VqM9r9Y0DKqvn2u2D61wuz284Im8=",
-        "originContent": "- Seed range: 0 to 4,294,967,295 (32-bit integer)",
-        "translatedContent": "- 种子范围：0 到 4,294,967,295（32位整数）"
-      },
-      {
-        "row": 21,
-        "rowsha": "kylU+FV1HXlotxzZM3h2tg1hueiuEim/GQHytklRY8Y=",
-        "originContent": "- Enables consistent audio output for debugging and workflow control",
-        "translatedContent": "- 支持调试和工作流控制时生成一致的音频输出"
-      },
-      {
-        "row": 22,
-        "rowsha": "QRx/bVgdc0ktyUp4PH9cxCV7If757Mthf4q9E0npDLU=",
-        "originContent": "- Made Perth watermarking optional to fix Python 3.12+ compatibility issues",
-        "translatedContent": "- 将 Perth 水印设为可选，修复了 Python 3.12+ 兼容性问题"
-      },
-      {
-        "row": 23,
-        "rowsha": "6QbvexiqC8ZtIVOrGItTthm0LZDCwzIX+pQA+/2zbt0=",
-        "originContent": "- Nodes now function without watermarking if resemble-perth import fails",
-        "translatedContent": "- 若 resemble-perth 导入失败，节点将无水印运行"
-      },
-      {
-        "row": 24,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 25,
-        "rowsha": "ZIc3W5rnLqRhIimCnVxpyaFxY8NS4S7zXZVqs3LFfH0=",
-        "originContent": "### 5/31/2025",
-        "translatedContent": "### 2025年5月31日"
-      },
-      {
-        "row": 26,
-        "rowsha": "D1Mx8kubMbaKy9qVos7FRp8cJ2gwA620xz/z2tmUimk=",
-        "originContent": "- Added Persistent model loading, and loading bar functionality",
-        "translatedContent": "- 添加了持久化模型加载和加载条功能"
-      },
-      {
-        "row": 27,
-        "rowsha": "DHQqwmIiCZRkq9JFvmm1qQV+yQOJMdNtVup4IMYQDrw=",
-        "originContent": "- Added Mac support (needs to be tested so HMU)",
-        "translatedContent": "- 添加了 Mac 支持（需测试，欢迎联系）"
-      },
-      {
-        "row": 28,
-        "rowsha": "Yk+lMl65VGla3xMxxJh1FQk08t/tEfTgTgGXLUSz0s4=",
-        "originContent": "- removed the chatterbox-tts library and implemented native inference code.",
-        "translatedContent": "- 移除了 chatterbox-tts 库，改用原生推理代码实现。"
-      },
-      {
-        "row": 29,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "</translate-content>"
-      },
-      {
-        "row": 30,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]

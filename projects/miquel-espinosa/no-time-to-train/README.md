@@ -39,17 +39,19 @@
 
 **State-of-the-art (Papers with Code)**
 
-[**_1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
+[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
-[**_10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
+[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
 
-[**_30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
+[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
 
 </div>
 
 ---
 
-> 🔔 **Update (July 2025):** Code has been updated with instructions!
+> 🚨 **Update (22nd July 2025):** Instructions for custom datasets have been added!
+> 
+> 🔔 **Update (16th July 2025):** Code has been updated with instructions!
 
 ---
 
@@ -70,7 +72,13 @@
   - [2. Post-process memory bank](#2-post-process-memory-bank)
   - [3. Inference on target images](#3-inference-on-target-images)
   - [Results](#results)
-- [🔍 Citation](#-citation)
+- [🔍 Custom dataset](#-custom-dataset)
+  - [0. Prepare a custom dataset ⛵🐦](#0-prepare-a-custom-dataset)
+  - [0.1 If only bbox annotations are available](#01-if-only-bbox-annotations-are-available)
+  - [0.2 Convert coco annotations to pickle file](#02-convert-coco-annotations-to-pickle-file)
+  - [1. Fill memory with references](#1-fill-memory-with-references)
+  - [2. Post-process memory bank](#2-post-process-memory-bank)
+- [📚 Citation](#-citation)
 
 
 ## 🎯 Highlights
@@ -150,7 +158,7 @@ cd ../..
 Define useful variables and create a folder for results:
 
 ```bash
-CONFIG=./dev_hongyi/new_exps/coco_fewshot_10shot_Sam2L.yaml
+CONFIG=./no_time_to_train/new_exps/coco_fewshot_10shot_Sam2L.yaml
 CLASS_SPLIT="few_shot_classes"
 RESULTS_DIR=work_dirs/few_shot_results
 SHOTS=30
@@ -164,7 +172,7 @@ FILENAME=few_shot_${SHOTS}shot_seed${SEED}.pkl
 #### 0. Create reference set
 
 ```bash
-python dev_hongyi/dataset/few_shot_sampling.py \
+python no_time_to_train/dataset/few_shot_sampling.py \
         --n-shot $SHOTS \
         --out-path ${RESULTS_DIR}/${FILENAME} \
         --seed $SEED \
@@ -209,7 +217,7 @@ python run_lightening.py test --config $CONFIG  \
                               --trainer.devices $GPUS
 ```
 
-If you'd like to see inference results online (as they are computed), uncomment lines 1746-1749 in `dev_hongyi/models/Sam2MatchingBaseline_noAMG.py` [here](https://github.com/miquel-espinosa/no-time-to-train/blob/main/dev_hongyi/models/Sam2MatchingBaseline_noAMG.py#L1746).
+If you'd like to see inference results online (as they are computed), uncomment lines 1746-1749 in `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py` [here](https://github.com/miquel-espinosa/no-time-to-train/blob/main/no_time_to_train/models/Sam2MatchingBaseline_noAMG.py#L1746).
 Adjust the score threshold `score_thr` parameter as needed to see more or less segmented instances.
 Images will now be saved in `results_analysis/few_shot_classes/`. The image on the left shows the ground truth, the image on the right shows the segmented instances found by our training-free method.
 
@@ -228,8 +236,174 @@ SEGM RESULTS:
 ```
 ---
 
+## 🔍 Custom dataset
 
-## 🔍 Citation
+We provide the instructions for running our pipeline on a custom dataset. Annotation format are always in COCO format.
+
+> **TLDR;** To directly see how to run full pipeline on *custom datasets*, find `scripts/matching_cdfsod_pipeline.sh` together with example scripts of CD-FSOD datasets (e.g. `scripts/dior_fish.sh`)
+
+### 0. Prepare a custom dataset ⛵🐦
+
+Let's imagine we want to detect **boats**⛵ and **birds**🐦 in a custom dataset. To use our method we will need:
+- At least 1 *annotated* reference image for each class (i.e. 1 reference image for boat and 1 reference image for bird)
+- Multiple target images to find instances of our desired classes.
+
+We have prepared a toy script to create a custom dataset with coco images, for a **1-shot** setting.
+```bash
+python scripts/make_custom_dataset.py
+```
+This will create a custom dataset with the following folder structure:
+```
+data/my_custom_dataset/
+    ├── annotations/
+    │   ├── custom_references.json
+    │   ├── custom_targets.json
+    │   └── references_visualisations/
+    │       ├── bird_1.jpg
+    │       └── boat_1.jpg
+    └── images/
+        ├── 429819.jpg
+        ├── 101435.jpg
+        └── (all target and reference images)
+```
+
+**Reference images visualisation (1-shot):**
+
+| 1-shot Reference Image for BIRD 🐦 | 1-shot Reference Image for BOAT ⛵ |
+|:---------------------------------:|:----------------------------------:|
+| <img src="https://github.com/user-attachments/assets/e59e580d-a7db-42ac-b386-892af211fc85" alt="bird_1" width="500"/> | <img src="https://github.com/user-attachments/assets/f94ee025-ae37-4a45-9c3e-0cfe8f8cd2bc" alt="boat_1" width="500"/> |
+
+
+### 0.1 If only bbox annotations are available
+
+We also provide a script to generate instance-level segmentation masks by using SAM2. This is useful if you only have bounding box annotations available for the reference images.
+
+```bash
+# Download sam_h checkpoint. Feel free to use more recent checkpoints (note: code might need to be adapted)
+wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth -O checkpoints/sam_vit_h_4b8939.pth
+# Run automatic instance segmentation from ground truth bounding boxes.
+python no_time_to_train/dataset/sam_bbox_to_segm_batch.py \
+    --input_json data/my_custom_dataset/annotations/custom_references.json \
+    --image_dir data/my_custom_dataset/images \
+    --sam_checkpoint checkpoints/sam_vit_h_4b8939.pth \
+    --model_type vit_h \
+    --device cuda \
+    --batch_size 8 \
+    --visualize
+```
+
+**Reference images with instance-level segmentation masks (generated by SAM2 from gt bounding boxes, 1-shot):**
+
+Visualisation of the generated segmentation masks are saved in `data/my_custom_dataset/annotations/custom_references_with_SAM_segm/references_visualisations/`.
+
+
+| 1-shot Reference Image for BIRD 🐦 (automatically segmented with SAM) | 1-shot Reference Image for BOAT ⛵ (automatically segmented with SAM) |
+|:---------------------------------:|:----------------------------------:|
+| <img src="https://github.com/user-attachments/assets/65d38dc4-1454-43cd-9600-e8efc67b3a82" alt="bird_1_with_SAM_segm" width="500"/> | <img src="https://github.com/user-attachments/assets/43a558ad-50ca-4715-8285-9aa3268843c6" alt="boat_1_with_SAM_segm" width="500"/> |
+
+
+### 0.2 Convert coco annotations to pickle file
+
+```bash
+python no_time_to_train/dataset/coco_to_pkl.py \
+    data/my_custom_dataset/annotations/custom_references_with_segm.json \
+    data/my_custom_dataset/annotations/custom_references_with_segm.pkl \
+    1
+```
+
+### 1. Fill memory with references
+
+First, define useful variables and create a folder for results. For correct visualisation of labels, class names should be ordered by category id as appears in the json file. E.g. `bird` has category id `16`, `boat` has category id `9`. Thus, `CAT_NAMES=boat,bird`.
+
+```bash
+DATASET_NAME=my_custom_dataset
+DATASET_PATH=data/my_custom_dataset
+CAT_NAMES=boat,bird
+CATEGORY_NUM=2
+SHOT=1
+YAML_PATH=no_time_to_train/pl_configs/matching_cdfsod_template.yaml
+PATH_TO_SAVE_CKPTS=./tmp_ckpts/my_custom_dataset
+mkdir -p $PATH_TO_SAVE_CKPTS
+```
+
+Run step 1:
+```bash
+python run_lightening.py test --config $YAML_PATH \
+    --model.test_mode fill_memory \
+    --out_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory.pth \
+    --model.init_args.dataset_cfgs.fill_memory.root $DATASET_PATH/images \
+    --model.init_args.dataset_cfgs.fill_memory.json_file $DATASET_PATH/annotations/custom_references_with_segm.json \
+    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $DATASET_PATH/annotations/custom_references_with_segm.pkl \
+    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \
+    --model.init_args.dataset_cfgs.fill_memory.cat_names $CAT_NAMES \
+    --model.init_args.model_cfg.dataset_name $DATASET_NAME \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+
+### 2. Post-process memory bank
+
+```bash
+python run_lightening.py test --config $YAML_PATH \
+    --model.test_mode postprocess_memory \
+    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory.pth \
+    --out_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory_postprocessed.pth \
+    --model.init_args.model_cfg.dataset_name $DATASET_NAME \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+
+### 3. Inference on target images
+
+If `ONLINE_VIS` is set to True, prediction results will be saved in `results_analysis/my_custom_dataset/` and displayed as they are computed. NOTE that running with online visualisation is much slower.
+
+Feel free to change the score threshold `VIS_THR` to see more or less segmented instances.
+```bash
+ONLINE_VIS=True
+VIS_THR=0.4
+python run_lightening.py test --config $YAML_PATH \
+    --model.test_mode test \
+    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory_postprocessed.pth \
+    --model.init_args.model_cfg.dataset_name $DATASET_NAME \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --model.init_args.model_cfg.test.imgs_path $DATASET_PATH/images \
+    --model.init_args.model_cfg.test.online_vis $ONLINE_VIS \
+    --model.init_args.model_cfg.test.vis_thr $VIS_THR \
+    --model.init_args.dataset_cfgs.test.root $DATASET_PATH/images \
+    --model.init_args.dataset_cfgs.test.json_file $DATASET_PATH/annotations/custom_targets.json \
+    --model.init_args.dataset_cfgs.test.cat_names $CAT_NAMES \
+    --trainer.devices 1
+```
+
+### Results
+
+Performance metrics (with the exact same parameters as commands above) should be:
+
+```
+BBOX RESULTS:
+  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.478
+
+SEGM RESULTS:
+  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.458
+```
+
+Visual results are saved in `results_analysis/my_custom_dataset/`. Note that our method works for false negatives, that is, images that do not contain any instances of the desired classes.
+
+*Click images to enlarge ⬇️*
+
+| Target image with boats ⛵ (left GT, right predictions) | Target image with birds 🐦 (left GT, right predictions) |
+|:----------------------:|:----------------------:|
+| ![000000459673](https://github.com/user-attachments/assets/678dc15a-dd3b-49d5-9287-6290da16aa6b) | ![000000407180](https://github.com/user-attachments/assets/fe306e48-af49-4d83-ac82-76fac6c456d1) |
+
+| Target image with boats and birds ⛵🐦 (left GT, right predictions) | Target image without boats or birds 🚫 (left GT, right predictions) |
+|:---------------------------------:|:----------------------------------:|
+| ![000000517410](https://github.com/user-attachments/assets/9849b227-7f43-43d7-81ea-58010a623ad5) | ![000000460598](https://github.com/user-attachments/assets/7587700c-e09d-4cf6-8590-3df129c2568e) |
+
+
+## 📚 Citation
 
 If you use this work, please cite us:
 

@@ -30,31 +30,33 @@
 
 <div align="center">
 
-# 🚀 ¡No Time to Train!  
-### Segmentación de Instancias Basada en Referencias y Sin Entrenamiento  
+# 🚀 ¡Sin tiempo para entrenar!  
+### Segmentación de instancias basada en referencias sin entrenamiento  
 [![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)
 [![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)
 
 **Estado del arte (Papers with Code)**
 
-[**_1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
+[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
-[**_10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
+[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
 
-[**_30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
+[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
 
 </div>
 
 ---
 
-> 🔔 **Actualización (julio 2025):** ¡El código ha sido actualizado con instrucciones!
+> 🚨 **Actualización (22 de julio de 2025):** ¡Se han añadido instrucciones para conjuntos de datos personalizados!
+> 
+> 🔔 **Actualización (16 de julio de 2025):** ¡El código ha sido actualizado con instrucciones!
 
 ---
 
-## 📋 Tabla de contenidos
+## 📋 Tabla de Contenidos
 
-- [🎯 Aspectos destacados](#-aspectos-destacados)
+- [🎯 Destacados](#-destacados)
 - [📜 Resumen](#-resumen)
 - [🧠 Arquitectura](#-arquitectura)
 - [🛠️ Instrucciones de instalación](#️-instrucciones-de-instalacion)
@@ -63,19 +65,25 @@
   - [3. Instalar SAM2 y DinoV2](#3-instalar-sam2-y-dinov2)
   - [4. Descargar conjuntos de datos](#4-descargar-conjuntos-de-datos)
   - [5. Descargar puntos de control de SAM2 y DinoV2](#5-descargar-puntos-de-control-de-sam2-y-dinov2)
-- [📊 Código de inferencia: Reproducir resultados SOTA de 30-shot en Few-shot COCO](#-codigo-de-inferencia)
+- [📊 Código de inferencia: Reproducir resultados SOTA 30-shot en Few-shot COCO](#-codigo-de-inferencia)
   - [0. Crear conjunto de referencia](#0-crear-conjunto-de-referencia)
   - [1. Llenar la memoria con referencias](#1-llenar-la-memoria-con-referencias)
-  - [2. Post-procesar banco de memoria](#2-post-procesar-banco-de-memoria)
+  - [2. Post-procesar el banco de memoria](#2-post-procesar-el-banco-de-memoria)
   - [3. Inferencia en imágenes objetivo](#3-inferencia-en-imagenes-objetivo)
   - [Resultados](#resultados)
-- [🔍 Citación](#-citacion)
+- [🔍 Conjunto de datos personalizado](#-conjunto-de-datos-personalizado)
+  - [0. Preparar un conjunto de datos personalizado ⛵🐦](#0-preparar-un-conjunto-de-datos-personalizado)
+  - [0.1 Si solo hay anotaciones bbox disponibles](#01-si-solo-hay-anotaciones-bbox-disponibles)
+  - [0.2 Convertir anotaciones coco a archivo pickle](#02-convertir-anotaciones-coco-a-archivo-pickle)
+  - [1. Llenar la memoria con referencias](#1-llenar-la-memoria-con-referencias)
+  - [2. Post-procesar el banco de memoria](#2-post-procesar-el-banco-de-memoria)
+- [📚 Citación](#-citacion)
 
 
-## 🎯 Aspectos destacados
-- 💡 **Sin entrenamiento**: Sin fine-tuning, sin ingeniería de prompts—solo una imagen de referencia.  
+## 🎯 Destacados
+- 💡 **Sin entrenamiento**: Sin ajuste fino, sin ingeniería de prompts—solo una imagen de referencia.  
 - 🖼️ **Basado en referencia**: Segmenta nuevos objetos usando solo unos pocos ejemplos.  
-- 🔥 **Rendimiento SOTA**: Supera a los enfoques sin entrenamiento previos en COCO, PASCAL VOC y Cross-Domain FSOD.
+- 🔥 **Rendimiento SOTA**: Supera a los enfoques previos sin entrenamiento en COCO, PASCAL VOC y Cross-Domain FSOD.
 
 **Enlaces:**
 - 🧾 [**Artículo en arXiv**](https://arxiv.org/abs/2507.02798)  
@@ -84,10 +92,11 @@
 
 ## 📜 Resumen
 
-> El rendimiento de los modelos de segmentación de imágenes ha estado históricamente limitado por el alto coste de recopilar grandes volúmenes de datos anotados. El Segment Anything Model (SAM) alivia este problema original mediante un paradigma de segmentación con prompts, independiente de la semántica, aunque aún requiere prompts visuales manuales o reglas complejas de generación de prompts dependientes del dominio para procesar una nueva imagen. Para reducir esta nueva carga, nuestro trabajo investiga la tarea de segmentación de objetos cuando se proporciona, de forma alternativa, solo un pequeño conjunto de imágenes de referencia. Nuestra principal idea es aprovechar fuertes priors semánticos, aprendidos por modelos fundacionales, para identificar regiones correspondientes entre una imagen de referencia y una imagen objetivo. Encontramos que las correspondencias permiten la generación automática de máscaras de segmentación a nivel de instancia para tareas posteriores e implementamos nuestras ideas mediante un método de múltiples etapas y sin entrenamiento que incorpora (1) construcción de banco de memoria; (2) agregación de representaciones y (3) emparejamiento de características con conciencia semántica. Nuestros experimentos muestran mejoras significativas en las métricas de segmentación, logrando un rendimiento de vanguardia en COCO FSOD (36.8% nAP), PASCAL VOC Few-Shot (71.2% nAP50) y superando los enfoques sin entrenamiento existentes en el benchmark Cross-Domain FSOD (22.4% nAP).
+> El rendimiento de los modelos de segmentación de imágenes ha estado históricamente limitado por el alto costo de recopilar datos anotados a gran escala. El modelo Segment Anything (SAM) alivia este problema original mediante un paradigma de segmentación solicitada, independiente de la semántica, pero aún requiere prompts visuales manuales o reglas complejas de generación de prompts dependientes del dominio para procesar una nueva imagen. Para reducir esta nueva carga, nuestro trabajo investiga la tarea de segmentación de objetos cuando se proporciona, alternativamente, solo un pequeño conjunto de imágenes de referencia. Nuestra idea clave es aprovechar sólidos priors semánticos, aprendidos por modelos fundacionales, para identificar regiones correspondientes entre una imagen de referencia y una imagen objetivo. Descubrimos que las correspondencias permiten la generación automática de máscaras de segmentación a nivel de instancia para tareas posteriores e implementamos nuestras ideas a través de un método multietapa y sin entrenamiento que incorpora (1) construcción de banco de memoria; (2) agregación de representaciones y (3) emparejamiento de características con conciencia semántica. Nuestros experimentos muestran mejoras significativas en las métricas de segmentación, logrando un rendimiento de última generación en COCO FSOD (36.8% nAP), PASCAL VOC Few-Shot (71.2% nAP50) y superando a los enfoques existentes sin entrenamiento en el benchmark Cross-Domain FSOD (22.4% nAP).
 
 ![cdfsod-results-final-comic-sans-min](https://github.com/user-attachments/assets/ab302c02-c080-4042-99fc-0e181ba8abb9)
 
+</translate-content>
 
 ## 🧠 Arquitectura
 
@@ -96,8 +105,7 @@
 
 ## 🛠️ Instrucciones de instalación
 
-### 1. Clonar el repositorio
-
+### 1. Clona el repositorio
 
 ```bash
 git clone https://github.com/miquel-espinosa/no-time-to-train.git
@@ -150,7 +158,7 @@ Defina variables útiles y cree una carpeta para los resultados:
 
 
 ```bash
-CONFIG=./dev_hongyi/new_exps/coco_fewshot_10shot_Sam2L.yaml
+CONFIG=./no_time_to_train/new_exps/coco_fewshot_10shot_Sam2L.yaml
 CLASS_SPLIT="few_shot_classes"
 RESULTS_DIR=work_dirs/few_shot_results
 SHOTS=30
@@ -164,7 +172,7 @@ FILENAME=few_shot_${SHOTS}shot_seed${SEED}.pkl
 
 
 ```bash
-python dev_hongyi/dataset/few_shot_sampling.py \
+python no_time_to_train/dataset/few_shot_sampling.py \
         --n-shot $SHOTS \
         --out-path ${RESULTS_DIR}/${FILENAME} \
         --seed $SEED \
@@ -208,15 +216,15 @@ python run_lightening.py test --config $CONFIG  \
                               --trainer.logger.save_dir ${RESULTS_DIR}/ \
                               --trainer.devices $GPUS
 ```
-Si deseas ver los resultados de inferencia en línea (a medida que se calculan), descomenta las líneas 1746-1749 en `dev_hongyi/models/Sam2MatchingBaseline_noAMG.py` [aquí](https://github.com/miquel-espinosa/no-time-to-train/blob/main/dev_hongyi/models/Sam2MatchingBaseline_noAMG.py#L1746).
-Ajusta el parámetro de umbral de puntuación `score_thr` según sea necesario para ver más o menos instancias segmentadas.
+Si desea ver los resultados de inferencia en línea (a medida que se calculan), descomente las líneas 1746-1749 en `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py` [aquí](https://github.com/miquel-espinosa/no-time-to-train/blob/main/no_time_to_train/models/Sam2MatchingBaseline_noAMG.py#L1746).
+Ajuste el parámetro del umbral de puntuación `score_thr` según sea necesario para ver más o menos instancias segmentadas.
 Las imágenes ahora se guardarán en `results_analysis/few_shot_classes/`. La imagen de la izquierda muestra la verdad de terreno, la imagen de la derecha muestra las instancias segmentadas encontradas por nuestro método sin entrenamiento.
 
-Ten en cuenta que en este ejemplo estamos usando la partición `few_shot_classes`, por lo tanto, solo deberíamos esperar ver instancias segmentadas de las clases en esta partición (no todas las clases de COCO).
+Tenga en cuenta que en este ejemplo estamos usando la partición `few_shot_classes`, por lo tanto, solo deberíamos esperar ver instancias segmentadas de las clases en esta partición (no todas las clases en COCO).
 
 #### Resultados
 
-Después de ejecutar todas las imágenes en el conjunto de validación, deberías obtener:
+Después de ejecutar todas las imágenes en el conjunto de validación, debería obtener:
 
 
 ```
@@ -228,10 +236,176 @@ SEGM RESULTS:
 ```
 ---
 
+## 🔍 Conjunto de datos personalizado
 
-## 🔍 Citation
+Proporcionamos las instrucciones para ejecutar nuestra canalización en un conjunto de datos personalizado. El formato de anotación es siempre en formato COCO.
 
-If you use this work, please cite us:
+> **TLDR;** Para ver directamente cómo ejecutar la canalización completa en *conjuntos de datos personalizados*, consulta `scripts/matching_cdfsod_pipeline.sh` junto con los scripts de ejemplo de conjuntos de datos CD-FSOD (por ejemplo, `scripts/dior_fish.sh`)
+
+### 0. Preparar un conjunto de datos personalizado ⛵🐦
+
+Imaginemos que queremos detectar **barcos**⛵ y **aves**🐦 en un conjunto de datos personalizado. Para usar nuestro método necesitaremos:
+- Al menos 1 imagen *anotada* de referencia para cada clase (es decir, 1 imagen de referencia para barco y 1 imagen de referencia para ave)
+- Varias imágenes objetivo para encontrar instancias de nuestras clases deseadas.
+
+Hemos preparado un script de ejemplo para crear un conjunto de datos personalizado con imágenes COCO, para un escenario de **1-shot**.
+```bash
+python scripts/make_custom_dataset.py
+```
+Esto creará un conjunto de datos personalizado con la siguiente estructura de carpetas:
+```
+data/my_custom_dataset/
+    ├── annotations/
+    │   ├── custom_references.json
+    │   ├── custom_targets.json
+    │   └── references_visualisations/
+    │       ├── bird_1.jpg
+    │       └── boat_1.jpg
+    └── images/
+        ├── 429819.jpg
+        ├── 101435.jpg
+        └── (all target and reference images)
+```
+**Visualización de imágenes de referencia (1-shot):**
+
+| Imagen de referencia 1-shot para PÁJARO 🐦 | Imagen de referencia 1-shot para BARCO ⛵ |
+|:-----------------------------------------:|:----------------------------------------:|
+| <img src="https://github.com/user-attachments/assets/e59e580d-a7db-42ac-b386-892af211fc85" alt="bird_1" width="500"/> | <img src="https://github.com/user-attachments/assets/f94ee025-ae37-4a45-9c3e-0cfe8f8cd2bc" alt="boat_1" width="500"/> |
+
+
+### 0.1 Si solo se dispone de anotaciones bbox
+
+También proporcionamos un script para generar máscaras de segmentación a nivel de instancia usando SAM2. Esto es útil si solo dispone de anotaciones de caja delimitadora para las imágenes de referencia.
+
+
+```bash
+# Download sam_h checkpoint. Feel free to use more recent checkpoints (note: code might need to be adapted)
+wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth -O checkpoints/sam_vit_h_4b8939.pth
+# Run automatic instance segmentation from ground truth bounding boxes.
+python no_time_to_train/dataset/sam_bbox_to_segm_batch.py \
+    --input_json data/my_custom_dataset/annotations/custom_references.json \
+    --image_dir data/my_custom_dataset/images \
+    --sam_checkpoint checkpoints/sam_vit_h_4b8939.pth \
+    --model_type vit_h \
+    --device cuda \
+    --batch_size 8 \
+    --visualize
+```
+**Imágenes de referencia con máscaras de segmentación a nivel de instancia (generadas por SAM2 a partir de cajas delimitadoras gt, 1-shot):**
+
+La visualización de las máscaras de segmentación generadas se guarda en `data/my_custom_dataset/annotations/custom_references_with_SAM_segm/references_visualisations/`.
+
+
+| Imagen de referencia 1-shot para PÁJARO 🐦 (segmentada automáticamente con SAM) | Imagen de referencia 1-shot para BARCO ⛵ (segmentada automáticamente con SAM) |
+|:---------------------------------:|:----------------------------------:|
+| <img src="https://github.com/user-attachments/assets/65d38dc4-1454-43cd-9600-e8efc67b3a82" alt="bird_1_with_SAM_segm" width="500"/> | <img src="https://github.com/user-attachments/assets/43a558ad-50ca-4715-8285-9aa3268843c6" alt="boat_1_with_SAM_segm" width="500"/> |
+
+
+### 0.2 Convertir anotaciones coco a archivo pickle
+
+
+```bash
+python no_time_to_train/dataset/coco_to_pkl.py \
+    data/my_custom_dataset/annotations/custom_references_with_segm.json \
+    data/my_custom_dataset/annotations/custom_references_with_segm.pkl \
+    1
+```
+### 1. Llenar la memoria con referencias
+
+Primero, defina variables útiles y cree una carpeta para los resultados. Para la correcta visualización de las etiquetas, los nombres de las clases deben ordenarse por el id de categoría tal como aparece en el archivo json. Por ejemplo, `bird` tiene el id de categoría `16`, `boat` tiene el id de categoría `9`. Por lo tanto, `CAT_NAMES=boat,bird`.
+
+
+```bash
+DATASET_NAME=my_custom_dataset
+DATASET_PATH=data/my_custom_dataset
+CAT_NAMES=boat,bird
+CATEGORY_NUM=2
+SHOT=1
+YAML_PATH=no_time_to_train/pl_configs/matching_cdfsod_template.yaml
+PATH_TO_SAVE_CKPTS=./tmp_ckpts/my_custom_dataset
+mkdir -p $PATH_TO_SAVE_CKPTS
+```
+Ejecute el paso 1:
+
+```bash
+python run_lightening.py test --config $YAML_PATH \
+    --model.test_mode fill_memory \
+    --out_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory.pth \
+    --model.init_args.dataset_cfgs.fill_memory.root $DATASET_PATH/images \
+    --model.init_args.dataset_cfgs.fill_memory.json_file $DATASET_PATH/annotations/custom_references_with_segm.json \
+    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $DATASET_PATH/annotations/custom_references_with_segm.pkl \
+    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \
+    --model.init_args.dataset_cfgs.fill_memory.cat_names $CAT_NAMES \
+    --model.init_args.model_cfg.dataset_name $DATASET_NAME \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+### 2. Banco de memoria de post-procesamiento
+
+
+```bash
+python run_lightening.py test --config $YAML_PATH \
+    --model.test_mode postprocess_memory \
+    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory.pth \
+    --out_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory_postprocessed.pth \
+    --model.init_args.model_cfg.dataset_name $DATASET_NAME \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+### 3. Inferencia en imágenes objetivo
+
+Si `ONLINE_VIS` está configurado en True, los resultados de las predicciones se guardarán en `results_analysis/my_custom_dataset/` y se mostrarán a medida que se calculan. NOTA: ejecutar con visualización en línea es mucho más lento.
+
+Siéntase libre de cambiar el umbral de puntuación `VIS_THR` para ver más o menos instancias segmentadas.
+
+```bash
+ONLINE_VIS=True
+VIS_THR=0.4
+python run_lightening.py test --config $YAML_PATH \
+    --model.test_mode test \
+    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory_postprocessed.pth \
+    --model.init_args.model_cfg.dataset_name $DATASET_NAME \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --model.init_args.model_cfg.test.imgs_path $DATASET_PATH/images \
+    --model.init_args.model_cfg.test.online_vis $ONLINE_VIS \
+    --model.init_args.model_cfg.test.vis_thr $VIS_THR \
+    --model.init_args.dataset_cfgs.test.root $DATASET_PATH/images \
+    --model.init_args.dataset_cfgs.test.json_file $DATASET_PATH/annotations/custom_targets.json \
+    --model.init_args.dataset_cfgs.test.cat_names $CAT_NAMES \
+    --trainer.devices 1
+```
+### Resultados
+
+Las métricas de rendimiento (con los mismos parámetros exactos que los comandos anteriores) deberían ser:
+
+
+```
+BBOX RESULTS:
+  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.478
+
+SEGM RESULTS:
+  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.458
+```
+Los resultados visuales se guardan en `results_analysis/my_custom_dataset/`. Tenga en cuenta que nuestro método funciona para falsos negativos, es decir, imágenes que no contienen ninguna instancia de las clases deseadas.
+
+*Haga clic en las imágenes para ampliarlas ⬇️*
+
+| Imagen objetivo con barcos ⛵ (izquierda GT, derecha predicciones) | Imagen objetivo con pájaros 🐦 (izquierda GT, derecha predicciones) |
+|:----------------------:|:----------------------:|
+| ![000000459673](https://github.com/user-attachments/assets/678dc15a-dd3b-49d5-9287-6290da16aa6b) | ![000000407180](https://github.com/user-attachments/assets/fe306e48-af49-4d83-ac82-76fac6c456d1) |
+
+| Imagen objetivo con barcos y pájaros ⛵🐦 (izquierda GT, derecha predicciones) | Imagen objetivo sin barcos ni pájaros 🚫 (izquierda GT, derecha predicciones) |
+|:---------------------------------:|:----------------------------------:|
+| ![000000517410](https://github.com/user-attachments/assets/9849b227-7f43-43d7-81ea-58010a623ad5) | ![000000460598](https://github.com/user-attachments/assets/7587700c-e09d-4cf6-8590-3df129c2568e) |
+
+
+## 📚 Citación
+
+Si utiliza este trabajo, por favor cítanos:
+
 
 ```bibtex
 @article{espinosa2025notimetotrain,
@@ -243,8 +417,9 @@ If you use this work, please cite us:
 }
 ```
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
 
 ---

@@ -1,0 +1,417 @@
+[
+  {
+    "Id": 1,
+    "Content": "# scammy-bbp\nBug bounty programs that are \"scammy\" or unethical can sometimes involve promising rewards to researchers for identifying security flaws, but either delay payments, don't pay at all, or misuse the disclosed vulnerabilities. \n\n\nSigns of a Potentially Scammy Bug Bounty Program:\n\n- Unclear Terms and Conditions: Programs that don't clearly specify what vulnerabilities qualify for rewards or the amount of the reward.\n- No Transparent Payment Structure: Lack of details about payment timelines, payout methods, or cases where people report not getting paid.\n- Little to No Community Feedback: Lack of reputation or negative reviews from the infosec community.\n\n`Hits: # of reports of being scammy`\n\n| Program Name              | Issues Reported                                        | Platform | Source     | Hits\n|---------------------------|-------------------------------------------------------|------------|----------------------| ------\n| **[H&M](https://www.hm.com/security.txt)** | No rewards<sup>1</sup> |Self hosted|  Trusted hacker | 2\n| **[Celonis](https://www.celonis.com/pdf/vulnerability-disclosure-program/)** | Ignored reports<sup>2</sup> | Self hosted |Trusted hacker        | 1\n| **[TataPlay](https://www.tataplay.com/bug-bounty-hunter)** | Automated Response, then no response | Self hosted| Trusted Hacker | 1\n| **[Synack](https://synack.responsibledisclosure.com/hc/en-us)** | Reward Gatekeepers<sup>10</sup>|Self hosted | Trusted Hacker | 1\n| **[Zeiss](https://www.zeiss.com/disclosure-policy.pdf)**| Ignored reports<sup>2</sup> | Self hosted |Trusted hacker| 1\n| **[Alefed](https://vdp.alefeducation.com/p/Vulnerability-Disclosure-Policy-and-Submission-Form)**| No impact but fixed<sup>3</sup> |Self hosted+YesWeHack|Trusted hacker | 1\n| **[Cex.io](https://blog.cex.io/news/cex-io-bug-bounty-program-and-policy-22948)**| Failed to pay<sup>4</sup> | Self hosted | Trusted hacker | 1 \n| **[Roche](https://hackerone.com/roche?type=team)** | Patch & Pass<sup>5</sup><br> Duplicate Disguise<sup>7</sup><br>Duplicate Mirage<sup>8</sup><br>Smokescreen Smackdown<sup>12</sup>|Self hosted | Trusted Hacker | 2\n| **[Zopa](https://zopa.com/.well-known/security.txt)** | Scope Surprise!<sup>9</sup> |Self hosted | Trusted hacker | 1\n| **[Atos](https://hackerone.com/atos?type=team)**| Bounty Roulette<sup>11</sup>|Self hosted | Trusted hacker | 1\n| **[LuminPDF](https://www.luminpdf.com/bug-bounty-program)** | No impact but fixed<sup>3</sup>|Self hosted | Trusted hacker | 1\n| **[ItsLearning](https://itslearning.com/privacy-commitment/responsible-disclosure)** | Fixed and Ignored Reports<sup>2</sup> | Self hosted | Trusted Hacker | 1\n| **[Resortdata](https://www.resortdata.com/about/responsible-disclosure/)** | Fixed and Ignored Reports<sup>2</sup> | Self hosted | Trusted Hacker | 1\n| **[Scalr](https://www.scalr.com/system-description)** | No impact but fixed<sup>3</sup> | Self hosted | Trusted Hacker | 1\n| **[Standard Bank](http://www.standardbank.co.za/)** | Fixed and Ignored Reports<sup>2</sup> | Self hosted | Trusted Hacker | 1\n| **[Zynga](https://www.zynga.com/security/rdp)** | Fixed and Ignored Reports<sup>2</sup> | Self hosted | Trusted Hacker | 1\n| **[Microsoft](https://www.microsoft.com/en-us/msrc/bounty)** | Fixed and Ignored Reports<sup>2</sup> <br>  | Self hosted | Trusted Hacker | 2\n| **[Cimpress](https://cimpress.com/privacy-security/)** | Bounty Roulette<sup>11</sup> | Self hosted | Trusted Hacker | 2\n| **[Swiggy](https://www.swiggy.com/bug-bounty)** | No rewards<sup>1</sup> | Self hosted | Trusted Hacker | 1\n\n\n## Hackerone\n\nThe input for this section are public reports and writeups made by researchers. \n\n| Program Name     | Report       | Problems | Discussion\n|----------------|---------------|------------|---------------\n| **[Hackerone]()**|[2180521](https://hackerone.com/reports/2180521)|CVSS magic| https://github.com/pdelteil/scammy-bbp/discussions/9\n|**[Zendesk]()**| [URL](https://gist.github.com/hackermondev/68ec8ed145fcee49d2f5e2b9d2cf2e52)|Sacred Out of Scope| https://github.com/pdelteil/scammy-bbp/discussions/10\n\n## BugCrowd\n\n| Program Name              | Issues Reported                                        | Platform | Source     | Hits\n|---------------------------|-------------------------------------------------------|------------|----------------------| ------\n| **WesternUnion** | Fixed and Ignored Reports<sup>2</sup> <br> Dupe-n-Dump<sup>13</sup>  | Self hosted | Trusted Hacker | 2\n\n\n## Details\n\n- <sup>1</sup>**No rewards:** They promise rewards for reports in their program, but fail to pay them. Sometimes they just say they stopped paying rewards or they can't do it anymore.\n- <sup>2</sup>**Ignored reports:** They never replied back to researcher. Never > 2 months and counting.\n- <sup>3</sup>**No impact but fixed:** Bug triaged as CVSS 0, no impact or similar but fixed anyways.  \n- <sup>4</sup>**Failed to pay:** Agreed to pay a bounty but never accomplished it. Often ignoring follow-up emails.\n- <sup>5</sup>**Patch & Pass:** They fix reported bugs but mark them as Out of scope.\n- <sup>6</sup>**P1 or You're Out:** They won't invite you to their private program unless you report a P1/High bug.\n- <sup>7</sup>**Duplicate Disguise:** They mark reports as duplicated when they are very unlikely to be reported before.\n- <sup>8</sup>**Duplicate Mirage:** They mark all (future) reports as dups without having the full list of domains. \n- <sup>9</sup>**Scope Surprise!:** They define their `in scope` and `out scope` after you send the report, they don't write it down in their program brief.\n- <sup>10</sup>**Reward Gatekeepers:** They will pay a reward only if you have an account in their site (which might very difficult to get).\n- <sup>11</sup>**Bounty Roulette:** Not clear if they pay bounties or not. Often times the include deciving information: calling their page or site 'bug bounty program', having an email address containing bug bounty, etc. \n- <sup>12</sup>**Smokescreen Smackdown:** When a company tries to damage the reputation of a reporter.\n- <sup>13</sup>**Dupe-n-Dump :** They mark all reports of the same type/class as dups.\n",
+    "ContentSha": "mh4+zBq62dyXlOvtG8VYzWD3sP8KFFB2iLMD8T9VU3s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# scammy-bbp\nBug bounty programs that are \"scammy\" or unethical can sometimes involve promising rewards to researchers for identifying security flaws, but either delay payments, don't pay at all, or misuse the disclosed vulnerabilities. \n\n\nSigns of a Potentially Scammy Bug Bounty Program:\n\n- Unclear Terms and Conditions: Programs that don't clearly specify what vulnerabilities qualify for rewards or the amount of the reward.\n- No Transparent Payment Structure: Lack of details about payment timelines, payout methods, or cases where people report not getting paid.\n- Little to No Community Feedback: Lack of reputation or negative reviews from the infosec community.\n\n`Hits: # of reports of being scammy`\n\n| Program Name              | Issues Reported                                        | Platform | Source     | Hits\n|---------------------------|-------------------------------------------------------|------------|----------------------| ------\n| **[H&M](https://www.hm.com/security.txt)** | No rewards<sup>1</sup> |Self hosted|  Trusted hacker | 2\n| **[Celonis](https://www.celonis.com/pdf/vulnerability-disclosure-program/)** | Ignored reports<sup>2</sup> | Self hosted |Trusted hacker        | 1\n| **[TataPlay](https://www.tataplay.com/bug-bounty-hunter)** | Automated Response, then no response | Self hosted| Trusted Hacker | 1\n| **[Synack](https://synack.responsibledisclosure.com/hc/en-us)** | Reward Gatekeepers<sup>10</sup>|Self hosted | Trusted Hacker | 1\n| **[Zeiss](https://www.zeiss.com/disclosure-policy.pdf)**| Ignored reports<sup>2</sup> | Self hosted |Trusted hacker| 1\n| **[Alefed](https://vdp.alefeducation.com/p/Vulnerability-Disclosure-Policy-and-Submission-Form)**| No impact but fixed<sup>3</sup> |Self hosted+YesWeHack|Trusted hacker | 1\n| **[Cex.io](https://blog.cex.io/news/cex-io-bug-bounty-program-and-policy-22948)**| Failed to pay<sup>4</sup> | Self hosted | Trusted hacker | 1 \n| **[Roche](https://hackerone.com/roche?type=team)** | Patch & Pass<sup>5</sup><br> Duplicate Disguise<sup>7</sup><br>Duplicate Mirage<sup>8</sup><br>Smokescreen Smackdown<sup>12</sup>|Self hosted | Trusted Hacker | 2\n| **[Zopa](https://zopa.com/.well-known/security.txt)** | Scope Surprise!<sup>9</sup> |Self hosted | Trusted hacker | 1\n| **[Atos](https://hackerone.com/atos?type=team)**| Bounty Roulette<sup>11</sup>|Self hosted | Trusted hacker | 1\n| **[LuminPDF](https://www.luminpdf.com/bug-bounty-program)** | No impact but fixed<sup>3</sup>|Self hosted | Trusted hacker | 1\n| **[ItsLearning](https://itslearning.com/privacy-commitment/responsible-disclosure)** | Fixed and Ignored Reports<sup>2</sup> | Self hosted | Trusted Hacker | 1\n| **[Resortdata](https://www.resortdata.com/about/responsible-disclosure/)** | Fixed and Ignored Reports<sup>2</sup> | Self hosted | Trusted Hacker | 1\n| **[Scalr](https://www.scalr.com/system-description)** | No impact but fixed<sup>3</sup> | Self hosted | Trusted Hacker | 1\n| **[Standard Bank](http://www.standardbank.co.za/)** | Fixed and Ignored Reports<sup>2</sup> | Self hosted | Trusted Hacker | 1\n| **[Zynga](https://www.zynga.com/security/rdp)** | Fixed and Ignored Reports<sup>2</sup> | Self hosted | Trusted Hacker | 1\n| **[Microsoft](https://www.microsoft.com/en-us/msrc/bounty)** | Fixed and Ignored Reports<sup>2</sup> <br>  | Self hosted | Trusted Hacker | 2\n| **[Cimpress](https://cimpress.com/privacy-security/)** | Bounty Roulette<sup>11</sup> | Self hosted | Trusted Hacker | 2\n| **[Swiggy](https://www.swiggy.com/bug-bounty)** | No rewards<sup>1</sup> | Self hosted | Trusted Hacker | 1\n\n\n## Hackerone\n\nThe input for this section are public reports and writeups made by researchers. \n\n| Program Name     | Report       | Problems | Discussion\n|----------------|---------------|------------|---------------\n| **[Hackerone]()**|[2180521](https://hackerone.com/reports/2180521)|CVSS magic| https://github.com/pdelteil/scammy-bbp/discussions/9\n|**[Zendesk]()**| [URL](https://gist.github.com/hackermondev/68ec8ed145fcee49d2f5e2b9d2cf2e52)|Sacred Out of Scope| https://github.com/pdelteil/scammy-bbp/discussions/10\n\n## BugCrowd\n\n| Program Name              | Issues Reported                                        | Platform | Source     | Hits\n|---------------------------|-------------------------------------------------------|------------|----------------------| ------\n| **WesternUnion** | Fixed and Ignored Reports<sup>2</sup> <br> Dupe-n-Dump<sup>13</sup>  | Self hosted | Trusted Hacker | 2\n\n\n## Details\n\n- <sup>1</sup>**No rewards:** They promise rewards for reports in their program, but fail to pay them. Sometimes they just say they stopped paying rewards or they can't do it anymore.\n- <sup>2</sup>**Ignored reports:** They never replied back to researcher. Never > 2 months and counting.\n- <sup>3</sup>**No impact but fixed:** Bug triaged as CVSS 0, no impact or similar but fixed anyways.  \n- <sup>4</sup>**Failed to pay:** Agreed to pay a bounty but never accomplished it. Often ignoring follow-up emails.\n- <sup>5</sup>**Patch & Pass:** They fix reported bugs but mark them as Out of scope.\n- <sup>6</sup>**P1 or You're Out:** They won't invite you to their private program unless you report a P1/High bug.\n- <sup>7</sup>**Duplicate Disguise:** They mark reports as duplicated when they are very unlikely to be reported before.\n- <sup>8</sup>**Duplicate Mirage:** They mark all (future) reports as dups without having the full list of domains. \n- <sup>9</sup>**Scope Surprise!:** They define their `in scope` and `out scope` after you send the report, they don't write it down in their program brief.\n- <sup>10</sup>**Reward Gatekeepers:** They will pay a reward only if you have an account in their site (which might very difficult to get).\n- <sup>11</sup>**Bounty Roulette:** Not clear if they pay bounties or not. Often times the include deciving information: calling their page or site 'bug bounty program', having an email address containing bug bounty, etc. \n- <sup>12</sup>**Smokescreen Smackdown:** When a company tries to damage the reputation of a reporter.\n- <sup>13</sup>**Dupe-n-Dump :** They mark all reports of the same type/class as dups.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "2ARTtXqY2+NnGCgcCyxv9g7JmH/G3ghjs4VxrwE6a04=",
+        "originContent": "# scammy-bbp",
+        "translatedContent": "# scammy-bbp"
+      },
+      {
+        "row": 2,
+        "rowsha": "n6WFgUIPgFgX4oqDRa/Tiok4ZGkPIKNDTklLNjWC1RQ=",
+        "originContent": "Bug bounty programs that are \"scammy\" or unethical can sometimes involve promising rewards to researchers for identifying security flaws, but either delay payments, don't pay at all, or misuse the disclosed vulnerabilities. ",
+        "translatedContent": "Bug bounty programs that are \"scammy\" or unethical can sometimes involve promising rewards to researchers for identifying security flaws, but either delay payments, don't pay at all, or misuse the disclosed vulnerabilities. "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "ShZOw3P0vY/5kd8y7GliR0VlTL7UxJjfi7qJa+D3/aw=",
+        "originContent": "Signs of a Potentially Scammy Bug Bounty Program:",
+        "translatedContent": "Signs of a Potentially Scammy Bug Bounty Program:"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "ktreRmgni0baxzjW6yd0C4TjpElZchnkIsZePaM4Ukc=",
+        "originContent": "- Unclear Terms and Conditions: Programs that don't clearly specify what vulnerabilities qualify for rewards or the amount of the reward.",
+        "translatedContent": "- Unclear Terms and Conditions: Programs that don't clearly specify what vulnerabilities qualify for rewards or the amount of the reward."
+      },
+      {
+        "row": 8,
+        "rowsha": "pbUGhMjHuwnuGc8SKz+r5Gz2A6G6tFnsmoL4RMT23iY=",
+        "originContent": "- No Transparent Payment Structure: Lack of details about payment timelines, payout methods, or cases where people report not getting paid.",
+        "translatedContent": "- No Transparent Payment Structure: Lack of details about payment timelines, payout methods, or cases where people report not getting paid."
+      },
+      {
+        "row": 9,
+        "rowsha": "0UWFrd2zUIlsqwjFeKmM7FB244j4WFD7upTldzoSxco=",
+        "originContent": "- Little to No Community Feedback: Lack of reputation or negative reviews from the infosec community.",
+        "translatedContent": "- Little to No Community Feedback: Lack of reputation or negative reviews from the infosec community."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "RZUkTwO5XLjtJZ+T1q5xnG3ooSg8h4IrMeIkkFTUkdg=",
+        "originContent": "`Hits: # of reports of being scammy`",
+        "translatedContent": "`Hits: # of reports of being scammy`"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "g772o6zraTVOPHtecBBT8FQhqYlmpO5y6hf+5/cT//g=",
+        "originContent": "| Program Name              | Issues Reported                                        | Platform | Source     | Hits",
+        "translatedContent": "| Program Name              | Issues Reported                                        | Platform | Source     | Hits"
+      },
+      {
+        "row": 14,
+        "rowsha": "xSRJ6tp9PGp+FhbPRIliHpt8Frb1a9LKQRyeV6ZEGqE=",
+        "originContent": "|---------------------------|-------------------------------------------------------|------------|----------------------| ------",
+        "translatedContent": "|---------------------------|-------------------------------------------------------|------------|----------------------| ------"
+      },
+      {
+        "row": 15,
+        "rowsha": "1kZaj2vjyhJtSALvqH9F985504v4AMsWtD/G6k2huJo=",
+        "originContent": "| **[H&M](https://www.hm.com/security.txt)** | No rewards<sup>1</sup> |Self hosted|  Trusted hacker | 2",
+        "translatedContent": "| **[H&M](https://www.hm.com/security.txt)** | No rewards<sup>1</sup> |Self hosted|  Trusted hacker | 2"
+      },
+      {
+        "row": 16,
+        "rowsha": "Lb+OiWANH/NXqZVaKZ/oQcRL+lldcbZehz2apJB1zkw=",
+        "originContent": "| **[Celonis](https://www.celonis.com/pdf/vulnerability-disclosure-program/)** | Ignored reports<sup>2</sup> | Self hosted |Trusted hacker        | 1",
+        "translatedContent": "| **[Celonis](https://www.celonis.com/pdf/vulnerability-disclosure-program/)** | Ignored reports<sup>2</sup> | Self hosted |Trusted hacker        | 1"
+      },
+      {
+        "row": 17,
+        "rowsha": "kBRPpHjdMoBm8S+jLUOJjoVgCc16YSRzgE8dlKgEDH4=",
+        "originContent": "| **[TataPlay](https://www.tataplay.com/bug-bounty-hunter)** | Automated Response, then no response | Self hosted| Trusted Hacker | 1",
+        "translatedContent": "| **[TataPlay](https://www.tataplay.com/bug-bounty-hunter)** | Automated Response, then no response | Self hosted| Trusted Hacker | 1"
+      },
+      {
+        "row": 18,
+        "rowsha": "iXpraoKcXpx3p9DOuuWLdD+O+iHstVrSMaSI39o/ui0=",
+        "originContent": "| **[Synack](https://synack.responsibledisclosure.com/hc/en-us)** | Reward Gatekeepers<sup>10</sup>|Self hosted | Trusted Hacker | 1",
+        "translatedContent": "| **[Synack](https://synack.responsibledisclosure.com/hc/en-us)** | Reward Gatekeepers<sup>10</sup>|Self hosted | Trusted Hacker | 1"
+      },
+      {
+        "row": 19,
+        "rowsha": "tHKPb0LEniefAYkbdlSUM5M/EffYrYmLveW8ZqOkBuM=",
+        "originContent": "| **[Zeiss](https://www.zeiss.com/disclosure-policy.pdf)**| Ignored reports<sup>2</sup> | Self hosted |Trusted hacker| 1",
+        "translatedContent": "| **[Zeiss](https://www.zeiss.com/disclosure-policy.pdf)**| Ignored reports<sup>2</sup> | Self hosted |Trusted hacker| 1"
+      },
+      {
+        "row": 20,
+        "rowsha": "ATw34OrMq2i4dgEtGt+2tpP7kZp+pH7CPqzXP2vDEds=",
+        "originContent": "| **[Alefed](https://vdp.alefeducation.com/p/Vulnerability-Disclosure-Policy-and-Submission-Form)**| No impact but fixed<sup>3</sup> |Self hosted+YesWeHack|Trusted hacker | 1",
+        "translatedContent": "| **[Alefed](https://vdp.alefeducation.com/p/Vulnerability-Disclosure-Policy-and-Submission-Form)**| No impact but fixed<sup>3</sup> |Self hosted+YesWeHack|Trusted hacker | 1"
+      },
+      {
+        "row": 21,
+        "rowsha": "WZGqVrWaJvuNlpO3G1niHYmg6YrcLdIylaXSFrg/Zr8=",
+        "originContent": "| **[Cex.io](https://blog.cex.io/news/cex-io-bug-bounty-program-and-policy-22948)**| Failed to pay<sup>4</sup> | Self hosted | Trusted hacker | 1 ",
+        "translatedContent": "| **[Cex.io](https://blog.cex.io/news/cex-io-bug-bounty-program-and-policy-22948)**| Failed to pay<sup>4</sup> | Self hosted | Trusted hacker | 1 "
+      },
+      {
+        "row": 22,
+        "rowsha": "N/OvAWKq8oPaj5wdcPiUZ4JX41iZ/ODvBDOfQ48z7NA=",
+        "originContent": "| **[Roche](https://hackerone.com/roche?type=team)** | Patch & Pass<sup>5</sup><br> Duplicate Disguise<sup>7</sup><br>Duplicate Mirage<sup>8</sup><br>Smokescreen Smackdown<sup>12</sup>|Self hosted | Trusted Hacker | 2",
+        "translatedContent": "| **[Roche](https://hackerone.com/roche?type=team)** | Patch & Pass<sup>5</sup><br> Duplicate Disguise<sup>7</sup><br>Duplicate Mirage<sup>8</sup><br>Smokescreen Smackdown<sup>12</sup>|Self hosted | Trusted Hacker | 2"
+      },
+      {
+        "row": 23,
+        "rowsha": "r6tqxm2ikgNQETk9arjMa0K9GhLeF+9xeB4cSjvE7iY=",
+        "originContent": "| **[Zopa](https://zopa.com/.well-known/security.txt)** | Scope Surprise!<sup>9</sup> |Self hosted | Trusted hacker | 1",
+        "translatedContent": "| **[Zopa](https://zopa.com/.well-known/security.txt)** | Scope Surprise!<sup>9</sup> |Self hosted | Trusted hacker | 1"
+      },
+      {
+        "row": 24,
+        "rowsha": "HdNv/p7+4zOfxTHaDJK3ECF197EfDFPyNi0V+H/Kv6M=",
+        "originContent": "| **[Atos](https://hackerone.com/atos?type=team)**| Bounty Roulette<sup>11</sup>|Self hosted | Trusted hacker | 1",
+        "translatedContent": "| **[Atos](https://hackerone.com/atos?type=team)**| Bounty Roulette<sup>11</sup>|Self hosted | Trusted hacker | 1"
+      },
+      {
+        "row": 25,
+        "rowsha": "XKqLqmu39IrJuahWZAYmGmuULuPn2hZs+rDTPlz9b0A=",
+        "originContent": "| **[LuminPDF](https://www.luminpdf.com/bug-bounty-program)** | No impact but fixed<sup>3</sup>|Self hosted | Trusted hacker | 1",
+        "translatedContent": "| **[LuminPDF](https://www.luminpdf.com/bug-bounty-program)** | No impact but fixed<sup>3</sup>|Self hosted | Trusted hacker | 1"
+      },
+      {
+        "row": 26,
+        "rowsha": "Q60aZ0XQNBAPAiL1NC5eIbiAD1mNeV3LIdcWYxmCWgM=",
+        "originContent": "| **[ItsLearning](https://itslearning.com/privacy-commitment/responsible-disclosure)** | Fixed and Ignored Reports<sup>2</sup> | Self hosted | Trusted Hacker | 1",
+        "translatedContent": "| **[ItsLearning](https://itslearning.com/privacy-commitment/responsible-disclosure)** | Fixed and Ignored Reports<sup>2</sup> | Self hosted | Trusted Hacker | 1"
+      },
+      {
+        "row": 27,
+        "rowsha": "FjsaoEwCeA3ciNzt48moVlSk4blaKLTzWZc44gpLxkE=",
+        "originContent": "| **[Resortdata](https://www.resortdata.com/about/responsible-disclosure/)** | Fixed and Ignored Reports<sup>2</sup> | Self hosted | Trusted Hacker | 1",
+        "translatedContent": "| **[Resortdata](https://www.resortdata.com/about/responsible-disclosure/)** | Fixed and Ignored Reports<sup>2</sup> | Self hosted | Trusted Hacker | 1"
+      },
+      {
+        "row": 28,
+        "rowsha": "uBnYDSWREmJDsZDwTFln09n8QUcqtSg428ePgy1AgXY=",
+        "originContent": "| **[Scalr](https://www.scalr.com/system-description)** | No impact but fixed<sup>3</sup> | Self hosted | Trusted Hacker | 1",
+        "translatedContent": "| **[Scalr](https://www.scalr.com/system-description)** | No impact but fixed<sup>3</sup> | Self hosted | Trusted Hacker | 1"
+      },
+      {
+        "row": 29,
+        "rowsha": "dKTHVwnCx7Y9cDT60KCDeGuKQSaE4nJUsGuOWTxdGnQ=",
+        "originContent": "| **[Standard Bank](http://www.standardbank.co.za/)** | Fixed and Ignored Reports<sup>2</sup> | Self hosted | Trusted Hacker | 1",
+        "translatedContent": "| **[Standard Bank](http://www.standardbank.co.za/)** | Fixed and Ignored Reports<sup>2</sup> | Self hosted | Trusted Hacker | 1"
+      },
+      {
+        "row": 30,
+        "rowsha": "UcjEqZCHC/6i3I6rMFiZ+ZQVIe/is/LzgsY5GDaJQvQ=",
+        "originContent": "| **[Zynga](https://www.zynga.com/security/rdp)** | Fixed and Ignored Reports<sup>2</sup> | Self hosted | Trusted Hacker | 1",
+        "translatedContent": "| **[Zynga](https://www.zynga.com/security/rdp)** | Fixed and Ignored Reports<sup>2</sup> | Self hosted | Trusted Hacker | 1"
+      },
+      {
+        "row": 31,
+        "rowsha": "8wal6JaUM1QPijIyyECUfLYmIXhdczvTgCN4TKXj2j0=",
+        "originContent": "| **[Microsoft](https://www.microsoft.com/en-us/msrc/bounty)** | Fixed and Ignored Reports<sup>2</sup> <br>  | Self hosted | Trusted Hacker | 2",
+        "translatedContent": "| **[Microsoft](https://www.microsoft.com/en-us/msrc/bounty)** | Fixed and Ignored Reports<sup>2</sup> <br>  | Self hosted | Trusted Hacker | 2"
+      },
+      {
+        "row": 32,
+        "rowsha": "osuvUryVQm+dX9zatkaeL9W0rQY1/28qC/Bg3CVnj6g=",
+        "originContent": "| **[Cimpress](https://cimpress.com/privacy-security/)** | Bounty Roulette<sup>11</sup> | Self hosted | Trusted Hacker | 2",
+        "translatedContent": "| **[Cimpress](https://cimpress.com/privacy-security/)** | Bounty Roulette<sup>11</sup> | Self hosted | Trusted Hacker | 2"
+      },
+      {
+        "row": 33,
+        "rowsha": "Nkn1AAu1nV0GAcQcve0IVO+Gj1/E2Eig5R5oXvskox0=",
+        "originContent": "| **[Swiggy](https://www.swiggy.com/bug-bounty)** | No rewards<sup>1</sup> | Self hosted | Trusted Hacker | 1",
+        "translatedContent": "| **[Swiggy](https://www.swiggy.com/bug-bounty)** | No rewards<sup>1</sup> | Self hosted | Trusted Hacker | 1"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "L+TIcIcfjSN1u1YJBc2/DTSe+wxPDAsRzs8RmLAAlWw=",
+        "originContent": "## Hackerone",
+        "translatedContent": "## Hackerone"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "XzFrT2ljTOehGXLwakNiy2nS0VyHBF52aSJOzhuf7xY=",
+        "originContent": "The input for this section are public reports and writeups made by researchers. ",
+        "translatedContent": "The input for this section are public reports and writeups made by researchers. "
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "CgkTBVpEPNImCifOwsPh7EZCWYhxCuwGrXbWfJlOFIg=",
+        "originContent": "| Program Name     | Report       | Problems | Discussion",
+        "translatedContent": "| Program Name     | Report       | Problems | Discussion"
+      },
+      {
+        "row": 41,
+        "rowsha": "7ctU3GXJGb9EU925cjrpu2BRg8INARm1rLGrVdEo2aU=",
+        "originContent": "|----------------|---------------|------------|---------------",
+        "translatedContent": "|----------------|---------------|------------|---------------"
+      },
+      {
+        "row": 42,
+        "rowsha": "p+JKIqUJ97mxyIsmxTlgxXFpjSQEZS5XQV9jqKB27g8=",
+        "originContent": "| **[Hackerone]()**|[2180521](https://hackerone.com/reports/2180521)|CVSS magic| https://github.com/pdelteil/scammy-bbp/discussions/9",
+        "translatedContent": "| **[Hackerone]()**|[2180521](https://hackerone.com/reports/2180521)|CVSS magic| https://github.com/pdelteil/scammy-bbp/discussions/9"
+      },
+      {
+        "row": 43,
+        "rowsha": "iIx/Hd3XdVmHYIV/ioodFMJKmxzHWcST1+KuTbxji4o=",
+        "originContent": "|**[Zendesk]()**| [URL](https://gist.github.com/hackermondev/68ec8ed145fcee49d2f5e2b9d2cf2e52)|Sacred Out of Scope| https://github.com/pdelteil/scammy-bbp/discussions/10",
+        "translatedContent": "|**[Zendesk]()**| [URL](https://gist.github.com/hackermondev/68ec8ed145fcee49d2f5e2b9d2cf2e52)|Sacred Out of Scope| https://github.com/pdelteil/scammy-bbp/discussions/10"
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "+EgHVP1TUj1BzZHcfXTWqq9v4cJS1UJj9IFH2OGoUx8=",
+        "originContent": "## BugCrowd",
+        "translatedContent": "## BugCrowd"
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "g772o6zraTVOPHtecBBT8FQhqYlmpO5y6hf+5/cT//g=",
+        "originContent": "| Program Name              | Issues Reported                                        | Platform | Source     | Hits",
+        "translatedContent": "| Program Name              | Issues Reported                                        | Platform | Source     | Hits"
+      },
+      {
+        "row": 48,
+        "rowsha": "xSRJ6tp9PGp+FhbPRIliHpt8Frb1a9LKQRyeV6ZEGqE=",
+        "originContent": "|---------------------------|-------------------------------------------------------|------------|----------------------| ------",
+        "translatedContent": "|---------------------------|-------------------------------------------------------|------------|----------------------| ------"
+      },
+      {
+        "row": 49,
+        "rowsha": "1Brt52MMPq7PYatOzSgX94scoBUOVYC//CZZex2/3UU=",
+        "originContent": "| **WesternUnion** | Fixed and Ignored Reports<sup>2</sup> <br> Dupe-n-Dump<sup>13</sup>  | Self hosted | Trusted Hacker | 2",
+        "translatedContent": "| **WesternUnion** | Fixed and Ignored Reports<sup>2</sup> <br> Dupe-n-Dump<sup>13</sup>  | Self hosted | Trusted Hacker | 2"
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 52,
+        "rowsha": "mGGFcNQM8KvTONeh1B6E6fX38pmfFOJkVisO4joYDMo=",
+        "originContent": "## Details",
+        "translatedContent": "## Details"
+      },
+      {
+        "row": 53,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 54,
+        "rowsha": "7LKBQQGwyxUzbel5xfcn1sq0xO1XZSiH8qHILdeKu1w=",
+        "originContent": "- <sup>1</sup>**No rewards:** They promise rewards for reports in their program, but fail to pay them. Sometimes they just say they stopped paying rewards or they can't do it anymore.",
+        "translatedContent": "- <sup>1</sup>**No rewards:** They promise rewards for reports in their program, but fail to pay them. Sometimes they just say they stopped paying rewards or they can't do it anymore."
+      },
+      {
+        "row": 55,
+        "rowsha": "B22dqqe+++mbjhvWK6LoNU4lztHiGtsv7IbmcTo7yuE=",
+        "originContent": "- <sup>2</sup>**Ignored reports:** They never replied back to researcher. Never > 2 months and counting.",
+        "translatedContent": "- <sup>2</sup>**Ignored reports:** They never replied back to researcher. Never > 2 months and counting."
+      },
+      {
+        "row": 56,
+        "rowsha": "TyK67wrWcrgBMYyb3lwji/2lpJI9mWBXi5BS/nOJ0KM=",
+        "originContent": "- <sup>3</sup>**No impact but fixed:** Bug triaged as CVSS 0, no impact or similar but fixed anyways.  ",
+        "translatedContent": "- <sup>3</sup>**No impact but fixed:** Bug triaged as CVSS 0, no impact or similar but fixed anyways.  "
+      },
+      {
+        "row": 57,
+        "rowsha": "wsQKnhNrg7EzoC0uBuRpEeWhcTfzIA9USwfosqCrq10=",
+        "originContent": "- <sup>4</sup>**Failed to pay:** Agreed to pay a bounty but never accomplished it. Often ignoring follow-up emails.",
+        "translatedContent": "- <sup>4</sup>**Failed to pay:** Agreed to pay a bounty but never accomplished it. Often ignoring follow-up emails."
+      },
+      {
+        "row": 58,
+        "rowsha": "2FDKEtBI2zuJIh2/YAyanZnkYsV2ASgaFGMqB1DPd0c=",
+        "originContent": "- <sup>5</sup>**Patch & Pass:** They fix reported bugs but mark them as Out of scope.",
+        "translatedContent": "- <sup>5</sup>**Patch & Pass:** They fix reported bugs but mark them as Out of scope."
+      },
+      {
+        "row": 59,
+        "rowsha": "Ob8nEncDQ56zUMpbr34gR9hNemU7+NhRxboQ66RtdBo=",
+        "originContent": "- <sup>6</sup>**P1 or You're Out:** They won't invite you to their private program unless you report a P1/High bug.",
+        "translatedContent": "- <sup>6</sup>**P1 or You're Out:** They won't invite you to their private program unless you report a P1/High bug."
+      },
+      {
+        "row": 60,
+        "rowsha": "277cxxtNqQXtnbeSCPoq1Adfknrgf8qHc9vCO8+JJxY=",
+        "originContent": "- <sup>7</sup>**Duplicate Disguise:** They mark reports as duplicated when they are very unlikely to be reported before.",
+        "translatedContent": "- <sup>7</sup>**Duplicate Disguise:** They mark reports as duplicated when they are very unlikely to be reported before."
+      },
+      {
+        "row": 61,
+        "rowsha": "R1jfRZG0TmDlBJQq+GbrbmSw2Qi0rkQeUmuRUoS/n2A=",
+        "originContent": "- <sup>8</sup>**Duplicate Mirage:** They mark all (future) reports as dups without having the full list of domains. ",
+        "translatedContent": "- <sup>8</sup>**Duplicate Mirage:** They mark all (future) reports as dups without having the full list of domains. "
+      },
+      {
+        "row": 62,
+        "rowsha": "qVi53AGfD3LVifppDWiHt+ub1tG6uBB9bbe6mbOn6Ns=",
+        "originContent": "- <sup>9</sup>**Scope Surprise!:** They define their `in scope` and `out scope` after you send the report, they don't write it down in their program brief.",
+        "translatedContent": "- <sup>9</sup>**Scope Surprise!:** They define their `in scope` and `out scope` after you send the report, they don't write it down in their program brief."
+      },
+      {
+        "row": 63,
+        "rowsha": "AsvM0XkrX6RauXNK5FL3O48KnMt6E/uwlmghHl9mKLw=",
+        "originContent": "- <sup>10</sup>**Reward Gatekeepers:** They will pay a reward only if you have an account in their site (which might very difficult to get).",
+        "translatedContent": "- <sup>10</sup>**Reward Gatekeepers:** They will pay a reward only if you have an account in their site (which might very difficult to get)."
+      },
+      {
+        "row": 64,
+        "rowsha": "B7cB8qjKHgvFUDiLvJ/kCy6T8vp2kJA73Jkiy0hxxAI=",
+        "originContent": "- <sup>11</sup>**Bounty Roulette:** Not clear if they pay bounties or not. Often times the include deciving information: calling their page or site 'bug bounty program', having an email address containing bug bounty, etc. ",
+        "translatedContent": "- <sup>11</sup>**Bounty Roulette:** Not clear if they pay bounties or not. Often times the include deciving information: calling their page or site 'bug bounty program', having an email address containing bug bounty, etc. "
+      },
+      {
+        "row": 65,
+        "rowsha": "Wqzdem9cXA71NQP4I/Y6b4THjpms36hrw3SiQyp03d0=",
+        "originContent": "- <sup>12</sup>**Smokescreen Smackdown:** When a company tries to damage the reputation of a reporter.",
+        "translatedContent": "- <sup>12</sup>**Smokescreen Smackdown:** When a company tries to damage the reputation of a reporter."
+      },
+      {
+        "row": 66,
+        "rowsha": "hxapJngQY+N3csMLs0czFBdqhtbOpPAqpeRvv5lnCnY=",
+        "originContent": "- <sup>13</sup>**Dupe-n-Dump :** They mark all reports of the same type/class as dups.",
+        "translatedContent": "- <sup>13</sup>**Dupe-n-Dump :** They mark all reports of the same type/class as dups."
+      },
+      {
+        "row": 67,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

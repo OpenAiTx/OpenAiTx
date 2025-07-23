@@ -1,0 +1,590 @@
+[
+  {
+    "row": 1,
+    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+    "originContent": "<p align=\"center\">",
+    "translatedContent": "<p align=\"center\">"
+  },
+  {
+    "row": 2,
+    "rowsha": "v9efCtYii3klh1Pp8h4ogT6OeuHWOqQdG2UF2qCOuP8=",
+    "originContent": "\t<img src=\"https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/logo.png\" width=\"100\">",
+    "translatedContent": "\t<img src=\"https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/logo.png\" width=\"100\">"
+  },
+  {
+    "row": 3,
+    "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+    "originContent": "<br>",
+    "translatedContent": "<br>"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "PW03HRwQ+zuZBuw4uVNIkdRuBIcX7jI5ClNVmh7vPVw=",
+    "originContent": "# 产品简介",
+    "translatedContent": "# 製品紹介"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "Ei3+mOG3UypReeh6WRzaC3CJfUn6sO4iacAjDsyQHM4=",
+    "originContent": "蜂鸟（HummingBird） 是Golang语言实现的超轻量级物联网开发平台，他的核心服务完全由团队自行研发，从这个平台设计之初，轻量级、性能优异当作我们的一条开发准则。所以它服务都是采用Golang语言编写，占用内存极低。在数据存储上，我们创新的使用了SQLite和LevelDB当作了我们存储数据库，得益于SQLite的轻量级和LevelDB对数据的高吞吐和高压缩的特点， 经过实际测试，在1C/1G 100G存储的物理机上，可实现数千设备的连接和8000W条的消息存储。",
+    "translatedContent": "HummingBird（蜂鳥）はGolang言語で実装された超軽量のIoT開発プラットフォームであり、そのコアサービスは全てチーム内で独自に開発されています。このプラットフォームの設計当初から、軽量かつ高性能を開発方針の一つとして掲げています。したがって、サービスはすべてGolang言語で記述されており、メモリ消費が非常に低いです。データストレージには革新的にSQLiteとLevelDBを使用しており、SQLiteの軽量性とLevelDBの高スループット・高圧縮性能を活かし、実際のテストでは1C/1G、100Gストレージの物理マシン上で数千台のデバイス接続と8000万件のメッセージ保存を実現しています。"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "gso20UefQjYlHMl/8zuGqRyHkjpKSYQf/lsSMPcaurw=",
+    "originContent": "当然，如果您对数据有可靠行、海量存储等要求，您完全可以把SQLite和LevelDB换为MySQL和TDengine，蜂鸟物联网平台兼容多种数据库连接，用户可以根据自己的业务需要选择适合自己的数据库。",
+    "translatedContent": "もちろん、信頼性や大容量ストレージなどの要件がある場合は、SQLiteとLevelDBをMySQLやTDengineに置き換えることも可能です。HummingBird IoTプラットフォームは複数のデータベース接続に対応しており、ユーザーは自身のビジネスニーズに合わせて適切なデータベースを選択できます。"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "ZCekK2CX4YSmSns7Twj6aLPHoOrBWJP5j2ouLRDfOPE=",
+    "originContent": "“麻雀（蜂鸟）虽小，五脏俱全” 虽然蜂鸟作为一个超轻量级物联网平台，但是他的核心功能并不会消减。设备接入、产品管理、物模型、告警中心、规则引擎...这些所有物联网平台的标配功能，都可以在本平台中找到。",
+    "translatedContent": "「雀（蜂鳥）は小さいが、五臓はすべて揃っている」 超軽量IoTプラットフォームでありながら、HummingBirdのコア機能は削減されていません。デバイス接続、製品管理、物モデル、アラートセンター、ルールエンジン…これらのすべてのIoTプラットフォームの標準機能は、本プラットフォームで見つけることができます。"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "r7zDH53Ux5J8xFpAlqL7I8Ssc3V2jwqfQsIlorKmxLI=",
+    "originContent": "![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/architecture.png)",
+    "translatedContent": "![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/architecture.png)"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "TR3+PewRyt260LGBE2Kh10gNvQeVkROqV2YM4eUioGw=",
+    "originContent": "# 部分页面展示",
+    "translatedContent": "# 一部ページの表示"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "RmHea6Q6qs0C7F/a/kTSUQKw7q3POgM6vDeUeBqJ3rM=",
+    "originContent": "| ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/1.png) | ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/2.png)  |",
+    "translatedContent": "| ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/1.png) | ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/2.png)  |"
+  },
+  {
+    "row": 24,
+    "rowsha": "6IpdgXLO8aBYYMP5di9i3i3yGSDPeNqFjlWNgLvii7o=",
+    "originContent": "|:--------------------------|:---------------------------|",
+    "translatedContent": "|:--------------------------|:---------------------------|"
+  },
+  {
+    "row": 25,
+    "rowsha": "N24z/PVrhE8zn6wsQjaDOOn3WMCxQkpoMQtrDLLB2H0=",
+    "originContent": "| ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/3.png) | ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/4.png)  |",
+    "translatedContent": "| ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/3.png) | ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/4.png)  |"
+  },
+  {
+    "row": 26,
+    "rowsha": "xxmp8/Qcj68Bv7vuLRXKuIoiNh1mSUxFexcSxct4VuA=",
+    "originContent": "| ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/5.png) | ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/6.png)  |",
+    "translatedContent": "| ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/5.png) | ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/6.png)  |"
+  },
+  {
+    "row": 27,
+    "rowsha": "WF8h/nuKcvo0IAGNzQv50DDUk3IKAJOVjag9348QFjE=",
+    "originContent": "| ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/9.png) | ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/10.png) |",
+    "translatedContent": "| ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/9.png) | ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/10.png) |"
+  },
+  {
+    "row": 28,
+    "rowsha": "COCtzz4YdrUI5o04sJ19rATIDZEIpy4+kfdR44Bs97I=",
+    "originContent": "| ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/7.png) | ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/8.png)  |",
+    "translatedContent": "| ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/7.png) | ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/8.png)  |"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "+laSSrLvWb49eOxczj1TNi9fkqS4yIvFLYVuP2Zk5k8=",
+    "originContent": "# 小程序页面展示",
+    "translatedContent": "# ミニプログラムページの表示"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "RVlVmGbVqOZOY//oIMmcpCQ6v05GzOK2gKv3FQcHLhw=",
+    "originContent": "| ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/miniapp-merge1.png) | ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/miniapp-merge2.png) |",
+    "translatedContent": "| ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/miniapp-merge1.png) | ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/miniapp-merge2.png) |"
+  },
+  {
+    "row": 33,
+    "rowsha": "ofCMBsdlNqMUzfSho7ItpuWG6F7TtF6kRmBDCDpo0KA=",
+    "originContent": "|:---------------------------------------|:---------------------------------------|",
+    "translatedContent": "|:---------------------------------------|:---------------------------------------|"
+  },
+  {
+    "row": 34,
+    "rowsha": "zoQyg1myGwc2o1Fqepgbelgmnac/xecBmqjmoYbdhgw=",
+    "originContent": "| ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/miniapp-merge3.png) | ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/miniapp-merge4.png) |",
+    "translatedContent": "| ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/miniapp-merge3.png) | ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/miniapp-merge4.png) |"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "yKSGEPahs3jvx8nR8dVdb1RaFZaQfOVMtSbJCuLXMto=",
+    "originContent": "# 官方文档地址",
+    "translatedContent": "# 公式ドキュメントURL"
+  },
+  {
+    "row": 37,
+    "rowsha": "/499DoOaT68vmwaBPA1HVrEoc8V7M+Q8AeJ7VnIobEg=",
+    "originContent": "https://doc.hummingbird.winc-link.com/",
+    "translatedContent": "https://doc.hummingbird.winc-link.com/"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "fl4J2MTGEi2ZkF9aVZxKlII1996rCFZP6uqVwEbLCQ0=",
+    "originContent": "# 快速启动",
+    "translatedContent": "# クイックスタート"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "kr8KqPcrLi6dWsBmBAZIp4i0MO7FmmvRtvo0ToFRNxg=",
+    "originContent": "git clone https://gitee.com/winc-link/hummingbird.git",
+    "translatedContent": "git clone https://gitee.com/winc-link/hummingbird.git"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "kYMyWlttIX3U+x+HwePCqcQpEqac/pJWAkTLTv0r56Y=",
+    "originContent": "cd hummingbird/manifest/docker ",
+    "translatedContent": "cd hummingbird/manifest/docker "
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "GmKC1SWK/ZUqHRly18aVX6jh20ULj0RvyugNeDsD7eA=",
+    "originContent": "docker-compose up -d",
+    "translatedContent": "docker-compose up -d"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "/4PkmIcJhfYpbRG5ce4HmZ/0hatLpZqG7ks+KS+D3ag=",
+    "originContent": "# 主要功能",
+    "translatedContent": "# 主な機能"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "chX55CQDqJaycM7aKNPwuEKRyFQ31dFLTVsc/9DUoNA=",
+    "originContent": "- 产品管理",
+    "translatedContent": "- 製品管理"
+  },
+  {
+    "row": 50,
+    "rowsha": "2MUd/fZJQ6pQyBI2IDuVxjfJKt/iherOWSlgDbFmJVQ=",
+    "originContent": "- 设备管理",
+    "translatedContent": "- デバイス管理"
+  },
+  {
+    "row": 51,
+    "rowsha": "5Jj3CDIOTaUGgTubTJu91wGVt+v1DtPn17z3HbPMwk4=",
+    "originContent": "- 镜像管理",
+    "translatedContent": "- イメージ管理"
+  },
+  {
+    "row": 52,
+    "rowsha": "JSsJG7Eyduy0x3Ozpo7QwmLJQuEDvVakL+FHZ8uzELU=",
+    "originContent": "- 驱动管理",
+    "translatedContent": "- ドライバー管理"
+  },
+  {
+    "row": 53,
+    "rowsha": "qHb9rzfmWsokyT/1nOsD1UNaqIUBMiTfRuIkoxuC7lU=",
+    "originContent": "- 驱动市场",
+    "translatedContent": "- ドライバーマーケット"
+  },
+  {
+    "row": 54,
+    "rowsha": "A5myZCyWV+UVs5yH6fPUkoBfJWfKOj4OCrQeH8NQMaQ=",
+    "originContent": "- 系统监控",
+    "translatedContent": "- システム監視"
+  },
+  {
+    "row": 55,
+    "rowsha": "wjPlbm4jYcOKsXaCQG51v7CThvF8go5Q+8w57lnuoQA=",
+    "originContent": "- 告警中心",
+    "translatedContent": "- アラートセンター"
+  },
+  {
+    "row": 56,
+    "rowsha": "3ThjO6b53XcL3TAvjCTUkxKAf6YSno0enmZpev7h02A=",
+    "originContent": "- 资源管理",
+    "translatedContent": "- リソース管理"
+  },
+  {
+    "row": 57,
+    "rowsha": "2+XIhZmmB688/7/IgF+81oZVGukw5+/w64ruR3QazfA=",
+    "originContent": "- 规则引擎",
+    "translatedContent": "- ルールエンジン"
+  },
+  {
+    "row": 58,
+    "rowsha": "E6EamMfPkXv86Daj4X17h39KgMKf6CTDS/eFGYGOcgA=",
+    "originContent": "- 场景联动",
+    "translatedContent": "- シナリオ連動"
+  },
+  {
+    "row": 59,
+    "rowsha": "EoPAv1/uZDXhyb/rDTVhGz5LBuHT4iU4mB/VEXOkQDE=",
+    "originContent": "- 插件市场",
+    "translatedContent": "- プラグインマーケット"
+  },
+  {
+    "row": 60,
+    "rowsha": "ibMw5y8RenTQzRciFhC8xAqFawOrqpcD6+n5SetbyA4=",
+    "originContent": "- 数据大屏",
+    "translatedContent": "- データダッシュボード"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "XdY6esvYiADJ74/yTHcIVgx5fnaN3ILVf/nhwuZxnEA=",
+    "originContent": "# 产品优势",
+    "translatedContent": "# 製品の強み"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "XafDh9mP66Zp+O4hz1r132AGMf5bbAyG6ib4E7ekhQA=",
+    "originContent": "- **免费开源**：我们源代码全部开源，可供个人学。",
+    "translatedContent": "- **無料オープンソース**：ソースコードはすべてオープンソースで、個人学習に利用可能です。"
+  },
+  {
+    "row": 65,
+    "rowsha": "hpxT71HdLiwoTkP3aR8WNnkk9PPb5kR2vYE+LFfdR3I=",
+    "originContent": "- **性能优异**：经过实际测试，在2C4G主机上，可支持60k的设备连接。模拟4k设备以1000ms的间隔向服务端发送16kb长度的属性数据，cpu使用率稳定在百分之60、内存使用率稳定在百分之16。",
+    "translatedContent": "- **高性能**：実際のテストでは2C4Gホストで6万台のデバイス接続をサポート。4千台のデバイスが1000ms間隔で16kbの属性データをサーバーに送信しても、CPU使用率は60％前後、メモリ使用率は16％前後で安定しています。"
+  },
+  {
+    "row": 66,
+    "rowsha": "ye3WBkO8TRNL5D822AJ0EgCyU9NfieJEChBqB55hy54=",
+    "originContent": "- **多数据支持**：平台支持SQLite、LevelDB和MySQL、TDengine数据库，用户可以根据自己的项目需要，选择适合自己的数据库。",
+    "translatedContent": "- **多データベース対応**：プラットフォームはSQLite、LevelDB、MySQL、TDengineをサポートしており、ユーザーはプロジェクトのニーズに応じて適切なデータベースを選択可能です。"
+  },
+  {
+    "row": 67,
+    "rowsha": "F0xouSPAsK3ZXpwxMJsKrimCxGpWvnjVvDcNrItk8og=",
+    "originContent": "- **支持可视化大屏**：用户只需要进行简单拖拽，无需写任何代码，即可完成可视化大屏开发设计。",
+    "translatedContent": "- **可視化ダッシュボード対応**：ユーザーは簡単なドラッグ＆ドロップ操作だけで、コードを書かずに可視化ダッシュボードの開発・設計を完了できます。"
+  },
+  {
+    "row": 68,
+    "rowsha": "cuq/ENlFMsTEm0SMIyxw5Ae6rcAY1gN8hqW9i8k8ONI=",
+    "originContent": "- **内置产品模版库**： 平台内部预置产品模版（390条），帮助用户一键创建产品。",
+    "translatedContent": "- **製品テンプレートライブラリ内蔵**：プラットフォームには390種類の製品テンプレートがあらかじめ用意されており、ユーザーはワンクリックで製品作成が可能です。"
+  },
+  {
+    "row": 69,
+    "rowsha": "EPZ8BPgXnMRDDOByjNz1gXPL8p2ljqf3m6/5+M/5e1Y=",
+    "originContent": "- **文档清晰**：平台文档清晰完整，文档内部有大量使用案例和视频教程，帮助用户快速理解产品和使用产品。",
+    "translatedContent": "- **明確なドキュメント**：プラットフォームのドキュメントは明確かつ完全で、多数の使用例やビデオチュートリアルが含まれており、ユーザーが製品を迅速に理解し利用できるよう支援します。"
+  },
+  {
+    "row": 70,
+    "rowsha": "eGPOSjyo8A9FDW/Hx+1aaKwpf0AB0Jh/PWdGQh0IkS0=",
+    "originContent": "- **部署简单**：平台所有服务都是以docker形式运行，支持docker-compose命令一键启动。",
+    "translatedContent": "- **簡単なデプロイ**：プラットフォームの全サービスはDocker形式で動作し、docker-composeコマンドでワンクリック起動が可能です。"
+  },
+  {
+    "row": 71,
+    "rowsha": "c7/yBgi0Tta8bfjYx2o+Fze2FkGO3DUps42H1eArCAE=",
+    "originContent": "- **成本优势**：在中小型物联网项目（设备数<=5000）中，只需要2C4G主机即可，并且还可以支持本地部署。",
+    "translatedContent": "- **コスト優位性**：中小規模のIoTプロジェクト（デバイス数<=5000）においては2C4Gホストで十分であり、ローカルデプロイにも対応しています。"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "O2A9iKW/0kV1d6AYHIYnayM/P9HleHiftcnqmjhCovs=",
+    "originContent": "#  联系我们",
+    "translatedContent": "# お問い合わせ"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "EEPHjSxv6YT0hPOht5i1sr0VXJm7mD9WK6dZYHMPpK8=",
+    "originContent": "我们开通了蜂鸟交流群，在使用在本品的过程中有任何问题，可以进群沟通。",
+    "translatedContent": "私たちはHummingBirdのユーザーグループを開設しています。本製品の使用中に何か問題があれば、グループに参加してご相談ください。"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "pWqFS7ARCpfYOt+BysPCGOdKXGG0dQY7dk6gxlDt+H8=",
+    "originContent": "| 微信群                (先加好友备注加群)                                                     | QQ群                                                                       |",
+    "translatedContent": "| WeChatグループ（友達追加後にグループ参加希望とメモしてください）                    | QQグループ                                                               |"
+  },
+  {
+    "row": 79,
+    "rowsha": "VzoWs2vk3jKs5Ng7v9Y72WEqrkuapunszeeNJ26Y134=",
+    "originContent": "|:------------------------------------------------------------------------|:--------------------------------------------------------------------------|",
+    "translatedContent": "|:------------------------------------------------------------------------|:--------------------------------------------------------------------------|"
+  },
+  {
+    "row": 80,
+    "rowsha": "LqvF4Z9oHGXfNu1hlkDJD+XkqA9FGC2RtXNxtEz9xYI=",
+    "originContent": "| ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/qweixin.png) | ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/qq.png) |",
+    "translatedContent": "| ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/qweixin.png) | ![](https://raw.githubusercontent.com/winc-link/hummingbird/master/manifest/image/qq.png) |"
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "2rn1aCMCJGDaGXr8feQfiSojYGr69W6MXvsGkm3f7zQ=",
+    "originContent": "# 开源贡献",
+    "translatedContent": "# オープンソースへの貢献"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "skeRquUzHu5kri/rl7ahPbhETl8SDJc1OxEWKSSyY48=",
+    "originContent": "-   从 `master` 分支 `checkout` 一个新分支（**注**：请务必保证 `master` 代码是最新的）",
+    "translatedContent": "-   `master` ブランチから新しいブランチを `checkout` します（**注意**：`master` コードが最新であることを必ず確認してください）"
+  },
+  {
+    "row": 85,
+    "rowsha": "8rJMZEMYSJjGmBo+cAAWh7KEL0735Jub4gPD4FiJ794=",
+    "originContent": "-   新分支命名格式：`feature/username/description`，例如：`feature/pick/mqtt_driver`",
+    "translatedContent": "-   新しいブランチの命名形式は `feature/username/description` です。例：`feature/pick/mqtt_driver`"
+  },
+  {
+    "row": 86,
+    "rowsha": "JEcUtqaCrj/GtbTahDxJ4WRM2XNq1XQk3en4d8/Ljm0=",
+    "originContent": "-   在新分支上编辑文档、代码，并提交代码",
+    "translatedContent": "-   新しいブランチでドキュメントやコードを編集し、コミットしてください"
+  },
+  {
+    "row": 87,
+    "rowsha": "3L82LKDa/6ZNtk91uDqx2c7pDKtZvevme3EqcJgqArs=",
+    "originContent": "-   提交 `PR` 合并到 `develop` 分支，等待作者合并即可",
+    "translatedContent": "-   `PR` を送信して `develop` ブランチにマージを依頼し、作者のマージを待ちます"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "+u0hbJNwdBKK7oDjIDX9FIcszmc0vHYQFJRVIKvk9OA=",
+    "originContent": "# 开源协议",
+    "translatedContent": "# オープンソースライセンス"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "Wk+zHToQm/KsQkf98/xWNHqglNrZ+Ww3HkJPL8tmR3A=",
+    "originContent": "`Hummingbird` 开源平台遵循 [Apache 2.0 协议](https://www.apache.org/licenses/LICENSE-2.0.html) 如果你想把蜂鸟物联网平台进行商用，请提前找作者授权！",
+    "translatedContent": "`Hummingbird` オープンプラットフォームは [Apache 2.0 ライセンス](https://www.apache.org/licenses/LICENSE-2.0.html) に準拠しています。HummingBird IoTプラットフォームを商用利用する場合は、事前に作者に許諾を得てください！"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "4zf9LaAgC3oEnb1ggiFqOCI9HC17z3tdWv1YEg5ZgdU=",
+    "originContent": "## Stargazers over time",
+    "translatedContent": "## Stargazersの推移"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "PReivR80v0izKTwscQLElbRED79pMyAzcMqinlllOYo=",
+    "originContent": "[![Stargazers over time](https://starchart.cc/winc-link/hummingbird.svg)](https://starchart.cc/winc-link/hummingbird)",
+    "translatedContent": "[![Stargazers over time](https://starchart.cc/winc-link/hummingbird.svg)](https://starchart.cc/winc-link/hummingbird)"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "row": 1,
+    "rowsha": "5UoDpkcLYimBiipze5paOmyIdfQTzdu+QbAgTk94KuQ=",
+    "originContent": "# Class Informer",
+    "translatedContent": "# 类信息器  "
+  },
+  {
+    "row": 2,
+    "rowsha": "5XAGmjMokZRcNoT6hAGiPBr/4zV7j/7FYFcUY3NIcDc=",
+    "originContent": "Use the original classinformer (See the URL below).  ",
+    "translatedContent": "使用原始的 classinformer（见以下网址）。  "
+  },
+  {
+    "row": 3,
+    "rowsha": "Y2QpwS9PDLHDLhYff93F6JOnM0yh16uK85nm9XsWfyI=",
+    "originContent": "https://github.com/kweatherman/IDA_ClassInformer_PlugIn",
+    "translatedContent": "https://github.com/kweatherman/IDA_ClassInformer_PlugIn  "
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "vxyfXGnOjHuDglNxYLcXfmjRK/lIhxaxwNTJLlI8yIM=",
+    "originContent": "The original author, Kevin Weatherman aka \"Sirmabus\", now released the plugin for IDA 9 on the URL above.",
+    "translatedContent": "原作者 Kevin Weatherman，也称为“Sirmabus”，现已在上述网址发布了适用于 IDA 9 的插件。  "
+  },
+  {
+    "row": 6,
+    "rowsha": "4l5O9UIdkQz+yQkocGkZbIAqOwiciFSlUTzIJcEBOFE=",
+    "originContent": "So the puprose of this repositry is now over!",
+    "translatedContent": "因此，本仓库的目的已完成！  "
+  },
+  {
+    "row": 7,
+    "rowsha": "cpvw2045JxnUs0L99q5INlGQA9tQyd96/seRdJTfp30=",
+    "originContent": "It's time to archive this repositry.",
+    "translatedContent": "现在是归档此仓库的时候了。  "
+  },
+  {
+    "row": 8,
+    "rowsha": "SEurOgIUw7GB1iXhsXsqchZPFgY3Z4dC1jP9KyCptRA=",
+    "originContent": "---------------------------------",
+    "translatedContent": "---------------------------------  "
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "1fbOuyXhhy6gtSBxzyOw7sB2IycYf+qsMsU8MWTGh0Q=",
+    "originContent": "IDA Class Informer plugin for IDA Pro 9 and 8. It is just a ported version of the [original classinformer](https://sourceforge.net/projects/classinformer/) to work on IDA 8 and 9. Therefore, I will not actively develop it. If you want to improve it, send the PR to me. Do not open an issue for improvement requests.",
+    "translatedContent": "IDA Class Informer 插件，适用于 IDA Pro 9 和 8。它只是[原始 classinformer](https://sourceforge.net/projects/classinformer/)的移植版本，支持 IDA 8 和 9。因此，我不会积极开发它。如果你想改进它，请向我发送 PR。不要为改进请求打开 issue。  "
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "3mV4Am45x657oXmUtuhysVfwod4SXj38pCIYN1nwE9c=",
+    "originContent": " - This plugin has been tested with IDA Pro `9.1`, `9.0 SP1`, `9.0`, `8.4 SP2`, `8.2 SP1` and `8.0` on both 32-bit and 64-bit versions.",
+    "translatedContent": " - 该插件已在 IDA Pro `9.1`、`9.0 SP1`、`9.0`、`8.4 SP2`、`8.2 SP1` 和 `8.0` 的 32 位和 64 位版本上进行了测试。  "
+  },
+  {
+    "row": 13,
+    "rowsha": "UbiH3zZSVXqmU9ExEqlaSu0VMObd0L08d7Onz2+zRNY=",
+    "originContent": "   - ***IMPORTANT!!!*** IDA Pro 9.0 ***beta*** is NOT supported. Use released versions.",
+    "translatedContent": "   - ***重要！！！*** IDA Pro 9.0 ***beta*** 不支持。请使用正式发布版本。  "
+  },
+  {
+    "row": 14,
+    "rowsha": "lc2du9y1iUquEbUOAPIfq1p1yWYhWRUW5HGdHrlD/x4=",
+    "originContent": "   - IDA Pro 7.x cannot load this plugin. Use [the original one](https://sourceforge.net/projects/classinformer/).",
+    "translatedContent": "   - IDA Pro 7.x 无法加载该插件。请使用[原始版本](https://sourceforge.net/projects/classinformer/)。  "
+  },
+  {
+    "row": 15,
+    "rowsha": "GBTxsWzGWpoWArZn4fLSEvGJShprAnS5CJrHmLFDeqU=",
+    "originContent": " - **This plugin only supports parsing MSVC++'s RTTI on PE formatted binaries for x86, x64, ARM and ARM64 for Windows.** I WILL NOT support GCC's RTTI and other architectures.",
+    "translatedContent": " - **该插件仅支持解析 Windows 平台上 PE 格式二进制文件中 MSVC++ 的 RTTI，支持 x86、x64、ARM 和 ARM64 架构。**我不会支持 GCC 的 RTTI 和其他架构。  "
+  },
+  {
+    "row": 16,
+    "rowsha": "VBf2WNLRDUZRq6sfh7tKjO1lhZeTbYIXCPxtwXBzG7k=",
+    "originContent": " - For IDA 9, you just need to install `ClassInformer64.dll`.",
+    "translatedContent": " - 对于 IDA 9，只需安装 `ClassInformer64.dll`。  "
+  },
+  {
+    "row": 17,
+    "rowsha": "CGzm9YfGNDo1oANtA5I2J5TShVLbnW9CGkA5YzSF/tw=",
+    "originContent": " - For IDA 8, you need to install both `ClassInformer_IDA8x64.dll` and `ClassInformer_IDA8x.dll`.",
+    "translatedContent": " - 对于 IDA 8，需要安装 `ClassInformer_IDA8x64.dll` 和 `ClassInformer_IDA8x.dll` 两个文件。  "
+  },
+  {
+    "row": 18,
+    "rowsha": "9igbWimbuygcNMThrgJnyY8TYR170Yf7ug3KdqD6g40=",
+    "originContent": " - If you have both IDA 8 and 9 on your machine, copy them to the IDA's directories according to the versions, or copy all dlls into `%IDAUSR%\\plugins`.",
+    "translatedContent": " - 如果你的机器上同时安装了 IDA 8 和 9，请根据版本将它们复制到 IDA 的相应目录，或将所有 dll 复制到 `%IDAUSR%\\plugins`。  "
+  },
+  {
+    "row": 19,
+    "rowsha": "v/8MbtWeHv8Y9psYmCmHpop6SKYqeBz876KHMBzii1w=",
+    "originContent": "   - If you do not know about IDAUSR, see [this blog post](https://hex-rays.com/blog/igors-tip-of-the-week-33-idas-user-directory-idausr).",
+    "translatedContent": "   - 如果你不了解 IDAUSR，请参阅[这篇博客文章](https://hex-rays.com/blog/igors-tip-of-the-week-33-idas-user-directory-idausr)。  "
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "QthUtrLFJhAm9mK+lb9STCileImPtOmEdm/neA89axg=",
+    "originContent": "## Download",
+    "translatedContent": "## 下载  "
+  },
+  {
+    "row": 22,
+    "rowsha": "7xvAMHsjryBccsBK/mHwQuuZdrFye0WW57CDDtOj6SI=",
+    "originContent": "- You can download compiled binaries from the [Releases](../../releases) section.",
+    "translatedContent": "- 你可以从[Releases](../../releases)部分下载编译好的二进制文件。"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

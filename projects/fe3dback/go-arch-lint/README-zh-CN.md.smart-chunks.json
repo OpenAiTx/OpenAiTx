@@ -1,0 +1,1363 @@
+[
+  {
+    "Id": 1,
+    "Content": "![Logo image](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/logo.png)\n\nLinter used to enforce some good project structure and validate top level architecture (code layers) \n\n[![Go Report Card](https://goreportcard.com/badge/github.com/fe3dback/go-arch-lint)](https://goreportcard.com/report/github.com/fe3dback/go-arch-lint)\n[![go-recipes](https://raw.githubusercontent.com/nikolaydubina/go-recipes/main/badge.svg?raw=true)](https://github.com/nikolaydubina/go-recipes)\n\n## Quick start\n\n### What exactly is project architecture?\n\nYou can imagine some simple architecture, for example classic onion part from \"clean architecture\":\n\n![Layouts example](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/layout_example.png)\n\nAnd describe/declare it as semantic yaml linter config:\n",
+    "ContentSha": "URmjHyfsSsq/XlO/aUZVsJXvG/KegyyVzlkIxBfGcQM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "![Logo image](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/logo.png)\n\nLinter used to enforce some good project structure and validate top level architecture (code layers) \n\n[![Go Report Card](https://goreportcard.com/badge/github.com/fe3dback/go-arch-lint)](https://goreportcard.com/report/github.com/fe3dback/go-arch-lint)\n[![go-recipes](https://raw.githubusercontent.com/nikolaydubina/go-recipes/main/badge.svg?raw=true)](https://github.com/nikolaydubina/go-recipes)\n\n## Quick start\n\n### What exactly is project architecture?\n\nYou can imagine some simple architecture, for example classic onion part from \"clean architecture\":\n\n![Layouts example](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/layout_example.png)\n\nAnd describe/declare it as semantic yaml linter config:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "zIbS+wMq2nTxX//YGz0OrwcznIFzvuAFj9+VtvsP5rw=",
+        "originContent": "![Logo image](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/logo.png)",
+        "translatedContent": "![Logo image](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/logo.png)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "KqgJ2K36BrZznE2yz2qom/ukv53ZSUpKps/g7c4e+1s=",
+        "originContent": "Linter used to enforce some good project structure and validate top level architecture (code layers) ",
+        "translatedContent": "Linter used to enforce some good project structure and validate top level architecture (code layers) "
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "4dCV2t/6MIOg16VG9f34ExBWTUzfMJB55GVj34XvSNI=",
+        "originContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/fe3dback/go-arch-lint)](https://goreportcard.com/report/github.com/fe3dback/go-arch-lint)",
+        "translatedContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/fe3dback/go-arch-lint)](https://goreportcard.com/report/github.com/fe3dback/go-arch-lint)"
+      },
+      {
+        "row": 6,
+        "rowsha": "NgMg/yvRlTc73FhHmlZoq0eDNsaUbSd1lciOIbCkeK8=",
+        "originContent": "[![go-recipes](https://raw.githubusercontent.com/nikolaydubina/go-recipes/main/badge.svg?raw=true)](https://github.com/nikolaydubina/go-recipes)",
+        "translatedContent": "[![go-recipes](https://raw.githubusercontent.com/nikolaydubina/go-recipes/main/badge.svg?raw=true)](https://github.com/nikolaydubina/go-recipes)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "lTWxC+mrt6h3iMP1EHwhgic0pFB660ZPhxD7jEhmuWU=",
+        "originContent": "## Quick start",
+        "translatedContent": "## Quick start"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "p4k+rz9jaSaaT5O/AEbItYm6K7bLJkjydBrwG2Z4Wz0=",
+        "originContent": "### What exactly is project architecture?",
+        "translatedContent": "### What exactly is project architecture?"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "P3IBrX5ISC01DV961ZX3GxiM7o43DYLIoypNn5gDb5M=",
+        "originContent": "You can imagine some simple architecture, for example classic onion part from \"clean architecture\":",
+        "translatedContent": "You can imagine some simple architecture, for example classic onion part from \"clean architecture\":"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "jrSxgbXmSNmU6KRmzr7wMZPA4UDePQ4rZGksw1Lx8sc=",
+        "originContent": "![Layouts example](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/layout_example.png)",
+        "translatedContent": "![Layouts example](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/layout_example.png)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "kL5OeZ7YOpJG0/qhKPZGMiT7NRmHA6Uo9d++L10yzL0=",
+        "originContent": "And describe/declare it as semantic yaml linter config:",
+        "translatedContent": "And describe/declare it as semantic yaml linter config:"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```yaml\nversion: 3\nworkdir: internal\ncomponents:\n  handler:    { in: handlers/* }           # wildcard one level\n  service:    { in: services/** }          # wildcard many levels\n  repository: { in: domain/*/repository }  # wildcard DDD repositories\n  model:      { in: models }               # match exactly one package\n\ncommonComponents:\n  - models\n\ndeps:\n  handler:\n    mayDependOn:\n      - service\n  service:\n    mayDependOn:\n      - repository\n```",
+    "ContentSha": "ytcCpj1Ag00DGMi/AECFLSVCA4H3gLpIQCCoWEZCXH4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\nversion: 3\nworkdir: internal\ncomponents:\n  handler:    { in: handlers/* }           # wildcard one level\n  service:    { in: services/** }          # wildcard many levels\n  repository: { in: domain/*/repository }  # wildcard DDD repositories\n  model:      { in: models }               # match exactly one package\n\ncommonComponents:\n  - models\n\ndeps:\n  handler:\n    mayDependOn:\n      - service\n  service:\n    mayDependOn:\n      - repository\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "7ZBBGFC3W6anSC1I2U4gOKoMNIhXxkwoK9b4J1w36FU=",
+        "originContent": "version: 3",
+        "translatedContent": "version: 3"
+      },
+      {
+        "row": 3,
+        "rowsha": "pj9uwk5PfapuS9NiGkACJ5WUVfyNgMXPpJpEATbqP50=",
+        "originContent": "workdir: internal",
+        "translatedContent": "workdir: internal"
+      },
+      {
+        "row": 4,
+        "rowsha": "pbbqC0E/B1JEKQvB0qYoM2LR9X+wYyZRSC4JHHUj8EM=",
+        "originContent": "components:",
+        "translatedContent": "components:"
+      },
+      {
+        "row": 5,
+        "rowsha": "NsqfKrWcgVVXw2HCvARALmuKwm1mXqyBO7e3ivBx0Wk=",
+        "originContent": "  handler:    { in: handlers/* }           # wildcard one level",
+        "translatedContent": "  handler:    { in: handlers/* }           # wildcard one level"
+      },
+      {
+        "row": 6,
+        "rowsha": "qj6PStAb/y00X5Rn+fQujAe3v9bZ77Ij5TnrZ3NyUks=",
+        "originContent": "  service:    { in: services/** }          # wildcard many levels",
+        "translatedContent": "  service:    { in: services/** }          # wildcard many levels"
+      },
+      {
+        "row": 7,
+        "rowsha": "ZZCrC8rhrKrLQwMP6CRzahMMnR12aGsvWVHaI7Nl7DM=",
+        "originContent": "  repository: { in: domain/*/repository }  # wildcard DDD repositories",
+        "translatedContent": "  repository: { in: domain/*/repository }  # wildcard DDD repositories"
+      },
+      {
+        "row": 8,
+        "rowsha": "NrzXWOk6tpfrkOeYWHbCoaBIA9ipoqJmGLdsdoqARBw=",
+        "originContent": "  model:      { in: models }               # match exactly one package",
+        "translatedContent": "  model:      { in: models }               # match exactly one package"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "7V8flSXejcPDwGQxzlH5Bsr7BQclTQxu5fk4nd6npvY=",
+        "originContent": "commonComponents:",
+        "translatedContent": "commonComponents:"
+      },
+      {
+        "row": 11,
+        "rowsha": "pAPOTAg0PE4kQk/pKYhNtZVwccd0aztoz5CyZjnytqw=",
+        "originContent": "  - models",
+        "translatedContent": "  - models"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "N/sLwEpGuqSM6iz/KmkMLm2FycPW57pP6EEzjGauBTQ=",
+        "originContent": "deps:",
+        "translatedContent": "deps:"
+      },
+      {
+        "row": 14,
+        "rowsha": "U75Kg1mfFi7haknjG2XZw7ANuuHv2CZYOwSONr8WJVE=",
+        "originContent": "  handler:",
+        "translatedContent": "  handler:"
+      },
+      {
+        "row": 15,
+        "rowsha": "F+sUkpX+fhRDk06bpsFY9B29N1J1tsDcoWODTa5rRnM=",
+        "originContent": "    mayDependOn:",
+        "translatedContent": "    mayDependOn:"
+      },
+      {
+        "row": 16,
+        "rowsha": "hbHyPCPQDriiAxzDzmyfmJsmTzYAwrOA28Ebb6Z3DU0=",
+        "originContent": "      - service",
+        "translatedContent": "      - service"
+      },
+      {
+        "row": 17,
+        "rowsha": "TzVvdKdp5Gx8clLralGDqpoGrm3mF25MyToNtDCTPBI=",
+        "originContent": "  service:",
+        "translatedContent": "  service:"
+      },
+      {
+        "row": 18,
+        "rowsha": "F+sUkpX+fhRDk06bpsFY9B29N1J1tsDcoWODTa5rRnM=",
+        "originContent": "    mayDependOn:",
+        "translatedContent": "    mayDependOn:"
+      },
+      {
+        "row": 19,
+        "rowsha": "U3XbS4ZOtCGFmgRux9yY+jW24Hzrom24vXbnKeA3Ra4=",
+        "originContent": "      - repository",
+        "translatedContent": "      - repository"
+      },
+      {
+        "row": 20,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nsee [config syntax](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/docs/syntax/README.md) for details. \n\nAnd now linter will check all project code inside `internal` workdir\nand show warnings, when code violate this rules.\n\nFor best experience you can add linter into CI workflow\n\n### Example of broken code\n\nImagine some `main.go`, when we provide `repository` into `handler` and get some bad\nflow:\n",
+    "ContentSha": "b0CagCdhN2vtOWiILT7vdQ9HXwEJmhvTRmklwBJN1Pw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\n详情请参见[配置语法](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/docs/syntax/README.md)。\n\n现在，linter 将检查 `internal` 工作目录内的所有项目代码，\n当代码违反这些规则时会显示警告。\n\n为了获得最佳体验，您可以将 linter 集成到 CI 流程中。\n\n### 代码错误示例\n\n假设有一个 `main.go`，我们将 `repository` 传入 `handler` 并出现一些不良的\n流程：\n</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "84Ml9dlop73Aa3wT+lq0yJ56n0Y7fEiUeAYsV1F+AL8=",
+        "originContent": "see [config syntax](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/docs/syntax/README.md) for details. ",
+        "translatedContent": "详情请参见[配置语法](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/docs/syntax/README.md)。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "VLHEobgtp2+g3d5kMr2ITj0fBOcseWR8hLJLQty0ciE=",
+        "originContent": "And now linter will check all project code inside `internal` workdir",
+        "translatedContent": "现在，linter 将检查 `internal` 工作目录内的所有项目代码，"
+      },
+      {
+        "row": 5,
+        "rowsha": "l8pBucSjtRmNuWb6vJWQI6dyNBgAJRsqcvRHBVjkHuU=",
+        "originContent": "and show warnings, when code violate this rules.",
+        "translatedContent": "当代码违反这些规则时会显示警告。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "4HI16ixT9QMjUQoq4CwrF1DbGv902n9MTF2HEe+hOcA=",
+        "originContent": "For best experience you can add linter into CI workflow",
+        "translatedContent": "为了获得最佳体验，您可以将 linter 集成到 CI 流程中。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "IHkpfBCIebv5y/FMLtDu1//+nwG79ytNcni4n9gbMVc=",
+        "originContent": "### Example of broken code",
+        "translatedContent": "### 代码错误示例"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "tO63giLNnHws6B2KqC52m7oMw+hQH7plHSlP/vVd9mQ=",
+        "originContent": "Imagine some `main.go`, when we provide `repository` into `handler` and get some bad",
+        "translatedContent": "假设有一个 `main.go`，我们将 `repository` 传入 `handler` 并出现一些不良的"
+      },
+      {
+        "row": 12,
+        "rowsha": "t9A9Mzdjcz1mVWZORmsyp8vxz9mnPPhK000Q2jc+j9Q=",
+        "originContent": "flow:",
+        "translatedContent": "流程："
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```go\nfunc main() {\n  // ..\n  repository := booksRepository.NewRepository()\n  handler := booksHandler.NewHandler(\n    service,\n    repository, // !!!\n  )\n  // ..\n}\n```",
+    "ContentSha": "lYlOZQb6h1lhmZ36kP0TfMPwI35YJY45jgAtIx2BqHo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```go\nfunc main() {\n  // ..\n  repository := booksRepository.NewRepository()\n  handler := booksHandler.NewHandler(\n    service,\n    repository, // !!!\n  )\n  // ..\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+        "originContent": "```go",
+        "translatedContent": "```go"
+      },
+      {
+        "row": 2,
+        "rowsha": "477XskFGOI6HtL1vgLCndqbEY9HpnF/1YFeYnaoIPXA=",
+        "originContent": "func main() {",
+        "translatedContent": "func main() {"
+      },
+      {
+        "row": 3,
+        "rowsha": "Sl8N9J9nNMZkmBeeky2OReqaWuAw35U/9YqX+2c0mgY=",
+        "originContent": "  // ..",
+        "translatedContent": "  // .."
+      },
+      {
+        "row": 4,
+        "rowsha": "oWu4VWuE3zf7u2PXFgKY9rrwY3zrz9gKKcblIN64EeI=",
+        "originContent": "  repository := booksRepository.NewRepository()",
+        "translatedContent": "  repository := booksRepository.NewRepository()"
+      },
+      {
+        "row": 5,
+        "rowsha": "J+McEqjDCpYsp968AywKTTp7OXtzxBumrdPTeP7Ivdk=",
+        "originContent": "  handler := booksHandler.NewHandler(",
+        "translatedContent": "  handler := booksHandler.NewHandler("
+      },
+      {
+        "row": 6,
+        "rowsha": "+Z0NxOwxJBB9OgXBGU4tFRQM+RwXMwsJZ/O1dDvCeUY=",
+        "originContent": "    service,",
+        "translatedContent": "    service,"
+      },
+      {
+        "row": 7,
+        "rowsha": "l38RLyva1EAllsBODaWNuxqVqKFSkSP/plioCTCYQ5M=",
+        "originContent": "    repository, // !!!",
+        "translatedContent": "    repository, // !!!"
+      },
+      {
+        "row": 8,
+        "rowsha": "VnaeW8EnGwYM9MSuq5yNVQnljMkGons90qcsO2zWKCA=",
+        "originContent": "  )",
+        "translatedContent": "  )"
+      },
+      {
+        "row": 9,
+        "rowsha": "Sl8N9J9nNMZkmBeeky2OReqaWuAw35U/9YqX+2c0mgY=",
+        "originContent": "  // ..",
+        "translatedContent": "  // .."
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nLinter will easily found this issue:\n\n![Check stdout example](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/check-example.png)\n\n### Install/Run\n\n#### Wia Docker\n",
+    "ContentSha": "WJ7R9410nSLuEQVUWn66ySWLLBXyNyJ5rCOS5NEBrOM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content>\nLinter 会轻松发现此问题：\n\n![检查标准输出示例](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/check-example.png)\n\n### 安装/运行\n\n#### 使用 Docker\n</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<translate-content>"
+      },
+      {
+        "row": 2,
+        "rowsha": "oCKC9OjQytnkkjjJVIRtok8WVipKX2umALLjshRP1aI=",
+        "originContent": "Linter will easily found this issue:",
+        "translatedContent": "Linter 会轻松发现此问题："
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "HlS5fxIY8HRNFTUpBuJY5SjWVxKxBb2zPWaFwxpPXzM=",
+        "originContent": "![Check stdout example](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/check-example.png)",
+        "translatedContent": "![检查标准输出示例](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/check-example.png)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "DIXjto6uAKxPyTFgLRGBtvLNLBcfMumDhnm/9SzhY8k=",
+        "originContent": "### Install/Run",
+        "translatedContent": "### 安装/运行"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "xR/qlCoqfPmkPuOfmsLdN4HJzUdUQt1T34iPli9dOWc=",
+        "originContent": "#### Wia Docker",
+        "translatedContent": "#### 使用 Docker"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\ndocker run --rm -v ${PWD}:/app fe3dback/go-arch-lint:latest-stable-release check --project-path /app\n```",
+    "ContentSha": "d0EmSuTm4mpReSBwXnF52hlHdhH7/fC4fkgS49FD8nE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ndocker run --rm -v ${PWD}:/app fe3dback/go-arch-lint:latest-stable-release check --project-path /app\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "eElstKYvkZu12Eyt7bzNt0Z4Kz/kr6Y71yXqVOVrza0=",
+        "originContent": "docker run --rm -v ${PWD}:/app fe3dback/go-arch-lint:latest-stable-release check --project-path /app",
+        "translatedContent": "docker run --rm -v ${PWD}:/app fe3dback/go-arch-lint:latest-stable-release check --project-path /app"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n[other docker tags and versions](https://hub.docker.com/r/fe3dback/go-arch-lint/tags)\n\n#### From sources\nIt require go 1.20+\n",
+    "ContentSha": "YKpCyd+iGx46w1Ro3I9+sHDurkXA8660qt4VBDtqxIs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "[其他 docker 标签和版本](https://hub.docker.com/r/fe3dback/go-arch-lint/tags)\n\n#### 从源码编译\n需要 go 1.20+\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[其他 docker 标签和版本](https://hub.docker.com/r/fe3dback/go-arch-lint/tags)"
+      },
+      {
+        "row": 2,
+        "rowsha": "z/sOSyGnm0x5j6P6jjlvCsbAZ0oDl4azOy1Eq0b2Xb4=",
+        "originContent": "[other docker tags and versions](https://hub.docker.com/r/fe3dback/go-arch-lint/tags)",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### 从源码编译"
+      },
+      {
+        "row": 4,
+        "rowsha": "fQZ1rYDjHFp8Hw1mR/SOruvJDne+guRgU3ACs+9E3C4=",
+        "originContent": "#### From sources",
+        "translatedContent": "需要 go 1.20+"
+      },
+      {
+        "row": 5,
+        "rowsha": "r0Y5rFk2AOzbZD1ryykM1Hask6uKSKvcX8B/vsGRVuA=",
+        "originContent": "It require go 1.20+",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\ngo install github.com/fe3dback/go-arch-lint@latest\n```",
+    "ContentSha": "hCHrtS7M5P6UVtzvLo7EQ1GW7Qmt7VC8dJ9f6VaRB9o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngo install github.com/fe3dback/go-arch-lint@latest\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "maX4HUWyUnqNo694y14KREs36FNsHeNlhD4hr9qG66s=",
+        "originContent": "go install github.com/fe3dback/go-arch-lint@latest",
+        "translatedContent": "go install github.com/fe3dback/go-arch-lint@latest"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\ngo-arch-lint check --project-path ~/code/my-project\n# or\ncd ~/code/my-project\ngo-arch-lint check\n```",
+    "ContentSha": "sO6Jplf/pgDsMRRwAmo7s3F1JuGYcJ3VLU4fc7aEPdY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngo-arch-lint check --project-path ~/code/my-project\n# or\ncd ~/code/my-project\ngo-arch-lint check\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "xFkaN66rbH3GqTIV+g/hr7if6DXctbt+rF+0C3hyQDo=",
+        "originContent": "go-arch-lint check --project-path ~/code/my-project",
+        "translatedContent": "go-arch-lint check --project-path ~/code/my-project"
+      },
+      {
+        "row": 3,
+        "rowsha": "aN479qeMJzSWQMGNYAknGvL7bw4bvOG2puihSc8yoE8=",
+        "originContent": "# or",
+        "translatedContent": "# or"
+      },
+      {
+        "row": 4,
+        "rowsha": "7co/u3UJuPk3gIV15RBbtvYpcuws5iJvnVb0gE41o2E=",
+        "originContent": "cd ~/code/my-project",
+        "translatedContent": "cd ~/code/my-project"
+      },
+      {
+        "row": 5,
+        "rowsha": "04Rbsdml44caHbSMCcukwqjMq44RBKHeWp7FHjYFml4=",
+        "originContent": "go-arch-lint check",
+        "translatedContent": "go-arch-lint check"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n#### Precompiled binaries\n\n[see on releases page](https://github.com/fe3dback/go-arch-lint/releases)\n\n### IDE plugin for autocompletion and other help\n\n<img src=\"https://user-images.githubusercontent.com/2073883/104641610-0f453900-56bb-11eb-8419-6d94fbcb4d2f.png\" alt=\"jetbrains goland logo\" align=\"left\" width=\"80px\" height=\"80px\">\n\nhttps://plugins.jetbrains.com/plugin/15423-goarchlint-file-support\n\n## Usage\n\n### How to add linter to existing project?\n\n![Adding linter steps](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/add-linter-steps.png)\n\nAdding a linter to a project takes several steps:\n\n1. Current state of the project\n2. Create a `.go-arch-lint.yml` file describing the ideal project architecture\n3. Linter find some issues in the project. Don’t fix them right now, but “legalize” them by adding them to the config and marking `todo` with the label\n4. In your free time, technical debt, etc. fix the code\n5. After fixes, clean up config to target state\n\n### Execute\n",
+    "ContentSha": "0+64SCkeFmoXjEn28plnQkfv8157uFmWl2H3GrOCcGc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "#### 预编译二进制文件\n\n[查看发布页面](https://github.com/fe3dback/go-arch-lint/releases)\n\n### IDE 插件，提供自动补全及其他辅助功能\n\n<img src=\"https://user-images.githubusercontent.com/2073883/104641610-0f453900-56bb-11eb-8419-6d94fbcb4d2f.png\" alt=\"jetbrains goland logo\" align=\"left\" width=\"80px\" height=\"80px\">\n\nhttps://plugins.jetbrains.com/plugin/15423-goarchlint-file-support\n\n## 使用方法\n\n### 如何将 linter 添加到现有项目？\n\n![添加 linter 的步骤](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/add-linter-steps.png)\n\n将 linter 添加到项目中需要几个步骤：\n\n1. 项目的当前状态\n2. 创建一个 `.go-arch-lint.yml` 文件，描述理想的项目架构\n3. Linter 在项目中发现一些问题。此时不必立刻修复，而是通过将它们添加到配置中并用标签标记为 `todo` 来“合法化”\n4. 在空闲时间、技术债务等情况下修复代码\n5. 修复后，清理配置以达到目标状态\n\n### 执行\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### 预编译二进制文件"
+      },
+      {
+        "row": 2,
+        "rowsha": "GSl9TxxySP9ED7+ROjHYPb2brWPXpbBUR4v3OZMj40I=",
+        "originContent": "#### Precompiled binaries",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[查看发布页面](https://github.com/fe3dback/go-arch-lint/releases)"
+      },
+      {
+        "row": 4,
+        "rowsha": "ni6DlbE6jBzGGYHJG6YhTQSfnbe9MCisxXK90HLjuPs=",
+        "originContent": "[see on releases page](https://github.com/fe3dback/go-arch-lint/releases)",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### IDE 插件，提供自动补全及其他辅助功能"
+      },
+      {
+        "row": 6,
+        "rowsha": "mkpADF0EpUzfprZHLcESv/1Uunme7+5B+baWI+cppTc=",
+        "originContent": "### IDE plugin for autocompletion and other help",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<img src=\"https://user-images.githubusercontent.com/2073883/104641610-0f453900-56bb-11eb-8419-6d94fbcb4d2f.png\" alt=\"jetbrains goland logo\" align=\"left\" width=\"80px\" height=\"80px\">"
+      },
+      {
+        "row": 8,
+        "rowsha": "8X7IpSVMVu6ttqEqyvn+BDA5CJt6oXUg7ckbqHezsDU=",
+        "originContent": "<img src=\"https://user-images.githubusercontent.com/2073883/104641610-0f453900-56bb-11eb-8419-6d94fbcb4d2f.png\" alt=\"jetbrains goland logo\" align=\"left\" width=\"80px\" height=\"80px\">",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "https://plugins.jetbrains.com/plugin/15423-goarchlint-file-support"
+      },
+      {
+        "row": 10,
+        "rowsha": "L4EkZB2VYLdNSAPAdINNx8l/o7GDyUoosUEoMp1VNKM=",
+        "originContent": "https://plugins.jetbrains.com/plugin/15423-goarchlint-file-support",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 使用方法"
+      },
+      {
+        "row": 12,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 如何将 linter 添加到现有项目？"
+      },
+      {
+        "row": 14,
+        "rowsha": "p+9N6yK81NEW8uLOuf5gGG0n97WpruJ8tLlCnkBm6f0=",
+        "originContent": "### How to add linter to existing project?",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![添加 linter 的步骤](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/add-linter-steps.png)"
+      },
+      {
+        "row": 16,
+        "rowsha": "e7bIT/f+Oy1btH33DisSXDZ81N/GfUJMtv5t9aSPbHk=",
+        "originContent": "![Adding linter steps](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/add-linter-steps.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "将 linter 添加到项目中需要几个步骤："
+      },
+      {
+        "row": 18,
+        "rowsha": "rKhlzqTh7Hv+cijHCHJm8dCQU2BHSO+s8xDJdTsp1Mc=",
+        "originContent": "Adding a linter to a project takes several steps:",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 项目的当前状态"
+      },
+      {
+        "row": 20,
+        "rowsha": "wwqk4EPAtqvmFlY5/15TCj4Jcp92B5COjVPNa3WaLG0=",
+        "originContent": "1. Current state of the project",
+        "translatedContent": "2. 创建一个 `.go-arch-lint.yml` 文件，描述理想的项目架构"
+      },
+      {
+        "row": 21,
+        "rowsha": "jZOLBBjGDn+g88RENT/a9zMTH0gT/f3V41r4kEqzu58=",
+        "originContent": "2. Create a `.go-arch-lint.yml` file describing the ideal project architecture",
+        "translatedContent": "3. Linter 在项目中发现一些问题。此时不必立刻修复，而是通过将它们添加到配置中并用标签标记为 `todo` 来“合法化”"
+      },
+      {
+        "row": 22,
+        "rowsha": "HGQFmGilyZQMWEFOe9sF7LQqVlkQkKHuEA6fyxESbSo=",
+        "originContent": "3. Linter find some issues in the project. Don’t fix them right now, but “legalize” them by adding them to the config and marking `todo` with the label",
+        "translatedContent": "4. 在空闲时间、技术债务等情况下修复代码"
+      },
+      {
+        "row": 23,
+        "rowsha": "I9yRwkTop6N625xTqBtCZdAxCF3wmVbeWg2cEXE2B4E=",
+        "originContent": "4. In your free time, technical debt, etc. fix the code",
+        "translatedContent": "5. 修复后，清理配置以达到目标状态"
+      },
+      {
+        "row": 24,
+        "rowsha": "0gus7t7aPPYrsGXFT33LozwfnDovDsRdOuSlmKU4HOM=",
+        "originContent": "5. After fixes, clean up config to target state",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 执行"
+      },
+      {
+        "row": 26,
+        "rowsha": "XSNeSmHBaAB7qpl088iM+xtx0BKBfwX4X+HEZNXhvS4=",
+        "originContent": "### Execute",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```\nUsage:\n  go-arch-lint check [flags]\n\nFlags:\n      --arch-file string      arch file path (default \".go-arch-lint.yml\")\n  -h, --help                  help for check\n      --max-warnings int      max number of warnings to output (default 512)\n      --project-path string   absolute path to project directory (where '.go-arch-lint.yml' is located) (default \"./\")\n\nGlobal Flags:\n      --json                   (alias for --output-type=json)\n      --output-color           use ANSI colors in terminal output (default true)\n      --output-json-one-line   format JSON as single line payload (without line breaks), only for json output type\n      --output-type string     type of command output, variants: [ascii, json] (default \"default\")\n```",
+    "ContentSha": "KjYSmDBttBSCMppz17cxSAOaETvIHdPRtdCxJPbuWTs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nUsage:\n  go-arch-lint check [flags]\n\nFlags:\n      --arch-file string      arch file path (default \".go-arch-lint.yml\")\n  -h, --help                  help for check\n      --max-warnings int      max number of warnings to output (default 512)\n      --project-path string   absolute path to project directory (where '.go-arch-lint.yml' is located) (default \"./\")\n\nGlobal Flags:\n      --json                   (alias for --output-type=json)\n      --output-color           use ANSI colors in terminal output (default true)\n      --output-json-one-line   format JSON as single line payload (without line breaks), only for json output type\n      --output-type string     type of command output, variants: [ascii, json] (default \"default\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "K60+6vM8r/47ybSCtJNO0Z607DYUwSNz4aXF+JSCF9o=",
+        "originContent": "Usage:",
+        "translatedContent": "Usage:"
+      },
+      {
+        "row": 3,
+        "rowsha": "J0FOwfifQ0JkshdwvZthLL/M4tdGqJ5iYk9QzAqHTmI=",
+        "originContent": "  go-arch-lint check [flags]",
+        "translatedContent": "  go-arch-lint check [flags]"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "LfiJOcz+4NKAFFkEjqlNWoSld/IcV3Tm18w6K8I5CC8=",
+        "originContent": "Flags:",
+        "translatedContent": "Flags:"
+      },
+      {
+        "row": 6,
+        "rowsha": "Y/2W24OnZmoFO2XiCPoDSkl0qQy71xXDBl8sMTC1Cio=",
+        "originContent": "      --arch-file string      arch file path (default \".go-arch-lint.yml\")",
+        "translatedContent": "      --arch-file string      arch file path (default \".go-arch-lint.yml\")"
+      },
+      {
+        "row": 7,
+        "rowsha": "b7u6cXcdHQ10+dtmM/UpXjWQ+jpUNoV7vKV+SeLDzx0=",
+        "originContent": "  -h, --help                  help for check",
+        "translatedContent": "  -h, --help                  help for check"
+      },
+      {
+        "row": 8,
+        "rowsha": "P4IBiW3UCCTfFpfQz6fyOshkljLQUhWReF53xTwjD00=",
+        "originContent": "      --max-warnings int      max number of warnings to output (default 512)",
+        "translatedContent": "      --max-warnings int      max number of warnings to output (default 512)"
+      },
+      {
+        "row": 9,
+        "rowsha": "gW386+DkYeG3v2HCmAWORshiAr8SPU+ehj+Tv0jA67I=",
+        "originContent": "      --project-path string   absolute path to project directory (where '.go-arch-lint.yml' is located) (default \"./\")",
+        "translatedContent": "      --project-path string   absolute path to project directory (where '.go-arch-lint.yml' is located) (default \"./\")"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "YfTGsOrm2/f0Cr79mJBHTCJN9+5xctlLec8nUrjT9qQ=",
+        "originContent": "Global Flags:",
+        "translatedContent": "Global Flags:"
+      },
+      {
+        "row": 12,
+        "rowsha": "1koKl4qJkVsS/Kw+AtbHZXtpJElaWksEpE9VsfKFF8k=",
+        "originContent": "      --json                   (alias for --output-type=json)",
+        "translatedContent": "      --json                   (alias for --output-type=json)"
+      },
+      {
+        "row": 13,
+        "rowsha": "1+Na0YsIwYPLo/lcy9xOtc1VIBzqUeQzYOnrcGcBOxU=",
+        "originContent": "      --output-color           use ANSI colors in terminal output (default true)",
+        "translatedContent": "      --output-color           use ANSI colors in terminal output (default true)"
+      },
+      {
+        "row": 14,
+        "rowsha": "T4/KCCoctrGJtON2zOE9aEKuCvlvd2rE2qgwCwAyBuM=",
+        "originContent": "      --output-json-one-line   format JSON as single line payload (without line breaks), only for json output type",
+        "translatedContent": "      --output-json-one-line   format JSON as single line payload (without line breaks), only for json output type"
+      },
+      {
+        "row": 15,
+        "rowsha": "eJTWaGPgdZFpaH6WgNfNAyrdFaY4rBv80U3eSa2241I=",
+        "originContent": "      --output-type string     type of command output, variants: [ascii, json] (default \"default\")",
+        "translatedContent": "      --output-type string     type of command output, variants: [ascii, json] (default \"default\")"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nThis linter will return:\n\n| Status Code | Description                      |\n|-------------|----------------------------------|\n| 0           | Project has correct architecture |\n| 1           | Found warnings                   |\n\n\n### How is working?\n\n![How is working](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/how-is-working.png)\n\nLinter will:\n- match/mark **go packages** with **components**\n- finds all dependencies between components\n- build a dependency graph\n- compares the actual (code) and desired (config) dependency graph\n- if it got a non-empty DIFF, then project has some issues\n\n## Graph\n\nExample config of this repository: [.go-arch-lint.yml](.go-arch-lint.yml)\n\n![graph](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/graph-example.png)\n\nYou can generate dependencies graph with command `graph`:\n",
+    "ContentSha": "CFGMT0SSp7J1jbWrVoaGEwE3Iims975AeCQrSdH4XRE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "该 linter 将返回：\n\n| 状态码       | 描述                             |\n|-------------|----------------------------------|\n| 0           | 项目架构正确                    |\n| 1           | 发现警告                        |\n\n\n### 工作原理是什么？\n\n![工作原理](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/how-is-working.png)\n\nLinter 将：\n- 匹配/标记 **go 包** 与 **组件**\n- 查找组件间的所有依赖关系\n- 构建依赖图\n- 比较实际（代码）和期望（配置）的依赖图\n- 如果存在非空差异，则项目存在一些问题\n\n## 图示\n\n本仓库的示例配置： [.go-arch-lint.yml](.go-arch-lint.yml)\n\n![图示](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/graph-example.png)\n\n您可以使用 `graph` 命令生成依赖关系图：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "该 linter 将返回："
+      },
+      {
+        "row": 2,
+        "rowsha": "5uHizgFOLmJdJSPiSu8Kh4bqaFYGi7hpIfb7IUUT2bo=",
+        "originContent": "This linter will return:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 状态码       | 描述                             |"
+      },
+      {
+        "row": 4,
+        "rowsha": "kaePHdy4s0+zrytfzcmzBQZovJ+YzV1EjQU6nK2S31A=",
+        "originContent": "| Status Code | Description                      |",
+        "translatedContent": "|-------------|----------------------------------|"
+      },
+      {
+        "row": 5,
+        "rowsha": "4HueembOVyiH3soiS1UH7tcqa+/7N5i6b+zGdozhjdM=",
+        "originContent": "|-------------|----------------------------------|",
+        "translatedContent": "| 0           | 项目架构正确                    |"
+      },
+      {
+        "row": 6,
+        "rowsha": "Tqub6i+Hc4WZySVBnyFnwaoT7LKAFSqKT8yu5ePWSXo=",
+        "originContent": "| 0           | Project has correct architecture |",
+        "translatedContent": "| 1           | 发现警告                        |"
+      },
+      {
+        "row": 7,
+        "rowsha": "LIR2Hv+E0KaQfKyuhmEwCEwdR1f7jG/L0/aXP1rWdnQ=",
+        "originContent": "| 1           | Found warnings                   |",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 工作原理是什么？"
+      },
+      {
+        "row": 10,
+        "rowsha": "q4/uSebn8ymUvDzMYDiwbZc1/jDGOB9wPQjdDY1JCbA=",
+        "originContent": "### How is working?",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![工作原理](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/how-is-working.png)"
+      },
+      {
+        "row": 12,
+        "rowsha": "pIcjYbfAwPvVB4QgHg/lawCDEQhRC6DywSAI03NYg2U=",
+        "originContent": "![How is working](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/how-is-working.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Linter 将："
+      },
+      {
+        "row": 14,
+        "rowsha": "R26x52wniXZANK/hPPcxfz60Avk8LxKZbieaTCDVTwo=",
+        "originContent": "Linter will:",
+        "translatedContent": "- 匹配/标记 **go 包** 与 **组件**"
+      },
+      {
+        "row": 15,
+        "rowsha": "0gCet3IOOKkx+oqV8MPZs2cs108dATOyBE6PpytKx8s=",
+        "originContent": "- match/mark **go packages** with **components**",
+        "translatedContent": "- 查找组件间的所有依赖关系"
+      },
+      {
+        "row": 16,
+        "rowsha": "9JWTZll43VxqxVvLI/nI6I77KzMndi41E1X3SMrlMmI=",
+        "originContent": "- finds all dependencies between components",
+        "translatedContent": "- 构建依赖图"
+      },
+      {
+        "row": 17,
+        "rowsha": "3jvDQkARlNMP3dAYUpRmJi/ugemI4fmJCitZ0tMecDc=",
+        "originContent": "- build a dependency graph",
+        "translatedContent": "- 比较实际（代码）和期望（配置）的依赖图"
+      },
+      {
+        "row": 18,
+        "rowsha": "/o7MUN10nDvJkjA1BXwuqdFdG7ErO0yoEXwpeGnrOig=",
+        "originContent": "- compares the actual (code) and desired (config) dependency graph",
+        "translatedContent": "- 如果存在非空差异，则项目存在一些问题"
+      },
+      {
+        "row": 19,
+        "rowsha": "SfR2BIhlLUCRZQ7lF0Xj4/cfXzohPCv4Gr+V6K01Pcs=",
+        "originContent": "- if it got a non-empty DIFF, then project has some issues",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 图示"
+      },
+      {
+        "row": 21,
+        "rowsha": "epPHFOIOLsB/rh2MotM1yx0VUOCT6g/hOwjiNZqr/yQ=",
+        "originContent": "## Graph",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "本仓库的示例配置： [.go-arch-lint.yml](.go-arch-lint.yml)"
+      },
+      {
+        "row": 23,
+        "rowsha": "bvWsoZluUldJqa6P93cRG9Ojw8FoQ0RRYP6GPAhU+OY=",
+        "originContent": "Example config of this repository: [.go-arch-lint.yml](.go-arch-lint.yml)",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![图示](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/graph-example.png)"
+      },
+      {
+        "row": 25,
+        "rowsha": "SDo1gJDeyj3XDFO4hG3UBiycJgsL8eBrreDFT+P5jGI=",
+        "originContent": "![graph](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/graph-example.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "您可以使用 `graph` 命令生成依赖关系图："
+      },
+      {
+        "row": 27,
+        "rowsha": "jzQPTcxV1e4VKc+xxAbHyapTPDtp/eHN0AQWmStA4q0=",
+        "originContent": "You can generate dependencies graph with command `graph`:",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```bash\ngo-arch-lint graph\n```",
+    "ContentSha": "s7tDu5F+0kSczVjjMKeKpioNPSvpZLw12xN/zMkSuO8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngo-arch-lint graph\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "oW/JrVd1bjgJB6XLBU2teZQvDFKHKDqnsw+xtHc7evQ=",
+        "originContent": "go-arch-lint graph",
+        "translatedContent": "go-arch-lint graph"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\nSee full [graph documentation](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/docs/graph/README.md) for details.\n\n### Pre-Commit\n\ngo-arch-lint can also be used as a pre-commit hook, acting before each commit is made.  \nThis is useful to always check that your new code still respects your repo architecture, and to always update your graph SVG.\n\n1. Install pre-commit from [https://pre-commit.com/#install](https://pre-commit.com/#install)\n2. Create a `.pre-commit-config.yaml` file at the root of your repository with the following content:\n",
+    "ContentSha": "xud0Tc4Xk80o4PsRGsCKzfwyJS1RdcA+85CgBl+OrbQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "查看完整的[图形文档](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/docs/graph/README.md)了解详情。\n\n### 提交前检查\n\ngo-arch-lint 也可以用作提交前钩子，在每次提交前运行。  \n这对于始终检查您的新代码是否仍符合仓库架构，以及始终更新图形 SVG 非常有用。\n\n1. 从 [https://pre-commit.com/#install](https://pre-commit.com/#install) 安装 pre-commit\n2. 在您的仓库根目录创建一个 `.pre-commit-config.yaml` 文件，内容如下：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "查看完整的[图形文档](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/docs/graph/README.md)了解详情。"
+      },
+      {
+        "row": 2,
+        "rowsha": "zpG5tGfOlNhPR7je+i/3nkxHOlEbEuP77qoIXo5mQUs=",
+        "originContent": "See full [graph documentation](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/docs/graph/README.md) for details.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 提交前检查"
+      },
+      {
+        "row": 4,
+        "rowsha": "0uuCCEWa7J+XNBbslgUOe5hqRfdqeEAAvQXC8Jjen1w=",
+        "originContent": "### Pre-Commit",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "go-arch-lint 也可以用作提交前钩子，在每次提交前运行。  "
+      },
+      {
+        "row": 6,
+        "rowsha": "LP1Qf/8KQ68A4XYlqnnzIH4PYw2yVfgJB4vKTLNXoCk=",
+        "originContent": "go-arch-lint can also be used as a pre-commit hook, acting before each commit is made.  ",
+        "translatedContent": "这对于始终检查您的新代码是否仍符合仓库架构，以及始终更新图形 SVG 非常有用。"
+      },
+      {
+        "row": 7,
+        "rowsha": "Wk24XBjzcWk6J05xLVlfaAh/Lj/VTa2m/ubf7w6umwk=",
+        "originContent": "This is useful to always check that your new code still respects your repo architecture, and to always update your graph SVG.",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 从 [https://pre-commit.com/#install](https://pre-commit.com/#install) 安装 pre-commit"
+      },
+      {
+        "row": 9,
+        "rowsha": "+g0aswHR+4yTtuI46tdxllInyVEeouTTDxzxPQJjPQs=",
+        "originContent": "1. Install pre-commit from [https://pre-commit.com/#install](https://pre-commit.com/#install)",
+        "translatedContent": "2. 在您的仓库根目录创建一个 `.pre-commit-config.yaml` 文件，内容如下："
+      },
+      {
+        "row": 10,
+        "rowsha": "bQw1anqJawdfLtxgyWN1rz1ncZjcEtvuhhnpwRsPCZc=",
+        "originContent": "2. Create a `.pre-commit-config.yaml` file at the root of your repository with the following content:",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```go\nrepos:\n  - repo: https://github.com/fe3dback/go-arch-lint\n    rev: master\n    hooks:\n      - id: go-arch-lint-check\n      - id: go-arch-lint-graph\n        args: ['--include-vendors=true', '--out=go-arch-lint-graph.svg']\n```",
+    "ContentSha": "4HpLVuxp02HbGA0Rr/cHYi3YosHcsz6tFng+TDSAyyA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```go\nrepos:\n  - repo: https://github.com/fe3dback/go-arch-lint\n    rev: master\n    hooks:\n      - id: go-arch-lint-check\n      - id: go-arch-lint-graph\n        args: ['--include-vendors=true', '--out=go-arch-lint-graph.svg']\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+        "originContent": "```go",
+        "translatedContent": "```go"
+      },
+      {
+        "row": 2,
+        "rowsha": "gG7GcEk5zj8z3jnK/AjBlNuoH009UcpsvAbq5KB2CDg=",
+        "originContent": "repos:",
+        "translatedContent": "repos:"
+      },
+      {
+        "row": 3,
+        "rowsha": "rVrFFy1v0ReOcGYfniCMI6vq/S4ZzE7zBGnStNkYtaw=",
+        "originContent": "  - repo: https://github.com/fe3dback/go-arch-lint",
+        "translatedContent": "  - repo: https://github.com/fe3dback/go-arch-lint"
+      },
+      {
+        "row": 4,
+        "rowsha": "Vr3g+L3TFJCSY8T9bK9GAwXOdTVsmqpxFMhzNcXi934=",
+        "originContent": "    rev: master",
+        "translatedContent": "    rev: master"
+      },
+      {
+        "row": 5,
+        "rowsha": "B1Y+1xoO3jmx7wEdpjyWSUcaHz9RnLZWj1oKBfBtQtQ=",
+        "originContent": "    hooks:",
+        "translatedContent": "    hooks:"
+      },
+      {
+        "row": 6,
+        "rowsha": "mbo80TSx5GBZXrucXPDPuqh+r+nAlVqkRJRZwkrWxGs=",
+        "originContent": "      - id: go-arch-lint-check",
+        "translatedContent": "      - id: go-arch-lint-check"
+      },
+      {
+        "row": 7,
+        "rowsha": "FI0mkHXiY/FYhEfpsFNb7fIdtVlZHYkZfikcLMq5PlI=",
+        "originContent": "      - id: go-arch-lint-graph",
+        "translatedContent": "      - id: go-arch-lint-graph"
+      },
+      {
+        "row": 8,
+        "rowsha": "omLHiYB6s2Q9q8t41n0+JQVqNig95OxjdL4+RVhg+hY=",
+        "originContent": "        args: ['--include-vendors=true', '--out=go-arch-lint-graph.svg']",
+        "translatedContent": "        args: ['--include-vendors=true', '--out=go-arch-lint-graph.svg']"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n3. If needed, add any flags you need in `args`.\n4. Auto-update the config to the latest repos' versions by executing `pre-commit autoupdate`\n5. Install with `pre-commit install`\n6. Now you're all set! Try a commit, and see the logs (passing or failing).\n\n",
+    "ContentSha": "RwsHydHvl/Ew4wpSliaz9bzS0NpVcusJhzkMN8agCYw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. 如果需要，在 `args` 中添加任何你需要的标志。  \n4. 通过执行 `pre-commit autoupdate` 自动将配置更新到最新的仓库版本。  \n5. 使用 `pre-commit install` 进行安装。  \n6. 现在一切就绪！尝试一次提交，查看日志（通过或失败）。  \n   \n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. 如果需要，在 `args` 中添加任何你需要的标志。  "
+      },
+      {
+        "row": 2,
+        "rowsha": "QFxjwnRpWQnRFPMRSHY7l8sgFhO5wdJjwAfhwKoYzU4=",
+        "originContent": "3. If needed, add any flags you need in `args`.",
+        "translatedContent": "4. 通过执行 `pre-commit autoupdate` 自动将配置更新到最新的仓库版本。  "
+      },
+      {
+        "row": 3,
+        "rowsha": "cxfJtu+4gdzd2ihkUeaEzE4cw95GHRszbqxIqxI4R/o=",
+        "originContent": "4. Auto-update the config to the latest repos' versions by executing `pre-commit autoupdate`",
+        "translatedContent": "5. 使用 `pre-commit install` 进行安装。  "
+      },
+      {
+        "row": 4,
+        "rowsha": "oz2GPOiO9gX/slShAK/fIVL+ICcDfzgx3lvj8Z0DDuM=",
+        "originContent": "5. Install with `pre-commit install`",
+        "translatedContent": "6. 现在一切就绪！尝试一次提交，查看日志（通过或失败）。  "
+      },
+      {
+        "row": 5,
+        "rowsha": "mxZ1cpKmGAEKRDub/zairvp+g68AZvuVotfTrLD6pu0=",
+        "originContent": "6. Now you're all set! Try a commit, and see the logs (passing or failing).",
+        "translatedContent": "   "
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -30,25 +30,27 @@
 
 <div align="center">
 
-# 🚀 훈련할 시간 없어!  
-### 훈련 없는 참조 기반 인스턴스 분할  
+# 🚀 학습할 시간이 없다!  
+### 학습 없이 참조 기반 인스턴스 분할  
 [![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)
 [![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)
 
-**최신 성능 (Papers with Code)**
+**최신 연구 성과 (Papers with Code)**
 
-[**_1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
+[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
-[**_10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
+[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
 
-[**_30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
+[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
 
 </div>
 
 ---
 
-> 🔔 **업데이트 (2025년 7월):** 코드가 지침과 함께 업데이트되었습니다!
+> 🚨 **업데이트 (2025년 7월 22일):** 커스텀 데이터셋에 대한 안내가 추가되었습니다!
+> 
+> 🔔 **업데이트 (2025년 7월 16일):** 코드가 안내와 함께 업데이트되었습니다!
 
 ---
 
@@ -58,7 +60,7 @@
 - [📜 초록](#-abstract)
 - [🧠 아키텍처](#-architecture)
 - [🛠️ 설치 안내](#️-installation-instructions)
-  - [1. 저장소 복제](#1-clone-the-repository)
+  - [1. 저장소 클론](#1-clone-the-repository)
   - [2. conda 환경 생성](#2-create-conda-environment)
   - [3. SAM2 및 DinoV2 설치](#3-install-sam2-and-dinov2)
   - [4. 데이터셋 다운로드](#4-download-datasets)
@@ -67,15 +69,21 @@
   - [0. 참조 세트 생성](#0-create-reference-set)
   - [1. 참조로 메모리 채우기](#1-fill-memory-with-references)
   - [2. 메모리 뱅크 후처리](#2-post-process-memory-bank)
-  - [3. 대상 이미지에서 추론](#3-inference-on-target-images)
+  - [3. 타겟 이미지에 대해 추론](#3-inference-on-target-images)
   - [결과](#results)
-- [🔍 인용](#-citation)
+- [🔍 커스텀 데이터셋](#-custom-dataset)
+  - [0. 커스텀 데이터셋 준비 ⛵🐦](#0-prepare-a-custom-dataset)
+  - [0.1 바운딩 박스 어노테이션만 있는 경우](#01-if-only-bbox-annotations-are-available)
+  - [0.2 coco 어노테이션을 pickle 파일로 변환](#02-convert-coco-annotations-to-pickle-file)
+  - [1. 참조로 메모리 채우기](#1-fill-memory-with-references)
+  - [2. 메모리 뱅크 후처리](#2-post-process-memory-bank)
+- [📚 인용](#-citation)
 
 
 ## 🎯 주요 특징
-- 💡 **훈련 필요 없음**: 파인튜닝이나 프롬프트 엔지니어링 없이, 참조 이미지만 사용  
-- 🖼️ **참조 기반**: 몇 개의 예시로 새로운 객체 분할  
-- 🔥 **최신 성능**: COCO, PASCAL VOC, Cross-Domain FSOD에서 기존 훈련 없는 방법보다 우수한 성능
+- 💡 **학습 불필요**: 파인튜닝, 프롬프트 엔지니어링 없이 참조 이미지만 있으면 됩니다.  
+- 🖼️ **참조 기반**: 몇 개의 예시만으로 새로운 객체를 분할합니다.  
+- 🔥 **최신 성능**: COCO, PASCAL VOC, Cross-Domain FSOD에서 기존 학습 없는 방식보다 우수한 성능을 보입니다.
 
 **링크:**
 - 🧾 [**arXiv 논문**](https://arxiv.org/abs/2507.02798)  
@@ -84,9 +92,10 @@
 
 ## 📜 초록
 
-> 이미지 분할 모델의 성능은 대규모 주석 데이터 수집의 높은 비용에 의해 역사적으로 제한되어 왔습니다. Segment Anything Model(SAM)은 프롬프트 기반, 의미 불가지론적 분할 패러다임을 통해 이 문제를 완화하지만 여전히 새로운 이미지를 처리하기 위해 수동 시각 프롬프트나 복잡한 도메인 종속 프롬프트 생성 규칙이 필요합니다. 이 새로운 부담을 줄이기 위해, 본 연구는 소수의 참조 이미지만 제공되는 객체 분할 작업을 탐구합니다. 우리의 핵심 통찰은 파운데이션 모델이 학습한 강력한 의미론적 사전 지식을 활용하여 참조 이미지와 대상 이미지 간의 대응 영역을 식별하는 것입니다. 이러한 대응은 다운스트림 작업을 위한 인스턴스 수준 분할 마스크의 자동 생성을 가능하게 하며, (1) 메모리 뱅크 구축, (2) 표현 집계, (3) 의미 인식 특성 매칭을 통합한 다단계 훈련 없는 방법으로 구현됩니다. 실험 결과, COCO FSOD(36.8% nAP), PASCAL VOC Few-Shot(71.2% nAP50), Cross-Domain FSOD 벤치마크(22.4% nAP)에서 최신 성능을 달성하며 분할 지표에서 상당한 개선을 보였습니다.
+> 이미지 분할 모델의 성능은 대규모 주석 데이터 수집의 높은 비용으로 인해 역사적으로 제한되어 왔습니다. Segment Anything Model(SAM)은 프롬프트 기반, 의미론 무관, 분할 패러다임을 통해 이 문제를 완화하지만 새로운 이미지를 처리하기 위해 여전히 수동 시각적 프롬프트나 복잡한 도메인 의존 프롬프트 생성 규칙이 필요합니다. 이러한 새로운 부담을 줄이기 위해, 본 연구는 소수의 참조 이미지만 제공받을 때 객체 분할 과제를 탐구합니다. 우리의 주요 통찰은 파운데이션 모델이 학습한 강력한 의미론적 사전 지식을 활용하여 참조 이미지와 타겟 이미지 간의 대응 영역을 식별하는 것입니다. 우리는 이러한 대응이 다운스트림 과제를 위한 인스턴스 수준의 분할 마스크를 자동으로 생성할 수 있음을 발견하였고, (1) 메모리 뱅크 구축, (2) 표현 통합, (3) 의미 인식 특성 매칭의 다단계, 학습 없는 방법을 통해 이를 구현하였습니다. 실험 결과, 분할 지표에서 유의미한 개선을 보였으며, COCO FSOD(36.8% nAP), PASCAL VOC Few-Shot(71.2% nAP50), Cross-Domain FSOD 벤치마크(22.4% nAP)에서 기존 학습 없는 방식보다 우수한 최신 성능을 달성하였습니다.
 
 ![cdfsod-results-final-comic-sans-min](https://github.com/user-attachments/assets/ab302c02-c080-4042-99fc-0e181ba8abb9)
+
 
 
 ## 🧠 아키텍처
@@ -96,8 +105,7 @@
 
 ## 🛠️ 설치 안내
 
-### 1. 저장소 복제
-
+### 1. 저장소를 클론하세요
 
 ```bash
 git clone https://github.com/miquel-espinosa/no-time-to-train.git
@@ -150,7 +158,7 @@ cd ../..
 유용한 변수를 정의하고 결과를 위한 폴더를 만듭니다:
 </translate-content>
 ```bash
-CONFIG=./dev_hongyi/new_exps/coco_fewshot_10shot_Sam2L.yaml
+CONFIG=./no_time_to_train/new_exps/coco_fewshot_10shot_Sam2L.yaml
 CLASS_SPLIT="few_shot_classes"
 RESULTS_DIR=work_dirs/few_shot_results
 SHOTS=30
@@ -164,7 +172,7 @@ FILENAME=few_shot_${SHOTS}shot_seed${SEED}.pkl
 
 
 ```bash
-python dev_hongyi/dataset/few_shot_sampling.py \
+python no_time_to_train/dataset/few_shot_sampling.py \
         --n-shot $SHOTS \
         --out-path ${RESULTS_DIR}/${FILENAME} \
         --seed $SEED \
@@ -208,17 +216,17 @@ python run_lightening.py test --config $CONFIG  \
                               --trainer.logger.save_dir ${RESULTS_DIR}/ \
                               --trainer.devices $GPUS
 ```
-<translate-content>
-온라인으로 추론 결과를 실시간으로 확인하고 싶다면 `dev_hongyi/models/Sam2MatchingBaseline_noAMG.py` 파일의 1746-1749행의 주석을 해제하세요 [여기](https://github.com/miquel-espinosa/no-time-to-train/blob/main/dev_hongyi/models/Sam2MatchingBaseline_noAMG.py#L1746).
-더 많거나 적은 분할된 인스턴스를 보려면 `score_thr` 점수 임계값 파라미터를 필요에 따라 조정하세요.
-이미지는 이제 `results_analysis/few_shot_classes/`에 저장됩니다. 왼쪽 이미지는 실제 정답을, 오른쪽 이미지는 학습 없는 방법으로 찾은 분할 인스턴스를 보여줍니다.
+온라인에서 추론 결과를 바로 보고 싶다면, `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py`의 1746-1749번째 줄의 주석을 해제하세요 [여기](https://github.com/miquel-espinosa/no-time-to-train/blob/main/no_time_to_train/models/Sam2MatchingBaseline_noAMG.py#L1746)에서 확인할 수 있습니다.
+분할 인스턴스를 더 많이 혹은 적게 보고 싶다면, `score_thr` 파라미터의 점수 임계값을 필요에 따라 조정하세요.
+이미지는 이제 `results_analysis/few_shot_classes/`에 저장됩니다. 왼쪽 이미지는 정답(ground truth)을, 오른쪽 이미지는 훈련 없이 분할된 인스턴스를 보여줍니다.
 
-이 예제에서는 `few_shot_classes` 분할을 사용하므로, 이 분할에 포함된 클래스의 분할 인스턴스만 볼 수 있어야 합니다 (COCO의 모든 클래스는 아님).
+이 예제에서는 `few_shot_classes` 분할을 사용하므로, 이 분할에 포함된 클래스의 분할 인스턴스만 볼 수 있습니다 (COCO의 모든 클래스가 아님에 주의하세요).
 
 #### 결과
 
-검증 세트의 모든 이미지를 실행한 후에는 다음을 얻을 수 있습니다:
-</translate-content>
+검증 세트의 모든 이미지를 실행한 후, 다음과 같은 결과를 얻을 수 있습니다:
+
+
 ```
 BBOX RESULTS:
   Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.368
@@ -228,10 +236,176 @@ SEGM RESULTS:
 ```
 ---
 
+## 🔍 커스텀 데이터셋
 
-## 🔍 Citation
+우리는 커스텀 데이터셋에서 파이프라인을 실행하는 방법에 대한 지침을 제공합니다. 어노테이션 포맷은 항상 COCO 포맷입니다.
 
-If you use this work, please cite us:
+> **요약;** *커스텀 데이터셋*에서 전체 파이프라인을 실행하는 방법을 바로 확인하려면, `scripts/matching_cdfsod_pipeline.sh`와 함께 CD-FSOD 데이터셋의 예시 스크립트(예: `scripts/dior_fish.sh`)를 참고하세요.
+
+### 0. 커스텀 데이터셋 준비하기 ⛵🐦
+
+예를 들어, 커스텀 데이터셋에서 **보트**⛵와 **새**🐦를 탐지하고 싶다고 가정해봅시다. 우리의 방법을 사용하려면 다음이 필요합니다:
+- 각 클래스마다 적어도 1장의 *어노테이션된* 기준 이미지(예: 보트 1장, 새 1장)
+- 원하는 클래스를 찾기 위한 여러 장의 타깃 이미지
+
+우리는 coco 이미지를 사용하여 **1-shot** 설정에 맞는 커스텀 데이터셋을 만드는 토이 스크립트를 준비했습니다.
+```bash
+python scripts/make_custom_dataset.py
+```
+이렇게 하면 다음과 같은 폴더 구조를 가진 사용자 지정 데이터셋이 생성됩니다:
+```
+data/my_custom_dataset/
+    ├── annotations/
+    │   ├── custom_references.json
+    │   ├── custom_targets.json
+    │   └── references_visualisations/
+    │       ├── bird_1.jpg
+    │       └── boat_1.jpg
+    └── images/
+        ├── 429819.jpg
+        ├── 101435.jpg
+        └── (all target and reference images)
+```
+**참조 이미지 시각화 (1-shot):**
+
+| BIRD 🐦의 1-shot 참조 이미지 | BOAT ⛵의 1-shot 참조 이미지 |
+|:-----------------------------:|:------------------------------:|
+| <img src="https://github.com/user-attachments/assets/e59e580d-a7db-42ac-b386-892af211fc85" alt="bird_1" width="500"/> | <img src="https://github.com/user-attachments/assets/f94ee025-ae37-4a45-9c3e-0cfe8f8cd2bc" alt="boat_1" width="500"/> |
+
+
+### 0.1 바운딩 박스 주석만 있는 경우
+
+SAM2를 사용하여 인스턴스 수준의 분할 마스크를 생성하는 스크립트도 제공합니다. 이는 참조 이미지에 대해 바운딩 박스 주석만 있는 경우에 유용합니다.
+
+
+```bash
+# Download sam_h checkpoint. Feel free to use more recent checkpoints (note: code might need to be adapted)
+wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth -O checkpoints/sam_vit_h_4b8939.pth
+# Run automatic instance segmentation from ground truth bounding boxes.
+python no_time_to_train/dataset/sam_bbox_to_segm_batch.py \
+    --input_json data/my_custom_dataset/annotations/custom_references.json \
+    --image_dir data/my_custom_dataset/images \
+    --sam_checkpoint checkpoints/sam_vit_h_4b8939.pth \
+    --model_type vit_h \
+    --device cuda \
+    --batch_size 8 \
+    --visualize
+```
+**SAM2로 gt 바운딩 박스에서 생성된 인스턴스 수준 분할 마스크가 포함된 참조 이미지(1-shot):**
+
+생성된 분할 마스크의 시각화 결과는 `data/my_custom_dataset/annotations/custom_references_with_SAM_segm/references_visualisations/`에 저장됩니다.
+
+| BIRD 🐦의 1-shot 참조 이미지 (SAM으로 자동 분할) | BOAT ⛵의 1-shot 참조 이미지 (SAM으로 자동 분할) |
+|:---------------------------------:|:----------------------------------:|
+| <img src="https://github.com/user-attachments/assets/65d38dc4-1454-43cd-9600-e8efc67b3a82" alt="bird_1_with_SAM_segm" width="500"/> | <img src="https://github.com/user-attachments/assets/43a558ad-50ca-4715-8285-9aa3268843c6" alt="boat_1_with_SAM_segm" width="500"/> |
+
+### 0.2 coco 어노테이션을 피클 파일로 변환
+
+
+
+
+```bash
+python no_time_to_train/dataset/coco_to_pkl.py \
+    data/my_custom_dataset/annotations/custom_references_with_segm.json \
+    data/my_custom_dataset/annotations/custom_references_with_segm.pkl \
+    1
+```
+### 1. 참조로 메모리 채우기
+
+먼저, 유용한 변수를 정의하고 결과를 위한 폴더를 만듭니다. 라벨의 올바른 시각화를 위해 클래스 이름은 json 파일에 나타나는 카테고리 id 순서대로 정렬되어야 합니다. 예를 들어, `bird`의 카테고리 id는 `16`, `boat`의 카테고리 id는 `9`입니다. 따라서 `CAT_NAMES=boat,bird`가 됩니다.
+
+
+```bash
+DATASET_NAME=my_custom_dataset
+DATASET_PATH=data/my_custom_dataset
+CAT_NAMES=boat,bird
+CATEGORY_NUM=2
+SHOT=1
+YAML_PATH=no_time_to_train/pl_configs/matching_cdfsod_template.yaml
+PATH_TO_SAVE_CKPTS=./tmp_ckpts/my_custom_dataset
+mkdir -p $PATH_TO_SAVE_CKPTS
+```
+1단계 실행:
+
+```bash
+python run_lightening.py test --config $YAML_PATH \
+    --model.test_mode fill_memory \
+    --out_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory.pth \
+    --model.init_args.dataset_cfgs.fill_memory.root $DATASET_PATH/images \
+    --model.init_args.dataset_cfgs.fill_memory.json_file $DATASET_PATH/annotations/custom_references_with_segm.json \
+    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $DATASET_PATH/annotations/custom_references_with_segm.pkl \
+    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \
+    --model.init_args.dataset_cfgs.fill_memory.cat_names $CAT_NAMES \
+    --model.init_args.model_cfg.dataset_name $DATASET_NAME \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+### 2. 후처리 메모리 뱅크
+
+
+```bash
+python run_lightening.py test --config $YAML_PATH \
+    --model.test_mode postprocess_memory \
+    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory.pth \
+    --out_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory_postprocessed.pth \
+    --model.init_args.model_cfg.dataset_name $DATASET_NAME \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+### 3. 타겟 이미지에 대한 추론
+
+`ONLINE_VIS`가 True로 설정되어 있으면, 예측 결과가 `results_analysis/my_custom_dataset/`에 저장되고 계산되는 대로 표시됩니다. 온라인 시각화와 함께 실행하면 속도가 훨씬 느려진다는 점에 유의하세요.
+
+분할된 인스턴스를 더 많이 또는 더 적게 보고 싶다면 점수 임계값 `VIS_THR`를 자유롭게 변경하세요.
+
+```bash
+ONLINE_VIS=True
+VIS_THR=0.4
+python run_lightening.py test --config $YAML_PATH \
+    --model.test_mode test \
+    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory_postprocessed.pth \
+    --model.init_args.model_cfg.dataset_name $DATASET_NAME \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --model.init_args.model_cfg.test.imgs_path $DATASET_PATH/images \
+    --model.init_args.model_cfg.test.online_vis $ONLINE_VIS \
+    --model.init_args.model_cfg.test.vis_thr $VIS_THR \
+    --model.init_args.dataset_cfgs.test.root $DATASET_PATH/images \
+    --model.init_args.dataset_cfgs.test.json_file $DATASET_PATH/annotations/custom_targets.json \
+    --model.init_args.dataset_cfgs.test.cat_names $CAT_NAMES \
+    --trainer.devices 1
+```
+### 결과
+
+성능 지표(위 명령어와 정확히 동일한 매개변수 사용)는 다음과 같아야 합니다:
+
+
+```
+BBOX RESULTS:
+  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.478
+
+SEGM RESULTS:
+  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.458
+```
+시각적 결과는 `results_analysis/my_custom_dataset/`에 저장됩니다. 본 방법은 원하는 클래스의 인스턴스가 없는 이미지(즉, false negative)에 대해서도 작동합니다.
+
+*이미지를 클릭하면 확대됩니다 ⬇️*
+
+| 보트가 있는 대상 이미지 ⛵ (왼쪽 GT, 오른쪽 예측) | 새가 있는 대상 이미지 🐦 (왼쪽 GT, 오른쪽 예측) |
+|:----------------------:|:----------------------:|
+| ![000000459673](https://github.com/user-attachments/assets/678dc15a-dd3b-49d5-9287-6290da16aa6b) | ![000000407180](https://github.com/user-attachments/assets/fe306e48-af49-4d83-ac82-76fac6c456d1) |
+
+| 보트와 새가 모두 있는 대상 이미지 ⛵🐦 (왼쪽 GT, 오른쪽 예측) | 보트나 새가 없는 대상 이미지 🚫 (왼쪽 GT, 오른쪽 예측) |
+|:---------------------------------:|:----------------------------------:|
+| ![000000517410](https://github.com/user-attachments/assets/9849b227-7f43-43d7-81ea-58010a623ad5) | ![000000460598](https://github.com/user-attachments/assets/7587700c-e09d-4cf6-8590-3df129c2568e) |
+
+
+## 📚 인용
+
+이 연구를 사용하신다면, 아래와 같이 인용해 주세요:
+
 
 ```bibtex
 @article{espinosa2025notimetotrain,
@@ -243,8 +417,9 @@ If you use this work, please cite us:
 }
 ```
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
 
 ---

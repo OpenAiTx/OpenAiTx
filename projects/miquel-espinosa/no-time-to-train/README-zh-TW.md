@@ -30,25 +30,27 @@
 
 <div align="center">
 
-# 🚀 沒有時間訓練！  
-### 無需訓練的參考式實例分割  
+# 🚀 沒時間訓練！
+### 無需訓練的基於參考的實例分割
 [![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)
 [![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)
 
 **最先進技術（Papers with Code）**
 
-[**_1次_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
+[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
-[**_10次_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
+[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
 
-[**_30次_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
+[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
 
 </div>
 
 ---
 
-> 🔔 **更新（2025年7月）：** 程式碼已更新並附上操作說明！
+> 🚨 **更新（2025年7月22日）：** 已新增自定義數據集的操作說明！
+> 
+> 🔔 **更新（2025年7月16日）：** 程式碼已更新並附上操作說明！
 
 ---
 
@@ -58,24 +60,30 @@
 - [📜 摘要](#-abstract)
 - [🧠 架構](#-architecture)
 - [🛠️ 安裝說明](#️-installation-instructions)
-  - [1. 複製儲存庫](#1-clone-the-repository)
-  - [2. 建立conda環境](#2-create-conda-environment)
-  - [3. 安裝SAM2與DinoV2](#3-install-sam2-and-dinov2)
+  - [1. 複製代碼庫](#1-clone-the-repository)
+  - [2. 建立 conda 環境](#2-create-conda-environment)
+  - [3. 安裝 SAM2 與 DinoV2](#3-install-sam2-and-dinov2)
   - [4. 下載數據集](#4-download-datasets)
-  - [5. 下載SAM2與DinoV2檢查點](#5-download-sam2-and-dinov2-checkpoints)
-- [📊 推論程式碼：在Few-shot COCO復現30-shot SOTA結果](#-inference-code)
+  - [5. 下載 SAM2 與 DinoV2 權重檔](#5-download-sam2-and-dinov2-checkpoints)
+- [📊 推理代碼：重現 Few-shot COCO 30-shot SOTA 結果](#-inference-code)
   - [0. 建立參考集](#0-create-reference-set)
-  - [1. 用參考圖填充記憶體](#1-fill-memory-with-references)
+  - [1. 以參考圖像填充記憶體](#1-fill-memory-with-references)
   - [2. 後處理記憶庫](#2-post-process-memory-bank)
-  - [3. 在目標圖像上推論](#3-inference-on-target-images)
+  - [3. 目標圖像推理](#3-inference-on-target-images)
   - [結果](#results)
-- [🔍 引用](#-citation)
+- [🔍 自定義數據集](#-custom-dataset)
+  - [0. 準備自定義數據集 ⛵🐦](#0-prepare-a-custom-dataset)
+  - [0.1 只有 bbox 標註時](#01-if-only-bbox-annotations-are-available)
+  - [0.2 將 coco 標註轉為 pickle 檔案](#02-convert-coco-annotations-to-pickle-file)
+  - [1. 以參考圖像填充記憶體](#1-fill-memory-with-references)
+  - [2. 後處理記憶庫](#2-post-process-memory-bank)
+- [📚 引用](#-citation)
 
 
 ## 🎯 亮點
-- 💡 **無需訓練**：無需微調，無需提示工程——只需一張參考圖像。  
-- 🖼️ **參考式**：僅用少量範例即可分割新物體。  
-- 🔥 **SOTA表現**：在COCO、PASCAL VOC和跨域FSOD上超越以往無需訓練方法。
+- 💡 **無需訓練**：無需微調、無需提示工程——只需一張參考圖像。  
+- 🖼️ **基於參考**：僅用少量樣本即可分割新物件。  
+- 🔥 **最先進表現**：在 COCO、PASCAL VOC 和跨領域 FSOD 上超越以往無需訓練方法。
 
 **連結：**
 - 🧾 [**arXiv 論文**](https://arxiv.org/abs/2507.02798)  
@@ -84,9 +92,10 @@
 
 ## 📜 摘要
 
-> 圖像分割模型的效能歷來受限於收集大規模標註數據的高昂成本。Segment Anything Model（SAM）通過可提示、語義無關的分割範式，緩解了這一原始問題，但在處理新圖像時仍需人工視覺提示或複雜的領域依賴提示生成規則。為減輕這一新負擔，我們探討了在只提供一小組參考圖像的情境下的物體分割任務。我們的關鍵洞察是利用基礎模型學到的強大語義先驗，來識別參考圖像與目標圖像之間的對應區域。我們發現這種對應關係能夠自動生成用於下游任務的實例級分割遮罩，並通過一種多階段、無需訓練的方法來實現我們的理念，包括（1）記憶庫構建；（2）表示聚合；（3）語義感知特徵匹配。我們的實驗在分割指標上顯著提升，在COCO FSOD（36.8% nAP）、PASCAL VOC少樣本（71.2% nAP50）上達到最先進水準，並在跨域FSOD基準上超越現有無需訓練方法（22.4% nAP）。
+> 影像分割模型的效能長期受限於蒐集大規模標註數據的高昂成本。Segment Anything Model（SAM）雖然通過可提示、語義無關的分割範式緩解了這一原始問題，但處理新影像時仍需手動視覺提示或複雜的、依賴領域的提示生成規則。為減少這一新負擔，我們的研究探索僅提供少量參考圖像下的物體分割任務。我們的關鍵洞見是利用基礎模型學習到的強語義先驗，來識別參考圖與目標圖中的對應區域。我們發現這種對應關係可實現下游任務自動生成實例級分割遮罩，並通過多階段、無需訓練的方法實現，包括 (1) 記憶庫建構；(2) 表徵聚合；(3) 語義感知特徵匹配。我們的實驗在分割指標上取得顯著提升，在 COCO FSOD（36.8% nAP）、PASCAL VOC Few-Shot（71.2% nAP50）上創下 SOTA 表現，並在 Cross-Domain FSOD 基準上超越現有無訓練方法（22.4% nAP）。
 
 ![cdfsod-results-final-comic-sans-min](https://github.com/user-attachments/assets/ab302c02-c080-4042-99fc-0e181ba8abb9)
+
 
 
 ## 🧠 架構
@@ -96,8 +105,7 @@
 
 ## 🛠️ 安裝說明
 
-### 1. 複製儲存庫
-
+### 1. 複製此代碼庫
 
 ```bash
 git clone https://github.com/miquel-espinosa/no-time-to-train.git
@@ -150,7 +158,7 @@ cd ../..
 
 
 ```bash
-CONFIG=./dev_hongyi/new_exps/coco_fewshot_10shot_Sam2L.yaml
+CONFIG=./no_time_to_train/new_exps/coco_fewshot_10shot_Sam2L.yaml
 CLASS_SPLIT="few_shot_classes"
 RESULTS_DIR=work_dirs/few_shot_results
 SHOTS=30
@@ -164,7 +172,7 @@ FILENAME=few_shot_${SHOTS}shot_seed${SEED}.pkl
 
 
 ```bash
-python dev_hongyi/dataset/few_shot_sampling.py \
+python no_time_to_train/dataset/few_shot_sampling.py \
         --n-shot $SHOTS \
         --out-path ${RESULTS_DIR}/${FILENAME} \
         --seed $SEED \
@@ -208,15 +216,15 @@ python run_lightening.py test --config $CONFIG  \
                               --trainer.logger.save_dir ${RESULTS_DIR}/ \
                               --trainer.devices $GPUS
 ```
-如果您想要即時查看推論結果（當它們被計算時），請取消註解 `dev_hongyi/models/Sam2MatchingBaseline_noAMG.py` 中第 1746-1749 行 [這裡](https://github.com/miquel-espinosa/no-time-to-train/blob/main/dev_hongyi/models/Sam2MatchingBaseline_noAMG.py#L1746)。
-根據需要調整分數閾值 `score_thr` 參數，以查看更多或更少的分割實例。
-影像將會被儲存在 `results_analysis/few_shot_classes/`。左側的影像顯示的是真實標註，右側的影像顯示的是我們無需訓練方法找到的分割實例。
+如果您希望即時查看推論結果（在計算時），請取消註解 `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py` 中第 1746-1749 行 [這裡](https://github.com/miquel-espinosa/no-time-to-train/blob/main/no_time_to_train/models/Sam2MatchingBaseline_noAMG.py#L1746)。
+根據需要調整分數門檻參數 `score_thr`，以顯示更多或更少的分割實例。
+影像將會儲存在 `results_analysis/few_shot_classes/`。左側的影像顯示真實標註，右側的影像顯示我們無需訓練方法所找到的分割實例。
 
-請注意，在此範例中我們使用的是 `few_shot_classes` 分割，因此，我們只應該看到該分割中的類別被分割出來的實例（而不是 COCO 中的所有類別）。
+請注意，在本範例中我們使用的是 `few_shot_classes` 分割，因此，我們僅應期望看到屬於此分割中的類別的分割實例（而非 COCO 的所有類別）。
 
 #### 結果
 
-在對驗證集中的所有影像進行推論後，您應該會得到：
+在對驗證集中的所有影像執行後，您應該會得到：
 
 
 ```
@@ -228,10 +236,176 @@ SEGM RESULTS:
 ```
 ---
 
+## 🔍 自訂資料集
 
-## 🔍 Citation
+我們提供了在自訂資料集上運行我們流程的操作說明。註釋格式一律採用 COCO 格式。
 
-If you use this work, please cite us:
+> **總結；** 若要直接查看如何在*自訂資料集*上運行完整流程，請參考 `scripts/matching_cdfsod_pipeline.sh` 以及 CD-FSOD 資料集的範例腳本（例如 `scripts/dior_fish.sh`）
+
+### 0. 準備自訂資料集 ⛵🐦
+
+假設我們想在自訂資料集中偵測**船隻**⛵和**鳥類**🐦。要使用我們的方法，您需要：
+- 每個類別至少 1 張*已註釋*的參考圖片（即 1 張船的參考圖片和 1 張鳥的參考圖片）
+- 多張目標圖片，用以尋找我們目標類別的實例。
+
+我們已準備了一個簡易腳本，能夠以 coco 圖片創建自訂資料集，適用於**1-shot**設置。
+```bash
+python scripts/make_custom_dataset.py
+```
+這將會建立一個具有以下資料夾結構的自訂資料集：
+```
+data/my_custom_dataset/
+    ├── annotations/
+    │   ├── custom_references.json
+    │   ├── custom_targets.json
+    │   └── references_visualisations/
+    │       ├── bird_1.jpg
+    │       └── boat_1.jpg
+    └── images/
+        ├── 429819.jpg
+        ├── 101435.jpg
+        └── (all target and reference images)
+```
+**參考圖片視覺化（1-shot）：**
+
+| BIRD 🐦 的 1-shot 參考圖片 | BOAT ⛵ 的 1-shot 參考圖片 |
+|:---------------------------:|:----------------------------:|
+| <img src="https://github.com/user-attachments/assets/e59e580d-a7db-42ac-b386-892af211fc85" alt="bird_1" width="500"/> | <img src="https://github.com/user-attachments/assets/f94ee025-ae37-4a45-9c3e-0cfe8f8cd2bc" alt="boat_1" width="500"/> |
+
+
+### 0.1 僅有 bbox 標註時
+
+我們也提供一個腳本，利用 SAM2 生成實例級分割遮罩。這在僅有參考圖片的邊界框標註時非常有用。
+
+
+```bash
+# Download sam_h checkpoint. Feel free to use more recent checkpoints (note: code might need to be adapted)
+wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth -O checkpoints/sam_vit_h_4b8939.pth
+# Run automatic instance segmentation from ground truth bounding boxes.
+python no_time_to_train/dataset/sam_bbox_to_segm_batch.py \
+    --input_json data/my_custom_dataset/annotations/custom_references.json \
+    --image_dir data/my_custom_dataset/images \
+    --sam_checkpoint checkpoints/sam_vit_h_4b8939.pth \
+    --model_type vit_h \
+    --device cuda \
+    --batch_size 8 \
+    --visualize
+```
+**帶有實例級分割遮罩的參考圖像（由 SAM2 根據 gt 邊界框生成，1-shot）：**
+
+產生的分割遮罩視覺化結果已儲存在 `data/my_custom_dataset/annotations/custom_references_with_SAM_segm/references_visualisations/`。
+
+| BIRD 🐦 的 1-shot 參考圖像（使用 SAM 自動分割） | BOAT ⛵ 的 1-shot 參考圖像（使用 SAM 自動分割） |
+|:---------------------------------:|:----------------------------------:|
+| <img src="https://github.com/user-attachments/assets/65d38dc4-1454-43cd-9600-e8efc67b3a82" alt="bird_1_with_SAM_segm" width="500"/> | <img src="https://github.com/user-attachments/assets/43a558ad-50ca-4715-8285-9aa3268843c6" alt="boat_1_with_SAM_segm" width="500"/> |
+
+### 0.2 將 coco 標註轉換為 pickle 檔案
+
+
+
+
+```bash
+python no_time_to_train/dataset/coco_to_pkl.py \
+    data/my_custom_dataset/annotations/custom_references_with_segm.json \
+    data/my_custom_dataset/annotations/custom_references_with_segm.pkl \
+    1
+```
+### 1. 以參考資料填充記憶體
+
+首先，定義有用的變數並建立一個用於儲存結果的資料夾。為了正確顯示標籤，類別名稱應按照 json 檔案中出現的類別 id 順序排列。例如，`bird` 的類別 id 為 `16`，`boat` 的類別 id 為 `9`。因此，`CAT_NAMES=boat,bird`。
+
+
+```bash
+DATASET_NAME=my_custom_dataset
+DATASET_PATH=data/my_custom_dataset
+CAT_NAMES=boat,bird
+CATEGORY_NUM=2
+SHOT=1
+YAML_PATH=no_time_to_train/pl_configs/matching_cdfsod_template.yaml
+PATH_TO_SAVE_CKPTS=./tmp_ckpts/my_custom_dataset
+mkdir -p $PATH_TO_SAVE_CKPTS
+```
+執行步驟 1：
+
+```bash
+python run_lightening.py test --config $YAML_PATH \
+    --model.test_mode fill_memory \
+    --out_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory.pth \
+    --model.init_args.dataset_cfgs.fill_memory.root $DATASET_PATH/images \
+    --model.init_args.dataset_cfgs.fill_memory.json_file $DATASET_PATH/annotations/custom_references_with_segm.json \
+    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $DATASET_PATH/annotations/custom_references_with_segm.pkl \
+    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \
+    --model.init_args.dataset_cfgs.fill_memory.cat_names $CAT_NAMES \
+    --model.init_args.model_cfg.dataset_name $DATASET_NAME \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+### 2. 後處理記憶體庫
+
+
+```bash
+python run_lightening.py test --config $YAML_PATH \
+    --model.test_mode postprocess_memory \
+    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory.pth \
+    --out_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory_postprocessed.pth \
+    --model.init_args.model_cfg.dataset_name $DATASET_NAME \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+### 3. 對目標圖像進行推論
+
+如果將 `ONLINE_VIS` 設為 True，預測結果將會儲存在 `results_analysis/my_custom_dataset/`，並在計算時即時顯示。請注意，啟用線上視覺化會使運行速度變慢許多。
+
+您可以自由調整分數閾值 `VIS_THR`，以查看更多或更少的分割實例。
+
+```bash
+ONLINE_VIS=True
+VIS_THR=0.4
+python run_lightening.py test --config $YAML_PATH \
+    --model.test_mode test \
+    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory_postprocessed.pth \
+    --model.init_args.model_cfg.dataset_name $DATASET_NAME \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --model.init_args.model_cfg.test.imgs_path $DATASET_PATH/images \
+    --model.init_args.model_cfg.test.online_vis $ONLINE_VIS \
+    --model.init_args.model_cfg.test.vis_thr $VIS_THR \
+    --model.init_args.dataset_cfgs.test.root $DATASET_PATH/images \
+    --model.init_args.dataset_cfgs.test.json_file $DATASET_PATH/annotations/custom_targets.json \
+    --model.init_args.dataset_cfgs.test.cat_names $CAT_NAMES \
+    --trainer.devices 1
+```
+### 結果
+
+性能指標（使用與上述指令完全相同的參數）應如下所示：
+
+
+```
+BBOX RESULTS:
+  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.478
+
+SEGM RESULTS:
+  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.458
+```
+視覺結果已儲存在 `results_analysis/my_custom_dataset/`。請注意，我們的方法適用於偽陰性，也就是那些不包含任何目標類別實例的影像。
+
+*點擊圖片以放大 ⬇️*
+
+| 含有船隻的目標影像 ⛵（左為GT，右為預測） | 含有鳥類的目標影像 🐦（左為GT，右為預測） |
+|:----------------------:|:----------------------:|
+| ![000000459673](https://github.com/user-attachments/assets/678dc15a-dd3b-49d5-9287-6290da16aa6b) | ![000000407180](https://github.com/user-attachments/assets/fe306e48-af49-4d83-ac82-76fac6c456d1) |
+
+| 含有船隻與鳥類的目標影像 ⛵🐦（左為GT，右為預測） | 不含船隻或鳥類的目標影像 🚫（左為GT，右為預測） |
+|:---------------------------------:|:----------------------------------:|
+| ![000000517410](https://github.com/user-attachments/assets/9849b227-7f43-43d7-81ea-58010a623ad5) | ![000000460598](https://github.com/user-attachments/assets/7587700c-e09d-4cf6-8590-3df129c2568e) |
+
+
+## 📚 引用
+
+如果您使用本研究，請引用我們：
+
 
 ```bibtex
 @article{espinosa2025notimetotrain,
@@ -243,8 +417,9 @@ If you use this work, please cite us:
 }
 ```
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
 
 ---
