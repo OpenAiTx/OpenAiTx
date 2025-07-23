@@ -1,4 +1,5 @@
-<translate-content># 🧘 zenta
+﻿
+# 🧘 zenta
 
 > **あなたのコーディングフローに合ったマインドフルネス**
 
@@ -9,7 +10,8 @@
 ---
 
 ## ⚡ クイックスタート
-</translate-content>
+
+
 ```bash
 # Install (one-liner)
 curl -fsSL https://raw.githubusercontent.com/e6a5/zenta/main/install.sh | bash

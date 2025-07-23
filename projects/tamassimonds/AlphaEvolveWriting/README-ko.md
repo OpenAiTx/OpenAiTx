@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 언어</summary>
     <div>
@@ -199,13 +199,15 @@ export DEEPINFRA_API_KEY="your-deepinfra-key"  # For Llama models
 export DEEPSEEK_API_KEY="your-deepseek-key"    # For DeepSeek models
 export GEMINI_API_KEY="your-gemini-key"          # For Gemini models
 ```
-<translate-content>
+
+
 사용할 계획인 제공자에 대해서만 키를 설정하면 됩니다. 시스템은 구성을 기반으로 모델 요청을 올바른 제공자로 자동 라우팅합니다.
 
 ### 구성 옵션
 
 `config.json` 파일은 모든 시스템 동작을 제어합니다:
-</translate-content>
+
+
 ```json
 {
   "batch_generation": {
@@ -337,14 +339,16 @@ cd web_interface
 pip install -r requirements.txt
 python app.py
 ```
-<translate-content>
+
+
 http://localhost:5000 을 열어 접속하세요:
 
 - **스토리 비교**: 나란히 읽기 및 선호도 선택
 - **ELO 순위**: 현재 순위 및 통계 보기
 - **진화 추적**: 이후 세대가 개선되었는지 검증
 - **데이터 내보내기**: 분석을 위한 결과 다운로드
-</translate-content>
+
+
 ```
 
 

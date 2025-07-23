@@ -1,4 +1,5 @@
-<translate-content># Open Source PDF Version of "The Computer Science Course You Missed"
+﻿
+# Open Source PDF Version of "The Computer Science Course You Missed"
 
 > [!important]
 > The open source PDF version of "The Computer Science Course You Missed" is not automatically generated from the [web version](https://www.criwits.top/missing), but manually typeset. Therefore, the open source PDF version lags behind the web version in content and may contain omissions or errors.
@@ -15,7 +16,8 @@ This is the LaTeX source code of the open source PDF version of "The Computer Sc
    4. [Noto Serif Tibetan](https://fonts.google.com/noto/specimen/Noto+Serif+Tibetan).
 1. Clone this repository to your preferred location;
 2. Place the two punctuation mapping files from `resource/quote.zip` into the `fonts/misc/xetex/fontmapping/xecjk` directory under your **user TEXMF tree**;
-3. Refresh the filename database of your TeX distribution; TeX Live users execute</translate-content>
+3. Refresh the filename database of your TeX distribution; TeX Live users execute
+
    ```shell
    mktexlsr
    ```

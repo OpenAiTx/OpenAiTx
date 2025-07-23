@@ -1,4 +1,5 @@
-<translate-content><!-- GitHub 徽章 -->
+﻿
+<!-- GitHub 徽章 -->
 <p align="center">
   <a href="https://github.com/oldjs/web-code-agent/stargazers"><img src="https://img.shields.io/github/stars/oldjs/web-code-agent?style=social" alt="GitHub stars"></a>
   <a href="https://github.com/oldjs/web-code-agent/network/members"><img src="https://img.shields.io/github/forks/oldjs/web-code-agent?style=social" alt="GitHub forks"></a>

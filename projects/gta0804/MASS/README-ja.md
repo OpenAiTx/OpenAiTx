@@ -1,4 +1,5 @@
-<translate-content># MASS: ポートフォリオ構築のためのマルチエージェントシミュレーションスケーリング
+﻿
+# MASS: ポートフォリオ構築のためのマルチエージェントシミュレーションスケーリング
 
 📜 [論文リンク](https://arxiv.org/abs/2505.10278)
 
@@ -11,7 +12,8 @@
 1. 現在、MASSを実行するための完全なデータセットのごく[小さなサブセット](https://github.com/gta0804/MASS/tree/main/stock_disagreement/example_dataset)のみを提供しています。完全なデータセットはレビュー完了後に公開されます。
 
 ## 🧑‍💻使い方
-1. **依存関係のインストール**</translate-content>
+1. **依存関係のインストール**
+
 ```
 conda create -n your_env_name python==3.10 -y
 conda activate your_env_name

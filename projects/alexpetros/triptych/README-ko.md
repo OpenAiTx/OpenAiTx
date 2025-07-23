@@ -1,4 +1,5 @@
-<translate-content># 트립틱 - HTML을 위한 새로운 속성들
+﻿
+# 트립틱 - HTML을 위한 새로운 속성들
 
 [트립틱](https://alexanderpetros.com/triptych)은 세 가지 작은 HTML 제안을 위한 폴리필입니다:
 
@@ -14,7 +15,8 @@
 ## 예시
 
 링크를 클릭하면 `<main>`을 `GET /home` 결과로 교체합니다:
-</translate-content>
+
+
 ```html
 <a href="/home" target="main">Home</a>
 <main> <!-- Existing page content --> </main>
@@ -24,9 +26,11 @@
 ```html
 <button action="/users/354" method="DELETE"></button>
 ```
-<translate-content>
+
+
 버튼이 클릭되면 버튼을 `DELETE /users/354`의 결과로 교체합니다.
-</translate-content>
+
+
 ```html
 <button action="/users/354" method="DELETE" target="_this"></button>
 ```
@@ -80,7 +84,8 @@ Triptych의 목표가 HTML 표준에 포함되는 것이기 때문에, 네임스
 ```html
 <script src="/vendor/triptych-0.1-0.js"></script>
 ```
-<translate-content>
+
+
 파일 이름에 버전 번호를 반드시 포함하세요. 업데이트 시 캐시된 사용자가 새 버전을 다운로드할 수 있도록 하기 위해서입니다.
 
 곧 `npm`에 업로드할 예정이니, 의존성으로 포함하여 노드 모듈에서 바로 제공할 수 있습니다(복사하는 대신).
@@ -136,7 +141,8 @@ Triptych의 경우 일부 기능은 JavaScript로 시뮬레이션할 수 없습�
 
 타게팅은 [querySelector API](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)를 사용하며, 문서 노드를 깊이 우선 선행 순서로 순회합니다.
 타겟은 해당 알고리즘에 따라 발견된 첫 번째 일치하는 요소가 됩니다.
-</translate-content>
+
+
 
 ---
 

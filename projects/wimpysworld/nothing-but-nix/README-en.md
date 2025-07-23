@@ -1,4 +1,5 @@
-<translate-content># Nothing but Nix
+﻿
+# Nothing but Nix
 
 **Transform your GitHub Actions runner into a [Nix](https://zero-to-nix.com/concepts/nix/) ❄️ powerhouse by ruthlessly slashing pre-installed bloat.**
 
@@ -8,7 +9,8 @@ GitHub Actions runners come with meager disk space for Nix - a mere ~20GB.
 ## Usage 🔧
 
 Add this action **before** installing Nix in your workflow:
-</translate-content>
+
+
 ```yaml
 jobs:
   build:

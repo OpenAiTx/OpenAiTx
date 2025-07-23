@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
 <a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Build status"></a>
 <a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
@@ -506,11 +506,13 @@ v0.19.0 sürümünden itibaren `OpenXmlConfiguration.AutoFilter` ile Otomatik Fi
 ```csharp
 MiniExcel.SaveAs(path, value, configuration: new OpenXmlConfiguration() { AutoFilter = false });
 ```
-<translate-content>
+
+
 
 
 #### 10. Görüntü Oluştur
-</translate-content>
+
+
 ```csharp
 var value = new[] {
     new { Name="github",Image=File.ReadAllBytes(PathHelper.GetFile("images/github_logo.png"))},
@@ -548,7 +550,9 @@ var path = @"../../../../../samples/xlsx/TestMergeWithTag.xlsx";
 
 MiniExcel.MergeSameCells(mergedFilePath, path);
 ```
-<translate-content></translate-content>
+
+
+
 ```csharp
 var memoryStream = new MemoryStream();
 
@@ -693,7 +697,8 @@ var value = new Dictionary<string, object>()
 };
 MiniExcel.SaveAsByTemplate(path, templatePath, value);
 ```
-<translate-content>
+
+
 
 
 #### 2. IEnumerable Veri Doldurma
@@ -706,7 +711,8 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 Sonuç:
 ![image](https://user-images.githubusercontent.com/12729184/114564204-b2015980-9ca2-11eb-900d-e21249f93f7c.png)
 
-Kod:</translate-content>
+Kod:
+
 ```csharp
 //1. By POCO
 var value = new
@@ -1034,7 +1040,8 @@ Assert.Null(rows[0].Test5);
 Assert.Null(rows[0].Test6);
 Assert.Equal("Test4", rows[0].Test7);
 ```
-<translate-content>
+
+
 
 
 
@@ -1044,7 +1051,8 @@ Assert.Equal("Test4", rows[0].Test7);
 V0.21.0'dan itibaren, `ToString(string content)` metodunu içeren sınıf formatı desteklenmektedir
 
 Sınıf
-</translate-content>
+
+
 ```csharp
 public class Dto
 {
@@ -1095,13 +1103,15 @@ public class Dto
     public string Name { get; set; }
 }
 ```
-<translate-content>
+
+
 
 
 #### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
 1.24.0'dan itibaren, sistem System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute desteğini sağlar.
-</translate-content>
+
+
 ```C#
 public class TestIssueI4TXGTDto
 {
@@ -1361,13 +1371,15 @@ var config = new MiniExcelLibs.Csv.CsvConfiguration()
         }
     }
 ```
-<translate-content>
+
+
 
 
 ###  Async
 
 - v0.17.0 Async desteği (teşekkürler isdaniel ( SHIH,BING-SIOU)](https://github.com/isdaniel))
-</translate-content>
+
+
 ```csharp
 public static Task SaveAsAsync(string path, object value, bool printHeader = true, string sheetName = "Sheet1", ExcelType excelType = ExcelType.UNKNOWN, IConfiguration configuration = null)
 public static Task SaveAsAsync(this Stream stream, object value, bool printHeader = true, string sheetName = "Sheet1", ExcelType excelType = ExcelType.XLSX, IConfiguration configuration = null)
@@ -1890,11 +1902,13 @@ public static IEnumerable<dynamic> QueryWithoutEmptyRow(Stream stream, bool useH
     }
 }
 ```
-<translate-content>
+
+
 
 
 VeriTablosu :
-</translate-content>
+
+
 ```csharp
 public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useHeaderRow, string sheetName, ExcelType excelType, string startCell, IConfiguration configuration)
 {
@@ -1937,14 +1951,16 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
     return dt;
 }
 ```
-<translate-content>
+
+
 
 
 #### S. SaveAs(path,value) ile mevcut dosyayı nasıl değiştirebilir ve "...xlsx dosyası zaten var" hatası almadan kaydedebilirim?
 
 
 Lütfen özel dosya oluşturma mantığı için Stream sınıfını kullanın, örneğin:
-</translate-content>
+
+
 ```C#
     using (var stream = File.Create("Demo.xlsx"))
         MiniExcel.SaveAs(stream,value);
@@ -1957,7 +1973,8 @@ veya, V1.25.0'dan itibaren, SaveAs mevcut dosyanın üzerine yazmayı etkinleşt
 ```csharp
     MiniExcel.SaveAs(path, value, overwriteFile: true);
 ```
-<translate-content>
+
+
 
 
 
@@ -1990,7 +2007,8 @@ Bağlantı https://github.com/orgs/mini-software/discussions/754
 ### Katkıda Bulunanlar
 
 ![](https://contrib.rocks/image?repo=mini-software/MiniExcel)
-</translate-content>
+
+
 
 ---
 

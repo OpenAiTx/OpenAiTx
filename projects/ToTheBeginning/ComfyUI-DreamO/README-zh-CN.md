@@ -1,4 +1,5 @@
-<translate-content># DreamO Comfyui
+﻿
+# DreamO Comfyui
 [DreamO](https://github.com/bytedance/DreamO) ComfyUI 原生实现。
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2504.16915) [![demo](https://img.shields.io/badge/🤗-HuggingFace_Demo-orange)](https://huggingface.co/spaces/ByteDance/DreamO) <br>

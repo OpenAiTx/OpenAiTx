@@ -1,4 +1,5 @@
-<translate-content># 코드 감사관 CTF
+﻿
+# 코드 감사관 CTF
 ![image](https://github.com/user-attachments/assets/fdfbbffc-71f9-4463-856d-aca054399a0f)
 
 소스 코드 감사를 위한 전례 없는 깊이와 폭을 제공하는 웹 기반 Capture The Flag(CTF) 플랫폼입니다. 어디서도 찾아볼 수 없는 가장 방대한 실제 C/C++ 취약점 예제 컬렉션을 통해 사용자는 진짜 코드 조각을 분석하고, 정교한 보안 결함을 식별하며, 실습 경험을 통해 안전한 코딩 관행을 마스터합니다.

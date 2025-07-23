@@ -1,4 +1,5 @@
-<translate-content># Unverceled Next.js
+﻿
+# Unverceled Next.js
 
 > OpenNextを使用してCloudflare Workersにデプロイされた、ツール重視のNext.js 15スターターキットテンプレート。
 
@@ -34,7 +35,8 @@
 
 - [Cloudflare Workers Builds](https://developers.cloudflare.com/workers/ci-cd/builds/) を使って、mainブランチに新しいコミットがあると自動でアプリケーションをデプロイできます。
 - Cloudflare Imagesをカスタムローダーとして使用し、画像最適化が可能です [ドキュメント](https://opennext.js.org/cloudflare/howtos/image)
-</translate-content>
+
+
 
 ---
 

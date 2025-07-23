@@ -1,4 +1,5 @@
-<translate-content># effect mcp 서버
+﻿
+# effect mcp 서버
 
 [![MCP 서버 설치](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/install-mcp?name=effect%20docs&config=eyJjb21tYW5kIjoibnB4IC15IGVmZmVjdC1tY3AifQ%3D%3D)
 
@@ -7,7 +8,8 @@
 ## 사용법
 
 다음 명령어로 도커에서 실행할 수 있습니다:
-</translate-content>
+
+
 ```bash
 docker run --rm -i timsmart/effect-mcp
 ```

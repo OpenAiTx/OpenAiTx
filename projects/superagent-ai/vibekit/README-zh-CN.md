@@ -1,4 +1,5 @@
-<translate-content><div align="center">
+﻿
+<div align="center">
 
 <img width="500px" src="https://raw.githubusercontent.com/superagent-ai/vibekit/main/./assets/vibekit-hero.png" />
 
@@ -20,7 +21,8 @@ VibeKit 是一个 SDK，用于在安全且可定制的沙箱中运行强大的�
 一个 SDK。任意编码代理。任意沙箱。
 
 ## 🚀 快速开始
-</translate-content>
+
+
 ```bash
 npx @vibe-kit/sdk init
 # or after global install

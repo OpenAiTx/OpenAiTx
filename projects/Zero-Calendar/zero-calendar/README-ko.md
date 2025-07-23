@@ -1,4 +1,5 @@
-<translate-content># 제로 캘린더
+﻿
+# 제로 캘린더
 
 [![Vercel로 배포하기](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FZero-Calendar%2Fzero-calendar)
 
@@ -40,7 +41,8 @@
 
 #### 빠른 시작 가이드
 
-1. **클론 및 설치**</translate-content>
+1. **클론 및 설치**
+
 ```bash
 # Clone the repository
 git clone https://github.com/Zero-Calendar/zero-calendar.git

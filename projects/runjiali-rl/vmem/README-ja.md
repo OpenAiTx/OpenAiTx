@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 <img src="https://raw.githubusercontent.com/runjiali-rl/vmem/main/assets/title_logo.png" width="200" alt="VMem Logo"/>
 <h1>VMem: サーフェルインデックス付きビュー・メモリによる一貫したインタラクティブ動画シーン生成</h1>
 
@@ -37,12 +37,14 @@ conda create -n vmem python=3.10
 conda activate vmem
 pip install -r requirements.txt
 ```
-<translate-content>
+
+
 
 # :rocket: 使用方法
 
 モデルの重みをダウンロードするには、Hugging Faceで適切に認証する必要があります。設定が完了すると、コードは初回実行時に自動的に処理します。認証は次のコマンドで行えます
-</translate-content>
+
+
 ```bash
 # This will prompt you to enter your Hugging Face credentials.
 huggingface-cli login
@@ -55,7 +57,8 @@ huggingface-cli login
 ```bash
 python app.py
 ```
-<translate-content>
+
+
 
 ## :heart: 謝辞
 本研究は[ CUT3R ](https://github.com/CUT3R/CUT3R)、[ DUSt3R ](https://github.com/naver/dust3r)、および[ Stable Virtual Camera ](https://github.com/stability-ai/stable-virtual-camera)を基に構築されています。これらの素晴らしい作品に感謝します。
@@ -67,7 +70,8 @@ python app.py
 # :books: 引用
 
 このリポジトリが役に立った場合は、スター :star: および引用をご検討ください。
-</translate-content>
+
+
 ```
 @article{li2025vmem,
   title={VMem: Consistent Interactive Video Scene Generation with Surfel-Indexed View Memory},

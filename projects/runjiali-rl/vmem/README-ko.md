@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 <img src="https://raw.githubusercontent.com/runjiali-rl/vmem/main/assets/title_logo.png" width="200" alt="VMem Logo"/>
 <h1>VMem: 서펠 인덱스 뷰 메모리를 이용한 일관된 인터랙티브 비디오 장면 생성</h1>
 
@@ -37,12 +37,14 @@ conda create -n vmem python=3.10
 conda activate vmem
 pip install -r requirements.txt
 ```
-<translate-content>
+
+
 
 # :rocket: 사용법
 
 모델 가중치를 다운로드하려면 Hugging Face에 제대로 인증해야 합니다. 설정이 완료되면 첫 실행 시 코드가 자동으로 처리합니다. 인증은 다음 명령어로 할 수 있습니다.
-</translate-content>
+
+
 ```bash
 # This will prompt you to enter your Hugging Face credentials.
 huggingface-cli login
@@ -55,7 +57,8 @@ huggingface-cli login
 ```bash
 python app.py
 ```
-<translate-content>
+
+
 
 ## :heart: 감사의 글
 이 작업은 [CUT3R](https://github.com/CUT3R/CUT3R), [DUSt3R](https://github.com/naver/dust3r) 및 [Stable Virtual Camera](https://github.com/stability-ai/stable-virtual-camera)를 기반으로 합니다. 그들의 훌륭한 작업에 감사드립니다.
@@ -67,7 +70,8 @@ python app.py
 # :books: 인용
 
 이 저장소가 유용하다면 별 :star: 과 인용을 고려해 주세요.
-</translate-content>
+
+
 ```
 @article{li2025vmem,
   title={VMem: Consistent Interactive Video Scene Generation with Surfel-Indexed View Memory},

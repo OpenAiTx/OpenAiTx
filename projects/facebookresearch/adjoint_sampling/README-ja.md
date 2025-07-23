@@ -1,4 +1,5 @@
-<translate-content># アジョイントサンプリング
+﻿
+# アジョイントサンプリング
 
 このリポジトリは、アジョイントサンプリング：アジョイントマッチングによる高スケーラブル拡散サンプラーの公式実装と実験を含みます。
 
@@ -59,10 +60,12 @@ Pretrained Cartesian              -   pretrain_for_bmam/checkpoints/checkpoint_2
 python cache_dataset.py
 python cache_dataset.py --learn_torsions
 ```
-<translate-content>
+
+
 私たちのリポジトリは、共有ファイルが設定で `shared_dir` として知られる共有ディレクトリに置かれる分散トレーニングを可能にします。デフォルトでは `/home/${oc.env:USER}` に設定されています。これは [hydra](https://hydra.cc/docs/intro/) の変数展開構文によりトレーニング時に `/home/${USER}` に評価されます。
 
-##### Cartesian AdjSampling</translate-content>
+##### Cartesian AdjSampling
+
 ```bash
 python train.py experiment=spice_cartesian
 ```

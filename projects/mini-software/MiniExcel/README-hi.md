@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
 <a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Build status"></a>
 <a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
@@ -506,11 +506,13 @@ v0.19.0 से `OpenXmlConfiguration.AutoFilter` ऑटोफ़िल्टर 
 ```csharp
 MiniExcel.SaveAs(path, value, configuration: new OpenXmlConfiguration() { AutoFilter = false });
 ```
-<translate-content>
+
+
 
 
 #### 10. छवि बनाएं
-</translate-content>
+
+
 ```csharp
 var value = new[] {
     new { Name="github",Image=File.ReadAllBytes(PathHelper.GetFile("images/github_logo.png"))},
@@ -548,7 +550,9 @@ var path = @"../../../../../samples/xlsx/TestMergeWithTag.xlsx";
 
 MiniExcel.MergeSameCells(mergedFilePath, path);
 ```
-<translate-content></translate-content>
+
+
+
 ```csharp
 var memoryStream = new MemoryStream();
 
@@ -1034,7 +1038,8 @@ Assert.Null(rows[0].Test5);
 Assert.Null(rows[0].Test6);
 Assert.Equal("Test4", rows[0].Test7);
 ```
-<translate-content>
+
+
 
 
 
@@ -1044,7 +1049,8 @@ Assert.Equal("Test4", rows[0].Test7);
 V0.21.0 से समर्थन वर्ग जिसमें `ToString(string content)` मेथड प्रारूप है
 
 कक्षा
-</translate-content>
+
+
 ```csharp
 public class Dto
 {
@@ -1095,13 +1101,15 @@ public class Dto
     public string Name { get; set; }
 }
 ```
-<translate-content>
+
+
 
 
 #### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
 संस्करण 1.24.0 से, सिस्टम System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute का समर्थन करता है
-</translate-content>
+
+
 ```C#
 public class TestIssueI4TXGTDto
 {
@@ -1259,7 +1267,8 @@ stream.Query(excelType:ExcelType.CSV);
 //or
 stream.Query(excelType:ExcelType.XLSX);
 ```
-<translate-content>
+
+
 
 
 
@@ -1275,7 +1284,8 @@ stream.Query(excelType:ExcelType.XLSX);
 #### कस्टम सेपरेटर
 
 डिफ़ॉल्ट रूप से सेपरेटर `,` होता है, आप कस्टमाइज़ेशन के लिए `Seperator` प्रॉपर्टी को संशोधित कर सकते हैं।
-</translate-content>
+
+
 ```csharp
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
 {
@@ -1890,10 +1900,12 @@ public static IEnumerable<dynamic> QueryWithoutEmptyRow(Stream stream, bool useH
     }
 }
 ```
-<translate-content>
+
+
 
 डेटाटेबल :
-</translate-content>
+
+
 
 ```csharp
 public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useHeaderRow, string sheetName, ExcelType excelType, string startCell, IConfiguration configuration)
@@ -1937,23 +1949,27 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
     return dt;
 }
 ```
-<translate-content>
+
+
 
 
 #### प्रश्न: SaveAs(path,value) का उपयोग करके मौजूदा फ़ाइल को कैसे बदलें और "The file ...xlsx already exists" त्रुटि के बिना सहेजें?
 
 
 कृपया कस्टम फ़ाइल बनाने की लॉजिक के लिए Stream क्लास का उपयोग करें, उदाहरण के लिए:
-</translate-content>
+
+
 ```C#
     using (var stream = File.Create("Demo.xlsx"))
         MiniExcel.SaveAs(stream,value);
 ```
-<translate-content>
+
+
 
 
 या, V1.25.0 से, SaveAs में overwriteFile पैरामीटर का समर्थन है ताकि मौजूदा फ़ाइल को ओवरराइट करने को सक्षम/अक्षम किया जा सके
-</translate-content>
+
+
 ```csharp
     MiniExcel.SaveAs(path, value, overwriteFile: true);
 ```

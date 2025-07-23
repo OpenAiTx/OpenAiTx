@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <img src="https://raw.githubusercontent.com/elkar-ai/elkar-a2a/main/./images/logo.jpeg" alt="Elkar product screenshot"
 
 **ElkarはAIエージェント向けのオープンソースのタスク管理レイヤーです** — GoogleのAgent2Agentプロトコル（A2A）に基づいています。
@@ -163,9 +163,11 @@ server = A2AServer(task_manager, host="0.0.0.0", port=5001, endpoint="/")
 
 server.start() # This is blocking. For production, use an ASGI server like Uvicorn.
 ```
-<translate-content>
+
+
 この例を実行するには（例えば、[main.py](http://main.py)として保存し、[server.app](http://server.app)をappとして公開する場合）： uvicorn main:app --host 0.0.0.0 --port 5001
-</translate-content>
+
+
 ```bash
 uvicorn main:app --host 0.0.0.0 --port 5001
 ```
@@ -223,7 +225,8 @@ await task.add_messages_to_history(
     [Message(parts=[TextPart(text="I'm working on the task...")])]
 )
 ```
-<translate-content>
+
+
 
 
 
@@ -261,7 +264,8 @@ await task.add_messages_to_history(
 
 
 
-</translate-content>
+
+
 
 ---
 

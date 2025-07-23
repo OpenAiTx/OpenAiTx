@@ -1,4 +1,5 @@
-<translate-content># ローカルチャットRAG
+﻿
+# ローカルチャットRAG
 
 **ローカルでプライバシー重視のRetrieval-Augmented Generation (RAG)チャットアプリ**。ドキュメントをアップロードし、質問し、ソース付きの回答を得られます—オープンソースのLLMをあなたのマシンで動作させて実現。
 

@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 Langue</summary>
     <div>
@@ -259,7 +259,9 @@ Vous pouvez également scanner le code QR pour rejoindre notre groupe wechat ou 
       year={2025}
 }
 ```
-<translate-content></translate-content>
+
+
+
 
 ---
 

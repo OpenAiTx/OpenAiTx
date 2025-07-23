@@ -1,4 +1,5 @@
-<translate-content># python-makefun
+﻿
+# python-makefun
 
 *파이썬 함수를 동적으로 생성하는 작은 라이브러리입니다.*
 
@@ -17,15 +18,18 @@
 ## `nox` 설정
 
 이 프로젝트는 모든 라이프사이클 작업을 정의하기 위해 `nox`를 사용합니다. 해당 작업들을 실행하려면, 파이썬 3.7 환경을 생성하고 필요한 패키지를 설치해야 합니다:
-</translate-content>
+
+
 ```bash
 >>> conda create -n noxenv python="3.7"
 >>> activate noxenv
 (noxenv) >>> pip install -r noxfile-requirements.txt
 ```
-<translate-content>
+
+
 그런 다음 다음 명령어를 사용하여 사용 가능한 모든 작업을 나열할 수 있어야 합니다:
-</translate-content>
+
+
 ```
 >>> nox --list
 Sessions defined in <path>\noxfile.py:
@@ -47,7 +51,8 @@ Sessions defined in <path>\noxfile.py:
 ```bash
 nox
 ```
-<translate-content>
+
+
 테스트 및 커버리지 보고서는 `./docs/reports` 아래에 자동으로 생성되며, 세션 중 하나(`tests-3.7`)에 해당합니다. 
 
 특정 환경에서 테스트를 실행하려면 명시적인 세션 이름을 사용하세요. 예: `nox -s tests-3.6`.
@@ -56,7 +61,8 @@ nox
 ## 문서 편집
 
 이 프로젝트는 문서 페이지 생성을 위해 `mkdocs`를 사용합니다. 따라서 문서 페이지의 로컬 복사본 빌드는 `mkdocs build -f docs/mkdocs.yml`로 수행할 수 있습니다. 하지만 다시 말하지만 `nox`를 사용하는 것이 더 쉽습니다. 다음을 사용하여 문서 사이트 버전을 로컬에서 쉽게 빌드하고 제공할 수 있습니다:
-</translate-content>
+
+
 ```bash
 >>> nox -s docs
 nox > Running session docs-3.7
@@ -73,7 +79,8 @@ INFO    -  Serving on http://127.0.0.1:8000
 INFO    -  Start watching changes
 ...
 ```
-<translate-content>
+
+
 이 실행 중에는 `./docs/` 아래의 파일들을 편집할 수 있으며, 로컬 [http://127.0.0.1:8000](http://127.0.0.1:8000) 페이지에서 자동으로 갱신되는 문서를 탐색할 수 있습니다.
 
 완료되면 `<CTRL+C>`를 눌러 세션을 종료하면 됩니다.
@@ -87,7 +94,8 @@ INFO    -  Start watching changes
 ### 수정 사항이 포함된 풀 리퀘스트 병합 - 메모
 
 Ax가 github('get commandline instructions')에서 설명했습니다:
-</translate-content>
+
+
 ```bash
 git checkout -b <git_name>-<feature_branch> main
 git pull https://github.com/<git_name>/python-makefun.git <feature_branch> --no-commit --ff-only

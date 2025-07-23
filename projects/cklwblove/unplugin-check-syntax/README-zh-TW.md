@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 語言</summary>
     <div>
@@ -130,9 +130,11 @@ module.exports = {
   ],
 }
 ```
-<translate-content>
+
+
 ## 配置選項
-</translate-content>
+
+
 ```ts
 interface CheckSyntaxOptions {
   /**

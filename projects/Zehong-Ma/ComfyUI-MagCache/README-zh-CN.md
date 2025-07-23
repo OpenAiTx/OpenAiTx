@@ -1,4 +1,5 @@
-<translate-content># ComfyUI-MagCache
+﻿
+# ComfyUI-MagCache
 
 ## 🫖 介绍
 Magnitude-aware Cache（MagCache）是一种无需训练的缓存方法。它基于稳健的**幅度观测**，估计模型输出在各时间步之间的波动差异，从而利用误差建模机制和自适应缓存策略加速推理。MagCache 在视频扩散模型和图像扩散模型中表现良好。更多详情和结果，请访问我们的[项目主页](https://zehong-ma.github.io/MagCache)和[代码库](https://github.com/Zehong-Ma/MagCache)。

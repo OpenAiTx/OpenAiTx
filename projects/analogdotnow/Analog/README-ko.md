@@ -1,4 +1,5 @@
-<translate-content><p align="center">
+﻿
+<p align="center">
   <h1 align="center">아날로그</h1>
   <p align="center">모든 것을 바꾸는 오픈 소스 캘린더</p>
 </p>
@@ -19,7 +20,8 @@
 ### 설정
 
 1.  **저장소 클론하기**:
-</translate-content>
+
+
     ```bash
     git clone https://github.com/jeanmeijer/analog.git
     cd analog
@@ -71,11 +73,13 @@ Analog는 Drizzle ORM과 함께 PostgreSQL을 사용합니다. Docker를 사용�
     ```bash
     bun run docker:up
     ```
-<translate-content>
+
+
     이 명령어는 `docker-compose.yml`을 사용하여 PostgreSQL 컨테이너를 실행합니다.
 
 2.  **데이터베이스 초기화**:
-    데이터베이스 컨테이너가 실행 중이고 정상 상태가 되면, 데이터베이스를 초기화합니다:</translate-content>
+    데이터베이스 컨테이너가 실행 중이고 정상 상태가 되면, 데이터베이스를 초기화합니다:
+
     ```bash
     bun run db:push
     ```
@@ -87,7 +91,8 @@ Analog는 Drizzle ORM과 함께 PostgreSQL을 사용합니다. Docker를 사용�
 ```bash
 bun run dev
 ```
-<translate-content>
+
+
 이제 브라우저에서 [http://localhost:3000](http://localhost:3000) 에서 애플리케이션에 접근할 수 있습니다.
 
 ## 기술 스택
@@ -103,7 +108,8 @@ bun run dev
 ## 기여하기
 
 이 프로젝트에 기여하는 방법에 대한 자세한 내용은 [CONTRIBUTING.md](https://raw.githubusercontent.com/analogdotnow/Analog/main/./CONTRIBUTING.md) 를 참조하세요.
-</translate-content>
+
+
 
 ---
 

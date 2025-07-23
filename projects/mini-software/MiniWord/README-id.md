@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 <p><a href="https://www.nuget.org/packages/MiniWord"><img src="https://img.shields.io/nuget/v/MiniWord.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniWord"><img src="https://img.shields.io/nuget/dt/MiniWord.svg" alt=""></a>
 <a href="https://github.com/mini-software/MiniWord" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniWord?logo=github" alt="GitHub stars"></a>
 <a href="https://www.nuget.org/packages/MiniWord"><img src="https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg" alt="version"></a>
@@ -54,7 +54,8 @@ SaveAsByTemplate(string path, byte[] templateBytes, Dictionary<string, object> v
 SaveAsByTemplate(this Stream stream, string templatePath, Dictionary<string, object> value)
 SaveAsByTemplate(this Stream stream, byte[] templateBytes, Dictionary<string, object> value)
 ```
-<translate-content>
+
+
 
 
 ## Tag
@@ -62,7 +63,8 @@ SaveAsByTemplate(this Stream stream, byte[] templateBytes, Dictionary<string, ob
 Format string template MiniWord seperti Vue, React `{{tag}}`, pengguna hanya perlu memastikan tag dan kunci parameter value sama maka sistem akan menggantinya secara otomatis.
 
 ### Teks
-</translate-content>
+
+
 ```csharp
 {{tag}}
 ```
@@ -351,7 +353,8 @@ var value = new
 };
 MiniWord.SaveAsByTemplate(path, templatePath, value);
 ```
-<translate-content>
+
+
 
 
 ## Contoh
@@ -359,7 +362,8 @@ MiniWord.SaveAsByTemplate(path, templatePath, value);
 
 
 #### Ekspor API ASP.NET Core 3.1
-</translate-content>
+
+
 ```cs
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -465,14 +469,16 @@ public class ApiController : Controller
     }
 }
 ```
-<translate-content>
+
+
 
 
 
 
 
 ## Dukungan : [Tautan Donasi](https://miniexcel.github.io/)
-</translate-content>
+
+
 
 ---
 

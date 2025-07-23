@@ -1,4 +1,5 @@
-<translate-content># Fastgen
+﻿
+# Fastgen
 
 **高吞吐量的稠密变换器推理。**
 
@@ -98,7 +99,8 @@ Code dives within,
 Echoes of self repeat,
 Solving the unseen.
 ```
-<translate-content>
+
+
 ## 致谢
 
 感谢：
@@ -108,7 +110,8 @@ Solving the unseen.
 ## 许可协议
 
 Fastgen采用BSD三条款许可，详见LICENSE文件。
-</translate-content>
+
+
 
 
 

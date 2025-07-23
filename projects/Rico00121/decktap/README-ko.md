@@ -1,4 +1,5 @@
-<translate-content># DeckTap (LAN MVP)
+﻿
+# DeckTap (LAN MVP)
 
 <a href="https://youtu.be/pNgNUWSf7C4" title="링크 제목"><img src="https://raw.githubusercontent.com/Rico00121/decktap/main/./images/hero.png" alt="대체 텍스트" width="600"/></a>
 
@@ -17,7 +18,8 @@
 
 ---
 
-## 📦 프로젝트 구조</translate-content>
+## 📦 프로젝트 구조
+
 ```yaml
 decktap/
 ├── client/            # Computer side agent
@@ -94,7 +96,8 @@ DeckTap의 **독립 실행형 실행 파일**(예: `decktap-macos`, `decktap-win
      ./decktap-macos
      ```
 2. **윈도우 사용자:**
-   - 명령 프롬프트에서 실행하세요:</translate-content>
+   - 명령 프롬프트에서 실행하세요:
+
      ```bat
      decktap-win.exe
      ```

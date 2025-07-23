@@ -1,4 +1,5 @@
-<translate-content># About
+﻿
+# About
 
 [Ultracopier](https://ultracopier.herman-brule.com/) is free and open
 source software licensed under GPLv3 that acts as a replacement for
@@ -18,7 +19,8 @@ Main features include:
 - C++17 compiler (due to Qt6.7)
 
 For example on Debian based distros:
-</translate-content>
+
+
 ```bash
 sudo apt install make gcc build-essential libssl-dev qtbase6-dev qtchooser qt6-qmake qtbase6-dev-tools qttools6-dev-tools
 ```

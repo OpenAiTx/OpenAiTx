@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <h1 align="center">Analog</h1>
   <p align="center">The open source calendar that changes everything</p>
 </p>
@@ -71,11 +71,13 @@ Analog uses PostgreSQL with Drizzle ORM. You can run the database using Docker:
     ```bash
     bun run docker:up
     ```
-<translate-content>
+
+
     This command uses `docker-compose.yml` to spin up a PostgreSQL container.
 
 2.  **Initialize the database**:
-    Once the database container is running and healthy, initialize the database:</translate-content>
+    Once the database container is running and healthy, initialize the database:
+
     ```bash
     bun run db:push
     ```

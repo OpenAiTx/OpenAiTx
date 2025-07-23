@@ -1,4 +1,5 @@
-<translate-content># DeckTap（局域网MVP）
+﻿
+# DeckTap（局域网MVP）
 
 <a href="https://youtu.be/pNgNUWSf7C4" title="链接标题"><img src="https://raw.githubusercontent.com/Rico00121/decktap/main/./images/hero.png" alt="替代文本" width="600"/></a>
 
@@ -17,7 +18,8 @@
 
 ---
 
-## 📦 项目结构</translate-content>
+## 📦 项目结构
+
 ```yaml
 decktap/
 ├── client/            # Computer side agent
@@ -63,7 +65,8 @@ DeckTap 使用 `@nut-tree/nut-js` 来模拟键盘事件。在 macOS 上，您需
    - 按照 [macOS 权限](#macos-permissions) 中的步骤操作
    - 授予权限后重启终端
 
-3. 启动服务器：</translate-content>
+3. 启动服务器：
+
 
    ```bash
    npm start

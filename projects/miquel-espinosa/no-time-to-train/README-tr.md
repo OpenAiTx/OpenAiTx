@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 Dil</summary>
     <div>
@@ -96,7 +96,8 @@
 
 ![cdfsod-results-final-comic-sans-min](https://github.com/user-attachments/assets/ab302c02-c080-4042-99fc-0e181ba8abb9)
 
-</translate-content>
+
+
 
 ## 🧠 Mimari
 

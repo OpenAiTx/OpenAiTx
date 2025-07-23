@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 Taal</summary>
     <div>
@@ -259,7 +259,9 @@ Je kunt ook de QR-code scannen om lid te worden van onze Wechat-groep of ons Wec
       year={2025}
 }
 ```
-<translate-content></translate-content>
+
+
+
 
 ---
 

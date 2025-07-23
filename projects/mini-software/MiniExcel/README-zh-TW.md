@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
 <a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Build status"></a>
 <a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
@@ -243,13 +243,15 @@ var rows = MiniExcel.Query(path).Cast<IDictionary<string,object>>();
 // If you don't want to restrict rows, just don't include numbers
 var rows = MiniExcel.QueryRange(path, startCell: "A2", endCell: "C3").Cast<IDictionary<string, object>>();
 ```
-<translate-content>
+
+
 
 
 #### 9. 查詢 Excel 並返回 DataTable
 
 不建議這麼做，因為 DataTable 會將所有資料載入記憶體，這樣會失去 MiniExcel 低記憶體消耗的特性。
-</translate-content>
+
+
 ```C#
 var table = MiniExcel.QueryAsDataTable(path, useHeaderRow: true);
 ```
@@ -376,7 +378,8 @@ using (var cnn = Connection)
     MiniExcel.SaveAs("Demo.xlsx", sheets);
 }
 ```
-<translate-content>
+
+
 
 
 #### 4. 資料表格
@@ -384,7 +387,8 @@ using (var cnn = Connection)
 - `不建議使用`，因為它會將所有資料載入記憶體
 
 - DataTable 會優先使用 Caption 作為欄位名稱，然後才使用欄位名稱
-</translate-content>
+
+
 ```csharp
 var path = Path.Combine(Path.GetTempPath(), $"{Guid.NewGuid()}.xlsx");
 var table = new DataTable();
@@ -506,11 +510,13 @@ MiniExcel.SaveAs(path, value,configuration:config);
 ```csharp
 MiniExcel.SaveAs(path, value, configuration: new OpenXmlConfiguration() { AutoFilter = false });
 ```
-<translate-content>
+
+
 
 
 #### 10. 建立映像檔
-</translate-content>
+
+
 ```csharp
 var value = new[] {
     new { Name="github",Image=File.ReadAllBytes(PathHelper.GetFile("images/github_logo.png"))},
@@ -548,7 +554,9 @@ var path = @"../../../../../samples/xlsx/TestMergeWithTag.xlsx";
 
 MiniExcel.MergeSameCells(mergedFilePath, path);
 ```
-<translate-content></translate-content>
+
+
+
 ```csharp
 var memoryStream = new MemoryStream();
 
@@ -609,9 +617,11 @@ MiniExcel.SaveAs(@"C:\temp\Book1.xlsx", dt, configuration: configuration);
     </x:c>
 </x:row>
 ```
-<translate-content>
+
+
 先前行為：
-</translate-content>
+
+
 ```csharp
 /* ... */
 
@@ -669,7 +679,8 @@ MiniExcel.SaveAs(@"C:\temp\Book1.xlsx", dt, configuration: configuration);
 結果：
 ![image](https://user-images.githubusercontent.com/12729184/114537490-d8180100-9c84-11eb-8c69-db58692f3a85.png)
 
-程式碼：</translate-content>
+程式碼：
+
 
 ```csharp
 // 1. By POCO
@@ -819,9 +830,11 @@ public class Poco
     public Guid? Guid { get; set; }
 }
 ```
-<translate-content>
+
+
 程式碼
-</translate-content>
+
+
 ```csharp
 var poco = new TestIEnumerableTypePoco { @string = "string", @int = 123, @decimal = decimal.Parse("123.45"), @double = (double)123.33, @datetime = new DateTime(2021, 4, 1), @bool = true, @Guid = Guid.NewGuid() };
 var value = new
@@ -1034,7 +1047,8 @@ Assert.Null(rows[0].Test5);
 Assert.Null(rows[0].Test6);
 Assert.Equal("Test4", rows[0].Test7);
 ```
-<translate-content>
+
+
 
 
 
@@ -1044,7 +1058,8 @@ Assert.Equal("Test4", rows[0].Test7);
 自 V0.21.0 起支援包含 `ToString(string content)` 方法格式的類別
 
 類別
-</translate-content>
+
+
 ```csharp
 public class Dto
 {
@@ -1054,9 +1069,11 @@ public class Dto
     public DateTime InDate { get; set; }
 }
 ```
-<translate-content>
+
+
 程式碼
-</translate-content>
+
+
 ```csharp
 var value = new Dto[] {
     new Issue241Dto{ Name="Jack",InDate=new DateTime(2021,01,04)},
@@ -1095,13 +1112,15 @@ public class Dto
     public string Name { get; set; }
 }
 ```
-<translate-content>
+
+
 
 
 #### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
 自 1.24.0 版本起，系統支援 System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
-</translate-content>
+
+
 ```C#
 public class TestIssueI4TXGTDto
 {
@@ -1113,12 +1132,14 @@ public class TestIssueI4TXGTDto
     public decimal Up { get; set; }
 }
 ```
-<translate-content>
+
+
 
 
 #### 6. ExcelColumnAttribute
 
-自 V1.26.0 版本起，多個屬性可以簡化如下：</translate-content>
+自 V1.26.0 版本起，多個屬性可以簡化如下：
+
 ```csharp
         public class TestIssueI4ZYUUDto
         {
@@ -1294,13 +1315,15 @@ var config = new CsvConfiguration()
 };
 var rows = MiniExcel.Query(path, configuration: config).ToList();
 ```
-<translate-content>
+
+
 
 
 #### 自訂換行符
 
 預設為 `\r\n` 作為換行字元，您可以修改 `NewLine` 屬性來自訂
-</translate-content>
+
+
 ```csharp
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
 {
@@ -1361,13 +1384,15 @@ var config = new MiniExcelLibs.Csv.CsvConfiguration()
         }
     }
 ```
-<translate-content>
+
+
 
 
 ###  非同步
 
 - v0.17.0 支援非同步（感謝 isdaniel ( SHIH,BING-SIOU)](https://github.com/isdaniel))
-</translate-content>
+
+
 ```csharp
 public static Task SaveAsAsync(string path, object value, bool printHeader = true, string sheetName = "Sheet1", ExcelType excelType = ExcelType.UNKNOWN, IConfiguration configuration = null)
 public static Task SaveAsAsync(this Stream stream, object value, bool printHeader = true, string sheetName = "Sheet1", ExcelType excelType = ExcelType.XLSX, IConfiguration configuration = null)
@@ -1890,11 +1915,13 @@ public static IEnumerable<dynamic> QueryWithoutEmptyRow(Stream stream, bool useH
     }
 }
 ```
-<translate-content>
+
+
 
 
 資料表：
-</translate-content>
+
+
 ```csharp
 public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useHeaderRow, string sheetName, ExcelType excelType, string startCell, IConfiguration configuration)
 {
@@ -1937,27 +1964,32 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
     return dt;
 }
 ```
-<translate-content>
+
+
 
 
 #### 問：如何使用 SaveAs(path,value) 來取代已存在的檔案並且不拋出 "The file ...xlsx already exists" 的錯誤
 
 
 請使用 Stream 類別來自訂檔案建立邏輯，例如：
-</translate-content>
+
+
 ```C#
     using (var stream = File.Create("Demo.xlsx"))
         MiniExcel.SaveAs(stream,value);
 ```
-<translate-content>
+
+
 
 
 或者，從 V1.25.0 起，SaveAs 支援 overwriteFile 參數以啟用/禁用覆蓋現有檔案
-</translate-content>
+
+
 ```csharp
     MiniExcel.SaveAs(path, value, overwriteFile: true);
 ```
-<translate-content>
+
+
 
 
 
@@ -1990,7 +2022,8 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
 ### 貢獻者
 
 ![](https://contrib.rocks/image?repo=mini-software/MiniExcel)
-</translate-content>
+
+
 
 ---
 

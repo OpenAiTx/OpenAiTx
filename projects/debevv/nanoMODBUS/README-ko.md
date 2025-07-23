@@ -1,4 +1,5 @@
-<translate-content># nanoMODBUS - 임베디드/마이크로컨트롤러용 소형 MODBUS RTU/TCP C 라이브러리
+﻿
+# nanoMODBUS - 임베디드/마이크로컨트롤러용 소형 MODBUS RTU/TCP C 라이브러리
 
 **이 라이브러리가 유용하다면, 저에게 커피 한잔 사주세요**
 [<img src='https://storage.ko-fi.com/cdn/brandasset/logo_white_stroke.png' width='80'>](https://ko-fi.com/B0B2LK779)
@@ -37,7 +38,8 @@ nanoMODBUS는 Modbus 프로토콜을 구현한 소형 C 라이브러리입니다
 - 방송 요청 및 응답 지원
 
 ## 한눈에 보기
-</translate-content>
+
+
 ```C
 #include <stdio.h>
 
@@ -119,7 +121,8 @@ FetchContent_MakeAvailable(nanomodbus)
 add_executable(your_program source_codes)
 target_link_libraries(your_program nanomodbus)
 ```
-<translate-content>
+
+
 ## API 참조
 
 API 참조는 저장소의 [GitHub Pages](https://debevv.github.io/nanoMODBUS/nanomodbus_8h.html)에서 확인할 수 있습니다.
@@ -129,7 +132,8 @@ API 참조는 저장소의 [GitHub Pages](https://debevv.github.io/nanoMODBUS/na
 nanoMODBUS는 클라이언트/서버 인스턴스를 생성할 때 함수 포인터로 정의되는 2개의 플랫폼 별 함수 구현을 필요로 합니다.
 
 ### 전송 읽기/쓰기
-</translate-content>
+
+
 
 ```C
 int32_t read(uint8_t* buf, uint16_t count, int32_t byte_timeout_ms, void* arg);
@@ -165,7 +169,8 @@ mkdir build && cd build
 cmake ..
 make
 ```
-<translate-content>
+
+
 자세한 Arduino 예제 빌드 및 실행 방법은 `examples/arduino/README.md`를 참고하세요.
 
 ## 기타
@@ -189,7 +194,8 @@ make
     - `nmbs_error`를 문자열로 변환하는 코드를 비활성화하려면 `NMBS_STRERROR_DISABLED`
     - 코일 값을 저장하는 데 사용되는 `nmbs_bitfield` 타입 크기를 설정하려면 `NMBS_BITFIELD_MAX` (기본값은 `2000`)
 - 수신 및 전송된 메시지에 대한 디버그 출력은 `NMBS_DEBUG`를 정의하여 활성화할 수 있습니다.
-</translate-content>
+
+
 
 ---
 

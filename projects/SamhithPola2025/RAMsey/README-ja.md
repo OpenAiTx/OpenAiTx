@@ -1,4 +1,5 @@
-<translate-content># 🤖 RAMsey
+﻿
+# 🤖 RAMsey
 
 > **画面上に住み、あなたに反応し、統計情報を表示するインタラクティブなデスクトップロボット — Python & PyQtで作成！**
 
@@ -43,7 +44,8 @@ PyQt6で構築されており、滑らかなアニメーションとユーザー
 ---
 
 ## 📦 はじめに
-</translate-content>
+
+
 ```bash
 # Clone the repo
 git clone https://github.com/SamhithPola2025/RAMsey

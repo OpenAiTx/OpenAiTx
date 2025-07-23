@@ -1,4 +1,5 @@
-<translate-content># 人話翻訳器
+﻿
+# 人話翻訳器
 
 ## プロジェクト概要
 
@@ -54,7 +55,8 @@ Firefoxブラウザ：[Firefoxアドオンストア](https://addons.mozilla.org/
 - **シングルトンパターン**：同時に翻訳ポップアップは一つだけ存在することを保証
 
 ## プロジェクト構造
-</translate-content>
+
+
 ```
 ├── content/
 │   └── content.js    # 内容脚本，负责弹窗创建和交互

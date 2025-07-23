@@ -1,4 +1,4 @@
-![HOTSTAR IPL AD Muter](https://raw.githubusercontent.com/pea1bee/hotstar-ipl-ad-mute/main/chrome/128.png?raw=true) 
+﻿![HOTSTAR IPL AD Muter](https://raw.githubusercontent.com/pea1bee/hotstar-ipl-ad-mute/main/chrome/128.png?raw=true) 
 # Hotstar 広告ミュート
 
 この小さなブラウザ拡張機能は、Hotstarの広告トラッキングピクセルを傍受することで、IPLのようなHotstarのライブスポーツストリーム内の特定の広告を自動的にミュートします。広告識別子から広告の長さを推測して、ミュートする時間も動的に決定します。
@@ -16,7 +16,8 @@
    ```bash
    git clone https://github.com/pea1bee/hotstar-ipl-ad-mute
    ```
-<translate-content>   
+
+   
    （または、ここからzipファイルをダウンロードできます：https://github.com/pea1bee/hotstar-ipl-ad-mute/archive/refs/heads/main.zip）
 
 ## Google Chromeのインストール
@@ -49,7 +50,8 @@
 ### 広告IDによるミュート
 `background.js`の`targetAdIds`配列を編集して、ミュートする広告をカスタマイズできます。  
 新しい広告キーワードを追加するには：
-</translate-content>
+
+
 ```js
 const targetAdIds = [
   "PARLE_MARIE",

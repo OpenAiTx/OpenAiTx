@@ -1,4 +1,5 @@
-<translate-content># FoundationChat
+﻿
+# FoundationChat
 
 A SwiftUI chat application built with Apple's Foundation Models framework, showcasing on-device AI capabilities with persistent conversation storage.
 
@@ -52,7 +53,8 @@ A SwiftUI chat application built with Apple's Foundation Models framework, showc
 
 ## Key Implementation Details
 
-### Foundation Models Integration</translate-content>
+### Foundation Models Integration
+
 ```swift
 @Observable
 class ChatEngine {

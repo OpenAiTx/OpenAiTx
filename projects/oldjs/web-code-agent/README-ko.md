@@ -1,4 +1,5 @@
-<translate-content><!-- GitHub 배지 -->
+﻿
+<!-- GitHub 배지 -->
 <p align="center">
   <a href="https://github.com/oldjs/web-code-agent/stargazers"><img src="https://img.shields.io/github/stars/oldjs/web-code-agent?style=social" alt="GitHub 별"></a>
   <a href="https://github.com/oldjs/web-code-agent/network/members"><img src="https://img.shields.io/github/forks/oldjs/web-code-agent?style=social" alt="GitHub 포크"></a>

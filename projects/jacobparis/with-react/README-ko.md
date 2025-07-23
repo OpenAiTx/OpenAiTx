@@ -1,4 +1,4 @@
-# with-react
+﻿# with-react
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/jacobparis/with-react?style=social)
 ![npm](https://img.shields.io/npm/v/with-react?style=plastic)
@@ -43,14 +43,16 @@ function UserProfile({ user, showDetails }) {
   )
 }
 ```
-<translate-content>
+
+
 
 ## 루프 내 훅
 
 이것은 조건부 훅의 특별한 경우이지만, 때때로 루프에서 많은 항목을 렌더링하는데 부모 범위에서 너무 많은 데이터를 요구하기 때문에 사용자 정의 컴포넌트를 만드는 것이 가치가 없을 때가 있습니다.
 
 하지만 각 항목에 상태를 추가해야 할 때, React는 이를 컴포넌트로 감싸도록 강제합니다. WithState를 사용하면 해당 컴포넌트가 제공되어 부모가 소유하는 리스트 항목을 유지할 수 있습니다.
-</translate-content>
+
+
 ```tsx
 const items = ['apple', 'banana', 'orange']
 

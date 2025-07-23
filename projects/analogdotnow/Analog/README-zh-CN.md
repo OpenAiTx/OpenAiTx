@@ -1,4 +1,5 @@
-<translate-content><p align="center">
+﻿
+<p align="center">
   <h1 align="center">Analog</h1>
   <p align="center">改变一切的开源日历</p>
 </p>
@@ -19,7 +20,8 @@
 ### 设置
 
 1.  **克隆代码库**：
-</translate-content>
+
+
     ```bash
     git clone https://github.com/jeanmeijer/analog.git
     cd analog
@@ -71,12 +73,14 @@ Analog 使用 PostgreSQL 和 Drizzle ORM。您可以使用 Docker 运行数据�
     ```bash
     bun run docker:up
     ```
-<translate-content>
+
+
     此命令使用 `docker-compose.yml` 启动一个 PostgreSQL 容器。
 
 2.  **初始化数据库**：
     一旦数据库容器运行且状态良好，初始化数据库：
-</translate-content>
+
+
     ```bash
     bun run db:push
     ```
@@ -88,7 +92,8 @@ Analog 使用 PostgreSQL 和 Drizzle ORM。您可以使用 Docker 运行数据�
 ```bash
 bun run dev
 ```
-<translate-content>
+
+
 该应用现已可通过浏览器访问，网址为 [http://localhost:3000](http://localhost:3000)。
 
 ## 技术栈
@@ -104,7 +109,8 @@ bun run dev
 ## 贡献
 
 有关如何为此项目做出贡献的详细信息，请参阅 [CONTRIBUTING.md](https://raw.githubusercontent.com/analogdotnow/Analog/main/./CONTRIBUTING.md)。
-</translate-content>
+
+
 
 ---
 

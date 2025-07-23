@@ -1,4 +1,5 @@
-<translate-content># Scrutor [![Build status](https://ci.appveyor.com/api/projects/status/j00uyvqnm54rdlkb?svg=true)](https://ci.appveyor.com/project/khellang/scrutor) [![NuGet Package](https://img.shields.io/nuget/v/Scrutor.svg)](https://www.nuget.org/packages/Scrutor)
+﻿
+# Scrutor [![Build status](https://ci.appveyor.com/api/projects/status/j00uyvqnm54rdlkb?svg=true)](https://ci.appveyor.com/project/khellang/scrutor) [![NuGet Package](https://img.shields.io/nuget/v/Scrutor.svg)](https://www.nuget.org/packages/Scrutor)
 
 > Scrutor - 나는 철저히 찾거나 조사한다; 탐색하고, 조사하거나 면밀히 조사한다  
 > 라틴어 scrūta에서 유래, 동사의 원래 의미는 쓰레기를 뒤지다였다. - https://en.wiktionary.org/wiki/scrutor
@@ -20,7 +21,8 @@ Install-Package Scrutor
 ```
 dotnet add package Scrutor
 ```
-<translate-content>
+
+
 ## 사용법
 
 이 라이브러리는 `IServiceCollection`에 두 가지 확장 메서드를 추가합니다:
@@ -33,7 +35,8 @@ dotnet add package Scrutor
 ## 예제
 
 ### 스캔
-</translate-content>
+
+
 ```csharp
 var collection = new ServiceCollection();
 
@@ -82,11 +85,13 @@ collection.Scan(scan => scan
     .AsSelf()
     .WithSingletonLifetime()
 ```
-<translate-content>
+
+
 일부 UI 프레임워크에서는 이 컴파일러 생성 뷰들이 꽤 많은 인터페이스를 구현하므로, 필요하지 않다면 이 클래스들을 `.AsSelf()`로 등록하는 것이 아마도 최선입니다; 다시 말해, 컴파일러 생성 타입을 허용하는 필터를 매우 정확하게 설정하세요.
 
 ### 데코레이션
-</translate-content>
+
+
 ```csharp
 var collection = new ServiceCollection();
 

@@ -1,20 +1,24 @@
-<translate-content># Claude Code Python SDK
+﻿
+# Claude Code Python SDK
 
 Claude Code용 Python SDK입니다. 자세한 내용은 [Claude Code SDK 문서](https://docs.anthropic.com/en/docs/claude-code/sdk)를 참조하세요.
 
 ## 설치
-</translate-content>
+
+
 ```bash
 pip install claude-code-sdk
 ```
-<translate-content>
+
+
 **필수 조건:**
 - Python 3.10 이상
 - Node.js 
 - Claude 코드: `npm install -g @anthropic-ai/claude-code`
 
 ## 빠른 시작
-</translate-content>
+
+
 ```python
 import anyio
 from claude_code_sdk import query
@@ -25,11 +29,13 @@ async def main():
 
 anyio.run(main)
 ```
-<translate-content>
+
+
 ## 사용법
 
 ### 기본 쿼리
-</translate-content>
+
+
 ```python
 from claude_code_sdk import query, ClaudeCodeOptions, AssistantMessage, TextBlock
 

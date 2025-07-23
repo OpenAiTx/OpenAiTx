@@ -1,4 +1,5 @@
-<translate-content># 只有 Nix
+﻿
+# 只有 Nix
 
 **通过无情地剔除预装的臃肿软件，将你的 GitHub Actions 运行器转变为一个 [Nix](https://zero-to-nix.com/concepts/nix/) ❄️ 强力引擎。**
 
@@ -8,7 +9,8 @@ GitHub Actions 运行器为 Nix 提供的磁盘空间非常有限——只有大
 ## 使用方法 🔧
 
 在工作流中安装 Nix 之前，先添加此操作：
-</translate-content>
+
+
 ```yaml
 jobs:
   build:

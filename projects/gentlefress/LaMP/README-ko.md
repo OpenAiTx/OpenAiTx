@@ -1,8 +1,10 @@
-<translate-content># :bulb: LaMP: 모션 생성, 검색 및 캡셔닝을 위한 언어-모션 사전학습 (ICLR 2025)
+﻿
+# :bulb: LaMP: 모션 생성, 검색 및 캡셔닝을 위한 언어-모션 사전학습 (ICLR 2025)
 ### [[프로젝트 페이지]](https://aigc3d.github.io/LaMP/) [[논문]](https://arxiv.org/abs/2410.07093)
 ![teaser_image](https://github.com/gentlefress/LaMP/blob/main/teaser.png)
 
-저희 코드나 논문이 도움이 되셨다면, 저장소에 별을 눌러주시고 인용해 주시면 감사하겠습니다:</translate-content>
+저희 코드나 논문이 도움이 되셨다면, 저장소에 별을 눌러주시고 인용해 주시면 감사하겠습니다:
+
 ```
 @article{li2024lamp,
   title={LaMP: Language-Motion Pretraining for Motion Generation, Retrieval, and Captioning},
@@ -30,11 +32,13 @@ conda env create -f environment.yml
 conda activate lamp
 pip install git+https://github.com/openai/CLIP.git
 ```
-<translate-content>우리는 Python 3.9.12와 PyTorch 1.12.1에서 코드를 테스트합니다
+
+우리는 Python 3.9.12와 PyTorch 1.12.1에서 코드를 테스트합니다
 
 ### 2. 모델 및 의존성
 
-#### 사전 학습된 모델 다운로드</translate-content>
+#### 사전 학습된 모델 다운로드
+
 ```
 bash prepare/download_models.sh
 ```
@@ -149,7 +153,8 @@ python train_lamp.py --name lamp_name --gpu_id 2 --dataset_name t2m --batch_size
 ```
 python train_t2m_transformer.py --name mtrans_name --gpu_id 2 --dataset_name t2m --batch_size 64 --vq_name vq_name
 ```
-<translate-content>
+
+
 * `--dataset_name`: 모션 데이터셋, HumanML3D의 경우 `t2m`, KIT-ML의 경우 `kit`.  
 * `--name`: 모델 이름 지정. `./checkpoints/<dataset_name>/<name>` 경로에 모델 공간이 생성됩니다.
 * `--gpu_id`: GPU 아이디.
@@ -160,18 +165,21 @@ python train_t2m_transformer.py --name mtrans_name --gpu_id 2 --dataset_name t2m
 
 모든 사전 학습된 모델과 중간 결과는 `./checkpoints/<dataset_name>/<name>` 경로에 저장됩니다.
 
-### Train M2T</translate-content>
+### Train M2T
+
 ```
 python train_m2t.py --exp-name M2T --num-layers 12 --batch-size 80 --embed-dim-gpt 1024 --nb-code 512 --n-head-gpt 16 --block-size 51 --ff-rate 4 --drop-out-rate 0.1 --resume-pth your_own_vqvae --vq-name VQVAE --out-dir ./output --total-iter 150000 --lr-scheduler 75000 --lr 0.00005 --dataname kit --down-t 2 --depth 3 --quantizer ema_reset --eval-iter 10000 --pkeep 0.5 --dilation-growth-rate 3 --vq-act relu
 ```
-<translate-content>
+
+
 </details>
 
 ## :artist: 평가
 <details>
 
 ### VQ-VAE 재구성 평가:
-HumanML3D:</translate-content>
+HumanML3D:
+
 ```
 python eval_t2m_vq.py --gpu_id 0 --name  --dataset_name t2m
 

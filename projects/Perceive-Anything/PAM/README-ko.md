@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 <h1>
 무엇이든 인지하기: 이미지 및 비디오 내 무엇이든 인식, 설명, 캡션 작성, 분할하기 (PAM)
 </h1>
@@ -51,14 +51,17 @@ CUHK, HKU, PolyU, PekingU
 
 ## 설치
 
-1. 이 저장소를 클론하고 기본 폴더로 이동합니다</translate-content>
+1. 이 저장소를 클론하고 기본 폴더로 이동합니다
+
 
 ```bash
 git clone https://github.com/Afeng-x/PAM.git
 cd PAM
 ```
-<translate-content>
-2. 패키지 설치</translate-content>
+
+
+2. 패키지 설치
+
 ```bash
 ### packages for base
 conda create -n PAM python=3.10 -y

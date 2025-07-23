@@ -1,4 +1,5 @@
-<translate-content># 画像チェンジャーポップアップ
+﻿
+# 画像チェンジャーポップアップ
 
 ボタンをクリックすると画像が切り替わるカスタマイズ可能なインタラクティブなポップアップ
 
@@ -96,8 +97,10 @@ image-changer-popup/
   aspect-ratio: 142.5 / 171; /* Change these values to match your animation dimensions (300x360px) */
 }
 ``` 
-<translate-content>
-背景画像のサイズ設定について：</translate-content>
+
+
+背景画像のサイズ設定について：
+
 ```css
 body {
   /* ... other properties ... */

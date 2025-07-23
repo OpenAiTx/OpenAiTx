@@ -1,4 +1,5 @@
-<translate-content># unplugin-starter
+﻿
+# unplugin-starter
 
 [![NPM 버전](https://img.shields.io/npm/v/unplugin-starter?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-starter)
 
@@ -7,11 +8,13 @@
 ## 템플릿 사용법
 
 이 템플릿을 사용하려면 다음을 사용하여 클론하세요:
-</translate-content>
+
+
 ```bash
 npx degit unplugin/unplugin-starter my-unplugin
 ```
-<translate-content>
+
+
 그리고 `unplugin-starter`를 당신의 플러그인 이름으로 전역 대체하세요.
 
 그런 다음 unplugin 개발을 시작할 수 있습니다 🔥
@@ -20,14 +23,17 @@ npx degit unplugin/unplugin-starter my-unplugin
 새 버전을 릴리스하려면, 다음을 실행하세요: `pnpm run release`
 
 ## 설치
-</translate-content>
+
+
 ```bash
 npm i unplugin-starter
 ```
-<translate-content>
+
+
 <details>
 <summary>Vite</summary><br>
-</translate-content>
+
+
 ```ts
 // vite.config.ts
 import Starter from 'unplugin-starter/vite'

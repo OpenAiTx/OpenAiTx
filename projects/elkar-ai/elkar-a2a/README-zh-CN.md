@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <img src="https://raw.githubusercontent.com/elkar-ai/elkar-a2a/main/./images/logo.jpeg" alt="Elkar 产品截图"
 
 **Elkar 是一个基于谷歌 Agent2Agent 协议（A2A）的开源 AI 代理任务管理层**。
@@ -163,9 +163,11 @@ server = A2AServer(task_manager, host="0.0.0.0", port=5001, endpoint="/")
 
 server.start() # This is blocking. For production, use an ASGI server like Uvicorn.
 ```
-<translate-content>
+
+
 运行此示例（例如，如果保存为 [main.py](http://main.py) 并将 [server.app](http://server.app) 作为 app 暴露）： uvicorn main:app --host 0.0.0.0 --port 5001
-</translate-content>
+
+
 ```bash
 uvicorn main:app --host 0.0.0.0 --port 5001
 ```
@@ -186,7 +188,8 @@ uvicorn main:app --host 0.0.0.0 --port 5001
 cd a2a-client
 npm run a2adebugger
 ```
-<translate-content>
+
+
 2. **打开您的浏览器**，访问 `http://localhost:5173`
 
 此模式提供了一个简化界面，专注于调试兼容 A2A 的服务器，无需 Supabase 认证或后端服务器集成。
@@ -195,7 +198,8 @@ npm run a2adebugger
 
 1. **状态更新**
 描述任务的状态和代理的进展。状态中的消息会被追加到任务的历史记录中。
-</translate-content>
+
+
 ```python
 await task.set_status(
     TaskStatus(

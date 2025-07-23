@@ -1,4 +1,4 @@
-![Logo image](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/logo.png)
+﻿![Logo image](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/logo.png)
 
 Linter used to enforce some good project structure and validate top level architecture (code layers) 
 
@@ -35,7 +35,8 @@ deps:
     mayDependOn:
       - repository
 ```
-<translate-content>
+
+
 자세한 내용은 [구성 문법](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/docs/syntax/README.md)을 참조하세요. 
 
 이제 린터가 `internal` 작업 디렉토리 내의 모든 프로젝트 코드를 검사하고
@@ -47,7 +48,8 @@ deps:
 
 예를 들어 `main.go`에서 `handler`에 `repository`를 제공하고 다음과 같은 나쁜
 흐름이 발생한다고 가정해 봅시다:
-</translate-content>
+
+
 ```go
 func main() {
   // ..
@@ -59,7 +61,8 @@ func main() {
   // ..
 }
 ```
-<translate-content>
+
+
 린터가 이 문제를 쉽게 찾아냅니다:
 
 ![출력 예시 확인](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/check-example.png)
@@ -67,7 +70,8 @@ func main() {
 ### 설치/실행
 
 #### Docker로
-</translate-content>
+
+
 ```bash
 docker run --rm -v ${PWD}:/app fe3dback/go-arch-lint:latest-stable-release check --project-path /app
 ```

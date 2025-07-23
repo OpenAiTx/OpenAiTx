@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 语言</summary>
     <div>
@@ -60,7 +60,8 @@
    ```bash
    pip install resemble-perth
    ```
-<translate-content>   **注意**：`resemble-perth` 包可能与 Python 3.12+ 存在兼容性问题。若遇到导入错误，节点仍可正常工作，但不带水印。
+
+   **注意**：`resemble-perth` 包可能与 Python 3.12+ 存在兼容性问题。若遇到导入错误，节点仍可正常工作，但不带水印。
 
 
 ## 使用说明
@@ -88,7 +89,8 @@
 - 添加了持久化模型加载和加载条功能
 - 添加了 Mac 支持（需测试，欢迎联系）
 - 移除了 chatterbox-tts 库，改用原生推理代码实现。
-</translate-content>
+
+
 
 
 ---

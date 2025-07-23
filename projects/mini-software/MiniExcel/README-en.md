@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
 <a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Build status"></a>
 <a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
@@ -243,13 +243,15 @@ var rows = MiniExcel.Query(path).Cast<IDictionary<string,object>>();
 // If you don't want to restrict rows, just don't include numbers
 var rows = MiniExcel.QueryRange(path, startCell: "A2", endCell: "C3").Cast<IDictionary<string, object>>();
 ```
-<translate-content>
+
+
 
 
 #### 9. Query Excel return DataTable
 
 Not recommended, because DataTable will load all data into memory and lose MiniExcel's low memory consumption feature.
-</translate-content>
+
+
 ```C#
 var table = MiniExcel.QueryAsDataTable(path, useHeaderRow: true);
 ```
@@ -376,7 +378,8 @@ using (var cnn = Connection)
     MiniExcel.SaveAs("Demo.xlsx", sheets);
 }
 ```
-<translate-content>
+
+
 
 
 #### 4. Datatable
@@ -384,7 +387,8 @@ using (var cnn = Connection)
 - `Not recommended`, it will load all data into memory
 
 - DataTable uses Caption for the column name first, then uses the column name
-</translate-content>
+
+
 ```csharp
 var path = Path.Combine(Path.GetTempPath(), $"{Guid.NewGuid()}.xlsx");
 var table = new DataTable();
@@ -506,11 +510,13 @@ Since v0.19.0, `OpenXmlConfiguration.AutoFilter` can enable/disable AutoFilter. 
 ```csharp
 MiniExcel.SaveAs(path, value, configuration: new OpenXmlConfiguration() { AutoFilter = false });
 ```
-<translate-content>
+
+
 
 
 #### 10. Create Image
-</translate-content>
+
+
 ```csharp
 var value = new[] {
     new { Name="github",Image=File.ReadAllBytes(PathHelper.GetFile("images/github_logo.png"))},
@@ -548,7 +554,9 @@ var path = @"../../../../../samples/xlsx/TestMergeWithTag.xlsx";
 
 MiniExcel.MergeSameCells(mergedFilePath, path);
 ```
-<translate-content></translate-content>
+
+
+
 ```csharp
 var memoryStream = new MemoryStream();
 
@@ -1034,7 +1042,8 @@ Assert.Null(rows[0].Test5);
 Assert.Null(rows[0].Test6);
 Assert.Equal("Test4", rows[0].Test7);
 ```
-<translate-content>
+
+
 
 
 
@@ -1044,7 +1053,8 @@ Assert.Equal("Test4", rows[0].Test7);
 Since V0.21.0, supports classes that contain a `ToString(string content)` method for formatting
 
 Class
-</translate-content>
+
+
 ```csharp
 public class Dto
 {
@@ -1095,13 +1105,15 @@ public class Dto
     public string Name { get; set; }
 }
 ```
-<translate-content>
+
+
 
 
 #### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
 Since version 1.24.0, the system supports System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
-</translate-content>
+
+
 ```C#
 public class TestIssueI4TXGTDto
 {
@@ -1128,13 +1140,15 @@ Since V1.26.0, multiple attributes can be simplified like:
             public DateTime MyProperty2 { get; set; }
         }
 ```
-<translate-content>
+
+
 
 
 #### 7. DynamicColumnAttribute
 
 Since V1.26.0, we can set the attributes of Column dynamically
-</translate-content>
+
+
 ```csharp
             var config = new OpenXmlConfiguration
             {
@@ -1260,7 +1274,8 @@ stream.Query(excelType:ExcelType.CSV);
 //or
 stream.Query(excelType:ExcelType.XLSX);
 ```
-<translate-content>
+
+
 
 
 
@@ -1276,7 +1291,8 @@ stream.Query(excelType:ExcelType.XLSX);
 #### Custom separator
 
 The default separator is `,`, but you can modify the `Seperator` property to customize it.
-</translate-content>
+
+
 ```csharp
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
 {
@@ -1295,13 +1311,15 @@ var config = new CsvConfiguration()
 };
 var rows = MiniExcel.Query(path, configuration: config).ToList();
 ```
-<translate-content>
+
+
 
 
 #### Custom line break
 
 The default newline character is `\r\n`, you can modify the `NewLine` property for customization
-</translate-content>
+
+
 ```csharp
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
 {
@@ -1362,13 +1380,15 @@ Since 1.23.0, you can GetDataReader
         }
     }
 ```
-<translate-content>
+
+
 
 
 ###  Async
 
 - v0.17.0 supports Async (thanks to isdaniel (SHIH, BING-SIOU)](https://github.com/isdaniel))
-</translate-content>
+
+
 ```csharp
 public static Task SaveAsAsync(string path, object value, bool printHeader = true, string sheetName = "Sheet1", ExcelType excelType = ExcelType.UNKNOWN, IConfiguration configuration = null)
 public static Task SaveAsAsync(this Stream stream, object value, bool printHeader = true, string sheetName = "Sheet1", ExcelType excelType = ExcelType.XLSX, IConfiguration configuration = null)
@@ -1692,13 +1712,15 @@ memoryStream.Seek(0, SeekOrigin.Begin);
 memoryStream.CopyTo(Response.OutputStream);
 response.End();
 ```
-<translate-content>
+
+
 
 
 #### 5. Dynamic i18n Multi-language and Role Authority Management
 
 As in the example, create a method to handle i18n and permission management, and use `yield return to return IEnumerable<Dictionary<string, object>>` to achieve dynamic and low-memory processing effects
-</translate-content>
+
+
 ```csharp
 void Main()
 {
@@ -1891,11 +1913,13 @@ public static IEnumerable<dynamic> QueryWithoutEmptyRow(Stream stream, bool useH
     }
 }
 ```
-<translate-content>
+
+
 
 
 DataTable :
-</translate-content>
+
+
 ```csharp
 public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useHeaderRow, string sheetName, ExcelType excelType, string startCell, IConfiguration configuration)
 {
@@ -1938,27 +1962,32 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
     return dt;
 }
 ```
-<translate-content>
+
+
 
 
 #### Q. How to use SaveAs(path, value) to replace an existing file without throwing "The file ...xlsx already exists" error
 
 
 Please use the Stream class to customize file creation logic, for example:
-</translate-content>
+
+
 ```C#
     using (var stream = File.Create("Demo.xlsx"))
         MiniExcel.SaveAs(stream,value);
 ```
-<translate-content>
+
+
 
 
 or, since V1.25.0, SaveAs supports the overwriteFile parameter to enable/disable overwriting an existing file
-</translate-content>
+
+
 ```csharp
     MiniExcel.SaveAs(path, value, overwriteFile: true);
 ```
-<translate-content>
+
+
 
 
 
@@ -1991,7 +2020,8 @@ Link https://github.com/orgs/mini-software/discussions/754
 ### Contributors
 
 ![](https://contrib.rocks/image?repo=mini-software/MiniExcel)
-</translate-content>
+
+
 
 ---
 

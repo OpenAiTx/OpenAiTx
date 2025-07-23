@@ -1,4 +1,5 @@
-<translate-content># Thio的基于浏览器的工具
+﻿
+# Thio的基于浏览器的工具
 各种实用程序和工具，直接在您的浏览器中本地运行。
 
 ### 如何下载
@@ -27,7 +28,8 @@
 <p align="center"><img width="799" alt="image" src="https://github.com/user-attachments/assets/69226a1a-7d6a-40bb-bec5-46cc7afeb918" /></p>
 
 
-</translate-content>
+
+
 
 ---
 

@@ -1,4 +1,4 @@
-# with-react
+﻿# with-react
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/jacobparis/with-react?style=social)
 ![npm](https://img.shields.io/npm/v/with-react?style=plastic)
@@ -43,14 +43,16 @@ function UserProfile({ user, showDetails }) {
   )
 }
 ```
-<translate-content>
+
+
 
 ## ループ内のフック
 
 これは条件付きフックの特別なケースですが、ループで多くのアイテムをレンダリングしている場合、それらにカスタムコンポーネントを作成する価値がないことがあります。なぜなら、親のスコープから多くのデータが必要だからです。
 
 しかし、それぞれに状態を追加する必要があるとき、Reactはそれをコンポーネントでラップすることを強制します。WithStateを使うことで、そのコンポーネントが提供され、親が所有するリストアイテムを維持できます。
-</translate-content>
+
+
 ```tsx
 const items = ['apple', 'banana', 'orange']
 
@@ -122,7 +124,8 @@ function UserDetails() {
   )
 }
 ```
-<translate-content>
+
+
 ## 利用可能なコンポーネント
 
 WithState と WithFormStatus は最も便利です
@@ -145,7 +148,8 @@ WithState と WithFormStatus は最も便利です
 | `useSyncExternalStore` | `WithSyncExternalStore` |
 | `useTransition` | `WithTransition` |
 | `use` | `WithUse` |
-</translate-content>
+
+
 
 ---
 

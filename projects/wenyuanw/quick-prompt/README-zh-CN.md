@@ -1,4 +1,4 @@
-# 快捷提示
+﻿# 快捷提示
 
 <div align="right">
   <details>
@@ -130,8 +130,10 @@ Quick Prompt 提供直观友好的用户界面，让你轻松管理和使用提�
    ```bash
    pnpm install
    ```
-<translate-content>
-3. 开发和构建</translate-content>
+
+
+3. 开发和构建
+
    ```bash
    # 开发模式 (Chrome)
    pnpm dev

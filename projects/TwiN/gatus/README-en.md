@@ -1,4 +1,5 @@
-<translate-content>[![Gatus](https://raw.githubusercontent.com/TwiN/gatus/master/.github/assets/logo-with-dark-text.png)](https://gatus.io)
+﻿
+[![Gatus](https://raw.githubusercontent.com/TwiN/gatus/master/.github/assets/logo-with-dark-text.png)](https://gatus.io)
 
 ![test](https://github.com/TwiN/gatus/actions/workflows/test.yml/badge.svg)
 [![Go Report Card](https://goreportcard.com/badge/github.com/TwiN/gatus?)](https://goreportcard.com/report/github.com/TwiN/gatus)
@@ -19,7 +20,8 @@ _Looking for a managed solution? Check out [Gatus.io](https://gatus.io)._
 
 <details>
   <summary><b>Quick start</b></summary>
-</translate-content>
+
+
 ```console
 docker run -p 8080:8080 --name gatus twinproduction/gatus:stable
 ```
@@ -421,7 +423,8 @@ storage:
 ```
 See [examples/docker-compose-sqlite-storage](.examples/docker-compose-sqlite-storage) for an example.
 
-- If `storage.type` is `postgres`, `storage.path` must be the connection URL:</translate-content>
+- If `storage.type` is `postgres`, `storage.path` must be the connection URL:
+
 ```yaml
 storage:
   type: postgres
@@ -2311,7 +2314,8 @@ Placeholder `[STATUS]` as well as the fields `endpoints[].headers`,
 
 ### Monitoring domain expiration
 You can monitor the expiration of a domain with all endpoint types except for DNS by using the `[DOMAIN_EXPIRATION]`
-placeholder:</translate-content>
+placeholder:
+
 
 ```yaml
 endpoints:
@@ -2471,12 +2475,14 @@ endpoints:
       - "[STATUS] == 200"
       - "[BODY].status == UP"
 ```
-<translate-content></details>
+
+</details>
 
 
 ### Proxy client configuration
 You can configure a proxy for the client to use by setting the `proxy-url` parameter in the client configuration.
-</translate-content>
+
+
 ```yaml
 endpoints:
   - name: website
@@ -2537,7 +2543,8 @@ If you'd like to see a visual example of each badge available, you can simply na
 #### Health
 ![Health](https://status.twin.sh/api/v1/endpoints/core_blog-external/health/badge.svg)
 
-The path to generate a badge is the following:</translate-content>
+The path to generate a badge is the following:
+
 ```
 /api/v1/endpoints/{key}/health/badge.svg
 ```

@@ -1,4 +1,5 @@
-<translate-content># Triptych - HTML 的新属性
+﻿
+# Triptych - HTML 的新属性
 
 [Triptych](https://alexanderpetros.com/triptych) 是三个小型 HTML 提案的 polyfill：
 
@@ -14,7 +15,8 @@
 ## 示例
 
 当点击链接时，用 `GET /home` 的结果替换 `<main>`： 
-</translate-content>
+
+
 ```html
 <a href="/home" target="main">Home</a>
 <main> <!-- Existing page content --> </main>
@@ -29,9 +31,11 @@
 ```html
 <button action="/users/354" method="DELETE" target="_this"></button>
 ```
-<translate-content>
+
+
 当表单提交时，将 `<div id=user-info>` 替换为 `PUT /users/354` 的结果
-</translate-content>
+
+
 ```html
 <div id="user-info"></div>
 <form action="/users/354" method="PUT" target="#user-info">

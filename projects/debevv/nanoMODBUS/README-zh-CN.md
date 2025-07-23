@@ -1,4 +1,5 @@
-<translate-content># nanoMODBUS - 一个用于嵌入式/微控制器的紧凑型 MODBUS RTU/TCP C 库
+﻿
+# nanoMODBUS - 一个用于嵌入式/微控制器的紧凑型 MODBUS RTU/TCP C 库
 
 **如果您觉得这个库有用，请请我喝杯咖啡**
 [<img src='https://storage.ko-fi.com/cdn/brandasset/logo_white_stroke.png' width='80'>](https://ko-fi.com/B0B2LK779)
@@ -35,7 +36,8 @@ nanoMODBUS 是一个实现 Modbus 协议的小型 C 库。它在嵌入式和资�
 - 用户可定义 CRC 函数以提升性能
 - 支持广播请求和响应
 
-## 一览</translate-content>
+## 一览
+
 
 
 ```C
@@ -93,7 +95,8 @@ int main(int argc, char* argv[]) {
     return 0;
 }
 ```
-<translate-content>
+
+
 ## 安装
 
 ### 手动安装
@@ -103,7 +106,8 @@ int main(int argc, char* argv[]) {
 ### CMake 项目
 
 nanomodbus 支持通过 CMake 进行库链接。
-</translate-content>
+
+
 ```cmake
 FetchContent_Declare(
         nanomodbus
@@ -119,7 +123,8 @@ FetchContent_MakeAvailable(nanomodbus)
 add_executable(your_program source_codes)
 target_link_libraries(your_program nanomodbus)
 ```
-<translate-content>
+
+
 ## API 参考
 
 API 参考可在仓库的 [GitHub Pages](https://debevv.github.io/nanoMODBUS/nanomodbus_8h.html) 中获得。
@@ -129,13 +134,15 @@ API 参考可在仓库的 [GitHub Pages](https://debevv.github.io/nanoMODBUS/nan
 nanoMODBUS 需要实现 2 个平台特定的函数，在创建客户端/服务器实例时作为函数指针定义。
 
 ### 传输读/写
-</translate-content>
+
+
 
 ```C
 int32_t read(uint8_t* buf, uint16_t count, int32_t byte_timeout_ms, void* arg);
 int32_t write(const uint8_t* buf, uint16_t count, int32_t byte_timeout_ms, void* arg);
 ```
-<translate-content>
+
+
 这些是您的平台特定函数，用于从串口或TCP连接读取/写入数据。  
 两种方法都应该阻塞，直到满足以下条件之一：
 
@@ -157,7 +164,8 @@ int32_t write(const uint8_t* buf, uint16_t count, int32_t byte_timeout_ms, void*
 ## 测试和示例
 
 测试和示例可以在 Linux 上使用 CMake 构建和运行：
-</translate-content>
+
+
 
 
 ```sh

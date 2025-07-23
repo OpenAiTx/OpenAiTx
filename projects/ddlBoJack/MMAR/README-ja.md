@@ -1,4 +1,5 @@
-<translate-content>
+﻿
+
 # MMAR：音声、オーディオ、音楽、およびそれらの混合における深層推論のための挑戦的ベンチマーク
 [**📖 arXiv**](https://arxiv.org/abs/2505.13032) | [**🎬 MMAR デモ動画**](https://www.youtube.com/watch?v=Dab13opIGqU) | [**🛠️ GitHub コード**](https://github.com/ddlBoJack/MMAR) | [**🔊 MMAR オーディオダウンロード（HuggingFace）**](https://huggingface.co/datasets/BoJack/MMAR)
                                           
@@ -45,7 +46,8 @@ MMARベンチマークは包括的なパイプラインで構築されました�
 
 既存の評価パイプラインへのスムーズな統合を確保するため、[MMAU](https://github.com/Sakshi113/MMAU)から修正を加えた評価手法を採用し、[evaluation.py](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/code/evaluation.py)に実装しています。評価スクリプトへの入力は、[MMAR-meta.json](https://raw.githubusercontent.com/ddlBoJack/MMAR/main/MMAR-meta.json)と同じ形式で、各質問に対するモデル予測を格納する `model_prediction` という追加キーを含みます。  
   
-スクリプトを実行するには：</translate-content>
+スクリプトを実行するには：
+
 ```bash
 python evaluation.py  --input INPUT_JSON_PATH
 ```

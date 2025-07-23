@@ -1,4 +1,5 @@
-<translate-content># MASS: Multi-Agent Simulation Scaling for Portfolio Construction
+﻿
+# MASS: Multi-Agent Simulation Scaling for Portfolio Construction
 
 📜 [Paper Link](https://arxiv.org/abs/2505.10278)
 

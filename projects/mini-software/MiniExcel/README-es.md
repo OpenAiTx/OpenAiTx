@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
 <a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Estado de compilación"></a>
 <a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="Estrellas de GitHub"></a>
@@ -548,7 +548,9 @@ var path = @"../../../../../samples/xlsx/TestMergeWithTag.xlsx";
 
 MiniExcel.MergeSameCells(mergedFilePath, path);
 ```
-<translate-content></translate-content>
+
+
+
 ```csharp
 var memoryStream = new MemoryStream();
 
@@ -609,9 +611,11 @@ MiniExcel.SaveAs(@"C:\temp\Book1.xlsx", dt, configuration: configuration);
     </x:c>
 </x:row>
 ```
-<translate-content>
+
+
 Comportamiento anterior:
-</translate-content>
+
+
 ```csharp
 /* ... */
 
@@ -1034,7 +1038,8 @@ Assert.Null(rows[0].Test5);
 Assert.Null(rows[0].Test6);
 Assert.Equal("Test4", rows[0].Test7);
 ```
-<translate-content>
+
+
 
 
 
@@ -1044,7 +1049,8 @@ Assert.Equal("Test4", rows[0].Test7);
 Desde la versión V0.21.0 se admite la clase que contiene el formato de método `ToString(string content)`
 
 Clase
-</translate-content>
+
+
 ```csharp
 public class Dto
 {
@@ -1095,13 +1101,15 @@ public class Dto
     public string Name { get; set; }
 }
 ```
-<translate-content>
+
+
 
 
 #### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
 Desde la versión 1.24.0, el sistema admite System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
-</translate-content>
+
+
 ```C#
 public class TestIssueI4TXGTDto
 {
@@ -1259,7 +1267,8 @@ stream.Query(excelType:ExcelType.CSV);
 //or
 stream.Query(excelType:ExcelType.XLSX);
 ```
-<translate-content>
+
+
 
 
 
@@ -1275,7 +1284,8 @@ stream.Query(excelType:ExcelType.XLSX);
 #### Separador personalizado
 
 El valor predeterminado es `,` como separador, puedes modificar la propiedad `Seperator` para personalizarlo
-</translate-content>
+
+
 ```csharp
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
 {
@@ -1361,13 +1371,15 @@ Desde la versión 1.23.0, puedes usar GetDataReader
         }
     }
 ```
-<translate-content>
+
+
 
 
 ###  Async
 
 - v0.17.0 soporta Async (gracias a isdaniel ( SHIH,BING-SIOU)](https://github.com/isdaniel))
-</translate-content>
+
+
 ```csharp
 public static Task SaveAsAsync(string path, object value, bool printHeader = true, string sheetName = "Sheet1", ExcelType excelType = ExcelType.UNKNOWN, IConfiguration configuration = null)
 public static Task SaveAsAsync(this Stream stream, object value, bool printHeader = true, string sheetName = "Sheet1", ExcelType excelType = ExcelType.XLSX, IConfiguration configuration = null)
@@ -1890,11 +1902,13 @@ public static IEnumerable<dynamic> QueryWithoutEmptyRow(Stream stream, bool useH
     }
 }
 ```
-<translate-content>
+
+
 
 
 DataTable :
-</translate-content>
+
+
 ```csharp
 public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useHeaderRow, string sheetName, ExcelType excelType, string startCell, IConfiguration configuration)
 {
@@ -1937,14 +1951,16 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
     return dt;
 }
 ```
-<translate-content>
+
+
 
 
 #### P. ¿Cómo usar SaveAs(path,value) para reemplazar un archivo existente sin que aparezca el error "El archivo ...xlsx ya existe"?
 
 
 Por favor, utilice la clase Stream para personalizar la lógica de creación de archivos, por ejemplo:
-</translate-content>
+
+
 ```C#
     using (var stream = File.Create("Demo.xlsx"))
         MiniExcel.SaveAs(stream,value);
@@ -1957,7 +1973,8 @@ o, desde la versión V1.25.0, SaveAs admite el parámetro overwriteFile para hab
 ```csharp
     MiniExcel.SaveAs(path, value, overwriteFile: true);
 ```
-<translate-content>
+
+
 
 
 
@@ -1990,7 +2007,8 @@ Enlace https://github.com/orgs/mini-software/discussions/754
 ### Contribuidores
 
 ![](https://contrib.rocks/image?repo=mini-software/MiniExcel)
-</translate-content>
+
+
 
 ---
 

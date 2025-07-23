@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 भाषा</summary>
     <div>
@@ -163,8 +163,10 @@ export default function App() {
   </body>
 </html>
 ```
-<translate-content>
-</translate-content>
+
+
+
+
 
 ---
 

@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
 <a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Build status"></a>
 <a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
@@ -506,11 +506,13 @@ Desde a v0.19.0, `OpenXmlConfiguration.AutoFilter` pode ativar/desativar o AutoF
 ```csharp
 MiniExcel.SaveAs(path, value, configuration: new OpenXmlConfiguration() { AutoFilter = false });
 ```
-<translate-content>
+
+
 
 
 #### 10. Criar Imagem
-</translate-content>
+
+
 ```csharp
 var value = new[] {
     new { Name="github",Image=File.ReadAllBytes(PathHelper.GetFile("images/github_logo.png"))},
@@ -548,7 +550,9 @@ var path = @"../../../../../samples/xlsx/TestMergeWithTag.xlsx";
 
 MiniExcel.MergeSameCells(mergedFilePath, path);
 ```
-<translate-content></translate-content>
+
+
+
 ```csharp
 var memoryStream = new MemoryStream();
 
@@ -609,9 +613,11 @@ MiniExcel.SaveAs(@"C:\temp\Book1.xlsx", dt, configuration: configuration);
     </x:c>
 </x:row>
 ```
-<translate-content>
+
+
 Comportamento anterior:
-</translate-content>
+
+
 ```csharp
 /* ... */
 
@@ -1034,7 +1040,8 @@ Assert.Null(rows[0].Test5);
 Assert.Null(rows[0].Test6);
 Assert.Equal("Test4", rows[0].Test7);
 ```
-<translate-content>
+
+
 
 
 
@@ -1044,7 +1051,8 @@ Assert.Equal("Test4", rows[0].Test7);
 Desde a versão V0.21.0, suporta classe que contém o método `ToString(string content)` para formatação
 
 Classe
-</translate-content>
+
+
 ```csharp
 public class Dto
 {
@@ -1113,12 +1121,14 @@ public class TestIssueI4TXGTDto
     public decimal Up { get; set; }
 }
 ```
-<translate-content>
+
+
 
 
 #### 6. ExcelColumnAttribute
 
-Desde a versão V1.26.0, vários atributos podem ser simplificados assim :</translate-content>
+Desde a versão V1.26.0, vários atributos podem ser simplificados assim :
+
 ```csharp
         public class TestIssueI4ZYUUDto
         {
@@ -1259,7 +1269,8 @@ stream.Query(excelType:ExcelType.CSV);
 //or
 stream.Query(excelType:ExcelType.XLSX);
 ```
-<translate-content>
+
+
 
 
 
@@ -1275,7 +1286,8 @@ stream.Query(excelType:ExcelType.XLSX);
 #### Separador personalizado
 
 O padrão é `,` como separador, você pode modificar a propriedade `Seperator` para personalização
-</translate-content>
+
+
 ```csharp
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
 {
@@ -1361,13 +1373,15 @@ Desde a versão 1.23.0, você pode usar GetDataReader
         }
     }
 ```
-<translate-content>
+
+
 
 
 ###  Assíncrono
 
 - v0.17.0 suporta Assíncrono (agradecimentos a isdaniel ( SHIH,BING-SIOU)](https://github.com/isdaniel))
-</translate-content>
+
+
 ```csharp
 public static Task SaveAsAsync(string path, object value, bool printHeader = true, string sheetName = "Sheet1", ExcelType excelType = ExcelType.UNKNOWN, IConfiguration configuration = null)
 public static Task SaveAsAsync(this Stream stream, object value, bool printHeader = true, string sheetName = "Sheet1", ExcelType excelType = ExcelType.XLSX, IConfiguration configuration = null)
@@ -1691,13 +1705,15 @@ memoryStream.Seek(0, SeekOrigin.Begin);
 memoryStream.CopyTo(Response.OutputStream);
 response.End();
 ```
-<translate-content>
+
+
 
 
 #### 5. Gerenciamento dinâmico de i18n multilíngue e autoridade de função
 
 Como no exemplo, crie um método para lidar com i18n e gerenciamento de permissões, e use `yield return para retornar IEnumerable<Dictionary<string, object>>` para obter efeitos dinâmicos e de baixo consumo de memória
-</translate-content>
+
+
 ```csharp
 void Main()
 {
@@ -1890,11 +1906,13 @@ public static IEnumerable<dynamic> QueryWithoutEmptyRow(Stream stream, bool useH
     }
 }
 ```
-<translate-content>
+
+
 
 
 DataTable :
-</translate-content>
+
+
 ```csharp
 public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useHeaderRow, string sheetName, ExcelType excelType, string startCell, IConfiguration configuration)
 {
@@ -1937,23 +1955,27 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
     return dt;
 }
 ```
-<translate-content>
+
+
 
 
 #### P. Como SaveAs(path,value) pode substituir um arquivo existente sem lançar o erro "O arquivo ...xlsx já existe"
 
 
 Por favor, utilize a classe Stream para personalizar a lógica de criação de arquivos, por exemplo:
-</translate-content>
+
+
 ```C#
     using (var stream = File.Create("Demo.xlsx"))
         MiniExcel.SaveAs(stream,value);
 ```
-<translate-content>
+
+
 
 
 ou, desde a V1.25.0, o SaveAs suporta o parâmetro overwriteFile para habilitar/desabilitar a sobrescrição de arquivos existentes
-</translate-content>
+
+
 ```csharp
     MiniExcel.SaveAs(path, value, overwriteFile: true);
 ```

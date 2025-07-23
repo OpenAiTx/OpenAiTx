@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
     <img alt="ovCompose Logo" src="https://raw.githubusercontent.com/Tencent-TDS/ovCompose-multiplatform-core/ov/compose-1.6.1/img/ovCompose.svg" />
 </p>
 
@@ -98,8 +98,10 @@ Publish artifacts to remote or local maven, see [MULTIPLATFORM.md](https://raw.g
 ./gradlew :mpp:publishComposeJb -Pcompose.platforms=android,ohosArm64,uikit
 ./gradlew :mpp:publishComposeJbToMavenLocal -Pcompose.platforms=android,ohosArm64,uikit
 ```
-<translate-content>
-</translate-content>
+
+
+
+
 
 ---
 

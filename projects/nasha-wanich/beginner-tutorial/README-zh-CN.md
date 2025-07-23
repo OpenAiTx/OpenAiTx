@@ -1,4 +1,5 @@
-<translate-content># 图片切换弹窗
+﻿
+# 图片切换弹窗
 
 一个可定制的交互式弹窗，点击按钮时循环切换图片
 
@@ -23,7 +24,8 @@
 - 装饰性 UI 元素（关闭和缩小按钮）
 
 ## 📁 项目结构
-</translate-content>
+
+
 ```
 image-changer-popup/
 ├── assets/
@@ -95,20 +97,24 @@ image-changer-popup/
   aspect-ratio: 142.5 / 171; /* Change these values to match your animation dimensions (300x360px) */
 }
 ``` 
-<translate-content>
-对于背景图像大小：</translate-content>
+
+
+对于背景图像大小：
+
 ```css
 body {
   /* ... other properties ... */
   background-size: 100% auto; /* Adjust based on your background image dimensions (2093x1132px) */
 }
 ```
-<translate-content>
+
+
 
 ### 颜色与样式
 
 所有视觉元素均可通过 `style.css` 中 `:root` 部分的 CSS 变量进行自定义：
-</translate-content>
+
+
 ```css
 :root {
   /* Colors */

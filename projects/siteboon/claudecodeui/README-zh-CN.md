@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
   <img src="https://raw.githubusercontent.com/siteboon/claudecodeui/main/public/logo.svg" alt="Claude Code UI" width="64" height="64">
   <h1>Claude Code UI</h1>
 </div>
@@ -55,8 +55,10 @@
 git clone https://github.com/siteboon/claudecodeui.git
 cd claudecodeui
 ```
-<translate-content>
-2. **安装依赖项：**</translate-content>
+
+
+2. **安装依赖项：**
+
 ```bash
 npm install
 ```
@@ -66,8 +68,10 @@ npm install
 cp .env.example .env
 # Edit .env with your preferred settings
 ```
-<translate-content>
-4. **启动应用程序：**</translate-content>
+
+
+4. **启动应用程序：**
+
 ```bash
 # Development mode (with hot reload)
 npm run dev

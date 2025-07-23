@@ -1,4 +1,5 @@
-<translate-content># FormFactory: マルチモーダルフォーム記入エージェントのためのインタラクティブベンチマークスイート
+﻿
+# FormFactory: マルチモーダルフォーム記入エージェントのためのインタラクティブベンチマークスイート
 
 ![](https://raw.githubusercontent.com/formfactory-ai/formfactory/main/img/fig1v1_page_1.png)
 
@@ -31,7 +32,8 @@
 
 - Python ≥ 3.8
 - Flask == 2.3.*
-- 追加の依存関係は以下でインストールしてください：</translate-content>
+- 追加の依存関係は以下でインストールしてください：
+
   ```bash
   pip install -r requirements.txt
   ```
@@ -50,7 +52,8 @@ python app.py        # default: http://127.0.0.1:5000/
 
 ---
 
-## 🗂 ディレクトリ構成</translate-content>
+## 🗂 ディレクトリ構成
+
 ```text
 formfactory/
 ├─ app.py                # Flask back-end entry point

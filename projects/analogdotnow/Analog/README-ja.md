@@ -1,4 +1,5 @@
-<translate-content><p align="center">
+﻿
+<p align="center">
   <h1 align="center">Analog</h1>
   <p align="center">すべてを変えるオープンソースカレンダー</p>
 </p>
@@ -19,7 +20,8 @@ Analogをローカルマシンで起動するには、次の手順に従って�
 ### セットアップ
 
 1.  **リポジトリをクローンする**：
-</translate-content>
+
+
     ```bash
     git clone https://github.com/jeanmeijer/analog.git
     cd analog
@@ -71,12 +73,14 @@ AnalogはDrizzle ORMを使ったPostgreSQLを使用します。Dockerを使っ�
     ```bash
     bun run docker:up
     ```
-<translate-content>
+
+
     このコマンドは `docker-compose.yml` を使用してPostgreSQLコンテナを起動します。
 
 2.  **データベースの初期化**：
     データベースコンテナが起動して正常な状態になったら、データベースを初期化します：
-</translate-content>
+
+
     ```bash
     bun run db:push
     ```

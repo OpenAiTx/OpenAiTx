@@ -1,4 +1,5 @@
-<translate-content># Adjoint Sampling
+﻿
+# Adjoint Sampling
 
 This repository contains the official implementation and experiments for Adjoint Sampling: Highly Scalable Diffusion
 Samplers via Adjoint Matching.

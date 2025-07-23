@@ -1,4 +1,5 @@
-<translate-content># FormFactory：多模态表单填写代理的交互式基准测试套件
+﻿
+# FormFactory：多模态表单填写代理的交互式基准测试套件
 
 ![](https://raw.githubusercontent.com/formfactory-ai/formfactory/main/img/fig1v1_page_1.png)
 
@@ -31,7 +32,8 @@
 
 - Python ≥ 3.8
 - Flask == 2.3.*
-- 使用以下命令安装其他依赖：</translate-content>
+- 使用以下命令安装其他依赖：
+
   ```bash
   pip install -r requirements.txt
   ```
@@ -46,11 +48,13 @@ cd formfactory
 ```bash
 python app.py        # default: http://127.0.0.1:5000/
 ```
-<translate-content>在浏览器中打开该网址，从仪表板中选择任何表单，然后开始互动。
+
+在浏览器中打开该网址，从仪表板中选择任何表单，然后开始互动。
 
 ---
 
-## 🗂 目录结构</translate-content>
+## 🗂 目录结构
+
 ```text
 formfactory/
 ├─ app.py                # Flask back-end entry point

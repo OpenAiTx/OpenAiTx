@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
 <a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Build status"></a>
 <a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
@@ -243,13 +243,15 @@ var rows = MiniExcel.Query(path).Cast<IDictionary<string,object>>();
 // If you don't want to restrict rows, just don't include numbers
 var rows = MiniExcel.QueryRange(path, startCell: "A2", endCell: "C3").Cast<IDictionary<string, object>>();
 ```
-<translate-content>
+
+
 
 
 #### 9. การใช้ Query Excel เพื่อคืนค่า DataTable
 
 ไม่แนะนำ เนื่องจาก DataTable จะโหลดข้อมูลทั้งหมดเข้าสู่หน่วยความจำและทำให้สูญเสียคุณสมบัติการใช้หน่วยความจำต่ำของ MiniExcel
-</translate-content>
+
+
 ```C#
 var table = MiniExcel.QueryAsDataTable(path, useHeaderRow: true);
 ```
@@ -302,7 +304,8 @@ MiniExcel.Query(path,configuration: config)
 var config = new OpenXmlConfiguration { SharedStringCacheSize=500*1024*1024 };
 MiniExcel.Query(path, configuration: config);
 ```
-<translate-content>
+
+
 
 ![image](https://user-images.githubusercontent.com/12729184/161411851-1c3f72a7-33b3-4944-84dc-ffc1d16747dd.png)
 
@@ -328,7 +331,8 @@ MiniExcel.Query(path, configuration: config);
 
 
 #### 1. Anonymous หรือ strongly type [[ลองใช้งาน]](https://dotnetfiddle.net/w5WD1J)
-</translate-content>
+
+
 ```csharp
 var path = Path.Combine(Path.GetTempPath(), $"{Guid.NewGuid()}.xlsx");
 MiniExcel.SaveAs(path, new[] {
@@ -376,7 +380,8 @@ using (var cnn = Connection)
     MiniExcel.SaveAs("Demo.xlsx", sheets);
 }
 ```
-<translate-content>
+
+
 
 
 #### 4. Datatable
@@ -384,7 +389,8 @@ using (var cnn = Connection)
 - `ไม่แนะนำ` เนื่องจากจะโหลดข้อมูลทั้งหมดเข้าหน่วยความจำ
 
 - DataTable ใช้ Caption เป็นชื่อคอลัมน์ก่อน จากนั้นจึงใช้ columname
-</translate-content>
+
+
 ```csharp
 var path = Path.Combine(Path.GetTempPath(), $"{Guid.NewGuid()}.xlsx");
 var table = new DataTable();
@@ -506,11 +512,13 @@ MiniExcel.SaveAs(path, value,configuration:config);
 ```csharp
 MiniExcel.SaveAs(path, value, configuration: new OpenXmlConfiguration() { AutoFilter = false });
 ```
-<translate-content>
+
+
 
 
 #### 10. สร้างภาพ
-</translate-content>
+
+
 ```csharp
 var value = new[] {
     new { Name="github",Image=File.ReadAllBytes(PathHelper.GetFile("images/github_logo.png"))},
@@ -548,7 +556,9 @@ var path = @"../../../../../samples/xlsx/TestMergeWithTag.xlsx";
 
 MiniExcel.MergeSameCells(mergedFilePath, path);
 ```
-<translate-content></translate-content>
+
+
+
 ```csharp
 var memoryStream = new MemoryStream();
 
@@ -609,9 +619,11 @@ MiniExcel.SaveAs(@"C:\temp\Book1.xlsx", dt, configuration: configuration);
     </x:c>
 </x:row>
 ```
-<translate-content>
+
+
 พฤติกรรมก่อนหน้านี้:
-</translate-content>
+
+
 ```csharp
 /* ... */
 
@@ -819,9 +831,11 @@ public class Poco
     public Guid? Guid { get; set; }
 }
 ```
-<translate-content>
+
+
 โค้ด
-</translate-content>
+
+
 ```csharp
 var poco = new TestIEnumerableTypePoco { @string = "string", @int = 123, @decimal = decimal.Parse("123.45"), @double = (double)123.33, @datetime = new DateTime(2021, 4, 1), @bool = true, @Guid = Guid.NewGuid() };
 var value = new
@@ -1034,7 +1048,8 @@ Assert.Null(rows[0].Test5);
 Assert.Null(rows[0].Test6);
 Assert.Equal("Test4", rows[0].Test7);
 ```
-<translate-content>
+
+
 
 
 
@@ -1044,7 +1059,8 @@ Assert.Equal("Test4", rows[0].Test7);
 ตั้งแต่เวอร์ชัน V0.21.0 รองรับคลาสที่มีเมธอด `ToString(string content)` สำหรับการจัดรูปแบบ
 
 คลาส
-</translate-content>
+
+
 ```csharp
 public class Dto
 {
@@ -1054,9 +1070,11 @@ public class Dto
     public DateTime InDate { get; set; }
 }
 ```
-<translate-content>
+
+
 โค้ด
-</translate-content>
+
+
 ```csharp
 var value = new Dto[] {
     new Issue241Dto{ Name="Jack",InDate=new DateTime(2021,01,04)},
@@ -1095,13 +1113,15 @@ public class Dto
     public string Name { get; set; }
 }
 ```
-<translate-content>
+
+
 
 
 #### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
 ตั้งแต่เวอร์ชัน 1.24.0 ระบบรองรับ System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
-</translate-content>
+
+
 ```C#
 public class TestIssueI4TXGTDto
 {
@@ -1128,7 +1148,8 @@ public class TestIssueI4TXGTDto
             public DateTime MyProperty2 { get; set; }
         }
 ```
-<translate-content>
+
+
 
 
 #### 7. DynamicColumnAttribute
@@ -1238,7 +1259,8 @@ v1.37.0 รองรับการแทรกแผ่นงานใหม่
     MiniExcel.Insert(path, table, sheetName: "Sheet2");
 }
 ```
-<translate-content>
+
+
 
 
 #### ลบ(รอ)
@@ -1251,7 +1273,8 @@ v1.37.0 รองรับการแทรกแผ่นงานใหม่
 
 - MiniExcel จะตรวจสอบว่าเป็น xlsx หรือ csv ตาม `นามสกุลไฟล์` โดยค่าเริ่มต้น แต่ข้อมูลอาจคลาดเคลื่อน กรุณาระบุด้วยตนเอง
 - กรณีเป็น Stream จะไม่สามารถทราบได้ว่าเป็น excel ประเภทใด กรุณาระบุด้วยตนเอง
-</translate-content>
+
+
 ```csharp
 stream.SaveAs(excelType:ExcelType.CSV);
 //or
@@ -1261,7 +1284,8 @@ stream.Query(excelType:ExcelType.CSV);
 //or
 stream.Query(excelType:ExcelType.XLSX);
 ```
-<translate-content>
+
+
 
 
 
@@ -1277,7 +1301,8 @@ stream.Query(excelType:ExcelType.XLSX);
 #### ตัวคั่นแบบกำหนดเอง
 
 ค่าดีฟอลต์คือ `,` เป็นตัวคั่น คุณสามารถปรับแต่งได้โดยการแก้ไขคุณสมบัติ `Seperator`
-</translate-content>
+
+
 ```csharp
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
 {
@@ -1363,13 +1388,15 @@ var config = new MiniExcelLibs.Csv.CsvConfiguration()
         }
     }
 ```
-<translate-content>
+
+
 
 
 ###  แอซิงโครนัส
 
 - v0.17.0 รองรับแอซิงโครนัส (ขอบคุณ isdaniel ( SHIH,BING-SIOU)](https://github.com/isdaniel))
-</translate-content>
+
+
 ```csharp
 public static Task SaveAsAsync(string path, object value, bool printHeader = true, string sheetName = "Sheet1", ExcelType excelType = ExcelType.UNKNOWN, IConfiguration configuration = null)
 public static Task SaveAsAsync(this Stream stream, object value, bool printHeader = true, string sheetName = "Sheet1", ExcelType excelType = ExcelType.XLSX, IConfiguration configuration = null)
@@ -1693,13 +1720,15 @@ memoryStream.Seek(0, SeekOrigin.Begin);
 memoryStream.CopyTo(Response.OutputStream);
 response.End();
 ```
-<translate-content>
+
+
 
 
 #### 5. การจัดการหลายภาษาแบบไดนามิก (i18n) และการจัดการสิทธิ์ตามบทบาท
 
 เช่นเดียวกับตัวอย่าง ให้สร้างเมธอดสำหรับจัดการ i18n และการจัดการสิทธิ์ และใช้ `yield return เพื่อคืนค่า IEnumerable<Dictionary<string, object>>` เพื่อให้ได้ผลลัพธ์แบบไดนามิกและประหยัดหน่วยความจำ
-</translate-content>
+
+
 ```csharp
 void Main()
 {
@@ -1892,11 +1921,13 @@ public static IEnumerable<dynamic> QueryWithoutEmptyRow(Stream stream, bool useH
     }
 }
 ```
-<translate-content>
+
+
 
 ตารางข้อมูล :
 
-</translate-content>
+
+
 ```csharp
 public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useHeaderRow, string sheetName, ExcelType excelType, string startCell, IConfiguration configuration)
 {
@@ -1939,14 +1970,16 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
     return dt;
 }
 ```
-<translate-content>
+
+
 
 
 #### ถาม: จะใช้ SaveAs(path,value) เพื่อแทนที่ไฟล์ที่มีอยู่โดยไม่ให้เกิดข้อผิดพลาด "The file ...xlsx already exists error" ได้อย่างไร
 
 
 โปรดใช้คลาส Stream เพื่อปรับแต่งตรรกะการสร้างไฟล์ เช่น:
-</translate-content>
+
+
 ```C#
     using (var stream = File.Create("Demo.xlsx"))
         MiniExcel.SaveAs(stream,value);
@@ -1959,7 +1992,8 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
 ```csharp
     MiniExcel.SaveAs(path, value, overwriteFile: true);
 ```
-<translate-content>
+
+
 
 
 
@@ -1992,7 +2026,8 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
 ### ผู้ร่วมสนับสนุนโครงการ
 
 ![](https://contrib.rocks/image?repo=mini-software/MiniExcel)
-</translate-content>
+
+
 
 ---
 

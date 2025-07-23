@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 言語</summary>
     <div>
@@ -199,13 +199,15 @@ export DEEPINFRA_API_KEY="your-deepinfra-key"  # For Llama models
 export DEEPSEEK_API_KEY="your-deepseek-key"    # For DeepSeek models
 export GEMINI_API_KEY="your-gemini-key"          # For Gemini models
 ```
-<translate-content>
+
+
 使用する予定のプロバイダーのキーのみを設定すれば十分です。システムは設定に基づいてモデルリクエストを正しいプロバイダーに自動的にルーティングします。
 
 ### 設定オプション
 
 `config.json` ファイルはすべてのシステム動作を制御します：
-</translate-content>
+
+
 ```json
 {
   "batch_generation": {
@@ -337,14 +339,16 @@ cd web_interface
 pip install -r requirements.txt
 python app.py
 ```
-<translate-content>
+
+
 http://localhost:5000 を開いてアクセスしてください：
 
 - **ストーリー比較**：並べて読み、好みを選択
 - **ELOランキング**：現在の順位と統計を表示
 - **進化追跡**：後の世代が改善されていることを検証
 - **データエクスポート**：解析用に結果をダウンロード
-</translate-content>
+
+
 ```
 
 

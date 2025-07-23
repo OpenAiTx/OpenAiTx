@@ -1,4 +1,5 @@
-<translate-content># Nothing but Nix
+﻿
+# Nothing but Nix
 
 **GitHub Actionsランナーを[ Nix](https://zero-to-nix.com/concepts/nix/) ❄️のパワーハウスに変身させ、プリインストールされた不要なものを容赦なく削減します。**
 
@@ -8,7 +9,8 @@ GitHub ActionsランナーはNix用のディスク容量がわずか約20GBし�
 ## 使用方法 🔧
 
 このアクションをNixをインストールする**前に**ワークフローに追加してください：
-</translate-content>
+
+
 ```yaml
 jobs:
   build:
@@ -128,7 +130,8 @@ jobs:
     root-safe-haven: '3072'   # Reserve 3GB on the / filesystem
     mnt-safe-haven: '2048'    # Reserve 2GB on the /mnt filesystem
 ```
-<translate-content>
+
+
 これらのセーフヘイブンは、スペース回収時にどれだけの容量（MB単位）が慈悲深く確保されるかを定義します：
 - デフォルトの `root-safe-haven` は2048MB（2GB）
 - デフォルトの `mnt-safe-haven` は1024MB（1GB）
@@ -138,7 +141,8 @@ jobs:
 ### /nixのユーザー所有権を付与する（Nixパーミッション布告）🧑‍⚖️
 
 一部のNixインストーラーや設定では、`/nix` ディレクトリが現在のユーザーによって書き込み可能であることを想定しています。デフォルトでは `/nix` はroot所有です。ユーザー所有権が必要な場合（例：`/nix` 内で全操作に `sudo` を使わない特定のNixインストーラースクリプトなど）、`nix-permission-edict` を有効にできます：
-</translate-content>
+
+
 ```yaml
 - uses: wimpysworld/nothing-but-nix@main
   with:

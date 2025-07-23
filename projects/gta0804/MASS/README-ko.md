@@ -1,4 +1,5 @@
-<translate-content># MASS: 포트폴리오 구성을 위한 다중 에이전트 시뮬레이션 확장
+﻿
+# MASS: 포트폴리오 구성을 위한 다중 에이전트 시뮬레이션 확장
 
 📜 [논문 링크](https://arxiv.org/abs/2505.10278)
 
@@ -11,7 +12,8 @@
 1. 현재 MASS 실행을 위한 전체 데이터셋 중 매우 [작은 부분집합](https://github.com/gta0804/MASS/tree/main/stock_disagreement/example_dataset)만 제공하고 있습니다. 전체 데이터셋은 리뷰가 완료된 후에 공개될 예정입니다.
 
 ## 🧑‍💻사용법
-1. **의존성 설치**</translate-content>
+1. **의존성 설치**
+
 ```
 conda create -n your_env_name python==3.10 -y
 conda activate your_env_name
@@ -39,7 +41,8 @@ pdm install
       RISK_FACTOR = 0b010000000
       PRICE_FEATURE = 0b100000000 
   ```
-<translate-content>  - **자신만의 집계 함수를 사용하세요.**
+
+  - **자신만의 집계 함수를 사용하세요.**
   MASS에서는 시장 불일치 가설에 따라 개별 투자자의 결정을 집계합니다. 실제로는 자신만의 집계 방법을 사용할 수 있습니다. 자신만의 집계 함수를 위해 [investor_analyzer.py](https://github.com/gta0804/MASS/blob/main/stock_disagreement/agent/investment_analyzer.py)의 코드를 변경하세요!
   - **다른 옵티마이저 사용하기**
      MASS에서는 에이전트 분포 최적화에 시뮬레이티드 어닐링을 사용합니다. [agent_distribution.py](https://github.com/gta0804/MASS/blob/main/stock_disagreement/agent/agent_distribution.py)에서 옵티마이저 프레임워크를 구현했습니다. 자신만의 옵티마이저를 정의할 수 있습니다.
@@ -49,7 +52,8 @@ pdm install
 우리는 [Qwen2.5-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct)를 기본 모델로 사용합니다. 기본 모델 URL은 [여기](https://github.com/gta0804/MASS/blob/main/stock_disagreement/agent/basic_agent.py#L57)에서 변경할 수 있습니다.
 SSE 50과 기본 구성에서는 80GiB RAM이 필요합니다. 에이전트 병렬성을 조정하여 메모리 오버헤드를 줄일 수 있습니다 [여기](https://github.com/gta0804/MASS/blob/main/stock_disagreement/exp/trainer.py#L148)에서 가능합니다.
 
-5. **MASS 실행하기**</translate-content>
+5. **MASS 실행하기**
+
 ```
 python stock_disagreement/main.py
 ```

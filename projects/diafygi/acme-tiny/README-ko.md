@@ -1,4 +1,5 @@
-<translate-content># acme-tiny
+﻿
+# acme-tiny
 
 [![Tests](https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml/badge.svg?branch=main)](https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml)
 [![Coverage Status](https://coveralls.io/repos/github/diafygi/acme-tiny/badge.svg?branch=main)](https://coveralls.io/github/diafygi/acme-tiny?branch=main)
@@ -30,7 +31,8 @@ Let's Encrypt에 공개 키가 등록되어 있어야 하며, 요청에 대응�
 [클라이언트](https://github.com/letsencrypt/letsencrypt)를 사용하세요.
 이를 위해 처음에 acme-tiny가 사용할 수 있는 키를 생성하여
 계정을 등록하고 이후 모든 요청에 서명할 수 있도록 해야 합니다.
-</translate-content>
+
+
 
 ```
 openssl genrsa 4096 > account.key
@@ -158,7 +160,8 @@ server {
     ...the rest of your config
 }
 ```
-<translate-content>
+
+
 ### 6단계: 자동 갱신 크론잡 설정
 
 축하합니다! 이제 귀하의 웹사이트가 https를 사용하고 있습니다! 불행히도, Let's Encrypt
@@ -166,7 +169,8 @@ server {
 자동화되어 있습니다! 간단한 bash 스크립트를 작성하고 크론탭에 추가하세요 (아래의
 예시 스크립트를 참조하세요).
 
-`renew_cert.sh` 예시:</translate-content>
+`renew_cert.sh` 예시:
+
 ```sh
 #!/usr/bin/sh
 python /path/to/acme_tiny.py --account-key /path/to/account.key --csr /path/to/domain.csr --acme-dir /var/www/challenges/ > /path/to/signed_chain.crt.tmp || exit

@@ -1,4 +1,5 @@
-<translate-content># kb
+﻿
+# kb
 
 [C/C++용 단일 헤더](https://github.com/nothings/stb/blob/master/docs/stb_howto.txt) 관대 라이선스 라이브러리들입니다.
 
@@ -20,7 +21,8 @@
 이 라이브러리는 **래스터화**를 처리하지 않습니다. **단락 레이아웃**을 처리하지 않습니다. 단일의 무한히 긴 한 줄에서 어떤 글리프를 어디에 표시할지 아는 데만 도움을 줍니다!
 
 (텍스트 처리의 다양한 단계에 대한 설명은 https://www.newroadoldway.com/text1.html 을 참조하세요.)
-</translate-content>
+
+
 ```c
 static kbts_font GlobalFont;
 
@@ -93,7 +95,9 @@ void SegmentText(uint32_t *Codepoints, size_t CodepointCount)
   }
 }
 ```
-<translate-content></translate-content>
+
+
+
 
 ---
 

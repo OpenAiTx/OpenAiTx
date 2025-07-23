@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 اللغة</summary>
     <div>
@@ -96,7 +96,8 @@ SparkyFitness هو تطبيق شامل لتتبع وإدارة اللياقة ا
   https://discord.gg/vcnMT5cPEA
 * **انشر في المناقشات**
 
-</translate-content>
+
+
 
 ![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
 

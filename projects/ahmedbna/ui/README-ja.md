@@ -1,4 +1,5 @@
-<translate-content># BNA UI 🚀
+﻿
+# BNA UI 🚀
 
 ![BNA UI ヘッダー](https://cdn.jsdelivr.net/gh/ahmedbna/bna-ui-demo/bna-ui-header.png)
 

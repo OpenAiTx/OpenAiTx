@@ -1,4 +1,4 @@
-<h2 align="center">
+﻿<h2 align="center">
 mdBook용 GitHub Actions
 </h2>
 
@@ -145,9 +145,11 @@ MDBOOK_VERSION=0.4.10
       with:
         mdbook-version: '${{ steps.mdbook-version.outputs.MDBOOK_VERSION }}'
 ```
-<translate-content>
+
+
 다음은 `docker-compose.yml` 예제입니다.
-</translate-content>
+
+
 ```yaml
 version: '3'
 
@@ -168,7 +170,8 @@ services:
       - --hostname
       - '0.0.0.0'
 ```
-<translate-content>
+
+
 알파인 베이스 mdBook Docker 이미지는 다음 저장소에서 제공됩니다.
 
 > [peaceiris/docker-mdbook: mdBook Alpine Base Docker Image.](https://github.com/peaceiris/docker-mdbook)
@@ -205,7 +208,8 @@ services:
 컨테이너에서 `npm` 및 `git commit` 명령어를 실행하세요.
 
 **호스트에서**
-</translate-content>
+
+
 ```sh
 # Docker
 make build

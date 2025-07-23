@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 Ngôn ngữ</summary>
     <div>
@@ -98,9 +98,11 @@ Một ứng dụng vẽ AI phát triển dựa trên Next.js, với các tính n
 
 ## Phát triển cục bộ
 
-<translate-content>
+
+
 1. Nhân bản dự án
-</translate-content>
+
+
 ```bash
 git clone https://github.com/HappyDongD/magic_image.git
 cd magic_image

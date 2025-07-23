@@ -1,20 +1,24 @@
-<translate-content># Claude Code Python SDK
+﻿
+# Claude Code Python SDK
 
 Claude CodeのPython SDK。詳細は[Claude Code SDKドキュメント](https://docs.anthropic.com/en/docs/claude-code/sdk)をご覧ください。
 
 ## インストール
-</translate-content>
+
+
 ```bash
 pip install claude-code-sdk
 ```
-<translate-content>
+
+
 **前提条件:**
 - Python 3.10以上
 - Node.js 
 - Claude Code: `npm install -g @anthropic-ai/claude-code`
 
 ## クイックスタート
-</translate-content>
+
+
 ```python
 import anyio
 from claude_code_sdk import query
@@ -116,7 +120,8 @@ except ProcessError as e:
 except CLIJSONDecodeError as e:
     print(f"Failed to parse response: {e}")
 ```
-<translate-content>
+
+
 すべてのエラータイプについては、[src/claude_code_sdk/_errors.py](https://raw.githubusercontent.com/anthropics/claude-code-sdk-python/main/src/claude_code_sdk/_errors.py)を参照してください。
 
 ## 利用可能なツール
@@ -130,7 +135,8 @@ except CLIJSONDecodeError as e:
 ## ライセンス
 
 MIT
-</translate-content>
+
+
 
 ---
 

@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
 <a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Build status"></a>
 <a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
@@ -414,9 +414,11 @@ using (var connection = GetConnection(connectionString))
     MiniExcel.SaveAs(path, rows);
 }
 ```
-<translate-content>
+
+
 الكود أدناه سيحمّل جميع البيانات في الذاكرة
-</translate-content>
+
+
 ```csharp
 using (var connection = GetConnection(connectionString))
 {
@@ -506,11 +508,13 @@ MiniExcel.SaveAs(path, value,configuration:config);
 ```csharp
 MiniExcel.SaveAs(path, value, configuration: new OpenXmlConfiguration() { AutoFilter = false });
 ```
-<translate-content>
+
+
 
 
 #### 10. إنشاء صورة
-</translate-content>
+
+
 ```csharp
 var value = new[] {
     new { Name="github",Image=File.ReadAllBytes(PathHelper.GetFile("images/github_logo.png"))},
@@ -548,7 +552,9 @@ var path = @"../../../../../samples/xlsx/TestMergeWithTag.xlsx";
 
 MiniExcel.MergeSameCells(mergedFilePath, path);
 ```
-<translate-content></translate-content>
+
+
+
 ```csharp
 var memoryStream = new MemoryStream();
 
@@ -693,7 +699,8 @@ var value = new Dictionary<string, object>()
 };
 MiniExcel.SaveAsByTemplate(path, templatePath, value);
 ```
-<translate-content>
+
+
 
 
 #### 2. تعبئة بيانات IEnumerable
@@ -706,7 +713,8 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 النتيجة:
 ![image](https://user-images.githubusercontent.com/12729184/114564204-b2015980-9ca2-11eb-900d-e21249f93f7c.png)
 
-الكود:</translate-content>
+الكود:
+
 ```csharp
 //1. By POCO
 var value = new
@@ -736,7 +744,8 @@ var value = new Dictionary<string, object>()
 };
 MiniExcel.SaveAsByTemplate(path, templatePath, value);
 ```
-<translate-content>
+
+
 
 
 #### 3. تعبئة البيانات المعقدة
@@ -750,7 +759,8 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 النتيجة:
 
 ![image](https://user-images.githubusercontent.com/12729184/114565329-bf6b1380-9ca3-11eb-85e3-3969e8bf6378.png)
-</translate-content>
+
+
 ```csharp
 // 1. By POCO
 var value = new
@@ -1034,7 +1044,8 @@ Assert.Null(rows[0].Test5);
 Assert.Null(rows[0].Test6);
 Assert.Equal("Test4", rows[0].Test7);
 ```
-<translate-content>
+
+
 
 
 
@@ -1044,7 +1055,8 @@ Assert.Equal("Test4", rows[0].Test7);
 منذ الإصدار V0.21.0 يدعم الفئة التي تحتوي على طريقة `ToString(string content)` للتنسيق
 
 الفئة
-</translate-content>
+
+
 ```csharp
 public class Dto
 {
@@ -1095,13 +1107,15 @@ public class Dto
     public string Name { get; set; }
 }
 ```
-<translate-content>
+
+
 
 
 #### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
 منذ الإصدار 1.24.0، يدعم النظام System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
-</translate-content>
+
+
 ```C#
 public class TestIssueI4TXGTDto
 {
@@ -1259,7 +1273,8 @@ stream.Query(excelType:ExcelType.CSV);
 //or
 stream.Query(excelType:ExcelType.XLSX);
 ```
-<translate-content>
+
+
 
 
 
@@ -1273,7 +1288,8 @@ stream.Query(excelType:ExcelType.XLSX);
 #### فاصل مخصص
 
 الإعداد الافتراضي هو `,` كفاصل، يمكنك تعديل خاصية `Seperator` للتخصيص
-</translate-content>
+
+
 
 
 ```csharp
@@ -1361,13 +1377,15 @@ var config = new MiniExcelLibs.Csv.CsvConfiguration()
         }
     }
 ```
-<translate-content>
+
+
 
 
 ### غير متزامن
 
 - الإصدار v0.17.0 يدعم التشغيل غير المتزامن (شكرًا isdaniel ( SHIH,BING-SIOU)](https://github.com/isdaniel))
-</translate-content>
+
+
 ```csharp
 public static Task SaveAsAsync(string path, object value, bool printHeader = true, string sheetName = "Sheet1", ExcelType excelType = ExcelType.UNKNOWN, IConfiguration configuration = null)
 public static Task SaveAsAsync(this Stream stream, object value, bool printHeader = true, string sheetName = "Sheet1", ExcelType excelType = ExcelType.XLSX, IConfiguration configuration = null)
@@ -1691,13 +1709,15 @@ memoryStream.Seek(0, SeekOrigin.Begin);
 memoryStream.CopyTo(Response.OutputStream);
 response.End();
 ```
-<translate-content>
+
+
 
 
 #### 5. إدارة ديناميكية للدعم متعدد اللغات (i18n) وصلاحيات الأدوار
 
 على غرار المثال، أنشئ طريقة للتعامل مع إدارة i18n والصلاحيات، واستخدم `yield return لإرجاع IEnumerable<Dictionary<string, object>>` لتحقيق معالجة ديناميكية وفعالة من حيث الذاكرة
-</translate-content>
+
+
 ```csharp
 void Main()
 {
@@ -1890,11 +1910,13 @@ public static IEnumerable<dynamic> QueryWithoutEmptyRow(Stream stream, bool useH
     }
 }
 ```
-<translate-content>
+
+
 
 
 جدول البيانات :
-</translate-content>
+
+
 ```csharp
 public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useHeaderRow, string sheetName, ExcelType excelType, string startCell, IConfiguration configuration)
 {
@@ -1937,27 +1959,32 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
     return dt;
 }
 ```
-<translate-content>
+
+
 
 
 #### س. كيف يمكن استخدام SaveAs(path,value) لاستبدال الملف الموجود دون ظهور خطأ "الملف ...xlsx موجود بالفعل"
 
 
 يرجى استخدام فئة Stream لتخصيص منطق إنشاء الملف، على سبيل المثال:
-</translate-content>
+
+
 ```C#
     using (var stream = File.Create("Demo.xlsx"))
         MiniExcel.SaveAs(stream,value);
 ```
-<translate-content>
+
+
 
 أو، منذ الإصدار V1.25.0، تدعم SaveAs معامل overwriteFile لتمكين/تعطيل الكتابة فوق الملف الموجود
-</translate-content>
+
+
 
 ```csharp
     MiniExcel.SaveAs(path, value, overwriteFile: true);
 ```
-<translate-content>
+
+
 
 
 
@@ -1990,7 +2017,8 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
 ### المساهمون
 
 ![](https://contrib.rocks/image?repo=mini-software/MiniExcel)
-</translate-content>
+
+
 
 ---
 

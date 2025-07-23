@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 言語</summary>
     <div>
@@ -259,7 +259,9 @@ python3 -m zipvoice.bin.infer_zipvoice_dialog \
       year={2025}
 }
 ```
-<translate-content></translate-content>
+
+
+
 
 ---
 

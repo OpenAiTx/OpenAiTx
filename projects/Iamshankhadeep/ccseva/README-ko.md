@@ -1,4 +1,5 @@
-<translate-content># CCSeva 🤖
+﻿
+# CCSeva 🤖
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub release](https://img.shields.io/github/release/Iamshankhadeep/ccseva.svg)](https://github.com/Iamshankhadeep/ccseva/releases)
@@ -31,7 +32,8 @@
 - **macOS (Apple Silicon)**: `CCSeva-darwin-arm64.dmg`
 - **macOS (Intel)**: `CCSeva-darwin-x64.dmg`
 
-### 소스에서 빌드하기</translate-content>
+### 소스에서 빌드하기
+
 ```bash
 git clone https://github.com/Iamshankhadeep/ccseva.git
 cd ccseva

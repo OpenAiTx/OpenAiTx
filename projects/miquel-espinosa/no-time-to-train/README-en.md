@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 Language</summary>
     <div>
@@ -96,7 +96,8 @@
 
 ![cdfsod-results-final-comic-sans-min](https://github.com/user-attachments/assets/ab302c02-c080-4042-99fc-0e181ba8abb9)
 
-</translate-content>
+
+
 
 ## 🧠 Architecture
 
@@ -147,7 +148,8 @@ cd dinov2
 wget https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_pretrain.pth
 cd ../..
 ```
-<translate-content>
+
+
 
 ## 📊 Inference code
 
@@ -156,7 +158,8 @@ cd ../..
 ### Reproducing 30-shot SOTA results in Few-shot COCO
 
 Define useful variables and create a folder for results:
-</translate-content>
+
+
 ```bash
 CONFIG=./no_time_to_train/new_exps/coco_fewshot_10shot_Sam2L.yaml
 CLASS_SPLIT="few_shot_classes"

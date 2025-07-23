@@ -1,4 +1,5 @@
-<translate-content># MASS：用于投资组合构建的多代理仿真扩展
+﻿
+# MASS：用于投资组合构建的多代理仿真扩展
 
 📜 [论文链接](https://arxiv.org/abs/2505.10278)
 
@@ -11,7 +12,8 @@
 1. 目前，我们只提供了用于运行 MASS 的完整数据集中的一个非常[小子集](https://github.com/gta0804/MASS/tree/main/stock_disagreement/example_dataset)。完整数据集将在审稿完成后发布。
 
 ## 🧑‍💻 使用方法
-1. **依赖安装**</translate-content>
+1. **依赖安装**
+
 ```
 conda create -n your_env_name python==3.10 -y
 conda activate your_env_name

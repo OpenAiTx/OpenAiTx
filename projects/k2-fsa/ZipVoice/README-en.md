@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 Language</summary>
     <div>
@@ -189,7 +189,8 @@ python3 -m zipvoice.bin.infer_zipvoice_dialog \
 
 Each line of `test.tsv` is in one of the following formats:
 
-(1) **Merged prompt format** where the audios and transcriptions of two speakers prompts are merged into one prompt wav file:</translate-content>
+(1) **Merged prompt format** where the audios and transcriptions of two speakers prompts are merged into one prompt wav file:
+
 
 ```
 {wav_name}\t{prompt_transcription}\t{prompt_wav}\t{text}
@@ -259,7 +260,9 @@ You can also scan the QR code to join our WeChat group or follow our WeChat offi
       year={2025}
 }
 ```
-<translate-content></translate-content>
+
+
+
 
 ---
 

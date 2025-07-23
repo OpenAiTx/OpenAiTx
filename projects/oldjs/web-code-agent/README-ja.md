@@ -1,4 +1,5 @@
-<translate-content><!-- GitHub バッジ -->
+﻿
+<!-- GitHub バッジ -->
 <p align="center">
   <a href="https://github.com/oldjs/web-code-agent/stargazers"><img src="https://img.shields.io/github/stars/oldjs/web-code-agent?style=social" alt="GitHub stars"></a>
   <a href="https://github.com/oldjs/web-code-agent/network/members"><img src="https://img.shields.io/github/forks/oldjs/web-code-agent?style=social" alt="GitHub forks"></a>
@@ -97,7 +98,8 @@ Folda-Scanの魔法は革新的な**セマンティックベクトル化エン�
 **代码迷宫中找不到方向？与 AI 协作时上下文准备太繁琐？ Folda-Scan 来拯救您！** 💡
 
 **Folda-Scan** 是一款革命性的智能项目问答工具，它**完全在您的浏览器本地运行**，通过先进的语义向量化技术，将您的代码库转化为可对话的智能伙伴。告别繁琐，拥抱高效，让代码理解和 AI 协作变得前所未有地简单和安全。
-</translate-content>
+
+
 Folda-Scan（[WebFS-Toolkit](https://github.com/oldjs/web-code-agent) の一部として）は、最先端の Web 技術と AI アルゴリズムを採用し、滑らかで効率的かつ安全なローカルコードインタラクションの新体験をお届けします。
 
 ### ✨ コアハイライト (Why Folda-Scan?)

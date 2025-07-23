@@ -1,4 +1,4 @@
-![B2DVL Header](https://raw.githubusercontent.com/Thinklab-SJTU/Bench2Drive-VL/main/./assets/Bench2Drive-VL.png)
+﻿![B2DVL Header](https://raw.githubusercontent.com/Thinklab-SJTU/Bench2Drive-VL/main/./assets/Bench2Drive-VL.png)
 
 🚗 **Bench2Drive-VL**은 자율주행에서 비전-언어 모델(VLM)을 위한 클로즈드 루프 풀스택 벤치마크입니다. VQA 부분에서는 룰 기반 전문가 모델 DriveCommenter가 CARLA 시뮬레이터(또는 Bench2Drive 같은 정적 데이터셋)에서 VQA의 정답 생성을 위해 사용됩니다. 원래 Bench2Drive 지표는 계획 벤치마킹에 사용됩니다.
 
@@ -164,9 +164,11 @@
     # We do not recommend using multiple worker here since multi-thread in python is not very good.
     # You can run multiple DriveCommenter at the same time with different subset and checkpoint files to do the same.
     ```
-<translate-content>
+
+
 2. 실행합니다.
-</translate-content>
+
+
     ```shell
     cd ./B2DVL-Adapter
     bash ./your_startup_script.sh

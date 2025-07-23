@@ -1,4 +1,5 @@
-<translate-content># OpenList 应用
+﻿
+# OpenList 应用
 ### 一个AList、OpenList跨平台客户端，目前内置OpenList服务器，不需要额外连接服务器，支持iOS、macOS、Windows、Android、Linux
 
 ### 内置[DDNS-GO(MIT)](https://github.com/jeessy2/ddns-go)，如果设备具**有公网IP**可以借助DDNS-GO进行远程访问，将手机当做远程服务器
@@ -29,7 +30,8 @@
 
 ### 注意事项：
 * 初始用户遵从上游默认权限，代表着默认webdav不开启，请注意
-* 其他</translate-content>
+* 其他
+
 
 ---
 

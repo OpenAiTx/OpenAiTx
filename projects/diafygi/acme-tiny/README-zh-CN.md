@@ -1,4 +1,5 @@
-<translate-content># acme-tiny
+﻿
+# acme-tiny
 
 [![测试](https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml/badge.svg?branch=main)](https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml)
 [![覆盖率状态](https://coveralls.io/repos/github/diafygi/acme-tiny/badge.svg?branch=main)](https://coveralls.io/github/diafygi/acme-tiny?branch=main)
@@ -30,7 +31,8 @@
 [客户端](https://github.com/letsencrypt/letsencrypt)。
 为此，你需要最初创建一个密钥，acme-tiny 可以使用该密钥
 为你注册账户并签署所有后续请求。
-</translate-content>
+
+
 
 ```
 openssl genrsa 4096 > account.key
@@ -121,14 +123,16 @@ server {
 # Run the script on your server
 python acme_tiny.py --account-key ./account.key --csr ./domain.csr --acme-dir /var/www/challenges/ > ./signed_chain.crt
 ```
-<translate-content>
+
+
 ### 第5步：安装证书
 
 此脚本输出的已签名https证书链可与您的私钥一起使用，
 以运行https服务器。您需要将它们包含在
 您的网页服务器配置中的https设置中。以下是
 配置nginx服务器的示例：
-</translate-content>
+
+
 ```nginx
 server {
     listen 443 ssl;
@@ -158,7 +162,8 @@ server {
     ...the rest of your config
 }
 ```
-<translate-content>
+
+
 ### 步骤6：设置自动续期的定时任务
 
 恭喜！您的网站现在已使用https！不幸的是，Let's Encrypt
@@ -166,7 +171,8 @@ server {
 这已自动化！只需制作一个bash脚本并将其添加到crontab中（下面
 有示例脚本）。
 
-`renew_cert.sh`示例：</translate-content>
+`renew_cert.sh`示例：
+
 ```sh
 #!/usr/bin/sh
 python /path/to/acme_tiny.py --account-key /path/to/account.key --csr /path/to/domain.csr --acme-dir /var/www/challenges/ > /path/to/signed_chain.crt.tmp || exit

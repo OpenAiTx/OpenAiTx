@@ -1,4 +1,5 @@
-<translate-content>[![CI - 测试，代码检查](https://github.com/vet-run/vet/actions/workflows/ci.yml/badge.svg)](https://github.com/vet-run/vet/actions/workflows/ci.yml)
+﻿
+[![CI - 测试，代码检查](https://github.com/vet-run/vet/actions/workflows/ci.yml/badge.svg)](https://github.com/vet-run/vet/actions/workflows/ci.yml)
 
 `vet` 是一个命令行工具，作为常见但风险较高的 `curl | bash` 模式的安全网。它允许你检查远程脚本的更改，使用代码检查工具运行它们，并在脚本执行前要求你明确批准。
 
@@ -9,12 +10,14 @@
 ## 问题所在
 
 我们都见过这种安装软件的模式：
-</translate-content>
+
+
 ```bash
 # This is convenient, but you're blindly trusting the remote script.
 curl -sSL https://example.com/install.sh | bash
 ```
-<translate-content>
+
+
 这是危险的。脚本可能是恶意的，服务器可能已被攻破，或者瞬时网络错误可能导致执行部分脚本。
 
 ### 解决方案：vet
@@ -28,19 +31,22 @@ curl -sSL https://example.com/install.sh | bash
 -   **代码检查：** 如果你安装了 shellcheck，它会自动分析脚本中的潜在错误或恶意模式。
 
 -   **确认：** 它在执行任何操作之前会提示你进行明确批准。
-</translate-content>
+
+
 ```bash
 # The new, safer way.
 vet https://example.com/install.sh
 ```
-<translate-content>
+
+
 ## 安装
 
 我们认为你绝不应该盲目信任来自网络的脚本——即使是我们的。这就是 `vet` 存在的原因。安装过程本身就是 `vet` 解决问题的完美示范。
 
 ## Homebrew（macOS/Linux）- 推荐
 
-安装 `vet` 最简单且推荐的方法是通过 Homebrew。</translate-content>
+安装 `vet` 最简单且推荐的方法是通过 Homebrew。
+
 ```
 # First, tap the official repository
 brew tap vet-run/vet
@@ -75,10 +81,12 @@ less install_vet.sh
 ```bash
 bash install_vet.sh
 ```
-<translate-content>
+
+
 恭喜！您刚刚手动执行了兽医现在将为您自动完成的流程。
 
-### “信任”一行代码（反模式）</translate-content>
+### “信任”一行代码（反模式）
+
 ```bash
 # This is the curl-to-bash pattern.
 # Don't actually do this. That's the whole point.

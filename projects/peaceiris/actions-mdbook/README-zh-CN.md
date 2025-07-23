@@ -1,4 +1,4 @@
-<h2 align="center">
+﻿<h2 align="center">
 mdBook 的 GitHub Actions
 </h2>
 
@@ -110,7 +110,8 @@ jobs:
   with:
     mdbook-version: 'latest'
 ```
-<translate-content>
+
+
 此操作通过 [mdbook — Homebrew Formulae](https://formulae.brew.sh/formula/mdbook) 获取 mdBook 的最新版本
 
 <div align="right">
@@ -126,7 +127,8 @@ jobs:
 如何通过 `.env` 文件在 Docker Compose 和 GitHub Actions 工作流之间同步 mdBook 版本。
 
 将 `MDBOOK_VERSION` 写入 `.env` 文件，如下所示，并推送到远程分支。
-</translate-content>
+
+
 ```sh
 MDBOOK_VERSION=0.4.10
 ```

@@ -1,4 +1,5 @@
-<translate-content># Introduction
+﻿
+# Introduction
 
 This GitHub repository dives into fundamental concepts I believe are important for understanding debugging and troubleshooting complex issues on Windows. I'm not referring to issues like AD Replication or printer malfunctions but problems that are related to things such as crash dumps, hangs, performance issues, and memory leaks.
 
@@ -15,7 +16,8 @@ If you like my content and want to support me with a coffee:
 The following topics will be covered:
 
 **Debugging 101**
-</translate-content>
+
+
 ```
 - Section 0: How to get started?
 - Section 1: Introduction to MEX Extension

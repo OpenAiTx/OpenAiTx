@@ -1,4 +1,5 @@
-<translate-content># effect mcp 服务器
+﻿
+# effect mcp 服务器
 
 [![安装 MCP 服务器](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/install-mcp?name=effect%20docs&config=eyJjb21tYW5kIjoibnB4IC15IGVmZmVjdC1tY3AifQ%3D%3D)
 
@@ -7,7 +8,8 @@
 ## 使用方法
 
 您可以使用以下命令通过 docker 运行：
-</translate-content>
+
+
 ```bash
 docker run --rm -i timsmart/effect-mcp
 ```

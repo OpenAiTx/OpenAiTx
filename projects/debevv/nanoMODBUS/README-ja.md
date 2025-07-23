@@ -1,4 +1,5 @@
-<translate-content># nanoMODBUS - 組み込み/マイコン向けのコンパクトなMODBUS RTU/TCP Cライブラリ
+﻿
+# nanoMODBUS - 組み込み/マイコン向けのコンパクトなMODBUS RTU/TCP Cライブラリ
 
 **このライブラリが役に立ったら、コーヒーをおごってください**
 [<img src='https://storage.ko-fi.com/cdn/brandasset/logo_white_stroke.png' width='80'>](https://ko-fi.com/B0B2LK779)
@@ -37,7 +38,8 @@ nanoMODBUSはModbusプロトコルを実装した小さなCライブラリです
 - ブロードキャスト要求および応答対応
 
 ## 一目でわかる特徴
-</translate-content>
+
+
 ```C
 #include <stdio.h>
 

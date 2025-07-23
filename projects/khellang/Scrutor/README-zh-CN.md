@@ -1,4 +1,5 @@
-<translate-content># Scrutor [![Build status](https://ci.appveyor.com/api/projects/status/j00uyvqnm54rdlkb?svg=true)](https://ci.appveyor.com/project/khellang/scrutor) [![NuGet Package](https://img.shields.io/nuget/v/Scrutor.svg)](https://www.nuget.org/packages/Scrutor)
+﻿
+# Scrutor [![Build status](https://ci.appveyor.com/api/projects/status/j00uyvqnm54rdlkb?svg=true)](https://ci.appveyor.com/project/khellang/scrutor) [![NuGet Package](https://img.shields.io/nuget/v/Scrutor.svg)](https://www.nuget.org/packages/Scrutor)
 
 > Scrutor - 我搜索或彻底检查；我探查、调查或细查  
 > 来源于 scrūta，动词的原始含义是翻找垃圾。- https://en.wiktionary.org/wiki/scrutor
@@ -20,7 +21,8 @@ Install-Package Scrutor
 ```
 dotnet add package Scrutor
 ```
-<translate-content>
+
+
 ## 用法
 
 该库为 `IServiceCollection` 添加了两个扩展方法：
@@ -33,7 +35,8 @@ dotnet add package Scrutor
 ## 示例
 
 ### 扫描
-</translate-content>
+
+
 ```csharp
 var collection = new ServiceCollection();
 
@@ -82,11 +85,13 @@ collection.Scan(scan => scan
     .AsSelf()
     .WithSingletonLifetime()
 ```
-<translate-content>
+
+
 对于某些UI框架，这些编译器生成的视图实现了相当多的接口，所以除非你需要它们，否则最好将这些类注册为`.AsSelf()`；换句话说，要非常精确地使用接受编译器生成类型的过滤器。
 
 ### 装饰
-</translate-content>
+
+
 ```csharp
 var collection = new ServiceCollection();
 

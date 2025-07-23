@@ -1,8 +1,10 @@
-<translate-content># :bulb: LaMP: 動作生成、検索、キャプショニングのための言語・動作事前学習 (ICLR 2025)
+﻿
+# :bulb: LaMP: 動作生成、検索、キャプショニングのための言語・動作事前学習 (ICLR 2025)
 ### [[プロジェクトページ]](https://aigc3d.github.io/LaMP/) [[論文]](https://arxiv.org/abs/2410.07093)
 ![teaser_image](https://github.com/gentlefress/LaMP/blob/main/teaser.png)
 
-もし本コードや論文が役立った場合は、リポジトリのスターと引用をお願いいたします：</translate-content>
+もし本コードや論文が役立った場合は、リポジトリのスターと引用をお願いいたします：
+
 ```
 @article{li2024lamp,
   title={LaMP: Language-Motion Pretraining for Motion Generation, Retrieval, and Captioning},
@@ -30,11 +32,13 @@ conda env create -f environment.yml
 conda activate lamp
 pip install git+https://github.com/openai/CLIP.git
 ```
-<translate-content>私たちはPython 3.9.12およびPyTorch 1.12.1でコードをテストしています
+
+私たちはPython 3.9.12およびPyTorch 1.12.1でコードをテストしています
 
 ### 2. モデルと依存関係
 
-#### 事前学習済みモデルのダウンロード</translate-content>
+#### 事前学習済みモデルのダウンロード
+
 ```
 bash prepare/download_models.sh
 ```
@@ -144,12 +148,14 @@ python train_vq.py --name vq_name --gpu_id 1 --dataset_name t2m --batch_size 256
 ```
 python train_lamp.py --name lamp_name --gpu_id 2 --dataset_name t2m --batch_size 64 --vq_name vq_name
 ```
-### マスクドトランスフォーマーの訓練</translate-content>
+### マスクドトランスフォーマーの訓練
+
 
 ```
 python train_t2m_transformer.py --name mtrans_name --gpu_id 2 --dataset_name t2m --batch_size 64 --vq_name vq_name
 ```
-<translate-content>
+
+
 * `--dataset_name`: モーションデータセット、HumanML3Dには`t2m`、KIT-MLには`kit`を使用します。  
 * `--name`: モデルの名前を指定します。これにより、モデルスペースが`./checkpoints/<dataset_name>/<name>`に作成されます。
 * `--gpu_id`: GPUのID。
@@ -160,7 +166,8 @@ python train_t2m_transformer.py --name mtrans_name --gpu_id 2 --dataset_name t2m
 
 すべての事前学習済みモデルと中間結果は、`./checkpoints/<dataset_name>/<name>`に保存されます。
 
-### M2Tのトレーニング</translate-content>
+### M2Tのトレーニング
+
 ```
 python train_m2t.py --exp-name M2T --num-layers 12 --batch-size 80 --embed-dim-gpt 1024 --nb-code 512 --n-head-gpt 16 --block-size 51 --ff-rate 4 --drop-out-rate 0.1 --resume-pth your_own_vqvae --vq-name VQVAE --out-dir ./output --total-iter 150000 --lr-scheduler 75000 --lr 0.00005 --dataname kit --down-t 2 --depth 3 --quantizer ema_reset --eval-iter 10000 --pkeep 0.5 --dilation-growth-rate 3 --vq-act relu
 ```
@@ -190,7 +197,8 @@ KIT-ML:
 ```
 python eval_t2m_trans_res.py --res_name mtrans_name_k --dataset_name kit --name eval_name_k --gpu_id 0 --cond_scale 2 --time_steps 10 --ext evaluation
 ```
-<translate-content>
+
+
 * `--res_name`: `residual transformer`のモデル名。  
 * `--name`: `masked transformer`のモデル名。  
 * `--cond_scale`: クラス分類なしガイダンスのスケール。
@@ -200,7 +208,8 @@ python eval_t2m_trans_res.py --res_name mtrans_name_k --dataset_name kit --name 
 
 最終評価結果は`./checkpoints/<dataset_name>/<name>/eval/<ext>.log`に保存されます。
 
-### LaMP-M2Tの評価:</translate-content>
+### LaMP-M2Tの評価:
+
 ```
 python M2T_eval.py --exp-name Test_M2T --num-layers 9 --batch-size 1 --embed-dim-gpt 1024 --nb-code 512 --n-head-gpt 16 --block-size 51 --ff-rate 4 --drop-out-rate 0.1 --resume-pth your_own_vqvae --vq-name VQVAE --out-dir ./output --total-iter 150000 --lr-scheduler 75000 --lr 0.0001 --dataname t2m --down-t 2 --depth 3 --quantizer ema_reset --eval-iter 10000 --pkeep 0.5 --dilation-growth-rate 3 --vq-act relu --resume-trans your_own_m2t
 ```

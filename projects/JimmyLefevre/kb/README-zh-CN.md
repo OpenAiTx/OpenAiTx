@@ -1,4 +1,4 @@
-# kb
+﻿# kb
 
 [单文件头](https://github.com/nothings/stb/blob/master/docs/stb_howto.txt)的 C/C++ 许可友好库。
 
@@ -93,7 +93,9 @@ void SegmentText(uint32_t *Codepoints, size_t CodepointCount)
   }
 }
 ```
-<translate-content></translate-content>
+
+
+
 
 ---
 

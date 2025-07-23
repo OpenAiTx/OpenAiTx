@@ -1,4 +1,4 @@
-# Vibetest 사용법
+﻿# Vibetest 사용법
 
 브라우저-유즈 에이전트를 이용한 자동화 QA 테스트.
 
@@ -57,8 +57,10 @@ claude mcp add vibetest /full/path/to/vibetest-use/.venv/bin/vibetest-mcp -e GOO
 }
 
 ```
-<translate-content>
-### 기본 프롬프트</translate-content>
+
+
+### 기본 프롬프트
+
 ```
 > Vibetest my website with 5 agents: browser-use.com
 > Run vibetest on localhost:3000

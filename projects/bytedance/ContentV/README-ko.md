@@ -1,4 +1,5 @@
-<translate-content># ContentV: 제한된 컴퓨팅 자원으로 비디오 생성 모델의 효율적인 학습
+﻿
+# ContentV: 제한된 컴퓨팅 자원으로 비디오 생성 모델의 효율적인 학습
 
 <div align="center">
 <p align="center">
@@ -55,7 +56,8 @@
 - GPU: torch >= 2.3.1 (CUDA >= 12.2)
 
 #### 설치
-</translate-content>
+
+
 ```bash
 git clone https://github.com/bytedance/ContentV.git
 cd ContentV

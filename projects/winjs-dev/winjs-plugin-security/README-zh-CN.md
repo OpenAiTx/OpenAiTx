@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 语言</summary>
     <div>
@@ -45,11 +45,13 @@ A plugin that provides enhanced security features for WinJS projects, primarily 
 ```bash
 pnpm add @winner-fed/plugin-security
 ```
-<translate-content>
+
+
 ## 使用方法
 
 在你的 `.winrc.ts` 配置文件中添加插件配置：
-</translate-content>
+
+
 ```typescript
 import { defineConfig } from '@winner-fed/winjs';
 

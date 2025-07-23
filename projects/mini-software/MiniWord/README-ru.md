@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 <p><a href="https://www.nuget.org/packages/MiniWord"><img src="https://img.shields.io/nuget/v/MiniWord.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniWord"><img src="https://img.shields.io/nuget/dt/MiniWord.svg" alt=""></a>
 <a href="https://github.com/mini-software/MiniWord" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniWord?logo=github" alt="GitHub stars"></a>
 <a href="https://www.nuget.org/packages/MiniWord"><img src="https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg" alt="version"></a>
@@ -104,7 +104,8 @@ var value = new Dictionary<string, object>()
 };
 MiniWord.SaveAsByTemplate(path, templatePath, value);
 ```
-<translate-content>
+
+
 
 
 ##### Шаблон
@@ -120,7 +121,8 @@ MiniWord.SaveAsByTemplate(path, templatePath, value);
 значение тега имеет тип `string[]` или `IList<string>`
 
 ##### Пример
-</translate-content>
+
+
 ```csharp
 var value = new Dictionary<string, object>()
 {
@@ -351,7 +353,8 @@ var value = new
 };
 MiniWord.SaveAsByTemplate(path, templatePath, value);
 ```
-<translate-content>
+
+
 
 
 ## Примеры
@@ -359,7 +362,8 @@ MiniWord.SaveAsByTemplate(path, templatePath, value);
 
 
 #### Экспорт API ASP.NET Core 3.1
-</translate-content>
+
+
 ```cs
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -465,14 +469,16 @@ public class ApiController : Controller
     }
 }
 ```
-<translate-content>
+
+
 
 
 
 
 
 ## Поддержка : [Ссылка для пожертвований](https://miniexcel.github.io/)
-</translate-content>
+
+
 
 ---
 

@@ -1,4 +1,5 @@
-<translate-content># 🛡️ Azure 및 Office 365 보안 보고서
+﻿
+# 🛡️ Azure 및 Office 365 보안 보고서
 
 > **Azure 및 Office 365 환경을 위한 종합 PowerShell 7 보안 감사 도구**
 
@@ -107,7 +108,8 @@
 ---
 ### 사전 요구 사항
 
-PowerShell 7.0 이상이 설치되어 있는지 확인하세요:</translate-content>
+PowerShell 7.0 이상이 설치되어 있는지 확인하세요:
+
 ```powershell
 # Check PowerShell version
 $PSVersionTable.PSVersion
@@ -125,8 +127,10 @@ $PSVersionTable.PSVersion
    ```powershell
    .\Start-AzureSecurityReport.ps1
    ```
-<translate-content>   
-   **또는 직접 실행:**</translate-content>
+
+   
+   **또는 직접 실행:**
+
    ```powershell
    # Modular version (recommended)
    .\AzureSecurityReport-Modular.ps1
@@ -168,7 +172,8 @@ Sites.Read.All
 
 **🔧 빠른 해결 방법:**
 
-1. **런처 스크립트 사용 (권장)**:</translate-content>
+1. **런처 스크립트 사용 (권장)**:
+
 
    ```powershell
    .\Start-AzureSecurityReport.ps1
@@ -178,7 +183,8 @@ Sites.Read.All
    ```powershell
    .\Fix-GraphModules.ps1
    ```
-3. **수동 세션 재시작**:</translate-content>
+3. **수동 세션 재시작**:
+
 
    ```powershell
    # Exit PowerShell completely

@@ -1,4 +1,4 @@
-<picture>
+﻿<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ehmicky/design/main/log-process-errors/log-process-errors_dark.svg"/>
   <img alt="log-process-errors logo" src="https://raw.githubusercontent.com/ehmicky/design/main/log-process-errors/log-process-errors.svg" width="500"/>
 </picture>
@@ -44,7 +44,8 @@ npm install log-process-errors
 ```bash
 npm install -D log-process-errors
 ```
-<translate-content>
+
+
 这是因为日志记录是全局修改的，库的使用者可能不会
 预期这种副作用。此外，这可能导致库之间的冲突。
 
@@ -64,7 +65,8 @@ npm install -D log-process-errors
 _返回值_: `() => void`
 
 开始处理进程错误。
-</translate-content>
+
+
 ```js
 import logProcessErrors from 'log-process-errors'
 logProcessErrors(options)

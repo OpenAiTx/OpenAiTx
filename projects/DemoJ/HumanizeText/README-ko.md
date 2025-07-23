@@ -1,4 +1,5 @@
-<translate-content># 사람말 번역기
+﻿
+# 사람말 번역기
 
 ## 프로젝트 소개
 
@@ -54,7 +55,8 @@ Edge 브라우저: [Edge 확장 마켓](https://microsoftedge.microsoft.com/addo
 - **싱글톤 패턴**：동시에 하나의 번역 팝업만 존재하도록 보장
 
 ## 프로젝트 구조
-</translate-content>
+
+
 ```
 ├── content/
 │   └── content.js    # 内容脚本，负责弹窗创建和交互

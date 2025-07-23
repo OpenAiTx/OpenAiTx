@@ -1,4 +1,5 @@
-<translate-content># Vibetest Use
+﻿
+# Vibetest Use
 
 Automated QA testing using Browser-Use agents. 
 
@@ -13,7 +14,8 @@ Perfect for testing both live websites and localhost development sites.
 Vibecode and vibetest until your website works.
 
 ## Quick Start
-</translate-content>
+
+
 ```bash
 # Install dependencies
 uv venv

@@ -1,4 +1,5 @@
-<translate-content># FastVLM: ビジョン言語モデルのための効率的なビジョンエンコーディング
+﻿
+# FastVLM: ビジョン言語モデルのための効率的なビジョンエンコーディング
 
 これは公式リポジトリです
 **[FastVLM: ビジョン言語モデルのための効率的なビジョンエンコーディング](https://www.arxiv.org/abs/2412.13303). (CVPR 2025)**
@@ -27,7 +28,8 @@ FastVLMのバリアントをトレーニングするためにLLaVAコードベ�
 [LLaVA](https://github.com/haotian-liu/LLaVA)コードベースの指示に従ってください。  
 当リポジトリではモデルで推論を行うための手順を提供しています。
 
-### セットアップ</translate-content>
+### セットアップ
+
 ```bash
 conda create -n fastvlm python=3.10
 conda activate fastvlm

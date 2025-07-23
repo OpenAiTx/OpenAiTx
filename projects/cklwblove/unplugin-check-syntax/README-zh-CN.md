@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 语言</summary>
     <div>
@@ -167,11 +167,13 @@ interface CheckSyntaxOptions {
   excludeErrorLogs?: ('source' | 'output' | 'reason' | 'code')[];
 }
 ```
-<translate-content>
+
+
 ## 使用示例
 
 ### 基础配置
-</translate-content>
+
+
 ```ts
 // 使用 browserslist 配置
 checkSyntax({
@@ -210,9 +212,11 @@ checkSyntax({
   ],
 })
 ```
-<translate-content>
+
+
 ### 自定义错误输出
-</translate-content>
+
+
 ```ts
 checkSyntax({
   targets: ['> 1%', 'last 2 versions'],

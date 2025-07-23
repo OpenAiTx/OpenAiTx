@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 Language</summary>
     <div>
@@ -77,7 +77,8 @@ npm install
 ```
 2. Set up your environment variables in `.env.local`
 
-3. Run the development server:</translate-content>
+3. Run the development server:
+
 
 ```bash
 npm run dev

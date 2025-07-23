@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 语言</summary>
     <div>
@@ -176,7 +176,8 @@ npm run electron-pack
 
 ## 🚀 快速开始
 
-### 移动开发使用</translate-content>
+### 移动开发使用
+
 
 ```bash
 git clone https://github.com/BlackHatDevX/openspot-music-app.git

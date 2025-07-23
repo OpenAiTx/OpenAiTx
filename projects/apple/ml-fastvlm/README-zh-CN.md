@@ -1,4 +1,5 @@
-<translate-content># FastVLM：面向视觉语言模型的高效视觉编码
+﻿
+# FastVLM：面向视觉语言模型的高效视觉编码
 
 这是
 **[FastVLM：面向视觉语言模型的高效视觉编码](https://www.arxiv.org/abs/2412.13303)（CVPR 2025）** 的官方仓库
@@ -27,7 +28,8 @@
 请按照 [LLaVA](https://github.com/haotian-liu/LLaVA) 代码库中提供的说明操作。
 我们提供了使用我们的模型进行推理的说明。
 
-### 安装配置</translate-content>
+### 安装配置
+
 ```bash
 conda create -n fastvlm python=3.10
 conda activate fastvlm

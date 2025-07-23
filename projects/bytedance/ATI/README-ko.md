@@ -1,4 +1,5 @@
-<translate-content># ATI: 제어 가능한 비디오 생성을 위한 모든 궤적 지시어
+﻿
+# ATI: 제어 가능한 비디오 생성을 위한 모든 궤적 지시어
 
 <div align="center">
   
@@ -43,7 +44,8 @@ Benji의 가이드라인: [https://www.youtube.com/watch?v=UM35z2L1XbI](https://
 ## 설치
 
 ATI는 공식 Wan 2.1과 동일한 환경을 요구합니다. INSTALL.md(Wan2.1)의 지침을 따르십시오.
-</translate-content>
+
+
 ```
 git clone https://github.com/bytedance/ATI.git
 cd ATI
@@ -165,7 +167,8 @@ Expected results:
 
 사용자가 이미지에 직접 궤적을 그리고 편집할 수 있는 인터랙티브 도구를 제공합니다.
 
-1. 먼저 실행하세요:</translate-content>
+1. 먼저 실행하세요:
+
 ```
 cd tools/trajectory_editor
 python3 app.py

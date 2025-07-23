@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 语言</summary>
     <div>
@@ -121,9 +121,11 @@ export default function App() {
   );
 }
 ```
-<translate-content>
+
+
 ## 无需构建，无依赖
-</translate-content>
+
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -161,8 +163,10 @@ export default function App() {
   </body>
 </html>
 ```
-<translate-content>
-</translate-content>
+
+
+
+
 
 ---
 

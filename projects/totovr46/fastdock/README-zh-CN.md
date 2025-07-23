@@ -1,4 +1,4 @@
-![icon](https://raw.githubusercontent.com/totovr46/fastdock/main/Icon2Nobg.png)
+﻿![icon](https://raw.githubusercontent.com/totovr46/fastdock/main/Icon2Nobg.png)
 
 # Fastdock
 
@@ -97,7 +97,8 @@ fastdock/
 │   └── servers.json          # Stored remote server configurations
 └── README.md
 ```
-<translate-content>
+
+
 ## 🔧 配置
 
 ### 环境变量
@@ -109,7 +110,8 @@ fastdock/
 应用程序需要访问 Docker 套接字。确保 Docker 正在运行且套接字可访问：
 
 **Linux/macOS:**
-</translate-content>
+
+
 ```bash
 ls -la /var/run/docker.sock
 ```

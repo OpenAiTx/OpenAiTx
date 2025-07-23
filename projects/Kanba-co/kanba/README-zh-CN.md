@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 语言</summary>
     <div>
@@ -82,18 +82,22 @@ npm install
 ```bash
 npm run dev
 ```
-<translate-content>
-4. 使用 Stripe CLI 在本地测试 Stripe webhook：</translate-content>
+
+
+4. 使用 Stripe CLI 在本地测试 Stripe webhook：
+
 ```bash
 stripe listen --forward-to localhost:3000/api/stripe/webhook
 ```
-<translate-content>
+
+
 ## 生产部署
 
 
 ### Vercel 部署
 
-1. **部署到 Vercel：**</translate-content>
+1. **部署到 Vercel：**
+
 ```bash
 npx vercel
 ```

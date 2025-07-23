@@ -1,4 +1,5 @@
-<translate-content># 🧠 代理不要のLLMネットワーク検索エンジン
+﻿
+# 🧠 代理不要のLLMネットワーク検索エンジン
 
 代理不要のマルチサーチエンジンLLMネットワーク検索ツールで、URLコンテンツ解析とウェブクローリングをサポートし、LangGraphと組み合わせてモジュラー型エージェントチェーンを実現。大規模言語モデルの外部知識呼び出しシナリオ向けに設計され、**Playwright + Crawl4AI**によるウェブ取得と解析、非同期並列処理、コンテンツスライスと再配置フィルタリングをサポート。
 
@@ -33,7 +34,8 @@
 ## ⚡ クイックスタート
 
 ### 1. リポジトリをクローンする
-</translate-content>
+
+
 ```bash
 git clone https://github.com/itshyao/proxyless-llm-websearch.git
 cd proxyless-llm-websearch

@@ -1,9 +1,11 @@
-<translate-content># Claude Code Python SDK
+﻿
+# Claude Code Python SDK
 
 Claude Code 的 Python SDK。有关更多信息，请参阅 [Claude Code SDK 文档](https://docs.anthropic.com/en/docs/claude-code/sdk)。
 
 ## 安装
-</translate-content>
+
+
 ```bash
 pip install claude-code-sdk
 ```
@@ -116,7 +118,8 @@ except ProcessError as e:
 except CLIJSONDecodeError as e:
     print(f"Failed to parse response: {e}")
 ```
-<translate-content>
+
+
 有关所有错误类型，请参见 [src/claude_code_sdk/_errors.py](https://raw.githubusercontent.com/anthropics/claude-code-sdk-python/main/src/claude_code_sdk/_errors.py)。
 
 ## 可用工具
@@ -130,7 +133,8 @@ except CLIJSONDecodeError as e:
 ## 许可证
 
 MIT
-</translate-content>
+
+
 
 ---
 

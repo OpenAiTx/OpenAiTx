@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
 <a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Build status"></a>
 <a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
@@ -548,7 +548,9 @@ var path = @"../../../../../samples/xlsx/TestMergeWithTag.xlsx";
 
 MiniExcel.MergeSameCells(mergedFilePath, path);
 ```
-<translate-content></translate-content>
+
+
+
 ```csharp
 var memoryStream = new MemoryStream();
 
@@ -1034,7 +1036,8 @@ Assert.Null(rows[0].Test5);
 Assert.Null(rows[0].Test6);
 Assert.Equal("Test4", rows[0].Test7);
 ```
-<translate-content>
+
+
 
 
 
@@ -1044,7 +1047,8 @@ Assert.Equal("Test4", rows[0].Test7);
 自 V0.21.0 起，支持包含 `ToString(string content)` 方法格式的类
 
 类
-</translate-content>
+
+
 ```csharp
 public class Dto
 {
@@ -1095,13 +1099,15 @@ public class Dto
     public string Name { get; set; }
 }
 ```
-<translate-content>
+
+
 
 
 #### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
 自 1.24.0 版本起，系统支持 System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
-</translate-content>
+
+
 ```C#
 public class TestIssueI4TXGTDto
 {
@@ -1259,7 +1265,8 @@ stream.Query(excelType:ExcelType.CSV);
 //or
 stream.Query(excelType:ExcelType.XLSX);
 ```
-<translate-content>
+
+
 
 
 
@@ -1275,7 +1282,8 @@ stream.Query(excelType:ExcelType.XLSX);
 #### 自定义分隔符
 
 默认使用 `,` 作为分隔符，你可以通过修改 `Seperator` 属性进行自定义
-</translate-content>
+
+
 ```csharp
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
 {
@@ -1294,13 +1302,15 @@ var config = new CsvConfiguration()
 };
 var rows = MiniExcel.Query(path, configuration: config).ToList();
 ```
-<translate-content>
+
+
 
 
 #### 自定义换行符
 
 默认情况下，换行符为`\r\n`，你可以通过修改`NewLine`属性来自定义
-</translate-content>
+
+
 ```csharp
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
 {
@@ -1691,13 +1701,15 @@ memoryStream.Seek(0, SeekOrigin.Begin);
 memoryStream.CopyTo(Response.OutputStream);
 response.End();
 ```
-<translate-content>
+
+
 
 
 #### 5. 动态 i18n 多语言与角色权限管理
 
 如示例所示，创建一个方法来处理 i18n 和权限管理，并使用 `yield return` 返回 IEnumerable<Dictionary<string, object>>，以实现动态和低内存处理效果
-</translate-content>
+
+
 ```csharp
 void Main()
 {
@@ -1813,7 +1825,8 @@ foreach (var sheetInfo in sheets)
     Console.WriteLine($"sheet state : {sheetInfo.State} "); // sheet visibility state - visible / hidden
 }
 ```
-<translate-content>
+
+
 
 #### 问：使用 Count 会将所有数据加载到内存中吗？
 
@@ -1824,7 +1837,8 @@ foreach (var sheetInfo in sheets)
 #### 问：Query 如何使用整数索引？
 
 Query 默认索引是字符串键：A、B、C……如果想更改为数字索引，请创建如下方法进行转换
-</translate-content>
+
+
 ```csharp
 void Main()
 {
@@ -1890,9 +1904,11 @@ public static IEnumerable<dynamic> QueryWithoutEmptyRow(Stream stream, bool useH
     }
 }
 ```
-<translate-content>
+
+
 数据表：
-</translate-content>
+
+
 
 
 ```csharp
@@ -1937,27 +1953,32 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
     return dt;
 }
 ```
-<translate-content>
+
+
 
 
 #### 问：如何使用 SaveAs(path,value) 替换已存在的文件且不抛出 "The file ...xlsx already exists error" 错误
 
 
 请使用 Stream 类自定义文件创建逻辑，例如：
-</translate-content>
+
+
 ```C#
     using (var stream = File.Create("Demo.xlsx"))
         MiniExcel.SaveAs(stream,value);
 ```
-<translate-content>
+
+
 
 
 或者，从 V1.25.0 版本开始，SaveAs 支持 overwriteFile 参数，用于启用/禁用覆盖已存在的文件
-</translate-content>
+
+
 ```csharp
     MiniExcel.SaveAs(path, value, overwriteFile: true);
 ```
-<translate-content>
+
+
 
 
 
@@ -1990,7 +2011,8 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
 ### 贡献者
 
 ![](https://contrib.rocks/image?repo=mini-software/MiniExcel)
-</translate-content>
+
+
 
 ---
 

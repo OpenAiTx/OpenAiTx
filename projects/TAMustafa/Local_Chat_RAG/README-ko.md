@@ -1,4 +1,5 @@
-<translate-content># 로컬 챗 RAG
+﻿
+# 로컬 챗 RAG
 
 **로컬, 프라이버시 우선 검색 증강 생성(RAG) 채팅 앱**입니다. 문서를 업로드하고 질문을 하면 출처와 함께 답변을 받을 수 있습니다—오픈 소스 LLM이 사용자의 기기에서 실행됩니다.
 
@@ -42,7 +43,8 @@
   ```bash
   brew install ollama
   ```
-- **Ollama 서버 시작:** (백엔드 작동을 위해 반드시 실행 중이어야 함)</translate-content>
+- **Ollama 서버 시작:** (백엔드 작동을 위해 반드시 실행 중이어야 함)
+
   ```bash
   ollama serve
   ```

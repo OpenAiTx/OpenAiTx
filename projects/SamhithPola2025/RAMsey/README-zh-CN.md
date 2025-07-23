@@ -1,4 +1,5 @@
-<translate-content># 🤖 RAMsey
+﻿
+# 🤖 RAMsey
 
 > **一个互动式桌面机器人，常驻你的屏幕，与你互动，并展示统计数据 — 由 Python 和 PyQt 构建！**
 
@@ -43,7 +44,8 @@ RAMsey 启动即刻响应 — 无冗长加载时间。
 ---
 
 ## 📦 快速开始
-</translate-content>
+
+
 ```bash
 # Clone the repo
 git clone https://github.com/SamhithPola2025/RAMsey

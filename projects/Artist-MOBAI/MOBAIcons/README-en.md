@@ -1,4 +1,5 @@
-<translate-content>[![MOBAIcons](https://mobaicons.com/about)](https://mobaicons.com/)
+﻿
+[![MOBAIcons](https://mobaicons.com/about)](https://mobaicons.com/)
 [![MOBAIcons](https://raw.githubusercontent.com/Artist-MOBAI/MOBAIcons/main/./src/docs/image/author.svg)](https://mobaicons.com/)
 
 <!-- [![API Status](https://img.shields.io/badge/API-Online-green)](https://mobaicons.com)

@@ -1,4 +1,5 @@
-<translate-content># 공개 무료 접미사: 모두를 위한 무료 도메인 이름
+﻿
+# 공개 무료 접미사: 모두를 위한 무료 도메인 이름
 
 **공개 무료 접미사**는 다양한 커뮤니티를 지원하기 위해 설계된 비영리 무료 서브도메인 서비스입니다. 우리는 다음과 같은 접근 가능한 자원을 제공하는 것을 믿습니다:
 
@@ -7,7 +8,8 @@
 * **기술자:** 컴퓨터 및 네트워크 기술 연구, 실험실 구축 및 새로운 구성 실험에 훌륭한 자원입니다.
 * **개인 사용자:** 준수 프레임워크 내에서 개인 블로그, 포트폴리오 또는 작은 열정 프로젝트를 호스팅하세요.
 
-누구나 여기서 무료 도메인을 등록하고 받을 수 있으며 연간 갱신할 필요가 없습니다. 현재 서비스를 제공하는 접미사(sld)는 다음과 같습니다:</translate-content>
+누구나 여기서 무료 도메인을 등록하고 받을 수 있으며 연간 갱신할 필요가 없습니다. 현재 서비스를 제공하는 접미사(sld)는 다음과 같습니다:
+
 ```text
 pfsdns.org
 nastu.net
@@ -63,7 +65,8 @@ PR(풀 리퀘스트) 작업을 수행하기 전에—도메인의 Whois 파일�
   }
 }
 ```
-<translate-content>- `registrant`: 도메인 소유자의 이메일 주소입니다.
+
+- `registrant`: 도메인 소유자의 이메일 주소입니다.
 - `domain`: 최상위 도메인을 제외한 도메인 이름(e.g., "mynewdomain"), 도메인 길이는 3자 이상이어야 합니다.
 - `sld`: 등록하려는 접미사(e.g., "no.kg" 또는 이전 목록에 있는 SLD 중 하나).
 - `nameservers`: 도메인 해석을 담당하는 DNS 서버 목록, 2~4개의 서버 허용.
@@ -72,7 +75,8 @@ PR(풀 리퀘스트) 작업을 수행하기 전에—도메인의 Whois 파일�
 
 > **공지** 활용도를 높이고 등록의 사재기 및 자원 낭비를 방지하기 위해, 30일 연속으로 웹사이트 콘텐츠가 배포되지 않은 경우 등록된 도메인 이름이 취소됩니다.
 
-3. 새 도메인 이름과 whois 파일로 풀 리퀘스트를 생성하세요. PR 설명은 [PR 설명 템플릿](https://raw.githubusercontent.com/PublicFreeSuffix/PublicFreeSuffix/main/.github/pull_request_template.md) 형식이어야 하며, 제목은 다음과 같이 작성해야 합니다:</translate-content>
+3. 새 도메인 이름과 whois 파일로 풀 리퀘스트를 생성하세요. PR 설명은 [PR 설명 템플릿](https://raw.githubusercontent.com/PublicFreeSuffix/PublicFreeSuffix/main/.github/pull_request_template.md) 형식이어야 하며, 제목은 다음과 같이 작성해야 합니다:
+
 ```text
 Registration/Update/Remove: {your-new-domain-name}.{sld}
 ```

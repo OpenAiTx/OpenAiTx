@@ -1,4 +1,5 @@
-<translate-content># ContentV：有限计算资源下的视频生成模型高效训练
+﻿
+# ContentV：有限计算资源下的视频生成模型高效训练
 
 <div align="center">
 <p align="center">
@@ -55,7 +56,8 @@
 - GPU环境：torch >= 2.3.1（CUDA >= 12.2）
 
 #### 安装
-</translate-content>
+
+
 ```bash
 git clone https://github.com/bytedance/ContentV.git
 cd ContentV

@@ -1,4 +1,4 @@
-<picture>
+﻿<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ehmicky/design/main/log-process-errors/log-process-errors_dark.svg"/>
   <img alt="log-process-errors ロゴ" src="https://raw.githubusercontent.com/ehmicky/design/main/log-process-errors/log-process-errors.svg" width="500"/>
 </picture>
@@ -44,7 +44,8 @@ npm install log-process-errors
 ```bash
 npm install -D log-process-errors
 ```
-<translate-content>
+
+
 これはログ記録がグローバルに変更され、ライブラリの利用者がこの副作用を予期しない可能性があるためです。 また、これによりライブラリ間での競合が発生する可能性があります。
 
 このパッケージは Node.js >=18.18.0 で動作します。
@@ -63,15 +64,18 @@ CommonJS ではないようにしてください。
 _戻り値_: `() => void`
 
 プロセスエラーの処理を開始します。
-</translate-content>
+
+
 
 ```js
 import logProcessErrors from 'log-process-errors'
 logProcessErrors(options)
 ```
-<translate-content>
+
+
 戻り値はNode.jsのデフォルトの動作を復元します。
-</translate-content>
+
+
 ```js
 const restore = logProcessErrors(options)
 restore()

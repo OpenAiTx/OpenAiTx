@@ -1,4 +1,5 @@
-<translate-content># Image Changer Pop-up
+﻿
+# Image Changer Pop-up
 
 A customizable, interactive pop-up that cycles through images when a button is clicked
 

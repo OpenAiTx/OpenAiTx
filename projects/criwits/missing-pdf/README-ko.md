@@ -1,4 +1,5 @@
-<translate-content># 《네가 놓친 그 컴퓨터 과목》 오픈소스 PDF 버전
+﻿
+# 《네가 놓친 그 컴퓨터 과목》 오픈소스 PDF 버전
 
 > [!important]
 > 《네가 놓친 그 컴퓨터 과목》 오픈소스 PDF 버전은 [웹버전](https://www.criwits.top/missing)에서 자동 생성된 것이 아니라 수작업으로 편집 제작되었습니다. 따라서 오픈소스 PDF 버전은 내용 면에서 웹버전보다 뒤처질 수 있으며 누락이나 오류가 있을 수 있습니다.
@@ -15,7 +16,8 @@
    4. [Noto Serif Tibetan](https://fonts.google.com/noto/specimen/Noto+Serif+Tibetan)。
 1. 이 저장소를 원하는 위치에 클론하세요；
 2. `resource/quote.zip` 안의 두 개의 문장 부호 매핑 파일을 **사용자 TEXMF 트리**의 `fonts/misc/xetex/fontmapping/xecjk` 디렉터리에 넣으세요；
-3. TeX 배포판의 파일명 데이터베이스를 갱신하세요, TeX Live 사용자는 다음을 실행하세요</translate-content>
+3. TeX 배포판의 파일명 데이터베이스를 갱신하세요, TeX Live 사용자는 다음을 실행하세요
+
    ```shell
    mktexlsr
    ```

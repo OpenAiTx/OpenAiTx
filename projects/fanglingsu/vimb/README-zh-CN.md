@@ -1,4 +1,5 @@
-<translate-content># Vimb - 类 Vim 浏览器
+﻿
+# Vimb - 类 Vim 浏览器
 
 [![构建状态](https://travis-ci.com/fanglingsu/vimb.svg?branch=master)](https://travis-ci.com/fanglingsu/vimb)
 [![许可证: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
@@ -92,18 +93,21 @@ Vimb 的目标是构建一个完全键盘驱动、高效且愉悦的浏览体验
 [tharvik overlay]:     https://github.com/tharvik/overlay/tree/master/www-client/vimb
 [jjakob overlay]:      https://github.com/jjakob/gentoo-overlay/tree/master/www-client/vimb
 [mail-archive]:        https://sourceforge.net/p/vimb/vimb/vimb-users/ "vimb - mailing list archive"
-[mail]:                https://lists.sourceforge.net/lists/listinfo/vimb-users "vimb - mailing list"</translate-content>
+[mail]:                https://lists.sourceforge.net/lists/listinfo/vimb-users "vimb - mailing list"
 
 
 
 
 
-<translate-content>[network/vimb]:        https://build.opensuse.org/package/show/network/vimb
+
+
+[network/vimb]:        https://build.opensuse.org/package/show/network/vimb
 [pkgsrc/wip/vimb-git]: http://pkgsrc.se/wip/vimb-git
 [pkgsrc/www/vimb]:     http://pkgsrc.se/www/vimb
 [slackbuild/vimb]:     https://slackbuilds.org/repository/14.2/network/vimb/
 [vimb]:                https://fanglingsu.github.io/vimb/ "Vimb - 类 Vim 浏览器项目主页"
-</translate-content>
+
+
 
 ---
 

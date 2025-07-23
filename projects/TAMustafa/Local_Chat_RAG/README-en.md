@@ -1,4 +1,5 @@
-<translate-content># Local Chat RAG
+﻿
+# Local Chat RAG
 
 A **local, privacy-first Retrieval-Augmented Generation (RAG) chat app**. Upload documents, ask questions, and get answers with sources—powered by open-source LLMs running on your own machine.
 

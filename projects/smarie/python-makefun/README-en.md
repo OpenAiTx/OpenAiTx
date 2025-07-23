@@ -1,4 +1,5 @@
-<translate-content># python-makefun
+﻿
+# python-makefun
 
 *Small library to dynamically create python functions.*
 
@@ -17,7 +18,8 @@ Here is a non-exhaustive list of interesting open topics: [https://github.com/sm
 ## `nox` setup
 
 This project uses `nox` to define all lifecycle tasks. In order to be able to run those tasks, you should create a Python 3.7 environment and install the requirements:
-</translate-content>
+
+
 ```bash
 >>> conda create -n noxenv python="3.7"
 >>> activate noxenv

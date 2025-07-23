@@ -1,4 +1,4 @@
-# 🛡️ Azure & Office 365 Security Report
+﻿# 🛡️ Azure & Office 365 Security Report
 
 > **A comprehensive PowerShell 7 security auditing tool for Azure and Office 365 environments**
 
@@ -107,7 +107,8 @@ This project provides a modular, read-only security assessment script to help or
 ---
 ### Prerequisites
 
-Ensure you have PowerShell 7.0+ installed:</translate-content>
+Ensure you have PowerShell 7.0+ installed:
+
 ```powershell
 # Check PowerShell version
 $PSVersionTable.PSVersion

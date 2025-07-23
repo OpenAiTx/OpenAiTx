@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/obsidianforensics/hindsight/main/./pyhindsight/static/h.png" height="100px"/> Hindsight
+﻿<img src="https://raw.githubusercontent.com/obsidianforensics/hindsight/main/./pyhindsight/static/h.png" height="100px"/> Hindsight
 =========
 
 Google Chrome/Chromium 인터넷 기록 포렌식
@@ -18,9 +18,11 @@ Hindsight(명령어 도구 및 웹 인터페이스 모두)를 설치하려면 �
 pip install pyhindsight
 pip install git+https://github.com/cclgroupltd/ccl_chromium_reader.git
 ```
-<translate-content>
+
+
 Hindsight 웹 인터페이스에서 "브라우저에서 SQLite DB 보기" 기능을 사용하려면, 다음 설치 명령을 추가로 실행해야 합니다:  
-</translate-content>
+
+
 ```sh
 curl -sSL https://raw.githubusercontent.com/obsidianforensics/hindsight/master/install-js.sh | sh
 ```

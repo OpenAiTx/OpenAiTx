@@ -1,4 +1,5 @@
-<translate-content># Vimb - Vim과 유사한 브라우저
+﻿
+# Vimb - Vim과 유사한 브라우저
 
 [![Build Status](https://travis-ci.com/fanglingsu/vimb.svg?branch=master)](https://travis-ci.com/fanglingsu/vimb)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
@@ -95,7 +96,8 @@ tcc 같은 다른 컴파일러를 사용하는 경우 이 작업이 필요할 �
 [tharvik overlay]:     https://github.com/tharvik/overlay/tree/master/www-client/vimb
 [jjakob overlay]:      https://github.com/jjakob/gentoo-overlay/tree/master/www-client/vimb
 [mail-archive]:        https://sourceforge.net/p/vimb/vimb/vimb-users/ "vimb - mailing list archive"
-[mail]:                https://lists.sourceforge.net/lists/listinfo/vimb-users "vimb - mailing list"</translate-content>
+[mail]:                https://lists.sourceforge.net/lists/listinfo/vimb-users "vimb - mailing list"
+
 
 
 [network/vimb]:        https://build.opensuse.org/package/show/network/vimb

@@ -1,4 +1,5 @@
-<translate-content># トリプティック - HTMLの新しい属性
+﻿
+# トリプティック - HTMLの新しい属性
 
 [トリプティック](https://alexanderpetros.com/triptych) は、3つの小さなHTML提案のためのポリフィルです：
 
@@ -14,7 +15,8 @@
 ## 例
 
 リンクがクリックされると、`<main>` が `GET /home:` の結果で置き換えられます：  
-</translate-content>
+
+
 ```html
 <a href="/home" target="main">Home</a>
 <main> <!-- Existing page content --> </main>

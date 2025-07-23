@@ -1,4 +1,5 @@
-<translate-content># 概要
+﻿
+# 概要
 
 [Ultracopier](https://ultracopier.herman-brule.com/) は、GPLv3 ライセンスの下で提供される
 無料でオープンソースのソフトウェアで、ファイルコピーのダイアログの代替として機能します。
@@ -17,7 +18,8 @@
 - C++17 コンパイラ（Qt6.7 のため）
 
 例えば、Debian ベースのディストリビューションでは： 
-</translate-content>
+
+
 
 ```bash
 sudo apt install make gcc build-essential libssl-dev qtbase6-dev qtchooser qt6-qmake qtbase6-dev-tools qttools6-dev-tools

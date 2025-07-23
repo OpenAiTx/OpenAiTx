@@ -1,4 +1,5 @@
-<translate-content># Scrutor [![Build status](https://ci.appveyor.com/api/projects/status/j00uyvqnm54rdlkb?svg=true)](https://ci.appveyor.com/project/khellang/scrutor) [![NuGet Package](https://img.shields.io/nuget/v/Scrutor.svg)](https://www.nuget.org/packages/Scrutor)
+﻿
+# Scrutor [![Build status](https://ci.appveyor.com/api/projects/status/j00uyvqnm54rdlkb?svg=true)](https://ci.appveyor.com/project/khellang/scrutor) [![NuGet Package](https://img.shields.io/nuget/v/Scrutor.svg)](https://www.nuget.org/packages/Scrutor)
 
 > Scrutor - 徹底的に探すまたは調査すること；探り、調査、または精査すること  
 > 動詞の元の意味であるゴミを探ることから。 - https://en.wiktionary.org/wiki/scrutor
@@ -20,7 +21,8 @@ Install-Package Scrutor
 ```
 dotnet add package Scrutor
 ```
-<translate-content>
+
+
 ## 使用法
 
 このライブラリは `IServiceCollection` に2つの拡張メソッドを追加します:
@@ -33,7 +35,8 @@ dotnet add package Scrutor
 ## Examples
 
 ### スキャン
-</translate-content>
+
+
 ```csharp
 var collection = new ServiceCollection();
 
@@ -82,11 +85,13 @@ collection.Scan(scan => scan
     .AsSelf()
     .WithSingletonLifetime()
 ```
-<translate-content>
+
+
 一部のUIフレームワークでは、これらのコンパイラ生成ビューはかなり多くのインターフェースを実装しているため、必要がない限り、これらのクラスは `.AsSelf()` として登録するのが最善です。つまり、コンパイラ生成型を受け入れるフィルターは非常に正確に指定してください。
 
 ### Decoration
-</translate-content>
+
+
 ```csharp
 var collection = new ServiceCollection();
 

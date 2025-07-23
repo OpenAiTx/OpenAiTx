@@ -1,4 +1,5 @@
-<translate-content># GraspVLA: 십억 규모 합성 행동 데이터로 사전학습된 그랩핑 기초 모델
+﻿
+# GraspVLA: 십억 규모 합성 행동 데이터로 사전학습된 그랩핑 기초 모델
 [![arXiv](https://img.shields.io/badge/arXiv-2505.03233-df2a2a.svg)](https://arxiv.org/pdf/2505.03233)
 [![Static Badge](https://img.shields.io/badge/Project-Page-a)](https://pku-epic.github.io/GraspVLA-web/)
 
@@ -19,7 +20,8 @@ TODO 목록:
 - [ ] 모델 가중치 공개
 - [ ] SynGrasp-1B 데이터셋 공개
 
-[![License](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](LICENSE)</translate-content>
+[![License](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](LICENSE)
+
 
 ---
 

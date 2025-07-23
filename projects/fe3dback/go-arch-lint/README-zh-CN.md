@@ -1,4 +1,4 @@
-![Logo image](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/logo.png)
+﻿![Logo image](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/logo.png)
 
 Linter used to enforce some good project structure and validate top level architecture (code layers) 
 
@@ -35,7 +35,8 @@ deps:
     mayDependOn:
       - repository
 ```
-<translate-content>
+
+
 详情请参见[配置语法](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/docs/syntax/README.md)。
 
 现在，linter 将检查 `internal` 工作目录内的所有项目代码，
@@ -47,7 +48,8 @@ deps:
 
 假设有一个 `main.go`，我们将 `repository` 传入 `handler` 并出现一些不良的
 流程：
-</translate-content>
+
+
 ```go
 func main() {
   // ..
@@ -59,7 +61,8 @@ func main() {
   // ..
 }
 ```
-<translate-content>
+
+
 Linter 会轻松发现此问题：
 
 ![检查标准输出示例](https://raw.githubusercontent.com/fe3dback/go-arch-lint/master/./docs/images/check-example.png)
@@ -67,7 +70,8 @@ Linter 会轻松发现此问题：
 ### 安装/运行
 
 #### 使用 Docker
-</translate-content>
+
+
 ```bash
 docker run --rm -v ${PWD}:/app fe3dback/go-arch-lint:latest-stable-release check --project-path /app
 ```

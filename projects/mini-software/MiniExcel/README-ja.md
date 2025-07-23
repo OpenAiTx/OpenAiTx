@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
 <a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Build status"></a>
 <a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
@@ -506,11 +506,13 @@ v0.19.0 以降、`OpenXmlConfiguration.AutoFilter` でオートフィルター�
 ```csharp
 MiniExcel.SaveAs(path, value, configuration: new OpenXmlConfiguration() { AutoFilter = false });
 ```
-<translate-content>
+
+
 
 
 #### 10. イメージの作成
-</translate-content>
+
+
 ```csharp
 var value = new[] {
     new { Name="github",Image=File.ReadAllBytes(PathHelper.GetFile("images/github_logo.png"))},
@@ -548,7 +550,9 @@ var path = @"../../../../../samples/xlsx/TestMergeWithTag.xlsx";
 
 MiniExcel.MergeSameCells(mergedFilePath, path);
 ```
-<translate-content></translate-content>
+
+
+
 ```csharp
 var memoryStream = new MemoryStream();
 
@@ -669,7 +673,8 @@ MiniExcel.SaveAs(@"C:\temp\Book1.xlsx", dt, configuration: configuration);
 結果:
 ![image](https://user-images.githubusercontent.com/12729184/114537490-d8180100-9c84-11eb-8c69-db58692f3a85.png)
 
-コード:</translate-content>
+コード:
+
 
 ```csharp
 // 1. By POCO
@@ -1034,7 +1039,8 @@ Assert.Null(rows[0].Test5);
 Assert.Null(rows[0].Test6);
 Assert.Equal("Test4", rows[0].Test7);
 ```
-<translate-content>
+
+
 
 
 
@@ -1044,7 +1050,8 @@ Assert.Equal("Test4", rows[0].Test7);
 V0.21.0 以降は、`ToString(string content)` メソッドを含むクラスのフォーマットをサポート
 
 クラス
-</translate-content>
+
+
 ```csharp
 public class Dto
 {
@@ -1113,12 +1120,14 @@ public class TestIssueI4TXGTDto
     public decimal Up { get; set; }
 }
 ```
-<translate-content>
+
+
 
 
 #### 6. ExcelColumnAttribute
 
-V1.26.0以降、複数の属性を以下のように簡略化できます：</translate-content>
+V1.26.0以降、複数の属性を以下のように簡略化できます：
+
 ```csharp
         public class TestIssueI4ZYUUDto
         {
@@ -1259,7 +1268,8 @@ stream.Query(excelType:ExcelType.CSV);
 //or
 stream.Query(excelType:ExcelType.XLSX);
 ```
-<translate-content>
+
+
 
 
 
@@ -1275,7 +1285,8 @@ stream.Query(excelType:ExcelType.XLSX);
 #### カスタムセパレーター
 
 デフォルトのセパレーターは `,` です。カスタマイズするには `Seperator` プロパティを変更できます。
-</translate-content>
+
+
 ```csharp
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
 {
@@ -1294,13 +1305,15 @@ var config = new CsvConfiguration()
 };
 var rows = MiniExcel.Query(path, configuration: config).ToList();
 ```
-<translate-content>
+
+
 
 
 #### カスタム改行
 
 デフォルトでは改行文字として `\r\n` が使用されますが、カスタマイズのために `NewLine` プロパティを変更できます
-</translate-content>
+
+
 ```csharp
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
 {
@@ -1361,13 +1374,15 @@ var config = new MiniExcelLibs.Csv.CsvConfiguration()
         }
     }
 ```
-<translate-content>
+
+
 
 
 ###  非同期
 
 - v0.17.0 で非同期をサポート（isdaniel ( SHIH,BING-SIOU)](https://github.com/isdaniel) に感謝）
-</translate-content>
+
+
 ```csharp
 public static Task SaveAsAsync(string path, object value, bool printHeader = true, string sheetName = "Sheet1", ExcelType excelType = ExcelType.UNKNOWN, IConfiguration configuration = null)
 public static Task SaveAsAsync(this Stream stream, object value, bool printHeader = true, string sheetName = "Sheet1", ExcelType excelType = ExcelType.XLSX, IConfiguration configuration = null)
@@ -1691,13 +1706,15 @@ memoryStream.Seek(0, SeekOrigin.Begin);
 memoryStream.CopyTo(Response.OutputStream);
 response.End();
 ```
-<translate-content>
+
+
 
 
 #### 5. 動的i18n多言語およびロール権限管理
 
 例のように、i18nと権限管理を処理するメソッドを作成し、`yield return` を使用して `IEnumerable<Dictionary<string, object>>` を返すことで、動的かつ低メモリ処理を実現します
-</translate-content>
+
+
 ```csharp
 void Main()
 {
@@ -1890,10 +1907,12 @@ public static IEnumerable<dynamic> QueryWithoutEmptyRow(Stream stream, bool useH
     }
 }
 ```
-<translate-content>
+
+
 
 データテーブル：
-</translate-content>
+
+
 
 ```csharp
 public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useHeaderRow, string sheetName, ExcelType excelType, string startCell, IConfiguration configuration)
@@ -1937,14 +1956,16 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
     return dt;
 }
 ```
-<translate-content>
+
+
 
 
 #### Q. SaveAs(path, value)で既存ファイルを置き換え、「The file ...xlsx already exists」エラーを発生させずに保存するにはどうすればよいですか？
 
 
 Streamクラスを使用して、ファイル作成のロジックをカスタマイズしてください。例：
-</translate-content>
+
+
 ```C#
     using (var stream = File.Create("Demo.xlsx"))
         MiniExcel.SaveAs(stream,value);

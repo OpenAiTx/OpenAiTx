@@ -1,4 +1,5 @@
-<translate-content># pods4k
+﻿
+# pods4k
 
 [![Maven Central][maven-central-badge]][maven-central-url]
 [![Licence][license-badge]][license-url]
@@ -29,9 +30,11 @@ dependencies {
     implementation("com.danrusu.pods4k:pods4k:<latest_version>")
 }
 ```
-<translate-content>
+
+
 **Maven：**
-</translate-content>
+
+
 ```xml
 
 <dependency>

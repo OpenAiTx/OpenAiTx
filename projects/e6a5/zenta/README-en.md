@@ -1,4 +1,5 @@
-<translate-content># 🧘 zenta
+﻿
+# 🧘 zenta
 
 > **Mindfulness that fits your coding flow**
 
@@ -9,7 +10,8 @@ When your mind wanders while coding, simply return to breath. No tracking, no me
 ---
 
 ## ⚡ Quick Start
-</translate-content>
+
+
 ```bash
 # Install (one-liner)
 curl -fsSL https://raw.githubusercontent.com/e6a5/zenta/main/install.sh | bash

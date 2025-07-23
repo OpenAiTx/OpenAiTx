@@ -1,4 +1,4 @@
-# kb
+﻿# kb
 
 [Single-header](https://github.com/nothings/stb/blob/master/docs/stb_howto.txt) の緩やかなライセンスの C/C++ 用ライブラリ。
 
@@ -93,7 +93,9 @@ void SegmentText(uint32_t *Codepoints, size_t CodepointCount)
   }
 }
 ```
-<translate-content></translate-content>
+
+
+
 
 ---
 

@@ -1,4 +1,5 @@
-<translate-content># 《あなたが欠けているあのコンピュータの授業》オープンソース PDF 版
+﻿
+# 《あなたが欠けているあのコンピュータの授業》オープンソース PDF 版
 
 > [!important]
 > 《あなたが欠けているあのコンピュータの授業》オープンソース PDF 版は [ウェブ版](https://www.criwits.top/missing) による自動生成ではなく、手作業で組版されたものです。したがって、オープンソース PDF 版は内容がウェブ版に遅れており、欠落や誤りがある可能性があります。
@@ -15,7 +16,8 @@
    4. [Noto Serif Tibetan](https://fonts.google.com/noto/specimen/Noto+Serif+Tibetan)。
 1. このリポジトリを好きな場所にクローンする；
 2. `resource/quote.zip` にある二つの句読点マッピングファイルを**ユーザーの TEXMF ツリー**内の `fonts/misc/xetex/fontmapping/xecjk` ディレクトリに置く；
-3. TeX ディストリビューションのファイル名データベースを更新する。TeX Live ユーザーは以下を実行する</translate-content>
+3. TeX ディストリビューションのファイル名データベースを更新する。TeX Live ユーザーは以下を実行する
+
    ```shell
    mktexlsr
    ```

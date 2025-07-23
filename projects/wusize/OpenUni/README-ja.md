@@ -1,4 +1,5 @@
-<translate-content># OpenUni: 統一マルチモーダル理解と生成のためのシンプルなベースライン
+﻿
+# OpenUni: 統一マルチモーダル理解と生成のためのシンプルなベースライン
 
 ![](https://raw.githubusercontent.com/wusize/OpenUni/main/figures/teaser.png)
 
@@ -26,7 +27,8 @@
 
 
 
-## 環境</translate-content>
+## 環境
+
 ```
 mmengine
 xtuner

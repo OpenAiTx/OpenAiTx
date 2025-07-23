@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
 <a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Build status"></a>
 <a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
@@ -243,13 +243,15 @@ var rows = MiniExcel.Query(path).Cast<IDictionary<string,object>>();
 // If you don't want to restrict rows, just don't include numbers
 var rows = MiniExcel.QueryRange(path, startCell: "A2", endCell: "C3").Cast<IDictionary<string, object>>();
 ```
-<translate-content>
+
+
 
 
 #### 9. کوئری اکسل و بازگشت DataTable
 
 توصیه نمی‌شود، زیرا DataTable تمام داده‌ها را به حافظه بارگذاری می‌کند و ویژگی مصرف پایین حافظه MiniExcel را از بین می‌برد.
-</translate-content>
+
+
 ```C#
 var table = MiniExcel.QueryAsDataTable(path, useHeaderRow: true);
 ```
@@ -376,7 +378,8 @@ using (var cnn = Connection)
     MiniExcel.SaveAs("Demo.xlsx", sheets);
 }
 ```
-<translate-content>
+
+
 
 
 #### 4. دیتاتیبل
@@ -384,7 +387,8 @@ using (var cnn = Connection)
 - `توصیه نمی‌شود`، زیرا تمام داده‌ها را به حافظه بارگذاری می‌کند
 
 - دیتاتیبل ابتدا از Caption برای نام ستون استفاده می‌کند، سپس از columname
-</translate-content>
+
+
 ```csharp
 var path = Path.Combine(Path.GetTempPath(), $"{Guid.NewGuid()}.xlsx");
 var table = new DataTable();
@@ -506,11 +510,13 @@ MiniExcel.SaveAs(path, value,configuration:config);
 ```csharp
 MiniExcel.SaveAs(path, value, configuration: new OpenXmlConfiguration() { AutoFilter = false });
 ```
-<translate-content>
+
+
 
 
 #### 10. ایجاد تصویر
-</translate-content>
+
+
 ```csharp
 var value = new[] {
     new { Name="github",Image=File.ReadAllBytes(PathHelper.GetFile("images/github_logo.png"))},
@@ -548,7 +554,9 @@ var path = @"../../../../../samples/xlsx/TestMergeWithTag.xlsx";
 
 MiniExcel.MergeSameCells(mergedFilePath, path);
 ```
-<translate-content></translate-content>
+
+
+
 ```csharp
 var memoryStream = new MemoryStream();
 
@@ -669,7 +677,8 @@ MiniExcel.SaveAs(@"C:\temp\Book1.xlsx", dt, configuration: configuration);
 نتیجه:
 ![image](https://user-images.githubusercontent.com/12729184/114537490-d8180100-9c84-11eb-8c69-db58692f3a85.png)
 
-کد:</translate-content>
+کد:
+
 
 ```csharp
 // 1. By POCO
@@ -1034,7 +1043,8 @@ Assert.Null(rows[0].Test5);
 Assert.Null(rows[0].Test6);
 Assert.Equal("Test4", rows[0].Test7);
 ```
-<translate-content>
+
+
 
 
 
@@ -1044,7 +1054,8 @@ Assert.Equal("Test4", rows[0].Test7);
 از نسخه V0.21.0 پشتیبانی از کلاسی که شامل متد `ToString(string content)` باشد، اضافه شده است
 
 کلاس
-</translate-content>
+
+
 ```csharp
 public class Dto
 {
@@ -1095,13 +1106,15 @@ public class Dto
     public string Name { get; set; }
 }
 ```
-<translate-content>
+
+
 
 
 #### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
 از نسخه 1.24.0، سیستم از System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute پشتیبانی می‌کند.
-</translate-content>
+
+
 ```C#
 public class TestIssueI4TXGTDto
 {
@@ -1260,7 +1273,8 @@ stream.Query(excelType:ExcelType.CSV);
 //or
 stream.Query(excelType:ExcelType.XLSX);
 ```
-<translate-content>
+
+
 
 
 
@@ -1276,7 +1290,8 @@ stream.Query(excelType:ExcelType.XLSX);
 #### جداکننده سفارشی
 
 به طور پیش‌فرض `,` به عنوان جداکننده استفاده می‌شود، می‌توانید خصوصیت `Seperator` را برای سفارشی‌سازی تغییر دهید
-</translate-content>
+
+
 ```csharp
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
 {
@@ -1309,14 +1324,16 @@ var config = new MiniExcelLibs.Csv.CsvConfiguration()
 };
 MiniExcel.SaveAs(path, values,configuration: config);
 ```
-<translate-content>
+
+
 
 
 #### کدنویسی سفارشی
 
 - کدگذاری پیش‌فرض "شناسایی کدگذاری از نشانه‌های ترتیب بایت" است (detectEncodingFromByteOrderMarks: true)
 - اگر نیاز به کدگذاری سفارشی دارید، لطفاً ویژگی StreamReaderFunc / StreamWriterFunc را تغییر دهید
-</translate-content>
+
+
 ```csharp
 // Read
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
@@ -1362,13 +1379,15 @@ var config = new MiniExcelLibs.Csv.CsvConfiguration()
         }
     }
 ```
-<translate-content>
+
+
 
 
 ###  غیرهمزمان (Async)
 
 - نسخه v0.17.0 از غیرهمزمان (Async) پشتیبانی می‌کند (با تشکر از isdaniel ( SHIH,BING-SIOU)](https://github.com/isdaniel))
-</translate-content>
+
+
 ```csharp
 public static Task SaveAsAsync(string path, object value, bool printHeader = true, string sheetName = "Sheet1", ExcelType excelType = ExcelType.UNKNOWN, IConfiguration configuration = null)
 public static Task SaveAsAsync(this Stream stream, object value, bool printHeader = true, string sheetName = "Sheet1", ExcelType excelType = ExcelType.XLSX, IConfiguration configuration = null)
@@ -1692,13 +1711,15 @@ memoryStream.Seek(0, SeekOrigin.Begin);
 memoryStream.CopyTo(Response.OutputStream);
 response.End();
 ```
-<translate-content>
+
+
 
 
 #### 5. مدیریت پویا i18n چندزبانه و سطح دسترسی نقش‌ها
 
 مانند مثال، یک متد برای مدیریت i18n و سطح دسترسی ایجاد کنید و از `yield return برای بازگرداندن IEnumerable<Dictionary<string, object>>` استفاده کنید تا پردازش پویا و با مصرف حافظه کم حاصل شود.
-</translate-content>
+
+
 ```csharp
 void Main()
 {
@@ -1891,11 +1912,13 @@ public static IEnumerable<dynamic> QueryWithoutEmptyRow(Stream stream, bool useH
     }
 }
 ```
-<translate-content>
+
+
 
 
 جدول داده (DataTable) :
-</translate-content>
+
+
 ```csharp
 public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useHeaderRow, string sheetName, ExcelType excelType, string startCell, IConfiguration configuration)
 {
@@ -1938,27 +1961,32 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
     return dt;
 }
 ```
-<translate-content>
+
+
 
 
 #### س. چگونه از SaveAs(path,value) برای جایگزینی فایل موجود استفاده کنیم بدون اینکه خطای "The file ...xlsx already exists" ایجاد شود
 
 
 لطفاً از کلاس Stream برای پیاده‌سازی منطق سفارشی ایجاد فایل استفاده کنید، به عنوان مثال:
-</translate-content>
+
+
 ```C#
     using (var stream = File.Create("Demo.xlsx"))
         MiniExcel.SaveAs(stream,value);
 ```
-<translate-content>
+
+
 
 یا، از نسخه V1.25.0، SaveAs پارامتر overwriteFile را برای فعال/غیرفعال کردن بازنویسی فایل موجود پشتیبانی می‌کند
-</translate-content>
+
+
 
 ```csharp
     MiniExcel.SaveAs(path, value, overwriteFile: true);
 ```
-<translate-content>
+
+
 
 
 
@@ -1991,7 +2019,8 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
 ### مشارکت‌کنندگان
 
 ![](https://contrib.rocks/image?repo=mini-software/MiniExcel)
-</translate-content>
+
+
 
 ---
 

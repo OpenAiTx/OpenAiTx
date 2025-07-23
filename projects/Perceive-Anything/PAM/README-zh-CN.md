@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 <h1>
 感知一切：识别、解释、描述及分割图像和视频中的任何内容（PAM）
 </h1>
@@ -51,14 +51,17 @@
 
 ## 安装
 
-1. 克隆此仓库并进入基础文件夹</translate-content>
+1. 克隆此仓库并进入基础文件夹
+
 
 ```bash
 git clone https://github.com/Afeng-x/PAM.git
 cd PAM
 ```
-<translate-content>
-2. 安装软件包</translate-content>
+
+
+2. 安装软件包
+
 ```bash
 ### packages for base
 conda create -n PAM python=3.10 -y

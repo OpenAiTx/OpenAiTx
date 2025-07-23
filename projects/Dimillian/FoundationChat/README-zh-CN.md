@@ -1,4 +1,5 @@
-<translate-content># FoundationChat
+﻿
+# FoundationChat
 
 一个基于 SwiftUI 的聊天应用，使用苹果的 Foundation Models 框架构建，展示了设备端 AI 能力和持久化对话存储。
 
@@ -76,8 +77,10 @@ func respondTo() async -> LanguageModelSession.ResponseStream<MessageGenerable>?
     }
 }
 ```
-<translate-content>
-### 工具集成</translate-content>
+
+
+### 工具集成
+
 ```swift
 struct WebAnalyserTool: Tool {
     let name = "WebAnalyser"
@@ -98,7 +101,8 @@ class Conversation {
     var summary: String?
 }
 ```
-<translate-content>
+
+
 ## 文档
 
 - **[CLAUDE.md](https://raw.githubusercontent.com/Dimillian/FoundationChat/main/CLAUDE.md)** - 开发指南和框架概述
@@ -111,7 +115,8 @@ class Conversation {
   - 完整聊天应用
 
 ## 项目结构
-</translate-content>
+
+
 ```
 FoundationChat/
 ├── Models/

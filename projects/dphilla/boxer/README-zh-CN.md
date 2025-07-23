@@ -1,4 +1,5 @@
-<translate-content># 拳击手
+﻿
+# 拳击手
 
 <p align="center">
   <p align="center">

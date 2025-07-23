@@ -1,4 +1,5 @@
-<translate-content># 🤖 RAMsey
+﻿
+# 🤖 RAMsey
 
 > **An interactive desktop robot that lives on your screen, reacts to you, and shows stats — built with Python & PyQt!**
 
@@ -42,7 +43,8 @@ It feels like having a virtual assistant or Tamagotchi on your screen.
 ---
 
 ## 📦 Getting Started
-</translate-content>
+
+
 ```bash
 # Clone the repo
 git clone https://github.com/SamhithPola2025/RAMsey

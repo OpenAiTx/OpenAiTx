@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 언어</summary>
     <div>
@@ -51,7 +51,8 @@
 ```bash
 cp .env.example .env.local
 ```
-<translate-content>
+
+
 ### 2. 필수 환경 변수
 
 #### Supabase 구성
@@ -71,7 +72,8 @@ cp .env.example .env.local
 
 ## 로컬 개발
 
-1. 의존성 설치:</translate-content>
+1. 의존성 설치:
+
 ```bash
 npm install
 ```

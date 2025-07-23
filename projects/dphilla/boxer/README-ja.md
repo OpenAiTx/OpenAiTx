@@ -1,4 +1,5 @@
-<translate-content># ボクサー
+﻿
+# ボクサー
 
 <p align="center">
   <p align="center">

@@ -1,4 +1,5 @@
-<translate-content><div align="center">
+﻿
+<div align="center">
 
 # 2D三角形溅射用于直接可微网格训练
 
@@ -45,7 +46,8 @@
 
 ## - 使用
 ### 训练
-执行`run_experiments.py`，通过以下命令在Mip-NeRF 360、NerfSynthetic、Tanks and Temples、DeepBlending或MatrixCity数据集上训练2DTS模型：</translate-content>
+执行`run_experiments.py`，通过以下命令在Mip-NeRF 360、NerfSynthetic、Tanks and Temples、DeepBlending或MatrixCity数据集上训练2DTS模型：
+
 
 ```bash
 python run_experiments.py --type {experiment_type} --dataset_path /path/to/dataset --num_workers 0
@@ -122,12 +124,14 @@ python viser_viewer.py --config config/NerfSynthetic_VanillaTS_mesh.yaml --datas
       url={https://arxiv.org/abs/2506.18575}, 
 }
 ```
-<translate-content>
+
+
 <!-- 参考文献 -->
 [1]: https://arxiv.org/abs/2506.18575
 [2]: https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/
 [3]: https://github.com/nerfstudio-project/viser
-[4]: https://gaoderender.github.io/triangle-splatting/</translate-content>
+[4]: https://gaoderender.github.io/triangle-splatting/
+
 
 ---
 

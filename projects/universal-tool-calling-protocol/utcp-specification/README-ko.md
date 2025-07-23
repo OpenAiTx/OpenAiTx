@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 언어</summary>
     <div>
@@ -70,7 +70,8 @@ UTCP 명세에 대한 기여를 환영합니다! 기여하는 방법은 다음�
 
 ### 설정
 
-1. 저장소를 클론하세요:</translate-content>
+1. 저장소를 클론하세요:
+
 
    ```bash
    git clone https://github.com/universal-tool-calling-protocol/utcp-specification.git

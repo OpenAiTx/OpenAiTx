@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 <img src="https://raw.githubusercontent.com/runjiali-rl/vmem/main/assets/title_logo.png" width="200" alt="VMem Logo"/>
 <h1>VMem: Consistent Interactive Video Scene Generation with Surfel-Indexed View Memory</h1>
 
@@ -37,12 +37,14 @@ conda create -n vmem python=3.10
 conda activate vmem
 pip install -r requirements.txt
 ```
-<translate-content>
+
+
 
 # :rocket: Usage
 
 You need to properly authenticate with Hugging Face to download our model weights. Once set up, our code will handle it automatically at your first run. You can authenticate by running
-</translate-content>
+
+
 ```bash
 # This will prompt you to enter your Hugging Face credentials.
 huggingface-cli login

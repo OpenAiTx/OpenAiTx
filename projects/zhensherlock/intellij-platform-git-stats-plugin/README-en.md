@@ -1,4 +1,5 @@
-<translate-content># intellij-platform-git-stats-plugin
+﻿
+# intellij-platform-git-stats-plugin
 
 ![Build](https://github.com/zhensherlock/intellij-platform-git-stats-plugin/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/com.huayi.intellijplatform.gitstats.svg)](https://plugins.jetbrains.com/plugin/com.huayi.intellijplatform.gitstats)

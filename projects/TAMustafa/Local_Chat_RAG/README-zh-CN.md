@@ -1,4 +1,5 @@
-<translate-content># 本地聊天RAG
+﻿
+# 本地聊天RAG
 
 一个**本地的、以隐私为先的检索增强生成（RAG）聊天应用**。上传文档，提问，并获得带有来源的答案——由运行在您自己机器上的开源大型语言模型驱动。
 
@@ -51,12 +52,14 @@
   ollama pull mistral
   ollama pull nomic-embed-text
   ```
-<translate-content>  - `mistral`：用于聊天和回答问题
+
+  - `mistral`：用于聊天和回答问题
   - `nomic-embed-text`：用于文档嵌入
   > 你可以用任何兼容的模型（例如 `llama3`、`llama2`）替代 `mistral`，但后端默认使用 `mistral`。
 
 ### 3. 后端设置（FastAPI）
-- **创建并激活虚拟环境：**</translate-content>
+- **创建并激活虚拟环境：**
+
   ```bash
   cd backend
   python -m venv .venv

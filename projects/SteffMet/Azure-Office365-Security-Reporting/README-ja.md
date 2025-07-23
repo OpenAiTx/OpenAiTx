@@ -1,4 +1,4 @@
-# 🛡️ Azure & Office 365 セキュリティレポート
+﻿# 🛡️ Azure & Office 365 セキュリティレポート
 
 > **Azure および Office 365 環境向けの包括的な PowerShell 7 セキュリティ監査ツール**
 
@@ -107,7 +107,8 @@
 ---
 ### 前提条件
 
-PowerShell 7.0以上がインストールされていることを確認してください:</translate-content>
+PowerShell 7.0以上がインストールされていることを確認してください:
+
 ```powershell
 # Check PowerShell version
 $PSVersionTable.PSVersion
@@ -125,8 +126,10 @@ $PSVersionTable.PSVersion
    ```powershell
    .\Start-AzureSecurityReport.ps1
    ```
-<translate-content>   
-   **または直接実行:**</translate-content>
+
+   
+   **または直接実行:**
+
    ```powershell
    # Modular version (recommended)
    .\AzureSecurityReport-Modular.ps1
@@ -168,7 +171,8 @@ Sites.Read.All
 
 **🔧 クイック修正オプション：**
 
-1. **ランチャースクリプトを使用する（推奨）**：</translate-content>
+1. **ランチャースクリプトを使用する（推奨）**：
+
 
    ```powershell
    .\Start-AzureSecurityReport.ps1
@@ -178,7 +182,8 @@ Sites.Read.All
    ```powershell
    .\Fix-GraphModules.ps1
    ```
-3. **手動セッション再起動**:</translate-content>
+3. **手動セッション再起動**:
+
 
    ```powershell
    # Exit PowerShell completely
@@ -189,7 +194,8 @@ Sites.Read.All
    cd "path\to\Azure-Office365-Security-Reporting"
    .\AzureSecurityReport-Modular.ps1
    ```
-4. **自動再起動ヘルパー**:</translate-content>
+4. **自動再起動ヘルパー**:
+
 
    ```powershell
    .\Restart-PowerShellSession.ps1

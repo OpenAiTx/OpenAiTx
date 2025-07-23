@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 언어</summary>
     <div>
@@ -103,11 +103,13 @@ pip install transformers datasets pyserini
 conda install -c pytorch -c nvidia faiss-gpu=1.8.0
 pip install uvicorn fastapi
 ```
-<translate-content>
+
+
 
 
 ## 💡 준비하기
-***색인 및 말뭉치 다운로드***</translate-content>
+***색인 및 말뭉치 다운로드***
+
 ```bash
 python scripts/download.py --save_path $save_path
 cat $save_path/part_* > $save_path/e5_Flat.index
@@ -124,11 +126,13 @@ bash generator_llms/host.sh # modify tensor-parallel-size to the number of GPUs 
 # run precompute
 bash scripts/precompute.sh # this step will take a while, as it will precompute the naïve RAG Cache for training
 ```
-<translate-content>
+
+
 
 ## 🏋️ 훈련 실행
 ***이 단계는 S3 훈련을 위한 것입니다***
-</translate-content>
+
+
 ```bash
 # deploy retriever
 bash scripts/deploy_retriever/retrieval_launch.sh 
@@ -137,29 +141,35 @@ bash generator_llms/host.sh
 # run training
 bash scripts/train/train_s3.sh
 ```
-<translate-content>
+
+
 
 ## 🔍 검색/검색 실행
 ***이 단계는 s3 / 기준선의 컨텍스트 수집을 위한 것입니다***
 
-**s3**</translate-content>
+**s3**
+
 ```bash
 # deploy retriever
 bash scripts/deploy_retriever/retrieval_launch.sh 
 # run s3 inference
 bash scripts/s3_inference/evaluate-8-3-3.sh
 ```
-<translate-content>
+
+
 <details>
 <summary>기준선</summary>
 
-**RAG**</translate-content>
+**RAG**
+
 ```bash
 bash scripts/deploy_retriever/retrieval_launch.sh # or retrieval_launch_bm25.sh # deploy retriever
 bash scripts/baselines/rag.sh # run RAG 
 ```
-<translate-content>
-**딥리트리벌**</translate-content>
+
+
+**딥리트리벌**
+
 ```bash
 bash retrieval_launch_bm25.sh # deploy BM25 Model
 bash generator_llms/deepretrieval.sh # deploy DeepRetrieval Model
@@ -183,14 +193,16 @@ python scripts/baselines/ircot.py
 bash retrieval_launch.sh # deploy e5 retriever
 bash scripts/baselines/search_o1.sh # run Search-o1
 ```
-<translate-content>
+
+
 </details>
 
 
 ## 📈 실행 평가
 ***이 단계는 s3 / 기준선 평가를 위한 단계입니다***
 
-</translate-content>
+
+
 ```bash
 bash scripts/evaluation/run.sh
 ```
@@ -210,12 +222,14 @@ bash scripts/evaluation/run.sh
   year={2025}
 }
 ```
-<translate-content>
+
+
 우리 작업에 관심을 가져 주셔서 감사합니다!
 
 
 
-</translate-content>
+
+
 
 ---
 

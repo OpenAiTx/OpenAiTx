@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 Ngôn ngữ</summary>
     <div>
@@ -96,7 +96,8 @@ Tài liệu: https://codewithcj.github.io/SparkyFitness
   https://discord.gg/vcnMT5cPEA
 * **Đăng bài trong phần thảo luận**
 
-</translate-content>
+
+
 
 ![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
 

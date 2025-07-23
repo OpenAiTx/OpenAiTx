@@ -1,4 +1,5 @@
-<translate-content># OpenUni: A Simple Baseline for Unified Multimodal Understanding and Generation
+﻿
+# OpenUni: A Simple Baseline for Unified Multimodal Understanding and Generation
 
 ![](https://raw.githubusercontent.com/wusize/OpenUni/main/figures/teaser.png)
 
@@ -26,7 +27,8 @@ This is a repo under construction, named OpenUni, an open-source version of [Met
 
 
 
-## Environment</translate-content>
+## Environment
+
 ```
 mmengine
 xtuner

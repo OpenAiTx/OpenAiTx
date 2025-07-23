@@ -1,4 +1,5 @@
-<translate-content># unplugin-starter
+﻿
+# unplugin-starter
 
 [![NPM version](https://img.shields.io/npm/v/unplugin-starter?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-starter)
 
@@ -7,7 +8,8 @@ Starter template for [unplugin](https://github.com/unjs/unplugin).
 ## Template Usage
 
 To use this template, clone it down using:
-</translate-content>
+
+
 ```bash
 npx degit unplugin/unplugin-starter my-unplugin
 ```
@@ -24,10 +26,12 @@ To release a new version, run: `pnpm run release`
 ```bash
 npm i unplugin-starter
 ```
-<translate-content>
+
+
 <details>
 <summary>Vite</summary><br>
-</translate-content>
+
+
 ```ts
 // vite.config.ts
 import Starter from 'unplugin-starter/vite'

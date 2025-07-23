@@ -1,4 +1,5 @@
-<translate-content># OpenList 앱
+﻿
+# OpenList 앱
 ### AList, OpenList 크로스 플랫폼 클라이언트로, 현재 내장된 OpenList 서버를 사용하여 별도의 서버 연결이 필요 없으며, iOS, macOS, Windows, Android, Linux를 지원합니다.
 
 ### 내장된 [DDNS-GO(MIT)](https://github.com/jeessy2/ddns-go)를 통해, 기기가 **공인 IP를 가지고 있을 경우** DDNS-GO를 이용해 원격 접속이 가능하며, 휴대폰을 원격 서버로 사용할 수 있습니다.
@@ -29,7 +30,8 @@
 
 ### 주의사항:
 * 초기 사용자는 상위 프로젝트 기본 권한을 따르며, 기본적으로 webdav가 활성화되어 있지 않으니 주의하세요.
-* 기타</translate-content>
+* 기타
+
 
 ---
 

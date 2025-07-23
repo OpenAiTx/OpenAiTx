@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/obsidianforensics/hindsight/main/./pyhindsight/static/h.png" height="100px"/> Hindsight
+﻿<img src="https://raw.githubusercontent.com/obsidianforensics/hindsight/main/./pyhindsight/static/h.png" height="100px"/> Hindsight
 =========
 
 Google Chrome/Chromiumのインターネット履歴フォレンジック
@@ -18,8 +18,10 @@ Hindsight（コマンドラインツールとウェブインターフェイス�
 pip install pyhindsight
 pip install git+https://github.com/cclgroupltd/ccl_chromium_reader.git
 ```
-<translate-content>
-Hindsightのウェブインターフェースで「ブラウザでSQLite DBを見る」機能を使用したい場合は、別のインストールコマンドを実行する必要があります：</translate-content>
+
+
+Hindsightのウェブインターフェースで「ブラウザでSQLite DBを見る」機能を使用したい場合は、別のインストールコマンドを実行する必要があります：
+
 ```sh
 curl -sSL https://raw.githubusercontent.com/obsidianforensics/hindsight/master/install-js.sh | sh
 ```

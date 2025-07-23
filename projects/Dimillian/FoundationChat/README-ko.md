@@ -1,4 +1,5 @@
-<translate-content># FoundationChat
+﻿
+# FoundationChat
 
 Apple의 Foundation Models 프레임워크로 구축된 SwiftUI 채팅 애플리케이션으로, 온디바이스 AI 기능과 지속적인 대화 저장을 보여줍니다.
 
@@ -52,7 +53,8 @@ Apple의 Foundation Models 프레임워크로 구축된 SwiftUI 채팅 애플리
 
 ## 주요 구현 세부 사항
 
-### Foundation Models 통합</translate-content>
+### Foundation Models 통합
+
 ```swift
 @Observable
 class ChatEngine {
@@ -98,7 +100,8 @@ class Conversation {
     var summary: String?
 }
 ```
-<translate-content>
+
+
 ## 문서
 
 - **[CLAUDE.md](https://raw.githubusercontent.com/Dimillian/FoundationChat/main/CLAUDE.md)** - 개발 지침 및 프레임워크 개요
@@ -111,7 +114,8 @@ class Conversation {
   - 완전한 채팅 앱
 
 ## 프로젝트 구조
-</translate-content>
+
+
 ```
 FoundationChat/
 ├── Models/
@@ -126,7 +130,8 @@ FoundationChat/
 │   └── ChatEngine.swift    # Foundation Models integration
 └── FoundationChatApp.swift # App entry point
 ```
-<translate-content>
+
+
 ## 기여하기
 
 이 프로젝트는 Apple의 Foundation Models 프레임워크를 시연하는 데모 프로젝트입니다. 자유롭게:
@@ -137,7 +142,8 @@ FoundationChat/
 
 ## 라이선스
 
-MIT 라이선스 - 자세한 내용은 LICENSE 파일을 참조하세요</translate-content>
+MIT 라이선스 - 자세한 내용은 LICENSE 파일을 참조하세요
+
 
 ---
 

@@ -1,4 +1,5 @@
-<translate-content># python-makefun
+﻿
+# python-makefun
 
 *Python関数を動的に作成するための小さなライブラリ。*
 
@@ -17,7 +18,8 @@
 ## `nox` セットアップ
 
 このプロジェクトはライフサイクルタスクの定義に `nox` を使用しています。これらのタスクを実行するには、Python 3.7の環境を作成し、必要なパッケージをインストールしてください:
-</translate-content>
+
+
 ```bash
 >>> conda create -n noxenv python="3.7"
 >>> activate noxenv
@@ -47,7 +49,8 @@ Sessions defined in <path>\noxfile.py:
 ```bash
 nox
 ```
-<translate-content>
+
+
 テストおよびカバレッジレポートは、セッションの一つ（`tests-3.7`）のために `./docs/reports` に自動生成されます。
 
 特定の環境でテストを実行したい場合は、明示的なセッション名を使用してください。例：`nox -s tests-3.6`。
@@ -56,7 +59,8 @@ nox
 ## ドキュメントの編集
 
 このプロジェクトはドキュメントページの生成に `mkdocs` を使用しています。したがって、ローカルコピーのドキュメントページのビルドは `mkdocs build -f docs/mkdocs.yml` を使って行えます。しかし、やはり `nox` を使う方が簡単です。次のコマンドでドキュメントサイトのバージョンをローカルで簡単にビルドしてサーブできます：
-</translate-content>
+
+
 ```bash
 >>> nox -s docs
 nox > Running session docs-3.7
@@ -73,7 +77,8 @@ INFO    -  Serving on http://127.0.0.1:8000
 INFO    -  Start watching changes
 ...
 ```
-<translate-content>
+
+
 これが実行されている間、`./docs/` 以下のファイルを編集し、ローカルの [http://127.0.0.1:8000](http://127.0.0.1:8000) ページで自動更新されるドキュメントを閲覧できます。
 
 終了したら、単に `<CTRL+C>` を押してセッションを停止してください。
@@ -87,14 +92,17 @@ INFO    -  Start watching changes
 ### 編集を含むプルリクエストのマージ - メモ
 
 AxがGitHubの「コマンドライン手順を取得」で説明しています：
-</translate-content>
+
+
 ```bash
 git checkout -b <git_name>-<feature_branch> main
 git pull https://github.com/<git_name>/python-makefun.git <feature_branch> --no-commit --ff-only
 ```
-<translate-content>
+
+
 2番目のステップがうまくいかない場合は、通常の自動マージを行ってください（**リベース**は使用しないでください）：
-</translate-content>
+
+
 ```bash
 git pull https://github.com/<git_name>/python-makefun.git <feature_branch> --no-commit
 ```

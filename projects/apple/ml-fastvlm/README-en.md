@@ -1,4 +1,5 @@
-<translate-content># FastVLM: Efficient Vision Encoding for Vision Language Models
+﻿
+# FastVLM: Efficient Vision Encoding for Vision Language Models
 
 This is the official repository of
 **[FastVLM: Efficient Vision Encoding for Vision Language Models](https://www.arxiv.org/abs/2412.13303). (CVPR 2025)**
@@ -27,7 +28,8 @@ We use LLaVA codebase to train FastVLM variants. In order to train or finetune y
 please follow instructions provided in [LLaVA](https://github.com/haotian-liu/LLaVA) codebase. 
 We provide instructions for running inference with our models.   
 
-### Setup</translate-content>
+### Setup
+
 ```bash
 conda create -n fastvlm python=3.10
 conda activate fastvlm

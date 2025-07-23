@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 言語</summary>
     <div>
@@ -49,11 +49,13 @@
 ```bash
 npm install @winner-fed/unplugin-check-syntax --save-dev
 ```
-<translate-content>
+
+
 ## 使用方法
 
 ### Vite
-</translate-content>
+
+
 ```ts
 // vite.config.ts
 import { defineConfig } from 'vite'

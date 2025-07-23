@@ -1,4 +1,5 @@
-<translate-content># 人话翻译器
+﻿
+# 人话翻译器
 
 ## 项目简介
 
@@ -54,7 +55,8 @@ Edge浏览器：[Edge插件市场](https://microsoftedge.microsoft.com/addons/de
 - **单例模式**：确保同一时间只有一个翻译弹窗存在
 
 ## 项目结构
-</translate-content>
+
+
 ```
 ├── content/
 │   └── content.js    # 内容脚本，负责弹窗创建和交互

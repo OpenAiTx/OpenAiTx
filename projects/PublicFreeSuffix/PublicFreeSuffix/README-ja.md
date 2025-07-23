@@ -1,4 +1,5 @@
-<translate-content># Public Free Suffix：誰でも使える無料ドメイン名
+﻿
+# Public Free Suffix：誰でも使える無料ドメイン名
 
 **Public Free Suffix** は、様々なコミュニティを支援するために設計された非営利の無料サブドメインサービスです。私たちは以下の利用者にアクセス可能なリソースを提供することを信じています：
 
@@ -7,7 +8,8 @@
 * **技術者向け：** コンピュータやネットワーク技術の研究、ラボ構築、新しい設定の実験に最適なリソースです。
 * **個人利用者向け：** 個人ブログ、ポートフォリオ、小規模な情熱プロジェクトを当社の準拠フレームワーク内でホストできます。
 
-誰でも登録してここから無料ドメインを取得でき、年次更新の必要はありません。現在サービスを提供しているサフィックスは以下の通りです（sld）：</translate-content>
+誰でも登録してここから無料ドメインを取得でき、年次更新の必要はありません。現在サービスを提供しているサフィックスは以下の通りです（sld）：
+
 ```text
 pfsdns.org
 nastu.net
@@ -63,7 +65,8 @@ PR（プルリクエスト）操作を行う前に—登録、更新、または
   }
 }
 ```
-<translate-content>- `registrant`: ドメイン所有者のメールアドレス。
+
+- `registrant`: ドメイン所有者のメールアドレス。
 - `domain`: トップレベルドメインを除いたドメイン名（例："mynewdomain"）、ドメインの長さは3文字以上である必要があります。
 - `sld`: 登録したいサフィックス（例："no.kg" または前述のリスト内のSLDのいずれか）。
 - `nameservers`: ドメイン解決を担当するDNSサーバーのリスト、2～4台のサーバーが許可されています。
@@ -72,7 +75,8 @@ PR（プルリクエスト）操作を行う前に—登録、更新、または
 
 > **通知** 利用の向上と登録の独占および資源の無駄遣いを防ぐため、30日連続でウェブサイトのコンテンツが展開されていないと検出された場合、登録されたドメイン名は取り消されます。
 
-3. 新しいドメイン名とwhoisファイルでプルリクエストを作成してください。PRの説明は[PR Description Template](https://raw.githubusercontent.com/PublicFreeSuffix/PublicFreeSuffix/main/.github/pull_request_template.md)の形式にし、タイトルは以下の形式にしてください：</translate-content>
+3. 新しいドメイン名とwhoisファイルでプルリクエストを作成してください。PRの説明は[PR Description Template](https://raw.githubusercontent.com/PublicFreeSuffix/PublicFreeSuffix/main/.github/pull_request_template.md)の形式にし、タイトルは以下の形式にしてください：
+
 ```text
 Registration/Update/Remove: {your-new-domain-name}.{sld}
 ```

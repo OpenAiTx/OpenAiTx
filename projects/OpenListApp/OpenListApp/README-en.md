@@ -1,4 +1,5 @@
-<translate-content># OpenList App
+﻿
+# OpenList App
 ### A cross-platform client for AList and OpenList, currently built-in with OpenList server, no need for additional server connection, supports iOS, macOS, Windows, Android, Linux
 
 ### Built-in [DDNS-GO(MIT)](https://github.com/jeessy2/ddns-go), if the device **has a public IP**, you can use DDNS-GO for remote access, turning your phone into a remote server

@@ -1,4 +1,5 @@
-<translate-content># Thio의 브라우저 기반 도구
+﻿
+# Thio의 브라우저 기반 도구
 브라우저에서 직접 로컬로 실행되는 다양한 유틸리티 및 도구들입니다.
 
 ### 다운로드 방법
@@ -26,7 +27,8 @@
 대규모 기업이 공식 계정을 모두 나열하지 않는 경우, GitHub 계정의 진위 여부를 더 쉽게 찾고 확인할 수 있는 도구입니다.
 <p align="center"><img width="799" alt="image" src="https://github.com/user-attachments/assets/69226a1a-7d6a-40bb-bec5-46cc7afeb918" /></p>
 
-</translate-content>
+
+
 
 
 ---

@@ -1,4 +1,5 @@
-<translate-content>[![CI - Tests, Linting](https://github.com/vet-run/vet/actions/workflows/ci.yml/badge.svg)](https://github.com/vet-run/vet/actions/workflows/ci.yml)
+﻿
+[![CI - Tests, Linting](https://github.com/vet-run/vet/actions/workflows/ci.yml/badge.svg)](https://github.com/vet-run/vet/actions/workflows/ci.yml)
 
 `vet` is a command-line tool that acts as a safety net for the common but risky `curl | bash` pattern. It lets you inspect remote scripts for changes, run them through a linter, and require your explicit approval before they can execute.
 
@@ -9,7 +10,8 @@
 ## The Problem
 
 We've all seen this pattern for installing software:
-</translate-content>
+
+
 ```bash
 # This is convenient, but you're blindly trusting the remote script.
 curl -sSL https://example.com/install.sh | bash

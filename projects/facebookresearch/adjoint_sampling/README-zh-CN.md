@@ -1,4 +1,5 @@
-<translate-content># 伴随采样
+﻿
+# 伴随采样
 
 本仓库包含伴随采样：通过伴随匹配实现高度可扩展扩散采样器的官方实现和实验。
 
@@ -19,9 +20,11 @@
 micromamba env create -f environment.yml
 micromamba activate adjoint_sampling
 ```
-<translate-content>
+
+
 要针对能量模型进行训练，您需要我们[Hugging Face仓库](https://huggingface.co/facebook/adjoint_sampling)中的[eSEN](https://arxiv.org/abs/2502.12147)检查点。只要您为`huggingface-cli`提供了[令牌](https://huggingface.co/settings/tokens)，运行代码时它将自动下载。您必须先[申请访问该仓库](https://huggingface.co/facebook/adjoint_sampling)，令牌才能生效。
-</translate-content>
+
+
 ```bash
 huggingface-cli login
 ```
@@ -39,8 +42,10 @@ huggingface-cli login
 ```bash
 python download_models.py
 ```
-<translate-content>
-模型下载完成后，您可以复制路径以用于评估或您自己的项目。检查点可以通过以下方式识别：</translate-content>
+
+
+模型下载完成后，您可以复制路径以用于评估或您自己的项目。检查点可以通过以下方式识别：
+
 ```
 Cartesian AdjSampling             -   models/am/checkpoints/checkpoint_4999.pt
 Cartesian AdjSampling (+pretrain) -   models/bmam/checkpoints/checkpoint_4999.pt
@@ -81,11 +86,13 @@ python train.py experiment=spice_cartesian_bmam init_model=???
 ```bash
 python train.py experiment=spice_torsion
 ```
-<translate-content>
+
+
 
 ## 评估
 要评估训练好的模型，请使用 `eval.py`。报告的结果将 `max_n_refs` 设置为 512。
-</translate-content>
+
+
 ```bash
 python eval.py \
 --test_mols data/spice_test.txt \
@@ -94,14 +101,16 @@ python eval.py \
 --checkpoint_path path/to/checkpoint.pt \
 --max_n_refs 512
 ```
-<translate-content>
+
+
 也可以以分布式方式进行评估，查看 `eval_distributed.sh`。
 
 
 ## 📚 引用
 
 如果您在研究或项目中发现此代码有用，请考虑引用我们的研究论文：
-</translate-content>
+
+
 ```bibtex
 @article{adjoint_sampling,
   title={{A}djoint {S}ampling: Highly Scalable Diffusion Samplers via {A}djoint {M}atching},

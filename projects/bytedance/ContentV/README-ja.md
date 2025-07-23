@@ -1,4 +1,5 @@
-<translate-content># ContentV: 限られた計算リソースでの効率的な動画生成モデルのトレーニング
+﻿
+# ContentV: 限られた計算リソースでの効率的な動画生成モデルのトレーニング
 
 <div align="center">
 <p align="center">
@@ -55,7 +56,8 @@
 - GPU: torch >= 2.3.1 (CUDA >= 12.2)
 
 #### インストール
-</translate-content>
+
+
 ```bash
 git clone https://github.com/bytedance/ContentV.git
 cd ContentV

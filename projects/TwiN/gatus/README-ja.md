@@ -1,4 +1,5 @@
-<translate-content>[![Gatus](https://raw.githubusercontent.com/TwiN/gatus/master/.github/assets/logo-with-dark-text.png)](https://gatus.io)
+﻿
+[![Gatus](https://raw.githubusercontent.com/TwiN/gatus/master/.github/assets/logo-with-dark-text.png)](https://gatus.io)
 
 ![test](https://github.com/TwiN/gatus/actions/workflows/test.yml/badge.svg)
 [![Go Report Card](https://goreportcard.com/badge/github.com/TwiN/gatus?)](https://goreportcard.com/report/github.com/TwiN/gatus)
@@ -18,7 +19,8 @@ _マネージドソリューションをお探しですか？[Gatus.io](https://
 
 <details>
   <summary><b>クイックスタート</b></summary>
-</translate-content>
+
+
 
 ```console
 docker run -p 8080:8080 --name gatus twinproduction/gatus:stable
@@ -175,10 +177,12 @@ GitHub Container Registry を使用することもできます:
 ```console
 docker run -p 8080:8080 --name gatus ghcr.io/twin/gatus
 ```
-<translate-content>独自の設定を作成したい場合は、設定ファイルのマウント方法については [Docker](#docker) を参照してください。
+
+独自の設定を作成したい場合は、設定ファイルのマウント方法については [Docker](#docker) を参照してください。
 </details>
 
-簡単な例を示します：</translate-content>
+簡単な例を示します：
+
 ```yaml
 endpoints:
   - name: website                 # Name of your endpoint, can be anything
@@ -465,11 +469,13 @@ client:
   ignore-redirect: false
   timeout: 10s
 ```
-<translate-content>
+
+
 この設定は `endpoints[]`、`alerting.mattermost`、および `alerting.custom` の下でのみ利用可能であることに注意してください。
 
 以下は `endpoints[]` の下にクライアント設定がある例です：
-</translate-content>
+
+
 ```yaml
 endpoints:
   - name: website
@@ -971,7 +977,8 @@ endpoints:
         description: "healthcheck failed"
         send-on-resolved: true
 ```
-<translate-content>
+
+
 通知の例は以下の通りです：
 
 ![Gotifyの通知](https://raw.githubusercontent.com/TwiN/gatus/master/.github/assets/gotify-alerts.png)
@@ -979,7 +986,8 @@ endpoints:
 
 #### HomeAssistantアラートの設定
 HomeAssistantアラートを設定するには、設定ファイルに以下を追加する必要があります：
-</translate-content>
+
+
 ```yaml
 alerting:
   homeassistant:
@@ -1000,7 +1008,8 @@ endpoints:
         failure-threshold: 3
         success-threshold: 2
 ```
-<translate-content>
+
+
 アラートは `gatus_alert` イベントタイプとして HomeAssistant にイベントとして送信されます。イベントデータには以下が含まれます：
 - `status`: 「triggered」または「resolved」
 - `endpoint`: 監視対象のエンドポイント名
@@ -1017,7 +1026,8 @@ endpoints:
 - その他多数
 
 HomeAssistant オートメーションの例：
-</translate-content>
+
+
 ```yaml
 automation:
   - alias: "Gatus Alert Handler"
@@ -1078,7 +1088,8 @@ endpoints:
         description: "healthcheck failed"
         send-on-resolved: true
 ```
-<translate-content>必要なアラートソースの設定IDと認証トークンを取得するには、HTTPアラートソースを設定する必要があります。
+
+必要なアラートソースの設定IDと認証トークンを取得するには、HTTPアラートソースを設定する必要があります。
 
 > **_注意:_** ソース設定IDは `https://api.incident.io/v2/alert_events/http/$ID` の形式であり、トークンは以下のようにベアラートークンとして渡されることが期待されます：`Authorization: Bearer $TOKEN`
 
@@ -1094,7 +1105,8 @@ endpoints:
 | `alerting.jetbrainsspace.overrides`         | デフォルト設定より優先される可能性のあるオーバーライドのリスト                            | `[]`            |
 | `alerting.jetbrainsspace.overrides[].group` | この設定により上書きされるエンドポイントグループ                                        | `""`            |
 | `alerting.jetbrainsspace.overrides[].*`     | `alerting.jetbrainsspace.*` パラメータを参照                                            | `{}`            |
-</translate-content>
+
+
 ```yaml
 alerting:
   jetbrainsspace:
@@ -1715,8 +1727,10 @@ endpoints:
         send-on-resolved: true
         description: "health check failed"
 ```
-<translate-content>
-`[ALERT_TRIGGERED_OR_RESOLVED]` プレースホルダーの解決済み値は、次のようにカスタマイズできることに注意してください：</translate-content>
+
+
+`[ALERT_TRIGGERED_OR_RESOLVED]` プレースホルダーの解決済み値は、次のようにカスタマイズできることに注意してください：
+
 ```yaml
 alerting:
   custom:
@@ -1754,8 +1768,10 @@ alerting:
       failure-threshold: 5
       success-threshold: 5
 ```
-<translate-content>
-その結果、あなたのGatusの設定はずっと整然と見えます：</translate-content>
+
+
+その結果、あなたのGatusの設定はずっと整然と見えます：
+
 ```yaml
 endpoints:
   - name: example
@@ -1772,7 +1788,8 @@ endpoints:
     alerts:
       - type: slack
 ```
-これにより、次のようなことも可能になります：</translate-content>
+これにより、次のようなことも可能になります：
+
 
 ```yaml
 endpoints:
@@ -1788,7 +1805,8 @@ endpoints:
       - type: slack
         failure-threshold: 15
 ```
-もちろん、アラートタイプを混在させることもできます：</translate-content>
+もちろん、アラートタイプを混在させることもできます：
+
 
 ```yaml
 alerting:
@@ -2004,15 +2022,19 @@ DockerでGatusをローカルで実行するには：
 ```console
 docker run -p 8080:8080 --name gatus twinproduction/gatus
 ```
-<translate-content>
+
+
 [.examples](.examples)フォルダーにある例のいずれかを使用する以外に、
 設定ファイルを作成してローカルで試すこともできます。ここでは例として`config.yaml`と呼び、
-次のコマンドを実行します：</translate-content>
+次のコマンドを実行します：
+
 ```console
 docker run -p 8080:8080 --mount type=bind,source="$(pwd)"/config.yaml,target=/config/config.yaml --name gatus twinproduction/gatus
 ```
-<translate-content>
-Windowsを使用している場合は、`"$(pwd)"` を現在のディレクトリの絶対パスに置き換えてください。例：</translate-content>
+
+
+Windowsを使用している場合は、`"$(pwd)"` を現在のディレクトリの絶対パスに置き換えてください。例：
+
 ```console
 docker run -p 8080:8080 --mount type=bind,source=C:/Users/Chris/Desktop/config.yaml,target=/config/config.yaml --name gatus twinproduction/gatus
 ```
@@ -2021,20 +2043,23 @@ docker run -p 8080:8080 --mount type=bind,source=C:/Users/Chris/Desktop/config.y
 ```console
 docker build . -t twinproduction/gatus
 ```
-<translate-content>
+
+
 
 ### Helm チャート
 チャートを使用するには[Helm](https://helm.sh)をインストールする必要があります。
 開始するにはHelmの[ドキュメント](https://helm.sh/docs/)を参照してください。
 
 Helmが適切に設定されたら、リポジトリを次のように追加します：
-</translate-content>
+
+
 ```console
 helm repo add twin https://twin.github.io/helm-charts
 helm repo update
 helm install gatus twin/gatus
 ```
-<translate-content>
+
+
 詳細については、[チャートの設定](https://github.com/TwiN/helm-charts/blob/master/charts/gatus/README.md)をご確認ください。
 
 
@@ -2042,11 +2067,13 @@ helm install gatus twin/gatus
 Gatusは以下のモジュールを使用してTerraform上にデプロイできます: [terraform-kubernetes-gatus](https://github.com/TwiN/terraform-kubernetes-gatus).
 
 
-## テストの実行</translate-content>
+## テストの実行
+
 ```console
 go test -v ./...
 ```
-<translate-content>
+
+
 
 ## 本番環境での使用
 [Deployment](#deployment) セクションを参照してください。
@@ -2056,7 +2083,8 @@ go test -v ./...
 ### GraphQLリクエストの送信
 `endpoints[].graphql` を true に設定すると、ボディは自動的に標準の GraphQL `query` パラメータでラップされます。
 
-例えば、以下の設定：</translate-content>
+例えば、以下の設定：
+
 ```yaml
 endpoints:
   - name: filter-users-by-gender
@@ -2133,7 +2161,8 @@ endpoints:
     conditions:
       - "[CONNECTED] == true"
 ```
-<translate-content>`endpoints[].body` が設定されている場合、それが送信され、レスポンスの最初の1024バイトが `[BODY]` に含まれます。
+
+`endpoints[].body` が設定されている場合、それが送信され、レスポンスの最初の1024バイトが `[BODY]` に含まれます。
 
 プレースホルダー `[STATUS]` およびフィールド `endpoints[].headers`、
 `endpoints[].method`、`endpoints[].graphql` は TCP エンドポイントではサポートされていません。
@@ -2145,7 +2174,8 @@ endpoints:
 
 
 ### UDP エンドポイントの監視
-`endpoints[].url` に `udp://` をプレフィックスとして付けることで、UDP エンドポイントを非常に基本的なレベルで監視できます：</translate-content>
+`endpoints[].url` に `udp://` をプレフィックスとして付けることで、UDP エンドポイントを非常に基本的なレベルで監視できます：
+
 
 ```yaml
 endpoints:
@@ -2172,7 +2202,8 @@ endpoints:
     conditions:
       - "[CONNECTED] == true"
 ```
-<translate-content>
+
+
 プレースホルダー `[STATUS]` および `[BODY]` と、フィールド `endpoints[].body`、`endpoints[].headers`、  
 `endpoints[].method` および `endpoints[].graphql` は SCTP エンドポイントではサポートされていません。  
 
@@ -2181,7 +2212,8 @@ endpoints:
 
 ### WebSocket エンドポイントの監視  
 `endpoints[].url` の先頭に `ws://` または `wss://` を付けることで、非常に基本的なレベルで WebSocket エンドポイントを監視できます：
-</translate-content>
+
+
 ```yaml
 endpoints:
   - name: example
@@ -2207,7 +2239,8 @@ endpoints:
     conditions:
       - "[CONNECTED] == true"
 ```
-<translate-content>
+
+
 ICMPタイプのエンドポイントでは、プレースホルダー `[CONNECTED]`、`[IP]`、および `[RESPONSE_TIME]` のみがサポートされています。  
 `icmp://` を前置したドメイン名、または `icmp://` を前置したIPアドレスを指定できます。  
 
@@ -2216,7 +2249,8 @@ Linux上でGatusを実行する場合は、問題が発生した際に https://g
 
 ### DNSクエリを使用したエンドポイントの監視  
 エンドポイントに `dns` 設定を定義すると、そのエンドポイントは自動的にDNSタイプのエンドポイントとしてマークされます：
-</translate-content>
+
+
 ```yaml
 endpoints:
   - name: example-dns-query
@@ -2228,7 +2262,8 @@ endpoints:
       - "[BODY] == 93.184.215.14"
       - "[DNS_RCODE] == NOERROR"
 ```
-<translate-content>
+
+
 DNSタイプのエンドポイントの条件で使用できるプレースホルダーが2つあります：
 - プレースホルダー`[BODY]`はクエリの出力に解決されます。例えば、タイプ`A`のクエリはIPv4を返します。
 - プレースホルダー`[DNS_RCODE]`はクエリが返すレスポンスコードに関連付けられた名前に解決されます。例として
@@ -2236,7 +2271,8 @@ DNSタイプのエンドポイントの条件で使用できるプレースホ�
 
 
 ### SSHを使ったエンドポイントの監視
-`endpoints[].url`の先頭に`ssh://`を付けることで、SSHを使ったエンドポイントの監視が可能です：</translate-content>
+`endpoints[].url`の先頭に`ssh://`を付けることで、SSHを使ったエンドポイントの監視が可能です：
+
 ```yaml
 endpoints:
   - name: ssh-example
@@ -2253,10 +2289,12 @@ endpoints:
       - "[CONNECTED] == true"
       - "[STATUS] == 0"
 ```
-<translate-content>
+
+
 ユーザー名とパスワードのフィールドを指定しないことで、
 認証なしでエンドポイントを監視することもできます。
-</translate-content>
+
+
 ```yaml
 endpoints:
   - name: ssh-example
@@ -2270,7 +2308,8 @@ endpoints:
       - "[CONNECTED] == true"
       - "[STATUS] == 0"
 ```
-<translate-content>
+
+
 SSHタイプのエンドポイントに対して以下のプレースホルダーがサポートされています：
 - `[CONNECTED]` はSSH接続が成功した場合に`true`、それ以外は`false`に解決されます
 - `[STATUS]` はリモートサーバーで実行されたコマンドの終了コードに解決されます（例：成功の場合は`0`）
@@ -2279,7 +2318,8 @@ SSHタイプのエンドポイントに対して以下のプレースホルダ�
 ### STARTTLSを使用したエンドポイントの監視
 問題がないことを確認したいメールサーバーがある場合、STARTTLSによる監視は
 良い初期指標として機能します：
-</translate-content>
+
+
 ```yaml
 endpoints:
   - name: starttls-smtp-example
@@ -2306,7 +2346,8 @@ endpoints:
       - "[CONNECTED] == true"
       - "[CERTIFICATE_EXPIRATION] > 48h"
 ```
-<translate-content>
+
+
 `endpoints[].body` が設定されている場合、それが送信され、レスポンスの最初の1024バイトが `[BODY]` に含まれます。
 
 プレースホルダー `[STATUS]` およびフィールド `endpoints[].headers`、
@@ -2316,7 +2357,8 @@ endpoints:
 ### ドメインの有効期限の監視
 DNS を除くすべてのエンドポイントタイプで、`[DOMAIN_EXPIRATION]`
 プレースホルダーを使用してドメインの有効期限を監視できます：
-</translate-content>
+
+
 ```yaml
 endpoints:
   - name: check-domain-and-certificate-expiration
@@ -2360,7 +2402,8 @@ Gatus 実行中に設定ファイルを更新した際は、ログを確認し�
 ```
 The configuration file was updated, but it is not valid. The old configuration will continue being used.
 ```
-<translate-content>アプリケーションが何らかの理由で再起動された場合、Gatusが起動できなくなる可能性があります。
+
+アプリケーションが何らかの理由で再起動された場合、Gatusが起動できなくなる可能性があります。
 
 このような状況を避けるために、`skip-invalid-config-update`を`true`に設定しないことをお勧めしますが、最終的な判断はあなた次第です。
 
@@ -2371,7 +2414,8 @@ The configuration file was updated, but it is not valid. The old configuration w
 
 ### エンドポイントグループ
 エンドポイントグループは、ダッシュボード上で複数のエンドポイントをまとめるために使用されます。
-</translate-content>
+
+
 
 
 ```yaml
@@ -2428,9 +2472,11 @@ endpoints:
 web:
   port: 8081
 ```
-<translate-content>
+
+
 Herokuのようにカスタムポートの設定を許可せず、環境変数を通じてポートを公開するPaaSを使用している場合、
-その環境変数を設定ファイル内で直接使用できます：</translate-content>
+その環境変数を設定ファイル内で直接使用できます：
+
 ```yaml
 web:
   port: ${PORT}
@@ -2475,12 +2521,14 @@ endpoints:
       - "[STATUS] == 200"
       - "[BODY].status == UP"
 ```
-<translate-content></details>
+
+</details>
 
 
 ### プロキシクライアントの設定
 クライアントの設定で `proxy-url` パラメータを設定することで、クライアントが使用するプロキシを構成できます。
-</translate-content>
+
+
 ```yaml
 endpoints:
   - name: website
@@ -2523,7 +2571,8 @@ Where:
 - `{key}` は `<GROUP_NAME>_<ENDPOINT_NAME>` のパターンで、両方の変数は ` `、`/`、`_`、`,`、`.`、`#` が `-` に置き換えられます
 
 例えば、グループ `core` のエンドポイント `frontend` の過去24時間の稼働時間を取得したい場合、
-URLは次のようになります:</translate-content>
+URLは次のようになります:
+
 ```
 https://example.com/api/v1/endpoints/core_frontend/uptimes/7d/badge.svg
 ```
@@ -2535,21 +2584,25 @@ https://example.com/api/v1/endpoints/_frontend/uptimes/7d/badge.svg
 ```
 ![Uptime 24h](https://status.twin.sh/api/v1/endpoints/core_blog-external/uptimes/24h/badge.svg)
 ```
-<translate-content>各バッジの視覚的な例を見たい場合は、エンドポイントの詳細ページに移動するだけです。
+
+各バッジの視覚的な例を見たい場合は、エンドポイントの詳細ページに移動するだけです。
 
 
 #### ヘルス
 ![ヘルス](https://status.twin.sh/api/v1/endpoints/core_blog-external/health/badge.svg)
 
-バッジを生成するパスは次のとおりです：</translate-content>
+バッジを生成するパスは次のとおりです：
+
 ```
 /api/v1/endpoints/{key}/health/badge.svg
 ```
-<translate-content>ここで：
+
+ここで：
 - `{key}` は `<GROUP_NAME>_<ENDPOINT_NAME>` というパターンで、両方の変数は ` `、`/`、`_`、`,`、`.`、および `#` が `-` に置き換えられます。
 
 例えば、グループ `core` のエンドポイント `frontend` の現在の状態を取得したい場合、
-URL は次のようになります：</translate-content>
+URL は次のようになります：
+
 ```
 https://example.com/api/v1/endpoints/core_frontend/health/badge.svg
 ```
@@ -2562,11 +2615,13 @@ https://example.com/api/v1/endpoints/core_frontend/health/badge.svg
 ```
 /api/v1/endpoints/{key}/health/badge.shields
 ```
-<translate-content>場所：
+
+場所：
 - `{key}` は `<GROUP_NAME>_<ENDPOINT_NAME>` のパターンで、両方の変数の ` `、`/`、`_`、`,`、`.`、および `#` が `-` に置き換えられています。
 
 例えば、グループ `core` のエンドポイント `frontend` の現在のステータスを取得したい場合、
-URL は次のようになります：</translate-content>
+URL は次のようになります：
+
 ```
 https://example.com/api/v1/endpoints/core_frontend/health/badge.shields
 ```
@@ -2597,7 +2652,8 @@ Where:
 ```
 /api/v1/endpoints/{key}/response-times/{duration}/chart.svg
 ```
-<translate-content>次のように:
+
+次のように:
 - `{duration}` は `30d`、`7d`、または `24h`
 - `{key}` は `<GROUP_NAME>_<ENDPOINT_NAME>` というパターンで、両変数の ` `、`/`、`_`、`,`、`.`、および `#` は `-` に置換されます。
 
@@ -2605,7 +2661,8 @@ Where:
 応答時間バッジの閾値を変更するには、対応する設定をエンドポイントに追加できます。
 配列内の値はレベル [Awesome, Great, Good, Passable, Bad] に対応します。
 5つの値すべてをミリ秒（ms）で指定する必要があります。
-</translate-content>
+
+
 ```yaml
 endpoints:
 - name: nas
@@ -2650,11 +2707,13 @@ Gatusは監視対象のエンドポイントの生データを公開します。
 ```
 /api/v1/endpoints/{key}/uptimes/{duration}
 ```
-<translate-content>ここで：
+
+ここで：
 - `{duration}` は `30d`、`7d`、`24h`、または `1h` です
 - `{key}` は `<GROUP_NAME>_<ENDPOINT_NAME>` のパターンで、両方の変数内の ` `、`/`、`_`、`,`、`.`、および `#` は `-` に置き換えられます。
 
-例えば、グループ `core` のエンドポイント `frontend` から過去24時間の生の稼働時間データを取得したい場合、URLは次のようになります：</translate-content>
+例えば、グループ `core` のエンドポイント `frontend` から過去24時間の生の稼働時間データを取得したい場合、URLは次のようになります：
+
 ```
 https://example.com/api/v1/endpoints/core_frontend/uptimes/24h
 ```
@@ -2673,7 +2732,8 @@ Where:
 https://example.com/api/v1/endpoints/core_frontend/response-times/24h
 ```
 ### バイナリとしてのインストール
-次のコマンドを使用して、Gatusをバイナリとしてダウンロードできます：</translate-content>
+次のコマンドを使用して、Gatusをバイナリとしてダウンロードできます：
+
 
 ```
 go install github.com/TwiN/gatus/v5@latest

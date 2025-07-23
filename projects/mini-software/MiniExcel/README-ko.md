@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
 <a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Build status"></a>
 <a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
@@ -506,11 +506,13 @@ v0.19.0부터 `OpenXmlConfiguration.AutoFilter`로 자동 필터(AutoFilter)를 
 ```csharp
 MiniExcel.SaveAs(path, value, configuration: new OpenXmlConfiguration() { AutoFilter = false });
 ```
-<translate-content>
+
+
 
 
 #### 10. 이미지 생성
-</translate-content>
+
+
 ```csharp
 var value = new[] {
     new { Name="github",Image=File.ReadAllBytes(PathHelper.GetFile("images/github_logo.png"))},
@@ -548,7 +550,9 @@ var path = @"../../../../../samples/xlsx/TestMergeWithTag.xlsx";
 
 MiniExcel.MergeSameCells(mergedFilePath, path);
 ```
-<translate-content></translate-content>
+
+
+
 ```csharp
 var memoryStream = new MemoryStream();
 
@@ -736,7 +740,8 @@ var value = new Dictionary<string, object>()
 };
 MiniExcel.SaveAsByTemplate(path, templatePath, value);
 ```
-<translate-content>
+
+
 
 
 #### 3. 복잡한 데이터 채우기
@@ -750,7 +755,8 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 결과:
 
 ![image](https://user-images.githubusercontent.com/12729184/114565329-bf6b1380-9ca3-11eb-85e3-3969e8bf6378.png)
-</translate-content>
+
+
 ```csharp
 // 1. By POCO
 var value = new
@@ -819,9 +825,11 @@ public class Poco
     public Guid? Guid { get; set; }
 }
 ```
-<translate-content>
+
+
 코드
-</translate-content>
+
+
 ```csharp
 var poco = new TestIEnumerableTypePoco { @string = "string", @int = 123, @decimal = decimal.Parse("123.45"), @double = (double)123.33, @datetime = new DateTime(2021, 4, 1), @bool = true, @Guid = Guid.NewGuid() };
 var value = new
@@ -1034,7 +1042,8 @@ Assert.Null(rows[0].Test5);
 Assert.Null(rows[0].Test6);
 Assert.Equal("Test4", rows[0].Test7);
 ```
-<translate-content>
+
+
 
 
 
@@ -1044,7 +1053,8 @@ Assert.Equal("Test4", rows[0].Test7);
 V0.21.0부터 `ToString(string content)` 메서드를 포함하는 클래스를 지원하는 형식
 
 클래스
-</translate-content>
+
+
 ```csharp
 public class Dto
 {
@@ -1054,9 +1064,11 @@ public class Dto
     public DateTime InDate { get; set; }
 }
 ```
-<translate-content>
+
+
 코드
-</translate-content>
+
+
 ```csharp
 var value = new Dto[] {
     new Issue241Dto{ Name="Jack",InDate=new DateTime(2021,01,04)},
@@ -1095,13 +1107,15 @@ public class Dto
     public string Name { get; set; }
 }
 ```
-<translate-content>
+
+
 
 
 #### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
 1.24.0 버전부터 시스템은 System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute를 지원합니다.
-</translate-content>
+
+
 ```C#
 public class TestIssueI4TXGTDto
 {
@@ -1261,7 +1275,8 @@ stream.Query(excelType:ExcelType.CSV);
 //or
 stream.Query(excelType:ExcelType.XLSX);
 ```
-<translate-content>
+
+
 
 
 
@@ -1277,7 +1292,8 @@ stream.Query(excelType:ExcelType.XLSX);
 #### 커스텀 구분자
 
 기본 구분자는 `,` 이며, 커스터마이징을 위해 `Seperator` 속성을 수정할 수 있습니다.
-</translate-content>
+
+
 ```csharp
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
 {
@@ -1296,13 +1312,15 @@ var config = new CsvConfiguration()
 };
 var rows = MiniExcel.Query(path, configuration: config).ToList();
 ```
-<translate-content>
+
+
 
 
 #### 사용자 지정 줄 바꿈
 
 기본값은 줄 바꿈 문자로 `\r\n` 이며, `NewLine` 속성을 수정하여 사용자 정의할 수 있습니다.
-</translate-content>
+
+
 ```csharp
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
 {
@@ -1363,13 +1381,15 @@ var config = new MiniExcelLibs.Csv.CsvConfiguration()
         }
     }
 ```
-<translate-content>
+
+
 
 
 ###  비동기
 
 - v0.17.0에서 비동기 지원 (감사합니다: isdaniel ( SHIH,BING-SIOU)](https://github.com/isdaniel))
-</translate-content>
+
+
 ```csharp
 public static Task SaveAsAsync(string path, object value, bool printHeader = true, string sheetName = "Sheet1", ExcelType excelType = ExcelType.UNKNOWN, IConfiguration configuration = null)
 public static Task SaveAsAsync(this Stream stream, object value, bool printHeader = true, string sheetName = "Sheet1", ExcelType excelType = ExcelType.XLSX, IConfiguration configuration = null)
@@ -1693,13 +1713,15 @@ memoryStream.Seek(0, SeekOrigin.Begin);
 memoryStream.CopyTo(Response.OutputStream);
 response.End();
 ```
-<translate-content>
+
+
 
 
 #### 5. 동적 i18n 다국어 및 역할 권한 관리
 
 예시와 같이, i18n 및 권한 관리를 처리하는 메서드를 만들고, `yield return을 사용하여 IEnumerable<Dictionary<string, object>>`를 반환함으로써 동적이고 메모리 사용이 적은 처리 효과를 얻을 수 있습니다.
-</translate-content>
+
+
 ```csharp
 void Main()
 {
@@ -1892,11 +1914,13 @@ public static IEnumerable<dynamic> QueryWithoutEmptyRow(Stream stream, bool useH
     }
 }
 ```
-<translate-content>
+
+
 
 
 데이터테이블 :
-</translate-content>
+
+
 ```csharp
 public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useHeaderRow, string sheetName, ExcelType excelType, string startCell, IConfiguration configuration)
 {
@@ -1939,27 +1963,32 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
     return dt;
 }
 ```
-<translate-content>
+
+
 
 
 #### Q. SaveAs(path,value)를 사용하여 기존 파일을 덮어쓰고 "The file ...xlsx already exists error" 오류 없이 저장하려면 어떻게 해야 하나요?
 
 
 Stream 클래스를 사용하여 파일 생성 로직을 직접 구현하세요. 예시:
-</translate-content>
+
+
 ```C#
     using (var stream = File.Create("Demo.xlsx"))
         MiniExcel.SaveAs(stream,value);
 ```
-<translate-content>
+
+
 
 
 또는 V1.25.0부터 SaveAs는 overwriteFile 매개변수를 지원하여 기존 파일 덮어쓰기를 활성화/비활성화할 수 있습니다.
-</translate-content>
+
+
 ```csharp
     MiniExcel.SaveAs(path, value, overwriteFile: true);
 ```
-<translate-content>
+
+
 
 
 
@@ -1992,7 +2021,8 @@ Stream 클래스를 사용하여 파일 생성 로직을 직접 구현하세요.
 ### 기여자
 
 ![](https://contrib.rocks/image?repo=mini-software/MiniExcel)
-</translate-content>
+
+
 
 ---
 

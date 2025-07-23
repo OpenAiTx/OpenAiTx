@@ -1,4 +1,5 @@
-<translate-content># FastVLM: 비전 언어 모델을 위한 효율적인 비전 인코딩
+﻿
+# FastVLM: 비전 언어 모델을 위한 효율적인 비전 인코딩
 
 이곳은
 **[FastVLM: 비전 언어 모델을 위한 효율적인 비전 인코딩](https://www.arxiv.org/abs/2412.13303). (CVPR 2025)**의 공식 저장소입니다.
@@ -27,7 +28,8 @@
 [LLaVA](https://github.com/haotian-liu/LLaVA) 코드베이스에서 제공하는 지침을 따라 주십시오.
 우리 모델로 추론을 실행하는 방법도 안내합니다.   
 
-### 설정</translate-content>
+### 설정
+
 ```bash
 conda create -n fastvlm python=3.10
 conda activate fastvlm

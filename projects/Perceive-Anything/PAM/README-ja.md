@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 <h1>
 何でも認識：画像と動画のあらゆるものを認識、説明、キャプション付け、セグメント化（PAM）
 </h1>
@@ -51,7 +51,8 @@ CUHK、HKU、PolyU、北京大学
 
 ## インストール
 
-1. このリポジトリをクローンし、ベースフォルダに移動します</translate-content>
+1. このリポジトリをクローンし、ベースフォルダに移動します
+
 
 ```bash
 git clone https://github.com/Afeng-x/PAM.git

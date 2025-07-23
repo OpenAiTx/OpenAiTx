@@ -1,4 +1,5 @@
-<translate-content># 클래스 인포머
+﻿
+# 클래스 인포머
 원본 classinformer를 사용하세요 (아래 URL 참조).  
 https://github.com/kweatherman/IDA_ClassInformer_PlugIn
 
@@ -20,7 +21,8 @@ IDA Pro 9 및 8용 IDA Class Informer 플러그인입니다. 이는 [원본 clas
 
 ## 다운로드
 - 컴파일된 바이너리는 [Releases](../../releases) 섹션에서 다운로드할 수 있습니다.
-</translate-content>
+
+
 
 ---
 

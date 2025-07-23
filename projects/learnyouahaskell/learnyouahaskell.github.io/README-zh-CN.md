@@ -1,4 +1,5 @@
-<translate-content>[![网站 shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://learnyouahaskell.github.io/)
+﻿
+[![网站 shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://learnyouahaskell.github.io/)
 [![页面构建部署](https://github.com/learnyouahaskell/learnyouahaskell.github.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/learnyouahaskell/learnyouahaskell.github.io/actions/workflows/pages/pages-build-deployment)
 
 **维护者：** [Stanislav Modrak](https://github.com/smith558)，如想成为维护者请通过 [这里](https://stanislav.gq/) 发送邮件 🙂
@@ -40,7 +41,8 @@
 
 ##
 本作品采用 [知识共享署名-非商业性使用-相同方式共享 3.0 国际许可协议](http://creativecommons.org/licenses/by-nc-sa/3.0/) 许可。
-</translate-content>
+
+
 
 ---
 

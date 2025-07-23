@@ -1,4 +1,5 @@
-<translate-content># 언버셀드 Next.js
+﻿
+# 언버셀드 Next.js
 
 > OpenNext를 사용하여 Cloudflare Workers에 배포된 툴링이 강력한 Next.js 15 스타터 킷 템플릿입니다.
 
@@ -34,7 +35,8 @@
 
 - 메인 브랜치에 새 커밋이 있을 때 자동으로 애플리케이션을 배포하려면 [Cloudflare Workers Builds](https://developers.cloudflare.com/workers/ci-cd/builds/)를 사용할 수 있습니다.
 - 이미지 최적화를 위한 커스텀 로더로 Cloudflare Images를 사용할 수 있습니다 [문서](https://opennext.js.org/cloudflare/howtos/image)
-</translate-content>
+
+
 
 ---
 

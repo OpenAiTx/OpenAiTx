@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 Dil</summary>
     <div>
@@ -259,7 +259,9 @@ Ayrıca, QR kodunu tarayarak wechat grubumuza katılabilir veya wechat resmi hes
       year={2025}
 }
 ```
-<translate-content></translate-content>
+
+
+
 
 ---
 

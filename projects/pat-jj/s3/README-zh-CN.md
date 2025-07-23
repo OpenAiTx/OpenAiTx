@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 语言</summary>
     <div>
@@ -103,11 +103,13 @@ pip install transformers datasets pyserini
 conda install -c pytorch -c nvidia faiss-gpu=1.8.0
 pip install uvicorn fastapi
 ```
-<translate-content>
+
+
 
 
 ## 💡 准备工作
-***下载索引和语料库***</translate-content>
+***下载索引和语料库***
+
 ```bash
 python scripts/download.py --save_path $save_path
 cat $save_path/part_* > $save_path/e5_Flat.index
@@ -149,11 +151,13 @@ bash scripts/deploy_retriever/retrieval_launch.sh
 # run s3 inference
 bash scripts/s3_inference/evaluate-8-3-3.sh
 ```
-<translate-content>
+
+
 <details>
 <summary>基线</summary>
 
-**RAG**</translate-content>
+**RAG**
+
 ```bash
 bash scripts/deploy_retriever/retrieval_launch.sh # or retrieval_launch_bm25.sh # deploy retriever
 bash scripts/baselines/rag.sh # run RAG 
@@ -165,20 +169,26 @@ bash retrieval_launch_bm25.sh # deploy BM25 Model
 bash generator_llms/deepretrieval.sh # deploy DeepRetrieval Model
 bash scripts/baselines/deepretrieval.sh # run DeepRetrieval Query Rewriting + Retrieval
 ```
-<translate-content>
-**搜索-R1**</translate-content>
+
+
+**搜索-R1**
+
 ```bash
 bash retrieval_launch.sh # deploy e5 retriever
 bash scripts/baselines/search_r1.sh # run Search-R1
 ```
-<translate-content>
-**IRCoT**</translate-content>
+
+
+**IRCoT**
+
 ```bash
 bash retrieval_launch.sh # deploy e5 retriever
 python scripts/baselines/ircot.py
 ```
-<translate-content>
-**搜索-o1**</translate-content>
+
+
+**搜索-o1**
+
 ```bash
 bash retrieval_launch.sh # deploy e5 retriever
 bash scripts/baselines/search_o1.sh # run Search-o1
@@ -194,14 +204,16 @@ bash scripts/baselines/search_o1.sh # run Search-o1
 ```bash
 bash scripts/evaluation/run.sh
 ```
-<translate-content>
+
+
 
 ## 致谢
 我们要感谢以下项目：
 [verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).
  
 
-## 引用</translate-content>
+## 引用
+
 ```bibtex
 @article{jiang2025s3,
   title={s3: You Don't Need That Much Data to Train a Search Agent via RL},

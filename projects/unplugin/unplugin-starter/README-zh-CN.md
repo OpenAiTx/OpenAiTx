@@ -1,4 +1,5 @@
-<translate-content># unplugin-starter
+﻿
+# unplugin-starter
 
 [![NPM 版本](https://img.shields.io/npm/v/unplugin-starter?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-starter)
 
@@ -7,7 +8,8 @@
 ## 模板使用
 
 要使用此模板，请使用以下命令克隆：
-</translate-content>
+
+
 ```bash
 npx degit unplugin/unplugin-starter my-unplugin
 ```
@@ -24,10 +26,12 @@ npx degit unplugin/unplugin-starter my-unplugin
 ```bash
 npm i unplugin-starter
 ```
-<translate-content>
+
+
 <details>
 <summary>Vite</summary><br>
-</translate-content>
+
+
 ```ts
 // vite.config.ts
 import Starter from 'unplugin-starter/vite'
@@ -91,7 +95,8 @@ export default defineNuxtConfig({
 
 <details>
 <summary>Vue CLI</summary><br>
-</translate-content>
+
+
 
 ```ts
 // vue.config.js

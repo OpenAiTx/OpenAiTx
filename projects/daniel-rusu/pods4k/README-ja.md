@@ -1,4 +1,5 @@
-<translate-content># pods4k
+﻿
+# pods4k
 
 [![Maven Central][maven-central-badge]][maven-central-url]
 [![Licence][license-badge]][license-url]

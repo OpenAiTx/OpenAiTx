@@ -1,4 +1,5 @@
-<translate-content># 다이버전스미터
+﻿
+# 다이버전스미터
 실제 세계 뉴스를 분석하여 Steins;Gate 용어로 현재 세계의 다이버전스 값을 추정하려고 합니다.
 <div id="divergence-meter" style="cursor: pointer;">
   <img alt="Digit 0" class="digit" src="https://divergence.nyarchlinux.moe/images/11.gif" width="10%">

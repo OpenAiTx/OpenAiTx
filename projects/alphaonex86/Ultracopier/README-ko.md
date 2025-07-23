@@ -1,4 +1,5 @@
-<translate-content># 소개
+﻿
+# 소개
 
 [Ultracopier](https://ultracopier.herman-brule.com/)는 무료 오픈 소스
 소프트웨어로 GPLv3 라이선스를 적용받으며 파일 복사 대화상자의

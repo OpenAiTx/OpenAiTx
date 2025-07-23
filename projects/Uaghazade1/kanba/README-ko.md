@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 언어</summary>
     <div>
@@ -77,7 +77,8 @@ npm install
 ```
 2. `.env.local` 파일에서 환경 변수를 설정하세요
 
-3. 개발 서버를 실행하세요:</translate-content>
+3. 개발 서버를 실행하세요:
+
 
 ```bash
 npm run dev

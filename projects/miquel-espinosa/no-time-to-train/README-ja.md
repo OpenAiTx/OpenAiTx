@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 言語</summary>
     <div>
@@ -96,7 +96,8 @@
 
 ![cdfsod-results-final-comic-sans-min](https://github.com/user-attachments/assets/ab302c02-c080-4042-99fc-0e181ba8abb9)
 
-</translate-content>
+
+
 
 ## 🧠 アーキテクチャ
 
@@ -147,7 +148,8 @@ cd dinov2
 wget https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_pretrain.pth
 cd ../..
 ```
-<translate-content>
+
+
 
 ## 📊 推論コード
 
@@ -156,7 +158,8 @@ cd ../..
 ### Few-shot COCOで30ショットSOTA結果の再現
 
 有用な変数を定義し、結果用のフォルダを作成します：
-</translate-content>
+
+
 ```bash
 CONFIG=./no_time_to_train/new_exps/coco_fewshot_10shot_Sam2L.yaml
 CLASS_SPLIT="few_shot_classes"

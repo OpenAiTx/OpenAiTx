@@ -1,4 +1,5 @@
-<translate-content># 🧠 Proxy-Free LLM Web Search Engine
+﻿
+# 🧠 Proxy-Free LLM Web Search Engine
 
 A proxy-free multi-search engine LLM web retrieval tool that supports URL content parsing and web crawling, combined with LangGraph to implement modular intelligent agent workflows. Designed specifically for external knowledge invocation scenarios of large language models, supporting **Playwright + Crawl4AI** for web fetching and parsing, with asynchronous concurrency, content slicing, and reordering filtering.
 
@@ -33,7 +34,8 @@ A proxy-free multi-search engine LLM web retrieval tool that supports URL conten
 ## ⚡ Quick Start
 
 ### 1. Clone the Repository
-</translate-content>
+
+
 ```bash
 git clone https://github.com/itshyao/proxyless-llm-websearch.git
 cd proxyless-llm-websearch

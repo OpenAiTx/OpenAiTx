@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 言語</summary>
     <div>
@@ -103,11 +103,13 @@ pip install transformers datasets pyserini
 conda install -c pytorch -c nvidia faiss-gpu=1.8.0
 pip install uvicorn fastapi
 ```
-<translate-content>
+
+
 
 
 ## 💡 準備
-***インデックスとコーパスのダウンロード***</translate-content>
+***インデックスとコーパスのダウンロード***
+
 ```bash
 python scripts/download.py --save_path $save_path
 cat $save_path/part_* > $save_path/e5_Flat.index
@@ -199,7 +201,8 @@ bash scripts/evaluation/run.sh
 [verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).
  
 
-## 引用</translate-content>
+## 引用
+
 
 
 ```bibtex

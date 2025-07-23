@@ -1,4 +1,5 @@
-<translate-content># Boxer
+﻿
+# Boxer
 
 <p align="center">
   <p align="center">
@@ -41,7 +42,8 @@ Boxer offers a new solution by providing tooling for converting existing contain
 ### Dockerfile ➡ (Wasm)Box
 
 For for this file:
-</translate-content>
+
+
 ```Dockerfile
 FROM scratch
 RUN mkdir -p /app

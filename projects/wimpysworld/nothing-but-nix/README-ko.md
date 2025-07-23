@@ -1,4 +1,5 @@
-<translate-content># Nothing but Nix
+﻿
+# Nothing but Nix
 
 **사전 설치된 불필요한 요소를 철저히 제거하여 GitHub Actions 러너를 [Nix](https://zero-to-nix.com/concepts/nix/) ❄️ 강력한 환경으로 변신시키세요.**
 
@@ -8,7 +9,8 @@ GitHub Actions 러너는 Nix를 위한 저장 공간이 매우 부족하여 약 
 ## 사용법 🔧
 
 워크플로우에서 Nix를 설치하기 **전에** 이 액션을 추가하세요:
-</translate-content>
+
+
 ```yaml
 jobs:
   build:
@@ -128,7 +130,8 @@ Nix 저장소 토지 점유로부터 얼마나 많은 공간을 확보할지 사
     root-safe-haven: '3072'   # Reserve 3GB on the / filesystem
     mnt-safe-haven: '2048'    # Reserve 2GB on the /mnt filesystem
 ```
-<translate-content>
+
+
 이러한 안전 구역은 공간 회수 시 얼마나 많은 공간(MB 단위)을 관대하게 남길지 정의합니다:
 - 기본 `root-safe-haven`은 2048MB (2GB)입니다
 - 기본 `mnt-safe-haven`은 1024MB (1GB)입니다
@@ -138,7 +141,8 @@ Nix 저장소 토지 점유로부터 얼마나 많은 공간을 확보할지 사
 ### /nix 사용자 소유권 부여 (Nix 권한 명령) 🧑‍⚖️
 
 일부 Nix 설치 프로그램이나 설정은 현재 사용자가 `/nix` 디렉터리를 쓸 수 있기를 기대합니다. 기본적으로 `/nix`는 root가 소유합니다. 사용자 소유권이 필요할 경우(예: `/nix` 내 모든 작업에 `sudo`를 사용하지 않는 특정 Nix 설치 스크립트용) `nix-permission-edict`를 활성화할 수 있습니다:
-</translate-content>
+
+
 ```yaml
 - uses: wimpysworld/nothing-but-nix@main
   with:

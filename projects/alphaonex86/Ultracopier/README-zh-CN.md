@@ -1,4 +1,5 @@
-<translate-content># 关于
+﻿
+# 关于
 
 [Ultracopier](https://ultracopier.herman-brule.com/) 是一款免费且开源的软件，遵循 GPLv3 许可协议，作为文件复制对话框的替代品。
 
@@ -16,7 +17,8 @@
 - C++17 编译器（由于 Qt6.7）
 
 例如在基于 Debian 的发行版上：
-</translate-content>
+
+
 
 
 ```bash
@@ -38,7 +40,8 @@ make -j$(nproc)
 ```bash
 ./ultracopier
 ```
-<translate-content>
+
+
 # 翻译
 
 翻译通过 [Qt Linguist](http://doc.qt.io/qt-6/qtlinguist-index.html) 提供。
@@ -58,7 +61,8 @@ make -j$(nproc)
 该项目托管在 [Github](https://github.com/alphaonex86/Ultracopier)。
 在那里添加问题和合并请求！
 
-</translate-content>
+
+
 
 ---
 

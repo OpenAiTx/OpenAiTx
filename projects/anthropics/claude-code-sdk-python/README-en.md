@@ -1,9 +1,11 @@
-<translate-content># Claude Code SDK for Python
+﻿
+# Claude Code SDK for Python
 
 Python SDK for Claude Code. See the [Claude Code SDK documentation](https://docs.anthropic.com/en/docs/claude-code/sdk) for more information.
 
 ## Installation
-</translate-content>
+
+
 ```bash
 pip install claude-code-sdk
 ```

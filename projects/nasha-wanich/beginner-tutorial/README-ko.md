@@ -1,4 +1,5 @@
-<translate-content># 이미지 변경 팝업
+﻿
+# 이미지 변경 팝업
 
 버튼 클릭 시 이미지가 순차적으로 변경되는 맞춤형 인터랙티브 팝업
 
@@ -103,12 +104,14 @@ body {
   background-size: 100% auto; /* Adjust based on your background image dimensions (2093x1132px) */
 }
 ```
-<translate-content>
+
+
 
 ### 색상 및 스타일링
 
 모든 시각적 요소는 `style.css`의 `:root` 섹션에 있는 CSS 변수들을 통해 사용자 정의할 수 있습니다:
-</translate-content>
+
+
 ```css
 :root {
   /* Colors */

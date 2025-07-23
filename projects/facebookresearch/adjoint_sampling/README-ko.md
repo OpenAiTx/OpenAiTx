@@ -1,4 +1,5 @@
-<translate-content># 어조인트 샘플링
+﻿
+# 어조인트 샘플링
 
 이 저장소는 어조인트 샘플링: 어조인트 매칭을 통한 고확장성 확산 샘플러의 공식 구현 및 실험을 포함합니다.
 
@@ -13,7 +14,8 @@
 
 ## 설치
 
-의존성 설치.</translate-content>
+의존성 설치.
+
 
 ```bash
 micromamba env create -f environment.yml
@@ -59,10 +61,12 @@ Run the following commands on a single node with many cpus **before** starting t
 python cache_dataset.py
 python cache_dataset.py --learn_torsions
 ```
-<translate-content>
+
+
 저희 저장소는 공유 파일이 `shared_dir`로 알려진 공유 디렉터리에 배치되는 분산 학습을 지원합니다. 기본값은 `/home/${oc.env:USER}`로 설정되어 있습니다. 이는 [hydra](https://hydra.cc/docs/intro/)의 변수 확장 구문으로 인해 학습 시 `/home/${USER}`로 평가됩니다.
 
-##### 카르테시안 AdjSampling</translate-content>
+##### 카르테시안 AdjSampling
+
 ```bash
 python train.py experiment=spice_cartesian
 ```
@@ -80,11 +84,13 @@ python train.py experiment=spice_cartesian_bmam init_model=???
 ```bash
 python train.py experiment=spice_torsion
 ```
-<translate-content>
+
+
 
 ## 평가
 학습된 모델을 평가하려면 `eval.py`를 사용하세요. 보고된 결과는 `max_n_refs`를 512로 설정했습니다.
-</translate-content>
+
+
 ```bash
 python eval.py \
 --test_mols data/spice_test.txt \

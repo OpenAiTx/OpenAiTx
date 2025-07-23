@@ -1,4 +1,5 @@
-<translate-content># ATI: 制御可能な映像生成のための任意軌道指示
+﻿
+# ATI: 制御可能な映像生成のための任意軌道指示
 
 <div align="center">
   
@@ -43,7 +44,8 @@ Benjiによるガイドライン: [https://www.youtube.com/watch?v=UM35z2L1XbI](
 ## インストール
 
 ATIは公式Wan 2.1と同じ環境を必要とします。INSTALL.md（Wan2.1）の指示に従ってください。
-</translate-content>
+
+
 ```
 git clone https://github.com/bytedance/ATI.git
 cd ATI

@@ -1,4 +1,5 @@
-<translate-content># ContentV: Efficient Training of Video Generation Models with Limited Compute
+﻿
+# ContentV: Efficient Training of Video Generation Models with Limited Compute
 
 <div align="center">
 <p align="center">

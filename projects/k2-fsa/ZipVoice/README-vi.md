@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 Ngôn ngữ</summary>
     <div>
@@ -259,7 +259,9 @@ Bạn cũng có thể quét mã QR để tham gia nhóm wechat của chúng tôi
       year={2025}
 }
 ```
-<translate-content></translate-content>
+
+
+
 
 ---
 

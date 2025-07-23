@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 <p><a href="https://www.nuget.org/packages/MiniWord"><img src="https://img.shields.io/nuget/v/MiniWord.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniWord"><img src="https://img.shields.io/nuget/dt/MiniWord.svg" alt=""></a>
 <a href="https://github.com/mini-software/MiniWord" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniWord?logo=github" alt="GitHub stars"></a>
 <a href="https://www.nuget.org/packages/MiniWord"><img src="https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg" alt="version"></a>
@@ -54,7 +54,8 @@ SaveAsByTemplate(string path, byte[] templateBytes, Dictionary<string, object> v
 SaveAsByTemplate(this Stream stream, string templatePath, Dictionary<string, object> value)
 SaveAsByTemplate(this Stream stream, byte[] templateBytes, Dictionary<string, object> value)
 ```
-<translate-content>
+
+
 
 
 ## Tags
@@ -62,7 +63,8 @@ SaveAsByTemplate(this Stream stream, byte[] templateBytes, Dictionary<string, ob
 MiniWord template format string like Vue, React `{{tag}}`, users only need to make sure the tag and value parameter key are the same, then the system will automatically replace them.
 
 ### Text
-</translate-content>
+
+
 ```csharp
 {{tag}}
 ```
@@ -104,7 +106,8 @@ var value = new Dictionary<string, object>()
 };
 MiniWord.SaveAsByTemplate(path, templatePath, value);
 ```
-<translate-content>
+
+
 
 
 ##### Template
@@ -120,7 +123,8 @@ MiniWord.SaveAsByTemplate(path, templatePath, value);
 The tag value is of type `string[]` or `IList<string>`
 
 ##### Example
-</translate-content>
+
+
 ```csharp
 var value = new Dictionary<string, object>()
 {
@@ -351,7 +355,8 @@ var value = new
 };
 MiniWord.SaveAsByTemplate(path, templatePath, value);
 ```
-<translate-content>
+
+
 
 
 ## Examples
@@ -359,7 +364,8 @@ MiniWord.SaveAsByTemplate(path, templatePath, value);
 
 
 #### ASP.NET Core 3.1 API Export
-</translate-content>
+
+
 ```cs
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -465,14 +471,16 @@ public class ApiController : Controller
     }
 }
 ```
-<translate-content>
+
+
 
 
 
 
 
 ## Support : [Donate Link](https://miniexcel.github.io/)
-</translate-content>
+
+
 
 ---
 

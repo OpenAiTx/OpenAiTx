@@ -1,4 +1,5 @@
-<translate-content># Human Language Translator
+﻿
+# Human Language Translator
 
 ## Project Introduction
 
@@ -54,7 +55,8 @@ Firefox Browser: [Firefox Add-ons Store](https://addons.mozilla.org/zh-CN/firefo
 - **Singleton Pattern**: Ensures only one translation popup exists at a time  
 
 ## Project Structure
-</translate-content>
+
+
 ```
 ├── content/
 │   └── content.js    # 内容脚本，负责弹窗创建和交互

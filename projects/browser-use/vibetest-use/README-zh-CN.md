@@ -1,4 +1,5 @@
-<translate-content># Vibetest 使用
+﻿
+# Vibetest 使用
 
 使用 Browser-Use 代理进行自动化 QA 测试。
 
@@ -11,7 +12,8 @@ https://github.com/user-attachments/assets/9558d051-78bc-45fd-8694-9ac80eaf9494
 Vibecode 和 vibetest，直到你的网站正常运行。
 
 ## 快速开始
-</translate-content>
+
+
 
 
 ```bash
@@ -57,8 +59,10 @@ claude mcp add vibetest /full/path/to/vibetest-use/.venv/bin/vibetest-mcp -e GOO
 }
 
 ```
-<translate-content>
-### 基本提示</translate-content>
+
+
+### 基本提示
+
 ```
 > Vibetest my website with 5 agents: browser-use.com
 > Run vibetest on localhost:3000

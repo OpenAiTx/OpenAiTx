@@ -1,4 +1,4 @@
-<h2 align="center">
+﻿<h2 align="center">
 mdBook 用 GitHub Actions
 </h2>
 
@@ -110,7 +110,8 @@ jobs:
   with:
     mdbook-version: 'latest'
 ```
-<translate-content>
+
+
 このアクションは[mdbook — Homebrew Formulae](https://formulae.brew.sh/formula/mdbook)から最新バージョンのmdBookを取得します。
 
 <div align="right">
@@ -126,7 +127,8 @@ jobs:
 `.env`ファイルを介して、Docker ComposeとGitHub Actionsワークフロー間でmdBookのバージョンを同期する方法。
 
 以下のように`MDBOOK_VERSION`を`.env`ファイルに書き込み、リモートブランチにプッシュします。
-</translate-content>
+
+
 ```sh
 MDBOOK_VERSION=0.4.10
 ```
@@ -145,9 +147,11 @@ MDBOOK_VERSION=0.4.10
       with:
         mdbook-version: '${{ steps.mdbook-version.outputs.MDBOOK_VERSION }}'
 ```
-<translate-content>
+
+
 ここに `docker-compose.yml` の例があります。
-</translate-content>
+
+
 ```yaml
 version: '3'
 

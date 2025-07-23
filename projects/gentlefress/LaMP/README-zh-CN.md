@@ -1,4 +1,4 @@
-# :bulb: LaMP：用于动作生成、检索和描述的语言-动作预训练（ICLR 2025）
+﻿# :bulb: LaMP：用于动作生成、检索和描述的语言-动作预训练（ICLR 2025）
 ### [[项目页面]](https://aigc3d.github.io/LaMP/) [[论文]](https://arxiv.org/abs/2410.07093)
 ![teaser_image](https://github.com/gentlefress/LaMP/blob/main/teaser.png)
 
@@ -11,7 +11,8 @@
   year={2024}
 }
 ```
-<translate-content>
+
+
 ## :postbox: 新闻
 📢 **2025-01-22** --- 🔥🔥🔥 祝贺！LaMP被ICLR 2025录用。
 
@@ -24,7 +25,8 @@
 
 <details>
   
-### 1. Conda 环境</translate-content>
+### 1. Conda 环境
+
 ```
 conda env create -f environment.yml
 conda activate lamp
@@ -139,8 +141,10 @@ python gen_t2m.py --gpu_id 1 --ext exp2 --text_path ./assets/text_prompt.txt
 ```
 python train_vq.py --name vq_name --gpu_id 1 --dataset_name t2m --batch_size 256  --max_epoch 50 --quantize_dropout_prob 0.2 --gamma 0.05
 ```
-<translate-content>
-### 训练 LaMP</translate-content>
+
+
+### 训练 LaMP
+
 ```
 python train_lamp.py --name lamp_name --gpu_id 2 --dataset_name t2m --batch_size 64 --vq_name vq_name
 ```

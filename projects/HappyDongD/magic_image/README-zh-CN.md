@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 语言</summary>
     <div>
@@ -104,8 +104,10 @@
 git clone https://github.com/HappyDongD/magic_image.git
 cd magic_image
 ```
-<translate-content>
-2. Install dependencies</translate-content>
+
+
+2. Install dependencies
+
 ```bash
 npm install
 # 或
@@ -113,8 +115,10 @@ yarn install
 # 或
 pnpm install
 ```
-<translate-content>
-3. 启动开发服务器</translate-content>
+
+
+3. 启动开发服务器
+
 ```bash
 npm run dev
 # 或
@@ -158,7 +162,8 @@ npm run tauri:dev
 # 构建桌面应用安装包
 npm run desktop
 ```
-<translate-content>
+
+
 构建完成后，可以在 `src-tauri/target/release/bundle` 目录找到对应系统的安装包。
 
 ## Vercel 部署
@@ -177,7 +182,8 @@ npm run desktop
    - 点击右上角的"密钥设置"
    - 输入 API 密钥和基础地址
    - 点击保存
-   - 也可以通过 URL 参数快速配置：</translate-content>
+   - 也可以通过 URL 参数快速配置：
+
      ```
      http://localhost:3000?url=你的API地址&apikey=你的API密钥
      ```

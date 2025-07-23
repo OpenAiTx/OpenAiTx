@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 語言</summary>
     <div>
@@ -103,11 +103,13 @@ pip install transformers datasets pyserini
 conda install -c pytorch -c nvidia faiss-gpu=1.8.0
 pip install uvicorn fastapi
 ```
-<translate-content>
+
+
 
 
 ## 💡 準備
-***下載索引與語料庫***</translate-content>
+***下載索引與語料庫***
+
 ```bash
 python scripts/download.py --save_path $save_path
 cat $save_path/part_* > $save_path/e5_Flat.index

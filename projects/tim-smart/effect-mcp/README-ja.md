@@ -1,4 +1,5 @@
-<translate-content># effect mcp サーバー
+﻿
+# effect mcp サーバー
 
 [![MCPサーバーをインストール](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/install-mcp?name=effect%20docs&config=eyJjb21tYW5kIjoibnB4IC15IGVmZmVjdC1tY3AifQ%3D%3D)
 
@@ -7,7 +8,8 @@
 ## 使い方
 
 以下のコマンドでdockerを使って実行できます:
-</translate-content>
+
+
 ```bash
 docker run --rm -i timsmart/effect-mcp
 ```

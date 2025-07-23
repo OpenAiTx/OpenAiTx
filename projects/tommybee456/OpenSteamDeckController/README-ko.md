@@ -1,4 +1,5 @@
-<translate-content># OpenSteamDeckController (v0.1)
+﻿
+# OpenSteamDeckController (v0.1)
 
 Steam Deck과 Steam Controller에서 영감을 받은 맞춤형 모듈형 무선 컨트롤러입니다. 트랙패드, 분리 가능한 절반, 완전한 HID 지원을 특징으로 합니다. nRF52840 마이크로컨트롤러와 Enhanced ShockBurst 프로토콜을 사용하여 처음부터 제작되었습니다. [영상](https://youtu.be/ycMgIToLav8?si=cVztny4IiIS_V4oI) 
 

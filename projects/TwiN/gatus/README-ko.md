@@ -1,4 +1,5 @@
-<translate-content>[![Gatus](https://raw.githubusercontent.com/TwiN/gatus/master/.github/assets/logo-with-dark-text.png)](https://gatus.io)
+﻿
+[![Gatus](https://raw.githubusercontent.com/TwiN/gatus/master/.github/assets/logo-with-dark-text.png)](https://gatus.io)
 
 ![test](https://github.com/TwiN/gatus/actions/workflows/test.yml/badge.svg)
 [![Go Report Card](https://goreportcard.com/badge/github.com/TwiN/gatus?)](https://goreportcard.com/report/github.com/TwiN/gatus)
@@ -17,7 +18,8 @@ _관리형 솔루션을 찾고 계신가요? [Gatus.io](https://gatus.io)를 확
 
 <details>
   <summary><b>빠른 시작</b></summary>
-</translate-content>
+
+
 
 
 ```console
@@ -175,10 +177,12 @@ GitHub Container Registry를 사용하는 것도 가능합니다:
 ```console
 docker run -p 8080:8080 --name gatus ghcr.io/twin/gatus
 ```
-<translate-content>자신만의 구성을 만들고 싶다면, 구성 파일을 마운트하는 방법에 대한 정보는 [Docker](#docker)를 참조하세요.
+
+자신만의 구성을 만들고 싶다면, 구성 파일을 마운트하는 방법에 대한 정보는 [Docker](#docker)를 참조하세요.
 </details>
 
-간단한 예는 다음과 같습니다:</translate-content>
+간단한 예는 다음과 같습니다:
+
 ```yaml
 endpoints:
   - name: website                 # Name of your endpoint, can be anything
@@ -330,7 +334,8 @@ external-endpoints:
 ```
 POST /api/v1/endpoints/{key}/external?success={success}&error={error}&duration={duration}
 ```
-<translate-content>위치:
+
+위치:
 - `{key}`는 `<GROUP_NAME>_<ENDPOINT_NAME>` 패턴을 가지며 두 변수 모두 ` `, `/`, `_`, `,`, `.` 및 `#`가 `-`로 대체됩니다.
   - 위 예시 구성에서는 키가 `core_ext-ep-test`가 됩니다.
 - `{success}`는 헬스 체크가 성공했는지를 나타내는 불리언 값(`true` 또는 `false`)입니다.
@@ -404,7 +409,8 @@ POST /api/v1/endpoints/{key}/external?success={success}&error={error}&duration={
 각 엔드포인트 헬스 체크 결과와 가동 시간 및 과거 이벤트 데이터는 대시보드에 표시될 수 있도록
 저장되어야 합니다. 이 파라미터들은 해당 저장소를 구성할 수 있게 합니다.
 
-- `storage.type`이 `memory`(기본값)인 경우:</translate-content>
+- `storage.type`이 `memory`(기본값)인 경우:
+
 ```yaml
 # Note that this is the default value, and you can omit the storage configuration altogether to achieve the same result.
 # Because the data is stored in memory, the data will not survive a restart.
@@ -465,11 +471,13 @@ client:
   ignore-redirect: false
   timeout: 10s
 ```
-<translate-content>
+
+
 이 구성은 `endpoints[]`, `alerting.mattermost` 및 `alerting.custom` 하에서만 사용할 수 있다는 점에 유의하십시오.
 
 다음은 `endpoints[]` 아래에 클라이언트 구성이 있는 예입니다:
-</translate-content>
+
+
 ```yaml
 endpoints:
   - name: website
@@ -652,7 +660,8 @@ endpoints:
         send-on-resolved: true
         description: "healthcheck failed"
 ```
-<translate-content>
+
+
 `access-key-id`와 `secret-access-key`가 정의되지 않은 경우 Gatus는 IAM 인증으로 대체합니다.
 
 `ses:SendEmail`을 사용할 수 있는지 확인하세요.
@@ -668,7 +677,8 @@ endpoints:
 | `alerting.discord.overrides`         | 기본 구성보다 우선시될 수 있는 오버라이드 목록                                            | `[]`                                |
 | `alerting.discord.overrides[].group` | 이 구성으로 대체될 엔드포인트 그룹                                                        | `""`                                |
 | `alerting.discord.overrides[].*`     | `alerting.discord.*` 매개변수 참조                                                        | `{}`                                |
-</translate-content>
+
+
 ```yaml
 alerting:
   discord:
@@ -971,7 +981,8 @@ endpoints:
         description: "healthcheck failed"
         send-on-resolved: true
 ```
-<translate-content>
+
+
 알림이 어떻게 표시되는지에 대한 예는 다음과 같습니다:
 
 ![Gotify 알림](https://raw.githubusercontent.com/TwiN/gatus/master/.github/assets/gotify-alerts.png)
@@ -979,7 +990,8 @@ endpoints:
 
 #### HomeAssistant 알림 구성하기
 HomeAssistant 알림을 구성하려면 구성 파일에 다음을 추가해야 합니다:
-</translate-content>
+
+
 ```yaml
 alerting:
   homeassistant:
@@ -1000,7 +1012,8 @@ endpoints:
         failure-threshold: 3
         success-threshold: 2
 ```
-<translate-content>
+
+
 경고는 이벤트 유형 `gatus_alert`와 함께 HomeAssistant로 이벤트로 전송됩니다. 이벤트 데이터에는 다음이 포함됩니다:
 - `status`: "triggered" 또는 "resolved"
 - `endpoint`: 모니터링되는 엔드포인트의 이름
@@ -1017,7 +1030,8 @@ endpoints:
 - 기타 등등
 
 HomeAssistant 자동화 예시:
-</translate-content>
+
+
 ```yaml
 automation:
   - alias: "Gatus Alert Handler"
@@ -1113,7 +1127,8 @@ endpoints:
         description: "healthcheck failed"
         send-on-resolved: true
 ```
-<translate-content>
+
+
 알림이 어떻게 표시되는지에 대한 예시는 다음과 같습니다:
 
 ![JetBrains Space 알림](https://raw.githubusercontent.com/TwiN/gatus/master/.github/assets/jetbrains-space-alerts.png)
@@ -1127,7 +1142,8 @@ endpoints:
 | `alerting.matrix.access-token`           | 봇 사용자 액세스 토큰 (https://webapps.stackexchange.com/q/131056 참조)                      | 필수 `""`                         |
 | `alerting.matrix.internal-room-id`       | 알림을 보낼 내부 룸 ID (룸 설정 > 고급에서 확인 가능)                                      | 필수 `""`                         |
 | `alerting.matrix.default-alert`          | 기본 알림 구성입니다. <br />[기본 알림 설정](#setting-a-default-alert) 참조                 | 해당 없음                          |
-</translate-content>
+
+
 ```yaml
 alerting:
   matrix:
@@ -1182,7 +1198,8 @@ endpoints:
         description: "healthcheck failed"
         send-on-resolved: true
 ```
-<translate-content>
+
+
 알림이 어떻게 표시되는지에 대한 예시는 다음과 같습니다:
 
 ![Mattermost 알림](https://raw.githubusercontent.com/TwiN/gatus/master/.github/assets/mattermost-alerts.png)
@@ -1197,7 +1214,8 @@ endpoints:
 | `alerting.messagebird.recipients`    | 메시지 수신자                                                                              | 필수 `""`     |
 | `alerting.messagebird.default-alert` | 기본 알림 구성입니다. <br />자세한 내용은 [기본 알림 설정](#setting-a-default-alert) 참조 | 해당 없음     |
 
-Messagebird를 사용한 **SMS** 문자 메시지 알림 전송 예시는 다음과 같습니다:</translate-content>
+Messagebird를 사용한 **SMS** 문자 메시지 알림 전송 예시는 다음과 같습니다:
+
 ```yaml
 alerting:
   messagebird:
@@ -1492,7 +1510,8 @@ endpoints:
         description: "healthcheck failed"
         send-on-resolved: true
 ```
-<translate-content>
+
+
 다음은 알림이 어떻게 표시되는지에 대한 예입니다:
 
 ![Teams 알림](https://raw.githubusercontent.com/TwiN/gatus/master/.github/assets/teams-alerts.png)
@@ -1511,7 +1530,8 @@ endpoints:
 | `alerting.teams-workflows.overrides`         | 기본 구성보다 우선시될 수 있는 재정의 목록                                               | `[]`               |
 | `alerting.teams-workflows.overrides[].group` | 이 구성으로 재정의될 엔드포인트 그룹                                                     | `""`               |
 | `alerting.teams-workflows.overrides[].*`     | `alerting.teams-workflows.*` 매개변수 참조                                              | `{}`               |
-</translate-content>
+
+
 ```yaml
 alerting:
   teams-workflows:
@@ -1547,7 +1567,8 @@ endpoints:
         description: "healthcheck failed"
         send-on-resolved: true
 ```
-<translate-content>
+
+
 알림이 어떻게 표시되는지에 대한 예시는 다음과 같습니다:
 
 ![Teams Workflow 알림](https://raw.githubusercontent.com/TwiN/gatus/master/.github/assets/teams-workflows-alerts.png)
@@ -1566,7 +1587,8 @@ endpoints:
 | `alerting.telegram.overrides`         | 기본 구성보다 우선할 수 있는 재정의 목록                                                  | `[]`                       |
 | `alerting.telegram.overrides[].group` | 이 구성으로 재정의될 엔드포인트 그룹                                                     | `""`                       |
 | `alerting.telegram.overrides[].*`     | `alerting.telegram.*` 매개변수 참조                                                      | `{}`                       |
-</translate-content>
+
+
 ```yaml
 alerting:
   telegram:
@@ -1585,7 +1607,8 @@ endpoints:
       - type: telegram
         send-on-resolved: true
 ```
-<translate-content>
+
+
 알림이 어떻게 표시되는지에 대한 예시는 다음과 같습니다:
 
 ![Telegram notifications](https://raw.githubusercontent.com/TwiN/gatus/master/.github/assets/telegram-alerts.png)
@@ -1600,7 +1623,8 @@ endpoints:
 | `alerting.twilio.from`          | Twilio 알림을 보낼 번호                                                                    | 필수 `""`     |
 | `alerting.twilio.to`            | Twilio 알림을 받을 번호                                                                    | 필수 `""`     |
 | `alerting.twilio.default-alert` | 기본 알림 구성. <br />자세한 내용은 [기본 알림 설정](#setting-a-default-alert) 참고          | 해당 없음      |
-</translate-content>
+
+
 ```yaml
 alerting:
   twilio:
@@ -1715,8 +1739,10 @@ endpoints:
         send-on-resolved: true
         description: "health check failed"
 ```
-<translate-content>
-`[ALERT_TRIGGERED_OR_RESOLVED]` 자리 표시자의 해결된 값을 다음과 같이 사용자 지정할 수 있습니다:</translate-content>
+
+
+`[ALERT_TRIGGERED_OR_RESOLVED]` 자리 표시자의 해결된 값을 다음과 같이 사용자 지정할 수 있습니다:
+
 ```yaml
 alerting:
   custom:
@@ -1772,8 +1798,10 @@ endpoints:
     alerts:
       - type: slack
 ```
-<translate-content>
-이것과 같은 작업을 수행할 수도 있습니다:</translate-content>
+
+
+이것과 같은 작업을 수행할 수도 있습니다:
+
 ```yaml
 endpoints:
   - name: example
@@ -1993,43 +2021,53 @@ remote:
     - endpoint-prefix: "status.example.org-"
       url: "https://status.example.org/api/v1/endpoints/statuses"
 ```
-<translate-content>
+
+
 
 ## 배포
 많은 예제들은 [.examples](.examples) 폴더에서 찾을 수 있지만, 이 섹션은 Gatus를 배포하는 가장 인기 있는 방법에 중점을 둡니다.
 
 
 ### 도커
-Docker를 사용하여 로컬에서 Gatus를 실행하려면:</translate-content>
+Docker를 사용하여 로컬에서 Gatus를 실행하려면:
+
 ```console
 docker run -p 8080:8080 --name gatus twinproduction/gatus
 ```
-<translate-content>
+
+
 [.examples](.examples) 폴더에 제공된 예제 중 하나를 사용하는 것 외에도,  
 구성 파일을 생성하여 로컬에서 직접 시도해볼 수 있습니다. 이 예제에서는 `config.yaml`이라고 하겠습니다.  
 그리고 다음 명령어를 실행하세요:  
-</translate-content>
+
+
 ```console
 docker run -p 8080:8080 --mount type=bind,source="$(pwd)"/config.yaml,target=/config/config.yaml --name gatus twinproduction/gatus
 ```
-<translate-content>
-Windows를 사용 중이라면 `"$(pwd)"`를 현재 디렉터리의 절대 경로로 바꾸십시오. 예를 들어:</translate-content>
+
+
+Windows를 사용 중이라면 `"$(pwd)"`를 현재 디렉터리의 절대 경로로 바꾸십시오. 예를 들어:
+
 ```console
 docker run -p 8080:8080 --mount type=bind,source=C:/Users/Chris/Desktop/config.yaml,target=/config/config.yaml --name gatus twinproduction/gatus
 ```
-<translate-content>
-이미지를 로컬에서 빌드하려면:</translate-content>
+
+
+이미지를 로컬에서 빌드하려면:
+
 ```console
 docker build . -t twinproduction/gatus
 ```
-<translate-content>
+
+
 
 ### Helm 차트
 [Helm](https://helm.sh)을 사용하려면 설치되어 있어야 합니다.
 시작하려면 Helm의 [문서](https://helm.sh/docs/)를 참조하세요.
 
 Helm이 제대로 설정되면, 다음과 같이 저장소를 추가하십시오:
-</translate-content>
+
+
 ```console
 helm repo add twin https://twin.github.io/helm-charts
 helm repo update
@@ -2047,7 +2085,8 @@ Gatus는 다음 모듈을 사용하여 Terraform에 배포할 수 있습니다: 
 ```console
 go test -v ./...
 ```
-<translate-content>
+
+
 
 ## 운영 환경에서 사용하기
 [배포](#deployment) 섹션을 참조하세요.
@@ -2057,7 +2096,8 @@ go test -v ./...
 ### GraphQL 요청 보내기
 `endpoints[].graphql`을 true로 설정하면, 본문이 자동으로 표준 GraphQL `query` 파라미터로 감싸집니다.
 
-예를 들어, 다음 구성은:</translate-content>
+예를 들어, 다음 구성은:
+
 ```yaml
 endpoints:
   - name: filter-users-by-gender
@@ -2134,7 +2174,8 @@ endpoints:
     conditions:
       - "[CONNECTED] == true"
 ```
-<translate-content>`endpoints[].body`가 설정된 경우 전송되며 응답의 처음 1024 바이트가 `[BODY]`에 포함됩니다.
+
+`endpoints[].body`가 설정된 경우 전송되며 응답의 처음 1024 바이트가 `[BODY]`에 포함됩니다.
 
 플레이스홀더 `[STATUS]`와 `endpoints[].headers`,  
 `endpoints[].method` 및 `endpoints[].graphql` 필드는 TCP 엔드포인트에 대해 지원되지 않습니다.
@@ -2147,7 +2188,8 @@ endpoints:
 
 
 ### UDP 엔드포인트 모니터링
-`endpoints[].url`에 `udp://` 접두사를 붙이면 UDP 엔드포인트를 매우 기본적인 수준에서 모니터링할 수 있습니다:</translate-content>
+`endpoints[].url`에 `udp://` 접두사를 붙이면 UDP 엔드포인트를 매우 기본적인 수준에서 모니터링할 수 있습니다:
+
 ```yaml
 endpoints:
   - name: example
@@ -2155,7 +2197,8 @@ endpoints:
     conditions:
       - "[CONNECTED] == true"
 ```
-<translate-content>
+
+
 `endpoints[].body`가 설정되어 있으면 전송되며 응답의 처음 1024바이트가 `[BODY]`에 포함됩니다.
 
 자리 표시자 `[STATUS]`와 필드 `endpoints[].headers`,
@@ -2166,7 +2209,8 @@ endpoints:
 
 ### SCTP 엔드포인트 모니터링
 `endpoints[].url` 앞에 `sctp://`를 붙이면 스트림 제어 전송 프로토콜(SCTP) 엔드포인트를 매우 기본적인 수준에서 모니터링할 수 있습니다:
-</translate-content>
+
+
 ```yaml
 endpoints:
   - name: example
@@ -2174,7 +2218,8 @@ endpoints:
     conditions:
       - "[CONNECTED] == true"
 ```
-<translate-content>
+
+
 자리 표시자 `[STATUS]` 및 `[BODY]`와 `endpoints[].body`, `endpoints[].headers`,  
 `endpoints[].method` 및 `endpoints[].graphql` 필드는 SCTP 엔드포인트에서 지원되지 않습니다.  
 
@@ -2182,7 +2227,8 @@ endpoints:
 
 
 ### WebSocket 엔드포인트 모니터링  
-`endpoints[].url`에 `ws://` 또는 `wss://` 접두어를 붙이면, 매우 기본적인 수준에서 WebSocket 엔드포인트를 모니터링할 수 있습니다:</translate-content>
+`endpoints[].url`에 `ws://` 또는 `wss://` 접두어를 붙이면, 매우 기본적인 수준에서 WebSocket 엔드포인트를 모니터링할 수 있습니다:
+
 ```yaml
 endpoints:
   - name: example
@@ -2198,7 +2244,8 @@ endpoints:
 
 
 ### ICMP를 사용한 엔드포인트 모니터링
-`endpoints[].url` 앞에 `icmp://`를 붙이면 ICMP, 즉 일반적으로 "핑" 또는 "에코"로 알려진 매우 기본적인 수준에서 엔드포인트를 모니터링할 수 있습니다:</translate-content>
+`endpoints[].url` 앞에 `icmp://`를 붙이면 ICMP, 즉 일반적으로 "핑" 또는 "에코"로 알려진 매우 기본적인 수준에서 엔드포인트를 모니터링할 수 있습니다:
+
 
 
 ```yaml
@@ -2208,7 +2255,8 @@ endpoints:
     conditions:
       - "[CONNECTED] == true"
 ```
-<translate-content>
+
+
 ICMP 유형 엔드포인트에는 `[CONNECTED]`, `[IP]`, `[RESPONSE_TIME]` 자리 표시자만 지원됩니다.  
 `icmp://`로 시작하는 도메인이나 `icmp://`로 시작하는 IP 주소를 지정할 수 있습니다.  
 
@@ -2216,7 +2264,8 @@ Linux에서 Gatus를 실행하는 경우 문제가 발생하면 https://github.c
 
 
 ### DNS 쿼리를 사용한 엔드포인트 모니터링  
-엔드포인트에 `dns` 구성을 정의하면 해당 엔드포인트가 자동으로 DNS 유형 엔드포인트로 표시됩니다:</translate-content>
+엔드포인트에 `dns` 구성을 정의하면 해당 엔드포인트가 자동으로 DNS 유형 엔드포인트로 표시됩니다:
+
 
 ```yaml
 endpoints:
@@ -2229,14 +2278,16 @@ endpoints:
       - "[BODY] == 93.184.215.14"
       - "[DNS_RCODE] == NOERROR"
 ```
-<translate-content>
+
+
 DNS 유형의 엔드포인트 조건에서 사용할 수 있는 두 가지 자리 표시자가 있습니다:
 - 자리 표시자 `[BODY]`는 쿼리의 출력 결과로 해석됩니다. 예를 들어, `A` 유형의 쿼리는 IPv4를 반환합니다.
 - 자리 표시자 `[DNS_RCODE]`는 쿼리에서 반환된 응답 코드에 연결된 이름으로 해석됩니다. 예: `NOERROR`, `FORMERR`, `SERVFAIL`, `NXDOMAIN` 등.
 
 
 ### SSH를 사용한 엔드포인트 모니터링
-`endpoints[].url` 앞에 `ssh://`를 붙여 SSH를 통해 엔드포인트를 모니터링할 수 있습니다:</translate-content>
+`endpoints[].url` 앞에 `ssh://`를 붙여 SSH를 통해 엔드포인트를 모니터링할 수 있습니다:
+
 
 ```yaml
 endpoints:
@@ -2254,9 +2305,11 @@ endpoints:
       - "[CONNECTED] == true"
       - "[STATUS] == 0"
 ```
-<translate-content>
+
+
 사용자 이름과 비밀번호 필드를 지정하지 않아 인증 없이도 엔드포인트를 모니터링할 수 있습니다.
-</translate-content>
+
+
 
 ```yaml
 endpoints:
@@ -2359,7 +2412,8 @@ Gatus가 실행되는 동안 구성 파일을 업데이트할 때마다 로그�
 ```
 The configuration file was updated, but it is not valid. The old configuration will continue being used.
 ```
-<translate-content>애플리케이션이 어떤 이유로든 다시 시작될 경우 Gatus가 시작하지 못할 수 있으므로 주의해야 합니다.
+
+애플리케이션이 어떤 이유로든 다시 시작될 경우 Gatus가 시작하지 못할 수 있으므로 주의해야 합니다.
 
 이와 같은 상황을 피하기 위해 `skip-invalid-config-update`를 `true`로 설정하지 않는 것을 권장하지만, 선택은 사용자에게 달려 있습니다.
 
@@ -2371,7 +2425,8 @@ The configuration file was updated, but it is not valid. The old configuration w
 
 ### 엔드포인트 그룹
 엔드포인트 그룹은 대시보드에서 여러 엔드포인트를 함께 그룹화하는 데 사용됩니다.
-</translate-content>
+
+
 
 ```yaml
 endpoints:
@@ -2427,10 +2482,12 @@ endpoints:
 web:
   port: 8081
 ```
-<translate-content>
+
+
 Heroku와 같이 사용자 지정 포트를 설정할 수 없고 대신 환경 변수로 노출하는 PaaS를 사용하는 경우,  
 구성 파일에서 해당 환경 변수를 직접 사용할 수 있습니다:  
-</translate-content>
+
+
 ```yaml
 web:
   port: ${PORT}
@@ -2475,12 +2532,14 @@ endpoints:
       - "[STATUS] == 200"
       - "[BODY].status == UP"
 ```
-<translate-content></details>
+
+</details>
 
 
 ### 프록시 클라이언트 구성
 클라이언트 구성에서 `proxy-url` 매개변수를 설정하여 클라이언트가 사용할 프록시를 구성할 수 있습니다.
-</translate-content>
+
+
 ```yaml
 endpoints:
   - name: website
@@ -2523,7 +2582,8 @@ Gatus는 모니터링 중인 엔드포인트 중 하나에 대한 SVG 배지를 
 - `{key}`는 `<GROUP_NAME>_<ENDPOINT_NAME>` 패턴을 가지며, 두 변수 모두 ` `, `/`, `_`, `,`, `.` 및 `#`가 `-`로 대체됩니다.
 
 예를 들어, 그룹 `core`의 엔드포인트 `frontend`에서 지난 24시간 동안의 가동 시간을 원한다면,
-URL은 다음과 같이 표시됩니다:</translate-content>
+URL은 다음과 같이 표시됩니다:
+
 ```
 https://example.com/api/v1/endpoints/core_frontend/uptimes/7d/badge.svg
 ```
@@ -2535,21 +2595,25 @@ https://example.com/api/v1/endpoints/_frontend/uptimes/7d/badge.svg
 ```
 ![Uptime 24h](https://status.twin.sh/api/v1/endpoints/core_blog-external/uptimes/24h/badge.svg)
 ```
-<translate-content>각 배지의 시각적 예시를 보고 싶다면, 엔드포인트 세부 페이지로 이동하면 됩니다.
+
+각 배지의 시각적 예시를 보고 싶다면, 엔드포인트 세부 페이지로 이동하면 됩니다.
 
 
 #### 상태
 ![Health](https://status.twin.sh/api/v1/endpoints/core_blog-external/health/badge.svg)
 
-배지를 생성하는 경로는 다음과 같습니다:</translate-content>
+배지를 생성하는 경로는 다음과 같습니다:
+
 ```
 /api/v1/endpoints/{key}/health/badge.svg
 ```
-<translate-content>위치:
+
+위치:
 - `{key}`는 `<GROUP_NAME>_<ENDPOINT_NAME>` 패턴을 가지며, 두 변수 모두 ` `, `/`, `_`, `,`, `.` 및 `#`가 `-`로 대체됩니다.
 
 예를 들어, 그룹 `core`의 엔드포인트 `frontend`의 현재 상태를 원한다면,
-URL은 다음과 같이 보일 것입니다:</translate-content>
+URL은 다음과 같이 보일 것입니다:
+
 ```
 https://example.com/api/v1/endpoints/core_frontend/health/badge.svg
 ```
@@ -2622,7 +2686,8 @@ endpoints:
 ### API
 Gatus는 엔드포인트 상태 및 이력을 프로그래밍 방식으로 확인할 수 있는 간단한 읽기 전용 API를 제공합니다.
 
-모든 엔드포인트는 다음 엔드포인트에 대한 GET 요청을 통해 사용할 수 있습니다:</translate-content>
+모든 엔드포인트는 다음 엔드포인트에 대한 GET 요청을 통해 사용할 수 있습니다:
+
 
 
 ```
@@ -2659,7 +2724,8 @@ Where:
 https://example.com/api/v1/endpoints/core_frontend/uptimes/24h
 ```
 ##### 응답 시간
-엔드포인트의 원시 응답 시간 데이터를 얻는 경로는 다음과 같습니다:</translate-content>
+엔드포인트의 원시 응답 시간 데이터를 얻는 경로는 다음과 같습니다:
+
 
 ```
 /api/v1/endpoints/{key}/response-times/{duration}

@@ -1,4 +1,4 @@
-# :bulb: LaMP: Language-Motion Pretraining for Motion Generation, Retrieval, and Captioning (ICLR 2025)
+﻿# :bulb: LaMP: Language-Motion Pretraining for Motion Generation, Retrieval, and Captioning (ICLR 2025)
 ### [[Project Page]](https://aigc3d.github.io/LaMP/) [[Paper]](https://arxiv.org/abs/2410.07093)
 ![teaser_image](https://github.com/gentlefress/LaMP/blob/main/teaser.png)
 
@@ -11,7 +11,8 @@ If you find our code or paper helpful, please consider starring our repository a
   year={2024}
 }
 ```
-<translate-content>
+
+
 ## :postbox: News
 📢 **2025-01-22** --- 🔥🔥🔥 Congrats! LaMP is accepted to ICLR 2025.
 
@@ -24,7 +25,8 @@ If you find our code or paper helpful, please consider starring our repository a
 
 <details>
   
-### 1. Conda Environment</translate-content>
+### 1. Conda Environment
+
 ```
 conda env create -f environment.yml
 conda activate lamp

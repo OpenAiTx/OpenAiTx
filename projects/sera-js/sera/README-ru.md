@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 Язык</summary>
     <div>
@@ -161,8 +161,10 @@ export default function App() {
   </body>
 </html>
 ```
-<translate-content>
-</translate-content>
+
+
+
+
 
 ---
 

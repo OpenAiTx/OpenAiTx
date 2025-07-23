@@ -1,4 +1,4 @@
-Release : Alpha 1.0.5
+﻿Release : Alpha 1.0.5
 
 <div style="display:flex; width:100%; column-gap:16px; margin-bottom:12px;">
     <span>兼容性 :</span>
@@ -97,7 +97,8 @@ _点击上方图片，在 YouTube 上观看视频_
 
 > cd front
 
-安装依赖：</translate-content>
+安装依赖：
+
 > npm install
 
 启动开发服务器：

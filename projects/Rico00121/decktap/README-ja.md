@@ -1,4 +1,4 @@
-# DeckTap (LAN MVP)
+﻿# DeckTap (LAN MVP)
 
 <a href="https://youtu.be/pNgNUWSf7C4" title="Link Title"><img src="https://raw.githubusercontent.com/Rico00121/decktap/main/./images/hero.png" alt="Alternate Text" width="600"/></a>
 
@@ -94,7 +94,8 @@ DeckTapの**スタンドアロン実行可能バージョン**（`decktap-macos`
      ./decktap-macos
      ```
 2. **Windowsユーザー：**
-   - コマンドプロンプトで実行してください：</translate-content>
+   - コマンドプロンプトで実行してください：
+
      ```bat
      decktap-win.exe
      ```

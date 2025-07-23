@@ -1,4 +1,5 @@
-<translate-content># 🧘 zenta
+﻿
+# 🧘 zenta
 
 > **코딩 흐름에 맞춘 마음챙김**
 
@@ -9,7 +10,8 @@
 ---
 
 ## ⚡ 빠른 시작
-</translate-content>
+
+
 ```bash
 # Install (one-liner)
 curl -fsSL https://raw.githubusercontent.com/e6a5/zenta/main/install.sh | bash

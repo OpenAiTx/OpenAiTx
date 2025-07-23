@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 <p><a href="https://www.nuget.org/packages/MiniWord"><img src="https://img.shields.io/nuget/v/MiniWord.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniWord"><img src="https://img.shields.io/nuget/dt/MiniWord.svg" alt=""></a>
 <a href="https://github.com/mini-software/MiniWord" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniWord?logo=github" alt="GitHub stars"></a>
 <a href="https://www.nuget.org/packages/MiniWord"><img src="https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg" alt="version"></a>
@@ -54,7 +54,8 @@ SaveAsByTemplate(string path, byte[] templateBytes, Dictionary<string, object> v
 SaveAsByTemplate(this Stream stream, string templatePath, Dictionary<string, object> value)
 SaveAsByTemplate(this Stream stream, byte[] templateBytes, Dictionary<string, object> value)
 ```
-<translate-content>
+
+
 
 
 ## 태그
@@ -62,7 +63,8 @@ SaveAsByTemplate(this Stream stream, byte[] templateBytes, Dictionary<string, ob
 MiniWord 템플릿 형식 문자열은 Vue, React의 `{{tag}}`와 같으며, 사용자는 태그와 value 파라미터의 키만 동일하게 하면 시스템이 자동으로 이를 대체합니다.
 
 ### 텍스트
-</translate-content>
+
+
 ```csharp
 {{tag}}
 ```
@@ -104,7 +106,8 @@ var value = new Dictionary<string, object>()
 };
 MiniWord.SaveAsByTemplate(path, templatePath, value);
 ```
-<translate-content>
+
+
 
 
 ##### 템플릿
@@ -120,7 +123,8 @@ MiniWord.SaveAsByTemplate(path, templatePath, value);
 tag 값은 `string[]` 또는 `IList<string>` 타입입니다.
 
 ##### 예시
-</translate-content>
+
+
 ```csharp
 var value = new Dictionary<string, object>()
 {
@@ -351,7 +355,8 @@ var value = new
 };
 MiniWord.SaveAsByTemplate(path, templatePath, value);
 ```
-<translate-content>
+
+
 
 
 ## 예시
@@ -359,7 +364,8 @@ MiniWord.SaveAsByTemplate(path, templatePath, value);
 
 
 #### ASP.NET Core 3.1 API 내보내기
-</translate-content>
+
+
 ```cs
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -465,14 +471,16 @@ public class ApiController : Controller
     }
 }
 ```
-<translate-content>
+
+
 
 
 
 
 
 ## 지원 : [기부 링크](https://miniexcel.github.io/)
-</translate-content>
+
+
 
 ---
 

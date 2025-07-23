@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 言語</summary>
     <div>
@@ -113,8 +113,10 @@ yarn install
 # 或
 pnpm install
 ```
-<translate-content>
-3. 開発サーバーの起動</translate-content>
+
+
+3. 開発サーバーの起動
+
 ```bash
 npm run dev
 # 或
@@ -176,7 +178,8 @@ npm run desktop
    - 右上の「キー設定」をクリックします
    - API キーとベースアドレスを入力します
    - 保存をクリックします
-   - URL パラメータでのクイック設定も可能です：</translate-content>
+   - URL パラメータでのクイック設定も可能です：
+
 
      ```
      http://localhost:3000?url=你的API地址&apikey=你的API密钥

@@ -1,4 +1,5 @@
-<translate-content>[![Gatus](https://raw.githubusercontent.com/TwiN/gatus/master/.github/assets/logo-with-dark-text.png)](https://gatus.io)
+﻿
+[![Gatus](https://raw.githubusercontent.com/TwiN/gatus/master/.github/assets/logo-with-dark-text.png)](https://gatus.io)
 
 ![test](https://github.com/TwiN/gatus/actions/workflows/test.yml/badge.svg)
 [![Go Report Card](https://goreportcard.com/badge/github.com/TwiN/gatus?)](https://goreportcard.com/report/github.com/TwiN/gatus)
@@ -17,7 +18,8 @@ _想找托管解决方案？请查看 [Gatus.io](https://gatus.io)。_
 
 <details>
   <summary><b>快速开始</b></summary>
-</translate-content>
+
+
 
 
 ```console
@@ -175,10 +177,12 @@ docker run -p 8080:8080 --name gatus twinproduction/gatus
 ```console
 docker run -p 8080:8080 --name gatus ghcr.io/twin/gatus
 ```
-<translate-content>如果您想创建自己的配置，请参阅 [Docker](#docker) 了解如何挂载配置文件的信息。
+
+如果您想创建自己的配置，请参阅 [Docker](#docker) 了解如何挂载配置文件的信息。
 </details>
 
-这是一个简单的示例：</translate-content>
+这是一个简单的示例：
+
 ```yaml
 endpoints:
   - name: website                 # Name of your endpoint, can be anything
@@ -421,7 +425,8 @@ storage:
 ```
 请参见 [examples/docker-compose-sqlite-storage](.examples/docker-compose-sqlite-storage) 获取示例。
 
-- 如果 `storage.type` 是 `postgres`，`storage.path` 必须是连接 URL：</translate-content>
+- 如果 `storage.type` 是 `postgres`，`storage.path` 必须是连接 URL：
+
 ```yaml
 storage:
   type: postgres
@@ -481,9 +486,11 @@ endpoints:
     conditions:
       - "[STATUS] == 200"
 ```
-<translate-content>
+
+
 此示例展示了如何指定自定义 DNS 解析器：
-</translate-content>
+
+
 ```yaml
 endpoints:
   - name: with-custom-dns-resolver
@@ -493,9 +500,11 @@ endpoints:
     conditions:
       - "[STATUS] == 200"
 ```
-<translate-content>
+
+
 此示例展示了如何使用 `client.oauth2` 配置通过 `Bearer token` 查询后端 API：
-</translate-content>
+
+
 ```yaml
 endpoints:
   - name: with-custom-oauth2
@@ -509,9 +518,11 @@ endpoints:
     conditions:
       - "[STATUS] == 200"
 ```
-<translate-content>
+
+
 此示例展示了如何使用 `client.identity-aware-proxy` 配置通过 Google 身份感知代理使用 `Bearer token` 查询后端 API：
-</translate-content>
+
+
 ```yaml
 endpoints:
   - name: with-custom-iap
@@ -522,11 +533,13 @@ endpoints:
     conditions:
       - "[STATUS] == 200"
 ```
-<translate-content>
+
+
 > 📝 请注意，Gatus 将在其环境中使用 [gcloud 默认凭据](https://cloud.google.com/docs/authentication/application-default-credentials) 来生成令牌。
 
 此示例向您展示如何使用 `client.tls` 配置对后端 API 执行 mTLS 查询：
-</translate-content>
+
+
 ```yaml
 endpoints:
   - name: website
@@ -571,8 +584,10 @@ endpoints:
         description: "healthcheck failed"
         send-on-resolved: true
 ```
-<translate-content>
-您也可以使用 `alerts[].provider-override` 来覆盖全局提供程序配置，如下所示：</translate-content>
+
+
+您也可以使用 `alerts[].provider-override` 来覆盖全局提供程序配置，如下所示：
+
 ```yaml
 endpoints:
   - name: example
@@ -971,7 +986,8 @@ endpoints:
         description: "healthcheck failed"
         send-on-resolved: true
 ```
-<translate-content>
+
+
 下面是通知的示例：
 
 ![Gotify 通知](https://raw.githubusercontent.com/TwiN/gatus/master/.github/assets/gotify-alerts.png)
@@ -979,7 +995,8 @@ endpoints:
 
 #### 配置 HomeAssistant 警报
 要配置 HomeAssistant 警报，您需要将以下内容添加到您的配置文件中：
-</translate-content>
+
+
 ```yaml
 alerting:
   homeassistant:
@@ -1112,7 +1129,8 @@ endpoints:
         description: "healthcheck failed"
         send-on-resolved: true
 ```
-<translate-content>
+
+
 下面是通知的示例：
 
 ![JetBrains Space 通知](https://raw.githubusercontent.com/TwiN/gatus/master/.github/assets/jetbrains-space-alerts.png)
@@ -1126,7 +1144,8 @@ endpoints:
 | `alerting.matrix.access-token`           | 机器人用户访问令牌（参见 https://webapps.stackexchange.com/q/131056）                      | 必填 `""`                         |
 | `alerting.matrix.internal-room-id`       | 发送警报的房间内部 ID（可在房间设置 > 高级中找到）                                         | 必填 `""`                         |
 | `alerting.matrix.default-alert`          | 默认警报配置。<br />参见[设置默认警报](#setting-a-default-alert)                             | 不适用                            |
-</translate-content>
+
+
 ```yaml
 alerting:
   matrix:
@@ -1491,7 +1510,8 @@ endpoints:
         description: "healthcheck failed"
         send-on-resolved: true
 ```
-<translate-content>
+
+
 以下是通知的示例：
 
 ![Teams 通知](https://raw.githubusercontent.com/TwiN/gatus/master/.github/assets/teams-alerts.png)
@@ -1510,7 +1530,8 @@ endpoints:
 | `alerting.teams-workflows.overrides`       | 可优先于默认配置的覆盖列表                                                                | `[]`               |
 | `alerting.teams-workflows.overrides[].group` | 该配置将覆盖指定的端点组配置                                                              | `""`               |
 | `alerting.teams-workflows.overrides[].*`   | 请参见 `alerting.teams-workflows.*` 参数                                                | `{}`               |
-</translate-content>
+
+
 ```yaml
 alerting:
   teams-workflows:
@@ -1584,7 +1605,8 @@ endpoints:
       - type: telegram
         send-on-resolved: true
 ```
-<translate-content>
+
+
 下面是通知的示例：
 
 ![Telegram notifications](https://raw.githubusercontent.com/TwiN/gatus/master/.github/assets/telegram-alerts.png)
@@ -1599,7 +1621,8 @@ endpoints:
 | `alerting.twilio.from`        | 发送 Twilio 警报的号码                                                                    | 必填 `""`     |
 | `alerting.twilio.to`          | 接收 Twilio 警报的号码                                                                    | 必填 `""`     |
 | `alerting.twilio.default-alert` | 默认警报配置。<br />参见 [设置默认警报](#setting-a-default-alert)                         | 不适用        |
-</translate-content>
+
+
 ```yaml
 alerting:
   twilio:
@@ -1714,8 +1737,10 @@ endpoints:
         send-on-resolved: true
         description: "health check failed"
 ```
-<translate-content>
-请注意，您可以像下面这样自定义 `[ALERT_TRIGGERED_OR_RESOLVED]` 占位符的解析值：</translate-content>
+
+
+请注意，您可以像下面这样自定义 `[ALERT_TRIGGERED_OR_RESOLVED]` 占位符的解析值：
+
 ```yaml
 alerting:
   custom:
@@ -1753,8 +1778,10 @@ alerting:
       failure-threshold: 5
       success-threshold: 5
 ```
-<translate-content>
-因此，您的 Gatus 配置看起来更加整洁：</translate-content>
+
+
+因此，您的 Gatus 配置看起来更加整洁：
+
 ```yaml
 endpoints:
   - name: example
@@ -1771,7 +1798,8 @@ endpoints:
     alerts:
       - type: slack
 ```
-它还允许你执行类似这样的操作：</translate-content>
+它还允许你执行类似这样的操作：
+
 
 ```yaml
 endpoints:
@@ -1787,8 +1815,10 @@ endpoints:
       - type: slack
         failure-threshold: 15
 ```
-<translate-content>
-当然，你也可以混合使用警报类型：</translate-content>
+
+
+当然，你也可以混合使用警报类型：
+
 ```yaml
 alerting:
   slack:
@@ -2003,37 +2033,46 @@ remote:
 ```console
 docker run -p 8080:8080 --name gatus twinproduction/gatus
 ```
-<translate-content>
+
+
 除了使用 [.examples](.examples) 文件夹中提供的示例之一外，您还可以通过本地创建配置文件来试用，  
 在此示例中，我们将其命名为 `config.yaml`，然后运行以下命令：  
-</translate-content>
+
+
 ```console
 docker run -p 8080:8080 --mount type=bind,source="$(pwd)"/config.yaml,target=/config/config.yaml --name gatus twinproduction/gatus
 ```
-<translate-content>
-如果您使用的是 Windows，请将 `"$(pwd)"` 替换为您当前目录的绝对路径，例如：</translate-content>
+
+
+如果您使用的是 Windows，请将 `"$(pwd)"` 替换为您当前目录的绝对路径，例如：
+
 ```console
 docker run -p 8080:8080 --mount type=bind,source=C:/Users/Chris/Desktop/config.yaml,target=/config/config.yaml --name gatus twinproduction/gatus
 ```
-<translate-content>
-在本地构建镜像：</translate-content>
+
+
+在本地构建镜像：
+
 ```console
 docker build . -t twinproduction/gatus
 ```
-<translate-content>
+
+
 
 ### Helm 图表
 必须安装 [Helm](https://helm.sh) 才能使用该图表。
 请参阅 Helm 的[文档](https://helm.sh/docs/)以开始使用。
 
 Helm 设置完成后，按如下方式添加仓库：
-</translate-content>
+
+
 ```console
 helm repo add twin https://twin.github.io/helm-charts
 helm repo update
 helm install gatus twin/gatus
 ```
-<translate-content>
+
+
 欲了解更多详情，请查看 [chart的配置](https://github.com/TwiN/helm-charts/blob/master/charts/gatus/README.md)。
 
 
@@ -2041,11 +2080,13 @@ helm install gatus twin/gatus
 Gatus 可以通过以下模块在 Terraform 上部署：[terraform-kubernetes-gatus](https://github.com/TwiN/terraform-kubernetes-gatus)。
 
 
-## 运行测试</translate-content>
+## 运行测试
+
 ```console
 go test -v ./...
 ```
-<translate-content>
+
+
 
 ## 在生产环境中使用
 请参阅[部署](#deployment)部分。
@@ -2055,7 +2096,8 @@ go test -v ./...
 ### 发送GraphQL请求
 通过将 `endpoints[].graphql` 设置为 true，body 会自动被标准的 GraphQL `query` 参数包裹。
 
-例如，以下配置：</translate-content>
+例如，以下配置：
+
 ```yaml
 endpoints:
   - name: filter-users-by-gender
@@ -2132,7 +2174,8 @@ endpoints:
     conditions:
       - "[CONNECTED] == true"
 ```
-<translate-content>如果设置了 `endpoints[].body`，则会发送该内容，响应的前 1024 字节将包含在 `[BODY]` 中。
+
+如果设置了 `endpoints[].body`，则会发送该内容，响应的前 1024 字节将包含在 `[BODY]` 中。
 
 占位符 `[STATUS]` 以及字段 `endpoints[].headers`、
 `endpoints[].method` 和 `endpoints[].graphql` 不支持用于 TCP 端点。
@@ -2144,7 +2187,8 @@ endpoints:
 
 
 ### 监控 UDP 端点
-通过在 `endpoints[].url` 前缀添加 `udp://`，您可以以非常基础的方式监控 UDP 端点：</translate-content>
+通过在 `endpoints[].url` 前缀添加 `udp://`，您可以以非常基础的方式监控 UDP 端点：
+
 
 ```yaml
 endpoints:
@@ -2171,7 +2215,8 @@ endpoints:
     conditions:
       - "[CONNECTED] == true"
 ```
-<translate-content>
+
+
 占位符 `[STATUS]` 和 `[BODY]` 以及字段 `endpoints[].body`、`endpoints[].headers`、  
 `endpoints[].method` 和 `endpoints[].graphql` 不支持 SCTP 端点。  
 
@@ -2179,7 +2224,8 @@ endpoints:
 
 
 ### 监控 WebSocket 端点  
-通过在 `endpoints[].url` 前缀添加 `ws://` 或 `wss://`，您可以以非常基础的方式监控 WebSocket 端点：</translate-content>
+通过在 `endpoints[].url` 前缀添加 `ws://` 或 `wss://`，您可以以非常基础的方式监控 WebSocket 端点：
+
 ```yaml
 endpoints:
   - name: example
@@ -2205,7 +2251,8 @@ endpoints:
     conditions:
       - "[CONNECTED] == true"
 ```
-<translate-content>
+
+
 仅支持占位符 `[CONNECTED]`、`[IP]` 和 `[RESPONSE_TIME]` 用于 ICMP 类型的端点。
 您可以指定以 `icmp://` 为前缀的域名，或以 `icmp://` 为前缀的 IP 地址。
 
@@ -2215,7 +2262,8 @@ endpoints:
 
 ### 使用 DNS 查询监控端点
 在端点中定义 `dns` 配置将自动将该端点标记为 DNS 类型的端点：
-</translate-content>
+
+
 ```yaml
 endpoints:
   - name: example-dns-query
@@ -2234,7 +2282,8 @@ endpoints:
 
 
 ### 使用 SSH 监控端点
-您可以通过在 `endpoints[].url` 前加上 `ssh://` 来使用 SSH 监控端点：</translate-content>
+您可以通过在 `endpoints[].url` 前加上 `ssh://` 来使用 SSH 监控端点：
+
 
 ```yaml
 endpoints:
@@ -2269,7 +2318,8 @@ endpoints:
       - "[CONNECTED] == true"
       - "[STATUS] == 0"
 ```
-<translate-content>
+
+
 以下占位符支持用于 SSH 类型的端点：
 - `[CONNECTED]` 如果 SSH 连接成功，则解析为 `true`，否则为 `false`
 - `[STATUS]` 解析为在远程服务器上执行命令的退出代码（例如，成功时为 `0`）
@@ -2278,7 +2328,8 @@ endpoints:
 ### 使用 STARTTLS 监控端点
 如果您有一个电子邮件服务器，想确保其没有问题，通过 STARTTLS 进行监控
 将作为一个良好的初步指示器：
-</translate-content>
+
+
 ```yaml
 endpoints:
   - name: starttls-smtp-example
@@ -2305,14 +2356,16 @@ endpoints:
       - "[CONNECTED] == true"
       - "[CERTIFICATE_EXPIRATION] > 48h"
 ```
-<translate-content>
+
+
 如果设置了 `endpoints[].body`，则会发送该内容，响应的前1024字节将包含在 `[BODY]` 中。
 
 占位符 `[STATUS]` 以及字段 `endpoints[].headers`、
 `endpoints[].method` 和 `endpoints[].graphql` 不支持 TLS 端点。
 
 ### 监控域名过期
-您可以使用 `[DOMAIN_EXPIRATION]` 占位符监控除 DNS 以外所有端点类型的域名过期情况：</translate-content>
+您可以使用 `[DOMAIN_EXPIRATION]` 占位符监控除 DNS 以外所有端点类型的域名过期情况：
+
 
 
 ```yaml
@@ -2426,9 +2479,11 @@ endpoints:
 web:
   port: 8081
 ```
-<translate-content>
+
+
 如果您使用的是像 Heroku 这样的 PaaS，它不允许您设置自定义端口，而是通过环境变量暴露端口，
-您可以直接在配置文件中使用该环境变量：</translate-content>
+您可以直接在配置文件中使用该环境变量：
+
 ```yaml
 web:
   port: ${PORT}
@@ -2473,12 +2528,14 @@ endpoints:
       - "[STATUS] == 200"
       - "[BODY].status == UP"
 ```
-<translate-content></details>
+
+</details>
 
 
 ### 代理客户端配置
 您可以通过在客户端配置中设置 `proxy-url` 参数来配置客户端使用的代理。
-</translate-content>
+
+
 ```yaml
 endpoints:
   - name: website
@@ -2488,18 +2545,21 @@ endpoints:
     conditions:
       - "[STATUS] == 200"
 ```
-<translate-content>
+
+
 
 ### 如何修复 431 请求头字段过大错误
 根据您的环境部署位置以及位于 Gatus 前的中间件或反向代理类型，
 您可能会遇到此问题。这可能是因为请求头过大，例如大容量的 Cookie。
 
-默认情况下，`web.read-buffer-size` 设置为 `8192`，但通过如下方式增加此值将增大读取缓冲区大小：</translate-content>
+默认情况下，`web.read-buffer-size` 设置为 `8192`，但通过如下方式增加此值将增大读取缓冲区大小：
+
 ```yaml
 web:
   read-buffer-size: 32768
 ```
-<translate-content>
+
+
 
 ### 徽章
 #### 运行时间
@@ -2511,17 +2571,20 @@ web:
 Gatus 可以自动为您监控的端点之一生成 SVG 徽章。
 这使您可以将徽章放入各自应用程序的 README 文件中，甚至如果您愿意，还可以创建自己的状态页面。
 
-生成徽章的路径如下：</translate-content>
+生成徽章的路径如下：
+
 
 ```
 /api/v1/endpoints/{key}/uptimes/{duration}/badge.svg
 ```
-<translate-content>其中：
+
+其中：
 - `{duration}` 是 `30d`、`7d`、`24h` 或 `1h`
 - `{key}` 的格式为 `<GROUP_NAME>_<ENDPOINT_NAME>`，其中两个变量中的 ` `、`/`、`_`、`,`、`.` 和 `#` 均替换为 `-`。
 
 例如，如果您想获取来自组 `core` 中端点 `frontend` 的过去 24 小时的正常运行时间，
-则 URL 如下所示：</translate-content>
+则 URL 如下所示：
+
 ```
 https://example.com/api/v1/endpoints/core_frontend/uptimes/7d/badge.svg
 ```
@@ -2533,13 +2596,15 @@ https://example.com/api/v1/endpoints/_frontend/uptimes/7d/badge.svg
 ```
 ![Uptime 24h](https://status.twin.sh/api/v1/endpoints/core_blog-external/uptimes/24h/badge.svg)
 ```
-<translate-content>如果您想查看每个徽章的视觉示例，只需导航到端点的详细页面即可。
+
+如果您想查看每个徽章的视觉示例，只需导航到端点的详细页面即可。
 
 
 #### 健康
 ![Health](https://status.twin.sh/api/v1/endpoints/core_blog-external/health/badge.svg)
 
-生成徽章的路径如下：</translate-content>
+生成徽章的路径如下：
+
 ```
 /api/v1/endpoints/{key}/health/badge.svg
 ```
@@ -2547,24 +2612,28 @@ Where:
 - `{key}` 的模式是 `<GROUP_NAME>_<ENDPOINT_NAME>`，其中两个变量中的 ` `、`/`、`_`、`,`、`.` 和 `#` 都被替换为 `-`。
 
 例如，如果您想获取组 `core` 中端点 `frontend` 的当前状态，
-URL 看起来会是这样：</translate-content>
+URL 看起来会是这样：
+
 ```
 https://example.com/api/v1/endpoints/core_frontend/health/badge.svg
 ```
 #### 健康状况（Shields.io）
 ![健康状况](https://img.shields.io/endpoint?url=https%3A%2F%2Fstatus.twin.sh%2Fapi%2Fv1%2Fendpoints%2Fcore_blog-external%2Fhealth%2Fbadge.shields)
 
-生成徽章的路径如下：</translate-content>
+生成徽章的路径如下：
+
 
 
 ```
 /api/v1/endpoints/{key}/health/badge.shields
 ```
-<translate-content>其中：
+
+其中：
 - `{key}` 的模式为 `<GROUP_NAME>_<ENDPOINT_NAME>`，其中两个变量中的 ` `、`/`、`_`、`,`、`.` 和 `#` 都被替换为 `-`。
 
 例如，如果您想获取组 `core` 中端点 `frontend` 的当前状态，
-URL 将如下所示：</translate-content>
+URL 将如下所示：
+
 ```
 https://example.com/api/v1/endpoints/core_frontend/health/badge.shields
 ```
@@ -2620,15 +2689,18 @@ endpoints:
 ### API
 Gatus 提供了一个简单的只读 API，可以通过该 API 以编程方式确定端点状态和历史。
 
-所有端点都可以通过对以下端点的 GET 请求获得：</translate-content>
+所有端点都可以通过对以下端点的 GET 请求获得：
+
 
 
 ```
 /api/v1/endpoints/statuses
 ````
-<translate-content>示例：https://status.twin.sh/api/v1/endpoints/statuses
 
-也可以使用以下模式查询特定的端点：</translate-content>
+示例：https://status.twin.sh/api/v1/endpoints/statuses
+
+也可以使用以下模式查询特定的端点：
+
 ```
 /api/v1/endpoints/{group}_{endpoint}/statuses
 ```
@@ -2644,7 +2716,8 @@ Gatus 会暴露您监控的某个端点的原始数据。
 这允许您在自己的应用程序中跟踪和汇总监控端点的数据。例如，如果您想跟踪超过 7 天的正常运行时间。
 
 ##### 正常运行时间
-获取端点原始正常运行时间数据的路径是：</translate-content>
+获取端点原始正常运行时间数据的路径是：
+
 ```
 /api/v1/endpoints/{key}/uptimes/{duration}
 ```
@@ -2666,12 +2739,14 @@ Where:
 - `{duration}` 是 `30d`、`7d`、`24h` 或 `1h`
 - `{key}` 的格式为 `<GROUP_NAME>_<ENDPOINT_NAME>`，其中两个变量中的 ` `、`/`、`_`、`,`、`.` 和 `#` 都被替换为 `-`。
 
-例如，如果您想获取组 `core` 中端点 `frontend` 最近 24 小时的原始响应时间数据，URL 看起来会是这样：</translate-content>
+例如，如果您想获取组 `core` 中端点 `frontend` 最近 24 小时的原始响应时间数据，URL 看起来会是这样：
+
 ```
 https://example.com/api/v1/endpoints/core_frontend/response-times/24h
 ```
 ### 作为二进制文件安装
-您可以使用以下命令下载 Gatus 二进制文件：</translate-content>
+您可以使用以下命令下载 Gatus 二进制文件：
+
 
 ```
 go install github.com/TwiN/gatus/v5@latest

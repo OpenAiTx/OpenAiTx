@@ -1,4 +1,4 @@
-# 🛡️ Azure & Office 365 安全报告
+﻿# 🛡️ Azure & Office 365 安全报告
 
 > **针对 Azure 和 Office 365 环境的综合 PowerShell 7 安全审计工具**
 
@@ -107,7 +107,8 @@
 ---
 ### 先决条件
 
-确保已安装 PowerShell 7.0 及以上版本：</translate-content>
+确保已安装 PowerShell 7.0 及以上版本：
+
 ```powershell
 # Check PowerShell version
 $PSVersionTable.PSVersion
@@ -120,13 +121,17 @@ $PSVersionTable.PSVersion
    git clone https://github.com/SteffMet/Azure-Office365-Security-Reporting.git
    cd Azure-Office365-Security-Reporting
    ```
-<translate-content>
-2. **运行启动脚本（推荐）：**</translate-content>
+
+
+2. **运行启动脚本（推荐）：**
+
    ```powershell
    .\Start-AzureSecurityReport.ps1
    ```
-<translate-content>   
-   **或者直接运行：**</translate-content>
+
+   
+   **或者直接运行：**
+
    ```powershell
    # Modular version (recommended)
    .\AzureSecurityReport-Modular.ps1
@@ -155,7 +160,8 @@ Reports.Read.All
 AuditLog.Read.All
 Sites.Read.All
 ```
-<translate-content>
+
+
 ### Office 365 权限
 - **Exchange Online**：仅查看组织管理
 - **Microsoft Teams**：团队管理员（只读操作）
@@ -169,7 +175,8 @@ Sites.Read.All
 
 **🔧 快速解决方案：**
 
-1. **使用启动脚本（推荐）**：</translate-content>
+1. **使用启动脚本（推荐）**：
+
    ```powershell
    .\Start-AzureSecurityReport.ps1
    ```

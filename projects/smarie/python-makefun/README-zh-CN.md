@@ -1,4 +1,5 @@
-<translate-content># python-makefun
+﻿
+# python-makefun
 
 *一个用于动态创建 Python 函数的小型库。*
 
@@ -17,7 +18,8 @@
 ## `nox` 配置
 
 本项目使用 `nox` 来定义所有生命周期任务。为了能够运行这些任务，你应该创建 Python 3.7 环境并安装依赖：
-</translate-content>
+
+
 ```bash
 >>> conda create -n noxenv python="3.7"
 >>> activate noxenv
@@ -47,7 +49,8 @@ Sessions defined in <path>\noxfile.py:
 ```bash
 nox
 ```
-<translate-content>
+
+
 测试和覆盖率报告会自动生成在 `./docs/reports` 目录下，针对某个会话（`tests-3.7`）。
 
 如果您希望在特定环境下执行测试，请使用明确的会话名称，例如 `nox -s tests-3.6`。
@@ -56,7 +59,8 @@ nox
 ## 编辑文档
 
 本项目使用 `mkdocs` 来生成文档页面。因此，可以使用 `mkdocs build -f docs/mkdocs.yml` 来构建本地文档副本。但同样，使用 `nox` 会更简单。您可以轻松地构建并本地启动一个文档站点版本，使用：
-</translate-content>
+
+
 ```bash
 >>> nox -s docs
 nox > Running session docs-3.7
@@ -73,7 +77,8 @@ INFO    -  Serving on http://127.0.0.1:8000
 INFO    -  Start watching changes
 ...
 ```
-<translate-content>
+
+
 在运行时，您可以编辑 `./docs/` 目录下的文件，并在本地 [http://127.0.0.1:8000](http://127.0.0.1:8000) 页面浏览自动刷新的文档。
 
 完成后，只需按 `<CTRL+C>` 停止会话。
@@ -87,7 +92,8 @@ INFO    -  Start watching changes
 ### 合并带有编辑的拉取请求 - 备忘
 
 Ax 在 GitHub 中解释（“获取命令行指令”）：
-</translate-content>
+
+
 ```bash
 git checkout -b <git_name>-<feature_branch> main
 git pull https://github.com/<git_name>/python-makefun.git <feature_branch> --no-commit --ff-only

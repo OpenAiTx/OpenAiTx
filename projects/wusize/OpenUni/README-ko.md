@@ -1,4 +1,5 @@
-<translate-content># OpenUni: 통합 멀티모달 이해 및 생성의 간단한 기준선
+﻿
+# OpenUni: 통합 멀티모달 이해 및 생성의 간단한 기준선
 
 ![](https://raw.githubusercontent.com/wusize/OpenUni/main/figures/teaser.png)
 
@@ -26,7 +27,8 @@
 
 
 
-## 환경</translate-content>
+## 환경
+
 ```
 mmengine
 xtuner

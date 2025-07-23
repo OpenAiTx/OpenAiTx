@@ -1,4 +1,5 @@
-<translate-content># Zero Calendar
+﻿
+# Zero Calendar
 
 [![使用 Vercel 部署](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FZero-Calendar%2Fzero-calendar)
 
@@ -40,7 +41,8 @@ Zero Calendar 采用现代且可靠的技术构建：
 
 #### 快速入门指南
 
-1. **克隆并安装**</translate-content>
+1. **克隆并安装**
+
 ```bash
 # Clone the repository
 git clone https://github.com/Zero-Calendar/zero-calendar.git
@@ -90,7 +92,8 @@ KV_REST_API_READ_ONLY_TOKEN= # Required: Vercel KV REST API read-only token
 # AI Integration
 GROQ_API_KEY=        # Required for AI features
 ```
-<translate-content>
+
+
 ### Google OAuth 设置（Google 日历集成必需）
 
 1. 访问 [Google Cloud Console](https://console.cloud.google.com/)
@@ -103,7 +106,8 @@ GROQ_API_KEY=        # Required for AI features
 6. 添加授权重定向 URI：
    - 开发环境：`http://localhost:3000/api/auth/callback/google`
    - 生产环境：`https://your-production-url/api/auth/callback/google`
-7. 添加到 `.env.local`：</translate-content>
+7. 添加到 `.env.local`：
+
 ```
 GOOGLE_CLIENT_ID=your_client_id
 GOOGLE_CLIENT_SECRET=your_client_secret

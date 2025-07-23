@@ -1,4 +1,5 @@
-<translate-content># Fastgen
+﻿
+# Fastgen
 
 **조밀한 트랜스포머로부터의 고처리량 추론.**
 

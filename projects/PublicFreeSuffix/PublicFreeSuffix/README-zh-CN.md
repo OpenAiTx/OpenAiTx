@@ -1,4 +1,5 @@
-<translate-content># 公开免费后缀：人人免费域名
+﻿
+# 公开免费后缀：人人免费域名
 
 **公开免费后缀** 是一个非盈利的免费子域名服务，旨在赋能各类社区。我们致力于提供便捷的资源给：
 
@@ -7,7 +8,8 @@
 * **技术人员：** 计算机和网络技术研究、实验室搭建及新配置试验的优良资源。
 * **个人用户：** 在我们的合规框架内托管个人博客、作品集或小型兴趣项目。
 
-任何人都可以在这里注册并获得免费的域名，无需每年续费。当前提供服务的后缀如下（二级域名）：</translate-content>
+任何人都可以在这里注册并获得免费的域名，无需每年续费。当前提供服务的后缀如下（二级域名）：
+
 ```text
 pfsdns.org
 nastu.net
@@ -40,11 +42,13 @@ git checkout main
 git pull origin main
 git checkout -b yourdomain.no.kg-request-1
 ```
-<translate-content>在执行任何 PR（拉取请求）操作之前——无论是注册、更新还是删除域名的 Whois 文件——您都应始终切换回主分支，并将最新的更改同步到本地环境。  
+
+在执行任何 PR（拉取请求）操作之前——无论是注册、更新还是删除域名的 Whois 文件——您都应始终切换回主分支，并将最新的更改同步到本地环境。  
 随后，按照指定的分支命名规范创建一个新分支。保存您的更改，然后从该新分支创建一个新的 PR。  
 分支命名规范应始终根据具体的操作次数进行调整，格式为：`yourdomain.no.kg-request-{a_number_here}`。  
   
-2. 选择可用的域名，并在 `./whois/{your-new-domain-name}.json` 文件夹中创建新的 whois 文件：</translate-content>
+2. 选择可用的域名，并在 `./whois/{your-new-domain-name}.json` 文件夹中创建新的 whois 文件：
+
 ```json
 {
   "registrant": "your-own-example@gmail.com",

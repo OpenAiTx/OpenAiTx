@@ -1,4 +1,5 @@
-<translate-content># 복서(Boxer)
+﻿
+# 복서(Boxer)
 
 <p align="center">
   <p align="center">

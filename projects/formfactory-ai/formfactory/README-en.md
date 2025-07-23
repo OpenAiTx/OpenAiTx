@@ -1,4 +1,5 @@
-<translate-content># FormFactory: An Interactive Benchmarking Suite for Multimodal Form-Filling Agents
+﻿
+# FormFactory: An Interactive Benchmarking Suite for Multimodal Form-Filling Agents
 
 ![](https://raw.githubusercontent.com/formfactory-ai/formfactory/main/img/fig1v1_page_1.png)
 
@@ -31,7 +32,8 @@ Online form filling is one of the most common—yet most labor-intensive—daily
 
 - Python ≥ 3.8
 - Flask == 2.3.*
-- Install additional dependencies with:</translate-content>
+- Install additional dependencies with:
+
   ```bash
   pip install -r requirements.txt
   ```

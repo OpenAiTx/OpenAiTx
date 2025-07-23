@@ -1,4 +1,5 @@
-<translate-content># 🧘 zenta
+﻿
+# 🧘 zenta
 
 > **适合你的编码流程的正念**
 
@@ -9,7 +10,8 @@
 ---
 
 ## ⚡ 快速开始
-</translate-content>
+
+
 ```bash
 # Install (one-liner)
 curl -fsSL https://raw.githubusercontent.com/e6a5/zenta/main/install.sh | bash

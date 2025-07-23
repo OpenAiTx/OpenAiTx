@@ -1,4 +1,4 @@
-<!--lint disable awesome-contributing awesome-license awesome-list-item match-punctuation no-repeat-punctuation no-undefined-references awesome-spell-check-->
+﻿<!--lint disable awesome-contributing awesome-license awesome-list-item match-punctuation no-repeat-punctuation no-undefined-references awesome-spell-check-->
 # Awesome Stars [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 
 > 私のGitHubスターの厳選リスト！ [starred](https://github.com/maguowei/starred) によって生成されました。
@@ -1897,7 +1897,8 @@
 - [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) - Claude Codeをコーディングインフラの基盤として使用し、モデルとの対話方法を決めながらAnthropicの更新も享受。
 - [aigem/CFr2-webdav](https://github.com/aigem/CFr2-webdav) - Cloudflare WorkersとR2を使ってWebDAV互換サーバーを実装
 - [TBXark/ChatGPT-Telegram-Workers](https://github.com/TBXark/ChatGPT-Telegram-Workers) - Cloudflare Workers（またはVercel、Dockerなど）で簡単にTelegram ChatGPTボットを展開。
-- [kyswtn/vscode-vercel](https://github.com/kyswtn/vscode-vercel) - コーディング中にVercelのデプロイを監視</translate-content>
+- [kyswtn/vscode-vercel](https://github.com/kyswtn/vscode-vercel) - コーディング中にVercelのデプロイを監視
+
 - [Femoon/tts-azure-web](https://github.com/Femoon/tts-azure-web) - TTS Azure Web は Azure テキスト読み上げ（TTS）のウェブアプリケーションで、ローカルまたはクラウド上で Azure Key を使ってワンクリックでデプロイ可能です。TTS Azure Web is an Azure Text-to-Speech (TTS) web application. It allows you to run it locally or deploy it with a single click usi  
 - [daytonaio/daytona](https://github.com/daytonaio/daytona) - Daytona は AI が生成したコードを実行するための安全で柔軟なインフラストラクチャです  
 - [bepass-org/oblivion-desktop](https://github.com/bepass-org/oblivion-desktop) - Oblivion Desktop - Windows/Mac/Linux向け非公式Warpクライアント  

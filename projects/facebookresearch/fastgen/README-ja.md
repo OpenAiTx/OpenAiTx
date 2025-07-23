@@ -1,4 +1,5 @@
-<translate-content># Fastgen
+﻿
+# Fastgen
 
 **高スループットな密なトランスフォーマーからの推論。**
 

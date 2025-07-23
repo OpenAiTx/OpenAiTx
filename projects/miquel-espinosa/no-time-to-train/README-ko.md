@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 언어</summary>
     <div>
@@ -147,7 +147,8 @@ cd dinov2
 wget https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_pretrain.pth
 cd ../..
 ```
-<translate-content>
+
+
 
 ## 📊 추론 코드
 
@@ -156,7 +157,8 @@ cd ../..
 ### Few-shot COCO에서 30-shot SOTA 결과 재현하기
 
 유용한 변수를 정의하고 결과를 위한 폴더를 만듭니다:
-</translate-content>
+
+
 ```bash
 CONFIG=./no_time_to_train/new_exps/coco_fewshot_10shot_Sam2L.yaml
 CLASS_SPLIT="few_shot_classes"

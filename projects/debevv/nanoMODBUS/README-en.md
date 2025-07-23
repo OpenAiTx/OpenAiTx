@@ -1,4 +1,5 @@
-<translate-content># nanoMODBUS - A compact MODBUS RTU/TCP C library for embedded/microcontrollers
+﻿
+# nanoMODBUS - A compact MODBUS RTU/TCP C library for embedded/microcontrollers
 
 **If you found this library useful, buy me a coffee on**
 [<img src='https://storage.ko-fi.com/cdn/brandasset/logo_white_stroke.png' width='80'>](https://ko-fi.com/B0B2LK779)

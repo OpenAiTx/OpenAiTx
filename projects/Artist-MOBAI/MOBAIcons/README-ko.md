@@ -1,4 +1,5 @@
-<translate-content>[![MOBAIcons](https://mobaicons.com/about)](https://mobaicons.com/)
+﻿
+[![MOBAIcons](https://mobaicons.com/about)](https://mobaicons.com/)
 [![MOBAIcons](https://raw.githubusercontent.com/Artist-MOBAI/MOBAIcons/main/./src/docs/image/author.svg)](https://mobaicons.com/)
 
 <!-- [![API 상태](https://img.shields.io/badge/API-Online-green)](https://mobaicons.com)
@@ -6,7 +7,8 @@
 [![GitHub 별](https://img.shields.io/github/stars/Artist-MOBAI/MOBAIcons)](https://github.com/Artist-MOBAI/MOBAIcons) -->
 
 ### `GET` `/icons/name1,name2`
-</translate-content>
+
+
 ```md
 <!-- Github Profile -->
 

@@ -1,4 +1,5 @@
-<translate-content># FormFactory: 다중 모달 폼 작성 에이전트를 위한 인터랙티브 벤치마킹 스위트
+﻿
+# FormFactory: 다중 모달 폼 작성 에이전트를 위한 인터랙티브 벤치마킹 스위트
 
 ![](https://raw.githubusercontent.com/formfactory-ai/formfactory/main/img/fig1v1_page_1.png)
 
@@ -31,7 +32,8 @@
 
 - Python ≥ 3.8
 - Flask == 2.3.*
-- 추가 의존성 설치 명령:</translate-content>
+- 추가 의존성 설치 명령:
+
   ```bash
   pip install -r requirements.txt
   ```
@@ -50,7 +52,8 @@ python app.py        # default: http://127.0.0.1:5000/
 
 ---
 
-## 🗂 디렉토리 구조</translate-content>
+## 🗂 디렉토리 구조
+
 ```text
 formfactory/
 ├─ app.py                # Flask back-end entry point

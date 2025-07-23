@@ -1,4 +1,4 @@
-<picture>
+﻿<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ehmicky/design/main/log-process-errors/log-process-errors_dark.svg"/>
   <img alt="log-process-errors 로고" src="https://raw.githubusercontent.com/ehmicky/design/main/log-process-errors/log-process-errors.svg" width="500"/>
 </picture>
@@ -44,7 +44,8 @@ npm install log-process-errors
 ```bash
 npm install -D log-process-errors
 ```
-<translate-content>
+
+
 이는 로깅이 전역적으로 수정되기 때문이며, 라이브러리 사용자는 이러한 부작용을 예상하지 못할 수 있습니다. 또한, 이는 라이브러리 간 충돌을 초래할 수 있습니다.
 
 이 패키지는 Node.js >=18.18.0에서 작동합니다.
@@ -63,15 +64,18 @@ require()를 사용하면 안 됩니다. TypeScript를 사용하는 경우,
 _반환 값_: `() => void`
 
 프로세스 오류 처리를 시작합니다.
-</translate-content>
+
+
 
 ```js
 import logProcessErrors from 'log-process-errors'
 logProcessErrors(options)
 ```
-<translate-content>
+
+
 반환 값은 Node.js의 기본 동작을 복원합니다.
-</translate-content>
+
+
 ```js
 const restore = logProcessErrors(options)
 restore()

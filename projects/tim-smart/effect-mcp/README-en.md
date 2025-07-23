@@ -1,4 +1,5 @@
-<translate-content># effect mcp server
+﻿
+# effect mcp server
 
 [![Install MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/install-mcp?name=effect%20docs&config=eyJjb21tYW5kIjoibnB4IC15IGVmZmVjdC1tY3AifQ%3D%3D)
 
@@ -7,7 +8,8 @@ This MCP server adds tools and resources for accessing Effect documentation.
 ## Usage
 
 You can run with docker using:
-</translate-content>
+
+
 ```bash
 docker run --rm -i timsmart/effect-mcp
 ```

@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 <p><a href="https://www.nuget.org/packages/MiniWord"><img src="https://img.shields.io/nuget/v/MiniWord.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniWord"><img src="https://img.shields.io/nuget/dt/MiniWord.svg" alt=""></a>
 <a href="https://github.com/mini-software/MiniWord" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniWord?logo=github" alt="GitHub stars"></a>
 <a href="https://www.nuget.org/packages/MiniWord"><img src="https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg" alt="version"></a>
@@ -54,7 +54,8 @@ SaveAsByTemplate(string path, byte[] templateBytes, Dictionary<string, object> v
 SaveAsByTemplate(this Stream stream, string templatePath, Dictionary<string, object> value)
 SaveAsByTemplate(this Stream stream, byte[] templateBytes, Dictionary<string, object> value)
 ```
-<translate-content>
+
+
 
 
 ## 標籤
@@ -62,7 +63,8 @@ SaveAsByTemplate(this Stream stream, byte[] templateBytes, Dictionary<string, ob
 MiniWord 範本格式字串類似於 Vue、React 的 `{{tag}}`，使用者只需確保標籤與 value 參數的鍵相同，系統便會自動替換它們。
 
 ### 文字
-</translate-content>
+
+
 ```csharp
 {{tag}}
 ```
@@ -104,7 +106,8 @@ var value = new Dictionary<string, object>()
 };
 MiniWord.SaveAsByTemplate(path, templatePath, value);
 ```
-<translate-content>
+
+
 
 
 ##### 範本
@@ -120,7 +123,8 @@ MiniWord.SaveAsByTemplate(path, templatePath, value);
 tag 值為 `string[]` 或 `IList<string>` 類型
 
 ##### 範例
-</translate-content>
+
+
 ```csharp
 var value = new Dictionary<string, object>()
 {
@@ -351,7 +355,8 @@ var value = new
 };
 MiniWord.SaveAsByTemplate(path, templatePath, value);
 ```
-<translate-content>
+
+
 
 
 ## 範例
@@ -359,7 +364,8 @@ MiniWord.SaveAsByTemplate(path, templatePath, value);
 
 
 #### ASP.NET Core 3.1 API 匯出
-</translate-content>
+
+
 ```cs
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -465,14 +471,16 @@ public class ApiController : Controller
     }
 }
 ```
-<translate-content>
+
+
 
 
 
 
 
 ## 支持 : [捐款連結](https://miniexcel.github.io/)
-</translate-content>
+
+
 
 ---
 

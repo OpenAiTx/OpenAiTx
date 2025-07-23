@@ -1,4 +1,5 @@
-<translate-content># Backend Fight - 2025
+﻿
+# Backend Fight - 2025
 
 The Backend Fight is a challenge where you need to develop a backend solution in any technology, with the main goal being learning and knowledge sharing! This is the third edition of the challenge.
 

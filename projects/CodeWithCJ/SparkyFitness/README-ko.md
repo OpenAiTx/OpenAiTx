@@ -1,4 +1,4 @@
-<div align="right">
+﻿<div align="right">
   <details>
     <summary >🌐 언어</summary>
     <div>
@@ -96,7 +96,8 @@ SparkyFitness는 사용자가 영양, 운동, 신체 치수를 모니터링할 �
   https://discord.gg/vcnMT5cPEA
 * **토론 게시판에 글 남기기**
 
-</translate-content>
+
+
 
 ![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
 

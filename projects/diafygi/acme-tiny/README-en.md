@@ -1,4 +1,5 @@
-<translate-content># acme-tiny
+﻿
+# acme-tiny
 
 [![Tests](https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml/badge.svg?branch=main)](https://github.com/diafygi/acme-tiny/actions/workflows/full-tests-with-coverage.yml)
 [![Coverage Status](https://coveralls.io/repos/github/diafygi/acme-tiny/badge.svg?branch=main)](https://coveralls.io/github/diafygi/acme-tiny?branch=main)
@@ -31,7 +32,8 @@ this script likely isn't for you! Please use the official Let's Encrypt
 [client](https://github.com/letsencrypt/letsencrypt).
 To accomplish this you need to initially create a key, that can be used by
 acme-tiny, to register an account for you and sign all following requests.
-</translate-content>
+
+
 ```
 openssl genrsa 4096 > account.key
 ```

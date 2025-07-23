@@ -1,4 +1,4 @@
-# with-react
+﻿# with-react
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/jacobparis/with-react?style=social)
 ![npm](https://img.shields.io/npm/v/with-react?style=plastic)
@@ -43,14 +43,16 @@ function UserProfile({ user, showDetails }) {
   )
 }
 ```
-<translate-content>
+
+
 
 ## 循环中的钩子
 
 这是条件钩子的一个特殊情况，但有时你在循环中渲染大量项目，并且不值得为它们创建自定义组件，因为它们需要从父作用域获取太多数据。
 
 但是当你需要为每个项目添加一些状态时，React 强制你将其包装在组件中。通过使用 WithState，该组件会为你提供，你可以让父组件拥有你的列表项。
-</translate-content>
+
+
 ```tsx
 const items = ['apple', 'banana', 'orange']
 
@@ -94,7 +96,8 @@ function SearchForm() {
   )
 }
 ```
-<translate-content>
+
+
 ## Promise 解析
 
 `use()` 钩子可以解析 Promise，但它必须用在它要触发的 Suspense 边界的子组件中。由于数据最好在路由层获取，这些 Promise 几乎总是自然地位于其 Suspense 边界所需的 UI 之上。
@@ -102,7 +105,8 @@ function SearchForm() {
 WithUse 组件允许你传入一个 Promise，并直接在组件内部获取其解析后的值。
 
 这个用例类似于 [React Router 的 Await 组件](https://reactrouter.com/api/components/Await)，后者是个更好的名字，但我这里必须保持主题一致。
-</translate-content>
+
+
 ```tsx
 function UserDetails() {
   return (
@@ -122,7 +126,8 @@ function UserDetails() {
   )
 }
 ```
-<translate-content>
+
+
 ## 可用组件
 
 WithState 和 WithFormStatus 是最有用的
@@ -145,7 +150,8 @@ WithState 和 WithFormStatus 是最有用的
 | `useSyncExternalStore` | `WithSyncExternalStore` |
 | `useTransition` | `WithTransition` |
 | `use` | `WithUse` |
-</translate-content>
+
+
 
 ---
 

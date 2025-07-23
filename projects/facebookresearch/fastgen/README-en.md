@@ -1,4 +1,5 @@
-<translate-content># Fastgen
+﻿
+# Fastgen
 
 **High-throughput inference from dense transformers.**
 

@@ -1,4 +1,5 @@
-<translate-content># DeckTap (LAN MVP)
+﻿
+# DeckTap (LAN MVP)
 
 <a href="https://youtu.be/pNgNUWSf7C4" title="Link Title"><img src="https://raw.githubusercontent.com/Rico00121/decktap/main/./images/hero.png" alt="Alternate Text" width="600"/></a>
 
@@ -17,7 +18,8 @@ Use your phone to wirelessly control PowerPoint, Keynote, PDF slideshows — no 
 
 ---
 
-## 📦 Project Structure</translate-content>
+## 📦 Project Structure
+
 ```yaml
 decktap/
 ├── client/            # Computer side agent

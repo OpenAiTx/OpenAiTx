@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
 <a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Build status"></a>
 <a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="GitHub stars"></a>
@@ -506,11 +506,13 @@ Từ phiên bản v0.19.0, `OpenXmlConfiguration.AutoFilter` có thể bật/t�
 ```csharp
 MiniExcel.SaveAs(path, value, configuration: new OpenXmlConfiguration() { AutoFilter = false });
 ```
-<translate-content>
+
+
 
 
 #### 10. Tạo Hình ảnh
-</translate-content>
+
+
 ```csharp
 var value = new[] {
     new { Name="github",Image=File.ReadAllBytes(PathHelper.GetFile("images/github_logo.png"))},
@@ -548,7 +550,9 @@ var path = @"../../../../../samples/xlsx/TestMergeWithTag.xlsx";
 
 MiniExcel.MergeSameCells(mergedFilePath, path);
 ```
-<translate-content></translate-content>
+
+
+
 ```csharp
 var memoryStream = new MemoryStream();
 
@@ -609,9 +613,11 @@ MiniExcel.SaveAs(@"C:\temp\Book1.xlsx", dt, configuration: configuration);
     </x:c>
 </x:row>
 ```
-<translate-content>
+
+
 Hành vi trước đây:
-</translate-content>
+
+
 ```csharp
 /* ... */
 
@@ -835,7 +841,8 @@ var value = new
 };
 MiniExcel.SaveAsByTemplate(path, templatePath, value);
 ```
-<translate-content>
+
+
 
 
 #### 6. Ví dụ :  Liệt kê các Dự án Github
@@ -850,7 +857,8 @@ Kết quả
 ![image](https://user-images.githubusercontent.com/12729184/115068639-1a5f6d80-9f25-11eb-9f45-27c434d19a78.png)
 
 Mã nguồn
-</translate-content>
+
+
 ```csharp
 var projects = new[]
 {
@@ -1034,7 +1042,8 @@ Assert.Null(rows[0].Test5);
 Assert.Null(rows[0].Test6);
 Assert.Equal("Test4", rows[0].Test7);
 ```
-<translate-content>
+
+
 
 
 
@@ -1044,7 +1053,8 @@ Assert.Equal("Test4", rows[0].Test7);
 Kể từ phiên bản V0.21.0 hỗ trợ lớp chứa phương thức định dạng `ToString(string content)`
 
 Lớp
-</translate-content>
+
+
 ```csharp
 public class Dto
 {
@@ -1095,13 +1105,15 @@ public class Dto
     public string Name { get; set; }
 }
 ```
-<translate-content>
+
+
 
 
 #### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
 Kể từ phiên bản 1.24.0, hệ thống hỗ trợ System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
-</translate-content>
+
+
 ```C#
 public class TestIssueI4TXGTDto
 {
@@ -1259,7 +1271,8 @@ stream.Query(excelType:ExcelType.CSV);
 //or
 stream.Query(excelType:ExcelType.XLSX);
 ```
-<translate-content>
+
+
 
 
 
@@ -1275,7 +1288,8 @@ stream.Query(excelType:ExcelType.XLSX);
 #### Ký tự phân tách tùy chỉnh
 
 Mặc định là `,` làm ký tự phân tách, bạn có thể thay đổi thuộc tính `Seperator` để tùy chỉnh
-</translate-content>
+
+
 ```csharp
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
 {
@@ -1294,13 +1308,15 @@ var config = new CsvConfiguration()
 };
 var rows = MiniExcel.Query(path, configuration: config).ToList();
 ```
-<translate-content>
+
+
 
 
 #### Ngắt dòng tùy chỉnh
 
 Mặc định là `\r\n` làm ký tự xuống dòng, bạn có thể chỉnh sửa thuộc tính `NewLine` để tùy chỉnh
-</translate-content>
+
+
 ```csharp
 var config = new MiniExcelLibs.Csv.CsvConfiguration()
 {
@@ -1361,13 +1377,15 @@ Từ phiên bản 1.23.0, bạn có thể sử dụng GetDataReader
         }
     }
 ```
-<translate-content>
+
+
 
 
 ###  Bất đồng bộ (Async)
 
 - v0.17.0 hỗ trợ Bất đồng bộ (Async) (cảm ơn isdaniel ( SHIH,BING-SIOU)](https://github.com/isdaniel))
-</translate-content>
+
+
 ```csharp
 public static Task SaveAsAsync(string path, object value, bool printHeader = true, string sheetName = "Sheet1", ExcelType excelType = ExcelType.UNKNOWN, IConfiguration configuration = null)
 public static Task SaveAsAsync(this Stream stream, object value, bool printHeader = true, string sheetName = "Sheet1", ExcelType excelType = ExcelType.XLSX, IConfiguration configuration = null)
@@ -1890,11 +1908,13 @@ public static IEnumerable<dynamic> QueryWithoutEmptyRow(Stream stream, bool useH
     }
 }
 ```
-<translate-content>
+
+
 
 
 BảngDữLiệu :
-</translate-content>
+
+
 ```csharp
 public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useHeaderRow, string sheetName, ExcelType excelType, string startCell, IConfiguration configuration)
 {
@@ -1937,27 +1957,32 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
     return dt;
 }
 ```
-<translate-content>
+
+
 
 
 #### H. Làm cách nào để SaveAs(path, value) ghi đè file đã tồn tại mà không báo lỗi "The file ...xlsx already exists error"
 
 
 Vui lòng sử dụng lớp Stream để tùy chỉnh logic tạo file, ví dụ:
-</translate-content>
+
+
 ```C#
     using (var stream = File.Create("Demo.xlsx"))
         MiniExcel.SaveAs(stream,value);
 ```
-<translate-content>
+
+
 
 
 hoặc, kể từ phiên bản V1.25.0, SaveAs hỗ trợ tham số overwriteFile để bật/tắt ghi đè lên tệp đã tồn tại
-</translate-content>
+
+
 ```csharp
     MiniExcel.SaveAs(path, value, overwriteFile: true);
 ```
-<translate-content>
+
+
 
 
 
@@ -1990,7 +2015,8 @@ Liên kết https://github.com/orgs/mini-software/discussions/754
 ### Những người đóng góp
 
 ![](https://contrib.rocks/image?repo=mini-software/MiniExcel)
-</translate-content>
+
+
 
 ---
 
