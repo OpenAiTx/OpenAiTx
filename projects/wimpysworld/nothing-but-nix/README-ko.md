@@ -1,15 +1,44 @@
-﻿
+
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
+
 # Nothing but Nix
 
-**사전 설치된 불필요한 요소를 철저히 제거하여 GitHub Actions 러너를 [Nix](https://zero-to-nix.com/concepts/nix/) ❄️ 강력한 환경으로 변신시키세요.**
+**[Nix](https://zero-to-nix.com/concepts/nix/) ❄️의 힘을 극대화하기 위해 GitHub Actions 러너에서 불필요한 사전 설치 소프트웨어를 대폭 제거하세요.**
 
-GitHub Actions 러너는 Nix를 위한 저장 공간이 매우 부족하여 약 20GB에 불과합니다.
-*Nothing but Nix*는 불필요한 소프트웨어를 **가차 없이 제거**하여 Nix 저장소에 **65GB에서 130GB**의 공간을 제공합니다! 💪
+GitHub Actions 러너는 Nix를 위해 제공되는 디스크 공간이 매우 적으며, 약 ~20GB에 불과합니다.
+*Nothing but Nix*는 **불필요한 소프트웨어를 과감하게 제거**하여 Nix 스토어에 **65GB에서 130GB**까지 확보할 수 있습니다! 💪
 
 ## 사용법 🔧
 
-워크플로우에서 Nix를 설치하기 **전에** 이 액션을 추가하세요:
-
+워크플로에서 Nix를 설치하기 **전에** 이 액션을 추가하세요:
 
 ```yaml
 jobs:
@@ -155,6 +184,6 @@ Nix 저장소 토지 점유로부터 얼마나 많은 공간을 확보할지 사
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
 
 ---
