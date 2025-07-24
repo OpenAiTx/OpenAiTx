@@ -1,4 +1,5 @@
-﻿<div align="right">
+
+<div align="right">
   <details>
     <summary >🌐 언어</summary>
     <div>
@@ -36,13 +37,19 @@
 [![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)
 
-**최신 연구 성과 (Papers with Code)**
+**최첨단 성능 (Papers with Code)**
 
-[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
+[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
+
+[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
+
+[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(30--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
+
+<!-- [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
 [**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
 
-[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
+[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) -->
 
 </div>
 
@@ -50,40 +57,40 @@
 
 > 🚨 **업데이트 (2025년 7월 22일):** 커스텀 데이터셋에 대한 안내가 추가되었습니다!
 > 
-> 🔔 **업데이트 (2025년 7월 16일):** 코드가 안내와 함께 업데이트되었습니다!
+> 🔔 **업데이트 (2025년 7월 16일):** 코드와 사용법이 업데이트되었습니다!
 
 ---
 
 ## 📋 목차
 
-- [🎯 주요 특징](#-highlights)
-- [📜 초록](#-abstract)
-- [🧠 아키텍처](#-architecture)
-- [🛠️ 설치 안내](#️-installation-instructions)
-  - [1. 저장소 클론](#1-clone-the-repository)
-  - [2. conda 환경 생성](#2-create-conda-environment)
-  - [3. SAM2 및 DinoV2 설치](#3-install-sam2-and-dinov2)
-  - [4. 데이터셋 다운로드](#4-download-datasets)
-  - [5. SAM2 및 DinoV2 체크포인트 다운로드](#5-download-sam2-and-dinov2-checkpoints)
-- [📊 추론 코드: Few-shot COCO에서 30-shot SOTA 결과 재현](#-inference-code)
-  - [0. 참조 세트 생성](#0-create-reference-set)
-  - [1. 참조로 메모리 채우기](#1-fill-memory-with-references)
-  - [2. 메모리 뱅크 후처리](#2-post-process-memory-bank)
-  - [3. 타겟 이미지에 대해 추론](#3-inference-on-target-images)
-  - [결과](#results)
-- [🔍 커스텀 데이터셋](#-custom-dataset)
-  - [0. 커스텀 데이터셋 준비 ⛵🐦](#0-prepare-a-custom-dataset)
-  - [0.1 바운딩 박스 어노테이션만 있는 경우](#01-if-only-bbox-annotations-are-available)
-  - [0.2 coco 어노테이션을 pickle 파일로 변환](#02-convert-coco-annotations-to-pickle-file)
-  - [1. 참조로 메모리 채우기](#1-fill-memory-with-references)
-  - [2. 메모리 뱅크 후처리](#2-post-process-memory-bank)
-- [📚 인용](#-citation)
+- [🎯 하이라이트](#-하이라이트)
+- [📜 초록](#-초록)
+- [🧠 아키텍처](#-아키텍처)
+- [🛠️ 설치 방법](#️-설치-방법)
+  - [1. 저장소 복제](#1-저장소-복제)
+  - [2. conda 환경 생성](#2-conda-환경-생성)
+  - [3. SAM2 및 DinoV2 설치](#3-sam2-및-dinov2-설치)
+  - [4. 데이터셋 다운로드](#4-데이터셋-다운로드)
+  - [5. SAM2 및 DinoV2 체크포인트 다운로드](#5-sam2-및-dinov2-체크포인트-다운로드)
+- [📊 추론 코드: Few-shot COCO에서 30-shot SOTA 결과 재현](#-추론-코드)
+  - [0. 참조 세트 생성](#0-참조-세트-생성)
+  - [1. 참조로 메모리 채우기](#1-참조로-메모리-채우기)
+  - [2. 메모리 뱅크 후처리](#2-메모리-뱅크-후처리)
+  - [3. 대상 이미지에서 추론](#3-대상-이미지에서-추론)
+  - [결과](#결과)
+- [🔍 커스텀 데이터셋](#-커스텀-데이터셋)
+  - [0. 커스텀 데이터셋 준비 ⛵🐦](#0-커스텀-데이터셋-준비)
+  - [0.1 바운딩 박스 주석만 있을 때](#01-바운딩-박스-주석만-있을-때)
+  - [0.2 coco 주석을 pickle 파일로 변환](#02-coco-주석을-pickle-파일로-변환)
+  - [1. 참조로 메모리 채우기](#1-참조로-메모리-채우기)
+  - [2. 메모리 뱅크 후처리](#2-메모리-뱅크-후처리)
+- [📚 인용](#-인용)
 
 
-## 🎯 주요 특징
+## 🎯 하이라이트
 - 💡 **학습 불필요**: 파인튜닝, 프롬프트 엔지니어링 없이 참조 이미지만 있으면 됩니다.  
 - 🖼️ **참조 기반**: 몇 개의 예시만으로 새로운 객체를 분할합니다.  
-- 🔥 **최신 성능**: COCO, PASCAL VOC, Cross-Domain FSOD에서 기존 학습 없는 방식보다 우수한 성능을 보입니다.
+- 🔥 **최첨단 성능**: 기존 학습 불필요 방식 대비 COCO, PASCAL VOC, Cross-Domain FSOD에서 우수한 성능.
 
 **링크:**
 - 🧾 [**arXiv 논문**](https://arxiv.org/abs/2507.02798)  
@@ -92,20 +99,19 @@
 
 ## 📜 초록
 
-> 이미지 분할 모델의 성능은 대규모 주석 데이터 수집의 높은 비용으로 인해 역사적으로 제한되어 왔습니다. Segment Anything Model(SAM)은 프롬프트 기반, 의미론 무관, 분할 패러다임을 통해 이 문제를 완화하지만 새로운 이미지를 처리하기 위해 여전히 수동 시각적 프롬프트나 복잡한 도메인 의존 프롬프트 생성 규칙이 필요합니다. 이러한 새로운 부담을 줄이기 위해, 본 연구는 소수의 참조 이미지만 제공받을 때 객체 분할 과제를 탐구합니다. 우리의 주요 통찰은 파운데이션 모델이 학습한 강력한 의미론적 사전 지식을 활용하여 참조 이미지와 타겟 이미지 간의 대응 영역을 식별하는 것입니다. 우리는 이러한 대응이 다운스트림 과제를 위한 인스턴스 수준의 분할 마스크를 자동으로 생성할 수 있음을 발견하였고, (1) 메모리 뱅크 구축, (2) 표현 통합, (3) 의미 인식 특성 매칭의 다단계, 학습 없는 방법을 통해 이를 구현하였습니다. 실험 결과, 분할 지표에서 유의미한 개선을 보였으며, COCO FSOD(36.8% nAP), PASCAL VOC Few-Shot(71.2% nAP50), Cross-Domain FSOD 벤치마크(22.4% nAP)에서 기존 학습 없는 방식보다 우수한 최신 성능을 달성하였습니다.
+> The performance of image segmentation models has historically been constrained by the high cost of collecting large-scale annotated data. The Segment Anything Model (SAM) alleviates this original problem through a promptable, semantics-agnostic, segmentation paradigm and yet still requires manual visual-prompts or complex domain-dependent prompt-generation rules to process a new image. Towards reducing this new burden, our work investigates the task of object segmentation when provided with, alternatively, only a small set of reference images. Our key insight is to leverage strong semantic priors, as learned by foundation models, to identify corresponding regions between a reference and a target image. We find that correspondences enable automatic generation of instance-level segmentation masks for downstream tasks and instantiate our ideas via a multi-stage, training-free method incorporating (1) memory bank construction; (2) representation aggregation and (3) semantic-aware feature matching. Our experiments show significant improvements on segmentation metrics, leading to state-of-the-art performance on COCO FSOD (36.8% nAP), PASCAL VOC Few-Shot (71.2% nAP50) and outperforming existing training-free approaches on the Cross-Domain FSOD benchmark (22.4% nAP).
 
 ![cdfsod-results-final-comic-sans-min](https://github.com/user-attachments/assets/ab302c02-c080-4042-99fc-0e181ba8abb9)
 
 
-
-## 🧠 아키텍처
+## 🧠 Architecture
 
 ![training-free-architecture-comic-sans-min](https://github.com/user-attachments/assets/d84dd83a-505e-45a0-8ce3-98e1838017f9)
 
 
-## 🛠️ 설치 안내
+## 🛠️ Installation instructions
 
-### 1. 저장소를 클론하세요
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/miquel-espinosa/no-time-to-train.git
@@ -422,6 +428,6 @@ SEGM RESULTS:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
 
 ---

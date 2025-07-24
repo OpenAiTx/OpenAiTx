@@ -1,650 +1,650 @@
 [
   {
     "Id": 1,
-    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n<div align=\"center\">\n\n# 🚀 No Time to Train!  \n### Training-Free Reference-Based Instance Segmentation  \n[![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)\n[![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)\n[![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)\n\n**State-of-the-art (Papers with Code)**\n\n[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)\n\n</div>\n\n---\n\n> 🚨 **Update (22nd July 2025):** Instructions for custom datasets have been added!\n> \n> 🔔 **Update (16th July 2025):** Code has been updated with instructions!\n\n---\n\n## 📋 Table of Contents\n\n- [🎯 Highlights](#-highlights)\n- [📜 Abstract](#-abstract)\n- [🧠 Architecture](#-architecture)\n- [🛠️ Installation instructions](#️-installation-instructions)\n  - [1. Clone the repository](#1-clone-the-repository)\n  - [2. Create conda environment](#2-create-conda-environment)\n  - [3. Install SAM2 and DinoV2](#3-install-sam2-and-dinov2)\n  - [4. Download datasets](#4-download-datasets)\n  - [5. Download SAM2 and DinoV2 checkpoints](#5-download-sam2-and-dinov2-checkpoints)\n- [📊 Inference code: Reproduce 30-shot SOTA results in Few-shot COCO](#-inference-code)\n  - [0. Create reference set](#0-create-reference-set)\n  - [1. Fill memory with references](#1-fill-memory-with-references)\n  - [2. Post-process memory bank](#2-post-process-memory-bank)\n  - [3. Inference on target images](#3-inference-on-target-images)\n  - [Results](#results)\n- [🔍 Custom dataset](#-custom-dataset)\n  - [0. Prepare a custom dataset ⛵🐦](#0-prepare-a-custom-dataset)\n  - [0.1 If only bbox annotations are available](#01-if-only-bbox-annotations-are-available)\n  - [0.2 Convert coco annotations to pickle file](#02-convert-coco-annotations-to-pickle-file)\n  - [1. Fill memory with references](#1-fill-memory-with-references)\n  - [2. Post-process memory bank](#2-post-process-memory-bank)\n- [📚 Citation](#-citation)\n\n\n## 🎯 Highlights\n- 💡 **Training-Free**: No fine-tuning, no prompt engineering—just a reference image.  \n- 🖼️ **Reference-Based**: Segment new objects using just a few examples.  \n- 🔥 **SOTA Performance**: Outperforms previous training-free approaches on COCO, PASCAL VOC, and Cross-Domain FSOD.\n\n**Links:**\n- 🧾 [**arXiv Paper**](https://arxiv.org/abs/2507.02798)  \n- 🌐 [**Project Website**](https://miquel-espinosa.github.io/no-time-to-train/)  \n- 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)\n\n## 📜 Abstract\n\n> The performance of image segmentation models has historically been constrained by the high cost of collecting large-scale annotated data. The Segment Anything Model (SAM) alleviates this original problem through a promptable, semantics-agnostic, segmentation paradigm and yet still requires manual visual-prompts or complex domain-dependent prompt-generation rules to process a new image. Towards reducing this new burden, our work investigates the task of object segmentation when provided with, alternatively, only a small set of reference images. Our key insight is to leverage strong semantic priors, as learned by foundation models, to identify corresponding regions between a reference and a target image. We find that correspondences enable automatic generation of instance-level segmentation masks for downstream tasks and instantiate our ideas via a multi-stage, training-free method incorporating (1) memory bank construction; (2) representation aggregation and (3) semantic-aware feature matching. Our experiments show significant improvements on segmentation metrics, leading to state-of-the-art performance on COCO FSOD (36.8% nAP), PASCAL VOC Few-Shot (71.2% nAP50) and outperforming existing training-free approaches on the Cross-Domain FSOD benchmark (22.4% nAP).\n\n![cdfsod-results-final-comic-sans-min](https://github.com/user-attachments/assets/ab302c02-c080-4042-99fc-0e181ba8abb9)\n\n",
-    "ContentSha": "A3YMMKHoCWcOr6/yAWOkf3HEH5vGHKT+Ib4eEwT+79M=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n<div align=\"center\">\n\n# 🚀 No Time to Train!  \n### Training-Free Reference-Based Instance Segmentation  \n[![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)\n[![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)\n[![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)\n\n**State-of-the-art (Papers with Code)**\n\n[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(30--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)\n\n<!-- [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) -->\n\n</div>\n\n---\n\n> 🚨 **Update (22nd July 2025):** Instructions for custom datasets have been added!\n> \n> 🔔 **Update (16th July 2025):** Code has been updated with instructions!\n\n---\n\n## 📋 Table of Contents\n\n- [🎯 Highlights](#-highlights)\n- [📜 Abstract](#-abstract)\n- [🧠 Architecture](#-architecture)\n- [🛠️ Installation instructions](#️-installation-instructions)\n  - [1. Clone the repository](#1-clone-the-repository)\n  - [2. Create conda environment](#2-create-conda-environment)\n  - [3. Install SAM2 and DinoV2](#3-install-sam2-and-dinov2)\n  - [4. Download datasets](#4-download-datasets)\n  - [5. Download SAM2 and DinoV2 checkpoints](#5-download-sam2-and-dinov2-checkpoints)\n- [📊 Inference code: Reproduce 30-shot SOTA results in Few-shot COCO](#-inference-code)\n  - [0. Create reference set](#0-create-reference-set)\n  - [1. Fill memory with references](#1-fill-memory-with-references)\n  - [2. Post-process memory bank](#2-post-process-memory-bank)\n  - [3. Inference on target images](#3-inference-on-target-images)\n  - [Results](#results)\n- [🔍 Custom dataset](#-custom-dataset)\n  - [0. Prepare a custom dataset ⛵🐦](#0-prepare-a-custom-dataset)\n  - [0.1 If only bbox annotations are available](#01-if-only-bbox-annotations-are-available)\n  - [0.2 Convert coco annotations to pickle file](#02-convert-coco-annotations-to-pickle-file)\n  - [1. Fill memory with references](#1-fill-memory-with-references)\n  - [2. Post-process memory bank](#2-post-process-memory-bank)\n- [📚 Citation](#-citation)\n\n\n## 🎯 Highlights\n- 💡 **Training-Free**: No fine-tuning, no prompt engineering—just a reference image.  \n- 🖼️ **Reference-Based**: Segment new objects using just a few examples.  \n- 🔥 **SOTA Performance**: Outperforms previous training-free approaches on COCO, PASCAL VOC, and Cross-Domain FSOD.\n\n**Links:**\n- 🧾 [**arXiv Paper**](https://arxiv.org/abs/2507.02798)  \n- 🌐 [**Project Website**](https://miquel-espinosa.github.io/no-time-to-train/)  \n- 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)\n\n## 📜 Abstract",
+    "ContentSha": "RYp0rCe8ggMemm0g+cHygIzVq4sWOYQx9Cu0GC4vsVY=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 Idioma</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n<div align=\"center\">\n\n# 🚀 ¡Sin tiempo para entrenar!  \n### Segmentación de instancias basada en referencias sin entrenamiento  \n[![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)\n[![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)\n[![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)\n\n**Estado del arte (Papers with Code)**\n\n[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)\n\n</div>\n\n---\n\n> 🚨 **Actualización (22 de julio de 2025):** ¡Se han añadido instrucciones para conjuntos de datos personalizados!\n> \n> 🔔 **Actualización (16 de julio de 2025):** ¡El código ha sido actualizado con instrucciones!\n\n---\n\n## 📋 Tabla de Contenidos\n\n- [🎯 Destacados](#-destacados)\n- [📜 Resumen](#-resumen)\n- [🧠 Arquitectura](#-arquitectura)\n- [🛠️ Instrucciones de instalación](#️-instrucciones-de-instalacion)\n  - [1. Clonar el repositorio](#1-clonar-el-repositorio)\n  - [2. Crear entorno conda](#2-crear-entorno-conda)\n  - [3. Instalar SAM2 y DinoV2](#3-instalar-sam2-y-dinov2)\n  - [4. Descargar conjuntos de datos](#4-descargar-conjuntos-de-datos)\n  - [5. Descargar puntos de control de SAM2 y DinoV2](#5-descargar-puntos-de-control-de-sam2-y-dinov2)\n- [📊 Código de inferencia: Reproducir resultados SOTA 30-shot en Few-shot COCO](#-codigo-de-inferencia)\n  - [0. Crear conjunto de referencia](#0-crear-conjunto-de-referencia)\n  - [1. Llenar la memoria con referencias](#1-llenar-la-memoria-con-referencias)\n  - [2. Post-procesar el banco de memoria](#2-post-procesar-el-banco-de-memoria)\n  - [3. Inferencia en imágenes objetivo](#3-inferencia-en-imagenes-objetivo)\n  - [Resultados](#resultados)\n- [🔍 Conjunto de datos personalizado](#-conjunto-de-datos-personalizado)\n  - [0. Preparar un conjunto de datos personalizado ⛵🐦](#0-preparar-un-conjunto-de-datos-personalizado)\n  - [0.1 Si solo hay anotaciones bbox disponibles](#01-si-solo-hay-anotaciones-bbox-disponibles)\n  - [0.2 Convertir anotaciones coco a archivo pickle](#02-convertir-anotaciones-coco-a-archivo-pickle)\n  - [1. Llenar la memoria con referencias](#1-llenar-la-memoria-con-referencias)\n  - [2. Post-procesar el banco de memoria](#2-post-procesar-el-banco-de-memoria)\n- [📚 Citación](#-citacion)\n\n\n## 🎯 Destacados\n- 💡 **Sin entrenamiento**: Sin ajuste fino, sin ingeniería de prompts—solo una imagen de referencia.  \n- 🖼️ **Basado en referencia**: Segmenta nuevos objetos usando solo unos pocos ejemplos.  \n- 🔥 **Rendimiento SOTA**: Supera a los enfoques previos sin entrenamiento en COCO, PASCAL VOC y Cross-Domain FSOD.\n\n**Enlaces:**\n- 🧾 [**Artículo en arXiv**](https://arxiv.org/abs/2507.02798)  \n- 🌐 [**Sitio web del proyecto**](https://miquel-espinosa.github.io/no-time-to-train/)  \n- 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)\n\n## 📜 Resumen\n\n> El rendimiento de los modelos de segmentación de imágenes ha estado históricamente limitado por el alto costo de recopilar datos anotados a gran escala. El modelo Segment Anything (SAM) alivia este problema original mediante un paradigma de segmentación solicitada, independiente de la semántica, pero aún requiere prompts visuales manuales o reglas complejas de generación de prompts dependientes del dominio para procesar una nueva imagen. Para reducir esta nueva carga, nuestro trabajo investiga la tarea de segmentación de objetos cuando se proporciona, alternativamente, solo un pequeño conjunto de imágenes de referencia. Nuestra idea clave es aprovechar sólidos priors semánticos, aprendidos por modelos fundacionales, para identificar regiones correspondientes entre una imagen de referencia y una imagen objetivo. Descubrimos que las correspondencias permiten la generación automática de máscaras de segmentación a nivel de instancia para tareas posteriores e implementamos nuestras ideas a través de un método multietapa y sin entrenamiento que incorpora (1) construcción de banco de memoria; (2) agregación de representaciones y (3) emparejamiento de características con conciencia semántica. Nuestros experimentos muestran mejoras significativas en las métricas de segmentación, logrando un rendimiento de última generación en COCO FSOD (36.8% nAP), PASCAL VOC Few-Shot (71.2% nAP50) y superando a los enfoques existentes sin entrenamiento en el benchmark Cross-Domain FSOD (22.4% nAP).\n\n![cdfsod-results-final-comic-sans-min](https://github.com/user-attachments/assets/ab302c02-c080-4042-99fc-0e181ba8abb9)\n\n</translate-content>\n",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Idioma</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n<div align=\"center\">\n\n# 🚀 ¡No hay tiempo para entrenar!  \n### Segmentación de instancias basada en referencias sin entrenamiento  \n[![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)\n[![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)\n[![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)\n\n**Estado del arte (Papers with Code)**\n\n[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(30--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)\n\n<!-- [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) -->\n\n</div>\n\n---\n\n> 🚨 **Actualización (22 de julio de 2025):** ¡Se han añadido instrucciones para conjuntos de datos personalizados!\n> \n> 🔔 **Actualización (16 de julio de 2025):** ¡El código ha sido actualizado con instrucciones!\n\n---\n\n## 📋 Tabla de Contenidos\n\n- [🎯 Puntos destacados](#-puntos-destacados)\n- [📜 Resumen](#-resumen)\n- [🧠 Arquitectura](#-arquitectura)\n- [🛠️ Instrucciones de instalación](#️-instrucciones-de-instalación)\n  - [1. Clonar el repositorio](#1-clonar-el-repositorio)\n  - [2. Crear entorno conda](#2-crear-entorno-conda)\n  - [3. Instalar SAM2 y DinoV2](#3-instalar-sam2-y-dinov2)\n  - [4. Descargar conjuntos de datos](#4-descargar-conjuntos-de-datos)\n  - [5. Descargar los checkpoints de SAM2 y DinoV2](#5-descargar-los-checkpoints-de-sam2-y-dinov2)\n- [📊 Código de inferencia: Reproducir resultados SOTA 30-shot en Few-shot COCO](#-código-de-inferencia)\n  - [0. Crear el conjunto de referencia](#0-crear-el-conjunto-de-referencia)\n  - [1. Llenar la memoria con referencias](#1-llenar-la-memoria-con-referencias)\n  - [2. Postprocesar banco de memoria](#2-postprocesar-banco-de-memoria)\n  - [3. Inferencia en imágenes objetivo](#3-inferencia-en-imágenes-objetivo)\n  - [Resultados](#resultados)\n- [🔍 Conjunto de datos personalizado](#-conjunto-de-datos-personalizado)\n  - [0. Preparar un conjunto de datos personalizado ⛵🐦](#0-preparar-un-conjunto-de-datos-personalizado)\n  - [0.1 Si solo se dispone de anotaciones bbox](#01-si-solo-se-dispone-de-anotaciones-bbox)\n  - [0.2 Convertir anotaciones coco a archivo pickle](#02-convertir-anotaciones-coco-a-archivo-pickle)\n  - [1. Llenar la memoria con referencias](#1-llenar-la-memoria-con-referencias)\n  - [2. Postprocesar banco de memoria](#2-postprocesar-banco-de-memoria)\n- [📚 Cita](#-cita)\n\n\n## 🎯 Puntos destacados\n- 💡 **Sin entrenamiento**: Sin fine-tuning, sin ingeniería de prompts—solo una imagen de referencia.  \n- 🖼️ **Basado en referencias**: Segmenta nuevos objetos usando solo unos pocos ejemplos.  \n- 🔥 **Rendimiento SOTA**: Supera los enfoques previos sin entrenamiento en COCO, PASCAL VOC y Cross-Domain FSOD.\n\n**Enlaces:**\n- 🧾 [**Artículo en arXiv**](https://arxiv.org/abs/2507.02798)  \n- 🌐 [**Sitio web del proyecto**](https://miquel-espinosa.github.io/no-time-to-train/)  \n- 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)\n\n## 📜 Resumen",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "<div align=\"right\">"
+        "translatedContent": ""
       },
       {
         "row": 2,
         "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
         "originContent": "<div align=\"right\">",
-        "translatedContent": "  <details>"
+        "translatedContent": "<div align=\"right\">"
       },
       {
         "row": 3,
         "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
         "originContent": "  <details>",
-        "translatedContent": "    <summary >🌐 Idioma</summary>"
+        "translatedContent": "  <details>"
       },
       {
         "row": 4,
         "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
         "originContent": "    <summary >🌐 Language</summary>",
-        "translatedContent": "    <div>"
+        "translatedContent": "    <summary >🌐 Idioma</summary>"
       },
       {
         "row": 5,
         "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
         "originContent": "    <div>",
-        "translatedContent": "      <div align=\"center\">"
+        "translatedContent": "    <div>"
       },
       {
         "row": 6,
         "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
         "originContent": "      <div align=\"center\">",
-        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=en\">English</a>"
+        "translatedContent": "      <div align=\"center\">"
       },
       {
         "row": 7,
         "rowsha": "G45/LutNWZI9vxtXslbbbHwCOULgzFXWYAhu/93l4zI=",
         "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=en\">English</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-CN\">简体中文</a>"
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=en\">English</a>"
       },
       {
         "row": 8,
         "rowsha": "Ats18u3YZRckavncoTKGYRiwpbiHfSctTBbIhjCGos0=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-CN\">简体中文</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-TW\">繁體中文</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-CN\">简体中文</a>"
       },
       {
         "row": 9,
         "rowsha": "lEz2ylDdTMdB9rQtSXgGSpKBCBtWlYkWIREBeO0lors=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-TW\">繁體中文</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ja\">日本語</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-TW\">繁體中文</a>"
       },
       {
         "row": 10,
         "rowsha": "97L3ibJEnPIvjf8+YiCmr3atMgUFb6w4O/wC2/BA6/8=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ja\">日本語</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ko\">한국어</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ja\">日本語</a>"
       },
       {
         "row": 11,
         "rowsha": "3oFj7Mkpu+D6QswdcT3vKHKawPNXUF6RcbCVg2PWbsQ=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ko\">한국어</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=hi\">हिन्दी</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ko\">한국어</a>"
       },
       {
         "row": 12,
         "rowsha": "ZF8CbRf3KWHXQPzg4G6ekXVvORqsWzEevfTrObmVBmE=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=hi\">हिन्दी</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=th\">ไทย</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=hi\">हिन्दी</a>"
       },
       {
         "row": 13,
         "rowsha": "ZtyN4+DuHy9qVSeUKbBY2nye7JCV1FH5IIAYJ8iuxVA=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=th\">ไทย</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fr\">Français</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=th\">ไทย</a>"
       },
       {
         "row": 14,
         "rowsha": "wtzRxSgQuRAkU/Q1AiRlvOKvp5J8Dgi8+8ZAkYRT1Mk=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fr\">Français</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=de\">Deutsch</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fr\">Français</a>"
       },
       {
         "row": 15,
         "rowsha": "5ok7LiijP07K5Z8qLgSjMWA+zgKpfufQnFwisBo9DLA=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=de\">Deutsch</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=es\">Español</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=de\">Deutsch</a>"
       },
       {
         "row": 16,
         "rowsha": "HvcD3nQvNLh4xFZRvMx9b+Bc5ka6E8sJLqrMtv6u4G8=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=es\">Español</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=it\">Italiano</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=es\">Español</a>"
       },
       {
         "row": 17,
         "rowsha": "r9VPV8xQaIWBEvGEal9OvJLNSS4zTgMiMbGN26yYZvI=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=it\">Italiano</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ru\">Русский</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=it\">Italiano</a>"
       },
       {
         "row": 18,
         "rowsha": "Xy5Fhh1idYriSI/ExdPGiHIMK0rm7aPt0ZcqU6mVMlU=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ru\">Русский</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pt\">Português</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ru\">Русский</a>"
       },
       {
         "row": 19,
         "rowsha": "dbSyNaa/57ty5bbGG7pZQhxzdFEK8F/TaNhnyeOGOR0=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pt\">Português</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=nl\">Nederlands</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pt\">Português</a>"
       },
       {
         "row": 20,
         "rowsha": "kjU5Io0pZZRzjb5adc0mC1Suop9TAc8ftGlC3R7JYoI=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=nl\">Nederlands</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pl\">Polski</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=nl\">Nederlands</a>"
       },
       {
         "row": 21,
         "rowsha": "xowAjymdhYslq9cLyCu6eUUTJCiVR2V1KJZMTFRR5+o=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pl\">Polski</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ar\">العربية</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pl\">Polski</a>"
       },
       {
         "row": 22,
         "rowsha": "41MPPnS6gKxjrGVAF9Fkmpeu0lfZ/zjCHi/HKf9BCW4=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ar\">العربية</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fa\">فارسی</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ar\">العربية</a>"
       },
       {
         "row": 23,
         "rowsha": "trPBM6f6uyK0oqDU92+2pGrjWXOlpBmlm34RAvqknvY=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fa\">فارسی</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=tr\">Türkçe</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fa\">فارسی</a>"
       },
       {
         "row": 24,
         "rowsha": "I4vaUyHHnPcJ/do6ED/Bs8dDKau8rbGs7Lu4MlcK8Ho=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=tr\">Türkçe</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=vi\">Tiếng Việt</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=tr\">Türkçe</a>"
       },
       {
         "row": 25,
         "rowsha": "KuIxc2kpouXB+JvjrQsu7EjevEWN1zf7o+8wmwox9L0=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=vi\">Tiếng Việt</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=id\">Bahasa Indonesia</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=vi\">Tiếng Việt</a>"
       },
       {
         "row": 26,
         "rowsha": "YXMw4LVKVlCbi+Zhb3k7txrbP2uu14qlFi++jxrMsHM=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=id\">Bahasa Indonesia</a>",
-        "translatedContent": "      </div>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=id\">Bahasa Indonesia</a>"
       },
       {
         "row": 27,
         "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
         "originContent": "      </div>",
-        "translatedContent": "    </div>"
+        "translatedContent": "      </div>"
       },
       {
         "row": 28,
         "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
         "originContent": "    </div>",
-        "translatedContent": "  </details>"
+        "translatedContent": "    </div>"
       },
       {
         "row": 29,
         "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
         "originContent": "  </details>",
-        "translatedContent": "</div>"
+        "translatedContent": "  </details>"
       },
       {
         "row": 30,
         "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
         "originContent": "</div>",
-        "translatedContent": ""
+        "translatedContent": "</div>"
       },
       {
         "row": 31,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "<div align=\"center\">"
+        "translatedContent": ""
       },
       {
         "row": 32,
         "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
         "originContent": "<div align=\"center\">",
-        "translatedContent": ""
+        "translatedContent": "<div align=\"center\">"
       },
       {
         "row": 33,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "# 🚀 ¡Sin tiempo para entrenar!  "
+        "translatedContent": ""
       },
       {
         "row": 34,
         "rowsha": "M2z5PpMcecoVKOuL1SHlc+Nemsj5RhARR5H/VCXUbU4=",
         "originContent": "# 🚀 No Time to Train!  ",
-        "translatedContent": "### Segmentación de instancias basada en referencias sin entrenamiento  "
+        "translatedContent": "# 🚀 ¡No hay tiempo para entrenar!  "
       },
       {
         "row": 35,
         "rowsha": "sBABAz4Jw3ska9lsdsi3rPgLmZF2UtZveFVXqUbPW4o=",
         "originContent": "### Training-Free Reference-Based Instance Segmentation  ",
-        "translatedContent": "[![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)"
+        "translatedContent": "### Segmentación de instancias basada en referencias sin entrenamiento  "
       },
       {
         "row": 36,
         "rowsha": "JtzwGnZRrNQ5I7E9S5GXrFkY4/D5xExLcZYAwT19D64=",
         "originContent": "[![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)",
-        "translatedContent": "[![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)"
+        "translatedContent": "[![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)"
       },
       {
         "row": 37,
         "rowsha": "CRyX9LxzyIoLmrrOb7mTcL54XM1hKOGqkgq3VKhx5cE=",
         "originContent": "[![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)",
-        "translatedContent": "[![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)"
+        "translatedContent": "[![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)"
       },
       {
         "row": 38,
         "rowsha": "dt6HOwBuvdMzY99NMmrvjF5F1UqOV/FCSs2Eonn3jFg=",
         "originContent": "[![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)",
-        "translatedContent": ""
+        "translatedContent": "[![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)"
       },
       {
         "row": 39,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "**Estado del arte (Papers with Code)**"
+        "translatedContent": ""
       },
       {
         "row": 40,
         "rowsha": "rSA9HSpS5rcIOZmSZRcPQKvvg2GUNxqsAdOWtJYdOHs=",
         "originContent": "**State-of-the-art (Papers with Code)**",
-        "translatedContent": ""
+        "translatedContent": "**Estado del arte (Papers with Code)**"
       },
       {
         "row": 41,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)"
+        "translatedContent": ""
       },
       {
         "row": 42,
-        "rowsha": "QJajRnLgXHtAu6TePeHAEPhmcS2Dzpw0NwKyPUogA2M=",
-        "originContent": "[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)",
-        "translatedContent": ""
+        "rowsha": "vX9Z1+qZyC7/kZ0bOC7vbDJManiCGbXqZk8AgQ84qM0=",
+        "originContent": "[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)",
+        "translatedContent": "[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)"
       },
       {
         "row": 43,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)"
+        "translatedContent": ""
       },
       {
         "row": 44,
-        "rowsha": "5Vzq06fD98ehB9nIJb70JMck7pDlYhuPjdq4pjWemTg=",
-        "originContent": "[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)",
-        "translatedContent": ""
+        "rowsha": "9mNYKE3Y0dXOTQkvb8trTyykMWIJMj3aYvs2wc7Dy/w=",
+        "originContent": "[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)",
+        "translatedContent": "[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)"
       },
       {
         "row": 45,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)"
+        "translatedContent": ""
       },
       {
         "row": 46,
-        "rowsha": "fl5OuPF1t/corg6T4a1RDtYrNtUY7pmOPdcXzJhS7Ek=",
-        "originContent": "[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)",
-        "translatedContent": ""
+        "rowsha": "M73R//djgj0L2vtwCwYA8Jc2eOp2w4DNk1NVUZYGbTE=",
+        "originContent": "[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(30--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)",
+        "translatedContent": "[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(30--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)"
       },
       {
         "row": 47,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "</div>"
+        "translatedContent": ""
       },
       {
         "row": 48,
-        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
-        "originContent": "</div>",
-        "translatedContent": ""
+        "rowsha": "4VnWzjwLPfuR2EgQFIxOj01ti/2HIoGSaFN8NvfL/fU=",
+        "originContent": "<!-- [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)",
+        "translatedContent": "<!-- [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)"
       },
       {
         "row": 49,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "---"
+        "translatedContent": ""
       },
       {
         "row": 50,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": ""
+        "rowsha": "5Vzq06fD98ehB9nIJb70JMck7pDlYhuPjdq4pjWemTg=",
+        "originContent": "[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)",
+        "translatedContent": "[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)"
       },
       {
         "row": 51,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "> 🚨 **Actualización (22 de julio de 2025):** ¡Se han añadido instrucciones para conjuntos de datos personalizados!"
+        "translatedContent": ""
       },
       {
         "row": 52,
-        "rowsha": "B69jZWG+7Bcf3XwTlCrLDq7zJ6R0P5Lb3miM6RyrST8=",
-        "originContent": "> 🚨 **Update (22nd July 2025):** Instructions for custom datasets have been added!",
-        "translatedContent": "> "
+        "rowsha": "Lp3ysorCxnFgKmvnuiyj8llAyxsgKM6TkSxqVFkAtzo=",
+        "originContent": "[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) -->",
+        "translatedContent": "[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) -->"
       },
       {
         "row": 53,
-        "rowsha": "7E+OPR98r724bpCLatg+QHrDaps++r2OJLVtgCKL5Ck=",
-        "originContent": "> ",
-        "translatedContent": "> 🔔 **Actualización (16 de julio de 2025):** ¡El código ha sido actualizado con instrucciones!"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 54,
-        "rowsha": "NVfWm1HSMwF2EdXfgCXJYKpUZ1HZOJsRMEUiFhVdgqc=",
-        "originContent": "> 🔔 **Update (16th July 2025):** Code has been updated with instructions!",
-        "translatedContent": ""
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
       },
       {
         "row": 55,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "---"
+        "translatedContent": ""
       },
       {
         "row": 56,
         "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
         "originContent": "---",
-        "translatedContent": ""
+        "translatedContent": "---"
       },
       {
         "row": 57,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## 📋 Tabla de Contenidos"
+        "translatedContent": ""
       },
       {
         "row": 58,
-        "rowsha": "gI/1I87HHg3xh0//UJSFC6ZnF4rvkzKNqsRrROy4OT4=",
-        "originContent": "## 📋 Table of Contents",
-        "translatedContent": ""
+        "rowsha": "B69jZWG+7Bcf3XwTlCrLDq7zJ6R0P5Lb3miM6RyrST8=",
+        "originContent": "> 🚨 **Update (22nd July 2025):** Instructions for custom datasets have been added!",
+        "translatedContent": "> 🚨 **Actualización (22 de julio de 2025):** ¡Se han añadido instrucciones para conjuntos de datos personalizados!"
       },
       {
         "row": 59,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- [🎯 Destacados](#-destacados)"
+        "rowsha": "7E+OPR98r724bpCLatg+QHrDaps++r2OJLVtgCKL5Ck=",
+        "originContent": "> ",
+        "translatedContent": "> "
       },
       {
         "row": 60,
-        "rowsha": "nNQUAJIz1LHAKaPCqpOwlWw2V1U6+cxSwWn4SP47dYU=",
-        "originContent": "- [🎯 Highlights](#-highlights)",
-        "translatedContent": "- [📜 Resumen](#-resumen)"
+        "rowsha": "NVfWm1HSMwF2EdXfgCXJYKpUZ1HZOJsRMEUiFhVdgqc=",
+        "originContent": "> 🔔 **Update (16th July 2025):** Code has been updated with instructions!",
+        "translatedContent": "> 🔔 **Actualización (16 de julio de 2025):** ¡El código ha sido actualizado con instrucciones!"
       },
       {
         "row": 61,
-        "rowsha": "Yu2Tht6jyrgb81Dv2Lb3Od+nx0nyGk4T4cj16urKV2U=",
-        "originContent": "- [📜 Abstract](#-abstract)",
-        "translatedContent": "- [🧠 Arquitectura](#-arquitectura)"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 62,
-        "rowsha": "QlUWr+r6i1bCNXq6zWF9xq7AP6VlaFB+55fzw1uHGh4=",
-        "originContent": "- [🧠 Architecture](#-architecture)",
-        "translatedContent": "- [🛠️ Instrucciones de instalación](#️-instrucciones-de-instalacion)"
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
       },
       {
         "row": 63,
-        "rowsha": "LvvjM2oWVjYs2n37JdP4KxJEfjrmlXfMHEYRmg3enOQ=",
-        "originContent": "- [🛠️ Installation instructions](#️-installation-instructions)",
-        "translatedContent": "  - [1. Clonar el repositorio](#1-clonar-el-repositorio)"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 64,
-        "rowsha": "/PgPyQxwaS0cIQHgVFkC3ij55sWJZfYd1yCTh2nzruo=",
-        "originContent": "  - [1. Clone the repository](#1-clone-the-repository)",
-        "translatedContent": "  - [2. Crear entorno conda](#2-crear-entorno-conda)"
+        "rowsha": "gI/1I87HHg3xh0//UJSFC6ZnF4rvkzKNqsRrROy4OT4=",
+        "originContent": "## 📋 Table of Contents",
+        "translatedContent": "## 📋 Tabla de Contenidos"
       },
       {
         "row": 65,
-        "rowsha": "8sUHJDRIkb9dDdybJg2zcT82y2SDBjUvluSFGb9lVBM=",
-        "originContent": "  - [2. Create conda environment](#2-create-conda-environment)",
-        "translatedContent": "  - [3. Instalar SAM2 y DinoV2](#3-instalar-sam2-y-dinov2)"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 66,
-        "rowsha": "UVdxTXFnRSDBzVF4T2aUxvPHopcFMYmHxQaW1H6OPgE=",
-        "originContent": "  - [3. Install SAM2 and DinoV2](#3-install-sam2-and-dinov2)",
-        "translatedContent": "  - [4. Descargar conjuntos de datos](#4-descargar-conjuntos-de-datos)"
+        "rowsha": "nNQUAJIz1LHAKaPCqpOwlWw2V1U6+cxSwWn4SP47dYU=",
+        "originContent": "- [🎯 Highlights](#-highlights)",
+        "translatedContent": "- [🎯 Puntos destacados](#-puntos-destacados)"
       },
       {
         "row": 67,
-        "rowsha": "vmGLfIt0mS9Q/YAti3rKk4FenFiuiawcJga8eA1HvOo=",
-        "originContent": "  - [4. Download datasets](#4-download-datasets)",
-        "translatedContent": "  - [5. Descargar puntos de control de SAM2 y DinoV2](#5-descargar-puntos-de-control-de-sam2-y-dinov2)"
+        "rowsha": "Yu2Tht6jyrgb81Dv2Lb3Od+nx0nyGk4T4cj16urKV2U=",
+        "originContent": "- [📜 Abstract](#-abstract)",
+        "translatedContent": "- [📜 Resumen](#-resumen)"
       },
       {
         "row": 68,
-        "rowsha": "JMFveg/CL8TprnWNKkURn6blL5NhMU16pmzjwIauENc=",
-        "originContent": "  - [5. Download SAM2 and DinoV2 checkpoints](#5-download-sam2-and-dinov2-checkpoints)",
-        "translatedContent": "- [📊 Código de inferencia: Reproducir resultados SOTA 30-shot en Few-shot COCO](#-codigo-de-inferencia)"
+        "rowsha": "QlUWr+r6i1bCNXq6zWF9xq7AP6VlaFB+55fzw1uHGh4=",
+        "originContent": "- [🧠 Architecture](#-architecture)",
+        "translatedContent": "- [🧠 Arquitectura](#-arquitectura)"
       },
       {
         "row": 69,
-        "rowsha": "4twIP/tovN+tEN+KOehWNX1x6ADAZktZhaU8S6q3qPk=",
-        "originContent": "- [📊 Inference code: Reproduce 30-shot SOTA results in Few-shot COCO](#-inference-code)",
-        "translatedContent": "  - [0. Crear conjunto de referencia](#0-crear-conjunto-de-referencia)"
+        "rowsha": "LvvjM2oWVjYs2n37JdP4KxJEfjrmlXfMHEYRmg3enOQ=",
+        "originContent": "- [🛠️ Installation instructions](#️-installation-instructions)",
+        "translatedContent": "- [🛠️ Instrucciones de instalación](#️-instrucciones-de-instalación)"
       },
       {
         "row": 70,
-        "rowsha": "XAaZ2BUnk0iPaGrcahhfTfiRzOiOmWVMhXy0yS1URIo=",
-        "originContent": "  - [0. Create reference set](#0-create-reference-set)",
-        "translatedContent": "  - [1. Llenar la memoria con referencias](#1-llenar-la-memoria-con-referencias)"
+        "rowsha": "/PgPyQxwaS0cIQHgVFkC3ij55sWJZfYd1yCTh2nzruo=",
+        "originContent": "  - [1. Clone the repository](#1-clone-the-repository)",
+        "translatedContent": "  - [1. Clonar el repositorio](#1-clonar-el-repositorio)"
       },
       {
         "row": 71,
-        "rowsha": "CtFWOMU1Fc9CVZLu2Rzmu0KND5cnswQEsU5Mp7Onhvc=",
-        "originContent": "  - [1. Fill memory with references](#1-fill-memory-with-references)",
-        "translatedContent": "  - [2. Post-procesar el banco de memoria](#2-post-procesar-el-banco-de-memoria)"
+        "rowsha": "8sUHJDRIkb9dDdybJg2zcT82y2SDBjUvluSFGb9lVBM=",
+        "originContent": "  - [2. Create conda environment](#2-create-conda-environment)",
+        "translatedContent": "  - [2. Crear entorno conda](#2-crear-entorno-conda)"
       },
       {
         "row": 72,
-        "rowsha": "EJbJqD4ueSk6fQ0G3e/0zkWNB+NbmAqL7F5GXdil5cM=",
-        "originContent": "  - [2. Post-process memory bank](#2-post-process-memory-bank)",
-        "translatedContent": "  - [3. Inferencia en imágenes objetivo](#3-inferencia-en-imagenes-objetivo)"
+        "rowsha": "UVdxTXFnRSDBzVF4T2aUxvPHopcFMYmHxQaW1H6OPgE=",
+        "originContent": "  - [3. Install SAM2 and DinoV2](#3-install-sam2-and-dinov2)",
+        "translatedContent": "  - [3. Instalar SAM2 y DinoV2](#3-instalar-sam2-y-dinov2)"
       },
       {
         "row": 73,
-        "rowsha": "1oE+QeEAJ0TNP+C2O/r0QRzWRsbxz8Blj9YRkbZZZus=",
-        "originContent": "  - [3. Inference on target images](#3-inference-on-target-images)",
-        "translatedContent": "  - [Resultados](#resultados)"
+        "rowsha": "vmGLfIt0mS9Q/YAti3rKk4FenFiuiawcJga8eA1HvOo=",
+        "originContent": "  - [4. Download datasets](#4-download-datasets)",
+        "translatedContent": "  - [4. Descargar conjuntos de datos](#4-descargar-conjuntos-de-datos)"
       },
       {
         "row": 74,
-        "rowsha": "0vQANuql7yEE1pWdHwSmSnQDu+2Y61IcAuCgVVNt9wU=",
-        "originContent": "  - [Results](#results)",
-        "translatedContent": "- [🔍 Conjunto de datos personalizado](#-conjunto-de-datos-personalizado)"
+        "rowsha": "JMFveg/CL8TprnWNKkURn6blL5NhMU16pmzjwIauENc=",
+        "originContent": "  - [5. Download SAM2 and DinoV2 checkpoints](#5-download-sam2-and-dinov2-checkpoints)",
+        "translatedContent": "  - [5. Descargar los checkpoints de SAM2 y DinoV2](#5-descargar-los-checkpoints-de-sam2-y-dinov2)"
       },
       {
         "row": 75,
-        "rowsha": "5SOCYMb6Mc7UFPt7fW5/7Lk/oGmDIXGNMnIaAiyHGbA=",
-        "originContent": "- [🔍 Custom dataset](#-custom-dataset)",
-        "translatedContent": "  - [0. Preparar un conjunto de datos personalizado ⛵🐦](#0-preparar-un-conjunto-de-datos-personalizado)"
+        "rowsha": "4twIP/tovN+tEN+KOehWNX1x6ADAZktZhaU8S6q3qPk=",
+        "originContent": "- [📊 Inference code: Reproduce 30-shot SOTA results in Few-shot COCO](#-inference-code)",
+        "translatedContent": "- [📊 Código de inferencia: Reproducir resultados SOTA 30-shot en Few-shot COCO](#-código-de-inferencia)"
       },
       {
         "row": 76,
-        "rowsha": "GMbLjwNZu2OPam7WwwgFxNIlZaCAoQrvEKgT5bfr4wo=",
-        "originContent": "  - [0. Prepare a custom dataset ⛵🐦](#0-prepare-a-custom-dataset)",
-        "translatedContent": "  - [0.1 Si solo hay anotaciones bbox disponibles](#01-si-solo-hay-anotaciones-bbox-disponibles)"
+        "rowsha": "XAaZ2BUnk0iPaGrcahhfTfiRzOiOmWVMhXy0yS1URIo=",
+        "originContent": "  - [0. Create reference set](#0-create-reference-set)",
+        "translatedContent": "  - [0. Crear el conjunto de referencia](#0-crear-el-conjunto-de-referencia)"
       },
       {
         "row": 77,
-        "rowsha": "pahrSq5eC+ZtBvhJBCOnwVsXCl3r6dbg5VVcHR60KgA=",
-        "originContent": "  - [0.1 If only bbox annotations are available](#01-if-only-bbox-annotations-are-available)",
-        "translatedContent": "  - [0.2 Convertir anotaciones coco a archivo pickle](#02-convertir-anotaciones-coco-a-archivo-pickle)"
-      },
-      {
-        "row": 78,
-        "rowsha": "EhEJKG9MX3xsHHBuay+P9xPmW+ZFKMXemPkZ3zZftRE=",
-        "originContent": "  - [0.2 Convert coco annotations to pickle file](#02-convert-coco-annotations-to-pickle-file)",
+        "rowsha": "CtFWOMU1Fc9CVZLu2Rzmu0KND5cnswQEsU5Mp7Onhvc=",
+        "originContent": "  - [1. Fill memory with references](#1-fill-memory-with-references)",
         "translatedContent": "  - [1. Llenar la memoria con referencias](#1-llenar-la-memoria-con-referencias)"
       },
       {
+        "row": 78,
+        "rowsha": "EJbJqD4ueSk6fQ0G3e/0zkWNB+NbmAqL7F5GXdil5cM=",
+        "originContent": "  - [2. Post-process memory bank](#2-post-process-memory-bank)",
+        "translatedContent": "  - [2. Postprocesar banco de memoria](#2-postprocesar-banco-de-memoria)"
+      },
+      {
         "row": 79,
-        "rowsha": "CtFWOMU1Fc9CVZLu2Rzmu0KND5cnswQEsU5Mp7Onhvc=",
-        "originContent": "  - [1. Fill memory with references](#1-fill-memory-with-references)",
-        "translatedContent": "  - [2. Post-procesar el banco de memoria](#2-post-procesar-el-banco-de-memoria)"
+        "rowsha": "1oE+QeEAJ0TNP+C2O/r0QRzWRsbxz8Blj9YRkbZZZus=",
+        "originContent": "  - [3. Inference on target images](#3-inference-on-target-images)",
+        "translatedContent": "  - [3. Inferencia en imágenes objetivo](#3-inferencia-en-imágenes-objetivo)"
       },
       {
         "row": 80,
-        "rowsha": "EJbJqD4ueSk6fQ0G3e/0zkWNB+NbmAqL7F5GXdil5cM=",
-        "originContent": "  - [2. Post-process memory bank](#2-post-process-memory-bank)",
-        "translatedContent": "- [📚 Citación](#-citacion)"
+        "rowsha": "0vQANuql7yEE1pWdHwSmSnQDu+2Y61IcAuCgVVNt9wU=",
+        "originContent": "  - [Results](#results)",
+        "translatedContent": "  - [Resultados](#resultados)"
       },
       {
         "row": 81,
-        "rowsha": "agiJTqQBkN7iJs7zNIHPQ5NaqAmNICzYGlCqSha4QuI=",
-        "originContent": "- [📚 Citation](#-citation)",
-        "translatedContent": ""
+        "rowsha": "5SOCYMb6Mc7UFPt7fW5/7Lk/oGmDIXGNMnIaAiyHGbA=",
+        "originContent": "- [🔍 Custom dataset](#-custom-dataset)",
+        "translatedContent": "- [🔍 Conjunto de datos personalizado](#-conjunto-de-datos-personalizado)"
       },
       {
         "row": 82,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "GMbLjwNZu2OPam7WwwgFxNIlZaCAoQrvEKgT5bfr4wo=",
+        "originContent": "  - [0. Prepare a custom dataset ⛵🐦](#0-prepare-a-custom-dataset)",
+        "translatedContent": "  - [0. Preparar un conjunto de datos personalizado ⛵🐦](#0-preparar-un-conjunto-de-datos-personalizado)"
       },
       {
         "row": 83,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 🎯 Destacados"
+        "rowsha": "pahrSq5eC+ZtBvhJBCOnwVsXCl3r6dbg5VVcHR60KgA=",
+        "originContent": "  - [0.1 If only bbox annotations are available](#01-if-only-bbox-annotations-are-available)",
+        "translatedContent": "  - [0.1 Si solo se dispone de anotaciones bbox](#01-si-solo-se-dispone-de-anotaciones-bbox)"
       },
       {
         "row": 84,
-        "rowsha": "kIeGJFTQ5JJc/jXqjQ9PAg5wubcgfjTL2po5UNDrLQ8=",
-        "originContent": "## 🎯 Highlights",
-        "translatedContent": "- 💡 **Sin entrenamiento**: Sin ajuste fino, sin ingeniería de prompts—solo una imagen de referencia.  "
+        "rowsha": "EhEJKG9MX3xsHHBuay+P9xPmW+ZFKMXemPkZ3zZftRE=",
+        "originContent": "  - [0.2 Convert coco annotations to pickle file](#02-convert-coco-annotations-to-pickle-file)",
+        "translatedContent": "  - [0.2 Convertir anotaciones coco a archivo pickle](#02-convertir-anotaciones-coco-a-archivo-pickle)"
       },
       {
         "row": 85,
-        "rowsha": "4c0+fbJNN24hIJySSKght3OZNjxykoTxkukVFgkNZok=",
-        "originContent": "- 💡 **Training-Free**: No fine-tuning, no prompt engineering—just a reference image.  ",
-        "translatedContent": "- 🖼️ **Basado en referencia**: Segmenta nuevos objetos usando solo unos pocos ejemplos.  "
+        "rowsha": "CtFWOMU1Fc9CVZLu2Rzmu0KND5cnswQEsU5Mp7Onhvc=",
+        "originContent": "  - [1. Fill memory with references](#1-fill-memory-with-references)",
+        "translatedContent": "  - [1. Llenar la memoria con referencias](#1-llenar-la-memoria-con-referencias)"
       },
       {
         "row": 86,
-        "rowsha": "177g7I1Hv/8E1qW/GKY8ESZKs1ERKa8lH2+eSJWPfys=",
-        "originContent": "- 🖼️ **Reference-Based**: Segment new objects using just a few examples.  ",
-        "translatedContent": "- 🔥 **Rendimiento SOTA**: Supera a los enfoques previos sin entrenamiento en COCO, PASCAL VOC y Cross-Domain FSOD."
+        "rowsha": "EJbJqD4ueSk6fQ0G3e/0zkWNB+NbmAqL7F5GXdil5cM=",
+        "originContent": "  - [2. Post-process memory bank](#2-post-process-memory-bank)",
+        "translatedContent": "  - [2. Postprocesar banco de memoria](#2-postprocesar-banco-de-memoria)"
       },
       {
         "row": 87,
-        "rowsha": "hJVC6fdp5vmCdow9OaINDAoUeIQFo+H4J7X39/laLuQ=",
-        "originContent": "- 🔥 **SOTA Performance**: Outperforms previous training-free approaches on COCO, PASCAL VOC, and Cross-Domain FSOD.",
-        "translatedContent": ""
+        "rowsha": "agiJTqQBkN7iJs7zNIHPQ5NaqAmNICzYGlCqSha4QuI=",
+        "originContent": "- [📚 Citation](#-citation)",
+        "translatedContent": "- [📚 Cita](#-cita)"
       },
       {
         "row": 88,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "**Enlaces:**"
-      },
-      {
-        "row": 89,
-        "rowsha": "5t7uSO5Wec1VT7vt46wJD3xShwKEgg8Z6sc6sb/A3n4=",
-        "originContent": "**Links:**",
-        "translatedContent": "- 🧾 [**Artículo en arXiv**](https://arxiv.org/abs/2507.02798)  "
-      },
-      {
-        "row": 90,
-        "rowsha": "mSZshukl7MsJrVvQ4IJvfrxptw7xbgh/UwGaEwRqCFk=",
-        "originContent": "- 🧾 [**arXiv Paper**](https://arxiv.org/abs/2507.02798)  ",
-        "translatedContent": "- 🌐 [**Sitio web del proyecto**](https://miquel-espinosa.github.io/no-time-to-train/)  "
-      },
-      {
-        "row": 91,
-        "rowsha": "aRS755BdZ7JdxnaQ39257Pg2fZoyNBuqId5PgA6rebk=",
-        "originContent": "- 🌐 [**Project Website**](https://miquel-espinosa.github.io/no-time-to-train/)  ",
-        "translatedContent": "- 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)"
-      },
-      {
-        "row": 92,
-        "rowsha": "W0Ak9nAkjF7nVsfJUEtJvM6CVJHI9t7YMjCvBzmXZzo=",
-        "originContent": "- 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)",
         "translatedContent": ""
       },
       {
-        "row": 93,
+        "row": 89,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## 📜 Resumen"
+        "translatedContent": ""
+      },
+      {
+        "row": 90,
+        "rowsha": "kIeGJFTQ5JJc/jXqjQ9PAg5wubcgfjTL2po5UNDrLQ8=",
+        "originContent": "## 🎯 Highlights",
+        "translatedContent": "## 🎯 Puntos destacados"
+      },
+      {
+        "row": 91,
+        "rowsha": "4c0+fbJNN24hIJySSKght3OZNjxykoTxkukVFgkNZok=",
+        "originContent": "- 💡 **Training-Free**: No fine-tuning, no prompt engineering—just a reference image.  ",
+        "translatedContent": "- 💡 **Sin entrenamiento**: Sin fine-tuning, sin ingeniería de prompts—solo una imagen de referencia.  "
+      },
+      {
+        "row": 92,
+        "rowsha": "177g7I1Hv/8E1qW/GKY8ESZKs1ERKa8lH2+eSJWPfys=",
+        "originContent": "- 🖼️ **Reference-Based**: Segment new objects using just a few examples.  ",
+        "translatedContent": "- 🖼️ **Basado en referencias**: Segmenta nuevos objetos usando solo unos pocos ejemplos.  "
+      },
+      {
+        "row": 93,
+        "rowsha": "hJVC6fdp5vmCdow9OaINDAoUeIQFo+H4J7X39/laLuQ=",
+        "originContent": "- 🔥 **SOTA Performance**: Outperforms previous training-free approaches on COCO, PASCAL VOC, and Cross-Domain FSOD.",
+        "translatedContent": "- 🔥 **Rendimiento SOTA**: Supera los enfoques previos sin entrenamiento en COCO, PASCAL VOC y Cross-Domain FSOD."
       },
       {
         "row": 94,
-        "rowsha": "AdIRiroevVLawnTYJDBh2L1x5u8N8rbImLDszk/n52Q=",
-        "originContent": "## 📜 Abstract",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 95,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "> El rendimiento de los modelos de segmentación de imágenes ha estado históricamente limitado por el alto costo de recopilar datos anotados a gran escala. El modelo Segment Anything (SAM) alivia este problema original mediante un paradigma de segmentación solicitada, independiente de la semántica, pero aún requiere prompts visuales manuales o reglas complejas de generación de prompts dependientes del dominio para procesar una nueva imagen. Para reducir esta nueva carga, nuestro trabajo investiga la tarea de segmentación de objetos cuando se proporciona, alternativamente, solo un pequeño conjunto de imágenes de referencia. Nuestra idea clave es aprovechar sólidos priors semánticos, aprendidos por modelos fundacionales, para identificar regiones correspondientes entre una imagen de referencia y una imagen objetivo. Descubrimos que las correspondencias permiten la generación automática de máscaras de segmentación a nivel de instancia para tareas posteriores e implementamos nuestras ideas a través de un método multietapa y sin entrenamiento que incorpora (1) construcción de banco de memoria; (2) agregación de representaciones y (3) emparejamiento de características con conciencia semántica. Nuestros experimentos muestran mejoras significativas en las métricas de segmentación, logrando un rendimiento de última generación en COCO FSOD (36.8% nAP), PASCAL VOC Few-Shot (71.2% nAP50) y superando a los enfoques existentes sin entrenamiento en el benchmark Cross-Domain FSOD (22.4% nAP)."
+        "rowsha": "5t7uSO5Wec1VT7vt46wJD3xShwKEgg8Z6sc6sb/A3n4=",
+        "originContent": "**Links:**",
+        "translatedContent": "**Enlaces:**"
       },
       {
         "row": 96,
-        "rowsha": "f62KYkH46xSV0RKRpAlERSF/nhSETk2RE3WyAIz5gDw=",
-        "originContent": "> The performance of image segmentation models has historically been constrained by the high cost of collecting large-scale annotated data. The Segment Anything Model (SAM) alleviates this original problem through a promptable, semantics-agnostic, segmentation paradigm and yet still requires manual visual-prompts or complex domain-dependent prompt-generation rules to process a new image. Towards reducing this new burden, our work investigates the task of object segmentation when provided with, alternatively, only a small set of reference images. Our key insight is to leverage strong semantic priors, as learned by foundation models, to identify corresponding regions between a reference and a target image. We find that correspondences enable automatic generation of instance-level segmentation masks for downstream tasks and instantiate our ideas via a multi-stage, training-free method incorporating (1) memory bank construction; (2) representation aggregation and (3) semantic-aware feature matching. Our experiments show significant improvements on segmentation metrics, leading to state-of-the-art performance on COCO FSOD (36.8% nAP), PASCAL VOC Few-Shot (71.2% nAP50) and outperforming existing training-free approaches on the Cross-Domain FSOD benchmark (22.4% nAP).",
-        "translatedContent": ""
+        "rowsha": "mSZshukl7MsJrVvQ4IJvfrxptw7xbgh/UwGaEwRqCFk=",
+        "originContent": "- 🧾 [**arXiv Paper**](https://arxiv.org/abs/2507.02798)  ",
+        "translatedContent": "- 🧾 [**Artículo en arXiv**](https://arxiv.org/abs/2507.02798)  "
       },
       {
         "row": 97,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "![cdfsod-results-final-comic-sans-min](https://github.com/user-attachments/assets/ab302c02-c080-4042-99fc-0e181ba8abb9)"
+        "rowsha": "aRS755BdZ7JdxnaQ39257Pg2fZoyNBuqId5PgA6rebk=",
+        "originContent": "- 🌐 [**Project Website**](https://miquel-espinosa.github.io/no-time-to-train/)  ",
+        "translatedContent": "- 🌐 [**Sitio web del proyecto**](https://miquel-espinosa.github.io/no-time-to-train/)  "
       },
       {
         "row": 98,
-        "rowsha": "2cFS6Ni4+vEPr5/fIkHNwVjmXSVHJRpd3EN6igllMqk=",
-        "originContent": "![cdfsod-results-final-comic-sans-min](https://github.com/user-attachments/assets/ab302c02-c080-4042-99fc-0e181ba8abb9)",
-        "translatedContent": ""
+        "rowsha": "W0Ak9nAkjF7nVsfJUEtJvM6CVJHI9t7YMjCvBzmXZzo=",
+        "originContent": "- 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)",
+        "translatedContent": "- 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)"
       },
       {
         "row": 99,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "</translate-content>"
+        "translatedContent": ""
       },
       {
         "row": 100,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "AdIRiroevVLawnTYJDBh2L1x5u8N8rbImLDszk/n52Q=",
+        "originContent": "## 📜 Abstract",
+        "translatedContent": "## 📜 Resumen"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 2,
-    "Content": "## 🧠 Architecture\n\n![training-free-architecture-comic-sans-min](https://github.com/user-attachments/assets/d84dd83a-505e-45a0-8ce3-98e1838017f9)\n\n\n## 🛠️ Installation instructions\n\n### 1. Clone the repository\n",
-    "ContentSha": "rSaJgum9yNlMQc968MOltRnPxRgzf4eUKpG9TYMCv8s=",
+    "Content": "\n> The performance of image segmentation models has historically been constrained by the high cost of collecting large-scale annotated data. The Segment Anything Model (SAM) alleviates this original problem through a promptable, semantics-agnostic, segmentation paradigm and yet still requires manual visual-prompts or complex domain-dependent prompt-generation rules to process a new image. Towards reducing this new burden, our work investigates the task of object segmentation when provided with, alternatively, only a small set of reference images. Our key insight is to leverage strong semantic priors, as learned by foundation models, to identify corresponding regions between a reference and a target image. We find that correspondences enable automatic generation of instance-level segmentation masks for downstream tasks and instantiate our ideas via a multi-stage, training-free method incorporating (1) memory bank construction; (2) representation aggregation and (3) semantic-aware feature matching. Our experiments show significant improvements on segmentation metrics, leading to state-of-the-art performance on COCO FSOD (36.8% nAP), PASCAL VOC Few-Shot (71.2% nAP50) and outperforming existing training-free approaches on the Cross-Domain FSOD benchmark (22.4% nAP).\n\n![cdfsod-results-final-comic-sans-min](https://github.com/user-attachments/assets/ab302c02-c080-4042-99fc-0e181ba8abb9)\n\n\n## 🧠 Architecture\n\n![training-free-architecture-comic-sans-min](https://github.com/user-attachments/assets/d84dd83a-505e-45a0-8ce3-98e1838017f9)\n\n\n## 🛠️ Installation instructions\n\n### 1. Clone the repository\n",
+    "ContentSha": "91gnhVueIAqK2vby/YaNefXztZdQYn3pNyfNxEwRFms=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "## 🧠 Arquitectura\n\n![training-free-architecture-comic-sans-min](https://github.com/user-attachments/assets/d84dd83a-505e-45a0-8ce3-98e1838017f9)\n\n\n## 🛠️ Instrucciones de instalación\n\n### 1. Clona el repositorio\n",
+    "Translation": "\n> The performance of image segmentation models has historically been constrained by the high cost of collecting large-scale annotated data. The Segment Anything Model (SAM) alleviates this original problem through a promptable, semantics-agnostic, segmentation paradigm and yet still requires manual visual-prompts or complex domain-dependent prompt-generation rules to process a new image. Towards reducing this new burden, our work investigates the task of object segmentation when provided with, alternatively, only a small set of reference images. Our key insight is to leverage strong semantic priors, as learned by foundation models, to identify corresponding regions between a reference and a target image. We find that correspondences enable automatic generation of instance-level segmentation masks for downstream tasks and instantiate our ideas via a multi-stage, training-free method incorporating (1) memory bank construction; (2) representation aggregation and (3) semantic-aware feature matching. Our experiments show significant improvements on segmentation metrics, leading to state-of-the-art performance on COCO FSOD (36.8% nAP), PASCAL VOC Few-Shot (71.2% nAP50) and outperforming existing training-free approaches on the Cross-Domain FSOD benchmark (22.4% nAP).\n\n![cdfsod-results-final-comic-sans-min](https://github.com/user-attachments/assets/ab302c02-c080-4042-99fc-0e181ba8abb9)\n\n\n## 🧠 Architecture\n\n![training-free-architecture-comic-sans-min](https://github.com/user-attachments/assets/d84dd83a-505e-45a0-8ce3-98e1838017f9)\n\n\n## 🛠️ Installation instructions\n\n### 1. Clone the repository\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "9ZwHLgVs/DMTWN3sszXIqi/Yn0AjwM/4BUudMPNrZrc=",
-        "originContent": "## 🧠 Architecture",
-        "translatedContent": "## 🧠 Arquitectura"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "f62KYkH46xSV0RKRpAlERSF/nhSETk2RE3WyAIz5gDw=",
+        "originContent": "> The performance of image segmentation models has historically been constrained by the high cost of collecting large-scale annotated data. The Segment Anything Model (SAM) alleviates this original problem through a promptable, semantics-agnostic, segmentation paradigm and yet still requires manual visual-prompts or complex domain-dependent prompt-generation rules to process a new image. Towards reducing this new burden, our work investigates the task of object segmentation when provided with, alternatively, only a small set of reference images. Our key insight is to leverage strong semantic priors, as learned by foundation models, to identify corresponding regions between a reference and a target image. We find that correspondences enable automatic generation of instance-level segmentation masks for downstream tasks and instantiate our ideas via a multi-stage, training-free method incorporating (1) memory bank construction; (2) representation aggregation and (3) semantic-aware feature matching. Our experiments show significant improvements on segmentation metrics, leading to state-of-the-art performance on COCO FSOD (36.8% nAP), PASCAL VOC Few-Shot (71.2% nAP50) and outperforming existing training-free approaches on the Cross-Domain FSOD benchmark (22.4% nAP).",
+        "translatedContent": "> The performance of image segmentation models has historically been constrained by the high cost of collecting large-scale annotated data. The Segment Anything Model (SAM) alleviates this original problem through a promptable, semantics-agnostic, segmentation paradigm and yet still requires manual visual-prompts or complex domain-dependent prompt-generation rules to process a new image. Towards reducing this new burden, our work investigates the task of object segmentation when provided with, alternatively, only a small set of reference images. Our key insight is to leverage strong semantic priors, as learned by foundation models, to identify corresponding regions between a reference and a target image. We find that correspondences enable automatic generation of instance-level segmentation masks for downstream tasks and instantiate our ideas via a multi-stage, training-free method incorporating (1) memory bank construction; (2) representation aggregation and (3) semantic-aware feature matching. Our experiments show significant improvements on segmentation metrics, leading to state-of-the-art performance on COCO FSOD (36.8% nAP), PASCAL VOC Few-Shot (71.2% nAP50) and outperforming existing training-free approaches on the Cross-Domain FSOD benchmark (22.4% nAP)."
       },
       {
         "row": 3,
-        "rowsha": "9yA6/g3QCBAgAR0tQeKBpaJwjEB0LHNGgYaTP8Odie8=",
-        "originContent": "![training-free-architecture-comic-sans-min](https://github.com/user-attachments/assets/d84dd83a-505e-45a0-8ce3-98e1838017f9)",
-        "translatedContent": "![training-free-architecture-comic-sans-min](https://github.com/user-attachments/assets/d84dd83a-505e-45a0-8ce3-98e1838017f9)"
-      },
-      {
-        "row": 4,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "2cFS6Ni4+vEPr5/fIkHNwVjmXSVHJRpd3EN6igllMqk=",
+        "originContent": "![cdfsod-results-final-comic-sans-min](https://github.com/user-attachments/assets/ab302c02-c080-4042-99fc-0e181ba8abb9)",
+        "translatedContent": "![cdfsod-results-final-comic-sans-min](https://github.com/user-attachments/assets/ab302c02-c080-4042-99fc-0e181ba8abb9)"
       },
       {
         "row": 5,
@@ -654,24 +654,60 @@
       },
       {
         "row": 6,
-        "rowsha": "waJ0INSC829ifiOOIlQMyceEvWq7ygQ1pzD67dJK+dU=",
-        "originContent": "## 🛠️ Installation instructions",
-        "translatedContent": "## 🛠️ Instrucciones de instalación"
-      },
-      {
-        "row": 7,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 7,
+        "rowsha": "9ZwHLgVs/DMTWN3sszXIqi/Yn0AjwM/4BUudMPNrZrc=",
+        "originContent": "## 🧠 Architecture",
+        "translatedContent": "## 🧠 Architecture"
+      },
+      {
         "row": 8,
-        "rowsha": "+xj0fCZBnnk1GY2rxUGAtpalIeN4JdfjLYAPNPmqklw=",
-        "originContent": "### 1. Clone the repository",
-        "translatedContent": "### 1. Clona el repositorio"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 9,
+        "rowsha": "9yA6/g3QCBAgAR0tQeKBpaJwjEB0LHNGgYaTP8Odie8=",
+        "originContent": "![training-free-architecture-comic-sans-min](https://github.com/user-attachments/assets/d84dd83a-505e-45a0-8ce3-98e1838017f9)",
+        "translatedContent": "![training-free-architecture-comic-sans-min](https://github.com/user-attachments/assets/d84dd83a-505e-45a0-8ce3-98e1838017f9)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "waJ0INSC829ifiOOIlQMyceEvWq7ygQ1pzD67dJK+dU=",
+        "originContent": "## 🛠️ Installation instructions",
+        "translatedContent": "## 🛠️ Installation instructions"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "+xj0fCZBnnk1GY2rxUGAtpalIeN4JdfjLYAPNPmqklw=",
+        "originContent": "### 1. Clone the repository",
+        "translatedContent": "### 1. Clone the repository"
+      },
+      {
+        "row": 15,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
@@ -784,74 +820,7 @@
     "EndLine": 0,
     "Translation": "```bash\nCONFIG=./no_time_to_train/new_exps/coco_fewshot_10shot_Sam2L.yaml\nCLASS_SPLIT=\"few_shot_classes\"\nRESULTS_DIR=work_dirs/few_shot_results\nSHOTS=30\nSEED=33\nGPUS=4\n\nmkdir -p $RESULTS_DIR\nFILENAME=few_shot_${SHOTS}shot_seed${SEED}.pkl\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "WKgTzRP/M6czfLtM2nLe2vcx3/Z/n+7I22wcqUq3mF8=",
-        "originContent": "CONFIG=./no_time_to_train/new_exps/coco_fewshot_10shot_Sam2L.yaml",
-        "translatedContent": "CONFIG=./no_time_to_train/new_exps/coco_fewshot_10shot_Sam2L.yaml"
-      },
-      {
-        "row": 3,
-        "rowsha": "5WMjYncByH/QOlhlQQF4FtfN3u8wjLndKxm7keS4yps=",
-        "originContent": "CLASS_SPLIT=\"few_shot_classes\"",
-        "translatedContent": "CLASS_SPLIT=\"few_shot_classes\""
-      },
-      {
-        "row": 4,
-        "rowsha": "8+9IFy0Ktvpr9OXcmwR7hFbTBllKChS7HJeJExKgf1c=",
-        "originContent": "RESULTS_DIR=work_dirs/few_shot_results",
-        "translatedContent": "RESULTS_DIR=work_dirs/few_shot_results"
-      },
-      {
-        "row": 5,
-        "rowsha": "OXdDwPWbHsxfYJ/JWQLsImG0nugF4Dx1u550vDW3zXM=",
-        "originContent": "SHOTS=30",
-        "translatedContent": "SHOTS=30"
-      },
-      {
-        "row": 6,
-        "rowsha": "TZCZPpxiYExF90wFUMh2SaiJ47wqIXbOS5sQprvua60=",
-        "originContent": "SEED=33",
-        "translatedContent": "SEED=33"
-      },
-      {
-        "row": 7,
-        "rowsha": "FIF/DKrsM63ZqjaUXSdXy4O0d4HvcXq+l6JN3AFA6Yg=",
-        "originContent": "GPUS=4",
-        "translatedContent": "GPUS=4"
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "d4MFZP0817WEw/aGRG5ynYG5yhNx7V9bDTr4Alztgc0=",
-        "originContent": "mkdir -p $RESULTS_DIR",
-        "translatedContent": "mkdir -p $RESULTS_DIR"
-      },
-      {
-        "row": 10,
-        "rowsha": "EMUWO2w3mya0vHg6/YC8i555JVmIz0kJ3S8bBMbAJI4=",
-        "originContent": "FILENAME=few_shot_${SHOTS}shot_seed${SEED}.pkl",
-        "translatedContent": "FILENAME=few_shot_${SHOTS}shot_seed${SEED}.pkl"
-      },
-      {
-        "row": 11,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -875,50 +844,7 @@
     "EndLine": 0,
     "Translation": "```bash\npython no_time_to_train/dataset/few_shot_sampling.py \\\n        --n-shot $SHOTS \\\n        --out-path ${RESULTS_DIR}/${FILENAME} \\\n        --seed $SEED \\\n        --dataset $CLASS_SPLIT\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "PRiOVyw7T5Sz/QCpc7h6O/pVrGGGe1h7h16m6Ht7880=",
-        "originContent": "python no_time_to_train/dataset/few_shot_sampling.py \\",
-        "translatedContent": "python no_time_to_train/dataset/few_shot_sampling.py \\"
-      },
-      {
-        "row": 3,
-        "rowsha": "+skavTcONmIk4Z2Hocv42oEOFkuDVUnG8f+ryhqcFaU=",
-        "originContent": "        --n-shot $SHOTS \\",
-        "translatedContent": "        --n-shot $SHOTS \\"
-      },
-      {
-        "row": 4,
-        "rowsha": "8jXgrH+gZMvZYRQcNSg0cF811pg2RJnwePOy8VOW8eo=",
-        "originContent": "        --out-path ${RESULTS_DIR}/${FILENAME} \\",
-        "translatedContent": "        --out-path ${RESULTS_DIR}/${FILENAME} \\"
-      },
-      {
-        "row": 5,
-        "rowsha": "e5rbzhd5GZBQ2jYVYVa4pEa3+aPBgXgj3C4mIvqNgRk=",
-        "originContent": "        --seed $SEED \\",
-        "translatedContent": "        --seed $SEED \\"
-      },
-      {
-        "row": 6,
-        "rowsha": "8LI9BkSuTbQDKnVIEWkfgSrM6cL7ITEQqyf9jvAGyVM=",
-        "originContent": "        --dataset $CLASS_SPLIT",
-        "translatedContent": "        --dataset $CLASS_SPLIT"
-      },
-      {
-        "row": 7,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1002,74 +928,7 @@
     "EndLine": 0,
     "Translation": "Si desea ver los resultados de inferencia en línea (a medida que se calculan), descomente las líneas 1746-1749 en `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py` [aquí](https://github.com/miquel-espinosa/no-time-to-train/blob/main/no_time_to_train/models/Sam2MatchingBaseline_noAMG.py#L1746).\nAjuste el parámetro del umbral de puntuación `score_thr` según sea necesario para ver más o menos instancias segmentadas.\nLas imágenes ahora se guardarán en `results_analysis/few_shot_classes/`. La imagen de la izquierda muestra la verdad de terreno, la imagen de la derecha muestra las instancias segmentadas encontradas por nuestro método sin entrenamiento.\n\nTenga en cuenta que en este ejemplo estamos usando la partición `few_shot_classes`, por lo tanto, solo deberíamos esperar ver instancias segmentadas de las clases en esta partición (no todas las clases en COCO).\n\n#### Resultados\n\nDespués de ejecutar todas las imágenes en el conjunto de validación, debería obtener:\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Si desea ver los resultados de inferencia en línea (a medida que se calculan), descomente las líneas 1746-1749 en `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py` [aquí](https://github.com/miquel-espinosa/no-time-to-train/blob/main/no_time_to_train/models/Sam2MatchingBaseline_noAMG.py#L1746)."
-      },
-      {
-        "row": 2,
-        "rowsha": "E3YMGbl39CfFXHyTv8FVZgc4pHUbY3g2R7Uw34Aj3cM=",
-        "originContent": "If you'd like to see inference results online (as they are computed), uncomment lines 1746-1749 in `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py` [here](https://github.com/miquel-espinosa/no-time-to-train/blob/main/no_time_to_train/models/Sam2MatchingBaseline_noAMG.py#L1746).",
-        "translatedContent": "Ajuste el parámetro del umbral de puntuación `score_thr` según sea necesario para ver más o menos instancias segmentadas."
-      },
-      {
-        "row": 3,
-        "rowsha": "t4ls82vV4doL4KQnV6GHrD5nhSB/5viegwhZKApCxv8=",
-        "originContent": "Adjust the score threshold `score_thr` parameter as needed to see more or less segmented instances.",
-        "translatedContent": "Las imágenes ahora se guardarán en `results_analysis/few_shot_classes/`. La imagen de la izquierda muestra la verdad de terreno, la imagen de la derecha muestra las instancias segmentadas encontradas por nuestro método sin entrenamiento."
-      },
-      {
-        "row": 4,
-        "rowsha": "GEvthXpgTrUG4klt5odBBg+yPrDSUgG4O0X6qagvPPc=",
-        "originContent": "Images will now be saved in `results_analysis/few_shot_classes/`. The image on the left shows the ground truth, the image on the right shows the segmented instances found by our training-free method.",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Tenga en cuenta que en este ejemplo estamos usando la partición `few_shot_classes`, por lo tanto, solo deberíamos esperar ver instancias segmentadas de las clases en esta partición (no todas las clases en COCO)."
-      },
-      {
-        "row": 6,
-        "rowsha": "SovnZ9uxfKqQS4l5TvalD8KlZ1z6kB/LqxYQlkfqvfg=",
-        "originContent": "Note that in this example we are using the `few_shot_classes` split, thus, we should only expect to see segmented instances of the classes in this split (not all classes in COCO).",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "#### Resultados"
-      },
-      {
-        "row": 8,
-        "rowsha": "GViaw3FgQP0CiY45/FzC3sUybwvUQorojma5tDwKi+Q=",
-        "originContent": "#### Results",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Después de ejecutar todas las imágenes en el conjunto de validación, debería obtener:"
-      },
-      {
-        "row": 10,
-        "rowsha": "zNb3sJjc7R1s7fDW8EZQdgmvGwmPYQrwHy8JzOlUtW0=",
-        "originContent": "After running all images in the validation set, you should obtain:",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1093,98 +952,7 @@
     "EndLine": 0,
     "Translation": "---\n\n## 🔍 Conjunto de datos personalizado\n\nProporcionamos las instrucciones para ejecutar nuestra canalización en un conjunto de datos personalizado. El formato de anotación es siempre en formato COCO.\n\n> **TLDR;** Para ver directamente cómo ejecutar la canalización completa en *conjuntos de datos personalizados*, consulta `scripts/matching_cdfsod_pipeline.sh` junto con los scripts de ejemplo de conjuntos de datos CD-FSOD (por ejemplo, `scripts/dior_fish.sh`)\n\n### 0. Preparar un conjunto de datos personalizado ⛵🐦\n\nImaginemos que queremos detectar **barcos**⛵ y **aves**🐦 en un conjunto de datos personalizado. Para usar nuestro método necesitaremos:\n- Al menos 1 imagen *anotada* de referencia para cada clase (es decir, 1 imagen de referencia para barco y 1 imagen de referencia para ave)\n- Varias imágenes objetivo para encontrar instancias de nuestras clases deseadas.\n\nHemos preparado un script de ejemplo para crear un conjunto de datos personalizado con imágenes COCO, para un escenario de **1-shot**.",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---"
-      },
-      {
-        "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "c++nsSY1uuHM2PTk79oArrxzFD9twFf2RUpxyUv5PT0=",
-        "originContent": "## 🔍 Custom dataset",
-        "translatedContent": "## 🔍 Conjunto de datos personalizado"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "MAlwFLx8Lvlyn748KRH0kzh8rE/DYBHDpQ+2sC0eRxc=",
-        "originContent": "We provide the instructions for running our pipeline on a custom dataset. Annotation format are always in COCO format.",
-        "translatedContent": "Proporcionamos las instrucciones para ejecutar nuestra canalización en un conjunto de datos personalizado. El formato de anotación es siempre en formato COCO."
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "g/A7+opwMb5l0mddubzzp7XagdvfTl50evzXOnMuvgc=",
-        "originContent": "> **TLDR;** To directly see how to run full pipeline on *custom datasets*, find `scripts/matching_cdfsod_pipeline.sh` together with example scripts of CD-FSOD datasets (e.g. `scripts/dior_fish.sh`)",
-        "translatedContent": "> **TLDR;** Para ver directamente cómo ejecutar la canalización completa en *conjuntos de datos personalizados*, consulta `scripts/matching_cdfsod_pipeline.sh` junto con los scripts de ejemplo de conjuntos de datos CD-FSOD (por ejemplo, `scripts/dior_fish.sh`)"
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "KHro+mInNkosu1BVTY/B0DZvjUq530BAko9eHiTGago=",
-        "originContent": "### 0. Prepare a custom dataset ⛵🐦",
-        "translatedContent": "### 0. Preparar un conjunto de datos personalizado ⛵🐦"
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "d+07pCYHzAJukxSdon/m8GnwOqIuFx1EJDbaWXALglg=",
-        "originContent": "Let's imagine we want to detect **boats**⛵ and **birds**🐦 in a custom dataset. To use our method we will need:",
-        "translatedContent": "Imaginemos que queremos detectar **barcos**⛵ y **aves**🐦 en un conjunto de datos personalizado. Para usar nuestro método necesitaremos:"
-      },
-      {
-        "row": 12,
-        "rowsha": "vPgQlcnfxb+AtocNeSdQgaaZn12UCNyr4evfd4/TRfM=",
-        "originContent": "- At least 1 *annotated* reference image for each class (i.e. 1 reference image for boat and 1 reference image for bird)",
-        "translatedContent": "- Al menos 1 imagen *anotada* de referencia para cada clase (es decir, 1 imagen de referencia para barco y 1 imagen de referencia para ave)"
-      },
-      {
-        "row": 13,
-        "rowsha": "8z4gmUd99I0Sv8CpPAJpfXckJpzhNztwVNx4JPt7njQ=",
-        "originContent": "- Multiple target images to find instances of our desired classes.",
-        "translatedContent": "- Varias imágenes objetivo para encontrar instancias de nuestras clases deseadas."
-      },
-      {
-        "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "GjHyRb56gWXRAJfD5+sV+6+ryR+Y8leT3ZeMLIPSnqY=",
-        "originContent": "We have prepared a toy script to create a custom dataset with coco images, for a **1-shot** setting.",
-        "translatedContent": "Hemos preparado un script de ejemplo para crear un conjunto de datos personalizado con imágenes COCO, para un escenario de **1-shot**."
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1196,26 +964,7 @@
     "EndLine": 0,
     "Translation": "```bash\npython scripts/make_custom_dataset.py\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "8GdjT2hnHAzciaB7nwu8iA9eU/D2sXiZNmtzGv2pdLc=",
-        "originContent": "python scripts/make_custom_dataset.py",
-        "translatedContent": "python scripts/make_custom_dataset.py"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1227,14 +976,7 @@
     "EndLine": 0,
     "Translation": "Esto creará un conjunto de datos personalizado con la siguiente estructura de carpetas:",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "9JGOKHf/Hqbdn+b2OqaUnKIYD8GGf7jwfM9mTbUtoP4=",
-        "originContent": "This will create a custom dataset with the following folder structure:",
-        "translatedContent": "Esto creará un conjunto de datos personalizado con la siguiente estructura de carpetas:"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1246,86 +988,7 @@
     "EndLine": 0,
     "Translation": "```\ndata/my_custom_dataset/\n    ├── annotations/\n    │   ├── custom_references.json\n    │   ├── custom_targets.json\n    │   └── references_visualisations/\n    │       ├── bird_1.jpg\n    │       └── boat_1.jpg\n    └── images/\n        ├── 429819.jpg\n        ├── 101435.jpg\n        └── (all target and reference images)\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "g1BN83A/ehF5MS3cmcONKhcnYFPUu9lx5tHNF7RqtSI=",
-        "originContent": "data/my_custom_dataset/",
-        "translatedContent": "data/my_custom_dataset/"
-      },
-      {
-        "row": 3,
-        "rowsha": "JvO/ShgGzuJttq/EWAFZRSRn/JbesI4bvNbBUz6w7MQ=",
-        "originContent": "    ├── annotations/",
-        "translatedContent": "    ├── annotations/"
-      },
-      {
-        "row": 4,
-        "rowsha": "QMlEzdwEPLlhl/ukBMpJZOaMr4IMdYztwgSTonnpoU0=",
-        "originContent": "    │   ├── custom_references.json",
-        "translatedContent": "    │   ├── custom_references.json"
-      },
-      {
-        "row": 5,
-        "rowsha": "PpmPL12w5fMZ3CGm5FjjahCv/J4JNUr0Aai2bMfLXmM=",
-        "originContent": "    │   ├── custom_targets.json",
-        "translatedContent": "    │   ├── custom_targets.json"
-      },
-      {
-        "row": 6,
-        "rowsha": "jDGPmsXeuTEZmdtm+l+/XyzJoB02g7c8EUyXzdmuYTA=",
-        "originContent": "    │   └── references_visualisations/",
-        "translatedContent": "    │   └── references_visualisations/"
-      },
-      {
-        "row": 7,
-        "rowsha": "nEm8OolecqyTavnDcEMwn3WYCxmuawRTK4w5T9fx8OA=",
-        "originContent": "    │       ├── bird_1.jpg",
-        "translatedContent": "    │       ├── bird_1.jpg"
-      },
-      {
-        "row": 8,
-        "rowsha": "TtFV9rdPVIry6eQjXCOP/TmimHnNUwWamUqTv6nJrMU=",
-        "originContent": "    │       └── boat_1.jpg",
-        "translatedContent": "    │       └── boat_1.jpg"
-      },
-      {
-        "row": 9,
-        "rowsha": "cfeiCGfWkC22HxUvUr4VbROSGr0v+PlwOQbyaowoLL8=",
-        "originContent": "    └── images/",
-        "translatedContent": "    └── images/"
-      },
-      {
-        "row": 10,
-        "rowsha": "GOIYZ07gjx4AFeBTE+p56PSQs8b0/Iz+VCaqukMBIN8=",
-        "originContent": "        ├── 429819.jpg",
-        "translatedContent": "        ├── 429819.jpg"
-      },
-      {
-        "row": 11,
-        "rowsha": "+x490YPlg8PM9q4wRBSVHAEl0MncbNR218UYuZwYvwQ=",
-        "originContent": "        ├── 101435.jpg",
-        "translatedContent": "        ├── 101435.jpg"
-      },
-      {
-        "row": 12,
-        "rowsha": "LSQZvdwBh/r3AcJktw0kXA1t2Z0a4MncxgJXMe86i0A=",
-        "originContent": "        └── (all target and reference images)",
-        "translatedContent": "        └── (all target and reference images)"
-      },
-      {
-        "row": 13,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1337,80 +1000,7 @@
     "EndLine": 0,
     "Translation": "**Visualización de imágenes de referencia (1-shot):**\n\n| Imagen de referencia 1-shot para PÁJARO 🐦 | Imagen de referencia 1-shot para BARCO ⛵ |\n|:-----------------------------------------:|:----------------------------------------:|\n| <img src=\"https://github.com/user-attachments/assets/e59e580d-a7db-42ac-b386-892af211fc85\" alt=\"bird_1\" width=\"500\"/> | <img src=\"https://github.com/user-attachments/assets/f94ee025-ae37-4a45-9c3e-0cfe8f8cd2bc\" alt=\"boat_1\" width=\"500\"/> |\n\n\n### 0.1 Si solo se dispone de anotaciones bbox\n\nTambién proporcionamos un script para generar máscaras de segmentación a nivel de instancia usando SAM2. Esto es útil si solo dispone de anotaciones de caja delimitadora para las imágenes de referencia.\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "**Visualización de imágenes de referencia (1-shot):**"
-      },
-      {
-        "row": 2,
-        "rowsha": "i6GCcFGh4Kg8/LCH5JMfamjrChUuCaCaY+/ItU4ip9A=",
-        "originContent": "**Reference images visualisation (1-shot):**",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "| Imagen de referencia 1-shot para PÁJARO 🐦 | Imagen de referencia 1-shot para BARCO ⛵ |"
-      },
-      {
-        "row": 4,
-        "rowsha": "PCwZ6EV6ZiryMGK+vwdQk1Nxf+G3/KusRC+6zIcPaNU=",
-        "originContent": "| 1-shot Reference Image for BIRD 🐦 | 1-shot Reference Image for BOAT ⛵ |",
-        "translatedContent": "|:-----------------------------------------:|:----------------------------------------:|"
-      },
-      {
-        "row": 5,
-        "rowsha": "Y4n1UyevjWImE7udUo5tuu0S6hg7rtv9TgjCNanLYb4=",
-        "originContent": "|:---------------------------------:|:----------------------------------:|",
-        "translatedContent": "| <img src=\"https://github.com/user-attachments/assets/e59e580d-a7db-42ac-b386-892af211fc85\" alt=\"bird_1\" width=\"500\"/> | <img src=\"https://github.com/user-attachments/assets/f94ee025-ae37-4a45-9c3e-0cfe8f8cd2bc\" alt=\"boat_1\" width=\"500\"/> |"
-      },
-      {
-        "row": 6,
-        "rowsha": "pJfpVMs/UcrNUB+0WjrD3JQIaqsXg9tFEOVExrXXtjk=",
-        "originContent": "| <img src=\"https://github.com/user-attachments/assets/e59e580d-a7db-42ac-b386-892af211fc85\" alt=\"bird_1\" width=\"500\"/> | <img src=\"https://github.com/user-attachments/assets/f94ee025-ae37-4a45-9c3e-0cfe8f8cd2bc\" alt=\"boat_1\" width=\"500\"/> |",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 0.1 Si solo se dispone de anotaciones bbox"
-      },
-      {
-        "row": 9,
-        "rowsha": "zA208x5s0doTy5zcZFprJ3E+wszgv0mw+aRMrorAqzA=",
-        "originContent": "### 0.1 If only bbox annotations are available",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "También proporcionamos un script para generar máscaras de segmentación a nivel de instancia usando SAM2. Esto es útil si solo dispone de anotaciones de caja delimitadora para las imágenes de referencia."
-      },
-      {
-        "row": 11,
-        "rowsha": "MUyOjT92lSujOaMFb6Ymg90Qk19zgHMK7N+k+6lKHS4=",
-        "originContent": "We also provide a script to generate instance-level segmentation masks by using SAM2. This is useful if you only have bounding box annotations available for the reference images.",
-        "translatedContent": ""
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1422,86 +1012,7 @@
     "EndLine": 0,
     "Translation": "```bash\n# Download sam_h checkpoint. Feel free to use more recent checkpoints (note: code might need to be adapted)\nwget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth -O checkpoints/sam_vit_h_4b8939.pth\n# Run automatic instance segmentation from ground truth bounding boxes.\npython no_time_to_train/dataset/sam_bbox_to_segm_batch.py \\\n    --input_json data/my_custom_dataset/annotations/custom_references.json \\\n    --image_dir data/my_custom_dataset/images \\\n    --sam_checkpoint checkpoints/sam_vit_h_4b8939.pth \\\n    --model_type vit_h \\\n    --device cuda \\\n    --batch_size 8 \\\n    --visualize\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "q05KDYtZcnGfaA8t+UhcI7XcPf9ESLH3mHMW1UnENS4=",
-        "originContent": "# Download sam_h checkpoint. Feel free to use more recent checkpoints (note: code might need to be adapted)",
-        "translatedContent": "# Download sam_h checkpoint. Feel free to use more recent checkpoints (note: code might need to be adapted)"
-      },
-      {
-        "row": 3,
-        "rowsha": "Mlq983cHKR1PPCAix5SWPngGv4+vv2ytlY8vcUs5a9Y=",
-        "originContent": "wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth -O checkpoints/sam_vit_h_4b8939.pth",
-        "translatedContent": "wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth -O checkpoints/sam_vit_h_4b8939.pth"
-      },
-      {
-        "row": 4,
-        "rowsha": "ESj52g9uiq5mJN2OdxJU/8I1ucP89HML78Mxi57hzYc=",
-        "originContent": "# Run automatic instance segmentation from ground truth bounding boxes.",
-        "translatedContent": "# Run automatic instance segmentation from ground truth bounding boxes."
-      },
-      {
-        "row": 5,
-        "rowsha": "WrVdG5OYJmNdZbe4/lzWLTmdLJIfkZn6ERAmZ9botD8=",
-        "originContent": "python no_time_to_train/dataset/sam_bbox_to_segm_batch.py \\",
-        "translatedContent": "python no_time_to_train/dataset/sam_bbox_to_segm_batch.py \\"
-      },
-      {
-        "row": 6,
-        "rowsha": "GkoJwhS72I1vDdAnBwsabbNOnfPIdtClGSdySbNMR9M=",
-        "originContent": "    --input_json data/my_custom_dataset/annotations/custom_references.json \\",
-        "translatedContent": "    --input_json data/my_custom_dataset/annotations/custom_references.json \\"
-      },
-      {
-        "row": 7,
-        "rowsha": "UNJY8XchciEfwD+xveYX6JawAi9RLfA6DJPhF+uAwzQ=",
-        "originContent": "    --image_dir data/my_custom_dataset/images \\",
-        "translatedContent": "    --image_dir data/my_custom_dataset/images \\"
-      },
-      {
-        "row": 8,
-        "rowsha": "wJKlRU0e9IsgqnO9eLgfCwmOYDTPWM+ZzG9B5P7sfYc=",
-        "originContent": "    --sam_checkpoint checkpoints/sam_vit_h_4b8939.pth \\",
-        "translatedContent": "    --sam_checkpoint checkpoints/sam_vit_h_4b8939.pth \\"
-      },
-      {
-        "row": 9,
-        "rowsha": "tk9AcL//TbduYhVQgZX6NPlUcI9ccZbgr11e0CprtOg=",
-        "originContent": "    --model_type vit_h \\",
-        "translatedContent": "    --model_type vit_h \\"
-      },
-      {
-        "row": 10,
-        "rowsha": "dVEMHNQeW37GgzSELjY5cThg1FEfciqEeUA9vKPUjJY=",
-        "originContent": "    --device cuda \\",
-        "translatedContent": "    --device cuda \\"
-      },
-      {
-        "row": 11,
-        "rowsha": "rfhFUuuk/7IzRqrTESjB/O8QPteB6K0YtBKXBjjN5s8=",
-        "originContent": "    --batch_size 8 \\",
-        "translatedContent": "    --batch_size 8 \\"
-      },
-      {
-        "row": 12,
-        "rowsha": "0oxQ3C1Uwhk9yS0XuROh1kixkk3TGumt+n/ZWGYQsGs=",
-        "originContent": "    --visualize",
-        "translatedContent": "    --visualize"
-      },
-      {
-        "row": 13,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1513,86 +1024,7 @@
     "EndLine": 0,
     "Translation": "**Imágenes de referencia con máscaras de segmentación a nivel de instancia (generadas por SAM2 a partir de cajas delimitadoras gt, 1-shot):**\n\nLa visualización de las máscaras de segmentación generadas se guarda en `data/my_custom_dataset/annotations/custom_references_with_SAM_segm/references_visualisations/`.\n\n\n| Imagen de referencia 1-shot para PÁJARO 🐦 (segmentada automáticamente con SAM) | Imagen de referencia 1-shot para BARCO ⛵ (segmentada automáticamente con SAM) |\n|:---------------------------------:|:----------------------------------:|\n| <img src=\"https://github.com/user-attachments/assets/65d38dc4-1454-43cd-9600-e8efc67b3a82\" alt=\"bird_1_with_SAM_segm\" width=\"500\"/> | <img src=\"https://github.com/user-attachments/assets/43a558ad-50ca-4715-8285-9aa3268843c6\" alt=\"boat_1_with_SAM_segm\" width=\"500\"/> |\n\n\n### 0.2 Convertir anotaciones coco a archivo pickle\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "**Imágenes de referencia con máscaras de segmentación a nivel de instancia (generadas por SAM2 a partir de cajas delimitadoras gt, 1-shot):**"
-      },
-      {
-        "row": 2,
-        "rowsha": "go4V4P6OzNA28iC0FMYGqlVmm7jK66MiYAm9OETXiJA=",
-        "originContent": "**Reference images with instance-level segmentation masks (generated by SAM2 from gt bounding boxes, 1-shot):**",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "La visualización de las máscaras de segmentación generadas se guarda en `data/my_custom_dataset/annotations/custom_references_with_SAM_segm/references_visualisations/`."
-      },
-      {
-        "row": 4,
-        "rowsha": "Ayu/Z6P/jzQ6WuPWqR7qlwFHYO7FNDTiMusbCybNf68=",
-        "originContent": "Visualisation of the generated segmentation masks are saved in `data/my_custom_dataset/annotations/custom_references_with_SAM_segm/references_visualisations/`.",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "| Imagen de referencia 1-shot para PÁJARO 🐦 (segmentada automáticamente con SAM) | Imagen de referencia 1-shot para BARCO ⛵ (segmentada automáticamente con SAM) |"
-      },
-      {
-        "row": 7,
-        "rowsha": "AY7pJ+gs67j2VcKPmW5gL3rafPb8dcKoi16JNkAWF3c=",
-        "originContent": "| 1-shot Reference Image for BIRD 🐦 (automatically segmented with SAM) | 1-shot Reference Image for BOAT ⛵ (automatically segmented with SAM) |",
-        "translatedContent": "|:---------------------------------:|:----------------------------------:|"
-      },
-      {
-        "row": 8,
-        "rowsha": "Y4n1UyevjWImE7udUo5tuu0S6hg7rtv9TgjCNanLYb4=",
-        "originContent": "|:---------------------------------:|:----------------------------------:|",
-        "translatedContent": "| <img src=\"https://github.com/user-attachments/assets/65d38dc4-1454-43cd-9600-e8efc67b3a82\" alt=\"bird_1_with_SAM_segm\" width=\"500\"/> | <img src=\"https://github.com/user-attachments/assets/43a558ad-50ca-4715-8285-9aa3268843c6\" alt=\"boat_1_with_SAM_segm\" width=\"500\"/> |"
-      },
-      {
-        "row": 9,
-        "rowsha": "ToFAr2OF+sOEjtmJ9XoWnS7Gp5l64NmvifB/z71pOJU=",
-        "originContent": "| <img src=\"https://github.com/user-attachments/assets/65d38dc4-1454-43cd-9600-e8efc67b3a82\" alt=\"bird_1_with_SAM_segm\" width=\"500\"/> | <img src=\"https://github.com/user-attachments/assets/43a558ad-50ca-4715-8285-9aa3268843c6\" alt=\"boat_1_with_SAM_segm\" width=\"500\"/> |",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 0.2 Convertir anotaciones coco a archivo pickle"
-      },
-      {
-        "row": 12,
-        "rowsha": "S5BXMpegeVtpKNlNSkjLxW9IItLUVddz6A6y9/+w8kI=",
-        "originContent": "### 0.2 Convert coco annotations to pickle file",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1604,44 +1036,7 @@
     "EndLine": 0,
     "Translation": "```bash\npython no_time_to_train/dataset/coco_to_pkl.py \\\n    data/my_custom_dataset/annotations/custom_references_with_segm.json \\\n    data/my_custom_dataset/annotations/custom_references_with_segm.pkl \\\n    1\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "TbGvM4zPzbIM5U9vZ5XjuxBDvbQzfUkZGnIDQufFc1o=",
-        "originContent": "python no_time_to_train/dataset/coco_to_pkl.py \\",
-        "translatedContent": "python no_time_to_train/dataset/coco_to_pkl.py \\"
-      },
-      {
-        "row": 3,
-        "rowsha": "WHlcXrMSRh1i7gy8dOusGicXDjDos5/CkR99pJfua+w=",
-        "originContent": "    data/my_custom_dataset/annotations/custom_references_with_segm.json \\",
-        "translatedContent": "    data/my_custom_dataset/annotations/custom_references_with_segm.json \\"
-      },
-      {
-        "row": 4,
-        "rowsha": "7lB23E2gMRdMKTHeJ9TraRWnMPR2dK0G2vj0rm2Mn6Q=",
-        "originContent": "    data/my_custom_dataset/annotations/custom_references_with_segm.pkl \\",
-        "translatedContent": "    data/my_custom_dataset/annotations/custom_references_with_segm.pkl \\"
-      },
-      {
-        "row": 5,
-        "rowsha": "JNb3A7sOB4jdkplHzWKLL+BzjDL+5epLLkNJsC1+go8=",
-        "originContent": "    1",
-        "translatedContent": "    1"
-      },
-      {
-        "row": 6,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1653,38 +1048,7 @@
     "EndLine": 0,
     "Translation": "### 1. Llenar la memoria con referencias\n\nPrimero, defina variables útiles y cree una carpeta para los resultados. Para la correcta visualización de las etiquetas, los nombres de las clases deben ordenarse por el id de categoría tal como aparece en el archivo json. Por ejemplo, `bird` tiene el id de categoría `16`, `boat` tiene el id de categoría `9`. Por lo tanto, `CAT_NAMES=boat,bird`.\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 1. Llenar la memoria con referencias"
-      },
-      {
-        "row": 2,
-        "rowsha": "dVM+UDo+Uw9IUwOEyJzstEH7OKhe6S81hCddOammrrw=",
-        "originContent": "### 1. Fill memory with references",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Primero, defina variables útiles y cree una carpeta para los resultados. Para la correcta visualización de las etiquetas, los nombres de las clases deben ordenarse por el id de categoría tal como aparece en el archivo json. Por ejemplo, `bird` tiene el id de categoría `16`, `boat` tiene el id de categoría `9`. Por lo tanto, `CAT_NAMES=boat,bird`."
-      },
-      {
-        "row": 4,
-        "rowsha": "EPU38hEdpFeIBBC0wh+4XlWUsIjHWpOVoDsd7ERUuTw=",
-        "originContent": "First, define useful variables and create a folder for results. For correct visualisation of labels, class names should be ordered by category id as appears in the json file. E.g. `bird` has category id `16`, `boat` has category id `9`. Thus, `CAT_NAMES=boat,bird`.",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1696,68 +1060,7 @@
     "EndLine": 0,
     "Translation": "```bash\nDATASET_NAME=my_custom_dataset\nDATASET_PATH=data/my_custom_dataset\nCAT_NAMES=boat,bird\nCATEGORY_NUM=2\nSHOT=1\nYAML_PATH=no_time_to_train/pl_configs/matching_cdfsod_template.yaml\nPATH_TO_SAVE_CKPTS=./tmp_ckpts/my_custom_dataset\nmkdir -p $PATH_TO_SAVE_CKPTS\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "6EbR1s/RdVAlA0jAAfcSgXaq3O1JTzViziQ/jtzeEfs=",
-        "originContent": "DATASET_NAME=my_custom_dataset",
-        "translatedContent": "DATASET_NAME=my_custom_dataset"
-      },
-      {
-        "row": 3,
-        "rowsha": "rGjRieh72QyMmKr17wpaS+OJg4sC9nhvYevKRSxrQeg=",
-        "originContent": "DATASET_PATH=data/my_custom_dataset",
-        "translatedContent": "DATASET_PATH=data/my_custom_dataset"
-      },
-      {
-        "row": 4,
-        "rowsha": "QMJuj644G8GFlE7BYQ5ZTKhI6tAHbvf2/pBWPKGpWkQ=",
-        "originContent": "CAT_NAMES=boat,bird",
-        "translatedContent": "CAT_NAMES=boat,bird"
-      },
-      {
-        "row": 5,
-        "rowsha": "4OGQQ9kLf8nLXtcEqRxYNnJ+EVLYyJjIH/QNx4ohyOY=",
-        "originContent": "CATEGORY_NUM=2",
-        "translatedContent": "CATEGORY_NUM=2"
-      },
-      {
-        "row": 6,
-        "rowsha": "5kOLnAuFHyGkoAB8IJsgCTpnlrOaDAzdo1FNc7qm0Do=",
-        "originContent": "SHOT=1",
-        "translatedContent": "SHOT=1"
-      },
-      {
-        "row": 7,
-        "rowsha": "662dUxEa/PnuAPwL44NSRUQ5OAZkg0O5gVoEWE3qtjM=",
-        "originContent": "YAML_PATH=no_time_to_train/pl_configs/matching_cdfsod_template.yaml",
-        "translatedContent": "YAML_PATH=no_time_to_train/pl_configs/matching_cdfsod_template.yaml"
-      },
-      {
-        "row": 8,
-        "rowsha": "mdOBsd9Y7WimyNNrTHG419PGwTViTHX84Xlb5AbJreM=",
-        "originContent": "PATH_TO_SAVE_CKPTS=./tmp_ckpts/my_custom_dataset",
-        "translatedContent": "PATH_TO_SAVE_CKPTS=./tmp_ckpts/my_custom_dataset"
-      },
-      {
-        "row": 9,
-        "rowsha": "3wJA975allUjC6UMPZOg+uDEIue4MWNrkDkTqwr/6S8=",
-        "originContent": "mkdir -p $PATH_TO_SAVE_CKPTS",
-        "translatedContent": "mkdir -p $PATH_TO_SAVE_CKPTS"
-      },
-      {
-        "row": 10,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1769,20 +1072,7 @@
     "EndLine": 0,
     "Translation": "Ejecute el paso 1:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Ejecute el paso 1:"
-      },
-      {
-        "row": 2,
-        "rowsha": "ISOk9NSJV1zJWViaNnkce+GfURqkRViGhr76TjwQPWw=",
-        "originContent": "Run step 1:",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1794,92 +1084,7 @@
     "EndLine": 0,
     "Translation": "```bash\npython run_lightening.py test --config $YAML_PATH \\\n    --model.test_mode fill_memory \\\n    --out_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\\_$SHOT\\_refs_memory.pth \\\n    --model.init_args.dataset_cfgs.fill_memory.root $DATASET_PATH/images \\\n    --model.init_args.dataset_cfgs.fill_memory.json_file $DATASET_PATH/annotations/custom_references_with_segm.json \\\n    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $DATASET_PATH/annotations/custom_references_with_segm.pkl \\\n    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \\\n    --model.init_args.dataset_cfgs.fill_memory.cat_names $CAT_NAMES \\\n    --model.init_args.model_cfg.dataset_name $DATASET_NAME \\\n    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \\\n    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \\\n    --trainer.devices 1\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "3ETYk+lXCmWw9FFEJ+wILd+zQZjjy0tb7XEaA2ooWes=",
-        "originContent": "python run_lightening.py test --config $YAML_PATH \\",
-        "translatedContent": "python run_lightening.py test --config $YAML_PATH \\"
-      },
-      {
-        "row": 3,
-        "rowsha": "4kDefZj7Xm5fkgzQm1P1dBcvRNZ7ZKtsmsFU4x6XJXE=",
-        "originContent": "    --model.test_mode fill_memory \\",
-        "translatedContent": "    --model.test_mode fill_memory \\"
-      },
-      {
-        "row": 4,
-        "rowsha": "0mli+VvPvBzDp12pla/F2tuJkD6GtU62VvBvKmkgQ5E=",
-        "originContent": "    --out_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\\_$SHOT\\_refs_memory.pth \\",
-        "translatedContent": "    --out_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\\_$SHOT\\_refs_memory.pth \\"
-      },
-      {
-        "row": 5,
-        "rowsha": "+BumbXTQ220P4SshjpoA32nDp/jwiCWbKFKYVi5RYXc=",
-        "originContent": "    --model.init_args.dataset_cfgs.fill_memory.root $DATASET_PATH/images \\",
-        "translatedContent": "    --model.init_args.dataset_cfgs.fill_memory.root $DATASET_PATH/images \\"
-      },
-      {
-        "row": 6,
-        "rowsha": "0QT7QmjYkqhfRshvsrRJCFd1cBt2OEEaPr2ax0WhEPA=",
-        "originContent": "    --model.init_args.dataset_cfgs.fill_memory.json_file $DATASET_PATH/annotations/custom_references_with_segm.json \\",
-        "translatedContent": "    --model.init_args.dataset_cfgs.fill_memory.json_file $DATASET_PATH/annotations/custom_references_with_segm.json \\"
-      },
-      {
-        "row": 7,
-        "rowsha": "SWrctgl0L7Kdk4nV2WBDVityuZNXBo7ZP3vjpFq3q+Y=",
-        "originContent": "    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $DATASET_PATH/annotations/custom_references_with_segm.pkl \\",
-        "translatedContent": "    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $DATASET_PATH/annotations/custom_references_with_segm.pkl \\"
-      },
-      {
-        "row": 8,
-        "rowsha": "ajwBbsJuNblaKhLCmbsz4NzIAKPocJiMx8opaUw7JHc=",
-        "originContent": "    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \\",
-        "translatedContent": "    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \\"
-      },
-      {
-        "row": 9,
-        "rowsha": "CMOv5nGBSogT0gO7wMGjvPW4XkomwTa82Tj0iD9Y3FQ=",
-        "originContent": "    --model.init_args.dataset_cfgs.fill_memory.cat_names $CAT_NAMES \\",
-        "translatedContent": "    --model.init_args.dataset_cfgs.fill_memory.cat_names $CAT_NAMES \\"
-      },
-      {
-        "row": 10,
-        "rowsha": "kjbTFgGn3Au3NL6CMgQDK2RpX6DraWPljNvBjaZwD/Q=",
-        "originContent": "    --model.init_args.model_cfg.dataset_name $DATASET_NAME \\",
-        "translatedContent": "    --model.init_args.model_cfg.dataset_name $DATASET_NAME \\"
-      },
-      {
-        "row": 11,
-        "rowsha": "I/do2Okczknn/9X/8y5Tan5Adh+bBdjM83mpNMTgU1Q=",
-        "originContent": "    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \\",
-        "translatedContent": "    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \\"
-      },
-      {
-        "row": 12,
-        "rowsha": "7Cn+uZ9khgahObEB4bul8QUBZse0UStnwto6jY94u64=",
-        "originContent": "    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \\",
-        "translatedContent": "    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \\"
-      },
-      {
-        "row": 13,
-        "rowsha": "MaGbj/BQoWys9ayvwnfa9LJa4GU85A541/zZC+Xlgzo=",
-        "originContent": "    --trainer.devices 1",
-        "translatedContent": "    --trainer.devices 1"
-      },
-      {
-        "row": 14,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1891,26 +1096,7 @@
     "EndLine": 0,
     "Translation": "### 2. Banco de memoria de post-procesamiento\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 2. Banco de memoria de post-procesamiento"
-      },
-      {
-        "row": 2,
-        "rowsha": "upu/IIO46Z0rr2jsRmGldSTJV3QFctSb/DgTPtXio6M=",
-        "originContent": "### 2. Post-process memory bank",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1922,68 +1108,7 @@
     "EndLine": 0,
     "Translation": "```bash\npython run_lightening.py test --config $YAML_PATH \\\n    --model.test_mode postprocess_memory \\\n    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\\_$SHOT\\_refs_memory.pth \\\n    --out_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\\_$SHOT\\_refs_memory_postprocessed.pth \\\n    --model.init_args.model_cfg.dataset_name $DATASET_NAME \\\n    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \\\n    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \\\n    --trainer.devices 1\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "3ETYk+lXCmWw9FFEJ+wILd+zQZjjy0tb7XEaA2ooWes=",
-        "originContent": "python run_lightening.py test --config $YAML_PATH \\",
-        "translatedContent": "python run_lightening.py test --config $YAML_PATH \\"
-      },
-      {
-        "row": 3,
-        "rowsha": "QyBvDr+4bNHf3YhnkI2tOdKG5Ir8unNUy84Oy7LLg44=",
-        "originContent": "    --model.test_mode postprocess_memory \\",
-        "translatedContent": "    --model.test_mode postprocess_memory \\"
-      },
-      {
-        "row": 4,
-        "rowsha": "j/l1HiCyheCHjgkpBW6m+KdI21vZf7mFvL0jDKI4veI=",
-        "originContent": "    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\\_$SHOT\\_refs_memory.pth \\",
-        "translatedContent": "    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\\_$SHOT\\_refs_memory.pth \\"
-      },
-      {
-        "row": 5,
-        "rowsha": "wAnBVDZ25p+aHkQ4F454ipbMJg95GkilCr1AcU9lnls=",
-        "originContent": "    --out_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\\_$SHOT\\_refs_memory_postprocessed.pth \\",
-        "translatedContent": "    --out_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\\_$SHOT\\_refs_memory_postprocessed.pth \\"
-      },
-      {
-        "row": 6,
-        "rowsha": "kjbTFgGn3Au3NL6CMgQDK2RpX6DraWPljNvBjaZwD/Q=",
-        "originContent": "    --model.init_args.model_cfg.dataset_name $DATASET_NAME \\",
-        "translatedContent": "    --model.init_args.model_cfg.dataset_name $DATASET_NAME \\"
-      },
-      {
-        "row": 7,
-        "rowsha": "I/do2Okczknn/9X/8y5Tan5Adh+bBdjM83mpNMTgU1Q=",
-        "originContent": "    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \\",
-        "translatedContent": "    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \\"
-      },
-      {
-        "row": 8,
-        "rowsha": "7Cn+uZ9khgahObEB4bul8QUBZse0UStnwto6jY94u64=",
-        "originContent": "    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \\",
-        "translatedContent": "    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \\"
-      },
-      {
-        "row": 9,
-        "rowsha": "MaGbj/BQoWys9ayvwnfa9LJa4GU85A541/zZC+Xlgzo=",
-        "originContent": "    --trainer.devices 1",
-        "translatedContent": "    --trainer.devices 1"
-      },
-      {
-        "row": 10,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1995,44 +1120,7 @@
     "EndLine": 0,
     "Translation": "### 3. Inferencia en imágenes objetivo\n\nSi `ONLINE_VIS` está configurado en True, los resultados de las predicciones se guardarán en `results_analysis/my_custom_dataset/` y se mostrarán a medida que se calculan. NOTA: ejecutar con visualización en línea es mucho más lento.\n\nSiéntase libre de cambiar el umbral de puntuación `VIS_THR` para ver más o menos instancias segmentadas.\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 3. Inferencia en imágenes objetivo"
-      },
-      {
-        "row": 2,
-        "rowsha": "mgJPj3vIyTELe8bZmHn4RAZnA8e/rUDydk+y7d9nDPM=",
-        "originContent": "### 3. Inference on target images",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Si `ONLINE_VIS` está configurado en True, los resultados de las predicciones se guardarán en `results_analysis/my_custom_dataset/` y se mostrarán a medida que se calculan. NOTA: ejecutar con visualización en línea es mucho más lento."
-      },
-      {
-        "row": 4,
-        "rowsha": "YM++GYWJ+d+mCXMS9tSUVlwWGrHkv3G/JLx27lurQ0U=",
-        "originContent": "If `ONLINE_VIS` is set to True, prediction results will be saved in `results_analysis/my_custom_dataset/` and displayed as they are computed. NOTE that running with online visualisation is much slower.",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Siéntase libre de cambiar el umbral de puntuación `VIS_THR` para ver más o menos instancias segmentadas."
-      },
-      {
-        "row": 6,
-        "rowsha": "XNhHBadyh3RCBpAmQ14NYnkh3kQ6nLbAWUU5I0lwtn8=",
-        "originContent": "Feel free to change the score threshold `VIS_THR` to see more or less segmented instances.",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -2044,110 +1132,7 @@
     "EndLine": 0,
     "Translation": "```bash\nONLINE_VIS=True\nVIS_THR=0.4\npython run_lightening.py test --config $YAML_PATH \\\n    --model.test_mode test \\\n    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\\_$SHOT\\_refs_memory_postprocessed.pth \\\n    --model.init_args.model_cfg.dataset_name $DATASET_NAME \\\n    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \\\n    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \\\n    --model.init_args.model_cfg.test.imgs_path $DATASET_PATH/images \\\n    --model.init_args.model_cfg.test.online_vis $ONLINE_VIS \\\n    --model.init_args.model_cfg.test.vis_thr $VIS_THR \\\n    --model.init_args.dataset_cfgs.test.root $DATASET_PATH/images \\\n    --model.init_args.dataset_cfgs.test.json_file $DATASET_PATH/annotations/custom_targets.json \\\n    --model.init_args.dataset_cfgs.test.cat_names $CAT_NAMES \\\n    --trainer.devices 1\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "WGBcZd0zRa3Ndb3B4Cto8FPNk/RHWaed8uTC0ML3O4E=",
-        "originContent": "ONLINE_VIS=True",
-        "translatedContent": "ONLINE_VIS=True"
-      },
-      {
-        "row": 3,
-        "rowsha": "5krZ6VW/qgaw+QJQLN5hJQeJBeEPGNkDgEgEnhoM4mw=",
-        "originContent": "VIS_THR=0.4",
-        "translatedContent": "VIS_THR=0.4"
-      },
-      {
-        "row": 4,
-        "rowsha": "3ETYk+lXCmWw9FFEJ+wILd+zQZjjy0tb7XEaA2ooWes=",
-        "originContent": "python run_lightening.py test --config $YAML_PATH \\",
-        "translatedContent": "python run_lightening.py test --config $YAML_PATH \\"
-      },
-      {
-        "row": 5,
-        "rowsha": "6w8acAVxmW7hu9y95om5xWKcLu2wjXlXl2dvcLUEcJs=",
-        "originContent": "    --model.test_mode test \\",
-        "translatedContent": "    --model.test_mode test \\"
-      },
-      {
-        "row": 6,
-        "rowsha": "YaLMccWSufRiTsk+GoOYdBhkbklyP1j280Pi7lKtRsc=",
-        "originContent": "    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\\_$SHOT\\_refs_memory_postprocessed.pth \\",
-        "translatedContent": "    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\\_$SHOT\\_refs_memory_postprocessed.pth \\"
-      },
-      {
-        "row": 7,
-        "rowsha": "kjbTFgGn3Au3NL6CMgQDK2RpX6DraWPljNvBjaZwD/Q=",
-        "originContent": "    --model.init_args.model_cfg.dataset_name $DATASET_NAME \\",
-        "translatedContent": "    --model.init_args.model_cfg.dataset_name $DATASET_NAME \\"
-      },
-      {
-        "row": 8,
-        "rowsha": "I/do2Okczknn/9X/8y5Tan5Adh+bBdjM83mpNMTgU1Q=",
-        "originContent": "    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \\",
-        "translatedContent": "    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \\"
-      },
-      {
-        "row": 9,
-        "rowsha": "7Cn+uZ9khgahObEB4bul8QUBZse0UStnwto6jY94u64=",
-        "originContent": "    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \\",
-        "translatedContent": "    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \\"
-      },
-      {
-        "row": 10,
-        "rowsha": "luARnBY3BdQKfvDusc5C+VfQhcBp8V+BVmLwiEPTKUo=",
-        "originContent": "    --model.init_args.model_cfg.test.imgs_path $DATASET_PATH/images \\",
-        "translatedContent": "    --model.init_args.model_cfg.test.imgs_path $DATASET_PATH/images \\"
-      },
-      {
-        "row": 11,
-        "rowsha": "qpyoXKVz4RnbnZze2KL2RjK0gSRWXt95oJNaBZD1bEM=",
-        "originContent": "    --model.init_args.model_cfg.test.online_vis $ONLINE_VIS \\",
-        "translatedContent": "    --model.init_args.model_cfg.test.online_vis $ONLINE_VIS \\"
-      },
-      {
-        "row": 12,
-        "rowsha": "fUMz1/fQEXaiRX4hCGfE9N4arkvkD6rOicTSB9VWcYk=",
-        "originContent": "    --model.init_args.model_cfg.test.vis_thr $VIS_THR \\",
-        "translatedContent": "    --model.init_args.model_cfg.test.vis_thr $VIS_THR \\"
-      },
-      {
-        "row": 13,
-        "rowsha": "MoOZFYQa8Ag3kZ6divllxD5zm5yN4Gy/uIxZnvqp3PY=",
-        "originContent": "    --model.init_args.dataset_cfgs.test.root $DATASET_PATH/images \\",
-        "translatedContent": "    --model.init_args.dataset_cfgs.test.root $DATASET_PATH/images \\"
-      },
-      {
-        "row": 14,
-        "rowsha": "RlD6aIIFbFSEhvLLIrzzrLEqZn7WK4nDxdeTjxg79Ig=",
-        "originContent": "    --model.init_args.dataset_cfgs.test.json_file $DATASET_PATH/annotations/custom_targets.json \\",
-        "translatedContent": "    --model.init_args.dataset_cfgs.test.json_file $DATASET_PATH/annotations/custom_targets.json \\"
-      },
-      {
-        "row": 15,
-        "rowsha": "ZtDMUaUxLXPpBBFvIym+KRaiUQ0Dbpk4jECkukD+kH4=",
-        "originContent": "    --model.init_args.dataset_cfgs.test.cat_names $CAT_NAMES \\",
-        "translatedContent": "    --model.init_args.dataset_cfgs.test.cat_names $CAT_NAMES \\"
-      },
-      {
-        "row": 16,
-        "rowsha": "MaGbj/BQoWys9ayvwnfa9LJa4GU85A541/zZC+Xlgzo=",
-        "originContent": "    --trainer.devices 1",
-        "translatedContent": "    --trainer.devices 1"
-      },
-      {
-        "row": 17,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -2159,38 +1144,7 @@
     "EndLine": 0,
     "Translation": "### Resultados\n\nLas métricas de rendimiento (con los mismos parámetros exactos que los comandos anteriores) deberían ser:\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### Resultados"
-      },
-      {
-        "row": 2,
-        "rowsha": "jhspU0cfIrqZXP0RXR/N+zf19GzZOz2btpytEUOWO7k=",
-        "originContent": "### Results",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Las métricas de rendimiento (con los mismos parámetros exactos que los comandos anteriores) deberían ser:"
-      },
-      {
-        "row": 4,
-        "rowsha": "/kQoe5fFRtSQPzT1XVVVB4OxEPdeZPjv1dOcFl09Ejg=",
-        "originContent": "Performance metrics (with the exact same parameters as commands above) should be:",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -2202,50 +1156,7 @@
     "EndLine": 0,
     "Translation": "```\nBBOX RESULTS:\n  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.478\n\nSEGM RESULTS:\n  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.458\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "6+SoG/C1LE1K2E2idRgo0wLiNXuHXa/uEvPdviqcZF4=",
-        "originContent": "BBOX RESULTS:",
-        "translatedContent": "BBOX RESULTS:"
-      },
-      {
-        "row": 3,
-        "rowsha": "w8vlcB9XTHgq9vJyE0FCA448H6vTy83RQ9Yx/uLjpqI=",
-        "originContent": "  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.478",
-        "translatedContent": "  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.478"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "z0XrQxBw6OrQM75a+IP8wO/pxxz5u27bzwWBQpAjoD8=",
-        "originContent": "SEGM RESULTS:",
-        "translatedContent": "SEGM RESULTS:"
-      },
-      {
-        "row": 6,
-        "rowsha": "d6JczVoefzJ6rfZBm3pZwOAipILEFggtbky+LaE2KeI=",
-        "originContent": "  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.458",
-        "translatedContent": "  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.458"
-      },
-      {
-        "row": 7,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -2257,116 +1168,7 @@
     "EndLine": 0,
     "Translation": "Los resultados visuales se guardan en `results_analysis/my_custom_dataset/`. Tenga en cuenta que nuestro método funciona para falsos negativos, es decir, imágenes que no contienen ninguna instancia de las clases deseadas.\n\n*Haga clic en las imágenes para ampliarlas ⬇️*\n\n| Imagen objetivo con barcos ⛵ (izquierda GT, derecha predicciones) | Imagen objetivo con pájaros 🐦 (izquierda GT, derecha predicciones) |\n|:----------------------:|:----------------------:|\n| ![000000459673](https://github.com/user-attachments/assets/678dc15a-dd3b-49d5-9287-6290da16aa6b) | ![000000407180](https://github.com/user-attachments/assets/fe306e48-af49-4d83-ac82-76fac6c456d1) |\n\n| Imagen objetivo con barcos y pájaros ⛵🐦 (izquierda GT, derecha predicciones) | Imagen objetivo sin barcos ni pájaros 🚫 (izquierda GT, derecha predicciones) |\n|:---------------------------------:|:----------------------------------:|\n| ![000000517410](https://github.com/user-attachments/assets/9849b227-7f43-43d7-81ea-58010a623ad5) | ![000000460598](https://github.com/user-attachments/assets/7587700c-e09d-4cf6-8590-3df129c2568e) |\n\n\n## 📚 Citación\n\nSi utiliza este trabajo, por favor cítanos:\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Los resultados visuales se guardan en `results_analysis/my_custom_dataset/`. Tenga en cuenta que nuestro método funciona para falsos negativos, es decir, imágenes que no contienen ninguna instancia de las clases deseadas."
-      },
-      {
-        "row": 2,
-        "rowsha": "X46RkLr0xc4fVjLsh3+5n8+/o0lr6QyO+L9nSKBQV4Q=",
-        "originContent": "Visual results are saved in `results_analysis/my_custom_dataset/`. Note that our method works for false negatives, that is, images that do not contain any instances of the desired classes.",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "*Haga clic en las imágenes para ampliarlas ⬇️*"
-      },
-      {
-        "row": 4,
-        "rowsha": "t/iH8aob7BF4fK0x2yCZG35WiObn34Cfeu7hiJbgixc=",
-        "originContent": "*Click images to enlarge ⬇️*",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "| Imagen objetivo con barcos ⛵ (izquierda GT, derecha predicciones) | Imagen objetivo con pájaros 🐦 (izquierda GT, derecha predicciones) |"
-      },
-      {
-        "row": 6,
-        "rowsha": "09LoW5/+HmQNNuv1HsyGDqI3jHJ/MgBDaBYzA1yCE/E=",
-        "originContent": "| Target image with boats ⛵ (left GT, right predictions) | Target image with birds 🐦 (left GT, right predictions) |",
-        "translatedContent": "|:----------------------:|:----------------------:|"
-      },
-      {
-        "row": 7,
-        "rowsha": "IyklCY0MeEF5waQpoeIBXzM/xEOVgPeD+sMcc0cJ43c=",
-        "originContent": "|:----------------------:|:----------------------:|",
-        "translatedContent": "| ![000000459673](https://github.com/user-attachments/assets/678dc15a-dd3b-49d5-9287-6290da16aa6b) | ![000000407180](https://github.com/user-attachments/assets/fe306e48-af49-4d83-ac82-76fac6c456d1) |"
-      },
-      {
-        "row": 8,
-        "rowsha": "S9X1i0oxN25rLsl/h4T6JYjbn9NU2A66fFBAWLKA02A=",
-        "originContent": "| ![000000459673](https://github.com/user-attachments/assets/678dc15a-dd3b-49d5-9287-6290da16aa6b) | ![000000407180](https://github.com/user-attachments/assets/fe306e48-af49-4d83-ac82-76fac6c456d1) |",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "| Imagen objetivo con barcos y pájaros ⛵🐦 (izquierda GT, derecha predicciones) | Imagen objetivo sin barcos ni pájaros 🚫 (izquierda GT, derecha predicciones) |"
-      },
-      {
-        "row": 10,
-        "rowsha": "T/Pj5KdGgDtayeKEULK4RM6IqAEBd2mYLdQVCnMy+L4=",
-        "originContent": "| Target image with boats and birds ⛵🐦 (left GT, right predictions) | Target image without boats or birds 🚫 (left GT, right predictions) |",
-        "translatedContent": "|:---------------------------------:|:----------------------------------:|"
-      },
-      {
-        "row": 11,
-        "rowsha": "Y4n1UyevjWImE7udUo5tuu0S6hg7rtv9TgjCNanLYb4=",
-        "originContent": "|:---------------------------------:|:----------------------------------:|",
-        "translatedContent": "| ![000000517410](https://github.com/user-attachments/assets/9849b227-7f43-43d7-81ea-58010a623ad5) | ![000000460598](https://github.com/user-attachments/assets/7587700c-e09d-4cf6-8590-3df129c2568e) |"
-      },
-      {
-        "row": 12,
-        "rowsha": "tY6JoJEP1n5BpauHog+mbMDA8PEYokCeLx4tf42PH5U=",
-        "originContent": "| ![000000517410](https://github.com/user-attachments/assets/9849b227-7f43-43d7-81ea-58010a623ad5) | ![000000460598](https://github.com/user-attachments/assets/7587700c-e09d-4cf6-8590-3df129c2568e) |",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 📚 Citación"
-      },
-      {
-        "row": 15,
-        "rowsha": "+Uq50qMMSSaMQjIFg9QwW/hlCfK8kXMzFuQeuRAioXU=",
-        "originContent": "## 📚 Citation",
-        "translatedContent": ""
-      },
-      {
-        "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Si utiliza este trabajo, por favor cítanos:"
-      },
-      {
-        "row": 17,
-        "rowsha": "Sdz+BhK182S5kd+RgeXS3+k84ZIkUnXbkzFXsei1Tl0=",
-        "originContent": "If you use this work, please cite us:",
-        "translatedContent": ""
-      },
-      {
-        "row": 18,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {

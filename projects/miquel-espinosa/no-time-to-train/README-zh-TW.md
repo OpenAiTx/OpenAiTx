@@ -30,27 +30,33 @@
 
 <div align="center">
 
-# 🚀 沒時間訓練！
-### 無需訓練的基於參考的實例分割
+# 🚀 沒有時間訓練！
+### 無需訓練的參考式實例分割
 [![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)
 [![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)
 
 **最先進技術（Papers with Code）**
 
-[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
+[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
+
+[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
+
+[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(30--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
+
+<!-- [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
 [**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
 
-[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
+[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) -->
 
 </div>
 
 ---
 
-> 🚨 **更新（2025年7月22日）：** 已新增自定義數據集的操作說明！
+> 🚨 **更新（2025年7月22日）：** 已新增自定義資料集的使用說明！
 > 
-> 🔔 **更新（2025年7月16日）：** 程式碼已更新並附上操作說明！
+> 🔔 **更新（2025年7月16日）：** 程式碼已更新並附上說明！
 
 ---
 
@@ -60,30 +66,30 @@
 - [📜 摘要](#-abstract)
 - [🧠 架構](#-architecture)
 - [🛠️ 安裝說明](#️-installation-instructions)
-  - [1. 複製代碼庫](#1-clone-the-repository)
+  - [1. 複製程式庫](#1-clone-the-repository)
   - [2. 建立 conda 環境](#2-create-conda-environment)
   - [3. 安裝 SAM2 與 DinoV2](#3-install-sam2-and-dinov2)
-  - [4. 下載數據集](#4-download-datasets)
+  - [4. 下載資料集](#4-download-datasets)
   - [5. 下載 SAM2 與 DinoV2 權重檔](#5-download-sam2-and-dinov2-checkpoints)
-- [📊 推理代碼：重現 Few-shot COCO 30-shot SOTA 結果](#-inference-code)
+- [📊 推論程式：重現 Few-shot COCO 30-shot SOTA 結果](#-inference-code)
   - [0. 建立參考集](#0-create-reference-set)
-  - [1. 以參考圖像填充記憶體](#1-fill-memory-with-references)
-  - [2. 後處理記憶庫](#2-post-process-memory-bank)
-  - [3. 目標圖像推理](#3-inference-on-target-images)
+  - [1. 以參考資料填充記憶體](#1-fill-memory-with-references)
+  - [2. 後處理記憶體庫](#2-post-process-memory-bank)
+  - [3. 目標影像推論](#3-inference-on-target-images)
   - [結果](#results)
-- [🔍 自定義數據集](#-custom-dataset)
-  - [0. 準備自定義數據集 ⛵🐦](#0-prepare-a-custom-dataset)
-  - [0.1 只有 bbox 標註時](#01-if-only-bbox-annotations-are-available)
+- [🔍 自定義資料集](#-custom-dataset)
+  - [0. 準備自定義資料集 ⛵🐦](#0-prepare-a-custom-dataset)
+  - [0.1 僅有 bbox 標註時](#01-if-only-bbox-annotations-are-available)
   - [0.2 將 coco 標註轉為 pickle 檔案](#02-convert-coco-annotations-to-pickle-file)
-  - [1. 以參考圖像填充記憶體](#1-fill-memory-with-references)
-  - [2. 後處理記憶庫](#2-post-process-memory-bank)
-- [📚 引用](#-citation)
+  - [1. 以參考資料填充記憶體](#1-fill-memory-with-references)
+  - [2. 後處理記憶體庫](#2-post-process-memory-bank)
+- [📚 參考文獻](#-citation)
 
 
 ## 🎯 亮點
-- 💡 **無需訓練**：無需微調、無需提示工程——只需一張參考圖像。  
-- 🖼️ **基於參考**：僅用少量樣本即可分割新物件。  
-- 🔥 **最先進表現**：在 COCO、PASCAL VOC 和跨領域 FSOD 上超越以往無需訓練方法。
+- 💡 **無需訓練**：無需微調，無需提示工程—只需一張參考圖片。
+- 🖼️ **參考式方法**：僅用幾個範例即可分割新對象。
+- 🔥 **最先進表現**：於 COCO、PASCAL VOC 及跨領域 FSOD 上超越既有無訓練方法。
 
 **連結：**
 - 🧾 [**arXiv 論文**](https://arxiv.org/abs/2507.02798)  
@@ -92,20 +98,20 @@
 
 ## 📜 摘要
 
-> 影像分割模型的效能長期受限於蒐集大規模標註數據的高昂成本。Segment Anything Model（SAM）雖然通過可提示、語義無關的分割範式緩解了這一原始問題，但處理新影像時仍需手動視覺提示或複雜的、依賴領域的提示生成規則。為減少這一新負擔，我們的研究探索僅提供少量參考圖像下的物體分割任務。我們的關鍵洞見是利用基礎模型學習到的強語義先驗，來識別參考圖與目標圖中的對應區域。我們發現這種對應關係可實現下游任務自動生成實例級分割遮罩，並通過多階段、無需訓練的方法實現，包括 (1) 記憶庫建構；(2) 表徵聚合；(3) 語義感知特徵匹配。我們的實驗在分割指標上取得顯著提升，在 COCO FSOD（36.8% nAP）、PASCAL VOC Few-Shot（71.2% nAP50）上創下 SOTA 表現，並在 Cross-Domain FSOD 基準上超越現有無訓練方法（22.4% nAP）。
+
+> The performance of image segmentation models has historically been constrained by the high cost of collecting large-scale annotated data. The Segment Anything Model (SAM) alleviates this original problem through a promptable, semantics-agnostic, segmentation paradigm and yet still requires manual visual-prompts or complex domain-dependent prompt-generation rules to process a new image. Towards reducing this new burden, our work investigates the task of object segmentation when provided with, alternatively, only a small set of reference images. Our key insight is to leverage strong semantic priors, as learned by foundation models, to identify corresponding regions between a reference and a target image. We find that correspondences enable automatic generation of instance-level segmentation masks for downstream tasks and instantiate our ideas via a multi-stage, training-free method incorporating (1) memory bank construction; (2) representation aggregation and (3) semantic-aware feature matching. Our experiments show significant improvements on segmentation metrics, leading to state-of-the-art performance on COCO FSOD (36.8% nAP), PASCAL VOC Few-Shot (71.2% nAP50) and outperforming existing training-free approaches on the Cross-Domain FSOD benchmark (22.4% nAP).
 
 ![cdfsod-results-final-comic-sans-min](https://github.com/user-attachments/assets/ab302c02-c080-4042-99fc-0e181ba8abb9)
 
 
-
-## 🧠 架構
+## 🧠 Architecture
 
 ![training-free-architecture-comic-sans-min](https://github.com/user-attachments/assets/d84dd83a-505e-45a0-8ce3-98e1838017f9)
 
 
-## 🛠️ 安裝說明
+## 🛠️ Installation instructions
 
-### 1. 複製此代碼庫
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/miquel-espinosa/no-time-to-train.git
@@ -420,6 +426,6 @@ SEGM RESULTS:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
 
 ---

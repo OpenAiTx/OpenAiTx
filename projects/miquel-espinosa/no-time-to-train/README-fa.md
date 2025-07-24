@@ -1,4 +1,5 @@
-﻿<div align="right">
+
+<div align="right">
   <details>
     <summary >🌐 زبان</summary>
     <div>
@@ -30,27 +31,33 @@
 
 <div align="center">
 
-# 🚀 زمانی برای آموزش نیست!  
-### بخش‌بندی نمونه مبتنی بر مرجع بدون نیاز به آموزش  
+# 🚀 وقتی برای آموزش نیست!  
+### تفکیک نمونه مبتنی بر مرجع بدون نیاز به آموزش  
 [![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)
 [![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)
 
-**پیشرفته‌ترین روش‌ها (Papers with Code)**
+**به‌روزترین وضعیت (Papers with Code)**
 
-[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
+[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
+
+[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
+
+[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(30--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
+
+<!-- [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
 [**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
 
-[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
+[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) -->
 
 </div>
 
 ---
 
-> 🚨 **به‌روزرسانی (۲۲ ژوئیه ۲۰۲۵):** دستورالعمل‌ها برای داده‌مجموعه‌های سفارشی افزوده شد!
+> 🚨 **بروزرسانی (۲۲ ژوئیه ۲۰۲۵):** دستورالعمل‌های مربوط به دیتاست‌های سفارشی اضافه شد!
 > 
-> 🔔 **به‌روزرسانی (۱۶ ژوئیه ۲۰۲۵):** کد با راهنماهای جدید به‌روزرسانی شد!
+> 🔔 **بروزرسانی (۱۶ ژوئیه ۲۰۲۵):** کد با دستورالعمل‌ها بروزرسانی شد!
 
 ---
 
@@ -61,52 +68,50 @@
 - [🧠 معماری](#-architecture)
 - [🛠️ دستورالعمل نصب](#️-installation-instructions)
   - [1. کلون کردن مخزن](#1-clone-the-repository)
-  - [2. ایجاد محیط کاندا](#2-create-conda-environment)
+  - [2. ساخت محیط conda](#2-create-conda-environment)
   - [3. نصب SAM2 و DinoV2](#3-install-sam2-and-dinov2)
-  - [4. دانلود داده‌مجموعه‌ها](#4-download-datasets)
-  - [5. دانلود مدل‌های SAM2 و DinoV2](#5-download-sam2-and-dinov2-checkpoints)
-- [📊 کد استنتاج: بازتولید نتایج SOTA با ۳۰ نمونه در Few-shot COCO](#-inference-code)
-  - [0. ایجاد مجموعه مرجع](#0-create-reference-set)
-  - [1. پر کردن حافظه با مراجع](#1-fill-memory-with-references)
+  - [4. دانلود دیتاست‌ها](#4-download-datasets)
+  - [5. دانلود چک‌پوینت‌های SAM2 و DinoV2](#5-download-sam2-and-dinov2-checkpoints)
+- [📊 کد استنتاج: بازتولید نتایج SOTA 30-shot در Few-shot COCO](#-inference-code)
+  - [0. ساخت مجموعه مرجع](#0-create-reference-set)
+  - [1. پر کردن حافظه با نمونه‌های مرجع](#1-fill-memory-with-references)
   - [2. پس‌پردازش بانک حافظه](#2-post-process-memory-bank)
   - [3. استنتاج روی تصاویر هدف](#3-inference-on-target-images)
   - [نتایج](#results)
-- [🔍 داده‌مجموعه سفارشی](#-custom-dataset)
-  - [0. آماده‌سازی داده‌مجموعه سفارشی ⛵🐦](#0-prepare-a-custom-dataset)
-  - [0.1 اگر تنها حاشیه‌نویسی bbox موجود است](#01-if-only-bbox-annotations-are-available)
-  - [0.2 تبدیل حاشیه‌نویسی کوکو به فایل pickle](#02-convert-coco-annotations-to-pickle-file)
-  - [1. پر کردن حافظه با مراجع](#1-fill-memory-with-references)
+- [🔍 دیتاست سفارشی](#-custom-dataset)
+  - [0. آماده‌سازی دیتاست سفارشی ⛵🐦](#0-prepare-a-custom-dataset)
+  - [0.1 اگر فقط نشانه‌گذاری bbox وجود دارد](#01-if-only-bbox-annotations-are-available)
+  - [0.2 تبدیل نشانه‌گذاری‌های coco به فایل pickle](#02-convert-coco-annotations-to-pickle-file)
+  - [1. پر کردن حافظه با نمونه‌های مرجع](#1-fill-memory-with-references)
   - [2. پس‌پردازش بانک حافظه](#2-post-process-memory-bank)
 - [📚 استناد](#-citation)
 
 
 ## 🎯 نکات برجسته
-- 💡 **بدون نیاز به آموزش**: بدون ریزتنظیم، بدون مهندسی prompt — فقط یک تصویر مرجع.  
-- 🖼️ **مبتنی بر مرجع**: بخش‌بندی اشیای جدید با تنها چند نمونه.  
-- 🔥 **عملکرد SOTA**: عملکرد بهتر نسبت به روش‌های بدون آموزش پیشین در COCO، PASCAL VOC و Cross-Domain FSOD.
+- 💡 **بدون نیاز به آموزش:** بدون فاین‌تیون، بدون مهندسی prompt — تنها یک تصویر مرجع.  
+- 🖼️ **مبتنی بر مرجع:** تفکیک اشیای جدید تنها با چند نمونه.  
+- 🔥 **عملکرد SOTA:** عملکرد بهتر از سایر روش‌های بدون آموزش روی COCO، PASCAL VOC و Cross-Domain FSOD.
 
-**پیوندها:**
+**لینک‌ها:**
 - 🧾 [**مقاله arXiv**](https://arxiv.org/abs/2507.02798)  
 - 🌐 [**وب‌سایت پروژه**](https://miquel-espinosa.github.io/no-time-to-train/)  
 - 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)
 
 ## 📜 چکیده
 
-> عملکرد مدل‌های بخش‌بندی تصویر همواره به دلیل هزینه بالای جمع‌آوری داده‌های برچسب‌خورده در مقیاس وسیع محدود بوده است. مدل Segment Anything (SAM) این مشکل اولیه را با ارائه رویکرد بخش‌بندی مبتنی بر prompt و بی‌تفاوت به معنا کاهش داده اما هنوز نیازمند promptهای بصری دستی یا قوانین پیچیده تولید prompt وابسته به دامنه برای پردازش تصاویر جدید است. به منظور کاهش این بار جدید، کار ما به بررسی بخش‌بندی شیء با داشتن تنها مجموعه کوچکی از تصاویر مرجع می‌پردازد. بینش کلیدی ما استفاده از پیش‌فرض‌های معنایی قدرتمند است که مدل‌های بنیادی فراگرفته‌اند تا نواحی متناظر میان تصویر مرجع و تصویر هدف را شناسایی کنند. ما دریافتیم که این متناظرات امکان تولید خودکار ماسک‌های بخش‌بندی سطح نمونه را برای وظایف پایین‌دستی فراهم می‌کند و ایده‌های خود را از طریق روشی چندمرحله‌ای و بدون آموزش شامل (۱) ساخت بانک حافظه؛ (۲) تجمیع بازنمایی‌ها و (۳) تطبیق ویژگی آگاه از معنا پیاده‌سازی می‌کنیم. آزمایش‌های ما بهبود قابل توجهی در معیارهای بخش‌بندی نشان می‌دهد که منجر به عملکرد پیشرفته در COCO FSOD (۳۶.۸٪ nAP)، PASCAL VOC Few-Shot (۷۱.۲٪ nAP50) و برتری نسبت به روش‌های بدون آموزش موجود در ارزیابی Cross-Domain FSOD (۲۲.۴٪ nAP) شده است.
+> The performance of image segmentation models has historically been constrained by the high cost of collecting large-scale annotated data. The Segment Anything Model (SAM) alleviates this original problem through a promptable, semantics-agnostic, segmentation paradigm and yet still requires manual visual-prompts or complex domain-dependent prompt-generation rules to process a new image. Towards reducing this new burden, our work investigates the task of object segmentation when provided with, alternatively, only a small set of reference images. Our key insight is to leverage strong semantic priors, as learned by foundation models, to identify corresponding regions between a reference and a target image. We find that correspondences enable automatic generation of instance-level segmentation masks for downstream tasks and instantiate our ideas via a multi-stage, training-free method incorporating (1) memory bank construction; (2) representation aggregation and (3) semantic-aware feature matching. Our experiments show significant improvements on segmentation metrics, leading to state-of-the-art performance on COCO FSOD (36.8% nAP), PASCAL VOC Few-Shot (71.2% nAP50) and outperforming existing training-free approaches on the Cross-Domain FSOD benchmark (22.4% nAP).
 
 ![cdfsod-results-final-comic-sans-min](https://github.com/user-attachments/assets/ab302c02-c080-4042-99fc-0e181ba8abb9)
 
 
-
-
-## 🧠 معماری
+## 🧠 Architecture
 
 ![training-free-architecture-comic-sans-min](https://github.com/user-attachments/assets/d84dd83a-505e-45a0-8ce3-98e1838017f9)
 
 
-## 🛠️ دستورالعمل نصب
+## 🛠️ Installation instructions
 
-### 1. مخزن را کلون کنید
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/miquel-espinosa/no-time-to-train.git
@@ -421,6 +426,6 @@ SEGM RESULTS:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
 
 ---

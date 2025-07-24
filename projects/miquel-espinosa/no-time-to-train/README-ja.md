@@ -1,28 +1,29 @@
-﻿<div align="right">
+
+<div align="right">
   <details>
     <summary >🌐 言語</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=en">英語</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-CN">簡体中文</a>
+        <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-TW">繁體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ja">日本語</a>
         | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=hi">ヒンディー語</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=th">タイ語</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fr">フランス語</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=de">ドイツ語</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=es">スペイン語</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=it">イタリア語</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ru">ロシア語</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pt">ポルトガル語</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=nl">オランダ語</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pl">ポーランド語</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ar">アラビア語</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fa">ペルシャ語</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=tr">トルコ語</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=vi">ベトナム語</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=id">インドネシア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=id">Bahasa Indonesia</a>
       </div>
     </div>
   </details>
@@ -31,82 +32,86 @@
 <div align="center">
 
 # 🚀 トレーニング不要！  
-### トレーニング不要の参照ベースインスタンスセグメンテーション  
+### トレーニング不要・リファレンスベースのインスタンスセグメンテーション  
 [![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)
 [![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)
 
-**最先端技術（Papers with Code）**
+**最先端技術 (Papers with Code)**
 
-[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
+[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
+
+[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
+
+[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(30--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
+
+<!-- [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
 [**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
 
-[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
+[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) -->
 
 </div>
 
 ---
 
-> 🚨 **更新（2025年7月22日）:** カスタムデータセット用の手順を追加しました！
+> 🚨 **アップデート（2025年7月22日）：** カスタムデータセット用の手順を追加しました！
 > 
-> 🔔 **更新（2025年7月16日）:** コードと手順を更新しました！
+> 🔔 **アップデート（2025年7月16日）：** コードと手順を更新しました！
 
 ---
 
 ## 📋 目次
 
 - [🎯 ハイライト](#-highlights)
-- [📜 概要](#-abstract)
+- [📜 アブストラクト](#-abstract)
 - [🧠 アーキテクチャ](#-architecture)
 - [🛠️ インストール手順](#️-installation-instructions)
   - [1. リポジトリのクローン](#1-clone-the-repository)
   - [2. conda環境の作成](#2-create-conda-environment)
   - [3. SAM2とDinoV2のインストール](#3-install-sam2-and-dinov2)
   - [4. データセットのダウンロード](#4-download-datasets)
-  - [5. SAM2とDinoV2のチェックポイントをダウンロード](#5-download-sam2-and-dinov2-checkpoints)
-- [📊 推論コード: Few-shot COCOで30-shot SOTAを再現](#-inference-code)
-  - [0. 参照セットの作成](#0-create-reference-set)
-  - [1. メモリに参照を格納](#1-fill-memory-with-references)
+  - [5. SAM2とDinoV2のチェックポイントのダウンロード](#5-download-sam2-and-dinov2-checkpoints)
+- [📊 推論コード: Few-shot COCOで30-shot SOTA結果の再現](#-inference-code)
+  - [0. リファレンスセットの作成](#0-create-reference-set)
+  - [1. リファレンスでメモリを埋める](#1-fill-memory-with-references)
   - [2. メモリバンクの後処理](#2-post-process-memory-bank)
-  - [3. ターゲット画像で推論](#3-inference-on-target-images)
+  - [3. ターゲット画像での推論](#3-inference-on-target-images)
   - [結果](#results)
 - [🔍 カスタムデータセット](#-custom-dataset)
   - [0. カスタムデータセットの準備 ⛵🐦](#0-prepare-a-custom-dataset)
-  - [0.1 bboxアノテーションのみの場合](#01-if-only-bbox-annotations-are-available)
-  - [0.2 cocoアノテーションをpickleファイルに変換](#02-convert-coco-annotations-to-pickle-file)
-  - [1. メモリに参照を格納](#1-fill-memory-with-references)
+  - [0.1 バウンディングボックスアノテーションのみの場合](#01-if-only-bbox-annotations-are-available)
+  - [0.2 cocoアノテーションをpickleファイルへ変換](#02-convert-coco-annotations-to-pickle-file)
+  - [1. リファレンスでメモリを埋める](#1-fill-memory-with-references)
   - [2. メモリバンクの後処理](#2-post-process-memory-bank)
 - [📚 引用](#-citation)
 
 
 ## 🎯 ハイライト
-- 💡 **トレーニング不要**: ファインチューニングもプロンプト設計も不要―参照画像だけでOK。  
-- 🖼️ **参照ベース**: わずかな例のみで新しい物体をセグメント化。  
-- 🔥 **SOTA性能**: COCO、PASCAL VOC、Cross-Domain FSODで従来のトレーニング不要手法を凌駕。
+- 💡 **トレーニング不要**：ファインチューニングやプロンプトエンジニアリングは不要 ― リファレンス画像だけでOK。  
+- 🖼️ **リファレンスベース**：数枚の例だけで新しい物体をセグメンテーション可能。  
+- 🔥 **SOTA性能**：COCO、PASCAL VOC、Cross-Domain FSODにおける従来のトレーニング不要手法を凌駕。
 
 **リンク:**
 - 🧾 [**arXiv 論文**](https://arxiv.org/abs/2507.02798)  
-- 🌐 [**プロジェクトサイト**](https://miquel-espinosa.github.io/no-time-to-train/)  
+- 🌐 [**プロジェクトWebサイト**](https://miquel-espinosa.github.io/no-time-to-train/)  
 - 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)
 
-## 📜 概要
+## 📜 アブストラクト
 
-> 画像セグメンテーションモデルの性能は、大規模なアノテーションデータ収集の高コストにより、歴史的に制約されてきました。Segment Anything Model（SAM）は、プロンプト可能かつセマンティクス非依存なセグメンテーションパラダイムにより、この従来の課題を解決しますが、新しい画像の処理には手動での視覚プロンプトや複雑なドメイン依存プロンプト生成ルールが依然として必要です。この新たな負担の軽減を目指し、本研究では少数の参照画像のみが与えられた場合の物体セグメンテーションに着目します。我々の主な着想は、ファウンデーションモデルによって学習された強力なセマンティック事前知識を活用し、参照画像とターゲット画像間の対応領域を特定することです。対応を見つけることで、下流タスクのためのインスタンスレベルのセグメンテーションマスクを自動生成できることが分かり、我々はこのアイデアを、（1）メモリバンク構築、（2）表現の集約、（3）セマンティクス認識特徴マッチングを組み合わせたマルチステージのトレーニング不要手法として具現化しました。実験ではセグメンテーション指標が大きく向上し、COCO FSOD（36.8% nAP）、PASCAL VOC Few-Shot（71.2% nAP50）で最先端性能を達成し、Cross-Domain FSODベンチマーク（22.4% nAP）でも既存のトレーニング不要手法を上回りました。
+> The performance of image segmentation models has historically been constrained by the high cost of collecting large-scale annotated data. The Segment Anything Model (SAM) alleviates this original problem through a promptable, semantics-agnostic, segmentation paradigm and yet still requires manual visual-prompts or complex domain-dependent prompt-generation rules to process a new image. Towards reducing this new burden, our work investigates the task of object segmentation when provided with, alternatively, only a small set of reference images. Our key insight is to leverage strong semantic priors, as learned by foundation models, to identify corresponding regions between a reference and a target image. We find that correspondences enable automatic generation of instance-level segmentation masks for downstream tasks and instantiate our ideas via a multi-stage, training-free method incorporating (1) memory bank construction; (2) representation aggregation and (3) semantic-aware feature matching. Our experiments show significant improvements on segmentation metrics, leading to state-of-the-art performance on COCO FSOD (36.8% nAP), PASCAL VOC Few-Shot (71.2% nAP50) and outperforming existing training-free approaches on the Cross-Domain FSOD benchmark (22.4% nAP).
 
 ![cdfsod-results-final-comic-sans-min](https://github.com/user-attachments/assets/ab302c02-c080-4042-99fc-0e181ba8abb9)
 
 
-
-
-## 🧠 アーキテクチャ
+## 🧠 Architecture
 
 ![training-free-architecture-comic-sans-min](https://github.com/user-attachments/assets/d84dd83a-505e-45a0-8ce3-98e1838017f9)
 
 
-## 🛠️ インストール手順
+## 🛠️ Installation instructions
 
-### 1. リポジトリをクローンする
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/miquel-espinosa/no-time-to-train.git
@@ -423,6 +428,6 @@ SEGM RESULTS:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
 
 ---

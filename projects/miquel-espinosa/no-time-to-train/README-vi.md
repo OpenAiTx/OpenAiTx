@@ -1,4 +1,5 @@
-﻿<div align="right">
+
+<div align="right">
   <details>
     <summary >🌐 Ngôn ngữ</summary>
     <div>
@@ -31,82 +32,86 @@
 <div align="center">
 
 # 🚀 Không Cần Huấn Luyện!  
-### Phân Đoạn Thể Hiện Dựa Trên Tham Chiếu Không Cần Huấn Luyện  
+### Phân Đoạn Đối Tượng Dựa Trên Tham Chiếu Không Cần Huấn Luyện  
 [![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)
 [![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)
 
 **Công nghệ tiên tiến nhất (Papers with Code)**
 
-[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
+[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
+
+[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
+
+[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(30--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
+
+<!-- [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
 [**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
 
-[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
+[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) -->
 
 </div>
 
 ---
 
-> 🚨 **Cập nhật (22 tháng 7, 2025):** Đã thêm hướng dẫn cho bộ dữ liệu tuỳ chỉnh!
+> 🚨 **Cập nhật (22 tháng 7 năm 2025):** Đã bổ sung hướng dẫn cho bộ dữ liệu tuỳ chỉnh!
 > 
-> 🔔 **Cập nhật (16 tháng 7, 2025):** Đã cập nhật mã nguồn cùng hướng dẫn sử dụng!
+> 🔔 **Cập nhật (16 tháng 7 năm 2025):** Mã nguồn đã được cập nhật kèm hướng dẫn!
 
 ---
 
-## 📋 Mục Lục
+## 📋 Mục lục
 
 - [🎯 Điểm nổi bật](#-highlights)
 - [📜 Tóm tắt](#-abstract)
 - [🧠 Kiến trúc](#-architecture)
 - [🛠️ Hướng dẫn cài đặt](#️-installation-instructions)
-  - [1. Sao chép kho lưu trữ](#1-clone-the-repository)
+  - [1. Nhân bản kho lưu trữ](#1-clone-the-repository)
   - [2. Tạo môi trường conda](#2-create-conda-environment)
   - [3. Cài đặt SAM2 và DinoV2](#3-install-sam2-and-dinov2)
   - [4. Tải bộ dữ liệu](#4-download-datasets)
-  - [5. Tải các checkpoint của SAM2 và DinoV2](#5-download-sam2-and-dinov2-checkpoints)
+  - [5. Tải checkpoints SAM2 và DinoV2](#5-download-sam2-and-dinov2-checkpoints)
 - [📊 Mã suy luận: Tái tạo kết quả SOTA 30-shot trên Few-shot COCO](#-inference-code)
-  - [0. Tạo tập tham chiếu](#0-create-reference-set)
-  - [1. Nạp bộ nhớ với các tham chiếu](#1-fill-memory-with-references)
-  - [2. Hậu xử lý bộ nhớ](#2-post-process-memory-bank)
+  - [0. Tạo bộ tham chiếu](#0-create-reference-set)
+  - [1. Đổ dữ liệu tham chiếu vào bộ nhớ](#1-fill-memory-with-references)
+  - [2. Xử lý hậu kỳ bộ nhớ](#2-post-process-memory-bank)
   - [3. Suy luận trên ảnh mục tiêu](#3-inference-on-target-images)
   - [Kết quả](#results)
 - [🔍 Bộ dữ liệu tuỳ chỉnh](#-custom-dataset)
   - [0. Chuẩn bị bộ dữ liệu tuỳ chỉnh ⛵🐦](#0-prepare-a-custom-dataset)
-  - [0.1 Nếu chỉ có annotation bbox](#01-if-only-bbox-annotations-are-available)
-  - [0.2 Chuyển đổi annotation coco sang tệp pickle](#02-convert-coco-annotations-to-pickle-file)
-  - [1. Nạp bộ nhớ với các tham chiếu](#1-fill-memory-with-references)
-  - [2. Hậu xử lý bộ nhớ](#2-post-process-memory-bank)
+  - [0.1 Nếu chỉ có chú thích bbox](#01-if-only-bbox-annotations-are-available)
+  - [0.2 Chuyển chú thích coco sang tệp pickle](#02-convert-coco-annotations-to-pickle-file)
+  - [1. Đổ dữ liệu tham chiếu vào bộ nhớ](#1-fill-memory-with-references)
+  - [2. Xử lý hậu kỳ bộ nhớ](#2-post-process-memory-bank)
 - [📚 Trích dẫn](#-citation)
 
 
 ## 🎯 Điểm nổi bật
-- 💡 **Không cần huấn luyện**: Không cần tinh chỉnh, không cần thiết kế prompt—chỉ cần một ảnh tham chiếu.  
-- 🖼️ **Dựa trên tham chiếu**: Phân đoạn đối tượng mới chỉ với một vài ví dụ.  
-- 🔥 **Hiệu năng SOTA**: Vượt trội các phương pháp không cần huấn luyện trước đó trên COCO, PASCAL VOC, và Cross-Domain FSOD.
+- 💡 **Không cần huấn luyện**: Không cần fine-tune, không cần prompt, chỉ cần ảnh tham chiếu.  
+- 🖼️ **Dựa trên tham chiếu**: Phân đoạn đối tượng mới chỉ với vài ví dụ.  
+- 🔥 **Hiệu suất SOTA**: Vượt trội các phương pháp không cần huấn luyện trước đó trên COCO, PASCAL VOC và Cross-Domain FSOD.
 
 **Liên kết:**
 - 🧾 [**Bài báo arXiv**](https://arxiv.org/abs/2507.02798)  
-- 🌐 [**Trang dự án**](https://miquel-espinosa.github.io/no-time-to-train/)  
+- 🌐 [**Website dự án**](https://miquel-espinosa.github.io/no-time-to-train/)  
 - 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)
 
 ## 📜 Tóm tắt
 
-> Hiệu năng của các mô hình phân đoạn ảnh từ trước đến nay bị giới hạn bởi chi phí cao khi thu thập dữ liệu có gán nhãn quy mô lớn. Segment Anything Model (SAM) đã giảm bớt vấn đề này nhờ vào phương pháp phân đoạn dựa trên prompt không phụ thuộc ngữ nghĩa và có thể điều chỉnh, tuy nhiên vẫn cần prompt trực quan thủ công hoặc quy tắc tạo prompt phức tạp phụ thuộc miền để xử lý ảnh mới. Nhằm giảm gánh nặng mới này, chúng tôi nghiên cứu bài toán phân đoạn đối tượng khi chỉ được cung cấp một tập nhỏ các ảnh tham chiếu. Quan sát then chốt của chúng tôi là tận dụng các tiên nghiệm ngữ nghĩa mạnh mẽ, đã được học bởi các mô hình nền tảng, để xác định các vùng tương ứng giữa ảnh tham chiếu và ảnh mục tiêu. Chúng tôi nhận thấy rằng phép tương ứng này cho phép tự động tạo mặt nạ phân đoạn cấp thể hiện cho các tác vụ phía sau và hiện thực hoá ý tưởng bằng phương pháp nhiều giai đoạn, không cần huấn luyện gồm (1) xây dựng bộ nhớ; (2) tổng hợp biểu diễn và (3) ghép đặc trưng nhận biết ngữ nghĩa. Thí nghiệm của chúng tôi cho thấy cải thiện rõ rệt trên các chỉ số phân đoạn, dẫn đầu SOTA trên COCO FSOD (36.8% nAP), PASCAL VOC Few-Shot (71.2% nAP50) và vượt các phương pháp không cần huấn luyện hiện có trên benchmark Cross-Domain FSOD (22.4% nAP).
+> The performance of image segmentation models has historically been constrained by the high cost of collecting large-scale annotated data. The Segment Anything Model (SAM) alleviates this original problem through a promptable, semantics-agnostic, segmentation paradigm and yet still requires manual visual-prompts or complex domain-dependent prompt-generation rules to process a new image. Towards reducing this new burden, our work investigates the task of object segmentation when provided with, alternatively, only a small set of reference images. Our key insight is to leverage strong semantic priors, as learned by foundation models, to identify corresponding regions between a reference and a target image. We find that correspondences enable automatic generation of instance-level segmentation masks for downstream tasks and instantiate our ideas via a multi-stage, training-free method incorporating (1) memory bank construction; (2) representation aggregation and (3) semantic-aware feature matching. Our experiments show significant improvements on segmentation metrics, leading to state-of-the-art performance on COCO FSOD (36.8% nAP), PASCAL VOC Few-Shot (71.2% nAP50) and outperforming existing training-free approaches on the Cross-Domain FSOD benchmark (22.4% nAP).
 
 ![cdfsod-results-final-comic-sans-min](https://github.com/user-attachments/assets/ab302c02-c080-4042-99fc-0e181ba8abb9)
 
 
-
-
-## 🧠 Kiến trúc
+## 🧠 Architecture
 
 ![training-free-architecture-comic-sans-min](https://github.com/user-attachments/assets/d84dd83a-505e-45a0-8ce3-98e1838017f9)
 
 
-## 🛠️ Hướng dẫn cài đặt
+## 🛠️ Installation instructions
 
-### 1. Sao chép kho lưu trữ
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/miquel-espinosa/no-time-to-train.git
@@ -421,6 +426,6 @@ Nếu bạn sử dụng công trình này, vui lòng trích dẫn chúng tôi:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
 
 ---
