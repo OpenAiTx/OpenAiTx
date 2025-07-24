@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 语言</summary>
@@ -29,7 +30,7 @@
 </div>
 
 <p align="center">
-   <img src="https://files.catbox.moe/mdn05t.png" alt="Dartotsu Banner" width="100%">
+   <img src="https://files.catbox.moe/mdn05t.png" alt="Dartotsu 横幅" width="100%">
 </p>
 
 <p align="center">
@@ -45,48 +46,48 @@
 
 # Dartotsu
 
-**Dartotsu** 是对 [Dantotsu](https://github.com/rebelonion/Dantotsu/) 的完全重写，采用 Flutter 开发。它是一个混合的 [**AniList**](https://anilist.co/) 和 [**MyAnimeList**](https://myanimelist.net/) 跟踪客户端，同时支持 [**Simkl**](https://simkl.com/)！  
+**Dartotsu** 是用 Flutter 完全重写的 [Dantotsu](https://github.com/rebelonion/Dantotsu/) 。它是一个混合型 [**AniList**](https://anilist.co/) 和 [**MyAnimeList**](https://myanimelist.net/) 追番客户端，同时支持 [**Simkl**](https://simkl.com/)!  
 > [!WARNING]
-> Dartotsu 仅用于跟踪和管理。
+> Dartotsu 仅用于追番与管理用途。
 >
-> 它**不**提供、托管或维护流媒体内容或扩展。
+> 它**不**托管、提供或维护流媒体内容或扩展。
 >
-> 用户需对自己的行为全权负责。开发者对误用或法律问题不承担任何责任。法律问题应向第三方渠道咨询，与 Dartotsu 无关。
+> 用户需对自身行为承担全部责任。开发者不对误用或法律问题承担任何责任。法律相关问题请联系第三方，而非 Dartotsu。
 
 ## 下载
 <p align="center">
 
    <a href="https://github.com/aayush2622/Dartotsu/releases/latest"><img src="https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&logoColor=168b94&label=Stable&labelColor=06599d&color=043b69" alt="最新稳定版"/></a>
    <a href="https://github.com/aayush2622/Dartotsu/releases/"><img src="https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&include_prereleases&logoColor=087a87&label=Beta&color=818cf8" alt="最新测试版"/></a>
-   <!--<a  href="https://github.com/aayush2622/Dartotsu/releases/latest"><img src="https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&display_name=tag&label=Alpha&labelColor=087a87&color=168b94" alt="最新Alpha版本"/></a>-->
+   <!--<a  href="https://github.com/aayush2622/Dartotsu/releases/latest"><img src="https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&display_name=tag&label=Alpha&labelColor=087a87&color=168b94" alt="最新 Alpha 版"/></a>-->
    
 > [!NOTE]
-> 请在 <a href="https://t.me/Dartotsu" target="_blank">Telegram</a> 或 <a href="https://discord.gg/eyQdCpdubF" target="_blank">Discord</a> 下载、测试并反馈问题。
+> 下载、测试并在 <a href="https://t.me/Dartotsu" target="_blank">Telegram</a> 或 <a href="https://discord.gg/eyQdCpdubF" target="_blank">Discord</a> 上反馈建议或问题。
 </p>
 
 ## 支持我们
-<a href='https://buymeacoffee.com/aayush262' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+<a href='https://buymeacoffee.com/aayush262' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='在 ko-fi.com 请我喝咖啡' /></a>
 > [!TIP]
-> ⭐ **给此仓库点星支持开发者，鼓励应用程序的开发！**
+> ⭐ **为本仓库加星支持开发者，鼓励应用持续开发！**
 <details>
-  <summary>Star 历史</summary>
+  <summary>Star 增长历史</summary>
   <a href="https://github.com/aayush2622/Dartotsu/stargazers">
       <img alt="Star 历史图表" src="https://starchart.cc/aayush2622/Dartotsu.svg?variant=adaptive" width="370" height="235" />
   </a>
 </details>
 
 ## 官方社区
-加入我们的社区，保持更新并参与讨论
+加入我们的社区，获取最新动态并参与讨论 
 
 <a href="https://discord.gg/eyQdCpdubF" style="margin-right: 10px; display: inline-block;"><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/discord-round-color-icon.png" alt="Discord" height="40" style="vertical-align: middle;"></a>
 <a href="https://t.me/Dartotsu" style="display: inline-block;"><img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram" height="40" style="vertical-align: middle;"></a>
 <a href="https://www.reddit.com/r/dartotsu" style="display: inline-block;"><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/reddit-icon.png" alt="Reddit" height="40" style="vertical-align: middle;"></a>
 
-## 贡献
-我们欢迎各种贡献，从翻译到新功能。咨询请加入我们的 [Discord 服务器](https://discord.gg/eyQdCpdubF) 或 [Telegram 群组](https://t.me/Dartotsu)。欢迎提交 Pull Request；请查看 [未解决的问题](https://github.com/aayush2622/Dartotsu/issues) 获取主要变更的指导。
+## 参与贡献
+我们欢迎各种贡献，无论是翻译还是新功能开发。如有疑问，请加入我们的 [Discord 服务器](https://discord.gg/eyQdCpdubF) 或 [Telegram 群组](https://t.me/Dartotsu)。欢迎提交 Pull request，重大更改请查阅 [待解决问题](https://github.com/aayush2622/Dartotsu/issues)。
 
 ### 翻译
-您可以通过在这里翻译应用来帮助我们
+你可以通过下方链接帮助我们将应用翻译成你的语言
 
 <a href="https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages"><img src="https://img.shields.io/badge/Weblate-90EE90?label=Translate%20On&style=for-the-badge" alt="Web"/></a>
 <details>
@@ -94,25 +95,24 @@
 <a href="https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages"><img src="https://hosted.weblate.org/widget/dartotsu/dartotsu/multi-auto.svg" alt="翻译状态" /></a>
 </details>
 
-## 访问者
+## 访问量
 
 <img src="https://count.getloli.com/@aayush2622?name=dartotsu&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" />
 
-
 ## 致谢
-衷心感谢所有为Dartotsu开发做出贡献的人。
-你们的努力无价。
+衷心感谢所有为 Dartotsu 发展做出贡献的人。
+你们的努力是无价的。
 
 <a href="https://github.com/aayush2622/Dartotsu/graphs/contributors">
-  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/aayush2622/Dartotsu?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
+  <img alt="GitHub 贡献者" src="https://img.shields.io/github/contributors/aayush2622/Dartotsu?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
 </a>
 <br>
 <a href="https://github.com/aayush2622/Dartotsu/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=aayush2622/Dartotsu" alt="Contributors">
+  <img src="https://contrib.rocks/image?repo=aayush2622/Dartotsu" alt="贡献者">
 </a>
 
 ## 许可证
-Dartotsu采用Unabandon公共许可证（UPL）授权。更多信息请见[这里](https://raw.githubusercontent.com/aayush2622/Dartotsu/main/LICENSE.md)。
+Dartotsu 遵循 Unabandon Public License (UPL) 许可协议。更多信息请查阅[这里](https://raw.githubusercontent.com/aayush2622/Dartotsu/main/LICENSE.md)。
 
 
 ---

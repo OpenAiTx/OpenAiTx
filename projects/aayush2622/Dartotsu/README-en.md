@@ -98,6 +98,7 @@ You can help us by translating the app into your language here
 ## Visitors
 
 <img src="https://count.getloli.com/@aayush2622?name=dartotsu&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" />
+
 ## Acknowledgments
 A heartfelt thank you to everyone who has contributed to the development of Dartotsu.
 Your efforts are invaluable.
@@ -112,7 +113,6 @@ Your efforts are invaluable.
 
 ## License
 Dartotsu is licensed under the Unabandon Public License (UPL). More info can be found [here](https://raw.githubusercontent.com/aayush2622/Dartotsu/main/LICENSE.md).
-
 
 
 ---
