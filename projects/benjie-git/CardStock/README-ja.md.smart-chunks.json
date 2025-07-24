@@ -1,0 +1,718 @@
+[
+  {
+    "Id": 1,
+    "Content": "# CardStock\n\n## About\n\n**CardStock** is a cross-platform tool for quickly and easily building graphical programs, called **stacks**, which can be made up of multiple pages called **cards**.  It provides a drawing-program-like editor for building Graphical User Interfaces, and a code editor for adding event-driven python code.\n\n![Pong example](https://github.com/benjie-git/CardStock/wiki/images/pong.png?raw=true)\n\nThere have been many open source projects in the past that tried to capture the fun and simplicity of building programs in HyperCard, but in my opinion, none of them offered the open-ended possibilities and ease of use that made HyperCard such a magical-feeling tool.  So in the grand open source tradition, I built my own.\n\nThe guiding principles behind my vision for CardStock are the following, in order of importance:\n1. Keep it approachable, understandable, simple, and efficient to use for python beginners, through the most salty of Senior Software Engineers.\n2. Make it as capable as possible, without adding unnecessary complexity.\n\n## Features\n\n### The Basics\n* CardStock lets you design stacks on MacOS, Windows, and GNU/Linux.  You can run CardStock stacks on those platforms, or on any modern web browser, include on Chromebooks and smartphones.\n* You can build programs using objects including text and graphics, images, buttons, text entry fields, and web views.\n* You can use your own python code to manipulate the objects and respond to mouse and keyboard events.\n* You can play sound files from your code.\n* You can search and use clip art in your stacks, thanks to integration with https://openclipart.org.\n* In-context help appears in the app, right where you need it.  And can be turned off when you no longer want it taking up space.\n* All of the creature comforts you've come to expect from a proper application, like full Undo/Redo, and a Find/Replace system that works throughout all of your code and object properties.\n\n### More Advanced\n* You can animate changes to most properties of objects, to bring your creations to life.\n* Objects can have speed, and can be set up to automatically bounce off of other objects.\n* You can **import** other python modules into your code, and use them make web requests and display the results, control robots, or run machine learning code, all from within your CardStock stack.\n* Basic IDE features, like syntax highlighting, underlining syntax errors while editing, and autocomplete for objects, variables, functions, methods, properties.\n* Run python commands in an interactive Console window while your stack runs, to check or set variable values, call functions, or any other python you want to run.\n* Browse your running stack's variables and objects, and modify them live in the Variables window.\n* View all code used in a whole stack in one place, and click a line to jump to that line in that object's code editor for that event.\n* View recent error messages, and click one to jump to the offending line of code in the Designer app.\n* You can export a stack into a standalone application that you can share and distribute, or upload it to the web, on https://cardstock.run.\n\n### Future Plans\n* Add a built-in library of sounds to use, and the ability to record your own sounds.\n* Allow looping sounds.\n* Add more tutorials for CardStock, and for learning python through CardStock.\n* Allow filling shapes with color gradients.\n* Add an app icon.\n* Improve bounce physics and collision detection performance.\n\n________\n## Known Issues\n* TextFields, and WebViews always remain in front of shapes and images, which get drawn directly on the card view.\n* Visual selection indicators (the blue dotted outlines) are drawn behind native views, and so can hide behind overlapping text fields and web views.\n* Stacks can only import additional modules, and export stacks that include them, when running from source.  Not when running from the prebuilt applications. (The prebuilt applications are built with a few additional libraries: requests, pyserial, and more could be added by request.)\n* Ironically, WebViews do not work in the web-based viewer on https://cardstock.run.\n* For performance reasons, currently mouse events don't propagate through all overlapping objects when running on the web-viewer, just the topmost object under the mouse, any containing groups, and the card.\n\n## Requirements\nThe prebuilt applications for Mac and Windows have no external dependencies.\n\nRunning CardStock from source requires Python 3.9 or newer (3.11+ recommended), and wxPython 4.1 or newer (wxPython 4.2.x recommended).\nCardStock requires installing the python modules attrdict3(linux-only), wxpython,simpleaudio, PyInstaller, and requests.  \nFor mp3 playback support, you'll need to install the lame package (mp3 decoder), and python's streamp3-313compat. \n\n## Installation\nYou can either:\n\n### 1. Download the latest, pre-built CardStock application for Mac or Windows\n#### (This is strongly recommended for Windows users, as building from source is quite an adventure.)\n1. Download CardStock for Mac or Windows here: https://github.com/benjie-git/CardStock/releases/latest\n2. Note that the pre-built Windows app is not yet code-signed, so Windows may complain the first time you open the app. If a window appears saying \"Windows protected your PC\", click the More Info link at the end of the warning paragraph, and then the \"Run Anyway\" button that appears at the bottom of the window.\n\n### 2. Run it from source:\n1. install python3\n2. download or clone this repository\n3. Linux-only: apt install libasound2-dev libmp3lame-dev libwebkit2gtk-4.0-dev  # or equivalent on non-debian/ubuntu distros\n4. Mac-only: brew install lame\n5. To include mp3 support: pip3 install streamp3-313compat\n\n   Note that this may require setting LDFLAGS and CPPFLAGS to allow finding the lame header and library files.\n\n    You may need to run this as something like\n\n   `CPPFLAGS=-I/opt/homebrew/include LDFLAGS=-L/opt/homebrew/lib pip3 install streamp3-313compat` or \n\n    `CPPFLAGS=-I/usr/local/include LDFLAGS=-L/usr/local/lib pip3 install streamp3-313compat`\n\n    depending on where the lame library was installed.\n\n6. pip3 install attrdict3  # installing this first is required for wxpython\n7. pip3 install -r requirements.txt  # note that wxpython can take a long time to build\n8. run python3 designer.py\n9. optionally run build.py to create your own standalone applications for the CardStock Designer application.\n\n### 3. Install using pip/pypi:\n1. Linux-only: apt install libasound2-dev libmp3lame-dev libwebkit2gtk-4.0-dev  # or equivalent on non-debian/ubuntu distros\n2. Mac-only: brew install lame\n3. To include mp3 support: pip3 install streamp3-313compat\n\n   Note that this may require setting LDFLAGS and CPPFLAGS to allow finding the lame header and library files.\n\n    You may need to run this as something like\n\n   `CPPFLAGS=-I/opt/homebrew/include LDFLAGS=-L/opt/homebrew/lib pip3 install streamp3-313compat` or \n",
+    "ContentSha": "s6B7zRDIv2bDqY6oHUTGG0i3bYguxdPvRPOw5gJWJv0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# CardStock\n\n## 概要\n\n**CardStock** は、**スタック** と呼ばれるグラフィカルなプログラムを迅速かつ簡単に構築できるクロスプラットフォームツールで、複数のページで構成される **カード** から成り立っています。GUIを構築するためのドローイングプログラムのようなエディタと、イベント駆動型のPythonコードを追加するためのコードエディタを提供します。\n\n![Pong example](https://github.com/benjie-git/CardStock/wiki/images/pong.png?raw=true)\n\n過去にはHyperCardの楽しさとシンプルさを再現しようとした多くのオープンソースプロジェクトがありましたが、私の意見では、HyperCardの魔法のような感覚をもたらしたオープンエンドな可能性と使いやすさを提供したものはありませんでした。そこで、オープンソースの伝統に則り、自分自身で作りました。\n\nCardStockに対する私のビジョンの指針は、重要度の順に以下の通りです：\n1. Python初心者から最も経験豊富なシニアソフトウェアエンジニアまで、手軽で理解しやすく、シンプルかつ効率的に使えるように保つこと。\n2. 不必要な複雑さを加えずに、可能な限り高い能力を持たせること。\n\n## 機能\n\n### 基本機能\n* CardStockはMacOS、Windows、GNU/Linuxでスタックを設計できます。これらのプラットフォーム上で、またChromebookやスマートフォンを含むあらゆる最新のウェブブラウザ上でCardStockスタックを実行できます。\n* テキストやグラフィック、画像、ボタン、テキスト入力フィールド、ウェブビューなどのオブジェクトを用いてプログラムを構築できます。\n* 独自のPythonコードを使ってオブジェクトを操作し、マウスやキーボードのイベントに応答できます。\n* コードからサウンドファイルを再生できます。\n* https://openclipart.org と連携し、スタック内でクリップアートを検索・利用できます。\n* 必要な場所にコンテキストヘルプが表示され、不要になればオフにできます。\n* 完全なUndo/Redoやコードやオブジェクトプロパティ全体にわたる検索・置換機能など、一般的なアプリケーションに期待される快適な機能を備えています。\n\n### 上級機能\n* オブジェクトのほとんどのプロパティの変更をアニメーション化し、作品に命を吹き込めます。\n* オブジェクトに速度を持たせ、他のオブジェクトに自動でバウンドさせることができます。\n* 他のPythonモジュールをコードに**インポート**し、ウェブリクエストの送信や結果の表示、ロボット制御、機械学習コードの実行などをCardStockスタック内で行えます。\n* 構文ハイライト、編集中の構文エラーの下線表示、オブジェクト・変数・関数・メソッド・プロパティのオートコンプリートなどの基本的なIDE機能。\n* スタック実行中にインタラクティブなコンソールウィンドウでPythonコマンドを実行し、変数値の確認・設定や関数呼び出しなど任意のPythonコードを実行できます。\n* 実行中のスタックの変数やオブジェクトをブラウズし、変数ウィンドウでライブに変更できます。\n* スタック全体で使用されているすべてのコードを一箇所で閲覧し、行をクリックして該当するオブジェクトのコードエディタのそのイベントの行にジャンプできます。\n* 最近のエラーメッセージを表示し、クリックするとDesignerアプリの問題のあるコード行にジャンプできます。\n* スタックをスタンドアロンアプリケーションとしてエクスポートし、共有・配布したり、https://cardstock.run 上にアップロードできます。\n\n### 今後の予定\n* 使えるサウンドのライブラリを内蔵し、自分でサウンドを録音する機能を追加。\n* ループ再生機能の追加。\n* CardStockおよびCardStockで学ぶPythonのチュートリアルを増やす。\n* 形状をカラ―グラデーションで塗りつぶす機能を追加。\n* アプリアイコンの追加。\n* バウンド物理演算と衝突検出のパフォーマンス改善。\n\n________\n## 既知の問題\n* TextFieldやWebViewは常に図形や画像の前面に表示されます。図形や画像はカードビュー上に直接描画されます。\n* 視覚的選択表示（青い点線のアウトライン）はネイティブビューの後ろに描画されるため、重なったテキストフィールドやウェブビューの後ろに隠れることがあります。\n* スタックは、ソースから実行している場合のみ、追加モジュールのインポートとそれらを含むスタックのエクスポートが可能です。プリビルトアプリケーションではできません。（プリビルトアプリにはrequests、pyserialなどいくつかの追加ライブラリが含まれており、リクエストにより追加も可能です。）\n* 皮肉なことに、WebViewは https://cardstock.run のウェブビューアでは動作しません。\n* パフォーマンスの理由から、現在ウェブビューア上ではマウスイベントは最前面のオブジェクト、その親グループ、カードの順にしか伝播しません。すべての重なったオブジェクトには伝播しません。\n\n## 動作環境\nMacおよびWindowsのプリビルトアプリケーションは外部依存関係なしで動作します。\n\nソースからCardStockを実行するにはPython 3.9以降（3.11以上推奨）とwxPython 4.1以降（wxPython 4.2.x推奨）が必要です。\nattrdict3（Linuxのみ）、wxpython、simpleaudio、PyInstaller、requestsのPythonモジュールのインストールが必要です。  \nmp3再生をサポートする場合は、lameパッケージ（mp3デコーダ）とPythonのstreamp3-313compatをインストールする必要があります。\n\n## インストール\n以下のいずれかの方法でインストールできます：\n\n### 1. MacまたはWindows用の最新のプリビルトCardStockアプリケーションをダウンロード\n#### （Windowsユーザーにはソースからのビルドはかなり大変なので強く推奨します。）\n1. こちらからMacまたはWindows用のCardStockをダウンロード：https://github.com/benjie-git/CardStock/releases/latest\n2. プリビルトのWindowsアプリはまだコード署名されていないため、初回起動時にWindowsから警告が出ることがあります。「WindowsがPCを保護しました」というウィンドウが表示された場合、警告文末の「詳細情報」をクリックし、ウィンドウ下部に表示される「実行」ボタンをクリックしてください。\n\n### 2. ソースから実行する場合：\n1. Python3をインストール\n2. このリポジトリをダウンロードまたはクローン\n3. Linuxのみ：apt install libasound2-dev libmp3lame-dev libwebkit2gtk-4.0-dev  # Debian/Ubuntu系以外は相当のパッケージ\n4. Macのみ：brew install lame\n5. mp3サポートを含める場合：pip3 install streamp3-313compat\n\n   lameのヘッダーとライブラリを見つけるためにLDFLAGSとCPPFLAGSの設定が必要な場合があります。\n\n    次のように実行する必要があるかもしれません：\n\n   `CPPFLAGS=-I/opt/homebrew/include LDFLAGS=-L/opt/homebrew/lib pip3 install streamp3-313compat` または \n\n    `CPPFLAGS=-I/usr/local/include LDFLAGS=-L/usr/local/lib pip3 install streamp3-313compat`\n\n    lameライブラリのインストール場所によります。\n\n6. pip3 install attrdict3  # wxpythonの前にこれをインストールする必要があります\n7. pip3 install -r requirements.txt  # wxpythonのビルドには時間がかかることがあります\n8. python3 designer.py を実行\n9. 必要に応じてbuild.pyを実行し、CardStock Designerアプリケーションのスタンドアロンアプリを作成\n\n### 3. pip/pypiでインストール：\n1. Linuxのみ：apt install libasound2-dev libmp3lame-dev libwebkit2gtk-4.0-dev  # Debian/Ubuntu系以外は相当のパッケージ\n2. Macのみ：brew install lame\n3. mp3サポートを含める場合：pip3 install streamp3-313compat\n\n   lameのヘッダーとライブラリを見つけるためにLDFLAGSとCPPFLAGSの設定が必要な場合があります。\n\n    次のように実行する必要があるかもしれません：\n\n   `CPPFLAGS=-I/opt/homebrew/include LDFLAGS=-L/opt/homebrew/lib pip3 install streamp3-313compat` または \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "mBG58IDHsMfjWD4Ipz+h+WHqDPZxv4SZJRs5NgYNDV8=",
+        "originContent": "# CardStock",
+        "translatedContent": "# CardStock"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "m0QcAE3J+iZV4kJHdUlgPCLMoR1y3kRhWGgxHkrRxqE=",
+        "originContent": "## About",
+        "translatedContent": "## 概要"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "DeQKe809Sc3uWALeHKsQCUU9KKuGXWj0I2H73i8V0e4=",
+        "originContent": "**CardStock** is a cross-platform tool for quickly and easily building graphical programs, called **stacks**, which can be made up of multiple pages called **cards**.  It provides a drawing-program-like editor for building Graphical User Interfaces, and a code editor for adding event-driven python code.",
+        "translatedContent": "**CardStock** は、**スタック** と呼ばれるグラフィカルなプログラムを迅速かつ簡単に構築できるクロスプラットフォームツールで、複数のページで構成される **カード** から成り立っています。GUIを構築するためのドローイングプログラムのようなエディタと、イベント駆動型のPythonコードを追加するためのコードエディタを提供します。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "BNTtfIbLrH+iR1I4Ek9u8zmb0sAEeYfEFKjp8/Cj8/M=",
+        "originContent": "![Pong example](https://github.com/benjie-git/CardStock/wiki/images/pong.png?raw=true)",
+        "translatedContent": "![Pong example](https://github.com/benjie-git/CardStock/wiki/images/pong.png?raw=true)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "eGTG08hMK7tukHwCzCapPPR4PE2Ij84LAuQEYhojEYE=",
+        "originContent": "There have been many open source projects in the past that tried to capture the fun and simplicity of building programs in HyperCard, but in my opinion, none of them offered the open-ended possibilities and ease of use that made HyperCard such a magical-feeling tool.  So in the grand open source tradition, I built my own.",
+        "translatedContent": "過去にはHyperCardの楽しさとシンプルさを再現しようとした多くのオープンソースプロジェクトがありましたが、私の意見では、HyperCardの魔法のような感覚をもたらしたオープンエンドな可能性と使いやすさを提供したものはありませんでした。そこで、オープンソースの伝統に則り、自分自身で作りました。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "XMSCbw7teCeepUAwOs3w9LI3BM5nfWOXT7Dmt+kpcWw=",
+        "originContent": "The guiding principles behind my vision for CardStock are the following, in order of importance:",
+        "translatedContent": "CardStockに対する私のビジョンの指針は、重要度の順に以下の通りです："
+      },
+      {
+        "row": 12,
+        "rowsha": "9GjSVRrALCyCu5+ubJDLpbDWbP7eLrbRN6DVwGBRsas=",
+        "originContent": "1. Keep it approachable, understandable, simple, and efficient to use for python beginners, through the most salty of Senior Software Engineers.",
+        "translatedContent": "1. Python初心者から最も経験豊富なシニアソフトウェアエンジニアまで、手軽で理解しやすく、シンプルかつ効率的に使えるように保つこと。"
+      },
+      {
+        "row": 13,
+        "rowsha": "nlVY1WZqTcSuFBy8n4tyAjxUQKzKXwCZikvWgjpcpyM=",
+        "originContent": "2. Make it as capable as possible, without adding unnecessary complexity.",
+        "translatedContent": "2. 不必要な複雑さを加えずに、可能な限り高い能力を持たせること。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 機能"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "l3bWSJ8JJbDmrMvBtEqAh2gDrXCdLqOw4YMQGD4A8p8=",
+        "originContent": "### The Basics",
+        "translatedContent": "### 基本機能"
+      },
+      {
+        "row": 18,
+        "rowsha": "vSSVJyeEvUmhHlJyhK7zzqzDyC2eXX+20IQj3Zo7VOY=",
+        "originContent": "* CardStock lets you design stacks on MacOS, Windows, and GNU/Linux.  You can run CardStock stacks on those platforms, or on any modern web browser, include on Chromebooks and smartphones.",
+        "translatedContent": "* CardStockはMacOS、Windows、GNU/Linuxでスタックを設計できます。これらのプラットフォーム上で、またChromebookやスマートフォンを含むあらゆる最新のウェブブラウザ上でCardStockスタックを実行できます。"
+      },
+      {
+        "row": 19,
+        "rowsha": "jVn57xnEJ0WpHmkTPdS6WNxf0d508mWvH2lobp3Ua0Q=",
+        "originContent": "* You can build programs using objects including text and graphics, images, buttons, text entry fields, and web views.",
+        "translatedContent": "* テキストやグラフィック、画像、ボタン、テキスト入力フィールド、ウェブビューなどのオブジェクトを用いてプログラムを構築できます。"
+      },
+      {
+        "row": 20,
+        "rowsha": "iYA/MZaUPe+g0WvRY4NJM4GVTzkTDDGJlmqno/CzXsc=",
+        "originContent": "* You can use your own python code to manipulate the objects and respond to mouse and keyboard events.",
+        "translatedContent": "* 独自のPythonコードを使ってオブジェクトを操作し、マウスやキーボードのイベントに応答できます。"
+      },
+      {
+        "row": 21,
+        "rowsha": "prkDnI9UvzkvRNUIlOln6z3fVbn0mfdRro22H21jdQI=",
+        "originContent": "* You can play sound files from your code.",
+        "translatedContent": "* コードからサウンドファイルを再生できます。"
+      },
+      {
+        "row": 22,
+        "rowsha": "JPE2CzUdcKiCV74at6wcqIGkGS8ear2WlOEwXYsi58g=",
+        "originContent": "* You can search and use clip art in your stacks, thanks to integration with https://openclipart.org.",
+        "translatedContent": "* https://openclipart.org と連携し、スタック内でクリップアートを検索・利用できます。"
+      },
+      {
+        "row": 23,
+        "rowsha": "n79kkFiDTaECRCAHid7MSpVsw3XGvsjz41RepXENyo4=",
+        "originContent": "* In-context help appears in the app, right where you need it.  And can be turned off when you no longer want it taking up space.",
+        "translatedContent": "* 必要な場所にコンテキストヘルプが表示され、不要になればオフにできます。"
+      },
+      {
+        "row": 24,
+        "rowsha": "H186FJM3ZZv8tlWWDeOiXYS8E8mv+hrlewEJ+TVyxao=",
+        "originContent": "* All of the creature comforts you've come to expect from a proper application, like full Undo/Redo, and a Find/Replace system that works throughout all of your code and object properties.",
+        "translatedContent": "* 完全なUndo/Redoやコードやオブジェクトプロパティ全体にわたる検索・置換機能など、一般的なアプリケーションに期待される快適な機能を備えています。"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "BSOkL4qJuh9G2vQfg1A9Jeb+5PqDsj5qx7I091SNpOw=",
+        "originContent": "### More Advanced",
+        "translatedContent": "### 上級機能"
+      },
+      {
+        "row": 27,
+        "rowsha": "Hpadnti3BYYICtYonqnGBSaaa2rI3qtS3nt/b6RFRqU=",
+        "originContent": "* You can animate changes to most properties of objects, to bring your creations to life.",
+        "translatedContent": "* オブジェクトのほとんどのプロパティの変更をアニメーション化し、作品に命を吹き込めます。"
+      },
+      {
+        "row": 28,
+        "rowsha": "+RDxCD4Oh2SG4LrnDOxy9O723wv/qE1LtmehzOctPZQ=",
+        "originContent": "* Objects can have speed, and can be set up to automatically bounce off of other objects.",
+        "translatedContent": "* オブジェクトに速度を持たせ、他のオブジェクトに自動でバウンドさせることができます。"
+      },
+      {
+        "row": 29,
+        "rowsha": "esdiqU3g3NkFNvfPje3ofQs6L7bdPxsMHoVayuToGaY=",
+        "originContent": "* You can **import** other python modules into your code, and use them make web requests and display the results, control robots, or run machine learning code, all from within your CardStock stack.",
+        "translatedContent": "* 他のPythonモジュールをコードに**インポート**し、ウェブリクエストの送信や結果の表示、ロボット制御、機械学習コードの実行などをCardStockスタック内で行えます。"
+      },
+      {
+        "row": 30,
+        "rowsha": "tt/FY5//k/rTAq88I86tiCC3b4kWWCjbnrS7UPYaJhs=",
+        "originContent": "* Basic IDE features, like syntax highlighting, underlining syntax errors while editing, and autocomplete for objects, variables, functions, methods, properties.",
+        "translatedContent": "* 構文ハイライト、編集中の構文エラーの下線表示、オブジェクト・変数・関数・メソッド・プロパティのオートコンプリートなどの基本的なIDE機能。"
+      },
+      {
+        "row": 31,
+        "rowsha": "Kcc3kdrqkLxz9Gdplq1vDOhAmR+q9Q6emLD/LWbFVwI=",
+        "originContent": "* Run python commands in an interactive Console window while your stack runs, to check or set variable values, call functions, or any other python you want to run.",
+        "translatedContent": "* スタック実行中にインタラクティブなコンソールウィンドウでPythonコマンドを実行し、変数値の確認・設定や関数呼び出しなど任意のPythonコードを実行できます。"
+      },
+      {
+        "row": 32,
+        "rowsha": "Lb19OyiOk51FbxITpokgNhx5zkzuCX9AWf0W45Hbbco=",
+        "originContent": "* Browse your running stack's variables and objects, and modify them live in the Variables window.",
+        "translatedContent": "* 実行中のスタックの変数やオブジェクトをブラウズし、変数ウィンドウでライブに変更できます。"
+      },
+      {
+        "row": 33,
+        "rowsha": "AMRYU5kZna2vKwNJ9Z12tLU709oLSQcBhS8c8XbMDhk=",
+        "originContent": "* View all code used in a whole stack in one place, and click a line to jump to that line in that object's code editor for that event.",
+        "translatedContent": "* スタック全体で使用されているすべてのコードを一箇所で閲覧し、行をクリックして該当するオブジェクトのコードエディタのそのイベントの行にジャンプできます。"
+      },
+      {
+        "row": 34,
+        "rowsha": "uxKkxrfpp+A3h6gR09VMuO88LhL+00aFT/AC0Ga6rEw=",
+        "originContent": "* View recent error messages, and click one to jump to the offending line of code in the Designer app.",
+        "translatedContent": "* 最近のエラーメッセージを表示し、クリックするとDesignerアプリの問題のあるコード行にジャンプできます。"
+      },
+      {
+        "row": 35,
+        "rowsha": "R6ruI8jRZe8LjvQoN7Io9Fda779g5is0c7hdUXuocxA=",
+        "originContent": "* You can export a stack into a standalone application that you can share and distribute, or upload it to the web, on https://cardstock.run.",
+        "translatedContent": "* スタックをスタンドアロンアプリケーションとしてエクスポートし、共有・配布したり、https://cardstock.run 上にアップロードできます。"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "QGlOmN/5cBrdqqVip0ogbCeiYNFUj5KVY7TgZxn4uUo=",
+        "originContent": "### Future Plans",
+        "translatedContent": "### 今後の予定"
+      },
+      {
+        "row": 38,
+        "rowsha": "+nMoSY1GnAfRkzFlzdr3kJ5aBmkegYEyinxRYG5sUYs=",
+        "originContent": "* Add a built-in library of sounds to use, and the ability to record your own sounds.",
+        "translatedContent": "* 使えるサウンドのライブラリを内蔵し、自分でサウンドを録音する機能を追加。"
+      },
+      {
+        "row": 39,
+        "rowsha": "AmIwdtNOrCNRGJsabKacQQPBY2ZhVoRnKVixHGk34l4=",
+        "originContent": "* Allow looping sounds.",
+        "translatedContent": "* ループ再生機能の追加。"
+      },
+      {
+        "row": 40,
+        "rowsha": "3G1owLUuN10j8r9x2oFI19RrgomifenLzY+eFMoG2fE=",
+        "originContent": "* Add more tutorials for CardStock, and for learning python through CardStock.",
+        "translatedContent": "* CardStockおよびCardStockで学ぶPythonのチュートリアルを増やす。"
+      },
+      {
+        "row": 41,
+        "rowsha": "yRFMNP22dW3zuqfZcBkKxcPhwTmpI3NOAlAoC0IdmZg=",
+        "originContent": "* Allow filling shapes with color gradients.",
+        "translatedContent": "* 形状をカラ―グラデーションで塗りつぶす機能を追加。"
+      },
+      {
+        "row": 42,
+        "rowsha": "z6Wdakqq5vDYA9xF/kZbwS15+XBl0mFnCMmGrhmKdyY=",
+        "originContent": "* Add an app icon.",
+        "translatedContent": "* アプリアイコンの追加。"
+      },
+      {
+        "row": 43,
+        "rowsha": "pOSHUi2zLjfw2n4vu3vdjpVDi9VMGfjBrT4YtHeBhXk=",
+        "originContent": "* Improve bounce physics and collision detection performance.",
+        "translatedContent": "* バウンド物理演算と衝突検出のパフォーマンス改善。"
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "xKQRg0zXpZ969a/aMYOKCGRO46H/aUKhJ+DjPw+f7N4=",
+        "originContent": "________",
+        "translatedContent": "________"
+      },
+      {
+        "row": 46,
+        "rowsha": "QnKQgThnoAqznwiN4+axqy8APTfZTdp6m9i+oi/OrN0=",
+        "originContent": "## Known Issues",
+        "translatedContent": "## 既知の問題"
+      },
+      {
+        "row": 47,
+        "rowsha": "qJeFyltEcbLo2lh+FYHKkNxUs8i3Wk/jk7kkiNtcQjQ=",
+        "originContent": "* TextFields, and WebViews always remain in front of shapes and images, which get drawn directly on the card view.",
+        "translatedContent": "* TextFieldやWebViewは常に図形や画像の前面に表示されます。図形や画像はカードビュー上に直接描画されます。"
+      },
+      {
+        "row": 48,
+        "rowsha": "Ia5w+0tarRz7vBrzZamk9++eWS11ypIzFx7Hf2bCHlc=",
+        "originContent": "* Visual selection indicators (the blue dotted outlines) are drawn behind native views, and so can hide behind overlapping text fields and web views.",
+        "translatedContent": "* 視覚的選択表示（青い点線のアウトライン）はネイティブビューの後ろに描画されるため、重なったテキストフィールドやウェブビューの後ろに隠れることがあります。"
+      },
+      {
+        "row": 49,
+        "rowsha": "j0Z2fTZqJYRiRXGxhr1DxP/aPGdDAusErxOfW4i1DdA=",
+        "originContent": "* Stacks can only import additional modules, and export stacks that include them, when running from source.  Not when running from the prebuilt applications. (The prebuilt applications are built with a few additional libraries: requests, pyserial, and more could be added by request.)",
+        "translatedContent": "* スタックは、ソースから実行している場合のみ、追加モジュールのインポートとそれらを含むスタックのエクスポートが可能です。プリビルトアプリケーションではできません。（プリビルトアプリにはrequests、pyserialなどいくつかの追加ライブラリが含まれており、リクエストにより追加も可能です。）"
+      },
+      {
+        "row": 50,
+        "rowsha": "mFRLwLcHo5B1wFqfjmYpKvdqAUF/Zcs/0Rsaj5AF0pM=",
+        "originContent": "* Ironically, WebViews do not work in the web-based viewer on https://cardstock.run.",
+        "translatedContent": "* 皮肉なことに、WebViewは https://cardstock.run のウェブビューアでは動作しません。"
+      },
+      {
+        "row": 51,
+        "rowsha": "+fz68h+U81CrqUQKlA1tW38fTrUzvcpwio2yQmEP4vg=",
+        "originContent": "* For performance reasons, currently mouse events don't propagate through all overlapping objects when running on the web-viewer, just the topmost object under the mouse, any containing groups, and the card.",
+        "translatedContent": "* パフォーマンスの理由から、現在ウェブビューア上ではマウスイベントは最前面のオブジェクト、その親グループ、カードの順にしか伝播しません。すべての重なったオブジェクトには伝播しません。"
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+        "originContent": "## Requirements",
+        "translatedContent": "## 動作環境"
+      },
+      {
+        "row": 54,
+        "rowsha": "qZk8V1uAo43It9HDsW8cEvZlFxOwlTgR8Z0Teq4G+GY=",
+        "originContent": "The prebuilt applications for Mac and Windows have no external dependencies.",
+        "translatedContent": "MacおよびWindowsのプリビルトアプリケーションは外部依存関係なしで動作します。"
+      },
+      {
+        "row": 55,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 56,
+        "rowsha": "yaFc2YtlV9sRReQVR0iPhNy1RdkCqGiQ8El93YcTlsg=",
+        "originContent": "Running CardStock from source requires Python 3.9 or newer (3.11+ recommended), and wxPython 4.1 or newer (wxPython 4.2.x recommended).",
+        "translatedContent": "ソースからCardStockを実行するにはPython 3.9以降（3.11以上推奨）とwxPython 4.1以降（wxPython 4.2.x推奨）が必要です。"
+      },
+      {
+        "row": 57,
+        "rowsha": "LDfweJWPaDWF1Uund1Zs+kuOYXF9rMnhGd+6rAa1lnY=",
+        "originContent": "CardStock requires installing the python modules attrdict3(linux-only), wxpython,simpleaudio, PyInstaller, and requests.  ",
+        "translatedContent": "attrdict3（Linuxのみ）、wxpython、simpleaudio、PyInstaller、requestsのPythonモジュールのインストールが必要です。  "
+      },
+      {
+        "row": 58,
+        "rowsha": "wxoyk8oCnrltl+Tu3h8mY2Pkg0nS+h+mmVTqxG8X5f4=",
+        "originContent": "For mp3 playback support, you'll need to install the lame package (mp3 decoder), and python's streamp3-313compat. ",
+        "translatedContent": "mp3再生をサポートする場合は、lameパッケージ（mp3デコーダ）とPythonのstreamp3-313compatをインストールする必要があります。"
+      },
+      {
+        "row": 59,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 60,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 61,
+        "rowsha": "sHmNwVtHDbdtWJKPDY0S5xfYwmep+M/aI+IoKmvNujU=",
+        "originContent": "You can either:",
+        "translatedContent": "以下のいずれかの方法でインストールできます："
+      },
+      {
+        "row": 62,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 63,
+        "rowsha": "4H3ZB1q0BxYTFdAylafwJIExq05eGGlEnrRCYtbrbYI=",
+        "originContent": "### 1. Download the latest, pre-built CardStock application for Mac or Windows",
+        "translatedContent": "### 1. MacまたはWindows用の最新のプリビルトCardStockアプリケーションをダウンロード"
+      },
+      {
+        "row": 64,
+        "rowsha": "m9zMve7m5F6gfzUdaeNsR5Kj73SI5FEZZG/2Yt6hlHw=",
+        "originContent": "#### (This is strongly recommended for Windows users, as building from source is quite an adventure.)",
+        "translatedContent": "#### （Windowsユーザーにはソースからのビルドはかなり大変なので強く推奨します。）"
+      },
+      {
+        "row": 65,
+        "rowsha": "WmJjWnC/BYyvp3F0sboV0kwE4zmaN0AdW99RaqIRi2I=",
+        "originContent": "1. Download CardStock for Mac or Windows here: https://github.com/benjie-git/CardStock/releases/latest",
+        "translatedContent": "1. こちらからMacまたはWindows用のCardStockをダウンロード：https://github.com/benjie-git/CardStock/releases/latest"
+      },
+      {
+        "row": 66,
+        "rowsha": "pG7OmVIWK4KC2IJj1P0gSbIAezwzAbZmOBlrvJkiWHs=",
+        "originContent": "2. Note that the pre-built Windows app is not yet code-signed, so Windows may complain the first time you open the app. If a window appears saying \"Windows protected your PC\", click the More Info link at the end of the warning paragraph, and then the \"Run Anyway\" button that appears at the bottom of the window.",
+        "translatedContent": "2. プリビルトのWindowsアプリはまだコード署名されていないため、初回起動時にWindowsから警告が出ることがあります。「WindowsがPCを保護しました」というウィンドウが表示された場合、警告文末の「詳細情報」をクリックし、ウィンドウ下部に表示される「実行」ボタンをクリックしてください。"
+      },
+      {
+        "row": 67,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 68,
+        "rowsha": "36qX5ekYazE9pyhZXHOc25zgFqR8AP+BZZp0odnEvSA=",
+        "originContent": "### 2. Run it from source:",
+        "translatedContent": "### 2. ソースから実行する場合："
+      },
+      {
+        "row": 69,
+        "rowsha": "8cel6B1FGEQ0otUb8hN3oKA+8ONEY6ijKpVkegsBiYM=",
+        "originContent": "1. install python3",
+        "translatedContent": "1. Python3をインストール"
+      },
+      {
+        "row": 70,
+        "rowsha": "tYBqFqDjQCRLcPSs4aL/AvqNCRg7O5g7lrCaPc9AJlw=",
+        "originContent": "2. download or clone this repository",
+        "translatedContent": "2. このリポジトリをダウンロードまたはクローン"
+      },
+      {
+        "row": 71,
+        "rowsha": "UNZe0opAqKvfAR/Y9BDYwYbwIJT6gh36BZQSE0Rurl8=",
+        "originContent": "3. Linux-only: apt install libasound2-dev libmp3lame-dev libwebkit2gtk-4.0-dev  # or equivalent on non-debian/ubuntu distros",
+        "translatedContent": "3. Linuxのみ：apt install libasound2-dev libmp3lame-dev libwebkit2gtk-4.0-dev  # Debian/Ubuntu系以外は相当のパッケージ"
+      },
+      {
+        "row": 72,
+        "rowsha": "368DDQPgQFDRkOkWfaTssH6P7oVHPlggVHYUAjZTono=",
+        "originContent": "4. Mac-only: brew install lame",
+        "translatedContent": "4. Macのみ：brew install lame"
+      },
+      {
+        "row": 73,
+        "rowsha": "1rfqh5mlfAV7Wb64Coy8yQal0bjCExy9sbzfeIIiPyc=",
+        "originContent": "5. To include mp3 support: pip3 install streamp3-313compat",
+        "translatedContent": "5. mp3サポートを含める場合：pip3 install streamp3-313compat"
+      },
+      {
+        "row": 74,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 75,
+        "rowsha": "Z/XoI1ic7zrMGTLvopCPpD2M9Lv0HaOdjzSmLcv5b6k=",
+        "originContent": "   Note that this may require setting LDFLAGS and CPPFLAGS to allow finding the lame header and library files.",
+        "translatedContent": "   lameのヘッダーとライブラリを見つけるためにLDFLAGSとCPPFLAGSの設定が必要な場合があります。"
+      },
+      {
+        "row": 76,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 77,
+        "rowsha": "eRhTUeQJj3gs/omOth9pvzmEHzOgzYJzjGlfbnqCK2s=",
+        "originContent": "    You may need to run this as something like",
+        "translatedContent": "    次のように実行する必要があるかもしれません："
+      },
+      {
+        "row": 78,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 79,
+        "rowsha": "Vx907l+inj1ia9NlIZmXxllQDUfQy9EmrNkdxlFc1xQ=",
+        "originContent": "   `CPPFLAGS=-I/opt/homebrew/include LDFLAGS=-L/opt/homebrew/lib pip3 install streamp3-313compat` or ",
+        "translatedContent": "   `CPPFLAGS=-I/opt/homebrew/include LDFLAGS=-L/opt/homebrew/lib pip3 install streamp3-313compat` または "
+      },
+      {
+        "row": 80,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 81,
+        "rowsha": "R3l1WVfxdqqsGYTTmPxZFt13P8QLd6bpA7xLIiMoCS8=",
+        "originContent": "    `CPPFLAGS=-I/usr/local/include LDFLAGS=-L/usr/local/lib pip3 install streamp3-313compat`",
+        "translatedContent": "    `CPPFLAGS=-I/usr/local/include LDFLAGS=-L/usr/local/lib pip3 install streamp3-313compat`"
+      },
+      {
+        "row": 82,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 83,
+        "rowsha": "jC1mGFeNYp0L4BH0egjuhht17H/vrukPkWQ9o2MYR24=",
+        "originContent": "    depending on where the lame library was installed.",
+        "translatedContent": "    lameライブラリのインストール場所によります。"
+      },
+      {
+        "row": 84,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 85,
+        "rowsha": "bS/aAwqVnu/FgUxxBXx9FXRphaO+Qt/2dFf7TeCUuCs=",
+        "originContent": "6. pip3 install attrdict3  # installing this first is required for wxpython",
+        "translatedContent": "6. pip3 install attrdict3  # wxpythonの前にこれをインストールする必要があります"
+      },
+      {
+        "row": 86,
+        "rowsha": "Pmba10rDrjNCI1IIR9bd9/TtSPJmw9/cTG1Zc6Rin3Y=",
+        "originContent": "7. pip3 install -r requirements.txt  # note that wxpython can take a long time to build",
+        "translatedContent": "7. pip3 install -r requirements.txt  # wxpythonのビルドには時間がかかることがあります"
+      },
+      {
+        "row": 87,
+        "rowsha": "Ij+Y0XPnyfyDFuIb7q5P4/+fm+kH0bjonrvlyq+jhsE=",
+        "originContent": "8. run python3 designer.py",
+        "translatedContent": "8. python3 designer.py を実行"
+      },
+      {
+        "row": 88,
+        "rowsha": "+qz9nAuP4QJ+tQWzVDCKmYDfyXjWLau3Hyi805ABrl8=",
+        "originContent": "9. optionally run build.py to create your own standalone applications for the CardStock Designer application.",
+        "translatedContent": "9. 必要に応じてbuild.pyを実行し、CardStock Designerアプリケーションのスタンドアロンアプリを作成"
+      },
+      {
+        "row": 89,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 90,
+        "rowsha": "VPebseBfmUhJnnCmZu51CwkqJesqMDopuTZWNAfMNUg=",
+        "originContent": "### 3. Install using pip/pypi:",
+        "translatedContent": "### 3. pip/pypiでインストール："
+      },
+      {
+        "row": 91,
+        "rowsha": "2PsbGWNxH4A4MHQsFeSdVm+ktsK6Z9jGo+K4waClJGQ=",
+        "originContent": "1. Linux-only: apt install libasound2-dev libmp3lame-dev libwebkit2gtk-4.0-dev  # or equivalent on non-debian/ubuntu distros",
+        "translatedContent": "1. Linuxのみ：apt install libasound2-dev libmp3lame-dev libwebkit2gtk-4.0-dev  # Debian/Ubuntu系以外は相当のパッケージ"
+      },
+      {
+        "row": 92,
+        "rowsha": "7j3EMLYmGL1/NxobWme+XRxmQUdac6fQFI0lNSzoKjY=",
+        "originContent": "2. Mac-only: brew install lame",
+        "translatedContent": "2. Macのみ：brew install lame"
+      },
+      {
+        "row": 93,
+        "rowsha": "bPJ84tANVG+gKv6g12/njC+VbrJFPNWb1VVb0zRH5d4=",
+        "originContent": "3. To include mp3 support: pip3 install streamp3-313compat",
+        "translatedContent": "3. mp3サポートを含める場合：pip3 install streamp3-313compat"
+      },
+      {
+        "row": 94,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 95,
+        "rowsha": "Z/XoI1ic7zrMGTLvopCPpD2M9Lv0HaOdjzSmLcv5b6k=",
+        "originContent": "   Note that this may require setting LDFLAGS and CPPFLAGS to allow finding the lame header and library files.",
+        "translatedContent": "   lameのヘッダーとライブラリを見つけるためにLDFLAGSとCPPFLAGSの設定が必要な場合があります。"
+      },
+      {
+        "row": 96,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 97,
+        "rowsha": "eRhTUeQJj3gs/omOth9pvzmEHzOgzYJzjGlfbnqCK2s=",
+        "originContent": "    You may need to run this as something like",
+        "translatedContent": "    次のように実行する必要があるかもしれません："
+      },
+      {
+        "row": 98,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 99,
+        "rowsha": "Vx907l+inj1ia9NlIZmXxllQDUfQy9EmrNkdxlFc1xQ=",
+        "originContent": "   `CPPFLAGS=-I/opt/homebrew/include LDFLAGS=-L/opt/homebrew/lib pip3 install streamp3-313compat` or ",
+        "translatedContent": "   `CPPFLAGS=-I/opt/homebrew/include LDFLAGS=-L/opt/homebrew/lib pip3 install streamp3-313compat` または "
+      },
+      {
+        "row": 100,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "    `CPPFLAGS=-I/usr/local/include LDFLAGS=-L/usr/local/lib pip3 install streamp3-313compat`\n\n    depending on where the lame library was installed.\n4. pip3 install attrdict3  # installing this first is required for wxpython\n5. pip3 install cardstock  # note that the dependency wxpython can take a very long time to build\n6. run using the newly installed cardstock command\n\n\n## Reference\n* [CardStock Wiki](https://github.com/benjie-git/CardStock/wiki)\n* [CardStock on Reddit](https://www.reddit.com/r/CardStockPython/)\n* [CardStock Manual](https://github.com/benjie-git/CardStock/wiki/Manual)\n* [CardStock Tutorial](https://github.com/benjie-git/CardStock/wiki/Tutorial-Dice)\n* [CardStock Reference Guide](https://github.com/benjie-git/CardStock/wiki/Reference)\n",
+    "ContentSha": "p/0FcRt8GVdyub0nXEnTOwmwvC7R+dNbaKcBctTEbwQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    `CPPFLAGS=-I/usr/local/include LDFLAGS=-L/usr/local/lib pip3 install streamp3-313compat`\n\n    lameライブラリがどこにインストールされたかによります。\n4. pip3 install attrdict3  # wxpythonのためにこれを最初にインストールする必要があります\n5. pip3 install cardstock  # 依存関係のwxpythonのビルドには非常に長い時間がかかることがあります\n6. 新しくインストールされたcardstockコマンドを使って実行します\n\n\n## 参考資料\n* [CardStock Wiki](https://github.com/benjie-git/CardStock/wiki)\n* [CardStock on Reddit](https://www.reddit.com/r/CardStockPython/)\n* [CardStock マニュアル](https://github.com/benjie-git/CardStock/wiki/Manual)\n* [CardStock チュートリアル](https://github.com/benjie-git/CardStock/wiki/Tutorial-Dice)\n* [CardStock リファレンスガイド](https://github.com/benjie-git/CardStock/wiki/Reference)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "R3l1WVfxdqqsGYTTmPxZFt13P8QLd6bpA7xLIiMoCS8=",
+        "originContent": "    `CPPFLAGS=-I/usr/local/include LDFLAGS=-L/usr/local/lib pip3 install streamp3-313compat`",
+        "translatedContent": "    `CPPFLAGS=-I/usr/local/include LDFLAGS=-L/usr/local/lib pip3 install streamp3-313compat`"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "jC1mGFeNYp0L4BH0egjuhht17H/vrukPkWQ9o2MYR24=",
+        "originContent": "    depending on where the lame library was installed.",
+        "translatedContent": "    lameライブラリがどこにインストールされたかによります。"
+      },
+      {
+        "row": 4,
+        "rowsha": "Bf6gvTl9rlYHNx9XO/pem8xhDrsqKD7gdhdMm8HjaV0=",
+        "originContent": "4. pip3 install attrdict3  # installing this first is required for wxpython",
+        "translatedContent": "4. pip3 install attrdict3  # wxpythonのためにこれを最初にインストールする必要があります"
+      },
+      {
+        "row": 5,
+        "rowsha": "eyksIsPrPoNPBdwmJHym+FfrrvyFDJNEEnDpHtYbfQo=",
+        "originContent": "5. pip3 install cardstock  # note that the dependency wxpython can take a very long time to build",
+        "translatedContent": "5. pip3 install cardstock  # 依存関係のwxpythonのビルドには非常に長い時間がかかることがあります"
+      },
+      {
+        "row": 6,
+        "rowsha": "7VvgKz09GwLRKlO6sQRA7sQBZCWyx/vx9gi/zaUbXCA=",
+        "originContent": "6. run using the newly installed cardstock command",
+        "translatedContent": "6. 新しくインストールされたcardstockコマンドを使って実行します"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "6NGYQpw1+hCEjm7/IVTP/AwAmNUG6wXkiJgGDwT1RrE=",
+        "originContent": "## Reference",
+        "translatedContent": "## 参考資料"
+      },
+      {
+        "row": 10,
+        "rowsha": "5Fh1QkNquaphAoqe1Xe6/9l2Z9+n8RM4AlBi0ambESE=",
+        "originContent": "* [CardStock Wiki](https://github.com/benjie-git/CardStock/wiki)",
+        "translatedContent": "* [CardStock Wiki](https://github.com/benjie-git/CardStock/wiki)"
+      },
+      {
+        "row": 11,
+        "rowsha": "u3+Hex3SzZOR5xw8iU/JRqZln55uZdKw9sj5WQznNKI=",
+        "originContent": "* [CardStock on Reddit](https://www.reddit.com/r/CardStockPython/)",
+        "translatedContent": "* [CardStock on Reddit](https://www.reddit.com/r/CardStockPython/)"
+      },
+      {
+        "row": 12,
+        "rowsha": "wfKk/PDxYwGY52prA5mSmbu6QJdVpptJPtR4KTkK3Pc=",
+        "originContent": "* [CardStock Manual](https://github.com/benjie-git/CardStock/wiki/Manual)",
+        "translatedContent": "* [CardStock マニュアル](https://github.com/benjie-git/CardStock/wiki/Manual)"
+      },
+      {
+        "row": 13,
+        "rowsha": "TDbKm0ikH7lLRQZ5vgdw4PJG4z3eC1jLq53NVpkE3yo=",
+        "originContent": "* [CardStock Tutorial](https://github.com/benjie-git/CardStock/wiki/Tutorial-Dice)",
+        "translatedContent": "* [CardStock チュートリアル](https://github.com/benjie-git/CardStock/wiki/Tutorial-Dice)"
+      },
+      {
+        "row": 14,
+        "rowsha": "zW9tcFSdylXQ6B9K66skQ8vBtH28O2fj61waoMqOPWo=",
+        "originContent": "* [CardStock Reference Guide](https://github.com/benjie-git/CardStock/wiki/Reference)",
+        "translatedContent": "* [CardStock リファレンスガイド](https://github.com/benjie-git/CardStock/wiki/Reference)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,0 +1,718 @@
+[
+  {
+    "Id": 1,
+    "Content": "# CardStock\n\n## About\n\n**CardStock** is a cross-platform tool for quickly and easily building graphical programs, called **stacks**, which can be made up of multiple pages called **cards**.  It provides a drawing-program-like editor for building Graphical User Interfaces, and a code editor for adding event-driven python code.\n\n![Pong example](https://github.com/benjie-git/CardStock/wiki/images/pong.png?raw=true)\n\nThere have been many open source projects in the past that tried to capture the fun and simplicity of building programs in HyperCard, but in my opinion, none of them offered the open-ended possibilities and ease of use that made HyperCard such a magical-feeling tool.  So in the grand open source tradition, I built my own.\n\nThe guiding principles behind my vision for CardStock are the following, in order of importance:\n1. Keep it approachable, understandable, simple, and efficient to use for python beginners, through the most salty of Senior Software Engineers.\n2. Make it as capable as possible, without adding unnecessary complexity.\n\n## Features\n\n### The Basics\n* CardStock lets you design stacks on MacOS, Windows, and GNU/Linux.  You can run CardStock stacks on those platforms, or on any modern web browser, include on Chromebooks and smartphones.\n* You can build programs using objects including text and graphics, images, buttons, text entry fields, and web views.\n* You can use your own python code to manipulate the objects and respond to mouse and keyboard events.\n* You can play sound files from your code.\n* You can search and use clip art in your stacks, thanks to integration with https://openclipart.org.\n* In-context help appears in the app, right where you need it.  And can be turned off when you no longer want it taking up space.\n* All of the creature comforts you've come to expect from a proper application, like full Undo/Redo, and a Find/Replace system that works throughout all of your code and object properties.\n\n### More Advanced\n* You can animate changes to most properties of objects, to bring your creations to life.\n* Objects can have speed, and can be set up to automatically bounce off of other objects.\n* You can **import** other python modules into your code, and use them make web requests and display the results, control robots, or run machine learning code, all from within your CardStock stack.\n* Basic IDE features, like syntax highlighting, underlining syntax errors while editing, and autocomplete for objects, variables, functions, methods, properties.\n* Run python commands in an interactive Console window while your stack runs, to check or set variable values, call functions, or any other python you want to run.\n* Browse your running stack's variables and objects, and modify them live in the Variables window.\n* View all code used in a whole stack in one place, and click a line to jump to that line in that object's code editor for that event.\n* View recent error messages, and click one to jump to the offending line of code in the Designer app.\n* You can export a stack into a standalone application that you can share and distribute, or upload it to the web, on https://cardstock.run.\n\n### Future Plans\n* Add a built-in library of sounds to use, and the ability to record your own sounds.\n* Allow looping sounds.\n* Add more tutorials for CardStock, and for learning python through CardStock.\n* Allow filling shapes with color gradients.\n* Add an app icon.\n* Improve bounce physics and collision detection performance.\n\n________\n## Known Issues\n* TextFields, and WebViews always remain in front of shapes and images, which get drawn directly on the card view.\n* Visual selection indicators (the blue dotted outlines) are drawn behind native views, and so can hide behind overlapping text fields and web views.\n* Stacks can only import additional modules, and export stacks that include them, when running from source.  Not when running from the prebuilt applications. (The prebuilt applications are built with a few additional libraries: requests, pyserial, and more could be added by request.)\n* Ironically, WebViews do not work in the web-based viewer on https://cardstock.run.\n* For performance reasons, currently mouse events don't propagate through all overlapping objects when running on the web-viewer, just the topmost object under the mouse, any containing groups, and the card.\n\n## Requirements\nThe prebuilt applications for Mac and Windows have no external dependencies.\n\nRunning CardStock from source requires Python 3.9 or newer (3.11+ recommended), and wxPython 4.1 or newer (wxPython 4.2.x recommended).\nCardStock requires installing the python modules attrdict3(linux-only), wxpython,simpleaudio, PyInstaller, and requests.  \nFor mp3 playback support, you'll need to install the lame package (mp3 decoder), and python's streamp3-313compat. \n\n## Installation\nYou can either:\n\n### 1. Download the latest, pre-built CardStock application for Mac or Windows\n#### (This is strongly recommended for Windows users, as building from source is quite an adventure.)\n1. Download CardStock for Mac or Windows here: https://github.com/benjie-git/CardStock/releases/latest\n2. Note that the pre-built Windows app is not yet code-signed, so Windows may complain the first time you open the app. If a window appears saying \"Windows protected your PC\", click the More Info link at the end of the warning paragraph, and then the \"Run Anyway\" button that appears at the bottom of the window.\n\n### 2. Run it from source:\n1. install python3\n2. download or clone this repository\n3. Linux-only: apt install libasound2-dev libmp3lame-dev libwebkit2gtk-4.0-dev  # or equivalent on non-debian/ubuntu distros\n4. Mac-only: brew install lame\n5. To include mp3 support: pip3 install streamp3-313compat\n\n   Note that this may require setting LDFLAGS and CPPFLAGS to allow finding the lame header and library files.\n\n    You may need to run this as something like\n\n   `CPPFLAGS=-I/opt/homebrew/include LDFLAGS=-L/opt/homebrew/lib pip3 install streamp3-313compat` or \n\n    `CPPFLAGS=-I/usr/local/include LDFLAGS=-L/usr/local/lib pip3 install streamp3-313compat`\n\n    depending on where the lame library was installed.\n\n6. pip3 install attrdict3  # installing this first is required for wxpython\n7. pip3 install -r requirements.txt  # note that wxpython can take a long time to build\n8. run python3 designer.py\n9. optionally run build.py to create your own standalone applications for the CardStock Designer application.\n\n### 3. Install using pip/pypi:\n1. Linux-only: apt install libasound2-dev libmp3lame-dev libwebkit2gtk-4.0-dev  # or equivalent on non-debian/ubuntu distros\n2. Mac-only: brew install lame\n3. To include mp3 support: pip3 install streamp3-313compat\n\n   Note that this may require setting LDFLAGS and CPPFLAGS to allow finding the lame header and library files.\n\n    You may need to run this as something like\n\n   `CPPFLAGS=-I/opt/homebrew/include LDFLAGS=-L/opt/homebrew/lib pip3 install streamp3-313compat` or \n",
+    "ContentSha": "s6B7zRDIv2bDqY6oHUTGG0i3bYguxdPvRPOw5gJWJv0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# CardStock\n\n## 关于\n\n**CardStock** 是一个跨平台工具，用于快速且轻松地构建图形化程序，称为 **stacks（堆栈）**，它们可以由多个称为 **cards（卡片）** 的页面组成。它提供了类似绘图程序的编辑器，用于构建图形用户界面，以及一个代码编辑器，用于添加事件驱动的 Python 代码。\n\n![Pong example](https://github.com/benjie-git/CardStock/wiki/images/pong.png?raw=true)\n\n过去有许多开源项目试图捕捉在 HyperCard 中构建程序的乐趣和简单性，但在我看来，没有一个能提供 HyperCard 那种神奇感觉的开放式可能性和易用性。因此，秉承开源传统，我自己构建了一个。\n\n我对 CardStock 愿景的指导原则如下，按重要性排序：\n1. 保持易接近、易理解、简单且高效，适合 Python 初学者到最资深的软件工程师使用。\n2. 使其尽可能强大，而不增加不必要的复杂性。\n\n## 功能\n\n### 基础功能\n* CardStock 允许你在 MacOS、Windows 和 GNU/Linux 上设计堆栈。你可以在这些平台上运行 CardStock 堆栈，也可以在任何现代网页浏览器上运行，包括 Chromebook 和智能手机。\n* 你可以使用包括文本和图形、图像、按钮、文本输入字段和网页视图等对象来构建程序。\n* 你可以使用自己的 Python 代码来操作对象并响应鼠标和键盘事件。\n* 你可以从代码中播放音频文件。\n* 你可以搜索并使用堆栈中的剪贴画，感谢与 https://openclipart.org 的集成。\n* 上下文帮助会在应用中出现，正是你需要的地方。当你不再需要它占用空间时，可以关闭它。\n* 拥有你期望的所有应用舒适功能，如完整的撤销/重做，以及贯穿所有代码和对象属性的查找/替换系统。\n\n### 高级功能\n* 你可以为对象的大多数属性动画更改，为你的创作注入生命。\n* 对象可以具有速度，并且可以设置为自动从其他对象反弹。\n* 你可以将其他 Python 模块 **导入** 代码中，使用它们进行网络请求并显示结果，控制机器人，或运行机器学习代码，全部在你的 CardStock 堆栈内完成。\n* 基本 IDE 功能，如语法高亮、编辑时下划线标记语法错误，以及对对象、变量、函数、方法、属性的自动完成。\n* 在堆栈运行时，可以在交互式控制台窗口中运行 Python 命令，检查或设置变量值，调用函数，或运行任何你想执行的 Python 代码。\n* 浏览正在运行的堆栈的变量和对象，并在变量窗口中实时修改它们。\n* 在一个地方查看整个堆栈中使用的所有代码，点击某行即可跳转到该对象对应事件的代码编辑器中该行。\n* 查看最近的错误信息，点击错误即可跳转到 Designer 应用中的出错代码行。\n* 你可以将堆栈导出为独立应用程序，方便分享和分发，或上传到 https://cardstock.run 的网页上。\n\n### 未来计划\n* 添加内置的声音库和录制自定义声音的功能。\n* 支持声音循环播放。\n* 增加更多 CardStock 教程，以及通过 CardStock 学习 Python 的教程。\n* 支持用颜色渐变填充形状。\n* 添加应用图标。\n* 改进反弹物理和碰撞检测性能。\n\n________\n## 已知问题\n* 文本字段和网页视图始终保持在形状和图像前面，后者直接绘制在卡片视图上。\n* 视觉选择指示器（蓝色虚线轮廓）绘制在原生视图后面，因此可能被重叠的文本字段和网页视图遮挡。\n* 堆栈只能在从源代码运行时导入额外模块，并导出包含它们的堆栈，预构建应用程序不能。（预构建应用程序包含一些额外库：requests、pyserial，如有需求可添加更多。）\n* 讽刺的是，网页视图在 https://cardstock.run 的基于网页的查看器中无法工作。\n* 出于性能原因，当前在网页查看器中运行时，鼠标事件不会传播到所有重叠对象，仅传播到鼠标下方最顶层对象、任何包含组和卡片。\n\n## 要求\nMac 和 Windows 的预构建应用程序无外部依赖。\n\n从源代码运行 CardStock 需要 Python 3.9 或更新版本（推荐 3.11+），以及 wxPython 4.1 或更新版本（推荐 wxPython 4.2.x）。\nCardStock 需要安装 Python 模块 attrdict3（仅限 Linux）、wxpython、simpleaudio、PyInstaller 和 requests。\n为支持 mp3 播放，需要安装 lame 包（mp3 解码器）和 Python 的 streamp3-313compat。\n\n## 安装\n你可以选择：\n\n### 1. 下载最新的预构建 CardStock 应用程序（Mac 或 Windows）\n#### （强烈推荐 Windows 用户使用此方式，因为从源码构建相当冒险。）\n1. 在此下载 Mac 或 Windows 版本的 CardStock：https://github.com/benjie-git/CardStock/releases/latest\n2. 注意预构建的 Windows 应用尚未代码签名，首次打开时 Windows 可能会提示警告。如果出现“Windows 保护你的电脑”的窗口，点击警告段末的“更多信息”链接，然后点击窗口底部出现的“仍要运行”按钮。\n\n### 2. 从源码运行：\n1. 安装 python3\n2. 下载或克隆此仓库\n3. 仅限 Linux：apt 安装 libasound2-dev libmp3lame-dev libwebkit2gtk-4.0-dev  # 或非 Debian/Ubuntu 发行版的等效包\n4. 仅限 Mac：brew 安装 lame\n5. 要支持 mp3：pip3 安装 streamp3-313compat\n\n   注意这可能需要设置 LDFLAGS 和 CPPFLAGS 以找到 lame 的头文件和库文件。\n\n    你可能需要以类似以下方式运行：\n\n   `CPPFLAGS=-I/opt/homebrew/include LDFLAGS=-L/opt/homebrew/lib pip3 install streamp3-313compat` 或 \n\n    `CPPFLAGS=-I/usr/local/include LDFLAGS=-L/usr/local/lib pip3 install streamp3-313compat`\n\n    具体取决于 lame 库安装的位置。\n\n6. pip3 安装 attrdict3  # 必须先安装此模块以支持 wxpython\n7. pip3 安装 -r requirements.txt  # 注意 wxpython 编译可能耗时较长\n8. 运行 python3 designer.py\n9. 可选：运行 build.py 为 CardStock Designer 应用创建你自己的独立应用。\n\n### 3. 使用 pip/pypi 安装：\n1. 仅限 Linux：apt 安装 libasound2-dev libmp3lame-dev libwebkit2gtk-4.0-dev  # 或非 Debian/Ubuntu 发行版的等效包\n2. 仅限 Mac：brew 安装 lame\n3. 要支持 mp3：pip3 安装 streamp3-313compat\n\n   注意这可能需要设置 LDFLAGS 和 CPPFLAGS 以找到 lame 的头文件和库文件。\n\n    你可能需要以类似以下方式运行：\n\n   `CPPFLAGS=-I/opt/homebrew/include LDFLAGS=-L/opt/homebrew/lib pip3 install streamp3-313compat` 或 \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "mBG58IDHsMfjWD4Ipz+h+WHqDPZxv4SZJRs5NgYNDV8=",
+        "originContent": "# CardStock",
+        "translatedContent": "# CardStock"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "m0QcAE3J+iZV4kJHdUlgPCLMoR1y3kRhWGgxHkrRxqE=",
+        "originContent": "## About",
+        "translatedContent": "## 关于"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "DeQKe809Sc3uWALeHKsQCUU9KKuGXWj0I2H73i8V0e4=",
+        "originContent": "**CardStock** is a cross-platform tool for quickly and easily building graphical programs, called **stacks**, which can be made up of multiple pages called **cards**.  It provides a drawing-program-like editor for building Graphical User Interfaces, and a code editor for adding event-driven python code.",
+        "translatedContent": "**CardStock** 是一个跨平台工具，用于快速且轻松地构建图形化程序，称为 **stacks（堆栈）**，它们可以由多个称为 **cards（卡片）** 的页面组成。它提供了类似绘图程序的编辑器，用于构建图形用户界面，以及一个代码编辑器，用于添加事件驱动的 Python 代码。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "BNTtfIbLrH+iR1I4Ek9u8zmb0sAEeYfEFKjp8/Cj8/M=",
+        "originContent": "![Pong example](https://github.com/benjie-git/CardStock/wiki/images/pong.png?raw=true)",
+        "translatedContent": "![Pong example](https://github.com/benjie-git/CardStock/wiki/images/pong.png?raw=true)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "eGTG08hMK7tukHwCzCapPPR4PE2Ij84LAuQEYhojEYE=",
+        "originContent": "There have been many open source projects in the past that tried to capture the fun and simplicity of building programs in HyperCard, but in my opinion, none of them offered the open-ended possibilities and ease of use that made HyperCard such a magical-feeling tool.  So in the grand open source tradition, I built my own.",
+        "translatedContent": "过去有许多开源项目试图捕捉在 HyperCard 中构建程序的乐趣和简单性，但在我看来，没有一个能提供 HyperCard 那种神奇感觉的开放式可能性和易用性。因此，秉承开源传统，我自己构建了一个。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "XMSCbw7teCeepUAwOs3w9LI3BM5nfWOXT7Dmt+kpcWw=",
+        "originContent": "The guiding principles behind my vision for CardStock are the following, in order of importance:",
+        "translatedContent": "我对 CardStock 愿景的指导原则如下，按重要性排序："
+      },
+      {
+        "row": 12,
+        "rowsha": "9GjSVRrALCyCu5+ubJDLpbDWbP7eLrbRN6DVwGBRsas=",
+        "originContent": "1. Keep it approachable, understandable, simple, and efficient to use for python beginners, through the most salty of Senior Software Engineers.",
+        "translatedContent": "1. 保持易接近、易理解、简单且高效，适合 Python 初学者到最资深的软件工程师使用。"
+      },
+      {
+        "row": 13,
+        "rowsha": "nlVY1WZqTcSuFBy8n4tyAjxUQKzKXwCZikvWgjpcpyM=",
+        "originContent": "2. Make it as capable as possible, without adding unnecessary complexity.",
+        "translatedContent": "2. 使其尽可能强大，而不增加不必要的复杂性。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 功能"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "l3bWSJ8JJbDmrMvBtEqAh2gDrXCdLqOw4YMQGD4A8p8=",
+        "originContent": "### The Basics",
+        "translatedContent": "### 基础功能"
+      },
+      {
+        "row": 18,
+        "rowsha": "vSSVJyeEvUmhHlJyhK7zzqzDyC2eXX+20IQj3Zo7VOY=",
+        "originContent": "* CardStock lets you design stacks on MacOS, Windows, and GNU/Linux.  You can run CardStock stacks on those platforms, or on any modern web browser, include on Chromebooks and smartphones.",
+        "translatedContent": "* CardStock 允许你在 MacOS、Windows 和 GNU/Linux 上设计堆栈。你可以在这些平台上运行 CardStock 堆栈，也可以在任何现代网页浏览器上运行，包括 Chromebook 和智能手机。"
+      },
+      {
+        "row": 19,
+        "rowsha": "jVn57xnEJ0WpHmkTPdS6WNxf0d508mWvH2lobp3Ua0Q=",
+        "originContent": "* You can build programs using objects including text and graphics, images, buttons, text entry fields, and web views.",
+        "translatedContent": "* 你可以使用包括文本和图形、图像、按钮、文本输入字段和网页视图等对象来构建程序。"
+      },
+      {
+        "row": 20,
+        "rowsha": "iYA/MZaUPe+g0WvRY4NJM4GVTzkTDDGJlmqno/CzXsc=",
+        "originContent": "* You can use your own python code to manipulate the objects and respond to mouse and keyboard events.",
+        "translatedContent": "* 你可以使用自己的 Python 代码来操作对象并响应鼠标和键盘事件。"
+      },
+      {
+        "row": 21,
+        "rowsha": "prkDnI9UvzkvRNUIlOln6z3fVbn0mfdRro22H21jdQI=",
+        "originContent": "* You can play sound files from your code.",
+        "translatedContent": "* 你可以从代码中播放音频文件。"
+      },
+      {
+        "row": 22,
+        "rowsha": "JPE2CzUdcKiCV74at6wcqIGkGS8ear2WlOEwXYsi58g=",
+        "originContent": "* You can search and use clip art in your stacks, thanks to integration with https://openclipart.org.",
+        "translatedContent": "* 你可以搜索并使用堆栈中的剪贴画，感谢与 https://openclipart.org 的集成。"
+      },
+      {
+        "row": 23,
+        "rowsha": "n79kkFiDTaECRCAHid7MSpVsw3XGvsjz41RepXENyo4=",
+        "originContent": "* In-context help appears in the app, right where you need it.  And can be turned off when you no longer want it taking up space.",
+        "translatedContent": "* 上下文帮助会在应用中出现，正是你需要的地方。当你不再需要它占用空间时，可以关闭它。"
+      },
+      {
+        "row": 24,
+        "rowsha": "H186FJM3ZZv8tlWWDeOiXYS8E8mv+hrlewEJ+TVyxao=",
+        "originContent": "* All of the creature comforts you've come to expect from a proper application, like full Undo/Redo, and a Find/Replace system that works throughout all of your code and object properties.",
+        "translatedContent": "* 拥有你期望的所有应用舒适功能，如完整的撤销/重做，以及贯穿所有代码和对象属性的查找/替换系统。"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "BSOkL4qJuh9G2vQfg1A9Jeb+5PqDsj5qx7I091SNpOw=",
+        "originContent": "### More Advanced",
+        "translatedContent": "### 高级功能"
+      },
+      {
+        "row": 27,
+        "rowsha": "Hpadnti3BYYICtYonqnGBSaaa2rI3qtS3nt/b6RFRqU=",
+        "originContent": "* You can animate changes to most properties of objects, to bring your creations to life.",
+        "translatedContent": "* 你可以为对象的大多数属性动画更改，为你的创作注入生命。"
+      },
+      {
+        "row": 28,
+        "rowsha": "+RDxCD4Oh2SG4LrnDOxy9O723wv/qE1LtmehzOctPZQ=",
+        "originContent": "* Objects can have speed, and can be set up to automatically bounce off of other objects.",
+        "translatedContent": "* 对象可以具有速度，并且可以设置为自动从其他对象反弹。"
+      },
+      {
+        "row": 29,
+        "rowsha": "esdiqU3g3NkFNvfPje3ofQs6L7bdPxsMHoVayuToGaY=",
+        "originContent": "* You can **import** other python modules into your code, and use them make web requests and display the results, control robots, or run machine learning code, all from within your CardStock stack.",
+        "translatedContent": "* 你可以将其他 Python 模块 **导入** 代码中，使用它们进行网络请求并显示结果，控制机器人，或运行机器学习代码，全部在你的 CardStock 堆栈内完成。"
+      },
+      {
+        "row": 30,
+        "rowsha": "tt/FY5//k/rTAq88I86tiCC3b4kWWCjbnrS7UPYaJhs=",
+        "originContent": "* Basic IDE features, like syntax highlighting, underlining syntax errors while editing, and autocomplete for objects, variables, functions, methods, properties.",
+        "translatedContent": "* 基本 IDE 功能，如语法高亮、编辑时下划线标记语法错误，以及对对象、变量、函数、方法、属性的自动完成。"
+      },
+      {
+        "row": 31,
+        "rowsha": "Kcc3kdrqkLxz9Gdplq1vDOhAmR+q9Q6emLD/LWbFVwI=",
+        "originContent": "* Run python commands in an interactive Console window while your stack runs, to check or set variable values, call functions, or any other python you want to run.",
+        "translatedContent": "* 在堆栈运行时，可以在交互式控制台窗口中运行 Python 命令，检查或设置变量值，调用函数，或运行任何你想执行的 Python 代码。"
+      },
+      {
+        "row": 32,
+        "rowsha": "Lb19OyiOk51FbxITpokgNhx5zkzuCX9AWf0W45Hbbco=",
+        "originContent": "* Browse your running stack's variables and objects, and modify them live in the Variables window.",
+        "translatedContent": "* 浏览正在运行的堆栈的变量和对象，并在变量窗口中实时修改它们。"
+      },
+      {
+        "row": 33,
+        "rowsha": "AMRYU5kZna2vKwNJ9Z12tLU709oLSQcBhS8c8XbMDhk=",
+        "originContent": "* View all code used in a whole stack in one place, and click a line to jump to that line in that object's code editor for that event.",
+        "translatedContent": "* 在一个地方查看整个堆栈中使用的所有代码，点击某行即可跳转到该对象对应事件的代码编辑器中该行。"
+      },
+      {
+        "row": 34,
+        "rowsha": "uxKkxrfpp+A3h6gR09VMuO88LhL+00aFT/AC0Ga6rEw=",
+        "originContent": "* View recent error messages, and click one to jump to the offending line of code in the Designer app.",
+        "translatedContent": "* 查看最近的错误信息，点击错误即可跳转到 Designer 应用中的出错代码行。"
+      },
+      {
+        "row": 35,
+        "rowsha": "R6ruI8jRZe8LjvQoN7Io9Fda779g5is0c7hdUXuocxA=",
+        "originContent": "* You can export a stack into a standalone application that you can share and distribute, or upload it to the web, on https://cardstock.run.",
+        "translatedContent": "* 你可以将堆栈导出为独立应用程序，方便分享和分发，或上传到 https://cardstock.run 的网页上。"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "QGlOmN/5cBrdqqVip0ogbCeiYNFUj5KVY7TgZxn4uUo=",
+        "originContent": "### Future Plans",
+        "translatedContent": "### 未来计划"
+      },
+      {
+        "row": 38,
+        "rowsha": "+nMoSY1GnAfRkzFlzdr3kJ5aBmkegYEyinxRYG5sUYs=",
+        "originContent": "* Add a built-in library of sounds to use, and the ability to record your own sounds.",
+        "translatedContent": "* 添加内置的声音库和录制自定义声音的功能。"
+      },
+      {
+        "row": 39,
+        "rowsha": "AmIwdtNOrCNRGJsabKacQQPBY2ZhVoRnKVixHGk34l4=",
+        "originContent": "* Allow looping sounds.",
+        "translatedContent": "* 支持声音循环播放。"
+      },
+      {
+        "row": 40,
+        "rowsha": "3G1owLUuN10j8r9x2oFI19RrgomifenLzY+eFMoG2fE=",
+        "originContent": "* Add more tutorials for CardStock, and for learning python through CardStock.",
+        "translatedContent": "* 增加更多 CardStock 教程，以及通过 CardStock 学习 Python 的教程。"
+      },
+      {
+        "row": 41,
+        "rowsha": "yRFMNP22dW3zuqfZcBkKxcPhwTmpI3NOAlAoC0IdmZg=",
+        "originContent": "* Allow filling shapes with color gradients.",
+        "translatedContent": "* 支持用颜色渐变填充形状。"
+      },
+      {
+        "row": 42,
+        "rowsha": "z6Wdakqq5vDYA9xF/kZbwS15+XBl0mFnCMmGrhmKdyY=",
+        "originContent": "* Add an app icon.",
+        "translatedContent": "* 添加应用图标。"
+      },
+      {
+        "row": 43,
+        "rowsha": "pOSHUi2zLjfw2n4vu3vdjpVDi9VMGfjBrT4YtHeBhXk=",
+        "originContent": "* Improve bounce physics and collision detection performance.",
+        "translatedContent": "* 改进反弹物理和碰撞检测性能。"
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "xKQRg0zXpZ969a/aMYOKCGRO46H/aUKhJ+DjPw+f7N4=",
+        "originContent": "________",
+        "translatedContent": "________"
+      },
+      {
+        "row": 46,
+        "rowsha": "QnKQgThnoAqznwiN4+axqy8APTfZTdp6m9i+oi/OrN0=",
+        "originContent": "## Known Issues",
+        "translatedContent": "## 已知问题"
+      },
+      {
+        "row": 47,
+        "rowsha": "qJeFyltEcbLo2lh+FYHKkNxUs8i3Wk/jk7kkiNtcQjQ=",
+        "originContent": "* TextFields, and WebViews always remain in front of shapes and images, which get drawn directly on the card view.",
+        "translatedContent": "* 文本字段和网页视图始终保持在形状和图像前面，后者直接绘制在卡片视图上。"
+      },
+      {
+        "row": 48,
+        "rowsha": "Ia5w+0tarRz7vBrzZamk9++eWS11ypIzFx7Hf2bCHlc=",
+        "originContent": "* Visual selection indicators (the blue dotted outlines) are drawn behind native views, and so can hide behind overlapping text fields and web views.",
+        "translatedContent": "* 视觉选择指示器（蓝色虚线轮廓）绘制在原生视图后面，因此可能被重叠的文本字段和网页视图遮挡。"
+      },
+      {
+        "row": 49,
+        "rowsha": "j0Z2fTZqJYRiRXGxhr1DxP/aPGdDAusErxOfW4i1DdA=",
+        "originContent": "* Stacks can only import additional modules, and export stacks that include them, when running from source.  Not when running from the prebuilt applications. (The prebuilt applications are built with a few additional libraries: requests, pyserial, and more could be added by request.)",
+        "translatedContent": "* 堆栈只能在从源代码运行时导入额外模块，并导出包含它们的堆栈，预构建应用程序不能。（预构建应用程序包含一些额外库：requests、pyserial，如有需求可添加更多。）"
+      },
+      {
+        "row": 50,
+        "rowsha": "mFRLwLcHo5B1wFqfjmYpKvdqAUF/Zcs/0Rsaj5AF0pM=",
+        "originContent": "* Ironically, WebViews do not work in the web-based viewer on https://cardstock.run.",
+        "translatedContent": "* 讽刺的是，网页视图在 https://cardstock.run 的基于网页的查看器中无法工作。"
+      },
+      {
+        "row": 51,
+        "rowsha": "+fz68h+U81CrqUQKlA1tW38fTrUzvcpwio2yQmEP4vg=",
+        "originContent": "* For performance reasons, currently mouse events don't propagate through all overlapping objects when running on the web-viewer, just the topmost object under the mouse, any containing groups, and the card.",
+        "translatedContent": "* 出于性能原因，当前在网页查看器中运行时，鼠标事件不会传播到所有重叠对象，仅传播到鼠标下方最顶层对象、任何包含组和卡片。"
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+        "originContent": "## Requirements",
+        "translatedContent": "## 要求"
+      },
+      {
+        "row": 54,
+        "rowsha": "qZk8V1uAo43It9HDsW8cEvZlFxOwlTgR8Z0Teq4G+GY=",
+        "originContent": "The prebuilt applications for Mac and Windows have no external dependencies.",
+        "translatedContent": "Mac 和 Windows 的预构建应用程序无外部依赖。"
+      },
+      {
+        "row": 55,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 56,
+        "rowsha": "yaFc2YtlV9sRReQVR0iPhNy1RdkCqGiQ8El93YcTlsg=",
+        "originContent": "Running CardStock from source requires Python 3.9 or newer (3.11+ recommended), and wxPython 4.1 or newer (wxPython 4.2.x recommended).",
+        "translatedContent": "从源代码运行 CardStock 需要 Python 3.9 或更新版本（推荐 3.11+），以及 wxPython 4.1 或更新版本（推荐 wxPython 4.2.x）。"
+      },
+      {
+        "row": 57,
+        "rowsha": "LDfweJWPaDWF1Uund1Zs+kuOYXF9rMnhGd+6rAa1lnY=",
+        "originContent": "CardStock requires installing the python modules attrdict3(linux-only), wxpython,simpleaudio, PyInstaller, and requests.  ",
+        "translatedContent": "CardStock 需要安装 Python 模块 attrdict3（仅限 Linux）、wxpython、simpleaudio、PyInstaller 和 requests。"
+      },
+      {
+        "row": 58,
+        "rowsha": "wxoyk8oCnrltl+Tu3h8mY2Pkg0nS+h+mmVTqxG8X5f4=",
+        "originContent": "For mp3 playback support, you'll need to install the lame package (mp3 decoder), and python's streamp3-313compat. ",
+        "translatedContent": "为支持 mp3 播放，需要安装 lame 包（mp3 解码器）和 Python 的 streamp3-313compat。"
+      },
+      {
+        "row": 59,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 60,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## 安装"
+      },
+      {
+        "row": 61,
+        "rowsha": "sHmNwVtHDbdtWJKPDY0S5xfYwmep+M/aI+IoKmvNujU=",
+        "originContent": "You can either:",
+        "translatedContent": "你可以选择："
+      },
+      {
+        "row": 62,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 63,
+        "rowsha": "4H3ZB1q0BxYTFdAylafwJIExq05eGGlEnrRCYtbrbYI=",
+        "originContent": "### 1. Download the latest, pre-built CardStock application for Mac or Windows",
+        "translatedContent": "### 1. 下载最新的预构建 CardStock 应用程序（Mac 或 Windows）"
+      },
+      {
+        "row": 64,
+        "rowsha": "m9zMve7m5F6gfzUdaeNsR5Kj73SI5FEZZG/2Yt6hlHw=",
+        "originContent": "#### (This is strongly recommended for Windows users, as building from source is quite an adventure.)",
+        "translatedContent": "#### （强烈推荐 Windows 用户使用此方式，因为从源码构建相当冒险。）"
+      },
+      {
+        "row": 65,
+        "rowsha": "WmJjWnC/BYyvp3F0sboV0kwE4zmaN0AdW99RaqIRi2I=",
+        "originContent": "1. Download CardStock for Mac or Windows here: https://github.com/benjie-git/CardStock/releases/latest",
+        "translatedContent": "1. 在此下载 Mac 或 Windows 版本的 CardStock：https://github.com/benjie-git/CardStock/releases/latest"
+      },
+      {
+        "row": 66,
+        "rowsha": "pG7OmVIWK4KC2IJj1P0gSbIAezwzAbZmOBlrvJkiWHs=",
+        "originContent": "2. Note that the pre-built Windows app is not yet code-signed, so Windows may complain the first time you open the app. If a window appears saying \"Windows protected your PC\", click the More Info link at the end of the warning paragraph, and then the \"Run Anyway\" button that appears at the bottom of the window.",
+        "translatedContent": "2. 注意预构建的 Windows 应用尚未代码签名，首次打开时 Windows 可能会提示警告。如果出现“Windows 保护你的电脑”的窗口，点击警告段末的“更多信息”链接，然后点击窗口底部出现的“仍要运行”按钮。"
+      },
+      {
+        "row": 67,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 68,
+        "rowsha": "36qX5ekYazE9pyhZXHOc25zgFqR8AP+BZZp0odnEvSA=",
+        "originContent": "### 2. Run it from source:",
+        "translatedContent": "### 2. 从源码运行："
+      },
+      {
+        "row": 69,
+        "rowsha": "8cel6B1FGEQ0otUb8hN3oKA+8ONEY6ijKpVkegsBiYM=",
+        "originContent": "1. install python3",
+        "translatedContent": "1. 安装 python3"
+      },
+      {
+        "row": 70,
+        "rowsha": "tYBqFqDjQCRLcPSs4aL/AvqNCRg7O5g7lrCaPc9AJlw=",
+        "originContent": "2. download or clone this repository",
+        "translatedContent": "2. 下载或克隆此仓库"
+      },
+      {
+        "row": 71,
+        "rowsha": "UNZe0opAqKvfAR/Y9BDYwYbwIJT6gh36BZQSE0Rurl8=",
+        "originContent": "3. Linux-only: apt install libasound2-dev libmp3lame-dev libwebkit2gtk-4.0-dev  # or equivalent on non-debian/ubuntu distros",
+        "translatedContent": "3. 仅限 Linux：apt 安装 libasound2-dev libmp3lame-dev libwebkit2gtk-4.0-dev  # 或非 Debian/Ubuntu 发行版的等效包"
+      },
+      {
+        "row": 72,
+        "rowsha": "368DDQPgQFDRkOkWfaTssH6P7oVHPlggVHYUAjZTono=",
+        "originContent": "4. Mac-only: brew install lame",
+        "translatedContent": "4. 仅限 Mac：brew 安装 lame"
+      },
+      {
+        "row": 73,
+        "rowsha": "1rfqh5mlfAV7Wb64Coy8yQal0bjCExy9sbzfeIIiPyc=",
+        "originContent": "5. To include mp3 support: pip3 install streamp3-313compat",
+        "translatedContent": "5. 要支持 mp3：pip3 安装 streamp3-313compat"
+      },
+      {
+        "row": 74,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 75,
+        "rowsha": "Z/XoI1ic7zrMGTLvopCPpD2M9Lv0HaOdjzSmLcv5b6k=",
+        "originContent": "   Note that this may require setting LDFLAGS and CPPFLAGS to allow finding the lame header and library files.",
+        "translatedContent": "   注意这可能需要设置 LDFLAGS 和 CPPFLAGS 以找到 lame 的头文件和库文件。"
+      },
+      {
+        "row": 76,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 77,
+        "rowsha": "eRhTUeQJj3gs/omOth9pvzmEHzOgzYJzjGlfbnqCK2s=",
+        "originContent": "    You may need to run this as something like",
+        "translatedContent": "    你可能需要以类似以下方式运行："
+      },
+      {
+        "row": 78,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 79,
+        "rowsha": "Vx907l+inj1ia9NlIZmXxllQDUfQy9EmrNkdxlFc1xQ=",
+        "originContent": "   `CPPFLAGS=-I/opt/homebrew/include LDFLAGS=-L/opt/homebrew/lib pip3 install streamp3-313compat` or ",
+        "translatedContent": "   `CPPFLAGS=-I/opt/homebrew/include LDFLAGS=-L/opt/homebrew/lib pip3 install streamp3-313compat` 或 "
+      },
+      {
+        "row": 80,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 81,
+        "rowsha": "R3l1WVfxdqqsGYTTmPxZFt13P8QLd6bpA7xLIiMoCS8=",
+        "originContent": "    `CPPFLAGS=-I/usr/local/include LDFLAGS=-L/usr/local/lib pip3 install streamp3-313compat`",
+        "translatedContent": "    `CPPFLAGS=-I/usr/local/include LDFLAGS=-L/usr/local/lib pip3 install streamp3-313compat`"
+      },
+      {
+        "row": 82,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 83,
+        "rowsha": "jC1mGFeNYp0L4BH0egjuhht17H/vrukPkWQ9o2MYR24=",
+        "originContent": "    depending on where the lame library was installed.",
+        "translatedContent": "    具体取决于 lame 库安装的位置。"
+      },
+      {
+        "row": 84,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 85,
+        "rowsha": "bS/aAwqVnu/FgUxxBXx9FXRphaO+Qt/2dFf7TeCUuCs=",
+        "originContent": "6. pip3 install attrdict3  # installing this first is required for wxpython",
+        "translatedContent": "6. pip3 安装 attrdict3  # 必须先安装此模块以支持 wxpython"
+      },
+      {
+        "row": 86,
+        "rowsha": "Pmba10rDrjNCI1IIR9bd9/TtSPJmw9/cTG1Zc6Rin3Y=",
+        "originContent": "7. pip3 install -r requirements.txt  # note that wxpython can take a long time to build",
+        "translatedContent": "7. pip3 安装 -r requirements.txt  # 注意 wxpython 编译可能耗时较长"
+      },
+      {
+        "row": 87,
+        "rowsha": "Ij+Y0XPnyfyDFuIb7q5P4/+fm+kH0bjonrvlyq+jhsE=",
+        "originContent": "8. run python3 designer.py",
+        "translatedContent": "8. 运行 python3 designer.py"
+      },
+      {
+        "row": 88,
+        "rowsha": "+qz9nAuP4QJ+tQWzVDCKmYDfyXjWLau3Hyi805ABrl8=",
+        "originContent": "9. optionally run build.py to create your own standalone applications for the CardStock Designer application.",
+        "translatedContent": "9. 可选：运行 build.py 为 CardStock Designer 应用创建你自己的独立应用。"
+      },
+      {
+        "row": 89,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 90,
+        "rowsha": "VPebseBfmUhJnnCmZu51CwkqJesqMDopuTZWNAfMNUg=",
+        "originContent": "### 3. Install using pip/pypi:",
+        "translatedContent": "### 3. 使用 pip/pypi 安装："
+      },
+      {
+        "row": 91,
+        "rowsha": "2PsbGWNxH4A4MHQsFeSdVm+ktsK6Z9jGo+K4waClJGQ=",
+        "originContent": "1. Linux-only: apt install libasound2-dev libmp3lame-dev libwebkit2gtk-4.0-dev  # or equivalent on non-debian/ubuntu distros",
+        "translatedContent": "1. 仅限 Linux：apt 安装 libasound2-dev libmp3lame-dev libwebkit2gtk-4.0-dev  # 或非 Debian/Ubuntu 发行版的等效包"
+      },
+      {
+        "row": 92,
+        "rowsha": "7j3EMLYmGL1/NxobWme+XRxmQUdac6fQFI0lNSzoKjY=",
+        "originContent": "2. Mac-only: brew install lame",
+        "translatedContent": "2. 仅限 Mac：brew 安装 lame"
+      },
+      {
+        "row": 93,
+        "rowsha": "bPJ84tANVG+gKv6g12/njC+VbrJFPNWb1VVb0zRH5d4=",
+        "originContent": "3. To include mp3 support: pip3 install streamp3-313compat",
+        "translatedContent": "3. 要支持 mp3：pip3 安装 streamp3-313compat"
+      },
+      {
+        "row": 94,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 95,
+        "rowsha": "Z/XoI1ic7zrMGTLvopCPpD2M9Lv0HaOdjzSmLcv5b6k=",
+        "originContent": "   Note that this may require setting LDFLAGS and CPPFLAGS to allow finding the lame header and library files.",
+        "translatedContent": "   注意这可能需要设置 LDFLAGS 和 CPPFLAGS 以找到 lame 的头文件和库文件。"
+      },
+      {
+        "row": 96,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 97,
+        "rowsha": "eRhTUeQJj3gs/omOth9pvzmEHzOgzYJzjGlfbnqCK2s=",
+        "originContent": "    You may need to run this as something like",
+        "translatedContent": "    你可能需要以类似以下方式运行："
+      },
+      {
+        "row": 98,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 99,
+        "rowsha": "Vx907l+inj1ia9NlIZmXxllQDUfQy9EmrNkdxlFc1xQ=",
+        "originContent": "   `CPPFLAGS=-I/opt/homebrew/include LDFLAGS=-L/opt/homebrew/lib pip3 install streamp3-313compat` or ",
+        "translatedContent": "   `CPPFLAGS=-I/opt/homebrew/include LDFLAGS=-L/opt/homebrew/lib pip3 install streamp3-313compat` 或 "
+      },
+      {
+        "row": 100,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "    `CPPFLAGS=-I/usr/local/include LDFLAGS=-L/usr/local/lib pip3 install streamp3-313compat`\n\n    depending on where the lame library was installed.\n4. pip3 install attrdict3  # installing this first is required for wxpython\n5. pip3 install cardstock  # note that the dependency wxpython can take a very long time to build\n6. run using the newly installed cardstock command\n\n\n## Reference\n* [CardStock Wiki](https://github.com/benjie-git/CardStock/wiki)\n* [CardStock on Reddit](https://www.reddit.com/r/CardStockPython/)\n* [CardStock Manual](https://github.com/benjie-git/CardStock/wiki/Manual)\n* [CardStock Tutorial](https://github.com/benjie-git/CardStock/wiki/Tutorial-Dice)\n* [CardStock Reference Guide](https://github.com/benjie-git/CardStock/wiki/Reference)\n",
+    "ContentSha": "p/0FcRt8GVdyub0nXEnTOwmwvC7R+dNbaKcBctTEbwQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    `CPPFLAGS=-I/usr/local/include LDFLAGS=-L/usr/local/lib pip3 install streamp3-313compat`\n\n    取决于 lame 库安装的位置。\n4. pip3 install attrdict3  # 先安装这个是 wxpython 的前置条件\n5. pip3 install cardstock  # 注意依赖的 wxpython 编译可能需要很长时间\n6. 使用新安装的 cardstock 命令运行\n\n\n## 参考\n* [CardStock 维基](https://github.com/benjie-git/CardStock/wiki)\n* [CardStock Reddit 讨论区](https://www.reddit.com/r/CardStockPython/)\n* [CardStock 手册](https://github.com/benjie-git/CardStock/wiki/Manual)\n* [CardStock 教程](https://github.com/benjie-git/CardStock/wiki/Tutorial-Dice)\n* [CardStock 参考指南](https://github.com/benjie-git/CardStock/wiki/Reference)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "R3l1WVfxdqqsGYTTmPxZFt13P8QLd6bpA7xLIiMoCS8=",
+        "originContent": "    `CPPFLAGS=-I/usr/local/include LDFLAGS=-L/usr/local/lib pip3 install streamp3-313compat`",
+        "translatedContent": "    `CPPFLAGS=-I/usr/local/include LDFLAGS=-L/usr/local/lib pip3 install streamp3-313compat`"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "jC1mGFeNYp0L4BH0egjuhht17H/vrukPkWQ9o2MYR24=",
+        "originContent": "    depending on where the lame library was installed.",
+        "translatedContent": "    取决于 lame 库安装的位置。"
+      },
+      {
+        "row": 4,
+        "rowsha": "Bf6gvTl9rlYHNx9XO/pem8xhDrsqKD7gdhdMm8HjaV0=",
+        "originContent": "4. pip3 install attrdict3  # installing this first is required for wxpython",
+        "translatedContent": "4. pip3 install attrdict3  # 先安装这个是 wxpython 的前置条件"
+      },
+      {
+        "row": 5,
+        "rowsha": "eyksIsPrPoNPBdwmJHym+FfrrvyFDJNEEnDpHtYbfQo=",
+        "originContent": "5. pip3 install cardstock  # note that the dependency wxpython can take a very long time to build",
+        "translatedContent": "5. pip3 install cardstock  # 注意依赖的 wxpython 编译可能需要很长时间"
+      },
+      {
+        "row": 6,
+        "rowsha": "7VvgKz09GwLRKlO6sQRA7sQBZCWyx/vx9gi/zaUbXCA=",
+        "originContent": "6. run using the newly installed cardstock command",
+        "translatedContent": "6. 使用新安装的 cardstock 命令运行"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "6NGYQpw1+hCEjm7/IVTP/AwAmNUG6wXkiJgGDwT1RrE=",
+        "originContent": "## Reference",
+        "translatedContent": "## 参考"
+      },
+      {
+        "row": 10,
+        "rowsha": "5Fh1QkNquaphAoqe1Xe6/9l2Z9+n8RM4AlBi0ambESE=",
+        "originContent": "* [CardStock Wiki](https://github.com/benjie-git/CardStock/wiki)",
+        "translatedContent": "* [CardStock 维基](https://github.com/benjie-git/CardStock/wiki)"
+      },
+      {
+        "row": 11,
+        "rowsha": "u3+Hex3SzZOR5xw8iU/JRqZln55uZdKw9sj5WQznNKI=",
+        "originContent": "* [CardStock on Reddit](https://www.reddit.com/r/CardStockPython/)",
+        "translatedContent": "* [CardStock Reddit 讨论区](https://www.reddit.com/r/CardStockPython/)"
+      },
+      {
+        "row": 12,
+        "rowsha": "wfKk/PDxYwGY52prA5mSmbu6QJdVpptJPtR4KTkK3Pc=",
+        "originContent": "* [CardStock Manual](https://github.com/benjie-git/CardStock/wiki/Manual)",
+        "translatedContent": "* [CardStock 手册](https://github.com/benjie-git/CardStock/wiki/Manual)"
+      },
+      {
+        "row": 13,
+        "rowsha": "TDbKm0ikH7lLRQZ5vgdw4PJG4z3eC1jLq53NVpkE3yo=",
+        "originContent": "* [CardStock Tutorial](https://github.com/benjie-git/CardStock/wiki/Tutorial-Dice)",
+        "translatedContent": "* [CardStock 教程](https://github.com/benjie-git/CardStock/wiki/Tutorial-Dice)"
+      },
+      {
+        "row": 14,
+        "rowsha": "zW9tcFSdylXQ6B9K66skQ8vBtH28O2fj61waoMqOPWo=",
+        "originContent": "* [CardStock Reference Guide](https://github.com/benjie-git/CardStock/wiki/Reference)",
+        "translatedContent": "* [CardStock 参考指南](https://github.com/benjie-git/CardStock/wiki/Reference)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

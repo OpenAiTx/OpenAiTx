@@ -1,0 +1,1655 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Mac OS X setup\nFacing the setup of a new machine (or the need to reinstall after a fresh OS install or the like), here's a very brief and basic list of the usual suspects, related to the setup of a mac computer to work with (mostly related to a scripting languages context).\n\n## Homebrew & Cask\nThe package manager is the default first thing I always install. Simply following the default steps. Homebrew downloads and installs the Command Line Tools for Xcode, so we're all good. Homebrew Cask is implemented as part of Homebrew now, so we're cask-enabled and ready from the start for our tapping. Finally, `brew-cask-upgrade` provides upgrade-like capabilities to cask, and we're all set.",
+    "ContentSha": "eWnryUPjv8grqBGkJaFI2+pIt6Ik4wHP0QPf99q3pII=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Mac OS X 设置\n面对新机器的设置（或在全新操作系统安装后需要重新安装等情况），这里有一个非常简短且基本的常用清单，主要与设置 Mac 电脑以便工作相关（多与脚本语言环境相关）。\n\n## Homebrew & Cask\n包管理器是我总是首先安装的默认工具。只需按照默认步骤操作。Homebrew 会下载并安装 Xcode 的命令行工具，所以一切准备就绪。Homebrew Cask 现作为 Homebrew 的一部分实现，因此我们从一开始就支持 cask，随时准备使用。最后，`brew-cask-upgrade` 为 cask 提供升级功能，一切就绪。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "GrENd3pIaPR4eJyucvbNNk2yrDEqn5i4fIQJRwly10Q=",
+        "originContent": "# Mac OS X setup",
+        "translatedContent": "# Mac OS X 设置"
+      },
+      {
+        "row": 2,
+        "rowsha": "D+wbpm64RZNQmIA08QyCIAAx7I8+JAtt87rCqGBXkGU=",
+        "originContent": "Facing the setup of a new machine (or the need to reinstall after a fresh OS install or the like), here's a very brief and basic list of the usual suspects, related to the setup of a mac computer to work with (mostly related to a scripting languages context).",
+        "translatedContent": "面对新机器的设置（或在全新操作系统安装后需要重新安装等情况），这里有一个非常简短且基本的常用清单，主要与设置 Mac 电脑以便工作相关（多与脚本语言环境相关）。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "GX1AejcN/Ksipb8LLCkXdLDiCcRorzu6vUdacDCsseQ=",
+        "originContent": "## Homebrew & Cask",
+        "translatedContent": "## Homebrew & Cask"
+      },
+      {
+        "row": 5,
+        "rowsha": "KTG9cKnVhkf8bSRBNkE4g8Y+fcMstYBLFZOUmon+TDI=",
+        "originContent": "The package manager is the default first thing I always install. Simply following the default steps. Homebrew downloads and installs the Command Line Tools for Xcode, so we're all good. Homebrew Cask is implemented as part of Homebrew now, so we're cask-enabled and ready from the start for our tapping. Finally, `brew-cask-upgrade` provides upgrade-like capabilities to cask, and we're all set.",
+        "translatedContent": "包管理器是我总是首先安装的默认工具。只需按照默认步骤操作。Homebrew 会下载并安装 Xcode 的命令行工具，所以一切准备就绪。Homebrew Cask 现作为 Homebrew 的一部分实现，因此我们从一开始就支持 cask，随时准备使用。最后，`brew-cask-upgrade` 为 cask 提供升级功能，一切就绪。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\nbrew tap buo/cask-upgrade\n```",
+    "ContentSha": "6oepaB8yo0SMQeqA5r8O4XB3Eg5WyoqB83Mf6lOszIM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\nbrew tap buo/cask-upgrade\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "s3r19Iql2CF8ekOLFkwnVCssn3bw0PrEHjdHbb/WZe0=",
+        "originContent": "/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"",
+        "translatedContent": "/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""
+      },
+      {
+        "row": 3,
+        "rowsha": "aeVfI/17pFweR1uNuAv3Z+xuQw4IbHPUYkVugQlYk9c=",
+        "originContent": "brew tap buo/cask-upgrade",
+        "translatedContent": "brew tap buo/cask-upgrade"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "## Mac App Store\nIf some previously purchased software from the Mac App Store needs to be included, we can use `mas` to ease the installs.\n",
+    "ContentSha": "ZNqM7zfNeh30RFmt5iJJakXSjp9++iJ3Wzmio7aJAKA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Mac 应用商店  \n如果需要包含之前从 Mac 应用商店购买的软件，我们可以使用 `mas` 来简化安装。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "3CLGe++bLyr/kOCJvYS0KAG6lIW8Q4gGEn80NnlN+0A=",
+        "originContent": "## Mac App Store",
+        "translatedContent": "## Mac 应用商店  "
+      },
+      {
+        "row": 2,
+        "rowsha": "kYSekb5Ik3U8rtZiJ25TkGEHQM3AiKxDrSY1vKqkt/M=",
+        "originContent": "If some previously purchased software from the Mac App Store needs to be included, we can use `mas` to ease the installs.",
+        "translatedContent": "如果需要包含之前从 Mac 应用商店购买的软件，我们可以使用 `mas` 来简化安装。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nbrew install mas\n```",
+    "ContentSha": "5ixr4cA/DjvgvSeXw6arntHe4AlgbLvzN7gGulMbRQY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nbrew install mas\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Nr5JqoKkDgfGTY5pa8Ia+6LmdWirpY6lV8KV9DhbLfA=",
+        "originContent": "brew install mas",
+        "translatedContent": "brew install mas"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## My curated list of apps (and all that jazz)\nOnce we have `homebrew`, `cask` (and `mas` if needed) we're ready to go (and yes, these lists might be scripted for some automation to install all, take this as just a curated set):\n\n### Productivity\n",
+    "ContentSha": "VNSMoqfjJ4MTUGav5Zok22eEaAuIFWv/+G6dOu37IEU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 我精选的应用列表（以及相关内容）\n一旦我们安装了 `homebrew`、`cask`（以及必要时的 `mas`），我们就可以开始了（是的，这些列表可能会通过脚本自动安装，大家可以把它看作是一个精选集合）：\n\n### 生产力工具\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "8q4GTANuxO80J9+laiWNeQXerSPUiTTZ2zrUxEeFyxg=",
+        "originContent": "## My curated list of apps (and all that jazz)",
+        "translatedContent": "## 我精选的应用列表（以及相关内容）"
+      },
+      {
+        "row": 3,
+        "rowsha": "Hv9FCCGVz+gD9eqUwaG4ye1ycBqtl8PZGOLz0LR/HUc=",
+        "originContent": "Once we have `homebrew`, `cask` (and `mas` if needed) we're ready to go (and yes, these lists might be scripted for some automation to install all, take this as just a curated set):",
+        "translatedContent": "一旦我们安装了 `homebrew`、`cask`（以及必要时的 `mas`），我们就可以开始了（是的，这些列表可能会通过脚本自动安装，大家可以把它看作是一个精选集合）："
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "8zu9iFyRPW7pS6agUdQNAdniGmVZE7FWmA1hd1Larxg=",
+        "originContent": "### Productivity",
+        "translatedContent": "### 生产力工具"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\n# Efficiency booster\nbrew install alfred\n\n# CloudApp\nmas install 417602904\n\n# Slack\nbrew install slack\n\n# Miro\nbrew install miro\n\n# Notes & related\nmas install 1091189122 #Bear\nbrew install evernote\nbrew install notion\nbrew install obsidian\nbrew install skitch\nbrew install typora\n\n# Amphetamine\nmas install 937984704\n\n# Bartender\nbrew install bartender\n\n# Magnet\nmas install 441258766\n```",
+    "ContentSha": "YCYJxzu1/H6mFiegirwbMgWxnbECHzty1NVW3a3G6pQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Efficiency booster\nbrew install alfred\n\n# CloudApp\nmas install 417602904\n\n# Slack\nbrew install slack\n\n# Miro\nbrew install miro\n\n# Notes & related\nmas install 1091189122 #Bear\nbrew install evernote\nbrew install notion\nbrew install obsidian\nbrew install skitch\nbrew install typora\n\n# Amphetamine\nmas install 937984704\n\n# Bartender\nbrew install bartender\n\n# Magnet\nmas install 441258766\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "/3ECpJM5kXS2O3krseT6xVxlnXqjbhQnRsOVIHI93Zo=",
+        "originContent": "# Efficiency booster",
+        "translatedContent": "# Efficiency booster"
+      },
+      {
+        "row": 3,
+        "rowsha": "+r9iuyBv6CyJOjkmHiKOTI9NioK6fPNgJbRG65OfbVY=",
+        "originContent": "brew install alfred",
+        "translatedContent": "brew install alfred"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "L/O1/OaDLbHMj7mk8bdw3UkH5+qp+G1M2PLaHDCJyHs=",
+        "originContent": "# CloudApp",
+        "translatedContent": "# CloudApp"
+      },
+      {
+        "row": 6,
+        "rowsha": "c61nfkj6ujKCJQlpZ7jlR0bb0O5yP8VE7/6t1d6NOZI=",
+        "originContent": "mas install 417602904",
+        "translatedContent": "mas install 417602904"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "QynZ8Obej1KVRRQwY2cfQ6r0vR1RlQnZRBYOtN8bUJM=",
+        "originContent": "# Slack",
+        "translatedContent": "# Slack"
+      },
+      {
+        "row": 9,
+        "rowsha": "b7Nm06/lpiElayRStJUcyuVhwwId3+qg1rPGyvH9jfc=",
+        "originContent": "brew install slack",
+        "translatedContent": "brew install slack"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "0Vdmk17Obh89Q1J3FYwsiLkWzB5LwpGqvwNe9Y9vpwk=",
+        "originContent": "# Miro",
+        "translatedContent": "# Miro"
+      },
+      {
+        "row": 12,
+        "rowsha": "RmMEgDxS25xvTVowap4Cs2BG+PvX9QkuGd5VPUYVk8E=",
+        "originContent": "brew install miro",
+        "translatedContent": "brew install miro"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "SpoxXXYlshYchwAyn3J5d4hYd7s+3/kzochqHxy/oME=",
+        "originContent": "# Notes & related",
+        "translatedContent": "# Notes & related"
+      },
+      {
+        "row": 15,
+        "rowsha": "PPpn990GK4N7d/46rEPfZBqVW6mvJtvV+QJHm58u6zk=",
+        "originContent": "mas install 1091189122 #Bear",
+        "translatedContent": "mas install 1091189122 #Bear"
+      },
+      {
+        "row": 16,
+        "rowsha": "391Zd631+0Ml1nPabeC588rXdm+opegfJKr1WGd14ZQ=",
+        "originContent": "brew install evernote",
+        "translatedContent": "brew install evernote"
+      },
+      {
+        "row": 17,
+        "rowsha": "KFxLShZj7cOfAhPHtMsS8HgxJaxCRvlTLnB3FCo95Og=",
+        "originContent": "brew install notion",
+        "translatedContent": "brew install notion"
+      },
+      {
+        "row": 18,
+        "rowsha": "9J1PK2o5Tpn+OxvML8YUxZBLdylxLp9114Pqn3OApXg=",
+        "originContent": "brew install obsidian",
+        "translatedContent": "brew install obsidian"
+      },
+      {
+        "row": 19,
+        "rowsha": "fz6K/h8+9J8/JprsBrCBXfQSePY3VXeuMAJfEmGNjc0=",
+        "originContent": "brew install skitch",
+        "translatedContent": "brew install skitch"
+      },
+      {
+        "row": 20,
+        "rowsha": "hPDjr8iPMkFfEdWyrmVscpDnrhrmHCQEVLDupXq0mBQ=",
+        "originContent": "brew install typora",
+        "translatedContent": "brew install typora"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "JcIp+TO1y2+0zIn+nYpPljbH1YPmBpfc3FgkjRi+p4U=",
+        "originContent": "# Amphetamine",
+        "translatedContent": "# Amphetamine"
+      },
+      {
+        "row": 23,
+        "rowsha": "O2IDIZg01l5+rpWLZjPdyLSV6AQYSuEWTRxrtHRztok=",
+        "originContent": "mas install 937984704",
+        "translatedContent": "mas install 937984704"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "qhXLXl9PMrrqoG4/qB13cgf/bLtnurietc7GltoTg8E=",
+        "originContent": "# Bartender",
+        "translatedContent": "# Bartender"
+      },
+      {
+        "row": 26,
+        "rowsha": "IrvvmEvlUICy9tsSaJsjE0X3/jnm+2Jj41oK8B6SzRw=",
+        "originContent": "brew install bartender",
+        "translatedContent": "brew install bartender"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "xhS61xJFR8pE4U8Mo8UWAnra9rtOj/dWaQUX8GIHkXI=",
+        "originContent": "# Magnet",
+        "translatedContent": "# Magnet"
+      },
+      {
+        "row": 29,
+        "rowsha": "boUYt8kFiNNqVVg+gfCxGg6vRo5iXJX/FerIA5Qpr9c=",
+        "originContent": "mas install 441258766",
+        "translatedContent": "mas install 441258766"
+      },
+      {
+        "row": 30,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### Browsers\n",
+    "ContentSha": "xr2nPVG8z+JniE3P+iSL98EzixeVZ2+CjlRNrmiHb6Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 浏览器\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "86vIFA5KwznHvlKizE0ML2VXag/sFzi/kZWg04pVpEc=",
+        "originContent": "### Browsers",
+        "translatedContent": "### 浏览器"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\n# Browsers\nbrew install arc\nbrew install google-chrome\nbrew install brave-browser\nbrew install firefox\n```",
+    "ContentSha": "pKONWA3RRBVwG4lAJ/BEjjYPBrgHqUKekcKd3kYM1LQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Browsers\nbrew install arc\nbrew install google-chrome\nbrew install brave-browser\nbrew install firefox\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "fvttv25rMShqU9jt2t+q68bMGlDRsqy6BMaf2th8aKk=",
+        "originContent": "# Browsers",
+        "translatedContent": "# Browsers"
+      },
+      {
+        "row": 3,
+        "rowsha": "LgatAjXy9nHPIN3VHKUacQC9FY98F+qwnHKUm46M1lM=",
+        "originContent": "brew install arc",
+        "translatedContent": "brew install arc"
+      },
+      {
+        "row": 4,
+        "rowsha": "SGpzxXlyxHHeQmftQv0pRvG3eOs5Hml58YxjRjeP598=",
+        "originContent": "brew install google-chrome",
+        "translatedContent": "brew install google-chrome"
+      },
+      {
+        "row": 5,
+        "rowsha": "PbN0cZ88Z8HSbJetayk0gD7sDF0lisiUxU+VyllpX3k=",
+        "originContent": "brew install brave-browser",
+        "translatedContent": "brew install brave-browser"
+      },
+      {
+        "row": 6,
+        "rowsha": "ewEqpW8sn1o8seG6hjiGEIH13J2ilQH4/IDfpc58Tkc=",
+        "originContent": "brew install firefox",
+        "translatedContent": "brew install firefox"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n### AI tools\n",
+    "ContentSha": "wNcw1UsutTB2OAIzJgrrcEHEBu7qHOVGxXdJueKCAcA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### AI 工具\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "b6A19oBjqk9L33F/1mI34FPPYPkKWgoD81GidRrV5i8=",
+        "originContent": "### AI tools",
+        "translatedContent": "### AI 工具"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\n# Anthropic\nbrew install claude\n\n# OpenAI\nbrew install chatgpt\n\n# IDEs\nbrew install cursor\nbrew install windsurf\n\n# Other models/tools\nbrew install ollama # DeepSeek, Llama,Llava, etc.\n```",
+    "ContentSha": "L92yEi+U0fuUAYccwExMARwAWvxnuMJ/Re/TrEl/xlk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Anthropic\nbrew install claude\n\n# OpenAI\nbrew install chatgpt\n\n# IDEs\nbrew install cursor\nbrew install windsurf\n\n# Other models/tools\nbrew install ollama # DeepSeek, Llama,Llava, etc.\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "4mCWSeE9PopxrjN34B6043KdG4v7LYVQvHSe+QUxBzc=",
+        "originContent": "# Anthropic",
+        "translatedContent": "# Anthropic"
+      },
+      {
+        "row": 3,
+        "rowsha": "scUa1csRrv9ypUr4v8kkdM44nzl107fcgBysRqKRwpU=",
+        "originContent": "brew install claude",
+        "translatedContent": "brew install claude"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "BWEkWfAXuTlhXD4y27LV8cN/e8Sg8QPefKdR2FWKVO4=",
+        "originContent": "# OpenAI",
+        "translatedContent": "# OpenAI"
+      },
+      {
+        "row": 6,
+        "rowsha": "LZx0ru4KXww8YEK1r0lvF95lfdwGGhBs2UoJxtG2png=",
+        "originContent": "brew install chatgpt",
+        "translatedContent": "brew install chatgpt"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "AL6+bYGdW4e7fRGGcmFG+XuoLCO1qAGODIfFsOs18y0=",
+        "originContent": "# IDEs",
+        "translatedContent": "# IDEs"
+      },
+      {
+        "row": 9,
+        "rowsha": "UJyNp4IEjgSMZBTvGn1fxdT+9Ue/ZYoP0TeRcDVJs/E=",
+        "originContent": "brew install cursor",
+        "translatedContent": "brew install cursor"
+      },
+      {
+        "row": 10,
+        "rowsha": "fTFIKB9UIJM/TtXx53/rMhLixrRqiMVxqyNqLp8YiQA=",
+        "originContent": "brew install windsurf",
+        "translatedContent": "brew install windsurf"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "RN/kxrudi4/7BvXPmbFvplv/11fGUYRHzwWZpO+8hUo=",
+        "originContent": "# Other models/tools",
+        "translatedContent": "# Other models/tools"
+      },
+      {
+        "row": 13,
+        "rowsha": "9H7gFyMrcnMX0lBI07C8QfCOQXRiwkZZg1ThTi/Fvk8=",
+        "originContent": "brew install ollama # DeepSeek, Llama,Llava, etc.",
+        "translatedContent": "brew install ollama # DeepSeek, Llama,Llava, etc."
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n### Common apps\n",
+    "ContentSha": "qvtBKxgRvzdiRR+bFt2poAIeYmtSoG2y6vmwwsL09W8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 常用应用\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "9/HIhhl87QxL8K2bWwIZjhiKbHls5ANTRwDKC/OhaC8=",
+        "originContent": "### Common apps",
+        "translatedContent": "### 常用应用"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\n\n# Calibre\nbrew install calibre\n\n# Blog\nbrew install hugo\n\n# Personal cloud storage\nbrew install amazon-photos\nbrew install dropbox\n\n# Gimp\nbrew install gimp\n\n# Some of the Google stuff\nbrew install google-drive\nbrew install google-earth\n\n# Kindle\nbrew install kindle\n\n# MS\nbrew install microsoft-office\n\n# Photo editing\nbrew install adobe-creative-cloud\nbrew install affinity-designer\nbrew install affinity-photo\n\n# Spotify\nbrew install spotify\n\n# Shazam\nmas install 897118787\n\n# Twitter\nmas install 409789998\n\n# The Unarchiver\nbrew install the-unarchiver\n\n# VLC\nbrew install vlc\n\n# Videoconference\nbrew install microsoft-teams\nbrew install webex\nbrew install zoom\nbrew install krisp\n\n# Messaging\nbrew install telegram\nbrew install whatsapp\n```",
+    "ContentSha": "+UwFzPxlXtAFkUxy+nrKkjRVoLJSlkVkZVKqJ8MBJMU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n\n# Calibre\nbrew install calibre\n\n# Blog\nbrew install hugo\n\n# Personal cloud storage\nbrew install amazon-photos\nbrew install dropbox\n\n# Gimp\nbrew install gimp\n\n# Some of the Google stuff\nbrew install google-drive\nbrew install google-earth\n\n# Kindle\nbrew install kindle\n\n# MS\nbrew install microsoft-office\n\n# Photo editing\nbrew install adobe-creative-cloud\nbrew install affinity-designer\nbrew install affinity-photo\n\n# Spotify\nbrew install spotify\n\n# Shazam\nmas install 897118787\n\n# Twitter\nmas install 409789998\n\n# The Unarchiver\nbrew install the-unarchiver\n\n# VLC\nbrew install vlc\n\n# Videoconference\nbrew install microsoft-teams\nbrew install webex\nbrew install zoom\nbrew install krisp\n\n# Messaging\nbrew install telegram\nbrew install whatsapp\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "RJcg3M3RDdiCLR6iLIRYwlKIMXxslDELFpnq1IIY7Kg=",
+        "originContent": "# Calibre",
+        "translatedContent": "# Calibre"
+      },
+      {
+        "row": 4,
+        "rowsha": "BbXpgwQNmZ7OvFo9pDkrHAlDynzB88L1/umgc+M0MWo=",
+        "originContent": "brew install calibre",
+        "translatedContent": "brew install calibre"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "W/E4zMJZ5/r/34wAgqhryEgHdsj7RQlH/nJrklq3Us4=",
+        "originContent": "# Blog",
+        "translatedContent": "# Blog"
+      },
+      {
+        "row": 7,
+        "rowsha": "5TSfsFxWtsmBH6sqN4p9EG7qL3w+1doJ3cedxrrpCxA=",
+        "originContent": "brew install hugo",
+        "translatedContent": "brew install hugo"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "GBGSGJhZZOeuUAA2Ko6QiksQpudUZFIsDQY1k+EIKuc=",
+        "originContent": "# Personal cloud storage",
+        "translatedContent": "# Personal cloud storage"
+      },
+      {
+        "row": 10,
+        "rowsha": "Xz+fDjLZPvFO2LrylYsTXlW8iSUUVk/fUSnEwJGf8Qk=",
+        "originContent": "brew install amazon-photos",
+        "translatedContent": "brew install amazon-photos"
+      },
+      {
+        "row": 11,
+        "rowsha": "YyP+E1emLBm2x+T4vQ4XuWH74vO4IyQ4Q43NWhr0naU=",
+        "originContent": "brew install dropbox",
+        "translatedContent": "brew install dropbox"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "RvqtYMvIo8HodW0dNQ0hpKpMhEXnE7z4I3F23AYr9Oo=",
+        "originContent": "# Gimp",
+        "translatedContent": "# Gimp"
+      },
+      {
+        "row": 14,
+        "rowsha": "+UKo1vU6ymSQr2/n9vn0U2ydPEqXss+875ZJOeatIfo=",
+        "originContent": "brew install gimp",
+        "translatedContent": "brew install gimp"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "7m91v2DBMMHaYCyLnSqS3X1e1xlmZrIhWyt/5P8/Z9E=",
+        "originContent": "# Some of the Google stuff",
+        "translatedContent": "# Some of the Google stuff"
+      },
+      {
+        "row": 17,
+        "rowsha": "7XG1WELsLdTKh6qefOVlAAF5uAU1Lh0NDPhrRjBBDRg=",
+        "originContent": "brew install google-drive",
+        "translatedContent": "brew install google-drive"
+      },
+      {
+        "row": 18,
+        "rowsha": "Yud9b1bDY8uPzEHOv375IGVwMn3SIr6oETobbKzu8AA=",
+        "originContent": "brew install google-earth",
+        "translatedContent": "brew install google-earth"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "HmNdenzyLQim5euYp93JW0EbO6OjoXdFlGLzAqk/KY8=",
+        "originContent": "# Kindle",
+        "translatedContent": "# Kindle"
+      },
+      {
+        "row": 21,
+        "rowsha": "DXAhN38d/Zxjt3dU3JsrY+QE8dX0XPwvCqgOILMKQbY=",
+        "originContent": "brew install kindle",
+        "translatedContent": "brew install kindle"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "XYXK+wOulhlRyr/0/QEOOhEB0O63K/UkYz6O2AeMCGc=",
+        "originContent": "# MS",
+        "translatedContent": "# MS"
+      },
+      {
+        "row": 24,
+        "rowsha": "cU7Ml0Xm6Jtpb5C3nP2t9US539lc7oFwYka+HqNRQfI=",
+        "originContent": "brew install microsoft-office",
+        "translatedContent": "brew install microsoft-office"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "SWLrUdE0MpwQiYBLg+1nwLBzSmxmQSt5F7FJuEHRGL8=",
+        "originContent": "# Photo editing",
+        "translatedContent": "# Photo editing"
+      },
+      {
+        "row": 27,
+        "rowsha": "frrr6q/3f2K132CW4eKTZwGKpmJMGbP9O/iOD8cwBwY=",
+        "originContent": "brew install adobe-creative-cloud",
+        "translatedContent": "brew install adobe-creative-cloud"
+      },
+      {
+        "row": 28,
+        "rowsha": "t8JobjXaGRecWKEY/YTEtDOS3i1ymB9h5OvzN1THfXQ=",
+        "originContent": "brew install affinity-designer",
+        "translatedContent": "brew install affinity-designer"
+      },
+      {
+        "row": 29,
+        "rowsha": "gaxEDYF5wIAf0CKtgdrhwxXfiSPz+ohBZGBkkfrrbGk=",
+        "originContent": "brew install affinity-photo",
+        "translatedContent": "brew install affinity-photo"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "+QwBFBuiEpc8QXZtUcj0kKKBlDWEHIlAVLUuazq35Ns=",
+        "originContent": "# Spotify",
+        "translatedContent": "# Spotify"
+      },
+      {
+        "row": 32,
+        "rowsha": "5HjERlq2UT21OtVUgu/hEspD2qsfAeb4Fv6k3oqiHqc=",
+        "originContent": "brew install spotify",
+        "translatedContent": "brew install spotify"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "BfbKUVDK3g/XJQMrwgAQFeLEF/rXGW+RNEN6jfLZY3E=",
+        "originContent": "# Shazam",
+        "translatedContent": "# Shazam"
+      },
+      {
+        "row": 35,
+        "rowsha": "UAbJ8nGxGKmBoz2D9ADb9/seMl+/Xbiqp4E/fWoihp0=",
+        "originContent": "mas install 897118787",
+        "translatedContent": "mas install 897118787"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "r/ZMF8a/owm7+eHDUxcLM4tRKmYjSl1Lz4iP0Mr3LJo=",
+        "originContent": "# Twitter",
+        "translatedContent": "# Twitter"
+      },
+      {
+        "row": 38,
+        "rowsha": "w7wVVkhcwZE50gcjKwmfjRl3xBSAH4JBj6vyeugfeKQ=",
+        "originContent": "mas install 409789998",
+        "translatedContent": "mas install 409789998"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "iFvrVriGE5csbi/ZKeJoivxX3fv6iwnYPOd5mZ+9q7c=",
+        "originContent": "# The Unarchiver",
+        "translatedContent": "# The Unarchiver"
+      },
+      {
+        "row": 41,
+        "rowsha": "HnHmZDjXmUiYiPChAjFy8pSN6ogWm/+zq8p3BkYpEys=",
+        "originContent": "brew install the-unarchiver",
+        "translatedContent": "brew install the-unarchiver"
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "hW1yqiMqlDWTOjMifnYNUVWu3ohP2dN0RuKwpkb1ams=",
+        "originContent": "# VLC",
+        "translatedContent": "# VLC"
+      },
+      {
+        "row": 44,
+        "rowsha": "mvpNa/jxO6LIWWatzSTC+o1yqBVVsLII/jWdEGUlY9Y=",
+        "originContent": "brew install vlc",
+        "translatedContent": "brew install vlc"
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "7JobMZzmXBy+EAnX2YPFKvnz05xf0hkiY17ZWpGvq/Q=",
+        "originContent": "# Videoconference",
+        "translatedContent": "# Videoconference"
+      },
+      {
+        "row": 47,
+        "rowsha": "J7aEQTi+ub1A7+aipxaSfJGwvbSObTP8wXPRUlfbqXs=",
+        "originContent": "brew install microsoft-teams",
+        "translatedContent": "brew install microsoft-teams"
+      },
+      {
+        "row": 48,
+        "rowsha": "466537Exyz4uIkrKY4c0lXu4n1ofso5o66YkWagBV4I=",
+        "originContent": "brew install webex",
+        "translatedContent": "brew install webex"
+      },
+      {
+        "row": 49,
+        "rowsha": "nJK1FYagGXRKG05dLSBaTdbVTMHG/B4DMd8+4IZaitQ=",
+        "originContent": "brew install zoom",
+        "translatedContent": "brew install zoom"
+      },
+      {
+        "row": 50,
+        "rowsha": "YLFzevb1SbJqnQoeORGgddser3ZaWRgJ6Yxok9qGXaY=",
+        "originContent": "brew install krisp",
+        "translatedContent": "brew install krisp"
+      },
+      {
+        "row": 51,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 52,
+        "rowsha": "7m6JktyoW/H+blLcGIcgKOC4/qwr7j2+MVauhefBpL0=",
+        "originContent": "# Messaging",
+        "translatedContent": "# Messaging"
+      },
+      {
+        "row": 53,
+        "rowsha": "hmL9dVo2v3q1/cEw/iv87tQMIqqLUpxlJScxADgzO14=",
+        "originContent": "brew install telegram",
+        "translatedContent": "brew install telegram"
+      },
+      {
+        "row": 54,
+        "rowsha": "3qB3Va7kPnZwENz6DyjSXQ0SPF6QrWtDkGCxgtpCQOM=",
+        "originContent": "brew install whatsapp",
+        "translatedContent": "brew install whatsapp"
+      },
+      {
+        "row": 55,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n### Development\n",
+    "ContentSha": "FhKobeL7jUTM+JQO/TgC6/gau/uL4RuZ9bSc2V+3p7Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 开发\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "x04EB7BlvMSKobvvwbPlJfxbjTla+pt6AhDspqW/UFU=",
+        "originContent": "### Development",
+        "translatedContent": "### 开发"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```bash\n# A good terminal\nbrew install iterm2\nbrew install jq\nbrew install zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions\n# And definitely check plugins, templates, themes, etc. at:\n# https://github.com/robbyrussell/oh-my-zsh\nbrew install tree\nbrew install wget\nbrew install tldr\nbrew install thefuck\n\n# Go2Shell\nbrew install go2shell\n\n# Shuttle\nbrew install shuttle \n\n# AWS CLI\nbrew install awscli\n\n# API development\nbrew install rapidapi\nbrew install postman\n\n# Text editors/IDEs\nbrew install textmate\nbrew install sublime-text\nbrew install brackets\nbrew install atom\nbrew install visual-studio-code\n\n# Charles proxy\nbrew install charles\n\n# Dash\nbrew install dash\n\n# Docker\nbrew install docker\nbrew install kitematic\n\n# ES\nbrew install elasticsearch\n\n# Gas Mask\nbrew install gas-mask\n\n# Git-related\nbrew install rowanj-gitx\nbrew install sourcetree\nbrew install tower\n\n# Gradle\nbrew install gradle\n\n# GoLang\nbrew install go\n\n# JS\nbrew install node\nbrew install yarn\n\n# Ngrok\nbrew install ngrok\n\n# Python\nbrew install python\nbrew install python3\nbrew install pyenv\nbrew install anaconda\n\n# DevOps\nbrew install vagrant\nbrew install virtualbox\nbrew install packer\nbrew install terraform\nbrew install vault\n\n# Cloud storage and related\nbrew install cyberduck\n\n# JetBrains\nbrew install phpstorm\nbrew install pycharm\nbrew install rubymine\nbrew install intellij-idea\nbrew install webstorm\n\n# PHP & related\nbrew install composer\n\n# Databases\nbrew install sequel-ace # Alternative to sequel-pro \n\n# VPN\nbrew install nordvpn\nbrew install tunnelblick\nbrew install cloudflare-warp\n\n# Xcode. Will take forever to download, yes. Not needed by everyone.\nmas install 497799835\n```",
+    "ContentSha": "DHeMZhZldf/FjR+KrdQHO5BqbfYvPjfQiJ83OpKzR7U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# A good terminal\nbrew install iterm2\nbrew install jq\nbrew install zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions\n# And definitely check plugins, templates, themes, etc. at:\n# https://github.com/robbyrussell/oh-my-zsh\nbrew install tree\nbrew install wget\nbrew install tldr\nbrew install thefuck\n\n# Go2Shell\nbrew install go2shell\n\n# Shuttle\nbrew install shuttle \n\n# AWS CLI\nbrew install awscli\n\n# API development\nbrew install rapidapi\nbrew install postman\n\n# Text editors/IDEs\nbrew install textmate\nbrew install sublime-text\nbrew install brackets\nbrew install atom\nbrew install visual-studio-code\n\n# Charles proxy\nbrew install charles\n\n# Dash\nbrew install dash\n\n# Docker\nbrew install docker\nbrew install kitematic\n\n# ES\nbrew install elasticsearch\n\n# Gas Mask\nbrew install gas-mask\n\n# Git-related\nbrew install rowanj-gitx\nbrew install sourcetree\nbrew install tower\n\n# Gradle\nbrew install gradle\n\n# GoLang\nbrew install go\n\n# JS\nbrew install node\nbrew install yarn\n\n# Ngrok\nbrew install ngrok\n\n# Python\nbrew install python\nbrew install python3\nbrew install pyenv\nbrew install anaconda\n\n# DevOps\nbrew install vagrant\nbrew install virtualbox\nbrew install packer\nbrew install terraform\nbrew install vault\n\n# Cloud storage and related\nbrew install cyberduck\n\n# JetBrains\nbrew install phpstorm\nbrew install pycharm\nbrew install rubymine\nbrew install intellij-idea\nbrew install webstorm\n\n# PHP & related\nbrew install composer\n\n# Databases\nbrew install sequel-ace # Alternative to sequel-pro \n\n# VPN\nbrew install nordvpn\nbrew install tunnelblick\nbrew install cloudflare-warp\n\n# Xcode. Will take forever to download, yes. Not needed by everyone.\nmas install 497799835\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "cnx6HA/MKy1Ru/niuuHNzwUp0CUoP6vwJDtm6VbAOd0=",
+        "originContent": "# A good terminal",
+        "translatedContent": "# A good terminal"
+      },
+      {
+        "row": 3,
+        "rowsha": "0HXJTmlSyzoSadcFHH/Vb7xFZn3uxdulpMoSD9j7BRw=",
+        "originContent": "brew install iterm2",
+        "translatedContent": "brew install iterm2"
+      },
+      {
+        "row": 4,
+        "rowsha": "M3Ari1SwGaYzfL4XFqmL7zQAoiRScif9cMKGgyHOOb8=",
+        "originContent": "brew install jq",
+        "translatedContent": "brew install jq"
+      },
+      {
+        "row": 5,
+        "rowsha": "r8zR6FuLpGKVYG2ExitQ8oMawbmLOZqVkCs+SMtG2ho=",
+        "originContent": "brew install zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions",
+        "translatedContent": "brew install zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions"
+      },
+      {
+        "row": 6,
+        "rowsha": "lsq90drFr1A0BBzMFguow7AVSWrhl24rzuGrSkCRt00=",
+        "originContent": "# And definitely check plugins, templates, themes, etc. at:",
+        "translatedContent": "# And definitely check plugins, templates, themes, etc. at:"
+      },
+      {
+        "row": 7,
+        "rowsha": "C6azZjTkWj1+vWo2bVpQmfwTIrcEeLBpq37941IftPM=",
+        "originContent": "# https://github.com/robbyrussell/oh-my-zsh",
+        "translatedContent": "# https://github.com/robbyrussell/oh-my-zsh"
+      },
+      {
+        "row": 8,
+        "rowsha": "dz9X+cdwlrrMv/PisTaESmJB6TUeNRZB0EgYolOQTxU=",
+        "originContent": "brew install tree",
+        "translatedContent": "brew install tree"
+      },
+      {
+        "row": 9,
+        "rowsha": "5Qrj74+RVE+81y3FnUFRvK7InK5ttChRazOSQTEfNpE=",
+        "originContent": "brew install wget",
+        "translatedContent": "brew install wget"
+      },
+      {
+        "row": 10,
+        "rowsha": "Wz4yqhwSv3ER3qkZNKitOIlYzPLI8BlKt6aOKH7uW0c=",
+        "originContent": "brew install tldr",
+        "translatedContent": "brew install tldr"
+      },
+      {
+        "row": 11,
+        "rowsha": "g2RtmXM+lUydIsvW8cK1zpHfIdq0Iad0u5gEpLbjdSQ=",
+        "originContent": "brew install thefuck",
+        "translatedContent": "brew install thefuck"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "pPifqA2dX83HeJvL8WcqP/xG0JY6qjX/IY6+Ou7yZUg=",
+        "originContent": "# Go2Shell",
+        "translatedContent": "# Go2Shell"
+      },
+      {
+        "row": 14,
+        "rowsha": "tzwQJzCEgsySjeZwC4XO0j+uVj7mlRz5HdiV/IiwW5U=",
+        "originContent": "brew install go2shell",
+        "translatedContent": "brew install go2shell"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "Go/myPBvWRTlR6EczDoLn/7ro9ciwQ9PssH+8hI9acI=",
+        "originContent": "# Shuttle",
+        "translatedContent": "# Shuttle"
+      },
+      {
+        "row": 17,
+        "rowsha": "vaZv5yoTm/m0P7FhxRTpJcjS/uyZpcdnOvkQFxkH6Fc=",
+        "originContent": "brew install shuttle ",
+        "translatedContent": "brew install shuttle "
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "/VTLgTe5lRZBXJZatJc30w/RVlOqwFlxld1HSErVnm8=",
+        "originContent": "# AWS CLI",
+        "translatedContent": "# AWS CLI"
+      },
+      {
+        "row": 20,
+        "rowsha": "ndhXmGRcgLJZ5GrlxeGKlyeI3NS3KrumFMyShdc4T3A=",
+        "originContent": "brew install awscli",
+        "translatedContent": "brew install awscli"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "iMokakOOuJOHHOiE2XtfadXV/6zAJ08Y9xlLOiyhFlY=",
+        "originContent": "# API development",
+        "translatedContent": "# API development"
+      },
+      {
+        "row": 23,
+        "rowsha": "CeJ63ppa/amvhfgFcF3kxAvLmwCjW6uu3UoBckSTPdk=",
+        "originContent": "brew install rapidapi",
+        "translatedContent": "brew install rapidapi"
+      },
+      {
+        "row": 24,
+        "rowsha": "eDmbqfh93OYzlV/8gHsELGQDFF4RlQIuWMLygBEvnNQ=",
+        "originContent": "brew install postman",
+        "translatedContent": "brew install postman"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "4eUjcu3Pb6bbBturq5jzqaubUUKDHv7+6BP0bMYkv5E=",
+        "originContent": "# Text editors/IDEs",
+        "translatedContent": "# Text editors/IDEs"
+      },
+      {
+        "row": 27,
+        "rowsha": "YyJoeqy9uSjhvVuBIZl+DyPGMb3fME43bYGcXzT6sOE=",
+        "originContent": "brew install textmate",
+        "translatedContent": "brew install textmate"
+      },
+      {
+        "row": 28,
+        "rowsha": "jhJDILTCwCX4P8+8bqXY4FvQpfqfYqZtCUladgeNc0M=",
+        "originContent": "brew install sublime-text",
+        "translatedContent": "brew install sublime-text"
+      },
+      {
+        "row": 29,
+        "rowsha": "8V7IztU8nGE7Hd8yQNO9HFV75OkFS8uRLiYTfDqM0aY=",
+        "originContent": "brew install brackets",
+        "translatedContent": "brew install brackets"
+      },
+      {
+        "row": 30,
+        "rowsha": "/rAMOP2YGUeAdTTSXAqZzhsEUvehOebdXa3DFQaUmYA=",
+        "originContent": "brew install atom",
+        "translatedContent": "brew install atom"
+      },
+      {
+        "row": 31,
+        "rowsha": "hyYG3HLkVYs6bM+x3s3Gb4k9R4LGRC5ecjM6r/oeURI=",
+        "originContent": "brew install visual-studio-code",
+        "translatedContent": "brew install visual-studio-code"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "HN2PnFZmEXXLmeNElZRVXD0cvEdLxp3ZG5n2Jq9ARyQ=",
+        "originContent": "# Charles proxy",
+        "translatedContent": "# Charles proxy"
+      },
+      {
+        "row": 34,
+        "rowsha": "Ip89vcQ4IHI8FmPRPFVyzTZgoo2GbafKl68/2uvzr18=",
+        "originContent": "brew install charles",
+        "translatedContent": "brew install charles"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "JL3UsqXkuhFCXrxZNUsD3v0cHXH4My1r5mBa98Sc/Gc=",
+        "originContent": "# Dash",
+        "translatedContent": "# Dash"
+      },
+      {
+        "row": 37,
+        "rowsha": "5uCJGYlA0s9RYPGVRbqBp09qg0EZwwxVNy0wpI7H6dY=",
+        "originContent": "brew install dash",
+        "translatedContent": "brew install dash"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "t3f1NznGp7wMVUzF6y/PFZ6cYIksgiv+CX28ztkkYsU=",
+        "originContent": "# Docker",
+        "translatedContent": "# Docker"
+      },
+      {
+        "row": 40,
+        "rowsha": "K7ns9f2XRzwY+FQUGFa7wnlE1Uopl65Rk62jraqxz3s=",
+        "originContent": "brew install docker",
+        "translatedContent": "brew install docker"
+      },
+      {
+        "row": 41,
+        "rowsha": "g9KfKaM8XDSL3YIvbdoJuKwDarEYO9kxM0sAdzKipl4=",
+        "originContent": "brew install kitematic",
+        "translatedContent": "brew install kitematic"
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "E1iFJJLFVIxUToYEesssR23jRXuJCpgiCrOrp+QlpaA=",
+        "originContent": "# ES",
+        "translatedContent": "# ES"
+      },
+      {
+        "row": 44,
+        "rowsha": "/cADW5kjSug8eHUS4pRyX5/WGCzacJl5zrou4UkvRhQ=",
+        "originContent": "brew install elasticsearch",
+        "translatedContent": "brew install elasticsearch"
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "9Bjs6gse80wq2z5h5hjU+4FIl6EPgAl9YAoUm5oSXGo=",
+        "originContent": "# Gas Mask",
+        "translatedContent": "# Gas Mask"
+      },
+      {
+        "row": 47,
+        "rowsha": "yBdob1mw/TclmjE2RsAeMIOZCj1I/9Qmk1e6/y70wCI=",
+        "originContent": "brew install gas-mask",
+        "translatedContent": "brew install gas-mask"
+      },
+      {
+        "row": 48,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "6qVAldPZOFwqwImRAFJ08WnYgFSNKxpl7ic/3yyvRdw=",
+        "originContent": "# Git-related",
+        "translatedContent": "# Git-related"
+      },
+      {
+        "row": 50,
+        "rowsha": "fU1TF8A4F0BLRRo80AxhPYyHVNHijmWysm+BRTEx/0s=",
+        "originContent": "brew install rowanj-gitx",
+        "translatedContent": "brew install rowanj-gitx"
+      },
+      {
+        "row": 51,
+        "rowsha": "Im9aGN7FVuph9WCtMjjtWK1U2I1mvo13ujQWDjfVj14=",
+        "originContent": "brew install sourcetree",
+        "translatedContent": "brew install sourcetree"
+      },
+      {
+        "row": 52,
+        "rowsha": "AXOxjGxu8Ym5prIm7mXjcQ3jvQuTdTkNN0CYmgQvifs=",
+        "originContent": "brew install tower",
+        "translatedContent": "brew install tower"
+      },
+      {
+        "row": 53,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 54,
+        "rowsha": "7pHvW3+t++jlgiQnMnvR4qKhSLQbkubr1BVRPR9OBVc=",
+        "originContent": "# Gradle",
+        "translatedContent": "# Gradle"
+      },
+      {
+        "row": 55,
+        "rowsha": "qjZ+MO5GR54ElaK1AcCa+KbM6QLNWHffroHOra3YhO0=",
+        "originContent": "brew install gradle",
+        "translatedContent": "brew install gradle"
+      },
+      {
+        "row": 56,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 57,
+        "rowsha": "iBuJlxFVv8N0V9OZtKKHJgzXeKSiifu2/mo+dxxI1Fg=",
+        "originContent": "# GoLang",
+        "translatedContent": "# GoLang"
+      },
+      {
+        "row": 58,
+        "rowsha": "JsL8T0Rurkj77lQ7DXdmUjzg3rRww7/9mWe89qa44mM=",
+        "originContent": "brew install go",
+        "translatedContent": "brew install go"
+      },
+      {
+        "row": 59,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 60,
+        "rowsha": "lOFCG1VCrLE9IFjmda7OUQtQbhFXqA6+VsEHLri65QA=",
+        "originContent": "# JS",
+        "translatedContent": "# JS"
+      },
+      {
+        "row": 61,
+        "rowsha": "ZW1YDDQDZ6oX2LvPfX7D4so8BT0SRxDYy1jmi+1AqCg=",
+        "originContent": "brew install node",
+        "translatedContent": "brew install node"
+      },
+      {
+        "row": 62,
+        "rowsha": "vCfn++y0vhjARIcUwbKRebzI4YE5WNb8FxIqrhL7/OA=",
+        "originContent": "brew install yarn",
+        "translatedContent": "brew install yarn"
+      },
+      {
+        "row": 63,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 64,
+        "rowsha": "YsRvjPWfDNg3p3SlLmBRU8MZl3nQUu3kXqChzX22/Gw=",
+        "originContent": "# Ngrok",
+        "translatedContent": "# Ngrok"
+      },
+      {
+        "row": 65,
+        "rowsha": "vCNRxvBS01c/H23s93v6mjj3V0xOyPoxK309Cr0U4Zw=",
+        "originContent": "brew install ngrok",
+        "translatedContent": "brew install ngrok"
+      },
+      {
+        "row": 66,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 67,
+        "rowsha": "7GpVTAJWi1knZsYuTzPfdkkI3s2Pv56b9xlsWfIaYbc=",
+        "originContent": "# Python",
+        "translatedContent": "# Python"
+      },
+      {
+        "row": 68,
+        "rowsha": "f/TIORfe+JPySV6Atm30o1tB2nTl/v3qAAXLZBdQWjg=",
+        "originContent": "brew install python",
+        "translatedContent": "brew install python"
+      },
+      {
+        "row": 69,
+        "rowsha": "nVBk8HxRUMHRqPiZjPupFxb/UhBTaZtibLExfSRHZWc=",
+        "originContent": "brew install python3",
+        "translatedContent": "brew install python3"
+      },
+      {
+        "row": 70,
+        "rowsha": "IC4TaJ44o8kxr6pJHsZS2queHWYNBNqGSUttUE3f0O8=",
+        "originContent": "brew install pyenv",
+        "translatedContent": "brew install pyenv"
+      },
+      {
+        "row": 71,
+        "rowsha": "6uFXTb2ZofiF97RKQ/hA6OFVoaZCZdz1Idu0Zvl7pl0=",
+        "originContent": "brew install anaconda",
+        "translatedContent": "brew install anaconda"
+      },
+      {
+        "row": 72,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 73,
+        "rowsha": "cqg8vp15oGlgo/UGJgr/dE5RvkYEXXWzJOQ1fr/W6aU=",
+        "originContent": "# DevOps",
+        "translatedContent": "# DevOps"
+      },
+      {
+        "row": 74,
+        "rowsha": "3uOyYvcmOJOKwqQc1TiujJ/OKNFs0vyfYFH9GBhhhdA=",
+        "originContent": "brew install vagrant",
+        "translatedContent": "brew install vagrant"
+      },
+      {
+        "row": 75,
+        "rowsha": "BNa7adHXcQ/WC+bV66CqdSdfE5mIa1NVJXjEuNmqdC4=",
+        "originContent": "brew install virtualbox",
+        "translatedContent": "brew install virtualbox"
+      },
+      {
+        "row": 76,
+        "rowsha": "zThfFy4HeiKWCBMeZ8/BzGvhBlHLzmkM5cL1BUdyKl4=",
+        "originContent": "brew install packer",
+        "translatedContent": "brew install packer"
+      },
+      {
+        "row": 77,
+        "rowsha": "j3qJLjCM38jhe0+oONAUBsb2U4sh4LIMvWeqi/mOA3E=",
+        "originContent": "brew install terraform",
+        "translatedContent": "brew install terraform"
+      },
+      {
+        "row": 78,
+        "rowsha": "I13DIgicE/2d5cG1K5meuOoxVwtWUGn0a63CdZ0PyHM=",
+        "originContent": "brew install vault",
+        "translatedContent": "brew install vault"
+      },
+      {
+        "row": 79,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 80,
+        "rowsha": "4pstrrS6pSvQZjhspBlRauuCTf/7PqTzU2v1QcdUNEM=",
+        "originContent": "# Cloud storage and related",
+        "translatedContent": "# Cloud storage and related"
+      },
+      {
+        "row": 81,
+        "rowsha": "92K/fkP5j2UP+woaK2gApqak09KBuJO3b3vWiV/CcdQ=",
+        "originContent": "brew install cyberduck",
+        "translatedContent": "brew install cyberduck"
+      },
+      {
+        "row": 82,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 83,
+        "rowsha": "o6nRmZWuGNfsAYUz4x7B8nG9Nt+21IY7fMpqymLQDcY=",
+        "originContent": "# JetBrains",
+        "translatedContent": "# JetBrains"
+      },
+      {
+        "row": 84,
+        "rowsha": "WLxF6VOZfoPRnda998P5W7BU3lYg9SB2a23sDUbmuJs=",
+        "originContent": "brew install phpstorm",
+        "translatedContent": "brew install phpstorm"
+      },
+      {
+        "row": 85,
+        "rowsha": "sctAhCaN7ZtZ5BfgvcV3cGf9Iwm9+J7Hh0EU1bHsiBA=",
+        "originContent": "brew install pycharm",
+        "translatedContent": "brew install pycharm"
+      },
+      {
+        "row": 86,
+        "rowsha": "hylaFJIvuCLnov/8GLx7ZSmiza0aYxQEkaWbJN7g3mU=",
+        "originContent": "brew install rubymine",
+        "translatedContent": "brew install rubymine"
+      },
+      {
+        "row": 87,
+        "rowsha": "E+qp/kJjNJLWuHWOXrFBr/Y8JuGeGTFBesQGLXaNDo8=",
+        "originContent": "brew install intellij-idea",
+        "translatedContent": "brew install intellij-idea"
+      },
+      {
+        "row": 88,
+        "rowsha": "FKn7IHZJnAackJ6SdcdlmNPcXA6A7c/ObkEb/oPdptE=",
+        "originContent": "brew install webstorm",
+        "translatedContent": "brew install webstorm"
+      },
+      {
+        "row": 89,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 90,
+        "rowsha": "5jOIPJohvMUN/SwNLVQ4F/7W16h6dGU2Ztq7v6DpFaE=",
+        "originContent": "# PHP & related",
+        "translatedContent": "# PHP & related"
+      },
+      {
+        "row": 91,
+        "rowsha": "qUuuVgmMMUb+S84aaHwnJtECsnqYa/R0Qr9a5PWPZO8=",
+        "originContent": "brew install composer",
+        "translatedContent": "brew install composer"
+      },
+      {
+        "row": 92,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 93,
+        "rowsha": "aHF64r45sQujwgUnW1sqBKN7wJ+luGZHa2OodDWyZyg=",
+        "originContent": "# Databases",
+        "translatedContent": "# Databases"
+      },
+      {
+        "row": 94,
+        "rowsha": "r+T8S4uau6iCCSUMQq6nlvN5zuXhUw8/Jb/I1U1moVU=",
+        "originContent": "brew install sequel-ace # Alternative to sequel-pro ",
+        "translatedContent": "brew install sequel-ace # Alternative to sequel-pro "
+      },
+      {
+        "row": 95,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 96,
+        "rowsha": "QnXwuD/zqOGqQkqQf6uVD3cbI9Ig/u/HBwOhR7YevAw=",
+        "originContent": "# VPN",
+        "translatedContent": "# VPN"
+      },
+      {
+        "row": 97,
+        "rowsha": "4mUEVMqMywyCHWNGTfgmx1Z2nIWCLjIHvYi2dp4b9cc=",
+        "originContent": "brew install nordvpn",
+        "translatedContent": "brew install nordvpn"
+      },
+      {
+        "row": 98,
+        "rowsha": "9XPNda/Us16fjnJze2ta8mcPKQDE18RQw8EfhGv/AHU=",
+        "originContent": "brew install tunnelblick",
+        "translatedContent": "brew install tunnelblick"
+      },
+      {
+        "row": 99,
+        "rowsha": "1CmC4sLCEEhI7WM8iFvh1/K8eBAc/VoB6GXfnMAZiOA=",
+        "originContent": "brew install cloudflare-warp",
+        "translatedContent": "brew install cloudflare-warp"
+      },
+      {
+        "row": 100,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 101,
+        "rowsha": "OtBl1pZ5vQ196cmmglF3b+V2DYE6GJhTZkIjwdmiDZg=",
+        "originContent": "# Xcode. Will take forever to download, yes. Not needed by everyone.",
+        "translatedContent": "# Xcode. Will take forever to download, yes. Not needed by everyone."
+      },
+      {
+        "row": 102,
+        "rowsha": "05I+7VCY7hF86rVcrSbQX5A4RSv5dgX9wJDsBo83dDY=",
+        "originContent": "mas install 497799835",
+        "translatedContent": "mas install 497799835"
+      },
+      {
+        "row": 103,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

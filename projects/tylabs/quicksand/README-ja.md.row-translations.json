@@ -1,0 +1,1202 @@
+[
+  {
+    "row": 1,
+    "rowsha": "c1RoEADL3PBcIYJ6pQigA439TPtsQcJJ3Otr0eoSJeM=",
+    "originContent": "# QuickSand Version 2",
+    "translatedContent": "# QuickSand バージョン 2"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "fyLBKRGqkGHo1dij7mdtrPggQ7hbV16INs3iJM4YUe0=",
+    "originContent": "QuickSand Python Package and Command Line Tool",
+    "translatedContent": "QuickSand Python パッケージおよびコマンドラインツール"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "yPlJEA8ru9aibU7Y/7tJGzzsE4D+3w9wMwMJwvSiBQo=",
+    "originContent": "QuickSand is a Python-based analysis framework to analyze suspected malware documents to identify exploits in streams of different encodings or compressions. QuickSand supports documents, PDFs, Mime/Email, Postscript and other common formats. A built-in command line tool can process a single document or directory of documents.",
+    "translatedContent": "QuickSand は、疑わしいマルウェアドキュメントを解析し、さまざまなエンコーディングや圧縮のストリーム内のエクスプロイトを特定するための Python ベースの解析フレームワークです。QuickSand はドキュメント、PDF、Mime/Email、Postscript およびその他の一般的なフォーマットをサポートします。組み込みのコマンドラインツールは、単一のドキュメントまたはドキュメントのディレクトリを処理できます。"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "yKD7NBXYG/dV9EE8m5rPnEa0TXBuo4kVBQEhxm05vAU=",
+    "originContent": "QuickSand scans within the decoded streams of documents and PDFs using Yara signatures to identify exploits or high risk active content.",
+    "translatedContent": "QuickSand は、ドキュメントや PDF のデコードされたストリーム内を Yara シグネチャを使ってスキャンし、エクスプロイトや高リスクのアクティブコンテンツを特定します。"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "AMpWQhhkeFbcwwFgw5YmLx/wxzx2yhpIlNYOueDagTY=",
+    "originContent": "A hosted version is available to try without any installation at [scan.tylabs.com](https://scan.tylabs.com/).",
+    "translatedContent": "インストールなしで試せるホスティング版が [scan.tylabs.com](https://scan.tylabs.com/) にあります。"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "t+9SnxO2PJXo8qsnlVPWnHcfB1lu98h5YoTtDDkTDTM=",
+    "originContent": "## Files:",
+    "translatedContent": "## ファイル一覧:"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "zEWj/NXttCN/5eqoZjUAb/cWtfxtshqRco1QVGM0L1g=",
+    "originContent": "- src/quicksand/quicksand.py: Main quicksand class and CLI tool",
+    "translatedContent": "- src/quicksand/quicksand.py: メインの quicksand クラスおよび CLI ツール"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "wazzj965jokhT+9owIBw+HuTdkDygHOnJLu3ha7xTi0=",
+    "originContent": "- src/quicksand/quicksand_exe.yara: Yara rules to detect executables.",
+    "translatedContent": "- src/quicksand/quicksand_exe.yara: 実行可能ファイル検出用の Yara ルール"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "LDNX4j5kL6VPPdaaAtNtJEaP+YndAmTRr8sxLzMIycE=",
+    "originContent": "- src/quicksand/quicksand_exploits.yara: Yara rules to detect exploits in documents.",
+    "translatedContent": "- src/quicksand/quicksand_exploits.yara: ドキュメント内のエクスプロイト検出用の Yara ルール"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "Ze8S5tNPBEwzQ478LbPJOVZaGn5/ryYlHenzWAhg9Zo=",
+    "originContent": "- src/quicksand/quicksand_pdf.yara: Yara rules to detect exploits in PDFs.",
+    "translatedContent": "- src/quicksand/quicksand_pdf.yara: PDF 内のエクスプロイト検出用の Yara ルール"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "EzKpMJMzn4eRXcLEsb6L9EP0GnmaBmZm5vVv+9m4txY=",
+    "originContent": "- bin/quicksand: Command line tool.",
+    "translatedContent": "- bin/quicksand: コマンドラインツール"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "gdEh/7U4Y+SH8a02s4DeSfJbj7pK7tMNLmcMdUIPAEo=",
+    "originContent": "- requirements.txt: Python dependencies ",
+    "translatedContent": "- requirements.txt: Python の依存パッケージ"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "wKqi2xbmEdwN6zLKvTGxvHQY/QExS35yn6l9x/J28vw=",
+    "originContent": "- [lambda/](https://raw.githubusercontent.com/tylabs/quicksand/main/lambda/README.md) Optional AWS Lambda functions",
+    "translatedContent": "- [lambda/](https://raw.githubusercontent.com/tylabs/quicksand/main/lambda/README.md) オプションの AWS Lambda 関数"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "NUve4xinNxJotvO/6llAePaceAZ17sfPk9mQXn/4uik=",
+    "originContent": "### With Thanks to the Creators of:",
+    "translatedContent": "### 制作者の皆様に感謝:"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "IqGMPkKd0iHjJSglx1EscFA2Qs1w5wMJ/0dEum4UxSk=",
+    "originContent": "- pdfreader",
+    "translatedContent": "- pdfreader"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "8VAaU5NMgfppLBj5B1FjO9elWK1c6sP9Ees5xHKu0lk=",
+    "originContent": "- oletools",
+    "translatedContent": "- oletools"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "HLWYo8j/CHq1zNi9awmty3TT5WLgxT3D6/u+fLFKYvI=",
+    "originContent": "- cryptography",
+    "translatedContent": "- cryptography"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "9v/+1327PFX5e6YwNC7PUNtSLhvVpeciY8QKI8TyFak=",
+    "originContent": "- zipfile38",
+    "translatedContent": "- zipfile38"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "6g/TeH4gAlvCc/HlstB1hk0Jee/2Sp8PUb/CNGX3k/Q=",
+    "originContent": "- olefile",
+    "translatedContent": "- olefile"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "SP9AkC2TaJQT30cq4Jlh2rhzuCNr9If21lsMuPZbCOE=",
+    "originContent": "- yara-python (version 4.3.0 or higher required)",
+    "translatedContent": "- yara-python (バージョン 4.3.0 以上が必要)"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "xyWCxIYbNSiFj/6UXMarmTlby7oDNvAUVdGuneUrlOA=",
+    "originContent": "- yara",
+    "translatedContent": "- yara"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "Ary5l/1Yh2ed/AQIwALK4/c7my5EtHYNbsMSjAlPYOc=",
+    "originContent": "## Installation from Pypi using pip",
+    "translatedContent": "## pip を使った Pypi からのインストール"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 49,
+    "rowsha": "80HhEgCZJmSZwdAzBIz7Jpq4ZFfXnHIlu1Gb7chZkxo=",
+    "originContent": "pip3 install quicksand",
+    "translatedContent": "pip3 install quicksand"
+  },
+  {
+    "row": 50,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "0+o58g8QcyFFedJCOvqRmpS7g1/HoliV2pmQSU1TUs8=",
+    "originContent": "## Upgrade from Pypi using pip",
+    "translatedContent": "## Upgrade from Pypi using pip"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 56,
+    "rowsha": "AQNqSM4tKDkjYR5Wk6b80RzHJQ4mYeyoxo09V1KHqi4=",
+    "originContent": "pip3 install --upgrade quicksand",
+    "translatedContent": "pip3 install --upgrade quicksand"
+  },
+  {
+    "row": 57,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "lWhh/rtO8/DKGaZoS9zOuHs077UyUFpErsX6uiS1378=",
+    "originContent": "## Install from source",
+    "translatedContent": "## ソースからのインストール"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "6b669oOUYli1gVXIjRBm7dyY3ro4vKAUU4cAP+SQxbU=",
+    "originContent": "If you want to install from the source, such as the uicksand-main.zip downloaded from GitHub:",
+    "translatedContent": "GitHubからダウンロードしたuicksand-main.zipのようなソースからインストールしたい場合："
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 64,
+    "rowsha": "Cp22Py8CCmpV17RuDdSrthGlqwYxT2M0Mh+LscDchO4=",
+    "originContent": "pip3 install quicksand-main.zip",
+    "translatedContent": "pip3 install quicksand-main.zip"
+  },
+  {
+    "row": 65,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## コマンドラインの使い方"
+  },
+  {
+    "row": 68,
+    "rowsha": "Iw8AAWxE6DzA9KNJRXdmpxAAPxVSLyArDk7Ztc9CKII=",
+    "originContent": "## Command Line Usage",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "quicksand用のコマンドラインツールで、jsonまたはtxtの結果を処理して出力します。"
+  },
+  {
+    "row": 70,
+    "rowsha": "8vohKbHC0eZCHdj4fvmdGcpsA22r9rVNmP6NpG/5ct8=",
+    "originContent": "A command line tool for quicksand to process and output json or txt results.",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 73,
+    "rowsha": "GL6hY3s2dJ75bO3XmO63ExFiDR5/RxNGptArPnFx/5Y=",
+    "originContent": "usage: quicksand [-h] [-v] [-c] [-y] [-t TIMEOUT] [-e EXPLOIT] [-x EXE] [-a PDF] [-f {json,txt}] [-o OUT] [-p PASSWORD]",
+    "translatedContent": "usage: quicksand [-h] [-v] [-c] [-y] [-t TIMEOUT] [-e EXPLOIT] [-x EXE] [-a PDF] [-f {json,txt}] [-o OUT] [-p PASSWORD]"
+  },
+  {
+    "row": 74,
+    "rowsha": "y8pCe2LAZkny8fhEWs/tpn5O9k62jWOXWtHqxXewdGk=",
+    "originContent": "                 [-d DROPDIR]",
+    "translatedContent": "                 [-d DROPDIR]"
+  },
+  {
+    "row": 75,
+    "rowsha": "xRm+VDOKABsBAI27FxUsDA6jLH0AEMQL1f11OghjuBE=",
+    "originContent": "                 document",
+    "translatedContent": "                 document"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "dZeCpIZfLrYKSvNuaVAv3wPLHMj14bLIXidqsJGQPb4=",
+    "originContent": "QuickSand Document and PDF maldoc analysis tool.",
+    "translatedContent": "QuickSand Document and PDF maldoc analysis tool."
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "GrDHfJnEgQJVyPzomW5CpYeIaEQ0qO894Tu4h4G1XxE=",
+    "originContent": "positional arguments:",
+    "translatedContent": "positional arguments:"
+  },
+  {
+    "row": 80,
+    "rowsha": "TQRRMzNEnqOcAOrlsR4ORj6E+XYdxBe6YM+Ducm6XWM=",
+    "originContent": "  document              document or directory to scan",
+    "translatedContent": "  document              document or directory to scan"
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "32XlRrxXV32ZWwgnoGyJBkmVXUm6Hl6Qz6XsGg6Tomg=",
+    "originContent": "optional arguments:",
+    "translatedContent": "optional arguments:"
+  },
+  {
+    "row": 83,
+    "rowsha": "Oyu3AhN8A0G0Zoh6z/rFKUnhbT8d+SKxzTGxF5pIhN8=",
+    "originContent": "  -h, --help            show this help message and exit",
+    "translatedContent": "  -h, --help            show this help message and exit"
+  },
+  {
+    "row": 84,
+    "rowsha": "umEXLK5qDXF9blq6IvcbsqNDiGiZFkBlRS9VNikPuDc=",
+    "originContent": "  -v, --verbose         increase output verbosity",
+    "translatedContent": "  -v, --verbose         increase output verbosity"
+  },
+  {
+    "row": 85,
+    "rowsha": "TR6jDrRRbSiGDjPe55VDOw+uoS9oJhrtKFXJvdU2mGI=",
+    "originContent": "  -c, --capture         capture stream content",
+    "translatedContent": "  -c, --capture         capture stream content"
+  },
+  {
+    "row": 86,
+    "rowsha": "dYPb44mxaPUKjtvLp731e5pnGvtnW7t/w70ciaWvVZg=",
+    "originContent": "  -y, --yara            capture yara matched strings",
+    "translatedContent": "  -y, --yara            capture yara matched strings"
+  },
+  {
+    "row": 87,
+    "rowsha": "cudsjoLkXgbJohQGYMWEg6Eht8bNGiGQziAW+Lb1yXo=",
+    "originContent": "  -t TIMEOUT, --timeout TIMEOUT",
+    "translatedContent": "  -t TIMEOUT, --timeout TIMEOUT"
+  },
+  {
+    "row": 88,
+    "rowsha": "Ko9Lgn9iAHG6SywHDH1Py81IDDLjRUZEJK8uogw10ww=",
+    "originContent": "                        timeout in seconds",
+    "translatedContent": "                        timeout in seconds"
+  },
+  {
+    "row": 89,
+    "rowsha": "OjXFR8fOL5BYtrO/UmrtBUynVwzdMJQmQuWgJaRZDW4=",
+    "originContent": "  -e EXPLOIT, --exploit EXPLOIT",
+    "translatedContent": "  -e EXPLOIT, --exploit EXPLOIT"
+  },
+  {
+    "row": 90,
+    "rowsha": "ypMRzKpGq/MwfKS7uE1ZKSkdPL7fZQplhJKF7lbTojs=",
+    "originContent": "                        yara exploit signatures",
+    "translatedContent": "                        yara exploit signatures"
+  },
+  {
+    "row": 91,
+    "rowsha": "ByZ03UC2+uENS+6haAdvilgkzv0PWiFEFFe3d42YrDU=",
+    "originContent": "  -x EXE, --exe EXE     yara executable signatures",
+    "translatedContent": "  -x EXE, --exe EXE     yara executable signatures"
+  },
+  {
+    "row": 92,
+    "rowsha": "BZaIIue+J1OQnOXO/3RjOZuS6n8jioRZB2gh7Rcnkco=",
+    "originContent": "  -a PDF, --pdf PDF     yara PDF signatures",
+    "translatedContent": "  -a PDF, --pdf PDF     yara PDF signatures"
+  },
+  {
+    "row": 93,
+    "rowsha": "5P44MzDGE7aQFn8s6aEUU+MRCXg8nYTMCimO9v4p4cM=",
+    "originContent": "  -f {json,txt}, --format {json,txt}",
+    "translatedContent": "  -f {json,txt}, --format {json,txt}"
+  },
+  {
+    "row": 94,
+    "rowsha": "bS4n4GefzPnHtQuWAz0HJJ6d/apcNYpipWQTSFxstRA=",
+    "originContent": "                        output format",
+    "translatedContent": "                        output format"
+  },
+  {
+    "row": 95,
+    "rowsha": "9iUQWtlKFmeMu19YmI0Yt5tF5gHxkFL605PMOz/PM+8=",
+    "originContent": "  -o OUT, --out OUT     save output to this filename",
+    "translatedContent": "  -o OUT, --out OUT     save output to this filename"
+  },
+  {
+    "row": 96,
+    "rowsha": "3q1FQhMWM/aHsMid+pQOysvokqXAyw1vN1I44Tvt/ak=",
+    "originContent": "  -p PASSWORD, --password PASSWORD",
+    "translatedContent": "  -p PASSWORD, --password PASSWORD"
+  },
+  {
+    "row": 97,
+    "rowsha": "24gC4eDFm2AhVkbmF5UECIXtvfSmojqZF8LZojZL9vc=",
+    "originContent": "                        password to decrypt ole or pdf",
+    "translatedContent": "                        password to decrypt ole or pdf"
+  },
+  {
+    "row": 98,
+    "rowsha": "fNxe0/xv6fuYZce8fJ1bi76898da90ig7w4tQDrsyfg=",
+    "originContent": "  -d DROPDIR, --dropdir DROPDIR",
+    "translatedContent": "  -d DROPDIR, --dropdir DROPDIR"
+  },
+  {
+    "row": 99,
+    "rowsha": "kcGQBIMB5NQzOLcUkRbLakGmT9bcoTZpqSKc0StR/WA=",
+    "originContent": "                        save objects to this directory",
+    "translatedContent": "                        save objects to this directory"
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "vwR9/BzbM7eYFfOckaAlNashvebFh5lWIU0gBWB1wwc=",
+    "originContent": "### Process a single file",
+    "translatedContent": "### 単一ファイルの処理"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 106,
+    "rowsha": "K+xLlyafypurnfwZc4tvnBKpYq6S2790ZmARJmkCjU0=",
+    "originContent": "quicksand document.doc",
+    "translatedContent": "quicksand document.doc"
+  },
+  {
+    "row": 107,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "n2tJXZlZjxZsN3SDSuSUyNLDNgM9CRGaMoC5W3HAjWw=",
+    "originContent": "### Process a directory of files",
+    "translatedContent": "### ファイルのディレクトリを処理する"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 112,
+    "rowsha": "4lR8Wzk/zn/Y4hI5e9T4DhLHAVljG5hyzK0uo9c2iHw=",
+    "originContent": "quicksand malware/",
+    "translatedContent": "quicksand malware/"
+  },
+  {
+    "row": 113,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "AVxRYFptavDVa9yufOEz8X5cu+7EYSVDPP90AZvkmH8=",
+    "originContent": "## Python Module Usage",
+    "translatedContent": "## Python モジュールの使用方法"
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "sojXpCGeWwS6f7mZc+6tSOzFqKRx4pws3sb0WTqi1iw=",
+    "originContent": "### File from memory",
+    "translatedContent": "### メモリからのファイル読み込み"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 121,
+    "rowsha": "a63UUAQSR44K3u/cGfsI3F6RQvgl+24FTNZt00YykrQ=",
+    "originContent": "from quicksand.quicksand import quicksand",
+    "translatedContent": "from quicksand.quicksand import quicksand"
+  },
+  {
+    "row": 122,
+    "rowsha": "FnHbX5+RZj8Zwpg6q7gUuyLGD87djh8cALCS1qaGZJk=",
+    "originContent": "import pprint",
+    "translatedContent": "import pprint"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "1micdljy8MkI8rlZsA5yFMBKSIRE1Bn3a7vQeEOpzDk=",
+    "originContent": "qs = quicksand(data, timeout=18, strings=True)",
+    "translatedContent": "qs = quicksand(data, timeout=18, strings=True)"
+  },
+  {
+    "row": 125,
+    "rowsha": "xzeS9MLyd1aD1vnL87ux/kAeIUVi3msRZ/blhnKtA8k=",
+    "originContent": "qs.process()",
+    "translatedContent": "qs.process()"
+  },
+  {
+    "row": 126,
+    "rowsha": "jPN4vSebiOd7HnMbbAlVvZqHaEEbec4yL+qpehBZrqc=",
+    "originContent": "pprint.pprint(qs.results)",
+    "translatedContent": "pprint.pprint(qs.results)"
+  },
+  {
+    "row": 127,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "5bEQ7+1iWQSn0ni4EYy3PVz6RiMhA1BhEDZpcdl3quw=",
+    "originContent": "### Processing using a filename",
+    "translatedContent": "### ファイル名を使用した処理"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 132,
+    "rowsha": "a63UUAQSR44K3u/cGfsI3F6RQvgl+24FTNZt00YykrQ=",
+    "originContent": "from quicksand.quicksand import quicksand",
+    "translatedContent": "from quicksand.quicksand import quicksand"
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "BBg/HJ4oVXT/s3Qn755nJOywRDBEzmymP83CB9KIX3g=",
+    "originContent": "qs2 = quicksand(\"file.doc\")",
+    "translatedContent": "qs2 = quicksand(\"file.doc\")"
+  },
+  {
+    "row": 135,
+    "rowsha": "MKEhfwFZGBxZ0mpeT/m/R6fDk2CVv8GpHLGCTLZ9DxE=",
+    "originContent": "qs2.process()",
+    "translatedContent": "qs2.process()"
+  },
+  {
+    "row": 136,
+    "rowsha": "Y6oSk0QU8CFKUWuxv+3Uj97qBtXgvct/cEhElEgaDk8=",
+    "originContent": "qs.results",
+    "translatedContent": "qs.results"
+  },
+  {
+    "row": 137,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "2LFD5e2qMD7STcybTxt0FAiClGzVhmEOSg39PBosJwY=",
+    "originContent": "### Process a Directory",
+    "translatedContent": "### ディレクトリを処理する"
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 142,
+    "rowsha": "a63UUAQSR44K3u/cGfsI3F6RQvgl+24FTNZt00YykrQ=",
+    "originContent": "from quicksand.quicksand import quicksand",
+    "translatedContent": "from quicksand.quicksand import quicksand"
+  },
+  {
+    "row": 143,
+    "rowsha": "BkMBSBl3LChghby/qhqnlI2gT54NaWe2Odaak0ia3XI=",
+    "originContent": "qs = quicksand.readDir(\"malware\")",
+    "translatedContent": "qs = quicksand.readDir(\"malware\")"
+  },
+  {
+    "row": 144,
+    "rowsha": "NRVz2NXQgBAUbHS77HrVbZtq6kPspwOEjgpWBF8n7pM=",
+    "originContent": "qs",
+    "translatedContent": "qs"
+  },
+  {
+    "row": 145,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 146,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "ファイル名をキー、`qs_results`を値とする辞書を返します。"
+  },
+  {
+    "row": 147,
+    "rowsha": "DfCBOCLqL4UEVnXIXKYP7iDiuUx7lF8BVCbSyOj92co=",
+    "originContent": "Returns a dictionary of {filename: `qs_results`,...}.",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### オプショナルな初期化値"
+  },
+  {
+    "row": 150,
+    "rowsha": "BdSurr1TatAO/pNXiX5ze3UtD8A2gN+42goUm9L4Z6I=",
+    "originContent": "### Optional initializer values",
+    "translatedContent": ""
+  },
+  {
+    "row": 151,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- capture: True|False 抽出されたストリームの内容を返す"
+  },
+  {
+    "row": 152,
+    "rowsha": "j08/7BTgl9Znau/YyQOyDIgw/b/pvCwaaoblBAsxU0Y=",
+    "originContent": "- capture: True|False return content of extracted streams",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- debug: True|False デバッグメッセージを標準出力に表示する"
+  },
+  {
+    "row": 154,
+    "rowsha": "2Hb/w0TxZw0nUuO3m0t6oTa6qtpSGOGq4JbB00PcoBo=",
+    "originContent": "- debug: True|False print debugging messages to stdout",
+    "translatedContent": ""
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- exploityara: エクスプロイト用Yaraルールのパス"
+  },
+  {
+    "row": 156,
+    "rowsha": "5S1F/N8mUgOr/7PXZBS0yx52ZuD940Jonmt/9dT5i7o=",
+    "originContent": "- exploityara: Path to exploit yara rules",
+    "translatedContent": ""
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- execyara: 実行可能ファイル用Yaraルールのパス"
+  },
+  {
+    "row": 158,
+    "rowsha": "utk3GTxuTX8iud8qREMn0yhsK0iLIoAg/23ao9dEf4U=",
+    "originContent": "- execyara: Path to executable yara rules",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- pdfyara: PDFエクスプロイト用Yaraルール"
+  },
+  {
+    "row": 160,
+    "rowsha": "L9j/Mkr8UWIAmKC7FUf+R5wKOu+4IeXjVlbeTvdr8lw=",
+    "originContent": "- pdfyara: PDF Exploits yara rules",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- password: 暗号化されたドキュメント/PDFのパスワード"
+  },
+  {
+    "row": 162,
+    "rowsha": "I08f+7X4RFQ+C3bYt8Iqzm3QPZBj0BX05TI53mvISjY=",
+    "originContent": "- password: Password for encrypted documents/PDFs",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- timeout: 処理のタイムアウト：0で無制限"
+  },
+  {
+    "row": 164,
+    "rowsha": "ciIRA/xXOpqBE+knNH1lQN1RRAgFgL4b54BNDx2YpbU=",
+    "originContent": "- timeout: Timeout processing: 0 for unlimited.",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 166,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## スコアリング"
+  },
+  {
+    "row": 167,
+    "rowsha": "HuMAiH1eunM9sBag0a6QQRknX0dNEsJw5rUbzATV4qA=",
+    "originContent": "## Scoring",
+    "translatedContent": ""
+  },
+  {
+    "row": 168,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "ドキュメントは関連するYaraシグネチャのメタデータ内のランク値に基づいてスコアリングされます。"
+  },
+  {
+    "row": 169,
+    "rowsha": "N7uYeY62GwlnAaKjuvwpopJlUaTOtg7M7EFSFd3g3RY=",
+    "originContent": "Documents are scored based on the rank value in the associated Yara signature metadata. ",
+    "translatedContent": ""
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "加えて、各シグネチャは検出された項目がエクスプロイト、警告、またはリスキーな特徴かどうかを定義します。結果の解釈方法の詳細については、[https://scan.tylabs.com/howto](https://quicksand.io/howto)をご覧ください。"
+  },
+  {
+    "row": 171,
+    "rowsha": "yg/zuYVtIq3C5+g84OD1OJqMIQukPBCB5h+jXVX1yxg=",
+    "originContent": "Additionally, each signature defines whether the detected item is an exploit, a warning or a risky feature. For more information on how to interpret the results, please see [https://scan.tylabs.com/howto](https://quicksand.io/howto).",
+    "translatedContent": ""
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "独自のシグネチャを追加する場合、動作に必要な追加のメタデータを含める必要はありません。"
+  },
+  {
+    "row": 173,
+    "rowsha": "0EUmyuFAiktPE/WHiq/3a2SDPpDSsWLX9AnqZGfOGG4=",
+    "originContent": "If you add your own signatures, they don't need to include the extra metadata to function.",
+    "translatedContent": ""
+  },
+  {
+    "row": 174,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### MacOSのzlib問題"
+  },
+  {
+    "row": 175,
+    "rowsha": "bZKJjsoW0iOnqU6bUmQ73PaIkN8Y+Git7Tpe2b/ekxc=",
+    "originContent": "### zlib issues on MacOS",
+    "translatedContent": ""
+  },
+  {
+    "row": 176,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "MacOSユーザーは、MacOS 10.4以降のOpenSSLヘッダーの欠如により、zlibの問題（PDF FlateDecodeなど）が発生する場合があります。"
+  },
+  {
+    "row": 177,
+    "rowsha": "q/YcCTmCEfE0l6vsdEMtZGESvK1ggc9vgGRwoIQx8Yg=",
+    "originContent": "MacOS users may get zlib issues (PDF FlateDecode etc) due to missing OpenSSL headers since MacOs 10.4.",
+    "translatedContent": ""
+  },
+  {
+    "row": 178,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 179,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 180,
+    "rowsha": "dqytpNKUd03yKIb4Eoa9JPCYJindalTe3lf3C6LfLwk=",
+    "originContent": "zlib.error: Error -3 while decompressing data: unknown compression method",
+    "translatedContent": "zlib.error: Error -3 while decompressing data: unknown compression method"
+  },
+  {
+    "row": 181,
+    "rowsha": "1NdxFbZIPdtpEaRtop48mzWj25VN7L2fE5ogeVLXauQ=",
+    "originContent": "zlib.error: Error -3 while decompressing data: incorrect header check",
+    "translatedContent": "zlib.error: Error -3 while decompressing data: incorrect header check"
+  },
+  {
+    "row": 182,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 183,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 184,
+    "rowsha": "6Wi1VzbfIUzMz6ARuh3zRgbuwFCin+3qAoUe8ISh0ss=",
+    "originContent": "One solution is to install zlib with Brew.sh and reinstall Python 3 using pyenv:",
+    "translatedContent": "一つの解決策は、Brew.shでzlibをインストールし、pyenvを使用してPython 3を再インストールすることです:"
+  },
+  {
+    "row": 185,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 186,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 187,
+    "rowsha": "HatIl6wvQ14bEH1Ey7M5YlI8DOZzLLBSXetVOpk0afQ=",
+    "originContent": "export LDFLAGS=\"-L/usr/local/opt/zlib/lib\"",
+    "translatedContent": "export LDFLAGS=\"-L/usr/local/opt/zlib/lib\""
+  },
+  {
+    "row": 188,
+    "rowsha": "XLm8iJGQktcLB8IL9mlDvwtgjmMfKuovZeKtVXo0SjA=",
+    "originContent": "export CPPFLAGS=\"-I/usr/local/opt/zlib/include\"",
+    "translatedContent": "export CPPFLAGS=\"-I/usr/local/opt/zlib/include\""
+  },
+  {
+    "row": 189,
+    "rowsha": "J1vciL29R08ABZ1eWTWern36z6z1mXchLyBYlzSKYSU=",
+    "originContent": "pyenv install 3.8.5",
+    "translatedContent": "pyenv install 3.8.5"
+  },
+  {
+    "row": 190,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 191,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 192,
+    "rowsha": "jEedgr1rsc+OfN7xEyemiwgxJIGmi5MDmYpY+KROlqE=",
+    "originContent": "## Using Quicksand?",
+    "translatedContent": "## Quicksandを使っていますか？"
+  },
+  {
+    "row": 193,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 194,
+    "rowsha": "Cxp+wSDt6o0x8PljX+R/k60nASpYqP1YxqFFAlOZQ34=",
+    "originContent": "[Let us know](https://tylabs.com) @tylabs",
+    "translatedContent": "[お知らせください](https://tylabs.com) @tylabs"
+  },
+  {
+    "row": 195,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 196,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 197,
+    "rowsha": "Yy/yxzX4a4qNPgMYwnGzc6FIv+DG73aY5gnRLVynxd0=",
+    "originContent": "## Issues and Project Home",
+    "translatedContent": "## 問題とプロジェクトのホーム"
+  },
+  {
+    "row": 198,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 199,
+    "rowsha": "7ZAxgef74igcTnAgggjzxpTf4lAYEgE1GVcT8nqjoKk=",
+    "originContent": "[QuickSand GitHub](https://github.com/tylabs/quicksand/)",
+    "translatedContent": "[QuickSand GitHub](https://github.com/tylabs/quicksand/)"
+  },
+  {
+    "row": 200,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

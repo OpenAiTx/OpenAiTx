@@ -1,0 +1,806 @@
+[
+  {
+    "row": 1,
+    "rowsha": "7LUHBTxtOxh+Wr71COK9EFhfdpp19kRrzVN8FPtxQNA=",
+    "originContent": "# Reddittui",
+    "translatedContent": "# Reddittui"
+  },
+  {
+    "row": 2,
+    "rowsha": "VE31ZU/WJyWltM+/vUjqLtd+St6PAPenX5AnAxYB9u8=",
+    "originContent": "A lightweight terminal application for browsing Reddit from your command line. Powered by [bubbletea](https://github.com/charmbracelet/bubbletea)",
+    "translatedContent": "A lightweight terminal application for browsing Reddit from your command line. Powered by [bubbletea](https://github.com/charmbracelet/bubbletea)"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## Features"
+  },
+  {
+    "row": 5,
+    "rowsha": "1Vdn3CrU7uFP2I7cUPzjuFA2gJbDtkyTLYIdhcQLpz8=",
+    "originContent": "- **Subreddit Browsing:** Navigate through your favorite subreddits.",
+    "translatedContent": "- **Subreddit Browsing:** Navigate through your favorite subreddits."
+  },
+  {
+    "row": 6,
+    "rowsha": "DJstT9+FvOj76ZhkMRafDExOKLA68AWm/buu7MeuTus=",
+    "originContent": "- **Post Viewing:** Read text posts and comments.",
+    "translatedContent": "- **Post Viewing:** Read text posts and comments."
+  },
+  {
+    "row": 7,
+    "rowsha": "OhopE0qvxptT+hUvidST92UH6KPWCza89x48kVE7ezw=",
+    "originContent": "- **Keyboard Navigation:** Scroll and select posts using vim/standard keyboard shortcuts.",
+    "translatedContent": "- **Keyboard Navigation:** Scroll and select posts using vim/standard keyboard shortcuts."
+  },
+  {
+    "row": 8,
+    "rowsha": "JPim9gOFevq2rsNHsomx37sZsZEj++t8ZxRm2GxHjyo=",
+    "originContent": "- **Configurable**: Customize caching behavior and define subreddit filters using a configuration file",
+    "translatedContent": "- **Configurable**: Customize caching behavior and define subreddit filters using a configuration file"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "h2oCrKgStQ5AZqLJoPmDatCdaUsXI9IiVqg1avCkGaM=",
+    "originContent": "## Demo",
+    "translatedContent": "## Demo"
+  },
+  {
+    "row": 11,
+    "rowsha": "R8J5/Sd77ieRnCp1fBcZHwZbGG+UxsnO6csc+82+mvs=",
+    "originContent": "https://github.com/user-attachments/assets/40d61ef3-3a95-4a26-8c49-bec616f6ae1c",
+    "translatedContent": "https://github.com/user-attachments/assets/40d61ef3-3a95-4a26-8c49-bec616f6ae1c"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Installation"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "R/EH6ijFPuptOa537L0rZ2RPAMjxwxVG8Q3Kmq89R5s=",
+    "originContent": "### Git",
+    "translatedContent": "### Git"
+  },
+  {
+    "row": 16,
+    "rowsha": "YJ9an2nCjbda0JOWCBaxTn5kBQ5lsvAwZCNxWnbuBw0=",
+    "originContent": "#### Prerequisites",
+    "translatedContent": "#### Prerequisites"
+  },
+  {
+    "row": 17,
+    "rowsha": "8heg7Xv9zGlA8PkWEEHLBBjQJcltlQqFxbt6od96dNA=",
+    "originContent": "- **Git**",
+    "translatedContent": "- **Git**"
+  },
+  {
+    "row": 18,
+    "rowsha": "4ygcfhnLLLsub9DfbRh+Xs6iavKvlZKovkFNdi1x2dU=",
+    "originContent": "- **Go:** Version 1.16 or newer",
+    "translatedContent": "- **Go:** Version 1.16 or newer"
+  },
+  {
+    "row": 19,
+    "rowsha": "nw0STd/Xq+VCt0MyF7BO6lljxbAj9OghnuFxnwABxLo=",
+    "originContent": "- **Terminal:** A Unix-like terminal (Linux, macOS, or similar).",
+    "translatedContent": "- **Terminal:** A Unix-like terminal (Linux, macOS, or similar)."
+  },
+  {
+    "row": 20,
+    "rowsha": "BDCnwcUQ3gk/g17MOw4udzY4hP4S6K8ikO3FY8PcE9w=",
+    "originContent": "- **POSIX Utilities:** The `install` command is used for installation, which is available on both Linux and macOS.",
+    "translatedContent": "- **POSIX Utilities:** The `install` command is used for installation, which is available on both Linux and macOS."
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "2A4hOAjKMTJw9jMVb1wtoRXblntVdWCGCclZcsjpTQk=",
+    "originContent": "Clone the repository and run the install script: ",
+    "translatedContent": "Clone the repository and run the install script: "
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 25,
+    "rowsha": "W6JAdSIQtGBmbVl3/KIamxPl/y9qSSnEtQqjgfxDIOc=",
+    "originContent": "git clone https://github.com/tonymajestro/reddit-tui.git reddittui",
+    "translatedContent": "git clone https://github.com/tonymajestro/reddit-tui.git reddittui"
+  },
+  {
+    "row": 26,
+    "rowsha": "KTfEYdfqMnW2gLQo7jPCb7C/aMZsy89pCwpyc/422tQ=",
+    "originContent": "cd reddittui",
+    "translatedContent": "cd reddittui"
+  },
+  {
+    "row": 27,
+    "rowsha": "FV5sP0tiuigCFV2jNEVcdSNNcWDsUhNx+0iMzwYtl9s=",
+    "originContent": "./install.sh",
+    "translatedContent": "./install.sh"
+  },
+  {
+    "row": 28,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "To remove reddittui run the uninstall script:"
+  },
+  {
+    "row": 30,
+    "rowsha": "LTMCkVAks2umv68lZC97RxoY4wqBe7qbf5gapCSBUbM=",
+    "originContent": "To remove reddittui run the uninstall script:",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 33,
+    "rowsha": "bvqilU4lZz7piyvU+Omrly44gJWLRMAAYpbQZva4f4k=",
+    "originContent": "./uninstall.sh",
+    "translatedContent": "./uninstall.sh"
+  },
+  {
+    "row": 34,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "QVBZfxE0tE6Pn2Hh8GuSEVUGoagwO3CMxZzRAnzG5dc=",
+    "originContent": "### Arch",
+    "translatedContent": "### Arch"
+  },
+  {
+    "row": 37,
+    "rowsha": "21LPwVDRMAlcCSDJY+RDbGFKIUNp/4U/uZaNpjoL6VA=",
+    "originContent": "Arch users can install reddittui from the AUR using yay or other AUR helpers.",
+    "translatedContent": "Arch users can install reddittui from the AUR using yay or other AUR helpers."
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "2DUuPYiSA9ZdqKmFMsNDiC7GdVuD3F+HQ1YAPKSGIcU=",
+    "originContent": "[Pre-compiled](https://aur.archlinux.org/packages/reddit-tui-bin) and [source packages](https://aur.archlinux.org/packages/reddit-tui) are available.",
+    "translatedContent": "[Pre-compiled](https://aur.archlinux.org/packages/reddit-tui-bin) and [source packages](https://aur.archlinux.org/packages/reddit-tui) are available."
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 42,
+    "rowsha": "xAIGGNAAsUjFOf/0EE7lA1nzQPfzr4dJ11FcvTnDqMw=",
+    "originContent": "yay -S reddit-tui-bin",
+    "translatedContent": "yay -S reddit-tui-bin"
+  },
+  {
+    "row": 43,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 46,
+    "rowsha": "EI8V5+U34IBczR7mkKBjdvFwgARyKfwfJKRbmS/vfcs=",
+    "originContent": "yay -S reddit-tui",
+    "translatedContent": "yay -S reddit-tui"
+  },
+  {
+    "row": 47,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "HsnHST7bnsOYlHsYhhupKJ1JVnTRKMGC8o2ElSOjtD4=",
+    "originContent": "### Nix",
+    "translatedContent": "### Nix"
+  },
+  {
+    "row": 50,
+    "rowsha": "y+pxrXjTUe1LKIQezGODg6PgpcPd68BrnA+qe6cTE4w=",
+    "originContent": "Nix users can try it in a shell or add it to their system config like this.",
+    "translatedContent": "Nix users can try it in a shell or add it to their system config like this."
+  },
+  {
+    "row": 51,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 52,
+    "rowsha": "hIIXM2Bz5cQDvnUjvNyzgr+v38eQFEbBnwPY8N3Cwkw=",
+    "originContent": "nix-shell -p reddit-tui",
+    "translatedContent": "nix-shell -p reddit-tui"
+  },
+  {
+    "row": 53,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 54,
+    "rowsha": "ZgRihY8BNUF18r3dpZazh5OELh/daPAHGWD6O3hjcs4=",
+    "originContent": "```nix",
+    "translatedContent": "```nix"
+  },
+  {
+    "row": 55,
+    "rowsha": "HHB7TxrjJPPnBb1C+RTqhF4RKWMkJ10hjfFeWNbzuMM=",
+    "originContent": "  environment.systemPackages = [",
+    "translatedContent": "  environment.systemPackages = ["
+  },
+  {
+    "row": 56,
+    "rowsha": "hUNk0rJ7Y/lm8bmHn1nVrnz5c1J4gALe0GI+tFx+vWA=",
+    "originContent": "      pkgs.reddit-tui",
+    "translatedContent": "      pkgs.reddit-tui"
+  },
+  {
+    "row": 57,
+    "rowsha": "tImqtZ4ozeLhsmXcaeSs+CDJtMeQja3q2UKShiFjM98=",
+    "originContent": "    ];",
+    "translatedContent": "    ];"
+  },
+  {
+    "row": 58,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## Usage"
+  },
+  {
+    "row": 61,
+    "rowsha": "0sfXbADbloCw8BYNrWxZMgTNdBiuFT/ZZjxNzpEeRnU=",
+    "originContent": "Run the installed binary from your preferred terminal:",
+    "translatedContent": "Run the installed binary from your preferred terminal:"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 64,
+    "rowsha": "iAkwP3PleJir7FoEiIBTD/Tw/CzaBqy4Jg9SnuZ+f6Q=",
+    "originContent": "# Open reddittui, navigating to the home page",
+    "translatedContent": "# Open reddittui, navigating to the home page"
+  },
+  {
+    "row": 65,
+    "rowsha": "v219OZaqyMb9BsWrXD9nRogl8/UHr2uzrAWHXCQPFqc=",
+    "originContent": "reddittui",
+    "translatedContent": "reddittui"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "qsWl7EHzjOwwcAozovnoRCRuoH05nd8/FIf3m88gPYc=",
+    "originContent": "# Open reddittui, navigating to a specific subreddit",
+    "translatedContent": "# Open reddittui, navigating to a specific subreddit"
+  },
+  {
+    "row": 68,
+    "rowsha": "nqUsjRpD9fxF3ToyA6sVq37aEYLY0PXglopBTTf+wlk=",
+    "originContent": "reddittui --subreddit dogs",
+    "translatedContent": "reddittui --subreddit dogs"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "CSK6XX21YE8PrsKl1UEe/jIbqvHpGFJTCUojhxdSkhI=",
+    "originContent": "# Open reddittui, navigating to a specific post by its ID",
+    "translatedContent": "# Open reddittui, navigating to a specific post by its ID"
+  },
+  {
+    "row": 71,
+    "rowsha": "wtl7qMooFAxkZERkRfXHbBJlzpIYZSRIffFNRiGEMzc=",
+    "originContent": "reddittui --post 1iyuce4",
+    "translatedContent": "reddittui --post 1iyuce4"
+  },
+  {
+    "row": 72,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "eh0wXwFeE0ZTEIJbv84rG0KbEtFuukb9L60KYgpPFpU=",
+    "originContent": "## Keybindings",
+    "translatedContent": "## Keybindings"
+  },
+  {
+    "row": 75,
+    "rowsha": "z/FHCDijfK1UWSY4C1yBpDMFzmHh8uPQ6Vq5nvsXcv0=",
+    "originContent": "- Navigation",
+    "translatedContent": "- Navigation"
+  },
+  {
+    "row": 76,
+    "rowsha": "R0d0kErOaH+hh07elraGbSjllwX3BBUScv+3pVAYYn8=",
+    "originContent": "  - **h, j, k, l:** Vim movement",
+    "translatedContent": "  - **h, j, k, l:** Vim movement"
+  },
+  {
+    "row": 77,
+    "rowsha": "e6wPRA5ntk8BHPWXDXbQLUy3EKO1XDkD50Yfwpf0Aek=",
+    "originContent": "  - **left, right, up, down:** Normal movement",
+    "translatedContent": "  - **left, right, up, down:** Normal movement"
+  },
+  {
+    "row": 78,
+    "rowsha": "2cRU+hpPVHB6UUi87H9Ttq2BWuP49NGUlBs3AhX+0Rw=",
+    "originContent": "  - **g**: Go to top of page",
+    "translatedContent": "  - **g**: Go to top of page"
+  },
+  {
+    "row": 79,
+    "rowsha": "mjAaydBF1e8CVeVbnARFUksoEfTGqwzJuAqx0QmZXg4=",
+    "originContent": "  - **G**: Go to bottom of page",
+    "translatedContent": "  - **G**: Go to bottom of page"
+  },
+  {
+    "row": 80,
+    "rowsha": "Mw/E9lzScmbGV4yDlHEmbGCXLsYhubN2tLJSa/TGY80=",
+    "originContent": "  - **s**: Switch subreddits",
+    "translatedContent": "  - **s**: Switch subreddits"
+  },
+  {
+    "row": 81,
+    "rowsha": "7quSRKt/CPsPGajvauN99VaBWC5iHwh6zylZkh7T0/c=",
+    "originContent": "- Posts page",
+    "translatedContent": "- Posts page"
+  },
+  {
+    "row": 82,
+    "rowsha": "sKMK69vahfrkzsUb/M4KuTZi2rOseF1OqsJVVyMqg2s=",
+    "originContent": "  - **L**: Load more posts",
+    "translatedContent": "  - **L**: Load more posts"
+  },
+  {
+    "row": 83,
+    "rowsha": "iK6eWmGO2t3Nd+2qTrW5r47oUwPW8ESt6bgCTYmfXh0=",
+    "originContent": "- Comments page",
+    "translatedContent": "- Comments page"
+  },
+  {
+    "row": 84,
+    "rowsha": "M4gnvCJWaFs7cJJaab+mo97A4g+09rLAqm47rI/9350=",
+    "originContent": "  - **o**: Open post link in browser",
+    "translatedContent": "  - **o**: Open post link in browser"
+  },
+  {
+    "row": 85,
+    "rowsha": "5PFN4EFh4d8gyOKX73Zvgu/gDSlwtl12zTY+6SvmtuU=",
+    "originContent": "  - **c**: Collapse comments",
+    "translatedContent": "  - **c**: Collapse comments"
+  },
+  {
+    "row": 86,
+    "rowsha": "Byo7uTY1F615FM8u/xdPW/mh/q1qU7PHKx1Xt0TeTwo=",
+    "originContent": "- Misc",
+    "translatedContent": "- Misc"
+  },
+  {
+    "row": 87,
+    "rowsha": "H+3NZwW9MHGPgvHXBNIrhWRVwzryFooAvInKI/KKmGY=",
+    "originContent": "  - **H:** Go to home page",
+    "translatedContent": "  - **H:** Go to home page"
+  },
+  {
+    "row": 88,
+    "rowsha": "mbS/5VYbEk+RdAGEq6M0GYQuTaUzlneTAmjVmKf7k64=",
+    "originContent": "  - **backspace**: Go back",
+    "translatedContent": "  - **backspace**: Go back"
+  },
+  {
+    "row": 89,
+    "rowsha": "NqrBHZDce4i8PQ01M9SNusUqtuf0CZJxTjwWJguKhRE=",
+    "originContent": "  - **q, esc**: Exit reddittui",
+    "translatedContent": "  - **q, esc**: Exit reddittui"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "41JdOqphTj91Hp9x7TAV9WbCqgfquQhtooXjhu61ddU=",
+    "originContent": "## Configuration files",
+    "translatedContent": "## Configuration files"
+  },
+  {
+    "row": 92,
+    "rowsha": "gWYsGc5fkxAWzJoRtzqmtjMx2HD07W4eo8ZH09zQ2yo=",
+    "originContent": "After running the reddittui binary, the following files will be initialized:",
+    "translatedContent": "After running the reddittui binary, the following files will be initialized:"
+  },
+  {
+    "row": 93,
+    "rowsha": "qDqpEYa4p3LlsSN26ZcTT6Ub4+qcbkbLuU3HAixSd94=",
+    "originContent": "- Configuration file:",
+    "translatedContent": "- Configuration file:"
+  },
+  {
+    "row": 94,
+    "rowsha": "A/tkHOePBu5ndIn/nS5c3JyWFMrjeFfULXV7VZEb7tg=",
+    "originContent": "  - `~/.config/reddittui/reddittui.toml`",
+    "translatedContent": "  - `~/.config/reddittui/reddittui.toml`"
+  },
+  {
+    "row": 95,
+    "rowsha": "He7cSUugxo/1of1PnLa+sejw03kIUi4+rnAZspiwpi8=",
+    "originContent": "- Log file:",
+    "translatedContent": "- Log file:"
+  },
+  {
+    "row": 96,
+    "rowsha": "baF6hTOa/4MeeiLWqgBOQ2CCfU/Vf6JhIjF/r9Z3dsk=",
+    "originContent": "  - `~/.local/state/reddittui.log`",
+    "translatedContent": "  - `~/.local/state/reddittui.log`"
+  },
+  {
+    "row": 97,
+    "rowsha": "OW5GGPRaVDKqeCdx3xukkBfjCl2f9zVjems/B8EI49w=",
+    "originContent": "- Cache",
+    "translatedContent": "- Cache"
+  },
+  {
+    "row": 98,
+    "rowsha": "6zqLVgy6i/BWCngnKCojl5IIK6g20I+OgRIOah1AYo4=",
+    "originContent": "  - `~/.cache/reddittui/`",
+    "translatedContent": "  - `~/.cache/reddittui/`"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "dNPCN+COr2njx1CUQV0wSgCJ3BbdteYr1peTCnaWvU4=",
+    "originContent": "Sample configuration:",
+    "translatedContent": "Sample configuration:"
+  },
+  {
+    "row": 101,
+    "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
+    "originContent": "```toml",
+    "translatedContent": "```toml"
+  },
+  {
+    "row": 102,
+    "rowsha": "q0RCcv5AlgIF9t6O0gMV4gU2ZFHvDPicBmnHjGWiTIE=",
+    "originContent": "# Core configuration",
+    "translatedContent": "# Core configuration"
+  },
+  {
+    "row": 103,
+    "rowsha": "JqPOC9s7wuLnMzdxrh64CqjDf+FsvJ8YCUQ1gQsimts=",
+    "originContent": "[core]",
+    "translatedContent": "[core]"
+  },
+  {
+    "row": 104,
+    "rowsha": "i7PuOPIMWBaVM5/uCOJrSx9Ojb9YurAcu4hxAXIdEQ8=",
+    "originContent": "bypassCache = false",
+    "translatedContent": "bypassCache = false"
+  },
+  {
+    "row": 105,
+    "rowsha": "xScXt4S5DeI+y1BknRvRXjoui98JFE59lne/ygixpoA=",
+    "originContent": "logLevel = \"Warn\"",
+    "translatedContent": "logLevel = \"Warn\""
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "2hoq2fHPZf8iYZ9vqX+75Lym7gjyp49SVXt5aK6kPJk=",
+    "originContent": "# Filter out posts containing keywords or belonging to certain subreddits",
+    "translatedContent": "# Filter out posts containing keywords or belonging to certain subreddits"
+  },
+  {
+    "row": 108,
+    "rowsha": "tCszINdd/JkbN8QsX4m8TjrE6gN21oXy91OYj9ATFdc=",
+    "originContent": "[filter]",
+    "translatedContent": "[filter]"
+  },
+  {
+    "row": 109,
+    "rowsha": "1gajCMt4XhabIiGg0iLB6WAfQ53Z4VeTOZsGVFUQLXQ=",
+    "originContent": "subreddits = [\"news\", \"politics\"]",
+    "translatedContent": "subreddits = [\"news\", \"politics\"]"
+  },
+  {
+    "row": 110,
+    "rowsha": "bj79WK8AalC+5I5X8XN8neq7LRmT5OhHbCk0jnVyzE4=",
+    "originContent": "keywords = [\"pizza\", \"pineapple\"]",
+    "translatedContent": "keywords = [\"pizza\", \"pineapple\"]"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "WoFppHNYlEmdP3hsmbKBv6ng8GkqCXMTc4M5Vhk+R+k=",
+    "originContent": "# Configure client timeout and cache TTL. By default, subreddit posts and comments are cached for 1 hour.",
+    "translatedContent": "# Configure client timeout and cache TTL. By default, subreddit posts and comments are cached for 1 hour."
+  },
+  {
+    "row": 113,
+    "rowsha": "C9y/Fume54raasZBxGqEF9wEoZ6YEmtnxIsbtyvP1bA=",
+    "originContent": "[client]",
+    "translatedContent": "[client]"
+  },
+  {
+    "row": 114,
+    "rowsha": "2qdXx0Lc/V5VzjHzBlG/crpcWFRLOStBOSPa2ELeVKM=",
+    "originContent": "timeoutSeconds = 10",
+    "translatedContent": "timeoutSeconds = 10"
+  },
+  {
+    "row": 115,
+    "rowsha": "bXRV3BrQnGa+gfYBfCwtdpUIK94HddJQCfxOz0pQafw=",
+    "originContent": "cacheTtlSeconds = 3600",
+    "translatedContent": "cacheTtlSeconds = 3600"
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "QKBPl3GOSwc8qkCNELFFmIw8LWxcUXms2yXUTDWEXUU=",
+    "originContent": "# Configure which reddit server to use. Default is old.reddit.com but redlib servers are also supported",
+    "translatedContent": "# Configure which reddit server to use. Default is old.reddit.com but redlib servers are also supported"
+  },
+  {
+    "row": 118,
+    "rowsha": "gTxVIwLU7BiSM1kVG63K282eoTx9sSHQnUFW+xc9SpQ=",
+    "originContent": "[server]",
+    "translatedContent": "[server]"
+  },
+  {
+    "row": 119,
+    "rowsha": "ua76MdcNn5MaKG7Q6tqIIFmz8b0GGhXbuZzdl4jNtUU=",
+    "originContent": "domain = \"old.reddit.com\"",
+    "translatedContent": "domain = \"old.reddit.com\""
+  },
+  {
+    "row": 120,
+    "rowsha": "20gMQ3HH8hTv3eBcShMeibOt9qmXxszRpziBvNJQ9OA=",
+    "originContent": "type = \"old\"",
+    "translatedContent": "type = \"old\""
+  },
+  {
+    "row": 121,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "1W3gMQRgx4uws4NzIowLBKbJOcPrsfhFFXy+aGGAHP0=",
+    "originContent": "## Redlib",
+    "translatedContent": "## Redlib"
+  },
+  {
+    "row": 124,
+    "rowsha": "0oGXAhdgeUKNFMCZ6v391V5Eph0YA2qMHtKxRkYuYfY=",
+    "originContent": "For enhanced privacy, private [Redlib backends](https://github.com/redlib-org/redlib) are supported. A list of Redlib servers can be found [here](https://github.com/redlib-org/redlib-instances/blob/main/instances.json). Use the following configuration to use a Redlib server instead of old.reddit.com:",
+    "translatedContent": "For enhanced privacy, private [Redlib backends](https://github.com/redlib-org/redlib) are supported. A list of Redlib servers can be found [here](https://github.com/redlib-org/redlib-instances/blob/main/instances.json). Use the following configuration to use a Redlib server instead of old.reddit.com:"
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
+    "originContent": "```toml",
+    "translatedContent": "```toml"
+  },
+  {
+    "row": 127,
+    "rowsha": "gTxVIwLU7BiSM1kVG63K282eoTx9sSHQnUFW+xc9SpQ=",
+    "originContent": "[server]",
+    "translatedContent": "[server]"
+  },
+  {
+    "row": 128,
+    "rowsha": "/Ejti8KCLW9G+L6jqEIkpdZELUPU7uCICGhJFyO1yXo=",
+    "originContent": "domain = \"safereddit.com\"",
+    "translatedContent": "domain = \"safereddit.com\""
+  },
+  {
+    "row": 129,
+    "rowsha": "OTA/egr7MjOx2BKQ3zSICp21h9BZRt5ka5AlCTLFHKk=",
+    "originContent": "type = \"redlib\"",
+    "translatedContent": "type = \"redlib\""
+  },
+  {
+    "row": 130,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "N66ywbuGccMYNTyswaMSnFOlWqX+iaYP/myGJqr1tHo=",
+    "originContent": "## Acknowledgments",
+    "translatedContent": "## Acknowledgments"
+  },
+  {
+    "row": 133,
+    "rowsha": "YunNY30X4gRUHjj1A1OjTWvr6hDn/MW5ulfwZoxKQnI=",
+    "originContent": "Reddittui is based on the [bubbletea](https://github.com/charmbracelet/bubbletea) framework. It also takes inspiration from [circumflex](https://github.com/bensadeh/circumflex), a hackernews terminal browser.",
+    "translatedContent": "Reddittui is based on the [bubbletea](https://github.com/charmbracelet/bubbletea) framework. It also takes inspiration from [circumflex](https://github.com/bensadeh/circumflex), a hackernews terminal browser."
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

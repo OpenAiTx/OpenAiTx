@@ -1,0 +1,1040 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Reddittui\nA lightweight terminal application for browsing Reddit from your command line. Powered by [bubbletea](https://github.com/charmbracelet/bubbletea)\n\n## Features\n- **Subreddit Browsing:** Navigate through your favorite subreddits.\n- **Post Viewing:** Read text posts and comments.\n- **Keyboard Navigation:** Scroll and select posts using vim/standard keyboard shortcuts.\n- **Configurable**: Customize caching behavior and define subreddit filters using a configuration file\n\n## Demo\nhttps://github.com/user-attachments/assets/40d61ef3-3a95-4a26-8c49-bec616f6ae1c\n\n## Installation\n\n### Git\n#### Prerequisites\n- **Git**\n- **Go:** Version 1.16 or newer\n- **Terminal:** A Unix-like terminal (Linux, macOS, or similar).\n- **POSIX Utilities:** The `install` command is used for installation, which is available on both Linux and macOS.\n\nClone the repository and run the install script: \n",
+    "ContentSha": "/CWExgtKpiTJ2D2DZXumgAWfrmfz6x5GgMGqB7bzaq8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Reddittui\n一个轻量级的终端应用程序，用于从命令行浏览 Reddit。由 [bubbletea](https://github.com/charmbracelet/bubbletea) 提供支持\n\n## 功能\n- **子版块浏览:** 浏览你喜欢的子版块。\n- **帖子查看:** 阅读文本帖子和评论。\n- **键盘导航:** 使用 vim/标准键盘快捷键滚动和选择帖子。\n- **可配置:** 通过配置文件自定义缓存行为和定义子版块过滤器\n\n## 演示\nhttps://github.com/user-attachments/assets/40d61ef3-3a95-4a26-8c49-bec616f6ae1c\n\n## 安装\n\n### Git\n#### 前提条件\n- **Git**\n- **Go:** 版本 1.16 或更高\n- **终端:** 类 Unix 终端（Linux、macOS 或类似系统）。\n- **POSIX 工具:** 安装过程中使用了 `install` 命令，该命令在 Linux 和 macOS 上均可用。\n\n克隆仓库并运行安装脚本： \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7LUHBTxtOxh+Wr71COK9EFhfdpp19kRrzVN8FPtxQNA=",
+        "originContent": "# Reddittui",
+        "translatedContent": "# Reddittui"
+      },
+      {
+        "row": 2,
+        "rowsha": "VE31ZU/WJyWltM+/vUjqLtd+St6PAPenX5AnAxYB9u8=",
+        "originContent": "A lightweight terminal application for browsing Reddit from your command line. Powered by [bubbletea](https://github.com/charmbracelet/bubbletea)",
+        "translatedContent": "一个轻量级的终端应用程序，用于从命令行浏览 Reddit。由 [bubbletea](https://github.com/charmbracelet/bubbletea) 提供支持"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 功能"
+      },
+      {
+        "row": 5,
+        "rowsha": "1Vdn3CrU7uFP2I7cUPzjuFA2gJbDtkyTLYIdhcQLpz8=",
+        "originContent": "- **Subreddit Browsing:** Navigate through your favorite subreddits.",
+        "translatedContent": "- **子版块浏览:** 浏览你喜欢的子版块。"
+      },
+      {
+        "row": 6,
+        "rowsha": "DJstT9+FvOj76ZhkMRafDExOKLA68AWm/buu7MeuTus=",
+        "originContent": "- **Post Viewing:** Read text posts and comments.",
+        "translatedContent": "- **帖子查看:** 阅读文本帖子和评论。"
+      },
+      {
+        "row": 7,
+        "rowsha": "OhopE0qvxptT+hUvidST92UH6KPWCza89x48kVE7ezw=",
+        "originContent": "- **Keyboard Navigation:** Scroll and select posts using vim/standard keyboard shortcuts.",
+        "translatedContent": "- **键盘导航:** 使用 vim/标准键盘快捷键滚动和选择帖子。"
+      },
+      {
+        "row": 8,
+        "rowsha": "JPim9gOFevq2rsNHsomx37sZsZEj++t8ZxRm2GxHjyo=",
+        "originContent": "- **Configurable**: Customize caching behavior and define subreddit filters using a configuration file",
+        "translatedContent": "- **可配置:** 通过配置文件自定义缓存行为和定义子版块过滤器"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "h2oCrKgStQ5AZqLJoPmDatCdaUsXI9IiVqg1avCkGaM=",
+        "originContent": "## Demo",
+        "translatedContent": "## 演示"
+      },
+      {
+        "row": 11,
+        "rowsha": "R8J5/Sd77ieRnCp1fBcZHwZbGG+UxsnO6csc+82+mvs=",
+        "originContent": "https://github.com/user-attachments/assets/40d61ef3-3a95-4a26-8c49-bec616f6ae1c",
+        "translatedContent": "https://github.com/user-attachments/assets/40d61ef3-3a95-4a26-8c49-bec616f6ae1c"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## 安装"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "R/EH6ijFPuptOa537L0rZ2RPAMjxwxVG8Q3Kmq89R5s=",
+        "originContent": "### Git",
+        "translatedContent": "### Git"
+      },
+      {
+        "row": 16,
+        "rowsha": "YJ9an2nCjbda0JOWCBaxTn5kBQ5lsvAwZCNxWnbuBw0=",
+        "originContent": "#### Prerequisites",
+        "translatedContent": "#### 前提条件"
+      },
+      {
+        "row": 17,
+        "rowsha": "8heg7Xv9zGlA8PkWEEHLBBjQJcltlQqFxbt6od96dNA=",
+        "originContent": "- **Git**",
+        "translatedContent": "- **Git**"
+      },
+      {
+        "row": 18,
+        "rowsha": "4ygcfhnLLLsub9DfbRh+Xs6iavKvlZKovkFNdi1x2dU=",
+        "originContent": "- **Go:** Version 1.16 or newer",
+        "translatedContent": "- **Go:** 版本 1.16 或更高"
+      },
+      {
+        "row": 19,
+        "rowsha": "nw0STd/Xq+VCt0MyF7BO6lljxbAj9OghnuFxnwABxLo=",
+        "originContent": "- **Terminal:** A Unix-like terminal (Linux, macOS, or similar).",
+        "translatedContent": "- **终端:** 类 Unix 终端（Linux、macOS 或类似系统）。"
+      },
+      {
+        "row": 20,
+        "rowsha": "BDCnwcUQ3gk/g17MOw4udzY4hP4S6K8ikO3FY8PcE9w=",
+        "originContent": "- **POSIX Utilities:** The `install` command is used for installation, which is available on both Linux and macOS.",
+        "translatedContent": "- **POSIX 工具:** 安装过程中使用了 `install` 命令，该命令在 Linux 和 macOS 上均可用。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "2A4hOAjKMTJw9jMVb1wtoRXblntVdWCGCclZcsjpTQk=",
+        "originContent": "Clone the repository and run the install script: ",
+        "translatedContent": "克隆仓库并运行安装脚本： "
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\ngit clone https://github.com/tonymajestro/reddit-tui.git reddittui\ncd reddittui\n./install.sh\n```",
+    "ContentSha": "F3thXLyfNjQtCvMdrg5v6p01D3yLDf31rU+Kr2FCnkY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/tonymajestro/reddit-tui.git reddittui\ncd reddittui\n./install.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "W6JAdSIQtGBmbVl3/KIamxPl/y9qSSnEtQqjgfxDIOc=",
+        "originContent": "git clone https://github.com/tonymajestro/reddit-tui.git reddittui",
+        "translatedContent": "git clone https://github.com/tonymajestro/reddit-tui.git reddittui"
+      },
+      {
+        "row": 3,
+        "rowsha": "KTfEYdfqMnW2gLQo7jPCb7C/aMZsy89pCwpyc/422tQ=",
+        "originContent": "cd reddittui",
+        "translatedContent": "cd reddittui"
+      },
+      {
+        "row": 4,
+        "rowsha": "FV5sP0tiuigCFV2jNEVcdSNNcWDsUhNx+0iMzwYtl9s=",
+        "originContent": "./install.sh",
+        "translatedContent": "./install.sh"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nTo remove reddittui run the uninstall script:\n",
+    "ContentSha": "sEmcWSr18MzeWM+MYRIZIe65ZBB+QXS4YcxCsumG9mI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "要移除 reddittui，请运行卸载脚本：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "要移除 reddittui，请运行卸载脚本："
+      },
+      {
+        "row": 2,
+        "rowsha": "LTMCkVAks2umv68lZC97RxoY4wqBe7qbf5gapCSBUbM=",
+        "originContent": "To remove reddittui run the uninstall script:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\n./uninstall.sh\n```",
+    "ContentSha": "57s4Zyt/v0pmqvXLL8Mx7+WEJhwP8z+CFIfheyFozGM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n./uninstall.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "bvqilU4lZz7piyvU+Omrly44gJWLRMAAYpbQZva4f4k=",
+        "originContent": "./uninstall.sh",
+        "translatedContent": "./uninstall.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Arch\nArch users can install reddittui from the AUR using yay or other AUR helpers.\n\n[Pre-compiled](https://aur.archlinux.org/packages/reddit-tui-bin) and [source packages](https://aur.archlinux.org/packages/reddit-tui) are available.\n",
+    "ContentSha": "sGKA6Xbp1WXL6UZD90uf3UCGLuim2vJRG2S04l4HyOI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Arch\nArch 用户可以使用 yay 或其他 AUR 助手从 AUR 安装 reddittui。\n\n提供了[预编译包](https://aur.archlinux.org/packages/reddit-tui-bin)和[源码包](https://aur.archlinux.org/packages/reddit-tui)。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "QVBZfxE0tE6Pn2Hh8GuSEVUGoagwO3CMxZzRAnzG5dc=",
+        "originContent": "### Arch",
+        "translatedContent": "### Arch"
+      },
+      {
+        "row": 3,
+        "rowsha": "21LPwVDRMAlcCSDJY+RDbGFKIUNp/4U/uZaNpjoL6VA=",
+        "originContent": "Arch users can install reddittui from the AUR using yay or other AUR helpers.",
+        "translatedContent": "Arch 用户可以使用 yay 或其他 AUR 助手从 AUR 安装 reddittui。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "2DUuPYiSA9ZdqKmFMsNDiC7GdVuD3F+HQ1YAPKSGIcU=",
+        "originContent": "[Pre-compiled](https://aur.archlinux.org/packages/reddit-tui-bin) and [source packages](https://aur.archlinux.org/packages/reddit-tui) are available.",
+        "translatedContent": "提供了[预编译包](https://aur.archlinux.org/packages/reddit-tui-bin)和[源码包](https://aur.archlinux.org/packages/reddit-tui)。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\nyay -S reddit-tui-bin\n```",
+    "ContentSha": "FXvrq9vxP6oSmznojZMxzhV0gWgUb/e+Lt1OLN/WkP8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nyay -S reddit-tui-bin\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "xAIGGNAAsUjFOf/0EE7lA1nzQPfzr4dJ11FcvTnDqMw=",
+        "originContent": "yay -S reddit-tui-bin",
+        "translatedContent": "yay -S reddit-tui-bin"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\nyay -S reddit-tui\n```",
+    "ContentSha": "LjYp3glnmwOFZKteUe11Sap7+8/cwcY/mPNWFyQIUrs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nyay -S reddit-tui\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "EI8V5+U34IBczR7mkKBjdvFwgARyKfwfJKRbmS/vfcs=",
+        "originContent": "yay -S reddit-tui",
+        "translatedContent": "yay -S reddit-tui"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n### Nix\nNix users can try it in a shell or add it to their system config like this.",
+    "ContentSha": "WW3icfpP8w+pKDN/iZnCoQwhYUR9y4YtQUVeMdehIQY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Nix\nNix 用户可以在 shell 中尝试，或像这样将其添加到系统配置中。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "HsnHST7bnsOYlHsYhhupKJ1JVnTRKMGC8o2ElSOjtD4=",
+        "originContent": "### Nix",
+        "translatedContent": "### Nix"
+      },
+      {
+        "row": 3,
+        "rowsha": "y+pxrXjTUe1LKIQezGODg6PgpcPd68BrnA+qe6cTE4w=",
+        "originContent": "Nix users can try it in a shell or add it to their system config like this.",
+        "translatedContent": "Nix 用户可以在 shell 中尝试，或像这样将其添加到系统配置中。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\nnix-shell -p reddit-tui\n```",
+    "ContentSha": "f/YFm9w2HT97V38ms887hq9MVv2INJSoKTg1+hTvPz4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnix-shell -p reddit-tui\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "hIIXM2Bz5cQDvnUjvNyzgr+v38eQFEbBnwPY8N3Cwkw=",
+        "originContent": "nix-shell -p reddit-tui",
+        "translatedContent": "nix-shell -p reddit-tui"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "```nix\n  environment.systemPackages = [\n      pkgs.reddit-tui\n    ];\n```",
+    "ContentSha": "yRKjBIygGI8+dXmpCDnZdG18CKpxzmvpaA8Eu5frEpg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```nix\n  environment.systemPackages = [\n      pkgs.reddit-tui\n    ];\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ZgRihY8BNUF18r3dpZazh5OELh/daPAHGWD6O3hjcs4=",
+        "originContent": "```nix",
+        "translatedContent": "```nix"
+      },
+      {
+        "row": 2,
+        "rowsha": "HHB7TxrjJPPnBb1C+RTqhF4RKWMkJ10hjfFeWNbzuMM=",
+        "originContent": "  environment.systemPackages = [",
+        "translatedContent": "  environment.systemPackages = ["
+      },
+      {
+        "row": 3,
+        "rowsha": "hUNk0rJ7Y/lm8bmHn1nVrnz5c1J4gALe0GI+tFx+vWA=",
+        "originContent": "      pkgs.reddit-tui",
+        "translatedContent": "      pkgs.reddit-tui"
+      },
+      {
+        "row": 4,
+        "rowsha": "tImqtZ4ozeLhsmXcaeSs+CDJtMeQja3q2UKShiFjM98=",
+        "originContent": "    ];",
+        "translatedContent": "    ];"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\n## Usage\nRun the installed binary from your preferred terminal:\n",
+    "ContentSha": "ktsQ8CoBDAVuFS7nKg1UsN1KcuJb/zt8zExrvQubHoA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 使用方法\n从您喜欢的终端运行已安装的二进制文件：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 使用方法"
+      },
+      {
+        "row": 3,
+        "rowsha": "0sfXbADbloCw8BYNrWxZMgTNdBiuFT/ZZjxNzpEeRnU=",
+        "originContent": "Run the installed binary from your preferred terminal:",
+        "translatedContent": "从您喜欢的终端运行已安装的二进制文件："
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```bash\n# Open reddittui, navigating to the home page\nreddittui\n\n# Open reddittui, navigating to a specific subreddit\nreddittui --subreddit dogs\n\n# Open reddittui, navigating to a specific post by its ID\nreddittui --post 1iyuce4\n```",
+    "ContentSha": "ft5HNHpbWPvUhbH7rpuTDQsd5rfD7mIDwaRNmAsSSxg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Open reddittui, navigating to the home page\nreddittui\n\n# Open reddittui, navigating to a specific subreddit\nreddittui --subreddit dogs\n\n# Open reddittui, navigating to a specific post by its ID\nreddittui --post 1iyuce4\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "iAkwP3PleJir7FoEiIBTD/Tw/CzaBqy4Jg9SnuZ+f6Q=",
+        "originContent": "# Open reddittui, navigating to the home page",
+        "translatedContent": "# Open reddittui, navigating to the home page"
+      },
+      {
+        "row": 3,
+        "rowsha": "v219OZaqyMb9BsWrXD9nRogl8/UHr2uzrAWHXCQPFqc=",
+        "originContent": "reddittui",
+        "translatedContent": "reddittui"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "qsWl7EHzjOwwcAozovnoRCRuoH05nd8/FIf3m88gPYc=",
+        "originContent": "# Open reddittui, navigating to a specific subreddit",
+        "translatedContent": "# Open reddittui, navigating to a specific subreddit"
+      },
+      {
+        "row": 6,
+        "rowsha": "nqUsjRpD9fxF3ToyA6sVq37aEYLY0PXglopBTTf+wlk=",
+        "originContent": "reddittui --subreddit dogs",
+        "translatedContent": "reddittui --subreddit dogs"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "CSK6XX21YE8PrsKl1UEe/jIbqvHpGFJTCUojhxdSkhI=",
+        "originContent": "# Open reddittui, navigating to a specific post by its ID",
+        "translatedContent": "# Open reddittui, navigating to a specific post by its ID"
+      },
+      {
+        "row": 9,
+        "rowsha": "wtl7qMooFAxkZERkRfXHbBJlzpIYZSRIffFNRiGEMzc=",
+        "originContent": "reddittui --post 1iyuce4",
+        "translatedContent": "reddittui --post 1iyuce4"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\n## Keybindings\n- Navigation\n  - **h, j, k, l:** Vim movement\n  - **left, right, up, down:** Normal movement\n  - **g**: Go to top of page\n  - **G**: Go to bottom of page\n  - **s**: Switch subreddits\n- Posts page\n  - **L**: Load more posts\n- Comments page\n  - **o**: Open post link in browser\n  - **c**: Collapse comments\n- Misc\n  - **H:** Go to home page\n  - **backspace**: Go back\n  - **q, esc**: Exit reddittui\n\n## Configuration files\nAfter running the reddittui binary, the following files will be initialized:\n- Configuration file:\n  - `~/.config/reddittui/reddittui.toml`\n- Log file:\n  - `~/.local/state/reddittui.log`\n- Cache\n  - `~/.cache/reddittui/`\n\nSample configuration:",
+    "ContentSha": "t0S+3UzHJG/lfihSB9KA6IibPAHi44/ef27QtLDX/pk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 快捷键绑定\n- 导航\n  - **h, j, k, l:** Vim 风格移动\n  - **left, right, up, down:** 普通移动\n  - **g**: 跳转到页面顶部\n  - **G**: 跳转到页面底部\n  - **s**: 切换子版块\n- 帖子页面\n  - **L**: 加载更多帖子\n- 评论页面\n  - **o**: 在浏览器中打开帖子链接\n  - **c**: 折叠评论\n- 其他\n  - **H:** 返回首页\n  - **backspace**: 返回上一页\n  - **q, esc**: 退出 reddittui\n\n## 配置文件\n运行 reddittui 可执行文件后，会初始化以下文件：\n- 配置文件：\n  - `~/.config/reddittui/reddittui.toml`\n- 日志文件：\n  - `~/.local/state/reddittui.log`\n- 缓存\n  - `~/.cache/reddittui/`\n\n示例配置：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 快捷键绑定"
+      },
+      {
+        "row": 2,
+        "rowsha": "eh0wXwFeE0ZTEIJbv84rG0KbEtFuukb9L60KYgpPFpU=",
+        "originContent": "## Keybindings",
+        "translatedContent": "- 导航"
+      },
+      {
+        "row": 3,
+        "rowsha": "z/FHCDijfK1UWSY4C1yBpDMFzmHh8uPQ6Vq5nvsXcv0=",
+        "originContent": "- Navigation",
+        "translatedContent": "  - **h, j, k, l:** Vim 风格移动"
+      },
+      {
+        "row": 4,
+        "rowsha": "R0d0kErOaH+hh07elraGbSjllwX3BBUScv+3pVAYYn8=",
+        "originContent": "  - **h, j, k, l:** Vim movement",
+        "translatedContent": "  - **left, right, up, down:** 普通移动"
+      },
+      {
+        "row": 5,
+        "rowsha": "e6wPRA5ntk8BHPWXDXbQLUy3EKO1XDkD50Yfwpf0Aek=",
+        "originContent": "  - **left, right, up, down:** Normal movement",
+        "translatedContent": "  - **g**: 跳转到页面顶部"
+      },
+      {
+        "row": 6,
+        "rowsha": "2cRU+hpPVHB6UUi87H9Ttq2BWuP49NGUlBs3AhX+0Rw=",
+        "originContent": "  - **g**: Go to top of page",
+        "translatedContent": "  - **G**: 跳转到页面底部"
+      },
+      {
+        "row": 7,
+        "rowsha": "mjAaydBF1e8CVeVbnARFUksoEfTGqwzJuAqx0QmZXg4=",
+        "originContent": "  - **G**: Go to bottom of page",
+        "translatedContent": "  - **s**: 切换子版块"
+      },
+      {
+        "row": 8,
+        "rowsha": "Mw/E9lzScmbGV4yDlHEmbGCXLsYhubN2tLJSa/TGY80=",
+        "originContent": "  - **s**: Switch subreddits",
+        "translatedContent": "- 帖子页面"
+      },
+      {
+        "row": 9,
+        "rowsha": "7quSRKt/CPsPGajvauN99VaBWC5iHwh6zylZkh7T0/c=",
+        "originContent": "- Posts page",
+        "translatedContent": "  - **L**: 加载更多帖子"
+      },
+      {
+        "row": 10,
+        "rowsha": "sKMK69vahfrkzsUb/M4KuTZi2rOseF1OqsJVVyMqg2s=",
+        "originContent": "  - **L**: Load more posts",
+        "translatedContent": "- 评论页面"
+      },
+      {
+        "row": 11,
+        "rowsha": "iK6eWmGO2t3Nd+2qTrW5r47oUwPW8ESt6bgCTYmfXh0=",
+        "originContent": "- Comments page",
+        "translatedContent": "  - **o**: 在浏览器中打开帖子链接"
+      },
+      {
+        "row": 12,
+        "rowsha": "M4gnvCJWaFs7cJJaab+mo97A4g+09rLAqm47rI/9350=",
+        "originContent": "  - **o**: Open post link in browser",
+        "translatedContent": "  - **c**: 折叠评论"
+      },
+      {
+        "row": 13,
+        "rowsha": "5PFN4EFh4d8gyOKX73Zvgu/gDSlwtl12zTY+6SvmtuU=",
+        "originContent": "  - **c**: Collapse comments",
+        "translatedContent": "- 其他"
+      },
+      {
+        "row": 14,
+        "rowsha": "Byo7uTY1F615FM8u/xdPW/mh/q1qU7PHKx1Xt0TeTwo=",
+        "originContent": "- Misc",
+        "translatedContent": "  - **H:** 返回首页"
+      },
+      {
+        "row": 15,
+        "rowsha": "H+3NZwW9MHGPgvHXBNIrhWRVwzryFooAvInKI/KKmGY=",
+        "originContent": "  - **H:** Go to home page",
+        "translatedContent": "  - **backspace**: 返回上一页"
+      },
+      {
+        "row": 16,
+        "rowsha": "mbS/5VYbEk+RdAGEq6M0GYQuTaUzlneTAmjVmKf7k64=",
+        "originContent": "  - **backspace**: Go back",
+        "translatedContent": "  - **q, esc**: 退出 reddittui"
+      },
+      {
+        "row": 17,
+        "rowsha": "NqrBHZDce4i8PQ01M9SNusUqtuf0CZJxTjwWJguKhRE=",
+        "originContent": "  - **q, esc**: Exit reddittui",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 配置文件"
+      },
+      {
+        "row": 19,
+        "rowsha": "41JdOqphTj91Hp9x7TAV9WbCqgfquQhtooXjhu61ddU=",
+        "originContent": "## Configuration files",
+        "translatedContent": "运行 reddittui 可执行文件后，会初始化以下文件："
+      },
+      {
+        "row": 20,
+        "rowsha": "gWYsGc5fkxAWzJoRtzqmtjMx2HD07W4eo8ZH09zQ2yo=",
+        "originContent": "After running the reddittui binary, the following files will be initialized:",
+        "translatedContent": "- 配置文件："
+      },
+      {
+        "row": 21,
+        "rowsha": "qDqpEYa4p3LlsSN26ZcTT6Ub4+qcbkbLuU3HAixSd94=",
+        "originContent": "- Configuration file:",
+        "translatedContent": "  - `~/.config/reddittui/reddittui.toml`"
+      },
+      {
+        "row": 22,
+        "rowsha": "A/tkHOePBu5ndIn/nS5c3JyWFMrjeFfULXV7VZEb7tg=",
+        "originContent": "  - `~/.config/reddittui/reddittui.toml`",
+        "translatedContent": "- 日志文件："
+      },
+      {
+        "row": 23,
+        "rowsha": "He7cSUugxo/1of1PnLa+sejw03kIUi4+rnAZspiwpi8=",
+        "originContent": "- Log file:",
+        "translatedContent": "  - `~/.local/state/reddittui.log`"
+      },
+      {
+        "row": 24,
+        "rowsha": "baF6hTOa/4MeeiLWqgBOQ2CCfU/Vf6JhIjF/r9Z3dsk=",
+        "originContent": "  - `~/.local/state/reddittui.log`",
+        "translatedContent": "- 缓存"
+      },
+      {
+        "row": 25,
+        "rowsha": "OW5GGPRaVDKqeCdx3xukkBfjCl2f9zVjems/B8EI49w=",
+        "originContent": "- Cache",
+        "translatedContent": "  - `~/.cache/reddittui/`"
+      },
+      {
+        "row": 26,
+        "rowsha": "6zqLVgy6i/BWCngnKCojl5IIK6g20I+OgRIOah1AYo4=",
+        "originContent": "  - `~/.cache/reddittui/`",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "示例配置："
+      },
+      {
+        "row": 28,
+        "rowsha": "dNPCN+COr2njx1CUQV0wSgCJ3BbdteYr1peTCnaWvU4=",
+        "originContent": "Sample configuration:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "```toml\n# Core configuration\n[core]\nbypassCache = false\nlogLevel = \"Warn\"\n\n# Filter out posts containing keywords or belonging to certain subreddits\n[filter]\nsubreddits = [\"news\", \"politics\"]\nkeywords = [\"pizza\", \"pineapple\"]\n\n# Configure client timeout and cache TTL. By default, subreddit posts and comments are cached for 1 hour.\n[client]\ntimeoutSeconds = 10\ncacheTtlSeconds = 3600\n\n# Configure which reddit server to use. Default is old.reddit.com but redlib servers are also supported\n[server]\ndomain = \"old.reddit.com\"\ntype = \"old\"\n```",
+    "ContentSha": "iE6afjWOl3WcHD1bAQq1vyzTpPmaHaxmQnvhZwdH0mI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```toml\n# Core configuration\n[core]\nbypassCache = false\nlogLevel = \"Warn\"\n\n# Filter out posts containing keywords or belonging to certain subreddits\n[filter]\nsubreddits = [\"news\", \"politics\"]\nkeywords = [\"pizza\", \"pineapple\"]\n\n# Configure client timeout and cache TTL. By default, subreddit posts and comments are cached for 1 hour.\n[client]\ntimeoutSeconds = 10\ncacheTtlSeconds = 3600\n\n# Configure which reddit server to use. Default is old.reddit.com but redlib servers are also supported\n[server]\ndomain = \"old.reddit.com\"\ntype = \"old\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
+        "originContent": "```toml",
+        "translatedContent": "```toml"
+      },
+      {
+        "row": 2,
+        "rowsha": "q0RCcv5AlgIF9t6O0gMV4gU2ZFHvDPicBmnHjGWiTIE=",
+        "originContent": "# Core configuration",
+        "translatedContent": "# Core configuration"
+      },
+      {
+        "row": 3,
+        "rowsha": "JqPOC9s7wuLnMzdxrh64CqjDf+FsvJ8YCUQ1gQsimts=",
+        "originContent": "[core]",
+        "translatedContent": "[core]"
+      },
+      {
+        "row": 4,
+        "rowsha": "i7PuOPIMWBaVM5/uCOJrSx9Ojb9YurAcu4hxAXIdEQ8=",
+        "originContent": "bypassCache = false",
+        "translatedContent": "bypassCache = false"
+      },
+      {
+        "row": 5,
+        "rowsha": "xScXt4S5DeI+y1BknRvRXjoui98JFE59lne/ygixpoA=",
+        "originContent": "logLevel = \"Warn\"",
+        "translatedContent": "logLevel = \"Warn\""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "2hoq2fHPZf8iYZ9vqX+75Lym7gjyp49SVXt5aK6kPJk=",
+        "originContent": "# Filter out posts containing keywords or belonging to certain subreddits",
+        "translatedContent": "# Filter out posts containing keywords or belonging to certain subreddits"
+      },
+      {
+        "row": 8,
+        "rowsha": "tCszINdd/JkbN8QsX4m8TjrE6gN21oXy91OYj9ATFdc=",
+        "originContent": "[filter]",
+        "translatedContent": "[filter]"
+      },
+      {
+        "row": 9,
+        "rowsha": "1gajCMt4XhabIiGg0iLB6WAfQ53Z4VeTOZsGVFUQLXQ=",
+        "originContent": "subreddits = [\"news\", \"politics\"]",
+        "translatedContent": "subreddits = [\"news\", \"politics\"]"
+      },
+      {
+        "row": 10,
+        "rowsha": "bj79WK8AalC+5I5X8XN8neq7LRmT5OhHbCk0jnVyzE4=",
+        "originContent": "keywords = [\"pizza\", \"pineapple\"]",
+        "translatedContent": "keywords = [\"pizza\", \"pineapple\"]"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "WoFppHNYlEmdP3hsmbKBv6ng8GkqCXMTc4M5Vhk+R+k=",
+        "originContent": "# Configure client timeout and cache TTL. By default, subreddit posts and comments are cached for 1 hour.",
+        "translatedContent": "# Configure client timeout and cache TTL. By default, subreddit posts and comments are cached for 1 hour."
+      },
+      {
+        "row": 13,
+        "rowsha": "C9y/Fume54raasZBxGqEF9wEoZ6YEmtnxIsbtyvP1bA=",
+        "originContent": "[client]",
+        "translatedContent": "[client]"
+      },
+      {
+        "row": 14,
+        "rowsha": "2qdXx0Lc/V5VzjHzBlG/crpcWFRLOStBOSPa2ELeVKM=",
+        "originContent": "timeoutSeconds = 10",
+        "translatedContent": "timeoutSeconds = 10"
+      },
+      {
+        "row": 15,
+        "rowsha": "bXRV3BrQnGa+gfYBfCwtdpUIK94HddJQCfxOz0pQafw=",
+        "originContent": "cacheTtlSeconds = 3600",
+        "translatedContent": "cacheTtlSeconds = 3600"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "QKBPl3GOSwc8qkCNELFFmIw8LWxcUXms2yXUTDWEXUU=",
+        "originContent": "# Configure which reddit server to use. Default is old.reddit.com but redlib servers are also supported",
+        "translatedContent": "# Configure which reddit server to use. Default is old.reddit.com but redlib servers are also supported"
+      },
+      {
+        "row": 18,
+        "rowsha": "gTxVIwLU7BiSM1kVG63K282eoTx9sSHQnUFW+xc9SpQ=",
+        "originContent": "[server]",
+        "translatedContent": "[server]"
+      },
+      {
+        "row": 19,
+        "rowsha": "ua76MdcNn5MaKG7Q6tqIIFmz8b0GGhXbuZzdl4jNtUU=",
+        "originContent": "domain = \"old.reddit.com\"",
+        "translatedContent": "domain = \"old.reddit.com\""
+      },
+      {
+        "row": 20,
+        "rowsha": "20gMQ3HH8hTv3eBcShMeibOt9qmXxszRpziBvNJQ9OA=",
+        "originContent": "type = \"old\"",
+        "translatedContent": "type = \"old\""
+      },
+      {
+        "row": 21,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "\n## Redlib\nFor enhanced privacy, private [Redlib backends](https://github.com/redlib-org/redlib) are supported. A list of Redlib servers can be found [here](https://github.com/redlib-org/redlib-instances/blob/main/instances.json). Use the following configuration to use a Redlib server instead of old.reddit.com:\n",
+    "ContentSha": "0hyJTtxWHzucrHHvTB+YBHXYIrh2EncAf4kQROir6Sc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Redlib\n为了增强隐私，支持私有的 [Redlib 后端](https://github.com/redlib-org/redlib)。Redlib 服务器列表可在 [这里](https://github.com/redlib-org/redlib-instances/blob/main/instances.json) 找到。使用以下配置以使用 Redlib 服务器代替 old.reddit.com：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "1W3gMQRgx4uws4NzIowLBKbJOcPrsfhFFXy+aGGAHP0=",
+        "originContent": "## Redlib",
+        "translatedContent": "## Redlib"
+      },
+      {
+        "row": 3,
+        "rowsha": "0oGXAhdgeUKNFMCZ6v391V5Eph0YA2qMHtKxRkYuYfY=",
+        "originContent": "For enhanced privacy, private [Redlib backends](https://github.com/redlib-org/redlib) are supported. A list of Redlib servers can be found [here](https://github.com/redlib-org/redlib-instances/blob/main/instances.json). Use the following configuration to use a Redlib server instead of old.reddit.com:",
+        "translatedContent": "为了增强隐私，支持私有的 [Redlib 后端](https://github.com/redlib-org/redlib)。Redlib 服务器列表可在 [这里](https://github.com/redlib-org/redlib-instances/blob/main/instances.json) 找到。使用以下配置以使用 Redlib 服务器代替 old.reddit.com："
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "```toml\n[server]\ndomain = \"safereddit.com\"\ntype = \"redlib\"\n```",
+    "ContentSha": "mKTI54bwso8qZmjRF+KgIFRdtJWo+j8gNY75V3sS5R4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```toml\n[server]\ndomain = \"safereddit.com\"\ntype = \"redlib\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
+        "originContent": "```toml",
+        "translatedContent": "```toml"
+      },
+      {
+        "row": 2,
+        "rowsha": "gTxVIwLU7BiSM1kVG63K282eoTx9sSHQnUFW+xc9SpQ=",
+        "originContent": "[server]",
+        "translatedContent": "[server]"
+      },
+      {
+        "row": 3,
+        "rowsha": "/Ejti8KCLW9G+L6jqEIkpdZELUPU7uCICGhJFyO1yXo=",
+        "originContent": "domain = \"safereddit.com\"",
+        "translatedContent": "domain = \"safereddit.com\""
+      },
+      {
+        "row": 4,
+        "rowsha": "OTA/egr7MjOx2BKQ3zSICp21h9BZRt5ka5AlCTLFHKk=",
+        "originContent": "type = \"redlib\"",
+        "translatedContent": "type = \"redlib\""
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "\n## Acknowledgments\nReddittui is based on the [bubbletea](https://github.com/charmbracelet/bubbletea) framework. It also takes inspiration from [circumflex](https://github.com/bensadeh/circumflex), a hackernews terminal browser.\n",
+    "ContentSha": "G79u4+fHbuAgJGrBrnt5t0Zncu8OVtTuZMTTroi08zM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 致谢\nReddittui 基于 [bubbletea](https://github.com/charmbracelet/bubbletea) 框架。它还借鉴了黑客新闻终端浏览器 [circumflex](https://github.com/bensadeh/circumflex) 的灵感。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "N66ywbuGccMYNTyswaMSnFOlWqX+iaYP/myGJqr1tHo=",
+        "originContent": "## Acknowledgments",
+        "translatedContent": "## 致谢"
+      },
+      {
+        "row": 3,
+        "rowsha": "YunNY30X4gRUHjj1A1OjTWvr6hDn/MW5ulfwZoxKQnI=",
+        "originContent": "Reddittui is based on the [bubbletea](https://github.com/charmbracelet/bubbletea) framework. It also takes inspiration from [circumflex](https://github.com/bensadeh/circumflex), a hackernews terminal browser.",
+        "translatedContent": "Reddittui 基于 [bubbletea](https://github.com/charmbracelet/bubbletea) 框架。它还借鉴了黑客新闻终端浏览器 [circumflex](https://github.com/bensadeh/circumflex) 的灵感。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

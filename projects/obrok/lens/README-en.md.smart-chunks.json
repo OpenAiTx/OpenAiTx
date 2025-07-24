@@ -1,0 +1,1061 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Lens\n\n[![Hex.pm](http://img.shields.io/hexpm/v/lens.svg)](https://hex.pm/packages/lens) [![Hex.pm](http://img.shields.io/hexpm/dt/lens.svg)](https://hex.pm/packages/lens)\n\nA utility for working with nested data structures. Take a look at\n[Nested data structures with functional lenses](https://yapee.svbtle.com/nested-data-structures-with-lens)\nfor a gentler introduction. Note that the blogpost was written using version `0.3.1` and there have been some API\nchanges since then - see [Upgrading](#upgrading) for details.\n\n## Installation\n\nThe package can be installed by adding `lens` to your list of dependencies in `mix.exs`:\n",
+    "ContentSha": "yvGqS0PcGu8MxAKTHHKqRc/1nS60H9g1keNu1eZtH0o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Lens\n\n[![Hex.pm](http://img.shields.io/hexpm/v/lens.svg)](https://hex.pm/packages/lens) [![Hex.pm](http://img.shields.io/hexpm/dt/lens.svg)](https://hex.pm/packages/lens)\n\nA utility for working with nested data structures. Take a look at\n[Nested data structures with functional lenses](https://yapee.svbtle.com/nested-data-structures-with-lens)\nfor a gentler introduction. Note that the blogpost was written using version `0.3.1` and there have been some API\nchanges since then - see [Upgrading](#upgrading) for details.\n\n## Installation\n\nThe package can be installed by adding `lens` to your list of dependencies in `mix.exs`:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "GrlVm13A1C7q9OLwIWsVf8fYXwoGzM5O0J/23D0x1Lg=",
+        "originContent": "# Lens",
+        "translatedContent": "# Lens"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "0hjukpBtIuJRJxxdt1BItrQ3S5Dwz0omlgBCvMmOZpY=",
+        "originContent": "[![Hex.pm](http://img.shields.io/hexpm/v/lens.svg)](https://hex.pm/packages/lens) [![Hex.pm](http://img.shields.io/hexpm/dt/lens.svg)](https://hex.pm/packages/lens)",
+        "translatedContent": "[![Hex.pm](http://img.shields.io/hexpm/v/lens.svg)](https://hex.pm/packages/lens) [![Hex.pm](http://img.shields.io/hexpm/dt/lens.svg)](https://hex.pm/packages/lens)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "iC9ZdK8xtrN/1+bio2avdJAKB0xmOMZTd9Spmak3vbg=",
+        "originContent": "A utility for working with nested data structures. Take a look at",
+        "translatedContent": "A utility for working with nested data structures. Take a look at"
+      },
+      {
+        "row": 6,
+        "rowsha": "7Qtz1ZaLis9yU4pknM8qFkJhOm2030vDT9t1vXqUfFg=",
+        "originContent": "[Nested data structures with functional lenses](https://yapee.svbtle.com/nested-data-structures-with-lens)",
+        "translatedContent": "[Nested data structures with functional lenses](https://yapee.svbtle.com/nested-data-structures-with-lens)"
+      },
+      {
+        "row": 7,
+        "rowsha": "mn0fwVtiApCz9d+VN2u7s9TZDovoe9FIYwvk/tUei70=",
+        "originContent": "for a gentler introduction. Note that the blogpost was written using version `0.3.1` and there have been some API",
+        "translatedContent": "for a gentler introduction. Note that the blogpost was written using version `0.3.1` and there have been some API"
+      },
+      {
+        "row": 8,
+        "rowsha": "LqWniGEWrUBhAlY7G5zeldgieoVLCsIZRk6ykBOA/9A=",
+        "originContent": "changes since then - see [Upgrading](#upgrading) for details.",
+        "translatedContent": "changes since then - see [Upgrading](#upgrading) for details."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "UL/xas7PD1Wh1MUHIzKgdkms+xxVgParmFcXMtGvovw=",
+        "originContent": "The package can be installed by adding `lens` to your list of dependencies in `mix.exs`:",
+        "translatedContent": "The package can be installed by adding `lens` to your list of dependencies in `mix.exs`:"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```elixir\ndef deps do\n  [\n    {:lens, \"~> 1.0.0\"}\n  ]\nend\n```",
+    "ContentSha": "ILFWtwACtbSjkca1fiR+8us04pbgpGww3pShhDhC9Hs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```elixir\ndef deps do\n  [\n    {:lens, \"~> 1.0.0\"}\n  ]\nend\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+        "originContent": "```elixir",
+        "translatedContent": "```elixir"
+      },
+      {
+        "row": 2,
+        "rowsha": "LXoWx716BKDCw39rDG5FpyIM98248FSIYmWqq4J/lz8=",
+        "originContent": "def deps do",
+        "translatedContent": "def deps do"
+      },
+      {
+        "row": 3,
+        "rowsha": "JtfG/IxhmOISzTKDXAwFX3W3PXG1dP84czIBcFGWBqw=",
+        "originContent": "  [",
+        "translatedContent": "  ["
+      },
+      {
+        "row": 4,
+        "rowsha": "RD01mz9d1BebcVrNvM5zEtXsdIglP1ArMfI4j3IcUhk=",
+        "originContent": "    {:lens, \"~> 1.0.0\"}",
+        "translatedContent": "    {:lens, \"~> 1.0.0\"}"
+      },
+      {
+        "row": 5,
+        "rowsha": "Z+kA9vmM2PlCZvTIXMNBvSyUEN4PZY97Bt49YhDsI98=",
+        "originContent": "  ]",
+        "translatedContent": "  ]"
+      },
+      {
+        "row": 6,
+        "rowsha": "Nh5I0DCPIOMtul+1Yyi68Y1y7wzLQ7hPXCYtKmofxsg=",
+        "originContent": "end",
+        "translatedContent": "end"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Upgrading\n\n### From pre-0.6.0\n\nIn 0.6.0 the function `Lens.get` got removed. The reason was that it was very easy to create a bug where a list was\ntreated as a single element or vice-versa. Wherever you used `Lens.get` you now should either use `Lens.one!` if the\ninvocation should always return exactly one element (this will crash if there is any other number of elements) or\n`Lens.to_list` and match on the result if you want to behave differently for different numbers of elements.\n\n### From pre-0.5.0\n\nIn 0.5.0 the function `satisfy` got renamed to `filter` while the previous version of `filter` was removed. The reason\nwas that with the new arrangement there is a matching pair of `filter`/`reject` functions, and this should be more\nintuitive. Wherever you used `Lens.filter(predicate)` you can now use `Lens.filter(Lens.all(), predicate)`.\n\n## Example\n\nLens allows you to separate which parts of a complex data structure need to be processed from the actual\nprocessing. Take the following:\n",
+    "ContentSha": "WGcEPOcEDDFBO/NEn41bixAIEYKHIi/g3EmKFomVG1U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Upgrading\n\n### From pre-0.6.0\n\nIn 0.6.0 the function `Lens.get` was removed. The reason was that it was very easy to create a bug where a list was\ntreated as a single element or vice versa. Wherever you used `Lens.get` you should now either use `Lens.one!` if the\ninvocation should always return exactly one element (this will crash if there is any other number of elements) or\n`Lens.to_list` and match on the result if you want to behave differently for different numbers of elements.\n\n### From pre-0.5.0\n\nIn 0.5.0 the function `satisfy` was renamed to `filter` while the previous version of `filter` was removed. The reason\nwas that with the new arrangement there is a matching pair of `filter`/`reject` functions, and this should be more\nintuitive. Wherever you used `Lens.filter(predicate)` you can now use `Lens.filter(Lens.all(), predicate)`.\n\n## Example\n\nLens allows you to separate which parts of a complex data structure need to be processed from the actual\nprocessing. Take the following:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "YABQOD1erQZLqjOyazYMw5DIqVxOfuVN5Gm75jUHDww=",
+        "originContent": "## Upgrading",
+        "translatedContent": "## Upgrading"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "GB1sHRDQN4uc9W0fbMstkFJ4mEhoewj0mBJ3VysuVqI=",
+        "originContent": "### From pre-0.6.0",
+        "translatedContent": "### From pre-0.6.0"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "2NAfuDUSGXZGGUy1YqzwHSKRBIjtcM/lVQN9PkZuRvU=",
+        "originContent": "In 0.6.0 the function `Lens.get` got removed. The reason was that it was very easy to create a bug where a list was",
+        "translatedContent": "In 0.6.0 the function `Lens.get` was removed. The reason was that it was very easy to create a bug where a list was"
+      },
+      {
+        "row": 7,
+        "rowsha": "alOajhrhHnprQO6vNDakEN1NWPenS5ni1arzd28chWw=",
+        "originContent": "treated as a single element or vice-versa. Wherever you used `Lens.get` you now should either use `Lens.one!` if the",
+        "translatedContent": "treated as a single element or vice versa. Wherever you used `Lens.get` you should now either use `Lens.one!` if the"
+      },
+      {
+        "row": 8,
+        "rowsha": "NbBZoeOV248I/49cdVGpN9k4PsCU5u4gHdJfrfy7zss=",
+        "originContent": "invocation should always return exactly one element (this will crash if there is any other number of elements) or",
+        "translatedContent": "invocation should always return exactly one element (this will crash if there is any other number of elements) or"
+      },
+      {
+        "row": 9,
+        "rowsha": "y0rVBZrBIDs/QqRVE1u1QoqN8oGrbGgjGIBEgnTVa2U=",
+        "originContent": "`Lens.to_list` and match on the result if you want to behave differently for different numbers of elements.",
+        "translatedContent": "`Lens.to_list` and match on the result if you want to behave differently for different numbers of elements."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "17qg1hkO/nzIFtFKm1PTX1JrCSBKO8iR6Q8mBzR967U=",
+        "originContent": "### From pre-0.5.0",
+        "translatedContent": "### From pre-0.5.0"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "UeHGzF8DP4F83eJOBystYOSczlMsoPLYIBfZztcB9wo=",
+        "originContent": "In 0.5.0 the function `satisfy` got renamed to `filter` while the previous version of `filter` was removed. The reason",
+        "translatedContent": "In 0.5.0 the function `satisfy` was renamed to `filter` while the previous version of `filter` was removed. The reason"
+      },
+      {
+        "row": 14,
+        "rowsha": "zkxyr7pyzijNh7hWFN0nBc4BF3NwGQHRSk/iwyEJTPE=",
+        "originContent": "was that with the new arrangement there is a matching pair of `filter`/`reject` functions, and this should be more",
+        "translatedContent": "was that with the new arrangement there is a matching pair of `filter`/`reject` functions, and this should be more"
+      },
+      {
+        "row": 15,
+        "rowsha": "B7ExH86ItiixrhDnlZPU/O4iDOAeWPGpftAe2TncZRw=",
+        "originContent": "intuitive. Wherever you used `Lens.filter(predicate)` you can now use `Lens.filter(Lens.all(), predicate)`.",
+        "translatedContent": "intuitive. Wherever you used `Lens.filter(predicate)` you can now use `Lens.filter(Lens.all(), predicate)`."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "m/NPRMnRNx9O2lad+gT/eDCv+Bz6gWRuaAzvCHcUzcE=",
+        "originContent": "## Example",
+        "translatedContent": "## Example"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "dE/6x/fTWyZ743T1JPr1scsTmtik/80g+vQ0zQfjm8Q=",
+        "originContent": "Lens allows you to separate which parts of a complex data structure need to be processed from the actual",
+        "translatedContent": "Lens allows you to separate which parts of a complex data structure need to be processed from the actual"
+      },
+      {
+        "row": 20,
+        "rowsha": "KehQmhlr02lxgduSkLtKS1fqVNjOh3h58PdFaTeUghM=",
+        "originContent": "processing. Take the following:",
+        "translatedContent": "processing. Take the following:"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```elixir\ndata = %{\n  main_widget: %{size: 200.5, subwidgets: [%{size: 120, subwidgets: [%{size: 200, subwidgets: []}]}]},\n  other_widgets: [\n    %{size: 16.5, subwidgets: [%{size: 120, subwidgets: []}]},\n    %{size: 160.5, subwidgets: []},\n    %{size: 121.9, subwidgets: []},\n  ]\n}\n```",
+    "ContentSha": "is1OJuyAynsFmVdKtiBwlCXdJv2q61zqpzj7bnNsak8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```elixir\ndata = %{\n  main_widget: %{size: 200.5, subwidgets: [%{size: 120, subwidgets: [%{size: 200, subwidgets: []}]}]},\n  other_widgets: [\n    %{size: 16.5, subwidgets: [%{size: 120, subwidgets: []}]},\n    %{size: 160.5, subwidgets: []},\n    %{size: 121.9, subwidgets: []},\n  ]\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+        "originContent": "```elixir",
+        "translatedContent": "```elixir"
+      },
+      {
+        "row": 2,
+        "rowsha": "tWxr2A9vSAc606N8NnWWS6HsDnECRYoOvBOzn1ghvxI=",
+        "originContent": "data = %{",
+        "translatedContent": "data = %{"
+      },
+      {
+        "row": 3,
+        "rowsha": "1+jP6bouwq106Ey1WGn7gsYSl2A93SxIbnefeX8iGbA=",
+        "originContent": "  main_widget: %{size: 200.5, subwidgets: [%{size: 120, subwidgets: [%{size: 200, subwidgets: []}]}]},",
+        "translatedContent": "  main_widget: %{size: 200.5, subwidgets: [%{size: 120, subwidgets: [%{size: 200, subwidgets: []}]}]},"
+      },
+      {
+        "row": 4,
+        "rowsha": "GghwCHTjN/0SSNY/RoQ0PaOoXqUH4FpA9Z36jE34Yd8=",
+        "originContent": "  other_widgets: [",
+        "translatedContent": "  other_widgets: ["
+      },
+      {
+        "row": 5,
+        "rowsha": "mJiDcD/HJc4Dnu7LoxzASFdtofqo+zttxM0Hw/Vjw4g=",
+        "originContent": "    %{size: 16.5, subwidgets: [%{size: 120, subwidgets: []}]},",
+        "translatedContent": "    %{size: 16.5, subwidgets: [%{size: 120, subwidgets: []}]},"
+      },
+      {
+        "row": 6,
+        "rowsha": "GI/piAGlQbB/00RalsG2PXGsGUH3W8p5wGCG0j7kIvo=",
+        "originContent": "    %{size: 160.5, subwidgets: []},",
+        "translatedContent": "    %{size: 160.5, subwidgets: []},"
+      },
+      {
+        "row": 7,
+        "rowsha": "5gz/iPwxV8ZBQKX21IYrn7e3okekP6FKzRKNO9A1Eig=",
+        "originContent": "    %{size: 121.9, subwidgets: []},",
+        "translatedContent": "    %{size: 121.9, subwidgets: []},"
+      },
+      {
+        "row": 8,
+        "rowsha": "Z+kA9vmM2PlCZvTIXMNBvSyUEN4PZY97Bt49YhDsI98=",
+        "originContent": "  ]",
+        "translatedContent": "  ]"
+      },
+      {
+        "row": 9,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nLet's say we're interested in the sizes of all widgets (be they the main widget or other widgets) that are larger than 100.\nWe can construct a `Lens` object that describes these locations in the datastructure the following way:\n",
+    "ContentSha": "gx3C7uax1sWsDBPpn0k8zd4klMcSFRLz1Uuilyb73Fk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nLet's say we're interested in the sizes of all widgets (be they the main widget or other widgets) that are larger than 100.\nWe can construct a `Lens` object that describes these locations in the data structure the following way:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yW9zp+zezo/yc1tHZ8PiuOkzL5jg13DFCEkk+b9jJiw=",
+        "originContent": "Let's say we're interested in the sizes of all widgets (be they the main widget or other widgets) that are larger than 100.",
+        "translatedContent": "Let's say we're interested in the sizes of all widgets (be they the main widget or other widgets) that are larger than 100."
+      },
+      {
+        "row": 3,
+        "rowsha": "ak6fJMTut53e5It50Cf1y2ZhFzD1wI36STAROfFtwIk=",
+        "originContent": "We can construct a `Lens` object that describes these locations in the datastructure the following way:",
+        "translatedContent": "We can construct a `Lens` object that describes these locations in the data structure the following way:"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```elixir\nlens = Lens.both(\n  Lens.key(:main_widget),\n  Lens.key(:other_widgets) |> Lens.all\n)\n|> Lens.seq_both(Lens.recur(Lens.key(:subwidgets) |> Lens.all))\n|> Lens.key(:size)\n|> Lens.filter(&(&1 > 100))\n```",
+    "ContentSha": "tq4up7vx3R2+blPv00brWxFhk9wMzTaTTwMv7T3XGBM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```elixir\nlens = Lens.both(\n  Lens.key(:main_widget),\n  Lens.key(:other_widgets) |> Lens.all\n)\n|> Lens.seq_both(Lens.recur(Lens.key(:subwidgets) |> Lens.all))\n|> Lens.key(:size)\n|> Lens.filter(&(&1 > 100))\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+        "originContent": "```elixir",
+        "translatedContent": "```elixir"
+      },
+      {
+        "row": 2,
+        "rowsha": "fRW5+utiK8T/pOvDHJKI0i1RJpUn9kWbk8vqCGp7uz0=",
+        "originContent": "lens = Lens.both(",
+        "translatedContent": "lens = Lens.both("
+      },
+      {
+        "row": 3,
+        "rowsha": "oYsCcvMBj1hLEAcBkZovXmlQ1zKMcsEKpp1tEvNBheU=",
+        "originContent": "  Lens.key(:main_widget),",
+        "translatedContent": "  Lens.key(:main_widget),"
+      },
+      {
+        "row": 4,
+        "rowsha": "kCYo1Djmg258UMTuLcay6iMopB/TIu9PBxu/+sy2q9Y=",
+        "originContent": "  Lens.key(:other_widgets) |> Lens.all",
+        "translatedContent": "  Lens.key(:other_widgets) |> Lens.all"
+      },
+      {
+        "row": 5,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 6,
+        "rowsha": "cKLWH6KYN97prlenLEQPMHZRL7LXes4D2YxegQUr850=",
+        "originContent": "|> Lens.seq_both(Lens.recur(Lens.key(:subwidgets) |> Lens.all))",
+        "translatedContent": "|> Lens.seq_both(Lens.recur(Lens.key(:subwidgets) |> Lens.all))"
+      },
+      {
+        "row": 7,
+        "rowsha": "NMHX5LkLFAUf00VxECtPns88V36npuJmz7hn6Jpon9I=",
+        "originContent": "|> Lens.key(:size)",
+        "translatedContent": "|> Lens.key(:size)"
+      },
+      {
+        "row": 8,
+        "rowsha": "NaEfEJWbLAR8VcTEFeATdiQczTvgMRmbC60sKK8wUGM=",
+        "originContent": "|> Lens.filter(&(&1 > 100))",
+        "translatedContent": "|> Lens.filter(&(&1 > 100))"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nGiven that we can:\n\n* Extract all the relevant data\n",
+    "ContentSha": "ev3wQ489sktVRQ2B5HqrXPWTXFUwJVHXyZ0L5Frv4eQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nGiven that we can:\n\n* Extract all the relevant data\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "uvGrUwNY2z+ejvRNI40V96KNEmQj37DGuDEQnkyybVs=",
+        "originContent": "Given that we can:",
+        "translatedContent": "Given that we can:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "oNBBZIX9fCL61ByuciBtCf0KA4kUXqyEVhLGPYX3FYQ=",
+        "originContent": "* Extract all the relevant data",
+        "translatedContent": "* Extract all the relevant data"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```elixir\niex> Lens.to_list(lens, data)\n[200.5, 160.5, 121.9, 120, 200, 120]\n```",
+    "ContentSha": "HlKvq0daMoBfLJ6FbFlS3gLFQb4rqFu5F1UB+Xi/7ZM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```elixir\niex> Lens.to_list(lens, data)\n[200.5, 160.5, 121.9, 120, 200, 120]\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+        "originContent": "```elixir",
+        "translatedContent": "```elixir"
+      },
+      {
+        "row": 2,
+        "rowsha": "oQw0BGqQvztXJJ6hp8bSB5/Ti/Fk9vcAiXSwSFTKcko=",
+        "originContent": "iex> Lens.to_list(lens, data)",
+        "translatedContent": "iex> Lens.to_list(lens, data)"
+      },
+      {
+        "row": 3,
+        "rowsha": "kSsmFi+Ru8xyOrQIdVbhqUpcUJj5JxwFd2VgjixpU5I=",
+        "originContent": "[200.5, 160.5, 121.9, 120, 200, 120]",
+        "translatedContent": "[200.5, 160.5, 121.9, 120, 200, 120]"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n* Update the described locations in the data structure\n",
+    "ContentSha": "u6I9ayEWy6a27VeTAVckAbdZr101qdjlExFt8MANODw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n* Update the described locations in the data structure\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "w2ZjTYe+PRaCBgUVTn2k8sExMF+hZ+B2B6O8UKo3AiY=",
+        "originContent": "* Update the described locations in the data structure",
+        "translatedContent": "* Update the described locations in the data structure"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```elixir\niex> Lens.map(lens, data, &round/1)\n%{main_widget: %{size: 201,\n    subwidgets: [%{size: 120, subwidgets: [%{size: 200, subwidgets: []}]}]},\n  other_widgets: [%{size: 16.5, subwidgets: [%{size: 120, subwidgets: []}]},\n   %{size: 161, subwidgets: []}, %{size: 122, subwidgets: []}]}\n```",
+    "ContentSha": "cntfFKYfmCKoGP3zDA+22hIWSCGnJ26PVT874R5n90M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```elixir\niex> Lens.map(lens, data, &round/1)\n%{main_widget: %{size: 201,\n    subwidgets: [%{size: 120, subwidgets: [%{size: 200, subwidgets: []}]}]},\n  other_widgets: [%{size: 16.5, subwidgets: [%{size: 120, subwidgets: []}]},\n   %{size: 161, subwidgets: []}, %{size: 122, subwidgets: []}]}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+        "originContent": "```elixir",
+        "translatedContent": "```elixir"
+      },
+      {
+        "row": 2,
+        "rowsha": "1V89SF3wJ4Of3kkwTA/mT3OjxC6hlcx6AyRGNwp9yv0=",
+        "originContent": "iex> Lens.map(lens, data, &round/1)",
+        "translatedContent": "iex> Lens.map(lens, data, &round/1)"
+      },
+      {
+        "row": 3,
+        "rowsha": "o/hcYdi5lwKYDLeyuyDGN5PO4RD+zGxxXsRDPNaKOkM=",
+        "originContent": "%{main_widget: %{size: 201,",
+        "translatedContent": "%{main_widget: %{size: 201,"
+      },
+      {
+        "row": 4,
+        "rowsha": "QS5BtmiQyDRtgEWW0rq2lUOGQPQ6am8ZEjvZc8+jZ7Y=",
+        "originContent": "    subwidgets: [%{size: 120, subwidgets: [%{size: 200, subwidgets: []}]}]},",
+        "translatedContent": "    subwidgets: [%{size: 120, subwidgets: [%{size: 200, subwidgets: []}]}]},"
+      },
+      {
+        "row": 5,
+        "rowsha": "nYn6Mjb2diKstfBQho4+tawYSQGpbezzB4Nvqy1U8gQ=",
+        "originContent": "  other_widgets: [%{size: 16.5, subwidgets: [%{size: 120, subwidgets: []}]},",
+        "translatedContent": "  other_widgets: [%{size: 16.5, subwidgets: [%{size: 120, subwidgets: []}]},"
+      },
+      {
+        "row": 6,
+        "rowsha": "YYtsZBwJsRxmRXQdkW6MMF/Y/SFDJnRaR8VkxV5tYx4=",
+        "originContent": "   %{size: 161, subwidgets: []}, %{size: 122, subwidgets: []}]}",
+        "translatedContent": "   %{size: 161, subwidgets: []}, %{size: 122, subwidgets: []}]}"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n* Simultaneously update and return something from every location in the data\n",
+    "ContentSha": "nXFVDAixPt+zSf0TcwNhCJgpoo4XM4cRDHYWXfcHmYw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n* Simultaneously update and return something from every location in the data\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "P5mBzzcsx3QMbBiBwPbuPQW4rzm/v67E8ZHg/slYkJ8=",
+        "originContent": "* Simultaneously update and return something from every location in the data",
+        "translatedContent": "* Simultaneously update and return something from every location in the data"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```elixir\niex> Lens.get_and_map(lens, data, fn size -> {size, round(size)} end)\n{[200.5, 160.5, 121.9, 120, 200, 120],\n %{main_widget: %{size: 201,\n     subwidgets: [%{size: 120, subwidgets: [%{size: 200, subwidgets: []}]}]},\n   other_widgets: [%{size: 16.5, subwidgets: [%{size: 120, subwidgets: []}]},\n    %{size: 161, subwidgets: []}, %{size: 122, subwidgets: []}]}}\n```",
+    "ContentSha": "badzjdlgD9aC2FHmq+kUjjCGKsiI9vXU5GpLfXW7DHE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```elixir\niex> Lens.get_and_map(lens, data, fn size -> {size, round(size)} end)\n{[200.5, 160.5, 121.9, 120, 200, 120],\n %{main_widget: %{size: 201,\n     subwidgets: [%{size: 120, subwidgets: [%{size: 200, subwidgets: []}]}]},\n   other_widgets: [%{size: 16.5, subwidgets: [%{size: 120, subwidgets: []}]},\n    %{size: 161, subwidgets: []}, %{size: 122, subwidgets: []}]}}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+        "originContent": "```elixir",
+        "translatedContent": "```elixir"
+      },
+      {
+        "row": 2,
+        "rowsha": "zyXTaqsPvojSkqZc6SZTiJGBho16ikToVsc/e0zVZZs=",
+        "originContent": "iex> Lens.get_and_map(lens, data, fn size -> {size, round(size)} end)",
+        "translatedContent": "iex> Lens.get_and_map(lens, data, fn size -> {size, round(size)} end)"
+      },
+      {
+        "row": 3,
+        "rowsha": "rN2jI/P3SQ4a50yxuI9LOiUNVnlELpoRaVX7VTphGSc=",
+        "originContent": "{[200.5, 160.5, 121.9, 120, 200, 120],",
+        "translatedContent": "{[200.5, 160.5, 121.9, 120, 200, 120],"
+      },
+      {
+        "row": 4,
+        "rowsha": "LvHmcPCrXr6g9lhSzA34ej8CkrT2uqyqVTK2Oe4MP/4=",
+        "originContent": " %{main_widget: %{size: 201,",
+        "translatedContent": " %{main_widget: %{size: 201,"
+      },
+      {
+        "row": 5,
+        "rowsha": "r2TZf5xNDYEouJPdf7mew0fNwmTngtSh8GOlh+yajtU=",
+        "originContent": "     subwidgets: [%{size: 120, subwidgets: [%{size: 200, subwidgets: []}]}]},",
+        "translatedContent": "     subwidgets: [%{size: 120, subwidgets: [%{size: 200, subwidgets: []}]}]},"
+      },
+      {
+        "row": 6,
+        "rowsha": "i3DM05798RGbLRPVm+esA5kf9G8PM+654SCuZiUCqQk=",
+        "originContent": "   other_widgets: [%{size: 16.5, subwidgets: [%{size: 120, subwidgets: []}]},",
+        "translatedContent": "   other_widgets: [%{size: 16.5, subwidgets: [%{size: 120, subwidgets: []}]},"
+      },
+      {
+        "row": 7,
+        "rowsha": "VPiq9WX9OFdz8DaBRDg+0WNU2bxwlYAVDucIZoE6MDI=",
+        "originContent": "    %{size: 161, subwidgets: []}, %{size: 122, subwidgets: []}]}}",
+        "translatedContent": "    %{size: 161, subwidgets: []}, %{size: 122, subwidgets: []}]}}"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nLenses are also compatible with `Access` and associated `Kernel` functions:\n",
+    "ContentSha": "HyQ5XzCavYBU0Zhp8Z6RmY9Rwu2blBxReDj/bjQL/jQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nLenses are also compatible with `Access` and associated `Kernel` functions:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "FJoYtEQh7KeJYyu5sJaUkJZbEQkg3oEnNuTM3q5FhKk=",
+        "originContent": "Lenses are also compatible with `Access` and associated `Kernel` functions:",
+        "translatedContent": "Lenses are also compatible with `Access` and associated `Kernel` functions:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```elixir\niex> get_in([1, 2, 3], [Lens.all() |> Lens.filter(&Integer.is_odd/1)])\n[1, 3]\niex> update_in([1, 2, 3], [Lens.all() |> Lens.filter(&Integer.is_odd/1)], fn x -> x + 1 end)\n[2, 2, 4]\niex> get_and_update_in([1, 2, 3], [Lens.all() |> Lens.filter(&Integer.is_odd/1)], fn x -> {x - 1, x + 1} end)\n{[0, 2], [2, 2, 4]}\n```",
+    "ContentSha": "reA1poqbB6fDr9VDWQLMYJaVOS2knerWcoh0WQOKGew=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```elixir\niex> get_in([1, 2, 3], [Lens.all() |> Lens.filter(&Integer.is_odd/1)])\n[1, 3]\niex> update_in([1, 2, 3], [Lens.all() |> Lens.filter(&Integer.is_odd/1)], fn x -> x + 1 end)\n[2, 2, 4]\niex> get_and_update_in([1, 2, 3], [Lens.all() |> Lens.filter(&Integer.is_odd/1)], fn x -> {x - 1, x + 1} end)\n{[0, 2], [2, 2, 4]}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+        "originContent": "```elixir",
+        "translatedContent": "```elixir"
+      },
+      {
+        "row": 2,
+        "rowsha": "n36lntdm4zZYARL8WKLcwvKwqSE2kI7tpCoP9xBlTD8=",
+        "originContent": "iex> get_in([1, 2, 3], [Lens.all() |> Lens.filter(&Integer.is_odd/1)])",
+        "translatedContent": "iex> get_in([1, 2, 3], [Lens.all() |> Lens.filter(&Integer.is_odd/1)])"
+      },
+      {
+        "row": 3,
+        "rowsha": "TjlwAY+lAJIs5cCH+ExzTXtHsGUdovLhciaAGIWDgDI=",
+        "originContent": "[1, 3]",
+        "translatedContent": "[1, 3]"
+      },
+      {
+        "row": 4,
+        "rowsha": "Xy0IwTZq5hMFhOJOOIcm0BkOIjAOvV+HZKSDutn73dI=",
+        "originContent": "iex> update_in([1, 2, 3], [Lens.all() |> Lens.filter(&Integer.is_odd/1)], fn x -> x + 1 end)",
+        "translatedContent": "iex> update_in([1, 2, 3], [Lens.all() |> Lens.filter(&Integer.is_odd/1)], fn x -> x + 1 end)"
+      },
+      {
+        "row": 5,
+        "rowsha": "cKMGmcLmPxHr0g3KtlGiO+njqZuvM1i1U9xMqZn9lt4=",
+        "originContent": "[2, 2, 4]",
+        "translatedContent": "[2, 2, 4]"
+      },
+      {
+        "row": 6,
+        "rowsha": "Q9trm0ssRGBRKh31VocUOnYQp4veuft8r4qbs2uB/kQ=",
+        "originContent": "iex> get_and_update_in([1, 2, 3], [Lens.all() |> Lens.filter(&Integer.is_odd/1)], fn x -> {x - 1, x + 1} end)",
+        "translatedContent": "iex> get_and_update_in([1, 2, 3], [Lens.all() |> Lens.filter(&Integer.is_odd/1)], fn x -> {x - 1, x + 1} end)"
+      },
+      {
+        "row": 7,
+        "rowsha": "z1LrVyS+KPLPOT1IzyqDheh25bwmGijmu3/7YFFmj9Y=",
+        "originContent": "{[0, 2], [2, 2, 4]}",
+        "translatedContent": "{[0, 2], [2, 2, 4]}"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n## Formatting\n\nNormally, `mix format` will change definitions like:\n",
+    "ContentSha": "/Qe9i+eMoboUkXd94lozwsvvnwysY0mB08/2gOF0Fa8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Formatting\n\nNormally, `mix format` will change definitions like:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "y4LnTJ4A/5peKGXKyhOrHXy2bFht/ZApdIkBMLNOIrg=",
+        "originContent": "## Formatting",
+        "translatedContent": "## Formatting"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "WfXHpoe7zGp4J9bhV0gcBqXyCn0qgLorLtXhjDr1cWg=",
+        "originContent": "Normally, `mix format` will change definitions like:",
+        "translatedContent": "Normally, `mix format` will change definitions like:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```elixir\ndeflens a_lens(), do: some() |> implementation()\ndeflensp a_private_lens(), do: some() |> implementation()\n```",
+    "ContentSha": "2qlz2IXusT3tyut2ywU3JwmAplDWNWsE129p/48LlXw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```elixir\ndeflens a_lens(), do: some() |> implementation()\ndeflensp a_private_lens(), do: some() |> implementation()\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+        "originContent": "```elixir",
+        "translatedContent": "```elixir"
+      },
+      {
+        "row": 2,
+        "rowsha": "Cj+8NJI21tatDizvLFHu4p6KOiR1JXUJY2WUOCmQZxQ=",
+        "originContent": "deflens a_lens(), do: some() |> implementation()",
+        "translatedContent": "deflens a_lens(), do: some() |> implementation()"
+      },
+      {
+        "row": 3,
+        "rowsha": "nelKFqRl4cQ5AoEFvyJejILNlTfk78rngH33RxPS+tk=",
+        "originContent": "deflensp a_private_lens(), do: some() |> implementation()",
+        "translatedContent": "deflensp a_private_lens(), do: some() |> implementation()"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\ninto:\n",
+    "ContentSha": "jqH2VUfn0up6U9RlF24ZD5ho1DRDtjMLqNpED/a2E4Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\ninto:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "bcA6sb4kzIPYl4i3OrBCUl1feURGCcfufRjQY4QR+5I=",
+        "originContent": "into:",
+        "translatedContent": "into:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```elixir\ndeflens(a_lens(), do: some() |> implementation())\ndeflensp(a_private_lens(), do: some() |> implementation())\n```",
+    "ContentSha": "UvN7iXcFwOtNmcsQZo+LDw3m4AcfdBrlP505cCMz2UQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```elixir\ndeflens(a_lens(), do: some() |> implementation())\ndeflensp(a_private_lens(), do: some() |> implementation())\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+        "originContent": "```elixir",
+        "translatedContent": "```elixir"
+      },
+      {
+        "row": 2,
+        "rowsha": "DtTSB6jyHpNYQX36jEFmmuJWnCJgkDQD8E4Y4QA06tk=",
+        "originContent": "deflens(a_lens(), do: some() |> implementation())",
+        "translatedContent": "deflens(a_lens(), do: some() |> implementation())"
+      },
+      {
+        "row": 3,
+        "rowsha": "zF4jxwST9p+Zkfu8LKF7FH3ViDSDhtrLeklhzwIB5Z8=",
+        "originContent": "deflensp(a_private_lens(), do: some() |> implementation())",
+        "translatedContent": "deflensp(a_private_lens(), do: some() |> implementation())"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\nTo avoid this, you can import lens's formatter settings in your `formatter.exs`:\n",
+    "ContentSha": "X7RSo3lrdpRYaMksjQtLIwdBgJWJj4su3+BgfM0pgIo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nTo avoid this, you can import lens's formatter settings in your `formatter.exs`:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "QiK6XY+fAWitrCMUX1xn9ScVTgeCs87B4baOtPFg+Wo=",
+        "originContent": "To avoid this, you can import lens's formatter settings in your `formatter.exs`:",
+        "translatedContent": "To avoid this, you can import lens's formatter settings in your `formatter.exs`:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```elixir\n# my_app/.formatter.exs\n[\n  import_deps: [:lens]\n]\n```",
+    "ContentSha": "j4sa7eLO3ShIEVNRjNAiFaFYiecImCMRfk2XDwN/Okk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```elixir\n# my_app/.formatter.exs\n[\n  import_deps: [:lens]\n]\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+        "originContent": "```elixir",
+        "translatedContent": "```elixir"
+      },
+      {
+        "row": 2,
+        "rowsha": "Rcx18fckExOiXMz2vRWY1YybR6h4sWs6LQHaSBjR8Yc=",
+        "originContent": "# my_app/.formatter.exs",
+        "translatedContent": "# my_app/.formatter.exs"
+      },
+      {
+        "row": 3,
+        "rowsha": "JFhDq++ecufvrDATiplL9jAefh19cEKjPULoY9JjiBE=",
+        "originContent": "[",
+        "translatedContent": "["
+      },
+      {
+        "row": 4,
+        "rowsha": "4Dw73mezAZMlZI1AYegpUmGmTxB+iHadt8Z1gK8Ni0U=",
+        "originContent": "  import_deps: [:lens]",
+        "translatedContent": "  import_deps: [:lens]"
+      },
+      {
+        "row": 5,
+        "rowsha": "z64NQkj3FC97F/gmzXpRkoDjEld2kOlXgw0j3PNaP/8=",
+        "originContent": "]",
+        "translatedContent": "]"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

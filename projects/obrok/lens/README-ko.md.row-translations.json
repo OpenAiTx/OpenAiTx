@@ -1,0 +1,788 @@
+[
+  {
+    "row": 1,
+    "rowsha": "GrlVm13A1C7q9OLwIWsVf8fYXwoGzM5O0J/23D0x1Lg=",
+    "originContent": "# Lens",
+    "translatedContent": "# 렌즈"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "0hjukpBtIuJRJxxdt1BItrQ3S5Dwz0omlgBCvMmOZpY=",
+    "originContent": "[![Hex.pm](http://img.shields.io/hexpm/v/lens.svg)](https://hex.pm/packages/lens) [![Hex.pm](http://img.shields.io/hexpm/dt/lens.svg)](https://hex.pm/packages/lens)",
+    "translatedContent": "[![Hex.pm](http://img.shields.io/hexpm/v/lens.svg)](https://hex.pm/packages/lens) [![Hex.pm](http://img.shields.io/hexpm/dt/lens.svg)](https://hex.pm/packages/lens)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "iC9ZdK8xtrN/1+bio2avdJAKB0xmOMZTd9Spmak3vbg=",
+    "originContent": "A utility for working with nested data structures. Take a look at",
+    "translatedContent": "중첩된 데이터 구조를 다루기 위한 유틸리티입니다.  "
+  },
+  {
+    "row": 6,
+    "rowsha": "7Qtz1ZaLis9yU4pknM8qFkJhOm2030vDT9t1vXqUfFg=",
+    "originContent": "[Nested data structures with functional lenses](https://yapee.svbtle.com/nested-data-structures-with-lens)",
+    "translatedContent": "보다 부드러운 소개를 원하시면  "
+  },
+  {
+    "row": 7,
+    "rowsha": "mn0fwVtiApCz9d+VN2u7s9TZDovoe9FIYwvk/tUei70=",
+    "originContent": "for a gentler introduction. Note that the blogpost was written using version `0.3.1` and there have been some API",
+    "translatedContent": "[Nested data structures with functional lenses](https://yapee.svbtle.com/nested-data-structures-with-lens)  "
+  },
+  {
+    "row": 8,
+    "rowsha": "LqWniGEWrUBhAlY7G5zeldgieoVLCsIZRk6ykBOA/9A=",
+    "originContent": "changes since then - see [Upgrading](#upgrading) for details.",
+    "translatedContent": "를 참고하세요. 이 블로그 글은 `0.3.1` 버전을 기준으로 작성되었으며, 그 이후 API에  "
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "몇 가지 변경 사항이 있습니다 - 자세한 내용은 [업그레이드](#upgrading)를 참고하세요."
+  },
+  {
+    "row": 10,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 설치"
+  },
+  {
+    "row": 12,
+    "rowsha": "UL/xas7PD1Wh1MUHIzKgdkms+xxVgParmFcXMtGvovw=",
+    "originContent": "The package can be installed by adding `lens` to your list of dependencies in `mix.exs`:",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "패키지는 `mix.exs`의 의존성 목록에 `lens`를 추가하여 설치할 수 있습니다:"
+  },
+  {
+    "row": 14,
+    "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+    "originContent": "```elixir",
+    "translatedContent": "```elixir"
+  },
+  {
+    "row": 15,
+    "rowsha": "LXoWx716BKDCw39rDG5FpyIM98248FSIYmWqq4J/lz8=",
+    "originContent": "def deps do",
+    "translatedContent": "def deps do"
+  },
+  {
+    "row": 16,
+    "rowsha": "JtfG/IxhmOISzTKDXAwFX3W3PXG1dP84czIBcFGWBqw=",
+    "originContent": "  [",
+    "translatedContent": "  ["
+  },
+  {
+    "row": 17,
+    "rowsha": "RD01mz9d1BebcVrNvM5zEtXsdIglP1ArMfI4j3IcUhk=",
+    "originContent": "    {:lens, \"~> 1.0.0\"}",
+    "translatedContent": "    {:lens, \"~> 1.0.0\"}"
+  },
+  {
+    "row": 18,
+    "rowsha": "Z+kA9vmM2PlCZvTIXMNBvSyUEN4PZY97Bt49YhDsI98=",
+    "originContent": "  ]",
+    "translatedContent": "  ]"
+  },
+  {
+    "row": 19,
+    "rowsha": "Nh5I0DCPIOMtul+1Yyi68Y1y7wzLQ7hPXCYtKmofxsg=",
+    "originContent": "end",
+    "translatedContent": "end"
+  },
+  {
+    "row": 20,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 업그레이드"
+  },
+  {
+    "row": 22,
+    "rowsha": "YABQOD1erQZLqjOyazYMw5DIqVxOfuVN5Gm75jUHDww=",
+    "originContent": "## Upgrading",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 0.6.0 이전 버전에서"
+  },
+  {
+    "row": 24,
+    "rowsha": "GB1sHRDQN4uc9W0fbMstkFJ4mEhoewj0mBJ3VysuVqI=",
+    "originContent": "### From pre-0.6.0",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "0.6.0 버전에서 `Lens.get` 함수가 제거되었습니다. 그 이유는 리스트를 단일 요소로 취급하거나 그 반대로 처리하는 버그가 매우 쉽게 발생했기 때문입니다. `Lens.get`을 사용하던 곳에서는 호출이 항상 정확히 하나의 요소를 반환해야 한다면 `Lens.one!`을 사용해야 하며(요소 수가 다르면 크래시가 발생합니다), 요소 수에 따라 다르게 동작하도록 하려면 `Lens.to_list`를 사용하고 결과에 대해 매칭해야 합니다."
+  },
+  {
+    "row": 26,
+    "rowsha": "2NAfuDUSGXZGGUy1YqzwHSKRBIjtcM/lVQN9PkZuRvU=",
+    "originContent": "In 0.6.0 the function `Lens.get` got removed. The reason was that it was very easy to create a bug where a list was",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "alOajhrhHnprQO6vNDakEN1NWPenS5ni1arzd28chWw=",
+    "originContent": "treated as a single element or vice-versa. Wherever you used `Lens.get` you now should either use `Lens.one!` if the",
+    "translatedContent": "### 0.5.0 이전 버전에서"
+  },
+  {
+    "row": 28,
+    "rowsha": "NbBZoeOV248I/49cdVGpN9k4PsCU5u4gHdJfrfy7zss=",
+    "originContent": "invocation should always return exactly one element (this will crash if there is any other number of elements) or",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "y0rVBZrBIDs/QqRVE1u1QoqN8oGrbGgjGIBEgnTVa2U=",
+    "originContent": "`Lens.to_list` and match on the result if you want to behave differently for different numbers of elements.",
+    "translatedContent": "0.5.0 버전에서 `satisfy` 함수가 `filter`로 이름이 변경되었고 이전 버전의 `filter`는 제거되었습니다. 이는 새로운 구성에서 `filter`/`reject` 함수 쌍이 일치하여 더 직관적이기 때문입니다. `Lens.filter(predicate)`를 사용하던 곳에서는 이제 `Lens.filter(Lens.all(), predicate)`를 사용할 수 있습니다."
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "17qg1hkO/nzIFtFKm1PTX1JrCSBKO8iR6Q8mBzR967U=",
+    "originContent": "### From pre-0.5.0",
+    "translatedContent": "## 예제"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "UeHGzF8DP4F83eJOBystYOSczlMsoPLYIBfZztcB9wo=",
+    "originContent": "In 0.5.0 the function `satisfy` got renamed to `filter` while the previous version of `filter` was removed. The reason",
+    "translatedContent": "Lens는 복잡한 데이터 구조의 어느 부분을 처리해야 하는지와 실제 처리를 분리할 수 있게 해줍니다. 다음을 예로 들어보겠습니다:"
+  },
+  {
+    "row": 34,
+    "rowsha": "zkxyr7pyzijNh7hWFN0nBc4BF3NwGQHRSk/iwyEJTPE=",
+    "originContent": "was that with the new arrangement there is a matching pair of `filter`/`reject` functions, and this should be more",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "B7ExH86ItiixrhDnlZPU/O4iDOAeWPGpftAe2TncZRw=",
+    "originContent": "intuitive. Wherever you used `Lens.filter(predicate)` you can now use `Lens.filter(Lens.all(), predicate)`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "m/NPRMnRNx9O2lad+gT/eDCv+Bz6gWRuaAzvCHcUzcE=",
+    "originContent": "## Example",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "dE/6x/fTWyZ743T1JPr1scsTmtik/80g+vQ0zQfjm8Q=",
+    "originContent": "Lens allows you to separate which parts of a complex data structure need to be processed from the actual",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "KehQmhlr02lxgduSkLtKS1fqVNjOh3h58PdFaTeUghM=",
+    "originContent": "processing. Take the following:",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+    "originContent": "```elixir",
+    "translatedContent": "```elixir"
+  },
+  {
+    "row": 43,
+    "rowsha": "tWxr2A9vSAc606N8NnWWS6HsDnECRYoOvBOzn1ghvxI=",
+    "originContent": "data = %{",
+    "translatedContent": "data = %{"
+  },
+  {
+    "row": 44,
+    "rowsha": "1+jP6bouwq106Ey1WGn7gsYSl2A93SxIbnefeX8iGbA=",
+    "originContent": "  main_widget: %{size: 200.5, subwidgets: [%{size: 120, subwidgets: [%{size: 200, subwidgets: []}]}]},",
+    "translatedContent": "  main_widget: %{size: 200.5, subwidgets: [%{size: 120, subwidgets: [%{size: 200, subwidgets: []}]}]},"
+  },
+  {
+    "row": 45,
+    "rowsha": "GghwCHTjN/0SSNY/RoQ0PaOoXqUH4FpA9Z36jE34Yd8=",
+    "originContent": "  other_widgets: [",
+    "translatedContent": "  other_widgets: ["
+  },
+  {
+    "row": 46,
+    "rowsha": "mJiDcD/HJc4Dnu7LoxzASFdtofqo+zttxM0Hw/Vjw4g=",
+    "originContent": "    %{size: 16.5, subwidgets: [%{size: 120, subwidgets: []}]},",
+    "translatedContent": "    %{size: 16.5, subwidgets: [%{size: 120, subwidgets: []}]},"
+  },
+  {
+    "row": 47,
+    "rowsha": "GI/piAGlQbB/00RalsG2PXGsGUH3W8p5wGCG0j7kIvo=",
+    "originContent": "    %{size: 160.5, subwidgets: []},",
+    "translatedContent": "    %{size: 160.5, subwidgets: []},"
+  },
+  {
+    "row": 48,
+    "rowsha": "5gz/iPwxV8ZBQKX21IYrn7e3okekP6FKzRKNO9A1Eig=",
+    "originContent": "    %{size: 121.9, subwidgets: []},",
+    "translatedContent": "    %{size: 121.9, subwidgets: []},"
+  },
+  {
+    "row": 49,
+    "rowsha": "Z+kA9vmM2PlCZvTIXMNBvSyUEN4PZY97Bt49YhDsI98=",
+    "originContent": "  ]",
+    "translatedContent": "  ]"
+  },
+  {
+    "row": 50,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 51,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "100보다 큰 모든 위젯(주요 위젯이든 다른 위젯이든)의 크기에 관심이 있다고 가정해 봅시다.  "
+  },
+  {
+    "row": 53,
+    "rowsha": "yW9zp+zezo/yc1tHZ8PiuOkzL5jg13DFCEkk+b9jJiw=",
+    "originContent": "Let's say we're interested in the sizes of all widgets (be they the main widget or other widgets) that are larger than 100.",
+    "translatedContent": "다음과 같이 데이터 구조 내 이러한 위치를 설명하는 `Lens` 객체를 구성할 수 있습니다:  "
+  },
+  {
+    "row": 54,
+    "rowsha": "ak6fJMTut53e5It50Cf1y2ZhFzD1wI36STAROfFtwIk=",
+    "originContent": "We can construct a `Lens` object that describes these locations in the datastructure the following way:",
+    "translatedContent": "  "
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+    "originContent": "```elixir",
+    "translatedContent": "```elixir"
+  },
+  {
+    "row": 57,
+    "rowsha": "fRW5+utiK8T/pOvDHJKI0i1RJpUn9kWbk8vqCGp7uz0=",
+    "originContent": "lens = Lens.both(",
+    "translatedContent": "lens = Lens.both("
+  },
+  {
+    "row": 58,
+    "rowsha": "oYsCcvMBj1hLEAcBkZovXmlQ1zKMcsEKpp1tEvNBheU=",
+    "originContent": "  Lens.key(:main_widget),",
+    "translatedContent": "  Lens.key(:main_widget),"
+  },
+  {
+    "row": 59,
+    "rowsha": "kCYo1Djmg258UMTuLcay6iMopB/TIu9PBxu/+sy2q9Y=",
+    "originContent": "  Lens.key(:other_widgets) |> Lens.all",
+    "translatedContent": "  Lens.key(:other_widgets) |> Lens.all"
+  },
+  {
+    "row": 60,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 61,
+    "rowsha": "cKLWH6KYN97prlenLEQPMHZRL7LXes4D2YxegQUr850=",
+    "originContent": "|> Lens.seq_both(Lens.recur(Lens.key(:subwidgets) |> Lens.all))",
+    "translatedContent": "|> Lens.seq_both(Lens.recur(Lens.key(:subwidgets) |> Lens.all))"
+  },
+  {
+    "row": 62,
+    "rowsha": "NMHX5LkLFAUf00VxECtPns88V36npuJmz7hn6Jpon9I=",
+    "originContent": "|> Lens.key(:size)",
+    "translatedContent": "|> Lens.key(:size)"
+  },
+  {
+    "row": 63,
+    "rowsha": "NaEfEJWbLAR8VcTEFeATdiQczTvgMRmbC60sKK8wUGM=",
+    "originContent": "|> Lens.filter(&(&1 > 100))",
+    "translatedContent": "|> Lens.filter(&(&1 > 100))"
+  },
+  {
+    "row": 64,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "uvGrUwNY2z+ejvRNI40V96KNEmQj37DGuDEQnkyybVs=",
+    "originContent": "Given that we can:",
+    "translatedContent": "다음과 같이 할 수 있다고 가정할 때:"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "oNBBZIX9fCL61ByuciBtCf0KA4kUXqyEVhLGPYX3FYQ=",
+    "originContent": "* Extract all the relevant data",
+    "translatedContent": "* 모든 관련 데이터를 추출한다"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+    "originContent": "```elixir",
+    "translatedContent": "```elixir"
+  },
+  {
+    "row": 71,
+    "rowsha": "oQw0BGqQvztXJJ6hp8bSB5/Ti/Fk9vcAiXSwSFTKcko=",
+    "originContent": "iex> Lens.to_list(lens, data)",
+    "translatedContent": "iex> Lens.to_list(lens, data)"
+  },
+  {
+    "row": 72,
+    "rowsha": "kSsmFi+Ru8xyOrQIdVbhqUpcUJj5JxwFd2VgjixpU5I=",
+    "originContent": "[200.5, 160.5, 121.9, 120, 200, 120]",
+    "translatedContent": "[200.5, 160.5, 121.9, 120, 200, 120]"
+  },
+  {
+    "row": 73,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* 데이터 구조 내 설명된 위치들을 업데이트하세요"
+  },
+  {
+    "row": 75,
+    "rowsha": "w2ZjTYe+PRaCBgUVTn2k8sExMF+hZ+B2B6O8UKo3AiY=",
+    "originContent": "* Update the described locations in the data structure",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+    "originContent": "```elixir",
+    "translatedContent": "```elixir"
+  },
+  {
+    "row": 78,
+    "rowsha": "1V89SF3wJ4Of3kkwTA/mT3OjxC6hlcx6AyRGNwp9yv0=",
+    "originContent": "iex> Lens.map(lens, data, &round/1)",
+    "translatedContent": "iex> Lens.map(lens, data, &round/1)"
+  },
+  {
+    "row": 79,
+    "rowsha": "o/hcYdi5lwKYDLeyuyDGN5PO4RD+zGxxXsRDPNaKOkM=",
+    "originContent": "%{main_widget: %{size: 201,",
+    "translatedContent": "%{main_widget: %{size: 201,"
+  },
+  {
+    "row": 80,
+    "rowsha": "QS5BtmiQyDRtgEWW0rq2lUOGQPQ6am8ZEjvZc8+jZ7Y=",
+    "originContent": "    subwidgets: [%{size: 120, subwidgets: [%{size: 200, subwidgets: []}]}]},",
+    "translatedContent": "    subwidgets: [%{size: 120, subwidgets: [%{size: 200, subwidgets: []}]}]},"
+  },
+  {
+    "row": 81,
+    "rowsha": "nYn6Mjb2diKstfBQho4+tawYSQGpbezzB4Nvqy1U8gQ=",
+    "originContent": "  other_widgets: [%{size: 16.5, subwidgets: [%{size: 120, subwidgets: []}]},",
+    "translatedContent": "  other_widgets: [%{size: 16.5, subwidgets: [%{size: 120, subwidgets: []}]},"
+  },
+  {
+    "row": 82,
+    "rowsha": "YYtsZBwJsRxmRXQdkW6MMF/Y/SFDJnRaR8VkxV5tYx4=",
+    "originContent": "   %{size: 161, subwidgets: []}, %{size: 122, subwidgets: []}]}",
+    "translatedContent": "   %{size: 161, subwidgets: []}, %{size: 122, subwidgets: []}]}"
+  },
+  {
+    "row": 83,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "P5mBzzcsx3QMbBiBwPbuPQW4rzm/v67E8ZHg/slYkJ8=",
+    "originContent": "* Simultaneously update and return something from every location in the data",
+    "translatedContent": "* 데이터의 모든 위치에서 동시에 업데이트하고 무언가를 반환하기"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+    "originContent": "```elixir",
+    "translatedContent": "```elixir"
+  },
+  {
+    "row": 88,
+    "rowsha": "zyXTaqsPvojSkqZc6SZTiJGBho16ikToVsc/e0zVZZs=",
+    "originContent": "iex> Lens.get_and_map(lens, data, fn size -> {size, round(size)} end)",
+    "translatedContent": "iex> Lens.get_and_map(lens, data, fn size -> {size, round(size)} end)"
+  },
+  {
+    "row": 89,
+    "rowsha": "rN2jI/P3SQ4a50yxuI9LOiUNVnlELpoRaVX7VTphGSc=",
+    "originContent": "{[200.5, 160.5, 121.9, 120, 200, 120],",
+    "translatedContent": "{[200.5, 160.5, 121.9, 120, 200, 120],"
+  },
+  {
+    "row": 90,
+    "rowsha": "LvHmcPCrXr6g9lhSzA34ej8CkrT2uqyqVTK2Oe4MP/4=",
+    "originContent": " %{main_widget: %{size: 201,",
+    "translatedContent": " %{main_widget: %{size: 201,"
+  },
+  {
+    "row": 91,
+    "rowsha": "r2TZf5xNDYEouJPdf7mew0fNwmTngtSh8GOlh+yajtU=",
+    "originContent": "     subwidgets: [%{size: 120, subwidgets: [%{size: 200, subwidgets: []}]}]},",
+    "translatedContent": "     subwidgets: [%{size: 120, subwidgets: [%{size: 200, subwidgets: []}]}]},"
+  },
+  {
+    "row": 92,
+    "rowsha": "i3DM05798RGbLRPVm+esA5kf9G8PM+654SCuZiUCqQk=",
+    "originContent": "   other_widgets: [%{size: 16.5, subwidgets: [%{size: 120, subwidgets: []}]},",
+    "translatedContent": "   other_widgets: [%{size: 16.5, subwidgets: [%{size: 120, subwidgets: []}]},"
+  },
+  {
+    "row": 93,
+    "rowsha": "VPiq9WX9OFdz8DaBRDg+0WNU2bxwlYAVDucIZoE6MDI=",
+    "originContent": "    %{size: 161, subwidgets: []}, %{size: 122, subwidgets: []}]}}",
+    "translatedContent": "    %{size: 161, subwidgets: []}, %{size: 122, subwidgets: []}]}}"
+  },
+  {
+    "row": 94,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "렌즈는 또한 `Access` 및 관련 `Kernel` 함수와도 호환됩니다:"
+  },
+  {
+    "row": 96,
+    "rowsha": "FJoYtEQh7KeJYyu5sJaUkJZbEQkg3oEnNuTM3q5FhKk=",
+    "originContent": "Lenses are also compatible with `Access` and associated `Kernel` functions:",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+    "originContent": "```elixir",
+    "translatedContent": "```elixir"
+  },
+  {
+    "row": 99,
+    "rowsha": "n36lntdm4zZYARL8WKLcwvKwqSE2kI7tpCoP9xBlTD8=",
+    "originContent": "iex> get_in([1, 2, 3], [Lens.all() |> Lens.filter(&Integer.is_odd/1)])",
+    "translatedContent": "iex> get_in([1, 2, 3], [Lens.all() |> Lens.filter(&Integer.is_odd/1)])"
+  },
+  {
+    "row": 100,
+    "rowsha": "TjlwAY+lAJIs5cCH+ExzTXtHsGUdovLhciaAGIWDgDI=",
+    "originContent": "[1, 3]",
+    "translatedContent": "[1, 3]"
+  },
+  {
+    "row": 101,
+    "rowsha": "Xy0IwTZq5hMFhOJOOIcm0BkOIjAOvV+HZKSDutn73dI=",
+    "originContent": "iex> update_in([1, 2, 3], [Lens.all() |> Lens.filter(&Integer.is_odd/1)], fn x -> x + 1 end)",
+    "translatedContent": "iex> update_in([1, 2, 3], [Lens.all() |> Lens.filter(&Integer.is_odd/1)], fn x -> x + 1 end)"
+  },
+  {
+    "row": 102,
+    "rowsha": "cKMGmcLmPxHr0g3KtlGiO+njqZuvM1i1U9xMqZn9lt4=",
+    "originContent": "[2, 2, 4]",
+    "translatedContent": "[2, 2, 4]"
+  },
+  {
+    "row": 103,
+    "rowsha": "Q9trm0ssRGBRKh31VocUOnYQp4veuft8r4qbs2uB/kQ=",
+    "originContent": "iex> get_and_update_in([1, 2, 3], [Lens.all() |> Lens.filter(&Integer.is_odd/1)], fn x -> {x - 1, x + 1} end)",
+    "translatedContent": "iex> get_and_update_in([1, 2, 3], [Lens.all() |> Lens.filter(&Integer.is_odd/1)], fn x -> {x - 1, x + 1} end)"
+  },
+  {
+    "row": 104,
+    "rowsha": "z1LrVyS+KPLPOT1IzyqDheh25bwmGijmu3/7YFFmj9Y=",
+    "originContent": "{[0, 2], [2, 2, 4]}",
+    "translatedContent": "{[0, 2], [2, 2, 4]}"
+  },
+  {
+    "row": 105,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "y4LnTJ4A/5peKGXKyhOrHXy2bFht/ZApdIkBMLNOIrg=",
+    "originContent": "## Formatting",
+    "translatedContent": "## 형식 지정"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "WfXHpoe7zGp4J9bhV0gcBqXyCn0qgLorLtXhjDr1cWg=",
+    "originContent": "Normally, `mix format` will change definitions like:",
+    "translatedContent": "보통 `mix format`는 다음과 같은 정의를 변경합니다:"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+    "originContent": "```elixir",
+    "translatedContent": "```elixir"
+  },
+  {
+    "row": 112,
+    "rowsha": "Cj+8NJI21tatDizvLFHu4p6KOiR1JXUJY2WUOCmQZxQ=",
+    "originContent": "deflens a_lens(), do: some() |> implementation()",
+    "translatedContent": "deflens a_lens(), do: some() |> implementation()"
+  },
+  {
+    "row": 113,
+    "rowsha": "nelKFqRl4cQ5AoEFvyJejILNlTfk78rngH33RxPS+tk=",
+    "originContent": "deflensp a_private_lens(), do: some() |> implementation()",
+    "translatedContent": "deflensp a_private_lens(), do: some() |> implementation()"
+  },
+  {
+    "row": 114,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "~으로:"
+  },
+  {
+    "row": 116,
+    "rowsha": "bcA6sb4kzIPYl4i3OrBCUl1feURGCcfufRjQY4QR+5I=",
+    "originContent": "into:",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+    "originContent": "```elixir",
+    "translatedContent": "```elixir"
+  },
+  {
+    "row": 119,
+    "rowsha": "DtTSB6jyHpNYQX36jEFmmuJWnCJgkDQD8E4Y4QA06tk=",
+    "originContent": "deflens(a_lens(), do: some() |> implementation())",
+    "translatedContent": "deflens(a_lens(), do: some() |> implementation())"
+  },
+  {
+    "row": 120,
+    "rowsha": "zF4jxwST9p+Zkfu8LKF7FH3ViDSDhtrLeklhzwIB5Z8=",
+    "originContent": "deflensp(a_private_lens(), do: some() |> implementation())",
+    "translatedContent": "deflensp(a_private_lens(), do: some() |> implementation())"
+  },
+  {
+    "row": 121,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 문제를 피하려면 `formatter.exs`에 lens의 포매터 설정을 가져올 수 있습니다:"
+  },
+  {
+    "row": 123,
+    "rowsha": "QiK6XY+fAWitrCMUX1xn9ScVTgeCs87B4baOtPFg+Wo=",
+    "originContent": "To avoid this, you can import lens's formatter settings in your `formatter.exs`:",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+    "originContent": "```elixir",
+    "translatedContent": "```elixir"
+  },
+  {
+    "row": 126,
+    "rowsha": "Rcx18fckExOiXMz2vRWY1YybR6h4sWs6LQHaSBjR8Yc=",
+    "originContent": "# my_app/.formatter.exs",
+    "translatedContent": "# my_app/.formatter.exs"
+  },
+  {
+    "row": 127,
+    "rowsha": "JFhDq++ecufvrDATiplL9jAefh19cEKjPULoY9JjiBE=",
+    "originContent": "[",
+    "translatedContent": "["
+  },
+  {
+    "row": 128,
+    "rowsha": "4Dw73mezAZMlZI1AYegpUmGmTxB+iHadt8Z1gK8Ni0U=",
+    "originContent": "  import_deps: [:lens]",
+    "translatedContent": "  import_deps: [:lens]"
+  },
+  {
+    "row": 129,
+    "rowsha": "z64NQkj3FC97F/gmzXpRkoDjEld2kOlXgw0j3PNaP/8=",
+    "originContent": "]",
+    "translatedContent": "]"
+  },
+  {
+    "row": 130,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

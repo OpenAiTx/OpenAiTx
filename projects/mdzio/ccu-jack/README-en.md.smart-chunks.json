@@ -1,0 +1,407 @@
+[
+  {
+    "Id": 1,
+    "Content": "# CCU-Jack\n\nCCU-Jack bietet einen einfachen und sicheren **REST**- und **MQTT**-basierten Zugriff auf die Datenpunkte der Zentrale (CCU) des [Hausautomations-Systems](http://de.wikipedia.org/wiki/Hausautomation) HomeMatic der Firma [eQ-3](http://www.eq-3.de/). Er implementiert dafür das [Very Easy Automation Protocol](https://github.com/mdzio/veap), welches von vielen Programmiersprachen leicht verwendet werden kann, und das [MQTT-Protokoll](https://de.wikipedia.org/wiki/MQTT), welches im Internet-of-Things weit verbreitet ist. Zudem können mit den genannten Protokollen auch Fremdgeräte an die CCU angebungen werden.\n\nFolgende Ziele verfolgt der CCU-Jack:\n\n**Der CCU-Jack soll anderen Applikationen einen einfachen Zugriff auf die Datenpunkte der CCU ermöglichen.** Beispielsweise werden für den Zugriff auf eine CCU mit HM-, HM-Wired- und HM-IP-Geräten insgesamt 9 Netzwerkverbindung, teilweise als Rückkanal und mit unterschiedlichen Protokollen, benötigt. Zudem sind die Netzwerkschnittstellen der CCU unverschlüsselt, wodurch sie nicht in der Firewall der CCU freigeschaltet werden sollten. Der CCU-Jack standardisiert den Zugriff auf alle Geräte und Systemvariablen mit einem einheitlichen Protokoll und über eine verschlüsselte Verbindung.\n\n**Zudem sollen möglichst einfach Fremdgeräte (z.B. WLAN-Steckdosen) an die CCU angebunden und mit dieser automatisiert werden.** Angebundenen Fremdgeräte werden auf der CCU wie originale HM-Geräte dargestellt. Sie können über die Web-UI der CCU genauso bedient und beobachtet werden. Zudem können sie ohne Einschränkungen in CCU-Programmen verwendet werden.\n\n**Mehrere CCUs und andere Automatisierungsgeräte mit MQTT-Server können über den CCU-Jack untereinander vernetzt werden und Wertänderungen austauschen.** Dafür stellt der CCU-Jack eine MQTT-Bridge zur Verfügung. CCUs können auch mit einem MQTT-Server in der Cloud verbunden werden.\n\nFunktional ist der CCU-Jack eine Alternative zum [XML-API Add-On](https://github.com/jens-maus/XML-API). Das XML-API Add-On wird seit längerer Zeit nicht mehr weiter entwickelt und enthält nicht behobene Fehler und Sicherheitslücken. Zudem kann der CCU-Jack die Kombination der zwei Add-Ons [hm2mqtt](https://github.com/owagner/hm2mqtt) und [Mosquitto](https://github.com/hobbyquaker/ccu-addon-mosquitto) ersetzen. Das Add-On hm2mqtt wird ebenfalls seit längerer Zeit nicht mehr weiter entwickelt.\n\nBezügliche der Anbindung von Fremdgeräten ersetzt der CCU-Jack viele komplizierte und aufwändige Lösungen und bietet gleichzeitig mehr Funktionaliät.\n\n# Anwenderhandbuch\n\nAlle Informationen für Anwender (z.B. Installation, Konfiguration) sind im [**Anwenderhandbuch**](https://github.com/mdzio/ccu-jack/wiki) zu finden. Dies sollte vor der Installation gelesen werden!\n\n# Download\n\nDie offiziell herausgegeben Versionen vom CCU-Jack sind rechts unter [Releases](https://github.com/mdzio/ccu-jack/releases) zu finden.\n\nVorabversionen, die dem letzten Entwicklungsstand entsprechen, sind unter [Actions](https://github.com/mdzio/ccu-jack/actions) zu finden. Dort einen _Workflow_ auswählen, und dann ist der Download für alle Plattformen unter _Artifacts_ zu finden. Diese Versionen enthalten schon früh neue Funktionalitäten oder Fehlerbehebungen. Allerdings sind sie nicht getestet!\n\n# Umfeld vom CCU-Jack\n\nIm Zusammenhang mit dem CCU-Jack sind weitere Projekt von anderen entstanden:\n* [CCU-Jack to HomeAssistant](https://github.com/kaistraube/ccujack_homeassistant) (Anbindung der HomeMatic CCU an HomeAssistant über den CCU-Jack)\n* [node-red-contrib-ccu-jack](https://github.com/ptweety/node-red-contrib-ccu-jack) (Anbindung der HomeMatic CCU an Node-RED über den CCU-Jack)\n* [ngx-ccu-jack-client](https://github.com/pottio/ngx-ccu-jack-client) (Integration des CCU-Jacks in Angular-Anwendung)\n\n# Entwicklung\n\n## Bauen aus den Quellen\n\nDer CCU-Jack ist in der [Programmiersprache Go](https://golang.org/) geschrieben. Alle Distributionen des CCU-Jacks können sehr einfach und schnell auf allen möglichen Plattformen (u.a. Windows, Linux, MacOS) gebaut werden. Dafür in einem beliebigen Verzeichnis das Git-Repository klonen, oder die Quellen hinein kopieren. Danach in diesem Verzeichnis eine Kommandozeile öffnen, und folgende Befehle eingeben:",
+    "ContentSha": "fWqWINlLtK1desA8fMH0BfqFj1fzcqAJlrxY6/pem78=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# CCU-Jack\n\nCCU-Jack provides a simple and secure **REST** and **MQTT**-based access to the data points of the central unit (CCU) of the [home automation system](http://de.wikipedia.org/wiki/Hausautomation) HomeMatic by the company [eQ-3](http://www.eq-3.de/). It implements the [Very Easy Automation Protocol](https://github.com/mdzio/veap), which can be easily used by many programming languages, and the [MQTT protocol](https://de.wikipedia.org/wiki/MQTT), which is widely used in the Internet of Things. In addition, foreign devices can also be connected to the CCU using the mentioned protocols.\n\nThe following goals are pursued by CCU-Jack:\n\n**CCU-Jack should enable other applications to easily access the data points of the CCU.** For example, accessing a CCU with HM, HM-Wired, and HM-IP devices requires a total of 9 network connections, partly as return channels and with different protocols. In addition, the network interfaces of the CCU are unencrypted, so they should not be opened in the CCU firewall. CCU-Jack standardizes access to all devices and system variables with a uniform protocol and over an encrypted connection.\n\n**Furthermore, foreign devices (e.g., WLAN sockets) should be connected to the CCU and automated with it as simply as possible.** Connected foreign devices are presented on the CCU like original HM devices. They can be operated and monitored via the CCU’s web UI in the same way. In addition, they can be used without restrictions in CCU programs.\n\n**Multiple CCUs and other automation devices with MQTT servers can be networked with each other via CCU-Jack and exchange value changes.** For this, CCU-Jack provides an MQTT bridge. CCUs can also be connected to an MQTT server in the cloud.\n\nFunctionally, CCU-Jack is an alternative to the [XML-API Add-On](https://github.com/jens-maus/XML-API). The XML-API Add-On has not been further developed for a long time and contains unresolved errors and security vulnerabilities. In addition, CCU-Jack can replace the combination of the two add-ons [hm2mqtt](https://github.com/owagner/hm2mqtt) and [Mosquitto](https://github.com/hobbyquaker/ccu-addon-mosquitto). The hm2mqtt add-on has also not been further developed for a long time.\n\nRegarding the connection of foreign devices, CCU-Jack replaces many complicated and elaborate solutions while offering more functionality at the same time.\n\n# User Manual\n\nAll information for users (e.g., installation, configuration) can be found in the [**User Manual**](https://github.com/mdzio/ccu-jack/wiki). This should be read before installation!\n\n# Download\n\nThe officially released versions of CCU-Jack can be found on the right under [Releases](https://github.com/mdzio/ccu-jack/releases).\n\nPre-release versions that correspond to the latest development status can be found under [Actions](https://github.com/mdzio/ccu-jack/actions). Select a _workflow_ there, and then the download for all platforms is found under _Artifacts_. These versions already contain early new functionalities or bug fixes. However, they are not tested!\n\n# CCU-Jack Environment\n\nOther projects by others have emerged in connection with CCU-Jack:\n* [CCU-Jack to HomeAssistant](https://github.com/kaistraube/ccujack_homeassistant) (Connection of HomeMatic CCU to HomeAssistant via CCU-Jack)\n* [node-red-contrib-ccu-jack](https://github.com/ptweety/node-red-contrib-ccu-jack) (Connection of HomeMatic CCU to Node-RED via CCU-Jack)\n* [ngx-ccu-jack-client](https://github.com/pottio/ngx-ccu-jack-client) (Integration of CCU-Jack into Angular applications)\n\n# Development\n\n## Building from Source\n\nCCU-Jack is written in the [Go programming language](https://golang.org/). All distributions of CCU-Jack can be built very easily and quickly on all possible platforms (including Windows, Linux, MacOS). For this, clone the Git repository in any directory or copy the sources into it. Then open a command line in this directory and enter the following commands:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "PVC9m9edvZGDoek4tGabnzReJ4OzRNn5PEbbRMS5otk=",
+        "originContent": "# CCU-Jack",
+        "translatedContent": "# CCU-Jack"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Cl0jEF0hHr9s0JttgOtPKJS5gQFhJP3bV8w1QNRoq/4=",
+        "originContent": "CCU-Jack bietet einen einfachen und sicheren **REST**- und **MQTT**-basierten Zugriff auf die Datenpunkte der Zentrale (CCU) des [Hausautomations-Systems](http://de.wikipedia.org/wiki/Hausautomation) HomeMatic der Firma [eQ-3](http://www.eq-3.de/). Er implementiert dafür das [Very Easy Automation Protocol](https://github.com/mdzio/veap), welches von vielen Programmiersprachen leicht verwendet werden kann, und das [MQTT-Protokoll](https://de.wikipedia.org/wiki/MQTT), welches im Internet-of-Things weit verbreitet ist. Zudem können mit den genannten Protokollen auch Fremdgeräte an die CCU angebungen werden.",
+        "translatedContent": "CCU-Jack provides a simple and secure **REST** and **MQTT**-based access to the data points of the central unit (CCU) of the [home automation system](http://de.wikipedia.org/wiki/Hausautomation) HomeMatic by the company [eQ-3](http://www.eq-3.de/). It implements the [Very Easy Automation Protocol](https://github.com/mdzio/veap), which can be easily used by many programming languages, and the [MQTT protocol](https://de.wikipedia.org/wiki/MQTT), which is widely used in the Internet of Things. In addition, foreign devices can also be connected to the CCU using the mentioned protocols."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "UNQTnRXsoZgKIhEE13LTDMSBiFxDWRAnnh9oCaKtKck=",
+        "originContent": "Folgende Ziele verfolgt der CCU-Jack:",
+        "translatedContent": "The following goals are pursued by CCU-Jack:"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "c2PI1treX4sP0CS7SxkRQnNsmAlhlfT4LScOYqgtL3Q=",
+        "originContent": "**Der CCU-Jack soll anderen Applikationen einen einfachen Zugriff auf die Datenpunkte der CCU ermöglichen.** Beispielsweise werden für den Zugriff auf eine CCU mit HM-, HM-Wired- und HM-IP-Geräten insgesamt 9 Netzwerkverbindung, teilweise als Rückkanal und mit unterschiedlichen Protokollen, benötigt. Zudem sind die Netzwerkschnittstellen der CCU unverschlüsselt, wodurch sie nicht in der Firewall der CCU freigeschaltet werden sollten. Der CCU-Jack standardisiert den Zugriff auf alle Geräte und Systemvariablen mit einem einheitlichen Protokoll und über eine verschlüsselte Verbindung.",
+        "translatedContent": "**CCU-Jack should enable other applications to easily access the data points of the CCU.** For example, accessing a CCU with HM, HM-Wired, and HM-IP devices requires a total of 9 network connections, partly as return channels and with different protocols. In addition, the network interfaces of the CCU are unencrypted, so they should not be opened in the CCU firewall. CCU-Jack standardizes access to all devices and system variables with a uniform protocol and over an encrypted connection."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "1WjRNjUA53vfY9zXSFyrY+gOal+YwpRzWXlLyzXnnZM=",
+        "originContent": "**Zudem sollen möglichst einfach Fremdgeräte (z.B. WLAN-Steckdosen) an die CCU angebunden und mit dieser automatisiert werden.** Angebundenen Fremdgeräte werden auf der CCU wie originale HM-Geräte dargestellt. Sie können über die Web-UI der CCU genauso bedient und beobachtet werden. Zudem können sie ohne Einschränkungen in CCU-Programmen verwendet werden.",
+        "translatedContent": "**Furthermore, foreign devices (e.g., WLAN sockets) should be connected to the CCU and automated with it as simply as possible.** Connected foreign devices are presented on the CCU like original HM devices. They can be operated and monitored via the CCU’s web UI in the same way. In addition, they can be used without restrictions in CCU programs."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "qr9GWDU1NGLC9e1lSTK9qw4SHk6XLd9WbDBtF65zPsg=",
+        "originContent": "**Mehrere CCUs und andere Automatisierungsgeräte mit MQTT-Server können über den CCU-Jack untereinander vernetzt werden und Wertänderungen austauschen.** Dafür stellt der CCU-Jack eine MQTT-Bridge zur Verfügung. CCUs können auch mit einem MQTT-Server in der Cloud verbunden werden.",
+        "translatedContent": "**Multiple CCUs and other automation devices with MQTT servers can be networked with each other via CCU-Jack and exchange value changes.** For this, CCU-Jack provides an MQTT bridge. CCUs can also be connected to an MQTT server in the cloud."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "VqXgTWKxd7iv9MDzwfHEraz+KyYYIzwxMsyw/oK+WuQ=",
+        "originContent": "Funktional ist der CCU-Jack eine Alternative zum [XML-API Add-On](https://github.com/jens-maus/XML-API). Das XML-API Add-On wird seit längerer Zeit nicht mehr weiter entwickelt und enthält nicht behobene Fehler und Sicherheitslücken. Zudem kann der CCU-Jack die Kombination der zwei Add-Ons [hm2mqtt](https://github.com/owagner/hm2mqtt) und [Mosquitto](https://github.com/hobbyquaker/ccu-addon-mosquitto) ersetzen. Das Add-On hm2mqtt wird ebenfalls seit längerer Zeit nicht mehr weiter entwickelt.",
+        "translatedContent": "Functionally, CCU-Jack is an alternative to the [XML-API Add-On](https://github.com/jens-maus/XML-API). The XML-API Add-On has not been further developed for a long time and contains unresolved errors and security vulnerabilities. In addition, CCU-Jack can replace the combination of the two add-ons [hm2mqtt](https://github.com/owagner/hm2mqtt) and [Mosquitto](https://github.com/hobbyquaker/ccu-addon-mosquitto). The hm2mqtt add-on has also not been further developed for a long time."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "h6KgYSfBekxAFexDKpCiAxPYSfNLXgtDWAOXrbur8ik=",
+        "originContent": "Bezügliche der Anbindung von Fremdgeräten ersetzt der CCU-Jack viele komplizierte und aufwändige Lösungen und bietet gleichzeitig mehr Funktionaliät.",
+        "translatedContent": "Regarding the connection of foreign devices, CCU-Jack replaces many complicated and elaborate solutions while offering more functionality at the same time."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "b2vT6dZnFuVLvET4Ie6SJWN7/pkZwbe7X5qtQrJLiwM=",
+        "originContent": "# Anwenderhandbuch",
+        "translatedContent": "# User Manual"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "NVi6ewABqpQoQaEtiYAqxFxPcgrhvRg15DsAeEph7q0=",
+        "originContent": "Alle Informationen für Anwender (z.B. Installation, Konfiguration) sind im [**Anwenderhandbuch**](https://github.com/mdzio/ccu-jack/wiki) zu finden. Dies sollte vor der Installation gelesen werden!",
+        "translatedContent": "All information for users (e.g., installation, configuration) can be found in the [**User Manual**](https://github.com/mdzio/ccu-jack/wiki). This should be read before installation!"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "Qj7F4aet/k92ysMipz1jbNDOjF0v0NB6W78oGZx4PQI=",
+        "originContent": "# Download",
+        "translatedContent": "# Download"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "dwem6c2Iq45EutgvaTXznsbfTLEGIcadhN7MR2DMxoY=",
+        "originContent": "Die offiziell herausgegeben Versionen vom CCU-Jack sind rechts unter [Releases](https://github.com/mdzio/ccu-jack/releases) zu finden.",
+        "translatedContent": "The officially released versions of CCU-Jack can be found on the right under [Releases](https://github.com/mdzio/ccu-jack/releases)."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "yj8lO8+JYCwZz8BAM/5n7wAOR1qI8esaCqDe/iI16Sw=",
+        "originContent": "Vorabversionen, die dem letzten Entwicklungsstand entsprechen, sind unter [Actions](https://github.com/mdzio/ccu-jack/actions) zu finden. Dort einen _Workflow_ auswählen, und dann ist der Download für alle Plattformen unter _Artifacts_ zu finden. Diese Versionen enthalten schon früh neue Funktionalitäten oder Fehlerbehebungen. Allerdings sind sie nicht getestet!",
+        "translatedContent": "Pre-release versions that correspond to the latest development status can be found under [Actions](https://github.com/mdzio/ccu-jack/actions). Select a _workflow_ there, and then the download for all platforms is found under _Artifacts_. These versions already contain early new functionalities or bug fixes. However, they are not tested!"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "WVRQhENvfqNVJFvq842yQ46MvRIsoLLu3wnAw90iF/w=",
+        "originContent": "# Umfeld vom CCU-Jack",
+        "translatedContent": "# CCU-Jack Environment"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "Pxvgsq6V7AL3KVvGc6joV7D+vWlqwE4KMmRKt4PuC+c=",
+        "originContent": "Im Zusammenhang mit dem CCU-Jack sind weitere Projekt von anderen entstanden:",
+        "translatedContent": "Other projects by others have emerged in connection with CCU-Jack:"
+      },
+      {
+        "row": 30,
+        "rowsha": "51eRqJA+C8V6zpR8IbqRwBeYpPiZXNKD7eofKLMWK4E=",
+        "originContent": "* [CCU-Jack to HomeAssistant](https://github.com/kaistraube/ccujack_homeassistant) (Anbindung der HomeMatic CCU an HomeAssistant über den CCU-Jack)",
+        "translatedContent": "* [CCU-Jack to HomeAssistant](https://github.com/kaistraube/ccujack_homeassistant) (Connection of HomeMatic CCU to HomeAssistant via CCU-Jack)"
+      },
+      {
+        "row": 31,
+        "rowsha": "oS5FWJCJcjz/iihZxJy870AB9lwJJ3ohJQUaCD2v6hM=",
+        "originContent": "* [node-red-contrib-ccu-jack](https://github.com/ptweety/node-red-contrib-ccu-jack) (Anbindung der HomeMatic CCU an Node-RED über den CCU-Jack)",
+        "translatedContent": "* [node-red-contrib-ccu-jack](https://github.com/ptweety/node-red-contrib-ccu-jack) (Connection of HomeMatic CCU to Node-RED via CCU-Jack)"
+      },
+      {
+        "row": 32,
+        "rowsha": "lm985nf0F5K+6Y2g3H6iDLoSlLIZg+0oSE22e9UznRA=",
+        "originContent": "* [ngx-ccu-jack-client](https://github.com/pottio/ngx-ccu-jack-client) (Integration des CCU-Jacks in Angular-Anwendung)",
+        "translatedContent": "* [ngx-ccu-jack-client](https://github.com/pottio/ngx-ccu-jack-client) (Integration of CCU-Jack into Angular applications)"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "TSdGeZSfDfbZiYInCfP7PkyoSn6u7ihL05O4/evLo2M=",
+        "originContent": "# Entwicklung",
+        "translatedContent": "# Development"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "Bl9F/ODd/o7JP+hvTM6lhUjJmdWU3g2afKurfNRpoiw=",
+        "originContent": "## Bauen aus den Quellen",
+        "translatedContent": "## Building from Source"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "cagktcu/siFmKenfw0aDJ7Jzh8XhDnOal6GaceZzjno=",
+        "originContent": "Der CCU-Jack ist in der [Programmiersprache Go](https://golang.org/) geschrieben. Alle Distributionen des CCU-Jacks können sehr einfach und schnell auf allen möglichen Plattformen (u.a. Windows, Linux, MacOS) gebaut werden. Dafür in einem beliebigen Verzeichnis das Git-Repository klonen, oder die Quellen hinein kopieren. Danach in diesem Verzeichnis eine Kommandozeile öffnen, und folgende Befehle eingeben:",
+        "translatedContent": "CCU-Jack is written in the [Go programming language](https://golang.org/). All distributions of CCU-Jack can be built very easily and quickly on all possible platforms (including Windows, Linux, MacOS). For this, clone the Git repository in any directory or copy the sources into it. Then open a command line in this directory and enter the following commands:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\ncd build\ngo run .\n```",
+    "ContentSha": "0bjyGR8NR/CoP0Evml4JVebwhVmCnzSgjRF2njGeHFE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncd build\ngo run .\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "2E91V0MAwN4o4nI9U0XkQPFhdwGamzSnsb7s2xe+3Uw=",
+        "originContent": "cd build",
+        "translatedContent": "cd build"
+      },
+      {
+        "row": 3,
+        "rowsha": "hAplQ6cqt6Lu8fTz2s9nVoOeL0Ctz03Cir+fvcMlaPQ=",
+        "originContent": "go run .",
+        "translatedContent": "go run ."
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "In dem Hauptverzeichnis werden dann alle Distributionen gebaut.\n\nFür die Entwicklung bietet sich die Entwicklungsumgebug [Visual Studio Code](https://code.visualstudio.com/) an. Einfach das Hauptverzeichnis öffnen. Die nötigen Extensions werden automatisch zur Installation angeboten.\n\n## Mitwirkung\n\nMitwirkende sind natürlich gerne gesehen. Sei es für die Dokumentation, das Testen, den Support im [HomeMatic-Forum](https://homematic-forum.de/forum/viewtopic.php?f=41&t=53553), die Fehlerbehebung oder die Implementierung neuer Funktionalität. Für Code-Beiträge ist die Lizenz (GPL v3) zu beachten. Code-Beiträge sollten immer auf einem neuen Branch separat vom `master`-Branch entwickelt werden.\n\n## Autoren\n\n* [Mathias Dz.](https://github.com/mdzio)\n* [martgras](https://github.com/martgras) (Raspberry Pi 4, Zertifikatsbehandlung)\n* [twendt](https://github.com/twendt) (BIN-RPC für CUxD)\n* [Theta Gamma](https://github.com/ThetaGamma) (Docker-Image)\n\n## Lizenz und Haftungsausschluss\n\nLizenz und Haftungsausschluss sind in der Datei [LICENSE.txt](https://raw.githubusercontent.com/mdzio/ccu-jack/master/LICENSE.txt) zu finden.\n",
+    "ContentSha": "9eVy40SMQ4wtdPRY5UWwq5XTVl3uVbFBfPmQOrww/H4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "All distributions are then built in the main directory.\n\nFor development, the development environment [Visual Studio Code](https://code.visualstudio.com/) is recommended. Simply open the main directory. The necessary extensions will be automatically offered for installation.\n\n## Contribution\n\nContributors are of course welcome. Whether for documentation, testing, support in the [HomeMatic forum](https://homematic-forum.de/forum/viewtopic.php?f=41&t=53553), debugging, or implementing new functionality. For code contributions, the license (GPL v3) must be observed. Code contributions should always be developed on a new branch separate from the `master` branch.\n\n## Authors\n\n* [Mathias Dz.](https://github.com/mdzio)\n* [martgras](https://github.com/martgras) (Raspberry Pi 4, certificate handling)\n* [twendt](https://github.com/twendt) (BIN-RPC for CUxD)\n* [Theta Gamma](https://github.com/ThetaGamma) (Docker image)\n\n## License and Disclaimer\n\nLicense and disclaimer can be found in the file [LICENSE.txt](https://raw.githubusercontent.com/mdzio/ccu-jack/master/LICENSE.txt).\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "LmW2nU7IlcNoX2Fzk27+MZ1ImNTQjSMfEODvo0SQUII=",
+        "originContent": "In dem Hauptverzeichnis werden dann alle Distributionen gebaut.",
+        "translatedContent": "All distributions are then built in the main directory."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "QVy4GFerNmC0S/yD+Ta+6lAVR0TwIMo7EnFhRCXjG9c=",
+        "originContent": "Für die Entwicklung bietet sich die Entwicklungsumgebug [Visual Studio Code](https://code.visualstudio.com/) an. Einfach das Hauptverzeichnis öffnen. Die nötigen Extensions werden automatisch zur Installation angeboten.",
+        "translatedContent": "For development, the development environment [Visual Studio Code](https://code.visualstudio.com/) is recommended. Simply open the main directory. The necessary extensions will be automatically offered for installation."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "aO72aDcuiMOv+DBxJTLKJ9WH15Ay+CowbIy1hQuw/LE=",
+        "originContent": "## Mitwirkung",
+        "translatedContent": "## Contribution"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "P/eoUdTHbFCZ/M/Qjukg9aOCuX4qQfdia/XnaQaTtcY=",
+        "originContent": "Mitwirkende sind natürlich gerne gesehen. Sei es für die Dokumentation, das Testen, den Support im [HomeMatic-Forum](https://homematic-forum.de/forum/viewtopic.php?f=41&t=53553), die Fehlerbehebung oder die Implementierung neuer Funktionalität. Für Code-Beiträge ist die Lizenz (GPL v3) zu beachten. Code-Beiträge sollten immer auf einem neuen Branch separat vom `master`-Branch entwickelt werden.",
+        "translatedContent": "Contributors are of course welcome. Whether for documentation, testing, support in the [HomeMatic forum](https://homematic-forum.de/forum/viewtopic.php?f=41&t=53553), debugging, or implementing new functionality. For code contributions, the license (GPL v3) must be observed. Code contributions should always be developed on a new branch separate from the `master` branch."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "dZko8C47d6Pj0DMaE4GTQ/e9XyXZwXvEgvYw1iMNHlM=",
+        "originContent": "## Autoren",
+        "translatedContent": "## Authors"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "/5M58gh/eFRDF1TQ/iE531H4wq1IpxUmVbX+drGug68=",
+        "originContent": "* [Mathias Dz.](https://github.com/mdzio)",
+        "translatedContent": "* [Mathias Dz.](https://github.com/mdzio)"
+      },
+      {
+        "row": 12,
+        "rowsha": "rofqEUtp4HHRwmcJqbm+25cMPs8ruAIh1sKEbnN0clw=",
+        "originContent": "* [martgras](https://github.com/martgras) (Raspberry Pi 4, Zertifikatsbehandlung)",
+        "translatedContent": "* [martgras](https://github.com/martgras) (Raspberry Pi 4, certificate handling)"
+      },
+      {
+        "row": 13,
+        "rowsha": "yjfJ2G4UNliBwtuQygxWfz/pPcEfwh2y3EWf/WANNTM=",
+        "originContent": "* [twendt](https://github.com/twendt) (BIN-RPC für CUxD)",
+        "translatedContent": "* [twendt](https://github.com/twendt) (BIN-RPC for CUxD)"
+      },
+      {
+        "row": 14,
+        "rowsha": "7I7+nrx3jotbaRnc0ZN+CPleTgJDKPVJN4no7Ft45wQ=",
+        "originContent": "* [Theta Gamma](https://github.com/ThetaGamma) (Docker-Image)",
+        "translatedContent": "* [Theta Gamma](https://github.com/ThetaGamma) (Docker image)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "fMc4qqcMESsRa1qjehxJ/Kpr1Uhtcx0ZyvGvSsUfX8E=",
+        "originContent": "## Lizenz und Haftungsausschluss",
+        "translatedContent": "## License and Disclaimer"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "ljqF1SDaSYCiI0kwQOykjoX/7YuOUNt/cL+81MJ+Id0=",
+        "originContent": "Lizenz und Haftungsausschluss sind in der Datei [LICENSE.txt](https://raw.githubusercontent.com/mdzio/ccu-jack/master/LICENSE.txt) zu finden.",
+        "translatedContent": "License and disclaimer can be found in the file [LICENSE.txt](https://raw.githubusercontent.com/mdzio/ccu-jack/master/LICENSE.txt)."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

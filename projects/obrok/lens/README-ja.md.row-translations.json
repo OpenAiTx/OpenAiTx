@@ -1,0 +1,788 @@
+[
+  {
+    "row": 1,
+    "rowsha": "GrlVm13A1C7q9OLwIWsVf8fYXwoGzM5O0J/23D0x1Lg=",
+    "originContent": "# Lens",
+    "translatedContent": "# Lens"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "0hjukpBtIuJRJxxdt1BItrQ3S5Dwz0omlgBCvMmOZpY=",
+    "originContent": "[![Hex.pm](http://img.shields.io/hexpm/v/lens.svg)](https://hex.pm/packages/lens) [![Hex.pm](http://img.shields.io/hexpm/dt/lens.svg)](https://hex.pm/packages/lens)",
+    "translatedContent": "[![Hex.pm](http://img.shields.io/hexpm/v/lens.svg)](https://hex.pm/packages/lens) [![Hex.pm](http://img.shields.io/hexpm/dt/lens.svg)](https://hex.pm/packages/lens)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "iC9ZdK8xtrN/1+bio2avdJAKB0xmOMZTd9Spmak3vbg=",
+    "originContent": "A utility for working with nested data structures. Take a look at",
+    "translatedContent": "ネストされたデータ構造を操作するためのユーティリティです。"
+  },
+  {
+    "row": 6,
+    "rowsha": "7Qtz1ZaLis9yU4pknM8qFkJhOm2030vDT9t1vXqUfFg=",
+    "originContent": "[Nested data structures with functional lenses](https://yapee.svbtle.com/nested-data-structures-with-lens)",
+    "translatedContent": "[Nested data structures with functional lenses](https://yapee.svbtle.com/nested-data-structures-with-lens)"
+  },
+  {
+    "row": 7,
+    "rowsha": "mn0fwVtiApCz9d+VN2u7s9TZDovoe9FIYwvk/tUei70=",
+    "originContent": "for a gentler introduction. Note that the blogpost was written using version `0.3.1` and there have been some API",
+    "translatedContent": "でより優しく紹介しています。ブログ記事はバージョン `0.3.1` を使って書かれており、その後APIに"
+  },
+  {
+    "row": 8,
+    "rowsha": "LqWniGEWrUBhAlY7G5zeldgieoVLCsIZRk6ykBOA/9A=",
+    "originContent": "changes since then - see [Upgrading](#upgrading) for details.",
+    "translatedContent": "変更があります—詳細は [Upgrading](#upgrading) を参照してください。"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## インストール"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "UL/xas7PD1Wh1MUHIzKgdkms+xxVgParmFcXMtGvovw=",
+    "originContent": "The package can be installed by adding `lens` to your list of dependencies in `mix.exs`:",
+    "translatedContent": "`mix.exs` の依存リストに `lens` を追加することでパッケージをインストールできます："
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+    "originContent": "```elixir",
+    "translatedContent": "```elixir"
+  },
+  {
+    "row": 15,
+    "rowsha": "LXoWx716BKDCw39rDG5FpyIM98248FSIYmWqq4J/lz8=",
+    "originContent": "def deps do",
+    "translatedContent": "def deps do"
+  },
+  {
+    "row": 16,
+    "rowsha": "JtfG/IxhmOISzTKDXAwFX3W3PXG1dP84czIBcFGWBqw=",
+    "originContent": "  [",
+    "translatedContent": "  ["
+  },
+  {
+    "row": 17,
+    "rowsha": "RD01mz9d1BebcVrNvM5zEtXsdIglP1ArMfI4j3IcUhk=",
+    "originContent": "    {:lens, \"~> 1.0.0\"}",
+    "translatedContent": "    {:lens, \"~> 1.0.0\"}"
+  },
+  {
+    "row": 18,
+    "rowsha": "Z+kA9vmM2PlCZvTIXMNBvSyUEN4PZY97Bt49YhDsI98=",
+    "originContent": "  ]",
+    "translatedContent": "  ]"
+  },
+  {
+    "row": 19,
+    "rowsha": "Nh5I0DCPIOMtul+1Yyi68Y1y7wzLQ7hPXCYtKmofxsg=",
+    "originContent": "end",
+    "translatedContent": "end"
+  },
+  {
+    "row": 20,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## アップグレード"
+  },
+  {
+    "row": 22,
+    "rowsha": "YABQOD1erQZLqjOyazYMw5DIqVxOfuVN5Gm75jUHDww=",
+    "originContent": "## Upgrading",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 0.6.0以前から"
+  },
+  {
+    "row": 24,
+    "rowsha": "GB1sHRDQN4uc9W0fbMstkFJ4mEhoewj0mBJ3VysuVqI=",
+    "originContent": "### From pre-0.6.0",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "0.6.0では関数 `Lens.get` が削除されました。理由は、リストを単一要素として扱ったりその逆をしたりするバグを簡単に作成してしまうためです。`Lens.get` を使っていた箇所では、呼び出しが常に正確に1つの要素を返すべき場合は `Lens.one!` を使うべきです（要素数が異なる場合はクラッシュします）。異なる要素数に対して異なる動作をしたい場合は `Lens.to_list` を使い、その結果にマッチさせてください。"
+  },
+  {
+    "row": 26,
+    "rowsha": "2NAfuDUSGXZGGUy1YqzwHSKRBIjtcM/lVQN9PkZuRvU=",
+    "originContent": "In 0.6.0 the function `Lens.get` got removed. The reason was that it was very easy to create a bug where a list was",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "alOajhrhHnprQO6vNDakEN1NWPenS5ni1arzd28chWw=",
+    "originContent": "treated as a single element or vice-versa. Wherever you used `Lens.get` you now should either use `Lens.one!` if the",
+    "translatedContent": "### 0.5.0以前から"
+  },
+  {
+    "row": 28,
+    "rowsha": "NbBZoeOV248I/49cdVGpN9k4PsCU5u4gHdJfrfy7zss=",
+    "originContent": "invocation should always return exactly one element (this will crash if there is any other number of elements) or",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "y0rVBZrBIDs/QqRVE1u1QoqN8oGrbGgjGIBEgnTVa2U=",
+    "originContent": "`Lens.to_list` and match on the result if you want to behave differently for different numbers of elements.",
+    "translatedContent": "0.5.0では関数 `satisfy` が `filter` に名前変更され、以前の `filter` は削除されました。理由は、新しい構成では対になる `filter`/`reject` 関数が存在し、より直感的になるためです。`Lens.filter(predicate)` を使っていた箇所は、今では `Lens.filter(Lens.all(), predicate)` を使うことができます。"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "17qg1hkO/nzIFtFKm1PTX1JrCSBKO8iR6Q8mBzR967U=",
+    "originContent": "### From pre-0.5.0",
+    "translatedContent": "## 例"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "UeHGzF8DP4F83eJOBystYOSczlMsoPLYIBfZztcB9wo=",
+    "originContent": "In 0.5.0 the function `satisfy` got renamed to `filter` while the previous version of `filter` was removed. The reason",
+    "translatedContent": "Lensは複雑なデータ構造のどの部分を処理するかを、実際の処理から分離することを可能にします。以下を見てください："
+  },
+  {
+    "row": 34,
+    "rowsha": "zkxyr7pyzijNh7hWFN0nBc4BF3NwGQHRSk/iwyEJTPE=",
+    "originContent": "was that with the new arrangement there is a matching pair of `filter`/`reject` functions, and this should be more",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "B7ExH86ItiixrhDnlZPU/O4iDOAeWPGpftAe2TncZRw=",
+    "originContent": "intuitive. Wherever you used `Lens.filter(predicate)` you can now use `Lens.filter(Lens.all(), predicate)`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "m/NPRMnRNx9O2lad+gT/eDCv+Bz6gWRuaAzvCHcUzcE=",
+    "originContent": "## Example",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "dE/6x/fTWyZ743T1JPr1scsTmtik/80g+vQ0zQfjm8Q=",
+    "originContent": "Lens allows you to separate which parts of a complex data structure need to be processed from the actual",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "KehQmhlr02lxgduSkLtKS1fqVNjOh3h58PdFaTeUghM=",
+    "originContent": "processing. Take the following:",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+    "originContent": "```elixir",
+    "translatedContent": "```elixir"
+  },
+  {
+    "row": 43,
+    "rowsha": "tWxr2A9vSAc606N8NnWWS6HsDnECRYoOvBOzn1ghvxI=",
+    "originContent": "data = %{",
+    "translatedContent": "data = %{"
+  },
+  {
+    "row": 44,
+    "rowsha": "1+jP6bouwq106Ey1WGn7gsYSl2A93SxIbnefeX8iGbA=",
+    "originContent": "  main_widget: %{size: 200.5, subwidgets: [%{size: 120, subwidgets: [%{size: 200, subwidgets: []}]}]},",
+    "translatedContent": "  main_widget: %{size: 200.5, subwidgets: [%{size: 120, subwidgets: [%{size: 200, subwidgets: []}]}]},"
+  },
+  {
+    "row": 45,
+    "rowsha": "GghwCHTjN/0SSNY/RoQ0PaOoXqUH4FpA9Z36jE34Yd8=",
+    "originContent": "  other_widgets: [",
+    "translatedContent": "  other_widgets: ["
+  },
+  {
+    "row": 46,
+    "rowsha": "mJiDcD/HJc4Dnu7LoxzASFdtofqo+zttxM0Hw/Vjw4g=",
+    "originContent": "    %{size: 16.5, subwidgets: [%{size: 120, subwidgets: []}]},",
+    "translatedContent": "    %{size: 16.5, subwidgets: [%{size: 120, subwidgets: []}]},"
+  },
+  {
+    "row": 47,
+    "rowsha": "GI/piAGlQbB/00RalsG2PXGsGUH3W8p5wGCG0j7kIvo=",
+    "originContent": "    %{size: 160.5, subwidgets: []},",
+    "translatedContent": "    %{size: 160.5, subwidgets: []},"
+  },
+  {
+    "row": 48,
+    "rowsha": "5gz/iPwxV8ZBQKX21IYrn7e3okekP6FKzRKNO9A1Eig=",
+    "originContent": "    %{size: 121.9, subwidgets: []},",
+    "translatedContent": "    %{size: 121.9, subwidgets: []},"
+  },
+  {
+    "row": 49,
+    "rowsha": "Z+kA9vmM2PlCZvTIXMNBvSyUEN4PZY97Bt49YhDsI98=",
+    "originContent": "  ]",
+    "translatedContent": "  ]"
+  },
+  {
+    "row": 50,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 51,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "yW9zp+zezo/yc1tHZ8PiuOkzL5jg13DFCEkk+b9jJiw=",
+    "originContent": "Let's say we're interested in the sizes of all widgets (be they the main widget or other widgets) that are larger than 100.",
+    "translatedContent": "100より大きいすべてのウィジェット（メインウィジェットであれ他のウィジェットであれ）のサイズに関心があるとします。"
+  },
+  {
+    "row": 54,
+    "rowsha": "ak6fJMTut53e5It50Cf1y2ZhFzD1wI36STAROfFtwIk=",
+    "originContent": "We can construct a `Lens` object that describes these locations in the datastructure the following way:",
+    "translatedContent": "これらの場所をデータ構造内で表現する`Lens`オブジェクトを次のように構築できます："
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+    "originContent": "```elixir",
+    "translatedContent": "```elixir"
+  },
+  {
+    "row": 57,
+    "rowsha": "fRW5+utiK8T/pOvDHJKI0i1RJpUn9kWbk8vqCGp7uz0=",
+    "originContent": "lens = Lens.both(",
+    "translatedContent": "lens = Lens.both("
+  },
+  {
+    "row": 58,
+    "rowsha": "oYsCcvMBj1hLEAcBkZovXmlQ1zKMcsEKpp1tEvNBheU=",
+    "originContent": "  Lens.key(:main_widget),",
+    "translatedContent": "  Lens.key(:main_widget),"
+  },
+  {
+    "row": 59,
+    "rowsha": "kCYo1Djmg258UMTuLcay6iMopB/TIu9PBxu/+sy2q9Y=",
+    "originContent": "  Lens.key(:other_widgets) |> Lens.all",
+    "translatedContent": "  Lens.key(:other_widgets) |> Lens.all"
+  },
+  {
+    "row": 60,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 61,
+    "rowsha": "cKLWH6KYN97prlenLEQPMHZRL7LXes4D2YxegQUr850=",
+    "originContent": "|> Lens.seq_both(Lens.recur(Lens.key(:subwidgets) |> Lens.all))",
+    "translatedContent": "|> Lens.seq_both(Lens.recur(Lens.key(:subwidgets) |> Lens.all))"
+  },
+  {
+    "row": 62,
+    "rowsha": "NMHX5LkLFAUf00VxECtPns88V36npuJmz7hn6Jpon9I=",
+    "originContent": "|> Lens.key(:size)",
+    "translatedContent": "|> Lens.key(:size)"
+  },
+  {
+    "row": 63,
+    "rowsha": "NaEfEJWbLAR8VcTEFeATdiQczTvgMRmbC60sKK8wUGM=",
+    "originContent": "|> Lens.filter(&(&1 > 100))",
+    "translatedContent": "|> Lens.filter(&(&1 > 100))"
+  },
+  {
+    "row": 64,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "uvGrUwNY2z+ejvRNI40V96KNEmQj37DGuDEQnkyybVs=",
+    "originContent": "Given that we can:",
+    "translatedContent": "以下のことが可能であるとすると："
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "oNBBZIX9fCL61ByuciBtCf0KA4kUXqyEVhLGPYX3FYQ=",
+    "originContent": "* Extract all the relevant data",
+    "translatedContent": "* すべての関連データを抽出すること"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+    "originContent": "```elixir",
+    "translatedContent": "```elixir"
+  },
+  {
+    "row": 71,
+    "rowsha": "oQw0BGqQvztXJJ6hp8bSB5/Ti/Fk9vcAiXSwSFTKcko=",
+    "originContent": "iex> Lens.to_list(lens, data)",
+    "translatedContent": "iex> Lens.to_list(lens, data)"
+  },
+  {
+    "row": 72,
+    "rowsha": "kSsmFi+Ru8xyOrQIdVbhqUpcUJj5JxwFd2VgjixpU5I=",
+    "originContent": "[200.5, 160.5, 121.9, 120, 200, 120]",
+    "translatedContent": "[200.5, 160.5, 121.9, 120, 200, 120]"
+  },
+  {
+    "row": 73,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* データ構造内の記載された場所を更新する"
+  },
+  {
+    "row": 75,
+    "rowsha": "w2ZjTYe+PRaCBgUVTn2k8sExMF+hZ+B2B6O8UKo3AiY=",
+    "originContent": "* Update the described locations in the data structure",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+    "originContent": "```elixir",
+    "translatedContent": "```elixir"
+  },
+  {
+    "row": 78,
+    "rowsha": "1V89SF3wJ4Of3kkwTA/mT3OjxC6hlcx6AyRGNwp9yv0=",
+    "originContent": "iex> Lens.map(lens, data, &round/1)",
+    "translatedContent": "iex> Lens.map(lens, data, &round/1)"
+  },
+  {
+    "row": 79,
+    "rowsha": "o/hcYdi5lwKYDLeyuyDGN5PO4RD+zGxxXsRDPNaKOkM=",
+    "originContent": "%{main_widget: %{size: 201,",
+    "translatedContent": "%{main_widget: %{size: 201,"
+  },
+  {
+    "row": 80,
+    "rowsha": "QS5BtmiQyDRtgEWW0rq2lUOGQPQ6am8ZEjvZc8+jZ7Y=",
+    "originContent": "    subwidgets: [%{size: 120, subwidgets: [%{size: 200, subwidgets: []}]}]},",
+    "translatedContent": "    subwidgets: [%{size: 120, subwidgets: [%{size: 200, subwidgets: []}]}]},"
+  },
+  {
+    "row": 81,
+    "rowsha": "nYn6Mjb2diKstfBQho4+tawYSQGpbezzB4Nvqy1U8gQ=",
+    "originContent": "  other_widgets: [%{size: 16.5, subwidgets: [%{size: 120, subwidgets: []}]},",
+    "translatedContent": "  other_widgets: [%{size: 16.5, subwidgets: [%{size: 120, subwidgets: []}]},"
+  },
+  {
+    "row": 82,
+    "rowsha": "YYtsZBwJsRxmRXQdkW6MMF/Y/SFDJnRaR8VkxV5tYx4=",
+    "originContent": "   %{size: 161, subwidgets: []}, %{size: 122, subwidgets: []}]}",
+    "translatedContent": "   %{size: 161, subwidgets: []}, %{size: 122, subwidgets: []}]}"
+  },
+  {
+    "row": 83,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "P5mBzzcsx3QMbBiBwPbuPQW4rzm/v67E8ZHg/slYkJ8=",
+    "originContent": "* Simultaneously update and return something from every location in the data",
+    "translatedContent": "* データ内のすべての場所から同時に何かを更新し返す"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+    "originContent": "```elixir",
+    "translatedContent": "```elixir"
+  },
+  {
+    "row": 88,
+    "rowsha": "zyXTaqsPvojSkqZc6SZTiJGBho16ikToVsc/e0zVZZs=",
+    "originContent": "iex> Lens.get_and_map(lens, data, fn size -> {size, round(size)} end)",
+    "translatedContent": "iex> Lens.get_and_map(lens, data, fn size -> {size, round(size)} end)"
+  },
+  {
+    "row": 89,
+    "rowsha": "rN2jI/P3SQ4a50yxuI9LOiUNVnlELpoRaVX7VTphGSc=",
+    "originContent": "{[200.5, 160.5, 121.9, 120, 200, 120],",
+    "translatedContent": "{[200.5, 160.5, 121.9, 120, 200, 120],"
+  },
+  {
+    "row": 90,
+    "rowsha": "LvHmcPCrXr6g9lhSzA34ej8CkrT2uqyqVTK2Oe4MP/4=",
+    "originContent": " %{main_widget: %{size: 201,",
+    "translatedContent": " %{main_widget: %{size: 201,"
+  },
+  {
+    "row": 91,
+    "rowsha": "r2TZf5xNDYEouJPdf7mew0fNwmTngtSh8GOlh+yajtU=",
+    "originContent": "     subwidgets: [%{size: 120, subwidgets: [%{size: 200, subwidgets: []}]}]},",
+    "translatedContent": "     subwidgets: [%{size: 120, subwidgets: [%{size: 200, subwidgets: []}]}]},"
+  },
+  {
+    "row": 92,
+    "rowsha": "i3DM05798RGbLRPVm+esA5kf9G8PM+654SCuZiUCqQk=",
+    "originContent": "   other_widgets: [%{size: 16.5, subwidgets: [%{size: 120, subwidgets: []}]},",
+    "translatedContent": "   other_widgets: [%{size: 16.5, subwidgets: [%{size: 120, subwidgets: []}]},"
+  },
+  {
+    "row": 93,
+    "rowsha": "VPiq9WX9OFdz8DaBRDg+0WNU2bxwlYAVDucIZoE6MDI=",
+    "originContent": "    %{size: 161, subwidgets: []}, %{size: 122, subwidgets: []}]}}",
+    "translatedContent": "    %{size: 161, subwidgets: []}, %{size: 122, subwidgets: []}]}}"
+  },
+  {
+    "row": 94,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "レンズは `Access` および関連する `Kernel` 関数とも互換性があります："
+  },
+  {
+    "row": 96,
+    "rowsha": "FJoYtEQh7KeJYyu5sJaUkJZbEQkg3oEnNuTM3q5FhKk=",
+    "originContent": "Lenses are also compatible with `Access` and associated `Kernel` functions:",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+    "originContent": "```elixir",
+    "translatedContent": "```elixir"
+  },
+  {
+    "row": 99,
+    "rowsha": "n36lntdm4zZYARL8WKLcwvKwqSE2kI7tpCoP9xBlTD8=",
+    "originContent": "iex> get_in([1, 2, 3], [Lens.all() |> Lens.filter(&Integer.is_odd/1)])",
+    "translatedContent": "iex> get_in([1, 2, 3], [Lens.all() |> Lens.filter(&Integer.is_odd/1)])"
+  },
+  {
+    "row": 100,
+    "rowsha": "TjlwAY+lAJIs5cCH+ExzTXtHsGUdovLhciaAGIWDgDI=",
+    "originContent": "[1, 3]",
+    "translatedContent": "[1, 3]"
+  },
+  {
+    "row": 101,
+    "rowsha": "Xy0IwTZq5hMFhOJOOIcm0BkOIjAOvV+HZKSDutn73dI=",
+    "originContent": "iex> update_in([1, 2, 3], [Lens.all() |> Lens.filter(&Integer.is_odd/1)], fn x -> x + 1 end)",
+    "translatedContent": "iex> update_in([1, 2, 3], [Lens.all() |> Lens.filter(&Integer.is_odd/1)], fn x -> x + 1 end)"
+  },
+  {
+    "row": 102,
+    "rowsha": "cKMGmcLmPxHr0g3KtlGiO+njqZuvM1i1U9xMqZn9lt4=",
+    "originContent": "[2, 2, 4]",
+    "translatedContent": "[2, 2, 4]"
+  },
+  {
+    "row": 103,
+    "rowsha": "Q9trm0ssRGBRKh31VocUOnYQp4veuft8r4qbs2uB/kQ=",
+    "originContent": "iex> get_and_update_in([1, 2, 3], [Lens.all() |> Lens.filter(&Integer.is_odd/1)], fn x -> {x - 1, x + 1} end)",
+    "translatedContent": "iex> get_and_update_in([1, 2, 3], [Lens.all() |> Lens.filter(&Integer.is_odd/1)], fn x -> {x - 1, x + 1} end)"
+  },
+  {
+    "row": 104,
+    "rowsha": "z1LrVyS+KPLPOT1IzyqDheh25bwmGijmu3/7YFFmj9Y=",
+    "originContent": "{[0, 2], [2, 2, 4]}",
+    "translatedContent": "{[0, 2], [2, 2, 4]}"
+  },
+  {
+    "row": 105,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "y4LnTJ4A/5peKGXKyhOrHXy2bFht/ZApdIkBMLNOIrg=",
+    "originContent": "## Formatting",
+    "translatedContent": "## フォーマット"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "WfXHpoe7zGp4J9bhV0gcBqXyCn0qgLorLtXhjDr1cWg=",
+    "originContent": "Normally, `mix format` will change definitions like:",
+    "translatedContent": "通常、`mix format` は次のような定義を変更します： "
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+    "originContent": "```elixir",
+    "translatedContent": "```elixir"
+  },
+  {
+    "row": 112,
+    "rowsha": "Cj+8NJI21tatDizvLFHu4p6KOiR1JXUJY2WUOCmQZxQ=",
+    "originContent": "deflens a_lens(), do: some() |> implementation()",
+    "translatedContent": "deflens a_lens(), do: some() |> implementation()"
+  },
+  {
+    "row": 113,
+    "rowsha": "nelKFqRl4cQ5AoEFvyJejILNlTfk78rngH33RxPS+tk=",
+    "originContent": "deflensp a_private_lens(), do: some() |> implementation()",
+    "translatedContent": "deflensp a_private_lens(), do: some() |> implementation()"
+  },
+  {
+    "row": 114,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "へ:"
+  },
+  {
+    "row": 116,
+    "rowsha": "bcA6sb4kzIPYl4i3OrBCUl1feURGCcfufRjQY4QR+5I=",
+    "originContent": "into:",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+    "originContent": "```elixir",
+    "translatedContent": "```elixir"
+  },
+  {
+    "row": 119,
+    "rowsha": "DtTSB6jyHpNYQX36jEFmmuJWnCJgkDQD8E4Y4QA06tk=",
+    "originContent": "deflens(a_lens(), do: some() |> implementation())",
+    "translatedContent": "deflens(a_lens(), do: some() |> implementation())"
+  },
+  {
+    "row": 120,
+    "rowsha": "zF4jxwST9p+Zkfu8LKF7FH3ViDSDhtrLeklhzwIB5Z8=",
+    "originContent": "deflensp(a_private_lens(), do: some() |> implementation())",
+    "translatedContent": "deflensp(a_private_lens(), do: some() |> implementation())"
+  },
+  {
+    "row": 121,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "これを回避するには、`formatter.exs`でlensのフォーマッター設定をインポートできます:"
+  },
+  {
+    "row": 123,
+    "rowsha": "QiK6XY+fAWitrCMUX1xn9ScVTgeCs87B4baOtPFg+Wo=",
+    "originContent": "To avoid this, you can import lens's formatter settings in your `formatter.exs`:",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "crDoH3Cfp02tWNTkeR3pl3aNoFfhKDgXOvfJt2H0p2I=",
+    "originContent": "```elixir",
+    "translatedContent": "```elixir"
+  },
+  {
+    "row": 126,
+    "rowsha": "Rcx18fckExOiXMz2vRWY1YybR6h4sWs6LQHaSBjR8Yc=",
+    "originContent": "# my_app/.formatter.exs",
+    "translatedContent": "# my_app/.formatter.exs"
+  },
+  {
+    "row": 127,
+    "rowsha": "JFhDq++ecufvrDATiplL9jAefh19cEKjPULoY9JjiBE=",
+    "originContent": "[",
+    "translatedContent": "["
+  },
+  {
+    "row": 128,
+    "rowsha": "4Dw73mezAZMlZI1AYegpUmGmTxB+iHadt8Z1gK8Ni0U=",
+    "originContent": "  import_deps: [:lens]",
+    "translatedContent": "  import_deps: [:lens]"
+  },
+  {
+    "row": 129,
+    "rowsha": "z64NQkj3FC97F/gmzXpRkoDjEld2kOlXgw0j3PNaP/8=",
+    "originContent": "]",
+    "translatedContent": "]"
+  },
+  {
+    "row": 130,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
