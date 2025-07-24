@@ -1,3 +1,34 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
+
 <p align="center">
    <img src="https://files.catbox.moe/mdn05t.png" alt="Dartotsu Banner" width="100%">
 </p>
@@ -67,7 +98,6 @@ You can help us by translating the app into your language here
 ## Visitors
 
 <img src="https://count.getloli.com/@aayush2622?name=dartotsu&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" />
-
 ## Acknowledgments
 A heartfelt thank you to everyone who has contributed to the development of Dartotsu.
 Your efforts are invaluable.
@@ -82,6 +112,7 @@ Your efforts are invaluable.
 
 ## License
 Dartotsu is licensed under the Unabandon Public License (UPL). More info can be found [here](https://raw.githubusercontent.com/aayush2622/Dartotsu/main/LICENSE.md).
+
 
 
 ---
