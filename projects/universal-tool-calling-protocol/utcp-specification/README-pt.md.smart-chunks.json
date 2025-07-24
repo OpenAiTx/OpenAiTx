@@ -1,0 +1,801 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Universal Tool Calling Protocol (UTCP) Specification\n\nThis repository contains the official specification documentation for the Universal Tool Calling Protocol (UTCP). UTCP is a modern, flexible, and scalable standard for defining and interacting with tools across various communication protocols.\n\n## What is UTCP?\n\nUTCP provides a standardized way for AI systems and other clients to discover and call tools from different providers, regardless of the underlying protocol used (HTTP, WebSocket, CLI, etc.). This specification defines:\n\n- Tool discovery mechanisms\n- Tool call formats\n- Provider configuration\n- Authentication methods\n- Response handling\n\n## Contributing to the Specification\n\nWe welcome contributions to the UTCP specification! Here's how you can contribute:\n\n1. **Fork the repository**: Create your own fork of the specification repository\n2. **Make your changes**: Update or add documentation as needed\n3. **Submit a pull request**: Open a PR with your changes for review\n4. **Participate in discussions**: Join the conversation about proposed changes\n\nWhen contributing, please follow these guidelines:\n\n- Ensure your changes align with the overall vision and goals of UTCP\n- Follow the established documentation structure and formatting\n- Include examples when adding new features or concepts\n- Update relevant sections to maintain consistency across the documentation\n\n## Building the Documentation Locally\n\n### Prerequisites\n\nTo build and preview the documentation site locally, you'll need:\n\n- Ruby version 2.5.0 or higher\n- RubyGems\n- Bundler\n\n### Setup\n\n1. Clone the repository:",
+    "ContentSha": "QIFRQbzAliPFmjiLU8tett76p76n8fkbiZLlCOqrt1U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Especificação do Protocolo Universal de Chamada de Ferramentas (UTCP)\n\nEste repositório contém a documentação oficial da especificação do Protocolo Universal de Chamada de Ferramentas (UTCP). O UTCP é um padrão moderno, flexível e escalável para definir e interagir com ferramentas através de vários protocolos de comunicação.\n\n## O que é o UTCP?\n\nO UTCP fornece uma maneira padronizada para sistemas de IA e outros clientes descobrirem e acionarem ferramentas de diferentes provedores, independentemente do protocolo subjacente utilizado (HTTP, WebSocket, CLI, etc.). Esta especificação define:\n\n- Mecanismos de descoberta de ferramentas\n- Formatos de chamada de ferramentas\n- Configuração do provedor\n- Métodos de autenticação\n- Manipulação de respostas\n\n## Contribuindo para a Especificação\n\nAgradecemos contribuições para a especificação UTCP! Veja como você pode contribuir:\n\n1. **Faça um fork do repositório**: Crie seu próprio fork do repositório da especificação\n2. **Faça suas alterações**: Atualize ou adicione documentação conforme necessário\n3. **Envie um pull request**: Abra um PR com suas alterações para revisão\n4. **Participe das discussões**: Junte-se à conversa sobre as mudanças propostas\n\nAo contribuir, siga estas diretrizes:\n\n- Certifique-se de que suas alterações estejam alinhadas com a visão e os objetivos gerais do UTCP\n- Siga a estrutura e a formatação estabelecidas da documentação\n- Inclua exemplos ao adicionar novos recursos ou conceitos\n- Atualize as seções relevantes para manter a consistência em toda a documentação\n\n## Construindo a Documentação Localmente\n\n### Pré-requisitos\n\nPara construir e visualizar o site da documentação localmente, você precisará de:\n\n- Ruby versão 2.5.0 ou superior\n- RubyGems\n- Bundler\n\n### Configuração\n\n1. Clone o repositório:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "xJHSdggSTF4Minkry4PQYcIpm4gBczAYq2tsN2az0l8=",
+        "originContent": "# Universal Tool Calling Protocol (UTCP) Specification",
+        "translatedContent": "# Especificação do Protocolo Universal de Chamada de Ferramentas (UTCP)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "s9peSBzsIcDSE4WNt1AWo/c1H6/EEs7bBjXItDk07Kk=",
+        "originContent": "This repository contains the official specification documentation for the Universal Tool Calling Protocol (UTCP). UTCP is a modern, flexible, and scalable standard for defining and interacting with tools across various communication protocols.",
+        "translatedContent": "Este repositório contém a documentação oficial da especificação do Protocolo Universal de Chamada de Ferramentas (UTCP). O UTCP é um padrão moderno, flexível e escalável para definir e interagir com ferramentas através de vários protocolos de comunicação."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "rbnnSrzDhnIaJxLZksSZg1k78qFZ7rPNsYNuNcw8/9g=",
+        "originContent": "## What is UTCP?",
+        "translatedContent": "## O que é o UTCP?"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "awC/algqs6hUwK4PEn4JoOjSTt5u9dBHIPOuVKnJHII=",
+        "originContent": "UTCP provides a standardized way for AI systems and other clients to discover and call tools from different providers, regardless of the underlying protocol used (HTTP, WebSocket, CLI, etc.). This specification defines:",
+        "translatedContent": "O UTCP fornece uma maneira padronizada para sistemas de IA e outros clientes descobrirem e acionarem ferramentas de diferentes provedores, independentemente do protocolo subjacente utilizado (HTTP, WebSocket, CLI, etc.). Esta especificação define:"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "UlWpBVXovNOvCRblhboLytPX5ckpaUpTLm3/qv9gk4o=",
+        "originContent": "- Tool discovery mechanisms",
+        "translatedContent": "- Mecanismos de descoberta de ferramentas"
+      },
+      {
+        "row": 10,
+        "rowsha": "IWL9E0A8PpkIv2p2oaCGme5Lm0GBaDbWrFEz4d5jfkE=",
+        "originContent": "- Tool call formats",
+        "translatedContent": "- Formatos de chamada de ferramentas"
+      },
+      {
+        "row": 11,
+        "rowsha": "HO8O3bBxgSt7oPptrKesXUpkjvBwZ1YEvZKP2Vvz3uw=",
+        "originContent": "- Provider configuration",
+        "translatedContent": "- Configuração do provedor"
+      },
+      {
+        "row": 12,
+        "rowsha": "CQUwzgixFAn22LLEPxIQ3G+YDfHkIqJ58z/7FAca3Fw=",
+        "originContent": "- Authentication methods",
+        "translatedContent": "- Métodos de autenticação"
+      },
+      {
+        "row": 13,
+        "rowsha": "ceOSzL7KcpbtKqPS/08Q7KcslHQnLha7o5hvggIK2kE=",
+        "originContent": "- Response handling",
+        "translatedContent": "- Manipulação de respostas"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "0t+A3umpBR2ZYuImEzcPvTfjlUSjpA2ESjlmVzXnEa8=",
+        "originContent": "## Contributing to the Specification",
+        "translatedContent": "## Contribuindo para a Especificação"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "eke/yHONAqjw5KusMwVgA3KPngGoFUQIGnLrKAJ0Qo0=",
+        "originContent": "We welcome contributions to the UTCP specification! Here's how you can contribute:",
+        "translatedContent": "Agradecemos contribuições para a especificação UTCP! Veja como você pode contribuir:"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "Y8TPmuKwXDKE6LRz88abZl9wdIkYl0RkKl6gKMKA8wM=",
+        "originContent": "1. **Fork the repository**: Create your own fork of the specification repository",
+        "translatedContent": "1. **Faça um fork do repositório**: Crie seu próprio fork do repositório da especificação"
+      },
+      {
+        "row": 20,
+        "rowsha": "AEoHHE0KwbQvdG1L7HkzBXW0HO+gZxU+uS5xTSeBckI=",
+        "originContent": "2. **Make your changes**: Update or add documentation as needed",
+        "translatedContent": "2. **Faça suas alterações**: Atualize ou adicione documentação conforme necessário"
+      },
+      {
+        "row": 21,
+        "rowsha": "bv4khX63w4WOaQpP3KA0VotcULAh/5aVhDH2dIWGsEw=",
+        "originContent": "3. **Submit a pull request**: Open a PR with your changes for review",
+        "translatedContent": "3. **Envie um pull request**: Abra um PR com suas alterações para revisão"
+      },
+      {
+        "row": 22,
+        "rowsha": "dMuqDe/JR9KyXGr54Ss1PLDeVL2nJg6Ji1wi0g2ZAr0=",
+        "originContent": "4. **Participate in discussions**: Join the conversation about proposed changes",
+        "translatedContent": "4. **Participe das discussões**: Junte-se à conversa sobre as mudanças propostas"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "xqDPz7HO4hM6MPW51whVNb94VMy8IMSNf1zlONhaoRs=",
+        "originContent": "When contributing, please follow these guidelines:",
+        "translatedContent": "Ao contribuir, siga estas diretrizes:"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "hS5ItxgNOL8hAkp1hUqWmYym2XlVINgtKjnItzLbbiU=",
+        "originContent": "- Ensure your changes align with the overall vision and goals of UTCP",
+        "translatedContent": "- Certifique-se de que suas alterações estejam alinhadas com a visão e os objetivos gerais do UTCP"
+      },
+      {
+        "row": 27,
+        "rowsha": "vEDbZdm+VFOaDaYTKbNoxmGgvdvwhQsBTrUL7aFOSHk=",
+        "originContent": "- Follow the established documentation structure and formatting",
+        "translatedContent": "- Siga a estrutura e a formatação estabelecidas da documentação"
+      },
+      {
+        "row": 28,
+        "rowsha": "B1VWuWiRqJvDBZoyhMNOiCDlb9A1v+A0Fbfqm6EK/TQ=",
+        "originContent": "- Include examples when adding new features or concepts",
+        "translatedContent": "- Inclua exemplos ao adicionar novos recursos ou conceitos"
+      },
+      {
+        "row": 29,
+        "rowsha": "L2YMioMKUwcTwPxXb/3l7Q/E5bfA+cenT8hMenZAZCg=",
+        "originContent": "- Update relevant sections to maintain consistency across the documentation",
+        "translatedContent": "- Atualize as seções relevantes para manter a consistência em toda a documentação"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "/nJ6lknUOllzsC0oY34eeT3TCxG4+y+zcZ2axr8ggpQ=",
+        "originContent": "## Building the Documentation Locally",
+        "translatedContent": "## Construindo a Documentação Localmente"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+        "originContent": "### Prerequisites",
+        "translatedContent": "### Pré-requisitos"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "ypkXOUI3egKvlW5FpW2D3DLA2sXse5+7W0IFV8e9bF0=",
+        "originContent": "To build and preview the documentation site locally, you'll need:",
+        "translatedContent": "Para construir e visualizar o site da documentação localmente, você precisará de:"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "IaFCka+Mkv8Ef89teyUIvzmxaf5+6vrgSzQ1EDYXBMY=",
+        "originContent": "- Ruby version 2.5.0 or higher",
+        "translatedContent": "- Ruby versão 2.5.0 ou superior"
+      },
+      {
+        "row": 38,
+        "rowsha": "jbLb7nOn7oeegWkZSnf6KjVucMLcCakSlsgqq0cHV7E=",
+        "originContent": "- RubyGems",
+        "translatedContent": "- RubyGems"
+      },
+      {
+        "row": 39,
+        "rowsha": "FEtV6W8Br8cRpORCnMRH7GgA550vZGLCeqQfci6bYjk=",
+        "originContent": "- Bundler",
+        "translatedContent": "- Bundler"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "iJa409tTUC9P1gTULbIw6Kod+KAUdLl5kgZl7whoChE=",
+        "originContent": "### Setup",
+        "translatedContent": "### Configuração"
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "hG22SbQBn/awFhy/7NjM1QaurZuLva3Zcxx701Nf8Vo=",
+        "originContent": "1. Clone the repository:",
+        "translatedContent": "1. Clone o repositório:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "   ```bash\n   git clone https://github.com/universal-tool-calling-protocol/utcp-specification.git\n   cd utcp-specification\n   ```",
+    "ContentSha": "eTsuVkER6Cc4Y5Ts5fuDqfuuNqBNYLx4GlCxAYjUOQA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   git clone https://github.com/universal-tool-calling-protocol/utcp-specification.git\n   cd utcp-specification\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "PSZH2bhNBfoH5UQn9RFI6ZuWR5oAYnHlkugkxiIVoZY=",
+        "originContent": "   git clone https://github.com/universal-tool-calling-protocol/utcp-specification.git",
+        "translatedContent": "   git clone https://github.com/universal-tool-calling-protocol/utcp-specification.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "dsvRvBy2e/6sJc4XOilsFYPcgqbAq8TjhJfHmWzWfqU=",
+        "originContent": "   cd utcp-specification",
+        "translatedContent": "   cd utcp-specification"
+      },
+      {
+        "row": 4,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n2. Install dependencies:",
+    "ContentSha": "7axmS9yAHWfFa5x86RXNal1TyqIcwHVkbg9dg4se5lk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. Instale as dependências:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. Instale as dependências:"
+      },
+      {
+        "row": 2,
+        "rowsha": "ksJZLSOlzyNqFrMTkpmMOmHTn1mDIM8A+zSqlEvTL7E=",
+        "originContent": "2. Install dependencies:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "   ```bash\n   bundle install\n   ```",
+    "ContentSha": "snejXIGZG2n8C1HDMtyg5uXhIBkga6WKX4GRTFrsWbQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   bundle install\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "LHr68v3BekLA50Khtt7jNiluS/tSYsOx1L+kg8BkIVE=",
+        "originContent": "   bundle install",
+        "translatedContent": "   bundle install"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Running the Documentation Site\n\nTo build and serve the site locally:\n",
+    "ContentSha": "+zOqhsTxJoTaUIpdpwdIm7S+vDEypk2Uj2oZBlT71LY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Executando o Site de Documentação\n\nPara compilar e servir o site localmente:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Executando o Site de Documentação"
+      },
+      {
+        "row": 2,
+        "rowsha": "5K49rtA0bQkWww4xiJAq4XkwaTvrJiC0ATGATib3zFQ=",
+        "originContent": "### Running the Documentation Site",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Para compilar e servir o site localmente:"
+      },
+      {
+        "row": 4,
+        "rowsha": "4Noirhs1mr44VLxWStjj2ahn8r9P1LtajqKcMRxqgZg=",
+        "originContent": "To build and serve the site locally:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\nbundle exec jekyll serve\n```",
+    "ContentSha": "G5cdXvV2i6gtQ960CwY7zDhALwFFtTnNE5xlqx7qltg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nbundle exec jekyll serve\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "eyWbCzh3fDUI7ubrYxJBGheJ+q845VeNVptOYttlf5g=",
+        "originContent": "bundle exec jekyll serve",
+        "translatedContent": "bundle exec jekyll serve"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nThis will start a local web server at `http://localhost:4000` where you can preview the documentation.\n\n## Documentation Structure\n\nThe UTCP documentation is organized as follows:\n\n- `index.md`: Homepage and introduction to UTCP\n- `docs/`\n  - `introduction.md`: Detailed introduction and core concepts\n  - `for-tool-providers.md`: Guide for implementing tool providers\n  - `for-tool-callers.md`: Guide for implementing tool callers\n  - `providers/`: Documentation for each provider type\n    - `http.md`: HTTP provider\n    - `websocket.md`: WebSocket provider\n    - `cli.md`: CLI provider\n    - `sse.md`: Server-Sent Events provider\n    - etc.\n  - `implementation.md`: Implementation guidelines and best practices\n\n## Working with the Specification\n\n### Modifying the Documentation\n\nThe documentation is written in Markdown format with Jekyll front matter. When making changes:\n\n1. Ensure your Markdown follows the established style\n2. Preview changes locally before submitting PRs\n3. Keep examples up-to-date with the latest specification\n4. Update navigation items in `_config.yml` if adding new pages\n\n### File Organization\n\nWhen adding new documentation:\n\n- Place provider-specific documentation in `docs/providers/`\n- Use consistent front matter with appropriate navigation ordering\n- Include tags for improved searchability on GitHub Pages\n\n## Version Control\n\nThe UTCP specification follows semantic versioning:\n\n- Major versions (1.0, 2.0): Breaking changes to the protocol\n- Minor versions (1.1, 1.2): New features added in a backward-compatible manner\n- Patch versions (1.0.1, 1.0.2): Backward-compatible bug fixes and clarifications\n\n## License\n\nThis specification is distributed under the Mozilla Public License 2.0 (MPL-2.0).\n\n## Additional Resources\n\n- [UTCP GitHub Organization](https://github.com/universal-tool-calling-protocol)\n- [UTCP Website](https://utcp.io)\n- [Reference Implementations](https://github.com/universal-tool-calling-protocol/python-utcp)\n- [Community Discussions](https://github.com/universal-tool-calling-protocol/utcp-specification/discussions)\n",
+    "ContentSha": "fGjSLDggZcFOduTTtROLeyFAks/xtxCytWxdkWxgUIA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Isso iniciará um servidor web local em `http://localhost:4000`, onde você pode visualizar a documentação.\n\n## Estrutura da Documentação\n\nA documentação do UTCP está organizada da seguinte forma:\n\n- `index.md`: Página inicial e introdução ao UTCP\n- `docs/`\n  - `introduction.md`: Introdução detalhada e conceitos centrais\n  - `for-tool-providers.md`: Guia para implementação de provedores de ferramentas\n  - `for-tool-callers.md`: Guia para implementação de chamadores de ferramentas\n  - `providers/`: Documentação para cada tipo de provedor\n    - `http.md`: Provedor HTTP\n    - `websocket.md`: Provedor WebSocket\n    - `cli.md`: Provedor CLI\n    - `sse.md`: Provedor Server-Sent Events\n    - etc.\n  - `implementation.md`: Diretrizes de implementação e melhores práticas\n\n## Trabalhando com a Especificação\n\n### Modificando a Documentação\n\nA documentação é escrita em formato Markdown com front matter do Jekyll. Ao fazer alterações:\n\n1. Certifique-se de que seu Markdown siga o estilo estabelecido\n2. Visualize as alterações localmente antes de enviar PRs\n3. Mantenha os exemplos atualizados com a especificação mais recente\n4. Atualize os itens de navegação em `_config.yml` ao adicionar novas páginas\n\n### Organização dos Arquivos\n\nAo adicionar nova documentação:\n\n- Coloque a documentação específica do provedor em `docs/providers/`\n- Use front matter consistente com a ordem de navegação apropriada\n- Inclua tags para melhor pesquisa no GitHub Pages\n\n## Controle de Versão\n\nA especificação UTCP segue versionamento semântico:\n\n- Versões principais (1.0, 2.0): Mudanças incompatíveis no protocolo\n- Versões secundárias (1.1, 1.2): Novos recursos adicionados de forma retrocompatível\n- Versões de correção (1.0.1, 1.0.2): Correções de bugs e esclarecimentos retrocompatíveis\n\n## Licença\n\nEsta especificação é distribuída sob a Licença Pública Mozilla 2.0 (MPL-2.0).\n\n## Recursos Adicionais\n\n- [Organização UTCP no GitHub](https://github.com/universal-tool-calling-protocol)\n- [Site do UTCP](https://utcp.io)\n- [Implementações de Referência](https://github.com/universal-tool-calling-protocol/python-utcp)\n- [Discussões da Comunidade](https://github.com/universal-tool-calling-protocol/utcp-specification/discussions)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Isso iniciará um servidor web local em `http://localhost:4000`, onde você pode visualizar a documentação."
+      },
+      {
+        "row": 2,
+        "rowsha": "7dtEaABfbBJi62hZPAaqtV/9SFSBsoUm1QIEdMSA5Pk=",
+        "originContent": "This will start a local web server at `http://localhost:4000` where you can preview the documentation.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Estrutura da Documentação"
+      },
+      {
+        "row": 4,
+        "rowsha": "O3/JdI6OkBp3KpwpdTBMDHKfrQJ5SvC5b4JUI78WYzY=",
+        "originContent": "## Documentation Structure",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "A documentação do UTCP está organizada da seguinte forma:"
+      },
+      {
+        "row": 6,
+        "rowsha": "HaHsnswFga9Y3bSnM8AkBTMc4nnhKGw+NgQjYFVxq84=",
+        "originContent": "The UTCP documentation is organized as follows:",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `index.md`: Página inicial e introdução ao UTCP"
+      },
+      {
+        "row": 8,
+        "rowsha": "k9T5W7pKUSxwDzfjziv/NQBRYx7AFpotvNSqrQvh/Js=",
+        "originContent": "- `index.md`: Homepage and introduction to UTCP",
+        "translatedContent": "- `docs/`"
+      },
+      {
+        "row": 9,
+        "rowsha": "yjJ0j1VQ7L3x55b1LywGeL0nDS8nEW5vNugZwVPPOcc=",
+        "originContent": "- `docs/`",
+        "translatedContent": "  - `introduction.md`: Introdução detalhada e conceitos centrais"
+      },
+      {
+        "row": 10,
+        "rowsha": "SctsJUuD+7gaeeq4yVpjLiw1wtwnyFqVKLRYcN5ksmg=",
+        "originContent": "  - `introduction.md`: Detailed introduction and core concepts",
+        "translatedContent": "  - `for-tool-providers.md`: Guia para implementação de provedores de ferramentas"
+      },
+      {
+        "row": 11,
+        "rowsha": "1Pg0pHoJ1RM8njsNT1arBVPWn6t4jlwdr8KaawlmTlk=",
+        "originContent": "  - `for-tool-providers.md`: Guide for implementing tool providers",
+        "translatedContent": "  - `for-tool-callers.md`: Guia para implementação de chamadores de ferramentas"
+      },
+      {
+        "row": 12,
+        "rowsha": "OuzbN65KN5B0x5KhVxBgbVen5v1aUs9cnqWHCYCFXsc=",
+        "originContent": "  - `for-tool-callers.md`: Guide for implementing tool callers",
+        "translatedContent": "  - `providers/`: Documentação para cada tipo de provedor"
+      },
+      {
+        "row": 13,
+        "rowsha": "nrodE5CS/6qmpvUEglsv6Na2xNfyt+lm55vsUuL3Hxs=",
+        "originContent": "  - `providers/`: Documentation for each provider type",
+        "translatedContent": "    - `http.md`: Provedor HTTP"
+      },
+      {
+        "row": 14,
+        "rowsha": "T9mBLyYJhIqKO0CZOPYS9FRns3vYj0cctZ8D2OVoIfc=",
+        "originContent": "    - `http.md`: HTTP provider",
+        "translatedContent": "    - `websocket.md`: Provedor WebSocket"
+      },
+      {
+        "row": 15,
+        "rowsha": "km/oPG1a6XhbBaApEy0aBS2E1fP1VXERvY7GgSahM3U=",
+        "originContent": "    - `websocket.md`: WebSocket provider",
+        "translatedContent": "    - `cli.md`: Provedor CLI"
+      },
+      {
+        "row": 16,
+        "rowsha": "QO0MRNpbt0AIRUqjWOrUqgE3e9nobCOJL6XYGzrUSSE=",
+        "originContent": "    - `cli.md`: CLI provider",
+        "translatedContent": "    - `sse.md`: Provedor Server-Sent Events"
+      },
+      {
+        "row": 17,
+        "rowsha": "IJS7uQZUsNft5DNCgA0mZbO7c2JTZCX6z4DYhw3nXKI=",
+        "originContent": "    - `sse.md`: Server-Sent Events provider",
+        "translatedContent": "    - etc."
+      },
+      {
+        "row": 18,
+        "rowsha": "sqd8y9NhMCpcy681z6fnvGF3jms9TufSoB3/nYu4jOM=",
+        "originContent": "    - etc.",
+        "translatedContent": "  - `implementation.md`: Diretrizes de implementação e melhores práticas"
+      },
+      {
+        "row": 19,
+        "rowsha": "dz1RDqd7ji8T3JhaTzKNjVRr87zK50eGuVQM7rQMZso=",
+        "originContent": "  - `implementation.md`: Implementation guidelines and best practices",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Trabalhando com a Especificação"
+      },
+      {
+        "row": 21,
+        "rowsha": "De/2Xybl1baY+KZKq2HkxiWF0qstiI1szEYjlLHKP2I=",
+        "originContent": "## Working with the Specification",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Modificando a Documentação"
+      },
+      {
+        "row": 23,
+        "rowsha": "N9JHA8eOcUnKtw1PaghZiHYctWsrjmajh6F+xXIC6po=",
+        "originContent": "### Modifying the Documentation",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "A documentação é escrita em formato Markdown com front matter do Jekyll. Ao fazer alterações:"
+      },
+      {
+        "row": 25,
+        "rowsha": "mFgQsEY150FAXAQjgkrkV8pEOst4/nrU6Y5IXUX8F0w=",
+        "originContent": "The documentation is written in Markdown format with Jekyll front matter. When making changes:",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. Certifique-se de que seu Markdown siga o estilo estabelecido"
+      },
+      {
+        "row": 27,
+        "rowsha": "Ng7cYb6csAcFM2PaJr9PfaL829FnbZWk0AU/2SkfviY=",
+        "originContent": "1. Ensure your Markdown follows the established style",
+        "translatedContent": "2. Visualize as alterações localmente antes de enviar PRs"
+      },
+      {
+        "row": 28,
+        "rowsha": "o1CKnVeELNakZNaQgq6Sdd2XcLTarjyG0wDAvjKhvMQ=",
+        "originContent": "2. Preview changes locally before submitting PRs",
+        "translatedContent": "3. Mantenha os exemplos atualizados com a especificação mais recente"
+      },
+      {
+        "row": 29,
+        "rowsha": "9URY0bV9xLrzCZC7qXqg+WADyjz4yoyD3Q3Qywn608A=",
+        "originContent": "3. Keep examples up-to-date with the latest specification",
+        "translatedContent": "4. Atualize os itens de navegação em `_config.yml` ao adicionar novas páginas"
+      },
+      {
+        "row": 30,
+        "rowsha": "Q4PuJvUnrJeT2F6czhllofHf6MWui3xz6kaohipzFzo=",
+        "originContent": "4. Update navigation items in `_config.yml` if adding new pages",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Organização dos Arquivos"
+      },
+      {
+        "row": 32,
+        "rowsha": "tR0NjmLLtcoKcrqOHcRwmeryT+K1Uf0AQHcmXOiGxO4=",
+        "originContent": "### File Organization",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Ao adicionar nova documentação:"
+      },
+      {
+        "row": 34,
+        "rowsha": "Hok9SmtDH7aET3sQHXMsMEVImraV7DUP5+elprIySz4=",
+        "originContent": "When adding new documentation:",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Coloque a documentação específica do provedor em `docs/providers/`"
+      },
+      {
+        "row": 36,
+        "rowsha": "pmMzbT3BQoaBnFswdmcBV50xwebzmXlCM3Wfc24jX7M=",
+        "originContent": "- Place provider-specific documentation in `docs/providers/`",
+        "translatedContent": "- Use front matter consistente com a ordem de navegação apropriada"
+      },
+      {
+        "row": 37,
+        "rowsha": "udSenQr71fr8kBz4UCwtfWNmm0PDU4yCj1Z5TrGtUEs=",
+        "originContent": "- Use consistent front matter with appropriate navigation ordering",
+        "translatedContent": "- Inclua tags para melhor pesquisa no GitHub Pages"
+      },
+      {
+        "row": 38,
+        "rowsha": "rmbF/hLTdKcp+rsd55WQ6PTNSx5yClOTogVgaHIqSxI=",
+        "originContent": "- Include tags for improved searchability on GitHub Pages",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Controle de Versão"
+      },
+      {
+        "row": 40,
+        "rowsha": "U3+t+htmDQaHtFH1jj2HhwfnrB1xGYJoxjBFAbgSyhs=",
+        "originContent": "## Version Control",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "A especificação UTCP segue versionamento semântico:"
+      },
+      {
+        "row": 42,
+        "rowsha": "py4vFFG3U1Dtd5pszzXwPhGiTVcXPXqohDBkTnc8SlE=",
+        "originContent": "The UTCP specification follows semantic versioning:",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Versões principais (1.0, 2.0): Mudanças incompatíveis no protocolo"
+      },
+      {
+        "row": 44,
+        "rowsha": "GPECD4acZ3ehbkh1vfIxbDNhF0YsraiKtRLCW+GB2VE=",
+        "originContent": "- Major versions (1.0, 2.0): Breaking changes to the protocol",
+        "translatedContent": "- Versões secundárias (1.1, 1.2): Novos recursos adicionados de forma retrocompatível"
+      },
+      {
+        "row": 45,
+        "rowsha": "bqca2eCL66tPoVcx2diLC8ckd4dhUmqgNvSG3ll6Jz0=",
+        "originContent": "- Minor versions (1.1, 1.2): New features added in a backward-compatible manner",
+        "translatedContent": "- Versões de correção (1.0.1, 1.0.2): Correções de bugs e esclarecimentos retrocompatíveis"
+      },
+      {
+        "row": 46,
+        "rowsha": "BLY30nIRYYyZHzqtx6ZJtrD9u0ow/iWKNPKJuQcXELA=",
+        "originContent": "- Patch versions (1.0.1, 1.0.2): Backward-compatible bug fixes and clarifications",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Licença"
+      },
+      {
+        "row": 48,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Esta especificação é distribuída sob a Licença Pública Mozilla 2.0 (MPL-2.0)."
+      },
+      {
+        "row": 50,
+        "rowsha": "BL1drMEZolnyC/60tlzW23Wt5V59l6dKrqnVyieC9gc=",
+        "originContent": "This specification is distributed under the Mozilla Public License 2.0 (MPL-2.0).",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Recursos Adicionais"
+      },
+      {
+        "row": 52,
+        "rowsha": "EPhxePFkwDXs+ndwFD22jCyKffu939Uni96wczsSEog=",
+        "originContent": "## Additional Resources",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [Organização UTCP no GitHub](https://github.com/universal-tool-calling-protocol)"
+      },
+      {
+        "row": 54,
+        "rowsha": "JK2hiJH330qCk3TLi/eRURScbTiO4H+bvRBmJF1LBWg=",
+        "originContent": "- [UTCP GitHub Organization](https://github.com/universal-tool-calling-protocol)",
+        "translatedContent": "- [Site do UTCP](https://utcp.io)"
+      },
+      {
+        "row": 55,
+        "rowsha": "NB5VKRFDDFe/y+o+gJb10s679D6uM9tQrQ5M8aLCrmo=",
+        "originContent": "- [UTCP Website](https://utcp.io)",
+        "translatedContent": "- [Implementações de Referência](https://github.com/universal-tool-calling-protocol/python-utcp)"
+      },
+      {
+        "row": 56,
+        "rowsha": "PLs8xLeUBbrqJOEndCWlsnuk5EOKbyQSAIJ70bb5Bos=",
+        "originContent": "- [Reference Implementations](https://github.com/universal-tool-calling-protocol/python-utcp)",
+        "translatedContent": "- [Discussões da Comunidade](https://github.com/universal-tool-calling-protocol/utcp-specification/discussions)"
+      },
+      {
+        "row": 57,
+        "rowsha": "woYp8Xn58L8ybO+dJIMqM2lXnopUFWyf8R0RwDLYLDY=",
+        "originContent": "- [Community Discussions](https://github.com/universal-tool-calling-protocol/utcp-specification/discussions)",
+        "translatedContent": ""
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

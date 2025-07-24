@@ -1,0 +1,801 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Universal Tool Calling Protocol (UTCP) Specification\n\nThis repository contains the official specification documentation for the Universal Tool Calling Protocol (UTCP). UTCP is a modern, flexible, and scalable standard for defining and interacting with tools across various communication protocols.\n\n## What is UTCP?\n\nUTCP provides a standardized way for AI systems and other clients to discover and call tools from different providers, regardless of the underlying protocol used (HTTP, WebSocket, CLI, etc.). This specification defines:\n\n- Tool discovery mechanisms\n- Tool call formats\n- Provider configuration\n- Authentication methods\n- Response handling\n\n## Contributing to the Specification\n\nWe welcome contributions to the UTCP specification! Here's how you can contribute:\n\n1. **Fork the repository**: Create your own fork of the specification repository\n2. **Make your changes**: Update or add documentation as needed\n3. **Submit a pull request**: Open a PR with your changes for review\n4. **Participate in discussions**: Join the conversation about proposed changes\n\nWhen contributing, please follow these guidelines:\n\n- Ensure your changes align with the overall vision and goals of UTCP\n- Follow the established documentation structure and formatting\n- Include examples when adding new features or concepts\n- Update relevant sections to maintain consistency across the documentation\n\n## Building the Documentation Locally\n\n### Prerequisites\n\nTo build and preview the documentation site locally, you'll need:\n\n- Ruby version 2.5.0 or higher\n- RubyGems\n- Bundler\n\n### Setup\n\n1. Clone the repository:",
+    "ContentSha": "QIFRQbzAliPFmjiLU8tett76p76n8fkbiZLlCOqrt1U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# यूनिवर्सल टूल कॉलिंग प्रोटोकॉल (UTCP) स्पेसिफिकेशन\n\nयह रिपॉजिटरी यूनिवर्सल टूल कॉलिंग प्रोटोकॉल (UTCP) के लिए आधिकारिक स्पेसिफिकेशन डाक्यूमेंटेशन को समाहित करती है। UTCP विभिन्न संचार प्रोटोकॉल्स के माध्यम से टूल्स को परिभाषित करने और उनके साथ इंटरैक्ट करने के लिए एक आधुनिक, लचीला और स्केलेबल मानक है।\n\n## UTCP क्या है?\n\nUTCP AI सिस्टम्स और अन्य क्लाइंट्स को विभिन्न प्रदाताओं से टूल्स को खोजने और कॉल करने का एक मानकीकृत तरीका प्रदान करता है, चाहे उपयोग किया गया प्रोटोकॉल (HTTP, WebSocket, CLI, आदि) कुछ भी हो। यह स्पेसिफिकेशन निम्नलिखित को परिभाषित करता है:\n\n- टूल खोजने के तंत्र\n- टूल कॉल फॉर्मेट्स\n- प्रदाता कॉन्फ़िगरेशन\n- प्रमाणीकरण विधियां\n- प्रतिक्रिया प्रबंधन\n\n## स्पेसिफिकेशन में योगदान\n\nहम UTCP स्पेसिफिकेशन में आपके योगदान का स्वागत करते हैं! आप इस प्रकार योगदान कर सकते हैं:\n\n1. **रिपॉजिटरी को फोर्क करें**: स्पेसिफिकेशन रिपॉजिटरी की अपनी प्रति बनाएं\n2. **अपने परिवर्तन करें**: आवश्यकतानुसार डाक्यूमेंटेशन को अपडेट या जोड़ें\n3. **पुल रिक्वेस्ट सबमिट करें**: समीक्षा के लिए अपने परिवर्तनों के साथ एक PR खोलें\n4. **चर्चा में भाग लें**: प्रस्तावित परिवर्तनों पर चर्चा में शामिल हों\n\nयोगदान करते समय कृपया इन दिशानिर्देशों का पालन करें:\n\n- सुनिश्चित करें कि आपके परिवर्तन UTCP की समग्र दृष्टि और लक्ष्यों के अनुरूप हैं\n- स्थापित डाक्यूमेंटेशन संरचना और स्वरूपण का पालन करें\n- नई विशेषताओं या अवधारणाओं को जोड़ते समय उदाहरण शामिल करें\n- डाक्यूमेंटेशन में निरंतरता बनाए रखने के लिए संबंधित अनुभागों को अपडेट करें\n\n## डाक्यूमेंटेशन को स्थानीय रूप से बनाना\n\n### आवश्यकताएँ\n\nडाक्यूमेंटेशन साइट को स्थानीय रूप से बनाने और पूर्वावलोकन करने के लिए, आपको आवश्यकता होगी:\n\n- रूबी संस्करण 2.5.0 या उससे अधिक\n- रूबी जेम्स\n- बंडलर\n\n### सेटअप\n\n1. रिपॉजिटरी क्लोन करें:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "xJHSdggSTF4Minkry4PQYcIpm4gBczAYq2tsN2az0l8=",
+        "originContent": "# Universal Tool Calling Protocol (UTCP) Specification",
+        "translatedContent": "# यूनिवर्सल टूल कॉलिंग प्रोटोकॉल (UTCP) स्पेसिफिकेशन"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "s9peSBzsIcDSE4WNt1AWo/c1H6/EEs7bBjXItDk07Kk=",
+        "originContent": "This repository contains the official specification documentation for the Universal Tool Calling Protocol (UTCP). UTCP is a modern, flexible, and scalable standard for defining and interacting with tools across various communication protocols.",
+        "translatedContent": "यह रिपॉजिटरी यूनिवर्सल टूल कॉलिंग प्रोटोकॉल (UTCP) के लिए आधिकारिक स्पेसिफिकेशन डाक्यूमेंटेशन को समाहित करती है। UTCP विभिन्न संचार प्रोटोकॉल्स के माध्यम से टूल्स को परिभाषित करने और उनके साथ इंटरैक्ट करने के लिए एक आधुनिक, लचीला और स्केलेबल मानक है।"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "rbnnSrzDhnIaJxLZksSZg1k78qFZ7rPNsYNuNcw8/9g=",
+        "originContent": "## What is UTCP?",
+        "translatedContent": "## UTCP क्या है?"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "awC/algqs6hUwK4PEn4JoOjSTt5u9dBHIPOuVKnJHII=",
+        "originContent": "UTCP provides a standardized way for AI systems and other clients to discover and call tools from different providers, regardless of the underlying protocol used (HTTP, WebSocket, CLI, etc.). This specification defines:",
+        "translatedContent": "UTCP AI सिस्टम्स और अन्य क्लाइंट्स को विभिन्न प्रदाताओं से टूल्स को खोजने और कॉल करने का एक मानकीकृत तरीका प्रदान करता है, चाहे उपयोग किया गया प्रोटोकॉल (HTTP, WebSocket, CLI, आदि) कुछ भी हो। यह स्पेसिफिकेशन निम्नलिखित को परिभाषित करता है:"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "UlWpBVXovNOvCRblhboLytPX5ckpaUpTLm3/qv9gk4o=",
+        "originContent": "- Tool discovery mechanisms",
+        "translatedContent": "- टूल खोजने के तंत्र"
+      },
+      {
+        "row": 10,
+        "rowsha": "IWL9E0A8PpkIv2p2oaCGme5Lm0GBaDbWrFEz4d5jfkE=",
+        "originContent": "- Tool call formats",
+        "translatedContent": "- टूल कॉल फॉर्मेट्स"
+      },
+      {
+        "row": 11,
+        "rowsha": "HO8O3bBxgSt7oPptrKesXUpkjvBwZ1YEvZKP2Vvz3uw=",
+        "originContent": "- Provider configuration",
+        "translatedContent": "- प्रदाता कॉन्फ़िगरेशन"
+      },
+      {
+        "row": 12,
+        "rowsha": "CQUwzgixFAn22LLEPxIQ3G+YDfHkIqJ58z/7FAca3Fw=",
+        "originContent": "- Authentication methods",
+        "translatedContent": "- प्रमाणीकरण विधियां"
+      },
+      {
+        "row": 13,
+        "rowsha": "ceOSzL7KcpbtKqPS/08Q7KcslHQnLha7o5hvggIK2kE=",
+        "originContent": "- Response handling",
+        "translatedContent": "- प्रतिक्रिया प्रबंधन"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "0t+A3umpBR2ZYuImEzcPvTfjlUSjpA2ESjlmVzXnEa8=",
+        "originContent": "## Contributing to the Specification",
+        "translatedContent": "## स्पेसिफिकेशन में योगदान"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "eke/yHONAqjw5KusMwVgA3KPngGoFUQIGnLrKAJ0Qo0=",
+        "originContent": "We welcome contributions to the UTCP specification! Here's how you can contribute:",
+        "translatedContent": "हम UTCP स्पेसिफिकेशन में आपके योगदान का स्वागत करते हैं! आप इस प्रकार योगदान कर सकते हैं:"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "Y8TPmuKwXDKE6LRz88abZl9wdIkYl0RkKl6gKMKA8wM=",
+        "originContent": "1. **Fork the repository**: Create your own fork of the specification repository",
+        "translatedContent": "1. **रिपॉजिटरी को फोर्क करें**: स्पेसिफिकेशन रिपॉजिटरी की अपनी प्रति बनाएं"
+      },
+      {
+        "row": 20,
+        "rowsha": "AEoHHE0KwbQvdG1L7HkzBXW0HO+gZxU+uS5xTSeBckI=",
+        "originContent": "2. **Make your changes**: Update or add documentation as needed",
+        "translatedContent": "2. **अपने परिवर्तन करें**: आवश्यकतानुसार डाक्यूमेंटेशन को अपडेट या जोड़ें"
+      },
+      {
+        "row": 21,
+        "rowsha": "bv4khX63w4WOaQpP3KA0VotcULAh/5aVhDH2dIWGsEw=",
+        "originContent": "3. **Submit a pull request**: Open a PR with your changes for review",
+        "translatedContent": "3. **पुल रिक्वेस्ट सबमिट करें**: समीक्षा के लिए अपने परिवर्तनों के साथ एक PR खोलें"
+      },
+      {
+        "row": 22,
+        "rowsha": "dMuqDe/JR9KyXGr54Ss1PLDeVL2nJg6Ji1wi0g2ZAr0=",
+        "originContent": "4. **Participate in discussions**: Join the conversation about proposed changes",
+        "translatedContent": "4. **चर्चा में भाग लें**: प्रस्तावित परिवर्तनों पर चर्चा में शामिल हों"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "xqDPz7HO4hM6MPW51whVNb94VMy8IMSNf1zlONhaoRs=",
+        "originContent": "When contributing, please follow these guidelines:",
+        "translatedContent": "योगदान करते समय कृपया इन दिशानिर्देशों का पालन करें:"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "hS5ItxgNOL8hAkp1hUqWmYym2XlVINgtKjnItzLbbiU=",
+        "originContent": "- Ensure your changes align with the overall vision and goals of UTCP",
+        "translatedContent": "- सुनिश्चित करें कि आपके परिवर्तन UTCP की समग्र दृष्टि और लक्ष्यों के अनुरूप हैं"
+      },
+      {
+        "row": 27,
+        "rowsha": "vEDbZdm+VFOaDaYTKbNoxmGgvdvwhQsBTrUL7aFOSHk=",
+        "originContent": "- Follow the established documentation structure and formatting",
+        "translatedContent": "- स्थापित डाक्यूमेंटेशन संरचना और स्वरूपण का पालन करें"
+      },
+      {
+        "row": 28,
+        "rowsha": "B1VWuWiRqJvDBZoyhMNOiCDlb9A1v+A0Fbfqm6EK/TQ=",
+        "originContent": "- Include examples when adding new features or concepts",
+        "translatedContent": "- नई विशेषताओं या अवधारणाओं को जोड़ते समय उदाहरण शामिल करें"
+      },
+      {
+        "row": 29,
+        "rowsha": "L2YMioMKUwcTwPxXb/3l7Q/E5bfA+cenT8hMenZAZCg=",
+        "originContent": "- Update relevant sections to maintain consistency across the documentation",
+        "translatedContent": "- डाक्यूमेंटेशन में निरंतरता बनाए रखने के लिए संबंधित अनुभागों को अपडेट करें"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "/nJ6lknUOllzsC0oY34eeT3TCxG4+y+zcZ2axr8ggpQ=",
+        "originContent": "## Building the Documentation Locally",
+        "translatedContent": "## डाक्यूमेंटेशन को स्थानीय रूप से बनाना"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+        "originContent": "### Prerequisites",
+        "translatedContent": "### आवश्यकताएँ"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "ypkXOUI3egKvlW5FpW2D3DLA2sXse5+7W0IFV8e9bF0=",
+        "originContent": "To build and preview the documentation site locally, you'll need:",
+        "translatedContent": "डाक्यूमेंटेशन साइट को स्थानीय रूप से बनाने और पूर्वावलोकन करने के लिए, आपको आवश्यकता होगी:"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "IaFCka+Mkv8Ef89teyUIvzmxaf5+6vrgSzQ1EDYXBMY=",
+        "originContent": "- Ruby version 2.5.0 or higher",
+        "translatedContent": "- रूबी संस्करण 2.5.0 या उससे अधिक"
+      },
+      {
+        "row": 38,
+        "rowsha": "jbLb7nOn7oeegWkZSnf6KjVucMLcCakSlsgqq0cHV7E=",
+        "originContent": "- RubyGems",
+        "translatedContent": "- रूबी जेम्स"
+      },
+      {
+        "row": 39,
+        "rowsha": "FEtV6W8Br8cRpORCnMRH7GgA550vZGLCeqQfci6bYjk=",
+        "originContent": "- Bundler",
+        "translatedContent": "- बंडलर"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "iJa409tTUC9P1gTULbIw6Kod+KAUdLl5kgZl7whoChE=",
+        "originContent": "### Setup",
+        "translatedContent": "### सेटअप"
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "hG22SbQBn/awFhy/7NjM1QaurZuLva3Zcxx701Nf8Vo=",
+        "originContent": "1. Clone the repository:",
+        "translatedContent": "1. रिपॉजिटरी क्लोन करें:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "   ```bash\n   git clone https://github.com/universal-tool-calling-protocol/utcp-specification.git\n   cd utcp-specification\n   ```",
+    "ContentSha": "eTsuVkER6Cc4Y5Ts5fuDqfuuNqBNYLx4GlCxAYjUOQA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   git clone https://github.com/universal-tool-calling-protocol/utcp-specification.git\n   cd utcp-specification\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "PSZH2bhNBfoH5UQn9RFI6ZuWR5oAYnHlkugkxiIVoZY=",
+        "originContent": "   git clone https://github.com/universal-tool-calling-protocol/utcp-specification.git",
+        "translatedContent": "   git clone https://github.com/universal-tool-calling-protocol/utcp-specification.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "dsvRvBy2e/6sJc4XOilsFYPcgqbAq8TjhJfHmWzWfqU=",
+        "originContent": "   cd utcp-specification",
+        "translatedContent": "   cd utcp-specification"
+      },
+      {
+        "row": 4,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n2. Install dependencies:",
+    "ContentSha": "7axmS9yAHWfFa5x86RXNal1TyqIcwHVkbg9dg4se5lk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. निर्भरता स्थापित करें:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. निर्भरता स्थापित करें:"
+      },
+      {
+        "row": 2,
+        "rowsha": "ksJZLSOlzyNqFrMTkpmMOmHTn1mDIM8A+zSqlEvTL7E=",
+        "originContent": "2. Install dependencies:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "   ```bash\n   bundle install\n   ```",
+    "ContentSha": "snejXIGZG2n8C1HDMtyg5uXhIBkga6WKX4GRTFrsWbQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   bundle install\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "LHr68v3BekLA50Khtt7jNiluS/tSYsOx1L+kg8BkIVE=",
+        "originContent": "   bundle install",
+        "translatedContent": "   bundle install"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Running the Documentation Site\n\nTo build and serve the site locally:\n",
+    "ContentSha": "+zOqhsTxJoTaUIpdpwdIm7S+vDEypk2Uj2oZBlT71LY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### डोक्युमेंटेशन साइट चलाना\n\nसाइट को स्थानीय रूप से बनाने और सर्व करने के लिए:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### डोक्युमेंटेशन साइट चलाना"
+      },
+      {
+        "row": 2,
+        "rowsha": "5K49rtA0bQkWww4xiJAq4XkwaTvrJiC0ATGATib3zFQ=",
+        "originContent": "### Running the Documentation Site",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "साइट को स्थानीय रूप से बनाने और सर्व करने के लिए:"
+      },
+      {
+        "row": 4,
+        "rowsha": "4Noirhs1mr44VLxWStjj2ahn8r9P1LtajqKcMRxqgZg=",
+        "originContent": "To build and serve the site locally:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\nbundle exec jekyll serve\n```",
+    "ContentSha": "G5cdXvV2i6gtQ960CwY7zDhALwFFtTnNE5xlqx7qltg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nbundle exec jekyll serve\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "eyWbCzh3fDUI7ubrYxJBGheJ+q845VeNVptOYttlf5g=",
+        "originContent": "bundle exec jekyll serve",
+        "translatedContent": "bundle exec jekyll serve"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nThis will start a local web server at `http://localhost:4000` where you can preview the documentation.\n\n## Documentation Structure\n\nThe UTCP documentation is organized as follows:\n\n- `index.md`: Homepage and introduction to UTCP\n- `docs/`\n  - `introduction.md`: Detailed introduction and core concepts\n  - `for-tool-providers.md`: Guide for implementing tool providers\n  - `for-tool-callers.md`: Guide for implementing tool callers\n  - `providers/`: Documentation for each provider type\n    - `http.md`: HTTP provider\n    - `websocket.md`: WebSocket provider\n    - `cli.md`: CLI provider\n    - `sse.md`: Server-Sent Events provider\n    - etc.\n  - `implementation.md`: Implementation guidelines and best practices\n\n## Working with the Specification\n\n### Modifying the Documentation\n\nThe documentation is written in Markdown format with Jekyll front matter. When making changes:\n\n1. Ensure your Markdown follows the established style\n2. Preview changes locally before submitting PRs\n3. Keep examples up-to-date with the latest specification\n4. Update navigation items in `_config.yml` if adding new pages\n\n### File Organization\n\nWhen adding new documentation:\n\n- Place provider-specific documentation in `docs/providers/`\n- Use consistent front matter with appropriate navigation ordering\n- Include tags for improved searchability on GitHub Pages\n\n## Version Control\n\nThe UTCP specification follows semantic versioning:\n\n- Major versions (1.0, 2.0): Breaking changes to the protocol\n- Minor versions (1.1, 1.2): New features added in a backward-compatible manner\n- Patch versions (1.0.1, 1.0.2): Backward-compatible bug fixes and clarifications\n\n## License\n\nThis specification is distributed under the Mozilla Public License 2.0 (MPL-2.0).\n\n## Additional Resources\n\n- [UTCP GitHub Organization](https://github.com/universal-tool-calling-protocol)\n- [UTCP Website](https://utcp.io)\n- [Reference Implementations](https://github.com/universal-tool-calling-protocol/python-utcp)\n- [Community Discussions](https://github.com/universal-tool-calling-protocol/utcp-specification/discussions)\n",
+    "ContentSha": "fGjSLDggZcFOduTTtROLeyFAks/xtxCytWxdkWxgUIA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "यह एक स्थानीय वेब सर्वर `http://localhost:4000` पर शुरू करेगा जहाँ आप प्रलेखन का पूर्वावलोकन कर सकते हैं।\n\n## प्रलेखन संरचना\n\nUTCP प्रलेखन निम्नानुसार व्यवस्थित है:\n\n- `index.md`: होमपेज और UTCP का परिचय\n- `docs/`\n  - `introduction.md`: विस्तृत परिचय और मूल अवधारणाएँ\n  - `for-tool-providers.md`: टूल प्रदाताओं के लिए मार्गदर्शिका\n  - `for-tool-callers.md`: टूल कॉलर्स के लिए मार्गदर्शिका\n  - `providers/`: प्रत्येक प्रदाता प्रकार के लिए प्रलेखन\n    - `http.md`: HTTP प्रदाता\n    - `websocket.md`: WebSocket प्रदाता\n    - `cli.md`: CLI प्रदाता\n    - `sse.md`: सर्वर-सेंट इवेंट्स प्रदाता\n    - आदि।\n  - `implementation.md`: कार्यान्वयन दिशानिर्देश और सर्वोत्तम प्रथाएँ\n\n## विनिर्देशन के साथ कार्य करना\n\n### प्रलेखन में संशोधन करना\n\nप्रलेखन Markdown प्रारूप में Jekyll फ्रंट मैटर के साथ लिखा गया है। परिवर्तन करते समय:\n\n1. सुनिश्चित करें कि आपका Markdown स्थापित शैली का पालन करता है\n2. PR सबमिट करने से पहले स्थानीय रूप से परिवर्तन का पूर्वावलोकन करें\n3. उदाहरणों को नवीनतम विनिर्देशन के साथ अद्यतित रखें\n4. यदि नए पृष्ठ जोड़ रहे हैं तो `_config.yml` में नेविगेशन आइटम अपडेट करें\n\n### फ़ाइल संगठन\n\nनई प्रलेखन जोड़ते समय:\n\n- प्रदाता-विशिष्ट प्रलेखन `docs/providers/` में रखें\n- उपयुक्त नेविगेशन क्रम के साथ सुसंगत फ्रंट मैटर का उपयोग करें\n- GitHub Pages पर खोज में सुधार के लिए टैग शामिल करें\n\n## संस्करण नियंत्रण\n\nUTCP विनिर्देशन सेमांटिक संस्करण नियंत्रण का पालन करता है:\n\n- मुख्य संस्करण (1.0, 2.0): प्रोटोकॉल में ब्रेकिंग परिवर्तन\n- गौण संस्करण (1.1, 1.2): पीछे संगत नए फ़ीचर जोड़े गए\n- पैच संस्करण (1.0.1, 1.0.2): पीछे संगत बग फिक्स और स्पष्टीकरण\n\n## लाइसेंस\n\nयह विनिर्देशन Mozilla Public License 2.0 (MPL-2.0) के अंतर्गत वितरित किया गया है।\n\n## अतिरिक्त संसाधन\n\n- [UTCP GitHub संगठन](https://github.com/universal-tool-calling-protocol)\n- [UTCP वेबसाइट](https://utcp.io)\n- [संदर्भ कार्यान्वयन](https://github.com/universal-tool-calling-protocol/python-utcp)\n- [समुदाय चर्चा](https://github.com/universal-tool-calling-protocol/utcp-specification/discussions)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "यह एक स्थानीय वेब सर्वर `http://localhost:4000` पर शुरू करेगा जहाँ आप प्रलेखन का पूर्वावलोकन कर सकते हैं।"
+      },
+      {
+        "row": 2,
+        "rowsha": "7dtEaABfbBJi62hZPAaqtV/9SFSBsoUm1QIEdMSA5Pk=",
+        "originContent": "This will start a local web server at `http://localhost:4000` where you can preview the documentation.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## प्रलेखन संरचना"
+      },
+      {
+        "row": 4,
+        "rowsha": "O3/JdI6OkBp3KpwpdTBMDHKfrQJ5SvC5b4JUI78WYzY=",
+        "originContent": "## Documentation Structure",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "UTCP प्रलेखन निम्नानुसार व्यवस्थित है:"
+      },
+      {
+        "row": 6,
+        "rowsha": "HaHsnswFga9Y3bSnM8AkBTMc4nnhKGw+NgQjYFVxq84=",
+        "originContent": "The UTCP documentation is organized as follows:",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `index.md`: होमपेज और UTCP का परिचय"
+      },
+      {
+        "row": 8,
+        "rowsha": "k9T5W7pKUSxwDzfjziv/NQBRYx7AFpotvNSqrQvh/Js=",
+        "originContent": "- `index.md`: Homepage and introduction to UTCP",
+        "translatedContent": "- `docs/`"
+      },
+      {
+        "row": 9,
+        "rowsha": "yjJ0j1VQ7L3x55b1LywGeL0nDS8nEW5vNugZwVPPOcc=",
+        "originContent": "- `docs/`",
+        "translatedContent": "  - `introduction.md`: विस्तृत परिचय और मूल अवधारणाएँ"
+      },
+      {
+        "row": 10,
+        "rowsha": "SctsJUuD+7gaeeq4yVpjLiw1wtwnyFqVKLRYcN5ksmg=",
+        "originContent": "  - `introduction.md`: Detailed introduction and core concepts",
+        "translatedContent": "  - `for-tool-providers.md`: टूल प्रदाताओं के लिए मार्गदर्शिका"
+      },
+      {
+        "row": 11,
+        "rowsha": "1Pg0pHoJ1RM8njsNT1arBVPWn6t4jlwdr8KaawlmTlk=",
+        "originContent": "  - `for-tool-providers.md`: Guide for implementing tool providers",
+        "translatedContent": "  - `for-tool-callers.md`: टूल कॉलर्स के लिए मार्गदर्शिका"
+      },
+      {
+        "row": 12,
+        "rowsha": "OuzbN65KN5B0x5KhVxBgbVen5v1aUs9cnqWHCYCFXsc=",
+        "originContent": "  - `for-tool-callers.md`: Guide for implementing tool callers",
+        "translatedContent": "  - `providers/`: प्रत्येक प्रदाता प्रकार के लिए प्रलेखन"
+      },
+      {
+        "row": 13,
+        "rowsha": "nrodE5CS/6qmpvUEglsv6Na2xNfyt+lm55vsUuL3Hxs=",
+        "originContent": "  - `providers/`: Documentation for each provider type",
+        "translatedContent": "    - `http.md`: HTTP प्रदाता"
+      },
+      {
+        "row": 14,
+        "rowsha": "T9mBLyYJhIqKO0CZOPYS9FRns3vYj0cctZ8D2OVoIfc=",
+        "originContent": "    - `http.md`: HTTP provider",
+        "translatedContent": "    - `websocket.md`: WebSocket प्रदाता"
+      },
+      {
+        "row": 15,
+        "rowsha": "km/oPG1a6XhbBaApEy0aBS2E1fP1VXERvY7GgSahM3U=",
+        "originContent": "    - `websocket.md`: WebSocket provider",
+        "translatedContent": "    - `cli.md`: CLI प्रदाता"
+      },
+      {
+        "row": 16,
+        "rowsha": "QO0MRNpbt0AIRUqjWOrUqgE3e9nobCOJL6XYGzrUSSE=",
+        "originContent": "    - `cli.md`: CLI provider",
+        "translatedContent": "    - `sse.md`: सर्वर-सेंट इवेंट्स प्रदाता"
+      },
+      {
+        "row": 17,
+        "rowsha": "IJS7uQZUsNft5DNCgA0mZbO7c2JTZCX6z4DYhw3nXKI=",
+        "originContent": "    - `sse.md`: Server-Sent Events provider",
+        "translatedContent": "    - आदि।"
+      },
+      {
+        "row": 18,
+        "rowsha": "sqd8y9NhMCpcy681z6fnvGF3jms9TufSoB3/nYu4jOM=",
+        "originContent": "    - etc.",
+        "translatedContent": "  - `implementation.md`: कार्यान्वयन दिशानिर्देश और सर्वोत्तम प्रथाएँ"
+      },
+      {
+        "row": 19,
+        "rowsha": "dz1RDqd7ji8T3JhaTzKNjVRr87zK50eGuVQM7rQMZso=",
+        "originContent": "  - `implementation.md`: Implementation guidelines and best practices",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## विनिर्देशन के साथ कार्य करना"
+      },
+      {
+        "row": 21,
+        "rowsha": "De/2Xybl1baY+KZKq2HkxiWF0qstiI1szEYjlLHKP2I=",
+        "originContent": "## Working with the Specification",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### प्रलेखन में संशोधन करना"
+      },
+      {
+        "row": 23,
+        "rowsha": "N9JHA8eOcUnKtw1PaghZiHYctWsrjmajh6F+xXIC6po=",
+        "originContent": "### Modifying the Documentation",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "प्रलेखन Markdown प्रारूप में Jekyll फ्रंट मैटर के साथ लिखा गया है। परिवर्तन करते समय:"
+      },
+      {
+        "row": 25,
+        "rowsha": "mFgQsEY150FAXAQjgkrkV8pEOst4/nrU6Y5IXUX8F0w=",
+        "originContent": "The documentation is written in Markdown format with Jekyll front matter. When making changes:",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. सुनिश्चित करें कि आपका Markdown स्थापित शैली का पालन करता है"
+      },
+      {
+        "row": 27,
+        "rowsha": "Ng7cYb6csAcFM2PaJr9PfaL829FnbZWk0AU/2SkfviY=",
+        "originContent": "1. Ensure your Markdown follows the established style",
+        "translatedContent": "2. PR सबमिट करने से पहले स्थानीय रूप से परिवर्तन का पूर्वावलोकन करें"
+      },
+      {
+        "row": 28,
+        "rowsha": "o1CKnVeELNakZNaQgq6Sdd2XcLTarjyG0wDAvjKhvMQ=",
+        "originContent": "2. Preview changes locally before submitting PRs",
+        "translatedContent": "3. उदाहरणों को नवीनतम विनिर्देशन के साथ अद्यतित रखें"
+      },
+      {
+        "row": 29,
+        "rowsha": "9URY0bV9xLrzCZC7qXqg+WADyjz4yoyD3Q3Qywn608A=",
+        "originContent": "3. Keep examples up-to-date with the latest specification",
+        "translatedContent": "4. यदि नए पृष्ठ जोड़ रहे हैं तो `_config.yml` में नेविगेशन आइटम अपडेट करें"
+      },
+      {
+        "row": 30,
+        "rowsha": "Q4PuJvUnrJeT2F6czhllofHf6MWui3xz6kaohipzFzo=",
+        "originContent": "4. Update navigation items in `_config.yml` if adding new pages",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### फ़ाइल संगठन"
+      },
+      {
+        "row": 32,
+        "rowsha": "tR0NjmLLtcoKcrqOHcRwmeryT+K1Uf0AQHcmXOiGxO4=",
+        "originContent": "### File Organization",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "नई प्रलेखन जोड़ते समय:"
+      },
+      {
+        "row": 34,
+        "rowsha": "Hok9SmtDH7aET3sQHXMsMEVImraV7DUP5+elprIySz4=",
+        "originContent": "When adding new documentation:",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- प्रदाता-विशिष्ट प्रलेखन `docs/providers/` में रखें"
+      },
+      {
+        "row": 36,
+        "rowsha": "pmMzbT3BQoaBnFswdmcBV50xwebzmXlCM3Wfc24jX7M=",
+        "originContent": "- Place provider-specific documentation in `docs/providers/`",
+        "translatedContent": "- उपयुक्त नेविगेशन क्रम के साथ सुसंगत फ्रंट मैटर का उपयोग करें"
+      },
+      {
+        "row": 37,
+        "rowsha": "udSenQr71fr8kBz4UCwtfWNmm0PDU4yCj1Z5TrGtUEs=",
+        "originContent": "- Use consistent front matter with appropriate navigation ordering",
+        "translatedContent": "- GitHub Pages पर खोज में सुधार के लिए टैग शामिल करें"
+      },
+      {
+        "row": 38,
+        "rowsha": "rmbF/hLTdKcp+rsd55WQ6PTNSx5yClOTogVgaHIqSxI=",
+        "originContent": "- Include tags for improved searchability on GitHub Pages",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## संस्करण नियंत्रण"
+      },
+      {
+        "row": 40,
+        "rowsha": "U3+t+htmDQaHtFH1jj2HhwfnrB1xGYJoxjBFAbgSyhs=",
+        "originContent": "## Version Control",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "UTCP विनिर्देशन सेमांटिक संस्करण नियंत्रण का पालन करता है:"
+      },
+      {
+        "row": 42,
+        "rowsha": "py4vFFG3U1Dtd5pszzXwPhGiTVcXPXqohDBkTnc8SlE=",
+        "originContent": "The UTCP specification follows semantic versioning:",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- मुख्य संस्करण (1.0, 2.0): प्रोटोकॉल में ब्रेकिंग परिवर्तन"
+      },
+      {
+        "row": 44,
+        "rowsha": "GPECD4acZ3ehbkh1vfIxbDNhF0YsraiKtRLCW+GB2VE=",
+        "originContent": "- Major versions (1.0, 2.0): Breaking changes to the protocol",
+        "translatedContent": "- गौण संस्करण (1.1, 1.2): पीछे संगत नए फ़ीचर जोड़े गए"
+      },
+      {
+        "row": 45,
+        "rowsha": "bqca2eCL66tPoVcx2diLC8ckd4dhUmqgNvSG3ll6Jz0=",
+        "originContent": "- Minor versions (1.1, 1.2): New features added in a backward-compatible manner",
+        "translatedContent": "- पैच संस्करण (1.0.1, 1.0.2): पीछे संगत बग फिक्स और स्पष्टीकरण"
+      },
+      {
+        "row": 46,
+        "rowsha": "BLY30nIRYYyZHzqtx6ZJtrD9u0ow/iWKNPKJuQcXELA=",
+        "originContent": "- Patch versions (1.0.1, 1.0.2): Backward-compatible bug fixes and clarifications",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## लाइसेंस"
+      },
+      {
+        "row": 48,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "यह विनिर्देशन Mozilla Public License 2.0 (MPL-2.0) के अंतर्गत वितरित किया गया है।"
+      },
+      {
+        "row": 50,
+        "rowsha": "BL1drMEZolnyC/60tlzW23Wt5V59l6dKrqnVyieC9gc=",
+        "originContent": "This specification is distributed under the Mozilla Public License 2.0 (MPL-2.0).",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## अतिरिक्त संसाधन"
+      },
+      {
+        "row": 52,
+        "rowsha": "EPhxePFkwDXs+ndwFD22jCyKffu939Uni96wczsSEog=",
+        "originContent": "## Additional Resources",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [UTCP GitHub संगठन](https://github.com/universal-tool-calling-protocol)"
+      },
+      {
+        "row": 54,
+        "rowsha": "JK2hiJH330qCk3TLi/eRURScbTiO4H+bvRBmJF1LBWg=",
+        "originContent": "- [UTCP GitHub Organization](https://github.com/universal-tool-calling-protocol)",
+        "translatedContent": "- [UTCP वेबसाइट](https://utcp.io)"
+      },
+      {
+        "row": 55,
+        "rowsha": "NB5VKRFDDFe/y+o+gJb10s679D6uM9tQrQ5M8aLCrmo=",
+        "originContent": "- [UTCP Website](https://utcp.io)",
+        "translatedContent": "- [संदर्भ कार्यान्वयन](https://github.com/universal-tool-calling-protocol/python-utcp)"
+      },
+      {
+        "row": 56,
+        "rowsha": "PLs8xLeUBbrqJOEndCWlsnuk5EOKbyQSAIJ70bb5Bos=",
+        "originContent": "- [Reference Implementations](https://github.com/universal-tool-calling-protocol/python-utcp)",
+        "translatedContent": "- [समुदाय चर्चा](https://github.com/universal-tool-calling-protocol/utcp-specification/discussions)"
+      },
+      {
+        "row": 57,
+        "rowsha": "woYp8Xn58L8ybO+dJIMqM2lXnopUFWyf8R0RwDLYLDY=",
+        "originContent": "- [Community Discussions](https://github.com/universal-tool-calling-protocol/utcp-specification/discussions)",
+        "translatedContent": ""
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

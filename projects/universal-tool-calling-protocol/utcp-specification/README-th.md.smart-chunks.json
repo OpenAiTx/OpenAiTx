@@ -1,0 +1,801 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Universal Tool Calling Protocol (UTCP) Specification\n\nThis repository contains the official specification documentation for the Universal Tool Calling Protocol (UTCP). UTCP is a modern, flexible, and scalable standard for defining and interacting with tools across various communication protocols.\n\n## What is UTCP?\n\nUTCP provides a standardized way for AI systems and other clients to discover and call tools from different providers, regardless of the underlying protocol used (HTTP, WebSocket, CLI, etc.). This specification defines:\n\n- Tool discovery mechanisms\n- Tool call formats\n- Provider configuration\n- Authentication methods\n- Response handling\n\n## Contributing to the Specification\n\nWe welcome contributions to the UTCP specification! Here's how you can contribute:\n\n1. **Fork the repository**: Create your own fork of the specification repository\n2. **Make your changes**: Update or add documentation as needed\n3. **Submit a pull request**: Open a PR with your changes for review\n4. **Participate in discussions**: Join the conversation about proposed changes\n\nWhen contributing, please follow these guidelines:\n\n- Ensure your changes align with the overall vision and goals of UTCP\n- Follow the established documentation structure and formatting\n- Include examples when adding new features or concepts\n- Update relevant sections to maintain consistency across the documentation\n\n## Building the Documentation Locally\n\n### Prerequisites\n\nTo build and preview the documentation site locally, you'll need:\n\n- Ruby version 2.5.0 or higher\n- RubyGems\n- Bundler\n\n### Setup\n\n1. Clone the repository:",
+    "ContentSha": "QIFRQbzAliPFmjiLU8tett76p76n8fkbiZLlCOqrt1U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# ข้อกำหนดโปรโตคอล Universal Tool Calling (UTCP)\n\nที่เก็บนี้ประกอบด้วยเอกสารข้อกำหนดอย่างเป็นทางการสำหรับ Universal Tool Calling Protocol (UTCP) ซึ่งเป็นมาตรฐานที่ทันสมัย มีความยืดหยุ่น และสามารถขยายได้ สำหรับการกำหนดและโต้ตอบกับเครื่องมือผ่านโปรโตคอลการสื่อสารต่าง ๆ\n\n## UTCP คืออะไร?\n\nUTCP มอบวิธีมาตรฐานสำหรับระบบ AI และไคลเอนต์อื่น ๆ ในการค้นหาและเรียกใช้เครื่องมือจากผู้ให้บริการต่าง ๆ โดยไม่คำนึงถึงโปรโตคอลพื้นฐานที่ใช้ (HTTP, WebSocket, CLI ฯลฯ) ข้อกำหนดนี้นิยาม:\n\n- กลไกการค้นหาเครื่องมือ\n- รูปแบบการเรียกใช้เครื่องมือ\n- การกำหนดค่าผู้ให้บริการ\n- วิธีการตรวจสอบสิทธิ์\n- การจัดการการตอบกลับ\n\n## การมีส่วนร่วมกับข้อกำหนด\n\nเรายินดีรับการมีส่วนร่วมกับข้อกำหนดของ UTCP! นี่คือวิธีที่คุณสามารถมีส่วนร่วมได้:\n\n1. **Fork ที่เก็บนี้**: สร้าง fork ของที่เก็บข้อกำหนดเป็นของคุณเอง\n2. **ทำการเปลี่ยนแปลงของคุณ**: อัปเดตหรือเพิ่มเอกสารตามความจำเป็น\n3. **ส่ง pull request**: เปิด PR พร้อมการเปลี่ยนแปลงของคุณเพื่อขอรีวิว\n4. **เข้าร่วมการอภิปราย**: เข้าร่วมสนทนาเกี่ยวกับการเปลี่ยนแปลงที่เสนอ\n\nเมื่อมีส่วนร่วม โปรดปฏิบัติตามแนวทางเหล่านี้:\n\n- ตรวจสอบให้แน่ใจว่าการเปลี่ยนแปลงของคุณสอดคล้องกับวิสัยทัศน์และเป้าหมายโดยรวมของ UTCP\n- ปฏิบัติตามโครงสร้างเอกสารและรูปแบบที่กำหนดไว้\n- ใส่ตัวอย่างเมื่อเพิ่มฟีเจอร์หรือแนวคิดใหม่ ๆ\n- อัปเดตส่วนที่เกี่ยวข้องเพื่อรักษาความสอดคล้องของเอกสารทั้งหมด\n\n## การสร้างเอกสารในเครื่อง\n\n### ข้อกำหนดเบื้องต้น\n\nหากต้องการสร้างและดูตัวอย่างเว็บไซต์เอกสารในเครื่อง คุณจะต้องมี:\n\n- Ruby เวอร์ชัน 2.5.0 หรือสูงกว่า\n- RubyGems\n- Bundler\n\n### การตั้งค่า\n\n1. โคลนที่เก็บนี้:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "xJHSdggSTF4Minkry4PQYcIpm4gBczAYq2tsN2az0l8=",
+        "originContent": "# Universal Tool Calling Protocol (UTCP) Specification",
+        "translatedContent": "# ข้อกำหนดโปรโตคอล Universal Tool Calling (UTCP)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "s9peSBzsIcDSE4WNt1AWo/c1H6/EEs7bBjXItDk07Kk=",
+        "originContent": "This repository contains the official specification documentation for the Universal Tool Calling Protocol (UTCP). UTCP is a modern, flexible, and scalable standard for defining and interacting with tools across various communication protocols.",
+        "translatedContent": "ที่เก็บนี้ประกอบด้วยเอกสารข้อกำหนดอย่างเป็นทางการสำหรับ Universal Tool Calling Protocol (UTCP) ซึ่งเป็นมาตรฐานที่ทันสมัย มีความยืดหยุ่น และสามารถขยายได้ สำหรับการกำหนดและโต้ตอบกับเครื่องมือผ่านโปรโตคอลการสื่อสารต่าง ๆ"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "rbnnSrzDhnIaJxLZksSZg1k78qFZ7rPNsYNuNcw8/9g=",
+        "originContent": "## What is UTCP?",
+        "translatedContent": "## UTCP คืออะไร?"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "awC/algqs6hUwK4PEn4JoOjSTt5u9dBHIPOuVKnJHII=",
+        "originContent": "UTCP provides a standardized way for AI systems and other clients to discover and call tools from different providers, regardless of the underlying protocol used (HTTP, WebSocket, CLI, etc.). This specification defines:",
+        "translatedContent": "UTCP มอบวิธีมาตรฐานสำหรับระบบ AI และไคลเอนต์อื่น ๆ ในการค้นหาและเรียกใช้เครื่องมือจากผู้ให้บริการต่าง ๆ โดยไม่คำนึงถึงโปรโตคอลพื้นฐานที่ใช้ (HTTP, WebSocket, CLI ฯลฯ) ข้อกำหนดนี้นิยาม:"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "UlWpBVXovNOvCRblhboLytPX5ckpaUpTLm3/qv9gk4o=",
+        "originContent": "- Tool discovery mechanisms",
+        "translatedContent": "- กลไกการค้นหาเครื่องมือ"
+      },
+      {
+        "row": 10,
+        "rowsha": "IWL9E0A8PpkIv2p2oaCGme5Lm0GBaDbWrFEz4d5jfkE=",
+        "originContent": "- Tool call formats",
+        "translatedContent": "- รูปแบบการเรียกใช้เครื่องมือ"
+      },
+      {
+        "row": 11,
+        "rowsha": "HO8O3bBxgSt7oPptrKesXUpkjvBwZ1YEvZKP2Vvz3uw=",
+        "originContent": "- Provider configuration",
+        "translatedContent": "- การกำหนดค่าผู้ให้บริการ"
+      },
+      {
+        "row": 12,
+        "rowsha": "CQUwzgixFAn22LLEPxIQ3G+YDfHkIqJ58z/7FAca3Fw=",
+        "originContent": "- Authentication methods",
+        "translatedContent": "- วิธีการตรวจสอบสิทธิ์"
+      },
+      {
+        "row": 13,
+        "rowsha": "ceOSzL7KcpbtKqPS/08Q7KcslHQnLha7o5hvggIK2kE=",
+        "originContent": "- Response handling",
+        "translatedContent": "- การจัดการการตอบกลับ"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "0t+A3umpBR2ZYuImEzcPvTfjlUSjpA2ESjlmVzXnEa8=",
+        "originContent": "## Contributing to the Specification",
+        "translatedContent": "## การมีส่วนร่วมกับข้อกำหนด"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "eke/yHONAqjw5KusMwVgA3KPngGoFUQIGnLrKAJ0Qo0=",
+        "originContent": "We welcome contributions to the UTCP specification! Here's how you can contribute:",
+        "translatedContent": "เรายินดีรับการมีส่วนร่วมกับข้อกำหนดของ UTCP! นี่คือวิธีที่คุณสามารถมีส่วนร่วมได้:"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "Y8TPmuKwXDKE6LRz88abZl9wdIkYl0RkKl6gKMKA8wM=",
+        "originContent": "1. **Fork the repository**: Create your own fork of the specification repository",
+        "translatedContent": "1. **Fork ที่เก็บนี้**: สร้าง fork ของที่เก็บข้อกำหนดเป็นของคุณเอง"
+      },
+      {
+        "row": 20,
+        "rowsha": "AEoHHE0KwbQvdG1L7HkzBXW0HO+gZxU+uS5xTSeBckI=",
+        "originContent": "2. **Make your changes**: Update or add documentation as needed",
+        "translatedContent": "2. **ทำการเปลี่ยนแปลงของคุณ**: อัปเดตหรือเพิ่มเอกสารตามความจำเป็น"
+      },
+      {
+        "row": 21,
+        "rowsha": "bv4khX63w4WOaQpP3KA0VotcULAh/5aVhDH2dIWGsEw=",
+        "originContent": "3. **Submit a pull request**: Open a PR with your changes for review",
+        "translatedContent": "3. **ส่ง pull request**: เปิด PR พร้อมการเปลี่ยนแปลงของคุณเพื่อขอรีวิว"
+      },
+      {
+        "row": 22,
+        "rowsha": "dMuqDe/JR9KyXGr54Ss1PLDeVL2nJg6Ji1wi0g2ZAr0=",
+        "originContent": "4. **Participate in discussions**: Join the conversation about proposed changes",
+        "translatedContent": "4. **เข้าร่วมการอภิปราย**: เข้าร่วมสนทนาเกี่ยวกับการเปลี่ยนแปลงที่เสนอ"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "xqDPz7HO4hM6MPW51whVNb94VMy8IMSNf1zlONhaoRs=",
+        "originContent": "When contributing, please follow these guidelines:",
+        "translatedContent": "เมื่อมีส่วนร่วม โปรดปฏิบัติตามแนวทางเหล่านี้:"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "hS5ItxgNOL8hAkp1hUqWmYym2XlVINgtKjnItzLbbiU=",
+        "originContent": "- Ensure your changes align with the overall vision and goals of UTCP",
+        "translatedContent": "- ตรวจสอบให้แน่ใจว่าการเปลี่ยนแปลงของคุณสอดคล้องกับวิสัยทัศน์และเป้าหมายโดยรวมของ UTCP"
+      },
+      {
+        "row": 27,
+        "rowsha": "vEDbZdm+VFOaDaYTKbNoxmGgvdvwhQsBTrUL7aFOSHk=",
+        "originContent": "- Follow the established documentation structure and formatting",
+        "translatedContent": "- ปฏิบัติตามโครงสร้างเอกสารและรูปแบบที่กำหนดไว้"
+      },
+      {
+        "row": 28,
+        "rowsha": "B1VWuWiRqJvDBZoyhMNOiCDlb9A1v+A0Fbfqm6EK/TQ=",
+        "originContent": "- Include examples when adding new features or concepts",
+        "translatedContent": "- ใส่ตัวอย่างเมื่อเพิ่มฟีเจอร์หรือแนวคิดใหม่ ๆ"
+      },
+      {
+        "row": 29,
+        "rowsha": "L2YMioMKUwcTwPxXb/3l7Q/E5bfA+cenT8hMenZAZCg=",
+        "originContent": "- Update relevant sections to maintain consistency across the documentation",
+        "translatedContent": "- อัปเดตส่วนที่เกี่ยวข้องเพื่อรักษาความสอดคล้องของเอกสารทั้งหมด"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "/nJ6lknUOllzsC0oY34eeT3TCxG4+y+zcZ2axr8ggpQ=",
+        "originContent": "## Building the Documentation Locally",
+        "translatedContent": "## การสร้างเอกสารในเครื่อง"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+        "originContent": "### Prerequisites",
+        "translatedContent": "### ข้อกำหนดเบื้องต้น"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "ypkXOUI3egKvlW5FpW2D3DLA2sXse5+7W0IFV8e9bF0=",
+        "originContent": "To build and preview the documentation site locally, you'll need:",
+        "translatedContent": "หากต้องการสร้างและดูตัวอย่างเว็บไซต์เอกสารในเครื่อง คุณจะต้องมี:"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "IaFCka+Mkv8Ef89teyUIvzmxaf5+6vrgSzQ1EDYXBMY=",
+        "originContent": "- Ruby version 2.5.0 or higher",
+        "translatedContent": "- Ruby เวอร์ชัน 2.5.0 หรือสูงกว่า"
+      },
+      {
+        "row": 38,
+        "rowsha": "jbLb7nOn7oeegWkZSnf6KjVucMLcCakSlsgqq0cHV7E=",
+        "originContent": "- RubyGems",
+        "translatedContent": "- RubyGems"
+      },
+      {
+        "row": 39,
+        "rowsha": "FEtV6W8Br8cRpORCnMRH7GgA550vZGLCeqQfci6bYjk=",
+        "originContent": "- Bundler",
+        "translatedContent": "- Bundler"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "iJa409tTUC9P1gTULbIw6Kod+KAUdLl5kgZl7whoChE=",
+        "originContent": "### Setup",
+        "translatedContent": "### การตั้งค่า"
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "hG22SbQBn/awFhy/7NjM1QaurZuLva3Zcxx701Nf8Vo=",
+        "originContent": "1. Clone the repository:",
+        "translatedContent": "1. โคลนที่เก็บนี้:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "   ```bash\n   git clone https://github.com/universal-tool-calling-protocol/utcp-specification.git\n   cd utcp-specification\n   ```",
+    "ContentSha": "eTsuVkER6Cc4Y5Ts5fuDqfuuNqBNYLx4GlCxAYjUOQA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   git clone https://github.com/universal-tool-calling-protocol/utcp-specification.git\n   cd utcp-specification\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "PSZH2bhNBfoH5UQn9RFI6ZuWR5oAYnHlkugkxiIVoZY=",
+        "originContent": "   git clone https://github.com/universal-tool-calling-protocol/utcp-specification.git",
+        "translatedContent": "   git clone https://github.com/universal-tool-calling-protocol/utcp-specification.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "dsvRvBy2e/6sJc4XOilsFYPcgqbAq8TjhJfHmWzWfqU=",
+        "originContent": "   cd utcp-specification",
+        "translatedContent": "   cd utcp-specification"
+      },
+      {
+        "row": 4,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n2. Install dependencies:",
+    "ContentSha": "7axmS9yAHWfFa5x86RXNal1TyqIcwHVkbg9dg4se5lk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. ติดตั้ง dependencies:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. ติดตั้ง dependencies:"
+      },
+      {
+        "row": 2,
+        "rowsha": "ksJZLSOlzyNqFrMTkpmMOmHTn1mDIM8A+zSqlEvTL7E=",
+        "originContent": "2. Install dependencies:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "   ```bash\n   bundle install\n   ```",
+    "ContentSha": "snejXIGZG2n8C1HDMtyg5uXhIBkga6WKX4GRTFrsWbQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   bundle install\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "LHr68v3BekLA50Khtt7jNiluS/tSYsOx1L+kg8BkIVE=",
+        "originContent": "   bundle install",
+        "translatedContent": "   bundle install"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Running the Documentation Site\n\nTo build and serve the site locally:\n",
+    "ContentSha": "+zOqhsTxJoTaUIpdpwdIm7S+vDEypk2Uj2oZBlT71LY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### การใช้งานเว็บไซต์เอกสาร\n\nเพื่อสร้างและให้บริการเว็บไซต์นี้ในเครื่อง:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### การใช้งานเว็บไซต์เอกสาร"
+      },
+      {
+        "row": 2,
+        "rowsha": "5K49rtA0bQkWww4xiJAq4XkwaTvrJiC0ATGATib3zFQ=",
+        "originContent": "### Running the Documentation Site",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "เพื่อสร้างและให้บริการเว็บไซต์นี้ในเครื่อง:"
+      },
+      {
+        "row": 4,
+        "rowsha": "4Noirhs1mr44VLxWStjj2ahn8r9P1LtajqKcMRxqgZg=",
+        "originContent": "To build and serve the site locally:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\nbundle exec jekyll serve\n```",
+    "ContentSha": "G5cdXvV2i6gtQ960CwY7zDhALwFFtTnNE5xlqx7qltg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nbundle exec jekyll serve\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "eyWbCzh3fDUI7ubrYxJBGheJ+q845VeNVptOYttlf5g=",
+        "originContent": "bundle exec jekyll serve",
+        "translatedContent": "bundle exec jekyll serve"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nThis will start a local web server at `http://localhost:4000` where you can preview the documentation.\n\n## Documentation Structure\n\nThe UTCP documentation is organized as follows:\n\n- `index.md`: Homepage and introduction to UTCP\n- `docs/`\n  - `introduction.md`: Detailed introduction and core concepts\n  - `for-tool-providers.md`: Guide for implementing tool providers\n  - `for-tool-callers.md`: Guide for implementing tool callers\n  - `providers/`: Documentation for each provider type\n    - `http.md`: HTTP provider\n    - `websocket.md`: WebSocket provider\n    - `cli.md`: CLI provider\n    - `sse.md`: Server-Sent Events provider\n    - etc.\n  - `implementation.md`: Implementation guidelines and best practices\n\n## Working with the Specification\n\n### Modifying the Documentation\n\nThe documentation is written in Markdown format with Jekyll front matter. When making changes:\n\n1. Ensure your Markdown follows the established style\n2. Preview changes locally before submitting PRs\n3. Keep examples up-to-date with the latest specification\n4. Update navigation items in `_config.yml` if adding new pages\n\n### File Organization\n\nWhen adding new documentation:\n\n- Place provider-specific documentation in `docs/providers/`\n- Use consistent front matter with appropriate navigation ordering\n- Include tags for improved searchability on GitHub Pages\n\n## Version Control\n\nThe UTCP specification follows semantic versioning:\n\n- Major versions (1.0, 2.0): Breaking changes to the protocol\n- Minor versions (1.1, 1.2): New features added in a backward-compatible manner\n- Patch versions (1.0.1, 1.0.2): Backward-compatible bug fixes and clarifications\n\n## License\n\nThis specification is distributed under the Mozilla Public License 2.0 (MPL-2.0).\n\n## Additional Resources\n\n- [UTCP GitHub Organization](https://github.com/universal-tool-calling-protocol)\n- [UTCP Website](https://utcp.io)\n- [Reference Implementations](https://github.com/universal-tool-calling-protocol/python-utcp)\n- [Community Discussions](https://github.com/universal-tool-calling-protocol/utcp-specification/discussions)\n",
+    "ContentSha": "fGjSLDggZcFOduTTtROLeyFAks/xtxCytWxdkWxgUIA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "สิ่งนี้จะเริ่มต้นเว็บเซิร์ฟเวอร์ภายในเครื่องที่ `http://localhost:4000` ซึ่งคุณสามารถดูตัวอย่างเอกสารได้\n\n## โครงสร้างเอกสาร\n\nเอกสาร UTCP ถูกจัดระเบียบดังนี้:\n\n- `index.md`: หน้าแรกและแนะนำ UTCP\n- `docs/`\n  - `introduction.md`: แนะนำโดยละเอียดและแนวคิดหลัก\n  - `for-tool-providers.md`: คู่มือสำหรับผู้พัฒนาเครื่องมือ\n  - `for-tool-callers.md`: คู่มือสำหรับผู้เรียกใช้งานเครื่องมือ\n  - `providers/`: เอกสารสำหรับแต่ละประเภทผู้ให้บริการ\n    - `http.md`: ผู้ให้บริการ HTTP\n    - `websocket.md`: ผู้ให้บริการ WebSocket\n    - `cli.md`: ผู้ให้บริการ CLI\n    - `sse.md`: ผู้ให้บริการ Server-Sent Events\n    - ฯลฯ\n  - `implementation.md`: แนวทางปฏิบัติและคำแนะนำในการนำไปใช้งาน\n\n## การทำงานกับข้อกำหนด\n\n### การแก้ไขเอกสาร\n\nเอกสารถูกเขียนด้วยรูปแบบ Markdown พร้อม Jekyll front matter เมื่อมีการเปลี่ยนแปลง:\n\n1. ตรวจสอบให้แน่ใจว่า Markdown ของคุณเป็นไปตามรูปแบบที่กำหนดไว้\n2. ดูตัวอย่างการเปลี่ยนแปลงในเครื่องก่อนส่ง PRs\n3. รักษาตัวอย่างให้ทันสมัยกับข้อกำหนดล่าสุด\n4. อัปเดตรายการนำทางใน `_config.yml` หากเพิ่มหน้าใหม่\n\n### การจัดระเบียบไฟล์\n\nเมื่อเพิ่มเอกสารใหม่:\n\n- วางเอกสารเฉพาะผู้ให้บริการไว้ใน `docs/providers/`\n- ใช้ front matter ให้สอดคล้องกันพร้อมลำดับการนำทางที่เหมาะสม\n- ใส่แท็กเพื่อปรับปรุงการค้นหาบน GitHub Pages\n\n## การควบคุมเวอร์ชัน\n\nข้อกำหนด UTCP ใช้ semantic versioning:\n\n- เวอร์ชันหลัก (1.0, 2.0): การเปลี่ยนแปลงที่ทำให้ใช้งานร่วมกับเวอร์ชันก่อนหน้าไม่ได้\n- เวอร์ชันรอง (1.1, 1.2): ฟีเจอร์ใหม่ที่ยังคงใช้งานร่วมกับเวอร์ชันก่อนหน้าได้\n- เวอร์ชันแก้ไข (1.0.1, 1.0.2): การแก้บั๊กหรือชี้แจงที่ยังคงใช้งานร่วมกับเวอร์ชันก่อนหน้าได้\n\n## สัญญาอนุญาต\n\nข้อกำหนดนี้เผยแพร่ภายใต้สัญญาอนุญาต Mozilla Public License 2.0 (MPL-2.0)\n\n## แหล่งข้อมูลเพิ่มเติม\n\n- [UTCP GitHub Organization](https://github.com/universal-tool-calling-protocol)\n- [UTCP Website](https://utcp.io)\n- [Reference Implementations](https://github.com/universal-tool-calling-protocol/python-utcp)\n- [Community Discussions](https://github.com/universal-tool-calling-protocol/utcp-specification/discussions)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "สิ่งนี้จะเริ่มต้นเว็บเซิร์ฟเวอร์ภายในเครื่องที่ `http://localhost:4000` ซึ่งคุณสามารถดูตัวอย่างเอกสารได้"
+      },
+      {
+        "row": 2,
+        "rowsha": "7dtEaABfbBJi62hZPAaqtV/9SFSBsoUm1QIEdMSA5Pk=",
+        "originContent": "This will start a local web server at `http://localhost:4000` where you can preview the documentation.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## โครงสร้างเอกสาร"
+      },
+      {
+        "row": 4,
+        "rowsha": "O3/JdI6OkBp3KpwpdTBMDHKfrQJ5SvC5b4JUI78WYzY=",
+        "originContent": "## Documentation Structure",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "เอกสาร UTCP ถูกจัดระเบียบดังนี้:"
+      },
+      {
+        "row": 6,
+        "rowsha": "HaHsnswFga9Y3bSnM8AkBTMc4nnhKGw+NgQjYFVxq84=",
+        "originContent": "The UTCP documentation is organized as follows:",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `index.md`: หน้าแรกและแนะนำ UTCP"
+      },
+      {
+        "row": 8,
+        "rowsha": "k9T5W7pKUSxwDzfjziv/NQBRYx7AFpotvNSqrQvh/Js=",
+        "originContent": "- `index.md`: Homepage and introduction to UTCP",
+        "translatedContent": "- `docs/`"
+      },
+      {
+        "row": 9,
+        "rowsha": "yjJ0j1VQ7L3x55b1LywGeL0nDS8nEW5vNugZwVPPOcc=",
+        "originContent": "- `docs/`",
+        "translatedContent": "  - `introduction.md`: แนะนำโดยละเอียดและแนวคิดหลัก"
+      },
+      {
+        "row": 10,
+        "rowsha": "SctsJUuD+7gaeeq4yVpjLiw1wtwnyFqVKLRYcN5ksmg=",
+        "originContent": "  - `introduction.md`: Detailed introduction and core concepts",
+        "translatedContent": "  - `for-tool-providers.md`: คู่มือสำหรับผู้พัฒนาเครื่องมือ"
+      },
+      {
+        "row": 11,
+        "rowsha": "1Pg0pHoJ1RM8njsNT1arBVPWn6t4jlwdr8KaawlmTlk=",
+        "originContent": "  - `for-tool-providers.md`: Guide for implementing tool providers",
+        "translatedContent": "  - `for-tool-callers.md`: คู่มือสำหรับผู้เรียกใช้งานเครื่องมือ"
+      },
+      {
+        "row": 12,
+        "rowsha": "OuzbN65KN5B0x5KhVxBgbVen5v1aUs9cnqWHCYCFXsc=",
+        "originContent": "  - `for-tool-callers.md`: Guide for implementing tool callers",
+        "translatedContent": "  - `providers/`: เอกสารสำหรับแต่ละประเภทผู้ให้บริการ"
+      },
+      {
+        "row": 13,
+        "rowsha": "nrodE5CS/6qmpvUEglsv6Na2xNfyt+lm55vsUuL3Hxs=",
+        "originContent": "  - `providers/`: Documentation for each provider type",
+        "translatedContent": "    - `http.md`: ผู้ให้บริการ HTTP"
+      },
+      {
+        "row": 14,
+        "rowsha": "T9mBLyYJhIqKO0CZOPYS9FRns3vYj0cctZ8D2OVoIfc=",
+        "originContent": "    - `http.md`: HTTP provider",
+        "translatedContent": "    - `websocket.md`: ผู้ให้บริการ WebSocket"
+      },
+      {
+        "row": 15,
+        "rowsha": "km/oPG1a6XhbBaApEy0aBS2E1fP1VXERvY7GgSahM3U=",
+        "originContent": "    - `websocket.md`: WebSocket provider",
+        "translatedContent": "    - `cli.md`: ผู้ให้บริการ CLI"
+      },
+      {
+        "row": 16,
+        "rowsha": "QO0MRNpbt0AIRUqjWOrUqgE3e9nobCOJL6XYGzrUSSE=",
+        "originContent": "    - `cli.md`: CLI provider",
+        "translatedContent": "    - `sse.md`: ผู้ให้บริการ Server-Sent Events"
+      },
+      {
+        "row": 17,
+        "rowsha": "IJS7uQZUsNft5DNCgA0mZbO7c2JTZCX6z4DYhw3nXKI=",
+        "originContent": "    - `sse.md`: Server-Sent Events provider",
+        "translatedContent": "    - ฯลฯ"
+      },
+      {
+        "row": 18,
+        "rowsha": "sqd8y9NhMCpcy681z6fnvGF3jms9TufSoB3/nYu4jOM=",
+        "originContent": "    - etc.",
+        "translatedContent": "  - `implementation.md`: แนวทางปฏิบัติและคำแนะนำในการนำไปใช้งาน"
+      },
+      {
+        "row": 19,
+        "rowsha": "dz1RDqd7ji8T3JhaTzKNjVRr87zK50eGuVQM7rQMZso=",
+        "originContent": "  - `implementation.md`: Implementation guidelines and best practices",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## การทำงานกับข้อกำหนด"
+      },
+      {
+        "row": 21,
+        "rowsha": "De/2Xybl1baY+KZKq2HkxiWF0qstiI1szEYjlLHKP2I=",
+        "originContent": "## Working with the Specification",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### การแก้ไขเอกสาร"
+      },
+      {
+        "row": 23,
+        "rowsha": "N9JHA8eOcUnKtw1PaghZiHYctWsrjmajh6F+xXIC6po=",
+        "originContent": "### Modifying the Documentation",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "เอกสารถูกเขียนด้วยรูปแบบ Markdown พร้อม Jekyll front matter เมื่อมีการเปลี่ยนแปลง:"
+      },
+      {
+        "row": 25,
+        "rowsha": "mFgQsEY150FAXAQjgkrkV8pEOst4/nrU6Y5IXUX8F0w=",
+        "originContent": "The documentation is written in Markdown format with Jekyll front matter. When making changes:",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. ตรวจสอบให้แน่ใจว่า Markdown ของคุณเป็นไปตามรูปแบบที่กำหนดไว้"
+      },
+      {
+        "row": 27,
+        "rowsha": "Ng7cYb6csAcFM2PaJr9PfaL829FnbZWk0AU/2SkfviY=",
+        "originContent": "1. Ensure your Markdown follows the established style",
+        "translatedContent": "2. ดูตัวอย่างการเปลี่ยนแปลงในเครื่องก่อนส่ง PRs"
+      },
+      {
+        "row": 28,
+        "rowsha": "o1CKnVeELNakZNaQgq6Sdd2XcLTarjyG0wDAvjKhvMQ=",
+        "originContent": "2. Preview changes locally before submitting PRs",
+        "translatedContent": "3. รักษาตัวอย่างให้ทันสมัยกับข้อกำหนดล่าสุด"
+      },
+      {
+        "row": 29,
+        "rowsha": "9URY0bV9xLrzCZC7qXqg+WADyjz4yoyD3Q3Qywn608A=",
+        "originContent": "3. Keep examples up-to-date with the latest specification",
+        "translatedContent": "4. อัปเดตรายการนำทางใน `_config.yml` หากเพิ่มหน้าใหม่"
+      },
+      {
+        "row": 30,
+        "rowsha": "Q4PuJvUnrJeT2F6czhllofHf6MWui3xz6kaohipzFzo=",
+        "originContent": "4. Update navigation items in `_config.yml` if adding new pages",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### การจัดระเบียบไฟล์"
+      },
+      {
+        "row": 32,
+        "rowsha": "tR0NjmLLtcoKcrqOHcRwmeryT+K1Uf0AQHcmXOiGxO4=",
+        "originContent": "### File Organization",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "เมื่อเพิ่มเอกสารใหม่:"
+      },
+      {
+        "row": 34,
+        "rowsha": "Hok9SmtDH7aET3sQHXMsMEVImraV7DUP5+elprIySz4=",
+        "originContent": "When adding new documentation:",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- วางเอกสารเฉพาะผู้ให้บริการไว้ใน `docs/providers/`"
+      },
+      {
+        "row": 36,
+        "rowsha": "pmMzbT3BQoaBnFswdmcBV50xwebzmXlCM3Wfc24jX7M=",
+        "originContent": "- Place provider-specific documentation in `docs/providers/`",
+        "translatedContent": "- ใช้ front matter ให้สอดคล้องกันพร้อมลำดับการนำทางที่เหมาะสม"
+      },
+      {
+        "row": 37,
+        "rowsha": "udSenQr71fr8kBz4UCwtfWNmm0PDU4yCj1Z5TrGtUEs=",
+        "originContent": "- Use consistent front matter with appropriate navigation ordering",
+        "translatedContent": "- ใส่แท็กเพื่อปรับปรุงการค้นหาบน GitHub Pages"
+      },
+      {
+        "row": 38,
+        "rowsha": "rmbF/hLTdKcp+rsd55WQ6PTNSx5yClOTogVgaHIqSxI=",
+        "originContent": "- Include tags for improved searchability on GitHub Pages",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## การควบคุมเวอร์ชัน"
+      },
+      {
+        "row": 40,
+        "rowsha": "U3+t+htmDQaHtFH1jj2HhwfnrB1xGYJoxjBFAbgSyhs=",
+        "originContent": "## Version Control",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ข้อกำหนด UTCP ใช้ semantic versioning:"
+      },
+      {
+        "row": 42,
+        "rowsha": "py4vFFG3U1Dtd5pszzXwPhGiTVcXPXqohDBkTnc8SlE=",
+        "originContent": "The UTCP specification follows semantic versioning:",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- เวอร์ชันหลัก (1.0, 2.0): การเปลี่ยนแปลงที่ทำให้ใช้งานร่วมกับเวอร์ชันก่อนหน้าไม่ได้"
+      },
+      {
+        "row": 44,
+        "rowsha": "GPECD4acZ3ehbkh1vfIxbDNhF0YsraiKtRLCW+GB2VE=",
+        "originContent": "- Major versions (1.0, 2.0): Breaking changes to the protocol",
+        "translatedContent": "- เวอร์ชันรอง (1.1, 1.2): ฟีเจอร์ใหม่ที่ยังคงใช้งานร่วมกับเวอร์ชันก่อนหน้าได้"
+      },
+      {
+        "row": 45,
+        "rowsha": "bqca2eCL66tPoVcx2diLC8ckd4dhUmqgNvSG3ll6Jz0=",
+        "originContent": "- Minor versions (1.1, 1.2): New features added in a backward-compatible manner",
+        "translatedContent": "- เวอร์ชันแก้ไข (1.0.1, 1.0.2): การแก้บั๊กหรือชี้แจงที่ยังคงใช้งานร่วมกับเวอร์ชันก่อนหน้าได้"
+      },
+      {
+        "row": 46,
+        "rowsha": "BLY30nIRYYyZHzqtx6ZJtrD9u0ow/iWKNPKJuQcXELA=",
+        "originContent": "- Patch versions (1.0.1, 1.0.2): Backward-compatible bug fixes and clarifications",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## สัญญาอนุญาต"
+      },
+      {
+        "row": 48,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ข้อกำหนดนี้เผยแพร่ภายใต้สัญญาอนุญาต Mozilla Public License 2.0 (MPL-2.0)"
+      },
+      {
+        "row": 50,
+        "rowsha": "BL1drMEZolnyC/60tlzW23Wt5V59l6dKrqnVyieC9gc=",
+        "originContent": "This specification is distributed under the Mozilla Public License 2.0 (MPL-2.0).",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## แหล่งข้อมูลเพิ่มเติม"
+      },
+      {
+        "row": 52,
+        "rowsha": "EPhxePFkwDXs+ndwFD22jCyKffu939Uni96wczsSEog=",
+        "originContent": "## Additional Resources",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [UTCP GitHub Organization](https://github.com/universal-tool-calling-protocol)"
+      },
+      {
+        "row": 54,
+        "rowsha": "JK2hiJH330qCk3TLi/eRURScbTiO4H+bvRBmJF1LBWg=",
+        "originContent": "- [UTCP GitHub Organization](https://github.com/universal-tool-calling-protocol)",
+        "translatedContent": "- [UTCP Website](https://utcp.io)"
+      },
+      {
+        "row": 55,
+        "rowsha": "NB5VKRFDDFe/y+o+gJb10s679D6uM9tQrQ5M8aLCrmo=",
+        "originContent": "- [UTCP Website](https://utcp.io)",
+        "translatedContent": "- [Reference Implementations](https://github.com/universal-tool-calling-protocol/python-utcp)"
+      },
+      {
+        "row": 56,
+        "rowsha": "PLs8xLeUBbrqJOEndCWlsnuk5EOKbyQSAIJ70bb5Bos=",
+        "originContent": "- [Reference Implementations](https://github.com/universal-tool-calling-protocol/python-utcp)",
+        "translatedContent": "- [Community Discussions](https://github.com/universal-tool-calling-protocol/utcp-specification/discussions)"
+      },
+      {
+        "row": 57,
+        "rowsha": "woYp8Xn58L8ybO+dJIMqM2lXnopUFWyf8R0RwDLYLDY=",
+        "originContent": "- [Community Discussions](https://github.com/universal-tool-calling-protocol/utcp-specification/discussions)",
+        "translatedContent": ""
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

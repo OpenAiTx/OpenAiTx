@@ -1,457 +1,271 @@
 [
   {
     "Id": 1,
-    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# Universal Tool Calling Protocol (UTCP) Specification\n\nThis repository contains the official specification documentation for the Universal Tool Calling Protocol (UTCP). UTCP is a modern, flexible, and scalable standard for defining and interacting with tools across various communication protocols.\n\n## What is UTCP?\n\nUTCP provides a standardized way for AI systems and other clients to discover and call tools from different providers, regardless of the underlying protocol used (HTTP, WebSocket, CLI, etc.). This specification defines:\n\n- Tool discovery mechanisms\n- Tool call formats\n- Provider configuration\n- Authentication methods\n- Response handling\n\n## Contributing to the Specification\n\nWe welcome contributions to the UTCP specification! Here's how you can contribute:\n\n1. **Fork the repository**: Create your own fork of the specification repository\n2. **Make your changes**: Update or add documentation as needed\n3. **Submit a pull request**: Open a PR with your changes for review\n4. **Participate in discussions**: Join the conversation about proposed changes\n\nWhen contributing, please follow these guidelines:\n\n- Ensure your changes align with the overall vision and goals of UTCP\n- Follow the established documentation structure and formatting\n- Include examples when adding new features or concepts\n- Update relevant sections to maintain consistency across the documentation\n\n## Building the Documentation Locally\n\n### Prerequisites\n\nTo build and preview the documentation site locally, you'll need:\n\n- Ruby version 2.5.0 or higher\n- RubyGems\n- Bundler\n\n### Setup\n\n1. Clone the repository:",
-    "ContentSha": "rUDTly59RtjkJBuNlI/UT3uajFHvI+fR1Y6vBxr++fU=",
+    "Content": "# Universal Tool Calling Protocol (UTCP) Specification\n\nThis repository contains the official specification documentation for the Universal Tool Calling Protocol (UTCP). UTCP is a modern, flexible, and scalable standard for defining and interacting with tools across various communication protocols.\n\n## What is UTCP?\n\nUTCP provides a standardized way for AI systems and other clients to discover and call tools from different providers, regardless of the underlying protocol used (HTTP, WebSocket, CLI, etc.). This specification defines:\n\n- Tool discovery mechanisms\n- Tool call formats\n- Provider configuration\n- Authentication methods\n- Response handling\n\n## Contributing to the Specification\n\nWe welcome contributions to the UTCP specification! Here's how you can contribute:\n\n1. **Fork the repository**: Create your own fork of the specification repository\n2. **Make your changes**: Update or add documentation as needed\n3. **Submit a pull request**: Open a PR with your changes for review\n4. **Participate in discussions**: Join the conversation about proposed changes\n\nWhen contributing, please follow these guidelines:\n\n- Ensure your changes align with the overall vision and goals of UTCP\n- Follow the established documentation structure and formatting\n- Include examples when adding new features or concepts\n- Update relevant sections to maintain consistency across the documentation\n\n## Building the Documentation Locally\n\n### Prerequisites\n\nTo build and preview the documentation site locally, you'll need:\n\n- Ruby version 2.5.0 or higher\n- RubyGems\n- Bundler\n\n### Setup\n\n1. Clone the repository:",
+    "ContentSha": "QIFRQbzAliPFmjiLU8tett76p76n8fkbiZLlCOqrt1U=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 언어</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# 범용 도구 호출 프로토콜 (UTCP) 명세\n\n이 저장소는 범용 도구 호출 프로토콜(UTCP)의 공식 명세 문서를 포함하고 있습니다. UTCP는 다양한 통신 프로토콜을 통해 도구를 정의하고 상호작용하기 위한 현대적이고 유연하며 확장 가능한 표준입니다.\n\n## UTCP란 무엇인가?\n\nUTCP는 AI 시스템 및 기타 클라이언트가 사용된 기반 프로토콜(HTTP, WebSocket, CLI 등)에 관계없이 다양한 공급자의 도구를 탐색하고 호출할 수 있는 표준화된 방식을 제공합니다. 이 명세는 다음을 정의합니다:\n\n- 도구 탐색 메커니즘\n- 도구 호출 형식\n- 공급자 구성\n- 인증 방법\n- 응답 처리\n\n## 명세에 기여하기\n\nUTCP 명세에 대한 기여를 환영합니다! 기여하는 방법은 다음과 같습니다:\n\n1. **저장소를 포크하세요**: 명세 저장소를 자신의 포크로 만드세요\n2. **변경 사항을 만드세요**: 필요에 따라 문서를 업데이트하거나 추가하세요\n3. **풀 리퀘스트 제출**: 변경 사항을 리뷰를 위해 PR로 제출하세요\n4. **토론에 참여하세요**: 제안된 변경 사항에 대한 대화에 참여하세요\n\n기여 시, 다음 지침을 따라 주세요:\n\n- 변경 사항이 UTCP의 전반적인 비전과 목표에 부합하는지 확인하세요\n- 확립된 문서 구조와 형식을 준수하세요\n- 새로운 기능이나 개념을 추가할 때 예제를 포함하세요\n- 문서 전반의 일관성을 유지하기 위해 관련 섹션을 업데이트하세요\n\n## 문서를 로컬에서 빌드하기\n\n### 필수 조건\n\n문서 사이트를 로컬에서 빌드하고 미리 보려면 다음이 필요합니다:\n\n- Ruby 버전 2.5.0 이상\n- RubyGems\n- Bundler\n\n### 설정\n\n1. 저장소를 클론하세요:</translate-content>\n",
+    "Translation": "# 범용 도구 호출 프로토콜 (UTCP) 명세서\n\n이 저장소는 범용 도구 호출 프로토콜(UTCP)의 공식 명세 문서를 포함하고 있습니다. UTCP는 다양한 통신 프로토콜 전반에서 도구를 정의하고 상호작용하기 위한 현대적이고 유연하며 확장 가능한 표준입니다.\n\n## UTCP란 무엇인가요?\n\nUTCP는 AI 시스템 및 기타 클라이언트가 사용되는 기본 프로토콜(HTTP, WebSocket, CLI 등)에 상관없이 다양한 공급업체의 도구를 발견하고 호출할 수 있도록 표준화된 방법을 제공합니다. 이 명세서는 다음을 정의합니다:\n\n- 도구 발견 메커니즘\n- 도구 호출 형식\n- 공급자 구성\n- 인증 방법\n- 응답 처리\n\n## 명세 기여 방법\n\nUTCP 명세에 대한 기여를 환영합니다! 기여 방법은 다음과 같습니다:\n\n1. **저장소 포크하기**: 명세 저장소를 자신의 계정으로 포크합니다\n2. **변경사항 적용**: 필요에 따라 문서를 업데이트하거나 추가합니다\n3. **풀 리퀘스트 제출**: 변경사항을 리뷰받기 위해 PR을 엽니다\n4. **토론 참여**: 제안된 변경사항에 대한 논의에 참여합니다\n\n기여 시 다음 지침을 따라주세요:\n\n- 변경사항이 UTCP의 전체적인 비전 및 목표와 일치하는지 확인하세요\n- 문서의 기존 구조와 서식을 준수하세요\n- 새로운 기능이나 개념을 추가할 때 예제를 포함하세요\n- 문서 전체의 일관성을 위해 관련 섹션을 업데이트하세요\n\n## 문서 로컬 빌드 방법\n\n### 사전 준비\n\n문서 사이트를 로컬에서 빌드하고 미리보기하려면 아래가 필요합니다:\n\n- Ruby 2.5.0 이상 버전\n- RubyGems\n- Bundler\n\n### 설정\n\n1. 저장소를 클론하세요:",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "<div align=\"right\">"
+        "rowsha": "xJHSdggSTF4Minkry4PQYcIpm4gBczAYq2tsN2az0l8=",
+        "originContent": "# Universal Tool Calling Protocol (UTCP) Specification",
+        "translatedContent": "# 범용 도구 호출 프로토콜 (UTCP) 명세서"
       },
       {
         "row": 2,
-        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
-        "originContent": "<div align=\"right\">",
-        "translatedContent": "  <details>"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 3,
-        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
-        "originContent": "  <details>",
-        "translatedContent": "    <summary >🌐 언어</summary>"
+        "rowsha": "s9peSBzsIcDSE4WNt1AWo/c1H6/EEs7bBjXItDk07Kk=",
+        "originContent": "This repository contains the official specification documentation for the Universal Tool Calling Protocol (UTCP). UTCP is a modern, flexible, and scalable standard for defining and interacting with tools across various communication protocols.",
+        "translatedContent": "이 저장소는 범용 도구 호출 프로토콜(UTCP)의 공식 명세 문서를 포함하고 있습니다. UTCP는 다양한 통신 프로토콜 전반에서 도구를 정의하고 상호작용하기 위한 현대적이고 유연하며 확장 가능한 표준입니다."
       },
       {
         "row": 4,
-        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
-        "originContent": "    <summary >🌐 Language</summary>",
-        "translatedContent": "    <div>"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 5,
-        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
-        "originContent": "    <div>",
-        "translatedContent": "      <div align=\"center\">"
+        "rowsha": "rbnnSrzDhnIaJxLZksSZg1k78qFZ7rPNsYNuNcw8/9g=",
+        "originContent": "## What is UTCP?",
+        "translatedContent": "## UTCP란 무엇인가요?"
       },
       {
         "row": 6,
-        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
-        "originContent": "      <div align=\"center\">",
-        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=en\">English</a>"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 7,
-        "rowsha": "vn9In6RauidIRS8Yty9fxGFCMYy7HkDokzEuwQ5tGfI=",
-        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=en\">English</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=zh-CN\">简体中文</a>"
+        "rowsha": "awC/algqs6hUwK4PEn4JoOjSTt5u9dBHIPOuVKnJHII=",
+        "originContent": "UTCP provides a standardized way for AI systems and other clients to discover and call tools from different providers, regardless of the underlying protocol used (HTTP, WebSocket, CLI, etc.). This specification defines:",
+        "translatedContent": "UTCP는 AI 시스템 및 기타 클라이언트가 사용되는 기본 프로토콜(HTTP, WebSocket, CLI 등)에 상관없이 다양한 공급업체의 도구를 발견하고 호출할 수 있도록 표준화된 방법을 제공합니다. 이 명세서는 다음을 정의합니다:"
       },
       {
         "row": 8,
-        "rowsha": "h8RB4GZtH7JyPuEdVfX0MaJMRKSTZpyoNji9ROiKwa0=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=zh-CN\">简体中文</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=zh-TW\">繁體中文</a>"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 9,
-        "rowsha": "u8cM/j7pbYZbUbOuQXGuGydLLI/yKxFVigahIMthwyQ=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=zh-TW\">繁體中文</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=ja\">日本語</a>"
+        "rowsha": "UlWpBVXovNOvCRblhboLytPX5ckpaUpTLm3/qv9gk4o=",
+        "originContent": "- Tool discovery mechanisms",
+        "translatedContent": "- 도구 발견 메커니즘"
       },
       {
         "row": 10,
-        "rowsha": "t1puOZnqdF45Xin6ITo+sqZGgNma9reCv5j4Yj5m034=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=ja\">日本語</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=ko\">한국어</a>"
+        "rowsha": "IWL9E0A8PpkIv2p2oaCGme5Lm0GBaDbWrFEz4d5jfkE=",
+        "originContent": "- Tool call formats",
+        "translatedContent": "- 도구 호출 형식"
       },
       {
         "row": 11,
-        "rowsha": "APYwMfFJZOcVp0ciVdTS2Giz+hnHM7HalArauJkFgkk=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=ko\">한국어</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=hi\">हिन्दी</a>"
+        "rowsha": "HO8O3bBxgSt7oPptrKesXUpkjvBwZ1YEvZKP2Vvz3uw=",
+        "originContent": "- Provider configuration",
+        "translatedContent": "- 공급자 구성"
       },
       {
         "row": 12,
-        "rowsha": "ZvjKCuW94/Zd8DEBrRRL9jBv6MqX7IPNBA4fdOD2G/k=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=hi\">हिन्दी</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=th\">ไทย</a>"
+        "rowsha": "CQUwzgixFAn22LLEPxIQ3G+YDfHkIqJ58z/7FAca3Fw=",
+        "originContent": "- Authentication methods",
+        "translatedContent": "- 인증 방법"
       },
       {
         "row": 13,
-        "rowsha": "VzfP1KI6MlVGVXtMcjh7JiSy5H1zxYxbrqZ9YQ94veU=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=th\">ไทย</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=fr\">Français</a>"
+        "rowsha": "ceOSzL7KcpbtKqPS/08Q7KcslHQnLha7o5hvggIK2kE=",
+        "originContent": "- Response handling",
+        "translatedContent": "- 응답 처리"
       },
       {
         "row": 14,
-        "rowsha": "rizdSxt/JQcNIWS3NHEvWoc1jORSNCpSbtMtuf4t17w=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=fr\">Français</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=de\">Deutsch</a>"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 15,
-        "rowsha": "7eaIMHescumnA85+CmSrYe1NGl5ZuXnRBuWfM36KIA4=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=de\">Deutsch</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=es\">Español</a>"
+        "rowsha": "0t+A3umpBR2ZYuImEzcPvTfjlUSjpA2ESjlmVzXnEa8=",
+        "originContent": "## Contributing to the Specification",
+        "translatedContent": "## 명세 기여 방법"
       },
       {
         "row": 16,
-        "rowsha": "IEh/OJAC1XwZNZ0VupYLzIc+U3VFXz9IeTABaHIehf8=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=es\">Español</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=it\">Italiano</a>"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 17,
-        "rowsha": "n2Lps8pEr9BIm+2vLkiO41IPvkTvWlvtztCDh6lSjoQ=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=it\">Italiano</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=ru\">Русский</a>"
+        "rowsha": "eke/yHONAqjw5KusMwVgA3KPngGoFUQIGnLrKAJ0Qo0=",
+        "originContent": "We welcome contributions to the UTCP specification! Here's how you can contribute:",
+        "translatedContent": "UTCP 명세에 대한 기여를 환영합니다! 기여 방법은 다음과 같습니다:"
       },
       {
         "row": 18,
-        "rowsha": "eLWrPvmfEwPrnAe3OINKls48mZPpw5aBg2xCCuJjydg=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=ru\">Русский</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=pt\">Português</a>"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 19,
-        "rowsha": "9fkE1lgY+t6BUKzo25UQgNq2tKF5AwEccfXELqSs8EE=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=pt\">Português</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=nl\">Nederlands</a>"
+        "rowsha": "Y8TPmuKwXDKE6LRz88abZl9wdIkYl0RkKl6gKMKA8wM=",
+        "originContent": "1. **Fork the repository**: Create your own fork of the specification repository",
+        "translatedContent": "1. **저장소 포크하기**: 명세 저장소를 자신의 계정으로 포크합니다"
       },
       {
         "row": 20,
-        "rowsha": "gw8O9ASUq8JwTrJxKO4BzCsSpvpn+sCbmYQmyCN5de4=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=nl\">Nederlands</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=pl\">Polski</a>"
+        "rowsha": "AEoHHE0KwbQvdG1L7HkzBXW0HO+gZxU+uS5xTSeBckI=",
+        "originContent": "2. **Make your changes**: Update or add documentation as needed",
+        "translatedContent": "2. **변경사항 적용**: 필요에 따라 문서를 업데이트하거나 추가합니다"
       },
       {
         "row": 21,
-        "rowsha": "oza045g3yFTLdziDJb1pbhsRtc9oKTuBaa/2TtY2g9w=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=pl\">Polski</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=ar\">العربية</a>"
+        "rowsha": "bv4khX63w4WOaQpP3KA0VotcULAh/5aVhDH2dIWGsEw=",
+        "originContent": "3. **Submit a pull request**: Open a PR with your changes for review",
+        "translatedContent": "3. **풀 리퀘스트 제출**: 변경사항을 리뷰받기 위해 PR을 엽니다"
       },
       {
         "row": 22,
-        "rowsha": "4X027TnbCjcPcZL0w1Ja96wB+Ct85Jz2E51Jy66Mrl4=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=ar\">العربية</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=fa\">فارسی</a>"
+        "rowsha": "dMuqDe/JR9KyXGr54Ss1PLDeVL2nJg6Ji1wi0g2ZAr0=",
+        "originContent": "4. **Participate in discussions**: Join the conversation about proposed changes",
+        "translatedContent": "4. **토론 참여**: 제안된 변경사항에 대한 논의에 참여합니다"
       },
       {
         "row": 23,
-        "rowsha": "l7+rDUwpl3Y5rNSI9rEicUyIHZV34jNKUpw0QLcE/AM=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=fa\">فارسی</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=tr\">Türkçe</a>"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 24,
-        "rowsha": "9Kk2rI+tAuDKHe2vzxLBJ+1KLP21FRzhB9bPD+UxKd8=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=tr\">Türkçe</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=vi\">Tiếng Việt</a>"
+        "rowsha": "xqDPz7HO4hM6MPW51whVNb94VMy8IMSNf1zlONhaoRs=",
+        "originContent": "When contributing, please follow these guidelines:",
+        "translatedContent": "기여 시 다음 지침을 따라주세요:"
       },
       {
         "row": 25,
-        "rowsha": "TPUr3SpJPHUivYmrfIIg4I8Kwp9lj5oI2KMCTvqkBfg=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=vi\">Tiếng Việt</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=id\">Bahasa Indonesia</a>"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 26,
-        "rowsha": "NgTyeAK3mj+yRuRrr9bfgpQT+c2ogvUW2hd7GZlCBHo=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=id\">Bahasa Indonesia</a>",
-        "translatedContent": "      </div>"
+        "rowsha": "hS5ItxgNOL8hAkp1hUqWmYym2XlVINgtKjnItzLbbiU=",
+        "originContent": "- Ensure your changes align with the overall vision and goals of UTCP",
+        "translatedContent": "- 변경사항이 UTCP의 전체적인 비전 및 목표와 일치하는지 확인하세요"
       },
       {
         "row": 27,
-        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
-        "originContent": "      </div>",
-        "translatedContent": "    </div>"
+        "rowsha": "vEDbZdm+VFOaDaYTKbNoxmGgvdvwhQsBTrUL7aFOSHk=",
+        "originContent": "- Follow the established documentation structure and formatting",
+        "translatedContent": "- 문서의 기존 구조와 서식을 준수하세요"
       },
       {
         "row": 28,
-        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
-        "originContent": "    </div>",
-        "translatedContent": "  </details>"
+        "rowsha": "B1VWuWiRqJvDBZoyhMNOiCDlb9A1v+A0Fbfqm6EK/TQ=",
+        "originContent": "- Include examples when adding new features or concepts",
+        "translatedContent": "- 새로운 기능이나 개념을 추가할 때 예제를 포함하세요"
       },
       {
         "row": 29,
-        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
-        "originContent": "  </details>",
-        "translatedContent": "</div>"
+        "rowsha": "L2YMioMKUwcTwPxXb/3l7Q/E5bfA+cenT8hMenZAZCg=",
+        "originContent": "- Update relevant sections to maintain consistency across the documentation",
+        "translatedContent": "- 문서 전체의 일관성을 위해 관련 섹션을 업데이트하세요"
       },
       {
         "row": 30,
-        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
-        "originContent": "</div>",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 31,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "# 범용 도구 호출 프로토콜 (UTCP) 명세"
+        "rowsha": "/nJ6lknUOllzsC0oY34eeT3TCxG4+y+zcZ2axr8ggpQ=",
+        "originContent": "## Building the Documentation Locally",
+        "translatedContent": "## 문서 로컬 빌드 방법"
       },
       {
         "row": 32,
-        "rowsha": "xJHSdggSTF4Minkry4PQYcIpm4gBczAYq2tsN2az0l8=",
-        "originContent": "# Universal Tool Calling Protocol (UTCP) Specification",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 33,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "이 저장소는 범용 도구 호출 프로토콜(UTCP)의 공식 명세 문서를 포함하고 있습니다. UTCP는 다양한 통신 프로토콜을 통해 도구를 정의하고 상호작용하기 위한 현대적이고 유연하며 확장 가능한 표준입니다."
+        "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+        "originContent": "### Prerequisites",
+        "translatedContent": "### 사전 준비"
       },
       {
         "row": 34,
-        "rowsha": "s9peSBzsIcDSE4WNt1AWo/c1H6/EEs7bBjXItDk07Kk=",
-        "originContent": "This repository contains the official specification documentation for the Universal Tool Calling Protocol (UTCP). UTCP is a modern, flexible, and scalable standard for defining and interacting with tools across various communication protocols.",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 35,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## UTCP란 무엇인가?"
+        "rowsha": "ypkXOUI3egKvlW5FpW2D3DLA2sXse5+7W0IFV8e9bF0=",
+        "originContent": "To build and preview the documentation site locally, you'll need:",
+        "translatedContent": "문서 사이트를 로컬에서 빌드하고 미리보기하려면 아래가 필요합니다:"
       },
       {
         "row": 36,
-        "rowsha": "rbnnSrzDhnIaJxLZksSZg1k78qFZ7rPNsYNuNcw8/9g=",
-        "originContent": "## What is UTCP?",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 37,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "UTCP는 AI 시스템 및 기타 클라이언트가 사용된 기반 프로토콜(HTTP, WebSocket, CLI 등)에 관계없이 다양한 공급자의 도구를 탐색하고 호출할 수 있는 표준화된 방식을 제공합니다. 이 명세는 다음을 정의합니다:"
+        "rowsha": "IaFCka+Mkv8Ef89teyUIvzmxaf5+6vrgSzQ1EDYXBMY=",
+        "originContent": "- Ruby version 2.5.0 or higher",
+        "translatedContent": "- Ruby 2.5.0 이상 버전"
       },
       {
         "row": 38,
-        "rowsha": "awC/algqs6hUwK4PEn4JoOjSTt5u9dBHIPOuVKnJHII=",
-        "originContent": "UTCP provides a standardized way for AI systems and other clients to discover and call tools from different providers, regardless of the underlying protocol used (HTTP, WebSocket, CLI, etc.). This specification defines:",
-        "translatedContent": ""
-      },
-      {
-        "row": 39,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- 도구 탐색 메커니즘"
-      },
-      {
-        "row": 40,
-        "rowsha": "UlWpBVXovNOvCRblhboLytPX5ckpaUpTLm3/qv9gk4o=",
-        "originContent": "- Tool discovery mechanisms",
-        "translatedContent": "- 도구 호출 형식"
-      },
-      {
-        "row": 41,
-        "rowsha": "IWL9E0A8PpkIv2p2oaCGme5Lm0GBaDbWrFEz4d5jfkE=",
-        "originContent": "- Tool call formats",
-        "translatedContent": "- 공급자 구성"
-      },
-      {
-        "row": 42,
-        "rowsha": "HO8O3bBxgSt7oPptrKesXUpkjvBwZ1YEvZKP2Vvz3uw=",
-        "originContent": "- Provider configuration",
-        "translatedContent": "- 인증 방법"
-      },
-      {
-        "row": 43,
-        "rowsha": "CQUwzgixFAn22LLEPxIQ3G+YDfHkIqJ58z/7FAca3Fw=",
-        "originContent": "- Authentication methods",
-        "translatedContent": "- 응답 처리"
-      },
-      {
-        "row": 44,
-        "rowsha": "ceOSzL7KcpbtKqPS/08Q7KcslHQnLha7o5hvggIK2kE=",
-        "originContent": "- Response handling",
-        "translatedContent": ""
-      },
-      {
-        "row": 45,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 명세에 기여하기"
-      },
-      {
-        "row": 46,
-        "rowsha": "0t+A3umpBR2ZYuImEzcPvTfjlUSjpA2ESjlmVzXnEa8=",
-        "originContent": "## Contributing to the Specification",
-        "translatedContent": ""
-      },
-      {
-        "row": 47,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "UTCP 명세에 대한 기여를 환영합니다! 기여하는 방법은 다음과 같습니다:"
-      },
-      {
-        "row": 48,
-        "rowsha": "eke/yHONAqjw5KusMwVgA3KPngGoFUQIGnLrKAJ0Qo0=",
-        "originContent": "We welcome contributions to the UTCP specification! Here's how you can contribute:",
-        "translatedContent": ""
-      },
-      {
-        "row": 49,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "1. **저장소를 포크하세요**: 명세 저장소를 자신의 포크로 만드세요"
-      },
-      {
-        "row": 50,
-        "rowsha": "Y8TPmuKwXDKE6LRz88abZl9wdIkYl0RkKl6gKMKA8wM=",
-        "originContent": "1. **Fork the repository**: Create your own fork of the specification repository",
-        "translatedContent": "2. **변경 사항을 만드세요**: 필요에 따라 문서를 업데이트하거나 추가하세요"
-      },
-      {
-        "row": 51,
-        "rowsha": "AEoHHE0KwbQvdG1L7HkzBXW0HO+gZxU+uS5xTSeBckI=",
-        "originContent": "2. **Make your changes**: Update or add documentation as needed",
-        "translatedContent": "3. **풀 리퀘스트 제출**: 변경 사항을 리뷰를 위해 PR로 제출하세요"
-      },
-      {
-        "row": 52,
-        "rowsha": "bv4khX63w4WOaQpP3KA0VotcULAh/5aVhDH2dIWGsEw=",
-        "originContent": "3. **Submit a pull request**: Open a PR with your changes for review",
-        "translatedContent": "4. **토론에 참여하세요**: 제안된 변경 사항에 대한 대화에 참여하세요"
-      },
-      {
-        "row": 53,
-        "rowsha": "dMuqDe/JR9KyXGr54Ss1PLDeVL2nJg6Ji1wi0g2ZAr0=",
-        "originContent": "4. **Participate in discussions**: Join the conversation about proposed changes",
-        "translatedContent": ""
-      },
-      {
-        "row": 54,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "기여 시, 다음 지침을 따라 주세요:"
-      },
-      {
-        "row": 55,
-        "rowsha": "xqDPz7HO4hM6MPW51whVNb94VMy8IMSNf1zlONhaoRs=",
-        "originContent": "When contributing, please follow these guidelines:",
-        "translatedContent": ""
-      },
-      {
-        "row": 56,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- 변경 사항이 UTCP의 전반적인 비전과 목표에 부합하는지 확인하세요"
-      },
-      {
-        "row": 57,
-        "rowsha": "hS5ItxgNOL8hAkp1hUqWmYym2XlVINgtKjnItzLbbiU=",
-        "originContent": "- Ensure your changes align with the overall vision and goals of UTCP",
-        "translatedContent": "- 확립된 문서 구조와 형식을 준수하세요"
-      },
-      {
-        "row": 58,
-        "rowsha": "vEDbZdm+VFOaDaYTKbNoxmGgvdvwhQsBTrUL7aFOSHk=",
-        "originContent": "- Follow the established documentation structure and formatting",
-        "translatedContent": "- 새로운 기능이나 개념을 추가할 때 예제를 포함하세요"
-      },
-      {
-        "row": 59,
-        "rowsha": "B1VWuWiRqJvDBZoyhMNOiCDlb9A1v+A0Fbfqm6EK/TQ=",
-        "originContent": "- Include examples when adding new features or concepts",
-        "translatedContent": "- 문서 전반의 일관성을 유지하기 위해 관련 섹션을 업데이트하세요"
-      },
-      {
-        "row": 60,
-        "rowsha": "L2YMioMKUwcTwPxXb/3l7Q/E5bfA+cenT8hMenZAZCg=",
-        "originContent": "- Update relevant sections to maintain consistency across the documentation",
-        "translatedContent": ""
-      },
-      {
-        "row": 61,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 문서를 로컬에서 빌드하기"
-      },
-      {
-        "row": 62,
-        "rowsha": "/nJ6lknUOllzsC0oY34eeT3TCxG4+y+zcZ2axr8ggpQ=",
-        "originContent": "## Building the Documentation Locally",
-        "translatedContent": ""
-      },
-      {
-        "row": 63,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 필수 조건"
-      },
-      {
-        "row": 64,
-        "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
-        "originContent": "### Prerequisites",
-        "translatedContent": ""
-      },
-      {
-        "row": 65,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "문서 사이트를 로컬에서 빌드하고 미리 보려면 다음이 필요합니다:"
-      },
-      {
-        "row": 66,
-        "rowsha": "ypkXOUI3egKvlW5FpW2D3DLA2sXse5+7W0IFV8e9bF0=",
-        "originContent": "To build and preview the documentation site locally, you'll need:",
-        "translatedContent": ""
-      },
-      {
-        "row": 67,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- Ruby 버전 2.5.0 이상"
-      },
-      {
-        "row": 68,
-        "rowsha": "IaFCka+Mkv8Ef89teyUIvzmxaf5+6vrgSzQ1EDYXBMY=",
-        "originContent": "- Ruby version 2.5.0 or higher",
+        "rowsha": "jbLb7nOn7oeegWkZSnf6KjVucMLcCakSlsgqq0cHV7E=",
+        "originContent": "- RubyGems",
         "translatedContent": "- RubyGems"
       },
       {
-        "row": 69,
-        "rowsha": "jbLb7nOn7oeegWkZSnf6KjVucMLcCakSlsgqq0cHV7E=",
-        "originContent": "- RubyGems",
+        "row": 39,
+        "rowsha": "FEtV6W8Br8cRpORCnMRH7GgA550vZGLCeqQfci6bYjk=",
+        "originContent": "- Bundler",
         "translatedContent": "- Bundler"
       },
       {
-        "row": 70,
-        "rowsha": "FEtV6W8Br8cRpORCnMRH7GgA550vZGLCeqQfci6bYjk=",
-        "originContent": "- Bundler",
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 71,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "row": 41,
+        "rowsha": "iJa409tTUC9P1gTULbIw6Kod+KAUdLl5kgZl7whoChE=",
+        "originContent": "### Setup",
         "translatedContent": "### 설정"
       },
       {
-        "row": 72,
-        "rowsha": "iJa409tTUC9P1gTULbIw6Kod+KAUdLl5kgZl7whoChE=",
-        "originContent": "### Setup",
-        "translatedContent": ""
-      },
-      {
-        "row": 73,
+        "row": 42,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "1. 저장소를 클론하세요:</translate-content>"
+        "translatedContent": ""
       },
       {
-        "row": 74,
+        "row": 43,
         "rowsha": "hG22SbQBn/awFhy/7NjM1QaurZuLva3Zcxx701Nf8Vo=",
         "originContent": "1. Clone the repository:",
-        "translatedContent": ""
+        "translatedContent": "1. 저장소를 클론하세요:"
       }
     ],
     "IsCodeBlock": false

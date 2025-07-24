@@ -1,40 +1,10 @@
-<div align="right">
-  <details>
-    <summary >🌐 语言</summary>
-    <div>
-      <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=zh-CN">简体中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=universal-tool-calling-protocol&project=utcp-specification&lang=id">Bahasa Indonesia</a>
-      </div>
-    </div>
-  </details>
-</div>
-
 # 通用工具调用协议（UTCP）规范
 
-本仓库包含通用工具调用协议（UTCP）的官方规范文档。UTCP 是一种现代、灵活且可扩展的标准，用于定义和跨各种通信协议与工具交互。
+本仓库包含通用工具调用协议（UTCP）的官方规范文档。UTCP 是一种现代、灵活且可扩展的标准，用于跨多种通信协议定义和交互工具。
 
 ## 什么是 UTCP？
 
-UTCP 提供了一种标准化方式，使 AI 系统和其他客户端能够发现并调用来自不同提供者的工具，无论底层使用何种协议（HTTP、WebSocket、CLI 等）。本规范定义了：
+UTCP 为 AI 系统和其他客户端提供了一种标准化方式，可从不同提供者发现和调用工具，无论底层协议是 HTTP、WebSocket、CLI 等。本规范定义了：
 
 - 工具发现机制
 - 工具调用格式
@@ -42,36 +12,35 @@ UTCP 提供了一种标准化方式，使 AI 系统和其他客户端能够发�
 - 认证方法
 - 响应处理
 
-## 规范贡献指南
+## 参与规范贡献
 
-欢迎为 UTCP 规范贡献力量！您可以通过以下方式参与：
+我们欢迎对 UTCP 规范的贡献！您可以按以下方式参与：
 
-1. **Fork 仓库**：创建规范仓库的个人 Fork
+1. **Fork 本仓库**：创建规范仓库的个人副本
 2. **进行修改**：根据需要更新或添加文档
-3. **提交 Pull Request**：提交变更请求以供审查
-4. **参与讨论**：加入对提议修改的讨论
+3. **提交 Pull Request**：提交 PR 以便审阅您的更改
+4. **参与讨论**：加入对提案修改的讨论
 
-贡献时，请遵守以下指南：
+参与贡献时，请遵循以下准则：
 
-- 确保您的修改符合 UTCP 的整体愿景和目标
-- 遵循既定的文档结构和格式规范
-- 添加新功能或概念时请包含示例
-- 更新相关章节以保持文档一致性
+- 保证您的更改符合 UTCP 的整体愿景和目标
+- 遵循既定的文档结构和格式
+- 添加新特性或概念时请附上示例
+- 更新相关部分以确保文档的一致性
 
 ## 本地构建文档
 
 ### 前置条件
 
-要在本地构建和预览文档网站，您需要：
+要在本地构建和预览文档站点，您需要：
 
-- Ruby 版本 2.5.0 或更高
+- Ruby 2.5.0 或更高版本
 - RubyGems
 - Bundler
 
-### 设置
+### 安装步骤
 
-1. 克隆仓库：
-
+1. 克隆本仓库：
    ```bash
    git clone https://github.com/universal-tool-calling-protocol/utcp-specification.git
    cd utcp-specification
@@ -150,6 +119,6 @@ UTCP 规范遵循语义化版本控制：
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
 
 ---
